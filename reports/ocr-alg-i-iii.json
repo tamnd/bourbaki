@@ -1,221 +1,85 @@
 {
   "book": "alg-i-iii",
-  "started": "2026-08-10T14:51:37.471218Z",
-  "finished": "2026-08-10T16:07:47.602169Z",
+  "started": "2026-08-10T20:55:06.945219Z",
+  "finished": "2026-08-10T21:05:12.306725Z",
   "batches": [
     {
-      "host": "server2",
-      "id": "alg-i-iii-0042-a512bf",
-      "pages": 5,
-      "wrote": 4,
-      "missing": [
-        "0044.png"
-      ],
-      "pid": 2186223,
-      "elapsed": "31m41s",
-      "log": "─ OCR Batch  bourbaki-ocr/in/alg-i-iii-0042-a512bf  →  bourbaki-ocr/out/alg-i… ─\n  5 image(s)  ·  3 worker(s)  ·  6.0s between starts\n\n  account pool: 10 verified account(s) available\n\n  no-response  0043.png  retry in 30s (attempt 1/4)…\n  no-response  0042.png  retry in 30s (attempt 1/4)…\n  no-response  0044.png  retry in 30s (attempt 1/4)…\n  ok  0042.png  →  0042.md  170.6s\n  ok  0043.png  →  0043.md  164.7s\n  ok  0060.png  →  0060.md  143.6s\n  no-response  0044.png  retry in 60s (attempt 2/4)…\n  no-response  0044.png  retry in 90s (attempt 3/4)…\n  no-response  0044.png  retry in 120s (attempt 4/4)…\n(node:2192327) TimeoutNegativeWarning: -15659.117000000086 is a negative number.\nTimeout duration was set to 1.\n(Use `node --trace-warnings ...` to show where the warning was created)\n  ok  0055.png  →  0055.md  1069.2s\n  fail  0044.png  236.2s  No OCR response: 0044.png never attached (no upload \npreview after 60s)\n  OCR  done=4  fail=1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5/5 0:31:07 0:00:00\n\n──────────────── Batch complete  4 succeeded  1 failed  (of 5) ─────────────────"
-    },
-    {
       "host": "server3",
-      "id": "alg-i-iii-0047-acf4d6",
-      "pages": 5,
-      "wrote": 5,
-      "pid": 1369492,
-      "elapsed": "8m21s"
-    },
-    {
-      "host": "server3",
-      "id": "alg-i-iii-0053-7d0844",
-      "pages": 5,
-      "wrote": 5,
-      "pid": 1367930,
-      "elapsed": "5m16s"
-    },
-    {
-      "host": "server2",
-      "id": "alg-i-iii-0055-232dcb",
-      "pages": 2,
+      "id": "alg-i-iii-0101-0737dd",
+      "pages": 8,
       "wrote": 0,
       "missing": [
-        "0044.png",
-        "0055.png"
+        "0068.png",
+        "0070.png",
+        "0100.png",
+        "0101.png",
+        "0102.png",
+        "0103.png",
+        "0104.png",
+        "0105.png"
       ],
-      "pid": 2221960,
-      "elapsed": "22m56s",
-      "log": "─ OCR Batch  bourbaki-ocr/in/alg-i-iii-0055-232dcb  →  bourbaki-ocr/out/alg-i… ─\n  2 image(s)  ·  3 worker(s)  ·  6.0s between starts\n\n  account pool: 10 verified account(s) available\n\n  no-response  0055.png  retry in 30s (attempt 1/4)…\n  no-response  0044.png  retry in 30s (attempt 1/4)…\n  no-response  0044.png  retry in 60s (attempt 2/4)…\n  no-response  0055.png  retry in 60s (attempt 2/4)…"
-    },
-    {
-      "host": "server2",
-      "id": "alg-i-iii-0055-aebb69",
-      "pages": 3,
-      "wrote": 1,
-      "missing": [
-        "0044.png",
-        "0055.png"
-      ],
-      "pid": 2205958,
-      "elapsed": "18m47s",
-      "log": "─ OCR Batch  bourbaki-ocr/in/alg-i-iii-0055-aebb69  →  bourbaki-ocr/out/alg-i… ─\n  3 image(s)  ·  3 worker(s)  ·  6.0s between starts\n\n  account pool: 10 verified account(s) available\n\n  ok  0060.png  →  0060.md  283.5s\n  no-response  0055.png  retry in 30s (attempt 1/4)…\n  no-response  0044.png  retry in 30s (attempt 1/4)…\n  no-response  0055.png  retry in 60s (attempt 2/4)…\n  no-response  0044.png  retry in 60s (attempt 2/4)…\n  fail  0044.png  343.1s  Locator.count: Frame was detached\n  fail  0055.png  349.1s  Locator.count: Frame was detached\n  OCR  done=1  fail=2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3/3 0:18:00 0:00:00\n\n──────────────── Batch complete  1 succeeded  2 failed  (of 3) ─────────────────"
-    },
-    {
-      "host": "server3",
-      "id": "alg-i-iii-0059-18e8d6",
-      "pages": 4,
-      "wrote": 1,
-      "missing": [
-        "0045.png",
-        "0051.png",
-        "0059.png"
-      ],
-      "pid": 1374363,
-      "elapsed": "23m1s",
-      "log": "─ OCR Batch  bourbaki-ocr/in/alg-i-iii-0059-18e8d6  →  bourbaki-ocr/out/alg-i… ─\n  4 image(s)  ·  4 worker(s)  ·  6.0s between starts\n\n  account pool: 12 verified account(s) available\n\n  ok  0057.png  →  0057.md  75.6s\n  no-response  0045.png  retry in 30s (attempt 1/4)…\n  no-response  0051.png  retry in 30s (attempt 1/4)…\n  no-response  0059.png  retry in 30s (attempt 1/4)…\n  no-response  0051.png  retry in 60s (attempt 2/4)…\n  no-response  0059.png  retry in 60s (attempt 2/4)…\n  no-response  0051.png  retry in 90s (attempt 3/4)…\n  no-response  0059.png  retry in 90s (attempt 3/4)…\n  no-response  0051.png  retry in 120s (attempt 4/4)…\n  no-response  0059.png  retry in 120s (attempt 4/4)…\n  fail  0051.png  123.5s  No OCR response: 0051.png never attached (no upload \npreview after 60s)\n  fail  0059.png  122.9s  No OCR response: 0059.png never attached (no upload \npreview after 60s)"
-    },
-    {
-      "host": "server3",
-      "id": "alg-i-iii-0059-1c762b",
-      "pages": 3,
-      "wrote": 0,
-      "missing": [
-        "0045.png",
-        "0051.png",
-        "0059.png"
-      ],
-      "pid": 1377369,
-      "elapsed": "17m36s",
-      "log": "3 image(s)  ·  4 worker(s)  ·  6.0s between starts\n\n  account pool: 12 verified account(s) available\n\n  no-response  0045.png  retry in 30s (attempt 1/4)…\n  no-response  0051.png  retry in 30s (attempt 1/4)…\n  no-response  0059.png  retry in 30s (attempt 1/4)…\n  no-response  0051.png  retry in 60s (attempt 2/4)…\n  no-response  0059.png  retry in 60s (attempt 2/4)…\n  no-response  0045.png  retry in 60s (attempt 2/4)…\n  no-response  0051.png  retry in 90s (attempt 3/4)…\n  no-response  0059.png  retry in 90s (attempt 3/4)…\n  no-response  0045.png  retry in 90s (attempt 3/4)…\n  no-response  0059.png  retry in 120s (attempt 4/4)…\n  no-response  0045.png  retry in 120s (attempt 4/4)…\n  no-response  0051.png  retry in 120s (attempt 4/4)…\n  fail  0059.png  140.0s  No OCR response: 0059.png never attached (no upload \npreview after 60s)\n  fail  0045.png  136.0s  No OCR response: 0045.png never attached (no upload \npreview after 60s)\n  fail  0051.png  137.0s  No OCR response: 0051.png never attached (no upload \npreview after 60s)\n  OCR  done=0  fail=3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3/3 0:16:53 0:00:00\n\n──────────────── Batch complete  0 succeeded  3 failed  (of 3) ─────────────────"
-    },
-    {
-      "host": "server3",
-      "id": "alg-i-iii-0059-2cf2d4",
-      "pages": 5,
-      "wrote": 3,
-      "missing": [
-        "0045.png",
-        "0057.png"
-      ],
-      "pid": 1370998,
-      "elapsed": "21m25s",
-      "log": "account pool: 12 verified account(s) available\n\n  no-response  0045.png  retry in 30s (attempt 1/4)…\n  no-response  0050.png  retry in 30s (attempt 1/4)…\n  no-response  0051.png  retry in 30s (attempt 1/4)…\n  no-response  0057.png  retry in 30s (attempt 1/4)…\n  no-response  0045.png  retry in 60s (attempt 2/4)…\n  no-response  0057.png  retry in 60s (attempt 2/4)…\n  no-response  0045.png  retry in 90s (attempt 3/4)…\n  no-response  0057.png  retry in 90s (attempt 3/4)…\n  ok  0051.png  →  0051.md  439.1s\n  ok  0059.png  →  0059.md  85.4s\n  no-response  0045.png  retry in 120s (attempt 4/4)…\n  no-response  0057.png  retry in 120s (attempt 4/4)…\n  fail  0045.png  132.2s  No OCR response: 0045.png never attached (no upload \npreview after 60s)\n  fail  0057.png  132.2s  No OCR response: 0057.png never attached (no upload \npreview after 60s)\n(node:1371897) TimeoutNegativeWarning: -15650.099000000046 is a negative number.\nTimeout duration was set to 1.\n(Use `node --trace-warnings ...` to show where the warning was created)\n  ok  0050.png  →  0050.md  978.0s\n  OCR  done=3  fail=2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5/5 0:19:03 0:00:00\n\n──────────────── Batch complete  3 succeeded  2 failed  (of 5) ─────────────────"
+      "pid": 1464639,
+      "elapsed": "10m2s",
+      "log": "─ OCR Batch  bourbaki-ocr/in/alg-i-iii-0101-0737dd  →  bourbaki-ocr/out/alg-i… ─\n  8 image(s)  ·  1 worker(s)  ·  6.0s between starts\n\n  account pool: 12 verified account(s) available\n\n  [ban] Profile slot chatgpt-profile-15 rate-limited until 23:07:07 — will rotate to a fresh slot.\n  no-response  0068.png  retry in 30s (attempt 1/4): 0068.png never attached \n(profile=chatgpt-profile-15, no upload preview after 22s, \ntestid=accounts-profile-button, testid=upload-photos-input, aria=Add files and\n  [ban] Profile slot chatgpt-profile-18 rate-limited until 23:08:28 — will rotate to a fresh slot.\n  no-response  0068.png  retry in 60s (attempt 2/4): no attach control on the \npage (profile=chatgpt-profile-18, form-images=0, url=/, composer=no, login=no)\n  [ban] Profile slot chatgpt-profile-21 rate-limited until 23:10:38 — will rotate to a fresh slot.\n  no-response  0068.png  retry in 90s (attempt 3/4): 0068.png never attached \n(profile=chatgpt-profile-21, no upload preview after 22s, \ntestid=accounts-profile-button, testid=upload-photos-input, aria=Add files and\n  [ban] Profile slot chatgpt-profile-16 rate-limited until 23:13:00 — will rotate to a fresh slot.\n  no-response  0068.png  retry in 120s (attempt 4/4): no attach control on the \npage (profile=chatgpt-profile-16, form-images=0, url=/, composer=no, login=no)"
     }
   ],
-  "accepted": 15,
-  "rejected": 17,
-  "dead": 5,
-  "rules": {
-    "math": 3,
-    "short": 1
-  },
+  "accepted": 0,
+  "rejected": 8,
+  "dead": 2,
   "failures": [
     {
-      "page": 44,
-      "attempts": 1,
-      "state": "pending",
-      "reason": "no answer came back for this page"
-    },
-    {
-      "page": 44,
+      "page": 68,
       "attempts": 3,
       "state": "dead",
       "reason": "no answer came back for this page"
     },
     {
-      "page": 44,
-      "attempts": 2,
-      "state": "pending",
-      "reason": "no answer came back for this page"
-    },
-    {
-      "page": 45,
-      "attempts": 1,
-      "state": "pending",
-      "reason": "no answer came back for this page"
-    },
-    {
-      "page": 45,
+      "page": 70,
       "attempts": 3,
       "state": "dead",
       "reason": "no answer came back for this page"
     },
     {
-      "page": 45,
-      "attempts": 2,
-      "state": "pending",
-      "reason": "no answer came back for this page"
-    },
-    {
-      "page": 51,
-      "attempts": 1,
-      "state": "pending",
-      "reason": "short: 45 characters, want at least 200"
-    },
-    {
-      "page": 51,
-      "attempts": 2,
-      "state": "pending",
-      "reason": "no answer came back for this page"
-    },
-    {
-      "page": 51,
-      "attempts": 3,
-      "state": "dead",
-      "reason": "no answer came back for this page"
-    },
-    {
-      "page": 55,
-      "attempts": 2,
-      "state": "pending",
-      "reason": "no answer came back for this page"
-    },
-    {
-      "page": 55,
-      "attempts": 1,
-      "state": "pending",
-      "reason": "math: 95 inline delimiters, an odd number"
-    },
-    {
-      "page": 55,
-      "attempts": 3,
-      "state": "dead",
-      "reason": "no answer came back for this page"
-    },
-    {
-      "page": 57,
+      "page": 100,
       "attempts": 1,
       "state": "pending",
       "reason": "no answer came back for this page"
     },
     {
-      "page": 59,
-      "attempts": 2,
+      "page": 101,
+      "attempts": 1,
       "state": "pending",
       "reason": "no answer came back for this page"
     },
     {
-      "page": 59,
+      "page": 102,
       "attempts": 1,
       "state": "pending",
-      "reason": "math: 181 inline delimiters, an odd number"
-    },
-    {
-      "page": 59,
-      "attempts": 3,
-      "state": "dead",
       "reason": "no answer came back for this page"
     },
     {
-      "page": 60,
+      "page": 103,
       "attempts": 1,
       "state": "pending",
-      "reason": "math: 141 inline delimiters, an odd number"
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 104,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 105,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
     }
   ],
   "per_host": {
-    "server2": 3,
-    "server3": 12
+    "server3": 0
   },
   "host_times": {
-    "server2": "1h13m23s",
-    "server3": "1h15m39s"
+    "server3": "10m2s"
   }
 }
