@@ -22,21 +22,21 @@
   ],
   "steps": [
     {
-      "at_pdf_page": 486,
+      "at_pdf_page": 485,
       "chapter": "VIII",
       "from_offset": 17,
       "to_offset": 16,
       "missing_pages": [
-        469
+        468
       ]
     },
     {
-      "at_pdf_page": 499,
+      "at_pdf_page": 498,
       "chapter": "VIII",
       "from_offset": 16,
       "to_offset": 15,
       "missing_pages": [
-        483
+        482
       ]
     }
   ],
