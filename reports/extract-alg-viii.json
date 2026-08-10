@@ -1,0 +1,406 @@
+{
+  "book": "alg-viii",
+  "pages": 505,
+  "clean": 449,
+  "flagged": 45,
+  "empty": 11,
+  "reasons": {
+    "diagram": 29,
+    "dropped-glyph": 7,
+    "empty": 11,
+    "tall-delimiter": 9
+  },
+  "flagged_pages": [
+    {
+      "pdf_page": 41,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 61,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 76,
+      "page_label": "A VIII.59",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 77,
+      "page_label": "A VIII.60",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 81,
+      "page_label": "A VIII.64",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 88,
+      "page_label": "A VIII.71",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 93,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 108,
+      "page_label": "A VIII.91",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 118,
+      "page_label": "A VIII.101",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 127,
+      "page_label": "A VIII.110",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 135,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 151,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 199,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 201,
+      "page_label": "A VIII.184",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 205,
+      "page_label": "A VIII.188",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 207,
+      "page_label": "A VIII.190",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 218,
+      "page_label": "A VIII.201",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 225,
+      "page_label": "A VIII.208",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 257,
+      "page_label": "A VIII.240",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 267,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 286,
+      "page_label": "A VIII.269",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 304,
+      "page_label": "A VIII.287",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 305,
+      "page_label": "A VIII.288",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 307,
+      "page_label": "A VIII.290",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 308,
+      "page_label": "A VIII.291",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 310,
+      "page_label": "A VIII.293",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 311,
+      "page_label": "A VIII.294",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 312,
+      "page_label": "A VIII.295",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 316,
+      "page_label": "A VIII.299",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 339,
+      "page_label": "A VIII.322",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 342,
+      "page_label": "A VIII.325",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 346,
+      "page_label": "A VIII.329",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 351,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 353,
+      "page_label": "A VIII.336",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 365,
+      "page_label": "A VIII.348",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 371,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 373,
+      "page_label": "A VIII.356",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 379,
+      "page_label": "A VIII.362",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 381,
+      "page_label": "A VIII.364",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 389,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 403,
+      "page_label": "A VIII.386",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 406,
+      "page_label": "A VIII.389",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 407,
+      "page_label": "A VIII.390",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 413,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 416,
+      "page_label": "A VIII.399",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 418,
+      "page_label": "A VIII.401",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 420,
+      "page_label": "A VIII.403",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 423,
+      "page_label": "A VIII.406",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 424,
+      "page_label": "A VIII.407",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 437,
+      "page_label": "A VIII.420",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 438,
+      "page_label": "A VIII.421",
+      "flags": [
+        "diagram"
+      ]
+    },
+    {
+      "pdf_page": 471,
+      "page_label": "A VIII.454",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 472,
+      "page_label": "A VIII.455",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 473,
+      "page_label": "A VIII.456",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 474,
+      "page_label": "A VIII.457",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 477,
+      "page_label": "A VIII.460",
+      "flags": [
+        "dropped-glyph"
+      ]
+    }
+  ],
+  "two_column_pages": [
+    498,
+    499,
+    500,
+    501,
+    502,
+    503,
+    504,
+    505
+  ]
+}
