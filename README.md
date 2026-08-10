@@ -1,72 +1,81 @@
 # bourbaki
 
-A permanently-addressable, multilingual Markdown edition of Nicolas Bourbaki's
-*Éléments de mathématique*, built from the original PDFs, organised in the
-spirit of the [Stacks Project](https://stacks.math.columbia.edu/), with every
-exercise solved and verified.
+Bourbaki's *Éléments de mathématique* as Markdown, with permanent tags, translations, and worked exercises.
 
-This repository holds the **corpus**: Markdown, tags, manifests and reports.
-The **code** that produces it lives in
-[`tamnd/bourbaki-solver`](https://github.com/tamnd/bourbaki-solver).
+The source PDFs go in, Markdown comes out. Every numbered statement gets a four-character tag that never changes, so you can cite a result and have the citation still work after the text is re-extracted, re-split, or renumbered. That idea is lifted straight from the [Stacks Project](https://stacks.math.columbia.edu/).
 
-## Scope
+This repo is the corpus only. The code that builds it lives in [tamnd/bourbaki-solver](https://github.com/tamnd/bourbaki-solver).
 
-| Book | Chapters | Edition | Pages | Source |
-| --- | --- | --- | --- | --- |
-| Algebra | I, II, III | 1998, Springer | 734 | scanned (JBIG2, 600 dpi) |
-| Algebra | VIII | 2023, Springer Nature | 505 | born-digital |
+## What is in scope
 
-The source PDFs are **not** in this repository and never will be. They are
-copyright Springer / N. Bourbaki. This corpus exists for personal study.
+| Book | Chapters | Edition | Pages | Sections | PDF |
+| --- | --- | --- | --- | --- | --- |
+| Algebra | I, II, III | 1998, Springer | 734 | 32 | scan, JBIG2 at 600 dpi |
+| Algebra | IV, V, VI, VII | 2003, Springer | 460 | 30 | scan, JBIG2 at 600 dpi |
+| Algebra | VIII | 2023, Springer Nature | 505 | 21 | born digital |
 
-## Permanent tags
+1699 pages, 83 sections, chapters I through VIII of the Book *Algebra*. Chapters IX and X have no English translation, so they are out of scope until one exists.
 
-Every numbered statement — definition, proposition, theorem, lemma, corollary,
-remark, example, exercise — carries a four-character tag that is assigned once
-and never changes, never gets reused, and survives any renumbering of the text.
-This is the Stacks Project's contract, adopted verbatim.
+The two scans need vision OCR. The 2023 volume has a real text layer and extracts natively with `pdftotext -layout`, which is why it goes first.
+
+The PDFs are not here and will not be. They are copyright Springer and N. Bourbaki. This corpus is for personal study.
+
+## Running heads differ per volume
+
+Worth knowing before you touch the page-map code, because each volume prints its locators differently:
+
+```
+1998, Ch. I     I                    ALGEBRAIC STRUCTURES
+                                     p-GROUPS                         §6.5
+2003, Ch. IV    A. IV. 2             POLYNOMIALS AND RATIONAL FRACTIONS   §1
+                No. 2                POLYNOMIALS                      A.IV.3
+2023, Ch. VIII  No 4                 POLYNOMIALS WITH ...              A VIII.13
+```
+
+Bourbaki cross-references are page based, as in `VIII, p. 3, Proposition 3`, so the page map is not decoration. It is the key the reference resolver joins on. The 1998 volume does not print a page locator in its running head at all, which is why its page map is anchored and interpolated rather than read off directly.
+
+## Tags
 
 ```markdown
 #### Proposition 6 {#alg-viii-s1-prop-6 .statement tag=0A3F}
 ```
 
-`tags/tags` is append-only:
+`tags/tags` is append only, one line per statement:
 
 ```
 0A3F,alg-viii-s1-prop-6
 ```
 
-A tag is the stable way to cite a result across the English, Vietnamese,
-Chinese and Japanese editions: all four use the same tag for the same
-statement.
+A tag is never reused and never edited. If a label has to change, the tag follows the statement and the old label goes to `tags/aliases`. The English, Vietnamese, Chinese and Japanese editions all use the same tag for the same statement, so a tag is the one identifier that works across all four.
 
 ## Layout
 
 ```
-content/en/alg/<CH>/NN_sN_<slug>.md        one file per §
-content/en/alg/<CH>/exercises/sN/NN.md     one file per exercise
-content/{vi,zh,ja}/…                       same tree, same tags
-content/solutions/<lang>/alg/<CH>/sN/NN.md verified solutions
-tags/                                      the permanent tag index
-manifests/                                 books, TOC, page maps, refs, glossary
-figures/                                   cropped diagrams (small, committed)
-reports/                                   audit, usage, coverage, scorecards
+content/en/alg/<CH>/NN_sN_<slug>.md          one file per §
+content/en/alg/<CH>/exercises/sN/NN.md       one file per exercise
+content/{vi,zh,ja}/...                       same tree, same tags
+content/solutions/<lang>/alg/<CH>/sN/NN.md   verified solutions
+tags/                                        permanent tag index
+manifests/                                   books, TOC, page maps, refs, glossary
+figures/                                     cropped diagrams, small, committed
+reports/                                     audit, usage, coverage, scorecards
 ```
 
-Ignored: `pdf/`, `images/`, `work/`.
+`pdf/`, `images/` and `work/` are gitignored. Nothing large or copyrighted is committed.
 
 ## Coverage
 
 <!-- BEGIN COVERAGE -->
-_Not yet generated. Run `bourbaki report coverage --write-readme`._
+Nothing generated yet. Run `bourbaki report coverage --write-readme`.
 <!-- END COVERAGE -->
 
-## Reproducing
+## Building it
 
 ```sh
 export BOURBAKI_CORPUS=$PWD
-bourbaki books add "pdf/en/Algebra I Chapters 1-3 (1998, Springer).pdf" --id alg-i-iii
-bourbaki books add "pdf/en/Algebra Chapter 8 (2023, Springer Nature).pdf"  --id alg-viii
+bourbaki books add "pdf/en/Algebra I Chapters 1-3 (1998, Springer).pdf"     --id alg-i-iii
+bourbaki books add "pdf/en/Algebra II Chapters 4 - 7 (2003, Springer).pdf"  --id alg-iv-vii
+bourbaki books add "pdf/en/Algebra Chapter 8 (2023, Springer Nature).pdf"   --id alg-viii
 bourbaki pagemap build --book alg-viii
 bourbaki extract  --book alg-viii
 bourbaki render   --book alg-i-iii --dpi 300
@@ -77,11 +86,10 @@ bourbaki tags assign && bourbaki tags merge && bourbaki tags verify
 bourbaki audit --report reports/audit.md
 ```
 
-Full specification: `docs/spec/` in `tamnd/bourbaki-solver`.
+OCR runs against a small fleet of hosts over SSH. Round trips are slow, roughly 150 seconds a call, so every long stage is resumable and safe to interrupt.
+
+The full spec is in `docs/spec/` over in the solver repo.
 
 ## Licence
 
-The transcription, translations and solutions in this repository are derived
-works of copyrighted material and are here for personal study and educational
-purposes only. *Éléments de mathématique* is copyright N. Bourbaki and its
-publishers. No source PDF is distributed here.
+Transcriptions, translations and solutions here are derived from copyrighted material and exist for personal study only. *Éléments de mathématique* is copyright N. Bourbaki and its publishers. No source PDF is distributed.
