@@ -1,0 +1,11 @@
+# List of current tags in the bourbaki corpus
+# Each line is of the form
+#	tag,full_label
+# where full_label is the statement label as it occurs in content/en/**,
+# for example
+#	#### Proposition 6 {#alg-viii-s1-prop-6 .statement tag=0A3F}
+# has full_label alg-viii-s1-prop-6.
+#
+# This file is APPEND-ONLY. A tag, once assigned, is never reused and never
+# changes. Statements removed from the corpus move to tags/inactive; their
+# tags are burned forever. See docs/spec/01-corpus-model.md in bourbaki-solver.

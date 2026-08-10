@@ -1,0 +1,3 @@
+# Label renames: OLD_LABEL,NEW_LABEL
+# The tag follows the label. Every in-place edit to tags/tags must be
+# justified by a line here and recorded in tags/migrations.log.

@@ -1,0 +1,22 @@
+# Source PDFs — copyrighted, never committed
+pdf/
+
+# Rendered page images (OCR input, large)
+/images/
+
+# Scratch: OCR output before assembly, job queue, caches
+/work/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Build artifacts
+*.log
+!reports/*.log
+site/
