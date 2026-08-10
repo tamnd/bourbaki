@@ -1,0 +1,83 @@
+{
+  "book": "alg-i-iii",
+  "grammar": "foot-number",
+  "pagination": "continuous",
+  "pdf_pages": 734,
+  "body_pages": 710,
+  "front_matter_pages": 24,
+  "counts": {
+    "foot": 703,
+    "interpolated": 7,
+    "none": 24
+  },
+  "printed_pct_of_body": 99.01408450704226,
+  "chapters": [
+    {
+      "chapter": "I",
+      "first_pdf_page": 25,
+      "last_pdf_page": 214,
+      "first_page": 1,
+      "last_page": 190
+    },
+    {
+      "chapter": "II",
+      "first_pdf_page": 215,
+      "last_pdf_page": 450,
+      "first_page": 191,
+      "last_page": 426
+    },
+    {
+      "chapter": "III",
+      "first_pdf_page": 451,
+      "last_pdf_page": 734,
+      "first_page": 427,
+      "last_page": 710
+    }
+  ],
+  "steps": [],
+  "conflicts": [],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 24,
+      "pages": 24,
+      "confidence": "none"
+    },
+    {
+      "from": 25,
+      "to": 25,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 48,
+      "to": 48,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 68,
+      "to": 68,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 450,
+      "to": 450,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 692,
+      "to": 692,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 733,
+      "to": 734,
+      "pages": 2,
+      "confidence": "interpolated"
+    }
+  ]
+}
