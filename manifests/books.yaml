@@ -23,6 +23,8 @@ books:
       extraction: ocr
       page_width_pt: 363.12
       page_height_pt: 565.56
+      grammar: foot-number
+      pagination: continuous
     - id: alg-iv-vii
       book: alg
       title: Algebra II, Chapters 4-7
@@ -47,6 +49,8 @@ books:
       extraction: ocr
       page_width_pt: 385.92
       page_height_pt: 596.16
+      grammar: head-label
+      pagination: per-chapter
     - id: alg-viii
       book: alg
       title: Algebra, Chapter 8
@@ -62,3 +66,5 @@ books:
       extraction: native
       page_width_pt: 439.42
       page_height_pt: 680.315
+      grammar: head-label
+      pagination: per-chapter

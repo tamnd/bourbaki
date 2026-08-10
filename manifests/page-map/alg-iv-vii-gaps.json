@@ -1,0 +1,369 @@
+{
+  "book": "alg-iv-vii",
+  "grammar": "head-label",
+  "pagination": "per-chapter",
+  "pdf_pages": 460,
+  "body_pages": 434,
+  "front_matter_pages": 26,
+  "counts": {
+    "head": 373,
+    "interpolated": 61,
+    "none": 26
+  },
+  "printed_pct_of_body": 85.9447004608295,
+  "chapters": [
+    {
+      "chapter": "IV",
+      "first_pdf_page": 10,
+      "last_pdf_page": 114,
+      "first_page": 1,
+      "last_page": 105
+    },
+    {
+      "chapter": "V",
+      "first_pdf_page": 115,
+      "last_pdf_page": 311,
+      "first_page": 1,
+      "last_page": 197
+    },
+    {
+      "chapter": "VI",
+      "first_pdf_page": 312,
+      "last_pdf_page": 359,
+      "first_page": 1,
+      "last_page": 48
+    },
+    {
+      "chapter": "VII",
+      "first_pdf_page": 360,
+      "last_pdf_page": 443,
+      "first_page": 1,
+      "last_page": 84
+    }
+  ],
+  "steps": [],
+  "conflicts": [
+    {
+      "pdf_page": 92,
+      "read_chapter": "V",
+      "read": 83,
+      "chapter": "IV",
+      "fitted": 83,
+      "raw": "No. 7                               SYMMETRIC FUNCTIONS                      A. V.83"
+    },
+    {
+      "pdf_page": 216,
+      "read_chapter": "V",
+      "read": 302,
+      "chapter": "V",
+      "fitted": 102,
+      "raw": "A. V. 3 02                           COMMUTATIVE FIELDS                                 §13"
+    },
+    {
+      "pdf_page": 246,
+      "read_chapter": "V",
+      "read": 192,
+      "chapter": "V",
+      "fitted": 132,
+      "raw": "A. V. 192.                        COMMUTATIVE FIELDS                              § 16"
+    },
+    {
+      "pdf_page": 248,
+      "read_chapter": "V",
+      "read": 334,
+      "chapter": "V",
+      "fitted": 134,
+      "raw": "A. V. 33 4                        COMMUTATIVE FIELDS                             § 16"
+    }
+  ],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 9,
+      "pages": 9,
+      "confidence": "none"
+    },
+    {
+      "from": 10,
+      "to": 10,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 36,
+      "to": 36,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 38,
+      "to": 38,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 67,
+      "to": 67,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 78,
+      "to": 79,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 92,
+      "to": 92,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 95,
+      "to": 95,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 112,
+      "to": 112,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 115,
+      "to": 115,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 118,
+      "to": 118,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 132,
+      "to": 132,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 158,
+      "to": 158,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 168,
+      "to": 168,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 170,
+      "to": 170,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 174,
+      "to": 174,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 207,
+      "to": 207,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 216,
+      "to": 216,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 242,
+      "to": 242,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 246,
+      "to": 246,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 248,
+      "to": 248,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 259,
+      "to": 259,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 294,
+      "to": 294,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 296,
+      "to": 296,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 311,
+      "to": 312,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 314,
+      "to": 315,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 321,
+      "to": 321,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 331,
+      "to": 331,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 333,
+      "to": 333,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 335,
+      "to": 337,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 341,
+      "to": 341,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 343,
+      "to": 344,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 349,
+      "to": 349,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 354,
+      "to": 361,
+      "pages": 8,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 373,
+      "to": 373,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 375,
+      "to": 375,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 377,
+      "to": 377,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 382,
+      "to": 382,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 385,
+      "to": 385,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 407,
+      "to": 407,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 409,
+      "to": 409,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 412,
+      "to": 412,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 422,
+      "to": 423,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 428,
+      "to": 428,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 432,
+      "to": 432,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 439,
+      "to": 439,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 441,
+      "to": 442,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 444,
+      "to": 460,
+      "pages": 17,
+      "confidence": "none"
+    }
+  ]
+}
