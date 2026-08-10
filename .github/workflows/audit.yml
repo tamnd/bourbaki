@@ -1,0 +1,45 @@
+name: audit
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  # The volumes are copyrighted and the page renders are large. Neither belongs in
+  # git, and .gitignore only stops the ones nobody adds by hand. This job is the
+  # part that fails the build when someone does.
+  binaries:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: no PDFs or page images
+        run: |
+          bad=$(git ls-files -- '*.pdf' '*.png' '*.jpg' '*.jpeg' '*.tif' '*.tiff' '*.ppm' '*.pgm')
+          if [ -n "$bad" ]; then
+            echo "these are committed and must not be:"
+            echo "$bad"
+            exit 1
+          fi
+      - name: nothing over a megabyte
+        run: |
+          bad=$(git ls-files -z | xargs -0 -I{} sh -c 'set -- $(wc -c < "{}"); [ "$1" -gt 1048576 ] && echo "$1 {}"' || true)
+          if [ -n "$bad" ]; then
+            echo "these are larger than a megabyte:"
+            echo "$bad"
+            exit 1
+          fi
+
+  # The corpus audit proper, tags resolved and figures present and prose read back
+  # against the page, is bourbaki audit. It arrives with M6. Until then this job
+  # holds the name so the branch rule does not have to change later.
+  corpus:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pending M6
+        run: echo "corpus audit lands with M6"
