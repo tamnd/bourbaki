@@ -30,7 +30,7 @@ subsections:
       pdf_page: 143
 statements: 24
 exercises: 16
-content_sha256: 57ff080c53d35a1e88cda14e43b93a9b054244d867f7ea91de870203b743cb16
+content_sha256: 8e72e56cf19f6c43c8fa01bc1d234ca41dc730c58d7fb9b7e0fe9d9222a7ca15
 ---
 
 ## § 7. SIMPLE RINGS
@@ -45,7 +45,9 @@ Let A be a nonzero ring. The following conditions are equivalent:
 
 (ii) The ring A is left Artinian, and every two-sided ideal of A is equal to 0 or A.
 
-(iii) The ring A is left Artinian, and there exists a left A-module S that is simple and faithful. If these conditions are satisfied, then the A-module $A_s$ has finite length and is isotypical of type S, and every simple A-module is isomorphic to S.
+(iii) The ring A is left Artinian, and there exists a left A-module S that is simple and faithful.
+
+If these conditions are satisfied, then the A-module $A_s$ has finite length and is isotypical of type S, and every simple A-module is isomorphic to S.
 
 Let us prove that (i) implies (ii). Assume that (i) is satisfied. Then the finitely generated A-module $A_s$ is semisimple, hence has finite length and is Artinian (VIII, p. 71, Proposition 10); consequently, the ring A is left Artinian. The endomorphisms of the left A-module $A_s$ are the right multiplications by the elements of A. Since the left A-module $A_s$ is isotypical, it follows from Proposition 6, b) of VIII, p. 86 that the $(A$, A)-bimodule $_sA_d$ is simple. The sub-bimodules of $_sA_d$ are the two-sided ideals of A, so (i) implies (ii).
 
@@ -67,7 +69,9 @@ Recall that by Theorem 1 of II, §9, No. 1, p. 115, the following properties are
 
 (ii) The ring A is not reduced to 0, and there are no left ideals of A distinct from 0 or A.
 
-(iii) The ring A is a field. Consequently, by Proposition 1 (condition (ii)), commutative simple rings are nothing but commutative fields.
+(iii) The ring A is a field.
+
+Consequently, by Proposition 1 (condition (ii)), commutative simple rings are nothing but commutative fields.
 
 #### Remark 2 {#alg-viii-s7-n1-rem-2 .statement tag=0084}
 

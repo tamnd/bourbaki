@@ -22,7 +22,7 @@ subsections:
       pdf_page: 374
 statements: 10
 exercises: 7
-content_sha256: 351bf17c3528b84822818681c71f37075789ad044ca521eac716258a9c1b4d78
+content_sha256: 0161854a8b55ea87040a1f36848bd0aaaadf111a111cbfa341a1275ce12e76f7
 ---
 
 ## § 18. SIMPLE ALGEBRAS OVER A FINITE FIELD
@@ -61,16 +61,18 @@ this gives Lemma 2.
 
 Let us now prove Theorem 1. Let $\mathbf{x}= (x_1, . . . , x_n)$ be an element of $K^n$. We have $1-f_i(\mathbf{x})^{q-1}= 0$ if $f_i(\mathbf{x})\not= 0$ and $1-f_i(\mathbf{x})^{q-1}= 1$ if $f_i(\mathbf{x}) = 0$. Set $P =\prod^r_{i=1}(1-f_i^{q-1})$. We have
 
-1 if $\mathbf{x}\in Z$, (1) $P(\mathbf{x}) =$
+1 if $\mathbf{x}\in Z$,
+
+$$
+P(\mathbf{x}) = \tag{1}
+$$
 
 0 if $\mathbf{x}\notin Z$.
 
-Let us expand the polynomial P as $\sum_{\alpha\in\mathbf{N}^n}c_{\alpha}X^{\alpha}$; by assumption, it has degree $<(q-1)n$. Let $\alpha$ be an element of $\mathbf{N}^n$ such that $c_{\alpha}$ is nonzero. Since we have $\alpha_1+\cdots +\alpha_n<(q-1)n$, there exists an integer $`$ such that $1\leqslant `\leqslant n$ and $0\leqslant \alpha_`< q-1$. By Lemma 2, we then have $\sum_{x\in K}x^{\alpha_`}= 0$, and therefore
-
-$n$
+Let us expand the polynomial P as $\sum_{\alpha\in\mathbf{N}^n}c_{\alpha}X^{\alpha}$; by assumption, it has degree $<(q-1)n$. Let $\alpha$ be an element of $\mathbf{N}^n$ such that $c_{\alpha}$ is nonzero. Since we have $\alpha_1+\cdots +\alpha_n<(q-1)n$, there exists an integer $\ell$ such that $1\leqslant \ell \leqslant n$ and $0\leqslant \alpha_{\ell}< q-1$. By Lemma 2, we then have $\sum_{x\in K}x^{\alpha_{\ell}}= 0$, and therefore
 
 $$
-_{\mathbf{x}}\sum_{\in K^n}\mathbf{x}^{\alpha}=_j\prod_{=1}(\sum_{x\in K}x^{\alpha_j}= 0
+_{\mathbf{x}}\sum_{\in K^n}\mathbf{x}^{\alpha}=_j\prod_{=1}^n(\sum_{x\in K}x^{\alpha_j}= 0
 $$
 
 We consequently have
@@ -115,7 +117,7 @@ $$
 [D : K] = [L : K]^2= [L_1: K]^2
 $$
 
-by Corollary 2 of VIII, p. 265, and therefore $[L : K] = [L_1: K]$. By Proposition 3 of V, §12, No. 2, p. 94, the extensions L and $L_1$ of K are isomorphic. By VIII, p. 263, Corollary, there exists an element $a$ of $D^*$ such that $aLa^{-1}= L_1$, so $a^{-1}xa$ belongs to L. We then have $(ay)^{-1}x(ay) =a^{-1}xa$ for every $y\in L^*$. Consequently, if S is a set of representatives of the left cosets of $D^*$ modulo $L^*$, then every element of $D^*\{1\}$ can be written as $sxs^{-1}$ with $s\in S$ and $x\in L^*\{1\}$. We denote the order of $D^*$ by $d$ and that of $L^*$ by $`$. Since the cardinal of S is equal to $d/`$, we have $d-1\leqslant (d/`)(`-1) =d-d/`$. It follows that $`=d$, and therefore L = D, which proves that the field D is commutative.
+by Corollary 2 of VIII, p. 265, and therefore $[L : K] = [L_1: K]$. By Proposition 3 of V, §12, No. 2, p. 94, the extensions L and $L_1$ of K are isomorphic. By VIII, p. 263, Corollary, there exists an element $a$ of $D^*$ such that $aLa^{-1}= L_1$, so $a^{-1}xa$ belongs to L. We then have $(ay)^{-1}x(ay) =a^{-1}xa$ for every $y\in L^*$. Consequently, if S is a set of representatives of the left cosets of $D^*$ modulo $L^*$, then every element of $D^*\{1\}$ can be written as $sxs^{-1}$ with $s\in S$ and $x\in L^*\{1\}$. We denote the order of $D^*$ by $d$ and that of $L^*$ by $\ell$. Since the cardinal of S is equal to $d/\ell$, we have $d-1\leqslant (d/\ell )(\ell -1) =d-d/\ell$. It follows that $\ell =d$, and therefore L = D, which proves that the field D is commutative.
 
 #### Remark 2 {#alg-viii-s18-n2-rem-2 .statement tag=00LH}
 
@@ -123,13 +125,23 @@ Let L be a commutative field with the following property: $(C_1)$ Let V be a vec
 
 The proof of Theorem 2 shows that every field of finite degree over L with center L is equal to L.
 
-By the corollary of VIII, p. 356, every finite field has property $(C_1)$. We can prove (VIII, p. 360, Exercise 7) that the following fields have property $(C_1):$ – every algebraic extension of a finite field – every field of rational fractions in one variable with coefficients in an algebraically closed field (Tsen’s theorem). – $*$every field endowed with a discrete valuation for which it is complete and
+By the corollary of VIII, p. 356, every finite field has property $(C_1)$. We can prove (VIII, p. 360, Exercise 7) that the following fields have property $(C_1):$
+
+– every algebraic extension of a finite field
+
+– every field of rational fractions in one variable with coefficients in an algebraically closed field (Tsen’s theorem).
+
+– $*$every field endowed with a discrete valuation for which it is complete and
 
 whose residue field is algebraically closed (VIII, p. 332, Exercise 17$).*$
 
 #### Remark 3 {#alg-viii-s18-n2-rem-3 .statement tag=00LI}
 
-Suppose that the field K satisfies the following condition: – If L is an extension of K of finite degree, then it is cyclic and the norm mapping $N : L^*\rightarrow K^*$ is surjective. This condition is satisfied, in particular, when the field K is finite (V, §12, No. 2, p. 95, Proposition 4). We can then prove that every field of finite degree over K with center K is equal to K (Exercise 10 of VIII, p. 329).
+Suppose that the field K satisfies the following condition:
+
+– If L is an extension of K of finite degree, then it is cyclic and the norm mapping $N : L^*\rightarrow K^*$ is surjective.
+
+This condition is satisfied, in particular, when the field K is finite (V, §12, No. 2, p. 95, Proposition 4). We can then prove that every field of finite degree over K with center K is equal to K (Exercise 10 of VIII, p. 329).
 
 ### Exercises {#alg-viii-s18-exercises}
 

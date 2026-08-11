@@ -232,6 +232,238 @@
           ]
         }
       ]
+    },
+    {
+      "id": "alg-viii-fr",
+      "chapters": [
+        {
+          "chapter": "VIII",
+          "title": "Modules et anneaux semi-simples",
+          "total": 316,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-viii-s1",
+              "dir": "s1",
+              "count": 28,
+              "first": 1,
+              "last": 28,
+              "starred": 3
+            },
+            {
+              "section": 2,
+              "label": "alg-viii-s2",
+              "dir": "s2",
+              "count": 19,
+              "first": 1,
+              "last": 19,
+              "starred": 3
+            },
+            {
+              "section": 3,
+              "label": "alg-viii-s3",
+              "dir": "s3",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 1
+            },
+            {
+              "section": 4,
+              "label": "alg-viii-s4",
+              "dir": "s4",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "starred": 1
+            },
+            {
+              "section": 5,
+              "label": "alg-viii-s5",
+              "dir": "s5",
+              "count": 19,
+              "first": 1,
+              "last": 19,
+              "starred": 4
+            },
+            {
+              "section": 6,
+              "label": "alg-viii-s6",
+              "dir": "s6",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "starred": 1
+            },
+            {
+              "section": 7,
+              "label": "alg-viii-s7",
+              "dir": "s7",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 5
+            },
+            {
+              "section": 8,
+              "label": "alg-viii-s8",
+              "dir": "s8",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 1
+            },
+            {
+              "section": 9,
+              "label": "alg-viii-s9",
+              "dir": "s9",
+              "count": 31,
+              "first": 1,
+              "last": 31,
+              "starred": 5
+            },
+            {
+              "section": 10,
+              "label": "alg-viii-s10",
+              "dir": "s10",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 6
+            },
+            {
+              "section": 11,
+              "label": "alg-viii-s11",
+              "dir": "s11",
+              "count": 14,
+              "first": 1,
+              "last": 14,
+              "starred": 2
+            },
+            {
+              "section": 12,
+              "label": "alg-viii-s12",
+              "dir": "s12",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "starred": 4
+            },
+            {
+              "section": 13,
+              "label": "alg-viii-s13",
+              "dir": "s13",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 4
+            },
+            {
+              "section": 14,
+              "label": "alg-viii-s14",
+              "dir": "s14",
+              "count": 19,
+              "first": 1,
+              "last": 19,
+              "starred": 7
+            },
+            {
+              "section": 15,
+              "label": "alg-viii-s15",
+              "dir": "s15",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            },
+            {
+              "section": 16,
+              "label": "alg-viii-s16",
+              "dir": "s16",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "starred": 5,
+              "supplementary": 1
+            },
+            {
+              "section": 17,
+              "label": "alg-viii-s17",
+              "dir": "s17",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 2
+            },
+            {
+              "section": 18,
+              "label": "alg-viii-s18",
+              "dir": "s18",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 3
+            },
+            {
+              "section": 19,
+              "label": "alg-viii-s19",
+              "dir": "s19",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "starred": 5
+            },
+            {
+              "section": 20,
+              "label": "alg-viii-s20",
+              "dir": "s20",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 1
+            },
+            {
+              "section": 21,
+              "label": "alg-viii-s21",
+              "dir": "s21",
+              "count": 30,
+              "first": 1,
+              "last": 30,
+              "starred": 8,
+              "supplementary": 1
+            },
+            {
+              "section": 1,
+              "appendix": true,
+              "label": "alg-viii-a1",
+              "dir": "a1",
+              "count": 15,
+              "first": 1,
+              "last": 15,
+              "starred": 3
+            },
+            {
+              "section": 2,
+              "appendix": true,
+              "label": "alg-viii-a2",
+              "dir": "a2",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "starred": 1
+            },
+            {
+              "section": 4,
+              "appendix": true,
+              "label": "alg-viii-a4",
+              "dir": "a4",
+              "count": 2,
+              "first": 1,
+              "last": 2,
+              "starred": 1
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -31,7 +31,7 @@ subsections:
       pdf_page: 459
 statements: 20
 exercises: 15
-content_sha256: 0d3dd5f4cb98ff45cd9c63f353e2b5c7db43ddae989327ad70012187ce9f7a80
+content_sha256: 958695ae012e636e59595b07b3722e3e1437026f9d5a402eaf7773065e45074d
 ---
 
 ## APPENDIX 1 ALGEBRAS WITHOUT UNIT ELEMENT
@@ -172,7 +172,7 @@ Let M be a nonzero pseudomodule. Suppose that we have $Ax= M$ for every nonzero 
 
 #### Definition 3 {#alg-viii-a1-def-3 .statement tag=00RT}
 
-The radical of the $k$-algebra A, denoted by $<(A)$, is the intersection of the regular maximal left ideals of A.
+The radical of the $k$-algebra A, denoted by $\Re (A)$, is the intersection of the regular maximal left ideals of A.
 
 When A is a ring, every left ideal of A is regular, so the definition of the radical coincides with Definition 2 of VIII, p. 154.
 
@@ -194,7 +194,7 @@ The radical of the algebra A is the intersection of the annihilators of the simp
 
 The radical of A is the trace on A of the radical of $\widetilde{A}$; it is also equal to the radical of the opposite algebra $A^o($that is, to the intersection of the regular maximal right ideals of A). If the ring $k$ is without radical, then the radical of A is equal to that of $\widetilde{A}$.
 
-The equality $<(\widetilde{A})\cap A =<(A)$ follows from Proposition 4 of VIII, p. 438, b). Since $\widetilde{A}$ and $\widetilde{A}^o$ have the same radical (VIII, p. 156, Corollary 1), the equality $<(A) =<(A^o)$ follows. If $k$ is without radical, then the intersection of the maximal left ideals of $\widetilde{A}$ containing A is equal to A. Consequently, $<(\widetilde{A})$ is contained in A and therefore equal to $<(A)$.
+The equality $\Re (\widetilde{A})\cap A =\Re (A)$ follows from Proposition 4 of VIII, p. 438, b). Since $\widetilde{A}$ and $\widetilde{A}^o$ have the same radical (VIII, p. 156, Corollary 1), the equality $\Re (A) =\Re (A^o)$ follows. If $k$ is without radical, then the intersection of the maximal left ideals of $\widetilde{A}$ containing A is equal to A. Consequently, $\Re (\widetilde{A})$ is contained in A and therefore equal to $\Re (A)$.
 
 #### Remark {#alg-viii-a1-n3-rem-1 .statement tag=00PJ}
 

@@ -1,14 +1,13 @@
 {
   "book": "alg-viii",
   "pages": 505,
-  "clean": 441,
-  "flagged": 53,
+  "clean": 449,
+  "flagged": 45,
   "empty": 11,
   "reasons": {
     "diagram": 29,
     "dropped-glyph": 7,
     "empty": 11,
-    "stray-delimiter": 8,
     "tall-delimiter": 9
   },
   "flagged_pages": [
@@ -86,27 +85,6 @@
       ]
     },
     {
-      "pdf_page": 140,
-      "page_label": "A VIII.123",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 141,
-      "page_label": "A VIII.124",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 142,
-      "page_label": "A VIII.125",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
       "pdf_page": 151,
       "flags": [
         "empty"
@@ -140,24 +118,10 @@
       ]
     },
     {
-      "pdf_page": 214,
-      "page_label": "A VIII.197",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
       "pdf_page": 218,
       "page_label": "A VIII.201",
       "flags": [
         "diagram"
-      ]
-    },
-    {
-      "pdf_page": 221,
-      "page_label": "A VIII.204",
-      "flags": [
-        "stray-delimiter"
       ]
     },
     {
@@ -185,12 +149,6 @@
       "page_label": "A VIII.269",
       "flags": [
         "tall-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 294,
-      "flags": [
-        "stray-delimiter"
       ]
     },
     {
@@ -247,20 +205,6 @@
       "page_label": "A VIII.299",
       "flags": [
         "diagram"
-      ]
-    },
-    {
-      "pdf_page": 326,
-      "page_label": "A VIII.309",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 329,
-      "page_label": "A VIII.312",
-      "flags": [
-        "stray-delimiter"
       ]
     },
     {

@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: 4cbd2d7969041301a3d7b7e7eeb23ee70edec69337a2be5421f39314b5dcdbe9
+content_sha256: e8100fb4a5ddec4a8ba1f883b6dd5a839cccf5d388f2099cad3b1377aba25588
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -113,7 +113,9 @@ $$
 \langle af, b\rangle =\langle f, ba\rangle \tag{3}
 $$
 
-(4) $\langle f a, b\rangle =\langle f, ab\rangle$
+$$
+\langle f a, b\rangle =\langle f, ab\rangle \tag{4}
+$$
 
 for $a, b,\in A$ and $f\in A^*$.
 
@@ -137,9 +139,17 @@ The restricted dual
 
 of the K-algebra A, denoted by Θ(A), is the union in $A^*$ of the orthogonals of the two-sided ideals of A of finite codimension.
 
-By Proposition 1, we can give the following equivalent descriptions of Θ(A): – the union of the orthogonals of the left ideals of A of finite codimension – the union of the orthogonals of the right ideals of A of finite codimension – the union of the orthogonals of the two-sided ideals of A of finite codimension – the union of the left A-submodules of $A^*$ of finite dimension over K – the union of the right A-submodules of $A^*$ of finite dimension over K – the union of the $(A$, A)-sub-bimodules of $A^*$ of finite dimension over K.
+By Proposition 1, we can give the following equivalent descriptions of Θ(A):
 
-We have $\Theta(A) = \Theta(A^o)$, and $\Theta(A) = A^*$ if A has finite degree over K. Let $f\in A^*$; then $f$ belongs to Θ(A) if and only if $Af$ (resp. $fA, AfA)$ is a linear subspace of $A^*$ of finite dimension over K.
+– the union of the orthogonals of the left ideals of A of finite codimension
+
+– the union of the orthogonals of the right ideals of A of finite codimension – the union of the orthogonals of the two-sided ideals of A of finite codimension – the union of the left A-submodules of $A^*$ of finite dimension over K
+
+– the union of the right A-submodules of $A^*$ of finite dimension over K
+
+– the union of the $(A$, A)-sub-bimodules of $A^*$ of finite dimension over K.
+
+We have $\Theta (A) = \Theta (A^o)$, and $\Theta (A) = A^*$ if A has finite degree over K. Let $f\in A^*$; then $f$ belongs to Θ(A) if and only if $Af$ (resp. $fA, AfA)$ is a linear subspace of $A^*$ of finite dimension over K.
 
 The sum of two $(A$, A)-sub-bimodules of $A^*$ of finite dimension over K has finite dimension over K. It follows that Θ(A) is an $(A$, A)-sub-bimodule of $A^*$.
 
@@ -179,7 +189,9 @@ $$
 
 for $x, y\in E$ and $x^*\in E^*$. Its image is the set End$^f_K(E)$ of endomorphisms of E of finite rank (VIII, p. 463). By the definition of the trace (loc. cit.), we have
 
-Tr($\theta_E(x\otimes x^*)$) $=\langle x^*, x\rangle$ for $x\in E$ and $x^*\in E^*$; we therefore have
+Tr($\theta_E(x\otimes x^*)$) $=\langle x^*, x\rangle$
+
+for $x\in E$ and $x^*\in E^*$; we therefore have
 
 $\langle \gamma_E(x\otimes x^*), a\rangle =\langle x^*, ax\rangle =$ Tr($\theta_E(ax\otimes x^*)$) $=$ Tr($\theta_E(x\otimes x^*)a$).
 
@@ -237,13 +249,13 @@ Since End$_K(V)$ is finite-dimensional over $K,\mathfrak{a}$ is a two-sided idea
 
 The restricted dual Θ(A) of A is the set of coefficients of the finite-dimensional linear representations of A.
 
-By definition, Θ(A) is the union of the orthogonals of the two-sided ideals of A of finite codimension. We therefore have $\Theta_{\pi}(A)\subset \Theta(A)$ for every finite-dimensional linear representation $\pi$ of A. Conversely, let $f$ be an element of Θ(A), and let $\mathfrak{a}$ be a two-sided ideal of finite codimension, contained in the kernel of $f$ (VIII, p. 376, Definition 2). Denote by $\pi$ the linear representation of A in $A/\mathfrak{a}$ deduced from the left regular representation in A by passing to the quotient. Let $x$ be the class of 1 (mod $\mathfrak{a})$, and let $x^*$ be the linear form on $A/\mathfrak{a}$ deduced from $f$. We have $f=c_{\pi}(x, x^*)$, so that $f$ is a coefficient of $\pi$.
+By definition, Θ(A) is the union of the orthogonals of the two-sided ideals of A of finite codimension. We therefore have $\Theta_{\pi}(A)\subset \Theta (A)$ for every finite-dimensional linear representation $\pi$ of A. Conversely, let $f$ be an element of Θ(A), and let $\mathfrak{a}$ be a two-sided ideal of finite codimension, contained in the kernel of $f$ (VIII, p. 376, Definition 2). Denote by $\pi$ the linear representation of A in $A/\mathfrak{a}$ deduced from the left regular representation in A by passing to the quotient. Let $x$ be the class of 1 (mod $\mathfrak{a})$, and let $x^*$ be the linear form on $A/\mathfrak{a}$ deduced from $f$. We have $f=c_{\pi}(x, x^*)$, so that $f$ is a coefficient of $\pi$.
 
 Take note that if $(V, \pi )$ is a linear representation of A that is not finite-dimensional over K, then the space $\Theta_{\pi}(A)$ is not necessarily contained in Θ(A).
 
 ### 5. Dual of a Semisimple Algebra
 
-Let $\Theta^{ss}(A)$ be the socle of the left A-module Θ(A), that is, (VIII, p. 65) the largest semisimple submodule of Θ(A). We denote by $\mathscr{S}_K$ the set of classes of simple (left) A-modules that are finite-dimensional over K. When A is a semisimple algebra of finite degree over K, we have $A^*= \Theta(A) = \Theta^{ss}(A)$ because every left A-module is semisimple (VIII, p. 138, Proposition 4).
+Let $\Theta^{ss}(A)$ be the socle of the left A-module Θ(A), that is, (VIII, p. 65) the largest semisimple submodule of Θ(A). We denote by $\mathscr{S}_K$ the set of classes of simple (left) A-modules that are finite-dimensional over K. When A is a semisimple algebra of finite degree over K, we have $A^*= \Theta (A) = \Theta^{ss}(A)$ because every left A-module is semisimple (VIII, p. 138, Proposition 4).
 
 #### Theorem 1 {#alg-viii-s20-thm-1 .statement tag=00MN}
 
@@ -261,7 +273,7 @@ For every S in $\mathscr{S}_K$, the isotypical component of Θ(A) of type S is g
 
 Let S be a simple A-module of finite dimension over K. Since the K-vector space S is not reduced to 0, the same holds for $S^*$. Let E be a submodule of the right A-module $S^*$; its orthogonal $E'$ in S is an A-submodule of S. Since S is simple, we have either $E'= 0$, in which case $E = S^*$, or $E'= S$, in which case E = 0. Hence $S^*$ is a simple right A-module.
 
-We have $\Theta(A^o) = \Theta(A)$ (VIII, p. 376); we identify right A-modules with left $A^o$-modules. Since every vector space of finite dimension over K is isomorphic to its bidual, the above proves that the mapping $S\mapsto$ cl(S$^*)$ is a bijection from $\mathscr{S}_K$ to the set of classes of simple $A^o$-modules of finite dimension over K. Now, for S in $\mathscr{S}_K$, the isotypical component of $\Theta(A^o)$ of type $S^*$ is equal to $\Theta_{S^*}(A^o)$ by assertion b) applied to the algebra $A^o$, and we have $\Theta_{S^*}(A^o) = \Theta_S(A)$. Assertions c) and d) follow immediately.
+We have $\Theta (A^o) = \Theta (A)$ (VIII, p. 376); we identify right A-modules with left $A^o$-modules. Since every vector space of finite dimension over K is isomorphic to its bidual, the above proves that the mapping $S\mapsto$ cl(S$^*)$ is a bijection from $\mathscr{S}_K$ to the set of classes of simple $A^o$-modules of finite dimension over K. Now, for S in $\mathscr{S}_K$, the isotypical component of $\Theta (A^o)$ of type $S^*$ is equal to $\Theta_{S^*}(A^o)$ by assertion b) applied to the algebra $A^o$, and we have $\Theta_{S^*}(A^o) = \Theta_S(A)$. Assertions c) and d) follow immediately.
 
 #### Corollary 1 {#alg-viii-s20-thm-1-cor-1 .statement tag=00MO}
 
@@ -281,7 +293,11 @@ Fix an S in $\mathscr{S}_K$. Denote by D the opposite field of End$_A$(S), and v
 
 #### Proposition 4 {#alg-viii-s20-prop-4 .statement tag=00MQ}
 
-a) There exists a group homomorphism $\lambda_S$ from $S\otimes_DS^*$ to $\Theta_S(A)$, characterized by (6) $\lambda_S(x\otimes x^*) =c_S(x, x^*)$
+a) There exists a group homomorphism $\lambda_S$ from $S\otimes_DS^*$ to $\Theta_S(A)$, characterized by
+
+$$
+\lambda_S(x\otimes x^*) =c_S(x, x^*) \tag{6}
+$$
 
 for $x\in S$ and $x^*\in S^*$. This mapping is an isomorphism of $(A,A)$-bimodules.
 
@@ -341,9 +357,7 @@ Since the field is perfect, the extension Z of K is separable (V, §15, No. 5, p
 
 #### Proposition 6 {#alg-viii-s20-prop-6 .statement tag=00MU}
 
-Let $\mathscr{S}_0$ be the set of classes of simple A-modules of finite
-
-dimension over K with nonzero trace. The family of linear forms (Tr$_S)_{S\in\mathscr{S}_0}$ is free over K.
+Let $\mathscr{S}_0$ be the set of classes of simple A-modules of finite dimension over K with nonzero trace. The family of linear forms (Tr$_S)_{S\in\mathscr{S}_0}$ is free over K.
 
 Let F be a finite subset of $\mathscr{S}_0$, and let S be an element of F. By assumption, there exists an element $a\in A$ such that Tr$_S(a)\not= 0$. By Corollary 1 of Proposition 4 (VIII, p. 83), there exists an element $b\in A$ such that $b_S=a_S$ and $b_T= 0$ for every $T\in F\{S\}$. We have Tr$_S(b)\not= 0$ and Tr$_T(b) = 0$ for $T\in F\{S\}$. The family (Tr$_S)_{S\in F}$ is therefore free. Proposition 6 follows.
 
@@ -367,7 +381,7 @@ b) Suppose that the field K is perfect of nonzero characteristic $p$. Then the h
 
 Let $\mathscr{S}_K$ be the set of classes of simple A-modules of finite dimension over K. The elements [S], where S runs through $\mathscr{S}_K$, form a basis of the $\mathbf{Z}$-module $R_K$(A), so the elements $1\otimes [S]$ form a basis of the K-vector space $K\otimes_{\mathbf{Z}}R_K(A)$ (VIII, p. 195).
 
-Suppose that the field K is perfect. By Proposition 6 and the corollary of VIII, p. 383, the elements $\theta ([S]) =\theta_K(1\otimes [S]) =$ Tr$_S$ of $A^*$ are linearly independent over K. It follows that the homomorphism $\theta_K$ is injective and that the kernel of the homomorphism $\theta$ consists of the elements $\sum_{S\in\mathscr{S}_K}n_S[S]$ of $R_K(A)$ such that $n_S\cdot 1_K= 0$ for every $S\in \mathscr{S}_K$. The kernel of $\theta$ is therefore equal to $pR_K$(A), where $p$ is the characteristic of K. In particular, if K has characteristic 0, then the homomorphism $\theta$ is injective.
+Suppose that the field K is perfect. By Proposition 6 and the corollary of VIII, p. 383, the elements $\theta ([S]) =\theta_K(1\otimes [S]) =$ Tr$_S$ of $A^*$ are linearly independent over K. It follows that the homomorphism $\theta_K$ is injective and that the kernel of the homomorphism $\theta$ consists of the elements $\sum_{S\in\mathscr{S}}n_S[S]$ of $R_K(A)$ such that $n_S\cdot 1_K= 0$ for every $S\in \mathscr{S}_K$. The kernel of $\theta$ is therefore$^{^K}$ equal to $pR_K$(A), where $p$ is the characteristic of K. In particular, if K has characteristic 0, then the homomorphism $\theta$ is injective.
 
 The last assertion of a) follows from the corollary of VIII, p. 190.
 
@@ -393,9 +407,7 @@ If E and $E'$ are two A-modules of finite dimension over K with isomorphic semis
 
 #### Theorem 2 {#alg-viii-s20-thm-2 .statement tag=00MW}
 
-Let $\mathscr{A}$ be a generating subset of the K-vector space A. The homomorphism $\chi_{\mathscr{A}}: R_K(A)\rightarrow$ (1 + TK[[T]])$_{\mathscr{A}}$ defined by the relation
-
-$\chi_{\mathscr{A}}(x) = (\chi_a(x))_{a\in\mathscr{A}}$ is injective.
+Let $\mathscr{A}$ be a generating subset of the K-vector space A. The homomorphism $\chi_{\mathscr{A}}: R_K(A)\rightarrow$ (1 + TK[[T]])$^{\mathscr{A}}$ defined by the relation $\chi_{\mathscr{A}}(x) = (\chi_a(x))_{a\in\mathscr{A}}$ is injective.
 
 Let $x$ be an element of $R_K(A)$ such that $\chi_{\mathscr{A}}(x) = 1$. By (11), we have $\theta (x)(a) = 0$ for every $a\in \mathscr{A}$, and therefore $\theta (x) = 0$ because $\theta (x)$ is a K-linear form on A and $\mathscr{A}$ generates the K-vector space A. If the characteristic of K is zero, then this implies $x= 0$ (VIII, p. 384, Corollary of Proposition 6), and therefore the result in this case. Suppose from now on that the characteristic $p$ of K is nonzero.
 
@@ -425,7 +437,9 @@ $$
 
 $\chi_E(a; T) =$ det $1 +a_ET= (-T)$ det $-a_E= (-T)$ Pc$_Ea$;,
 
-T T and $\chi_F(a; T)$ is given by an analogous formula. Because of our assumptions, we have $\chi_E(a; T) =\chi_F(a; T)$. By Theorem 2, we have [E] = [F], which implies that E and F are isomorphic (VIII, p. 190, Corollary of Proposition 7).
+T T
+
+and $\chi_F(a; T)$ is given by an analogous formula. Because of our assumptions, we have $\chi_E(a; T) =\chi_F(a; T)$. By Theorem 2, we have [E] = [F], which implies that E and F are isomorphic (VIII, p. 190, Corollary of Proposition 7).
 
 #### Corollary 2 {#alg-viii-s20-thm-2-cor-2 .statement tag=00MY}
 
@@ -447,11 +461,7 @@ and two analogous relations where we replace M with N and $f$ with $g$. We know 
 
 ### 7. Coefficients of a Set of Classes of Modules
 
-Let $\mathscr{C}$ be a hereditary set of classes of A-modules (VIII, p. 183, Definition 1). We suppose that every A-module of type $\mathscr{C}$ is finite-dimensional
-
-over K and denote by $\Theta_{\mathscr{C}}(A)$ the set of coefficients of the A-modules of type $\mathscr{C}$. By Proposition 2 of VIII, p. 378, the set $\Theta_{\mathscr{C}}(A)$ is also the union of the images of the A-linear mappings $u: E\rightarrow A^*$, where E runs through $\mathscr{C}$; it is also the union of the subspaces $\Theta_E(A)$ of $A^*$, where E runs through $\mathscr{C}$
-
-(loc. cit.). The family of $(A$, A)-sub-bimodules $(\Theta_E(A))_{E\in\mathscr{C}}$ of $A^*$ is directed, so its union $\Theta_{\mathscr{C}}(A)$ is an $(A$, A)-sub-bimodule of $A^*$.
+Let $\mathscr{C}$ be a hereditary set of classes of A-modules (VIII, p. 183, Definition 1). We suppose that every A-module of type $\mathscr{C}$ is finite-dimensional over K and denote by $\Theta_{\mathscr{C}}(A)$ the set of coefficients of the A-modules of type $\mathscr{C}$. By Proposition 2 of VIII, p. 378, the set $\Theta_{\mathscr{C}}(A)$ is also the union of the images of the A-linear mappings $u: E\rightarrow A^*$, where E runs through $\mathscr{C}$; it is also the union of the subspaces $\Theta_E(A)$ of $A^*$, where E runs through $\mathscr{C}$ (loc. cit.). The family of $(A$, A)-sub-bimodules $(\Theta_E(A))_{E\in\mathscr{C}}$ of $A^*$ is directed, so its union $\Theta_{\mathscr{C}}(A)$ is an $(A$, A)-sub-bimodule of $A^*$.
 
 #### Proposition 7 {#alg-viii-s20-prop-7 .statement tag=00MZ}
 
@@ -469,19 +479,19 @@ Conversely, suppose that $\Theta_{\mathscr{C}}(A)$ contains $\Theta_E(A)$. The A
 
 ### 8. Cogebra Structure on the Restricted Dual
 
-For any $a$ in A, we denote by $\eta (a)$ the linear form $f\mapsto f(a)$ on Θ(A). We thus define a K-linear mapping $\eta$ from A to the dual $\Theta(A)^*$ of the vector space Θ(A). Set $\varepsilon =\eta (1)$.
+For any $a$ in A, we denote by $\eta (a)$ the linear form $f\mapsto f(a)$ on Θ(A). We thus define a K-linear mapping $\eta$ from A to the dual $\Theta (A)^*$ of the vector space Θ(A). Set $\varepsilon =\eta (1)$.
 
 #### Proposition 8 {#alg-viii-s20-prop-8 .statement tag=00N1}
 
-On the vector space Θ(A), there exists a unique cogebra structure (III, §11, No. 1, p. 574) such that the mapping $\eta : A\rightarrow \Theta(A)^*$ is a homomorphism from A to the dual algebra (III, §11, No. 2, p. 579) of Θ(A). The cogebra Θ(A) is coassociative and admits $\varepsilon$ as a counit.
+On the vector space Θ(A), there exists a unique cogebra structure (III, §11, No. 1, p. 574) such that the mapping $\eta : A\rightarrow \Theta (A)^*$ is a homomorphism from A to the dual algebra (III, §11, No. 2, p. 579) of Θ(A). The cogebra Θ(A) is coassociative and admits $\varepsilon$ as a counit.
 
-For every integer $n\geqslant 1$, consider the K-linear mapping $j_n$ from $\Theta(A)^{\otimes n}$ to the dual of $A^{\otimes n}$ characterized by the formula
+For every integer $n\geqslant 1$, consider the K-linear mapping $j_n$ from $\Theta (A)^{\otimes n}$ to the dual of $A^{\otimes n}$ characterized by the formula
 
 $$
 \langle j_n(f_1\otimes  \cdots  \otimes f_n), a_1\otimes  \cdots  \otimes a_n\rangle =\prod_{i=1}^n\langle f_i, a_i\rangle \tag{13}
 $$
 
-for $(a_i)$ in $A^n$ and $(f_i)$ in $\Theta(A)^n$. By Proposition 16, (ii) of II, §7, No. 7, p. 308, the mapping $j_n$ is injective. Denote by $m_K: K\otimes K\rightarrow K$ and $m_A: A\otimes A\rightarrow A$ the mappings deduced from the multiplication in K and A, respectively. For $f, g\in \Theta(A)$ and $a, b\in A$, we have
+for $(a_i)$ in $A^n$ and $(f_i)$ in $\Theta (A)^n$. By Proposition 16, (ii) of II, §7, No. 7, p. 308, the mapping $j_n$ is injective. Denote by $m_K: K\otimes K\rightarrow K$ and $m_A: A\otimes A\rightarrow A$ the mappings deduced from the multiplication in K and A, respectively. For $f, g\in \Theta (A)$ and $a, b\in A$, we have
 
 $$
 \langle j_2(f\otimes g), a\otimes b\rangle =m_K\circ (\eta (a)\otimes \eta (b))(f\otimes g)
@@ -493,23 +503,27 @@ $$
 \langle j_2(t), a\otimes b\rangle =m_K\circ (\eta (a)\otimes \eta (b))(t) \tag{14}
 $$
 
-for every $t\in \Theta(A)\otimes \Theta(A)$.
+for every $t\in \Theta (A)\otimes \Theta (A)$.
 
 #### Lemma 2 {#alg-viii-s20-lem-2 .statement tag=00RS}
 
-Let $c: \Theta(A)\rightarrow \Theta(A)\otimes \Theta(A)$ be a K-linear mapping. Then $\eta$ is a homomorphism from A to the dual algebra of the cogebra $(\Theta(A), c)$ if and only if the following diagram commutes:
+Let $c: \Theta (A)\rightarrow \Theta (A)\otimes \Theta (A)$ be a K-linear mapping. Then $\eta$ is a homomorphism from A to the dual algebra of the cogebra $(\Theta (A), c)$ if and only if the following diagram commutes:
 
-Θ(A) $^c$ // $\Theta(A)\otimes \Theta(A)$ (15) $j_{_1}j_{_2}$
+Θ(A) $^c$ // $\Theta (A)\otimes \Theta (A)$
+
+$$
+j_{_1}j_{_2} \tag{15}
+$$
 
 $A_{*^t}^{m_A}$ // $(A\otimes A)_*$.
 
-Indeed, $\eta$ is a homomorphism from A to the dual algebra of the cogebra $(\Theta(A), c)$ if and only if we have $\eta (ab) =m_K\circ (\eta (a)\otimes \eta (b))\circ c$ for all $a, b\in A$, that is
+Indeed, $\eta$ is a homomorphism from A to the dual algebra of the cogebra $(\Theta (A), c)$ if and only if we have $\eta (ab) =m_K\circ (\eta (a)\otimes \eta (b))\circ c$ for all $a, b\in A$, that is
 
 $$
 \eta (ab)(f) =m_K\circ (\eta (a)\otimes \eta (b))(c(f))
 $$
 
-for $a, b\in A$ and $f\in \Theta(A)$. Now, we have
+for $a, b\in A$ and $f\in \Theta (A)$. Now, we have
 
 $$
 \eta (ab)(f) =f(ab) =\langle^tm_A(j_1(f)), a\otimes b\rangle
@@ -521,7 +535,7 @@ $$
 m_K\circ (\eta (a)\otimes \eta (b))(c(f)) =\langle j_2(c(f)), a\otimes b\rangle
 $$
 
-for all $a, b\in A$ and every $f\in \Theta(A)$. The lemma follows.
+for all $a, b\in A$ and every $f\in \Theta (A)$. The lemma follows.
 
 Since $j_2$ is injective, there exists at most one linear mapping $c$ that makes the diagram above commute. To prove its existence, we must prove that the image of $^tm\circ j_1$ is contained in that of $j_2$. In other words, we must prove that there exist, for every element $f$ of Θ(A), a natural number $n$ and elements $f_1', . . . , f_n', f_1'', . . . , f_n''$ of Θ(A) satisfying the relations
 
@@ -549,7 +563,9 @@ and therefore (16).
 
 Let us prove the coassociativity of $c$. For this, consider the K-linear mappings
 
-$c'=c\otimes 1_{\Theta (A)}\circ c$ and $c''= 1_{\Theta (A)}\otimes c\circ c$ from Θ(A) to $\Theta(A)^{\otimes 3}$. We have the relations
+$c'=c\otimes 1_{\Theta (A)}\circ c$ and $c''= 1_{\Theta (A)}\otimes c\circ c$
+
+from Θ(A) to $\Theta (A)^{\otimes 3}$. We have the relations
 
 $$
 \langle j_3(f\otimes c(g)), a\otimes b\otimes c\rangle =\langle f, a\rangle \langle j_2\circ c(g), b\otimes c\rangle
@@ -563,15 +579,19 @@ $$
 =\langle j_2(f\otimes g), a\otimes bc\rangle
 $$
 
-$=\langle^t$(Id$_A\otimes m_A)\circ j_2(f\otimes g), a\otimes b\otimes c\rangle$ for $f, g\in \Theta(A)$ and $a, b, c\in A$. From this, we deduce that the following diagram commutes:
+$=\langle^t$(Id$_A\otimes m_A)\circ j_2(f\otimes g), a\otimes b\otimes c\rangle$
 
-$\Theta(A)\otimes \Theta(A)^{Id_{\Theta (A)}\otimes c}/$/ $\Theta(A)\otimes \Theta(A)\otimes \Theta(A)$ (18)
+for $f, g\in \Theta (A)$ and $a, b, c\in A$. From this, we deduce that the following diagram commutes:
+
+$\Theta (A)\otimes \Theta (A)^{Id_{\Theta (A)}\otimes c}/$/ $\Theta (A)\otimes \Theta (A)\otimes \Theta (A)$
+
+(18)
 
 $j_2j_3$
 
 $(A\otimes A)_{*^t}^{(Id_A\otimes m_A)}$ // $(A\otimes A\otimes A)_*$.
 
-Because of the commutativity of this diagram and that of (15), for $f\in \Theta(A)$ and $a,a',a''\in A$, we have
+Because of the commutativity of this diagram and that of (15), for $f\in \Theta (A)$ and $a,a',a''\in A$, we have
 
 $$
 \langle j_3\circ c'(f), a\otimes a'\otimes a''\rangle =\langle f,(aa')a''\rangle
@@ -623,19 +643,15 @@ Let Θ be a linear subspace of Θ(A). The following properties are equivalent:
 
 (ii) Θ is a subcogebra of Θ(A).
 
-(iii) There exists a hereditary set $\mathscr{C}$ of classes of A-modules of finite
-
-dimension over K such that $\Theta = \Theta_{\mathscr{C}}(A)$.
+(iii) There exists a hereditary set $\mathscr{C}$ of classes of A-modules of finite dimension over K such that $\Theta  = \Theta_{\mathscr{C}}(A)$.
 
 When these properties hold, the set $\mathscr{C}$ mentioned in (iii) is uniquely determined.
 
 The last assertion follows from the corollary of VIII, p. 388: the set $\mathscr{C}$ consists of the classes of A-modules E of finite dimension over K such that $\Theta_E(A)$ is contained in Θ.
 
-(iii) $\Rightarrow$ (ii): Let $\mathscr{C}$ be a hereditary set of classes of A-modules of finite dimension over K. Then $\Theta_{\mathscr{C}}(A)$ is the union of the directed family $(\Theta_E(A))_{E\in\mathscr{C}}$. Since $\Theta_E(A)$ is a subcogebra of Θ(A) for every $E\in \mathscr{C}$ (VIII,
+(iii) $\Rightarrow$ (ii): Let $\mathscr{C}$ be a hereditary set of classes of A-modules of finite dimension over K. Then $\Theta_{\mathscr{C}}(A)$ is the union of the directed family $(\Theta_E(A))_{E\in\mathscr{C}}$. Since $\Theta_E(A)$ is a subcogebra of Θ(A) for every $E\in \mathscr{C}$ (VIII, p. 390, formula (19)), the same holds for $\Theta_{\mathscr{C}}(A)$.
 
-p. 390, formula (19)), the same holds for $\Theta_{\mathscr{C}}(A)$.
-
-(ii) $\Rightarrow$ (i): Let $f\in \Theta(A)$. Let $f_1', . . . , f_n', f_1'', . . . , f_n''$ be elements of Θ(A) satisfying $c(f) =\sum f_i'\otimes f_i''$. For $a,b$ in A, we have $f(ab) =\sum f_i'(a)f_i''(b)$, and therefore
+(ii) $\Rightarrow$ (i): Let $f\in \Theta (A)$. Let $f_1', . . . , f_n', f_1'', . . . , f_n''$ be elements of Θ(A) satisfying $c(f) =\sum f_i'\otimes f_i''$. For $a,b$ in A, we have $f(ab) =\sum f_i'(a)f_i''(b)$, and therefore
 
 $$
 bf=\sum_{i=1}^nf_i''(b)f_i',f a=\sum_{i=1}^nf_i'(a)f_i''
@@ -649,21 +665,21 @@ $$
 c_E(af, u_b)(x) =\langle u_b, xaf\rangle =f(bxa) =af b(x)
 $$
 
-so that $c_E(af, u_b) =af b$. We therefore have $\Theta_E(A)\subset \Theta$. Consequently, the A-module E is of type $\mathscr{C}$, and $f$ is one of its coefficients. We therefore have $\Theta\subset \Theta_{\mathscr{C}}(A)$ and, finally, $\Theta = \Theta_{\mathscr{C}}(A)$.
+so that $c_E(af, u_b) =af b$. We therefore have $\Theta_E(A)\subset \Theta$. Consequently, the A-module E is of type $\mathscr{C}$, and $f$ is one of its coefficients. We therefore have $\Theta \subset \Theta_{\mathscr{C}}(A)$ and, finally, $\Theta  = \Theta_{\mathscr{C}}(A)$.
 
 #### Remark 2 {#alg-viii-s20-n8-rem-2 .statement tag=00N5}
 
 Let Θ be a subcogebra of Θ(A). We endow K with the discrete topology and the algebra A with the coarsest topology for which the mappings $f: A\rightarrow K$ for $f$ running through Θ are continuous (Gen. Top., I, §2, No. 2, p. 175). This topology endows A with the structure of a topological K-module. A two-sided ideal $\mathfrak{a}$ of A is open if and only if it has finite codimension and its orthogonal $\mathfrak{a}'$ is contained in Θ. By Proposition 3 of VIII, p. 379, the open two-sided ideals of A form a fundamental system of neighborhoods of 0 in A. The topology on A is therefore compatible with its ring structure.
 
-Let $\mathscr{C}$ be the hereditary set of classes of A-modules of finite dimension
-
-over K such that $\Theta = \Theta_{\mathscr{C}}$ (VIII, p. 391, Proposition 9). Let E be a left A-module of finite dimension over K. We endow it with the discrete topology. The following properties are equivalent:
+Let $\mathscr{C}$ be the hereditary set of classes of A-modules of finite dimension over K such that $\Theta  = \Theta_{\mathscr{C}}$ (VIII, p. 391, Proposition 9). Let E be a left A-module of finite dimension over K. We endow it with the discrete topology. The following properties are equivalent:
 
 (i) The A-module E is of type $\mathscr{C}$.
 
 (ii) The annihilator of the A-module E is open in A.
 
-(iii) The mapping $(a, x)\mapsto ax$ from $A\times E$ to E is continuous. The last property means that E is a topological A-module.
+(iii) The mapping $(a, x)\mapsto ax$ from $A\times E$ to E is continuous.
+
+The last property means that E is a topological A-module.
 
 Let $\Theta^*$ be the dual algebra of the cogebra Θ. We endow $\Theta^*$ with the coarsest topology for which the mappings $\varphi \mapsto \varphi (u)$ from $\Theta^*$ to K, for $u$ running through Θ, are continuous. The topology on the algebra $\Theta^*$ is compatible with the additive group structure on $\Theta^*$. The orthogonals in $\Theta^*$ of the sets of the form $\Theta_E$(A), where E is an A-module of type $\mathscr{C}$, form a fundamental system of neighborhoods of 0. Now, such a set is a subcogebra of Θ, so its orthogonal is an ideal of $\Theta^*$. The topology on $\Theta^*$ is therefore compatible with its ring structure. The canonical algebra homomorphism $\eta : A\rightarrow \Theta^*$ (that sends $a\in A$ to the linear form $f\mapsto f(a)$ on Θ) defines an isomorphism from the completed Hausdorff space $\widehat{A}$ of A (Gen. Top., II, §3, No. 7, p. 191) to $\Theta^*$.
 

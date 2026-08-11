@@ -34,7 +34,7 @@ subsections:
       pdf_page: 54
 statements: 36
 exercises: 20
-content_sha256: b7aa6b29ab234498a2d605796ae9ae1913d6f0dcc7ddbee168c7d0ec0fa4a23c
+content_sha256: 44a5b12a161c70f8cca152cb2c02c3544ce4a8bb041de75d6c572f2cd5222607
 ---
 
 ## § 2. THE STRUCTURE OF MODULES OF FINITE LENGTH
@@ -319,7 +319,9 @@ Then there exist an automorphism $u$ of M and a bijection $\varphi$ from I to J 
 
 For any primordial module L, let $I_L$ (resp. $J_L)$ be the set of indices $i\in I$ (resp. $j\in J)$ such that $M_i$ (resp. $M'_j)$ is isomorphic to L. The nonempty sets of the form $I_L$ (resp. $J_L)$ form a partition of I (resp. J), and for every L, we have
 
-Card(I$_L) =$ Card(J$_L) = [M : L]$; the corollary follows.
+Card(I$_L) =$ Card(J$_L) = [M : L]$;
+
+the corollary follows.
 
 #### Corollary 3 {#alg-viii-s2-lem-4-cor-3 .statement tag=002E}
 

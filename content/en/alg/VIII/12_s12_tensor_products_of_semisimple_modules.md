@@ -42,7 +42,7 @@ subsections:
       pdf_page: 239
 statements: 26
 exercises: 17
-content_sha256: daa8bc3fa0086c6d391fd56904f6a1465abf4acd7c4f0381c02a39051af5fca8
+content_sha256: 8ba47cc3c0b0640449ba24f98f3cf24a71d8f511ee2b408c88576026997d6fe3
 ---
 
 ## § 12. TENSOR PRODUCTS OF SEMISIMPLE MODULES
@@ -107,7 +107,9 @@ Let $M_1$ and $N_1$ be $A_1$-modules, and let $M_2$ and $N_2$ be $A_2$-modules. 
 
 (i) The $A_1$-module $M_1$ is finitely generated.
 
-(ii) The $A_2$-module $M_2$ is finitely generated, or $N_1$ is finite-dimensional over K. Set $M = M_1\otimes M_2$ and $N = N_1\otimes N_2$, and view them as modules over the ring $A = A_1\otimes A_2$. The canonical homomorphism (II, §3, No. 5, p. 251)
+(ii) The $A_2$-module $M_2$ is finitely generated, or $N_1$ is finite-dimensional over K.
+
+Set $M = M_1\otimes M_2$ and $N = N_1\otimes N_2$, and view them as modules over the ring $A = A_1\otimes A_2$. The canonical homomorphism (II, §3, No. 5, p. 251)
 
 $\lambda :$ Hom$_K(M_1,N_1)\otimes$ Hom$_K(M_2,N_2)\longrightarrow$ Hom$_K(M,N)$
 
@@ -343,7 +345,9 @@ a) We make one of the following two assumptions:
 
 (i) The A-module M is finitely generated and L is algebraic over K.
 
-(ii) The ring A is left Artinian. Then we have the inclusion
+(ii) The ring A is left Artinian.
+
+Then we have the inclusion
 
 $$
 \mathfrak{R}_A(M)_{(L)}\subset \mathfrak{R}_{A_{(L)}}(M_{(L)})

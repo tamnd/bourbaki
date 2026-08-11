@@ -3910,14 +3910,14 @@ books:
                   page: 8
                   pdf_page: 19
                 - "no": 4
-                  title: Polynômes à coeﬃcients dans un anneau noethérien
+                  title: Polynômes à coefficients dans un anneau noethérien
                   page: 9
                   pdf_page: 20
               exercises:
                 page: 13
                 pdf_page: 24
             - section: 2
-              title: Structure des modules de longueur ﬁnie
+              title: Structure des modules de longueur finie
               page: 23
               pdf_page: 34
               subsections:
@@ -3938,7 +3938,7 @@ books:
                   page: 29
                   pdf_page: 40
                 - "no": 5
-                  title: Structure des modules de longueur ﬁnie
+                  title: Structure des modules de longueur finie
                   page: 34
                   pdf_page: 45
               exercises:
@@ -4054,7 +4054,7 @@ books:
                   page: 91
                   pdf_page: 100
                 - "no": 2
-                  title: Modules générateurs et modules projectifs de type ﬁni
+                  title: Modules générateurs et modules projectifs de type fini
                   page: 94
                   pdf_page: 103
                 - "no": 3
@@ -4358,7 +4358,7 @@ books:
                   page: 273
                   pdf_page: 276
                 - "no": 2
-                  title: Déﬁnition du groupe de Brauer
+                  title: Définition du groupe de Brauer
                   page: 274
                   pdf_page: 277
                 - "no": 3
@@ -4457,16 +4457,16 @@ books:
                 page: 344
                 pdf_page: 347
             - section: 18
-              title: Algèbres simples sur un corps ﬁni
+              title: Algèbres simples sur un corps fini
               page: 347
               pdf_page: 350
               subsections:
                 - "no": 1
-                  title: Polynômes sur un corps ﬁni
+                  title: Polynômes sur un corps fini
                   page: 347
                   pdf_page: 350
                 - "no": 2
-                  title: Algèbres simples sur un corps ﬁni
+                  title: Algèbres simples sur un corps fini
                   page: 348
                   pdf_page: 351
               exercises:
@@ -4514,11 +4514,11 @@ books:
                   page: 367
                   pdf_page: 369
                 - "no": 3
-                  title: Coeﬃcients d’un module
+                  title: Coefficients d’un module
                   page: 368
                   pdf_page: 370
                 - "no": 4
-                  title: Dual restreint et coeﬃcients matriciels
+                  title: Dual restreint et coefficients matriciels
                   page: 371
                   pdf_page: 373
                 - "no": 5
@@ -4530,7 +4530,7 @@ books:
                   page: 374
                   pdf_page: 376
                 - "no": 7
-                  title: Coeﬃcients d’un ensemble de classes de modules
+                  title: Coefficients d’un ensemble de classes de modules
                   page: 379
                   pdf_page: 381
                 - "no": 8
@@ -4541,7 +4541,7 @@ books:
                 page: 385
                 pdf_page: 387
             - section: 21
-              title: Représentations linéaires des groupes ﬁnis
+              title: Représentations linéaires des groupes finis
               page: 387
               pdf_page: 389
               subsections:
@@ -4574,7 +4574,7 @@ books:
                   page: 400
                   pdf_page: 402
                 - "no": 8
-                  title: Fonctions centrales sur un groupe ﬁni
+                  title: Fonctions centrales sur un groupe fini
                   page: 401
                   pdf_page: 403
                 - "no": 9
@@ -4660,16 +4660,16 @@ books:
               pdf_page: 452
               appendix: true
             - section: 4
-              title: Trace d’un endomorphisme de rang ﬁni
+              title: Trace d’un endomorphisme de rang fini
               page: 453
               pdf_page: 454
               subsections:
                 - "no": 1
-                  title: Applications linéaires de rang ﬁni
+                  title: Applications linéaires de rang fini
                   page: 453
                   pdf_page: 454
                 - "no": 2
-                  title: Trace d’un endomorphisme de rang ﬁni
+                  title: Trace d’un endomorphisme de rang fini
                   page: 454
                   pdf_page: 455
               appendix: true
@@ -4897,7 +4897,7 @@ books:
                   page: 83
                   pdf_page: 91
                 - "no": 4
-                  title: The coeﬃcients Nαβ
+                  title: The coefficients Nαβ
                   page: 83
                   pdf_page: 91
               exercises:
@@ -4932,7 +4932,7 @@ books:
                 page: 229
                 pdf_page: 237
             - section: 4
-              title: Split semi-simple Lie algebra deﬁned by a reduced root system
+              title: Split semi-simple Lie algebra defined by a reduced root system
               page: 95
               pdf_page: 103
               subsections:
@@ -5013,11 +5013,11 @@ books:
               pdf_page: 132
               subsections:
                 - "no": 1
-                  title: Weights of a ﬁnited imensional simple g-module
+                  title: Weights of a finited imensional simple g-module
                   page: 124
                   pdf_page: 132
                 - "no": 2
-                  title: Highest weight of a ﬁnite dimensional simple g-module
+                  title: Highest weight of a finite dimensional simple g-module
                   page: 126
                   pdf_page: 134
                 - "no": 3
@@ -5077,7 +5077,7 @@ books:
               pdf_page: 160
               subsections:
                 - "no": 1
-                  title: Characters of ﬁnite dimensional g-modules
+                  title: Characters of finite dimensional g-modules
                   page: 152
                   pdf_page: 160
                 - "no": 2
@@ -5108,7 +5108,7 @@ books:
               pdf_page: 171
               subsections:
                 - "no": 1
-                  title: Deﬁnition of sl2 -triplets
+                  title: Definition of sl2 -triplets
                   page: 163
                   pdf_page: 171
                 - "no": 2
@@ -5140,7 +5140,7 @@ books:
                   page: 173
                   pdf_page: 181
                 - "no": 3
-                  title: Integral variant of the Poincaré-Birkhoﬀ-Witt theorem
+                  title: Integral variant of the Poincaré-Birkhoff-Witt theorem
                   page: 174
                   pdf_page: 182
                 - "no": 4
@@ -5375,7 +5375,7 @@ books:
                   page: 341
                   pdf_page: 348
                 - "no": 5
-                  title: Invariant diﬀerential forms
+                  title: Invariant differential forms
                   page: 344
                   pdf_page: 351
               exercises:
@@ -5423,7 +5423,7 @@ books:
                   page: 360
                   pdf_page: 367
                 - "no": 2
-                  title: Fourier transforms of inﬁnitely-diﬀerentiable functions
+                  title: Fourier transforms of infinitely-differentiable functions
                   page: 362
                   pdf_page: 369
                 - "no": 3

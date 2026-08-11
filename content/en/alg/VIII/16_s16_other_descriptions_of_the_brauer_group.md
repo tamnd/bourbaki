@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: 53c7db95f82c5e31362fd8faa00938e184d0c5701cb8f2338276757a0aa77bf3
+content_sha256: e0a697b669398d35e2d9bcd734f03da4b53022aa462cc4025cbbfd23db4dc6b4
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -69,7 +69,7 @@ In this section, if F is an abelian group and $g$ an automorphism of F, then we 
 
 In this subsection, we fix a group G, an abelian group F written multiplicatively, and a group homomorphism $\tau$ from G to the automorphism group Aut(F) of F. We denote the identity element of G by $e$ and the identity element of F by 1.
 
-Recall (I, §6, No. 1, p. 65) that an extension $\mathscr{E}$ of G by F is a triple $(\Gamma, \iota , \pi )$, where Γ is a group, $\pi : \Gamma\rightarrow G$ is a surjective homomorphism, and $\iota$ is an injective homomorphism from F to Γ such that Im($\iota$ ) $=$ Ker($\pi$ ). Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be such an extension. For every $\gamma \in \Gamma$, the mapping $\varphi_{\gamma}: F\rightarrow F$ defined by
+Recall (I, §6, No. 1, p. 65) that an extension $\mathscr{E}$ of G by F is a triple $(\Gamma , \iota , \pi )$, where Γ is a group, $\pi : \Gamma \rightarrow G$ is a surjective homomorphism, and $\iota$ is an injective homomorphism from F to Γ such that Im($\iota$ ) $=$ Ker($\pi$ ). Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be such an extension. For every $\gamma \in \Gamma$, the mapping $\varphi_{\gamma}: F\rightarrow F$ defined by
 
 $$
 \iota (\varphi_{\gamma}(f)) =\gamma \iota (f)\gamma^{-1}
@@ -77,17 +77,21 @@ $$
 
 for $f\in F$ is an automorphism of F. Since F is commutative, for every $f\in F$, the automorphism defined by $\iota (f)$ is the identity mapping on F. By passing to the quotient, we obtain a homomorphism Int$_{\mathscr{E}}$ from G to Aut(F) characterized by
 
-$\gamma \iota (f)\gamma^{-1}=\iota$(Int$_{\mathscr{E}}(\pi (\gamma ))\cdot f)$ for $\gamma \in \Gamma$ and $f\in F$.
+$\gamma \iota (f)\gamma^{-1}=\iota$(Int$_{\mathscr{E}}(\pi (\gamma ))\cdot f)$
 
-$A\tau$-extension of G by F is an extension $\mathscr{E}= (\Gamma, \iota , \pi )$ such that Int$_{\mathscr{E}}$ is equal to $\tau$, in other words, that satisfies the relation
+for $\gamma \in \Gamma$ and $f\in F$.
+
+$A\tau$-extension of G by F is an extension $\mathscr{E}= (\Gamma , \iota , \pi )$ such that Int$_{\mathscr{E}}$ is equal to $\tau$, in other words, that satisfies the relation
 
 $$
 \gamma \iota (f)\gamma^{-1}=\iota (\tau (\pi (\gamma ))\cdot f) \tag{1}
 $$
 
-for $\gamma \in \Gamma$ and $f\in F$. If $\mathscr{E}= (\Gamma, \iota , \pi )$ and $\mathscr{E}'= (\Gamma', \iota ', \pi ')$ are $\tau$-extensions, then a morphism of $\tau$-extensions from $\mathscr{E}$ to $\mathscr{E}'$ is a morphism of extensions from $\mathscr{E}$ to $\mathscr{E}'$ (I, §6, No. 1, p. 65), that is, a group homomorphism $u: \Gamma\rightarrow \Gamma'$ such that $\pi '\circ u=\pi$ and $\iota '=u\circ \iota$. Note that the $\tau$-extensions form a species of structures for which every morphism is an isomorphism (Set Theory, IV, §1, No. 5, p. 264 and I, §6, No. 1, p. 66, Proposition 1). Denote by Iso$_{\tau}(\mathscr{E},\mathscr{F})$ the relation
+for $\gamma \in \Gamma$ and $f\in F$. If $\mathscr{E}= (\Gamma , \iota , \pi )$ and $\mathscr{E}'= (\Gamma ', \iota ', \pi ')$ are $\tau$-extensions, then a morphism of $\tau$-extensions from $\mathscr{E}$ to $\mathscr{E}'$ is a morphism of extensions from $\mathscr{E}$ to $\mathscr{E}'$ (I, §6, No. 1, p. 65), that is, a group homomorphism $u: \Gamma \rightarrow \Gamma '$ such that $\pi '\circ u=\pi$ and $\iota '=u\circ \iota$. Note that the $\tau$-extensions form a species of structures for which every morphism is an isomorphism (Set Theory, IV, §1, No. 5, p. 264 and I, §6, No. 1, p. 66, Proposition 1). Denote by Iso$_{\tau}(\mathscr{E},\mathscr{F})$ the relation
 
-“$\mathscr{E}$ and $\mathscr{F}$ are isomorphic $\tau$-extensions.” This is an equivalence relation; the class of the extension $\mathscr{E}$ is the class of objects equivalent to $\mathscr{E}$ for Iso$_{\tau}($Set Theory, II, §6, No. 6, p. 122).
+“$\mathscr{E}$ and $\mathscr{F}$ are isomorphic $\tau$-extensions.”
+
+This is an equivalence relation; the class of the extension $\mathscr{E}$ is the class of objects equivalent to $\mathscr{E}$ for Iso$_{\tau}($Set Theory, II, §6, No. 6, p. 122).
 
 #### Lemma 1 {#alg-viii-s16-lem-1 .statement tag=00I9}
 
@@ -97,7 +101,7 @@ The relation
 
 is collectivizing in $\alpha$.
 
-Set $E_0= F\times G$, and consider the mappings $\iota_0: F\rightarrow E_0$ and $\pi_0: E_0\rightarrow G$ defined by $\iota_0(f) = (f, e)$ for $f\in F$ and $\pi_0(f, g) =g$ for $(f, g)\in F\times G$. Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be a $\tau$-extension of G by F. The mapping $\pi$ is surjective, so has a section $\sigma : G\rightarrow \Gamma$ such that $\sigma (e) =e$. The mapping $u: (f, g)\mapsto \iota (f)\sigma (g)$ from $F\times G$ to Γ is bijective. We endow $F\times G$ with the group law obtained by transfer of structure. The triple $(E_0, \iota_0, \pi_0)$ is then a $\tau$-extension isomorphic to $\mathscr{E}$. Lemma 1 now follows from Set Theory, II, §6, No. 6, p. 122.
+Set $E_0= F\times G$, and consider the mappings $\iota_0: F\rightarrow E_0$ and $\pi_0: E_0\rightarrow G$ defined by $\iota_0(f) = (f, e)$ for $f\in F$ and $\pi_0(f, g) =g$ for $(f, g)\in F\times G$. Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension of G by F. The mapping $\pi$ is surjective, so has a section $\sigma : G\rightarrow \Gamma$ such that $\sigma (e) =e$. The mapping $u: (f, g)\mapsto \iota (f)\sigma (g)$ from $F\times G$ to Γ is bijective. We endow $F\times G$ with the group law obtained by transfer of structure. The triple $(E_0, \iota_0, \pi_0)$ is then a $\tau$-extension isomorphic to $\mathscr{E}$. Lemma 1 now follows from Set Theory, II, §6, No. 6, p. 122.
 
 We denote by Ex$_{\tau}(G,F)$ the set of classes of $\tau$-extensions for the relation Iso$_{\tau}$.
 
@@ -117,23 +121,27 @@ for $g_1\in G_1,g_2\in G_2,f_1\in F_1$, and $f_2\in F_2$. Let $\mathscr{E}_1= (\
 
 ### 2. Inverse Image of a $\tau$-Extension
 
-Let G and $G'$ be groups. Let F be an abelian group, and let $\tau : G\rightarrow$ Aut(F) and $u: G'\rightarrow G$ be group homomorphisms. Consider the group homomorphism $\tau '=\tau \circ u: G'\rightarrow$ Aut(F), and denote by $\Gamma'$ the fiber product $\Gamma\times_GG'$ with respect to $\pi$ and $u$ (I, §4, No. 8, p. 46). It is the subgroup of $\Gamma\times G'$ consisting of the pairs $(\gamma , g')$ such that $\pi (\gamma ) =u(g')$. Let $\iota ': F\rightarrow \Gamma'$ be the group homomorphism given by $\iota '(\alpha ) = (\iota (\alpha ), e)$ for $\alpha \in F$, and denote the second projection by $\pi ': \Gamma'\rightarrow G'$. Then the morphism $\iota '$ is injective, the morphism $\pi '$ is surjective because $\pi$ is, and the image of $\iota '$ coincides with the kernel of $\pi '$. Moreover, for every $\alpha \in F$ and $\gamma '= (\gamma , g)\in \Gamma'$, we have the relations
+Let G and $G'$ be groups. Let F be an abelian group, and let $\tau : G\rightarrow$ Aut(F) and $u: G'\rightarrow G$ be group homomorphisms. Consider the group homomorphism $\tau '=\tau \circ u: G'\rightarrow$ Aut(F), and denote by $\Gamma '$ the fiber product $\Gamma \times_GG'$ with respect to $\pi$ and $u$ (I, §4, No. 8, p. 46). It is the subgroup of $\Gamma \times G'$ consisting of the pairs $(\gamma , g')$ such that $\pi (\gamma ) =u(g')$. Let $\iota ': F\rightarrow \Gamma '$ be the group homomorphism given by $\iota '(\alpha ) = (\iota (\alpha ), e)$ for $\alpha \in F$, and denote the second projection by $\pi ': \Gamma '\rightarrow G'$. Then the morphism $\iota '$ is injective, the morphism $\pi '$ is surjective because $\pi$ is, and the image of $\iota '$ coincides with the kernel of $\pi '$. Moreover, for every $\alpha \in F$ and $\gamma '= (\gamma , g)\in \Gamma '$, we have the relations
 
 $$
 \gamma '\iota '(\alpha )\gamma^{'-1}= (\gamma , g)(\iota (\alpha ), e)(\gamma , g)^{-1}= (\iota (\tau (\pi (\gamma )).\alpha ), e) =\iota '(\tau '(\pi '(\gamma ')).\alpha )
 $$
 
-Consequently, $(\Gamma', \iota ', \pi ')$ is a $\tau '$-extension of $G'$ by F; we call it the inverse image of $\mathscr{E}$ by $u$ and denote it by $u^*(\mathscr{E})$. The first projection is a group homomorphism $\varphi : \Gamma'\rightarrow \Gamma$ that we call canonical.
+Consequently, $(\Gamma ', \iota ', \pi ')$ is a $\tau '$-extension of $G'$ by F; we call it the inverse image of $\mathscr{E}$ by $u$ and denote it by $u^*(\mathscr{E})$. The first projection is a group homomorphism $\varphi : \Gamma '\rightarrow \Gamma$ that we call canonical.
 
 #### Proposition 1 {#alg-viii-s16-prop-1 .statement tag=00IC}
 
 The following diagram commutes:
 
-F $^{\iota'}$ // $\Gamma_'^{\pi'}$ // $G_'$ (2)
+F $^{\iota'}$ // $\Gamma_'^{\pi'}$ // $G_'$
+
+(2)
 
 $\varphi u$
 
-F $^{\iota}$ // Γ $^{\pi}$ // G. Moreover, if $\mathscr{E}_1'= (\Gamma'_1, \iota '_1, \pi '_1)$ is a $\tau '$-extension and $\varphi_1: \Gamma'_1\rightarrow \Gamma$ is a group homomorphism such that the diagram
+F $^{\iota}$ // Γ $^{\pi}$ // G.
+
+Moreover, if $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$ is a $\tau '$-extension and $\varphi_1: \Gamma '_1\rightarrow \Gamma$ is a group homomorphism such that the diagram
 
 F $^{\iota'_1}$ // $\Gamma_{'1}^{\pi'_1}$ // $G_'$
 
@@ -153,13 +161,15 @@ $$
 w(\tau_1(g)(f)) =\tau (u(g))(w(f))
 $$
 
-for every $f\in F'_1$ and $g\in G'$. Let $\mathscr{E}_1'= (\Gamma'_1, \iota '_1, \pi '_1)$ be a $\tau_1$-extension of $G'$ by $F'_1$ and $\varphi_1: \Gamma'_1\rightarrow \Gamma$ a group homomorphism such that the following diagram commutes:
+for every $f\in F'_1$ and $g\in G'$. Let $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$ be a $\tau_1$-extension of $G'$ by $F'_1$ and $\varphi_1: \Gamma '_1\rightarrow \Gamma$ a group homomorphism such that the following diagram commutes:
 
 $F_{'1}^{\iota'_1}$ // $\Gamma_{'1}^{\pi'_1}$ // $G_'$
 
 $w\varphi_1u$
 
-F $^{\iota}$ // Γ $^{\pi}$ // G. Then there exists a unique group homomorphism $\psi : \Gamma'_1\rightarrow \Gamma'$ such that the diagram
+F $^{\iota}$ // Γ $^{\pi}$ // G.
+
+Then there exists a unique group homomorphism $\psi : \Gamma '_1\rightarrow \Gamma '$ such that the diagram
 
 $F_{'1}^{\iota'_1}$ // $\Gamma_{'1}^{\pi_1'}$ // $G_'$
 
@@ -169,13 +179,13 @@ F $^{\iota'}$ // $\Gamma_'^{\pi'}$ // $G_'$
 
 commutes and $\varphi_1=\varphi \circ \psi$.
 
-If the group homomorphism $\psi : \Gamma'_1\rightarrow \Gamma'$ has the desired properties, then it satisfies the relations
+If the group homomorphism $\psi : \Gamma '_1\rightarrow \Gamma '$ has the desired properties, then it satisfies the relations
 
 $$
 \psi (\gamma ) = (\varphi \circ \psi (\gamma ), \pi '\circ \psi (\gamma )) = (\varphi_1(\gamma ), \pi '_1(\gamma ))
 $$
 
-for every $\gamma \in \Gamma'_1$. Conversely, the group homomorphism from $\Gamma'_1$ to $\Gamma\times G'$ defined by $\gamma \mapsto (\varphi_1(\gamma ), \pi_1'(\gamma ))$ has values in the fiber product $\Gamma\times_GG'$ because $\pi \circ \varphi_1(\gamma ) =u\circ \pi_1'(\gamma )$ for every $\gamma \in \Gamma'_1$.
+for every $\gamma \in \Gamma '_1$. Conversely, the group homomorphism from $\Gamma '_1$ to $\Gamma \times G'$ defined by $\gamma \mapsto (\varphi_1(\gamma ), \pi_1'(\gamma ))$ has values in the fiber product $\Gamma \times_GG'$ because $\pi \circ \varphi_1(\gamma ) =u\circ \pi_1'(\gamma )$ for every $\gamma \in \Gamma '_1$.
 
 #### Corollary 1 {#alg-viii-s16-lem-2-cor-1 .statement tag=00IE}
 
@@ -191,7 +201,7 @@ Let $u': G''\rightarrow G'$ be a group homomorphism, and let $\mathscr{E}$ be a 
 
 #### Example {#alg-viii-s16-n2-exa-1 .statement tag=00RI}
 
-Let H be a subgroup of G and $j: H\rightarrow G$ the canonical injection. Then for every $\tau$-extension $\mathscr{E}= (\Gamma, \iota , \pi )$, the $\tau \circ j$-extension $j^*(\mathscr{E})$ is isomorphic to $(^-\pi^1(H), \iota ', \pi ')$, where $\iota ': F\rightarrow^-\pi^1(H)$ (resp. $\pi ':^-\pi^1(H)\rightarrow H)$ is the group homomorphism $f\mapsto \iota (f)$ (resp. $\gamma \mapsto \pi (\gamma ))$. More generally, if the group homomorphism $u: G'\rightarrow G$ is injective, then the canonical homomorphism $\varphi$ is injective with image $^-\pi^1(u(G'))$.
+Let H be a subgroup of G and $j: H\rightarrow G$ the canonical injection. Then for every $\tau$-extension $\mathscr{E}= (\Gamma , \iota , \pi )$, the $\tau \circ j$-extension $j^*(\mathscr{E})$ is isomorphic to $(^-\pi^1(H), \iota ', \pi ')$, where $\iota ': F\rightarrow^-\pi^1(H)$ (resp. $\pi ':^-\pi^1(H)\rightarrow H)$ is the group homomorphism $f\mapsto \iota (f)$ (resp. $\gamma \mapsto \pi (\gamma ))$. More generally, if the group homomorphism $u: G'\rightarrow G$ is injective, then the canonical homomorphism $\varphi$ is injective with image $^-\pi^1(u(G'))$.
 
 ### 3. Direct Image of a $\tau$-Extension
 
@@ -201,35 +211,41 @@ $$
 v(\tau (g)\cdot f) =\tau '(g)\cdot v(f) \tag{3}
 $$
 
-for every $g\in G$ and $f\in F$. Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be a $\tau$-extension of G by F. Let $\widetilde{\Gamma}$ be the external semidirect product $F'\times_{\tau'\circ\pi}\Gamma$. We denote by $\widetilde{\imath}: F'\rightarrow \widetilde{\Gamma}$ the homomorphism $f\mapsto (f, e)$ and by $\widetilde{p}:\widetilde{\Gamma}\rightarrow \Gamma$ the first projection. Let $j: F\rightarrow \widetilde{\Gamma}$ be the mapping defined by $f\mapsto (v(f), \iota (f)^{-1})$. Since the image of $\iota$ is contained in the kernel of $\tau '\circ \pi$, the mapping $j$ is a group homomorphism; it is injective because $\iota$ is injective. We have the relations
+for every $g\in G$ and $f\in F$. Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension of G by F. Let $\widetilde{\Gamma}$ be the external semidirect product $F'\times_{\tau'\circ\pi}\Gamma$. We denote by $\widetilde{\imath}: F'\rightarrow \widetilde{\Gamma}$ the homomorphism $f\mapsto (f, e)$ and by $\widetilde{p}:\widetilde{\Gamma}\rightarrow \Gamma$ the first projection. Let $j: F\rightarrow \widetilde{\Gamma}$ be the mapping defined by $f\mapsto (v(f), \iota (f)^{-1})$. Since the image of $\iota$ is contained in the kernel of $\tau '\circ \pi$, the mapping $j$ is a group homomorphism; it is injective because $\iota$ is injective. We have the relations
 
 $$
 (f', \gamma )j(f)(f', \gamma )^{-1}= (f', \gamma )(v(f), \iota (f)^{-1})(f', \gamma )^{-1}
 $$
 
-(4) $= (\tau '(\pi (\gamma ))\cdot v(f), \iota (\tau (\pi (\gamma ))\cdot f)^{-1})$
+$$
+= (\tau '(\pi (\gamma ))\cdot v(f), \iota (\tau (\pi (\gamma ))\cdot f)^{-1}) \tag{4}
+$$
 
 $$
 =j(\tau (\pi (\gamma ))\cdot f)
 $$
 
-for $f\in F,\gamma \in \Gamma$, and $f'\in F'$. Consequently, the image of $j$ is a normal subgroup of $\widetilde{\Gamma}$. We denote by $\Gamma'$ the quotient of $\widetilde{\Gamma}$ by the image of $j$. We denote by $\iota '$ the composition of the canonical surjection from $\widetilde{\Gamma}$ to $\Gamma'$ and $\widetilde{\imath}$. The kernel of the homomorphism $\pi \circ \widetilde{p}$ is the product $F'\times \iota$(F), which contains the image of $j$. We define $\pi ': \Gamma'\rightarrow G$ as the group homomorphism deduced from $\pi \circ \widetilde{p}$ by passing to the quotient. Since $\iota$ is injective, the intersection of $j(F)$ and $\widetilde{\imath}(F')$ is reduced to the identity element of $\widetilde{\Gamma}$; it follows that $\iota '$ is injective. The mapping from $F'\times F$ to $F'\times \iota (F) =$ Ker($\pi \circ \widetilde{p}$) given by
+for $f\in F,\gamma \in \Gamma$, and $f'\in F'$. Consequently, the image of $j$ is a normal subgroup of $\widetilde{\Gamma}$. We denote by $\Gamma '$ the quotient of $\widetilde{\Gamma}$ by the image of $j$. We denote by $\iota '$ the composition of the canonical surjection from $\widetilde{\Gamma}$ to $\Gamma '$ and $\widetilde{\imath}$. The kernel of the homomorphism $\pi \circ \widetilde{p}$ is the product $F'\times \iota$(F), which contains the image of $j$. We define $\pi ': \Gamma '\rightarrow G$ as the group homomorphism deduced from $\pi \circ \widetilde{p}$ by passing to the quotient. Since $\iota$ is injective, the intersection of $j(F)$ and $\widetilde{\imath}(F')$ is reduced to the identity element of $\widetilde{\Gamma}$; it follows that $\iota '$ is injective. The mapping from $F'\times F$ to $F'\times \iota (F) =$ Ker($\pi \circ \widetilde{p}$) given by
 
 $$
 (f', f)\longmapsto (f'v(f), \iota (f)^{-1})
 $$
 
-is a group isomorphism. The image of $\iota '$ therefore coincides with the kernel of $\pi '$. Since $\pi$ and $\widetilde{p}$ are surjective, so is $\pi '$. This proves that $\mathscr{E}'= (\Gamma', \iota , \pi ')$ is a $\tau '$-extension of G by $F'$; we call it the direct image of $\mathscr{E}$ by $v$ and denote it by $v_*(\mathscr{E})$. The composition of the canonical surjection from $\widetilde{\Gamma}$ to $\Gamma'$ and the group homomorphism from Γ to $\widetilde{\Gamma}$ given by $\gamma \mapsto (1, \gamma )$ is a group homomorphism $\varphi : \Gamma\rightarrow \Gamma'$ that we call canonical.
+is a group isomorphism. The image of $\iota '$ therefore coincides with the kernel of $\pi '$. Since $\pi$ and $\widetilde{p}$ are surjective, so is $\pi '$. This proves that $\mathscr{E}'= (\Gamma ', \iota , \pi ')$ is a $\tau '$-extension of G by $F'$; we call it the direct image of $\mathscr{E}$ by $v$ and denote it by $v_*(\mathscr{E})$. The composition of the canonical surjection from $\widetilde{\Gamma}$ to $\Gamma '$ and the group homomorphism from Γ to $\widetilde{\Gamma}$ given by $\gamma \mapsto (1, \gamma )$ is a group homomorphism $\varphi : \Gamma \rightarrow \Gamma '$ that we call canonical.
 
 #### Proposition 2 {#alg-viii-s16-prop-2 .statement tag=00IG}
 
 In the notation above, the following diagram commutes:
 
-F $^{\iota}$ // Γ $^{\pi}$ // G (5) $v\varphi$
+F $^{\iota}$ // Γ $^{\pi}$ // G
+
+$$
+v\varphi \tag{5}
+$$
 
 $F_'^{\iota'}$ // $\Gamma_'^{\pi'}$ // G .
 
-Let $\mathscr{E}_1'= (\Gamma'_1, \iota '_1, \pi_1')$ be a $\tau '$-extension of G by $F'$, and let $\varphi_1: \Gamma\rightarrow \Gamma'_1$ be a group homomorphism such that the following diagram commutes:
+Let $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi_1')$ be a $\tau '$-extension of G by $F'$, and let $\varphi_1: \Gamma \rightarrow \Gamma '_1$ be a group homomorphism such that the following diagram commutes:
 
 F $^{\iota}$ // Γ $^{\pi}$ // G
 
@@ -243,7 +259,7 @@ The commutativity of the first diagram follows by construction. The existence an
 
 #### Lemma 3 {#alg-viii-s16-lem-3 .statement tag=00IH}
 
-Let $G'_1$ be a group, and let $w: G\rightarrow G'_1$ and $\tau_1: G'_1\rightarrow$ Aut(F$')$ be group homomorphisms such that $\tau '=\tau_1\circ w$. Let $\mathscr{E}_1'= (\Gamma'_1, \iota '_1, \pi '_1)$ be a $\tau_1$-extension of $G'_1$ by $F'$, and let $\varphi_1: \Gamma\rightarrow \Gamma'_1$ be a group homomorphism such that the following diagram commutes:
+Let $G'_1$ be a group, and let $w: G\rightarrow G'_1$ and $\tau_1: G'_1\rightarrow$ Aut(F$')$ be group homomorphisms such that $\tau '=\tau_1\circ w$. Let $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$ be a $\tau_1$-extension of $G'_1$ by $F'$, and let $\varphi_1: \Gamma \rightarrow \Gamma '_1$ be a group homomorphism such that the following diagram commutes:
 
 F $^{\iota}$ // Γ $^{\pi}$ // G
 
@@ -251,7 +267,7 @@ $v\varphi_1w$
 
 $F_'^{\iota'_1}$ // $\Gamma_{'1}^{\pi'_1}$ // $G_{'1}$.
 
-Then there exists a unique group homomorphism $\psi : \Gamma'\rightarrow \Gamma'_1$ such that the diagram
+Then there exists a unique group homomorphism $\psi : \Gamma '\rightarrow \Gamma '_1$ such that the diagram
 
 $F_'^{\iota'}$ // $\Gamma_'^{\pi'}$ // G
 
@@ -259,13 +275,13 @@ $\psi w$
 
 $F_'^{\iota'_1}$ // $\Gamma_{'1}^{\pi'_1}$ // $G_{'1}$ commutes and $\varphi_1=\psi \circ \varphi$.
 
-For any $(f, \gamma )\in F'\times \Gamma$, denote the class of $(f, \gamma )$ in $\Gamma'$ by $(f, \gamma )$. If the group homomorphism $\psi : \Gamma'\rightarrow \Gamma'_1$ has the desired properties, then it satisfies the relations
+For any $(f, \gamma )\in F'\times \Gamma$, denote the class of $(f, \gamma )$ in $\Gamma '$ by $(f, \gamma )$. If the group homomorphism $\psi : \Gamma '\rightarrow \Gamma '_1$ has the desired properties, then it satisfies the relations
 
 $$
 \psi (f', \gamma )=\psi (\iota '(f')\varphi (\gamma )) =\iota '_1(f')\varphi_1(\gamma )
 $$
 
-for every $f'\in F'$ and $\gamma \in \Gamma$. Conversely, the mapping $\widetilde{\psi}$ from $F'\times_{\tau'\circ\pi}\Gamma$ to $\Gamma'_1$ given by $(f, \gamma )\mapsto \iota '_1(f)\varphi_1(\gamma )$ is a group homomorphism. Indeed, we have the relations
+for every $f'\in F'$ and $\gamma \in \Gamma$. Conversely, the mapping $\widetilde{\psi}$ from $F'\times_{\tau'\circ\pi}\Gamma$ to $\Gamma '_1$ given by $(f, \gamma )\mapsto \iota '_1(f)\varphi_1(\gamma )$ is a group homomorphism. Indeed, we have the relations
 
 $$
 \iota '_1(f)\varphi_1(\gamma )\iota '_1(f')\varphi_1(\gamma ') =\iota '_1(f \tau_1(\pi '_1(\varphi_1(\gamma )))\cdot f')\varphi_1(\gamma \gamma ')
@@ -279,9 +295,13 @@ for $f, f'\in F'$ and $\gamma , \gamma '\in \Gamma$. The kernel of $\widetilde{\
 
 #### Remark {#alg-viii-s16-n3-rem-1 .statement tag=00II}
 
-Denote by Σ the species of structures of $\tau '$-extensions, and define $\alpha$-mappings to be mappings from Γ to a group $\Gamma'$ underlying a $\tau '$-extension that are group homomorphisms and that make the following diagram commute:
+Denote by Σ the species of structures of $\tau '$-extensions, and define $\alpha$-mappings to be mappings from Γ to a group $\Gamma '$ underlying a $\tau '$-extension that are group homomorphisms and that make the following diagram commute:
 
-F $^{\iota}$ // Γ $^{\pi}$ // G (6) $v\varphi$
+F $^{\iota}$ // Γ $^{\pi}$ // G
+
+$$
+v\varphi \tag{6}
+$$
 
 $F_'^{\iota'}$ // $\Gamma_'^{\pi'}$ // G .
 
@@ -317,7 +337,7 @@ $$
 \tau '(g)\cdot v(f) =v(\tau (g)\cdot f)
 $$
 
-for $g\in G$ and $f\in F$. Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be a $\tau$-extension of G by F. Then $\iota (E)$ is a normal subgroup of Γ, and the $\tau '$-extension $v_*(\mathscr{E})$ of G by $F'$ is isomorphic to the extension $(\Gamma/\iota (E), \iota , \pi )$, where $\iota$ and $\pi$ are the group homomorphisms deduced from $\iota$ and $\pi$ by passing to the quotients. By this isomorphism, the canonical homomorphism $\varphi$ associated with $v_*(\mathscr{E})$ corresponds to the canonical homomorphism from Γ to $\Gamma/\iota (E)$.
+for $g\in G$ and $f\in F$. Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension of G by F. Then $\iota (E)$ is a normal subgroup of Γ, and the $\tau '$-extension $v_*(\mathscr{E})$ of G by $F'$ is isomorphic to the extension $(\Gamma /\iota (E), \iota , \pi )$, where $\iota$ and $\pi$ are the group homomorphisms deduced from $\iota$ and $\pi$ by passing to the quotients. By this isomorphism, the canonical homomorphism $\varphi$ associated with $v_*(\mathscr{E})$ corresponds to the canonical homomorphism from Γ to $\Gamma /\iota (E)$.
 
 #### Proposition 3 {#alg-viii-s16-prop-3 .statement tag=00IM}
 
@@ -329,7 +349,7 @@ $$
 
 for $g\in G$ and $f\in F$. We write $\tau ''=\tau '\circ u$. Let $\mathscr{E}$ be a $\tau$-extension of G by F. We denote by $\varphi_u($resp. $\varphi_v,\varphi '_u,\varphi '_v)$ the canonical homomorphism corresponding to the $\tau \circ u$-extension $u^*(\mathscr{E}) ($resp. to the $\tau '$-extension $v_*(\mathscr{E})$, to the $\tau ''$-extensions $u^*(v_*(\mathscr{E}))$ and $v_*(u^*(\mathscr{E})))$. Then there exists a unique morphism $\psi$ of $\tau ''$-extensions from $v_*(u^*(\mathscr{E}))$ to $u^*(v_*(\mathscr{E}))$ such that $\varphi_v\circ \varphi_u=$ $\varphi '_u\circ \psi \circ \varphi '_v$.
 
-We denote the $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. the $\tau ''$-extension $u^*(v_*(\mathscr{E})))$ by $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma'_u, \iota '_u, \pi_u'))$. Applying Lemma 2 of VIII, p. 287 to $\varphi_v\circ \varphi_u$, we find that there exists a group homomorphism $\psi_1: \Gamma_u\rightarrow \Gamma'_u$ such that the diagram
+We denote the $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. the $\tau ''$-extension $u^*(v_*(\mathscr{E})))$ by $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma '_u, \iota '_u, \pi_u'))$. Applying Lemma 2 of VIII, p. 287 to $\varphi_v\circ \varphi_u$, we find that there exists a group homomorphism $\psi_1: \Gamma_u\rightarrow \Gamma '_u$ such that the diagram
 
 F $^{\iota_u}$ // $\Gamma_u^{\pi_u}$ // $G_'$
 
@@ -351,7 +371,7 @@ for every $g\in G$ and all $f_1, f_2\in F$, the extension $m_*(\delta^*(\mathscr
 
 #### Remark {#alg-viii-s16-n4-rem-1 .statement tag=00IN}
 
-Let $\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ and $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ be $\tau$-extensions of G by F. Let $\mathscr{E}_1\mathscr{E}_2= (\Gamma, \iota , \pi )$ be the product of these extensions. Following the example of VIII, p. 289, the construction gives a surjective group homomorphism from the fiber product $\Gamma_1\times_G\Gamma_2$ to Γ whose kernel is the image of the group homomorphism $f\mapsto (\iota_1(f), \iota_2(f)^{-1})$ from F to $\Gamma_1\times_G\Gamma_2$.
+Let $\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ and $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ be $\tau$-extensions of G by F. Let $\mathscr{E}_1\mathscr{E}_2= (\Gamma , \iota , \pi )$ be the product of these extensions. Following the example of VIII, p. 289, the construction gives a surjective group homomorphism from the fiber product $\Gamma_1\times_G\Gamma_2$ to Γ whose kernel is the image of the group homomorphism $f\mapsto (\iota_1(f), \iota_2(f)^{-1})$ from F to $\Gamma_1\times_G\Gamma_2$.
 
 #### Proposition 4 {#alg-viii-s16-prop-4 .statement tag=00IO}
 
@@ -367,13 +387,13 @@ $G\times G^{\delta\times Id}/$/ $G\times G\times GF\times F^m$ // F
 
 and from Corollary 2 of VIII, p. 288; Corollary 2 of VIII, p. 291; and Proposition 3 of VIII, p. 292.
 
-Let ∆$: F\rightarrow F\times F$ be the diagonal mapping $f\mapsto (f, f)$. Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be a $\tau$-extension. Let $\widetilde{\Delta} : \Gamma\rightarrow \Gamma\times_G\Gamma$ be the group homomorphism given by $\gamma \mapsto (\gamma , \gamma )$. The following diagram commutes:
+Let ∆$: F\rightarrow F\times F$ be the diagonal mapping $f\mapsto (f, f)$. Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension. Let $\widetilde{\Delta} : \Gamma \rightarrow \Gamma \times_G\Gamma$ be the group homomorphism given by $\gamma \mapsto (\gamma , \gamma )$. The following diagram commutes:
 
 F $^{\iota}$ // Γ $^{\pi}$ // G
 
 ∆ $\widetilde{\Delta}$
 
-$F\times F$ // $\Gamma\times_G\Gamma$ // G .
+$F\times F$ // $\Gamma \times_G\Gamma$ // G .
 
 By Proposition 2 of VIII, p. 290, it follows that the $(\tau \times \tau )\circ \delta$-extension $\delta^*(\mathscr{E}\times \mathscr{E})$ is isomorphic to ∆$_*(\mathscr{E})$.
 
@@ -385,7 +405,9 @@ Id$_F$ $(c\times$Id$_F)\circ$∆ $m$
 
 $_m$ &&//
 
-$F\times F$ F . The last assertion follows from the commutative diagram
+$F\times F$ F .
+
+The last assertion follows from the commutative diagram
 
 $F^{(Id_F\times s)\circ\Delta}/$/ $F\times F$
 
@@ -445,7 +467,7 @@ A simple calculation shows that the mapping $\partial h: G\times G\rightarrow F$
 
 $*$The notation above agrees with that of X, §6, n$_o8$, p. 112 concerning group cohomology.$*$
 
-Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be a $\tau$-extension. Let $\sigma$ be a section of the surjective mapping $\pi ($Set Theory, II, §3, No. 8, p. 86), that is, a mapping from G to Γ such that $\pi (\sigma (g)) =g$ for every $g$ in G. For every $g_1, g_2\in G$, $\sigma (g_1)\sigma (g_2)\sigma (g_1g_2)^{-1}$ belongs to Ker($\pi$ ), so that there exists a unique mapping $c_{\sigma}: G\times G\rightarrow F$ such that
+Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension. Let $\sigma$ be a section of the surjective mapping $\pi ($Set Theory, II, §3, No. 8, p. 86), that is, a mapping from G to Γ such that $\pi (\sigma (g)) =g$ for every $g$ in G. For every $g_1, g_2\in G$, $\sigma (g_1)\sigma (g_2)\sigma (g_1g_2)^{-1}$ belongs to Ker($\pi$ ), so that there exists a unique mapping $c_{\sigma}: G\times G\rightarrow F$ such that
 
 $$
 \iota (c_{\sigma}(g_1, g_2)) =\sigma (g_1)\sigma (g_2)\sigma (g_1g_2)^{-1} \tag{9}
@@ -495,7 +517,9 @@ $$
 \iota (c_{\sigma'}(g_1, g_2)) =\sigma '(g_1)\sigma '(g_2)\sigma '(g_1g_2)^{-1}
 $$
 
-(10) $=\iota (a_{g_1})\sigma (g_1)\iota (a_{g_2})\sigma (g_2)\sigma (g_1g_2)^{-1}\iota (a_{g_1g_2})^{-1}$
+$$
+=\iota (a_{g_1})\sigma (g_1)\iota (a_{g_2})\sigma (g_2)\sigma (g_1g_2)^{-1}\iota (a_{g_1g_2})^{-1} \tag{10}
+$$
 
 $$
 =\iota (a_{g_1})\iota (^{g_1}a_{g_2})\iota (c_{\sigma}(g_1, g_2))\iota (a_{g_1g_2})^{-1}
@@ -509,15 +533,15 @@ $$
 
 as follows from (8). This proves that the classes of $c_{\sigma'}$ and $c_{\sigma}$ in $H^2(G,F)$ coincide.
 
-Finally, let $\mathscr{E}= (\Gamma, \iota , \pi )$ and $\mathscr{E}'= (\Gamma', \iota ', \pi ')$ be isomorphic $\tau$-extensions, let $u:\mathscr{E}\rightarrow \mathscr{E}'$ be a morphism of $\tau$-extensions, and let $\sigma$ be a section of the mapping $\pi$. The mapping $u\circ \sigma$ is a section of the mapping $\pi '$, and we have $c_{\sigma}=c_{u\circ\sigma}$. The class of $c_{\sigma}$ in $H^2(G,F)$ therefore depends only on the class of $\mathscr{E}$ in Ex$_{\tau}(G,F)$.
+Finally, let $\mathscr{E}= (\Gamma , \iota , \pi )$ and $\mathscr{E}'= (\Gamma ', \iota ', \pi ')$ be isomorphic $\tau$-extensions, let $u:\mathscr{E}\rightarrow \mathscr{E}'$ be a morphism of $\tau$-extensions, and let $\sigma$ be a section of the mapping $\pi$. The mapping $u\circ \sigma$ is a section of the mapping $\pi '$, and we have $c_{\sigma}=c_{u\circ\sigma}$. The class of $c_{\sigma}$ in $H^2(G,F)$ therefore depends only on the class of $\mathscr{E}$ in Ex$_{\tau}(G,F)$.
 
-We denote by $\Theta_{\tau}$ : Ex$_{\tau}(G,F)\rightarrow H^2(G,F)$, or more simply Θ, the mapping that sends the class of a $\tau$-extension $(\Gamma, \iota , \pi )$ to the class of the 2-cocycle $c_{\sigma}$, where $\sigma$ is a section of the surjection $\pi$.
+We denote by $\Theta_{\tau}$ : Ex$_{\tau}(G,F)\rightarrow H^2(G,F)$, or more simply Θ, the mapping that sends the class of a $\tau$-extension $(\Gamma , \iota , \pi )$ to the class of the 2-cocycle $c_{\sigma}$, where $\sigma$ is a section of the surjection $\pi$.
 
 #### Theorem 1 {#alg-viii-s16-thm-1 .statement tag=00IR}
 
 The mapping Θ is a group isomorphism from Ex$_{\tau}(G,F)$ to $H^2(G,F)$.
 
-Let us first prove that Θ is a group homomorphism. Let $\mathscr{E}= (\Gamma, \iota , \pi )$ and $\mathscr{E}'= (\Gamma', \iota ', \pi ')$ be $\tau$-extensions, and let $\sigma$ (resp. $\sigma ')$ be a section of the mapping $\pi$ (resp. $\pi ')$. We denote by $\mathscr{E} \mathscr{E}'= (\Gamma'', \iota '', \pi '')$ the product of the $\tau$-extensions $\mathscr{E}$ and $\mathscr{E}'$. We denote by $[\gamma , \gamma ']$ the image in $\Gamma''$ of an element $(\gamma , \gamma ')$ of $\Gamma\times_G\Gamma'$ by the surjective homomorphism from the remark of VIII, p. 293. The mapping from G to $\Gamma''$ that sends an element $g$ to $[\sigma (g), \sigma '(g)]$ is a section $\sigma ''$ of the mapping $\pi ''$. Let $g_1$ and $g_2$ be elements of G. We have the relations
+Let us first prove that Θ is a group homomorphism. Let $\mathscr{E}= (\Gamma , \iota , \pi )$ and $\mathscr{E}'= (\Gamma ', \iota ', \pi ')$ be $\tau$-extensions, and let $\sigma$ (resp. $\sigma ')$ be a section of the mapping $\pi$ (resp. $\pi ')$. We denote by $\mathscr{E} \mathscr{E}'= (\Gamma '', \iota '', \pi '')$ the product of the $\tau$-extensions $\mathscr{E}$ and $\mathscr{E}'$. We denote by $[\gamma , \gamma ']$ the image in $\Gamma ''$ of an element $(\gamma , \gamma ')$ of $\Gamma \times_G\Gamma '$ by the surjective homomorphism from the remark of VIII, p. 293. The mapping from G to $\Gamma ''$ that sends an element $g$ to $[\sigma (g), \sigma '(g)]$ is a section $\sigma ''$ of the mapping $\pi ''$. Let $g_1$ and $g_2$ be elements of G. We have the relations
 
 $$
 \iota ''(c_{\sigma''}(g_1, g_2)) =\sigma ''(g_1)\sigma ''(g_2)\sigma ''(g_1g_2)^{-1}
@@ -533,7 +557,7 @@ $$
 
 We therefore have $c_{\sigma''}(g_1, g_2) =c_{\sigma}(g_1, g_2)c_{\sigma'}(g_1, g_2)$.
 
-Let us prove that the mapping Θ is injective. Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be a $\tau$-extension, and let $\sigma$ be a section of the mapping $\pi$ such that the image of $c_{\sigma}$ in $H^2(G,F)$ is trivial. There exists a mapping $a: G\rightarrow F$ such that
+Let us prove that the mapping Θ is injective. Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension, and let $\sigma$ be a section of the mapping $\pi$ such that the image of $c_{\sigma}$ in $H^2(G,F)$ is trivial. There exists a mapping $a: G\rightarrow F$ such that
 
 $$
 c_{\sigma}(g_1, g_2) = (^{g_1}a(g_2))a(g_1g_2)^{-1}a(g_1)
@@ -547,7 +571,9 @@ $$
 
 for $g\in G$. Using (11), we obtain that $c_{\sigma'}$ is constant with value 1; consequently, $\sigma '$ is a group homomorphism, which proves that the $\tau$-extension $\mathscr{E}$ is semitrivial (I, §6, No. 1, p. 67, Proposition 4).
 
-Let us prove that the mapping Θ is surjective. Let $c$ be an element of $Z^2(G,F)$. We endow the set $\Gamma = F\times G$ with the following law of composition: (12) $(f_1, g_1)(f_2, g_2) =f_1(^{g_1}f_2)c(g_1, g_2), g_1g_2$ for all $f_1, f_2\in F$ and $g_1, g_2\in G$. We have the relations
+Let us prove that the mapping Θ is surjective. Let $c$ be an element of $Z^2(G,F)$. We endow the set $\Gamma  = F\times G$ with the following law of composition: (12) $(f_1, g_1)(f_2, g_2) =f_1(^{g_1}f_2)c(g_1, g_2), g_1g_2$
+
+for all $f_1, f_2\in F$ and $g_1, g_2\in G$. We have the relations
 
 $$
 (f_1, g_1) ((f_2, g_2)(f_3, g_3)) = (f_1, g_1)f_2(^{g_2}f_3)c(g_2, g_3), g_2g_3
@@ -559,7 +585,9 @@ $$
 ((f_1, g_1)(f_2, g_2)) (f_3, g_3) =f_1(^{g_1}f_2)c(g_1, g_2), g_1g_2(f_3, g_3)
 $$
 
-= $f_1(^{g_1}f_2)(^{g_1g_2}f_3)c(g_1, g_2)c(g_1g_2, g_3), g_1g_2g_3$ for all $f_1, f_2, f_3\in F$ and $g_1,g_2, g_3\in G$. It follows that this law is associative because $c$ is a 2-cocycle. For every $(f, g)\in \Gamma$, we have
+= $f_1(^{g_1}f_2)(^{g_1g_2}f_3)c(g_1, g_2)c(g_1g_2, g_3), g_1g_2g_3$
+
+for all $f_1, f_2, f_3\in F$ and $g_1,g_2, g_3\in G$. It follows that this law is associative because $c$ is a 2-cocycle. For every $(f, g)\in \Gamma$, we have
 
 $$
 (f, g)(c(e, e)^{-1}, e) = (f(^gc(e, e)^{-1})c(g, e), g)
@@ -577,7 +605,11 @@ $$
 (^{g^{-1}}(f^{-1}c(e, e)^{-1}c(g, g^{-1})^{-1}), g^{-1})
 $$
 
-So we have endowed Γ with a group structure. Let us denote by $\iota : F\rightarrow G$ the mapping that sends $f$ to $(c(e, e)^{-1}f, e)$, by $\pi : \Gamma\rightarrow G$ the second projection, and by $\sigma$ the mapping $g\mapsto (1, g)$. The mappings $\iota$ and $\pi$ are group homomorphisms, so the triple $\mathscr{E}= (\Gamma, \iota , \pi )$ is a $\tau$-extension, $\sigma$ is a section of the mapping $\pi$, and the associated cocycle $c_{\sigma}$ is equal to $c$ because $\sigma (g_1)\sigma (g_2)\sigma (g_1g_2)^{-1}= (1, g_1)(1, g_2)(1, g_1g_2)^{-1}= (c(g_1, g_2), g_1g_2)(1, g_1g_2)^{-1}$
+So we have endowed Γ with a group structure. Let us denote by $\iota : F\rightarrow G$ the mapping that sends $f$ to $(c(e, e)^{-1}f, e)$, by $\pi : \Gamma \rightarrow G$ the second projection, and by $\sigma$ the mapping $g\mapsto (1, g)$. The mappings $\iota$ and $\pi$ are group homomorphisms, so the triple $\mathscr{E}= (\Gamma , \iota , \pi )$ is a $\tau$-extension, $\sigma$ is a section of the mapping $\pi$, and the associated cocycle $c_{\sigma}$ is equal to $c$ because
+
+$$
+\sigma (g_1)\sigma (g_2)\sigma (g_1g_2)^{-1}= (1, g_1)(1, g_2)(1, g_1g_2)^{-1}= (c(g_1, g_2), g_1g_2)(1, g_1g_2)^{-1}
+$$
 
 $$
 = (c(g_1, g_2)c(e, g_1g_2)^{-1}, e) = (c(e, e)^{-1}c(g_1, g_2), e)
@@ -593,7 +625,7 @@ $$
 v(\tau (g)\cdot f) =\tau '(g)\cdot v(f) \tag{13}
 $$
 
-for $g\in G$ and $f\in F$. Let $\alpha$ be an element of Ex$_{\tau}(G,F)$. If the cocycle $c$ represents $\Theta(\alpha )$, then $v\circ c$ represents $\Theta(v_*(\alpha ))\in H^2(G,F')$.
+for $g\in G$ and $f\in F$. Let $\alpha$ be an element of Ex$_{\tau}(G,F)$. If the cocycle $c$ represents $\Theta (\alpha )$, then $v\circ c$ represents $\Theta (v_*(\alpha ))\in H^2(G,F')$.
 
 ### 6. Restriction and Corestriction
 
@@ -733,7 +765,11 @@ $$
 
 $\prod s(x)_{-1}-1-1-1$
 
-$\times c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)$ $\times^x_x^{\in}_{\in}\prod^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}c h(x)^{-1}, s'(x)g_1g_2s'(x\cdot g_1g_2)^{-1-1}$
+$\times c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)$
+
+$$
+\times^x_x^{\in}_{\in}\prod^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}c h(x)^{-1}, s'(x)g_1g_2s'(x\cdot g_1g_2)^{-1-1}
+$$
 
 $$
 \times c h(x)^{-1}, s'(x)g_1s'(x\cdot g_1)^{-1}
@@ -757,9 +793,17 @@ $$
 
 for all $g_1, g_2\in G$. The first equality comes from the cocycle relation (VIII, p. 295, formula (7)) applied to the elements
 
-$h(x)^{-1},h(x)s(x)g_1s'(x\cdot g_1)^{-1}$, and $s'(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}$; the second is obtained by applying the cocycle relation to the elements $s(x)g_1s(x\cdot g_1)^{-1},h(x\cdot g_1)^{-1}$, and $h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}$; and the last simply uses the fact that the mapping $x\mapsto x\cdot g_1$ is a permutation of $H\backslash G$.
+$h(x)^{-1},h(x)s(x)g_1s'(x\cdot g_1)^{-1}$, and $s'(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}$;
 
-The last two lines of the obtained expression correspond to a 2-coboundary. We find that $\widetilde{c}_{s'}$ has the same class in $H^2(G,F)$ as the cocycle whose value in $(g_1, g_2)\in G^2$ is given by the expression $_{x\in}\prod_{H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}h(x\cdot g_1g_2)^{-1}$
+the second is obtained by applying the cocycle relation to the elements
+
+$s(x)g_1s(x\cdot g_1)^{-1},h(x\cdot g_1)^{-1}$, and $h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}$; and the last simply uses the fact that the mapping $x\mapsto x\cdot g_1$ is a permutation of $H\backslash G$.
+
+The last two lines of the obtained expression correspond to a 2-coboundary. We find that $\widetilde{c}_{s'}$ has the same class in $H^2(G,F)$ as the cocycle whose value in $(g_1, g_2)\in G^2$ is given by the expression
+
+$$
+_{x\in}\prod_{H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}h(x\cdot g_1g_2)^{-1}
+$$
 
 $\prod s(x)_{-1}-1-1-1$
 
@@ -795,7 +839,9 @@ $$
 
 where the first equality follows from the cocycle relation applied to the elements
 
-$s(x)g_1s(x\cdot g_1)^{-1},s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}$, and $h(x\cdot g_1g_2)^{-1}$. The last two lines of the obtained expression correspond to a 2-coboundary. We find that the class of $\widetilde{c}_{s'}$ coincides with that of $\widetilde{c}_s$.
+$s(x)g_1s(x\cdot g_1)^{-1},s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}$, and $h(x\cdot g_1g_2)^{-1}$.
+
+The last two lines of the obtained expression correspond to a 2-coboundary. We find that the class of $\widetilde{c}_{s'}$ coincides with that of $\widetilde{c}_s$.
 
 We have constructed a homomorphism from the group $H^2(H,F)$ to the group $H^2(G,F)$, which we call the corestriction homomorphism from H to G and denote by Cor$^G_H$.
 
@@ -839,7 +885,9 @@ $$
 
 The first equality comes from the cocycle relation (VIII, p. 295, formula (7)) applied to the elements
 
-$s(x)^{-1},s(x)g_1s(x\cdot g_1)^{-1}$, and $s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}$; the second is obtained by applying the cocycle relation to the elements
+$s(x)^{-1},s(x)g_1s(x\cdot g_1)^{-1}$, and $s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}$;
+
+the second is obtained by applying the cocycle relation to the elements
 
 $g_1,s(x\cdot g_1)^{-1}$, and $s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}$.
 
@@ -1129,7 +1177,7 @@ Let L be a Galois extension of the field K of finite degree, and let G be its Ga
 
 Let K be a field, and let G be a group whose identity element we denote by $e$. Let L be a commutative K-algebra, and let $\lambda$ be a homomorphism from G to the automorphism group of the K-algebra L. For any $g$ in G, let $\tau (g)$ be the automorphism of the multiplicative group $L^*$ of L induced by $\lambda (g)$.
 
-Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be a $\tau$-extension of the group G by $L^*$. Define a right action of the group $L^*$ on the set $L\times \Gamma$ by
+Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension of the group G by $L^*$. Define a right action of the group $L^*$ on the set $L\times \Gamma$ by
 
 $$
 (\beta , \gamma ).\alpha = (\beta \alpha , \iota (\alpha )^{-1}\gamma ) \tag{20}
@@ -1179,13 +1227,19 @@ $$
 u(\beta ) = [\beta ;e] \tag{25}
 $$
 
-for $\beta$ in L. Then $u: L\rightarrow \mathbf{A}[\mathscr{E}; L]$ is an injective homomorphism of K-algebras. By (23), for every $\gamma \in \Gamma$, the element $[1;\gamma ]$ is invertible in $\mathbf{A}[\mathscr{E},L]$, and the mapping $v: \Gamma\rightarrow \mathbf{A}[\mathscr{E},L]^*$ that sends $\gamma$ to $[1;\gamma ]$ is an injective group homomorphism. The homomorphisms $u$ and $v$ are called canonical. We have the relations
+for $\beta$ in L. Then $u: L\rightarrow \mathbf{A}[\mathscr{E}; L]$ is an injective homomorphism of K-algebras. By (23), for every $\gamma \in \Gamma$, the element $[1;\gamma ]$ is invertible in $\mathbf{A}[\mathscr{E},L]$, and the mapping $v: \Gamma \rightarrow \mathbf{A}[\mathscr{E},L]^*$ that sends $\gamma$ to $[1;\gamma ]$ is an injective group homomorphism. The homomorphisms $u$ and $v$ are called canonical. We have the relations
 
 $$
 u(\alpha ) =v(\iota (\alpha )) \tag{26}
 $$
 
-(27) $u(^{\gamma}\beta ) =v(\gamma )u(\beta )v(\gamma )^{-1}$, (28) $[\beta ;\gamma ] =u(\beta )v(\gamma )$
+$$
+u(^{\gamma}\beta ) =v(\gamma )u(\beta )v(\gamma )^{-1} \tag{27}
+$$
+
+$$
+[\beta ;\gamma ] =u(\beta )v(\gamma ) \tag{28}
+$$
 
 for $\alpha \in L^*,\beta \in L$, and $\gamma \in \Gamma$.
 
@@ -1193,13 +1247,15 @@ Conversely, we have the following universal property of the algebra $\mathbf{A}[
 
 #### Proposition 12 {#alg-viii-s16-prop-12 .statement tag=00JF}
 
-Let B be a K-algebra, $u': L\rightarrow B$ a K-algebra homomorphism, and $v': \Gamma\rightarrow B^*$ a group homomorphism. We assume satisfied the relations
+Let B be a K-algebra, $u': L\rightarrow B$ a K-algebra homomorphism, and $v': \Gamma \rightarrow B^*$ a group homomorphism. We assume satisfied the relations
 
 $$
 u'(\alpha ) =v'(\iota (\alpha )) \tag{29}
 $$
 
-(30) $u'(^{\gamma}\beta ) =v'(\gamma )u'(\beta )v'(\gamma )^{-1}$
+$$
+u'(^{\gamma}\beta ) =v'(\gamma )u'(\beta )v'(\gamma )^{-1} \tag{30}
+$$
 
 for $\alpha \in L^*,\beta \in L$, and $\gamma \in \Gamma$. Then there exists a unique algebra homomorphism $f$ from $\mathbf{A}[\mathscr{E}; L]$ to B such that we have $u'=f\circ u$ and $v'=f\circ v$.
 
@@ -1239,7 +1295,7 @@ $$
 d_g=_{hh}\sum^'_{=g}a_h\lambda (h)\cdot b_{h'} \tag{35}
 $$
 
-Let $K'$ be an extension of the field K. Denote by $L'$ the $K'$-algebra $L_{(K')}$, and for any $g$ in G, denote by $\lambda '(g)$ the automorphism $\lambda (g)_{(K')}$ induced by $\lambda (g)$ on $L_{(K')}$. Moreover, let us denote by $\tau '(g)$ the automorphism of $L^{'*}$ induced by $\lambda '(g)$. Finally, let $h$ be the homomorphism from $L^*$ to $L^{'*}$ that sends $x$ to $x\otimes 1$. Let $\mathscr{E}'= (\Gamma', \iota ', \pi ')$ be the direct image of the extension of $\mathscr{E}$ by $h$ (VIII, p. 289). Let $\mathbf{A}[\mathscr{E}',L']$ be the cross product $K'$-algebra of $\mathscr{E}'$ and $L'$, and let $u': L'\rightarrow \mathbf{A}[\mathscr{E}',L']$ and $v': \Gamma'\rightarrow \mathbf{A}[\mathscr{E}',L']^*$ be the canonical homomorphisms.
+Let $K'$ be an extension of the field K. Denote by $L'$ the $K'$-algebra $L_{(K')}$, and for any $g$ in G, denote by $\lambda '(g)$ the automorphism $\lambda (g)_{(K')}$ induced by $\lambda (g)$ on $L_{(K')}$. Moreover, let us denote by $\tau '(g)$ the automorphism of $L^{'*}$ induced by $\lambda '(g)$. Finally, let $h$ be the homomorphism from $L^*$ to $L^{'*}$ that sends $x$ to $x\otimes 1$. Let $\mathscr{E}'= (\Gamma ', \iota ', \pi ')$ be the direct image of the extension of $\mathscr{E}$ by $h$ (VIII, p. 289). Let $\mathbf{A}[\mathscr{E}',L']$ be the cross product $K'$-algebra of $\mathscr{E}'$ and $L'$, and let $u': L'\rightarrow \mathbf{A}[\mathscr{E}',L']$ and $v': \Gamma '\rightarrow \mathbf{A}[\mathscr{E}',L']^*$ be the canonical homomorphisms.
 
 #### Proposition 13 {#alg-viii-s16-prop-13 .statement tag=00JH}
 
@@ -1249,7 +1305,11 @@ $$
 u'(h(\beta )) =\varphi (1\otimes u(\beta )) \tag{36}
 $$
 
-for $\beta \in L$ and (37) $v'(h(\gamma )) =\varphi (1\otimes v(\gamma ))$
+for $\beta \in L$ and
+
+$$
+v'(h(\gamma )) =\varphi (1\otimes v(\gamma )) \tag{37}
+$$
 
 for $\gamma \in \Gamma$.
 
@@ -1263,7 +1323,7 @@ In this subsection, K is a field, and L is a Galois algebra over K with action $
 
 #### Theorem 3 {#alg-viii-s16-thm-3 .statement tag=00JI}
 
-Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be a $\tau$-extension of G by $L^*$. The algebra $\mathbf{A}[\mathscr{E}; L]$ is central simple and of degree $n^2$ over K. Moreover, the canonical homomorphism $u$ from L to $\mathbf{A}[\mathscr{E}; L]$ is an isomorphism from L to a maximal commutative subalgebra of $\mathbf{A}[\mathscr{E}; L]$.
+Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension of G by $L^*$. The algebra $\mathbf{A}[\mathscr{E}; L]$ is central simple and of degree $n^2$ over K. Moreover, the canonical homomorphism $u$ from L to $\mathbf{A}[\mathscr{E}; L]$ is an isomorphism from L to a maximal commutative subalgebra of $\mathbf{A}[\mathscr{E}; L]$.
 
 #### Lemma 12 {#alg-viii-s16-lem-12 .statement tag=00JJ}
 
@@ -1277,7 +1337,7 @@ Let us prove b) by contradiction; suppose that we have $\mathfrak{a}_g\not= L$. 
 
 Let us now prove Theorem 3. The vector space $\mathbf{A}[\mathscr{E}; L]$ has finite dimension Card(G)[L$: K] =n^2$ over K, by VIII, p. 316 and the assumed equality Card(G) $= [L : K] =n$.
 
-Let $\mathfrak{a}$ be a nonzero two-sided ideal of the algebra $\mathbf{A}[\mathscr{E}; L]$. We use the notation of VIII, p. 316. Every element $a$ of $\mathbf{A}[\mathscr{E}; L]$ can be written uniquely as $a=\sum_{g\in G}a_g\varepsilon_g$ with $a_g\in L$ for every $g\in G$; we denote by $\Phi(a)$ the set of elements $g$ of G such that $a_g\not= 0$. By formula (32) of VIII, p. 316, we have the relation
+Let $\mathfrak{a}$ be a nonzero two-sided ideal of the algebra $\mathbf{A}[\mathscr{E}; L]$. We use the notation of VIII, p. 316. Every element $a$ of $\mathbf{A}[\mathscr{E}; L]$ can be written uniquely as $a=\sum_{g\in G}a_g\varepsilon_g$ with $a_g\in L$ for every $g\in G$; we denote by $\Phi (a)$ the set of elements $g$ of G such that $a_g\not= 0$. By formula (32) of VIII, p. 316, we have the relation
 
 $$
 \varepsilon_g\varepsilon_{g'}=c_{\sigma}(g, g')\varepsilon_{gg'} \tag{38}
@@ -1286,18 +1346,18 @@ $$
 for all $g, g'\in G$ and consequently
 
 $$
-\Phi(a\varepsilon_g) = \Phi(a).g \tag{39}
+\Phi (a\varepsilon_g) = \Phi (a).g \tag{39}
 $$
 
 for every $g\in G$ and $a\in \mathbf{A}[\mathscr{E}; L]$.
 
-Let $a$ be a nonzero element of $\mathfrak{a}$ for which $\Phi(a)$ is minimal for the inclusion; by formula (39), if necessary replacing $a$ with an element of the form $a\varepsilon_{g^{-1}}$ with $g\in \Phi(a)$, we may assume that we have $e\in \Phi(a)$. Let $s$ be an element of $\Phi(a)$ distinct from $e$. By Lemma 12, b), there exists an element $x$ of L such that $a_s(x-\lambda (s)\cdot x)\not= 0$. But we have the relation
+Let $a$ be a nonzero element of $\mathfrak{a}$ for which $\Phi (a)$ is minimal for the inclusion; by formula (39), if necessary replacing $a$ with an element of the form $a\varepsilon_{g^{-1}}$ with $g\in \Phi (a)$, we may assume that we have $e\in \Phi (a)$. Let $s$ be an element of $\Phi (a)$ distinct from $e$. By Lemma 12, b), there exists an element $x$ of L such that $a_s(x-\lambda (s)\cdot x)\not= 0$. But we have the relation
 
 $$
 xa-ax=\sum_ga_g(x-\lambda (g)\cdot x)\varepsilon_g \tag{40}
 $$
 
-where the sum is taken over the elements $g$ of $\Phi(a)$ distinct from $e$. Because of the minimality of $\Phi(a)$, we then have $xa-ax= 0$, but this contradicts the assumption on $x$. We have, therefore, proved by contradiction that $\Phi(a)$ contains only the identity element $e$ of G, so we have $a\in L$.
+where the sum is taken over the elements $g$ of $\Phi (a)$ distinct from $e$. Because of the minimality of $\Phi (a)$, we then have $xa-ax= 0$, but this contradicts the assumption on $x$. We have, therefore, proved by contradiction that $\Phi (a)$ contains only the identity element $e$ of G, so we have $a\in L$.
 
 Hence $L\cap \mathfrak{a}$ is an ideal of L not reduced to $\{0\}$. Moreover, for every $x$ in L, we have $\varepsilon_gx\varepsilon^-_g^1=\lambda (g)\cdot x$, so $L\cap \mathfrak{a}$ is invariant under G. By Lemma 12, we therefore have $L\cap \mathfrak{a}= L$, that is, $L\subset \mathfrak{a}$. Since L contains the identity element of $\mathbf{A}[\mathscr{E}; L]$, we have $\mathfrak{a}=\mathbf{A}[\mathscr{E}; L]$.
 
@@ -1331,9 +1391,9 @@ $$
 
 for every element $x$ of L. If $\gamma \in \Gamma$ is given, then the element $g$ satisfying this relation is unique; we denote it by $\pi (\gamma )$. It is immediate that $\pi$ is a homomorphism from Γ to G and that its kernel is equal to $L^*$. The surjectivity of $\pi$ follows from the Skolem–Noether theorem (VIII, p. 263, Corollary).
 
-If we denote the canonical injection of $L^*$ into Γ by $\iota$, then it follows from the constructions that $\mathscr{E}= (\Gamma, \iota , \pi )$ is a $\tau$-extension of G by $L^*$. Let
+If we denote the canonical injection of $L^*$ into Γ by $\iota$, then it follows from the constructions that $\mathscr{E}= (\Gamma , \iota , \pi )$ is a $\tau$-extension of G by $L^*$. Let
 
-$u: L\rightarrow \mathbf{A}[\mathscr{E}; L]$ and $v: \Gamma\rightarrow \mathbf{A}[\mathscr{E}; L]$
+$u: L\rightarrow \mathbf{A}[\mathscr{E}; L]$ and $v: \Gamma \rightarrow \mathbf{A}[\mathscr{E}; L]$
 
 be the canonical homomorphisms. By the universal property of $\mathbf{A}[\mathscr{E}; L]$ (VIII, p. 315, Proposition 12), there exists a unique algebra homomorphism $f:\mathbf{A}[\mathscr{E}; L]\rightarrow A$ such that $f\circ u(x) =x$ and $f\circ v(\gamma ) =\gamma$ for $x\in L$ and $\gamma \in \Gamma$. Since the algebra $\mathbf{A}[\mathscr{E}; L]$ is simple, the homomorphism $f$ is injective. Now, the algebra $\mathbf{A}[\mathscr{E}; L]$ has degree $n^2$ over K and so does A because L is a maximal commutative semisimple subalgebra of A and we have $n= [L : K]$ (VIII, p. 262, Proposition 3, (ii)). Hence $f$ is bijective.
 
@@ -1359,15 +1419,17 @@ b) Conversely, if the algebras $\mathbf{A}[\mathscr{E}; L]$ and $\mathbf{A}[\mat
 
 c) In every class in Br(L$/K)$, there is an algebra E containing L as a maximal commutative subalgebra.
 
-d) If E is a central simple algebra of finite degree over K containing L as a maximal commutative subalgebra, then there exists a $\tau$-extension $\mathscr{E}$ of G by $L^*$ such that E is isomorphic to $\mathbf{A}[\mathscr{E}; L]$. Assertion a) follows from the construction of the cross product; b) follows from VIII, p. 263, Corollary. Assertion c) follows from Proposition 5 of VIII, p. 281, and d) is simply Theorem 4 above.
+d) If E is a central simple algebra of finite degree over K containing L as a maximal commutative subalgebra, then there exists a $\tau$-extension $\mathscr{E}$ of G by $L^*$ such that E is isomorphic to $\mathbf{A}[\mathscr{E}; L]$.
 
-It remains to verify that Ψ is a group homomorphism; for this, it suffices to prove that if $\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ and $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ are $\tau$-extensions, then the algebra $\mathbf{A}[\mathscr{E}_1\mathscr{E}_2; L]$ is equivalent to the algebra $\mathbf{A}[\mathscr{E}_1; L]\otimes \mathbf{A}[\mathscr{E}_2; L]$. We denote the product extension $\mathscr{E}_1\mathscr{E}_2$ by $\mathscr{E}= (\Gamma, \iota , \pi )$. The group Γ is isomorphic to the cokernel of the homomorphism $\rho$ from $L^*$ to the fiber product $\Gamma_1\times_G\Gamma_2$ that sends $\mu$ to $(\iota_1(\mu), \iota_2(\mu)^{-1})$. For $i\in  \{1,2\}$, write $A_i=\mathbf{A}[\mathscr{E}_i; L]$. Let $u_i: L\rightarrow A_i$ and $v_i: \Gamma_i\rightarrow A^*_i$ be the canonical homomorphisms. We identify L with its images by the homomorphisms $u_i$, which make L into maximal commutative subalgebras of the $A_i$. We denote by $V_i$ the L-vector space defined by left multiplication in $A_i$. The ring $L\otimes_KA^o_i$ acts on $V_i$. Since it is simple and has dimension $n^2$ over L, we obtain an isomorphism from $L\otimes_KA^o_i$ to End$_L(V_i)$. Hence the ring $L\otimes_KA^o_1\otimes_KA^o_2$, which we can identify with $(L\otimes_KA^o_1)\otimes_L(L\otimes_KA^o_2)$, is isomorphic to End$_L(V_1\otimes_LV_2)$. Set C = End$_{A^o_1\otimes_KA^o_2}(V_1\otimes_LV_2)$. By Lemma 3 of VIII, p. 282, the ring C is similar to $A_1\otimes_KA_2$, and $L\otimes 1\otimes 1$ is a maximal commutative subalgebra of C. For every pair $(\gamma_1, \gamma_2)\in \Gamma_1\times \Gamma_2$ satisfying $\pi_1(\gamma_1) =\pi_2(\gamma_2)$, we denote by $w(\gamma_1, \gamma_2)$ the unique $\lambda (\pi_1(\gamma_1$))-semilinear (II, §1, No. 13, p. 223) endomorphism such that
+Assertion a) follows from the construction of the cross product; b) follows from VIII, p. 263, Corollary. Assertion c) follows from Proposition 5 of VIII, p. 281, and d) is simply Theorem 4 above.
+
+It remains to verify that Ψ is a group homomorphism; for this, it suffices to prove that if $\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ and $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ are $\tau$-extensions, then the algebra $\mathbf{A}[\mathscr{E}_1\mathscr{E}_2; L]$ is equivalent to the algebra $\mathbf{A}[\mathscr{E}_1; L]\otimes \mathbf{A}[\mathscr{E}_2; L]$. We denote the product extension $\mathscr{E}_1\mathscr{E}_2$ by $\mathscr{E}= (\Gamma , \iota , \pi )$. The group Γ is isomorphic to the cokernel of the homomorphism $\rho$ from $L^*$ to the fiber product $\Gamma_1\times_G\Gamma_2$ that sends $\mu$ to $(\iota_1(\mu), \iota_2(\mu)^{-1})$. For $i\in  \{1,2\}$, write $A_i=\mathbf{A}[\mathscr{E}_i; L]$. Let $u_i: L\rightarrow A_i$ and $v_i: \Gamma_i\rightarrow A^*_i$ be the canonical homomorphisms. We identify L with its images by the homomorphisms $u_i$, which make L into maximal commutative subalgebras of the $A_i$. We denote by $V_i$ the L-vector space defined by left multiplication in $A_i$. The ring $L\otimes_KA^o_i$ acts on $V_i$. Since it is simple and has dimension $n^2$ over L, we obtain an isomorphism from $L\otimes_KA^o_i$ to End$_L(V_i)$. Hence the ring $L\otimes_KA^o_1\otimes_KA^o_2$, which we can identify with $(L\otimes_KA^o_1)\otimes_L(L\otimes_KA^o_2)$, is isomorphic to End$_L(V_1\otimes_LV_2)$. Set C = End$_{A^o_1\otimes_KA^o_2}(V_1\otimes_LV_2)$. By Lemma 3 of VIII, p. 282, the ring C is similar to $A_1\otimes_KA_2$, and $L\otimes 1\otimes 1$ is a maximal commutative subalgebra of C. For every pair $(\gamma_1, \gamma_2)\in \Gamma_1\times \Gamma_2$ satisfying $\pi_1(\gamma_1) =\pi_2(\gamma_2)$, we denote by $w(\gamma_1, \gamma_2)$ the unique $\lambda (\pi_1(\gamma_1$))-semilinear (II, §1, No. 13, p. 223) endomorphism such that
 
 $$
 w(\gamma_1, \gamma_2)(x_1\otimes x_2) =v_1(\gamma_1)x_1\otimes v_2(\gamma_2)x_2
 $$
 
-for $x_1\in V_1$ and $x_2\in V_2$. We have $w(\gamma_1, \gamma_2)\in C^*$, and $w$ is a group homomorphism from the fiber product $\Gamma_1\times_G\Gamma_2$ to $C^*$. This homomorphism is trivial on the image of $\rho$ and induces a homomorphism $v$ from Γ to $C^*$. Denote by $u: L\rightarrow C$ the morphism given by $u:`\mapsto `\otimes 1\otimes 1$. We can verify the relations
+for $x_1\in V_1$ and $x_2\in V_2$. We have $w(\gamma_1, \gamma_2)\in C^*$, and $w$ is a group homomorphism from the fiber product $\Gamma_1\times_G\Gamma_2$ to $C^*$. This homomorphism is trivial on the image of $\rho$ and induces a homomorphism $v$ from Γ to $C^*$. Denote by $u: L\rightarrow C$ the morphism given by $u:\ell \mapsto \ell \otimes 1\otimes 1$. We can verify the relations
 
 $u(\alpha ) =v(\iota (\alpha ))$ and $u(^{\gamma}\beta ) =v(\gamma )u(\beta )v(\gamma )^{-1}$
 
@@ -1391,7 +1453,7 @@ $$
 c(g, g') =u_gu_{g'}u^-_{gg}^{1_'}
 $$
 
-We can also define an extension of G by $L^*$ using $\varphi :$ we consider the group $\Gamma\subset \mathbf{G}\mathbf{L}_m(L)$ consisting of the $\gamma$ for which there exists a $g\in G$ with
+We can also define an extension of G by $L^*$ using $\varphi :$ we consider the group $\Gamma \subset \mathbf{G}\mathbf{L}_m(L)$ consisting of the $\gamma$ for which there exists a $g\in G$ with
 
 $$
 \varphi^g(a) =\gamma \varphi (a)\gamma^{-1}
@@ -1401,7 +1463,7 @@ for every $a\in A$. The class of this extension is the inverse image by Ψ of th
 
 #### Corollary {#alg-viii-s16-n10-cor-1 .statement tag=00JP}
 
-The mapping $\Phi_{L/K}= \Theta\circ \Psi^{-1}$ defines a group isomorphism from Br(L$/K)$ to $H^2(G,L^*)$.
+The mapping $\Phi_{L/K}= \Theta \circ \Psi^{-1}$ defines a group isomorphism from Br(L$/K)$ to $H^2(G,L^*)$.
 
 Let $K'$ be an extension of K and $\varphi : K'\rightarrow L$ a morphism of K-algebras. The set H of elements $h$ of G such that $\lambda (h)\circ \varphi =\varphi$ is a subgroup of G, and the $K'$-algebra L endowed with the restriction of $\lambda$ to H is a Galois algebra over $K'$.
 

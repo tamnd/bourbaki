@@ -23,7 +23,7 @@ subsections:
       pdf_page: 481
 statements: 5
 exercises: 2
-content_sha256: da960d566cc8a0063b267d64b9918f343c1ff2a95cf3fb84b233a42b68d4329f
+content_sha256: ba92c145789444929ea958210e1292209334a911aa56a4290cdf547ce73f18e1
 ---
 
 ## APPENDIX 4 TRACE OF AN ENDOMORPHISM OF FINITE RANK
@@ -86,13 +86,17 @@ Let E, F be projective A-modules. Let $u\in$ Hom$^f_A(E,F)$ and $v\in$ Hom$_A(F,
 
 It suffices to prove the proposition when $u$ is of the form $\theta (x^*\otimes y)$ with $x^*\in E^*$ and $y\in F$. In this case, we have
 
-$v\circ u=\theta_E(x^*\otimes v(y))$ and $u\circ v=\theta_F(^tv(x^*)\otimes y)$, and therefore
+$v\circ u=\theta_E(x^*\otimes v(y))$ and $u\circ v=\theta_F(^tv(x^*)\otimes y)$,
+
+and therefore
 
 Tr($v\circ u$) $=\langle v(y), x^*\rangle =\langle y,^tv(x^*)\rangle =$ Tr($u\circ v$).
 
 #### Corollary {#alg-viii-a4-n2-cor-1 .statement tag=00QR}
 
-Let E be a projective A-module, $u$ be an element of End$^f_A(E)$, and F be a projective A-submodule of E containing Im $u$. Denote by $u_F$ the endomorphism of F induced by $u$. We have (4) Tr($u$) $=$ Tr($u_F$).
+Let E be a projective A-module, $u$ be an element of End$^f_A(E)$, and F be a projective A-submodule of E containing Im $u$. Denote by $u_F$ the endomorphism of F induced by $u$. We have
+
+(4) Tr($u$) $=$ Tr($u_F$).
 
 Denote by $i$ the canonical injection of F into E and by $v: E\rightarrow F$ the homomorphism deduced from $u$. We have $u_F=v\circ i$ and $u=i\circ v$. The corollary follows.
 
@@ -112,9 +116,13 @@ If E is free and finite-dimensional, then this definition agrees with that of II
 
 Let E be a projective A-module.
 
-a) Let $u\in$ End$^f_A(E)$. Let F be a projective A-submodule of E containing Im $u$, and let $u_F$ be the endomorphism of F induced by $u$. We have (5) det(1$_E+u) =$ det(1$_F+u_F)$.
+a) Let $u\in$ End$^f_A(E)$. Let F be a projective A-submodule of E containing Im $u$, and let $u_F$ be the endomorphism of F induced by $u$. We have
 
-b) Let $u$ and $v$ be two elements of End$^f_A(E)$. We have (6) det $(1_E+u)\circ (1_E+v)$ = det(1$_E+u)$ det(1$_E+v)$.
+(5) det(1$_E+u) =$ det(1$_F+u_F)$.
+
+b) Let $u$ and $v$ be two elements of End$^f_A(E)$. We have
+
+(6) det $(1_E+u)\circ (1_E+v)$ = det(1$_E+u)$ det(1$_E+v)$.
 
 Let us prove a). For every integer $p\geqslant 0$, the projective A-module $\wedge^pF$ can be identified with a submodule of $\wedge^pE$ (III, §7, No. 9, p. 520, Corollary). The image of $\wedge^pu$ is contained in $\wedge^pF$, and the endomorphism of $\wedge^pF$ induced by $\wedge^pu$ is equal to $\wedge^pu_F$. We consequently have Tr($\wedge^pu$) $=$ Tr($\wedge^pu_F$) by the
 
@@ -130,7 +138,9 @@ det $(1_E+u)\circ (1_E+v)$
 
 = det(1$_E+w) =$ det(1$_F+w_F) =$ det((1$_F+u_F)\circ (1_F+v_F))$.
 
-Since F is a finitely generated free A-module, we have det((1$_F+u_F)\circ (1_F+v_F)) =$ det(1$_F+u_F)$ det(1$_F+v_F) =$ det(1$_E+u)$ det(1$_E+v)$.
+Since F is a finitely generated free A-module, we have
+
+det((1$_F+u_F)\circ (1_F+v_F)) =$ det(1$_F+u_F)$ det(1$_F+v_F) =$ det(1$_E+u)$ det(1$_E+v)$.
 
 ### Exercises {#alg-viii-a4-exercises}
 

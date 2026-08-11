@@ -212,6 +212,13 @@ books:
       pages: 222
       nature: scanned
       producer: Acrobat Distiller 7.0.5 (Windows)
+      scan:
+        format: ccitt
+        width: 2055
+        height: 2834
+        dpi: 260
+        bpc: 1
+        color: '-'
       extraction: ocr
       text_layer: none
       page_width_pt: 612
