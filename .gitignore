@@ -18,5 +18,11 @@ Thumbs.db
 
 # Build artifacts
 *.log
+
+# The migration log is part of the tag record and is kept, log or no log.
+!tags/migrations.log
 !reports/*.log
+
+# The migration log is part of the tag record and is kept, log or no log.
+!tags/migrations.log
 site/

@@ -34,7 +34,7 @@ subsections:
       pdf_page: 68
 statements: 21
 exercises: 10
-content_sha256: 92961fd63f3fa5541322c6837c383d3dd70d945b07794e3cac1d4ff461b1de23
+content_sha256: bff4b36855d84372e48ee844b0f9e58c694e1d3c3aefe7f5ff2288527b337fc5
 ---
 
 ## § 3. SIMPLE MODULES
@@ -43,21 +43,21 @@ content_sha256: 92961fd63f3fa5541322c6837c383d3dd70d945b07794e3cac1d4ff461b1de23
 
 Recall the following definition (II, §1, No. 10, p. 212).
 
-#### Definition 1 {#alg-viii-s3-def-1 .statement}
+#### Definition 1 {#alg-viii-s3-def-1 .statement tag=0035}
 
 Let A be a ring. An A-module M is called simple if it is nonzero and has no submodule distinct from 0 and M.
 
 An A-module M is simple if and only if M is a simple module over its ring of homotheties $A_M$. Every simple module is indecomposable, of length 1, and therefore primordial (VIII, p. 31, Proposition 4, b)).
 
-#### Example 1 {#alg-viii-s3-n1-exa-1 .statement}
+#### Example 1 {#alg-viii-s3-n1-exa-1 .statement tag=0036}
 
 The module $A_s$ is a simple A-module if and only if A is a field (I, §9, No. 1, p. 115, Theorem 1). The simple A-modules are then the vector spaces of dimension 1 over the field A.
 
-#### Example 2 {#alg-viii-s3-n1-exa-2 .statement}
+#### Example 2 {#alg-viii-s3-n1-exa-2 .statement tag=0037}
 
 Let A be a principal ideal domain (VII, §1, No. 1, p. 1, Definition 1) that is not a field. For every irreducible element $\pi$ of A, the A-module $A_s/(\pi )$ is simple, and every simple A-module is isomorphic to such a module (VII, §4, No. 8, p. 25, Remark 4). For $n\geqslant 2$, the A-module $A_s/(\pi^n)$ is indecomposable (VII, §4, No. 8, p. 24, Proposition 8) but not simple.
 
-#### Example 3 {#alg-viii-s3-n1-exa-3 .statement}
+#### Example 3 {#alg-viii-s3-n1-exa-3 .statement tag=0038}
 
 Let K be a field, V a nonzero right vector space over the field K, and A a subring of the ring End$_K(V)$ containing the endomorphisms of V of finite rank (for example, A = End$_K(V))$. Let us prove that V is a simple A-module: let W be a nonzero A-submodule of V and $x$ a nonzero element of W; there exists a linear form $\varphi$ on V such that $\varphi (x)\not= 0$ (II, §7, No. 5, p. 300, Theorem 6). For every $y$ in V, the mapping $z\mapsto y\varphi (z)$, which is linear of rank $\leqslant 1$, belongs to A; we therefore have $Ax= V$, hence a fortiori W = V, which proves that V is a simple A-module. **Proposition 1.** — Let A be a ring.
 
@@ -73,27 +73,27 @@ Under the assumptions of b), $Ax$ is a nonzero submodule of M, hence is equal to
 
 Under the assumptions of c), let N be a nonzero submodule of M. If $x$ is a nonzero element of N, then we have $Ax\subset N$ and $Ax= M$, and therefore M = N. Hence M is simple.
 
-#### Corollary 1 {#alg-viii-s3-def-1-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s3-def-1-cor-1 .statement tag=0039}
 
 If the ring A is not reduced to 0, then there exist simple A-modules.
 
 Indeed, by Krull’s theorem (I, §8, No. 6, p. 104, Theorem 1), there exist maximal left ideals of A.
 
-#### Corollary 2 {#alg-viii-s3-def-1-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s3-def-1-cor-2 .statement tag=003A}
 
 Let A be a local ring (VIII, p. 26, Definition 1) and $\mathfrak{r}$ its maximal ideal. The A-module $A_s/\mathfrak{r}$ is simple, and every simple A-module is isomorphic to $A_s/\mathfrak{r}$.
 
-#### Remark 1 {#alg-viii-s3-n1-rem-1 .statement}
+#### Remark 1 {#alg-viii-s3-n1-rem-1 .statement tag=003B}
 
 Let A be a commutative ring and $\mathfrak{m}$ an ideal of A. Then $\mathfrak{m}$ is the annihilator (II, §1, No. 12, p. 219, Definition 11) of the A-module $A_s/\mathfrak{m}$. Hence, if $\mathfrak{m}$ and $\mathfrak{m}'$ are distinct ideals of A, then the A-modules $A_s/\mathfrak{m}$ and $A_s/\mathfrak{m}'$ are not isomorphic. There exists a faithful simple A-module (II, §1, No. 12, p. 219) if and only if (0) is a maximal ideal of A, that is, A is a field.
 
-#### Remark 2 {#alg-viii-s3-n1-rem-2 .statement}
+#### Remark 2 {#alg-viii-s3-n1-rem-2 .statement tag=003C}
 
 We can give an example of a noncommutative ring A and two distinct maximal left ideals $\mathfrak{m}$ and $\mathfrak{m}'$ of A such that the A-modules $A_s/\mathfrak{m}$ and $A_s/\mathfrak{m}'$ are isomorphic (VIII, p. 52, Exercise 3).
 
 ### 2. Schur’s Lemma
 
-#### Proposition 2 {#alg-viii-s3-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s3-prop-2 .statement tag=003D}
 
 Let A be a ring, M and N two A-modules, and $f$ a nonzero homomorphism from M to N.
 
@@ -115,29 +115,29 @@ Corollary (Schur’s lemma). — The endomorphism ring of a simple module is a f
 
 If M is a simple A-module, then every nonzero element of the nonzero ring End$_A(M)$ is invertible (Proposition 2, c)), so End$_A(M)$ is a field.
 
-#### Theorem 1 {#alg-viii-s3-thm-1 .statement}
+#### Theorem 1 {#alg-viii-s3-thm-1 .statement tag=003E}
 
 Let K be an algebraically closed commutative field, A a K-algebra, and M a simple A-module. Suppose that the dimension of M as a vector space over K is finite or, more generally, strictly less than the cardinal of K. Then the endomorphism ring of the A-module M consists of the homotheties $\alpha_M$ with $\alpha \in K$.
 
 Let E be the endomorphism ring of the A-module M; it is a field by the corollary of Proposition 2 and an algebra over the field K. If we view M as a left vector space over the field E, then we have dim$_KM =$ (dim$_EM)[E : K]$ by Proposition 25 of II, §1, No. 13, p. 222, hence dim$_KM\geqslant [E : K]$. Since dim$_KM<$ Card(K) by assumption, the equality $E = K\cdot 1_M$ is then a consequence of the following lemma.
 
-#### Lemma 1 {#alg-viii-s3-lem-1 .statement}
+#### Lemma 1 {#alg-viii-s3-lem-1 .statement tag=003F}
 
 Let E be a field and K a subfield of the center of E not equal to E. If the field K is algebraically closed, then we have $[E : K]\geqslant$ Card(K).
 
 Let $x$ be an element of E K and L the (commutative) subfield of E generated by $K\cup  \{x\}$. Since K is algebraically closed, $x$ is transcendent over K. By VII, §2, No. 3, p. 10, Theorem 2 and p. 11, the elements $(x-\alpha )^{-1}$ of L, where $\alpha$ runs through K, are linearly independent over K. We therefore have $[E : K]\geqslant [L : K]\geqslant$ Card(K).
 
-#### Example {#alg-viii-s3-n2-exa-1 .statement}
+#### Example {#alg-viii-s3-n2-exa-1 .statement tag=003G}
 
 $*$ Let A be a $\mathbf{C}$-algebra generated by a countable family of elements; it has countable dimension over $\mathbf{C}$. Let M be a simple A-module; it is monogenous, so admits a countable basis over $\mathbf{C}$. Since the field $\mathbf{C}$ is not countable (Gen. Top., IV, §4, No. 1, p. 44), we have $[M :\mathbf{C}]<$ Card($\mathbf{C})$. Therefore the endomorphisms of the A-module M are the homotheties $\alpha_M$ with $\alpha \in \mathbf{C}$. This applies, in particular, when A is the universal enveloping algebra of a finite-dimensional Lie algebra over $\mathbf{C}($Lie, I, §2, No. 7, p. 21, Corollary $3).*$
 
-#### Corollary 1 {#alg-viii-s3-lem-1-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s3-lem-1-cor-1 .statement tag=003H}
 
 Keep the assumptions of Theorem 1, and suppose, moreover, that the algebra A is commutative. Then M has dimension 1 over K.
 
 Since the ring A is commutative, $a_M$ is an endomorphism of the A-module M for every $a\in A$. By Theorem 1, we therefore have $A_M= K\cdot 1_M$, and M is a simple K-module, that is, a 1-dimensional vector space over the field K.
 
-#### Corollary 2 {#alg-viii-s3-lem-1-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s3-lem-1-cor-2 .statement tag=003I}
 
 Let K be a commutative field, A a K-algebra, and M an A-module. Suppose that for every extension L of K, the $A_{(L)}$-module $M_{(L)}$ is simple. Then the endomorphism ring of M consists of the homotheties $\alpha_M$ with $\alpha \in K$.
 
@@ -155,7 +155,7 @@ so that $u$ is the homothety $\varphi (\lambda )_M$.
 
 ### 3. Maximal Submodules
 
-#### Definition 2 {#alg-viii-s3-def-2 .statement}
+#### Definition 2 {#alg-viii-s3-def-2 .statement tag=003J}
 
 Let A be a ring and M an A-module. A maximal submodule of M is a maximal element, for the inclusion, of the set of proper submodules of M.
 
@@ -163,19 +163,19 @@ A maximal submodule of $A_s$ is simply a left maximal ideal of A.
 
 Let N be a submodule of M. The submodules of $M/N$ are of the form $P/N$, where P is a submodule of M containing N (I, §4, No. 6, p. 41, Theorem 4). Consequently, N is a maximal submodule of M if and only if the module $M/N$ is simple.
 
-#### Proposition 3 {#alg-viii-s3-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s3-prop-3 .statement tag=003K}
 
 Let M be a finitely generated A-module. Every proper submodule of M is contained in a maximal submodule.
 
 Let N be a proper submodule of M. Denote by $\mathscr{S}$ the set of proper submodules of M containing N, ordered by inclusion; let us prove that $\mathscr{S}$ is inductive. Let $\mathscr{F}$ be a totally ordered subset of $\mathscr{S}$. If $\mathscr{F}$ is empty, then N is an upper bound for $\mathscr{F}$ in $\mathscr{S}$. In the opposite case, denote by Q the union of the elements of $\mathscr{F}$. Then Q is a submodule of M. Let F be a finite generating subset of M. If Q were equal to M, then F would be contained in a submodule $P\in \mathscr{F}$, which would imply P = M, contrary to the definition of $\mathscr{F}$. We therefore have $Q\in \mathscr{S}$, which proves that $\mathscr{S}$ is inductive. Proposition 3 then follows from Corollary 1 of Set Theory, III, §2, No. 4, p. 155.
 
-#### Corollary 1 {#alg-viii-s3-prop-3-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s3-prop-3-cor-1 .statement tag=003L}
 
 Let M be a nonzero finitely generated A-module. There exists a two-sided ideal $\mathfrak{a}$ of A, annihilator of a simple A-module, such that $\mathfrak{a}M$ is not equal to M.
 
 Let N be a maximal submodule of M (Proposition 3), and let $\mathfrak{a}$ be the annihilator of the simple A-module $M/N$; it is a two-sided ideal of A, and we have $\mathfrak{a}(M/N) = 0$, whence $\mathfrak{a}M\subset N$ and consequently $\mathfrak{a}M\not= M$.
 
-#### Corollary 2 {#alg-viii-s3-prop-3-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s3-prop-3-cor-2 .statement tag=003M}
 
 Let A be a commutative ring and B an A-algebra. Let M be a simple B-module that is a finitely generated A-module, and let $\mathfrak{m}$ be the annihilator of the A-module M. Then $\mathfrak{m}$ is a maximal ideal of A, and M is a finite-dimensional vector space over the field $A/\mathfrak{m}$.
 
@@ -189,13 +189,13 @@ Let $\mathfrak{a}$ be a left ideal of A. Then $\mathfrak{a}$ is a simple A-modul
 
 Every nonzero left ideal of a left Artinian (VIII, p. 1, Definition 1) ring contains a minimal left ideal.
 
-#### Proposition 4 {#alg-viii-s3-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s3-prop-4 .statement tag=003N}
 
 Let A be a ring that has a minimal left ideal $\mathfrak{a}$. Every faithful simple A-module is isomorphic to the A-module $\mathfrak{a}$.
 
 Let M be a faithful simple A-module. Let $\alpha$ be a nonzero element of $\mathfrak{a}$. Since the A-module M is faithful, there exists an element $x$ of M such that $\alpha x\not= 0$. The homomorphism $a\mapsto ax$ from $\mathfrak{a}$ to M is then nonzero; it is therefore an isomorphism by Proposition 2 of VIII, p. 47.
 
-#### Proposition 5 {#alg-viii-s3-prop-5 .statement}
+#### Proposition 5 {#alg-viii-s3-prop-5 .statement tag=003O}
 
 Let A be a left Artinian ring and M a faithful A-module.
 
@@ -207,7 +207,7 @@ By VIII, p. 2 applied to the A-module $A_s$ and the annihilators of the elements
 
 Under the assumption of b), every simple quotient of $A_s$ is isomorphic to a quotient of a Jordan–Hölder series of $M^m$ (I, §4, No. 7, p. 43, Corollary), hence to one of the modules $M_i/M_{i+1}$ (I, §4, No. 7, p. 43, Theorem 6). We conclude that every simple A-module is isomorphic to a quotient of $A_s$.
 
-#### Remark {#alg-viii-s3-n4-rem-1 .statement}
+#### Remark {#alg-viii-s3-n4-rem-1 .statement tag=003P}
 
 Proposition 5 applies, in particular, to the following two cases:
 

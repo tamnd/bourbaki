@@ -35,7 +35,7 @@ subsections:
       pdf_page: 472
 statements: 17
 exercises: 4
-content_sha256: 26076715325010e6892d9724e28952aa685459d53d31d23da653e128fc3b4f45
+content_sha256: ed814906495308b4a168f1943d225c67a451b95af1b84926d5796813fd137fe8
 ---
 
 ## APPENDIX 2 DETERMINANTS OVER A NONCOMMUTATIVE FIELD
@@ -96,7 +96,7 @@ that is, (5) $\omega (v_1, . . . , v_n) =\omega (v_1, . . . , v_i+v_j\lambda , .
 
 In this subsection, for any strictly positive integer $m$, any integer $i$ in the interval $[1, m]$, and any sequence $(v_1, . . . , v_m)$ in $V^m$, we write $(v_1, . . . ,\widehat{v}_i, . . . , v_m)$ for the sequence $(v_1, . . . , v_{i-1}, v_{i+1}, . . . , v_m)$ in $V^{m-1}$.
 
-#### Proposition 1 {#alg-viii-a2-prop-1 .statement}
+#### Proposition 1 {#alg-viii-a2-prop-1 .statement tag=00Q1}
 
 Let W be a hyperplane in V and $e$ be a vector in V W. Let $\varphi$ be an element of Ω(W). There exists a unique element $\omega$ of Ω(V) such that we have (7) $\omega (w_1, . . . , w_{n-1}, e) =\varphi (w_1, . . . , w_{n-1})$ for every basis $(w_1, . . . , w_{n-1})$ of W.
 
@@ -198,7 +198,7 @@ But we also have $µ_k=µ'_k$, and therefore $t=t'$.
 
 c) It remains to examine the case when the only index $k$ such that $µ_k\not= 0$ is $j$. We then have $µ'_j=µ_j,e=v_jµ_j$, and $p(v_j) = 0$. Set $k=j$ in formulas (12) and (13). Since the sequences $(p(v_1), . . . ,p[(v_j), . . . , p(v_n))$ and $(p(v'_1), . . . ,p[(v_j'), . . . , p(v_n'))$ are equal, we have $t=t'$.
 
-#### Corollary 1 {#alg-viii-a2-prop-1-cor-1 .statement}
+#### Corollary 1 {#alg-viii-a2-prop-1-cor-1 .statement tag=00Q2}
 
 Let $(e_1, . . . , e_n)$ be a basis of V and $t$ an element of $D^*_{ab}$. There exists a unique element $\omega$ of Ω(V) such that $\omega (e_1, . . . , e_n) =t$.
 
@@ -210,11 +210,11 @@ $$
 
 for every basis $(w_1, . . . , w_{n-1})$ of W and every $\omega$ in Ω(V). By the induction hypothesis, there exists a unique element $\varphi$ of Ω(W) such that $\varphi (e_1, . . . , e_{n-1}) =t$. The relation $\omega (e_1, . . . , e_n) =t$, for $\omega$ in Ω(V), is equivalent to $Λ(\omega ) =\varphi$. Corollary 1 follows.
 
-#### Corollary 2 {#alg-viii-a2-prop-1-cor-2 .statement}
+#### Corollary 2 {#alg-viii-a2-prop-1-cor-2 .statement tag=00Q3}
 
 Let $\omega$ and $\omega '$ be two elements of Ω(V). There exists a unique element $t$ of $D^*_{ab}$ such that $\omega '=t\omega$.
 
-#### Remark {#alg-viii-a2-n2-rem-1 .statement}
+#### Remark {#alg-viii-a2-n2-rem-1 .statement tag=00Q4}
 
 Suppose that the field D is commutative. By definition, B(V) is a subset of $V^n$. It is clear that the restriction to B(V) of a nonzero alternating $n$-linear form $f: V^n\rightarrow D$ belongs to Ω(V). Moreover, if $(e_1, . . . , e_n)$ is a basis of V and $t$ is a nonzero element of D, then there exists a unique alternating $n$-linear form $f$ such that $f(e_1, . . . , e_n) =t$ (III, §7, No. 4, p. 511 and III, §7, No. 8, p. 518). By Corollary 1, the set Ω(V) consists of the restrictions to B(V) of the nonzero alternating $n$-linear forms.
 
@@ -228,7 +228,7 @@ for every basis $(v_1, . . . , v_n)$ of V and every element $\omega$ of Ω(V).
 
 Let us return to the case when D is no longer supposed to be commutative.
 
-#### Proposition 2 {#alg-viii-a2-prop-2 .statement}
+#### Proposition 2 {#alg-viii-a2-prop-2 .statement tag=00Q5}
 
 a) Let $u$ be an automorphism of V. There exists a unique element of $D^*_{ab}$, denoted by det $u$ and called the determinant of $u$, such that we have
 
@@ -272,7 +272,7 @@ $$
 
 it is an element of $\mathbf{G}\mathbf{L}_n(D)$. If $\lambda_1, . . . , \lambda_n$ are elements of $D^*$, then the diagonal matrix diag($\lambda_1, . . . , \lambda_n)$ also belongs to $\mathbf{G}\mathbf{L}_n(D)$.
 
-#### Proposition 3 {#alg-viii-a2-prop-3 .statement}
+#### Proposition 3 {#alg-viii-a2-prop-3 .statement tag=00Q6}
 
 The mapping det is the unique homomorphism from $\mathbf{G}\mathbf{L}_n(D)$ to $D^*_{ab}$ that satisfies the relations
 
@@ -290,23 +290,23 @@ Now, the columns of the matrix A diag($\lambda_1, . . . , \lambda_n)$ are $a_1\l
 
 This proves, to begin with, that the determinant mapping satisfies relations (16) and (17). We already know that this mapping is a homomorphism from $\mathbf{G}\mathbf{L}_n(D)$ to $D^*_{ab}$. Conversely, if $\varphi$ is a homomorphism from $\mathbf{G}\mathbf{L}_n(D)$ to $D^*_{ab}$ such that $\varphi (B_{ij}(1)) = 1$ for $i\not=j$ and $\varphi$(diag($\lambda_1, . . . , \lambda_n)) =\pi (\lambda_1\cdots \lambda_n)$, then $\varphi$ satisfies relations (18) through (20) and is therefore equal to det.
 
-#### Example 1 {#alg-viii-a2-n4-exa-1 .statement}
+#### Example 1 {#alg-viii-a2-n4-exa-1 .statement tag=00Q7}
 
 The columns of the matrix $B_{ij}(\lambda )$ are $\varepsilon_1, . . . , \varepsilon_j$ + $\varepsilon_i\lambda , \varepsilon_{i+1}, . . . , \varepsilon_n$. By formula (5) of VIII, p. 448, we have
 
 (21) det($B_{ij}(\lambda )) = 1$.
 
-#### Example 2 {#alg-viii-a2-n4-exa-2 .statement}
+#### Example 2 {#alg-viii-a2-n4-exa-2 .statement tag=00Q8}
 
 Let $\sigma$ be a permutation of the interval $[1, n]$ in $\mathbf{N}$, with signature $\varepsilon (\sigma )$. Let M$(\sigma )$ be the matrix of the permutation $\sigma$ (II, §10, No. 7, p. 351). The columns of the matrix M$(\sigma )$ are $\varepsilon_{\sigma(1)}, . . . , \varepsilon_{\sigma(n)}$. Applying formula (4) of VIII, p. 448, we therefore have
 
 (22) det(M$(\sigma )) =\pi (\varepsilon (\sigma ))$.
 
-#### Example 3 {#alg-viii-a2-n4-exa-3 .statement}
+#### Example 3 {#alg-viii-a2-n4-exa-3 .statement tag=00Q9}
 
 Suppose $n\geqslant 1$. For every invertible diagonal matrix of the form ∆ = diag($d_1, . . . , d_n)$, we have ∆$B_{ij}(\lambda$)∆$^{-1}=B_{ij}(d_i\lambda d^-_j^1)$. Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$. By Corollary 1 of II, §10, No. 13, p. 362 and the previous formula, there exist matrices P and ∆ in $\mathbf{G}\mathbf{L}_n(D)$ such that A = P∆, that P is the product of matrices of the form $B_{ij}(\lambda )$, and that ∆ is a diagonal matrix of the form diag(1$, . . . ,1, d)$. We have det(P) = 1 by Example 1, and therefore det(A) = det(∆) $=\pi (d)$ by Proposition 3.
 
-#### Example 4 {#alg-viii-a2-n4-exa-4 .statement}
+#### Example 4 {#alg-viii-a2-n4-exa-4 .statement tag=00QA}
 
 Let $D'$ be a field, and let $u$ be a homomorphism from D to $D'$. When passing to the quotients, $u$ defines a group homomorphism $u_{ab}$ from $D^*_{ab}$ to $D^{'*}_{ab}$. Let $u_n$ be the homomorphism from $\mathbf{G}\mathbf{L}_n(D)$ to $\mathbf{G}\mathbf{L}_n(D')$ that transforms a matrix A $= (a_{ij})$ into the matrix $(u(a_{ij}))$. The formula
 
@@ -314,11 +314,11 @@ Let $D'$ be a field, and let $u$ be a homomorphism from D to $D'$. When passing 
 
 for $A\in \mathbf{G}\mathbf{L}_n(D)$ follows immediately from Example 3.
 
-#### Example 5 {#alg-viii-a2-n4-exa-5 .statement}
+#### Example 5 {#alg-viii-a2-n4-exa-5 .statement tag=00QB}
 
 We have $\mathbf{G}\mathbf{L}_1(D) = D^*$, and Proposition 3 shows that we have det($a) =\pi (a)$ for $a$ in $\mathbf{G}\mathbf{L}_1(D)$.
 
-#### Example 6 {#alg-viii-a2-n4-exa-6 .statement}
+#### Example 6 {#alg-viii-a2-n4-exa-6 .statement tag=00QC}
 
 Suppose $n= 2$. Let A = $^{a b}_{c d}$ be an element of $\mathbf{G}\mathbf{L}_2(D)$. The elements $a$ and $c$ of D are not both zero. We will give the determinant of A explicitly.
 
@@ -346,15 +346,15 @@ Consequently, by a) and Example 2, we have $cb\not= 0$ and
 
 (27) det(A$) =\pi (-cb)$.
 
-#### Example 7 {#alg-viii-a2-n4-exa-7 .statement}
+#### Example 7 {#alg-viii-a2-n4-exa-7 .statement tag=00QD}
 
 Let $D^o$ be the opposite field of D. The mapping $A\mapsto^tA$ from $\mathbf{M}_n(D)$ to $\mathbf{M}_n(D^o)$ satisfies $^t($AB$) =^tB^tA$. Therefore, for every matrix A in $\mathbf{G}\mathbf{L}_n$(D), the transposed matrix $^tA$ is invertible in $\mathbf{M}_n(D^o)$, but it is not necessarily invertible in $\mathbf{M}_n(D)$. It follows from Example 3 that if A belongs to $\mathbf{G}\mathbf{L}_n$(D), then the elements A of $\mathbf{G}\mathbf{L}_n(D)$ and $^tA$ of $\mathbf{G}\mathbf{L}_n(D^o)$ have the same determinant. On the other hand, even if the matrix $^tA$ belongs to $\mathbf{G}\mathbf{L}_n$(D), its determinant in GL$_n(D)$ is not necessarily equal to that of A (cf. Example 6).
 
-#### Remark 1 {#alg-viii-a2-n4-rem-1 .statement}
+#### Remark 1 {#alg-viii-a2-n4-rem-1 .statement tag=00QE}
 
 Let V be a right vector space over the field D, of finite dimension $n$. We view the dual space $V^*=$ Hom$_D(V,D)$ as a right vector space over the opposite field $D^o$ of D. Let $u$ be an automorphism of V, and let $^tu$ be the automorphism of $V^*$ that is the transpose of $u$. If $u$ is represented by a matrix A in $\mathbf{M}_n(D)$ with respect to a basis $(e_1, . . . , e_n)$ of V, then the automorphism $^tu$ is represented by the matrix $^tA$ in $\mathbf{M}_n(D^o)$ with respect to the basis $(e^*_1, . . . , e^*_n)$ of $V^*$ dual to $(e_1, . . . , e_n)$ (II, §10, No. 4, p. 344, Proposition 3). By Example 7, the determinant of $^tu$ is equal to that of $u$.
 
-#### Remark 2 {#alg-viii-a2-n4-rem-2 .statement}
+#### Remark 2 {#alg-viii-a2-n4-rem-2 .statement tag=00QF}
 
 The results of Subsections 1 through 4 generalize to the case when D is a local ring (VIII, p. 459, Exercise 2).
 
@@ -362,7 +362,7 @@ The results of Subsections 1 through 4 generalize to the case when D is a local 
 
 Let $n$ be a positive integer. We denote by $\mathbf{S}\mathbf{L}_n(D)$ the kernel of the group homomorphism det$:\mathbf{G}\mathbf{L}_n(D)\rightarrow D^*_{ab}$, and we call it the unimodular group or special linear group (cf. III, §8, No. 9, p. 537 when the field D is commutative).
 
-#### Theorem 1 {#alg-viii-a2-thm-1 .statement}
+#### Theorem 1 {#alg-viii-a2-thm-1 .statement tag=00QG}
 
 Suppose $n\geqslant 2$.
 
@@ -426,7 +426,7 @@ $$
 
 0 1 0 1 0 1 0 1 0 1
 
-#### Remark {#alg-viii-a2-n5-rem-1 .statement}
+#### Remark {#alg-viii-a2-n5-rem-1 .statement tag=00QH}
 
 If D is a field with two elements, then $\mathbf{G}\mathbf{L}_2(D)$ is equal to $\mathbf{S}\mathbf{L}_2$(D), and it is a group of order 6 whose derived group has order 3. If D is a field with three elements, then the group $\mathbf{S}\mathbf{L}_2(D)$ has order 24, and its derived group has order 8. Suppose $n\geqslant 2$; except in the two previous cases, every normal subgroup of $\mathbf{S}\mathbf{L}_n(D)$ distinct from $\mathbf{S}\mathbf{L}_n(D)$ is contained in the center $Z(\mathbf{S}\mathbf{L}_n(D))$ of $\mathbf{S}\mathbf{L}_n(D)$ (II, §10, p. 421, Exercises 13 and 14). The group $\mathbf{S}\mathbf{L}_n(D)/Z\mathbf{S}\mathbf{L}_n(D)$ is then simple.
 

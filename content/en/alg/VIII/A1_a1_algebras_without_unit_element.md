@@ -31,7 +31,7 @@ subsections:
       pdf_page: 459
 statements: 18
 exercises: 15
-content_sha256: 10c58fd958b8e8fe52f48300b06710c2f8d288c51c8b5f2a9c138b3ca9f83a08
+content_sha256: 44e403c0945b2519ffd123c75070328ee664c4277fc4096a56bd54e96957556d
 ---
 
 ## APPENDIX 1 ALGEBRAS WITHOUT UNIT ELEMENT
@@ -44,7 +44,7 @@ Let A be a $k$-algebra. Recall (III, §1, No. 2, p. 430) that a left ideal of A 
 
 A left ideal of A is called maximal if it is a maximal element of the set of proper left ideals of A for the inclusion.
 
-#### Definition 1 {#alg-viii-a1-def-1 .statement}
+#### Definition 1 {#alg-viii-a1-def-1 .statement tag=00P4}
 
 Let A be a $k$-algebra and $\mathfrak{a}$ a left ideal of A. An element $u$ of A such that $au-a$ belongs to $\mathfrak{a}$ for every $a\in A$ is called a right unit modulo $\mathfrak{a}$. We say that the ideal $\mathfrak{a}$ is regular if there exists a right unit modulo $\mathfrak{a}$.
 
@@ -54,11 +54,11 @@ When the algebra A is unital, the unit element of A is a right unit modulo $\mat
 
 Let $\mathfrak{a}$ be a regular left ideal of A and $u$ a right unit modulo $\mathfrak{a}$. If $\mathfrak{b}$ is a left ideal of A containing $\mathfrak{a}$, then $u$ is a right unit modulo $\mathfrak{a}$, so $\mathfrak{b}$ is regular. So the left ideals of A that are maximal and regular are the maximal elements of the set of regular proper left ideals of A. Moreover, a left ideal $\mathfrak{b}$ of A containing $\mathfrak{a}$ is proper if and only if $u$ does not belong to $\mathfrak{b}$. The set of proper left ideals $\mathfrak{b}$ of A containing $\mathfrak{a}$, ordered by inclusion, is therefore an inductive set. Theorem 2 of Set Theory, III, §2, No. 4, p. 154 applied to this set gives the following result.
 
-#### Proposition 1 {#alg-viii-a1-prop-1 .statement}
+#### Proposition 1 {#alg-viii-a1-prop-1 .statement tag=00P5}
 
 Every regular proper left (resp. right) ideal of A is contained in a regular maximal left (resp. right) ideal.
 
-#### Proposition 2 {#alg-viii-a1-prop-2 .statement}
+#### Proposition 2 {#alg-viii-a1-prop-2 .statement tag=00P6}
 
 Let A be a commutative $k$-algebra. An ideal $\mathfrak{a}$ of A is a regular maximal ideal if and only if the pseudoring $A/\mathfrak{a}$ (I, §8, No. 1, p. 98) is a field.
 
@@ -66,15 +66,15 @@ An element $u$ of A is a (right or left) unit modulo $\mathfrak{a}$ if and only 
 
 The mapping $\mathfrak{b}\mapsto \mathfrak{b}/\mathfrak{a}$ is a bijection from the set of ideals of the algebra A containing $\mathfrak{a}$ to the set of ideals of the algebra $A/\mathfrak{a}$. These are the ideals of the ring $A/\mathfrak{a}$ because this algebra is unital. Finally, by Theorem 1 of I, §9, No. 1, p. 115, the ring $A/\mathfrak{a}$ is a field if and only if it is nonzero and its only ideals are 0 and itself. The proposition follows.
 
-#### Example 1 {#alg-viii-a1-n1-exa-1 .statement}
+#### Example 1 {#alg-viii-a1-n1-exa-1 .statement tag=00P7}
 
 Let V be an infinite-dimensional vector space over a commutative field K. Let End$^f_K(V)$ be the K-subalgebra of End$_K(V)$ consisting of the endomorphisms of finite rank. Let W be a linear subspace of V, and let $\mathfrak{a}_W$ be the set of elements of End$^f_K(V)$ whose kernel contains W; it is a left ideal of End$^f_K(V)$. An element $u$ of End$^f_K(V)$ is a right unit modulo $\mathfrak{a}_W$ if and only if we have $u(x) =x$ for every $x\in W$. Such an element $u$ exists, that is, $\mathfrak{a}_W$ is regular, if and only if W is finite-dimensional. The ideal $\mathfrak{a}_W$ is maximal and regular if and only if W has dimension 1.
 
-#### Example 2 {#alg-viii-a1-n1-exa-2 .statement}
+#### Example 2 {#alg-viii-a1-n1-exa-2 .statement tag=00P8}
 
 Let T be a locally compact space, and let $\mathscr{C}_0(T)$ be the commutative $\mathbf{C}$-algebra of continuous mappings from T to $\mathbf{C}$ that tend to 0 at infinity (Gen. Top., X, §4, No. 4, p. 316); it is unital if and only if T is compact. Let F be a closed subset of T, and let $\mathfrak{a}_F$ be the set of elements of $\mathscr{C}_0(T)$ whose restriction to F is the zero function; it is an ideal of $\mathscr{C}_0(T)$. An element $u$ of $\mathscr{C}_0(T)$ is a unit modulo $\mathfrak{a}_F$ if and only if we have $u(t) = 1$ for every $t\in F$. Such an element $u$ exists, that is, $\mathfrak{a}_F$ is regular, if and only if F is compact. The mapping $t\mapsto \mathfrak{a}_{\{t\}}$ is a bijection from T to the set of regular maximal ideals of $\mathscr{C}_0(T)$ (TS, I, §3, n$^o2$, p. 32, corollaire 1). Suppose that T is not compact, and denote by $\mathfrak{a}$ the subset of $\mathscr{C}_0(T)$ consisting of the functions with compact support; then $\mathfrak{a}$ is an ideal of $\mathscr{C}_0(T)$ that is not contained in any regular ideal of $\mathscr{C}_0(T)$.
 
-#### Example 3 {#alg-viii-a1-n1-exa-3 .statement}
+#### Example 3 {#alg-viii-a1-n1-exa-3 .statement tag=00P9}
 
 Let $L^1(\mathbf{R})$ be the convolution algebra of the locally compact group $\mathbf{R}$. Recall (cf. Int., VIII, §4, No. 5, p. 38) that $L^1(\mathbf{R})$ is the space of classes of functions on $\mathbf{R}$ that are integrable for the Lebesgue measure. The product of the classes of two functions $f$ and $g$ is the class of the function $f*g$ defined by the formula
 
@@ -94,7 +94,7 @@ By TS, II, §3, n$^o2$, p. 252, théorème 1, the mapping $a\mapsto \mathfrak{m}
 
 Let A be a $k$-algebra. In III, §1, No. 2, p. 431, we defined the unital algebra $\widetilde{A}$ deduced from A by the adjunction of a unit element $e$. We identify A with a two-sided ideal of $\widetilde{A}$. The $k$-module $\widetilde{A}$ is the direct sum of the submodules $ke$ and A.
 
-#### Proposition 3 {#alg-viii-a1-prop-3 .statement}
+#### Proposition 3 {#alg-viii-a1-prop-3 .statement tag=00PA}
 
 a) Let $\widetilde{\mathfrak{a}}$ be a left ideal of $\widetilde{A}$ such that $\widetilde{A} =\widetilde{\mathfrak{a}}+ A$. We set $\mathfrak{a}=\widetilde{\mathfrak{a}}\cap A$. There exists an element $u$ of A such that $u-e$ belongs to $\widetilde{\mathfrak{a}}$. If $u$ is such an element, then it is a right unit of A modulo $\mathfrak{a}$, and we have $\widetilde{\mathfrak{a}}=\mathfrak{a}+k(u-e)$; in particular, the ideal $\mathfrak{a}$ is regular.
 
@@ -114,11 +114,11 @@ Since $u$ is a right unit of A modulo $\mathfrak{a}$, the sum $ax+\lambda (au-a)
 
 Finally, if $k$ is a field, then A is a hyperplane in $\widetilde{A}$, and $\widetilde{A}$ is the sum of $\widetilde{\mathfrak{a}}$ and A if and only if $\widetilde{\mathfrak{a}}$ is not contained in A.
 
-#### Corollary {#alg-viii-a1-n2-cor-1 .statement}
+#### Corollary {#alg-viii-a1-n2-cor-1 .statement tag=00PB}
 
 The regular left ideals of A are the ideals of the form $A\cap \widetilde{\mathfrak{a}}$, where $\widetilde{\mathfrak{a}}$ is a left ideal of $\widetilde{A}$ such that $\widetilde{A} =\widetilde{\mathfrak{a}}+ A$.
 
-#### Proposition 4 {#alg-viii-a1-prop-4 .statement}
+#### Proposition 4 {#alg-viii-a1-prop-4 .statement tag=00PC}
 
 a) Let $\mathfrak{a}$ be a regular maximal left ideal of A. There exists a unique left ideal $\widetilde{\mathfrak{a}}$ of $\widetilde{A}$ such that $\widetilde{A} =\widetilde{\mathfrak{a}}+ A$ and $\mathfrak{a}=\widetilde{\mathfrak{a}}\cap A$. This ideal is maximal and does not contain A.
 
@@ -150,13 +150,13 @@ Let $\mathfrak{a}$ be a regular left ideal of A and $u$ a right unit modulo $\ma
 
 Conversely, let M be a left pseudomodule over A, and let $z$ be an element of M such that $M = Az$. Then there exists an element $u$ of A such that $z=uz$. For every $a\in A$, we have $(au-a)z= 0$, so $au-a$ belongs to the annihilator $\mathfrak{a}$ of $z$. Consequently, $\mathfrak{a}$ is a regular left ideal of A, the element $u$ is a right unit modulo $\mathfrak{a}$, and when passing to the quotient, the mapping $a\mapsto az$ defines an isomorphism from $A_s/\mathfrak{a}$ to M.
 
-#### Definition 2 {#alg-viii-a1-def-2 .statement}
+#### Definition 2 {#alg-viii-a1-def-2 .statement tag=00PD}
 
 We say that a pseudomodule M over A is simple if we have AM $\not= 0$ and if 0 and M are the only sub-pseudomodules of M.
 
 This corresponds to saying that the $\widetilde{A}$-module M is simple and that its annihilator does not contain A. When A is a ring and M is an A-module, we have AM = M, so Definition 2 coincides with Definition 1 of VIII, p. 45.
 
-#### Proposition 5 {#alg-viii-a1-prop-5 .statement}
+#### Proposition 5 {#alg-viii-a1-prop-5 .statement tag=00PE}
 
 a) Let $\mathfrak{m}$ be a regular maximal left ideal of A. Then the pseudomodule $A_s/\mathfrak{m}$ is simple, and there exists a nonzero element of $A_s/\mathfrak{m}$ with annihilator $\mathfrak{m}$.
 
@@ -172,27 +172,27 @@ Let M be a nonzero pseudomodule. Suppose that we have $Ax= M$ for every nonzero 
 
 When A is a ring, every left ideal of A is regular, so the definition of the radical coincides with Definition 2 of VIII, p. 154.
 
-#### Example 1 {#alg-viii-a1-n3-exa-1 .statement}
+#### Example 1 {#alg-viii-a1-n3-exa-1 .statement tag=00PF}
 
 The radical of the $k$-algebra End$^f_k(V)$ is reduced to 0 (VIII, p. 436, Example 1$).*$ The same holds for the algebras $\mathscr{C}_0(T)$ and $L^1(\mathbf{R}).*$
 
-#### Example 2 {#alg-viii-a1-n3-exa-2 .statement}
+#### Example 2 {#alg-viii-a1-n3-exa-2 .statement tag=00PG}
 
 Let A be a pseudoring in which all elements are nilpotent. The radical of A is equal to A because A is the only regular left ideal.
 
 Proposition 5 immediately implies the following result.
 
-#### Proposition 6 {#alg-viii-a1-prop-6 .statement}
+#### Proposition 6 {#alg-viii-a1-prop-6 .statement tag=00PH}
 
 The radical of the algebra A is the intersection of the annihilators of the simple pseudomodules. It is, in particular, a two-sided ideal of A.
 
-#### Proposition 7 {#alg-viii-a1-prop-7 .statement}
+#### Proposition 7 {#alg-viii-a1-prop-7 .statement tag=00PI}
 
 The radical of A is the trace on A of the radical of $\widetilde{A}$; it is also equal to the radical of the opposite algebra $A^o($that is, to the intersection of the regular maximal right ideals of A). If the ring $k$ is without radical, then the radical of A is equal to that of $\widetilde{A}$.
 
 The equality $<(\widetilde{A})\cap A =<(A)$ follows from Proposition 4 of VIII, p. 438, b). Since $\widetilde{A}$ and $\widetilde{A}^o$ have the same radical (VIII, p. 156, Corollary 1), the equality $<(A) =<(A^o)$ follows. If $k$ is without radical, then the intersection of the maximal left ideals of $\widetilde{A}$ containing A is equal to A. Consequently, $<(\widetilde{A})$ is contained in A and therefore equal to $<(A)$.
 
-#### Remark {#alg-viii-a1-n3-rem-1 .statement}
+#### Remark {#alg-viii-a1-n3-rem-1 .statement tag=00PJ}
 
 Let $x$ and $y$ be elements of A; we say that $x$ is a left adverse of $y$, or that $y$ is a right adverse of $x$, if, in $\widetilde{A},x-e$ is a left inverse of $y-e$, that is, if we have $x+y=xy$. By Proposition 7 and Jacobson’s theorem (VIII, p. 156, Theorem 1), the radical of A consists of the elements $x$ of A such that $ux-e$ is left invertible in $\widetilde{A}$ for every $u$ in $\widetilde{A}$. Since we have $(a+\lambda e)x-e=ax+\lambda x-e$ (for $a\in A,\lambda \in k)$, the radical of A is the set of elements $x$ of A such that $ax+\lambda x$ has a left adverse in A for every $a\in A$ and $\lambda \in k$.
 
@@ -200,13 +200,13 @@ Let $x$ and $y$ be elements of A; we say that $x$ is a left adverse of $y$, or t
 
 Let A be a $k$-algebra. A left pseudomodule M is called semisimple if it is the direct sum of a family of simple left pseudomodules.
 
-#### Lemma 1 {#alg-viii-a1-lem-1 .statement}
+#### Lemma 1 {#alg-viii-a1-lem-1 .statement tag=00PK}
 
 Let M be a semisimple left A-pseudomodule. Let B be the bicommutant of the $\widetilde{A}$-module M. Then every A-sub-pseudomodule of M is a B-submodule of M.
 
 The $\widetilde{A}$-module M is semisimple. Let N be an A-sub-pseudomodule of M. Then N is an $\widetilde{A}$-submodule of M. By Corollary 2 of VIII, p. 56, there exists a projector $p$ of the A-module M with image N. Since we have the relation $pb=bp$ for every $b\in B$, we obtain that N is a B-submodule of M.
 
-#### Lemma 2 {#alg-viii-a1-lem-2 .statement}
+#### Lemma 2 {#alg-viii-a1-lem-2 .statement tag=00PL}
 
 Let M be a semisimple left A-pseudomodule, and let $x$ be an element of M. There exists an element $a\in A$ such that $ax=x$.
 

@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 27
 exercises: 7
-content_sha256: 6df40e38d6c66841a19c7bd4cc51e5d4bab1cf25d5ee4b9f1cc28ede6d45c3ac
+content_sha256: 57498b744c0701efed4ee2ca7fbd56824705c2794b8ffd7b46d327b290890a8f
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -63,7 +63,7 @@ $$
 \chi_u(X) =\sum_r^m_{=0}(-1)^rc_r(u) X^{m-r} \tag{2}
 $$
 
-#### Proposition 1 {#alg-viii-s17-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s17-prop-1 .statement tag=00KD}
 
 Let L be a commutative ring, M a free L-module of finite rank $m\geqslant 1$, and $u$ an endomorphism of M. There exists a unique endomorphism $\widetilde{u}$ of M satisfying the relation
 
@@ -71,7 +71,7 @@ Let L be a commutative ring, M a free L-module of finite rank $m\geqslant 1$, an
 
 (4) $u\circ \widetilde{u}=\widetilde{u}\circ u=$ det($u)_M$, (5) det($\widetilde{u}) =$ det($u)^{m-1}$, (6) $\widetilde{u}=^m\sum_{r=0}^{-1}(-1)^rc_{m-1-r}(u)u^r$.
 
-#### Lemma 1 {#alg-viii-s17-lem-1 .statement}
+#### Lemma 1 {#alg-viii-s17-lem-1 .statement tag=00KE}
 
 Let $p$ be an integer such that $0\leqslant p\leqslant m$. For any $w$ in $\wedge^p(M)$, let $h_p(w)$ be the linear mapping $w'\mapsto w\wedge w'$ from $\wedge^{m-p}(M)$ to $\wedge^m(M)$. The linear mapping $h_p:w\mapsto h_p(w)$ from $\wedge^p(M)$ to Hom$_L(\wedge^{m-p}(M),\wedge^m(M))$ is
 
@@ -139,15 +139,15 @@ $$
 
 and therefore formula (5).
 
-#### Remark 1 {#alg-viii-s17-n1-rem-1 .statement}
+#### Remark 1 {#alg-viii-s17-n1-rem-1 .statement tag=00KF}
 
 The endomorphism $\widetilde{u}$ of M coincides with what we called the cotranspose of $u$ in III, §8, No. 6, p. 532.
 
-#### Remark 2 {#alg-viii-s17-n1-rem-2 .statement}
+#### Remark 2 {#alg-viii-s17-n1-rem-2 .statement tag=00KG}
 
 From formulas (1), (2), (4), and (6), we deduce the relation $\chi_u(u) = 0$ and therefore another proof of the Cayley–Hamilton theorem (III, §8, No. 11, p. 541).
 
-#### Remark 3 {#alg-viii-s17-n1-rem-3 .statement}
+#### Remark 3 {#alg-viii-s17-n1-rem-3 .statement tag=00KH}
 
 Since the mapping $c_r$ from End(M) to L is a homogeneous polynomial mapping of degree $r$ for $0\leqslant r\leqslant m-1$, it follows from formula (6) that the mapping $u\mapsto \widetilde{u}$ from End(M) to End(M) is a homogeneous polynomial mapping of degree $m-1$.
 
@@ -175,13 +175,13 @@ Moreover, the mapping $b\mapsto \widetilde{b}$ from B to B is a homogeneous poly
 
 Recall that we denote by A a central simple algebra over the commutative field K of reduced degree $n$.
 
-#### Proposition 2 {#alg-viii-s17-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s17-prop-2 .statement tag=00KI}
 
 Let $a$ be an element of A and Pc($a; X)$ its characteristic polynomial. There exists a unique monic polynomial P in K[X] such that we have Pc($a; X) = P(X)^n$.
 
 A) The uniqueness of P follows from Lemma 2 below.
 
-#### Lemma 2 {#alg-viii-s17-lem-2 .statement}
+#### Lemma 2 {#alg-viii-s17-lem-2 .statement tag=00KJ}
 
 Let P and Q be monic polynomials in K[X] and $s$ is a strictly positive integer. If $P^s= Q^s$, then we have P = Q.
 
@@ -209,7 +209,7 @@ We set
 
 (22) Trd$_{A/K}(a) =b_1(a)$, Nrd$_{A/K}(a) =b_n(a)$.
 
-#### Definition 2 {#alg-viii-s17-def-2 .statement}
+#### Definition 2 {#alg-viii-s17-def-2 .statement tag=00KK}
 
 We call Trd$_{A/K}(a)$ the reduced trace of A and Nrd$_{A/K}(a)$ its reduced norm (with respect to the K-algebra A).
 
@@ -219,13 +219,13 @@ The following formulas result from formulas (20) and (22) and formulas (7) and (
 
 (23) Tr$_{A/K}(a) =n$ Trd$_{A/K}(a)$, (24) $N_{A/K}(a) =$ (Nrd$_{A/K}(a))^n$.
 
-#### Proposition 3 {#alg-viii-s17-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s17-prop-3 .statement tag=00KL}
 
 An element $a$ of A is invertible if and only if its reduced norm is nonzero. In particular, A is a field if and only if we have Nrd$_{A/K}(a)\not= 0$ for every nonzero element $a$ of A.
 
 An element $a$ of A is invertible if and only if its norm is nonzero (III, §9, No. 4, p. 545, Proposition 3). Proposition 3 therefore follows from formula (24).
 
-#### Remark {#alg-viii-s17-n2-rem-1 .statement}
+#### Remark {#alg-viii-s17-n2-rem-1 .statement tag=00KM}
 
 Let L be the field K(X) of rational fractions in one variable X. The reduced characteristic polynomial of an element $a$ of A is simply the reduced norm of the element $X\otimes 1-1\otimes a$ of the L-algebra $A_{(L)}$. This follows from the definition of the reduced characteristic polynomial and the formula (III, §9, No. 3, p. 544)
 
@@ -247,7 +247,7 @@ for every endomorphism $u$ of V.
 
 ### 3. Properties of Reduced Norms and Traces
 
-#### Proposition 4 {#alg-viii-s17-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s17-prop-4 .statement tag=00KN}
 
 Let L be an extension of K and $a$ an element of the central simple algebra A. We have the relations (28) Pcrd$_{A_{(L)}/L}(1\otimes a; X) =$ Pcrd$_{A/K}(a; X)$, (29) Trd$_{A_{(L)}/L}(1\otimes a) =$ Trd$_{A/K}(a)$, (30) Nrd$_{A_{(L)}/L}(1\otimes a) =$ Nrd$_{A/K}(a)$
 
@@ -257,7 +257,7 @@ The two sides of equality (28) have the same $n$-th power by the definition (for
 
 Pc$_{A_{(L)}/L}(1\otimes a; X) =$ Pc$_{A/K}(a; X)$ (III, §9, No. 3, p. 544, formula (21)). Equality (28) therefore follows from Lemma 2 of VIII, p. 339. Formulas (29) and (30) follow from (28), (21), and (22).
 
-#### Corollary 1 {#alg-viii-s17-prop-4-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s17-prop-4-cor-1 .statement tag=00KO}
 
 Let L be an extension of K. Let V be a vector space of dimension $n$ over L and $\theta$ a K-algebra homomorphism from A to End$_L(V)$. For every element $a$ of A, we have
 
@@ -265,7 +265,7 @@ Let L be an extension of K. Let V be a vector space of dimension $n$ over L and 
 
 Let $\theta '$ be the L-algebra homomorphism from $A_{(L)}$ to End$_L(V)$ such that $\theta '(\lambda \otimes a) =\lambda \theta (a)$ for $\lambda \in L$ and $a\in A$. The algebra $A_{(L)}$ is simple by Corollary 2 of VIII, p. 222; the homomorphism $\theta '$ is therefore injective. But the algebras $A_{(L)}$ and End$_L(V)$ over the field L have the same degree, equal to $n^2$, so $\theta '$ is an isomorphism. Corollary 1 then follows from Proposition 4 and Example 2 above.
 
-#### Corollary 2 {#alg-viii-s17-prop-4-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s17-prop-4-cor-2 .statement tag=00KP}
 
 Let $a$ and $a'$ be elements of A and $\lambda$ an element of K. We have the relations
 
@@ -283,7 +283,7 @@ Choose an extension L of K, a vector space V of dimension $n$ over L, and a homo
 
 The trace, norm, and characteristic polynomial of $a$ are therefore the same whether we view $a$ as an element of A or as an element of $A^o$. This property does not always hold when A is not assumed central simple (III, §9, p. 644, Exercise 1).
 
-#### Proposition 5 {#alg-viii-s17-prop-5 .statement}
+#### Proposition 5 {#alg-viii-s17-prop-5 .statement tag=00KQ}
 
 For any $x$ in A, let $t_x$ be the linear form $y\mapsto$ Trd$_{A/K}(xy)$ on A.
 
@@ -329,11 +329,11 @@ $$
 
 Consequently, the relation “$h(xy) =h(yx)$ for $x, y$ in A” is equivalent to “$t_{ax-xa}= 0$ for every $x\in$ A”, and by part a) of the proof, this means that $a$ belongs to the center K of A. This proves b) in view of formula (36).
 
-#### Corollary {#alg-viii-s17-n3-cor-1 .statement}
+#### Corollary {#alg-viii-s17-n3-cor-1 .statement tag=00KR}
 
 The linear subspace of A generated by the elements of the form $xy-yx$, where $x$ and $y$ run through A, is a hyperplane, the kernel of the nonzero linear form Trd$_{A/K}$.
 
-#### Remark {#alg-viii-s17-n3-rem-1 .statement}
+#### Remark {#alg-viii-s17-n3-rem-1 .statement tag=00KS}
 
 By formula (23) of VIII, p. 340, we have
 
@@ -343,7 +343,7 @@ for every $a\in A$. If the characteristic of the field K is equal to 0 or a prim
 
 ### 4. The Reduced Norm is a Polynomial Function
 
-#### Lemma 3 {#alg-viii-s17-lem-3 .statement}
+#### Lemma 3 {#alg-viii-s17-lem-3 .statement tag=00KT}
 
 Let L be an extension of K, and let I be a set and $\mathbf{T}= (T_i)_{i\in I}$ a family of variables. We have $K(\mathbf{T})\cap L[\mathbf{T}] = K[\mathbf{T}]$.
 
@@ -357,13 +357,13 @@ and that we have
 
 $b_0(a) = 1,b_1(a) =$ Trd$_{A/K}(a),b_n(a) =$ Nrd$_{A/K}(a)$.
 
-#### Proposition 6 {#alg-viii-s17-prop-6 .statement}
+#### Proposition 6 {#alg-viii-s17-prop-6 .statement tag=00KU}
 
 For every integer $r$ such that $0\leqslant r\leqslant n$, the mapping $b_r$ from A to K is a homogeneous polynomial mapping of degree $r$. In particular, the reduced norm is a homogeneous polynomial mapping of degree $n$ from A to K.
 
 Let $(e_i)_{i\in I}$ be a basis of A over K and $\mathbf{T}= (T_i)_{i\in I}$ a family of variables.
 
-#### Lemma 4 {#alg-viii-s17-lem-4 .statement}
+#### Lemma 4 {#alg-viii-s17-lem-4 .statement tag=00KV}
 
 Let $u$ be the element $\sum_{i\in I}T_i\otimes e_i$ of the central simple $K(\mathbf{T})$-algebra $A_{(K(\mathbf{T}))}$. Let P be the reduced characteristic polynomial of $u$. Then P belongs to the ring $K[\mathbf{T}][X]$; viewed as an element of the ring $K[\mathbf{T},X]$, it is homogeneous of degree $n$.
 
@@ -373,7 +373,7 @@ We choose an extension L of K and an L-algebra isomorphism $\theta$ from $A_{(L)
 
 Since the matrices $\theta (1\otimes e_i)$ belong to $\mathbf{M}_n$(L), this formula shows that P is a homogeneous polynomial of degree $n$ in $L[\mathbf{T},X]$. It also belongs to $K(\mathbf{T})[X]$ and can be written as $P(X) =\sum_{j\geqslant 0}c_jX^j$, where each $c_j$ belongs to the intersection $K(\mathbf{T})\cap L[\mathbf{T}]$. By Lemma 3, each of the elements $c_j$ belongs to $K[\mathbf{T}]$; Lemma 4 follows.
 
-#### Lemma 5 {#alg-viii-s17-lem-5 .statement}
+#### Lemma 5 {#alg-viii-s17-lem-5 .statement tag=00KW}
 
 For every extension $K'$ of K and every element $(t_i)_{i\in I}$ of $K'^I$, we have
 
@@ -399,13 +399,13 @@ $$
 
 for every element $(t_i)_{i\in I}$ of $K^I$. Proposition 6 follows.
 
-#### Remark {#alg-viii-s17-n4-rem-1 .statement}
+#### Remark {#alg-viii-s17-n4-rem-1 .statement tag=00KX}
 
 Let $K'$ be a commutative K-algebra. Every element $t$ of $A_{(K')}$ can be written as $\sum_{i\in I}t_i\otimes e_i$, where $(t_i)\in K'^I$. It follows from the proof of Lemma 5 that the characteristic polynomial Pc$_{A_{(K')}/K'}(t; X)$ is equal to $P((t_i),X)^n$.
 
 ### 5. Transitivity of Reduced Norms and Traces
 
-#### Proposition 7 {#alg-viii-s17-prop-7 .statement}
+#### Proposition 7 {#alg-viii-s17-prop-7 .statement tag=00KY}
 
 Let L be a maximal commutative semisimple subalgebra of A and $a$ an element of L. We have (52) Pcrd$_{A/K}(a; X) =$ Pc$_{L/K}(a; X)$, (53) Trd$_{A/K}(a) =$ Tr$_{L/K}(a)$, (54) Nrd$_{A/K}(a) = N_{L/K}(a)$.
 
@@ -415,7 +415,7 @@ Pc$_{A/K}(a; X) =$ Pc$_{L/K}(a; X)^n$.
 
 Since the polynomial Pc$_{L/K}(a; X)$ is monic, it is therefore equal to the reduced characteristic polynomial Pcrd$_{A/K}(a; X)$ (VIII, p. 339, Lemma 2); this gives formula (52). By comparing the coefficients of $X^{n-1}$ (resp. the constant terms) on each side of (52), we obtain formula (53) (resp. (54)).
 
-#### Corollary {#alg-viii-s17-n5-cor-1 .statement}
+#### Corollary {#alg-viii-s17-n5-cor-1 .statement tag=00KZ}
 
 Let D be a field of finite degree over K with center K. Let $a$ be an element of K and L a maximal commutative subfield of D containing $a$. We have
 
@@ -425,13 +425,13 @@ Nrd$_{D/K}(a) = N_{L/K}(a)$.
 
 Indeed, a maximal commutative subfield L of D is a maximal commutative semisimple subalgebra of D by Corollary 2 of VIII, p. 265.
 
-#### Proposition 8 {#alg-viii-s17-prop-8 .statement}
+#### Proposition 8 {#alg-viii-s17-prop-8 .statement tag=00L0}
 
 Let B be a simple subalgebra of A. Denote the center of B by L and the commutant of B in A by $B'$. Then $B'$ is a central simple algebra over the field L; we denote its reduced degree by $r$. For every element $b$ of B, we have the relations
 
 (56) Pcrd$_{A/K}(b; X) = N_{L[X]/K[X]}$(Pcrd$_{B/L}(b; X))^r$, (57) Trd$_{A/K}(b) =r$ Tr$_{L/K}$(Trd$_{B/K}(b))$, (58) Nrd$_{A/K}(b) = N_{L/K}$(Nrd$_{B/L}(b))^r$.
 
-#### Lemma 6 {#alg-viii-s17-lem-6 .statement}
+#### Lemma 6 {#alg-viii-s17-lem-6 .statement tag=00L1}
 
 Let $K'$ be a commutative algebra of finite degree $d$ over K and
 
@@ -499,7 +499,7 @@ We have proved formula (56). Formulas (57) and (58) follow immediately from form
 
 In this subsection, D is a field of finite degree over K with center K. We denote by $D^*_{ab}$ the quotient of the multiplicative group $D^*$ by its derived (or commutator) group and by $\pi$ the canonical homomorphism from $D^*$ to $D^*_{ab}$. The mapping Nrd$_{D/K}$ induces a group homomorphism from $D^*$ to $K^*$; the kernel of this homomorphism contains the derived group of $D^*$ because K is commutative. Hence there exists a unique homomorphism Nrd from $D^*_{ab}$ to $K^*$ such that Nrd$_{D/K}(x) =$ Nrd $\circ \pi (x)$ for every $x\in D^*$.
 
-#### Proposition 9 {#alg-viii-s17-prop-9 .statement}
+#### Proposition 9 {#alg-viii-s17-prop-9 .statement tag=00L2}
 
 Let V be a finite-dimensional right vector space over the field D. Let E be the algebra End$_D(V)$ over the field K; it is central simple and of finite degree. For every invertible element $u$ of E, we have
 
@@ -529,7 +529,7 @@ By comparing formulas (65) and (66), we obtain (67) Pcrd$_{E/K}(u; X) = (X-1)^{n
 
 and, in particular, Nrd$_{E/K}(u) = 1$. We also have det $u= 1$ by Proposition 3 of VIII, p. 453; formula (64) therefore holds in this case.
 
-#### Remark {#alg-viii-s17-n6-rem-1 .statement}
+#### Remark {#alg-viii-s17-n6-rem-1 .statement tag=00L3}
 
 We have Nrd$_{E/K}(u) = 0$ if the element $u$ of E is not invertible (VIII, p. 340, Proposition 3).
 

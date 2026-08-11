@@ -30,7 +30,7 @@ subsections:
       pdf_page: 162
 statements: 28
 exercises: 6
-content_sha256: 7aa98df875a345413afc067e8b734361bd5a9abedf5587663d11ad0f2d48dc62
+content_sha256: da4ff89d2eeac95bcf10bb021e3834690d77800f5226934e1d220ecada5e0c5a
 ---
 
 ## § 8. SEMISIMPLE RINGS
@@ -61,29 +61,29 @@ Let us show that (iii) implies (iv). Suppose that the $(A$, A)-bimodule $_sA_d$ 
 
 Finally, let us prove that (iv) implies (i). Suppose that A is the product of a finite family $(A_i)_{i\in I}$ of simple rings. Denote by $\pi_i$ the projection with index $i$ from A to $A_i$ and by $M_i$ the A-module with underlying additive group $A_i$ and law of action $(a, x)\mapsto \pi_i(a)x$. Since the ring $A_i$ is simple, the $A_i$-module $(A_i)_s$ is semisimple, so the A-module $M_i$ is semisimple. Since the A-module $A_s$ is nothing but the product $\prod_{i\in I}M_i$, it is semisimple.
 
-#### Definition 1 {#alg-viii-s8-def-1 .statement}
+#### Definition 1 {#alg-viii-s8-def-1 .statement tag=0093}
 
 We say that a ring A is semisimple if it has the equivalent properties (i) through (vi) of Theorem 1. An algebra A over a commutative ring $k$ is a semisimple algebra if the ring underlying A is semisimple.
 
-#### Proposition 1 {#alg-viii-s8-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s8-prop-1 .statement tag=0094}
 
 Let A be a semisimple ring. There exists a finite family $(\mathfrak{m}_i)_{i\in I}$ of minimal left ideals of A such that $A_s=\oplus_{i\in I}\mathfrak{m}_i$. If $(\mathfrak{m}_i)_{i\in I}$ is such a family, then every simple A-module is isomorphic to one of the $\mathfrak{m}_i$. The set of classes of simple A-modules is finite.
 
 The first assertion follows from the fact that the A-module $A_s$ is semisimple and finitely generated. Every simple module is isomorphic to a quotient of $A_s$ (VIII, p. 46, Proposition 1). The second assertion then follows from Corollary 3 of VIII, p. 56, and the third assertion is an immediate consequence of the second.
 
-#### Example {#alg-viii-s8-n1-exa-1 .statement}
+#### Example {#alg-viii-s8-n1-exa-1 .statement tag=0095}
 
 Let G be a finite group and K a commutative field. $*$We will see further on (VIII, p. 401, Corollary 1) that the algebra K[G] of the group G over the field K is a semisimple ring if and only if the characteristic exponent of K is prime to the order of $G.*$
 
-#### Remark 1 {#alg-viii-s8-n1-rem-1 .statement}
+#### Remark 1 {#alg-viii-s8-n1-rem-1 .statement tag=0096}
 
 Let K be a commutative field, and let A be a semisimple algebra over K. Then there exist K-algebras $D_1, . . . ,D_s$ that are fields and integers $r_1\geqslant 1, . . . , r_s\geqslant 1$ such that the K-algebra A is isomorphic to the product $\prod^s_{i=1}\mathbf{M}_{r_i}(D_i)$.
 
-#### Remark 2 {#alg-viii-s8-n1-rem-2 .statement}
+#### Remark 2 {#alg-viii-s8-n1-rem-2 .statement tag=0097}
 
 Let K be an algebraically closed field, and let A be an algebra of finite degree over K. By Remark 4 of VIII, p. 122, the algebra A is semisimple if and only if there exist integers $n_1\geqslant 1, . . . , n_r\geqslant 1$ such that A is isomorphic to the algebra $\mathbf{M}_{n_1}(K)\times  \cdots  \times \mathbf{M}_{n_r}(K)$.
 
-#### Proposition 2 {#alg-viii-s8-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s8-prop-2 .statement tag=0098}
 
 a) The center of a semisimple ring is semisimple.
 
@@ -99,7 +99,7 @@ Let $\mathfrak{a}$ be a two-sided ideal of A. The A-module $A_s/\mathfrak{a}$, q
 
 A ring is semisimple if and only if it is isomorphic to the product of a finite family of simple rings; assertion d) follows.
 
-#### Proposition 3 {#alg-viii-s8-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s8-prop-3 .statement tag=0099}
 
 Let A be a commutative ring. The following properties are equivalent:
 
@@ -117,7 +117,7 @@ A commutative algebra of finite degree over a field is an Artinian commutative r
 
 ### 2. Modules over a Semisimple Ring
 
-#### Proposition 4 {#alg-viii-s8-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s8-prop-4 .statement tag=009A}
 
 Let A be a ring. The following properties are equivalent:
 
@@ -147,13 +147,13 @@ The implication (v) $\Rightarrow$ (vi) is immediate.
 
 (vi) $\Rightarrow$ (i): Suppose that every monogenous A-module is projective. Let $\mathfrak{a}$ be a left ideal of A. Since the A-module $A_s/\mathfrak{a}$ is projective, there exists a left ideal $\mathfrak{b}$ of A such that $A_s$ is the direct sum of $\mathfrak{a}$ and $\mathfrak{b}$ (II, §2, No. 2, p. 231, Proposition 4). Consequently, the ring A is semisimple (VIII, p. 135, Theorem 1).
 
-#### Lemma 1 {#alg-viii-s8-lem-1 .statement}
+#### Lemma 1 {#alg-viii-s8-lem-1 .statement tag=009B}
 
 Let A be a left Artinian ring, and let M be a simple A-module. Then the ring $A_M$ is simple.
 
 Since the ring A is left Artinian, the same holds for the ring $A_M$, by Proposition 5 of VIII, p. 7. Now, M is a faithful and simple $A_M$-module, so the ring $A_M$ is simple (VIII, p. 119, Proposition 1).
 
-#### Proposition 5 {#alg-viii-s8-prop-5 .statement}
+#### Proposition 5 {#alg-viii-s8-prop-5 .statement tag=009C}
 
 Suppose that the ring A is semisimple. Let M be a left A-module. The countermodule of M is finitely generated, and we have $A_M= A''_M$.
 
@@ -163,7 +163,7 @@ Now consider the general case. The set $\mathscr{S}$ of classes of simple A-modu
 
 The A-module M is semisimple, and its countermodule is finitely generated. We therefore have $A_M= A''_M$ by Proposition 4 of VIII, p. 83.
 
-#### Proposition 6 {#alg-viii-s8-prop-6 .statement}
+#### Proposition 6 {#alg-viii-s8-prop-6 .statement tag=009D}
 
 Let M be a finitely generated semisimple A-module. Denote its support (VIII, p. 66) by $\mathscr{S}_M$ and its endomorphism ring by B. For every $\lambda \in \mathscr{S}_M$, choose a simple A-module $S_{\lambda}$ of class $\lambda$, and denote the left B-module Hom$_A(S_{\lambda},M)$ by $V_{\lambda}$.
 
@@ -175,7 +175,7 @@ c) For every $\lambda \in \mathscr{S}_M$, the isotypical component of type $\lam
 
 Viewed as a B-module, M is semisimple (VIII, p. 85, Proposition 5) and faithful. Its countermodule is finitely generated because we have $A_M\subset$ End$_B(M)$. Hence, the ring B is semisimple (Proposition 4). If $(x_1, . . . , x_r)$ is a generating sequence of the A-module M, then the mapping $b\mapsto (bx_1, . . . , bx_r)$ from $B_s$ to $M^r$ is B-linear and injective. Every simple B-module is isomorphic to a submodule of $B_s$ (VIII, p. 136, Proposition 1), hence to a B-submodule of M. The proposition then follows immediately from Proposition 5 of VIII, p. 85.
 
-#### Proposition 7 {#alg-viii-s8-prop-7 .statement}
+#### Proposition 7 {#alg-viii-s8-prop-7 .statement tag=009E}
 
 Let A be a semisimple ring.
 
@@ -199,7 +199,7 @@ In this subsection, we consider a semisimple ring A.
 
 We denote the set of classes of simple left A-modules by $\mathscr{S}$ (VIII, p. 51); it is finite (VIII, p. 136, Proposition 1). For every $\lambda \in \mathscr{S}$, we choose a simple A-module $S_{\lambda}$ of class $\lambda$. We denote its annihilator by $\mathfrak{b}_{\lambda}$ and the opposite field of its commutant End$_A(S_{\lambda})$ by $D_{\lambda}$.
 
-#### Proposition 8 {#alg-viii-s8-prop-8 .statement}
+#### Proposition 8 {#alg-viii-s8-prop-8 .statement tag=009F}
 
 a) For every $\lambda \in \mathscr{S},S_{\lambda}$ is a finite-dimensional right vector space over the field $D_{\lambda}$. When passing to the quotient, the mapping $a\mapsto a_{S_{\lambda}}$ defines a ring isomorphism from $A/\mathfrak{b}_{\lambda}$ to End$_{D_{\lambda}}(S_{\lambda})$.
 
@@ -211,7 +211,7 @@ The A-module $A_s$ is semisimple, faithful, and balanced. The homomorphism $\psi
 
 The simple ring $A/\mathfrak{b}_{\lambda}$ is called the simple factor of A of type $\lambda$.
 
-#### Example {#alg-viii-s8-n3-exa-1 .statement}
+#### Example {#alg-viii-s8-n3-exa-1 .statement tag=009G}
 
 Let K be an algebraically closed commutative field, and let A be a semisimple algebra of finite degree over K. Let $(V_i)_{i\in I}$ be a family of simple A-modules such that every simple A-module is isomorphic to a unique $V_i$. Then I is a finite set (VIII, p. 136, Proposition 1), the vector spaces $V_i$ are finite-dimensional over the field K, the commutant of $V_i$ is equal to $K\cdot 1_{V_i}$ (VIII, p. 47, Theorem 1), and the mapping $a\mapsto (a_{V_i})_{i\in I}$ is an algebra isomorphism from A to $\prod_{i\in I}$ End$_K(V_i)$ (Proposition 8).
 
@@ -219,7 +219,7 @@ We have defined (VIII, p. 50) a minimal two-sided ideal as a minimal element of 
 
 For any $\lambda \in \mathscr{S}$, we denote the isotypical component of type $\lambda$ of the A-module $A_s$ by $\mathfrak{a}_{\lambda}$. For any subset Λ of $\mathscr{S}$, we set $\mathfrak{a}_{\Lambda}=\sum_{\lambda\in\Lambda}\mathfrak{a}_{\lambda}$.
 
-#### Proposition 9 {#alg-viii-s8-prop-9 .statement}
+#### Proposition 9 {#alg-viii-s8-prop-9 .statement tag=009H}
 
 a) Order the set $\mathfrak{P}(\mathscr{S})$ of subsets of $\mathscr{S}$ and the set $\mathscr{B}_A$ of two-sided ideals of A by inclusion. The mapping $Λ\mapsto \mathfrak{a}_{\Lambda}$ is an isomorphism of ordered sets from $\mathfrak{P}(\mathscr{S})$ to $\mathscr{B}_A$.
 
@@ -233,7 +233,7 @@ Assertion a) follows from Proposition 8, d) of VIII, p. 87 applied to the A-modu
 
 It remains to show the equality of $\mathfrak{b}_{\lambda}$ and $\mathfrak{c}_{\lambda}$ for every $\lambda \in \mathscr{S}$. Let $\lambda$ and $µ$ be distinct in $\mathscr{S}$. The A-submodule $\mathfrak{a}_µS_{\lambda}$ of $S_{\lambda}$ is the union of the images of the linear mappings $a\mapsto ax$ from $\mathfrak{a}_µ$ to $S_{\lambda}$ for $x\in S_{\lambda}$. Consequently, it is zero, and we have $\mathfrak{a}_µ\subset \mathfrak{b}_{\lambda}$. We therefore have $\mathfrak{c}_{\lambda}\subset \mathfrak{b}_{\lambda}$, and finally $\mathfrak{c}_{\lambda}=\mathfrak{b}_{\lambda}$ because $\mathfrak{c}_{\lambda}$ is a maximal two-sided ideal of A and $\mathfrak{b}_{\lambda}$ is distinct from A.
 
-#### Corollary {#alg-viii-s8-n3-cor-1 .statement}
+#### Corollary {#alg-viii-s8-n3-cor-1 .statement tag=009I}
 
 Let $(A_i)_{i\in I}$ be a finite family of simple rings and $f$ an isomorphism from A to $\prod_{i\in I}A_i$. For every $i\in I$, there exists a unique element $\varphi (i)$ of $\mathscr{S}$ such that the kernel of pr$_i\circ f$ is $\mathfrak{b}_{\varphi(i)}$. The mapping $\varphi$ is a bijection from I to $\mathscr{S}$; the mapping pr$_i\circ f$ induces an isomorphism $f_i$ from $A/\mathfrak{b}_{\varphi(i)}$ to $A_i$ for every $i\in I$.
 
@@ -241,7 +241,7 @@ Thus, $f$ is the composition of the canonical isomorphism from A to $\prod_{\lam
 
 Let us prove the corollary. Let $i\in I$; denote the kernel of pr$_i\circ f$ by $\mathfrak{b}'_i$. Since the simple ring $A_i$ is isomorphic to $A/\mathfrak{b}'_i$, the two-sided ideal $\mathfrak{b}'_i$ of A is maximal. By Proposition 8, c), there consequently exists a unique element $\varphi (i)$ of $\mathscr{S}$ such that we have $\mathfrak{b}'_i=\mathfrak{b}_{\varphi(i)}$. When passing to the quotient, pr$_i\circ f$ defines an isomorphism $f_i$ from $A/\mathfrak{b}_{\varphi(i)}$ to $A_i$. Moreover, we have $\mathfrak{b}'_i+\mathfrak{b}'_j= A$ if $i\not=j$ and $\cap_{i\in I}\mathfrak{b}'_i= 0$ (cf. I, §8, No. 11, p. 110, Proposition 10). It follows from this and Proposition 8 that $\varphi$ is a bijection from I to $\mathscr{S}$.
 
-#### Proposition 10 {#alg-viii-s8-prop-10 .statement}
+#### Proposition 10 {#alg-viii-s8-prop-10 .statement tag=009J}
 
 Denote the center of A by Z. For $\lambda \in \mathscr{S}$, let $Z_{\lambda}$ be the center of the field $D_{\lambda}$.
 
@@ -251,7 +251,7 @@ b) Order the set $\mathscr{I}_Z$ of ideals of Z and the set $\mathscr{B}_A$ of t
 
 This proposition follows from Proposition 8 of VIII, p. 87 applied to the A-module $A_s$, whose bicommutant is A.
 
-#### Corollary {#alg-viii-s8-n3-cor-2 .statement}
+#### Corollary {#alg-viii-s8-n3-cor-2 .statement tag=009K}
 
 Let B be a ring. The following properties are equivalent:
 
@@ -261,7 +261,7 @@ Let B be a ring. The following properties are equivalent:
 
 (iii) The ring B is semisimple, and there exists only one class of B-simple modules.
 
-#### Proposition 11 {#alg-viii-s8-prop-11 .statement}
+#### Proposition 11 {#alg-viii-s8-prop-11 .statement tag=009L}
 
 Let $\lambda \in \mathscr{S}$. The isotypical component $\mathfrak{a}_{\lambda}$ of A is both the isotypical component of $A_s$ of type $S_{\lambda}$ and the isotypical component of $A_d$ of type $S^*_{\lambda}$. Moreover, we have
 
@@ -273,7 +273,7 @@ and
 
 The first assertion is the specific case $M = A_s$ of Proposition 6, c) of VIII, p. 139. The equality $[A_s: S_{\lambda}] = [A_d: S^*_{\lambda}]$ follows from Proposition 7 of VIII, p. 140 because the dual of the left A-module $A_s$ is isomorphic to the right A-module $A_d$. By Propositions 8, a) and 9, c), the mapping $a\mapsto a_{S_{\lambda}}$ defines an isomorphism of left A-modules from $\mathfrak{a}_{\lambda}$ to End$_{D_{\lambda}}(S_{\lambda})$. Since $[A_s: S_{\lambda}]$ is, by definition, the length of the left A-module $\mathfrak{a}_{\lambda}$, the relation $[A_s: S_{\lambda}] =$ dim$_{D_{\lambda}}S_{\lambda}$ follows from Lemma 2 of VIII, p. 121. Finally, relation (2) is obtained from (1) by taking the sum over $\lambda$.
 
-#### Scholium {#alg-viii-s8-n3-sch-1 .statement}
+#### Scholium {#alg-viii-s8-n3-sch-1 .statement tag=009M}
 
 Let A be a semisimple ring and Z its center. There exist canonical bijections between the following sets:
 
@@ -293,7 +293,7 @@ g) The set of maximal ideals of Z.
 
 Thus, to every element $\lambda$ of $\mathscr{S}$ (A), there correspond the class $\lambda^*$ of the simple right A-module $S^*_{\lambda}$, dual of $S_{\lambda}$, the minimal two-sided ideal $\mathfrak{a}_{\lambda}$ of A (isotypical component of $A_s$ of type $\lambda )$, the maximal two-sided ideal $\mathfrak{b}_{\lambda}$ of A (annihilator of the simple module $S_{\lambda})$, the class of the simple Z-module $Z\cap \mathfrak{a}_{\lambda}$, the minimal ideal $Z\cap \mathfrak{a}_{\lambda}$ of Z, and the maximal ideal $Z\cap \mathfrak{b}_{\lambda}$ of Z.
 
-#### Proposition 12 {#alg-viii-s8-prop-12 .statement}
+#### Proposition 12 {#alg-viii-s8-prop-12 .statement tag=009N}
 
 Let M be a module over the semisimple ring A and $\mathscr{S}_M\subset \mathscr{S}$ the support of M. Then the annihilator Ann(M) of M is the two-sided ideal $\sum_{\lambda\in\mathscr{S} \mathscr{S}_M}\mathfrak{a}_{\lambda}$, and the trace ideal $\tau (M)$ of M is the two-sided ideal $\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$. In particular, A is the direct sum of Ann(M) and $\tau (M)$.
 
@@ -307,7 +307,7 @@ $$
 \tau (M) =\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}
 $$
 
-#### Corollary {#alg-viii-s8-n3-cor-3 .statement}
+#### Corollary {#alg-viii-s8-n3-cor-3 .statement tag=009O}
 
 Let M be a module over the semisimple ring A. The following properties are equivalent:
 
@@ -323,7 +323,7 @@ Indeed, saying that M is faithful means that its annihilator is reduced to 0, an
 
 Let A be a ring. Recall that an element $e$ of A is called idempotent (I, §1, No. 4, p. 7) if we have $e^2=e$. It is then also an idempotent element of the opposite ring $A^o$ of A.
 
-#### Proposition 13 {#alg-viii-s8-prop-13 .statement}
+#### Proposition 13 {#alg-viii-s8-prop-13 .statement tag=009P}
 
 a) A left ideal $\mathfrak{a}$ of A admits a supplement in $A_s$ if and only if there exists an idempotent $e$ in A such that $\mathfrak{a}= Ae$. The ideal $\mathfrak{a}$ then consists of the elements $x$ of A such that $x=xe$.
 
@@ -337,11 +337,11 @@ The relation $Ae\subset Af$ is equivalent to $e\in Af$. By a), it is therefore e
 
 If the A-module M is monogenous, there exists a surjective A-linear mapping $u: A_s\rightarrow M$. If, moreover, M is projective, then there exists a submodule $\mathfrak{a}$ of $A_s$ supplementary to the kernel of $u$. Then $u$ induces an isomorphism from $\mathfrak{a}$ to M. Conversely, if M is isomorphic to a direct factor of $A_s$, then it is monogenous and projective. Assertion c) therefore follows from a).
 
-#### Remark 1 {#alg-viii-s8-n4-rem-1 .statement}
+#### Remark 1 {#alg-viii-s8-n4-rem-1 .statement tag=009Q}
 
 Let $\mathfrak{a}$ be a left ideal of A. By the proof above and the corollary of Proposition 12 of II, §1, No. 8, p. 209, the mapping $e\mapsto A(1-e)$ defines a bijection from the set of idempotents $e$ in A such that $\mathfrak{a}= Ae$ to the set of left ideals $\mathfrak{b}$ of A such that $A_s=\mathfrak{a}\oplus \mathfrak{b}$.
 
-#### Remark 2 {#alg-viii-s8-n4-rem-2 .statement}
+#### Remark 2 {#alg-viii-s8-n4-rem-2 .statement tag=009R}
 
 Let $e$ and $f$ be idempotents in A. By Proposition 13, b), we have $Ae= Af$ if and and only if $ef=e$ and $f e=f$. Consequently, if the ring A is commutative, then the relation $Ae= Af$ is equivalent to $e=f$. This does not hold in general, as shown by the example $A =\mathbf{M}_2(\mathbf{Z}),e= (^{1 0}_{0 0})$, and $f= (^{1 0}_{1 0})$.
 
@@ -355,7 +355,7 @@ the element $\sum_{i\in I}e_i$ of A is idempotent.
 
 A partition of an idempotent $e$ in A is a finite family $(e_i)_{i\in I}$ of pairwise orthogonal idempotents in A such that $e=\sum_{i\in I}e_i$. We say that an idempotent $e$ in A is decomposable if there exists a partition of $e$ consisting of pairwise orthogonal idempotents distinct from 0 and $e$; in the opposite case, we say that it is indecomposable. Observe that 0 is a decomposable idempotent.
 
-#### Proposition 14 {#alg-viii-s8-prop-14 .statement}
+#### Proposition 14 {#alg-viii-s8-prop-14 .statement tag=009S}
 
 Let $e$ be an idempotent in A.
 
@@ -395,7 +395,7 @@ $$
 
 The idempotent $e_{\lambda}$ is the component of 1 in $\mathfrak{a}_{\lambda}$, so $e_{\lambda}=\sum_{i\in I(\lambda)}\varepsilon_i$.
 
-#### Proposition 15 {#alg-viii-s8-prop-15 .statement}
+#### Proposition 15 {#alg-viii-s8-prop-15 .statement tag=009T}
 
 Suppose that the ring A is semisimple.
 
@@ -411,7 +411,7 @@ Let $\lambda$ be in $\mathscr{S}$. The two-sided ideal $\mathfrak{a}_{\lambda}$ 
 
 Let us prove c). Let $x$ be an element of M. We have $e_{\lambda}\in \mathfrak{a}_{\lambda}$ for every $\lambda \in \mathscr{S}$. Since the mapping $a\mapsto ax$ from $A_s$ to M is A-linear, we have $\mathfrak{a}_{\lambda}x\subset M_{\lambda}$ (VIII, p. 66, Proposition 5) and, in particular, $e_{\lambda}x\in M_{\lambda}$. We have $1 =\sum_{\lambda\in\mathscr{S}}e_{\lambda}$, hence $x=\sum_{\lambda\in\mathscr{S}}e_{\lambda}x$. Consequently, $e_{\lambda}x$ is the component of $x$ in $M_{\lambda}$.
 
-#### Remark 4 {#alg-viii-s8-n4-rem-4 .statement}
+#### Remark 4 {#alg-viii-s8-n4-rem-4 .statement tag=009U}
 
 Suppose that the ring A is semisimple. Let $(e_i)_{i\in I}$ be a partition of 1 consisting of nonzero idempotents in the center Z of A. If Card(I) = Card($\mathscr{S})$, then the $e_i$ are the indecomposable idempotents in Z.
 

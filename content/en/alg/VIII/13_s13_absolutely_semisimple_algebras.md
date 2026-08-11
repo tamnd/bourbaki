@@ -46,20 +46,20 @@ subsections:
       pdf_page: 260
 statements: 29
 exercises: 12
-content_sha256: 59609a08cb23902202a2dadb3e6bd1e3c45d3049c7e908235b948c99aef72ceb
+content_sha256: 7281d931109fbb83b2ce126cdbce9087c26355392f7a986122f8e14f99d2cd2d
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
 
 ### 1. Absolutely Semisimple Modules
 
-#### Definition 1 {#alg-viii-s13-def-1 .statement}
+#### Definition 1 {#alg-viii-s13-def-1 .statement tag=00F9}
 
 Let K be a commutative field and A a K-algebra. We call an A-module M absolutely semisimple if the $A_{(L)}$-module $M_{(L)}$ is semisimple for every extension L of K.
 
 Every absolutely semisimple module is semisimple. Conversely, if the field K is perfect, then every semisimple A-module that is finite-dimensional over K is absolutely semisimple (VIII, p. 222, Corollary 1, a)) because every extension of a perfect field is separable (V, §7, No. 1, p. 36, Proposition 2).
 
-#### Proposition 1 {#alg-viii-s13-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s13-prop-1 .statement tag=00FA}
 
 Let K be a commutative field and A a K-algebra.
 
@@ -73,7 +73,7 @@ Suppose that the A-module M is absolutely semisimple, and let $L'$ be an extensi
 
 Conversely, suppose that $M_{(L)}$ is absolutely semisimple. Let $L'$ be an extension of K. There exists a composite extension $(Ω, u, v)$ of L and $L'$ (V, §2, No. 4, p. 13, Corollary); we identify L and $L'$ with subextensions of Ω. The $A_{(Ω)}$-module $M_{(Ω)}$ is isomorphic to $(M_{(L)})_{(Ω)}$; it is therefore semisimple. But $M_{(Ω)}$ is also isomorphic to $(M_{(L')})_{(Ω)}$, and Proposition 8, a) of VIII, p. 222 implies that $M_{(L')}$ is semisimple. So M is absolutely semisimple.
 
-#### Proposition 2 {#alg-viii-s13-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s13-prop-2 .statement tag=00FB}
 
 Let K be a commutative field, A a K-algebra, and M an A-module that is finite-dimensional over K. The following properties are equivalent:
 
@@ -89,7 +89,7 @@ Suppose that M is semisimple. Let Z be the center of the commutant of M; it is a
 
 ### 2. Algebras over Separably Closed Fields
 
-#### Lemma 1 {#alg-viii-s13-lem-1 .statement}
+#### Lemma 1 {#alg-viii-s13-lem-1 .statement tag=00FC}
 
 Let D be a field and Z its center. Denote the characteristic exponent of Z by $p$. Suppose that for every element $a$ of D, there exists an integer $m\geqslant 0$ such that $a^{p^m}$ belongs to Z. Then the field D is commutative.
 
@@ -115,13 +115,13 @@ $$
 
 This contradiction implies Lemma 1.
 
-#### Proposition 3 {#alg-viii-s13-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s13-prop-3 .statement tag=00FD}
 
 Let K be a separably closed field (V, §7, No. 8, p. 45, Definition 4), and let D be an algebra of finite degree over K that is a field. Then D is commutative.
 
 Denote the characteristic exponent of K by $p$. Let $a$ be an element of D. The ring $K[a]$ is an algebraic extension of K (V, §3, No. 1, p. 17, Corollary 1). Since the field K is separably closed, it follows from V, §7, No. 7, p. 44, Proposition 13 that the algebra $K[a]$ is a $p$-radical extension of K. Hence there exists an integer $m\geqslant 0$ such that $a^{p^m}$ belongs to K. By Lemma 1, the field D is consequently commutative.
 
-#### Corollary {#alg-viii-s13-n2-cor-1 .statement}
+#### Corollary {#alg-viii-s13-n2-cor-1 .statement tag=00FE}
 
 Let K be a separably closed field and A a semisimple algebra of finite degree over K. Then there exist an integer $r\geqslant 0$, strictly positive integers $n_1, . . . , n_r$, and extensions $K_1, . . . ,K_r$ of K of finite degree such that A is isomorphic to the algebra $\prod_i^r_{=1}\mathbf{M}_{n_i}(K_i)$.
 
@@ -129,13 +129,13 @@ By the structure theorem for semisimple algebras (VIII, p. 135, Theorem 1), A is
 
 ### 3. Absolutely Semisimple Algebras
 
-#### Definition 2 {#alg-viii-s13-def-2 .statement}
+#### Definition 2 {#alg-viii-s13-def-2 .statement tag=00FF}
 
 Let K be a commutative field. We say that a K-algebra A is absolutely semisimple if the ring $A_{(L)}$ is semisimple for every extension L of K.
 
 An absolutely semisimple algebra is semisimple. The K-algebra A is absolutely semisimple if and only if the A-module $A_s$ is absolutely semisimple. By Proposition 1 of VIII, p. 229, we therefore obtain the following result: if L is an extension of K, then the L-algebra $A_{(L)}$ is absolutely semisimple if and only if the K-algebra A is absolutely semisimple.
 
-#### Theorem 1 {#alg-viii-s13-thm-1 .statement}
+#### Theorem 1 {#alg-viii-s13-thm-1 .statement tag=00FG}
 
 Let K be a commutative field and A a K-algebra. The following properties are equivalent:
 
@@ -159,7 +159,7 @@ If property (iv) holds, then it is clear that A is a semisimple algebra and has 
 
 The implications (iii) $\Rightarrow$ (ii) $\Rightarrow$ (i) follow from Proposition 2 of VIII, p. 230 applied to the A-module $A_s$.
 
-#### Lemma 2 {#alg-viii-s13-lem-2 .statement}
+#### Lemma 2 {#alg-viii-s13-lem-2 .statement tag=00FH}
 
 Let L be an algebraically closed field and D a field containing L in its center. If D is distinct from L, then there exists an extension $L'$ of L such that the ring $D\otimes_LL'$ is not left Artinian.
 
@@ -169,7 +169,7 @@ The element $y=x\otimes 1-1\otimes x$ of B is not zero, but if $\varphi$ is the 
 
 Let us now prove that (i) implies (v). This is a consequence of the following lemma.
 
-#### Lemma 3 {#alg-viii-s13-lem-3 .statement}
+#### Lemma 3 {#alg-viii-s13-lem-3 .statement tag=00FI}
 
 Let A be an absolutely semisimple K-algebra and L an algebraically closed extension of K. Then the algebra $A_{(L)}$ is isomorphic to a product of finitely many matrix algebras over L.
 
@@ -183,7 +183,7 @@ By the above, for every $i\in I$ and every extension $L'$ of L, the ring $D_i\ot
 
 We will use the following lemma to prove the implication (i)$\Rightarrow$(vi).
 
-#### Lemma 4 {#alg-viii-s13-lem-4 .statement}
+#### Lemma 4 {#alg-viii-s13-lem-4 .statement tag=00FJ}
 
 Let A and B be algebras over the field K that have finite generating sets, and let $K'$ be an extension of K. If the $K'$-algebras $A_{(K')}$ and $B_{(K')}$ are isomorphic, then there exists a subextension L of $K'$, finitely generated over K, such that the L-algebras $A_{(L)}$ and $B_{(L)}$ are isomorphic.
 
@@ -193,7 +193,7 @@ Let us complete the proof of the implication (i)$\Rightarrow$(vi). Let $K'$ be a
 
 The implication (vi)$\Rightarrow$(v) is immediate.
 
-#### Corollary 1 {#alg-viii-s13-lem-4-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s13-lem-4-cor-1 .statement tag=00FK}
 
 Let K be a commutative field, and let $A_1$ and $A_2$ be K-algebras. Suppose that $A_1$ is absolutely semisimple.
 
@@ -205,19 +205,19 @@ Denote the center of $A_1$ by $Z_1$ and that of $A_2$ by $Z_2$. The center Z of 
 
 Now suppose that $A_2$ is absolutely semisimple. Let L be an extension of K. Then the algebra $A_{1(L)}$ is absolutely semisimple, and the algebra $A_{2(L)}$ is semisimple. Therefore, by a), the algebra $A_1\otimes_KA_{2(L)}$ is semisimple.
 
-#### Corollary 2 {#alg-viii-s13-lem-4-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s13-lem-4-cor-2 .statement tag=00FL}
 
 Let K be a separably closed field, and let A be an absolutely semisimple K-algebra. Then there exist an integer $r\geqslant 0$ and strictly positive integers $n_1, . . . , n_r$ such that the algebra A is isomorphic to the algebra $\prod_i^r_{=1}\mathbf{M}_{n_i}(K)$.
 
 By Theorem 1, A is isomorphic to an algebra of the form $\prod^r_{i=1}\mathbf{M}_{n_i}(D_i)$ for an integer $r\geqslant 0$, integers $n_1, . . . , n_r$, and K-algebras of finite degree $D_1, . . . ,D_r$ that are fields and whose centers are separable extensions of K and therefore equal to K. By Proposition 3 of VIII, p. 231, we have $D_i= K$ for $i\in [1, r]$.
 
-#### Example {#alg-viii-s13-n3-exa-1 .statement}
+#### Example {#alg-viii-s13-n3-exa-1 .statement tag=00FM}
 
 A commutative K-algebra is absolutely semisimple if and only if it is étale: this follows from the definition (V, §6, No. 3, p. 28, Definition 1) and the equivalence of properties (i) and (v) of Theorem 1.
 
 ### 4. Characterization of Absolutely Semisimple Modules
 
-#### Proposition 4 {#alg-viii-s13-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s13-prop-4 .statement tag=00FN}
 
 Let K be a commutative field and A a K-algebra.
 
@@ -251,7 +251,7 @@ for $a, a', x, y$ in A, where the product $ya'$ is calculated in the algebra A.
 
 The K-linear mapping $\varepsilon$ is a homomorphism of $(A$, A)-bimodules.
 
-#### Proposition 5 {#alg-viii-s13-prop-5 .statement}
+#### Proposition 5 {#alg-viii-s13-prop-5 .statement tag=00FO}
 
 The following properties are equivalent:
 
@@ -269,7 +269,7 @@ $$
 
 It is a homomorphism of $(A$, A)-modules, and we have $\varepsilon \circ s= 1_A$; in other words, $s$ is a B-linear section of the surjective mapping $\varepsilon$. Consequently, the B-module A is isomorphic to the direct factor submodule $s(A)$ of $B_s$ (II, §1, No. 9, p. 211, Proposition 15) and is therefore projective (II, §2, No. 2, p. 231, Proposition 4). This proves that (ii) implies (i).
 
-#### Remark 1 {#alg-viii-s13-n5-rem-1 .statement}
+#### Remark 1 {#alg-viii-s13-n5-rem-1 .statement tag=00FP}
 
 Let $e=\sum^r_{i=1}a_i\otimes a'_i$ be an element of B. The conditions in item (ii) of Proposition 5 translate to the formulas
 
@@ -285,7 +285,7 @@ $$
 e^2=\sum_{i=1}^ra_iea'_i=\sum_{i=1}^rea_ia'_i=e
 $$
 
-#### Remark 2 {#alg-viii-s13-n5-rem-2 .statement}
+#### Remark 2 {#alg-viii-s13-n5-rem-2 .statement tag=00FQ}
 
 Let K be a commutative field, let A be a K-algebra, and let M be an A-module. The group End$_K(M)$ is endowed with an $(A$, A)-bimodule structure defined by
 
@@ -317,7 +317,7 @@ Since every module over a semisimple ring is projective (VIII, p. 138, Propositi
 
 The equivalence of (iii) and (iv) follows from Proposition 5. To complete the proof, let us show that (iv) implies (i). Let $e=\sum^r_{i=1}a_i\otimes a'_i$ be an element of B satisfying the conditions in item (ii) of Proposition 5. Let L be an extension of the field K; we must prove that the ring $A_{(L)}$ is semisimple or, equivalently, that every $A_{(L)}$-module is semisimple (VIII, p. 138, Proposition 4). Let M be an $A_{(L)}$-module, and let N be a submodule of M; we view M as a left $(A$, L)-bimodule and N as a sub-bimodule (III, §4, No. 3, p. 466). Since L is a field, there exists an L-linear projector $u$ in M with image N. Since the homotheties $a_M$ associated with the elements $a$ of A are L-linear, there exists a unique group homomorphism from $A\otimes_KA^o$ to End$_L(M)$ that sends an element $a\otimes a'$ to the L-linear mapping $x\mapsto au(a'x)$. We denote the image of $e$ by this homomorphism by $v$; it follows from Remark 2 that $v$ is an $A_{(L)}$-linear projector with image N. The kernel of $v$ is an $A_{(L)}$-submodule of M, supplementary to N. By Corollary 2 of VIII, p. 56, the $A_{(L)}$-module M is semisimple.
 
-#### Remark 3 {#alg-viii-s13-n5-rem-3 .statement}
+#### Remark 3 {#alg-viii-s13-n5-rem-3 .statement tag=00FR}
 
 We know (VIII, p. 234, Corollary 1) that the tensor product of two absolutely semisimple algebras over a commutative field is absolutely semisimple. Consequently, if the algebra A is absolutely semisimple, then so is the algebra $B = A\otimes_KA^o$.
 
@@ -383,7 +383,7 @@ So $H^0(A,P)$ is the K-submodule of P consisting of the elements $p$ such that $
 
 ### 7. Cohomology of Absolutely Semisimple Algebras
 
-#### Proposition 6 {#alg-viii-s13-prop-6 .statement}
+#### Proposition 6 {#alg-viii-s13-prop-6 .statement tag=00FS}
 
 Let K be a commutative ring and A a K-algebra. Let $e=\sum^r_{i=1}a_i\otimes a'_i$ be an element of $B = A\otimes_KA^o$ satisfying the conditions in item (ii) of Proposition 5 of VIII, p. 236. For any integer $n\geqslant 1$ and any element $f$ of $C^n(A,P)$, we denote by $\gamma^n(f)$ the element of $C^{n-1}(A,P)$ defined by the formula
 
@@ -403,7 +403,7 @@ $$
 
 It is a homomorphism of $(A$, A)-bimodules (formula (3)).
 
-#### Lemma 5 {#alg-viii-s13-lem-5 .statement}
+#### Lemma 5 {#alg-viii-s13-lem-5 .statement tag=00FT}
 
 We have the relation (17) $d_{n+1}\circ h_n+h_{n-1}\circ d_n= 1_{B_n}$ for every $n\geqslant 1$.
 
@@ -465,23 +465,23 @@ $$
 
 where the last equality follows from (17). Since $\alpha^n$ is bijective, the proposition follows.
 
-#### Theorem 3 {#alg-viii-s13-thm-3 .statement}
+#### Theorem 3 {#alg-viii-s13-thm-3 .statement tag=00FU}
 
 Let K be a commutative ring, A a K-algebra, and P an $(A,A)$-bimodule. Suppose that the $(A\otimes_KA^o)$-module A is projective. We then have $H^n(A,P) = 0$ for every integer $n\geqslant 1$.
 
 We must prove that for every integer $n\geqslant 1$, every element $f$ of $C^n(A,P)$ with $\partial^n(f) = 0$ is of the form $\partial^{n-1}(g)$ for an element $g$ of $C^{n-1}(A,P)$. By Proposition 5, this is an immediate consequence of Proposition 6.
 
-#### Corollary {#alg-viii-s13-n7-cor-1 .statement}
+#### Corollary {#alg-viii-s13-n7-cor-1 .statement tag=00FV}
 
 Every K-derivation from A to P is inner.
 
 This is a translation of the equality $H^1(A,P) = 0$.
 
-#### Remark 2 {#alg-viii-s13-n7-rem-2 .statement}
+#### Remark 2 {#alg-viii-s13-n7-rem-2 .statement tag=00FW}
 
 The assumptions of Theorem 3 are, in particular, satisfied when K is a field and A an absolutely semisimple K-algebra (VIII, p. 238, Theorem 2).
 
-#### Remark 3 {#alg-viii-s13-n7-rem-3 .statement}
+#### Remark 3 {#alg-viii-s13-n7-rem-3 .statement tag=00FX}
 
 Suppose that the K-module A is projective. Theorem 3 can also be proved as follows. The complex $(\bigoplus_{n\geqslant 0}B_n, d)$ and the homomorphism $\varepsilon : B_0\rightarrow A$ define a projective resolution of the B-module A; therefore, for every $n\geqslant 0$, the K-module $H^n(A,P)$ is isomorphic to Ext$^n_B(A,P)$ (X, §6, n$^o1$, p. 100, théorème 1). If the B-module A is projective, then the K-modules Ext$^n_B(A,P)$ are zero for $n\geqslant 1$ (X, §5, n$^o3$, p. 88, corollaire de la proposition 5), which implies that $H^n(A,P)$ is zero. Conversely, if $H^1(A,P)$ is zero for every $(A$, A)-bimodule P, then the B-module A is projective (X, §5, n$^o5$, p. 93, proposition $10).*$
 
@@ -493,7 +493,7 @@ We denote by Σ the set of K-linear sections $s$ of $\pi$ satisfying $s(\alpha \
 
 By Jacobson’s theorem (loc. cit.), every element of $1 +\mathfrak{r}$ is invertible in A. We call an inner automorphism of A of the form $a\mapsto xax^{-1}$ with $x\in 1 +\mathfrak{r}$ a special automorphism.
 
-#### Proposition 7 {#alg-viii-s13-prop-7 .statement}
+#### Proposition 7 {#alg-viii-s13-prop-7 .statement tag=00FY}
 
 Suppose that the $(A\otimes_KA^o)$-module A is projective.
 
@@ -549,17 +549,17 @@ b) If $\mathfrak{r}$ is nilpotent, then there exists a subalgebra S of A satisfy
 
 This follows from Proposition 7 and Theorem 2 of VIII, p. 238.
 
-#### Corollary 2 {#alg-viii-s13-prop-7-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s13-prop-7-cor-2 .statement tag=00FZ}
 
 Let A be a commutative algebra of finite degree over a perfect field K, and let $\mathfrak{r}$ be its radical. There exists a unique subalgebra S of A such that $A = S\oplus \mathfrak{r}$. Moreover, S is isomorphic to a product of finitely many extensions of K of finite degree.
 
 The K-algebra $A/\mathfrak{r}$ is semisimple (VIII, p. 173, Proposition 1) and has finite degree; it is absolutely semisimple because the field K is perfect (VIII, p. 232, Theorem 1). Since the ideal $\mathfrak{r}$ is nilpotent and A is commutative, the existence and uniqueness of S then follow from Corollary 1. Since S is semisimple and commutative and has finite degree, the last assertion is a consequence of Proposition 3 of VIII, p. 137.
 
-#### Remark 1 {#alg-viii-s13-n8-rem-1 .statement}
+#### Remark 1 {#alg-viii-s13-n8-rem-1 .statement tag=00G0}
 
 The assumption that $A/\mathfrak{r}$ is absolutely semisimple is essential in Corollary 1 (VIII, p. 246, Exercise 4).
 
-#### Remark 2 {#alg-viii-s13-n8-rem-2 .statement}
+#### Remark 2 {#alg-viii-s13-n8-rem-2 .statement tag=00G1}
 
 Suppose that A is an Artinian algebra over the field K. If A is commutative, then we can show (VIII, p. 180, Exercise 9) that A is isomorphic to a product of algebras $A_1\times  \cdots  \times A_n$ such that $A_i/\mathfrak{R}(A_i)$ is a field for every $i$. Conversely, if A is not commutative, then A may not be isomorphic to a product of algebras $A_1\times  \cdots  \times A_n$ such that $A_i/\mathfrak{R}(A_i)$ is a simple ring for every $i$ (VIII, p. 247, Exercise 5).
 

@@ -46,14 +46,14 @@ subsections:
       pdf_page: 88
 statements: 42
 exercises: 8
-content_sha256: 4d68ef7eeb26636f748b10e6679769a5f85cea063f842c2185201ae944e91940
+content_sha256: 76cc6b788d562db4d619f498fd8e97341057d693eda2e62d7affee22d5fd46e3
 ---
 
 ## § 4. SEMISIMPLE MODULES
 
 ### 1. Semisimple Modules
 
-#### Definition 1 {#alg-viii-s4-def-1 .statement}
+#### Definition 1 {#alg-viii-s4-def-1 .statement tag=0040}
 
 A module is called semisimple if it is the direct sum of a family of simple modules.[^1].
 
@@ -61,33 +61,33 @@ A multimodule is called semisimple if it is the direct sum of a family of simple
 
 An A-module M is semisimple if and only if it is semisimple when viewed as a module over its ring of homotheties $A_M$.
 
-#### Example 1 {#alg-viii-s4-n1-exa-1 .statement}
+#### Example 1 {#alg-viii-s4-n1-exa-1 .statement tag=0041}
 
 A module reduced to 0 and a simple module are semisimple modules.
 
-#### Example 2 {#alg-viii-s4-n1-exa-2 .statement}
+#### Example 2 {#alg-viii-s4-n1-exa-2 .statement tag=0042}
 
 If A is a field, then every A-module is semisimple by Theorem 1 of II, §7, No. 1, p. 292. This shows that, in general, a semisimple module decomposes in several ways into a direct sum of simple submodules (see, however, Corollary 2 of VIII, p. 68).
 
-#### Example 3 {#alg-viii-s4-n1-exa-3 .statement}
+#### Example 3 {#alg-viii-s4-n1-exa-3 .statement tag=0043}
 
 Let A be a principal ideal domain, and let P be a system of representatives consisting of irreducible elements of A (VII, §1, No. 3, p. 3). Let M be an A-module, and, for every $\pi \in P$, let $M(\pi )$ be the set of $x\in M$ such that $\pi x= 0$. By VII, §2, No. 2, p. 9, the A-module M is semisimple if and only if it is the sum of the submodules $M(\pi )$; it is then the direct sum of these submodules. This example will be generalized further on (VIII, p. 65).
 
 Let $A_1$ and $A_2$ be algebras over a commutative ring K. In III, §4, No. 3, p. 466, we introduced the notion of left bimodule over the algebras $A_1$ and $A_2$ and showed that this notion is equivalent to that of a left module over the ring $A_1\otimes_KA_2$. We say that M is a simple (resp. semisimple, finitely generated) bimodule if it is a simple (resp. semisimple, finitely generated) module over the ring $A_1\otimes_KA_2$.
 
-#### Theorem 1 {#alg-viii-s4-thm-1 .statement}
+#### Theorem 1 {#alg-viii-s4-thm-1 .statement tag=0044}
 
 Let M be a module that is the (not necessarily direct) sum of a family $(S_i)_{i\in I}$ of simple submodules, and let N be a submodule of M. There exists a subset J of I such that M is the direct sum of the family consisting of N and the modules $S_j$ for $j$ running through J.
 
 Let $\mathscr{S}$ be the set of subsets $I'$ of I such that the sum of the family consisting of the modules N and $S_i$ for $i$ in $I'$ is direct. The set $\mathscr{S}$ is of finite character: a subset J of I belongs to $\mathscr{S}$ if and only if the same holds for every finite subset of J. Hence, the set $\mathscr{S}$ has a maximal element J (Set Theory, III, §4, No. 5, p. 171). Set $N'= N +\sum_{j\in J}S_j$. Let $i$ be in I J. Since J is maximal in $\mathscr{S}$, the set $J\cup  \{i\}$ does not belong to $\mathscr{S}$, so that $S_i\cap N'\not= 0$. Since $S_i$ is a simple module, we have $S_i\cap N'= S_i$. We therefore have $S_i\subset N'$ for every $i\in I$, whence $N'= M$. This completes the proof.
 
-#### Corollary 1 {#alg-viii-s4-thm-1-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s4-thm-1-cor-1 .statement tag=0045}
 
 Every module that is the sum of a family of simple modules is semisimple.
 
 It suffices to apply Theorem 1 to the case N = 0.
 
-#### Corollary 2 {#alg-viii-s4-thm-1-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s4-thm-1-cor-2 .statement tag=0046}
 
 A module M is semisimple if and only if every submodule of M is a direct factor.
 
@@ -97,13 +97,13 @@ Conversely, suppose that every submodule of M admits a supplement. Let $M'$ be t
 
 We therefore have $M'= M$, and the module M is semisimple by Corollary 1.
 
-#### Corollary 3 {#alg-viii-s4-thm-1-cor-3 .statement}
+#### Corollary 3 {#alg-viii-s4-thm-1-cor-3 .statement tag=0047}
 
 Let M be a semisimple module and N a submodule of M. The modules N and $M/N$ are semisimple. More precisely, if M is the direct sum of a family $(S_i)_{i\in I}$ of simple modules, then there exists a subset J of I such that $M/N$ is isomorphic to $\bigoplus_{j\in J}S_j$ and N to $\bigoplus_{i\in I J}S_i$.
 
 Choose J as in Theorem 1. The module $N'=\bigoplus_{j\in J}S_j$ is supplementary to N in M; it is therefore isomorphic to $M/N$. Moreover, the submodules N and $\bigoplus_{i\in I J}S_i$ of M are both supplementary to $N'$ and therefore isomorphic to $M/N'$.
 
-#### Corollary 4 {#alg-viii-s4-thm-1-cor-4 .statement}
+#### Corollary 4 {#alg-viii-s4-thm-1-cor-4 .statement tag=0048}
 
 Let M be a semisimple module. Then M is simple if and only if the endomorphism ring E of M is a field.
 
@@ -111,7 +111,7 @@ If M is simple, then E is a field by the corollary of Proposition 2 of VIII, p. 
 
 If E is a field, then the module M is indecomposable (VIII, p. 31, Proposition 4, a)). Since it is moreover semisimple, it is simple.
 
-#### Remark {#alg-viii-s4-n1-rem-1 .statement}
+#### Remark {#alg-viii-s4-n1-rem-1 .statement tag=0049}
 
 Let K be an algebraically closed commutative field and A a K-algebra. Let M be a semisimple A-module that is a finite-dimensional vector space over the field K. Then M is simple if and only if every endomorphism of the A-module M is of the form $x\mapsto \alpha x$ with $\alpha$ in K: this is necessary by Theorem 1 of VIII, p. 47, and sufficient by Corollary 4 above.
 
@@ -197,7 +197,7 @@ $$
 
 for all $u\in$ Hom$_A(\mathscr{T}(V),M),v\in V$, and $p\in P$.
 
-#### Remark 1 {#alg-viii-s4-n3-rem-1 .statement}
+#### Remark 1 {#alg-viii-s4-n3-rem-1 .statement tag=004A}
 
 Let V and $V'$ be B-modules. The adjunction isomorphism
 
@@ -217,13 +217,13 @@ $$
 
 for all $u\in$ Hom$_B(M,M'),v\in \mathscr{H}$ (M), and $p\in P$.
 
-#### Remark 2 {#alg-viii-s4-n3-rem-2 .statement}
+#### Remark 2 {#alg-viii-s4-n3-rem-2 .statement tag=004B}
 
 Let M be a left A-module. The B-linear mappings $\beta_{\mathscr{H}(M)}:\mathscr{H}(M)\rightarrow \mathscr{H}(\mathscr{T}(\mathscr{H}(M)))$ and $\mathscr{H}(\alpha_M) :\mathscr{H}(\mathscr{T}(\mathscr{H}(M)))\rightarrow \mathscr{H}(M)$ satisfy the relation $\mathscr{H}(\alpha_M)\circ \beta_{\mathscr{H}(M)}= 1_{\mathscr{H}(M)}$. They are not bijective in general.
 
 Let V be a left B-module. The A-linear mappings $\mathscr{T}(\beta_V) :\mathscr{T}(V)\rightarrow \mathscr{T}(\mathscr{H}(\mathscr{T}(V)))$ and $\alpha_{\mathscr{T}(V)}:\mathscr{T}(\mathscr{H}(\mathscr{T}(V)))\rightarrow \mathscr{T}(V)$ satisfy the relation $\alpha_{\mathscr{T}(V)}\circ \mathscr{T}(\beta_V) = 1_{\mathscr{T}(V)}$. They are not bijective in general.
 
-#### Remark 3 {#alg-viii-s4-n3-rem-3 .statement}
+#### Remark 3 {#alg-viii-s4-n3-rem-3 .statement tag=004C}
 
 Suppose that P is finitely generated as an A-module. Let M be the direct sum of a family $(M_i)_{i\in I}$ of A-modules. The A-modules $\mathscr{T}(\mathscr{H}(M))$ and $\bigoplus_i\mathscr{T}(\mathscr{H}(M_i))$ are canonically isomorphic. When we identify them, $\alpha_M$ is identified with $\bigoplus_i\alpha_{M_i}$. Likewise, let V be the direct sum of a family $(V_j)_{j\in J}$ of B-modules. The B-module $\mathscr{H}(\mathscr{T}(V))$ is identified with $\bigoplus_j\mathscr{H}(\mathscr{T}(V_j))$, and the linear mapping $\beta_V$ with $\bigoplus_j\beta_{V_j}$.
 
@@ -231,7 +231,7 @@ Suppose that P is finitely generated as an A-module. Let M be the direct sum of 
 
 Let A be a ring and S a simple left A-module. Let D be the opposite ring of the endomorphism ring of S; it is a field. Endowed with the actions of A and D, S is an $(A$, D)-bimodule.
 
-#### Proposition 1 {#alg-viii-s4-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s4-prop-1 .statement tag=004D}
 
 Let M be an A-module. The following properties are equivalent:
 
@@ -245,23 +245,23 @@ Let M be an A-module. The following properties are equivalent:
 
 The equivalence of (i) and (ii) is immediate, and that of (ii) and (iii) follows from Theorem 1 of VIII, p. 56, applied to the case N = 0. Every left vector space over D is isomorphic to a vector space of the form $D_s^{(I)}$, where I is a set (II, §7, No. 1, p. 292, Theorem 1). Since the tensor product commutes with direct sums, (i) is equivalent to (iv).
 
-#### Definition 2 {#alg-viii-s4-def-2 .statement}
+#### Definition 2 {#alg-viii-s4-def-2 .statement tag=004E}
 
 An A-module M is isotypical of type S if it has the equivalent properties of Proposition 1. The module M is called isotypical if there exists a simple A-module T such that M is isotypical of type T.
 
 Every isotypical module is semisimple.
 
-#### Proposition 2 {#alg-viii-s4-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s4-prop-2 .statement tag=004F}
 
 If a module is the sum of isotypical submodules of type S, then it is isotypical of type S. The submodules and the quotient modules of an isotypical module of type S are isotypical of type S.
 
 The first assertion follows from the definitions, the second from Corollary 3 of VIII, p. 56.
 
-#### Remark {#alg-viii-s4-n4-rem-1 .statement}
+#### Remark {#alg-viii-s4-n4-rem-1 .statement tag=004G}
 
 Every nonzero isotypical module of type S has a quotient module and a submodule isomorphic to S; consequently, if M and $M'$ are nonzero isotypical A-modules of type S, then the group Hom$_A(M,M')$ is not reduced to 0.
 
-#### Proposition 3 {#alg-viii-s4-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s4-prop-3 .statement tag=004H}
 
 a) Let M be an isotypical A-module of type S. The A-linear mapping $\alpha_M: S\otimes_D$Hom$_A(S,M)\rightarrow M$ characterized by $\alpha_M(s\otimes f) =f(s)$ (VIII, p. 59) is bijective.
 
@@ -275,13 +275,13 @@ Likewise, to prove b), it suffices to consider the case $V = D_s$. Since the map
 
 As in the previous subsection, A denotes a ring, S a simple left A-module, and D the field End$_A(S)^o$. We view S as an $(A$, D)-bimodule.
 
-#### Definition 3 {#alg-viii-s4-def-3 .statement}
+#### Definition 3 {#alg-viii-s4-def-3 .statement tag=004I}
 
 Let M be an isotypical A-module of type S. A description of M with respect to S is a pair $(V, \alpha )$, where V is a left vector space over the field D and $\alpha : S\otimes_DV\rightarrow M$ is an isomorphism of A-modules.
 
 Every isotypical A-module M of type S has a canonical description: it is the pair (Hom$_A(S,M), \alpha_M)$, where $\alpha_M: S\otimes_D$ Hom$_A(S,M)\rightarrow M$ is the isomorphism of A-modules characterized by $\alpha_M(s\otimes f) =f(s)$ (VIII, p. 62, Proposition 3, a)).
 
-#### Theorem 2 {#alg-viii-s4-thm-2 .statement}
+#### Theorem 2 {#alg-viii-s4-thm-2 .statement tag=004J}
 
 Let M be an isotypical A-module of type S and $(V, \alpha )$ a description of M. Denote by $\mathscr{D}_D(V)$ the set, ordered by inclusion, of D-linear subspaces of V, and by $\mathscr{D}_A(M)$ that of A-submodules of M. For every $W\in$ $\mathscr{D}_D(V)$, identify the A-module $S\otimes_DW$ with its canonical image in $S\otimes_DV$.
 
@@ -295,13 +295,13 @@ Let N be a submodule of M. It is isotypical of type S (VIII, p. 61, Proposition 
 
 To finish the proof, it suffices to prove that the mapping $\varphi$ is injective. Let W and $W'$ be linear subspaces of V such that $\varphi (W) =\varphi (W')$. The vector spaces $S\otimes_DW$ and $S\otimes_DW'$ coincide when viewed as linear subspaces of $S\otimes_DV$. Choose a nonzero linear form $f$ on the D-vector space S, and let $g: S\otimes_DV\rightarrow V$ be the group homomorphism defined by $g(s\otimes v) =f(s)v$. We have $W =g(S\otimes_DW) =g(S\otimes_DW') = W'$, so $\varphi$ is injective.
 
-#### Remark 1 {#alg-viii-s4-n5-rem-1 .statement}
+#### Remark 1 {#alg-viii-s4-n5-rem-1 .statement tag=004K}
 
 Let M be an isotypical A-module of type S and $(V, \alpha )$ a description of M. Then M has finite length if and only if V is finite-dimensional, and in this case, we have the relation
 
 long$_A(M) =$ dim$_D(V)$.
 
-#### Corollary 1 {#alg-viii-s4-thm-2-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s4-thm-2-cor-1 .statement tag=004L}
 
 Let M be an isotypical A-module of type S. For every A-submodule N of M, identify Hom$_A(S,N)$ with the linear subspace of Hom$_A(S,M)$ consisting of the mappings with image contained in N.
 
@@ -311,13 +311,13 @@ b) The inverse bijection sends a linear subspace W of Hom$_A(S,M)$ to the submod
 
 This is a reformulation of Theorem 2 when we take $(V, \alpha )$ to be the canonical description of M.
 
-#### Corollary 2 {#alg-viii-s4-thm-2-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s4-thm-2-cor-2 .statement tag=004M}
 
 Let V be a left vector space over D and $\mathscr{F}$ a set of endomorphisms of V. An A-submodule of $S\otimes_DV$ is stable under all endomorphisms $1_S\otimes u$, where $u$ runs through $\mathscr{F}$, if and only if it is of the form $S\otimes_DW$, where W is a linear subspace of V that is stable under all endomorphisms belonging to $\mathscr{F}$.
 
 Indeed, by Theorem 2, every A-submodule N of $S\otimes_DV$ is equal to $S\otimes_DW$, where W is the linear subspace of V consisting of the elements $v$ such that $s\otimes v$ belongs to N for every $s\in S$.
 
-#### Theorem 3 {#alg-viii-s4-thm-3 .statement}
+#### Theorem 3 {#alg-viii-s4-thm-3 .statement tag=004N}
 
 Let M and $M'$ be isotypical A-modules of type S. Let $(V, \alpha )$ and $(V', \alpha ')$ be descriptions of M and $M'$, respectively. For any D-linear mapping $f: V\rightarrow V'$, denote by $\widetilde{f}: M\rightarrow M'$ the unique A-linear mapping that makes the following diagram commute:
 
@@ -339,11 +339,11 @@ is bijective. But by Remark 1 of VIII, p. 60, since the adjunction isomorphism (
 
 We keep the notation of Theorem 3. Let $M''$ be an isotypical A-module of type S, and let $(V'', \alpha '')$ be a description of $M''$. For every $f\in$ Hom$_D(V,V')$ and every $g\in$ Hom$_D(V',V'')$, we have $g]\circ f=\widetilde{g}\circ \widetilde{f}$. In particular, for $M = M'$, $V = V'$, and $\alpha =\alpha '$, the mapping $f\mapsto \widetilde{f}$ from End$_D(V)$ to End$_A(M)$ is a ring isomorphism.
 
-#### Remark 2 {#alg-viii-s4-n5-rem-2 .statement}
+#### Remark 2 {#alg-viii-s4-n5-rem-2 .statement tag=004O}
 
 Let M be an isotypical A-module of type S, and let $(V, \alpha )$ be a description of M. Let B be a subring of the ring End$_A(M)^o$. The ring isomorphism from End$_D(V)^o$ to End$_A(M)^o$ endows V with the structure of a $(D$, B)-bimodule, so that $\alpha$ is an isomorphism of $(A$, B)-bimodules. There exists an isomorphism from the set of $(D$, B)-sub-bimodules of V, ordered by inclusion, to the set of $(A$, B)-sub-bimodules of M (VIII, p. 62, Theorem 2 and VIII, p. 63, Corollary 2).
 
-#### Corollary {#alg-viii-s4-n5-cor-1 .statement}
+#### Corollary {#alg-viii-s4-n5-cor-1 .statement tag=004P}
 
 Let M and $M'$ be isotypical A-modules of type S. The mapping $u\mapsto$ Hom(1$_S, u)$ from Hom$_A(M,M')$ to Hom$_D$(Hom$_A(S,M)$, Hom$_A(S,M'))$ is a group isomorphism. When M is equal to $M'$, it is a ring isomorphism from End$_A(M)$ to End$_D$(Hom$_A(S,M))$.
 
@@ -351,7 +351,7 @@ Because of the commutativity of diagram (I) of VIII, p. 59, this corollary follo
 
 ### 6. Isotypical Components of a Module
 
-#### Definition 4 {#alg-viii-s4-def-4 .statement}
+#### Definition 4 {#alg-viii-s4-def-4 .statement tag=004Q}
 
 Let A be a ring, M an A-module, and S a simple A-module. The isotypical component of type S of M, denoted by $M_S$, is the sum of the submodules of M isomorphic to S.
 
@@ -361,7 +361,7 @@ If $S'$ is a simple A-module isomorphic to S, then we clearly have $M_S=$ $M_{S'
 
 Let M be an A-module. There exists a greatest semisimple submodule of M, called the socle of M; it is the sum of the simple submodules of M and also the sum of the isotypical components of M. In particular, M is semisimple if and only if it is equal to its socle.
 
-#### Proposition 4 {#alg-viii-s4-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s4-prop-4 .statement tag=004R}
 
 Let A be a ring. Denote the set of classes of simple A-modules by $\mathscr{S}$. Let M be a semisimple A-module.
 
@@ -383,7 +383,7 @@ Let N be a submodule of M and $\lambda \in \mathscr{S}$. The isotypical componen
 
 For every $\lambda \in \mathscr{S}$, the module $M_{\lambda}+N/N$ is isomorphic to $M_{\lambda}/(M_{\lambda}\cap N)$. It is therefore isotypical of type $\lambda$ and contained in $(M/N)_{\lambda}$. The last assertion then follows from a) and II, §1, No. 8, p. 208, Remark 1.
 
-#### Corollary {#alg-viii-s4-n6-cor-1 .statement}
+#### Corollary {#alg-viii-s4-n6-cor-1 .statement tag=004S}
 
 Let A be a ring and $\mathscr{S}$ the set of classes of simple A-modules. Let M be a semisimple A-module and N a submodule of M. Then we have $N =\bigoplus_{\lambda\in\mathscr{S}}N\cap M_{\lambda}$ and $M/N =\bigoplus_{\lambda\in\mathscr{S}}(M_{\lambda}+ N)/N$.
 
@@ -391,7 +391,7 @@ Since N and $M/N$ are semisimple (VIII, p. 56, Corollary 3), the corollary follo
 
 The support of a semisimple A-module M is the set of classes $\lambda$ of simple A-modules such that the isotypical component of M of type $\lambda$ is nonzero. The support of a finitely generated semisimple A-module is finite.
 
-#### Proposition 5 {#alg-viii-s4-prop-5 .statement}
+#### Proposition 5 {#alg-viii-s4-prop-5 .statement tag=004T}
 
 Let A be a ring, and let $\mathscr{S}$ be the set of classes of simple A-modules. Let M and N be A-modules.
 
@@ -411,17 +411,17 @@ $$
 
 for every $(x_{\lambda})_{\lambda\in\mathscr{S}}\in \bigoplus_{\lambda}M_{\lambda}$.
 
-#### Remark {#alg-viii-s4-n6-rem-1 .statement}
+#### Remark {#alg-viii-s4-n6-rem-1 .statement tag=004U}
 
 Let A and B be rings. Let M be an $(A$, B)-bimodule. It follows from Proposition 5 that the isotypical components of the A-module M are sub-bimodules of M. This holds, in particular, when M is an A-module and B is the opposite ring of End$_A(M)$.
 
-#### Example {#alg-viii-s4-n6-exa-1 .statement}
+#### Example {#alg-viii-s4-n6-exa-1 .statement tag=004V}
 
 Let us consider the case when the ring A is commutative. The mapping that sends a maximal ideal $\mathfrak{m}$ onto cl(A$/\mathfrak{m})$ is a bijection from the set of maximal ideals of A to the set $\mathscr{S}$ of classes of simple A-modules (VIII, p. 51). The inverse bijection sends $\lambda$ to its annihilator $\mathfrak{m}_{\lambda}$.
 
 Let M be an A-module. For every $\lambda \in \mathscr{S}$, the isotypical component $M_{\lambda}$ of type $\lambda$ of M consists of the elements annihilated by $\mathfrak{m}_{\lambda}$, and we can view $M_{\lambda}$ as a vector space over the field $A/\mathfrak{m}_{\lambda}$. If M is semisimple and N is another A-module, then we can deduce a group isomorphism from Hom$_A(M,N)$ to $\prod_{\lambda\in\mathscr{S}}$ Hom$_{A/\mathfrak{m}_{\lambda}}(M_{\lambda},N_{\lambda})$ from Proposition 5.
 
-#### Corollary 1 {#alg-viii-s4-prop-5-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s4-prop-5-cor-1 .statement tag=004W}
 
 Let M be a semisimple A-module and N a submodule of M. The following properties are equivalent:
 
@@ -445,7 +445,7 @@ Conversely, if condition (ii) is satisfied, then $M_{\lambda}$ is zero or simple
 
 Let M be an A-module and S a simple A-module. Denote the opposite ring of the field End$_A(S)$ by D, and view S as an $(A$, D)-bimodule. Then Hom$_A(S,M)$ is a left vector space over D, and Hom$_A(M,S)$ is a right vector space over D. The dual of the left D-vector space Hom$_A(S,M)$ is a right vector space over D (II, §2, No. 3, p. 232, Definition 2). For every $u\in$ Hom$_A(M,S)$, the mapping $h(u) :v\mapsto u\circ v$ from Hom$_A(S,M)$ to Hom$_A(S,S) = D$ is a linear form on the left D-vector space Hom$_A(S,M)$.
 
-#### Proposition 6 {#alg-viii-s4-prop-6 .statement}
+#### Proposition 6 {#alg-viii-s4-prop-6 .statement tag=004X}
 
 Keep the notation above, and suppose that the A-module M is semisimple. The mapping $u\mapsto h(u)$ from the right D-vector space Hom$_A(M,S)$ to the dual of the left D-vector space Hom$_A(S,M)$ is D-linear and bijective.
 
@@ -473,19 +473,19 @@ $$
 
 for $\lambda \in \mathscr{S},s\in S_{\lambda}$, and $f\in$ Hom$_A(S_{\lambda},M)$. If we endow $\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}$ Hom$_A(S_{\lambda},M))$ and M with their natural structures of End$_A$(M)-modules, then the mapping $\alpha_M$ is End$_A$(M)-linear.
 
-#### Proposition 7 {#alg-viii-s4-prop-7 .statement}
+#### Proposition 7 {#alg-viii-s4-prop-7 .statement tag=004Y}
 
 Let M be an A-module. The canonical mapping $\alpha_M$ is injective. For every $\lambda \in \mathscr{S}$, the image under $\alpha_M$ of $S_{\lambda}\otimes_{D_{\lambda}}$ Hom$_A(S_{\lambda},M)$ is the isotypical component of M of type $\lambda$. The image of $\alpha_M$ is the socle of M. The A-module M is semisimple if and only if the mapping $\alpha_M$ is bijective.
 
 Let $\lambda \in \mathscr{S}$. Denote the isotypical component of M of type $\lambda$ by $M_{\lambda}$. Every A-linear mapping from $S_{\lambda}$ to M takes its values in $M_{\lambda}$ (VIII, p. 66, Proposition 5). Consequently, by Proposition 3, a) of VIII, p. 62, the mapping $\alpha_M$ induces a bijection from $S_{\lambda}\otimes_{D_{\lambda}}$ Hom$_A(S_{\lambda},M)$ to $M_{\lambda}$. The proposition follows because the socle of M is the direct sum of the family $(M_{\lambda})_{\lambda\in\mathscr{S}}$ and the module M is semisimple if and only if it is equal to its socle.
 
-#### Definition 5 {#alg-viii-s4-def-5 .statement}
+#### Definition 5 {#alg-viii-s4-def-5 .statement tag=004Z}
 
 Let M be a semisimple A-module. A description of M (with respect to the family $(S_{\lambda})_{\lambda\in\mathscr{S}})$ is a pair $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$, where $V_{\lambda}$ is a left vector space over the field $D_{\lambda}$ for each $\lambda \in \mathscr{S}$ and $\alpha :\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})\rightarrow M$ is an isomorphism of A-modules.
 
 By Proposition 7, every semisimple A-module M has a canonical description: it is the pair ((Hom$_A(S_{\lambda},M))_{\lambda\in\mathscr{S}}, \alpha_M)$, where $\alpha_M$ is the A-linear mapping defined by formula (10).
 
-#### Proposition 8 {#alg-viii-s4-prop-8 .statement}
+#### Proposition 8 {#alg-viii-s4-prop-8 .statement tag=0050}
 
 Let M be a semisimple A-module and $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$ a description of M.
 
@@ -507,7 +507,7 @@ where the last equality follows from VIII, p. 60. Hence, $\beta_{\lambda}$ is th
 
 Let N be a submodule of M. We have $N =\bigoplus_{\lambda\in\mathscr{S}}(N\cap M_{\lambda})$ (VIII, p. 66, Corollary), so c) follows from Theorem 2 of VIII, p. 62.
 
-#### Corollary {#alg-viii-s4-n7-cor-1 .statement}
+#### Corollary {#alg-viii-s4-n7-cor-1 .statement tag=0051}
 
 Let M be a semisimple A-module. For every submodule N of M and every element $\lambda$ of $\mathscr{S}$, identify Hom$_A(S_{\lambda},N)$ with the $D_{\lambda}$-linear subspace of Hom$_A(S_{\lambda},M)$ consisting of the mappings with image contained in N.
 
@@ -517,7 +517,7 @@ b) The inverse bijection sends a family $(W_{\lambda})_{\lambda\in\mathscr{S}}$ 
 
 This is a reformulation of Proposition 8, c) applied to the canonical description of M.
 
-#### Proposition 9 {#alg-viii-s4-prop-9 .statement}
+#### Proposition 9 {#alg-viii-s4-prop-9 .statement tag=0052}
 
 Let M and $M'$ be semisimple A-modules, and consider descriptions $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$ and $((V'_{\lambda})_{\lambda\in\mathscr{S}}, \alpha ')$ of M and $M'$, respectively. For every family $\boldsymbol{f}= (f_{\lambda})_{\lambda\in\mathscr{S}}$ in $\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V_{\lambda}')$, there exists a unique A-linear mapping $\varphi (\boldsymbol{f})\in$ Hom$_A(M,M')$ for which the following diagram commutes:
 
@@ -545,7 +545,7 @@ and $\alpha =\alpha '$, the mapping $\varphi$ is a ring isomorphism from $\prod_
 
 In view of the description of the isotypical components of M and $M'$ given in Proposition 8, a), this follows from Theorem 3 of VIII, p. 64 and Proposition 5, b) of VIII, p. 66.
 
-#### Corollary {#alg-viii-s4-n7-cor-2 .statement}
+#### Corollary {#alg-viii-s4-n7-cor-2 .statement tag=0053}
 
 Let M be a semisimple A-module and $M'$ an A-module. The mapping $u\mapsto$ (Hom(1$_{S_{\lambda}}, u))_{\lambda\in\mathscr{S}}$ from Hom$_A(M,M')$ to
 
@@ -557,7 +557,7 @@ This is a reformulation of Proposition 9 applied to the canonical descriptions o
 
 ### 8. Multiplicities and Lengths in Semisimple Modules
 
-#### Proposition 10 {#alg-viii-s4-prop-10 .statement}
+#### Proposition 10 {#alg-viii-s4-prop-10 .statement tag=0054}
 
 Let M be a semisimple A-module. Let $(M_i)_{i\in I}$ be a family of simple submodules with direct sum M. The following properties are equivalent:
 
@@ -573,7 +573,7 @@ Let M be a semisimple A-module. Let $(M_i)_{i\in I}$ be a family of simple submo
 
 If the set I is finite, then M has properties (i), (ii), (iii), and (iv). Suppose that the set I is infinite. By Example 2 of VIII, p. 2, the module M is neither Artinian nor Noetherian; because every module of finite length is Artinian and Noetherian (VIII, p. 2, Proposition 1), M also does not have finite length. Finally, every element of M belongs to the sum of a finite number of submodules $M_i$, so M is not finitely generated. This proves the equivalence of properties (i) through (v). If these hold, then we have long(M) $=\sum_{i\in I}$ long(M$_i) =$ Card(I) (II, §1, No. 10, p. 213, Corollary 5).
 
-#### Proposition 11 {#alg-viii-s4-prop-11 .statement}
+#### Proposition 11 {#alg-viii-s4-prop-11 .statement tag=0055}
 
 Let M be a semisimple A-module that is the direct sum of a family $(M_i)_{i\in I}$ of simple submodules. For every $\lambda \in \mathscr{S}$, we denote by $I(\lambda )$ the set of indices $i\in I$ such that $M_i$ is of class $\lambda$. The cardinal of $I(\lambda )$ is equal to the dimension of the left $D_{\lambda}$-vector space Hom$_A(S_{\lambda},M)$.
 

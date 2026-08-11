@@ -42,7 +42,7 @@ subsections:
       pdf_page: 239
 statements: 22
 exercises: 17
-content_sha256: 85fcd0511e662f30689a5d51efb6c15cae0e654047cef9f5e20be21355216ee6
+content_sha256: 97cef2717c03010166faabcbba65b348fbdf20e24464a0c7402a9c4d6bf65a86
 ---
 
 ## § 12. TENSOR PRODUCTS OF SEMISIMPLE MODULES
@@ -53,7 +53,7 @@ In this section, the letter K denotes a commutative field. If E and F are vector
 
 In this subsection, we consider K-algebras $A_1$ and $A_2$; we denote the algebra $A_1\otimes A_2$ by A.
 
-#### Proposition 1 {#alg-viii-s12-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s12-prop-1 .statement tag=00E6}
 
 Let $M_1$ be an $A_1$-module and $M_2$ an $A_2$-module, neither reduced to 0. If the module $M = M_1\otimes M_2$ over the ring $A = A_1\otimes A_2$ is simple (resp. isotypical, semisimple), then the $A_1$-module $M_1$ and the $A_2$-module $M_2$ are simple (resp. isotypical, semisimple).
 
@@ -63,7 +63,7 @@ Suppose that M is simple and that $M_1$ is the direct sum of two $A_1$-submodule
 
 Now suppose that M is an isotypical A-module. Let S and T be simple $A_1$-submodules of $M_1$. The A-modules $S\otimes M_2$ and $T\otimes M_2$ can then be identified with nonzero submodules of M. They are therefore isotypical of the same type as M. By Remark VIII, p. 61, there exists a nonzero A-linear mapping $f: S\otimes M_2\rightarrow T\otimes M_2$. The mapping $f$ is, in particular, $A_1$-linear. Since the $A_1$-modules $S\otimes M_2$ and $T\otimes M_2$ are nonzero and isotypical of type S and T, respectively, S and T are isomorphic. This proves that $M_1$ is an isotypical $A_1$-module.
 
-#### Proposition 2 {#alg-viii-s12-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s12-prop-2 .statement tag=00E7}
 
 Let S be a simple module over the ring $A = A_1\otimes A_2$, finite-dimensional over K. For $i\in  \{1,2\}$, there exists a simple $A_i$-module $S_i$ such that the $A_i$-module S is isotypical of type $S_i$. The A-module S is isomorphic to a quotient of the A-module $S_1\otimes S_2$.
 
@@ -77,7 +77,7 @@ for every $s_1\in S_1$ and $s_2\in S_2$. Since S is a simple A-module and $\psi$
 
 For any K-algebra B, we denote by $\mathscr{S}_K(B)$ the set of classes of simple (VIII, p. 51) left B-modules that are finite-dimensional over K.
 
-#### Theorem 1 {#alg-viii-s12-thm-1 .statement}
+#### Theorem 1 {#alg-viii-s12-thm-1 .statement tag=00E8}
 
 Suppose that the field K is algebraically closed.
 
@@ -89,11 +89,11 @@ To prove part a), it suffices to consider the case when $M_1$ and $M_2$ are simp
 
 If S is a simple module over $A_1\otimes A_2$ that is finite-dimensional over K, then it follows from Proposition 2 and part a) that S is isomorphic to a module of the form $S_1\otimes S_2$, where $S_1$ (resp. $S_2)$ is a simple $A_1$-module (resp. $A_2$-module). Moreover, as an $A_i$-module, S is isotypical of type $S_i$, so the class of $S_i$ only depends on that of S. This proves part b).
 
-#### Remark 1 {#alg-viii-s12-n1-rem-1 .statement}
+#### Remark 1 {#alg-viii-s12-n1-rem-1 .statement tag=00E9}
 
 Assertion a) of Theorem 1 is no longer true when the field K is not assumed algebraically closed. We can give examples (VIII, p. 225, Exercise 4) where $M_i$ is a simple $A_i$-module that is finite-dimensional over K, for $i\in  \{1,2\}$, and where the A-module $M_1\otimes M_2$ is not semisimple or is semisimple but not simple.
 
-#### Remark 2 {#alg-viii-s12-n1-rem-2 .statement}
+#### Remark 2 {#alg-viii-s12-n1-rem-2 .statement tag=00EA}
 
 There exists a homomorphism $\varphi$ from $R_K(A_1)\otimes_{\mathbf{Z}}R_K(A_2)$ to $R_K(A)$ characterized by the relation $\varphi ([M_1]\otimes [M_2]) = [M_1\otimes M_2]$. This can be proved in the same way as Proposition 9 of VIII, p. 196. If the field K is algebraically closed, then $\varphi$ is an isomorphism from $R_K(A_1)\otimes_ZR_K(A_2)$ to $R_K(A)$ by Theorem 1, b) because for every K-algebra B, the $\mathbf{Z}$-module $R_K(B)$ is free with basis the family $([S])_{S\in\mathscr{S}_K(B)}$ (VIII, p. 195).
 
@@ -113,7 +113,7 @@ $\varphi :$ Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)\longrightarrow$ Hom$
 
 The mapping $\lambda$ is injective (II, §7, No. 7, p. 308, Proposition 16) and sends the linear subspace Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)$ to Hom$_A(M,N)$. It therefore suffices to prove that every A-linear mapping from M to N belongs to the image of Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)$ by $\lambda$. Let $u: M\rightarrow N$ be an A-linear mapping. Let $x\in M_1$. Denote by $u_x$ the $A_2$-linear mapping $y\mapsto u(x\otimes y)$ from $M_2$ to $N_1\otimes N_2$. Set P = Hom$_{A_2}(M_2,N_2)$, and denote by $\nu$ the canonical homomorphism from $N_1\otimes P$ to Hom$_{A_2}(M_2,N_1\otimes N_2)$ (II, §4, No. 2, p. 269). This mapping is injective (II, §4, No. 2, p. 269, Proposition 2, (i) applied to the K-vector space $N_1)$. By assumption (ii), there exists a linear subspace $V_x$ of $N_1$, finite-dimensional over K, such that $u_x$ takes on values in $V_x\otimes N_2$. It follows that $u_x$ is the image by $\nu$ of a unique element $v_x$ of $N_1\otimes P$. The mapping $\widetilde{u}:x\mapsto v_x$ from $M_1$ to $N_1\otimes P$ is $A_1$-linear. By assumption (i), the $A_1$-module $M_1$ is finitely generated. A reasoning analogous to the above shows that $\widetilde{u}$ belongs to the image of Hom$_{A_1}(M_1,N_1)\otimes P$ in Hom$_{A_1}(M_1,N_1\otimes P)$. Lemma 1 follows.
 
-#### Theorem 2 {#alg-viii-s12-thm-2 .statement}
+#### Theorem 2 {#alg-viii-s12-thm-2 .statement tag=00EB}
 
 Let $A_1$ and $A_2$ be algebras over the commutative field K; let $S_1$ be a simple $A_1$-module and $S_2$ a simple $A_2$-module. Let $D_1$ and $D_2$ be the respective commutants of $S_1$ and $S_2$. Set $M = S_1\otimes S_2,A = A_1\otimes A_2$, and $D = D_1\otimes D_2$. We view M as a left $(A,D)$-bimodule.
 
@@ -131,13 +131,13 @@ The isomorphism $u$ from $T = S_1\otimes (D_2)_d$ to $((D_1)_d\otimes (D_2)_d)\o
 
 We have just proved that the mapping $\mathfrak{a}\mapsto \mathfrak{a}M$ is bijective; the last assertion follows.
 
-#### Corollary 1 {#alg-viii-s12-thm-2-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s12-thm-2-cor-1 .statement tag=00EC}
 
 The module $S_1\otimes S_2$ over the ring $A_1\otimes A_2$ is semisimple (resp. isotypical, simple) if and only if the ring $D = D_1\otimes D_2$ is semisimple (resp. simple, a field). In particular, $S_1\otimes S_2$ is simple if the commutant of $S_1$ or $S_2$ is equal to K.
 
 By Theorem 2, the module $S_1\otimes S_2$ over the ring $D_1\otimes D_2$ is semisimple (resp. isotypical, simple) if and only if the right D-module $(D_1\otimes D_2)_d$ is (VIII, p. 109, Proposition 10). Now the right D-module $D_d$ is simple if and and only if D is a field; it is isotypical (resp. semisimple) if and only if the ring D is simple (resp. semisimple) (VIII, p. 120, Definition 1; VIII, p. 121, Corollary 1; and VIII, p. 137, Proposition 2).
 
-#### Corollary 2 {#alg-viii-s12-thm-2-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s12-thm-2-cor-2 .statement tag=00ED}
 
 We have $\mathfrak{R}_A(M) =\mathfrak{R}(D)M$. The A-module M is without radical if and only if the ring D is without radical.
 
@@ -145,7 +145,7 @@ This follows from Proposition 8 of VIII, p. 108 and Theorem 2, b).
 
 ### 3. Tensor Products of Semisimple Commutative Algebras
 
-#### Theorem 3 {#alg-viii-s12-thm-3 .statement}
+#### Theorem 3 {#alg-viii-s12-thm-3 .statement tag=00EE}
 
 Let $Z_1$ and $Z_2$ be semisimple commutative algebras over K. The radical of the ring $Z_1\otimes Z_2$ is equal to the set of its nilpotent elements.
 
@@ -173,7 +173,7 @@ Now consider the general case. Since a semisimple commutative K-algebra is the p
 
 Let $A_1$ and $A_2$ be K-algebras, and let $A = A_1\otimes A_2$.
 
-#### Proposition 3 {#alg-viii-s12-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s12-prop-3 .statement tag=00EF}
 
 Suppose that the algebras $A_1$ and $A_2$ are semisimple, with respective centers $Z_1$ and $Z_2$. Set $Z = Z_1\otimes Z_2$.
 
@@ -199,7 +199,7 @@ Let us prove assertion b). The intersection of the maximal two-sided ideals of A
 
 The tensor product of a separable commutative algebra and a reduced commutative algebra is a reduced ring (V, §15, No. 2, p. 120, Proposition 5). The algebras $Z_1$ and $Z_2$ are commutative and semisimple, hence reduced. If one of the algebras $Z_1$ and $Z_2$ is separable, then the algebra Z is reduced; it is therefore without radical by Theorem 3 of VIII, p. 215, and we have $\mathfrak{R}(A) =\mathfrak{R}(Z)A = 0$. This is, in particular, the case when the field K is perfect because every reduced commutative algebra over a perfect field is separable (V, §15, No. 5, p. 125, Theorem 3).
 
-#### Corollary {#alg-viii-s12-n4-cor-1 .statement}
+#### Corollary {#alg-viii-s12-n4-cor-1 .statement tag=00EG}
 
 Suppose that the algebras $A_1$ and $A_2$ are simple and that the center $Z_1$ of $A_1$ is reduced to K. Then the ring $A_1\otimes A_2$ has no other two-sided ideals than 0 and itself.
 
@@ -207,7 +207,7 @@ By assumption, we have $Z_1= K$, and since $A_2$ is simple, its center $Z_2$ is 
 
 ### 5. Tensor Products of Semisimple Modules
 
-#### Proposition 4 {#alg-viii-s12-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s12-prop-4 .statement tag=00EH}
 
 For $i\in  \{1,2\}$, let $A_i$ be a K-algebra, $M_i$ a semisimple $A_i$-module, and $Z_i$ the center of the commutant of $M_i$. Set $A = A_1\otimes A_2$, $M = M_1\otimes M_2$, and $Z = Z_1\otimes Z_2$. We have $\mathfrak{R}_A(M) =\mathfrak{R}(Z)M$. If one of the algebras $Z_1$ and $Z_2$ is separable over K, in particular if the field K is perfect, then the A-module M is without radical.
 
@@ -217,7 +217,7 @@ Now consider the general case. For $i\in  \{1,2\}$, denote the support of the $A
 
 Set $M_{\lambda ,µ}= M_{1;\lambda}\otimes M_{2;µ}$; this is a submodule of M that is stable under Z. For $z\in Z$ and $m\in M_{\lambda ,µ}$, we have $zm=\pi_{\lambda ,µ}(z)m$. Consequently, $\mathfrak{R}(Z)M_{\lambda ,µ}$ is equal to $\mathfrak{R}(Z_{\lambda ,µ})M_{\lambda ,µ}$ and therefore to $\mathfrak{R}_A(M_{\lambda ,µ})$ by the isotypical case. Since the radical of a direct sum is the direct sum of the radicals (VIII, p. 152, Corollary 2) and M is the direct sum of the submodules $M_{\lambda ,µ}$ for $(\lambda , µ)\in \mathscr{S}_{M_1}\times \mathscr{S}_{M_2}$, the equality $\mathfrak{R}_A(M) =\mathfrak{R}(Z)M$ is proved. The last assertion then follows from Proposition 3 of VIII, p. 217.
 
-#### Lemma 2 {#alg-viii-s12-lem-2 .statement}
+#### Lemma 2 {#alg-viii-s12-lem-2 .statement tag=00EI}
 
 Let $A_1$ and $A_2$ be algebras over the commutative field K. Let $M_1$ be an $A_1$-module that is finite-dimensional over K and $M_2$ a $A_2$-module of finite length. Then the $A_1\otimes A_2$-module $M_1\otimes M_2$ has finite length.
 
@@ -249,7 +249,7 @@ Suppose that the ring Z is reduced. We then have $\mathfrak{R}(Z) = 0$ (VIII, p.
 
 An A-module is isotypical and nonzero if and only if it is semisimple and the center of its commutant is a field (VIII, p. 87, Proposition 8, b)). So c) follows from b).
 
-#### Corollary {#alg-viii-s12-n5-cor-1 .statement}
+#### Corollary {#alg-viii-s12-n5-cor-1 .statement tag=00EJ}
 
 If $Z_1$ or $Z_2$ is a separable algebra over the field K (which is, for example, the case when K is perfect), then the A-module $M_1\otimes M_2$ is semisimple.
 
@@ -257,19 +257,19 @@ The rings $Z_1$ and $Z_2$ are isomorphic to products of fields and are therefore
 
 ### 6. Tensor Products of Semisimple Algebras
 
-#### Proposition 6 {#alg-viii-s12-prop-6 .statement}
+#### Proposition 6 {#alg-viii-s12-prop-6 .statement tag=00EK}
 
 Let $A_1$ and $A_2$ be nonzero K-algebras. If the ring $A_1\otimes A_2$ is simple (resp. semisimple), then the rings $A_1$ and $A_2$ are simple (resp. semisimple).
 
 A ring B is semisimple (resp. simple) if and only if the B-module $B_s$ is semisimple (resp. isotypical and nonzero). The proposition therefore follows from Proposition 1 (VIII, p. 211).
 
-#### Proposition 7 {#alg-viii-s12-prop-7 .statement}
+#### Proposition 7 {#alg-viii-s12-prop-7 .statement tag=00EL}
 
 Let $A_1$ and $A_2$ be semisimple K-algebras, with respective centers $Z_1$ and $Z_2$. Suppose that $A_1$ has finite degree over K. Then the ring $A_1\otimes A_2$ is left Artinian, as is its center $Z_1\otimes Z_2$. The ring $A_1\otimes A_2$ is simple (resp. semisimple) if and only if the ring $Z_1\otimes Z_2$ is a field (resp. a reduced ring).
 
 This is the case $M_1= (A_1)_s, M_2= (A_2)_s$ of Proposition 5 of VIII, p. 219.
 
-#### Corollary 1 {#alg-viii-s12-prop-7-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s12-prop-7-cor-1 .statement tag=00EM}
 
 Let $A_1$ and $A_2$ be semisimple K-algebras; suppose that $A_1$ is finite-dimensional over K. Suppose that the center of $A_1$ or $A_2$ is a separable algebra over K, which is, for example, the case when K is perfect. Then $A_1\otimes A_2$ is semisimple.
 
@@ -281,7 +281,7 @@ If the field K is algebraically closed, then the center of $A_1$ is equal to K.
 
 ### 7. Extension of Scalars in Semisimple Modules
 
-#### Proposition 8 {#alg-viii-s12-prop-8 .statement}
+#### Proposition 8 {#alg-viii-s12-prop-8 .statement tag=00EN}
 
 Let A be a K-algebra, M an A-module, and L an extension of the field K. Denote the commutant of M by D and the center of D by Z.
 
@@ -293,7 +293,7 @@ c) Suppose that the A-module M is simple. The $A_{(L)}$-module $M_{(L)}$ is semi
 
 Assertion a) is a specific case of Proposition 1 (VIII, p. 211), assertion b) is a specific case of Proposition 5 (VIII, p. 219), and assertion c) is a specific case of Corollary 1 of VIII, p. 215.
 
-#### Corollary 1 {#alg-viii-s12-prop-8-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s12-prop-8-cor-1 .statement tag=00EO}
 
 a) Suppose that the A-module M is semisimple, that the extension L of K is separable, and that M or L is finite-dimensional over K. Then the $A_{(L)}$-module $M_{(L)}$ is semisimple.
 
@@ -307,7 +307,7 @@ b) Suppose that the K-algebra A is semisimple and that L or A is finite-dimensio
 
 Assertions a) and b) follow from Proposition 8, a) and b) applied to the A-module $A_s$.
 
-#### Proposition 9 {#alg-viii-s12-prop-9 .statement}
+#### Proposition 9 {#alg-viii-s12-prop-9 .statement tag=00EP}
 
 Let A be a K-algebra and L a separable extension of K.
 
@@ -319,7 +319,7 @@ Let us prove assertion a). Let M be an A-module without radical. We identify M w
 
 Assertion b) follows from assertion a) applied to the A-module $A_s$.
 
-#### Proposition 10 {#alg-viii-s12-prop-10 .statement}
+#### Proposition 10 {#alg-viii-s12-prop-10 .statement tag=00EQ}
 
 Let A be a K-algebra and L an extension of K. Let M be an A-module.
 
@@ -351,7 +351,7 @@ $$
 \mathfrak{R}_{A_{(L)}}(M_{(L)})\subset \mathfrak{R}_A(M)_{(L)}
 $$
 
-#### Corollary {#alg-viii-s12-n7-cor-1 .statement}
+#### Corollary {#alg-viii-s12-n7-cor-1 .statement tag=00ER}
 
 Let L be a separable extension of K. We have $\mathfrak{R}(A_{(L)}) =$ $\mathfrak{R}(A)_{(L)}$ if L is algebraic over K or if the ring A is left Artinian.
 

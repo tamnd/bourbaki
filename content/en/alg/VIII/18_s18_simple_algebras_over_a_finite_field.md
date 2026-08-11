@@ -22,7 +22,7 @@ subsections:
       pdf_page: 374
 statements: 8
 exercises: 7
-content_sha256: 6ffe840db71a91c5b93816fdd64a0252c4c2f22f13821a195920fd5426a43913
+content_sha256: 55ce189bde65d5a4fc9cc96634d7d85d5b7c704f19c4226923992331477d2d65
 ---
 
 ## § 18. SIMPLE ALGEBRAS OVER A FINITE FIELD
@@ -31,7 +31,7 @@ content_sha256: 6ffe840db71a91c5b93816fdd64a0252c4c2f22f13821a195920fd5426a43913
 
 Theorem 1 (Chevalley–Warning). — Let K be a finite commutative field of characteristic $p$. Let $n$ be an integer $\geqslant 1$ and $(f_i)_{i\in I}$ a finite family of nonzero elements of $K[X_1, . . . ,X_n]$. Denote by Z the set of elements $\mathbf{x}$ of $K^n$ such that we have $f_i(\mathbf{x}) = 0$ for $i\in I$. If we have $n >\sum_{i\in I}$ deg($f_i)$, then the cardinal of Z is divisible by $p$.
 
-#### Lemma 1 {#alg-viii-s18-lem-1 .statement}
+#### Lemma 1 {#alg-viii-s18-lem-1 .statement tag=00LB}
 
 Let L be a field, G a finite group, and $\chi$ a nontrivial homomorphism from G to the multiplicative group $L^*$. We have $\sum_{x\in G}\chi (x) = 0$.
 
@@ -43,7 +43,7 @@ $$
 
 this gives Lemma 1.
 
-#### Lemma 2 {#alg-viii-s18-lem-2 .statement}
+#### Lemma 2 {#alg-viii-s18-lem-2 .statement tag=00LC}
 
 Let $q$ be the cardinal of K. For any integer $m\geqslant 0$, set $S_m=$ $\sum_{x\in K}x^m$. We have $S_m=-1$ if $m$ is a nonzero multiple of $q-1$ and $S_m= 0$ in all other cases.
 
@@ -79,7 +79,7 @@ $$
 
 Now, by formula (1), we have $\sum_{\mathbf{x}\in K^n}P(\mathbf{x}) =$ Card(Z) $\cdot 1$, and therefore Card(Z) $\cdot 1 = 0$, which means that Card(Z) is divisible by $p$.
 
-#### Corollary {#alg-viii-s18-n1-cor-1 .statement}
+#### Corollary {#alg-viii-s18-n1-cor-1 .statement tag=00LD}
 
 Let V be a vector space of finite dimension $n$ over K and I a finite set, and for each $i\in I$, let $F_i: V\rightarrow K$ be a homogeneous polynomial mapping of degree $d_i>0$. If we have $\sum_{i\in I}d_i< n$, then there exists a nonzero element $x$ of V such that $F_i(x) = 0$ for every $i\in I$.
 
@@ -91,19 +91,19 @@ Theorem 2 (Wedderburn). — Every finite field is commutative.
 
 Let D be a finite field, and let K be its center. The K-algebra D is central simple of degree $m^2$, where $m$ is a strictly positive integer. The reduced norm is a homogeneous polynomial mapping Nrd$: D\rightarrow K$ of degree $m$ (VIII, p. 345, Proposition 6), and we have Nrd($a)\not= 0$ for every $a\not= 0$ in D (VIII, p. 340, Proposition 3). The corollary above implies that $m\geqslant m^2$, and therefore $m= 1$. So we have D = K.
 
-#### Corollary 1 {#alg-viii-s18-lem-2-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s18-lem-2-cor-1 .statement tag=00LE}
 
 Every finite simple ring is isomorphic to a matrix ring $\mathbf{M}_n(L)$, where $n$ is a strictly positive integer and L is a finite commutative field.
 
 This follows from Theorem 2 and the structure theorem for simple rings (VIII, p. 120, Theorem 1).
 
-#### Corollary 2 {#alg-viii-s18-lem-2-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s18-lem-2-cor-2 .statement tag=00LF}
 
 Let K be a finite commutative field. Every central simple algebra over K is isomorphic to a matrix algebra $\mathbf{M}_n(K)$, where $n$ is a strictly positive integer.
 
 This follows from Theorem 2 and the structure theorem for central simple algebras (VIII, p. 252, Theorem 1).
 
-#### Remark 1 {#alg-viii-s18-n2-rem-1 .statement}
+#### Remark 1 {#alg-viii-s18-n2-rem-1 .statement tag=00LG}
 
 Here is another proof of Theorem 2. Let D be a finite field, let K be its center, and let L be a maximal commutative subfield of D. Let $x$ be an element of $D^*$. It belongs to a maximal commutative subfield $L_1$ of D. We have the equality
 
@@ -113,7 +113,7 @@ $$
 
 by Corollary 2 of VIII, p. 265, and therefore $[L : K] = [L_1: K]$. By Proposition 3 of V, §12, No. 2, p. 94, the extensions L and $L_1$ of K are isomorphic. By VIII, p. 263, Corollary, there exists an element $a$ of $D^*$ such that $aLa^{-1}= L_1$, so $a^{-1}xa$ belongs to L. We then have $(ay)^{-1}x(ay) =a^{-1}xa$ for every $y\in L^*$. Consequently, if S is a set of representatives of the left cosets of $D^*$ modulo $L^*$, then every element of $D^*\{1\}$ can be written as $sxs^{-1}$ with $s\in S$ and $x\in L^*\{1\}$. We denote the order of $D^*$ by $d$ and that of $L^*$ by $`$. Since the cardinal of S is equal to $d/`$, we have $d-1\leqslant (d/`)(`-1) =d-d/`$. It follows that $`=d$, and therefore L = D, which proves that the field D is commutative.
 
-#### Remark 2 {#alg-viii-s18-n2-rem-2 .statement}
+#### Remark 2 {#alg-viii-s18-n2-rem-2 .statement tag=00LH}
 
 Let L be a commutative field with the following property: $(C_1)$ Let V be a vector space of finite dimension $n$ over the field L, and let $d$ be such that $0< d < n$. For every homogeneous polynomial mapping $F : V\rightarrow L$ of degree $d$, there exists a nonzero element $x$ of V such that $F(x) = 0$.
 
@@ -123,7 +123,7 @@ By the corollary of VIII, p. 356, every finite field has property $(C_1)$. We ca
 
 whose residue field is algebraically closed (VIII, p. 332, Exercise 17$).*$
 
-#### Remark 3 {#alg-viii-s18-n2-rem-3 .statement}
+#### Remark 3 {#alg-viii-s18-n2-rem-3 .statement tag=00LI}
 
 Suppose that the field K satisfies the following condition: – If L is an extension of K of finite degree, then it is cyclic and the norm mapping $N : L^*\rightarrow K^*$ is surjective. This condition is satisfied, in particular, when the field K is finite (V, §12, No. 2, p. 95, Proposition 4). We can then prove that every field of finite degree over K with center K is equal to K (Exercise 10 of VIII, p. 329).
 

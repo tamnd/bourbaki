@@ -34,14 +34,14 @@ subsections:
       pdf_page: 54
 statements: 32
 exercises: 20
-content_sha256: 19e4373b8a1eb7533dbd728068c4500cbacbbbb17b1577ae0015831124a76677
+content_sha256: 4f8ec9fe81ed53bc963c7ee4b6fb29fe1910dc654aaad22572a2621a16b61d51
 ---
 
 ## § 2. THE STRUCTURE OF MODULES OF FINITE LENGTH
 
 ### 1. Local Rings
 
-#### Proposition 1 {#alg-viii-s2-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s2-prop-1 .statement tag=001P}
 
 Let A be a nonzero ring, and let $\mathfrak{r}$ be the set of noninvertible elements of A. The following properties are equivalent:
 
@@ -77,7 +77,7 @@ d) The set $\mathfrak{r}$ is stable under multiplication.
 
 Indeed, let $a$ and $b$ be two elements of $\mathfrak{r}$. The element $a'=-a(1-b)$ belongs to $\mathfrak{r}$ by b), so that the element $ab$, which is equal to $a+a'$, belongs to $\mathfrak{r}$ by c); assertion d) follows.
 
-#### Definition 1 {#alg-viii-s2-def-1 .statement}
+#### Definition 1 {#alg-viii-s2-def-1 .statement tag=001Q}
 
 A local ring is a nonzero ring that has the equivalent properties of Proposition 1.
 
@@ -85,25 +85,25 @@ A ring A is local if and only if the opposite ring $A^o$ is local.
 
 If A is a local ring, then the set $\mathfrak{r}$ of noninvertible elements of A is a two-sided ideal of A; it contains every left or right ideal of A not equal to A. The ring $A/\mathfrak{r}$ is therefore a field, which we call the residue field of A. The set $\mathfrak{r}$ is the unique maximal left (resp. right, two-sided) ideal of A; we simply say that $\mathfrak{r}$ is the maximal ideal of A.
 
-#### Example 1 {#alg-viii-s2-n1-exa-1 .statement}
+#### Example 1 {#alg-viii-s2-n1-exa-1 .statement tag=001R}
 
 Every field is a local ring.
 
-#### Example 2 {#alg-viii-s2-n1-exa-2 .statement}
+#### Example 2 {#alg-viii-s2-n1-exa-2 .statement tag=001S}
 
 Let A be a nonzero ring in which every element is invertible or nilpotent. Then A is a local ring. Indeed, if $a\in A$ is not invertible, then by assumption, there exists an integer $n\geqslant 0$ such that $a^{n+1}= 0$, and $1-a$ has inverse $1 +a+\cdots +a^n$.
 
-#### Example 3 {#alg-viii-s2-n1-exa-3 .statement}
+#### Example 3 {#alg-viii-s2-n1-exa-3 .statement tag=001T}
 
 Let X be a $C^r$ manifold (VAR, R, 5.1.5) and $x$ a point of X. Let $\mathscr{O}_x$ be the ring of germs at $x$ of $C^r$ functions with values in the field of scalars K. Then $\mathscr{O}_x$ is a commutative local ring, and its maximal ideal consists of the
 
 germs of the functions that are zero at $x.*$
 
-#### Example 4 {#alg-viii-s2-n1-exa-4 .statement}
+#### Example 4 {#alg-viii-s2-n1-exa-4 .statement tag=001U}
 
 Let A be a commutative local ring and $B = A[[X_i]]_{i\in I}$ an algebra of formal power series with coefficients in A (III, §2, No. 11, p. 456). By Proposition 6 of IV, §4, No. 4, p. 30, the ring B is local, and its maximal ideal consists of the formal power series with constant term in the maximal ideal of A. In particular, if A is a field, the maximal ideal of $A[[X_i]]_{i\in I}$ consists of the formal power series with constant term zero.
 
-#### Example 5 {#alg-viii-s2-n1-exa-5 .statement}
+#### Example 5 {#alg-viii-s2-n1-exa-5 .statement tag=001V}
 
 Let $p$ be a prime number. We denote by $\mathbf{Z}_{(p)}$ the subring of the field $\mathbf{Q}$ of rational numbers consisting of the fractions $a/b$ with $a\in \mathbf{Z},b\in \mathbf{Z}$, and $b$ not divisible by $p*$(cf. Comm. Alg., II, §2, No. 1, p. 60) . Then $\mathbf{Z}$ is
 
@@ -113,7 +113,7 @@ $$
 
 a commutative local ring, with maximal ideal $p\mathbf{Z}_{(p)}$. The ring $\mathbf{Z}_p$ of $p$-adic integers (V, §12, No. 3, p. 96) is a commutative local ring, with maximal ideal $p\mathbf{Z}_p$ (VIII, p. 40, Exercise 9).
 
-#### Example 6 {#alg-viii-s2-n1-exa-6 .statement}
+#### Example 6 {#alg-viii-s2-n1-exa-6 .statement tag=001W}
 
 Let K be a commutative field of characteristic $p >0$ and G a $p$-group (I, §6, No. 5, p. 76, Definition 9). The algebra K[G] of the group G over K (III, §2, No. 6, p. 446) is a local ring; its maximal ideal is the set of elements $(a_g)_{g\in G}$ of K[G] such that $\sum_{g\in G}a_g= 0$ (VIII, p. 41, Exercise 10).
 
@@ -123,7 +123,7 @@ Let A be a ring, M an A-module, and $u$ an endomorphism of M. For any integer $p
 
 For any integer $q\geqslant 0$, denote the image of $u^q$ by $I_q$. The sequence of submodules $(I_q)$ is decreasing, and its intersection is a submodule $I_{\infty}$ of M that is stable under $u$. For every integer $q\geqslant 0$, we have $u(I_q) = I_{q+1}$, and the relation $I_q= I_{q+1}$ therefore implies $I_{q+1}= I_{q+2}$. Consequently, either the sequence $(I_q)$ is strictly decreasing, or there exists an integer $q\geqslant 0$ such that $I_0, . . . ,I_q$ are distinct and $I_q= I_{\infty}$.
 
-#### Proposition 2 {#alg-viii-s2-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s2-prop-2 .statement tag=001X}
 
 a) Suppose that the sequence $(N_p)$ is stationary. Then we have $N_{\infty}\cap I_{\infty}= 0$, the restriction of $u$ to $I_{\infty}$ is injective, and $u$ induces a nilpotent endomorphism of $N_{\infty}$.
 
@@ -137,11 +137,11 @@ Let $q$ be a natural number such that $I_q= I_{\infty}$, and let $w=u^q$. Then $
 
 Assertion c) follows immediately from a) and b).
 
-#### Remark 1 {#alg-viii-s2-n2-rem-1 .statement}
+#### Remark 1 {#alg-viii-s2-n2-rem-1 .statement tag=001Y}
 
 Let $p$ be an integer such that $N_p= N_{p+1}$; the proof given above shows that $N_{\infty}\cap I_p= 0$, and the restriction of $u$ to $I_p$ is injective. Likewise, let $q$ be an integer such that $I_q= I_{q+1}$; then we have $N_q+ I_{\infty}= M$, and the endomorphism of $M/N_q$ deduced from $u$ by passing to the quotient is surjective.
 
-#### Remark 2 {#alg-viii-s2-n2-rem-2 .statement}
+#### Remark 2 {#alg-viii-s2-n2-rem-2 .statement tag=001Z}
 
 Suppose that M is a direct sum of two submodules N and I that are stable under $u$ and that $u$ induces a nilpotent endomorphism $u_N$ of N and an automorphism of I. We then have $N_{\infty}= N$ and $I_{\infty}= I$, and the sequences $(N_p)$ and $(I_p)$ are stationary. Moreover, the following integers are equal:
 
@@ -151,11 +151,11 @@ $\beta )$ the least integer $q\geqslant 0$ such that $I_q= I_{\infty}$,
 
 $\gamma )$ the least integer $r\geqslant 0$ such that $(u_N)^r= 0$.
 
-#### Remark 3 {#alg-viii-s2-n2-rem-3 .statement}
+#### Remark 3 {#alg-viii-s2-n2-rem-3 .statement tag=0020}
 
 The assumption of assertion a) is satisfied if the A-module M is Noetherian; the assumption of assertion b) is satisfied if M is Artinian; by Proposition 1 of VIII, p. 2, the assumption of assertion c) is satisfied if M has finite length.
 
-#### Corollary 1 {#alg-viii-s2-prop-2-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s2-prop-2-cor-1 .statement tag=0021}
 
 Let A be a ring, and let M be an A-module.
 
@@ -177,7 +177,7 @@ $$
 
 for every $j\in I$. Let $A'$ be a Noetherian subring of A containing the elements $a_i,b_{ij}$, and $c_{ij}$ (VIII, p. 12, Corollary 3). Let $M'$ be the $A'$-submodule of M generated by the family $(x_i)_{i\in I}$. We have $u(x_j)\in M',y_j\in M'$, and $u(y_j) =x_j$ for every $j\in I$; hence $u$ defines, by restriction, a surjective endomorphism $u'$ of the $A'$-module $M'$. Since the ring $A'$ is Noetherian, the finitely generated $A'$-module $M'$ is Noetherian (VIII, p. 7, Proposition 4 a)). By a), the endomorphism $u'$ of $M'$ is bijective. By construction, $x$ belongs to $M'$, and we have $u'(x) =u(x) = 0$. We therefore have $x= 0$, which proves d).
 
-#### Corollary 2 {#alg-viii-s2-prop-2-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s2-prop-2-cor-2 .statement tag=0022}
 
 In a left Noetherian ring, every left or right invertible element is invertible.
 
@@ -187,7 +187,7 @@ Indeed, consider elements $x,y$ of a left Noetherian ring A such that $xy= 1$. D
 
 Let A be a ring. Recall the following definition (VII, §4, No. 8, p. 23, Definition 3).
 
-#### Definition 2 {#alg-viii-s2-def-2 .statement}
+#### Definition 2 {#alg-viii-s2-def-2 .statement tag=0023}
 
 An A-module M is called indecomposable if it is not the direct sum of a family of submodules distinct from 0 and M.
 
@@ -201,11 +201,11 @@ c) The A-module M is nonzero, and the ring End$_A(M)$ contains no idempotent dis
 
 In particular, since the endomorphism ring of the A-module $A_s$ is isomorphic to the opposite ring of A, we see that the A-module $A_s$ is indecomposable if and only if the ring A is nonzero and its only idempotents are 0 and 1.
 
-#### Example {#alg-viii-s2-n3-exa-1 .statement}
+#### Example {#alg-viii-s2-n3-exa-1 .statement tag=0024}
 
 Suppose that the ring A is a principal ideal domain. The indecomposable finitely generated A-modules are the A-modules isomorphic to either A or $A/p^nA$, where $p$ is an irreducible element of A and $n$ an integer $>0$ (VII, §4, No. 8, p. 24, Proposition 8).
 
-#### Proposition 3 {#alg-viii-s2-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s2-prop-3 .statement tag=0025}
 
 A Noetherian or Artinian A-module M is the direct sum of a finite family of indecomposable submodules.
 
@@ -217,13 +217,13 @@ The sequence of submodules $P''_0\oplus  \cdots  \oplus P''_n$ is strictly incre
 
 The question of the uniqueness of the decomposition of a module as a direct sum of indecomposable submodules will be studied in the next subsection.
 
-#### Definition 3 {#alg-viii-s2-def-3 .statement}
+#### Definition 3 {#alg-viii-s2-def-3 .statement tag=0026}
 
 A module is called primordial[^1] if its endomorphism ring is local.
 
 By definition, a local ring is not reduced to 0; consequently, a primordial module is nonzero. Moreover, the A-module $A_s$ is primordial if and only if the ring A is local.
 
-#### Proposition 4 {#alg-viii-s2-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s2-prop-4 .statement tag=0027}
 
 a) A primordial module is indecomposable.
 
@@ -241,7 +241,7 @@ An injective module is indecomposable if and only if it is primordial (X, §1, n
 
 ### 4. Semiprimordial Modules
 
-#### Definition 4 {#alg-viii-s2-def-4 .statement}
+#### Definition 4 {#alg-viii-s2-def-4 .statement tag=0028}
 
 A module is called semiprimordial if it is the direct sum of a family of primordial submodules.
 
@@ -255,13 +255,13 @@ For every decomposition $M =\bigoplus_{i\in I}M_i$ of M as a direct sum of primo
 
 The proof is based on the following four lemmas.
 
-#### Lemma 1 {#alg-viii-s2-lem-1 .statement}
+#### Lemma 1 {#alg-viii-s2-lem-1 .statement tag=0029}
 
 Let M be an A-module, $M'$ a primordial submodule of M, and $M''$ a submodule of M supplementary to $M'$. Let $u$ be an endomorphism of M. Then $u$ or $1_M-u$ induces an isomorphism from $M'$ to a submodule of M supplementary to $M''$.
 
 Let $p$ be the projection from M onto $M'$ with kernel $M''$, and let $v$ be the restriction of $p\circ u$ to $M'$. First, suppose that $v$ is an automorphism of $M'$. Since $v$ is injective, the restriction of $u$ to $M'$ is injective, and we have $u(M')\cap M''= 0$. Since $v$ is surjective, we have $u(M')\oplus M''= M$. Consequently, $u$ induces an isomorphism from $M'$ to a submodule supplementary to $M''$ in M. Now, suppose that $v$ is not an automorphism of $M'$. Then $1_{M'}-v$ is an automorphism of $M'$ because $M'$ is primordial. Now, $1_{M'}-v$ is the restriction of $p\circ (1_M-u)$ to $M'$. The previous reasoning proves that $1_M-u$ induces an isomorphism from $M'$ to a submodule of M supplementary to $M''$.
 
-#### Lemma 2 {#alg-viii-s2-lem-2 .statement}
+#### Lemma 2 {#alg-viii-s2-lem-2 .statement tag=002A}
 
 Let M be an A-module that is the direct sum of a family $(M_i)_{i\in I}$ of primordial submodules, and let $u$ be an endomorphism of M. Set $v= 1_M-u$ and $M_J=\bigoplus_{i\in J}M_i$ for every subset J of I. Then one of the following two properties holds:
 
@@ -275,13 +275,13 @@ Suppose that property a) does not hold, and let us establish property b) by indu
 
 The last assertion follows from the fact that M is the union of the submodules $M_J$, where J runs through the finite subsets of I.
 
-#### Lemma 3 {#alg-viii-s2-lem-3 .statement}
+#### Lemma 3 {#alg-viii-s2-lem-3 .statement tag=002B}
 
 Let M be an A-module that is the direct sum of a family $(M_i)_{i\in I}$ of primordial submodules, and let $p$ be a nonzero projector of M. There exists an index $i\in I$ such that $p$ induces an isomorphism from $M_i$ to a direct factor submodule of $p(M)$.
 
 Since $p$ is nonzero, $1_M-p$ is not injective. By Lemma 2, there exists an index $i\in I$ such that $p$ induces an isomorphism from $M_i$ to a direct factor submodule of M. Every projector of M with image $p(M_i)$ defines, by restriction, a projector of $p(M)$ with image $p(M_i)$, so $p(M_i)$ is a direct factor submodule of $p(M)$.
 
-#### Lemma 4 {#alg-viii-s2-lem-4 .statement}
+#### Lemma 4 {#alg-viii-s2-lem-4 .statement tag=002C}
 
 Let M be an A-module that is the direct sum of a family $(M_i)_{i\in I}$ of primordial submodules, let L be a primordial A-module, and let N be a direct factor submodule of M. Suppose that N is the direct sum of a family $(N_j)_{j\in J}$ of submodules isomorphic to L, and denote by $I_L$ the set of indices $i\in I$ such that $M_i$ is isomorphic to L. We then have
 
@@ -299,7 +299,7 @@ Let us prove Theorem 1. Let $(M_i)_{i\in I}$ and $(N_j)_{j\in J}$ be two familie
 
 The cardinal [M : L] defined in Theorem 1 is called the primordial multiplicity of L in M.
 
-#### Corollary 1 {#alg-viii-s2-lem-4-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s2-lem-4-cor-1 .statement tag=002D}
 
 Let M and N be semiprimordial modules. Then M and N are isomorphic if and only if we have [M : L] = [N : L] for every primordial module L. **Corollary 2.** — Let M be a semiprimordial module. Let $(M_i)_{i\in I}$ and $(M'_j)_{j\in J}$ be families of primordial submodules of M such that
 
@@ -313,7 +313,7 @@ For any primordial module L, let $I_L$ (resp. $J_L)$ be the set of indices $i\in
 
 Card(I$_L) =$ Card(J$_L) = [M : L]$; the corollary follows.
 
-#### Corollary 3 {#alg-viii-s2-lem-4-cor-3 .statement}
+#### Corollary 3 {#alg-viii-s2-lem-4-cor-3 .statement tag=002E}
 
 Let M, N, and P be semiprimordial modules. Suppose that $M\oplus P$ is isomorphic to $N\oplus P$ and that [P : L] is finite for every primordial module L. Then M and N are isomorphic.
 
@@ -323,7 +323,7 @@ By assumption, we have
 
 for every primordial module L. Since [P : L] is finite, it follows by induction from (Set Theory, III, §3, No. 4, p. 162, Proposition 8) that we have [M : L] = [N : L] for every primordial module L. The modules M and N are therefore isomorphic by Corollary 1.
 
-#### Corollary 4 {#alg-viii-s2-lem-4-cor-4 .statement}
+#### Corollary 4 {#alg-viii-s2-lem-4-cor-4 .statement tag=002F}
 
 Let M and N be semiprimordial modules. Suppose that there exists an integer $d >0$ such that $M^d$ is isomorphic to $N^d$. Then the modules M and N are isomorphic.
 
@@ -335,7 +335,7 @@ $$
 
 We therefore have the equality [M : L] = [N : L]: indeed, we have $d\mathfrak{a}=\mathfrak{a}$ for every infinite cardinal $\mathfrak{a}($Set Theory, III, §6, No. 3, p. 188, Corollary 4). The modules M and N are then isomorphic by Corollary 1.
 
-#### Corollary 5 {#alg-viii-s2-lem-4-cor-5 .statement}
+#### Corollary 5 {#alg-viii-s2-lem-4-cor-5 .statement tag=002G}
 
 Let M be a semiprimordial module that is the direct sum of a finite family $(M_i)_{i\in I}$ of primordial submodules. For any subset J of I, write $M_J=\bigoplus_{i\in J}M_i$. Let N be a direct factor submodule of M.
 
@@ -347,13 +347,13 @@ We denote by K the set of indices $i\in I$ such that $N\cap M_i= 0$; let us use 
 
 Let J be a subset of I such that $M_J$ is a submodule supplementary to M in N. Since $M_J$ is also supplementary to $M_{I J}$, the modules N and $M_{I J}$ are isomorphic and N is semiprimordial.
 
-#### Corollary 6 {#alg-viii-s2-lem-4-cor-6 .statement}
+#### Corollary 6 {#alg-viii-s2-lem-4-cor-6 .statement tag=002H}
 
 Every finitely generated projective module over a local ring is free.[^2]
 
 Let A be a local ring. The A-module $A_s$ is primordial (VIII, p. 31). If M is a finitely generated projective A-module, then there exist an A-module N and a natural number $n$ such that $M\oplus N$ is isomorphic to $A^n_s$ (II, §2, No. 2, p. 232, Corollary 1). It follows from Corollary 5 that the module M is itself isomorphic to $A^m_s$ for an integer $m$ such that $0\leqslant m\leqslant n$, hence is free.
 
-#### Remark {#alg-viii-s2-n4-rem-1 .statement}
+#### Remark {#alg-viii-s2-n4-rem-1 .statement tag=002I}
 
 Let M and $M'$ be semiprimordial A-modules. It immediately follows from Lemma 4 of VIII, p. 33 that $M'$ is isomorphic to a direct factor submodule of M if and only if we have $[M': L]\leqslant [M : L]$ for every primordial A-module L. In particular, if L is a primordial A-module, [M : L] is the greatest of the cardinals $\mathfrak{a}$ for which there exists a direct factor submodule of M isomorphic to $L^{(\mathfrak{a})}$.
 
@@ -375,7 +375,7 @@ e) Let N and P be A-modules of finite length. If the modules $M\oplus P$ and $N\
 
 A module of finite length is both Artinian and Noetherian (VIII, p. 2, Proposition 1). Moreover, for a module of finite length, being indecomposable or primordial amounts to the same (VIII, p. 31, Proposition 4). Assertion a) then follows from Proposition 3 of VIII, p. 30. Assertions b), c), and e) follow from, respectively, Corollaries 2, 5, and 3 of Theorem 1 of VIII, p. 32. Finally, assertion d) follows from Corollary 4 of VIII, p. 35 because under the assumptions of d), the module N has finite length and is therefore semiprimordial by a).
 
-#### Theorem 3 {#alg-viii-s2-thm-3 .statement}
+#### Theorem 3 {#alg-viii-s2-thm-3 .statement tag=002J}
 
 Let K be a commutative field, A a K-algebra, and M and N modules of finite length. Let $K'$ be a nonzero commutative K-algebra such that the $A_{(K')}$-modules $M_{(K')}$ and $N_{(K')}$ are isomorphic. Then the A-modules M and N are isomorphic.
 
@@ -385,7 +385,7 @@ b) Now, suppose that the K-algebra $K'$ is generated by finitely many elements. 
 
 c) Finally, let us treat the general case. Let $u: M_{(K')}\rightarrow N_{(K')}$ be an isomorphism of $A_{(K')}$-modules and $v: N_{(K')}\rightarrow M_{(K')}$ the inverse isomorphism. Denote by $\mathscr{E}$ the set of K-subalgebras of $K'$ generated by finitely many elements. If E is such a subalgebra, then $A_{(E)}$ is identified with a subring of $A_{(K')}$, and $M_{(E)}$ and $N_{(E)}$ are identified with $A_{(E)}$-submodules of $M_{(K')}$ and $N_{(K')}$, respectively (II, §7, No. 7, p. 306); moreover, $M_{(K')}$ and $N_{(K')}$ are unions of right directed families $(M_{(E)})_{E\in\mathscr{E}}$ and $(N_{(E)})_{E\in\mathscr{E}}$, respectively. The A-modules M and N are of finite length, hence finitely generated; let S be a finite generating subset of the A-module M and T a finite generating subset of the A-module N. There exists a K-algebra $E\in \mathscr{E}$ such that we have $u(1\otimes s)\in N_{(E)}$ for every $s\in S$ and $v(1\otimes t)\in M_{(E)}$ for every $t\in T$. It follows by linearity that we have $u(M_{(E)})\subset N_{(E)}$ and $v(N_{(E)})\subset M_{(E)}$. The maps $u$ and $v$ then induce inverse bijections from $M_{(E)}$ to $N_{(E)}$ and from $N_{(E)}$ to $M_{(E)}$. These bijections are clearly $A_{(E)}$-linear. Thus, the $A_{(E)}$-modules $M_{(E)}$ and $N_{(E)}$ are isomorphic. By part b) of the proof, the A-modules M and N are isomorphic.
 
-#### Remark {#alg-viii-s2-n5-rem-1 .statement}
+#### Remark {#alg-viii-s2-n5-rem-1 .statement tag=002K}
 
 Let E and F be two finite-dimensional vector spaces over a commutative field K, and let $K'$ be an extension of K. Let $u$ be an endomorphism of E and $v$ an endomorphism of F, and let $u_{(K')}$ and $v_{(K')}$ be the endomorphisms of $E_{(K')}$ and $F_{(K')}$ obtained by extension of scalars. It follows from Corollaries 1 and 2 of VII, §5, No. 3, p. 32 that the endomorphisms $u$ and $v$ are similar if and only if the endomorphisms $u_{(K')}$ and $v_{(K')}$ are. This also follows from Theorem 3 above applied to the algebra A = K[X] and the A-modules $M = E_u$ and $N = F_v$ (VII, §5, No. 1, p. 29).
 
