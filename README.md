@@ -8,17 +8,44 @@ This repo is the corpus only. The code that builds it lives in [tamnd/bourbaki-s
 
 ## What is in scope
 
-| Book | Chapters | Edition | Pages | Sections | PDF |
-| --- | --- | --- | --- | --- | --- |
-| Algebra | I, II, III | 1998, Springer | 734 | 34 | scan, JBIG2 at 600 dpi |
-| Algebra | IV, V, VI, VII | 2003, Springer | 460 | 30 | scan, JBIG2 at 600 dpi |
-| Algebra | VIII | 2023, Springer Nature | 505 | 25 | born digital |
+All twelve Books of the *Éléments*, in the English translation where one was printed and in the French original everywhere else. 43 volumes, 14989 pages, of which 15 volumes and 6648 pages are English and 28 volumes and 8341 pages are French.
 
-1699 pages, 89 sections, chapters I through VIII of the Book *Algebra*. The count is §§ and appendices together, because an appendix carries numbered statements and exercises exactly as a § does and is a file like any other. Chapters IX and X have no English translation, so they are out of scope until one exists.
+| Book | English | French | Volumes | Pages |
+| --- | --- | --- | --- | --- |
+| Theory of Sets | I to IV | none held | 1 | 418 |
+| Algebra | I to VIII | I to X | 8 | 3690 |
+| General Topology | I to X | I to X | 4 | 1511 |
+| Functions of a Real Variable | I to VII | I to VII | 2 | 683 |
+| Topological Vector Spaces | I to V | I to V | 2 | 740 |
+| Integration | I to IX | I to IX | 7 | 1732 |
+| Commutative Algebra | I to VII | I to X | 5 | 1733 |
+| Variétés différentielles et analytiques | never translated | fascicule de résultats | 1 | 190 |
+| Lie Groups and Lie Algebras | I to IX | I to IX | 8 | 2182 |
+| Théories spectrales | never translated | I to V | 2 | 925 |
+| Topologie algébrique | never translated | I to IV | 1 | 512 |
+| Elements of the History of Mathematics | whole | whole | 2 | 673 |
 
-The two scans need vision OCR. The 2023 volume has a real text layer and extracts natively with `pdftotext -layout`, which is why it goes first.
+The French is not a fallback for the English. Three Books were never translated, Algèbre chapters IX and X and Algèbre commutative chapters VIII, IX and X exist in French only, and where both printings are held the French is the original a disputed English sentence gets checked against. So both are in scope and both carry the same tags.
+
+Two gaps worth stating plainly. There is no French Théorie des ensembles here, only the English translation of it. And *Groupes et algèbres de Lie, Chapitres 7 et 8* is a partial file: 61 pages that open at Chapitre VII and stop in the middle of the exercises around printed page 65, so the English *Chapters 7-9* is the only complete copy of that material.
+
+`bourbaki books list` prints the volume by volume detail, and `manifests/books.yaml` carries it as data, with the SHA-256 and page count of every file so that a swapped or re-downloaded PDF is caught rather than silently extracted.
 
 The PDFs are not here and will not be. They are copyright Springer and N. Bourbaki. This corpus is for personal study.
+
+## Three extraction paths, not one
+
+What a volume costs to read depends entirely on what its own text layer is worth, and the library splits three ways. `bourbaki books add` measures this rather than guessing it, by sampling the images and the text of a band of body pages, and records the answer as `text_layer` in the manifest.
+
+| Text layer | Volumes | What it means |
+| --- | --- | --- |
+| native | 6 | Born digital. `pdftotext -layout` gives real text and real mathematics. |
+| ocr | 34 | A scan somebody has already run OCR over. Good enough to read a running head off, useless for mathematics. |
+| none | 3 | A scan with no text at all. Even the page map has to come out of vision OCR. |
+
+The six native volumes are *Algebra, Chapter 8* and *Lie Groups and Lie Algebras, Chapters 7-9* in English, and *Algèbre chapitre 8*, *Théories spectrales chapitres 1 et 2*, *Théories spectrales chapitres 3 à 5* and *Topologie algébrique chapitres 1 à 4* in French. They are cheap and they go first. The three with no text at all are *Commutative Algebra* at 642 pages, *General Topology Chapters 5-10* at 372 pages and *Algèbre chapitre 10* at 222 pages, and they are the most expensive volumes in the library.
+
+The 34 in the middle are the ordinary case. Their OCR layer renders a pair of braces in *Theory of Sets* as `R! x, y I`, so nothing in it can be trusted as mathematics, but it is legible enough to build the page map from before a single page goes to vision OCR, which saves the expensive pass on all 34.
 
 ## Running heads differ per volume
 
@@ -46,21 +73,24 @@ Bourbaki cross-references are page based, as in `VIII, p. 3, Proposition 3`, so 
 0A3F,alg-viii-s1-prop-6
 ```
 
-A tag is never reused and never edited. If a label has to change, the tag follows the statement and the old label goes to `tags/aliases`. The English, Vietnamese, Chinese and Japanese editions all use the same tag for the same statement, so a tag is the one identifier that works across all four.
+A tag is never reused and never edited. If a label has to change, the tag follows the statement and the old label goes to `tags/aliases`. Every edition uses the same tag for the same statement, the French original included, so a tag is the one identifier that works across all of them and is what lets a translation be checked against the French rather than only against the English it was made from.
 
 ## Layout
 
 ```
-content/en/alg/<CH>/NN_sN_<slug>.md          one file per §
-content/en/alg/<CH>/exercises/sN/NN.md       one file per exercise
-content/{vi,zh,ja}/...                       same tree, same tags
-content/solutions/<lang>/alg/<CH>/sN/NN.md   verified solutions
-tags/                                        permanent tag index
-manifests/                                   books, TOC, page maps, refs, glossary
-figures/                                     cropped diagrams, small, committed
-reports/                                     audit, usage, coverage, scorecards
-imports/<book>/chapter_<n>/<n>.<m>.md        read off share links, not yet checked
+content/en/<book>/<CH>/NN_sN_<slug>.md         one file per §
+content/en/<book>/<CH>/exercises/sN/NN.md      one file per exercise
+content/fr/...                                 same tree, extracted from the French printing
+content/{vi,zh,ja}/...                         same tree, translated
+content/solutions/<lang>/<book>/<CH>/sN/NN.md  verified solutions
+tags/                                          permanent tag index
+manifests/                                     books, TOC, page maps, refs, glossary
+figures/                                       cropped diagrams, small, committed
+reports/                                       audit, usage, coverage, scorecards
+imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet checked
 ```
+
+`content/fr` is not a translation and is never generated from `content/en`. It is what the French volume prints, extracted the same way the English is, which is why it carries no `translated_from` and is exempt from the translation rules.
 
 `pdf/`, `images/` and `work/` are gitignored. Nothing large or copyrighted is committed.
 
@@ -81,20 +111,46 @@ imports/<book>/chapter_<n>/<n>.<m>.md        read off share links, not yet check
 | Algebra | VIII | 25 of 25 | 706 | 317 | 1023 | 488 |
 
 25 of 89 sections are in the corpus, 28 per cent. 706 statements and 317 exercises, 1023 of them carrying a permanent tag.
+
+The table is one row per chapter of the volumes that have a table of contents. 40 further volumes and 13290 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
 <!-- END COVERAGE -->
 
 ## Building it
 
+Registering a volume probes it and writes what it measured, so this is run once per file and then the manifest is the record:
+
 ```sh
 export BOURBAKI_CORPUS=$PWD
-bourbaki books add "pdf/en/Algebra I Chapters 1-3 (1998, Springer).pdf"     --id alg-i-iii
-bourbaki books add "pdf/en/Algebra II Chapters 4 - 7 (2003, Springer).pdf"  --id alg-iv-vii
-bourbaki books add "pdf/en/Algebra Chapter 8 (2023, Springer Nature).pdf"   --id alg-viii
+bourbaki books add "pdf/en/Algebra Chapter 8 (2023, Springer Nature).pdf" \
+  --id alg-viii --book alg --lang en --chapters VIII
+bourbaki books add "pdf/fr/Algèbre_ Chapitre 8 (2012, Springer).pdf" \
+  --id alg-viii-fr --book alg --lang fr --chapters VIII
+bourbaki books list
+bourbaki books verify
+```
+
+Then per volume. A native volume is three commands and a few minutes:
+
+```sh
 bourbaki pagemap build --book alg-viii
-bourbaki extract  --book alg-viii
-bourbaki render   --book alg-i-iii --dpi 300
-bourbaki ocr      --book alg-i-iii
-bourbaki assemble --book alg-viii
+bourbaki extract       --book alg-viii
+bourbaki assemble      --book alg-viii
+```
+
+A scan is four, and the middle two are the ones that take days:
+
+```sh
+bourbaki pagemap build --book alg-i-iii
+bourbaki render        --book alg-i-iii --dpi 300
+bourbaki ocr           --book alg-i-iii
+bourbaki assemble      --book alg-i-iii
+```
+
+A volume with no text layer at all cannot have its page map read off the file, so on those three `pagemap build` runs after `render` and `ocr` rather than before. That is the third path and it is why *Commutative Algebra*, *General Topology Chapters 5-10* and *Algèbre chapitre 10* are the last volumes anybody should pick up.
+
+The rest is corpus wide and runs after any volume changes:
+
+```sh
 bourbaki tags assign && bourbaki tags merge && bourbaki tags verify
 bourbaki refs build
 bourbaki report coverage --write-readme

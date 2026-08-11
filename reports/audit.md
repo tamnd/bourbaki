@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 1 chapter, 27 sections, 317 exercises, 510 extracted pages, 1023 tags, 2098 references, 1 translated file. Languages: en, vi.
+Audited: 1 chapter, 27 sections, 317 exercises, 510 extracted pages, 1023 tags, 2098 references, 2 translated files. Languages: en, vi.
 
 ## Summary
 
@@ -17,11 +17,11 @@ Audited: 1 chapter, 27 sections, 317 exercises, 510 extracted pages, 1023 tags, 
 | mathematics | 5 | 1 | 1 | M01 (5), M03 (7), M07 (3) |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | R01 (41) |
-| translation | 6 | 2 | 1 | none |
+| translation | 6 | 2 | 1 | L08 (1) |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-15 hard findings and 95 soft, over 47 rules that ran and 7 that could not.
+15 hard findings and 96 soft, over 47 rules that ran and 7 that could not.
 
 ## Rules that did not run
 
@@ -130,3 +130,9 @@ Soft, tags.
 - `content/en/alg/VIII/09_s9_radical.md:190` has 00AG after 00S5, which was assigned later
 
 and 29 more, which `bourbaki audit -only T10` prints in full.
+
+## L08 no translation was written by a small model (1)
+
+Soft, translation.
+
+- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
