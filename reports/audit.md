@@ -14,14 +14,14 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (113) |
-| mathematics | 5 | 1 | 1 | M07 (1) |
+| mathematics | 5 | 2 | 1 | none |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | R01 (37) |
 | translation | 6 | 2 | 1 | L05 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-2 hard findings and 151 soft, over 47 rules that ran and 7 that could not.
+1 hard findings and 151 soft, over 48 rules that ran and 7 that could not.
 
 ## Rules that did not run
 
@@ -36,12 +36,6 @@ should trust.
 - **X04** no provider leakage and no meta-commentary: the corpus has no solutions yet
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
-
-## M07 no bracket from the prose closes inside the mathematics (1)
-
-Hard, mathematics.
-
-- `content/fr/alg/VIII/exercises/a2/03.md:36` a bracket the prose opened closes inside the mathematics: )I-
 
 ## R01 every in-corpus reference resolves (37)
 

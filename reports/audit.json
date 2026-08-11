@@ -1,13 +1,13 @@
 {
   "version": "dev",
-  "commit": "fbe35f235e2449ddfa5a69335eb4e80257ae7a04",
+  "commit": "2b959094b052203544f1a70615a849370fd957fa",
   "root": "/Users/apple/github/tamnd/bourbaki",
   "langs": [
     "en",
     "fr",
     "vi"
   ],
-  "hard": 2,
+  "hard": 1,
   "soft": 151,
   "checks": [
     {
@@ -149,7 +149,14 @@
       "group": "mathematics",
       "hard": true,
       "title": "no bracket from the prose closes inside the mathematics",
-      "found": 1
+      "found": 0
+    },
+    {
+      "id": "M08",
+      "group": "mathematics",
+      "hard": false,
+      "title": "no matrix is left flattened into a pair of scripts",
+      "found": 0
     },
     {
       "id": "R01",
@@ -397,14 +404,6 @@
     }
   ],
   "findings": [
-    {
-      "check": "M07",
-      "group": "mathematics",
-      "hard": true,
-      "file": "content/fr/alg/VIII/exercises/a2/03.md",
-      "line": 36,
-      "message": "a bracket the prose opened closes inside the mathematics: )I-"
-    },
     {
       "check": "R01",
       "group": "references",

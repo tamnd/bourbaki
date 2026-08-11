@@ -1,13 +1,14 @@
 {
   "book": "alg-viii",
   "pages": 505,
-  "clean": 449,
-  "flagged": 45,
+  "clean": 445,
+  "flagged": 49,
   "empty": 11,
   "reasons": {
     "diagram": 29,
     "dropped-glyph": 7,
     "empty": 11,
+    "stacked-matrix": 7,
     "tall-delimiter": 9
   },
   "flagged_pages": [
@@ -88,6 +89,20 @@
       "pdf_page": 151,
       "flags": [
         "empty"
+      ]
+    },
+    {
+      "pdf_page": 162,
+      "page_label": "A VIII.145",
+      "flags": [
+        "stacked-matrix"
+      ]
+    },
+    {
+      "pdf_page": 189,
+      "page_label": "A VIII.172",
+      "flags": [
+        "stacked-matrix"
       ]
     },
     {
@@ -358,10 +373,18 @@
       ]
     },
     {
+      "pdf_page": 451,
+      "page_label": "A VIII.434",
+      "flags": [
+        "stacked-matrix"
+      ]
+    },
+    {
       "pdf_page": 471,
       "page_label": "A VIII.454",
       "flags": [
-        "dropped-glyph"
+        "dropped-glyph",
+        "stacked-matrix"
       ]
     },
     {
@@ -382,14 +405,23 @@
       "pdf_page": 474,
       "page_label": "A VIII.457",
       "flags": [
-        "dropped-glyph"
+        "dropped-glyph",
+        "stacked-matrix"
+      ]
+    },
+    {
+      "pdf_page": 476,
+      "page_label": "A VIII.459",
+      "flags": [
+        "stacked-matrix"
       ]
     },
     {
       "pdf_page": 477,
       "page_label": "A VIII.460",
       "flags": [
-        "dropped-glyph"
+        "dropped-glyph",
+        "stacked-matrix"
       ]
     }
   ],
