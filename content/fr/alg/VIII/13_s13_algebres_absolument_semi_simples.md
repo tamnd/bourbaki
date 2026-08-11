@@ -45,7 +45,7 @@ subsections:
       pdf_page: 242
 statements: 33
 exercises: 12
-content_sha256: eb3611e9cc85a6e0af06c4e7d5baddd1c58c365c9b9e4f0f82cd5bc500f2cc85
+content_sha256: f5088f7279ca65b20fe32f24ade6eeb64cdb4ad537e7d38310c8c513ac2e60d6
 ---
 
 ## § 13. ALGÈBRES ABSOLUMENT SEMI-SIMPLES
@@ -162,7 +162,7 @@ Les implications (iii) $=\Rightarrow$ (ii) $=\Rightarrow$ (i) résultent de la p
 
 Soient L un corps algébriquement clos et D un corps contenant L dans son centre. Si D est distinct de L, il existe une extension $L'$ de L telle que l’anneau $D\otimes_LL'$ ne soit pas artinien à gauche.
 
-Soit $x$ un élément de D L ; comme L est algébriquement clos, l’extension $L'= L(x)$ de L n’est pas algébrique et $x$ est transcendant sur L. L’anneau $B = L'\otimes_LL'$ est alors intègre d’après la prop. 5 de V, p. 135.
+Soit $x$ un élément de D - L ; comme L est algébriquement clos, l’extension $L'= L(x)$ de L n’est pas algébrique et $x$ est transcendant sur L. L’anneau $B = L'\otimes_LL'$ est alors intègre d’après la prop. 5 de V, p. 135.
 
 L’élément $y=x\otimes 1-1\otimes x$ de B n’est pas nul ; mais si $\varphi$ est l’homomorphisme de B dans $L'$ qui transforme $\xi \otimes \eta$ en $\xi \eta$, on a $\varphi (y) = 0$, donc $y$ n’est pas inversible dans B. Considérons l’anneau $C = D\otimes_LL'$ comme module à droite sur son sous-anneau B ; c’est un module libre puisque D est un espace vectoriel à droite sur son sous-corps $L'$. Comme $y$ est un élément non nul et non inversible de l’anneau intègre B, la multiplication à droite par $y$ dans C est une application $R_y$ qui est injective, mais non bijective. Or $R_y$ est un endomorphisme du C-module à gauche $C_s$; par suite (VIII, p. 26, cor. 1), l’anneau C n’est pas artinien à gauche.
 

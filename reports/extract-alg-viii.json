@@ -434,5 +434,7 @@
     503,
     504,
     505
-  ]
+  ],
+  "set_difference_placed": 70,
+  "set_difference_unplaced": 0
 }

@@ -22,7 +22,7 @@ subsections:
       pdf_page: 374
 statements: 10
 exercises: 7
-content_sha256: 0161854a8b55ea87040a1f36848bd0aaaadf111a111cbfa341a1275ce12e76f7
+content_sha256: d4700786256eef79802f6ec5428136458c4a1a938987f740bd480d90cf2baa86
 ---
 
 ## § 18. SIMPLE ALGEBRAS OVER A FINITE FIELD
@@ -117,7 +117,7 @@ $$
 [D : K] = [L : K]^2= [L_1: K]^2
 $$
 
-by Corollary 2 of VIII, p. 265, and therefore $[L : K] = [L_1: K]$. By Proposition 3 of V, §12, No. 2, p. 94, the extensions L and $L_1$ of K are isomorphic. By VIII, p. 263, Corollary, there exists an element $a$ of $D^*$ such that $aLa^{-1}= L_1$, so $a^{-1}xa$ belongs to L. We then have $(ay)^{-1}x(ay) =a^{-1}xa$ for every $y\in L^*$. Consequently, if S is a set of representatives of the left cosets of $D^*$ modulo $L^*$, then every element of $D^*\{1\}$ can be written as $sxs^{-1}$ with $s\in S$ and $x\in L^*\{1\}$. We denote the order of $D^*$ by $d$ and that of $L^*$ by $\ell$. Since the cardinal of S is equal to $d/\ell$, we have $d-1\leqslant (d/\ell )(\ell -1) =d-d/\ell$. It follows that $\ell =d$, and therefore L = D, which proves that the field D is commutative.
+by Corollary 2 of VIII, p. 265, and therefore $[L : K] = [L_1: K]$. By Proposition 3 of V, §12, No. 2, p. 94, the extensions L and $L_1$ of K are isomorphic. By VIII, p. 263, Corollary, there exists an element $a$ of $D^*$ such that $aLa^{-1}= L_1$, so $a^{-1}xa$ belongs to L. We then have $(ay)^{-1}x(ay) =a^{-1}xa$ for every $y\in L^*$. Consequently, if S is a set of representatives of the left cosets of $D^*$ modulo $L^*$, then every element of $D^*-\{1\}$ can be written as $sxs^{-1}$ with $s\in S$ and $x\in L^*-\{1\}$. We denote the order of $D^*$ by $d$ and that of $L^*$ by $\ell$. Since the cardinal of S is equal to $d/\ell$, we have $d-1\leqslant (d/\ell )(\ell -1) =d-d/\ell$. It follows that $\ell =d$, and therefore L = D, which proves that the field D is commutative.
 
 #### Remark 2 {#alg-viii-s18-n2-rem-2 .statement tag=00LH}
 

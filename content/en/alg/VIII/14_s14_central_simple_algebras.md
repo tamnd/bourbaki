@@ -46,7 +46,7 @@ subsections:
       pdf_page: 283
 statements: 36
 exercises: 19
-content_sha256: c5d9ae7a2b4901eb65f4f92e449ed61279e05b6707d4441642986fa92e7649ad
+content_sha256: f29892336513d29f86ad06eafe7589eea723bfabcf132587ab68e4a90708dff4
 ---
 
 ## § 14. CENTRAL SIMPLE ALGEBRAS
@@ -451,7 +451,7 @@ If every vector space $V_i$ has dimension 1 over D, then we have
 
 [L : K] = Card(I) = dim$_D(V)$,
 
-so L is maximal among the diagonalizable subalgebras of End$_D(V)$. In the opposite case, there exists an index $j\in I$ such that dim$_D(V_j)\geqslant 2$. Choose two nonzero linear subspaces $V'_j$ and $V''_j$ of $V_j$ with direct sum $V_j$. The diagonalizable subalgebra of End$_D(V)$ associated with the direct sum decomposition $V = (\oplus_{i\in I\{j\}}V_i)\oplus V'_j\oplus V''_j$ contains L and is not equal to L; assertion a) follows.
+so L is maximal among the diagonalizable subalgebras of End$_D(V)$. In the opposite case, there exists an index $j\in I$ such that dim$_D(V_j)\geqslant 2$. Choose two nonzero linear subspaces $V'_j$ and $V''_j$ of $V_j$ with direct sum $V_j$. The diagonalizable subalgebra of End$_D(V)$ associated with the direct sum decomposition $V = (\oplus_{i\in I-\{j\}}V_i)\oplus V'_j\oplus V''_j$ contains L and is not equal to L; assertion a) follows.
 
 The commutant $L'$ of L in End$_D(V)$ consists of the endomorphisms of the form $(x_i)\mapsto (u_i(x_i))$, with $(u_i)\in \prod_{i\in I}$ End$_D(V_i)$. The algebra L is a maximal commutative subalgebra of End$_D(V)$ if and only if we have $L = L'$ (VIII, p. 261, Lemma 3, a)). This relation is therefore equivalent to “End$_D(V_i) = K$ for every $i\in$ I”; assertion b) follows.
 

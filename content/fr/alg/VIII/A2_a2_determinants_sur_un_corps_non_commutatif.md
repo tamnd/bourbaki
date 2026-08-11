@@ -34,7 +34,7 @@ subsections:
       pdf_page: 447
 statements: 18
 exercises: 4
-content_sha256: 5e246657d5184f11e650e743ed00ae08b3994123fd5246e1a147d155ecee5137
+content_sha256: a865644034e55500ad68d03794a557421d80623bc68b5b423dc41df5b316bd5c
 ---
 
 ### APPENDICE 2 DÉTERMINANTS SUR UN CORPS NON COMMUTATIF
@@ -127,7 +127,7 @@ Dans ce numéro, pour tout entier strictement positif $m$, tout entier $i$ de l�
 
 #### Proposition 1 {#alg-viii-a2-prop-1 .statement tag=00Q1}
 
-Soient W un hyperplan de V et $e$ un vecteur de V W. Soit $\varphi$ un élément de Ω(W). Il existe un élément $\omega$ de Ω(V), et un seul, tel que l’on ait (7) $\omega (w_1, . . . , w_{n-1}, e) =\varphi (w_1, . . . , w_{n-1})$
+Soient W un hyperplan de V et $e$ un vecteur de V - W. Soit $\varphi$ un élément de Ω(W). Il existe un élément $\omega$ de Ω(V), et un seul, tel que l’on ait (7) $\omega (w_1, . . . , w_{n-1}, e) =\varphi (w_1, . . . , w_{n-1})$
 
 pour toute base de $(w_1, . . . , w_{n-1})$de W.
 

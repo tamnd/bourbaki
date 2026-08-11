@@ -29,7 +29,7 @@ subsections:
       pdf_page: 147
 statements: 30
 exercises: 6
-content_sha256: a419d966cdd4a16f71ca58319af342226f880fefee529f98c2c89e7a1b3d0d2b
+content_sha256: 8e340e997340087ad77e28cd629e0d9ec083eb1573852bd5c7578e148dbcf538
 ---
 
 ## § 8. ANNEAUX SEMI-SIMPLES
@@ -228,11 +228,11 @@ a) Ordonnons par inclusion l’ensemble $\mathfrak{P}(\mathscr{S})$des parties d
 
 b) Les idéaux bilatères minimaux de A sont les idéaux $\mathfrak{a}_{\lambda}$.
 
-c) Pour tout $\lambda \in \mathscr{S}$, on a $\mathfrak{b}_{\lambda}=\mathfrak{a}_{\mathscr{S}\{\lambda\}}$, et les idéaux $\mathfrak{b}_{\lambda}$ sont les idéaux bilatères maximaux de A.
+c) Pour tout $\lambda \in \mathscr{S}$, on a $\mathfrak{b}_{\lambda}=\mathfrak{a}_{\mathscr{S}-\{\lambda\}}$, et les idéaux $\mathfrak{b}_{\lambda}$ sont les idéaux bilatères maximaux de A.
 
 d) Pour tout $\lambda \in \mathscr{S}$, l’application canonique de A sur $A/\mathfrak{b}_{\lambda}$ induit un isomorphisme de A-modules de $\mathfrak{a}_{\lambda}$ sur $A/\mathfrak{b}_{\lambda}$.
 
-L’assertion a) résulte de la prop. 8, d) de VIII, p. 82 appliquée au A-module $A_s$. Il en résulte que les idéaux bilatères minimaux de A sont les $\mathfrak{a}_{\lambda}$ et que les idéaux bilatères maximaux sont les idéaux $\mathfrak{c}_{\lambda}=a_{\mathscr{S}\lambda}$ (pour $\lambda \in \mathscr{S})$.
+L’assertion a) résulte de la prop. 8, d) de VIII, p. 82 appliquée au A-module $A_s$. Il en résulte que les idéaux bilatères minimaux de A sont les $\mathfrak{a}_{\lambda}$ et que les idéaux bilatères maximaux sont les idéaux $\mathfrak{c}_{\lambda}=a_{\mathscr{S}-\lambda}$ (pour $\lambda \in \mathscr{S})$.
 
 Il reste à établir, pour tout $\lambda \in \mathscr{S}$, l’égalité de $\mathfrak{b}_{\lambda}$ et $\mathfrak{c}_{\lambda}$. Soient $\lambda$ et $\mu$ distincts dans $\mathscr{S}$. Le sous-A-module $\mathfrak{a}_{\mu}S_{\lambda}$ de $S_{\lambda}$ est réunion des images des applications linéaires $a\rightarrow ax$ de $\mathfrak{a}_{\mu}$ dans $S_{\lambda}$, pour $x\in S_{\lambda}$. Par suite il est nul et l’on a $\mathfrak{a}_{\mu}\subset \mathfrak{b}_{\lambda}$. On en déduit $\mathfrak{c}_{\lambda}\subset \mathfrak{b}_{\lambda}$ et finalement $\mathfrak{c}_{\lambda}=\mathfrak{b}_{\lambda}$ puisque $\mathfrak{c}_{\lambda}$ est un idéal bilatère maximal de A et que $\mathfrak{b}_{\lambda}$ est distinct de A.
 
@@ -302,9 +302,9 @@ g) l’ensemble des idéaux maximaux de Z.
 
 #### Proposition 12 {#alg-viii-s8-prop-12 .statement tag=009N}
 
-Soient M un module sur l’anneau semi-simple A et $\mathscr{S}_M\subset \mathscr{S}$ le support de M. Alors l’annulateur Ann(M) de M est l’idéal bilatère $\sum_{\lambda\in\mathscr{S} \mathscr{S}_M}\mathfrak{a}_{\lambda}$ et l’idéal trace $\tau (M)$de M est l’idéal bilatère $\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$. En particulier, A est somme directe de Ann(M) et $\tau (M)$.
+Soient M un module sur l’anneau semi-simple A et $\mathscr{S}_M\subset \mathscr{S}$ le support de M. Alors l’annulateur Ann(M) de M est l’idéal bilatère $\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$ et l’idéal trace $\tau (M)$de M est l’idéal bilatère $\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$. En particulier, A est somme directe de Ann(M) et $\tau (M)$.
 
-Par définition (VIII, p. 80$),\mathscr{S}_M$ se compose des classes des sous-modules simples de M. Comme le module M est semi-simple, l’annulateur de M est l’intersection des annulateurs $\mathfrak{b}_{\lambda}$ des modules de classe $\lambda$, pour $\lambda$ parcourant$\mathscr{S}_M$. Or on a $\mathfrak{b}_{\lambda}=\sum_{\mu\not=\lambda}\mathfrak{a}_{\mu}$ pour tout $\lambda \in \mathscr{S}$ (VIII, p. 137, prop. 9). Comme A est somme directe de la famille $(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$, l’annulateur de M est bien égal à $\sum_{\lambda\in\mathscr{S} \mathscr{S}_M}\mathfrak{a}_{\lambda}$.
+Par définition (VIII, p. 80$),\mathscr{S}_M$ se compose des classes des sous-modules simples de M. Comme le module M est semi-simple, l’annulateur de M est l’intersection des annulateurs $\mathfrak{b}_{\lambda}$ des modules de classe $\lambda$, pour $\lambda$ parcourant$\mathscr{S}_M$. Or on a $\mathfrak{b}_{\lambda}=\sum_{\mu\not=\lambda}\mathfrak{a}_{\mu}$ pour tout $\lambda \in \mathscr{S}$ (VIII, p. 137, prop. 9). Comme A est somme directe de la famille $(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$, l’annulateur de M est bien égal à $\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$.
 
 Par définition (VIII, p. 75), l’idéal trace $\tau (M)$ est le sous-A-module de $A_s$ engendré par les images des applications A-linéaires de M dans $A_s$. Il revient au même, puisque M est semi-simple, de dire que $\tau (M)$ est engendré par les sous-modules simples de $A_s$ dont la classe appartient à $\mathscr{S}_M$. On a donc $\tau (M) =\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$.
 

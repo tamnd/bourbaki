@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: 6a5c15f71ef26535119d5a6f14f18777efb6433e5e32d391ad2bd9d01e3dbb23
+content_sha256: 80dd7529d12dba3cf7654ed79c564c0f34292242afd1e8d15f4f1ef57cbc0aa0
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -254,7 +254,7 @@ Considérons K[G] comme un $(K[G]$, K[H])-bimodule et M comme un K[H]module. Le 
 
 Considérons K[G] comme un $(K[H]$, K[G])-bimodule. Le K[G]-module $\mathscr{H}(M) =$ Hom$_{K[H]}(K[G],M)$ définit une représentation de G, notée Coïnd$^G_H(\sigma )$ et qu’on appelle la représentation de G coïnduite par $\sigma$. Si $(V, \pi )$ est une représentation linéaire de G, le K[H]-module $\mathscr{T}(V) = K[G]\otimes_{K[G]}V$ s’identifie au K[H]-module correspondant à la représentation Res$^G_H(\pi )$. Par conséquent, le morphisme d’adjonction (loc. cit.) fournit un isomorphisme dit canonique de K-modules de Hom$_H$(Res$^G_H(\pi ), \sigma )$ sur Hom$_G(\pi$, Coïnd$^G_H(\sigma ))$.
 
-Soit $\varepsilon : K[G]\rightarrow K[H]$ l’homomorphisme de K-modules caractérisé par les relations $\varepsilon (h) =h$ si $h\in H$ et $\varepsilon (g) = 0$ si $g\in G$ H. L’application $\varepsilon$ est un homomorphisme de $(K[H]$, K[H])-bimodules. Soit $(M, \sigma )$ une représentation linéaire de H. L’application $v\rightarrow v\circ \varepsilon$ de Hom$_{K[H]}(K[H],M)$ dans Hom$_{K[H]}(K[G],M)$ est un homomorphisme de K[H]-modules. En identifiant M avec Hom$_{K[H]}(K[H],M)$, on obtient un homomorphisme de K[H]-modules de M dans Res$^G_H$(Coïnd$^G_H(\sigma ))$. La réciprocité de Frobenius lui associe un homomorphisme $\iota$ de K[G]-modules de Ind$^G_H(\sigma )$ dans Coïnd$^G_H(\sigma )$ qui est caractérisé par les relations
+Soit $\varepsilon : K[G]\rightarrow K[H]$ l’homomorphisme de K-modules caractérisé par les relations $\varepsilon (h) =h$ si $h\in H$ et $\varepsilon (g) = 0$ si $g\in G$ - H. L’application $\varepsilon$ est un homomorphisme de $(K[H]$, K[H])-bimodules. Soit $(M, \sigma )$ une représentation linéaire de H. L’application $v\rightarrow v\circ \varepsilon$ de Hom$_{K[H]}(K[H],M)$ dans Hom$_{K[H]}(K[G],M)$ est un homomorphisme de K[H]-modules. En identifiant M avec Hom$_{K[H]}(K[H],M)$, on obtient un homomorphisme de K[H]-modules de M dans Res$^G_H$(Coïnd$^G_H(\sigma ))$. La réciprocité de Frobenius lui associe un homomorphisme $\iota$ de K[G]-modules de Ind$^G_H(\sigma )$ dans Coïnd$^G_H(\sigma )$ qui est caractérisé par les relations
 
 $$
 \iota (g\otimes m)(g') =\varepsilon (g'g)m
@@ -280,7 +280,7 @@ Il en résulte que $\iota$ est injective.
 
 Supposons que H est d’indice fini dans G. L’ensemble S est alors fini ; soit $\rho$ l’application de Coïnd$^G_H(\sigma )$ dans Ind$^G_H(\sigma )$ donnée par $u\rightarrow \sum_{s\in S}s\otimes u(s^{-1})$. Elle vérifie $(\iota \circ \rho (u))(s^{-1}) =u(s^{-1})$ pour $u\in$ Coïnd$^G_H(\sigma )$ et $s\in S$. Comme la famille $(s^{-1})_{s\in S}$ est une base de K[H]-module à gauche K[G], l’application $\iota \circ \rho$ est l’application identique. Par suite, $\iota$ est bijective de bijection réciproque $\rho$.
 
-Soit H un sous-groupe d’indice fini de G. Soit $u$ une fonction centrale sur H ; notons $u^0$ la fonction sur G qui prolonge $u$ et qui s’annule en tout point de G H. Soit S un système de représentants de $G/H$. Pour $g\in G$, posons
+Soit H un sous-groupe d’indice fini de G. Soit $u$ une fonction centrale sur H ; notons $u^0$ la fonction sur G qui prolonge $u$ et qui s’annule en tout point de G- H. Soit S un système de représentants de $G/H$. Pour $g\in G$, posons
 
 (4) Ind$^G_H(u)(g) =\sum_{s\in S}u^0(s^{-1}gs)$.
 
@@ -688,7 +688,7 @@ Soient $(V, \pi )$ une représentation simple de G et $\chi$ son caractère. Pou
 
 Soit L une extension de $\mathbf{Q}$. Soit A un sous-anneau de L. On suppose que A est un $\mathbf{Z}$-module de type fini. On a $A\cap \mathbf{Q} = \mathbf{Z}$.
 
-Comme le $\mathbf{Z}$-module $A\cap \mathbf{Q}$est de type fini, il existe un entier N strictement positif tel que $A\cap \mathbf{Q}$soit contenu dans $_N^1\mathbf{Z}$. Soit $x$ un élément de $\mathbf{Q}\mathbf{Z}$; écrivons $x=^p_q$, où $p$ et $q$ sont des entiers premiers entre eux et $q\geqslant 2$. On a $q^N\geqslant 2^N>N$ (E, III, p. 30, th. 2), les entiers $p^N$ et $q^N$ sont premiers entre eux et par suite $x^N\in /_N^1\mathbf{Z}$. Par conséquent $x$ n’appartient pas à A, d’où le lemme.
+Comme le $\mathbf{Z}$-module $A\cap \mathbf{Q}$est de type fini, il existe un entier N strictement positif tel que $A\cap \mathbf{Q}$soit contenu dans $_N^1\mathbf{Z}$. Soit $x$ un élément de $\mathbf{Q}-\mathbf{Z}$; écrivons $x=^p_q$, où $p$ et $q$ sont des entiers premiers entre eux et $q\geqslant 2$. On a $q^N\geqslant 2^N>N$ (E, III, p. 30, th. 2), les entiers $p^N$ et $q^N$ sont premiers entre eux et par suite $x^N\in /_N^1\mathbf{Z}$. Par conséquent $x$ n’appartient pas à A, d’où le lemme.
 
 Nous étendrons au numéro suivant la proposition 9 au cas où l’on suppose seulement que la caractéristique de K ne divise pas l’ordre de G.
 

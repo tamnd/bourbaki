@@ -33,7 +33,7 @@ subsections:
       pdf_page: 45
 statements: 36
 exercises: 19
-content_sha256: a367baf6b71175e84356c587d97c95af13de4fbc25a011cffd1aabb6b153a0b4
+content_sha256: fd3e394602da6e71aad5de6ee7324db7ff388191fb53db1d7b833c4ff9dd9421
 ---
 
 ## § 2. STRUCTURE DES MODULES DE LONGUEUR FINIE
@@ -58,7 +58,7 @@ L’implication (i) $=\Rightarrow$ (ii) résulte de la définition d’un idéal
 
 On a $\mathfrak{r}\not= A$, et l’ensemble $\mathfrak{r}$ contient tout idéal à gauche de A distinct de A. Si $\mathfrak{r}$ est un idéal à gauche de A, c’est donc l’unique idéal à gauche maximal de A. Cela prouve que (i) entraîne (iii).
 
-Supposons que A possède un unique idéal à gauche maximal $\mathfrak{m}$. Soit $b\in A\mathfrak{m}$. L’idéal à gauche $Ab$ n’est contenu dans aucun idéal à gauche maximal de A, donc est égal à A (I, p. 99, th. 1) et $b$ est inversible à gauche. Quel que soit $a\in A$, l’un des éléments $a$ ou $1-a$ appartient à A $\mathfrak{m}$, car $\mathfrak{m}$ est un idéal qui ne contient pas 1. Ainsi (iii) implique (v).
+Supposons que A possède un unique idéal à gauche maximal $\mathfrak{m}$. Soit $b\in A-\mathfrak{m}$. L’idéal à gauche $Ab$ n’est contenu dans aucun idéal à gauche maximal de A, donc est égal à A (I, p. 99, th. 1) et $b$ est inversible à gauche. Quel que soit $a\in A$, l’un des éléments $a$ ou $1-a$ appartient à A $-\mathfrak{m}$, car $\mathfrak{m}$ est un idéal qui ne contient pas 1. Ainsi (iii) implique (v).
 
 Supposons la propriété (v) satisfaite. Soit $b$ un élément de A inversible à gauche. Soit $c\in A$ tel que $cb= 1$. On a $(1-bc)b= 0$ et $b\not= 0$, donc $1-bc$ n’est pas inversible à gauche. D’après la propriété (v), $bc$ est inversible à gauche et, a fortiori, $c$ est inversible à gauche. Mais alors $c$ est inversible, $b$ est son inverse, de sorte que $b$ est inversible. Il en résulte que (v) entraîne (iv).
 
@@ -66,7 +66,7 @@ Il reste à prouver que (iv) implique (i). Supposons (iv) satisfaite. Alors $\ma
 
 a) On a $0\in \mathfrak{r}$ puisque l’anneau A n’est pas nul.
 
-b) Le produit de deux éléments de A dont l’un appartient à $\mathfrak{r}$ et l’autre à A $\mathfrak{r}$ appartient à $\mathfrak{r}$.
+b) Le produit de deux éléments de A dont l’un appartient à $\mathfrak{r}$ et l’autre à A$-\mathfrak{r}$ appartient à $\mathfrak{r}$.
 
 c) L’ensemble $\mathfrak{r}$ est stable par addition.
 
@@ -264,11 +264,11 @@ Soit M un A-module, somme directe d’une famille $(M_i)_{i\in I}$ de sous-modul
 
 a) Il existe un indice $i\in I$tel que $u$ induise un isomorphisme de $M_i$ sur un sous-module facteur direct de M.
 
-b) Pour toute partie finie J de I$,v$ induit un isomorphisme de $M_J$ sur un sous-module supplémentaire de $M_{I J}$.
+b) Pour toute partie finie J de I$,v$ induit un isomorphisme de $M_J$ sur un sous-module supplémentaire de $M_{I-J}$.
 
 Si la propriété b) est satisfaite, $v$ est injectif.
 
-Supposons que la propriété a) soit fausse et établissons la propriété b) par récurrence sur le cardinal de J. Il n’y a rien à prouver si $J =\emptyset$. Supposons donc J non vide, choisissons un élément $i$ de J et posons $J'= J\{i\}$. Par l’hypothèse de récurrence, $v$ induit un isomorphisme de $M_{J'}$ sur un sous-module de M supplémentaire de $M_{I J'}= M_{I J}\oplus M_i$; par suite, le sous-module $M''=v(M_{J'})\oplus M_{I J}$ est supplémentaire de $M_i$. D’après le lemme 1 et l’hypothèse faite sur $u$, l’endomorphisme $v$ induit un isomorphisme de $M_i$ sur un sous-module de M supplémentaire de $M''$; par suite, $v$ induit un isomorphisme de $M_J= M_i\oplus M_{J'}$ sur un sous-module supplémentaire de $M_{I J}$.
+Supposons que la propriété a) soit fausse et établissons la propriété b) par récurrence sur le cardinal de J. Il n’y a rien à prouver si $J =\emptyset$. Supposons donc J non vide, choisissons un élément $i$ de J et posons $J'= J-\{i\}$. Par l’hypothèse de récurrence, $v$ induit un isomorphisme de $M_{J'}$ sur un sous-module de M supplémentaire de $M_{I-J'}= M_{I-J}\oplus M_i$; par suite, le sous-module $M''=v(M_{J'})\oplus M_{I-J}$ est supplémentaire de $M_i$. D’après le lemme 1 et l’hypothèse faite sur $u$, l’endomorphisme $v$ induit un isomorphisme de $M_i$ sur un sous-module de M supplémentaire de $M''$; par suite, $v$ induit un isomorphisme de $M_J= M_i\oplus M_{J'}$ sur un sous-module supplémentaire de $M_{I-J}$.
 
 La dernière assertion résulte de ce que M est réunion des sous-modules $M_J$, où J parcourt l’ensemble des parties finies de I.
 
@@ -284,13 +284,13 @@ Soient M un A-module, somme directe d’une famille $(M_i)_{i\in I}$ de sous-mod
 
 (1) Card(J) $\leqslant$ Card(I$_L)$.
 
-Soit $N_0$ un sous-module de M supplémentaire de N. Le module M est somme directe de $N_0$ et de la famille $(N_j)_{j\in J}$. Pour tout $j\in J$, notons $p_j$ le projecteur de M d’image $N_j$ associé à cette décomposition (II, p. 18, prop. 12). Pour tout $i\in I$, notons $J(i)$ l’ensemble des indices $j\in J$ tels que $p_j$ induise un isomorphisme de $M_i$ sur $N_j$. Cet ensemble est fini : en effet, si $x$ est un élément non nul de $M_i$ et K une partie finie de J telle que $x$ appartienne à $N_0+\sum_{k\in K}N_k$, on a $p_j(x) = 0$ pour $j\in J$ K, de sorte que $J(i)$ est contenu dans K.
+Soit $N_0$ un sous-module de M supplémentaire de N. Le module M est somme directe de $N_0$ et de la famille $(N_j)_{j\in J}$. Pour tout $j\in J$, notons $p_j$ le projecteur de M d’image $N_j$ associé à cette décomposition (II, p. 18, prop. 12). Pour tout $i\in I$, notons $J(i)$ l’ensemble des indices $j\in J$ tels que $p_j$ induise un isomorphisme de $M_i$ sur $N_j$. Cet ensemble est fini : en effet, si $x$ est un élément non nul de $M_i$ et K une partie finie de J telle que $x$ appartienne à $N_0+\sum_{k\in K}N_k$, on a $p_j(x) = 0$ pour $j\in J$ - K, de sorte que $J(i)$ est contenu dans K.
 
 Soit $j\in J$. D’après le lemme 3, il existe un indice $i\in I$ tel que $p_j$ induise un isomorphisme de $M_i$ sur un sous-module facteur direct de $N_j$. Comme $M_i$ n’est pas nul et que $N_j$ est primordial, donc indécomposable (VIII, p. 28, prop. 4), on a $p_j(M_i) = N_j$, et $j$ appartient à $J(i)$. Comme le module $M_i$ est isomorphe à $N_j$, donc à L, l’indice $i$ appartient à $I_L$. Cela démontre que J est réunion de la famille d’ensembles finis $(J(i))_{i\in I_L}$. Si l’ensemble J est infini, l’ensemble $I_L$ est infini, et l’on a (E, III, p. 49, cor. 3)
 
 Card(J) $\leqslant_i\sum_{\in I_L}$ Card(J($i$))$\leqslant$ Card(I$_L)$.
 
-Supposons maintenant l’ensemble J fini, et démontrons le lemme par récurrence sur le cardinal de J. Si J est vide, il n’y a rien à prouver. Supposons donc J non vide et choisissons un élément $j$ de J. D’après ce qui précède, il existe un indice $i\in I_L$ tel que $p_j$ induise un isomorphisme de $M_i$ sur $N_j$. Posons $I'= I\{i\}$ et $J'= J\{j\}$. Le module M est somme directe de $M_i$ et du noyau de $p_j$. Il est aussi somme directe de $M_i$ et du sous-module $M'=\oplus_{i'\in I'}M_{i'}$. Il existe donc (II, p. 20, cor. de la prop. 13) un$(\sum)$ isomorphisme $\varphi$ de Ker$p_j= N_0\oplus_{j'\in J'}N_{j'}$ sur $M'$. Posons $N'=\varphi_{j'\in J'}N_{j'}$. Le sous-module $N'$ est facteur direct de $M'$ et est somme directe de la famille $(\varphi (N_{j'}))_{j'\in J'}$ de sous-modules primordiaux isomorphes à L. Appliquons l’hypothèse de récurrence à $M'$ et $N':$ on a Card(J$')\leqslant$ Card(I$_L\{i\})$, d’où l’inégalité (1).
+Supposons maintenant l’ensemble J fini, et démontrons le lemme par récurrence sur le cardinal de J. Si J est vide, il n’y a rien à prouver. Supposons donc J non vide et choisissons un élément $j$ de J. D’après ce qui précède, il existe un indice $i\in I_L$ tel que $p_j$ induise un isomorphisme de $M_i$ sur $N_j$. Posons $I'= I-\{i\}$ et $J'= J-\{j\}$. Le module M est somme directe de $M_i$ et du noyau de $p_j$. Il est aussi somme directe de $M_i$ et du sous-module $M'=\oplus_{i'\in I'}M_{i'}$. Il existe donc (II, p. 20, cor. de la prop. 13) un$(\sum)$ isomorphisme $\varphi$ de Ker$p_j= N_0\oplus_{j'\in J'}N_{j'}$ sur $M'$. Posons $N'=\varphi_{j'\in J'}N_{j'}$. Le sous-module $N'$ est facteur direct de $M'$ et est somme directe de la famille $(\varphi (N_{j'}))_{j'\in J'}$ de sous-modules primordiaux isomorphes à L. Appliquons l’hypothèse de récurrence à $M'$ et $N':$ on a Card(J$')\leqslant$ Card(I$_L-\{i\})$, d’où l’inégalité (1).
 
 Prouvons le théorème 1. Soient $(M_i)_{i\in I}$ et $(N_j)_{j\in J}$ deux familles de sous-modules primordiaux dont M soit la somme directe. Soit $I_L$ (resp. $J_L)$ l’ensemble des $i\in I$ (resp. $j\in J)$ tels que $M_i$ (resp. $N_j)$ soit isomorphe à L. On a Card(J$_L)\leqslant$ Card(I$_L)$ d’après le lemme 4. En échangeant les rôles de I et J on obtient l’inégalité opposée, d’où le théorème.
 
@@ -344,11 +344,11 @@ Soit M un module semi-primordial, somme directe d’une famille finie $(M_i)_{i\
 
 a) Il existe une partie J de I telle que $M_J$ soit un sous-module supplémentaire de N.
 
-b) Soit J une partie de I. Si $M_J$ est un supplémentaire de N, alors le module N est isomorphe à $M_{I J}$ et est semi-primordial.
+b) Soit J une partie de I. Si $M_J$ est un supplémentaire de N, alors le module N est isomorphe à $M_{I-J}$ et est semi-primordial.
 
-Notons K l’ensemble des indices $i\in I$ tels que $N\cap M_i= 0$ et raisonnons par récurrence sur le cardinal de K. Le corollaire est clair si M = N . Supposons $M\not= N$. Soit $p$ un projecteur de M de noyau N. Notons P son image. Elle n’est pas nulle, et d’après le lemme 3, il existe $j\in I$ tel que $p$ induise un isomorphisme de $M_j$ sur un sous-module facteur direct de P. On a $N\cap M_j= 0$. Posons $N'= N\oplus M_j$. On a $N'= N\oplus p(M_j)$. Un sous-module supplémentaire de $p(M_j)$ dans P est aussi supplémentaire de $N'$ dans M, de sorte que $N'$ est un sous-module facteur direct de M. L’ensemble des indices $i\in I$ tels que $N'\cap M_i= 0$ est contenu dans K $\{j\}$. D’après l’hypothèse de récurrence, il existe une partie $J'$ de I telle que $M_{J'}$ soit un sous-module supplémentaire de $N'$ dans M. Posons $J = J'\cup  \{j\}$. Alors $M_J$ est un sous-module supplémentaire de N dans M.
+Notons K l’ensemble des indices $i\in I$ tels que $N\cap M_i= 0$ et raisonnons par récurrence sur le cardinal de K. Le corollaire est clair si M = N . Supposons $M\not= N$. Soit $p$ un projecteur de M de noyau N. Notons P son image. Elle n’est pas nulle, et d’après le lemme 3, il existe $j\in I$ tel que $p$ induise un isomorphisme de $M_j$ sur un sous-module facteur direct de P. On a $N\cap M_j= 0$. Posons $N'= N\oplus M_j$. On a $N'= N\oplus p(M_j)$. Un sous-module supplémentaire de $p(M_j)$ dans P est aussi supplémentaire de $N'$ dans M, de sorte que $N'$ est un sous-module facteur direct de M. L’ensemble des indices $i\in I$ tels que $N'\cap M_i= 0$ est contenu dans K$-\{j\}$. D’après l’hypothèse de récurrence, il existe une partie $J'$ de I telle que $M_{J'}$ soit un sous-module supplémentaire de $N'$ dans M. Posons $J = J'\cup  \{j\}$. Alors $M_J$ est un sous-module supplémentaire de N dans M.
 
-Soit J une partie de I telle que $M_J$ soit un sous-module supplémentaire de M dans N. Comme $M_J$ est également supplémentaire de $M_{I J}$, les modules N et $M_{I J}$ sont isomorphes et N est semi-primordial.
+Soit J une partie de I telle que $M_J$ soit un sous-module supplémentaire de M dans N. Comme $M_J$ est également supplémentaire de $M_{I-J}$, les modules N et $M_{I-J}$ sont isomorphes et N est semi-primordial.
 
 #### Corollaire 6 {#alg-viii-s2-lem-4-cor-6 .statement tag=002H}
 
@@ -372,7 +372,7 @@ a) Il existe une famille finie $(M_i)_{i\in I}$ de sous-modules indécomposables
 
 b) Soient $(M_i)_{i\in I}$ et $(M'_j)_{j\in J}$ deux familles finies de sous-modules indécomposables de M telles que $M =\bigoplus_{i\in I}M_i=\bigoplus_{j\in J}M'_j$. Il existe une bijection $\sigma$ de I sur J et un automorphisme $u$ de M tels que l’on ait $u(M_i) = M'_{\sigma(i)}$ pour tout $i\in I$.
 
-c) Soit N un sous-module facteur direct de M et soit $(M_i)_{i\in I}$ une famille finie de sous-modules indécomposables de M dont M soit somme directe. Il existe une partie J de I telle que $\bigoplus_{i\in I J}M_i$ soit un supplémentaire de N. Le module N est isomorphe à $\bigoplus_{j\in J}M_j$.
+c) Soit N un sous-module facteur direct de M et soit $(M_i)_{i\in I}$ une famille finie de sous-modules indécomposables de M dont M soit somme directe. Il existe une partie J de I telle que $\bigoplus_{i\in I-J}M_i$ soit un supplémentaire de N. Le module N est isomorphe à $\bigoplus_{j\in J}M_j$.
 
 d) Soit N un A-module. S’il existe un entier $d >0$tel que les modules $M^d$ et $N^d$ soient isomorphes, alors les modules M et N sont isomorphes.
 

@@ -34,7 +34,7 @@ subsections:
       pdf_page: 384
 statements: 16
 exercises: 8
-content_sha256: 86c51ecdb9c0654b7292c4db1a628e83f342c1986a4f7d14f581b0e7fc2aa351
+content_sha256: aa4462cd2da5f6be9ccb696de6ee50998cbbdb8bf55e92bbba60232aedcdc2f0
 ---
 
 ## § 19. QUATERNION ALGEBRAS
@@ -259,7 +259,7 @@ a) We have R = Z = L, so [D : Z] = 1 and D = R.
 
 b) We have $R\not= Z$ and Z = L, so [D : Z] = 1 and D = L. In this case, D is isomorphic to C.
 
-c) We have R = Z and [L : R] = 2, so [D : R] = 4. By Proposition 4 of VIII, p. 364, the R-algebra D is isomorphic to a quaternion algebra of type $(\alpha ,0, \gamma )$, where $\alpha$ and $\gamma$ are nonzero elements of R. Let $i\in D$ Z be such that $i^2=\alpha$. We have $\alpha \not= 0$. If $\alpha  >0$, then there exists an $a\in R$ such that $a^2=\alpha$ (VI, §2, No. 6, p. 26, Theorem 3); we then have $(a-i)(a+i) = 0$, which is absurd because D is a field. So we have $\alpha  <0$. The inequality $\gamma  <0$ is shown analogously. There then exist elements $a$ and $c$ of $R^*$ such that $\alpha =-a^2$ and $\gamma =-c^2$ (loc. cit.). The algebra D is therefore isomorphic to the quaternion algebra of type $(-1,0,-1)$ (VIII, p. 362, Remark 2), that is, to H.
+c) We have R = Z and [L : R] = 2, so [D : R] = 4. By Proposition 4 of VIII, p. 364, the R-algebra D is isomorphic to a quaternion algebra of type $(\alpha ,0, \gamma )$, where $\alpha$ and $\gamma$ are nonzero elements of R. Let $i\in D$- Z be such that $i^2=\alpha$. We have $\alpha \not= 0$. If $\alpha  >0$, then there exists an $a\in R$ such that $a^2=\alpha$ (VI, §2, No. 6, p. 26, Theorem 3); we then have $(a-i)(a+i) = 0$, which is absurd because D is a field. So we have $\alpha  <0$. The inequality $\gamma  <0$ is shown analogously. There then exist elements $a$ and $c$ of $R^*$ such that $\alpha =-a^2$ and $\gamma =-c^2$ (loc. cit.). The algebra D is therefore isomorphic to the quaternion algebra of type $(-1,0,-1)$ (VIII, p. 362, Remark 2), that is, to H.
 
 #### Remark 1 {#alg-viii-s19-n5-rem-1 .statement tag=00M2}
 

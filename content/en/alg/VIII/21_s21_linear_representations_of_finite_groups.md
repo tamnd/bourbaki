@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 5b44dbc60c30191d68efd2e6fce326569fee988a8c14685ad3287c0e1ffe8d0d
+content_sha256: fc96ea9d908320e547eca3937cfdecee4f1c6568d22689b7db3096b4ca74a695
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -253,7 +253,7 @@ We view K[G] as a $(K[G]$, K[H])-bimodule and M as a K[H]-module. The K[G]-modul
 
 We view K[G] as a $(K[H]$, K[G])-bimodule. The K[G]-module $\mathscr{H}(M) =$ Hom$_{K[H]}(K[G],M)$ defines a representation of G, denoted by Coind$^G_H(\sigma )$ and called the representation of G coinduced by $\sigma$. If $(V, \pi )$ is a linear representation of G, then the K[H]-module $\mathscr{T}(V) = K[G]\otimes_{K[G]}V$ can be identified with the K[H]-module corresponding to the representation Res$^G_H(\pi )$. Consequently, the adjunction morphism (loc. cit.) gives a K-module isomorphism, called canonical, from Hom$_H$(Res$^G_H(\pi ), \sigma )$ to Hom$_G(\pi$, Coind$^G_H(\sigma ))$.
 
-Let $\varepsilon : K[G]\rightarrow K[H]$ be the K-module homomorphism characterized by the relations $\varepsilon (h) =h$ if $h\in$ H and $\varepsilon (g) = 0$ if $g\in G$ H. The mapping $\varepsilon$ is a homomorphism of $(K[H]$, K[H])-bimodules. Let $(M, \sigma )$ be a linear representation of H. The mapping $v\mapsto v\circ \varepsilon$ from Hom$_{K[H]}(K[H],M)$ to Hom$_{K[H]}(K[G],M)$ is a homomorphism of K[H]-modules. By identifying M with Hom$_{K[H]}(K[H],M)$, we obtain a homomorphism of K[H]-modules from M to Res$^G_H$(Coind$^G_H(\sigma ))$. Frobenius reciprocity sends it to a homomorphism $\iota$ of K[G]-modules from Ind$^G_H(\sigma )$ to Coind$^G_H(\sigma )$ characterized by the relation
+Let $\varepsilon : K[G]\rightarrow K[H]$ be the K-module homomorphism characterized by the relations $\varepsilon (h) =h$ if $h\in$ H and $\varepsilon (g) = 0$ if $g\in G$ - H. The mapping $\varepsilon$ is a homomorphism of $(K[H]$, K[H])-bimodules. Let $(M, \sigma )$ be a linear representation of H. The mapping $v\mapsto v\circ \varepsilon$ from Hom$_{K[H]}(K[H],M)$ to Hom$_{K[H]}(K[G],M)$ is a homomorphism of K[H]-modules. By identifying M with Hom$_{K[H]}(K[H],M)$, we obtain a homomorphism of K[H]-modules from M to Res$^G_H$(Coind$^G_H(\sigma ))$. Frobenius reciprocity sends it to a homomorphism $\iota$ of K[G]-modules from Ind$^G_H(\sigma )$ to Coind$^G_H(\sigma )$ characterized by the relation
 
 $$
 \iota (g\otimes m)(g') =\varepsilon (g'g)m
@@ -279,7 +279,7 @@ It follows that $\iota '$ is injective.
 
 Suppose that H has finite index in G. The set S is then finite; let $\rho$ be the mapping from Coind$^G_H(\sigma )$ to Ind$^G_H(\sigma )$ given by $u\mapsto \sum_{s\in S}s\otimes u(s^{-1})$. It satisfies $(\iota \circ \rho (u))(s^{-1}) =u(s^{-1})$ for $u\in$ Coind$^G_H(\sigma )$ and $s\in S$. Since the family $(s^{-1})_{s\in S}$ is a basis of the left K[H]-module K[G], the mapping $\iota \circ \rho$ is the identity mapping. Consequently, $\iota$ is bijective with inverse bijection $\rho$.
 
-Let H be a subgroup of G of finite index. Let $u$ be a central function on H; denote by $u^0$ the function on G that extends $u$ and that is zero at every point of G H. Let S be a system of representatives of $G/H$. For $g\in G$, set
+Let H be a subgroup of G of finite index. Let $u$ be a central function on H; denote by $u^0$ the function on G that extends $u$ and that is zero at every point of G - H. Let S be a system of representatives of $G/H$. For $g\in G$, set
 
 (4) Ind$^G_H(u)(g) =\sum_{s\in S}u^0(s^{-1}gs)$.
 
@@ -661,7 +661,7 @@ Let $(V, \pi )$ be a simple representation of G and $\chi$ be its character. For
 
 Let L be an extension of $\mathbf{Q}$. Let A be a subring of L. Suppose that A is a finitely generated $\mathbf{Z}$-module. We have $A\cap \mathbf{Q}=\mathbf{Z}$.
 
-Since the $\mathbf{Z}$-module $A\cap \mathbf{Q}$ is finitely generated, there exists a strictly positive integer N such that $A\cap \mathbf{Q}$ is contained in $_N^1\mathbf{Z}$. Let $x$ be an element of $\mathbf{Q}\mathbf{Z}$; we write it as $x=^p_q$, where $p$ and $q$ are mutually prime integers and $q\geqslant 2$. We have $q^N\geqslant 2^N>N ($Set Theory, III, §3, No. 6, p. 165, Theorem 2), the integers $p^N$ and $q^N$ are mutually prime, and consequently $x^N\in /_N^1\mathbf{Z}$. It follows that $x$ does not belong to A. This concludes the proof of the lemma.
+Since the $\mathbf{Z}$-module $A\cap \mathbf{Q}$ is finitely generated, there exists a strictly positive integer N such that $A\cap \mathbf{Q}$ is contained in $_N^1\mathbf{Z}$. Let $x$ be an element of $\mathbf{Q}-\mathbf{Z}$; we write it as $x=^p_q$, where $p$ and $q$ are mutually prime integers and $q\geqslant 2$. We have $q^N\geqslant 2^N>N ($Set Theory, III, §3, No. 6, p. 165, Theorem 2), the integers $p^N$ and $q^N$ are mutually prime, and consequently $x^N\in /_N^1\mathbf{Z}$. It follows that $x$ does not belong to A. This concludes the proof of the lemma.
 
 In the next subsection, we extend Proposition 9 to the case when we only assume that the characteristic of K does not divide the order of G.
 

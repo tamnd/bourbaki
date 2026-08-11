@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: e8100fb4a5ddec4a8ba1f883b6dd5a839cccf5d388f2099cad3b1377aba25588
+content_sha256: b9175533a4f2379a92e4b21ed41f80d01d6609af2245d38e588f8ded6f01a208
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -359,7 +359,7 @@ Since the field is perfect, the extension Z of K is separable (V, §15, No. 5, p
 
 Let $\mathscr{S}_0$ be the set of classes of simple A-modules of finite dimension over K with nonzero trace. The family of linear forms (Tr$_S)_{S\in\mathscr{S}_0}$ is free over K.
 
-Let F be a finite subset of $\mathscr{S}_0$, and let S be an element of F. By assumption, there exists an element $a\in A$ such that Tr$_S(a)\not= 0$. By Corollary 1 of Proposition 4 (VIII, p. 83), there exists an element $b\in A$ such that $b_S=a_S$ and $b_T= 0$ for every $T\in F\{S\}$. We have Tr$_S(b)\not= 0$ and Tr$_T(b) = 0$ for $T\in F\{S\}$. The family (Tr$_S)_{S\in F}$ is therefore free. Proposition 6 follows.
+Let F be a finite subset of $\mathscr{S}_0$, and let S be an element of F. By assumption, there exists an element $a\in A$ such that Tr$_S(a)\not= 0$. By Corollary 1 of Proposition 4 (VIII, p. 83), there exists an element $b\in A$ such that $b_S=a_S$ and $b_T= 0$ for every $T\in F-\{S\}$. We have Tr$_S(b)\not= 0$ and Tr$_T(b) = 0$ for $T\in F-\{S\}$. The family (Tr$_S)_{S\in F}$ is therefore free. Proposition 6 follows.
 
 #### Remark {#alg-viii-s20-n6-rem-1 .statement tag=00RR}
 

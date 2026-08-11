@@ -45,7 +45,7 @@ subsections:
       pdf_page: 382
 statements: 31
 exercises: 6
-content_sha256: 983e87a862e5631221a0576224d6e717d4b5a1cde5aff6746172ddf96f9fa8f4
+content_sha256: 9e2759a713f329e86255081ee82fbaad59eda3d06df59a06b874994b17e132ab
 ---
 
 ## § 20. REPRÉSENTATIONS LINÉAIRES DES ALGÈBRES
@@ -356,7 +356,7 @@ Le corps étant parfait, l’extension Z de K est séparable (V, p. 119, th. 3).
 
 Soit $\mathscr{S}_0$ l’ensemble des classes de A-modules simples de dimension finie sur K, dont les traces ne sont pas nulles. La famille de formes linéaires (Tr$_S)_{S\in\mathscr{S}_0}$ est libre sur K.
 
-Soit F une partie finie de $\mathscr{S}_0$ et soit S un élément de F. Par hypothèse, il existe un élément $a\in A$ tel que Tr$_S(a)\not= 0$. D’après le cor. 1 de la prop. 4 (VIII, p. 79) il existe un élément $b\in A$ tel que $b_S=a_S$ et $b_T= 0$ pour tout $T\in F\{S\}$. On a Tr$_S(b)\not= 0$ et Tr$_T(b) = 0$ pour $T\in F\{S\}$. La famille (Tr$_S)_{S\in F}$ est donc libre et la proposition 6 en résulte.
+Soit F une partie finie de $\mathscr{S}_0$ et soit S un élément de F. Par hypothèse, il existe un élément $a\in A$ tel que Tr$_S(a)\not= 0$. D’après le cor. 1 de la prop. 4 (VIII, p. 79) il existe un élément $b\in A$ tel que $b_S=a_S$ et $b_T= 0$ pour tout $T\in F-\{S\}$. On a Tr$_S(b)\not= 0$ et Tr$_T(b) = 0$ pour $T\in F-\{S\}$. La famille (Tr$_S)_{S\in F}$ est donc libre et la proposition 6 en résulte.
 
 #### Remarque {#alg-viii-s20-n6-rem-1 .statement tag=00RR}
 

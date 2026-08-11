@@ -46,7 +46,7 @@ subsections:
       pdf_page: 88
 statements: 43
 exercises: 8
-content_sha256: 3d87d4c85dd81db9e20a91a317c500ab95ac8171a211c12f7092a5141b8c43a3
+content_sha256: aac16de6a366af6cb7347e6994c93748c1ebdc2f38d141db9a741c9b2abf9b51
 ---
 
 ## § 4. SEMISIMPLE MODULES
@@ -79,7 +79,7 @@ Let $A_1$ and $A_2$ be algebras over a commutative ring K. In III, §4, No. 3, p
 
 Let M be a module that is the (not necessarily direct) sum of a family $(S_i)_{i\in I}$ of simple submodules, and let N be a submodule of M. There exists a subset J of I such that M is the direct sum of the family consisting of N and the modules $S_j$ for $j$ running through J.
 
-Let $\mathscr{S}$ be the set of subsets $I'$ of I such that the sum of the family consisting of the modules N and $S_i$ for $i$ in $I'$ is direct. The set $\mathscr{S}$ is of finite character: a subset J of I belongs to $\mathscr{S}$ if and only if the same holds for every finite subset of J. Hence, the set $\mathscr{S}$ has a maximal element J (Set Theory, III, §4, No. 5, p. 171). Set $N'= N +\sum_{j\in J}S_j$. Let $i$ be in I J. Since J is maximal in $\mathscr{S}$, the set $J\cup  \{i\}$ does not belong to $\mathscr{S}$, so that $S_i\cap N'\not= 0$. Since $S_i$ is a simple module, we have $S_i\cap N'= S_i$. We therefore have $S_i\subset N'$ for every $i\in I$, whence $N'= M$. This completes the proof.
+Let $\mathscr{S}$ be the set of subsets $I'$ of I such that the sum of the family consisting of the modules N and $S_i$ for $i$ in $I'$ is direct. The set $\mathscr{S}$ is of finite character: a subset J of I belongs to $\mathscr{S}$ if and only if the same holds for every finite subset of J. Hence, the set $\mathscr{S}$ has a maximal element J (Set Theory, III, §4, No. 5, p. 171). Set $N'= N +\sum_{j\in J}S_j$. Let $i$ be in I - J. Since J is maximal in $\mathscr{S}$, the set $J\cup  \{i\}$ does not belong to $\mathscr{S}$, so that $S_i\cap N'\not= 0$. Since $S_i$ is a simple module, we have $S_i\cap N'= S_i$. We therefore have $S_i\subset N'$ for every $i\in I$, whence $N'= M$. This completes the proof.
 
 #### Corollary 1 {#alg-viii-s4-thm-1-cor-1 .statement tag=0045}
 
@@ -99,9 +99,9 @@ We therefore have $M'= M$, and the module M is semisimple by Corollary 1.
 
 #### Corollary 3 {#alg-viii-s4-thm-1-cor-3 .statement tag=0047}
 
-Let M be a semisimple module and N a submodule of M. The modules N and $M/N$ are semisimple. More precisely, if M is the direct sum of a family $(S_i)_{i\in I}$ of simple modules, then there exists a subset J of I such that $M/N$ is isomorphic to $\bigoplus_{j\in J}S_j$ and N to $\bigoplus_{i\in I J}S_i$.
+Let M be a semisimple module and N a submodule of M. The modules N and $M/N$ are semisimple. More precisely, if M is the direct sum of a family $(S_i)_{i\in I}$ of simple modules, then there exists a subset J of I such that $M/N$ is isomorphic to $\bigoplus_{j\in J}S_j$ and N to $\bigoplus_{i\in I-J}S_i$.
 
-Choose J as in Theorem 1. The module $N'=\bigoplus_{j\in J}S_j$ is supplementary to N in M; it is therefore isomorphic to $M/N$. Moreover, the submodules N and $\bigoplus_{i\in I J}S_i$ of M are both supplementary to $N'$ and therefore isomorphic to $M/N'$.
+Choose J as in Theorem 1. The module $N'=\bigoplus_{j\in J}S_j$ is supplementary to N in M; it is therefore isomorphic to $M/N$. Moreover, the submodules N and $\bigoplus_{i\in I-J}S_i$ of M are both supplementary to $N'$ and therefore isomorphic to $M/N'$.
 
 #### Corollary 4 {#alg-viii-s4-thm-1-cor-4 .statement tag=0048}
 
@@ -409,7 +409,7 @@ c) If M is finitely generated, then the set of $\lambda \in \mathscr{S}$ such th
 
 d) For every submodule N of M and every $\lambda \in \mathscr{S}$, we have $N_{\lambda}= N\cap M_{\lambda}$ and $(M/N)_{\lambda}= (M_{\lambda}+ N)/N$.
 
-Since M is semisimple, it is the sum of the family $(M_{\lambda})_{\lambda\in\mathscr{S}}$; let us prove that this sum is direct. Let $\lambda \in \mathscr{S}$. Denote the sum of the family $(M_\mu)_{\mu\in\mathscr{S}\{\lambda\}}$ by $M'_{\lambda}$. The module $M'_{\lambda}$ is the direct sum of a family of simple modules not isomorphic to $\lambda$ (VIII, p. 56, Theorem 1). By Corollary 3 of Theorem 1 of VIII, p. 56, $M'_{\lambda}$ does not contain any simple submodules of class $\lambda$. We consequently have $M_{\lambda}\cap M'_{\lambda}= 0$. Assertion a) is therefore proved. By construction, we have $M_{\lambda}\supset \bigoplus_{i\in I(\lambda)}N_i$, so assertion b) follows from Remark 1 of II, §1, No. 8, p. 208.
+Since M is semisimple, it is the sum of the family $(M_{\lambda})_{\lambda\in\mathscr{S}}$; let us prove that this sum is direct. Let $\lambda \in \mathscr{S}$. Denote the sum of the family $(M_\mu)_{\mu\in\mathscr{S}-\{\lambda\}}$ by $M'_{\lambda}$. The module $M'_{\lambda}$ is the direct sum of a family of simple modules not isomorphic to $\lambda$ (VIII, p. 56, Theorem 1). By Corollary 3 of Theorem 1 of VIII, p. 56, $M'_{\lambda}$ does not contain any simple submodules of class $\lambda$. We consequently have $M_{\lambda}\cap M'_{\lambda}= 0$. Assertion a) is therefore proved. By construction, we have $M_{\lambda}\supset \bigoplus_{i\in I(\lambda)}N_i$, so assertion b) follows from Remark 1 of II, §1, No. 8, p. 208.
 
 Assertion c) follows from a) and Proposition 23 of II, §1, No. 12, p. 221.
 

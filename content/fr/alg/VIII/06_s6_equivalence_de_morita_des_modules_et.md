@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 41
 exercises: 8
-content_sha256: 33e7c8145b34c141217386aa95881bd6d103a672ca268db3b6904253a2b36606
+content_sha256: 347987c65f508108b9fe9b1c041a3b37049bdc36376b4c0e260cc8d9122046a3
 ---
 
 ## § 6. ÉQUIVALENCE DE MORITA DES MODULES ET DES ALGÈBRES
@@ -434,13 +434,13 @@ $\bigcap_{i\in I}M_i$ Borne inférieure inf$_{i\in I}M_i$
 
 $\sum_{i\in I}M_i$ Borne supérieure sup$_{i\in I}M_i$
 
-Sous-modules supplémentaires inf(M$',M'') = 0$, sup(M$',M'') = M$ Sous-module simple de M Élément minimal de D(M) $\{0\}$ Sous-module maximal de M Élément maximal de D(M) $\{M\}$
+Sous-modules supplémentaires inf(M$',M'') = 0$, sup(M$',M'') = M$ Sous-module simple de M Élément minimal de D(M) $-\{0\}$ Sous-module maximal de M Élément maximal de D(M)$-\{M\}$
 
 Socle $\mathscr{S}(M)$ de M Borne supérieure dans D(M) de l’ensemble
 
-des éléments minimaux de D(M) $\{0\}$ $*$ Radical $\mathfrak{R}(M)$ de M (VIII, p. 147$)*$ Borne inférieure dans D(M) de l’ensemble
+des éléments minimaux de D(M) $-\{0\}$ $*$ Radical $\mathfrak{R}(M)$ de M (VIII, p. 147$)*$ Borne inférieure dans D(M) de l’ensemble
 
-des éléments maximaux de D(M) $\{M\}$
+des éléments maximaux de D(M)$-\{M\}$
 
 ### TABLE II
 
@@ -466,7 +466,7 @@ que M = sup$_{j\in I}M_j$
 
 M est simple Card(D(M)) = 2
 
-M est semi-simple M est la borne supérieure, dans D(M), de l’ensemble des éléments minimaux de D(M) $\{0\}$
+M est semi-simple M est la borne supérieure, dans D(M), de l’ensemble des éléments minimaux de D(M) $-\{0\}$
 
 Le module M est somme directe d’une famille $(M_i)_{i\in I}$ de sous-modules si et seulement si l’on a $M =\sum_{i\in I}M_i$ et $M_i\cap \sum_{j\not=i}M_j= 0$ pour tout $i\in I$. Cette remarque et l’examen de la table I donnent le résultat suivant.
 

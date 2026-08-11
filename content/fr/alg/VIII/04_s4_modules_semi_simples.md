@@ -45,7 +45,7 @@ subsections:
       pdf_page: 78
 statements: 43
 exercises: 8
-content_sha256: c0c68cc37d863dfd1f33c0ec1d998eff21febaa8b184fb5f3b1c12a916a0e4f8
+content_sha256: 82f9d8ee7f6433d96853b9b88769963550a4d656831f6eb560f038788c4aab5e
 ---
 
 ## § 4. MODULES SEMI-SIMPLES
@@ -78,7 +78,7 @@ Soient $A_1$ et $A_2$ des algèbres sur un anneau commutatif K. On a défini en 
 
 Soit M un module somme (non nécessairement directe) d’une famille $(S_i)_{i\in I}$ de sous-modules simples et soit N un sous-module de M. Il existe une partie J de I telle que M soit somme directe de la famille formée de N et des modules $S_j$ pour $j$ parcourant J.
 
-Soit $\mathscr{S}$ l’ensemble des parties $I'$ de I telles que la somme de la famille formée des modules N et $S_i$, pour $i$ dans $I'$, soit directe. L’ensemble $\mathscr{S}$ est de caractère fini : pour qu’une partie J de I appartienne à $\mathscr{S}$, il faut et il suffit qu’il en soit de même de toute partie finie de J. Donc l’ensemble $\mathscr{S}$ possède un élément maximal J (E, III, p. 35). Posons $N'= N +\sum_{j\in J}S_j$. Soit $i$ dans I J ; comme J est maximal dans $\mathscr{S}$, l’ensemble $J\cup  \{i\}$ n’appartient pas à $\mathscr{S}$, de sorte que $S_i\cap N'\not= 0$; comme $S_i$ est un module simple, on a $S_i\cap N'= S_i$. On a donc $S_i\subset N'$ pour tout $i\in I$, d’où $N'= M$. Cela achève la démonstration.
+Soit $\mathscr{S}$ l’ensemble des parties $I'$ de I telles que la somme de la famille formée des modules N et $S_i$, pour $i$ dans $I'$, soit directe. L’ensemble $\mathscr{S}$ est de caractère fini : pour qu’une partie J de I appartienne à $\mathscr{S}$, il faut et il suffit qu’il en soit de même de toute partie finie de J. Donc l’ensemble $\mathscr{S}$ possède un élément maximal J (E, III, p. 35). Posons $N'= N +\sum_{j\in J}S_j$. Soit $i$ dans I - J ; comme J est maximal dans $\mathscr{S}$, l’ensemble $J\cup  \{i\}$ n’appartient pas à $\mathscr{S}$, de sorte que $S_i\cap N'\not= 0$; comme $S_i$ est un module simple, on a $S_i\cap N'= S_i$. On a donc $S_i\subset N'$ pour tout $i\in I$, d’où $N'= M$. Cela achève la démonstration.
 
 #### Corollaire 1 {#alg-viii-s4-thm-1-cor-1 .statement tag=0045}
 
@@ -98,9 +98,9 @@ On a donc $M'= M$ et le module M est semi-simple d’après le cor. 1.
 
 #### Corollaire 3 {#alg-viii-s4-thm-1-cor-3 .statement tag=0047}
 
-Soient M un module semi-simple et N un sous-module de M. Les modules N et $M/N$sont semi-simples. Plus précisément, si M est somme directe d’une famille $(S_i)_{i\in I}$ de modules simples, il existe une partie J de I telle que $M/N$ soit isomorphe à $\bigoplus_{j\in J}S_j$ et N à $\bigoplus_{i\in I J}S_i$.
+Soient M un module semi-simple et N un sous-module de M. Les modules N et $M/N$sont semi-simples. Plus précisément, si M est somme directe d’une famille $(S_i)_{i\in I}$ de modules simples, il existe une partie J de I telle que $M/N$ soit isomorphe à $\bigoplus_{j\in J}S_j$ et N à $\bigoplus_{i\in I-J}S_i$.
 
-Choisissons J comme dans le th. 1. Le module $N'=\bigoplus_{j\in J}S_j$ est un supplémentaire de N dans M, il est donc isomorphe à $M/N$. De plus, les sous-modules N et $\bigoplus_{i\in I J}S_i$ de M sont tous deux supplémentaires de $N'$ et donc isomorphes à $M/N'$.
+Choisissons J comme dans le th. 1. Le module $N'=\bigoplus_{j\in J}S_j$ est un supplémentaire de N dans M, il est donc isomorphe à $M/N$. De plus, les sous-modules N et $\bigoplus_{i\in I-J}S_i$ de M sont tous deux supplémentaires de $N'$ et donc isomorphes à $M/N'$.
 
 #### Corollaire 4 {#alg-viii-s4-thm-1-cor-4 .statement tag=0048}
 
@@ -408,7 +408,7 @@ c) Si M est de type fini, l’ensemble des $\lambda \in \mathscr{S}$ tels que $M
 
 d) Pour tout sous-module N de M, et tout $\lambda \in \mathscr{S}$, on a $N_{\lambda}= N\cap M_{\lambda}$ et $(M/N)_{\lambda}= (M_{\lambda}+ N)/N$.
 
-Comme M est semi-simple, il est somme de la famille $(M_{\lambda})_{\lambda\in\mathscr{S}}$, prouvons que cette somme est directe. Soit $\lambda \in \mathscr{S}$. Notons $M'_{\lambda}$ la somme de la famille $(M_{\mu})_{\mu\in\mathscr{S}\{\lambda\}}$. Le module $M'_{\lambda}$ est somme directe d’une famille de modules simples non isomorphes à $\lambda$ (VIII, p. 52, th. 1). D’après le cor. 3 du th. 1 de VIII, p. 52, $M'_{\lambda}$ ne contient aucun sous-module simple de classe $\lambda$. On a donc $M_{\lambda}\cap M'_{\lambda}= 0$. L’assertion a) est donc démontrée. Par construction, on a $M_{\lambda}\supset \bigoplus_{i\in I(\lambda)}N_i$, l’assertion b) résulte alors de II, p. 18, remarque 1.
+Comme M est semi-simple, il est somme de la famille $(M_{\lambda})_{\lambda\in\mathscr{S}}$, prouvons que cette somme est directe. Soit $\lambda \in \mathscr{S}$. Notons $M'_{\lambda}$ la somme de la famille $(M_{\mu})_{\mu\in\mathscr{S}-\{\lambda\}}$. Le module $M'_{\lambda}$ est somme directe d’une famille de modules simples non isomorphes à $\lambda$ (VIII, p. 52, th. 1). D’après le cor. 3 du th. 1 de VIII, p. 52, $M'_{\lambda}$ ne contient aucun sous-module simple de classe $\lambda$. On a donc $M_{\lambda}\cap M'_{\lambda}= 0$. L’assertion a) est donc démontrée. Par construction, on a $M_{\lambda}\supset \bigoplus_{i\in I(\lambda)}N_i$, l’assertion b) résulte alors de II, p. 18, remarque 1.
 
 L’assertion c) résulte de a) et de (II, p. 29, prop. 23).
 
