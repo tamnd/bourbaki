@@ -17,11 +17,11 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | mathematics | 6 | 1 | 1 | none |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | R01 (37) |
-| translation | 6 | 2 | 1 | L06 (1), L08 (1) |
+| translation | 7 | 2 | 1 | L06 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 152 soft, over 48 rules that ran and 7 that could not.
+0 hard findings and 152 soft, over 49 rules that ran and 7 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
