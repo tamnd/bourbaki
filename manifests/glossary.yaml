@@ -1,0 +1,919 @@
+version: 1
+terms:
+    - en: ring
+      vi: vành
+    - en: a-module
+      vi: môđun
+    - en: element
+      vi: phần tử
+    - en: prove
+      vi: chứng minh
+    - en: algebra
+      vi: đại số
+    - en: ideal
+      vi: iđêan
+    - en: finite
+      vi: hữu hạn
+    - en: field
+      vi: trường
+    - en: module
+      vi: môđun
+    - en: left
+      vi: trái
+    - en: simple
+      vi: đơn
+    - en: mapping
+      vi: ánh xạ
+    - en: proposition
+      vi: mệnh đề
+    - en: exist
+      vi: tồn tại
+    - en: isomorphic
+      vi: đẳng cấu
+    - en: homomorphism
+      vi: đồng cấu
+    - en: group
+      vi: nhóm
+    - en: commutative
+      vi: giao hoán
+    - en: semisimple
+      vi: nửa đơn
+    - en: submodule
+      vi: môđun con
+    - en: extension
+      vi: mở rộng
+    - en: isomorphism
+      vi: đẳng cấu
+    - en: exercise
+      vi: bài tập
+    - en: degree
+      vi: bậc
+    - en: right
+      vi: phải
+    - en: sum
+      vi: tổng
+    - en: theorem
+      vi: định lý
+    - en: corollary
+      vi: hệ quả
+    - en: end
+      vi: kết thúc
+    - en: k-algebra
+      vi: đại số k
+    - en: finitely
+      vi: hữu hạn
+    - en: representation
+      vi: biểu diễn
+    - en: maximal
+      vi: cực đại
+    - en: family
+      vi: họ
+    - en: relation
+      vi: quan hệ
+    - en: equal
+      vi: bằng
+    - en: finitely generated
+      vi: sinh hữu hạn
+    - en: space
+      vi: không gian
+    - en: linear
+      vi: tuyến tính
+    - en: direct sum
+      vi: tổng trực tiếp
+    - en: automorphism
+      vi: tự đẳng cấu
+    - en: dimension
+      vi: chiều
+    - en: commutative field
+      vi: trường giao hoán
+    - en: subalgebra
+      vi: đại số con
+    - en: central
+      vi: trung tâm
+    - en: can
+      vi: có thể
+    - en: define
+      vi: định nghĩa
+    - en: example
+      vi: ví dụ
+    - en: unique
+      vi: duy nhất
+    - en: injective
+      vi: đơn ánh
+    - en: structure
+      vi: cấu trúc
+    - en: finite length
+      vi: độ dài hữu hạn
+    - en: reduced
+      vi: rút gọn
+    - en: contain
+      vi: chứa
+    - en: matrix
+      vi: ma trận
+    - en: tr
+      vi: vết
+    - en: use
+      vi: dùng
+    - en: simple a-module
+      vi: a-môđun đơn
+    - en: free
+      vi: tự do
+    - en: contained
+      vi: được chứa
+    - en: isotypical
+      vi: đẳng kiểu
+    - en: now
+      vi: bây giờ
+    - en: zero
+      vi: không
+    - en: definition
+      vi: định nghĩa
+    - en: surjective
+      vi: toàn ánh
+    - en: bijective
+      vi: song ánh
+    - en: commutant
+      vi: hoán tập
+    - en: defined
+      vi: được định nghĩa
+    - en: imply
+      vi: kéo theo
+    - en: subset
+      vi: tập con
+    - en: idempotent
+      vi: lũy đẳng
+    - en: quotient
+      vi: thương
+    - en: nilpotent
+      vi: lũy linh
+    - en: subgroup
+      vi: nhóm con
+    - en: send
+      vi: gửi
+    - en: central simple
+      vi: đơn tâm
+    - en: group homomorphism
+      vi: đồng cấu nhóm
+    - en: left a-module
+      vi: a-môđun trái
+    - en: subring
+      vi: vành con
+    - en: generating
+      vi: sinh
+    - en: characteristic
+      vi: đặc số
+    - en: kernel
+      vi: hạt nhân
+    - en: det
+      vi: định thức
+    - en: absolutely
+      vi: tuyệt đối
+    - en: consisting
+      vi: gồm
+    - en: linear representation
+      vi: biểu diễn tuyến tính
+    - en: minimal
+      vi: cực tiểu
+    - en: equality
+      vi: đẳng thức
+    - en: observe
+      vi: nhận thấy
+    - en: left artinian
+      vi: Artin trái
+    - en: admit
+      vi: thừa nhận
+    - en: apply
+      vi: áp dụng
+    - en: assumption
+      vi: giả thiết
+    - en: condition
+      vi: điều kiện
+    - en: bijection
+      vi: song ánh
+    - en: subspace
+      vi: không gian con
+    - en: remark
+      vi: chú ý
+    - en: regular
+      vi: chính quy
+    - en: card
+      vi: lực lượng
+    - en: long
+      vi: dài
+    - en: number
+      vi: số
+    - en: commutative ring
+      vi: vành giao hoán
+    - en: exact
+      vi: khớp
+      note: 'Corrected by hand. The model answered "chính xác", which is exact in the
+        ordinary sense of precise, and it is wrong here: the word Bourbaki uses is the
+        one in "exact sequence", which the same run rendered correctly as "dãy khớp".'
+    - en: inverse
+      vi: nghịch đảo
+    - en: hold
+      vi: đúng
+    - en: containing
+      vi: chứa
+    - en: factor
+      vi: nhân tử
+    - en: a-linear
+      vi: a-tuyến tính
+    - en: finite dimension
+      vi: số chiều hữu hạn
+    - en: order
+      vi: cấp
+    - en: annihilator
+      vi: linh hóa tử
+    - en: closed
+      vi: đóng
+    - en: additive
+      vi: cộng tính
+    - en: faithful
+      vi: trung thành
+    - en: maximal ideal
+      vi: iđêan cực đại
+    - en: component
+      vi: thành phần
+    - en: satisfying
+      vi: thỏa mãn
+    - en: separable
+      vi: tách được
+    - en: action
+      vi: tác động
+    - en: distinct
+      vi: phân biệt
+    - en: indecomposable
+      vi: không phân tích được
+    - en: induce
+      vi: cảm sinh
+    - en: function
+      vi: hàm
+    - en: identify
+      vi: đồng nhất
+    - en: right a-module
+      vi: môđun phải trên a
+    - en: k-module
+      vi: môđun trên k
+    - en: right ideal
+      vi: iđêan phải
+    - en: unit
+      vi: phần tử khả nghịch
+    - en: proof
+      vi: chứng minh
+    - en: satisfy
+      vi: thỏa mãn
+    - en: character
+      vi: đặc trưng
+    - en: endowed
+      vi: được trang bị
+    - en: restriction
+      vi: hạn chế
+    - en: coefficient
+      vi: hệ số
+    - en: direct factor
+      vi: nhân tử trực tiếp
+    - en: irreducible
+      vi: bất khả quy
+    - en: deduced
+      vi: suy ra
+    - en: maximal commutative
+      vi: giao hoán cực đại
+    - en: prime
+      vi: nguyên tố
+    - en: subfield
+      vi: trường con
+    - en: aut
+      vi: tự đẳng cấu
+    - en: cardinal
+      vi: lực lượng
+    - en: dual
+      vi: đối ngẫu
+    - en: homothety
+      vi: phép vị tự
+    - en: intersection
+      vi: giao
+    - en: simple module
+      vi: môđun đơn
+    - en: a-submodule
+      vi: môđun con
+    - en: applied
+      vi: áp dụng
+    - en: nonzero element
+      vi: phần tử khác không
+    - en: algebraically closed
+      vi: đóng đại số
+    - en: ordered
+      vi: có thứ tự
+    - en: commutative subalgebra
+      vi: đại số con giao hoán
+    - en: exact sequence
+      vi: dãy khớp
+    - en: local
+      vi: địa phương
+    - en: matrices
+      vi: ma trận
+    - en: primitive
+      vi: nguyên thủy
+    - en: semisimple a-module
+      vi: môđun a nửa đơn
+    - en: a-linear mapping
+      vi: ánh xạ tuyến tính
+    - en: left noetherian
+      vi: Noether trái
+    - en: multiplication
+      vi: phép nhân
+    - en: opposite
+      vi: đối
+    - en: associated
+      vi: liên kết
+    - en: choose
+      vi: chọn
+    - en: identity
+      vi: đơn vị
+    - en: rank
+      vi: hạng
+    - en: coincide
+      vi: trùng nhau
+    - en: simple algebra
+      vi: đại số đơn
+    - en: abelian
+      vi: Abel
+    - en: absolutely semisimple
+      vi: nửa đơn tuyệt đối
+    - en: canonical homomorphism
+      vi: đồng cấu chính tắc
+    - en: induction
+      vi: quy nạp
+    - en: identified
+      vi: đồng nhất
+    - en: using
+      vi: sử dụng
+    - en: index
+      vi: chỉ số
+    - en: diagram
+      vi: biểu đồ
+    - en: dim
+      vi: chiều
+    - en: equivalence
+      vi: tương đương
+    - en: fractions
+      vi: phân thức
+    - en: law
+      vi: luật
+    - en: ind
+      vi: chỉ số
+    - en: series
+      vi: chuỗi
+    - en: socle
+      vi: đế
+    - en: additive group
+      vi: nhóm cộng
+    - en: divide
+      vi: chia hết
+    - en: inner
+      vi: nội
+    - en: k-linear
+      vi: k-tuyến tính
+    - en: k-vector space
+      vi: không gian vectơ k
+    - en: respect
+      vi: bảo toàn
+    - en: l-algebra
+      vi: đại số trên l
+    - en: linear form
+      vi: dạng tuyến tính
+    - en: scalar
+      vi: vô hướng
+    - en: sub-bimodule
+      vi: môđun con song
+    - en: finitely generated a-module
+      vi: a-môđun hữu hạn sinh
+    - en: morita equivalent
+      vi: tương đương Morita
+    - en: projector
+      vi: phép chiếu
+    - en: quaternion algebra
+      vi: đại số quaternion
+    - en: bicommutant
+      vi: đối giao hoán tử kép
+    - en: decomposition
+      vi: phân tích
+    - en: section
+      vi: tiết diện
+    - en: semisimple ring
+      vi: vành nửa đơn
+    - en: a-algebra
+      vi: đại số trên a
+    - en: artinian ring
+      vi: vành Artin
+    - en: infinite
+      vi: vô hạn
+    - en: left b-module
+      vi: b-môđun trái
+    - en: maximal left
+      vi: tối đại trái
+    - en: pair
+      vi: cặp
+    - en: reduce
+      vi: rút gọn
+    - en: simply
+      vi: đơn giản
+    - en: trd
+      vi: vết rút gọn
+    - en: balanced
+      vi: cân bằng
+    - en: finite rank
+      vi: hạng hữu hạn
+    - en: proved
+      vi: đã chứng minh
+    - en: right vector space
+      vi: không gian vectơ phải
+    - en: monogenous
+      vi: đơn sinh
+    - en: semisimple module
+      vi: môđun nửa đơn
+    - en: countermodule
+      vi: môđun đối
+    - en: ex
+      vi: ví dụ
+    - en: id
+      vi: đồng nhất
+    - en: ker
+      vi: hạt nhân
+    - en: principal
+      vi: chính
+    - en: Semisimple Modules and Rings
+      vi: Các môđun và vành nửa đơn
+    - en: separable extension
+      vi: mở rộng tách được
+    - en: system
+      vi: hệ
+    - en: construction
+      vi: phép dựng
+    - en: determinant
+      vi: định thức
+    - en: direct factor submodule
+      vi: môđun con hạng tử trực tiếp
+    - en: homogeneous
+      vi: thuần nhất
+    - en: pcrd
+      vi: ước chung phải lớn nhất
+    - en: perfect
+      vi: hoàn hảo
+    - en: quasi-simple
+      vi: tựa đơn
+    - en: ring end
+      vi: vành tự đồng cấu
+    - en: simple k-algebra
+      vi: đại số k đơn
+    - en: absolutely flat
+      vi: phẳng tuyệt đối
+    - en: canonical mapping
+      vi: ánh xạ chính tắc
+    - en: invertible bimodule
+      vi: song môđun khả nghịch
+    - en: l-module
+      vi: l-môđun
+    - en: last
+      vi: cuối cùng
+    - en: necessarily
+      vi: tất yếu
+    - en: pseudomodule
+      vi: giả môđun
+    - en: tensor
+      vi: tenxơ
+    - en: unit element
+      vi: phần tử đơn vị
+    - en: description
+      vi: mô tả
+    - en: induced
+      vi: cảm sinh
+    - en: k-linear mapping
+      vi: ánh xạ k-tuyến tính
+    - en: left module
+      vi: môđun trái
+    - en: opposite ring
+      vi: vành đối
+    - en: positive integer
+      vi: số nguyên dương
+    - en: power
+      vi: lũy thừa
+    - en: tensor product
+      vi: tích tenxơ
+    - en: finite group
+      vi: nhóm hữu hạn
+    - en: finite subset
+      vi: tập con hữu hạn
+    - en: invertible element
+      vi: phần tử khả nghịch
+    - en: note
+      vi: chú ý
+    - en: notion
+      vi: khái niệm
+    - en: recall
+      vi: nhắc lại
+    - en: semisimple algebra
+      vi: đại số nửa đơn
+    - en: unital
+      vi: có đơn vị
+    - en: central simple k-algebra
+      vi: đại số k đơn tâm
+    - en: commutative algebra
+      vi: đại số giao hoán
+    - en: constant
+      vi: hằng số
+    - en: generate
+      vi: sinh
+    - en: injection
+      vi: đơn ánh
+    - en: integral domain
+      vi: miền nguyên
+    - en: maximal submodule
+      vi: môđun con cực đại
+    - en: stationary
+      vi: dừng
+    - en: unique element
+      vi: phần tử duy nhất
+    - en: canonical injection
+      vi: đơn ánh chính tắc
+    - en: compatible
+      vi: tương thích
+    - en: identity element
+      vi: phần tử đơn vị
+    - en: irreducible representation
+      vi: biểu diễn bất khả quy
+    - en: monic
+      vi: đơn thức
+    - en: natural number
+      vi: số tự nhiên
+    - en: nilpotent two-sided ideal
+      vi: iđêan hai phía lũy linh
+    - en: norm
+      vi: chuẩn
+    - en: proper
+      vi: thực sự
+    - en: split
+      vi: tách
+    - en: square
+      vi: bình phương
+    - en: strictly positive
+      vi: dương ngặt
+    - en: simple left
+      vi: đơn trái
+    - en: surjective homomorphism
+      vi: đồng cấu toàn ánh
+    - en: automorphism group
+      vi: nhóm tự đẳng cấu
+    - en: b-submodule
+      vi: môđun con b
+    - en: finite field
+      vi: trường hữu hạn
+    - en: im
+      vi: ảnh
+    - en: maximal element
+      vi: phần tử cực đại
+    - en: module structure
+      vi: cấu trúc môđun
+    - en: ordered sets
+      vi: tập hợp có thứ tự
+    - en: partition
+      vi: phân hoạch
+    - en: point
+      vi: điểm
+    - en: regular representation
+      vi: biểu diễn chính quy
+    - en: right b-module
+      vi: môđun phải b
+    - en: ring structure
+      vi: cấu trúc vành
+    - en: semiprimordial
+      vi: nửa nguyên thủy
+    - en: unit modulo
+      vi: đơn vị modulo
+    - en: variable
+      vi: biến
+    - en: ann
+      vi: linh tử
+    - en: apply proposition
+      vi: áp dụng mệnh đề
+    - en: belonging
+      vi: thuộc
+    - en: canonical basis
+      vi: cơ sở chính tắc
+    - en: closed field
+      vi: trường đóng
+    - en: commutative k-algebra
+      vi: đại số giao hoán k
+    - en: deg
+      vi: bậc
+    - en: dense
+      vi: trù mật
+    - en: determined
+      vi: được xác định
+    - en: diagram commute
+      vi: sơ đồ giao hoán
+    - en: directed
+      vi: có hướng
+    - en: disjoint
+      vi: rời nhau
+    - en: divisible
+      vi: chia được
+    - en: exponent
+      vi: số mũ
+    - en: free k-module
+      vi: môđun tự do k
+    - en: generally
+      vi: nói chung
+    - en: infinite-dimensional
+      vi: vô hạn chiều
+    - en: interval
+      vi: khoảng
+    - en: last assertion
+      vi: khẳng định cuối cùng
+    - en: left resp right
+      vi: trái tương ứng phải
+    - en: make
+      vi: lập
+    - en: maximal two-sided ideal
+      vi: ideal hai phía tối đại
+    - en: mod
+      vi: modulo
+    - en: reason
+      vi: lý do
+    - en: semilinear
+      vi: nửa tuyến tính
+    - en: th
+      vi: định lý
+    - en: algebra homomorphism
+      vi: đồng cấu đại số
+    - en: annihilated
+      vi: bị triệt tiêu
+    - en: brauer group
+      vi: nhóm Brauer
+    - en: canonically
+      vi: một cách chính tắc
+    - en: converse
+      vi: đảo lại
+    - en: d-module
+      vi: môđun D
+    - en: derived group
+      vi: nhóm dẫn xuất
+    - en: external law
+      vi: phép toán ngoài
+    - en: fortiori
+      vi: a fortiori
+    - en: free module
+      vi: môđun tự do
+    - en: group isomorphism
+      vi: đẳng cấu nhóm
+    - en: indices
+      vi: chỉ số
+    - en: inverse bijection
+      vi: song ánh ngược
+    - en: left invertible
+      vi: khả nghịch trái
+    - en: matrix ring
+      vi: vành ma trận
+    - en: minimal ideal
+      vi: ideal tối tiểu
+    - en: monic polynomial
+      vi: đa thức đơn nhất
+    - en: must
+      vi: phải
+    - en: projection
+      vi: phép chiếu
+    - en: related
+      vi: liên quan
+    - en: representative
+      vi: đại diện
+    - en: right noetherian
+      vi: Noether phải
+    - en: right unit modulo
+      vi: đơn vị phải modulo
+    - en: simple b-module
+      vi: môđun B đơn
+    - en: splitting field
+      vi: trường phân rã
+    - en: study
+      vi: nghiên cứu
+    - en: trivial
+      vi: tầm thường
+    - en: absolutely flat ring
+      vi: vành phẳng tuyệt đối
+    - en: analogously
+      vi: tương tự
+    - en: comm alg
+      vi: đại số giao hoán
+    - en: common
+      vi: chung
+    - en: conjugate
+      vi: liên hợp
+    - en: d-linear
+      vi: d-tuyến tính
+    - en: diagonal
+      vi: đường chéo
+    - en: effective
+      vi: hiệu dụng
+    - en: finite support
+      vi: giá hữu hạn
+    - en: finite-dimensional free k-module
+      vi: k-môđun tự do hữu hạn chiều
+    - en: greatest
+      vi: lớn nhất
+    - en: homomorphism br
+      vi: đồng cấu Br
+    - en: immediate
+      vi: ngay lập tức
+    - en: independent
+      vi: độc lập
+    - en: induction hypothesis
+      vi: giả thiết quy nạp
+    - en: inverse isomorphism
+      vi: đẳng cấu nghịch đảo
+    - en: isomorphism class
+      vi: lớp đẳng cấu
+    - en: later
+      vi: sau đó
+    - en: left pseudomodule
+      vi: môđun giả trái
+    - en: minimal polynomial
+      vi: đa thức tối tiểu
+    - en: multiplicative group
+      vi: nhóm nhân
+    - en: now prove
+      vi: bây giờ chứng minh
+    - en: nrd nrd
+      vi: chuẩn rút gọn
+    - en: permutation
+      vi: phép hoán vị
+    - en: reduced characteristic polynomial
+      vi: đa thức đặc trưng rút gọn
+    - en: semisimple resp
+      vi: nửa đơn tương ứng
+    - en: similar
+      vi: đồng dạng
+    - en: square zero
+      vi: bình phương bằng không
+    - en: strictly increasing
+      vi: tăng ngặt
+    - en: symmetric
+      vi: đối xứng
+    - en: table
+      vi: bảng
+    - en: treat
+      vi: xét
+    - en: wedderburn-s
+      vi: Wedderburn
+    - en: zorn ring
+      vi: vành Zorn
+    - en: appendix
+      vi: phụ lục
+    - en: bimodule structure
+      vi: cấu trúc song môđun
+    - en: column
+      vi: cột
+    - en: counit
+      vi: đồng đơn vị
+    - en: det det det
+      vi: định thức
+    - en: dim hom
+      vi: chiều của Hom
+    - en: explicitly
+      vi: tường minh
+    - en: finite galois extension
+      vi: mở rộng Galois hữu hạn
+    - en: fix
+      vi: cố định
+    - en: fixed
+      vi: bất biến
+    - en: graded
+      vi: phân bậc
+    - en: homomorphism defined
+      vi: đồng cấu được xác định
+    - en: idea
+      vi: ý tưởng
+    - en: identity mapping
+      vi: ánh xạ đồng nhất
+    - en: lie
+      vi: nằm
+    - en: method
+      vi: phương pháp
+    - en: minimal right
+      vi: cực tiểu phải
+    - en: nonisomorphic
+      vi: không đẳng cấu
+    - en: orthogonality relation
+      vi: quan hệ trực giao
+    - en: projective module
+      vi: môđun xạ ảnh
+    - en: reasoning
+      vi: lập luận
+    - en: resp isotypical
+      vi: tương ứng đẳng kiểu
+    - en: resp semisimple
+      vi: tương ứng nửa đơn
+    - en: right fractions
+      vi: phân thức phải
+    - en: semisimple k-algebra
+      vi: đại số $k$ nửa đơn
+    - en: sometimes
+      vi: đôi khi
+    - en: transform
+      vi: biến đổi
+    - en: unity
+      vi: đơn vị
+    - en: universal property
+      vi: tính chất phổ quát
+    - en: use induction
+      vi: dùng quy nạp
+    - en: weakly
+      vi: yếu
+    - en: addition
+      vi: phép cộng
+    - en: additive function
+      vi: hàm cộng tính
+    - en: adjunction
+      vi: phép nối
+    - en: algebra isomorphism
+      vi: đẳng cấu đại số
+    - en: autoinjective
+      vi: tự nội xạ
+    - en: before
+      vi: trước
+    - en: canonical description
+      vi: mô tả chính tắc
+    - en: clearly
+      vi: rõ ràng
+    - en: consequence
+      vi: hệ quả
+    - en: derivation
+      vi: đạo hàm
+    - en: exercise prove
+      vi: bài tập chứng minh
+    - en: gal
+      vi: nhóm Galois
+    - en: generating module
+      vi: môđun sinh
+    - en: generating subset
+      vi: tập con sinh
+    - en: introduce
+      vi: giới thiệu
+    - en: largest
+      vi: lớn nhất
+    - en: limit
+      vi: giới hạn
+    - en: locally
+      vi: địa phương
+    - en: mapping defined
+      vi: ánh xạ được xác định
+    - en: minimal right ideal
+      vi: iđêan phải tối tiểu
+    - en: minimal two-sided ideal
+      vi: iđêan hai phía tối tiểu
+    - en: noninvertible element
+      vi: phần tử không khả nghịch
+    - en: nontrivial
+      vi: không tầm thường
+    - en: nonzero two-sided ideal
+      vi: iđêan hai phía khác không
+    - en: orbit
+      vi: quỹ đạo
+    - en: otherwise
+      vi: nếu không
+    - en: perfect field
+      vi: trường hoàn hảo
+    - en: primordial submodule
+      vi: môđun con nguyên thủy
+    - en: quotient ring
+      vi: vành thương
+    - en: rational
+      vi: hữu tỉ
+    - en: regular left
+      vi: chính quy trái
+    - en: replace
+      vi: thay thế
+    - en: residue field
+      vi: trường thặng dư
+    - en: respective
+      vi: tương ứng
+    - en: schur-s
+      vi: Schur
+    - en: semi-artinian
+      vi: nửa Artin
+    - en: separable closure
+      vi: bao đóng tách được
+    - en: separably closed
+      vi: đóng tách được
+    - en: simple component
+      vi: thành phần đơn
+    - en: strictly decreasing
+      vi: giảm nghiêm ngặt
+    - en: tr tr tr
+      vi: vết vết vết
+    - en: tracial
+      vi: có tính chất vết
+    - en: unique homomorphism
+      vi: đồng cấu duy nhất
+    - en: using exercise
+      vi: sử dụng bài tập
