@@ -35,7 +35,7 @@ subsections:
       pdf_page: 472
 statements: 18
 exercises: 4
-content_sha256: 5ccc6dff3962fc038b71e7a61f51b641d99b52575911bb6b786970c40d0a0be8
+content_sha256: d647b54a9090894b950efbf97061664e39941573675fa4a80250e9879e5560bd
 ---
 
 ## APPENDIX 2 DETERMINANTS OVER A NONCOMMUTATIVE FIELD
@@ -100,63 +100,63 @@ In this subsection, for any strictly positive integer $m$, any integer $i$ in th
 
 Let W be a hyperplane in V and $e$ be a vector in V W. Let $\varphi$ be an element of Ω(W). There exists a unique element $\omega$ of Ω(V) such that we have (7) $\omega (w_1, . . . , w_{n-1}, e) =\varphi (w_1, . . . , w_{n-1})$ for every basis $(w_1, . . . , w_{n-1})$ of W.
 
-A) Uniqueness of $\omega :$ Let $\omega$ be an element of Ω(V). Let $(v_1, . . . , v_n)$ be a basis of V, and let $µ_1, . . . , µ_n$ be the coordinates of $e$ in this basis. Denote by I the set of integers from 1 to $n$ (inclusive) such that $µ_i\not= 0$; it is not empty. Let $i$ be an element of I. The sequence $(v_1, . . . ,\widehat{v}_i, . . . , v_n, e)$ is a basis of V, and since $e-v_iµ_i$ is a linear combination of the sequence $(v_1, . . . ,\widehat{v}_i, . . . , v_n)$, formula (6) implies
+A) Uniqueness of $\omega :$ Let $\omega$ be an element of Ω(V). Let $(v_1, . . . , v_n)$ be a basis of V, and let $\mu_1, . . . , \mu_n$ be the coordinates of $e$ in this basis. Denote by I the set of integers from 1 to $n$ (inclusive) such that $\mu_i\not= 0$; it is not empty. Let $i$ be an element of I. The sequence $(v_1, . . . ,\widehat{v}_i, . . . , v_n, e)$ is a basis of V, and since $e-v_i\mu_i$ is a linear combination of the sequence $(v_1, . . . ,\widehat{v}_i, . . . , v_n)$, formula (6) implies
 
 $$
-\omega (v_1, . . . ,\widehat{v}_i, . . . , v_n, v_iµ_i) =\omega (v_1, . . . ,\widehat{v}_i, . . . , v_n, e) \tag{8}
+\omega (v_1, . . . ,\widehat{v}_i, . . . , v_n, v_i\mu_i) =\omega (v_1, . . . ,\widehat{v}_i, . . . , v_n, e) \tag{8}
 $$
 
-It follows from formulas (1) and (3) that the left-hand side of this equality is equal to $\pi (-1)^{n-i}\pi (µ_i)\omega (v_1, . . . , v_n)$. Denote by $p$ the projector of V with image W and kernel $eD$. The vectors $v_j-p(v_j)$ are proportional to $e$, and repeatedly applying formula (6) shows that the right-hand side of formula (8) is equal to $\omega (p(v_1), . . . ,p[(v_i), . . . , p(v_n), e)$.
+It follows from formulas (1) and (3) that the left-hand side of this equality is equal to $\pi (-1)^{n-i}\pi (\mu_i)\omega (v_1, . . . , v_n)$. Denote by $p$ the projector of V with image W and kernel $eD$. The vectors $v_j-p(v_j)$ are proportional to $e$, and repeatedly applying formula (6) shows that the right-hand side of formula (8) is equal to $\omega (p(v_1), . . . ,p[(v_i), . . . , p(v_n), e)$.
 
 It follows from this that if $\omega$ satisfies relation (7), then we have
 
 $$
-\omega (v_1, . . . , v_n) =\pi (-1)^{n-i}\pi (µ_i)^{-1}\varphi (p(v_1), . . . ,p[(v_i), . . . , p(v_n)) \tag{9}
+\omega (v_1, . . . , v_n) =\pi (-1)^{n-i}\pi (\mu_i)^{-1}\varphi (p(v_1), . . . ,p[(v_i), . . . , p(v_n)) \tag{9}
 $$
 
 for every $i$ in I, which proves the uniqueness of $\omega$.
 
-B) Construction of $\omega :$ Let $(v_1, . . . , v_n)$ be a basis of V; we define $µ_1, . . . , µ_n$ and I as above. For every $i$ in I, the assumption $µ_i\not= 0$ implies that the sequence $(v_1, . . . ,\widehat{v}_i, . . . , v_n, e)$ generates the space V, so the sequence $(p(v_1), . . . ,p[(v_i), . . . , p(v_n))$ generates the space $W =p(V)$. In other words, this last sequence is a basis of W, and (10) $t_i=\pi (-1)^{n-i}\pi (µ_i)^{-1}\varphi (p(v_1), . . . ,p[(v_i), . . . , p(v_n))$
+B) Construction of $\omega :$ Let $(v_1, . . . , v_n)$ be a basis of V; we define $\mu_1, . . . , \mu_n$ and I as above. For every $i$ in I, the assumption $\mu_i\not= 0$ implies that the sequence $(v_1, . . . ,\widehat{v}_i, . . . , v_n, e)$ generates the space V, so the sequence $(p(v_1), . . . ,p[(v_i), . . . , p(v_n))$ generates the space $W =p(V)$. In other words, this last sequence is a basis of W, and (10) $t_i=\pi (-1)^{n-i}\pi (\mu_i)^{-1}\varphi (p(v_1), . . . ,p[(v_i), . . . , p(v_n))$
 
 defines an element of $D^*_{ab}$.
 
-Let $i$ and $j$ be two elements of I such that $i < j$; let us prove the equality $t_i=t_j$. By definition, the vector $v_iµ_i+v_jµ_j-e$ is a linear combination of the vectors $p(v_k)$ for $k$ different from $i$ and $j$. Consequently, $p(v_i)µ_i+p(v_j)µ_j$ is a linear combination of the vectors $p(v_k)$ for $k$ different from $i$ and $j$. By formula (6), we therefore have
+Let $i$ and $j$ be two elements of I such that $i < j$; let us prove the equality $t_i=t_j$. By definition, the vector $v_i\mu_i+v_j\mu_j-e$ is a linear combination of the vectors $p(v_k)$ for $k$ different from $i$ and $j$. Consequently, $p(v_i)\mu_i+p(v_j)\mu_j$ is a linear combination of the vectors $p(v_k)$ for $k$ different from $i$ and $j$. By formula (6), we therefore have
 
 $$
-\varphi (p(v_1), . . . ,p[(v_i), . . . ,p[(v_j), . . . , p(v_n), p(v_i)µ_i)
+\varphi (p(v_1), . . . ,p[(v_i), . . . ,p[(v_j), . . . , p(v_n), p(v_i)\mu_i)
 $$
 
 $$
-=\varphi (p(v_1), . . . ,p[(v_i), . . . ,p[(v_j), . . . , p(v_n),-p(v_j)µ_j)
+=\varphi (p(v_1), . . . ,p[(v_i), . . . ,p[(v_j), . . . , p(v_n),-p(v_j)\mu_j)
 $$
 
 By applying formulas (1) and (3), we deduce
 
 $$
-\varphi (p(v_1), . . . ,p[(v_j), . . . , p(v_n))\pi (µ_i)\pi (-1)^{n-i-1}
+\varphi (p(v_1), . . . ,p[(v_j), . . . , p(v_n))\pi (\mu_i)\pi (-1)^{n-i-1}
 $$
 
 $$
-=\varphi (p(v_1), . . . ,p[(v_i), . . . , p(v_n))\pi (-µ_j)\pi (-1)^{n-j}
+=\varphi (p(v_1), . . . ,p[(v_i), . . . , p(v_n))\pi (-\mu_j)\pi (-1)^{n-j}
 $$
 
 and therefore $t_i=t_j$.
 
-Having proved this, we define $\omega (v_1, . . . , v_n)$ as the common value of the $t_i$ for $i$ in I. We have thus constructed a mapping $\omega$ from B(V) to $D^*_{ab}$ that satisfies relation (9). Let $(w_1, . . . , w_{n-1})$ be a basis of W; if we set $v_i=w_i$ for $1\leqslant i\leqslant n-1$ and $v_n=e$, then we have $I =\{n\}$ and $µ_n= 1$. We moreover have $p(v_i) =w_i$ for $1\leqslant i\leqslant n-1$, and the formula $\omega (w_1, . . . , w_{n-1}, e) =\varphi (w_1, . . . , w_{n-1})$ is a specific case of (9).
+Having proved this, we define $\omega (v_1, . . . , v_n)$ as the common value of the $t_i$ for $i$ in I. We have thus constructed a mapping $\omega$ from B(V) to $D^*_{ab}$ that satisfies relation (9). Let $(w_1, . . . , w_{n-1})$ be a basis of W; if we set $v_i=w_i$ for $1\leqslant i\leqslant n-1$ and $v_n=e$, then we have $I =\{n\}$ and $\mu_n= 1$. We moreover have $p(v_i) =w_i$ for $1\leqslant i\leqslant n-1$, and the formula $\omega (w_1, . . . , w_{n-1}, e) =\varphi (w_1, . . . , w_{n-1})$ is a specific case of (9).
 
 We must now prove that $\omega$ belongs to Ω(V).
 
-C) Proof of formula (1): Let $\lambda_1, . . . , \lambda_n$ be elements of $D^*$ and $(v_1, . . . , v_n)$ be a basis of V. We define $µ_1, . . . , µ_n$ and I as above. Choose an $i$ in I. Since we have $e=\sum^n_{j=1}(v_j\lambda_j)(\lambda^-_j^1µ_j)$, formula (9) implies
+C) Proof of formula (1): Let $\lambda_1, . . . , \lambda_n$ be elements of $D^*$ and $(v_1, . . . , v_n)$ be a basis of V. We define $\mu_1, . . . , \mu_n$ and I as above. Choose an $i$ in I. Since we have $e=\sum^n_{j=1}(v_j\lambda_j)(\lambda^-_j^1\mu_j)$, formula (9) implies
 
 $$
 \omega (v_1\lambda_1, . . . , v_n\lambda_n) \tag{11}
 $$
 
 $$
-=\pi (-1)^{n-i}\pi (\lambda^-_i^1µ_i)^{-1}\varphi (p(v_1)\lambda_1, . . . ,p\(v_i)\lambda_i, . . . , p(v_n)\lambda_n)
+=\pi (-1)^{n-i}\pi (\lambda^-_i^1\mu_i)^{-1}\varphi (p(v_1)\lambda_1, . . . ,p\(v_i)\lambda_i, . . . , p(v_n)\lambda_n)
 $$
 
-But we have $\pi (\lambda^-_i^1µ_i)^{-1}=\pi (µ_i)^{-1}\pi (\lambda_i)$ and
+But we have $\pi (\lambda^-_i^1\mu_i)^{-1}=\pi (\mu_i)^{-1}\pi (\lambda_i)$ and
 
 $$
 \varphi (p(v_1)\lambda_1, . . . ,p\(v_i)\lambda_i, . . . , p(v_n)\lambda_n)
@@ -172,31 +172,31 @@ $$
 \omega (v_1\lambda_1, . . . , v_n\lambda_n) =\omega (v_1, . . . , v_n)\pi (\lambda_1. . . \lambda_n)
 $$
 
-D) Proof of the formula (2): Let $(v_1, . . . , v_n)$ be a basis of V and $i, j$ be two distinct integer in the interval $[1, n]$; we define $µ_1, . . . , µ_n$ as before. Consider the basis $(v'_1, . . . , v'_n)$ of V defined by $v'_i=v_i+v_j$ and $v'_k=v_k$ for $k\not=i$, and let us introduce the coordinates $µ'_1, . . . , µ'_n$ of $e$ with respect to this basis; they satisfy $µ'_j=µ_j-µ_i$ and $µ'_k=µ_k$ for $k\not=j$. We set $t=\omega (v_1, . . . , v_n)$ and $t'=\omega (v_1', . . . , v_n')$. We must prove that $t$ and $t'$ are equal.
+D) Proof of the formula (2): Let $(v_1, . . . , v_n)$ be a basis of V and $i, j$ be two distinct integer in the interval $[1, n]$; we define $\mu_1, . . . , \mu_n$ as before. Consider the basis $(v'_1, . . . , v'_n)$ of V defined by $v'_i=v_i+v_j$ and $v'_k=v_k$ for $k\not=i$, and let us introduce the coordinates $\mu'_1, . . . , \mu'_n$ of $e$ with respect to this basis; they satisfy $\mu'_j=\mu_j-\mu_i$ and $\mu'_k=\mu_k$ for $k\not=j$. We set $t=\omega (v_1, . . . , v_n)$ and $t'=\omega (v_1', . . . , v_n')$. We must prove that $t$ and $t'$ are equal.
 
 Let us first note that, by the definition of $\omega$, we have
 
 $$
-t=\pi (-1)^{n-k}\pi (µ_k)^{-1}\varphi (p(v_1), . . . ,p[(v_k), . . . , p(v_n)) \tag{12}
+t=\pi (-1)^{n-k}\pi (\mu_k)^{-1}\varphi (p(v_1), . . . ,p[(v_k), . . . , p(v_n)) \tag{12}
 $$
 
 $$
-t'=\pi (-1)^{n-k}\pi (µ'_k)^{-1}\varphi (p(v'_1), . . . ,p[(v_k'), . . . , p(v'_n)) \tag{13}
+t'=\pi (-1)^{n-k}\pi (\mu'_k)^{-1}\varphi (p(v'_1), . . . ,p[(v_k'), . . . , p(v'_n)) \tag{13}
 $$
 
-for every $k$ such that $µ_k$ and $µ'_k$ are nonzero.
+for every $k$ such that $\mu_k$ and $\mu'_k$ are nonzero.
 
-a) If $µ_i\not=0$, then the sequences $(p(v_1), . . . ,p[(v_k), . . . , p(v_n))$ and $(p(v_1'), . . . ,p[(v_k'), . . . , p(v_n'))$ are equal, and we have $µ_i$ = $µ'_i$, and therefore $t=t'$.
+a) If $\mu_i\not=0$, then the sequences $(p(v_1), . . . ,p[(v_k), . . . , p(v_n))$ and $(p(v_1'), . . . ,p[(v_k'), . . . , p(v_n'))$ are equal, and we have $\mu_i$ = $\mu'_i$, and therefore $t=t'$.
 
-b) If there exists an index $k$ different from $i$ and $j$ such that $µ_k\not= 0$, then we have $p(v_l') =p(v_l)$ for $l\not=i$ and $p(v_i') =p(v_i) +p(v_j)$. The elements $p(v_i)$ and $p(v_j)$ both belong to the sequence $(p(v_1), . . . ,p[(v_k), . . . , p(v_n))$. Since $\varphi$ belongs to Ω(W), formula (2) of VIII, p. 447 applies; it gives
+b) If there exists an index $k$ different from $i$ and $j$ such that $\mu_k\not= 0$, then we have $p(v_l') =p(v_l)$ for $l\not=i$ and $p(v_i') =p(v_i) +p(v_j)$. The elements $p(v_i)$ and $p(v_j)$ both belong to the sequence $(p(v_1), . . . ,p[(v_k), . . . , p(v_n))$. Since $\varphi$ belongs to Ω(W), formula (2) of VIII, p. 447 applies; it gives
 
 $$
 \varphi (p(v_1), . . . ,p[(v_k), . . . , p(v_n)) =\varphi (p(v'_1), . . . ,p[(v_k'), . . . , p(v_n'))
 $$
 
-But we also have $µ_k=µ'_k$, and therefore $t=t'$.
+But we also have $\mu_k=\mu'_k$, and therefore $t=t'$.
 
-c) It remains to examine the case when the only index $k$ such that $µ_k\not= 0$ is $j$. We then have $µ'_j=µ_j,e=v_jµ_j$, and $p(v_j) = 0$. Set $k=j$ in formulas (12) and (13). Since the sequences $(p(v_1), . . . ,p[(v_j), . . . , p(v_n))$ and $(p(v'_1), . . . ,p[(v_j'), . . . , p(v_n'))$ are equal, we have $t=t'$.
+c) It remains to examine the case when the only index $k$ such that $\mu_k\not= 0$ is $j$. We then have $\mu'_j=\mu_j,e=v_j\mu_j$, and $p(v_j) = 0$. Set $k=j$ in formulas (12) and (13). Since the sequences $(p(v_1), . . . ,p[(v_j), . . . , p(v_n))$ and $(p(v'_1), . . . ,p[(v_j'), . . . , p(v_n'))$ are equal, we have $t=t'$.
 
 #### Corollary 1 {#alg-viii-a2-prop-1-cor-1 .statement tag=00Q2}
 
@@ -205,10 +205,10 @@ Let $(e_1, . . . , e_n)$ be a basis of V and $t$ an element of $D^*_{ab}$. There
 Let us prove the corollary by induction on $n$. If $n= 0$, then the only basis of V is the empty one, so the assertion is true. Now suppose $n\geqslant 1$; denote by W the subspace of V generated by $e_1, . . . , e_{n-1}$. By Proposition 1, there exists a bijection Λ from Ω(V) to Ω(W) satisfying
 
 $$
-(Λ(\omega ))(w_1, . . . , w_{n-1}) =\omega (w_1, . . . , w_{n-1}, e_n)
+(\Lambda(\omega ))(w_1, . . . , w_{n-1}) =\omega (w_1, . . . , w_{n-1}, e_n)
 $$
 
-for every basis $(w_1, . . . , w_{n-1})$ of W and every $\omega$ in Ω(V). By the induction hypothesis, there exists a unique element $\varphi$ of Ω(W) such that $\varphi (e_1, . . . , e_{n-1}) =t$. The relation $\omega (e_1, . . . , e_n) =t$, for $\omega$ in Ω(V), is equivalent to $Λ(\omega ) =\varphi$. Corollary 1 follows.
+for every basis $(w_1, . . . , w_{n-1})$ of W and every $\omega$ in Ω(V). By the induction hypothesis, there exists a unique element $\varphi$ of Ω(W) such that $\varphi (e_1, . . . , e_{n-1}) =t$. The relation $\omega (e_1, . . . , e_n) =t$, for $\omega$ in Ω(V), is equivalent to $\Lambda(\omega ) =\varphi$. Corollary 1 follows.
 
 #### Corollary 2 {#alg-viii-a2-prop-1-cor-2 .statement tag=00Q3}
 
@@ -260,7 +260,7 @@ This proves a); assertion b) is an immediate consequence of a).
 
 ### 4. Determinant of a Square Matrix
 
-Let $n$ be a positive integer. Let us apply the above to the right vector space $D^n_d$ over the field D; the elements of $D^n_d$ are viewed as matrices with $n$ rows and one column. Let $(\varepsilon_1, . . . , \varepsilon_n)$ be the canonical basis of $D^n_d$. By Corollary 2 of VIII, p. 451, there exists a unique element $\omega_0$ of $Ω(D^n_d)$ such that $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$. If A is an element of $\mathbf{G}\mathbf{L}_n$(D), then its columns $a_1, . . . , a_n$ form a basis of $D^n_d$; the element $\omega_0(a_1, . . . , a_n)$ of $D^*_{ab}$ is called the determinant of A and denoted by det(A). Since we have $a_i=A\varepsilon_i$ for $1\leqslant i\leqslant n$, the determinant of A is simply the determinant of the automorphism $x\mapsto Ax$ of $D^n_d$. In particular, if the field D is commutative, then the determinant of A coincides with that defined in III, §8, No. 3, p. 524.
+Let $n$ be a positive integer. Let us apply the above to the right vector space $D^n_d$ over the field D; the elements of $D^n_d$ are viewed as matrices with $n$ rows and one column. Let $(\varepsilon_1, . . . , \varepsilon_n)$ be the canonical basis of $D^n_d$. By Corollary 2 of VIII, p. 451, there exists a unique element $\omega_0$ of $\Omega(D^n_d)$ such that $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$. If A is an element of $\mathbf{G}\mathbf{L}_n$(D), then its columns $a_1, . . . , a_n$ form a basis of $D^n_d$; the element $\omega_0(a_1, . . . , a_n)$ of $D^*_{ab}$ is called the determinant of A and denoted by det(A). Since we have $a_i=A\varepsilon_i$ for $1\leqslant i\leqslant n$, the determinant of A is simply the determinant of the automorphism $x\mapsto Ax$ of $D^n_d$. In particular, if the field D is commutative, then the determinant of A coincides with that defined in III, §8, No. 3, p. 524.
 
 Let V be a right vector space of finite dimension $n$ over the field D, and let $(e_1, . . . , e_n)$ be a basis of V. If $u$ is an automorphism of V and A is the matrix of $u$ with respect to the basis $(e_1, . . . , e_n)$, then we have det($u) =$ det(A).
 
@@ -284,7 +284,7 @@ Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$ and $a_1, . . . , a_n$ be its
 
 det(A$) =\omega_0(a_1, . . . , a_n)$.
 
-Now, the columns of the matrix A diag($\lambda_1, . . . , \lambda_n)$ are $a_1\lambda_1, . . . , a_n\lambda_n$, and those of the matrix AB$_{ij}(1)$ are therefore $a_1, . . . , a_j+a_i, a_{j+1}, . . . , a_n$. Since $\omega_0$ is the unique element of $Ω(D^n_d)$ such that $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$, we see that the determinant is the unique mapping $\varphi :\mathbf{G}\mathbf{L}_n(D)\rightarrow D^*_{ab}$ that satisfies the relations
+Now, the columns of the matrix A diag($\lambda_1, . . . , \lambda_n)$ are $a_1\lambda_1, . . . , a_n\lambda_n$, and those of the matrix AB$_{ij}(1)$ are therefore $a_1, . . . , a_j+a_i, a_{j+1}, . . . , a_n$. Since $\omega_0$ is the unique element of $\Omega(D^n_d)$ such that $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$, we see that the determinant is the unique mapping $\varphi :\mathbf{G}\mathbf{L}_n(D)\rightarrow D^*_{ab}$ that satisfies the relations
 
 (18) $\varphi ($A diag($\lambda_1, . . . , \lambda_n)) =\varphi ($A$)\pi (\lambda_1\cdots \lambda_n)$, (19) $\varphi ($AB$_{ij}(1)) =\varphi ($A) for $i\not=j$, (20) $\varphi (I_n) = 1$.
 
@@ -394,13 +394,13 @@ $$
 
 To prove c), it suffices to prove that the matrices $B_{ij}(\lambda )$ are commutators in $\mathbf{S}\mathbf{L}_n(D)$.
 
-Suppose $n\geqslant 3$. If $i,j,k$ are distinct integers in the interval $[1, n]$ and $µ, \nu$ are elements of D, then we have
+Suppose $n\geqslant 3$. If $i,j,k$ are distinct integers in the interval $[1, n]$ and $\mu, \nu$ are elements of D, then we have
 
 $$
-B_{ij}(µ\nu ) =B_{ik}(µ)^{-1}B_{kj}(\nu )^{-1}B_{ik}(µ)B_{kj}(\nu ) \tag{30}
+B_{ij}(\mu\nu ) =B_{ik}(\mu)^{-1}B_{kj}(\nu )^{-1}B_{ik}(\mu)B_{kj}(\nu ) \tag{30}
 $$
 
-By taking $µ= 1$ and $\nu =\lambda$, we see that the matrix $B_{ij}(\lambda )$ is a commutator of elements of $\mathbf{S}\mathbf{L}_n(D)$.
+By taking $\mu= 1$ and $\nu =\lambda$, we see that the matrix $B_{ij}(\lambda )$ is a commutator of elements of $\mathbf{S}\mathbf{L}_n(D)$.
 
 Now suppose $n= 2$. Let $u$ and $v$ be elements of D with $u\not= 0$. We have the relations
 

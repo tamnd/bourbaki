@@ -30,7 +30,7 @@ subsections:
       pdf_page: 300
 statements: 12
 exercises: 2
-content_sha256: c5bad3fba2a8e10c615f00963f7e8cfc89adf5985dbe7e4b9c7afb2be9ead181
+content_sha256: 0ffa1440ac0cef09735449a78abf3063ab1f9153a5e1d0148bc139de9dc9cd7f
 ---
 
 ## § 15. BRAUER GROUPS
@@ -43,7 +43,7 @@ We denote by Iso$_K(A,B)$ the relation
 
 “A and B are isomorphic K-algebras of finite degree.” This is an equivalence relation with respect to A and B. Let A be a K-algebra of finite degree; the class of A, denoted by cl(A) (or sometimes cl$_K$(A)), is the class of objects equivalent to A for the relation Iso$_K($Set Theory, II, §6, No. 9, p. 122). By definition, cl(A) is a K-algebra isomorphic to A; two K-algebras of finite degree are in the same class if and only if they are isomorphic.
 
-We denote by $\mathscr{A}$ the set of pairs $(W, µ)$, where W is a linear subspace of $K^{(\mathbf{N})}$ that is finite-dimensional over K and $µ$ is a K-bilinear mapping from $W\times W$ to W that makes W into an (associative and unital) K-algebra. Every K-algebra of finite degree is isomorphic to such an algebra. By loc. cit., the relation
+We denote by $\mathscr{A}$ the set of pairs $(W, \mu)$, where W is a linear subspace of $K^{(\mathbf{N})}$ that is finite-dimensional over K and $\mu$ is a K-bilinear mapping from $W\times W$ to W that makes W into an (associative and unital) K-algebra. Every K-algebra of finite degree is isomorphic to such an algebra. By loc. cit., the relation
 
 “$\alpha$ is a class of K-algebras of finite degree” is therefore collectivizing in $\alpha ($Set Theory, II, §1, No. 4, p. 68). We denote the set of classes of K-algebras of finite degree by $\mathscr{C}_K$.
 
@@ -51,7 +51,7 @@ We denote by $\mathscr{A}$ the set of pairs $(W, µ)$, where W is a linear subsp
 
 The set $\mathscr{C}_K$, endowed with the law of composition given by $(\alpha , \beta )\mapsto$ cl($\alpha \otimes_K\beta )$, is a commutative monoid. The identity element of $\mathscr{C}_K$ is the class $\varepsilon$ of the K-algebra K. Moreover, if A and B are K-algebras of finite degree, then we have the relation
 
-(1) cl(A $\otimes_KB) =$ cl(A) cl(B) $$.
+(1) cl(A $\otimes_KB) =$ cl(A) cl(B).
 
 Let A, B, and C be K-algebras of finite degree, with respective classes $\alpha$, $\beta$, and $\gamma$. The K-algebras A and $\alpha$ are isomorphic, as are B and $\beta$. Therefore, the K-algebras $A\otimes_KB$ and $\alpha \otimes_K\beta$ are isomorphic, and we have cl(A$\otimes_KB) =$ cl($\alpha \otimes_K\beta )$, which gives formula (1). It follows that $(\alpha \beta )\gamma$ is the class of the K-algebra $(A\otimes_KB)\otimes_KC$ and $\alpha (\beta \gamma )$ that of the K-algebra $A\otimes_K(B\otimes_KC)$. Now, these K-algebras are isomorphic (III, §4, No. 1, p. 461), so we have the equality $(\alpha \beta )\gamma =\alpha (\beta \gamma )$. Analogously, the relation $\alpha \varepsilon =\varepsilon \alpha =\alpha$ follows from the fact that the K-algebras $A\otimes_KK, K\otimes_KA$, and A are isomorphic, and the relation $\alpha \beta =\beta \alpha$ follows from the fact that the algebras $A\otimes_KB$ and $B\otimes_KA$ are isomorphic.
 

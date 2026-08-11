@@ -10,11 +10,11 @@ This repo is the corpus only. The code that builds it lives in [tamnd/bourbaki-s
 
 | Book | Chapters | Edition | Pages | Sections | PDF |
 | --- | --- | --- | --- | --- | --- |
-| Algebra | I, II, III | 1998, Springer | 734 | 32 | scan, JBIG2 at 600 dpi |
+| Algebra | I, II, III | 1998, Springer | 734 | 34 | scan, JBIG2 at 600 dpi |
 | Algebra | IV, V, VI, VII | 2003, Springer | 460 | 30 | scan, JBIG2 at 600 dpi |
-| Algebra | VIII | 2023, Springer Nature | 505 | 21 | born digital |
+| Algebra | VIII | 2023, Springer Nature | 505 | 25 | born digital |
 
-1699 pages, 83 sections, chapters I through VIII of the Book *Algebra*. Chapters IX and X have no English translation, so they are out of scope until one exists.
+1699 pages, 89 sections, chapters I through VIII of the Book *Algebra*. The count is §§ and appendices together, because an appendix carries numbered statements and exercises exactly as a § does and is a file like any other. Chapters IX and X have no English translation, so they are out of scope until one exists.
 
 The two scans need vision OCR. The 2023 volume has a real text layer and extracts natively with `pdftotext -layout`, which is why it goes first.
 
@@ -66,7 +66,18 @@ reports/                                     audit, usage, coverage, scorecards
 ## Coverage
 
 <!-- BEGIN COVERAGE -->
-Nothing generated yet. Run `bourbaki report coverage --write-readme`.
+| Book | Chapter | Sections | Statements | Exercises | Tagged | Pages |
+| --- | --- | --- | --- | --- | --- | --- |
+| Algebra | I | 0 of 10 | 0 | 0 | 0 | 3 |
+| Algebra | II | 0 of 12 | 0 | 0 | 0 | 0 |
+| Algebra | III | 0 of 12 | 0 | 0 | 0 | 0 |
+| Algebra | IV | 0 of 6 | 0 | 0 | 0 | 0 |
+| Algebra | V | 0 of 17 | 0 | 0 | 0 | 0 |
+| Algebra | VI | 0 of 2 | 0 | 0 | 0 | 1 |
+| Algebra | VII | 0 of 5 | 0 | 0 | 0 | 1 |
+| Algebra | VIII | 25 of 25 | 706 | 317 | 1023 | 488 |
+
+25 of 89 sections are in the corpus, 28 per cent. 706 statements and 317 exercises, 1023 of them carrying a permanent tag.
 <!-- END COVERAGE -->
 
 ## Building it
@@ -81,14 +92,15 @@ bourbaki extract  --book alg-viii
 bourbaki render   --book alg-i-iii --dpi 300
 bourbaki ocr      --book alg-i-iii
 bourbaki assemble --book alg-viii
-bourbaki split    --book alg-viii --force --sync
 bourbaki tags assign && bourbaki tags merge && bourbaki tags verify
+bourbaki refs build
+bourbaki report coverage --write-readme
 bourbaki audit --report reports/audit.md
 ```
 
-OCR runs against a small fleet of hosts over SSH. Round trips are slow, roughly 150 seconds a call, so every long stage is resumable and safe to interrupt.
+`assemble` writes the section files, the exercise files and the two manifests in one pass, and sweeps whatever an earlier split left behind. `assemble --check` is the same run with the writing taken out and a diff put in its place, which is what CI runs.
 
-The full spec is in `docs/spec/` over in the solver repo.
+OCR runs against a small fleet of hosts over SSH. Round trips are slow, roughly 150 seconds a call, so every long stage is resumable and safe to interrupt.
 
 ## Licence
 

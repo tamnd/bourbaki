@@ -38,7 +38,7 @@ subsections:
       pdf_page: 106
 statements: 37
 exercises: 19
-content_sha256: 6ac2bbce2629c544f3ed814f112db8c421bf00849d18c71039e05a825075f725
+content_sha256: ae952753cd7b7e57a4a88d9f22d34ebfaf1d42e770171e6030c52069e4c37cc8
 ---
 
 ## § 5. COMMUTATION
@@ -311,7 +311,7 @@ $\lambda \lambda$
 
 is isotypical of type $V_{\lambda}$ (VIII, p. 61, Proposition 1); the same therefore holds for the B-module $M_{\lambda}$, which proves a).
 
-By Remark 1 above, there exist elements $e_{\lambda}$ of B, for $\lambda$ running through $\mathscr{S}_M$, such that $(e_{\lambda})_{V_{\lambda}}= 1_{V_{\lambda}}$ and $(e_{\lambda})_{V_µ}$ = 0 for $µ\in \mathscr{S}_M$ with $µ\not=\lambda$. The simple B-modules $V_{\lambda}$ are therefore pairwise nonisomorphic, which proves c) and the first assertion of d). The B-module $M_{\lambda}$ is isomorphic to $V_{\lambda}\otimes_{D^o_{\lambda}}S_{\lambda}$, so dim$_{D_{\lambda}}(S_{\lambda})$ is the multiplicity of $V_{\lambda}$ in M (II, §3, No. 7, p. 255, Corollary 1).
+By Remark 1 above, there exist elements $e_{\lambda}$ of B, for $\lambda$ running through $\mathscr{S}_M$, such that $(e_{\lambda})_{V_{\lambda}}= 1_{V_{\lambda}}$ and $(e_{\lambda})_{V_\mu}$ = 0 for $\mu\in \mathscr{S}_M$ with $\mu\not=\lambda$. The simple B-modules $V_{\lambda}$ are therefore pairwise nonisomorphic, which proves c) and the first assertion of d). The B-module $M_{\lambda}$ is isomorphic to $V_{\lambda}\otimes_{D^o_{\lambda}}S_{\lambda}$, so dim$_{D_{\lambda}}(S_{\lambda})$ is the multiplicity of $V_{\lambda}$ in M (II, §3, No. 7, p. 255, Corollary 1).
 
 The mapping $\sum_{\lambda\in\mathscr{S}_M}\alpha_{\lambda}$ from $\bigoplus_{\lambda\in\mathscr{S}_M}V_{\lambda}\otimes_{D^o_{\lambda}}S_{\lambda}$ to M provides a description (VIII, p. 69, Definition 5) of the semisimple B-module M. By VIII, p. 70, Proposition 8, b), for every $\lambda \in \mathscr{S}_M$, the mapping from $S_{\lambda}$ to Hom$_B(V_{\lambda},M)$ described in e) is bijective and $D_{\lambda}$-linear. Since it is obviously A-linear, this proves e).
 
@@ -339,7 +339,7 @@ c) For every $(A,B^o)$-sub-bimodule N of M, there exists a unique subset Λ of $
 
 Let $\lambda$ be in $\mathscr{S}_M$. The left A-module $S_{\lambda}$ and the right B-module $V_{\lambda}$ are simple, and $D_{\lambda}$ is the opposite ring of the field of endomorphisms of $S_{\lambda}$. By Corollary 2 of VIII, p. 63, the $(A,B^o$)-bimodule $S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda}$ is simple, and the same holds for $M_{\lambda}$, which is isomorphic to it. This proves b), and a) follows.
 
-If $\lambda$ and $µ$ are distinct in $\mathscr{S}_M$, then $M_{\lambda}$ and $M_µ$ are not isomorphic as A-modules, nor a fortiori as $(A,B^o$)-bimodules. Assertion c) follows by Corollary 2 of VIII, p. 68.
+If $\lambda$ and $\mu$ are distinct in $\mathscr{S}_M$, then $M_{\lambda}$ and $M_\mu$ are not isomorphic as A-modules, nor a fortiori as $(A,B^o$)-bimodules. Assertion c) follows by Corollary 2 of VIII, p. 68.
 
 #### Proposition 7 {#alg-viii-s5-prop-7 .statement tag=005Z}
 
@@ -363,19 +363,19 @@ a) The mapping $z\mapsto (z_{S_{\lambda}})_{\lambda\in\mathscr{S}_M}$ is an isom
 
 b) The A-module M is isotypical and nonzero if and only if Z is a field.
 
-c) Let Λ be a subset of $\mathscr{S}_M$. Denote by $e_{\Lambda}$ the unique element of Z such that $(e_{\Lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$ for $\lambda \in Λ$ and $(e_{\Lambda})_{S_{\lambda}}= 0$ for $\lambda \in \mathscr{S}_M$ Λ. We have $(e_{\Lambda})_{M_{\lambda}}= 1_{M_{\lambda}}$ for $\lambda \in Λ$ and $(e_{\Lambda})_{M_{\lambda}}= 0$ for $\lambda \in \mathscr{S}_M$ Λ.
+c) Let Λ be a subset of $\mathscr{S}_M$. Denote by $e_{\Lambda}$ the unique element of Z such that $(e_{\Lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$ for $\lambda \in \Lambda$ and $(e_{\Lambda})_{S_{\lambda}}= 0$ for $\lambda \in \mathscr{S}_M$ Λ. We have $(e_{\Lambda})_{M_{\lambda}}= 1_{M_{\lambda}}$ for $\lambda \in \Lambda$ and $(e_{\Lambda})_{M_{\lambda}}= 0$ for $\lambda \in \mathscr{S}_M$ Λ.
 
-d) If the support $\mathscr{S}_M$ of M is finite, then the mapping $Λ\mapsto e_{\Lambda}Z$ is a bijection from the set of subsets of $\mathscr{S}_M$ to the set of ideals of Z, and the mapping $\mathfrak{a}\mapsto \mathfrak{a}M$ is a bijection from the set of ideals of Z to the set of $(A,B^o)$-sub-bimodules of M. These bijections are isomorphisms of ordered sets. The reverse bijection sends an $(A,B^o)$-sub-bimodule N of M to the ideal consisting of the elements $z$ of Z that send N into M.
+d) If the support $\mathscr{S}_M$ of M is finite, then the mapping $\Lambda\mapsto e_{\Lambda}Z$ is a bijection from the set of subsets of $\mathscr{S}_M$ to the set of ideals of Z, and the mapping $\mathfrak{a}\mapsto \mathfrak{a}M$ is a bijection from the set of ideals of Z to the set of $(A,B^o)$-sub-bimodules of M. These bijections are isomorphisms of ordered sets. The reverse bijection sends an $(A,B^o)$-sub-bimodule N of M to the ideal consisting of the elements $z$ of Z that send N into M.
 
 For $\lambda \in \mathscr{S}_M, Z_{\lambda}$ is the common center of the commutant $D_{\lambda}$ and the bicommutant $C_{\lambda}$ of the A-module $S_{\lambda}$. By Proposition 7, c) above, the mapping $c\mapsto (c_{\lambda})_{\lambda\in\mathscr{S}_M}$ is an isomorphism from C to $\prod_{\lambda\in\mathscr{S}_M}C_{\lambda}$. By restriction to the centers, we obtain the isomorphism $z\mapsto (z_{S_{\lambda}})_{\lambda\in\mathscr{S}_M}$ from Z to $\prod_{\lambda\in\mathscr{S}_M}Z_{\lambda}$, whence a).
 
 The ring $\prod_{\lambda\in\mathscr{S}_M}Z_{\lambda}$ is a field if and only if the set $\mathscr{S}_M$ has a single element, whence b).
 
-Assertion c) follows from Proposition 7, a). Suppose that $\mathscr{S}_M$ is finite. It follows from a) and Proposition 8 of I, §8, No. 10, p. 109, that the mapping $Λ\mapsto e_{\Lambda}Z$ is an isomorphism of ordered sets from $\mathfrak{P}(\mathscr{S}_M)$ to the set of ideals of Z. Let Λ be a subset of $\mathscr{S}_M$. By c), we have the relation $e_{\Lambda}$ZM $=e_{\Lambda}M =$ $\bigoplus_{\lambda\in\Lambda}M_{\lambda}$; because of Proposition 6, c) of VIII, p. 86, it remains to describe the inverse bijection. But $z\in Z$ sends M into $\bigoplus_{\lambda\in\Lambda}M_{\lambda}$ if and only if $z=e_{\Lambda}z$, that is, $z\in e_{\Lambda}Z$.
+Assertion c) follows from Proposition 7, a). Suppose that $\mathscr{S}_M$ is finite. It follows from a) and Proposition 8 of I, §8, No. 10, p. 109, that the mapping $\Lambda\mapsto e_{\Lambda}Z$ is an isomorphism of ordered sets from $\mathfrak{P}(\mathscr{S}_M)$ to the set of ideals of Z. Let Λ be a subset of $\mathscr{S}_M$. By c), we have the relation $e_{\Lambda}$ZM $=e_{\Lambda}M =$ $\bigoplus_{\lambda\in\Lambda}M_{\lambda}$; because of Proposition 6, c) of VIII, p. 86, it remains to describe the inverse bijection. But $z\in Z$ sends M into $\bigoplus_{\lambda\in\Lambda}M_{\lambda}$ if and only if $z=e_{\Lambda}z$, that is, $z\in e_{\Lambda}Z$.
 
 #### Corollary {#alg-viii-s5-n4-cor-1 .statement tag=0062}
 
-Suppose that A is an algebra over an algebraically closed commutative field K and that M is a semisimple A-module that is finite-dimensional as a vector space over K. For every $\lambda$ in $\mathscr{S}_M$, denote by $e_{\lambda}$ the projector of M with image $M_{\lambda}$ and kernel $\oplus_{\lambda\not=µ}M_µ$. Then $(e_{\lambda})_{\lambda\in\mathscr{S}_M}$ is a basis of the vector space Z over K.
+Suppose that A is an algebra over an algebraically closed commutative field K and that M is a semisimple A-module that is finite-dimensional as a vector space over K. For every $\lambda$ in $\mathscr{S}_M$, denote by $e_{\lambda}$ the projector of M with image $M_{\lambda}$ and kernel $\oplus_{\lambda\not=\mu}M_\mu$. Then $(e_{\lambda})_{\lambda\in\mathscr{S}_M}$ is a basis of the vector space Z over K.
 
 Since M is a finite-dimensional vector space over K that is the direct sum of the family of nonzero submodules $(M_{\lambda})_{\lambda\in\mathscr{S}_M}$, the set $\mathscr{S}_M$ is finite, and each of the spaces $S_{\lambda}$, for $\lambda \in \mathscr{S}_M$, is finite-dimensional over K. Since the field K is algebraically closed, we have $D_{\lambda}= Z_{\lambda}= K$ (VIII, p. 47, Theorem 1), and the mapping $z\mapsto (z_{S_{\lambda}})_{\lambda\in\mathscr{S}_M}$ is an isomorphism from Z to $K_{\mathscr{S}_M}$ (Proposition 8, a)). The corollary then follows from part c) of Proposition 8.
 
@@ -419,7 +419,7 @@ The bicommutant $E''$ of the E-module L therefore consists of the endomorphisms 
 
 Let L be a field. Let Γ be a subgroup of the automorphism group of the field L, and let K be the field of invariants of Γ. Let V be a right K-linear subspace of L of finite dimension $n$ over K. Then there exist elements $\sigma_1, . . . , \sigma_n$ of Γ with the following property: for every K-linear mapping $u$ from V to L, there exist elements $a_1, . . . , a_n$ of L such that we have $u(x) =\sum_i^n_{=1}a_i\sigma_i(x)$ for every $x$ in V.
 
-Denote by E the set of mappings from L to L of the form $x\mapsto$ $Σ_{\sigma\in\Gamma}a_{\sigma}\sigma (x)$, where $(a_{\sigma})_{\sigma\in\Gamma}$ is a family of elements of L with finite support. We have $\boldsymbol{\gamma }_a\in E$ for every $a$ in L, and E is a subring of the endomorphism ring of the additive group of L. Moreover, the field K consists of the elements $a$ of L such that $u(xa) =u(x)a$ for every $x$ in L and every $u$ in E.
+Denote by E the set of mappings from L to L of the form $x\mapsto$ $\sum_{\sigma\in\Gamma}a_{\sigma}\sigma (x)$, where $(a_{\sigma})_{\sigma\in\Gamma}$ is a family of elements of L with finite support. We have $\boldsymbol{\gamma }_a\in E$ for every $a$ in L, and E is a subring of the endomorphism ring of the additive group of L. Moreover, the field K consists of the elements $a$ of L such that $u(xa) =u(x)a$ for every $x$ in L and every $u$ in E.
 
 Let H be the left L-vector space Hom$_K(V,L)$; it has dimension $n$. By Proposition 9, it is generated by the restrictions of the elements of Γ to V. There exist $n$ elements $\sigma_1, . . . , \sigma_n$ of Γ whose restrictions to V form a basis of H over L. The corollary follows from this.
 
