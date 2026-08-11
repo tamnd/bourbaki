@@ -30,7 +30,7 @@ subsections:
       pdf_page: 162
 statements: 30
 exercises: 6
-content_sha256: 725b6017435a01db686f5e73f7d66e05ef0ab6eadd6ee9d5337a2b7642692bd6
+content_sha256: d751fe21fc87abb3feb061bc73772ce0081380a18a91f8d8a36757feaf2c413d
 ---
 
 ## § 8. SEMISIMPLE RINGS
@@ -183,7 +183,7 @@ Let A be a semisimple ring.
 
 a) Every finitely generated A-module is reflexive (II, §2, No. 7, p. 239).
 
-b) For every simple left A-module S, the right A-module $S^*$ dual to S is simple, and the mapping $\lambda \mapsto$ cl($\lambda^*)$ defines a bijection from the set of classes of simple A-modules to the set of classes of simple right A-modules.
+b) For every simple left A-module S, the right A-module $S^*$ dual to S is simple, and the mapping $\lambda \mapsto$ cl($\lambda^*$) defines a bijection from the set of classes of simple A-modules to the set of classes of simple right A-modules.
 
 c) Let M be a finitely generated left A-module. The right A-module $M^*$ dual to M is finitely generated and has the same length as M. Moreover, we have $[M : S] = [M^*: S^*]$ for every simple A-module S.
 
@@ -419,7 +419,7 @@ Let us prove c). Let $x$ be an element of M. We have $e_{\lambda}\in \mathfrak{a
 
 #### Remark 4 {#alg-viii-s8-n4-rem-4 .statement tag=009U}
 
-Suppose that the ring A is semisimple. Let $(e_i)_{i\in I}$ be a partition of 1 consisting of nonzero idempotents in the center Z of A. If Card(I) = Card($\mathscr{S})$, then the $e_i$ are the indecomposable idempotents in Z.
+Suppose that the ring A is semisimple. Let $(e_i)_{i\in I}$ be a partition of 1 consisting of nonzero idempotents in the center Z of A. If Card(I) = Card($\mathscr{S}$), then the $e_i$ are the indecomposable idempotents in Z.
 
 ### Exercises {#alg-viii-s8-exercises}
 

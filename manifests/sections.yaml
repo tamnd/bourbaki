@@ -41,7 +41,7 @@ books:
               statements: 36
               exercises: 20
               extraction: native
-              content_sha256: 855739a3a594aa080b0053029d1fe46cf69fa4fe5cf779a08f39dc35e62fc662
+              content_sha256: b7aa6b29ab234498a2d605796ae9ae1913d6f0dcc7ddbee168c7d0ec0fa4a23c
             - kind: section
               section: 3
               title: Simple Modules
@@ -54,7 +54,7 @@ books:
               statements: 23
               exercises: 10
               extraction: native
-              content_sha256: ce7818d73c4aee080876cf9de56bba17ff189b775538ee0630d9fc66b7284d90
+              content_sha256: 042d2d4bde2fe3cdbbfca2194e4f3b205987267416b84cfd70d8b828be002b34
             - kind: section
               section: 4
               title: Semisimple Modules
@@ -67,7 +67,7 @@ books:
               statements: 43
               exercises: 8
               extraction: native
-              content_sha256: 7c129df3e6bb57216018bf396d3ebcfea307672b0f7b39a7d0b5865974a0a165
+              content_sha256: c5c0795cf3039991e63fc8003463c8da1183978594eca312916d512606abb8be
             - kind: section
               section: 5
               title: Commutation
@@ -119,7 +119,7 @@ books:
               statements: 30
               exercises: 6
               extraction: native
-              content_sha256: 725b6017435a01db686f5e73f7d66e05ef0ab6eadd6ee9d5337a2b7642692bd6
+              content_sha256: d751fe21fc87abb3feb061bc73772ce0081380a18a91f8d8a36757feaf2c413d
             - kind: section
               section: 9
               title: Radical
@@ -132,7 +132,7 @@ books:
               statements: 49
               exercises: 31
               extraction: native
-              content_sha256: 9fbad3b7175c586184c259fdf04cba1c8cf60ec9119fd4d42a587cc1a15c5524
+              content_sha256: 7399c96d84097dfd2fc169b6d1dbc8b3a09c77a9f4d5fd3658736ab35b67bcb2
             - kind: section
               section: 10
               title: Modules over an Artinian Ring
@@ -145,7 +145,7 @@ books:
               statements: 12
               exercises: 11
               extraction: native
-              content_sha256: 3827ea2e7777b020d1470d99475e174132dea12339d89fe892179ff816262745
+              content_sha256: 123a9a24186c6745ea5d0fe13afcfd30934d711e11e3d092d322373942c307bf
             - kind: section
               section: 11
               title: Grothendieck Groups
@@ -158,7 +158,7 @@ books:
               statements: 37
               exercises: 14
               extraction: native
-              content_sha256: 5b77dafa658ee3a63bb2a302b03ea3df7f4815a7afe136dfa14ab4ac8d08d757
+              content_sha256: ceb3f4d68f7b8e36bf74f648d09b2239016d4164433722377541721b2034660e
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -210,7 +210,7 @@ books:
               statements: 12
               exercises: 2
               extraction: native
-              content_sha256: 0ffa1440ac0cef09735449a78abf3063ab1f9153a5e1d0148bc139de9dc9cd7f
+              content_sha256: bf2eec7c42fcd9bbfad510bdef70ee9d47d5b7811585095fe142b5cbd820684e
             - kind: section
               section: 16
               title: Other Descriptions of the Brauer Group
@@ -223,7 +223,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: 73f1f51e419c6fb9e9c0ff84b89af7c019add39c1df9e28b7aeeff9f36ce22ad
+              content_sha256: 53c7db95f82c5e31362fd8faa00938e184d0c5701cb8f2338276757a0aa77bf3
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -236,7 +236,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: d50c90109a6ad103464b647ccf2be302c585d087af37fabd733e5d4785ea4d41
+              content_sha256: aea64bf2aabcede8c9e4002e57fc793b64aef1c036bbfcdeeed66b9b8ca32ec5
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -249,7 +249,7 @@ books:
               statements: 10
               exercises: 7
               extraction: native
-              content_sha256: c717158c9516f199a1bd560bb7d48ade4a4d6f73c8ee8167c55dfa4307245d47
+              content_sha256: 351bf17c3528b84822818681c71f37075789ad044ca521eac716258a9c1b4d78
             - kind: section
               section: 19
               title: Quaternion Algebras
@@ -275,7 +275,7 @@ books:
               statements: 31
               exercises: 6
               extraction: native
-              content_sha256: 2ef61f173d1e9a646a9db662bf120e5b0ec662059d3630c184554628be1357fa
+              content_sha256: 4cbd2d7969041301a3d7b7e7eeb23ee70edec69337a2be5421f39314b5dcdbe9
             - kind: section
               section: 21
               title: Linear Representations of Finite Groups
@@ -288,7 +288,7 @@ books:
               statements: 35
               exercises: 30
               extraction: native
-              content_sha256: 013be2b8fd2774e2525215db5da4c8ac3e5a557f15839a16df4387555074dcfe
+              content_sha256: 60df67bbc04879394fe5d731451df742608b8f22f1298037943f340a25a38000
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
@@ -314,7 +314,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: d647b54a9090894b950efbf97061664e39941573675fa4a80250e9879e5560bd
+              content_sha256: e305de543b32d98c15ba21c5b6114cbd9a2620969cddc897e22816641255be68
             - kind: appendix
               section: 3
               title: Hilbert’s Nullstellensatz
@@ -340,7 +340,7 @@ books:
               statements: 5
               exercises: 2
               extraction: native
-              content_sha256: 2167cb3754935cce3c9e084a699b88c47c5ce67b1a5c6f05fa2a2e6f1718e86b
+              content_sha256: da960d566cc8a0063b267d64b9918f343c1ff2a95cf3fb84b233a42b68d4329f
             - kind: historical
               title: Historical Note
               path: content/en/alg/VIII/historical_note.md
@@ -351,4 +351,4 @@ books:
               statements: 0
               exercises: 0
               extraction: native
-              content_sha256: 5a42e2f1bcbd55b535754c1ce2458ce5d23f79dd34ad0775595ea2a621c87c29
+              content_sha256: 9d4151f7157c33b99cd2c421721037713149300c47f6f3bc2620cf3e7df34fd4

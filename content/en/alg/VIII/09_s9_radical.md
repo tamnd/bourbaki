@@ -34,7 +34,7 @@ subsections:
       pdf_page: 178
 statements: 49
 exercises: 31
-content_sha256: 9fbad3b7175c586184c259fdf04cba1c8cf60ec9119fd4d42a587cc1a15c5524
+content_sha256: 7399c96d84097dfd2fc169b6d1dbc8b3a09c77a9f4d5fd3658736ab35b67bcb2
 ---
 
 ## § 9. RADICAL
@@ -47,7 +47,7 @@ Let A be a ring. The radical of an A-module M is the submodule defined as the in
 
 In the remainder of this chapter, we denote the radical of an A-module M by $\mathfrak{R}_A(M)$ or simply $\mathfrak{R}(M)$.
 
-Let A be a ring. The radical of an A-module M is reduced to 0 (in which case we say, by abuse of language, that M is without radical) if and only if there exist a family $(S_i)_{i\in I}$ of simple A-modules and a family $(f_i)_{i\in I}$ of A-linear mappings $f_i: M\rightarrow S_i$ such that we have $\cap_{i\in I}$ Ker($f_i) = 0$. This is equivalent to M being isomorphic to a submodule of a product of simple A-modules.
+Let A be a ring. The radical of an A-module M is reduced to 0 (in which case we say, by abuse of language, that M is without radical) if and only if there exist a family $(S_i)_{i\in I}$ of simple A-modules and a family $(f_i)_{i\in I}$ of A-linear mappings $f_i: M\rightarrow S_i$ such that we have $\cap_{i\in I}$ Ker($f_i$) $= 0$. This is equivalent to M being isomorphic to a submodule of a product of simple A-modules.
 
 #### Example 1 {#alg-viii-s9-n1-exa-1 .statement tag=00A2}
 
@@ -339,7 +339,7 @@ b) Let $f$ be such a mapping. If $g$ is surjective (resp. bijective), then $f$ i
 
 By assumption, the A-module P is projective and the mapping $u'$ is surjective. Consequently, there exists an A-linear mapping $f: P\rightarrow P'$ such that $g\circ u=u'\circ f$ (II, §2, No. 2, p. 231, Proposition 4). Assertion a) follows.
 
-Let $f$ be a mapping as in a). Suppose that $g$ is surjective. Since $u$ is surjective, we have $M'=g(u(P)) =u'(f(P))$. Since $(P', u')$ is a projective cover of M’, we have $f(P) = P'$, so $f$ is surjective. By loc. cit., the kernel of $f$ admits a supplementary submodule $P_1$, so $f(P_1) = P'$. Now suppose that $g$ is bijective. We have $g(u(P_1)) =u'(f(P_1)) =u'(P') = M'$, hence $u(P_1) = M$. Since $(P, u)$ is a projective cover of M, we have $P_1= P$, hence Ker($f) = 0$. So $f$ is injective; since we already know that $f$ is surjective, $f$ is bijective.
+Let $f$ be a mapping as in a). Suppose that $g$ is surjective. Since $u$ is surjective, we have $M'=g(u(P)) =u'(f(P))$. Since $(P', u')$ is a projective cover of M’, we have $f(P) = P'$, so $f$ is surjective. By loc. cit., the kernel of $f$ admits a supplementary submodule $P_1$, so $f(P_1) = P'$. Now suppose that $g$ is bijective. We have $g(u(P_1)) =u'(f(P_1)) =u'(P') = M'$, hence $u(P_1) = M$. Since $(P, u)$ is a projective cover of M, we have $P_1= P$, hence Ker($f$) $= 0$. So $f$ is injective; since we already know that $f$ is surjective, $f$ is bijective.
 
 To conclude, suppose that $g$ is injective and that its image is a direct factor of $M'$. Then there exists an A-linear mapping $g': M'\rightarrow M$ such that $g'\circ g= 1_M$. By a), there exists an A-linear mapping $f': P'\rightarrow P$ such that $u\circ f'=g'\circ u'$. We have $u\circ (f'\circ f) =g'\circ u'\circ f= (g'\circ g)\circ u$; by the previous paragraph, the mapping $f'\circ f$ is bijective. Denote the converse bijection by $h$; we have $(h\circ f')\circ f= 1_P$, so $f$ is injective, and its image is a direct factor of $P'$ (II, §1, No. 9, p. 212, Corollary 2).
 

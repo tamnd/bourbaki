@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: 2ef61f173d1e9a646a9db662bf120e5b0ec662059d3630c184554628be1357fa
+content_sha256: 4cbd2d7969041301a3d7b7e7eeb23ee70edec69337a2be5421f39314b5dcdbe9
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -179,15 +179,15 @@ $$
 
 for $x, y\in E$ and $x^*\in E^*$. Its image is the set End$^f_K(E)$ of endomorphisms of E of finite rank (VIII, p. 463). By the definition of the trace (loc. cit.), we have
 
-Tr($\theta_E(x\otimes x^*)) =\langle x^*, x\rangle$ for $x\in E$ and $x^*\in E^*$; we therefore have
+Tr($\theta_E(x\otimes x^*)$) $=\langle x^*, x\rangle$ for $x\in E$ and $x^*\in E^*$; we therefore have
 
-$\langle \gamma_E(x\otimes x^*), a\rangle =\langle x^*, ax\rangle =$ Tr($\theta_E(ax\otimes x^*)) =$ Tr($\theta_E(x\otimes x^*)a)$.
+$\langle \gamma_E(x\otimes x^*), a\rangle =\langle x^*, ax\rangle =$ Tr($\theta_E(ax\otimes x^*)$) $=$ Tr($\theta_E(x\otimes x^*)a$).
 
 This gives the relation
 
-$\langle \gamma_E(h), a\rangle =$ Tr($\theta_E(h)\circ a_E)$
+$\langle \gamma_E(h), a\rangle =$ Tr($\theta_E(h)\circ a_E$)
 
-for $a\in A$ and $h\in E\otimes_KE^*$. This proves that $\Theta_E(A)$ is the set of linear forms $a\mapsto$ Tr($u\circ a_E)$ on A, where $u$ runs through End$^f_K(E)$.
+for $a\in A$ and $h\in E\otimes_KE^*$. This proves that $\Theta_E(A)$ is the set of linear forms $a\mapsto$ Tr($u\circ a_E$) on A, where $u$ runs through End$^f_K(E)$.
 
 #### Lemma 1 {#alg-viii-s20-lem-1 .statement tag=00MI}
 
@@ -299,7 +299,7 @@ When the field K is algebraically closed, we have D = K by Theorem 1 of VIII, p.
 
 ### 6. Character of a Representation
 
-Let E be a left A-module of finite dimension over K. The character of E or trace of E, denoted by Tr$_E$, is the linear form $a\mapsto$ Tr($a_E)$. Let $(e_1, . . . , e_n)$ be a basis of E and $(e^*_1, . . . , e^*_n)$ its dual basis. By definition, we have the relation
+Let E be a left A-module of finite dimension over K. The character of E or trace of E, denoted by Tr$_E$, is the linear form $a\mapsto$ Tr($a_E$). Let $(e_1, . . . , e_n)$ be a basis of E and $(e^*_1, . . . , e^*_n)$ its dual basis. By definition, we have the relation
 
 (7) Tr$_E=\sum_{i=1}^nc_E(e_i, e^*_i)$.
 
@@ -321,9 +321,9 @@ Let S be a simple A-module of finite dimension over K, let D be the opposite fie
 
 (iii) The extension Z of K is separable, and the characteristic $p$ of K does not divide the degree [D : Z].
 
-The right D-vector space S is finite-dimensional. Let $(e_1, . . . , e_n)$ be a basis of S over D, and let $u$ be an element of End$_D(S)$. Let $(d_{ij})$ be the matrix of $u$ with respect to the basis $(e_1, . . . , e_n)$. We have $u(e_j) =\sum^n_{i=1}e_id_{ij}$ for $j\in [1, n]$. Denote by $u_K$ the mapping $u$ viewed as an endomorphism of the K-vector space S and by $(u_{ij})$ the matrix of $u_K$ with respect to the decomposition $(e_iD)$ of the K-vector space S as a direct sum (II, §10, No. 5, p. 346). We have Tr($u_K) =\sum_i$ Tr($u_{ii})$. Moreover, $u_{ii}$ is the endomorphism of the K-vector space $e_iD$ defined by $u_{ii}(e_id) =e_id_{ii}d$ for $d\in D$, so its trace is equal to Tr$_{D/K}(d_{ii})$. We have thus proved the equality
+The right D-vector space S is finite-dimensional. Let $(e_1, . . . , e_n)$ be a basis of S over D, and let $u$ be an element of End$_D(S)$. Let $(d_{ij})$ be the matrix of $u$ with respect to the basis $(e_1, . . . , e_n)$. We have $u(e_j) =\sum^n_{i=1}e_id_{ij}$ for $j\in [1, n]$. Denote by $u_K$ the mapping $u$ viewed as an endomorphism of the K-vector space S and by $(u_{ij})$ the matrix of $u_K$ with respect to the decomposition $(e_iD)$ of the K-vector space S as a direct sum (II, §10, No. 5, p. 346). We have Tr($u_K$) $=\sum_i$ Tr($u_{ii}$). Moreover, $u_{ii}$ is the endomorphism of the K-vector space $e_iD$ defined by $u_{ii}(e_id) =e_id_{ii}d$ for $d\in D$, so its trace is equal to Tr$_{D/K}(d_{ii})$. We have thus proved the equality
 
-(9) Tr($u_K) =$ Tr$_{D/K}\sum_id_{ii}$.
+(9) Tr($u_K$) $=$ Tr$_{D/K}\sum_id_{ii}$.
 
 By Burnside’s theorem (VIII, p. 83, Corollary 1 of Proposition 4), the mapping $a\mapsto a_S$ from A to End$_D(S)$ is surjective. The equivalence of properties (i) and (ii) therefore follows from formula (9).
 

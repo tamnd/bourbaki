@@ -22,7 +22,7 @@ subsections:
       pdf_page: 374
 statements: 10
 exercises: 7
-content_sha256: c717158c9516f199a1bd560bb7d48ade4a4d6f73c8ee8167c55dfa4307245d47
+content_sha256: 351bf17c3528b84822818681c71f37075789ad044ca521eac716258a9c1b4d78
 ---
 
 ## § 18. SIMPLE ALGEBRAS OVER A FINITE FIELD
@@ -31,7 +31,7 @@ content_sha256: c717158c9516f199a1bd560bb7d48ade4a4d6f73c8ee8167c55dfa4307245d47
 
 #### Theorem 1 {#alg-viii-s18-thm-1 .statement tag=00SA}
 
-Let K be a finite commutative field of characteristic $p$. Let $n$ be an integer $\geqslant 1$ and $(f_i)_{i\in I}$ a finite family of nonzero elements of $K[X_1, . . . ,X_n]$. Denote by Z the set of elements $\mathbf{x}$ of $K^n$ such that we have $f_i(\mathbf{x}) = 0$ for $i\in I$. If we have $n >\sum_{i\in I}$ deg($f_i)$, then the cardinal of Z is divisible by $p$.
+Let K be a finite commutative field of characteristic $p$. Let $n$ be an integer $\geqslant 1$ and $(f_i)_{i\in I}$ a finite family of nonzero elements of $K[X_1, . . . ,X_n]$. Denote by Z the set of elements $\mathbf{x}$ of $K^n$ such that we have $f_i(\mathbf{x}) = 0$ for $i\in I$. If we have $n >\sum_{i\in I}$ deg($f_i$), then the cardinal of Z is divisible by $p$.
 
 #### Lemma 1 {#alg-viii-s18-lem-1 .statement tag=00LB}
 
@@ -93,7 +93,7 @@ Let $(e_1, . . . , e_n)$ be a basis of V over K. By the definition of homogeneou
 
 Every finite field is commutative.
 
-Let D be a finite field, and let K be its center. The K-algebra D is central simple of degree $m^2$, where $m$ is a strictly positive integer. The reduced norm is a homogeneous polynomial mapping Nrd$: D\rightarrow K$ of degree $m$ (VIII, p. 345, Proposition 6), and we have Nrd($a)\not= 0$ for every $a\not= 0$ in D (VIII, p. 340, Proposition 3). The corollary above implies that $m\geqslant m^2$, and therefore $m= 1$. So we have D = K.
+Let D be a finite field, and let K be its center. The K-algebra D is central simple of degree $m^2$, where $m$ is a strictly positive integer. The reduced norm is a homogeneous polynomial mapping Nrd$: D\rightarrow K$ of degree $m$ (VIII, p. 345, Proposition 6), and we have Nrd($a$)$\not= 0$ for every $a\not= 0$ in D (VIII, p. 340, Proposition 3). The corollary above implies that $m\geqslant m^2$, and therefore $m= 1$. So we have D = K.
 
 #### Corollary 1 {#alg-viii-s18-thm-2-cor-1 .statement tag=00LE}
 
