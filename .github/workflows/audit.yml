@@ -34,12 +34,28 @@ jobs:
             exit 1
           fi
 
+  # Assembly is a pure function of pages/ and manifests/toc.yaml. That is the
+  # contract that lets it run here at all, where the PDFs are not and cannot be,
+  # and this is what holds it: the sections are assembled again from the pages
+  # and compared with the ones committed. A parser that gives a different answer
+  # on the same input, or a section file edited by hand, fails the build.
+  #
   # The corpus audit proper, tags resolved and figures present and prose read back
-  # against the page, is bourbaki audit. It arrives with M6. Until then this job
-  # holds the name so the branch rule does not have to change later.
+  # against the page, is bourbaki audit. It arrives with M6 and joins this job.
   corpus:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: pending M6
-        run: echo "corpus audit lands with M6"
+      - uses: actions/checkout@v4
+        with:
+          repository: tamnd/bourbaki-solver
+          path: .solver
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache-dependency-path: .solver/go.sum
+      - name: assemble -check
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki assemble -book alg-viii -check
