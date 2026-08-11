@@ -69,3 +69,13 @@ jobs:
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: go run ./cmd/bourbaki tags verify -base origin/main
+      # The reference graph is a pure function of the Markdown too, so the
+      # manifest and the four reports are checked rather than rebuilt. -min is
+      # set to what the corpus measures today and is raised as the extraction
+      # holes the graph found are closed, so that it catches a regression
+      # without pretending the target has been reached.
+      - name: refs build -check
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki refs build -check -min 78
