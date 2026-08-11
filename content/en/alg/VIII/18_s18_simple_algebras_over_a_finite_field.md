@@ -20,16 +20,18 @@ subsections:
       title: Simple Algebras over Finite Fields
       page: 357
       pdf_page: 374
-statements: 8
+statements: 10
 exercises: 7
-content_sha256: 55ce189bde65d5a4fc9cc96634d7d85d5b7c704f19c4226923992331477d2d65
+content_sha256: c717158c9516f199a1bd560bb7d48ade4a4d6f73c8ee8167c55dfa4307245d47
 ---
 
 ## § 18. SIMPLE ALGEBRAS OVER A FINITE FIELD
 
 ### 1. Polynomials over a Finite Field
 
-Theorem 1 (Chevalley–Warning). — Let K be a finite commutative field of characteristic $p$. Let $n$ be an integer $\geqslant 1$ and $(f_i)_{i\in I}$ a finite family of nonzero elements of $K[X_1, . . . ,X_n]$. Denote by Z the set of elements $\mathbf{x}$ of $K^n$ such that we have $f_i(\mathbf{x}) = 0$ for $i\in I$. If we have $n >\sum_{i\in I}$ deg($f_i)$, then the cardinal of Z is divisible by $p$.
+#### Theorem 1 {#alg-viii-s18-thm-1 .statement tag=00SA}
+
+Let K be a finite commutative field of characteristic $p$. Let $n$ be an integer $\geqslant 1$ and $(f_i)_{i\in I}$ a finite family of nonzero elements of $K[X_1, . . . ,X_n]$. Denote by Z the set of elements $\mathbf{x}$ of $K^n$ such that we have $f_i(\mathbf{x}) = 0$ for $i\in I$. If we have $n >\sum_{i\in I}$ deg($f_i)$, then the cardinal of Z is divisible by $p$.
 
 #### Lemma 1 {#alg-viii-s18-lem-1 .statement tag=00LB}
 
@@ -87,17 +89,19 @@ Let $(e_1, . . . , e_n)$ be a basis of V over K. By the definition of homogeneou
 
 ### 2. Simple Algebras over Finite Fields
 
-Theorem 2 (Wedderburn). — Every finite field is commutative.
+#### Theorem 2 {#alg-viii-s18-thm-2 .statement tag=00SB}
+
+Every finite field is commutative.
 
 Let D be a finite field, and let K be its center. The K-algebra D is central simple of degree $m^2$, where $m$ is a strictly positive integer. The reduced norm is a homogeneous polynomial mapping Nrd$: D\rightarrow K$ of degree $m$ (VIII, p. 345, Proposition 6), and we have Nrd($a)\not= 0$ for every $a\not= 0$ in D (VIII, p. 340, Proposition 3). The corollary above implies that $m\geqslant m^2$, and therefore $m= 1$. So we have D = K.
 
-#### Corollary 1 {#alg-viii-s18-lem-2-cor-1 .statement tag=00LE}
+#### Corollary 1 {#alg-viii-s18-thm-2-cor-1 .statement tag=00LE}
 
 Every finite simple ring is isomorphic to a matrix ring $\mathbf{M}_n(L)$, where $n$ is a strictly positive integer and L is a finite commutative field.
 
 This follows from Theorem 2 and the structure theorem for simple rings (VIII, p. 120, Theorem 1).
 
-#### Corollary 2 {#alg-viii-s18-lem-2-cor-2 .statement tag=00LF}
+#### Corollary 2 {#alg-viii-s18-thm-2-cor-2 .statement tag=00LF}
 
 Let K be a finite commutative field. Every central simple algebra over K is isomorphic to a matrix algebra $\mathbf{M}_n(K)$, where $n$ is a strictly positive integer.
 

@@ -56,9 +56,9 @@ subsections:
       title: Index and Exponent
       page: 322
       pdf_page: 339
-statements: 59
+statements: 63
 exercises: 17
-content_sha256: 63afe3b44e7f12ae0fa62317425b3b86339c7cde2bc918ef5c4bf52c283e9278
+content_sha256: 0824fad8fb51a7ce1fb38bfbfdb348aff031ca2b85142925b45d44c84a916440
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -187,7 +187,11 @@ The class of the $\tau '$-extension $u^*(\mathscr{E})$ therefore depends only on
 
 #### Corollary 2 {#alg-viii-s16-lem-2-cor-2 .statement tag=00IF}
 
-Let $u': G''\rightarrow G'$ be a group homomorphism, and let $\mathscr{E}$ be a $\tau$-extension of G by F. Set $\tau ''=\tau '\circ u'$, and denote by $\varphi ($resp. $\varphi ',\varphi '')$ the canonical homomorphism associated with the $\tau '$-extension $u^*(\mathscr{E}) ($resp. the $\tau ''$-extension $u^{'*}(u^*(\mathscr{E}))$, the $\tau ''$-extension $(u\circ u')^*(\mathscr{E}))$. Then there exists a unique morphism $\psi$ from the $\tau ''$-extension $u^{'*}(u^*(\mathscr{E}))$ to the $\tau ''$-extension $(u\circ u')^*(\mathscr{E})$ such that $\varphi ''\circ \psi =\varphi \circ \varphi '$. **Example.** — Let H be a subgroup of G and $j: H\rightarrow G$ the canonical injection. Then for every $\tau$-extension $\mathscr{E}= (Γ, \iota , \pi )$, the $\tau \circ j$-extension $j^*(\mathscr{E})$ is isomorphic to $(^-\pi^1(H), \iota ', \pi ')$, where $\iota ': F\rightarrow^-\pi^1(H)$ (resp. $\pi ':^-\pi^1(H)\rightarrow H)$ is the group homomorphism $f\mapsto \iota (f)$ (resp. $\gamma \mapsto \pi (\gamma ))$. More generally, if the group homomorphism $u: G'\rightarrow G$ is injective, then the canonical homomorphism $\varphi$ is injective with image $^-\pi^1(u(G'))$.
+Let $u': G''\rightarrow G'$ be a group homomorphism, and let $\mathscr{E}$ be a $\tau$-extension of G by F. Set $\tau ''=\tau '\circ u'$, and denote by $\varphi ($resp. $\varphi ',\varphi '')$ the canonical homomorphism associated with the $\tau '$-extension $u^*(\mathscr{E}) ($resp. the $\tau ''$-extension $u^{'*}(u^*(\mathscr{E}))$, the $\tau ''$-extension $(u\circ u')^*(\mathscr{E}))$. Then there exists a unique morphism $\psi$ from the $\tau ''$-extension $u^{'*}(u^*(\mathscr{E}))$ to the $\tau ''$-extension $(u\circ u')^*(\mathscr{E})$ such that $\varphi ''\circ \psi =\varphi \circ \varphi '$.
+
+#### Example {#alg-viii-s16-n2-exa-1 .statement tag=00RI}
+
+Let H be a subgroup of G and $j: H\rightarrow G$ the canonical injection. Then for every $\tau$-extension $\mathscr{E}= (Γ, \iota , \pi )$, the $\tau \circ j$-extension $j^*(\mathscr{E})$ is isomorphic to $(^-\pi^1(H), \iota ', \pi ')$, where $\iota ': F\rightarrow^-\pi^1(H)$ (resp. $\pi ':^-\pi^1(H)\rightarrow H)$ is the group homomorphism $f\mapsto \iota (f)$ (resp. $\gamma \mapsto \pi (\gamma ))$. More generally, if the group homomorphism $u: G'\rightarrow G$ is injective, then the canonical homomorphism $\varphi$ is injective with image $^-\pi^1(u(G'))$.
 
 ### 3. Direct Image of a $\tau$-Extension
 
@@ -289,7 +293,11 @@ Let $\mathscr{E}_1$ and $\mathscr{E}_2$ be $\tau$-extensions of G by F, and let 
 
 It suffices to apply Proposition 2 to $\varphi_2\circ \psi$.
 
-The class of the $\tau '$-extension $v_*(\mathscr{E})$ therefore depends only on the class of $\mathscr{E}$. We also denote by $v_*:$ Ex$_{\tau}(G,F)\rightarrow$ Ex$_{\tau'}(G,F')$ the mapping that sends the class of a $\tau$-extension $\mathscr{E}$ to the class of the $\tau '$-extension $v_*(\mathscr{E})$. **Corollary 2.** — We keep the notation of the proposition. Let $F''$ be an abelian group, and let $\tau '': G\rightarrow$ Aut(F$'')$ and $v': F'\rightarrow F''$ be group homomorphisms such that
+The class of the $\tau '$-extension $v_*(\mathscr{E})$ therefore depends only on the class of $\mathscr{E}$. We also denote by $v_*:$ Ex$_{\tau}(G,F)\rightarrow$ Ex$_{\tau'}(G,F')$ the mapping that sends the class of a $\tau$-extension $\mathscr{E}$ to the class of the $\tau '$-extension $v_*(\mathscr{E})$.
+
+#### Corollary 2 {#alg-viii-s16-lem-3-cor-2 .statement tag=00RJ}
+
+We keep the notation of the proposition. Let $F''$ be an abelian group, and let $\tau '': G\rightarrow$ Aut(F$'')$ and $v': F'\rightarrow F''$ be group homomorphisms such that
 
 $$
 \tau ''(g)\cdot v'(f) =v'(\tau '(g)\cdot f)
@@ -575,7 +583,11 @@ $$
 = (c(g_1, g_2)c(e, g_1g_2)^{-1}, e) = (c(e, e)^{-1}c(g_1, g_2), e)
 $$
 
-for $g_1, g_2\in G$. **Remark.** — Let G be a group, let F and $F'$ be abelian groups, let $\tau$ (resp. $\tau ')$ be a group homomorphism from G to the automorphism group of F (resp. $F')$, and let $v: F\rightarrow F'$ be a group morphism such that
+for $g_1, g_2\in G$.
+
+#### Remark {#alg-viii-s16-n5-rem-1 .statement tag=00RK}
+
+Let G be a group, let F and $F'$ be abelian groups, let $\tau$ (resp. $\tau ')$ be a group homomorphism from G to the automorphism group of F (resp. $F')$, and let $v: F\rightarrow F'$ be a group morphism such that
 
 $$
 v(\tau (g)\cdot f) =\tau '(g)\cdot v(f) \tag{13}
@@ -919,7 +931,11 @@ defined by the relation $\psi (\alpha )(g) =\alpha (g)(e)$ for $\alpha$ in $\mat
 
 We now suppose given a finite group G and a reduced (V, §6, No. 6, p. 32) commutative K-algebra L of finite degree endowed with an action of G given by a homomorphism $\lambda$ from G to Aut$_K(L)$. For $x\in L$ and $g\in G$, we denote by $g\cdot x$ the transform of $x$ under the automorphism $\lambda (g)$ of L. Let $\mathscr{S}$ be the set of maximal ideals of L; we denote by $g\cdot \mathfrak{m}$ the transform of an element $\mathfrak{m}$ of $\mathscr{S}$ under the automorphism $\lambda (g)$ of L. It is an element of $\mathscr{S}$. For every $\mathfrak{m}$ in $\mathscr{S}$, the field $L/\mathfrak{m}$ is a finite extension of K. We write $\pi_{\mathfrak{m}}: L\rightarrow L/\mathfrak{m}$ for the projection and denote by $G_{\mathfrak{m}}$ the stabilizer of $\mathfrak{m}$ in G, that is, the set of $g\in G$ such that $g\cdot \mathfrak{m}=\mathfrak{m}$. The K-algebra $L/\mathfrak{m}$ is endowed with an action of $G_{\mathfrak{m}}$ through the homomorphism $\lambda_{\mathfrak{m}}$ from $G_{\mathfrak{m}}$ to Aut$_K(L/\mathfrak{m})$ that sends an element $h$ of $G_{\mathfrak{m}}$ to the automorphism of $L/\mathfrak{m}$ deduced from $\lambda (h)$ when passing to the quotients.
 
-Let $\mathscr{O}$ be the set of orbits of G in $\mathscr{S}$. Given an orbit $\sigma \in \mathscr{O}$, set $\mathfrak{a}_{\sigma}=\bigcap_{\mathfrak{m}\in\sigma}\mathfrak{m}$ and $L_{\sigma}= L/\mathfrak{a}_{\sigma}$. Since $\mathfrak{a}_{\sigma}$ is invariant under G, by passing to the quotients, the action of G on L defines a homomorphism $\lambda_{\sigma}$ from G to Aut$_K(L_{\sigma})$. Finally, denote by $\pi_{\sigma}$ the canonical mapping from L to $L_{\sigma}$. **Lemma 8.** — a) For every $g\in G,\sigma \in \mathscr{O}$, and $\mathfrak{m}\in \sigma$, we have
+Let $\mathscr{O}$ be the set of orbits of G in $\mathscr{S}$. Given an orbit $\sigma \in \mathscr{O}$, set $\mathfrak{a}_{\sigma}=\bigcap_{\mathfrak{m}\in\sigma}\mathfrak{m}$ and $L_{\sigma}= L/\mathfrak{a}_{\sigma}$. Since $\mathfrak{a}_{\sigma}$ is invariant under G, by passing to the quotients, the action of G on L defines a homomorphism $\lambda_{\sigma}$ from G to Aut$_K(L_{\sigma})$. Finally, denote by $\pi_{\sigma}$ the canonical mapping from L to $L_{\sigma}$.
+
+#### Lemma 8 {#alg-viii-s16-lem-8 .statement tag=00RL}
+
+a) For every $g\in G,\sigma \in \mathscr{O}$, and $\mathfrak{m}\in \sigma$, we have
 
 $[L_{\sigma}: K] =$ Card($\sigma )[L/\mathfrak{m}: K]$.
 

@@ -44,9 +44,9 @@ subsections:
       title: The Splitting of Artinian Algebras
       page: 243
       pdf_page: 260
-statements: 29
+statements: 33
 exercises: 12
-content_sha256: 7281d931109fbb83b2ce126cdbce9087c26355392f7a986122f8e14f99d2cd2d
+content_sha256: a0e8eb1674e4fbfdd111d6d5df4e6f6f34dbaa23a3f22b64a32e30f711407c2b
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -233,7 +233,11 @@ b) Let S be a simple A-module, and let D be its commutant. The following propert
 
 center is a separable extension of K.
 
-Assertion a) follows from Proposition 1, a) of VIII, p. 229. Let S and D be as in b), and let L be an extension of K. The $A_{(L)}$-module $S_{(L)}$ is semisimple if and only if the ring $D_{(L)}$ is (VIII, p. 222, Proposition 8, c)). This proves the equivalence of (i) and (ii), and that of (ii) and (iii) follows from Theorem 1 because D is a field. **Corollary.** — Let K be a commutative field, let $A_1$ and $A_2$ be K-algebras, and let $M_1$ be an absolutely semisimple $A_1$-module and $M_2$ a semisimple $A_2$-module. Then $M_1\otimes_KM_2$ is a semisimple module over the ring $A_1\otimes_KA_2$.
+Assertion a) follows from Proposition 1, a) of VIII, p. 229. Let S and D be as in b), and let L be an extension of K. The $A_{(L)}$-module $S_{(L)}$ is semisimple if and only if the ring $D_{(L)}$ is (VIII, p. 222, Proposition 8, c)). This proves the equivalence of (i) and (ii), and that of (ii) and (iii) follows from Theorem 1 because D is a field.
+
+#### Corollary {#alg-viii-s13-n4-cor-1 .statement tag=00RF}
+
+Let K be a commutative field, let $A_1$ and $A_2$ be K-algebras, and let $M_1$ be an absolutely semisimple $A_1$-module and $M_2$ a semisimple $A_2$-module. Then $M_1\otimes_KM_2$ is a semisimple module over the ring $A_1\otimes_KA_2$.
 
 The module $M_1$ is the direct sum of absolutely semisimple simple $A_1$-modules (Proposition 4). It therefore suffices to prove the assertion in the case when the modules $M_1$ and $M_2$ are simple. Denote their commutants by $D_1$ and $D_2$. The K-algebra $D_1$ is absolutely semisimple (loc. cit.); by Corollary 1 of VIII, p. 234, the K-algebra $D_1\otimes_KD_2$ is semisimple. It then follows from Corollary 1 of VIII, p. 215 that the $(A_1\otimes_KA_2$)-module $M_1\otimes_KM_2$ is semisimple.
 
@@ -301,7 +305,11 @@ $$
 ep(x) =\sum_{i=1}^ra_ia'_ix=x
 $$
 
-by formula (2). We deduce from formula (3) that $aep(x) =ep(ax)$ for every $a\in A$ and every $x\in M$, which proves that $ep$ is A-linear. **Theorem 2.** — Let K be a commutative field and A a K-algebra. The following properties are equivalent:
+by formula (2). We deduce from formula (3) that $aep(x) =ep(ax)$ for every $a\in A$ and every $x\in M$, which proves that $ep$ is A-linear.
+
+#### Theorem 2 {#alg-viii-s13-thm-2 .statement tag=00RG}
+
+Let K be a commutative field and A a K-algebra. The following properties are equivalent:
 
 (i) The K-algebra A is absolutely semisimple.
 
@@ -393,7 +401,9 @@ $$
 
 We then have (16) $\partial^{n-1}(\gamma^n(f)) +\gamma^{n+1}(\partial^n(f)) =f$ for every integer $n\geqslant 1$ and every $f\in C^n(A,P)$.
 
-$*$Remark 1. — The morphisms $\partial_n: C_n(A,P)\rightarrow C_{n+1}(A,P)$ define a complex $(C(A,P), \partial )$ of K-modules (X, §2, n$^o1$, p. 24). The mapping $\gamma_n$ therefore defines a homotopy from this complex to itself linking 0 to Id$_{C(A,P)}$ (X, §2, n$^o4$, p. 32, définition $4).*$
+#### Remark 1 {#alg-viii-s13-n7-rem-1 .statement tag=00SF}
+
+$*$The morphisms $\partial_n: C_n(A,P)\rightarrow C_{n+1}(A,P)$ define a complex $(C(A,P), \partial )$ of K-modules (X, §2, n$^o1$, p. 24). The mapping $\gamma_n$ therefore defines a homotopy from this complex to itself linking 0 to Id$_{C(A,P)}$ (X, §2, n$^o4$, p. 32, définition $4).*$
 
 We keep the notation of No.6. For every integer $n\geqslant 0$, we define a mapping $h_n: B_n\rightarrow B_{n+1}$ by the formula
 
@@ -541,7 +551,9 @@ Let us now prove the existence of S in the general case. We reason by induction 
 
 The algebra $A''/\mathfrak{r}^{p-1}$ is isomorphic to $A'/\mathfrak{r}'$; we have $(\mathfrak{r}^{p-1})^2= 0$, so $\mathfrak{r}^{p-1}$ is the radical of $A''$. By the case we just treated, there exists a subalgebra S of $A''$ such that $A''= S\oplus \mathfrak{r}^{p-1}$; we deduce the relation $A = S\oplus \mathfrak{r}$ from (23).
 
-Corollary 1 (Wedderburn’s theorem). — Let K be a commutative field, A a K-algebra, and $\mathfrak{r}$ the radical of A. Suppose that the K-algebra $A/\mathfrak{r}$ is absolutely semisimple.
+#### Corollary 1 {#alg-viii-s13-prop-7-cor-1 .statement tag=00S8}
+
+Let K be a commutative field, A a K-algebra, and $\mathfrak{r}$ the radical of A. Suppose that the K-algebra $A/\mathfrak{r}$ is absolutely semisimple.
 
 a) Let $S_1$ and $S_2$ be subalgebras of A satisfying $A = S_1\oplus \mathfrak{r}= S_2\oplus \mathfrak{r}$. There exists a special automorphism of A transforming $S_1$ into $S_2$.
 

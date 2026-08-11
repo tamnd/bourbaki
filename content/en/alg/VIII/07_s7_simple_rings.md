@@ -28,9 +28,9 @@ subsections:
       title: Ideals of Simple Rings
       page: 126
       pdf_page: 143
-statements: 22
+statements: 24
 exercises: 16
-content_sha256: 39372cb7ef9344a194e5d5d78881c045465016d4bdb225d3ad9672b4e8f0ff56
+content_sha256: 1dc0bda650f6e556cd12d363f89202f948e2d0db02618c353b465b0fd7bd7538
 ---
 
 ## § 7. SIMPLE RINGS
@@ -73,13 +73,19 @@ Recall that by Theorem 1 of II, §9, No. 1, p. 115, the following properties are
 
 We sometimes say that a ring A is quasi-simple if it is not reduced to 0 and if its only two-sided ideals are 0 and A. We say that A is primitive if it admits a faithful simple module. By Proposition 1, every simple ring is quasi-simple. Since every nonzero ring admits a simple module and the annihilator of a simple module is a two-sided ideal, we see that every quasi-simple ring is primitive. However, there exist quasi-simple rings that are not simple and primitive rings that are not quasi-simple (VIII, p. 128, Exercise 2); such rings are not left Artinian.
 
-Theorem 1 (Wedderburn). — A ring is simple if and only if it is isomorphic to a matrix ring $\mathbf{M}_r(D)$, where $r\geqslant 1$ is an integer and D a field.
+#### Theorem 1 {#alg-viii-s7-thm-1 .statement tag=00S3}
+
+A ring is simple if and only if it is isomorphic to a matrix ring $\mathbf{M}_r(D)$, where $r\geqslant 1$ is an integer and D a field.
 
 #### Lemma 1 {#alg-viii-s7-lem-1 .statement tag=0085}
 
 Let A be a simple ring, S a simple left A-module, and D the opposite ring of the field End$_A(S)$. Then S is an invertible $(A,D)$-bimodule. It is also a finite-dimensional right vector space over D, and the mapping $a\mapsto a_S$ is a ring isomorphism from A to End$_D(S)$.
 
-By Proposition 1, the A-module $A_s$ has finite length and is isotypical of type S. Hence, there exists an integer $m\geqslant 1$ such that the A-modules $A_s$ and $S^m$ are isomorphic. Then the A-module S is projective and finitely generated. It is generating (VIII, p. 80, Theorem 1), and Lemma 1 follows from Theorem 1 of VIII, p. 101, (ii)$\Rightarrow$(i) and (ii)$\Rightarrow$(iii) applied to the $(A,D)_{\mathbf{Z}}$-bimodule S. **Lemma 2.** — Let D be a field and V a right vector space of finite dimension $r\geqslant 1$ over D. Then V is a simple module over the ring E = End$_D(V)$, and its commutant is equal to $D_V$. The ring E is simple, and its left length is equal to $r$.
+By Proposition 1, the A-module $A_s$ has finite length and is isotypical of type S. Hence, there exists an integer $m\geqslant 1$ such that the A-modules $A_s$ and $S^m$ are isomorphic. Then the A-module S is projective and finitely generated. It is generating (VIII, p. 80, Theorem 1), and Lemma 1 follows from Theorem 1 of VIII, p. 101, (ii)$\Rightarrow$(i) and (ii)$\Rightarrow$(iii) applied to the $(A,D)_{\mathbf{Z}}$-bimodule S.
+
+#### Lemma 2 {#alg-viii-s7-lem-2 .statement tag=00R7}
+
+Let D be a field and V a right vector space of finite dimension $r\geqslant 1$ over D. Then V is a simple module over the ring E = End$_D(V)$, and its commutant is equal to $D_V$. The ring E is simple, and its left length is equal to $r$.
 
 We know that V is a simple E-module (VIII, p. 45, Example 3) and that its commutant is equal to $D_V$ (VIII, p. 82, Corollary 1). Let $(x_i)_{1\leqslant i\leqslant r}$ be a basis of V over the field D. The mapping $u\mapsto (u(x_i))_{1\leqslant i\leqslant r}$ is an isomorphism from the E-module $E_s$ to the E-module $V^r$; consequently, the E-module $E_s$ is isotypical of length $r$, so the ring E is simple.
 
@@ -89,7 +95,7 @@ Let us now prove Theorem 1. Recall (II, §10, No. 7, p. 349) that the ring $\mat
 
 Let A be a simple ring, S a simple A-module, and D the opposite ring of the field End$_A(S)$. Then the A-module $A_s$ has finite length, and dim$_D(S)$ is equal to long(A). Indeed, by Lemma 1, the ring A is isomorphic to End$_D(S)$; we then apply Lemma 2.
 
-#### Corollary 1 {#alg-viii-s7-lem-1-cor-1 .statement tag=0087}
+#### Corollary 1 {#alg-viii-s7-lem-2-cor-1 .statement tag=0087}
 
 a) The center of a simple ring is a field.
 
@@ -101,7 +107,7 @@ Let D be a field, Z its center, and V a right vector space over D of finite dime
 
 The mapping $z\mapsto z_V$ is an isomorphism from Z to the center of E by Corollary 2 of VIII, p. 83. Assertion a) follows. The dual $V^*$ of V is a right vector space over the opposite field $D^o$ of D, and its dimension is equal to $r$. The mapping $u\mapsto^tu$ is an isomorphism from the opposite ring $E^o$ of E to the ring End$_{D^o}(V^*)$. Consequently, the ring $E^o$ is simple, and the rings E and $E^o$ have the same left length, equal to $r$ (Lemma 2).
 
-#### Corollary 2 {#alg-viii-s7-lem-1-cor-2 .statement tag=0088}
+#### Corollary 2 {#alg-viii-s7-lem-2-cor-2 .statement tag=0088}
 
 Let $r$ and $r'$ be strictly positive integers, and let D and $D'$ be fields. The rings $\mathbf{M}_r(D)$ and $\mathbf{M}_{r'}(D')$ are isomorphic if and only if we have $r=r'$ and the fields D and $D'$ are isomorphic.
 
@@ -109,7 +115,7 @@ The condition is obviously sufficient.
 
 Conversely, suppose that the rings $B =\mathbf{M}_r(D)$ and $B'=\mathbf{M}_{r'}(D')$ are isomorphic. Since $r$ is the length of $B_s$ and $r'$ that of $B'_s$ (Lemma 2), we have $r=r'$. Moreover, B is Morita equivalent to D and $B'$ to $D'$ (VIII, p. 102, Example 1). Consequently, the fields D and $D'$ are Morita equivalent, hence isomorphic (VIII, p. 111, Proposition 13, c)).
 
-#### Corollary 3 {#alg-viii-s7-lem-1-cor-3 .statement tag=0089}
+#### Corollary 3 {#alg-viii-s7-lem-2-cor-3 .statement tag=0089}
 
 Let K be a commutative field, and let A be a K-algebra of finite degree with simple underlying ring. There exist an integer $r$ and a K-algebra D of finite degree over K that is a field such that A is isomorphic to $M_r(D)$. In particular, if K is algebraically closed, then A is isomorphic to a matrix algebra over K.
 

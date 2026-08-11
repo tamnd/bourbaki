@@ -28,16 +28,18 @@ subsections:
       title: Idempotents and Semisimple Rings
       page: 145
       pdf_page: 162
-statements: 28
+statements: 30
 exercises: 6
-content_sha256: da4ff89d2eeac95bcf10bb021e3834690d77800f5226934e1d220ecada5e0c5a
+content_sha256: 64eab2280fa2c91b04d77ab2d18a00a4d24c64ee0b127b6983192ba321bd8b11
 ---
 
 ## § 8. SEMISIMPLE RINGS
 
 ### 1. Semisimple Rings
 
-Theorem 1 (Wedderburn). — Let A be a ring. The following properties are equivalent:
+#### Theorem 1 {#alg-viii-s8-thm-1 .statement tag=00S4}
+
+Let A be a ring. The following properties are equivalent:
 
 (i) The A-module $A_s$ is semisimple.
 
@@ -381,7 +383,11 @@ Consequently (II, §1, No. 8, p. 20, Proposition $12), Ae$ is the direct sum of 
 
 Take the notation and assumptions of b). Let $i\in I$. Since $e_i$ belongs to $Ae$, we have $e_i=e_ie=\sum_je_ie_j$. Since $Ae$ is the direct sum of the $\mathfrak{a}_j$ and $e_ie_j$ belongs to $\mathfrak{a}_j$ for every $j$, we have $e_i=e_ie_i$ and $e_ie_j= 0$ for $i\not=j$. In other words, $(e_i)_{i\in I}$ is a partition of the idempotent $e$. By a), $Ae$ is the direct sum of the $Ae_i$. By assumption, we have $Ae_i\subset \mathfrak{a}_i$, and $Ae$ is the direct sum of the $\mathfrak{a}_i$. We therefore have $Ae_i=\mathfrak{a}_i$ for every $i\in I$. We have proved b).
 
-Finally, c) follows immediately from a) and b). **Remark 3.** — Applying the previous results to the opposite ring of A, we see, in particular, that a monogenous right A-module M is projective if and only if there exists an idempotent $e$ in A such that M is isomorphic to $eA$. Moreover, $eA$ is an indecomposable right module if and only if $e$ is indecomposable.
+Finally, c) follows immediately from a) and b).
+
+#### Remark 3 {#alg-viii-s8-n4-rem-3 .statement tag=00R8}
+
+Applying the previous results to the opposite ring of A, we see, in particular, that a monogenous right A-module M is projective if and only if there exists an idempotent $e$ in A such that M is isomorphic to $eA$. Moreover, $eA$ is an indecomposable right module if and only if $e$ is indecomposable.
 
 Now suppose that the ring A is semisimple, and denote the set of classes of simple left A-modules by $\mathscr{S}$. The A-module $A_s$ is semisimple, and every submodule of $A_s$ is a direct factor. Let $\mathfrak{a}$ be a left ideal of A. By the above, there exists an idempotent $e$ in A such that $\mathfrak{a}= Ae$, and the A-module $\mathfrak{a}$ is simple if and only if it is indecomposable, that is, if and only if $e$ is indecomposable.
 
