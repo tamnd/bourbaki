@@ -17,11 +17,12 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | mathematics | 6 | 1 | 1 | none |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | R01 (37) |
-| translation | 6 | 2 | 1 | L05 (1), L08 (1) |
+| translation | 6 | 2 | 1 | L06 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-1 hard findings and 151 soft, over 48 rules that ran and 7 that could not.
+0 hard findings and 152 soft, over 48 rules that ran and 7 that could not.
+Every hard rule passes.
 
 ## Rules that did not run
 
@@ -101,14 +102,14 @@ Soft, tags.
 
 and 88 more, which `bourbaki audit -only T10` prints in full.
 
-## L05 source_content_sha256 is the English hash as it stands (1)
+## L06 the glossary is followed (1)
 
-Hard, translation.
+Soft, translation.
 
-- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated from da960d566cc8 and content/en/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md is now ba92c1457894, so it is stale
+- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` the English mentions 69 glossary terms and 1 are not in this file as the glossary writes them: free a-module (môđun tự do trên a)
 
 ## L08 no translation was written by a small model (1)
 
 Soft, translation.
 
-- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again
