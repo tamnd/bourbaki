@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: 59ae315352da7756628996eb1d9ea3c29c736ace51438fd89f399e043fd09a4b
+content_sha256: c02df718855621b000e307674f31de903168e0f836369f4ed9c92f0048c01b30
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -333,7 +333,13 @@ We know (VIII, p. 234, Corollary 1) that the tensor product of two absolutely se
 
 In this subsection, K is a commutative ring, A a K-algebra, B the K-algebra $A\otimes_KA^o$, and $\varepsilon$ the K-linear mapping from B to A defined by $\varepsilon (x\otimes y) =$ $xy$ for $x, y$ in A. For $n\in \mathbf{N}$, we denote the tensor product over K of $n+ 2$ copies of the K-module A by $B_n$. We view it as an $(A$, A)-bimodule (and also as a B-module); we endow it with the structure of a left A-module deduced from the left A-module structure of the first factor of the tensor product and with the structure of a right A-module deduced from the right A-module structure of the last factor. In particular, $B_0$ is just the $(A$, A)-bimodule B.
 
-For every integer $n\geqslant 1$, we define homomorphisms of bimodules $d_n^i$ for $i\in [0, n]$ and $d_n$ from $B_n$ to $B_{n-1}$ by the formulas (4) $d_n^i(x_0\otimes  \cdots  \otimes x_{n+1}) =x_0\otimes  \cdots  \otimes x_ix_{i+1}\otimes  \cdots  \otimes x_{n+1}$ for $i\in [0, n]$ and
+For every integer $n\geqslant 1$, we define homomorphisms of bimodules $d_n^i$ for $i\in [0, n]$ and $d_n$ from $B_n$ to $B_{n-1}$ by the formulas
+
+$$
+d_n^i(x_0\otimes  \cdots  \otimes x_{n+1}) =x_0\otimes  \cdots  \otimes x_ix_{i+1}\otimes  \cdots  \otimes x_{n+1} \tag{4}
+$$
+
+for $i\in [0, n]$ and
 
 $$
 d_n=\sum_{i=0}^n(-1)^id_n^i \tag{5}
@@ -341,7 +347,13 @@ $$
 
 We denote the mapping $\varepsilon : B_0\rightarrow A$ by $d_0=d^0_0$.
 
-Let $n$ be an integer $\geqslant 1$. For $0\leqslant i < j\leqslant n$, we have (6) $d_n^i_{-1}\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i$, and from this we deduce
+Let $n$ be an integer $\geqslant 1$. For $0\leqslant i < j\leqslant n$, we have
+
+$$
+d_n^i_{-1}\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \tag{6}
+$$
+
+and from this we deduce
 
 $$
 d_{n-1}\circ d_n=\sum(-1)^{i+j}d_n^i_{-1}\circ d_n^j+\sum(-1)^{i+j}d_n^i_{-1}\circ d_n^j
@@ -351,9 +363,19 @@ $$
 =^0_0^{\leqslant}_{\leqslant}\sum^{i<j}_{i<j}^{\leqslant}_{\leqslant}^n_n(-1)^{i+j}d_n^{j-}_-^1_1\circ d_n^i+^0_0^{\leqslant}_{\leqslant}^j_j^{\leqslant}_{\leqslant}\sum^i_i^{\leqslant}_{\leqslant}^n_n^-_-^1_1(-1)^{i+j}d_n^i_{-1}\circ d_n^j
 $$
 
-and consequently (7) $d_{n-1}\circ d_n= 0$.
+and consequently
 
-Let P be an $(A$, A)-bimodule. For any integer $n\geqslant 0$, we denote the K-module of K-multilinear mappings from $A^n$ to P by $C^n(A,P)$. The mapping $\alpha^n: C^n(A,P)\rightarrow$ Hom$_B(B_n,P)$ that sends $f\in C^n(A,P)$ to the homomorphism $\alpha^n(f)$ characterized by (8) $\alpha^n(f) (x_0\otimes  \cdots  \otimes x_{n+1}) =x_0f(x_1, . . . , x_n)x_{n+1}$ is an isomorphism of K-modules.
+$$
+d_{n-1}\circ d_n= 0 \tag{7}
+$$
+
+Let P be an $(A$, A)-bimodule. For any integer $n\geqslant 0$, we denote the K-module of K-multilinear mappings from $A^n$ to P by $C^n(A,P)$. The mapping $\alpha^n: C^n(A,P)\rightarrow$ Hom$_B(B_n,P)$ that sends $f\in C^n(A,P)$ to the homomorphism $\alpha^n(f)$ characterized by
+
+$$
+\alpha^n(f) (x_0\otimes  \cdots  \otimes x_{n+1}) =x_0f(x_1, . . . , x_n)x_{n+1} \tag{8}
+$$
+
+is an isomorphism of K-modules.
 
 We denote by $\partial^n$ (for $n\geqslant 0)$ the unique K-linear mapping from $C^n(A,P)$ to $C^{n+1}(A,P)$ that makes the following diagram commutative:
 
@@ -363,7 +385,13 @@ $\alpha^n\alpha^{n+1}$
 
 Hom$_B(B_n,P)^{Hom(d_{n+1},1_P)}/$/ Hom$_B(B_{n+1},P)$.
 
-By definition, we therefore have (9) $(\alpha^{n+1}\circ \partial^n)(f) =\alpha^n(f)\circ d_{n+1}$ for every $f\in C^n(A,P)$. In other words, we have
+By definition, we therefore have
+
+$$
+(\alpha^{n+1}\circ \partial^n)(f) =\alpha^n(f)\circ d_{n+1} \tag{9}
+$$
+
+for every $f\in C^n(A,P)$. In other words, we have
 
 $$
 \partial^n(f) (x_0, . . . , x_n) =\alpha^n(f) (d_{n+1}(1\otimes x_0\otimes  \cdots  \otimes x_n\otimes 1))
@@ -383,9 +411,21 @@ $$
 + (-1)^{n+1}f(x_0, . . . , x_{n-1})x_n
 $$
 
-By (7) and (9), we have (11) $\partial^{n+1}\circ \partial^n= 0$ for every $n\geqslant 0$.
+By (7) and (9), we have
 
-We denote the K-module Ker $\partial^0$ by $H^0(A,P)$ and, for $n\geqslant 1$, the K-module Ker $\partial^n/$ Im $\partial^{n-1}$ by $H^n(A,P)$. We identify the K-module $C^0(A,P)$ with P, and we have $C^1(A,P) =$ Hom$_K(A,P)$. The mappings $\partial^n$ for $n\leqslant 2$ are given by the formulas (12) $\partial^0(p)(a) =ap-pa$ for every $p\in P$, (13) $\partial^1(f)(a, a') =af(a')-f(aa') +f(a)a'$ for $f\in C^1(A,P)$, (14) $\partial^2(f)(a, a', a'') =af(a', a'')-f(aa', a'') +f(a, a'a'')-f(a, a')a''$ for $f\in C^2(A,P)$.
+(11) $\partial^{n+1}\circ \partial^n= 0$ for every $n\geqslant 0$.
+
+We denote the K-module Ker $\partial^0$ by $H^0(A,P)$ and, for $n\geqslant 1$, the K-module Ker $\partial^n/$ Im $\partial^{n-1}$ by $H^n(A,P)$. We identify the K-module $C^0(A,P)$ with P, and we have $C^1(A,P) =$ Hom$_K(A,P)$. The mappings $\partial^n$ for $n\leqslant 2$ are given by the formulas
+
+(12) $\partial^0(p)(a) =ap-pa$ for every $p\in P$,
+
+(13) $\partial^1(f)(a, a') =af(a')-f(aa') +f(a)a'$ for $f\in C^1(A,P)$,
+
+$$
+\partial^2(f)(a, a', a'') =af(a', a'')-f(aa', a'') +f(a, a'a'')-f(a, a')a'' \tag{14}
+$$
+
+for $f\in C^2(A,P)$.
 
 So $H^0(A,P)$ is the K-submodule of P consisting of the elements $p$ such that $ap=pa$ for every $a\in A$, and $H^1(A,P)$ is the quotient of the K-module Der$_K(A,P)$ of K-derivations from A to P (III, §10, No. 2, p. 553) by the K-submodule consisting of the derivations of the form $a\mapsto ap-pa$ with $p\in P$ (called inner derivations).
 
@@ -399,7 +439,13 @@ $$
 \gamma^n(f)(x_1, . . . , x_{n-1}) =\sum_{i=1}^ra_if(a'_i, x_1. . . , x_{n-1}) \tag{15}
 $$
 
-We then have (16) $\partial^{n-1}(\gamma^n(f)) +\gamma^{n+1}(\partial^n(f)) =f$ for every integer $n\geqslant 1$ and every $f\in C^n(A,P)$.
+We then have
+
+$$
+\partial^{n-1}(\gamma^n(f)) +\gamma^{n+1}(\partial^n(f)) =f \tag{16}
+$$
+
+for every integer $n\geqslant 1$ and every $f\in C^n(A,P)$.
 
 #### Remark 1 {#alg-viii-s13-n7-rem-1 .statement tag=00SF}
 
@@ -415,7 +461,13 @@ It is a homomorphism of $(A$, A)-bimodules (formula (3)).
 
 #### Lemma 5 {#alg-viii-s13-lem-5 .statement tag=00FT}
 
-We have the relation (17) $d_{n+1}\circ h_n+h_{n-1}\circ d_n= 1_{B_n}$ for every $n\geqslant 1$.
+We have the relation
+
+$$
+d_{n+1}\circ h_n+h_{n-1}\circ d_n= 1_{B_n} \tag{17}
+$$
+
+for every $n\geqslant 1$.
 
 Let $x\in B_n$; we have
 
@@ -523,7 +575,17 @@ $$
 
 The equality $x^{-1}S_1x= S_2$ follows, giving assertion a).
 
-Under the assumptions of b), suppose furthermore that $\mathfrak{r}^2= 0$. In this case, the $(A$, A)-bimodule $\mathfrak{r}$ is annihilated by $\mathfrak{r}$, and we therefore view it as an $(A$, A)-bimodule. Choose a K-linear section $\sigma$ of $\pi$. We have (19) $\alpha x=\sigma (\alpha )x$ and $x\alpha =x\sigma (\alpha )$ for $\alpha \in A$ and $x\in \mathfrak{r}$. Set (20) $\varphi (\alpha , \beta ) =\sigma (\alpha \beta )-\sigma (\alpha )\sigma (\beta )$ for $\alpha , \beta \in A$. We have the relation $\pi (\varphi (\alpha , \beta )) =\alpha \beta -\alpha \beta = 0$ for $\alpha , \beta \in A$. Therefore, $\varphi$ defines an element of $C^2(A,\mathfrak{r})$. Let $\alpha , \beta , \gamma$ be elements of A; in view of (19), we have
+Under the assumptions of b), suppose furthermore that $\mathfrak{r}^2= 0$. In this case, the $(A$, A)-bimodule $\mathfrak{r}$ is annihilated by $\mathfrak{r}$, and we therefore view it as an $(A$, A)-bimodule. Choose a K-linear section $\sigma$ of $\pi$. We have
+
+(19) $\alpha x=\sigma (\alpha )x$ and $x\alpha =x\sigma (\alpha )$
+
+for $\alpha \in A$ and $x\in \mathfrak{r}$. Set
+
+$$
+\varphi (\alpha , \beta ) =\sigma (\alpha \beta )-\sigma (\alpha )\sigma (\beta ) \tag{20}
+$$
+
+for $\alpha , \beta \in A$. We have the relation $\pi (\varphi (\alpha , \beta )) =\alpha \beta -\alpha \beta = 0$ for $\alpha , \beta \in A$. Therefore, $\varphi$ defines an element of $C^2(A,\mathfrak{r})$. Let $\alpha , \beta , \gamma$ be elements of A; in view of (19), we have
 
 $$
 \partial^2\varphi (\alpha , \beta , \gamma ) =\alpha \varphi (\beta , \gamma )-\varphi (\alpha \beta , \gamma ) +\varphi (\alpha , \beta \gamma )-\varphi (\alpha , \beta )\gamma
@@ -545,9 +607,19 @@ $$
 = 0
 $$
 
-By Theorem 3 of VIII, p. 242, the K-module $H^2(A,\mathfrak{r})$ is reduced to zero. Hence there exists an element $\psi$ of $C^1(A,\mathfrak{r})$ such that $\partial^1\psi =\varphi$, in other words, such that we have (21) $\varphi (\alpha , \beta ) =\alpha \psi (\beta )-\psi (\alpha \beta ) +\psi (\alpha )\beta$ for $\alpha , \beta$ in $A$. We have $\psi (\alpha )\psi (\beta ) = 0$ because $\mathfrak{r}^2$ is zero; from (19) and (20), we then deduce (22) $(\sigma +\psi )(\alpha \beta ) = (\sigma +\psi )(\alpha )(\sigma +\psi )(\beta )$, so that the K-linear section $\sigma +\psi$ of $\pi$ belongs to Σ. Its image is a subalgebra S of A such that $A = S +\mathfrak{r}$.
+By Theorem 3 of VIII, p. 242, the K-module $H^2(A,\mathfrak{r})$ is reduced to zero. Hence there exists an element $\psi$ of $C^1(A,\mathfrak{r})$ such that $\partial^1\psi =\varphi$, in other words, such that we have
 
-Let us now prove the existence of S in the general case. We reason by induction on the least integer $p\geqslant 1$ such that $\mathfrak{r}^p= 0$; the case $p= 1$ is trivial. Suppose $p\geqslant 2$, and set $A'= A/\mathfrak{r}^{p-1}$. The radical $\mathfrak{r}'$ of $A'$ is equal to $\mathfrak{r}/\mathfrak{r}^{p-1}$ (Proposition 5 of VIII, p. 155), so satisfies $\mathfrak{r}'^{p-1}= 0$, and the algebra $A'/\mathfrak{r}'$ is isomorphic to $A = A/\mathfrak{r}$ and is therefore absolutely semisimple. By the induction hypothesis, there exists a subalgebra $S'$ of $A'$ such that $A'= S'\oplus \mathfrak{r}'$. Then $S'$ is of the form $A''/\mathfrak{r}^{p-1}$, where $A''$ is a subalgebra of A containing $\mathfrak{r}^{p-1}$, and we have (23) $A = A''+\mathfrak{r},\mathfrak{r}^{p-1}= A''\cap \mathfrak{r}$.
+(21) $\varphi (\alpha , \beta ) =\alpha \psi (\beta )-\psi (\alpha \beta ) +\psi (\alpha )\beta$ for $\alpha , \beta$ in $A$.
+
+We have $\psi (\alpha )\psi (\beta ) = 0$ because $\mathfrak{r}^2$ is zero; from (19) and (20), we then deduce (22) $(\sigma +\psi )(\alpha \beta ) = (\sigma +\psi )(\alpha )(\sigma +\psi )(\beta )$,
+
+so that the K-linear section $\sigma +\psi$ of $\pi$ belongs to Σ. Its image is a subalgebra S of A such that $A = S +\mathfrak{r}$.
+
+Let us now prove the existence of S in the general case. We reason by induction on the least integer $p\geqslant 1$ such that $\mathfrak{r}^p= 0$; the case $p= 1$ is trivial. Suppose $p\geqslant 2$, and set $A'= A/\mathfrak{r}^{p-1}$. The radical $\mathfrak{r}'$ of $A'$ is equal to $\mathfrak{r}/\mathfrak{r}^{p-1}$ (Proposition 5 of VIII, p. 155), so satisfies $\mathfrak{r}'^{p-1}= 0$, and the algebra $A'/\mathfrak{r}'$ is isomorphic to $A = A/\mathfrak{r}$ and is therefore absolutely semisimple. By the induction hypothesis, there exists a subalgebra $S'$ of $A'$ such that $A'= S'\oplus \mathfrak{r}'$. Then $S'$ is of the form $A''/\mathfrak{r}^{p-1}$, where $A''$ is a subalgebra of A containing $\mathfrak{r}^{p-1}$, and we have
+
+$$
+A = A''+\mathfrak{r},\mathfrak{r}^{p-1}= A''\cap \mathfrak{r} \tag{23}
+$$
 
 The algebra $A''/\mathfrak{r}^{p-1}$ is isomorphic to $A'/\mathfrak{r}'$; we have $(\mathfrak{r}^{p-1})^2= 0$, so $\mathfrak{r}^{p-1}$ is the radical of $A''$. By the case we just treated, there exists a subalgebra S of $A''$ such that $A''= S\oplus \mathfrak{r}^{p-1}$; we deduce the relation $A = S\oplus \mathfrak{r}$ from (23).
 

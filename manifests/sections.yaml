@@ -41,7 +41,7 @@ books:
               statements: 36
               exercises: 20
               extraction: native
-              content_sha256: b7aa6b29ab234498a2d605796ae9ae1913d6f0dcc7ddbee168c7d0ec0fa4a23c
+              content_sha256: 44a5b12a161c70f8cca152cb2c02c3544ce4a8bb041de75d6c572f2cd5222607
             - kind: section
               section: 3
               title: Simple Modules
@@ -67,7 +67,7 @@ books:
               statements: 43
               exercises: 8
               extraction: native
-              content_sha256: c5c0795cf3039991e63fc8003463c8da1183978594eca312916d512606abb8be
+              content_sha256: 3d87d4c85dd81db9e20a91a317c500ab95ac8171a211c12f7092a5141b8c43a3
             - kind: section
               section: 5
               title: Commutation
@@ -80,7 +80,7 @@ books:
               statements: 37
               exercises: 19
               extraction: native
-              content_sha256: ae952753cd7b7e57a4a88d9f22d34ebfaf1d42e770171e6030c52069e4c37cc8
+              content_sha256: 3060d7609bda1030435f089c4ec57964db28cc6dd9a310a33251cb2c1bd17185
             - kind: section
               section: 6
               title: Morita Equivalence of Modules and Algebras
@@ -90,10 +90,10 @@ books:
               last_pdf_page: 134
               book_pages: A VIII.95-A VIII.117
               subsections: 7
-              statements: 40
+              statements: 41
               exercises: 8
               extraction: native
-              content_sha256: 431acdaed1fd9c52d8990f2716b199da988387715e43e6ee6eb867dc198d231e
+              content_sha256: 2742f10d74e56de44e8b9bd9dc94aee7784a14b28a68260090d0d20d04705229
             - kind: section
               section: 7
               title: Simple Rings
@@ -106,7 +106,7 @@ books:
               statements: 24
               exercises: 16
               extraction: native
-              content_sha256: 57ff080c53d35a1e88cda14e43b93a9b054244d867f7ea91de870203b743cb16
+              content_sha256: 8e72e56cf19f6c43c8fa01bc1d234ca41dc730c58d7fb9b7e0fe9d9222a7ca15
             - kind: section
               section: 8
               title: Semisimple Rings
@@ -119,7 +119,7 @@ books:
               statements: 30
               exercises: 6
               extraction: native
-              content_sha256: d751fe21fc87abb3feb061bc73772ce0081380a18a91f8d8a36757feaf2c413d
+              content_sha256: d0e14ed417fab307ace36851aa1f4d79a16265446147b476f0a6c8f8b36f2922
             - kind: section
               section: 9
               title: Radical
@@ -132,7 +132,7 @@ books:
               statements: 49
               exercises: 31
               extraction: native
-              content_sha256: 7399c96d84097dfd2fc169b6d1dbc8b3a09c77a9f4d5fd3658736ab35b67bcb2
+              content_sha256: cdf69741edd2e7bed2a3ba3bb66c89ed8bcd5a650dba337f40b3c6ca67b8d8a3
             - kind: section
               section: 10
               title: Modules over an Artinian Ring
@@ -155,10 +155,10 @@ books:
               last_pdf_page: 227
               book_pages: A VIII.183-A VIII.210
               subsections: 12
-              statements: 37
+              statements: 38
               exercises: 14
               extraction: native
-              content_sha256: ceb3f4d68f7b8e36bf74f648d09b2239016d4164433722377541721b2034660e
+              content_sha256: 6ca661477a77e635dda6845f088df6f990c31bcd6c16d00cb5745efad3429339
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -171,7 +171,7 @@ books:
               statements: 26
               exercises: 17
               extraction: native
-              content_sha256: daa8bc3fa0086c6d391fd56904f6a1465abf4acd7c4f0381c02a39051af5fca8
+              content_sha256: 8ba47cc3c0b0640449ba24f98f3cf24a71d8f511ee2b408c88576026997d6fe3
             - kind: section
               section: 13
               title: Absolutely Semisimple Algebras
@@ -184,7 +184,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native
-              content_sha256: 59ae315352da7756628996eb1d9ea3c29c736ace51438fd89f399e043fd09a4b
+              content_sha256: c02df718855621b000e307674f31de903168e0f836369f4ed9c92f0048c01b30
             - kind: section
               section: 14
               title: Central Simple Algebras
@@ -197,7 +197,7 @@ books:
               statements: 36
               exercises: 19
               extraction: native
-              content_sha256: 227306f7b5e0bf66357f879bdf91ad1f0c04280bc24f26e604bf81fb3bb77b2d
+              content_sha256: c5d9ae7a2b4901eb65f4f92e449ed61279e05b6707d4441642986fa92e7649ad
             - kind: section
               section: 15
               title: Brauer Groups
@@ -210,7 +210,7 @@ books:
               statements: 12
               exercises: 2
               extraction: native
-              content_sha256: bf2eec7c42fcd9bbfad510bdef70ee9d47d5b7811585095fe142b5cbd820684e
+              content_sha256: 48f2f98ed1381dab5940d2d391901ebd0aec80db6eab72396d5784da2a887547
             - kind: section
               section: 16
               title: Other Descriptions of the Brauer Group
@@ -223,7 +223,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: 53c7db95f82c5e31362fd8faa00938e184d0c5701cb8f2338276757a0aa77bf3
+              content_sha256: e0a697b669398d35e2d9bcd734f03da4b53022aa462cc4025cbbfd23db4dc6b4
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -236,7 +236,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: aea64bf2aabcede8c9e4002e57fc793b64aef1c036bbfcdeeed66b9b8ca32ec5
+              content_sha256: cfdb6aabf12cb5aa58135944faae194db70d9dfc9553a08a88359b1744905688
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -249,7 +249,7 @@ books:
               statements: 10
               exercises: 7
               extraction: native
-              content_sha256: 351bf17c3528b84822818681c71f37075789ad044ca521eac716258a9c1b4d78
+              content_sha256: 0161854a8b55ea87040a1f36848bd0aaaadf111a111cbfa341a1275ce12e76f7
             - kind: section
               section: 19
               title: Quaternion Algebras
@@ -262,7 +262,7 @@ books:
               statements: 16
               exercises: 8
               extraction: native
-              content_sha256: 2ed25468c6c02edcdcc9b6ff91c9ab9a2c77baef515b75fd381034d306ae0c1e
+              content_sha256: 86c51ecdb9c0654b7292c4db1a628e83f342c1986a4f7d14f581b0e7fc2aa351
             - kind: section
               section: 20
               title: Linear Representations of Algebras
@@ -275,7 +275,7 @@ books:
               statements: 31
               exercises: 6
               extraction: native
-              content_sha256: 4cbd2d7969041301a3d7b7e7eeb23ee70edec69337a2be5421f39314b5dcdbe9
+              content_sha256: e8100fb4a5ddec4a8ba1f883b6dd5a839cccf5d388f2099cad3b1377aba25588
             - kind: section
               section: 21
               title: Linear Representations of Finite Groups
@@ -285,10 +285,10 @@ books:
               last_pdf_page: 451
               book_pages: A VIII.397-A VIII.434
               subsections: 13
-              statements: 35
+              statements: 36
               exercises: 30
               extraction: native
-              content_sha256: 60df67bbc04879394fe5d731451df742608b8f22f1298037943f340a25a38000
+              content_sha256: 5b44dbc60c30191d68efd2e6fce326569fee988a8c14685ad3287c0e1ffe8d0d
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
@@ -301,7 +301,7 @@ books:
               statements: 20
               exercises: 15
               extraction: native
-              content_sha256: 0d3dd5f4cb98ff45cd9c63f353e2b5c7db43ddae989327ad70012187ce9f7a80
+              content_sha256: 958695ae012e636e59595b07b3722e3e1437026f9d5a402eaf7773065e45074d
             - kind: appendix
               section: 2
               title: Determinants over a Noncommutative Field
@@ -314,7 +314,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: e305de543b32d98c15ba21c5b6114cbd9a2620969cddc897e22816641255be68
+              content_sha256: 973cb338a4780757b1e3213392d748f3ef19c126940af1b9c501ab1c318e8331
             - kind: appendix
               section: 3
               title: Hilbert’s Nullstellensatz
@@ -340,7 +340,7 @@ books:
               statements: 5
               exercises: 2
               extraction: native
-              content_sha256: da960d566cc8a0063b267d64b9918f343c1ff2a95cf3fb84b233a42b68d4329f
+              content_sha256: ba92c145789444929ea958210e1292209334a911aa56a4290cdf547ce73f18e1
             - kind: historical
               title: Historical Note
               path: content/en/alg/VIII/historical_note.md
@@ -352,3 +352,355 @@ books:
               exercises: 0
               extraction: native
               content_sha256: 9d4151f7157c33b99cd2c421721037713149300c47f6f3bc2620cf3e7df34fd4
+    - id: alg-viii-fr
+      chapters:
+        - chapter: VIII
+          title: Modules et anneaux semi-simples
+          sections:
+            - kind: front
+              title: Modules et anneaux semi-simples
+              path: content/fr/alg/VIII/00_frontmatter.md
+              first_pdf_page: 12
+              last_pdf_page: 12
+              book_pages: A VIII.1
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: 2cc6a60759c41d3080fb735c12cfaebb6a099882a3d565cec4fa940a6b97b779
+            - kind: section
+              section: 1
+              title: Modules artiniens et modules noethériens
+              path: content/fr/alg/VIII/01_s1_modules_artiniens_et_modules_noetheriens.md
+              label: alg-viii-s1
+              first_pdf_page: 12
+              last_pdf_page: 33
+              book_pages: A VIII.1-A VIII.22
+              subsections: 4
+              statements: 36
+              exercises: 28
+              extraction: native
+              content_sha256: 124cd36734911a6f165dd56a109e5eb31d87c7cf99661013641063dece88e7b3
+            - kind: section
+              section: 2
+              title: Structure des modules de longueur finie
+              path: content/fr/alg/VIII/02_s2_structure_des_modules_de_longueur_finie.md
+              label: alg-viii-s2
+              first_pdf_page: 34
+              last_pdf_page: 51
+              book_pages: A VIII.23-A VIII.40
+              subsections: 5
+              statements: 36
+              exercises: 19
+              extraction: native
+              content_sha256: a367baf6b71175e84356c587d97c95af13de4fbc25a011cffd1aabb6b153a0b4
+            - kind: section
+              section: 3
+              title: Modules simples
+              path: content/fr/alg/VIII/03_s3_modules_simples.md
+              label: alg-viii-s3
+              first_pdf_page: 52
+              last_pdf_page: 61
+              book_pages: A VIII.41-A VIII.50
+              subsections: 5
+              statements: 23
+              exercises: 10
+              extraction: native
+              content_sha256: 7219d389af874cf7c041e423756b7d57af7b0b896e19508b9716dbecb9d09434
+            - kind: section
+              section: 4
+              title: Modules semi-simples
+              path: content/fr/alg/VIII/04_s4_modules_semi_simples.md
+              label: alg-viii-s4
+              first_pdf_page: 62
+              last_pdf_page: 82
+              book_pages: A VIII.51-A VIII.71
+              subsections: 8
+              statements: 43
+              exercises: 8
+              extraction: native
+              content_sha256: c0c68cc37d863dfd1f33c0ec1d998eff21febaa8b184fb5f3b1c12a916a0e4f8
+            - kind: section
+              section: 5
+              title: Commutation
+              path: content/fr/alg/VIII/05_s5_commutation.md
+              label: alg-viii-s5
+              first_pdf_page: 83
+              last_pdf_page: 99
+              book_pages: A VIII.73-A VIII.89
+              subsections: 6
+              statements: 37
+              exercises: 19
+              extraction: native
+              content_sha256: 1b9d4d4c5169c0d1a84e3eadfe3789574e1c4ec870d95dd6bbfd81fecc88373d
+            - kind: section
+              section: 6
+              title: Équivalence de Morita des modules et des algèbres
+              path: content/fr/alg/VIII/06_s6_equivalence_de_morita_des_modules_et.md
+              label: alg-viii-s6
+              first_pdf_page: 100
+              last_pdf_page: 122
+              book_pages: A VIII.91-A VIII.113
+              subsections: 7
+              statements: 41
+              exercises: 8
+              extraction: native
+              content_sha256: 33e7c8145b34c141217386aa95881bd6d103a672ca268db3b6904253a2b36606
+            - kind: section
+              section: 7
+              title: Anneaux simples
+              path: content/fr/alg/VIII/07_s7_anneaux_simples.md
+              label: alg-viii-s7
+              first_pdf_page: 123
+              last_pdf_page: 137
+              book_pages: A VIII.115-A VIII.129
+              subsections: 4
+              statements: 24
+              exercises: 16
+              extraction: native
+              content_sha256: 60ade44d4ee6ddd9769815ec4e639748f5bac60c8a2f53c685bfea1e88d7a144
+            - kind: section
+              section: 8
+              title: Anneaux semi-simples
+              path: content/fr/alg/VIII/08_s8_anneaux_semi_simples.md
+              label: alg-viii-s8
+              first_pdf_page: 138
+              last_pdf_page: 152
+              book_pages: A VIII.131-A VIII.145
+              subsections: 4
+              statements: 30
+              exercises: 6
+              extraction: native
+              content_sha256: e6542dbfa560e960244746816d2ce033cd2c87b698595279735327043229dad7
+            - kind: section
+              section: 9
+              title: Radical
+              path: content/fr/alg/VIII/09_s9_radical.md
+              label: alg-viii-s9
+              first_pdf_page: 153
+              last_pdf_page: 174
+              book_pages: A VIII.147-A VIII.168
+              subsections: 5
+              statements: 49
+              exercises: 31
+              extraction: native
+              content_sha256: f3c97e654802cccd8632d6d02e163804fad39b61872da01b17c741181871e5f0
+            - kind: section
+              section: 10
+              title: Modules sur un anneau artinien
+              path: content/fr/alg/VIII/10_s10_modules_sur_un_anneau_artinien.md
+              label: alg-viii-s10
+              first_pdf_page: 175
+              last_pdf_page: 183
+              book_pages: A VIII.169-A VIII.177
+              subsections: 3
+              statements: 12
+              exercises: 11
+              extraction: native
+              content_sha256: 477c6680df4fe5b3e3cb6cf018d4c0c0a7ec138d6491d3644b68be48b1f5056f
+            - kind: section
+              section: 11
+              title: Groupes de Grothendieck
+              path: content/fr/alg/VIII/11_s11_groupes_de_grothendieck.md
+              label: alg-viii-s11
+              first_pdf_page: 184
+              last_pdf_page: 210
+              book_pages: A VIII.179-A VIII.205
+              subsections: 12
+              statements: 38
+              exercises: 14
+              extraction: native
+              content_sha256: 599a6ec3ba059b4c4a494a7773689220b94f678adc5138349e35d1c10d168756
+            - kind: section
+              section: 12
+              title: Produit tensoriel de modules semi-simples
+              path: content/fr/alg/VIII/12_s12_produit_tensoriel_de_modules_semi.md
+              label: alg-viii-s12
+              first_pdf_page: 211
+              last_pdf_page: 228
+              book_pages: A VIII.207-A VIII.224
+              subsections: 7
+              statements: 26
+              exercises: 17
+              extraction: native
+              content_sha256: 39907c534e023da32620decb85186f4293e0e753c07596070e2d3cd069a8a708
+            - kind: section
+              section: 13
+              title: Algèbres absolument semi-simples
+              path: content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md
+              label: alg-viii-s13
+              first_pdf_page: 229
+              last_pdf_page: 249
+              book_pages: A VIII.225-A VIII.245
+              subsections: 8
+              statements: 33
+              exercises: 12
+              extraction: native
+              content_sha256: eb3611e9cc85a6e0af06c4e7d5baddd1c58c365c9b9e4f0f82cd5bc500f2cc85
+            - kind: section
+              section: 14
+              title: Algèbres centrales et simples
+              path: content/fr/alg/VIII/14_s14_algebres_centrales_et_simples.md
+              label: alg-viii-s14
+              first_pdf_page: 250
+              last_pdf_page: 275
+              book_pages: A VIII.247-A VIII.272
+              subsections: 8
+              statements: 36
+              exercises: 19
+              extraction: native
+              content_sha256: 0332dfb05214d16c01e52f87c187495097e27bfacb03a6b3412d923cf6b7dc24
+            - kind: section
+              section: 15
+              title: Groupes de Brauer
+              path: content/fr/alg/VIII/15_s15_groupes_de_brauer.md
+              label: alg-viii-s15
+              first_pdf_page: 276
+              last_pdf_page: 283
+              book_pages: A VIII.273-A VIII.280
+              subsections: 4
+              statements: 12
+              exercises: 2
+              extraction: native
+              content_sha256: 31c7c5c563c0e9fa5d6f809acc1899275f9c821ac5577480e6394ffe2c1f4cef
+            - kind: section
+              section: 16
+              title: Autres descriptions du groupe de Brauer
+              path: content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md
+              label: alg-viii-s16
+              first_pdf_page: 284
+              last_pdf_page: 331
+              book_pages: A VIII.281-A VIII.328
+              subsections: 11
+              statements: 63
+              exercises: 17
+              extraction: native
+              content_sha256: 37e5b954ca9e251a36a387c1d3f60959489857dd8c91821506fb4e00582265be
+            - kind: section
+              section: 17
+              title: Normes et traces réduites
+              path: content/fr/alg/VIII/17_s17_normes_et_traces_reduites.md
+              label: alg-viii-s17
+              first_pdf_page: 332
+              last_pdf_page: 349
+              book_pages: A VIII.329-A VIII.346
+              subsections: 6
+              statements: 31
+              exercises: 7
+              extraction: native
+              content_sha256: b9634ee5e08be21d698f37ef6fdb5ac8a82f2817fee987456b8d1b6d148de5a4
+            - kind: section
+              section: 18
+              title: Algèbres simples sur un corps fini
+              path: content/fr/alg/VIII/18_s18_algebres_simples_sur_un_corps_fini.md
+              label: alg-viii-s18
+              first_pdf_page: 350
+              last_pdf_page: 355
+              book_pages: A VIII.347-A VIII.352
+              subsections: 2
+              statements: 10
+              exercises: 7
+              extraction: native
+              content_sha256: 6cef1d52f1e3bc4ad32c2046d539c8426c67981bfb2f2f49c0321836a06832a7
+            - kind: section
+              section: 19
+              title: Algèbres de quaternions
+              path: content/fr/alg/VIII/19_s19_algebres_de_quaternions.md
+              label: alg-viii-s19
+              first_pdf_page: 356
+              last_pdf_page: 366
+              book_pages: A VIII.353-A VIII.363
+              subsections: 5
+              statements: 16
+              exercises: 8
+              extraction: native
+              content_sha256: afd39587a3d2ea35601c006f34f0c328596076266ef222ac5d66b7aa571676d4
+            - kind: section
+              section: 20
+              title: Représentations linéaires des algèbres
+              path: content/fr/alg/VIII/20_s20_representations_lineaires_des_algebres.md
+              label: alg-viii-s20
+              first_pdf_page: 367
+              last_pdf_page: 388
+              book_pages: A VIII.365-A VIII.386
+              subsections: 8
+              statements: 31
+              exercises: 6
+              extraction: native
+              content_sha256: 983e87a862e5631221a0576224d6e717d4b5a1cde5aff6746172ddf96f9fa8f4
+            - kind: section
+              section: 21
+              title: Représentations linéaires des groupes finis
+              path: content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md
+              label: alg-viii-s21
+              first_pdf_page: 389
+              last_pdf_page: 426
+              book_pages: A VIII.387-A VIII.424
+              subsections: 13
+              statements: 36
+              exercises: 30
+              extraction: native
+              content_sha256: 6a5c15f71ef26535119d5a6f14f18777efb6433e5e32d391ad2bd9d01e3dbb23
+            - kind: appendix
+              section: 1
+              title: Algèbres sans élément unité
+              path: content/fr/alg/VIII/A1_a1_algebres_sans_element_unite.md
+              label: alg-viii-a1
+              first_pdf_page: 427
+              last_pdf_page: 438
+              book_pages: A VIII.425-A VIII.436
+              subsections: 4
+              statements: 20
+              exercises: 15
+              extraction: native
+              content_sha256: aed85e9cce0839fe9a7a4e1d620e065bf57525d77eec3dbce8381edf1fef8880
+            - kind: appendix
+              section: 2
+              title: Déterminants sur un corps non commutatif
+              path: content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md
+              label: alg-viii-a2
+              first_pdf_page: 439
+              last_pdf_page: 451
+              book_pages: A VIII.437-A VIII.449
+              subsections: 5
+              statements: 18
+              exercises: 4
+              extraction: native
+              content_sha256: 7c5b5108718dd1876d11c57f837b6d263675472290159fad6f7007f100a07326
+            - kind: appendix
+              section: 3
+              title: Le théorème des zéros de Hilbert
+              path: content/fr/alg/VIII/A3_a3_le_theoreme_des_zeros_de_hilbert.md
+              label: alg-viii-a3
+              first_pdf_page: 452
+              last_pdf_page: 453
+              book_pages: A VIII.451-A VIII.452
+              subsections: 0
+              statements: 3
+              exercises: 0
+              extraction: native
+              content_sha256: 41a614e22fd22e38f85c5584ef772e8daa937d796652c759001be1285ac1b222
+            - kind: appendix
+              section: 4
+              title: Trace d’un endomorphisme de rang fini
+              path: content/fr/alg/VIII/A4_a4_trace_d_un_endomorphisme_de_rang_fini.md
+              label: alg-viii-a4
+              first_pdf_page: 454
+              last_pdf_page: 458
+              book_pages: A VIII.453-A VIII.457
+              subsections: 2
+              statements: 5
+              exercises: 2
+              extraction: native
+              content_sha256: 341651318ab992061c427c7f3de2eb52fa0674f5678078020fc6179a1d22987f
+            - kind: historical
+              title: Historical Note
+              path: content/fr/alg/VIII/historical_note.md
+              first_pdf_page: 459
+              last_pdf_page: 466
+              book_pages: A VIII.459-A VIII.466
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: dff4586a2fc5d4c5e3e342febfa06791e5746d2ced989856bce17f1846004875

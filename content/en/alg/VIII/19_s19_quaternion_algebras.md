@@ -34,7 +34,7 @@ subsections:
       pdf_page: 384
 statements: 16
 exercises: 8
-content_sha256: 2ed25468c6c02edcdcc9b6ff91c9ab9a2c77baef515b75fd381034d306ae0c1e
+content_sha256: 86c51ecdb9c0654b7292c4db1a628e83f342c1986a4f7d14f581b0e7fc2aa351
 ---
 
 ## § 19. QUATERNION ALGEBRAS
@@ -43,9 +43,17 @@ In this section, K is a commutative field.
 
 ### 1. General Properties of Quaternion Algebras
 
-Let $\alpha , \beta , \gamma$ be elements of K, and let F be the quaternion algebra of type $(\alpha , \beta , \gamma )$. Recall (III, §2, No. 5, p. 445)[^1] that F is an associative unital K-algebra that has a basis $(1, i, j, k)$ over K satisfying the relations (1) $i^2=\alpha +\beta i ,j^2=\gamma  ,ij=k ,ji=\beta j-k$.
+Let $\alpha , \beta , \gamma$ be elements of K, and let F be the quaternion algebra of type $(\alpha , \beta , \gamma )$. Recall (III, §2, No. 5, p. 445)[^1] that F is an associative unital K-algebra that has a basis $(1, i, j, k)$ over K satisfying the relations
 
-It is a Cayley algebra (III, §2, No. 4, p. 441, Definition 1) whose conjugation satisfies (2) $i=\beta -i ,j=-j ,k=-k$.
+$$
+i^2=\alpha +\beta i ,j^2=\gamma  ,ij=k ,ji=\beta j-k \tag{1}
+$$
+
+It is a Cayley algebra (III, §2, No. 4, p. 441, Definition 1) whose conjugation satisfies
+
+$$
+i=\beta -i ,j=-j ,k=-k \tag{2}
+$$
 
 Recall that the Cayley trace and norm of F are the mappings $T_F$ and $N_F$ from F to K defined by $T_F(q) =q+q$ and $N_F(q) =qq$.
 
@@ -81,15 +89,21 @@ $$
 (01)((01)(10)(01)((a0)(b0)((01)
 $$
 
-= $$, = $$,
+=, =,
 
-1 0 1 0 0 1 1 0 0 $b$ 0 $a$ 1 0 this homomorphism extends to an algebra homomorphism $\theta : F\longrightarrow \mathbf{M}_2(K)$ defined by
+1 0 1 0 0 1 1 0 0 $b$ 0 $a$ 1 0
+
+this homomorphism extends to an algebra homomorphism $\theta : F\longrightarrow \mathbf{M}_2(K)$ defined by
 
 $$
 (ac)
 $$
 
-$\theta (a, b) + (c, d)j$ = $db$.
+$\theta (a, b) + (c, d)j$ =.
+
+$$
+db
+$$
 
 This homomorphism is bijective. When the characteristic of K is different from 2, the algebra $\mathbf{M}_2(K)$ is also isomorphic to the quaternion algebra of type $(1,0,1)$ (Remark 1).
 
@@ -127,7 +141,9 @@ Let $\alpha ,\beta ,\gamma$ be elements of K, and let $f$ be a quaternion algebr
 
 (ii) For every nonzero element $x$ of F, there exists an element $y$ in F such that $T_F(xy)\not= 0$.
 
-(iii) We have $(4\alpha +\beta^2)\gamma \not= 0$. Suppose that these properties hold. Then for every $x$ in F, the reduced characteristic polynomial of $x$ is $X^2-T_F(x)X + N_F(x)$. In particular, $T_F(x)$ is the reduced trace of $x$, and $N_F(x)$ is its reduced norm.
+(iii) We have $(4\alpha +\beta^2)\gamma \not= 0$.
+
+Suppose that these properties hold. Then for every $x$ in F, the reduced characteristic polynomial of $x$ is $X^2-T_F(x)X + N_F(x)$. In particular, $T_F(x)$ is the reduced trace of $x$, and $N_F(x)$ is its reduced norm.
 
 (i)$\Rightarrow$(ii): If the algebra F is central simple, then it follows from Proposition 1 of VIII, p. 361 and the definition of the reduced trace (VIII, p. 340, Definition 2) that $T_F$ is its reduced trace; assertion (ii) follows (VIII, p. 343, Proposition 5).
 
@@ -137,7 +153,7 @@ Let $\alpha ,\beta ,\gamma$ be elements of K, and let $f$ be a quaternion algebr
 
 $\beta 2\alpha +\beta^2$ 0 0
 
-$$.
+.
 
 0 0 $2\gamma \beta \gamma$
 

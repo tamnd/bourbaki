@@ -1,13 +1,12 @@
 {
   "book": "alg-viii-fr",
   "pages": 487,
-  "clean": 441,
-  "flagged": 45,
+  "clean": 457,
+  "flagged": 29,
   "empty": 1,
   "reasons": {
     "diagram": 29,
-    "empty": 1,
-    "stray-delimiter": 16
+    "empty": 1
   },
   "flagged_pages": [
     {
@@ -59,27 +58,6 @@
       ]
     },
     {
-      "pdf_page": 127,
-      "page_label": "A VIII.119",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 129,
-      "page_label": "A VIII.121",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 135,
-      "page_label": "A VIII.127",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
       "pdf_page": 185,
       "page_label": "A VIII.180",
       "flags": [
@@ -101,13 +79,6 @@
       ]
     },
     {
-      "pdf_page": 197,
-      "page_label": "A VIII.192",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
       "pdf_page": 201,
       "page_label": "A VIII.196",
       "flags": [
@@ -115,44 +86,10 @@
       ]
     },
     {
-      "pdf_page": 204,
-      "page_label": "A VIII.199",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
       "pdf_page": 239,
       "page_label": "A VIII.235",
       "flags": [
         "diagram"
-      ]
-    },
-    {
-      "pdf_page": 254,
-      "page_label": "A VIII.251",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 270,
-      "page_label": "A VIII.267",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 272,
-      "page_label": "A VIII.269",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 276,
-      "flags": [
-        "stray-delimiter"
       ]
     },
     {
@@ -212,20 +149,6 @@
       ]
     },
     {
-      "pdf_page": 307,
-      "page_label": "A VIII.304",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 310,
-      "page_label": "A VIII.307",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
       "pdf_page": 319,
       "page_label": "A VIII.316",
       "flags": [
@@ -244,20 +167,6 @@
       "page_label": "A VIII.324",
       "flags": [
         "diagram"
-      ]
-    },
-    {
-      "pdf_page": 359,
-      "page_label": "A VIII.356",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 370,
-      "page_label": "A VIII.368",
-      "flags": [
-        "stray-delimiter"
       ]
     },
     {
@@ -296,13 +205,6 @@
       ]
     },
     {
-      "pdf_page": 399,
-      "page_label": "A VIII.397",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
       "pdf_page": 412,
       "page_label": "A VIII.410",
       "flags": [
@@ -314,20 +216,6 @@
       "page_label": "A VIII.411",
       "flags": [
         "diagram"
-      ]
-    },
-    {
-      "pdf_page": 449,
-      "page_label": "A VIII.447",
-      "flags": [
-        "stray-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 451,
-      "page_label": "A VIII.449",
-      "flags": [
-        "stray-delimiter"
       ]
     }
   ],

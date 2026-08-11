@@ -46,7 +46,7 @@ subsections:
       pdf_page: 88
 statements: 43
 exercises: 8
-content_sha256: c5c0795cf3039991e63fc8003463c8da1183978594eca312916d512606abb8be
+content_sha256: 3d87d4c85dd81db9e20a91a317c500ab95ac8171a211c12f7092a5141b8c43a3
 ---
 
 ## § 4. SEMISIMPLE MODULES
@@ -137,7 +137,11 @@ $$
 
 for $a\in A,p\in P$, and $v\in V$.
 
-Let $V'$ be a left B-module. For every B-linear mapping $g$ from V to $V'$, the mapping $1_P\otimes g$ from $\mathscr{T}(V)$ to $\mathscr{T}(V')$ is A-linear; we denote it by $\mathscr{T}(g)$. The mapping $g\mapsto \mathscr{T}(g)$ from Hom$_B(V,V')$ to Hom$_A(\mathscr{T}(V),\mathscr{T}(V'))$ is $\mathbf{Z}$-linear, and we have (2) $\mathscr{T}(1_V) = 1_{\mathscr{T}(V)},\mathscr{T}(g'\circ g) =\mathscr{T}(g')\circ \mathscr{T}(g)$
+Let $V'$ be a left B-module. For every B-linear mapping $g$ from V to $V'$, the mapping $1_P\otimes g$ from $\mathscr{T}(V)$ to $\mathscr{T}(V')$ is A-linear; we denote it by $\mathscr{T}(g)$. The mapping $g\mapsto \mathscr{T}(g)$ from Hom$_B(V,V')$ to Hom$_A(\mathscr{T}(V),\mathscr{T}(V'))$ is $\mathbf{Z}$-linear, and we have
+
+$$
+\mathscr{T}(1_V) = 1_{\mathscr{T}(V)},\mathscr{T}(g'\circ g) =\mathscr{T}(g')\circ \mathscr{T}(g) \tag{2}
+$$
 
 if $V, V', V''$ are left B-modules and $g: V\rightarrow V',g': V'\rightarrow V''$ are B-linear mappings. Since the tensor product commutes with direct sums, if V is the direct sum of a family of submodules $(V_i)_{i\in I}$, then we can identify the A-module $\mathscr{T}(V)$ with $\bigoplus_i\mathscr{T}(V_i)$.
 
@@ -155,15 +159,29 @@ $$
 \mathscr{H}(1_M) = 1_{\mathscr{H}(M)},\mathscr{H}(g'\circ g) =\mathscr{H}(g')\circ \mathscr{H}(g) \tag{4}
 $$
 
-if $M, M', M''$ are left A-modules and $g: M\rightarrow M',g': M'\rightarrow M''$ are A-linear mappings. Suppose, moreover, that P is a finitely generated A-module; if M is the direct sum of a family of submodules $(M_i)_i$, then we can identify $\mathscr{H}(M)$ with $\bigoplus_i\mathscr{H}(M_i)$ by VIII, p. 57. 3.3. Relations Between $\mathscr{T}$ and $\mathscr{H}$. — By Proposition 1 of II, §4, No. 1, p. 268, for every left A-module M and every left B-module V, there exists a unique group isomorphism (5) $\gamma :$ Hom$_A(\mathscr{T}(V),M)\longrightarrow$ Hom$_B(V,\mathscr{H}(M))$
+if $M, M', M''$ are left A-modules and $g: M\rightarrow M',g': M'\rightarrow M''$ are A-linear mappings. Suppose, moreover, that P is a finitely generated A-module; if M is the direct sum of a family of submodules $(M_i)_i$, then we can identify $\mathscr{H}(M)$ with $\bigoplus_i\mathscr{H}(M_i)$ by VIII, p. 57. 3.3. Relations Between $\mathscr{T}$ and $\mathscr{H}$. — By Proposition 1 of II, §4, No. 1, p. 268, for every left A-module M and every left B-module V, there exists a unique group isomorphism
 
-characterized by the relation (6) $(\gamma (h)(v))(p) =h(p\otimes v)$ for $h\in$ Hom$_A(\mathscr{T}(V),M),v\in V$, and $p\in P$. The isomorphism $\gamma$ is called the adjunction isomorphism.
+(5) $\gamma :$ Hom$_A(\mathscr{T}(V),M)\longrightarrow$ Hom$_B(V,\mathscr{H}(M))$
+
+characterized by the relation
+
+$$
+(\gamma (h)(v))(p) =h(p\otimes v) \tag{6}
+$$
+
+for $h\in$ Hom$_A(\mathscr{T}(V),M),v\in V$, and $p\in P$. The isomorphism $\gamma$ is called the adjunction isomorphism.
 
 Let M be a left A-module. The A-module $\mathscr{T}(\mathscr{H}(M))$ is simply the A-module $P\otimes_B$ Hom$_A(P,M)$. By applying the above to the B-module $\mathscr{H}$ (M), we see that the mapping
 
 $\alpha_M=\gamma^{-1}$(Id$_{\mathscr{H}(M)}) :\mathscr{T}(\mathscr{H}(M))\longrightarrow M$
 
-is the unique mapping satisfying (7) $\alpha_M(p\otimes f) =f(p)$ for $p\in P$ and $f\in$ Hom$_A(P,M)$. We say that $\alpha_M$ is the canonical A-linear mapping from $\mathscr{T}(\mathscr{H}(M))$ to M. For every A-linear mapping $g: M\rightarrow M'$, we have a commutative diagram
+is the unique mapping satisfying
+
+$$
+\alpha_M(p\otimes f) =f(p) \tag{7}
+$$
+
+for $p\in P$ and $f\in$ Hom$_A(P,M)$. We say that $\alpha_M$ is the canonical A-linear mapping from $\mathscr{T}(\mathscr{H}(M))$ to M. For every A-linear mapping $g: M\rightarrow M'$, we have a commutative diagram
 
 $\mathscr{T}(\mathscr{H}(M))^{\alpha_M}$ // M
 
@@ -173,7 +191,9 @@ $\mathscr{T}(\mathscr{H}(M_'))^{\alpha_{M'}}$ // $M_'$.
 
 The inverse
 
-$\gamma^{-1}:$ Hom$_B(V,\mathscr{H}(M))\longrightarrow$ Hom$_A(\mathscr{T}(V),M)$ of the adjunction isomorphism coincides with the mapping $h\mapsto \alpha_M\circ \mathscr{T}(h)$. Indeed, by (6) and (7), we have the relations
+$\gamma^{-1}:$ Hom$_B(V,\mathscr{H}(M))\longrightarrow$ Hom$_A(\mathscr{T}(V),M)$
+
+of the adjunction isomorphism coincides with the mapping $h\mapsto \alpha_M\circ \mathscr{T}(h)$. Indeed, by (6) and (7), we have the relations
 
 $$
 \gamma^{-1}(h)(p\otimes v) = (h(v))(p) =\alpha_M(p\otimes h(v)) =\alpha_M\circ \mathscr{T}(h)(p\otimes v)
@@ -181,11 +201,19 @@ $$
 
 for all $h\in$ Hom$_B(V,\mathscr{H}$ (M)), $v\in V$, and $p\in P$.
 
-Let V be a B-module. The B-module $\mathscr{H}(\mathscr{T}(V))$ is simply the B-module Hom$_A(P,P\otimes_BV)$. By applying (5) to the A-module $\mathscr{T}$ (V), we see that the B-linear mapping $\beta_V=\gamma$(Id$_{\mathscr{T}(V)})$ from V to $\mathscr{H}(\mathscr{T}(V))$ is characterized by the relation (8) $\beta_V(v)(p) =p\otimes v$ for $p\in P$ and $v\in V$. We call $\beta_V$ the canonical B-linear mapping from V to $\mathscr{H}(\mathscr{T}(V))$. For every B-module $V'$ and every B-linear mapping $g: V\rightarrow V'$, we have a commutative diagram
+Let V be a B-module. The B-module $\mathscr{H}(\mathscr{T}(V))$ is simply the B-module Hom$_A(P,P\otimes_BV)$. By applying (5) to the A-module $\mathscr{T}$ (V), we see that the B-linear mapping $\beta_V=\gamma$(Id$_{\mathscr{T}(V)})$ from V to $\mathscr{H}(\mathscr{T}(V))$ is characterized by the relation
+
+$$
+\beta_V(v)(p) =p\otimes v \tag{8}
+$$
+
+for $p\in P$ and $v\in V$. We call $\beta_V$ the canonical B-linear mapping from V to $\mathscr{H}(\mathscr{T}(V))$. For every B-module $V'$ and every B-linear mapping $g: V\rightarrow V'$, we have a commutative diagram
 
 V $^{\beta_V}$ /$/\mathscr{H}(\mathscr{T}(V))$
 
-(II) $g\mathscr{H}_{(\mathscr{T}(g))}$
+(II) $g\mathscr{H}_{\mathscr{T}}$
+
+( $(g))$
 
 $V_'^{\beta_{V'}}$ /$/\mathscr{H}(\mathscr{T}(V_'))$.
 
@@ -201,7 +229,9 @@ for all $u\in$ Hom$_A(\mathscr{T}(V),M),v\in V$, and $p\in P$.
 
 Let V and $V'$ be B-modules. The adjunction isomorphism
 
-$\gamma :$ Hom$_A(\mathscr{T}(V),\mathscr{T}(V'))\longrightarrow$ Hom$_B(V,\mathscr{H}(\mathscr{T}(V')))$ satisfies the relation $\gamma (\mathscr{T}(f)) =\beta_{V'}\circ f$ for every $f\in$ Hom$_B(V,V')$ because
+$\gamma :$ Hom$_A(\mathscr{T}(V),\mathscr{T}(V'))\longrightarrow$ Hom$_B(V,\mathscr{H}(\mathscr{T}(V')))$
+
+satisfies the relation $\gamma (\mathscr{T}(f)) =\beta_{V'}\circ f$ for every $f\in$ Hom$_B(V,V')$ because
 
 $$
 (\gamma (\mathscr{T}(f))(v))(p) =\mathscr{T}(f)(p\otimes v) =p\otimes f(v) = (\beta_{V'}\circ f)(v)(p)
@@ -209,7 +239,9 @@ $$
 
 Let M and $M'$ be A-modules; the inverse of the adjunction isomorphism
 
-$\gamma^{-1}:$ Hom$_B(\mathscr{H}(M),\mathscr{H}(M'))\longrightarrow$ Hom$_A(\mathscr{T}(\mathscr{H}(M)),M')$ satisfies the relation $\gamma^{-1}(\mathscr{H}(u)) =u\circ \alpha_M$ for every $u\in$ Hom$_B(M,M')$. Indeed, we have the relations
+$\gamma^{-1}:$ Hom$_B(\mathscr{H}(M),\mathscr{H}(M'))\longrightarrow$ Hom$_A(\mathscr{T}(\mathscr{H}(M)),M')$
+
+satisfies the relation $\gamma^{-1}(\mathscr{H}(u)) =u\circ \alpha_M$ for every $u\in$ Hom$_B(M,M')$. Indeed, we have the relations
 
 $$
 \gamma^{-1}(\mathscr{H}(u))(p\otimes v) = (\mathscr{H}(u)(v))(p) =u(v(p)) =u\circ \alpha_M(p\otimes v)
@@ -219,9 +251,13 @@ for all $u\in$ Hom$_B(M,M'),v\in \mathscr{H}$ (M), and $p\in P$.
 
 #### Remark 2 {#alg-viii-s4-n3-rem-2 .statement tag=004B}
 
-Let M be a left A-module. The B-linear mappings $\beta_{\mathscr{H}(M)}:\mathscr{H}(M)\rightarrow \mathscr{H}(\mathscr{T}(\mathscr{H}(M)))$ and $\mathscr{H}(\alpha_M) :\mathscr{H}(\mathscr{T}(\mathscr{H}(M)))\rightarrow \mathscr{H}(M)$ satisfy the relation $\mathscr{H}(\alpha_M)\circ \beta_{\mathscr{H}(M)}= 1_{\mathscr{H}(M)}$. They are not bijective in general.
+Let M be a left A-module. The B-linear mappings
 
-Let V be a left B-module. The A-linear mappings $\mathscr{T}(\beta_V) :\mathscr{T}(V)\rightarrow \mathscr{T}(\mathscr{H}(\mathscr{T}(V)))$ and $\alpha_{\mathscr{T}(V)}:\mathscr{T}(\mathscr{H}(\mathscr{T}(V)))\rightarrow \mathscr{T}(V)$ satisfy the relation $\alpha_{\mathscr{T}(V)}\circ \mathscr{T}(\beta_V) = 1_{\mathscr{T}(V)}$. They are not bijective in general.
+$\beta_{\mathscr{H}(M)}:\mathscr{H}(M)\rightarrow \mathscr{H}(\mathscr{T}(\mathscr{H}(M)))$ and $\mathscr{H}(\alpha_M) :\mathscr{H}(\mathscr{T}(\mathscr{H}(M)))\rightarrow \mathscr{H}(M)$ satisfy the relation $\mathscr{H}(\alpha_M)\circ \beta_{\mathscr{H}(M)}= 1_{\mathscr{H}(M)}$. They are not bijective in general.
+
+Let V be a left B-module. The A-linear mappings
+
+$\mathscr{T}(\beta_V) :\mathscr{T}(V)\rightarrow \mathscr{T}(\mathscr{H}(\mathscr{T}(V)))$ and $\alpha_{\mathscr{T}(V)}:\mathscr{T}(\mathscr{H}(\mathscr{T}(V)))\rightarrow \mathscr{T}(V)$ satisfy the relation $\alpha_{\mathscr{T}(V)}\circ \mathscr{T}(\beta_V) = 1_{\mathscr{T}(V)}$. They are not bijective in general.
 
 #### Remark 3 {#alg-viii-s4-n3-rem-3 .statement tag=004C}
 
@@ -373,9 +409,7 @@ c) If M is finitely generated, then the set of $\lambda \in \mathscr{S}$ such th
 
 d) For every submodule N of M and every $\lambda \in \mathscr{S}$, we have $N_{\lambda}= N\cap M_{\lambda}$ and $(M/N)_{\lambda}= (M_{\lambda}+ N)/N$.
 
-Since M is semisimple, it is the sum of the family $(M_{\lambda})_{\lambda\in\mathscr{S}}$; let us prove that this sum is direct. Let $\lambda \in \mathscr{S}$. Denote the sum of the family
-
-$(M_\mu)_{\mu\in\mathscr{S}\{\lambda\}}$ by $M'_{\lambda}$. The module $M'_{\lambda}$ is the direct sum of a family of simple modules not isomorphic to $\lambda$ (VIII, p. 56, Theorem 1). By Corollary 3 of Theorem 1 of VIII, p. 56, $M'_{\lambda}$ does not contain any simple submodules of class $\lambda$. We consequently have $M_{\lambda}\cap M'_{\lambda}= 0$. Assertion a) is therefore proved. By construction, we have $M_{\lambda}\supset \bigoplus_{i\in I(\lambda)}N_i$, so assertion b) follows from Remark 1 of II, §1, No. 8, p. 208.
+Since M is semisimple, it is the sum of the family $(M_{\lambda})_{\lambda\in\mathscr{S}}$; let us prove that this sum is direct. Let $\lambda \in \mathscr{S}$. Denote the sum of the family $(M_\mu)_{\mu\in\mathscr{S}\{\lambda\}}$ by $M'_{\lambda}$. The module $M'_{\lambda}$ is the direct sum of a family of simple modules not isomorphic to $\lambda$ (VIII, p. 56, Theorem 1). By Corollary 3 of Theorem 1 of VIII, p. 56, $M'_{\lambda}$ does not contain any simple submodules of class $\lambda$. We consequently have $M_{\lambda}\cap M'_{\lambda}= 0$. Assertion a) is therefore proved. By construction, we have $M_{\lambda}\supset \bigoplus_{i\in I(\lambda)}N_i$, so assertion b) follows from Remark 1 of II, §1, No. 8, p. 208.
 
 Assertion c) follows from a) and Proposition 23 of II, §1, No. 12, p. 221.
 
@@ -439,7 +473,9 @@ Let M be an A-module. The following two conditions are equivalent:
 
 (i) Every submodule of M admits a unique supplementary submodule.
 
-(ii) The module M is the direct sum of a family $(S_i)_{i\in I}$ of simple, pairwise nonisomorphic modules. Suppose that M satisfies these conditions. Then, for every submodule N of M, there exists a unique subset J of I such that we have $N =\bigoplus_{j\in J}S_j$ and every simple submodule of M is equal to one of the $S_i$.
+(ii) The module M is the direct sum of a family $(S_i)_{i\in I}$ of simple, pairwise nonisomorphic modules.
+
+Suppose that M satisfies these conditions. Then, for every submodule N of M, there exists a unique subset J of I such that we have $N =\bigoplus_{j\in J}S_j$ and every simple submodule of M is equal to one of the $S_i$.
 
 Conditions (i) and (ii) both imply that M is semisimple.
 
@@ -531,7 +567,9 @@ $$
 \lambda \in \mathscr{S}\lambda
 $$
 
-$\bigoplus(1_S\otimes f_{\lambda})$
+$$
+\bigoplus(1_S\otimes f_{\lambda})
+$$
 
 $$
 _{\lambda}\varphi (\boldsymbol{f})
@@ -543,9 +581,7 @@ $\bigoplus(S_{\lambda}\otimes_DV'_{\lambda})^{\alpha'}$ // $M_'$.
 
 $\lambda \in \mathscr{S}\lambda$
 
-The mapping $\varphi :\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V'_{\lambda})\rightarrow$ Hom$_A(M,M')$ defined this way is a group isomorphism. When we have $M = M',V_{\lambda}= V'_{\lambda}$ for every $\lambda \in \mathscr{S}$,
-
-and $\alpha =\alpha '$, the mapping $\varphi$ is a ring isomorphism from $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}(V_{\lambda})$ to End$_A(M)$.
+The mapping $\varphi :\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V'_{\lambda})\rightarrow$ Hom$_A(M,M')$ defined this way is a group isomorphism. When we have $M = M',V_{\lambda}= V'_{\lambda}$ for every $\lambda \in \mathscr{S}$, and $\alpha =\alpha '$, the mapping $\varphi$ is a ring isomorphism from $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}(V_{\lambda})$ to End$_A(M)$.
 
 In view of the description of the isotypical components of M and $M'$ given in Proposition 8, a), this follows from Theorem 3 of VIII, p. 64 and Proposition 5, b) of VIII, p. 66.
 
@@ -573,7 +609,9 @@ Let M be a semisimple A-module. Let $(M_i)_{i\in I}$ be a family of simple submo
 
 (iv) M is finitely generated.
 
-(v) I is finite. If M has these properties, then the length of M is equal to the cardinal of I.
+(v) I is finite.
+
+If M has these properties, then the length of M is equal to the cardinal of I.
 
 If the set I is finite, then M has properties (i), (ii), (iii), and (iv). Suppose that the set I is infinite. By Example 2 of VIII, p. 2, the module M is neither Artinian nor Noetherian; because every module of finite length is Artinian and Noetherian (VIII, p. 2, Proposition 1), M also does not have finite length. Finally, every element of M belongs to the sum of a finite number of submodules $M_i$, so M is not finitely generated. This proves the equivalence of properties (i) through (v). If these hold, then we have long(M) $=\sum_{i\in I}$ long(M$_i) =$ Card(I) (II, §1, No. 10, p. 213, Corollary 5).
 

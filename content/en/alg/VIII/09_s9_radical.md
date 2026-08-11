@@ -34,7 +34,7 @@ subsections:
       pdf_page: 178
 statements: 49
 exercises: 31
-content_sha256: 7399c96d84097dfd2fc169b6d1dbc8b3a09c77a9f4d5fd3658736ab35b67bcb2
+content_sha256: cdf69741edd2e7bed2a3ba3bb66c89ed8bcd5a650dba337f40b3c6ca67b8d8a3
 ---
 
 ## § 9. RADICAL
@@ -247,7 +247,9 @@ Let M be an A-module and $\mathfrak{a}$ a two-sided ideal of A. Suppose that one
 
 (i) The A-module M is finitely generated, and $\mathfrak{a}$ is contained in the radical of A.
 
-(ii) The ideal $\mathfrak{a}$ is nilpotent. If N is a submodule of M such that $M = N +\mathfrak{a}M$, then we have N = M. In particular, if the module M is nonzero, then we have $M\not=\mathfrak{a}M$.
+(ii) The ideal $\mathfrak{a}$ is nilpotent.
+
+If N is a submodule of M such that $M = N +\mathfrak{a}M$, then we have N = M. In particular, if the module M is nonzero, then we have $M\not=\mathfrak{a}M$.
 
 Suppose that M is finitely generated and that we have $\mathfrak{a}\subset \mathfrak{R}(A)$. Let N be a submodule of M such that $M = N +\mathfrak{a}M$. By Proposition 6, we have $M = N +\mathfrak{R}$(M), hence M = N by Proposition 2, b) of VIII, p. 153.
 
@@ -383,7 +385,9 @@ Let M be an A-module, P a projective A-module, and $u: P\rightarrow M$ a linear 
 
 (i) The A-modules M and P are finitely generated, and $\mathfrak{a}$ is contained in the radical of A.
 
-(ii) The ideal $\mathfrak{a}$ is nilpotent. Then $(P, u)$ is a projective cover of M.
+(ii) The ideal $\mathfrak{a}$ is nilpotent.
+
+Then $(P, u)$ is a projective cover of M.
 
 Under the assumptions, the homomorphism $u$ is surjective (VIII, p. 159, Corollary 2) and its kernel N is contained in $\mathfrak{a}P$. Let $P'$ be a proper submodule of P. By Nakayama’s lemma (VIII, p. 158, Theorem 2), we have $P'+\mathfrak{a}P\not= P$ and therefore $u(P')\not= M$. So $(P, u)$ is a projective cover of M.
 
@@ -397,7 +401,9 @@ Let $\mathfrak{a}$ be a two-sided ideal of A and M an A-module such that the $(A
 
 (i) The module M is finitely generated, and $\mathfrak{a}$ is contained in the radical of A.
 
-(ii) The ideal $\mathfrak{a}$ is nilpotent. Then M has a projective cover.
+(ii) The ideal $\mathfrak{a}$ is nilpotent.
+
+Then M has a projective cover.
 
 More precisely, let P be a free A-module, $(e_i)_{i\in I}$ a basis of P, and let $u: P\rightarrow M$ be a homomorphism such that the canonical images of the elements $u(e_i)$ of $M/\mathfrak{a}M$ form a basis of the $(A/\mathfrak{a})$-module $M/\mathfrak{a}M$. Then $(P, u)$ is a projective cover of M.
 
@@ -419,7 +425,9 @@ Let A be a local ring and $\mathfrak{r}$ its radical. Let M be a finitely genera
 
 (ii) The family $(x_i)_{i\in I}$ is a minimal generating family of the A-module M.
 
-(iii) The family $(x_i)_{i\in I}$ is a basis of the vector space $M/\mathfrak{r}M$ over the field $A/\mathfrak{r}$. We have (i) $\Rightarrow$ (ii) by Remark 2 of VIII, p. 161 and (iii) $\Rightarrow$ (i) by Corollary 2. Furthermore, if the family $(x_i)$ is a minimal generating family of the A-module M, then the family $(x_i)$ is a minimal generating family, that is, a basis, of the vector space $M/\mathfrak{r}M$ over $A/\mathfrak{r}$ (VIII, p. 158, Corollary 1).
+(iii) The family $(x_i)_{i\in I}$ is a basis of the vector space $M/\mathfrak{r}M$ over the field $A/\mathfrak{r}$.
+
+We have (i) $\Rightarrow$ (ii) by Remark 2 of VIII, p. 161 and (iii) $\Rightarrow$ (i) by Corollary 2. Furthermore, if the family $(x_i)$ is a minimal generating family of the A-module M, then the family $(x_i)$ is a minimal generating family, that is, a basis, of the vector space $M/\mathfrak{r}M$ over $A/\mathfrak{r}$ (VIII, p. 158, Corollary 1).
 
 #### Proposition 11 {#alg-viii-s9-prop-11 .statement tag=00B9}
 

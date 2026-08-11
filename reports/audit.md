@@ -6,22 +6,22 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 1 chapter, 27 sections, 317 exercises, 510 extracted pages, 1023 tags, 2098 references, 2 translated files. Languages: en, vi.
+Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 2102 references, 345 translated files. Languages: en, fr, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
-| tags | 7 | 1 | 1 | T10 (54) |
-| mathematics | 5 | 1 | 1 | M01 (5), M03 (7), M07 (3) |
+| tags | 7 | 1 | 1 | T10 (113) |
+| mathematics | 5 | 1 | 1 | M07 (1) |
 | figures | 6 | 0 | 0 | none |
-| references | 0 | 3 | 0 | R01 (41) |
-| translation | 6 | 2 | 1 | L08 (1) |
+| references | 0 | 3 | 0 | R01 (37) |
+| translation | 6 | 2 | 1 | L05 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-15 hard findings and 96 soft, over 47 rules that ran and 7 that could not.
+2 hard findings and 151 soft, over 47 rules that ran and 7 that could not.
 
 ## Rules that did not run
 
@@ -37,37 +37,13 @@ should trust.
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
 
-## M01 every math span is closed (5)
+## M07 no bracket from the prose closes inside the mathematics (1)
 
 Hard, mathematics.
 
-- `content/en/alg/VIII/19_s19_quaternion_algebras.md:232` a display opens here and nothing closes it: Since R is an ordered field, we have $N(q)>0$ if $q\not= 0$,…
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:822` a display opens here and nothing closes it: Since $\widehat{\tau}\circ \mathscr{F}=\tau$, formulas (53) …
-- `content/en/alg/VIII/A2_a2_determinants_over_a_noncommutative_field.md:425` a display opens here and nothing closes it: . 0 1 0 1 0 1 0 1 0 1 #### Remark {#alg-viii-a2-n5-rem-1 .st…
-- `content/en/alg/VIII/exercises/a2/03.md:22` a display opens here and nothing closes it: . 0 I 0 Q S I (Take R = BD$^{-1},P$ = $A-$ BD$^{-1}C,Q$ = $D…
-- `content/en/alg/VIII/exercises/s11/08.md:29` a display opens here and nothing closes it: is exact. Prove that if, moreover, there exists a ring homom…
+- `content/fr/alg/VIII/exercises/a2/03.md:36` a bracket the prose opened closes inside the mathematics: )I-
 
-## M03 no character stranded out of its TeX (7)
-
-Hard, mathematics.
-
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:536` the letter 'µ' where its TeX belongs inside the mathematics: for every $g\in G$, which implies that $f$ is a ce…
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:546` the letter 'µ' where its TeX belongs inside the mathematics: for $\lambda , µ\in \widehat{G}$. In particular, $…
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:570` the letter 'Φ' where its TeX belongs inside the mathematics: because of relation (19). #### Remark {#alg-viii-s…
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:676` the operator '∆' where its TeX belongs inside the mathematics: We define $\delta '(T)$ likewise, and we denote th…
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:694` the letter 'Φ' where its TeX belongs inside the mathematics: with the following property: for every $\lambda$ i…
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:760` the letter 'Φ' where its TeX belongs inside the mathematics: for all $x, x'\in M$ and every $g\in G$. This also…
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:776` the letter 'Ψ' where its TeX belongs inside the mathematics: for $x, x'\in M$. Let Ψ be a Hermitian form on M; …
-
-## M07 no bracket from the prose closes inside the mathematics (3)
-
-Hard, mathematics.
-
-- `content/en/alg/VIII/exercises/a2/04.md:16` a bracket the prose opened closes inside the mathematics: u(1)) =
-- `content/en/alg/VIII/exercises/a2/04.md:16` a bracket the prose opened closes inside the mathematics: ^{st}u) =
-- `content/en/alg/VIII/exercises/a2/04.md:16` a bracket the prose opened closes inside the mathematics: u)
-
-## R01 every in-corpus reference resolves (41)
+## R01 every in-corpus reference resolves (37)
 
 Soft, references.
 
@@ -76,30 +52,30 @@ Soft, references.
 - `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:300` "Corollary of Proposition 13" does not resolve: alg-viii-s2 has no corollary 1 of Proposition 13
 - `content/en/alg/VIII/04_s4_semisimple_modules.md:110` "corollary of Proposition 2" does not resolve: alg-viii-s4 has no corollary 1 of Proposition 2
 - `content/en/alg/VIII/05_s5_commutation.md:306` "VIII, p. 82, Corollary 1" does not resolve: alg-viii-s5 has 2 statements called Corollary 1 and 2 of them in no. 3
-- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:240` "Theorem 3" does not resolve: alg-viii-s6 has no Theorem 3
-- `content/en/alg/VIII/07_s7_simple_rings.md:90` "VIII, p. 82, Corollary 1" does not resolve: alg-viii-s5 has 2 statements called Corollary 1 and 2 of them in no. 3
-- `content/en/alg/VIII/07_s7_simple_rings.md:108` "Corollary 2 of VIII, p. 83" does not resolve: alg-viii-s5 has 2 statements called Corollary 2 and 2 of them in no. 3
+- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:330` "Theorem 3" does not resolve: alg-viii-s6 has no Theorem 3
+- `content/en/alg/VIII/07_s7_simple_rings.md:94` "VIII, p. 82, Corollary 1" does not resolve: alg-viii-s5 has 2 statements called Corollary 1 and 2 of them in no. 3
+- `content/en/alg/VIII/07_s7_simple_rings.md:112` "Corollary 2 of VIII, p. 83" does not resolve: alg-viii-s5 has 2 statements called Corollary 2 and 2 of them in no. 3
 - `content/en/alg/VIII/08_s8_semisimple_rings.md:144` "Corollary of Theorem 1" does not resolve: alg-viii-s8 has no corollary 1 of Theorem 1
-- `content/en/alg/VIII/09_s9_radical.md:316` "Corollary of Proposition 4" does not resolve: alg-viii-s9 has no corollary 1 of Proposition 4
-- `content/en/alg/VIII/09_s9_radical.md:438` "VIII, p. 162, Corollary 1" does not resolve: alg-viii-s9 has 6 statements called Corollary 1 and 2 of them in no. 5
+- `content/en/alg/VIII/09_s9_radical.md:318` "Corollary of Proposition 4" does not resolve: alg-viii-s9 has no corollary 1 of Proposition 4
+- `content/en/alg/VIII/09_s9_radical.md:446` "VIII, p. 162, Corollary 1" does not resolve: alg-viii-s9 has 6 statements called Corollary 1 and 2 of them in no. 5
 - `content/en/alg/VIII/10_s10_modules_over_an_artinian_ring.md:110` "Corollary 1 of VIII, p. 163" does not resolve: alg-viii-s9 has 6 statements called Corollary 1 and 2 of them in no. 5
-- `content/en/alg/VIII/11_s11_grothendieck_groups.md:502` "Corollary 1 of Proposition 4" does not resolve: alg-viii-s11 has no corollary 1 of Proposition 4
-- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:156` "Corollary 1 of Theorem 5" does not resolve: alg-viii-s12 has no corollary 1 of Theorem 5
-- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:202` "Corollary 2 of VIII, p. 215" does not resolve: alg-viii-s12 has 3 statements called Corollary 2 and 0 of them in no. 3
-- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:218` "VIII, p. 215, Corollary 2" does not resolve: alg-viii-s12 has 3 statements called Corollary 2 and 0 of them in no. 3
-- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:306` "Corollary 1 of VIII, p. 215" does not resolve: alg-viii-s12 has 3 statements called Corollary 1 and 0 of them in no. 3
-- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:334` "corollary of Proposition 14" does not resolve: alg-viii-s12 has no corollary 1 of Proposition 14
+- `content/en/alg/VIII/11_s11_grothendieck_groups.md:524` "Corollary 1 of Proposition 4" does not resolve: alg-viii-s11 has no corollary 1 of Proposition 4
+- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:158` "Corollary 1 of Theorem 5" does not resolve: alg-viii-s12 has no corollary 1 of Theorem 5
+- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:204` "Corollary 2 of VIII, p. 215" does not resolve: alg-viii-s12 has 3 statements called Corollary 2 and 0 of them in no. 3
+- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:220` "VIII, p. 215, Corollary 2" does not resolve: alg-viii-s12 has 3 statements called Corollary 2 and 0 of them in no. 3
+- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:308` "Corollary 1 of VIII, p. 215" does not resolve: alg-viii-s12 has 3 statements called Corollary 1 and 0 of them in no. 3
+- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:336` "corollary of Proposition 14" does not resolve: alg-viii-s12 has no corollary 1 of Proposition 14
 - `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:242` "Corollary 1 of VIII, p. 215" does not resolve: alg-viii-s12 has 3 statements called Corollary 1 and 0 of them in no. 3
 - `content/en/alg/VIII/14_s14_central_simple_algebras.md:62` "VIII, p. 83, Corollary 2" does not resolve: alg-viii-s5 has 2 statements called Corollary 2 and 2 of them in no. 3
 - `content/en/alg/VIII/14_s14_central_simple_algebras.md:66` "Corollary of Proposition 6" does not resolve: alg-viii-s14 has no corollary 1 of Proposition 6
 - `content/en/alg/VIII/14_s14_central_simple_algebras.md:66` "Corollary of Proposition 6" does not resolve: alg-viii-s14 has no corollary 1 of Proposition 6
 - `content/en/alg/VIII/14_s14_central_simple_algebras.md:98` "Corollary of Proposition 10" does not resolve: alg-viii-s14 has no corollary 1 of Proposition 10
 - `content/en/alg/VIII/14_s14_central_simple_algebras.md:102` "Corollary 2 of VIII, p. 83" does not resolve: alg-viii-s5 has 2 statements called Corollary 2 and 2 of them in no. 3
-- `content/en/alg/VIII/15_s15_brauer_groups.md:184` "VIII, p. 82, Corollary 1" does not resolve: alg-viii-s5 has 2 statements called Corollary 1 and 2 of them in no. 3
+- `content/en/alg/VIII/15_s15_brauer_groups.md:188` "VIII, p. 82, Corollary 1" does not resolve: alg-viii-s5 has 2 statements called Corollary 1 and 2 of them in no. 3
 
-and 16 more, which `bourbaki audit -only R01` prints in full.
+and 12 more, which `bourbaki audit -only R01` prints in full.
 
-## T10 the tags of a file climb, as they did on the run that assigned them (54)
+## T10 the tags of a file climb, as they did on the run that assigned them (113)
 
 Soft, tags.
 
@@ -109,11 +85,11 @@ Soft, tags.
 - `content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:388` has 000V after 00RW, which was assigned later
 - `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:254` has 00RX after 00SE, which was assigned later
 - `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:262` has 0029 after 00RX, which was assigned later
-- `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:324` has 002E after 00QY, which was assigned later
-- `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:388` has 002J after 00RY, which was assigned later
+- `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:326` has 002E after 00QY, which was assigned later
+- `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:390` has 002J after 00RY, which was assigned later
 - `content/en/alg/VIII/03_s3_simple_modules.md:80` has 0039 after 00QZ, which was assigned later
 - `content/en/alg/VIII/03_s3_simple_modules.md:124` has 003E after 00RZ, which was assigned later
-- `content/en/alg/VIII/04_s4_semisimple_modules.md:452` has 004X after 00R0, which was assigned later
+- `content/en/alg/VIII/04_s4_semisimple_modules.md:488` has 004X after 00R0, which was assigned later
 - `content/en/alg/VIII/05_s5_commutation.md:162` has 005J after 00R1, which was assigned later
 - `content/en/alg/VIII/05_s5_commutation.md:202` has 005O after 00R2, which was assigned later
 - `content/en/alg/VIII/05_s5_commutation.md:238` has 005R after 00R3, which was assigned later
@@ -121,15 +97,21 @@ Soft, tags.
 - `content/en/alg/VIII/05_s5_commutation.md:294` has 005X after 00R4, which was assigned later
 - `content/en/alg/VIII/05_s5_commutation.md:332` has 005Y after 00R5, which was assigned later
 - `content/en/alg/VIII/05_s5_commutation.md:394` has 0063 after 00S1, which was assigned later
-- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:268` has 0077 after 00S2, which was assigned later
-- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:424` has 007H after 00R6, which was assigned later
-- `content/en/alg/VIII/07_s7_simple_rings.md:80` has 0085 after 00S3, which was assigned later
-- `content/en/alg/VIII/07_s7_simple_rings.md:94` has 0086 after 00R7, which was assigned later
+- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:346` has 00S2 after 00SH, which was assigned later
+- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:358` has 0077 after 00S2, which was assigned later
+- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:538` has 007H after 00R6, which was assigned later
+- `content/en/alg/VIII/07_s7_simple_rings.md:84` has 0085 after 00S3, which was assigned later
+- `content/en/alg/VIII/07_s7_simple_rings.md:98` has 0086 after 00R7, which was assigned later
 - `content/en/alg/VIII/08_s8_semisimple_rings.md:66` has 0093 after 00S4, which was assigned later
-- `content/en/alg/VIII/08_s8_semisimple_rings.md:404` has 009T after 00R8, which was assigned later
-- `content/en/alg/VIII/09_s9_radical.md:190` has 00AG after 00S5, which was assigned later
+- `content/en/alg/VIII/08_s8_semisimple_rings.md:398` has 009T after 00R8, which was assigned later
 
-and 29 more, which `bourbaki audit -only T10` prints in full.
+and 88 more, which `bourbaki audit -only T10` prints in full.
+
+## L05 source_content_sha256 is the English hash as it stands (1)
+
+Hard, translation.
+
+- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated from da960d566cc8 and content/en/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md is now ba92c1457894, so it is stale
 
 ## L08 no translation was written by a small model (1)
 

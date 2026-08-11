@@ -46,7 +46,7 @@ subsections:
       pdf_page: 283
 statements: 36
 exercises: 19
-content_sha256: 227306f7b5e0bf66357f879bdf91ad1f0c04280bc24f26e604bf81fb3bb77b2d
+content_sha256: c5d9ae7a2b4901eb65f4f92e449ed61279e05b6707d4441642986fa92e7649ad
 ---
 
 ## § 14. CENTRAL SIMPLE ALGEBRAS
@@ -125,13 +125,13 @@ In the notation of Corollary 2, the integer $n$ is called the reduced degree of 
 
 #### Remark 5 {#alg-viii-s14-n1-rem-5 .statement tag=00GM}
 
-Let A be a central simple algebra of finite degree over K whose reduced degree is a prime number $`$. Then either A is a field, or A is isomorphic to $\mathbf{M}_`(K)$. Indeed, A is isomorphic to an algebra of the form $\mathbf{M}_n$(D), where D is a field with center K, and we have
+Let A be a central simple algebra of finite degree over K whose reduced degree is a prime number $\ell$. Then either A is a field, or A is isomorphic to $\mathbf{M}_{\ell}(K)$. Indeed, A is isomorphic to an algebra of the form $\mathbf{M}_n$(D), where D is a field with center K, and we have
 
 $$
-`^2= [A : K] =n^2[D : K]
+\ell^2= [A : K] =n^2[D : K]
 $$
 
-if A is not a field, then $n\not= 1$, so $n=`$ and D = K.
+if A is not a field, then $n\not= 1$, so $n=\ell$ and D = K.
 
 ### 2. Two Lemmas on Bimodules
 
@@ -331,7 +331,9 @@ Let A be a central simple K-algebra of finite degree, and let L be a semisimple 
 
 (ii) The left L-module A is free, of dimension [L : K].
 
-(iii) We have $[A : K] = [L : K]^2$. Suppose, moreover, that A is the algebra End$_K(V)$, where V is a vector space of nonzero finite dimension over K. Then the previous properties are also equivalent to the following:
+(iii) We have $[A : K] = [L : K]^2$.
+
+Suppose, moreover, that A is the algebra End$_K(V)$, where V is a vector space of nonzero finite dimension over K. Then the previous properties are also equivalent to the following:
 
 (iv) V is a free L-module of dimension 1.
 
@@ -355,7 +357,9 @@ B) Let us continue with the general case. By Theorem 1 of VIII, p. 252, there ex
 
 (ii$')$ The left $L_{(K')}$-module $A_{(K')}$ is free, of dimension $[L_{(K')}: K']$.
 
-(iii$')$ We have $[A_{(K')}: K'] = [L_{(K')}: K']^2$. By Lemma 3, b), properties (i) and (i’) are equivalent.
+(iii$')$ We have $[A_{(K')}: K'] = [L_{(K')}: K']^2$.
+
+By Lemma 3, b), properties (i) and (i’) are equivalent.
 
 Set $n= [L : K]$; then $n= [L_{(K')}: K']$. Property (ii) means that the left L-modules A and $L^n$ are isomorphic; by Theorem 3 of VIII, p. 37, this is equivalent to the $L_{(K')}$-modules $A_{(K')}$ and $(L_{(K')})^n$ being isomorphic. The equivalence of (ii) and (ii$')$ follows.
 
