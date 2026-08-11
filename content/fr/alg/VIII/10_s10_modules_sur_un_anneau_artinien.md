@@ -25,7 +25,7 @@ subsections:
       pdf_page: 177
 statements: 12
 exercises: 11
-content_sha256: 477c6680df4fe5b3e3cb6cf018d4c0c0a7ec138d6491d3644b68be48b1f5056f
+content_sha256: 55485906eea7d0089748b7d8faa05e77381c6f78f7ca1b7225c5d753c234b076
 ---
 
 ## § 10. MODULES SUR UN ANNEAU ARTINIEN
@@ -126,13 +126,13 @@ a) Le A-module $P = P/\mathfrak{r}P$est semi-simple et le A-module P est isomorp
 
 b) Soit $(Q_i)_{i\in I}$ une famille de sous-modules projectifs indécomposables de P dont P est la somme directe. Alors pour tout $\lambda \in \mathscr{S}$, le cardinal de l’ensemble $I(\lambda )$des $i\in I$tels que $Q_i$ soit isomorphe à $P_{\lambda}$ est égal à $[P :\lambda ]$.
 
-Le fait que P soit semi-simple résulte de la prop. 2 (VIII, p. 170). Le A-module $Q =\oplus_{\lambda\in\mathscr{S}}P^{([P:}_{\lambda}^{\lambda])}$ est projectif, et comme $P_{\lambda}/\mathfrak{r}P_{\lambda}$ est isomorphe à $S_{\lambda}, Q/\mathfrak{r}Q$ est isomorphe à $\oplus_{\lambda\in\mathscr{S}}S^{([P:}_{\lambda}^{\lambda])}$, c’est-à-dire à $P = P/\mathfrak{r}P$. D’après la prop. 5, les A-modules P et Q sont isomorphes.
+Le fait que P soit semi-simple résulte de la prop. 2 (VIII, p. 170). Le A-module $Q =\oplus_{\lambda\in\mathscr{S}}P^{([P:\lambda])}_{\lambda}$ est projectif, et comme $P_{\lambda}/\mathfrak{r}P_{\lambda}$ est isomorphe à $S_{\lambda}, Q/\mathfrak{r}Q$ est isomorphe à $\oplus_{\lambda\in\mathscr{S}}S^{([P:\lambda])}_{\lambda}$, c’est-à-dire à $P = P/\mathfrak{r}P$. D’après la prop. 5, les A-modules P et Q sont isomorphes.
 
 Supposons donnée une famille $(Q_i)_{i\in I}$ de sous-modules projectifs et indécomposables, dont P soit somme directe. Pour tout $i\in I$, le A-module $Q_i/\mathfrak{r}Q_i$ est simple d’après la prop. 5. Pour $\lambda \in \mathscr{S}$, notons $I(\lambda )$ l’ensemble des $i\in I$ tels que $Q_i/\mathfrak{r}Q_i$ soit isomorphe à $S_{\lambda}$, donc à $P_{\lambda}/\mathfrak{r}P_{\lambda}$; c’est aussi l’ensemble des $i\in I$ tels que $Q_i$ soit isomorphe à $P_{\lambda}$. Comme $P = P/\mathfrak{r}P$ est somme directe de la famille $(Q_i/\mathfrak{r}Q_i)_{i\in I}$, on a Card(I($\lambda$ )) $= [P :\lambda ]$ d’après le th. 1 de VIII, p. 29.
 
 #### Exemple {#alg-viii-s10-n3-exa-1 .statement tag=00CG}
 
-Prenons P égal à $A_s$. Pour tout $\lambda \in \mathscr{S}$, notons $D_{\lambda}$ le corps opposé du commutant du A-module simple $S_{\lambda}$ et $m(\lambda )$ la dimension de $S_{\lambda}$ considéré comme espace vectoriel à droite sur le corps $D_{\lambda}$. On sait que $m(\lambda )$ est égale à la multiplicité $[A_s/\mathfrak{r}A_s:\lambda ]$ (VIII, p. 139, prop. 11). Par conséquent, le A-module $A_s$ est isomorphe à $\oplus_{\lambda\in\mathscr{S}}P^m_{\lambda}^{(\lambda)}$.
+Prenons P égal à $A_s$. Pour tout $\lambda \in \mathscr{S}$, notons $D_{\lambda}$ le corps opposé du commutant du A-module simple $S_{\lambda}$ et $m(\lambda )$ la dimension de $S_{\lambda}$ considéré comme espace vectoriel à droite sur le corps $D_{\lambda}$. On sait que $m(\lambda )$ est égale à la multiplicité $[A_s/\mathfrak{r}A_s:\lambda ]$ (VIII, p. 139, prop. 11). Par conséquent, le A-module $A_s$ est isomorphe à $\oplus_{\lambda\in\mathscr{S}}P^{m(\lambda)}_{\lambda}$.
 
 ## EXERCICES {#alg-viii-s10-exercises}
 

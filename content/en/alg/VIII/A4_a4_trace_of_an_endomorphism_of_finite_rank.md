@@ -23,7 +23,7 @@ subsections:
       pdf_page: 481
 statements: 5
 exercises: 2
-content_sha256: ba92c145789444929ea958210e1292209334a911aa56a4290cdf547ce73f18e1
+content_sha256: bd4d42f0698ed2cd0057aa005cbd610b48ac6f8a8b200cc2c7b39382e0d385ad
 ---
 
 ## APPENDIX 4 TRACE OF AN ENDOMORPHISM OF FINITE RANK
@@ -70,7 +70,7 @@ for every $x\in E$, and therefore $u=\theta \sum_{j\in J}x^*_j\otimes p(y_j)$ .
 
 ### 2. Trace of an Endomorphism of Finite Rank
 
-In this subsection, A denotes a commutative ring. Let E be a projective A-module. Then End$^f_A(E)$ is an A-submodule of End$_A$(E), and the canonical mapping $E^*\otimes_AE\rightarrow$ End$_A(E)$ defines an isomorphism $\theta_E$ of A-modules from $E^*\otimes_AE$ to End$^f_A(E)$ (Lemma 1). Consider the canonical linear form $\tau : E^*\otimes_AE\rightarrow A$ (II, §4, No. 3, p. 273) characterized by the formula $\tau (x^*\otimes x) =\langle x, x^*\rangle$. By composing it with the isomorphism $\theta^-_E^1$, we deduce a linear form Tr : End$^f_A(E)\rightarrow A$, called the trace form. When the A-module E is finitely generated, we recover the definition of II, §4, No. 3, p. 273.
+In this subsection, A denotes a commutative ring. Let E be a projective A-module. Then End$^f_A(E)$ is an A-submodule of End$_A$(E), and the canonical mapping $E^*\otimes_AE\rightarrow$ End$_A(E)$ defines an isomorphism $\theta_E$ of A-modules from $E^*\otimes_AE$ to End$^f_A(E)$ (Lemma 1). Consider the canonical linear form $\tau : E^*\otimes_AE\rightarrow A$ (II, §4, No. 3, p. 273) characterized by the formula $\tau (x^*\otimes x) =\langle x, x^*\rangle$. By composing it with the isomorphism $\theta^{-1}_E$, we deduce a linear form Tr : End$^f_A(E)\rightarrow A$, called the trace form. When the A-module E is finitely generated, we recover the definition of II, §4, No. 3, p. 273.
 
 #### Proposition 1 {#alg-viii-a4-prop-1 .statement tag=00QP}
 

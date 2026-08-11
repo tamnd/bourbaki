@@ -29,7 +29,7 @@ subsections:
       pdf_page: 147
 statements: 30
 exercises: 6
-content_sha256: 8e340e997340087ad77e28cd629e0d9ec083eb1573852bd5c7578e148dbcf538
+content_sha256: f7614e102689af7091ec22e872fd129185cbbf598a1ec3b3ecff92bcf851ffa3
 ---
 
 ## § 8. ANNEAUX SEMI-SIMPLES
@@ -162,7 +162,7 @@ Supposons l’anneau A semi-simple. Soit M un A-module à gauche. Le contremodul
 
 Considérons d’abord le cas où M est un A-module simple. Par le lemme 1, l’anneau $A_M$ est simple. La prop. 5 résulte alors du lemme 1 de VIII, p. 116.
 
-Passons au cas général. L’ensemble $\mathscr{S}$ des classes de A-modules simples est fini (VIII, p. 132, prop. 1). Choisissons pour tout $\lambda \in \mathscr{S}$ un A-module $S_{\lambda}$ de classe $\lambda$, et notons $D_{\lambda}$ le corps opposé du commutant de $S_{\lambda}$. D’après le lemme 1 appliqué à l’anneau simple $A_{S_{\lambda}}, S_{\lambda}$ est un espace vectoriel de dimension finie sur le corps $D_{\lambda}$; notons $m(\lambda )$ cette dimension. Soit B l’anneau opposé de l’anneau des endomorphismes de M. On a vu en VIII, p. 80 qu’il existe des $(D_{\lambda}$, B)-bimodules $V_{\lambda}$, simples comme B-modules, et un isomorphisme de $(A$, B)-bimodules de M sur $\oplus_{\lambda\in\mathscr{S}}S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda}$. En tant que B-module, M est isomorphe à $\oplus_{\lambda\in\mathscr{S}}V^m_{\lambda}^{(\lambda)}$. Comme $\mathscr{S}$ et les $m(\lambda )$ sont finis, M est un B-module de type fini.
+Passons au cas général. L’ensemble $\mathscr{S}$ des classes de A-modules simples est fini (VIII, p. 132, prop. 1). Choisissons pour tout $\lambda \in \mathscr{S}$ un A-module $S_{\lambda}$ de classe $\lambda$, et notons $D_{\lambda}$ le corps opposé du commutant de $S_{\lambda}$. D’après le lemme 1 appliqué à l’anneau simple $A_{S_{\lambda}}, S_{\lambda}$ est un espace vectoriel de dimension finie sur le corps $D_{\lambda}$; notons $m(\lambda )$ cette dimension. Soit B l’anneau opposé de l’anneau des endomorphismes de M. On a vu en VIII, p. 80 qu’il existe des $(D_{\lambda}$, B)-bimodules $V_{\lambda}$, simples comme B-modules, et un isomorphisme de $(A$, B)-bimodules de M sur $\oplus_{\lambda\in\mathscr{S}}S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda}$. En tant que B-module, M est isomorphe à $\oplus_{\lambda\in\mathscr{S}}V^{m(\lambda)}_{\lambda}$. Comme $\mathscr{S}$ et les $m(\lambda )$ sont finis, M est un B-module de type fini.
 
 Le A-module M est semi-simple et son contremodule est de type fini. On a donc $A_M= A''_M$ d’après la prop. 4 de VIII, p. 79.
 

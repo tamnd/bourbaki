@@ -22,7 +22,7 @@ subsections:
       pdf_page: 455
 statements: 5
 exercises: 2
-content_sha256: 341651318ab992061c427c7f3de2eb52fa0674f5678078020fc6179a1d22987f
+content_sha256: d110c1adcfddd6668d46dca7ed5b56aa31adc30008aa3ab650de106c31e6b5e2
 ---
 
 ### APPENDICE 4 TRACE D’UN ENDOMORPHISME DE RANG FINI
@@ -69,7 +69,7 @@ pour tout $x\in E$, d’où $u=\theta (\sum_{j\in J}x^*_j\otimes p(y_j))^j.^{\in
 
 ### 2. Trace d’un endomorphisme de rang fini
 
-Dans ce numéro, A désigne un anneau commutatif. Soit E un A-module projectif. Alors End$^f_A(E)$ est un sous-A-module de End$_A(E)$ et l’application canonique $E^*\otimes_AE\rightarrow$ End$_A(E)$ définit un isomorphisme $\theta_E$ de A-modules de $E^*\otimes_AE$ sur End$^f_A(E)$ (lemme 1). Considérons la forme linéaire canonique $\tau : E^*\otimes_AE\rightarrow A$ (A, II, p. 78), caractérisée par la formule $\tau (x^*\otimes x) =\langle x, x^*\rangle$. Par composition avec l’isomorphisme $\theta^-_E^1$, on en déduit une forme linéaire Tr : End$^f_A(E)\rightarrow A$, dite forme trace. Lorsque le A-module E est de type fini, on retrouve la définition de A, II, p. 78.
+Dans ce numéro, A désigne un anneau commutatif. Soit E un A-module projectif. Alors End$^f_A(E)$ est un sous-A-module de End$_A(E)$ et l’application canonique $E^*\otimes_AE\rightarrow$ End$_A(E)$ définit un isomorphisme $\theta_E$ de A-modules de $E^*\otimes_AE$ sur End$^f_A(E)$ (lemme 1). Considérons la forme linéaire canonique $\tau : E^*\otimes_AE\rightarrow A$ (A, II, p. 78), caractérisée par la formule $\tau (x^*\otimes x) =\langle x, x^*\rangle$. Par composition avec l’isomorphisme $\theta^{-1}_E$, on en déduit une forme linéaire Tr : End$^f_A(E)\rightarrow A$, dite forme trace. Lorsque le A-module E est de type fini, on retrouve la définition de A, II, p. 78.
 
 #### Proposition 1 {#alg-viii-a4-prop-1 .statement tag=00QP}
 

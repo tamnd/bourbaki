@@ -30,7 +30,7 @@ subsections:
       pdf_page: 162
 statements: 30
 exercises: 6
-content_sha256: cb1a300c868e6352ae4ee73bb39441ce080758fddd6b49d33de00bc22b8f5a31
+content_sha256: d36d4c8cf996d54c686843e0dd27ba68ff1750756295301c583914d30925429e
 ---
 
 ## § 8. SEMISIMPLE RINGS
@@ -161,7 +161,7 @@ Suppose that the ring A is semisimple. Let M be a left A-module. The countermodu
 
 First consider the case when M is a simple A-module. By Lemma 1, the ring $A_M$ is simple. Proposition 5 then follows from Lemma 1 of VIII, p. 120.
 
-Now consider the general case. The set $\mathscr{S}$ of classes of simple A-modules is finite (VIII, p. 136, Proposition 1). For every $\lambda \in \mathscr{S}$, choose an A-module $S_{\lambda}$ of class $\lambda$, and denote the opposite field of the commutant of $S_{\lambda}$ by $D_{\lambda}$. By Lemma 1 applied to the simple ring $A_{S_{\lambda}}, S_{\lambda}$ is a finite-dimensional vector space over the field $D_{\lambda}$; denote its dimension by $m(\lambda )$. Let B be the opposite ring of the endomorphism ring of M. We have seen in VIII, p. 84 that there exist $(D_{\lambda}$, B)-bimodules $V_{\lambda}$ that are simple as B-modules and an isomorphism of $(A$, B)-bimodules from M to $\oplus_{\lambda\in\mathscr{S}}S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda}$. As a B-module, M is isomorphic to $\oplus_{\lambda\in\mathscr{S}}V^m_{\lambda}^{(\lambda)}$. Since $\mathscr{S}$ and the $m(\lambda )$ are finite, M is a finitely generated B-module.
+Now consider the general case. The set $\mathscr{S}$ of classes of simple A-modules is finite (VIII, p. 136, Proposition 1). For every $\lambda \in \mathscr{S}$, choose an A-module $S_{\lambda}$ of class $\lambda$, and denote the opposite field of the commutant of $S_{\lambda}$ by $D_{\lambda}$. By Lemma 1 applied to the simple ring $A_{S_{\lambda}}, S_{\lambda}$ is a finite-dimensional vector space over the field $D_{\lambda}$; denote its dimension by $m(\lambda )$. Let B be the opposite ring of the endomorphism ring of M. We have seen in VIII, p. 84 that there exist $(D_{\lambda}$, B)-bimodules $V_{\lambda}$ that are simple as B-modules and an isomorphism of $(A$, B)-bimodules from M to $\oplus_{\lambda\in\mathscr{S}}S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda}$. As a B-module, M is isomorphic to $\oplus_{\lambda\in\mathscr{S}}V^{m(\lambda)}_{\lambda}$. Since $\mathscr{S}$ and the $m(\lambda )$ are finite, M is a finitely generated B-module.
 
 The A-module M is semisimple, and its countermodule is finitely generated. We therefore have $A_M= A''_M$ by Proposition 4 of VIII, p. 83.
 

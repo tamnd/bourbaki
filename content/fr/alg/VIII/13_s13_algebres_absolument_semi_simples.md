@@ -45,7 +45,7 @@ subsections:
       pdf_page: 242
 statements: 33
 exercises: 12
-content_sha256: f5088f7279ca65b20fe32f24ade6eeb64cdb4ad537e7d38310c8c513ac2e60d6
+content_sha256: c7f93d1340e9e40d690486ff7ff74c95d05068f7f8a59fa05cade20ab588afbe
 ---
 
 ## § 13. ALGÈBRES ABSOLUMENT SEMI-SIMPLES
@@ -349,17 +349,17 @@ On note $d_0=d^0_0$ l’application $\varepsilon : B_0\rightarrow A$.
 Soit $n$ un entier $\geqslant 1$. Pour $0\leqslant i < j\leqslant n$, on a
 
 $$
-d_n^i_{-1}\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \tag{6}
+d_{n-1}^i\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \tag{6}
 $$
 
 et l’on en déduit
 
 $$
-d_{n-1}\circ d_n=\sum(-1)^{i+j}d_n^i_{-1}\circ d_n^j+\sum(-1)^{i+j}d_n^i_{-1}\circ d_n^j
+d_{n-1}\circ d_n=\sum(-1)^{i+j}d_{n-1}^i\circ d_n^j+\sum(-1)^{i+j}d_{n-1}^i\circ d_n^j
 $$
 
 $$
-=^0_0^{\leqslant}_{\leqslant}\sum^{i<j}_{i<j}^{\leqslant}_{\leqslant}^n_n(-1)^{i+j}d_n^j_-^{-1}_1\circ d_n^i+^0_0^{\leqslant}_{\leqslant}^j_j^{\leqslant}_{\leqslant}\sum^i_i^{\leqslant}_{\leqslant}^n_n^-_-^1_1(-1)^{i+j}d_n^i_{-1}\circ d_n^j
+=^0_0^{\leqslant}_{\leqslant}\sum^{i<j}_{i<j}^{\leqslant}_{\leqslant}^n_n(-1)^{i+j}d_n^j_-^{-1}_1\circ d_n^i+^0_0^{\leqslant}_{\leqslant}^j_j^{\leqslant}_{\leqslant}\sum^i_i^{\leqslant}_{\leqslant}^n_n^-_-^1_1(-1)^{i+j}d_{n-1}^i\circ d_n^j
 $$
 
 d’où
@@ -477,13 +477,13 @@ $$
 $$
 
 $$
-= (d^0_{n+1}\circ d^1_{n+2})(e\otimes x)-^n\sum_{i=2}^{+2}(-1)^i(d_n^{i-}_{+1}^1\circ d^1_{n+2})(e\otimes x)
+= (d^0_{n+1}\circ d^1_{n+2})(e\otimes x)-^n\sum_{i=2}^{+2}(-1)^i(d_{n+1}^{i-1}\circ d^1_{n+2})(e\otimes x)
 $$
 
 d’où, par la formule (6),
 
 $$
-(d_{n+1}\circ h_n)(x) = (d^0_{n+1}\circ d^0_{n+2})(e\otimes x)-^n\sum_{i=2}^{+2}(-1)^i(d^1_{n+1}\circ d_n^i_{+2})(e\otimes x)
+(d_{n+1}\circ h_n)(x) = (d^0_{n+1}\circ d^0_{n+2})(e\otimes x)-^n\sum_{i=2}^{+2}(-1)^i(d^1_{n+1}\circ d_{n+2}^i)(e\otimes x)
 $$
 
 Mais on a
@@ -495,7 +495,7 @@ $$
 par la condition (ii) de la prop. 5 de VIII, p. 232 et, pour $i\geqslant 2$,
 
 $$
-d^i_{n+2}(e\otimes x) =e\otimes d^i_n^{-2}(x)
+d^i_{n+2}(e\otimes x) =e\otimes d^{i-2}_n(x)
 $$
 
 ce qui donne

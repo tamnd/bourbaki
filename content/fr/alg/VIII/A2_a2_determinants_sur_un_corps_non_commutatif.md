@@ -34,7 +34,7 @@ subsections:
       pdf_page: 447
 statements: 18
 exercises: 4
-content_sha256: a865644034e55500ad68d03794a557421d80623bc68b5b423dc41df5b316bd5c
+content_sha256: 9dd77290c2a556b4f8339382e94421d311f3a0139a05da41d6f4be41b827d71f
 ---
 
 ### APPENDICE 2 DÉTERMINANTS SUR UN CORPS NON COMMUTATIF
@@ -181,13 +181,13 @@ Ceci étant prouvé, on définit $\omega (v_1, . . . , v_n)$ comme la valeur com
 
 Il s’agit maintenant de prouver que $\omega$ appartient à Ω(V).
 
-C) Preuve de la formule (1) : Soient $\lambda_1, . . . , \lambda_n$ des éléments de $D^*$ et $(v_1, . . . , v_n)$ une base de V. On définit $\mu_1, . . . , \mu_n$ et I comme ci-dessus ; choisissons $i$ dans I. Comme on a $e=\sum^n_{j=1}(v_j\lambda_j)(\lambda^-_j^1\mu_j)$, la formule (9) entraîne
+C) Preuve de la formule (1) : Soient $\lambda_1, . . . , \lambda_n$ des éléments de $D^*$ et $(v_1, . . . , v_n)$ une base de V. On définit $\mu_1, . . . , \mu_n$ et I comme ci-dessus ; choisissons $i$ dans I. Comme on a $e=\sum^n_{j=1}(v_j\lambda_j)(\lambda^{-1}_j\mu_j)$, la formule (9) entraîne
 
 $$
 \omega (v_1\lambda_1, . . . , v_n\lambda_n) =\pi (-1)_{n-i}\pi (\lambda_{-i1}\mu_i)_{-1}\varphi (p(v_1)\lambda_1, . . . ,p(v_i)\widehat{\lambda}_i, . . . , p(v_n)\lambda_n) \tag{11}
 $$
 
-Mais on a $\pi (\lambda^-_i^1\mu_i)^{-1}=\pi (\mu_i)^{-1}\pi (\lambda_i)$ et
+Mais on a $\pi (\lambda^{-1}_i\mu_i)^{-1}=\pi (\mu_i)^{-1}\pi (\lambda_i)$ et
 
 $$
 \varphi (p(v_1)\lambda_1, . . . ,p(v_i)\widehat{\lambda}_i, . . . , p(v_n)\lambda_n)

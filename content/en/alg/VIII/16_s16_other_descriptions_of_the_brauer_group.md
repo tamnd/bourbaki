@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: e0a697b669398d35e2d9bcd734f03da4b53022aa462cc4025cbbfd23db4dc6b4
+content_sha256: ebd7e8eece7c424f3ed9dcc91462fa345d60a1e3b0ddc8994bba6f89de1d899d
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -528,7 +528,7 @@ $$
 Since the group F is commutative, we have the relations
 
 $$
-c_{\sigma'}(g_1, g_2)c_{\sigma}(g_1, g_2)^{-1}= (^{g_1}a_{g_2})a^-_{g_1}^1_{g_2}a_{g_1}= (\partial a)(g_1, g_2) \tag{11}
+c_{\sigma'}(g_1, g_2)c_{\sigma}(g_1, g_2)^{-1}= (^{g_1}a_{g_2})a^{-1}_{g_1g_2}a_{g_1}= (\partial a)(g_1, g_2) \tag{11}
 $$
 
 as follows from (8). This proves that the classes of $c_{\sigma'}$ and $c_{\sigma}$ in $H^2(G,F)$ coincide.
@@ -906,7 +906,7 @@ $$
 $$
 
 $$
-=_{x\in}\prod^x_H^{\in}_{\backslash}^H_G^{\backslash gG_1}c(g_2, s(x\cdot g_2)^{-1})^{-1}c(g_1g_2, s(x\cdot g_1g_2)^{-1})c(g_1, s(x\cdot g_1)^{-1})^{-1}
+=_{x\in}\prod^{x\in H\backslash gG_1}_{H\backslash G}c(g_2, s(x\cdot g_2)^{-1})^{-1}c(g_1g_2, s(x\cdot g_1g_2)^{-1})c(g_1, s(x\cdot g_1)^{-1})^{-1}
 $$
 
 $$
@@ -1359,7 +1359,7 @@ $$
 
 where the sum is taken over the elements $g$ of $\Phi (a)$ distinct from $e$. Because of the minimality of $\Phi (a)$, we then have $xa-ax= 0$, but this contradicts the assumption on $x$. We have, therefore, proved by contradiction that $\Phi (a)$ contains only the identity element $e$ of G, so we have $a\in L$.
 
-Hence $L\cap \mathfrak{a}$ is an ideal of L not reduced to $\{0\}$. Moreover, for every $x$ in L, we have $\varepsilon_gx\varepsilon^-_g^1=\lambda (g)\cdot x$, so $L\cap \mathfrak{a}$ is invariant under G. By Lemma 12, we therefore have $L\cap \mathfrak{a}= L$, that is, $L\subset \mathfrak{a}$. Since L contains the identity element of $\mathbf{A}[\mathscr{E}; L]$, we have $\mathfrak{a}=\mathbf{A}[\mathscr{E}; L]$.
+Hence $L\cap \mathfrak{a}$ is an ideal of L not reduced to $\{0\}$. Moreover, for every $x$ in L, we have $\varepsilon_gx\varepsilon^{-1}_g=\lambda (g)\cdot x$, so $L\cap \mathfrak{a}$ is invariant under G. By Lemma 12, we therefore have $L\cap \mathfrak{a}= L$, that is, $L\subset \mathfrak{a}$. Since L contains the identity element of $\mathbf{A}[\mathscr{E}; L]$, we have $\mathfrak{a}=\mathbf{A}[\mathscr{E}; L]$.
 
 Since the algebra $\mathbf{A}[\mathscr{E}; L]$ has nonzero finite dimension over K and its only two-sided ideals are $\{0\}$ and $\mathbf{A}[\mathscr{E}; L]$, it is simple.
 
@@ -1444,13 +1444,13 @@ If L is an étale algebra over K and G is the automorphism group of L, then it i
 We can calculate a 2-cocycle $c$ associated with an algebra A split by a finite Galois extension L with group G as follows. First, there exists a K-homomorphism $\varphi : A\rightarrow \mathbf{M}_m$(L), where $[A : K] =m^2$. For $g\in G$, let $\varphi^g$ be the homomorphism from A to $\mathbf{M}_m(L)$ given by $a\mapsto \varphi (g^{-1}ag)$. By the Skolem–Noether theorem (VIII, p. 256, Theorem 3), for every $g\in G$, there exists an element $u_g$ of $\mathbf{G}\mathbf{L}_m(L)$ such that
 
 $$
-\varphi^g(a) =u_g\varphi (a)u^-_g^1
+\varphi^g(a) =u_g\varphi (a)u^{-1}_g
 $$
 
 for $a\in A$. We then set
 
 $$
-c(g, g') =u_gu_{g'}u^-_{gg}^{1_'}
+c(g, g') =u_gu_{g'}u^{-1_'}_{gg}
 $$
 
 We can also define an extension of G by $L^*$ using $\varphi :$ we consider the group $\Gamma \subset \mathbf{G}\mathbf{L}_m(L)$ consisting of the $\gamma$ for which there exists a $g\in G$ with

@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: 37e5b954ca9e251a36a387c1d3f60959489857dd8c91821506fb4e00582265be
+content_sha256: d1015817dc08c515eb839832bffdb00433e5d252f251f0696bdcb91e61212ee6
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -517,7 +517,7 @@ $$
 Le groupe F étant commutatif, on a les relations
 
 $$
-c_{\sigma'}(g_1, g_2)c_{\sigma}(g_1, g_2)^{-1}= (^{g_1}a_{g_2})a^-_{g_1}^1_{g_2}a_{g_1} \tag{11}
+c_{\sigma'}(g_1, g_2)c_{\sigma}(g_1, g_2)^{-1}= (^{g_1}a_{g_2})a^{-1}_{g_1g_2}a_{g_1} \tag{11}
 $$
 
 et les classes de $c_{\sigma'}$ et $c_{\sigma}$ dans $H^2(G,F)$ coïncident.
@@ -705,7 +705,7 @@ $$
 $$
 
 $$
-\times^{x\in H}_{x\in}^{\backslash}\prod^G_{H\backslash G}^{s(x)^{-1}}(t(s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}t(s(x)g_1s(x.g_1)^{-1}))
+\times^{x\in H\backslash}_{x\in}\prod^G_{H\backslash G}^{s(x)^{-1}}(t(s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}t(s(x)g_1s(x.g_1)^{-1}))
 $$
 
 $$
@@ -831,7 +831,7 @@ $$
 $$
 
 $$
-\times^{x\in H}_{x\in}^{\backslash}\prod^G_{H\backslash G}(c(s(x)^{-1}, s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x.g_1)^{-1}))
+\times^{x\in H\backslash}_{x\in}\prod^G_{H\backslash G}(c(s(x)^{-1}, s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x.g_1)^{-1}))
 $$
 
 = $\prod^{g_1}c(s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})$
@@ -877,7 +877,7 @@ $$
 $$
 
 $$
-=_{x\in}\prod^x_H^{\in}_{\backslash}^H_G^{\backslash gG_1}c(g_2, s(x.g_2)^{-1})^{-1}c(g_1g_2, s(x.g_1g_2)^{-1})c(g_1, s(x.g_1)^{-1})^{-1}
+=_{x\in}\prod^{x\in H\backslash gG_1}_{H\backslash G}c(g_2, s(x.g_2)^{-1})^{-1}c(g_1g_2, s(x.g_1g_2)^{-1})c(g_1, s(x.g_1)^{-1})^{-1}
 $$
 
 $$
@@ -1328,7 +1328,7 @@ $$
 
 la somme s’étendant sur les éléments $g$ de $\Phi (a)$ distincts de $e$. Vu le caractère minimal de $\Phi (a)$, on a donc $xa-ax= 0$, mais ceci contredit l’hypothèse faite sur $x$. On a donc prouvé par l’absurde que $\Phi (a)$ contient seulement l’unité $e$ de G, d’où $a\in L$.
 
-Donc $L\cap \mathfrak{a}$ est un idéal de L non réduit à $\{0\}$. De plus, pour tout $x$ de L, on a $\varepsilon_gx\varepsilon^-_g^1=\lambda (g).x$, donc $L\cap \mathfrak{a}$ est invariant par G. D’après le lemme 12, on a donc $L\cap \mathfrak{a}= L$, c’est-à-dire $L\subset \mathfrak{a}$. Comme L contient l’élément unité de $\mathbf{A}[\mathscr{E}; L]$, on a $\mathfrak{a}= \mathbf{A}[\mathscr{E}; L]$.
+Donc $L\cap \mathfrak{a}$ est un idéal de L non réduit à $\{0\}$. De plus, pour tout $x$ de L, on a $\varepsilon_gx\varepsilon^{-1}_g=\lambda (g).x$, donc $L\cap \mathfrak{a}$ est invariant par G. D’après le lemme 12, on a donc $L\cap \mathfrak{a}= L$, c’est-à-dire $L\subset \mathfrak{a}$. Comme L contient l’élément unité de $\mathbf{A}[\mathscr{E}; L]$, on a $\mathfrak{a}= \mathbf{A}[\mathscr{E}; L]$.
 
 Comme l’algèbre $\mathbf{A}[\mathscr{E}; L]$ est de dimension finie non nulle sur K et qu’elle n’a d’autre idéal bilatère que $\{0\}$ et $\mathbf{A}[\mathscr{E}; L]$, elle est simple.
 
@@ -1415,13 +1415,13 @@ Si L est une algèbre étale sur K et G le groupe des automorphismes de L, il n�
 On peut calculer comme suit un 2-cocycle $c$ associé à une algèbre A déployée par une extension galoisienne finie L de groupe G. Tout d’abord, il existe un K-homomorphisme $\varphi : A\rightarrow \mathbf{M}_m$(L), où $[A : K] =m^2$. Pour $g\in G$, soit $\varphi^g$ l’homomorphisme de A dans $\mathbf{M}_m(L)$ donné par $a\rightarrow \varphi (g^{-1}ag)$. D’après le théorème de Skolem-Noether, il existe, pour tout $g\in G$, un élément $u_g$ de $\mathbf{G}\mathbf{L}_m(L)$ tels que
 
 $$
-\varphi^g(a) =u_g\varphi (a)u^-_g^1
+\varphi^g(a) =u_g\varphi (a)u^{-1}_g
 $$
 
 pour $a\in A$. On pose ensuite
 
 $$
-c(g, g') =u_gu_{g'}u^-_{gg}^{1_'}
+c(g, g') =u_gu_{g'}u^{-1_'}_{gg}
 $$
 
 On peut également définir une extension de G par $L^*$ au moyen de $\varphi :$ on considère le groupe $\Gamma \subset \mathbf{G}\mathbf{L}_m(L)$ formé des $\gamma$ pour lesquels il existe $g\in G$ avec

@@ -62,7 +62,7 @@ subsections:
       pdf_page: 221
 statements: 38
 exercises: 14
-content_sha256: 1e1ac9de33c3904608ba567b048d2483ffac810e14a160dec94811a79b231671
+content_sha256: 91d3aa07921e6af15718244f89d3f62397ab1e3fdff365ca76908c40b5a07f52
 ---
 
 ## § 11. GROTHENDIECK GROUPS
@@ -173,7 +173,7 @@ $$
 n\sum_{i=0}^{-1}(-1)^i\varphi (E_i) + (-1)^n\varphi (F) = 0 \tag{6}
 $$
 
-We then immediately deduce from (5) and (6) that $\sum^n_{i=0}^{+1}(-1)^i\varphi (E_i) = 0$, and the corollary follows.
+We then immediately deduce from (5) and (6) that $\sum^{n+1}_{i=0}(-1)^i\varphi (E_i) = 0$, and the corollary follows.
 
 #### Proposition 2 {#alg-viii-s11-prop-2 .statement tag=00D0}
 
@@ -443,7 +443,7 @@ $$
 
 #### Remark 4 {#alg-viii-s11-n4-rem-4 .statement tag=00DE}
 
-We keep the assumptions and notation of Proposition 8. Let E be an A-module of finite length, and let $a_1A, . . . , a_nA$ be its invariant factors (VII, §4, No. 5, p. 20). Since E is isomorphic to $\bigoplus_i^n_{=1}A/a_iA$, we have
+We keep the assumptions and notation of Proposition 8. Let E be an A-module of finite length, and let $a_1A, . . . , a_nA$ be its invariant factors (VII, §4, No. 5, p. 20). Since E is isomorphic to $\bigoplus_{i=1}^nA/a_iA$, we have
 
 $$
 \varphi ([E]) =\prod_{i=1}^n\varphi ([A/a_iA]) =a_1\cdots a_nA^* \tag{10}
