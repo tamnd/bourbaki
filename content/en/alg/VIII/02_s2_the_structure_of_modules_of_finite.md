@@ -34,7 +34,7 @@ subsections:
       pdf_page: 54
 statements: 36
 exercises: 20
-content_sha256: 9b219f4e2154568c305673deea67d077c0defae40bd167838cfc651e1aa152b1
+content_sha256: ac697f997df71a21a380fea64a7c6b4f93aca834b517f5ab70f309315fcedd54
 ---
 
 ## § 2. THE STRUCTURE OF MODULES OF FINITE LENGTH
@@ -295,7 +295,7 @@ Let $N_0$ be a submodule of M supplementary to N. The module M is the direct sum
 
 Let $j\in J$. By Lemma 3, there exists an index $i\in I$ such that $p_j$ induces an isomorphism from $M_i$ to a direct factor submodule of $N_j$. Since $M_i$ is nonzero and $N_j$ is primordial and therefore indecomposable (VIII, p. 31, Proposition 4), we have $p_j(M_i) = N_j$, and $j$ belongs to $J(i)$. Since the module $M_i$ is isomorphic to $N_j$ and hence to L, the index $i$ belongs to $I_L$. This proves that J is the union of the family of finite sets $(J(i))_{i\in I_L}$. If the set J is infinite, then the set $I_L$ is infinite, and we have (Set Theory, III, §6, No. 3, p. 188, Corollary 3)
 
-Card(J) $\leqslant_i\sum_{\in I_L}$ Card(J($i$))$\leqslant$ Card(I$_L)$.
+Card(J) $\leqslant \sum_{i\in I_L}$ Card(J($i$))$\leqslant$ Card(I$_L)$.
 
 Now, suppose that the set J is finite, and let us prove the lemma by induction on the cardinal of J. If J is empty, there is nothing to prove. Therefore, suppose that J is nonempty, and choose an element $j$ of J. By the above, there exists an index $i\in I_L$ such that $p_j$ induces an isomorphism from $M_i$ to $N_j$. Set $I'= I-\{i\}$ and $J'= J-\{j\}$. The module M is the direct sum of $M_i$ and the kernel of $p_j$. It is also the direct sum of $M_i$ and the submodule $M'=\oplus_{i'\in I'}M_{i'}$. Hence, there exists (II, §1, No. 9, p. 210, Corollary of Proposition 13) an isomorphism $\varphi$ from Ker $p_j= N_0\oplus_{j'\in J'}N_{j'}$ to $M'$. Set $N'=\varphi \sum_{j'\in J'}N_{j'}$. The submodule $N'$ of $M'$ is a direct factor and is the direct sum of the family $(\varphi (N_{j'}))_{j'\in J'}$ of primordial submodules isomorphic to L. Let us apply the induction hypothesis to $M'$ and $N':$ we have Card(J$')\leqslant$ Card(I$_L-\{i\})$ and therefore inequality (1).
 

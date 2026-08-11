@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: 215013a1dff7af8a36cbf96e38e2ea6159c816c9d905e4b95b8a0e96cdc6308f
+content_sha256: 358de8290737deec1c7651b5e6baa8c71f18e712d56dc33c595a24c187433e1d
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -356,11 +356,11 @@ $$
 and from this we deduce
 
 $$
-d_{n-1}\circ d_n=_{0\leqslant}\sum_{i<j\leqslant n}(-1)^{i+j}d_{n-1}^i\circ d_n^j+_{0\leqslant j\leqslant}\sum_{i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
+d_{n-1}\circ d_n=\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_{n-1}^i\circ d_n^j+\sum_{0\leqslant j\leqslant i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
 $$
 
 $$
-=_{0\leqslant}\sum_{i<j\leqslant n}(-1)^{i+j}d_n^{j-}_-^1_1\circ d_n^i+_{0\leqslant j\leqslant}\sum_{i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
+=\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_n^{j-}_-^1_1\circ d_n^i+\sum_{0\leqslant j\leqslant i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
 $$
 
 and consequently
@@ -404,7 +404,7 @@ $$
 $$
 
 $$
-+^n\sum_{i=0}^{-1}(-1)^{i+1}f(x_0, . . . , x_{i-1}, x_ix_{i+1}, x_{i+2}, . . . , x_n)
++\sum^{n-1}_{i=0}(-1)^{i+1}f(x_0, . . . , x_{i-1}, x_ix_{i+1}, x_{i+2}, . . . , x_n)
 $$
 
 $$
@@ -476,13 +476,13 @@ $$
 $$
 
 $$
-= (d^0_{n+1}\circ d^1_{n+2})(e\otimes x)-^n\sum_{i=2}^{+2}(-1)^i(d_{n+1}^{i-1}\circ d^1_{n+2})(e\otimes x)
+= (d^0_{n+1}\circ d^1_{n+2})(e\otimes x)-\sum^{n+2}_{i=2}(-1)^i(d_{n+1}^{i-1}\circ d^1_{n+2})(e\otimes x)
 $$
 
 so, by formula (6),
 
 $$
-(d_{n+1}\circ h_n)(x) = (d^0_{n+1}\circ d^0_{n+2})(e\otimes x)-^n\sum_{i=2}^{+2}(-1)^i(d^1_{n+1}\circ d_{n+2}^i)(e\otimes x)
+(d_{n+1}\circ h_n)(x) = (d^0_{n+1}\circ d^0_{n+2})(e\otimes x)-\sum^{n+2}_{i=2}(-1)^i(d^1_{n+1}\circ d_{n+2}^i)(e\otimes x)
 $$
 
 But we have

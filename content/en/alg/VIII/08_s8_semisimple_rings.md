@@ -30,7 +30,7 @@ subsections:
       pdf_page: 162
 statements: 30
 exercises: 6
-content_sha256: d36d4c8cf996d54c686843e0dd27ba68ff1750756295301c583914d30925429e
+content_sha256: 23c28681bfd7d9c9ee72eb0129068883fb103a617f494201f60b1bf885e4afbd
 ---
 
 ## § 8. SEMISIMPLE RINGS
@@ -271,7 +271,7 @@ Let $\lambda \in \mathscr{S}$. The isotypical component $\mathfrak{a}_{\lambda}$
 
 and
 
-(2) long(A) = long(A$^o) =_{\lambda}\sum_{\in\mathscr{S}}$ dim$_{D_{\lambda}}S_{\lambda}$.
+(2) long(A) = long(A$^o) =\sum_{\lambda\in\mathscr{S}}$ dim$_{D_{\lambda}}S_{\lambda}$.
 
 The first assertion is the specific case $M = A_s$ of Proposition 6, c) of VIII, p. 139. The equality $[A_s: S_{\lambda}] = [A_d: S^*_{\lambda}]$ follows from Proposition 7 of VIII, p. 140 because the dual of the left A-module $A_s$ is isomorphic to the right A-module $A_d$. By Propositions 8, a) and 9, c), the mapping $a\mapsto a_{S_{\lambda}}$ defines an isomorphism of left A-modules from $\mathfrak{a}_{\lambda}$ to End$_{D_{\lambda}}(S_{\lambda})$. Since $[A_s: S_{\lambda}]$ is, by definition, the length of the left A-module $\mathfrak{a}_{\lambda}$, the relation $[A_s: S_{\lambda}] =$ dim$_{D_{\lambda}}S_{\lambda}$ follows from Lemma 2 of VIII, p. 121. Finally, relation (2) is obtained from (1) by taking the sum over $\lambda$.
 
@@ -390,7 +390,7 @@ Let $(\mathfrak{m}_i)_{i\in I}$ be a family of minimal left ideals of A such tha
 For every $\lambda \in \mathscr{S}$, let $S_{\lambda}$ be an A-module of class $\lambda$, and let $\mathfrak{a}_{\lambda}$ be the isotypical component of type $\lambda$ of the A-module $A_s$. Since A is the direct sum of the family $(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$, there exists a partition $(e_{\lambda})_{\lambda\in\mathscr{S}}$ of 1 such that $\mathfrak{a}_{\lambda}= Ae_{\lambda}$ for every $\lambda \in \mathscr{S}$. For $\lambda \in \mathscr{S}$, denote by $I(\lambda )$ the set of indices $i\in I$ such that the simple A-module $\mathfrak{m}_i$ is of type $\lambda$. By Proposition 4, b) of VIII, p. 65, we have
 
 $$
-\mathfrak{a}_{\lambda}=_{i\in}\bigoplus_{I(\lambda)}\mathfrak{m}_i \tag{3}
+\mathfrak{a}_{\lambda}=\bigoplus_{i\in I(\lambda)}\mathfrak{m}_i \tag{3}
 $$
 
 The idempotent $e_{\lambda}$ is the component of 1 in $\mathfrak{a}_{\lambda}$, so $e_{\lambda}=\sum_{i\in I(\lambda)}\varepsilon_i$.

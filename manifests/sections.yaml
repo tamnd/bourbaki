@@ -41,7 +41,7 @@ books:
               statements: 36
               exercises: 20
               extraction: native
-              content_sha256: 9b219f4e2154568c305673deea67d077c0defae40bd167838cfc651e1aa152b1
+              content_sha256: ac697f997df71a21a380fea64a7c6b4f93aca834b517f5ab70f309315fcedd54
             - kind: section
               section: 3
               title: Simple Modules
@@ -67,7 +67,7 @@ books:
               statements: 43
               exercises: 8
               extraction: native
-              content_sha256: aac16de6a366af6cb7347e6994c93748c1ebdc2f38d141db9a741c9b2abf9b51
+              content_sha256: 42f9f16eb1ec93887462ed29e2bb264b8d96814b402ec5e05d177983dfa7964a
             - kind: section
               section: 5
               title: Commutation
@@ -119,7 +119,7 @@ books:
               statements: 30
               exercises: 6
               extraction: native
-              content_sha256: d36d4c8cf996d54c686843e0dd27ba68ff1750756295301c583914d30925429e
+              content_sha256: 23c28681bfd7d9c9ee72eb0129068883fb103a617f494201f60b1bf885e4afbd
             - kind: section
               section: 9
               title: Radical
@@ -158,7 +158,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native
-              content_sha256: 91d3aa07921e6af15718244f89d3f62397ab1e3fdff365ca76908c40b5a07f52
+              content_sha256: 7eead8a827cd19a864f7bf035706f5eb68985f164f13912bfebadb5f5a82a172
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -184,7 +184,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native
-              content_sha256: 215013a1dff7af8a36cbf96e38e2ea6159c816c9d905e4b95b8a0e96cdc6308f
+              content_sha256: 358de8290737deec1c7651b5e6baa8c71f18e712d56dc33c595a24c187433e1d
             - kind: section
               section: 14
               title: Central Simple Algebras
@@ -223,7 +223,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: 3ce588b586e5986731a569938b298c249afbcb121f99cd19603fa4b20b307b42
+              content_sha256: ce5dcb86f06710300bddb0532307de98ad7d25bb9a2f7b865bce8705e55dce8c
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -236,7 +236,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: f8c39dd8a4e915f5ea9753b465d54067c3bce0380f07e078a26b3fa9434362c0
+              content_sha256: c0b1444f455cdd34569ed2f8be2825a4070ae04520940b26097069276aa2d71f
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -249,7 +249,7 @@ books:
               statements: 10
               exercises: 7
               extraction: native
-              content_sha256: d4700786256eef79802f6ec5428136458c4a1a938987f740bd480d90cf2baa86
+              content_sha256: eb029a5940a0e8efa653e42faea62e419926512b4e5224112cea8769a115a867
             - kind: section
               section: 19
               title: Quaternion Algebras
@@ -288,7 +288,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: f2a1f7c3feea4747a98631a4c6911638bf3bf0dd7c0f2ce0d194fcf66387af42
+              content_sha256: b6724e6b6a4032544c500c5f0faef785c64ee6fedb762d6b22a0ed869caf2869
             - kind: appendix
               section: 1
               title: Algebras without Unit Element

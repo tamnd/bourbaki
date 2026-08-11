@@ -62,7 +62,7 @@ subsections:
       pdf_page: 221
 statements: 38
 exercises: 14
-content_sha256: 91d3aa07921e6af15718244f89d3f62397ab1e3fdff365ca76908c40b5a07f52
+content_sha256: 7eead8a827cd19a864f7bf035706f5eb68985f164f13912bfebadb5f5a82a172
 ---
 
 ## § 11. GROTHENDIECK GROUPS
@@ -372,7 +372,7 @@ Let $\Sigma '$ and $\Sigma ''$ be Jordan–Hölder series of $i(E')$ and $E/i(E'
 Let $\mathscr{C}$ be a hereditary set of classes of modules such that every module of type $\mathscr{C}$ has finite length. Let $\mathscr{S}$ be the set of classes of simple modules belonging to $\mathscr{C}$. Then the family $([S]_{\mathscr{C}})_{S\in\mathscr{S}}$ is a basis of the $\mathbf{Z}$-module $K(\mathscr{C})$, and we have
 
 $$
-[E]_{\mathscr{C}}=_S\sum_{\in\mathscr{S}}\ell_S(E)[S]_{\mathscr{C}} \tag{8}
+[E]_{\mathscr{C}}=\sum_{S\in\mathscr{S}}\ell_S(E)[S]_{\mathscr{C}} \tag{8}
 $$
 
 for every module E of type $\mathscr{C}$.
@@ -734,7 +734,7 @@ We denote the (finite) set of classes of simple A-modules by $\mathscr{S}$; for 
 The Cartan matrix of A is the matrix $(a_{\lambda \mu})$ of the homomorphism of $\mathbf{Z}$-modules $\varepsilon : K_0(A)\rightarrow R(A)$ with respect to bases $([P_{\lambda}]_{\mathscr{P}(A)})_{\lambda\in\mathscr{S}}$ of $K_0(A)$ and $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ of R(A). By definition, we have
 
 $$
-[P_\mu] =_{\lambda}\sum_{\in\mathscr{S}}a_{\lambda \mu}[S_{\lambda}](\mu\in \mathscr{S}) \tag{19}
+[P_\mu] =\sum_{\lambda\in\mathscr{S}}a_{\lambda \mu}[S_{\lambda}](\mu\in \mathscr{S}) \tag{19}
 $$
 
 in the group R(A). In other words, $a_{\lambda \mu}$ is the number of quotients isomorphic to $S_{\lambda}$ in a Jordan–Hölder series of the A-module $P_\mu$.

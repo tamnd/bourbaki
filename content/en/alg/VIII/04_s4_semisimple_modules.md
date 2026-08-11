@@ -46,7 +46,7 @@ subsections:
       pdf_page: 88
 statements: 43
 exercises: 8
-content_sha256: aac16de6a366af6cb7347e6994c93748c1ebdc2f38d141db9a741c9b2abf9b51
+content_sha256: 42f9f16eb1ec93887462ed29e2bb264b8d96814b402ec5e05d177983dfa7964a
 ---
 
 ## § 4. SEMISIMPLE MODULES
@@ -440,7 +440,7 @@ Suppose that M is semisimple and $f$ surjective. Then $f$ induces an isomorphism
 The mapping considered in b) is clearly a group homomorphism, and it is a ring homomorphism when M is equal to N. Let $(f_{\lambda})_{\lambda\in\mathscr{S}}$ be an element of $\prod_{\lambda\in\mathscr{S}}$ Hom(M$_{\lambda},N_{\lambda})$. The unique element of its inverse image under the mapping in b) is the homomorphism $f: M\rightarrow N$ defined by
 
 $$
-f(\sum_{\lambda\in\mathscr{S}}x_{\lambda}=_{\lambda}\sum_{\in\mathscr{S}}f_{\lambda}(x_{\lambda})
+f(\sum_{\lambda\in\mathscr{S}}x_{\lambda}=\sum_{\lambda\in\mathscr{S}}f_{\lambda}(x_{\lambda})
 $$
 
 for every $(x_{\lambda})_{\lambda\in\mathscr{S}}\in \bigoplus_{\lambda}M_{\lambda}$.
@@ -503,7 +503,7 @@ For the remainder of this section, A is a ring, and $\mathscr{S}$ is the set of 
 
 Let M be an A-module. For every $\lambda \in \mathscr{S}$, Hom$_A(S_{\lambda},M)$ is a left vector space over the field $D_{\lambda}$. By VIII, p. 59, and II, §1, No. 6, p. 202, Proposition 6, there exists a unique A-linear mapping, called canonical,
 
-$\alpha_M:_{\lambda}\bigoplus_{\in\mathscr{S}}S_{\lambda}\otimes_{D_{\lambda}}$ Hom$_A(S_{\lambda},M)\rightarrow M$
+$\alpha_M:\bigoplus_{\lambda\in\mathscr{S}}S_{\lambda}\otimes_{D_{\lambda}}$ Hom$_A(S_{\lambda},M)\rightarrow M$
 
 satisfying the relation
 
@@ -589,7 +589,7 @@ In view of the description of the isotypical components of M and $M'$ given in P
 
 Let M be a semisimple A-module and $M'$ an A-module. The mapping $u\mapsto$ (Hom(1$_{S_{\lambda}}, u))_{\lambda\in\mathscr{S}}$ from Hom$_A(M,M')$ to
 
-$_{\lambda}\prod_{\in\mathscr{S}}$ Hom$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$, Hom$_A(S_{\lambda},M'))$
+$\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$, Hom$_A(S_{\lambda},M'))$
 
 is a group isomorphism. When $M'$ is equal to M, it is an isomorphism from the ring End$_A(M)$ to the ring $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M))$.
 
@@ -639,7 +639,7 @@ The simple A-modules are the semisimple A-modules of length 1, and we have the f
 
 for every family $(M_j)_{j\in J}$ of semisimple A-modules. By Proposition 11, we have
 
-(14) long$_A(M) =_{\lambda}\sum_{\in\mathscr{S}}$ dim$_{D_{\lambda}}$ Hom$_A(S_{\lambda},M)$.
+(14) long$_A(M) =\sum_{\lambda\in\mathscr{S}}$ dim$_{D_{\lambda}}$ Hom$_A(S_{\lambda},M)$.
 
 By applying this formula to $M_{\lambda}$, we obtain $[M :\lambda ] =$ long$_A(M_{\lambda})$ for every $\lambda \in \mathscr{S}$.
 
