@@ -1,4 +1,4 @@
-version: 2
+version: 5
 terms:
     - en: ring
       vi: vành
@@ -339,8 +339,6 @@ terms:
       vi: k-tuyến tính
     - en: k-vector space
       vi: không gian vectơ k
-    - en: respect
-      vi: bảo toàn
     - en: l-algebra
       vi: đại số trên l
     - en: linear form
@@ -1118,6 +1116,12 @@ terms:
       vi: ước của không
     - en: algebraic closure
       vi: bao đóng đại số
+    - en: common zero
+      vi: không điểm chung
+      note: Added by hand after a run got it wrong. The glossary has "zero" as "không", which is right for the 53 places the corpus says "is zero" and wrong here, where a zero is a root of a polynomial and Vietnamese calls that "không điểm". The row for the word was pushing the translator to write "không có không chung", which is not Vietnamese for anything. Pinned as the phrase, which masks the word inside it. It occurs once in the corpus so far and the appendix it occurs in is the Nullstellensatz, which is about nothing else.
+    - en: algebraic over
+      vi: đại số trên
+      note: Added by hand after a run got it wrong. "the elements of S are all algebraic over K" came back as "nguyên đại số trên K", which reads as algebraic integer over K and is not what the sentence says. An earlier run of the same line said "nguyên trên K", integral, which is a different theorem. The phrase occurs 8 times in the English and the word on its own occurs 44 times, so it is worth pinning as the phrase rather than as the adjective.
     - en: azumaya a-algebra
       vi: đại số A-Azumaya
     - en: can identify
@@ -1630,4 +1634,4 @@ terms:
       vi: Hoán tập và đối ngẫu
     - en: nullstellensatz
       vi: Nullstellensatz
-      note: 'Added by hand, and the rendering is the German word itself. The appendix heading came back as "ĐỊNH LÝ ZEROS CỦA HILBERT" on one run and "ĐỊNH LÝ NULLSTELLENSATZ CỦA HILBERT" on another, so the term needed pinning rather than leaving to the run. Vietnamese mathematical writing keeps Nullstellensatz as it stands, the way it keeps Nakayama and Noether, and "định lý zeros" is a half translation that names nothing.'
+      note: Added by hand, and the rendering is the German word itself. The appendix heading came back as "ĐỊNH LÝ ZEROS CỦA HILBERT" on one run and "ĐỊNH LÝ NULLSTELLENSATZ CỦA HILBERT" on another, so the term needed pinning rather than leaving to the run. Vietnamese mathematical writing keeps Nullstellensatz as it stands, the way it keeps Nakayama and Noether, and "định lý zeros" is a half translation that names nothing.

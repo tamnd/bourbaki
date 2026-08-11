@@ -17,11 +17,11 @@ Audited: 1 chapter, 27 sections, 317 exercises, 510 extracted pages, 1023 tags, 
 | mathematics | 4 | 1 | 1 | M01 (5), M03 (7) |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | R01 (41) |
-| translation | 6 | 1 | 0 | none |
+| translation | 6 | 2 | 1 | none |
 | solutions | 0 | 0 | 4 | none |
-| hygiene | 6 | 0 | 0 | none |
+| hygiene | 7 | 0 | 0 | none |
 
-12 hard findings and 95 soft, over 44 rules that ran and 6 that could not.
+12 hard findings and 95 soft, over 46 rules that ran and 7 that could not.
 
 ## Rules that did not run
 
@@ -35,6 +35,7 @@ should trust.
 - **X03** every tag a solution says it uses exists: the corpus has no solutions yet
 - **X04** no provider leakage and no meta-commentary: the corpus has no solutions yet
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
+- **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
 
 ## M01 every math span is closed (5)
 
