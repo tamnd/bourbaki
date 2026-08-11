@@ -2,7 +2,7 @@
 
 Sections read off public ChatGPT share links, before anything has checked them.
 
-This is not corpus. It is raw material, and it is kept in a tree of its own so that it cannot be mistaken for corpus by a person or by a program. Every audit rule the project has runs over `content/`, so a file dropped in there passes all 56 of them by default. Nothing in here has passed anything.
+This is not corpus. It is raw material, and it is kept in a tree of its own so that it cannot be mistaken for corpus by a person or by a program. Every audit rule the project has runs over `content/`, so a file dropped in there passes all 57 of them by default. Nothing in here has passed anything.
 
 ## Where it comes from
 

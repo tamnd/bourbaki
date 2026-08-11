@@ -14,14 +14,14 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (113) |
-| mathematics | 6 | 1 | 1 | none |
+| mathematics | 6 | 2 | 1 | M09 (189) |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | R01 (37) |
 | translation | 7 | 2 | 1 | L06 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 152 soft, over 49 rules that ran and 7 that could not.
+0 hard findings and 341 soft, over 50 rules that ran and 7 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -37,6 +37,38 @@ should trust.
 - **X04** no provider leakage and no meta-commentary: the corpus has no solutions yet
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
+
+## M09 no base carries two superscripts or two subscripts (189)
+
+Soft, mathematics.
+
+- `content/en/alg/VIII/05_s5_commutation.md:420` two of one script against one base, which TeX will not set: _i^n_{=1}
+- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:352` two of one script against one base, which TeX will not set: ^-_W^1
+- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:352` two of one script against one base, which TeX will not set: ^-_V^1
+- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:362` two of one script against one base, which TeX will not set: ^-_V^1
+- `content/en/alg/VIII/07_s7_simple_rings.md:170` two of one script against one base, which TeX will not set: ^(_s^{\mathfrak{a})}
+- `content/en/alg/VIII/08_s8_semisimple_rings.md:164` two of one script against one base, which TeX will not set: ^m_{\lambda}^{(\lambda)}
+- `content/en/alg/VIII/10_s10_modules_over_an_artinian_ring.md:126` two of one script against one base, which TeX will not set: ^{([P:}_{\lambda}^{\lambda])}
+- `content/en/alg/VIII/10_s10_modules_over_an_artinian_ring.md:130` two of one script against one base, which TeX will not set: ^{([P:}_{\lambda}^{\lambda])}
+- `content/en/alg/VIII/10_s10_modules_over_an_artinian_ring.md:130` two of one script against one base, which TeX will not set: ^{([P:}_{\lambda}^{\lambda])}
+- `content/en/alg/VIII/10_s10_modules_over_an_artinian_ring.md:136` two of one script against one base, which TeX will not set: ^m_{\lambda}^{(\lambda)}
+- `content/en/alg/VIII/11_s11_grothendieck_groups.md:176` two of one script against one base, which TeX will not set: ^n_{i=0}^{+1}
+- `content/en/alg/VIII/11_s11_grothendieck_groups.md:446` two of one script against one base, which TeX will not set: _i^n_{=1}
+- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:162` two of one script against one base, which TeX will not set: _i^n_{=1}
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:126` two of one script against one base, which TeX will not set: _i^r_{=1}
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:210` two of one script against one base, which TeX will not set: _i^r_{=1}
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:352` two of one script against one base, which TeX will not set: _n^i_{-1}
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:352` two of one script against one base, which TeX will not set: _n^{j-}_-^1_1
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:358` two of one script against one base, which TeX will not set: _n^i_{-1}
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:358` two of one script against one base, which TeX will not set: _n^i_{-1}
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:362` two of one script against one base, which TeX will not set: ^0_0^{\leqslant}_{\leqslant}
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:362` two of one script against one base, which TeX will not set: ^{i<j}_{i<j}^{\leqslant}_{\leqslant}^n_n
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:362` two of one script against one base, which TeX will not set: _n^{j-}_-^1_1
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:362` two of one script against one base, which TeX will not set: ^0_0^{\leqslant}_{\leqslant}^j_j^{\leqslant}_{\leqslant}
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:362` two of one script against one base, which TeX will not set: ^i_i^{\leqslant}_{\leqslant}^n_n^-_-^1_1
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:362` two of one script against one base, which TeX will not set: _n^i_{-1}
+
+and 164 more, which `bourbaki audit -only M09` prints in full.
 
 ## R01 every in-corpus reference resolves (37)
 
