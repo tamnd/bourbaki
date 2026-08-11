@@ -184,7 +184,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native
-              content_sha256: b15c17c2b8a8011674e1e0212ee656622737d9e5d5916737927d3a7664b14eb5
+              content_sha256: 215013a1dff7af8a36cbf96e38e2ea6159c816c9d905e4b95b8a0e96cdc6308f
             - kind: section
               section: 14
               title: Central Simple Algebras
@@ -223,7 +223,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: ebd7e8eece7c424f3ed9dcc91462fa345d60a1e3b0ddc8994bba6f89de1d899d
+              content_sha256: 3ce588b586e5986731a569938b298c249afbcb121f99cd19603fa4b20b307b42
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -236,7 +236,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: 4014e372bf295b2bfb9d50cf6412bca5a88f2c421aa6a8f632e8a6af0950611e
+              content_sha256: f8c39dd8a4e915f5ea9753b465d54067c3bce0380f07e078a26b3fa9434362c0
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -275,7 +275,7 @@ books:
               statements: 31
               exercises: 6
               extraction: native
-              content_sha256: 389167b74f75d049c2ec961babd0124f4e6c6b6e1e3721a154859cd3f500011d
+              content_sha256: 7e2ccd5502e156c2c28d736280e40b2421899df1c93483c8d33399cddccfb6b4
             - kind: section
               section: 21
               title: Linear Representations of Finite Groups
@@ -288,7 +288,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: 86e10c5c95efe735bb807b7c68296ac5f9953abf696d0687c901c1629d6546e6
+              content_sha256: f2a1f7c3feea4747a98631a4c6911638bf3bf0dd7c0f2ce0d194fcf66387af42
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
