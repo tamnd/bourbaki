@@ -1,6 +1,6 @@
 {
   "version": "dev",
-  "commit": "2b959094b052203544f1a70615a849370fd957fa",
+  "commit": "b51555770ef5f5c48f8766db839b4aaabc8e353c",
   "root": "/Users/apple/github/tamnd/bourbaki",
   "langs": [
     "en",
@@ -154,7 +154,7 @@
     {
       "id": "M08",
       "group": "mathematics",
-      "hard": false,
+      "hard": true,
       "title": "no matrix is left flattened into a pair of scripts",
       "found": 0
     },
