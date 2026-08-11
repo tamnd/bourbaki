@@ -30,7 +30,7 @@ subsections:
       pdf_page: 162
 statements: 30
 exercises: 6
-content_sha256: 64eab2280fa2c91b04d77ab2d18a00a4d24c64ee0b127b6983192ba321bd8b11
+content_sha256: 725b6017435a01db686f5e73f7d66e05ef0ab6eadd6ee9d5337a2b7642692bd6
 ---
 
 ## § 8. SEMISIMPLE RINGS
@@ -223,7 +223,7 @@ For any $\lambda \in \mathscr{S}$, we denote the isotypical component of type $\
 
 #### Proposition 9 {#alg-viii-s8-prop-9 .statement tag=009H}
 
-a) Order the set $\mathfrak{P}(\mathscr{S})$ of subsets of $\mathscr{S}$ and the set $\mathscr{B}_A$ of two-sided ideals of A by inclusion. The mapping $Λ\mapsto \mathfrak{a}_{\Lambda}$ is an isomorphism of ordered sets from $\mathfrak{P}(\mathscr{S})$ to $\mathscr{B}_A$.
+a) Order the set $\mathfrak{P}(\mathscr{S})$ of subsets of $\mathscr{S}$ and the set $\mathscr{B}_A$ of two-sided ideals of A by inclusion. The mapping $\Lambda\mapsto \mathfrak{a}_{\Lambda}$ is an isomorphism of ordered sets from $\mathfrak{P}(\mathscr{S})$ to $\mathscr{B}_A$.
 
 b) The minimal two-sided ideals of A are the ideals $\mathfrak{a}_{\lambda}$.
 
@@ -233,7 +233,7 @@ d) For every $\lambda \in \mathscr{S}$, the canonical mapping from A to $A/\math
 
 Assertion a) follows from Proposition 8, d) of VIII, p. 87 applied to the A-module $A_s$. It follows that the minimal two-sided ideals of A are the $\mathfrak{a}_{\lambda}$ and that the maximal two-sided ideals are the ideals $\mathfrak{c}_{\lambda}=\mathfrak{a}_{\mathscr{S}\lambda}$ (for $\lambda \in \mathscr{S})$.
 
-It remains to show the equality of $\mathfrak{b}_{\lambda}$ and $\mathfrak{c}_{\lambda}$ for every $\lambda \in \mathscr{S}$. Let $\lambda$ and $µ$ be distinct in $\mathscr{S}$. The A-submodule $\mathfrak{a}_µS_{\lambda}$ of $S_{\lambda}$ is the union of the images of the linear mappings $a\mapsto ax$ from $\mathfrak{a}_µ$ to $S_{\lambda}$ for $x\in S_{\lambda}$. Consequently, it is zero, and we have $\mathfrak{a}_µ\subset \mathfrak{b}_{\lambda}$. We therefore have $\mathfrak{c}_{\lambda}\subset \mathfrak{b}_{\lambda}$, and finally $\mathfrak{c}_{\lambda}=\mathfrak{b}_{\lambda}$ because $\mathfrak{c}_{\lambda}$ is a maximal two-sided ideal of A and $\mathfrak{b}_{\lambda}$ is distinct from A.
+It remains to show the equality of $\mathfrak{b}_{\lambda}$ and $\mathfrak{c}_{\lambda}$ for every $\lambda \in \mathscr{S}$. Let $\lambda$ and $\mu$ be distinct in $\mathscr{S}$. The A-submodule $\mathfrak{a}_\mu S_{\lambda}$ of $S_{\lambda}$ is the union of the images of the linear mappings $a\mapsto ax$ from $\mathfrak{a}_\mu$ to $S_{\lambda}$ for $x\in S_{\lambda}$. Consequently, it is zero, and we have $\mathfrak{a}_\mu\subset \mathfrak{b}_{\lambda}$. We therefore have $\mathfrak{c}_{\lambda}\subset \mathfrak{b}_{\lambda}$, and finally $\mathfrak{c}_{\lambda}=\mathfrak{b}_{\lambda}$ because $\mathfrak{c}_{\lambda}$ is a maximal two-sided ideal of A and $\mathfrak{b}_{\lambda}$ is distinct from A.
 
 #### Corollary {#alg-viii-s8-n3-cor-1 .statement tag=009I}
 
@@ -299,7 +299,7 @@ Thus, to every element $\lambda$ of $\mathscr{S}$ (A), there correspond the clas
 
 Let M be a module over the semisimple ring A and $\mathscr{S}_M\subset \mathscr{S}$ the support of M. Then the annihilator Ann(M) of M is the two-sided ideal $\sum_{\lambda\in\mathscr{S} \mathscr{S}_M}\mathfrak{a}_{\lambda}$, and the trace ideal $\tau (M)$ of M is the two-sided ideal $\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$. In particular, A is the direct sum of Ann(M) and $\tau (M)$.
 
-By definition (VIII, p. 84$),\mathscr{S}_M$ consists of the classes of simple submodules of M. Since the module M is semisimple, the annihilator of M is the intersection of the annihilators $\mathfrak{b}_{\lambda}$ of the modules of class $\lambda$, for $\lambda$ running through $\mathscr{S}_M$. Now, we have $\mathfrak{b}_{\lambda}=\sum_{µ\not=\lambda}\mathfrak{a}_µ$ for every $\lambda \in \mathscr{S}$ (Proposition 9).
+By definition (VIII, p. 84$),\mathscr{S}_M$ consists of the classes of simple submodules of M. Since the module M is semisimple, the annihilator of M is the intersection of the annihilators $\mathfrak{b}_{\lambda}$ of the modules of class $\lambda$, for $\lambda$ running through $\mathscr{S}_M$. Now, we have $\mathfrak{b}_{\lambda}=\sum_{\mu\not=\lambda}\mathfrak{a}_\mu$ for every $\lambda \in \mathscr{S}$ (Proposition 9).
 
 Since A is the direct sum of the family $(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$, the annihilator of M is indeed equal to $\sum_{\lambda\in\mathscr{S} \mathscr{S}_M}\mathfrak{a}_{\lambda}$.
 
@@ -405,13 +405,13 @@ The idempotent $e_{\lambda}$ is the component of 1 in $\mathfrak{a}_{\lambda}$, 
 
 Suppose that the ring A is semisimple.
 
-a) For every $\lambda \in \mathscr{S},e_{\lambda}$ is the unique element of the center Z of A satisfying the relations $(e_{\lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$ and $(e_{\lambda})_{S_µ}= 0$ for $µ\not=\lambda$.
+a) For every $\lambda \in \mathscr{S},e_{\lambda}$ is the unique element of the center Z of A satisfying the relations $(e_{\lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$ and $(e_{\lambda})_{S_\mu}= 0$ for $\mu\not=\lambda$.
 
 b) The indecomposable idempotents in the ring Z are the $e_{\lambda}$, and the minimal ideals of Z are the $Ze_{\lambda}$ for $\lambda \in \mathscr{S}$.
 
 c) Let M be an A-module and $(M_{\lambda})_{\lambda\in\mathscr{S}}$ the family of its isotypical components. The family of projectors associated with the decomposition of M into the direct sum of the $M_{\lambda}$ (VIII, p. 65) is $((e_{\lambda})_M)_{\lambda\in\mathscr{S}}$, and we have $M_{\lambda}=\mathfrak{a}_{\lambda}M$ for every $\lambda \in \mathscr{S}$.
 
-Let $\lambda$ and $µ$ be distinct in $\mathscr{S}$. We have $e_{\lambda}\in \mathfrak{a}_{\lambda}$, and $\mathfrak{a}_{\lambda}$ is contained in the annihilator $\mathfrak{b}_µ$ of the A-module $S_µ$ (VIII, p. 142, Proposition 9). We therefore have $(e_{\lambda})_{S_µ}= 0$. The relation $(e_{\lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$ follows because we have $1 =\sum_{\nu\in\mathscr{S}}e_{\nu}$. Assertion a) is then a consequence of Proposition 8 of VIII, p. 141.
+Let $\lambda$ and $\mu$ be distinct in $\mathscr{S}$. We have $e_{\lambda}\in \mathfrak{a}_{\lambda}$, and $\mathfrak{a}_{\lambda}$ is contained in the annihilator $\mathfrak{b}_\mu$ of the A-module $S_\mu$ (VIII, p. 142, Proposition 9). We therefore have $(e_{\lambda})_{S_\mu}= 0$. The relation $(e_{\lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$ follows because we have $1 =\sum_{\nu\in\mathscr{S}}e_{\nu}$. Assertion a) is then a consequence of Proposition 8 of VIII, p. 141.
 
 Let $\lambda$ be in $\mathscr{S}$. The two-sided ideal $\mathfrak{a}_{\lambda}$ of A consists of the elements $x$ such that $x=xe_{\lambda}$; we therefore have $Z\cap \mathfrak{a}_{\lambda}= Ze_{\lambda}$, and therefore b) by Proposition 10, b).
 

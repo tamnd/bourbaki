@@ -46,7 +46,7 @@ subsections:
       pdf_page: 88
 statements: 43
 exercises: 8
-content_sha256: bda29ad6163475acd65e25c10f643007060b9bdb9d889c2ce464d921dc23c66b
+content_sha256: 7c129df3e6bb57216018bf396d3ebcfea307672b0f7b39a7d0b5865974a0a165
 ---
 
 ## § 4. SEMISIMPLE MODULES
@@ -375,7 +375,7 @@ d) For every submodule N of M and every $\lambda \in \mathscr{S}$, we have $N_{\
 
 Since M is semisimple, it is the sum of the family $(M_{\lambda})_{\lambda\in\mathscr{S}}$; let us prove that this sum is direct. Let $\lambda \in \mathscr{S}$. Denote the sum of the family
 
-$(M_µ)_{µ\in\mathscr{S}\{\lambda\}}$ by $M'_{\lambda}$. The module $M'_{\lambda}$ is the direct sum of a family of simple modules not isomorphic to $\lambda$ (VIII, p. 56, Theorem 1). By Corollary 3 of Theorem 1 of VIII, p. 56, $M'_{\lambda}$ does not contain any simple submodules of class $\lambda$. We consequently have $M_{\lambda}\cap M'_{\lambda}= 0$. Assertion a) is therefore proved. By construction, we have $M_{\lambda}\supset \bigoplus_{i\in I(\lambda)}N_i$, so assertion b) follows from Remark 1 of II, §1, No. 8, p. 208.
+$(M_\mu)_{\mu\in\mathscr{S}\{\lambda\}}$ by $M'_{\lambda}$. The module $M'_{\lambda}$ is the direct sum of a family of simple modules not isomorphic to $\lambda$ (VIII, p. 56, Theorem 1). By Corollary 3 of Theorem 1 of VIII, p. 56, $M'_{\lambda}$ does not contain any simple submodules of class $\lambda$. We consequently have $M_{\lambda}\cap M'_{\lambda}= 0$. Assertion a) is therefore proved. By construction, we have $M_{\lambda}\supset \bigoplus_{i\in I(\lambda)}N_i$, so assertion b) follows from Remark 1 of II, §1, No. 8, p. 208.
 
 Assertion c) follows from a) and Proposition 23 of II, §1, No. 12, p. 221.
 

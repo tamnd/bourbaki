@@ -1,0 +1,56 @@
+#!/bin/sh
+#
+# The hygiene rules, run before the commit rather than after the push.
+#
+# H01 to H05 are the rules about what is in the repository rather than about
+# what the mathematics says: no PDF, no page image outside figures/, nothing
+# over 512 KB, nothing secret shaped, LF endings with one trailing newline. All
+# five are cheap and all five are about a mistake that is a nuisance to undo
+# once it is in the history, which is the case for a hook and not for CI.
+#
+# H06 is left out. It reads the whole corpus to check the README coverage table
+# and it is the one hygiene rule that is slow, and a hook that costs a second
+# every commit is a hook people turn off.
+#
+# Install it with: bourbaki repo init-hooks
+#
+# It reads the index rather than the working tree, because git ls-files is the
+# index, so what it checks is what is about to be committed and not what happens
+# to be lying about in the directory.
+
+set -e
+
+root=$(git rev-parse --show-toplevel)
+
+# A sibling checkout of the solver first, then the installed binary, and
+# otherwise nothing.
+#
+# The checkout comes first because whoever has one is working on both
+# repositories at once, and the rules that matter to them are the ones in their
+# working tree and not the ones in whatever they last installed. An installed
+# binary goes stale quietly: the first version of this hook preferred it, found
+# one that predated bourbaki audit, and reported the corpus as failing when what
+# had happened was that the binary did not know the command.
+#
+# Skipping is right when neither is there. Somebody fixing a typo in the README
+# should not be stopped by a Go toolchain they do not have, and CI runs the same
+# rules on the same commit anyway.
+if [ -d "$root/../bourbaki-solver" ]; then
+	run="go run ./cmd/bourbaki"
+	cd "$root/../bourbaki-solver"
+elif command -v bourbaki >/dev/null 2>&1; then
+	run="bourbaki"
+else
+	echo "pre-commit: no bourbaki binary and no sibling bourbaki-solver checkout, skipping the hygiene rules" >&2
+	exit 0
+fi
+
+BOURBAKI_CORPUS="$root"
+export BOURBAKI_CORPUS
+
+if ! $run audit -only H01,H02,H03,H04,H05; then
+	echo >&2
+	echo "pre-commit: the hygiene rules above failed. Fix them, or commit with --no-verify" >&2
+	echo "and say in the message why." >&2
+	exit 1
+fi

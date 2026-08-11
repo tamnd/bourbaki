@@ -40,8 +40,8 @@ jobs:
   # and compared with the ones committed. A parser that gives a different answer
   # on the same input, or a section file edited by hand, fails the build.
   #
-  # The corpus audit proper, tags resolved and figures present and prose read back
-  # against the page, is bourbaki audit. It arrives with M6 and joins this job.
+  # The corpus audit proper, tags resolved and figures present and the formulae
+  # read back, is bourbaki audit, and it runs here too.
   corpus:
     runs-on: ubuntu-latest
     steps:
@@ -80,3 +80,43 @@ jobs:
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: go run ./cmd/bourbaki refs build -check -min 90
+      # The audit is not gated on its exit status, and that is deliberate. It
+      # exits on the count of hard findings, the corpus has twelve, and every one
+      # of them is a page where the text layer lost half of a display and no
+      # program can put it back: they are waiting on the OCR repair pass, which
+      # reads the printed page. Gating on the count would mean a red build until
+      # then, and a build that is always red tells nobody anything.
+      #
+      # What is gated is reports/audit.md. It is regenerated here and diffed
+      # against the one committed, so the twelve are enumerated in the repository
+      # by file and line, a thirteenth fails the build, and fixing one fails the
+      # build until the report is regenerated and committed. The report is the
+      # list, and this is what keeps the list honest.
+      - name: audit
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: |
+          go run ./cmd/bourbaki audit -report reports/audit.md -json "$RUNNER_TEMP/audit.json" || true
+          test -f "$RUNNER_TEMP/audit.json"
+      # Every finding carries a file and a line, so it can be put on the diff
+      # where somebody reviewing the change will see it instead of in a log they
+      # have to go and open.
+      - name: annotate
+        run: |
+          python3 - "$RUNNER_TEMP/audit.json" <<'PY'
+          import json, sys
+          d = json.load(open(sys.argv[1]))
+          for f in d.get("findings", []):
+              level = "error" if f.get("hard") else "warning"
+              where = ""
+              if f.get("file"):
+                  where = ",file=%s" % f["file"]
+                  if f.get("line"):
+                      where += ",line=%d" % f["line"]
+              msg = f["message"].replace("\n", " ")
+              print("::%s title=%s%s::%s" % (level, f["check"], where, msg))
+          print("%d hard findings and %d soft" % (d["hard"], d["soft"]))
+          PY
+      - name: the audit report is up to date
+        run: git diff --exit-code -- reports/audit.md

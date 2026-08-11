@@ -42,7 +42,7 @@ subsections:
       pdf_page: 128
 statements: 40
 exercises: 8
-content_sha256: bd9e56131a42521cd7086818affdc7acad2873f2051e0e67df237fd2555236eb
+content_sha256: 431acdaed1fd9c52d8990f2716b199da988387715e43e6ee6eb867dc198d231e
 ---
 
 ## § 6. MORITA EQUIVALENCE OF MODULES AND ALGEBRAS
@@ -53,35 +53,35 @@ In this section, $k$ denotes a commutative ring.
 
 Let A and B be $k$-algebras. Recall (III, §4, No. 3, p. 466) that a bimodule over the algebras A and B is an $(A$, B)-bimodule P on which the two $k$-module structures deduced from the A- and B-module structures coincide. To avoid any ambiguity, we say that P is an $(A,B)_k$-bimodule. Let P be an $(A,B)_k$-bimodule. We denote by $P^*$ the dual Hom$_A(P,A)$ of the left A-module underlying P. It is a $(B,A)_k$-bimodule (II, §1, No. 14, p. 226); for $a\in A$, $b\in B,x\in P$, and $x^*\in P^*$, we have (1) $\langle x, bx^*a\rangle =\langle xb, x^*\rangle a$.
 
-We denote by $_sA_d$ the algebra A viewed as an $(A,A)_k$-bimodule (loc. cit.) and by $Λ : P\otimes_BP^*\rightarrow_sA_d$ the homomorphism of $(A,A)_k$-bimodules determined by (2) $Λ(x\otimes x^*) =\langle x, x^*\rangle$
+We denote by $_sA_d$ the algebra A viewed as an $(A,A)_k$-bimodule (loc. cit.) and by $\Lambda : P\otimes_BP^*\rightarrow_sA_d$ the homomorphism of $(A,A)_k$-bimodules determined by (2) $\Lambda(x\otimes x^*) =\langle x, x^*\rangle$
 
-for $x\in P$ and $x^*\in P^*$. We denote by $\widetilde{P}$ the dual Hom$_B(P,B)$ of the right B-module underlying P; it is a $(B,A)_k$-bimodule. We denote by $\widetilde{Λ} :\widetilde{P}\otimes_AP\rightarrow_sB_d$ the homomorphism of $(B,B)_k$-bimodules determined by (3) $\widetilde{Λ}(\widetilde{x}\otimes x) =\langle \widetilde{x}, x\rangle$
+for $x\in P$ and $x^*\in P^*$. We denote by $\widetilde{P}$ the dual Hom$_B(P,B)$ of the right B-module underlying P; it is a $(B,A)_k$-bimodule. We denote by $\widetilde{\Lambda} :\widetilde{P}\otimes_AP\rightarrow_sB_d$ the homomorphism of $(B,B)_k$-bimodules determined by (3) $\widetilde{\Lambda}(\widetilde{x}\otimes x) =\langle \widetilde{x}, x\rangle$
 
 for $x\in P$ and $\widetilde{x}\in \widetilde{P}$.
 
-Now, suppose that the mapping $b\mapsto b_P$ is a bijection from B to End$_A(P)$; it is then an isomorphism from B to the opposite algebra of End$_A(P)$. The canonical homomorphism of $\mathbf{Z}$-modules from $P^*\otimes_AP$ to End$_A(P)$ (II, §4, No. 2, p. 271) then determines a homomorphism of $\mathbf{Z}$-modules $Θ : P^*\otimes_AP\rightarrow$ B defined by (4) $xΘ(x^*\otimes y) =\langle x, x^*\rangle y$ for $x, y\in P$ and $x^*\in P^*$. Because of (1), this homomorphism is $(B$, B)-linear, and we have (5) $Θ(x^*\otimes y)y^*=x^*\langle y, y^*\rangle$ for $y\in P$ and $x^*, y^*\in P^*$. From (4) and (5), we deduce the following equalities in the $(B,B)_k$-bimodule $P^*\otimes_AP:$
+Now, suppose that the mapping $b\mapsto b_P$ is a bijection from B to End$_A(P)$; it is then an isomorphism from B to the opposite algebra of End$_A(P)$. The canonical homomorphism of $\mathbf{Z}$-modules from $P^*\otimes_AP$ to End$_A(P)$ (II, §4, No. 2, p. 271) then determines a homomorphism of $\mathbf{Z}$-modules $\Theta : P^*\otimes_AP\rightarrow$ B defined by (4) $x\Theta(x^*\otimes y) =\langle x, x^*\rangle y$ for $x, y\in P$ and $x^*\in P^*$. Because of (1), this homomorphism is $(B$, B)-linear, and we have (5) $\Theta(x^*\otimes y)y^*=x^*\langle y, y^*\rangle$ for $y\in P$ and $x^*, y^*\in P^*$. From (4) and (5), we deduce the following equalities in the $(B,B)_k$-bimodule $P^*\otimes_AP:$
 
 $$
-(y^*\otimes x)Θ(x^*\otimes y) =y^*\otimes  \langle x, x^*\rangle y=y^*\langle x, x^*\rangle  \otimes y= Θ(y^*\otimes x)(x^*\otimes y)
+(y^*\otimes x)\Theta(x^*\otimes y) =y^*\otimes  \langle x, x^*\rangle y=y^*\langle x, x^*\rangle  \otimes y= \Theta(y^*\otimes x)(x^*\otimes y)
 $$
 
-for $x, y\in P$ and $x^*, y^*\in P^*$, and therefore (6) $sΘ(t) = Θ(s)t$ for $s, t\in P^*\otimes_AP$. Likewise, for $x, y$ in P and $x^*, y^*$ in $P^*$, we deduce the following equalities in the $(A,A)_k$-bimodule $P\otimes_BP^*$ from (4) and (5):
+for $x, y\in P$ and $x^*, y^*\in P^*$, and therefore (6) $s\Theta(t) = \Theta(s)t$ for $s, t\in P^*\otimes_AP$. Likewise, for $x, y$ in P and $x^*, y^*$ in $P^*$, we deduce the following equalities in the $(A,A)_k$-bimodule $P\otimes_BP^*$ from (4) and (5):
 
 $$
-(x\otimes x^*)\langle y, y^*\rangle =x\otimes Θ(x^*\otimes y)y^*=xΘ(x^*\otimes y)\otimes y^*=\langle x, x^*\rangle (y\otimes y^*)
+(x\otimes x^*)\langle y, y^*\rangle =x\otimes \Theta(x^*\otimes y)y^*=x\Theta(x^*\otimes y)\otimes y^*=\langle x, x^*\rangle (y\otimes y^*)
 $$
 
-and therefore (7) $uΛ(v) = Λ(u)v$ for $u, v\in P\otimes_BP^*$.
+and therefore (7) $u\Lambda(v) = \Lambda(u)v$ for $u, v\in P\otimes_BP^*$.
 
-For any element $x^*$ of $P^*$, denote the B-linear mapping $x\mapsto Θ(x^*\otimes x)$ from P to B by $\sigma (x^*)$. We thus define a mapping $\sigma$ from $P^*$ to $\widetilde{P}$ that is $(B$, A)-linear and satisfies, by definition, (8) $Θ(x^*\otimes y) =\langle \sigma (x^*), y\rangle$ for $x^*\in P^*$ and $y\in P$. By the definition of $\widetilde{Λ}$, we therefore have (9) $Θ =\widetilde{Λ}\circ (\sigma \otimes 1_P)$.
+For any element $x^*$ of $P^*$, denote the B-linear mapping $x\mapsto \Theta(x^*\otimes x)$ from P to B by $\sigma (x^*)$. We thus define a mapping $\sigma$ from $P^*$ to $\widetilde{P}$ that is $(B$, A)-linear and satisfies, by definition, (8) $\Theta(x^*\otimes y) =\langle \sigma (x^*), y\rangle$ for $x^*\in P^*$ and $y\in P$. By the definition of $\widetilde{\Lambda}$, we therefore have (9) $\Theta =\widetilde{\Lambda}\circ (\sigma \otimes 1_P)$.
 
-Suppose that the mapping $a\mapsto a_P$ from A to End$_B(P)$ is bijective; it is then an algebra isomorphism. Analogously, we define a homomorphism of $(A,A)_k$-bimodules $\widetilde{Θ} : P\otimes_B\widetilde{P}\rightarrow_sA_d$ by setting (10) $\widetilde{Θ}(x\otimes \widetilde{y})y=x\langle \widetilde{y}, y\rangle$ for $x, y\in P$ and $\widetilde{y}\in \widetilde{P}$. We also define a homomorphism of $(B,A)_k$-bimodules $\widetilde{\sigma}:\widetilde{P}\rightarrow P^*$ by setting (11) $\widetilde{Θ}(x\otimes \widetilde{y}) =\langle x,\widetilde{\sigma}(\widetilde{y})\rangle$ for $x\in P,\widetilde{y}\in \widetilde{P}$. We have (12) $\widetilde{Θ} = Λ\circ (1_P\otimes \widetilde{\sigma})$.
+Suppose that the mapping $a\mapsto a_P$ from A to End$_B(P)$ is bijective; it is then an algebra isomorphism. Analogously, we define a homomorphism of $(A,A)_k$-bimodules $\widetilde{\Theta} : P\otimes_B\widetilde{P}\rightarrow_sA_d$ by setting (10) $\widetilde{\Theta}(x\otimes \widetilde{y})y=x\langle \widetilde{y}, y\rangle$ for $x, y\in P$ and $\widetilde{y}\in \widetilde{P}$. We also define a homomorphism of $(B,A)_k$-bimodules $\widetilde{\sigma}:\widetilde{P}\rightarrow P^*$ by setting (11) $\widetilde{\Theta}(x\otimes \widetilde{y}) =\langle x,\widetilde{\sigma}(\widetilde{y})\rangle$ for $x\in P,\widetilde{y}\in \widetilde{P}$. We have (12) $\widetilde{\Theta} = \Lambda\circ (1_P\otimes \widetilde{\sigma})$.
 
 #### Proposition 1 {#alg-viii-s6-prop-1 .statement tag=006R}
 
-Suppose that the mappings $b\mapsto b_P$ from B to End$_A(P)$ and $a\mapsto a_P$ from A to End$_B(P)$ are bijective. Then $\sigma$ and $\widetilde{\sigma}$ are inverse isomorphisms, and we have the relations (13) $Λ =\widetilde{Θ}\circ (1_P\otimes \sigma )$, (14) $\widetilde{Λ} = Θ\circ (\widetilde{\sigma}\otimes 1_P)$.
+Suppose that the mappings $b\mapsto b_P$ from B to End$_A(P)$ and $a\mapsto a_P$ from A to End$_B(P)$ are bijective. Then $\sigma$ and $\widetilde{\sigma}$ are inverse isomorphisms, and we have the relations (13) $\Lambda =\widetilde{\Theta}\circ (1_P\otimes \sigma )$, (14) $\widetilde{\Lambda} = \Theta\circ (\widetilde{\sigma}\otimes 1_P)$.
 
-For $x\in P,x^*\in P^*$, and $y\in P$, by relations (4), (8), (10), and (11), we have $(15)\langle x, x^*\rangle y=xΘ(x^*\otimes y) =x\langle \sigma (x^*), y\rangle =\widetilde{Θ}(x\otimes \sigma (x^*))y=\langle x,\widetilde{\sigma}(\sigma (x^*))\rangle y$. Likewise, for $x\in P,\widetilde{y}\in \widetilde{P}$, and $y\in P$, we have (16) $x\langle \widetilde{y}, y\rangle =\widetilde{Θ}(x\otimes \widetilde{y})y=\langle x,\widetilde{\sigma}(\widetilde{y})\rangle y=xΘ (\widetilde{\sigma}(\widetilde{y})\otimes y) =x\langle \sigma (\widetilde{\sigma}(\widetilde{y})), y\rangle$.
+For $x\in P,x^*\in P^*$, and $y\in P$, by relations (4), (8), (10), and (11), we have $(15)\langle x, x^*\rangle y=x\Theta(x^*\otimes y) =x\langle \sigma (x^*), y\rangle =\widetilde{\Theta}(x\otimes \sigma (x^*))y=\langle x,\widetilde{\sigma}(\sigma (x^*))\rangle y$. Likewise, for $x\in P,\widetilde{y}\in \widetilde{P}$, and $y\in P$, we have (16) $x\langle \widetilde{y}, y\rangle =\widetilde{\Theta}(x\otimes \widetilde{y})y=\langle x,\widetilde{\sigma}(\widetilde{y})\rangle y=x\Theta (\widetilde{\sigma}(\widetilde{y})\otimes y) =x\langle \sigma (\widetilde{\sigma}(\widetilde{y})), y\rangle$.
 
 Because of the assumptions, P is faithful as an A-module and as a B-module. From relations (15) and (16), respectively, we deduce $\widetilde{\sigma}\circ \sigma = 1_{P^*}$ and $\sigma \circ \widetilde{\sigma}=$ $1_{\widetilde{P}}$. Relations (13) and (14) then follow from (12) and (9), respectively.
 
@@ -111,7 +111,7 @@ Let A and B be algebras over $k$, and let P be an $(A,B)_k$-bimodule. Suppose th
 
 (iv) There exist a $(B,A)_k$-bimodule Q and a surjective homomorphism of $(B,B)_k$-bimodules from $Q\otimes_AP$ to $_sB_d$.
 
-By the corollary of II, §4, No. 2, p. 271, assertion (i) implies (ii). Moreover, (iii) follows from (ii). Let $t\in B^*\otimes_AB$ be such that $Θ(t) = 1$. Let $n$ be an integer, and let $(x_1, . . . , x_n)\in P^n$ and $(x^*_1, . . . , x^*_n)\in P^{*n}$ be such that $t=\sum^n_{i=1}x^*_i\otimes x_i$. For every $x$ belonging to P, the relation $xΘ(t) =x$ can be written as
+By the corollary of II, §4, No. 2, p. 271, assertion (i) implies (ii). Moreover, (iii) follows from (ii). Let $t\in B^*\otimes_AB$ be such that $\Theta(t) = 1$. Let $n$ be an integer, and let $(x_1, . . . , x_n)\in P^n$ and $(x^*_1, . . . , x^*_n)\in P^{*n}$ be such that $t=\sum^n_{i=1}x^*_i\otimes x_i$. For every $x$ belonging to P, the relation $x\Theta(t) =x$ can be written as
 
 $$
 \sum_{i=1}^n\langle x, x^*_i\rangle x_i=x
@@ -119,7 +119,7 @@ $$
 
 It follows that the A-module P is finitely generated by the family $(x_i)_{1\leqslant i\leqslant n}$, and we conclude the proof of the implication (iii) $\Rightarrow$ (i) using Proposition 12 of II, §2, No. 6, p. 238.
 
-We obviously have (ii) $\Rightarrow$ (iv). Let Q be a $(B,A)_k$-bimodule and $\theta$ a surjective homomorphism of $(B,B)_k$-bimodules from $Q\otimes_AP$ to $_sB_d$. In the notation of the previous subsection, there exists a homomorphism of $(B,A)_k$-bimodules $\zeta : Q\rightarrow \widetilde{P}$ such that $\theta (y\otimes x) =\langle \zeta (y), x\rangle$ for $x\in P$ and $y\in Q$, and we have $\theta =\widetilde{Λ}\circ (\zeta \otimes 1_P)$. Since $\theta$ is surjective, the same holds for $\widetilde{Λ}$. If the mapping $a\mapsto a_P$ from A to End$_B(P)$ is bijective, then Θ is surjective by relation (14) of Proposition 1 of VIII, p. 97; the implication (iv) $\Rightarrow$ (iii) follows.
+We obviously have (ii) $\Rightarrow$ (iv). Let Q be a $(B,A)_k$-bimodule and $\theta$ a surjective homomorphism of $(B,B)_k$-bimodules from $Q\otimes_AP$ to $_sB_d$. In the notation of the previous subsection, there exists a homomorphism of $(B,A)_k$-bimodules $\zeta : Q\rightarrow \widetilde{P}$ such that $\theta (y\otimes x) =\langle \zeta (y), x\rangle$ for $x\in P$ and $y\in Q$, and we have $\theta =\widetilde{\Lambda}\circ (\zeta \otimes 1_P)$. Since $\theta$ is surjective, the same holds for $\widetilde{\Lambda}$. If the mapping $a\mapsto a_P$ from A to End$_B(P)$ is bijective, then Θ is surjective by relation (14) of Proposition 1 of VIII, p. 97; the implication (iv) $\Rightarrow$ (iii) follows.
 
 #### Proposition 3 {#alg-viii-s6-prop-3 .statement tag=006V}
 
@@ -131,9 +131,9 @@ Let A and B be algebras over $k$ and P an $(A,B)_k$-bimodule. The following prop
 
 (iii) There exist a $(B,A)_k$-bimodule Q and a surjective homomorphism of $(A,A)_k$-bimodules from $P\otimes_BQ$ to $_sA_d$. If, moreover, the mapping $b\mapsto b_P$ from B to End$_A(P)$ is bijective, then the assertions are equivalent to the following statement:
 
-(iv) The mapping Λ is an isomorphism from $P\otimes_BP^*$ to $_sA_d$. (i) $\Leftrightarrow$ (ii): The image of Λ is the trace ideal $\tau (P)$ (VIII, p. 80). The equivalence of (i) and (ii) therefore follows from Theorem 1 of VIII, p. 80. (ii) $\Rightarrow$ (iii): It suffices to take $Q = P^*$. (iii) $\Rightarrow$ (ii): Let Q be a $(B,A)_k$-bimodule and $\psi$ a homomorphism of $(A,A)_k$-bimodules from $P\otimes_BQ$ to $_sA_d$. There exists a homomorphism of $(B,A)_k$-bimodules Ψ from Q to $P^*$ such that $\psi (x\otimes y) =\langle x,Ψ(y)\rangle$ for $x\in P$ and $y\in Q$, and we have the equality $\psi = Λ\circ (1_P\otimes Ψ)$. If $\psi$ is surjective, then so is Λ.
+(iv) The mapping Λ is an isomorphism from $P\otimes_BP^*$ to $_sA_d$. (i) $\Leftrightarrow$ (ii): The image of Λ is the trace ideal $\tau (P)$ (VIII, p. 80). The equivalence of (i) and (ii) therefore follows from Theorem 1 of VIII, p. 80. (ii) $\Rightarrow$ (iii): It suffices to take $Q = P^*$. (iii) $\Rightarrow$ (ii): Let Q be a $(B,A)_k$-bimodule and $\psi$ a homomorphism of $(A,A)_k$-bimodules from $P\otimes_BQ$ to $_sA_d$. There exists a homomorphism of $(B,A)_k$-bimodules Ψ from Q to $P^*$ such that $\psi (x\otimes y) =\langle x,\Psi(y)\rangle$ for $x\in P$ and $y\in Q$, and we have the equality $\psi = \Lambda\circ (1_P\otimes \Psi)$. If $\psi$ is surjective, then so is Λ.
 
-It is clear that (iv) implies (ii). Conversely, suppose that property (ii) holds and that the mapping $b\mapsto b_P$ from B to End$_A(P)$ is bijective. Let $e$ be an element of $P\otimes_BP^*$ such that $Λ(e) = 1$. By relation (7) of VIII, p. 96, we have $u= Λ(u)e$ for every $u$ in $P\otimes_BP^*$; the injectivity of Λ follows.
+It is clear that (iv) implies (ii). Conversely, suppose that property (ii) holds and that the mapping $b\mapsto b_P$ from B to End$_A(P)$ is bijective. Let $e$ be an element of $P\otimes_BP^*$ such that $\Lambda(e) = 1$. By relation (7) of VIII, p. 96, we have $u= \Lambda(u)e$ for every $u$ in $P\otimes_BP^*$; the injectivity of Λ follows.
 
 #### Proposition 4 {#alg-viii-s6-prop-4 .statement tag=006W}
 
@@ -143,9 +143,9 @@ a) If the A-module P is generating, then the right B-module P is projective and 
 
 b) If the A-module P is projective and finitely generated, then the right B-module P is generating.
 
-Suppose that the A-module P is generating. It is then faithful and balanced (VIII, p. 82, Theorem 2), and consequently the mapping $a\mapsto a_P$ from A to End$_B(P)$ is bijective (VIII, p. 97, Remark 1). Moreover, the mapping $Λ : P\otimes_BP^*\rightarrow_sA_d$ is bijective (VIII, p. 98, Proposition 3). We view P as a $(B^o,A^o)_k$-bimodule. The mapping Λ induces a bijective mapping $P^*\otimes_{B^o}P\rightarrow A^o$; by Proposition 2 of VIII, p. 98, (iv) $\Rightarrow$ (i), the right B-module P is projective and finitely generated.
+Suppose that the A-module P is generating. It is then faithful and balanced (VIII, p. 82, Theorem 2), and consequently the mapping $a\mapsto a_P$ from A to End$_B(P)$ is bijective (VIII, p. 97, Remark 1). Moreover, the mapping $\Lambda : P\otimes_BP^*\rightarrow_sA_d$ is bijective (VIII, p. 98, Proposition 3). We view P as a $(B^o,A^o)_k$-bimodule. The mapping Λ induces a bijective mapping $P^*\otimes_{B^o}P\rightarrow A^o$; by Proposition 2 of VIII, p. 98, (iv) $\Rightarrow$ (i), the right B-module P is projective and finitely generated.
 
-Now, suppose that the A-module P is projective and finitely generated. Then the mapping $Θ : P^*\otimes_AP\rightarrow_sB_d$ is bijective (loc. cit., (i) $\Rightarrow$ (ii)). By the implication (iii) $\Rightarrow$ (i) of Proposition 3 above applied to the $(B^o,A^o)_k$-bimodule P, the right B-module P is generating.
+Now, suppose that the A-module P is projective and finitely generated. Then the mapping $\Theta : P^*\otimes_AP\rightarrow_sB_d$ is bijective (loc. cit., (i) $\Rightarrow$ (ii)). By the implication (iii) $\Rightarrow$ (i) of Proposition 3 above applied to the $(B^o,A^o)_k$-bimodule P, the right B-module P is generating.
 
 #### Corollary 1 {#alg-viii-s6-prop-4-cor-1 .statement tag=006X}
 
@@ -203,7 +203,7 @@ Let A and B be $k$-algebras and P an $(A,B)_k$-bimodule. Denote the $(B,A)_k$-bi
 
 (iii) The right B-module P is projective, finitely generated, and generating, and the mapping $a\mapsto a_P$ from A to End$_B(P)$ is a $k$-algebra isomorphism. If these properties hold, then the homomorphisms
 
-$Θ : P^*\otimes P\rightarrow_sB_d$ and $Λ : P\otimes P^*\rightarrow_sA_d$
+$\Theta : P^*\otimes P\rightarrow_sB_d$ and $\Lambda : P\otimes P^*\rightarrow_sA_d$
 
 are isomorphisms, so that the $(B,A)_k$-bimodule $P^*$ is an inverse of P.
 
@@ -227,7 +227,7 @@ Given Theorem 1, this follows from Remark 2 of VIII, p. 97.
 
 Let A and B be Morita equivalent $k$-algebras, and let P be an invertible $(A,B)_k$-bimodule. Every $(B,A)_k$-bimodule inverse to P is isomorphic to the dual $P^*=$ Hom$_A(P,A)$ of P. More precisely, let Q be a $(B,A)_k$-bimodule that is an inverse of P, and let $\lambda : P\otimes_BQ\rightarrow_sA_d$ be an isomorphism of $(A,A)_k$-bimodules. There exists a unique mapping $\tau : Q\rightarrow P^*$ determined by the relation $\langle p, \tau (q)\rangle =\lambda (p\otimes q)$ for $p\in P$ and $q\in Q$, and $\tau$ is an isomorphism of $(B,A)_k$-bimodules.
 
-The existence and uniqueness of the mapping $\tau$ are clear. It is a homomorphism of $(B,A)_k$-bimodules, and we have $\lambda = Λ\circ (1_P\otimes \tau )$. Since $\lambda$ and Λ are isomorphisms of $(A,A)_k$-bimodules (VIII, p. 101, Theorem 1), so is $1_P\otimes \tau$. By Lemma 1, the mapping $\tau$ is bijective.
+The existence and uniqueness of the mapping $\tau$ are clear. It is a homomorphism of $(B,A)_k$-bimodules, and we have $\lambda = \Lambda\circ (1_P\otimes \tau )$. Since $\lambda$ and Λ are isomorphisms of $(A,A)_k$-bimodules (VIII, p. 101, Theorem 1), so is $1_P\otimes \tau$. By Lemma 1, the mapping $\tau$ is bijective.
 
 #### Remark {#alg-viii-s6-n3-rem-1 .statement tag=0075}
 
@@ -319,7 +319,7 @@ For any two-sided ideal $\mathfrak{a}$ of A, denote the subset of $\mathbf{M}_n(
 
 #### Remark {#alg-viii-s6-n4-rem-1 .statement tag=007D}
 
-We keep the assumptions and notation above and suppose that the $(B,A)_k$-bimodule Q is the dual $P^*$ of the A-module P and that the isomorphisms $\lambda$ and $\theta$ are the canonical mappings $Λ : P\otimes_BP^*\rightarrow_sA_d$ and Θ : $P^*\otimes_AP\rightarrow_sB_d$ (VIII, p. 101, Theorem 1). Since the A-module P is projective and finitely generated, we have a canonical isomorphism $ϑ_M: P^*\otimes_AM\rightarrow$ Hom$_A(P,M)$ for every A-module M (II, §4, No. 2, p. 271, Corollary). We leave it to the reader to reformulate the results of Subsections 3 and 4 by replacing the construction $M\mapsto Q\otimes_AM$ with the construction $M\mapsto$ Hom$_A(P,M)$.
+We keep the assumptions and notation above and suppose that the $(B,A)_k$-bimodule Q is the dual $P^*$ of the A-module P and that the isomorphisms $\lambda$ and $\theta$ are the canonical mappings $\Lambda : P\otimes_BP^*\rightarrow_sA_d$ and Θ : $P^*\otimes_AP\rightarrow_sB_d$ (VIII, p. 101, Theorem 1). Since the A-module P is projective and finitely generated, we have a canonical isomorphism $\vartheta_M: P^*\otimes_AM\rightarrow$ Hom$_A(P,M)$ for every A-module M (II, §4, No. 2, p. 271, Corollary). We leave it to the reader to reformulate the results of Subsections 3 and 4 by replacing the construction $M\mapsto Q\otimes_AM$ with the construction $M\mapsto$ Hom$_A(P,M)$.
 
 ### 5. Ordered Sets of Submodules
 

@@ -30,7 +30,7 @@ subsections:
       pdf_page: 143
 statements: 24
 exercises: 16
-content_sha256: 1dc0bda650f6e556cd12d363f89202f948e2d0db02618c353b465b0fd7bd7538
+content_sha256: 57ff080c53d35a1e88cda14e43b93a9b054244d867f7ea91de870203b743cb16
 ---
 
 ## § 7. SIMPLE RINGS
@@ -173,7 +173,7 @@ a) The mapping $a\mapsto a_M$ is an isomorphism from A to the endomorphism ring 
 
 b) Suppose that M has finite length as an A-module. Then the ring B is simple, and we have
 
-(2) long$_A(M) =$ long(B) and long$_B(M) =$ long(A) $$.
+(2) long$_A(M) =$ long(B) and long$_B(M) =$ long(A).
 
 The A-module M is generating by Proposition 2 of VIII, p. 122. By definition, we have $B = A'_M$, and assertion a) therefore follows from Theorem 2 of VIII, p. 82.
 
@@ -183,7 +183,7 @@ long(B) = dim$_D(V) =$ long$_A(M)$.
 
 By Remarks 1 of VIII, p. 63 and 3 of VIII, p. 121, we have the relations
 
-long$_B(M) =$ long$_{End_D(V)}(S\otimes_DV) =$ dim$_D(S) =$ long(A) $$,
+long$_B(M) =$ long$_{End_D(V)}(S\otimes_DV) =$ dim$_D(S) =$ long(A),
 
 which gives the last relation.
 
@@ -227,7 +227,7 @@ $$
 
 Taking into account relation (2) of VIII, p. 123 applied to the right A-module B, we see that
 
-(5) long(C) $= [B : A]_d$ long(A) $$.
+(5) long(C) $= [B : A]_d$ long(A).
 
 #### Remark 2 {#alg-viii-s7-n3-rem-2 .statement tag=008K}
 
