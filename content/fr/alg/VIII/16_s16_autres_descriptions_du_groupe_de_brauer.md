@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: d1015817dc08c515eb839832bffdb00433e5d252f251f0696bdcb91e61212ee6
+content_sha256: 162eee098558a3ca1ce573c2b473e7b62d9c5c5935d94678ef5a2f1d3670df4e
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -647,7 +647,7 @@ est commutatif.
 Soit H un sous-groupe d’indice fini de G. Soit $s$ une section de la surjection canonique de G dans $H\backslash G$. On note $(g, x)\rightarrow x.g$ l’action à droite de G sur $H\backslash G$ induite par l’action à droite de G sur lui-même par multiplication. Notons que pour tout $x\in H\backslash G$ et tout $g\in G$, l’élément $s(x)gs(x.g)^{-1}$ appartient à H. Pour toute application $c: H\times H\rightarrow F$, on définit donc une application $\widetilde{c}_s: G\times G\rightarrow F$ par la relation
 
 $$
-\widetilde{c}_s(g_1, g_2) =_{x\in}\prod_{H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})
+\widetilde{c}_s(g_1, g_2) =\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})
 $$
 
 pour $g_1,g_2\in G$. L’application $c\rightarrow \widetilde{c}_s$ est un homomorphisme de groupes de $F^{H\times H}$ dans $F^{G\times G}$.
@@ -670,16 +670,20 @@ $$
 ^{g_1}\widetilde{c}_s(g_2, g_3)\widetilde{c}_s(g_1g_2, g_3)^{-1}\widetilde{c}_s(g_1, g_2g_3)\widetilde{c}_s(g_1, g_2)^{-1}
 $$
 
-= $\prod^{g_1s(x)^{-1}}c(s(x)g_2s(x.g_2)^{-1}, s(x.g_2)g_3s(x.g_2g_3)^{-1})$
-
 $$
-\times^{x\in H\backslash}\prod^{Gs(x)^{-1}}(c(h_1(x)h_2(x), h_3(x))^{-1}c(h_1(x), h_2(x)h_3(x))c(h_1(x), h_2(x))^{-1})
+=\prod_{x\in H\backslash G}^{g_1s(x)^{-1}}c(s(x)g_2s(x.g_2)^{-1}, s(x.g_2)g_3s(x.g_2g_3)^{-1})
 $$
 
-= $\prod^{x\in H\backslash sG(x.g_1^{-1})^{-1}h_1(x.g^-_1^1)}c(h_2(x.g_1^{-1}), h_3(x.g_1^{-1}))$
+$$
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}(c(h_1(x)h_2(x), h_3(x))^{-1}c(h_1(x), h_2(x)h_3(x))c(h_1(x), h_2(x))^{-1})
+$$
 
 $$
-\times^{x\in H}_{x\in}^{\backslash}\prod^G_{H\backslash G}^{s(x)^{-1}h_1(x)}c(h_2(x), h_3(x))^{-1}
+=\prod_{x\in H\backslash G}^{s(x.g_1^{-1})^{-1}h_1(x.g^-_1^1)}c(h_2(x.g_1^{-1}), h_3(x.g_1^{-1}))
+$$
+
+$$
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}h_1(x)}c(h_2(x), h_3(x))^{-1}
 $$
 
 $$
@@ -695,17 +699,17 @@ Si $c$ est un 2-cobord, alors il en est de même de $\widetilde{c}_s$.
 Soit $t: H\rightarrow F$ une application telle que $c=\partial t$. Soient $\widetilde{t}_s: G\rightarrow F$ l’application définie par
 
 $$
-\widetilde{t}_s(g) =_{x\in}\prod_{H\backslash G}^{s(x)^{-1}}t(s(x)gs(x.g)^{-1})
+\widetilde{t}_s(g) =\prod_{x\in H\backslash G}^{s(x)^{-1}}t(s(x)gs(x.g)^{-1})
 $$
 
 pour $g\in G$. Il suffit de démontrer que $\widetilde{c}_s=\partial \widetilde{t}_s$, ce qui découle des relations
 
 $$
-\widetilde{c}_s(g_1, g_2) =\prod^{s(x)^{-1}s(x)g_1s(x.g_1)^{-1}}t(s(x.g_1)g_2s(x.g_1g_2)^{-1})
+\widetilde{c}_s(g_1, g_2) =\prod_{x\in H\backslash G}^{s(x)^{-1}s(x)g_1s(x.g_1)^{-1}}t(s(x.g_1)g_2s(x.g_1g_2)^{-1})
 $$
 
 $$
-\times^{x\in H\backslash}_{x\in}\prod^G_{H\backslash G}^{s(x)^{-1}}(t(s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}t(s(x)g_1s(x.g_1)^{-1}))
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}(t(s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}t(s(x)g_1s(x.g_1)^{-1}))
 $$
 
 $$
@@ -731,41 +735,47 @@ $$
 $$
 
 $$
-=_{x\in}\prod_{H\backslash G}^{s(x)^{-1}h(x)^{-1}}c(h(x)s(x)g_1s'(x.g_1)^{-1}, s'(x.g_1)g_2s'(x.g_1g_2)^{-1})
-$$
-
-= $\prod^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}h(x.g_1)^{-1}, h(x.g_1)s(x.g_1)g_2s'(x.g_1g_2)^{-1})$
-
-$$
-\times^{x\in H\backslash}\prod^{Gs(x)^{-1}}(c(h(x)^{-1}, s'(x)g_1g_2s'(x.g_1g_2)^{-1})^{-1}c(h(x)^{-1}, s'(x)g_1s'(x.g_1)^{-1}))
-$$
-
-= $\prod^{x\in H\backslash gG_1s(x.g_1)^{-1}}c(h(x.g_1)^{-1}, h(x.g_1)s(x.g_1)g_2s'(x.g_1g_2)^{-1})$
-
-$$
-\times^{x\in H\backslash}\prod^{Gs(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s'(x.g_1g_2)^{-1})
+=\prod_{x\in H\backslash G}^{s(x)^{-1}h(x)^{-1}}c(h(x)s(x)g_1s'(x.g_1)^{-1}, s'(x.g_1)g_2s'(x.g_1g_2)^{-1})
 $$
 
 $$
-\times^{x\in}\prod^{H\backslash Gs(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, h(x.g_1)^{-1})^{-1}
+=\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}h(x.g_1)^{-1}, h(x.g_1)s(x.g_1)g_2s'(x.g_1g_2)^{-1})
 $$
 
 $$
-\times^{x\in}\prod^{H\backslash Gs(x)^{-1}}(c(h(x)^{-1}, s'(x)g_1g_2s'(x.g_1g_2)^{-1})^{-1}c(h(x)^{-1}, s'(x)g_1s'(x.g_1)^{-1}))
-$$
-
-= $\prod^{x\in H\backslash sG(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s'(x.g_1g_2)^{-1})$
-
-$$
-\times^{x\in H\backslash}\prod^{Gs(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, h(x.g_1)^{-1})^{-1}
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}(c(h(x)^{-1}, s'(x)g_1g_2s'(x.g_1g_2)^{-1})^{-1}c(h(x)^{-1}, s'(x)g_1s'(x.g_1)^{-1}))
 $$
 
 $$
-\times^{x\in}\prod^{H\backslash Gg_1s(x)^{-1}}c(h(x)^{-1}, h(x)s(x)g_2s'(x.g_2)^{-1})
+=\prod_{x\in H\backslash G}^{g_1s(x.g_1)^{-1}}c(h(x.g_1)^{-1}, h(x.g_1)s(x.g_1)g_2s'(x.g_1g_2)^{-1})
 $$
 
 $$
-\times^x_x^{\in}_{\in}\prod^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}(c(h(x)^{-1}, s'(x)g_1g_2s'(x.g_1g_2)^{-1})^{-1}c(h(x)^{-1}, s'(x)g_1s'(x.g_1)^{-1}))
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s'(x.g_1g_2)^{-1})
+$$
+
+$$
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, h(x.g_1)^{-1})^{-1}
+$$
+
+$$
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}(c(h(x)^{-1}, s'(x)g_1g_2s'(x.g_1g_2)^{-1})^{-1}c(h(x)^{-1}, s'(x)g_1s'(x.g_1)^{-1}))
+$$
+
+$$
+=\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s'(x.g_1g_2)^{-1})
+$$
+
+$$
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, h(x.g_1)^{-1})^{-1}
+$$
+
+$$
+\times \prod_{x\in H\backslash G}^{g_1s(x)^{-1}}c(h(x)^{-1}, h(x)s(x)g_2s'(x.g_2)^{-1})
+$$
+
+$$
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}(c(h(x)^{-1}, s'(x)g_1g_2s'(x.g_1g_2)^{-1})^{-1}c(h(x)^{-1}, s'(x)g_1s'(x.g_1)^{-1}))
 $$
 
 pour tous $g_1, g_2\in G$; la première égalité provient de la relation de cocycle (VIII, p. 291, relation (7)) appliquée aux éléments
@@ -781,31 +791,31 @@ la dernière utilise simplement le fait que l’application $x\rightarrow x.g_1$
 Les deux dernières lignes de l’expression obtenue correspondent à un 2-cobord. On obtient que $\widetilde{c}_{s'}$ a la même classe dans $H^2(G,F)$ que le cocycle dont la valeur en $(g_1, g_2)\in G^2$ est donnée par l’expression
 
 $$
-_{x\in}\prod_{H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1}h(x.g_1g_2)^{-1})
+\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1}h(x.g_1g_2)^{-1})
 $$
 
 $$
-\times_{x\in}\prod_{H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, h(x.g_1)^{-1})^{-1}
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, h(x.g_1)^{-1})^{-1}
 $$
 
-= $\prod^{g_1s(x.g_1)^{-1}}c(s(x.g_1)g_2s(x.g_1g_2)^{-1}, h(x.g_1g_2)^{-1})^{-1}$
+$=\prod_{x\in H\backslash G}^{g_1s(x.g_1)^{-1}}c(s(x.g_1)g_2s(x.g_1g_2)^{-1}, h(x.g_1g_2)^{-1})^{-1}$
 
 $$
-\times^{x\in H\backslash}\prod^{Gs(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})
-$$
-
-$$
-\times^{x\in}\prod^{H\backslash Gs(x)^{-1}}(c(s(x)g_1g_2s(x.g_1g_2)^{-1}, h(x.g_1g_2)^{-1})c(s(x)g_1s(x.g_1)^{-1}, h(x.g_1)^{-1})^{-1})
-$$
-
-= $\prod^{x\in H\backslash sG(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})$
-
-$$
-\times^{x\in H\backslash}\prod^{Gg_1s(x)^{-1}}c(s(x)g_2s(x.g_2)^{-1}, h(x.g_2)^{-1})^{-1}
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})
 $$
 
 $$
-\times^x_x^{\in}_{\in}\prod^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}(c(s(x)g_1g_2s(x.g_1g_2)^{-1}, h(x.g_1g_2)^{-1})c(s(x)g_1s(x.g_1)^{-1}, h(x.g_1)^{-1})^{-1})
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}(c(s(x)g_1g_2s(x.g_1g_2)^{-1}, h(x.g_1g_2)^{-1})c(s(x)g_1s(x.g_1)^{-1}, h(x.g_1)^{-1})^{-1})
+$$
+
+$=\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})$
+
+$$
+\times \prod_{x\in H\backslash G}^{g_1s(x)^{-1}}c(s(x)g_2s(x.g_2)^{-1}, h(x.g_2)^{-1})^{-1}
+$$
+
+$$
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}(c(s(x)g_1g_2s(x.g_1g_2)^{-1}, h(x.g_1g_2)^{-1})c(s(x)g_1s(x.g_1)^{-1}, h(x.g_1)^{-1})^{-1})
 $$
 
 où la première égalité résulte de la relation de cocycle appliquée aux éléments
@@ -823,35 +833,39 @@ Soit H un sous-groupe d’indice fini de G. L’endomorphisme Cor$^G_H\circ$ Res
 Soit $\alpha$ un élément de $H^2(G,F)$. Soit $c$ un élément de $Z^2(G,F)$ représentant $\alpha$. L’élément Cor$^G_H\circ$ Res$^G_H(\alpha )$ est la classe du cocycle dont la valeur en $(g_1, g_2)\in G^2$ est donnée par l’expression
 
 $$
-\prod^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})
+\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})
 $$
 
 $$
-^x=^{\in H\backslash}\prod^Gc(g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})
+=\prod_{x\in H\backslash G}c(g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})
 $$
 
 $$
-\times^{x\in H\backslash}_{x\in}\prod^G_{H\backslash G}(c(s(x)^{-1}, s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x.g_1)^{-1}))
-$$
-
-= $\prod^{g_1}c(s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})$
-
-$$
-\times^{x\in H\backslash}\prod^Gc(g_1, g_2s(x.g_1g_2)^{-1})c(g_1, s(x.g_1)^{-1})^{-1}
+\times \prod_{x\in H\backslash G}(c(s(x)^{-1}, s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x.g_1)^{-1}))
 $$
 
 $$
-\times^{x\in}\prod^{H\backslash G}(c(s(x)^{-1}, s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x.g_1)^{-1}))
-$$
-
-= $\prod^{x\in H\backslash}c^G(g_1, g_2s(x.g_1g_2)^{-1})c(g_1, s(x.g_1)^{-1})^{-1}$
-
-$$
-\times^{x\in H\backslash}\prod^{Gg_1}c(s(x)^{-1}, s(x)g_2s(xg_2)^{-1})
+=\prod_{x\in H\backslash G}^{g_1}c(s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})
 $$
 
 $$
-\times^x_x^{\in}_{\in}\prod^H_H^{\backslash}_{\backslash}^G_G(c(s(x)^{-1}, s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x.g_1)^{-1}))
+\times \prod c(g_1, g_2s(x.g_1g_2)^{-1})c(g_1, s(x.g_1)^{-1})^{-1}
+$$
+
+$$
+\times \prod^x_x^{\in}_{\in}^H_H^{\backslash}_{\backslash}^G_G(c(s(x)^{-1}, s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x.g_1)^{-1}))
+$$
+
+$$
+=\prod_{x\in H\backslash G}c(g_1, g_2s(x.g_1g_2)^{-1})c(g_1, s(x.g_1)^{-1})^{-1}
+$$
+
+$$
+\times \prod_{x\in H\backslash G}^{g_1}c(s(x)^{-1}, s(x)g_2s(xg_2)^{-1})
+$$
+
+$$
+\times \prod_{x\in H\backslash G}(c(s(x)^{-1}, s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x.g_1)^{-1}))
 $$
 
 la première égalité provient de la relation de cocycle (VIII, p. 291, relation (7)) appliquée aux éléments
@@ -865,19 +879,19 @@ $g_1,s(x.g_1)^{-1}$ et $s(x.g_1)g_2s(x.g_1g_2)^{-1}$.
 En ôtant un cobord, on obtient que Cor$^G_H\circ$ Res$^G_H(\alpha )$ est la classe du cocycle dont la valeur en $(g_1, g_2)\in G^2$ est donnée par l’expression
 
 $$
-\prod c(g_1, g_2s(x.g_1g_2)^{-1})c(g_1, s(x.g_1)^{-1})^{-1}
+\prod_{x\in H\backslash G}c(g_1, g_2s(x.g_1g_2)^{-1})c(g_1, s(x.g_1)^{-1})^{-1}
 $$
 
 $$
-^x=^{\in H\backslash}\prod^{Gg_1}c(g_2, s(x.g_1g_2)^{-1})^{-1}c(g_1g_2, s(x.g_1g_2)^{-1})c(g_1, g_2)
+=\prod_{x\in H\backslash G}^{g_1}c(g_2, s(x.g_1g_2)^{-1})^{-1}c(g_1g_2, s(x.g_1g_2)^{-1})c(g_1, g_2)
 $$
 
 $$
-\times^{x\in H\backslash}\prod^Gc(g_1, s(x.g_1)^{-1})^{-1}
+\times \prod_{x\in H\backslash G}c(g_1, s(x.g_1)^{-1})^{-1}
 $$
 
 $$
-=_{x\in}\prod^{x\in H\backslash gG_1}_{H\backslash G}c(g_2, s(x.g_2)^{-1})^{-1}c(g_1g_2, s(x.g_1g_2)^{-1})c(g_1, s(x.g_1)^{-1})^{-1}
+=\prod_{x\in H\backslash G}^{g_1}c(g_2, s(x.g_2)^{-1})^{-1}c(g_1g_2, s(x.g_1g_2)^{-1})c(g_1, s(x.g_1)^{-1})^{-1}
 $$
 
 $$
@@ -893,7 +907,7 @@ Soit K un corps commutatif. Si E est une K-algèbre, on note Aut$_K(E)$ le group
 Soit G un groupe. On appelle $(K,G)$-algèbre une K-algèbre E munie d’un homomorphisme de groupes $\lambda : G\rightarrow$ Aut$_K(E)$. L’homomorphisme $\lambda$ munit alors E d’une structure de groupe à opérateurs dans G ainsi que d’une structure de K[G]-module à gauche dont la loi d’action est donnée par
 
 $$
-(\sum_{g\in G}\mu_gg)x=_g\sum_{\in G}\mu_g\lambda (g).x \tag{14}
+(\sum_{g\in G}\mu_gg)x=\sum_{g\in G}\mu_g\lambda (g).x \tag{14}
 $$
 
 pour tout $x\in L$ et tout élément $(\mu_g)_{g\in G}$ de K[G]. Un morphisme de $(K$, G)-algèbres est un morphisme d’algèbres qui est également un morphisme de groupes à opérateurs.
@@ -1093,7 +1107,7 @@ Soit P le groupe additif du sous-corps premier de K ; c’est un groupe cyclique
 Soit Ω une extension algébriquement close de K et soit $\xi$ une racine du polynôme $f$ dans Ω. On a $\xi^p=\xi +c$, d’où
 
 $$
-X^p-X-c= (X^p-\xi^p)-(X-\xi ) = (X-\xi )^p-(X-\xi ) =_j\prod_{\in P}(X-\xi -j)
+X^p-X-c= (X^p-\xi^p)-(X-\xi ) = (X-\xi )^p-(X-\xi ) =\prod_{j\in P}(X-\xi -j)
 $$
 
 d’après V, p. 89, formule (1). Pour tout $j$ dans P, il existe un unique homomorphisme d’algèbres $\chi_j: L\rightarrow \Omega$ qui applique $x$ sur $\xi +j$; de plus, tout homomorphisme de L dans Ω est l’un des $\chi_j$ et l’on a la relation $\chi_j=\chi_0\circ \gamma (j)$. D’après la condition (ii) du th. 2 de VIII, p. 303, l’algèbre L munie de $\gamma$ est une algèbre galoisienne sur K.
@@ -1259,13 +1273,13 @@ $$
 avec
 
 $$
-d_g=_{hh}\sum^'_{=g}a_h(\lambda (h).b_{h'})c_{\sigma}(h, h') \tag{34}
+d_g=\sum_{hh'=g}a_h(\lambda (h).b_{h'})c_{\sigma}(h, h') \tag{34}
 $$
 
 Si l’extension $\mathscr{E}$ est semi-triviale, on peut choisir une section $\sigma$ de $\pi$ qui est un morphisme de groupes de G dans Γ ; le cocycle $c_{\sigma}$ est donc constant de valeur 1 et la formule (34) se simplifie alors en
 
 $$
-d_g=_{hh}\sum^'_{=g}a_h\lambda (h).b_{h'} \tag{35}
+d_g=\sum_{hh'=g}a_h\lambda (h).b_{h'} \tag{35}
 $$
 
 Soit $K'$ une extension du corps K. Notons $L'$ la $K'$-algèbre $L_{(K')}$ et pour tout $g$ de G, notons $\lambda '(g)$ l’automorphisme$\lambda (g)_{(K')}$ induit par $\lambda (g)$ sur $L_{(K')}$. Notons également $\tau '(g)$ l’automorphisme de $L^{'*}$ induit par $\lambda '(g)$. Enfin, soit $h$ l’homomorphisme de $L^*$ dans $L^{'*}$ qui envoie $x$ sur $x\otimes 1$. Soit alors $\mathscr{E}'= (\Gamma ', \iota ', \pi ')$ l’image directe de l’extension $\mathscr{E}$ par $h$ (VIII, p. 285). Soit $\mathbf{A}[\mathscr{E}',L']$ la $K'$-algèbre produit croisé de $\mathscr{E}'$ par $L'$ et soient $u': L'\rightarrow \mathbf{A}[\mathscr{E}',L']$ et $v': \Gamma '\rightarrow \mathbf{A}[\mathscr{E}',L']^*$ les homomorphismes canoniques.
@@ -1370,7 +1384,7 @@ les homomorphismes canoniques. D’après la propriété universelle de $\mathbf
 
 Soit $\mathscr{S}$ l’ensemble des idéaux maximaux de L. On définit
 
-Br(L$/K) =_{\mathfrak{m}}\bigcap_{\in\mathscr{S}}$ Ker($r_{(L/\mathfrak{m})/K}$),
+Br(L$/K) =\bigcap_{\mathfrak{m}\in\mathscr{S}}$ Ker($r_{(L/\mathfrak{m})/K}$),
 
 où $r_{(L/\mathfrak{m})/K}:$ Br(K) $\rightarrow$ Br(L$/\mathfrak{m})$est l’homomorphisme d’extension des scalaires (VIII, p. 277).
 

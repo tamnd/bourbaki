@@ -21,7 +21,7 @@ subsections:
       pdf_page: 351
 statements: 10
 exercises: 7
-content_sha256: 5c5cb7e7e59e66b069178c7d5bb1b6e6ce390914bc0d9df9e79b78f2b4d44b9c
+content_sha256: 19d7b2552974dbc633d8e8cb4ddbcf0a72c831c8eaa08af7f8343da0df5e7cbc
 ---
 
 ## § 18. ALGÈBRES SIMPLES SUR UN CORPS FINI
@@ -39,7 +39,7 @@ Soient L un corps, G un groupe fini et $\chi$ un homomorphisme non trivial de G 
 Par hypothèse, il existe un élément $a$ de G tel que $\chi (a)\not= 1$; comme la multiplication par $a$ est une permutation de G, on a
 
 $$
-_x\sum_{\in G}\chi (x) =_x\sum_{\in G}\chi (ax) =\chi (a)_x\sum_{\in G}\chi (x)
+\sum_{x\in G}\chi (x) =\sum_{x\in G}\chi (ax) =\chi (a)\sum_{x\in G}\chi (x)
 $$
 
 d’où le lemme 1.
@@ -53,7 +53,7 @@ Rappelons que $0^0= 1$ (I, p. 13). Supposons $m$ multiple de $q-1$. Comme le gro
 Supposons que $m$ ne soit pas multiple de $q-1$. Posons $\chi (x) =x^m$ pour $x\in K^*$. Comme le groupe multiplicatif $K^*$ est cyclique d’ordre $q-1$ (V, p. 89, prop. 1), il existe un élément $a$ de $K^*$ tel que $\chi (a)\not= 1$. D’après le lemme 1 appliqué à $G = K^*$, on a
 
 $$
-S_m= 0^m+_x\sum_{\in K^*}\chi (x) = 0
+S_m= 0^m+\sum_{x\in K^*}\chi (x) = 0
 $$
 
 d’où le lemme 2.
@@ -71,13 +71,13 @@ $$
 Développons le polynôme P sous la forme $\sum_{\alpha\in\mathbf{N}^n}c_{\alpha}X^{\alpha}$; il est de degré $<(q-1)n$ par hypothèse. Soit $\alpha$ un élément de $\mathbf{N}^n$ tel que $c_{\alpha}$ soit non nul ; puisque l’on a $\alpha_1+\cdots +\alpha_n<(q-1)n$, il existe donc un entier $\ell$ tel que $1\leqslant \ell \leqslant n$ et $0\leqslant \alpha_{\ell}<$ $q-1$. D’après le lemme 2, on a alors $\sum_{x\in K}x^{\alpha_{\ell}}= 0$, d’où
 
 $$
-_{\mathbf{x}}\sum_{\in K^n}\mathbf{x}^{\alpha}=_j\prod_{=1}^n((\sum_{x\in K}x^{\alpha_j})= 0
+\sum_{\mathbf{x}\in K^n}\mathbf{x}^{\alpha}=\prod_{j=1}^n((\sum_{x\in K}x^{\alpha_j})= 0
 $$
 
 On a donc
 
 $$
-_{\mathbf{x}}\sum_{\in K^n}P(\mathbf{x}) =_{\alpha}\sum_{\in\mathbf{N}^n}c_{\alpha}((\sum_{\mathbf{x}\in K^n}\mathbf{x}^{\alpha})= 0
+\sum_{\mathbf{x}\in K^n}P(\mathbf{x}) =\sum_{\alpha\in\mathbf{N}^n}c_{\alpha}((\sum_{\mathbf{x}\in K^n}\mathbf{x}^{\alpha})= 0
 $$
 
 Or, d’après la formule (1), on a $\sum_{\mathbf{x}\in K^n}P(\mathbf{x}) =$ Card(Z) $\cdot 1$, d’où Card(Z) $\cdot 1 = 0$, ce qui signifie que Card(Z) est divisible par $p$.

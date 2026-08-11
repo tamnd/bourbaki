@@ -33,7 +33,7 @@ subsections:
       pdf_page: 45
 statements: 36
 exercises: 19
-content_sha256: fd3e394602da6e71aad5de6ee7324db7ff388191fb53db1d7b833c4ff9dd9421
+content_sha256: 0a77b5275a27d87e0748aea796e354dd4a195ec9be0de1dd185c21b4c7806e72
 ---
 
 ## § 2. STRUCTURE DES MODULES DE LONGUEUR FINIE
@@ -288,7 +288,7 @@ Soit $N_0$ un sous-module de M supplémentaire de N. Le module M est somme direc
 
 Soit $j\in J$. D’après le lemme 3, il existe un indice $i\in I$ tel que $p_j$ induise un isomorphisme de $M_i$ sur un sous-module facteur direct de $N_j$. Comme $M_i$ n’est pas nul et que $N_j$ est primordial, donc indécomposable (VIII, p. 28, prop. 4), on a $p_j(M_i) = N_j$, et $j$ appartient à $J(i)$. Comme le module $M_i$ est isomorphe à $N_j$, donc à L, l’indice $i$ appartient à $I_L$. Cela démontre que J est réunion de la famille d’ensembles finis $(J(i))_{i\in I_L}$. Si l’ensemble J est infini, l’ensemble $I_L$ est infini, et l’on a (E, III, p. 49, cor. 3)
 
-Card(J) $\leqslant_i\sum_{\in I_L}$ Card(J($i$))$\leqslant$ Card(I$_L)$.
+Card(J) $\leqslant \sum_{i\in I_L}$ Card(J($i$))$\leqslant$ Card(I$_L)$.
 
 Supposons maintenant l’ensemble J fini, et démontrons le lemme par récurrence sur le cardinal de J. Si J est vide, il n’y a rien à prouver. Supposons donc J non vide et choisissons un élément $j$ de J. D’après ce qui précède, il existe un indice $i\in I_L$ tel que $p_j$ induise un isomorphisme de $M_i$ sur $N_j$. Posons $I'= I-\{i\}$ et $J'= J-\{j\}$. Le module M est somme directe de $M_i$ et du noyau de $p_j$. Il est aussi somme directe de $M_i$ et du sous-module $M'=\oplus_{i'\in I'}M_{i'}$. Il existe donc (II, p. 20, cor. de la prop. 13) un$(\sum)$ isomorphisme $\varphi$ de Ker$p_j= N_0\oplus_{j'\in J'}N_{j'}$ sur $M'$. Posons $N'=\varphi_{j'\in J'}N_{j'}$. Le sous-module $N'$ est facteur direct de $M'$ et est somme directe de la famille $(\varphi (N_{j'}))_{j'\in J'}$ de sous-modules primordiaux isomorphes à L. Appliquons l’hypothèse de récurrence à $M'$ et $N':$ on a Card(J$')\leqslant$ Card(I$_L-\{i\})$, d’où l’inégalité (1).
 

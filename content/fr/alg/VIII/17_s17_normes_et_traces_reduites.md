@@ -37,7 +37,7 @@ subsections:
       pdf_page: 345
 statements: 31
 exercises: 7
-content_sha256: 4f7f076ba392a9bdfbfecc3859411c4b705573b22582fd9ab07f4380e948d67d
+content_sha256: a6c8d410a8469c6eb400235dbce706e0bac826c98a4e5fca97c924ff472407db
 ---
 
 ## § 17. NORMES ET TRACES RÉDUITES
@@ -66,7 +66,7 @@ Soient L un anneau commutatif, M un L-module libre de dimension finie $m\geqslan
 
 (3) $\widetilde{u}(x)\wedge w=x\wedge \wedge^{m-1}(u)(w)$ pour $x\in M$et $w\in \wedge^{m-1}(M)$. De plus, on a les relations
 
-(4) $u\circ \widetilde{u}=\widetilde{u}\circ u=$ det($u$)$_M$, (5) det($\widetilde{u}$) $=$ det($u$)$^{m-1}$, (6) $\widetilde{u}=^m\sum_{r=0}^{-1}(-1)^rc_{m-1-r}(u)u^r$.
+(4) $u\circ \widetilde{u}=\widetilde{u}\circ u=$ det($u$)$_M$, (5) det($\widetilde{u}$) $=$ det($u$)$^{m-1}$, (6) $\widetilde{u}=\sum^{m-1}_{r=0}(-1)^rc_{m-1-r}(u)u^r$.
 
 #### Lemme 1 {#alg-viii-s17-lem-1 .statement tag=00KE}
 
@@ -127,13 +127,13 @@ pour $x_1, . . . , x_m$ dans M et
 Considérons $\widetilde{U}$ comme un élément de End(M)[X](VIII, p. 9) ; d’après la formule (9) et le lemme 1, il est de degré $\leqslant m-1$ et on peut donc l’écrire sous la forme
 
 $$
-\widetilde{U} =^m\sum_{r=0}^{-1}(-1)^ru_rX^{m-1-r} \tag{11}
+\widetilde{U} =\sum^{m-1}_{r=0}(-1)^ru_rX^{m-1-r} \tag{11}
 $$
 
 où les $u_r$ sont des endomorphismes de M. D’après la formule (2) de VIII, p. 329, la relation (10) fournit l’égalité
 
 $$
-(^m\sum_{r=0}^{-1}(-1)^ru_rX^{m-1-r})(X-u) =\sum_{r=0}^m(-1)^rc_r(u)X^{m-r} \tag{12}
+(\sum^{m-1}_{r=0}(-1)^ru_rX^{m-1-r})(X-u) =\sum_{r=0}^m(-1)^rc_r(u)X^{m-r} \tag{12}
 $$
 
 dans l’anneau End(M)[X]. Identifiant les coefficients des monômes en X, on obtient les relations suivantes
@@ -149,7 +149,7 @@ $$
 De là, on déduit
 
 $$
-u_{m-1}=^m\sum_{r=0}^{-1}(-1)^rc_{m-1-r}(u)u^r \tag{15}
+u_{m-1}=\sum^{m-1}_{r=0}(-1)^rc_{m-1-r}(u)u^r \tag{15}
 $$
 
 or, en identifiant les termes constants, les égalités (9) et (11) entraînent $u_{m-1}=\widetilde{u}$, d’où la formule (6).
@@ -185,7 +185,7 @@ Comme l’application $\gamma$ de B dans End$_L(B)$ est L-linéaire, l’applica
 Pour tout élément $b$ de B, posons
 
 $$
-\widetilde{b}=^m\sum_{r=0}^{-1}(-1)^r\gamma_{m-1-r}(b)b^r \tag{17}
+\widetilde{b}=\sum^{m-1}_{r=0}(-1)^r\gamma_{m-1-r}(b)b^r \tag{17}
 $$
 
 D’après la proposition 1 (VIII, p. 329), l’application linéaire $\gamma (\widetilde{b})$ de B dans B est cotransposée de l’application $\gamma (b)$, et l’on en déduit
@@ -230,7 +230,7 @@ Soit $a$ un élément de l’algèbre A. On appelle polynôme caractéristique r
 
 Soit $a$ un élément de A. Comme A est de degré $n^2$ sur K, le polynôme Pc$_{A/K}(a; X)$ est de degré $n^2$, donc Pcrd$_{A/K}(a; X)$ est un polynôme unitaire de degré $n$; écrivons-le sous la forme
 
-(21) Pcrd$_{A/K}(a; X) = X^n+^n\sum_r^-_{=0}^1(-1)^rb_r(a)X^{n-r}$.
+(21) Pcrd$_{A/K}(a; X) = X^n+\sum^{n-1}_{r=0}(-1)^rb_r(a)X^{n-r}$.
 
 On pose
 
@@ -432,9 +432,9 @@ Comme les matrices $\theta (1\otimes e_i)$ appartiennent à $\mathbf{M}_n$(L), c
 
 Pour toute extension $K'$ de K et tout élément $(t_i)_{i\in I}$ de $K'^I$, on a
 
-(48) Pcrd$_{A_{(K')}/K'}(\sum t_i\otimes e_i)= P((t_i)_{i\in I},X)$.
+(48) Pcrd$_{A_{(K')}/K'}(\sum_{i\in I}t_i\otimes e_i)= P((t_i)_{i\in I},X)$.
 
-Soit $\varphi : K[\mathbf{T}]\rightarrow K'$ l’unique homomorphisme de K-algèbres qui transforme$^{i\in I}$ $T_i$ en $t_i$ pour tout $i\in$ I ; il définit sur $K'$ une structure de $K[\mathbf{T}$]-algèbre. La $K'$-algèbre $A_{(K[}(\sum_{\mathbf{T}])(K')}$ s’identifie à $A)_{(K')}$ (transitivité de l’extension des scalaires), l’élément $1\otimes T_i\otimes e_i$ s’identifiant à l’élément $\sum t_i\otimes e_i$ de $A_{(K')}$. Notons $\varphi : K[\mathbf{T}][X]\rightarrow K'[X]$ l’homomorphisme de K-algèbres déduit de $\varphi$. D’après la formule (21) de III, p. 110, le polynôme caractéristique de $\sum t_i\otimes e_i$ relativement à la $K'$-algèbre $A_{(K')}$ est l’image par $\varphi$ du polynôme caractéristique de $\sum T_i\otimes e_i$ relativement à la $K[\mathbf{T}$]-algèbre $A_{(K[\mathbf{T}])}$, c’est-à-dire de $P^n$. Autrement dit, on a
+Soit $\varphi : K[\mathbf{T}]\rightarrow K'$ l’unique homomorphisme de K-algèbres qui transforme $T_i$ en $t_i$ pour tout $i\in$ I ; il définit sur $K'$ une structure de $K[\mathbf{T}$]-algèbre. La $K'$-algèbre $A_{(K[}(\sum_{\mathbf{T}])(K')}$ s’identifie à $A)_{(K')}$ (transitivité de l’extension des scalaires), l’élément $1\otimes T_i\otimes e_i$ s’identifiant à l’élément $\sum t_i\otimes e_i$ de $A_{(K')}$. Notons $\varphi : K[\mathbf{T}][X]\rightarrow K'[X]$ l’homomorphisme de K-algèbres déduit de $\varphi$. D’après la formule (21) de III, p. 110, le polynôme caractéristique de $\sum t_i\otimes e_i$ relativement à la $K'$-algèbre $A_{(K')}$ est l’image par $\varphi$ du polynôme caractéristique de $\sum T_i\otimes e_i$ relativement à la $K[\mathbf{T}$]-algèbre $A_{(K[\mathbf{T}])}$, c’est-à-dire de $P^n$. Autrement dit, on a
 
 (49) Pc$_{A_{(K')}/K'}(\sum_{i\in I}t_i\otimes e_i; X) = P((t_i)_{i\in I},X)^n$;
 
@@ -576,7 +576,7 @@ Notons $n$ la dimension de V sur D et identifions E à l’algèbre de matrices 
 
 A) Supposons que $u$ soit la matrice diagonale diag($a_1, . . . , a_n$). Pour $1\leqslant i\leqslant n$, soit $L_i$ un sous-corps commutatif maximal de D contenant $a_i$; soit L la sous-algèbre de E formée des matrices diagonales diag($t_1, . . . , t_n$) avec $t_i\in L_i$ pour $1\leqslant i\leqslant n$. Soit $d$ le degré réduit de D sur K. On a $[L_i: K] =d$ pour $1\leqslant i\leqslant n$ (VIII, p. 261, cor. 2). La K-algèbre L est isomorphe à $L_1\times  \cdots  \times L_n$, donc est semi-simple de degré $nd$; or on a $[E : K] =n^2[D : K] =n^2d^2= [L : K]^2$. Il en résulte que L est une sous-algèbre semi-simple commutative maximale de E (VIII, p. 258, prop. 3). D’après la prop. 7 de VIII, p. 340, on a Nrd$_{E/K}(u) = N_{L/K}(u)$, d’où, compte tenu de la formule (18) de III, p. 110,
 
-Nrd$_{E/K}(u) =_i\prod_{=1}^nN_{L_i/K}(a_i) =\prod_{i=1}^n$ Nrd$_{D/K}(a_i)$
+Nrd$_{E/K}(u) =\prod_{i=1}^nN_{L_i/K}(a_i) =\prod_{i=1}^n$ Nrd$_{D/K}(a_i)$
 
 = Nrd$_{D/K}(a_1. . . a_n) =$ Nrd($\pi (a_1. . . a_n)$).
 

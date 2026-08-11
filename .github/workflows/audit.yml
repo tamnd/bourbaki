@@ -64,6 +64,16 @@ jobs:
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: go run ./cmd/bourbaki assemble -book alg-viii -check
+      # Both printings, because the two are assembled from different pages by
+      # the same code and only the English was checked here. A repair to the
+      # French pages therefore reached pages/ and stopped, and content/fr sat
+      # eighteen files behind for as long as it took somebody to run assembly by
+      # hand. A printing that is not checked is a printing that goes stale.
+      - name: assemble -check, French
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki assemble -book alg-viii-fr -lang fr -check
       - name: tags verify
         working-directory: .solver
         env:

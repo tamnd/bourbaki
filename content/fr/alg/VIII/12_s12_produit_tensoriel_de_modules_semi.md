@@ -41,7 +41,7 @@ subsections:
       pdf_page: 221
 statements: 26
 exercises: 17
-content_sha256: 9e42892d72dc2ab26c82028829284468e5686373270b4f69406c6225b1a5cc75
+content_sha256: 462225e0ce5ca6e64289c41290358cdcb9e28b091e9b82016369f508c575066f
 ---
 
 ## § 12. PRODUIT TENSORIEL DE MODULES SEMI-SIMPLES
@@ -84,7 +84,7 @@ a) Soit $M_1$ un $A_1$-module et $M_2$ un $A_2$-module tous deux simples (resp. 
 
 b) L’application de $\mathscr{S}_K(A_1)\times \mathscr{S}_K(A_2)$sur $\mathscr{S}_K(A_1\otimes A_2)$qui applique (cl(S$_1)$, cl(S$_2))$sur cl(S$_1\otimes S_2)$lorsque $S_1$ (resp. $S_2)$est un $A_1$-module (resp. $A_2$-module) simple de dimension finie sur K est bijective.
 
-Pour démontrer a), il suffit de considérer le cas où $M_1$ et $M_2$ sont simples. Soit $M'$ un sous-A-module de $M = M_1\otimes M_2$, c’est un sous-A$_1$-module de $M_1\otimes M_2$, stable par l’ensemble des endomorphismes de la forme $1_{M_1}\otimes u$, où $u$ parcourt l’ensemble des homothéties du $A_2$-module $M_2$. Comme le corps K est algébriquement clos, le lemme de Schur (VIII, p. 43, th. 1) entraîne que le commutant End$_A(M_1)$ de $M_1$ est égal à K. D’après le cor. 2 de VIII, p. 59, le sous-A-module $M'$ de $M^{^1}_1\otimes M_2$ est de la forme $M_1\otimes M'_2$, où $M'_2$ est un sous-A$_2$-module de $M_2$. On a supposé que $M_2$ est simple ; on a donc $M'_2= 0$ ou $M'_2= M_2$, c’est-à-dire $M'= 0$ ou $M'= M$. Donc M est simple.
+Pour démontrer a), il suffit de considérer le cas où $M_1$ et $M_2$ sont simples. Soit $M'$ un sous-A-module de $M = M_1\otimes M_2$, c’est un sous-A$_1$-module de $M_1\otimes M_2$, stable par l’ensemble des endomorphismes de la forme $1_{M_1}\otimes u$, où $u$ parcourt l’ensemble des homothéties du $A_2$-module $M_2$. Comme le corps K est algébriquement clos, le lemme de Schur (VIII, p. 43, th. 1) entraîne que le commutant End$_{A_1}(M_1)$ de $M_1$ est égal à K. D’après le cor. 2 de VIII, p. 59, le sous-A-module $M'$ de $M_1\otimes M_2$ est de la forme $M_1\otimes M'_2$, où $M'_2$ est un sous-A$_2$-module de $M_2$. On a supposé que $M_2$ est simple ; on a donc $M'_2= 0$ ou $M'_2= M_2$, c’est-à-dire $M'= 0$ ou $M'= M$. Donc M est simple.
 
 Si S est un module simple sur $A_1\otimes A_2$, de dimension finie sur K, il résulte de la prop. 2 et de a) que S est isomorphe à un module de la forme $S_1\otimes S_2$, où $S_1$ (resp. $S_2)$ est un $A_1$-module (resp. $A_2$-module) simple. De plus, en tant que $A_i$-module, S est isotypique de type $S_i$, donc la classe de $S_i$ ne dépend que de celle de S. Cela prouve b).
 

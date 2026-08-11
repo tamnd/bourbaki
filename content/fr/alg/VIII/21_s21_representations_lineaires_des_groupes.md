@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: d7e3e3fb03067fed80d812c20ecaec5423bb7471560c5404774090b7dff01702
+content_sha256: 49c4d19f3a925bc02a97bc6023099ba99b3e6e0296c9f3c5b7fe0dab9089b729
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -87,7 +87,7 @@ On utilisera librement pour les représentations linéaires du groupe G la termi
 Une application $f$ de G dans K est appelée fonction centrale si l’on a $f(gg') =$ $f(g'g)$ pour tout couple d’éléments $g, g'$ de G ; il revient au même de dire que l’on a $f(ghg^{-1}) =f(h)$ pour tout couple d’éléments $g, h$ de G. Les fonctions centrales sont donc les fonctions sur G dont la restriction à chaque classe de conjugaison est constante. Elles forment un sous-module de l’espace des applications de G dans K, noté $\mathscr{Z}_K(G)$. Lorsque G est fini, la K-algèbre $\mathscr{Z}_K(G)$ est un K-module libre de dimension le nombre des classes de conjugaison de G. Le centre Z(K[G]) de l’algèbre K[G] est formé des éléments $a=\sum a_gg$ de K[G] tels que $hah^{-1}=a$ pour tout $h\in G$. Or on a
 
 $$
-hah^{-1}=_g\sum_{\in G}a_{h^{-1}gh}g
+hah^{-1}=\sum_{g\in G}a_{h^{-1}gh}g
 $$
 
 par suite, lorsque G est fini, le centre Z(K[G]) de l’algèbre K[G] se compose des fonctions centrales.
@@ -197,7 +197,7 @@ On suppose que le groupe G est fini. Soit M un K[G]-module, soit N un sous-K[G]-
 Soit $p$ un projecteur K-linéaire dans M, d’image N. On définit un endomorphisme $q$ du K-module M en posant
 
 $$
-q(x) =|G|^{-1}_g\sum_{\in G}g p(g^{-1}x)
+q(x) =|G|^{-1}\sum_{g\in G}g p(g^{-1}x)
 $$
 
 pour tout $x\in M$. Comme N est stable pour l’action de G et que $p$ induit l’identité sur N, on voit que $q$ applique M dans N et induit l’identité sur N.
@@ -294,7 +294,7 @@ Soit H un sous-groupe d’indice fini de G. Soit $(M, \sigma )$une représentati
 
 Soit S un système de représentants de $G/H$. Comme on l’a vu plus haut, l’application linéaire $M^S\rightarrow$ Ind$^G_H(M)$ donnée par $(m_s)_{s\in S}\rightarrow \sum_{s\in S}s\otimes m_s$ est un isomorphisme de K-modules. En particulier, V est un K-module libre de dimension finie. Pour tout $g\in G$, notons $M_g$ l’image de M par l’application $m\rightarrow g\otimes m$. Pour tous $g, g'\in G$, on a que $M_g= M_{g'}$ si et seulement si $gH =g'H$ et V est somme directe des sous-modules $M_s$ pour $s\in S$. Pour tous $g, g'\in G$ on a également $\pi (g)M_{g'}= M_{gg'}$. Pour tout $g\in G$, notons $S_g$ l’ensemble des éléments $s$ de S tels que $s^{-1}gs\in H$. Pour tous $g, g'\in G$ tels que $g^{'-1}gg'\in H$, l’automorphisme $\pi (g)$ de V induit un automorphisme $\pi (g)_{g'}$ de $M_{g'}$ et l’on a
 
-Tr($\pi (g)$) $=_s\sum_{\in S_g}$ Tr($\pi (g)_s$) $=_s\sum_{\in S_g}$ Tr($\sigma (s^{-1}gs)$).
+Tr($\pi (g)$) $=\sum_{s\in S_g}$ Tr($\pi (g)_s$) $=\sum_{s\in S_g}$ Tr($\sigma (s^{-1}gs)$).
 
 La dernière assertion en résulte.
 
@@ -360,27 +360,27 @@ Notons $F(\widehat{G})$ l’algèbre produit $\prod_{\lambda\in\widehat{G}}$ End
 
 Pour tout $\lambda \in \widehat{G}$, la dimension de l’algèbre End$_K(V_{\lambda})$ est $d^2_{\lambda}$; celle de l’algèbre K[G] est Card(G) ; on a donc la relation
 
-(8) Card(G) $=_{\lambda}\sum_{\in\widehat{G}}d^2_{\lambda}$.
+(8) Card(G) $=\sum_{\lambda\in\widehat{G}}d^2_{\lambda}$.
 
 Notons $\tau$ la trace dans l’algèbre K[G] ; par définition, la trace $\tau (a)$ d’un élément $a$ de K[G] est la trace de l’endomorphisme $x\rightarrow ax$ de K[G] (III, p. 110). Soit $a=\sum_{g\in G}a_gg$ un élément de K[G] ; d’après la formule (2), on a $\tau (ag^{-1}) =|G|a_g$ pour tout $g\in G$, d’où la relation
 
 $$
-a=|G|^{-1}_g\sum_{\in G}\tau (ag^{-1})g \tag{9}
+a=|G|^{-1}\sum_{g\in G}\tau (ag^{-1})g \tag{9}
 $$
 
 Notons $\widehat{\tau}$ la trace dans l’algèbre $F(\widehat{G})$. Soit $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ un élément de $F(\widehat{G})$; on a (cf. III, p. 111, exemple 3)
 
-(10) $\widehat{\tau}(A) =\sum d_{\lambda}$ Tr(A$_{\lambda})$.
+(10) $\widehat{\tau}(A) =\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda})$.
 
-Comme l’application $\mathscr{F}$ est un isomorphisme de K-algèbres, on a$^{\lambda\in\widehat{G}}\widehat{\tau}\circ \mathscr{F}=\tau$, d’où
+Comme l’application $\mathscr{F}$ est un isomorphisme de K-algèbres, on a $\widehat{\tau}\circ \mathscr{F}=\tau$, d’où
 
-$\tau (a) =\widehat{\tau}(\mathscr{F}(a)) =\widehat{\tau}((\pi_{\lambda}(a))_{\lambda\in\widehat{G}})=\sum d_{\lambda}$ Tr($\pi_{\lambda}(a)$) $=\sum d_{\lambda}$ Tr$_{\lambda}(a)$
+$\tau (a) =\widehat{\tau}(\mathscr{F}(a)) =\widehat{\tau}((\pi_{\lambda}(a))_{\lambda\in\widehat{G}})=\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr($\pi_{\lambda}(a)$) $=\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr$_{\lambda}(a)$
 
-pour tout $a\in K[G]$, c’est-à-dire $\lambda^{\in\widehat{G}\lambda\in\widehat{G}}$
+pour tout $a\in K[G]$, c’est-à-dire
 
-(11) $\tau =\sum d_{\lambda}$ Tr$_{\lambda}$.
+(11) $\tau =\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr$_{\lambda}$.
 
-D’après (2), pour $g\in G$, on a donc $^{\lambda\in\widehat{G}}$
+D’après (2), pour $g\in G$, on a donc
 
 $\sum|G|$ si $g$ est l’élément neutre
 
@@ -392,17 +392,17 @@ $_{\lambda\in\widehat{G}}$ 0 sinon.
 
 Pour $a\in K[G]$, la relation (9) prend la forme suivante :
 
-(13) $a=|G|^{-1}_g\sum_{\in G\lambda}\sum_{\in\widehat{G}}d_{\lambda}$ Tr($\pi_{\lambda}(a)\pi_{\lambda}(g^{-1})$)$g$;
+(13) $a=|G|^{-1}\sum_{g\in G}\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr($\pi_{\lambda}(a)\pi_{\lambda}(g^{-1})$)$g$;
 
 il en résulte que, pour tout élément $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ de $F(\widehat{G})$, on a
 
-(14) $\mathscr{F}^{-1}(A) =|G|^{-1}_g\sum_{\in G\lambda}\sum_{\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda}\pi_{\lambda}(g^{-1}))g$.
+(14) $\mathscr{F}^{-1}(A) =|G|^{-1}\sum_{g\in G}\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda}\pi_{\lambda}(g^{-1}))g$.
 
 (« Formule d’inversion de Fourier »).
 
 Pour $\mu \in \widehat{G}$, notons $j_{\mu}:$ End$_K(V_{\mu})\longrightarrow \prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ l’application telle que $j_{\mu}(u) = (v_{\lambda})$ où $v_{\lambda}= 0$ si $\lambda \not=\mu$ et $v_{\mu}=u$. Par la formule (14),
 
-(15) $\mathscr{F}^{-1}(j_{\mu}(u)) =|G|^{-1}d_{\mu g}\sum_{\in G}$ Tr($u\pi_{\mu}(g^{-1})$)$g$.
+(15) $\mathscr{F}^{-1}(j_{\mu}(u)) =|G|^{-1}d_{\mu}\sum_{g\in G}$ Tr($u\pi_{\mu}(g^{-1})$)$g$.
 
 Le centre de l’algèbre $F(\widehat{G}) =\prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ se compose des familles $(a_{\lambda}1_{V_{\lambda}})_{\lambda\in\widehat{G}}$, où $(a_{\lambda})$ est une famille d’éléments de K. C’est l’image par $\mathscr{F}$ du centre de l’algèbre K[G]. Celui-ci possède donc une base $(e_{\lambda})_{\lambda\in\widehat{G}}$ caractérisée par la condition
 
@@ -413,21 +413,21 @@ $$
 pour $\lambda , \mu \in \widehat{G}$, où $\delta_{\lambda \mu}$ désigne le symbole de Kronecker. D’après la formule (15), on a, pour tout $\mu \in \widehat{G}$,
 
 $$
-e_{\mu}=|G|^{-1}d_{\mu g}\sum_{\in G}\chi_{\mu}(g^{-1})g \tag{17}
+e_{\mu}=|G|^{-1}d_{\mu}\sum_{g\in G}\chi_{\mu}(g^{-1})g \tag{17}
 $$
 
 Ces éléments satisfont aux relations
 
-(18) $\sum e_{\lambda}= 1,e^2_{\mu}=e_{\mu}$, et $e_{\mu}e_{\nu}= 0$
+(18) $\lambda \sum_{\in\widehat{G}}e_{\lambda}= 1,e^2_{\mu}=e_{\mu}$, et $e_{\mu}e_{\nu}= 0$
 
-pour tous $\mu , \nu \in \widehat{G}$ tels que$^{\lambda\in\widehat{G}}\mu \not=\nu$; ce sont les idempotents indécomposables de Z(K[G]) (VIII, p. 143, prop. 15)
+pour tous $\mu , \nu \in \widehat{G}$ tels que $\mu \not=\nu$; ce sont les idempotents indécomposables de Z(K[G]) (VIII, p. 143, prop. 15)
 
 #### Remarque {#alg-viii-s21-n5-rem-1 .statement tag=00NR}
 
 Soit $(V, \pi )$ une représentation linéaire de G. D’après le théorème de Maschke, le K[G]-module V est semi-simple. Pour tout $\lambda \in \widehat{G}$, notons $V^{\lambda}$ le composant isotypique de type $\lambda$ du K[G]-module V ; on a $V =\bigoplus_{\lambda\in\widehat{G}}V^{\lambda}$. D’après la prop. 15 de VIII, p. 143 et la formule (17), le projecteur de V d’image $V^{\lambda}$ associé à cette décomposition de V est égal à
 
 $$
-\pi (e_{\lambda}) =|G|^{-1}d_{\lambda g}\sum_{\in G}\chi_{\lambda}(g^{-1})\pi (g) \tag{19}
+\pi (e_{\lambda}) =|G|^{-1}d_{\lambda}\sum_{g\in G}\chi_{\lambda}(g^{-1})\pi (g) \tag{19}
 $$
 
 En appliquant cette formule à $\pi =\pi_{\lambda}$, on obtient que l’élément $d_{\lambda}.1$ de K n’est pas nul. Nous verrons plus loin (VIII, p. 410, cor. 2) que $d_{\mu}$ divise le cardinal de G.
@@ -442,16 +442,16 @@ $\widehat{\tau}(j_{\lambda}(u)j_{\lambda}(v)) =d_{\lambda}$ Tr($uv$).
 
 Comme $\tau = \widehat{\tau}\circ \mathscr{F}$, on déduit des formules (2) et (15) la relation
 
-$d^2_{\lambda}|G|^{-1}_g\sum_{\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d_{\lambda}$ Tr($uv$).
+$d^2_{\lambda}|G|^{-1}\sum_{g\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d_{\lambda}$ Tr($uv$).
 
 On a remarqué plus haut que $d_{\lambda}.1\not= 0$ dans le corps K ; on en déduit
 
-(20) $|G|^{-1}_g\sum_{\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d^{-1}_{\lambda}$ Tr($uv$).
+(20) $|G|^{-1}\sum_{g\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d^{-1}_{\lambda}$ Tr($uv$).
 
 Spécialisons cette relation au cas où $u$ et $v$ sont de rang $\leqslant 1$; on obtient
 
 $$
-|G|^{-1}_g\sum_{\in G}\langle x^*, \pi_{\lambda}(g)x\rangle  \langle y^*, \pi_{\lambda}(g^{-1})y\rangle =d^{-1}_{\lambda}\langle x^*, y\rangle \langle y^*, x\rangle \tag{21}
+|G|^{-1}\sum_{g\in G}\langle x^*, \pi_{\lambda}(g)x\rangle  \langle y^*, \pi_{\lambda}(g^{-1})y\rangle =d^{-1}_{\lambda}\langle x^*, y\rangle \langle y^*, x\rangle \tag{21}
 $$
 
 pour $x,y$ dans $V_{\lambda}$ et $x^*, y^*$ dans le dual $V^*_{\lambda}$ de $V_{\lambda}$.
@@ -459,7 +459,7 @@ pour $x,y$ dans $V_{\lambda}$ et $x^*, y^*$ dans le dual $V^*_{\lambda}$ de $V_{
 Pour tout $\lambda \in \widehat{G}$, soit $(e_{\lambda ,j})_{1\leqslant j\leqslant d_{\lambda}}$ une base de $V_{\lambda}$; notons $(\pi_{ij}^{\lambda}(g))$ la matrice de l’endomorphisme $\pi_{\lambda}(g)$ de $V_{\lambda}$ par rapport à cette base. Si l’on note $(e^*_{\lambda ,i})_{1\leqslant i\leqslant d_{\lambda}}$ la base de $V^*_{\lambda}$ duale de $(e_{\lambda ,j})$, on a $\pi_{ij}^{\lambda}(g) =\langle e^*_{\lambda ,i}, \pi_{\lambda}(g)e_{\lambda ,j}\rangle$, d’où
 
 $$
-|G|^{-1}_g\sum_{\in G}\pi^{\lambda}_{ij}(g)\pi^{\lambda}_{k\ell}(g^{-1}) =d^{-1}_{\lambda}\delta_{i\ell}\delta_{jk} \tag{22}
+|G|^{-1}\sum_{g\in G}\pi^{\lambda}_{ij}(g)\pi^{\lambda}_{k\ell}(g^{-1}) =d^{-1}_{\lambda}\delta_{i\ell}\delta_{jk} \tag{22}
 $$
 
 Soient maintenant $\lambda$ et $\mu$ deux éléments distincts de $\widehat{G}$ et soient $u\in$ End$_K(V_{\lambda})$ et $v\in$ End$_K(V_{\mu})$. À nouveau d’après la relation (15), on a
@@ -493,7 +493,7 @@ $$
 De plus, d’après la formule (15), on a
 
 $$
-u^{\lambda}_{ij}=|G|^{-1}d_{\lambda g}\sum_{\in G}\pi_{ji}^{\lambda}(g^{-1})g \tag{27}
+u^{\lambda}_{ij}=|G|^{-1}d_{\lambda}\sum_{g\in G}\pi_{ji}^{\lambda}(g^{-1})g \tag{27}
 $$
 
 ### 7. Relation d’orthogonalité des caractères
@@ -503,7 +503,7 @@ Conservons les notations des numéros 5 et 6. Rappelons que Z(K[G]) est formé d
 On définit une application bilinéaire symétrique de $K[G]\times K[G]$ dans K par la formule
 
 $$
-\langle f, f'\rangle_G=|G|^{-1}_g\sum_{\in G}f_gf_g'_{_{-1}} \tag{28}
+\langle f, f'\rangle_G=|G|^{-1}\sum_{g\in G}f_gf_g'_{_{-1}} \tag{28}
 $$
 
 pour tous $f=\sum f_gg$ et $f'=\sum f_g'g$ appartenant à K[G]. On a $\langle f, f'\rangle_G=|G|^{-2}\tau (f f')$.
@@ -555,10 +555,10 @@ pour $\lambda$ et $\mu$ dans $\widehat{G}$.
 Notons A la matrice de type $\widehat{G}\times \mathscr{C}$ d’éléments $\chi_{\lambda}(C)$ et B la matrice de type $\mathscr{C}\times \widehat{G}$, d’éléments $\chi_{\lambda}(C^{-1})d(C)^{-1}$. Les ensembles $\widehat{G}$ et $\mathscr{C}$ ont le même cardinal (prop. 5) ; la relation (31) exprime que la matrice produit AB est la matrice unité de type $\widehat{G}\times \widehat{G}$. D’après la prop. 11 de II, p. 159, la matrice produit BA est la matrice unité de type $\mathscr{C}\times \mathscr{C}$; autrement dit, on a la relation
 
 $$
-\sum\chi_{\lambda}(C^{-1})\chi_{\lambda}(C') =d(C)\delta_{CC'} \tag{32}
+\lambda \sum_{\in\widehat{G}}\chi_{\lambda}(C^{-1})\chi_{\lambda}(C') =d(C)\delta_{CC'} \tag{32}
 $$
 
-pour C et $C'$ dans $\mathscr{C}$ (appelée parfois « $^{\lambda\in\widehat{G}}$ seconde relation d’orthogonalité des caractères »).
+pour C et $C'$ dans $\mathscr{C}$ (appelée parfois « seconde relation d’orthogonalité des caractères »).
 
 Soit H un sous-groupe de G. Remarquons que l’entier Card(H) divise Card(G) et que $|G|$ n’est pas nul dans K ; on a donc $|H| \not= 0$ dans K.
 
@@ -589,13 +589,13 @@ Soit $f$ une application de G dans K. Les assertions suivantes sont équivalente
 (ii) Pour tout couple $(g, g')$d’éléments de G, on a
 
 $$
-f(g)f(g') =|G|^{-1}f(1)_h\sum_{\in G}f(hgh^{-1}g') \tag{34}
+f(g)f(g') =|G|^{-1}f(1)\sum_{h\in G}f(hgh^{-1}g') \tag{34}
 $$
 
 Soit $\lambda$ un élément de $\widehat{G}$; pour tout endomorphisme $u$ de $V_{\lambda}$, posons
 
 $$
-u^{\natural}=|G|^{-1}_h\sum_{\in G}\pi_{\lambda}(h)u \pi_{\lambda}(h^{-1}) \tag{35}
+u^{\natural}=|G|^{-1}\sum_{h\in G}\pi_{\lambda}(h)u \pi_{\lambda}(h^{-1}) \tag{35}
 $$
 
 L’endomorphisme $u^{\natural}$ de $V_{\lambda}$ est K[G]-linéaire ; d’après le lemme de Schur (VIII, p. 43, th. 1$),u^{\natural}$ est une homothétie ; comme $u$ et $u^{\natural}$ ont la même trace, on a donc
@@ -604,23 +604,23 @@ $u^{\natural}=d^{-1}_{\lambda}$ Tr($u$) $1_{V_{\lambda}}$.
 
 Soient $u$ et $v$ des endomorphismes de $V_{\lambda}$; on en déduit
 
-(36) Tr($u$) Tr($v$) $=d_{\lambda}$ Tr($u^{\natural}v$) $=d_{\lambda}|G|^{-1}_h\sum_{\in G}$ Tr($\pi_{\lambda}(h)u \pi_{\lambda}(h^{-1})v$).
+(36) Tr($u$) Tr($v$) $=d_{\lambda}$ Tr($u^{\natural}v$) $=d_{\lambda}|G|^{-1}\sum_{h\in G}$ Tr($\pi_{\lambda}(h)u \pi_{\lambda}(h^{-1})v$).
 
 Prenons $u=\pi_{\lambda}(g),v=\pi_{\lambda}(g')$ dans la formule (36) ; la relation (34) pour $f=\chi_{\lambda}$ en résulte.
 
 Inversement, supposons la condition (ii) satisfaite. Si l’on a $f(1) = 0$, on en déduit $f(g)f(g') = 0$ pour tout couple $(g, g')$ d’éléments de G, d’où $f= 0$. On peut donc supposer $f(1)\not= 0$. Prenons $g'= 1$ dans (34), on obtient la relation
 
 $$
-f(g) =|G|^{-1}_h\sum_{\in G}f(hgh^{-1})
+f(g) =|G|^{-1}\sum_{h\in G}f(hgh^{-1})
 $$
 
 pour tout $g\in G$, ce qui entraîne que $f$ est une fonction centrale. D’après la proposition 5, il existe une famille $(a_{\lambda})$ d’éléments de K telle que $f=\sum_{\lambda\in\widehat{G}}a_{\lambda}\chi_{\lambda}$. Remplaçons $f$ par cette expression dans la formule (34) ; tenant compte de ce que chacun des caractères $\chi_{\lambda}$ satisfait aussi à cette relation, on trouve
 
 $$
-\sum a_{\lambda}a_{\mu}\chi_{\lambda}(g)\chi_{\mu}(g') =\sum a_{\lambda}d^{-1}_{\lambda}f(1)\chi_{\lambda}(g)\chi_{\lambda}(g') \tag{37}
+\lambda ,\mu \sum_{\in\widehat{G}}a_{\lambda}a_{\mu}\chi_{\lambda}(g)\chi_{\mu}(g') =\sum_{\lambda\in\widehat{G}}a_{\lambda}d^{-1}_{\lambda}f(1)\chi_{\lambda}(g)\chi_{\lambda}(g') \tag{37}
 $$
 
-pour $g, g'\in G$. La relation précédente s’écrit également$^{\lambda ,\mu\in\widehat{G}\lambda\in\widehat{G}}$
+pour $g, g'\in G$. La relation précédente s’écrit également
 
 $$
 \sum_{\lambda ,\mu}(a_{\lambda}a_{\mu}-\delta_{\lambda \mu}a_{\lambda}d^{-1}_{\lambda}f(1))\chi_{\lambda}(g)\chi_{\mu}(g') = 0 \tag{38}
@@ -641,19 +641,19 @@ Dans ce numéro, on suppose que le groupe G est commutatif.
 D’après le lemme de Schur (VIII, p. 44, cor. 1), toute représentation simple de G est de dimension 1. Soient $(M, \pi )$ une telle représentation et $\chi$ son caractère ; pour tout $g\in G$ et tout $x\in M$, on a $\pi (g)(x) =\chi (g)x$. Par suite, le caractère $\chi$ est un homomorphisme de G dans le groupe multiplicatif $K^*$ de K. Inversement, tout homomorphisme de G dans $K^*$ est le caractère d’une représentation de degré 1 de G. Ainsi l’ensemble $\widehat{G}$ des classes de K[G]-modules simples s’identifie à l’ensemble Hom(G$,K^*)$ des homomorphismes de G dans $K^*$. On en déduit une structure de groupe commutatif sur $\widehat{G}$; le produit dans $\widehat{G}$ correspond au produit tensoriel des représentations. Les groupes G et $\widehat{G}$ ont même cardinal d’après la prop. 5 de VIII, p. 401. Toute fonction sur G est centrale et $\widehat{G}$ est une base de l’espace vectoriel des applications de G dans K (loc. cit.). En vertu de la relation d’orthogonalité des caractères, une telle application $f$ se décompose sur la base $\widehat{G}$ de la manière suivante :
 
 $$
-f=_{\chi}\sum_{\in\widehat{G}}\langle \chi , f\rangle_G\chi \tag{39}
+f=\sum_{\chi\in\widehat{G}}\langle \chi , f\rangle_G\chi \tag{39}
 $$
 
 Pour des applications $f$ et $f'$ de G dans K, on a la relation
 
 $$
-\langle f, f'\rangle_G=\sum\langle \chi , f\rangle_G\langle \chi , f'\rangle_G \tag{40}
+\langle f, f'\rangle_G=\sum_{\chi\in\widehat{G}}\langle \chi , f\rangle_G\langle \chi , f'\rangle_G \tag{40}
 $$
 
-Soit $(V, \pi )$ une représentation linéaire de G. Pour tout$^{\chi\in\widehat{G}}\chi \in \widehat{G}$, notons $V^{\chi}$ le sous-espace de V formé des vecteurs $v$ tels que $\pi (g)(v) =\chi (g)v$ pour tout $g\in G$; l’espace $V^{\chi}$ est le composant isotypique de type $\chi$ du K[G]-module V. L’espace V est somme directe de la famille $(V^{\chi})_{\chi\in\widehat{G}}$ et le projecteur $p_{\chi}$ de V d’image $V^{\chi}$ associé à cette décomposition est donné par
+Soit $(V, \pi )$ une représentation linéaire de G. Pour tout $\chi \in \widehat{G}$, notons $V^{\chi}$ le sous-espace de V formé des vecteurs $v$ tels que $\pi (g)(v) =\chi (g)v$ pour tout $g\in G$; l’espace $V^{\chi}$ est le composant isotypique de type $\chi$ du K[G]-module V. L’espace V est somme directe de la famille $(V^{\chi})_{\chi\in\widehat{G}}$ et le projecteur $p_{\chi}$ de V d’image $V^{\chi}$ associé à cette décomposition est donné par
 
 $$
-p_{\chi}=|G|^{-1}_g\sum_{\in G}\chi (g^{-1})\pi (g) \tag{41}
+p_{\chi}=|G|^{-1}\sum_{g\in G}\chi (g^{-1})\pi (g) \tag{41}
 $$
 
 en vertu de la relation (19).
@@ -721,19 +721,19 @@ Posons $\zeta '=\varphi (\zeta )$; c’est une racine primitive $n$-ème de l’
 Identifions l’algèbre $\mathscr{O}[G]$ du groupe G sur $\mathscr{O}$ à un sous-anneau de l’algèbre K[G], et définissons un homomorphisme d’anneaux Φ de $\mathscr{O}[G]$ dans $K'[G]$ par la formule
 
 $$
-\Phi (_g\sum_{\in G}a_gg)=_g\sum_{\in G}\varphi_1(a_g)g \tag{42}
+\Phi (\sum_{g\in G}a_gg)=\sum_{g\in G}\varphi_1(a_g)g \tag{42}
 $$
 
 Notons $\mathscr{C}$ l’ensemble des classes de conjugaison de G. Pour C dans $\mathscr{C}$, notons $u_C$ l’élément $\sum_{g\in C}g$ de $\mathscr{O}[G]$; la famille $(u_C)_{C\in\mathscr{C}}$ est une base sur $\mathscr{O}$ du centre $Z(\mathscr{O}[G])$ de l’algèbre $\mathscr{O}[G]$ (VIII, p. 388). Pour tout élément $\lambda$ de $\mathscr{S}_K$(G), notons $\chi_{\lambda}$ son caractère, $d_{\lambda}$ sa dimension et $e_{\lambda}$ l’élément de K[G] défini par
 
 $$
-e_{\lambda}=|G|^{-1}d_{\lambda g}\sum_{\in G}\chi_{\lambda}(g^{-1})g \tag{43}
+e_{\lambda}=|G|^{-1}d_{\lambda}\sum_{g\in G}\chi_{\lambda}(g^{-1})g \tag{43}
 $$
 
 La famille $(e_{\lambda})$ est une base sur K du centre Z(K[G]) de l’anneau K[G] (VIII, p. 398). On a
 
 $$
-e_{\lambda}=_C\sum_{\in\mathscr{C}}\alpha_{\lambda ,C}u_C \tag{44}
+e_{\lambda}=\sum_{C\in\mathscr{C}}\alpha_{\lambda ,C}u_C \tag{44}
 $$
 
 avec
@@ -747,7 +747,7 @@ Pour $C\in \mathscr{C}$ et $\lambda \in \mathscr{S}_K$(G), posons $\beta_{C,\lam
 Les éléments $\Phi (u_C) =\sum_{g\in C}g$ de $K'[G]$ forment une base sur $K'$ du centre $Z(K'[G])$ de l’anneau $K'[G]$. On a
 
 $$
-\Phi (e_{\lambda}) =_C\sum_{\in\mathscr{C}}\varphi_1(\alpha_{\lambda ,C}) \Phi (u_C) \tag{46}
+\Phi (e_{\lambda}) =\sum_{C\in\mathscr{C}}\varphi_1(\alpha_{\lambda ,C}) \Phi (u_C) \tag{46}
 $$
 
 et la matrice d’éléments $\varphi_1(\alpha_{\lambda ,C})$ est inversible. La famille des $\Phi (e_{\lambda})$ est donc une base de $Z(K'[G])$. La famille $(e_{\lambda})$ est une partition de l’idempotent 1 dans Z(K[G]) (VIII, p. 141 et p. 398) ; autrement dit, on a
@@ -764,7 +764,7 @@ $$
 \delta (T) = (1 + T\omega_1). . .(1 + T\omega_{d_{\lambda}})
 $$
 
-On définit de même $\delta '(T)$ et on note $\omega '_1, . . . , \omega_d'_{_'}$ les valeurs propres de $\pi_{\lambda'}(g)$. Le $\mathscr{O}$-module $\mathscr{O}[G]$ est libre de base G et le K-espace vectoriel K[G] a pour base $G.^{\lambda}$ Notons Δ(T) le déterminant de la multiplication par $1 +e_{\lambda}gT$ dans le $\mathscr{O}$[T]-module $\mathscr{O}[T]\otimes_{\mathscr{O}}\mathscr{O}[G]$. C’est aussi le déterminant de la multiplication par $1 +e_{\lambda}gT$ dans le K[T]-module $K[T]\otimes_KK[G]$. Soit $\varphi_1$ l’homomorphisme de $\mathscr{O}[T]$ dans $K'[T]$ qui prolonge $\varphi_1$ et applique T sur T. Comme G est une base du $K'$-espace vectoriel $K'[G]$, le polynôme $\varphi_1(\Delta (T))$ est égal au déterminant $\Delta '(T)$ de la multiplication par $1 +e_{\lambda'}gT$ dans le $K'$-espace vectoriel $K'[G]$.
+On définit de même $\delta '(T)$ et on note $\omega '_1, . . . , \omega_d'_{_{\lambda'}}$ les valeurs propres de $\pi_{\lambda'}(g)$. Le $\mathscr{O}$-module $\mathscr{O}[G]$ est libre de base G et le K-espace vectoriel K[G] a pour base G. Notons Δ(T) le déterminant de la multiplication par $1 +e_{\lambda}gT$ dans le $\mathscr{O}$[T]-module $\mathscr{O}[T]\otimes_{\mathscr{O}}\mathscr{O}[G]$. C’est aussi le déterminant de la multiplication par $1 +e_{\lambda}gT$ dans le K[T]-module $K[T]\otimes_KK[G]$. Soit $\varphi_1$ l’homomorphisme de $\mathscr{O}[T]$ dans $K'[T]$ qui prolonge $\varphi_1$ et applique T sur T. Comme G est une base du $K'$-espace vectoriel $K'[G]$, le polynôme $\varphi_1(\Delta (T))$ est égal au déterminant $\Delta '(T)$ de la multiplication par $1 +e_{\lambda'}gT$ dans le $K'$-espace vectoriel $K'[G]$.
 
 L’algèbre K[G] est somme directe de ses composants simples $e_{\mu}K[G]$ pour $\mu$ parcourant $\mathscr{S}_K(G)$. Pour $\mu$ distinct de $\lambda$, l’élément $e_{\lambda}g$ annule $e_{\mu}K[G]$; de plus, la multiplication par $e_{\lambda}g$ coïncide avec la multiplication par $g$ dans $e_{\lambda}K[G]$. Compte tenu de VIII, p. 398 et de l’exemple 6 de VIII, p. 390, la représentation de G dans $e_{\lambda}K[G]$ est somme directe de $d_{\lambda}$ représentations de classe $\lambda$. On a par suite $\Delta (T) =\delta (T)^{d_{\lambda}}$.
 
@@ -861,7 +861,7 @@ b) Supposons la représentation $\pi$ simple ; si Φ et Ψ sont des formes hermi
 Sur l’espace vectoriel M, choisissons une forme hermitienne, positive et séparante, notée $\Phi_0$. On définit une forme hermitienne Φ, positive, séparante et invariante par G en posant
 
 $$
-\Phi (x, x') =_g\sum_{\in G}\Phi_0(\pi (g)x, \pi (g)x') \tag{49}
+\Phi (x, x') =\sum_{g\in G}\Phi_0(\pi (g)x, \pi (g)x') \tag{49}
 $$
 
 pour $x, x'\in M$.
@@ -871,7 +871,7 @@ Soit Ψ une forme hermitienne sur M ; il existe un unique endomorphisme A de M t
 On munit l’espace vectoriel $\mathbf{C}[G]$ des fonctions complexes sur G de la structure d’espace hilbertien dont le produit scalaire est donné par
 
 $$
-\langle f|f'\rangle_G=|G|^{-1}_g\sum_{\in G}f(g)f'(g) \tag{50}
+\langle f|f'\rangle_G=|G|^{-1}\sum_{g\in G}f(g)f'(g) \tag{50}
 $$
 
 Pour toute fonction $f\in \mathbf{C}[G]$, on note $f^*$ la fonction définie par
@@ -902,7 +902,7 @@ pour $\lambda , \mu \in \widehat{G}$; elle exprime que la famille des caractère
 
 Soient $\pi$ et $\pi '$ des représentations linéaires de G, de dimension finie. On a la relation $\langle \chi_{\pi}|\chi_{\pi'}\rangle_G=$ dim$_{\mathbf{C}}$ Hom$_G(\pi , \pi ')$ (VIII, p. 400, cor.). La représentation $\pi$ est irréductible si et seulement si $\langle \chi_{\pi}|\chi_{\pi}\rangle_G= 1$.
 
-Pour tout élément $\lambda$ de $\widehat{G}$, munissons l’espace vectoriel $V_{\lambda}$ d’une structure d’espace hilbertien pour laquelle les automorphismes $\pi_{\lambda}(g)$ soient unitaires, et notons $\langle v|v'\rangle_{\lambda}$ le produit scalaire de deux éléments $v, v'$ de $V_{\lambda}$ et $u^*$ l’adjoint d’un endomorphisme $u$ de $V_{\lambda}$. Soient $A = (A_{\lambda})_{\in}$ et $A'= (A'_{\lambda})_{\widehat{\in}}$ des éléments de $F(\widehat{G})$. Notons $A^*= (A^*_{\lambda})_{\lambda\in\widehat{G}}$. On a $\mathscr{F}(a^*) = (\mathscr{F}^{\lambda}(a^G))^*$ pour tout élément$^{\lambda G}a$ de $\mathbf{C}[G]$. Posons
+Pour tout élément $\lambda$ de $\widehat{G}$, munissons l’espace vectoriel $V_{\lambda}$ d’une structure d’espace hilbertien pour laquelle les automorphismes $\pi_{\lambda}(g)$ soient unitaires, et notons $\langle v|v'\rangle_{\lambda}$ le produit scalaire de deux éléments $v, v'$ de $V_{\lambda}$ et $u^*$ l’adjoint d’un endomorphisme $u$ de $V_{\lambda}$. Soient $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ et $A'= (A'_{\lambda})_{\lambda\in\widehat{G}}$ des éléments de $F(\widehat{G})$. Notons $A^*= (A^*_{\lambda})_{\lambda\in\widehat{G}}$. On a $\mathscr{F}(a^*) = (\mathscr{F}(a))^*$ pour tout élément $a$ de $\mathbf{C}[G]$. Posons
 
 $$
 \langle A|A'\rangle_{\widehat{G}}=|G|^{-2}\widehat{\tau}(A^*A') \tag{55}
@@ -919,7 +919,7 @@ Comme $\widehat{\tau}\circ \mathscr{F}=\tau$ les formules (53) et (55) entraîne
 Les relations d’orthogonalité de Schur (VIII, p. 399) peuvent être reformulées à l’aide des produits scalaires hilbertiens. Ainsi, les relations (21) et (24) donnent les assertions suivantes. Pour $\lambda \in \widehat{G}$ et pour $x, x', y, y'$ dans $V_{\lambda}$, on a
 
 $$
-|G|^{-1}_g\sum_{\in G}\langle x|\pi_{\lambda}(g)x'\rangle_{\lambda}\langle y|\pi_{\lambda}(g)y'\rangle_{\lambda}=d^{-1}_{\lambda}\langle x|y\rangle_{\lambda}\langle x'|y'\rangle_{\lambda} \tag{57}
+|G|^{-1}\sum_{g\in G}\langle x|\pi_{\lambda}(g)x'\rangle_{\lambda}\langle y|\pi_{\lambda}(g)y'\rangle_{\lambda}=d^{-1}_{\lambda}\langle x|y\rangle_{\lambda}\langle x'|y'\rangle_{\lambda} \tag{57}
 $$
 
 Si $\lambda$ et $\mu$ sont deux éléments distincts de $\widehat{G}$, pour $x, x'$ dans $V_{\lambda}$ et $y, y'$ dans $V_{\mu}$, on a
