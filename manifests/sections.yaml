@@ -119,7 +119,7 @@ books:
               statements: 30
               exercises: 6
               extraction: native
-              content_sha256: d0e14ed417fab307ace36851aa1f4d79a16265446147b476f0a6c8f8b36f2922
+              content_sha256: 5ad6c7b0a819fd505ea64e2b487000502722f977bdbdd95d27aa63f2c58ade79
             - kind: section
               section: 9
               title: Radical
@@ -314,7 +314,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: 973cb338a4780757b1e3213392d748f3ef19c126940af1b9c501ab1c318e8331
+              content_sha256: ce53f4329c6bed6903f5162fc1dd1c1f46300790ea305286e59166cfd0b77e8d
             - kind: appendix
               section: 3
               title: Hilbert’s Nullstellensatz
@@ -471,7 +471,7 @@ books:
               statements: 30
               exercises: 6
               extraction: native
-              content_sha256: e6542dbfa560e960244746816d2ce033cd2c87b698595279735327043229dad7
+              content_sha256: a419d966cdd4a16f71ca58319af342226f880fefee529f98c2c89e7a1b3d0d2b
             - kind: section
               section: 9
               title: Radical
@@ -666,7 +666,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: 7c5b5108718dd1876d11c57f837b6d263675472290159fad6f7007f100a07326
+              content_sha256: 5e246657d5184f11e650e743ed00ae08b3994123fd5246e1a147d155ecee5137
             - kind: appendix
               section: 3
               title: Le théorème des zéros de Hilbert

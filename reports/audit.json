@@ -1,14 +1,14 @@
 {
   "version": "dev",
-  "commit": "d9308b2a1dff948f33c981c404aadae70ac0993c",
+  "commit": "2b959094b052203544f1a70615a849370fd957fa",
   "root": "/Users/apple/github/tamnd/bourbaki",
   "langs": [
     "en",
     "fr",
     "vi"
   ],
-  "hard": 2,
-  "soft": 173,
+  "hard": 1,
+  "soft": 151,
   "checks": [
     {
       "id": "F01",
@@ -149,14 +149,14 @@
       "group": "mathematics",
       "hard": true,
       "title": "no bracket from the prose closes inside the mathematics",
-      "found": 1
+      "found": 0
     },
     {
       "id": "M08",
       "group": "mathematics",
       "hard": false,
       "title": "no matrix is left flattened into a pair of scripts",
-      "found": 22
+      "found": 0
     },
     {
       "id": "R01",
@@ -404,190 +404,6 @@
     }
   ],
   "findings": [
-    {
-      "check": "M07",
-      "group": "mathematics",
-      "hard": true,
-      "file": "content/fr/alg/VIII/exercises/a2/03.md",
-      "line": 36,
-      "message": "a bracket the prose opened closes inside the mathematics: )I-"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/alg/VIII/08_s8_semisimple_rings.md",
-      "line": 342,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 0}_{0 0}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/alg/VIII/08_s8_semisimple_rings.md",
-      "line": 342,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 0}_{1 0}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/alg/VIII/A2_a2_determinants_over_a_noncommutative_field.md",
-      "line": 373,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{a b}_{c d}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/alg/VIII/A2_a2_determinants_over_a_noncommutative_field.md",
-      "line": 479,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 1}_{0 1}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/alg/VIII/A2_a2_determinants_over_a_noncommutative_field.md",
-      "line": 479,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 0}_{1 1}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/alg/VIII/exercises/a2/03.md",
-      "line": 20,
-      "message": "a matrix the text layer flattened into a pair of scripts: _{C D}^{A B}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/alg/VIII/exercises/a2/03.md",
-      "line": 36,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{A B}_{C D}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/alg/VIII/exercises/a2/03.md",
-      "line": 36,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{D C}_{B A}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/alg/VIII/exercises/s21/30.md",
-      "line": 17,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 1}_{0 1}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/alg/VIII/exercises/s21/30.md",
-      "line": 17,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 0}_{1 1}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/alg/VIII/exercises/s9/31.md",
-      "line": 15,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 0}_{0 0}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/08_s8_anneaux_semi_simples.md",
-      "line": 347,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 0}_{0 0}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/08_s8_anneaux_semi_simples.md",
-      "line": 347,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 0}_{1 0}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md",
-      "line": 364,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{a b}_{c d}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md",
-      "line": 464,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 1}_{0 1}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md",
-      "line": 464,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 0}_{1 1}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/exercises/a2/03.md",
-      "line": 20,
-      "message": "a matrix the text layer flattened into a pair of scripts: _{C D}^{A B}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/exercises/a2/03.md",
-      "line": 38,
-      "message": "a matrix the text layer flattened into a pair of scripts: _{C D}^{A B}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/exercises/a2/03.md",
-      "line": 38,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{D C}_{B A}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/exercises/s21/30.md",
-      "line": 17,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 1}_{0 1}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/exercises/s21/30.md",
-      "line": 17,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 0}_{1 1}"
-    },
-    {
-      "check": "M08",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/exercises/s9/31.md",
-      "line": 15,
-      "message": "a matrix the text layer flattened into a pair of scripts: ^{1 0}_{0 0}"
-    },
     {
       "check": "R01",
       "group": "references",

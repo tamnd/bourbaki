@@ -29,7 +29,7 @@ subsections:
       pdf_page: 147
 statements: 30
 exercises: 6
-content_sha256: e6542dbfa560e960244746816d2ce033cd2c87b698595279735327043229dad7
+content_sha256: a419d966cdd4a16f71ca58319af342226f880fefee529f98c2c89e7a1b3d0d2b
 ---
 
 ## § 8. ANNEAUX SEMI-SIMPLES
@@ -344,7 +344,7 @@ Soit $\mathfrak{a}$ un idéal à gauche de A. D’après la démonstration ci-de
 
 #### Remarque 2 {#alg-viii-s8-n4-rem-2 .statement tag=009R}
 
-Soient $e$ et $f$ des éléments idempotents de A. D’après la prop. 13 b), on a $Ae= Af$ si et seulement si l’on a $ef=e$ et $f e=f$. Par conséquent, si l’anneau A est commutatif, la relation $Ae= Af$ équivaut à $e=f$. Il n’en est pas de même en général, comme le montre l’exemple $A = \mathbf{M}_2(\mathbf{Z}),e= (^{1 0}_{0 0})$ et $f= (^{1 0}_{1 0})$.
+Soient $e$ et $f$ des éléments idempotents de A. D’après la prop. 13 b), on a $Ae= Af$ si et seulement si l’on a $ef=e$ et $f e=f$. Par conséquent, si l’anneau A est commutatif, la relation $Ae= Af$ équivaut à $e=f$. Il n’en est pas de même en général, comme le montre l’exemple $A = \mathbf{M}_2(\mathbf{Z}), e = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$ et $f = \begin{pmatrix} 1 & 0 \\ 1 & 0 \end{pmatrix}$.
 
 On dit que des éléments idempotents $e$ et $e'$ de l’anneau A sont orthogonaux si l’on a $ee'=e'e= 0$. Soit $(e_i)_{i\in I}$ une famille finie d’éléments idempotents de A, deux à deux orthogonaux. Comme on a
 

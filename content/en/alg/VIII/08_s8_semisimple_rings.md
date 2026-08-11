@@ -30,7 +30,7 @@ subsections:
       pdf_page: 162
 statements: 30
 exercises: 6
-content_sha256: d0e14ed417fab307ace36851aa1f4d79a16265446147b476f0a6c8f8b36f2922
+content_sha256: 5ad6c7b0a819fd505ea64e2b487000502722f977bdbdd95d27aa63f2c58ade79
 ---
 
 ## § 8. SEMISIMPLE RINGS
@@ -339,7 +339,7 @@ Let $\mathfrak{a}$ be a left ideal of A. By the proof above and the corollary of
 
 #### Remark 2 {#alg-viii-s8-n4-rem-2 .statement tag=009R}
 
-Let $e$ and $f$ be idempotents in A. By Proposition 13, b), we have $Ae= Af$ if and and only if $ef=e$ and $f e=f$. Consequently, if the ring A is commutative, then the relation $Ae= Af$ is equivalent to $e=f$. This does not hold in general, as shown by the example $A =\mathbf{M}_2(\mathbf{Z}),e= (^{1 0}_{0 0})$, and $f= (^{1 0}_{1 0})$.
+Let $e$ and $f$ be idempotents in A. By Proposition 13, b), we have $Ae= Af$ if and and only if $ef=e$ and $f e=f$. Consequently, if the ring A is commutative, then the relation $Ae= Af$ is equivalent to $e=f$. This does not hold in general, as shown by the example $A =\mathbf{M}_2(\mathbf{Z}), e = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$, and $f = \begin{pmatrix} 1 & 0 \\ 1 & 0 \end{pmatrix}$.
 
 We say that idempotents $e$ and $e'$ in the ring A are orthogonal if $ee'=$ $e'e= 0$. Let $(e_i)_{i\in I}$ be a finite family of pairwise orthogonal idempotents in A. Since we have
 

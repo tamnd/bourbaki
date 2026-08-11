@@ -34,7 +34,7 @@ subsections:
       pdf_page: 447
 statements: 18
 exercises: 4
-content_sha256: 7c5b5108718dd1876d11c57f837b6d263675472290159fad6f7007f100a07326
+content_sha256: 5e246657d5184f11e650e743ed00ae08b3994123fd5246e1a147d155ecee5137
 ---
 
 ### APPENDICE 2 DÉTERMINANTS SUR UN CORPS NON COMMUTATIF
@@ -361,13 +361,11 @@ On a $\mathbf{G}\mathbf{L}_1(D) = D^*$ et la prop. 3 montre que l’on a det($a$
 
 #### Exemple 6 {#alg-viii-a2-n4-exa-6 .statement tag=00QC}
 
-Supposons que l’on ait $n= 2$. Soit A $= (^{a b}_{c d})$ un élément de $\mathbf{G}\mathbf{L}_2(D)$. Les éléments $a$ et $c$ de D ne sont pas tous deux nuls. Nous allons expliciter le déterminant de A.
+Supposons que l’on ait $n= 2$. Soit $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$ un élément de $\mathbf{G}\mathbf{L}_2(D)$. Les éléments $a$ et $c$ de D ne sont pas tous deux nuls. Nous allons expliciter le déterminant de A.
 
 a) Si $a$ n’est pas nul, on a
 
-1 0 $a$ 0 1 $a^{-1}b$
-
-(24) A = $ca^{-1}$ 1 0 $d-ca^{-1}b$ 0 1.
+(24) $A = \begin{pmatrix} 1 & 0 \\ ca^{-1} & 1 \end{pmatrix}\begin{pmatrix} a & 0 \\ 0 & d-ca^{-1}b \end{pmatrix}\begin{pmatrix} 1 & a^{-1}b \\ 0 & 1 \end{pmatrix}$.
 
 D’où $ad-aca^{-1}b\not= 0$ et
 
@@ -375,11 +373,7 @@ D’où $ad-aca^{-1}b\not= 0$ et
 
 b) Si $a$ est nul, on a $c\not= 0$ et
 
-0 $b$ 0 1 $c d$
-
-(26) A = =,
-
-$c d$ 1 0 0 $b$
+(26) $A = \begin{pmatrix} 0 & b \\ c & d \end{pmatrix} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} c & d \\ 0 & b \end{pmatrix}$,
 
 d’où d’après a) et l’exemple 2$,cb\not= 0$ et
 
@@ -413,17 +407,11 @@ c) Supposons $n\geqslant 3$ou Card(D) $\geqslant 4$. Le groupe dérivé de $\mat
 
 A) Notons T le sous-groupe de $\mathbf{G}\mathbf{L}_n(D)$ engendré par les matrices $B_{ij}(\lambda )$. D’après l’exemple 1 de VIII, p. 443, on a det($B_{ij}(\lambda )$) $= 1$, d’où $T\subset \mathbf{S}\mathbf{L}_n(D)$. Pour prouver que ces deux groupes sont égaux, il suffit alors, d’après l’exemple 3 de loc. cit., de prouver que toute matrice de la forme diag(1$, . . . ,1, d)$avec $\pi (d) = 1$appartient à $($ T. La matrice diag(1$), . . . ,1, d)$ appartient à l’image de l’homomorphisme $U\rightarrow^{I_n}_{0^{-2}U}^0$ de $\mathbf{G}\mathbf{L}_2(D)$ dans $\mathbf{G}\mathbf{L}_n(D)$; il suffit donc de considérer le cas $n= 2$. Comme le noyau de $\pi$ est le groupe dérivé de $D^*$, on peut supposer $d=uvu^{-1}v^{-1}$ avec $u, v$ dans $D^*$. Notre assertion résulte alors des égalités
 
-1 0 $u^{-1}$ 0 $v^{-1}$ 0 $vu$ 0
-
-(28) = $-_-$
-
-0 $d$ 0 $u$ 0 $v$ 0 $u^1v^1$
+(28) $\begin{pmatrix} 1 & 0 \\ 0 & d \end{pmatrix} = \begin{pmatrix} u^{-1} & 0 \\ 0 & u \end{pmatrix}\begin{pmatrix} v^{-1} & 0 \\ 0 & v \end{pmatrix}\begin{pmatrix} vu & 0 \\ 0 & u^{-1}v^{-1} \end{pmatrix}$
 
 et
 
-(29) $s$ 0 = 1 $s$ 1 0 1 $-1$ 1 0
-
-0 $s^{-1}$ 0 1 $1-s^{-1}$ 1 0 1 $1-s$ 1
+(29) $\begin{pmatrix} s & 0 \\ 0 & s^{-1} \end{pmatrix} = \begin{pmatrix} 1 & s \\ 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 1-s^{-1} & 1 \end{pmatrix}\begin{pmatrix} 1 & -1 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 1-s & 1 \end{pmatrix}$
 
 pour $s\in D^*$.
 
@@ -445,33 +433,23 @@ En prenant $\mu = 1$ et $\nu =\lambda$, on voit que la matrice $B_{ij}(\lambda )
 
 Supposons maintenant $n= 2$. Soient $u$ et $v$ des éléments de D avec $u\not= 0$. On a les relations
 
-1 $v-uvuu$ 0 1 $-vu^{-1}$ 0 1 $v$
-
-(31) = $-_1$
-
-0 1 0 $u$ 0 1 0 $u$ 0 1
+(31) $\begin{pmatrix} 1 & v-uvu \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} u & 0 \\ 0 & u^{-1} \end{pmatrix}\begin{pmatrix} 1 & -v \\ 0 & 1 \end{pmatrix}\begin{pmatrix} u^{-1} & 0 \\ 0 & u \end{pmatrix}\begin{pmatrix} 1 & v \\ 0 & 1 \end{pmatrix}$
 
 et
 
-1 0 $u^{-1}$ 0 1 0 $u$ 0 1 0
+(32) $\begin{pmatrix} 1 & 0 \\ v-uvu & 1 \end{pmatrix} = \begin{pmatrix} u^{-1} & 0 \\ 0 & u \end{pmatrix}\begin{pmatrix} 1 & 0 \\ -v & 1 \end{pmatrix}\begin{pmatrix} u & 0 \\ 0 & u^{-1} \end{pmatrix}\begin{pmatrix} 1 & 0 \\ v & 1 \end{pmatrix}$
 
-(32) $v-uvu$ 1 = 0 $u-v$ 1 0 $u^{-1}v$ 1
-
-On a det$(^u_{0u}^{0_{-1}})= 1$; donc les matrices $B_{12}(v-uvu)$ et $B_{21}(v-uvu)$ sont des commutateurs d’éléments de $\mathbf{S}\mathbf{L}_n(D)$.
+On a det$\begin{pmatrix} u & 0 \\ 0 & u^{-1} \end{pmatrix}= 1$; donc les matrices $B_{12}(v-uvu)$ et $B_{21}(v-uvu)$ sont des commutateurs d’éléments de $\mathbf{S}\mathbf{L}_n(D)$.
 
 Supposons que le corps D ait au moins 4 éléments. Soit $\lambda$ un élément de D. Si $\lambda$ est égal à 0, 1 ou $-1$, choisissons un élément $u$ arbitraire dans $D- \{0,1,-1\}$; sinon posons $u=\lambda$. Dans les deux cas, $u$ est un élément non nul de D, il commute à $\lambda$, et l’on a $u^2\not= 1$. Posons $v=\lambda (1-u^2)^{-1}$. On a $uv=vu$ d’où $v-uvu=v(1-u^2) =\lambda$. Il résulte alors des relations (31) et (32) que les matrices $B_{12}(\lambda )$ et $B_{21}(\lambda )$ sont des commutateurs dans $\mathbf{S}\mathbf{L}_n(D)$ d’où c).
 
-C) Il reste à prouver que $\mathbf{S}\mathbf{L}_2(D)$ est le groupe dérivé de $\mathbf{G}\mathbf{L}_2(D)$ lorsque D a 3 éléments. D’après A), le groupe $\mathbf{S}\mathbf{L}_2(D)$ est engendré par les matrices $B_{12}(1) = (^{1 1}_{0 1})$ et $B_{21}(1) = (^{1 0}_{1 1})$, et ces matrices sont des commutateurs d’éléments de $\mathbf{G}\mathbf{L}_2(D)$ puisque l’on a $B_{21}(1) =^tB_{12}(1)$ et
+C) Il reste à prouver que $\mathbf{S}\mathbf{L}_2(D)$ est le groupe dérivé de $\mathbf{G}\mathbf{L}_2(D)$ lorsque D a 3 éléments. D’après A), le groupe $\mathbf{S}\mathbf{L}_2(D)$ est engendré par les matrices $B_{12}(1) = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ et $B_{21}(1) = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$, et ces matrices sont des commutateurs d’éléments de $\mathbf{G}\mathbf{L}_2(D)$ puisque l’on a $B_{21}(1) =^tB_{12}(1)$ et
 
-1 1 $-1 0$ 1 1 $-1 0^{-1}$ 1 1 $^{-1}$
-
-(33) =.
-
-0 1 0 1 0 1 0 1 0 1
+(33) $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}^{-1}\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}^{-1}$.
 
 #### Remarque {#alg-viii-a2-n5-rem-1 .statement tag=00QH}
 
-Si D est un corps à 2 éléments, alors $\mathbf{G}\mathbf{L}_2(D)$ est égal à $\mathbf{S}\mathbf{L}_2(D)$ et c’est un groupe d’ordre 6 dont le groupe dérivé est d’ordre 3. Si D est un corps à 3 éléments, le groupe $\mathbf{S}\mathbf{L}_2(D)$ est d’ordre 24 et son groupe dérivé est d’ordre 8. Supposons $n\geqslant 2$; sauf dans les deux cas précédents, tout sous-groupe distingué de $\mathbf{S}\mathbf{L}_n(D)$ distinct de $\mathbf{S}\mathbf{L}_n(D)$ est contenu dans le centre $Z((\mathbf{S}\mathbf{L}_n(D))$ de $)\mathbf{S}\mathbf{L}_n(D)$ (II. p. 207, exerc. 13 et p. 208 exerc. 14). Le groupe $\mathbf{S}\mathbf{L}_n(D)/Z\mathbf{S}\mathbf{L}_n(D)$ est alors simple.
+Si D est un corps à 2 éléments, alors $\mathbf{G}\mathbf{L}_2(D)$ est égal à $\mathbf{S}\mathbf{L}_2(D)$ et c’est un groupe d’ordre 6 dont le groupe dérivé est d’ordre 3. Si D est un corps à 3 éléments, le groupe $\mathbf{S}\mathbf{L}_2(D)$ est d’ordre 24 et son groupe dérivé est d’ordre 8. Supposons $n\geqslant 2$; sauf dans les deux cas précédents, tout sous-groupe distingué de $\mathbf{S}\mathbf{L}_n(D)$ distinct de $\mathbf{S}\mathbf{L}_n(D)$ est contenu dans le centre $Z(\mathbf{S}\mathbf{L}_n(D))$ de $\mathbf{S}\mathbf{L}_n(D)$ (II. p. 207, exerc. 13 et p. 208 exerc. 14). Le groupe $\mathbf{S}\mathbf{L}_n(D)/Z(\mathbf{S}\mathbf{L}_n(D))$ est alors simple.
 
 Soit V un espace vectoriel à droite sur le corps D, de dimension finie $n$. On note $\mathbf{S}\mathbf{L}(V)$ et on appelle groupe unimodulaire de V, le noyau de l’homomorphisme det$: \mathbf{G}\mathbf{L}(V)\rightarrow D^*_{ab}$. Le choix d’une base de V permet d’identifier ce groupe à $\mathbf{S}\mathbf{L}_n(D)$.
 
