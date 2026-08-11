@@ -28,7 +28,7 @@ books:
               statements: 32
               exercises: 28
               extraction: native
-              content_sha256: 2ca9c31a3787173eafc7e038fc5b4b835dd21d5ed994e6b8b9a822d2f614f151
+              content_sha256: 9a872879a6f20a689779f2d0b81f8db1cc390062d6632454b196909041416b97
             - kind: section
               section: 2
               title: The Structure of Modules of Finite Length
@@ -41,7 +41,7 @@ books:
               statements: 32
               exercises: 20
               extraction: native
-              content_sha256: 118899b6c0cf32cdb6cb0dd22a76137676daf78d0e0fef68485217112a3769da
+              content_sha256: 19e4373b8a1eb7533dbd728068c4500cbacbbbb17b1577ae0015831124a76677
             - kind: section
               section: 3
               title: Simple Modules
@@ -54,7 +54,7 @@ books:
               statements: 21
               exercises: 10
               extraction: native
-              content_sha256: 11f4b6dc52fe217ce4c5ac95a92c1a4719d15b5df797a4bc1ff554ce41c1bd35
+              content_sha256: 92961fd63f3fa5541322c6837c383d3dd70d945b07794e3cac1d4ff461b1de23
             - kind: section
               section: 4
               title: Semisimple Modules
@@ -67,7 +67,7 @@ books:
               statements: 42
               exercises: 8
               extraction: native
-              content_sha256: 91037720e136ef1823e484c5049bdaf88962819ae8527ae35090a5629a3915eb
+              content_sha256: 4d68ef7eeb26636f748b10e6679769a5f85cea063f842c2185201ae944e91940
             - kind: section
               section: 5
               title: Commutation
@@ -80,7 +80,7 @@ books:
               statements: 30
               exercises: 19
               extraction: native
-              content_sha256: a30b771c790ba7e81efaa9505a8bbc8f03f76180c69f3c63e1c71babd357fe99
+              content_sha256: 66b6ffbb6b84286a4e95ac9d19db760b048d32b7a64451a279c4a9abd3faa5b3
             - kind: section
               section: 6
               title: Morita Equivalence of Modules and Algebras
@@ -93,7 +93,7 @@ books:
               statements: 38
               exercises: 8
               extraction: native
-              content_sha256: a65871a67a4a4310b723326a5a1f029687688a93ff2388ee9fa85cef39413478
+              content_sha256: 6671e55b36b4791c9870d7fad5ad09bbcb41996822b524e67ae0ee7da1bb620c
             - kind: section
               section: 7
               title: Simple Rings
@@ -106,7 +106,7 @@ books:
               statements: 22
               exercises: 16
               extraction: native
-              content_sha256: 0da21afb2047c710a88c4307d50227e4c1a9f5d69f32fc9b26289043e3c1a623
+              content_sha256: 1dbc70a881173ad827aa568ebc88accfed6a314bb78515acfb8632b9f49f8ba9
             - kind: section
               section: 8
               title: Semisimple Rings
@@ -119,7 +119,7 @@ books:
               statements: 28
               exercises: 6
               extraction: native
-              content_sha256: c14c4540421b8964f61733c6e3e1fd34d3626affbfcb21812fd1ae3a8e7bb2b1
+              content_sha256: 7aa98df875a345413afc067e8b734361bd5a9abedf5587663d11ad0f2d48dc62
             - kind: section
               section: 9
               title: Radical
@@ -132,7 +132,7 @@ books:
               statements: 45
               exercises: 31
               extraction: native
-              content_sha256: 5c5ebe2b776ab9cea95cefce652a4e8dc903018459c738b1f9504308fd87d0bf
+              content_sha256: 6996371804b7a7c8b82c8fa6543b8e740428aa9cbc87c193085f41f140cb69af
             - kind: section
               section: 10
               title: Modules over an Artinian Ring
@@ -145,7 +145,7 @@ books:
               statements: 12
               exercises: 11
               extraction: native
-              content_sha256: 8a746ffe58887dcbfc59a6877fd8916c1ee46cd4f1196208c682f40d279c7501
+              content_sha256: d57acbb440e08a79945535dbeee0da9d9d443606ea09d87ecd54b4ece533d42f
             - kind: section
               section: 11
               title: Grothendieck Groups
@@ -158,7 +158,7 @@ books:
               statements: 36
               exercises: 14
               extraction: native
-              content_sha256: c690e2b3d293c49a162570f61b8ea491f92053e7b8a0e4235193c2930f8e57fc
+              content_sha256: 22144ede4a5a2a95481142745763f478695c7ee2c260a4f16db28ffbaa72102e
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -171,7 +171,7 @@ books:
               statements: 22
               exercises: 17
               extraction: native
-              content_sha256: 58287c0648c523d39b9659b0402290ec3520b66134cf7b60b8f8a6a850e12557
+              content_sha256: 85fcd0511e662f30689a5d51efb6c15cae0e654047cef9f5e20be21355216ee6
             - kind: section
               section: 13
               title: Absolutely Semisimple Algebras
@@ -184,7 +184,7 @@ books:
               statements: 29
               exercises: 12
               extraction: native
-              content_sha256: 8ab9cfd7e199cc7f5afbfa263ded6979b34c2c2eb314f9a586ca1880ba3ef4b4
+              content_sha256: 59609a08cb23902202a2dadb3e6bd1e3c45d3049c7e908235b948c99aef72ceb
             - kind: section
               section: 14
               title: Central Simple Algebras
@@ -197,7 +197,7 @@ books:
               statements: 34
               exercises: 19
               extraction: native
-              content_sha256: fae6d9c6a9102b74f90df389e889a1290a0be092a8eb7cb0dd9d20013fb8bfe5
+              content_sha256: e2de6c11e8459b9d9147a7d38b4bcae31d2059b8a3f9bf692c5d5c7ea151503b
             - kind: section
               section: 15
               title: Brauer Groups
@@ -210,7 +210,7 @@ books:
               statements: 12
               exercises: 2
               extraction: native
-              content_sha256: 29d074fd26de0b5c5f9ada7f2f72481f9673a45b359c806365736848dedac528
+              content_sha256: 1309ee856deb0b9881af8281a4dd755c32870a60f110c6f54876823b92c80cd7
             - kind: section
               section: 16
               title: Other Descriptions of the Brauer Group
@@ -223,7 +223,7 @@ books:
               statements: 59
               exercises: 17
               extraction: native
-              content_sha256: 97498f8fa6bfa8d5146ddd88a2f2c93625312d8ea5d3e5a93a45a6be85d617f9
+              content_sha256: d68f8401dc85d1c8216dcd847fc58fab21626fd7d3a7b962170ac66010a7f5dc
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -236,7 +236,7 @@ books:
               statements: 27
               exercises: 7
               extraction: native
-              content_sha256: b6c08b74f60e5f4af58918341e9ed26313b375e8ecb18d229e839499401729f0
+              content_sha256: 6df40e38d6c66841a19c7bd4cc51e5d4bab1cf25d5ee4b9f1cc28ede6d45c3ac
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -249,7 +249,7 @@ books:
               statements: 8
               exercises: 7
               extraction: native
-              content_sha256: b06076ea74d4968c307b10c1909cd737ab1b315f796eba98fe11c59e5e46b063
+              content_sha256: 6ffe840db71a91c5b93816fdd64a0252c4c2f22f13821a195920fd5426a43913
             - kind: section
               section: 19
               title: Quaternion Algebras
@@ -262,7 +262,7 @@ books:
               statements: 15
               exercises: 8
               extraction: native
-              content_sha256: d95e3efb2419800092f75323d4131d2a82c14d1a1f6ca91acbfc26abb30857fc
+              content_sha256: 3cff56d8bd31f0f64c8d8ddfb69584c4d9051837c8616fd9127b0811cd3e3ded
             - kind: section
               section: 20
               title: Linear Representations of Algebras
@@ -275,7 +275,7 @@ books:
               statements: 29
               exercises: 6
               extraction: native
-              content_sha256: 736d6a1c0b36d7bafdea5e3e8f18d12ff4869ce382ea633495709c78ab39f3a8
+              content_sha256: 4c5fb47db1f188963a987a91827b80508252daaf48ed6cbf09dd3c49236f9af9
             - kind: section
               section: 21
               title: Linear Representations of Finite Groups
@@ -288,7 +288,7 @@ books:
               statements: 34
               exercises: 30
               extraction: native
-              content_sha256: 9a1649fc8d1272ef983df643375471ca76019cb0c719210a9ce74942cd47c333
+              content_sha256: 0e5deb34291587d4a1d8a7a45209a10bf955b05cd9dffa7094c05b7d274161a4
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
@@ -301,7 +301,7 @@ books:
               statements: 18
               exercises: 15
               extraction: native
-              content_sha256: a8b7d45f49181f6c2f03fd71f8ebce65615fe083d4ca82191a59ce2cb8c944fb
+              content_sha256: 10c58fd958b8e8fe52f48300b06710c2f8d288c51c8b5f2a9c138b3ca9f83a08
             - kind: appendix
               section: 2
               title: Determinants over a Noncommutative Field
@@ -314,7 +314,7 @@ books:
               statements: 17
               exercises: 4
               extraction: native
-              content_sha256: d99b0067c20a1ac13adc2847b91c1c325bc9ae2bf8f4d91bc5f2498a10d26c6d
+              content_sha256: 26076715325010e6892d9724e28952aa685459d53d31d23da653e128fc3b4f45
             - kind: appendix
               section: 3
               title: Hilbert’s Nullstellensatz
@@ -340,7 +340,7 @@ books:
               statements: 5
               exercises: 2
               extraction: native
-              content_sha256: 5fff149138a851919c6976cb535ab55ce16f007852edc669c7e8781f8cc98175
+              content_sha256: 79eb0c3d749ae74b65745df1841b6627106a7947dbb65e8e7dcace17406c35e3
             - kind: historical
               title: Historical Note
               path: content/en/alg/VIII/historical_note.md

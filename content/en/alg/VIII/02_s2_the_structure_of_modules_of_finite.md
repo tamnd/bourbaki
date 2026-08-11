@@ -34,7 +34,7 @@ subsections:
       pdf_page: 54
 statements: 32
 exercises: 20
-content_sha256: 118899b6c0cf32cdb6cb0dd22a76137676daf78d0e0fef68485217112a3769da
+content_sha256: 19e4373b8a1eb7533dbd728068c4500cbacbbbb17b1577ae0015831124a76677
 ---
 
 ## § 2. THE STRUCTURE OF MODULES OF FINITE LENGTH
@@ -391,73 +391,7 @@ Let E and F be two finite-dimensional vector spaces over a commutative field K, 
 
 ### Exercises {#alg-viii-s2-exercises}
 
-1) a) Give an example of a Noetherian module M such that every nonzero endomorphism of M is injective and that there exist nonzero nonbijective endomorphisms of M. b) Give an example of an Artinian module M such that every nonzero endomorphism of M is surjective and that there exist nonzero nonbijective endomorphisms of M.
-
-2) Let A be a ring in which every increasing sequence $(\mathfrak{a}_n)_{n\in\mathbf{N}}$ of two-sided ideals is stationary (for example, a left or right Noetherian ring). Prove that every surjective endomorphism of the ring A is bijective.
-
-3) Give an example of a ring that has two elements $u, v$ such that $uv= 1$ and $vu\not= 1$. Prove that such a ring is not the union of a directed family of Noetherian subrings.
-
-4) Let M be an A-module and $p$ and $q$ two projectors of M. a) We have $p(M)\subset q(M)$ if and only if we have $qp=p$; the kernel Ker($p)$ is contained in Ker($q)$ if and only if we have $qp=q$. b) The sum $p+q$ is a projector if and only if we have $pq=-qp$. If $p+q$ is a projector and if in M, the relation $2x= 0$ implies $x= 0$, then we have $pq= 0$ and $qp= 0$. c) Prove that the following properties are equivalent:
-
-(i) We have $pq=qp$.
-
-(ii) We have $q(p(M))\subset p(M)$ and $q$(Ker($p))\subset$ Ker($p)$.
-
-(iii) There exists a sequence $(p_1, p_2, p_3, p_4)$ of pairwise orthogonal projectors of M such that $p=p_1+p_2,q=p_1+p_3$, and $1_M=p_1+p_2+p_3+p_4$. Such a sequence, when it exists, is unique: we have $p_1=pq$.
-
-5) Let A be a ring. a) An element $e$ of A is idempotent if and only if the mapping $x\mapsto xe$ is a projector of the left A-module $A_s$ (resp. the mapping $x\mapsto ex$ is a projector of the right A-module $A_d)$. b) Let $e_1, e_2$ be idempotents in the ring A. Prove that the group Hom$_A(Ae_1,Ae_2)$ is isomorphic to $e_1A\cap Ae_2=e_1Ae_2$ and that the ring End$_A(Ae_1)$ is isomorphic to the ring $e_1Ae_1$. c) Let $e_1, e_2$ be idempotents in A. Prove that the following properties are equivalent:
-
-(i) $Ae_1= Ae_2$.
-
-(ii) $e_1e_2=e_1$ and $e_2e_1=e_2$.
-
-(iii) $(1-e_1)A = (1-e_2)A$. When they are satisfied, there exists an invertible element $a\in A$ such that $e_2=$ $ae_1a^{-1}$. d) Let $e_1, e_2$ be two idempotents in A. Prove that the following properties are equivalent:
-
-(i) The left A-modules $Ae_1$ and $Ae_2$ are isomorphic.
-
-(ii) The right A-modules $e_1A$ and $e_2A$ are isomorphic.
-
-(iii) There exist elements $x, y$ of A such that $xy=e_1$ and $yx=e_2$. When they are satisfied, we say that $e_1$ and $e_2$ are equivalent idempotents. e) If idempotents in A are equivalent and belong to the center of A, then they are equal. f ) Let $(e_i)_{i\in I}$ and $(f_i)_{i\in I}$ be finite families of idempotents in A such that $e_ie_j= 0$ and $f_if_j= 0$ for $i\in I,j\in I,i\not=j$ and that $e_i$ is equivalent to $f_i$ for every $i\in I$. Then $e=\sum_{i\in I}e_i$ and $f=\sum_{i\in I}f_i$ are equivalent idempotents in A.
-
-$\P 6)$ Let A be a ring and $u$ and $v$ two elements of A such that $uv= 1$ and $vu\not= 1$. For $i\geqslant 1$ and $j\geqslant 1$, we set $e_{ij}=v^{i-1}u^{j-1}-v^iu^j$. a) Prove that we have $e_{ij}\not= 0$ and $e_{ij}e_{hk}=\delta_{jh}e_{ik}$ for $i, j, k, h$ integers $\geqslant 1$. b) Prove that the left ideals $Ae_{ii}$ of A (for $i\geqslant 1)$ are nonzero, pairwise isomorphic as A-modules (use Exercise 5 d)), and that their sum is direct. c) Prove that we have $u(v+e_{1i}) = 1$ for every $i\geqslant 1$ and $e_{1i}\not=e_{1j}$ for $i\geqslant 1,j\geqslant 1$, $i\not=j$. d) Let B be a ring that has the equivalent properties of Exercise 7 of VIII, p. 15, a). Deduce from the above that every left or right invertible element of B is invertible.
-
-7) Denote by A (resp. $\mathfrak{a})$ the set of rational fractions of the form $P/(X^2+ 1)^n$, where $n$ is an integer $\geqslant 0$ and $P\in \mathbf{Q}[X]$ is a polynomial of degree $\leqslant 2n$ (resp. $\leqslant 2n-1)$. a) Prove that A is a subring of the field $\mathbf{Q}(X)$ and that $\mathfrak{a}$ is an ideal of the ring A. b) The A-modules $\mathfrak{a}\oplus \mathfrak{a}$ and $A\oplus A$ are isomorphic. The A-module $\mathfrak{a}$ is projective and finitely generated but is not isomorphic to A. c) There exists a quadratic extension K of the field $\mathbf{Q}$ such that the $A_{(K)}$-modules $\mathfrak{a}_{(K)}$ and $A_{(K)}$ are isomorphic.
-
-8) Let A be a left Artinian ring, and let M and N be two supplementary submodules in the A-module $A^n_s$. If M is a free A-module, then N is a free A-module.
-
-9) Let A be a complete topological ring and $\mathfrak{m}$ a two-sided ideal of A. Suppose that the ring $A/\mathfrak{m}$ is a field, that every element of $\mathfrak{m}$ is topologically nilpotent (Gen. Top., III, §6, p. 317, Exercise 9), and that there exists a fundamental system of neighborhoods of 0 in A consisting of subgroups of the additive group of A. Then the ring A is local and $\mathfrak{m}$ is its maximal ideal. In particular, for every prime $p$, the ring $\mathbf{Z}_p$ of $p$-adic integers (V, §12, No. 3, p. 96) is local, and its maximal ideal is $p\mathbf{Z}_p$.
-
-$\P 10)$ Let $p$ be a prime number, $q$ a power of $p, G$ a finite group of order $q$, and A a commutative ring. Let $(e_g)$ be the canonical basis of the algebra A[G] of the group G over A. a) The set $\mathfrak{a}$ of elements $\sum a_ge_g$ of A[G] such that $\sum a_g= 0$ is a two-sided ideal of A[G]. If the ring A is of characteristic $p$ (V, §1, No. 2, p. 2), then we have $x^q= 0$ for every $x\in \mathfrak{a}$ (use induction on $q$; if $q\not= 1$, choose an element $h$ of order $p$ of the center of G (I, §6, No. 5, p. 77, Corollary of Proposition 11) and deduce from the induction hypothesis that there exists a $y\in A[G]$ such that $x^{q/p}= (1-e_h)y)$. b) Suppose that A is a local ring, with maximal ideal $\mathfrak{m}$, and that the field $A/\mathfrak{m}$ is of characteristic $p$. Prove that the ring A[G] is local and that its maximal ideal is the set of elements $\sum a_ge_g\in A[G]$ such that $\sum a_g\in \mathfrak{m}$.
-
-(Let S be a simple A[G]-module; prove that S is annihilated by $\mathfrak{m}$ and then, by applying Proposition 11 of I, §6, No. 5, p. 76, to the $\mathbf{Z}$[G]-submodule generated by a nonzero element of S, that S contains an element invariant under G.)
-
-11) Let $p$ be a prime number, G a group that does not contain any elements of order $p, A$ a commutative ring of characteristic $p$ that does not contain any nonzero nilpotent elements, A[G] the algebra of G over A, and $(e_g)$ the canonical basis of A[G] over A. Prove that the ring A[G] has no nonzero nil ideal (observe that if an element $\sum a_ge_g\in A[G]$ is nilpotent, then we have $a_1= 0)$.
-
-$\P 12)$ Let K be a commutative field, E and F extensions of K, and A the ring $E\otimes_KF$. a) If E and F are transcendental extensions of K, then the ring A is not local. b) Suppose that E is an algebraic extension of K, and denote the separable closures of K in E and F, respectively, by $E_s$ and $F_s$. The following properties are equivalent:
-
-(i) The ring A is local.
-
-(ii) The ring $E\otimes_KF_s$ is an integral domain.
-
-(iii) The ring $E\otimes_KF_s$ is a field.
-
-(iv) The ring $E_s\otimes_KF_s$ is a field. When they hold, the maximal ideal $\mathfrak{m}$ of A is the set of nilpotent elements of A, and every composite extension of E and F is isomorphic to $A/\mathfrak{m}$.
-
-13) Let A be a local integral domain that is not a field (for example $\mathbf{Z}_{(p)}$, cf. VIII, p. 26, Example 5), and let $a$ be a nonzero noninvertible element of A. Denote the A-module $A^{(\mathbf{N})}$ by M and its canonical basis by $(e_n)_{n\in\mathbf{N}}$. Prove that the sequence $(f_n)_{n\in\mathbf{N}}$, where $f_{2m}=e_{2m}$ and $f_{2m+1}=e_{2m+1}+ae_{2m+2}$ for every $m\geqslant 0$, is a basis of M over A. Prove that the submodule $N =\sum_mA(e_{2m}+ae_{2m+1})$ of M is a direct factor but that there is no subset J of $\mathbf{N}$ such that$^{\geqslant 0}\sum_{n\in J}Af_j$ is supplementary to $\mathbf{N}$. Deduce that in Corollary 5 of VIII, p. 35, we cannot leave out the assumption that I is finite.
-
-14) Let A be a ring, M an A-module, and N a primordial direct factor of M. Let $M =\bigoplus_{i\in I}M_i$ be a decomposition of M into a direct sum, and let $(p_i)_{i\in I}$ be the associated family of projectors. Prove that there exists an $i\in I$ such that $p_i$ induces an isomorphism from N to a direct factor of $M_i$.
-
-15) Let A be a ring, and let $M,N,P$ be A-modules. If the modules $M\oplus P$ and $N\oplus P$ are isomorphic and the module P is primordial, then the modules M and N are isomorphic.
-
-16) Let A be a ring, M an A-module of finite length, and $(M_i)_{i\in I}$ a family of indecomposable submodules of M with direct sum M. Let L be an indecomposable A-module of finite length and $I_L$ the set of indices $i\in I$ such that $M_i$ is isomorphic to L. Use an example to show that the submodule $\sum_{i\in I_L}M_i$ of M is not necessarily stable under the automorphisms of M.
-
-17) Let A be a ring, $n$ an integer, and $X\in \mathbf{G}\mathbf{L}_n(A)$. a) Suppose that the ring A is local. Prove that there exist matrices $P,Q$ in $\mathbf{G}\mathbf{L}_n(A)$ that are products of matrices of the form $B_{ij}(\lambda )$ (II, §10, No. 13, p. 361) and an invertible element $\delta$ of A, such that we have PXQ = diag(1$, . . . ,1, \delta )$ (follow the proof of Proposition 14 of loc. cit.). b) Suppose that the ring A is Euclidean (VII, §1, p. 49, Exercise 7). Prove the same result. c) If A is a local ring or a Euclidean commutative ring, then the group $\mathbf{S}\mathbf{L}_n(A)$ is generated by the matrices $B_{ij}(\lambda )$. d) Suppose that A is local, and denote its maximal ideal by $\mathfrak{m}$. Prove that every matrix in $\mathbf{M}_n(A)$ with invertible image in $\mathbf{M}_n(A/\mathfrak{m})$ is itself invertible (use Lemma 1 of II, §10, No. 13, p. 361).
-
-18) Let A be a local ring, E a free A-module, and $x$ a nonzero element of E. Let $(e_i)_{i\in I}$ be a basis of E in which the number of nonzero coordinates of $x$ is the least possible. Let $x=\sum a_ie_i$ be the representation of $x$ in this basis; denote the set of indices $i\in I$ such that $a_i\not= 0$ by J. a) Prove that none of the $a_i$ belong to the right ideal of A generated by the others. b) Let F and G be supplementary submodules of E such that $x\in F$; for $i\in I$, write $e_i=f_i+g_i$ with $f_i\in F$ and $g_i\in G$. Prove that the family consisting of the $f_j$ for $j\in J$ and the $e_i$ for $i\in I$ J is a basis of E (if $g_j=\sum_{k\in I}b_{jk}e_k$, observe that the coordinates $b_{jk}$ for $j, k$ in J belong to the maximal ideal of A, and apply Exercise 17 d)). Deduce that there exists a free submodule of F that contains $x$ and is a direct factor of F. c) Prove that every projective A-module is free (use Kaplansky’s theorem (II, §2, p. 386, Exercise 2) to reduce to the case of a module with a countable family of generators, and apply b)).
-
-19) Let A be a commutative ring, M a finitely generated A-module, $u$ an automorphism of M, and N a submodule of M that is stable under $u$. Prove that we have $u(N) = N$ (use Corollary 1, d) of VIII, p. 28).
-
-20) Let A be ring, let M be an A-module of finite length, and let N be an A-module. Let $m$ and $n$ be strictly positive integers such that $M^m$ and $N^n$ are isomorphic. Prove that there exist an A-module P and integers $p, q$ such that M is isomorphic to $P^p, N$ is isomorphic to $P^q$, and $mp=nq$.
+See the [exercises for § 2](exercises/s2/).
 
 [^1]: Note added in translation: some authors use the terminology “module with local endomorphism ring” for “primordial module.”
 [^2]: It can be shown that every projective module over a local ring is free (VIII, p. 42, Exercise 18).

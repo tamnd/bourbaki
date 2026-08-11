@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 27
 exercises: 7
-content_sha256: b6c08b74f60e5f4af58918341e9ed26313b375e8ecb18d229e839499401729f0
+content_sha256: 6df40e38d6c66841a19c7bd4cc51e5d4bab1cf25d5ee4b9f1cc28ede6d45c3ac
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -535,38 +535,4 @@ We have Nrd$_{E/K}(u) = 0$ if the element $u$ of E is not invertible (VIII, p. 3
 
 ### Exercises {#alg-viii-s17-exercises}
 
-1) Let B be an algebra of finite degree over the commutative field K, and let $b$ be an element of B. a) If $b$ is nilpotent, then we have Tr$_{M/K}(b) = 0$ for every B-module M of finite dimension over K. Deduce that if $b$ belongs to the radical of B, then we have Tr$_{M/K}(bc) = 0$ for every $c\in B$. b) Prove that if Tr$_{S/K}(bc) = 0$ for every simple B-module S and every $c\in B$, then $b$ belongs to the radical of B (use the density theorem).
-
-2) Let B be an algebra of finite degree $n$ over the commutative field K. For any element $b$ of B, denote by Pm$_{B/K}(b; X)$ the minimal polynomial of $b$ over K (V, §3, No. 1, p. 16). We have Pm$_{B/K}(b; X) =$ Pm$_{B^o/K}(b; X)$. a) Prove that Pm$_{B/K}(b; X)$ divides Pc$_{B/K}(b; X)$, which divides (Pm$_{B/K}(b; X))^n$. b) For every extension L of K, we have Pm$_{B_{(L)}/L}(1\otimes b; X) =$ Pm$_{B/K}(b; X)$. c) Let $(e_i)_{i\in I}$ be a basis of B over K and $\mathbf{Y}= (Y_i)_{i\in I}$ a family of variables. The principal polynomial of the algebra B with respect to the basis $(e_i)$, denoted by $P((e_i); X;\mathbf{Y})$ or simply $P(X;\mathbf{Y})$, is the minimal polynomial over $K(\mathbf{Y})$ of the element $\sum_{i\in I}Y_ie_i$ of $B_{(K(\mathbf{Y}))}.*$Prove that it belongs to $K[X;\mathbf{Y}]$ (cf. AC, VII, §3, n$_o5$, p. 230, lemme 1 and théorème 2). d) Let $(e'_i)$ be another basis of B over K and $(\lambda_{ij})$ the matrix with entries in K such that $e_i$ = $\sum_j\lambda_{ij}e'_j$ for $i\in$ I; if we set $Y'_i$ = $\sum_j\lambda_{ji}Y_j$, then $P((e_i); X;\mathbf{Y}) = P((e'_i); X;\mathbf{Y}')$. Let $b=\sum_i\beta_ie_i$ be an element of B; the polynomial $P((e_i); X;\beta_1, . . . , \beta_n)$ is independent of the choice of the basis $(e_i)$; we call it the principal polynomial of $b$ over K. It divides Pc$_{B/K}(b; X)$ and is a multiple of Pm$_{B/K}(b; X).*$ e) Let $B'$ be another K-algebra of finite degree; calculate the principal polynomial of the algebra $B\times B'$ for a suitable basis.
-
-3) a) Let A be a central simple algebra of finite degree over K. Prove that the principal polynomial of an element $a$ of A is Pcrd$_{A/K}(a; X)$. The principal polynomial of A (with respect to a basis of A over K) is the polynomial P considered in Lemma 4 of VIII, p. 345 (reduce to the case $B =\mathbf{M}_n(K))$. b) Let B be an absolutely semisimple algebra over K and $\mathscr{S}$ be the set of classes of simple B-modules. Prove that the principal polynomial of an element $b$ of B is equal to the product of the polynomials Pc$_{S/K}(b; X)$ for S running through $\mathscr{S}$ (reduce to the case when K is algebraically closed).
-
-$\P 4)$ Let D be a field, $\sigma$ an automorphism of D, A the ring $D[X]_{\sigma}$ (VIII, p. 11$),n$ an integer $\geqslant 2$, and $a$ a nonzero element of D. Denote the element $X^n-a$ of A by $f$. a) The ideal $Af$ is two-sided if and only if we have $\sigma (a) =a$ and $\sigma^n(x) =axa^{-1}$ for every $x\in D$. b) Suppose that the group $µ_n$ of $n$-th roots of unity contained in the center of D is cyclic of order $n$ and fixed by $\sigma$. Let $g\in A$ be an irreducible monic polynomial (VIII, p. 22, Exercise 27) dividing $f$ on the right. Prove that the degree $d$ of $g$ divides $n$ and that $f$ is the product of $n/d$ polynomials of degree $d$. (Let $h$ be the monic polynomial such that $Ah=\bigcap_{\zeta\inµ_n}Ag_{\zeta}$, where $g_{\zeta}(X) =g(\zeta X)$. Observe that we necessarily have $h(\zeta X) =h(X)$ for every $\zeta \in µ_n$, and deduce that $h=f$. Then, apply loc. cit., b) by constructing, for $1\leqslant i\leqslant n/d$, an element $\zeta_i$ of $µ_n$ and a polynomial $h_i$ of degree $id$ such that $Ag_{\zeta_1}\cap  \cdots  \cap Ag_{\zeta_i}= Ah_i.)$
-
-If, moreover, the ideal $Af$ is two-sided, then the ring $A/Af$ is semisimple, and its simple components all have the same length (observe that every simple $(A/Af$)-module is isomorphic to one of the modules $A/Ag_{\zeta})$. c) Assume from now on that the hypotheses of b) are satisfied, that the ideal $Af$ is two-sided, and that $n$ is a prime number. Deduce from b) that we are in one of the following situations:
-
-(i) There exists a $b\in D$ such that $a=b^n$ and that $\sigma$ is the inner automorphism associated with $b$. The ring $C = A/Af$ is isomorphic to the product ring $D^n$.
-
-(ii) The condition of (i) is not satisfied, but there exists a $c\in D$ such that $a=\sigma^{n-1}(c)\sigma^{n-2}(c). . . \sigma (c)c$. The ring C is simple of length $n$.
-
-(iii) There is no element $c$ of D such that $a=\sigma^{n-1}(c)\sigma^{n-2}(c)\cdots \sigma (c)c$. The ring C is a field.
-
-In the case when D is commutative, recover the results of Exercise 11 of VIII, p. 330. If, moreover, $n= 2$, then C is a quaternion algebra over the subfield K of D invariant under $\sigma$. d) Prove that there exists an automorphism $\tau$ of C of order $n$ whose subfield of invariants is equal to D. In cases (ii) and (iii) above, D is a Galois subfield of C (Exercise 16 of VIII, p. 274). e) Suppose that $\sigma$ is the inner automorphism associated with an element $d$ of D. Prove that we have $a=d^nz$, where $z$ belongs to the center Z of C, and that the ring C is isomorphic to the tensor product $D\otimes_ZZ[X]/(X^n-z)$. f ) Suppose that $\sigma$ is not an inner automorphism. Prove that the center of C is the subfield of Z consisting of the elements invariant under $\sigma$.
-
-$\P 5)$ Let $K_0$ be the field of rational fractions $\mathbf{Q}(X)$. Let K be the quadratic extension
-
-$$
-\surd
-$$
-
-$K_0(\rho )$, where $\rho$ is a primitive cubic root of unity, D be the cyclic extension $K(^{^3}X)$ of K, and $\sigma$ be a generator of the Galois group of D over K. Consider the algebra C defined as in Exercise 4, with $n= 3$ and $a= 2$. a) Prove that C is a field with center K, of degree 9 over K. (To see that D has no element of norm 2, reduce to proving that there cannot be any relations of the form $2F^3= P^3$+XQ$^3+X^2R^3$ +3XPQR, where $F,P,Q,R$ are mutually prime polynomials in $\mathbf{Q}(\rho )[X]$. To do this, consider the lowest-degree terms of these polynomials.) b) Prove that there does not exist any automorphism of C extending the unique $K_0$-automorphism of K distinct from the identity (reduce to the case when such an automorphism preserves D). Deduce that $K_0$ is not a Galois subfield of C (VIII, p. 274, Exercise 16) and that there does not exist a $K_0$-automorphism of C of order 2. c) Let $\xi$ be an element of D such that $\xi^3= X$, and let $\eta$ be an element of C such that $\eta^3= 2$ and $\eta \xi =\rho \xi \eta$; set $\zeta =\xi +\eta +\eta^2$. Prove that $K(\zeta )$ is a maximal commutative subfield of D and is not Galois over K, whereas the maximal commutative subfields $K(\xi )$ and $K(\eta )$ are Galois over K (calculate $\zeta^3)$.
-
-6) Let D be a field with center K of degree $m^2$ over K. Let $x$ be an element of D of degree $n >1$ over K, and let $f(X)$ be its minimal polynomial over K. a) Prove that a monic polynomial in D[X] (VIII, p. 11) of degree $< n$ cannot be right divisible by all polynomials $X-txt^{-1}$ for $t\in D^*$ (observe that the monic generator of the ideal $\cap (D[X] (X-txt^{-1}))$ has coefficients in K). b) Let $u(X), v(X), w(X)$ be three monic polynomials in D[X] such that $u(X) =$ $v(X)w(X)$ and $X-x$ is a right divisor of $u(X)$ but not of $w(X)$. Write $w(X) =$ $q(X) (X-x) +t$ with $t\in D^*$. Prove that $X-txt^{-1}$ is a right divisor of $v(X)$. c) Deduce from a) and b) that there exist $n$ elements $t_1, . . . , t_n$ of D such that we have
-
-$$
-f(X) = (X-t_1xt^-_1^1)\cdots (X-t_nxt^-_n^1)
-$$
-
-(observe that $f(X)$ is right divisible by all polynomial $X-txt^{-1})$. d) Deduce that Trd$_{D/K}(x)$ (resp. Nrd$_{D/K}(x))$ is the sum (resp. product) of $m$ elements of the form $txt^{-1}$ (apply Proposition 8 of VIII, p. 347).
-
-7) Let D be a field with center K of finite rank over K, endowed with a total order compatible with its additive group structure and such that the product of two positive elements is positive. Prove that D is equal to K. (Prove that K has characteristic zero. If $D\not= K$, observe that there exist elements $x$ in D K such that Trd$_{D/K}(x) = 0$, and apply Exercise 6, d)).
+See the [exercises for § 17](exercises/s17/).

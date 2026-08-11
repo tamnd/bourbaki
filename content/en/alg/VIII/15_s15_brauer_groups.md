@@ -30,7 +30,7 @@ subsections:
       pdf_page: 300
 statements: 12
 exercises: 2
-content_sha256: 29d074fd26de0b5c5f9ada7f2f72481f9673a45b359c806365736848dedac528
+content_sha256: 1309ee856deb0b9881af8281a4dd755c32870a60f110c6f54876823b92c80cd7
 ---
 
 ## § 15. BRAUER GROUPS
@@ -213,6 +213,4 @@ Suppose that K is a locally compact, nondiscrete, commutative topological field.
 
 ### Exercises {#alg-viii-s15-exercises}
 
-1) Let D be a field with center K. There exists a subfield of $\mathbf{M}_n(K)$ isomorphic to D with center K if and only if [D : K] divides $n$.
-
-2) Let D be a field of finite rank over K with center K. There exists a K-subalgebra of $\mathbf{M}_n(D)$ isomorphic to $\mathbf{M}_r(K)$ if and only if $r$ divides $n$ (use Theorem 6 of VIII, p. 260).
+See the [exercises for § 15](exercises/s15/).

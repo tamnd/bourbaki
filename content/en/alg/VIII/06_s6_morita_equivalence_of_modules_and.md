@@ -42,7 +42,7 @@ subsections:
       pdf_page: 128
 statements: 38
 exercises: 8
-content_sha256: a65871a67a4a4310b723326a5a1f029687688a93ff2388ee9fa85cef39413478
+content_sha256: 6671e55b36b4791c9870d7fad5ad09bbcb41996822b524e67ae0ee7da1bb620c
 ---
 
 ## § 6. MORITA EQUIVALENCE OF MODULES AND ALGEBRAS
@@ -595,42 +595,4 @@ Let A be a principal ideal domain and L a nonzero, finitely generated, free A-mo
 
 ### Exercises {#alg-viii-s6-exercises}
 
-1) Let $A,B$ be rings, P an $(A$, B)-bimodule, and Q a $(B$, A)-bimodule. Let $\varphi :$ $P\otimes_BQ\rightarrow A$ be a homomorphism of $(A$, A)-bimodules and $\psi : Q\otimes_AP\rightarrow B$ a homomorphism of $(B$, B)-bimodules satisfying $\varphi (x\otimes u)y=x\psi (u\otimes y)$ and $u\varphi (x\otimes v) =$ $\psi (u\otimes x)v$ for $x, y$ in P and $u, v$ in Q. Suppose that $\varphi$ is surjective. a) Prove that the A-module P is generating. b) Prove that $\varphi$ is an isomorphism. c) Construct an isomorphism of $(B$, A)-bimodules between Q and Hom$_B(P,B)$.
-
-2) Let M, N be A-modules and $m, n$ integers $\geqslant 1$. Suppose that M is a direct factor of $N^n$ and that N is a direct factor of $M^m$; prove that the rings End$_A(M)$ and End$_A(N)$ are Morita equivalent.
-
-3) Let A be a ring and G an abelian group denoted additively. A mapping $T : A\rightarrow G$ is called tracial if it is a homomorphism of additive groups and we have $T(ab) = T(ba)$ for every $a, b$ in A. a) Let $T : A\rightarrow G$ be a tracial mapping, and let P be a right A-module that is projective and finitely generated. Prove that there exists a unique tracial mapping $T_P:$ End$_A(P\oplus A_d)\rightarrow G$ whose restriction to A = End$_A(A_d)$ is T. b) Let A and B be Morita equivalent rings and G an abelian group. Construct a bijective correspondence between tracial mappings from A to G and tracial mappings from B to G.
-
-4) Let A and B be rings and P an invertible $(A$, B)-bimodule. Denote the set of two-sided ideals of A (resp. B) by $\mathscr{B}_A$ (resp. $\mathscr{B}_B)$ and the isomorphism of ordered sets defined in Proposition 6 (VIII, p. 105) by $f:\mathscr{B}_A\rightarrow \mathscr{B}_B$. a) Let $\mathfrak{a}$ be an ideal of A. Show that the rings $A/\mathfrak{a}$ and $B/f(\mathfrak{a})$ are Morita equivalent. b) Let $\mathfrak{a}$ and $\mathfrak{a}'$ be ideals of A. Show that $f(\mathfrak{a}\mathfrak{a}') =f(\mathfrak{a})f(\mathfrak{a}')$. c) Show that an ideal $\mathfrak{a}$ of A is nilpotent if and only if the ideal $f(\mathfrak{a})$ of B is nilpotent. d) Let M be a B-module. Prove that the trace ideal of M (VIII, p. 80) is the image under $f$ of the trace ideal of $P\otimes_BM$.
-
-$\P 5)$ For a ring R, denote by $\mathbf{M}_{\infty}(R)$ the pseudoring of matrices of type $\mathbf{N}\times \mathbf{N}$ with entries in R having only finitely many nonzero entries. Prove that the rings A and B are Morita equivalent if and only if the pseudorings $\mathbf{M}_{\infty}(A)$ and $\mathbf{M}_{\infty}(B)$ are isomorphic. (For an invertible $(A$, B)-module P, consider the image of $\mathbf{M}_{\infty}(A)$ under the isomorphism End$_A(A^(_s^{\mathbf{N})})\rightarrow$ End$_A(P^{(\mathbf{N})})$ constructed in Exercise 12 of VIII, p. 92. Given an isomorphism from $\mathbf{M}_{\infty}(A)$ to $\mathbf{M}_{\infty}$(B), consider the image in $\mathbf{M}_{\infty}(B)$ of the idempotent $E_{11}$ in $\mathbf{M}_{\infty}(A).)$
-
-6) Let A and B be rings. Suppose given
-
-– a B-module F(M) for every A-module M and
-
-– a B-linear homomorphism $F(u) : F(M)\rightarrow F(N)$ for every homomorphism of A-modules $u: M\rightarrow N$, such that following properties hold:
-
-(i) We have $F(1_M) = 1_{F(M)}$ for every A-module M.
-
-(ii) For $u\in$ Hom$_A(M,N)$ and $v\in$ Hom$_A(N,P)$, we have $F(v\circ u) = F(v)\circ F(u)$.
-
-(iii) For $u, v\in$ Hom$_A(M,N)$, we have $F(u+v) = F(u) + F(v)$. a) Prove that for every A-module M, the mapping $u\mapsto F(u)$ from End$_A(M)$ to End$_B(F(M))$ is a ring homomorphism. Deduce a $(B$, A)-bimodule structure on $F(A_s)$ from this. b) Let M be an A-module; for $m\in M$, denote by $h_m: A_s\rightarrow M$ the homomorphism $a\mapsto am$. Prove that there exists a unique B-linear homomorphism $\theta_M$ from $F(A_s)\otimes_AM$ to F(M) such that $\theta_M(x\otimes m) = F(h_m)(x)$ for every $x\in F(A_s)$ and $m\in M$. We have $F(u)\circ \theta_M=\theta_N\circ (1_{F(A_s)}\otimes u)$ for every homomorphism of A-modules $u: M\rightarrow N$.
-
-7) Keep the previous assumptions. Suppose, moreover, given
-
-– an A-module G(N) for every B-module N,
-
-– an A-linear homomorphism $G(v) : G(N)\rightarrow G(N')$ for every homomorphism of B-modules $v: N\rightarrow N'$,
-
-– an isomorphism $\alpha_M: M\rightarrow G(F(M))$ for every A-module M, and
-
-– an isomorphism $\beta_N: N\rightarrow F(G(N))$ for every B-module N. Suppose that the construction G has the properties analogous to (i) through (iii) above, that for every A-module homomorphism $u: M\rightarrow M'$, we have $G(F(u))\circ \alpha_M=$ $\alpha_{M'}\circ u$, and that for every B-module homomorphism $v: N\rightarrow N'$, we have $F(G(v))\circ \beta_N=\beta_{N'}\circ v$. a) Let M and $M'$ be A-modules; prove that the homomorphism $u\mapsto F(u)$ is an isomorphism from Hom$_A(M,M')$ to Hom$_B(F(M),F(M'))$. b) Let $f\in$ Hom$_A(M,M')$; then $F(f)$ is injective (resp. surjective) if and only if $f$ is (observe that $f$ is injective if and only if for every A-module E and every nonzero homomorphism $g: E\rightarrow M$, we have $f\circ g\not= 0)$. c) Let $0\rightarrow M'\rightarrow^iM\rightarrow^pM''\rightarrow 0$ be an exact sequence of A-modules; prove that the sequence $0\rightarrow F(M')^{F(}\rightarrow^{i)}F(M)^{F(}\rightarrow^{p)}F(M'')\rightarrow 0$ is exact. d) Let $(M_{\alpha})_{\alpha\in I}$ be a family of A-modules, and let M be its direct sum. Construct a canonical isomorphism from $\oplus F(M_{\alpha})$ to F(M). e) Let M be an A-module. Show that F(M) is projective (resp. generating, resp. finitely generated) if and only if M is (use Exercise 9 of VIII, p. 92). f ) Prove that the $(B$, A)-bimodule $F(A_s)$ is invertible and that the $(A$, B)-bimodule $G(B_s)$ is an inverse. g) Prove that for every A-module M, the homomorphism $\theta_M: F(A_s)\otimes_AM\rightarrow F(M)$ defined in Exercise 5, b) is bijective (use c) and d) by considering an exact sequence $A^{(J)}\rightarrow A^{(I)}\rightarrow M\rightarrow 0)$.
-
-8) Let $k$ be a commutative ring and A a $k$-algebra. a) Prove that the set of isomorphism classes of invertible $(A,A)_k$-bimodules (No. 8), endowed with the multiplication law $[P][Q] = [P\otimes_AQ]$, is a group; we denote it by $\mathscr{P}_k(A)$. b) Let G be the automorphism group of the $k$-algebra A; for $g\in G$, we denote by $A_g$ the left A-module $A_s$ endowed with the right A-module structure defined by $x\cdot a=x g(a)$. Show that the mapping $g\mapsto [A_g]$ is a group homomorphism from G to $\mathscr{P}_k$(A), with kernel the subgroup of inner automorphisms. c) Let Z be the center of A; define an exact sequence
-
-$$
-1\rightarrow \mathscr{P}_Z(A)\rightarrow \mathscr{P}_k(A)\rightarrow G
-$$
-
-If the algebra A is commutative, the group $\mathscr{P}_k(A)$ is the semidirect product of G and $\mathscr{P}_A(A)$.
+See the [exercises for § 6](exercises/s6/).

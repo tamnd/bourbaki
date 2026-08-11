@@ -38,7 +38,7 @@ subsections:
       pdf_page: 106
 statements: 30
 exercises: 19
-content_sha256: a30b771c790ba7e81efaa9505a8bbc8f03f76180c69f3c63e1c71babd357fe99
+content_sha256: 66b6ffbb6b84286a4e95ac9d19db760b048d32b7a64451a279c4a9abd3faa5b3
 ---
 
 ## § 5. COMMUTATION
@@ -405,70 +405,4 @@ When the field L is commutative, this corollary reduces to Artin’s theorem (V,
 
 ### Exercises {#alg-viii-s5-exercises}
 
-1) Let M be an A-module and N a direct factor submodule of M. a) Prove that N is stable under the bicommutant $A''_M$ of M. b) Prove that every A-linear mapping from N to M is $A''_M$-linear. c) Prove that restriction to N defines a ring homomorphism $A''_M\rightarrow A''_N$. d) Suppose that $M/N$ is a sum of submodules isomorphic to quotients of N. Prove that the canonical homomorphism $A''_M\rightarrow A''_N$ is injective. If N is balanced, the same holds for M.
-
-2) Let K be a commutative field and A the subring of $\mathbf{M}_3(K)$ consisting of the matrices of the form
-
-$a$ 0 0
-
-$bc$ 0
-
-0 0 $a$ for $a, b, c$ in K. Let M be the A-module $K^3$; it is the direct sum of the submodules $N = Ke_1+ Ke_2$ and $P = Ke_3$. a) Prove that M is balanced, that the canonical mapping $A''_M\rightarrow A''_N$ (Exercise 1) is injective but not surjective, and that the canonical mapping $A''_M\rightarrow A''_P$ is surjective but not injective. b) Deduce an example of a module Q over a ring B and a direct factor submodule R such that the canonical mapping $B''_Q\rightarrow B''_R$ is neither injective nor surjective (take $B = A\times A$ and $Q = M\times M)$.
-
-3) Let B be a ring and I a two-sided ideal of B; let A be the subring of $B\times B$ consisting of the pairs $(x, y)$ such that $x-y\in I$. Let $B_1$ (resp. $B_2)$ be the additive group B endowed with an A-module structure deduced from the first (resp. second) projection. Prove that the A-modules $B_1$ and $B_2$ are balanced. Under what condition on I is the A-module $B_1\oplus B_2$ balanced?
-
-4) Let A and B be rings and P an $(A$, B)-bimodule. a) Suppose that the B-module P is generating and that the A-module P is balanced. Show that for every balanced B-module M, the A-module $P\otimes_BM$ is balanced. b) Suppose that the A-module P is generating and that the mapping $b\mapsto b_P$ from B to End$_A(P)$ is bijective. Prove that for every generating B-module M, the A-module $P\otimes_BM$ is generating.
-
-5) Let A be a ring, M an A-module, and N a submodule of M. Prove that if the A-module $M/N$ is generating, the same holds for the A-module M. Use an example to prove that N can be generating without M being so.
-
-6) Let $(A_i)_{i\in I}$ be a family of rings and A be its product. Prove that the A-module $\bigoplus A_i$ is projective and faithful. Is it always generating?
-
-7) Let A be a ring and M an A-module. Prove that if M is generating, the right A-module $M^*=$ Hom$_A(M,A_s)$ is generating. Use an example to prove that $M^*$ can be generating without M being so (cf. Exercise 6).
-
-8) Let A be a principal ideal domain and M an A-module. Prove that the following properties are equivalent:
-
-(i) The A-module M is generating.
-
-(ii) The dual of M is nonzero.
-
-(iii) The module M contains a direct factor submodule isomorphic to $A_s$.
-
-9) Let D be a field and V a right vector space over D. We view V as a left module over the ring A = End$_D(V)$. a) Prove that the A-module V is projective, finitely generated, faithful, and balanced. Prove that the $(D$, A)-bimodules Hom$_A(V,A_s)$ and $V^*=$ Hom$_D(V,D_d)$ are canonically isomorphic. b) Prove that the A-module V is generating if and only if the dimension of the D-vector space V is finite. c) What is the trace ideal of the A-module V?
-
-10) Let M be an A-module. Prove that the following properties are equivalent:
-
-(i) The A-module M is finitely generated.
-
-(ii) For every generating A-module P, there exist a natural number $n$ and a surjective homomorphism $f$ from $P^n$ to M.
-
-11) Let P be a finitely generated projective A-module; denote its trace ideal by $\tau (P)$. a) Prove that we have $\tau (P)^2=\tau (P)$ and $\tau (P)P = P$. b) Prove that the canonical mapping $\tau (P)\otimes_AP\rightarrow P$ is an isomorphism.
-
-$\P 12)$ Let A be a ring, and let P be a finitely generated A-module. Prove that the following properties are equivalent:
-
-(i) The A-module P is projective and generating.
-
-(ii) The A-modules $P^{(\mathbf{N})}$ and $A^(_s^{\mathbf{N})}$ are isomorphic.
-
-(To establish the implication (i)$\Rightarrow$(ii), use induction to construct strictly increasing sequences $(n_k)$ and $(m_k)$ of integers and surjective homomorphisms of A-modules $f_k: A^n_{s^k}\rightarrow P^{m_k}$ and $g_k: P^{m_{k+1}}\rightarrow A^n_{s^k}$ such that $g_{k-1}\circ f_k$ and $f_k\circ g_k$ are the canonical projections.)
-
-13) Let $k$ be a ring and $n$ an integer $\geqslant 2$; denote by A the subring of $\mathbf{M}_n(k)$ consisting of the upper-triangular matrices and by M the right A-module $k^n$. Prove that M is projective and finitely generated but that the ring of homotheties of M is not dense in its bicommutant (cf. VIII, p. 88, Theorem 3 and VIII, p. 88, Remark). In particular, M is not balanced.
-
-14) What is the bicommutant of the $\mathbf{Z}$-module $\mathbf{Q}$? Prove that $\mathbf{Q}$ is a simple module over its bicommutant but that the ring of homotheties of the $\mathbf{Z}$-module $\mathbf{Q}$ is not dense in its bicommutant.
-
-$\P 15)$ Let M be a torsion module over a principal ideal domain. Prove that the ring of homotheties of M is dense in its bicommutant.
-
-(Reduce to the case when M is $\pi$-primary for an irreducible element $\pi$ of A. Then, prove that every finite subset S of M is contained in a direct factor submodule that is the direct sum of a finitely generated module and a finite number of indecomposable divisible modules. Use induction on the cardinal of S with the help of Exercises 3 of VII, §2, p. 54 and 8 of VII, §2, p. 56.)
-
-16) Let D be a field, V a vector space of dimension $\geqslant 2$ over D, and A a subring of End$_D(V)$. a) Suppose that for every system of four elements $(x, x', y, y')$, where $x$ and $x'$ are linearly independent, there exists an element $u$ of A such that $u(x) =y$ and $u(x') =y'$. Prove that the commutant of the A-module V is D (identified with the ring of homotheties of V) and that the ring of homotheties of this module is dense in its bicommutant. b) Give an example of a ring $A\subset$ End$_D(V)$ such that V is a simple A-module but that its commutant is distinct from D (consider a field E containing D, a vector space V over E, and the ring A = End$_E(V))$.
-
-17) Let K be an algebraically closed commutative field, V a finite-dimensional vector space over K, and G a submonoid of Aut(V) such that the K[G]-module V is simple. Prove that if the set of scalars Tr($g)$, for $g\in G$, is finite, then G is finite (deduce from Burnside’s theorem that G contains a basis $(g_i)_{i\in I}$ of End(V), and consider the mapping $g\mapsto$ (Tr($gg_i))$ from G to $K^I)$.
-
-$\P 18) A$ group G is called locally finite if every subgroup of G that admits a finite generating family is finite. a) Let G be a group and H a normal subgroup of G. Prove that if H and $G/H$ are locally finite, the same holds for G. b) Deduce from a) that a solvable group whose elements are all of finite order is locally finite. c) Let K be a commutative field, V a finite-dimensional vector space over K, and G a subgroup of Aut(V) that admits a finite generating family consisting of elements of finite order. Prove that the order of the elements of G is bounded.
-
-(Reduce to the case when K is a purely transcendental extension of a prime field P by considering the subfield K generated by the coefficients of a finite generating family of G. Then, prove that for every element $s$ of $\mathbf{G}\mathbf{L}_n(K)$ of finite order, we have $\varphi (s)\leqslant n$ if $P =\mathbf{Q}$ and $s\leqslant p^n-1$ if $P =\mathbf{F}_p.)$ d) Prove that every subgroup H of Aut(V) whose elements are all of finite order is locally finite.[^1]
-
-(Reduce to the case when K is algebraically closed, and use induction on dim(V). Let G be a subgroup of H that admits a finite generating family. If V is a simple K[G]-module, apply Exercise 17; if V contains a nontrivial subspace W that is stable under G, consider the image of G in Aut(V) $\times$ Aut(V$/W)$, and apply a) and b)).
-
-$\P 19)$ Let A be a ring such that the A-module $A_s$ is the direct sum of a finite family of left ideals $(\mathfrak{I}_i)_{1\leqslant i\leqslant n}$ that are isomorphic as A-modules. a) Prove that in A, there exists a family of elements $e_{i,j}(1\leqslant i\leqslant n, 1\leqslant j\leqslant n)$ such that $e_{i,j}e_{h,k}=\delta_{j,h}e_{i,k}$, where $\delta_{j,h}$ denotes the Kronecker delta function, and $\mathfrak{I}_i= Ae_{i,i}$ (cf. VIII, p. 39, Exercise 5 and I, §8, p. 173, Exercise 12). Conversely, if in A, there exists a family of $n^2$ elements $e_{i,j}$ such that $e_{i,j}e_{h,k}=\delta_{j,h}e_{i,k}$ and $1 =\sum^n_{i=1}e_{i,i}$, then the left ideals $Ae_{i,i}$ are isomorphic as A-modules (cf. VIII, p. 39, Exercise 5). Moreover, if B is the subring of A consisting of the elements that commute with all the $e_{i,j}$, then A is isomorphic to the matrix ring $\mathbf{M}_n(B)$ and B is isomorphic to the opposite ring of the commutant of each of the A-modules $Ae_{i,i}$ (use VIII, p. 78 and VIII, p. 65, Corollary). b) Let M be an A-module. Prove that the $N_i=e_{i,i}M$ are B-modules and that M, viewed as a B-module, is the direct sum of the $N_i$; moreover, the B-modules $N_i$ are pairwise isomorphic (consider the mappings $x\mapsto e_{i,1}x$ and $y\mapsto e_{1,i}y)$, and the annihilator of the $N_i$ is the intersection of B and the annihilator of M in A. Conversely, for every B-module N, define an A-module structure on the direct sum M of $n$ B-modules isomorphic to N, so that $e_{1,1}M$ is isomorphic to N. c) To each B-submodule P of $N_1$, assign the A-submodule $\sum^n_{i=1}e_{i,1}P$ of M. Prove that this defines a bijective mapping from the set of B-submodules of $N_1$ to the set of A-submodules of M that is strictly increasing for the inclusion relation.
-
-[^1]: For every odd integer $n\geqslant 665$, there exists a group in which the order of every element divides $n$ but that is not locally finite; cf. S. I. Adian, The Burnside problem and identities in groups, Ergebnisse der Math. **95**, Springer-Verlag (1979). An analogous result holds when $n\geqslant 2^{48}$ and $2^9$ divides $n$ (cf. S. V. Ivanov, On the Burnside problem for groups of even exponent, Proceedings of the International Congress of Mathematicians, Vol. II (Berlin, 1998). Doc. Math. 1998, Extra Vol. II, 67–75).
+See the [exercises for § 5](exercises/s5/).

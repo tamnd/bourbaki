@@ -62,7 +62,7 @@ subsections:
       pdf_page: 221
 statements: 36
 exercises: 14
-content_sha256: c690e2b3d293c49a162570f61b8ea491f92053e7b8a0e4235193c2930f8e57fc
+content_sha256: 22144ede4a5a2a95481142745763f478695c7ee2c260a4f16db28ffbaa72102e
 ---
 
 ## § 11. GROTHENDIECK GROUPS
@@ -881,88 +881,4 @@ using formula (32). In particular, $A'$ is a finitely generated left $B'$-module
 
 ### Exercises {#alg-viii-s11-exercises}
 
-1) Let $p$ be a prime number. Denote by $\mathscr{C}$ the set of classes of $\mathbf{Z}$-modules of the form $(\mathbf{Z}/p^2\mathbf{Z})^n\oplus (\mathbf{Z}/p^3\mathbf{Z})^m$ for $n, m\in \mathbf{N}$. a) Prove that $\mathscr{C}$ is additive but not hereditary. What is the smallest hereditary set $\mathscr{H}$ containing $\mathscr{C}$? b) Prove that every short exact sequence of modules of type $\mathscr{C}$ splits. Describe the group $K(\mathscr{C})$. c) Construct an exact sequence
-
-$$
-0\rightarrow M_0\rightarrow M_1\rightarrow M_2\rightarrow M_3\rightarrow M_4\rightarrow 0
-$$
-
-of modules of type $\mathscr{C}$ such that the classes of $M_0\oplus M_2\oplus M_4$ and $M_1\oplus M_3$ in $K(\mathscr{C})$ are distinct. d) Is the natural homomorphism from $K(\mathscr{C})$ to $K(\mathscr{H})$ injective?
-
-2) Let A be a ring and $a$ and $b$ two elements of A such that $ab= 1$ and $ba\not= 1$. Prove that the A-module $A(1-ba)$ is projective and that it is stably isomorphic to the zero A-module. More precisely, prove that the A-modules $A_s$ and $A(1-ba)\oplus A_s$ are isomorphic.
-
-3) Let A and B be rings. Determine the Grothendieck groups $R(A\times B)$ and $K_0(A\times B)$ of $A\times B$ in terms of those of A and B.
-
-4) Let A and B be Morita equivalent rings. Prove that the groups R(A) and R(B) are isomorphic. Do the same for $K_0(A)$ and $K_0(B)$.
-
-5) Let A be a ring. Denote by $\mathscr{I}(A)$ the set of pairs $(n, p)$ with $n$ an integer and $p$ an idempotent in $M_n(A)$. Define a law of addition on $\mathscr{I}(A)$ by setting $(m, p) + (n, q) = (m+n,^p_0^0_q$ ). a) Let $\mathscr{P}(A^o)$ be the monoid of classes of finitely generated projective right A-modules. Let $\varphi :\mathscr{I}(A)\rightarrow \mathscr{P}(A^o)$ be the mapping defined by $\varphi (n, p) =$ cl(Im $p)$. Prove that $\varphi$ is a surjective homomorphism and that elements $(m, p)$ and $(n, q)$ of $\mathscr{I}(A)$ have the same image by $\varphi$ if and only if there exist $a\in M_{m,n}(A)$ and $b\in$ $M_{n,m}(A)$ such that $ab=p$ and $ba=q$. b) Deduce that the groups $K_0(A)$ and $K_0(A^o)$ are isomorphic.
-
-6) Let A be a ring, G an abelian group, and $T : A\rightarrow G$ a tracial mapping (VIII, p. 115, Exercise 3). For any finitely generated projective right A-module P, denote by
-
-$T_P:$ End$_A(P\oplus A_d)\longrightarrow G$ the unique tracial mapping that extends T (loc. cit.) and by $\pi_P$ the projector of End$_A(P\oplus A_d)$ with image P and kernel $A_d$. Construct a group homomorphism $\widetilde{T} : K_0(A)\rightarrow G$ such that $\widetilde{T}([P]) = T_P(\pi_P)$ for every finitely generated projective right A-module P.
-
-7) Let I be a right directed set, $(A_i, f_{ji})$ a direct system of rings, and A its limit. Prove that $K_0(A)$ is the limit of the direct system of groups $(K_0(A_i), f_{ji}^*)$.
-
-$\P 8)$ Let $A,B$, and C be rings and $f: A\rightarrow C$ and $g: B\rightarrow C$ ring homomorphisms; suppose that $f$ is surjective. Consider the subring D of $A\times B$ consisting of the pairs $(a, b)$ such that $f(a) =g(b)$. Let M be an A-module, N a B-module, and $u$ a C-isomorphism from $C\otimes_AM$ to $C\otimes_BN$. Denote by P the D-submodule of $M\times N$ consisting of the pairs $(m, n)$ such that $u(1\otimes m) = 1\otimes n$. a) Suppose that the modules M and N admit finite bases $(e_i)_{i\in I}$ and $(f_j)_{j\in J}$ and that the matrix of $u$ in the bases $(1\otimes e_i)$ and $(1\otimes f_j)$ is the image of an invertible matrix $(a_{ji})$ with entries in A. Prove that the D-module P is free; more precisely, the elements $(e_i,\sum_ja_{ji}f_j)_{i\in I}$ form a basis of P. b) Let $p$ and $q$ be integers and $X\in \mathbf{M}_{p,q}(C)$ and $Y\in \mathbf{M}_{q,p}(C)$ matrices such that XY = $I_p$ and YX = $I_q$. Prove that the square matrix $(^X_{0Y}^0)$ is the image of an invertible matrix with entries in A, using the identity
-
-$$
-(X0)(I_pX)((I_p0)((I_pX)((0-I_p)
-$$
-
-= $$.
-
-0 Y 0 $I_q-YI_q$ 0 $I_qI_q$ 0 c) Suppose that the modules M and N are free and finitely generated. Deduce from a) and b) that the D-module P is projective and finitely generated. d) Suppose that M and N are projective and finitely generated. Construct an A-module $M'$ and a B-module $N'$ such that $M\oplus M'$ and $N\oplus N'$ are free and finitely generated and that the C-modules $C\otimes_AM'$ and $C\otimes_BN'$ are isomorphic. Deduce that the D-module P is projective and finitely generated. e) Prove that the canonical homomorphisms $A\otimes_DP\rightarrow M$ and $B\otimes_DP\rightarrow N$ deduced from the two projections are bijective (reduce as above to the case when the conditions of a) are satisfied). f ) Conversely, let $P'$ be a finitely generated projective D-module; set $M'= A\otimes_DP'$ and $N'= B\otimes_DP'$, and denote by $u': C\otimes_AM'\rightarrow C\otimes_BN'$ the canonical isomorphism. Prove that the canonical homomorphism from $P'$ to $M'\times N'$ induces a D-linear isomorphism from $P'$ to the D-module associated with $(M',N', u')$. g) Denote by $\varphi_0: K_0(D)\rightarrow K_0(A)\times K_0(B)$ and $\psi_0: K_0(A)\times K_0(B)\rightarrow K_0(C)$ the homomorphisms such that $\varphi_0([P]) = ([A\otimes_DP],[B\otimes_DP])$ and $\psi_0([M],[N]) = [C\otimes_AM]-[C\otimes_BN]$.
-
-Prove that the sequence
-
-$$
-K_0(D)\longrightarrow^{\varphi_0}K_0(A)\times K_0(B)\longrightarrow^{\psi_0}K_0(C)
-$$
-
-is exact. Prove that if, moreover, there exists a ring homomorphism $s: C\rightarrow A$ such that $f\circ s=$ Id$_C$, then $\varphi_0$ is injective and $\psi_0$ is surjective.
-
-9) Let A be a pseudoring, that is, an associative not necessarily unital $\mathbf{Z}$-algebra, and $\widetilde{A}$ the $\mathbf{Z}$-algebra deduced from A by adjoining a unit element (III, §1, No. 2, p. 431); the set $\widetilde{A}$ is equal to $\mathbf{Z}\times A$. Denote the homomorphism $(n, a)\mapsto n$ by $\varepsilon :\widetilde{A}\rightarrow \mathbf{Z}$, and denote the kernel of the homomorphism $\varepsilon^*: K_0(\widetilde{A})\rightarrow K_0(\mathbf{Z})$ associated with $\varepsilon$ by $K_0(A)$. a) Prove that if A is unital, then $\widetilde{A}$ is isomorphic to the product ring $\mathbf{Z}\times A$ and the definition of $K_0(A)$ is compatible with that given in No.8. b) Let A and B be pseudorings and $f: A\rightarrow B$ a homomorphism. Let $\widetilde{f}:\widetilde{A}\rightarrow \widetilde{B}$ be the ring homomorphism defined by $\widetilde{f}((n, a)) = (n, f(a))$. Prove that $\widetilde{f}^*$ maps $K_0(A)$ into $K_0(B)$. Denote the homomorphism deduced from $\widetilde{f}^*$ by $f^*: K_0(A)\rightarrow K_0(B)$. c) Suppose that $f$ is surjective; denote its kernel by $\mathfrak{a}$ and the canonical injection of $\mathfrak{a}$ into A by $i$. Show that the sequence
-
-$$
-K_0(\mathfrak{a})\longrightarrow^{i^*}K_0(A)\longrightarrow^{f^*}K_0(B)
-$$
-
-is exact. If, moreover, there exists a homomorphism of pseudorings $s: B\rightarrow A$ such that $f\circ s=$ Id$_B$, then $i^*$ is injective and $f^*$ is surjective (apply Exercise 8 by first taking $(A,A,B)$ and then $(D,\mathbf{Z},A)$ for the triple $(A,B,C))$. d) Prove that the conclusions of Exercises 7 and 8 extend to the case of pseudorings. e) Denote by $\mathbf{M}_{\infty}(A)$ the pseudoring of $\mathbf{N}\times \mathbf{N}$ matrices with entries in A having only finitely many nonzero entries. Let $f: A\rightarrow \mathbf{M}_{\infty}(A)$ be the mapping that sends $a\in A$ to the matrix $(b_{ij})$ with $b_{00}=a$ and $b_{ij}= 0$ if $(i, j)\not= (0,0)$. Prove that $f^*$ is an isomorphism from $K_0(A)$ to $K_0(\mathbf{M}_{\infty}(A))$ (use Exercises 4 and 7).
-
-10) Let A be a ring. Denote by $\mathbf{G}\mathbf{L}_{\infty}(A)$ the subgroup of $\mathbf{G}\mathbf{L}(A^{(\mathbf{N})})$ consisting of the matrices X such that $X-I$ has only finitely many nonzero entries, and denote by E(A) the subgroup of $\mathbf{G}\mathbf{L}_{\infty}(A)$ generated by the matrices I $+\lambda E_{ij}$ for $i, j$ in $\mathbf{N}$ with $i\not=j$ and $\lambda \in A$; it is the derived group of $\mathbf{G}\mathbf{L}_{\infty}(A)$ (II, §10, p. 422, Exercise 15). Denote the quotient group $\mathbf{G}\mathbf{L}_{\infty}(A)/E(A)$ by $K_1(A)$; its group law is written additively. Every ring homomorphism $f: A\rightarrow B$ induces a group homomorphism $f^*: K_1(A)\rightarrow K_1(B)$. a) For any integer $n\geqslant 1$, let $\iota_n:\mathbf{G}\mathbf{L}_n(A)\rightarrow K_1(A)$ be the homomorphism that sends $X\in \mathbf{G}\mathbf{L}_n(A)$ to the class of the matrix $(^X_0^0_I)$. Prove that if the ring A is local, then $\iota_n$ is surjective for every $n$ (use Exercise 17 of VIII, p. 42). b) Suppose that the ring A is commutative. Construct a surjective homomorphism $d_A: K_1(A)\rightarrow A^*$ such that $d_A\circ \iota_n=$ det for every $n$. If, moreover, A is local or Euclidean, then the homomorphisms $d_A$ and $\iota_1$ are inverse bijections. c) Let I be a right directed set, $(A_i, f_{ji})$ a direct system of rings, and A its limit. Prove that $K_1(A)$ is the limit of the direct system of groups $(K_1(A_i), f_{ji}^*)$.
-
-$\P 11)$ Take the assumptions and notation of Exercise 8. Denote by $f': D\rightarrow B$ and $g': D\rightarrow A$ the homomorphisms deduced from the two projections and by
-
-$\varphi_1: K_1(D)\rightarrow K_1(A)\times K_1(B)$ and $\psi_1: K_1(A)\times K_1(B)\rightarrow K_1(C)$
-
-the mappings defined by $\varphi_1(z) = (g^{'*}(z), f^{'*}(z))$ and $\psi_1(x, y) =f^*(x)-g^*(y)$. a) Prove that the sequence
-
-$$
-K_1(D)\longrightarrow^{\varphi_1}K_1(A)\times K_1(B)\longrightarrow^{\psi_1}K_1(C)
-$$
-
-is exact (observe that $f(E(A)) = E(C))$. Prove that if, moreover, there exists a ring homomorphism $s: C\rightarrow A$ such that $f\circ s=$ Id$_C$, then $\psi_1$ is surjective. b) For any integer $n$ and any element $g$ of $\mathbf{G}\mathbf{L}_n$(C), denote by $P_g$ the projective D-module associated with the modules $A^n$ and $B^n$ and the isomorphism from $C\otimes_AA^n$ to $C\otimes_BB^n$ with matrix $g$ (Exercise 8). Construct a homomorphism $\partial : K_1(C)\rightarrow K_0(D)$ such that $\partial \circ \iota_n(g) = [P_g]-[D^n_s]$ for every integer $n$ and every element $g$ of $\mathbf{G}\mathbf{L}_n(C)$. c) Prove that the sequence
-
-$$
-K_1(D)\longrightarrow^{\varphi_1}K_1(A)\times K_1(B)\longrightarrow^{\psi_1}K_1(C)\longrightarrow^{\partial}K_0(D)\longrightarrow^{\varphi_0}K_0(A)\times K_0(B)\longrightarrow^{\psi_0}K_0(C)
-$$
-
-is exact.
-
-12) Let $f: A\rightarrow B$ be a surjective ring homomorphism, $\mathfrak{a}$ its kernel, and $i$ the canonical injection of $\mathfrak{a}$ into A. Construct a homomorphism $\partial : K_1(B)\rightarrow K_0(\mathfrak{a})$ such that the sequence
-
-$***$
-
-$$
-K_1(A)\longrightarrow^fK_1(B)\longrightarrow^{\partial}K_0(\mathfrak{a})\longrightarrow^iK_0(A)\longrightarrow^fK_0(B)
-$$
-
-is exact (argue as in Exercise 11, c)). 13) Denote by $\mathscr{C}$ (resp. $\mathscr{D})$ the set of classes of $\mathbf{Z}$-modules of finite length (resp. finitely generated $\mathbf{Z}$-modules). Show that the group homomorphism $\gamma_{\mathscr{D},\mathscr{C}}$ from $K(\mathscr{C})$ to $K(\mathscr{D})$ is zero.
-
-14) Let K be a commutative field of characteristic different from 2. Write
-
-$$
-A = K[X,Y,Z]/(X^2+ Y^2+ Z^2-1)
-$$
-
-Let M be the A-module $A^3/A(X,Y,Z)$, where X, Y, and Z denote the respective images of X, Y, and Z in A. Show that $M\oplus A$ is a free A-module but that M is not a free module.
+See the [exercises for § 11](exercises/s11/).

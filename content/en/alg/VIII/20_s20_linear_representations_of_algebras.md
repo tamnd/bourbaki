@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 29
 exercises: 6
-content_sha256: 736d6a1c0b36d7bafdea5e3e8f18d12ff4869ce382ea633495709c78ab39f3a8
+content_sha256: 4c5fb47db1f188963a987a91827b80508252daaf48ed6cbf09dd3c49236f9af9
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -661,20 +661,4 @@ Let $Θ^*$ be the dual algebra of the cogebra Θ. We endow $Θ^*$ with the coars
 
 ### Exercises {#alg-viii-s20-exercises}
 
-1) Let K be a commutative field. Let A be the K-algebra with basis consisting of the unit element and two elements $e,f$ such that $e^2=e,ef=f$, and $f e=f^2= 0$. a) Prove that the regular and coregular representations of A are not isomorphic (calculate Tr$_{A/K}(e)$ and Tr$_{A^o/K}(e))$. b) Prove that the regular representation contains a subrepresentation that is isomorphic to neither a subrepresentation nor a quotient representation of the coregular representation. Moreover, there exists a simple representation of A that is not isomorphic to a subrepresentation of the regular representation.
-
-2) Let A be a K-algebra. We view the dual $A^*$ of A as a left A-module. a) The mapping $E\mapsto E'$ is a surjection from the set of A-submodules of $A^*$ to the set of right ideals of A. When E is such a submodule, the orthogonal of $E'$ in $A^*$ is a submodule of $A^*$ containing E. b) Prove that the orthogonal in A of the socle of $A^*$ is the radical of A. c) Prove that the orthogonal in $A^*$ of the socle of $A_d$ is the radical of the A-module $A^*$. Deduce that $A^*$ is a semisimple A-module if and only if the ring A is semisimple.
-
-$\P 3)$ Let A be an Artinian ring and A the ring $A/<(A)$. We take a decomposition of A as a direct sum of indecomposable ideals $Ae_i(i\in I)$, where the $e_i$ are orthogonal idempotents (VIII, p. 179, Exercise 6, d)). We denote by $I =\cup_{\alpha\in R}I_{\alpha}$ the partition of I such that two elements $i, j$ of I belong to the same set $I_{\alpha}$ if and only if the modules $Ae_i$ and $Ae_j$ are isomorphic. The A-modules $\bigoplus_{i\in I_{\alpha}}Ae_i$ are the isotypical components of A (VIII, p. 179, Exercises 6, d) and 7, a)) a) Prove that if the ring A is autoinjective (VIII, p. 53, Exercise 8), then there exists a permutation $\sigma$ of R such that every right ideal $e_iA$, for $i\in I_{\alpha}$, contains a unique minimal right ideal isomorphic to $e_jA$ for $j\in I_{\sigma(\alpha)}$ (observe that the right annihilator of an idempotent $e$ is $(1-e)A)$. Deduce that the left socle $\mathfrak{s}$ of A is contained in its right socle $\mathfrak{t}$ (prove that every right ideal $e_i\mathfrak{s}$ is minimal, by proving that it is the annihilator of a maximal left ideal, cf. VIII, p. 178, Exercise 2). Conclude that we have $\mathfrak{s}=\mathfrak{t}$ and that every left ideal $Ae_i$, for $i\in I_{\sigma(\alpha)}$, contains a unique minimal left ideal isomorphic to $Ae_j$ for every $j\in I_{\alpha}$. b) Conversely, if every left ideal $Ae_i$ contains a unique minimal left ideal and every right ideal $e_iA$ contains a unique minimal right ideal, then the ring A is autoinjective. (Use Exercise 7 of VIII, p. 179 to prove that every foot of $\mathfrak{s}$ is a minimal two-sided ideal. Deduce that $\mathfrak{t}$ contains $\mathfrak{s}$, and then that $\mathfrak{s}=\mathfrak{t}$. Finally, prove that condition $\beta )$ of Exercise 8 of VIII, p. 53 is satisfied.) c) Suppose that A is an algebra of finite degree over a commutative field and an autoinjective ring. Let $\alpha \in R,i\in I_{\alpha}$, and $j\in I_{\sigma(\alpha)}$. Prove that the linear representation of A associated with the A-module $Ae_j$ is isomorphic to the transpose of the linear representation of $A^o$ associated with the right A-module $e_iA$. (Let $U_i$ be the left submodule of $A^*$ that is the orthogonal of $(1-e_i)A$. Deduce from Exercise 7, d) of VIII, p. 179 that $U_i$ is isomorphic to a quotient module of $Ae_j$ and that we consequently have long $e_iA\leqslant$ long $e_jA$. Conclude that these lengths are equal, so $U_i$ is isomorphic to $Ae_j.)$ Use b) and Exercise 2, a) to prove a converse of this statement.
-
-4) Keep the assumptions of Exercise 3. a) Prove that if A is a Frobenius ring (VIII, p. 53, Exercise 9), then we have Card(I$_{\alpha}) =$ Card(I$_{\sigma(\alpha)})$ for every $\alpha \in R$. Also prove the converse. b) An algebra of finite degree over a commutative field is Frobenius if and only if its regular representation is isomorphic to its coregular representation (use Exercise 3, c)).
-
-5) Let K be a commutative field and A be a K-algebra. We endow $A^*$ with its canonical left A-module structure. For $t\in A^*$, we denote by $\varphi_t$ the mapping $(x, y)\mapsto t(xy)$ from $A\times A$ to K. a) Prove that this defines a K-linear isomorphism from $A^*$ to the set of K-bilinear mappings $\varphi : A\times A\rightarrow K$ satisfying $\varphi (xy, z) =\varphi (x, yz)$ for $x, y, z\in A$. b) We say that the element $t\in A^*$ is invertible if the homomorphism $a\mapsto at$ from A to $A^*$ is bijective. Let A be a K-algebra of finite degree. Prove that the following conditions are equivalent:
-
-(i) A is Frobenius (Exercise 4).
-
-(ii) A admits an invertible linear form.
-
-(iii) A admits a linear form whose kernel does not contain any left ideals of A.
-
-6) Let K be a commutative field. We say that a K-algebra A is symmetric if it admits a tracial invertible linear form (VIII, p. 115, Exercise 3). a) Prove that a symmetric algebra has finite degree and is Frobenius. b) Prove that the algebra of a finite group over K is symmetric. c) A semisimple algebra of finite degree over K is symmetric.
+See the [exercises for § 20](exercises/s20/).
