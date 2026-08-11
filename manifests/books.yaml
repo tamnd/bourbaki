@@ -27,6 +27,8 @@ books:
       text_layer: ocr
       page_width_pt: 439.37
       page_height_pt: 666.142
+      grammar: foot-number
+      pagination: continuous
     - id: alg-i-iii
       book: alg
       lang: en
@@ -171,6 +173,8 @@ books:
       text_layer: native
       page_width_pt: 439
       page_height_pt: 666
+      grammar: head-label
+      pagination: per-chapter
     - id: alg-ix-fr
       book: alg
       lang: fr
@@ -412,6 +416,8 @@ books:
       text_layer: ocr
       page_width_pt: 439
       page_height_pt: 666
+      grammar: head-label
+      pagination: per-chapter
     - id: evt-i-v-fr
       book: evt
       lang: fr
@@ -440,6 +446,8 @@ books:
       text_layer: ocr
       page_width_pt: 493.229
       page_height_pt: 680.315
+      grammar: head-label
+      pagination: per-chapter
     - id: int-i-vi
       book: int
       lang: en
@@ -469,6 +477,8 @@ books:
       text_layer: ocr
       page_width_pt: 439.37
       page_height_pt: 666.142
+      grammar: head-label
+      pagination: per-chapter
     - id: int-vii-ix
       book: int
       lang: en
@@ -495,6 +505,8 @@ books:
       text_layer: ocr
       page_width_pt: 439.37
       page_height_pt: 666.142
+      grammar: head-label
+      pagination: per-chapter
     - id: int-i-iv-fr
       book: int
       lang: fr
@@ -800,6 +812,8 @@ books:
       text_layer: ocr
       page_width_pt: 307.32
       page_height_pt: 422.52
+      grammar: foot-number
+      pagination: continuous
     - id: lie-iv-vi
       book: lie
       lang: en
@@ -844,6 +858,8 @@ books:
       text_layer: native
       page_width_pt: 439
       page_height_pt: 666
+      grammar: head-number
+      pagination: continuous
     - id: lie-i-fr
       book: lie
       lang: fr
@@ -968,6 +984,8 @@ books:
       text_layer: ocr
       page_width_pt: 493.228
       page_height_pt: 680.315
+      grammar: head-label
+      pagination: per-chapter
     - id: ts-i-ii-fr
       book: ts
       lang: fr
@@ -986,6 +1004,8 @@ books:
       text_layer: native
       page_width_pt: 439.42
       page_height_pt: 666.14
+      grammar: head-label
+      pagination: continuous
     - id: ts-iii-v-fr
       book: ts
       lang: fr
@@ -1005,6 +1025,8 @@ books:
       text_layer: native
       page_width_pt: 439.42
       page_height_pt: 666.14
+      grammar: head-label
+      pagination: continuous
     - id: ta-i-iv-fr
       book: ta
       lang: fr
@@ -1025,6 +1047,8 @@ books:
       text_layer: native
       page_width_pt: 439.43
       page_height_pt: 666.14
+      grammar: head-label
+      pagination: continuous
     - id: hist
       book: hist
       lang: en
@@ -1048,6 +1072,8 @@ books:
       text_layer: ocr
       page_width_pt: 439.37
       page_height_pt: 666.142
+      grammar: head-number
+      pagination: continuous
     - id: hist-fr
       book: hist
       lang: fr
