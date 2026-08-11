@@ -71,11 +71,12 @@ jobs:
         run: go run ./cmd/bourbaki tags verify -base origin/main
       # The reference graph is a pure function of the Markdown too, so the
       # manifest and the four reports are checked rather than rebuilt. -min is
-      # set to what the corpus measures today and is raised as the extraction
-      # holes the graph found are closed, so that it catches a regression
-      # without pretending the target has been reached.
+      # the milestone's own target and the corpus now clears it at 91.7 per
+      # cent, so this is a regression gate rather than an aspiration. Of the
+      # references that do not resolve, two thirds are the numbered displays and
+      # the loc. cit. that resolve to nothing on purpose.
       - name: refs build -check
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki refs build -check -min 78
+        run: go run ./cmd/bourbaki refs build -check -min 90
