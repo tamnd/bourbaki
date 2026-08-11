@@ -59,9 +59,12 @@ tags/                                        permanent tag index
 manifests/                                   books, TOC, page maps, refs, glossary
 figures/                                     cropped diagrams, small, committed
 reports/                                     audit, usage, coverage, scorecards
+imports/<book>/chapter_<n>/<n>.<m>.md        read off share links, not yet checked
 ```
 
 `pdf/`, `images/` and `work/` are gitignored. Nothing large or copyrighted is committed.
+
+`imports/` is deliberately outside `content/`. It holds sections read off public ChatGPT share links, which cost an HTTP GET rather than 150 seconds of a browser per page, and which nobody has yet held against the printed book. The audit runs over `content/`, so anything dropped in there would pass 46 rules by default. See [imports/README.md](imports/README.md).
 
 ## Coverage
 
