@@ -448,8 +448,8 @@ books:
                   page: 224
                   pdf_page: 248
               exercises:
-                page: 417
-                pdf_page: 441
+                page: 380
+                pdf_page: 404
             - section: 2
               title: Modules of linear mappings. Duality
               page: 227
@@ -508,7 +508,7 @@ books:
                   page: 246
                   pdf_page: 270
                 - "no": 4
-                  title: Operators on a tensor product; tensor products as multi- modules
+                  title: Operators on a tensor product; tensor products as multi modules
                   page: 247
                   pdf_page: 271
                 - "no": 5
@@ -552,7 +552,7 @@ books:
                   page: 273
                   pdf_page: 297
                 - "no": 4
-                  title: The homomorphism Hom0 (El, F 1 ) ®c Hom0 (E2, F2) -+ Hom0 (E1 ®c E 2, F 1 0 0 F 2)
+                  title: The homomorphism Hom0 (El, F 1 ) ®c Hom0 (E2, F2) + Hom0 (E1 ®c E 2, F 1 0 0 F 2)
                   page: 274
                   pdf_page: 298
               exercises:
@@ -799,6 +799,9 @@ books:
                   title: Equivalence of matrices over a field
                   page: 360
                   pdf_page: 384
+              exercises:
+                page: 417
+                pdf_page: 441
             - section: 11
               title: Graded modules and rings
               page: 363
@@ -888,8 +891,8 @@ books:
                   page: 436
                   pdf_page: 460
               exercises:
-                page: 645
-                pdf_page: 669
+                page: 618
+                pdf_page: 642
             - section: 2
               title: Examples of algebras
               page: 438
@@ -1052,7 +1055,7 @@ books:
                   page: 498
                   pdf_page: 522
                 - "no": 3
-                  title: n-th symmetric power of a module and symmetric multi- linear mappings
+                  title: n-th symmetric power of a module and symmetric multi linear mappings
                   page: 500
                   pdf_page: 524
                 - "no": 4
@@ -1088,7 +1091,7 @@ books:
                   page: 510
                   pdf_page: 534
                 - "no": 4
-                  title: n-th exterior power of a module and alternating multi- linear mappings
+                  title: n-th exterior power of a module and alternating multi linear mappings
                   page: 511
                   pdf_page: 535
                 - "no": 5
@@ -1156,7 +1159,7 @@ books:
                   page: 537
                   pdf_page: 561
                 - "no": 10
-                  title: The A[X]-module associated with an A-module endo- morphism
+                  title: The A[X]-module associated with an A-module endo morphism
                   page: 538
                   pdf_page: 562
                 - "no": 11
@@ -1228,7 +1231,7 @@ books:
                   page: 560
                   pdf_page: 584
                 - "no": 8
-                  title: Relations between derivations and algebra homomor- phisms
+                  title: Relations between derivations and algebra homomor phisms
                   page: 561
                   pdf_page: 585
                 - "no": 9
@@ -1247,6 +1250,9 @@ books:
                   title: Functorial properties of K-differentials
                   page: 570
                   pdf_page: 594
+              exercises:
+                page: 645
+                pdf_page: 669
             - section: 11
               title: Cogebras, products of multilinear forms, inner products and duality
               page: 574
@@ -1293,7 +1299,7 @@ books:
                   page: 605
                   pdf_page: 629
                 - "no": 11
-                  title: Isomorphisms between /\P (M) and 1\n-p (M*) for ann- dimensional free module M
+                  title: Isomorphisms between /\P (M) and 1\n-p (M*) for ann dimensional free module M
                   page: 607
                   pdf_page: 631
                 - "no": 12
@@ -1386,7 +1392,7 @@ books:
               pdf_page: 23
               subsections:
                 - "no": 1
-                  title: Roots of a polynomial in one indeterminate. Multipli- city
+                  title: Roots of a polynomial in one indeterminate. Multipli city
                   page: 14
                   pdf_page: 23
                 - "no": 2
@@ -1640,7 +1646,7 @@ books:
                   page: 17
                   pdf_page: 131
                 - "no": 3
-                  title: Transitivity of algebraic extensions. Fields that are relati- vely algebraically closed in an extension field
+                  title: Transitivity of algebraic extensions. Fields that are relati vely algebraically closed in an extension field
                   page: 19
                   pdf_page: 133
               exercises:
@@ -2056,7 +2062,7 @@ books:
               pdf_page: 251
               subsections:
                 - "no": 1
-                  title: Complements on the relative separable algebraic clo- sure
+                  title: Complements on the relative separable algebraic clo sure
                   page: 137
                   pdf_page: 251
                 - "no": 2
@@ -2177,7 +2183,7 @@ books:
                   page: 25
                   pdf_page: 336
                 - "no": 6
-                  title: Characterization of maximal ordered fields. Euler- Lagrange theorem
+                  title: Characterization of maximal ordered fields. Euler Lagrange theorem
                   page: 26
                   pdf_page: 337
                 - "no": 7
@@ -2330,7 +2336,7 @@ books:
                   page: 40
                   pdf_page: 399
                 - "no": 8
-                  title: Semi-simple and absolutely semi-simple endomor- phisms
+                  title: Semi-simple and absolutely semi-simple endomor phisms
                   page: 41
                   pdf_page: 400
                 - "no": 9
@@ -3139,3 +3145,4158 @@ books:
           historical_note:
             page: 469
             pdf_page: 485
+    - id: ens-i-iv
+      grammar: pilcrow/bare
+      chapters:
+        - book: ens-i-iv
+          chapter: I
+          title: DESCRIPTION OF FORMAL MATHEMATICS
+          page: 15
+          pdf_page: 22
+          sections:
+            - section: 1
+              title: Terms and relations
+              page: 15
+              pdf_page: 22
+              subsections:
+                - "no": 1
+                  title: Signs and assemblies
+                  page: 15
+                  pdf_page: 22
+                - "no": 2
+                  title: Criteria of substitution
+                  page: 18
+                  pdf_page: 25
+                - "no": 3
+                  title: Formative constructions
+                  page: 19
+                  pdf_page: 26
+                - "no": 4
+                  title: Formative criteria
+                  page: 21
+                  pdf_page: 28
+              exercises:
+                page: 56
+                pdf_page: 63
+            - section: 2
+              title: Theorems
+              page: 24
+              pdf_page: 31
+              subsections:
+                - "no": 1
+                  title: The axioms
+                  page: 24
+                  pdf_page: 31
+                - "no": 2
+                  title: Proofs
+                  page: 25
+                  pdf_page: 32
+                - "no": 3
+                  title: Substitutions in a theory
+                  page: 26
+                  pdf_page: 33
+                - "no": 4
+                  title: Comparison of theories
+                  page: 26
+                  pdf_page: 33
+              exercises:
+                page: 56
+                pdf_page: 63
+            - section: 3
+              title: Logical theories
+              page: 28
+              pdf_page: 35
+              subsections:
+                - "no": 1
+                  title: Axioms
+                  page: 28
+                  pdf_page: 35
+                - "no": 2
+                  title: First consequences
+                  page: 29
+                  pdf_page: 36
+                - "no": 3
+                  title: Met?ods .of proof
+                  page: 30
+                  pdf_page: 37
+                - "no": 4
+                  title: ConjunctIon
+                  page: 33
+                  pdf_page: 40
+                - "no": 5
+                  title: Equivalence
+                  page: 34
+                  pdf_page: 41
+              exercises:
+                page: 57
+                pdf_page: 64
+            - section: 4
+              title: Quantified theories
+              page: 36
+              pdf_page: 43
+              subsections:
+                - "no": 1
+                  title: Definition of quantifiers
+                  page: 36
+                  pdf_page: 43
+                - "no": 2
+                  title: Axioms of quantified theories
+                  page: 37
+                  pdf_page: 44
+                - "no": 3
+                  title: Properties of quantifiers
+                  page: 38
+                  pdf_page: 45
+                - "no": 4
+                  title: Typical quantifiers
+                  page: 41
+                  pdf_page: 48
+              exercises:
+                page: 58
+                pdf_page: 65
+            - section: 5
+              title: Equalitarian theories
+              page: 44
+              pdf_page: 51
+              subsections:
+                - "no": 1
+                  title: The axioms
+                  page: 44
+                  pdf_page: 51
+                - "no": 2
+                  title: Properties of equality
+                  page: 45
+                  pdf_page: 52
+                - "no": 3
+                  title: Functional relations
+                  page: 47
+                  pdf_page: 54
+              exercises:
+                page: 59
+                pdf_page: 66
+            - section: 0
+              title: Characterization of terms and relations
+              page: 50
+              pdf_page: 57
+              subsections:
+                - "no": 1
+                  title: Signs and words
+                  page: 50
+                  pdf_page: 57
+                - "no": 2
+                  title: Significant words
+                  page: 51
+                  pdf_page: 58
+                - "no": 3
+                  title: Characterization of significant words
+                  page: 51
+                  pdf_page: 58
+                - "no": 4
+                  title: Application to assemblies in a mathematical theory
+                  page: 53
+                  pdf_page: 60
+              appendix: true
+              exercises:
+                page: 60
+                pdf_page: 67
+        - book: ens-i-iv
+          chapter: II
+          title: THEORY OF SETS
+          page: 65
+          pdf_page: 72
+          sections:
+            - section: 1
+              title: Collectivizing relations
+              page: 65
+              pdf_page: 72
+              subsections:
+                - "no": 1
+                  title: The theory of sets
+                  page: 65
+                  pdf_page: 72
+                - "no": 2
+                  title: Inclusion
+                  page: 66
+                  pdf_page: 73
+                - "no": 3
+                  title: The axiom of extent
+                  page: 67
+                  pdf_page: 74
+                - "no": 4
+                  title: Collectivizing relations
+                  page: 67
+                  pdf_page: 74
+                - "no": 5
+                  title: The axiom of the set of two elements
+                  page: 69
+                  pdf_page: 76
+                - "no": 6
+                  title: The scheme of selection and union
+                  page: 69
+                  pdf_page: 76
+                - "no": 7
+                  title: Complement ofa set. The empty set
+                  page: 71
+                  pdf_page: 78
+              exercises:
+                page: 123
+                pdf_page: 130
+            - section: 2
+              title: Ordered pairs
+              page: 72
+              pdf_page: 79
+              subsections:
+                - "no": 1
+                  title: The axiom of the ordered pair
+                  page: 72
+                  pdf_page: 79
+                - "no": 2
+                  title: Product of two sets
+                  page: 74
+                  pdf_page: 81
+              exercises:
+                page: 123
+                pdf_page: 130
+            - section: 3
+              title: Correspondences
+              page: 75
+              pdf_page: 82
+              subsections:
+                - "no": 1
+                  title: Graphs and correspondences
+                  page: 75
+                  pdf_page: 82
+                - "no": 2
+                  title: Inverse of a correspondence
+                  page: 78
+                  pdf_page: 85
+                - "no": 3
+                  title: Composition of two correspondences
+                  page: 78
+                  pdf_page: 85
+                - "no": 4
+                  title: Functions
+                  page: 81
+                  pdf_page: 88
+                - "no": 5
+                  title: Restrictions and extensions of functions
+                  page: 82
+                  pdf_page: 89
+                - "no": 6
+                  title: Definition of a function by means of a term
+                  page: 83
+                  pdf_page: 90
+                - "no": 7
+                  title: Composition of two functions. Inverse function
+                  page: 84
+                  pdf_page: 91
+                - "no": 8
+                  title: Retractions and sections
+                  page: 86
+                  pdf_page: 93
+                - "no": 9
+                  title: Functions of two arguments
+                  page: 89
+                  pdf_page: 96
+              exercises:
+                page: 124
+                pdf_page: 131
+            - section: 4
+              title: Union and intersection of a family of sets
+              page: 90
+              pdf_page: 97
+              subsections:
+                - "no": 1
+                  title: Definition of the union and the intersection of a family of sets
+                  page: 90
+                  pdf_page: 97
+                - "no": 2
+                  title: Properties of union and intersection
+                  page: 93
+                  pdf_page: 100
+                - "no": 3
+                  title: Images of a union and an intersection
+                  page: 94
+                  pdf_page: 101
+                - "no": 4
+                  title: Complements of unions and intersections
+                  page: 96
+                  pdf_page: 103
+                - "no": 5
+                  title: Union and intersection of two sets
+                  page: 96
+                  pdf_page: 103
+                - "no": 6
+                  title: Coverings
+                  page: 98
+                  pdf_page: 105
+                - "no": 7
+                  title: Partitions
+                  page: 99
+                  pdf_page: 106
+                - "no": 8
+                  title: Sum of a family of sets
+                  page: 100
+                  pdf_page: 107
+              exercises:
+                page: 125
+                pdf_page: 132
+            - section: 5
+              title: Product ofa family of sets
+              page: 101
+              pdf_page: 108
+              subsections:
+                - "no": 1
+                  title: The axiom of the set of subsets
+                  page: 101
+                  pdf_page: 108
+                - "no": 2
+                  title: Set of mappings of one set into another
+                  page: 102
+                  pdf_page: 109
+                - "no": 3
+                  title: Definitions of the product of a family of sets
+                  page: 103
+                  pdf_page: 110
+                - "no": 4
+                  title: Partial products
+                  page: 105
+                  pdf_page: 112
+                - "no": 5
+                  title: Associativity of products of sets
+                  page: 106
+                  pdf_page: 113
+                - "no": 6
+                  title: Distributivity formulae
+                  page: 107
+                  pdf_page: 114
+                - "no": 7
+                  title: Extension of mappings to products
+                  page: 111
+                  pdf_page: 118
+              exercises:
+                page: 127
+                pdf_page: 134
+            - section: 6
+              title: Equivalence relations
+              page: 112
+              pdf_page: 119
+              subsections:
+                - "no": 1
+                  title: Definition of an equivalence relation
+                  page: 113
+                  pdf_page: 120
+                - "no": 2
+                  title: Equivalence classes; quotient set
+                  page: 114
+                  pdf_page: 121
+                - "no": 3
+                  title: Relations compatible with an equivalence relation
+                  page: 116
+                  pdf_page: 123
+                - "no": 4
+                  title: Saturated subsets
+                  page: 117
+                  pdf_page: 124
+                - "no": 5
+                  title: Mappings compatible with equivalence relations
+                  page: 118
+                  pdf_page: 125
+                - "no": 6
+                  title: Inverse image of an equivalence relation; induced equivalence relation
+                  page: 119
+                  pdf_page: 126
+                - "no": 7
+                  title: Quotients of equivalence relations
+                  page: 119
+                  pdf_page: 126
+                - "no": 8
+                  title: Product of two equivalence relations
+                  page: 120
+                  pdf_page: 127
+                - "no": 9
+                  title: Classes of equivalent objects
+                  page: 121
+                  pdf_page: 128
+              exercises:
+                page: 127
+                pdf_page: 134
+        - book: ens-i-iv
+          chapter: III
+          title: ORDERED SETS, CARDINALS, INTEGERS
+          page: 131
+          pdf_page: 137
+          sections:
+            - section: 1
+              title: Order relations. Ordered sets
+              page: 131
+              pdf_page: 137
+              subsections:
+                - "no": 1
+                  title: Definition oran order relation
+                  page: 131
+                  pdf_page: 137
+                - "no": 2
+                  title: Preorder relations
+                  page: 133
+                  pdf_page: 139
+                - "no": 3
+                  title: Notation and terminology
+                  page: 135
+                  pdf_page: 141
+                - "no": 4
+                  title: Ordered subsets. Product or ordered sets
+                  page: 136
+                  pdf_page: 142
+                - "no": 5
+                  title: Increasing mappings '"
+                  page: 138
+                  pdf_page: 144
+                - "no": 6
+                  title: Maximal and minimal elements
+                  page: 139
+                  pdf_page: 145
+                - "no": 7
+                  title: Greatest dement and least dement
+                  page: 140
+                  pdf_page: 146
+                - "no": 8
+                  title: Upper and lower bounds
+                  page: 141
+                  pdf_page: 147
+                - "no": 9
+                  title: Least upper bound and greatest lower bound
+                  page: 141
+                  pdf_page: 147
+                - "no": 10
+                  title: Directed sets
+                  page: 145
+                  pdf_page: 151
+                - "no": 11
+                  title: Lattices
+                  page: 145
+                  pdf_page: 151
+                - "no": 12
+                  title: Totally ordered sets
+                  page: 146
+                  pdf_page: 152
+                - "no": 13
+                  title: Intervals
+                  page: 147
+                  pdf_page: 153
+              exercises:
+                page: 212
+                pdf_page: 218
+            - section: 2
+              title: Wdl-ordered sets
+              page: 148
+              pdf_page: 154
+              subsections:
+                - "no": 1
+                  title: Segments of a well-ordered set
+                  page: 148
+                  pdf_page: 154
+                - "no": 2
+                  title: The principle of transfinite induction
+                  page: 151
+                  pdf_page: 157
+                - "no": 3
+                  title: Zermelo's theorem
+                  page: 152
+                  pdf_page: 158
+                - "no": 4
+                  title: Inductive sets
+                  page: 154
+                  pdf_page: 160
+                - "no": 5
+                  title: Isomorphisms orwell-ordered sets
+                  page: 155
+                  pdf_page: 161
+                - "no": 6
+                  title: Lexicographic products
+                  page: 157
+                  pdf_page: 163
+              exercises:
+                page: 221
+                pdf_page: 227
+            - section: 3
+              title: Equipotent sets. Cardinals '" "
+              page: 157
+              pdf_page: 163
+              subsections:
+                - "no": 1
+                  title: The cardinal of a set
+                  page: 157
+                  pdf_page: 163
+                - "no": 2
+                  title: Order relation between cardinals
+                  page: 158
+                  pdf_page: 164
+                - "no": 3
+                  title: Operations on cardinals
+                  page: 160
+                  pdf_page: 166
+                - "no": 4
+                  title: Properties of the cardinals 0 and 1
+                  page: 162
+                  pdf_page: 168
+                - "no": 5
+                  title: Exponentiation of cardinals
+                  page: 163
+                  pdf_page: 169
+                - "no": 6
+                  title: Order relation and operations on cardinals
+                  page: 164
+                  pdf_page: 170
+              exercises:
+                page: 229
+                pdf_page: 235
+            - section: 4
+              title: Natural integers. Finite sets
+              page: 166
+              pdf_page: 172
+              subsections:
+                - "no": 1
+                  title: Definition of integers
+                  page: 166
+                  pdf_page: 172
+                - "no": 2
+                  title: Inequalities between integers
+                  page: 166
+                  pdf_page: 172
+                - "no": 3
+                  title: The principle of induction
+                  page: 168
+                  pdf_page: 174
+                - "no": 4
+                  title: Finite subsets of ordered sets
+                  page: 170
+                  pdf_page: 176
+                - "no": 5
+                  title: Properties of finite character
+                  page: 170
+                  pdf_page: 176
+              exercises:
+                page: 230
+                pdf_page: 236
+            - section: 5
+              title: Properties of integers
+              page: 171
+              pdf_page: 177
+              subsections:
+                - "no": 1
+                  title: Operations on integers and finite sets
+                  page: 171
+                  pdf_page: 177
+                - "no": 2
+                  title: Strict inequalities between integers
+                  page: 173
+                  pdf_page: 179
+                - "no": 3
+                  title: Intervals in sets of integers
+                  page: 174
+                  pdf_page: 180
+                - "no": 4
+                  title: Finite sequences
+                  page: 175
+                  pdf_page: 181
+                - "no": 5
+                  title: Characteristic functions of sets
+                  page: 175
+                  pdf_page: 181
+                - "no": 6
+                  title: Euclidean division
+                  page: 176
+                  pdf_page: 182
+                - "no": 7
+                  title: Expansion to base b
+                  page: 177
+                  pdf_page: 183
+                - "no": 8
+                  title: Combinatorial analysis
+                  page: 179
+                  pdf_page: 185
+              exercises:
+                page: 235
+                pdf_page: 241
+            - section: 6
+              title: Infinite sets
+              page: 183
+              pdf_page: 189
+              subsections:
+                - "no": 1
+                  title: The set of natural integers
+                  page: 183
+                  pdf_page: 189
+                - "no": 2
+                  title: Definition of mappings by induction
+                  page: 184
+                  pdf_page: 190
+                - "no": 3
+                  title: Properties of infinite cardinals "
+                  page: 186
+                  pdf_page: 192
+                - "no": 4
+                  title: Countable sets
+                  page: 188
+                  pdf_page: 194
+                - "no": 5
+                  title: Stationary sequences
+                  page: 189
+                  pdf_page: 195
+              exercises:
+                page: 241
+                pdf_page: 247
+            - section: 7
+              title: Inverse limits and direct limits
+              page: 191
+              pdf_page: 197
+              subsections:
+                - "no": 1
+                  title: Inverse limits
+                  page: 191
+                  pdf_page: 197
+                - "no": 2
+                  title: Inverse systems of mappings
+                  page: 192
+                  pdf_page: 198
+                - "no": 3
+                  title: Double inverse limit
+                  page: 196
+                  pdf_page: 202
+                - "no": 4
+                  title: Conditions for an inverse limit to be non-empty
+                  page: 198
+                  pdf_page: 204
+                - "no": 5
+                  title: Direct limits
+                  page: 201
+                  pdf_page: 207
+                - "no": 6
+                  title: Direct systems of mappings
+                  page: 204
+                  pdf_page: 210
+                - "no": 7
+                  title: Double direct limit. Product of direct limits
+                  page: 209
+                  pdf_page: 215
+              exercises:
+                page: 251
+                pdf_page: 257
+          historical_note:
+            page: 255
+            pdf_page: 261
+        - book: ens-i-iv
+          chapter: IV
+          title: STRUCTURES
+          page: 259
+          pdf_page: 264
+          sections:
+            - section: 1
+              title: Structures and isomorphisms
+              page: 259
+              pdf_page: 264
+              subsections:
+                - "no": 1
+                  title: Echelons
+                  page: 259
+                  pdf_page: 264
+                - "no": 2
+                  title: Canonical extensions of mappings
+                  page: 260
+                  pdf_page: 265
+                - "no": 3
+                  title: Transportable relations
+                  page: 261
+                  pdf_page: 266
+                - "no": 4
+                  title: Species of structures
+                  page: 262
+                  pdf_page: 267
+                - "no": 5
+                  title: Isomorphisms and transport of structures
+                  page: 264
+                  pdf_page: 269
+                - "no": 6
+                  title: Deduction of structures
+                  page: 266
+                  pdf_page: 271
+                - "no": 7
+                  title: Equivalent species of structures
+                  page: 268
+                  pdf_page: 273
+              exercises:
+                page: 289
+                pdf_page: 294
+            - section: 2
+              title: Morphisms and derived structures
+              page: 271
+              pdf_page: 276
+              subsections:
+                - "no": 1
+                  title: Morphisms
+                  page: 271
+                  pdf_page: 276
+                - "no": 2
+                  title: Finer structures
+                  page: 273
+                  pdf_page: 278
+                - "no": 3
+                  title: Initial structures
+                  page: 274
+                  pdf_page: 279
+                - "no": 4
+                  title: Examples of initial structures
+                  page: 276
+                  pdf_page: 281
+                - "no": 5
+                  title: Final structures
+                  page: 280
+                  pdf_page: 285
+                - "no": 6
+                  title: Examples of final structures "
+                  page: 281
+                  pdf_page: 286
+              exercises:
+                page: 290
+                pdf_page: 295
+            - section: 3
+              title: Universal mappings
+              page: 283
+              pdf_page: 288
+              subsections:
+                - "no": 1
+                  title: Universal sets and mappings
+                  page: 283
+                  pdf_page: 288
+                - "no": 2
+                  title: Existence of universal mappings
+                  page: 284
+                  pdf_page: 289
+                - "no": 3
+                  title: Examples of universal mappings
+                  page: 286
+                  pdf_page: 291
+              exercises:
+                page: 294
+                pdf_page: 299
+          historical_note:
+            page: 296
+            pdf_page: 301
+    - id: alg-viii-fr
+      grammar: column/bare
+      chapters:
+        - book: alg-viii-fr
+          chapter: VIII
+          title: Modules et anneaux semi-simples
+          page: 1
+          pdf_page: 12
+          sections:
+            - section: 1
+              title: Modules artiniens et modules noethériens
+              page: 1
+              pdf_page: 12
+              subsections:
+                - "no": 1
+                  title: Modules artiniens et modules noethériens
+                  page: 1
+                  pdf_page: 12
+                - "no": 2
+                  title: Anneaux artiniens et anneaux noethériens
+                  page: 4
+                  pdf_page: 15
+                - "no": 3
+                  title: Contremodule
+                  page: 8
+                  pdf_page: 19
+                - "no": 4
+                  title: Polynômes à coeﬃcients dans un anneau noethérien
+                  page: 9
+                  pdf_page: 20
+              exercises:
+                page: 13
+                pdf_page: 24
+            - section: 2
+              title: Structure des modules de longueur ﬁnie
+              page: 23
+              pdf_page: 34
+              subsections:
+                - "no": 1
+                  title: Anneaux locaux
+                  page: 23
+                  pdf_page: 34
+                - "no": 2
+                  title: Décomposition de Weyr-Fitting
+                  page: 25
+                  pdf_page: 36
+                - "no": 3
+                  title: Modules indécomposables et modules primordiaux
+                  page: 27
+                  pdf_page: 38
+                - "no": 4
+                  title: Modules semi-primordiaux
+                  page: 29
+                  pdf_page: 40
+                - "no": 5
+                  title: Structure des modules de longueur ﬁnie
+                  page: 34
+                  pdf_page: 45
+              exercises:
+                page: 36
+                pdf_page: 47
+            - section: 3
+              title: Modules simples
+              page: 41
+              pdf_page: 52
+              subsections:
+                - "no": 1
+                  title: Modules simples
+                  page: 41
+                  pdf_page: 52
+                - "no": 2
+                  title: Le lemme de Schur
+                  page: 43
+                  pdf_page: 54
+                - "no": 3
+                  title: Sous-modules maximaux
+                  page: 44
+                  pdf_page: 55
+                - "no": 4
+                  title: Modules simples sur un anneau artinien
+                  page: 46
+                  pdf_page: 57
+                - "no": 5
+                  title: Classes de modules simples
+                  page: 47
+                  pdf_page: 58
+              exercises:
+                page: 48
+                pdf_page: 59
+            - section: 4
+              title: Modules semi-simples
+              page: 51
+              pdf_page: 62
+              subsections:
+                - "no": 1
+                  title: Modules semi-simples
+                  page: 51
+                  pdf_page: 62
+                - "no": 2
+                  title: L’homomorphisme i HomA (M, Ni ) −→ HomA (M, i Ni )
+                  page: 53
+                  pdf_page: 64
+                - "no": 3
+                  title: Quelques opérations sur les modules
+                  page: 53
+                  pdf_page: 64
+                - "no": 4
+                  title: Modules isotypiques
+                  page: 57
+                  pdf_page: 68
+                - "no": 5
+                  title: Description d’un module isotypique
+                  page: 58
+                  pdf_page: 69
+                - "no": 6
+                  title: Composants isotypiques d’un module
+                  page: 61
+                  pdf_page: 72
+                - "no": 7
+                  title: Description d’un module semi-simple
+                  page: 65
+                  pdf_page: 76
+                - "no": 8
+                  title: Multiplicités et longueurs dans les modules semi-simples
+                  page: 67
+                  pdf_page: 78
+              exercises:
+                page: 70
+                pdf_page: 81
+            - section: 5
+              title: Commutation
+              page: 73
+              pdf_page: 83
+              subsections:
+                - "no": 1
+                  title: Commutant et bicommutant d’un module
+                  page: 73
+                  pdf_page: 83
+                - "no": 2
+                  title: Modules générateurs
+                  page: 75
+                  pdf_page: 85
+                - "no": 3
+                  title: Bicommutant d’un module générateur
+                  page: 78
+                  pdf_page: 88
+                - "no": 4
+                  title: Contremodule d’un module semi-simple
+                  page: 80
+                  pdf_page: 90
+                - "no": 5
+                  title: Théorème de densité
+                  page: 83
+                  pdf_page: 93
+                - "no": 6
+                  title: Application à la théorie des corps
+                  page: 84
+                  pdf_page: 94
+              exercises:
+                page: 86
+                pdf_page: 96
+            - section: 6
+              title: Équivalence de Morita des modules et des algèbres
+              page: 91
+              pdf_page: 100
+              subsections:
+                - "no": 1
+                  title: Commutant et dualité
+                  page: 91
+                  pdf_page: 100
+                - "no": 2
+                  title: Modules générateurs et modules projectifs de type ﬁni
+                  page: 94
+                  pdf_page: 103
+                - "no": 3
+                  title: Bimodules inversibles et équivalence de Morita
+                  page: 96
+                  pdf_page: 105
+                - "no": 4
+                  title: Correspondance de Morita des modules
+                  page: 99
+                  pdf_page: 108
+                - "no": 5
+                  title: Ensembles ordonnés de sous-modules
+                  page: 102
+                  pdf_page: 111
+                - "no": 6
+                  title: Autres propriétés préservées par la correspondance de Morita
+                  page: 105
+                  pdf_page: 114
+                - "no": 7
+                  title: Équivalence de Morita des algèbres
+                  page: 107
+                  pdf_page: 116
+              exercises:
+                page: 111
+                pdf_page: 120
+            - section: 7
+              title: Anneaux simples
+              page: 115
+              pdf_page: 123
+              subsections:
+                - "no": 1
+                  title: Anneaux simples
+                  page: 115
+                  pdf_page: 123
+                - "no": 2
+                  title: Modules sur un anneau simple
+                  page: 118
+                  pdf_page: 126
+                - "no": 3
+                  title: Degrés
+                  page: 120
+                  pdf_page: 128
+                - "no": 4
+                  title: Idéaux des anneaux simples
+                  page: 122
+                  pdf_page: 130
+              exercises:
+                page: 124
+                pdf_page: 132
+            - section: 8
+              title: Anneaux semi-simples
+              page: 131
+              pdf_page: 138
+              subsections:
+                - "no": 1
+                  title: Anneaux semi-simples
+                  page: 131
+                  pdf_page: 138
+                - "no": 2
+                  title: Modules sur un anneau semi-simple
+                  page: 134
+                  pdf_page: 141
+                - "no": 3
+                  title: Facteurs d’un anneau semi-simple
+                  page: 136
+                  pdf_page: 143
+                - "no": 4
+                  title: Idempotents et anneaux semi-simples
+                  page: 140
+                  pdf_page: 147
+              exercises:
+                page: 144
+                pdf_page: 151
+            - section: 9
+              title: Radical
+              page: 147
+              pdf_page: 153
+              subsections:
+                - "no": 1
+                  title: Radical d’un module
+                  page: 147
+                  pdf_page: 153
+                - "no": 2
+                  title: Radical d’un anneau
+                  page: 150
+                  pdf_page: 156
+                - "no": 3
+                  title: Lemme de Nakayama
+                  page: 154
+                  pdf_page: 160
+                - "no": 4
+                  title: Relèvements d’idempotents
+                  page: 155
+                  pdf_page: 161
+                - "no": 5
+                  title: Couverture projective d’un module
+                  page: 156
+                  pdf_page: 162
+              exercises:
+                page: 161
+                pdf_page: 167
+            - section: 10
+              title: Modules sur un anneau artinien
+              page: 169
+              pdf_page: 175
+              subsections:
+                - "no": 1
+                  title: Radical d’un anneau artinien
+                  page: 169
+                  pdf_page: 175
+                - "no": 2
+                  title: Modules sur un anneau artinien
+                  page: 170
+                  pdf_page: 176
+                - "no": 3
+                  title: Modules projectifs sur un anneau artinien
+                  page: 171
+                  pdf_page: 177
+              exercises:
+                page: 174
+                pdf_page: 180
+            - section: 11
+              title: Groupes de Grothendieck
+              page: 179
+              pdf_page: 184
+              subsections:
+                - "no": 1
+                  title: Fonctions additives de modules
+                  page: 179
+                  pdf_page: 184
+                - "no": 2
+                  title: Groupe de Grothendieck d’un ensemble additif de modules
+                  page: 182
+                  pdf_page: 187
+                - "no": 3
+                  title: Utilisation des suites de composition
+                  page: 185
+                  pdf_page: 190
+                - "no": 4
+                  title: Le groupe de Grothendieck R(A)
+                  page: 186
+                  pdf_page: 191
+                - "no": 5
+                  title: Changement d’anneaux
+                  page: 189
+                  pdf_page: 194
+                - "no": 6
+                  title: Le groupe de Grothendieck RK (A)
+                  page: 189
+                  pdf_page: 194
+                - "no": 7
+                  title: Structure multiplicative dans K(C )
+                  page: 191
+                  pdf_page: 196
+                - "no": 8
+                  title: Le groupe de Grothendieck K0 (A)
+                  page: 195
+                  pdf_page: 200
+                - "no": 9
+                  title: Le groupe de Grothendieck K0 (A) d’un anneau artinien
+                  page: 196
+                  pdf_page: 201
+                - "no": 10
+                  title: Changement d’anneau pour K0 (A)
+                  page: 197
+                  pdf_page: 202
+                - "no": 11
+                  title: Réciprocité de Frobenius
+                  page: 197
+                  pdf_page: 202
+                - "no": 12
+                  title: Cas des anneaux simples
+                  page: 199
+                  pdf_page: 204
+              exercises:
+                page: 202
+                pdf_page: 207
+            - section: 12
+              title: Produit tensoriel de modules semi-simples
+              page: 207
+              pdf_page: 211
+              subsections:
+                - "no": 1
+                  title: Modules semi-simples sur un produit tensoriel d’algèbres
+                  page: 207
+                  pdf_page: 211
+                - "no": 2
+                  title: Produit tensoriel de modules simples
+                  page: 209
+                  pdf_page: 213
+                - "no": 3
+                  title: Produit tensoriel d’algèbres commutatives semi-simples
+                  page: 211
+                  pdf_page: 215
+                - "no": 4
+                  title: Radical d’un produit tensoriel d’algèbres
+                  page: 213
+                  pdf_page: 217
+                - "no": 5
+                  title: Produit tensoriel de modules semi-simples
+                  page: 214
+                  pdf_page: 218
+                - "no": 6
+                  title: Produit tensoriel d’algèbres semi-simples
+                  page: 217
+                  pdf_page: 221
+                - "no": 7
+                  title: Extension des scalaires dans les modules semi-simples
+                  page: 217
+                  pdf_page: 221
+              exercises:
+                page: 221
+                pdf_page: 225
+            - section: 13
+              title: Algèbres absolument semi-simples
+              page: 225
+              pdf_page: 229
+              subsections:
+                - "no": 1
+                  title: Modules absolument semi-simples
+                  page: 225
+                  pdf_page: 229
+                - "no": 2
+                  title: Algèbres sur un corps séparablement clos
+                  page: 226
+                  pdf_page: 230
+                - "no": 3
+                  title: Algèbres absolument semi-simples
+                  page: 227
+                  pdf_page: 231
+                - "no": 4
+                  title: Caractérisation des modules absolument semi-simples
+                  page: 231
+                  pdf_page: 235
+                - "no": 5
+                  title: Dérivations des algèbres semi-simples
+                  page: 232
+                  pdf_page: 236
+                - "no": 6
+                  title: Cohomologie des algèbres
+                  page: 234
+                  pdf_page: 238
+                - "no": 7
+                  title: Cohomologie des algèbres absolument semi-simples
+                  page: 236
+                  pdf_page: 240
+                - "no": 8
+                  title: Scindage des algèbres artiniennes
+                  page: 238
+                  pdf_page: 242
+              exercises:
+                page: 242
+                pdf_page: 246
+            - section: 14
+              title: Algèbres centrales et simples
+              page: 247
+              pdf_page: 250
+              subsections:
+                - "no": 1
+                  title: Algèbres centrales et simples
+                  page: 247
+                  pdf_page: 250
+                - "no": 2
+                  title: Deux lemmes sur les bimodules
+                  page: 250
+                  pdf_page: 253
+                - "no": 3
+                  title: Théorèmes de conjugaison
+                  page: 252
+                  pdf_page: 255
+                - "no": 4
+                  title: Automorphismes des algèbres semi-simples
+                  page: 254
+                  pdf_page: 257
+                - "no": 5
+                  title: Sous-algèbres simples des algèbres simples
+                  page: 255
+                  pdf_page: 258
+                - "no": 6
+                  title: Sous-algèbres commutatives maximales
+                  page: 257
+                  pdf_page: 260
+                - "no": 7
+                  title: Sous-algèbres étales maximales
+                  page: 260
+                  pdf_page: 263
+                - "no": 8
+                  title: Sous-algèbres diagonalisables des algèbres simples
+                  page: 262
+                  pdf_page: 265
+              exercises:
+                page: 265
+                pdf_page: 268
+            - section: 15
+              title: Groupes de Brauer
+              page: 273
+              pdf_page: 276
+              subsections:
+                - "no": 1
+                  title: Classes d’algèbres
+                  page: 273
+                  pdf_page: 276
+                - "no": 2
+                  title: Déﬁnition du groupe de Brauer
+                  page: 274
+                  pdf_page: 277
+                - "no": 3
+                  title: Changement de corps
+                  page: 276
+                  pdf_page: 279
+                - "no": 4
+                  title: Exemples de groupes de Brauer
+                  page: 279
+                  pdf_page: 282
+              exercises:
+                page: 280
+                pdf_page: 283
+            - section: 16
+              title: Autres descriptions du groupe de Brauer
+              page: 281
+              pdf_page: 284
+              subsections:
+                - "no": 1
+                  title: τ -extensions de groupes
+                  page: 281
+                  pdf_page: 284
+                - "no": 2
+                  title: Image inverse d’une τ -extension
+                  page: 283
+                  pdf_page: 286
+                - "no": 3
+                  title: Image directe d’une τ -extension
+                  page: 285
+                  pdf_page: 288
+                - "no": 4
+                  title: Loi de groupe sur les classes de τ -extensions
+                  page: 289
+                  pdf_page: 292
+                - "no": 5
+                  title: Description cohomologique
+                  page: 291
+                  pdf_page: 294
+                - "no": 6
+                  title: Restriction et corestriction
+                  page: 294
+                  pdf_page: 297
+                - "no": 7
+                  title: Algèbres galoisiennes
+                  page: 300
+                  pdf_page: 303
+                - "no": 8
+                  title: Opérations sur les algèbres galoisiennes
+                  page: 307
+                  pdf_page: 310
+                - "no": 9
+                  title: Produits croisés
+                  page: 309
+                  pdf_page: 312
+                - "no": 10
+                  title: Application au groupe de Brauer
+                  page: 312
+                  pdf_page: 315
+                - "no": 11
+                  title: Indice et exposant
+                  page: 317
+                  pdf_page: 320
+              exercises:
+                page: 319
+                pdf_page: 322
+            - section: 17
+              title: Normes et traces réduites
+              page: 329
+              pdf_page: 332
+              subsections:
+                - "no": 1
+                  title: Compléments sur les polynômes caractéristiques
+                  page: 329
+                  pdf_page: 332
+                - "no": 2
+                  title: Normes et traces réduites
+                  page: 332
+                  pdf_page: 335
+                - "no": 3
+                  title: Propriétés des normes et traces réduites
+                  page: 335
+                  pdf_page: 338
+                - "no": 4
+                  title: La norme réduite est une fonction polynomiale
+                  page: 338
+                  pdf_page: 341
+                - "no": 5
+                  title: Transitivité des normes et traces réduites
+                  page: 340
+                  pdf_page: 343
+                - "no": 6
+                  title: Normes réduites et déterminants
+                  page: 342
+                  pdf_page: 345
+              exercises:
+                page: 344
+                pdf_page: 347
+            - section: 18
+              title: Algèbres simples sur un corps ﬁni
+              page: 347
+              pdf_page: 350
+              subsections:
+                - "no": 1
+                  title: Polynômes sur un corps ﬁni
+                  page: 347
+                  pdf_page: 350
+                - "no": 2
+                  title: Algèbres simples sur un corps ﬁni
+                  page: 348
+                  pdf_page: 351
+              exercises:
+                page: 351
+                pdf_page: 354
+            - section: 19
+              title: Algèbres de quaternions
+              page: 353
+              pdf_page: 356
+              subsections:
+                - "no": 1
+                  title: Propriétés générales des algèbres de quaternions
+                  page: 353
+                  pdf_page: 356
+                - "no": 2
+                  title: Centre des algèbres de quaternions
+                  page: 355
+                  pdf_page: 358
+                - "no": 3
+                  title: Simplicité des algèbres de quaternions
+                  page: 355
+                  pdf_page: 358
+                - "no": 4
+                  title: Critères pour qu’une algèbre de quaternions soit un corps
+                  page: 357
+                  pdf_page: 360
+                - "no": 5
+                  title: Algèbres sur un corps ordonné maximal
+                  page: 359
+                  pdf_page: 362
+              exercises:
+                page: 361
+                pdf_page: 364
+            - section: 20
+              title: Représentations linéaires des algèbres
+              page: 365
+              pdf_page: 367
+              subsections:
+                - "no": 1
+                  title: Représentations linéaires des algèbres
+                  page: 365
+                  pdf_page: 367
+                - "no": 2
+                  title: Dual restreint d’une algèbre
+                  page: 367
+                  pdf_page: 369
+                - "no": 3
+                  title: Coeﬃcients d’un module
+                  page: 368
+                  pdf_page: 370
+                - "no": 4
+                  title: Dual restreint et coeﬃcients matriciels
+                  page: 371
+                  pdf_page: 373
+                - "no": 5
+                  title: Dual d’une algèbre semi-simple
+                  page: 371
+                  pdf_page: 373
+                - "no": 6
+                  title: Caractère d’une représentation
+                  page: 374
+                  pdf_page: 376
+                - "no": 7
+                  title: Coeﬃcients d’un ensemble de classes de modules
+                  page: 379
+                  pdf_page: 381
+                - "no": 8
+                  title: Structure de cogèbre sur le dual restreint
+                  page: 380
+                  pdf_page: 382
+              exercises:
+                page: 385
+                pdf_page: 387
+            - section: 21
+              title: Représentations linéaires des groupes ﬁnis
+              page: 387
+              pdf_page: 389
+              subsections:
+                - "no": 1
+                  title: Représentations linéaires
+                  page: 387
+                  pdf_page: 389
+                - "no": 2
+                  title: Le théorème de Maschke
+                  page: 391
+                  pdf_page: 393
+                - "no": 3
+                  title: Représentations induites et coïnduites
+                  page: 392
+                  pdf_page: 394
+                - "no": 4
+                  title: Représentations et groupe de Grothendieck
+                  page: 394
+                  pdf_page: 396
+                - "no": 5
+                  title: Formule d’inversion de Fourier
+                  page: 396
+                  pdf_page: 398
+                - "no": 6
+                  title: Relations d’orthogonalité de Schur
+                  page: 399
+                  pdf_page: 401
+                - "no": 7
+                  title: Relation d’orthogonalité des caractères
+                  page: 400
+                  pdf_page: 402
+                - "no": 8
+                  title: Fonctions centrales sur un groupe ﬁni
+                  page: 401
+                  pdf_page: 403
+                - "no": 9
+                  title: Cas des groupes commutatifs
+                  page: 404
+                  pdf_page: 406
+                - "no": 10
+                  title: Caractères et groupes de Grothendieck
+                  page: 405
+                  pdf_page: 407
+                - "no": 11
+                  title: Dimension des représentations simples
+                  page: 405
+                  pdf_page: 407
+                - "no": 12
+                  title: Changement de corps de base
+                  page: 406
+                  pdf_page: 408
+                - "no": 13
+                  title: Représentations linéaires complexes
+                  page: 411
+                  pdf_page: 413
+              exercises:
+                page: 414
+                pdf_page: 416
+            - section: 1
+              title: Algèbres sans élément unité
+              page: 425
+              pdf_page: 427
+              subsections:
+                - "no": 1
+                  title: Idéaux réguliers
+                  page: 425
+                  pdf_page: 427
+                - "no": 2
+                  title: Adjonction d’un élément unité
+                  page: 427
+                  pdf_page: 429
+                - "no": 3
+                  title: Radical d’une algèbre
+                  page: 429
+                  pdf_page: 431
+                - "no": 4
+                  title: Théorème de densité
+                  page: 431
+                  pdf_page: 433
+              appendix: true
+              exercises:
+                page: 433
+                pdf_page: 435
+            - section: 2
+              title: Déterminants sur un corps non commutatif
+              page: 437
+              pdf_page: 439
+              subsections:
+                - "no": 1
+                  title: Une généralisation des formes multilinéaires alternées
+                  page: 437
+                  pdf_page: 439
+                - "no": 2
+                  title: Un théorème d’unicité
+                  page: 438
+                  pdf_page: 440
+                - "no": 3
+                  title: Déterminant d’un automorphisme
+                  page: 441
+                  pdf_page: 443
+                - "no": 4
+                  title: Déterminant d’une matrice carrée
+                  page: 442
+                  pdf_page: 444
+                - "no": 5
+                  title: Le groupe unimodulaire
+                  page: 445
+                  pdf_page: 447
+              appendix: true
+              exercises:
+                page: 448
+                pdf_page: 450
+            - section: 3
+              title: Le théorème des zéros de Hilbert
+              page: 451
+              pdf_page: 452
+              appendix: true
+            - section: 4
+              title: Trace d’un endomorphisme de rang ﬁni
+              page: 453
+              pdf_page: 454
+              subsections:
+                - "no": 1
+                  title: Applications linéaires de rang ﬁni
+                  page: 453
+                  pdf_page: 454
+                - "no": 2
+                  title: Trace d’un endomorphisme de rang ﬁni
+                  page: 454
+                  pdf_page: 455
+              appendix: true
+              exercises:
+                page: 457
+                pdf_page: 458
+          historical_note:
+            page: 459
+            pdf_page: 459
+    - id: lie-vii-ix
+      grammar: pilcrow/bare
+      chapters:
+        - book: lie-vii-ix
+          chapter: VII
+          title: CARTAN SUBALGEBRAS AND REGULAR ELEMENTS
+          page: 1
+          pdf_page: 11
+          sections:
+            - section: 1
+              title: Primary decomposition of linear representations
+              page: 1
+              pdf_page: 11
+              subsections:
+                - "no": 1
+                  title: Decomposition of a family of endomorphisms
+                  page: 1
+                  pdf_page: 11
+                - "no": 2
+                  title: The case of a linear family of endomorphisms
+                  page: 6
+                  pdf_page: 16
+                - "no": 3
+                  title: Decomposition of representations of a nilpotent Lie algebra
+                  page: 8
+                  pdf_page: 18
+                - "no": 4
+                  title: Decomposition of a Lie algebra relative to an automorphism
+                  page: 11
+                  pdf_page: 21
+                - "no": 5
+                  title: Invariants of a semi-simple Lie algebra relative to a semi-simple action
+                  page: 11
+                  pdf_page: 21
+              exercises:
+                page: 51
+                pdf_page: 60
+            - section: 2
+              title: Cartan subalgebras and regular elements of a Lie algebra
+              page: 12
+              pdf_page: 22
+              subsections:
+                - "no": 1
+                  title: Cartan subalgebras
+                  page: 13
+                  pdf_page: 23
+                - "no": 2
+                  title: Regular elements of a Lie algebra
+                  page: 16
+                  pdf_page: 26
+                - "no": 3
+                  title: Cartan subalgebras and regular elements
+                  page: 18
+                  pdf_page: 28
+                - "no": 4
+                  title: Cartan subalgebras of semi-simple Lie algebras
+                  page: 19
+                  pdf_page: 29
+              exercises:
+                page: 55
+                pdf_page: 64
+            - section: 3
+              title: Conjugacy theorems
+              page: 20
+              pdf_page: 30
+              subsections:
+                - "no": 1
+                  title: Elementary automorphisms
+                  page: 20
+                  pdf_page: 30
+                - "no": 2
+                  title: Conjugacy of Cartan subalgebras
+                  page: 22
+                  pdf_page: 32
+                - "no": 3
+                  title: Applications of conjugacy
+                  page: 24
+                  pdf_page: 34
+                - "no": 4
+                  title: Conjugacy of Cartan subalgebras of solvable Lie algebras
+                  page: 25
+                  pdf_page: 35
+                - "no": 5
+                  title: Lie group case
+                  page: 26
+                  pdf_page: 36
+              exercises:
+                page: 57
+                pdf_page: 66
+            - section: 4
+              title: Regular elements of a Lie group
+              page: 27
+              pdf_page: 37
+              subsections:
+                - "no": 1
+                  title: Regular elements for a linear representation
+                  page: 27
+                  pdf_page: 37
+                - "no": 2
+                  title: Regular elements of a Lie group
+                  page: 29
+                  pdf_page: 39
+                - "no": 3
+                  title: Relations with regular elements of the Lie algebra
+                  page: 31
+                  pdf_page: 41
+                - "no": 4
+                  title: Application to elementary automorphisms
+                  page: 34
+                  pdf_page: 44
+              exercises:
+                page: 63
+                pdf_page: 72
+            - section: 5
+              title: Decomposable linear Lie algebras
+              page: 34
+              pdf_page: 44
+              subsections:
+                - "no": 1
+                  title: Decomposable linear Lie algebras
+                  page: 34
+                  pdf_page: 44
+                - "no": 2
+                  title: Decomposable envelope
+                  page: 37
+                  pdf_page: 47
+                - "no": 3
+                  title: Decompositions of decomposable algebras
+                  page: 37
+                  pdf_page: 47
+                - "no": 4
+                  title: Linear Lie algebras of nilpotent endomorphisms
+                  page: 39
+                  pdf_page: 49
+                - "no": 5
+                  title: Characterizations of decomposable Lie algebras
+                  page: 43
+                  pdf_page: 53
+              exercises:
+                page: 63
+                pdf_page: 72
+            - section: 1
+              title: Polynomial maps and Zariski topology
+              page: 45
+              pdf_page: 55
+              subsections:
+                - "no": 1
+                  title: Zariski topology
+                  page: 45
+                  pdf_page: 55
+                - "no": 2
+                  title: Dominant polynomial maps
+                  page: 46
+                  pdf_page: 56
+              appendix: true
+              exercises:
+                page: 66
+                pdf_page: 75
+            - section: 2
+              title: A connectedness property
+              page: 48
+              pdf_page: 58
+              appendix: true
+              exercises:
+                page: 67
+                pdf_page: 76
+        - book: lie-vii-ix
+          chapter: VIII
+          title: SPLIT SEMI-SIMPLE LIE ALGEBRAS
+          page: 69
+          pdf_page: 77
+          sections:
+            - section: 1
+              title: The Lie algebra sl(2, k) and its representations
+              page: 69
+              pdf_page: 77
+              subsections:
+                - "no": 1
+                  title: Canonical basis of sl(2, k)
+                  page: 69
+                  pdf_page: 77
+                - "no": 2
+                  title: Primitive elements of sl(2, k)-modules
+                  page: 70
+                  pdf_page: 78
+                - "no": 3
+                  title: The simple modules V(m)
+                  page: 72
+                  pdf_page: 80
+                - "no": 4
+                  title: Linear representations of the group SL(2, k)
+                  page: 74
+                  pdf_page: 82
+                - "no": 5
+                  title: Some elements of SL(2, k)
+                  page: 76
+                  pdf_page: 84
+              exercises:
+                page: 219
+                pdf_page: 227
+            - section: 2
+              title: Root system of a split semi-simple Lie algebra
+              page: 77
+              pdf_page: 85
+              subsections:
+                - "no": 1
+                  title: Split semi-simple Lie algebras
+                  page: 77
+                  pdf_page: 85
+                - "no": 2
+                  title: Roots of a split semi-simple Lie algebra
+                  page: 78
+                  pdf_page: 86
+                - "no": 3
+                  title: Invariant bilinear forms
+                  page: 83
+                  pdf_page: 91
+                - "no": 4
+                  title: The coeﬃcients Nαβ
+                  page: 83
+                  pdf_page: 91
+              exercises:
+                page: 226
+                pdf_page: 234
+            - section: 3
+              title: Subalgebras of split semi-simple Lie algebras
+              page: 86
+              pdf_page: 94
+              subsections:
+                - "no": 1
+                  title: Subalgebras stable under ad h
+                  page: 86
+                  pdf_page: 94
+                - "no": 2
+                  title: Ideals
+                  page: 89
+                  pdf_page: 97
+                - "no": 3
+                  title: Borel subalgebras
+                  page: 90
+                  pdf_page: 98
+                - "no": 4
+                  title: Parabolic subalgebras
+                  page: 92
+                  pdf_page: 100
+                - "no": 5
+                  title: Non-split case
+                  page: 94
+                  pdf_page: 102
+              exercises:
+                page: 229
+                pdf_page: 237
+            - section: 4
+              title: Split semi-simple Lie algebra deﬁned by a reduced root system
+              page: 95
+              pdf_page: 103
+              subsections:
+                - "no": 1
+                  title: Framed semi-simple Lie algebras
+                  page: 95
+                  pdf_page: 103
+                - "no": 2
+                  title: A preliminary construction
+                  page: 96
+                  pdf_page: 104
+                - "no": 3
+                  title: Existence theorem
+                  page: 100
+                  pdf_page: 108
+                - "no": 4
+                  title: Uniqueness theorem
+                  page: 104
+                  pdf_page: 112
+              exercises:
+                page: 231
+                pdf_page: 239
+            - section: 5
+              title: Automorphisms of a semi-simple Lie algebra
+              page: 106
+              pdf_page: 114
+              subsections:
+                - "no": 1
+                  title: Automorphisms of a framed semi-simple Lie algebra
+                  page: 106
+                  pdf_page: 114
+                - "no": 2
+                  title: Automorphisms of a split semi-simple Lie algebra
+                  page: 107
+                  pdf_page: 115
+                - "no": 3
+                  title: Automorphisms of a splittable semi-simple Lie algebra
+                  page: 111
+                  pdf_page: 119
+                - "no": 4
+                  title: Zariski topology on Aut(g)
+                  page: 113
+                  pdf_page: 121
+                - "no": 5
+                  title: Lie group case
+                  page: 115
+                  pdf_page: 123
+              exercises:
+                page: 233
+                pdf_page: 241
+            - section: 6
+              title: Modules over a split semi-simple Lie algebra
+              page: 115
+              pdf_page: 123
+              subsections:
+                - "no": 1
+                  title: Weights and primitive elements
+                  page: 116
+                  pdf_page: 124
+                - "no": 2
+                  title: Simple modules with a highest weight
+                  page: 118
+                  pdf_page: 126
+                - "no": 3
+                  title: Existence and uniqueness theorem
+                  page: 119
+                  pdf_page: 127
+                - "no": 4
+                  title: Commutant of h in the enveloping algebra of g
+                  page: 122
+                  pdf_page: 130
+              exercises:
+                page: 238
+                pdf_page: 246
+            - section: 7
+              title: Finite dimensional modules over a split semi-simple Lie algebra
+              page: 124
+              pdf_page: 132
+              subsections:
+                - "no": 1
+                  title: Weights of a ﬁnited imensional simple g-module
+                  page: 124
+                  pdf_page: 132
+                - "no": 2
+                  title: Highest weight of a ﬁnite dimensional simple g-module
+                  page: 126
+                  pdf_page: 134
+                - "no": 3
+                  title: Minuscule weights
+                  page: 130
+                  pdf_page: 138
+                - "no": 4
+                  title: Tensor products of g-modules
+                  page: 132
+                  pdf_page: 140
+                - "no": 5
+                  title: Dual of a g-module
+                  page: 134
+                  pdf_page: 142
+                - "no": 6
+                  title: Representation ring
+                  page: 136
+                  pdf_page: 144
+                - "no": 7
+                  title: Characters of g-modules
+                  page: 139
+                  pdf_page: 147
+              exercises:
+                page: 238
+                pdf_page: 246
+            - section: 8
+              title: Symmetric invariants
+              page: 141
+              pdf_page: 149
+              subsections:
+                - "no": 1
+                  title: Exponential of a linear form
+                  page: 141
+                  pdf_page: 149
+                - "no": 2
+                  title: Injection of k[P] into S(h)∗
+                  page: 142
+                  pdf_page: 150
+                - "no": 3
+                  title: Invariant polynomial functions
+                  page: 143
+                  pdf_page: 151
+                - "no": 4
+                  title: Properties of Aut0
+                  page: 148
+                  pdf_page: 156
+                - "no": 5
+                  title: Centre of the enveloping algebra
+                  page: 148
+                  pdf_page: 156
+              exercises:
+                page: 250
+                pdf_page: 258
+            - section: 9
+              title: The formula of Hermann Weyl
+              page: 152
+              pdf_page: 160
+              subsections:
+                - "no": 1
+                  title: Characters of ﬁnite dimensional g-modules
+                  page: 152
+                  pdf_page: 160
+                - "no": 2
+                  title: Dimensions of simple g-modules
+                  page: 154
+                  pdf_page: 162
+                - "no": 3
+                  title: Multiplicities of weights of simple g-modules
+                  page: 156
+                  pdf_page: 164
+                - "no": 4
+                  title: Decomposition of tensor products of simple g-modules
+                  page: 157
+                  pdf_page: 165
+              exercises:
+                page: 253
+                pdf_page: 261
+            - section: 10
+              title: Maximal subalgebras of semi-simple Lie algebras
+              page: 159
+              pdf_page: 167
+              exercises:
+                page: 260
+                pdf_page: 268
+            - section: 11
+              title: Classes of nilpotent elements and sl2 -triplets
+              page: 163
+              pdf_page: 171
+              subsections:
+                - "no": 1
+                  title: Deﬁnition of sl2 -triplets
+                  page: 163
+                  pdf_page: 171
+                - "no": 2
+                  title: sl2 -triplets in semi-simple Lie algebras
+                  page: 165
+                  pdf_page: 173
+                - "no": 3
+                  title: Simple elements
+                  page: 167
+                  pdf_page: 175
+                - "no": 4
+                  title: Principal elements
+                  page: 170
+                  pdf_page: 178
+              exercises:
+                page: 261
+                pdf_page: 269
+            - section: 12
+              title: Chevalley orders
+              page: 173
+              pdf_page: 181
+              subsections:
+                - "no": 1
+                  title: Lattices and orders
+                  page: 173
+                  pdf_page: 181
+                - "no": 2
+                  title: Divided powers in a bigebra
+                  page: 173
+                  pdf_page: 181
+                - "no": 3
+                  title: Integral variant of the Poincaré-Birkhoﬀ-Witt theorem
+                  page: 174
+                  pdf_page: 182
+                - "no": 4
+                  title: 'Example: polynomials with integer values'
+                  page: 176
+                  pdf_page: 184
+                - "no": 5
+                  title: Some formulas
+                  page: 178
+                  pdf_page: 186
+                - "no": 6
+                  title: Biorders in the enveloping algebra of a split reductive Lie algebra
+                  page: 180
+                  pdf_page: 188
+                - "no": 7
+                  title: Chevalley orders
+                  page: 185
+                  pdf_page: 193
+                - "no": 8
+                  title: Admissible lattices
+                  page: 187
+                  pdf_page: 195
+            - section: 13
+              title: Classical splittable simple Lie algebras
+              page: 189
+              pdf_page: 197
+              subsections:
+                - "no": 1
+                  title: Algebras of type Al (l ≥ 1)
+                  page: 190
+                  pdf_page: 198
+                - "no": 2
+                  title: Algebras of type Bl (l ≥ 1)
+                  page: 195
+                  pdf_page: 203
+                - "no": 3
+                  title: Algebras of type Cl (l ≥ 1)
+                  page: 204
+                  pdf_page: 212
+                - "no": 4
+                  title: Algebras of type Dl (l ≥ 2)
+                  page: 211
+                  pdf_page: 219
+              exercises:
+                page: 266
+                pdf_page: 274
+        - book: lie-vii-ix
+          chapter: IX
+          title: COMPACT REAL LIE GROUPS
+          page: 281
+          pdf_page: 288
+          sections:
+            - section: 1
+              title: Compact Lie algebras
+              page: 281
+              pdf_page: 288
+              subsections:
+                - "no": 1
+                  title: Invariant hermitian forms
+                  page: 281
+                  pdf_page: 288
+                - "no": 2
+                  title: Connected commutative real Lie groups
+                  page: 282
+                  pdf_page: 289
+                - "no": 3
+                  title: Compact Lie algebras
+                  page: 283
+                  pdf_page: 290
+                - "no": 4
+                  title: Groups whose Lie algebra is compact
+                  page: 284
+                  pdf_page: 291
+              exercises:
+                page: 389
+                pdf_page: 396
+            - section: 2
+              title: Maximal tori of compact Lie groups
+              page: 287
+              pdf_page: 294
+              subsections:
+                - "no": 1
+                  title: Cartan subalgebras of compact algebras
+                  page: 287
+                  pdf_page: 294
+                - "no": 2
+                  title: Maximal tori
+                  page: 288
+                  pdf_page: 295
+                - "no": 3
+                  title: Maximal tori of subgroups and quotient groups
+                  page: 291
+                  pdf_page: 298
+                - "no": 4
+                  title: Subgroups of maximal rank
+                  page: 292
+                  pdf_page: 299
+                - "no": 5
+                  title: Weyl group
+                  page: 293
+                  pdf_page: 300
+                - "no": 6
+                  title: Maximal tori and covering of homomorphisms
+                  page: 295
+                  pdf_page: 302
+              exercises:
+                page: 391
+                pdf_page: 398
+            - section: 3
+              title: Compact forms of complex semi-simple Lie algebras
+              page: 296
+              pdf_page: 303
+              subsections:
+                - "no": 1
+                  title: Real forms
+                  page: 296
+                  pdf_page: 303
+                - "no": 2
+                  title: Real forms associated to a Chevalley system
+                  page: 297
+                  pdf_page: 304
+                - "no": 3
+                  title: Conjugacy of compact forms
+                  page: 299
+                  pdf_page: 306
+                - "no": 4
+                  title: 'Example I: compact algebras of type An'
+                  page: 300
+                  pdf_page: 307
+                - "no": 5
+                  title: 'Example II: compact algebras of type Bn and Dn'
+                  page: 301
+                  pdf_page: 308
+                - "no": 6
+                  title: Compact groups of rank 1
+                  page: 302
+                  pdf_page: 309
+              exercises:
+                page: 394
+                pdf_page: 401
+            - section: 4
+              title: Root system associated to a compact group
+              page: 304
+              pdf_page: 311
+              subsections:
+                - "no": 1
+                  title: The group X(H)
+                  page: 304
+                  pdf_page: 311
+                - "no": 2
+                  title: Nodal group of a torus
+                  page: 305
+                  pdf_page: 312
+                - "no": 3
+                  title: Weights of a linear representation
+                  page: 307
+                  pdf_page: 314
+                - "no": 4
+                  title: Roots
+                  page: 309
+                  pdf_page: 316
+                - "no": 5
+                  title: Nodal vectors and inverse roots
+                  page: 311
+                  pdf_page: 318
+                - "no": 6
+                  title: Fundamental group
+                  page: 314
+                  pdf_page: 321
+                - "no": 7
+                  title: Subgroups of maximum rank
+                  page: 316
+                  pdf_page: 323
+                - "no": 8
+                  title: Root diagrams
+                  page: 317
+                  pdf_page: 324
+                - "no": 9
+                  title: Compact Lie groups and root systems
+                  page: 319
+                  pdf_page: 326
+                - "no": 10
+                  title: Automorphisms of a connected compact Lie group
+                  page: 322
+                  pdf_page: 329
+              exercises:
+                page: 396
+                pdf_page: 403
+            - section: 5
+              title: Conjugacy classes
+              page: 324
+              pdf_page: 331
+              subsections:
+                - "no": 1
+                  title: Regular elements
+                  page: 324
+                  pdf_page: 331
+                - "no": 2
+                  title: Chambers and alcoves
+                  page: 325
+                  pdf_page: 332
+                - "no": 3
+                  title: Automorphisms and regular elements
+                  page: 327
+                  pdf_page: 334
+                - "no": 4
+                  title: The maps (G/T) × T → G and (G/T) × A → Gr
+                  page: 331
+                  pdf_page: 338
+              exercises:
+                page: 405
+                pdf_page: 412
+            - section: 6
+              title: Integration on compact Lie groups
+              page: 333
+              pdf_page: 340
+              subsections:
+                - "no": 1
+                  title: Product of alternating multilinear forms
+                  page: 333
+                  pdf_page: 340
+                - "no": 2
+                  title: Integration formula of H. Weyl
+                  page: 334
+                  pdf_page: 341
+                - "no": 3
+                  title: Integration on Lie algebras
+                  page: 339
+                  pdf_page: 346
+                - "no": 4
+                  title: Integration of sections of a vector bundle
+                  page: 341
+                  pdf_page: 348
+                - "no": 5
+                  title: Invariant diﬀerential forms
+                  page: 344
+                  pdf_page: 351
+              exercises:
+                page: 409
+                pdf_page: 416
+            - section: 7
+              title: Irreducible representations of connected compact Lie groups
+              page: 347
+              pdf_page: 354
+              subsections:
+                - "no": 1
+                  title: Dominant characters
+                  page: 347
+                  pdf_page: 354
+                - "no": 2
+                  title: Highest weight of an irreducible representation
+                  page: 348
+                  pdf_page: 355
+                - "no": 3
+                  title: The ring R(G)
+                  page: 351
+                  pdf_page: 358
+                - "no": 4
+                  title: Character formula
+                  page: 353
+                  pdf_page: 360
+                - "no": 5
+                  title: Degree of irreducible representations
+                  page: 356
+                  pdf_page: 363
+                - "no": 6
+                  title: Casimir elements
+                  page: 358
+                  pdf_page: 365
+              exercises:
+                page: 414
+                pdf_page: 421
+            - section: 8
+              title: Fourier transform
+              page: 359
+              pdf_page: 366
+              subsections:
+                - "no": 1
+                  title: Fourier transforms of integrable functions
+                  page: 360
+                  pdf_page: 367
+                - "no": 2
+                  title: Fourier transforms of inﬁnitely-diﬀerentiable functions
+                  page: 362
+                  pdf_page: 369
+                - "no": 3
+                  title: Fourier transforms of central functions
+                  page: 366
+                  pdf_page: 373
+                - "no": 4
+                  title: Central functions on G and functions on T
+                  page: 368
+                  pdf_page: 375
+              exercises:
+                page: 417
+                pdf_page: 424
+            - section: 9
+              title: Compact Lie groups operating on manifolds
+              page: 369
+              pdf_page: 376
+              subsections:
+                - "no": 1
+                  title: Embedding of a manifold in the neighbourhood of a compact set
+                  page: 369
+                  pdf_page: 376
+                - "no": 2
+                  title: Equivariant embedding theorem
+                  page: 373
+                  pdf_page: 380
+                - "no": 3
+                  title: Tubes and transversals
+                  page: 375
+                  pdf_page: 382
+                - "no": 4
+                  title: Orbit types
+                  page: 377
+                  pdf_page: 384
+              exercises:
+                page: 419
+                pdf_page: 426
+            - section: 1
+              title: Structure of compact groups
+              page: 381
+              pdf_page: 388
+              subsections:
+                - "no": 1
+                  title: Embedding a compact group in a product of Lie groups
+                  page: 381
+                  pdf_page: 388
+                - "no": 2
+                  title: Projective limits of Lie groups
+                  page: 382
+                  pdf_page: 389
+                - "no": 3
+                  title: Structure of connected compact groups
+                  page: 384
+                  pdf_page: 391
+              appendix: true
+              exercises:
+                page: 424
+                pdf_page: 431
+            - section: 2
+              title: Representations of real, complex or quaternionic type
+              page: 385
+              pdf_page: 392
+              subsections:
+                - "no": 1
+                  title: Representations of real algebras
+                  page: 385
+                  pdf_page: 392
+                - "no": 2
+                  title: Representations of compact groups
+                  page: 387
+                  pdf_page: 394
+              appendix: true
+    - id: ts-i-ii-fr
+      grammar: pilcrow/bare
+      chapters:
+        - book: ts-i-ii-fr
+          chapter: I
+          title: ALGÈBRES NORMÉES
+          page: 1
+          pdf_page: 14
+          sections:
+            - section: 1
+              title: Spectres et caractères
+              page: 1
+              pdf_page: 14
+              subsections:
+                - "no": 1
+                  title: Algèbres unifères
+                  page: 1
+                  pdf_page: 14
+                - "no": 2
+                  title: Spectre d’un élément dans une algèbre unifère
+                  page: 2
+                  pdf_page: 15
+                - "no": 3
+                  title: Résolvante
+                  page: 3
+                  pdf_page: 16
+                - "no": 4
+                  title: Spectre d’un élément dans une algèbre
+                  page: 4
+                  pdf_page: 17
+                - "no": 5
+                  title: Sous-algèbres pleines
+                  page: 5
+                  pdf_page: 18
+                - "no": 6
+                  title: Caractères d’une algèbre unifère commutative
+                  page: 6
+                  pdf_page: 19
+                - "no": 7
+                  title: Cas des algèbres sans élément unité
+                  page: 9
+                  pdf_page: 22
+                - "no": 8
+                  title: Idéaux primitifs
+                  page: 11
+                  pdf_page: 24
+              exercises:
+                page: 153
+                pdf_page: 166
+            - section: 2
+              title: Algèbres normées
+              page: 15
+              pdf_page: 28
+              subsections:
+                - "no": 1
+                  title: Généralités
+                  page: 15
+                  pdf_page: 28
+                - "no": 2
+                  title: Exemples
+                  page: 17
+                  pdf_page: 30
+                - "no": 3
+                  title: Rayon spectral
+                  page: 20
+                  pdf_page: 33
+                - "no": 4
+                  title: Inverses
+                  page: 22
+                  pdf_page: 35
+                - "no": 5
+                  title: Spectre d’un élément dans une algèbre normée
+                  page: 24
+                  pdf_page: 37
+                - "no": 6
+                  title: Spectre relatif à une sous-algèbre
+                  page: 28
+                  pdf_page: 41
+              exercises:
+                page: 155
+                pdf_page: 168
+            - section: 3
+              title: Algèbres de Banach commutatives
+              page: 29
+              pdf_page: 42
+              subsections:
+                - "no": 1
+                  title: Caractères d’une algèbre de Banach commutative
+                  page: 29
+                  pdf_page: 42
+                - "no": 2
+                  title: Fonctions continues nulles à l’infini sur un espace localement compact
+                  page: 31
+                  pdf_page: 44
+                - "no": 3
+                  title: Applications partielles propres
+                  page: 33
+                  pdf_page: 46
+                - "no": 4
+                  title: Transformation de Gelfand
+                  page: 36
+                  pdf_page: 49
+                - "no": 5
+                  title: Morphismes d’algèbres de Banach commutatives
+                  page: 40
+                  pdf_page: 53
+                - "no": 6
+                  title: Spectre simultané
+                  page: 41
+                  pdf_page: 54
+                - "no": 7
+                  title: Ensembles polynomialement convexes
+                  page: 44
+                  pdf_page: 57
+              exercises:
+                page: 166
+                pdf_page: 179
+            - section: 4
+              title: Calcul fonctionnel holomorphe
+              page: 49
+              pdf_page: 62
+              subsections:
+                - "no": 1
+                  title: Germes de fonctions holomorphes
+                  page: 49
+                  pdf_page: 62
+                - "no": 2
+                  title: Énoncé du théorème principal
+                  page: 51
+                  pdf_page: 64
+                - "no": 3
+                  title: Suites adaptées et formes différentielles associées
+                  page: 52
+                  pdf_page: 65
+                - "no": 4
+                  title: Construction des applications Θa
+                  page: 58
+                  pdf_page: 71
+                - "no": 5
+                  title: Propriétés des applications Θa
+                  page: 61
+                  pdf_page: 74
+                - "no": 6
+                  title: Théorèmes d’approximation
+                  page: 67
+                  pdf_page: 80
+                - "no": 7
+                  title: Existence et unicité du calcul fonctionnel holomorphe
+                  page: 70
+                  pdf_page: 83
+                - "no": 8
+                  title: Substitution dans le calcul fonctionnel
+                  page: 72
+                  pdf_page: 85
+                - "no": 9
+                  title: Calcul fonctionnel holomorphe en une variable
+                  page: 74
+                  pdf_page: 87
+                - "no": 10
+                  title: Exponentielle et logarithme
+                  page: 78
+                  pdf_page: 91
+                - "no": 11
+                  title: Partitions de l’espace des caractères
+                  page: 79
+                  pdf_page: 92
+                - "no": 12
+                  title: Partitions du spectre d’un élément
+                  page: 81
+                  pdf_page: 94
+                - "no": 13
+                  title: Calcul fonctionnel holomorphe dans une algèbre normable complète réelle ou complexe
+                  page: 85
+                  pdf_page: 98
+                - "no": 14
+                  title: Cas d’une algèbre sans élément unité
+                  page: 88
+                  pdf_page: 101
+              exercises:
+                page: 172
+                pdf_page: 185
+            - section: 5
+              title: Algèbres de Banach commutatives régulières
+              page: 88
+              pdf_page: 101
+              subsections:
+                - "no": 1
+                  title: Définition
+                  page: 88
+                  pdf_page: 101
+                - "no": 2
+                  title: Synthèse harmonique
+                  page: 91
+                  pdf_page: 104
+              exercises:
+                page: 178
+                pdf_page: 191
+            - section: 6
+              title: Algèbres stellaires
+              page: 95
+              pdf_page: 108
+              subsections:
+                - "no": 1
+                  title: Involutions semi-linéaires
+                  page: 95
+                  pdf_page: 108
+                - "no": 2
+                  title: Algèbres involutives
+                  page: 96
+                  pdf_page: 109
+                - "no": 3
+                  title: Algèbres normées involutives
+                  page: 100
+                  pdf_page: 113
+                - "no": 4
+                  title: Algèbres stellaires
+                  page: 102
+                  pdf_page: 115
+                - "no": 5
+                  title: Algèbres stellaires commutatives
+                  page: 107
+                  pdf_page: 120
+                - "no": 6
+                  title: Calcul fonctionnel dans les algèbres stellaires unifères
+                  page: 109
+                  pdf_page: 122
+                - "no": 7
+                  title: Applications du calcul fonctionnel
+                  page: 112
+                  pdf_page: 125
+                - "no": 8
+                  title: Calcul fonctionnel dans une algèbre non unifère
+                  page: 114
+                  pdf_page: 127
+                - "no": 9
+                  title: Éléments positifs dans les algèbres stellaires
+                  page: 115
+                  pdf_page: 128
+                - "no": 10
+                  title: Unités approchées dans les algèbres stellaires
+                  page: 120
+                  pdf_page: 133
+                - "no": 11
+                  title: Quotient par un idéal bilatère fermé
+                  page: 122
+                  pdf_page: 135
+                - "no": 12
+                  title: Algèbre stellaire enveloppante d’une algèbre de Banach involutive
+                  page: 123
+                  pdf_page: 136
+                - "no": 13
+                  title: Algèbre stellaire d’un groupe localement compact
+                  page: 125
+                  pdf_page: 138
+              exercises:
+                page: 180
+                pdf_page: 193
+            - section: 7
+              title: Spectre des endomorphismes des espaces de Banach
+              page: 127
+              pdf_page: 140
+              subsections:
+                - "no": 1
+                  title: Spectre d’un endomorphisme
+                  page: 127
+                  pdf_page: 140
+                - "no": 2
+                  title: Projecteurs spectraux
+                  page: 129
+                  pdf_page: 142
+                - "no": 3
+                  title: Points isolés du spectre
+                  page: 131
+                  pdf_page: 144
+                - "no": 4
+                  title: Spectre de la transposée d’un endomorphisme
+                  page: 131
+                  pdf_page: 144
+                - "no": 5
+                  title: Cas des espaces hilbertiens
+                  page: 132
+                  pdf_page: 145
+                - "no": 6
+                  title: Image numérique
+                  page: 135
+                  pdf_page: 148
+                - "no": 7
+                  title: Éléments positifs
+                  page: 138
+                  pdf_page: 151
+                - "no": 8
+                  title: Décomposition polaire
+                  page: 139
+                  pdf_page: 152
+              exercises:
+                page: 187
+                pdf_page: 200
+            - section: 8
+              title: Algèbres de fonctions continues sur un espace compact
+              page: 142
+              pdf_page: 155
+              subsections:
+                - "no": 1
+                  title: Sous-algèbres de l’algèbre des fonctions continues sur un espace compact
+                  page: 142
+                  pdf_page: 155
+                - "no": 2
+                  title: Fonctions continues sur un sous-ensemble compact de CΛ
+                  page: 146
+                  pdf_page: 159
+                - "no": 3
+                  title: Fonctions continues sur un sous-ensemble compact de C
+                  page: 148
+                  pdf_page: 161
+              exercises:
+                page: 191
+                pdf_page: 204
+        - book: ts-i-ii-fr
+          chapter: II
+          title: GROUPES LOCALEMENT COMPACTS COMMUTATIFS
+          page: 199
+          pdf_page: 211
+          sections:
+            - section: 1
+              title: Transformation de Fourier
+              page: 201
+              pdf_page: 213
+              subsections:
+                - "no": 1
+                  title: Caractères unitaires d’un groupe localement compact commutatif
+                  page: 201
+                  pdf_page: 213
+                - "no": 2
+                  title: Définition de la transformation de Fourier
+                  page: 206
+                  pdf_page: 218
+                - "no": 3
+                  title: Le théorème de Plancherel
+                  page: 210
+                  pdf_page: 222
+                - "no": 4
+                  title: La formule d’inversion de Fourier
+                  page: 217
+                  pdf_page: 229
+                - "no": 5
+                  title: Le théorème de dualité de Pontryagin
+                  page: 220
+                  pdf_page: 232
+                - "no": 6
+                  title: Propriétés fonctorielles de la dualité
+                  page: 224
+                  pdf_page: 236
+                - "no": 7
+                  title: La formule de Poisson
+                  page: 229
+                  pdf_page: 241
+                - "no": 8
+                  title: Exemples de dualité
+                  page: 232
+                  pdf_page: 244
+                - "no": 9
+                  title: Transformée de Fourier euclidienne et séries de Fourier
+                  page: 237
+                  pdf_page: 249
+              exercises:
+                page: 262
+                pdf_page: 274
+            - section: 2
+              title: Classification
+              page: 244
+              pdf_page: 256
+              subsections:
+                - "no": 1
+                  title: Groupes engendrés par une partie compacte
+                  page: 244
+                  pdf_page: 256
+                - "no": 2
+                  title: Cas général
+                  page: 248
+                  pdf_page: 260
+              exercises:
+                page: 304
+                pdf_page: 316
+            - section: 3
+              title: Sous-espaces invariants
+              page: 250
+              pdf_page: 262
+              subsections:
+                - "no": 1
+                  title: Le cas de l’espace hilbertien L2 (G)
+                  page: 251
+                  pdf_page: 263
+                - "no": 2
+                  title: Idéaux fermés de L1 (G)
+                  page: 251
+                  pdf_page: 263
+                - "no": 3
+                  title: Sous-espaces invariants faiblement fermés de L∞ (G)
+                  page: 257
+                  pdf_page: 269
+              exercises:
+                page: 308
+                pdf_page: 320
+    - id: ts-iii-v-fr
+      grammar: pilcrow/bare
+      chapters:
+        - book: ts-iii-v-fr
+          chapter: III
+          title: APPLICATIONS LINÉAIRES COMPACTES ET PERTURBATIONS
+          page: 1
+          pdf_page: 15
+          sections:
+            - section: 1
+              title: Applications linéaires compactes
+              page: 2
+              pdf_page: 16
+              subsections:
+                - "no": 1
+                  title: Applications linéaires compactes
+                  page: 2
+                  pdf_page: 16
+                - "no": 2
+                  title: Applications linéaires compactes et topologies faibles
+                  page: 6
+                  pdf_page: 20
+                - "no": 3
+                  title: Transposition
+                  page: 8
+                  pdf_page: 22
+                - "no": 4
+                  title: Le théorème de Leray–Schauder
+                  page: 10
+                  pdf_page: 24
+                - "no": 5
+                  title: Sous-espaces invariants par un opérateur compact
+                  page: 12
+                  pdf_page: 26
+                - "no": 6
+                  title: Espaces d’approximation
+                  page: 14
+                  pdf_page: 28
+                - "no": 7
+                  title: Exemples d’espaces d’approximation
+                  page: 20
+                  pdf_page: 34
+              exercises:
+                page: 103
+                pdf_page: 117
+            - section: 2
+              title: Exemples d’applications linéaires compactes
+              page: 23
+              pdf_page: 37
+              subsections:
+                - "no": 1
+                  title: Endomorphismes de trace finie, de Hilbert–Schmidt et de puissance pe nucléaire
+                  page: 23
+                  pdf_page: 37
+                - "no": 2
+                  title: Opérateurs diagonaux dans des espaces de suites
+                  page: 23
+                  pdf_page: 37
+                - "no": 3
+                  title: Applications linéaires à valeurs dans un espace de fonctions continues définies par un noyau
+                  page: 25
+                  pdf_page: 39
+                - "no": 4
+                  title: Applications linéaires entre espaces de Lebesgue définies par un noyau
+                  page: 26
+                  pdf_page: 40
+                - "no": 5
+                  title: Restriction d’applications différentiables
+                  page: 34
+                  pdf_page: 48
+                - "no": 6
+                  title: Restriction de sections différentiables d’un fibré vectoriel
+                  page: 35
+                  pdf_page: 49
+                - "no": 7
+                  title: Restriction de sections analytiques d’un fibré vectoriel
+                  page: 37
+                  pdf_page: 51
+              exercises:
+                page: 118
+                pdf_page: 132
+            - section: 3
+              title: Endomorphismes de Fredholm et endomorphismes de Riesz
+              page: 39
+              pdf_page: 53
+              subsections:
+                - "no": 1
+                  title: Morphismes stricts et applications linéaires de rang fini
+                  page: 39
+                  pdf_page: 53
+                - "no": 2
+                  title: Applications de Fredholm
+                  page: 40
+                  pdf_page: 54
+                - "no": 3
+                  title: Indice d’une application de Fredholm
+                  page: 43
+                  pdf_page: 57
+                - "no": 4
+                  title: Endomorphismes de Riesz
+                  page: 45
+                  pdf_page: 59
+                - "no": 5
+                  title: Applications de Fredholm et applications de Riesz entre espaces de Fréchet
+                  page: 52
+                  pdf_page: 66
+                - "no": 6
+                  title: Caractérisation spectrale des endomorphismes de Riesz
+                  page: 53
+                  pdf_page: 67
+              exercises:
+                page: 120
+                pdf_page: 134
+            - section: 4
+              title: Perturbations dans les espaces de Banach
+              page: 55
+              pdf_page: 69
+              subsections:
+                - "no": 1
+                  title: Morphismes directs
+                  page: 55
+                  pdf_page: 69
+                - "no": 2
+                  title: Perturbation des applications de Fredholm
+                  page: 58
+                  pdf_page: 72
+                - "no": 3
+                  title: Perturbation des endomorphismes de Riesz
+                  page: 59
+                  pdf_page: 73
+                - "no": 4
+                  title: Conorme d’une application linéaire continue
+                  page: 61
+                  pdf_page: 75
+                - "no": 5
+                  title: Sous-espaces vectoriels de dimension finie d’un espace normé
+                  page: 64
+                  pdf_page: 78
+                - "no": 6
+                  title: Perturbations des applications linéaires continues injectives ou surjectives
+                  page: 67
+                  pdf_page: 81
+              exercises:
+                page: 123
+                pdf_page: 137
+            - section: 5
+              title: Perturbation par une application linéaire compacte
+              page: 71
+              pdf_page: 85
+              subsections:
+                - "no": 1
+                  title: Morphismes stricts et propreté
+                  page: 71
+                  pdf_page: 85
+                - "no": 2
+                  title: Perturbation des applications linéaires injectives ou surjectives
+                  page: 72
+                  pdf_page: 86
+                - "no": 3
+                  title: Perturbation des applications de Fredholm
+                  page: 73
+                  pdf_page: 87
+                - "no": 4
+                  title: Perturbation des endomorphismes de Riesz
+                  page: 75
+                  pdf_page: 89
+                - "no": 5
+                  title: La théorie de Frédéric Riesz
+                  page: 77
+                  pdf_page: 91
+                - "no": 6
+                  title: Alternative de Fredholm
+                  page: 79
+                  pdf_page: 93
+              exercises:
+                page: 125
+                pdf_page: 139
+            - section: 6
+              title: Propriétés spectrales des endomorphismes des espaces de Banach
+              page: 82
+              pdf_page: 96
+              subsections:
+                - "no": 1
+                  title: Points isolés et points sensibles du spectre
+                  page: 82
+                  pdf_page: 96
+                - "no": 2
+                  title: Une partition du spectre
+                  page: 85
+                  pdf_page: 99
+                - "no": 3
+                  title: Spectre du transposé d’un endomorphisme
+                  page: 88
+                  pdf_page: 102
+                - "no": 4
+                  title: Perturbation par un opérateur compact
+                  page: 89
+                  pdf_page: 103
+                - "no": 5
+                  title: Spectre d’un opérateur compact
+                  page: 89
+                  pdf_page: 103
+                - "no": 6
+                  title: Cas des espaces hilbertiens
+                  page: 92
+                  pdf_page: 106
+                - "no": 7
+                  title: Le théorème de Krein–Rutman
+                  page: 93
+                  pdf_page: 107
+              exercises:
+                page: 128
+                pdf_page: 142
+        - book: ts-iii-v-fr
+          chapter: IV
+          title: THÉORIE SPECTRALE HILBERTIENNE
+          page: 145
+          pdf_page: 158
+          sections:
+            - section: 1
+              title: Opérateurs compacts sur un espace hilbertien
+              page: 146
+              pdf_page: 159
+              subsections:
+                - "no": 1
+                  title: Endomorphismes diagonaux
+                  page: 146
+                  pdf_page: 159
+                - "no": 2
+                  title: Diagonalisation des endomorphismes compacts
+                  page: 149
+                  pdf_page: 162
+                - "no": 3
+                  title: Suite décroissante des valeurs propres
+                  page: 151
+                  pdf_page: 164
+                - "no": 4
+                  title: Caractérisations variationnelles des valeurs propres
+                  page: 153
+                  pdf_page: 166
+                - "no": 5
+                  title: Applications de la caractérisation variationnelle des valeurs propres
+                  page: 155
+                  pdf_page: 168
+                - "no": 6
+                  title: Inégalités de Weyl
+                  page: 157
+                  pdf_page: 170
+                - "no": 7
+                  title: Endomorphismes de trace finie
+                  page: 164
+                  pdf_page: 177
+                - "no": 8
+                  title: Applications nucléaires
+                  page: 167
+                  pdf_page: 180
+                - "no": 9
+                  title: Opérateurs intégraux de Hilbert–Schmidt
+                  page: 172
+                  pdf_page: 185
+                - "no": 10
+                  title: Trace des opérateurs intégraux à noyau continu
+                  page: 174
+                  pdf_page: 187
+              exercises:
+                page: 313
+                pdf_page: 326
+            - section: 2
+              title: Endomorphismes normaux
+              page: 179
+              pdf_page: 192
+              subsections:
+                - "no": 1
+                  title: Compléments sur les espaces Lp (X, µ)
+                  page: 179
+                  pdf_page: 192
+                - "no": 2
+                  title: Image essentielle d’une fonction mesurable
+                  page: 181
+                  pdf_page: 194
+                - "no": 3
+                  title: Fonctions universellement mesurables
+                  page: 182
+                  pdf_page: 195
+                - "no": 4
+                  title: L’algèbre stellaire L∞ (X, µ)
+                  page: 185
+                  pdf_page: 198
+                - "no": 5
+                  title: Endomorphismes de multiplication
+                  page: 186
+                  pdf_page: 199
+                - "no": 6
+                  title: Mesures spectrales
+                  page: 190
+                  pdf_page: 203
+                - "no": 7
+                  title: Algèbres stellaires commutatives d’endomorphismes d’un espace hilbertien
+                  page: 191
+                  pdf_page: 204
+                - "no": 8
+                  title: Continuité du calcul fonctionnel
+                  page: 194
+                  pdf_page: 207
+              exercises:
+                page: 319
+                pdf_page: 332
+            - section: 3
+              title: Distributions et distributions tempérées
+              page: 196
+              pdf_page: 209
+              subsections:
+                - "no": 1
+                  title: Dérivation sous le signe somme
+                  page: 197
+                  pdf_page: 210
+                - "no": 2
+                  title: Critères d’intégrabilité dans Rn et Zn
+                  page: 199
+                  pdf_page: 212
+                - "no": 3
+                  title: Fonctions test
+                  page: 200
+                  pdf_page: 213
+                - "no": 4
+                  title: Distributions
+                  page: 203
+                  pdf_page: 216
+                - "no": 5
+                  title: Interprétation de fonctions comme distributions
+                  page: 206
+                  pdf_page: 219
+                - "no": 6
+                  title: Dérivation des distributions
+                  page: 208
+                  pdf_page: 221
+                - "no": 7
+                  title: Fonctions de Schwartz
+                  page: 209
+                  pdf_page: 222
+                - "no": 8
+                  title: Inclusions d’espaces fonctionnels dans l’espace des fonctions de Schwartz
+                  page: 212
+                  pdf_page: 225
+                - "no": 9
+                  title: Fonctions à croissance polynomiale
+                  page: 214
+                  pdf_page: 227
+                - "no": 10
+                  title: Distributions tempérées
+                  page: 214
+                  pdf_page: 227
+                - "no": 11
+                  title: Interprétation de fonctions comme distributions tempérées
+                  page: 216
+                  pdf_page: 229
+                - "no": 12
+                  title: Transformation de Fourier des distributions tempérées
+                  page: 217
+                  pdf_page: 230
+                - "no": 13
+                  title: Distributions et distributions tempérées sur un espace vectoriel
+                  page: 221
+                  pdf_page: 234
+                - "no": 14
+                  title: Espaces de Sobolev
+                  page: 221
+                  pdf_page: 234
+              exercises:
+                page: 330
+                pdf_page: 343
+            - section: 4
+              title: Opérateurs partiels
+              page: 224
+              pdf_page: 237
+              subsections:
+                - "no": 1
+                  title: Opérateurs partiels
+                  page: 224
+                  pdf_page: 237
+                - "no": 2
+                  title: Opérateurs fermés, fermables et à domaine dense
+                  page: 227
+                  pdf_page: 240
+                - "no": 3
+                  title: Exemples d’opérateurs partiels
+                  page: 231
+                  pdf_page: 244
+                - "no": 4
+                  title: Adjoint
+                  page: 235
+                  pdf_page: 248
+                - "no": 5
+                  title: Critères élémentaires pour les opérateurs auto-adjoints
+                  page: 239
+                  pdf_page: 252
+                - "no": 6
+                  title: Opérateurs différentiels
+                  page: 242
+                  pdf_page: 255
+                - "no": 7
+                  title: Spectre et résolvante
+                  page: 243
+                  pdf_page: 256
+                - "no": 8
+                  title: Pseudo-spectre
+                  page: 250
+                  pdf_page: 263
+                - "no": 9
+                  title: Opérateurs de multiplication
+                  page: 252
+                  pdf_page: 265
+                - "no": 10
+                  title: Extensions auto-adjointes d’un opérateur symétrique
+                  page: 255
+                  pdf_page: 268
+              exercises:
+                page: 344
+                pdf_page: 357
+            - section: 5
+              title: Opérateurs partiels normaux et théorème spectral
+              page: 262
+              pdf_page: 275
+              subsections:
+                - "no": 1
+                  title: Bornification
+                  page: 262
+                  pdf_page: 275
+                - "no": 2
+                  title: Opérateurs partiels normaux et théorème spectral
+                  page: 265
+                  pdf_page: 278
+                - "no": 3
+                  title: Calcul fonctionnel universellement mesurable
+                  page: 270
+                  pdf_page: 283
+                - "no": 4
+                  title: Projecteurs spectraux
+                  page: 277
+                  pdf_page: 290
+                - "no": 5
+                  title: La formule de Helffer–Sjöstrand
+                  page: 280
+                  pdf_page: 293
+                - "no": 6
+                  title: Topologies résolvantes et continuité du calcul fonctionnel
+                  page: 285
+                  pdf_page: 298
+                - "no": 7
+                  title: Décomposition polaire
+                  page: 289
+                  pdf_page: 302
+                - "no": 8
+                  title: Opérateurs auto-adjoints définis par une forme hermitienne partielle positive
+                  page: 291
+                  pdf_page: 304
+                - "no": 9
+                  title: Principes variationnels pour le spectre des opérateurs positifs
+                  page: 296
+                  pdf_page: 309
+                - "no": 10
+                  title: Perturbation compacte et spectre essentiel
+                  page: 303
+                  pdf_page: 316
+                - "no": 11
+                  title: Perturbation
+                  page: 305
+                  pdf_page: 318
+                - "no": 12
+                  title: Opérateurs à résolvante compacte
+                  page: 307
+                  pdf_page: 320
+              exercises:
+                page: 352
+                pdf_page: 365
+        - book: ts-iii-v-fr
+          chapter: V
+          title: REPRÉSENTATIONS UNITAIRES
+          page: 373
+          pdf_page: 386
+          sections:
+            - section: 1
+              title: Représentations unitaires
+              page: 373
+              pdf_page: 386
+              subsections:
+                - "no": 1
+                  title: Rappels concernant les représentations linéaires continues
+                  page: 374
+                  pdf_page: 387
+                - "no": 2
+                  title: Un critère de continuité
+                  page: 377
+                  pdf_page: 390
+                - "no": 3
+                  title: Représentations continues de dimension finie
+                  page: 378
+                  pdf_page: 391
+                - "no": 4
+                  title: Représentations irréductibles
+                  page: 378
+                  pdf_page: 391
+                - "no": 5
+                  title: Représentations unitaires
+                  page: 379
+                  pdf_page: 392
+                - "no": 6
+                  title: Somme directe hilbertienne et produit tensoriel de représentations unitaires
+                  page: 383
+                  pdf_page: 396
+                - "no": 7
+                  title: Coefficients matriciels
+                  page: 385
+                  pdf_page: 398
+                - "no": 8
+                  title: Le lemme de Schur
+                  page: 386
+                  pdf_page: 399
+                - "no": 9
+                  title: Semi-simplicité
+                  page: 390
+                  pdf_page: 403
+                - "no": 10
+                  title: Classes de représentations unitaires
+                  page: 392
+                  pdf_page: 405
+                - "no": 11
+                  title: Composantes isotypiques
+                  page: 394
+                  pdf_page: 407
+              exercises:
+                page: 483
+                pdf_page: 496
+            - section: 2
+              title: Représentations des groupes localement compacts
+              page: 399
+              pdf_page: 412
+              subsections:
+                - "no": 1
+                  title: Continuité de certaines représentations
+                  page: 399
+                  pdf_page: 412
+                - "no": 2
+                  title: Extension de représentations à des espaces de mesures
+                  page: 400
+                  pdf_page: 413
+                - "no": 3
+                  title: Critère de semi-simplicité
+                  page: 402
+                  pdf_page: 415
+                - "no": 4
+                  title: Représentations régulières
+                  page: 405
+                  pdf_page: 418
+                - "no": 5
+                  title: Fonctions équivariantes
+                  page: 407
+                  pdf_page: 420
+                - "no": 6
+                  title: Représentations induites
+                  page: 415
+                  pdf_page: 428
+                - "no": 7
+                  title: Cas d’un sous-groupe fermé central
+                  page: 416
+                  pdf_page: 429
+                - "no": 8
+                  title: Représentations de carré intégrable
+                  page: 419
+                  pdf_page: 432
+                - "no": 9
+                  title: Sous-représentations de la représentation régulière d’un groupe commutatif
+                  page: 425
+                  pdf_page: 438
+                - "no": 10
+                  title: Représentations unitaires du groupe R
+                  page: 427
+                  pdf_page: 440
+              exercises:
+                page: 486
+                pdf_page: 499
+            - section: 3
+              title: Fonctions de type positif
+              page: 431
+              pdf_page: 444
+              subsections:
+                - "no": 1
+                  title: Noyaux universellement positifs
+                  page: 432
+                  pdf_page: 445
+                - "no": 2
+                  title: Complément sur le calcul fonctionnel holomorphe
+                  page: 435
+                  pdf_page: 448
+                - "no": 3
+                  title: Formes linéaires positives
+                  page: 436
+                  pdf_page: 449
+                - "no": 4
+                  title: Représentations des algèbres stellaires
+                  page: 441
+                  pdf_page: 454
+                - "no": 5
+                  title: Fonctions de type positif sur un groupe topologique
+                  page: 442
+                  pdf_page: 455
+                - "no": 6
+                  title: Dual unitaire d’un groupe localement compact
+                  page: 446
+                  pdf_page: 459
+                - "no": 7
+                  title: Existence de représentations irréductibles
+                  page: 450
+                  pdf_page: 463
+                - "no": 8
+                  title: Fonctions de type positif sur un groupe localement compact commutatif
+                  page: 454
+                  pdf_page: 467
+              exercises:
+                page: 492
+                pdf_page: 505
+            - section: 4
+              title: Représentations des groupes compacts
+              page: 456
+              pdf_page: 469
+              subsections:
+                - "no": 1
+                  title: Semi-simplicité des représentations de dimension finie
+                  page: 456
+                  pdf_page: 469
+                - "no": 2
+                  title: Représentations irréductibles
+                  page: 457
+                  pdf_page: 470
+                - "no": 3
+                  title: Le théorème de Peter–Weyl
+                  page: 462
+                  pdf_page: 475
+                - "no": 4
+                  title: Coefficients matriciels et fonctions G-finies
+                  page: 464
+                  pdf_page: 477
+                - "no": 5
+                  title: Représentations dans un espace séparé quasi-complet
+                  page: 464
+                  pdf_page: 477
+                - "no": 6
+                  title: Caractères et classes de conjugaison
+                  page: 466
+                  pdf_page: 479
+                - "no": 7
+                  title: La cotransformation de Fourier
+                  page: 470
+                  pdf_page: 483
+                - "no": 8
+                  title: La transformation de Fourier
+                  page: 471
+                  pdf_page: 484
+                - "no": 9
+                  title: Indicateur de Frobenius–Schur et alternative de Larsen
+                  page: 476
+                  pdf_page: 489
+              exercises:
+                page: 504
+                pdf_page: 517
+          historical_note:
+            page: 517
+            pdf_page: 530
+    - id: ta-i-iv-fr
+      grammar: pilcrow/bare
+      chapters:
+        - book: ta-i-iv-fr
+          chapter: I
+          title: REVÊTEMENTS
+          page: 1
+          pdf_page: 17
+          sections:
+            - section: 1
+              title: Produits fibrés et carrés cartésiens
+              page: 1
+              pdf_page: 17
+              subsections:
+                - "no": 1
+                  title: Structure de B-espace
+                  page: 1
+                  pdf_page: 17
+                - "no": 2
+                  title: Opérations sur les B-espaces
+                  page: 2
+                  pdf_page: 18
+                - "no": 3
+                  title: Produit fibré de deux B-espaces
+                  page: 3
+                  pdf_page: 19
+                - "no": 4
+                  title: Changement de base
+                  page: 4
+                  pdf_page: 20
+                - "no": 5
+                  title: Produit fibré d’une famille de B-espaces
+                  page: 5
+                  pdf_page: 21
+                - "no": 6
+                  title: Carrés cartésiens
+                  page: 6
+                  pdf_page: 22
+                - "no": 7
+                  title: Carrés cartésiens construits par passage aux sous espaces
+                  page: 9
+                  pdf_page: 25
+                - "no": 8
+                  title: Carrés cartésiens construits par produits, produits fibrés et sommes
+                  page: 11
+                  pdf_page: 27
+                - "no": 9
+                  title: Composition de carrés cartésiens
+                  page: 15
+                  pdf_page: 31
+                - "no": 10
+                  title: Applications strictes
+                  page: 17
+                  pdf_page: 33
+                - "no": 11
+                  title: Applications universellement strictes
+                  page: 20
+                  pdf_page: 36
+            - section: 2
+              title: Applications étales
+              page: 25
+              pdf_page: 41
+              subsections:
+                - "no": 1
+                  title: Applications séparées
+                  page: 25
+                  pdf_page: 41
+                - "no": 2
+                  title: Applications étales
+                  page: 28
+                  pdf_page: 44
+                - "no": 3
+                  title: Sections locales des applications étales
+                  page: 32
+                  pdf_page: 48
+                - "no": 4
+                  title: Relèvements continus des applications étales
+                  page: 33
+                  pdf_page: 49
+                - "no": 5
+                  title: Construction de sections continues d’applications étales
+                  page: 35
+                  pdf_page: 51
+                - "no": 6
+                  title: Majoration du cardinal des fibres d’une application étale et séparée
+                  page: 40
+                  pdf_page: 56
+            - section: 3
+              title: Faisceaux
+              page: 42
+              pdf_page: 58
+              subsections:
+                - "no": 1
+                  title: Faisceaux d’ensembles
+                  page: 42
+                  pdf_page: 58
+                - "no": 2
+                  title: Sous-faisceaux d’un faisceau
+                  page: 44
+                  pdf_page: 60
+                - "no": 3
+                  title: Exemples de faisceaux
+                  page: 44
+                  pdf_page: 60
+                - "no": 4
+                  title: Morphismes de préfaisceaux
+                  page: 47
+                  pdf_page: 63
+                - "no": 5
+                  title: Espace étalé associé à un préfaisceau
+                  page: 49
+                  pdf_page: 65
+                - "no": 6
+                  title: Faisceau associé à un préfaisceau
+                  page: 53
+                  pdf_page: 69
+                - "no": 7
+                  title: Image directe et image réciproque d’un faisceau
+                  page: 57
+                  pdf_page: 73
+                - "no": 8
+                  title: Les homomorphismes α et β ; adjonction
+                  page: 59
+                  pdf_page: 75
+                - "no": 9
+                  title: Faisceaux mous
+                  page: 64
+                  pdf_page: 80
+                - "no": 10
+                  title: Faisceaux de structures
+                  page: 66
+                  pdf_page: 82
+            - section: 4
+              title: Revêtements
+              page: 68
+              pdf_page: 84
+              subsections:
+                - "no": 1
+                  title: Espaces fibrés localement triviaux
+                  page: 68
+                  pdf_page: 84
+                - "no": 2
+                  title: Revêtements
+                  page: 69
+                  pdf_page: 85
+                - "no": 3
+                  title: Produits et produits fibrés
+                  page: 71
+                  pdf_page: 87
+                - "no": 4
+                  title: Degré d’un revêtement
+                  page: 73
+                  pdf_page: 89
+                - "no": 5
+                  title: Revêtements finis
+                  page: 75
+                  pdf_page: 91
+                - "no": 6
+                  title: Revêtements des espaces localement connexes
+                  page: 79
+                  pdf_page: 95
+                - "no": 7
+                  title: Revêtements d’un espace paracompact
+                  page: 84
+                  pdf_page: 100
+                - "no": 8
+                  title: Faisceaux localement constants
+                  page: 86
+                  pdf_page: 102
+                - "no": 9
+                  title: Produits de faisceaux localement constants
+                  page: 87
+                  pdf_page: 103
+                - "no": 10
+                  title: Morphismes de faisceaux localement constants sur un espace localement connexe
+                  page: 89
+                  pdf_page: 105
+            - section: 5
+              title: Revêtements principaux
+              page: 91
+              pdf_page: 107
+              subsections:
+                - "no": 1
+                  title: Espaces fibrés principaux
+                  page: 91
+                  pdf_page: 107
+                - "no": 2
+                  title: Revêtements principaux
+                  page: 97
+                  pdf_page: 113
+                - "no": 3
+                  title: Opérations propres et libres de groupes discrets
+                  page: 99
+                  pdf_page: 115
+                - "no": 4
+                  title: Revêtements galoisiens
+                  page: 101
+                  pdf_page: 117
+                - "no": 5
+                  title: Espaces fibrés associés
+                  page: 104
+                  pdf_page: 120
+                - "no": 6
+                  title: Revêtements associés
+                  page: 108
+                  pdf_page: 124
+                - "no": 7
+                  title: Espaces fibrés principaux définis par des cocycles
+                  page: 114
+                  pdf_page: 130
+            - section: 6
+              title: Espaces simplement connexes
+              page: 120
+              pdf_page: 136
+              subsections:
+                - "no": 1
+                  title: Revêtement universel
+                  page: 120
+                  pdf_page: 136
+                - "no": 2
+                  title: Parties convexes d’un espace numérique
+                  page: 122
+                  pdf_page: 138
+                - "no": 3
+                  title: Espaces simplement connexes
+                  page: 124
+                  pdf_page: 140
+                - "no": 4
+                  title: Produit d’un espace par un espace simplement connexe
+                  page: 129
+                  pdf_page: 145
+                - "no": 5
+                  title: Groupes d’homéomorphismes des espaces simplement connexes
+                  page: 133
+                  pdf_page: 149
+          exercises:
+            page: 139
+            pdf_page: 155
+        - book: ta-i-iv-fr
+          chapter: II
+          title: GROUPOÏDES
+          page: 151
+          pdf_page: 167
+          sections:
+            - section: 1
+              title: Carquois
+              page: 151
+              pdf_page: 167
+              subsections:
+                - "no": 1
+                  title: Définition d’un carquois
+                  page: 151
+                  pdf_page: 167
+                - "no": 2
+                  title: Sous-carquois
+                  page: 152
+                  pdf_page: 168
+                - "no": 3
+                  title: Morphismes de carquois
+                  page: 152
+                  pdf_page: 168
+                - "no": 4
+                  title: Produits de carquois
+                  page: 153
+                  pdf_page: 169
+                - "no": 5
+                  title: Chemins et lacets dans un carquois
+                  page: 154
+                  pdf_page: 170
+                - "no": 6
+                  title: Composantes connexes d’un carquois
+                  page: 154
+                  pdf_page: 170
+            - section: 2
+              title: Graphes
+              page: 155
+              pdf_page: 171
+              subsections:
+                - "no": 1
+                  title: Définition d’un graphe
+                  page: 155
+                  pdf_page: 171
+                - "no": 2
+                  title: Orientation d’un graphe
+                  page: 156
+                  pdf_page: 172
+                - "no": 3
+                  title: Graphes orientés et carquois
+                  page: 156
+                  pdf_page: 172
+                - "no": 4
+                  title: Arbres
+                  page: 157
+                  pdf_page: 173
+            - section: 3
+              title: Groupoïdes
+              page: 159
+              pdf_page: 175
+              subsections:
+                - "no": 1
+                  title: Catégories
+                  page: 159
+                  pdf_page: 175
+                - "no": 2
+                  title: Foncteurs
+                  page: 161
+                  pdf_page: 177
+                - "no": 3
+                  title: Groupoïdes
+                  page: 162
+                  pdf_page: 178
+                - "no": 4
+                  title: Orbites d’un groupoïde
+                  page: 162
+                  pdf_page: 178
+                - "no": 5
+                  title: Exemples de groupoïdes
+                  page: 163
+                  pdf_page: 179
+                - "no": 6
+                  title: Sous-groupoïdes
+                  page: 164
+                  pdf_page: 180
+                - "no": 7
+                  title: Opérations d’un groupoïde
+                  page: 167
+                  pdf_page: 183
+                - "no": 8
+                  title: Sous-groupoïdes distingués ; quotients de groupoïdes
+                  page: 168
+                  pdf_page: 184
+                - "no": 9
+                  title: Groupoïde des classes de chemins d’un graphe
+                  page: 171
+                  pdf_page: 187
+                - "no": 10
+                  title: Groupoïdes libres
+                  page: 174
+                  pdf_page: 190
+                - "no": 11
+                  title: Contraction de flèches d’un groupoïde
+                  page: 175
+                  pdf_page: 191
+                - "no": 12
+                  title: Groupe de Poincaré d’un graphe
+                  page: 178
+                  pdf_page: 194
+            - section: 4
+              title: Homotopies
+              page: 180
+              pdf_page: 196
+              subsections:
+                - "no": 1
+                  title: Définition des homotopies
+                  page: 180
+                  pdf_page: 196
+                - "no": 2
+                  title: Homotopismes de groupoïdes
+                  page: 181
+                  pdf_page: 197
+                - "no": 3
+                  title: Cohomotopeur
+                  page: 184
+                  pdf_page: 200
+                - "no": 4
+                  title: Comparaison de deux cohomotopeurs
+                  page: 187
+                  pdf_page: 203
+                - "no": 5
+                  title: Groupes d’isotropie d’un cohomotopeur
+                  page: 192
+                  pdf_page: 208
+            - section: 5
+              title: Coégalisateur
+              page: 196
+              pdf_page: 212
+              subsections:
+                - "no": 1
+                  title: Contraction des flèches d’une homotopie
+                  page: 196
+                  pdf_page: 212
+                - "no": 2
+                  title: Définition du coégalisateur
+                  page: 199
+                  pdf_page: 215
+                - "no": 3
+                  title: Comparaison des groupes d’isotropie du cohomotopeur et du coégalisateur
+                  page: 201
+                  pdf_page: 217
+                - "no": 4
+                  title: Groupe d’isotropie d’un coégalisateur
+                  page: 206
+                  pdf_page: 222
+                - "no": 5
+                  title: Quotient d’un groupoïde par l’action d’un groupe
+                  page: 210
+                  pdf_page: 226
+          exercises:
+            page: 215
+            pdf_page: 231
+        - book: ta-i-iv-fr
+          chapter: III
+          title: HOMOTOPIE ET GROUPOÏDE DE POINCARÉ
+          page: 229
+          pdf_page: 245
+          sections:
+            - section: 1
+              title: Homotopies, homéotopies
+              page: 229
+              pdf_page: 245
+              subsections:
+                - "no": 1
+                  title: Applications continues homotopes
+                  page: 229
+                  pdf_page: 245
+                - "no": 2
+                  title: Homotopies pointées
+                  page: 231
+                  pdf_page: 247
+                - "no": 3
+                  title: Espaces homéotopes
+                  page: 232
+                  pdf_page: 248
+                - "no": 4
+                  title: Homéotopies relatives
+                  page: 234
+                  pdf_page: 250
+                - "no": 5
+                  title: Rétractions et contractions
+                  page: 235
+                  pdf_page: 251
+                - "no": 6
+                  title: Cylindre d’une application
+                  page: 237
+                  pdf_page: 253
+                - "no": 7
+                  title: La propriété d’extension des homotopies
+                  page: 240
+                  pdf_page: 256
+                - "no": 8
+                  title: Attachement d’un espace topologique
+                  page: 247
+                  pdf_page: 263
+                - "no": 9
+                  title: Espace obtenu par contraction d’un sous-espace
+                  page: 251
+                  pdf_page: 267
+                - "no": 10
+                  title: Cône d’une application
+                  page: 253
+                  pdf_page: 269
+            - section: 2
+              title: Homotopie et chemins
+              page: 256
+              pdf_page: 272
+              subsections:
+                - "no": 1
+                  title: Chemins
+                  page: 256
+                  pdf_page: 272
+                - "no": 2
+                  title: Espaces connexes par arcs
+                  page: 258
+                  pdf_page: 274
+                - "no": 3
+                  title: Espaces localement connexes par arcs
+                  page: 260
+                  pdf_page: 276
+                - "no": 4
+                  title: Liens entre connexité et connexité par arcs
+                  page: 264
+                  pdf_page: 280
+                - "no": 5
+                  title: Applications continues par arcs
+                  page: 267
+                  pdf_page: 283
+                - "no": 6
+                  title: Compléments sur les espaces topologiques compacts métrisables
+                  page: 269
+                  pdf_page: 285
+                - "no": 7
+                  title: Propriétés topologiques de l’image d’un chemin
+                  page: 272
+                  pdf_page: 288
+                - "no": 8
+                  title: Caractérisations de l’intervalle
+                  page: 274
+                  pdf_page: 290
+                - "no": 9
+                  title: Chemins injectifs
+                  page: 282
+                  pdf_page: 298
+                - "no": 10
+                  title: Relèvement de chemins
+                  page: 284
+                  pdf_page: 300
+            - section: 3
+              title: Groupoïde de Poincaré
+              page: 289
+              pdf_page: 305
+              subsections:
+                - "no": 1
+                  title: Groupoïde de Poincaré
+                  page: 289
+                  pdf_page: 305
+                - "no": 2
+                  title: Fonctorialité du groupoïde de Poincaré
+                  page: 293
+                  pdf_page: 309
+                - "no": 3
+                  title: Lacets librement homotopes
+                  page: 299
+                  pdf_page: 315
+            - section: 4
+              title: Homotopie et revêtements
+              page: 300
+              pdf_page: 316
+              subsections:
+                - "no": 1
+                  title: Homotopie et revêtements
+                  page: 300
+                  pdf_page: 316
+                - "no": 2
+                  title: Relèvement des chemins
+                  page: 301
+                  pdf_page: 317
+                - "no": 3
+                  title: Opérations du groupoïde de Poincaré dans les revêtements
+                  page: 303
+                  pdf_page: 319
+                - "no": 4
+                  title: Cas des revêtements associés à un revêtement principal
+                  page: 305
+                  pdf_page: 321
+            - section: 5
+              title: Homotopie et revêtements (cas des espaces localement connexes par arcs)
+              page: 308
+              pdf_page: 324
+              subsections:
+                - "no": 1
+                  title: Condition homotopique de relèvement des applications continues
+                  page: 308
+                  pdf_page: 324
+                - "no": 2
+                  title: Opérations du groupe de Poincaré et morphismes de revêtements
+                  page: 310
+                  pdf_page: 326
+                - "no": 3
+                  title: Opérations sans monodromie locale du groupoïde de Poincaré
+                  page: 312
+                  pdf_page: 328
+                - "no": 4
+                  title: Topologie admissible des groupes de Poincaré
+                  page: 315
+                  pdf_page: 331
+          exercises:
+            page: 321
+            pdf_page: 337
+        - book: ta-i-iv-fr
+          chapter: IV
+          title: ESPACES DÉLAÇABLES
+          page: 339
+          pdf_page: 355
+          sections:
+            - section: 1
+              title: Espaces délaçables
+              page: 340
+              pdf_page: 356
+              subsections:
+                - "no": 1
+                  title: Espaces simplement connexes par arcs
+                  page: 340
+                  pdf_page: 356
+                - "no": 2
+                  title: Espaces délaçables
+                  page: 340
+                  pdf_page: 356
+                - "no": 3
+                  title: Revêtement universel d’un espace délaçable
+                  page: 342
+                  pdf_page: 358
+                - "no": 4
+                  title: Exemples
+                  page: 346
+                  pdf_page: 362
+            - section: 2
+              title: Groupes de Poincaré des espaces délaçables
+              page: 351
+              pdf_page: 367
+              subsections:
+                - "no": 1
+                  title: Propriétés des homomorphismes π1 (f, a)
+                  page: 351
+                  pdf_page: 367
+                - "no": 2
+                  title: Applications relativement connexes
+                  page: 353
+                  pdf_page: 369
+                - "no": 3
+                  title: Présentation des groupes de Poincaré
+                  page: 359
+                  pdf_page: 375
+                - "no": 4
+                  title: Compléments sur les espaces polonais
+                  page: 360
+                  pdf_page: 376
+                - "no": 5
+                  title: Relations d’équivalence maigres dans les espaces polonais
+                  page: 363
+                  pdf_page: 379
+                - "no": 6
+                  title: Cardinal des groupes de Poincaré
+                  page: 365
+                  pdf_page: 381
+            - section: 3
+              title: Groupes de Poincaré des groupes topologiques
+              page: 369
+              pdf_page: 385
+              subsections:
+                - "no": 1
+                  title: Prolongement des homomorphismes locaux de groupes
+                  page: 369
+                  pdf_page: 385
+                - "no": 2
+                  title: Espaces de Hopf
+                  page: 373
+                  pdf_page: 389
+                - "no": 3
+                  title: Groupe de Poincaré des groupes topologiques
+                  page: 375
+                  pdf_page: 391
+                - "no": 4
+                  title: Revêtements des groupes topologiques
+                  page: 375
+                  pdf_page: 391
+                - "no": 5
+                  title: Revêtement universel d’un groupe topologique délaçable
+                  page: 379
+                  pdf_page: 395
+            - section: 4
+              title: Théorie de la descente
+              page: 382
+              pdf_page: 398
+              subsections:
+                - "no": 1
+                  title: Données de descente
+                  page: 382
+                  pdf_page: 398
+                - "no": 2
+                  title: Données de descente effectives
+                  page: 384
+                  pdf_page: 400
+                - "no": 3
+                  title: Descente de morphismes
+                  page: 387
+                  pdf_page: 403
+                - "no": 4
+                  title: 'Descente : cas des espaces étalés'
+                  page: 388
+                  pdf_page: 404
+                - "no": 5
+                  title: 'Descente : cas des revêtements'
+                  page: 390
+                  pdf_page: 406
+                - "no": 6
+                  title: Descente de groupoïdes
+                  page: 394
+                  pdf_page: 410
+                - "no": 7
+                  title: Descente par une application étale et surjective
+                  page: 399
+                  pdf_page: 415
+                - "no": 8
+                  title: Groupoïde de Poincaré d’un espace quotient
+                  page: 402
+                  pdf_page: 418
+            - section: 5
+              title: Théorème de van Kampen
+              page: 405
+              pdf_page: 421
+              subsections:
+                - "no": 1
+                  title: Coégalisateur des projections d’un carré fibré
+                  page: 405
+                  pdf_page: 421
+                - "no": 2
+                  title: Recouvrements
+                  page: 409
+                  pdf_page: 425
+                - "no": 3
+                  title: Cas particulier d’un recouvrement formé de deux parties
+                  page: 421
+                  pdf_page: 437
+                - "no": 4
+                  title: Espaces quotients
+                  page: 424
+                  pdf_page: 440
+                - "no": 5
+                  title: Cônes ; contraction d’un sous-espace
+                  page: 425
+                  pdf_page: 441
+                - "no": 6
+                  title: Éclatement et recollement
+                  page: 429
+                  pdf_page: 445
+            - section: 6
+              title: Espaces classifiants
+              page: 437
+              pdf_page: 453
+              subsections:
+                - "no": 1
+                  title: Prolongement des homotopies
+                  page: 437
+                  pdf_page: 453
+                - "no": 2
+                  title: Espaces fibrés localement triviaux de base B × I
+                  page: 440
+                  pdf_page: 456
+                - "no": 3
+                  title: Espaces fibrés principaux de base B × I
+                  page: 443
+                  pdf_page: 459
+                - "no": 4
+                  title: Espaces fibrés universels
+                  page: 446
+                  pdf_page: 462
+                - "no": 5
+                  title: Espace classifiant pour un groupe discret
+                  page: 449
+                  pdf_page: 465
+          exercises:
+            page: 455
+            pdf_page: 471
