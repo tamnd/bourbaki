@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: cfdb6aabf12cb5aa58135944faae194db70d9dfc9553a08a88359b1744905688
+content_sha256: 4014e372bf295b2bfb9d50cf6412bca5a88f2c421aa6a8f632e8a6af0950611e
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -60,7 +60,7 @@ and $c_r(u) = 0$ for $r > m$. By Proposition 7 of III, §8, No. 4, p. 527, the m
 Let $u$ be an endomorphism of M and $u$ the endomorphism of the L[X]module $M[X] = M\otimes_LL[X]$ deduced from $u$ by extension of scalars (II, §5, No. 1, p. 277). Recall (III, §8, No. 11, p. 541, Definition 3 and (50)) that the characteristic polynomial of $u$ is the determinant $\chi_u(X)$ of the L[X]endomorphism $X-u$ of M[X] and that we have the relation
 
 $$
-\chi_u(X) =\sum_r^m_{=0}(-1)^rc_r(u) X^{m-r} \tag{2}
+\chi_u(X) =\sum_{r=0}^m(-1)^rc_r(u) X^{m-r} \tag{2}
 $$
 
 #### Proposition 1 {#alg-viii-s17-prop-1 .statement tag=00KD}
@@ -134,7 +134,7 @@ $$
 where the $u_r$ are endomorphisms of M. By formula (2), relation (10) gives the equality
 
 $$
-m\sum_{r=0}^{-1}(-1)^ru_rX^{m-1-r}(X-u) =\sum_r^m_{=0}(-1)^rc_r(u)X^{m-r} \tag{12}
+m\sum_{r=0}^{-1}(-1)^ru_rX^{m-1-r}(X-u) =\sum_{r=0}^m(-1)^rc_r(u)X^{m-r} \tag{12}
 $$
 
 in the ring End(M)[X]. By identifying the coefficients of the monomials in X on each side, we obtain the relations
@@ -181,7 +181,7 @@ Since the mapping $c_r$ from End(M) to L is a homogeneous polynomial mapping of 
 
 Let B be an algebra over the ring L; suppose that B is a free L-module of rank $m\geqslant 1$, and identify L with the subring $L\cdot 1$ of B. Let $b$ be an element of B. We apply the above to the endomorphism $\gamma (b) :x\mapsto bx$ of the L-module B. Set $\gamma_r(b) =c_r(\gamma (b))$ for $0\leqslant r\leqslant m$; we have, in particular, $\gamma_m(b) = N_{B/L}(b)$ (III, §9, No. 3, p. 543). The characteristic polynomial of $b$ (loc. cit.) can be written as
 
-(16) Pc$_{B/L}(b; X) =\sum_r^m_{=0}(-1)^r\gamma_r(b) X^{m-r}$.
+(16) Pc$_{B/L}(b; X) =\sum_{r=0}^m(-1)^r\gamma_r(b) X^{m-r}$.
 
 Since the mapping $\gamma$ from B to End$_L(B)$ is L-linear, the mapping $\gamma_r$ from B to L is a homogeneous polynomial mapping of degree $r$. In particular, the mapping $b\mapsto N_{B/L}(b)$ from B to L is a homogeneous polynomial mapping of degree $m$.
 
@@ -531,7 +531,7 @@ We denote the $K'$-algebra $K'[T]/(P(T))$ by $K''$ and the canonical class of T 
 
 0 0 $\cdots$ 0 $-a$
 
-1 0 $\cdots$ 0 $-a_{s-}^s_1$
+1 0 $\cdots$ 0 $-a_{s-1}^s$
 
 0 1 $\cdots$ 0 $-a$
 

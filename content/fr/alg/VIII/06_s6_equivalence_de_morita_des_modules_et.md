@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 41
 exercises: 8
-content_sha256: 347987c65f508108b9fe9b1c041a3b37049bdc36376b4c0e260cc8d9122046a3
+content_sha256: 69b37e0a98b24e3e043d957f01fb85d1fbd1e855b55aaf2440dc00f0114c769a
 ---
 
 ## § 6. ÉQUIVALENCE DE MORITA DES MODULES ET DES ALGÈBRES
@@ -348,11 +348,11 @@ Pour tout B-module à gauche V, nous noterons $\theta_V$ l’isomorphisme de B-m
 
 #### Théorème 2 {#alg-viii-s6-thm-2 .statement tag=00S2}
 
-a) Soient V et W des B-modules à gauche. L’application $g\rightarrow 1_P\otimes g$ est une bijection de Hom$_B(V,W)$sur Hom$_A(P\otimes_BV,P\otimes_BW)$. La bijection réciproque associe à tout élément $h$ de Hom$_A(P\otimes_BV,P\otimes_BW)$l’élément $\theta_W\circ (1_Q\otimes h)\circ \theta^-_V^1$ de Hom$_B(V,W)$.
+a) Soient V et W des B-modules à gauche. L’application $g\rightarrow 1_P\otimes g$ est une bijection de Hom$_B(V,W)$sur Hom$_A(P\otimes_BV,P\otimes_BW)$. La bijection réciproque associe à tout élément $h$ de Hom$_A(P\otimes_BV,P\otimes_BW)$l’élément $\theta_W\circ (1_Q\otimes h)\circ \theta^{-1}_V$ de Hom$_B(V,W)$.
 
 b) Pour tout A-module à gauche M l’application $\lambda_M: P\otimes_BQ\otimes_AM\rightarrow M$est un isomorphisme. En particulier, tout A-module à gauche est isomorphe à un module de la forme $P\otimes_BV$, où V est un B-module à gauche.
 
-Soient V et W des B-modules à gauche. D’après le lemme 1 de VIII, p. 97, l’application $\varphi :g\rightarrow 1_P\otimes g$ de Hom$_B(V,W)$ dans Hom$_A(P\otimes_BV,P\otimes_BW)$ est injective. En échangeant les rôles de P et Q (et de A et B), on voit que l’application $\psi :h\rightarrow 1_Q\otimes h$ de Hom$_A(P\otimes_BV,P\otimes_BW)$ dans Hom$_A(Q\otimes_AP\otimes_BV,Q\otimes_AP\otimes_BW)$ est aussi injective. Or le composé $\psi \circ \varphi$ est l’application $g\rightarrow \theta^-_W^1\circ g\circ \theta_V$. Elle est bijective, donc il en de même de $\psi$. Par suite, $\varphi$ est bijective et son application réciproque est l’application $h\rightarrow \theta_W\circ (1_Q\otimes h)\circ \theta^-_V^1$.
+Soient V et W des B-modules à gauche. D’après le lemme 1 de VIII, p. 97, l’application $\varphi :g\rightarrow 1_P\otimes g$ de Hom$_B(V,W)$ dans Hom$_A(P\otimes_BV,P\otimes_BW)$ est injective. En échangeant les rôles de P et Q (et de A et B), on voit que l’application $\psi :h\rightarrow 1_Q\otimes h$ de Hom$_A(P\otimes_BV,P\otimes_BW)$ dans Hom$_A(Q\otimes_AP\otimes_BV,Q\otimes_AP\otimes_BW)$ est aussi injective. Or le composé $\psi \circ \varphi$ est l’application $g\rightarrow \theta^{-1}_W\circ g\circ \theta_V$. Elle est bijective, donc il en de même de $\psi$. Par suite, $\varphi$ est bijective et son application réciproque est l’application $h\rightarrow \theta_W\circ (1_Q\otimes h)\circ \theta^{-1}_V$.
 
 L’assertion b) a déjà été vue.
 

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 239
 statements: 26
 exercises: 17
-content_sha256: 6020f3b61ff41b5f57b660b58845013a596e982f71800914a058f01fab507010
+content_sha256: 4f6d8c11d79ddecf4d03f9e753eb6244fb5b0105824c384ea6652a2ff27bb661
 ---
 
 ## § 12. TENSOR PRODUCTS OF SEMISIMPLE MODULES
@@ -159,7 +159,7 @@ Let us first treat the case when $Z_1$ and $Z_2$ are extensions $L_1$ and $L_2$ 
 
 A) Let us first prove that the radical of $L_1\otimes L_2$ is contained in that of $L_1\otimes \Omega$. Set $\mathfrak{a}=\mathfrak{R}(L_1\otimes L_2)(L_1\otimes \Omega)$; it is an ideal of the commutative ring $L_1\otimes \Omega$, and we must prove that $\mathfrak{a}$ is contained in the radical of $L_1\otimes \Omega$. In other words (VIII, p. 156, Theorem 1), we must prove that for $x\in \mathfrak{a}$, the element $1 +x$ is invertible in $L_1\otimes \Omega$. Now, since Ω is an algebraic extension of $L_2$, there exists an extension $L_3$ of $L_2$, of finite degree, such that $x$ belongs to $\mathfrak{R}(L_1\otimes L_2)(L_1\otimes L_3)$. It obviously suffices to prove that $1 +x$ is invertible in $L_1\otimes L_3$. Now, $C = L_1\otimes L_3$ is a finitely generated module over the ring $B = L_1\otimes L_2$. By the corollary of VIII, p. 175, we have $\mathfrak{R}(B)C\subset \mathfrak{R}$(C), so $x$ belongs to the radical of C and $1 +x$ is invertible in C.
 
-B) Let us prove that the radical of $L_1\otimes \Omega$ consists of nilpotent elements. Denote the characteristic exponent of K by $p$ and the relative $p$-radical (that is, purely inseparable) closure of K in Ω (V, §5, No. 2, p. 25) by P; the field P is perfect. Since P is an algebraic extension of K, we have $L_1(P) = L_1[P]$ (V, §3, No. 2, p. 18, Corollary 1). Let $\mathfrak{b}$ be the kernel of the canonical homomorphism from $L_1\otimes P$ to the field $P_1= L_1[P]$. Let $x\in \mathfrak{b}$; there exist elements $y_1, . . . , y_n$ of $L_1$ and elements $z_1, . . . , z_n$ of P such that $x=\sum^n_{i=1}y_i\otimes z_i$ and $\sum_i^n_{=1}y_iz_i= 0$. Since P is $p$-radical over K, there exists a power $q$ of $p$ such that $z^q_1, . . . , z_n^q$ belong to K. We then have
+B) Let us prove that the radical of $L_1\otimes \Omega$ consists of nilpotent elements. Denote the characteristic exponent of K by $p$ and the relative $p$-radical (that is, purely inseparable) closure of K in Ω (V, §5, No. 2, p. 25) by P; the field P is perfect. Since P is an algebraic extension of K, we have $L_1(P) = L_1[P]$ (V, §3, No. 2, p. 18, Corollary 1). Let $\mathfrak{b}$ be the kernel of the canonical homomorphism from $L_1\otimes P$ to the field $P_1= L_1[P]$. Let $x\in \mathfrak{b}$; there exist elements $y_1, . . . , y_n$ of $L_1$ and elements $z_1, . . . , z_n$ of P such that $x=\sum^n_{i=1}y_i\otimes z_i$ and $\sum_{i=1}^ny_iz_i= 0$. Since P is $p$-radical over K, there exists a power $q$ of $p$ such that $z^q_1, . . . , z_n^q$ belong to K. We then have
 
 $nnnq$
 

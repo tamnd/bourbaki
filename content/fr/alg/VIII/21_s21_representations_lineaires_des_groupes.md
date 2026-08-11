@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: 80dd7529d12dba3cf7654ed79c564c0f34292242afd1e8d15f4f1ef57cbc0aa0
+content_sha256: d7e3e3fb03067fed80d812c20ecaec5423bb7471560c5404774090b7dff01702
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -446,12 +446,12 @@ $d^2_{\lambda}|G|^{-1}_g\sum_{\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}
 
 On a remarqué plus haut que $d_{\lambda}.1\not= 0$ dans le corps K ; on en déduit
 
-(20) $|G|^{-1}_g\sum_{\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d^-_{\lambda}^1$ Tr($uv$).
+(20) $|G|^{-1}_g\sum_{\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d^{-1}_{\lambda}$ Tr($uv$).
 
 Spécialisons cette relation au cas où $u$ et $v$ sont de rang $\leqslant 1$; on obtient
 
 $$
-|G|^{-1}_g\sum_{\in G}\langle x^*, \pi_{\lambda}(g)x\rangle  \langle y^*, \pi_{\lambda}(g^{-1})y\rangle =d^-_{\lambda}^1\langle x^*, y\rangle \langle y^*, x\rangle \tag{21}
+|G|^{-1}_g\sum_{\in G}\langle x^*, \pi_{\lambda}(g)x\rangle  \langle y^*, \pi_{\lambda}(g^{-1})y\rangle =d^{-1}_{\lambda}\langle x^*, y\rangle \langle y^*, x\rangle \tag{21}
 $$
 
 pour $x,y$ dans $V_{\lambda}$ et $x^*, y^*$ dans le dual $V^*_{\lambda}$ de $V_{\lambda}$.
@@ -459,7 +459,7 @@ pour $x,y$ dans $V_{\lambda}$ et $x^*, y^*$ dans le dual $V^*_{\lambda}$ de $V_{
 Pour tout $\lambda \in \widehat{G}$, soit $(e_{\lambda ,j})_{1\leqslant j\leqslant d_{\lambda}}$ une base de $V_{\lambda}$; notons $(\pi_{ij}^{\lambda}(g))$ la matrice de l’endomorphisme $\pi_{\lambda}(g)$ de $V_{\lambda}$ par rapport à cette base. Si l’on note $(e^*_{\lambda ,i})_{1\leqslant i\leqslant d_{\lambda}}$ la base de $V^*_{\lambda}$ duale de $(e_{\lambda ,j})$, on a $\pi_{ij}^{\lambda}(g) =\langle e^*_{\lambda ,i}, \pi_{\lambda}(g)e_{\lambda ,j}\rangle$, d’où
 
 $$
-|G|^{-1}_g\sum_{\in G}\pi^{\lambda}_{ij}(g)\pi^{\lambda}_{k\ell}(g^{-1}) =d^-_{\lambda}^1\delta_{i\ell}\delta_{jk} \tag{22}
+|G|^{-1}_g\sum_{\in G}\pi^{\lambda}_{ij}(g)\pi^{\lambda}_{k\ell}(g^{-1}) =d^{-1}_{\lambda}\delta_{i\ell}\delta_{jk} \tag{22}
 $$
 
 Soient maintenant $\lambda$ et $\mu$ deux éléments distincts de $\widehat{G}$ et soient $u\in$ End$_K(V_{\lambda})$ et $v\in$ End$_K(V_{\mu})$. À nouveau d’après la relation (15), on a
@@ -600,7 +600,7 @@ $$
 
 L’endomorphisme $u^{\natural}$ de $V_{\lambda}$ est K[G]-linéaire ; d’après le lemme de Schur (VIII, p. 43, th. 1$),u^{\natural}$ est une homothétie ; comme $u$ et $u^{\natural}$ ont la même trace, on a donc
 
-$u^{\natural}=d^-_{\lambda}^1$ Tr($u$) $1_{V_{\lambda}}$.
+$u^{\natural}=d^{-1}_{\lambda}$ Tr($u$) $1_{V_{\lambda}}$.
 
 Soient $u$ et $v$ des endomorphismes de $V_{\lambda}$; on en déduit
 
@@ -617,19 +617,19 @@ $$
 pour tout $g\in G$, ce qui entraîne que $f$ est une fonction centrale. D’après la proposition 5, il existe une famille $(a_{\lambda})$ d’éléments de K telle que $f=\sum_{\lambda\in\widehat{G}}a_{\lambda}\chi_{\lambda}$. Remplaçons $f$ par cette expression dans la formule (34) ; tenant compte de ce que chacun des caractères $\chi_{\lambda}$ satisfait aussi à cette relation, on trouve
 
 $$
-\sum a_{\lambda}a_{\mu}\chi_{\lambda}(g)\chi_{\mu}(g') =\sum a_{\lambda}d^-_{\lambda}^1f(1)\chi_{\lambda}(g)\chi_{\lambda}(g') \tag{37}
+\sum a_{\lambda}a_{\mu}\chi_{\lambda}(g)\chi_{\mu}(g') =\sum a_{\lambda}d^{-1}_{\lambda}f(1)\chi_{\lambda}(g)\chi_{\lambda}(g') \tag{37}
 $$
 
 pour $g, g'\in G$. La relation précédente s’écrit également$^{\lambda ,\mu\in\widehat{G}\lambda\in\widehat{G}}$
 
 $$
-\sum_{\lambda ,\mu}(a_{\lambda}a_{\mu}-\delta_{\lambda \mu}a_{\lambda}d^-_{\lambda}^1f(1))\chi_{\lambda}(g)\chi_{\mu}(g') = 0 \tag{38}
+\sum_{\lambda ,\mu}(a_{\lambda}a_{\mu}-\delta_{\lambda \mu}a_{\lambda}d^{-1}_{\lambda}f(1))\chi_{\lambda}(g)\chi_{\mu}(g') = 0 \tag{38}
 $$
 
 pour $g, g'\in G$. Or les fonctions $\chi_{\lambda}$, pour $\lambda \in \widehat{G}$, sont linéairement indépendantes (prop. 5 de VIII, p. 401) ; on en déduit que
 
 $$
-a_{\lambda}a_{\mu}=\delta_{\lambda \mu}a_{\lambda}d^-_{\lambda}^1f(1)
+a_{\lambda}a_{\mu}=\delta_{\lambda \mu}a_{\lambda}d^{-1}_{\lambda}f(1)
 $$
 
 pour $\lambda , \mu \in \widehat{G}$. En particulier, $a_{\lambda}a_{\mu}= 0$ dès que $\lambda \not=\mu$. Par suite, il existe au plus un élément $\lambda$ de $\widehat{G}$ tel que $a_{\lambda}\not= 0$ et l’on a $f=a_{\lambda}\chi_{\lambda}$, d’où (i).
@@ -742,7 +742,7 @@ $$
 \alpha_{\lambda ,C}=|G|^{-1}d_{\lambda}\chi_{\lambda}(C^{-1}) \tag{45}
 $$
 
-Pour $C\in \mathscr{C}$ et $\lambda \in \mathscr{S}_K$(G), posons $\beta_{C,\lambda}=|G|d^-_{\lambda}^1d(C)^{-1}\chi_{\lambda}(C)$. La matrice $(\alpha_{\lambda ,C})$ a ses éléments dans $\mathscr{O}$ et il résulte de la formule (31) de VIII, p. 401 que sa matrice inverse est la matrice $(\beta_{C,\lambda})$, qui a aussi ses éléments dans $\mathscr{O}$ en vertu de la prop. 9 de VIII, p. 405. Par conséquent, la famille $(e_{\lambda})$ est une base du $\mathscr{O}$-module $Z(\mathscr{O}[G])$.
+Pour $C\in \mathscr{C}$ et $\lambda \in \mathscr{S}_K$(G), posons $\beta_{C,\lambda}=|G|d^{-1}_{\lambda}d(C)^{-1}\chi_{\lambda}(C)$. La matrice $(\alpha_{\lambda ,C})$ a ses éléments dans $\mathscr{O}$ et il résulte de la formule (31) de VIII, p. 401 que sa matrice inverse est la matrice $(\beta_{C,\lambda})$, qui a aussi ses éléments dans $\mathscr{O}$ en vertu de la prop. 9 de VIII, p. 405. Par conséquent, la famille $(e_{\lambda})$ est une base du $\mathscr{O}$-module $Z(\mathscr{O}[G])$.
 
 Les éléments $\Phi (u_C) =\sum_{g\in C}g$ de $K'[G]$ forment une base sur $K'$ du centre $Z(K'[G])$ de l’anneau $K'[G]$. On a
 
@@ -919,7 +919,7 @@ Comme $\widehat{\tau}\circ \mathscr{F}=\tau$ les formules (53) et (55) entraîne
 Les relations d’orthogonalité de Schur (VIII, p. 399) peuvent être reformulées à l’aide des produits scalaires hilbertiens. Ainsi, les relations (21) et (24) donnent les assertions suivantes. Pour $\lambda \in \widehat{G}$ et pour $x, x', y, y'$ dans $V_{\lambda}$, on a
 
 $$
-|G|^{-1}_g\sum_{\in G}\langle x|\pi_{\lambda}(g)x'\rangle_{\lambda}\langle y|\pi_{\lambda}(g)y'\rangle_{\lambda}=d^-_{\lambda}^1\langle x|y\rangle_{\lambda}\langle x'|y'\rangle_{\lambda} \tag{57}
+|G|^{-1}_g\sum_{\in G}\langle x|\pi_{\lambda}(g)x'\rangle_{\lambda}\langle y|\pi_{\lambda}(g)y'\rangle_{\lambda}=d^{-1}_{\lambda}\langle x|y\rangle_{\lambda}\langle x'|y'\rangle_{\lambda} \tag{57}
 $$
 
 Si $\lambda$ et $\mu$ sont deux éléments distincts de $\widehat{G}$, pour $x, x'$ dans $V_{\lambda}$ et $y, y'$ dans $V_{\mu}$, on a

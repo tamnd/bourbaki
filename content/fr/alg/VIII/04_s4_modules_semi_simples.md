@@ -45,7 +45,7 @@ subsections:
       pdf_page: 78
 statements: 43
 exercises: 8
-content_sha256: 82f9d8ee7f6433d96853b9b88769963550a4d656831f6eb560f038788c4aab5e
+content_sha256: 60a1dc0d21b303fc354245a8107f234898dd34bcc0ff20ab7a348c4e787e7d4c
 ---
 
 ## § 4. MODULES SEMI-SIMPLES
@@ -606,7 +606,7 @@ Si l’ensemble I est fini, M possède les propriétés (i) , (ii) , (iii) et (i
 
 Soit M un A-module semi-simple, somme directe d’une famille $(M_i)_{i\in I}$ de sous-modules simples. Pour tout $\lambda \in \mathscr{S}$, on note $I(\lambda )$l’ensemble des indices $i\in I$tels que $M_i$ soit de classe $\lambda$. Le cardinal de $I(\lambda )$est égal à la dimension du $D_{\lambda}$-espace vectoriel à gauche Hom$_A(S_{\lambda},M)$.
 
-Le composant isotypique de type $\lambda$ de A est isomorphe à $S^{(I(}_{\lambda}^{\lambda))}$ (VIII, p. 61, prop. 4 b)). Le $D_{\lambda}$-espace vectoriel Hom$_A(S_{\lambda},M)$ s’identifie à Hom$_A(S_{\lambda},M_{\lambda})$, donc est isomorphe à $D^{(I(}_{\lambda}^{\lambda))}$ (VIII, p. 53). Cela prouve la proposition.
+Le composant isotypique de type $\lambda$ de A est isomorphe à $S^{(I(\lambda))}_{\lambda}$ (VIII, p. 61, prop. 4 b)). Le $D_{\lambda}$-espace vectoriel Hom$_A(S_{\lambda},M)$ s’identifie à Hom$_A(S_{\lambda},M_{\lambda})$, donc est isomorphe à $D^{(I(\lambda))}_{\lambda}$ (VIII, p. 53). Cela prouve la proposition.
 
 Tout module simple est primordial (VIII, p. 41), donc tout module semi-simple est semi-primordial. Soit M un A-module semi-simple et soit $\lambda \in \mathscr{S}$. On appelle multiplicité de $\lambda$ dans M la multiplicité primordiale $[M :\lambda ]$ de $\lambda$ dans M définie en VIII, p. 32. La prop. 11 se traduit par l’égalité
 

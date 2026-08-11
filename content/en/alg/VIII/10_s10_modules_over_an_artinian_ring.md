@@ -26,7 +26,7 @@ subsections:
       pdf_page: 192
 statements: 12
 exercises: 11
-content_sha256: 123a9a24186c6745ea5d0fe13afcfd30934d711e11e3d092d322373942c307bf
+content_sha256: 643b4db3c7a842dfd2d56687032c1f67ff5b8a334c0a8205d99847933738d49e
 ---
 
 ## § 10. MODULES OVER AN ARTINIAN RING
@@ -123,17 +123,17 @@ Let A be a left Artinian ring and $\mathfrak{r}$ its radical. Denote the set of 
 
 Let A be a left Artinian ring and $\mathfrak{r}$ its radical. Let P be a projective A-module.
 
-a) The A-module $P = P/\mathfrak{r}P$ is semisimple, and the A-module P is isomorphic to $\bigoplus_{\lambda\in\mathscr{S}}P^{([P:}_{\lambda}^{\lambda])}$.
+a) The A-module $P = P/\mathfrak{r}P$ is semisimple, and the A-module P is isomorphic to $\bigoplus_{\lambda\in\mathscr{S}}P^{([P:\lambda])}_{\lambda}$.
 
 b) Let $(Q_i)_{i\in I}$ be a family of indecomposable projective submodules of P with direct sum P. Then for every $\lambda \in \mathscr{S}$, the cardinal of the set $I(\lambda )$ of $i\in I$ such that $Q_i$ is isomorphic to $P_{\lambda}$ is equal to $[P :\lambda ]$.
 
-The fact that P is semisimple follows from Proposition 2 (VIII, p. 174). The A-module $Q =\oplus_{\lambda\in\mathscr{S}}P^{([P:}_{\lambda}^{\lambda])}$ is projective. Since $P_{\lambda}/\mathfrak{r}P_{\lambda}$ is isomorphic to $S_{\lambda}$, the quotient $Q/\mathfrak{r}Q$ is isomorphic to $\oplus_{\lambda\in\mathscr{S}}S^{([P:}_{\lambda}^{\lambda])}$, that is, to $P = P/\mathfrak{r}P$. By Proposition 5, the A-modules P and Q are isomorphic.
+The fact that P is semisimple follows from Proposition 2 (VIII, p. 174). The A-module $Q =\oplus_{\lambda\in\mathscr{S}}P^{([P:\lambda])}_{\lambda}$ is projective. Since $P_{\lambda}/\mathfrak{r}P_{\lambda}$ is isomorphic to $S_{\lambda}$, the quotient $Q/\mathfrak{r}Q$ is isomorphic to $\oplus_{\lambda\in\mathscr{S}}S^{([P:\lambda])}_{\lambda}$, that is, to $P = P/\mathfrak{r}P$. By Proposition 5, the A-modules P and Q are isomorphic.
 
 Suppose given a family $(Q_i)_{i\in I}$ of projective and indecomposable submodules with direct sum P. By Proposition 5, the A-module $Q_i/\mathfrak{r}Q_i$ is simple for every $i\in I$. For $\lambda \in \mathscr{S}$, denote by $I(\lambda )$ the set of $i\in I$ such that $Q_i/\mathfrak{r}Q_i$ is isomorphic to $S_{\lambda}$, hence to $P_{\lambda}/\mathfrak{r}P_{\lambda}$; it is also the set of $i\in I$ such that $Q_i$ is isomorphic to $P_{\lambda}$. Since $P = P/\mathfrak{r}P$ is the direct sum of the family $(Q_i/\mathfrak{r}Q_i)_{i\in I}$, we have Card(I($\lambda$ )) $= [P :\lambda ]$ by Theorem 1 of VIII, p. 32.
 
 #### Example {#alg-viii-s10-n3-exa-1 .statement tag=00CG}
 
-Take P equal to $A_s$. For $\lambda \in \mathscr{S}$, denote the opposite field of the commutant of the simple A-module $S_{\lambda}$ by $D_{\lambda}$ and the dimension of $S_{\lambda}$ viewed as a right vector space over the field $D_{\lambda}$ by $m(\lambda )$. We know that $m(\lambda )$ is equal to the multiplicity $[A_s/\mathfrak{r}A_s:\lambda ]$ (VIII, p. 143, Proposition 11). Consequently, the A-module $A_s$ is isomorphic to $\oplus_{\lambda\in\mathscr{S}}P^m_{\lambda}^{(\lambda)}$.
+Take P equal to $A_s$. For $\lambda \in \mathscr{S}$, denote the opposite field of the commutant of the simple A-module $S_{\lambda}$ by $D_{\lambda}$ and the dimension of $S_{\lambda}$ viewed as a right vector space over the field $D_{\lambda}$ by $m(\lambda )$. We know that $m(\lambda )$ is equal to the multiplicity $[A_s/\mathfrak{r}A_s:\lambda ]$ (VIII, p. 143, Proposition 11). Consequently, the A-module $A_s$ is isomorphic to $\oplus_{\lambda\in\mathscr{S}}P^{m(\lambda)}_{\lambda}$.
 
 ### Exercises {#alg-viii-s10-exercises}
 

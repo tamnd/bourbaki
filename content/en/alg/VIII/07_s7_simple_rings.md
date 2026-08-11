@@ -30,7 +30,7 @@ subsections:
       pdf_page: 143
 statements: 24
 exercises: 16
-content_sha256: 8e72e56cf19f6c43c8fa01bc1d234ca41dc730c58d7fb9b7e0fe9d9222a7ca15
+content_sha256: 1ee3d2e054ca2baa5e68eda080a1ea2d851fe5647449be475f94805231c82e8e
 ---
 
 ## § 7. SIMPLE RINGS
@@ -167,7 +167,7 @@ Let A be a simple ring. An A-module M is free if and only if its length is divis
 
 Suppose that M is free, and let $(e_i)_{i\in I}$ be a basis of M. The A-module M is the direct sum of the A-modules $Ae_i$, which are each isomorphic to $A_s$. Set $r=$ long$_A(A_s)$; this is an integer greater than or equal to 1 (VIII, p. 119, Proposition 1). We have long$_A(M) =r$ Card(I) by formula (13) of VIII, p. 73.
 
-Conversely, suppose that the cardinal long$_A(M)$ is divisible by $r$. Let $\mathfrak{a}$ be the cardinal such that long$_A(M) =r\mathfrak{a}$. Then the A-module M has the same length as $A^(_s^{\mathfrak{a})}$, hence is isomorphic to it by Proposition 2. This proves that M is free.
+Conversely, suppose that the cardinal long$_A(M)$ is divisible by $r$. Let $\mathfrak{a}$ be the cardinal such that long$_A(M) =r\mathfrak{a}$. Then the A-module M has the same length as $A^{(\mathfrak{a})}_s$, hence is isomorphic to it by Proposition 2. This proves that M is free.
 
 #### Proposition 4 {#alg-viii-s7-prop-4 .statement tag=008F}
 

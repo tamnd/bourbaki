@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: b9175533a4f2379a92e4b21ed41f80d01d6609af2245d38e588f8ded6f01a208
+content_sha256: 389167b74f75d049c2ec961babd0124f4e6c6b6e1e3721a154859cd3f500011d
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -612,13 +612,13 @@ Finally, formulas (16) and (17) imply that Θ(A) admits $\varepsilon$ as a couni
 Let $(V, \pi )$ be a finite-dimensional linear representation of the algebra A. Let us introduce a basis $(e_1, . . . , e_n)$ of V and the dual basis $(e^*_1, . . . , e^*_n)$ of $V^*$. By the proof of Lemma 2, we have the relation
 
 $$
-c(c_{\pi}(x, x^*)) =\sum_k^n_{=1}c_{\pi}(e_k, x^*)\otimes c_{\pi}(x, e^*_k) \tag{19}
+c(c_{\pi}(x, x^*)) =\sum_{k=1}^nc_{\pi}(e_k, x^*)\otimes c_{\pi}(x, e^*_k) \tag{19}
 $$
 
 for $x\in V$ and $x^*\in V^*$. For $1\leqslant i, j\leqslant n$, set $\pi_{ij}=c_{\pi}(e_j, e^*_i)$. For every $a\in A$, the matrix of $\pi (a)$ with respect to the basis $(e_1, . . . , e_n)$ of V is equal to $(\pi_{ij}(a))$. For $1\leqslant i\leqslant n$ and $1\leqslant j\leqslant n$, we then have
 
 $$
-c(\pi_{ij}) =\sum_k^n_{=1}\pi_{ik}\otimes \pi_{kj} \tag{20}
+c(\pi_{ij}) =\sum_{k=1}^n\pi_{ik}\otimes \pi_{kj} \tag{20}
 $$
 
 #### Definition 3 {#alg-viii-s20-def-3 .statement tag=00N3}

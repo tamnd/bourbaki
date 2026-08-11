@@ -37,7 +37,7 @@ subsections:
       pdf_page: 345
 statements: 31
 exercises: 7
-content_sha256: b9634ee5e08be21d698f37ef6fdb5ac8a82f2817fee987456b8d1b6d148de5a4
+content_sha256: 4f7f076ba392a9bdfbfecc3859411c4b705573b22582fd9ab07f4380e948d67d
 ---
 
 ## § 17. NORMES ET TRACES RÉDUITES
@@ -57,7 +57,7 @@ et $c_r(u) = 0$ pour $r > m$. D’après la prop. 7 de III, p. 94, L’applicati
 Soient $u$ un endomorphisme de M et $u$ l’endomorphisme du L[X]-module M[X] = $M\otimes_LL[X]$ déduit de $u$ par extension des scalaires (II, p. 83). On rappelle (III, p. 107, déf. 3 et (50)) que le polynôme caractéristique de $u$ est le déterminant $\chi_u(X)$ du L[X]-endomorphisme $X-u$ de M[X] et que l’on a la relation
 
 $$
-\chi_u(X) =\sum_r^m_{=0}(-1)^rc_r(u) X^{m-r} \tag{2}
+\chi_u(X) =\sum_{r=0}^m(-1)^rc_r(u) X^{m-r} \tag{2}
 $$
 
 #### Proposition 1 {#alg-viii-s17-prop-1 .statement tag=00KD}
@@ -133,7 +133,7 @@ $$
 où les $u_r$ sont des endomorphismes de M. D’après la formule (2) de VIII, p. 329, la relation (10) fournit l’égalité
 
 $$
-(^m\sum_{r=0}^{-1}(-1)^ru_rX^{m-1-r})(X-u) =\sum_r^m_{=0}(-1)^rc_r(u)X^{m-r} \tag{12}
+(^m\sum_{r=0}^{-1}(-1)^ru_rX^{m-1-r})(X-u) =\sum_{r=0}^m(-1)^rc_r(u)X^{m-r} \tag{12}
 $$
 
 dans l’anneau End(M)[X]. Identifiant les coefficients des monômes en X, on obtient les relations suivantes
@@ -178,7 +178,7 @@ Comme l’application $c_r$ de End(M) dans L est polynomiale homogène de degré
 
 Soit B une algèbre sur l’anneau L ; on suppose que B est un L-module libre de dimension $m\geqslant 1$ et l’on identifie L au sous-anneau $L\cdot 1$ de B. Soit $b$ un élément de B. Appliquons ce qui précède à l’endomorphisme $\gamma (b) :x\rightarrow bx$ du L-module B. Posons $\gamma_r(b) =c_r(\gamma (b))$ pour $0\leqslant r\leqslant m$; on a en particulier $\gamma_n(b) = N_{B/L}(b)$ (III, p. 110). Le polynôme caractéristique de $b($loc. cit.) s’écrit sous la forme
 
-(16) Pc$_{B/L}(b; X) =\sum_r^m_{=0}(-1)^r\gamma_r(b) X^{m-r}$
+(16) Pc$_{B/L}(b; X) =\sum_{r=0}^m(-1)^r\gamma_r(b) X^{m-r}$
 
 Comme l’application $\gamma$ de B dans End$_L(B)$ est L-linéaire, l’application $\gamma_r$ de B dans L est polynomiale homogène de degré $r$; en particulier, l’application $b\rightarrow N_{B/L}(b)$ de B dans L est polynomiale homogène de degré $m$.
 

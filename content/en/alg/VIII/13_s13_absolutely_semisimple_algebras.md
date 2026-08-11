@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: 2b2df1935eef83b023e0e5344d901fff7181e2e58ce67ab1c95a25a3a95c0d2b
+content_sha256: b15c17c2b8a8011674e1e0212ee656622737d9e5d5916737927d3a7664b14eb5
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -123,7 +123,7 @@ Denote the characteristic exponent of K by $p$. Let $a$ be an element of D. The 
 
 #### Corollary {#alg-viii-s13-n2-cor-1 .statement tag=00FE}
 
-Let K be a separably closed field and A a semisimple algebra of finite degree over K. Then there exist an integer $r\geqslant 0$, strictly positive integers $n_1, . . . , n_r$, and extensions $K_1, . . . ,K_r$ of K of finite degree such that A is isomorphic to the algebra $\prod_i^r_{=1}\mathbf{M}_{n_i}(K_i)$.
+Let K be a separably closed field and A a semisimple algebra of finite degree over K. Then there exist an integer $r\geqslant 0$, strictly positive integers $n_1, . . . , n_r$, and extensions $K_1, . . . ,K_r$ of K of finite degree such that A is isomorphic to the algebra $\prod_{i=1}^r\mathbf{M}_{n_i}(K_i)$.
 
 By the structure theorem for semisimple algebras (VIII, p. 135, Theorem 1), A is isomorphic to an algebra $\prod^r_{i=1}\mathbf{M}_{n_i}(D_i)$, where $r$ is an integer $\geqslant 0,n_1, . . . , n_r$ are strictly positive integers, and $D_1, . . . ,D_r$ are K-algebras of finite degree that are fields. Since the field K is separably closed, each field $D_i$ is commutative by Proposition 3; the corollary follows.
 
@@ -207,7 +207,7 @@ Now suppose that $A_2$ is absolutely semisimple. Let L be an extension of K. The
 
 #### Corollary 2 {#alg-viii-s13-lem-4-cor-2 .statement tag=00FL}
 
-Let K be a separably closed field, and let A be an absolutely semisimple K-algebra. Then there exist an integer $r\geqslant 0$ and strictly positive integers $n_1, . . . , n_r$ such that the algebra A is isomorphic to the algebra $\prod_i^r_{=1}\mathbf{M}_{n_i}(K)$.
+Let K be a separably closed field, and let A be an absolutely semisimple K-algebra. Then there exist an integer $r\geqslant 0$ and strictly positive integers $n_1, . . . , n_r$ such that the algebra A is isomorphic to the algebra $\prod_{i=1}^r\mathbf{M}_{n_i}(K)$.
 
 By Theorem 1, A is isomorphic to an algebra of the form $\prod^r_{i=1}\mathbf{M}_{n_i}(D_i)$ for an integer $r\geqslant 0$, integers $n_1, . . . , n_r$, and K-algebras of finite degree $D_1, . . . ,D_r$ that are fields and whose centers are separable extensions of K and therefore equal to K. By Proposition 3 of VIII, p. 231, we have $D_i= K$ for $i\in [1, r]$.
 
@@ -350,17 +350,17 @@ We denote the mapping $\varepsilon : B_0\rightarrow A$ by $d_0=d^0_0$.
 Let $n$ be an integer $\geqslant 1$. For $0\leqslant i < j\leqslant n$, we have
 
 $$
-d_n^i_{-1}\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \tag{6}
+d_{n-1}^i\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \tag{6}
 $$
 
 and from this we deduce
 
 $$
-d_{n-1}\circ d_n=\sum(-1)^{i+j}d_n^i_{-1}\circ d_n^j+\sum(-1)^{i+j}d_n^i_{-1}\circ d_n^j
+d_{n-1}\circ d_n=\sum(-1)^{i+j}d_{n-1}^i\circ d_n^j+\sum(-1)^{i+j}d_{n-1}^i\circ d_n^j
 $$
 
 $$
-=^0_0^{\leqslant}_{\leqslant}\sum^{i<j}_{i<j}^{\leqslant}_{\leqslant}^n_n(-1)^{i+j}d_n^{j-}_-^1_1\circ d_n^i+^0_0^{\leqslant}_{\leqslant}^j_j^{\leqslant}_{\leqslant}\sum^i_i^{\leqslant}_{\leqslant}^n_n^-_-^1_1(-1)^{i+j}d_n^i_{-1}\circ d_n^j
+=^0_0^{\leqslant}_{\leqslant}\sum^{i<j}_{i<j}^{\leqslant}_{\leqslant}^n_n(-1)^{i+j}d_n^{j-}_-^1_1\circ d_n^i+^0_0^{\leqslant}_{\leqslant}^j_j^{\leqslant}_{\leqslant}\sum^i_i^{\leqslant}_{\leqslant}^n_n^-_-^1_1(-1)^{i+j}d_{n-1}^i\circ d_n^j
 $$
 
 and consequently
@@ -476,13 +476,13 @@ $$
 $$
 
 $$
-= (d^0_{n+1}\circ d^1_{n+2})(e\otimes x)-^n\sum_{i=2}^{+2}(-1)^i(d_n^{i-}_{+1}^1\circ d^1_{n+2})(e\otimes x)
+= (d^0_{n+1}\circ d^1_{n+2})(e\otimes x)-^n\sum_{i=2}^{+2}(-1)^i(d_{n+1}^{i-1}\circ d^1_{n+2})(e\otimes x)
 $$
 
 so, by formula (6),
 
 $$
-(d_{n+1}\circ h_n)(x) = (d^0_{n+1}\circ d^0_{n+2})(e\otimes x)-^n\sum_{i=2}^{+2}(-1)^i(d^1_{n+1}\circ d_n^i_{+2})(e\otimes x)
+(d_{n+1}\circ h_n)(x) = (d^0_{n+1}\circ d^0_{n+2})(e\otimes x)-^n\sum_{i=2}^{+2}(-1)^i(d^1_{n+1}\circ d_{n+2}^i)(e\otimes x)
 $$
 
 But we have
@@ -494,7 +494,7 @@ $$
 by property (ii) of Proposition 5 of VIII, p. 236 and, for $i\geqslant 2$,
 
 $$
-d^i_{n+2}(e\otimes x) =e\otimes d^i_n^{-2}(x)
+d^i_{n+2}(e\otimes x) =e\otimes d^{i-2}_n(x)
 $$
 
 which gives

@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: f1b713beaf2dd6333bfc3069e3739a312427804b54b72e2994047d885e3bf884
+content_sha256: 0fc401ee0d7604364efa2d8b576edc5568c0ed1f93868cd7db65de2c141d107f
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -172,7 +172,7 @@ $$
 n\sum_{i=0}^{-1}(-1)^i\varphi (E_i) + (-1)^n\varphi (F) = 0 \tag{6}
 $$
 
-De (5) et (6), on tire aussitôt $\sum^n_{i=0}^{+1}(-1)^i\varphi (E_i) = 0$ et le corollaire en résulte.
+De (5) et (6), on tire aussitôt $\sum^{n+1}_{i=0}(-1)^i\varphi (E_i) = 0$ et le corollaire en résulte.
 
 #### Proposition 2 {#alg-viii-s11-prop-2 .statement tag=00D0}
 

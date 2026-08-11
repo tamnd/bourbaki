@@ -29,7 +29,7 @@ subsections:
       pdf_page: 130
 statements: 24
 exercises: 16
-content_sha256: 60ade44d4ee6ddd9769815ec4e639748f5bac60c8a2f53c685bfea1e88d7a144
+content_sha256: 7f69f7525d807c2cda5f4adebb8798edbb2ba003a223d79bd8c63453315a79ff
 ---
 
 ## § 7. ANNEAUX SIMPLES
@@ -166,7 +166,7 @@ Soit A un anneau simple. Pour qu’un A-module M soit libre, il faut et il suffi
 
 Supposons que M soit libre et soit $(e_i)_{i\in I}$ une base de M. Le A-module M est somme directe des A-modules $Ae_i$, eux-mêmes isomorphes à $A_s$. Posons $r=$ long$_A(A_s)$; c’est un entier supérieur ou égal à 1 (VIII, p. 115, prop. 1). On a long$_A(M) =r$ Card(I) d’après la formule (13) de VIII, p. 68.
 
-Réciproquement, supposons que le cardinal long$_A(M)$ soit divisible par $r$. Soit $\mathfrak{a}$ le cardinal tel que long$_A(M) =r\mathfrak{a}$. Alors le A-module M a même longueur que $A^(_s^{\mathfrak{a})}$, donc lui est isomorphe d’après la prop. 2. Ceci prouve que M est libre.
+Réciproquement, supposons que le cardinal long$_A(M)$ soit divisible par $r$. Soit $\mathfrak{a}$ le cardinal tel que long$_A(M) =r\mathfrak{a}$. Alors le A-module M a même longueur que $A^{(\mathfrak{a})}_s$, donc lui est isomorphe d’après la prop. 2. Ceci prouve que M est libre.
 
 #### Proposition 4 {#alg-viii-s7-prop-4 .statement tag=008F}
 

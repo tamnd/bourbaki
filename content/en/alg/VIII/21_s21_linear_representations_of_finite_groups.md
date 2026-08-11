@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: fc96ea9d908320e547eca3937cfdecee4f1c6568d22689b7db3096b4ca74a695
+content_sha256: 86e10c5c95efe735bb807b7c68296ac5f9953abf696d0687c901c1629d6546e6
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -573,7 +573,7 @@ $$
 
 The endomorphism $u^{\natural}$ of $V_{\lambda}$ is K[G]-linear. By Schur’s lemma (VIII, p. 47, Theorem 1$),u^{\natural}$ is a homothety. Since $u$ and $u^{\natural}$ have the same trace, we therefore have
 
-$u^{\natural}=d^-_{\lambda}^1$ Tr($u$) $1_{V_{\lambda}}$.
+$u^{\natural}=d^{-1}_{\lambda}$ Tr($u$) $1_{V_{\lambda}}$.
 
 Let $u$ and $v$ be endomorphisms of $V_{\lambda}$; it follows that
 
@@ -590,19 +590,19 @@ $$
 for every $g\in G$, which implies that $f$ is a central function. By Proposition 5, there exists a family $(a_{\lambda})$ of elements of K such that $f=\sum_{\lambda\in\widehat{G}}a_{\lambda}\chi_{\lambda}$. Let us replace $f$ with this expression in formula (34); taking into account that each of the characters $\chi_{\lambda}$ also satisfies this relation, we find
 
 $$
-\sum a_{\lambda}a_\mu\chi_{\lambda}(g)\chi_\mu(g') =\sum a_{\lambda}d^-_{\lambda}^1f(1)\chi_{\lambda}(g)\chi_{\lambda}(g') \tag{37}
+\sum a_{\lambda}a_\mu\chi_{\lambda}(g)\chi_\mu(g') =\sum a_{\lambda}d^{-1}_{\lambda}f(1)\chi_{\lambda}(g)\chi_{\lambda}(g') \tag{37}
 $$
 
 for $g, g'\in^{\lambda ,\mu}G$. This relation can also be written as$^{\in\widehat{G}\lambda\in\widehat{G}}$
 
 $$
-\sum_{\lambda ,\mu}(a_{\lambda}a_\mu-\delta_{\lambda \mu}a_{\lambda}d^-_{\lambda}^1f(1))\chi_{\lambda}(g)\chi_\mu(g') = 0 \tag{38}
+\sum_{\lambda ,\mu}(a_{\lambda}a_\mu-\delta_{\lambda \mu}a_{\lambda}d^{-1}_{\lambda}f(1))\chi_{\lambda}(g)\chi_\mu(g') = 0 \tag{38}
 $$
 
 for $g, g'\in G$. Now, the functions $\chi_{\lambda}$, for $\lambda \in \widehat{G}$, are linearly independent (Proposition 5 of VIII, p. 411); it follows that
 
 $$
-a_{\lambda}a_\mu=\delta_{\lambda \mu}a_{\lambda}d^-_{\lambda}^1f(1)
+a_{\lambda}a_\mu=\delta_{\lambda \mu}a_{\lambda}d^{-1}_{\lambda}f(1)
 $$
 
 for $\lambda , \mu\in \widehat{G}$. In particular, $a_{\lambda}a_\mu= 0$ whenever $\lambda \not=\mu$. Consequently, there exists at most one element $\lambda$ of $\widehat{G}$ such that $a_{\lambda}\not= 0$, and we have $f=a_{\lambda}\chi_{\lambda}$, and therefore (i).
@@ -713,7 +713,7 @@ $$
 \alpha_{\lambda ,C}=|G|^{-1}d_{\lambda}\chi_{\lambda}(C^{-1}) \tag{45}
 $$
 
-For $C\in \mathscr{C}$ and $\lambda \in \mathscr{S}_K$(G), set $\beta_{C,\lambda}=|G|d^-_{\lambda}^1d(C)^{-1}\chi_{\lambda}(C)$. The entries of the matrix $(\alpha_{\lambda ,C})$ are in $\mathscr{O}$, and it follows from formula (31) of VIII, p. 411 that its inverse matrix is the matrix $(\beta_{C,\lambda})$, whose entries are also in $\mathscr{O}$ by Proposition 9 of VIII, p. 415. Consequently, the family $(e_{\lambda})$ is a basis of the $\mathscr{O}$-module $Z(\mathscr{O}[G])$.
+For $C\in \mathscr{C}$ and $\lambda \in \mathscr{S}_K$(G), set $\beta_{C,\lambda}=|G|d^{-1}_{\lambda}d(C)^{-1}\chi_{\lambda}(C)$. The entries of the matrix $(\alpha_{\lambda ,C})$ are in $\mathscr{O}$, and it follows from formula (31) of VIII, p. 411 that its inverse matrix is the matrix $(\beta_{C,\lambda})$, whose entries are also in $\mathscr{O}$ by Proposition 9 of VIII, p. 415. Consequently, the family $(e_{\lambda})$ is a basis of the $\mathscr{O}$-module $Z(\mathscr{O}[G])$.
 
 The elements $\Phi (u_C) =\sum_{g\in C}g$ of $K'[G]$ form a basis over $K'$ of the center $Z(K'[G])$ of the ring $K'[G]$. We have
 
