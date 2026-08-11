@@ -40,9 +40,9 @@ subsections:
       title: Morita Equivalence of Algebras
       page: 111
       pdf_page: 128
-statements: 38
+statements: 40
 exercises: 8
-content_sha256: 7247f79a02d56b325141356c51660606638f51e4b32b25c8b8667bc792a2bc2b
+content_sha256: bd9e56131a42521cd7086818affdc7acad2873f2051e0e67df237fd2555236eb
 ---
 
 ## § 6. MORITA EQUIVALENCE OF MODULES AND ALGEBRAS
@@ -253,7 +253,9 @@ $\lambda : P\otimes_BQ\rightarrow_sA_d$ and $\theta : Q\otimes_AP\rightarrow_sB_
 
 For any left B-module V, denote by $\theta_V$ the homomorphism of B-modules $\theta \otimes 1_V: Q\otimes_AP\otimes_BV\rightarrow V$; it is an isomorphism since $\theta$ is an isomorphism. Likewise, for every left A-module M, denote by $\lambda_M$ the homomorphism of A-modules $\lambda \otimes 1_M: P\otimes_BQ\otimes_AM\rightarrow M$; it is an isomorphism since $\lambda$ is an isomorphism.
 
-Theorem 2 (Morita). — a) Let V and W be left B-modules. The mapping $g\mapsto 1_P\otimes g$ is a bijection from Hom$_B(V,W)$ to Hom$_A(P\otimes_BV,P\otimes_BW)$. The inverse bijection sends an element $h$ of Hom$_A(P\otimes_BV,P\otimes_BW)$ to the element $\theta_W\circ (1_Q\otimes h)\circ \theta_V^{-1}$ of Hom$_B(V,W)$.
+#### Theorem 2 {#alg-viii-s6-thm-2 .statement tag=00S2}
+
+a) Let V and W be left B-modules. The mapping $g\mapsto 1_P\otimes g$ is a bijection from Hom$_B(V,W)$ to Hom$_A(P\otimes_BV,P\otimes_BW)$. The inverse bijection sends an element $h$ of Hom$_A(P\otimes_BV,P\otimes_BW)$ to the element $\theta_W\circ (1_Q\otimes h)\circ \theta_V^{-1}$ of Hom$_B(V,W)$.
 
 b) Every left A-module M is isomorphic to a module of the form $P\otimes_BV$, where V is a left B-module.
 
@@ -411,7 +413,11 @@ $$
 \varphi (H) +\varphi (H') =\varphi (H) +\varphi (H'') =\varphi (H') +\varphi (H'')
 $$
 
-the lemma follows. **Proposition 9.** — Let S be a simple submodule of V and T the simple submodule $\varphi (S)$ of M. If $V_S$ denotes the isotypical component of V of type S and $M_T$ the isotypical component of M of type T, then we have $\varphi (V_S) = M_T$.
+the lemma follows.
+
+#### Proposition 9 {#alg-viii-s6-prop-9 .statement tag=00R6}
+
+Let S be a simple submodule of V and T the simple submodule $\varphi (S)$ of M. If $V_S$ denotes the isotypical component of V of type S and $M_T$ the isotypical component of M of type T, then we have $\varphi (V_S) = M_T$.
 
 Every simple submodule $S'$ of V distinct from S satisfies $S'\cap S = 0$. It is therefore isomorphic to S if and only if $\varphi (S')$ is isomorphic to T (Lemma 2). Now, $V_S$ is the sum of the simple submodules of V isomorphic to S, and $M_T$ is the sum of the simple submodules of M isomorphic to T. Proposition 9 therefore follows immediately from Propositions 7 and 8.
 

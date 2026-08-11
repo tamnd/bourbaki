@@ -32,9 +32,9 @@ subsections:
       title: The Structure of Modules of Finite Length
       page: 37
       pdf_page: 54
-statements: 32
+statements: 36
 exercises: 20
-content_sha256: 4f8ec9fe81ed53bc963c7ee4b6fb29fe1910dc654aaad22572a2621a16b61d51
+content_sha256: 855739a3a594aa080b0053029d1fe46cf69fa4fe5cf779a08f39dc35e62fc662
 ---
 
 ## § 2. THE STRUCTURE OF MODULES OF FINITE LENGTH
@@ -245,11 +245,15 @@ An injective module is indecomposable if and only if it is primordial (X, §1, n
 
 A module is called semiprimordial if it is the direct sum of a family of primordial submodules.
 
-$*$Examples. — 1) Every simple module is primordial (VIII, p. 45); every semisimple module is therefore semiprimordial (VIII, p. 55, Definition 1).
+#### Example {#alg-viii-s2-n4-exa-1 .statement tag=00SE}
+
+$*$1) Every simple module is primordial (VIII, p. 45); every semisimple module is therefore semiprimordial (VIII, p. 55, Definition 1).
 
 2) If A is a left Noetherian ring, then every injective A-module is semiprimordial (X, §1, n$^o9$, p. 21, proposition 14 and X, §1, n$^o10$, p. 22, théorème 3, b)).$*$
 
-Theorem 1 (Azumaya). — Let A be a ring, L a primordial A-module, and M a semiprimordial A-module. There exists a unique cardinal, denoted by [M : L], with the following property:
+#### Theorem 1 {#alg-viii-s2-thm-1 .statement tag=00RX}
+
+Let A be a ring, L a primordial A-module, and M a semiprimordial A-module. There exists a unique cardinal, denoted by [M : L], with the following property:
 
 For every decomposition $M =\bigoplus_{i\in I}M_i$ of M as a direct sum of primordial modules, the set of indices $i\in I$ such that $M_i$ is isomorphic to L has cardinal [M : L].
 
@@ -301,7 +305,11 @@ The cardinal [M : L] defined in Theorem 1 is called the primordial multiplicity 
 
 #### Corollary 1 {#alg-viii-s2-lem-4-cor-1 .statement tag=002D}
 
-Let M and N be semiprimordial modules. Then M and N are isomorphic if and only if we have [M : L] = [N : L] for every primordial module L. **Corollary 2.** — Let M be a semiprimordial module. Let $(M_i)_{i\in I}$ and $(M'_j)_{j\in J}$ be families of primordial submodules of M such that
+Let M and N be semiprimordial modules. Then M and N are isomorphic if and only if we have [M : L] = [N : L] for every primordial module L.
+
+#### Corollary 2 {#alg-viii-s2-lem-4-cor-2 .statement tag=00QY}
+
+Let M be a semiprimordial module. Let $(M_i)_{i\in I}$ and $(M'_j)_{j\in J}$ be families of primordial submodules of M such that
 
 $$
 M =\bigoplus_{i\in I}M_i=\bigoplus_{j\in J}M'_j
@@ -361,7 +369,9 @@ The relation [M : L] = 0 therefore means that there exists no direct factor subm
 
 ### 5. The Structure of Modules of Finite Length
 
-Theorem 2 (Krull–Remak–Schmidt). — Let A be a ring and M an A-module of finite length.
+#### Theorem 2 {#alg-viii-s2-thm-2 .statement tag=00RY}
+
+Let A be a ring and M an A-module of finite length.
 
 a) There exists a finite family $(M_i)_{i\in I}$ of indecomposable submodules of M such that $M =\bigoplus_{i\in I}M_i$, and the module M is semiprimordial.
 

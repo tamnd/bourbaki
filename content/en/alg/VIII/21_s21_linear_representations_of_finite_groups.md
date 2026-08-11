@@ -64,9 +64,9 @@ subsections:
       title: Complex Linear Representations
       page: 421
       pdf_page: 438
-statements: 34
+statements: 35
 exercises: 30
-content_sha256: 9e5a52dfee8167f4a05d01764dba3f21f8ff95f33573aa8649daad05b83199e4
+content_sha256: e9f9fdcb0497d06a1d16d027e80b9d31a1c259c907dab18bcaed6027fc3b9702
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -199,7 +199,9 @@ for every $x\in M$. Since N is stable under the action of G and $p$ induces the 
 
 The K-module M is therefore the direct sum of the image N of $q$ and the kernel of $q$. We have $g q(x) =q(gx)$ for every $x\in M$ and $g\in G$, so that the kernel of $q$ is a K[G]-submodule of M. This proves that N is a direct factor of the K[G]-module M.
 
-Corollary 1 (Maschke). — Suppose that the group G is finite and that K is a commutative field. The algebra K[G] is semisimple if and only if the element $|G|$ of the field K is not zero.
+#### Corollary 1 {#alg-viii-s21-thm-1-cor-1 .statement tag=00SC}
+
+Suppose that the group G is finite and that K is a commutative field. The algebra K[G] is semisimple if and only if the element $|G|$ of the field K is not zero.
 
 Suppose $|G| \not= 0$. By Theorem 1, every K[G]-submodule of $K[G]_s$ is a direct factor. Hence K[G] is semisimple.
 

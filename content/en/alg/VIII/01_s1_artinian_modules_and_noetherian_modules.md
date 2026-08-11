@@ -28,9 +28,9 @@ subsections:
       title: Polynomials with Coefficients in a Noetherian Ring
       page: 9
       pdf_page: 26
-statements: 32
+statements: 36
 exercises: 28
-content_sha256: 77443c27be06346c288e3d1177382bf078e623074399997285ec822cf3e2f114
+content_sha256: 17a577e4eaa9e0a250681b465e79693fa82515b4e2c87bb92b49d011a6060bf6
 ---
 
 ## § 1. ARTINIAN MODULES AND NOETHERIAN MODULES
@@ -101,7 +101,11 @@ We will give the proof in the case of Artinian modules; the case of Noetherian m
 
 Suppose that M is Artinian. Since every submodule of N is a submodule of M, the module N is Artinian. Let $(P_n)_{n\in\mathbf{N}}$ be a decreasing sequence of submodules of $M/N$. There exists a decreasing sequence $(Q_n)_{n\in\mathbf{N}}$ of submodules of M containing N such that $P_n= Q_n/N$ for every $n\in \mathbf{N}$ (I, §4, No. 6, p. 41, Theorem 4). Since M is Artinian, the sequence $(Q_n)$ is stationary, hence so is the sequence $(P_n)$. Consequently, the module $M/N$ is Artinian.
 
-Conversely, suppose that the modules N and $M/N$ are Artinian, and consider a decreasing sequence $(P_n)$ of submodules of M. The sequence $P'_n= N\cap P_n$ of submodules of N is stationary. Likewise, the sequence $P''_n= (N + P_n)/N$ of submodules of $M/N$ is stationary. Hence, there exists an integer $m\in \mathbf{N}$ such that we have $P'_n= P'_m$ and $P''_n= P''_m$ for every integer $n\geqslant m$. The sequence $(P_n)$ is then stationary by the following lemma. **Lemma 2.** — Let M be an A-module and N, P, and Q submodules of M. Suppose that we have $P\subset Q$, $N\cap P = N\cap Q$, and N + P = N + Q. We then have P = Q.
+Conversely, suppose that the modules N and $M/N$ are Artinian, and consider a decreasing sequence $(P_n)$ of submodules of M. The sequence $P'_n= N\cap P_n$ of submodules of N is stationary. Likewise, the sequence $P''_n= (N + P_n)/N$ of submodules of $M/N$ is stationary. Hence, there exists an integer $m\in \mathbf{N}$ such that we have $P'_n= P'_m$ and $P''_n= P''_m$ for every integer $n\geqslant m$. The sequence $(P_n)$ is then stationary by the following lemma.
+
+#### Lemma 2 {#alg-viii-s1-lem-2 .statement tag=00QV}
+
+Let M be an A-module and N, P, and Q submodules of M. Suppose that we have $P\subset Q$, $N\cap P = N\cap Q$, and N + P = N + Q. We then have P = Q.
 
 Let $x$ be an element of Q. It belongs to N + P; hence, there exists an element $y$ of P such that $x-y\in N$. Since Q contains P, the difference $x-y$ belongs to $N\cap Q$ and therefore to P. Consequently, $x$ belongs to P.
 
@@ -167,7 +171,11 @@ A principal ideal domain (VII, §1, No. 1, p. 1, Definition 1) is Noetherian. An
 
 #### Example 4 {#alg-viii-s1-n2-exa-4 .statement tag=000H}
 
-Let M be an A-module that is the direct sum of an infinite family $(M_i)_{i\in I}$ of nonzero submodules. Let E be the endomorphism ring of M. For every $i\in I$, let $\mathfrak{a}_i$ (resp. $\mathfrak{b}_i)$ be the set of elements of E with kernel containing $\sum_{j\not=i}M_j$ (resp. with image contained in $M_i)$. Then $(\mathfrak{a}_i)$ is an infinite family of nonzero left ideals of E whose sum is direct, and $(\mathfrak{b}_i)$ is an infinite family of nonzero right ideals of E whose sum is direct. Consequently, the ring E is neither left nor right Artinian (resp. Noetherian) (VIII, p. 2, Example 2). In particular, the endomorphism ring of an infinite-dimensional vector space is neither left nor right Artinian (resp. Noetherian). **Theorem 1.** — Let A be a left Artinian ring. The A-module $A_s$ has finite length.
+Let M be an A-module that is the direct sum of an infinite family $(M_i)_{i\in I}$ of nonzero submodules. Let E be the endomorphism ring of M. For every $i\in I$, let $\mathfrak{a}_i$ (resp. $\mathfrak{b}_i)$ be the set of elements of E with kernel containing $\sum_{j\not=i}M_j$ (resp. with image contained in $M_i)$. Then $(\mathfrak{a}_i)$ is an infinite family of nonzero left ideals of E whose sum is direct, and $(\mathfrak{b}_i)$ is an infinite family of nonzero right ideals of E whose sum is direct. Consequently, the ring E is neither left nor right Artinian (resp. Noetherian) (VIII, p. 2, Example 2). In particular, the endomorphism ring of an infinite-dimensional vector space is neither left nor right Artinian (resp. Noetherian).
+
+#### Theorem 1 {#alg-viii-s1-thm-1 .statement tag=00QW}
+
+Let A be a left Artinian ring. The A-module $A_s$ has finite length.
 
 We will use the following lemma in the proof.
 
@@ -277,7 +285,11 @@ $$
 
 for all $a, b\in A$. In other words, $d$ is a derivation from the ring A to the $(A$, A)-bimodule obtained by endowing the additive group of A with the left law of action $(a, x)\mapsto \sigma (a)x$ and the right law of action $(x, a)\mapsto xa$. We have $d(1) = 0$ (III, §10, No. 5, p. 557, Proposition 3).
 
-Recall (IV, §1, No. 1, p. 2) that A[X] denotes the $\mathbf{Z}$-module $A\otimes_{\mathbf{Z}}\mathbf{Z}[X]$ of polynomials in one variable with coefficients in A. We endow it with its natural structure of a left A-module. The family $(X^n)_{n\in\mathbf{N}}$ is a basis for A[X] over A. We identify A with its image under the mapping $a\mapsto a\otimes 1$. **Proposition 7.** — Let A$,\sigma ,d$ be as above. There exists a unique ring structure on the group A[X] with the following properties:
+Recall (IV, §1, No. 1, p. 2) that A[X] denotes the $\mathbf{Z}$-module $A\otimes_{\mathbf{Z}}\mathbf{Z}[X]$ of polynomials in one variable with coefficients in A. We endow it with its natural structure of a left A-module. The family $(X^n)_{n\in\mathbf{N}}$ is a basis for A[X] over A. We identify A with its image under the mapping $a\mapsto a\otimes 1$.
+
+#### Proposition 7 {#alg-viii-s1-prop-7 .statement tag=00QX}
+
+Let A$,\sigma ,d$ be as above. There exists a unique ring structure on the group A[X] with the following properties:
 
 a) The addition in this ring is the usual addition of A[X].
 
@@ -367,7 +379,9 @@ It follows that $\mathfrak{b}$ is equal to $\mathfrak{c}$; it is therefore a fin
 
 If the endomorphism $\sigma$ of the ring A is not an automorphism, then the ring $A[X]_{\sigma ,d}$ is not necessarily left Noetherian, even when A is a Noetherian commutative ring (VIII, p. 22, Exercise 26).
 
-Corollary 1 (Hilbert). — Let A be a Noetherian commutative ring. For every integer $n\geqslant 0$, the polynomial algebra $A[X_1, . . . ,X_n]$ is a Noetherian ring.
+#### Corollary 1 {#alg-viii-s1-thm-2-cor-1 .statement tag=00RW}
+
+Let A be a Noetherian commutative ring. For every integer $n\geqslant 0$, the polynomial algebra $A[X_1, . . . ,X_n]$ is a Noetherian ring.
 
 This follows by induction from Theorem 2, taking Proposition 8 of III, §2, No. 9, p. 453, into account.
 

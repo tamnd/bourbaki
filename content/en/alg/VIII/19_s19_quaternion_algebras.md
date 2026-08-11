@@ -32,9 +32,9 @@ subsections:
       title: Algebras over Maximal Ordered Fields
       page: 367
       pdf_page: 384
-statements: 15
+statements: 16
 exercises: 8
-content_sha256: fdd1a0833fa16987a0a013f1272c1cd8a3aff99e109d6b4dc88fa964fca66210
+content_sha256: 2ed25468c6c02edcdcc9b6ff91c9ab9a2c77baef515b75fd381034d306ae0c1e
 ---
 
 ## § 19. QUATERNION ALGEBRAS
@@ -211,7 +211,11 @@ Suppose that F is not a field. If $\gamma (4\alpha +\beta^2)\not= 0$, then the a
 
 Let $q=x+yi$ be an element of E. We have $N_{E/K}(q) =x^2+\beta xy-\alpha y^2$. Suppose that property (v) holds. We have $N_{E/K}(q)-\gamma \not= 0$ and $N_{E/K}(q)\not= 0$ if $q\not= 0$, and therefore (vi).
 
-Finally, suppose that property (vi) holds. Let $q$ be a nonzero element of F; we write it as $u+vj$ with $u$ and $v$ in E. If $v$ is zero, then $q$ is invertible. If $v$ is not zero, then we have $N_F(q) = N_F(v)N_F(v^{-1}u+j) =$ $N_{E/K}(v) N_{E/K}(v^{-1}u)-\gamma$ by III, §2, No. 5, p. 443, formula (24). Since $\gamma$ is not a norm, $N_F(q)$ is not zero, and $q$ is invertible. **Remark.** — Suppose that the quaternion algebra F is a field. It follows from the equality $j^2=\gamma$ that we have $\gamma \not= 0$. By Proposition 2 of VIII, p. 363, the center of F is equal to K unless K has characteristic 2 and $\beta$ is zero, in which case the algebra F is commutative.
+Finally, suppose that property (vi) holds. Let $q$ be a nonzero element of F; we write it as $u+vj$ with $u$ and $v$ in E. If $v$ is zero, then $q$ is invertible. If $v$ is not zero, then we have $N_F(q) = N_F(v)N_F(v^{-1}u+j) =$ $N_{E/K}(v) N_{E/K}(v^{-1}u)-\gamma$ by III, §2, No. 5, p. 443, formula (24). Since $\gamma$ is not a norm, $N_F(q)$ is not zero, and $q$ is invertible.
+
+#### Remark {#alg-viii-s19-n4-rem-1 .statement tag=00RQ}
+
+Suppose that the quaternion algebra F is a field. It follows from the equality $j^2=\gamma$ that we have $\gamma \not= 0$. By Proposition 2 of VIII, p. 363, the center of F is equal to K unless K has characteristic 2 and $\beta$ is zero, in which case the algebra F is commutative.
 
 ### 5. Algebras over Maximal Ordered Fields
 

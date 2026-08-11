@@ -44,9 +44,9 @@ subsections:
       title: Diagonalizable Subalgebras of Simple Algebras
       page: 266
       pdf_page: 283
-statements: 34
+statements: 36
 exercises: 19
-content_sha256: b3dc944521a1e95ad7af67b1a891d08ee44a2084c08da397c22d4c598cd50acd
+content_sha256: 227306f7b5e0bf66357f879bdf91ad1f0c04280bc24f26e604bf81fb3bb77b2d
 ---
 
 ## § 14. CENTRAL SIMPLE ALGEBRAS
@@ -185,19 +185,21 @@ Let A and B be algebras over the field K. Suppose that B is central simple and o
 
 In the notation of Theorem 2, we have Z = K and therefore $f_Z= 1_Z=g_Z$.
 
-Theorem 3 (Skolem–Noether). — Let A and B be simple K-algebras and Z(A) and Z(B) their centers. Suppose that the algebra B has finite degree over K and that the algebra $Z(A)\otimes_KZ(B)$ is a field (which is, in particular, the case when A or B is central). Let $f$ and $g$ be K-algebra homomorphisms from B to A. There exists an inner automorphism $\theta$ of A such that $g=\theta \circ f$.
+#### Theorem 3 {#alg-viii-s14-thm-3 .statement tag=00S9}
+
+Let A and B be simple K-algebras and Z(A) and Z(B) their centers. Suppose that the algebra B has finite degree over K and that the algebra $Z(A)\otimes_KZ(B)$ is a field (which is, in particular, the case when A or B is central). Let $f$ and $g$ be K-algebra homomorphisms from B to A. There exists an inner automorphism $\theta$ of A such that $g=\theta \circ f$.
 
 By Lemma 1 of VIII, p. 254, it suffices to prove that the $(B,A)$-bimodules $A^f$ and $A^g$ are isomorphic. Now, we can view $A^f$ and $A^g$ as left modules over the algebra $C = B\otimes_KA^o$, which is simple by Proposition 7 of VIII, p. 221. As right A-modules, $A^f$ and $A^g$ are isomorphic to $A_d$, hence have finite length because the ring A is simple (VIII, p. 121, Corollary 1). A fortiori, $A^f$ and $A^g$ are C-modules of finite length. Let S be a simple C-module; there exist strictly positive integers $m$ and $n$ such that $A^f$ is isomorphic to $S^m$ and $A^g$ to $S^n$. The right A-module S therefore has nonzero finite length. Since the right A-modules underlying $A^f$ and $A^g$ are isomorphic, they have the same length; we therefore have $m=n$, so that the C-modules $A^f$ and $A^g$ are isomorphic.
 
-#### Corollary 1 {#alg-viii-s14-thm-2-cor-1 .statement tag=00GS}
+#### Corollary 1 {#alg-viii-s14-thm-3-cor-1 .statement tag=00GS}
 
 Let A be a central simple algebra over K, and let L be an extension of K of finite degree. If $f$ and $g$ are K-algebra homomorphisms from L to A, then there exists an inner automorphism $\theta$ of A such that $g=\theta \circ f$.
 
-#### Corollary 2 {#alg-viii-s14-thm-2-cor-2 .statement tag=00GT}
+#### Corollary 2 {#alg-viii-s14-thm-3-cor-2 .statement tag=00GT}
 
 Let A be a central simple algebra over K, and let L be a subalgebra of A that is a field. Every K-algebra homomorphism from L to A extends to an inner automorphism of A.
 
-#### Corollary 3 {#alg-viii-s14-thm-2-cor-3 .statement tag=00GU}
+#### Corollary 3 {#alg-viii-s14-thm-3-cor-3 .statement tag=00GU}
 
 Let D be a field of finite degree over K with center K. Every element of D is algebraic over K. Let $x$ and $y$ be elements of D; there exists an element $a$ of $D^*$ such that $y=axa^{-1}$ if and only if $x$ and $y$ have the same minimal polynomial over K.
 
@@ -223,7 +225,11 @@ By Lemma 1 (VIII, p. 254), property (i) is equivalent to the fact that $A^f$ and
 
 Let A be a semisimple ring, Z its center, and $u$ an automorphism of A. Suppose that A is a finitely generated Z-module and that we have $u(z) =z$ for every $z$ in Z. Then $u$ is an inner automorphism.
 
-This follows from Theorem 2 of VIII, p. 256 applied with $f=$ Id$_A$ and $g=u$. **Example.** — Theorem 4 applies in the following two specific cases:
+This follows from Theorem 2 of VIII, p. 256 applied with $f=$ Id$_A$ and $g=u$.
+
+#### Example {#alg-viii-s14-n4-exa-1 .statement tag=00RH}
+
+Theorem 4 applies in the following two specific cases:
 
 a) Let D be a field and Z its center. If D has finite degree over Z, then every automorphism of D that fixes the elements of Z is an inner automorphism. The assumption that D has finite degree over Z is essential (VIII, p. 269, Exercise 4).
 

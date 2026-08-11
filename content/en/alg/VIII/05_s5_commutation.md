@@ -36,9 +36,9 @@ subsections:
       title: Application to Field Theory
       page: 89
       pdf_page: 106
-statements: 30
+statements: 37
 exercises: 19
-content_sha256: e2d55f11c654cb0136c8a1bdf9d055c9fab0ab00efe500fdc4d0249b5acdcd18
+content_sha256: 6ac2bbce2629c544f3ed814f112db8c421bf00849d18c71039e05a825075f725
 ---
 
 ## § 5. COMMUTATION
@@ -151,7 +151,11 @@ Let M be a left A-module. The following properties are equivalent:
 
 (v) $\Rightarrow$ (vi): This is clear.
 
-(vi) $\Rightarrow$ (i): Let $n$ be an integer $\geqslant 0,x_1, . . . , x_n$ elements of M, and $x^*_1, . . . , x^*_n$ elements of $M^*$ satisfying $\sum^n_{i=1}\langle x_i, x^*_i\rangle = 1$. Let N be a left A-module and $y$ an element of N. The mappings $u_i:x\mapsto  \langle x, x^*_i\rangle y$ from M to N are A-linear, and we have $y=\sum^n_{i=1}u_i(x_i)$. This proves that M is a generating A-module. **Corollary.** — A generating A-module is faithful.
+(vi) $\Rightarrow$ (i): Let $n$ be an integer $\geqslant 0,x_1, . . . , x_n$ elements of M, and $x^*_1, . . . , x^*_n$ elements of $M^*$ satisfying $\sum^n_{i=1}\langle x_i, x^*_i\rangle = 1$. Let N be a left A-module and $y$ an element of N. The mappings $u_i:x\mapsto  \langle x, x^*_i\rangle y$ from M to N are A-linear, and we have $y=\sum^n_{i=1}u_i(x_i)$. This proves that M is a generating A-module.
+
+#### Corollary {#alg-viii-s5-n2-cor-1 .statement tag=00R1}
+
+A generating A-module is faithful.
 
 Let $a\in A$ satisfy $aM = 0$. Using the implication (i) $\Rightarrow$ (iv) of Theorem 1, we obtain $aA_s= 0$, and therefore $a= 0$. The corollary follows (II, §1, No. 12, p. 219).
 
@@ -185,7 +189,11 @@ Let A be a commutative ring, M a finitely generated A-module, and Ann(M) its ann
 
 (ii) $\Rightarrow$ (iii): Assuming that (ii) holds, there exist $a\in \mathfrak{a}$ and $b\in$ Ann(M) such that $a+b= 1$. We then have $am=m$ for every $m\in M$.
 
-(iii) $\Rightarrow$ (i): This is clear. **Proposition 3.** — Let A be a commutative ring. Every finitely generated and faithful projective A-module is generating. More generally, a finitely generated projective A-module P is a generating $A_P$-module.
+(iii) $\Rightarrow$ (i): This is clear.
+
+#### Proposition 3 {#alg-viii-s5-prop-3 .statement tag=00R2}
+
+Let A be a commutative ring. Every finitely generated and faithful projective A-module is generating. More generally, a finitely generated projective A-module P is a generating $A_P$-module.
 
 Let P be a finitely generated projective A-module. We have $\tau (P)P = P$ (VIII, p. 80).
 
@@ -219,7 +227,11 @@ Consequently, $u$ belongs to $A_M$, and M is balanced.
 
 A free module is balanced.
 
-This is clear if the module is zero, and a nonzero free module is generating (VIII, p. 81, Example 2). **Corollary 2.** — Let A be a ring, and let $n$ be an integer $\geqslant 0$. The center of $\mathbf{M}_n(A)$ consists of the scalar matrices with entries in the center of A. We view $A^n$ as a left $\mathbf{M}_n(A)$-module (II, §10, No. 7, p. 349). The endomorphisms of this module are the mappings $x\mapsto xa$, where $a$ runs through A.
+This is clear if the module is zero, and a nonzero free module is generating (VIII, p. 81, Example 2).
+
+#### Corollary 2 {#alg-viii-s5-thm-2-cor-2 .statement tag=00R3}
+
+Let A be a ring, and let $n$ be an integer $\geqslant 0$. The center of $\mathbf{M}_n(A)$ consists of the scalar matrices with entries in the center of A. We view $A^n$ as a left $\mathbf{M}_n(A)$-module (II, §10, No. 7, p. 349). The endomorphisms of this module are the mappings $x\mapsto xa$, where $a$ runs through A.
 
 Let M be the right A-module $A^n_d$. It is balanced by Corollary 1. Consequently, the centers of $A_M, A'_M$, and $A''_M$ coincide. Corollary 2 then follows from the fact that $A_M$ is identified with A and $A'_M$ with $\mathbf{M}_n(A)$.
 
@@ -263,7 +275,9 @@ Consider the A-module $M =\prod_{i\in I}S_i$. Since I is finite, we also have $M
 
 This corollary applies, in particular, when A is an algebra over a commutative field K and each $S_i$ is a simple A-module that is finite-dimensional as a K-vector space: indeed, $D_i$ then contains the homotheties $\alpha_{S_i}$, where $\alpha$ runs through K, and $S_i$ is finite-dimensional over $D_i$ because it is so over K.
 
-Corollary 2 (Burnside’s theorem). — Let A be an algebra over an algebraically closed commutative field K, and let S be a simple A-module that is finite-dimensional as a K-vector space. Then the mapping $a\mapsto a_S$ from A to End$_K(S)$ is surjective.
+#### Corollary 2 {#alg-viii-s5-prop-4-cor-2 .statement tag=00S0}
+
+Let A be an algebra over an algebraically closed commutative field K, and let S be a simple A-module that is finite-dimensional as a K-vector space. Then the mapping $a\mapsto a_S$ from A to End$_K(S)$ is surjective.
 
 Indeed, the field of endomorphisms of the A-module S consists of the homotheties $\alpha_S$ with $\alpha \in K$ (VIII, p. 47, Theorem 1). We then apply Corollary 1 to the simple A-module S.
 
@@ -271,7 +285,11 @@ Indeed, the field of endomorphisms of the A-module S consists of the homotheties
 
 Let A be a ring. Denote the set of classes of simple A-modules by $\mathscr{S}$. For every $\lambda \in \mathscr{S}$, choose a simple A-module $S_{\lambda}$ of class $\lambda$, and denote the opposite ring of the field of endomorphisms of $S_{\lambda}$ by $D_{\lambda}$. We view $S_{\lambda}$ as an $(A,D_{\lambda}$)-bimodule.
 
-Let M be a semisimple A-module, and let B be the endomorphism ring of M. Denote the bicommutant of M by C. For every $\lambda \in \mathscr{S}$, denote the left $(D_{\lambda}$, B)-bimodule Hom$_A(S_{\lambda},M)$ by $V_{\lambda}$. Finally, denote the support of the A-module M by $\mathscr{S}_M$ (VIII, p. 66); it is also the set of elements $\lambda$ of $\mathscr{S}$ such that $V_{\lambda}$ is nonzero. **Remark 1.** — The canonical description $\alpha_M$ of the A-module M is an isomorphism of left $(A$, B)-bimodules. By the corollary of Proposition 9, VIII, p. 71, the mapping $f\mapsto$ Hom(1$_{S_{\lambda}}, f)_{\lambda\in\mathscr{S}_M}$ from B to $\prod_{\lambda\in\mathscr{S}_M}$ End$_{D_{\lambda}}(V_{\lambda})$ is a ring isomorphism.
+Let M be a semisimple A-module, and let B be the endomorphism ring of M. Denote the bicommutant of M by C. For every $\lambda \in \mathscr{S}$, denote the left $(D_{\lambda}$, B)-bimodule Hom$_A(S_{\lambda},M)$ by $V_{\lambda}$. Finally, denote the support of the A-module M by $\mathscr{S}_M$ (VIII, p. 66); it is also the set of elements $\lambda$ of $\mathscr{S}$ such that $V_{\lambda}$ is nonzero.
+
+#### Remark 1 {#alg-viii-s5-n4-rem-1 .statement tag=00R4}
+
+The canonical description $\alpha_M$ of the A-module M is an isomorphism of left $(A$, B)-bimodules. By the corollary of Proposition 9, VIII, p. 71, the mapping $f\mapsto$ Hom(1$_{S_{\lambda}}, f)_{\lambda\in\mathscr{S}_M}$ from B to $\prod_{\lambda\in\mathscr{S}_M}$ End$_{D_{\lambda}}(V_{\lambda})$ is a ring isomorphism.
 
 #### Proposition 5 {#alg-viii-s5-prop-5 .statement tag=005X}
 
@@ -295,7 +313,11 @@ is isotypical of type $V_{\lambda}$ (VIII, p. 61, Proposition 1); the same there
 
 By Remark 1 above, there exist elements $e_{\lambda}$ of B, for $\lambda$ running through $\mathscr{S}_M$, such that $(e_{\lambda})_{V_{\lambda}}= 1_{V_{\lambda}}$ and $(e_{\lambda})_{V_µ}$ = 0 for $µ\in \mathscr{S}_M$ with $µ\not=\lambda$. The simple B-modules $V_{\lambda}$ are therefore pairwise nonisomorphic, which proves c) and the first assertion of d). The B-module $M_{\lambda}$ is isomorphic to $V_{\lambda}\otimes_{D^o_{\lambda}}S_{\lambda}$, so dim$_{D_{\lambda}}(S_{\lambda})$ is the multiplicity of $V_{\lambda}$ in M (II, §3, No. 7, p. 255, Corollary 1).
 
-The mapping $\sum_{\lambda\in\mathscr{S}_M}\alpha_{\lambda}$ from $\bigoplus_{\lambda\in\mathscr{S}_M}V_{\lambda}\otimes_{D^o_{\lambda}}S_{\lambda}$ to M provides a description (VIII, p. 69, Definition 5) of the semisimple B-module M. By VIII, p. 70, Proposition 8, b), for every $\lambda \in \mathscr{S}_M$, the mapping from $S_{\lambda}$ to Hom$_B(V_{\lambda},M)$ described in e) is bijective and $D_{\lambda}$-linear. Since it is obviously A-linear, this proves e). **Remark 2.** — It follows from the proof that the mapping
+The mapping $\sum_{\lambda\in\mathscr{S}_M}\alpha_{\lambda}$ from $\bigoplus_{\lambda\in\mathscr{S}_M}V_{\lambda}\otimes_{D^o_{\lambda}}S_{\lambda}$ to M provides a description (VIII, p. 69, Definition 5) of the semisimple B-module M. By VIII, p. 70, Proposition 8, b), for every $\lambda \in \mathscr{S}_M$, the mapping from $S_{\lambda}$ to Hom$_B(V_{\lambda},M)$ described in e) is bijective and $D_{\lambda}$-linear. Since it is obviously A-linear, this proves e).
+
+#### Remark 2 {#alg-viii-s5-n4-rem-2 .statement tag=00R5}
+
+It follows from the proof that the mapping
 
 $$
 \sum V_{\lambda}\otimes_{D^o}S_{\lambda}\longrightarrow M
@@ -359,7 +381,9 @@ Since M is a finite-dimensional vector space over K that is the direct sum of th
 
 ### 5. Density Theorem
 
-Theorem 3 (Jacobson). — Let M be a semisimple A-module, and let $c$ be an endomorphism of the additive group M. Then $c$ belongs to the bicommutant $A''_M$ of M if and only if it satisfies the following condition:
+#### Theorem 3 {#alg-viii-s5-thm-3 .statement tag=00S1}
+
+Let M be a semisimple A-module, and let $c$ be an endomorphism of the additive group M. Then $c$ belongs to the bicommutant $A''_M$ of M if and only if it satisfies the following condition:
 
 (D) For every finite subset F of M, there exists an element $a$ of A such that $c$ coincides with $a_M$ on F.
 

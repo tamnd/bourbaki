@@ -32,9 +32,9 @@ subsections:
       title: Classes of Simple Modules
       page: 51
       pdf_page: 68
-statements: 21
+statements: 23
 exercises: 10
-content_sha256: bff4b36855d84372e48ee844b0f9e58c694e1d3c3aefe7f5ff2288527b337fc5
+content_sha256: ce7818d73c4aee080876cf9de56bba17ff189b775538ee0630d9fc66b7284d90
 ---
 
 ## § 3. SIMPLE MODULES
@@ -59,7 +59,11 @@ Let A be a principal ideal domain (VII, §1, No. 1, p. 1, Definition 1) that is 
 
 #### Example 3 {#alg-viii-s3-n1-exa-3 .statement tag=0038}
 
-Let K be a field, V a nonzero right vector space over the field K, and A a subring of the ring End$_K(V)$ containing the endomorphisms of V of finite rank (for example, A = End$_K(V))$. Let us prove that V is a simple A-module: let W be a nonzero A-submodule of V and $x$ a nonzero element of W; there exists a linear form $\varphi$ on V such that $\varphi (x)\not= 0$ (II, §7, No. 5, p. 300, Theorem 6). For every $y$ in V, the mapping $z\mapsto y\varphi (z)$, which is linear of rank $\leqslant 1$, belongs to A; we therefore have $Ax= V$, hence a fortiori W = V, which proves that V is a simple A-module. **Proposition 1.** — Let A be a ring.
+Let K be a field, V a nonzero right vector space over the field K, and A a subring of the ring End$_K(V)$ containing the endomorphisms of V of finite rank (for example, A = End$_K(V))$. Let us prove that V is a simple A-module: let W be a nonzero A-submodule of V and $x$ a nonzero element of W; there exists a linear form $\varphi$ on V such that $\varphi (x)\not= 0$ (II, §7, No. 5, p. 300, Theorem 6). For every $y$ in V, the mapping $z\mapsto y\varphi (z)$, which is linear of rank $\leqslant 1$, belongs to A; we therefore have $Ax= V$, hence a fortiori W = V, which proves that V is a simple A-module.
+
+#### Proposition 1 {#alg-viii-s3-prop-1 .statement tag=00QZ}
+
+Let A be a ring.
 
 a) Let $\mathfrak{m}$ be a left ideal of A. The A-module $A_s/\mathfrak{m}$ is simple if and only if $\mathfrak{m}$ is a maximal left ideal.
 
@@ -73,13 +77,13 @@ Under the assumptions of b), $Ax$ is a nonzero submodule of M, hence is equal to
 
 Under the assumptions of c), let N be a nonzero submodule of M. If $x$ is a nonzero element of N, then we have $Ax\subset N$ and $Ax= M$, and therefore M = N. Hence M is simple.
 
-#### Corollary 1 {#alg-viii-s3-def-1-cor-1 .statement tag=0039}
+#### Corollary 1 {#alg-viii-s3-prop-1-cor-1 .statement tag=0039}
 
 If the ring A is not reduced to 0, then there exist simple A-modules.
 
 Indeed, by Krull’s theorem (I, §8, No. 6, p. 104, Theorem 1), there exist maximal left ideals of A.
 
-#### Corollary 2 {#alg-viii-s3-def-1-cor-2 .statement tag=003A}
+#### Corollary 2 {#alg-viii-s3-prop-1-cor-2 .statement tag=003A}
 
 Let A be a local ring (VIII, p. 26, Definition 1) and $\mathfrak{r}$ its maximal ideal. The A-module $A_s/\mathfrak{r}$ is simple, and every simple A-module is isomorphic to $A_s/\mathfrak{r}$.
 
@@ -111,7 +115,9 @@ b) If N is simple, then we have Im($f) = N$, so $f$ is surjective.
 
 c) If M and N are simple, then $f$ is both injective and surjective.
 
-Corollary (Schur’s lemma). — The endomorphism ring of a simple module is a field.
+#### Corollary {#alg-viii-s3-n2-cor-1 .statement tag=00RZ}
+
+The endomorphism ring of a simple module is a field.
 
 If M is a simple A-module, then every nonzero element of the nonzero ring End$_A(M)$ is invertible (Proposition 2, c)), so End$_A(M)$ is a field.
 

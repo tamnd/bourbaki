@@ -40,9 +40,9 @@ subsections:
       title: Extension of Scalars in Semisimple Modules
       page: 222
       pdf_page: 239
-statements: 22
+statements: 26
 exercises: 17
-content_sha256: 97cef2717c03010166faabcbba65b348fbdf20e24464a0c7402a9c4d6bf65a86
+content_sha256: 6ff787270f5a3acacd29d63eaadbd05ead83d719cc70f194ee15dfbb13c5e6ed
 ---
 
 ## § 12. TENSOR PRODUCTS OF SEMISIMPLE MODULES
@@ -99,7 +99,11 @@ There exists a homomorphism $\varphi$ from $R_K(A_1)\otimes_{\mathbf{Z}}R_K(A_2)
 
 ### 2. Tensor Products of Simple Modules
 
-Let $A_1$ and $A_2$ be algebras over the commutative field K. We denote the K-algebra $A_1\otimes A_2$ by A. **Lemma 1.** — Let $M_1$ and $N_1$ be $A_1$-modules, and let $M_2$ and $N_2$ be $A_2$-modules. We make the following assumptions:
+Let $A_1$ and $A_2$ be algebras over the commutative field K. We denote the K-algebra $A_1\otimes A_2$ by A.
+
+#### Lemma 1 {#alg-viii-s12-lem-1 .statement tag=00RB}
+
+Let $M_1$ and $N_1$ be $A_1$-modules, and let $M_2$ and $N_2$ be $A_2$-modules. We make the following assumptions:
 
 (i) The $A_1$-module $M_1$ is finitely generated.
 
@@ -221,7 +225,11 @@ Set $M_{\lambda ,µ}= M_{1;\lambda}\otimes M_{2;µ}$; this is a submodule of M t
 
 Let $A_1$ and $A_2$ be algebras over the commutative field K. Let $M_1$ be an $A_1$-module that is finite-dimensional over K and $M_2$ a $A_2$-module of finite length. Then the $A_1\otimes A_2$-module $M_1\otimes M_2$ has finite length.
 
-Set $M = M_1\otimes M_2$. Let $(e_1, . . . , e_n)$ be a basis of $M_1$ over the field K. The mapping $(x_1, . . . , x_n)\mapsto \sum^n_{i=1}e_i\otimes x_i$ is an isomorphism from the $A_2$-module $M^n_2$ to the $A_2$-module M. Since $M_2$ is an $A_2$-module of finite length, so is M. Moreover, every A-submodule of M is an $A_2$-submodule; consequently, M is an A-module of finite length. **Proposition 5.** — Let $A_1$ and $A_2$ be algebras over the commutative field K. Let $M_1$ be a semisimple $A_1$-module that is finite-dimensional over K and $M_2$ a semisimple $A_2$-module. For $i\in  \{1,2\}$, denote the commutant of the $A_i$-module $M_i$ by $D_i$ and the center of $D_i$ by $Z_i$. Set $A = A_1\otimes A_2$, M = $M_1\otimes M_2,D = D_1\otimes D_2$, and $Z = Z_1\otimes Z_2$.
+Set $M = M_1\otimes M_2$. Let $(e_1, . . . , e_n)$ be a basis of $M_1$ over the field K. The mapping $(x_1, . . . , x_n)\mapsto \sum^n_{i=1}e_i\otimes x_i$ is an isomorphism from the $A_2$-module $M^n_2$ to the $A_2$-module M. Since $M_2$ is an $A_2$-module of finite length, so is M. Moreover, every A-submodule of M is an $A_2$-submodule; consequently, M is an A-module of finite length.
+
+#### Proposition 5 {#alg-viii-s12-prop-5 .statement tag=00RC}
+
+Let $A_1$ and $A_2$ be algebras over the commutative field K. Let $M_1$ be a semisimple $A_1$-module that is finite-dimensional over K and $M_2$ a semisimple $A_2$-module. For $i\in  \{1,2\}$, denote the commutant of the $A_i$-module $M_i$ by $D_i$ and the center of $D_i$ by $Z_i$. Set $A = A_1\otimes A_2$, M = $M_1\otimes M_2,D = D_1\otimes D_2$, and $Z = Z_1\otimes Z_2$.
 
 a) The commutant of the A-module M can be identified with D, and its center is Z. If the $A_2$-module $M_2$ has finite length, then the A-module M has finite length, the ring D is right and left Artinian, and the ring Z is Artinian.
 
@@ -273,7 +281,11 @@ This is the case $M_1= (A_1)_s, M_2= (A_2)_s$ of Proposition 5 of VIII, p. 219.
 
 Let $A_1$ and $A_2$ be semisimple K-algebras; suppose that $A_1$ is finite-dimensional over K. Suppose that the center of $A_1$ or $A_2$ is a separable algebra over K, which is, for example, the case when K is perfect. Then $A_1\otimes A_2$ is semisimple.
 
-This is the case $M_1= (A_1)_s, M_2= (A_2)_s$ of the corollary of VIII, p. 221. **Corollary 2.** — Let $A_1$ and $A_2$ be simple K-algebras; suppose that $A_1$ is finite-dimensional over K. If the center of $A_1$ or $A_2$ is equal to K, then the algebra $A_1\otimes A_2$ is simple. This is, in particular, the case when K is algebraically closed.
+This is the case $M_1= (A_1)_s, M_2= (A_2)_s$ of the corollary of VIII, p. 221.
+
+#### Corollary 2 {#alg-viii-s12-prop-7-cor-2 .statement tag=00RD}
+
+Let $A_1$ and $A_2$ be simple K-algebras; suppose that $A_1$ is finite-dimensional over K. If the center of $A_1$ or $A_2$ is equal to K, then the algebra $A_1\otimes A_2$ is simple. This is, in particular, the case when K is algebraically closed.
 
 The centers $Z_1$ and $Z_2$ of $A_1$ and $A_2$, respectively, are fields; if one of the rings $Z_1$ and $Z_2$ is equal to K, then the ring $Z_1\otimes Z_2$ is a field. It therefore suffices to apply Proposition 7.
 
@@ -299,7 +311,11 @@ a) Suppose that the A-module M is semisimple, that the extension L of K is separ
 
 b) Suppose that the A-module M is simple and that its commutant is equal to K. Then the $A_{(L)}$-module $M_{(L)}$ is simple.
 
-Assertion a) follows from Corollary VIII, p. 221. Assertion b) is a specific case of Proposition 8, c). **Corollary 2.** — Let L be an extension of the field K. Denote the center of the K-algebra A by Z.
+Assertion a) follows from Corollary VIII, p. 221. Assertion b) is a specific case of Proposition 8, c).
+
+#### Corollary 2 {#alg-viii-s12-prop-8-cor-2 .statement tag=00RE}
+
+Let L be an extension of the field K. Denote the center of the K-algebra A by Z.
 
 a) If the L-algebra $A_{(L)}$ is semisimple, then the K-algebra A is semisimple.
 

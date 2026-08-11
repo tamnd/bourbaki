@@ -32,9 +32,9 @@ subsections:
       title: Projective Cover of a Module
       page: 161
       pdf_page: 178
-statements: 45
+statements: 49
 exercises: 31
-content_sha256: 1421737f7e8dc14eac197b9d22f4bda5a3f520d97c91f66c9a3218e30c9d2094
+content_sha256: 9fbad3b7175c586184c259fdf04cba1c8cf60ec9119fd4d42a587cc1a15c5524
 ---
 
 ## § 9. RADICAL
@@ -177,7 +177,9 @@ Let $\mathfrak{a}$ be a maximal two-sided ideal of A. In the ring $A/\mathfrak{a
 
 We say that a left (or right) ideal of A is a nil ideal if it consists of nilpotent elements. We say that a two-sided ideal $\mathfrak{a}$ of A is nilpotent if there exists an integer $n\geqslant 1$ such that $\mathfrak{a}^n= 0$, that is (I, §8, No. 9, p. 107), such that we have $x_1\cdots x_n= 0$ for every sequence $(x_1, . . . , x_n)$ of elements of $\mathfrak{a}$. Every nilpotent two-sided ideal is a nil ideal, but there can exist nil ideals that are not contained in a nilpotent two-sided ideal (VIII, p. 167, Exercise 9).
 
-Theorem 1 (Jacobson). — The radical of a ring A consists of the elements $x\in A$ such that $1 +ax$ is left invertible (I, §2, No. 3, p. 15) for every $a\in A$. It is also the largest two-sided ideal $\mathfrak{a}$ such that $1 +x$ is invertible for every $x\in \mathfrak{a}$. The radical of A contains every left nil ideal of A.
+#### Theorem 1 {#alg-viii-s9-thm-1 .statement tag=00S5}
+
+The radical of a ring A consists of the elements $x\in A$ such that $1 +ax$ is left invertible (I, §2, No. 3, p. 15) for every $a\in A$. It is also the largest two-sided ideal $\mathfrak{a}$ such that $1 +x$ is invertible for every $x\in \mathfrak{a}$. The radical of A contains every left nil ideal of A.
 
 The element 1 generates the A-module $A_s$, and $1 +ax$ is left invertible if and only if it generates the A-module $A_s$. The first assertion of Theorem 1 is therefore a specific case of the corollary of Proposition 2 (VIII, p. 153).
 
@@ -185,25 +187,25 @@ Let $x\in \mathfrak{R}(A)$. By the above, $1 +x$ is left invertible; let $y$ be 
 
 Let $\mathfrak{a}$ be a left ideal of A such that $1 +x$ is invertible for every $x\in \mathfrak{a}$. This holds, for example, when $\mathfrak{a}$ is a nil ideal because the relation $x^n= 0$ implies that $1-x+\cdots + (-x)^{n-1}$ is the inverse of $1 +x$. Let $x\in \mathfrak{a}$. For every $a\in A$, we have $ax\in \mathfrak{a}$, so $1 +ax$ is invertible; hence, we have $x\in \mathfrak{R}(A)$. It follows that $\mathfrak{a}$ is contained in $\mathfrak{R}(A)$.
 
-#### Corollary 1 {#alg-viii-s9-prop-5-cor-1 .statement tag=00AG}
+#### Corollary 1 {#alg-viii-s9-thm-1-cor-1 .statement tag=00AG}
 
 The radical of A is equal to the radical of the opposite ring $A^o$, that is, to the intersection of the maximal right ideals of A.
 
 For every $x\in \mathfrak{R}$(A), $1 +x$ is invertible in the ring A, hence in the ring $A^o$. Since $\mathfrak{R}(A)$ is a two-sided ideal of $A^o$, we have $\mathfrak{R}(A)\subset \mathfrak{R}(A^o)$. The equality follows by interchanging the roles of A and $A^o$.
 
-#### Corollary 2 {#alg-viii-s9-prop-5-cor-2 .statement tag=00AH}
+#### Corollary 2 {#alg-viii-s9-thm-1-cor-2 .statement tag=00AH}
 
 An element of A is invertible if and only if its canonical image in the ring $A/\mathfrak{R}(A)$ is invertible.
 
 The condition is obviously necessary. Let us prove that it is sufficient. Let $x$ be an element of A whose canonical image in the ring $A/\mathfrak{R}(A)$ is invertible. There then exists an element $y$ of A such that $xy$ belongs to $1 +\mathfrak{R}(A)$. By Theorem 1$,xy$ is invertible; hence $x$ is right invertible. The proof that $x$ is left invertible is analogous.
 
-#### Corollary 3 {#alg-viii-s9-prop-5-cor-3 .statement tag=00AI}
+#### Corollary 3 {#alg-viii-s9-thm-1-cor-3 .statement tag=00AI}
 
 The radical of the product of a family $(A_i)_{i\in I}$ of rings is the product of the $\mathfrak{R}(A_i)$.
 
 Let $x= (x_i)_{i\in I}$ be an element of $\prod_{i\in I}A_i$. For every element $a= (a_i)_{i\in I}$ of $\prod_{i\in I}A_i$, the element $1 +ax$ is left invertible if and only if $1 +a_ix_i$ is left invertible in $A_i$ for every $i\in I$. Corollary 3 follows.
 
-#### Corollary 4 {#alg-viii-s9-prop-5-cor-4 .statement tag=00AJ}
+#### Corollary 4 {#alg-viii-s9-thm-1-cor-4 .statement tag=00AJ}
 
 The ring A is local if and only if the ring $A/\mathfrak{R}(A)$ is a field. If this is the case, then $\mathfrak{R}(A)$ is the set of noninvertible elements of A.
 
@@ -239,7 +241,9 @@ Let P be a maximal submodule of M; the A-module $M/P$ is simple, hence annihilat
 
 We clearly have $\mathfrak{R}(A_s) =\mathfrak{R}(A)A_s$. If the A-module M is projective, then there exists an A-module N such that $M\oplus N$ is free, that is, the direct sum of a family $(L_i)_{i\in I}$ of modules isomorphic to $A_s$. By Corollary 2 of VIII, p. 152, we have $\mathfrak{R}(M\oplus N) =\mathfrak{R}(M)\oplus \mathfrak{R}(N)$ and $\mathfrak{R}\bigoplus_{i\in I}L_i=\bigoplus_{i\in I}\mathfrak{R}(L_i)$. We then deduce $\mathfrak{R}(M) =\mathfrak{R}(A)M$ from the equality $\mathfrak{R}(L_i) =\mathfrak{R}(A)L_i$.
 
-Theorem 2 (“Nakayama’s lemma”). — Let M be an A-module and $\mathfrak{a}$ a two-sided ideal of A. Suppose that one of the following conditions is satisfied:
+#### Theorem 2 {#alg-viii-s9-thm-2 .statement tag=00S6}
+
+Let M be an A-module and $\mathfrak{a}$ a two-sided ideal of A. Suppose that one of the following conditions is satisfied:
 
 (i) The A-module M is finitely generated, and $\mathfrak{a}$ is contained in the radical of A.
 
@@ -249,11 +253,15 @@ Suppose that M is finitely generated and that we have $\mathfrak{a}\subset \math
 
 Now suppose that $\mathfrak{a}$ is nilpotent, and let N be a submodule of M such that $M = N +\mathfrak{a}M$. By induction on the integer $n\geqslant 0$, we establish the relation $M = N +\mathfrak{a}^nM$. By assumption, there exists an integer $n\geqslant 0$ such that $\mathfrak{a}^n= 0$; hence M = N.
 
-The last assertion of the theorem follows from the above by taking N to be 0. **Corollary 1.** — We keep the assumptions of Theorem 2. Let $(x_i)_{i\in I}$ be a family of elements of M, and let $x_i$ be the canonical image of $x_i$ in $M/\mathfrak{a}M$. If the family $(x_i)_{i\in I}$ generates the $(A/\mathfrak{a})$-module $M/\mathfrak{a}M$, then the family $(x_i)_{i\in I}$ generates the A-module M.
+The last assertion of the theorem follows from the above by taking N to be 0.
+
+#### Corollary 1 {#alg-viii-s9-thm-2-cor-1 .statement tag=00R9}
+
+We keep the assumptions of Theorem 2. Let $(x_i)_{i\in I}$ be a family of elements of M, and let $x_i$ be the canonical image of $x_i$ in $M/\mathfrak{a}M$. If the family $(x_i)_{i\in I}$ generates the $(A/\mathfrak{a})$-module $M/\mathfrak{a}M$, then the family $(x_i)_{i\in I}$ generates the A-module M.
 
 This follows from Theorem 2 applied to the submodule N of M generated by the family $(x_i)_{i\in I}$.
 
-#### Corollary 2 {#alg-viii-s9-prop-6-cor-2 .statement tag=00AP}
+#### Corollary 2 {#alg-viii-s9-thm-2-cor-2 .statement tag=00AP}
 
 We keep the assumptions of Theorem 2. Furthermore, let $M'$ be an A-module and $u: M'\rightarrow M$ be a homomorphism. If the homomorphism $u$ from $M'/\mathfrak{a}M'$ to $M/\mathfrak{a}M$ deduced from $u$ by passing to the quotients is surjective, then $u$ is surjective.
 
@@ -421,7 +429,11 @@ Such a pair $(P, u)$ is a projective cover of M viewed as an A-module.
 
 There exists an $A/\mathfrak{a}$-module $M'$ such that $M\oplus M'$ is a free $A/\mathfrak{a}$-module. Choose a free A-module L and a surjective A-linear mapping $v: L\rightarrow M\oplus M'$ with kernel $\mathfrak{a}L$. By Corollary 1 of Proposition 7 (VIII, p. 159), there exists a direct sum decomposition $L = P\oplus P'$ such that $v(P) = M$ and $v(P') = M'$. The A-module P is projective, and the A-linear mapping $u$ from P to M that coincides with $v$ on P is surjective, with kernel $\mathfrak{a}P$. The first assertion follows.
 
-Let P be a projective A-module and $u$ a homomorphism from P to M with kernel $\mathfrak{a}P$. By Proposition 10, the pair $(P, u)$ is a projective cover of M. **Corollary.** — Let P and $P'$ be projective A-modules. If the modules $P/\mathfrak{a}P$ and $P'/\mathfrak{a}P'$ are isomorphic, then P and $P'$ are isomorphic.
+Let P be a projective A-module and $u$ a homomorphism from P to M with kernel $\mathfrak{a}P$. By Proposition 10, the pair $(P, u)$ is a projective cover of M.
+
+#### Corollary {#alg-viii-s9-n5-cor-2 .statement tag=00RA}
+
+Let P and $P'$ be projective A-modules. If the modules $P/\mathfrak{a}P$ and $P'/\mathfrak{a}P'$ are isomorphic, then P and $P'$ are isomorphic.
 
 Since $P/\mathfrak{a}P$ and $P'/\mathfrak{a}P'$ are projective, the corollary follows from Proposition 11 and the uniqueness of the projective cover (VIII, p. 162, Corollary 1).
 

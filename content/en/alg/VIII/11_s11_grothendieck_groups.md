@@ -60,9 +60,9 @@ subsections:
       title: The Case of Simple Rings
       page: 204
       pdf_page: 221
-statements: 36
+statements: 37
 exercises: 14
-content_sha256: 43c4fc3157eb03357ce5af1f739bc4fc0f5e6f556b0bfd1f53da6b8eb9894034
+content_sha256: 89b47bf7329762cd09f5a9cb8c1b8e8d2b748d9d738a7749c31b090703db8421
 ---
 
 ## § 11. GROTHENDIECK GROUPS
@@ -737,7 +737,9 @@ The B-module $f^*(S)$ is semisimple and finitely generated, hence has finite len
 
 Now, in II, §5, No. 1, p. 277–278, formula (2) and Remark 2, we defined an E-linear bijection from Hom$_A(S, f_*(T))$ to Hom$_B(f^*(S),T)$. Assertion b) then follows from formula (20).
 
-Corollary (Frobenius reciprocity). — Suppose that A and B are semisimple algebras that are finite-dimensional over a commutative field K and that $f$ is K-linear. Then the K-vector spaces S, T, D, E, and H are finite-dimensional, and we have the equalities
+#### Corollary {#alg-viii-s11-n11-cor-1 .statement tag=00S7}
+
+Suppose that A and B are semisimple algebras that are finite-dimensional over a commutative field K and that $f$ is K-linear. Then the K-vector spaces S, T, D, E, and H are finite-dimensional, and we have the equalities
 
 $$
 [f_*(T) : S][D : K] = [f^*(S) : T][E : K] = [H : K] \tag{21}

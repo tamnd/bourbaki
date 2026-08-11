@@ -44,9 +44,9 @@ subsections:
       title: Cogebra Structure on the Restricted Dual
       page: 388
       pdf_page: 405
-statements: 29
+statements: 31
 exercises: 6
-content_sha256: 1d0bea9da71f1d474bab52fb79dad379d7f0ae1c832d0506adb090e44acc35a4
+content_sha256: 5c14337987c43576dc4e07d4f1911999c6fcabc1106ae8074ea6c439dcec663f
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -345,7 +345,11 @@ Let $\mathscr{S}_0$ be the set of classes of simple A-modules of finite
 
 dimension over K with nonzero trace. The family of linear forms (Tr$_S)_{S\in\mathscr{S}_0}$ is free over K.
 
-Let F be a finite subset of $\mathscr{S}_0$, and let S be an element of F. By assumption, there exists an element $a\in A$ such that Tr$_S(a)\not= 0$. By Corollary 1 of Proposition 4 (VIII, p. 83), there exists an element $b\in A$ such that $b_S=a_S$ and $b_T= 0$ for every $T\in F\{S\}$. We have Tr$_S(b)\not= 0$ and Tr$_T(b) = 0$ for $T\in F\{S\}$. The family (Tr$_S)_{S\in F}$ is therefore free. Proposition 6 follows. **Remark.** — Let $\mathscr{S}_K$ be the set of classes of simple A-modules of finite dimension over K. Proposition 6 also follows from the fact that the sum of the $Θ_S$(A), for S running through $\mathscr{S}_K$, is direct.
+Let F be a finite subset of $\mathscr{S}_0$, and let S be an element of F. By assumption, there exists an element $a\in A$ such that Tr$_S(a)\not= 0$. By Corollary 1 of Proposition 4 (VIII, p. 83), there exists an element $b\in A$ such that $b_S=a_S$ and $b_T= 0$ for every $T\in F\{S\}$. We have Tr$_S(b)\not= 0$ and Tr$_T(b) = 0$ for $T\in F\{S\}$. The family (Tr$_S)_{S\in F}$ is therefore free. Proposition 6 follows.
+
+#### Remark {#alg-viii-s20-n6-rem-1 .statement tag=00RR}
+
+Let $\mathscr{S}_K$ be the set of classes of simple A-modules of finite dimension over K. Proposition 6 also follows from the fact that the sum of the $Θ_S$(A), for S running through $\mathscr{S}_K$, is direct.
 
 Let
 
@@ -489,7 +493,11 @@ $$
 \langle j_2(t), a\otimes b\rangle =m_K\circ (\eta (a)\otimes \eta (b))(t) \tag{14}
 $$
 
-for every $t\in Θ(A)\otimes Θ(A)$. **Lemma 2.** — Let $c: Θ(A)\rightarrow Θ(A)\otimes Θ(A)$ be a K-linear mapping. Then $\eta$ is a homomorphism from A to the dual algebra of the cogebra $(Θ(A), c)$ if and only if the following diagram commutes:
+for every $t\in Θ(A)\otimes Θ(A)$.
+
+#### Lemma 2 {#alg-viii-s20-lem-2 .statement tag=00RS}
+
+Let $c: Θ(A)\rightarrow Θ(A)\otimes Θ(A)$ be a K-linear mapping. Then $\eta$ is a homomorphism from A to the dual algebra of the cogebra $(Θ(A), c)$ if and only if the following diagram commutes:
 
 Θ(A) $^c$ // $Θ(A)\otimes Θ(A)$ (15) $j_{_1}j_{_2}$
 

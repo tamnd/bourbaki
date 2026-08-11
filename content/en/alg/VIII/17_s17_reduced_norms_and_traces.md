@@ -36,9 +36,9 @@ subsections:
       title: Reduced Norms and Determinants
       page: 349
       pdf_page: 366
-statements: 27
+statements: 31
 exercises: 7
-content_sha256: 57498b744c0701efed4ee2ca7fbd56824705c2794b8ffd7b46d327b290890a8f
+content_sha256: d50c90109a6ad103464b647ccf2be302c585d087af37fabd733e5d4785ea4d41
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -197,7 +197,11 @@ Set P(X) = det(X$I_n-\theta (1\otimes a))$; it is a monic polynomial in L[X]. By
 
 (19) Pc($a; X) = P(X)^n$.
 
-Let G be the Galois group of L over K. For $\sigma \in G$, denote by $\sigma$ the automorphism of the ring L[X] that coincides with $\sigma$ on L and fixes X. Then K[X] is the set of polynomials Q of L[X] such that we have $\sigma (Q) = Q$ for every $\sigma \in G$ (V, §10, No. 1, p. 56, Theorem 1). Since the polynomial Pc($a; X) = P(X)^n$ belongs to K[X], we have $\sigma (P)^n= P^n$ for every $\sigma \in G$. By Lemma 2, we therefore have $\sigma (P) = P$ for every $\sigma \in G$, so P belongs to K[X]. **Definition 1.** — Let $a$ be an element of the algebra A. The reduced characteristic polynomial of $a$ (with respect to A) is the unique monic polynomial in K[X], denoted by Pcrd$_{A/K}(a; X)$, that satisfies the relation
+Let G be the Galois group of L over K. For $\sigma \in G$, denote by $\sigma$ the automorphism of the ring L[X] that coincides with $\sigma$ on L and fixes X. Then K[X] is the set of polynomials Q of L[X] such that we have $\sigma (Q) = Q$ for every $\sigma \in G$ (V, §10, No. 1, p. 56, Theorem 1). Since the polynomial Pc($a; X) = P(X)^n$ belongs to K[X], we have $\sigma (P)^n= P^n$ for every $\sigma \in G$. By Lemma 2, we therefore have $\sigma (P) = P$ for every $\sigma \in G$, so P belongs to K[X].
+
+#### Definition 1 {#alg-viii-s17-def-1 .statement tag=00RM}
+
+Let $a$ be an element of the algebra A. The reduced characteristic polynomial of $a$ (with respect to A) is the unique monic polynomial in K[X], denoted by Pcrd$_{A/K}(a; X)$, that satisfies the relation
 
 (20) Pc$_{A/K}(a; X) =$ Pcrd$_{A/K}(a; X)^n$.
 
@@ -229,7 +233,11 @@ An element $a$ of A is invertible if and only if its norm is nonzero (III, §9, 
 
 Let L be the field K(X) of rational fractions in one variable X. The reduced characteristic polynomial of an element $a$ of A is simply the reduced norm of the element $X\otimes 1-1\otimes a$ of the L-algebra $A_{(L)}$. This follows from the definition of the reduced characteristic polynomial and the formula (III, §9, No. 3, p. 544)
 
-(25) Pc$_{A/K}(a; X) = N_{A_{(L)}/L}(X\otimes 1-1\otimes a)$. **Examples.** — 1) By Theorem 1 of VIII, p. 120, there exist an integer $r\geqslant 1$ and a field D such that A is isomorphic to $\mathbf{M}_r(D)$. Let $d$ be the reduced degree of D over K; we have $r=n/d$. Let M be an A-module of finite length $`$; we will prove the formula (26) Pc$_{M/K}(a_M; X) =$ Pcrd$_{A/K}(a; X)^{d`}$
+(25) Pc$_{A/K}(a; X) = N_{A_{(L)}/L}(X\otimes 1-1\otimes a)$.
+
+#### Example 1 {#alg-viii-s17-n2-exa-1 .statement tag=00RN}
+
+By Theorem 1 of VIII, p. 120, there exist an integer $r\geqslant 1$ and a field D such that A is isomorphic to $\mathbf{M}_r(D)$. Let $d$ be the reduced degree of D over K; we have $r=n/d$. Let M be an A-module of finite length $`$; we will prove the formula (26) Pc$_{M/K}(a_M; X) =$ Pcrd$_{A/K}(a; X)^{d`}$
 
 for every element $a$ of A. The A-module $A_s$ has length $r$ (VIII, p. 121, Lemma 2). The A-modules $M^r$ and $A^`_s$ have the same length, so they are isomorphic, and we have
 
@@ -237,7 +245,9 @@ Pc$_{M/K}(a_M; X)^r=$ Pc$_{A/K}(a; X)^`$
 
 by formula (15) of III, §9, No. 2, p. 542. Since we have $rd=n$, formula (26) follows from formula (20) and Lemma 2 (VIII, p. 339).
 
-2) Consider the specific case when A is the algebra End$_K(V)$ of endomorphisms of a finite-dimensional K-vector space V. Taking M to be the simple A-module V, we obtain the relations
+#### Example 2 {#alg-viii-s17-n2-exa-2 .statement tag=00RO}
+
+Consider the specific case when A is the algebra End$_K(V)$ of endomorphisms of a finite-dimensional K-vector space V. Taking M to be the simple A-module V, we obtain the relations
 
 Pcrd$_{A/K}(u; X) =\chi_u(X)$, (27) Nrd$_{A/K}(u) =$ det($u)$,
 
@@ -275,7 +285,11 @@ Trd$_{A/K}(\lambda a) =\lambda$ Trd$_{A/K}(a)$, (37) Trd$_{A/K}(aa') =$ Trd$_{A/
 
 Nrd$_{A/K}(\lambda a) =\lambda^n$ Nrd$_{A/K}(a)$, (39) Trd$_{A/K}(1) =n$, Nrd$_{A/K}(1) = 1$.
 
-Since A is central simple and has reduced degree $n$ over K, there exist an extension L of K and a vector space V of dimension $n$ over L such that $A_{(L)}$ is isomorphic to the algebra End$_L(V)$ (VIII, p. 252, Theorem 1). Corollary 2 then follows from Corollary 1 and the properties of the trace and determinant of an endomorphism. In particular, formula (34) follows from the Cayley– Hamilton theorem (III, §8, No. 11, p. 541, Proposition 20, cf. also VIII, p. 338, Remark 2). **Corollary 3.** — Let $A^o$ be the opposite algebra of A. For every $a$ in A, we have
+Since A is central simple and has reduced degree $n$ over K, there exist an extension L of K and a vector space V of dimension $n$ over L such that $A_{(L)}$ is isomorphic to the algebra End$_L(V)$ (VIII, p. 252, Theorem 1). Corollary 2 then follows from Corollary 1 and the properties of the trace and determinant of an endomorphism. In particular, formula (34) follows from the Cayley– Hamilton theorem (III, §8, No. 11, p. 541, Proposition 20, cf. also VIII, p. 338, Remark 2).
+
+#### Corollary 3 {#alg-viii-s17-prop-4-cor-3 .statement tag=00RP}
+
+Let $A^o$ be the opposite algebra of A. For every $a$ in A, we have
 
 (40) Pcrd$_{A^o/K}(a; X) =$ Pcrd$_{A/K}(a; X)$, (41) Trd$_{A^o/K}(a) =$ Trd$_{A/K}(a)$, (42) Nrd$_{A^o/K}(a) =$ Nrd$_{A/K}(a)$.
 

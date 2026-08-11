@@ -44,9 +44,9 @@ subsections:
       title: Multiplicities and Lengths in Semisimple Modules
       page: 71
       pdf_page: 88
-statements: 42
+statements: 43
 exercises: 8
-content_sha256: 76cc6b788d562db4d619f498fd8e97341057d693eda2e62d7affee22d5fd46e3
+content_sha256: bda29ad6163475acd65e25c10f643007060b9bdb9d889c2ce464d921dc23c66b
 ---
 
 ## § 4. SEMISIMPLE MODULES
@@ -431,7 +431,11 @@ Let M be a semisimple A-module and N a submodule of M. The following properties 
 
 (iii) There exists a subset Λ of $\mathscr{S}$ such that $N =\bigoplus_{\lambda\in\Lambda}M_{\lambda}$.
 
-Choose a submodule $N'$ supplementary to N in M (VIII, p. 56, Corollary 2). If we identify M with $N'\times N$, then the submodules of M supplementary to N are the graphs of the A-linear mappings from $N'$ to N. Since $N'$ is isomorphic to $M/N$, we have proved the equivalence of properties (i) and (ii). By Proposition 5, b), the group Hom$_A(N',N)$ is isomorphic to the group $\prod_{\lambda\in\mathscr{S}}$ Hom$_A(N'_{\lambda},N_{\lambda})$. It is zero if and only if for every $\lambda \in \mathscr{S}$, we have $N_{\lambda}= 0$ or $N'_{\lambda}= 0$ (VIII, p. 61, Remark), that is, $N_{\lambda}= 0$ or $N_{\lambda}= M_{\lambda}$. This proves the equivalence of properties (ii) and (iii). **Corollary 2.** — Let M be an A-module. The following two conditions are equivalent:
+Choose a submodule $N'$ supplementary to N in M (VIII, p. 56, Corollary 2). If we identify M with $N'\times N$, then the submodules of M supplementary to N are the graphs of the A-linear mappings from $N'$ to N. Since $N'$ is isomorphic to $M/N$, we have proved the equivalence of properties (i) and (ii). By Proposition 5, b), the group Hom$_A(N',N)$ is isomorphic to the group $\prod_{\lambda\in\mathscr{S}}$ Hom$_A(N'_{\lambda},N_{\lambda})$. It is zero if and only if for every $\lambda \in \mathscr{S}$, we have $N_{\lambda}= 0$ or $N'_{\lambda}= 0$ (VIII, p. 61, Remark), that is, $N_{\lambda}= 0$ or $N_{\lambda}= M_{\lambda}$. This proves the equivalence of properties (ii) and (iii).
+
+#### Corollary 2 {#alg-viii-s4-prop-5-cor-2 .statement tag=00R0}
+
+Let M be an A-module. The following two conditions are equivalent:
 
 (i) Every submodule of M admits a unique supplementary submodule.
 

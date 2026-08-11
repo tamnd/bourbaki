@@ -25,10 +25,10 @@ books:
               last_pdf_page: 40
               book_pages: A VIII.1-A VIII.23
               subsections: 4
-              statements: 32
+              statements: 36
               exercises: 28
               extraction: native
-              content_sha256: 77443c27be06346c288e3d1177382bf078e623074399997285ec822cf3e2f114
+              content_sha256: 17a577e4eaa9e0a250681b465e79693fa82515b4e2c87bb92b49d011a6060bf6
             - kind: section
               section: 2
               title: The Structure of Modules of Finite Length
@@ -38,10 +38,10 @@ books:
               last_pdf_page: 60
               book_pages: A VIII.25-A VIII.43
               subsections: 5
-              statements: 32
+              statements: 36
               exercises: 20
               extraction: native
-              content_sha256: 4f8ec9fe81ed53bc963c7ee4b6fb29fe1910dc654aaad22572a2621a16b61d51
+              content_sha256: 855739a3a594aa080b0053029d1fe46cf69fa4fe5cf779a08f39dc35e62fc662
             - kind: section
               section: 3
               title: Simple Modules
@@ -51,10 +51,10 @@ books:
               last_pdf_page: 71
               book_pages: A VIII.45-A VIII.54
               subsections: 5
-              statements: 21
+              statements: 23
               exercises: 10
               extraction: native
-              content_sha256: bff4b36855d84372e48ee844b0f9e58c694e1d3c3aefe7f5ff2288527b337fc5
+              content_sha256: ce7818d73c4aee080876cf9de56bba17ff189b775538ee0630d9fc66b7284d90
             - kind: section
               section: 4
               title: Semisimple Modules
@@ -64,10 +64,10 @@ books:
               last_pdf_page: 92
               book_pages: A VIII.55-A VIII.75
               subsections: 8
-              statements: 42
+              statements: 43
               exercises: 8
               extraction: native
-              content_sha256: 76cc6b788d562db4d619f498fd8e97341057d693eda2e62d7affee22d5fd46e3
+              content_sha256: bda29ad6163475acd65e25c10f643007060b9bdb9d889c2ce464d921dc23c66b
             - kind: section
               section: 5
               title: Commutation
@@ -77,10 +77,10 @@ books:
               last_pdf_page: 111
               book_pages: A VIII.77-A VIII.94
               subsections: 6
-              statements: 30
+              statements: 37
               exercises: 19
               extraction: native
-              content_sha256: e2d55f11c654cb0136c8a1bdf9d055c9fab0ab00efe500fdc4d0249b5acdcd18
+              content_sha256: 6ac2bbce2629c544f3ed814f112db8c421bf00849d18c71039e05a825075f725
             - kind: section
               section: 6
               title: Morita Equivalence of Modules and Algebras
@@ -90,10 +90,10 @@ books:
               last_pdf_page: 134
               book_pages: A VIII.95-A VIII.117
               subsections: 7
-              statements: 38
+              statements: 40
               exercises: 8
               extraction: native
-              content_sha256: 7247f79a02d56b325141356c51660606638f51e4b32b25c8b8667bc792a2bc2b
+              content_sha256: bd9e56131a42521cd7086818affdc7acad2873f2051e0e67df237fd2555236eb
             - kind: section
               section: 7
               title: Simple Rings
@@ -103,10 +103,10 @@ books:
               last_pdf_page: 150
               book_pages: A VIII.119-A VIII.133
               subsections: 4
-              statements: 22
+              statements: 24
               exercises: 16
               extraction: native
-              content_sha256: 39372cb7ef9344a194e5d5d78881c045465016d4bdb225d3ad9672b4e8f0ff56
+              content_sha256: 1dc0bda650f6e556cd12d363f89202f948e2d0db02618c353b465b0fd7bd7538
             - kind: section
               section: 8
               title: Semisimple Rings
@@ -116,10 +116,10 @@ books:
               last_pdf_page: 167
               book_pages: A VIII.135-A VIII.150
               subsections: 4
-              statements: 28
+              statements: 30
               exercises: 6
               extraction: native
-              content_sha256: da4ff89d2eeac95bcf10bb021e3834690d77800f5226934e1d220ecada5e0c5a
+              content_sha256: 64eab2280fa2c91b04d77ab2d18a00a4d24c64ee0b127b6983192ba321bd8b11
             - kind: section
               section: 9
               title: Radical
@@ -129,10 +129,10 @@ books:
               last_pdf_page: 189
               book_pages: A VIII.151-A VIII.172
               subsections: 5
-              statements: 45
+              statements: 49
               exercises: 31
               extraction: native
-              content_sha256: 1421737f7e8dc14eac197b9d22f4bda5a3f520d97c91f66c9a3218e30c9d2094
+              content_sha256: 9fbad3b7175c586184c259fdf04cba1c8cf60ec9119fd4d42a587cc1a15c5524
             - kind: section
               section: 10
               title: Modules over an Artinian Ring
@@ -155,10 +155,10 @@ books:
               last_pdf_page: 227
               book_pages: A VIII.183-A VIII.210
               subsections: 12
-              statements: 36
+              statements: 37
               exercises: 14
               extraction: native
-              content_sha256: 43c4fc3157eb03357ce5af1f739bc4fc0f5e6f556b0bfd1f53da6b8eb9894034
+              content_sha256: 89b47bf7329762cd09f5a9cb8c1b8e8d2b748d9d738a7749c31b090703db8421
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -168,10 +168,10 @@ books:
               last_pdf_page: 245
               book_pages: A VIII.211-A VIII.228
               subsections: 7
-              statements: 22
+              statements: 26
               exercises: 17
               extraction: native
-              content_sha256: 97cef2717c03010166faabcbba65b348fbdf20e24464a0c7402a9c4d6bf65a86
+              content_sha256: 6ff787270f5a3acacd29d63eaadbd05ead83d719cc70f194ee15dfbb13c5e6ed
             - kind: section
               section: 13
               title: Absolutely Semisimple Algebras
@@ -181,10 +181,10 @@ books:
               last_pdf_page: 266
               book_pages: A VIII.229-A VIII.249
               subsections: 8
-              statements: 29
+              statements: 33
               exercises: 12
               extraction: native
-              content_sha256: 7281d931109fbb83b2ce126cdbce9087c26355392f7a986122f8e14f99d2cd2d
+              content_sha256: a0e8eb1674e4fbfdd111d6d5df4e6f6f34dbaa23a3f22b64a32e30f711407c2b
             - kind: section
               section: 14
               title: Central Simple Algebras
@@ -194,10 +194,10 @@ books:
               last_pdf_page: 293
               book_pages: A VIII.251-A VIII.276
               subsections: 8
-              statements: 34
+              statements: 36
               exercises: 19
               extraction: native
-              content_sha256: b3dc944521a1e95ad7af67b1a891d08ee44a2084c08da397c22d4c598cd50acd
+              content_sha256: 227306f7b5e0bf66357f879bdf91ad1f0c04280bc24f26e604bf81fb3bb77b2d
             - kind: section
               section: 15
               title: Brauer Groups
@@ -220,10 +220,10 @@ books:
               last_pdf_page: 350
               book_pages: A VIII.285-A VIII.333
               subsections: 11
-              statements: 59
+              statements: 63
               exercises: 17
               extraction: native
-              content_sha256: 63afe3b44e7f12ae0fa62317425b3b86339c7cde2bc918ef5c4bf52c283e9278
+              content_sha256: 0824fad8fb51a7ce1fb38bfbfdb348aff031ca2b85142925b45d44c84a916440
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -233,10 +233,10 @@ books:
               last_pdf_page: 370
               book_pages: A VIII.335-A VIII.353
               subsections: 6
-              statements: 27
+              statements: 31
               exercises: 7
               extraction: native
-              content_sha256: 57498b744c0701efed4ee2ca7fbd56824705c2794b8ffd7b46d327b290890a8f
+              content_sha256: d50c90109a6ad103464b647ccf2be302c585d087af37fabd733e5d4785ea4d41
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -246,10 +246,10 @@ books:
               last_pdf_page: 377
               book_pages: A VIII.355-A VIII.360
               subsections: 2
-              statements: 8
+              statements: 10
               exercises: 7
               extraction: native
-              content_sha256: 55ce189bde65d5a4fc9cc96634d7d85d5b7c704f19c4226923992331477d2d65
+              content_sha256: c717158c9516f199a1bd560bb7d48ade4a4d6f73c8ee8167c55dfa4307245d47
             - kind: section
               section: 19
               title: Quaternion Algebras
@@ -259,10 +259,10 @@ books:
               last_pdf_page: 388
               book_pages: A VIII.361-A VIII.371
               subsections: 5
-              statements: 15
+              statements: 16
               exercises: 8
               extraction: native
-              content_sha256: fdd1a0833fa16987a0a013f1272c1cd8a3aff99e109d6b4dc88fa964fca66210
+              content_sha256: 2ed25468c6c02edcdcc9b6ff91c9ab9a2c77baef515b75fd381034d306ae0c1e
             - kind: section
               section: 20
               title: Linear Representations of Algebras
@@ -272,10 +272,10 @@ books:
               last_pdf_page: 412
               book_pages: A VIII.373-A VIII.395
               subsections: 8
-              statements: 29
+              statements: 31
               exercises: 6
               extraction: native
-              content_sha256: 1d0bea9da71f1d474bab52fb79dad379d7f0ae1c832d0506adb090e44acc35a4
+              content_sha256: 5c14337987c43576dc4e07d4f1911999c6fcabc1106ae8074ea6c439dcec663f
             - kind: section
               section: 21
               title: Linear Representations of Finite Groups
@@ -285,10 +285,10 @@ books:
               last_pdf_page: 451
               book_pages: A VIII.397-A VIII.434
               subsections: 13
-              statements: 34
+              statements: 35
               exercises: 30
               extraction: native
-              content_sha256: 9e5a52dfee8167f4a05d01764dba3f21f8ff95f33573aa8649daad05b83199e4
+              content_sha256: e9f9fdcb0497d06a1d16d027e80b9d31a1c259c907dab18bcaed6027fc3b9702
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
@@ -298,10 +298,10 @@ books:
               last_pdf_page: 463
               book_pages: A VIII.435-A VIII.446
               subsections: 4
-              statements: 18
+              statements: 20
               exercises: 15
               extraction: native
-              content_sha256: 44e403c0945b2519ffd123c75070328ee664c4277fc4096a56bd54e96957556d
+              content_sha256: 0d3dd5f4cb98ff45cd9c63f353e2b5c7db43ddae989327ad70012187ce9f7a80
             - kind: appendix
               section: 2
               title: Determinants over a Noncommutative Field
@@ -311,10 +311,10 @@ books:
               last_pdf_page: 477
               book_pages: A VIII.447-A VIII.460
               subsections: 5
-              statements: 17
+              statements: 18
               exercises: 4
               extraction: native
-              content_sha256: ed814906495308b4a168f1943d225c67a451b95af1b84926d5796813fd137fe8
+              content_sha256: 5ccc6dff3962fc038b71e7a61f51b641d99b52575911bb6b786970c40d0a0be8
             - kind: appendix
               section: 3
               title: Hilbert’s Nullstellensatz
@@ -324,10 +324,10 @@ books:
               last_pdf_page: 479
               book_pages: A VIII.461-A VIII.462
               subsections: 0
-              statements: 2
+              statements: 3
               exercises: 0
               extraction: native
-              content_sha256: 291cfaa96d3e6250d302dcd33f074f713b28bd882b3c3f11b7d7e2749b8b68db
+              content_sha256: f6e8ec0203221f094bc10905afedeabd7014c82f4b1e8bd6ecf896a8e24d78a2
             - kind: appendix
               section: 4
               title: Trace of an Endomorphism of Finite Rank

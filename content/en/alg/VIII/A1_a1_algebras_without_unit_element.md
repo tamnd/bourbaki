@@ -29,9 +29,9 @@ subsections:
       title: Density Theorem
       page: 442
       pdf_page: 459
-statements: 18
+statements: 20
 exercises: 15
-content_sha256: 44e403c0945b2519ffd123c75070328ee664c4277fc4096a56bd54e96957556d
+content_sha256: 0d3dd5f4cb98ff45cd9c63f353e2b5c7db43ddae989327ad70012187ce9f7a80
 ---
 
 ## APPENDIX 1 ALGEBRAS WITHOUT UNIT ELEMENT
@@ -168,7 +168,11 @@ Let $\mathfrak{m}$ be a regular maximal left ideal of A. We have seen that there
 
 Under the assumptions of b), the set of elements $y$ of M such that $Ay= 0$ is a sub-pseudomodule of M different from M and therefore reduced to 0. Consequently, $Ax$ is a nonzero sub-pseudomodule of M, which implies $M = Ax$. Assertion b) then follows from the remarks before Definition 2.
 
-Let M be a nonzero pseudomodule. Suppose that we have $Ax= M$ for every nonzero element $x$ of M. In particular, we have AM $\not= 0$. Let N be a nonzero sub-pseudomodule of M, and let $x$ be a nonzero element of N. We have $Ax= M$, and therefore N = M. Hence M is simple. Conversely, if M is simple, then we have $M = Ax$ for every $x\not= 0$ by b). **Definition 3.** — The radical of the $k$-algebra A, denoted by $<(A)$, is the intersection of the regular maximal left ideals of A.
+Let M be a nonzero pseudomodule. Suppose that we have $Ax= M$ for every nonzero element $x$ of M. In particular, we have AM $\not= 0$. Let N be a nonzero sub-pseudomodule of M, and let $x$ be a nonzero element of N. We have $Ax= M$, and therefore N = M. Hence M is simple. Conversely, if M is simple, then we have $M = Ax$ for every $x\not= 0$ by b).
+
+#### Definition 3 {#alg-viii-a1-def-3 .statement tag=00RT}
+
+The radical of the $k$-algebra A, denoted by $<(A)$, is the intersection of the regular maximal left ideals of A.
 
 When A is a ring, every left ideal of A is regular, so the definition of the radical coincides with Definition 2 of VIII, p. 154.
 
@@ -212,7 +216,9 @@ Let M be a semisimple left A-pseudomodule, and let $x$ be an element of M. There
 
 Let N be the left A-pseudomodule $\widetilde{A}x/Ax$. It satisfies AN $=\{0\}$. By Corollary 3 of VIII, p. 56 applied to the $\widetilde{A}$-modules M and $\widetilde{A}x$, the A-pseudomodule N is semisimple. By definition, every simple sub-pseudomodule S of N satisfies AS $\not=\{0\}$. Consequently, the pseudomodule N is zero, and we obtain that $x\in Ax$.
 
-Theorem 1 (Jacobson’s density theorem). — Let M be a semisimple left A-pseudomodule. Let $b$ be an element of the bicommutant of the $\widetilde{A}$-module M. Let $F =\{x_1, . . . , x_n\}$ be a finite subset of M. Then there exists an element $a\in A$ such that $bx_i=ax_i$ for every $i\in [1, n]$.
+#### Theorem 1 {#alg-viii-a1-thm-1 .statement tag=00SD}
+
+Let M be a semisimple left A-pseudomodule. Let $b$ be an element of the bicommutant of the $\widetilde{A}$-module M. Let $F =\{x_1, . . . , x_n\}$ be a finite subset of M. Then there exists an element $a\in A$ such that $bx_i=ax_i$ for every $i\in [1, n]$.
 
 Let B be the bicommutant of the $\widetilde{A}$-module M. The A-pseudomodule $M^n$ is semisimple. Let $\boldsymbol{x}= (x_1, . . . , x_n)\in M^n$. It follows from Lemma 2 that $\boldsymbol{x}\in$ $A\boldsymbol{x}$. The bicommutant of the $\widetilde{A}$-module $M^n$ coincides with the homotheties of the B-module $M^n$ (VIII, p. 79, Proposition 2). By Lemma 1, the A-sub-pseudomodule $A\boldsymbol{x}$ of $M^n$ is therefore a B-submodule of $M^n$. We therefore have the inclusion $B\boldsymbol{x}\subset A\boldsymbol{x}$. So there exists an $a\in A$ such that $b\boldsymbol{x}=a\boldsymbol{x}$. The result follows.
 
