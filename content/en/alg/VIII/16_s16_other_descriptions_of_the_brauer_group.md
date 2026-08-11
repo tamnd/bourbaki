@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: ebd7e8eece7c424f3ed9dcc91462fa345d60a1e3b0ddc8994bba6f89de1d899d
+content_sha256: 3ce588b586e5986731a569938b298c249afbcb121f99cd19603fa4b20b307b42
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -713,10 +713,10 @@ $$
 \widetilde{t}_s(g) =_{x\in}\prod_{H\backslash G}^{s(x)^{-1}}t(s(x)gs(x\cdot g)^{-1})
 $$
 
-for $g\in G$. It suffices to prove that $\widetilde{c}_s=\partial \widetilde{t}_s$, which follows from the relations $\widetilde{c}_s(g_1, g_2) =\prod^{s(x)^{-1}s(x)g_1s(x\cdot g_1)^{-1}}t(s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})$
+for $g\in G$. It suffices to prove that $\widetilde{c}_s=\partial \widetilde{t}_s$, which follows from the relations $\widetilde{c}_s(g_1, g_2) =_{x\in}\prod_{H\backslash G}^{s(x)^{-1}s(x)g_1s(x\cdot g_1)^{-1}}t(s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})$
 
 $$
-\times^{x\in}_x^H_{\in}\prod^{\backslash}_H^G_{\backslash G}^{s(x)^{-1}}t(s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}t(s(x)g_1s(x\cdot g_1)^{-1})
+\times_{x\in}\prod_{H\backslash G}^{s(x)^{-1}}t(s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}t(s(x)g_1s(x\cdot g_1)^{-1})
 $$
 
 $$
@@ -741,10 +741,12 @@ $$
 \widetilde{c}_{s'}(g_1, g_2)
 $$
 
-= $\prod^{s(x)^{-1}h(x)^{-1}}c h(x)s(x)g_1s'(x\cdot g_1)^{-1}, s'(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}$
+$$
+=_{x\in}\prod_{H\backslash G}^{s(x)^{-1}h(x)^{-1}}c h(x)s(x)g_1s'(x\cdot g_1)^{-1}, s'(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}
+$$
 
 $$
-=^x_x^{\in}_{\in}\prod^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}h(x\cdot g_1)^{-1}, h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}
+=_{x\in}\prod_{H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}h(x\cdot g_1)^{-1}, h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}
 $$
 
 $\prod s(x)_{-1}-1''-1-1$
@@ -814,11 +816,11 @@ $x\in H\backslash G$
 $=_{x\in}\prod_{H\backslash G}^{g_1s(x\cdot g_1)^{-1}}c s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}, h(x\cdot g_1g_2)^{-1-1}$
 
 $$
-\times \prod^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}
+\times_{x\in}\prod_{H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}
 $$
 
 $$
-\times^x_x^{\in}_{\in}\prod^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}c s(x)g_1g_2s(x\cdot g_1g_2)^{-1}, h(x\cdot g_1g_2)^{-1}
+\times_{x\in}\prod_{H\backslash G}^{s(x)^{-1}}c s(x)g_1g_2s(x\cdot g_1g_2)^{-1}, h(x\cdot g_1g_2)^{-1}
 $$
 
 $-1-1-1$
@@ -852,35 +854,37 @@ Let H be a subgroup of G of finite index. The endomorphism Cor$^G_H\circ$ Res$^G
 Let $\alpha$ be an element of $H^2(G,F)$, and let $c$ be an element of $Z^2(G,F)$ representing $\alpha$. The element Cor$^G_H\circ$ Res$^G_H(\alpha )$ is the class of the cocycle whose value in $(g_1, g_2)\in G^2$ is given by the expression
 
 $$
-\prod^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})
+_{x\in}\prod_{H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})
 $$
 
 $$
-^x=^{\in H\backslash}\prod^Gc(g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})
+=_{x\in}\prod_{H\backslash G}c(g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})
 $$
 
 $$
-\times^{x\in H}\prod^{\backslash G}c(s(x)^{-1}, s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x\cdot g_1)^{-1})
-$$
-
-= $\prod^{x\in H\backslash gG_1}c(s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})$
-
-$$
-\times^{x\in H}\prod^{\backslash G}c(g_1, g_2s(x\cdot g_1g_2)^{-1})c(g_1, s(x\cdot g_1)^{-1})^{-1}
+\times_{x\in}\prod_{H\backslash G}c(s(x)^{-1}, s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x\cdot g_1)^{-1})
 $$
 
 $$
-\times^x_x^{\in}_{\in}\prod^H_H^{\backslash}_{\backslash}^G_Gc(s(x)^{-1}, s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x\cdot g_1)^{-1})
-$$
-
-= $\prod c(g_1, g_2s(x\cdot g_1g_2)^{-1})c(g_1, s(x\cdot g_1)^{-1})^{-1}$
-
-$$
-\times^{x\in H}\prod^{\backslash Gg_1}c(s(x)^{-1}, s(x)g_2s(xg_2)^{-1})
+=_{x\in}\prod_{H\backslash G}^{g_1}c(s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})
 $$
 
 $$
-\times^x_x^{\in}_{\in}\prod^H_H^{\backslash}_{\backslash}^G_Gc(s(x)^{-1}, s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x\cdot g_1)^{-1})
+\times_{x\in}\prod_{H\backslash G}c(g_1, g_2s(x\cdot g_1g_2)^{-1})c(g_1, s(x\cdot g_1)^{-1})^{-1}
+$$
+
+$$
+\times_{x\in}\prod_{H\backslash G}c(s(x)^{-1}, s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x\cdot g_1)^{-1})
+$$
+
+$=_{x\in}\prod_{H\backslash G}c(g_1, g_2s(x\cdot g_1g_2)^{-1})c(g_1, s(x\cdot g_1)^{-1})^{-1}$
+
+$$
+\times_{x\in}\prod_{H\backslash G}^{g_1}c(s(x)^{-1}, s(x)g_2s(xg_2)^{-1})
+$$
+
+$$
+\times_{x\in}\prod_{H\backslash G}c(s(x)^{-1}, s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x\cdot g_1)^{-1})
 $$
 
 The first equality comes from the cocycle relation (VIII, p. 295, formula (7)) applied to the elements
@@ -894,19 +898,19 @@ $g_1,s(x\cdot g_1)^{-1}$, and $s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}$.
 By removing a coboundary, we obtain that Cor$^G_H\circ$ Res$^G_H(\alpha )$ is the class of the cocycle whose value in $(g_1, g_2)\in G^2$ is given by the expression
 
 $$
-\prod c(g_1, g_2s(x\cdot g_1g_2)^{-1})c(g_1, s(x\cdot g_1)^{-1})^{-1}
+_{x\in}\prod_{H\backslash G}c(g_1, g_2s(x\cdot g_1g_2)^{-1})c(g_1, s(x\cdot g_1)^{-1})^{-1}
 $$
 
 $$
-^x=^{\in H\backslash}\prod^{Gg_1}c(g_2, s(x\cdot g_1g_2)^{-1})^{-1}c(g_1g_2, s(x\cdot g_1g_2)^{-1})c(g_1, g_2)
+=_{x\in}\prod_{H\backslash G}^{g_1}c(g_2, s(x\cdot g_1g_2)^{-1})^{-1}c(g_1g_2, s(x\cdot g_1g_2)^{-1})c(g_1, g_2)
 $$
 
 $$
-\times^{x\in H}\prod^{\backslash G}c(g_1, s(x\cdot g_1)^{-1})^{-1}
+\times_{x\in}\prod_{H\backslash G}c(g_1, s(x\cdot g_1)^{-1})^{-1}
 $$
 
 $$
-=_{x\in}\prod^{x\in H\backslash gG_1}_{H\backslash G}c(g_2, s(x\cdot g_2)^{-1})^{-1}c(g_1g_2, s(x\cdot g_1g_2)^{-1})c(g_1, s(x\cdot g_1)^{-1})^{-1}
+=_{x\in}\prod_{H\backslash G}^{g_1}c(g_2, s(x\cdot g_2)^{-1})^{-1}c(g_1g_2, s(x\cdot g_1g_2)^{-1})c(g_1, s(x\cdot g_1)^{-1})^{-1}
 $$
 
 $$

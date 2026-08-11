@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: 389167b74f75d049c2ec961babd0124f4e6c6b6e1e3721a154859cd3f500011d
+content_sha256: 7e2ccd5502e156c2c28d736280e40b2421899df1c93483c8d33399cddccfb6b4
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -381,7 +381,7 @@ b) Suppose that the field K is perfect of nonzero characteristic $p$. Then the h
 
 Let $\mathscr{S}_K$ be the set of classes of simple A-modules of finite dimension over K. The elements [S], where S runs through $\mathscr{S}_K$, form a basis of the $\mathbf{Z}$-module $R_K$(A), so the elements $1\otimes [S]$ form a basis of the K-vector space $K\otimes_{\mathbf{Z}}R_K(A)$ (VIII, p. 195).
 
-Suppose that the field K is perfect. By Proposition 6 and the corollary of VIII, p. 383, the elements $\theta ([S]) =\theta_K(1\otimes [S]) =$ Tr$_S$ of $A^*$ are linearly independent over K. It follows that the homomorphism $\theta_K$ is injective and that the kernel of the homomorphism $\theta$ consists of the elements $\sum_{S\in\mathscr{S}}n_S[S]$ of $R_K(A)$ such that $n_S\cdot 1_K= 0$ for every $S\in \mathscr{S}_K$. The kernel of $\theta$ is therefore$^{^K}$ equal to $pR_K$(A), where $p$ is the characteristic of K. In particular, if K has characteristic 0, then the homomorphism $\theta$ is injective.
+Suppose that the field K is perfect. By Proposition 6 and the corollary of VIII, p. 383, the elements $\theta ([S]) =\theta_K(1\otimes [S]) =$ Tr$_S$ of $A^*$ are linearly independent over K. It follows that the homomorphism $\theta_K$ is injective and that the kernel of the homomorphism $\theta$ consists of the elements $\sum_{S\in\mathscr{S}_K}n_S[S]$ of $R_K(A)$ such that $n_S\cdot 1_K= 0$ for every $S\in \mathscr{S}_K$. The kernel of $\theta$ is therefore equal to $pR_K$(A), where $p$ is the characteristic of K. In particular, if K has characteristic 0, then the homomorphism $\theta$ is injective.
 
 The last assertion of a) follows from the corollary of VIII, p. 190.
 
@@ -552,11 +552,11 @@ $$
 By the corollary of VIII, p. 379, there exists a left A-module E of finite dimension over K with $f$ as a coefficient. Let $(e_1, . . . , e_n)$ be a basis of E, $(e^*_1, . . . , e^*_n)$ the dual basis, $x$ an element of E, and $x^*$ an element of $E^*$ such that $f=c_E(x, x^*)$. Set $f_i'=c_E(e_i, x^*)$ and $f_i''=c_E(x, e^*_i)$ for $i\in [1, n]$; for $a, b$ in A, we have
 
 $$
-f(ab) =\langle x^*, abx\rangle =\langle x^*a, bx\rangle =\sum\langle x^*a, e_i\rangle e^*_i, bx
+f(ab) =\langle x^*, abx\rangle =\langle x^*a, bx\rangle =\sum_i\langle x^*a, e_i\rangle e^*_i, bx
 $$
 
 $$
-=\sum_i\langle x^*a, e_i\rangle \langle e^*_i, bx\rangle =\sum_i\langle x^{i*}, ae_i\rangle \langle e^*_i, bx\rangle =\sum_if_i'(a)f_i''(b)
+=\sum_i\langle x^*a, e_i\rangle \langle e^*_i, bx\rangle =\sum_i\langle x^*, ae_i\rangle \langle e^*_i, bx\rangle =\sum_if_i'(a)f_i''(b)
 $$
 
 and therefore (16).

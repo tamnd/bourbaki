@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 86e10c5c95efe735bb807b7c68296ac5f9953abf696d0687c901c1629d6546e6
+content_sha256: f2a1f7c3feea4747a98631a4c6911638bf3bf0dd7c0f2ce0d194fcf66387af42
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -369,17 +369,17 @@ $$
 
 Denote by $\widehat{\tau}$ the trace in the algebra $F(\widehat{G})$. Let $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ be an element of $F(\widehat{G})$; we have (cf. III, §9, No. 3, p. 545, Example 3)
 
-(10) $\widehat{\tau}(A) =\sum d_{\lambda}$ Tr(A$_{\lambda})$.
+(10) $\widehat{\tau}(A) =_{\lambda}\sum_{\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda})$.
 
-Since the mapping $\mathscr{F}$ is a K-algebra isomorphism, we have$^{\lambda\in\widehat{G}}\widehat{\tau}\circ \mathscr{F}=\tau$, and therefore
+Since the mapping $\mathscr{F}$ is a K-algebra isomorphism, we have $\widehat{\tau}\circ \mathscr{F}=\tau$, and therefore
 
-$\tau (a) =\widehat{\tau}(\mathscr{F}(a)) =\widehat{\tau}(\pi_{\lambda}(a))_{\lambda\in\widehat{G}}=\sum d_{\lambda}$ Tr($\pi_{\lambda}(a)$) $=\sum d_{\lambda}$ Tr$_{\lambda}(a)$
+$\tau (a) =\widehat{\tau}(\mathscr{F}(a)) =\widehat{\tau}(\pi_{\lambda}(a))_{\lambda\in\widehat{G}}=_{\lambda}\sum_{\in\widehat{G}}d_{\lambda}$ Tr($\pi_{\lambda}(a)$) $=_{\lambda}\sum_{\in\widehat{G}}d_{\lambda}$ Tr$_{\lambda}(a)$
 
-for every $a\in K[G]$, that is $\lambda^{\in\widehat{G}\lambda\in\widehat{G}}$
+for every $a\in K[G]$, that is
 
-(11) $\tau =\sum d_{\lambda}$ Tr$_{\lambda}$.
+(11) $\tau =_{\lambda}\sum_{\in\widehat{G}}d_{\lambda}$ Tr$_{\lambda}$.
 
-Therefore, by (2) of VIII, p. 399$,^{\lambda}$for$^{\in\widehat{G}}g\in G$, we have
+Therefore, by (2) of VIII, p. 399, for $g\in G$, we have
 
 $\sum|G|$ if $g$ is the identity element,
 
@@ -387,9 +387,9 @@ $$
 d_{\lambda}\chi_{\lambda}(g) = \tag{12}
 $$
 
-0 otherwise.
+$_{\lambda\in\widehat{G}}$ 0 otherwise.
 
-For $a\in K[G]$, relation $(^{\lambda\in\widehat{G}}$ 9) takes on the following form:
+For $a\in K[G]$, relation (9) takes on the following form:
 
 (13) $a=|G|^{-1}_g\sum_{\in G\lambda}\sum_{\in\widehat{G}}d_{\lambda}$ Tr($\pi_{\lambda}(a)\pi_{\lambda}(g^{-1})$)$g$;
 
@@ -415,9 +415,9 @@ $$
 
 These elements satisfy the relations
 
-(18) $\sum e_{\lambda}= 1,e^2_\mu=e_\mu$, and $e_\mu e_{\nu}= 0$
+(18) $\lambda \sum_{\in\widehat{G}}e_{\lambda}= 1,e^2_\mu=e_\mu$, and $e_\mu e_{\nu}= 0$
 
-for all $\mu, \nu \in \widehat{G}$ such that$^{\lambda\in\widehat{G}}\mu\not=\nu$; they are the indecomposable idempotents of Z(K[G]) (VIII, p. 147, Proposition 15)
+for all $\mu, \nu \in \widehat{G}$ such that $\mu\not=\nu$; they are the indecomposable idempotents of Z(K[G]) (VIII, p. 147, Proposition 15)
 
 #### Remark {#alg-viii-s21-n5-rem-1 .statement tag=00NR}
 
@@ -528,10 +528,10 @@ for $\lambda$ and $\mu$ in $\widehat{G}$.
 Denote by A the matrix of type $\widehat{G}\times \mathscr{C}$ with entries $\chi_{\lambda}(C)$ and by B the matrix of type $\mathscr{C}\times \widehat{G}$ with entries $\chi_{\lambda}(C^{-1})d(C)^{-1}$. The sets $\widehat{G}$ and $\mathscr{C}$ have the same cardinal (Proposition 5); relation (31) expresses the fact that the matrix product AB is the matrix unit of type $\widehat{G}\times \widehat{G}$. By Proposition 11 of II, §10, No. 12, p. 360, the matrix product BA is the matrix unit of type $\mathscr{C}\times \mathscr{C}$; in other words, we have the relation
 
 $$
-\sum\chi_{\lambda}(C^{-1})\chi_{\lambda}(C') =d(C)\delta_{CC'} \tag{32}
+\lambda \sum_{\in\widehat{G}}\chi_{\lambda}(C^{-1})\chi_{\lambda}(C') =d(C)\delta_{CC'} \tag{32}
 $$
 
-for C and $C'$ in $\mathscr{C}$ (sometimes called the “$^{\lambda\in\widehat{G}}$ second orthogonality relation for characters”).
+for C and $C'$ in $\mathscr{C}$ (sometimes called the “second orthogonality relation for characters”).
 
 Let H be a subgroup of G. Let us note that the integer Card(H) divides Card(G) and that $|G|$ is not zero in K; we therefore have $|H| \not= 0$ in K.
 
@@ -590,10 +590,10 @@ $$
 for every $g\in G$, which implies that $f$ is a central function. By Proposition 5, there exists a family $(a_{\lambda})$ of elements of K such that $f=\sum_{\lambda\in\widehat{G}}a_{\lambda}\chi_{\lambda}$. Let us replace $f$ with this expression in formula (34); taking into account that each of the characters $\chi_{\lambda}$ also satisfies this relation, we find
 
 $$
-\sum a_{\lambda}a_\mu\chi_{\lambda}(g)\chi_\mu(g') =\sum a_{\lambda}d^{-1}_{\lambda}f(1)\chi_{\lambda}(g)\chi_{\lambda}(g') \tag{37}
+_{\lambda ,\mu}\sum_{\in\widehat{G}}a_{\lambda}a_\mu\chi_{\lambda}(g)\chi_\mu(g') =_{\lambda}\sum_{\in\widehat{G}}a_{\lambda}d^{-1}_{\lambda}f(1)\chi_{\lambda}(g)\chi_{\lambda}(g') \tag{37}
 $$
 
-for $g, g'\in^{\lambda ,\mu}G$. This relation can also be written as$^{\in\widehat{G}\lambda\in\widehat{G}}$
+for $g, g'\in G$. This relation can also be written as
 
 $$
 \sum_{\lambda ,\mu}(a_{\lambda}a_\mu-\delta_{\lambda \mu}a_{\lambda}d^{-1}_{\lambda}f(1))\chi_{\lambda}(g)\chi_\mu(g') = 0 \tag{38}
@@ -614,10 +614,10 @@ In this subsection, we assume that the group G is abelian.
 By Schur’s lemma (VIII, p. 48, Corollary 1), every simple representation of G has dimension 1. Let $(M, \pi )$ be such a representation and $\chi$ be its character; for every $g\in G$ and $x\in M$, we have $\pi (g)(x) =\chi (g)x$. Consequently, the character $\chi$ is a homomorphism from G to the multiplicative group $K^*$ of K. Conversely, every homomorphism from G to $K^*$ is the character of a representation of G of degree 1. So the set $\widehat{G}$ of classes of simple K[G]-modules can be identified with the set Hom(G$,K^*)$ of homomorphisms from G to $K^*$. We deduce from this an abelian group structure on $\widehat{G}$; the product in $\widehat{G}$ corresponds to the tensor product of representations. The groups G and $\widehat{G}$ have the same cardinal by Proposition 5 of VIII, p. 411. Every function on G is central, and $\widehat{G}$ is a basis of the vector space of mappings from G to K (loc. cit.). Because of the orthogonality relation for characters, such a mapping $f$ has the following unique decomposition with respect to the basis $\widehat{G}:$
 
 $$
-f=\sum\langle \chi , f\rangle_G\chi \tag{39}
+f=_{\chi}\sum_{\in\widehat{G}}\langle \chi , f\rangle_G\chi \tag{39}
 $$
 
-For mappings $f$ and $f'$ from G to K, we have the relation$^{\chi\in\widehat{G}}$
+For mappings $f$ and $f'$ from G to K, we have the relation
 
 $$
 \langle f, f'\rangle_G=_{\chi}\sum_{\in\widehat{G}}\langle \chi , f\rangle_G\langle \chi , f'\rangle_G \tag{40}

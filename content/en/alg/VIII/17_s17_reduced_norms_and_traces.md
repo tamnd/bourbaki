@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: 4014e372bf295b2bfb9d50cf6412bca5a88f2c421aa6a8f632e8a6af0950611e
+content_sha256: f8c39dd8a4e915f5ea9753b465d54067c3bce0380f07e078a26b3fa9434362c0
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -529,9 +529,9 @@ a monic polynomial with coefficients in $K'$. Then the polynomial Q = $N_{K'[X]/
 
 We denote the $K'$-algebra $K'[T]/(P(T))$ by $K''$ and the canonical class of T in $K''$ by $t$. The sequence $(1, t, . . . , t^{s-1})$ is a basis of $K''$ over $K'$, and the matrix of multiplication by $t$ in this basis is of the form
 
-0 0 $\cdots$ 0 $-a$
+0 0 $\cdots$ 0 $-a_s$
 
-1 0 $\cdots$ 0 $-a_{s-1}^s$
+1 0 $\cdots$ 0 $-a_{s-1}$
 
 0 1 $\cdots$ 0 $-a$
 

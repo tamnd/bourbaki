@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: b15c17c2b8a8011674e1e0212ee656622737d9e5d5916737927d3a7664b14eb5
+content_sha256: 215013a1dff7af8a36cbf96e38e2ea6159c816c9d905e4b95b8a0e96cdc6308f
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -356,11 +356,11 @@ $$
 and from this we deduce
 
 $$
-d_{n-1}\circ d_n=\sum(-1)^{i+j}d_{n-1}^i\circ d_n^j+\sum(-1)^{i+j}d_{n-1}^i\circ d_n^j
+d_{n-1}\circ d_n=_{0\leqslant}\sum_{i<j\leqslant n}(-1)^{i+j}d_{n-1}^i\circ d_n^j+_{0\leqslant j\leqslant}\sum_{i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
 $$
 
 $$
-=^0_0^{\leqslant}_{\leqslant}\sum^{i<j}_{i<j}^{\leqslant}_{\leqslant}^n_n(-1)^{i+j}d_n^{j-}_-^1_1\circ d_n^i+^0_0^{\leqslant}_{\leqslant}^j_j^{\leqslant}_{\leqslant}\sum^i_i^{\leqslant}_{\leqslant}^n_n^-_-^1_1(-1)^{i+j}d_{n-1}^i\circ d_n^j
+=_{0\leqslant}\sum_{i<j\leqslant n}(-1)^{i+j}d_n^{j-}_-^1_1\circ d_n^i+_{0\leqslant j\leqslant}\sum_{i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
 $$
 
 and consequently
