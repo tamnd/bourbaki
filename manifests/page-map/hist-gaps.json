@@ -1,0 +1,293 @@
+{
+  "book": "hist",
+  "grammar": "head-number",
+  "pagination": "continuous",
+  "pdf_pages": 299,
+  "body_pages": 291,
+  "front_matter_pages": 8,
+  "counts": {
+    "head": 261,
+    "interpolated": 30,
+    "none": 8
+  },
+  "printed_pct_of_body": 89.69072164948454,
+  "chapters": null,
+  "steps": [
+    {
+      "at_pdf_page": 64,
+      "from_offset": 8,
+      "to_offset": 7,
+      "missing_pages": [
+        56
+      ]
+    },
+    {
+      "at_pdf_page": 75,
+      "from_offset": 7,
+      "to_offset": 6,
+      "missing_pages": [
+        68
+      ]
+    },
+    {
+      "at_pdf_page": 90,
+      "from_offset": 6,
+      "to_offset": 5,
+      "missing_pages": [
+        84
+      ]
+    },
+    {
+      "at_pdf_page": 121,
+      "from_offset": 5,
+      "to_offset": 4,
+      "missing_pages": [
+        116
+      ]
+    },
+    {
+      "at_pdf_page": 128,
+      "from_offset": 4,
+      "to_offset": 3,
+      "missing_pages": [
+        124
+      ]
+    },
+    {
+      "at_pdf_page": 147,
+      "from_offset": 3,
+      "to_offset": 2,
+      "missing_pages": [
+        144
+      ]
+    },
+    {
+      "at_pdf_page": 205,
+      "from_offset": 2,
+      "to_offset": 1,
+      "missing_pages": [
+        203
+      ]
+    },
+    {
+      "at_pdf_page": 231,
+      "from_offset": 1,
+      "to_offset": 0,
+      "missing_pages": [
+        230
+      ]
+    },
+    {
+      "at_pdf_page": 268,
+      "from_offset": 0,
+      "to_offset": -1,
+      "missing_pages": [
+        268
+      ]
+    },
+    {
+      "at_pdf_page": 295,
+      "from_offset": -1,
+      "to_offset": -2,
+      "missing_pages": [
+        296
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "pdf_page": 83,
+      "read": 11,
+      "fitted": 77,
+      "raw": "5. POLYNOMIALS AND COMMUTATIVE FIELDS.                        11"
+    },
+    {
+      "pdf_page": 85,
+      "read": 19,
+      "fitted": 79,
+      "raw": "5. POLYNOMIALS AND COMMUTATIVE FIELDS.                         19"
+    }
+  ],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 8,
+      "pages": 8,
+      "confidence": "none"
+    },
+    {
+      "from": 9,
+      "to": 9,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 53,
+      "to": 53,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 55,
+      "to": 55,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 64,
+      "to": 64,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 75,
+      "to": 75,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 83,
+      "to": 83,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 85,
+      "to": 85,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 90,
+      "to": 90,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 98,
+      "to": 98,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 121,
+      "to": 121,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 128,
+      "to": 128,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 142,
+      "to": 142,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 147,
+      "to": 147,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 149,
+      "to": 149,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 159,
+      "to": 159,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 161,
+      "to": 161,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 163,
+      "to": 163,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 167,
+      "to": 167,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 169,
+      "to": 169,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 201,
+      "to": 201,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 205,
+      "to": 206,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 208,
+      "to": 208,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 220,
+      "to": 220,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 231,
+      "to": 231,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 237,
+      "to": 237,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 247,
+      "to": 247,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 268,
+      "to": 268,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 274,
+      "to": 274,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 295,
+      "to": 295,
+      "pages": 1,
+      "confidence": "interpolated"
+    }
+  ]
+}

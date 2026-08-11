@@ -1,0 +1,69 @@
+{
+  "book": "lie-ix-fr",
+  "grammar": "head-label",
+  "pagination": "per-chapter",
+  "pdf_pages": 141,
+  "body_pages": 132,
+  "front_matter_pages": 9,
+  "counts": {
+    "head": 127,
+    "interpolated": 5,
+    "none": 9
+  },
+  "printed_pct_of_body": 96.21212121212122,
+  "chapters": [
+    {
+      "chapter": "IX",
+      "first_pdf_page": 4,
+      "last_pdf_page": 135,
+      "first_page": 1,
+      "last_page": 132
+    }
+  ],
+  "steps": [],
+  "conflicts": [],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 3,
+      "pages": 3,
+      "confidence": "none"
+    },
+    {
+      "from": 4,
+      "to": 4,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 63,
+      "to": 63,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 82,
+      "to": 82,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 93,
+      "to": 93,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 99,
+      "to": 99,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 136,
+      "to": 141,
+      "pages": 6,
+      "confidence": "none"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "book": "ens-i-iv",
+  "grammar": "foot-number",
+  "pagination": "continuous",
+  "pdf_pages": 418,
+  "body_pages": 410,
+  "front_matter_pages": 8,
+  "counts": {
+    "foot": 407,
+    "interpolated": 3,
+    "none": 8
+  },
+  "printed_pct_of_body": 99.26829268292683,
+  "chapters": [
+    {
+      "chapter": "I",
+      "first_pdf_page": 22,
+      "last_pdf_page": 71,
+      "first_page": 15,
+      "last_page": 64
+    },
+    {
+      "chapter": "II",
+      "first_pdf_page": 72,
+      "last_pdf_page": 136,
+      "first_page": 65,
+      "last_page": 129
+    },
+    {
+      "chapter": "III",
+      "first_pdf_page": 137,
+      "last_pdf_page": 263,
+      "first_page": 131,
+      "last_page": 257
+    },
+    {
+      "chapter": "IV",
+      "first_pdf_page": 264,
+      "last_pdf_page": 418,
+      "first_page": 259,
+      "last_page": 414
+    }
+  ],
+  "steps": [
+    {
+      "at_pdf_page": 391,
+      "chapter": "IV",
+      "from_offset": 5,
+      "to_offset": 4,
+      "missing_pages": [
+        386
+      ]
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 8,
+      "pages": 8,
+      "confidence": "none"
+    },
+    {
+      "from": 9,
+      "to": 9,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 12,
+      "to": 12,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 210,
+      "to": 210,
+      "pages": 1,
+      "confidence": "interpolated"
+    }
+  ]
+}

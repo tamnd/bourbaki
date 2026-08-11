@@ -6,11 +6,11 @@
   "body_pages": 434,
   "front_matter_pages": 26,
   "counts": {
-    "head": 373,
-    "interpolated": 61,
+    "head": 386,
+    "interpolated": 48,
     "none": 26
   },
-  "printed_pct_of_body": 85.9447004608295,
+  "printed_pct_of_body": 88.94009216589862,
   "chapters": [
     {
       "chapter": "IV",
@@ -109,8 +109,8 @@
     },
     {
       "from": 78,
-      "to": 79,
-      "pages": 2,
+      "to": 78,
+      "pages": 1,
       "confidence": "interpolated"
     },
     {
@@ -252,9 +252,9 @@
       "confidence": "interpolated"
     },
     {
-      "from": 335,
+      "from": 337,
       "to": 337,
-      "pages": 3,
+      "pages": 1,
       "confidence": "interpolated"
     },
     {
@@ -264,33 +264,15 @@
       "confidence": "interpolated"
     },
     {
-      "from": 343,
-      "to": 344,
-      "pages": 2,
-      "confidence": "interpolated"
-    },
-    {
       "from": 349,
       "to": 349,
       "pages": 1,
       "confidence": "interpolated"
     },
     {
-      "from": 354,
+      "from": 356,
       "to": 361,
-      "pages": 8,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 373,
-      "to": 373,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 375,
-      "to": 375,
-      "pages": 1,
+      "pages": 6,
       "confidence": "interpolated"
     },
     {
@@ -300,26 +282,8 @@
       "confidence": "interpolated"
     },
     {
-      "from": 382,
-      "to": 382,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 385,
-      "to": 385,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 407,
       "to": 407,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 409,
-      "to": 409,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -331,8 +295,8 @@
     },
     {
       "from": 422,
-      "to": 423,
-      "pages": 2,
+      "to": 422,
+      "pages": 1,
       "confidence": "interpolated"
     },
     {

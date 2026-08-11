@@ -1,0 +1,138 @@
+{
+  "book": "lie-vii-ix",
+  "grammar": "head-number",
+  "pagination": "continuous",
+  "pdf_pages": 439,
+  "body_pages": 429,
+  "front_matter_pages": 10,
+  "counts": {
+    "head": 420,
+    "interpolated": 9,
+    "none": 10
+  },
+  "printed_pct_of_body": 97.9020979020979,
+  "chapters": [
+    {
+      "chapter": "VII",
+      "first_pdf_page": 11,
+      "last_pdf_page": 76,
+      "first_page": 1,
+      "last_page": 67
+    },
+    {
+      "chapter": "VIII",
+      "first_pdf_page": 77,
+      "last_pdf_page": 287,
+      "first_page": 69,
+      "last_page": 280
+    },
+    {
+      "chapter": "IX",
+      "first_pdf_page": 288,
+      "last_pdf_page": 439,
+      "first_page": 281,
+      "last_page": 434
+    }
+  ],
+  "steps": [
+    {
+      "at_pdf_page": 60,
+      "chapter": "VII",
+      "from_offset": 10,
+      "to_offset": 9,
+      "missing_pages": [
+        50
+      ]
+    },
+    {
+      "at_pdf_page": 280,
+      "chapter": "VIII",
+      "from_offset": 8,
+      "to_offset": 7,
+      "missing_pages": [
+        272
+      ]
+    },
+    {
+      "at_pdf_page": 433,
+      "chapter": "IX",
+      "from_offset": 7,
+      "to_offset": 6,
+      "missing_pages": [
+        426
+      ]
+    },
+    {
+      "at_pdf_page": 436,
+      "chapter": "IX",
+      "from_offset": 6,
+      "to_offset": 5,
+      "missing_pages": [
+        430
+      ]
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 10,
+      "pages": 10,
+      "confidence": "none"
+    },
+    {
+      "from": 11,
+      "to": 11,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 60,
+      "to": 60,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 77,
+      "to": 77,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 227,
+      "to": 227,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 280,
+      "to": 280,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 288,
+      "to": 288,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 396,
+      "to": 396,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 433,
+      "to": 433,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 436,
+      "to": 436,
+      "pages": 1,
+      "confidence": "interpolated"
+    }
+  ]
+}
