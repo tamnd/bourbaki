@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: b6724e6b6a4032544c500c5f0faef785c64ee6fedb762d6b22a0ed869caf2869
+content_sha256: 44cd2ffb9171246a156dc946f90facae55dcbf2e23bb7978e3ee66d4e24c20c1
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -415,7 +415,7 @@ $$
 
 These elements satisfy the relations
 
-(18) $\lambda \sum_{\in\widehat{G}}e_{\lambda}= 1,e^2_\mu=e_\mu$, and $e_\mu e_{\nu}= 0$
+(18) $\sum_{\lambda\in\widehat{G}}e_{\lambda}= 1,e^2_\mu=e_\mu$, and $e_\mu e_{\nu}= 0$
 
 for all $\mu, \nu \in \widehat{G}$ such that $\mu\not=\nu$; they are the indecomposable idempotents of Z(K[G]) (VIII, p. 147, Proposition 15)
 
@@ -520,7 +520,7 @@ In particular, we have $d(C)\cdot 1\not= 0$ in the field K.
 Let $f$ be a central function on G. For any conjugacy class C, denote by $f(C)$ the common value of the $f(x)$ for $x\in C$. With this notation, the orthogonality relation for characters (VIII, p. 410, Proposition 4) can be written as
 
 $$
-C\sum_{\in\mathscr{C}}\chi_{\lambda}(C^{-1})\chi_\mu(C)d(C)^{-1}=\delta_{\lambda \mu} \tag{31}
+\sum_{C\in\mathscr{C}}\chi_{\lambda}(C^{-1})\chi_\mu(C)d(C)^{-1}=\delta_{\lambda \mu} \tag{31}
 $$
 
 for $\lambda$ and $\mu$ in $\widehat{G}$.
@@ -528,7 +528,7 @@ for $\lambda$ and $\mu$ in $\widehat{G}$.
 Denote by A the matrix of type $\widehat{G}\times \mathscr{C}$ with entries $\chi_{\lambda}(C)$ and by B the matrix of type $\mathscr{C}\times \widehat{G}$ with entries $\chi_{\lambda}(C^{-1})d(C)^{-1}$. The sets $\widehat{G}$ and $\mathscr{C}$ have the same cardinal (Proposition 5); relation (31) expresses the fact that the matrix product AB is the matrix unit of type $\widehat{G}\times \widehat{G}$. By Proposition 11 of II, §10, No. 12, p. 360, the matrix product BA is the matrix unit of type $\mathscr{C}\times \mathscr{C}$; in other words, we have the relation
 
 $$
-\lambda \sum_{\in\widehat{G}}\chi_{\lambda}(C^{-1})\chi_{\lambda}(C') =d(C)\delta_{CC'} \tag{32}
+\sum_{\lambda\in\widehat{G}}\chi_{\lambda}(C^{-1})\chi_{\lambda}(C') =d(C)\delta_{CC'} \tag{32}
 $$
 
 for C and $C'$ in $\mathscr{C}$ (sometimes called the “second orthogonality relation for characters”).

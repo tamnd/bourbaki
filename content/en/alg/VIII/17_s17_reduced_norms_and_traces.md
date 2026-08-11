@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: c0b1444f455cdd34569ed2f8be2825a4070ae04520940b26097069276aa2d71f
+content_sha256: dd266982fdf5c42b79986fa3adbc711876807b56118164ea076c46cd4d10836c
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -134,7 +134,7 @@ $$
 where the $u_r$ are endomorphisms of M. By formula (2), relation (10) gives the equality
 
 $$
-m\sum_{r=0}^{-1}(-1)^ru_rX^{m-1-r}(X-u) =\sum_{r=0}^m(-1)^rc_r(u)X^{m-r} \tag{12}
+\sum^{m-1}_{r=0}(-1)^ru_rX^{m-1-r}(X-u) =\sum_{r=0}^m(-1)^rc_r(u)X^{m-r} \tag{12}
 $$
 
 in the ring End(M)[X]. By identifying the coefficients of the monomials in X on each side, we obtain the relations

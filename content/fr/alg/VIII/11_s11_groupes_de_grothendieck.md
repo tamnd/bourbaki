@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: fd7b17e55eb01d077b55b41989952c9f95f654fe728871874512c95173cd150f
+content_sha256: ca54fccea30df971da09a376436b4465ea1987f1aaf7c7f626063a1017a4094b
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -169,7 +169,7 @@ $$
 et l’hypothèse de récurrence fournit la relation
 
 $$
-n\sum_{i=0}^{-1}(-1)^i\varphi (E_i) + (-1)^n\varphi (F) = 0 \tag{6}
+\sum^{n-1}_{i=0}(-1)^i\varphi (E_i) + (-1)^n\varphi (F) = 0 \tag{6}
 $$
 
 De (5) et (6), on tire aussitôt $\sum^{n+1}_{i=0}(-1)^i\varphi (E_i) = 0$ et le corollaire en résulte.

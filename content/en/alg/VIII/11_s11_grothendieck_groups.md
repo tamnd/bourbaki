@@ -62,7 +62,7 @@ subsections:
       pdf_page: 221
 statements: 38
 exercises: 14
-content_sha256: 7eead8a827cd19a864f7bf035706f5eb68985f164f13912bfebadb5f5a82a172
+content_sha256: 0101bbaa9fc9f972c0d80c1d3f9fbfbbcbf55e0bd5198211ca2373c19c91523e
 ---
 
 ## § 11. GROTHENDIECK GROUPS
@@ -170,7 +170,7 @@ $$
 and the induction hypothesis gives the relation
 
 $$
-n\sum_{i=0}^{-1}(-1)^i\varphi (E_i) + (-1)^n\varphi (F) = 0 \tag{6}
+\sum^{n-1}_{i=0}(-1)^i\varphi (E_i) + (-1)^n\varphi (F) = 0 \tag{6}
 $$
 
 We then immediately deduce from (5) and (6) that $\sum^{n+1}_{i=0}(-1)^i\varphi (E_i) = 0$, and the corollary follows.

@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: 49c4d19f3a925bc02a97bc6023099ba99b3e6e0296c9f3c5b7fe0dab9089b729
+content_sha256: decde56df5b72a5d2beecfca542cf7f3ad2b4a11e4c021270a596eeb8f4a2d8e
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -418,7 +418,7 @@ $$
 
 Ces éléments satisfont aux relations
 
-(18) $\lambda \sum_{\in\widehat{G}}e_{\lambda}= 1,e^2_{\mu}=e_{\mu}$, et $e_{\mu}e_{\nu}= 0$
+(18) $\sum_{\lambda\in\widehat{G}}e_{\lambda}= 1,e^2_{\mu}=e_{\mu}$, et $e_{\mu}e_{\nu}= 0$
 
 pour tous $\mu , \nu \in \widehat{G}$ tels que $\mu \not=\nu$; ce sont les idempotents indécomposables de Z(K[G]) (VIII, p. 143, prop. 15)
 
@@ -464,18 +464,18 @@ $$
 
 Soient maintenant $\lambda$ et $\mu$ deux éléments distincts de $\widehat{G}$ et soient $u\in$ End$_K(V_{\lambda})$ et $v\in$ End$_K(V_{\mu})$. À nouveau d’après la relation (15), on a
 
-(23) $g\sum_{\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\mu}(g^{-1})$) $= 0$.
+(23) $\sum_{g\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\mu}(g^{-1})$) $= 0$.
 
 On en déduit comme plus haut
 
 $$
-g\sum_{\in G}\langle x^*, \pi_{\lambda}(g)x\rangle  \langle y^*, \pi_{\mu}(g^{-1})y\rangle = 0 \tag{24}
+\sum_{g\in G}\langle x^*, \pi_{\lambda}(g)x\rangle  \langle y^*, \pi_{\mu}(g^{-1})y\rangle = 0 \tag{24}
 $$
 
 pour $x\in V_{\lambda},x^*\in V^*_{\lambda},y\in V_{\mu}$ et $y^*\in V^*_{\mu}$; on a aussi
 
 $$
-g\sum_{\in G}\pi_{ij}^{\lambda}(g)\pi_{k\ell}^{\mu}(g^{-1}) = 0 \tag{25}
+\sum_{g\in G}\pi_{ij}^{\lambda}(g)\pi_{k\ell}^{\mu}(g^{-1}) = 0 \tag{25}
 $$
 
 pour $i, j$ dans $[1, d_{\lambda}]$ et $k, \ell$ dans $[1, d_{\mu}]$.
@@ -547,7 +547,7 @@ En particulier, on a $d(C).1\not= 0$ dans le corps K.
 Soit $f$ une fonction centrale sur G. Pour toute classe de conjugaison C, notons $f(C)$ la valeur commune des $f(x)$ pour $x\in C$. Avec cette notation, la relation d’orthogonalité des caractères (VIII, p. 400, prop. 4) s’écrit
 
 $$
-C\sum_{\in\mathscr{C}}\chi_{\lambda}(C^{-1})\chi_{\mu}(C)d(C)^{-1}=\delta_{\lambda \mu} \tag{31}
+\sum_{C\in\mathscr{C}}\chi_{\lambda}(C^{-1})\chi_{\mu}(C)d(C)^{-1}=\delta_{\lambda \mu} \tag{31}
 $$
 
 pour $\lambda$ et $\mu$ dans $\widehat{G}$.
@@ -555,7 +555,7 @@ pour $\lambda$ et $\mu$ dans $\widehat{G}$.
 Notons A la matrice de type $\widehat{G}\times \mathscr{C}$ d’éléments $\chi_{\lambda}(C)$ et B la matrice de type $\mathscr{C}\times \widehat{G}$, d’éléments $\chi_{\lambda}(C^{-1})d(C)^{-1}$. Les ensembles $\widehat{G}$ et $\mathscr{C}$ ont le même cardinal (prop. 5) ; la relation (31) exprime que la matrice produit AB est la matrice unité de type $\widehat{G}\times \widehat{G}$. D’après la prop. 11 de II, p. 159, la matrice produit BA est la matrice unité de type $\mathscr{C}\times \mathscr{C}$; autrement dit, on a la relation
 
 $$
-\lambda \sum_{\in\widehat{G}}\chi_{\lambda}(C^{-1})\chi_{\lambda}(C') =d(C)\delta_{CC'} \tag{32}
+\sum_{\lambda\in\widehat{G}}\chi_{\lambda}(C^{-1})\chi_{\lambda}(C') =d(C)\delta_{CC'} \tag{32}
 $$
 
 pour C et $C'$ dans $\mathscr{C}$ (appelée parfois « seconde relation d’orthogonalité des caractères »).
@@ -617,7 +617,7 @@ $$
 pour tout $g\in G$, ce qui entraîne que $f$ est une fonction centrale. D’après la proposition 5, il existe une famille $(a_{\lambda})$ d’éléments de K telle que $f=\sum_{\lambda\in\widehat{G}}a_{\lambda}\chi_{\lambda}$. Remplaçons $f$ par cette expression dans la formule (34) ; tenant compte de ce que chacun des caractères $\chi_{\lambda}$ satisfait aussi à cette relation, on trouve
 
 $$
-\lambda ,\mu \sum_{\in\widehat{G}}a_{\lambda}a_{\mu}\chi_{\lambda}(g)\chi_{\mu}(g') =\sum_{\lambda\in\widehat{G}}a_{\lambda}d^{-1}_{\lambda}f(1)\chi_{\lambda}(g)\chi_{\lambda}(g') \tag{37}
+\sum_{\lambda ,\mu\in\widehat{G}}a_{\lambda}a_{\mu}\chi_{\lambda}(g)\chi_{\mu}(g') =\sum_{\lambda\in\widehat{G}}a_{\lambda}d^{-1}_{\lambda}f(1)\chi_{\lambda}(g)\chi_{\lambda}(g') \tag{37}
 $$
 
 pour $g, g'\in G$. La relation précédente s’écrit également
@@ -925,7 +925,7 @@ $$
 Si $\lambda$ et $\mu$ sont deux éléments distincts de $\widehat{G}$, pour $x, x'$ dans $V_{\lambda}$ et $y, y'$ dans $V_{\mu}$, on a
 
 $$
-g\sum_{\in G}\langle x|\pi_{\lambda}(g)x'\rangle_{\lambda}\langle y|\pi_{\mu}(g)y'\rangle_{\mu}= 0 \tag{58}
+\sum_{g\in G}\langle x|\pi_{\lambda}(g)x'\rangle_{\lambda}\langle y|\pi_{\mu}(g)y'\rangle_{\mu}= 0 \tag{58}
 $$
 
 Pour tout $\lambda \in \widehat{G}$, choisissons une base orthonormale $(e_{\lambda ,i})_{1\leqslant i\leqslant d_{\lambda}}$ de $V_{\lambda}$. Pour tout $g\in G$, notons $(\pi_{ij}^{\lambda}(g))$ la matrice de l’endomorphisme $\pi_{\lambda}(g)$ de $V_{\lambda}$ par rapport à cette base ; on a

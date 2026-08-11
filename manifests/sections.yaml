@@ -158,7 +158,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native
-              content_sha256: 7eead8a827cd19a864f7bf035706f5eb68985f164f13912bfebadb5f5a82a172
+              content_sha256: 0101bbaa9fc9f972c0d80c1d3f9fbfbbcbf55e0bd5198211ca2373c19c91523e
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -236,7 +236,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: c0b1444f455cdd34569ed2f8be2825a4070ae04520940b26097069276aa2d71f
+              content_sha256: dd266982fdf5c42b79986fa3adbc711876807b56118164ea076c46cd4d10836c
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -288,7 +288,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: b6724e6b6a4032544c500c5f0faef785c64ee6fedb762d6b22a0ed869caf2869
+              content_sha256: 44cd2ffb9171246a156dc946f90facae55dcbf2e23bb7978e3ee66d4e24c20c1
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
@@ -510,7 +510,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native
-              content_sha256: fd7b17e55eb01d077b55b41989952c9f95f654fe728871874512c95173cd150f
+              content_sha256: ca54fccea30df971da09a376436b4465ea1987f1aaf7c7f626063a1017a4094b
             - kind: section
               section: 12
               title: Produit tensoriel de modules semi-simples
@@ -640,7 +640,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: 49c4d19f3a925bc02a97bc6023099ba99b3e6e0296c9f3c5b7fe0dab9089b729
+              content_sha256: decde56df5b72a5d2beecfca542cf7f3ad2b4a11e4c021270a596eeb8f4a2d8e
             - kind: appendix
               section: 1
               title: Algèbres sans élément unité
