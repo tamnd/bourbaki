@@ -22,7 +22,7 @@ subsections:
       pdf_page: 374
 statements: 8
 exercises: 7
-content_sha256: b06076ea74d4968c307b10c1909cd737ab1b315f796eba98fe11c59e5e46b063
+content_sha256: 6ffe840db71a91c5b93816fdd64a0252c4c2f22f13821a195920fd5426a43913
 ---
 
 ## § 18. SIMPLE ALGEBRAS OVER A FINITE FIELD
@@ -129,18 +129,4 @@ Suppose that the field K satisfies the following condition: – If L is an exten
 
 ### Exercises {#alg-viii-s18-exercises}
 
-1) Let D be a field. a) Let E be a proper subfield of D whose multiplicative group $E^*$ has finite index in $D^*$. Prove that D is finite (for a sequence $(a_n)$ of distinct elements of E and an element $x$ of D E, consider the classes mod $E^*$ of the elements $x+a_n)$. b) Prove that an element of D that has only finitely many conjugates belongs to the center Z of D (apply a) to the commutant of this element in D, which is a field). c) Deduce that a polynomial in Z[X] that has a root in D Z has infinitely many roots in D Z.
-
-$\P 2)$ Let A be a K-algebra and $m$ an integer. Suppose that every element of A is algebraic of degree $\leqslant m$ over K. a) Prove that if A is a primitive ring, then there exist an integer $r\leqslant m$ and a field D whose elements all have degree $\leqslant m$ over K such that A is isomorphic to the matrix algebra $\mathbf{M}_r(D)$. (If A is not simple, then deduce from the density theorem that for every integer $n$, there exist a subalgebra $A_n$ of A and a surjective homomorphism $A_n\rightarrow \mathbf{M}_n(D)$. Observe that the algebra $\mathbf{M}_n(D)$ contains elements X such that $X^{n-1}\not= 0$ and $X^n= 0.)$ b) Suppose that the field K is infinite. Prove that the algebra $A/\mathfrak{R}(A)$ is semisimple and admits at most $m$ simple components (observe that the algebra $K^n$ contains elements of degree $n$ over K; deduce that A admits at most $m$ maximal two-sided ideals, and conclude using a)). Prove that if K is, moreover, perfect, then $A/\mathfrak{R}(A)$ has finite rank over K.
-
-$\P 3)$ Let K be a commutative field. We say that a K-algebra A is algebraic if all its elements are algebraic over K. Every algebra of finite rank is algebraic; every subalgebra and quotient algebra of an algebraic algebra is algebraic. The radical of an algebraic K-algebra is a nil ideal (VIII, p. 166, Exercise 5). a) Prove that an algebraic algebra is a pseudoregular ring (VIII, p. 178, Exercise 4; observe that for every $x\in A$, there exist an element $y\in K[x]$ and an integer $k$ such that $x^k=x^{k+1}y)$. b) Let A be an algebraic K-algebra without any nilpotent elements other than 0. Prove that A is isomorphic to a subalgebra of a product of fields. (Observe that every quotient algebra of A has the same properties. Prove that if A is primitive, then it is a field, by reasoning as in Exercise 2, a). In the general case, use Exercise 12 of VIII, p. 168.)
-
-$\P 4)$ Let K be a finite field and A an algebraic K-algebra (Exercise 3). a) Suppose that A is a field. Prove that A is commutative. (Let $x$ be a noncentral element of A. Consider the field $Z(x)$, where Z is the center of A, and prove that there exists an element $y\in A$ such that $yxy^{-1}=x^r$, with $x^r\not=x$. Deduce a contradiction by considering the subfield $K(x, y)$ of A.) b) Suppose that A does not contain any nonzero nilpotent element. Prove that the algebra A is commutative (use a) and Exercise 3).
-
-5) Let K be a finite field, $m$ an integer, and A a K-algebra without radical whose elements all have degree $\leqslant m$. Prove that there exists a finite extension L of K such that A is isomorphic to a subalgebra of a product $(\mathbf{M}_r(L))^I$ whose projections are simple algebras (cf. Exercise 2, a)). Also prove the converse.
-
-6) Let A be a ring such that for every $a\in A$, there exists an integer $n(a)>1$ such that $a^{n(a)}=a$. Prove that A is isomorphic to a product of finitely many reduced commutative algebraic algebras over finite fields. (Observe that A is annihilated by an integer $n$, and then that for every prime number $p$, the $p$-component $A_p$ of the additive group A is a two-sided ideal annihilated by $p$. Apply Exercise 4, b).) Also prove the converse.
-
-7) a) Prove that if the field K has property $(C_1)$ (VIII, p. 357), then so does every algebraic extension of K. (Reduce to the case of an extension L of K of finite degree $r$. Prove that if F is a homogeneous polynomial function of degree $d$ on an L-vector space V, then the function $N_{L/K}\circ F$ is homogeneous polynomial of degree $rd$ on the K-vector space V.) $*$b) Assume from now on that K is algebraically closed. Let $F_1, . . . ,F_n$ be homogeneous polynomials of degree $>0$ in $m$ variables. Prove that if $n < m$, then there exists an $\mathbf{a}\not= 0$ in $K^n$ such that $F_1(\mathbf{a}) =\cdots = F_n(\mathbf{a}) = 0$ (use AC, VIII, §2, n$^o4$, p. 19, corollaire 1 du théorème 3 and AC, VIII, §3, n$^o1$, p. 24, proposition 2). c) Deduce from b) that the field K(X) has property $(C_1)$.
-
-(Let $f$ be a homogeneous polynomial of degree $d$ in $n$ variables whose coefficients are polynomial in X, and let $\nu$ be the maximum of the degrees of these coefficients. Let N be an integer, and let $G_1, . . . ,G_n$ be polynomials in X of degree $\leqslant N$. Prove that the equality $F(G_1(X), . . . ,G_n(X)) = 0$ is equivalent to the annihilation of $Nd+\nu + 1$ homogeneous polynomials of degree $>0$ in the $n(N + 1)$ coefficients of the $G_i.)$ d) Deduce from a) and c) that an extension of an algebraically closed field of transcendence degree $\leqslant 1$ has property $(C_1)$ (“Tsen’s theorem”).$*$
+See the [exercises for § 18](exercises/s18/).

@@ -34,7 +34,7 @@ subsections:
       pdf_page: 68
 statements: 21
 exercises: 10
-content_sha256: 11f4b6dc52fe217ce4c5ac95a92c1a4719d15b5df797a4bc1ff554ce41c1bd35
+content_sha256: 92961fd63f3fa5541322c6837c383d3dd70d945b07794e3cac1d4ff461b1de23
 ---
 
 ## § 3. SIMPLE MODULES
@@ -233,48 +233,4 @@ We denote the set of classes of finitely generated A-modules by $\mathscr{F}(A)$
 
 ### Exercises {#alg-viii-s3-exercises}
 
-1) Let A be a ring and $\mathfrak{m}$ a maximal left ideal of A. Let B be the set of elements $b$ of A such that $\mathfrak{m}b\subset \mathfrak{m}$. Prove that B is the largest subring of A containing $\mathfrak{m}$ in which $\mathfrak{m}$ is a two-sided ideal. Let S be the A-module $A_s/\mathfrak{m}, D$ its commutant, and $\pi$ the canonical mapping from $A_s$ to S. Prove that, given $b\in B$, there exists a unique element $u_b$ of End$_A(S)$ such that $u_b(\pi (a)) =\pi (ab)$ for every $a\in A$. The mapping $b\mapsto u_b$ induces an isomorphism from $B/\mathfrak{m}$ to End$_A(S)$.
-
-2) Let D be a field, V a right D-vector space, and A a subring of End$_D(V)$ that contains the endomorphisms of finite rank (for example, A = End$_D(V))$. Prove that the dual $V^*=$ Hom$_D(V,D)$ is simple as a right A-module.
-
-3) Let D be a field, V a right D-vector space, and A the endomorphism ring of V. For every line L in V, we denote by $\mathfrak{m}_L$ the set of elements $u$ of A such that $u(L) = 0$. Prove that $\mathfrak{m}_L$ is a maximal ideal of A, that we have $\mathfrak{m}_L\not=\mathfrak{m}_{L'}$ for $L\not= L'$, but that the simple A-modules $A/\mathfrak{m}_L$ are all isomorphic to the A-module V.
-
-4) Prove that the $\mathbf{Z}$-module $\mathbf{Q}$ admits neither a simple submodule nor a simple quotient module.
-
-5) Let A be a ring. a) Let M, N be monogenous A-modules. Prove that the following properties are equivalent:
-
-(i) The A-modules M and N are isomorphic.
-
-(ii) For every generator $m$ of M, there exists a generator $n$ of N that has the same annihilator as $m$.
-
-(iii) There exist a generator of M and a generator of N that have the same annihilator. b) Let $\mathfrak{a},\mathfrak{b}$ be (left) ideals of A. The A-modules $A/\mathfrak{a}$ and $A/\mathfrak{b}$ are isomorphic if and only if there exists an element $a$ of A such that $Aa+\mathfrak{b}= A$ and $\mathfrak{a}$ is the set of elements $x$ of A such that $xa\in \mathfrak{b}$ (use a)). c) Let $\mathfrak{m}$ and $\mathfrak{n}$ be maximal left ideals of A. The simple A-modules $A/\mathfrak{m}$ and $A/\mathfrak{n}$ are isomorphic if and only if there exists an element $a$ of A $\mathfrak{n}$ such that $\mathfrak{m}a\subset \mathfrak{n}$. d) Deduce from b) that the set of quotient A-modules of the A-module $A_s$ isomorphic to a given module has cardinal less than Card(A).
-
-6) Let M be an A-module such that for every $x\not= 0$ in M, the module $Ax$ is simple. Prove that either M is simple, or the ring of homotheties $A_M$ is a field (if M is not simple, consider two nonzero elements $x,y$ of M such that $y /\in Ax$ and the annihilator of $x+y)$.
-
-7) Let S be a simple A-module whose dual $S^*$ and bidual $S^{**}$ are simple. Prove that the mapping $u\mapsto^tu$ is an isomorphism from End$_A(S)$ to the opposite field of End$_A(S^*)$.
-
-$\P 8)$ Let A be a ring such that the A-modules $A_s$ and $A_d$ are of finite length. We identify $A_d$ with the dual of $A_s$. For every left ideal $\mathfrak{s}$ of A, the orthogonal $\mathfrak{s}^0$ of $\mathfrak{s}$ is the right annihilator of $\mathfrak{s}$ in A; likewise, for every right ideal $\mathfrak{d}$, the orthogonal $\mathfrak{d}^0$ is the left annihilator of $\mathfrak{d}$. Prove that the following properties are equivalent:
-
-(i) Every simple (left or right) A-module is reflexive.
-
-(ii) The dual of any (left or right) simple A-module is simple.
-
-(iii) For every minimal left ideal $\mathfrak{s}$ and every minimal right ideal $\mathfrak{d}$, we have $\mathfrak{s}^{00}=\mathfrak{s}$ and $\mathfrak{d}^{00}=\mathfrak{d}$.
-
-(iv) The mapping $\mathfrak{s}\mapsto \mathfrak{s}^0$ is a bijection from the set of left ideals of A to the set of right ideals.
-
-When these properties hold, we say that the ring A is autoinjective (cf. X, §1, p. 171, exercice 26). a) Suppose that A is autoinjective; let M be a finitely generated (left or right) A-module. Prove that the following properties hold:
-
-(i’) The A-module M is reflexive.
-
-(ii’) The length of $M^*$ is equal to that of M.
-
-(iii’) For every submodule N of M, we have $N^{00}= N$.
-
-(iv’) The mapping $N\mapsto N^0$ is a bijection from the set of submodules of M to the set of submodules of $M^*$.
-
-9) The colength of a simple A-module S is the dimension of the countermodule of S (over the field End$_A(S))$. We say that an A-module M of finite length has finite colength if it admits a Jordan–Hölder series whose successive quotients are of finite colength; the sum of these colengths is called the colength of M and is denoted by $\lambda (M)$. If N is a submodule of M, then we have $\lambda (M) =\lambda (N) +\lambda (M/N)$.
-
-Let A be an autoinjective ring (Exercise 8) such that the modules $A_s$ and $A_d$ are of finite colength. We say that A is a Frobenius ring if for every simple A-module S, we have $\lambda (S) =\lambda (S^*)$. a) Let M be an A-module of finite length. If A is a Frobenius ring, then we have $\lambda (M) =\lambda (M^*)$. If, moreover, A is an algebra of finite rank over a commutative field K, then we have dim$_K(M) =$ dim$_K(M^*)$ (use Exercise 7). b) Let K be a commutative field, and let A be the subalgebra of $\mathbf{M}_6(K)$ with basis the elements $E_{11}+ E_{55}, E_{12}+ E_{56}, E_{21}+ E_{65}, E_{22}+ E_{66}, E_{33}+ E_{44}, E_{13}, E_{23}$, $E_{45}$, and $E_{46}$ (where the $E_{ij}$ are the matrix units of $\mathbf{M}_6(K))$. Prove that A is an autoinjective algebra but not a Frobenius algebra (observe that the minimal left ideals of A are KE$_{13}+$ KE$_{23}$, KE$_{45}$, and KE$_{46}$, and the minimal right ideals are KE$_{13}$, KE$_{23}$, and KE$_{45}+$ KE$_{46})$.
-
-10) Let $\rho : A\rightarrow B$ be a ring homomorphism used to view B as a right A-module. Suppose that the left B-module Hom$_A(B,A)$ is isomorphic to $B_s$. a) Let M be a B-module, and let $\varphi : B_s\rightarrow$ Hom$_A(B,A)$ be an isomorphism. Prove that the mapping $u\mapsto \varphi (1)\circ u$ from Hom$_B(M,B)$ to Hom$_A(M,A)$ is bijective. b) Suppose, moreover, that the A-module B is finitely generated. The ring B is autoinjective (Exercise 8) if and only if the same holds for A. c) Let G be a finite group. Show that the conditions above are satisfied when B is taken to be the A-module A[G] endowed with the ring structure such that $(ae_g)(a'e_{g'}) =aa'e_{gg'}$ for $a, a'$ in A and $g, g'$ in G. In particular, if K is a commutative field, then the algebra K[G] is autoinjective.
+See the [exercises for § 3](exercises/s3/).
