@@ -1,51 +1,452 @@
 {
   "book": "alg-i-iii",
-  "started": "2026-08-10T21:14:46.602003Z",
-  "finished": "2026-08-10T21:49:41.338795Z",
+  "started": "2026-08-10T22:22:47.157294Z",
+  "finished": "2026-08-10T22:23:27.762783Z",
   "batches": [
     {
       "host": "server3",
-      "id": "alg-i-iii-0101-12e6b3",
-      "pages": 2,
-      "wrote": 2,
-      "pid": 1470916,
-      "elapsed": "6m47s"
+      "id": "alg-i-iii-0053-f0d94e",
+      "pages": 11,
+      "wrote": 0,
+      "pid": 0,
+      "elapsed": "0s",
+      "log": "batch alg-i-iii-0053-f0d94e has two images named 0066.png: /Users/apple/github/tamnd/bourbaki/images/alg-i-iii/0066.png and /Users/apple/github/tamnd/bourbaki/images/alg-i-iii/0066.png"
+    },
+    {
+      "host": "server2",
+      "id": "alg-i-iii-0067-1df8a4",
+      "pages": 13,
+      "wrote": 0,
+      "pid": 0,
+      "elapsed": "0s",
+      "log": "batch alg-i-iii-0067-1df8a4 has two images named 0062.png: /Users/apple/github/tamnd/bourbaki/images/alg-i-iii/0062.png and /Users/apple/github/tamnd/bourbaki/images/alg-i-iii/0062.png"
+    },
+    {
+      "host": "server2",
+      "id": "alg-i-iii-0067-493e14",
+      "pages": 13,
+      "wrote": 0,
+      "pid": 0,
+      "elapsed": "0s",
+      "log": "batch alg-i-iii-0067-493e14 has two images named 0062.png: /Users/apple/github/tamnd/bourbaki/images/alg-i-iii/0062.png and /Users/apple/github/tamnd/bourbaki/images/alg-i-iii/0062.png"
+    },
+    {
+      "host": "server2",
+      "id": "alg-i-iii-0067-6b31ac",
+      "pages": 10,
+      "wrote": 0,
+      "pid": 0,
+      "elapsed": "0s",
+      "log": "batch alg-i-iii-0067-6b31ac has two images named 0070.png: /Users/apple/github/tamnd/bourbaki/images/alg-i-iii/0070.png and /Users/apple/github/tamnd/bourbaki/images/alg-i-iii/0070.png"
     },
     {
       "host": "server3",
-      "id": "alg-i-iii-0101-bae82b",
-      "pages": 6,
-      "wrote": 4,
-      "missing": [
-        "0100.png",
-        "0101.png"
-      ],
-      "pid": 1467125,
-      "elapsed": "27m56s",
-      "log": "[ban] Profile slot chatgpt-profile-12 rate-limited until 23:37:47 — will rotate to a fresh slot.\n  no-response  0101.png  retry in 90s (attempt 3/4): no attach control on the \npage (profile=chatgpt-profile-12, form-images=0, url=/, composer=no, login=no)\n  [ban] Profile slot chatgpt-profile-13 rate-limited until 23:40:11 — will rotate to a fresh slot.\n  no-response  0101.png  retry in 120s (attempt 4/4): no attach control on the \npage (profile=chatgpt-profile-13, form-images=0, url=/, composer=no, login=no)\n  [ban] Profile slot chatgpt-profile-17 rate-limited until 23:43:01 — will rotate to a fresh slot.\n  fail  0101.png  48.8s  No OCR response: 0101.png never attached \n(profile=chatgpt-profile-17, no upload preview after 22s, t\n  [ban] Profile slot chatgpt-profile-14 rate-limited until 23:43:53 — will rotate to a fresh slot.\n  no-response  0102.png  retry in 30s (attempt 1/4): no attach control on the \npage (profile=chatgpt-profile-14, form-images=0, url=/, composer=no, login=no)\n  ok  0102.png  →  0102.md  60.2s\n  ok  0103.png  →  0103.md  74.7s\n  ok  0104.png  →  0104.md  62.7s\n  [ban] Profile slot chatgpt-profile-20 rate-limited until 05:37:53 — will rotate to a fresh slot.\n  no-response  0105.png  retry in 30s (attempt 1/4): chatgpt-profile-20 has no \nuploads left, the composer says 'wait 20 hours to upload again'\n  [ban] Profile slot chatgpt-profile-10 rate-limited until 00:38:42 — will rotate to a fresh slot.\n  no-response  0105.png  retry in 60s (attempt 2/4): chatgpt-profile-10 is \nsigned out, somebody has to log this profile in again\n  ok  0105.png  →  0105.md  157.4s\n  OCR  done=4  fail=2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6/6 0:27:10 0:00:00\n\n──────────────── Batch complete  4 succeeded  2 failed  (of 6) ─────────────────"
+      "id": "alg-i-iii-0071-ca37af",
+      "pages": 8,
+      "wrote": 0,
+      "pid": 0,
+      "elapsed": "0s",
+      "log": "batch alg-i-iii-0071-ca37af has two images named 0070.png: /Users/apple/github/tamnd/bourbaki/images/alg-i-iii/0070.png and /Users/apple/github/tamnd/bourbaki/images/alg-i-iii/0070.png"
+    },
+    {
+      "host": "server3",
+      "id": "alg-i-iii-0071-dca1e3",
+      "pages": 8,
+      "wrote": 0,
+      "pid": 0,
+      "elapsed": "0s",
+      "log": "batch alg-i-iii-0071-dca1e3 has two images named 0070.png: /Users/apple/github/tamnd/bourbaki/images/alg-i-iii/0070.png and /Users/apple/github/tamnd/bourbaki/images/alg-i-iii/0070.png"
     }
   ],
-  "accepted": 6,
-  "rejected": 2,
-  "dead": 0,
+  "accepted": 0,
+  "rejected": 63,
+  "dead": 21,
   "failures": [
     {
-      "page": 100,
+      "page": 50,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 50,
       "attempts": 2,
       "state": "pending",
       "reason": "no answer came back for this page"
     },
     {
-      "page": 101,
+      "page": 50,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 53,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 53,
       "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 53,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 55,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 55,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 55,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 59,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 59,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 59,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 61,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 61,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 61,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 62,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 62,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 62,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 62,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 62,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 62,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 63,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 63,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 63,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 64,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 64,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 64,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 65,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 65,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 65,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 66,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 66,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 66,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 66,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 66,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 66,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 67,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 67,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 67,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 68,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 68,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 68,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 68,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 68,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 68,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 69,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 69,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 69,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 69,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 69,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 69,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 70,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 70,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 70,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 70,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 70,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 70,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 71,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 71,
+      "attempts": 1,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 71,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 71,
+      "attempts": 2,
+      "state": "pending",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 71,
+      "attempts": 3,
+      "state": "dead",
+      "reason": "no answer came back for this page"
+    },
+    {
+      "page": 71,
+      "attempts": 1,
       "state": "pending",
       "reason": "no answer came back for this page"
     }
   ],
   "per_host": {
-    "server3": 6
+    "server2": 0,
+    "server3": 0
   },
   "host_times": {
-    "server3": "34m43s"
+    "server2": "0s",
+    "server3": "0s"
   }
 }
