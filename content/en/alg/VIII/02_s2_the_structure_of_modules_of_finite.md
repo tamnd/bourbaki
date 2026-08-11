@@ -34,7 +34,7 @@ subsections:
       pdf_page: 54
 statements: 36
 exercises: 20
-content_sha256: 44a5b12a161c70f8cca152cb2c02c3544ce4a8bb041de75d6c572f2cd5222607
+content_sha256: 9b219f4e2154568c305673deea67d077c0defae40bd167838cfc651e1aa152b1
 ---
 
 ## § 2. THE STRUCTURE OF MODULES OF FINITE LENGTH
@@ -59,7 +59,7 @@ The implication (i) $\Rightarrow$ (ii) follows from the definition of an ideal. 
 
 We have $\mathfrak{r}\not= A$, and the set $\mathfrak{r}$ contains every left ideal of A not equal to A. If $\mathfrak{r}$ is a left ideal of A, it is therefore the unique maximal left ideal of A. This proves that (i) implies (iii).
 
-Suppose that A has a unique maximal left ideal $\mathfrak{m}$. Take $b\in A\mathfrak{m}$. The left ideal $Ab$ is not contained in any maximal left ideal of A, hence is equal to A (I, §8, No. 6, p. 104, Theorem 1), and $b$ is left invertible. For every $a\in A$, one of the elements $a$ and $1-a$ belongs to A $\mathfrak{m}$ because $\mathfrak{m}$ is an ideal that does not contain 1. Thus, (iii) implies (v).
+Suppose that A has a unique maximal left ideal $\mathfrak{m}$. Take $b\in A-\mathfrak{m}$. The left ideal $Ab$ is not contained in any maximal left ideal of A, hence is equal to A (I, §8, No. 6, p. 104, Theorem 1), and $b$ is left invertible. For every $a\in A$, one of the elements $a$ and $1-a$ belongs to A $-\mathfrak{m}$ because $\mathfrak{m}$ is an ideal that does not contain 1. Thus, (iii) implies (v).
 
 Suppose that property (v) holds. Let $b$ be a left invertible element of A. Let $c\in A$ be such that $cb= 1$. We have $(1-bc)b= 0$ and $b\not= 0$; hence, $1-bc$ is not left invertible. By property (v), $bc$ is left invertible and, a fortiori, $c$ is left invertible. But then $c$ is invertible; $b$ is its inverse, so $b$ is invertible. It follows that (v) implies (iv).
 
@@ -67,7 +67,7 @@ It remains to prove that (iv) implies (i). Suppose that (iv) holds. Then $\mathf
 
 a) We have $0\in \mathfrak{r}$ because the ring A is nonzero.
 
-b) The product of two elements of A, one belonging to $\mathfrak{r}$ and the other to A $\mathfrak{r}$, belongs to $\mathfrak{r}$.
+b) The product of two elements of A, one belonging to $\mathfrak{r}$ and the other to A $-\mathfrak{r}$, belongs to $\mathfrak{r}$.
 
 c) The set $\mathfrak{r}$ is stable under addition.
 
@@ -271,11 +271,11 @@ Let M be an A-module that is the direct sum of a family $(M_i)_{i\in I}$ of prim
 
 a) There exists an index $i\in I$ such that $u$ induces an isomorphism from $M_i$ to a direct factor submodule of M.
 
-b) For every finite subset J of I$,v$ induces an isomorphism from $M_J$ to a submodule supplementary to $M_{I J}$.
+b) For every finite subset J of I$,v$ induces an isomorphism from $M_J$ to a submodule supplementary to $M_{I-J}$.
 
 If property b) holds, then $v$ is injective.
 
-Suppose that property a) does not hold, and let us establish property b) by induction on the cardinal of J. There is nothing to prove if $J =\emptyset$. Therefore, assume that J is nonempty, choose an element $i$ of J, and set $J'= J\{i\}$. By the induction hypothesis, $v$ induces an isomorphism from $M_{J'}$ to a submodule of M supplementary to $M_{I J'}= M_{I J}\oplus M_i$; consequently, the submodule $M''=v(M_{J'})\oplus M_{I J}$ is supplementary to $M_i$. By Lemma 1 and the assumption on $u$, the endomorphism $v$ induces an isomorphism from $M_i$ to a submodule of M supplementary to $M''$; consequently, $v$ induces an isomorphism from $M_J= M_i\oplus M_{J'}$ to a submodule supplementary to $M_{I J}$.
+Suppose that property a) does not hold, and let us establish property b) by induction on the cardinal of J. There is nothing to prove if $J =\emptyset$. Therefore, assume that J is nonempty, choose an element $i$ of J, and set $J'= J-\{i\}$. By the induction hypothesis, $v$ induces an isomorphism from $M_{J'}$ to a submodule of M supplementary to $M_{I-J'}= M_{I-J}\oplus M_i$; consequently, the submodule $M''=v(M_{J'})\oplus M_{I-J}$ is supplementary to $M_i$. By Lemma 1 and the assumption on $u$, the endomorphism $v$ induces an isomorphism from $M_i$ to a submodule of M supplementary to $M''$; consequently, $v$ induces an isomorphism from $M_J= M_i\oplus M_{J'}$ to a submodule supplementary to $M_{I-J}$.
 
 The last assertion follows from the fact that M is the union of the submodules $M_J$, where J runs through the finite subsets of I.
 
@@ -291,13 +291,13 @@ Let M be an A-module that is the direct sum of a family $(M_i)_{i\in I}$ of prim
 
 (1) Card(J) $\leqslant$ Card(I$_L)$.
 
-Let $N_0$ be a submodule of M supplementary to N. The module M is the direct sum of $N_0$ and the family $(N_j)_{j\in J}$. For every $j\in J$, denote by $p_j$ the projector of M with image $N_j$ associated with this decomposition (II, §1, No. 8, p. 209, Proposition 12). For every $i\in I$, denote by $J(i)$ the set of indices $j\in J$ such that $p_j$ induces an isomorphism from $M_i$ to $N_j$. This set is finite: indeed, if $x$ is a nonzero element of $M_i$ and K is a finite subset of J such that $x$ belongs to $N_0+\sum_{k\in K}N_k$, then we have $p_j(x) = 0$ for $j\in J$ K, so that $J(i)$ is contained in K.
+Let $N_0$ be a submodule of M supplementary to N. The module M is the direct sum of $N_0$ and the family $(N_j)_{j\in J}$. For every $j\in J$, denote by $p_j$ the projector of M with image $N_j$ associated with this decomposition (II, §1, No. 8, p. 209, Proposition 12). For every $i\in I$, denote by $J(i)$ the set of indices $j\in J$ such that $p_j$ induces an isomorphism from $M_i$ to $N_j$. This set is finite: indeed, if $x$ is a nonzero element of $M_i$ and K is a finite subset of J such that $x$ belongs to $N_0+\sum_{k\in K}N_k$, then we have $p_j(x) = 0$ for $j\in J$- K, so that $J(i)$ is contained in K.
 
 Let $j\in J$. By Lemma 3, there exists an index $i\in I$ such that $p_j$ induces an isomorphism from $M_i$ to a direct factor submodule of $N_j$. Since $M_i$ is nonzero and $N_j$ is primordial and therefore indecomposable (VIII, p. 31, Proposition 4), we have $p_j(M_i) = N_j$, and $j$ belongs to $J(i)$. Since the module $M_i$ is isomorphic to $N_j$ and hence to L, the index $i$ belongs to $I_L$. This proves that J is the union of the family of finite sets $(J(i))_{i\in I_L}$. If the set J is infinite, then the set $I_L$ is infinite, and we have (Set Theory, III, §6, No. 3, p. 188, Corollary 3)
 
 Card(J) $\leqslant_i\sum_{\in I_L}$ Card(J($i$))$\leqslant$ Card(I$_L)$.
 
-Now, suppose that the set J is finite, and let us prove the lemma by induction on the cardinal of J. If J is empty, there is nothing to prove. Therefore, suppose that J is nonempty, and choose an element $j$ of J. By the above, there exists an index $i\in I_L$ such that $p_j$ induces an isomorphism from $M_i$ to $N_j$. Set $I'= I\{i\}$ and $J'= J\{j\}$. The module M is the direct sum of $M_i$ and the kernel of $p_j$. It is also the direct sum of $M_i$ and the submodule $M'=\oplus_{i'\in I'}M_{i'}$. Hence, there exists (II, §1, No. 9, p. 210, Corollary of Proposition 13) an isomorphism $\varphi$ from Ker $p_j= N_0\oplus_{j'\in J'}N_{j'}$ to $M'$. Set $N'=\varphi \sum_{j'\in J'}N_{j'}$. The submodule $N'$ of $M'$ is a direct factor and is the direct sum of the family $(\varphi (N_{j'}))_{j'\in J'}$ of primordial submodules isomorphic to L. Let us apply the induction hypothesis to $M'$ and $N':$ we have Card(J$')\leqslant$ Card(I$_L\{i\})$ and therefore inequality (1).
+Now, suppose that the set J is finite, and let us prove the lemma by induction on the cardinal of J. If J is empty, there is nothing to prove. Therefore, suppose that J is nonempty, and choose an element $j$ of J. By the above, there exists an index $i\in I_L$ such that $p_j$ induces an isomorphism from $M_i$ to $N_j$. Set $I'= I-\{i\}$ and $J'= J-\{j\}$. The module M is the direct sum of $M_i$ and the kernel of $p_j$. It is also the direct sum of $M_i$ and the submodule $M'=\oplus_{i'\in I'}M_{i'}$. Hence, there exists (II, §1, No. 9, p. 210, Corollary of Proposition 13) an isomorphism $\varphi$ from Ker $p_j= N_0\oplus_{j'\in J'}N_{j'}$ to $M'$. Set $N'=\varphi \sum_{j'\in J'}N_{j'}$. The submodule $N'$ of $M'$ is a direct factor and is the direct sum of the family $(\varphi (N_{j'}))_{j'\in J'}$ of primordial submodules isomorphic to L. Let us apply the induction hypothesis to $M'$ and $N':$ we have Card(J$')\leqslant$ Card(I$_L-\{i\})$ and therefore inequality (1).
 
 Let us prove Theorem 1. Let $(M_i)_{i\in I}$ and $(N_j)_{j\in J}$ be two families of primordial submodules with direct sum M. Let $I_L$ (resp. $J_L)$ be the set of $i\in I$ (resp. $j\in J)$ such that $M_i$ (resp. $N_j)$ is isomorphic to L. We have Card(J$_L)\leqslant$ Card(I$_L)$ by Lemma 4. By interchanging the roles of I and J, we obtain the inverse inequality and thus the theorem.
 
@@ -351,11 +351,11 @@ Let M be a semiprimordial module that is the direct sum of a finite family $(M_i
 
 a) There exists a subset J of I such that $M_J$ is a submodule supplementary to N.
 
-b) Let J be a subset of I. If $M_J$ is supplementary to N, then the module N is isomorphic to $M_{I J}$ and is semiprimordial.
+b) Let J be a subset of I. If $M_J$ is supplementary to N, then the module N is isomorphic to $M_{I-J}$ and is semiprimordial.
 
-We denote by K the set of indices $i\in I$ such that $N\cap M_i= 0$; let us use induction on the cardinal of K. The corollary is clear if M = N. Suppose $M\not= N$. Let $p$ be a projector of M with kernel N. Denote its image by P. It is nonzero, and by Lemma 3, there exists a $j\in I$ such that $p$ induces an isomorphism from $M_j$ to a direct factor submodule of P. We have $N\cap M_j= 0$. Set $N'= N\oplus M_j$. We have $N'= N\oplus p(M_j)$. A submodule supplementary to $p(M_j)$ in P is also supplementary to $N'$ in M, so that $N'$ is a direct factor submodule of M. The set of indices $i\in I$ such that $N'\cap M_i= 0$ is contained in K $\{j\}$. By the induction hypothesis, there exists a subset $J'$ of I such that $M_{J'}$ is a submodule supplementary to $N'$ in M. Set $J = J'\cup  \{j\}$. Then $M_J$ is a submodule supplementary to N in M.
+We denote by K the set of indices $i\in I$ such that $N\cap M_i= 0$; let us use induction on the cardinal of K. The corollary is clear if M = N. Suppose $M\not= N$. Let $p$ be a projector of M with kernel N. Denote its image by P. It is nonzero, and by Lemma 3, there exists a $j\in I$ such that $p$ induces an isomorphism from $M_j$ to a direct factor submodule of P. We have $N\cap M_j= 0$. Set $N'= N\oplus M_j$. We have $N'= N\oplus p(M_j)$. A submodule supplementary to $p(M_j)$ in P is also supplementary to $N'$ in M, so that $N'$ is a direct factor submodule of M. The set of indices $i\in I$ such that $N'\cap M_i= 0$ is contained in K $-\{j\}$. By the induction hypothesis, there exists a subset $J'$ of I such that $M_{J'}$ is a submodule supplementary to $N'$ in M. Set $J = J'\cup  \{j\}$. Then $M_J$ is a submodule supplementary to N in M.
 
-Let J be a subset of I such that $M_J$ is a submodule supplementary to M in N. Since $M_J$ is also supplementary to $M_{I J}$, the modules N and $M_{I J}$ are isomorphic and N is semiprimordial.
+Let J be a subset of I such that $M_J$ is a submodule supplementary to M in N. Since $M_J$ is also supplementary to $M_{I-J}$, the modules N and $M_{I-J}$ are isomorphic and N is semiprimordial.
 
 #### Corollary 6 {#alg-viii-s2-lem-4-cor-6 .statement tag=002H}
 
@@ -379,7 +379,7 @@ a) There exists a finite family $(M_i)_{i\in I}$ of indecomposable submodules of
 
 b) Let $(M_i)_{i\in I}$ and $(M'_j)_{j\in J}$ be two finite families of indecomposable submodules of M such that $M =\bigoplus_{i\in I}M_i=\bigoplus_{j\in J}M'_j$. There exist a bijection $\sigma$ from I to J and an automorphism $u$ of M such that we have $u(M_i) = M'_{\sigma(i)}$ for every $i\in I$.
 
-c) Let N be a direct factor submodule of M, and let $(M_i)_{i\in I}$ be a finite family of indecomposable submodules of M with direct sum M. There exists a subset J of I such that $\bigoplus_{i\in I J}M_i$ is supplementary to N. The module N is isomorphic to $\bigoplus_{j\in J}M_j$.
+c) Let N be a direct factor submodule of M, and let $(M_i)_{i\in I}$ be a finite family of indecomposable submodules of M with direct sum M. There exists a subset J of I such that $\bigoplus_{i\in I-J}M_i$ is supplementary to N. The module N is isomorphic to $\bigoplus_{j\in J}M_j$.
 
 d) Let N be an A-module. If there exists an integer $d >0$ such that the modules $M^d$ and $N^d$ are isomorphic, then the modules M and N are isomorphic.
 

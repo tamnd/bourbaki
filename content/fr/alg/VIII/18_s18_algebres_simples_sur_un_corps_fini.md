@@ -21,7 +21,7 @@ subsections:
       pdf_page: 351
 statements: 10
 exercises: 7
-content_sha256: 6cef1d52f1e3bc4ad32c2046d539c8426c67981bfb2f2f49c0321836a06832a7
+content_sha256: 5c5cb7e7e59e66b069178c7d5bb1b6e6ce390914bc0d9df9e79b78f2b4d44b9c
 ---
 
 ## § 18. ALGÈBRES SIMPLES SUR UN CORPS FINI
@@ -116,7 +116,7 @@ $$
 [D : K] = [L : K]^2= [L_1: K]^2
 $$
 
-d’après le cor. 2 de VIII, p. 261, d’où $[L : K] = [L_1: K]$. D’après la prop. 3 de V, p. 90, les extensions L et $L_1$ de K sont isomorphes. D’après VIII, p. 259, cor., il existe un élément $a$ de $D^*$ tel que $aLa^{-1}= L_1$, donc $a^{-1}xa$ appartient à L. On a alors $(ay)^{-1}x(ay) =a^{-1}xa$ pour tout $y\in L^*$. Par suite, si S est un ensemble de représentants de classes à gauche dans $D^*$ modulo $L^*$, tout élément de $D^*\{1\}$ s’écrit $sxs^{-1}$, avec $s\in S$ et $x\in L^*\{1\}$. Notons $d$ l’ordre de $D^*$ et $\ell$ celui de $L^*$; comme le cardinal de S est égal à $d/\ell$, on a $d-1\leqslant (d/\ell )(\ell -1) =d-d/\ell$; on en déduit $\ell =d$, d’où L = D, ce qui prouve que le corps D est commutatif.
+d’après le cor. 2 de VIII, p. 261, d’où $[L : K] = [L_1: K]$. D’après la prop. 3 de V, p. 90, les extensions L et $L_1$ de K sont isomorphes. D’après VIII, p. 259, cor., il existe un élément $a$ de $D^*$ tel que $aLa^{-1}= L_1$, donc $a^{-1}xa$ appartient à L. On a alors $(ay)^{-1}x(ay) =a^{-1}xa$ pour tout $y\in L^*$. Par suite, si S est un ensemble de représentants de classes à gauche dans $D^*$ modulo $L^*$, tout élément de $D^*-\{1\}$ s’écrit $sxs^{-1}$, avec $s\in S$ et $x\in L^*-\{1\}$. Notons $d$ l’ordre de $D^*$ et $\ell$ celui de $L^*$; comme le cardinal de S est égal à $d/\ell$, on a $d-1\leqslant (d/\ell )(\ell -1) =d-d/\ell$; on en déduit $\ell =d$, d’où L = D, ce qui prouve que le corps D est commutatif.
 
 #### Remarque 2 {#alg-viii-s18-n2-rem-2 .statement tag=00LH}
 

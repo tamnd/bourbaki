@@ -35,7 +35,7 @@ subsections:
       pdf_page: 472
 statements: 18
 exercises: 4
-content_sha256: ce53f4329c6bed6903f5162fc1dd1c1f46300790ea305286e59166cfd0b77e8d
+content_sha256: 5a37610da8de091cd7f53fb66cb35268eb8c1da88fdd4ffd5188e369b812172e
 ---
 
 ## APPENDIX 2 DETERMINANTS OVER A NONCOMMUTATIVE FIELD
@@ -128,7 +128,7 @@ In this subsection, for any strictly positive integer $m$, any integer $i$ in th
 
 #### Proposition 1 {#alg-viii-a2-prop-1 .statement tag=00Q1}
 
-Let W be a hyperplane in V and $e$ be a vector in V W. Let $\varphi$ be an element of Ω(W). There exists a unique element $\omega$ of Ω(V) such that we have
+Let W be a hyperplane in V and $e$ be a vector in V- W. Let $\varphi$ be an element of Ω(W). There exists a unique element $\omega$ of Ω(V) such that we have
 
 $$
 \omega (w_1, . . . , w_{n-1}, e) =\varphi (w_1, . . . , w_{n-1}) \tag{7}

@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: 599a6ec3ba059b4c4a494a7773689220b94f678adc5138349e35d1c10d168756
+content_sha256: f1b713beaf2dd6333bfc3069e3739a312427804b54b72e2994047d885e3bf884
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -534,7 +534,7 @@ Soient S et T deux A-modules simples, de dimension finie sur K, non isomorphes. 
 
 D’après le lemme 2, il existe un élément $a\in A$ tel que $a_S= 0$ et $a_T= 1$. L’élément $1\otimes a$ de $A_{(L)}$ opère comme 0 sur $S_{(L)}$ et comme 1 sur $T_{(L)}$. D’après le lemme 2, les supports des $A_{(L)}$-modules $S_{(L)}$ et $T_{(L)}$ sont disjoints.
 
-Démontrons le th. 1. Soit $\mathscr{S}$ l’ensemble des classes de A-modules simples qui sont de dimension finie sur K. La famille $([S])_{S\in\mathscr{S}}$ est une base du $\mathbf{Z}$-module $R_K(A)$. Soit $S\in \mathscr{S}$. Le $A_{(L)}$-module $S_{(L)}$ n’est pas nul, donc son support n’est pas vide. Soit $S'$ un élément de ce support. D’après le lemme 1 de VIII, p. 185, il existe un homomorphisme $f_{S'}: R_L(A_{(L)})\rightarrow \mathbf{Z}$tel que $f_{S'}([E]) =\ell_{S'}(E)$ pour tout $A_{(L)}$-module E qui est de dimension finie sur L. On a $f_{S'}([S_{(L)}])\not= 0$ par construction et $f([T_{(L)}]) = 0$ pour tout $T\in \mathscr{S}\{S\}$ d’après le lemme 3. Nous avons ainsi prouvé que les éléments de $R_L(A_{(L)})$ de la forme $[S_{(L)}]$, pour $S\in \mathscr{S}$, sont linéairement indépendants sur $\mathbf{Z}$. Il en résulte que l’homomorphisme $u$ est injectif.
+Démontrons le th. 1. Soit $\mathscr{S}$ l’ensemble des classes de A-modules simples qui sont de dimension finie sur K. La famille $([S])_{S\in\mathscr{S}}$ est une base du $\mathbf{Z}$-module $R_K(A)$. Soit $S\in \mathscr{S}$. Le $A_{(L)}$-module $S_{(L)}$ n’est pas nul, donc son support n’est pas vide. Soit $S'$ un élément de ce support. D’après le lemme 1 de VIII, p. 185, il existe un homomorphisme $f_{S'}: R_L(A_{(L)})\rightarrow \mathbf{Z}$tel que $f_{S'}([E]) =\ell_{S'}(E)$ pour tout $A_{(L)}$-module E qui est de dimension finie sur L. On a $f_{S'}([S_{(L)}])\not= 0$ par construction et $f([T_{(L)}]) = 0$ pour tout $T\in \mathscr{S}-\{S\}$ d’après le lemme 3. Nous avons ainsi prouvé que les éléments de $R_L(A_{(L)})$ de la forme $[S_{(L)}]$, pour $S\in \mathscr{S}$, sont linéairement indépendants sur $\mathbf{Z}$. Il en résulte que l’homomorphisme $u$ est injectif.
 
 Soit $S\in \mathscr{S}$ et soit $S'$ un élément du support de $S_{(L)}$. Pour tout $\xi \in R_K$(A), la coordonnée de $\xi$ d’indice [S] dans la base $([S])_{S\in\mathscr{S}}$ est $f_{S'}(u(\xi ))/[S_{(L)}: S']$. Il en résulte que si $u(\xi )$ est effectif, $\xi$ l’est également.
 

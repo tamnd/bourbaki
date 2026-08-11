@@ -42,7 +42,7 @@ subsections:
       pdf_page: 128
 statements: 41
 exercises: 8
-content_sha256: 2742f10d74e56de44e8b9bd9dc94aee7784a14b28a68260090d0d20d04705229
+content_sha256: 04d1fac9ee6cc147b607ac6e74f2b00b2a75bf4898bc654e1638f43bd41a2fa2
 ---
 
 ## § 6. MORITA EQUIVALENCE OF MODULES AND ALGEBRAS
@@ -443,13 +443,13 @@ $\sum_{i\in I}M_i$ Least upper bound sup$_{i\in I}M_i$
 
 Supplementary submodules inf(M$',M'') = 0$, sup(M$',M'') = M$
 
-Simple submodule of M Minimal element of D(M) $\{0\}$
+Simple submodule of M Minimal element of D(M) $-\{0\}$
 
-Maximal submodule of M Maximal element of D(M) $\{M\}$
+Maximal submodule of M Maximal element of D(M) $-\{M\}$
 
 Socle $\mathscr{S}(M)$ of M Least upper bound in D(M) of the set of
 
-minimal elements of D(M) $\{0\}$
+minimal elements of D(M)$-\{0\}$
 
 $*$Radical $\mathfrak{R}(M)$ of M Greatest lower bound in D(M) of the set
 
@@ -457,7 +457,7 @@ $$
 *
 $$
 
-(VIII, p. 151) of maximal elements of D(M) $\{M\}$
+(VIII, p. 151) of maximal elements of D(M)$-\{M\}$
 
 Table I.
 
@@ -489,7 +489,7 @@ M is semisimple. M is the least upper bound, in D(M),
 
 of the set of minimal elements of
 
-D(M) $\{0\}$.
+D(M)$-\{0\}$.
 
 Table II.
 

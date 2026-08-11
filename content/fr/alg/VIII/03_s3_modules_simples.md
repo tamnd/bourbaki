@@ -33,7 +33,7 @@ subsections:
       pdf_page: 58
 statements: 23
 exercises: 10
-content_sha256: 7219d389af874cf7c041e423756b7d57af7b0b896e19508b9716dbecb9d09434
+content_sha256: 21593dbc947e654587c38614edf84647e75f5b375680b9554d8a371878158cd8
 ---
 
 ## § 3. MODULES SIMPLES
@@ -130,7 +130,7 @@ Soit E l’anneau des endomorphismes du A-module M ; c’est un corps d’après
 
 Soient E un corps et K un sous-corps du centre de E, distinct de E. Si le corps K est algébriquement clos, on a $[E : K]\geqslant$ Card(K).
 
-Soient $x$ un élément de E K et L le sous-corps (commutatif) de E engendré par $K\cup  \{x\}$. Comme K est algébriquement clos, $x$ est transcendant sur K. D’après VII, p. 10, th. 2 et p. 11, les éléments $(x-\alpha )^{-1}$ de L, où $\alpha$ parcourt K, sont linéairement indépendants sur K. On a donc $[E : K]\geqslant [L : K]\geqslant$ Card(K).
+Soient $x$ un élément de E- K et L le sous-corps (commutatif) de E engendré par $K\cup  \{x\}$. Comme K est algébriquement clos, $x$ est transcendant sur K. D’après VII, p. 10, th. 2 et p. 11, les éléments $(x-\alpha )^{-1}$ de L, où $\alpha$ parcourt K, sont linéairement indépendants sur K. On a donc $[E : K]\geqslant [L : K]\geqslant$ Card(K).
 
 #### Exemple {#alg-viii-s3-n2-exa-1 .statement tag=003G}
 

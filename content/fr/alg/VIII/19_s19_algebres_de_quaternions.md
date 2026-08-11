@@ -33,7 +33,7 @@ subsections:
       pdf_page: 362
 statements: 16
 exercises: 8
-content_sha256: afd39587a3d2ea35601c006f34f0c328596076266ef222ac5d66b7aa571676d4
+content_sha256: 5639749113fc35ec2855e6b5e48f954cd10881688d16664389cf1809444c1fc0
 ---
 
 ## § 19. ALGÈBRES DE QUATERNIONS
@@ -256,7 +256,7 @@ a) On a R = Z = L, d’où [D : Z] = 1 et D = R.
 
 b) On a $R\not= Z$ et Z = L, d’où [D : Z] = 1 et D = L ; dans ce cas, D est isomorphe à C.
 
-c) On a R = Z et [L : R] = 2, d’où [D : R] = 4. D’après la prop. 4 de VIII, p. 356, la R-algèbre D est isomorphe à une algèbre de quaternions de type $(\alpha ,0, \gamma )$ où $\alpha$ et $\gamma$ sont des éléments non nuls de R. Soit $i\in D$ Z tel que $i^2=\alpha$. On a $\alpha \not= 0$. Si $\alpha  >0$, il existe $a\in R$ tel que $a^2=\alpha$ (VI, p. 25, th. 3) ; on a alors $(a-i)(a+i) = 0$, ce qui est absurde puisque D est un corps. On a donc $\alpha  <0$. On démontre de même l’inégalité $\gamma  <0$. Il existe alors des éléments $a$ et $c$ de $R^*$ tels que $\alpha =-a^2$ et $\gamma =-c^2($loc. cit.). L’algèbre D est donc isomorphe à l’algèbre de quaternions de type $(-1,0,-1)$ (VIII, p. 354, remarque 2), c’est-à-dire à H.
+c) On a R = Z et [L : R] = 2, d’où [D : R] = 4. D’après la prop. 4 de VIII, p. 356, la R-algèbre D est isomorphe à une algèbre de quaternions de type $(\alpha ,0, \gamma )$ où $\alpha$ et $\gamma$ sont des éléments non nuls de R. Soit $i\in D$ - Z tel que $i^2=\alpha$. On a $\alpha \not= 0$. Si $\alpha  >0$, il existe $a\in R$ tel que $a^2=\alpha$ (VI, p. 25, th. 3) ; on a alors $(a-i)(a+i) = 0$, ce qui est absurde puisque D est un corps. On a donc $\alpha  <0$. On démontre de même l’inégalité $\gamma  <0$. Il existe alors des éléments $a$ et $c$ de $R^*$ tels que $\alpha =-a^2$ et $\gamma =-c^2($loc. cit.). L’algèbre D est donc isomorphe à l’algèbre de quaternions de type $(-1,0,-1)$ (VIII, p. 354, remarque 2), c’est-à-dire à H.
 
 #### Remarque 1 {#alg-viii-s19-n5-rem-1 .statement tag=00M2}
 

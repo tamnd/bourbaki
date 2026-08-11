@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: c02df718855621b000e307674f31de903168e0f836369f4ed9c92f0048c01b30
+content_sha256: 2b2df1935eef83b023e0e5344d901fff7181e2e58ce67ab1c95a25a3a95c0d2b
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -95,7 +95,7 @@ Let D be a field and Z its center. Denote the characteristic exponent of Z by $p
 
 If $p= 1$, then D = Z. We therefore assume $p >1$.
 
-Let us give a proof by contradiction and suppose that D is not commutative. Let $a$ be an element of D Z and $q$ a power of $p$ such that $a^q$ belongs to Z. Denote the identity mapping on D by I and the inner automorphism $x\mapsto axa^{-1}$ from D to D associated with $a$ by $\sigma$; we have $\sigma^q= I$ because $a^q$ belongs to Z. We have $\sigma -I\not= 0$ because $a$ does not belong to Z, and we have $(\sigma -I)^q=\sigma^q-I = 0$ because Z has characteristic $p$. Let $f$ be the greatest natural number such that $(\sigma -I)^f\not= 0$; we have $f\geqslant 1$. Choose an element $c$ of D such that $(\sigma -I)^f(c)\not= 0$, and set
+Let us give a proof by contradiction and suppose that D is not commutative. Let $a$ be an element of D- Z and $q$ a power of $p$ such that $a^q$ belongs to Z. Denote the identity mapping on D by I and the inner automorphism $x\mapsto axa^{-1}$ from D to D associated with $a$ by $\sigma$; we have $\sigma^q= I$ because $a^q$ belongs to Z. We have $\sigma -I\not= 0$ because $a$ does not belong to Z, and we have $(\sigma -I)^q=\sigma^q-I = 0$ because Z has characteristic $p$. Let $f$ be the greatest natural number such that $(\sigma -I)^f\not= 0$; we have $f\geqslant 1$. Choose an element $c$ of D such that $(\sigma -I)^f(c)\not= 0$, and set
 
 $$
 x= (\sigma -I)^{f-1}(c),y= (\sigma -I)(x) = (\sigma -I)^f(c)
@@ -163,7 +163,7 @@ The implications (iii) $\Rightarrow$ (ii) $\Rightarrow$ (i) follow from Proposit
 
 Let L be an algebraically closed field and D a field containing L in its center. If D is distinct from L, then there exists an extension $L'$ of L such that the ring $D\otimes_LL'$ is not left Artinian.
 
-Let $x$ be an element of D L; since L is algebraically closed, the extension $L'= L(x)$ of L is not algebraic and $x$ is transcendent over L. The ring $B = L'\otimes_LL'$ is then an integral domain by Proposition 5 of V, §17, No. 4, p. 141.
+Let $x$ be an element of D - L; since L is algebraically closed, the extension $L'= L(x)$ of L is not algebraic and $x$ is transcendent over L. The ring $B = L'\otimes_LL'$ is then an integral domain by Proposition 5 of V, §17, No. 4, p. 141.
 
 The element $y=x\otimes 1-1\otimes x$ of B is not zero, but if $\varphi$ is the homomorphism from B to $L'$ that sends $\xi \otimes \eta$ to $\xi \eta$, then we have $\varphi (y) = 0$, so $y$ is not invertible in B. We view the ring $C = D\otimes_LL'$ as a right module over its subring B; it is a free module because D is a right vector space over its subfield $L'$. Since $y$ is a nonzero and noninvertible element of the integral domain B, right multiplication by $y$ in C is a mapping $R_y$ that is injective but not bijective. Now, $R_y$ is an endomorphism of the left C-module $C_s$; consequently (VIII, p. 28, Corollary 1), the ring C is not left Artinian.
 

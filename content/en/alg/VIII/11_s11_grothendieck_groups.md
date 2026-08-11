@@ -62,7 +62,7 @@ subsections:
       pdf_page: 221
 statements: 38
 exercises: 14
-content_sha256: 6ca661477a77e635dda6845f088df6f990c31bcd6c16d00cb5745efad3429339
+content_sha256: 1e1ac9de33c3904608ba567b048d2483ffac810e14a160dec94811a79b231671
 ---
 
 ## § 11. GROTHENDIECK GROUPS
@@ -547,7 +547,7 @@ Let S and T be two nonisomorphic simple A-modules that are finite-dimensional ov
 
 By Lemma 2, there exists an element $a\in A$ such that $a_S= 0$ and $a_T= 1$. The element $1\otimes a$ of $A_{(L)}$ acts as 0 on $S_{(L)}$ and as 1 on $T_{(L)}$. By Lemma 2, the supports of the $A_{(L)}$-modules $S_{(L)}$ and $T_{(L)}$ are disjoint.
 
-Let us prove Theorem 1. Let $\mathscr{S}$ be the set of classes of simple A-modules that are finite-dimensional over K. The family $([S])_{S\in\mathscr{S}}$ is a basis of the $\mathbf{Z}$-module $R_K(A)$. Let $S\in \mathscr{S}$. The $A_{(L)}$-module $S_{(L)}$ is not zero, so its support is not empty. Let $S'$ be an element of this support. By Lemma 1 of VIII, p. 190, there exists a homomorphism $f_{S'}: R_L(A_{(L)})\rightarrow \mathbf{Z}$ such that $f_{S'}([E]) =\ell_{S'}(E)$ for every $A_{(L)}$-module E that is finite-dimensional over L. We have $f_{S'}([S_{(L)}])\not= 0$ by construction and $f([T_{(L)}]) = 0$ for every $T\in \mathscr{S}\{S\}$ by Lemma 3. We have therefore proved that the elements of $R_L(A_{(L)})$ of the form $[S_{(L)}]$ for $S\in \mathscr{S}$ are linearly independent over $\mathbf{Z}$. It follows that the homomorphism $u$ is injective.
+Let us prove Theorem 1. Let $\mathscr{S}$ be the set of classes of simple A-modules that are finite-dimensional over K. The family $([S])_{S\in\mathscr{S}}$ is a basis of the $\mathbf{Z}$-module $R_K(A)$. Let $S\in \mathscr{S}$. The $A_{(L)}$-module $S_{(L)}$ is not zero, so its support is not empty. Let $S'$ be an element of this support. By Lemma 1 of VIII, p. 190, there exists a homomorphism $f_{S'}: R_L(A_{(L)})\rightarrow \mathbf{Z}$ such that $f_{S'}([E]) =\ell_{S'}(E)$ for every $A_{(L)}$-module E that is finite-dimensional over L. We have $f_{S'}([S_{(L)}])\not= 0$ by construction and $f([T_{(L)}]) = 0$ for every $T\in \mathscr{S}-\{S\}$ by Lemma 3. We have therefore proved that the elements of $R_L(A_{(L)})$ of the form $[S_{(L)}]$ for $S\in \mathscr{S}$ are linearly independent over $\mathbf{Z}$. It follows that the homomorphism $u$ is injective.
 
 Let $S\in \mathscr{S}$, and let $S'$ be an element of the support of $S_{(L)}$. For every $\xi \in R_K$(A), the coordinate of $\xi$ of index [S] in the basis $([S])_{S\in\mathscr{S}}$ is $f_{S'}(u(\xi ))/[S_{(L)}: S']$. It follows that if $u(\xi )$ is effective, then so is $\xi$.
 

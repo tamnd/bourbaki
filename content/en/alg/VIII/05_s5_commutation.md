@@ -38,7 +38,7 @@ subsections:
       pdf_page: 106
 statements: 37
 exercises: 19
-content_sha256: 3060d7609bda1030435f089c4ec57964db28cc6dd9a310a33251cb2c1bd17185
+content_sha256: 02cc74794731a220ef47941ab772278303277ddaca767ecd4d24cf5b4a24f451
 ---
 
 ## § 5. COMMUTATION
@@ -363,7 +363,7 @@ a) The mapping $z\mapsto (z_{S_{\lambda}})_{\lambda\in\mathscr{S}_M}$ is an isom
 
 b) The A-module M is isotypical and nonzero if and only if Z is a field.
 
-c) Let Λ be a subset of $\mathscr{S}_M$. Denote by $e_{\Lambda}$ the unique element of Z such that $(e_{\Lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$ for $\lambda \in \Lambda$ and $(e_{\Lambda})_{S_{\lambda}}= 0$ for $\lambda \in \mathscr{S}_M$ Λ. We have $(e_{\Lambda})_{M_{\lambda}}= 1_{M_{\lambda}}$ for $\lambda \in \Lambda$ and $(e_{\Lambda})_{M_{\lambda}}= 0$ for $\lambda \in \mathscr{S}_M$ Λ.
+c) Let Λ be a subset of $\mathscr{S}_M$. Denote by $e_{\Lambda}$ the unique element of Z such that $(e_{\Lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$ for $\lambda \in \Lambda$ and $(e_{\Lambda})_{S_{\lambda}}= 0$ for $\lambda \in \mathscr{S}_M-\Lambda$. We have $(e_{\Lambda})_{M_{\lambda}}= 1_{M_{\lambda}}$ for $\lambda \in \Lambda$ and $(e_{\Lambda})_{M_{\lambda}}= 0$ for $\lambda \in \mathscr{S}_M-\Lambda$.
 
 d) If the support $\mathscr{S}_M$ of M is finite, then the mapping $\Lambda \mapsto e_{\Lambda}Z$ is a bijection from the set of subsets of $\mathscr{S}_M$ to the set of ideals of Z, and the mapping $\mathfrak{a}\mapsto \mathfrak{a}M$ is a bijection from the set of ideals of Z to the set of $(A,B^o)$-sub-bimodules of M. These bijections are isomorphisms of ordered sets. The reverse bijection sends an $(A,B^o)$-sub-bimodule N of M to the ideal consisting of the elements $z$ of Z that send N into M.
 

@@ -45,7 +45,7 @@ subsections:
       pdf_page: 265
 statements: 36
 exercises: 19
-content_sha256: 0332dfb05214d16c01e52f87c187495097e27bfacb03a6b3412d923cf6b7dc24
+content_sha256: f4fbc44c0cae2badcbd981f06f0bbe93e0295b92a9c758490eb949e1c7390e19
 ---
 
 ## § 14. ALGÈBRES CENTRALES ET SIMPLES
@@ -452,7 +452,7 @@ Si chacun des espaces vectoriels $V_i$ est de dimension 1 sur D, on a
 
 [L : K] = Card(I) = dim$_D(V)$,
 
-donc L est maximal parmi les sous-algèbres diagonalisables de End$_D(V)$. Dans le cas contraire, il existe un indice $j\in I$ tel que dim$_D(V_j)\geqslant 2$. Choisissons deux sous-espaces vectoriels non nuls $V'_j$ et $V_j''$ de $V_j$ dont $V_j$ soit somme directe. La sous-algèbre diagonalisable de End$_D(V)$ associée à la décomposition en somme directe $V = (\oplus_{i\in I\{j\}}V_i)\oplus V'_j\oplus V_j''$ contient L et n’est pas égale à L, d’où a).
+donc L est maximal parmi les sous-algèbres diagonalisables de End$_D(V)$. Dans le cas contraire, il existe un indice $j\in I$ tel que dim$_D(V_j)\geqslant 2$. Choisissons deux sous-espaces vectoriels non nuls $V'_j$ et $V_j''$ de $V_j$ dont $V_j$ soit somme directe. La sous-algèbre diagonalisable de End$_D(V)$ associée à la décomposition en somme directe $V = (\oplus_{i\in I-\{j\}}V_i)\oplus V'_j\oplus V_j''$ contient L et n’est pas égale à L, d’où a).
 
 Le commutant $L'$ de L dans End$_D(V)$ se compose des endomorphismes de la forme $(x_i)\rightarrow (u_i(x_i))$, avec $(u_i)\in \prod_{i\in I}$ End$_D(V_i)$. Pour que L soit une sous-algèbre commutative maximale de End$_D$(V), il faut et il suffit que l’on ait $L = L'$ (VIII, p. 257, lemme 3 a)). Cette relation équivaut donc à « End$_D(V_i) = K$ pour tout $i\in I$ », d’où l’assertion b).
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 94
 statements: 37
 exercises: 19
-content_sha256: 1b9d4d4c5169c0d1a84e3eadfe3789574e1c4ec870d95dd6bbfd81fecc88373d
+content_sha256: aece5c2cec68b98ad6a50147c2883f91d15fd330ab63a99053e6f82ca772e673
 ---
 
 ## § 5. COMMUTATION
@@ -346,7 +346,7 @@ a) L’application $z\rightarrow (z_{S_{\lambda}})_{\lambda\in\mathscr{S}_M}$ es
 
 b) Pour que le A-module M soit isotypique et non nul, il faut et il suffit que Z soit un corps.
 
-c) Soit Λ une partie de $\mathscr{S}_M$. Notons $e_{\Lambda}$ l’unique élément de Z tel que $(e_{\Lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$ pour $\lambda \in \Lambda$et $(e_{\Lambda})_{S_{\lambda}}= 0$pour $\lambda \in \mathscr{S}_M$ Λ. On a $(e_{\Lambda})_{M_{\lambda}}= 1_{M_{\lambda}}$ pour $\lambda \in \Lambda$et $(e_{\Lambda})_{M_{\lambda}}= 0$pour $\lambda \in \mathscr{S}_M$ Λ.
+c) Soit Λ une partie de $\mathscr{S}_M$. Notons $e_{\Lambda}$ l’unique élément de Z tel que $(e_{\Lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$ pour $\lambda \in \Lambda$et $(e_{\Lambda})_{S_{\lambda}}= 0$pour $\lambda \in \mathscr{S}_M-\Lambda$. On a $(e_{\Lambda})_{M_{\lambda}}= 1_{M_{\lambda}}$ pour $\lambda \in \Lambda$et $(e_{\Lambda})_{M_{\lambda}}= 0$pour $\lambda \in \mathscr{S}_M-\Lambda$.
 
 d) Si le support $\mathscr{S}_M$ de M est fini, l’application $\Lambda \rightarrow e_{\Lambda}Z$est une bijection de l’ensemble des parties de $\mathscr{S}_M$ sur l’ensemble des idéaux de Z et l’application $\mathfrak{a}\rightarrow \mathfrak{a}M$ est une bijection de l’ensemble des idéaux de Z sur l’ensemble des sous-$(A,B^o)$-bimodules de M. Ces bijections sont des isomorphismes d’ensembles ordonnés. La bijection réciproque associe à un sous $(A,B^o)$-bimodule N de M l’idéal formé des éléments $z$ de Z qui appliquent N dans M.
 
