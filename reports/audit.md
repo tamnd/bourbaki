@@ -6,22 +6,22 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 1 chapter, 27 sections, 317 exercises, 510 extracted pages, 1023 tags, 2098 references. Languages: en.
+Audited: 1 chapter, 27 sections, 317 exercises, 510 extracted pages, 1023 tags, 2098 references, 1 translated file. Languages: en, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
-| tags | 7 | 1 | 1 | T10 (53) |
+| tags | 7 | 1 | 1 | T10 (54) |
 | mathematics | 4 | 1 | 1 | M01 (5), M03 (7) |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | R01 (41) |
-| translation | 0 | 0 | 7 | none |
+| translation | 6 | 1 | 0 | none |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 6 | 0 | 0 | none |
 
-12 hard findings and 94 soft, over 37 rules that ran and 13 that could not.
+12 hard findings and 95 soft, over 44 rules that ran and 6 that could not.
 
 ## Rules that did not run
 
@@ -35,13 +35,6 @@ should trust.
 - **X03** every tag a solution says it uses exists: the corpus has no solutions yet
 - **X04** no provider leakage and no meta-commentary: the corpus has no solutions yet
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
-- **L01** the math spans are the English ones, in order: the corpus has no language but English
-- **L02** the tag set is the English one: the corpus has no language but English
-- **L03** the heading tree is the English one: the corpus has no language but English
-- **L04** the statement counts are the English ones: the corpus has no language but English
-- **L05** source_content_sha256 is the English hash as it stands: the corpus has no language but English
-- **L06** the glossary is followed: the corpus has no language but English
-- **L07** no paragraph was left untranslated: the corpus has no language but English
 
 ## M01 every math span is closed (5)
 
@@ -97,7 +90,7 @@ Soft, references.
 
 and 16 more, which `bourbaki audit -only R01` prints in full.
 
-## T10 the tags of a file climb, as they did on the run that assigned them (53)
+## T10 the tags of a file climb, as they did on the run that assigned them (54)
 
 Soft, tags.
 
@@ -127,4 +120,4 @@ Soft, tags.
 - `content/en/alg/VIII/08_s8_semisimple_rings.md:404` has 009T after 00R8, which was assigned later
 - `content/en/alg/VIII/09_s9_radical.md:190` has 00AG after 00S5, which was assigned later
 
-and 28 more, which `bourbaki audit -only T10` prints in full.
+and 29 more, which `bourbaki audit -only T10` prints in full.
