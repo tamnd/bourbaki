@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 29
 exercises: 6
-content_sha256: 4c5fb47db1f188963a987a91827b80508252daaf48ed6cbf09dd3c49236f9af9
+content_sha256: 1d0bea9da71f1d474bab52fb79dad379d7f0ae1c832d0506adb090e44acc35a4
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -55,7 +55,7 @@ In this section, K is a commutative ring, and A is a K-algebra. From No. 2 on, w
 
 ### 1. Linear Representations of Algebras
 
-#### Definition 1 {#alg-viii-s20-def-1 .statement}
+#### Definition 1 {#alg-viii-s20-def-1 .statement tag=00MD}
 
 Let M be a K-module. A linear representation of the algebra A in M is a K-homomorphism $\pi$ from A to the algebra End$_K(M)$.
 
@@ -121,7 +121,7 @@ Recall (II, §2, No. 4, p. 234, Definition 4) that if E is a linear subspace of 
 
 We know (II, §7, No. 5, p. 299, Theorem 7) that the mapping $\varphi : E\mapsto E'$ is a bijection from the set of linear subspaces of A of finite codimension to the set of linear subspaces of $A^*$ of finite dimension. The inverse mapping $\varphi^{-1}$ sends a finite-dimensional subspace F of $A^*$ to its orthogonal $F'$ in A.
 
-#### Proposition 1 {#alg-viii-s20-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s20-prop-1 .statement tag=00ME}
 
 a) The mapping $\varphi$ induces a bijection from the set of left (resp. right, two-sided) ideals of A of finite codimension to the set of right A-submodules (resp. left A-submodules, sub-bimodules) of $A^*$ of finite dimension over K.
 
@@ -131,7 +131,7 @@ Formulas (3) and (4) prove that if E is a left ideal of A, then $E'$ is a right 
 
 Let $\mathfrak{a}$ be a left ideal of A of finite codimension. The left A-module $E = A_s/\mathfrak{a}$ is finite-dimensional over K, and so is End$_K(E)$. The kernel of the homomorphism $a\mapsto a_E$ from A to End$_K(E)$ is therefore a two-sided ideal of A of finite codimension contained in $\mathfrak{a}$. Passing to the opposite ring $A^o$, we see that every right ideal of A of finite codimension contains a two-sided ideal of finite codimension.
 
-#### Definition 2 {#alg-viii-s20-def-2 .statement}
+#### Definition 2 {#alg-viii-s20-def-2 .statement tag=00MF}
 
 The restricted dual
 
@@ -157,11 +157,11 @@ If F is an A-module isomorphic to E, then E and F have the same coefficients and
 
 Let $(M, \pi )$ be a linear representation of the algebra A. The coefficients of the A-module $M_{\pi}$ are also called the coefficients of the representation $\pi$. The coefficient $c_{M_{\pi}}(x, x^*)$, for $x\in M$ and $x^*\in M^*$, is also denoted by $c_{\pi}(x, x^*)$; the vector space $Θ_{M_{\pi}}(A)$ is also denoted by $Θ_{\pi}(A)$.
 
-#### Remark 1 {#alg-viii-s20-n3-rem-1 .statement}
+#### Remark 1 {#alg-viii-s20-n3-rem-1 .statement tag=00MG}
 
 Suppose that M is finite-dimensional over K. Let $(e_1, . . . , e_n)$ be a basis of V, and let $(e^*_1, . . . , e^*_n)$ be its dual basis. Denote by $(\pi_{ij}(a))$ the matrix of $\pi (a)$ with respect to the basis $(e_1, . . . , e_n)$ of V; we have $\pi_{ij}=$ $c_{\pi}(e_j, e^*_i)$. The mapping $a\mapsto (\pi_{ij}(a))$ is a homomorphism from A to $\mathbf{M}_n(K)$; such a homomorphism is sometimes called a matrix representation of the algebra A.
 
-#### Remark 2 {#alg-viii-s20-n3-rem-2 .statement}
+#### Remark 2 {#alg-viii-s20-n3-rem-2 .statement tag=00MH}
 
 Let E be an A-module, and let $E'$ be a submodule of E. By the corollary of Theorem 5 of II, §7, No. 5, p. 299, we have $Θ_{E'}(A)\subset Θ_E(A)$ and $Θ_{E/E'}(A)\subset Θ_E(A)$.
 
@@ -189,7 +189,7 @@ $\langle \gamma_E(h), a\rangle =$ Tr($\theta_E(h)\circ a_E)$
 
 for $a\in A$ and $h\in E\otimes_KE^*$. This proves that $Θ_E(A)$ is the set of linear forms $a\mapsto$ Tr($u\circ a_E)$ on A, where $u$ runs through End$^f_K(E)$.
 
-#### Lemma 1 {#alg-viii-s20-lem-1 .statement}
+#### Lemma 1 {#alg-viii-s20-lem-1 .statement tag=00MI}
 
 The mapping $c''_E$ is bijective. If E is finite-dimensional, then so is $c'_E$.
 
@@ -197,7 +197,7 @@ When F is a right A-module and G is a K-vector space, we defined in II, §4, No.
 
 Analogously, the isomorphism $\beta$ defined in II, §4, No. 1, p. 268, Proposition 1, b) specializes to an isomorphism $\beta$ from Hom$_K(E^*\otimes_AA_s,K)$ to Hom$_A(E^*$, Hom$_K(A_s,K))$. When E is finite-dimensional, E can be canonically identified with Hom$_K(E^*,K)$ and $E^*$ with $E^*\otimes_AA_s$; the homomorphism $\beta$ is then identified with $c'_E$.
 
-#### Proposition 2 {#alg-viii-s20-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s20-prop-2 .statement tag=00MJ}
 
 Let E be a left A-module.
 
@@ -221,19 +221,19 @@ $$
 
 from E to $Θ_E(A)^n$ is injective; this gives b).
 
-#### Remark 3 {#alg-viii-s20-n3-rem-3 .statement}
+#### Remark 3 {#alg-viii-s20-n3-rem-3 .statement tag=00MK}
 
 Let E be a left A-submodule of $A^*$. Let $\varepsilon$ be the linear form $y\mapsto y(1)$ on E. For every $x$ in E, we have $x=c_E(x, \varepsilon )$, so E is an A-submodule of $Θ_E(A)$.
 
 ### 4. Restricted Dual and Matrix Coefficients
 
-#### Proposition 3 {#alg-viii-s20-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s20-prop-3 .statement tag=00ML}
 
 Let $(V, \pi )$ be a finite-dimensional linear representation of the algebra A. The kernel $\mathfrak{a}$ of $\pi$ is a two-sided ideal of A of finite codimension, and $Θ_{\pi}(A)$ is the orthogonal of $\mathfrak{a}$ in $A^*$. The transpose of the mapping $\pi$ defines an isomorphism from the dual of the K-vector space $\pi (A)$ to $Θ_{\pi}(A)$.
 
 Since End$_K(V)$ is finite-dimensional over $K,\mathfrak{a}$ is a two-sided ideal of A of finite codimension. The vector space $Θ_{\pi}(A)$ is a finite-dimensional subspace of $A^*$, and its orthogonal in A is equal to $\mathfrak{a}$; by Theorem 7 of II, §7, No. 5, p. 301, the space $Θ_{\pi}(A)$ is therefore the orthogonal of $\mathfrak{a}$ in $A^*$. Moreover, since $\mathfrak{a}$ is the kernel of $\pi$, the transpose of the mapping $\pi$ defines an isomorphism from the dual of $\pi (A)$ to the orthogonal of $\mathfrak{a}$ in $A^*$ (II, §7, No. 5, p. 299, Corollary of Theorem 5).
 
-#### Corollary {#alg-viii-s20-n4-cor-1 .statement}
+#### Corollary {#alg-viii-s20-n4-cor-1 .statement tag=00MM}
 
 The restricted dual Θ(A) of A is the set of coefficients of the finite-dimensional linear representations of A.
 
@@ -245,7 +245,7 @@ Take note that if $(V, \pi )$ is a linear representation of A that is not finite
 
 Let $Θ^{ss}(A)$ be the socle of the left A-module Θ(A), that is, (VIII, p. 65) the largest semisimple submodule of Θ(A). We denote by $\mathscr{S}_K$ the set of classes of simple (left) A-modules that are finite-dimensional over K. When A is a semisimple algebra of finite degree over K, we have $A^*= Θ(A) = Θ^{ss}(A)$ because every left A-module is semisimple (VIII, p. 138, Proposition 4).
 
-#### Theorem 1 {#alg-viii-s20-thm-1 .statement}
+#### Theorem 1 {#alg-viii-s20-thm-1 .statement tag=00MN}
 
 a) The set $Θ^{ss}(A)$ consists of the coefficients of the finite-dimensional semisimple representations of A. It is an $(A,A)$-sub-bimodule of $A^*$.
 
@@ -263,13 +263,13 @@ Let S be a simple A-module of finite dimension over K. Since the K-vector space 
 
 We have $Θ(A^o) = Θ(A)$ (VIII, p. 376); we identify right A-modules with left $A^o$-modules. Since every vector space of finite dimension over K is isomorphic to its bidual, the above proves that the mapping $S\mapsto$ cl(S$^*)$ is a bijection from $\mathscr{S}_K$ to the set of classes of simple $A^o$-modules of finite dimension over K. Now, for S in $\mathscr{S}_K$, the isotypical component of $Θ(A^o)$ of type $S^*$ is equal to $Θ_{S^*}(A^o)$ by assertion b) applied to the algebra $A^o$, and we have $Θ_{S^*}(A^o) = Θ_S(A)$. Assertions c) and d) follow immediately.
 
-#### Corollary 1 {#alg-viii-s20-thm-1-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s20-thm-1-cor-1 .statement tag=00MO}
 
 Every simple A-module of finite dimension over K is isomorphic to an A-submodule of Θ(A).
 
 This follows from Theorem 1, b) because we have $Θ_E(A)\not= 0$ for every nonzero A-module E.
 
-#### Corollary 2 {#alg-viii-s20-thm-1-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s20-thm-1-cor-2 .statement tag=00MP}
 
 If two simple A-modules of finite dimension over K have a common nonzero coefficient, then they are isomorphic.
 
@@ -279,7 +279,7 @@ By Theorem 1, $Θ^{ss}(A)$ is an $(A$, A)-sub-bimodule of $A^*$, the direct sum 
 
 Fix an S in $\mathscr{S}_K$. Denote by D the opposite field of End$_A$(S), and view S as a right D-module and $S^*$ as a left D-module. With these conventions, S is an $(A$, D)-bimodule, $S^*$ is a $(D$, A)-bimodule, and $S\otimes_DS^*$ is an $(A$, A)-bimodule.
 
-#### Proposition 4 {#alg-viii-s20-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s20-prop-4 .statement tag=00MQ}
 
 a) There exists a group homomorphism $\lambda_S$ from $S\otimes_DS^*$ to $Θ_S(A)$, characterized by (6) $\lambda_S(x\otimes x^*) =c_S(x, x^*)$
 
@@ -293,7 +293,7 @@ Let us prove that $S\otimes_DS^*$ is a simple $(A$, A)-bimodule. By Corollary 2 
 
 The homomorphism $\lambda_S$ is $(A$, A)-linear and nonzero; since $S\otimes_DS^*$ is a simple bimodule, $\lambda_S$ is injective (VIII, p. 47, Proposition 2, a)).
 
-#### Remark {#alg-viii-s20-n5-rem-1 .statement}
+#### Remark {#alg-viii-s20-n5-rem-1 .statement tag=00MR}
 
 When the field K is algebraically closed, we have D = K by Theorem 1 of VIII, p. 47, and $\lambda_S$ is an isomorphism of $(A$, A)-bimodules from $S\otimes_KS^*$ to $Θ_S(A)$.
 
@@ -311,7 +311,7 @@ Let $\pi$ be a linear representation of A in a vector space V of finite dimensio
 
 The linear form Tr$_{\pi}$ belongs to $Θ_{\pi}(A)$.
 
-#### Proposition 5 {#alg-viii-s20-prop-5 .statement}
+#### Proposition 5 {#alg-viii-s20-prop-5 .statement tag=00MS}
 
 Let S be a simple A-module of finite dimension over K, let D be the opposite field of the commutant of S, and let Z be the center of D. The following properties are equivalent:
 
@@ -333,13 +333,13 @@ If the extension Z of K is not separable, then we have Tr$_{Z/K}(x) = 0$ for eve
 
 Now suppose that $p$ divides the degree [D : Z]. It then divides the reduced degree of D over Z. For every $d\in D$, we have Tr$_{D/Z}(d) = 0$ (VIII, p. 344, Remark), and therefore Tr$_{D/K}(d) =$ Tr$_{Z/K}$(Tr$_{D/Z}(d)) = 0$. This completes the proof of the implication (ii) $\Rightarrow$ (iii).
 
-#### Corollary {#alg-viii-s20-n6-cor-1 .statement}
+#### Corollary {#alg-viii-s20-n6-cor-1 .statement tag=00MT}
 
 If the field K is perfect, then properties (i) through (iii) hold.
 
 Since the field is perfect, the extension Z of K is separable (V, §15, No. 5, p. 125, Theorem 3). Property (iii) then follows from Corollary 3 of VIII, p. 323.
 
-#### Proposition 6 {#alg-viii-s20-prop-6 .statement}
+#### Proposition 6 {#alg-viii-s20-prop-6 .statement tag=00MU}
 
 Let $\mathscr{S}_0$ be the set of classes of simple A-modules of finite
 
@@ -355,7 +355,7 @@ $$
 
 be an exact sequence of A-modules, all finite-dimensional over K. By Proposition 1 of III, §9, No. 2, p. 543, we have Tr$_E=$ Tr$_{E'}+$ Tr$_{E''}$. By the definition of the Grothendieck group $R_K(A)$ (VIII, p. 194) and its universal property (VIII, p. 186, Proposition 4), there exists a homomorphism of additive groups $\theta$ from $R_K(A)$ to $A^*$ characterized by the relation $\theta ([E]) =$ Tr$_E$ for every A-module E of finite dimension over K. In particular, the trace of a semisimplification of E is equal to that of E. We deduce from $\theta$ a K-linear mapping $\theta_K: K\otimes_{\mathbf{Z}}R_K(A)\rightarrow A^*$.
 
-#### Corollary {#alg-viii-s20-n6-cor-2 .statement}
+#### Corollary {#alg-viii-s20-n6-cor-2 .statement tag=00MV}
 
 a) Suppose that the field K has characteristic 0. The homomorphisms $\theta$ and $\theta_K$ are injective. Two semisimple A-modules of finite dimension over K are isomorphic if and only if their characters are equal.
 
@@ -387,7 +387,7 @@ for $x\in R_K(A)$ and $a\in A$.
 
 If E and $E'$ are two A-modules of finite dimension over K with isomorphic semisimplifications, then we have $\chi_E(a; T) =\chi_{E'}(a; T)$.
 
-#### Theorem 2 {#alg-viii-s20-thm-2 .statement}
+#### Theorem 2 {#alg-viii-s20-thm-2 .statement tag=00MW}
 
 Let $\mathscr{A}$ be a generating subset of the K-vector space A. The homomorphism $\chi_{\mathscr{A}}: R_K(A)\rightarrow$ (1 + TK[[T]])$_{\mathscr{A}}$ defined by the relation
 
@@ -409,7 +409,7 @@ $R_K(A_{(K)})^{\chi_{\mathscr{A}}}$ // (1 + TK[[T]])$_{\mathscr{A}}$,
 
 where $u$ is the homomorphism deduced from the extension of scalars from K to K (VIII, p. 195$),i$ is the canonical injection, and $\chi_{\mathscr{A}}$ is the homomorphism $z\mapsto (\chi_{1\otimes a}(z))_{a\in\mathscr{A}}$. By formula (12) of III, §9, No. 1, p. 542, diagram (12) is commutative. By the above, the homomorphism $\chi_{\mathscr{A}}$ is injective. Since $u$ is injective (VIII, p. 195, Theorem 1), the homomorphism $\chi_{\mathscr{A}}$ is injective.
 
-#### Corollary 1 {#alg-viii-s20-thm-2-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s20-thm-2-cor-1 .statement tag=00MX}
 
 Let E and F be semisimple A-modules of finite dimension over K, and let $\mathscr{A}$ be a generating subset of the K-vector space A. Suppose that for every $a\in \mathscr{A}$, the characteristic polynomials of the endomorphisms $a_E$ and $a_F$ of the K-vector spaces E and F are equal. Then the A-modules E and F are isomorphic.
 
@@ -423,7 +423,7 @@ $\chi_E(a; T) =$ det $1 +a_ET= (-T)$ det $-a_E= (-T)$ Pc$_Ea$;,
 
 T T and $\chi_F(a; T)$ is given by an analogous formula. Because of our assumptions, we have $\chi_E(a; T) =\chi_F(a; T)$. By Theorem 2, we have [E] = [F], which implies that E and F are isomorphic (VIII, p. 190, Corollary of Proposition 7).
 
-#### Corollary 2 {#alg-viii-s20-thm-2-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s20-thm-2-cor-2 .statement tag=00MY}
 
 Let A be a central simple algebra of finite degree over K. Let B be a semisimple K-algebra, let $f$ and $g$ be algebra homomorphisms from B to A, and let $\mathscr{B}$ be a generating subset of the K-vector space B. The following properties are equivalent:
 
@@ -449,13 +449,13 @@ over K and denote by $Θ_{\mathscr{C}}(A)$ the set of coefficients of the A-modu
 
 (loc. cit.). The family of $(A$, A)-sub-bimodules $(Θ_E(A))_{E\in\mathscr{C}}$ of $A^*$ is directed, so its union $Θ_{\mathscr{C}}(A)$ is an $(A$, A)-sub-bimodule of $A^*$.
 
-#### Proposition 7 {#alg-viii-s20-prop-7 .statement}
+#### Proposition 7 {#alg-viii-s20-prop-7 .statement tag=00MZ}
 
 A left A-submodule of $A^*$ of finite dimension over K is contained in $Θ_{\mathscr{C}}(A)$ if and only if it is of type $\mathscr{C}$.
 
 Let V be a left A-submodule of $A^*$ of finite dimension over K. We saw in VIII, p. 379, Remark 3 that we have $V\subset Θ_V(A)$. If V is of type $\mathscr{C}$, then we have $Θ_V(A)\subset Θ_{\mathscr{C}}$ (A), so V is contained in $Θ_{\mathscr{C}}(A)$. Conversely, suppose that V is contained in $Θ_{\mathscr{C}}(A)$. Since $Θ_{\mathscr{C}}(A)$ is the union of the directed family $(Θ_E(A))_{E\in\mathscr{C}}$ and V is finite-dimensional over K, there exists a module E of type $\mathscr{C}$ such that V is contained in $Θ_E(A)$. Now, there exists a natural number $n$ such that $Θ_E(A)$ is isomorphic to a quotient of $E^n$ (VIII, p. 378, Proposition 2). Since $\mathscr{C}$ is hereditary, V is of type $\mathscr{C}$.
 
-#### Corollary {#alg-viii-s20-n7-cor-1 .statement}
+#### Corollary {#alg-viii-s20-n7-cor-1 .statement tag=00N0}
 
 Let E be an A-module of finite dimension over K. Then E is of type $\mathscr{C}$ if and only if $Θ_E(A)$ is contained in $Θ_{\mathscr{C}}(A)$.
 
@@ -467,7 +467,7 @@ Conversely, suppose that $Θ_{\mathscr{C}}(A)$ contains $Θ_E(A)$. The A-module 
 
 For any $a$ in A, we denote by $\eta (a)$ the linear form $f\mapsto f(a)$ on Θ(A). We thus define a K-linear mapping $\eta$ from A to the dual $Θ(A)^*$ of the vector space Θ(A). Set $\varepsilon =\eta (1)$.
 
-#### Proposition 8 {#alg-viii-s20-prop-8 .statement}
+#### Proposition 8 {#alg-viii-s20-prop-8 .statement tag=00N1}
 
 On the vector space Θ(A), there exists a unique cogebra structure (III, §11, No. 1, p. 574) such that the mapping $\eta : A\rightarrow Θ(A)^*$ is a homomorphism from A to the dual algebra (III, §11, No. 2, p. 579) of Θ(A). The cogebra Θ(A) is coassociative and admits $\varepsilon$ as a counit.
 
@@ -579,7 +579,7 @@ likewise. Since multiplication in A is associative, we have $j_3\circ c'=j_3\cir
 
 Finally, formulas (16) and (17) imply that Θ(A) admits $\varepsilon$ as a counit.
 
-#### Remark 1 {#alg-viii-s20-n8-rem-1 .statement}
+#### Remark 1 {#alg-viii-s20-n8-rem-1 .statement tag=00N2}
 
 Let $(V, \pi )$ be a finite-dimensional linear representation of the algebra A. Let us introduce a basis $(e_1, . . . , e_n)$ of V and the dual basis $(e^*_1, . . . , e^*_n)$ of $V^*$. By the proof of Lemma 2, we have the relation
 
@@ -593,7 +593,7 @@ $$
 c(\pi_{ij}) =\sum_k^n_{=1}\pi_{ik}\otimes \pi_{kj} \tag{20}
 $$
 
-#### Definition 3 {#alg-viii-s20-def-3 .statement}
+#### Definition 3 {#alg-viii-s20-def-3 .statement tag=00N3}
 
 Let C be a cogebra over the field K and $c$ its coproduct. A subcogebra of C is any linear subspace $C_1$ of C such that $c(C_1)$ is contained in the canonical image of $C_1\otimes_KC_1$ in $C\otimes_KC$.
 
@@ -607,7 +607,7 @@ this relation means that $j$ is a morphism of cogebras from $(C_1, c_1)$ to $(C,
 
 If C is coassociative, then $C_1$ is coassociative. If C is cocommutative, then so is $C_1$. If C has a counit $\varepsilon$, then the restriction of $\varepsilon$ to $C_1$ is a counit of $C_1$.
 
-#### Proposition 9 {#alg-viii-s20-prop-9 .statement}
+#### Proposition 9 {#alg-viii-s20-prop-9 .statement tag=00N4}
 
 Let Θ be a linear subspace of Θ(A). The following properties are equivalent:
 
@@ -643,7 +643,7 @@ $$
 
 so that $c_E(af, u_b) =af b$. We therefore have $Θ_E(A)\subset Θ$. Consequently, the A-module E is of type $\mathscr{C}$, and $f$ is one of its coefficients. We therefore have $Θ\subset Θ_{\mathscr{C}}(A)$ and, finally, $Θ = Θ_{\mathscr{C}}(A)$.
 
-#### Remark 2 {#alg-viii-s20-n8-rem-2 .statement}
+#### Remark 2 {#alg-viii-s20-n8-rem-2 .statement tag=00N5}
 
 Let Θ be a subcogebra of Θ(A). We endow K with the discrete topology and the algebra A with the coarsest topology for which the mappings $f: A\rightarrow K$ for $f$ running through Θ are continuous (Gen. Top., I, §2, No. 2, p. 175). This topology endows A with the structure of a topological K-module. A two-sided ideal $\mathfrak{a}$ of A is open if and only if it has finite codimension and its orthogonal $\mathfrak{a}'$ is contained in Θ. By Proposition 3 of VIII, p. 379, the open two-sided ideals of A form a fundamental system of neighborhoods of 0 in A. The topology on A is therefore compatible with its ring structure.
 

@@ -30,7 +30,7 @@ subsections:
       pdf_page: 300
 statements: 12
 exercises: 2
-content_sha256: 1309ee856deb0b9881af8281a4dd755c32870a60f110c6f54876823b92c80cd7
+content_sha256: c5bad3fba2a8e10c615f00963f7e8cfc89adf5985dbe7e4b9c7afb2be9ead181
 ---
 
 ## § 15. BRAUER GROUPS
@@ -47,7 +47,7 @@ We denote by $\mathscr{A}$ the set of pairs $(W, µ)$, where W is a linear subsp
 
 “$\alpha$ is a class of K-algebras of finite degree” is therefore collectivizing in $\alpha ($Set Theory, II, §1, No. 4, p. 68). We denote the set of classes of K-algebras of finite degree by $\mathscr{C}_K$.
 
-#### Proposition 1 {#alg-viii-s15-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s15-prop-1 .statement tag=00HV}
 
 The set $\mathscr{C}_K$, endowed with the law of composition given by $(\alpha , \beta )\mapsto$ cl($\alpha \otimes_K\beta )$, is a commutative monoid. The identity element of $\mathscr{C}_K$ is the class $\varepsilon$ of the K-algebra K. Moreover, if A and B are K-algebras of finite degree, then we have the relation
 
@@ -63,7 +63,7 @@ $$
 
 in the monoid $\mathscr{M}_K$.
 
-#### Lemma 1 {#alg-viii-s15-lem-1 .statement}
+#### Lemma 1 {#alg-viii-s15-lem-1 .statement tag=00HW}
 
 Let A be a K-algebra of finite degree and D a field of finite degree over K. We have [A] = [D] in $\mathscr{M}_K$ if and only if there exists an integer $n\geqslant 1$ such that A is isomorphic to $\mathbf{M}_n(K)$.
 
@@ -73,7 +73,7 @@ By definition, we have [A] = [D] if and only if there exists an invertible $(A$,
 
 We denote by Br(K) the set of elements of $\mathscr{M}_K$ of the form [A], where A is a central simple algebra of finite degree over K.
 
-#### Proposition 2 {#alg-viii-s15-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s15-prop-2 .statement tag=00HX}
 
 The set Br(K) is the set of invertible elements of $\mathscr{M}_K$, where the inverse of an element [A] of Br(K) is $[A^o]$. Consequently, the law of composition on the monoid $\mathscr{M}_K$ endows Br(K) with the structure of an abelian group.
 
@@ -81,11 +81,11 @@ Let A be a central simple algebra of finite degree over K. The algebra $A^o$ is 
 
 Conversely, let A be a K-algebra of finite degree. If [A] is invertible in $\mathscr{M}_K$, then there exists a K-algebra B of finite degree such that [A][B] = [K]; by formula (2) and Lemma 1, this means that the K-algebra $A\otimes_KB$ is isomorphic to a matrix algebra $\mathbf{M}_n(K)$ with $n\geqslant 1$. By Remark 1 of VIII, p. 251, the algebra A is then central simple.
 
-#### Definition 1 {#alg-viii-s15-def-1 .statement}
+#### Definition 1 {#alg-viii-s15-def-1 .statement tag=00HY}
 
 The abelian group Br(K) is called the Brauer group of the field K.
 
-#### Lemma 2 {#alg-viii-s15-lem-2 .statement}
+#### Lemma 2 {#alg-viii-s15-lem-2 .statement tag=00HZ}
 
 Let I and J be finite sets, $k$ be a commutative ring, and A and B be $k$-algebras. Denote by $\mathbf{M}_I(A)$ the $k$-algebra of square matrices of type $(I,I)$ with entries in A, and define the $k$-algebras $\mathbf{M}_J(B)$ and $\mathbf{M}_{I\times J}(A\otimes_KB)$ likewise. There exists a unique $k$-algebra isomorphism
 
@@ -97,7 +97,7 @@ such that $\varphi (a_{ii'})\otimes (b_{jj'})$ is the matrix with entry of index
 
 The existence of a $k$-linear bijection $\varphi$ with the property stated in the lemma follows from the compatibility of the tensor product with direct sums (II, §3, No. 7, p. 255, Proposition 7). The fact that $\varphi$ is an algebra homomorphism follows from the definition of a product matrix.
 
-#### Proposition 3 {#alg-viii-s15-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s15-prop-3 .statement tag=00I0}
 
 Let A and B be central simple K-algebras of finite degree. The following properties are equivalent:
 
@@ -123,13 +123,13 @@ Finally, the implication (v)$\Rightarrow$(i) is the definition of the set Br(K).
 
 When the equivalent properties of the proposition hold, we say that the algebras A and B are similar.
 
-#### Corollary {#alg-viii-s15-n2-cor-1 .statement}
+#### Corollary {#alg-viii-s15-n2-cor-1 .statement tag=00I1}
 
 Let A and B be central simple algebras of finite degree over K. Then A and B are isomorphic if and only if they are similar and have the same degree.
 
 This follows from the equivalence of properties (i) and (iv) of Proposition 3 and the fact that dim$_K(\mathbf{M}_n(D)) =$ dim$_K(D)\times n^2$.
 
-#### Proposition 4 {#alg-viii-s15-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s15-prop-4 .statement tag=00I2}
 
 Let $\mathscr{K}_K$ be the set of classes of central K-algebras of finite degree that are fields. The mapping $D\mapsto [D]$ from $\mathscr{K}_K$ to Br(K) is bijective.
 
@@ -163,7 +163,7 @@ If B is similar to A, then L is a splitting field for A if and only if it is a s
 
 If L is a splitting field for A, then every extension of L is a splitting field for A. By Theorem 1 of VIII, p. 252, there exists a Galois extension of K of finite degree that is a splitting field for A, and every separable closure of K is a splitting field for A.
 
-#### Proposition 5 {#alg-viii-s15-prop-5 .statement}
+#### Proposition 5 {#alg-viii-s15-prop-5 .statement tag=00I3}
 
 Let A be a central simple K-algebra of finite degree, and let L be an extension of K of finite degree. The following properties are equivalent:
 
@@ -175,7 +175,7 @@ Let us prove that (ii) implies (i); it suffices to consider the case when L is a
 
 The converse follows from Lemma 3 below.
 
-#### Lemma 3 {#alg-viii-s15-lem-3 .statement}
+#### Lemma 3 {#alg-viii-s15-lem-3 .statement tag=00I4}
 
 Let A be a central simple K-algebra of finite degree, and let L be an extension of K of finite degree that is a splitting field for A. Let V be a simple $A_{(L)}$-module, so that the natural morphism $\varphi : A_{(L)}\rightarrow$ End$_L(V)$ is an isomorphism. Let C be the ring End$_A(V)$. Then C is similar to $A^o$, and the image of $L\otimes 1\subset A_{(L)}$ is a maximal commutative subalgebra of C.
 
@@ -185,13 +185,13 @@ Let $L_V$ be the ring of homotheties of the L-vector space V; it is the commutan
 
 $L_V=$ End$_L(V)'=\varphi (A)'\cap L'_V= C\cap L'_V$, where for any subset B of End$_K$(V), the commutant of B in End$_K(V)$ is denoted by $B'$. So $L_V$ is a maximal commutative subalgebra of C (VIII, p. 261, Lemma 3), and therefore also of $C^o$. The mapping $\lambda \mapsto \lambda_V$ is a K-algebra isomorphism from L to $L_V$. This proves the lemma.
 
-#### Corollary 1 {#alg-viii-s15-lem-3-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s15-lem-3-cor-1 .statement tag=00I5}
 
 Let A be a central simple K-algebra of finite degree, and let L be an extension of K of finite degree. Suppose $[A : K] = [L : K]^2$. Then L is a splitting field for A if and only if A contains a subalgebra isomorphic to L.
 
 Suppose that there exists a morphism $\varphi$ from L to A. Let M be a maximal semisimple commutative subalgebra containing $\varphi (L)$. By Proposition 3 of VIII, p. 262, we have $[A : K] = [M : K]^2$, hence [M : K] = [L : K] and $M =\varphi (L)$. By Proposition 5, the field L splits A. Conversely, suppose that the field L splits A; then it is isomorphic to a maximal commutative subalgebra of a central simple K-algebra B similar to A (Proposition 5). We have $[B : K] = [L : K]^2$ (VIII, p. 262, Proposition 3), hence [B : K] = [A : K]. Consequently, B is isomorphic to A (VIII, p. 280, Corollary). Corollary 1 follows.
 
-#### Corollary 2 {#alg-viii-s15-lem-3-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s15-lem-3-cor-2 .statement tag=00I6}
 
 Let D be a field of finite degree over K with center K, and let L be an extension of K of finite degree that is a splitting field for D. The reduced degree of D divides [L : K].
 

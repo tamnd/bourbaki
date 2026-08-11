@@ -34,14 +34,14 @@ subsections:
       pdf_page: 178
 statements: 45
 exercises: 31
-content_sha256: 6996371804b7a7c8b82c8fa6543b8e740428aa9cbc87c193085f41f140cb69af
+content_sha256: 1421737f7e8dc14eac197b9d22f4bda5a3f520d97c91f66c9a3218e30c9d2094
 ---
 
 ## § 9. RADICAL
 
 ### 1. The Radical of a Module
 
-#### Definition 1 {#alg-viii-s9-def-1 .statement}
+#### Definition 1 {#alg-viii-s9-def-1 .statement tag=00A1}
 
 Let A be a ring. The radical of an A-module M is the submodule defined as the intersection of the maximal submodules of M (VIII, p. 48, Definition 2) or, equivalently, the set of elements of M annihilated by every homomorphism from M to a simple A-module.
 
@@ -49,21 +49,21 @@ In the remainder of this chapter, we denote the radical of an A-module M by $\ma
 
 Let A be a ring. The radical of an A-module M is reduced to 0 (in which case we say, by abuse of language, that M is without radical) if and only if there exist a family $(S_i)_{i\in I}$ of simple A-modules and a family $(f_i)_{i\in I}$ of A-linear mappings $f_i: M\rightarrow S_i$ such that we have $\cap_{i\in I}$ Ker($f_i) = 0$. This is equivalent to M being isomorphic to a submodule of a product of simple A-modules.
 
-#### Example 1 {#alg-viii-s9-n1-exa-1 .statement}
+#### Example 1 {#alg-viii-s9-n1-exa-1 .statement tag=00A2}
 
 Let $\mathfrak{a}$ be a left ideal of A. The radical of the A-module $A_s/\mathfrak{a}$ is equal to $\mathfrak{a}'/\mathfrak{a}$, where $\mathfrak{a}'$ is the intersection of the maximal left ideals of A containing $\mathfrak{a}$. In particular, the radical of the $\mathbf{Z}$-module $\mathbf{Z}$ is reduced to 0, and that of the $\mathbf{Z}$-module $\mathbf{Z}/p^n\mathbf{Z}$ is equal to $p\mathbf{Z}/p^n\mathbf{Z}$ for every prime number $p$ and every integer $n\geqslant 1$.
 
-#### Example 2 {#alg-viii-s9-n1-exa-2 .statement}
+#### Example 2 {#alg-viii-s9-n1-exa-2 .statement tag=00A3}
 
 Let A be a principal ideal domain that is not a field, and let K be its field of fractions. As a K-module, K is without radical. Let us prove that the radical of K, viewed as an A-module, is equal to K; equivalently, we must prove that every A-linear mapping $f$ from K to a simple A-module S is zero. By VII, §4, No. 8, p. 25, we may assume that S is equal to $A/(\pi )$, where $\pi$ is an irreducible element of A. We have $f(x) =f \pi_{\pi}^x=\pi f_{\pi}^x$ = 0 for every $x\in K$ because $\pi S = 0$.
 
-#### Proposition 1 {#alg-viii-s9-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s9-prop-1 .statement tag=00A4}
 
 Let M and N be A-modules and $f$ a homomorphism from M to N. We have $f(\mathfrak{R}(M))\subset \mathfrak{R}(N)$, and we even have equality if $f$ is surjective and the kernel of $f$ is contained in the radical of M.
 
 Let $g$ be a homomorphism from N to a simple A-module; then $\mathfrak{R}(M)$ is contained in the kernel of $g\circ f$, so that $f(\mathfrak{R}(M))$ is contained in the kernel of $g$. We therefore have $f(\mathfrak{R}(M))\subset \mathfrak{R}(N)$. Now suppose that $f$ is surjective and that its kernel is contained in $\mathfrak{R}(M)$. Let $y$ be an element of $\mathfrak{R}$(N), and let $x$ be an element of the inverse image of $y$. If $g$ is a homomorphism from M to a simple A-module S, then its kernel contains the radical of M, hence the kernel of $f$. Since the homomorphism $f$ is surjective, there exists a homomorphism $h$ from N to S such that $g=h\circ f$. Since $y=f(x)$ belongs to $\mathfrak{R}$(N), we have $h(f(x)) = 0$, that is, $g(x) = 0$; thus $x$ belongs to $\mathfrak{R}$(M), which proves the inclusion $\mathfrak{R}(N)\subset f(\mathfrak{R}(M))$.
 
-#### Corollary 1 {#alg-viii-s9-prop-1-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s9-prop-1-cor-1 .statement tag=00A5}
 
 Let M be an A-module and N a submodule of M.
 
@@ -77,7 +77,7 @@ Assertion a) follows from Proposition 1 applied to the canonical injection from 
 
 It follows from Example 1 that there can exist submodules N containing $\mathfrak{R}(M)$ such that the radical of $M/N$ is not zero.
 
-#### Corollary 2 {#alg-viii-s9-prop-1-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s9-prop-1-cor-2 .statement tag=00A6}
 
 Let $(M_i)_{i\in I}$ be a family of A-modules, P its product, and S its direct sum. We have $\mathfrak{R}(P)\subset \prod_{i\in I}\mathfrak{R}(M_i)$ and $\mathfrak{R}(S) =\bigoplus_{i\in I}\mathfrak{R}(M_i)$.
 
@@ -91,7 +91,7 @@ Moreover, we have $M_i\subset S$ and therefore $\mathfrak{R}(M_i)\subset \mathfr
 
 There exist families of modules such that the radical of the product is not isomorphic to the product of the radicals (Exercise 3 of VIII, p. 166).
 
-#### Proposition 2 {#alg-viii-s9-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s9-prop-2 .statement tag=00A7}
 
 Let M be a finitely generated A-module.
 
@@ -101,7 +101,7 @@ b) If N is a submodule of M such that $N +\mathfrak{R}(M) = M$, then we have N =
 
 Let N be a proper submodule of M. By Proposition 3 of VIII, p. 49, there exists a maximal submodule L of M containing N. We have $N +\mathfrak{R}(M)\subset L$, and a fortiori $N +\mathfrak{R}(M)\not= M$. This proves b); the specific case N = 0 gives assertion a).
 
-#### Corollary {#alg-viii-s9-n1-cor-1 .statement}
+#### Corollary {#alg-viii-s9-n1-cor-1 .statement tag=00A8}
 
 Let M be an A-module, $(x_i)_{i\in I}$ a generating family of M, and $x$ an element of M. The following properties are equivalent:
 
@@ -117,7 +117,7 @@ Let M be an A-module, $(x_i)_{i\in I}$ a generating family of M, and $x$ an elem
 
 (iii) $\Rightarrow$ (i): Suppose that $x$ does not belong to $\mathfrak{R}(M)$. Then there exists a maximal submodule N of M that does not contain $x$. Since N is maximal, we have $N + Ax= M$; each of the elements $x_i$ can therefore be written as $y_i-a_ix$ with $y_i\in N$ and $a_i\in A$. The family $(x_i+a_ix)_{i\in I}$ is contained in N, hence does not generate M.
 
-#### Proposition 3 {#alg-viii-s9-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s9-prop-3 .statement tag=00A9}
 
 a) A semisimple module is without radical.
 
@@ -131,33 +131,33 @@ Conversely, suppose that M is Artinian and without radical. By VIII, p. 2 applie
 
 ### 2. The Radical of a Ring
 
-#### Definition 2 {#alg-viii-s9-def-2 .statement}
+#### Definition 2 {#alg-viii-s9-def-2 .statement tag=00AA}
 
 The Jacobson radical (or simply radical) of a ring A, denoted by $\mathfrak{R}(A)$, is the radical of the A-module $A_s$, that is, the intersection of the maximal left ideals of A.
 
 By abuse of language, we say that the ring A is without radical if we have $\mathfrak{R}(A) = 0$.
 
-#### Proposition 4 {#alg-viii-s9-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s9-prop-4 .statement tag=00AB}
 
 A ring A is semisimple if and only if it is left Artinian and without radical.
 
 This follows from Proposition 3, b) applied to the A-module $A_s$.
 
-#### Example 1 {#alg-viii-s9-n2-exa-1 .statement}
+#### Example 1 {#alg-viii-s9-n2-exa-1 .statement tag=00AC}
 
 If A is a local ring, then it has a unique maximal left ideal $\mathfrak{r}$, consisting of the noninvertible elements of A (VIII, p. 25, Proposition 1); so $\mathfrak{r}$ is the radical of A. In particular, a field is without radical.
 
-#### Example 2 {#alg-viii-s9-n2-exa-2 .statement}
+#### Example 2 {#alg-viii-s9-n2-exa-2 .statement tag=00AD}
 
 Let K be a commutative field and E the algebra $K[[X_i]]_{i\in I}$ of formal power series in the variables $X_i$ with coefficients in K. By the previous example and Example 4 of VIII, p. 26, the radical of E consists of the formal power series with constant term zero. Observe that the ring E is an integral domain and that its radical is not reduced to 0, even though E is a subring of its field of fractions, which is without radical.
 
-#### Example 3 {#alg-viii-s9-n2-exa-3 .statement}
+#### Example 3 {#alg-viii-s9-n2-exa-3 .statement tag=00AE}
 
 Suppose that A is a principal ideal domain, and let P be a system of representatives consisting of irreducible elements (VII, §1, No. 3, p. 3). If A is a field, then it is without radical by Example 1. If the set P is infinite, then the intersection of the maximal ideals $Ap$ of A is reduced to 0, so A is without radical. But if P is finite and nonempty, and if we set $x=\prod_{p\in P}p$, then the radical of A is equal to $\cap_{p\in P}Ap= Ax$ (VII, §1, No. 2, p. 3, Proposition 4), hence is not reduced to 0.
 
 Let $y$ be a nonzero element of A; we write it as $y=up^i_{1^1}\cdots p^i_{r^r}$, where $u$ is invertible in $A,p_1, . . . , p_r$ are pairwise distinct elements of P, and $i_1, . . . , i_r$ are strictly positive integers. The maximal ideals of the ring $A/Ay$ are the ideals $Ap_1/Ay, . . . ,Ap_r/Ay$; the radical of the ring $A/Ay$ is therefore the ideal $Ap_1\cdots p_r/Ay$. In particular, the ring $A/Ay$ is without radical if and only if we have $i_1=\cdots =i_r= 1$; in this case, we say that $y$ is without multiple factors.
 
-#### Proposition 5 {#alg-viii-s9-prop-5 .statement}
+#### Proposition 5 {#alg-viii-s9-prop-5 .statement tag=00AF}
 
 a) The radical of a ring A is the intersection of the annihilators of simple A-modules; it is also the smallest annihilator of a semisimple A-module. It is, in particular, a two-sided ideal of A. If A is not reduced to 0, then the radical of A is distinct from A.
 
@@ -185,53 +185,53 @@ Let $x\in \mathfrak{R}(A)$. By the above, $1 +x$ is left invertible; let $y$ be 
 
 Let $\mathfrak{a}$ be a left ideal of A such that $1 +x$ is invertible for every $x\in \mathfrak{a}$. This holds, for example, when $\mathfrak{a}$ is a nil ideal because the relation $x^n= 0$ implies that $1-x+\cdots + (-x)^{n-1}$ is the inverse of $1 +x$. Let $x\in \mathfrak{a}$. For every $a\in A$, we have $ax\in \mathfrak{a}$, so $1 +ax$ is invertible; hence, we have $x\in \mathfrak{R}(A)$. It follows that $\mathfrak{a}$ is contained in $\mathfrak{R}(A)$.
 
-#### Corollary 1 {#alg-viii-s9-prop-5-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s9-prop-5-cor-1 .statement tag=00AG}
 
 The radical of A is equal to the radical of the opposite ring $A^o$, that is, to the intersection of the maximal right ideals of A.
 
 For every $x\in \mathfrak{R}$(A), $1 +x$ is invertible in the ring A, hence in the ring $A^o$. Since $\mathfrak{R}(A)$ is a two-sided ideal of $A^o$, we have $\mathfrak{R}(A)\subset \mathfrak{R}(A^o)$. The equality follows by interchanging the roles of A and $A^o$.
 
-#### Corollary 2 {#alg-viii-s9-prop-5-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s9-prop-5-cor-2 .statement tag=00AH}
 
 An element of A is invertible if and only if its canonical image in the ring $A/\mathfrak{R}(A)$ is invertible.
 
 The condition is obviously necessary. Let us prove that it is sufficient. Let $x$ be an element of A whose canonical image in the ring $A/\mathfrak{R}(A)$ is invertible. There then exists an element $y$ of A such that $xy$ belongs to $1 +\mathfrak{R}(A)$. By Theorem 1$,xy$ is invertible; hence $x$ is right invertible. The proof that $x$ is left invertible is analogous.
 
-#### Corollary 3 {#alg-viii-s9-prop-5-cor-3 .statement}
+#### Corollary 3 {#alg-viii-s9-prop-5-cor-3 .statement tag=00AI}
 
 The radical of the product of a family $(A_i)_{i\in I}$ of rings is the product of the $\mathfrak{R}(A_i)$.
 
 Let $x= (x_i)_{i\in I}$ be an element of $\prod_{i\in I}A_i$. For every element $a= (a_i)_{i\in I}$ of $\prod_{i\in I}A_i$, the element $1 +ax$ is left invertible if and only if $1 +a_ix_i$ is left invertible in $A_i$ for every $i\in I$. Corollary 3 follows.
 
-#### Corollary 4 {#alg-viii-s9-prop-5-cor-4 .statement}
+#### Corollary 4 {#alg-viii-s9-prop-5-cor-4 .statement tag=00AJ}
 
 The ring A is local if and only if the ring $A/\mathfrak{R}(A)$ is a field. If this is the case, then $\mathfrak{R}(A)$ is the set of noninvertible elements of A.
 
 Denote the set of noninvertible elements of A by $\mathfrak{r}$. If the ring A is local, then its radical is equal to $\mathfrak{r}$ (VIII, p. 154, Example 1) and the ring $A/\mathfrak{r}$ is a field (VIII, p. 26). Conversely, suppose that the ring $A/\mathfrak{R}(A)$ is a field. By Corollary 2, we have $\mathfrak{r}=\mathfrak{R}$(A), so $\mathfrak{r}$ is a two-sided ideal of A. It follows that the ring A is local (VIII, p. 26, Definition 1).
 
-#### Example 4 {#alg-viii-s9-n2-exa-4 .statement}
+#### Example 4 {#alg-viii-s9-n2-exa-4 .statement tag=00AK}
 
 Let K be an integral domain, I a nonempty set, and A the polynomial ring $K[X_i]_{i\in I}$. Let us prove that the ring A is without radical. The only invertible elements of A are the invertible elements of K (IV, §1, No. 5, p. 9, Corollary 2). Let $f\in \mathfrak{R}(A)$. Choose an element $i\in I$. Then $1 +fX_i$ is invertible (Theorem 1), which implies $f= 0$.
 
 Note that when K is a commutative field, the ring $A = K[X_i]_{i\in I}$ is a subring of $B = K[[X_i]]_{i\in I}$ and we have $\mathfrak{R}(A) = 0$ and $A\cap \mathfrak{R}(B)\not= 0$ (cf. VIII, p. 154, Example 2).
 
-#### Example 5 {#alg-viii-s9-n2-exa-5 .statement}
+#### Example 5 {#alg-viii-s9-n2-exa-5 .statement tag=00AL}
 
 Let $\mathfrak{a}$ be a two-sided ideal of A. The $\mathfrak{a}$-adic topology on A is the topology, compatible with the ring structure of A, for which the ideals $\mathfrak{a}^n$ (for $n\geqslant 1)$ form a fundamental system of neighborhoods of 0 (Gen. Top., III, §6, No. 3, p. 275, Example 3). Suppose that the ring A is Hausdorff and complete (Gen. Top., III, §6, No. 5, p. 276) for this topology; this is, for example, the case when the ideal $\mathfrak{a}$ is nilpotent. For every $x\in \mathfrak{a}$, the series $\sum^{\infty}_{n=0}(-x)^n$ is then convergent. Let $y$ be its sum. We have $y-1 =\sum^{\infty}_{n=1}(-x)^n=-xy$, hence $(1 +x)y= 1$. Likewise, we have $y(1 +x) = 1$, so $1 +x$ is invertible. By Theorem 1, it follows that the ideal $\mathfrak{a}$ is contained in the radical of A.
 
-#### Remark 1 {#alg-viii-s9-n2-rem-1 .statement}
+#### Remark 1 {#alg-viii-s9-n2-rem-1 .statement tag=00AM}
 
 By Theorem 1, every left nil ideal of a ring A is contained in
 
 its radical. Let $x$ be a nilpotent and central element of A; then $Ax$ is a nil ideal of A, so $x$ belongs to the radical of A. It is, however, possible that there exist nonzero nilpotent elements of A but that A is without radical. For example, for every integer $n\geqslant 2$, the matrix ring $\mathbf{M}_n(K)$ over a field K is simple, hence without radical (VIII, p. 154, Proposition 4), and it contains nilpotent elements, for example the matrix units $E_{ij}$ with $i\not=j$.
 
-#### Remark 2 {#alg-viii-s9-n2-rem-2 .statement}
+#### Remark 2 {#alg-viii-s9-n2-rem-2 .statement tag=00AN}
 
 Let A be a commutative ring. The set of nilpotent elements $a$ of A is an ideal $\mathfrak{N}(A)$ of A, called the nilradical of A; it is the intersection of the prime ideals of A (V, §15, No. 1, p. 118, Proposition 2). We have $\mathfrak{N}(A)\subset \mathfrak{R}(A)$; $*$we have equality if A is an Artinian ring (VIII, p. 173, Corollary 2) or a finitely generated commutative algebra over a commutative field (Comm. Alg., V, § 3, n$^{\circ}4$, Theorem $3)*$. We can certainly have $\mathfrak{N}(A)\not=\mathfrak{R}(A)$. This is the case when A is the ring K[[X]], where K is a commutative field: we then have $\mathfrak{N}(A) = 0$ and $\mathfrak{R}(A) =$ AX (VIII, p. 154, Example 2).
 
 ### 3. Nakayama’s Lemma
 
-#### Proposition 6 {#alg-viii-s9-prop-6 .statement}
+#### Proposition 6 {#alg-viii-s9-prop-6 .statement tag=00AO}
 
 For every A-module M, we have $\mathfrak{R}(A)M\subset \mathfrak{R}(M)$. We have equality if the A-module M is projective.
 
@@ -253,7 +253,7 @@ The last assertion of the theorem follows from the above by taking N to be 0. **
 
 This follows from Theorem 2 applied to the submodule N of M generated by the family $(x_i)_{i\in I}$.
 
-#### Corollary 2 {#alg-viii-s9-prop-6-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s9-prop-6-cor-2 .statement tag=00AP}
 
 We keep the assumptions of Theorem 2. Furthermore, let $M'$ be an A-module and $u: M'\rightarrow M$ be a homomorphism. If the homomorphism $u$ from $M'/\mathfrak{a}M'$ to $M/\mathfrak{a}M$ deduced from $u$ by passing to the quotients is surjective, then $u$ is surjective.
 
@@ -261,13 +261,13 @@ It suffices to apply Theorem 2 to the image N of $u:$ indeed, the image of $u$ i
 
 ### 4. Lifts of Idempotents
 
-#### Lemma 1 {#alg-viii-s9-lem-1 .statement}
+#### Lemma 1 {#alg-viii-s9-lem-1 .statement tag=00AQ}
 
 Let $a$ be an element of a ring A such that $a-a^2$ is nilpotent. There exists a polynomial P in $X + (X-X^2)\mathbf{Z}[X]$ such that $P(a)$ is idempotent in A.
 
 Let $n$ be a strictly positive integer such that $(a-a^2)^n= 0$. Set P(X) = $1-(1-X^n)^n$. The polynomial P(X) is a multiple of $X^n$, and the polynomial $1-P(X)$ is a multiple of $(1-X)^n$, so $P(X)-P(X)^2$ is a multiple of $(X-X^2)^n$, and we have $P(a) = P(a)^2$. Moreover, $X-P(X)$ is a multiple of X and $1-X$, hence a multiple of $X-X^2$.
 
-#### Proposition 7 {#alg-viii-s9-prop-7 .statement}
+#### Proposition 7 {#alg-viii-s9-prop-7 .statement tag=00AR}
 
 Let $\mathfrak{a}$ be a two-sided nil ideal of A, and let $e$ be an idempotent in the ring $A/\mathfrak{a}$. There exists an idempotent $e$ in A whose canonical image in $A/\mathfrak{a}$ is equal to $e$.
 
@@ -275,7 +275,7 @@ Let $a$ be an arbitrary representative of $e$ in A. The element $a-a^2$ of A is 
 
 Suppose that $e$ belongs to the center of the ring $A/\mathfrak{a}$. There does not necessarily exist an idempotent $e$ in the center Z of A lifting $e$ (VIII, p. 172, Exercise 31). However, if $e$ belongs to the image of Z in $A/\mathfrak{a}$, then it lifts to an idempotent in Z because $Z\cap \mathfrak{a}$ is a nil ideal of Z.
 
-#### Corollary 1 {#alg-viii-s9-prop-7-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s9-prop-7-cor-1 .statement tag=00AS}
 
 Let M and P be A-modules and $u$ a surjective A-linear mapping from P to M. Suppose that P is projective and that there exists a nilpotent two-sided ideal $\mathfrak{a}$ of A such that the kernel N of $u$ is contained in $\mathfrak{a}P$. Let $M'$ and $M''$ be submodules of M whose direct sum is M. Then P is the direct sum of submodules $P'$ and $P''$ such that $u(P') = M'$ and $u(P'') = M''$.
 
@@ -301,7 +301,7 @@ $$
 
 the equality $u(P'') = M''$ is proved analogously.
 
-#### Corollary 2 {#alg-viii-s9-prop-7-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s9-prop-7-cor-2 .statement tag=00AT}
 
 Let A be a ring, and let $\mathfrak{a}$ be a nilpotent two-sided ideal of A. If P is a projective A-module, then $P/\mathfrak{a}P$ is a projective module over $A/\mathfrak{a}$, and the A-module P is indecomposable if and only if the $A/\mathfrak{a}$-module $P/\mathfrak{a}P$ is indecomposable.
 
@@ -309,19 +309,19 @@ Let P be a projective A-module, and let P be the $A/\mathfrak{a}$-module $P/\mat
 
 ### 5. Projective Cover of a Module
 
-#### Definition 3 {#alg-viii-s9-def-3 .statement}
+#### Definition 3 {#alg-viii-s9-def-3 .statement tag=00AU}
 
 Let A be a ring, and let M be an A-module. A projective cover of M is a pair $(P, u)$, where P is a projective A-module and $u$ a surjective homomorphism from P to M such that we have $u(P')\not= M$ for every proper A-submodule $P'$ of P.
 
-#### Remark 1 {#alg-viii-s9-n5-rem-1 .statement}
+#### Remark 1 {#alg-viii-s9-n5-rem-1 .statement tag=00AV}
 
 For every projective A-module M, the pair $(M,1_M)$ is a projective cover of M.
 
-#### Remark 2 {#alg-viii-s9-n5-rem-2 .statement}
+#### Remark 2 {#alg-viii-s9-n5-rem-2 .statement tag=00AW}
 
 Suppose that $(P, u)$ is a projective cover of the A-module M. Let $(x_i)_{i\in I}$ be a family of elements of P, and let $P'$ be the submodule of P that it generates; then $u(P')$ is generated by the family $(u(x_i))_{i\in I}$. Consequently, the family $(x_i)_{i\in I}$ generates the A-module P if and only if the family $(u(x_i))_{i\in I}$ generates the A-module M. In particular, P is finitely generated if and only if M is finitely generated.
 
-#### Proposition 8 {#alg-viii-s9-prop-8 .statement}
+#### Proposition 8 {#alg-viii-s9-prop-8 .statement tag=00AX}
 
 Let M and $M'$ be A-modules, $(P, u)$ and $(P', u')$ projective covers of M and $M'$, respectively, and $g: M\rightarrow M'$ an A-linear mapping.
 
@@ -335,41 +335,41 @@ Let $f$ be a mapping as in a). Suppose that $g$ is surjective. Since $u$ is surj
 
 To conclude, suppose that $g$ is injective and that its image is a direct factor of $M'$. Then there exists an A-linear mapping $g': M'\rightarrow M$ such that $g'\circ g= 1_M$. By a), there exists an A-linear mapping $f': P'\rightarrow P$ such that $u\circ f'=g'\circ u'$. We have $u\circ (f'\circ f) =g'\circ u'\circ f= (g'\circ g)\circ u$; by the previous paragraph, the mapping $f'\circ f$ is bijective. Denote the converse bijection by $h$; we have $(h\circ f')\circ f= 1_P$, so $f$ is injective, and its image is a direct factor of $P'$ (II, §1, No. 9, p. 212, Corollary 2).
 
-#### Corollary 1 {#alg-viii-s9-prop-8-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s9-prop-8-cor-1 .statement tag=00AY}
 
 Let M be an A-module. Let $(P, u)$ and $(P', u')$ be projective covers of M. There exists an isomorphism $f$ from P to $P'$ such that $u=u'\circ f$.
 
 Note that $f$ is not necessarily uniquely determined by the relation $u=u'\circ f$ (VIII, p. 170, Exercise 21).
 
-#### Corollary 2 {#alg-viii-s9-prop-8-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s9-prop-8-cor-2 .statement tag=00AZ}
 
 Let $(P, u)$ be a projective cover of the A-module M. If Q is a projective A-module and $g: Q\rightarrow M$ a surjective linear mapping, then there exists a surjective linear mapping $f: Q\rightarrow P$ such that $g=u\circ f$.
 
-#### Proposition 9 {#alg-viii-s9-prop-9 .statement}
+#### Proposition 9 {#alg-viii-s9-prop-9 .statement tag=00B0}
 
 Let M be an A-module and $(P, u)$ a projective cover of M. Denote the radical of the ring A by $\mathfrak{r}$. The homomorphism $u: P/\mathfrak{r}P\rightarrow M/\mathfrak{r}M$ deduced from $u$ by passing to the quotients is an isomorphism.
 
 The homomorphism $u$ is surjective by definition, so $u$ is surjective. Denote the kernel of $u$ by N. We have $u^{-1}(\mathfrak{r}M) = N +\mathfrak{r}P$. Let us prove that we have $N\subset \mathfrak{r}P$, which implies the injectivity of $u$. For every maximal submodule $P'$ of P, we have $u(P')\not= M$, hence $P'+ N\not= P$; since $P'$ is maximal, we have $N\subset P'$. The submodule N of P is therefore contained in the radical of P. Now, the latter is equal to $\mathfrak{r}P$ by Proposition 6 of VIII, p. 158.
 
-#### Corollary {#alg-viii-s9-n5-cor-1 .statement}
+#### Corollary {#alg-viii-s9-n5-cor-1 .statement tag=00B1}
 
 If an A-module M has a projective cover, then the $A/\mathfrak{r}$-module $M/\mathfrak{r}M$ is projective.
 
 Indeed, if $(P, u)$ is a projective cover of M, then the $(A/\mathfrak{r}$)-module $M/\mathfrak{r}M$ is isomorphic to $P/\mathfrak{r}P$ (Proposition 9). Since the A-module P is projective, the $(A/\mathfrak{r}$)-module $P/\mathfrak{r}P$ is also projective.
 
-#### Remark 3 {#alg-viii-s9-n5-rem-3 .statement}
+#### Remark 3 {#alg-viii-s9-n5-rem-3 .statement tag=00B2}
 
 Suppose that the ring A is without radical. By Proposition 9, $(P, u)$ is a projective cover of an A-module M if and only if $u$ is an isomorphism. Hence, projective covers can only exist for projective A-modules.
 
 The ring $\mathbf{Z}$ is without radical (VIII, p. 154, Example 3). Let $n\geqslant 2$ be an integer. The $\mathbf{Z}$-module $\mathbf{Z}/n\mathbf{Z}$ is not projective and therefore does not admit a projective cover.
 
-#### Remark 4 {#alg-viii-s9-n5-rem-4 .statement}
+#### Remark 4 {#alg-viii-s9-n5-rem-4 .statement tag=00B3}
 
 Suppose that every finitely generated A-module has a projective cover; then the quotient $A'$ of A by its radical is semisimple. Indeed, every finitely generated module over the ring $A'$ is projective by the corollary. In particular, for every left ideal $\mathfrak{a}$ of $A'$, the $A'$-module $A'_s/\mathfrak{a}$ is projective. Our assertion then follows from Proposition 4 of VIII, p. 138.
 
 We can give examples of a commutative ring A for which $A/\mathfrak{r}$ is semisimple and of a finitely generated A-module M that does not admit a projective cover (VIII, p. 170, Exercise 22).
 
-#### Proposition 10 {#alg-viii-s9-prop-10 .statement}
+#### Proposition 10 {#alg-viii-s9-prop-10 .statement tag=00B4}
 
 Let M be an A-module, P a projective A-module, and $u: P\rightarrow M$ a linear mapping. Let $\mathfrak{a}$ be a two-sided ideal of A. Suppose that the linear mapping $u: P/\mathfrak{a}P\rightarrow M/\mathfrak{a}M$ deduced from $u$ by passing to the quotients is bijective and that one of the following conditions are satisfied:
 
@@ -379,11 +379,11 @@ Let M be an A-module, P a projective A-module, and $u: P\rightarrow M$ a linear 
 
 Under the assumptions, the homomorphism $u$ is surjective (VIII, p. 159, Corollary 2) and its kernel N is contained in $\mathfrak{a}P$. Let $P'$ be a proper submodule of P. By Nakayama’s lemma (VIII, p. 158, Theorem 2), we have $P'+\mathfrak{a}P\not= P$ and therefore $u(P')\not= M$. So $(P, u)$ is a projective cover of M.
 
-#### Corollary 1 {#alg-viii-s9-prop-10-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s9-prop-10-cor-1 .statement tag=00B5}
 
 Let P be a projective A-module. Suppose that P is finitely generated or that the radical $\mathfrak{r}$ of A is a nilpotent two-sided ideal. Denote the canonical mapping from P to $P/\mathfrak{r}P$ by $u$. Then $(P, u)$ is a projective cover of $P/\mathfrak{r}P$.
 
-#### Corollary 2 {#alg-viii-s9-prop-10-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s9-prop-10-cor-2 .statement tag=00B6}
 
 Let $\mathfrak{a}$ be a two-sided ideal of A and M an A-module such that the $(A/\mathfrak{a})$-module $M/\mathfrak{a}M$ is free. Suppose that one of the following conditions is satisfied:
 
@@ -397,13 +397,13 @@ The $(A/\mathfrak{a}$)-module $P/\mathfrak{a}P$ is free, and the homomorphism $u
 
 If $\mathfrak{a}$ is nilpotent, then it suffices to apply Proposition 10. Now suppose that the ring A is nonzero and that the module M is finitely generated; then so is the $(A/\mathfrak{a}$)-module $M/\mathfrak{a}M$, and consequently also the $(A/\mathfrak{a}$)-module $P/\mathfrak{a}P$. Every basis of $P/\mathfrak{a}P$ is then finite. It follows that the set I is finite and that the A-module P is finitely generated. We then apply Proposition 10 again.
 
-#### Corollary 3 {#alg-viii-s9-prop-10-cor-3 .statement}
+#### Corollary 3 {#alg-viii-s9-prop-10-cor-3 .statement tag=00B7}
 
 Every finitely generated module over a local ring has a projective cover.
 
 Let A be a local ring and $\mathfrak{r}$ its radical. It is a two-sided ideal of A (VIII, p. 155, Proposition 5, a)), and the ring $A/\mathfrak{r}$ is a field (VIII, p. 157, Corollary 4). If M is an A-module, then $M/\mathfrak{r}M$ is a vector space over the field $A/\mathfrak{r}$, hence is a free $(A/\mathfrak{r}$)-module. It then suffices to apply Corollary 2.
 
-#### Remark 5 {#alg-viii-s9-n5-rem-5 .statement}
+#### Remark 5 {#alg-viii-s9-n5-rem-5 .statement tag=00B8}
 
 Let A be a local ring and $\mathfrak{r}$ its radical. Let M be a finitely generated A-module, P a finitely generated projective A-module, and $u: P\rightarrow$ M a homomorphism. By Corollary 6 of VIII, p. 36, the A-module P is free. Choose a basis $(e_i)_{i\in I}$ of P. Set $x_i=u(e_i)$, and denote the canonical image of $x_i$ in $M/\mathfrak{r}M$ by $x_i$. The following properties are equivalent:
 
@@ -413,7 +413,7 @@ Let A be a local ring and $\mathfrak{r}$ its radical. Let M be a finitely genera
 
 (iii) The family $(x_i)_{i\in I}$ is a basis of the vector space $M/\mathfrak{r}M$ over the field $A/\mathfrak{r}$. We have (i) $\Rightarrow$ (ii) by Remark 2 of VIII, p. 161 and (iii) $\Rightarrow$ (i) by Corollary 2. Furthermore, if the family $(x_i)$ is a minimal generating family of the A-module M, then the family $(x_i)$ is a minimal generating family, that is, a basis, of the vector space $M/\mathfrak{r}M$ over $A/\mathfrak{r}$ (VIII, p. 158, Corollary 1).
 
-#### Proposition 11 {#alg-viii-s9-prop-11 .statement}
+#### Proposition 11 {#alg-viii-s9-prop-11 .statement tag=00B9}
 
 Let A be a ring and $\mathfrak{a}$ a nilpotent two-sided ideal of A. Let M be a projective $A/\mathfrak{a}$-module. There exist a projective A-module P and a surjective A-linear mapping $u: P\rightarrow M$ with kernel $\mathfrak{a}P$.
 

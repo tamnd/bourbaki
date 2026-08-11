@@ -30,14 +30,14 @@ subsections:
       pdf_page: 143
 statements: 22
 exercises: 16
-content_sha256: 1dbc70a881173ad827aa568ebc88accfed6a314bb78515acfb8632b9f49f8ba9
+content_sha256: 39372cb7ef9344a194e5d5d78881c045465016d4bdb225d3ad9672b4e8f0ff56
 ---
 
 ## § 7. SIMPLE RINGS
 
 ### 1. Simple Rings
 
-#### Proposition 1 {#alg-viii-s7-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s7-prop-1 .statement tag=0081}
 
 Let A be a nonzero ring. The following conditions are equivalent:
 
@@ -55,11 +55,11 @@ Let us prove that (iii) implies (i). Assume that (iii) is satisfied. Then there 
 
 Suppose that conditions (i) through (iii) are satisfied. We have seen above that the A-module $A_s$ has finite length and is isotypical of type S. Every simple left A-module is isomorphic to a quotient of $A_s$, hence to S.
 
-#### Definition 1 {#alg-viii-s7-def-1 .statement}
+#### Definition 1 {#alg-viii-s7-def-1 .statement tag=0082}
 
 We say that a ring A is simple if it satisfies the equivalent conditions (i), (ii), and (iii) of Proposition 1. Let K be a commutative field; a K-algebra is called simple if its underlying ring is simple.
 
-#### Remark 1 {#alg-viii-s7-n1-rem-1 .statement}
+#### Remark 1 {#alg-viii-s7-n1-rem-1 .statement tag=0083}
 
 Recall that by Theorem 1 of II, §9, No. 1, p. 115, the following properties are equivalent:
 
@@ -69,13 +69,13 @@ Recall that by Theorem 1 of II, §9, No. 1, p. 115, the following properties are
 
 (iii) The ring A is a field. Consequently, by Proposition 1 (condition (ii)), commutative simple rings are nothing but commutative fields.
 
-#### Remark 2 {#alg-viii-s7-n1-rem-2 .statement}
+#### Remark 2 {#alg-viii-s7-n1-rem-2 .statement tag=0084}
 
 We sometimes say that a ring A is quasi-simple if it is not reduced to 0 and if its only two-sided ideals are 0 and A. We say that A is primitive if it admits a faithful simple module. By Proposition 1, every simple ring is quasi-simple. Since every nonzero ring admits a simple module and the annihilator of a simple module is a two-sided ideal, we see that every quasi-simple ring is primitive. However, there exist quasi-simple rings that are not simple and primitive rings that are not quasi-simple (VIII, p. 128, Exercise 2); such rings are not left Artinian.
 
 Theorem 1 (Wedderburn). — A ring is simple if and only if it is isomorphic to a matrix ring $\mathbf{M}_r(D)$, where $r\geqslant 1$ is an integer and D a field.
 
-#### Lemma 1 {#alg-viii-s7-lem-1 .statement}
+#### Lemma 1 {#alg-viii-s7-lem-1 .statement tag=0085}
 
 Let A be a simple ring, S a simple left A-module, and D the opposite ring of the field End$_A(S)$. Then S is an invertible $(A,D)$-bimodule. It is also a finite-dimensional right vector space over D, and the mapping $a\mapsto a_S$ is a ring isomorphism from A to End$_D(S)$.
 
@@ -85,11 +85,11 @@ We know that V is a simple E-module (VIII, p. 45, Example 3) and that its commut
 
 Let us now prove Theorem 1. Recall (II, §10, No. 7, p. 349) that the ring $\mathbf{M}_r(D)$ can be identified with the endomorphism ring of the right D-vector space $D^r_d$; moreover, every right vector space of finite dimension $r$ over a field D is isomorphic to $D^r_d$ (II, §7, No. 1, p. 292). Theorem 1 therefore follows from Lemmas 1 and 2.
 
-#### Remark 3 {#alg-viii-s7-n1-rem-3 .statement}
+#### Remark 3 {#alg-viii-s7-n1-rem-3 .statement tag=0086}
 
 Let A be a simple ring, S a simple A-module, and D the opposite ring of the field End$_A(S)$. Then the A-module $A_s$ has finite length, and dim$_D(S)$ is equal to long(A). Indeed, by Lemma 1, the ring A is isomorphic to End$_D(S)$; we then apply Lemma 2.
 
-#### Corollary 1 {#alg-viii-s7-lem-1-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s7-lem-1-cor-1 .statement tag=0087}
 
 a) The center of a simple ring is a field.
 
@@ -101,7 +101,7 @@ Let D be a field, Z its center, and V a right vector space over D of finite dime
 
 The mapping $z\mapsto z_V$ is an isomorphism from Z to the center of E by Corollary 2 of VIII, p. 83. Assertion a) follows. The dual $V^*$ of V is a right vector space over the opposite field $D^o$ of D, and its dimension is equal to $r$. The mapping $u\mapsto^tu$ is an isomorphism from the opposite ring $E^o$ of E to the ring End$_{D^o}(V^*)$. Consequently, the ring $E^o$ is simple, and the rings E and $E^o$ have the same left length, equal to $r$ (Lemma 2).
 
-#### Corollary 2 {#alg-viii-s7-lem-1-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s7-lem-1-cor-2 .statement tag=0088}
 
 Let $r$ and $r'$ be strictly positive integers, and let D and $D'$ be fields. The rings $\mathbf{M}_r(D)$ and $\mathbf{M}_{r'}(D')$ are isomorphic if and only if we have $r=r'$ and the fields D and $D'$ are isomorphic.
 
@@ -109,25 +109,25 @@ The condition is obviously sufficient.
 
 Conversely, suppose that the rings $B =\mathbf{M}_r(D)$ and $B'=\mathbf{M}_{r'}(D')$ are isomorphic. Since $r$ is the length of $B_s$ and $r'$ that of $B'_s$ (Lemma 2), we have $r=r'$. Moreover, B is Morita equivalent to D and $B'$ to $D'$ (VIII, p. 102, Example 1). Consequently, the fields D and $D'$ are Morita equivalent, hence isomorphic (VIII, p. 111, Proposition 13, c)).
 
-#### Corollary 3 {#alg-viii-s7-lem-1-cor-3 .statement}
+#### Corollary 3 {#alg-viii-s7-lem-1-cor-3 .statement tag=0089}
 
 Let K be a commutative field, and let A be a K-algebra of finite degree with simple underlying ring. There exist an integer $r$ and a K-algebra D of finite degree over K that is a field such that A is isomorphic to $M_r(D)$. In particular, if K is algebraically closed, then A is isomorphic to a matrix algebra over K.
 
 Let S be a simple left A-module; it is a finite-dimensional K-vector space over K. Its commutant is therefore an algebra of finite degree over K. The first assertion then follows from Lemma 1. If K is algebraically closed, then D = K by Theorem 1 of VIII, p. 47.
 
-#### Remark 4 {#alg-viii-s7-n1-rem-4 .statement}
+#### Remark 4 {#alg-viii-s7-n1-rem-4 .statement tag=008A}
 
 Let K be an algebraically closed commutative field, and let A be an algebra of finite degree over K. The algebra A is simple if and only if there exists an integer $n\geqslant 1$ such that A is isomorphic to $M_n(K)$. Its center is then isomorphic to K.
 
 ### 2. Modules over a Simple Ring
 
-#### Lemma 3 {#alg-viii-s7-lem-3 .statement}
+#### Lemma 3 {#alg-viii-s7-lem-3 .statement tag=008B}
 
 Let A be a simple ring, and let S be a simple A-module. Denote the opposite field of the commutant of S by D. Every A-module is isomorphic to an A-module of the form $S\otimes_DV$, where V is a left vector space over the field D.
 
 This follows from Lemma 1 of VIII, p. 120 and Morita’s theorem (VIII, p. 103).
 
-#### Proposition 2 {#alg-viii-s7-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s7-prop-2 .statement tag=008C}
 
 Let A be a simple ring and S a simple A-module.
 
@@ -143,13 +143,13 @@ The D-module V is projective and isotypical of type $D_s$; it is generating if a
 
 Let $r\geqslant 1$ be an integer. We say that a cardinal $\mathfrak{a}$ is divisible by $r$ if there exists a cardinal $\mathfrak{b}$ such that $\mathfrak{a}=r\mathfrak{b}$. This is the case if $\mathfrak{a}$ is infinite because we have $r\mathfrak{a}=\mathfrak{a}($Set Theory, III, §6, No. 3, p. 188, Corollary 3). It follows from this remark that if the cardinal $\mathfrak{a}$ is divisible by $r$, then there exists a unique cardinal $\mathfrak{b}$ such that $\mathfrak{a}=r\mathfrak{b}$.
 
-#### Corollary {#alg-viii-s7-n2-cor-1 .statement}
+#### Corollary {#alg-viii-s7-n2-cor-1 .statement tag=008D}
 
 Let $k$ be a commutative field, and let A be a simple $k$-algebra of finite degree over $k$. Every simple A-module is finite-dimensional over $k$. Two A-modules are isomorphic if and only if their dimensions over $k$ are equal.
 
 Every simple A-module is isomorphic to a quotient of $A_s$, hence finite-dimensional over $k$. The corollary then follows from Proposition 2, c).
 
-#### Proposition 3 {#alg-viii-s7-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s7-prop-3 .statement tag=008E}
 
 Let A be a simple ring. An A-module M is free if and only if its length is divisible by the length of A. If that is the case, then all bases of M have the same cardinal, denoted by dim$_A(M)$ (II, §7, No. 3, p. 294, Remark 2) and determined by the relation
 
@@ -159,7 +159,7 @@ Suppose that M is free, and let $(e_i)_{i\in I}$ be a basis of M. The A-module M
 
 Conversely, suppose that the cardinal long$_A(M)$ is divisible by $r$. Let $\mathfrak{a}$ be the cardinal such that long$_A(M) =r\mathfrak{a}$. Then the A-module M has the same length as $A^(_s^{\mathfrak{a})}$, hence is isomorphic to it by Proposition 2. This proves that M is free.
 
-#### Proposition 4 {#alg-viii-s7-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s7-prop-4 .statement tag=008F}
 
 Let A be a simple ring and M a nonzero A-module. Denote the endomorphism ring of the A-module M by B, and view M as a left B-module.
 
@@ -185,13 +185,13 @@ which gives the last relation.
 
 Consider a ring B and a subring A of B. Endow B with the structure of an $(A$, A)-bimodule deduced by restriction of scalars from the $(B$, B)-bimodule structure on $_sB_d$.
 
-#### Proposition 5 {#alg-viii-s7-prop-5 .statement}
+#### Proposition 5 {#alg-viii-s7-prop-5 .statement tag=008G}
 
 Let B be a ring, A a simple subring of B, and S a simple left A-module. Then B is a free left A-module of dimension long$_A(B\otimes_AS)$.
 
 Let $r$ be the length of A; the A-module $A_s$ is isomorphic to $S^r$. Now, the left A-module B is isomorphic to $B\otimes_AA_s$ (II, §3, No. 4, p. 249), hence to $(B\otimes_AS)^r$ (II, §3, No. 7, p. 255, Proposition 7). We therefore have long$_A(B) =r$ long$_A(B\otimes_AS)$, and Proposition 5 follows from Proposition 3 of VIII, p. 123.
 
-#### Definition 2 {#alg-viii-s7-def-2 .statement}
+#### Definition 2 {#alg-viii-s7-def-2 .statement tag=008H}
 
 Let B be a ring and A a simple subring of B. The dimension of the free left A-module B is called the (left) degree of B over A and is denoted by[^1] $[B : A]_s$.
 
@@ -205,13 +205,13 @@ Let B be a ring, A a simple subring of B, and S a simple left A-module. Let M be
 
 follows from Proposition 5 and Definition 2.
 
-#### Proposition 6 {#alg-viii-s7-prop-6 .statement}
+#### Proposition 6 {#alg-viii-s7-prop-6 .statement tag=008I}
 
 Let C be a ring, B a simple subring of C, and A a simple subring of B. We then have $[C : A]_s= [C : B]_s[B : A]_s$.
 
 Let us introduce a basis $(e_i)_{i\in I}$ of C viewed as a left B-module and a basis $(f_j)_{j\in J}$ of B viewed as a left A-module. Then the family $(f_je_i)_{j\in J,i\in I}$ is a basis of C viewed as a left A-module (II, §1, No. 13, p. 222, Proposition 25); Proposition 6 follows.
 
-#### Remark 1 {#alg-viii-s7-n3-rem-1 .statement}
+#### Remark 1 {#alg-viii-s7-n3-rem-1 .statement tag=008J}
 
 Suppose that A is a simple subring of a simple ring B and that the right degree $[B : A]_d$ is finite. Let C be the endomorphism ring of B viewed as a right A-module; it is a simple ring by Proposition 4, b) of VIII, p. 123. For any $b$ in B, let $\gamma (b)$ be the mapping $x\mapsto bx$ from B to B; then $\gamma :b\mapsto \gamma (b)$ is an isomorphism from B to a subring of C. Moreover, if $(x_1, . . . , x_m)$ is a basis of the right A-module B, then the morphism that sends $c$ to $(c(x_1), . . . , c(x_m))$ is an isomorphism of left B-modules from C to $B^m_s$; consequently, we have the relation
 
@@ -223,7 +223,7 @@ Taking into account relation (2) of VIII, p. 123 applied to the right A-module B
 
 (5) long(C) $= [B : A]_d$ long(A) $$.
 
-#### Remark 2 {#alg-viii-s7-n3-rem-2 .statement}
+#### Remark 2 {#alg-viii-s7-n3-rem-2 .statement tag=008K}
 
 Let K be a commutative field. If A is a simple subalgebra of an algebra B of finite degree over K, then the left degree of B over A satisfies the relation $[B : A]_s[A : K] = [B : K]$ by Proposition 6 of VIII, p. 125. Likewise, we have $[B : A]_d[A : K] = [B : K]$. The equality $[B : A]_s= [B : A]_d$ follows.
 
@@ -231,7 +231,7 @@ Let K be a commutative field. If A is a simple subalgebra of an algebra B of fin
 
 Let D be a field and V a right vector space over D of finite dimension $n\geqslant 1$. Consider the simple ring A = End$_D(V)$. For any linear subspace W of V, we denote the set of elements $a$ of A satisfying $aW = 0$ (resp. $aV\subset W)$ by $\mathfrak{a}(W)$ (resp. $\mathfrak{b}(W))$.
 
-#### Proposition 7 {#alg-viii-s7-prop-7 .statement}
+#### Proposition 7 {#alg-viii-s7-prop-7 .statement tag=008L}
 
 a) The mapping $W\mapsto \mathfrak{a}(W)$ is a bijection from the set of linear subspaces of V to the set of left ideals of A.
 
@@ -243,7 +243,7 @@ Assertion b) follows from Example 1, b) of VIII, p. 104 applied to the invertibl
 
 Let $V^*$ be the dual of V, viewed as a right vector space over the opposite field $D^o$ of D. For any subspace W of V, denote the orthogonal of W in $V^*$ by $W'$. The mapping $W\mapsto W'$ is a bijection from the set of subspaces of V to the set of subspaces of $V^*$. If $W_1$ and $W_2$ are two subspaces of V, then the relations $W_1\subset W_2$ and $W'_1\supset W'_2$ are equivalent. Now, the mapping $u\mapsto^tu$ is an isomorphism from A to the opposite ring of End$_{D^o}(V^*)$; it transforms left ideals of A into right ideals of End$_{D^o}(V^*)$ and $\mathfrak{a}(W)$ into the set $\mathfrak{b}(W')$ of endomorphisms $h$ of $V^*$ such that $h(V^*)\subset W'$. Assertion a), as well as the equivalence of the relations $W_1\subset W_2$ and $\mathfrak{a}(W_1)\supset \mathfrak{a}(W_2)$, then follows from the assertion analogous to b) for the dual $V^*$ of V.
 
-#### Corollary {#alg-viii-s7-n4-cor-1 .statement}
+#### Corollary {#alg-viii-s7-n4-cor-1 .statement tag=008M}
 
 a) The minimal left ideals of A are the ideals $\mathfrak{a}(H)$, where H is a hyperplane in V. The maximal left ideals of A are the ideals $\mathfrak{a}(L)$, where L is a line in V.
 

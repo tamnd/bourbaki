@@ -30,14 +30,14 @@ subsections:
       pdf_page: 26
 statements: 32
 exercises: 28
-content_sha256: 9a872879a6f20a689779f2d0b81f8db1cc390062d6632454b196909041416b97
+content_sha256: 77443c27be06346c288e3d1177382bf078e623074399997285ec822cf3e2f114
 ---
 
 ## § 1. ARTINIAN MODULES AND NOETHERIAN MODULES
 
 ### 1. Artinian Modules and Noetherian Modules
 
-#### Definition 1 {#alg-viii-s1-def-1 .statement}
+#### Definition 1 {#alg-viii-s1-def-1 .statement tag=0001}
 
 Let A be a ring. We call an A-module M Artinian (resp. Noetherian) if it satisfies the following equivalent conditions:
 
@@ -53,25 +53,25 @@ Let M be an Artinian (resp. Noetherian) A-module. Every nonempty set of submodul
 
 Let M be an Artinian (resp. Noetherian) A-module and $(M_i)_{i\in I}$ a family of submodules of M. The intersections (resp. sums) of finite subfamilies of the family $(M_i)_{i\in I}$ form a nonempty left (resp. right) directed set of submodules of M. Therefore, there exists a finite subset J of I such that $\bigcap_{i\in I}M_i=\bigcap_{i\in J}M_i$ (resp. $\sum_{i\in I}M_i=\sum_{i\in J}M_i)$.
 
-#### Example 1 {#alg-viii-s1-n1-exa-1 .statement}
+#### Example 1 {#alg-viii-s1-n1-exa-1 .statement tag=0002}
 
 A finite-dimensional vector space over a field is Artinian and Noetherian.
 
-#### Example 2 {#alg-viii-s1-n1-exa-2 .statement}
+#### Example 2 {#alg-viii-s1-n1-exa-2 .statement tag=0003}
 
 Let M be an A-module. If there exists an infinite family $(M_i)_{i\in I}$ of nonzero submodules of M whose sum is direct, then M is neither Artinian nor Noetherian: indeed, for every strictly decreasing (resp. strictly increasing) infinite sequence $(J_n)$ of subsets of I, the infinite sequence $(\sum_{i\in J_n}M_i)$ of submodules of M is strictly decreasing (resp. strictly increasing). In particular, an infinite-dimensional vector space over a field is neither Artinian nor Noetherian.
 
-#### Example 3 {#alg-viii-s1-n1-exa-3 .statement}
+#### Example 3 {#alg-viii-s1-n1-exa-3 .statement tag=0004}
 
 We will see further on that the $\mathbf{Z}$-module $\mathbf{Z}$ is Noetherian but not
 
 Artinian (VIII, p. 5, Example 3$).*$
 
-#### Example 4 {#alg-viii-s1-n1-exa-4 .statement}
+#### Example 4 {#alg-viii-s1-n1-exa-4 .statement tag=0005}
 
 Let $p$ be a prime number and $M_p$ the $p$-primary component of the torsion $\mathbf{Z}$-module $\mathbf{Q}/\mathbf{Z}$ (VII, §2, No. 2, p. 7). Every submodule of $M_p$ is equal to either $M_p$ or $p^{-n}\mathbf{Z}/\mathbf{Z}$ for an integer $n\in \mathbf{N}$ (VII, §2, p. 54, Exercise 3). Consequently, $M_p$ is an Artinian but not Noetherian $\mathbf{Z}$-module.
 
-#### Proposition 1 {#alg-viii-s1-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s1-prop-1 .statement tag=0006}
 
 An A-module M has finite length (II, §1, No. 10, p. 212) if and only if it is both Artinian and Noetherian.
 
@@ -79,7 +79,7 @@ Suppose that M has finite length $d$. Then every strictly increasing or strictly
 
 Conversely, suppose that M is Artinian and Noetherian. Let $\mathscr{S}$ be the set of submodules of M of finite length. The zero submodule is an element of $\mathscr{S}$, and since M is Noetherian, $\mathscr{S}$ has a maximal element N. Let us give a proof by contradiction and suppose that $M\not= N$. The set of submodules of M distinct from N and containing N then has a minimal element P because M is Artinian. The module $P/N$ has length 1, and since N is a module of finite length, the same holds for P (II, §1, No. 10, p. 212, Proposition 16). This contradicts the definition of N.
 
-#### Proposition 2 {#alg-viii-s1-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s1-prop-2 .statement tag=0007}
 
 An A-module M is Noetherian if and only if every submodule of M is finitely generated.
 
@@ -87,13 +87,13 @@ Begin by assuming that every submodule of M is finitely generated. Let $(P_n)_{n
 
 The converse is a consequence of the following more precise statement.
 
-#### Lemma 1 {#alg-viii-s1-lem-1 .statement}
+#### Lemma 1 {#alg-viii-s1-lem-1 .statement tag=0008}
 
 Let M be a Noetherian A-module and E a subset of M. There exists a finite subset F of E generating the same submodule as E.
 
 Indeed, by VIII, p. 2, there exists a finite subset F of E such that $\sum_{x\in E}Ax=\sum_{x\in F}Ax$.
 
-#### Proposition 3 {#alg-viii-s1-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s1-prop-3 .statement tag=0009}
 
 Let M be an A-module and N a submodule of M. Then M is Artinian (resp. Noetherian) if and only if N and $M/N$ are.
 
@@ -105,7 +105,7 @@ Conversely, suppose that the modules N and $M/N$ are Artinian, and consider a de
 
 Let $x$ be an element of Q. It belongs to N + P; hence, there exists an element $y$ of P such that $x-y\in N$. Since Q contains P, the difference $x-y$ belongs to $N\cap Q$ and therefore to P. Consequently, $x$ belongs to P.
 
-#### Corollary {#alg-viii-s1-n1-cor-1 .statement}
+#### Corollary {#alg-viii-s1-n1-cor-1 .statement tag=000A}
 
 Let M be an A-module and $(M_i)_{i\in I}$ a finite family of submodules of M.
 
@@ -119,17 +119,17 @@ In part a), we assume that $M_1$ and $(M_1+ M_2)/M_1$ are Artinian (resp. Noethe
 
 In part b), we assume that $M/M_2$ and $M_2/(M_1\cap M_2)$ are Artinian (resp. Noetherian); the same then holds for $M/(M_1\cap M_2)$ (loc. cit.).
 
-#### Example 5 {#alg-viii-s1-n1-exa-5 .statement}
+#### Example 5 {#alg-viii-s1-n1-exa-5 .statement tag=000B}
 
 Let $(M_i)_{i\in I}$ be a finite family of A-modules. If the modules $M_i$ are Artinian (resp. Noetherian), then so is their direct sum $\bigoplus_{i\in I}M_i$.
 
-#### Remark {#alg-viii-s1-n1-rem-1 .statement}
+#### Remark {#alg-viii-s1-n1-rem-1 .statement tag=000C}
 
 The definitions and results of this subsection extend to arbitrary abelian groups with operators by replacing the submodules in the statements with stable subgroups.
 
 ### 2. Artinian Rings and Noetherian Rings
 
-#### Definition 2 {#alg-viii-s1-def-2 .statement}
+#### Definition 2 {#alg-viii-s1-def-2 .statement tag=000D}
 
 A ring A is said to be left Artinian (resp. left Noetherian) if the left A-module $A_s$ is Artinian (resp. Noetherian). Likewise, a ring A is said to be right Artinian (resp. right Noetherian) if the right A-module $A_d$ is Artinian (resp. Noetherian).
 
@@ -153,25 +153,25 @@ Because of Proposition 2 of VIII, p. 3, the following properties are equivalent:
 
 (iv) Every left ideal of A is generated by a finite subset of A.
 
-#### Example 1 {#alg-viii-s1-n2-exa-1 .statement}
+#### Example 1 {#alg-viii-s1-n2-exa-1 .statement tag=000E}
 
 A field is a ring that is both left and right Artinian and Noetherian.
 
-#### Example 2 {#alg-viii-s1-n2-exa-2 .statement}
+#### Example 2 {#alg-viii-s1-n2-exa-2 .statement tag=000F}
 
 Let A be a ring and D a subring of A. Suppose that D is a field and that A is a finite-dimensional left vector space over D. Then the ring A is left Artinian and left Noetherian because every left ideal of A is a D-vector subspace of A. In particular, a finite-dimensional algebra over a commutative field is a ring that is both left and right Artinian and Noetherian.
 
-#### Example 3 {#alg-viii-s1-n2-exa-3 .statement}
+#### Example 3 {#alg-viii-s1-n2-exa-3 .statement tag=000G}
 
 A principal ideal domain (VII, §1, No. 1, p. 1, Definition 1) is Noetherian. An integral domain A that is not a field is not an Artinian ring: for every nonzero noninvertible element $a$ of A, the sequence of ideals $a^nA$ (for $n\in \mathbf{N})$ is strictly decreasing. In particular, the ring $\mathbf{Z}$ of integers is Noetherian but not Artinian.
 
-#### Example 4 {#alg-viii-s1-n2-exa-4 .statement}
+#### Example 4 {#alg-viii-s1-n2-exa-4 .statement tag=000H}
 
 Let M be an A-module that is the direct sum of an infinite family $(M_i)_{i\in I}$ of nonzero submodules. Let E be the endomorphism ring of M. For every $i\in I$, let $\mathfrak{a}_i$ (resp. $\mathfrak{b}_i)$ be the set of elements of E with kernel containing $\sum_{j\not=i}M_j$ (resp. with image contained in $M_i)$. Then $(\mathfrak{a}_i)$ is an infinite family of nonzero left ideals of E whose sum is direct, and $(\mathfrak{b}_i)$ is an infinite family of nonzero right ideals of E whose sum is direct. Consequently, the ring E is neither left nor right Artinian (resp. Noetherian) (VIII, p. 2, Example 2). In particular, the endomorphism ring of an infinite-dimensional vector space is neither left nor right Artinian (resp. Noetherian). **Theorem 1.** — Let A be a left Artinian ring. The A-module $A_s$ has finite length.
 
 We will use the following lemma in the proof.
 
-#### Lemma 3 {#alg-viii-s1-lem-3 .statement}
+#### Lemma 3 {#alg-viii-s1-lem-3 .statement tag=000I}
 
 Let A be a ring and $n$ a natural number. An Artinian A-module M that is the sum of a family of submodules of length $\leqslant n$ has finite length.
 
@@ -185,7 +185,7 @@ Let $x$ be an element of $A_s$ and $\mathfrak{a}$ its annihilator (II, §1, No. 
 
 If $\mathfrak{c}$ were distinct from A, then the set of left ideals of A containing $\mathfrak{c}$ and distinct from $\mathfrak{c}$ would have a minimal element $\mathfrak{c}'$. The A-module $\mathfrak{c}'/\mathfrak{c}$ would then have length 1, and $\mathfrak{c}'$ would have finite length, which contradicts the fact that $\mathfrak{c}$ is maximal. We therefore have $\mathfrak{c}= A$; the A-module $A_s$ has finite length.
 
-#### Corollary {#alg-viii-s1-n2-cor-1 .statement}
+#### Corollary {#alg-viii-s1-n2-cor-1 .statement tag=000J}
 
 Every left Artinian ring is left Noetherian.
 
@@ -193,11 +193,11 @@ Let A be a left Artinian ring. By Theorem 1, the A-module $A_s$ has finite lengt
 
 Let A be a left (resp. right) Artinian ring; the length of the A-module $A_s$ (resp. $A_d)$ (I, §4, No. 7, p. 44) is called the left (resp. right) length of the ring A. When A is a commutative Artinian ring, these two lengths coincide and are simply called the length of A. When A is left and right Artinian but is not commutative, the left and right lengths of A are not necessarily equal (VIII, p. 14, Exercise 3).
 
-#### Example 5 {#alg-viii-s1-n2-exa-5 .statement}
+#### Example 5 {#alg-viii-s1-n2-exa-5 .statement tag=000K}
 
 The left and right lengths of a field are equal to 1.
 
-#### Proposition 4 {#alg-viii-s1-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s1-prop-4 .statement tag=000L}
 
 a) Let A be a left Noetherian ring and M a finitely generated left A-module. The module M is Noetherian, and every submodule of M is finitely generated.
 
@@ -207,7 +207,7 @@ Let us prove a). Every monogenous submodule of M is isomorphic to a quotient of 
 
 Now, suppose that the ring A is left Artinian. We see, as in the previous section, that if the A-module M is finitely generated, then it is Artinian. If it is Artinian, then it has finite length: indeed, its monogenous submodules are isomorphic to quotients of $A_s$ and are therefore of finite length less than that of $A_s$, and the assertion follows from Lemma 3. Every module of finite length is Noetherian, and every Noetherian module is finitely generated. This proves b).
 
-#### Proposition 5 {#alg-viii-s1-prop-5 .statement}
+#### Proposition 5 {#alg-viii-s1-prop-5 .statement tag=000M}
 
 a) Let A be a left Artinian (resp. left Noetherian) ring, and let $\varphi : A\rightarrow B$ be a ring homomorphism that makes B into a finitely generated left A-module. The ring B is left Artinian (resp. left Noetherian).
 
@@ -223,7 +223,7 @@ Assertion b) follows from assertion a) applied to the canonical homomorphism fro
 
 Let us prove c). Set $A =\prod_{i\in I}A_i$. By assumption, $(A_i)_s$ is an Artinian left $A_i$-module and a fortiori an Artinian left A-module. By Example 5 of VIII, p. 4, the A-module $A_s$ is Artinian.
 
-#### Corollary {#alg-viii-s1-n2-cor-2 .statement}
+#### Corollary {#alg-viii-s1-n2-cor-2 .statement tag=000N}
 
 The prime ideals of an Artinian commutative ring are its maximal ideals.
 
@@ -233,25 +233,25 @@ The polynomial ring $\mathbf{Q}[(X_n)_{n\in\mathbf{N}}]$ is an integral domain; 
 
 ### 3. Countermodule
 
-#### Definition 3 {#alg-viii-s1-def-3 .statement}
+#### Definition 3 {#alg-viii-s1-def-3 .statement tag=000O}
 
 Let A be a ring, M an A-module, and E = End$_A(M)$ the endomorphism ring of M. The countermodule of M is the left E-module with the same underlying additive group as M and external law $(c, x)\mapsto c(x)$.
 
 Let Z be the center of the ring A. For every $a\in Z$, the homothety $a_M$ belongs to E. Consequently, E is canonically endowed with the structure of a Z-algebra. In particular, if M is a finitely generated Z-module, then the countermodule of M is finitely generated.
 
-#### Lemma 4 {#alg-viii-s1-lem-4 .statement}
+#### Lemma 4 {#alg-viii-s1-lem-4 .statement tag=000P}
 
 Let M be a left A-module with finitely generated countermodule. There exist a natural number $m$ and an injective $A_M$-linear mapping from $(A_M)_s$ to $M^m$.
 
 Set E = End$_A(M)$. Let $(x_1, . . . , x_m)$ be a finite generating family of the E-module M. The mapping $\varphi :a\mapsto (ax_1, . . . , ax_m)$ from $(A_M)_s$ to $M^m$ is $A_M$-linear. Let $a$ be an element of $A_M$ such that $\varphi (a) = 0$. The set of elements $x$ of M such that $ax= 0$ is an E-submodule of M containing $x_1, . . . , x_m$ and is therefore equal to M, which implies $a= 0$.
 
-#### Proposition 6 {#alg-viii-s1-prop-6 .statement}
+#### Proposition 6 {#alg-viii-s1-prop-6 .statement tag=000Q}
 
 Let M be an Artinian (resp. Noetherian) left A-module with finitely generated countermodule. The ring of homotheties $A_M$ of M is left Artinian (resp. left Noetherian).
 
 This follows from Lemma 4 and Proposition 3 of VIII, p. 3.
 
-#### Corollary {#alg-viii-s1-n3-cor-1 .statement}
+#### Corollary {#alg-viii-s1-n3-cor-1 .statement tag=000R}
 
 Let A be a commutative ring.
 
@@ -261,7 +261,7 @@ b) Let M be an A-module of finite length. The ring $A_M$ is Artinian.
 
 Let M be an A-module. Under the assumptions of a) or b), the A-module M is finitely generated. Since A is commutative, $A_M$ is contained in the ring End$_A$(M), so that the countermodule of M is finitely generated. It then suffices to apply Proposition 6.
 
-#### Remark {#alg-viii-s1-n3-rem-1 .statement}
+#### Remark {#alg-viii-s1-n3-rem-1 .statement tag=000S}
 
 Let A be a ring. An Artinian left A-module M with finitely generated countermodule has finite length: indeed, the ring of homotheties $A_M$ of M is left Artinian (Proposition 6), and M is an Artinian module over $A_M$; by VIII, p. 7, Proposition 4, the module M has finite length over $A_M$ and therefore also over A.
 
@@ -317,7 +317,7 @@ If A[X] is endowed with a ring structure that has the properties of Proposition 
 
 The set A[X], endowed with the unique ring structure with the properties of Proposition 7, is denoted by $A[X]_{\sigma ,d}$ and called the polynomial ring in X with coefficients in A, relative to $\sigma$ and $d$. We simply denote it by $A[X]_{\sigma}$ when $d$ is the zero mapping and by A[X] when, moreover, $\sigma$ is the identity mapping on A. This notation is compatible with that introduced in IV, §1, No. 1, p. 1 for a commutative ring A.
 
-#### Remark {#alg-viii-s1-n4-rem-1 .statement}
+#### Remark {#alg-viii-s1-n4-rem-1 .statement tag=000T}
 
 The ring $A[X]_{\sigma ,d}$ has the following universal property: given a ring $A'$, a ring homomorphism $f: A\rightarrow A'$, and an element $x$ of $A'$ such that $xf(a) =f(\sigma (a))x+f(d(a))$ for every $a\in A$, there exists a unique ring homomorphism $g: A[X]_{\sigma ,d}\rightarrow A'$ that extends $f$ and maps X onto $x$.
 
@@ -337,7 +337,7 @@ $$
 
 It follows that we have $g(P)g(Q) =g$(PQ) for $P,Q$ in $A[X]_{\sigma ,d}$ and therefore that $g$ is a ring homomorphism.
 
-#### Theorem 2 {#alg-viii-s1-thm-2 .statement}
+#### Theorem 2 {#alg-viii-s1-thm-2 .statement tag=000U}
 
 Let A be a left Noetherian ring, and let $\sigma$ be an automorphism of A and $d$ an endomorphism of the additive group of A satisfying relation (1). The ring $A[X]_{\sigma ,d}$ is left Noetherian.
 
@@ -371,13 +371,13 @@ Corollary 1 (Hilbert). — Let A be a Noetherian commutative ring. For every int
 
 This follows by induction from Theorem 2, taking Proposition 8 of III, §2, No. 9, p. 453, into account.
 
-#### Corollary 2 {#alg-viii-s1-thm-2-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s1-thm-2-cor-2 .statement tag=000V}
 
 Let A be a Noetherian commutative ring. A commutative A-algebra generated by finitely many elements is a Noetherian ring.
 
 Such an algebra is isomorphic to an algebra of the form $A[X_1, . . . ,X_n]/\mathfrak{a}$, where $n\geqslant 0$ and $\mathfrak{a}$ is an ideal of $A[X_1, . . . ,X_n]$. We then apply Corollary 1 and Proposition 5 of VIII, p. 7.
 
-#### Corollary 3 {#alg-viii-s1-thm-2-cor-3 .statement}
+#### Corollary 3 {#alg-viii-s1-thm-2-cor-3 .statement tag=000W}
 
 Every commutative ring is the union of a right directed family of Noetherian subrings.
 

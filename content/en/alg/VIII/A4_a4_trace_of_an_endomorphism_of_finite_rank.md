@@ -23,7 +23,7 @@ subsections:
       pdf_page: 481
 statements: 5
 exercises: 2
-content_sha256: 79eb0c3d749ae74b65745df1841b6627106a7947dbb65e8e7dcace17406c35e3
+content_sha256: 2167cb3754935cce3c9e084a699b88c47c5ce67b1a5c6f05fa2a2e6f1718e86b
 ---
 
 ## APPENDIX 4 TRACE OF AN ENDOMORPHISM OF FINITE RANK
@@ -36,7 +36,7 @@ Let $E,F,G$ be A-modules, and let $u: E\rightarrow F$ and $v: F\rightarrow G$ be
 
 Denote by $\theta$ the canonical group homomorphism from $E^*\otimes_AF$ to Hom$_A(E,F)$ (II, §4, No. 2, p. 271); it sends an element $x^*\otimes y$ of $E^*\otimes_AF$ to the mapping $x\mapsto  \langle x, x^*\rangle y$ from E to F.
 
-#### Lemma 1 {#alg-viii-a4-lem-1 .statement}
+#### Lemma 1 {#alg-viii-a4-lem-1 .statement tag=00QO}
 
 Suppose that the A-module F is projective. The group homomorphism $\theta$ is injective, and its image is Hom$^f_A(E,F)$.
 
@@ -72,13 +72,13 @@ for every $x\in E$, and therefore $u=\theta \sum_{j\in J}x^*_j\otimes p(y_j)$ .
 
 In this subsection, A denotes a commutative ring. Let E be a projective A-module. Then End$^f_A(E)$ is an A-submodule of End$_A$(E), and the canonical mapping $E^*\otimes_AE\rightarrow$ End$_A(E)$ defines an isomorphism $\theta_E$ of A-modules from $E^*\otimes_AE$ to End$^f_A(E)$ (Lemma 1). Consider the canonical linear form $\tau : E^*\otimes_AE\rightarrow A$ (II, §4, No. 3, p. 273) characterized by the formula $\tau (x^*\otimes x) =\langle x, x^*\rangle$. By composing it with the isomorphism $\theta^-_E^1$, we deduce a linear form Tr : End$^f_A(E)\rightarrow A$, called the trace form. When the A-module E is finitely generated, we recover the definition of II, §4, No. 3, p. 273.
 
-#### Proposition 1 {#alg-viii-a4-prop-1 .statement}
+#### Proposition 1 {#alg-viii-a4-prop-1 .statement tag=00QP}
 
 Let E be a free A-module. Let $(e_i)_{i\in I}$ be a basis of E, and let $(e^*_i)_{i\in I}$ be its dual basis. Let $u\in$ End$^f_A(E)$. The family $(\langle u(e_i), e^*_i\rangle )_{i\in I}$ has finite support, and its sum is equal to Tr($u)$.
 
 It suffices to treat the case when $u$ is of the form $\theta_E(x^*\otimes x)$ with $x\in E$ and $x^*\in E^*$. The family $(\langle x, e^*_i\rangle )_{i\in I}$ then has finite support, and we have $x=\sum_{i\in I}\langle x, e^*_i\rangle e_i$. Consequently, the family $(\langle x, e^*_i\rangle \langle e_i, x^*\rangle )_{i\in I}$ also has finite support, and we have $\langle x, x^*\rangle =\sum_{i\in I}\langle x, e^*_i\rangle \langle e_i, x^*\rangle$. Now, we have $\langle u(e_i), e^*_i\rangle =\langle x, e^*_i\rangle \langle e_i, x^*\rangle$ for every $i\in I$. This proves the proposition.
 
-#### Proposition 2 {#alg-viii-a4-prop-2 .statement}
+#### Proposition 2 {#alg-viii-a4-prop-2 .statement tag=00QQ}
 
 Let E, F be projective A-modules. Let $u\in$ Hom$^f_A(E,F)$ and $v\in$ Hom$_A(F,E)$. We have the relation
 
@@ -90,7 +90,7 @@ $v\circ u=\theta_E(x^*\otimes v(y))$ and $u\circ v=\theta_F(^tv(x^*)\otimes y)$,
 
 Tr($v\circ u) =\langle v(y), x^*\rangle =\langle y,^tv(x^*)\rangle =$ Tr($u\circ v)$.
 
-#### Corollary {#alg-viii-a4-n2-cor-1 .statement}
+#### Corollary {#alg-viii-a4-n2-cor-1 .statement tag=00QR}
 
 Let E be a projective A-module, $u$ be an element of End$^f_A(E)$, and F be a projective A-submodule of E containing Im $u$. Denote by $u_F$ the endomorphism of F induced by $u$. We have (4) Tr($u) =$ Tr($u_F)$.
 
@@ -108,7 +108,7 @@ for $u\in$ End$^f_A(E)$.
 
 If E is free and finite-dimensional, then this definition agrees with that of III, §8, No. 1, p. 522, by the corollary of III, §8, No. 5, p. 530.
 
-#### Proposition 3 {#alg-viii-a4-prop-3 .statement}
+#### Proposition 3 {#alg-viii-a4-prop-3 .statement tag=00QS}
 
 Let E be a projective A-module.
 

@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 59
 exercises: 17
-content_sha256: d68f8401dc85d1c8216dcd847fc58fab21626fd7d3a7b962170ac66010a7f5dc
+content_sha256: 63afe3b44e7f12ae0fa62317425b3b86339c7cde2bc918ef5c4bf52c283e9278
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -89,7 +89,7 @@ for $\gamma \in Γ$ and $f\in F$. If $\mathscr{E}= (Γ, \iota , \pi )$ and $\mat
 
 “$\mathscr{E}$ and $\mathscr{F}$ are isomorphic $\tau$-extensions.” This is an equivalence relation; the class of the extension $\mathscr{E}$ is the class of objects equivalent to $\mathscr{E}$ for Iso$_{\tau}($Set Theory, II, §6, No. 6, p. 122).
 
-#### Lemma 1 {#alg-viii-s16-lem-1 .statement}
+#### Lemma 1 {#alg-viii-s16-lem-1 .statement tag=00I9}
 
 The relation
 
@@ -101,11 +101,11 @@ Set $E_0= F\times G$, and consider the mappings $\iota_0: F\rightarrow E_0$ and 
 
 We denote by Ex$_{\tau}(G,F)$ the set of classes of $\tau$-extensions for the relation Iso$_{\tau}$.
 
-#### Example 1 {#alg-viii-s16-n1-exa-1 .statement}
+#### Example 1 {#alg-viii-s16-n1-exa-1 .statement tag=00IA}
 
 The external semidirect product $(F\times_{\tau}G, i, p)$ (I, §6, No. 1, p. 66, Proposition 3) is a $\tau$-extension; we denote it by $\mathscr{I}_{\tau}$. We say that a $\tau$-extension is semitrivial if it is isomorphic to the $\tau$-extension $\mathscr{I}_{\tau}$.
 
-#### Example 2 {#alg-viii-s16-n1-exa-2 .statement}
+#### Example 2 {#alg-viii-s16-n1-exa-2 .statement tag=00IB}
 
 For $i\in  \{1,2\}$, take a group $G_i$, an abelian group $F_i$, and a group homomorphism $\tau_i$ from $G_i$ to the automorphism group of $F_i$. We denote by $\tau_1\times \tau_2: G_1\times G_2\rightarrow$ Aut(F$_1\times F_2)$ the homomorphism defined by
 
@@ -125,7 +125,7 @@ $$
 
 Consequently, $(Γ', \iota ', \pi ')$ is a $\tau '$-extension of $G'$ by F; we call it the inverse image of $\mathscr{E}$ by $u$ and denote it by $u^*(\mathscr{E})$. The first projection is a group homomorphism $\varphi : Γ'\rightarrow Γ$ that we call canonical.
 
-#### Proposition 1 {#alg-viii-s16-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s16-prop-1 .statement tag=00IC}
 
 The following diagram commutes:
 
@@ -145,7 +145,7 @@ commutes, then there exists a unique morphism $\psi$ of $\tau '$-extensions from
 
 The commutativity of the first diagram follows from the definition of $\varphi$. The existence and uniqueness of $\psi$ follow from Lemma 2 below.
 
-#### Lemma 2 {#alg-viii-s16-lem-2 .statement}
+#### Lemma 2 {#alg-viii-s16-lem-2 .statement tag=00ID}
 
 Let $F'_1$ be an abelian group, and let $w: F'_1\rightarrow$ F and $\tau_1: G'\rightarrow$ Aut(F$'_1)$ be group homomorphisms such that
 
@@ -177,7 +177,7 @@ $$
 
 for every $\gamma \in Γ'_1$. Conversely, the group homomorphism from $Γ'_1$ to $Γ\times G'$ defined by $\gamma \mapsto (\varphi_1(\gamma ), \pi_1'(\gamma ))$ has values in the fiber product $Γ\times_GG'$ because $\pi \circ \varphi_1(\gamma ) =u\circ \pi_1'(\gamma )$ for every $\gamma \in Γ'_1$.
 
-#### Corollary 1 {#alg-viii-s16-lem-2-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s16-lem-2-cor-1 .statement tag=00IE}
 
 Let $\mathscr{E}_1$ and $\mathscr{E}_2$ be $\tau$-extensions of G by F, and let $\psi$ be a morphism of $\tau$-extensions from $\mathscr{E}_1$ to $\mathscr{E}_2$. Denote by $\varphi_1($resp. $\varphi_2)$ the canonical homomorphism for $u^*(\mathscr{E}_1) ($resp. $u^*(\mathscr{E}_2))$. Then there exists a unique morphism of $\tau '$-extensions from $u^*(\mathscr{E}_1)$ to $u^*(\mathscr{E}_2)$, denoted by $u^*(\psi )$, such that $\varphi_2\circ u^*(\psi ) =\psi \circ \varphi_1$.
 
@@ -185,7 +185,7 @@ It suffices to apply Proposition 1 to $\psi \circ \varphi_1$.
 
 The class of the $\tau '$-extension $u^*(\mathscr{E})$ therefore depends only on the class of $\mathscr{E}$. We also denote by $u^*:$ Ex$_{\tau}(G,F)\rightarrow$ Ex$_{\tau'}(G',F)$ the mapping that sends the class of a $\tau$-extension $\mathscr{E}$ to the class of the $\tau '$-extension $u^*(\mathscr{E})$.
 
-#### Corollary 2 {#alg-viii-s16-lem-2-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s16-lem-2-cor-2 .statement tag=00IF}
 
 Let $u': G''\rightarrow G'$ be a group homomorphism, and let $\mathscr{E}$ be a $\tau$-extension of G by F. Set $\tau ''=\tau '\circ u'$, and denote by $\varphi ($resp. $\varphi ',\varphi '')$ the canonical homomorphism associated with the $\tau '$-extension $u^*(\mathscr{E}) ($resp. the $\tau ''$-extension $u^{'*}(u^*(\mathscr{E}))$, the $\tau ''$-extension $(u\circ u')^*(\mathscr{E}))$. Then there exists a unique morphism $\psi$ from the $\tau ''$-extension $u^{'*}(u^*(\mathscr{E}))$ to the $\tau ''$-extension $(u\circ u')^*(\mathscr{E})$ such that $\varphi ''\circ \psi =\varphi \circ \varphi '$. **Example.** — Let H be a subgroup of G and $j: H\rightarrow G$ the canonical injection. Then for every $\tau$-extension $\mathscr{E}= (Γ, \iota , \pi )$, the $\tau \circ j$-extension $j^*(\mathscr{E})$ is isomorphic to $(^-\pi^1(H), \iota ', \pi ')$, where $\iota ': F\rightarrow^-\pi^1(H)$ (resp. $\pi ':^-\pi^1(H)\rightarrow H)$ is the group homomorphism $f\mapsto \iota (f)$ (resp. $\gamma \mapsto \pi (\gamma ))$. More generally, if the group homomorphism $u: G'\rightarrow G$ is injective, then the canonical homomorphism $\varphi$ is injective with image $^-\pi^1(u(G'))$.
 
@@ -217,7 +217,7 @@ $$
 
 is a group isomorphism. The image of $\iota '$ therefore coincides with the kernel of $\pi '$. Since $\pi$ and $\widetilde{p}$ are surjective, so is $\pi '$. This proves that $\mathscr{E}'= (Γ', \iota , \pi ')$ is a $\tau '$-extension of G by $F'$; we call it the direct image of $\mathscr{E}$ by $v$ and denote it by $v_*(\mathscr{E})$. The composition of the canonical surjection from $\widetilde{Γ}$ to $Γ'$ and the group homomorphism from Γ to $\widetilde{Γ}$ given by $\gamma \mapsto (1, \gamma )$ is a group homomorphism $\varphi : Γ\rightarrow Γ'$ that we call canonical.
 
-#### Proposition 2 {#alg-viii-s16-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s16-prop-2 .statement tag=00IG}
 
 In the notation above, the following diagram commutes:
 
@@ -237,7 +237,7 @@ Then there exists a unique morphism $\psi$ of $\tau '$-extensions from $v_*(\mat
 
 The commutativity of the first diagram follows by construction. The existence and uniqueness of $\psi$ follow from Lemma 3 below.
 
-#### Lemma 3 {#alg-viii-s16-lem-3 .statement}
+#### Lemma 3 {#alg-viii-s16-lem-3 .statement tag=00IH}
 
 Let $G'_1$ be a group, and let $w: G\rightarrow G'_1$ and $\tau_1: G'_1\rightarrow$ Aut(F$')$ be group homomorphisms such that $\tau '=\tau_1\circ w$. Let $\mathscr{E}_1'= (Γ'_1, \iota '_1, \pi '_1)$ be a $\tau_1$-extension of $G'_1$ by $F'$, and let $\varphi_1: Γ\rightarrow Γ'_1$ be a group homomorphism such that the following diagram commutes:
 
@@ -273,7 +273,7 @@ $$
 
 for $f, f'\in F'$ and $\gamma , \gamma '\in Γ$. The kernel of $\widetilde{\psi}$ contains the image of $j$ because $\iota '_1(v(f)) =\varphi_1(\iota (f))$ for $f\in F$, and the morphism $\psi$ deduced from $\widetilde{\psi}$ by passing to the quotient has the desired properties.
 
-#### Remark {#alg-viii-s16-n3-rem-1 .statement}
+#### Remark {#alg-viii-s16-n3-rem-1 .statement tag=00II}
 
 Denote by Σ the species of structures of $\tau '$-extensions, and define $\alpha$-mappings to be mappings from Γ to a group $Γ'$ underlying a $\tau '$-extension that are group homomorphisms and that make the following diagram commute:
 
@@ -283,7 +283,7 @@ $F_'^{\iota'}$ // $Γ_'^{\pi'}$ // G .
 
 Proposition 2 expresses that $v_*(\mathscr{E})$ is a solution of the corresponding universal mapping problem (Set Theory, IV, §3, No. 1, p. 284).
 
-#### Corollary 1 {#alg-viii-s16-lem-3-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s16-lem-3-cor-1 .statement tag=00IJ}
 
 Let $\mathscr{E}_1$ and $\mathscr{E}_2$ be $\tau$-extensions of G by F, and let $\psi$ be a morphism of $\tau$-extensions from $\mathscr{E}_1$ to $\mathscr{E}_2$. Denote by $\varphi_1($resp. $\varphi_2)$ the canonical homomorphism for $v_*(\mathscr{E}_1) ($resp. $v_*(\mathscr{E}_2))$. Then there exists a unique morphism of $\tau '$-extensions from $v_*(\mathscr{E}_1)$ to $v_*(\mathscr{E}_2)$, denoted by $v_*(\psi )$, such that $\varphi_2\circ \psi =v_*(\psi )\circ \varphi_1$.
 
@@ -297,11 +297,11 @@ $$
 
 for $g\in G$ and $f\in F'$. Let $\mathscr{E}$ be a $\tau$-extension of G by F, and denote by $\varphi ($resp. $\varphi ',\varphi '')$ the canonical homomorphism associated with $v_*(\mathscr{E}) ($resp. $v_*'(v_*(\mathscr{E}))$, $(v'\circ v)_*(\mathscr{E}))$. Then there exists a unique morphism $\psi$ from the $\tau ''$-extension $v_*'(v_*(\mathscr{E}))$ of G by $F''$ to the $\tau ''$-extension $(v'\circ v)_*(\mathscr{E})$ such that $\varphi ''=\psi \circ \varphi '\circ \varphi$.
 
-#### Example 1 {#alg-viii-s16-n3-exa-1 .statement}
+#### Example 1 {#alg-viii-s16-n3-exa-1 .statement tag=00IK}
 
 Let $j:\{1\} \rightarrow F$ be the canonical injection. The semitrivial extension $\mathscr{I}_{\tau}$ is isomorphic to $j_*((G, i$, Id$_G))$, where $i:\{e\} \rightarrow G$ is the canonical injection. Let $c: F\rightarrow F$ be the constant homomorphism $f\mapsto 1$, and let $\mathscr{E}$ be a $\tau$-extension. The $\tau$-extension $c_*(\mathscr{E})$ is also isomorphic to $\mathscr{I}_{\tau}$.
 
-#### Example 2 {#alg-viii-s16-n3-exa-2 .statement}
+#### Example 2 {#alg-viii-s16-n3-exa-2 .statement tag=00IL}
 
 Let E be a subgroup of F stable under the action of G. Denote by $F'$ the quotient of F by E, by $v: F\rightarrow F'$ the canonical homomorphism, and by $\tau ': G\rightarrow$ Aut(F$')$ the action of G on $F'$ characterized by
 
@@ -311,7 +311,7 @@ $$
 
 for $g\in G$ and $f\in F$. Let $\mathscr{E}= (Γ, \iota , \pi )$ be a $\tau$-extension of G by F. Then $\iota (E)$ is a normal subgroup of Γ, and the $\tau '$-extension $v_*(\mathscr{E})$ of G by $F'$ is isomorphic to the extension $(Γ/\iota (E), \iota , \pi )$, where $\iota$ and $\pi$ are the group homomorphisms deduced from $\iota$ and $\pi$ by passing to the quotients. By this isomorphism, the canonical homomorphism $\varphi$ associated with $v_*(\mathscr{E})$ corresponds to the canonical homomorphism from Γ to $Γ/\iota (E)$.
 
-#### Proposition 3 {#alg-viii-s16-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s16-prop-3 .statement tag=00IM}
 
 Let G and $G'$ be groups, and let F and $F'$ be abelian groups. Let $\tau : G\rightarrow$ Aut(F)$,\tau ': G\rightarrow$ Aut(F$'),u: G'\rightarrow G$, and $v: F\rightarrow F'$ be group homomorphisms such that
 
@@ -341,11 +341,11 @@ $$
 
 for every $g\in G$ and all $f_1, f_2\in F$, the extension $m_*(\delta^*(\mathscr{E}_1\times \mathscr{E}_2))$ is a $\tau$-extension; we call it the product of the $\tau$-extensions $\mathscr{E}_1$ and $\mathscr{E}_2$ and denote it by $\mathscr{E}_1\mathscr{E}_2$. The class of this extension depends only on the classes of the extensions $\mathscr{E}_1$ and $\mathscr{E}_2$ (VIII, p. 288, Corollary 1 and VIII, p. 291, Corollary 1). So this gives a law of composition on Ex$_{\tau}(G,F)$.
 
-#### Remark {#alg-viii-s16-n4-rem-1 .statement}
+#### Remark {#alg-viii-s16-n4-rem-1 .statement tag=00IN}
 
 Let $\mathscr{E}_1= (Γ_1, \iota_1, \pi_1)$ and $\mathscr{E}_2= (Γ_2, \iota_2, \pi_2)$ be $\tau$-extensions of G by F. Let $\mathscr{E}_1\mathscr{E}_2= (Γ, \iota , \pi )$ be the product of these extensions. Following the example of VIII, p. 289, the construction gives a surjective group homomorphism from the fiber product $Γ_1\times_GΓ_2$ to Γ whose kernel is the image of the group homomorphism $f\mapsto (\iota_1(f), \iota_2(f)^{-1})$ from F to $Γ_1\times_GΓ_2$.
 
-#### Proposition 4 {#alg-viii-s16-prop-4 .statement}
+#### Proposition 4 {#alg-viii-s16-prop-4 .statement tag=00IO}
 
 The product of $\tau$-extensions endows the set Ex$_{\tau}(G,F)$ with the structure of an abelian group. Its identity element is the class of the semitrivial extension $\mathscr{I}_{\tau}$. The inverse of the class of a $\tau$-extension $\mathscr{E}$ is the class of $s_*(\mathscr{E})$.
 
@@ -399,7 +399,7 @@ $$
 
 for $f\in F$, the group homomorphism $\sigma$ induces, by passing to the quotients, a morphism of $\tau$-extensions from $\mathscr{E}_1\mathscr{E}_2$ to $\mathscr{E}_2\mathscr{E}_1$. So the law of composition is commutative.
 
-#### Proposition 5 {#alg-viii-s16-prop-5 .statement}
+#### Proposition 5 {#alg-viii-s16-prop-5 .statement tag=00IP}
 
 a) Let G and $G'$ be groups, and let F be an abelian group. Let $\tau : G\rightarrow$ Aut(F) and $u: G'\rightarrow G$ be group homomorphisms. The mapping $u^*:$ Ex$_{\tau}(G,F)\rightarrow$ Ex$_{\tau\circ u}(G',F)$ is a group homomorphism.
 
@@ -445,7 +445,7 @@ $$
 
 for all $g_1, g_2\in G$. The mapping $c_{\sigma}$ is constant with value 1 if and only if $\sigma$ is a group homomorphism.
 
-#### Proposition 6 {#alg-viii-s16-prop-6 .statement}
+#### Proposition 6 {#alg-viii-s16-prop-6 .statement tag=00IQ}
 
 The mapping $c_{\sigma}$ is an element of the group $Z^2(G,F)$, and its class in the cohomology group $H^2(G,F)$ depends only on the class of the $\tau$-extension $\mathscr{E}$.
 
@@ -505,7 +505,7 @@ Finally, let $\mathscr{E}= (Γ, \iota , \pi )$ and $\mathscr{E}'= (Γ', \iota ',
 
 We denote by $Θ_{\tau}$ : Ex$_{\tau}(G,F)\rightarrow H^2(G,F)$, or more simply Θ, the mapping that sends the class of a $\tau$-extension $(Γ, \iota , \pi )$ to the class of the 2-cocycle $c_{\sigma}$, where $\sigma$ is a section of the surjection $\pi$.
 
-#### Theorem 1 {#alg-viii-s16-thm-1 .statement}
+#### Theorem 1 {#alg-viii-s16-thm-1 .statement tag=00IR}
 
 The mapping Θ is a group isomorphism from Ex$_{\tau}(G,F)$ to $H^2(G,F)$.
 
@@ -589,7 +589,7 @@ Let G and $G'$ be groups, F be an abelian group, and $\tau$ be a homomorphism fr
 
 If $\psi : G\times G\rightarrow F$ is a 2-cocycle of G with values in F, then the mapping $\psi \circ (u\times u)$ from $G'\times G'$ to F given by $(g_1, g_2)\mapsto \psi (u(g_1), u(g_2))$ is a 2-cocycle of $G'$ with values in F, and the mapping $\psi \mapsto \psi \circ (u\times u)$ from $Z^2(G,F)$ to $Z^2(G',F)$ induces a group homomorphism $u^*: H^2(G,F)\rightarrow H^2(G',F)$. For any $\lambda \in H^2(G,F)$, the element $u^*(\lambda )$ is called the inverse image of $\lambda$ by $u$. When $G'$ is a subgroup of G and $u: G'\rightarrow G$ is the canonical injection, the homomorphism $u^*$ is called the restriction homomorphism from G to $G'$; we denote it by Res$^G_{G'}$. When G is a quotient of $G'$ and $u: G'\rightarrow G$ is the canonical surjection, the homomorphism $u^*$ is called the inflation homomorphism from G to $G'$.
 
-#### Proposition 7 {#alg-viii-s16-prop-7 .statement}
+#### Proposition 7 {#alg-viii-s16-prop-7 .statement tag=00IS}
 
 In the notation from above, the following diagram commutes:
 
@@ -607,7 +607,7 @@ $$
 
 for $g_1,g_2\in G$. The mapping $c\mapsto \widetilde{c}_s$ is a group homomorphism from $F^{H\times H}$ to $F^{G\times G}$.
 
-#### Lemma 4 {#alg-viii-s16-lem-4 .statement}
+#### Lemma 4 {#alg-viii-s16-lem-4 .statement tag=00IT}
 
 If $c: H\times H\rightarrow F$ is a 2-cocycle of H with values in F, then $\widetilde{c}_s$ is a 2-cocycle of G with values in F.
 
@@ -659,7 +659,7 @@ $$
 
 where the second equality follows from the fact that $c$ is a 2-cocycle.
 
-#### Lemma 5 {#alg-viii-s16-lem-5 .statement}
+#### Lemma 5 {#alg-viii-s16-lem-5 .statement tag=00IU}
 
 If $c$ is a 2-coboundary, then so is $\widetilde{c}_s$.
 
@@ -681,7 +681,7 @@ $$
 
 for $g_1, g_2\in G$.
 
-#### Lemma 6 {#alg-viii-s16-lem-6 .statement}
+#### Lemma 6 {#alg-viii-s16-lem-6 .statement tag=00IV}
 
 Let $c$ be a 2-cocycle of H with values in F. The image of $\widetilde{c}_s$ in the group $H^2(G,F)$ does not depend on the choice of the section $s$.
 
@@ -787,7 +787,7 @@ $s(x)g_1s(x\cdot g_1)^{-1},s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}$, and $h(x\cdot
 
 We have constructed a homomorphism from the group $H^2(H,F)$ to the group $H^2(G,F)$, which we call the corestriction homomorphism from H to G and denote by Cor$^G_H$.
 
-#### Proposition 8 {#alg-viii-s16-prop-8 .statement}
+#### Proposition 8 {#alg-viii-s16-prop-8 .statement tag=00IW}
 
 Let H be a subgroup of G of finite index. The endomorphism Cor$^G_H\circ$ Res$^G_H$ of the group $H^2(G,F)$ coincides with multiplication by the index (G : H).
 
@@ -883,7 +883,7 @@ $$
 
 for $f\in$ Coind$^G_H(E)$ and $g, g'\in G$.
 
-#### Lemma 7 {#alg-viii-s16-lem-7 .statement}
+#### Lemma 7 {#alg-viii-s16-lem-7 .statement tag=00IX}
 
 a) Let S be a subset of G such that every element of G can be written uniquely as $hs$ with $h\in H$ and $s\in S$. Then the mapping that sends $f$ to $(f(s))_{s\in S}$ is an isomorphism from the K-algebra Coind$^G_H(E)$ to the K-algebra $\mathscr{F}(S,E)$ of mappings from S to E.
 
@@ -895,7 +895,7 @@ c) Let $E^H$ be the algebra of invariants of the group H in E and Coind$^G_H(E)^
 
 Assertion a) follows from the definitions and implies b). By (15), a mapping from G to E is an element of Coind$^G_H(E)$ invariant under G if and only if it is constant with value an element of E invariant under H.
 
-#### Remark 1 {#alg-viii-s16-n7-rem-1 .statement}
+#### Remark 1 {#alg-viii-s16-n7-rem-1 .statement tag=00IY}
 
 Let G be a group, H a subgroup of G, and N a subgroup of H. Let E be a $(K$, N)-algebra. Let $\alpha$ be an element of $\mathscr{F}_H(G,\mathscr{F}_N(H,E))$. We have the relation
 
@@ -931,7 +931,7 @@ Since the algebra L is reduced and of finite degree, the intersection of the max
 
 Let us now fix an orbit $\sigma \in \mathscr{O}$ and an element $\mathfrak{m}$ of $\sigma$. Set $F_{\mathfrak{m}}$ = Coind$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$, and denote by $\lambda_{F_{\mathfrak{m}}}$ the action of G on $F_{\mathfrak{m}}$. For any $x\in L$, denote by $x$ the mapping from G to $L/\mathfrak{m}$ that sends $g$ to $\pi_{\mathfrak{m}}(gx)$. By formula (15) of VIII, p. 305 and the definition of the action of $G_{\mathfrak{m}}$ on $L/\mathfrak{m}$, it is immediate that $x$ belongs to $F_{\mathfrak{m}}$, and the mapping $u:x\mapsto x$ from L to $F_{\mathfrak{m}}$ satisfies $\lambda_{F_{\mathfrak{m}}}(g)\circ u=u\circ \lambda (g)$ for $g\in G$. In other words, $u$ is a morphism of $(K$, G)-algebras.
 
-#### Lemma 9 {#alg-viii-s16-lem-9 .statement}
+#### Lemma 9 {#alg-viii-s16-lem-9 .statement tag=00IZ}
 
 The morphism $u$ is surjective with kernel $\mathfrak{a}_{\sigma}$. The mapping deduced from $u$ by passing to the quotient is an isomorphism of $(K,G)$-algebras from $L_{\sigma}$ to $F_{\mathfrak{m}}$.
 
@@ -949,7 +949,7 @@ Since we have Card($\sigma ) = (G : G_{\mathfrak{m}})$, we have proved the equal
 
 We now suppose, furthermore, that the homomorphism $\lambda$ from G to Aut$_K(L)$ is injective. We identify K with its image in L through the mapping $\xi \mapsto \xi \cdot 1$. Let Ω be an algebraically closed extension of K. The set $\mathscr{F}(G,Ω)$ of mappings from G to Ω coincides with the coinduced $(Ω$, G)-algebra Coind$^G_{\{e\}}(Ω)$. It is a free Ω[G]-module of rank 1. Let $\mathscr{H}$ be the set of K-algebra homomorphisms from L to Ω. We define a right action of G on $\mathscr{H}$ by $(g, \chi )\mapsto \chi \circ \lambda (g)$. The Ω-algebra $\mathscr{F}(\mathscr{H},Ω)$ is then endowed with the structure of an $(Ω$, G)-algebra deduced from the right action of G on $\mathscr{H}$.
 
-#### Lemma 10 {#alg-viii-s16-lem-10 .statement}
+#### Lemma 10 {#alg-viii-s16-lem-10 .statement tag=00J0}
 
 Let L be a $(K,G)$-algebra that is étale over K. The mapping $\psi$ from $L_{(Ω)}$ to $\mathscr{F}(\mathscr{H},Ω)$ characterized by the relation
 
@@ -965,7 +965,7 @@ $\psi$((Id $\otimes \lambda (g))(\xi \otimes x)) = (\xi (\chi \circ \lambda (g))
 
 for $\xi \in Ω,x\in L$, and $g\in G$. So $\psi$ is a morphism of $(Ω$, G)-algebras.
 
-#### Theorem 2 {#alg-viii-s16-thm-2 .statement}
+#### Theorem 2 {#alg-viii-s16-thm-2 .statement tag=00J1}
 
 Let G be a finite group, and let L be a commutative K-algebra of finite degree endowed with an action of G given by an injective homomorphism $\lambda$ from G to Aut$_K(L)$. The following properties are then equivalent:
 
@@ -1009,33 +1009,33 @@ Card(G) $= [L : K] = (G : G_{\mathfrak{m}})[L/\mathfrak{m}: K]$. So Card(G$_{\ma
 
 It remains to prove the implication (vi)$\Rightarrow$(i). Let $\mathfrak{m}$ be a maximal ideal of L. By Lemma 9, the algebra L is isomorphic to the algebra Coind$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$ as a $(K$, G)-algebra. Since $G_{\mathfrak{m}}$ acts faithfully in $L/\mathfrak{m}$ and admits K as subfield of invariants, the group homomorphism $\lambda_{\mathfrak{m}}$ defines an isomorphism from $G_{\mathfrak{m}}$ to Gal((L$/\mathfrak{m})/K)$.
 
-#### Remark 2 {#alg-viii-s16-n7-rem-2 .statement}
+#### Remark 2 {#alg-viii-s16-n7-rem-2 .statement tag=00J2}
 
 In Theorem 2, we can replace the assumption that Ω is algebraically closed with the assumption that Ω is separably closed. Indeed, if L is étale, then the image of every K-algebra homomorphism from L to Ω is a separable extension of K.
 
-#### Remark 3 {#alg-viii-s16-n7-rem-3 .statement}
+#### Remark 3 {#alg-viii-s16-n7-rem-3 .statement tag=00J3}
 
 The normal basis theorem (V, §10, No. 9, p. 73, Theorem 6) is a specific case of the implication (i)$\Rightarrow$(iv) in Theorem 2.
 
-#### Definition 1 {#alg-viii-s16-def-1 .statement}
+#### Definition 1 {#alg-viii-s16-def-1 .statement tag=00J4}
 
 Let G be a finite group, and let L be a nonzero commutative algebra of finite degree over K endowed with the structure of a $(K,G)$-algebra, where the action of G is given by an injective homomorphism from G to the group Aut$_K(L)$. We say that L is a Galois algebra with group G if it has the equivalent properties (i) through (vi) of Theorem 2.
 
-#### Remark 4 {#alg-viii-s16-n7-rem-4 .statement}
+#### Remark 4 {#alg-viii-s16-n7-rem-4 .statement tag=00J5}
 
 Suppose that L is an extension of K endowed with an action $\lambda$ of G. Then L is a Galois algebra over K if and only if L is a Galois extension of K and $\lambda$ is an isomorphism from G to the Galois group of L over K.
 
-#### Remark 5 {#alg-viii-s16-n7-rem-5 .statement}
+#### Remark 5 {#alg-viii-s16-n7-rem-5 .statement tag=00J6}
 
 Suppose that the group G is abelian. If G acts faithfully and transitively on a set X, then the stabilizer of any point of X is reduced to the identity (because the stabilizers of the points of X are all equal and their intersection is reduced to the identity element of G). Consequently, properties (i) through (vi) of Theorem 2 are also equivalent to the following:
 
 (vii) The algebra L is étale, and G acts faithfully and transitively on $\mathscr{H}$.
 
-#### Remark 6 {#alg-viii-s16-n7-rem-6 .statement}
+#### Remark 6 {#alg-viii-s16-n7-rem-6 .statement tag=00J7}
 
 By V, §10, No. 1, p. 75, Lemma 5; V, §10, No. 1, p. 76, Proposition 12; and VIII, p. 137, Proposition 3, a Galois algebra is commutative and semisimple.
 
-#### Example 1 {#alg-viii-s16-n7-exa-1 .statement}
+#### Example 1 {#alg-viii-s16-n7-exa-1 .statement tag=00J8}
 
 Let $n$ be a strictly positive integer, prime to the characteristic exponent of K. Suppose that the group $µ_n$ of $n$-th roots of unity in K has order $n$. Then for every divisor $d$ of $n$, the group $µ_d$ of $d$-th roots of unity has order $d$. Let $a$ be a nonzero element of K, let L be the algebra $K[X]/(X^n-a)$, and let $x$ be the class of X in L. The sequence $(1, x, . . . , x^{n-1})$ is a basis of the vector space L over the field K, and we have $x^n=a$. Moreover, the polynomial $X^n-a$ is prime to its derivative $nX^{n-1}$, so the algebra L is étale (V, §7, No. 2, p. 37, Proposition 3). For every $\zeta$ in $µ_n$, the automorphism $P(X)\mapsto P(\zeta X)$ of the ring K[X] defines, by passing to the quotients, an endomorphism $\lambda (\zeta )$ of L because we have $(\zeta X)^n-a= X^n-a$; it is an automorphism. We have
 
@@ -1047,7 +1047,7 @@ for $0\leqslant i < n$. The mapping $\lambda :\zeta \mapsto \lambda (\zeta )$ is
 
 Let $r$ be the least strictly positive integer such that $a^r$ belongs to $K^{*n}$; it divides $n$, and there exists an element $b$ of $K^*$ such that $a=b^{n/r}$. Then (V, §11, No. 8, p. 91, Remark) the polynomial $X^r-b$ is irreducible, and we have $X^n-a=\prod_{\zeta\inµ_{n/r}}(X^r-\zeta b)$. Let E be the field $K[Y]/(Y^r-b)$, and let $y$ be the class of Y in E. There exists an isomorphism $\theta$ from $µ_{n/r}$ to Gal(E$/K)$, characterized by the relation $\theta (\xi )(y) =\xi y$ (V, §11, No. 8, p. 91, Example 3). We then verify that the Galois algebra L is isomorphic to the $(K, µ_n$)-algebra Coind$^µ_{µ^n_{n/r}}(E)$.
 
-#### Example 2 {#alg-viii-s16-n7-exa-2 .statement}
+#### Example 2 {#alg-viii-s16-n7-exa-2 .statement tag=00J9}
 
 Now suppose that the field K has characteristic $p\not= 0$. Let $c$ be an element of K. The polynomial $f= X^p-X-c$ is prime to its derivative $f'=-1$, so the algebra $L = K[X]/(f)$ is étale (V, §7, No. 2, p. 37, Proposition 3). We denote the image of X in L by $x$; we have the relation $x^p=x+c$. The sequence $(1, x, . . . , x^{p-1})$ is a basis of L viewed as a vector space over K.
 
@@ -1069,7 +1069,7 @@ b) We have $\xi \in K$. Then the mapping $\psi :y\mapsto (\chi_j(y))_{j\in P}$ i
 
 ### 8. Actions on Galois Algebras
 
-#### Proposition 9 {#alg-viii-s16-prop-9 .statement}
+#### Proposition 9 {#alg-viii-s16-prop-9 .statement tag=00JA}
 
 Let G be a finite group, H be a subgroup of G, and E be a Galois algebra over the field K with group H. Then the $(K,G)$-algebra Coind$^G_H(E)$ deduced from E by coinduction from H to G is a Galois algebra over the field K with group G.
 
@@ -1079,13 +1079,13 @@ Since E is a Galois algebra over K, by property (v) of Theorem 2 of VIII, p. 308
 
 and K is the ring of invariants of G in F. So F is a Galois algebra by the criterion given in Theorem 2, (v).
 
-#### Proposition 10 {#alg-viii-s16-prop-10 .statement}
+#### Proposition 10 {#alg-viii-s16-prop-10 .statement tag=00JB}
 
 Let G be a finite group. Let L be a Galois algebra over the field K with group G, and let $K'$ be an extension of K. Then the $(K',G)$-algebra $L_{(K')}$ is a Galois algebra over $K'$.
 
 We use property (v) in Theorem 2 by observing that if the K-algebra L is étale, then the $K'$-algebra $L_{(K')}$ is too (V, §6, No. 5, p. 32, Corollary 2), that we have the equality $[L_{(K')}: K'] = [L : K]$, and that the ring of invariants of G in $L_{(K')}$ is $(L^G)_{(K')}$, where $L^G$ is the ring of invariants of G in L.
 
-#### Proposition 11 {#alg-viii-s16-prop-11 .statement}
+#### Proposition 11 {#alg-viii-s16-prop-11 .statement tag=00JC}
 
 Let $G_1$ and $G_2$ be groups. Let $L_1$ and $L_2$ be Galois algebras over K with respective actions $\lambda_1: G_1\rightarrow$ Aut$_K(L_1)$ and $\lambda_2: G_2\rightarrow$ Aut$_K(L_2)$. Set $L = L_1\otimes_KL_2,G = G_1\times G_2$, and $\lambda (g_1, g_2) =\lambda_1(g_1)\otimes \lambda_2(g_2)$ for $(g_1, g_2)\in G$. Then the K-algebra L endowed with the action $\lambda$ is a Galois algebra over K.
 
@@ -1095,7 +1095,7 @@ $[L : K] = [L_1: K][L_2: K]$ and Card(G) = Card(G$_1)$ Card(G$_2)$.
 
 Moreover, if $L^G_{i^i}$ denotes the ring of invariants of $G_i$ in $L_i$, then it follows from Lemma 11 below that $L^G_{1^1}\otimes_KL^G_{2^2}$ is the ring of invariants of $G_1\times G_2$ in $L_1\otimes_KL_2$.
 
-#### Lemma 11 {#alg-viii-s16-lem-11 .statement}
+#### Lemma 11 {#alg-viii-s16-lem-11 .statement tag=00JD}
 
 Let $G_1$ and $G_2$ be groups, and let $W_1$ and $W_2$ be K-vector spaces. We endow $W_1($resp. $W_2)$ with an action of $G_1($resp. $G_2)$ given by a group homomorphism $\rho_1: G_1\rightarrow$ Aut$_K(W_1) ($resp. $\rho_2: G_2\rightarrow$ Aut$_K(W_2))$. We consider the group homomorphism
 
@@ -1105,7 +1105,7 @@ defined by the relation $(\rho_1\otimes \rho_2)(g_1, g_2)(w_1\otimes w_2) =\rho_
 
 This follows from Lemma 1 of VIII, p. 213 applied to the K[G]-modules $M_1= M_2= K$ endowed with the trivial action of $G, N_1= W_1$, and $N_2= W_2$.
 
-#### Remark {#alg-viii-s16-n8-rem-1 .statement}
+#### Remark {#alg-viii-s16-n8-rem-1 .statement tag=00JE}
 
 Let L be a Galois extension of the field K of finite degree, and let G be its Galois group; we denote the identity mapping on G by $\lambda$. Then L endowed with $\lambda$ is a Galois algebra over K with group G. Let $K'$ be an extension of K. By Proposition 10, the algebra $L_{(K')}$ is Galois over $K'$, but it is not in general an extension of $K'$. Analogously, by Proposition 11, the tensor product of Galois extensions E and F of K of finite degree can be viewed as a Galois algebra; in general, it is not a Galois extension of K. It is one, however, if E and F are moreover linearly disjoint subextensions of an extension of K (V, §2, No. 5, p. 13 and V, §10, No. 1, p. 57, Proposition 1).
 
@@ -1175,7 +1175,7 @@ for $\alpha \in L^*,\beta \in L$, and $\gamma \in Γ$.
 
 Conversely, we have the following universal property of the algebra $\mathbf{A}[\mathscr{E}; L]$.
 
-#### Proposition 12 {#alg-viii-s16-prop-12 .statement}
+#### Proposition 12 {#alg-viii-s16-prop-12 .statement tag=00JF}
 
 Let B be a K-algebra, $u': L\rightarrow B$ a K-algebra homomorphism, and $v': Γ\rightarrow B^*$ a group homomorphism. We assume satisfied the relations
 
@@ -1197,7 +1197,7 @@ $$
 
 for $\alpha$ in $L^*,\beta$ in L, and $\gamma$ in Γ. By the definition of E, there consequently exists a mapping $f_0: E\rightarrow B$ such that $f_0([\beta ;\gamma ]) =u'(\beta )v'(\gamma )$. By formulas (23) and (30), we have $f_0(xx') =f_0(x)f_0(x')$ for $x$ and $x'$ in E. The restriction of $f_0$ to $E_g$ is K-linear for every element $g$ of G; consequently, there exists a unique K-linear mapping $f$ from $\mathbf{A}[\mathscr{E}; L]$ to B that coincides with $f_0$ on E. The mapping $f$ is an algebra morphism that satisfies $u'=f\circ u$ and $v'=f\circ v$.
 
-#### Remark {#alg-viii-s16-n9-rem-1 .statement}
+#### Remark {#alg-viii-s16-n9-rem-1 .statement tag=00JG}
 
 Let $\sigma : G\rightarrow Γ$ be a section of the mapping $\pi$. Set $\varepsilon_g=v(\sigma (g))$ for every $g$ in G, and denote by $c_{\sigma}$ the 2-cocycle associated with $\sigma$ (VIII, p. 296). In particular, we have
 
@@ -1225,7 +1225,7 @@ $$
 
 Let $K'$ be an extension of the field K. Denote by $L'$ the $K'$-algebra $L_{(K')}$, and for any $g$ in G, denote by $\lambda '(g)$ the automorphism $\lambda (g)_{(K')}$ induced by $\lambda (g)$ on $L_{(K')}$. Moreover, let us denote by $\tau '(g)$ the automorphism of $L^{'*}$ induced by $\lambda '(g)$. Finally, let $h$ be the homomorphism from $L^*$ to $L^{'*}$ that sends $x$ to $x\otimes 1$. Let $\mathscr{E}'= (Γ', \iota ', \pi ')$ be the direct image of the extension of $\mathscr{E}$ by $h$ (VIII, p. 289). Let $\mathbf{A}[\mathscr{E}',L']$ be the cross product $K'$-algebra of $\mathscr{E}'$ and $L'$, and let $u': L'\rightarrow \mathbf{A}[\mathscr{E}',L']$ and $v': Γ'\rightarrow \mathbf{A}[\mathscr{E}',L']^*$ be the canonical homomorphisms.
 
-#### Proposition 13 {#alg-viii-s16-prop-13 .statement}
+#### Proposition 13 {#alg-viii-s16-prop-13 .statement tag=00JH}
 
 There exists a unique isomorphism of $K'$-algebras $\varphi$ from $\mathbf{A}[\mathscr{E}; L]_{(K')}$ to $\mathbf{A}[\mathscr{E}'; L']$ that satisfies the relations
 
@@ -1245,11 +1245,11 @@ The isomorphism $\varphi$ is called canonical.
 
 In this subsection, K is a field, and L is a Galois algebra over K with action $\lambda : G\rightarrow$ Aut$_K(L)$. We denote the degree of L over K by $n$. We have $n=$ Card(G).
 
-#### Theorem 3 {#alg-viii-s16-thm-3 .statement}
+#### Theorem 3 {#alg-viii-s16-thm-3 .statement tag=00JI}
 
 Let $\mathscr{E}= (Γ, \iota , \pi )$ be a $\tau$-extension of G by $L^*$. The algebra $\mathbf{A}[\mathscr{E}; L]$ is central simple and of degree $n^2$ over K. Moreover, the canonical homomorphism $u$ from L to $\mathbf{A}[\mathscr{E}; L]$ is an isomorphism from L to a maximal commutative subalgebra of $\mathbf{A}[\mathscr{E}; L]$.
 
-#### Lemma 12 {#alg-viii-s16-lem-12 .statement}
+#### Lemma 12 {#alg-viii-s16-lem-12 .statement tag=00JJ}
 
 a) There does not exist any ideal of L, other than $\{0\}$ and L that is invariant under G.
 
@@ -1303,7 +1303,7 @@ $$
 
 for every $g$ of G. Hence $z$ is invariant under the automorphism group $\lambda (G)$ of L. We therefore have $z\in K$ by assumption.
 
-#### Theorem 4 {#alg-viii-s16-thm-4 .statement}
+#### Theorem 4 {#alg-viii-s16-thm-4 .statement tag=00JK}
 
 Let A be a central simple algebra of finite degree over K, and let L be a maximal commutative subalgebra of A. Then there exists a $\tau$-extension $\mathscr{E}$ of G by $L^*$ such that A is isomorphic to $\mathbf{A}[\mathscr{E}; L]$.
 
@@ -1321,13 +1321,13 @@ $u: L\rightarrow \mathbf{A}[\mathscr{E}; L]$ and $v: Γ\rightarrow \mathbf{A}[\m
 
 be the canonical homomorphisms. By the universal property of $\mathbf{A}[\mathscr{E}; L]$ (VIII, p. 315, Proposition 12), there exists a unique algebra homomorphism $f:\mathbf{A}[\mathscr{E}; L]\rightarrow A$ such that $f\circ u(x) =x$ and $f\circ v(\gamma ) =\gamma$ for $x\in L$ and $\gamma \in Γ$. Since the algebra $\mathbf{A}[\mathscr{E}; L]$ is simple, the homomorphism $f$ is injective. Now, the algebra $\mathbf{A}[\mathscr{E}; L]$ has degree $n^2$ over K and so does A because L is a maximal commutative semisimple subalgebra of A and we have $n= [L : K]$ (VIII, p. 262, Proposition 3, (ii)). Hence $f$ is bijective.
 
-#### Definition 2 {#alg-viii-s16-def-2 .statement}
+#### Definition 2 {#alg-viii-s16-def-2 .statement tag=00JL}
 
 Let $\mathscr{S}$ be the set of maximal ideals of L. We define
 
 Br(L$/K) =_{\mathfrak{m}}\bigcap_{\in\mathscr{S}}$ Ker($r_{(L/\mathfrak{m})/K})$, where $r_{(L/\mathfrak{m})/K}:$ Br(K) $\rightarrow$ Br(L$/\mathfrak{m})$ is the extension of scalars homomorphism (VIII, p. 281).
 
-#### Theorem 5 {#alg-viii-s16-thm-5 .statement}
+#### Theorem 5 {#alg-viii-s16-thm-5 .statement tag=00JM}
 
 There exists a group isomorphism
 
@@ -1357,11 +1357,11 @@ $u(\alpha ) =v(\iota (\alpha ))$ and $u(^{\gamma}\beta ) =v(\gamma )u(\beta )v(\
 
 for $\alpha \in L^*,\beta \in L$, and $\gamma \in Γ$. Proposition 12 of VIII, p. 315 gives a homomorphism $f$ from the algebra $\mathbf{A}[\mathscr{E}; L]$ to C. Since the algebra $\mathbf{A}[\mathscr{E}; L]$ is simple, the homomorphism $f$ is injective. The algebras C and $\mathbf{A}[\mathscr{E}; L]$ have the same dimension over K, so $f$ is an isomorphism.
 
-#### Remark 1 {#alg-viii-s16-n10-rem-1 .statement}
+#### Remark 1 {#alg-viii-s16-n10-rem-1 .statement tag=00JN}
 
 If L is an étale algebra over K and G is the automorphism group of L, then it is not always true that the algebra $\mathbf{A}[\mathscr{E}; L]$ is central simple (for example, we can take $L = K^n$ and $G =\mathfrak{S}_n)$.
 
-#### Remark 2 {#alg-viii-s16-n10-rem-2 .statement}
+#### Remark 2 {#alg-viii-s16-n10-rem-2 .statement tag=00JO}
 
 We can calculate a 2-cocycle $c$ associated with an algebra A split by a finite Galois extension L with group G as follows. First, there exists a K-homomorphism $\varphi : A\rightarrow \mathbf{M}_m$(L), where $[A : K] =m^2$. For $g\in G$, let $\varphi^g$ be the homomorphism from A to $\mathbf{M}_m(L)$ given by $a\mapsto \varphi (g^{-1}ag)$. By the Skolem–Noether theorem (VIII, p. 256, Theorem 3), for every $g\in G$, there exists an element $u_g$ of $\mathbf{G}\mathbf{L}_m(L)$ such that
 
@@ -1383,13 +1383,13 @@ $$
 
 for every $a\in A$. The class of this extension is the inverse image by Ψ of the class of A in Br(L$/K)$.
 
-#### Corollary {#alg-viii-s16-n10-cor-1 .statement}
+#### Corollary {#alg-viii-s16-n10-cor-1 .statement tag=00JP}
 
 The mapping $Φ_{L/K}= Θ\circ Ψ^{-1}$ defines a group isomorphism from Br(L$/K)$ to $H^2(G,L^*)$.
 
 Let $K'$ be an extension of K and $\varphi : K'\rightarrow L$ a morphism of K-algebras. The set H of elements $h$ of G such that $\lambda (h)\circ \varphi =\varphi$ is a subgroup of G, and the $K'$-algebra L endowed with the restriction of $\lambda$ to H is a Galois algebra over $K'$.
 
-#### Proposition 14 {#alg-viii-s16-prop-14 .statement}
+#### Proposition 14 {#alg-viii-s16-prop-14 .statement tag=00JQ}
 
 The following diagram commutes:
 
@@ -1405,7 +1405,7 @@ This follows from Propositions 7 of VIII, p. 299 and 13 of VIII, p. 317.
 
 ### 11. Index and Exponent
 
-#### Theorem 6 {#alg-viii-s16-thm-6 .statement}
+#### Theorem 6 {#alg-viii-s16-thm-6 .statement tag=00JR}
 
 Let K be a commutative field, and let A be a central simple A-algebra of finite degree over K. Let L be a separable extension of K of finite degree that is a splitting field for the algebra A. Then [L : K][A] is zero in Br(K).
 
@@ -1413,19 +1413,19 @@ There exists an extension M of L that is a Galois extension of K of finite degre
 
 Let K be a commutative field, and let A be a central simple algebra of finite degree over K. Then A is isomorphic to an algebra of the form $\mathbf{M}_n$(D), where D is a field with center K, and [A] = [D] in Br(K). The reduced degree of D depends only on A. We call this reduced degree the index of A. The index of A divides the reduced degree of A. The exponent of A is the order of the class of A in the Brauer group of K.
 
-#### Corollary 1 {#alg-viii-s16-thm-6-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s16-thm-6-cor-1 .statement tag=00JS}
 
 The exponent of a central simple algebra of finite degree over a commutative field divides its index.
 
 It suffices to prove this for a field D of finite degree over its center K. Let L be a maximal commutative subfield of D that is a separable extension of K; we have $[D : K] = [L : K]^2$ (VIII, p. 265, Corollary 2, b) and c)). Then the extension L of K is a splitting field for the algebra D (VIII, p. 281, Proposition 5), and [L : K] coincides with the reduced degree of D. We then apply Theorem 6.
 
-#### Corollary 2 {#alg-viii-s16-thm-6-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s16-thm-6-cor-2 .statement tag=00JT}
 
 Let K be a commutative field, and let A be a central simple algebra of finite degree over K. Let $p$ be a prime number. If $p$ divides the index of A, then it divides the exponent of A.
 
 Let us suppose that the prime number $p$ does not divide the exponent of A and prove that it does not divide its index. It suffices to prove this result in the case when A is a field. Let L be a Galois extension of K of finite degree that splits A. Let G be the Galois group of L over K, and let H be a Sylow $p$-subgroup of G (I, §6, No. 6, p. 78). We denote by $L'= L^H$ the subfield of L of invariants of H. The exponent of $A_{(L')}$ divides that of A and is therefore prime to $p$. By Theorem 6, we have $[L : L'][A_{(L')}] = 0$ in the Brauer group of $L'$. It follows that $[A_{(L')}] = 0$ and that the field $L'$ splits A. We then apply Corollary 2 of VIII, p. 283; it follows that the index of A divides $[L': K]$ and is therefore not divisible by $p$.
 
-#### Corollary 3 {#alg-viii-s16-thm-6-cor-3 .statement}
+#### Corollary 3 {#alg-viii-s16-thm-6-cor-3 .statement tag=00JU}
 
 Let $p$ be a prime number and let K be a perfect field of characteristic $p$. Let A be a central simple algebra of finite degree over K. Then $p$ does not divide the index of A.
 
@@ -1433,7 +1433,7 @@ Let us prove that the Brauer group of K does not contain any element of order $p
 
 Consequently, the order of [A] is prime to $p$ and, by Corollary 2, its index is not divisible by $p$.
 
-#### Remark {#alg-viii-s16-n11-rem-1 .statement}
+#### Remark {#alg-viii-s16-n11-rem-1 .statement tag=00JV}
 
 By considering tensor products of quaternion algebras, it is possible to construct fields with center K, exponent 2, and arbitrarily large index (cf. VIII, p. 371, Exercises 7 and 8).
 

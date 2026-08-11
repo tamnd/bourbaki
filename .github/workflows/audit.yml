@@ -45,7 +45,12 @@ jobs:
   corpus:
     runs-on: ubuntu-latest
     steps:
+      # The whole history, because one of the tag invariants is that tags/tags
+      # was only ever appended to, and that is a fact about the history of the
+      # file rather than about the file.
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/checkout@v4
         with:
           repository: tamnd/bourbaki-solver
@@ -59,3 +64,8 @@ jobs:
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: go run ./cmd/bourbaki assemble -book alg-viii -check
+      - name: tags verify
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki tags verify -base origin/main

@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 34
 exercises: 30
-content_sha256: 0e5deb34291587d4a1d8a7a45209a10bf955b05cd9dffa7094c05b7d274161a4
+content_sha256: 9e5a52dfee8167f4a05d01764dba3f21f8ff95f33573aa8649daad05b83199e4
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -75,7 +75,7 @@ In this section, G is a group, and K is a commutative ring. If G is a finite gro
 
 ### 1. Linear Representations
 
-#### Definition 1 {#alg-viii-s21-def-1 .statement}
+#### Definition 1 {#alg-viii-s21-def-1 .statement tag=00NC}
 
 Let M be a K-module. A linear representation of G in M is a group homomorphism from G to the linear group $\mathbf{G}\mathbf{L}(M)$ (II, §1, No. 2, p. 195).
 
@@ -113,7 +113,7 @@ $$
 \chi_{\pi}=\chi_{\pi'}+\chi_{\pi''} \tag{1}
 $$
 
-#### Proposition 1 {#alg-viii-s21-prop-1 .statement}
+#### Proposition 1 {#alg-viii-s21-prop-1 .statement tag=00ND}
 
 Suppose that K is a commutative field. Let $\pi$ and $\pi '$ be finite-dimensional semisimple K-linear representations of G.
 
@@ -123,11 +123,11 @@ b) Suppose, moreover, that K has characteristic 0. If the characters $\chi_{\pi}
 
 Assertion a) follows from Corollary 1 of VIII, p. 386; assertion b) follows from part a) of the corollary of VIII, p. 384.
 
-#### Example 1 {#alg-viii-s21-n1-exa-1 .statement}
+#### Example 1 {#alg-viii-s21-n1-exa-1 .statement tag=00NE}
 
 The unit or trivial representation of G is the representation $(K, \varepsilon )$, where $\varepsilon (g) =$ Id$_K$ for every $g\in G$. Its character is the constant function with value 1.
 
-#### Example 2 {#alg-viii-s21-n1-exa-2 .statement}
+#### Example 2 {#alg-viii-s21-n1-exa-2 .statement tag=00NF}
 
 The (left) regular representation of G is the representation $\boldsymbol{\gamma }$ of G in K[G] defined by $\boldsymbol{\gamma }(g)(x) =gx$ for $g\in G$ and $x\in K[G]$. It corresponds to the left regular representation of the algebra K[G] (VIII, p. 375). Suppose that the group G is finite. The regular representation then has finite degree. For every element $g$ of G different from the identity, the matrix of left multiplication by $g$ in K[G] with respect to the canonical basis is the matrix of a permutation without fixed point. We therefore have
 
@@ -137,11 +137,11 @@ $|G|$ if $g$ is the identity element, (2) $\chi_{\boldsymbol{\gamma }}(g) =$
 
 We define the right regular representation of G likewise. The biregular representation of G is the representation $\rho$ of $G\times G$ in K[G] defined by $\rho (g, g')(x) =gxg^{'-1}$ for $(g, g')\in G\times G$ and $x\in K[G]$.
 
-#### Example 3 {#alg-viii-s21-n1-exa-3 .statement}
+#### Example 3 {#alg-viii-s21-n1-exa-3 .statement tag=00NG}
 
 Given a linear representation $(M, \pi )$ of G, the contragredient or dual representation $\pi^{\vee}$ of $\pi$ is the representation of G in the K-module dual to M defined by the relation $\pi^{\vee}(g) =^t\pi (g^{-1})$ for every $g\in G$ (cf. II, §2, No. 5, p. 234). If M is a finite-dimensional free K-module, then so is its dual, and we have $\chi_{\pi^{\vee}}(g) =\chi_{\pi}(g^{-1})$ for every $g\in G$.
 
-#### Example 4 {#alg-viii-s21-n1-exa-4 .statement}
+#### Example 4 {#alg-viii-s21-n1-exa-4 .statement tag=00NH}
 
 Let $(M, \pi )$ and $(M', \pi ')$ be linear representations of G. In Example 1 of VIII, p. 198, we defined a K[G]-module structure on $M\otimes_KM'$. The corresponding linear representation is called the tensor product of $\pi$ and $\pi '$ and is denoted by $\pi \otimes \pi '$. For $g\in G,x\in M$, and $x'\in M'$, we have $(\pi \otimes \pi ')(g)(x\otimes x') =\pi (g)x\otimes \pi '(g)x'$.
 
@@ -151,7 +151,7 @@ $$
 \chi_{\pi\otimes\pi'}=\chi_{\pi}\chi_{\pi'} \tag{3}
 $$
 
-#### Example 5 {#alg-viii-s21-n1-exa-5 .statement}
+#### Example 5 {#alg-viii-s21-n1-exa-5 .statement tag=00NI}
 
 Suppose that G is the product $G'\times G''$ of two groups. The K-linear mapping from $K[G']\otimes_KK[G'']$ to K[G] that sends $g'\otimes g''$ to $(g', g'')$ for $g'\in G'$ and $g''\in G''$ is an algebra isomorphism. Let $(M', \pi ')$ be a linear representation of $G'$ and $(M'', \pi '')$ a linear representation of $G''$. The external tensor product of $\pi '$ and $\pi ''$, denoted by $\pi '\pi ''$, is the representation of $G'\times G''$ in the vector space $M'\otimes M''$ defined by $(\pi '\pi '')(g', g'') =\pi '(g')\otimes \pi ''(g'')$ for $(g', g'')\in G'\times G''$. If $M'$ and $M''$ are finite-dimensional free K-modules, then $M'\otimes_KM''$ is a finite-dimensional free K-module and the character of the representation $\pi '\pi ''$ is given by the formula
 
@@ -161,7 +161,7 @@ $$
 
 for $g'\in G'$ and $g''\in G''$ (Proposition 2 of III, §9, No. 2, p. 542).
 
-#### Example 6 {#alg-viii-s21-n1-exa-6 .statement}
+#### Example 6 {#alg-viii-s21-n1-exa-6 .statement tag=00NJ}
 
 Let $(V, \pi )$ be a linear representation of G such that V is a finite-dimensional free K-module. We define a representation $\rho$ of $G\times G$ in End$_K(V)$ by the formula
 
@@ -185,7 +185,7 @@ This homomorphism is injective, and an element $\xi \in R_K(G)$ is effective if 
 
 ### 2. Maschke’s Theorem
 
-#### Theorem 1 {#alg-viii-s21-thm-1 .statement}
+#### Theorem 1 {#alg-viii-s21-thm-1 .statement tag=00NK}
 
 Suppose that the group G is finite. Let M be a K[G]-module, and let N be a K[G]-submodule of M. Suppose that N is a direct factor of the K-module M and that $|G|$ is invertible in K. Then N is a direct factor of the K[G]-module M.
 
@@ -205,7 +205,7 @@ Suppose $|G| \not= 0$. By Theorem 1, every K[G]-submodule of $K[G]_s$ is a direc
 
 Conversely, suppose that $|G|$ is zero, and denote by $\varepsilon$ the element $\sum_{g\in G}g$ of the center of K[G]. We have $\varepsilon \not= 0$ but $\varepsilon^2=|G|\varepsilon = 0$, so K[G] is not semisimple (VIII, p. 153, Proposition 3, a) and VIII, p. 157, Remark 1).
 
-#### Corollary 2 {#alg-viii-s21-thm-1-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s21-thm-1-cor-2 .statement tag=00NL}
 
 Suppose that the group G is finite and that $|G|$ is invertible in K. An exact sequence of K[G]-modules splits if and only if it splits as an exact sequence of K-modules.
 
@@ -215,13 +215,13 @@ Given an exact sequence of K[G]-modules
 
 it suffices to apply Theorem 1 to the image of the morphism $f$.
 
-#### Corollary 3 {#alg-viii-s21-thm-1-cor-3 .statement}
+#### Corollary 3 {#alg-viii-s21-thm-1-cor-3 .statement tag=00NM}
 
 Suppose that the group G is finite and that $|G|$ is invertible in K. A K[G]-module is projective if and only if it is projective as a K-module.
 
 Let P be a K[G]-module. If P is a direct factor of a free K[G]-module M, then it is a fortiori a direct factor of the free K-module M. The converse follows from Corollary 2, in view of II, §2, No. 2, p. 231, Proposition 4, d).
 
-#### Corollary 4 {#alg-viii-s21-thm-1-cor-4 .statement}
+#### Corollary 4 {#alg-viii-s21-thm-1-cor-4 .statement tag=00NN}
 
 a) Suppose that the group G is finite and that K is a commutative field of characteristic 0. Two finite-dimensional linear representations of G are isomorphic if and only if they have the same character.
 
@@ -229,7 +229,7 @@ b) Suppose that K is a perfect field of characteristic a prime number $p$ and th
 
 Under the assumptions of the corollary, every finite-dimensional linear representation of G is semisimple. The corollary then follows from the corollary of VIII, p. 384.
 
-#### Corollary 5 {#alg-viii-s21-thm-1-cor-5 .statement}
+#### Corollary 5 {#alg-viii-s21-thm-1-cor-5 .statement tag=00NO}
 
 Suppose that the group G is finite and that K is a commutative field in which $|G| \not= 0$. Let $\pi$ and $\pi '$ be finite-dimensional linear representations of G. Then $\pi$ and $\pi '$ are isomorphic if and only if for every $g$ in G, the endomorphisms $\pi (g)$ and $\pi '(g)$ have the same characteristic polynomial.
 
@@ -255,7 +255,7 @@ $$
 
 for $g, g'\in G$ and $m\in M$. This homomorphism is called canonical.
 
-#### Proposition 2 {#alg-viii-s21-prop-2 .statement}
+#### Proposition 2 {#alg-viii-s21-prop-2 .statement tag=00NP}
 
 Let H be a subgroup of G, and let $(M, \sigma )$ be a linear representation of H. The canonical homomorphism $\iota :$ Ind$^G_H(\sigma )\rightarrow$ Coind$^G_H(\sigma )$ is injective. If the subgroup H has finite index in G, then $\iota$ is an isomorphism of K[G]-modules.
 
@@ -279,7 +279,7 @@ Let H be a subgroup of G of finite index. Let $u$ be a central function on H; de
 
 Note that for all $x, g\in G$ and every $h\in H$, we have $u^0((xh)^{-1}gxh) =$ $u^0(x^{-1}gx)$. It follows that Ind$^G_H(u)$ is a central function on G that does not depend on the choice of S. We thus define a K-linear mapping Ind$^G_H$ from $\mathscr{Z}_K(H)$ to $\mathscr{Z}_K(G)$.
 
-#### Proposition 3 {#alg-viii-s21-prop-3 .statement}
+#### Proposition 3 {#alg-viii-s21-prop-3 .statement tag=00NQ}
 
 Let H be a subgroup of G of finite index. Let $(M, \sigma )$ be a linear representation of H. Suppose that M is a finite-dimensional free K-module. Denote by $(V, \pi )$ the representation of G induced by $\sigma$. Then the K-module V is free and finite-dimensional, and
 
@@ -381,7 +381,7 @@ These elements satisfy the relations (18) $\sum e_{\lambda}= 1,e^2_µ=e_µ$, and
 
 for all $µ, \nu \in \widehat{G}$ such that$^{\lambda\in\widehat{G}}µ\not=\nu$; they are the indecomposable idempotents of Z(K[G]) (VIII, p. 147, Proposition 15)
 
-#### Remark {#alg-viii-s21-n5-rem-1 .statement}
+#### Remark {#alg-viii-s21-n5-rem-1 .statement tag=00NR}
 
 Let $(V, \pi )$ be a linear representation of G. By Maschke’s theorem, the K[G]-module V is semisimple. For any $\lambda \in \widehat{G}$, denote by $V^{\lambda}$ the isotypical component of type $\lambda$ of the K[G]-module V; we have $V =\bigoplus_{\lambda\in\widehat{G}}V^{\lambda}$. By Proposition 15 of VIII, p. 147 and formula (17), the projector of V with image $V^{\lambda}$ associated with this decomposition of V is equal to (19) $\pi (e_{\lambda}) =|G|^{-1}d_{\lambda g}\sum_{\in G}\chi_{\lambda}(g^{-1})\pi (g)$.
 
@@ -413,7 +413,7 @@ for $x\in V_{\lambda},x^*\in V^*_{\lambda},y\in V_µ$, and $y^*\in V^*_µ$. We a
 
 Relations (20) through (25) are known as the Schur orthogonality relations.
 
-#### Remark {#alg-viii-s21-n6-rem-1 .statement}
+#### Remark {#alg-viii-s21-n6-rem-1 .statement tag=00NS}
 
 We identify the algebra End$_K(V_{\lambda})$ with the matrix algebra $\mathbf{M}_{d_{\lambda}}(K)$ via the basis $(e_{\lambda ,j})$ of $V_{\lambda}$. The mapping $\mathscr{F}^{-1}$ is an isomorphism from the algebra $\prod_{\lambda}\mathbf{M}_{d_{\lambda}}(K)$ to the algebra K[G]. For $µ\in \widehat{G}$, denote by $E^µ_{ij}$ the element of $\prod_{\lambda}\mathbf{M}_{d_{\lambda}}(K)$ whose component of index $µ$ is the matrix unit $E_{ij}$ of $\mathbf{M}_{d_µ}(K)$ (II, §10, No. 3, p. 341) and whose other components are zero; set $u^µ_{ij}=\mathscr{F}^{-1}(E^µ_{ij})$. The family of elements $u^{\lambda}_{ij}$, for $\lambda \in \widehat{G}, 1\leqslant i\leqslant d_{\lambda}$, $1\leqslant j\leqslant d_{\lambda}$, is a basis of the algebra K[G]; the multiplication table is
 
@@ -445,7 +445,7 @@ For $\lambda$ and $µ$ in $\widehat{G}$, we have $\langle \chi_{\lambda}, \chi_�
 
 This is the specific case of relations (20) and (23) when the endomorphisms $u$ and $v$ are taken to be the identity.
 
-#### Corollary {#alg-viii-s21-n7-cor-1 .statement}
+#### Corollary {#alg-viii-s21-n7-cor-1 .statement tag=00NT}
 
 Let $\pi$ and $\pi '$ be finite-dimensional linear representations of G. In the field K, we have
 
@@ -463,7 +463,7 @@ By linearity, the proof of formula (29) is reduced to the case of simple represe
 
 ### 8. Central Functions on a Finite Group
 
-#### Proposition 5 {#alg-viii-s21-prop-5 .statement}
+#### Proposition 5 {#alg-viii-s21-prop-5 .statement tag=00NU}
 
 The family $(\chi_{\lambda})_{\lambda\in\widehat{G}}$ is a basis of the vector space of central functions. The number of classes of simple linear representations of G is equal to the number of conjugacy classes of G.
 
@@ -495,7 +495,7 @@ Let H be a subgroup of G. Let us note that the integer Card(H) divides Card(G) a
 
 Denote by Res$^G_H$ the linear mapping from Z(K[G]) to Z(K[H]) that sends a central function on G to its restriction to H. We have seen that if $\chi_{\pi}$ is the character of a finite-dimensional representation $\pi$ of G, then Res$^G_H(\chi_{\pi})$ is the character of the representation Res$^G_H(\pi )$ of H.
 
-#### Proposition 6 {#alg-viii-s21-prop-6 .statement}
+#### Proposition 6 {#alg-viii-s21-prop-6 .statement tag=00NV}
 
 Let $f$ be a central function on G and $u$ be a central function on H. We have
 
@@ -511,7 +511,7 @@ $\langle u$, Res$^G_H(f)\rangle_H=$ (dim$_K$ Hom$_H(\sigma$, Res$^G_H(\pi )))\cd
 
 likewise, and equality (33) follows by Frobenius reciprocity.
 
-#### Proposition 7 {#alg-viii-s21-prop-7 .statement}
+#### Proposition 7 {#alg-viii-s21-prop-7 .statement tag=00NW}
 
 Let $f$ be a mapping from G to K. The following assertions are equivalent:
 
@@ -569,7 +569,7 @@ $$
 
 because of relation (19).
 
-#### Remark {#alg-viii-s21-n9-rem-1 .statement}
+#### Remark {#alg-viii-s21-n9-rem-1 .statement tag=00NX}
 
 Let $n$ be the cardinal of the group G, and let $µ_n(K)$ be the group of $n$-th roots of unity in K. For every $g\in G$, we have $g^n= 1$; consequently, $\widehat{G}$ can be identified with the group Hom(G$, µ_n(K))$. The group $µ_n(K)$ is cyclic of order $n$ (V, §11, No. 2, p. 78, Theorem 1). The group $\widehat{G}$ is therefore isomorphic to the group D(G) = Hom(G$,\mathbf{Q}/\mathbf{Z})$. By VII, §4, No. 9, p. 26, Proposition 10, the group $\widehat{G}$ is isomorphic to the group G, and the mapping that sends an element $g$ of G to the homomorphism $\chi \mapsto \chi (g)$ from $\widehat{G}$ to $K^*$ is an isomorphism from G to $\widehat{\widehat{G}}$.
 
@@ -577,7 +577,7 @@ Let $n$ be the cardinal of the group G, and let $µ_n(K)$ be the group of $n$-th
 
 Denote by $\theta_G$ the K-algebra homomorphism from $K\otimes_{\mathbf{Z}}R_K(G)$ to $\mathscr{Z}_K(G)$ that sends $1\otimes [\pi ]$ to $\chi_{\pi}$ for every finite-dimensional representation $\pi$.
 
-#### Proposition 8 {#alg-viii-s21-prop-8 .statement}
+#### Proposition 8 {#alg-viii-s21-prop-8 .statement tag=00NY}
 
 a) The homomorphism $\theta_G$ is an isomorphism from $K\otimes_{\mathbf{Z}}R_K(G)$ to $\mathscr{Z}_K(G)$.
 
@@ -589,13 +589,13 @@ The family $([\lambda ])_{\lambda\in\widehat{G}}$ is a basis of the $\mathbf{Z}$
 
 Denote the cardinal of the group G by $n$. Let $\pi$ be a linear representation of G in a finite-dimensional K-vector space M. For every $g\in G$, we have $\pi (g)^n= 1_M$, so the minimal polynomial of $\pi (g)$ divides $T^n-1$. Since $n\cdot 1\not= 0$ in K, this minimal polynomial is separable (V, §11, No. 2, p. 78), and since the field K is algebraically closed, the endomorphism $\pi (g)$ of M is diagonalizable (VII, §5, No. 7, p. 40, Proposition 12). The eigenvalues of $\pi (g)$ are $n$-th roots of unity, and for every $\alpha \in K$, the geometric multiplicity of $\alpha$ as an eigenvalue of $\pi (g)$ (VII, §5, No. 2, p. 30, Definition 1) is equal to the multiplicity of $\alpha$ as a root of the characteristic polynomial of $\pi (g)$. Denote by $\mathscr{O}_n$ the subgroup of K generated by the set $µ_n(K)$ of $n$-th roots of unity; it is a finitely generated $\mathbf{Z}$-module and a subring of K. The character of $\pi$ takes its values in $\mathscr{O}_n$.
 
-#### Proposition 9 {#alg-viii-s21-prop-9 .statement}
+#### Proposition 9 {#alg-viii-s21-prop-9 .statement tag=00NZ}
 
 Suppose that the field K has characteristic zero. Then the degree of every simple representation of G divides the cardinal of G.
 
 Let $(V, \pi )$ be a simple representation of G and $\chi$ be its character. For every element $a$ of Z(K[G]), the endomorphism $\pi (a)$ of V is a homothety (VIII, p. 47, Theorem 1); denote by $\varphi (a)$ the scalar such that $\pi (a) =\varphi (a)_V$. The resulting mapping $\varphi$ from Z(K[G]) to K is an algebra homomorphism. Let us take $a=\sum_{g\in G}\chi (g^{-1})g$; by the remark of VIII, p. 408, we have $\varphi (a) =$ (dim $V)^{-1}|G|$. On the other hand, $a$ belongs to the subring $\mathscr{O}_n[G]\cap Z(K[G])$ of K[G], which is a finitely generated $\mathbf{Z}$-module (VII, §3, p. 15, Corollary). So the element $\varphi (a) =$ (dim $V)^{-1}|G|$ of K belongs to a subring of K that is a finitely generated $\mathbf{Z}$-module. We conclude using the following lemma.
 
-#### Lemma {#alg-viii-s21-n11-lem-1 .statement}
+#### Lemma {#alg-viii-s21-n11-lem-1 .statement tag=00O0}
 
 Let L be an extension of $\mathbf{Q}$. Let A be a subring of L. Suppose that A is a finitely generated $\mathbf{Z}$-module. We have $A\cap \mathbf{Q}=\mathbf{Z}$.
 
@@ -617,7 +617,7 @@ Assertion a) follows from Corollary 5 of VIII, p. 402, and assertion b) is clear
 
 Here, we denote by $\mathscr{S}_K(G)$ the set of classes of simple K[G]-modules, previously denoted by $\widehat{G}$, and we define $\mathscr{S}_{K'}(G)$ likewise. The sets $\mathscr{S}_K(G)$ and $\mathscr{S}_{K'}(G)$ are both finite, with cardinal the number of conjugacy classes (VIII, p. 411, Proposition 5).
 
-#### Proposition 10 {#alg-viii-s21-prop-10 .statement}
+#### Proposition 10 {#alg-viii-s21-prop-10 .statement tag=00O1}
 
 There exists a unique mapping $\varphi_G$ from $\mathscr{S}_K(G)$ to $\mathscr{S}_{K'}(G)$ such that $\lambda$ and $\varphi_G(\lambda )$ are related through $\varphi$ for every $\lambda$ in $\mathscr{S}_K(G)$. Moreover, $\varphi_G$ is bijective.
 
@@ -695,27 +695,27 @@ with the following property: for every $\lambda$ in $\mathscr{S}_L$(G), the repr
 
 The bijection $\varphi_G$ from $\mathscr{S}_K(G)$ to $\mathscr{S}_{K'}(G)$ extends to an isomorphism, also denoted by $\varphi_G$, from the Grothendieck group $R_K(G)$ to the group $R_{K'}(G)$.
 
-#### Remark 1 {#alg-viii-s21-n12-rem-1 .statement}
+#### Remark 1 {#alg-viii-s21-n12-rem-1 .statement tag=00O2}
 
 Suppose that $K'$ is an extension of K and that the isomorphism $\varphi$ is the mapping $\xi \mapsto \xi \cdot 1$; then the mapping $\varphi_G$ is given by extension of scalars from K to $K'$.
 
-#### Corollary 1 {#alg-viii-s21-prop-10-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s21-prop-10-cor-1 .statement tag=00O3}
 
 The mapping $\varphi_G$ is a ring isomorphism from $R_K(G)$ to $R_{K'}(G)$. For every finite-dimensional representation $\pi$ of G in a K-vector space, we have $\varphi_G([\pi ]) = [\pi ']$, where $\pi '$ is a representation related to $\pi$ through $\varphi$.
 
 This follows from the semisimplicity of the representations of G and property b) of VIII, p. 416.
 
-#### Corollary 2 {#alg-viii-s21-prop-10-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s21-prop-10-cor-2 .statement tag=00O4}
 
 The dimension of each simple representation of G divides the order of G.
 
 This follows from Proposition 10 and Proposition 9 of VIII, p. 415.
 
-#### Remark 2 {#alg-viii-s21-n12-rem-2 .statement}
+#### Remark 2 {#alg-viii-s21-n12-rem-2 .statement tag=00O5}
 
 Suppose that the group G is abelian. We saw in the remark of VIII, p. 414 that $\mathscr{S}_K(G)$ can be identified with the set Hom(G$, µ_n(K))$. Likewise, $\mathscr{S}_{K'}(G)$ can be identified with Hom(G$, µ_n(K'))$. With these identifications, the bijection $\varphi_G$ is simply the mapping $\chi \mapsto \varphi \circ \chi$.
 
-#### Remark 3 {#alg-viii-s21-n12-rem-3 .statement}
+#### Remark 3 {#alg-viii-s21-n12-rem-3 .statement tag=00O6}
 
 Let $\pi_1$ and $\pi_2$ be linear representations of G in finite-dimensional vector spaces over K. For $i= 1,2$, let $\pi_i'$ be a representation related to $\pi_i$ through $\varphi$. We have
 
@@ -723,7 +723,7 @@ Let $\pi_1$ and $\pi_2$ be linear representations of G in finite-dimensional vec
 
 The proof follows that of Corollary VIII, p. 410, by reducing to the case when the $\pi_i$ (and therefore the $\pi_i')$ are simple.
 
-#### Remark 4 {#alg-viii-s21-n12-rem-4 .statement}
+#### Remark 4 {#alg-viii-s21-n12-rem-4 .statement tag=00O7}
 
 Let H be a subgroup of G of cardinal $m$. The isomorphism $\varphi$ restricts to an isomorphism from $µ_m(K)$ to $µ_m(K')$ and, consequently, a ring isomorphism $\varphi_H$ from $R_K(H)$ to $R_{K'}(H)$. The following diagrams commute:
 
@@ -733,7 +733,7 @@ $\varphi_G\varphi_H\varphi_H\varphi_G$
 
 $R_{K'}(G)^{Res^G_H}/$/ $R_{K'}(H),R_{K'}(H)^{Ind^G_H}/$/ $R_{K'}(G)$. The commutativity of the first diagram is obvious, and that of the second follows from it using Frobenius reciprocity and formula (47).
 
-#### Remark 5 {#alg-viii-s21-n12-rem-5 .statement}
+#### Remark 5 {#alg-viii-s21-n12-rem-5 .statement tag=00O8}
 
 Suppose that G is the product $G'\times G''$ of two finite groups. We define isomorphisms $\varphi_{G'}$ and $\varphi_{G''}$ as in the previous example.
 
@@ -759,7 +759,7 @@ $$
 
 for all $x, x'\in M$ and every $g\in G$. This also means that for every $g\in G$, the automorphism $\pi (g)$ of M is unitary with respect to Φ.
 
-#### Proposition 11 {#alg-viii-s21-prop-11 .statement}
+#### Proposition 11 {#alg-viii-s21-prop-11 .statement tag=00O9}
 
 Let $(M, \pi )$ be a finite-dimensional linear representation of G.
 
