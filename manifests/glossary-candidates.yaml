@@ -156,11 +156,6 @@ terms:
         - defined
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:103
-    - en: sum
-      count: 346
-      sources:
-        - prose
-      where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:27
     - en: theorem
       count: 328
       sources:
@@ -299,6 +294,11 @@ terms:
         - title
         - prose
       where: content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:321
+    - en: sum
+      count: 226
+      sources:
+        - prose
+      where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:27
     - en: two-sided
       count: 225
       sources:
@@ -505,11 +505,6 @@ terms:
         - prose
         - kind
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:33
-    - en: otimes
-      count: 140
-      sources:
-        - prose
-      where: content/en/alg/VIII/03_s3_simple_modules.md:114
     - en: unique
       count: 139
       sources:
@@ -549,11 +544,6 @@ terms:
         - title
         - prose
       where: content/en/alg/VIII/05_s5_commutation.md:145
-    - en: tag
-      count: 127
-      sources:
-        - prose
-      where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:248
     - en: tr
       count: 127
       sources:
@@ -564,11 +554,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:145
-    - en: longrightarrow
-      count: 125
-      sources:
-        - prose
-      where: content/en/alg/VIII/05_s5_commutation.md:280
     - en: simple a-module
       count: 123
       sources:
@@ -607,11 +592,6 @@ terms:
         - prose
         - kind
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:45
-    - en: cdot
-      count: 117
-      sources:
-        - prose
-      where: content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:538
     - en: surjective
       count: 117
       sources:
@@ -639,11 +619,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/03_s3_simple_modules.md:137
-    - en: subset
-      count: 112
-      sources:
-        - prose
-      where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:19
     - en: idempotent
       count: 110
       sources:
@@ -666,6 +641,11 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:291
+    - en: subset
+      count: 104
+      sources:
+        - prose
+      where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:19
     - en: send
       count: 103
       sources:
@@ -687,11 +667,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/00_frontmatter.md:9
-    - en: lambda
-      count: 101
-      sources:
-        - prose
-      where: content/en/alg/VIII/03_s3_simple_modules.md:118
     - en: subring
       count: 100
       sources:
@@ -726,21 +701,11 @@ terms:
         - title
         - prose
       where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md
-    - en: sigma
-      count: 93
-      sources:
-        - prose
-      where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:248
     - en: consisting
       count: 92
       sources:
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:263
-    - en: gamma
-      count: 92
-      sources:
-        - prose
-      where: content/en/alg/VIII/04_s4_semisimple_modules.md:128
     - en: linear representation
       count: 92
       sources:
@@ -793,11 +758,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/04_s4_semisimple_modules.md:43
-    - en: pi
-      count: 84
-      sources:
-        - prose
-      where: content/en/alg/VIII/05_s5_commutation.md:58
     - en: bijection
       count: 83
       sources:
@@ -813,27 +773,12 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:131
-    - en: alpha
-      count: 81
-      sources:
-        - prose
-      where: content/en/alg/VIII/04_s4_semisimple_modules.md:128
-    - en: circ
-      count: 80
-      sources:
-        - prose
-      where: content/en/alg/VIII/04_s4_semisimple_modules.md:104
     - en: remark
       count: 80
       sources:
         - prose
         - kind
       where: content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:131
-    - en: varphi
-      count: 80
-      sources:
-        - prose
-      where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:288
     - en: regular
       count: 79
       sources:
@@ -920,11 +865,6 @@ terms:
         - title
         - prose
       where: content/en/alg/VIII/03_s3_simple_modules.md:87
-    - en: mathscr
-      count: 68
-      sources:
-        - prose
-      where: content/en/alg/VIII/04_s4_semisimple_modules.md:104
     - en: additive
       count: 67
       sources:
@@ -1211,21 +1151,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:295
-    - en: iota
-      count: 52
-      sources:
-        - prose
-      where: content/en/alg/VIII/05_s5_commutation.md:58
-    - en: langle
-      count: 52
-      sources:
-        - prose
-      where: content/en/alg/VIII/05_s5_commutation.md:80
-    - en: rangle
-      count: 52
-      sources:
-        - prose
-      where: content/en/alg/VIII/05_s5_commutation.md:80
     - en: rank
       count: 52
       sources:
@@ -1382,11 +1307,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/03_s3_simple_modules.md:111
-    - en: beta
-      count: 44
-      sources:
-        - prose
-      where: content/en/alg/VIII/04_s4_semisimple_modules.md:144
     - en: likewise
       count: 44
       sources:
@@ -1422,11 +1342,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/11_s11_grothendieck_groups.md:359
-    - en: mu
-      count: 43
-      sources:
-        - prose
-      where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:270
     - en: nrd
       count: 43
       sources:
@@ -1470,11 +1385,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:285
-    - en: chi
-      count: 41
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:910
     - en: commute
       count: 41
       sources:
@@ -1631,11 +1541,6 @@ terms:
         - title
         - prose
       where: content/en/alg/VIII/19_s19_quaternion_algebras.md
-    - en: time
-      count: 37
-      sources:
-        - prose
-      where: content/en/alg/VIII/historical_note.md:3
     - en: bicommutant
       count: 36
       sources:
@@ -1697,11 +1602,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/04_s4_semisimple_modules.md:229
-    - en: prod
-      count: 35
-      sources:
-        - prose
-      where: content/en/alg/VIII/09_s9_radical.md:48
     - en: reduce
       count: 35
       sources:
@@ -1768,11 +1668,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:135
-    - en: mathbf
-      count: 33
-      sources:
-        - prose
-      where: content/en/alg/VIII/14_s14_central_simple_algebras.md:70
     - en: maximal left ideal
       count: 33
       sources:
@@ -1794,11 +1689,6 @@ terms:
         - title
         - prose
       where: content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:257
-    - en: tau
-      count: 33
-      sources:
-        - prose
-      where: content/en/alg/VIII/08_s8_semisimple_rings.md:274
     - en: union
       count: 33
       sources:
@@ -1830,11 +1720,6 @@ terms:
         - title
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:217
-    - en: mathfrak
-      count: 32
-      sources:
-        - prose
-      where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:330
     - en: passing
       count: 32
       sources:
@@ -1903,11 +1788,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/exercises/s18/04.md:1
-    - en: rightarrow
-      count: 30
-      sources:
-        - prose
-      where: content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:400
     - en: run
       count: 30
       sources:
@@ -1976,11 +1856,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:261
-    - en: omega
-      count: 28
-      sources:
-        - prose
-      where: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:604
     - en: principal
       count: 28
       sources:
@@ -2001,11 +1876,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/04_s4_semisimple_modules.md:23
-    - en: backslash
-      count: 27
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:554
     - en: cayley
       count: 27
       sources:
@@ -2278,16 +2148,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/04_s4_semisimple_modules.md:355
-    - en: varepsilon
-      count: 23
-      sources:
-        - prose
-      where: content/en/alg/VIII/07_s7_simple_rings.md:226
-    - en: widetilde
-      count: 23
-      sources:
-        - prose
-      where: content/en/alg/VIII/04_s4_semisimple_modules.md:276
     - en: canonical injection
       count: 22
       sources:
@@ -2530,11 +2390,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/exercises/a4/02.md:1
-    - en: beta gamma
-      count: 19
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:478
     - en: conjugacy class
       count: 19
       sources:
@@ -2645,11 +2500,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/04_s4_semisimple_modules.md:235
-    - en: chi pi
-      count: 18
-      sources:
-        - prose
-      where: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:30
     - en: correspond
       count: 18
       sources:
@@ -3104,11 +2954,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:17
-    - en: leqslant
-      count: 14
-      sources:
-        - prose
-      where: content/en/alg/VIII/11_s11_grothendieck_groups.md:348
     - en: matrix ring
       count: 14
       sources:
@@ -3211,11 +3056,6 @@ terms:
         - title
         - prose
       where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:355
-    - en: delta
-      count: 13
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:284
     - en: diag
       count: 13
       sources:
@@ -3283,11 +3123,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/14_s14_central_simple_algebras.md:379
-    - en: lambda mu
-      count: 13
-      sources:
-        - prose
-      where: content/en/alg/VIII/11_s11_grothendieck_groups.md:696
     - en: left noetherian ring
       count: 13
       sources:
@@ -3406,16 +3241,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:111
-    - en: alpha beta
-      count: 12
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:478
-    - en: cap
-      count: 12
-      sources:
-        - prose
-      where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:338
     - en: constant term
       count: 12
       sources:
@@ -3431,11 +3256,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:211
-    - en: eta
-      count: 12
-      sources:
-        - prose
-      where: content/en/alg/VIII/20_s20_linear_representations_of_algebras.md:436
     - en: exist elements
       count: 12
       sources:
@@ -3491,11 +3311,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:97
-    - en: partial
-      count: 12
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:318
     - en: primordial module
       count: 12
       sources:
@@ -3513,11 +3328,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/A1_a1_algebras_without_unit_element.md:27
-    - en: psi
-      count: 12
-      sources:
-        - prose
-      where: content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:26
     - en: quadratic
       count: 12
       sources:
@@ -3704,11 +3514,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/17_s17_reduced_norms_and_traces.md:219
-    - en: oplus
-      count: 11
-      sources:
-        - prose
-      where: content/en/alg/VIII/11_s11_grothendieck_groups.md:42
     - en: permutation
       count: 11
       sources:
@@ -3749,6 +3554,11 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:285
+    - en: time
+      count: 11
+      sources:
+        - prose
+      where: content/en/alg/VIII/historical_note.md:3
     - en: treat
       count: 11
       sources:
@@ -3882,11 +3692,6 @@ terms:
         - title
         - prose
       where: content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:321
-    - en: rangle langle
-      count: 10
-      sources:
-        - prose
-      where: content/en/alg/VIII/17_s17_reduced_norms_and_traces.md:274
     - en: reasoning
       count: 10
       sources:
@@ -3985,11 +3790,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/04_s4_semisimple_modules.md:231
-    - en: circ iota
-      count: 9
-      sources:
-        - prose
-      where: content/en/alg/VIII/05_s5_commutation.md:58
     - en: clearly
       count: 9
       sources:
@@ -4021,11 +3821,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:809
-    - en: gamma varphi
-      count: 9
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:478
     - en: generating module
       count: 9
       sources:
@@ -4087,11 +3882,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:1217
-    - en: nu
-      count: 9
-      sources:
-        - prose
-      where: content/en/alg/VIII/05_s5_commutation.md:174
     - en: orbit
       count: 9
       sources:
@@ -4206,11 +3996,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/exercises/s14/09.md:1
-    - en: varphi gamma
-      count: 9
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:12
     - en: zero divisor
       count: 9
       sources:
@@ -4231,11 +4016,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/03_s3_simple_modules.md:111
-    - en: alpha beta gamma
-      count: 8
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:478
     - en: azumaya a-algebra
       count: 8
       sources:
@@ -4311,11 +4091,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/15_s15_brauer_groups.md:139
-    - en: int
-      count: 8
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:15
     - en: introduced
       count: 8
       sources:
@@ -4328,11 +4103,6 @@ terms:
         - defined
         - prose
       where: content/en/alg/VIII/04_s4_semisimple_modules.md:355
-    - en: iota alpha
-      count: 8
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:60
     - en: irreducible element
       count: 8
       sources:
@@ -4409,16 +4179,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/historical_note.md:7
-    - en: phi
-      count: 8
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:1226
-    - en: pi chi pi
-      count: 8
-      sources:
-        - prose
-      where: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:30
     - en: pm
       count: 8
       sources:
@@ -4494,11 +4254,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/exercises/s10/06.md:1
-    - en: sigma alpha
-      count: 8
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:482
     - en: simple prove
       count: 8
       sources:
@@ -4529,11 +4284,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/04_s4_semisimple_modules.md:389
-    - en: theta
-      count: 8
-      sources:
-        - prose
-      where: content/en/alg/VIII/05_s5_commutation.md:174
     - en: though
       count: 8
       sources:
@@ -4574,11 +4324,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/15_s15_brauer_groups.md:177
-    - en: varphi alpha
-      count: 8
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:478
     - en: verify
       count: 8
       sources:
@@ -4614,11 +4359,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/03_s3_simple_modules.md:87
-    - en: alpha gamma
-      count: 7
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:60
     - en: around
       count: 7
       sources:
@@ -4644,11 +4384,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/08_s8_semisimple_rings.md:43
-    - en: circ pi
-      count: 7
-      sources:
-        - prose
-      where: content/en/alg/VIII/05_s5_commutation.md:58
     - en: cocommutative
       count: 7
       sources:
@@ -4773,11 +4508,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/20_s20_linear_representations_of_algebras.md:251
-    - en: gamma iota
-      count: 7
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:12
     - en: generating a-module
       count: 7
       sources:
@@ -4894,11 +4624,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/04_s4_semisimple_modules.md:391
-    - en: pi gamma
-      count: 7
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:22
     - en: prime ideal
       count: 7
       sources:
@@ -5022,11 +4747,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:81
-    - en: varphi alpha beta
-      count: 7
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:478
     - en: whence
       count: 7
       sources:
@@ -5101,11 +4821,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:51
-    - en: beta gamma varphi alpha
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:478
     - en: bimodule inverse
       count: 6
       sources:
@@ -5126,21 +4841,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/exercises/s19/01.md:1
-    - en: cdot cdot
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/17_s17_reduced_norms_and_traces.md:424
-    - en: chi lambda
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:412
-    - en: chi pi chi pi
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:30
     - en: choice
       count: 6
       sources:
@@ -5315,16 +5015,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/00_frontmatter.md:5
-    - en: gamma gamma
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:60
-    - en: gamma varphi alpha beta
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:478
     - en: gg
       count: 6
       sources:
@@ -5370,6 +5060,11 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:261
+    - en: int
+      count: 6
+      sources:
+        - prose
+      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:15
     - en: inverse bijection sends
       count: 6
       sources:
@@ -5503,16 +5198,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/17_s17_reduced_norms_and_traces.md:177
-    - en: pi lambda
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:358
-    - en: pi pi
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:88
     - en: polynomial ring
       count: 6
       sources:
@@ -5604,26 +5289,11 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/20_s20_linear_representations_of_algebras.md:555
-    - en: subset mathfrak
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:338
     - en: sufficiently large
       count: 6
       sources:
         - prose
       where: content/en/alg/VIII/14_s14_central_simple_algebras.md:331
-    - en: supset
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/09_s9_radical.md:254
-    - en: tau pi
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:22
     - en: tracial mapping
       count: 6
       sources:
@@ -5669,16 +5339,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/exercises/s10/11.md:1
-    - en: varphi alpha beta gamma
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:478
-    - en: wedge
-      count: 6
-      sources:
-        - prose
-      where: content/en/alg/VIII/17_s17_reduced_norms_and_traces.md:92
     - en: account
       count: 5
       sources:
@@ -5699,11 +5359,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:827
-    - en: alpha lambda
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/04_s4_semisimple_modules.md:456
     - en: alternative cayley
       count: 5
       sources:
@@ -5729,16 +5384,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/exercises/s14/08.md:11
-    - en: backslash backslash
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:652
-    - en: beta sigma
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:482
     - en: burnside-s theorem
       count: 5
       sources:
@@ -5837,11 +5482,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:173
-    - en: delta lambda mu
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:352
     - en: diagonal matrix
       count: 5
       sources:
@@ -5927,26 +5567,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:5
-    - en: gamma alpha
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/04_s4_semisimple_modules.md:456
-    - en: gamma beta
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:1078
-    - en: gamma sigma
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:486
-    - en: gamma tag
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:1072
     - en: group br
       count: 5
       sources:
@@ -5978,11 +5598,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/exercises/a1/11.md:1
-    - en: infty
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/A1_a1_algebras_without_unit_element.md:46
     - en: injective resp
       count: 5
       sources:
@@ -5998,11 +5613,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:225
-    - en: iota alpha gamma
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:60
     - en: l-vector space
       count: 5
       sources:
@@ -6028,11 +5638,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:291
-    - en: leqslant leqslant
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:300
     - en: linear isomorphism
       count: 5
       sources:
@@ -6152,11 +5757,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/17_s17_reduced_norms_and_traces.md:219
-    - en: pi mu
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/A2_a2_determinants_over_a_noncommutative_field.md:74
     - en: polynomial pc
       count: 5
       sources:
@@ -6172,11 +5772,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:37
-    - en: prod backslash
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:624
     - en: proposition assertion
       count: 5
       sources:
@@ -6258,11 +5853,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/20_s20_linear_representations_of_algebras.md:59
-    - en: rightarrow mathscr
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:864
     - en: roles
       count: 5
       sources:
@@ -6336,11 +5926,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:123
-    - en: tau pi gamma
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:22
     - en: théorème
       count: 5
       sources:
@@ -6406,11 +5991,6 @@ terms:
       sources:
         - prose
       where: content/en/alg/VIII/11_s11_grothendieck_groups.md:25
-    - en: widehat
-      count: 5
-      sources:
-        - prose
-      where: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:492
     - en: absolutely semisimple module
       count: 4
       sources:
