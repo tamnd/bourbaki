@@ -1,1637 +1,3198 @@
-version: 5
+version: 11
 terms:
     - en: ring
       vi: vành
+      zh: 环
+      ja: 環
     - en: a-module
       vi: môđun
+      zh: a-模
+      ja: 加群
     - en: element
       vi: phần tử
+      zh: 元素
+      ja: 元
     - en: algebra
       vi: đại số
+      zh: 代数
+      ja: 代数
     - en: ideal
       vi: iđêan
+      zh: 理想
+      ja: イデアル
     - en: finite
       vi: hữu hạn
+      zh: 有限
+      ja: 有限
     - en: field
       vi: trường
+      zh: 域
+      ja: 体
     - en: module
       vi: môđun
+      zh: 模
+      ja: 加群
     - en: left
       vi: trái
+      zh: 左
+      ja: 左
     - en: simple
       vi: đơn
+      zh: 单
+      ja: 単純
+      note: Corrected by hand after a run got it wrong. The Chinese came back 简单, which is simple in the ordinary sense of uncomplicated. Every place this corpus says simple it means a module or a ring with no proper submodule or ideal, and Chinese writes that 单. The same run rendered "simple module" as 单模 and "semisimple" as 半单, so it had the word and missed it only on its own. Japanese answered the bare word correctly, 単純.
     - en: mapping
       vi: ánh xạ
+      zh: 映射
+      ja: 写像
     - en: proposition
       vi: mệnh đề
+      zh: 命题
+      ja: 命題
     - en: isomorphic
       vi: đẳng cấu
+      zh: 同构的
+      ja: 同型
     - en: homomorphism
       vi: đồng cấu
+      zh: 同态
+      ja: 準同型
     - en: group
       vi: nhóm
+      zh: 群
+      ja: 群
     - en: commutative
       vi: giao hoán
+      zh: 交换
+      ja: 可換
     - en: semisimple
       vi: nửa đơn
+      zh: 半单
+      ja: 半単純
     - en: submodule
       vi: môđun con
+      zh: 子模
+      ja: 部分加群
     - en: extension
       vi: mở rộng
+      zh: 扩张
+      ja: 拡大
     - en: isomorphism
       vi: đẳng cấu
+      zh: 同构
+      ja: 同型
     - en: exercise
       vi: bài tập
+      zh: 习题
+      ja: 練習問題
     - en: degree
       vi: bậc
+      zh: 次数
+      ja: 次数
     - en: right
       vi: phải
+      zh: 右
+      ja: 右
     - en: sum
       vi: tổng
+      zh: 和
+      ja: 和
     - en: theorem
       vi: định lý
+      zh: 定理
+      ja: 定理
     - en: corollary
       vi: hệ quả
+      zh: 推论
+      ja: 系
     - en: k-algebra
       vi: đại số k
+      zh: k-代数
+      ja: k-代数
     - en: finitely
       vi: hữu hạn
+      zh: 有限地
+      ja: 有限に
     - en: representation
       vi: biểu diễn
+      zh: 表示
+      ja: 表現
     - en: maximal
       vi: cực đại
+      zh: 极大
+      ja: 極大
     - en: family
       vi: họ
+      zh: 族
+      ja: 族
     - en: relation
       vi: quan hệ
+      zh: 关系
+      ja: 関係
     - en: equal
       vi: bằng
+      zh: 相等
+      ja: 等しい
     - en: finitely generated
       vi: sinh hữu hạn
+      zh: 有限生成
+      ja: 有限生成
     - en: space
       vi: không gian
+      zh: 空间
+      ja: 空間
     - en: linear
       vi: tuyến tính
+      zh: 线性
+      ja: 線型
     - en: direct sum
       vi: tổng trực tiếp
+      zh: 直和
+      ja: 直和
     - en: automorphism
       vi: tự đẳng cấu
+      zh: 自同构
+      ja: 自己同型
     - en: dimension
       vi: chiều
+      zh: 维数
+      ja: 次元
     - en: commutative field
       vi: trường giao hoán
+      zh: 交换域
+      ja: 可換体
     - en: subalgebra
       vi: đại số con
+      zh: 子代数
+      ja: 部分代数
     - en: central
       vi: trung tâm
+      zh: 中心的
+      ja: 中心的
     - en: define
       vi: định nghĩa
+      zh: 定义
+      ja: 定義する
     - en: example
       vi: ví dụ
+      zh: 例
+      ja: 例
     - en: unique
       vi: duy nhất
+      zh: 唯一的
+      ja: 一意的
     - en: injective
       vi: đơn ánh
+      zh: 单射的
+      ja: 単射
     - en: structure
       vi: cấu trúc
+      zh: 结构
+      ja: 構造
     - en: finite length
       vi: độ dài hữu hạn
+      zh: 有限长度
+      ja: 有限長
     - en: reduced
       vi: rút gọn
+      zh: 约化的
+      ja: 被約
     - en: contain
       vi: chứa
+      zh: 包含
+      ja: 含む
     - en: matrix
       vi: ma trận
+      zh: 矩阵
+      ja: 行列
     - en: simple a-module
       vi: a-môđun đơn
+      zh: 单a-模
+      ja: 単純 a-加群
     - en: free
       vi: tự do
+      zh: 自由的
+      ja: 自由
     - en: contained
       vi: được chứa
+      zh: 包含于
+      ja: 含まれる
     - en: isotypical
       vi: đẳng kiểu
+      zh: 同型分支的
+      ja: 同型的
     - en: zero
       vi: không
+      zh: 零
+      ja: 零
     - en: definition
       vi: định nghĩa
+      zh: 定义
+      ja: 定義
     - en: surjective
       vi: toàn ánh
+      zh: 满射的
+      ja: 全射
     - en: bijective
       vi: song ánh
+      zh: 双射的
+      ja: 全単射
     - en: commutant
       vi: hoán tập
+      zh: 交换子
+      ja: 交換子環
     - en: defined
       vi: được định nghĩa
+      zh: 定义的
+      ja: 定義された
     - en: subset
       vi: tập con
+      zh: 子集
+      ja: 部分集合
     - en: idempotent
       vi: lũy đẳng
+      zh: 幂等元
+      ja: 冪等元
     - en: quotient
       vi: thương
+      zh: 商
+      ja: 商
     - en: nilpotent
       vi: lũy linh
+      zh: 幂零的
+      ja: 冪零
     - en: subgroup
       vi: nhóm con
+      zh: 子群
+      ja: 部分群
     - en: central simple
       vi: đơn tâm
+      zh: 中心单的
+      ja: 中心単純
     - en: group homomorphism
       vi: đồng cấu nhóm
+      zh: 群同态
+      ja: 群準同型
     - en: left a-module
       vi: a-môđun trái
+      zh: 左a-模
+      ja: 左 a-加群
     - en: subring
       vi: vành con
+      zh: 子环
+      ja: 部分環
     - en: generating
       vi: sinh
+      zh: 生成的
+      ja: 生成する
     - en: characteristic
       vi: đặc số
+      zh: 特征
+      ja: 標数
     - en: kernel
       vi: hạt nhân
+      zh: 核
+      ja: 核
     - en: absolutely
       vi: tuyệt đối
+      zh: 绝对地
+      ja: 絶対的に
     - en: consisting
       vi: gồm
+      zh: 由……组成
+      ja: からなる
     - en: linear representation
       vi: biểu diễn tuyến tính
+      zh: 线性表示
+      ja: 線型表現
     - en: minimal
       vi: cực tiểu
+      zh: 极小的
+      ja: 最小
     - en: equality
       vi: đẳng thức
+      zh: 等式
+      ja: 等式
     - en: observe
       vi: nhận thấy
+      zh: 注意到
+      ja: 注意する
     - en: left artinian
       vi: Artin trái
+      zh: 左阿廷的
+      ja: 左アルティン的
     - en: assumption
       vi: giả thiết
+      zh: 假设
+      ja: 仮定
     - en: condition
       vi: điều kiện
+      zh: 条件
+      ja: 条件
     - en: bijection
       vi: song ánh
+      zh: 双射
+      ja: 全単射
     - en: subspace
       vi: không gian con
+      zh: 子空间
+      ja: 部分空間
     - en: remark
       vi: chú ý
+      zh: 注
+      ja: 注意
     - en: regular
       vi: chính quy
+      zh: 正则
+      ja: 正則
     - en: long
       vi: dài
+      zh: 长
+      ja: 長い
     - en: number
       vi: số
+      zh: 数
+      ja: 数
     - en: commutative ring
       vi: vành giao hoán
+      zh: 交换环
+      ja: 可換環
     - en: exact
       vi: khớp
+      zh: 正合
+      ja: 完全
       note: 'Corrected by hand. The model answered "chính xác", which is exact in the ordinary sense of precise, and it is wrong here: the word Bourbaki uses is the one in "exact sequence", which the same run rendered correctly as "dãy khớp".'
     - en: inverse
       vi: nghịch đảo
+      zh: 逆
+      ja: 逆元
     - en: containing
       vi: chứa
+      zh: 包含
+      ja: 含む
     - en: factor
       vi: nhân tử
+      zh: 因子
+      ja: 因子
     - en: a-linear
       vi: a-tuyến tính
+      zh: a-线性的
+      ja: a-線形
     - en: finite dimension
       vi: số chiều hữu hạn
+      zh: 有限维
+      ja: 有限次元
     - en: order
       vi: cấp
+      zh: 阶
+      ja: 順序
     - en: annihilator
       vi: linh hóa tử
+      zh: 湮没子
+      ja: 消滅子
     - en: closed
       vi: đóng
+      zh: 闭
+      ja: 閉じた
     - en: additive
       vi: cộng tính
+      zh: 加性的
+      ja: 加法的
     - en: faithful
       vi: trung thành
+      zh: 忠实
+      ja: 忠実
     - en: maximal ideal
       vi: iđêan cực đại
+      zh: 极大理想
+      ja: 極大イデアル
     - en: component
       vi: thành phần
+      zh: 分量
+      ja: 成分
     - en: satisfying
       vi: thỏa mãn
+      zh: 满足
+      ja: 満たす
     - en: separable
       vi: tách được
+      zh: 可分
+      ja: 可分
     - en: action
       vi: tác động
+      zh: 作用
+      ja: 作用
     - en: distinct
       vi: phân biệt
+      zh: 不同的
+      ja: 相異なる
     - en: indecomposable
       vi: không phân tích được
+      zh: 不可分解的
+      ja: 直既約
     - en: induce
       vi: cảm sinh
+      zh: 诱导
+      ja: 誘導する
     - en: function
       vi: hàm
+      zh: 函数
+      ja: 写像
     - en: identify
       vi: đồng nhất
+      zh: 认同
+      ja: 同一視する
     - en: right a-module
       vi: môđun phải trên a
+      zh: 右a-模
+      ja: 右a-加群
     - en: k-module
       vi: môđun trên k
+      zh: k-模
+      ja: k-加群
     - en: right ideal
       vi: iđêan phải
+      zh: 右理想
+      ja: 右イデアル
     - en: unit
       vi: phần tử khả nghịch
+      zh: 单位
+      ja: 単位元
     - en: proof
       vi: chứng minh
+      zh: 证明
+      ja: 証明
     - en: satisfy
       vi: thỏa mãn
+      zh: 满足
+      ja: 満たす
     - en: character
       vi: đặc trưng
+      zh: 特征标
+      ja: 指標
+      note: Corrected by hand after a run got it wrong. The Chinese came back 特征, which is characteristic, the thing a field has. All 37 places this corpus says character it means the character of a linear representation, the trace of the matrix, and Chinese writes that 特征标. The same run rendered "characteristic" as 特征 as well, so the two notions had been run together, and § 21 turns on the difference between them. Japanese answered correctly, 指標.
     - en: endowed
       vi: được trang bị
+      zh: 赋予
+      ja: 備えた
     - en: restriction
       vi: hạn chế
+      zh: 限制
+      ja: 制限
     - en: coefficient
       vi: hệ số
+      zh: 系数
+      ja: 係数
     - en: direct factor
       vi: nhân tử trực tiếp
+      zh: 直因子
+      ja: 直因子
     - en: irreducible
       vi: bất khả quy
+      zh: 不可约的
+      ja: 既約
     - en: deduced
       vi: suy ra
+      zh: 推出的
+      ja: 導出された
     - en: maximal commutative
       vi: giao hoán cực đại
+      zh: 极大交换的
+      ja: 極大可換
     - en: prime
       vi: nguyên tố
+      zh: 素的
+      ja: 素
     - en: subfield
       vi: trường con
+      zh: 子域
+      ja: 部分体
     - en: cardinal
       vi: lực lượng
+      zh: 基数
+      ja: 基数
     - en: dual
       vi: đối ngẫu
+      zh: 对偶的
+      ja: 双対
     - en: homothety
       vi: phép vị tự
+      zh: 位似
+      ja: ホモテティー
     - en: intersection
       vi: giao
+      zh: 交
+      ja: 共通部分
     - en: simple module
       vi: môđun đơn
+      zh: 单模
+      ja: 単純加群
     - en: a-submodule
       vi: môđun con
+      zh: a-子模
+      ja: a-部分加群
     - en: applied
       vi: áp dụng
+      zh: 应用的
+      ja: 適用された
     - en: nonzero element
       vi: phần tử khác không
+      zh: 非零元素
+      ja: 非零元
     - en: algebraically closed
       vi: đóng đại số
+      zh: 代数闭的
+      ja: 代数閉
     - en: ordered
       vi: có thứ tự
+      zh: 有序的
+      ja: 順序付けられた
     - en: commutative subalgebra
       vi: đại số con giao hoán
+      zh: 交换子代数
+      ja: 可換部分代数
     - en: exact sequence
       vi: dãy khớp
+      zh: 正合序列
+      ja: 完全系列
     - en: local
       vi: địa phương
+      zh: 局部的
+      ja: 局所的
     - en: matrices
       vi: ma trận
+      zh: 矩阵
+      ja: 行列
     - en: primitive
       vi: nguyên thủy
+      zh: 本原的
+      ja: 原始的
     - en: semisimple a-module
       vi: môđun a nửa đơn
+      zh: 半单a-模
+      ja: 半単純a-加群
     - en: a-linear mapping
       vi: ánh xạ tuyến tính
+      zh: a-线性映射
+      ja: a線形写像
     - en: left noetherian
       vi: Noether trái
+      zh: 左诺特的
+      ja: 左ネーター
     - en: multiplication
       vi: phép nhân
+      zh: 乘法
+      ja: 乗法
     - en: opposite
       vi: đối
+      zh: 对立的
+      ja: 反対
     - en: associated
       vi: liên kết
+      zh: 伴随的
+      ja: 付随した
     - en: choose
       vi: chọn
+      zh: 选择
+      ja: 選ぶ
     - en: identity
       vi: đơn vị
+      zh: 单位元
+      ja: 単位元
     - en: rank
       vi: hạng
+      zh: 秩
+      ja: 階数
     - en: coincide
       vi: trùng nhau
+      zh: 重合
+      ja: 一致する
     - en: simple algebra
       vi: đại số đơn
+      zh: 单代数
+      ja: 単純代数
     - en: abelian
       vi: Abel
+      zh: 阿贝尔的
+      ja: アーベル
     - en: absolutely semisimple
       vi: nửa đơn tuyệt đối
+      zh: 绝对半单的
+      ja: 絶対半単純
     - en: canonical homomorphism
       vi: đồng cấu chính tắc
+      zh: 典范同态
+      ja: 標準準同型
     - en: induction
       vi: quy nạp
+      zh: 归纳
+      ja: 帰納法
     - en: identified
       vi: đồng nhất
+      zh: 识别的
+      ja: 同一視された
     - en: index
       vi: chỉ số
+      zh: 指标
+      ja: 添字
     - en: diagram
       vi: biểu đồ
+      zh: 图表
+      ja: 図式
     - en: equivalence
       vi: tương đương
+      zh: 等价
+      ja: 同値
     - en: fractions
       vi: phân thức
+      zh: 分数
+      ja: 分数
     - en: law
       vi: luật
+      zh: 律
+      ja: 法則
     - en: series
       vi: chuỗi
+      zh: 级数
+      ja: 系列
     - en: socle
       vi: đế
+      zh: 底层
+      ja: ソクル
     - en: additive group
       vi: nhóm cộng
+      zh: 加法群
+      ja: 加法群
     - en: divide
       vi: chia hết
+      zh: 除
+      ja: 割る
     - en: inner
       vi: nội
+      zh: 内部
+      ja: 内部
     - en: k-linear
       vi: k-tuyến tính
+      zh: k-线性
+      ja: k線型
     - en: k-vector space
       vi: không gian vectơ k
+      zh: k-向量空间
+      ja: kベクトル空間
     - en: l-algebra
       vi: đại số trên l
+      zh: l-代数
+      ja: l-代数
     - en: linear form
       vi: dạng tuyến tính
+      zh: 线性形式
+      ja: 線型形式
     - en: scalar
       vi: vô hướng
+      zh: 标量
+      ja: スカラー
     - en: sub-bimodule
       vi: môđun con song
+      zh: 子双模
+      ja: 部分両側加群
     - en: finitely generated a-module
       vi: a-môđun hữu hạn sinh
+      zh: 有限生成a-模
+      ja: 有限生成a-加群
     - en: morita equivalent
       vi: tương đương Morita
+      zh: 莫里田等价
+      ja: 森田同値
     - en: projector
       vi: phép chiếu
+      zh: 投影算子
+      ja: 射影子
     - en: quaternion algebra
       vi: đại số quaternion
+      zh: 四元数代数
+      ja: 四元数代数
     - en: bicommutant
       vi: đối giao hoán tử kép
+      zh: 双交换子
+      ja: 双可換子
     - en: decomposition
       vi: phân tích
+      zh: 分解
+      ja: 分解
     - en: section
       vi: tiết diện
+      zh: 截面
+      ja: 切断
     - en: semisimple ring
       vi: vành nửa đơn
+      zh: 半单环
+      ja: 半単純環
     - en: a-algebra
       vi: đại số trên a
+      zh: a-代数
+      ja: a-代数
     - en: artinian ring
       vi: vành Artin
+      zh: 阿廷环
+      ja: アルティン環
     - en: infinite
       vi: vô hạn
+      zh: 无限
+      ja: 無限
     - en: left b-module
       vi: b-môđun trái
+      zh: 左b-模
+      ja: 左b-加群
     - en: maximal left
       vi: tối đại trái
+      zh: 极大左
+      ja: 極大左
     - en: pair
       vi: cặp
+      zh: 对
+      ja: 対
     - en: reduce
       vi: rút gọn
+      zh: 约化
+      ja: 簡約する
     - en: simply
       vi: đơn giản
+      zh: 简单地
+      ja: 単に
     - en: balanced
       vi: cân bằng
+      zh: 平衡
+      ja: 平衡
     - en: finite rank
       vi: hạng hữu hạn
+      zh: 有限秩
+      ja: 有限階数
     - en: proved
       vi: đã chứng minh
+      zh: 证明
+      ja: 証明された
     - en: right vector space
       vi: không gian vectơ phải
+      zh: 右向量空间
+      ja: 右ベクトル空間
     - en: monogenous
       vi: đơn sinh
+      zh: 单生成
+      ja: 単生成
     - en: semisimple module
       vi: môđun nửa đơn
+      zh: 半单模
+      ja: 半単純加群
     - en: countermodule
       vi: môđun đối
+      ja: 対加群
     - en: principal
       vi: chính
+      zh: 主
+      ja: 主
     - en: Semisimple Modules and Rings
       vi: Các môđun và vành nửa đơn
+      zh: 半单模和环
+      ja: 半単純加群と環
     - en: separable extension
       vi: mở rộng tách được
+      zh: 可分扩张
+      ja: 分離拡大
     - en: system
       vi: hệ
+      zh: 系统
+      ja: 系
     - en: construction
       vi: phép dựng
+      zh: 构造
+      ja: 構成
     - en: determinant
       vi: định thức
+      zh: 行列式
+      ja: 行列式
     - en: direct factor submodule
       vi: môđun con hạng tử trực tiếp
+      zh: 直因子子模
+      ja: 直和因子部分加群
     - en: homogeneous
       vi: thuần nhất
-    - en: pcrd
-      vi: ước chung phải lớn nhất
+      zh: 齐次
+      ja: 斉次
     - en: perfect
       vi: hoàn hảo
+      zh: 完美
+      ja: 完全
     - en: quasi-simple
       vi: tựa đơn
-    - en: ring end
-      vi: vành tự đồng cấu
+      zh: 拟单
+      ja: 準単純
     - en: simple k-algebra
       vi: đại số k đơn
+      zh: 单 k-代数
+      ja: 単純 k-代数
     - en: absolutely flat
       vi: phẳng tuyệt đối
+      zh: 绝对平坦
+      ja: 絶対平坦
     - en: canonical mapping
       vi: ánh xạ chính tắc
+      zh: 典范映射
+      ja: 標準写像
     - en: invertible bimodule
       vi: song môđun khả nghịch
+      zh: 可逆双模
+      ja: 可逆双加群
     - en: l-module
       vi: l-môđun
+      zh: l-模
+      ja: l-加群
     - en: necessarily
       vi: tất yếu
+      zh: 必然地
+      ja: 必然的に
     - en: pseudomodule
       vi: giả môđun
+      zh: 伪模
+      ja: 擬加群
     - en: tensor
       vi: tenxơ
+      zh: 张量
+      ja: テンソル
     - en: unit element
       vi: phần tử đơn vị
+      zh: 单位元
+      ja: 単位元
     - en: description
       vi: mô tả
+      zh: 描述
+      ja: 記述
     - en: induced
       vi: cảm sinh
+      zh: 诱导的
+      ja: 誘導された
     - en: k-linear mapping
       vi: ánh xạ k-tuyến tính
+      zh: k-线性映射
+      ja: k-線型写像
     - en: left module
       vi: môđun trái
+      zh: 左模
+      ja: 左加群
     - en: opposite ring
       vi: vành đối
+      zh: 逆环
+      ja: 反対環
     - en: positive integer
       vi: số nguyên dương
+      zh: 正整数
+      ja: 正の整数
     - en: power
       vi: lũy thừa
+      zh: 幂
+      ja: 冪
     - en: tensor product
       vi: tích tenxơ
+      zh: 张量积
+      ja: テンソル積
     - en: finite group
       vi: nhóm hữu hạn
+      zh: 有限群
+      ja: 有限群
     - en: finite subset
       vi: tập con hữu hạn
+      zh: 有限子集
+      ja: 有限部分集合
     - en: invertible element
       vi: phần tử khả nghịch
+      zh: 可逆元
+      ja: 可逆元
     - en: note
       vi: chú ý
+      zh: 注
+      ja: 注意
     - en: notion
       vi: khái niệm
+      zh: 概念
+      ja: 概念
     - en: recall
       vi: nhắc lại
+      zh: 回顾
+      ja: 想起する
     - en: semisimple algebra
       vi: đại số nửa đơn
+      zh: 半单代数
+      ja: 半単純代数
     - en: unital
       vi: có đơn vị
+      zh: 有单位元的
+      ja: 単位的
     - en: central simple k-algebra
       vi: đại số k đơn tâm
+      zh: 中心单 k-代数
+      ja: 中心単純 k-代数
     - en: commutative algebra
       vi: đại số giao hoán
+      zh: 交换代数
+      ja: 可換代数
     - en: constant
       vi: hằng số
+      zh: 常数
+      ja: 定数
     - en: generate
       vi: sinh
+      zh: 生成
+      ja: 生成する
     - en: injection
       vi: đơn ánh
+      zh: 单射
+      ja: 単射
     - en: integral domain
       vi: miền nguyên
+      zh: 整环
+      ja: 整域
     - en: maximal submodule
       vi: môđun con cực đại
+      zh: 极大子模
+      ja: 極大部分加群
     - en: stationary
       vi: dừng
+      zh: 稳定的
+      ja: 定常
     - en: unique element
       vi: phần tử duy nhất
+      zh: 唯一元素
+      ja: 一意元
     - en: canonical injection
       vi: đơn ánh chính tắc
+      zh: 典范嵌入
+      ja: 標準単射
     - en: compatible
       vi: tương thích
+      zh: 相容的
+      ja: 両立する
     - en: identity element
       vi: phần tử đơn vị
+      zh: 单位元素
+      ja: 単位元
     - en: irreducible representation
       vi: biểu diễn bất khả quy
+      zh: 不可约表示
+      ja: 既約表現
     - en: natural number
       vi: số tự nhiên
+      zh: 自然数
+      ja: 自然数
     - en: nilpotent two-sided ideal
       vi: iđêan hai phía lũy linh
+      zh: 幂零双边理想
+      ja: 冪零両側イデアル
     - en: norm
       vi: chuẩn
+      zh: 范数
+      ja: ノルム
     - en: proper
       vi: thực sự
+      zh: 真
+      ja: 真の
     - en: split
       vi: tách
+      zh: 分裂的
+      ja: 分裂
     - en: square
       vi: bình phương
+      zh: 平方
+      ja: 平方
     - en: strictly positive
       vi: dương ngặt
+      zh: 严格正的
+      ja: 正
     - en: simple left
       vi: đơn trái
+      zh: 单左
+      ja: 左単純
     - en: surjective homomorphism
       vi: đồng cấu toàn ánh
+      zh: 满同态
+      ja: 全射準同型
     - en: automorphism group
       vi: nhóm tự đẳng cấu
+      zh: 自同构群
+      ja: 自己同型群
     - en: b-submodule
       vi: môđun con b
+      zh: b-子模
+      ja: b部分加群
     - en: finite field
       vi: trường hữu hạn
+      zh: 有限域
+      ja: 有限体
     - en: maximal element
       vi: phần tử cực đại
+      zh: 极大元素
+      ja: 極大元
     - en: module structure
       vi: cấu trúc môđun
+      zh: 模结构
+      ja: 加群構造
     - en: ordered sets
       vi: tập hợp có thứ tự
+      zh: 有序集
+      ja: 順序集合
     - en: partition
       vi: phân hoạch
+      zh: 划分
+      ja: 分割
     - en: point
       vi: điểm
+      zh: 点
+      ja: 点
     - en: regular representation
       vi: biểu diễn chính quy
+      zh: 正则表示
+      ja: 正則表現
     - en: right b-module
       vi: môđun phải b
+      zh: 右b-模
+      ja: 右b加群
     - en: ring structure
       vi: cấu trúc vành
+      zh: 环结构
+      ja: 環構造
     - en: semiprimordial
       vi: nửa nguyên thủy
+      zh: 半原始
+      ja: 半原始
     - en: unit modulo
       vi: đơn vị modulo
+      zh: 模单位
     - en: variable
       vi: biến
+      zh: 变量
+      ja: 変数
     - en: apply proposition
       vi: áp dụng mệnh đề
+      zh: 应用命题
+      ja: 命題を適用する
     - en: belonging
       vi: thuộc
+      zh: 属于
+      ja: 所属
     - en: canonical basis
       vi: cơ sở chính tắc
+      zh: 典范基
+      ja: 標準基底
     - en: closed field
       vi: trường đóng
+      zh: 闭域
+      ja: 閉体
     - en: commutative k-algebra
       vi: đại số giao hoán k
+      zh: 交换k-代数
+      ja: 可換k代数
     - en: dense
       vi: trù mật
+      zh: 稠密的
+      ja: 稠密
     - en: determined
       vi: được xác định
+      zh: 确定的
+      ja: 決定された
     - en: diagram commute
       vi: sơ đồ giao hoán
+      zh: 图表交换
+      ja: 図式が可換
     - en: directed
       vi: có hướng
+      zh: 有向的
+      ja: 有向
     - en: disjoint
       vi: rời nhau
+      zh: 不相交的
+      ja: 互いに素
     - en: divisible
       vi: chia được
+      zh: 可除的
+      ja: 可除
     - en: exponent
       vi: số mũ
+      zh: 指数
+      ja: 指数
     - en: free k-module
       vi: môđun tự do k
+      zh: 自由 k-模
+      ja: 自由k加群
     - en: generally
       vi: nói chung
+      zh: 一般地
+      ja: 一般に
     - en: infinite-dimensional
       vi: vô hạn chiều
+      zh: 无限维
+      ja: 無限次元
     - en: interval
       vi: khoảng
+      zh: 区间
+      ja: 区間
     - en: last assertion
       vi: khẳng định cuối cùng
+      zh: 最后一个断言
+      ja: 最後の主張
     - en: left resp right
       vi: trái tương ứng phải
+      zh: 左（分别右）
+      ja: 左（右）
     - en: maximal two-sided ideal
       vi: ideal hai phía tối đại
+      zh: 极大双边理想
+      ja: 極大両側イデアル
     - en: reason
       vi: lý do
+      zh: 理由
+      ja: 理由
     - en: semilinear
       vi: nửa tuyến tính
+      zh: 半线性
+      ja: 半線形
     - en: algebra homomorphism
       vi: đồng cấu đại số
+      zh: 代数同态
+      ja: 代数準同型
     - en: annihilated
       vi: bị triệt tiêu
+      zh: 湮灭
+      ja: 零化される
     - en: brauer group
       vi: nhóm Brauer
+      zh: 布劳尔群
+      ja: ブラウアー群
     - en: canonically
       vi: một cách chính tắc
+      zh: 典范地
+      ja: 標準的に
     - en: converse
       vi: đảo lại
+      zh: 逆命题
+      ja: 逆
     - en: d-module
       vi: môđun D
+      zh: D-模
+      ja: D-加群
     - en: derived group
       vi: nhóm dẫn xuất
+      zh: 导出群
+      ja: 導来群
     - en: external law
       vi: phép toán ngoài
+      zh: 外法则
+      ja: 外部法則
     - en: fortiori
       vi: a fortiori
+      zh: 更不必说
+      ja: なおさら
     - en: free module
       vi: môđun tự do
+      zh: 自由模
+      ja: 自由加群
     - en: group isomorphism
       vi: đẳng cấu nhóm
+      zh: 群同构
+      ja: 群同型
     - en: indices
       vi: chỉ số
+      zh: 指标
+      ja: 添字
     - en: inverse bijection
       vi: song ánh ngược
+      zh: 逆双射
+      ja: 逆全単射
     - en: left invertible
       vi: khả nghịch trái
+      zh: 左可逆
+      ja: 左可逆
     - en: matrix ring
       vi: vành ma trận
+      zh: 矩阵环
+      ja: 行列環
     - en: minimal ideal
       vi: ideal tối tiểu
+      zh: 极小理想
+      ja: 極小イデアル
     - en: monic polynomial
       vi: đa thức đơn khởi
+      zh: 首一多项式
+      ja: 首一多項式
       note: 'Corrected by hand. The model answered "đa thức đơn nhất", where đơn nhất is unital, and answered the bare word monic with "đơn thức", which is monomial. Both are wrong and the second is the more dangerous of the two. The bare row was removed as well: all three occurrences in the English corpus are "monic polynomial". This rendering wants a reader of Vietnamese to confirm it.'
     - en: projection
       vi: phép chiếu
+      zh: 投影
+      ja: 射影
     - en: related
       vi: liên quan
+      zh: 有关的
+      ja: 関連する
     - en: representative
       vi: đại diện
+      zh: 代表元
+      ja: 代表元
     - en: right noetherian
       vi: Noether phải
+      zh: 右诺特
+      ja: 右ネーター
     - en: right unit modulo
       vi: đơn vị phải modulo
+      zh: 模右单位
+      ja: 剰余類における右単元
     - en: simple b-module
       vi: môđun B đơn
+      zh: 简单 B-模
+      ja: 単純b-加群
     - en: splitting field
       vi: trường phân rã
+      zh: 分裂域
+      ja: 分解体
     - en: trivial
       vi: tầm thường
+      zh: 平凡
+      ja: 自明な
     - en: absolutely flat ring
       vi: vành phẳng tuyệt đối
+      zh: 绝对平坦环
+      ja: 絶対平坦環
     - en: analogously
       vi: tương tự
+      zh: 类似地
+      ja: 同様に
     - en: comm alg
       vi: đại số giao hoán
+      zh: 交换代数
+      ja: 可換環論
     - en: common
       vi: chung
+      zh: 公共的
+      ja: 共通の
     - en: conjugate
       vi: liên hợp
+      zh: 共轭
+      ja: 共役
     - en: d-linear
       vi: d-tuyến tính
+      zh: d-线性的
+      ja: D-線形
     - en: diagonal
       vi: đường chéo
+      zh: 对角的
+      ja: 対角
     - en: effective
       vi: hiệu dụng
+      zh: 有效的
+      ja: 有効な
     - en: finite support
       vi: giá hữu hạn
+      zh: 有限支撑
+      ja: 有限台
     - en: finite-dimensional free k-module
       vi: k-môđun tự do hữu hạn chiều
+      zh: 有限维自由 k-模
+      ja: 有限次元自由k加群
     - en: greatest
       vi: lớn nhất
+      zh: 最大的
+      ja: 最大の
     - en: homomorphism br
       vi: đồng cấu Br
+      zh: 同态
     - en: immediate
       vi: ngay lập tức
+      zh: 直接的
+      ja: 明らか
     - en: independent
       vi: độc lập
+      zh: 独立的
+      ja: 独立
     - en: induction hypothesis
       vi: giả thiết quy nạp
+      zh: 归纳假设
+      ja: 帰納法の仮定
     - en: inverse isomorphism
       vi: đẳng cấu nghịch đảo
+      zh: 逆同构
+      ja: 逆同型
     - en: isomorphism class
       vi: lớp đẳng cấu
+      zh: 同构类
+      ja: 同型類
     - en: left pseudomodule
       vi: môđun giả trái
+      zh: 左拟模
+      ja: 左擬加群
     - en: minimal polynomial
       vi: đa thức tối tiểu
+      zh: 最小多项式
+      ja: 最小多項式
     - en: multiplicative group
       vi: nhóm nhân
+      zh: 乘法群
+      ja: 乗法群
     - en: now prove
       vi: bây giờ chứng minh
-    - en: nrd nrd
-      vi: chuẩn rút gọn
+      zh: 现在证明
+      ja: これを証明する
     - en: permutation
       vi: phép hoán vị
+      zh: 置换
+      ja: 置換
     - en: reduced characteristic polynomial
       vi: đa thức đặc trưng rút gọn
+      zh: 减缩特征多项式
+      ja: 簡約特性多項式
     - en: semisimple resp
       vi: nửa đơn tương ứng
+      zh: 半单的
+      ja: 半単純それぞれ
     - en: similar
       vi: đồng dạng
+      zh: 相似的
+      ja: 相似
     - en: square zero
       vi: bình phương bằng không
+      zh: 平方为零
+      ja: 二乗零
     - en: strictly increasing
       vi: tăng ngặt
+      zh: 严格递增的
+      ja: 真に増加する
     - en: symmetric
       vi: đối xứng
+      zh: 对称的
+      ja: 対称
     - en: table
       vi: bảng
+      zh: 表
+      ja: 表
     - en: wedderburn-s
       vi: Wedderburn
+      zh: 韦德伯恩的
+      ja: ウェダーバーンの
     - en: zorn ring
       vi: vành Zorn
+      zh: Zorn环
+      ja: ツォルン環
     - en: appendix
       vi: phụ lục
+      zh: 附录
+      ja: 付録
     - en: bimodule structure
       vi: cấu trúc song môđun
+      zh: 双模结构
+      ja: 両側加群構造
     - en: column
       vi: cột
+      zh: 列
+      ja: 列
     - en: counit
       vi: đồng đơn vị
-    - en: det det det
-      vi: định thức
-    - en: dim hom
-      vi: chiều của Hom
+      zh: 余单位
+      ja: 余単位
     - en: explicitly
       vi: tường minh
+      zh: 明确地
+      ja: 明示的に
     - en: finite galois extension
       vi: mở rộng Galois hữu hạn
+      zh: 有限伽罗瓦扩张
+      ja: 有限ガロア拡大
     - en: graded
       vi: phân bậc
+      zh: 分次的
+      ja: 次数付き
     - en: homomorphism defined
       vi: đồng cấu được xác định
+      zh: 定义的同态
+      ja: 定義された準同型
     - en: identity mapping
       vi: ánh xạ đồng nhất
+      zh: 恒等映射
+      ja: 恒等写像
     - en: method
       vi: phương pháp
+      zh: 方法
+      ja: 方法
     - en: minimal right
       vi: cực tiểu phải
+      zh: 最小右的
     - en: nonisomorphic
       vi: không đẳng cấu
+      zh: 非同构
+      ja: 非同型
     - en: orthogonality relation
       vi: quan hệ trực giao
+      zh: 正交关系
+      ja: 直交関係
     - en: projective module
       vi: môđun xạ ảnh
+      zh: 投射模
+      ja: 射影加群
     - en: reasoning
       vi: lập luận
+      zh: 推理
+      ja: 推論
     - en: resp isotypical
       vi: tương ứng đẳng kiểu
+      zh: 分别为等型的
+      ja: それぞれ同型成分
     - en: resp semisimple
       vi: tương ứng nửa đơn
+      zh: 分别为半单的
+      ja: それぞれ半単純
     - en: right fractions
       vi: phân thức phải
+      zh: 右分式
+      ja: 右分数
     - en: sometimes
       vi: đôi khi
+      zh: 有时
+      ja: ときどき
     - en: transform
       vi: biến đổi
+      zh: 变换
+      ja: 変換
     - en: unity
       vi: đơn vị
+      zh: 单位元
+      ja: 単位元
     - en: universal property
       vi: tính chất phổ quát
+      zh: 泛性质
+      ja: 普遍性
     - en: use induction
       vi: dùng quy nạp
+      zh: 使用归纳法
+      ja: 帰納法を用いる
     - en: weakly
       vi: yếu
+      zh: 弱地
+      ja: 弱く
     - en: addition
       vi: phép cộng
+      zh: 加法
+      ja: 加法
     - en: additive function
       vi: hàm cộng tính
+      zh: 加性函数
+      ja: 加法的関数
     - en: adjunction
       vi: phép nối
+      zh: 伴随
+      ja: 随伴
     - en: algebra isomorphism
       vi: đẳng cấu đại số
+      zh: 代数同构
+      ja: 代数同型
     - en: autoinjective
       vi: tự nội xạ
+      zh: 自内射的
+      ja: 自己入射的
     - en: before
       vi: trước
+      zh: 之前
+      ja: 前に
     - en: canonical description
       vi: mô tả chính tắc
+      zh: 规范描述
+      ja: 標準的記述
     - en: clearly
       vi: rõ ràng
+      zh: 显然地
+      ja: 明らかに
     - en: consequence
       vi: hệ quả
+      zh: 推论
+      ja: 帰結
     - en: derivation
       vi: đạo hàm
+      zh: 推导
+      ja: 導分
     - en: exercise prove
       vi: bài tập chứng minh
+      zh: 练习证明
+      ja: 演習：証明せよ
     - en: generating module
       vi: môđun sinh
+      zh: 生成模
+      ja: 生成加群
     - en: generating subset
       vi: tập con sinh
+      zh: 生成子集
+      ja: 生成部分集合
     - en: introduce
       vi: giới thiệu
+      zh: 引入
+      ja: 導入する
     - en: largest
       vi: lớn nhất
+      zh: 最大的
+      ja: 最大の
     - en: limit
       vi: giới hạn
+      zh: 极限
+      ja: 極限
     - en: locally
       vi: địa phương
+      zh: 局部地
+      ja: 局所的に
     - en: mapping defined
       vi: ánh xạ được xác định
+      zh: 定义的映射
+      ja: 定義された写像
     - en: minimal right ideal
       vi: iđêan phải tối tiểu
+      zh: 极小右理想
+      ja: 極小右イデアル
     - en: minimal two-sided ideal
       vi: iđêan hai phía tối tiểu
+      zh: 极小双边理想
+      ja: 極小両側イデアル
     - en: noninvertible element
       vi: phần tử không khả nghịch
+      zh: 不可逆元素
+      ja: 非可逆元
     - en: nontrivial
       vi: không tầm thường
+      zh: 非平凡
+      ja: 非自明
     - en: nonzero two-sided ideal
       vi: iđêan hai phía khác không
+      zh: 非零双边理想
+      ja: 非零両側イデアル
     - en: orbit
       vi: quỹ đạo
+      zh: 轨道
+      ja: 軌道
     - en: otherwise
       vi: nếu không
+      zh: 否则
+      ja: その他の場合
     - en: perfect field
       vi: trường hoàn hảo
+      zh: 完美域
+      ja: 完全体
     - en: primordial submodule
       vi: môđun con nguyên thủy
+      zh: 原始子模
+      ja: 原始部分加群
     - en: quotient ring
       vi: vành thương
+      zh: 商环
+      ja: 商環
     - en: rational
       vi: hữu tỉ
+      zh: 有理的
+      ja: 有理
     - en: regular left
       vi: chính quy trái
+      zh: 左正则
+      ja: 左正則
     - en: replace
       vi: thay thế
+      zh: 替换
+      ja: 置き換える
     - en: residue field
       vi: trường thặng dư
+      zh: 剩余类域
+      ja: 剰余体
     - en: respective
       vi: tương ứng
+      zh: 相应的
+      ja: 各々の
     - en: schur-s
       vi: Schur
     - en: semi-artinian
       vi: nửa Artin
+      zh: 半阿廷的
+      ja: 半アルティン的
     - en: separable closure
       vi: bao đóng tách được
+      zh: 可分闭包
+      ja: 分離閉包
     - en: separably closed
       vi: đóng tách được
+      zh: 可分闭的
+      ja: 分離閉
     - en: simple component
       vi: thành phần đơn
+      zh: 简单分量
+      ja: 単純成分
     - en: strictly decreasing
       vi: giảm nghiêm ngặt
-    - en: tr tr tr
-      vi: vết vết vết
+      zh: 严格递减
+      ja: 真に減少する
     - en: tracial
       vi: có tính chất vết
+      zh: 迹的
+      ja: トレース的
     - en: unique homomorphism
       vi: đồng cấu duy nhất
+      zh: 唯一同态
+      ja: 一意な準同型
     - en: using exercise
       vi: sử dụng bài tập
+      zh: 利用习题
     - en: generated
       vi: sinh
+      zh: 生成的
+      ja: 生成された
     - en: class
       vi: lớp
+      zh: 类
+      ja: 類
     - en: direct
       vi: trực tiếp
+      zh: 直接的
+      ja: 直接
     - en: radical
       vi: căn
+      zh: 根基
+      ja: 根基
     - en: nonzero
       vi: khác không
+      zh: 非零的
+      ja: 非零
     - en: endomorphism
       vi: tự đồng cấu
+      zh: 自同态
+      ja: 自己準同型
     - en: artinian
       vi: Artin
+      zh: 阿廷的
+      ja: アルティン
     - en: integer
       vi: số nguyên
+      zh: 整数
+      ja: 整数
     - en: bimodule
       vi: song môđun
+      zh: 双模
+      ja: 両側加群
     - en: projective
       vi: xạ ảnh
+      zh: 投射的
+      ja: 射影的
     - en: two-sided
       vi: hai phía
+      zh: 双边的
+      ja: 両側
     - en: center
       vi: tâm
+      zh: 中心
+      ja: 中心
     - en: left ideal
       vi: iđêan trái
+      zh: 左理想
+      ja: 左イデアル
     - en: basis
       vi: cơ sở
+      zh: 基
+      ja: 基底
     - en: two-sided ideal
       vi: iđêan hai phía
+      zh: 双边理想
+      ja: 両側イデアル
     - en: type
       vi: kiểu
+      zh: 型
+      ja: 型
     - en: finite degree
       vi: bậc hữu hạn
+      zh: 有限次数
+      ja: 有限次数
     - en: property
       vi: tính chất
+      zh: 性质
+      ja: 性質
     - en: length
       vi: độ dài
+      zh: 长度
+      ja: 長さ
     - en: canonical
       vi: chính tắc
+      zh: 典范的
+      ja: 標準的
     - en: sequence
       vi: dãy
+      zh: 序列
+      ja: 数列
     - en: deduce
       vi: suy ra
+      zh: 推出
+      ja: 導く
     - en: b-module
       vi: b-môđun
+      zh: b-模
+      ja: b-加群
     - en: finite-dimensional
       vi: hữu hạn chiều
+      zh: 有限维的
+      ja: 有限次元
     - en: image
       vi: ảnh
+      zh: 像
+      ja: 像
+      note: Corrected by hand after a run got it wrong. The Chinese came back 图像, which is a picture. All 174 places this corpus says image it means the image of a mapping, and Chinese writes that 像. Japanese answered correctly, 像.
     - en: formula
       vi: công thức
+      zh: 公式
+      ja: 公式
     - en: vector
       vi: vectơ
+      zh: 向量
+      ja: ベクトル
     - en: belong
       vi: thuộc
+      zh: 属于
+      ja: 属する
     - en: form
       vi: dạng
+      zh: 形式
+      ja: 形
     - en: consequently
       vi: do đó
+      zh: 因而
+      ja: 従って
     - en: equivalent
       vi: tương đương
+      zh: 等价
+      ja: 同値
     - en: lemma
       vi: bổ đề
+      zh: 引理
+      ja: 補題
     - en: noetherian
       vi: Noether
+      zh: 诺特
+      ja: ネーター
     - en: product
       vi: tích
+      zh: 乘积
+      ja: 積
     - en: invertible
       vi: khả nghịch
+      zh: 可逆
+      ja: 可逆
     - en: vector space
       vi: không gian vectơ
+      zh: 向量空间
+      ja: ベクトル空間
     - en: polynomial
       vi: đa thức
+      zh: 多项式
+      ja: 多項式
     - en: assertion
       vi: mệnh đề
+      zh: 断言
+      ja: 主張
     - en: finite family
       vi: họ hữu hạn
+      zh: 有限族
+      ja: 有限族
     - en: stable
       vi: ổn định
+      zh: 稳定
+      ja: 安定
     - en: viewed
       vi: được xem như
+      zh: 视为
+      ja: 見なされた
     - en: extend
       vi: mở rộng
+      zh: 扩展
+      ja: 拡大する
     - en: flat
       vi: phẳng
+      zh: 平坦
+      ja: 平坦
     - en: galois extension
       vi: mở rộng Galois
+      zh: 伽罗瓦扩张
+      ja: ガロア拡大
     - en: integral
       vi: nguyên
+      zh: 整的
+      ja: 整
     - en: maximal left ideal
       vi: iđêan trái cực đại
+      zh: 极大左理想
+      ja: 極大左イデアル
     - en: natural
       vi: tự nhiên
+      zh: 自然
+      ja: 自然な
     - en: sets
       vi: tập hợp
+      zh: 集合
+      ja: 集合
     - en: union
       vi: hợp
+      zh: 并
+      ja: 和集合
     - en: word
       vi: từ
+      zh: 字
+      ja: 語
     - en: conclude
       vi: kết luận
+      zh: 结论
+      ja: 結論する
     - en: construct
       vi: xây dựng
+      zh: 构造
+      ja: 構成する
     - en: inner automorphism
       vi: tự đẳng cấu trong
+      zh: 内自同构
+      ja: 内部自己同型
     - en: linear mapping
       vi: ánh xạ tuyến tính
+      zh: 线性映射
+      ja: 線形写像
     - en: passing
       vi: chuyển qua
+      zh: 经过
+      ja: 移行
     - en: value
       vi: giá trị
+      zh: 值
+      ja: 値
     - en: characteristic polynomial
       vi: đa thức đặc trưng
+      zh: 特征多项式
+      ja: 特性多項式
     - en: local ring
       vi: vành địa phương
+      zh: 局部环
+      ja: 局所環
     - en: matrix algebra
       vi: đại số ma trận
+      zh: 矩阵代数
+      ja: 行列環
     - en: positive
       vi: dương
+      zh: 正
+      ja: 正
     - en: decreasing
       vi: giảm
+      zh: 递减
+      ja: 減少する
     - en: finitely generated projective
       vi: xạ ảnh sinh hữu hạn
+      zh: 有限生成射影
+      ja: 有限生成射影
     - en: increasing
       vi: tăng
+      zh: 递增
+      ja: 増加する
     - en: nil ideal
       vi: iđêan nil
+      zh: 幂零理想
+      ja: 冪零イデアル
     - en: nilpotent element
       vi: phần tử lũy linh
+      zh: 幂零元
+      ja: 冪零元
     - en: simple submodule
       vi: môđun con đơn
+      zh: 简单子模
+      ja: 単純部分加群
     - en: subsection
       vi: tiểu mục
+      zh: 小节
+      ja: 小節
     - en: composition
       vi: hợp thành
+      zh: 合成
+      ja: 合成
     - en: minimal left ideal
       vi: iđêan trái tối tiểu
+      zh: 极小左理想
+      ja: 極小左イデアル
     - en: right artinian
       vi: Artin phải
+      zh: 右阿廷
+      ja: 右アルティン
     - en: term
       vi: số hạng
+      zh: 项
+      ja: 項
     - en: conjugacy class
       vi: lớp liên hợp
+      zh: 共轭类
+      ja: 共役類
     - en: external
       vi: ngoài
+      zh: 外部
+      ja: 外部
     - en: finitely generated module
       vi: môđun hữu hạn sinh
+      zh: 有限生成模
+      ja: 有限生成加群
     - en: galois algebra
       vi: đại số Galois
+      zh: 伽罗瓦代数
+      ja: ガロア代数
     - en: galois group
       vi: nhóm Galois
+      zh: 伽罗瓦群
+      ja: ガロア群
     - en: grothendieck group
       vi: nhóm Grothendieck
+      zh: 格罗滕迪克群
+      ja: グロタンディーク群
     - en: jordan hölder series
       vi: chuỗi Jordan–Hölder
+      zh: 约当-赫尔德序列
+      ja: ジョルダン・ヘルダー系列
     - en: left fractions
       vi: phân thức trái
+      zh: 左分式
+      ja: 左分数
     - en: pairwise
       vi: từng đôi một
+      zh: 两两
+      ja: 互いに
     - en: resp right
       vi: tương ứng phải
+      zh: 分别右
+      ja: それぞれ右
     - en: root
       vi: nghiệm
+      zh: 根
+      ja: 根
     - en: applying
       vi: áp dụng
+      zh: 应用
+      ja: 適用
     - en: artinian resp left noetherian
       vi: Artin, tương ứng Noether trái
+      zh: 阿廷的 resp 左诺特的
+      ja: アルティンそれぞれ左ネーター
     - en: base
       vi: cơ sở
+      zh: 基
+      ja: 基底
     - en: calculus
       vi: phép tính
+      zh: 演算
+      ja: 計算
     - en: canonical image
       vi: ảnh chính tắc
+      zh: 典范像
+      ja: 標準像
     - en: correspond
       vi: tương ứng
+      zh: 对应
+      ja: 対応する
     - en: corresponding
       vi: tương ứng
+      zh: 相应的
+      ja: 対応する
     - en: d-vector space
       vi: không gian vectơ d chiều
+      zh: d-向量空间
+      ja: d-ベクトル空間
     - en: decreasing sequence
       vi: dãy giảm
+      zh: 递减序列
+      ja: 減少列
     - en: derived
       vi: dẫn xuất
+      zh: 导出的
+      ja: 導来
     - en: finite codimension
       vi: đối chiều hữu hạn
+      zh: 有限余维
+      ja: 有限余次元
     - en: finite-dimensional vector space
       vi: không gian vectơ hữu hạn chiều
+      zh: 有限维向量空间
+      ja: 有限次元ベクトル空間
     - en: left vector space
       vi: không gian vectơ trái
+      zh: 左向量空间
+      ja: 左ベクトル空間
     - en: part
       vi: phần
+      zh: 部分
+      ja: 部分
     - en: primitive ring
       vi: vành nguyên thủy
+      zh: 本原环
+      ja: 原始環
     - en: principal ideal domain
       vi: miền iđêan chính
+      zh: 主理想整环
+      ja: 主イデアル整域
     - en: setting
       vi: đặt
+      zh: 设定
+      ja: 設定
     - en: topology
       vi: tôpô
+      zh: 拓扑
+      ja: 位相
     - en: uniqueness
       vi: tính duy nhất
+      zh: 唯一性
+      ja: 一意性
     - en: associative
       vi: kết hợp
+      zh: 结合的
+      ja: 結合的
     - en: c-module
       vi: c-môđun
+      zh: c-模
+      ja: c-加群
     - en: complete
       vi: đầy đủ
+      zh: 完备的
+      ja: 完備
     - en: free a-module
       vi: môđun tự do trên a
+      zh: 自由a-模
+      ja: 自由a-加群
     - en: maximal commutative subfield
       vi: trường con giao hoán cực đại
+      zh: 极大交换子域
+      ja: 最大可換部分体
     - en: multiple
       vi: bội
+      zh: 倍数
+      ja: 倍数
     - en: multiplicity
       vi: bội số
+      zh: 重数
+      ja: 重複度
     - en: nonempty
       vi: khác rỗng
+      zh: 非空
+      ja: 空でない
     - en: immediately
       vi: ngay lập tức
+      zh: 立即
+      ja: 直ちに
     - en: another
       vi: khác
+      zh: 另一个
+      ja: 他の
     - en: arbitrary
       vi: tùy ý
+      zh: 任意的
+      ja: 任意の
     - en: b-linear mapping
       vi: ánh xạ tuyến tính trên b
+      zh: b-线性映射
+      ja: b-線型写像
     - en: calculate
       vi: tính
+      zh: 计算
+      ja: 計算する
     - en: complex
       vi: phức
+      zh: 复的
+      ja: 複素
     - en: diagonalizable
       vi: chéo hóa được
+      zh: 可对角化的
+      ja: 対角化可能
     - en: divisor
       vi: ước
+      zh: 除子
+      ja: 因子
     - en: essential
       vi: cốt yếu
+      zh: 本质的
+      ja: 本質的
     - en: finite generating
       vi: sinh hữu hạn
+      zh: 有限生成
+      ja: 有限生成
     - en: formal
       vi: hình thức
+      zh: 形式的
+      ja: 形式的
     - en: generator
       vi: phần tử sinh
+      zh: 生成元
+      ja: 生成元
     - en: homogeneous polynomial mapping
       vi: ánh xạ đa thức thuần nhất
+      zh: 齐次多项式映射
+      ja: 同次多項式写像
     - en: hypothesis
       vi: giả thiết
+      zh: 假设
+      ja: 仮定
     - en: isotypical a-module
       vi: môđun a đẳng kiểu
+      zh: 同型a-模
+      ja: A型等型加群
     - en: itself
       vi: chính nó
+      zh: 本身
+      ja: 自身
     - en: k-subalgebra
       vi: đại số con trên k
+      zh: k-子代数
+      ja: k部分代数
     - en: left noetherian ring
       vi: vành Noether trái
+      zh: 左诺特环
+      ja: 左ネーター環
     - en: line
       vi: dòng
+      zh: 直线
+      ja: 直線
     - en: mapping defines
       vi: ánh xạ xác định
-    - en: mapping hom
-      vi: ánh xạ đồng cấu
+      zh: 映射定义
+      ja: 写像で定める
     - en: smallest
       vi: nhỏ nhất
+      zh: 最小的
+      ja: 最小の
     - en: submodule supplementary
       vi: môđun con phụ
+      zh: 补子模
+      ja: 補部分加群
     - en: trace ideal
       vi: iđêan vết
+      zh: 迹理想
+      ja: トレースイデアル
     - en: uniquely
       vi: duy nhất
+      zh: 唯一地
+      ja: 一意的に
     - en: universal
       vi: phổ quát
+      zh: 泛的
+      ja: 普遍的
     - en: algebraically closed field
       vi: trường đóng đại số
+      zh: 代数闭域
+      ja: 代数閉体
     - en: canonical isomorphism
       vi: đẳng cấu chính tắc
+      zh: 典范同构
+      ja: 標準同型
     - en: sub-pseudomodule
       vi: môđun giả con
-    - en: th root
-      vi: căn bậc th
+      zh: 子伪模
+      ja: 部分擬加群
     - en: zero divisor
       vi: ước của không
+      zh: 零因子
+      ja: 零因子
     - en: algebraic closure
       vi: bao đóng đại số
+      zh: 代数闭包
+      ja: 代数閉包
     - en: common zero
       vi: không điểm chung
+      zh: 公共零点
+      ja: 共通零点
       note: Added by hand after a run got it wrong. The glossary has "zero" as "không", which is right for the 53 places the corpus says "is zero" and wrong here, where a zero is a root of a polynomial and Vietnamese calls that "không điểm". The row for the word was pushing the translator to write "không có không chung", which is not Vietnamese for anything. Pinned as the phrase, which masks the word inside it. It occurs once in the corpus so far and the appendix it occurs in is the Nullstellensatz, which is about nothing else.
     - en: algebraic over
       vi: đại số trên
+      zh: 在……上代数
+      ja: 上代数的
       note: Added by hand after a run got it wrong. "the elements of S are all algebraic over K" came back as "nguyên đại số trên K", which reads as algebraic integer over K and is not what the sentence says. An earlier run of the same line said "nguyên trên K", integral, which is a different theorem. The phrase occurs 8 times in the English and the word on its own occurs 44 times, so it is worth pinning as the phrase rather than as the adjective.
     - en: azumaya a-algebra
       vi: đại số A-Azumaya
+      zh: Azumaya a-代数
+      ja: アズマヤA-代数
     - en: can identify
       vi: có thể đồng nhất
+      zh: 可以确定
+      ja: 同一視できる
     - en: canonical surjection
       vi: toàn cấu chính tắc
+      zh: 典范满射
+      ja: 標準全射
     - en: commutativity
       vi: tính giao hoán
+      zh: 交换律
+      ja: 可換性
     - en: contradicts
       vi: mâu thuẫn với
+      zh: 与……矛盾
+      ja: 矛盾する
     - en: determine
       vi: xác định
+      zh: 确定
+      ja: 決定する
     - en: discrete
       vi: rời rạc
+      zh: 离散
+      ja: 離散的
     - en: endomorphism algebra
       vi: đại số tự đồng cấu
+      zh: 内同态代数
+      ja: 自己準同型環
     - en: equivalence relation
       vi: quan hệ tương đương
+      zh: 等价关系
+      ja: 同値関係
     - en: finite-dimensional representation
       vi: biểu diễn hữu hạn chiều
+      zh: 有限维表示
+      ja: 有限次元表現
     - en: indecomposable idempotent
       vi: lũy đẳng không phân tích được
+      zh: 不可分解幂等元
+      ja: 不可分解冪等元
     - en: injective homomorphism
       vi: đơn cấu
+      zh: 单同态
+      ja: 単射準同型
     - en: introduced
       vi: đưa vào
+      zh: 引入
+      ja: 導入された
     - en: inverse image
       vi: ảnh ngược
+      zh: 逆像
+      ja: 逆像
     - en: irreducible element
       vi: phần tử bất khả quy
+      zh: 不可约元
+      ja: 既約元
     - en: linear combination
       vi: tổ hợp tuyến tính
+      zh: 线性组合
+      ja: 線形結合
     - en: map
       vi: ánh xạ
+      zh: 映射
+      ja: 写像
     - en: monomial
       vi: đơn thức
+      zh: 单项式
+      ja: 単項式
     - en: must prove
       vi: phải chứng minh
+      zh: 必须证明
+      ja: 証明しなければならない
     - en: necessary
       vi: cần thiết
+      zh: 必要
+      ja: 必要な
     - en: nonzero nilpotent
       vi: phần tử lũy linh khác không
+      zh: 非零幂零元
+      ja: 非零冪零元
     - en: observing
       vi: nhận thấy
+      zh: 注意到
+      ja: 観察すると
     - en: precisely
       vi: chính xác
+      zh: 恰好
+      ja: 正確に
     - en: problem
       vi: bài toán
+      zh: 问题
+      ja: 問題
     - en: projective finitely generated
       vi: xạ ảnh hữu hạn sinh
+      zh: 有限生成射影
+      ja: 射影有限生成
     - en: proper left
       vi: trái thực sự
+      zh: 真左
+      ja: 真左
     - en: proposition consequently
       vi: mệnh đề do đó
+      zh: 命题 因而
+      ja: 命題 したがって
     - en: real
       vi: thực
+      zh: 实
+      ja: 実
     - en: reflexive
       vi: phản xạ
+      zh: 自反
+      ja: 反射的
     - en: regular left ideal
       vi: iđêan trái chính quy
+      zh: 正则左理想
+      ja: 正則左イデアル
     - en: regular maximal left
       vi: iđêan trái cực đại chính quy
+      zh: 正则极大左
+      ja: 正則極大左
     - en: replacing
       vi: thay thế
+      zh: 替换
+      ja: 置き換えること
     - en: research
       vi: nghiên cứu
+      zh: 研究
+      ja: 研究
     - en: residue
       vi: thặng dư
+      zh: 剩余类
+      ja: 剰余
     - en: ring prove
       vi: vành chứng minh
+      zh: 环 证明
+      ja: 環 証明する
     - en: simple prove
       vi: đơn giản chứng minh
+      zh: 简单 证明
+      ja: 単純 証明する
     - en: stabilizer
       vi: nhóm ổn định
+      zh: 稳定子
+      ja: 固定群
     - en: statement
       vi: mệnh đề
+      zh: 叙述
+      ja: 主張
     - en: supplement
       vi: phần bù
+      zh: 补充
+      ja: 補充
     - en: supplementary submodule
       vi: môđun con bổ sung
+      zh: 补子模
+      ja: 補部分加群
     - en: though
       vi: mặc dù
-    - en: trd trd
-      vi: vết thu gọn
-    - en: form tr
-      vi: dạng tr
+      zh: 虽然
+      ja: けれども
     - en: generating a-module
       vi: môđun A sinh
+      zh: 生成 a-模
+      ja: a-加群を生成する
     - en: group structure
       vi: cấu trúc nhóm
+      zh: 群结构
+      ja: 群構造
     - en: hermitian
       vi: Hermit
+      zh: 厄米特
+      ja: エルミート
     - en: hyperplane
       vi: siêu phẳng
+      zh: 超平面
+      ja: 超平面
     - en: infinite family
       vi: họ vô hạn
+      zh: 无限族
+      ja: 無限族
     - en: infinite-dimensional vector space
       vi: không gian vectơ vô hạn chiều
+      zh: 无限维向量空间
+      ja: 無限次元ベクトル空間
     - en: interchanging
       vi: đổi chỗ
+      zh: 交换
+      ja: 交換すること
     - en: isomorphism sends
       vi: đẳng cấu biến
+      ja: 同型写像は送る
     - en: left resp right ideal
       vi: iđêan trái tương ứng phải
+      zh: 左理想和右理想
+      ja: 左または右イデアル
     - en: linearly independent
       vi: độc lập tuyến tính
+      zh: 线性无关
+      ja: 一次独立
     - en: matrix unit
       vi: đơn vị ma trận
+      zh: 矩阵单位
+      ja: 行列単位
     - en: maximal semisimple commutative
       vi: giao hoán nửa đơn cực đại
+      zh: 极大半单交换
+      ja: 極大半単純可換
     - en: morita equivalent algebras
       vi: các đại số tương đương Morita
+      zh: 莫里塔等价代数
+      ja: Morita同値な多元環
     - en: nonzero finite
       vi: hữu hạn khác không
+      zh: 非零有限
+      ja: 非零有限
     - en: nonzero left
       vi: trái khác không
+      zh: 非零左
+      ja: 非零左
     - en: nonzero linear
       vi: tuyến tính khác không
+      zh: 非零线性
+      ja: 非零線型
     - en: nonzero ring
       vi: vành khác không
+      zh: 非零环
+      ja: 非零環
     - en: obviously
       vi: hiển nhiên
+      zh: 显然
+      ja: 明らかに
     - en: opposite algebra
       vi: đại số đối
+      zh: 反代数
+      ja: 反対多元環
     - en: pairwise nonisomorphic
       vi: đôi một không đẳng cấu
+      zh: 两两不同构
+      ja: 互いに同型でない
     - en: prime ideal
       vi: iđêan nguyên tố
+      zh: 素理想
+      ja: 素イデアル
     - en: primitive ideal
       vi: iđêan nguyên thủy
+      zh: 本原理想
+      ja: 原始イデアル
     - en: principal polynomial
       vi: đa thức chính
+      zh: 主多项式
+      ja: 主多項式
     - en: proper left ideal
       vi: iđêan trái thực sự
+      zh: 真左理想
+      ja: 真の左イデアル
     - en: proper submodule
       vi: môđun con thực sự
+      zh: 真子模
+      ja: 真部分加群
     - en: properties hold
       vi: các tính chất đúng
+      zh: 性质成立
+      ja: 性質が成り立つ
     - en: proposition applied
       vi: mệnh đề được áp dụng
+      zh: 命题应用
+      ja: 命題を適用
     - en: quotient group
       vi: nhóm thương
+      zh: 商群
+      ja: 剰余群
     - en: quotient module
       vi: môđun thương
+      zh: 商模
+      ja: 商加群
     - en: reduced norm
       vi: chuẩn rút gọn
+      zh: 约化范数
+      ja: 被約ノルム
     - en: regular maximal left ideal
       vi: iđêan trái cực đại chính quy
+      zh: 正则极大左理想
+      ja: 正則極大左イデアル
     - en: saying
       vi: nói rằng
+      zh: 说
+      ja: という
     - en: schur-s lemma
       vi: bổ đề Schur
+      zh: 舒尔引理
+      ja: Schurの補題
     - en: semilinear mapping
       vi: ánh xạ nửa tuyến tính
+      zh: 半线性映射
+      ja: 半線形写像
     - en: semisimple subalgebra
       vi: đại số con nửa đơn
+      zh: 半单子代数
+      ja: 半単純部分代数
     - en: solvable
       vi: giải được
+      zh: 可解
+      ja: 可解
     - en: stated
       vi: đã phát biểu
+      zh: 陈述
+      ja: 述べられた
     - en: submodules isomorphic
       vi: các môđun con đẳng cấu
+      zh: 子模同构
+      ja: 同型な部分加群
     - en: surjective a-linear mapping
       vi: ánh xạ a-tuyến tính toàn ánh
+      zh: 满射a-线性映射
+      ja: 全射a線型写像
     - en: torsion
       vi: xoắn
+      zh: 挠元
+      ja: 捩れ
     - en: transpose
       vi: chuyển vị
+      zh: 转置
+      ja: 転置
     - en: unique group
       vi: nhóm duy nhất
+      zh: 唯一群
+      ja: 一意な群
     - en: unique morphism
       vi: cấu xạ duy nhất
+      zh: 唯一态射
+      ja: 一意な準同型
     - en: whence
       vi: do đó
+      zh: 从而
+      ja: よって
     - en: étale subalgebra
       vi: đại số con étale
+      zh: 既约子代数
+      ja: エタール部分代数
     - en: absolutely semisimple algebra
       vi: đại số nửa đơn tuyệt đối
+      zh: 绝对半单代数
+      ja: 絶対半単純多元環
     - en: adapted
       vi: thích nghi
+      zh: 适合的
+      ja: 適合した
     - en: adjunction isomorphism
       vi: đẳng cấu liên hợp
-    - en: algebra coind
-      vi: đại số coind
+      zh: 伴随同构
+      ja: 随伴同型
     - en: algebraically closed extension
       vi: mở rộng đóng đại số
+      zh: 代数闭扩张
+      ja: 代数閉拡大
     - en: appear
       vi: xuất hiện
+      zh: 出现
+      ja: 現れる
     - en: artinian module
       vi: môđun Artin
+      zh: 阿廷模
+      ja: アルティン加群
     - en: bimodule inverse
       vi: nghịch đảo song môđun
+      zh: 逆双模
+      ja: 双加群逆元
     - en: cannot
       vi: không thể
+      zh: 不能
+      ja: できない
     - en: canonically isomorphic
       vi: đẳng cấu chính tắc
+      zh: 自然同构
+      ja: 標準的に同型
     - en: cayley k-algebra
       vi: đại số k-Cayley
+      zh: 凯莱k-代数
+      ja: ケーリーK-代数
     - en: choice
       vi: lựa chọn
+      zh: 选择
+      ja: 選択
     - en: commutator
       vi: giao hoán tử
+      zh: 换位子
+      ja: 交換子
     - en: complex number
       vi: số phức
+      zh: 复数
+      ja: 複素数
     - en: composition series
       vi: chuỗi hợp thành
+      zh: 合成列
+      ja: 組成列
     - en: corollaire
       vi: hệ quả
+      zh: 推论
+      ja: 系
     - en: dense subring
       vi: vành con trù mật
+      zh: 稠密子环
+      ja: 稠密部分環
     - en: desired property
       vi: tính chất mong muốn
+      zh: 所需性质
+      ja: 所望の性質
     - en: diagonalizable subalgebra
       vi: đại số con chéo hóa được
+      zh: 可对角化子代数
+      ja: 対角化可能部分代数
     - en: distinct integer
       vi: số nguyên phân biệt
+      zh: 不同整数
+      ja: 相異なる整数
     - en: dual basis
       vi: cơ sở đối ngẫu
+      zh: 对偶基
+      ja: 双対基底
     - en: eigenvalue
       vi: trị riêng
+      zh: 特征值
+      ja: 固有値
     - en: lifts
       vi: nâng
-    - en: linear form tr
-      vi: dạng tuyến tính tr
+      zh: 提升
+      ja: 持ち上げ
     - en: locally finite
       vi: hữu hạn địa phương
-    - en: mapping det
-      vi: ánh xạ định thức
+      zh: 局部有限
+      ja: 局所有限
     - en: memoir
       vi: hồi ký
+      zh: 回忆录
+      ja: 覚書
     - en: monogenous left
       vi: đơn sinh trái
+      zh: 单生成左
+      ja: 単生成左
     - en: multiplier
       vi: nhân tử
+      zh: 乘子
+      ja: 乗数
     - en: nilpotent endomorphism
       vi: tự đồng cấu lũy linh
+      zh: 幂零自同态
+      ja: 冪零自己準同型
     - en: nonzero finite dimension
       vi: chiều hữu hạn khác không
+      zh: 非零有限维
+      ja: 非零有限次元
     - en: nonzero idempotent
       vi: phần tử lũy đẳng khác không
+      zh: 非零幂等元
+      ja: 非零冪等元
     - en: nonzero nilpotent element
       vi: phần tử lũy linh khác không
+      zh: 非零幂零元
+      ja: 非零冪零元
     - en: obvious
       vi: hiển nhiên
+      zh: 显然
+      ja: 明らか
     - en: polynomial ring
       vi: vành đa thức
+      zh: 多项式环
+      ja: 多項式環
     - en: prove theorem
       vi: chứng minh định lý
+      zh: 证明定理
+      ja: 定理を証明する
     - en: purely
       vi: thuần túy
+      zh: 纯粹地
+      ja: 純粋に
     - en: radical extension
       vi: mở rộng căn
+      zh: 根式扩张
+      ja: 根基拡大
     - en: rational fractions
       vi: phân thức hữu tỉ
+      zh: 有理分式
+      ja: 有理分数
     - en: real number
       vi: số thực
+      zh: 实数
+      ja: 実数
     - en: reduced trace
       vi: vết rút gọn
+      zh: 约化迹
+      ja: 簡約トレース
     - en: relation implies
       vi: quan hệ suy ra
+      zh: 关系蕴含
+      ja: 関係は意味する
     - en: resp bijective
       vi: tương ứng song ánh
+      zh: 分别双射
+      ja: それぞれ全単射
     - en: resulting
       vi: thu được
+      zh: 所得的
+      ja: 結果として得られる
     - en: right d-vector space
       vi: không gian vectơ phải trên d
+      zh: 右d-向量空间
+      ja: 右Dベクトル空間
     - en: school
       vi: trường phái
+      zh: 学校
+      ja: 学派
     - en: semiprimordial module
       vi: môđun nửa nguyên thủy
+      zh: 半原始模
+      ja: 半原始加群
     - en: semisimple resp isotypical
       vi: nửa đơn, tương ứng đẳng kiểu
+      zh: 半单的分别等型的
+      ja: 半単純
     - en: simple right a-module
       vi: môđun phải đơn trên a
+      zh: 单纯右a-模
+      ja: 単純右a-加群
     - en: structure theorem
       vi: định lý cấu trúc
+      zh: 结构定理
+      ja: 構造定理
     - en: subcogebra
       vi: đối đại số con
+      zh: 子余代数
+      ja: 部余代数
     - en: sufficiently large
       vi: đủ lớn
+      zh: 足够大
+      ja: 十分大きい
     - en: tracial mapping
       vi: ánh xạ có vết
+      zh: 迹映射
+      ja: トレース写像
     - en: transcendental
       vi: siêu việt
+      zh: 超越的
+      ja: 超越的
     - en: transitively
       vi: bắc cầu
+      zh: 传递地
+      ja: 推移的に
     - en: two-sided nil ideal
       vi: iđêan lũy linh hai phía
+      zh: 双边幂零理想
+      ja: 両側冪零イデアル
     - en: unique endomorphism
       vi: tự đồng cấu duy nhất
+      zh: 唯一内同态
+      ja: 一意な自己準同型
     - en: unique group homomorphism
       vi: đồng cấu nhóm duy nhất
+      zh: 唯一群同态
+      ja: 一意な群準同型
     - en: unramified
       vi: không phân nhánh
+      zh: 非分歧的
+      ja: 不分岐
     - en: upper
       vi: trên
+      zh: 上
+      ja: 上
     - en: use proposition
       vi: sử dụng mệnh đề
+      zh: 应用命题
+      ja: 命題を用いる
     - en: adapted basis
       vi: cơ sở thích nghi
+      zh: 适应基
+      ja: 適合基底
     - en: after
       vi: sau
+      zh: 之后
+      ja: 後で
     - en: algebra deduced
       vi: đại số suy ra
+      zh: 推出的代数
+      ja: 導出された代数
     - en: alternative cayley
       vi: đại số thay thế Cayley
+      zh: 凯莱代数
+      ja: 別のケイリー
     - en: apply corollary
       vi: áp dụng hệ quả
+      zh: 应用推论
+      ja: 系を適用する
     - en: apply theorem
       vi: áp dụng định lý
+      zh: 应用定理
+      ja: 定理を適用する
     - en: artinian left
       vi: Artin trái
+      zh: 左阿廷
+      ja: 左アルティン
     - en: burnside-s theorem
       vi: định lý Burnside
+      zh: 伯恩赛德定理
+      ja: バーンサイドの定理
     - en: can prove
       vi: có thể chứng minh
+      zh: 可以证明
+      ja: 証明できる
     - en: cancellable
       vi: giản ước được
+      zh: 可消去
+      ja: 消去可能
     - en: characteristic zero
       vi: đặc số không
+      zh: 特征零
+      ja: 標数0
     - en: coboundary
       vi: đối biên
+      zh: 余边缘
+      ja: コバウンダリー
     - en: cocycle relation
       vi: quan hệ đối chu trình
+      zh: 余循环关系
+      ja: コサイクル関係
     - en: cohomology
       vi: đối đồng điều
+      zh: 上同调
+      ja: コホモロジー
     - en: cokernel
       vi: đối hạt nhân
+      zh: 余核
+      ja: 余核
     - en: common center
       vi: tâm chung
+      zh: 公共中心
+      ja: 共通中心
     - en: commutation
       vi: giao hoán
+      zh: 交换
+      ja: 交換
     - en: commutative local ring
       vi: vành địa phương giao hoán
+      zh: 交换局部环
+      ja: 可換局所環
     - en: conclude using
       vi: kết luận bằng cách sử dụng
+      zh: 利用得出
+      ja: を用いて結論する
     - en: coproduct
       vi: đồng tích
+      zh: 余积
+      ja: 余積
     - en: decomposable
       vi: phân tích được
+      zh: 可分解的
+      ja: 分解可能
     - en: diagonal matrix
       vi: ma trận đường chéo
+      zh: 对角矩阵
+      ja: 対角行列
     - en: direct system
       vi: hệ trực tiếp
-    - en: dual hom
-      vi: đồng cấu đối ngẫu
+      zh: 直接系统
+      ja: 直接系
     - en: elements invariant
       vi: các phần tử bất biến
+      zh: 不变元素
+      ja: 不変元
     - en: empty
       vi: rỗng
-    - en: end consisting
-      vi: kết thúc gồm
-    - en: end generated
-      vi: kết thúc sinh bởi
+      zh: 空的
+      ja: 空
     - en: nonzero vector
       vi: vectơ khác không
+      zh: 非零向量
+      ja: 非零ベクトル
     - en: nothing
       vi: không có gì
+      zh: 无
+      ja: 何もない
     - en: observed
       vi: nhận thấy
+      zh: 观察到
+      ja: 観測された
     - en: ordered field
       vi: trường có thứ tự
+      zh: 有序域
+      ja: 順序体
     - en: pairwise orthogonal
       vi: trực giao từng đôi một
+      zh: 两两正交
+      ja: 互いに直交する
     - en: possible
       vi: có thể
+      zh: 可能的
+      ja: 可能
     - en: primary
       vi: nguyên sơ
+      zh: 拟素的
+      ja: 一次的
     - en: proposition assertion
       vi: mệnh đề
+      zh: 命题断言
+      ja: 命題の主張
     - en: prove assertion
       vi: chứng minh mệnh đề
+      zh: 证明断言
+      ja: 主張を証明する
     - en: proving
       vi: chứng minh
+      zh: 证明
+      ja: 証明
     - en: quadratic algebra
       vi: đại số bậc hai
+      zh: 二次代数
+      ja: 二次代数
     - en: quasi-simple ring
       vi: vành gần đơn
+      zh: 拟单环
+      ja: 準単純環
     - en: r-algebra
       vi: đại số trên r
+      zh: r-代数
+      ja: r-代数
     - en: reciprocity
       vi: luật tương hỗ
+      zh: 互反性
+      ja: 相反律
     - en: regular element
       vi: phần tử chính quy
+      zh: 正则元素
+      ja: 正則元
     - en: representation induced
       vi: biểu diễn cảm sinh
+      zh: 诱导表示
+      ja: 誘導された表現
     - en: restricts
       vi: hạn chế
+      zh: 限制
+      ja: 制限する
     - en: right action
       vi: tác động phải
+      zh: 右作用
+      ja: 右作用
     - en: right annihilator
       vi: linh tử phải
+      zh: 右湮灭子
+      ja: 右零化イデアル
     - en: right d-module
       vi: môđun phải trên d
+      zh: 右d-模
+      ja: 右d-加群
     - en: right length
       vi: độ dài phải
+      zh: 右长度
+      ja: 右長さ
     - en: right regular
       vi: chính quy phải
+      zh: 右正则
+      ja: 右正則
     - en: semidirect product
       vi: tích nửa trực tiếp
+      zh: 半直积
+      ja: 半直積
     - en: semisimple commutative algebra
       vi: đại số giao hoán nửa đơn
+      zh: 半单交换代数
+      ja: 半単純可換代数
     - en: semitrivial
       vi: nửa tầm thường
+      zh: 半平凡
+      ja: 半自明
     - en: simple subalgebra
       vi: đại số con đơn
+      zh: 单子代数
+      ja: 単純部分代数
     - en: solution
       vi: nghiệm
+      zh: 解
+      ja: 解
     - en: split exact sequence
       vi: dãy khớp tách
+      zh: 分裂正合序列
+      ja: 分裂完全列
     - en: square matrices
       vi: ma trận vuông
+      zh: 方阵
+      ja: 正方行列
     - en: structure defined
       vi: cấu trúc được xác định
+      zh: 定义的结构
+      ja: 定義された構造
     - en: submonoid
       vi: monoid con
+      zh: 子幺半群
+      ja: 部分モノイド
     - en: subrepresentation
       vi: biểu diễn con
+      zh: 子表示
+      ja: 部分表現
     - en: surjective endomorphism
       vi: tự đồng cấu toàn ánh
+      zh: 满射自同态
+      ja: 全射自己準同型
     - en: théorème
       vi: định lý
+      zh: 定理
+      ja: 定理
     - en: transitive
       vi: bắc cầu
+      zh: 传递的
+      ja: 推移的
     - en: unique algebra
       vi: đại số duy nhất
+      zh: 唯一代数
+      ja: 一意な代数
     - en: unique k-linear mapping
       vi: ánh xạ k-tuyến tính duy nhất
+      zh: 唯一的 k-线性映射
+      ja: 一意なk線型写像
     - en: unique mapping
       vi: ánh xạ duy nhất
+      zh: 唯一映射
+      ja: 一意な写像
     - en: unique maximal left
       vi: duy nhất cực đại trái
+      zh: 唯一极大左
+      ja: 一意な極大左
     - en: unique minimal
       vi: duy nhất tối tiểu
+      zh: 唯一极小
+      ja: 一意な極小
     - en: unit representation
       vi: biểu diễn đơn vị
+      zh: 单位表示
+      ja: 単位表現
     - en: unless
       vi: trừ khi
+      zh: 除非
+      ja: 〜でない限り
     - en: upper bound
       vi: cận trên
+      zh: 上界
+      ja: 上界
     - en: weakly additive function
       vi: hàm cộng tính yếu
+      zh: 弱可加函数
+      ja: 弱加法的関数
     - en: absolutely semisimple module
       vi: môđun nửa đơn tuyệt đối
+      zh: 绝对半单模
+      ja: 絶対半単純加群
     - en: alternating
       vi: phản xứng
+      zh: 交错的
+      ja: 交代的
     - en: base field
       vi: trường cơ sở
+      zh: 基域
+      ja: 基礎体
     - en: density theorem
       vi: định lý mật độ
+      zh: 稠密性定理
+      ja: 密度定理
     - en: generalization
       vi: phép tổng quát hóa
+      zh: 推广
+      ja: 一般化
     - en: inflation homomorphism
       vi: đồng cấu lạm phát
+      zh: 膨胀同态
+      ja: インフレーション準同型
     - en: maximal ordered field
       vi: trường có thứ tự cực đại
+      zh: 极大有序域
+      ja: 極大順序体
     - en: maximal étale subalgebra
       vi: dưới đại số étale cực đại
+      zh: 极大étale子代数
+      ja: 極大エタール部分代数
     - en: noetherian module
       vi: môđun Noether
+      zh: 诺特模
+      ja: ネーター加群
     - en: restriction homomorphism
       vi: đồng cấu hạn chế
+      zh: 限制同态
+      ja: 制限準同型
     - en: separably closed field
       vi: trường đóng khả ly
+      zh: 可分闭域
+      ja: 分離閉体
     - en: simple factor
       vi: thừa số đơn
+      zh: 单因子
+      ja: 単純因子
     - en: amalgamated sum
       vi: tổng dính
+      zh: 粘合和
+      ja: 融合和
     - en: block
       vi: khối
+      zh: 块
+      ja: ブロック
     - en: change
       vi: thay đổi
+      zh: 变换
+      ja: 変更
     - en: chapter
       vi: chương
+      zh: 章
+      ja: 章
     - en: cohomology group
       vi: nhóm đối đồng điều
+      zh: 上同调群
+      ja: コホモロジー群
     - en: corestriction homomorphism
       vi: đồng cấu đối hạn chế
+      zh: 上限制同态
+      ja: コアストリクション準同型
     - en: correspondence
       vi: sự tương ứng
+      zh: 对应
+      ja: 対応
     - en: direct image
       vi: ảnh trực tiếp
+      zh: 直接像
+      ja: 直像
     - en: group law
       vi: luật nhóm
+      zh: 群运算
+      ja: 群法則
     - en: maximal étale
       vi: étale cực đại
+      zh: 极大étale
+      ja: 極大エタール
     - en: operation
       vi: phép toán
+      zh: 运算
+      ja: 演算
     - en: prime radical
       vi: căn nguyên tố
+      zh: 素根
+      ja: 素根基
     - en: primordial multiplicity
       vi: bội nguyên thủy
+      zh: 原始重数
+      ja: 原始多重度
     - en: restricted
       vi: hạn chế
+      zh: 限制的
+      ja: 制限された
     - en: schur orthogonality relations
       vi: các hệ thức trực giao Schur
+      zh: Schur正交关系
+      ja: シュールの直交関係
     - en: transitivity
       vi: tính bắc cầu
+      zh: 传递性
+      ja: 推移性
     - en: cardinal the index
       vi: lực lượng của chỉ số
+      zh: 基数指标
+      ja: 基数の指数
     - en: Classes of Algebras
       vi: Các lớp đại số
+      zh: 代数类
+      ja: 代数の類
     - en: Classes of Simple Modules
       vi: Các lớp môđun đơn
+      zh: 单模类
+      ja: 単純加群の類
     - en: Coefficients of a Module
       vi: Các hệ số của một môđun
+      zh: 模的系数
+      ja: 加群の係数
     - en: cohomological description
       vi: mô tả đối đồng điều
+      zh: 上同调描述
+      ja: コホモロジー的記述
     - en: Commutant and Duality
       vi: Hoán tập và đối ngẫu
+      zh: 对易子和对偶性
+      ja: 可換子環と双対性
     - en: nullstellensatz
       vi: Nullstellensatz
+      zh: 零点定理
+      ja: ヌルステレンザッツ
       note: Added by hand, and the rendering is the German word itself. The appendix heading came back as "ĐỊNH LÝ ZEROS CỦA HILBERT" on one run and "ĐỊNH LÝ NULLSTELLENSATZ CỦA HILBERT" on another, so the term needed pinning rather than leaving to the run. Vietnamese mathematical writing keeps Nullstellensatz as it stands, the way it keeps Nakayama and Noether, and "định lý zeros" is a half translation that names nothing.

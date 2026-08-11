@@ -138,7 +138,7 @@ and 88 more, which `bourbaki audit -only T10` prints in full.
 
 Soft, translation.
 
-- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` the English mentions 69 glossary terms and 1 are not in this file as the glossary writes them: free a-module (môđun tự do trên a)
+- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` the English mentions 67 glossary terms and 1 are not in this file as the glossary writes them: free a-module (môđun tự do trên a)
 
 ## L08 no translation was written by a small model (1)
 
