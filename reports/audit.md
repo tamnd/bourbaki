@@ -14,14 +14,14 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (113) |
-| mathematics | 5 | 1 | 1 | M07 (1) |
+| mathematics | 5 | 2 | 1 | M07 (1), M08 (22) |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | R01 (37) |
 | translation | 6 | 2 | 1 | L05 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-2 hard findings and 151 soft, over 47 rules that ran and 7 that could not.
+2 hard findings and 173 soft, over 48 rules that ran and 7 that could not.
 
 ## Rules that did not run
 
@@ -42,6 +42,33 @@ should trust.
 Hard, mathematics.
 
 - `content/fr/alg/VIII/exercises/a2/03.md:36` a bracket the prose opened closes inside the mathematics: )I-
+
+## M08 no matrix is left flattened into a pair of scripts (22)
+
+Soft, mathematics.
+
+- `content/en/alg/VIII/08_s8_semisimple_rings.md:342` a matrix the text layer flattened into a pair of scripts: ^{1 0}_{0 0}
+- `content/en/alg/VIII/08_s8_semisimple_rings.md:342` a matrix the text layer flattened into a pair of scripts: ^{1 0}_{1 0}
+- `content/en/alg/VIII/A2_a2_determinants_over_a_noncommutative_field.md:373` a matrix the text layer flattened into a pair of scripts: ^{a b}_{c d}
+- `content/en/alg/VIII/A2_a2_determinants_over_a_noncommutative_field.md:479` a matrix the text layer flattened into a pair of scripts: ^{1 1}_{0 1}
+- `content/en/alg/VIII/A2_a2_determinants_over_a_noncommutative_field.md:479` a matrix the text layer flattened into a pair of scripts: ^{1 0}_{1 1}
+- `content/en/alg/VIII/exercises/a2/03.md:20` a matrix the text layer flattened into a pair of scripts: _{C D}^{A B}
+- `content/en/alg/VIII/exercises/a2/03.md:36` a matrix the text layer flattened into a pair of scripts: ^{A B}_{C D}
+- `content/en/alg/VIII/exercises/a2/03.md:36` a matrix the text layer flattened into a pair of scripts: ^{D C}_{B A}
+- `content/en/alg/VIII/exercises/s21/30.md:17` a matrix the text layer flattened into a pair of scripts: ^{1 1}_{0 1}
+- `content/en/alg/VIII/exercises/s21/30.md:17` a matrix the text layer flattened into a pair of scripts: ^{1 0}_{1 1}
+- `content/en/alg/VIII/exercises/s9/31.md:15` a matrix the text layer flattened into a pair of scripts: ^{1 0}_{0 0}
+- `content/fr/alg/VIII/08_s8_anneaux_semi_simples.md:347` a matrix the text layer flattened into a pair of scripts: ^{1 0}_{0 0}
+- `content/fr/alg/VIII/08_s8_anneaux_semi_simples.md:347` a matrix the text layer flattened into a pair of scripts: ^{1 0}_{1 0}
+- `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:364` a matrix the text layer flattened into a pair of scripts: ^{a b}_{c d}
+- `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:464` a matrix the text layer flattened into a pair of scripts: ^{1 1}_{0 1}
+- `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:464` a matrix the text layer flattened into a pair of scripts: ^{1 0}_{1 1}
+- `content/fr/alg/VIII/exercises/a2/03.md:20` a matrix the text layer flattened into a pair of scripts: _{C D}^{A B}
+- `content/fr/alg/VIII/exercises/a2/03.md:38` a matrix the text layer flattened into a pair of scripts: _{C D}^{A B}
+- `content/fr/alg/VIII/exercises/a2/03.md:38` a matrix the text layer flattened into a pair of scripts: ^{D C}_{B A}
+- `content/fr/alg/VIII/exercises/s21/30.md:17` a matrix the text layer flattened into a pair of scripts: ^{1 1}_{0 1}
+- `content/fr/alg/VIII/exercises/s21/30.md:17` a matrix the text layer flattened into a pair of scripts: ^{1 0}_{1 1}
+- `content/fr/alg/VIII/exercises/s9/31.md:15` a matrix the text layer flattened into a pair of scripts: ^{1 0}_{0 0}
 
 ## R01 every in-corpus reference resolves (37)
 
