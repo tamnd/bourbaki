@@ -37,7 +37,7 @@ subsections:
       pdf_page: 94
 statements: 37
 exercises: 19
-content_sha256: aece5c2cec68b98ad6a50147c2883f91d15fd330ab63a99053e6f82ca772e673
+content_sha256: b4d599398718e84f42dbe47bfa9d4a51d98d75710e9712dba69f406f0e62272e
 ---
 
 ## § 5. COMMUTATION
@@ -307,7 +307,7 @@ L’application $\sum_{\lambda\in\mathscr{S}_M}\alpha_{\lambda}$ de $\bigoplus_{
 Il résulte de la démonstration que l’application induite
 
 $$
-_{\lambda}\sum_{\in\mathscr{S}_M}V_{\lambda}\otimes_{D^o_{\lambda}}S_{\lambda}\rightarrow M
+\sum_{\lambda\in\mathscr{S}_M}V_{\lambda}\otimes_{D^o_{\lambda}}S_{\lambda}\rightarrow M
 $$
 
 par la description canonique de M est une description du contre-module de M.

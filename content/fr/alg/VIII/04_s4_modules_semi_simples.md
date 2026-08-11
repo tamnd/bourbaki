@@ -45,7 +45,7 @@ subsections:
       pdf_page: 78
 statements: 43
 exercises: 8
-content_sha256: 60a1dc0d21b303fc354245a8107f234898dd34bcc0ff20ab7a348c4e787e7d4c
+content_sha256: e37dce7e1cf046e706aa433231b544b57d4da80e3a6eb6390841c8131045bc81
 ---
 
 ## § 4. MODULES SEMI-SIMPLES
@@ -439,7 +439,7 @@ Supposons que M soit semi-simple et $f$ surjectif. Alors $f$ induit un isomorphi
 L’application considérée dans b) est clairement un homomorphisme de groupes et c’est un homomorphisme d’anneaux lorsque M est égal à N. Soit $(f_{\lambda})_{\lambda\in\mathscr{S}}$ un élément de $\prod_{\lambda\in\mathscr{S}}$ Hom(M$_{\lambda},N_{\lambda})$. Son unique antécédent par l’application de b) est l’homomorphisme $f: M\rightarrow N$ défini par
 
 $$
-f((\sum_{\lambda\in\mathscr{S}}x_{\lambda})=_{\lambda}\sum_{\in\mathscr{S}}f_{\lambda}(x_{\lambda})
+f((\sum_{\lambda\in\mathscr{S}}x_{\lambda})=\sum_{\lambda\in\mathscr{S}}f_{\lambda}(x_{\lambda})
 $$
 
 pour tout $(x_{\lambda})_{\lambda\in\mathscr{S}}\in \bigoplus_{\lambda}M_{\lambda}$.
@@ -500,7 +500,7 @@ Jusqu’à la fin de ce paragraphe, on note A un anneau et $\mathscr{S}$ l’ens
 
 Soit M un A-module. Pour tout $\lambda \in \mathscr{S}$, Hom$_A(S_{\lambda},M)$ est un espace vectoriel à gauche sur le corps $D_{\lambda}$. D’après VIII, p. 55 et II, p. 12, prop. 6, il existe une unique application A-linéaire, dite canonique,
 
-$\alpha_M:_{\lambda}\bigoplus_{\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}$ Hom$_A(S_{\lambda},M))\rightarrow M$
+$\alpha_M:\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}$ Hom$_A(S_{\lambda},M))\rightarrow M$
 
 satisfaisant à la relation
 
@@ -560,11 +560,9 @@ C’est une traduction de la prop. 8 c) appliquée à la description canonique d
 
 Soient M et $M'$ des A-modules semi-simples et soient $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$et $((V_{\lambda}')_{\lambda\in\mathscr{S}}, \alpha ')$des descriptions de M et $M'$ respectivement. Pour toute famille $\boldsymbol{f}= (f_{\lambda})_{\lambda\in\mathscr{S}}$ de $\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V'_{\lambda})$, il existe une unique application A-linéaire $\varphi (\boldsymbol{f})\in$ Hom$_A(M,M')$rendant commutatif le diagramme
 
-$\bigoplus_{\lambda}\bigoplus_{\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})^{\alpha}$ // M
+$_{\lambda}\bigoplus_{\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})^{\alpha}$ // M
 
-$(1_{S\lambda}\otimes f_{\lambda})\varphi (\boldsymbol{f})$
-
-$\lambda \in \mathscr{S}$
+$\bigoplus_{\lambda\in\mathscr{S}}(1_{S\lambda}\otimes f_{\lambda})\varphi (\boldsymbol{f})$
 
 $_{\lambda}\bigoplus_{\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V'_{\lambda})^{\alpha'}$ // $M'$.
 
@@ -576,7 +574,7 @@ Compte tenu de la description des composants isotypiques de M et $M'$ donnée da
 
 Soient M un A-module semi-simple et $M'$ un A-module. L’application $u\rightarrow$ (Hom(1$_{S_{\lambda}}, u))_{\lambda\in\mathscr{S}}$ de Hom$_A(M,M')$dans
 
-$_{\lambda}\prod_{\in\mathscr{S}}$ Hom$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$, Hom$_A(S_{\lambda},M'))$
+$\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$, Hom$_A(S_{\lambda},M'))$
 
 est un isomorphisme de groupes. Lorsque $M'$ est égal à M, c’est un isomorphisme de l’anneau End$_A(M)$sur l’anneau $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M))$.
 
@@ -622,7 +620,7 @@ Soit M un A-module semi-simple. Il existe un cardinal $\mathbf{I}$possédant la 
 
 Les A-modules simples sont les A-modules semi-simples de longueur 1, et l’on a la formule
 
-(13) long$_A(\bigoplus_{j\in J}M_j)=\sum_{j\in J}$ long$_A(M_j)$ pour toute famille $(M_j)_{j\in J}$ de A-modules semi-simples. D’après la prop. 11, on a (14) long$_A(M) =_{\lambda}\sum_{\in\mathscr{S}}$ dim$_{D_{\lambda}}$ Hom$_A(S_{\lambda},M)$.
+(13) long$_A(\bigoplus_{j\in J}M_j)=\sum_{j\in J}$ long$_A(M_j)$ pour toute famille $(M_j)_{j\in J}$ de A-modules semi-simples. D’après la prop. 11, on a (14) long$_A(M) =\sum_{\lambda\in\mathscr{S}}$ dim$_{D_{\lambda}}$ Hom$_A(S_{\lambda},M)$.
 
 En appliquant cette formule à $M_{\lambda}$, on obtient $[M :\lambda ] =$ long$_A(M_{\lambda})$ pour tout $\lambda \in \mathscr{S}$.
 

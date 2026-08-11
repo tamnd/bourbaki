@@ -45,7 +45,7 @@ subsections:
       pdf_page: 382
 statements: 31
 exercises: 6
-content_sha256: 9e2759a713f329e86255081ee82fbaad59eda3d06df59a06b874994b17e132ab
+content_sha256: c43a7c432971ce86f8b8544a93e08146241889dabbb44fea55f67812cb0da20a
 ---
 
 ## § 20. REPRÉSENTATIONS LINÉAIRES DES ALGÈBRES
@@ -607,7 +607,7 @@ Enfin, les formules (16) et (17) entraînent que Θ(A) admet $\varepsilon$ comme
 Soit $(V, \pi )$ une représentation linéaire de dimension finie de l’algèbre A. Introduisons une base $(e_1, . . . , e_n)$ de V et la base duale $(e^*_1, . . . , e^*_n)$ de $V^*$. D’après la démonstration précédente, on a la relation
 
 $$
-c(c_{\pi}(x, x^*)) =_k\sum^n_{=1}c_{\pi}(e_k, x^*)\otimes c_{\pi}(x, e^*_k) \tag{19}
+c(c_{\pi}(x, x^*)) =\sum_{k=1}^nc_{\pi}(e_k, x^*)\otimes c_{\pi}(x, e^*_k) \tag{19}
 $$
 
 pour $x\in V$ et $x^*\in V^*$. En particulier, posons $\pi_{ij}=c_{\pi}(e_j, e^*_i)$, de sorte que pour tout $a\in A$, la matrice de $\pi (a)$ par rapport à la base $(e_1, . . . , e_n)$ de V est égale à $(\pi_{ij}(a))$. On a alors, pour $1\leqslant i\leqslant n$ et $1\leqslant j\leqslant n$,

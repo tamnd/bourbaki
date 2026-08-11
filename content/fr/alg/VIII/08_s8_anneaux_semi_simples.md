@@ -29,7 +29,7 @@ subsections:
       pdf_page: 147
 statements: 30
 exercises: 6
-content_sha256: f7614e102689af7091ec22e872fd129185cbbf598a1ec3b3ecff92bcf851ffa3
+content_sha256: 6ea92f41770ad3a64d6fe597643c80deebe81e0e65e06b90aa4840f14588b49f
 ---
 
 ## § 8. ANNEAUX SEMI-SIMPLES
@@ -276,7 +276,7 @@ Soit $\lambda \in \mathscr{S}$. Le composant isotypique $\mathfrak{a}_{\lambda}$
 
 et
 
-(2) long(A) = long(A$^o) =_{\lambda}\sum_{\in\mathscr{S}}$ dim$_{D_{\lambda}}S_{\lambda}$.
+(2) long(A) = long(A$^o) =\sum_{\lambda\in\mathscr{S}}$ dim$_{D_{\lambda}}S_{\lambda}$.
 
 La première assertion est le cas particulier $M = A_s$ de la prop. 6, c) de VIII, p. 135. L’égalité $[A_s: S_{\lambda}] = [A_d: S^*_{\lambda}]$ résulte de la prop. 7 de VIII, p. 136, puisque le dual du A-module à gauche $A_s$ est isomorphe au A-module à droite $A_d$. D’après les prop. 8, a) de VIII, p. 137 et 9, c) de VIII, p. 137, l’application $a\rightarrow a_{S_{\lambda}}$ définit un isomorphisme de A-modules à gauche de $\mathfrak{a}_{\lambda}$ sur End$_{D_{\lambda}}(S_{\lambda})$. Comme $[A_s: S_{\lambda}]$ est, par définition, la longueur du A-module à gauche $\mathfrak{a}_{\lambda}$, la relation $[A_s: S_{\lambda}] =$ dim$_{D_{\lambda}}S_{\lambda}$ résulte du lemme 2 de VIII, p. 117. Enfin, la formule (2) s’obtient à partir de (1) par sommation sur $\lambda$.
 
@@ -395,7 +395,7 @@ Soit $(\mathfrak{m}_i)_{i\in I}$ une famille d’idéaux à gauche minimaux de A
 Pour tout $\lambda \in \mathscr{S}$, notons $S_{\lambda}$ un A-module de classe $\lambda$ et $\mathfrak{a}_{\lambda}$ le composant isotypique de type $\lambda$ du A-module $A_s$. Comme A est somme directe de la famille $(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$, il existe une partition $(e_{\lambda})_{\lambda\in\mathscr{S}}$ de 1 telle que $\mathfrak{a}_{\lambda}= Ae_{\lambda}$ pour tout $\lambda \in \mathscr{S}$. Pour $\lambda \in \mathscr{S}$, notons $I(\lambda )$ l’ensemble des indices $i\in I$ tels que le A-module simple $\mathfrak{m}_i$ soit de type $\lambda$; d’après la prop. 4, b) de VIII, p. 61, on a
 
 $$
-\mathfrak{a}_{\lambda}=_{i\in}\bigoplus_{I(\lambda)}\mathfrak{m}_i \tag{3}
+\mathfrak{a}_{\lambda}=\bigoplus_{i\in I(\lambda)}\mathfrak{m}_i \tag{3}
 $$
 
 L’élément idempotent $e_{\lambda}$ est la composante de 1 dans $\mathfrak{a}_{\lambda}$, donc $e_{\lambda}=\sum_{i\in I(\lambda)}\varepsilon_i$.

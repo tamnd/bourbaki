@@ -22,7 +22,7 @@ subsections:
       pdf_page: 455
 statements: 5
 exercises: 2
-content_sha256: d110c1adcfddd6668d46dca7ed5b56aa31adc30008aa3ab650de106c31e6b5e2
+content_sha256: 61723c841f5b4b121b1f809e79591cd5a8f85f6783252c80270eac319d22bc45
 ---
 
 ### APPENDICE 4 TRACE D’UN ENDOMORPHISME DE RANG FINI
@@ -62,10 +62,10 @@ $$
 pour tout $x\in E$. On a alors
 
 $$
-u(x) =p(i(u(x))) =\sum\langle x, x^*_j\rangle p(y_j)
+u(x) =p(i(u(x))) =\sum_{j\in J}\langle x, x^*_j\rangle p(y_j)
 $$
 
-pour tout $x\in E$, d’où $u=\theta (\sum_{j\in J}x^*_j\otimes p(y_j))^j.^{\in J}$
+pour tout $x\in E$, d’où $u=\theta (\sum_{j\in J}x^*_j\otimes p(y_j))$.
 
 ### 2. Trace d’un endomorphisme de rang fini
 

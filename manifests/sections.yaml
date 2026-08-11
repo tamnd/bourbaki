@@ -393,7 +393,7 @@ books:
               statements: 36
               exercises: 19
               extraction: native
-              content_sha256: fd3e394602da6e71aad5de6ee7324db7ff388191fb53db1d7b833c4ff9dd9421
+              content_sha256: 0a77b5275a27d87e0748aea796e354dd4a195ec9be0de1dd185c21b4c7806e72
             - kind: section
               section: 3
               title: Modules simples
@@ -419,7 +419,7 @@ books:
               statements: 43
               exercises: 8
               extraction: native
-              content_sha256: 60a1dc0d21b303fc354245a8107f234898dd34bcc0ff20ab7a348c4e787e7d4c
+              content_sha256: e37dce7e1cf046e706aa433231b544b57d4da80e3a6eb6390841c8131045bc81
             - kind: section
               section: 5
               title: Commutation
@@ -432,7 +432,7 @@ books:
               statements: 37
               exercises: 19
               extraction: native
-              content_sha256: aece5c2cec68b98ad6a50147c2883f91d15fd330ab63a99053e6f82ca772e673
+              content_sha256: b4d599398718e84f42dbe47bfa9d4a51d98d75710e9712dba69f406f0e62272e
             - kind: section
               section: 6
               title: Équivalence de Morita des modules et des algèbres
@@ -471,7 +471,7 @@ books:
               statements: 30
               exercises: 6
               extraction: native
-              content_sha256: f7614e102689af7091ec22e872fd129185cbbf598a1ec3b3ecff92bcf851ffa3
+              content_sha256: 6ea92f41770ad3a64d6fe597643c80deebe81e0e65e06b90aa4840f14588b49f
             - kind: section
               section: 9
               title: Radical
@@ -510,7 +510,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native
-              content_sha256: 0fc401ee0d7604364efa2d8b576edc5568c0ed1f93868cd7db65de2c141d107f
+              content_sha256: fd7b17e55eb01d077b55b41989952c9f95f654fe728871874512c95173cd150f
             - kind: section
               section: 12
               title: Produit tensoriel de modules semi-simples
@@ -523,7 +523,7 @@ books:
               statements: 26
               exercises: 17
               extraction: native
-              content_sha256: 9e42892d72dc2ab26c82028829284468e5686373270b4f69406c6225b1a5cc75
+              content_sha256: 462225e0ce5ca6e64289c41290358cdcb9e28b091e9b82016369f508c575066f
             - kind: section
               section: 13
               title: Algèbres absolument semi-simples
@@ -536,7 +536,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native
-              content_sha256: c7f93d1340e9e40d690486ff7ff74c95d05068f7f8a59fa05cade20ab588afbe
+              content_sha256: 7a49f4aba9b6c31b177f7d08366915327844f62d5f21e0e59db0b2df38a1dd30
             - kind: section
               section: 14
               title: Algèbres centrales et simples
@@ -575,7 +575,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: d1015817dc08c515eb839832bffdb00433e5d252f251f0696bdcb91e61212ee6
+              content_sha256: 162eee098558a3ca1ce573c2b473e7b62d9c5c5935d94678ef5a2f1d3670df4e
             - kind: section
               section: 17
               title: Normes et traces réduites
@@ -588,7 +588,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: 4f7f076ba392a9bdfbfecc3859411c4b705573b22582fd9ab07f4380e948d67d
+              content_sha256: a6c8d410a8469c6eb400235dbce706e0bac826c98a4e5fca97c924ff472407db
             - kind: section
               section: 18
               title: Algèbres simples sur un corps fini
@@ -601,7 +601,7 @@ books:
               statements: 10
               exercises: 7
               extraction: native
-              content_sha256: 5c5cb7e7e59e66b069178c7d5bb1b6e6ce390914bc0d9df9e79b78f2b4d44b9c
+              content_sha256: 19d7b2552974dbc633d8e8cb4ddbcf0a72c831c8eaa08af7f8343da0df5e7cbc
             - kind: section
               section: 19
               title: Algèbres de quaternions
@@ -627,7 +627,7 @@ books:
               statements: 31
               exercises: 6
               extraction: native
-              content_sha256: 9e2759a713f329e86255081ee82fbaad59eda3d06df59a06b874994b17e132ab
+              content_sha256: c43a7c432971ce86f8b8544a93e08146241889dabbb44fea55f67812cb0da20a
             - kind: section
               section: 21
               title: Représentations linéaires des groupes finis
@@ -640,7 +640,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: d7e3e3fb03067fed80d812c20ecaec5423bb7471560c5404774090b7dff01702
+              content_sha256: 49c4d19f3a925bc02a97bc6023099ba99b3e6e0296c9f3c5b7fe0dab9089b729
             - kind: appendix
               section: 1
               title: Algèbres sans élément unité
@@ -692,7 +692,7 @@ books:
               statements: 5
               exercises: 2
               extraction: native
-              content_sha256: d110c1adcfddd6668d46dca7ed5b56aa31adc30008aa3ab650de106c31e6b5e2
+              content_sha256: 61723c841f5b4b121b1f809e79591cd5a8f85f6783252c80270eac319d22bc45
             - kind: historical
               title: Historical Note
               path: content/fr/alg/VIII/historical_note.md

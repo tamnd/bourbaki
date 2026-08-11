@@ -45,7 +45,7 @@ subsections:
       pdf_page: 242
 statements: 33
 exercises: 12
-content_sha256: c7f93d1340e9e40d690486ff7ff74c95d05068f7f8a59fa05cade20ab588afbe
+content_sha256: 7a49f4aba9b6c31b177f7d08366915327844f62d5f21e0e59db0b2df38a1dd30
 ---
 
 ## § 13. ALGÈBRES ABSOLUMENT SEMI-SIMPLES
@@ -355,11 +355,11 @@ $$
 et l’on en déduit
 
 $$
-d_{n-1}\circ d_n=\sum(-1)^{i+j}d_{n-1}^i\circ d_n^j+\sum(-1)^{i+j}d_{n-1}^i\circ d_n^j
+d_{n-1}\circ d_n=\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_{n-1}^i\circ d_n^j+\sum_{0\leqslant j\leqslant i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
 $$
 
 $$
-=^0_0^{\leqslant}_{\leqslant}\sum^{i<j}_{i<j}^{\leqslant}_{\leqslant}^n_n(-1)^{i+j}d_n^j_-^{-1}_1\circ d_n^i+^0_0^{\leqslant}_{\leqslant}^j_j^{\leqslant}_{\leqslant}\sum^i_i^{\leqslant}_{\leqslant}^n_n^-_-^1_1(-1)^{i+j}d_{n-1}^i\circ d_n^j
+=\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_n^j_-^{-1}_1\circ d_n^i+\sum_{0\leqslant j\leqslant i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
 $$
 
 d’où
@@ -403,7 +403,7 @@ $$
 $$
 
 $$
-+^n\sum_{i=0}^{-1}(-1)^{i+1}f(x_0, . . . , x_{i-1}, x_ix_{i+1}, x_{i+2}, . . . , x_n) \tag{10}
++\sum^{n-1}_{i=0}(-1)^{i+1}f(x_0, . . . , x_{i-1}, x_ix_{i+1}, x_{i+2}, . . . , x_n) \tag{10}
 $$
 
 $$
@@ -477,13 +477,13 @@ $$
 $$
 
 $$
-= (d^0_{n+1}\circ d^1_{n+2})(e\otimes x)-^n\sum_{i=2}^{+2}(-1)^i(d_{n+1}^{i-1}\circ d^1_{n+2})(e\otimes x)
+= (d^0_{n+1}\circ d^1_{n+2})(e\otimes x)-\sum^{n+2}_{i=2}(-1)^i(d_{n+1}^{i-1}\circ d^1_{n+2})(e\otimes x)
 $$
 
 d’où, par la formule (6),
 
 $$
-(d_{n+1}\circ h_n)(x) = (d^0_{n+1}\circ d^0_{n+2})(e\otimes x)-^n\sum_{i=2}^{+2}(-1)^i(d^1_{n+1}\circ d_{n+2}^i)(e\otimes x)
+(d_{n+1}\circ h_n)(x) = (d^0_{n+1}\circ d^0_{n+2})(e\otimes x)-\sum^{n+2}_{i=2}(-1)^i(d^1_{n+1}\circ d_{n+2}^i)(e\otimes x)
 $$
 
 Mais on a

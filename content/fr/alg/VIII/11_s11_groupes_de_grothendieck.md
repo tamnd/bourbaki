@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: 0fc401ee0d7604364efa2d8b576edc5568c0ed1f93868cd7db65de2c141d107f
+content_sha256: fd7b17e55eb01d077b55b41989952c9f95f654fe728871874512c95173cd150f
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -207,10 +207,10 @@ $$
 Supposons $\mathscr{C}$ héréditaire. Soient E un module de type $\mathscr{C}$ et $(E_i)_{0\leqslant i\leqslant n}$ une suite de composition de E (I, p. 39). Pour $1\leqslant i\leqslant n$, le module $E_{i-1}/E_i$ est de type $\mathscr{C}$ et l’on a
 
 $$
-\varphi (E) =\sum^n\varphi (E_{i-1}/E_i)
+\varphi (E) =\sum_{i=1}^n\varphi (E_{i-1}/E_i)
 $$
 
-Comme $\mathscr{C}$ est héréditaire, les modules $E^{i=1}_0/E_1$ et $E_1$ sont de type $\mathscr{C}$ et l’on a $\varphi (E) =\varphi (E_0/E_1)+\varphi (E_1)$. Comme la suite $(E_{i+1})_{0\leqslant i\leqslant n-1}$ est une suite de composition de $E_1$, la prop. 3 se démontre par récurrence sur $n$.
+Comme $\mathscr{C}$ est héréditaire, les modules $E_0/E_1$ et $E_1$ sont de type $\mathscr{C}$ et l’on a $\varphi (E) =\varphi (E_0/E_1)+\varphi (E_1)$. Comme la suite $(E_{i+1})_{0\leqslant i\leqslant n-1}$ est une suite de composition de $E_1$, la prop. 3 se démontre par récurrence sur $n$.
 
 ### 2. Groupe de Grothendieck d’un ensemble additif de modules
 
@@ -359,7 +359,7 @@ Soient $\Sigma '$ et $\Sigma ''$ des suites de Jordan-Hölder de $i(E')$ et de $
 Soit $\mathscr{C}$ un ensemble héréditaire de classes de modules tel que tout module de type $\mathscr{C}$ soit de longueur finie. Soit $\mathscr{S}$ l’ensemble des classes de modules simples appartenant à $\mathscr{C}$. Alors la famille $([S]_{\mathscr{C}})_{S\in\mathscr{S}}$ est une base du $\mathbf{Z}$-module $K(\mathscr{C})$et l’on a
 
 $$
-[E]_{\mathscr{C}}=_S\sum_{\in\mathscr{S}}\ell_S(E)[S]_{\mathscr{C}} \tag{8}
+[E]_{\mathscr{C}}=\sum_{S\in\mathscr{S}}\ell_S(E)[S]_{\mathscr{C}} \tag{8}
 $$
 
 pour tout module E de type $\mathscr{C}$.
@@ -724,7 +724,7 @@ Notons $\mathscr{S}$ l’ensemble (fini) des classes de A-modules simples ; pour
 
 On appelle matrice de Cartan de A la matrice $(a_{\lambda \mu})$ de l’homomorphisme de $\mathbf{Z}$-modules $\varepsilon : K_0(A)\rightarrow R(A)$ par rapport aux bases $([P_{\lambda}]_{\mathscr{P}(A)})_{\lambda\in\mathscr{S}}$ de $K_0(A)$ et $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ de R(A). Par définition, on a
 
-(19) $[P_{\mu}] =_{\lambda}\sum_{\in\mathscr{S}}a_{\lambda \mu}[S_{\lambda}]$ (pour $\mu \in \mathscr{S})$
+(19) $[P_{\mu}] =\sum_{\lambda\in\mathscr{S}}a_{\lambda \mu}[S_{\lambda}]$ (pour $\mu \in \mathscr{S})$
 
 dans le groupe R(A). Autrement dit, $a_{\lambda \mu}$ est le nombre de quotients isomorphes à $S_{\lambda}$ dans une suite de Jordan-Hölder du A-module $P_{\mu}$.
 
