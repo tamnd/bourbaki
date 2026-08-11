@@ -35,7 +35,7 @@ subsections:
       pdf_page: 472
 statements: 18
 exercises: 4
-content_sha256: d647b54a9090894b950efbf97061664e39941573675fa4a80250e9879e5560bd
+content_sha256: e305de543b32d98c15ba21c5b6114cbd9a2620969cddc897e22816641255be68
 ---
 
 ## APPENDIX 2 DETERMINANTS OVER A NONCOMMUTATIVE FIELD
@@ -262,21 +262,21 @@ This proves a); assertion b) is an immediate consequence of a).
 
 Let $n$ be a positive integer. Let us apply the above to the right vector space $D^n_d$ over the field D; the elements of $D^n_d$ are viewed as matrices with $n$ rows and one column. Let $(\varepsilon_1, . . . , \varepsilon_n)$ be the canonical basis of $D^n_d$. By Corollary 2 of VIII, p. 451, there exists a unique element $\omega_0$ of $\Omega(D^n_d)$ such that $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$. If A is an element of $\mathbf{G}\mathbf{L}_n$(D), then its columns $a_1, . . . , a_n$ form a basis of $D^n_d$; the element $\omega_0(a_1, . . . , a_n)$ of $D^*_{ab}$ is called the determinant of A and denoted by det(A). Since we have $a_i=A\varepsilon_i$ for $1\leqslant i\leqslant n$, the determinant of A is simply the determinant of the automorphism $x\mapsto Ax$ of $D^n_d$. In particular, if the field D is commutative, then the determinant of A coincides with that defined in III, §8, No. 3, p. 524.
 
-Let V be a right vector space of finite dimension $n$ over the field D, and let $(e_1, . . . , e_n)$ be a basis of V. If $u$ is an automorphism of V and A is the matrix of $u$ with respect to the basis $(e_1, . . . , e_n)$, then we have det($u) =$ det(A).
+Let V be a right vector space of finite dimension $n$ over the field D, and let $(e_1, . . . , e_n)$ be a basis of V. If $u$ is an automorphism of V and A is the matrix of $u$ with respect to the basis $(e_1, . . . , e_n)$, then we have det($u$) $=$ det(A).
 
-We denote by ($E_{ij})$ the family of matrix units of $\mathbf{M}_n(D)$ (II, §10, No. 3, p. 341). For every element $\lambda$ of D and every pair $(i, j)$ of distinct integers in $[1, n]$, we set (II, §10, No. 13, p. 361)
+We denote by ($E_{ij}$) the family of matrix units of $\mathbf{M}_n(D)$ (II, §10, No. 3, p. 341). For every element $\lambda$ of D and every pair $(i, j)$ of distinct integers in $[1, n]$, we set (II, §10, No. 13, p. 361)
 
 $$
 B_{ij}(\lambda ) =I_n+\lambda E_{ij}
 $$
 
-it is an element of $\mathbf{G}\mathbf{L}_n(D)$. If $\lambda_1, . . . , \lambda_n$ are elements of $D^*$, then the diagonal matrix diag($\lambda_1, . . . , \lambda_n)$ also belongs to $\mathbf{G}\mathbf{L}_n(D)$.
+it is an element of $\mathbf{G}\mathbf{L}_n(D)$. If $\lambda_1, . . . , \lambda_n$ are elements of $D^*$, then the diagonal matrix diag($\lambda_1, . . . , \lambda_n$) also belongs to $\mathbf{G}\mathbf{L}_n(D)$.
 
 #### Proposition 3 {#alg-viii-a2-prop-3 .statement tag=00Q6}
 
 The mapping det is the unique homomorphism from $\mathbf{G}\mathbf{L}_n(D)$ to $D^*_{ab}$ that satisfies the relations
 
-(16) det($B_{ij}(1)) = 1$ for $i\not=j$ and (17) det(diag($\lambda_1, . . . , \lambda_n)) =\pi (\lambda_1\cdots \lambda_n)$,
+(16) det($B_{ij}(1)$) $= 1$ for $i\not=j$ and (17) det(diag($\lambda_1, . . . , \lambda_n$)) $=\pi (\lambda_1\cdots \lambda_n)$,
 
 for $\lambda_1, . . . , \lambda_n\in D^*$
 
@@ -284,17 +284,17 @@ Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$ and $a_1, . . . , a_n$ be its
 
 det(A$) =\omega_0(a_1, . . . , a_n)$.
 
-Now, the columns of the matrix A diag($\lambda_1, . . . , \lambda_n)$ are $a_1\lambda_1, . . . , a_n\lambda_n$, and those of the matrix AB$_{ij}(1)$ are therefore $a_1, . . . , a_j+a_i, a_{j+1}, . . . , a_n$. Since $\omega_0$ is the unique element of $\Omega(D^n_d)$ such that $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$, we see that the determinant is the unique mapping $\varphi :\mathbf{G}\mathbf{L}_n(D)\rightarrow D^*_{ab}$ that satisfies the relations
+Now, the columns of the matrix A diag($\lambda_1, . . . , \lambda_n$) are $a_1\lambda_1, . . . , a_n\lambda_n$, and those of the matrix AB$_{ij}(1)$ are therefore $a_1, . . . , a_j+a_i, a_{j+1}, . . . , a_n$. Since $\omega_0$ is the unique element of $\Omega(D^n_d)$ such that $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$, we see that the determinant is the unique mapping $\varphi :\mathbf{G}\mathbf{L}_n(D)\rightarrow D^*_{ab}$ that satisfies the relations
 
-(18) $\varphi ($A diag($\lambda_1, . . . , \lambda_n)) =\varphi ($A$)\pi (\lambda_1\cdots \lambda_n)$, (19) $\varphi ($AB$_{ij}(1)) =\varphi ($A) for $i\not=j$, (20) $\varphi (I_n) = 1$.
+(18) $\varphi ($A diag($\lambda_1, . . . , \lambda_n$)) $=\varphi ($A$)\pi (\lambda_1\cdots \lambda_n)$, (19) $\varphi ($AB$_{ij}(1)) =\varphi ($A) for $i\not=j$, (20) $\varphi (I_n) = 1$.
 
-This proves, to begin with, that the determinant mapping satisfies relations (16) and (17). We already know that this mapping is a homomorphism from $\mathbf{G}\mathbf{L}_n(D)$ to $D^*_{ab}$. Conversely, if $\varphi$ is a homomorphism from $\mathbf{G}\mathbf{L}_n(D)$ to $D^*_{ab}$ such that $\varphi (B_{ij}(1)) = 1$ for $i\not=j$ and $\varphi$(diag($\lambda_1, . . . , \lambda_n)) =\pi (\lambda_1\cdots \lambda_n)$, then $\varphi$ satisfies relations (18) through (20) and is therefore equal to det.
+This proves, to begin with, that the determinant mapping satisfies relations (16) and (17). We already know that this mapping is a homomorphism from $\mathbf{G}\mathbf{L}_n(D)$ to $D^*_{ab}$. Conversely, if $\varphi$ is a homomorphism from $\mathbf{G}\mathbf{L}_n(D)$ to $D^*_{ab}$ such that $\varphi (B_{ij}(1)) = 1$ for $i\not=j$ and $\varphi$(diag($\lambda_1, . . . , \lambda_n$)) $=\pi (\lambda_1\cdots \lambda_n)$, then $\varphi$ satisfies relations (18) through (20) and is therefore equal to det.
 
 #### Example 1 {#alg-viii-a2-n4-exa-1 .statement tag=00Q7}
 
 The columns of the matrix $B_{ij}(\lambda )$ are $\varepsilon_1, . . . , \varepsilon_j$ + $\varepsilon_i\lambda , \varepsilon_{i+1}, . . . , \varepsilon_n$. By formula (5) of VIII, p. 448, we have
 
-(21) det($B_{ij}(\lambda )) = 1$.
+(21) det($B_{ij}(\lambda )$) $= 1$.
 
 #### Example 2 {#alg-viii-a2-n4-exa-2 .statement tag=00Q8}
 
@@ -304,7 +304,7 @@ Let $\sigma$ be a permutation of the interval $[1, n]$ in $\mathbf{N}$, with sig
 
 #### Example 3 {#alg-viii-a2-n4-exa-3 .statement tag=00Q9}
 
-Suppose $n\geqslant 1$. For every invertible diagonal matrix of the form ∆ = diag($d_1, . . . , d_n)$, we have ∆$B_{ij}(\lambda$)∆$^{-1}=B_{ij}(d_i\lambda d^-_j^1)$. Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$. By Corollary 1 of II, §10, No. 13, p. 362 and the previous formula, there exist matrices P and ∆ in $\mathbf{G}\mathbf{L}_n(D)$ such that A = P∆, that P is the product of matrices of the form $B_{ij}(\lambda )$, and that ∆ is a diagonal matrix of the form diag(1$, . . . ,1, d)$. We have det(P) = 1 by Example 1, and therefore det(A) = det(∆) $=\pi (d)$ by Proposition 3.
+Suppose $n\geqslant 1$. For every invertible diagonal matrix of the form ∆ = diag($d_1, . . . , d_n$), we have ∆$B_{ij}(\lambda$)∆$^{-1}=B_{ij}(d_i\lambda d^-_j^1)$. Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$. By Corollary 1 of II, §10, No. 13, p. 362 and the previous formula, there exist matrices P and ∆ in $\mathbf{G}\mathbf{L}_n(D)$ such that A = P∆, that P is the product of matrices of the form $B_{ij}(\lambda )$, and that ∆ is a diagonal matrix of the form diag(1$, . . . ,1, d)$. We have det(P) = 1 by Example 1, and therefore det(A) = det(∆) $=\pi (d)$ by Proposition 3.
 
 #### Example 4 {#alg-viii-a2-n4-exa-4 .statement tag=00QA}
 
@@ -316,7 +316,7 @@ for $A\in \mathbf{G}\mathbf{L}_n(D)$ follows immediately from Example 3.
 
 #### Example 5 {#alg-viii-a2-n4-exa-5 .statement tag=00QB}
 
-We have $\mathbf{G}\mathbf{L}_1(D) = D^*$, and Proposition 3 shows that we have det($a) =\pi (a)$ for $a$ in $\mathbf{G}\mathbf{L}_1(D)$.
+We have $\mathbf{G}\mathbf{L}_1(D) = D^*$, and Proposition 3 shows that we have det($a$) $=\pi (a)$ for $a$ in $\mathbf{G}\mathbf{L}_1(D)$.
 
 #### Example 6 {#alg-viii-a2-n4-exa-6 .statement tag=00QC}
 
@@ -372,7 +372,7 @@ b) Suppose $n\geqslant 3$ or Card(D) $\geqslant 3$. The derived group of $\mathb
 
 c) Suppose $n\geqslant 3$ or Card(D) $\geqslant 4$. The derived group of $\mathbf{S}\mathbf{L}_n(D)$ is equal to $\mathbf{S}\mathbf{L}_n(D)$.
 
-A) Denote by T the subgroup of $\mathbf{G}\mathbf{L}_n(D)$ generated by the matrices $B_{ij}(\lambda )$. By Example 1 of VIII, p. 454, we have det($B_{ij}(\lambda )) = 1$, and therefore $T\subset \mathbf{S}\mathbf{L}_n(D)$. To prove that these two groups are equal, it then suffices, by Example 3 of loc. cit., to prove that every matrix of the form diag(1$, . . . ,1, d)$ with $\pi (d) = 1$ belongs to T. The matrix diag(1$, . . . ,1, d)$ belongs to the image of the homomorphism $U\mapsto^{I_n}_{0^{-2}U}^0$ from $\mathbf{G}\mathbf{L}_2(D)$ to $\mathbf{G}\mathbf{L}_n(D)$; it therefore suffices to consider the case $n= 2$. Since the kernel of $\pi$ is the derived group of $D^*$, we may assume $d=uvu^{-1}v^{-1}$ with $u, v$ in $D^*$. Our assertion then follows from the equalities
+A) Denote by T the subgroup of $\mathbf{G}\mathbf{L}_n(D)$ generated by the matrices $B_{ij}(\lambda )$. By Example 1 of VIII, p. 454, we have det($B_{ij}(\lambda )$) $= 1$, and therefore $T\subset \mathbf{S}\mathbf{L}_n(D)$. To prove that these two groups are equal, it then suffices, by Example 3 of loc. cit., to prove that every matrix of the form diag(1$, . . . ,1, d)$ with $\pi (d) = 1$ belongs to T. The matrix diag(1$, . . . ,1, d)$ belongs to the image of the homomorphism $U\mapsto^{I_n}_{0^{-2}U}^0$ from $\mathbf{G}\mathbf{L}_2(D)$ to $\mathbf{G}\mathbf{L}_n(D)$; it therefore suffices to consider the case $n= 2$. Since the kernel of $\pi$ is the derived group of $D^*$, we may assume $d=uvu^{-1}v^{-1}$ with $u, v$ in $D^*$. Our assertion then follows from the equalities
 
 $(10)(u^{-1}0)((v^{-1}0)((vu$ 0 $)$ (28) = $-_-$
 

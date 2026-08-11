@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 35
 exercises: 30
-content_sha256: 013be2b8fd2774e2525215db5da4c8ac3e5a557f15839a16df4387555074dcfe
+content_sha256: 60df67bbc04879394fe5d731451df742608b8f22f1298037943f340a25a38000
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -93,7 +93,7 @@ $$
 
 consequently, when G is finite, the center Z(K[G]) of the algebra K[G] consists of the central functions.
 
-Let $(M, \pi )$ be a linear representation of G. Suppose that M is a finite-dimensional free K-module. The trace of $\pi$ is the trace of the representation of K[G] associated with $\pi$, that is (VIII, p. 382), the linear form $a\mapsto$ Tr($\pi (a))$ on K[G]. This linear form is determined by the mapping $g\mapsto$ Tr($\pi (g))$ from G to K, which we call the character of the representation $\pi$ and denote by $\chi_{\pi}$. The character of a representation is a central function (II, §4, No. 3, p. 273, Proposition 3).
+Let $(M, \pi )$ be a linear representation of G. Suppose that M is a finite-dimensional free K-module. The trace of $\pi$ is the trace of the representation of K[G] associated with $\pi$, that is (VIII, p. 382), the linear form $a\mapsto$ Tr($\pi (a)$) on K[G]. This linear form is determined by the mapping $g\mapsto$ Tr($\pi (g)$) from G to K, which we call the character of the representation $\pi$ and denote by $\chi_{\pi}$. The character of a representation is a central function (II, §4, No. 3, p. 273, Proposition 3).
 
 Let M and $M'$ be finite-dimensional free K-modules. Let $\pi$ and $\pi '$ be linear representations of G in M and $M'$, respectively. Then $M\oplus M'$ is a finite-dimensional free K-module, and, by Proposition 1 of III, §9, No. 2, p. 543, we have
 
@@ -289,7 +289,7 @@ Let H be a subgroup of G of finite index. Let $(M, \sigma )$ be a linear represe
 
 Let S be a system of representatives of $G/H$. As we saw above, the linear mapping $M^S\rightarrow$ Ind$^G_H(M)$ given by $(m_s)_{s\in S}\mapsto \sum_{s\in S}s\otimes m_s$ is a K-module isomorphism. In particular, V is a finite-dimensional free K-module. For any $g\in G$, denote by $M_g$ the image of M by the mapping $m\mapsto g\otimes m$. For all $g, g'\in G$, we have $M_g= M_{g'}$ if and only if $gH =g'H$, and V is the direct sum of the submodules $M_s$ for $s\in S$. For all $g, g'\in G$, we also have $\pi (g)M_{g'}= M_{gg'}$. For any $g\in G$, denote by $S_g$ the set of elements $s$ of S such that $s^{-1}gs\in H$. For all $g, g'\in G$ such that $g^{'-1}gg'\in H$, the automorphism $\pi (g)$ of V induces an automorphism $\pi (g)_{g'}$ of $M_{g'}$, and we have
 
-Tr($\pi (g)) =_s\sum_{\in S_g}$ Tr($\pi (g)_s) =_s\sum_{\in S_g}$ Tr($\sigma (s^{-1}gs))$.
+Tr($\pi (g)$) $=_s\sum_{\in S_g}$ Tr($\pi (g)_s$) $=_s\sum_{\in S_g}$ Tr($\sigma (s^{-1}gs)$).
 
 The last assertion of the proposition follows.
 
@@ -361,7 +361,7 @@ Denote by $\widehat{\tau}$ the trace in the algebra $F(\widehat{G})$. Let $A = (
 
 Since the mapping $\mathscr{F}$ is a K-algebra isomorphism, we have$^{\lambda\in\widehat{G}}\widehat{\tau}\circ \mathscr{F}=\tau$, and therefore
 
-$\tau (a) =\widehat{\tau}(\mathscr{F}(a)) =\widehat{\tau}(\pi_{\lambda}(a))_{\lambda\in\widehat{G}}=\sum d_{\lambda}$ Tr($\pi_{\lambda}(a)) =\sum d_{\lambda}$ Tr$_{\lambda}(a)$
+$\tau (a) =\widehat{\tau}(\mathscr{F}(a)) =\widehat{\tau}(\pi_{\lambda}(a))_{\lambda\in\widehat{G}}=\sum d_{\lambda}$ Tr($\pi_{\lambda}(a)$) $=\sum d_{\lambda}$ Tr$_{\lambda}(a)$
 
 for every $a\in K[G]$, that is $\lambda^{\in\widehat{G}\lambda\in\widehat{G}}$ (11) $\tau =\sum d_{\lambda}$ Tr$_{\lambda}$.
 
@@ -373,7 +373,7 @@ $\sum|G|$ if $g$ is the identity element, (12) $d_{\lambda}\chi_{\lambda}(g) =$
 
 it follows that for every element $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ of $F(\widehat{G})$, we have (14) $\mathscr{F}^{-1}(A) =|G|^{-1}_g\sum_{\in G\lambda}\sum_{\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda}\pi_{\lambda}(g^{-1}))g$ (“Fourier inversion formula”).
 
-For $\mu\in \widehat{G}$, denote by $j_\mu:$ End$_K(V_\mu)\longrightarrow \prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ the mapping such that $j_\mu(u) = (v_{\lambda})$, where $v_{\lambda}= 0$ if $\lambda \not=\mu$ and $v_\mu=u$. By formula (14), we have (15) $\mathscr{F}^{-1}(j_\mu(u)) =|G|^{-1}d_{\mu g}\sum_{\in G}$ Tr($u\pi_\mu(g^{-1}))g$.
+For $\mu\in \widehat{G}$, denote by $j_\mu:$ End$_K(V_\mu)\longrightarrow \prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ the mapping such that $j_\mu(u) = (v_{\lambda})$, where $v_{\lambda}= 0$ if $\lambda \not=\mu$ and $v_\mu=u$. By formula (14), we have (15) $\mathscr{F}^{-1}(j_\mu(u)) =|G|^{-1}d_{\mu g}\sum_{\in G}$ Tr($u\pi_\mu(g^{-1})$)$g$.
 
 The center of the algebra $F(\widehat{G}) =\prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ consists of the families $(a_{\lambda}1_{V_{\lambda}})_{\lambda\in\widehat{G}}$, where $(a_{\lambda})$ is a family of elements of K. It is the image by $\mathscr{F}$ of the center of the algebra K[G]. That center therefore has a basis $(e_{\lambda})_{\lambda\in\widehat{G}}$ characterized by the relation (16) $\pi_{\lambda}(e_\mu) =\delta_{\lambda \mu}1_{V_{\lambda}}$
 
@@ -395,11 +395,11 @@ Let $\lambda$ be an element of $\widehat{G}$. The mapping $\pi_{\lambda}$ from K
 
 We keep the notation of the previous subsection. Let $\lambda$ be an element of $\widehat{G}$, and let $u$ and $v$ be elements of End$_K(V_{\lambda})$; by formula (10), we have
 
-$\widehat{\tau}(j_{\lambda}(u)j_{\lambda}(v)) =d_{\lambda}$ Tr($uv)$. Since $\tau =\widehat{\tau}\circ \mathscr{F}$, we deduce from formulas (2) and (15) the relation
+$\widehat{\tau}(j_{\lambda}(u)j_{\lambda}(v)) =d_{\lambda}$ Tr($uv$). Since $\tau =\widehat{\tau}\circ \mathscr{F}$, we deduce from formulas (2) and (15) the relation
 
-$d^2_{\lambda}|G|^{-1}_g\sum_{\in G}$ Tr($u\pi_{\lambda}(g))$ Tr($v\pi_{\lambda}(g^{-1})) =d_{\lambda}$ Tr($uv)$.
+$d^2_{\lambda}|G|^{-1}_g\sum_{\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d_{\lambda}$ Tr($uv$).
 
-We observed previously that $d_{\lambda}.1\not= 0$ in the field K; it follows that (20) $|G|^{-1}_g\sum_{\in G}$ Tr($u\pi_{\lambda}(g))$ Tr($v\pi_{\lambda}(g^{-1})) =d^-_{\lambda}^1$ Tr($uv)$.
+We observed previously that $d_{\lambda}.1\not= 0$ in the field K; it follows that (20) $|G|^{-1}_g\sum_{\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d^-_{\lambda}^1$ Tr($uv$).
 
 Let us apply this relation to the case when $u$ and $v$ have rank $\leqslant 1$; we obtain (21) $|G|^{-1}_g\sum_{\in G}\langle x^*, \pi_{\lambda}(g)x\rangle  \langle y^*, \pi_{\lambda}(g^{-1})y\rangle =d^-_{\lambda}^1\langle x^*, y\rangle \langle y^*, x\rangle$
 
@@ -407,7 +407,7 @@ for $x,y$ in $V_{\lambda}$ and $x^*, y^*$ in the dual $V^*_{\lambda}$ of $V_{\la
 
 For every $\lambda \in \widehat{G}$, let $(e_{\lambda ,j})_{1\leqslant j\leqslant d_{\lambda}}$ be a basis of $V_{\lambda}$; denote by $(\pi^{\lambda}_{ij}(g))$ the matrix of the endomorphism $\pi_{\lambda}(g)$ of $V_{\lambda}$ with respect to this basis. If we denote by $(e^*_{\lambda ,i})_{1\leqslant i\leqslant d_{\lambda}}$ the basis of $V^*_{\lambda}$ dual to $(e_{\lambda ,j})$, then we have $\pi^{\lambda}_{ij}(g) =\langle e^*_{\lambda ,i}, \pi_{\lambda}(g)e_{\lambda ,j}\rangle$, and therefore (22) $|G|^{-1}_g\sum_{\in G}\pi_{ij}^{\lambda}(g)\pi^{\lambda}_{k`}(g^{-1}) =d^-_{\lambda}^1\delta_{i`}\delta_{jk}$.
 
-Now let $\lambda$ and $\mu$ be two distinct elements of $\widehat{G}$, and let $u\in$ End$_K(V_{\lambda})$ and $v\in$ End$_K(V_\mu)$. Again by relation (15), we have (23) $g\sum_{\in G}$ Tr($u\pi_{\lambda}(g))$ Tr($v\pi_\mu(g^{-1})) = 0$.
+Now let $\lambda$ and $\mu$ be two distinct elements of $\widehat{G}$, and let $u\in$ End$_K(V_{\lambda})$ and $v\in$ End$_K(V_\mu)$. Again by relation (15), we have (23) $g\sum_{\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_\mu(g^{-1})$) $= 0$.
 
 As above, we deduce that (24) $g\sum_{\in G}\langle x^*, \pi_{\lambda}(g)x\rangle  \langle y^*, \pi_\mu(g^{-1})y\rangle = 0$
 

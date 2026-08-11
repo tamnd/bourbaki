@@ -46,7 +46,7 @@ subsections:
       pdf_page: 88
 statements: 43
 exercises: 8
-content_sha256: 7c129df3e6bb57216018bf396d3ebcfea307672b0f7b39a7d0b5865974a0a165
+content_sha256: c5c0795cf3039991e63fc8003463c8da1183978594eca312916d512606abb8be
 ---
 
 ## § 4. SEMISIMPLE MODULES
@@ -401,7 +401,7 @@ b) Suppose that M is semisimple. The mapping $f\mapsto (f_{\lambda})_{\lambda\in
 
 For every $\lambda \in \mathscr{S}$, the submodule $f(M_{\lambda})$ of N is isomorphic to a quotient of an isotypical module of type $\lambda$; it is therefore isotypical of type $\lambda$ and, consequently, contained in $N_{\lambda}$.
 
-Suppose that M is semisimple and $f$ surjective. Then $f$ induces an isomorphism from $M/$ Ker($f)$ to N that sends $(M_{\lambda}$+Ker($f))/$ Ker($f)$ to $f(M_{\lambda})$. By Proposition 4 of VIII, p. 65, we have $N_{\lambda}=f(M_{\lambda})$, which completes the proof of a).
+Suppose that M is semisimple and $f$ surjective. Then $f$ induces an isomorphism from $M/$ Ker($f$) to N that sends $(M_{\lambda}$+Ker($f$))$/$ Ker($f$) to $f(M_{\lambda})$. By Proposition 4 of VIII, p. 65, we have $N_{\lambda}=f(M_{\lambda})$, which completes the proof of a).
 
 The mapping considered in b) is clearly a group homomorphism, and it is a ring homomorphism when M is equal to N. Let $(f_{\lambda})_{\lambda\in\mathscr{S}}$ be an element of $\prod_{\lambda\in\mathscr{S}}$ Hom(M$_{\lambda},N_{\lambda})$. The unique element of its inverse image under the mapping in b) is the homomorphism $f: M\rightarrow N$ defined by
 

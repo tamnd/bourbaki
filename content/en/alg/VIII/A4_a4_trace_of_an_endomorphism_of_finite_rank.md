@@ -23,7 +23,7 @@ subsections:
       pdf_page: 481
 statements: 5
 exercises: 2
-content_sha256: 2167cb3754935cce3c9e084a699b88c47c5ce67b1a5c6f05fa2a2e6f1718e86b
+content_sha256: da960d566cc8a0063b267d64b9918f343c1ff2a95cf3fb84b233a42b68d4329f
 ---
 
 ## APPENDIX 4 TRACE OF AN ENDOMORPHISM OF FINITE RANK
@@ -74,7 +74,7 @@ In this subsection, A denotes a commutative ring. Let E be a projective A-module
 
 #### Proposition 1 {#alg-viii-a4-prop-1 .statement tag=00QP}
 
-Let E be a free A-module. Let $(e_i)_{i\in I}$ be a basis of E, and let $(e^*_i)_{i\in I}$ be its dual basis. Let $u\in$ End$^f_A(E)$. The family $(\langle u(e_i), e^*_i\rangle )_{i\in I}$ has finite support, and its sum is equal to Tr($u)$.
+Let E be a free A-module. Let $(e_i)_{i\in I}$ be a basis of E, and let $(e^*_i)_{i\in I}$ be its dual basis. Let $u\in$ End$^f_A(E)$. The family $(\langle u(e_i), e^*_i\rangle )_{i\in I}$ has finite support, and its sum is equal to Tr($u$).
 
 It suffices to treat the case when $u$ is of the form $\theta_E(x^*\otimes x)$ with $x\in E$ and $x^*\in E^*$. The family $(\langle x, e^*_i\rangle )_{i\in I}$ then has finite support, and we have $x=\sum_{i\in I}\langle x, e^*_i\rangle e_i$. Consequently, the family $(\langle x, e^*_i\rangle \langle e_i, x^*\rangle )_{i\in I}$ also has finite support, and we have $\langle x, x^*\rangle =\sum_{i\in I}\langle x, e^*_i\rangle \langle e_i, x^*\rangle$. Now, we have $\langle u(e_i), e^*_i\rangle =\langle x, e^*_i\rangle \langle e_i, x^*\rangle$ for every $i\in I$. This proves the proposition.
 
@@ -82,17 +82,17 @@ It suffices to treat the case when $u$ is of the form $\theta_E(x^*\otimes x)$ w
 
 Let E, F be projective A-modules. Let $u\in$ Hom$^f_A(E,F)$ and $v\in$ Hom$_A(F,E)$. We have the relation
 
-(3) Tr($v\circ u) =$ Tr($u\circ v)$.
+(3) Tr($v\circ u$) $=$ Tr($u\circ v$).
 
 It suffices to prove the proposition when $u$ is of the form $\theta (x^*\otimes y)$ with $x^*\in E^*$ and $y\in F$. In this case, we have
 
 $v\circ u=\theta_E(x^*\otimes v(y))$ and $u\circ v=\theta_F(^tv(x^*)\otimes y)$, and therefore
 
-Tr($v\circ u) =\langle v(y), x^*\rangle =\langle y,^tv(x^*)\rangle =$ Tr($u\circ v)$.
+Tr($v\circ u$) $=\langle v(y), x^*\rangle =\langle y,^tv(x^*)\rangle =$ Tr($u\circ v$).
 
 #### Corollary {#alg-viii-a4-n2-cor-1 .statement tag=00QR}
 
-Let E be a projective A-module, $u$ be an element of End$^f_A(E)$, and F be a projective A-submodule of E containing Im $u$. Denote by $u_F$ the endomorphism of F induced by $u$. We have (4) Tr($u) =$ Tr($u_F)$.
+Let E be a projective A-module, $u$ be an element of End$^f_A(E)$, and F be a projective A-submodule of E containing Im $u$. Denote by $u_F$ the endomorphism of F induced by $u$. We have (4) Tr($u$) $=$ Tr($u_F$).
 
 Denote by $i$ the canonical injection of F into E and by $v: E\rightarrow F$ the homomorphism deduced from $u$. We have $u_F=v\circ i$ and $u=i\circ v$. The corollary follows.
 
@@ -116,7 +116,7 @@ a) Let $u\in$ End$^f_A(E)$. Let F be a projective A-submodule of E containing Im
 
 b) Let $u$ and $v$ be two elements of End$^f_A(E)$. We have (6) det $(1_E+u)\circ (1_E+v)$ = det(1$_E+u)$ det(1$_E+v)$.
 
-Let us prove a). For every integer $p\geqslant 0$, the projective A-module $\wedge^pF$ can be identified with a submodule of $\wedge^pE$ (III, §7, No. 9, p. 520, Corollary). The image of $\wedge^pu$ is contained in $\wedge^pF$, and the endomorphism of $\wedge^pF$ induced by $\wedge^pu$ is equal to $\wedge^pu_F$. We consequently have Tr($\wedge^pu) =$ Tr($\wedge^pu_F)$ by the
+Let us prove a). For every integer $p\geqslant 0$, the projective A-module $\wedge^pF$ can be identified with a submodule of $\wedge^pE$ (III, §7, No. 9, p. 520, Corollary). The image of $\wedge^pu$ is contained in $\wedge^pF$, and the endomorphism of $\wedge^pF$ induced by $\wedge^pu$ is equal to $\wedge^pu_F$. We consequently have Tr($\wedge^pu$) $=$ Tr($\wedge^pu_F$) by the
 
 corollary of Proposition 2, and therefore a).
 

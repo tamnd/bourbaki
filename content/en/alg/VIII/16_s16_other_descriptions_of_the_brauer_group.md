@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: 73f1f51e419c6fb9e9c0ff84b89af7c019add39c1df9e28b7aeeff9f36ce22ad
+content_sha256: 53c7db95f82c5e31362fd8faa00938e184d0c5701cb8f2338276757a0aa77bf3
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -69,7 +69,7 @@ In this section, if F is an abelian group and $g$ an automorphism of F, then we 
 
 In this subsection, we fix a group G, an abelian group F written multiplicatively, and a group homomorphism $\tau$ from G to the automorphism group Aut(F) of F. We denote the identity element of G by $e$ and the identity element of F by 1.
 
-Recall (I, §6, No. 1, p. 65) that an extension $\mathscr{E}$ of G by F is a triple $(\Gamma, \iota , \pi )$, where Γ is a group, $\pi : \Gamma\rightarrow G$ is a surjective homomorphism, and $\iota$ is an injective homomorphism from F to Γ such that Im($\iota ) =$ Ker($\pi )$. Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be such an extension. For every $\gamma \in \Gamma$, the mapping $\varphi_{\gamma}: F\rightarrow F$ defined by
+Recall (I, §6, No. 1, p. 65) that an extension $\mathscr{E}$ of G by F is a triple $(\Gamma, \iota , \pi )$, where Γ is a group, $\pi : \Gamma\rightarrow G$ is a surjective homomorphism, and $\iota$ is an injective homomorphism from F to Γ such that Im($\iota$ ) $=$ Ker($\pi$ ). Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be such an extension. For every $\gamma \in \Gamma$, the mapping $\varphi_{\gamma}: F\rightarrow F$ defined by
 
 $$
 \iota (\varphi_{\gamma}(f)) =\gamma \iota (f)\gamma^{-1}
@@ -213,7 +213,7 @@ $$
 =j(\tau (\pi (\gamma ))\cdot f)
 $$
 
-for $f\in F,\gamma \in \Gamma$, and $f'\in F'$. Consequently, the image of $j$ is a normal subgroup of $\widetilde{\Gamma}$. We denote by $\Gamma'$ the quotient of $\widetilde{\Gamma}$ by the image of $j$. We denote by $\iota '$ the composition of the canonical surjection from $\widetilde{\Gamma}$ to $\Gamma'$ and $\widetilde{\imath}$. The kernel of the homomorphism $\pi \circ \widetilde{p}$ is the product $F'\times \iota$(F), which contains the image of $j$. We define $\pi ': \Gamma'\rightarrow G$ as the group homomorphism deduced from $\pi \circ \widetilde{p}$ by passing to the quotient. Since $\iota$ is injective, the intersection of $j(F)$ and $\widetilde{\imath}(F')$ is reduced to the identity element of $\widetilde{\Gamma}$; it follows that $\iota '$ is injective. The mapping from $F'\times F$ to $F'\times \iota (F) =$ Ker($\pi \circ \widetilde{p})$ given by
+for $f\in F,\gamma \in \Gamma$, and $f'\in F'$. Consequently, the image of $j$ is a normal subgroup of $\widetilde{\Gamma}$. We denote by $\Gamma'$ the quotient of $\widetilde{\Gamma}$ by the image of $j$. We denote by $\iota '$ the composition of the canonical surjection from $\widetilde{\Gamma}$ to $\Gamma'$ and $\widetilde{\imath}$. The kernel of the homomorphism $\pi \circ \widetilde{p}$ is the product $F'\times \iota$(F), which contains the image of $j$. We define $\pi ': \Gamma'\rightarrow G$ as the group homomorphism deduced from $\pi \circ \widetilde{p}$ by passing to the quotient. Since $\iota$ is injective, the intersection of $j(F)$ and $\widetilde{\imath}(F')$ is reduced to the identity element of $\widetilde{\Gamma}$; it follows that $\iota '$ is injective. The mapping from $F'\times F$ to $F'\times \iota (F) =$ Ker($\pi \circ \widetilde{p}$) given by
 
 $$
 (f', f)\longmapsto (f'v(f), \iota (f)^{-1})
@@ -445,7 +445,7 @@ A simple calculation shows that the mapping $\partial h: G\times G\rightarrow F$
 
 $*$The notation above agrees with that of X, §6, n$_o8$, p. 112 concerning group cohomology.$*$
 
-Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be a $\tau$-extension. Let $\sigma$ be a section of the surjective mapping $\pi ($Set Theory, II, §3, No. 8, p. 86), that is, a mapping from G to Γ such that $\pi (\sigma (g)) =g$ for every $g$ in G. For every $g_1, g_2\in G$, $\sigma (g_1)\sigma (g_2)\sigma (g_1g_2)^{-1}$ belongs to Ker($\pi )$, so that there exists a unique mapping $c_{\sigma}: G\times G\rightarrow F$ such that
+Let $\mathscr{E}= (\Gamma, \iota , \pi )$ be a $\tau$-extension. Let $\sigma$ be a section of the surjective mapping $\pi ($Set Theory, II, §3, No. 8, p. 86), that is, a mapping from G to Γ such that $\pi (\sigma (g)) =g$ for every $g$ in G. For every $g_1, g_2\in G$, $\sigma (g_1)\sigma (g_2)\sigma (g_1g_2)^{-1}$ belongs to Ker($\pi$ ), so that there exists a unique mapping $c_{\sigma}: G\times G\rightarrow F$ such that
 
 $$
 \iota (c_{\sigma}(g_1, g_2)) =\sigma (g_1)\sigma (g_2)\sigma (g_1g_2)^{-1} \tag{9}
@@ -937,7 +937,7 @@ Let $\mathscr{O}$ be the set of orbits of G in $\mathscr{S}$. Given an orbit $\s
 
 a) For every $g\in G,\sigma \in \mathscr{O}$, and $\mathfrak{m}\in \sigma$, we have
 
-$[L_{\sigma}: K] =$ Card($\sigma )[L/\mathfrak{m}: K]$.
+$[L_{\sigma}: K] =$ Card($\sigma$ )$[L/\mathfrak{m}: K]$.
 
 b) The mapping $\pi :x\mapsto (\pi_{\sigma}(x))_{\sigma\in\mathscr{O}}$ is an isomorphism of $(K,G)$-algebras from L to $\prod_{\sigma\in\mathscr{O}}L_{\sigma}$.
 
@@ -953,7 +953,7 @@ The morphism $u$ is surjective with kernel $\mathfrak{a}_{\sigma}$. The mapping 
 
 Since the kernel of $\pi_{\mathfrak{m}}$ is equal to $\mathfrak{m}$, that of $u$ is equal to $\bigcap_{g\in G}g^{-1}.\mathfrak{m}=\mathfrak{a}_{\sigma}$. To prove that $u$ is surjective, it suffices to prove that the vector spaces $L_{\sigma}=$ $L/\mathfrak{a}_{\sigma}$ and $F_{\mathfrak{m}}$ have the same dimension over K. Now, all ideals $g\cdot \mathfrak{m}$ have the same codimension in L, and, by Lemma 8, a),
 
-$[L_{\sigma}: K] =$ Card($\sigma ).[L/\mathfrak{m}: K]$.
+$[L_{\sigma}: K] =$ Card($\sigma$ )$.[L/\mathfrak{m}: K]$.
 
 Moreover, by Lemma 7, b), we have
 
@@ -961,7 +961,7 @@ $$
 [F_{\mathfrak{m}}: K] = (G : G_{\mathfrak{m}})[L/\mathfrak{m}: K]
 $$
 
-Since we have Card($\sigma ) = (G : G_{\mathfrak{m}})$, we have proved the equality $[L_{\sigma}: K] =$ $[F_{\mathfrak{m}}: K]$.
+Since we have Card($\sigma$ ) $= (G : G_{\mathfrak{m}})$, we have proved the equality $[L_{\sigma}: K] =$ $[F_{\mathfrak{m}}: K]$.
 
 We now suppose, furthermore, that the homomorphism $\lambda$ from G to Aut$_K(L)$ is injective. We identify K with its image in L through the mapping $\xi \mapsto \xi \cdot 1$. Let Ω be an algebraically closed extension of K. The set $\mathscr{F}(G,\Omega)$ of mappings from G to Ω coincides with the coinduced $(\Omega$, G)-algebra Coind$^G_{\{e\}}(\Omega)$. It is a free Ω[G]-module of rank 1. Let $\mathscr{H}$ be the set of K-algebra homomorphisms from L to Ω. We define a right action of G on $\mathscr{H}$ by $(g, \chi )\mapsto \chi \circ \lambda (g)$. The Ω-algebra $\mathscr{F}(\mathscr{H},\Omega)$ is then endowed with the structure of an $(\Omega$, G)-algebra deduced from the right action of G on $\mathscr{H}$.
 
@@ -1011,7 +1011,7 @@ which holds for every $h\in H$, this can only happen if $g=e$. On the other hand
 
 [F : K] = (G : H)[E : K] = (G : H) Card(H) = Card(G).
 
-The set $\mathscr{K}$ of K-homomorphisms from F to Ω has cardinal [F : K] because F is étale (V, §6, No. 5, p. 32, Proposition 4), so Card($\mathscr{K}) =$ Card(G). Since the stabilizer of $\chi_0$ in G is equal to $\{e\}$ by the above, $\mathscr{K}$ is a homogenous principal G-set.
+The set $\mathscr{K}$ of K-homomorphisms from F to Ω has cardinal [F : K] because F is étale (V, §6, No. 5, p. 32, Proposition 4), so Card($\mathscr{K}$) $=$ Card(G). Since the stabilizer of $\chi_0$ in G is equal to $\{e\}$ by the above, $\mathscr{K}$ is a homogenous principal G-set.
 
 (ii)$\Rightarrow$(iii): Suppose that L is étale and that $\mathscr{H}$ is a homogenous principal G-set. By Lemma 10, the $(\Omega$, G)-algebras $L_{(\Omega)}$ and $\mathscr{F}(\mathscr{H},\Omega)$ are isomorphic. Since $\mathscr{H}$ is a homogenous principal G-set, the $(\Omega$, G)-algebras $\mathscr{F}(\mathscr{H},\Omega)$ and $\mathscr{F}(G,\Omega)$ are isomorphic.
 
@@ -1341,7 +1341,7 @@ be the canonical homomorphisms. By the universal property of $\mathbf{A}[\mathsc
 
 Let $\mathscr{S}$ be the set of maximal ideals of L. We define
 
-Br(L$/K) =_{\mathfrak{m}}\bigcap_{\in\mathscr{S}}$ Ker($r_{(L/\mathfrak{m})/K})$, where $r_{(L/\mathfrak{m})/K}:$ Br(K) $\rightarrow$ Br(L$/\mathfrak{m})$ is the extension of scalars homomorphism (VIII, p. 281).
+Br(L$/K) =_{\mathfrak{m}}\bigcap_{\in\mathscr{S}}$ Ker($r_{(L/\mathfrak{m})/K}$), where $r_{(L/\mathfrak{m})/K}:$ Br(K) $\rightarrow$ Br(L$/\mathfrak{m})$ is the extension of scalars homomorphism (VIII, p. 281).
 
 #### Theorem 5 {#alg-viii-s16-thm-5 .statement tag=00JM}
 

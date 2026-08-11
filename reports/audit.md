@@ -14,14 +14,14 @@ Audited: 1 chapter, 27 sections, 317 exercises, 510 extracted pages, 1023 tags, 
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (54) |
-| mathematics | 4 | 1 | 1 | M01 (5), M03 (7) |
+| mathematics | 5 | 1 | 1 | M01 (5), M03 (7), M07 (3) |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | R01 (41) |
 | translation | 6 | 2 | 1 | none |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-12 hard findings and 95 soft, over 46 rules that ran and 7 that could not.
+15 hard findings and 95 soft, over 47 rules that ran and 7 that could not.
 
 ## Rules that did not run
 
@@ -58,6 +58,14 @@ Hard, mathematics.
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:694` the letter 'Φ' where its TeX belongs inside the mathematics: with the following property: for every $\lambda$ i…
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:760` the letter 'Φ' where its TeX belongs inside the mathematics: for all $x, x'\in M$ and every $g\in G$. This also…
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:776` the letter 'Ψ' where its TeX belongs inside the mathematics: for $x, x'\in M$. Let Ψ be a Hermitian form on M; …
+
+## M07 no bracket from the prose closes inside the mathematics (3)
+
+Hard, mathematics.
+
+- `content/en/alg/VIII/exercises/a2/04.md:16` a bracket the prose opened closes inside the mathematics: u(1)) =
+- `content/en/alg/VIII/exercises/a2/04.md:16` a bracket the prose opened closes inside the mathematics: ^{st}u) =
+- `content/en/alg/VIII/exercises/a2/04.md:16` a bracket the prose opened closes inside the mathematics: u)
 
 ## R01 every in-corpus reference resolves (41)
 

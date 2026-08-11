@@ -26,7 +26,7 @@ subsections:
       pdf_page: 192
 statements: 12
 exercises: 11
-content_sha256: 3827ea2e7777b020d1470d99475e174132dea12339d89fe892179ff816262745
+content_sha256: 123a9a24186c6745ea5d0fe13afcfd30934d711e11e3d092d322373942c307bf
 ---
 
 ## § 10. MODULES OVER AN ARTINIAN RING
@@ -129,7 +129,7 @@ b) Let $(Q_i)_{i\in I}$ be a family of indecomposable projective submodules of P
 
 The fact that P is semisimple follows from Proposition 2 (VIII, p. 174). The A-module $Q =\oplus_{\lambda\in\mathscr{S}}P^{([P:}_{\lambda}^{\lambda])}$ is projective. Since $P_{\lambda}/\mathfrak{r}P_{\lambda}$ is isomorphic to $S_{\lambda}$, the quotient $Q/\mathfrak{r}Q$ is isomorphic to $\oplus_{\lambda\in\mathscr{S}}S^{([P:}_{\lambda}^{\lambda])}$, that is, to $P = P/\mathfrak{r}P$. By Proposition 5, the A-modules P and Q are isomorphic.
 
-Suppose given a family $(Q_i)_{i\in I}$ of projective and indecomposable submodules with direct sum P. By Proposition 5, the A-module $Q_i/\mathfrak{r}Q_i$ is simple for every $i\in I$. For $\lambda \in \mathscr{S}$, denote by $I(\lambda )$ the set of $i\in I$ such that $Q_i/\mathfrak{r}Q_i$ is isomorphic to $S_{\lambda}$, hence to $P_{\lambda}/\mathfrak{r}P_{\lambda}$; it is also the set of $i\in I$ such that $Q_i$ is isomorphic to $P_{\lambda}$. Since $P = P/\mathfrak{r}P$ is the direct sum of the family $(Q_i/\mathfrak{r}Q_i)_{i\in I}$, we have Card(I($\lambda )) = [P :\lambda ]$ by Theorem 1 of VIII, p. 32.
+Suppose given a family $(Q_i)_{i\in I}$ of projective and indecomposable submodules with direct sum P. By Proposition 5, the A-module $Q_i/\mathfrak{r}Q_i$ is simple for every $i\in I$. For $\lambda \in \mathscr{S}$, denote by $I(\lambda )$ the set of $i\in I$ such that $Q_i/\mathfrak{r}Q_i$ is isomorphic to $S_{\lambda}$, hence to $P_{\lambda}/\mathfrak{r}P_{\lambda}$; it is also the set of $i\in I$ such that $Q_i$ is isomorphic to $P_{\lambda}$. Since $P = P/\mathfrak{r}P$ is the direct sum of the family $(Q_i/\mathfrak{r}Q_i)_{i\in I}$, we have Card(I($\lambda$ )) $= [P :\lambda ]$ by Theorem 1 of VIII, p. 32.
 
 #### Example {#alg-viii-s10-n3-exa-1 .statement tag=00CG}
 
