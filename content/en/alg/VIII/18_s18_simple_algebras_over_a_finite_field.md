@@ -22,7 +22,7 @@ subsections:
       pdf_page: 374
 statements: 10
 exercises: 7
-content_sha256: d4700786256eef79802f6ec5428136458c4a1a938987f740bd480d90cf2baa86
+content_sha256: eb029a5940a0e8efa653e42faea62e419926512b4e5224112cea8769a115a867
 ---
 
 ## § 18. SIMPLE ALGEBRAS OVER A FINITE FIELD
@@ -40,7 +40,7 @@ Let L be a field, G a finite group, and $\chi$ a nontrivial homomorphism from G 
 By assumption, there exists an element $a$ of G such that $\chi (a)\not= 1$; since multiplication by $a$ is a permutation of G, we have
 
 $$
-_x\sum_{\in G}\chi (x) =_x\sum_{\in G}\chi (ax) =\chi (a)_x\sum_{\in G}\chi (x)
+\sum_{x\in G}\chi (x) =\sum_{x\in G}\chi (ax) =\chi (a)\sum_{x\in G}\chi (x)
 $$
 
 this gives Lemma 1.
@@ -54,7 +54,7 @@ Recall that $0^0= 1$ (I, §2, No. 1, p. 14). Suppose that $m$ is a multiple of $
 Suppose that $m$ is not a multiple of $q-1$. Set $\chi (x) =x^m$ for $x\in K^*$. Since the multiplicative group $K^*$ is cyclic of order $q-1$ (V, §12, No. 1, p. 93, Proposition 1), there exists an element $a$ of $K^*$ such that $\chi (a)\not= 1$. By Lemma 1 applied to $G = K^*$, we have
 
 $$
-S_m= 0^m+_x\sum_{\in K^*}\chi (x) = 0
+S_m= 0^m+\sum_{x\in K^*}\chi (x) = 0
 $$
 
 this gives Lemma 2.
@@ -72,13 +72,13 @@ $$
 Let us expand the polynomial P as $\sum_{\alpha\in\mathbf{N}^n}c_{\alpha}X^{\alpha}$; by assumption, it has degree $<(q-1)n$. Let $\alpha$ be an element of $\mathbf{N}^n$ such that $c_{\alpha}$ is nonzero. Since we have $\alpha_1+\cdots +\alpha_n<(q-1)n$, there exists an integer $\ell$ such that $1\leqslant \ell \leqslant n$ and $0\leqslant \alpha_{\ell}< q-1$. By Lemma 2, we then have $\sum_{x\in K}x^{\alpha_{\ell}}= 0$, and therefore
 
 $$
-_{\mathbf{x}}\sum_{\in K^n}\mathbf{x}^{\alpha}=_j\prod_{=1}^n(\sum_{x\in K}x^{\alpha_j}= 0
+\sum_{\mathbf{x}\in K^n}\mathbf{x}^{\alpha}=\prod_{j=1}^n(\sum_{x\in K}x^{\alpha_j}= 0
 $$
 
 We consequently have
 
 $$
-_{\mathbf{x}}\sum_{\in K^n}P(\mathbf{x}) =_{\alpha}\sum_{\in\mathbf{N}^n}c_{\alpha}(\sum_{\mathbf{x}\in K^n}\mathbf{x}^{\alpha}= 0
+\sum_{\mathbf{x}\in K^n}P(\mathbf{x}) =\sum_{\alpha\in\mathbf{N}^n}c_{\alpha}(\sum_{\mathbf{x}\in K^n}\mathbf{x}^{\alpha}= 0
 $$
 
 Now, by formula (1), we have $\sum_{\mathbf{x}\in K^n}P(\mathbf{x}) =$ Card(Z) $\cdot 1$, and therefore Card(Z) $\cdot 1 = 0$, which means that Card(Z) is divisible by $p$.

@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: f8c39dd8a4e915f5ea9753b465d54067c3bce0380f07e078a26b3fa9434362c0
+content_sha256: c0b1444f455cdd34569ed2f8be2825a4070ae04520940b26097069276aa2d71f
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -72,7 +72,7 @@ Let L be a commutative ring, M a free L-module of finite rank $m\geqslant 1$, an
 (4) $u\circ \widetilde{u}=\widetilde{u}\circ u=$ det($u$)$_M$, (5) det($\widetilde{u}$) $=$ det($u$)$^{m-1}$,
 
 $$
-\widetilde{u}=^m\sum_{r=0}^{-1}(-1)^rc_{m-1-r}(u)u^r \tag{6}
+\widetilde{u}=\sum^{m-1}_{r=0}(-1)^rc_{m-1-r}(u)u^r \tag{6}
 $$
 
 #### Lemma 1 {#alg-viii-s17-lem-1 .statement tag=00KE}
@@ -128,7 +128,7 @@ for $x_1, . . . , x_m$ in M and
 Let us view $\widetilde{U}$ as an element of End(M)[X] (VIII, p. 9); by formula (9) and Lemma 1, it has degree $\leqslant m-1$, so we can write it as
 
 $$
-\widetilde{U} =^m\sum_{r=0}^{-1}(-1)^ru_rX^{m-1-r} \tag{11}
+\widetilde{U} =\sum^{m-1}_{r=0}(-1)^ru_rX^{m-1-r} \tag{11}
 $$
 
 where the $u_r$ are endomorphisms of M. By formula (2), relation (10) gives the equality
@@ -150,7 +150,7 @@ $$
 From this, we deduce
 
 $$
-u_{m-1}=^m\sum_{r=0}^{-1}(-1)^rc_{m-1-r}(u)u^r \tag{15}
+u_{m-1}=\sum^{m-1}_{r=0}(-1)^rc_{m-1-r}(u)u^r \tag{15}
 $$
 
 Now, when we identify the constant terms, equalities (9) and (11) imply $u_{m-1}=\widetilde{u}$; formula (6) follows.
@@ -188,7 +188,7 @@ Since the mapping $\gamma$ from B to End$_L(B)$ is L-linear, the mapping $\gamma
 For any element $b$ of B, set
 
 $$
-\widetilde{b}=^m\sum_{r=0}^{-1}(-1)^r\gamma_{m-1-r}(b)b^r \tag{17}
+\widetilde{b}=\sum^{m-1}_{r=0}(-1)^r\gamma_{m-1-r}(b)b^r \tag{17}
 $$
 
 By Proposition 1, the linear mapping $\gamma (\widetilde{b})$ from B to B is the cotranspose of the mapping $\gamma (b)$; from this, we deduce
@@ -233,7 +233,7 @@ Let $a$ be an element of the algebra A. The reduced characteristic polynomial of
 
 Let $a$ be an element of A. Since A has degree $n^2$ over K, the polynomial Pc$_{A/K}(a; X)$ has degree $n^2$, so Pcrd$_{A/K}(a; X)$ is a monic polynomial of degree $n$; let us write it as
 
-(21) Pcrd$_{A/K}(a; X) = X^n+^n\sum_{r=0}^{-1}(-1)^rb_r(a)X^{n-r}$.
+(21) Pcrd$_{A/K}(a; X) = X^n+\sum^{n-1}_{r=0}(-1)^rb_r(a)X^{n-r}$.
 
 We set
 

@@ -14,14 +14,14 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (113) |
-| mathematics | 6 | 2 | 1 | M09 (78) |
+| mathematics | 6 | 2 | 1 | M09 (75) |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | R01 (37) |
 | translation | 7 | 2 | 1 | L06 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 230 soft, over 50 rules that ran and 7 that could not.
+0 hard findings and 227 soft, over 50 rules that ran and 7 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -38,7 +38,7 @@ should trust.
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
 
-## M09 no base carries two superscripts or two subscripts (78)
+## M09 no base carries two superscripts or two subscripts (75)
 
 Soft, mathematics.
 
@@ -48,12 +48,9 @@ Soft, mathematics.
 - `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:352` two of one script against one base, which TeX will not set: _n^{j-}_-^1_1
 - `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:362` two of one script against one base, which TeX will not set: _n^{j-}_-^1_1
 - `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:692` two of one script against one base, which TeX will not set: ^-_1^1
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:772` two of one script against one base, which TeX will not set: ^x_x^{\in}_{\in}
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:772` two of one script against one base, which TeX will not set: ^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:784` two of one script against one base, which TeX will not set: ^x_x^{\in}_{\in}
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:784` two of one script against one base, which TeX will not set: ^H_H^{\backslash}_{\backslash}^G_G^{g_1s(x)^{-1}}
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:834` two of one script against one base, which TeX will not set: ^x_x^{\in}_{\in}
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:834` two of one script against one base, which TeX will not set: ^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:772` two of one script against one base, which TeX will not set: ^x_x^{\in}_{\in}^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:784` two of one script against one base, which TeX will not set: ^x_x^{\in}_{\in}^H_H^{\backslash}_{\backslash}^G_G^{g_1s(x)^{-1}}
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:834` two of one script against one base, which TeX will not set: ^x_x^{\in}_{\in}^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_x
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:86` two of one script against one base, which TeX will not set: ^a_0^0_b
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:442` two of one script against one base, which TeX will not set: ^-_{\lambda}^1
@@ -67,8 +64,11 @@ Soft, mathematics.
 - `content/en/alg/VIII/exercises/s1/23.md:47` two of one script against one base, which TeX will not set: _{\partial}^{\partial}_T^{P_i}
 - `content/en/alg/VIII/exercises/s11/05.md:15` two of one script against one base, which TeX will not set: ^p_0^0_q
 - `content/en/alg/VIII/exercises/s11/08.md:19` two of one script against one base, which TeX will not set: ^X_{0Y}^0
+- `content/en/alg/VIII/exercises/s11/10.md:17` two of one script against one base, which TeX will not set: ^X_0^0_I
+- `content/en/alg/VIII/exercises/s14/18.md:15` two of one script against one base, which TeX will not set: ^z_{0\sigma(}^0_{z)}
+- `content/en/alg/VIII/exercises/s19/06.md:25` two of one script against one base, which TeX will not set: ^r_{j=0}^{-1}
 
-and 53 more, which `bourbaki audit -only M09` prints in full.
+and 50 more, which `bourbaki audit -only M09` prints in full.
 
 ## R01 every in-corpus reference resolves (37)
 
