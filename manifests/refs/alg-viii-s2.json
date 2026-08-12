@@ -71,5 +71,5 @@
 {"from":"0031","from_label":"alg-viii-s2-ex-17","kind":"cites","raw":"Lemma 1 of II, §10, No. 13, p. 361","form":"named","resolved_by":"out-of-corpus","book":"A","chapter":"II","file":"content/en/alg/VIII/exercises/s2/17.md","line":23},
 {"from":"0032","from_label":"alg-viii-s2-ex-18","to":"0031","to_label":"alg-viii-s2-ex-17","kind":"cites","raw":"Exercise 17","form":"local","resolved_by":"exercise","file":"content/en/alg/VIII/exercises/s2/18.md","line":17},
 {"from":"0032","from_label":"alg-viii-s2-ex-18","kind":"cites","raw":"II, §2, p. 386, Exercise 2","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"II","file":"content/en/alg/VIII/exercises/s2/18.md","line":19},
-{"from":"0033","from_label":"alg-viii-s2-ex-19","to":"0021","to_label":"alg-viii-s2-prop-2-cor-1","kind":"cites","raw":"Corollary 1, d) of VIII, p. 28","form":"named","resolved_by":"page-map+no","file":"content/en/alg/VIII/exercises/s2/19.md","line":15}
+{"from":"0033","from_label":"alg-viii-s2-ex-19","to":"0021","to_label":"alg-viii-s2-prop-2-cor-1","kind":"cites","raw":"Corollary 1, d) of VIII, p. 28","form":"named","resolved_by":"statement-page","file":"content/en/alg/VIII/exercises/s2/19.md","line":15}
 ]}

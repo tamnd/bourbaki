@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 2092 references, 345 translated files. Languages: en, fr, vi.
+Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 2103 references, 345 translated files. Languages: en, fr, vi.
 
 ## Summary
 
@@ -16,12 +16,12 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | tags | 7 | 1 | 1 | T10 (113) |
 | mathematics | 6 | 2 | 1 | M09 (62) |
 | figures | 6 | 0 | 0 | none |
-| references | 0 | 3 | 0 | R01 (15) |
+| references | 0 | 3 | 0 | R01 (4) |
 | translation | 7 | 2 | 1 | L06 (2), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 193 soft, over 50 rules that ran and 7 that could not.
+0 hard findings and 182 soft, over 50 rules that ran and 7 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -70,22 +70,11 @@ Soft, mathematics.
 
 and 37 more, which `bourbaki audit -only M09` prints in full.
 
-## R01 every in-corpus reference resolves (15)
+## R01 every in-corpus reference resolves (4)
 
 Soft, references.
 
 - `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:330` "Theorem 3" does not resolve: alg-viii-s6 has no Theorem 3
-- `content/en/alg/VIII/07_s7_simple_rings.md:94` "VIII, p. 82, Corollary 1" does not resolve: alg-viii-s5 has 2 statements called Corollary 1 and 2 of them in no. 3
-- `content/en/alg/VIII/07_s7_simple_rings.md:112` "Corollary 2 of VIII, p. 83" does not resolve: alg-viii-s5 has 2 statements called Corollary 2 and 2 of them in no. 3
-- `content/en/alg/VIII/09_s9_radical.md:446` "VIII, p. 162, Corollary 1" does not resolve: alg-viii-s9 has 6 statements called Corollary 1 and 2 of them in no. 5
-- `content/en/alg/VIII/10_s10_modules_over_an_artinian_ring.md:110` "Corollary 1 of VIII, p. 163" does not resolve: alg-viii-s9 has 6 statements called Corollary 1 and 2 of them in no. 5
-- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:204` "Corollary 2 of VIII, p. 215" does not resolve: alg-viii-s12 has 3 statements called Corollary 2 and 0 of them in no. 3
-- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:220` "VIII, p. 215, Corollary 2" does not resolve: alg-viii-s12 has 3 statements called Corollary 2 and 0 of them in no. 3
-- `content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:308` "Corollary 1 of VIII, p. 215" does not resolve: alg-viii-s12 has 3 statements called Corollary 1 and 0 of them in no. 3
-- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:242` "Corollary 1 of VIII, p. 215" does not resolve: alg-viii-s12 has 3 statements called Corollary 1 and 0 of them in no. 3
-- `content/en/alg/VIII/14_s14_central_simple_algebras.md:62` "VIII, p. 83, Corollary 2" does not resolve: alg-viii-s5 has 2 statements called Corollary 2 and 2 of them in no. 3
-- `content/en/alg/VIII/14_s14_central_simple_algebras.md:102` "Corollary 2 of VIII, p. 83" does not resolve: alg-viii-s5 has 2 statements called Corollary 2 and 2 of them in no. 3
-- `content/en/alg/VIII/15_s15_brauer_groups.md:188` "VIII, p. 82, Corollary 1" does not resolve: alg-viii-s5 has 2 statements called Corollary 1 and 2 of them in no. 3
 - `content/en/alg/VIII/20_s20_linear_representations_of_algebras.md:494` "Proposition 16" does not resolve: alg-viii-s20 has no Proposition 16
 - `content/en/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:107` "Proposition 6" does not resolve: alg-viii-a4 has no Proposition 6
 - `content/en/alg/VIII/exercises/s2/17.md:17` "Proposition 14" does not resolve: alg-viii-s2 has no Proposition 14
