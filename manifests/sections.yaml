@@ -80,7 +80,7 @@ books:
               statements: 37
               exercises: 19
               extraction: native
-              content_sha256: 02cc74794731a220ef47941ab772278303277ddaca767ecd4d24cf5b4a24f451
+              content_sha256: 04f80cc3864699945d7925098f6cf488f88cf5d05452680ebe165dc520e25f5f
             - kind: section
               section: 6
               title: Morita Equivalence of Modules and Algebras
@@ -288,7 +288,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: 5cc49ec4e0602c6f9fa21a6e875115864239f448d5722c5309353dd11dc82445
+              content_sha256: 733b2add44757258260d50e930d42f4633a7cd8bc25e4635cbb4b6acf30795e5
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
@@ -314,7 +314,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: d29713f8e9a0dc229c3dc5413a15fd7f9065b33d5d66e40842996e2748acb9b2
+              content_sha256: c92fd15866a6bc7fc0327f41594866f64effcb6d2ce84a917461fb8a98a35dfa
             - kind: appendix
               section: 3
               title: Hilbert’s Nullstellensatz
@@ -666,7 +666,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: 8765b7d9e2b3175d5c278eee0054197884e07599b8ff335ae48b964812dbe883
+              content_sha256: efe1f50bd88eba1c62294c8c381a57ba38594806de9dae5170c6fe0dd7218357
             - kind: appendix
               section: 3
               title: Le théorème des zéros de Hilbert

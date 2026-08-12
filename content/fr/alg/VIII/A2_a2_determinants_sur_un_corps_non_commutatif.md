@@ -34,7 +34,7 @@ subsections:
       pdf_page: 447
 statements: 18
 exercises: 4
-content_sha256: 8765b7d9e2b3175d5c278eee0054197884e07599b8ff335ae48b964812dbe883
+content_sha256: efe1f50bd88eba1c62294c8c381a57ba38594806de9dae5170c6fe0dd7218357
 ---
 
 ### APPENDICE 2 DÉTERMINANTS SUR UN CORPS NON COMMUTATIF
@@ -345,7 +345,7 @@ Soit $\sigma$ une permutation de l’intervalle $[1, n]$ de $\mathbf{N}$, de sig
 
 #### Exemple 3 {#alg-viii-a2-n4-exa-3 .statement tag=00Q9}
 
-Supposons $n\geqslant 1$. Pour toute matrice diagonale inversible de la forme Δ = diag($d_1, . . . , d_n$), on a Δ$B_{ij}(\lambda )\Delta^{-1}= B_{ij}(d_i\lambda d^-_j^1)$. Soit A un élément de $\mathbf{G}\mathbf{L}_n(D)$. D’après le cor. 1 de II, p. 162 et la formule précédente, il existe des matrices P et Δ dans $\mathbf{G}\mathbf{L}_n(D)$ telles que A = PΔ, que P soit produit de matrices de la forme $B_{ij}(\lambda )$ et que Δ soit une matrice diagonale de la forme diag(1$, . . . ,1, d)$. On a det(P) = 1 d’après l’exemple 1, donc det(A) = det(Δ) $=\pi (d)$ par la prop. 3.
+Supposons $n\geqslant 1$. Pour toute matrice diagonale inversible de la forme Δ = diag($d_1, . . . , d_n$), on a Δ$B_{ij}(\lambda )\Delta^{-1}= B_{ij}(d_i\lambda d^{-1}_j)$. Soit A un élément de $\mathbf{G}\mathbf{L}_n(D)$. D’après le cor. 1 de II, p. 162 et la formule précédente, il existe des matrices P et Δ dans $\mathbf{G}\mathbf{L}_n(D)$ telles que A = PΔ, que P soit produit de matrices de la forme $B_{ij}(\lambda )$ et que Δ soit une matrice diagonale de la forme diag(1$, . . . ,1, d)$. On a det(P) = 1 d’après l’exemple 1, donc det(A) = det(Δ) $=\pi (d)$ par la prop. 3.
 
 #### Exemple 4 {#alg-viii-a2-n4-exa-4 .statement tag=00QA}
 
