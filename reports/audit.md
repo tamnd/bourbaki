@@ -19,9 +19,10 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | references | 0 | 3 | 0 | none |
 | translation | 7 | 2 | 1 | L06 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
+| publication | 0 | 1 | 0 | P04 (135) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 177 soft, over 50 rules that ran and 7 that could not.
+0 hard findings and 312 soft, over 51 rules that ran and 7 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -69,6 +70,38 @@ Soft, mathematics.
 - `content/en/alg/VIII/exercises/s19/06.md:25` two of one script against one base, which TeX will not set: ^r_{j=0}^{-1}
 
 and 37 more, which `bourbaki audit -only M09` prints in full.
+
+## P04 every math span parses under KaTeX (135)
+
+Soft, publication.
+
+- `content/en/alg/VIII/04_s4_semisimple_modules.md:190` KaTeX will not set it: Expected group after '_' at position 26: …}(\mathscr{H}(M_̲'))^{\alpha_{M'…: \mathscr{T}(\mathscr{H}(M_'))^{\alpha_{M'}}
+- `content/en/alg/VIII/04_s4_semisimple_modules.md:190` KaTeX will not set it: Expected group after '_' at position 2: M_̲': M_'
+- `content/en/alg/VIII/04_s4_semisimple_modules.md:218` KaTeX will not set it: Expected group after '_' at position 2: V_̲'^{\beta_{V'}}: V_'^{\beta_{V'}}
+- `content/en/alg/VIII/04_s4_semisimple_modules.md:218` KaTeX will not set it: Expected group after '_' at position 27: …}(\mathscr{T}(V_̲')): /\mathscr{H}(\mathscr{T}(V_'))
+- `content/en/alg/VIII/04_s4_semisimple_modules.md:366` KaTeX will not set it: Expected group after '_' at position 12: S\otimes_DV_̲'^{\alpha'}: S\otimes_DV_'^{\alpha'}
+- `content/en/alg/VIII/04_s4_semisimple_modules.md:366` KaTeX will not set it: Expected group after '_' at position 2: M_̲': M_'
+- `content/en/alg/VIII/04_s4_semisimple_modules.md:580` KaTeX will not set it: Expected group after '_' at position 2: M_̲': M_'
+- `content/en/alg/VIII/05_s5_commutation.md:420` KaTeX will not set it: Double subscript at position 15: u(x) =\sum_i^n_̲{=1}a_i\sigma_i…: u(x) =\sum_i^n_{=1}a_i\sigma_i(x)
+- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:352` KaTeX will not set it: Double superscript at position 54: …circ \theta^-_V^̲1: h\mapsto \theta_W\circ (1_Q\otimes h)\circ \theta^…
+- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:362` KaTeX will not set it: Double superscript at position 20: …psto \theta^-_V^̲1: W\mapsto \theta^-_V^1
+- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:576` KaTeX will not set it: Expected group after '_' at position 22: …es_AP\otimes_BV_̲'^{1_Q\otimes 1…: Q\otimes_AP\otimes_BV_'^{1_Q\otimes 1_P\otimes f}/
+- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:580` KaTeX will not set it: Expected group after '_' at position 2: V_̲'f: V_'f
+- `content/en/alg/VIII/11_s11_grothendieck_groups.md:302` KaTeX will not set it: Expected group after '_' at position 2: G_̲'^p: G_'^p
+- `content/en/alg/VIII/11_s11_grothendieck_groups.md:304` KaTeX will not set it: Expected group after '_' at position 2: H_̲'^r: H_'^r
+- `content/en/alg/VIII/11_s11_grothendieck_groups.md:364` KaTeX will not set it: Expected group after '_' at position 2: E_̲'^i: E_'^i
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:352` KaTeX will not set it: Double subscript at position 31: … d_n^j=d_n^{j-}_̲-^1_1\circ d_n^…: d_{n-1}^i\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \ta…
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:362` KaTeX will not set it: Double subscript at position 53: …)^{i+j}d_n^{j-}_̲-^1_1\circ d_n^…: =\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_n^{j-…
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:136` KaTeX will not set it: Expected group after '_' at position 7: \Gamma_̲'^{\pi'}: \Gamma_'^{\pi'}
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:136` KaTeX will not set it: Expected group after '_' at position 2: G_̲': G_'
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:146` KaTeX will not set it: Expected group after '_' at position 2: G_̲': G_'
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:166` KaTeX will not set it: Expected group after '_' at position 2: G_̲': G_'
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:174` KaTeX will not set it: Expected group after '_' at position 2: G_̲': G_'
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:178` KaTeX will not set it: Expected group after '_' at position 7: \Gamma_̲'^{\pi'}: \Gamma_'^{\pi'}
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:178` KaTeX will not set it: Expected group after '_' at position 2: G_̲': G_'
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:246` KaTeX will not set it: Expected group after '_' at position 2: F_̲'^{\iota'}: F_'^{\iota'}
+
+and 110 more, which `bourbaki audit -only P04` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (113)
 
