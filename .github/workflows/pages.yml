@@ -51,17 +51,18 @@ jobs:
       # 204 to 94 with the prime repair, 94 to 77 once the dangerous bend stopped
       # being written as a command no renderer here loads, 77 to 69 by taking
       # back the paragraphs of the pages repaired by hand that the extractor now
-      # reads better than the repair did, and 69 to 60 once a base carrying a
-      # prime was braced before it takes a superscript of its own. What is left
-      # is 32 double superscripts and 11 double subscripts, which are the same
-      # fault twice over: the line gathering ran two display lines together, or
-      # set a matrix inline, and the scripts of one landed on the scripts of the
-      # other.
+      # reads better than the repair did, 69 to 60 once a base carrying a prime
+      # was braced before it takes a superscript of its own, and 60 to 51 once an
+      # index was let stand a glyph box wider than the exponent written across
+      # it. What is left is 28 double superscripts and 9 double subscripts,
+      # which are the same fault twice over: the line gathering ran two display
+      # lines together, or set a matrix inline, and the scripts of one landed on
+      # the scripts of the other.
       - name: publish -check
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki publish -check -max-broken 60
+        run: go run ./cmd/bourbaki publish -check -max-broken 51
 
       # Where Pages will serve this from, asked rather than typed, so the links
       # are right under tamnd.github.io/bourbaki and under a custom domain both.
