@@ -32,5 +32,7 @@
 {"from":"00LM","from_label":"alg-viii-s18-ex-4","to":"00LL","to_label":"alg-viii-s18-ex-3","kind":"cites","raw":"Exercise 3","form":"local","resolved_by":"exercise","file":"content/en/alg/VIII/exercises/s18/04.md","line":17},
 {"from":"00LN","from_label":"alg-viii-s18-ex-5","to":"00LK","to_label":"alg-viii-s18-ex-2","kind":"cites","raw":"Exercise 2","form":"local","resolved_by":"exercise","file":"content/en/alg/VIII/exercises/s18/05.md","line":15},
 {"from":"00LO","from_label":"alg-viii-s18-ex-6","to":"00LM","to_label":"alg-viii-s18-ex-4","kind":"cites","raw":"Exercise 4","form":"local","resolved_by":"exercise","file":"content/en/alg/VIII/exercises/s18/06.md","line":15},
-{"from":"00LP","from_label":"alg-viii-s18-ex-7","to_label":"alg-viii-s18","kind":"cites","raw":"VIII, p. 357","form":"page","resolved_by":"section","file":"content/en/alg/VIII/exercises/s18/07.md","line":15}
+{"from":"00LP","from_label":"alg-viii-s18-ex-7","to_label":"alg-viii-s18","kind":"cites","raw":"VIII, p. 357","form":"page","resolved_by":"section","file":"content/en/alg/VIII/exercises/s18/07.md","line":15},
+{"from":"00LP","from_label":"alg-viii-s18-ex-7","kind":"cites","raw":"AC, VIII, §2, n$^o4$, p. 19","form":"page","resolved_by":"out-of-corpus","book":"AC","chapter":"VIII","file":"content/en/alg/VIII/exercises/s18/07.md","line":17},
+{"from":"00LP","from_label":"alg-viii-s18-ex-7","kind":"cites","raw":"AC, VIII, §3, n$^o1$, p. 24","form":"page","resolved_by":"out-of-corpus","book":"AC","chapter":"VIII","file":"content/en/alg/VIII/exercises/s18/07.md","line":17}
 ]}
