@@ -340,7 +340,7 @@ books:
               statements: 5
               exercises: 2
               extraction: native
-              content_sha256: bd4d42f0698ed2cd0057aa005cbd610b48ac6f8a8b200cc2c7b39382e0d385ad
+              content_sha256: e5a22e80026c895ee2286ad46b5134d8dbf041a2c83895de27c83c97d947524f
             - kind: historical
               title: Historical Note
               path: content/en/alg/VIII/historical_note.md
