@@ -14,15 +14,15 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (113) |
-| mathematics | 6 | 2 | 1 | M09 (62) |
+| mathematics | 6 | 2 | 1 | M09 (59) |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | none |
 | translation | 7 | 2 | 1 | L06 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
-| publication | 0 | 1 | 0 | P04 (135) |
+| publication | 0 | 1 | 0 | P04 (75) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 312 soft, over 51 rules that ran and 7 that could not.
+0 hard findings and 249 soft, over 51 rules that ran and 7 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -39,7 +39,7 @@ should trust.
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
 
-## M09 no base carries two superscripts or two subscripts (62)
+## M09 no base carries two superscripts or two subscripts (59)
 
 Soft, mathematics.
 
@@ -54,11 +54,10 @@ Soft, mathematics.
 - `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:834` two of one script against one base, which TeX will not set: ^x_x^{\in}_{\in}^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_x
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:86` two of one script against one base, which TeX will not set: ^a_0^0_b
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:442` two of one script against one base, which TeX will not set: ^-_{\lambda}^1
+- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:438` two of one script against one base, which TeX will not set: ^-_{\lambda}^1
+- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:440` two of one script against one base, which TeX will not set: ^-_{\lambda}^1
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:444` two of one script against one base, which TeX will not set: ^-_{\lambda}^1
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:448` two of one script against one base, which TeX will not set: ^-_{\lambda}^1
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:478` two of one script against one base, which TeX will not set: _g'_{_{-1}}
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:888` two of one script against one base, which TeX will not set: ^-_{\lambda}^1
+- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:474` two of one script against one base, which TeX will not set: _g'_{_{-1}}
 - `content/en/alg/VIII/A2_a2_determinants_over_a_noncommutative_field.md:357` two of one script against one base, which TeX will not set: ^-_j^1
 - `content/en/alg/VIII/exercises/s1/19.md:23` two of one script against one base, which TeX will not set: ^-_M^1
 - `content/en/alg/VIII/exercises/s1/19.md:25` two of one script against one base, which TeX will not set: ^-_M^1
@@ -68,40 +67,41 @@ Soft, mathematics.
 - `content/en/alg/VIII/exercises/s11/10.md:17` two of one script against one base, which TeX will not set: ^X_0^0_I
 - `content/en/alg/VIII/exercises/s14/18.md:15` two of one script against one base, which TeX will not set: ^z_{0\sigma(}^0_{z)}
 - `content/en/alg/VIII/exercises/s19/06.md:25` two of one script against one base, which TeX will not set: ^r_{j=0}^{-1}
+- `content/en/alg/VIII/exercises/s19/06.md:25` two of one script against one base, which TeX will not set: ^2_{h^r=0}^{-1}
 
-and 37 more, which `bourbaki audit -only M09` prints in full.
+and 34 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (135)
+## P04 every math span parses under KaTeX (75)
 
 Soft, publication.
 
-- `content/en/alg/VIII/04_s4_semisimple_modules.md:190` KaTeX will not set it: Expected group after '_' at position 26: …}(\mathscr{H}(M_̲'))^{\alpha_{M'…: \mathscr{T}(\mathscr{H}(M_'))^{\alpha_{M'}}
-- `content/en/alg/VIII/04_s4_semisimple_modules.md:190` KaTeX will not set it: Expected group after '_' at position 2: M_̲': M_'
-- `content/en/alg/VIII/04_s4_semisimple_modules.md:218` KaTeX will not set it: Expected group after '_' at position 2: V_̲'^{\beta_{V'}}: V_'^{\beta_{V'}}
-- `content/en/alg/VIII/04_s4_semisimple_modules.md:218` KaTeX will not set it: Expected group after '_' at position 27: …}(\mathscr{T}(V_̲')): /\mathscr{H}(\mathscr{T}(V_'))
-- `content/en/alg/VIII/04_s4_semisimple_modules.md:366` KaTeX will not set it: Expected group after '_' at position 12: S\otimes_DV_̲'^{\alpha'}: S\otimes_DV_'^{\alpha'}
-- `content/en/alg/VIII/04_s4_semisimple_modules.md:366` KaTeX will not set it: Expected group after '_' at position 2: M_̲': M_'
-- `content/en/alg/VIII/04_s4_semisimple_modules.md:580` KaTeX will not set it: Expected group after '_' at position 2: M_̲': M_'
 - `content/en/alg/VIII/05_s5_commutation.md:420` KaTeX will not set it: Double subscript at position 15: u(x) =\sum_i^n_̲{=1}a_i\sigma_i…: u(x) =\sum_i^n_{=1}a_i\sigma_i(x)
 - `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:352` KaTeX will not set it: Double superscript at position 54: …circ \theta^-_V^̲1: h\mapsto \theta_W\circ (1_Q\otimes h)\circ \theta^…
 - `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:362` KaTeX will not set it: Double superscript at position 20: …psto \theta^-_V^̲1: W\mapsto \theta^-_V^1
-- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:576` KaTeX will not set it: Expected group after '_' at position 22: …es_AP\otimes_BV_̲'^{1_Q\otimes 1…: Q\otimes_AP\otimes_BV_'^{1_Q\otimes 1_P\otimes f}/
-- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:580` KaTeX will not set it: Expected group after '_' at position 2: V_̲'f: V_'f
-- `content/en/alg/VIII/11_s11_grothendieck_groups.md:302` KaTeX will not set it: Expected group after '_' at position 2: G_̲'^p: G_'^p
-- `content/en/alg/VIII/11_s11_grothendieck_groups.md:304` KaTeX will not set it: Expected group after '_' at position 2: H_̲'^r: H_'^r
-- `content/en/alg/VIII/11_s11_grothendieck_groups.md:364` KaTeX will not set it: Expected group after '_' at position 2: E_̲'^i: E_'^i
 - `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:352` KaTeX will not set it: Double subscript at position 31: … d_n^j=d_n^{j-}_̲-^1_1\circ d_n^…: d_{n-1}^i\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \ta…
 - `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:362` KaTeX will not set it: Double subscript at position 53: …)^{i+j}d_n^{j-}_̲-^1_1\circ d_n^…: =\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_n^{j-…
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:136` KaTeX will not set it: Expected group after '_' at position 7: \Gamma_̲'^{\pi'}: \Gamma_'^{\pi'}
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:136` KaTeX will not set it: Expected group after '_' at position 2: G_̲': G_'
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:146` KaTeX will not set it: Expected group after '_' at position 2: G_̲': G_'
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:166` KaTeX will not set it: Expected group after '_' at position 2: G_̲': G_'
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:174` KaTeX will not set it: Expected group after '_' at position 2: G_̲': G_'
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:178` KaTeX will not set it: Expected group after '_' at position 7: \Gamma_̲'^{\pi'}: \Gamma_'^{\pi'}
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:178` KaTeX will not set it: Expected group after '_' at position 2: G_̲': G_'
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:246` KaTeX will not set it: Expected group after '_' at position 2: F_̲'^{\iota'}: F_'^{\iota'}
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:692` KaTeX will not set it: Double superscript at position 70: …_1(x\cdot g^-_1^̲1)}c(h_2(x\cdot…: =\prod_{x\in H\backslash G}^{s(x\cdot g_1^{-1})^{-…
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:772` KaTeX will not set it: Double superscript at position 18: …times \prod^x_x^̲{\in}_{\in}^H_H…: \times \prod^x_x^{\in}_{\in}^H_H^{\backslash}_{\ba…
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:784` KaTeX will not set it: Double superscript at position 17: …times \prod^x_x^̲{\in}_{\in}^H_H…: \times \prod^x_x^{\in}_{\in}^H_H^{\backslash}_{\ba…
+- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:834` KaTeX will not set it: Double superscript at position 18: …times \prod^x_x^̲{\in}_{\in}^H_H…: \times \prod^x_x^{\in}_{\in}^H_H^{\backslash}_{\ba…
+- `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\g…: ^X_-^-_y^x_X^-_-^{\gamma y}_x
+- `content/en/alg/VIII/19_s19_quaternion_algebras.md:86` KaTeX will not set it: Double superscript at position 20: …b)\mapsto (^a_0^̲0_b): (a, b)\mapsto (^a_0^0_b)
+- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:438` KaTeX will not set it: Double superscript at position 15: =d^-_{\lambda}^̲1: =d^-_{\lambda}^1
+- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:440` KaTeX will not set it: Double superscript at position 119: … =d^-_{\lambda}^̲1\langle x^*, y…: |G|^{-1}_g\sum_{\in G}\langle x^*, \pi_{\lambda}(g…
+- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:444` KaTeX will not set it: Double superscript at position 85: … =d^-_{\lambda}^̲1\delta_{i`}\de…: |G|^{-1}_g\sum_{\in G}\pi_{ij}^{\lambda}(g)\pi^{\l…
+- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:474` KaTeX will not set it: Double subscript at position 54: …_{\in G}f_gf_g'_̲{_{-1}} \tag{28…: \langle f, f'\rangle_G=|G|^{-1}_g\sum_{\in G}f_gf_…
+- `content/en/alg/VIII/A2_a2_determinants_over_a_noncommutative_field.md:357` KaTeX will not set it: Double superscript at position 30: …_i\lambda d^-_j^̲1): ^{-1}=B_{ij}(d_i\lambda d^-_j^1)
+- `content/en/alg/VIII/exercises/s1/19.md:23` KaTeX will not set it: Double superscript at position 16: \varepsilon^-_M^̲1(S^{-1}N): \varepsilon^-_M^1(S^{-1}N)
+- `content/en/alg/VIII/exercises/s1/19.md:25` KaTeX will not set it: Double superscript at position 26: …\varepsilon^-_M^̲1(N'): N'\mapsto \varepsilon^-_M^1(N')
+- `content/en/alg/VIII/exercises/s1/23.md:47` KaTeX will not set it: Double subscript at position 31: …ial}^{\partial}_̲T^{P_i}: P\mapsto_{\partial}^{\partial}_T^{P_i}
+- `content/en/alg/VIII/exercises/s11/05.md:15` KaTeX will not set it: Double superscript at position 28: … q) = (m+n,^p_0^̲0_q: (m, p) + (n, q) = (m+n,^p_0^0_q
+- `content/en/alg/VIII/exercises/s11/08.md:19` KaTeX will not set it: Double superscript at position 9: (^X_{0Y}^̲0): (^X_{0Y}^0)
+- `content/en/alg/VIII/exercises/s11/10.md:17` KaTeX will not set it: Double superscript at position 6: (^X_0^̲0_I): (^X_0^0_I)
+- `content/en/alg/VIII/exercises/s14/18.md:15` KaTeX will not set it: Double superscript at position 14: ^z_{0\sigma(}^̲0_{z)}: ^z_{0\sigma(}^0_{z)}
+- `content/en/alg/VIII/exercises/s19/06.md:25` KaTeX will not set it: Double superscript at position 14: \prod^r_{j=0}^̲{-1}(1 + T^{2^j…: \prod^r_{j=0}^{-1}(1 + T^{2^j}) =\sum^2_{h^r=0}^{-…
+- `content/en/alg/VIII/exercises/s21/21.md:33` KaTeX will not set it: Double superscript at position 51: …=1j^{\alpha j}}^̲1_{\alpha_j!}: c_{\boldsymbol{\alpha }}=\prod^n_{j=1j^{\alpha j}}…
 
-and 110 more, which `bourbaki audit -only P04` prints in full.
+and 50 more, which `bourbaki audit -only P04` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (113)
 

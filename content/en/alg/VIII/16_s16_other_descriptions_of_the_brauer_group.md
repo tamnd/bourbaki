@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: ce5dcb86f06710300bddb0532307de98ad7d25bb9a2f7b865bce8705e55dce8c
+content_sha256: be48c90b37dbb439654012570f259025b8009ba963cbd3f5e9a9c2d8389bdf5b
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -133,7 +133,7 @@ Consequently, $(\Gamma ', \iota ', \pi ')$ is a $\tau '$-extension of $G'$ by F;
 
 The following diagram commutes:
 
-F $^{\iota'}$ // $\Gamma_'^{\pi'}$ // $G_'$
+F $^{\iota'}$ // ${\Gamma'}^{\pi'}$ // $G'$
 
 (2)
 
@@ -143,7 +143,7 @@ F $^{\iota}$ // Γ $^{\pi}$ // G.
 
 Moreover, if $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$ is a $\tau '$-extension and $\varphi_1: \Gamma '_1\rightarrow \Gamma$ is a group homomorphism such that the diagram
 
-F $^{\iota'_1}$ // $\Gamma_{'1}^{\pi'_1}$ // $G_'$
+F $^{\iota'_1}$ // ${\Gamma'_1}^{\pi'_1}$ // $G'$
 
 $\varphi_1u$
 
@@ -163,7 +163,7 @@ $$
 
 for every $f\in F'_1$ and $g\in G'$. Let $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$ be a $\tau_1$-extension of $G'$ by $F'_1$ and $\varphi_1: \Gamma '_1\rightarrow \Gamma$ a group homomorphism such that the following diagram commutes:
 
-$F_{'1}^{\iota'_1}$ // $\Gamma_{'1}^{\pi'_1}$ // $G_'$
+${F'_1}^{\iota'_1}$ // ${\Gamma'_1}^{\pi'_1}$ // $G'$
 
 $w\varphi_1u$
 
@@ -171,11 +171,11 @@ F $^{\iota}$ // Γ $^{\pi}$ // G.
 
 Then there exists a unique group homomorphism $\psi : \Gamma '_1\rightarrow \Gamma '$ such that the diagram
 
-$F_{'1}^{\iota'_1}$ // $\Gamma_{'1}^{\pi_1'}$ // $G_'$
+${F'_1}^{\iota'_1}$ // ${\Gamma'_1}^{\pi_1'}$ // $G'$
 
 $w\psi$
 
-F $^{\iota'}$ // $\Gamma_'^{\pi'}$ // $G_'$
+F $^{\iota'}$ // ${\Gamma'}^{\pi'}$ // $G'$
 
 commutes and $\varphi_1=\varphi \circ \psi$.
 
@@ -243,7 +243,7 @@ $$
 v\varphi \tag{5}
 $$
 
-$F_'^{\iota'}$ // $\Gamma_'^{\pi'}$ // G .
+${F'}^{\iota'}$ // ${\Gamma'}^{\pi'}$ // G .
 
 Let $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi_1')$ be a $\tau '$-extension of G by $F'$, and let $\varphi_1: \Gamma \rightarrow \Gamma '_1$ be a group homomorphism such that the following diagram commutes:
 
@@ -251,7 +251,7 @@ F $^{\iota}$ // Γ $^{\pi}$ // G
 
 $v\varphi_1$
 
-$F_'^{\iota'_1}$ // $\Gamma_{'1}^{\pi'_1}$ // G.
+${F'}^{\iota'_1}$ // ${\Gamma'_1}^{\pi'_1}$ // G.
 
 Then there exists a unique morphism $\psi$ of $\tau '$-extensions from $v_*(\mathscr{E})$ to $\mathscr{E}_1'$ such that we have $\varphi_1=\psi \circ \varphi$.
 
@@ -265,15 +265,15 @@ F $^{\iota}$ // Γ $^{\pi}$ // G
 
 $v\varphi_1w$
 
-$F_'^{\iota'_1}$ // $\Gamma_{'1}^{\pi'_1}$ // $G_{'1}$.
+${F'}^{\iota'_1}$ // ${\Gamma'_1}^{\pi'_1}$ // $G'_1$.
 
 Then there exists a unique group homomorphism $\psi : \Gamma '\rightarrow \Gamma '_1$ such that the diagram
 
-$F_'^{\iota'}$ // $\Gamma_'^{\pi'}$ // G
+${F'}^{\iota'}$ // ${\Gamma'}^{\pi'}$ // G
 
 $\psi w$
 
-$F_'^{\iota'_1}$ // $\Gamma_{'1}^{\pi'_1}$ // $G_{'1}$ commutes and $\varphi_1=\psi \circ \varphi$.
+${F'}^{\iota'_1}$ // ${\Gamma'_1}^{\pi'_1}$ // $G'_1$ commutes and $\varphi_1=\psi \circ \varphi$.
 
 For any $(f, \gamma )\in F'\times \Gamma$, denote the class of $(f, \gamma )$ in $\Gamma '$ by $(f, \gamma )$. If the group homomorphism $\psi : \Gamma '\rightarrow \Gamma '_1$ has the desired properties, then it satisfies the relations
 
@@ -303,7 +303,7 @@ $$
 v\varphi \tag{6}
 $$
 
-$F_'^{\iota'}$ // $\Gamma_'^{\pi'}$ // G .
+${F'}^{\iota'}$ // ${\Gamma'}^{\pi'}$ // G .
 
 Proposition 2 expresses that $v_*(\mathscr{E})$ is a solution of the corresponding universal mapping problem (Set Theory, IV, §3, No. 1, p. 284).
 
@@ -351,11 +351,11 @@ for $g\in G$ and $f\in F$. We write $\tau ''=\tau '\circ u$. Let $\mathscr{E}$ b
 
 We denote the $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. the $\tau ''$-extension $u^*(v_*(\mathscr{E})))$ by $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma '_u, \iota '_u, \pi_u'))$. Applying Lemma 2 of VIII, p. 287 to $\varphi_v\circ \varphi_u$, we find that there exists a group homomorphism $\psi_1: \Gamma_u\rightarrow \Gamma '_u$ such that the diagram
 
-F $^{\iota_u}$ // $\Gamma_u^{\pi_u}$ // $G_'$
+F $^{\iota_u}$ // $\Gamma_u^{\pi_u}$ // $G'$
 
 $v\psi_1$
 
-$F_'^{\iota'_u}$ // $\Gamma_{'u}^{\pi'_u}$ // $G_'$
+${F'}^{\iota'_u}$ // ${\Gamma'_u}^{\pi'_u}$ // $G'$
 
 commutes and $\varphi '_u\circ \psi_1=\varphi_v\circ \varphi_u$. The existence of $\psi$ follows from Proposition 2 applied to $\psi_1$. Conversely, if $\psi '$ also has the desired properties, then we have $\psi '\circ \varphi '_v=\psi_1$ by Lemma 2, so $\psi '=\psi$ (Proposition 2).
 
@@ -443,11 +443,11 @@ for $g\in G$ and $f\in F$. The mapping $v_*:$ Ex$_{\tau}(G,F)\rightarrow$ Ex$_{\
 
 This follows from the commutativity of the diagrams
 
-$G_'^{\delta}$ // $G_'\times G_'F\times F^m$ // F
+${G'}^{\delta}$ // $G'\times G'F\times F^m$ // F
 
 $_uu_{\times u}$ and $v_{\times v}v$
 
-G $^{\delta}$ // $G\times GF_'\times F_'^m$ // $F_'$.
+G $^{\delta}$ // $G\times GF'\times {F'}^m$ // $F'$.
 
 ### 5. Cohomological Description
 
@@ -637,11 +637,11 @@ If $\psi : G\times G\rightarrow F$ is a 2-cocycle of G with values in F, then th
 
 In the notation from above, the following diagram commutes:
 
-Ex$_{\tau}(G,F)^{u^*}$ // Ex$_{\tau}(G_',F)$
+Ex$_{\tau}(G,F)^{u^*}$ // Ex$_{\tau}(G',F)$
 
 $\Theta_{\tau}\Theta_{\tau'}$
 
-$H_2(G,F)^{u^*}$ // $H_2(G_',F)$.
+$H_2(G,F)^{u^*}$ // $H_2(G',F)$.
 
 Let H be a subgroup of G of finite index. Let $s$ be a section of the canonical surjection from G to $H\backslash G$. We denote by $(g, x)\mapsto x\cdot g$ the right action of G on $H\backslash G$ induced by the right action of G on itself by multiplication. Note that for every $x\in H\backslash G$ and $g\in G$, the element $s(x)gs(x\cdot g)^{-1}$ belongs to H. For any mapping $c: H\times H\rightarrow F$, we can therefore define a mapping $\widetilde{c}_s: G\times G\rightarrow F$ by the relation
 
@@ -1454,7 +1454,7 @@ $$
 for $a\in A$. We then set
 
 $$
-c(g, g') =u_gu_{g'}u^{-1_'}_{gg}
+c(g, g') =u_gu_{g'}u^{-1}_{gg'}
 $$
 
 We can also define an extension of G by $L^*$ using $\varphi :$ we consider the group $\Gamma \subset \mathbf{G}\mathbf{L}_m(L)$ consisting of the $\gamma$ for which there exists a $g\in G$ with
@@ -1479,7 +1479,7 @@ Br(L$/K)^{\Phi_{L/K}}/$/ $H_2(G,L_*)$
 
 $r_{K'/K}$ Res$^G_H$
 
-Br(L$/K_')^{\Phi_{L/K'}}/$/ $H_2(H,L_*)$ .
+Br(L$/K')^{\Phi_{L/K'}}/$/ $H_2(H,L_*)$ .
 
 This follows from Propositions 7 of VIII, p. 299 and 13 of VIII, p. 317.
 

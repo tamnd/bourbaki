@@ -46,7 +46,7 @@ subsections:
       pdf_page: 88
 statements: 43
 exercises: 8
-content_sha256: 42f9f16eb1ec93887462ed29e2bb264b8d96814b402ec5e05d177983dfa7964a
+content_sha256: 7dd5ff0136f5e1a5ca6982c00d2923f44f64037dc4be54303f37afa1fa5ceaf0
 ---
 
 ## § 4. SEMISIMPLE MODULES
@@ -187,7 +187,7 @@ $\mathscr{T}(\mathscr{H}(M))^{\alpha_M}$ // M
 
 (I) $\mathscr{T}_{(\mathscr{H}(g))}g$
 
-$\mathscr{T}(\mathscr{H}(M_'))^{\alpha_{M'}}$ // $M_'$.
+$\mathscr{T}(\mathscr{H}(M'))^{\alpha_{M'}}$ // $M'$.
 
 The inverse
 
@@ -215,7 +215,7 @@ V $^{\beta_V}$ /$/\mathscr{H}(\mathscr{T}(V))$
 
 ( $(g))$
 
-$V_'^{\beta_{V'}}$ /$/\mathscr{H}(\mathscr{T}(V_'))$.
+${V'}^{\beta_{V'}}$ /$/\mathscr{H}(\mathscr{T}(V'))$.
 
 Note that the adjunction morphism (5) coincides with the mapping that sends $u$ to $\mathscr{H}(u)\circ \beta_V$. Indeed, from relations (6) and (8), we deduce the equalities
 
@@ -363,7 +363,7 @@ $$
 1_{_S\otimes f}\widetilde{f} \tag{9}
 $$
 
-$S\otimes_DV_'^{\alpha'}$ // $M_'$.
+$S\otimes_D{V'}^{\alpha'}$ // $M'$.
 
 The mapping $f\mapsto \widetilde{f}$ from Hom$_D(V,V')$ to Hom$_A(M,M')$ is a group isomorphism.
 
@@ -577,7 +577,7 @@ $$
 
 $\lambda \in \mathscr{S}$
 
-$\bigoplus(S_{\lambda}\otimes_DV'_{\lambda})^{\alpha'}$ // $M_'$.
+$\bigoplus(S_{\lambda}\otimes_DV'_{\lambda})^{\alpha'}$ // $M'$.
 
 $\lambda \in \mathscr{S}\lambda$
 

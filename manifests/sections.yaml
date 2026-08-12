@@ -67,7 +67,7 @@ books:
               statements: 43
               exercises: 8
               extraction: native
-              content_sha256: 42f9f16eb1ec93887462ed29e2bb264b8d96814b402ec5e05d177983dfa7964a
+              content_sha256: 7dd5ff0136f5e1a5ca6982c00d2923f44f64037dc4be54303f37afa1fa5ceaf0
             - kind: section
               section: 5
               title: Commutation
@@ -93,7 +93,7 @@ books:
               statements: 41
               exercises: 8
               extraction: native
-              content_sha256: bc10cbd46776494cccd43d8b1e04d90ec716824b3c1579f92315daebf8559782
+              content_sha256: dca01570f144ba45ee0938bb509a9dd854da5b0e8768b5efaf3c13a202e821a0
             - kind: section
               section: 7
               title: Simple Rings
@@ -158,7 +158,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native
-              content_sha256: 0101bbaa9fc9f972c0d80c1d3f9fbfbbcbf55e0bd5198211ca2373c19c91523e
+              content_sha256: c43d8a939fd5f479077bece86a39d568c784f9c59d54cfe7167ee61acc16ffd1
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -223,7 +223,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: ce5dcb86f06710300bddb0532307de98ad7d25bb9a2f7b865bce8705e55dce8c
+              content_sha256: be48c90b37dbb439654012570f259025b8009ba963cbd3f5e9a9c2d8389bdf5b
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -288,7 +288,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: 44cd2ffb9171246a156dc946f90facae55dcbf2e23bb7978e3ee66d4e24c20c1
+              content_sha256: 5cc49ec4e0602c6f9fa21a6e875115864239f448d5722c5309353dd11dc82445
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
@@ -314,7 +314,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: 97db2476628d6e118122168500bce208d4a17ba0a88561d28a21dde845b09594
+              content_sha256: d29713f8e9a0dc229c3dc5413a15fd7f9065b33d5d66e40842996e2748acb9b2
             - kind: appendix
               section: 3
               title: Hilbert’s Nullstellensatz
@@ -575,7 +575,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: 162eee098558a3ca1ce573c2b473e7b62d9c5c5935d94678ef5a2f1d3670df4e
+              content_sha256: 46068f1976620ee8eab64929fbcc7648addcda4875e64110cb8b27b803846a84
             - kind: section
               section: 17
               title: Normes et traces réduites
@@ -640,7 +640,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: decde56df5b72a5d2beecfca542cf7f3ad2b4a11e4c021270a596eeb8f4a2d8e
+              content_sha256: e6c5072f4aae428b9e811b89f8e1e336938432bdaf444fc6d42e1a998c28c874
             - kind: appendix
               section: 1
               title: Algèbres sans élément unité
@@ -666,7 +666,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: 9dd77290c2a556b4f8339382e94421d311f3a0139a05da41d6f4be41b827d71f
+              content_sha256: 8765b7d9e2b3175d5c278eee0054197884e07599b8ff335ae48b964812dbe883
             - kind: appendix
               section: 3
               title: Le théorème des zéros de Hilbert
