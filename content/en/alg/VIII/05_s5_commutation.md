@@ -38,7 +38,7 @@ subsections:
       pdf_page: 106
 statements: 37
 exercises: 19
-content_sha256: 02cc74794731a220ef47941ab772278303277ddaca767ecd4d24cf5b4a24f451
+content_sha256: 04f80cc3864699945d7925098f6cf488f88cf5d05452680ebe165dc520e25f5f
 ---
 
 ## § 5. COMMUTATION
@@ -417,7 +417,7 @@ The bicommutant $E''$ of the E-module L therefore consists of the endomorphisms 
 
 #### Corollary {#alg-viii-s5-n6-cor-1 .statement tag=0066}
 
-Let L be a field. Let Γ be a subgroup of the automorphism group of the field L, and let K be the field of invariants of Γ. Let V be a right K-linear subspace of L of finite dimension $n$ over K. Then there exist elements $\sigma_1, . . . , \sigma_n$ of Γ with the following property: for every K-linear mapping $u$ from V to L, there exist elements $a_1, . . . , a_n$ of L such that we have $u(x) =\sum_i^n_{=1}a_i\sigma_i(x)$ for every $x$ in V.
+Let L be a field. Let Γ be a subgroup of the automorphism group of the field L, and let K be the field of invariants of Γ. Let V be a right K-linear subspace of L of finite dimension $n$ over K. Then there exist elements $\sigma_1, . . . , \sigma_n$ of Γ with the following property: for every K-linear mapping $u$ from V to L, there exist elements $a_1, . . . , a_n$ of L such that we have $u(x) =\sum_{i=1}^na_i\sigma_i(x)$ for every $x$ in V.
 
 Denote by E the set of mappings from L to L of the form $x\mapsto$ $\sum_{\sigma\in\Gamma}a_{\sigma}\sigma (x)$, where $(a_{\sigma})_{\sigma\in\Gamma}$ is a family of elements of L with finite support. We have $\boldsymbol{\gamma }_a\in E$ for every $a$ in L, and E is a subring of the endomorphism ring of the additive group of L. Moreover, the field K consists of the elements $a$ of L such that $u(xa) =u(x)a$ for every $x$ in L and every $u$ in E.
 

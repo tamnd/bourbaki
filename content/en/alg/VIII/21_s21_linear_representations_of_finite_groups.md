@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 5cc49ec4e0602c6f9fa21a6e875115864239f448d5722c5309353dd11dc82445
+content_sha256: 733b2add44757258260d50e930d42f4633a7cd8bc25e4635cbb4b6acf30795e5
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -433,21 +433,21 @@ We keep the notation of the previous subsection. Let $\lambda$ be an element of 
 
 $\widehat{\tau}(j_{\lambda}(u)j_{\lambda}(v)) =d_{\lambda}$ Tr($uv$). Since $\tau =\widehat{\tau}\circ \mathscr{F}$, we deduce from formulas (2) and (15) the relation
 
-$d^2_{\lambda}|G|^{-1}_g\sum_{\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d_{\lambda}$ Tr($uv$).
+$d^2_{\lambda}|G|^{-1}\sum_{g\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d_{\lambda}$ Tr($uv$).
 
-We observed previously that $d_{\lambda}.1\not= 0$ in the field K; it follows that (20) $|G|^{-1}_g\sum_{\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d^-_{\lambda}^1$ Tr($uv$).
+We observed previously that $d_{\lambda}.1\not= 0$ in the field K; it follows that (20) $|G|^{-1}\sum_{g\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d^{-1}_{\lambda}$ Tr($uv$).
 
-Let us apply this relation to the case when $u$ and $v$ have rank $\leqslant 1$; we obtain (21) $|G|^{-1}_g\sum_{\in G}\langle x^*, \pi_{\lambda}(g)x\rangle  \langle y^*, \pi_{\lambda}(g^{-1})y\rangle =d^-_{\lambda}^1\langle x^*, y\rangle \langle y^*, x\rangle$
+Let us apply this relation to the case when $u$ and $v$ have rank $\leqslant 1$; we obtain (21) $|G|^{-1}\sum_{g\in G}\langle x^*, \pi_{\lambda}(g)x\rangle  \langle y^*, \pi_{\lambda}(g^{-1})y\rangle =d^{-1}_{\lambda}\langle x^*, y\rangle \langle y^*, x\rangle$
 
 for $x,y$ in $V_{\lambda}$ and $x^*, y^*$ in the dual $V^*_{\lambda}$ of $V_{\lambda}$.
 
-For every $\lambda \in \widehat{G}$, let $(e_{\lambda ,j})_{1\leqslant j\leqslant d_{\lambda}}$ be a basis of $V_{\lambda}$; denote by $(\pi^{\lambda}_{ij}(g))$ the matrix of the endomorphism $\pi_{\lambda}(g)$ of $V_{\lambda}$ with respect to this basis. If we denote by $(e^*_{\lambda ,i})_{1\leqslant i\leqslant d_{\lambda}}$ the basis of $V^*_{\lambda}$ dual to $(e_{\lambda ,j})$, then we have $\pi^{\lambda}_{ij}(g) =\langle e^*_{\lambda ,i}, \pi_{\lambda}(g)e_{\lambda ,j}\rangle$, and therefore (22) $|G|^{-1}_g\sum_{\in G}\pi_{ij}^{\lambda}(g)\pi^{\lambda}_{k`}(g^{-1}) =d^-_{\lambda}^1\delta_{i`}\delta_{jk}$.
+For every $\lambda \in \widehat{G}$, let $(e_{\lambda ,j})_{1\leqslant j\leqslant d_{\lambda}}$ be a basis of $V_{\lambda}$; denote by $(\pi^{\lambda}_{ij}(g))$ the matrix of the endomorphism $\pi_{\lambda}(g)$ of $V_{\lambda}$ with respect to this basis. If we denote by $(e^*_{\lambda ,i})_{1\leqslant i\leqslant d_{\lambda}}$ the basis of $V^*_{\lambda}$ dual to $(e_{\lambda ,j})$, then we have $\pi^{\lambda}_{ij}(g) =\langle e^*_{\lambda ,i}, \pi_{\lambda}(g)e_{\lambda ,j}\rangle$, and therefore (22) $|G|^{-1}\sum_{g\in G}\pi_{ij}^{\lambda}(g)\pi^{\lambda}_{k\ell}(g^{-1}) =d^{-1}_{\lambda}\delta_{i\ell}\delta_{jk}$.
 
-Now let $\lambda$ and $\mu$ be two distinct elements of $\widehat{G}$, and let $u\in$ End$_K(V_{\lambda})$ and $v\in$ End$_K(V_\mu)$. Again by relation (15), we have (23) $g\sum_{\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_\mu(g^{-1})$) $= 0$.
+Now let $\lambda$ and $\mu$ be two distinct elements of $\widehat{G}$, and let $u\in$ End$_K(V_{\lambda})$ and $v\in$ End$_K(V_\mu)$. Again by relation (15), we have (23) $\sum_{g\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_\mu(g^{-1})$) $= 0$.
 
-As above, we deduce that (24) $g\sum_{\in G}\langle x^*, \pi_{\lambda}(g)x\rangle  \langle y^*, \pi_\mu(g^{-1})y\rangle = 0$
+As above, we deduce that (24) $\sum_{g\in G}\langle x^*, \pi_{\lambda}(g)x\rangle  \langle y^*, \pi_\mu(g^{-1})y\rangle = 0$
 
-for $x\in V_{\lambda},x^*\in V^*_{\lambda},y\in V_\mu$, and $y^*\in V^*_\mu$. We also have (25) $g\sum_{\in G}\pi^{\lambda}_{ij}(g)\pi^\mu_{k`}(g^{-1}) = 0$ for $i, j$ in $[1, d_{\lambda}]$ and $k, \ell$ in $[1, d_\mu]$.
+for $x\in V_{\lambda},x^*\in V^*_{\lambda},y\in V_\mu$, and $y^*\in V^*_\mu$. We also have (25) $\sum_{g\in G}\pi^{\lambda}_{ij}(g)\pi^\mu_{k\ell}(g^{-1}) = 0$ for $i, j$ in $[1, d_{\lambda}]$ and $k, \ell$ in $[1, d_\mu]$.
 
 Relations (20) through (25) are known as the Schur orthogonality relations.
 

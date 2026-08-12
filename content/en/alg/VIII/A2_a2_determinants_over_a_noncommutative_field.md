@@ -35,7 +35,7 @@ subsections:
       pdf_page: 472
 statements: 18
 exercises: 4
-content_sha256: d29713f8e9a0dc229c3dc5413a15fd7f9065b33d5d66e40842996e2748acb9b2
+content_sha256: c92fd15866a6bc7fc0327f41594866f64effcb6d2ce84a917461fb8a98a35dfa
 ---
 
 ## APPENDIX 2 DETERMINANTS OVER A NONCOMMUTATIVE FIELD
@@ -354,7 +354,7 @@ Let $\sigma$ be a permutation of the interval $[1, n]$ in $\mathbf{N}$, with sig
 
 #### Example 3 {#alg-viii-a2-n4-exa-3 .statement tag=00Q9}
 
-Suppose $n\geqslant 1$. For every invertible diagonal matrix of the form ∆ = diag($d_1, . . . , d_n$), we have ∆$B_{ij}(\lambda$)∆$^{-1}=B_{ij}(d_i\lambda d^-_j^1)$. Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$. By Corollary 1 of II, §10, No. 13, p. 362 and the previous formula, there exist matrices P and ∆ in $\mathbf{G}\mathbf{L}_n(D)$ such that A = P∆, that P is the product of matrices of the form $B_{ij}(\lambda )$, and that ∆ is a diagonal matrix of the form diag(1$, . . . ,1, d)$. We have det(P) = 1 by Example 1, and therefore det(A) = det(∆) $=\pi (d)$ by Proposition 3.
+Suppose $n\geqslant 1$. For every invertible diagonal matrix of the form ∆ = diag($d_1, . . . , d_n$), we have ∆$B_{ij}(\lambda$)∆$^{-1}=B_{ij}(d_i\lambda d^{-1}_j)$. Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$. By Corollary 1 of II, §10, No. 13, p. 362 and the previous formula, there exist matrices P and ∆ in $\mathbf{G}\mathbf{L}_n(D)$ such that A = P∆, that P is the product of matrices of the form $B_{ij}(\lambda )$, and that ∆ is a diagonal matrix of the form diag(1$, . . . ,1, d)$. We have det(P) = 1 by Example 1, and therefore det(A) = det(∆) $=\pi (d)$ by Proposition 3.
 
 #### Example 4 {#alg-viii-a2-n4-exa-4 .statement tag=00QA}
 
