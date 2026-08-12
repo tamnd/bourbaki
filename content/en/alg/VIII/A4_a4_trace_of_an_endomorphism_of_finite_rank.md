@@ -23,7 +23,7 @@ subsections:
       pdf_page: 481
 statements: 5
 exercises: 2
-content_sha256: bd4d42f0698ed2cd0057aa005cbd610b48ac6f8a8b200cc2c7b39382e0d385ad
+content_sha256: e5a22e80026c895ee2286ad46b5134d8dbf041a2c83895de27c83c97d947524f
 ---
 
 ## APPENDIX 4 TRACE OF AN ENDOMORPHISM OF FINITE RANK
@@ -100,11 +100,7 @@ Let E be a projective A-module, $u$ be an element of End$^f_A(E)$, and F be a pr
 
 Denote by $i$ the canonical injection of F into E and by $v: E\rightarrow F$ the homomorphism deduced from $u$. We have $u_F=v\circ i$ and $u=i\circ v$. The corollary follows.
 
-Let E be a projective A-module and $u\in$ End$^f_A(E)$. For every natural
-
-number $p$, the A-module $\wedge^pE$ is projective (III, §7, No. 8, p. 519, Corollary 2), and the endomorphism $\wedge^pu$ belongs to End$^f_A(\wedge^pE)$ (III, §7, No. 3, p. 511,
-
-Proposition 6) and is zero for $p$ sufficiently large. The set $1_E+$ End$^f_A(E)$ is stable under composition. We define a mapping det from $1_E+$ End$^f_A(E)$ to A by setting
+Let E be a projective A-module and $u\in$ End$^f_A(E)$. For every natural number $p$, the A-module $\wedge^pE$ is projective (III, §7, No. 8, p. 519, Corollary 2), and the endomorphism $\wedge^pu$ belongs to End$^f_A(\wedge^pE)$ (III, §7, No. 3, p. 511, Proposition 6) and is zero for $p$ sufficiently large. The set $1_E+$ End$^f_A(E)$ is stable under composition. We define a mapping det from $1_E+$ End$^f_A(E)$ to A by setting
 
 det(1$_E+u) =\sum_{p\geqslant 0}$ Tr $\wedge^pu$
 

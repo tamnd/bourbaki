@@ -16,12 +16,12 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | tags | 7 | 1 | 1 | T10 (113) |
 | mathematics | 6 | 2 | 1 | M09 (62) |
 | figures | 6 | 0 | 0 | none |
-| references | 0 | 3 | 0 | R01 (1) |
-| translation | 7 | 2 | 1 | L06 (2), L08 (1) |
+| references | 0 | 3 | 0 | none |
+| translation | 7 | 2 | 1 | L06 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 179 soft, over 50 rules that ran and 7 that could not.
+0 hard findings and 177 soft, over 50 rules that ran and 7 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -70,12 +70,6 @@ Soft, mathematics.
 
 and 37 more, which `bourbaki audit -only M09` prints in full.
 
-## R01 every in-corpus reference resolves (1)
-
-Soft, references.
-
-- `content/en/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:107` "Proposition 6" does not resolve: alg-viii-a4 has no Proposition 6
-
 ## T10 the tags of a file climb, as they did on the run that assigned them (113)
 
 Soft, tags.
@@ -108,12 +102,11 @@ Soft, tags.
 
 and 88 more, which `bourbaki audit -only T10` prints in full.
 
-## L06 the glossary is followed (2)
+## L06 the glossary is followed (1)
 
 Soft, translation.
 
 - `content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md:1` the English mentions 57 glossary terms and 1 are not in this file as the glossary writes them: commutative k-algebra (đại số giao hoán trên K)
-- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` the English mentions 67 glossary terms and 1 are not in this file as the glossary writes them: a-submodule (A-môđun con)
 
 ## L08 no translation was written by a small model (1)
 
