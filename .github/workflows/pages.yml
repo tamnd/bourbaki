@@ -1,0 +1,112 @@
+name: pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One at a time, and a queued run waits rather than cancelling the one in
+# flight. A cancelled deploy leaves Pages serving half a site, and half a site
+# is worse than the site it replaced.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  # The site is a pure function of the committed Markdown, the tags and the
+  # reference manifests. No PDF, no work/ directory, no network, which is what
+  # lets it be built here at all, where none of those are.
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      publishable: ${{ steps.site.outputs.publishable }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: tamnd/bourbaki-solver
+          path: .solver
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache-dependency-path: .solver/go.sum
+
+      # The gate on every pull request. It builds every page, sets every formula
+      # through KaTeX and fails on a tag that resolves to nothing.
+      #
+      # -max-broken is a ceiling and not a target. The text layer of the printed
+      # volume lost 204 formulae, mostly a prime read as an underscore and a
+      # subscript that swallowed the character after it, and they are being
+      # repaired page by page in tamnd/bourbaki-solver#3. Until that is done a
+      # plain build refuses to write a site at all, so the number here is what
+      # holds the line: a change that breaks a formula that used to set fails
+      # this check, and the number comes down as the pages are repaired and
+      # never goes up. When it reaches zero this flag comes off and P04 becomes
+      # hard.
+      - name: publish -check
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki publish -check -max-broken 204
+
+      # Where Pages will serve this from, asked rather than typed, so the links
+      # are right under tamnd.github.io/bourbaki and under a custom domain both.
+      - uses: actions/configure-pages@v5
+        id: pages
+        if: github.ref == 'refs/heads/main'
+
+      # The deploy build, with no flag that would let a broken formula through.
+      # A site that quietly prints the TeX of a formula the extraction got wrong
+      # puts the fault in front of a reader in a form that looks deliberate, so
+      # publish refuses to write one, and this refuses to deploy rather than
+      # deploying something worse.
+      #
+      # It says so on the run summary instead of failing the job. The chapter
+      # has carried this damage since it was extracted, it is tracked and it is
+      # being worked, and a build that is red every day for a month is a build
+      # nobody reads.
+      - name: build the site
+        id: site
+        if: github.ref == 'refs/heads/main'
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: |
+          if go run ./cmd/bourbaki publish -out "$GITHUB_WORKSPACE/site" \
+               -base "${{ steps.pages.outputs.base_path }}"; then
+            echo "publishable=yes" >> "$GITHUB_OUTPUT"
+            echo "The site was built and is being deployed." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "publishable=no" >> "$GITHUB_OUTPUT"
+            {
+              echo "## Built, not deployed"
+              echo
+              echo "publish will not write a site containing a formula KaTeX cannot set, and the"
+              echo "chapter still carries the ones the text layer of the PDF lost. Nothing was"
+              echo "deployed and nothing was overwritten. Run \`bourbaki audit -only P04\` for the"
+              echo "list, and see tamnd/bourbaki-solver#3 for the repair."
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.site.outputs.publishable == 'yes'
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main' && needs.build.outputs.publishable == 'yes'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deploy
