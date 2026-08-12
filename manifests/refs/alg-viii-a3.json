@@ -1,0 +1,8 @@
+{"edges": [
+{"from":"00QM","from_label":"alg-viii-a3-thm-1","kind":"cites","raw":"V, §3, No. 2, p. 18, Theorem 2","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"V","file":"content/en/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md","line":32},
+{"from":"00QM","from_label":"alg-viii-a3-thm-1","kind":"cites","raw":"V, §4, No. 3, p. 23, Theorem 2","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"V","file":"content/en/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md","line":34},
+{"from":"00QM","from_label":"alg-viii-a3-thm-1","kind":"cites","raw":"V, §4, No. 1, p. 20, Proposition 3","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"V","file":"content/en/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md","line":34},
+{"from":"00RV","from_label":"alg-viii-a3-thm-1-cor-1","to":"00QM","to_label":"alg-viii-a3-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md","line":44},
+{"from":"00RV","from_label":"alg-viii-a3-thm-1-cor-1","kind":"cites","raw":"V, §4, No. 1, p. 20, Theorem 1","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"V","file":"content/en/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md","line":44},
+{"from":"00QN","from_label":"alg-viii-a3-thm-1-cor-2","to":"00RV","to_label":"alg-viii-a3-thm-1-cor-1","kind":"cites","raw":"Corollary 1","form":"local","resolved_by":"in-section","file":"content/en/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md","line":54}
+]}
