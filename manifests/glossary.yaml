@@ -1,13 +1,14 @@
-version: 11
+version: 14
 terms:
     - en: ring
       vi: vành
       zh: 环
       ja: 環
     - en: a-module
-      vi: môđun
-      zh: a-模
-      ja: 加群
+      vi: A-môđun
+      zh: A-模
+      ja: A-加群
+      note: 'The ring is written in front and its letter is a capital, A-môđun and not môđun trên a, because the letter is the symbol the book uses and a lower case one is a different symbol. This row and the forty three like it were set by hand together. A mining pass lower cases the English it reads, so every rendering of this family came back with a lower case ring, and three of them had lost the ring altogether: a-module came back as môđun, which is any module over anything, a-submodule as môđun con, and d-vector space as không gian vectơ d chiều, a d dimensional one.'
     - en: element
       vi: phần tử
       zh: 元素
@@ -106,9 +107,9 @@ terms:
       zh: 推论
       ja: 系
     - en: k-algebra
-      vi: đại số k
-      zh: k-代数
-      ja: k-代数
+      vi: đại số trên K
+      zh: K-代数
+      ja: K-代数
     - en: finitely
       vi: hữu hạn
       zh: 有限地
@@ -206,9 +207,9 @@ terms:
       zh: 矩阵
       ja: 行列
     - en: simple a-module
-      vi: a-môđun đơn
-      zh: 单a-模
-      ja: 単純 a-加群
+      vi: A-môđun đơn
+      zh: 单A-模
+      ja: 単純A-加群
     - en: free
       vi: tự do
       zh: 自由的
@@ -274,9 +275,9 @@ terms:
       zh: 群同态
       ja: 群準同型
     - en: left a-module
-      vi: a-môđun trái
-      zh: 左a-模
-      ja: 左 a-加群
+      vi: A-môđun trái
+      zh: 左A-模
+      ja: 左A-加群
     - en: subring
       vi: vành con
       zh: 子环
@@ -375,9 +376,9 @@ terms:
       zh: 因子
       ja: 因子
     - en: a-linear
-      vi: a-tuyến tính
-      zh: a-线性的
-      ja: a-線形
+      vi: A-tuyến tính
+      zh: A-线性的
+      ja: A-線形
     - en: finite dimension
       vi: số chiều hữu hạn
       zh: 有限维
@@ -443,13 +444,13 @@ terms:
       zh: 认同
       ja: 同一視する
     - en: right a-module
-      vi: môđun phải trên a
-      zh: 右a-模
-      ja: 右a-加群
+      vi: A-môđun phải
+      zh: 右A-模
+      ja: 右A-加群
     - en: k-module
-      vi: môđun trên k
-      zh: k-模
-      ja: k-加群
+      vi: K-môđun
+      zh: K-模
+      ja: K-加群
     - en: right ideal
       vi: iđêan phải
       zh: 右理想
@@ -528,9 +529,9 @@ terms:
       zh: 单模
       ja: 単純加群
     - en: a-submodule
-      vi: môđun con
-      zh: a-子模
-      ja: a-部分加群
+      vi: A-môđun con
+      zh: A-子模
+      ja: A-部分加群
     - en: applied
       vi: áp dụng
       zh: 应用的
@@ -568,13 +569,13 @@ terms:
       zh: 本原的
       ja: 原始的
     - en: semisimple a-module
-      vi: môđun a nửa đơn
-      zh: 半单a-模
-      ja: 半単純a-加群
+      vi: A-môđun nửa đơn
+      zh: 半单A-模
+      ja: 半単純A-加群
     - en: a-linear mapping
-      vi: ánh xạ tuyến tính
-      zh: a-线性映射
-      ja: a線形写像
+      vi: ánh xạ A-tuyến tính
+      zh: A-线性映射
+      ja: A-線型写像
     - en: left noetherian
       vi: Noether trái
       zh: 左诺特的
@@ -672,17 +673,17 @@ terms:
       zh: 内部
       ja: 内部
     - en: k-linear
-      vi: k-tuyến tính
-      zh: k-线性
-      ja: k線型
+      vi: K-tuyến tính
+      zh: K-线性
+      ja: K-線型
     - en: k-vector space
-      vi: không gian vectơ k
-      zh: k-向量空间
-      ja: kベクトル空間
+      vi: không gian vectơ trên K
+      zh: K-向量空间
+      ja: K-ベクトル空間
     - en: l-algebra
-      vi: đại số trên l
-      zh: l-代数
-      ja: l-代数
+      vi: đại số trên L
+      zh: L-代数
+      ja: L-代数
     - en: linear form
       vi: dạng tuyến tính
       zh: 线性形式
@@ -696,9 +697,9 @@ terms:
       zh: 子双模
       ja: 部分両側加群
     - en: finitely generated a-module
-      vi: a-môđun hữu hạn sinh
-      zh: 有限生成a-模
-      ja: 有限生成a-加群
+      vi: A-môđun hữu hạn sinh
+      zh: 有限生成A-模
+      ja: 有限生成A-加群
     - en: morita equivalent
       vi: tương đương Morita
       zh: 莫里田等价
@@ -728,9 +729,9 @@ terms:
       zh: 半单环
       ja: 半単純環
     - en: a-algebra
-      vi: đại số trên a
-      zh: a-代数
-      ja: a-代数
+      vi: đại số trên A
+      zh: A-代数
+      ja: A-代数
     - en: artinian ring
       vi: vành Artin
       zh: 阿廷环
@@ -740,9 +741,9 @@ terms:
       zh: 无限
       ja: 無限
     - en: left b-module
-      vi: b-môđun trái
-      zh: 左b-模
-      ja: 左b-加群
+      vi: B-môđun trái
+      zh: 左B-模
+      ja: 左B-加群
     - en: maximal left
       vi: tối đại trái
       zh: 极大左
@@ -827,9 +828,9 @@ terms:
       zh: 拟单
       ja: 準単純
     - en: simple k-algebra
-      vi: đại số k đơn
-      zh: 单 k-代数
-      ja: 単純 k-代数
+      vi: đại số đơn trên K
+      zh: 单K-代数
+      ja: 単純K-代数
     - en: absolutely flat
       vi: phẳng tuyệt đối
       zh: 绝对平坦
@@ -843,9 +844,9 @@ terms:
       zh: 可逆双模
       ja: 可逆双加群
     - en: l-module
-      vi: l-môđun
-      zh: l-模
-      ja: l-加群
+      vi: L-môđun
+      zh: L-模
+      ja: L-加群
     - en: necessarily
       vi: tất yếu
       zh: 必然地
@@ -871,9 +872,9 @@ terms:
       zh: 诱导的
       ja: 誘導された
     - en: k-linear mapping
-      vi: ánh xạ k-tuyến tính
-      zh: k-线性映射
-      ja: k-線型写像
+      vi: ánh xạ K-tuyến tính
+      zh: K-线性映射
+      ja: K-線型写像
     - en: left module
       vi: môđun trái
       zh: 左模
@@ -927,9 +928,9 @@ terms:
       zh: 有单位元的
       ja: 単位的
     - en: central simple k-algebra
-      vi: đại số k đơn tâm
-      zh: 中心单 k-代数
-      ja: 中心単純 k-代数
+      vi: đại số đơn tâm trên K
+      zh: 中心单K-代数
+      ja: 中心単純K-代数
     - en: commutative algebra
       vi: đại số giao hoán
       zh: 交换代数
@@ -1019,9 +1020,9 @@ terms:
       zh: 自同构群
       ja: 自己同型群
     - en: b-submodule
-      vi: môđun con b
-      zh: b-子模
-      ja: b部分加群
+      vi: B-môđun con
+      zh: B-子模
+      ja: B-部分加群
     - en: finite field
       vi: trường hữu hạn
       zh: 有限域
@@ -1051,9 +1052,9 @@ terms:
       zh: 正则表示
       ja: 正則表現
     - en: right b-module
-      vi: môđun phải b
-      zh: 右b-模
-      ja: 右b加群
+      vi: B-môđun phải
+      zh: 右B-模
+      ja: 右B-加群
     - en: ring structure
       vi: cấu trúc vành
       zh: 环结构
@@ -1086,9 +1087,9 @@ terms:
       zh: 闭域
       ja: 閉体
     - en: commutative k-algebra
-      vi: đại số giao hoán k
-      zh: 交换k-代数
-      ja: 可換k代数
+      vi: đại số giao hoán trên K
+      zh: 交换K-代数
+      ja: 可換K-代数
     - en: dense
       vi: trù mật
       zh: 稠密的
@@ -1118,9 +1119,9 @@ terms:
       zh: 指数
       ja: 指数
     - en: free k-module
-      vi: môđun tự do k
-      zh: 自由 k-模
-      ja: 自由k加群
+      vi: K-môđun tự do
+      zh: 自由K-模
+      ja: 自由K-加群
     - en: generally
       vi: nói chung
       zh: 一般地
@@ -1174,7 +1175,7 @@ terms:
       zh: 逆命题
       ja: 逆
     - en: d-module
-      vi: môđun D
+      vi: D-môđun
       zh: D-模
       ja: D-加群
     - en: derived group
@@ -1243,9 +1244,9 @@ terms:
       zh: 模右单位
       ja: 剰余類における右単元
     - en: simple b-module
-      vi: môđun B đơn
-      zh: 简单 B-模
-      ja: 単純b-加群
+      vi: B-môđun đơn
+      zh: 单B-模
+      ja: 単純B-加群
     - en: splitting field
       vi: trường phân rã
       zh: 分裂域
@@ -1275,8 +1276,8 @@ terms:
       zh: 共轭
       ja: 共役
     - en: d-linear
-      vi: d-tuyến tính
-      zh: d-线性的
+      vi: D-tuyến tính
+      zh: D-线性的
       ja: D-線形
     - en: diagonal
       vi: đường chéo
@@ -1291,9 +1292,9 @@ terms:
       zh: 有限支撑
       ja: 有限台
     - en: finite-dimensional free k-module
-      vi: k-môđun tự do hữu hạn chiều
-      zh: 有限维自由 k-模
-      ja: 有限次元自由k加群
+      vi: K-môđun tự do hữu hạn chiều
+      zh: 有限维自由K-模
+      ja: 有限次元自由K-加群
     - en: greatest
       vi: lớn nhất
       zh: 最大的
@@ -1726,9 +1727,9 @@ terms:
       zh: 推出
       ja: 導く
     - en: b-module
-      vi: b-môđun
-      zh: b-模
-      ja: b-加群
+      vi: B-môđun
+      zh: B-模
+      ja: B-加群
     - en: finite-dimensional
       vi: hữu hạn chiều
       zh: 有限维的
@@ -1995,9 +1996,9 @@ terms:
       zh: 相应的
       ja: 対応する
     - en: d-vector space
-      vi: không gian vectơ d chiều
-      zh: d-向量空间
-      ja: d-ベクトル空間
+      vi: không gian vectơ trên D
+      zh: D-向量空间
+      ja: D-ベクトル空間
     - en: decreasing sequence
       vi: dãy giảm
       zh: 递减序列
@@ -2047,17 +2048,17 @@ terms:
       zh: 结合的
       ja: 結合的
     - en: c-module
-      vi: c-môđun
-      zh: c-模
-      ja: c-加群
+      vi: C-môđun
+      zh: C-模
+      ja: C-加群
     - en: complete
       vi: đầy đủ
       zh: 完备的
       ja: 完備
     - en: free a-module
-      vi: môđun tự do trên a
-      zh: 自由a-模
-      ja: 自由a-加群
+      vi: A-môđun tự do
+      zh: 自由A-模
+      ja: 自由A-加群
     - en: maximal commutative subfield
       vi: trường con giao hoán cực đại
       zh: 极大交换子域
@@ -2087,9 +2088,9 @@ terms:
       zh: 任意的
       ja: 任意の
     - en: b-linear mapping
-      vi: ánh xạ tuyến tính trên b
-      zh: b-线性映射
-      ja: b-線型写像
+      vi: ánh xạ B-tuyến tính
+      zh: B-线性映射
+      ja: B-線型写像
     - en: calculate
       vi: tính
       zh: 计算
@@ -2131,17 +2132,17 @@ terms:
       zh: 假设
       ja: 仮定
     - en: isotypical a-module
-      vi: môđun a đẳng kiểu
-      zh: 同型a-模
-      ja: A型等型加群
+      vi: A-môđun đẳng kiểu
+      zh: 同型A-模
+      ja: 等型A-加群
     - en: itself
       vi: chính nó
       zh: 本身
       ja: 自身
     - en: k-subalgebra
-      vi: đại số con trên k
-      zh: k-子代数
-      ja: k部分代数
+      vi: đại số con trên K
+      zh: K-子代数
+      ja: K-部分代数
     - en: left noetherian ring
       vi: vành Noether trái
       zh: 左诺特环
@@ -2205,8 +2206,8 @@ terms:
       ja: 上代数的
       note: Added by hand after a run got it wrong. "the elements of S are all algebraic over K" came back as "nguyên đại số trên K", which reads as algebraic integer over K and is not what the sentence says. An earlier run of the same line said "nguyên trên K", integral, which is a different theorem. The phrase occurs 8 times in the English and the word on its own occurs 44 times, so it is worth pinning as the phrase rather than as the adjective.
     - en: azumaya a-algebra
-      vi: đại số A-Azumaya
-      zh: Azumaya a-代数
+      vi: đại số Azumaya trên A
+      zh: Azumaya A-代数
       ja: アズマヤA-代数
     - en: can identify
       vi: có thể đồng nhất
@@ -2369,9 +2370,9 @@ terms:
       zh: 虽然
       ja: けれども
     - en: generating a-module
-      vi: môđun A sinh
-      zh: 生成 a-模
-      ja: a-加群を生成する
+      vi: A-môđun sinh
+      zh: 生成A-模
+      ja: 生成A-加群
     - en: group structure
       vi: cấu trúc nhóm
       zh: 群结构
@@ -2520,9 +2521,9 @@ terms:
       zh: 子模同构
       ja: 同型な部分加群
     - en: surjective a-linear mapping
-      vi: ánh xạ a-tuyến tính toàn ánh
-      zh: 满射a-线性映射
-      ja: 全射a線型写像
+      vi: ánh xạ A-tuyến tính toàn ánh
+      zh: 满射A-线性映射
+      ja: 全射A-線型写像
     - en: torsion
       vi: xoắn
       zh: 挠元
@@ -2584,8 +2585,8 @@ terms:
       zh: 自然同构
       ja: 標準的に同型
     - en: cayley k-algebra
-      vi: đại số k-Cayley
-      zh: 凯莱k-代数
+      vi: đại số Cayley trên K
+      zh: 凯莱K-代数
       ja: ケーリーK-代数
     - en: choice
       vi: lựa chọn
@@ -2712,9 +2713,9 @@ terms:
       zh: 所得的
       ja: 結果として得られる
     - en: right d-vector space
-      vi: không gian vectơ phải trên d
-      zh: 右d-向量空间
-      ja: 右Dベクトル空間
+      vi: không gian vectơ phải trên D
+      zh: 右D-向量空间
+      ja: 右D-ベクトル空間
     - en: school
       vi: trường phái
       zh: 学校
@@ -2728,9 +2729,9 @@ terms:
       zh: 半单的分别等型的
       ja: 半単純
     - en: simple right a-module
-      vi: môđun phải đơn trên a
-      zh: 单纯右a-模
-      ja: 単純右a-加群
+      vi: A-môđun phải đơn
+      zh: 单右A-模
+      ja: 単純右A-加群
     - en: structure theorem
       vi: định lý cấu trúc
       zh: 结构定理
@@ -2928,9 +2929,9 @@ terms:
       zh: 拟单环
       ja: 準単純環
     - en: r-algebra
-      vi: đại số trên r
-      zh: r-代数
-      ja: r-代数
+      vi: đại số trên R
+      zh: R-代数
+      ja: R-代数
     - en: reciprocity
       vi: luật tương hỗ
       zh: 互反性
@@ -2956,9 +2957,9 @@ terms:
       zh: 右湮灭子
       ja: 右零化イデアル
     - en: right d-module
-      vi: môđun phải trên d
-      zh: 右d-模
-      ja: 右d-加群
+      vi: D-môđun phải
+      zh: 右D-模
+      ja: 右D-加群
     - en: right length
       vi: độ dài phải
       zh: 右长度
@@ -3024,9 +3025,9 @@ terms:
       zh: 唯一代数
       ja: 一意な代数
     - en: unique k-linear mapping
-      vi: ánh xạ k-tuyến tính duy nhất
-      zh: 唯一的 k-线性映射
-      ja: 一意なk線型写像
+      vi: ánh xạ K-tuyến tính duy nhất
+      zh: 唯一的K-线性映射
+      ja: 一意なK-線型写像
     - en: unique mapping
       vi: ánh xạ duy nhất
       zh: 唯一映射
