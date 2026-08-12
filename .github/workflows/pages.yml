@@ -47,11 +47,15 @@ jobs:
       # this check, and the number comes down as the pages are repaired and
       # never goes up. When it reaches zero this flag comes off and P04 becomes
       # hard.
+      #
+      # 204 to 94 with the prime repair. What is left is 46 double superscripts,
+      # 12 double subscripts and 17 spans where the text layer dropped the
+      # dangerous bend sign out of the middle of a French sentence.
       - name: publish -check
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki publish -check -max-broken 204
+        run: go run ./cmd/bourbaki publish -check -max-broken 94
 
       # Where Pages will serve this from, asked rather than typed, so the links
       # are right under tamnd.github.io/bourbaki and under a custom domain both.

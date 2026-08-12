@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: 162eee098558a3ca1ce573c2b473e7b62d9c5c5935d94678ef5a2f1d3670df4e
+content_sha256: 46068f1976620ee8eab64929fbcc7648addcda4875e64110cb8b27b803846a84
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -1435,7 +1435,7 @@ $$
 pour $a\in A$. On pose ensuite
 
 $$
-c(g, g') =u_gu_{g'}u^{-1_'}_{gg}
+c(g, g') =u_gu_{g'}u^{-1}_{gg'}
 $$
 
 On peut également définir une extension de G par $L^*$ au moyen de $\varphi :$ on considère le groupe $\Gamma \subset \mathbf{G}\mathbf{L}_m(L)$ formé des $\gamma$ pour lesquels il existe $g\in G$ avec

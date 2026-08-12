@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 44cd2ffb9171246a156dc946f90facae55dcbf2e23bb7978e3ee66d4e24c20c1
+content_sha256: 5cc49ec4e0602c6f9fa21a6e875115864239f448d5722c5309353dd11dc82445
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -217,7 +217,7 @@ Suppose that the group G is finite and that $|G|$ is invertible in K. An exact s
 
 Given an exact sequence of K[G]-modules
 
-0 // $M_'^f$ // M // $M_{''}$ // $0$,
+0 // ${M'}^f$ // M // $M''$ // $0$,
 
 it suffices to apply Theorem 1 to the image of the morphism $f$.
 
@@ -267,13 +267,9 @@ Let H be a subgroup of G, and let $(M, \sigma )$ be a linear representation of H
 
 Let $S\subset G$ be a system of representatives of $G/H$. The family $(s)_{s\in S}$ is a basis of the right K[H]-module K[G]. It follows that the mapping $M^{(S)}\rightarrow$ Ind$^G_H(\sigma )$ defined by $(m_s)_{s\in S}\mapsto \sum_{s\in S}s\otimes m_s$ is an isomorphism of K-modules. For all $s, s'\in S$ and every $m\in M$, we have the relations
 
-$_'-m$ if $s=s'$,
-
 $$
-\iota (s\otimes m)(s^1) =
+\iota (s'\otimes m)(s^{-1}) =\begin{cases} m & \text{if } s=s',\\ 0 & \text{otherwise.}\end{cases}
 $$
-
-0 otherwise.
 
 It follows that $\iota '$ is injective.
 
@@ -343,11 +339,11 @@ Suppose that G is the product $G'\times G''$ of two groups. By VIII, p. 213, Rem
 
 Suppose that G is the product $G'\times G''$ of two groups. Denote by $\psi$ the homomorphism from $\mathscr{Z}_K(G')\otimes_K\mathscr{Z}_K(G'')$ to $\mathscr{Z}_K(G)$ that sends $f'\otimes f''$ to the function $(g', g'')\mapsto f'(g')f''(g'')$. The following diagram commutes:
 
-$R_K(G_')\otimes_{\mathbf{Z}}R_K(G_{''})^{\kappa}$ // $R_K(G)$
+$R_K(G')\otimes_{\mathbf{Z}}R_K(G'')^{\kappa}$ // $R_K(G)$
 
 $\Theta_{G'}\otimes \Theta_{G''}\Theta_G$
 
-$\mathscr{Z}_K(G_')\otimes_K\mathscr{Z}_K(G_{''})^{\psi}$ /$/\mathscr{Z}_K(G)$.
+$\mathscr{Z}_K(G')\otimes_K\mathscr{Z}_K(G'')^{\psi}$ /$/\mathscr{Z}_K(G)$.
 
 ### 5. Fourier Inversion Formula
 
@@ -803,11 +799,11 @@ Suppose that G is the product $G'\times G''$ of two finite groups. We define iso
 
 We have a commutative diagram
 
-$R_K(G_')\otimes_{\mathbf{Z}}R_K(G_{''})^{\kappa}$ // $R_K(G)$
+$R_K(G')\otimes_{\mathbf{Z}}R_K(G'')^{\kappa}$ // $R_K(G)$
 
 $\varphi_{G'}\otimes \varphi_{G''}\varphi_G$
 
-$R_{K'}(G_')\otimes_{\mathbf{Z}}R_{K'}(G_{''})^{\kappa'}$ // $R_{K'}(G)$,
+$R_{K'}(G')\otimes_{\mathbf{Z}}R_{K'}(G'')^{\kappa'}$ // $R_{K'}(G)$,
 
 where the isomorphisms $\kappa$ and $\kappa '$ are those defined in VIII, p. 406.
 
@@ -877,21 +873,17 @@ Let $\pi$ and $\pi '$ be finite-dimensional linear representations of G. We have
 
 For every element $\lambda$ of $\widehat{G}$, we endow the vector space $V_{\lambda}$ with the structure of a Hilbert space for which the automorphisms $\pi_{\lambda}(g)$ are unitary. We denote by $\langle v|v'\rangle_{\lambda}$ the inner product of two elements $v, v'$ of $V_{\lambda}$ and by $u^*$ the adjoint of an endomorphism $u$ of $V_{\lambda}$. Let $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ and $A'= (A'_{\lambda})_{\lambda\in\widehat{G}}$ be elements of $F(\widehat{G})$. We write $A^*= (A^*_{\lambda})_{\lambda\in\widehat{G}}$. We have $\mathscr{F}(a^*) = (\mathscr{F}(a))^*$ for every element $a$ of $\mathbf{C}[G]$. Set (55) $\langle A|A'\rangle_{\widehat{G}}=|G|^{-2}\widehat{\tau}(A^*A')$. By formula (10) of VIII, p. 407, we have
 
-$_'$ 1 $\sum_{*'}$ (56) $\langle A|A\rangle$ = $d_{\lambda}$ Tr(A$_{\lambda}A_{\lambda})$.
+(56) $\langle A|A'\rangle_{\widehat{G}}=\frac{1}{|G|^2}\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$^*_{\lambda}$A$'_{\lambda}$).
 
-$$
-^{\widehat{G}}|G|^2
-$$
+Since $\widehat{\tau}\circ \mathscr{F}=\tau$, formulas (53) and (55) imply that the mapping $\mathscr{F}$ is an isomorphism of Hilbert spaces from $\mathbf{C}[G]$ to $F(\widehat{G})$.
 
-Since $\widehat{\tau}\circ \mathscr{F}=\tau$, formulas (53) and $^{\lambda\in}(55^{\widehat{G}})$ imply that the mapping $\mathscr{F}$ is an isomorphism of Hilbert spaces from $\mathbf{C}[G]$ to $F(\widehat{G})$.
+The Schur orthogonality relations (VIII, p. 410) can be reformulated using Hilbertian inner products. Relations (21) and (24) then give the following assertions. For $\lambda \in \widehat{G}$ and $x, x', y, y'$ in $V_{\lambda}$, we have (57) $|G|^{-1}\sum_{g\in G}\overline{\langle x|\pi_{\lambda}(g)x'\rangle}_{\lambda}\langle y|\pi_{\lambda}(g)y'\rangle_{\lambda}=d^{-1}_{\lambda}\overline{\langle x|y\rangle}_{\lambda}\langle x'|y'\rangle_{\lambda}$.
 
-The Schur orthogonality relations (VIII, p. 410) can be reformulated using Hilbertian inner products. Relations (21) and (24) then give the following assertions. For $\lambda \in \widehat{G}$ and $x, x', y, y'$ in $V_{\lambda}$, we have (57) $|G|^{-1}_g\sum_{\in G}\langle x|\pi_{\lambda}(g)x'\rangle_{\lambda}\langle y|\pi_{\lambda}(g)y'\rangle_{\lambda}=d^-_{\lambda}^1\langle x|y\rangle_{\lambda}\langle x'|y'\rangle_{\lambda}$.
+If $\lambda$ and $\mu$ are two distinct elements of $\widehat{G}$, then for $x, x'$ in $V_{\lambda}$ and $y, y'$ in $V_\mu$, we have (58) $\sum_{g\in G}\overline{\langle x|\pi_{\lambda}(g)x'\rangle}_{\lambda}\langle y|\pi_\mu(g)y'\rangle_\mu= 0$.
 
-If $\lambda$ and $\mu$ are two distinct elements of $\widehat{G}$, then for $x, x'$ in $V_{\lambda}$ and $y, y'$ in $V_\mu$, we have (58) $\sum\langle x|\pi_{\lambda}(g)x'\rangle_{\lambda}\langle y|\pi_\mu(g)y'\rangle_\mu= 0$.
+For every $\lambda \in \widehat{G}$, we choose an orthonormal basis $(e_{\lambda ,i})_{1\leqslant i\leqslant d_{\lambda}}$ of $V_{\lambda}$. For any $g\in G$, we denote by $(\pi^{\lambda}_{ij}(g))$ the matrix of the endomorphism $\pi_{\lambda}(g)$ of $V_{\lambda}$ with respect to this basis; we have (59) $\pi^{\lambda}_{ij}(g) =\langle e_{\lambda ,i}|\pi_{\lambda}(g)e_{\lambda ,j}\rangle_{\lambda}$.
 
-For every $\lambda \in \widehat{G}$, we choose an orthonormal basis $(^{g\in G}e_{\lambda ,i})_{1\leqslant i\leqslant d_{\lambda}}$ of $V_{\lambda}$. For any $g\in G$, we denote by $(\pi^{\lambda}_{ij}(g))$ the matrix of the endomorphism $\pi_{\lambda}(g)$ of $V_{\lambda}$ with respect to this basis; we have (59) $\pi^{\lambda}_{ij}(g) =\langle e_{\lambda ,i}|\pi_{\lambda}(g)e_{\lambda ,j}\rangle_{\lambda}$.
-
-Since the endomorphism $\pi_{\lambda}(g)$ is unitary, its inverse is equal to $\pi_{\lambda}(g)^*$, so that (60) $\pi^{\lambda}_{ij}(g) =\pi_{ji}^{\lambda}(g^{-1})$. It then follows from formulas (22) of VIII, p. 409 and (25), p. 409 that the functions $(d_{\lambda})^{1/2}\pi_{ij}^{\lambda}$, for $\lambda \in \widehat{G},1\leqslant i\leqslant d_{\lambda},1\leqslant j\leqslant d_{\lambda}$, form an orthonormal basis of the Hilbert space $\mathbf{C}[G].*$
+Since the endomorphism $\pi_{\lambda}(g)$ is unitary, its inverse is equal to $\pi_{\lambda}(g)^*$, so that (60) $\overline{\pi^{\lambda}_{ij}(g)}=\pi^{\lambda}_{ji}(g^{-1})$. It then follows from formulas (22) of VIII, p. 409 and (25), p. 409 that the functions $(d_{\lambda})^{1/2}\pi_{ij}^{\lambda}$, for $\lambda \in \widehat{G},1\leqslant i\leqslant d_{\lambda},1\leqslant j\leqslant d_{\lambda}$, form an orthonormal basis of the Hilbert space $\mathbf{C}[G].*$
 
 ### Exercises {#alg-viii-s21-exercises}
 

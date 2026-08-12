@@ -35,7 +35,7 @@ subsections:
       pdf_page: 472
 statements: 18
 exercises: 4
-content_sha256: 97db2476628d6e118122168500bce208d4a17ba0a88561d28a21dde845b09594
+content_sha256: d29713f8e9a0dc229c3dc5413a15fd7f9065b33d5d66e40842996e2748acb9b2
 ---
 
 ## APPENDIX 2 DETERMINANTS OVER A NONCOMMUTATIVE FIELD
@@ -193,17 +193,17 @@ $$
 $$
 
 $$
-=\pi (-1)^{n-i}\pi (\lambda^{-1}_i\mu_i)^{-1}\varphi (p(v_1)\lambda_1, . . . ,p\(v_i)\lambda_i, . . . , p(v_n)\lambda_n)
+=\pi (-1)^{n-i}\pi (\lambda^{-1}_i\mu_i)^{-1}\varphi (p(v_1)\lambda_1, . . . ,\widehat{p(v_i)\lambda_i}, . . . , p(v_n)\lambda_n)
 $$
 
 But we have $\pi (\lambda^{-1}_i\mu_i)^{-1}=\pi (\mu_i)^{-1}\pi (\lambda_i)$ and
 
 $$
-\varphi (p(v_1)\lambda_1, . . . ,p\(v_i)\lambda_i, . . . , p(v_n)\lambda_n)
+\varphi (p(v_1)\lambda_1, . . . ,\widehat{p(v_i)\lambda_i}, . . . , p(v_n)\lambda_n)
 $$
 
 $$
-=\varphi (p(v_1), . . . ,p[(v_i), . . . , p(v_n))\pi (\lambda_1. . .\widehat{\lambda}_i. . . \lambda_n)
+=\varphi (p(v_1), . . . ,\widehat{p(v_i)}, . . . , p(v_n))\pi (\lambda_1. . .\widehat{\lambda}_i. . . \lambda_n)
 $$
 
 Comparing formulas (9) and (11) leads to the desired relation
@@ -212,23 +212,23 @@ $$
 \omega (v_1\lambda_1, . . . , v_n\lambda_n) =\omega (v_1, . . . , v_n)\pi (\lambda_1. . . \lambda_n)
 $$
 
-D) Proof of the formula (2): Let $(v_1, . . . , v_n)$ be a basis of V and $i, j$ be two distinct integer in the interval $[1, n]$; we define $\mu_1, . . . , \mu_n$ as before. Consider the basis $(v'_1, . . . , v'_n)$ of V defined by $v'_i=v_i+v_j$ and $v'_k=v_k$ for $k\not=i$, and let us introduce the coordinates $\mu'_1, . . . , \mu'_n$ of $e$ with respect to this basis; they satisfy $\mu'_j=\mu_j-\mu_i$ and $\mu'_k=\mu_k$ for $k\not=j$. We set $t=\omega (v_1, . . . , v_n)$ and $t'=\omega (v_1', . . . , v_n')$. We must prove that $t$ and $t'$ are equal.
+D) Proof of the formula (2): Let $(v_1, . . . , v_n)$ be a basis of V and $i, j$ be two distinct integer in the interval $[1, n]$; we define $\mu_1, . . . , \mu_n$ as before. Consider the basis $(v'_1, . . . , v'_n)$ of V defined by $v'_i=v_i+v_j$ and $v'_k=v_k$ for $k\not=i$, and let us introduce the coordinates $\mu'_1, . . . , \mu'_n$ of $e$ with respect to this basis; they satisfy $\mu'_j=\mu_j-\mu_i$ and $\mu'_k=\mu_k$ for $k\not=j$. We set $t=\omega (v_1, . . . , v_n)$ and $t'=\omega (v'_1, . . . , v'_n)$. We must prove that $t$ and $t'$ are equal.
 
 Let us first note that, by the definition of $\omega$, we have
 
 $$
-t=\pi (-1)^{n-k}\pi (\mu_k)^{-1}\varphi (p(v_1), . . . ,p[(v_k), . . . , p(v_n)) \tag{12}
+t=\pi (-1)^{n-k}\pi (\mu_k)^{-1}\varphi (p(v_1), . . . ,\widehat{p(v_k)}, . . . , p(v_n)) \tag{12}
 $$
 
 $$
-t'=\pi (-1)^{n-k}\pi (\mu'_k)^{-1}\varphi (p(v'_1), . . . ,p[(v_k'), . . . , p(v'_n)) \tag{13}
+t'=\pi (-1)^{n-k}\pi (\mu'_k)^{-1}\varphi (p(v'_1), . . . ,\widehat{p(v'_k)}, . . . , p(v'_n)) \tag{13}
 $$
 
 for every $k$ such that $\mu_k$ and $\mu'_k$ are nonzero.
 
-a) If $\mu_i\not=0$, then the sequences $(p(v_1), . . . ,p[(v_k), . . . , p(v_n))$ and $(p(v_1'), . . . ,p[(v_k'), . . . , p(v_n'))$ are equal, and we have $\mu_i$ = $\mu'_i$, and therefore $t=t'$.
+a) If $\mu_i\not=0$, then the sequences $(p(v_1), . . . ,\widehat{p(v_k)}, . . . , p(v_n))$ and $(p(v'_1), . . . ,\widehat{p(v'_k)}, . . . , p(v'_n))$ are equal, and we have $\mu_i$ = $\mu'_i$, and therefore $t=t'$.
 
-b) If there exists an index $k$ different from $i$ and $j$ such that $\mu_k\not= 0$, then we have $p(v_l') =p(v_l)$ for $l\not=i$ and $p(v_i') =p(v_i) +p(v_j)$. The elements $p(v_i)$ and $p(v_j)$ both belong to the sequence $(p(v_1), . . . ,p[(v_k), . . . , p(v_n))$. Since $\varphi$ belongs to Ω(W), formula (2) of VIII, p. 447 applies; it gives
+b) If there exists an index $k$ different from $i$ and $j$ such that $\mu_k\not= 0$, then we have $p(v'_l) =p(v_l)$ for $l\not=i$ and $p(v'_i) =p(v_i) +p(v_j)$. The elements $p(v_i)$ and $p(v_j)$ both belong to the sequence $(p(v_1), . . . ,p[(v_k), . . . , p(v_n))$. Since $\varphi$ belongs to Ω(W), formula (2) of VIII, p. 447 applies; it gives
 
 $$
 \varphi (p(v_1), . . . ,p[(v_k), . . . , p(v_n)) =\varphi (p(v'_1), . . . ,p[(v_k'), . . . , p(v_n'))

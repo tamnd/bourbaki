@@ -62,7 +62,7 @@ subsections:
       pdf_page: 221
 statements: 38
 exercises: 14
-content_sha256: 0101bbaa9fc9f972c0d80c1d3f9fbfbbcbf55e0bd5198211ca2373c19c91523e
+content_sha256: c43d8a939fd5f479077bece86a39d568c784f9c59d54cfe7167ee61acc16ffd1
 ---
 
 ## § 11. GROTHENDIECK GROUPS
@@ -299,9 +299,9 @@ More explicitly, this relation can be written as
 
 Set $G =\bigoplus_{i\in I}G_i, G'=\bigoplus_{i\in I}G'_i$, etc. By passing to the direct sums, we obtain the exact sequences
 
-$(\mathscr{G})$ 0 // $G_'^p$ // G $^q$ // $G_{''}$ // $0$,
+$(\mathscr{G})$ 0 // ${G'}^p$ // G $^q$ // $G''$ // $0$,
 
-$(\mathscr{H})$ 0 // $H_'^r$ // H $^s$ // $H_{''}$ // 0
+$(\mathscr{H})$ 0 // ${H'}^r$ // H $^s$ // $H''$ // 0
 
 consisting of modules of type $\mathscr{C}$.
 
@@ -361,7 +361,7 @@ Let A be a ring. Let E be an A-module of finite length and S a simple A-module. 
 
 Let E, $E'$, and $E''$ be A-modules of finite length and
 
-0 // $E_'^i$ // E $^p$ // $E_{''}$ // 0
+0 // ${E'}^i$ // E $^p$ // $E''$ // 0
 
 an exact sequence. We have $\ell_S(E) =\ell_S(E') +\ell_S(E'')$.
 

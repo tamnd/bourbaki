@@ -34,7 +34,7 @@ subsections:
       pdf_page: 447
 statements: 18
 exercises: 4
-content_sha256: 9dd77290c2a556b4f8339382e94421d311f3a0139a05da41d6f4be41b827d71f
+content_sha256: 8765b7d9e2b3175d5c278eee0054197884e07599b8ff335ae48b964812dbe883
 ---
 
 ### APPENDICE 2 DÉTERMINANTS SUR UN CORPS NON COMMUTATIF
@@ -184,17 +184,17 @@ Il s’agit maintenant de prouver que $\omega$ appartient à Ω(V).
 C) Preuve de la formule (1) : Soient $\lambda_1, . . . , \lambda_n$ des éléments de $D^*$ et $(v_1, . . . , v_n)$ une base de V. On définit $\mu_1, . . . , \mu_n$ et I comme ci-dessus ; choisissons $i$ dans I. Comme on a $e=\sum^n_{j=1}(v_j\lambda_j)(\lambda^{-1}_j\mu_j)$, la formule (9) entraîne
 
 $$
-\omega (v_1\lambda_1, . . . , v_n\lambda_n) =\pi (-1)_{n-i}\pi (\lambda_{-i1}\mu_i)_{-1}\varphi (p(v_1)\lambda_1, . . . ,p(v_i)\widehat{\lambda}_i, . . . , p(v_n)\lambda_n) \tag{11}
+\omega (v_1\lambda_1, . . . , v_n\lambda_n) =\pi (-1)^{n-i}\pi (\lambda^{-1}_i\mu_i)^{-1}\varphi (p(v_1)\lambda_1, . . . ,\widehat{p(v_i)\lambda_i}, . . . , p(v_n)\lambda_n) \tag{11}
 $$
 
 Mais on a $\pi (\lambda^{-1}_i\mu_i)^{-1}=\pi (\mu_i)^{-1}\pi (\lambda_i)$ et
 
 $$
-\varphi (p(v_1)\lambda_1, . . . ,p(v_i)\widehat{\lambda}_i, . . . , p(v_n)\lambda_n)
+\varphi (p(v_1)\lambda_1, . . . ,\widehat{p(v_i)\lambda_i}, . . . , p(v_n)\lambda_n)
 $$
 
 $$
-=\varphi (p(v_1), . . . ,\widehat{p}(v_i), . . . , p(v_n))\pi (\lambda_1. . .\widehat{\lambda}_i. . . \lambda_n)
+=\varphi (p(v_1), . . . ,\widehat{p(v_i)}, . . . , p(v_n))\pi (\lambda_1. . .\widehat{\lambda}_i. . . \lambda_n)
 $$
 
 la comparaison des formules (9) et (11) établit la relation cherchée
@@ -203,33 +203,33 @@ $$
 \omega (v_1\lambda_1, . . . , v_n\lambda_n) =\omega (v_1, . . . , v_n)\pi (\lambda_1. . . \lambda_n)
 $$
 
-D) Preuve de la formule (2) : Soient $(v_1, . . . , v_n)$ une base de V et $i, j$ deux entiers distincts dans l’intervalle $[1, n]$; définissons$\mu_1, . . . , \mu_n$ comme précédemment. Considérons la base $(v_1', . . . , v'_n)$ de V définie par $v_i'=v_i+v_j$ et $v'_k=v_k$ pour $k\not=i$, et introduisons les coordonnées $\mu '_1, . . . , \mu '_n$ de $e$ par rapport à cette base ; elles satisfont à $\mu '_j=\mu_j-\mu_i$ et $\mu '_k=\mu_k$ pour $k\not=j$. On pose $t=\omega (v_1, . . . , v_n)$ et $t'=\omega (v'_1, . . . , v_n')$. Il s’agit de prouver l’égalité de $t$ et $t'$.
+D) Preuve de la formule (2) : Soient $(v_1, . . . , v_n)$ une base de V et $i, j$ deux entiers distincts dans l’intervalle $[1, n]$; définissons$\mu_1, . . . , \mu_n$ comme précédemment. Considérons la base $(v'_1, . . . , v'_n)$ de V définie par $v'_i=v_i+v_j$ et $v'_k=v_k$ pour $k\not=i$, et introduisons les coordonnées $\mu '_1, . . . , \mu '_n$ de $e$ par rapport à cette base ; elles satisfont à $\mu '_j=\mu_j-\mu_i$ et $\mu '_k=\mu_k$ pour $k\not=j$. On pose $t=\omega (v_1, . . . , v_n)$ et $t'=\omega (v'_1, . . . , v'_n)$. Il s’agit de prouver l’égalité de $t$ et $t'$.
 
 Remarquons d’abord que, par définition de $\omega$, on a
 
 $$
-t=\pi (-1)_{n-k}\pi (\mu_k)_{-1}\varphi (p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n)) \tag{12}
+t=\pi (-1)^{n-k}\pi (\mu_k)^{-1}\varphi (p(v_1), . . . ,\widehat{p(v_k)}, . . . , p(v_n)) \tag{12}
 $$
 
 $$
-t_'=\pi (-1)_{n-k}\pi (\mu_{'k})_{-1}\varphi (p(v_{1'}), . . . ,p(\widehat{v}_{'k}), . . . , p(v_{'n})) \tag{13}
+t'=\pi (-1)^{n-k}\pi (\mu'_k)^{-1}\varphi (p(v'_1), . . . ,\widehat{p(v'_k)}, . . . , p(v'_n)) \tag{13}
 $$
 
 pour tout $k$ tel que $\mu_k$ et $\mu '_k$ soient non nuls.
 
-a) Si $\mu_i\not=0$, les suites $(p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n))$ et $(p(v_{'1}), . . . ,p(\widehat{v}_{'k}), . . . , p(v_{'n}))$
+a) Si $\mu_i\not=0$, les suites $(p(v_1), . . . ,\widehat{p(v_k)}, . . . , p(v_n))$ et $(p(v'_1), . . . ,\widehat{p(v'_k)}, . . . , p(v'_n))$
 
 sont égales et l’on a $\mu_i=\mu '_i$, d’où $t=t'$.
 
-b) S’il existe un indice $k$, distinct de $i$ et de $j$, tel que $\mu_k\not= 0$, on a $p(v_l') =p(v_l)$ pour $l\not=i$ et $p(v_i') =p(v_i) +p(v_j)$; les éléments $p(v_i)$ et $p(v_j)$ appartiennent tous les deux à la suite $(p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n))$. Comme $\varphi$ appartient à Ω(W) la formule (2) de VIII, p. 437 s’applique et donne
+b) S’il existe un indice $k$, distinct de $i$ et de $j$, tel que $\mu_k\not= 0$, on a $p(v'_l) =p(v_l)$ pour $l\not=i$ et $p(v'_i) =p(v_i) +p(v_j)$; les éléments $p(v_i)$ et $p(v_j)$ appartiennent tous les deux à la suite $(p(v_1), . . . ,\widehat{p(v_k)}, . . . , p(v_n))$. Comme $\varphi$ appartient à Ω(W) la formule (2) de VIII, p. 437 s’applique et donne
 
 $$
-\varphi (p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n)) =\varphi (p(v_1'), . . . ,p(\widehat{v}_{'k}), . . . , p(v'_n))
+\varphi (p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n)) =\varphi (p(v'_1), . . . ,p(\widehat{v}'_k), . . . , p(v'_n))
 $$
 
 Mais on a aussi $\mu_k=\mu '_k$, d’où $t=t'$.
 
-c) Il reste à examiner le cas où le seul indice $k$ tel que $\mu_k\not= 0$ est $j$. On a alors $\mu '_j=\mu_j,e=v_j\mu_j$ et $p(v_j) = 0$. Faisons $k=j$ dans les formules (12) et (13). Comme les suites $(p(v_1), . . . ,p(\widehat{v}_j), . . . , p(v_n))$ et $(p(v_{'1}), . . . ,p(\widehat{v}_{j'}), . . . , p(v_{n'}))$ sont égales, on
+c) Il reste à examiner le cas où le seul indice $k$ tel que $\mu_k\not= 0$ est $j$. On a alors $\mu '_j=\mu_j,e=v_j\mu_j$ et $p(v_j) = 0$. Faisons $k=j$ dans les formules (12) et (13). Comme les suites $(p(v_1), . . . ,p(\widehat{v}_j), . . . , p(v_n))$ et $(p(v'_1), . . . ,p(\widehat{v}'_j), . . . , p(v'_n))$ sont égales, on
 
 a $t=t'$.
 

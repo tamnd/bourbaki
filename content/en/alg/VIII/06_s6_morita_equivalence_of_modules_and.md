@@ -42,7 +42,7 @@ subsections:
       pdf_page: 128
 statements: 41
 exercises: 8
-content_sha256: bc10cbd46776494cccd43d8b1e04d90ec716824b3c1579f92315daebf8559782
+content_sha256: dca01570f144ba45ee0938bb509a9dd854da5b0e8768b5efaf3c13a202e821a0
 ---
 
 ## § 6. MORITA EQUIVALENCE OF MODULES AND ALGEBRAS
@@ -573,11 +573,11 @@ Suppose that the sequence $(\mathscr{E})$ is exact. Since the right B-module P i
 
 Conversely, suppose that the sequence $(P\otimes \mathscr{E})$ is exact. Let Q be a $(B,A)_k$-bimodule, inverse to P, and $\theta : Q\otimes_AP\rightarrow_sB_d$ an isomorphism. Consider the commutative diagram
 
-$Q\otimes_AP\otimes_BV_'^{1_Q\otimes 1_P\otimes f}/$/ $Q\otimes_AP\otimes_BV^{1_Q\otimes 1_P\otimes g}/$/ $Q\otimes_AP\otimes_BV_{''}$
+$Q\otimes_AP\otimes_B{V'}^{1_Q\otimes 1_P\otimes f}/$/ $Q\otimes_AP\otimes_BV^{1_Q\otimes 1_P\otimes g}/$/ $Q\otimes_AP\otimes_BV''$
 
 $\theta \otimes 1_{V'}\theta \otimes 1_V\theta \otimes 1_{V''}$
 
-$V_'f$ // V $g$ // $V_{''}$.
+$V'f$ // V $g$ // $V''$.
 
 Since Q is a projective A-module and the sequence $(P\otimes \mathscr{E})$ is exact, the first line of this diagram is an exact sequence. Since the vertical arrows are isomorphisms, the second line is also exact.
 

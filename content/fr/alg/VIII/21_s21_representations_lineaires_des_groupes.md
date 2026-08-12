@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: decde56df5b72a5d2beecfca542cf7f3ad2b4a11e4c021270a596eeb8f4a2d8e
+content_sha256: e6c5072f4aae428b9e811b89f8e1e336938432bdaf444fc6d42e1a998c28c874
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -268,13 +268,9 @@ Soit H un sous-groupe de G et soit $(M, \sigma )$une représentation linéaire d
 
 Soit $S\subset G$ un système de représentants de $G/H$. La famille $(s)_{s\in S}$ est une base du K[H]-module à droite K[G]. Il en résulte que l’application $M^{(S)}\rightarrow$ Ind$^G_H(\sigma )$ définie par $(m_s)_{s\in S}\rightarrow \sum_{s\in S}s\otimes m_s$ est un isomorphisme de K-modules. Pour tous $s, s'\in S$ et tout $m\in M$, on a les relations
 
-$_'-m$ si $s=s'$,
-
 $$
-\iota (s\otimes m)(s^1) =
+\iota (s'\otimes m)(s^{-1}) =\begin{cases} m & \text{si } s=s',\\ 0 & \text{sinon.}\end{cases}
 $$
-
-0 sinon.
 
 Il en résulte que $\iota$ est injective.
 
