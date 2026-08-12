@@ -14,15 +14,15 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (113) |
-| mathematics | 6 | 2 | 1 | M09 (44) |
+| mathematics | 6 | 2 | 1 | M09 (38) |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | none |
 | translation | 7 | 2 | 1 | L06 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
-| publication | 0 | 1 | 0 | P04 (43) |
+| publication | 0 | 1 | 0 | P04 (37) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 202 soft, over 51 rules that ran and 7 that could not.
+0 hard findings and 190 soft, over 51 rules that ran and 7 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -39,7 +39,7 @@ should trust.
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
 
-## M09 no base carries two superscripts or two subscripts (44)
+## M09 no base carries two superscripts or two subscripts (38)
 
 Soft, mathematics.
 
@@ -54,9 +54,6 @@ Soft, mathematics.
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_x
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:86` two of one script against one base, which TeX will not set: ^a_0^0_b
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:474` two of one script against one base, which TeX will not set: _g'_{_{-1}}
-- `content/en/alg/VIII/exercises/s1/19.md:23` two of one script against one base, which TeX will not set: ^-_M^1
-- `content/en/alg/VIII/exercises/s1/19.md:25` two of one script against one base, which TeX will not set: ^-_M^1
-- `content/en/alg/VIII/exercises/s1/23.md:47` two of one script against one base, which TeX will not set: _{\partial}^{\partial}_T^{P_i}
 - `content/en/alg/VIII/exercises/s11/05.md:15` two of one script against one base, which TeX will not set: ^p_0^0_q
 - `content/en/alg/VIII/exercises/s11/08.md:19` two of one script against one base, which TeX will not set: ^X_{0Y}^0
 - `content/en/alg/VIII/exercises/s11/10.md:17` two of one script against one base, which TeX will not set: ^X_0^0_I
@@ -68,10 +65,13 @@ Soft, mathematics.
 - `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:361` two of one script against one base, which TeX will not set: _n^j_-^{-1}_1
 - `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:681` two of one script against one base, which TeX will not set: ^-_1^1
 - `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:855` two of one script against one base, which TeX will not set: ^x_x^{\in}_{\in}^H_H^{\backslash}_{\backslash}^G_G
+- `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_x
+- `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:85` two of one script against one base, which TeX will not set: ^a_0^0_b
+- `content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md:501` two of one script against one base, which TeX will not set: _g'_{_{-1}}
 
-and 19 more, which `bourbaki audit -only M09` prints in full.
+and 13 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (43)
+## P04 every math span parses under KaTeX (37)
 
 Soft, publication.
 
@@ -86,9 +86,6 @@ Soft, publication.
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\g…: ^X_-^-_y^x_X^-_-^{\gamma y}_x
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:86` KaTeX will not set it: Double superscript at position 20: …b)\mapsto (^a_0^̲0_b): (a, b)\mapsto (^a_0^0_b)
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:474` KaTeX will not set it: Double subscript at position 54: …_{\in G}f_gf_g'_̲{_{-1}} \tag{28…: \langle f, f'\rangle_G=|G|^{-1}_g\sum_{\in G}f_gf_…
-- `content/en/alg/VIII/exercises/s1/19.md:23` KaTeX will not set it: Double superscript at position 16: \varepsilon^-_M^̲1(S^{-1}N): \varepsilon^-_M^1(S^{-1}N)
-- `content/en/alg/VIII/exercises/s1/19.md:25` KaTeX will not set it: Double superscript at position 26: …\varepsilon^-_M^̲1(N'): N'\mapsto \varepsilon^-_M^1(N')
-- `content/en/alg/VIII/exercises/s1/23.md:47` KaTeX will not set it: Double subscript at position 31: …ial}^{\partial}_̲T^{P_i}: P\mapsto_{\partial}^{\partial}_T^{P_i}
 - `content/en/alg/VIII/exercises/s11/05.md:15` KaTeX will not set it: Double superscript at position 28: … q) = (m+n,^p_0^̲0_q: (m, p) + (n, q) = (m+n,^p_0^0_q
 - `content/en/alg/VIII/exercises/s11/08.md:19` KaTeX will not set it: Double superscript at position 9: (^X_{0Y}^̲0): (^X_{0Y}^0)
 - `content/en/alg/VIII/exercises/s11/10.md:17` KaTeX will not set it: Double superscript at position 6: (^X_0^̲0_I): (^X_0^0_I)
@@ -100,8 +97,11 @@ Soft, publication.
 - `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:681` KaTeX will not set it: Double superscript at position 60: …{-1}h_1(x.g^-_1^̲1)}c(h_2(x.g_1^…: =\prod_{x\in H\backslash G}^{s(x.g_1^{-1})^{-1}h_1…
 - `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:855` KaTeX will not set it: Double superscript at position 18: …times \prod^x_x^̲{\in}_{\in}^H_H…: \times \prod^x_x^{\in}_{\in}^H_H^{\backslash}_{\ba…
 - `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\g…: ^X_-^-_y^x_X^-_-^{\gamma y}_x
+- `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:85` KaTeX will not set it: Double superscript at position 24: …ightarrow (^a_0^̲0_b): (a, b)\rightarrow (^a_0^0_b)
+- `content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md:501` KaTeX will not set it: Double subscript at position 53: …{g\in G}f_gf_g'_̲{_{-1}} \tag{28…: \langle f, f'\rangle_G=|G|^{-1}\sum_{g\in G}f_gf_g…
+- `content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md:763` KaTeX will not set it: Double subscript at position 30: …. . , \omega_d'_̲{_{\lambda'}}: \omega '_1, . . . , \omega_d'_{_{\lambda'}}
 
-and 18 more, which `bourbaki audit -only P04` prints in full.
+and 12 more, which `bourbaki audit -only P04` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (113)
 
