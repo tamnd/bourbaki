@@ -90,24 +90,41 @@ jobs:
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: go run ./cmd/bourbaki refs build -check -min 90
-      # The audit is not gated on its exit status, and that is deliberate. It
-      # exits on the count of hard findings, the corpus has twelve, and every one
-      # of them is a page where the text layer lost half of a display and no
-      # program can put it back: they are waiting on the OCR repair pass, which
-      # reads the printed page. Gating on the count would mean a red build until
-      # then, and a build that is always red tells nobody anything.
+      # The audit ran without its exit status being read for as long as the
+      # corpus carried hard findings. It had twelve, every one a page where the
+      # text layer lost half of a display, and gating on the count would have
+      # meant a red build for months, which tells nobody anything.
       #
-      # What is gated is reports/audit.md. It is regenerated here and diffed
-      # against the one committed, so the twelve are enumerated in the repository
-      # by file and line, a thirteenth fails the build, and fixing one fails the
-      # build until the report is regenerated and committed. The report is the
-      # list, and this is what keeps the list honest.
+      # The count is zero and has been through the last several repairs, so the
+      # exit status is read now. A hard rule is one that fails the build: the
+      # structure of a section file, a tag that resolves to nothing, a figure
+      # that is not there, a reference that claims to resolve and does not. What
+      # stays soft is what the extraction is still working through, M09 and P04
+      # and T10, and those are held by their own counted ceilings elsewhere in
+      # these workflows rather than by this.
+      #
+      # The findings are written to JSON first and the exit status read after,
+      # so a failing audit still annotates the diff with what failed instead of
+      # stopping before it can say.
+      #
+      # reports/audit.md is gated too, and separately. It is regenerated here
+      # and diffed against the one committed, so every soft finding is
+      # enumerated in the repository by file and line, one more fails the build,
+      # and fixing one fails the build until the report is regenerated and
+      # committed. The report is the list, and this is what keeps the list
+      # honest.
       - name: audit
+        id: audit
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: |
-          go run ./cmd/bourbaki audit -report reports/audit.md -json "$RUNNER_TEMP/audit.json" || true
+          if go run ./cmd/bourbaki audit -report reports/audit.md \
+               -json "$RUNNER_TEMP/audit.json"; then
+            echo "status=0" >> "$GITHUB_OUTPUT"
+          else
+            echo "status=$?" >> "$GITHUB_OUTPUT"
+          fi
           test -f "$RUNNER_TEMP/audit.json"
       # Every finding carries a file and a line, so it can be put on the diff
       # where somebody reviewing the change will see it instead of in a log they
@@ -130,3 +147,9 @@ jobs:
           PY
       - name: the audit report is up to date
         run: git diff --exit-code -- reports/audit.md
+      # Read last, so a build that fails on it has already put every finding on
+      # the diff and already said whether the report is stale. A gate that stops
+      # the job before the annotations leaves a reviewer with a red tick and
+      # nowhere to look.
+      - name: no hard findings
+        run: test "${{ steps.audit.outputs.status }}" -eq 0

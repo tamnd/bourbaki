@@ -16,7 +16,7 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | tags | 7 | 1 | 1 | T10 (113) |
 | mathematics | 6 | 2 | 1 | M09 (38) |
 | figures | 6 | 0 | 0 | none |
-| references | 0 | 3 | 0 | none |
+| references | 3 | 0 | 0 | none |
 | translation | 7 | 2 | 1 | L06 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
 | publication | 0 | 1 | 0 | P04 (37) |
