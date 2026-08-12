@@ -33,7 +33,7 @@ should trust.
 
 - **M04** every math span parses: not asked for, run with -validate-tex
 - **X01** a solution's tag is a tag, and it is an exercise: the corpus has no solutions yet
-- **X02** verified means both judges passed: the corpus has no solutions yet
+- **X02** a status is a fact about the judges: the corpus has no solutions yet
 - **X03** every tag a solution says it uses exists: the corpus has no solutions yet
 - **X04** no provider leakage and no meta-commentary: the corpus has no solutions yet
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
