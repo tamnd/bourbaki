@@ -33,7 +33,7 @@ subsections:
       pdf_page: 45
 statements: 36
 exercises: 19
-content_sha256: 0a77b5275a27d87e0748aea796e354dd4a195ec9be0de1dd185c21b4c7806e72
+content_sha256: 987bb974b4cba42533bf92f704a4253bf2dd1d3a4696d9a9602ae57c91dc552a
 ---
 
 ## § 2. STRUCTURE DES MODULES DE LONGUEUR FINIE
@@ -360,7 +360,7 @@ Soit A un anneau local. Le A-module $A_s$ est primordial (VIII, p. 28). Si M est
 
 Soient M et $M'$ des A-modules semi-primordiaux. Il résulte aussitôt du lemme 4 de VIII, p. 31 que $M'$ est isomorphe à un sous-module facteur direct de M si et seulement si l’on a $[M': L]\leqslant [M : L]$ pour tout A-module primordial L. En particulier, si L est un A-module primordial, [M : L] est le plus grand des cardinaux $\mathfrak{a}$ pour lesquels il existe un sous-module facteur direct de M isomorphe à $L^{(\mathfrak{a})}$.
 
-La relation [M : L] = 0 signifie donc qu’il n’existe aucun sous-module facteur direct de M isomorphe à L. Ceci n’exclut pas qu’il existe un sous-module de M $\dbend$ isomorphe à L ; il suffit de considérer l’exemple où $A = \mathbf{Z}, L = \mathbf{Z}/2\mathbf{Z}$et $M = \mathbf{Z}/4\mathbf{Z} :$ les $\mathbf{Z}$-modules L et M sont primordiaux, non isomorphes, d’où [M : L] = 0 et L est isomorphe au sous-module $2\mathbf{Z}/4\mathbf{Z}$de M.
+☡ La relation [M : L] = 0 signifie donc qu’il n’existe aucun sous-module facteur direct de M isomorphe à L. Ceci n’exclut pas qu’il existe un sous-module de M isomorphe à L ; il suffit de considérer l’exemple où $A = \mathbf{Z}, L = \mathbf{Z}/2\mathbf{Z}$et $M = \mathbf{Z}/4\mathbf{Z} :$ les $\mathbf{Z}$-modules L et M sont primordiaux, non isomorphes, d’où [M : L] = 0 et L est isomorphe au sous-module $2\mathbf{Z}/4\mathbf{Z}$de M.
 
 ### 5. Structure des modules de longueur finie
 

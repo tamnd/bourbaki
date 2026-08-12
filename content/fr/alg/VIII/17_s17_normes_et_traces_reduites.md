@@ -37,7 +37,7 @@ subsections:
       pdf_page: 345
 statements: 31
 exercises: 7
-content_sha256: a6c8d410a8469c6eb400235dbce706e0bac826c98a4e5fca97c924ff472407db
+content_sha256: b85f055b96a1063ec98258c5f50192f6d93fd3c292967d70056d256fa882092c
 ---
 
 ## § 17. NORMES ET TRACES RÉDUITES
@@ -342,7 +342,7 @@ Soit $A^o$ l’algèbre opposée de A. Pour tout $a$ dans A, on a
 
 Choisissons une extension L de K, un espace vectoriel V de dimension $n$ sur L et un homomorphisme $\theta$ de A dans End$_L(V)$ (VIII, p. 248, th. 1). Soit $V^*$ l’espace vectoriel dual de V. L’application qui associe à un élément $a$ de A l’endomorphisme $^t\theta (a)$ de $V^*$ est un homomorphisme de K-algèbres de $A^o$ dans End$_L(V^*)$. Le corollaire 3 résulte alors du cor. 1 et du cor. 3 de III, p. 95.
 
-La trace, la norme et le polynôme caractéristique de $a$ sont donc les mêmes, $\dbend$ qu’on considère $a$ comme élément de A ou de $A^o$. Cette propriété n’est pas toujours satisfaite lorsque A n’est plus supposée centrale et simple (III, p. 196, exerc. 1 du § 9).
+☡ La trace, la norme et le polynôme caractéristique de $a$ sont donc les mêmes, qu’on considère $a$ comme élément de A ou de $A^o$. Cette propriété n’est pas toujours satisfaite lorsque A n’est plus supposée centrale et simple (III, p. 196, exerc. 1 du § 9).
 
 #### Proposition 5 {#alg-viii-s17-prop-5 .statement tag=00KQ}
 

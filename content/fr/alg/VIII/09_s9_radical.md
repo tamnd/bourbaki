@@ -33,7 +33,7 @@ subsections:
       pdf_page: 162
 statements: 49
 exercises: 31
-content_sha256: f3c97e654802cccd8632d6d02e163804fad39b61872da01b17c741181871e5f0
+content_sha256: 12942c09b7a3e64603917bebb3e915bc608489afc172ae08312239b4b1a7d8fb
 ---
 
 ## § 9. RADICAL
@@ -74,7 +74,7 @@ c) Le module $M/\mathfrak{R}(M)$est sans radical. Si le module $M/N$est sans rad
 
 L’assertion a) résulte de la prop. 1 appliquée à l’injection canonique de N dans M, et l’assertion b) de la prop. 1 appliquée à l’application canonique de M sur $M/N$. De b), on déduit que $M/N$ est sans radical si $N =\mathfrak{R}(M)$ et que l’on a $\mathfrak{R}(M)\subset N$ si $M/N$ est sans radical.
 
-$\dbend$ Il résulte de l’exemple 1 de VIII, p. 147 qu’il peut exister des sous-modules N contenant $\mathfrak{R}(M)$ et tels que le radical de $M/N$ ne soit pas nul.
+☡ Il résulte de l’exemple 1 de VIII, p. 147 qu’il peut exister des sous-modules N contenant $\mathfrak{R}(M)$ et tels que le radical de $M/N$ ne soit pas nul.
 
 #### Corollaire 2 {#alg-viii-s9-prop-1-cor-2 .statement tag=00A6}
 
@@ -148,7 +148,7 @@ Si A est un anneau local, il possède un unique idéal à gauche maximal $\mathf
 
 #### Exemple 2 {#alg-viii-s9-n2-exa-2 .statement tag=00AD}
 
-Soient K un corps commutatif et E l’algèbre $K[[X_i]]_{i\in I}$ des séries formelles par rapport aux indéterminées $X_i$ à coefficients dans K. D’après l’exemple précédent et l’exemple 4 de VIII, p. 24, le radical de E se compose des séries formelles $\dbend$ de terme constant nul. On notera que l’anneau E est intègre et que son radical n’est pas réduit à 0, bien que E soit un sous-anneau de son corps des fractions qui est sans radical.
+☡ Soient K un corps commutatif et E l’algèbre $K[[X_i]]_{i\in I}$ des séries formelles par rapport aux indéterminées $X_i$ à coefficients dans K. D’après l’exemple précédent et l’exemple 4 de VIII, p. 24, le radical de E se compose des séries formelles de terme constant nul. On notera que l’anneau E est intègre et que son radical n’est pas réduit à 0, bien que E soit un sous-anneau de son corps des fractions qui est sans radical.
 
 #### Exemple 3 {#alg-viii-s9-n2-exa-3 .statement tag=00AE}
 
@@ -174,7 +174,7 @@ Soit $\mathfrak{a}$ un idéal bilatère de A. Les idéaux à gauche maximaux de 
 
 Soit $\mathfrak{a}$ un idéal bilatère maximal de A. Dans l’anneau $A/\mathfrak{a}$, les seuls idéaux bilatères sont 0 et $A/\mathfrak{a}$. Comme l’anneau $A/\mathfrak{a}$ n’est pas réduit à 0, son radical n’est pas égal à $A/\mathfrak{a}$. L’anneau $A/\mathfrak{a}$ est donc sans radical, et l’on a $\mathfrak{R}(A)\subset \mathfrak{a}$ d’après c). Cela prouve d).
 
-On dit qu’un idéal à gauche (ou à droite) de A est un nilidéal s’il se compose d’éléments nilpotents. On dit qu’un idéal bilatère $\mathfrak{a}$ de A est nilpotent s’il existe un entier $n\geqslant 1$ tel que $\mathfrak{a}^n= 0$, c’est-à-dire (I, p. 102) tel que l’on ait $x_1. . . x_n= 0$ pour $\dbend$ toute suite $(x_1, . . . , x_n)$ d’éléments de $\mathfrak{a}$. Tout idéal bilatère nilpotent est un nilidéal, mais il peut exister des nilidéaux qui ne sont pas contenus dans un idéal bilatère nilpotent (VIII, p. 162, exerc. 9).
+☡ On dit qu’un idéal à gauche (ou à droite) de A est un nilidéal s’il se compose d’éléments nilpotents. On dit qu’un idéal bilatère $\mathfrak{a}$ de A est nilpotent s’il existe un entier $n\geqslant 1$ tel que $\mathfrak{a}^n= 0$, c’est-à-dire (I, p. 102) tel que l’on ait $x_1. . . x_n= 0$ pour toute suite $(x_1, . . . , x_n)$ d’éléments de $\mathfrak{a}$. Tout idéal bilatère nilpotent est un nilidéal, mais il peut exister des nilidéaux qui ne sont pas contenus dans un idéal bilatère nilpotent (VIII, p. 162, exerc. 9).
 
 #### Théorème 1 {#alg-viii-s9-thm-1 .statement tag=00S5}
 
@@ -214,7 +214,7 @@ Notons $\mathfrak{r}$ l’ensemble des éléments non inversibles de A. Si l’a
 
 Soient K un anneau intègre, I un ensemble non vide et A l’anneau de polynômes $K[X_i]_{i\in I}$. Démontrons que l’anneau A est sans radical. Les seuls éléments inversibles de A sont ceux de K (IV, p. 9, cor. 2). Soit $f\in \mathfrak{R}(A)$. Choisissons un élément $i\in I$. Alors $1 +fX_i$ est inversible (th. 1), ce qui implique $f= 0$.
 
-$\dbend$ Remarquons que lorsque K est un corps commutatif, l’anneau $A = K[X_i]_{i\in I}$ est un sous-anneau de $B = K[[X_i]]_{i\in I}$, et qu’on a $\mathfrak{R}(A) = 0$ et $A\cap \mathfrak{R}(B)\not= 0 ($cf. VIII, p. 150, exemple 2).
+☡ Remarquons que lorsque K est un corps commutatif, l’anneau $A = K[X_i]_{i\in I}$ est un sous-anneau de $B = K[[X_i]]_{i\in I}$, et qu’on a $\mathfrak{R}(A) = 0$ et $A\cap \mathfrak{R}(B)\not= 0 ($cf. VIII, p. 150, exemple 2).
 
 #### Exemple 5 {#alg-viii-s9-n2-exa-5 .statement tag=00AL}
 
@@ -224,7 +224,7 @@ Soit $\mathfrak{a}$ un idéal bilatère de A. La topologie sur A, compatible ave
 
 D’après le théorème 1, tout nilidéal à gauche d’un anneau A est
 
-contenu dans son radical. Soit $x$ un élément nilpotent et central de A ; alors $Ax$ $\dbend$ est un nilidéal de A, donc $x$ appartient au radical de A. Il se peut cependant qu’il existe dans A des éléments nilpotents non nuls, mais que A soit sans radical : par exemple, pour tout entier $n\geqslant 2$, l’anneau de matrices $\mathbf{M}_n(K)$ sur un corps K est simple, donc sans radical (VIII, p. 150, prop. 4) et il contient des éléments nilpotents, par exemple les unités matricielles $E_{ij}$ avec $i\not=j$.
+☡ contenu dans son radical. Soit $x$ un élément nilpotent et central de A ; alors $Ax$ est un nilidéal de A, donc $x$ appartient au radical de A. Il se peut cependant qu’il existe dans A des éléments nilpotents non nuls, mais que A soit sans radical : par exemple, pour tout entier $n\geqslant 2$, l’anneau de matrices $\mathbf{M}_n(K)$ sur un corps K est simple, donc sans radical (VIII, p. 150, prop. 4) et il contient des éléments nilpotents, par exemple les unités matricielles $E_{ij}$ avec $i\not=j$.
 
 #### Remarque 2 {#alg-viii-s9-n2-rem-2 .statement tag=00AN}
 
@@ -284,7 +284,7 @@ Soit $\mathfrak{a}$ un nilidéal bilatère de A et soit $e$ un élément idempot
 
 Soit $a$ un représentant quelconque de $e$ dans A. L’élément $a-a^2$ de A est nilpotent puisqu’il appartient à $\mathfrak{a}$. Choisissons un polynôme $P\in \mathbf{Z}[X]$ satisfaisant aux conditions du lemme 1. On a que $a-P(a)\in A(a-a^2)$ et l’élément $e= P(a)$ de A convient.
 
-$\dbend$ Supposons que $e$ appartienne au centre de l’anneau $A/\mathfrak{a}$. Il n’existe pas nécessairement d’idempotent $e$ dans le centre Z de A, relevant $e$ (VIII, p. 167, exerc. 31) ; cependant, si $e$ appartient à l’image de Z dans $A/\mathfrak{a}$, il se relève en un idempotent de Z puisque $Z\cap \mathfrak{a}$ est un nilidéal de Z.
+☡ Supposons que $e$ appartienne au centre de l’anneau $A/\mathfrak{a}$. Il n’existe pas nécessairement d’idempotent $e$ dans le centre Z de A, relevant $e$ (VIII, p. 167, exerc. 31) ; cependant, si $e$ appartient à l’image de Z dans $A/\mathfrak{a}$, il se relève en un idempotent de Z puisque $Z\cap \mathfrak{a}$ est un nilidéal de Z.
 
 #### Corollaire 1 {#alg-viii-s9-prop-7-cor-1 .statement tag=00AS}
 
@@ -350,7 +350,7 @@ Pour finir, supposons que $g$ soit injective et que son image soit un facteur di
 
 Soit M un A-module. Soient $(P, u)$et $(P', u')$des couvertures projectives de M. Il existe un isomorphisme $f$ de P sur $P'$ tel que $u=u'\circ f$.
 
-$\dbend$ On notera que $f$ n’est pas nécessairement déterminé de manière unique par la relation $u=u'\circ f$ (VIII, p. 165, exerc. 21).
+☡ On notera que $f$ n’est pas nécessairement déterminé de manière unique par la relation $u=u'\circ f$ (VIII, p. 165, exerc. 21).
 
 #### Corollaire 2 {#alg-viii-s9-prop-8-cor-2 .statement tag=00AZ}
 

@@ -19,10 +19,10 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | references | 0 | 3 | 0 | none |
 | translation | 7 | 2 | 1 | L06 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
-| publication | 0 | 1 | 0 | P04 (75) |
+| publication | 0 | 1 | 0 | P04 (58) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 249 soft, over 51 rules that ran and 7 that could not.
+0 hard findings and 232 soft, over 51 rules that ran and 7 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -71,7 +71,7 @@ Soft, mathematics.
 
 and 34 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (75)
+## P04 every math span parses under KaTeX (58)
 
 Soft, publication.
 
@@ -101,7 +101,7 @@ Soft, publication.
 - `content/en/alg/VIII/exercises/s19/06.md:25` KaTeX will not set it: Double superscript at position 14: \prod^r_{j=0}^̲{-1}(1 + T^{2^j…: \prod^r_{j=0}^{-1}(1 + T^{2^j}) =\sum^2_{h^r=0}^{-…
 - `content/en/alg/VIII/exercises/s21/21.md:33` KaTeX will not set it: Double superscript at position 51: …=1j^{\alpha j}}^̲1_{\alpha_j!}: c_{\boldsymbol{\alpha }}=\prod^n_{j=1j^{\alpha j}}…
 
-and 50 more, which `bourbaki audit -only P04` prints in full.
+and 33 more, which `bourbaki audit -only P04` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (113)
 

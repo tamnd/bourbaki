@@ -29,7 +29,7 @@ subsections:
       pdf_page: 20
 statements: 36
 exercises: 28
-content_sha256: 124cd36734911a6f165dd56a109e5eb31d87c7cf99661013641063dece88e7b3
+content_sha256: 878a93b8e41ca628a62a70813e8f9b890d57703999cc476a1b0764f32b1e08b9
 ---
 
 ## § 1. MODULES ARTINIENS ET MODULES NOETHÉRIENS
@@ -236,7 +236,7 @@ Les idéaux premiers d’un anneau commutatif artinien sont ses idéaux maximaux
 
 Dans tout anneau commutatif, un idéal maximal est premier. Soit A un anneau commutatif artinien. Soit $\mathfrak{p}$ un idéal premier de A. L’anneau $A/\mathfrak{p}$ est intègre et artinien (prop. 5), donc est un corps (VIII, p. 5, exemple 3). Par conséquent, l’idéal $\mathfrak{p}$ est maximal.
 
-$\dbend$ L’anneau de polynômes $\mathbf{Q}[(X_n)_{n\in\mathbf{N}}]$ est intègre ; il n’est pas noethérien (ni artinien) (VIII, p. 14, exerc. 9). C’est un sous-anneau de son corps des fractions, qui est, lui, un anneau artinien (et noethérien).
+☡ L’anneau de polynômes $\mathbf{Q}[(X_n)_{n\in\mathbf{N}}]$ est intègre ; il n’est pas noethérien (ni artinien) (VIII, p. 14, exerc. 9). C’est un sous-anneau de son corps des fractions, qui est, lui, un anneau artinien (et noethérien).
 
 ### 3. Contremodule
 

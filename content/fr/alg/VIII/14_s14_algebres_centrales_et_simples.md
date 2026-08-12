@@ -45,7 +45,7 @@ subsections:
       pdf_page: 265
 statements: 36
 exercises: 19
-content_sha256: f4fbc44c0cae2badcbd981f06f0bbe93e0295b92a9c758490eb949e1c7390e19
+content_sha256: 80858a88c5e870c10a153d28ea1cb56185a08b4094a98ff1e9927cf41df47ef5
 ---
 
 ## § 14. ALGÈBRES CENTRALES ET SIMPLES
@@ -230,7 +230,7 @@ Cela résulte du th. 2 de VIII, p. 252 appliquée avec $f=$ Id$_A$ et $g=u$.
 
 Le th. 4 s’applique dans les deux cas particuliers suivants :
 
-a) Soient D un corps et Z son centre. Si D est de degré fini sur Z, tout auto$\dbend$ morphisme de D qui laisse fixes les éléments de Z est intérieur. L’hypothèse que D est de degré fini sur Z est essentielle (VIII, p. 265, exerc. 4).
+☡ a) Soient D un corps et Z son centre. Si D est de degré fini sur Z, tout automorphisme de D qui laisse fixes les éléments de Z est intérieur. L’hypothèse que D est de degré fini sur Z est essentielle (VIII, p. 265, exerc. 4).
 
 b) Soit V un espace vectoriel de dimension finie sur le corps K. Tout automorphisme de la K-algèbre End$_K(V)$ est intérieur ; ce résultat s’étend au cas où l’espace V n’est pas de dimension finie sur K (VIII, p. 268, exerc. 13).
 
@@ -278,7 +278,7 @@ $$
 
 et que [B : K] est fini et non nul, on conclut à l’égalité $[A : B]_s= [B': K]$ (E, III, p. 49). On a prouvé b).
 
-$\dbend$ Soit A une K-algèbre simple, centrale, de degré fini. Il peut exister des sous-algèbres commutatives semi-simples B de A satisfaisant à $[A : K]\not=$ $[B : K][B': K]$ (exerc. 1 de VIII, p. 265).
+☡ Soit A une K-algèbre simple, centrale, de degré fini. Il peut exister des sous-algèbres commutatives semi-simples B de A satisfaisant à $[A : K]\not=$ $[B : K][B': K]$ (exerc. 1 de VIII, p. 265).
 
 #### Théorème 6 {#alg-viii-s14-thm-6 .statement tag=00GZ}
 
@@ -372,7 +372,7 @@ Soit A une algèbre centrale, simple et de degré fini sur K et soit L une K-alg
 
 Posons $n= [L : K]$. Considéré comme un module à gauche sur le sous-anneau $f$(L), A est libre de dimension $n:$ cela résulte de l’équivalence des conditions (ii) et (iii) de la prop. 3. Comme $f$ est un isomorphisme de L sur $f$(L), le L-module à gauche $A^f$ (dont la loi d’action est donnée par $(x, a)\rightarrow f(x)a)$ est libre de dimension $n$. Il en est de même de $A^g$, qui est donc isomorphe à $A^f$. On conclut en utilisant l’équivalence des conditions (i) et (ii) de la prop. 1 (VIII, p. 253).
 
-$\dbend$ Supposons que A soit une algèbre centrale, simple et de degré fini sur K. Il peut exister des sous-algèbres commutatives maximales L de A, non semi-simples, telles que $[A : K]\not= [L : K]^2$ (VIII, p. 266, exerc. 5).
+☡ Supposons que A soit une algèbre centrale, simple et de degré fini sur K. Il peut exister des sous-algèbres commutatives maximales L de A, non semi-simples, telles que $[A : K]\not= [L : K]^2$ (VIII, p. 266, exerc. 5).
 
 ### 7. Sous-algèbres étales maximales
 
