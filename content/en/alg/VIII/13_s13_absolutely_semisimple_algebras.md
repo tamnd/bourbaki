@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: 358de8290737deec1c7651b5e6baa8c71f18e712d56dc33c595a24c187433e1d
+content_sha256: ee4f74ce057ba11f4006027d6291f99d5531b7ab655a05b0df79bceb49e1e794
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -615,7 +615,7 @@ We have $\psi (\alpha )\psi (\beta ) = 0$ because $\mathfrak{r}^2$ is zero; from
 
 so that the K-linear section $\sigma +\psi$ of $\pi$ belongs to Σ. Its image is a subalgebra S of A such that $A = S +\mathfrak{r}$.
 
-Let us now prove the existence of S in the general case. We reason by induction on the least integer $p\geqslant 1$ such that $\mathfrak{r}^p= 0$; the case $p= 1$ is trivial. Suppose $p\geqslant 2$, and set $A'= A/\mathfrak{r}^{p-1}$. The radical $\mathfrak{r}'$ of $A'$ is equal to $\mathfrak{r}/\mathfrak{r}^{p-1}$ (Proposition 5 of VIII, p. 155), so satisfies $\mathfrak{r}'^{p-1}= 0$, and the algebra $A'/\mathfrak{r}'$ is isomorphic to $A = A/\mathfrak{r}$ and is therefore absolutely semisimple. By the induction hypothesis, there exists a subalgebra $S'$ of $A'$ such that $A'= S'\oplus \mathfrak{r}'$. Then $S'$ is of the form $A''/\mathfrak{r}^{p-1}$, where $A''$ is a subalgebra of A containing $\mathfrak{r}^{p-1}$, and we have
+Let us now prove the existence of S in the general case. We reason by induction on the least integer $p\geqslant 1$ such that $\mathfrak{r}^p= 0$; the case $p= 1$ is trivial. Suppose $p\geqslant 2$, and set $A'= A/\mathfrak{r}^{p-1}$. The radical $\mathfrak{r}'$ of $A'$ is equal to $\mathfrak{r}/\mathfrak{r}^{p-1}$ (Proposition 5 of VIII, p. 155), so satisfies ${\mathfrak{r}'}^{p-1}= 0$, and the algebra $A'/\mathfrak{r}'$ is isomorphic to $A = A/\mathfrak{r}$ and is therefore absolutely semisimple. By the induction hypothesis, there exists a subalgebra $S'$ of $A'$ such that $A'= S'\oplus \mathfrak{r}'$. Then $S'$ is of the form $A''/\mathfrak{r}^{p-1}$, where $A''$ is a subalgebra of A containing $\mathfrak{r}^{p-1}$, and we have
 
 $$
 A = A''+\mathfrak{r},\mathfrak{r}^{p-1}= A''\cap \mathfrak{r} \tag{23}

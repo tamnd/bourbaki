@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 41
 exercises: 8
-content_sha256: 69b37e0a98b24e3e043d957f01fb85d1fbd1e855b55aaf2440dc00f0114c769a
+content_sha256: 4aa7786302514151077513c0454d1f5b21ea907a51ecab0fddd293881cf316ca
 ---
 
 ## § 6. ÉQUIVALENCE DE MORITA DES MODULES ET DES ALGÈBRES
@@ -558,7 +558,7 @@ Supposons la suite $(\mathscr{E})$ exacte. Comme le B-module à droite P est pro
 
 Réciproquement, supposons la suite $(P\otimes \mathscr{E})$ exacte. Soient Q un $(B,A)_k$-bimodule inverse de P, et $\theta : Q\otimes_AP\rightarrow_sB_d$ un isomorphisme. Considérons le diagramme commutatif
 
-$Q\otimes_AP\otimes_BV'^{1_Q\otimes 1_P\otimes f}/$/ $Q\otimes_AP\otimes_BV^{1_Q\otimes 1_P\otimes g}/$/ $Q\otimes_AP\otimes_BV''$
+$Q\otimes_AP\otimes_B{V'}^{1_Q\otimes 1_P\otimes f}/$/ $Q\otimes_AP\otimes_BV^{1_Q\otimes 1_P\otimes g}/$/ $Q\otimes_AP\otimes_BV''$
 
 $\theta \otimes 1_{V'}\theta \otimes 1_V\theta \otimes 1_{V''}$
 

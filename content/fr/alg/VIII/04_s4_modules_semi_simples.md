@@ -45,7 +45,7 @@ subsections:
       pdf_page: 78
 statements: 43
 exercises: 8
-content_sha256: e37dce7e1cf046e706aa433231b544b57d4da80e3a6eb6390841c8131045bc81
+content_sha256: 6613b392e0ec3ccdfecbfe2f8654271c3932ce7dc980fd1f81e494f3ccfbbb4e
 ---
 
 ## § 4. MODULES SEMI-SIMPLES
@@ -211,7 +211,7 @@ V $^{\beta_V}$ /$/\mathscr{H}(\mathscr{T}(V))$ (II) $g\mathscr{H}_{\mathscr{T}}$
 ( $(g))$
 
 $$
-V'^{\beta_{V'}}//\mathscr{H}(\mathscr{T}(V'))
+{V'}^{\beta_{V'}}//\mathscr{H}(\mathscr{T}(V'))
 $$
 
 Notons que le morphisme d’adjonction (5) coïncide avec l’application qui envoie $u$ sur $\mathscr{H}(u)\circ \beta_V$. En effet, des relations (6) et (8), on déduit les égalités
@@ -362,7 +362,7 @@ $$
 1_{_S\otimes f}\widetilde{f} \tag{9}
 $$
 
-$S\otimes_DV'^{\alpha'}$ // $M'$.
+$S\otimes_D{V'}^{\alpha'}$ // $M'$.
 
 L’application $f\rightarrow \widetilde{f}$ de Hom$_D(V,V')$dans Hom$_A(M,M')$est un isomorphisme de groupes.
 

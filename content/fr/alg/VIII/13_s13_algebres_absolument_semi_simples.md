@@ -45,7 +45,7 @@ subsections:
       pdf_page: 242
 statements: 33
 exercises: 12
-content_sha256: 7a49f4aba9b6c31b177f7d08366915327844f62d5f21e0e59db0b2df38a1dd30
+content_sha256: f8b66679a7d47200f00ce0b4877e1ff5c72d894f8d9bb5857fb3c15922912b6c
 ---
 
 ## § 13. ALGÈBRES ABSOLUMENT SEMI-SIMPLES
@@ -622,7 +622,7 @@ $$
 
 de sorte que la section K-linéaire $\sigma +\psi$ de $\pi$ appartient à Σ. Son image est une sous-algèbre S de A telle que $A = S +\mathfrak{r}$.
 
-Démontrons enfin l’existence de S dans le cas général. Raisonnons par récurrence sur le plus petit entier $p\geqslant 1$ tel que $\mathfrak{r}^p= 0$, le cas $p= 1$ étant trivial. Supposons qu’on ait $p\geqslant 2$, et posons $A'= A/\mathfrak{r}^{p-1}$; le radical $\mathfrak{r}'$ de $A'$ est égal à $\mathfrak{r}/\mathfrak{r}^{p-1}$ (prop. 5 de VIII, p. 150), donc satisfait à $\mathfrak{r}'^{p-1}= 0$, et l’algèbre $A'/\mathfrak{r}'$ est isomorphe à $A = A/\mathfrak{r}$, donc est absolument semi-simple. D’après l’hypothèse de récurrence, il existe une sous-algèbre $S'$ de $A'$ telle que $A'= S'\oplus \mathfrak{r}'$. Alors $S'$ est de la forme $A''/\mathfrak{r}^{p-1}$, où $A''$ est une sous-algèbre de A contenant $\mathfrak{r}^{p-1}$, et l’on a
+Démontrons enfin l’existence de S dans le cas général. Raisonnons par récurrence sur le plus petit entier $p\geqslant 1$ tel que $\mathfrak{r}^p= 0$, le cas $p= 1$ étant trivial. Supposons qu’on ait $p\geqslant 2$, et posons $A'= A/\mathfrak{r}^{p-1}$; le radical $\mathfrak{r}'$ de $A'$ est égal à $\mathfrak{r}/\mathfrak{r}^{p-1}$ (prop. 5 de VIII, p. 150), donc satisfait à ${\mathfrak{r}'}^{p-1}= 0$, et l’algèbre $A'/\mathfrak{r}'$ est isomorphe à $A = A/\mathfrak{r}$, donc est absolument semi-simple. D’après l’hypothèse de récurrence, il existe une sous-algèbre $S'$ de $A'$ telle que $A'= S'\oplus \mathfrak{r}'$. Alors $S'$ est de la forme $A''/\mathfrak{r}^{p-1}$, où $A''$ est une sous-algèbre de A contenant $\mathfrak{r}^{p-1}$, et l’on a
 
 $$
 A = A''+\mathfrak{r},\mathfrak{r}^{p-1}= A''\cap \mathfrak{r} \tag{23}

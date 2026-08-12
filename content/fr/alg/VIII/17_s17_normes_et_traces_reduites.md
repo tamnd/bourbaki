@@ -37,7 +37,7 @@ subsections:
       pdf_page: 345
 statements: 31
 exercises: 7
-content_sha256: b85f055b96a1063ec98258c5f50192f6d93fd3c292967d70056d256fa882092c
+content_sha256: 34d2fac49860dd620813cf71bbee672bc92ef0e431444042d6d868afe2e5dbca
 ---
 
 ## § 17. NORMES ET TRACES RÉDUITES
@@ -430,7 +430,7 @@ Comme les matrices $\theta (1\otimes e_i)$ appartiennent à $\mathbf{M}_n$(L), c
 
 #### Lemme 5 {#alg-viii-s17-lem-5 .statement tag=00KW}
 
-Pour toute extension $K'$ de K et tout élément $(t_i)_{i\in I}$ de $K'^I$, on a
+Pour toute extension $K'$ de K et tout élément $(t_i)_{i\in I}$ de ${K'}^I$, on a
 
 (48) Pcrd$_{A_{(K')}/K'}(\sum_{i\in I}t_i\otimes e_i)= P((t_i)_{i\in I},X)$.
 
@@ -460,7 +460,7 @@ quel que soit l’élément $(t_i)_{i\in I}$ de $K^I$, d’où la proposition 6.
 
 #### Remarque {#alg-viii-s17-n4-rem-1 .statement tag=00KX}
 
-Soit $K'$ une K-algèbre commutative. Tout élément $t$ de $A_{(K')}$ s’écrit sous la forme $\sum_{i\in I}t_i\otimes e_i$, avec $(t_i)\in K'^I$. Il ressort de la démonstration du lemme 5 que le polynôme caractéristique Pc$_{A_{(K')}/K'}(t; X)$ est égal à $P((t_i),X)^n$.
+Soit $K'$ une K-algèbre commutative. Tout élément $t$ de $A_{(K')}$ s’écrit sous la forme $\sum_{i\in I}t_i\otimes e_i$, avec $(t_i)\in {K'}^I$. Il ressort de la démonstration du lemme 5 que le polynôme caractéristique Pc$_{A_{(K')}/K'}(t; X)$ est égal à $P((t_i),X)^n$.
 
 ### 5. Transitivité des normes et traces réduites
 
