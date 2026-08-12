@@ -33,7 +33,7 @@ subsections:
       pdf_page: 362
 statements: 16
 exercises: 8
-content_sha256: 5639749113fc35ec2855e6b5e48f954cd10881688d16664389cf1809444c1fc0
+content_sha256: d5e47c316e6cb872d62325295e54b27b50dfc67851089ffc04d5a0dddf927573
 ---
 
 ## § 19. ALGÈBRES DE QUATERNIONS
@@ -70,7 +70,7 @@ D’après ce qui précède, l’algèbre F est un E-module à droite libre de b
 
 #### Remarque 1 {#alg-viii-s19-n1-rem-1 .statement tag=00LR}
 
-Supposons la caractéristique de K différente de 2 et posons $i'=$ $2i-\beta$. Alors $(1, i')$ est une base de E sur K et l’on a $i'^2= 4\alpha +\beta^2$. Il en résulte que E est isomorphe à l’algèbre quadratique de type $(4\alpha +\beta^2,0)$ et F à l’algèbre de quaternions de type $(4\alpha +\beta^2,0, \gamma )$.
+Supposons la caractéristique de K différente de 2 et posons $i'=$ $2i-\beta$. Alors $(1, i')$ est une base de E sur K et l’on a ${i'}^2= 4\alpha +\beta^2$. Il en résulte que E est isomorphe à l’algèbre quadratique de type $(4\alpha +\beta^2,0)$ et F à l’algèbre de quaternions de type $(4\alpha +\beta^2,0, \gamma )$.
 
 #### Remarque 2 {#alg-viii-s19-n1-rem-2 .statement tag=00LS}
 

@@ -34,7 +34,7 @@ subsections:
       pdf_page: 384
 statements: 16
 exercises: 8
-content_sha256: aa4462cd2da5f6be9ccb696de6ee50998cbbdb8bf55e92bbba60232aedcdc2f0
+content_sha256: 635b77e98d329689685926a57bf79c74e836f2c4601d79fa8b7f68f4e5d7f72b
 ---
 
 ## § 19. QUATERNION ALGEBRAS
@@ -71,7 +71,7 @@ By the above, the algebra F is a free right E-module with basis $(1, j)$. Conseq
 
 #### Remark 1 {#alg-viii-s19-n1-rem-1 .statement tag=00LR}
 
-Suppose that the characteristic of K is different from 2, and set $i'= 2i-\beta$. Then $(1, i')$ is a basis of E over K, and we have $i'^2= 4\alpha +\beta^2$. It follows that E is isomorphic to the quadratic algebra of type $(4\alpha +\beta^2,0)$ and F to the quaternion algebra of type $(4\alpha +\beta^2,0, \gamma )$.
+Suppose that the characteristic of K is different from 2, and set $i'= 2i-\beta$. Then $(1, i')$ is a basis of E over K, and we have ${i'}^2= 4\alpha +\beta^2$. It follows that E is isomorphic to the quadratic algebra of type $(4\alpha +\beta^2,0)$ and F to the quaternion algebra of type $(4\alpha +\beta^2,0, \gamma )$.
 
 #### Remark 2 {#alg-viii-s19-n1-rem-2 .statement tag=00LS}
 

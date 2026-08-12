@@ -14,15 +14,15 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (113) |
-| mathematics | 6 | 2 | 1 | M09 (53) |
+| mathematics | 6 | 2 | 1 | M09 (44) |
 | figures | 6 | 0 | 0 | none |
 | references | 0 | 3 | 0 | none |
 | translation | 7 | 2 | 1 | L06 (1), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
-| publication | 0 | 1 | 0 | P04 (52) |
+| publication | 0 | 1 | 0 | P04 (43) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 220 soft, over 51 rules that ran and 7 that could not.
+0 hard findings and 202 soft, over 51 rules that ran and 7 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -39,7 +39,7 @@ should trust.
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
 
-## M09 no base carries two superscripts or two subscripts (53)
+## M09 no base carries two superscripts or two subscripts (44)
 
 Soft, mathematics.
 
@@ -66,12 +66,12 @@ Soft, mathematics.
 - `content/en/alg/VIII/exercises/s21/21.md:33` two of one script against one base, which TeX will not set: ^n_{j=1j^{\alpha j}}^1_{\alpha_j!}
 - `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:351` two of one script against one base, which TeX will not set: _n^{j-}_-^1_1
 - `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:361` two of one script against one base, which TeX will not set: _n^j_-^{-1}_1
-- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:147` two of one script against one base, which TeX will not set: '_1^{\pi'_1}
-- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:167` two of one script against one base, which TeX will not set: '_1^{\iota'_1}
+- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:681` two of one script against one base, which TeX will not set: ^-_1^1
+- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:855` two of one script against one base, which TeX will not set: ^x_x^{\in}_{\in}^H_H^{\backslash}_{\backslash}^G_G
 
-and 28 more, which `bourbaki audit -only M09` prints in full.
+and 19 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (52)
+## P04 every math span parses under KaTeX (43)
 
 Soft, publication.
 
@@ -97,11 +97,11 @@ Soft, publication.
 - `content/en/alg/VIII/exercises/s21/21.md:33` KaTeX will not set it: Double superscript at position 51: …=1j^{\alpha j}}^̲1_{\alpha_j!}: c_{\boldsymbol{\alpha }}=\prod^n_{j=1j^{\alpha j}}…
 - `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:351` KaTeX will not set it: Double subscript at position 31: … d_n^j=d_n^{j-}_̲-^1_1\circ d_n^…: d_{n-1}^i\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \ta…
 - `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:361` KaTeX will not set it: Double subscript at position 50: …(-1)^{i+j}d_n^j_̲-^{-1}_1\circ d…: =\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_n^j_-…
-- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:147` KaTeX will not set it: Double superscript at position 11: \Gamma '_1^̲{\pi'_1}: \Gamma '_1^{\pi'_1}
-- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:167` KaTeX will not set it: Double superscript at position 5: F'_1^̲{\iota'_1}: F'_1^{\iota'_1}
-- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:167` KaTeX will not set it: Double superscript at position 11: \Gamma '_1^̲{\pi_1'}: \Gamma '_1^{\pi_1'}
+- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:681` KaTeX will not set it: Double superscript at position 60: …{-1}h_1(x.g^-_1^̲1)}c(h_2(x.g_1^…: =\prod_{x\in H\backslash G}^{s(x.g_1^{-1})^{-1}h_1…
+- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:855` KaTeX will not set it: Double superscript at position 18: …times \prod^x_x^̲{\in}_{\in}^H_H…: \times \prod^x_x^{\in}_{\in}^H_H^{\backslash}_{\ba…
+- `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\g…: ^X_-^-_y^x_X^-_-^{\gamma y}_x
 
-and 27 more, which `bourbaki audit -only P04` prints in full.
+and 18 more, which `bourbaki audit -only P04` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (113)
 

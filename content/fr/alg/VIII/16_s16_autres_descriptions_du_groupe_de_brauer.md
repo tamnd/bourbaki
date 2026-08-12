@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: affcfeb2439479ad0f3e0d3588f3ce0f1244ca79339c32d92f9d3be594c8f876
+content_sha256: de4668e4932ae9db19b867a615986f91080e65411e84c937c6c9c36fa20d7a16
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -132,7 +132,7 @@ Par conséquent, $(\Gamma ', \iota ', \pi ')$ est une $\tau '$-extension de $G'$
 
 Le diagramme
 
-F $^{\iota'}$ // $\Gamma '^{\pi'}$ // $G'$
+F $^{\iota'}$ // ${\Gamma '}^{\pi'}$ // $G'$
 
 $$
 \varphi \tag{2}
@@ -144,7 +144,7 @@ F $^{\iota}$ // Γ $^{\pi}$ // G
 
 est commutatif. En outre, si $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$est une $\tau '$-extension et $\varphi_1: \Gamma '_1\rightarrow \Gamma$est un homomorphisme de groupes tel que le diagramme
 
-F $^{\iota'_1}$ // $\Gamma '_1^{\pi'_1}$ // $G'$
+F $^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}$ // $G'$
 
 $\varphi_1u$
 
@@ -164,7 +164,7 @@ $$
 
 pour tout $f\in F'_1$ et tout $g\in G'$. Soit $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi_1')$une $\tau_1$-extension de $G'$ par $F'_1$ et $\varphi_1: \Gamma '_1\rightarrow \Gamma$un homomorphisme de groupes tel que le diagramme
 
-$F'_1^{\iota'_1}$ // $\Gamma '_1^{\pi_1'}$ // $G'$
+${F'_1}^{\iota'_1}$ // ${\Gamma '_1}^{\pi_1'}$ // $G'$
 
 $w\varphi_1u$
 
@@ -172,11 +172,11 @@ F $^{\iota}$ // Γ $^{\pi}$ // G
 
 soit commutatif. Alors il existe un unique homomorphisme de groupes $\psi : \Gamma '_1\rightarrow \Gamma '$ tel que le diagramme
 
-$F'_1^{\iota'_1}$ // $\Gamma '_1^{\pi_1'}$ // $G'$
+${F'_1}^{\iota'_1}$ // ${\Gamma '_1}^{\pi_1'}$ // $G'$
 
 $w\psi$
 
-F $^{\iota'}$ // $\Gamma '^{\pi'}$ // $G'$
+F $^{\iota'}$ // ${\Gamma '}^{\pi'}$ // $G'$
 
 soit commutatif et tel que $\varphi_1=\varphi \circ \psi$.
 
@@ -244,7 +244,7 @@ $$
 v\varphi \tag{5}
 $$
 
-$F'^{\iota'}$ // $\Gamma '^{\pi'}$ // G
+${F'}^{\iota'}$ // ${\Gamma '}^{\pi'}$ // G
 
 est commutatif. Soit $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$une $\tau '$-extension de G par $F'$ et soit $\varphi_1: \Gamma \rightarrow \Gamma '_1$ un homomorphisme de groupes tel que le diagramme
 
@@ -252,7 +252,7 @@ F $^{\iota}$ // Γ $^{\pi}$ // G
 
 $v\varphi_1$
 
-$F'^{\iota'_1}$ // $\Gamma '_1^{\pi'_1}$ // G
+${F'}^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}$ // G
 
 soit commutatif, alors il existe un unique morphisme $\psi$ de $\tau '$-extensions de $v_*(\mathscr{E})$ dans $\mathscr{E}_1'$ tel qu’on ait $\varphi_1=\psi \circ \varphi$.
 
@@ -266,15 +266,15 @@ F $^{\iota}$ // Γ $^{\pi}$ // G
 
 $v\varphi_1w$
 
-$F'^{\iota'_1}$ // $\Gamma '_1^{\pi'_1}/$/ $G'_1$
+${F'}^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}/$/ $G'_1$
 
 soit commutatif. Alors il existe un unique homomorphisme de groupes $\psi : \Gamma '\rightarrow \Gamma '_1$ tel que le diagramme
 
-$F'^{\iota'}$ // $\Gamma '^{\pi'}$ // G
+${F'}^{\iota'}$ // ${\Gamma '}^{\pi'}$ // G
 
 $\psi w$
 
-$F'^{\iota'_1}$ // $\Gamma '_1^{\pi'_1}/$/ $G'_1$ soit commutatif et tel que $\varphi_1=\psi \circ \varphi$.
+${F'}^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}/$/ $G'_1$ soit commutatif et tel que $\varphi_1=\psi \circ \varphi$.
 
 Pour tout $(f, \gamma )\in F'\times \Gamma$, notons $(f, \gamma )$ la classe de $(f, \gamma )$ dans $\Gamma '$. Si l’homomorphisme de groupes $\psi : \Gamma '\rightarrow \Gamma '_1$ convient, il vérifie les relations
 
@@ -300,7 +300,7 @@ $$
 v\varphi \tag{6}
 $$
 
-$F'^{\iota'}$ // $\Gamma '^{\pi'}$ // G
+${F'}^{\iota'}$ // ${\Gamma '}^{\pi'}$ // G
 
 commutatif. La prop. 2 exprime que $v_*(\mathscr{E})$ est une solution du problème d’application universelle correspondant (E, IV, p. 22).
 
@@ -352,7 +352,7 @@ F $^{\iota_u}$ // $\Gamma_u^{\pi_u}$ // $G'$
 
 $v\psi_1$
 
-$F'^{\iota'_u}$ // $\Gamma '_u^{\pi'_u}$ // $G'$
+${F'}^{\iota'_u}$ // ${\Gamma '_u}^{\pi'_u}$ // $G'$
 
 soit commutatif et tel que $\varphi '_u\circ \psi_1=\varphi_v\circ \varphi_u$. L’existence de $\psi$ s’en déduit à l’aide de la proposition 2 appliquée à $\psi_1$. Inversement, si $\psi '$ convient également, on a $\psi '\circ \varphi '_v=\psi_1$ par le lemme 2, donc $\psi '=\psi$ (prop. 2).
 
@@ -434,11 +434,11 @@ pour $g\in G$et $f\in F$. L’application $v_*:$ Ex$_{\tau}(G,F)\rightarrow$ Ex$
 
 Cela résulte de la commutativité des diagrammes
 
-$G'^{\delta}$ // $G'\times G'F\times F^m$ // F
+${G'}^{\delta}$ // $G'\times G'F\times F^m$ // F
 
 $_uu_{\times u}$ et $v_{\times v}v$
 
-G $^{\delta}$ // $G\times GF'\times F'^m$ // $F'$.
+G $^{\delta}$ // $G\times GF'\times {F'}^m$ // $F'$.
 
 ### 5. Description cohomologique
 

@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: dd266982fdf5c42b79986fa3adbc711876807b56118164ea076c46cd4d10836c
+content_sha256: 9be3c77e6f5c31294407dc9647d4fa71a803859fd5dc1416e380eac0a7927ed2
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -445,7 +445,7 @@ Since the matrices $\theta (1\otimes e_i)$ belong to $\mathbf{M}_n$(L), this for
 
 #### Lemma 5 {#alg-viii-s17-lem-5 .statement tag=00KW}
 
-For every extension $K'$ of K and every element $(t_i)_{i\in I}$ of $K'^I$, we have
+For every extension $K'$ of K and every element $(t_i)_{i\in I}$ of ${K'}^I$, we have
 
 (48) Pcrd$_{A_{(K')}/K'}\sum_{i\in I}t_i\otimes e_i= P((t_i)_{i\in I},X)$.
 
@@ -475,7 +475,7 @@ for every element $(t_i)_{i\in I}$ of $K^I$. Proposition 6 follows.
 
 #### Remark {#alg-viii-s17-n4-rem-1 .statement tag=00KX}
 
-Let $K'$ be a commutative K-algebra. Every element $t$ of $A_{(K')}$ can be written as $\sum_{i\in I}t_i\otimes e_i$, where $(t_i)\in K'^I$. It follows from the proof of Lemma 5 that the characteristic polynomial Pc$_{A_{(K')}/K'}(t; X)$ is equal to $P((t_i),X)^n$.
+Let $K'$ be a commutative K-algebra. Every element $t$ of $A_{(K')}$ can be written as $\sum_{i\in I}t_i\otimes e_i$, where $(t_i)\in {K'}^I$. It follows from the proof of Lemma 5 that the characteristic polynomial Pc$_{A_{(K')}/K'}(t; X)$ is equal to $P((t_i),X)^n$.
 
 ### 5. Transitivity of Reduced Norms and Traces
 

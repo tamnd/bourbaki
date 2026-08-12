@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: e6c5072f4aae428b9e811b89f8e1e336938432bdaf444fc6d42e1a998c28c874
+content_sha256: 7649d578ec5a544e6d7892b3eb418b8c4a13a4c62fc9a237f1005dc8aaabec3c
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -218,7 +218,7 @@ On suppose que le groupe G est fini et que $|G|$ est inversible dans K. Une suit
 
 Étant donnée une suite exacte de K[G]-modules
 
-0 // $M'^f$ // M // $M''$ // $0$,
+0 // ${M'}^f$ // M // $M''$ // $0$,
 
 il suffit d’appliquer le théorème 1 à l’image du morphisme $f$.
 

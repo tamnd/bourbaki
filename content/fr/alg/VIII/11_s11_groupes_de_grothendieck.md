@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: ca54fccea30df971da09a376436b4465ea1987f1aaf7c7f626063a1017a4094b
+content_sha256: fe6b81bdd379a05c360e53c28e74eb95c0ad2435e419722f77f003b2c71fa76f
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -286,9 +286,9 @@ Plus explicitement, cette relation s’écrit
 
 = cl(F) $+\sum_{i\in I}$ cl(G$'_i) +\sum_{i\in I}$ cl(G$''_i) +\sum_{j\in J}$ cl(H$_j)$. Posons $G =\bigoplus_{i\in I}G_i, G'=\bigoplus_{i\in I}G'_i$, etc. Par passage aux sommes directes, on construit des suites exactes
 
-$(\mathscr{G})$ 0 // $G'^p$ // G $^q$ // $G''$ // 0
+$(\mathscr{G})$ 0 // ${G'}^p$ // G $^q$ // $G''$ // 0
 
-$(\mathscr{H})$ 0 // $H'^r$ // H $^s$ // $H''$ // 0
+$(\mathscr{H})$ 0 // ${H'}^r$ // H $^s$ // $H''$ // 0
 
 formées de modules de type $\mathscr{C}$.
 
@@ -348,7 +348,7 @@ Soit A un anneau. Soient E un A-module de longueur finie et S un A-module simple
 
 Soient E, $E'$ et $E''$ des A-modules de longueur finie et
 
-0 // $E'^i$ // E $^p$ // $E''$ // 0
+0 // ${E'}^i$ // E $^p$ // $E''$ // 0
 
 une suite exacte. On a $\ell_S(E) =\ell_S(E') +\ell_S(E'')$.
 

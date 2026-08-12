@@ -184,7 +184,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native
-              content_sha256: 358de8290737deec1c7651b5e6baa8c71f18e712d56dc33c595a24c187433e1d
+              content_sha256: ee4f74ce057ba11f4006027d6291f99d5531b7ab655a05b0df79bceb49e1e794
             - kind: section
               section: 14
               title: Central Simple Algebras
@@ -236,7 +236,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: dd266982fdf5c42b79986fa3adbc711876807b56118164ea076c46cd4d10836c
+              content_sha256: 9be3c77e6f5c31294407dc9647d4fa71a803859fd5dc1416e380eac0a7927ed2
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -262,7 +262,7 @@ books:
               statements: 16
               exercises: 8
               extraction: native
-              content_sha256: aa4462cd2da5f6be9ccb696de6ee50998cbbdb8bf55e92bbba60232aedcdc2f0
+              content_sha256: 635b77e98d329689685926a57bf79c74e836f2c4601d79fa8b7f68f4e5d7f72b
             - kind: section
               section: 20
               title: Linear Representations of Algebras
@@ -419,7 +419,7 @@ books:
               statements: 43
               exercises: 8
               extraction: native
-              content_sha256: e37dce7e1cf046e706aa433231b544b57d4da80e3a6eb6390841c8131045bc81
+              content_sha256: 6613b392e0ec3ccdfecbfe2f8654271c3932ce7dc980fd1f81e494f3ccfbbb4e
             - kind: section
               section: 5
               title: Commutation
@@ -445,7 +445,7 @@ books:
               statements: 41
               exercises: 8
               extraction: native
-              content_sha256: 69b37e0a98b24e3e043d957f01fb85d1fbd1e855b55aaf2440dc00f0114c769a
+              content_sha256: 4aa7786302514151077513c0454d1f5b21ea907a51ecab0fddd293881cf316ca
             - kind: section
               section: 7
               title: Anneaux simples
@@ -510,7 +510,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native
-              content_sha256: ca54fccea30df971da09a376436b4465ea1987f1aaf7c7f626063a1017a4094b
+              content_sha256: fe6b81bdd379a05c360e53c28e74eb95c0ad2435e419722f77f003b2c71fa76f
             - kind: section
               section: 12
               title: Produit tensoriel de modules semi-simples
@@ -536,7 +536,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native
-              content_sha256: 7a49f4aba9b6c31b177f7d08366915327844f62d5f21e0e59db0b2df38a1dd30
+              content_sha256: f8b66679a7d47200f00ce0b4877e1ff5c72d894f8d9bb5857fb3c15922912b6c
             - kind: section
               section: 14
               title: Algèbres centrales et simples
@@ -575,7 +575,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: affcfeb2439479ad0f3e0d3588f3ce0f1244ca79339c32d92f9d3be594c8f876
+              content_sha256: de4668e4932ae9db19b867a615986f91080e65411e84c937c6c9c36fa20d7a16
             - kind: section
               section: 17
               title: Normes et traces réduites
@@ -588,7 +588,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: b85f055b96a1063ec98258c5f50192f6d93fd3c292967d70056d256fa882092c
+              content_sha256: 34d2fac49860dd620813cf71bbee672bc92ef0e431444042d6d868afe2e5dbca
             - kind: section
               section: 18
               title: Algèbres simples sur un corps fini
@@ -614,7 +614,7 @@ books:
               statements: 16
               exercises: 8
               extraction: native
-              content_sha256: 5639749113fc35ec2855e6b5e48f954cd10881688d16664389cf1809444c1fc0
+              content_sha256: d5e47c316e6cb872d62325295e54b27b50dfc67851089ffc04d5a0dddf927573
             - kind: section
               section: 20
               title: Représentations linéaires des algèbres
@@ -640,7 +640,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: e6c5072f4aae428b9e811b89f8e1e336938432bdaf444fc6d42e1a998c28c874
+              content_sha256: 7649d578ec5a544e6d7892b3eb418b8c4a13a4c62fc9a237f1005dc8aaabec3c
             - kind: appendix
               section: 1
               title: Algèbres sans élément unité
