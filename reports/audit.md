@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 2103 references, 345 translated files. Languages: en, fr, vi.
+Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 2122 references, 345 translated files. Languages: en, fr, vi.
 
 ## Summary
 
@@ -16,12 +16,12 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | tags | 7 | 1 | 1 | T10 (113) |
 | mathematics | 6 | 2 | 1 | M09 (62) |
 | figures | 6 | 0 | 0 | none |
-| references | 0 | 3 | 0 | R01 (4) |
+| references | 0 | 3 | 0 | R01 (1) |
 | translation | 7 | 2 | 1 | L06 (2), L08 (1) |
 | solutions | 0 | 0 | 4 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 182 soft, over 50 rules that ran and 7 that could not.
+0 hard findings and 179 soft, over 50 rules that ran and 7 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -70,14 +70,11 @@ Soft, mathematics.
 
 and 37 more, which `bourbaki audit -only M09` prints in full.
 
-## R01 every in-corpus reference resolves (4)
+## R01 every in-corpus reference resolves (1)
 
 Soft, references.
 
-- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:330` "Theorem 3" does not resolve: alg-viii-s6 has no Theorem 3
-- `content/en/alg/VIII/20_s20_linear_representations_of_algebras.md:494` "Proposition 16" does not resolve: alg-viii-s20 has no Proposition 16
 - `content/en/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:107` "Proposition 6" does not resolve: alg-viii-a4 has no Proposition 6
-- `content/en/alg/VIII/exercises/s2/17.md:17` "Proposition 14" does not resolve: alg-viii-s2 has no Proposition 14
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (113)
 
