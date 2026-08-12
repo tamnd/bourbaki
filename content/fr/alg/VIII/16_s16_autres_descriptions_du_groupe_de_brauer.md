@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: 46068f1976620ee8eab64929fbcc7648addcda4875e64110cb8b27b803846a84
+content_sha256: affcfeb2439479ad0f3e0d3588f3ce0f1244ca79339c32d92f9d3be594c8f876
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -1158,7 +1158,7 @@ Cela résulte du lemme 1 de VIII, p. 209, appliqué aux K[G]-modules $M_1=$ $M_2
 
 #### Remarque {#alg-viii-s16-n8-rem-1 .statement tag=00JE}
 
-Soit L une extension galoisienne de degré fini du corps K et soit G son groupe de Galois ; notons $\lambda$ l’application identique de G. Alors L muni de $\lambda$ est une algèbre galoisienne de groupe G sur K. Soit $K'$ une extension de K. D’après la proposition 10, $L_{(K')}$ est une algèbre galoisienne sur $K'$, mais ce n’est pas en général $\dbend$ une extension de $K'$. De manière analogue, d’après la prop. 11, le produit tensoriel d’extensions galoisiennes E et F de degré fini de K peut être considéré comme une algèbre galoisienne ; en général, ce n’est pas une extension galoisienne de K. C’est néanmoins le cas si E et F sont en outre des sous-extensions linéairement disjointes d’une extension de K (V, p. 13 et p. 55, prop. 1).
+☡ Soit L une extension galoisienne de degré fini du corps K et soit G son groupe de Galois ; notons $\lambda$ l’application identique de G. Alors L muni de $\lambda$ est une algèbre galoisienne de groupe G sur K. Soit $K'$ une extension de K. D’après la proposition 10, $L_{(K')}$ est une algèbre galoisienne sur $K'$, mais ce n’est pas en général une extension de $K'$. De manière analogue, d’après la prop. 11, le produit tensoriel d’extensions galoisiennes E et F de degré fini de K peut être considéré comme une algèbre galoisienne ; en général, ce n’est pas une extension galoisienne de K. C’est néanmoins le cas si E et F sont en outre des sous-extensions linéairement disjointes d’une extension de K (V, p. 13 et p. 55, prop. 1).
 
 ### 9. Produits croisés
 

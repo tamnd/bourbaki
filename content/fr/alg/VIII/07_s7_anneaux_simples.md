@@ -29,7 +29,7 @@ subsections:
       pdf_page: 130
 statements: 24
 exercises: 16
-content_sha256: 7f69f7525d807c2cda5f4adebb8798edbb2ba003a223d79bd8c63453315a79ff
+content_sha256: 0b765aceec1975921927fb863708eb2d8f4fecbeb153b3919c0ec1521581e092
 ---
 
 ## § 7. ANNEAUX SIMPLES
@@ -74,7 +74,7 @@ Par conséquent, compte tenu de la condition (ii) de la prop. 1, les anneaux sim
 
 #### Remarque 2 {#alg-viii-s7-n1-rem-2 .statement tag=0084}
 
-On dit parfois qu’un anneau A est quasi-simple s’il n’est pas réduit à 0 et si ses seuls idéaux bilatères sont 0 et A. On dit que A est primitif s’il possède un module simple et fidèle. D’après la prop. 1, tout anneau simple est quasi-simple. Comme tout anneau non réduit à 0 possède un module simple et que l’annulateur d’un module simple est un idéal bilatère, on voit que tout anneau quasi-simple est $\dbend$ primitif. Cependant, il existe des anneaux quasi-simples qui ne sont pas simples, et des anneaux primitifs qui ne sont pas quasi-simples (VIII, p. 124, exerc. 2) ; de tels anneaux ne sont pas artiniens à gauche.
+☡ On dit parfois qu’un anneau A est quasi-simple s’il n’est pas réduit à 0 et si ses seuls idéaux bilatères sont 0 et A. On dit que A est primitif s’il possède un module simple et fidèle. D’après la prop. 1, tout anneau simple est quasi-simple. Comme tout anneau non réduit à 0 possède un module simple et que l’annulateur d’un module simple est un idéal bilatère, on voit que tout anneau quasi-simple est primitif. Cependant, il existe des anneaux quasi-simples qui ne sont pas simples, et des anneaux primitifs qui ne sont pas quasi-simples (VIII, p. 124, exerc. 2) ; de tels anneaux ne sont pas artiniens à gauche.
 
 #### Théorème 1 {#alg-viii-s7-thm-1 .statement tag=00S3}
 
@@ -206,7 +206,7 @@ Soient B un anneau, A un sous-anneau simple de B. On appelle degré (à gauche) 
 
 En remplaçant A et B par les anneaux opposés, on déduit de ce qui précède que B est un A-module à droite libre ; on notera $[B : A]_d$ sa dimension, et on l’appellera le degré à droite de B sur A.
 
-$\dbend$ On peut donner un exemple d’un corps B et d’un sous-corps A tels que les degrés $[B : A]_s$ et $[B : A]_d$ soient distincts[^2].
+☡ On peut donner un exemple d’un corps B et d’un sous-corps A tels que les degrés $[B : A]_s$ et $[B : A]_d$ soient distincts[^2].
 
 Soit B un anneau, soit A un sous-anneau simple de B et soit S un A-module à gauche simple. Soient M un A-module à gauche et $\mathfrak{a}$ sa longueur. Les A-modules M et $S^{(\mathfrak{a})}$ sont isomorphes (VIII, p. 118, prop. 2), donc les B-modules $B\otimes_AM$ et $(B\otimes_AS)^{(\mathfrak{a})}$ sont isomorphes. De la prop. 5 et de la définition 2, on déduit la relation
 

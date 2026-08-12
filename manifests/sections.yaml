@@ -380,7 +380,7 @@ books:
               statements: 36
               exercises: 28
               extraction: native
-              content_sha256: 124cd36734911a6f165dd56a109e5eb31d87c7cf99661013641063dece88e7b3
+              content_sha256: 878a93b8e41ca628a62a70813e8f9b890d57703999cc476a1b0764f32b1e08b9
             - kind: section
               section: 2
               title: Structure des modules de longueur finie
@@ -393,7 +393,7 @@ books:
               statements: 36
               exercises: 19
               extraction: native
-              content_sha256: 0a77b5275a27d87e0748aea796e354dd4a195ec9be0de1dd185c21b4c7806e72
+              content_sha256: 987bb974b4cba42533bf92f704a4253bf2dd1d3a4696d9a9602ae57c91dc552a
             - kind: section
               section: 3
               title: Modules simples
@@ -458,7 +458,7 @@ books:
               statements: 24
               exercises: 16
               extraction: native
-              content_sha256: 7f69f7525d807c2cda5f4adebb8798edbb2ba003a223d79bd8c63453315a79ff
+              content_sha256: 0b765aceec1975921927fb863708eb2d8f4fecbeb153b3919c0ec1521581e092
             - kind: section
               section: 8
               title: Anneaux semi-simples
@@ -484,7 +484,7 @@ books:
               statements: 49
               exercises: 31
               extraction: native
-              content_sha256: f3c97e654802cccd8632d6d02e163804fad39b61872da01b17c741181871e5f0
+              content_sha256: 12942c09b7a3e64603917bebb3e915bc608489afc172ae08312239b4b1a7d8fb
             - kind: section
               section: 10
               title: Modules sur un anneau artinien
@@ -549,7 +549,7 @@ books:
               statements: 36
               exercises: 19
               extraction: native
-              content_sha256: f4fbc44c0cae2badcbd981f06f0bbe93e0295b92a9c758490eb949e1c7390e19
+              content_sha256: 80858a88c5e870c10a153d28ea1cb56185a08b4094a98ff1e9927cf41df47ef5
             - kind: section
               section: 15
               title: Groupes de Brauer
@@ -575,7 +575,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: 46068f1976620ee8eab64929fbcc7648addcda4875e64110cb8b27b803846a84
+              content_sha256: affcfeb2439479ad0f3e0d3588f3ce0f1244ca79339c32d92f9d3be594c8f876
             - kind: section
               section: 17
               title: Normes et traces réduites
@@ -588,7 +588,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: a6c8d410a8469c6eb400235dbce706e0bac826c98a4e5fca97c924ff472407db
+              content_sha256: b85f055b96a1063ec98258c5f50192f6d93fd3c292967d70056d256fa882092c
             - kind: section
               section: 18
               title: Algèbres simples sur un corps fini
@@ -627,7 +627,7 @@ books:
               statements: 31
               exercises: 6
               extraction: native
-              content_sha256: c43a7c432971ce86f8b8544a93e08146241889dabbb44fea55f67812cb0da20a
+              content_sha256: a35e4df4d9c343312e9b1a9dc42e43a67cb45581362d7f4a27bae85b89e04c25
             - kind: section
               section: 21
               title: Représentations linéaires des groupes finis
