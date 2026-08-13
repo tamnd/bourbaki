@@ -314,7 +314,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: c92fd15866a6bc7fc0327f41594866f64effcb6d2ce84a917461fb8a98a35dfa
+              content_sha256: 8836038b784d33a53dbe9a714ae60286f4c228cf19600a70e2b78ecb4b91224b
             - kind: appendix
               section: 3
               title: Hilbert’s Nullstellensatz

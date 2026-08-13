@@ -35,7 +35,7 @@ subsections:
       pdf_page: 472
 statements: 18
 exercises: 4
-content_sha256: c92fd15866a6bc7fc0327f41594866f64effcb6d2ce84a917461fb8a98a35dfa
+content_sha256: 8836038b784d33a53dbe9a714ae60286f4c228cf19600a70e2b78ecb4b91224b
 ---
 
 ## APPENDIX 2 DETERMINANTS OVER A NONCOMMUTATIVE FIELD
@@ -142,20 +142,20 @@ $$
 \omega (v_1, . . . ,\widehat{v}_i, . . . , v_n, v_i\mu_i) =\omega (v_1, . . . ,\widehat{v}_i, . . . , v_n, e) \tag{8}
 $$
 
-It follows from formulas (1) and (3) that the left-hand side of this equality is equal to $\pi (-1)^{n-i}\pi (\mu_i)\omega (v_1, . . . , v_n)$. Denote by $p$ the projector of V with image W and kernel $eD$. The vectors $v_j-p(v_j)$ are proportional to $e$, and repeatedly applying formula (6) shows that the right-hand side of formula (8) is equal to $\omega (p(v_1), . . . ,p[(v_i), . . . , p(v_n), e)$.
+It follows from formulas (1) and (3) that the left-hand side of this equality is equal to $\pi (-1)^{n-i}\pi (\mu_i)\omega (v_1, . . . , v_n)$. Denote by $p$ the projector of V with image W and kernel $eD$. The vectors $v_j-p(v_j)$ are proportional to $e$, and repeatedly applying formula (6) shows that the right-hand side of formula (8) is equal to $\omega (p(v_1), . . . ,\widehat{p}(v_i), . . . , p(v_n), e)$.
 
 It follows from this that if $\omega$ satisfies relation (7), then we have
 
 $$
-\omega (v_1, . . . , v_n) =\pi (-1)^{n-i}\pi (\mu_i)^{-1}\varphi (p(v_1), . . . ,p[(v_i), . . . , p(v_n)) \tag{9}
+\omega (v_1, . . . , v_n) =\pi (-1)^{n-i}\pi (\mu_i)^{-1}\varphi (p(v_1), . . . ,\widehat{p}(v_i), . . . , p(v_n)) \tag{9}
 $$
 
 for every $i$ in I, which proves the uniqueness of $\omega$.
 
-B) Construction of $\omega :$ Let $(v_1, . . . , v_n)$ be a basis of V; we define $\mu_1, . . . , \mu_n$ and I as above. For every $i$ in I, the assumption $\mu_i\not= 0$ implies that the sequence $(v_1, . . . ,\widehat{v}_i, . . . , v_n, e)$ generates the space V, so the sequence $(p(v_1), . . . ,p[(v_i), . . . , p(v_n))$ generates the space $W =p(V)$. In other words, this last sequence is a basis of W, and
+B) Construction of $\omega :$ Let $(v_1, . . . , v_n)$ be a basis of V; we define $\mu_1, . . . , \mu_n$ and I as above. For every $i$ in I, the assumption $\mu_i\not= 0$ implies that the sequence $(v_1, . . . ,\widehat{v}_i, . . . , v_n, e)$ generates the space V, so the sequence $(p(v_1), . . . ,\widehat{p}(v_i), . . . , p(v_n))$ generates the space $W =p(V)$. In other words, this last sequence is a basis of W, and
 
 $$
-t_i=\pi (-1)^{n-i}\pi (\mu_i)^{-1}\varphi (p(v_1), . . . ,p[(v_i), . . . , p(v_n)) \tag{10}
+t_i=\pi (-1)^{n-i}\pi (\mu_i)^{-1}\varphi (p(v_1), . . . ,\widehat{p}(v_i), . . . , p(v_n)) \tag{10}
 $$
 
 defines an element of $D^*_{ab}$.
@@ -163,21 +163,21 @@ defines an element of $D^*_{ab}$.
 Let $i$ and $j$ be two elements of I such that $i < j$; let us prove the equality $t_i=t_j$. By definition, the vector $v_i\mu_i+v_j\mu_j-e$ is a linear combination of the vectors $p(v_k)$ for $k$ different from $i$ and $j$. Consequently, $p(v_i)\mu_i+p(v_j)\mu_j$ is a linear combination of the vectors $p(v_k)$ for $k$ different from $i$ and $j$. By formula (6), we therefore have
 
 $$
-\varphi (p(v_1), . . . ,p[(v_i), . . . ,p[(v_j), . . . , p(v_n), p(v_i)\mu_i)
+\varphi (p(v_1), . . . ,p(\widehat{v}_i), . . . ,p(\widehat{v}_j), . . . , p(v_n), p(v_i)\mu_i)
 $$
 
 $$
-=\varphi (p(v_1), . . . ,p[(v_i), . . . ,p[(v_j), . . . , p(v_n),-p(v_j)\mu_j)
+=\varphi (p(v_1), . . . ,p(\widehat{v}_i), . . . ,p(\widehat{v}_j), . . . , p(v_n),-p(v_j)\mu_j)
 $$
 
 By applying formulas (1) and (3), we deduce
 
 $$
-\varphi (p(v_1), . . . ,p[(v_j), . . . , p(v_n))\pi (\mu_i)\pi (-1)^{n-i-1}
+\varphi (p(v_1), . . . ,p(\widehat{v}_j), . . . , p(v_n))\pi (\mu_i)\pi (-1)^{n-i-1}
 $$
 
 $$
-=\varphi (p(v_1), . . . ,p[(v_i), . . . , p(v_n))\pi (-\mu_j)\pi (-1)^{n-j}
+=\varphi (p(v_1), . . . ,\widehat{p}(v_i), . . . , p(v_n))\pi (-\mu_j)\pi (-1)^{n-j}
 $$
 
 and therefore $t_i=t_j$.
@@ -228,15 +228,15 @@ for every $k$ such that $\mu_k$ and $\mu'_k$ are nonzero.
 
 a) If $\mu_i\not=0$, then the sequences $(p(v_1), . . . ,\widehat{p(v_k)}, . . . , p(v_n))$ and $(p(v'_1), . . . ,\widehat{p(v'_k)}, . . . , p(v'_n))$ are equal, and we have $\mu_i$ = $\mu'_i$, and therefore $t=t'$.
 
-b) If there exists an index $k$ different from $i$ and $j$ such that $\mu_k\not= 0$, then we have $p(v'_l) =p(v_l)$ for $l\not=i$ and $p(v'_i) =p(v_i) +p(v_j)$. The elements $p(v_i)$ and $p(v_j)$ both belong to the sequence $(p(v_1), . . . ,p[(v_k), . . . , p(v_n))$. Since $\varphi$ belongs to Ω(W), formula (2) of VIII, p. 447 applies; it gives
+b) If there exists an index $k$ different from $i$ and $j$ such that $\mu_k\not= 0$, then we have $p(v'_l) =p(v_l)$ for $l\not=i$ and $p(v'_i) =p(v_i) +p(v_j)$. The elements $p(v_i)$ and $p(v_j)$ both belong to the sequence $(p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n))$. Since $\varphi$ belongs to Ω(W), formula (2) of VIII, p. 447 applies; it gives
 
 $$
-\varphi (p(v_1), . . . ,p[(v_k), . . . , p(v_n)) =\varphi (p(v'_1), . . . ,p[(v_k'), . . . , p(v_n'))
+\varphi (p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n)) =\varphi (p(v'_1), . . . ,p(\widehat{v}_k'), . . . , p(v_n'))
 $$
 
 But we also have $\mu_k=\mu'_k$, and therefore $t=t'$.
 
-c) It remains to examine the case when the only index $k$ such that $\mu_k\not= 0$ is $j$. We then have $\mu'_j=\mu_j,e=v_j\mu_j$, and $p(v_j) = 0$. Set $k=j$ in formulas (12) and (13). Since the sequences $(p(v_1), . . . ,p[(v_j), . . . , p(v_n))$ and $(p(v'_1), . . . ,p[(v_j'), . . . , p(v_n'))$ are equal, we have $t=t'$.
+c) It remains to examine the case when the only index $k$ such that $\mu_k\not= 0$ is $j$. We then have $\mu'_j=\mu_j,e=v_j\mu_j$, and $p(v_j) = 0$. Set $k=j$ in formulas (12) and (13). Since the sequences $(p(v_1), . . . ,p(\widehat{v}_j), . . . , p(v_n))$ and $(p(v'_1), . . . ,p(\widehat{v}_j'), . . . , p(v_n'))$ are equal, we have $t=t'$.
 
 #### Corollary 1 {#alg-viii-a2-prop-1-cor-1 .statement tag=00Q2}
 
