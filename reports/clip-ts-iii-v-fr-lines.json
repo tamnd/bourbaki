@@ -1,0 +1,227 @@
+{
+  "book": "ts-iii-v-fr",
+  "dpi": 600,
+  "match": "[˚˘˙]",
+  "generated": "2026-08-13T13:22:27.38662Z",
+  "clips": 24,
+  "agreed": 0,
+  "differed": 23,
+  "silent": 1,
+  "rows": [
+    {
+      "page": 22,
+      "line": 16,
+      "name": "0022-016.png",
+      "verdict": "differ",
+      "native": "de $E_{\\sigma}$, il existe d’après le théorème de ˘Smulian (EVT, IV, p. 36, th. 2)",
+      "model": "de $E_\\sigma$, il existe d’après le théorème de Šmulian (EVT, IV, p. 36, th. 2)",
+      "at": 38
+    },
+    {
+      "page": 85,
+      "line": 14,
+      "name": "0085-014.png",
+      "verdict": "differ",
+      "native": "contenu dans U. Comme $u$(˚V) est un voisinage de 0 dans $u$(V), il",
+      "model": "contenu dans U. Comme $u(\\mathring{V})$ est un voisinage de $0$ dans $u(V)$, il",
+      "at": 20
+    },
+    {
+      "page": 85,
+      "line": 15,
+      "name": "0085-015.png",
+      "verdict": "differ",
+      "native": "existe un voisinage équilibré W de 0 dans F tel que $u(V)\\cap W\\subset u$(˚V).",
+      "model": "existe un voisinage équilibré $W$ de $0$ dans $F$ tel que $u(V)\\cap W\\subset u(\\dot V)$.",
+      "at": 59
+    },
+    {
+      "page": 85,
+      "line": 17,
+      "name": "0085-017.png",
+      "verdict": "differ",
+      "native": "contenu dans ˚$V\\cup (E$ V). Comme ˚V et E V sont des parties ouvertes",
+      "model": "contenu dans $\\hat V\\cup(E-\\hat V)$. Comme $\\hat V$ et $E-\\hat V$ sont des parties ouvertes",
+      "at": 11
+    },
+    {
+      "page": 85,
+      "line": 18,
+      "name": "0085-018.png",
+      "verdict": "differ",
+      "native": "disjointes de E, l’ensemble $^-u^1(W)$ est contenu dans ˚V, d’où $W\\cap I\\subset u$(˚V).",
+      "model": "disjointes de $E$, l’ensemble $\\bar{u}^{-1}(W)$ est contenu dans $\\mathring{V}$, d’où $W\\cap I\\subset u(\\mathring{V})$.",
+      "at": 24
+    },
+    {
+      "page": 85,
+      "line": 19,
+      "name": "0085-019.png",
+      "verdict": "differ",
+      "native": "Par suite $u$(˚V) est un voisinage de 0 dans I. Cela implique que $u$ induit",
+      "model": "Par suite $u(\\dot{V})$ est un voisinage de $0$ dans I. Cela implique que $u$ induit",
+      "at": 10
+    },
+    {
+      "page": 98,
+      "line": 14,
+      "name": "0098-014.png",
+      "verdict": "differ",
+      "native": "Posons H = Sp($u)\\cap (\\mathbf{C}$ ˚V). L’ensemble H est contenu dans Sp$_s(u)$,",
+      "model": "Posons $H=\\operatorname{Sp}(u)\\cap(C-\\bar V)$. L’ensemble $H$ est contenu dans $\\operatorname{Sp}_s(u)$,",
+      "at": 18
+    },
+    {
+      "page": 111,
+      "line": 9,
+      "name": "0111-009.png",
+      "verdict": "differ",
+      "native": "Soient C un cône convexe fermé saillant d’intérieur ˚C non vide dans E,",
+      "model": "Soient $C$ un cône convexe fermé saillant d’intérieur $\\mathring{C}$ non vide dans $E$,",
+      "at": 44
+    },
+    {
+      "page": 111,
+      "line": 10,
+      "name": "0111-010.png",
+      "verdict": "differ",
+      "native": "et $u\\in \\mathscr{L}(E)$ une application linéaire compacte telle que $u(C\\{0\\})\\subset$ ˚C.",
+      "model": "et $u \\in \\mathcal{L}(\\mathrm{E})$ une application linéaire compacte telle que $u(C-\\{0\\}) \\subset \\mathring{C}$.",
+      "at": 11
+    },
+    {
+      "page": 111,
+      "line": 11,
+      "name": "0111-011.png",
+      "verdict": "differ",
+      "native": "a) On a $\\varrho (u)\u003e0$ et il existe un vecteur propre $x_0$ de $u$ dans ˚C pour",
+      "model": "a) On a $q(u)\u003e0$ et il existe un vecteur propre $x_0$ de $u$ dans $\\mathbf C$ pour",
+      "at": 5
+    },
+    {
+      "page": 111,
+      "line": 20,
+      "name": "0111-020.png",
+      "verdict": "silent",
+      "native": "dans E et $u\\in \\mathscr{L}(E)$ tels que $u(C\\{0\\})\\subset$ ˚C. Soit $\\ell \\in C^{\\circ}$ un vecteur",
+      "at": -1
+    },
+    {
+      "page": 111,
+      "line": 28,
+      "name": "0111-028.png",
+      "verdict": "differ",
+      "native": "$y /\\in C$ puisque $\\ell \\in C^{\\circ}$. On en déduit que $u(x)$ n’appartient pas à ˚C.",
+      "model": "$y \\notin \\mathbf{C}$ puisque $\\ \\in C^\\circ$. On en déduit que $u(x)$ n’appartient pas à $C$.",
+      "at": 1
+    },
+    {
+      "page": 111,
+      "line": 29,
+      "name": "0111-029.png",
+      "verdict": "differ",
+      "native": "Comme $u(C\\{0\\})\\subset$ ˚C, cela implique que $x /\\in C$.",
+      "model": "Comme $u(\\mathbf{C}-\\{0\\})\\subset\\dot{\\mathbf{C}}$, cela implique que $x\\notin\\mathbf{C}$.",
+      "at": 7
+    },
+    {
+      "page": 111,
+      "line": 32,
+      "name": "0111-032.png",
+      "verdict": "differ",
+      "native": "de E tel que $u(B)\\subset$ ˚B. Le spectre complexe de $u$ est alors contenu dans",
+      "model": "de $\\mathbf{E}$ tel que $u(\\mathbf{B}) \\subset \\overline{\\mathbf{B}}$. Le spectre complexe de $u$ est alors contenu dans",
+      "at": 2
+    },
+    {
+      "page": 112,
+      "line": 10,
+      "name": "0112-010.png",
+      "verdict": "differ",
+      "native": "On a $u(x)\\preccurlyeq u(y)$ si $x\\preccurlyeq y$. Puisque ˚C est non vide, l’espace vectoriel",
+      "model": "On a $u(x) \\preceq u(y)$ si $x \\preceq y$. Puisque $\\mathring{C}$ est non vide, l’espace vectoriel",
+      "at": 12
+    },
+    {
+      "page": 112,
+      "line": 13,
+      "name": "0112-013.png",
+      "verdict": "differ",
+      "native": "Démontrons l’assertion a). Soit $\\varrho =\\varrho (u)$. Soit $y_0$ un élément de ˚C.",
+      "model": "Démontrons l’assertion a). Soit $q=q(u)$. Soit $y_0$ un élément de $\\mathbf{C}$.",
+      "at": 28
+    },
+    {
+      "page": 112,
+      "line": 17,
+      "name": "0112-017.png",
+      "verdict": "differ",
+      "native": "Comme $y_0\\not = 0$, les hypothèses impliquent que $u(y_0)\\in$ ˚C. Il existe",
+      "model": "Comme $y_0=0$, les hypothèses impliquent que $u(y_0)\\in\\dot{\\mathbf C}$. Il existe",
+      "at": 8
+    },
+    {
+      "page": 112,
+      "line": 26,
+      "name": "0112-026.png",
+      "verdict": "differ",
+      "native": "pour la valeur propre $\\varrho$. On a $\\varrho x_0=u(x_0)\\in$ ˚C par hypothèse, donc",
+      "model": "pour la valeur propre $q$. On a $qx_0=u(x_0)\\in\\dot{\\mathbf C}$ par hypothèse, donc",
+      "at": 18
+    },
+    {
+      "page": 112,
+      "line": 27,
+      "name": "0112-027.png",
+      "verdict": "differ",
+      "native": "$x_0\\in$ ˚C. Cela établit l’assertion a).",
+      "model": "$x_0 \\in \\mathring{\\mathbf C}$. Cela établit l’assertion a).",
+      "at": 6
+    },
+    {
+      "page": 113,
+      "line": 5,
+      "name": "0113-005.png",
+      "verdict": "differ",
+      "native": "térieur non vide dans F (puisque $x_0\\in$ ˚$C\\cap F)$, donc total ; il vérifie",
+      "model": "térieur non vide dans F (puisque $x_0 \\in \\mathring{C} \\cap F$), donc total ; il vérifie",
+      "at": 33
+    },
+    {
+      "page": 113,
+      "line": 6,
+      "name": "0113-006.png",
+      "verdict": "differ",
+      "native": "$v(C_F\\{0\\})\\subset$ ˚$C_F$, et en particulier est stable par $v$. Comme $\\varrho (v)\\leqslant \\varrho$",
+      "model": "$v(\\mathbf{C}_{\\mathrm F}-\\{0\\})\\subset\\dot{\\mathbf{C}}_{\\mathrm F}$, et en particulier est stable par $v$. Comme $\\rho(v)\\leq\\rho$",
+      "at": 2
+    },
+    {
+      "page": 113,
+      "line": 16,
+      "name": "0113-016.png",
+      "verdict": "differ",
+      "native": "qui appartient à $C_F$ si la norme de $z$ est assez petite, donc $w(y)\\in$ ˚B.",
+      "model": "qui appartient à $\\mathbf{C}_{F}$ si la norme de $\\tilde{z}$ est assez petite, donc $w(y) \\in \\mathbf{\\dot{B}}$.",
+      "at": 14
+    },
+    {
+      "page": 113,
+      "line": 37,
+      "name": "0113-037.png",
+      "verdict": "differ",
+      "native": "Soient C un cône convexe fermé saillant d’intérieur ˚C non vide dans E,",
+      "model": "Soient $C$ un cône convexe fermé saillant d’intérieur $\\mathring{C}$ non vide dans $E$,",
+      "at": 44
+    },
+    {
+      "page": 114,
+      "line": 2,
+      "name": "0114-002.png",
+      "verdict": "differ",
+      "native": "qu’il existe un entier $k\\geqslant 1$ tel que $u^k(C\\{0\\})\\subset$ ˚C.",
+      "model": "qu'il existe un entier $k \\geq 1$ tel que $w^k(\\mathbf{C}-\\{0\\})\\subset\\mathbf{C}$.",
+      "at": 2
+    }
+  ]
+}
