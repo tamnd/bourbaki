@@ -9,6 +9,7 @@
     "dropped-glyph": 7,
     "empty": 11,
     "stacked-matrix": 7,
+    "stacked-rows": 4,
     "tall-delimiter": 9
   },
   "flagged_pages": [
@@ -62,7 +63,8 @@
       "pdf_page": 108,
       "page_label": "A VIII.91",
       "flags": [
-        "tall-delimiter"
+        "tall-delimiter",
+        "stacked-rows"
       ]
     },
     {
@@ -163,7 +165,8 @@
       "pdf_page": 286,
       "page_label": "A VIII.269",
       "flags": [
-        "tall-delimiter"
+        "tall-delimiter",
+        "stacked-rows"
       ]
     },
     {
@@ -260,7 +263,8 @@
       "pdf_page": 365,
       "page_label": "A VIII.348",
       "flags": [
-        "tall-delimiter"
+        "tall-delimiter",
+        "stacked-rows"
       ]
     },
     {
@@ -287,7 +291,8 @@
       "pdf_page": 381,
       "page_label": "A VIII.364",
       "flags": [
-        "tall-delimiter"
+        "tall-delimiter",
+        "stacked-rows"
       ]
     },
     {
