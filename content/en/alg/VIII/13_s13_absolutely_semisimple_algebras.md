@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: ee4f74ce057ba11f4006027d6291f99d5531b7ab655a05b0df79bceb49e1e794
+content_sha256: 9fb80605d931826f21789db4de751932e6c8c8e2a202db23b38971255752d9e3
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -71,7 +71,7 @@ Assertion a) follows from the analogous assertion for semisimple modules (VIII, 
 
 Suppose that the A-module M is absolutely semisimple, and let $L'$ be an extension of L. As an $A_{(L')}$-module, $L'\otimes_LM_{(L)}$ is isomorphic to $M_{(L')}$ (II, §5, No. 1, p. 273, Proposition 2); it is therefore a semisimple module. This proves that $M_{(L)}$ is absolutely semisimple.
 
-Conversely, suppose that $M_{(L)}$ is absolutely semisimple. Let $L'$ be an extension of K. There exists a composite extension $(\Omega, u, v)$ of L and $L'$ (V, §2, No. 4, p. 13, Corollary); we identify L and $L'$ with subextensions of Ω. The $A_{(\Omega)}$-module $M_{(\Omega)}$ is isomorphic to $(M_{(L)})_{(\Omega)}$; it is therefore semisimple. But $M_{(\Omega)}$ is also isomorphic to $(M_{(L')})_{(\Omega)}$, and Proposition 8, a) of VIII, p. 222 implies that $M_{(L')}$ is semisimple. So M is absolutely semisimple.
+Conversely, suppose that $M_{(L)}$ is absolutely semisimple. Let $L'$ be an extension of K. There exists a composite extension $(\Omega , u, v)$ of L and $L'$ (V, §2, No. 4, p. 13, Corollary); we identify L and $L'$ with subextensions of Ω. The $A_{(\Omega )}$-module $M_{(\Omega )}$ is isomorphic to $(M_{(L)})_{(\Omega )}$; it is therefore semisimple. But $M_{(\Omega )}$ is also isomorphic to $(M_{(L')})_{(\Omega )}$, and Proposition 8, a) of VIII, p. 222 implies that $M_{(L')}$ is semisimple. So M is absolutely semisimple.
 
 #### Proposition 2 {#alg-viii-s13-prop-2 .statement tag=00FB}
 
