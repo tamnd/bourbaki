@@ -1,0 +1,32 @@
+{
+  "book": "lie-vii-ix",
+  "pages": 439,
+  "clean": 436,
+  "flagged": 3,
+  "empty": 0,
+  "reasons": {
+    "dropped-glyph": 3
+  },
+  "flagged_pages": [
+    {
+      "pdf_page": 364,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 367,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 371,
+      "flags": [
+        "dropped-glyph"
+      ]
+    }
+  ],
+  "set_difference_placed": 0,
+  "set_difference_unplaced": 0
+}

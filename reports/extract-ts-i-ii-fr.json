@@ -1,0 +1,83 @@
+{
+  "book": "ts-i-ii-fr",
+  "pages": 346,
+  "clean": 336,
+  "flagged": 8,
+  "empty": 2,
+  "reasons": {
+    "dropped-glyph": 3,
+    "empty": 2,
+    "tall-delimiter": 5
+  },
+  "flagged_pages": [
+    {
+      "pdf_page": 31,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 75,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 165,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 192,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 219,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 220,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 245,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 272,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 322,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 324,
+      "flags": [
+        "tall-delimiter"
+      ]
+    }
+  ],
+  "two_column_pages": [
+    338,
+    339,
+    340,
+    341,
+    342
+  ],
+  "set_difference_placed": 193,
+  "set_difference_unplaced": 0
+}
