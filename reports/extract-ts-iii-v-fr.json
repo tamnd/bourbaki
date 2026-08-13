@@ -1,0 +1,150 @@
+{
+  "book": "ts-iii-v-fr",
+  "pages": 579,
+  "clean": 558,
+  "flagged": 19,
+  "empty": 2,
+  "reasons": {
+    "dropped-glyph": 9,
+    "empty": 2,
+    "tall-delimiter": 10
+  },
+  "flagged_pages": [
+    {
+      "pdf_page": 64,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 116,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 127,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 133,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 149,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 209,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 210,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 216,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 222,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 223,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 227,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 325,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 362,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 382,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 383,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 425,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 448,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 473,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 489,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 498,
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 521,
+      "flags": [
+        "tall-delimiter"
+      ]
+    }
+  ],
+  "two_column_pages": [
+    566,
+    567,
+    568,
+    569,
+    570,
+    571
+  ],
+  "set_difference_placed": 255,
+  "set_difference_unplaced": 0
+}

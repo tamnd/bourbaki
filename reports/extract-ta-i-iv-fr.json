@@ -1,0 +1,187 @@
+{
+  "book": "ta-i-iv-fr",
+  "pages": 512,
+  "clean": 489,
+  "flagged": 21,
+  "empty": 2,
+  "reasons": {
+    "drawn-rule": 6,
+    "dropped-glyph": 1,
+    "empty": 2,
+    "tall-delimiter": 14
+  },
+  "flagged_pages": [
+    {
+      "pdf_page": 3,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 22,
+      "page_label": "A I.6",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 81,
+      "page_label": "A I.65",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 144,
+      "page_label": "A I.128",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 154,
+      "flags": [
+        "empty"
+      ]
+    },
+    {
+      "pdf_page": 161,
+      "page_label": "A I.145",
+      "flags": [
+        "drawn-rule"
+      ]
+    },
+    {
+      "pdf_page": 224,
+      "page_label": "A II.208",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 235,
+      "page_label": "A II.219",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 246,
+      "page_label": "A III.230",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 272,
+      "page_label": "A III.256",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 279,
+      "page_label": "A III.263",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 280,
+      "page_label": "A III.264",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 307,
+      "page_label": "A III.291",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 348,
+      "page_label": "A III.332",
+      "flags": [
+        "drawn-rule"
+      ]
+    },
+    {
+      "pdf_page": 378,
+      "page_label": "A IV.362",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 433,
+      "page_label": "A IV.417",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 435,
+      "page_label": "A IV.419",
+      "flags": [
+        "drawn-rule"
+      ]
+    },
+    {
+      "pdf_page": 438,
+      "page_label": "A IV.422",
+      "flags": [
+        "drawn-rule"
+      ]
+    },
+    {
+      "pdf_page": 439,
+      "page_label": "A IV.423",
+      "flags": [
+        "drawn-rule"
+      ]
+    },
+    {
+      "pdf_page": 453,
+      "page_label": "A IV.437",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 464,
+      "page_label": "A IV.448",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 466,
+      "page_label": "A IV.450",
+      "flags": [
+        "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 488,
+      "page_label": "A IV.472",
+      "flags": [
+        "drawn-rule"
+      ]
+    }
+  ],
+  "two_column_pages": [
+    497,
+    498,
+    500,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506
+  ],
+  "set_difference_placed": 294,
+  "set_difference_unplaced": 6
+}

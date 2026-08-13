@@ -113,18 +113,18 @@ imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet che
 | Theory of Sets | II | 0 of 6 | 0 | 0 | 0 | 0 |
 | Theory of Sets | III | 0 of 7 | 0 | 0 | 0 | 0 |
 | Theory of Sets | IV | 0 of 3 | 0 | 0 | 0 | 0 |
-| Lie Groups and Lie Algebras | VII | 0 of 7 | 0 | 0 | 0 | 0 |
-| Lie Groups and Lie Algebras | VIII | 0 of 13 | 0 | 0 | 0 | 0 |
-| Lie Groups and Lie Algebras | IX | 0 of 11 | 0 | 0 | 0 | 0 |
-| Topologie algébrique | I | 0 of 6 | 0 | 0 | 0 | 0 |
-| Topologie algébrique | II | 0 of 5 | 0 | 0 | 0 | 0 |
-| Topologie algébrique | III | 0 of 5 | 0 | 0 | 0 | 0 |
-| Topologie algébrique | IV | 0 of 6 | 0 | 0 | 0 | 0 |
-| Théories spectrales | I | 0 of 8 | 0 | 0 | 0 | 0 |
-| Théories spectrales | II | 0 of 3 | 0 | 0 | 0 | 0 |
-| Théories spectrales | III | 0 of 6 | 0 | 0 | 0 | 0 |
-| Théories spectrales | IV | 0 of 5 | 0 | 0 | 0 | 0 |
-| Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 0 |
+| Lie Groups and Lie Algebras | VII | 0 of 7 | 0 | 0 | 0 | 66 |
+| Lie Groups and Lie Algebras | VIII | 0 of 13 | 0 | 0 | 0 | 211 |
+| Lie Groups and Lie Algebras | IX | 0 of 11 | 0 | 0 | 0 | 152 |
+| Topologie algébrique | I | 0 of 6 | 0 | 0 | 0 | 150 |
+| Topologie algébrique | II | 0 of 5 | 0 | 0 | 0 | 78 |
+| Topologie algébrique | III | 0 of 5 | 0 | 0 | 0 | 110 |
+| Topologie algébrique | IV | 0 of 6 | 0 | 0 | 0 | 158 |
+| Théories spectrales | I | 0 of 8 | 0 | 0 | 0 | 197 |
+| Théories spectrales | II | 0 of 3 | 0 | 0 | 0 | 136 |
+| Théories spectrales | III | 0 of 6 | 0 | 0 | 0 | 143 |
+| Théories spectrales | IV | 0 of 5 | 0 | 0 | 0 | 228 |
+| Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 
 25 of 190 sections are in the corpus, 13 per cent. 709 statements and 317 exercises, 1026 of them carrying a permanent tag.
 
