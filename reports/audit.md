@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 2122 references, 345 translated files. Languages: en, fr, vi.
+Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 2122 references, 345 translated files, 5 solutions. Languages: en, fr, vi.
 
 ## Summary
 
@@ -18,11 +18,11 @@ Audited: 1 chapter, 27 sections, 317 exercises, 997 extracted pages, 1026 tags, 
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
 | translation | 7 | 2 | 1 | L06 (1), L08 (1) |
-| solutions | 0 | 0 | 4 | none |
+| solutions | 0 | 4 | 0 | none |
 | publication | 0 | 1 | 0 | P04 (37) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 190 soft, over 51 rules that ran and 7 that could not.
+0 hard findings and 190 soft, over 55 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -32,10 +32,6 @@ pass, because a green that comes from an empty corpus is the one kind nobody
 should trust.
 
 - **M04** every math span parses: not asked for, run with -validate-tex
-- **X01** a solution's tag is a tag, and it is an exercise: the corpus has no solutions yet
-- **X02** a status is a fact about the judges: the corpus has no solutions yet
-- **X03** every tag a solution says it uses exists: the corpus has no solutions yet
-- **X04** no provider leakage and no meta-commentary: the corpus has no solutions yet
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
 
