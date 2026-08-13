@@ -14,9 +14,9 @@ pdf_pages: 0478-0479
 extraction: native
 statements: 3
 exercises: 0
-content_sha256: 80fe1970eb562c43d174b49b8db5c51877688aae96c82fd85472ba1a580708fa
+content_sha256: bd75ad96ae6155f1b433a2ca0c3840bb5382fe5cec2b6bd721157b958f597a28
 translated_from: content/en/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md
-source_content_sha256: cc350e8eabe464facbe18ec7b3bb9a966829e615fa33b78e60f1772ab7ac0de7
+source_content_sha256: 62a239c325be0cac2b5d6dfbb28a3bbcfbf54f3af50c5736bc78715892302599
 translation_model: gpt-5-6
 translation_run: translate-vi-ab0abfcc
 glossary_version: 5
@@ -46,16 +46,16 @@ Cho K là một trường giao hoán, A là một đại số giao hoán K đư�
 
 a) Bậc của $A/\mathfrak{m}$ trên K là hữu hạn.
 
-b) Cho Ω là một mở rộng đóng đại số của K. Tồn tại một đồng cấu đại số K từ A vào Ω có hạt nhân $\mathfrak{m}$.
+b) Cho Ω là một mở rộng đóng đại số của K. Tồn tại một đồng cấu đại số K từ A vào Ω có hạt nhân $\mathfrak{m}$.
 
-Đại số K $A/\mathfrak{m}$ được sinh bởi hữu hạn phần tử, và $A/\mathfrak{m}$ là một trường. Theo Định lý 1, bậc của $A/\mathfrak{m}$ là hữu hạn; mệnh đề a) được suy ra. Mọi mở rộng của K có bậc hữu hạn đều đẳng cấu với một mở rộng con của Ω (V, §4, No. 1, p. 20, Định lý 1); điều này cho b).
+Đại số K $A/\mathfrak{m}$ được sinh bởi hữu hạn phần tử, và $A/\mathfrak{m}$ là một trường. Theo Định lý 1, bậc của $A/\mathfrak{m}$ là hữu hạn; mệnh đề a) được suy ra. Mọi mở rộng của K có bậc hữu hạn đều đẳng cấu với một mở rộng con của Ω (V, §4, No. 1, p. 20, Định lý 1); điều này cho b).
 
 #### Hệ quả 2 {#alg-viii-a3-thm-1-cor-2 .statement tag=00QN}
 
-Cho K là một trường giao hoán, $n$ là một số tự nhiên, $(P_i)_{i\in I}$ là một họ các phần tử của $K[X_1, . . . ,X_n]$, và Ω là một mở rộng đóng đại số của K. Các điều kiện sau là tương đương:
+Cho K là một trường giao hoán, $n$ là một số tự nhiên, $(P_i)_{i\in I}$ là một họ các phần tử của $K[X_1, . . . ,X_n]$, và Ω là một mở rộng đóng đại số của K. Các điều kiện sau là tương đương:
 
 (i) Các đa thức $P_i$ không có không điểm chung trong $\Omega^n$.
 
 (ii) Tồn tại một họ $(Q_i)_{i\in I}$, có giá hữu hạn, gồm các phần tử của $K[X_1, . . . ,X_n]$ sao cho $\sum_{i\in I}P_iQ_i= 1$.
 
-Gọi A là vành $K[X_1, . . . ,X_n]$ và $\mathfrak{a}$ là iđêan sinh bởi đa thức $P_i$. Điều kiện (i) có nghĩa là không có đồng cấu đại số K từ $A/\mathfrak{a}$ vào Ω. Nếu điều kiện này được thỏa mãn thì theo Hệ quả 1, vành $A/\mathfrak{a}$ không có iđêan cực đại nào và do đó là không, và 1 thuộc $\mathfrak{a}$. Điều này chứng minh rằng (i) kéo theo (ii). Hàm ý (ii) $\Rightarrow$ (i) là hiển nhiên.
+Gọi A là vành $K[X_1, . . . ,X_n]$ và $\mathfrak{a}$ là iđêan sinh bởi đa thức $P_i$. Điều kiện (i) có nghĩa là không có đồng cấu đại số K từ $A/\mathfrak{a}$ vào Ω. Nếu điều kiện này được thỏa mãn thì theo Hệ quả 1, vành $A/\mathfrak{a}$ không có iđêan cực đại nào và do đó là không, và 1 thuộc $\mathfrak{a}$. Điều này chứng minh rằng (i) kéo theo (ii). Hàm ý (ii) $\Rightarrow$ (i) là hiển nhiên.

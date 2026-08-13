@@ -46,7 +46,7 @@ subsections:
       pdf_page: 283
 statements: 36
 exercises: 19
-content_sha256: f29892336513d29f86ad06eafe7589eea723bfabcf132587ab68e4a90708dff4
+content_sha256: c71e4e63b26e1e1b6504a6aa65c3af96ad85bf3e3e06ffe52d663cfcb59c3fc4
 ---
 
 ## § 14. CENTRAL SIMPLE ALGEBRAS
@@ -465,7 +465,7 @@ Let L be a commutative algebra of finite degree over K. The following properties
 
 The implication (ii)$\Rightarrow$(i) follows from V, §6, No. 3, p. 29, Proposition 2.
 
-Let us prove the implication (i)$\Rightarrow$(ii). Let Ω be a separable closure of K. By Theorem 4 of V, §6, No. 7, p. 34, there exist extensions $L_1, . . . ,L_n$ of K of finite degree, contained in Ω, such that L is isomorphic to the product $L_1\times  \cdots  \times L_n$. Let N be a Galois extension of K that contains the $L_i$ (V, §10, No. 1, p. 58), and let us prove that $L_{(N)}$ is diagonalizable. By the primitive element theorem (V, §7, No. 4, p. 40, Theorem 1), for every $i\in [1, n]$, there exists an irreducible separable polynomial $P_i\in K[X]$ such that $L_i$ is isomorphic to $K[X]/(P_i)$. Since N is a normal extension of K in which $P_i$ admits a root, the polynomial $P_i$ splits in N[X], with simple roots. Consequently, the N-algebra $L_{i(N)}$, which is isomorphic to $N[X]/(P_i)$, is isomorphic to $N^{[L_i:K]}$. Hence $L_{(N)}$ is diagonalizable.
+Let us prove the implication (i)$\Rightarrow$(ii). Let Ω be a separable closure of K. By Theorem 4 of V, §6, No. 7, p. 34, there exist extensions $L_1, . . . ,L_n$ of K of finite degree, contained in Ω, such that L is isomorphic to the product $L_1\times  \cdots  \times L_n$. Let N be a Galois extension of K that contains the $L_i$ (V, §10, No. 1, p. 58), and let us prove that $L_{(N)}$ is diagonalizable. By the primitive element theorem (V, §7, No. 4, p. 40, Theorem 1), for every $i\in [1, n]$, there exists an irreducible separable polynomial $P_i\in K[X]$ such that $L_i$ is isomorphic to $K[X]/(P_i)$. Since N is a normal extension of K in which $P_i$ admits a root, the polynomial $P_i$ splits in N[X], with simple roots. Consequently, the N-algebra $L_{i(N)}$, which is isomorphic to $N[X]/(P_i)$, is isomorphic to $N^{[L_i:K]}$. Hence $L_{(N)}$ is diagonalizable.
 
 #### Theorem 7 {#alg-viii-s14-thm-7 .statement tag=00HB}
 

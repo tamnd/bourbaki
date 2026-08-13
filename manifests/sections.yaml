@@ -171,7 +171,7 @@ books:
               statements: 26
               exercises: 17
               extraction: native
-              content_sha256: 4f6d8c11d79ddecf4d03f9e753eb6244fb5b0105824c384ea6652a2ff27bb661
+              content_sha256: 077bfa1f67e34e4c6d3aa9e772a723885567e88634fe5a30226a912ff172a3a3
             - kind: section
               section: 13
               title: Absolutely Semisimple Algebras
@@ -184,7 +184,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native
-              content_sha256: ee4f74ce057ba11f4006027d6291f99d5531b7ab655a05b0df79bceb49e1e794
+              content_sha256: 9fb80605d931826f21789db4de751932e6c8c8e2a202db23b38971255752d9e3
             - kind: section
               section: 14
               title: Central Simple Algebras
@@ -197,7 +197,7 @@ books:
               statements: 36
               exercises: 19
               extraction: native
-              content_sha256: f29892336513d29f86ad06eafe7589eea723bfabcf132587ab68e4a90708dff4
+              content_sha256: c71e4e63b26e1e1b6504a6aa65c3af96ad85bf3e3e06ffe52d663cfcb59c3fc4
             - kind: section
               section: 15
               title: Brauer Groups
@@ -223,7 +223,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: be48c90b37dbb439654012570f259025b8009ba963cbd3f5e9a9c2d8389bdf5b
+              content_sha256: dfc283af858516b9a560ae62b85ef070adea34c36f3c66f448de31a3f3498b66
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -288,7 +288,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: 733b2add44757258260d50e930d42f4633a7cd8bc25e4635cbb4b6acf30795e5
+              content_sha256: 4087a45fc0dcb54dd178194f7c64b217b51cd06178db75ad302d42e750d9573b
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
@@ -314,7 +314,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: 8836038b784d33a53dbe9a714ae60286f4c228cf19600a70e2b78ecb4b91224b
+              content_sha256: 2d199e7eae8488e137647b15a487a0d5edba7c66b18a00763fa06b901a421e93
             - kind: appendix
               section: 3
               title: Hilbert’s Nullstellensatz
@@ -327,7 +327,7 @@ books:
               statements: 3
               exercises: 0
               extraction: native
-              content_sha256: cc350e8eabe464facbe18ec7b3bb9a966829e615fa33b78e60f1772ab7ac0de7
+              content_sha256: 62a239c325be0cac2b5d6dfbb28a3bbcfbf54f3af50c5736bc78715892302599
             - kind: appendix
               section: 4
               title: Trace of an Endomorphism of Finite Rank

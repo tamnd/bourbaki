@@ -35,7 +35,7 @@ subsections:
       pdf_page: 472
 statements: 18
 exercises: 4
-content_sha256: 8836038b784d33a53dbe9a714ae60286f4c228cf19600a70e2b78ecb4b91224b
+content_sha256: 2d199e7eae8488e137647b15a487a0d5edba7c66b18a00763fa06b901a421e93
 ---
 
 ## APPENDIX 2 DETERMINANTS OVER A NONCOMMUTATIVE FIELD
@@ -44,7 +44,7 @@ In this appendix, D is a field, and $D^*_{ab}$ is the quotient of the multiplica
 
 ### 1. A Generalization of Alternating Multilinear Forms
 
-Let V be a right vector space over the field D, of finite dimension $n\geqslant 0$. We denote by B(V) the set of bases of V and by Ω(V) the set of mappings $\omega$ from B(V) to $D^*_{ab}$ that satisfy the following two conditions:
+Let V be a right vector space over the field D, of finite dimension $n\geqslant 0$. We denote by B(V) the set of bases of V and by Ω(V) the set of mappings $\omega$ from B(V) to $D^*_{ab}$ that satisfy the following two conditions:
 
 a) If $\lambda_1, . . . , \lambda_n$ are the elements of $D^*$, then we have
 
@@ -62,7 +62,7 @@ $$
 
 for every basis $(v_1, . . . , v_n)$ of V.
 
-Let $\omega$ be an element of Ω(V). Let $(v_1, . . . , v_n)$ be a basis of V and $i$ an integer in the interval $[1, n-1]$; by property b), we have
+Let $\omega$ be an element of Ω(V). Let $(v_1, . . . , v_n)$ be a basis of V and $i$ an integer in the interval $[1, n-1]$; by property b), we have
 
 $$
 \omega (v_1, . . . , v_i, v_{i+1}, . . . , v_n) =\omega (v_1, . . . , v_i+v_{i+1}, v_{i+1}, . . . , v_n)
@@ -128,7 +128,7 @@ In this subsection, for any strictly positive integer $m$, any integer $i$ in th
 
 #### Proposition 1 {#alg-viii-a2-prop-1 .statement tag=00Q1}
 
-Let W be a hyperplane in V and $e$ be a vector in V- W. Let $\varphi$ be an element of Ω(W). There exists a unique element $\omega$ of Ω(V) such that we have
+Let W be a hyperplane in V and $e$ be a vector in V- W. Let $\varphi$ be an element of Ω(W). There exists a unique element $\omega$ of Ω(V) such that we have
 
 $$
 \omega (w_1, . . . , w_{n-1}, e) =\varphi (w_1, . . . , w_{n-1}) \tag{7}
@@ -136,7 +136,7 @@ $$
 
 for every basis $(w_1, . . . , w_{n-1})$ of W.
 
-A) Uniqueness of $\omega :$ Let $\omega$ be an element of Ω(V). Let $(v_1, . . . , v_n)$ be a basis of V, and let $\mu_1, . . . , \mu_n$ be the coordinates of $e$ in this basis. Denote by I the set of integers from 1 to $n$ (inclusive) such that $\mu_i\not= 0$; it is not empty. Let $i$ be an element of I. The sequence $(v_1, . . . ,\widehat{v}_i, . . . , v_n, e)$ is a basis of V, and since $e-v_i\mu_i$ is a linear combination of the sequence $(v_1, . . . ,\widehat{v}_i, . . . , v_n)$, formula (6) implies
+A) Uniqueness of $\omega :$ Let $\omega$ be an element of Ω(V). Let $(v_1, . . . , v_n)$ be a basis of V, and let $\mu_1, . . . , \mu_n$ be the coordinates of $e$ in this basis. Denote by I the set of integers from 1 to $n$ (inclusive) such that $\mu_i\not= 0$; it is not empty. Let $i$ be an element of I. The sequence $(v_1, . . . ,\widehat{v}_i, . . . , v_n, e)$ is a basis of V, and since $e-v_i\mu_i$ is a linear combination of the sequence $(v_1, . . . ,\widehat{v}_i, . . . , v_n)$, formula (6) implies
 
 $$
 \omega (v_1, . . . ,\widehat{v}_i, . . . , v_n, v_i\mu_i) =\omega (v_1, . . . ,\widehat{v}_i, . . . , v_n, e) \tag{8}
@@ -184,7 +184,7 @@ and therefore $t_i=t_j$.
 
 Having proved this, we define $\omega (v_1, . . . , v_n)$ as the common value of the $t_i$ for $i$ in I. We have thus constructed a mapping $\omega$ from B(V) to $D^*_{ab}$ that satisfies relation (9). Let $(w_1, . . . , w_{n-1})$ be a basis of W; if we set $v_i=w_i$ for $1\leqslant i\leqslant n-1$ and $v_n=e$, then we have $I =\{n\}$ and $\mu_n= 1$. We moreover have $p(v_i) =w_i$ for $1\leqslant i\leqslant n-1$, and the formula $\omega (w_1, . . . , w_{n-1}, e) =\varphi (w_1, . . . , w_{n-1})$ is a specific case of (9).
 
-We must now prove that $\omega$ belongs to Ω(V).
+We must now prove that $\omega$ belongs to Ω(V).
 
 C) Proof of formula (1): Let $\lambda_1, . . . , \lambda_n$ be elements of $D^*$ and $(v_1, . . . , v_n)$ be a basis of V. We define $\mu_1, . . . , \mu_n$ and I as above. Choose an $i$ in I. Since we have $e=\sum^n_{j=1}(v_j\lambda_j)(\lambda^{-1}_j\mu_j)$, formula (9) implies
 
@@ -228,7 +228,7 @@ for every $k$ such that $\mu_k$ and $\mu'_k$ are nonzero.
 
 a) If $\mu_i\not=0$, then the sequences $(p(v_1), . . . ,\widehat{p(v_k)}, . . . , p(v_n))$ and $(p(v'_1), . . . ,\widehat{p(v'_k)}, . . . , p(v'_n))$ are equal, and we have $\mu_i$ = $\mu'_i$, and therefore $t=t'$.
 
-b) If there exists an index $k$ different from $i$ and $j$ such that $\mu_k\not= 0$, then we have $p(v'_l) =p(v_l)$ for $l\not=i$ and $p(v'_i) =p(v_i) +p(v_j)$. The elements $p(v_i)$ and $p(v_j)$ both belong to the sequence $(p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n))$. Since $\varphi$ belongs to Ω(W), formula (2) of VIII, p. 447 applies; it gives
+b) If there exists an index $k$ different from $i$ and $j$ such that $\mu_k\not= 0$, then we have $p(v'_l) =p(v_l)$ for $l\not=i$ and $p(v'_i) =p(v_i) +p(v_j)$. The elements $p(v_i)$ and $p(v_j)$ both belong to the sequence $(p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n))$. Since $\varphi$ belongs to Ω(W), formula (2) of VIII, p. 447 applies; it gives
 
 $$
 \varphi (p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n)) =\varphi (p(v'_1), . . . ,p(\widehat{v}_k'), . . . , p(v_n'))
@@ -240,23 +240,23 @@ c) It remains to examine the case when the only index $k$ such that $\mu_k\not= 
 
 #### Corollary 1 {#alg-viii-a2-prop-1-cor-1 .statement tag=00Q2}
 
-Let $(e_1, . . . , e_n)$ be a basis of V and $t$ an element of $D^*_{ab}$. There exists a unique element $\omega$ of Ω(V) such that $\omega (e_1, . . . , e_n) =t$.
+Let $(e_1, . . . , e_n)$ be a basis of V and $t$ an element of $D^*_{ab}$. There exists a unique element $\omega$ of Ω(V) such that $\omega (e_1, . . . , e_n) =t$.
 
-Let us prove the corollary by induction on $n$. If $n= 0$, then the only basis of V is the empty one, so the assertion is true. Now suppose $n\geqslant 1$; denote by W the subspace of V generated by $e_1, . . . , e_{n-1}$. By Proposition 1, there exists a bijection Λ from Ω(V) to Ω(W) satisfying
+Let us prove the corollary by induction on $n$. If $n= 0$, then the only basis of V is the empty one, so the assertion is true. Now suppose $n\geqslant 1$; denote by W the subspace of V generated by $e_1, . . . , e_{n-1}$. By Proposition 1, there exists a bijection Λ from Ω(V) to Ω(W) satisfying
 
 $$
 (\Lambda (\omega ))(w_1, . . . , w_{n-1}) =\omega (w_1, . . . , w_{n-1}, e_n)
 $$
 
-for every basis $(w_1, . . . , w_{n-1})$ of W and every $\omega$ in Ω(V). By the induction hypothesis, there exists a unique element $\varphi$ of Ω(W) such that $\varphi (e_1, . . . , e_{n-1}) =t$. The relation $\omega (e_1, . . . , e_n) =t$, for $\omega$ in Ω(V), is equivalent to $\Lambda (\omega ) =\varphi$. Corollary 1 follows.
+for every basis $(w_1, . . . , w_{n-1})$ of W and every $\omega$ in Ω(V). By the induction hypothesis, there exists a unique element $\varphi$ of Ω(W) such that $\varphi (e_1, . . . , e_{n-1}) =t$. The relation $\omega (e_1, . . . , e_n) =t$, for $\omega$ in Ω(V), is equivalent to $\Lambda (\omega ) =\varphi$. Corollary 1 follows.
 
 #### Corollary 2 {#alg-viii-a2-prop-1-cor-2 .statement tag=00Q3}
 
-Let $\omega$ and $\omega '$ be two elements of Ω(V). There exists a unique element $t$ of $D^*_{ab}$ such that $\omega '=t\omega$.
+Let $\omega$ and $\omega '$ be two elements of Ω(V). There exists a unique element $t$ of $D^*_{ab}$ such that $\omega '=t\omega$.
 
 #### Remark {#alg-viii-a2-n2-rem-1 .statement tag=00Q4}
 
-Suppose that the field D is commutative. By definition, B(V) is a subset of $V^n$. It is clear that the restriction to B(V) of a nonzero alternating $n$-linear form $f: V^n\rightarrow D$ belongs to Ω(V). Moreover, if $(e_1, . . . , e_n)$ is a basis of V and $t$ is a nonzero element of D, then there exists a unique alternating $n$-linear form $f$ such that $f(e_1, . . . , e_n) =t$ (III, §7, No. 4, p. 511 and III, §7, No. 8, p. 518). By Corollary 1, the set Ω(V) consists of the restrictions to B(V) of the nonzero alternating $n$-linear forms.
+Suppose that the field D is commutative. By definition, B(V) is a subset of $V^n$. It is clear that the restriction to B(V) of a nonzero alternating $n$-linear form $f: V^n\rightarrow D$ belongs to Ω(V). Moreover, if $(e_1, . . . , e_n)$ is a basis of V and $t$ is a nonzero element of D, then there exists a unique alternating $n$-linear form $f$ such that $f(e_1, . . . , e_n) =t$ (III, §7, No. 4, p. 511 and III, §7, No. 8, p. 518). By Corollary 1, the set Ω(V) consists of the restrictions to B(V) of the nonzero alternating $n$-linear forms.
 
 ### 3. Determinant of an Automorphism
 
@@ -264,7 +264,7 @@ We first suppose that the field D is commutative. In view of the remark above, t
 
 (14) $\omega (u(v_1), . . . , u(v_n)) =$ (det $u)\omega (v_1, . . . , v_n)$
 
-for every basis $(v_1, . . . , v_n)$ of V and every element $\omega$ of Ω(V).
+for every basis $(v_1, . . . , v_n)$ of V and every element $\omega$ of Ω(V).
 
 Let us return to the case when D is no longer supposed to be commutative.
 
@@ -274,17 +274,17 @@ a) Let $u$ be an automorphism of V. There exists a unique element of $D^*_{ab}$,
 
 (15) $\omega (u(v_1), . . . , u(v_n)) =$ (det $u)\omega (v_1, . . . , v_n)$
 
-for every basis $(v_1, . . . , v_n)$ of V and every $\omega$ in Ω(V).
+for every basis $(v_1, . . . , v_n)$ of V and every $\omega$ in Ω(V).
 
 b) The mapping $u\mapsto$ det $u$ from $\mathbf{G}\mathbf{L}(V)$ to $D^*_{ab}$ is a group homomorphism.
 
-Let $\omega_0$ be an element of Ω(V). The mapping $(v_1, . . . , v_n)\mapsto$ $\omega_0(u(v_1), . . . , u(v_n))$ from B(V) to $D^*_{ab}$ belongs to Ω(V). By Corollary 2 of VIII, p. 451, there exists a unique element $t$ of $D^*_{ab}$ such that we have
+Let $\omega_0$ be an element of Ω(V). The mapping $(v_1, . . . , v_n)\mapsto$ $\omega_0(u(v_1), . . . , u(v_n))$ from B(V) to $D^*_{ab}$ belongs to Ω(V). By Corollary 2 of VIII, p. 451, there exists a unique element $t$ of $D^*_{ab}$ such that we have
 
 $$
 \omega_0(u(v_1), . . . , u(v_n)) =t\omega_0(v_1, . . . , v_n)
 $$
 
-for $(v_1, . . . , v_n)$ in B(V). If $\omega$ is another element of Ω(V), then there exists an element $s$ of $D^*_{ab}$ such that
+for $(v_1, . . . , v_n)$ in B(V). If $\omega$ is another element of Ω(V), then there exists an element $s$ of $D^*_{ab}$ such that
 
 $$
 \omega (v_1, . . . , v_n) =s\omega_0(v_1, . . . , v_n)
@@ -300,7 +300,7 @@ This proves a); assertion b) is an immediate consequence of a).
 
 ### 4. Determinant of a Square Matrix
 
-Let $n$ be a positive integer. Let us apply the above to the right vector space $D^n_d$ over the field D; the elements of $D^n_d$ are viewed as matrices with $n$ rows and one column. Let $(\varepsilon_1, . . . , \varepsilon_n)$ be the canonical basis of $D^n_d$. By Corollary 2 of VIII, p. 451, there exists a unique element $\omega_0$ of $\Omega(D^n_d)$ such that $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$. If A is an element of $\mathbf{G}\mathbf{L}_n$(D), then its columns $a_1, . . . , a_n$ form a basis of $D^n_d$; the element $\omega_0(a_1, . . . , a_n)$ of $D^*_{ab}$ is called the determinant of A and denoted by det(A). Since we have $a_i=A\varepsilon_i$ for $1\leqslant i\leqslant n$, the determinant of A is simply the determinant of the automorphism $x\mapsto Ax$ of $D^n_d$. In particular, if the field D is commutative, then the determinant of A coincides with that defined in III, §8, No. 3, p. 524.
+Let $n$ be a positive integer. Let us apply the above to the right vector space $D^n_d$ over the field D; the elements of $D^n_d$ are viewed as matrices with $n$ rows and one column. Let $(\varepsilon_1, . . . , \varepsilon_n)$ be the canonical basis of $D^n_d$. By Corollary 2 of VIII, p. 451, there exists a unique element $\omega_0$ of $\Omega (D^n_d)$ such that $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$. If A is an element of $\mathbf{G}\mathbf{L}_n$(D), then its columns $a_1, . . . , a_n$ form a basis of $D^n_d$; the element $\omega_0(a_1, . . . , a_n)$ of $D^*_{ab}$ is called the determinant of A and denoted by det(A). Since we have $a_i=A\varepsilon_i$ for $1\leqslant i\leqslant n$, the determinant of A is simply the determinant of the automorphism $x\mapsto Ax$ of $D^n_d$. In particular, if the field D is commutative, then the determinant of A coincides with that defined in III, §8, No. 3, p. 524.
 
 Let V be a right vector space of finite dimension $n$ over the field D, and let $(e_1, . . . , e_n)$ be a basis of V. If $u$ is an automorphism of V and A is the matrix of $u$ with respect to the basis $(e_1, . . . , e_n)$, then we have det($u$) $=$ det(A).
 
@@ -328,7 +328,7 @@ Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$ and $a_1, . . . , a_n$ be its
 
 det(A$) =\omega_0(a_1, . . . , a_n)$.
 
-Now, the columns of the matrix A diag($\lambda_1, . . . , \lambda_n$) are $a_1\lambda_1, . . . , a_n\lambda_n$, and those of the matrix AB$_{ij}(1)$ are therefore $a_1, . . . , a_j+a_i, a_{j+1}, . . . , a_n$. Since $\omega_0$ is the unique element of $\Omega(D^n_d)$ such that $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$, we see that the determinant is the unique mapping $\varphi :\mathbf{G}\mathbf{L}_n(D)\rightarrow D^*_{ab}$ that satisfies the relations
+Now, the columns of the matrix A diag($\lambda_1, . . . , \lambda_n$) are $a_1\lambda_1, . . . , a_n\lambda_n$, and those of the matrix AB$_{ij}(1)$ are therefore $a_1, . . . , a_j+a_i, a_{j+1}, . . . , a_n$. Since $\omega_0$ is the unique element of $\Omega (D^n_d)$ such that $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$, we see that the determinant is the unique mapping $\varphi :\mathbf{G}\mathbf{L}_n(D)\rightarrow D^*_{ab}$ that satisfies the relations
 
 (18) $\varphi ($A diag($\lambda_1, . . . , \lambda_n$)) $=\varphi ($A$)\pi (\lambda_1\cdots \lambda_n)$,
 
@@ -354,7 +354,7 @@ Let $\sigma$ be a permutation of the interval $[1, n]$ in $\mathbf{N}$, with sig
 
 #### Example 3 {#alg-viii-a2-n4-exa-3 .statement tag=00Q9}
 
-Suppose $n\geqslant 1$. For every invertible diagonal matrix of the form ∆ = diag($d_1, . . . , d_n$), we have ∆$B_{ij}(\lambda$)∆$^{-1}=B_{ij}(d_i\lambda d^{-1}_j)$. Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$. By Corollary 1 of II, §10, No. 13, p. 362 and the previous formula, there exist matrices P and ∆ in $\mathbf{G}\mathbf{L}_n(D)$ such that A = P∆, that P is the product of matrices of the form $B_{ij}(\lambda )$, and that ∆ is a diagonal matrix of the form diag(1$, . . . ,1, d)$. We have det(P) = 1 by Example 1, and therefore det(A) = det(∆) $=\pi (d)$ by Proposition 3.
+Suppose $n\geqslant 1$. For every invertible diagonal matrix of the form Δ = diag($d_1, . . . , d_n$), we have Δ$B_{ij}(\lambda$)Δ$^{-1}=B_{ij}(d_i\lambda d^{-1}_j)$. Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$. By Corollary 1 of II, §10, No. 13, p. 362 and the previous formula, there exist matrices P and Δ in $\mathbf{G}\mathbf{L}_n(D)$ such that A = PΔ, that P is the product of matrices of the form $B_{ij}(\lambda )$, and that Δ is a diagonal matrix of the form diag(1$, . . . ,1, d)$. We have det(P) = 1 by Example 1, and therefore det(A) = det(Δ) $=\pi (d)$ by Proposition 3.
 
 #### Example 4 {#alg-viii-a2-n4-exa-4 .statement tag=00QA}
 

@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 733b2add44757258260d50e930d42f4633a7cd8bc25e4635cbb4b6acf30795e5
+content_sha256: 4087a45fc0dcb54dd178194f7c64b217b51cd06178db75ad302d42e750d9573b
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -731,13 +731,13 @@ $$
 \delta (T) = (1 + T\omega_1)\cdots (1 + T\omega_{d_{\lambda}})
 $$
 
-We define $\delta '(T)$ likewise, and we denote the eigenvalues of $\pi_{\lambda'}(g)$ by $\omega '_1, . . . , \omega '_{d_{\lambda'}}$. The $\mathscr{O}$-module $\mathscr{O}[G]$ is free with basis G, and the K-vector space K[G] has basis G. Denote by ∆(T) the determinant of multiplication by $1 +e_{\lambda}gT$ in the $\mathscr{O}$[T]-module $\mathscr{O}[T]\otimes_{\mathscr{O}}\mathscr{O}[G]$. It is also the determinant of multiplication by $1 +e_{\lambda}gT$ in the K[T]-module $K[T]\otimes_KK[G]$. Let $\varphi_1$ be the homomorphism from $\mathscr{O}[T]$ to $K'[T]$ that extends $\varphi_1$ and sends T to T. Since G is a basis of the $K'$-vector space $K'[G]$, the polynomial $\varphi_1$(∆(T)) is equal to the determinant ∆$'(T)$ of multiplication by $1 +e_{\lambda'}gT$ in the $K'$-vector space $K'[G]$.
+We define $\delta '(T)$ likewise, and we denote the eigenvalues of $\pi_{\lambda'}(g)$ by $\omega '_1, . . . , \omega '_{d_{\lambda'}}$. The $\mathscr{O}$-module $\mathscr{O}[G]$ is free with basis G, and the K-vector space K[G] has basis G. Denote by Δ(T) the determinant of multiplication by $1 +e_{\lambda}gT$ in the $\mathscr{O}$[T]-module $\mathscr{O}[T]\otimes_{\mathscr{O}}\mathscr{O}[G]$. It is also the determinant of multiplication by $1 +e_{\lambda}gT$ in the K[T]-module $K[T]\otimes_KK[G]$. Let $\varphi_1$ be the homomorphism from $\mathscr{O}[T]$ to $K'[T]$ that extends $\varphi_1$ and sends T to T. Since G is a basis of the $K'$-vector space $K'[G]$, the polynomial $\varphi_1(\Delta (T))$ is equal to the determinant $\Delta '(T)$ of multiplication by $1 +e_{\lambda'}gT$ in the $K'$-vector space $K'[G]$.
 
-The algebra K[G] is the direct sum of its simple components $e_\mu K[G]$ for $\mu$ running through $\mathscr{S}_K(G)$. For $\mu$ different from $\lambda$, the element $e_{\lambda}g$ annihilates $e_\mu K[G]$. Moreover, multiplication by $e_{\lambda}g$ coincides with multiplication by $g$ in $e_{\lambda}K[G]$. In view of VIII, p. 409 and Example 6 of VIII, p. 400, the representation of G in $e_{\lambda}K[G]$ is the direct sum of $d_{\lambda}$ representations of class $\lambda$. We consequently have ∆(T) $=\delta (T)^{d_{\lambda}}$.
+The algebra K[G] is the direct sum of its simple components $e_\mu K[G]$ for $\mu$ running through $\mathscr{S}_K(G)$. For $\mu$ different from $\lambda$, the element $e_{\lambda}g$ annihilates $e_\mu K[G]$. Moreover, multiplication by $e_{\lambda}g$ coincides with multiplication by $g$ in $e_{\lambda}K[G]$. In view of VIII, p. 409 and Example 6 of VIII, p. 400, the representation of G in $e_{\lambda}K[G]$ is the direct sum of $d_{\lambda}$ representations of class $\lambda$. We consequently have $\Delta (T) =\delta (T)^{d_{\lambda}}$.
 
-Analogously, we have ∆$'(T) =\delta '(T)^{d_{\lambda'}}$.
+Analogously, we have $\Delta '(T) =\delta '(T)^{d_{\lambda'}}$.
 
-From the relation ∆$'(T) =\varphi_1$(∆(T)), we deduce first that $d^2_{\lambda}=d^2_{\lambda'}$, and therefore $d_{\lambda}=d_{\lambda'}$, and then that the sequence $\varphi (\omega_1), . . . , \varphi (\omega_{d_{\lambda}})$ can be deduced from the sequence $(\omega '_1, . . . , \omega '_{d'_{\lambda'}})$ by a permutation of the set of indices.
+From the relation $\Delta '(T) =\varphi_1$(Δ(T)), we deduce first that $d^2_{\lambda}=d^2_{\lambda'}$, and therefore $d_{\lambda}=d_{\lambda'}$, and then that the sequence $\varphi (\omega_1), . . . , \varphi (\omega_{d_{\lambda}})$ can be deduced from the sequence $(\omega '_1, . . . , \omega '_{d'_{\lambda'}})$ by a permutation of the set of indices.
 
 Since this is true for every element $g$ of G, the representations $\lambda$ and $\lambda '$ are related. We have therefore proved Proposition 10 when the field K has characteristic 0.
 

@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: be48c90b37dbb439654012570f259025b8009ba963cbd3f5e9a9c2d8389bdf5b
+content_sha256: dfc283af858516b9a560ae62b85ef070adea34c36f3c66f448de31a3f3498b66
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -387,21 +387,21 @@ $G\times G^{\delta\times Id}/$/ $G\times G\times GF\times F^m$ // F
 
 and from Corollary 2 of VIII, p. 288; Corollary 2 of VIII, p. 291; and Proposition 3 of VIII, p. 292.
 
-Let ∆$: F\rightarrow F\times F$ be the diagonal mapping $f\mapsto (f, f)$. Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension. Let $\widetilde{\Delta} : \Gamma \rightarrow \Gamma \times_G\Gamma$ be the group homomorphism given by $\gamma \mapsto (\gamma , \gamma )$. The following diagram commutes:
+Let $\Delta  : F\rightarrow F\times F$ be the diagonal mapping $f\mapsto (f, f)$. Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension. Let $\widetilde{\Delta} : \Gamma \rightarrow \Gamma \times_G\Gamma$ be the group homomorphism given by $\gamma \mapsto (\gamma , \gamma )$. The following diagram commutes:
 
 F $^{\iota}$ // Γ $^{\pi}$ // G
 
-∆ $\widetilde{\Delta}$
+Δ $\widetilde{\Delta}$
 
 $F\times F$ // $\Gamma \times_G\Gamma$ // G .
 
-By Proposition 2 of VIII, p. 290, it follows that the $(\tau \times \tau )\circ \delta$-extension $\delta^*(\mathscr{E}\times \mathscr{E})$ is isomorphic to ∆$_*(\mathscr{E})$.
+By Proposition 2 of VIII, p. 290, it follows that the $(\tau \times \tau )\circ \delta$-extension $\delta^*(\mathscr{E}\times \mathscr{E})$ is isomorphic to $\Delta_*(\mathscr{E})$.
 
-Denote by $c: F\rightarrow F$ the constant homomorphism $f\mapsto 1$. by Example 1 of VIII, p. 292, the fact that $\mathscr{I}_{\tau}$ is an identity element for this law of composition follows from the isomorphism from $\delta^*(\mathscr{E}\times \mathscr{E})$ to ∆$_*(\mathscr{E})$ and the commutative diagram
+Denote by $c: F\rightarrow F$ the constant homomorphism $f\mapsto 1$. by Example 1 of VIII, p. 292, the fact that $\mathscr{I}_{\tau}$ is an identity element for this law of composition follows from the isomorphism from $\delta^*(\mathscr{E}\times \mathscr{E})$ to $\Delta_*(\mathscr{E})$ and the commutative diagram
 
 $F^{(Id_F\times c)\circ\Delta}/$/ $F\times F$
 
-Id$_F$ $(c\times$Id$_F)\circ$∆ $m$
+Id$_F$ $(c\times$Id$_F)\circ \Delta m$
 
 $_m$ &&//
 
@@ -415,7 +415,7 @@ $$
 c
 $$
 
-$(s\times$Id$_F)\circ$∆ $m$
+$(s\times$Id$_F)\circ \Delta m$
 
 $_m$ &&//
 
@@ -1015,11 +1015,11 @@ $$
 
 Since we have Card($\sigma$ ) $= (G : G_{\mathfrak{m}})$, we have proved the equality $[L_{\sigma}: K] =$ $[F_{\mathfrak{m}}: K]$.
 
-We now suppose, furthermore, that the homomorphism $\lambda$ from G to Aut$_K(L)$ is injective. We identify K with its image in L through the mapping $\xi \mapsto \xi \cdot 1$. Let Ω be an algebraically closed extension of K. The set $\mathscr{F}(G,\Omega)$ of mappings from G to Ω coincides with the coinduced $(\Omega$, G)-algebra Coind$^G_{\{e\}}(\Omega)$. It is a free Ω[G]-module of rank 1. Let $\mathscr{H}$ be the set of K-algebra homomorphisms from L to Ω. We define a right action of G on $\mathscr{H}$ by $(g, \chi )\mapsto \chi \circ \lambda (g)$. The Ω-algebra $\mathscr{F}(\mathscr{H},\Omega)$ is then endowed with the structure of an $(\Omega$, G)-algebra deduced from the right action of G on $\mathscr{H}$.
+We now suppose, furthermore, that the homomorphism $\lambda$ from G to Aut$_K(L)$ is injective. We identify K with its image in L through the mapping $\xi \mapsto \xi \cdot 1$. Let Ω be an algebraically closed extension of K. The set $\mathscr{F}(G,\Omega )$ of mappings from G to Ω coincides with the coinduced $(\Omega$, G)-algebra Coind$^G_{\{e\}}(\Omega )$. It is a free Ω[G]-module of rank 1. Let $\mathscr{H}$ be the set of K-algebra homomorphisms from L to Ω. We define a right action of G on $\mathscr{H}$ by $(g, \chi )\mapsto \chi \circ \lambda (g)$. The Ω-algebra $\mathscr{F}(\mathscr{H},\Omega )$ is then endowed with the structure of an $(\Omega$, G)-algebra deduced from the right action of G on $\mathscr{H}$.
 
 #### Lemma 10 {#alg-viii-s16-lem-10 .statement tag=00J0}
 
-Let L be a $(K,G)$-algebra that is étale over K. The mapping $\psi$ from $L_{(\Omega)}$ to $\mathscr{F}(\mathscr{H},\Omega)$ characterized by the relation
+Let L be a $(K,G)$-algebra that is étale over K. The mapping $\psi$ from $L_{(\Omega )}$ to $\mathscr{F}(\mathscr{H},\Omega )$ characterized by the relation
 
 $$
 \psi (\xi \otimes x) = (\xi \chi (x))_{\chi\in\mathscr{H}}
@@ -1027,11 +1027,11 @@ $$
 
 is an isomorphism of $(K,G)$-algebras.
 
-Since L is étale, the mapping $\psi$ is an isomorphism of Ω-algebras (V, §6, No. 3, p. 30, Proposition 2 and V, §6, No. 3, p. 29, Proposition 1, c)). We have the relations
+Since L is étale, the mapping $\psi$ is an isomorphism of Ω-algebras (V, §6, No. 3, p. 30, Proposition 2 and V, §6, No. 3, p. 29, Proposition 1, c)). We have the relations
 
 $\psi$((Id $\otimes \lambda (g))(\xi \otimes x)) = (\xi (\chi \circ \lambda (g))(x))_{\chi\in\mathscr{H}}$
 
-for $\xi \in \Omega,x\in L$, and $g\in G$. So $\psi$ is a morphism of $(\Omega$, G)-algebras.
+for $\xi \in \Omega ,x\in L$, and $g\in G$. So $\psi$ is a morphism of $(\Omega$, G)-algebras.
 
 #### Theorem 2 {#alg-viii-s16-thm-2 .statement tag=00J1}
 
@@ -1041,7 +1041,7 @@ Let G be a finite group, and let L be a commutative K-algebra of finite degree e
 
 (ii) The algebra L is étale, and $\mathscr{H}$ is a homogeneous principal G-set (I, §5, No. 6, p. 60, Definition 7).
 
-(iii) There exists an isomorphism of $(\Omega,G)$-algebras $\psi : L_{(\Omega)}\rightarrow \mathscr{F}(G,\Omega)$; in other words, for every $g\in G$, the automorphism $\psi \circ \lambda (g)_{(\Omega)}\circ \psi^{-1}$ of $\Omega^G$ is equal to the automorphism
+(iii) There exists an isomorphism of $(\Omega ,G)$-algebras $\psi : L_{(\Omega )}\rightarrow \mathscr{F}(G,\Omega )$; in other words, for every $g\in G$, the automorphism $\psi \circ \lambda (g)_{(\Omega )}\circ \psi^{-1}$ of $\Omega^G$ is equal to the automorphism
 
 $$
 (x_h)_{h\in G}\longmapsto (x_{hg})_{h\in G}
@@ -1053,7 +1053,7 @@ $$
 
 (vi) The algebra L is reduced, the group G acts transitively on the set of maximal ideals of L, and, for every maximal ideal $\mathfrak{m}$ of L, the stabilizer $G_{\mathfrak{m}}$ of $\mathfrak{m}$ in G acts faithfully on $L/\mathfrak{m}$ and admits K as subfield of invariants.
 
-(i)$\Rightarrow$(ii): Let E be a Galois extension of K of finite degree and $\tau$ an isomorphism from H to Aut$_K(E)$. Let S be a system of representatives of the right cosets of G modulo H. The K-algebra F = Coind$^G_H(E)$ is isomorphic to $\mathscr{F}(S,E)$ (Lemma 7, a)); it is therefore étale. We denote by $\lambda_F$ the action of G on F. Furthermore, let $\psi$ be a K-algebra homomorphism from E to Ω, and let $\chi_0$ be the homomorphism $f\mapsto \psi (f(e))$ from F to Ω. Let $g\in G$ be such that we have $\chi_0\circ \lambda_F(g) =\chi_0$; since $\psi$ is injective, we then have $f(g) =f(e)$ for every $f\in F$. In view of Lemma 7, a), we have $g\in H$, and by the formula
+(i)$\Rightarrow$(ii): Let E be a Galois extension of K of finite degree and $\tau$ an isomorphism from H to Aut$_K(E)$. Let S be a system of representatives of the right cosets of G modulo H. The K-algebra F = Coind$^G_H(E)$ is isomorphic to $\mathscr{F}(S,E)$ (Lemma 7, a)); it is therefore étale. We denote by $\lambda_F$ the action of G on F. Furthermore, let $\psi$ be a K-algebra homomorphism from E to Ω, and let $\chi_0$ be the homomorphism $f\mapsto \psi (f(e))$ from F to Ω. Let $g\in G$ be such that we have $\chi_0\circ \lambda_F(g) =\chi_0$; since $\psi$ is injective, we then have $f(g) =f(e)$ for every $f\in F$. In view of Lemma 7, a), we have $g\in H$, and by the formula
 
 $$
 f(h) =\tau (h)\cdot f(e) \tag{18}
@@ -1063,11 +1063,11 @@ which holds for every $h\in H$, this can only happen if $g=e$. On the other hand
 
 [F : K] = (G : H)[E : K] = (G : H) Card(H) = Card(G).
 
-The set $\mathscr{K}$ of K-homomorphisms from F to Ω has cardinal [F : K] because F is étale (V, §6, No. 5, p. 32, Proposition 4), so Card($\mathscr{K}$) $=$ Card(G). Since the stabilizer of $\chi_0$ in G is equal to $\{e\}$ by the above, $\mathscr{K}$ is a homogenous principal G-set.
+The set $\mathscr{K}$ of K-homomorphisms from F to Ω has cardinal [F : K] because F is étale (V, §6, No. 5, p. 32, Proposition 4), so Card($\mathscr{K}$) $=$ Card(G). Since the stabilizer of $\chi_0$ in G is equal to $\{e\}$ by the above, $\mathscr{K}$ is a homogenous principal G-set.
 
-(ii)$\Rightarrow$(iii): Suppose that L is étale and that $\mathscr{H}$ is a homogenous principal G-set. By Lemma 10, the $(\Omega$, G)-algebras $L_{(\Omega)}$ and $\mathscr{F}(\mathscr{H},\Omega)$ are isomorphic. Since $\mathscr{H}$ is a homogenous principal G-set, the $(\Omega$, G)-algebras $\mathscr{F}(\mathscr{H},\Omega)$ and $\mathscr{F}(G,\Omega)$ are isomorphic.
+(ii)$\Rightarrow$(iii): Suppose that L is étale and that $\mathscr{H}$ is a homogenous principal G-set. By Lemma 10, the $(\Omega$, G)-algebras $L_{(\Omega )}$ and $\mathscr{F}(\mathscr{H},\Omega )$ are isomorphic. Since $\mathscr{H}$ is a homogenous principal G-set, the $(\Omega$, G)-algebras $\mathscr{F}(\mathscr{H},\Omega )$ and $\mathscr{F}(G,\Omega )$ are isomorphic.
 
-(iii)$\Rightarrow$(iv): Suppose that property (iii) holds. Then $L_{(\Omega)}$ is a free module of rank 1 over the algebra Ω[G]; the latter can be canonically identified with $K[G]_{(\Omega)}$. We then apply Theorem 3 of VIII, p. 37.
+(iii)$\Rightarrow$(iv): Suppose that property (iii) holds. Then $L_{(\Omega )}$ is a free module of rank 1 over the algebra Ω[G]; the latter can be canonically identified with $K[G]_{(\Omega )}$. We then apply Theorem 3 of VIII, p. 37.
 
 The implication (iv)$\Rightarrow$(v) is immediate.
 
@@ -1079,7 +1079,7 @@ It remains to prove the implication (vi)$\Rightarrow$(i). Let $\mathfrak{m}$ be 
 
 #### Remark 2 {#alg-viii-s16-n7-rem-2 .statement tag=00J2}
 
-In Theorem 2, we can replace the assumption that Ω is algebraically closed with the assumption that Ω is separably closed. Indeed, if L is étale, then the image of every K-algebra homomorphism from L to Ω is a separable extension of K.
+In Theorem 2, we can replace the assumption that Ω is algebraically closed with the assumption that Ω is separably closed. Indeed, if L is étale, then the image of every K-algebra homomorphism from L to Ω is a separable extension of K.
 
 #### Remark 3 {#alg-viii-s16-n7-rem-3 .statement tag=00J3}
 
@@ -1121,13 +1121,13 @@ Now suppose that the field K has characteristic $p\not= 0$. Let $c$ be an elemen
 
 Let P be the additive group of the prime subfield of K; it is a cyclic group of order $p$, generated by the unit element 1 of K. For every $j$ in P, we have $j^p=j$ (V, §1, No. 3, p. 4, formula (4)) and therefore $f(X +j) =f(X)$. Hence there exists an automorphism $\gamma (j)$ of the algebra L characterized by the relation $\gamma (j)(x) =x+j$; moreover, the resulting mapping $\gamma$ is an injective homomorphism from P to Aut$_K(L)$.
 
-Let Ω be an algebraically closed extension of K, and let $\xi$ be a root of the polynomial $f$ in Ω. We have $\xi^p=\xi +c$, hence
+Let Ω be an algebraically closed extension of K, and let $\xi$ be a root of the polynomial $f$ in Ω. We have $\xi^p=\xi +c$, hence
 
 $$
 X^p-X-c= (X^p-\xi^p)-(X-\xi ) = (X-\xi )^p-(X-\xi ) =\prod_{j\in P}(X-\xi -j)
 $$
 
-by V, §12, No. 1, p. 94, formula (1). For every $j$ in P, there exists a unique algebra homomorphism $\chi_j: L\rightarrow \Omega$ that sends $x$ to $\xi +j$; moreover, every homomorphism from L to Ω is one of the $\chi_j$, and we have the relation $\chi_j=\chi_0\circ \gamma (j)$. The algebra L endowed with $\gamma$ has property (ii) of Theorem 2 of VIII, p. 308 and is therefore a Galois algebra over K.
+by V, §12, No. 1, p. 94, formula (1). For every $j$ in P, there exists a unique algebra homomorphism $\chi_j: L\rightarrow \Omega$ that sends $x$ to $\xi +j$; moreover, every homomorphism from L to Ω is one of the $\chi_j$, and we have the relation $\chi_j=\chi_0\circ \gamma (j)$. The algebra L endowed with $\gamma$ has property (ii) of Theorem 2 of VIII, p. 308 and is therefore a Galois algebra over K.
 
 To describe the structure of L, we must distinguish between two cases:
 
