@@ -1,0 +1,11 @@
+# Where a printing is wrong. Written by hand, read by bourbaki assemble.
+# The printed words stay as they are in content/ and the correction lives here.
+errata:
+    - label: alg-viii-s1-ex-3
+      lang: en
+      errata:
+        - says: K is finite-dimensional over $K'$
+          read: K is infinite-dimensional over $K'$
+          why: The right ideals of A are the $K'$-subspaces of K, so the deduction the
+            exercise asks for holds exactly when K is infinite over $K'$, and the French
+            of 1981 (A VIII.13) reads "de dimension infinie sur $K'$".
