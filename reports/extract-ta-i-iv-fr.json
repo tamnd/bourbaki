@@ -1,13 +1,14 @@
 {
   "book": "ta-i-iv-fr",
   "pages": 512,
-  "clean": 489,
-  "flagged": 21,
+  "clean": 488,
+  "flagged": 22,
   "empty": 2,
   "reasons": {
     "drawn-rule": 6,
     "dropped-glyph": 1,
     "empty": 2,
+    "stacked-rows": 2,
     "tall-delimiter": 14
   },
   "flagged_pages": [
@@ -49,6 +50,13 @@
       "page_label": "A I.145",
       "flags": [
         "drawn-rule"
+      ]
+    },
+    {
+      "pdf_page": 204,
+      "page_label": "A II.188",
+      "flags": [
+        "stacked-rows"
       ]
     },
     {
@@ -111,7 +119,8 @@
       "pdf_page": 378,
       "page_label": "A IV.362",
       "flags": [
-        "tall-delimiter"
+        "tall-delimiter",
+        "stacked-rows"
       ]
     },
     {
