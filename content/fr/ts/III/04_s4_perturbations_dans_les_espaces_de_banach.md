@@ -37,7 +37,7 @@ subsections:
       pdf_page: 81
 statements: 30
 exercises: 9
-content_sha256: e70bcc80ce37bfaf0b78b261679af7c958fdbc5f329415b8aa2d46bced3b96a6
+content_sha256: 3034914291c3b3e88fbd6d2ddbfafa9c04705aaedafb3bd071cd2af733c2150f
 ---
 
 ## § 4. PERTURBATIONS DANS LES ESPACES DE BANACH
@@ -108,7 +108,7 @@ Par définition, $\mathscr{I}(E; E)$ est l’ensemble des éléments inversibles
 
 Si l’ensemble $\mathscr{I}(E; F)$ est vide, il est ouvert. Sinon, soit $u_0$ un isomorphisme de E sur F. L’application $v\mapsto u_0\circ v$ est alors un isomorphisme de $\mathscr{L}(E)$ sur $\mathscr{L}(E; F)$ qui transforme $\mathscr{I}(E; E)$ en $\mathscr{I}(E; F)$. L’ensemble $\mathscr{I}(E; F)$ est donc ouvert dans $\mathscr{L}(E; F)$. De plus, si $u=u_0\circ v$ est un élément de $\mathscr{I}(E; F)$, on a $u^{-1}=v^{-1}\circ u^{-1}_0$, et l’application $u\mapsto u^{-1}$ de $\mathscr{I}(E; F)$ sur $\mathscr{I}(F; E)$ est donc analytique.
 
-Soit $F_1$ un sous-espace vectoriel fermé de F. Pour tout $u\in \mathscr{L}(E; F)$, soit $u$ l’élément de $\mathscr{L}(E\times F_1; F)$ défini par $u(x, y) =u(x) +y$. L’application $u\mapsto u$ de $\mathscr{L}(E; F)$ dans $\mathscr{L}(E\times F_1; F)$ est continue, et $\mathscr{M}_{F_1}(E; F)$ est l’ensemble des éléments $u$ de $\mathscr{L}(E; F)$ tels que $u$ appartienne à $\mathscr{I}(E\times F_1; F)$. Comme $\mathscr{I}(E\times F_1; F)$ est ouvert dans $\mathscr{L}(E\times F_1; F)$ d’après ce qui précède, l’ensemble $\mathscr{M}_{F_1}(E; F)$ est ouvert dans $\mathscr{L}(E; F)$. Il en est de même de $\mathscr{M} \mathscr{D}(E; F)$, qui est la réunion des $\mathscr{M}_{F_1}(E; F)$ lorsque $F_1$ parcourt l’ensemble des sous-espaces vectoriels fermés de F.
+Soit $F_1$ un sous-espace vectoriel fermé de F. Pour tout $u\in \mathscr{L}(E; F)$, soit $\overline{u}$ l’élément de $\mathscr{L}(E\times F_1; F)$ défini par $\overline{u}(x, y) =u(x) +y$. L’application $u\mapsto \overline{u}$ de $\mathscr{L}(E; F)$ dans $\mathscr{L}(E\times F_1; F)$ est continue, et $\mathscr{M}_{F_1}(E; F)$ est l’ensemble des éléments $u$ de $\mathscr{L}(E; F)$ tels que $\overline{u}$ appartienne à $\mathscr{I}(E\times F_1; F)$. Comme $\mathscr{I}(E\times F_1; F)$ est ouvert dans $\mathscr{L}(E\times F_1; F)$ d’après ce qui précède, l’ensemble $\mathscr{M}_{F_1}(E; F)$ est ouvert dans $\mathscr{L}(E; F)$. Il en est de même de $\mathscr{M} \mathscr{D}(E; F)$, qui est la réunion des $\mathscr{M}_{F_1}(E; F)$ lorsque $F_1$ parcourt l’ensemble des sous-espaces vectoriels fermés de F.
 
 Soit $E_1$ un sous-espace vectoriel fermé de E, et soit $p$ l’application canonique de E sur l’espace de Banach quotient $E/E_1$. Pour qu’un élément $u$ de $\mathscr{L}(E; F)$ appartienne à $\mathscr{E}_{E_1}(E; F)$, il faut et il suffit que l’application $(u, p)$ de E dans $F\times E/E_1$ appartienne à $\mathscr{I}(E; F\times E/E_1)$. Comme précédemment, on en déduit que $\mathscr{E}_{E_1}(E; F)$ est ouvert dans $\mathscr{L}(E; F)$; il en est de même de $\mathscr{E} \mathscr{D}(E; F)$, qui est la réunion des $\mathscr{E}_{E_1}(E; F)$.
 
@@ -214,7 +214,7 @@ $$
 
 $y\not =0$
 
-la borne supérieure étant prise dans $\mathbf{R}_+$. On appelle conorme de $u$ le nombre
+la borne supérieure étant prise dans $\overline{\mathbf{R}}_+$. On appelle conorme de $u$ le nombre
 
 $$
 \|\widetilde{u}(y)\|
@@ -228,7 +228,7 @@ $$
 
 $y\not =0$
 
-la borne inférieure étant prise dans $\mathbf{R}_+$. On a donc
+la borne inférieure étant prise dans $\overline{\mathbf{R}}_+$. On a donc
 
 $$
 ((u))\|y\|\leqslant \|\widetilde{u}(y)\|\leqslant \|u\| \|y\| \tag{5}
@@ -292,7 +292,7 @@ C’est une conséquence des formules (2) et (5) et de la définition de la cono
 
 Soient E et F des espaces normés et $u\in \mathscr{L}(E; F)$. Notons B l’ensemble des éléments de E de norme $<1$. Posons
 
-$P =u(E)-u(B),Q =u(E)$ - $(u(B)\cap u(E))$.
+$P =u(E)-u(B),Q =u(E)$ - $(\overline{u(B)}\cap u(E))$.
 
 La conorme de $u$ est égale à la distance de 0 à P dans F. Si l’espace normé E est complet ou si $u$ est un morphisme strict, la conorme de $u$ est égale à la distance de 0 à Q dans F.
 
@@ -310,11 +310,11 @@ $y\in E/Ny\in E/N$ $\|y\|\geqslant 1\|y\|=1$ d’après (6).
 
 Supposons que $u$ soit un morphisme strict. Soit $\varepsilon  >0$. L’ensemble $\varepsilon u(B)$ est un voisinage de 0 dans $u(E)$. L’adhérence de $u(B)$ dans $u(E)$ est égale à $u(B)\cap u(E)$. Elle est contenue dans l’ensemble $u(B) +\varepsilon u(B)$ qui est égal à $(1 +\varepsilon )u(B)$ puisque $u(B)$ est convexe. On a par suite $(1 +\varepsilon )P\subset Q\subset P$ et la distance $d_Q$ de 0 à Q dans F satisfait aux inégalités $d_P\leqslant d_Q\leqslant (1 +\varepsilon )d_P$. Puisque ceci a lieu pour tout $\varepsilon  >0$, on a $d_Q=d_P= ((u))$.
 
-Supposons que $u$ ne soit pas un morphisme strict, mais que l’espace normé E soit complet. On a alors $((u)) = 0$ (remarque ci-dessus). L’adhérence de $u(B)$ dans $u$(E), qui est égale à $u(B)\cap u$(E), n’est pas un voisinage de 0 dans $u(E)$ (EVT, I, p. 17, th. 1). Il existe alors des points de Q arbitrairement proches de 0, d’où $d_Q= 0 = ((u))$.
+Supposons que $u$ ne soit pas un morphisme strict, mais que l’espace normé E soit complet. On a alors $((u)) = 0$ (remarque ci-dessus). L’adhérence de $u(B)$ dans $u$(E), qui est égale à $\overline{u(B)}\cap u$(E), n’est pas un voisinage de 0 dans $u(E)$ (EVT, I, p. 17, th. 1). Il existe alors des points de Q arbitrairement proches de 0, d’où $d_Q= 0 = ((u))$.
 
 #### Proposition 7 {#ts-iii-s4-prop-7 .statement tag=02SU}
 
-Soient E un espace de Banach et F un espace normé. L’application $u\mapsto ((u))$ de $\mathscr{L}(E; F)$ dans $\mathbf{R}$ est semi-continue supérieurement.
+Soient E un espace de Banach et F un espace normé. L’application $u\mapsto ((u))$ de $\mathscr{L}(E; F)$ dans $\overline{\mathbf{R}}$ est semi-continue supérieurement.
 
 Soit $u\in \mathscr{L}(E; F)$. Il s’agit de prouver que pour tout nombre réel $c >((u))$, l’ensemble des éléments $v\in \mathscr{L}(E; F)$ tels que $((v))< c$ est un voisinage de $u$. Notons B l’ensemble des éléments de E de norme $<1$. D’après la prop. 6, il existe $y\in E$ tel que $u(y)\in /u(B)$ et $\|u(y)\|< c$. La distance $d$ de $u(y)$ à l’ensemble fermé $u(B)$ est strictement positive. L’ensemble V des éléments $v$ de $\mathscr{L}(E; F)$ vérifiant les relations $\|v(y)\|< c$ et $\|u-v\|(1 +\|y\|)< d$ est un voisinage de $u$ dans $\mathscr{L}(E; F)$. Soit $v\in V$. Pour tout $x\in B$, on a
 
@@ -432,7 +432,7 @@ $$
 
 ### 6. Perturbations des applications linéaires continues injectives ou surjectives
 
-Dans ce numéro, on adopte les conventions suivantes : si E est un espace vectoriel de dimension finie, dim(E) désigne sa dimension ; si E est un espace vectoriel de dimension infinie, on pose dim(E) $= +\infty  \in \mathbf{R}$. Si $u$ est une application linéaire dont le noyau ou le conoyau est de dimension finie, on pose ind($u$) $=$ dim Coker($u$)$-$ dim Ker($u$), le calcul étant effectué dans $\mathbf{R}$.
+Dans ce numéro, on adopte les conventions suivantes : si E est un espace vectoriel de dimension finie, dim(E) désigne sa dimension ; si E est un espace vectoriel de dimension infinie, on pose dim(E) $= +\infty  \in \overline{\mathbf{R}}$. Si $u$ est une application linéaire dont le noyau ou le conoyau est de dimension finie, on pose ind($u$) $=$ dim Coker($u$)$-$ dim Ker($u$), le calcul étant effectué dans $\overline{\mathbf{R}}$.
 
 Soient E et F des espaces normés. On note $\mathscr{M}(E; F)$ l’ensemble des morphismes stricts injectifs de E dans F, et $\mathscr{Q}\mathscr{M}(E; F)$ l’ensemble des morphismes stricts de E dans F dont le noyau est de dimension finie.
 

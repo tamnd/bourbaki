@@ -41,12 +41,12 @@ subsections:
       pdf_page: 147
 statements: 46
 exercises: 27
-content_sha256: 53fb34891002fe609aad115437b2e0765938e621f5fa52c239562d684f221521
+content_sha256: 3e2eaae9926db4e4e532af9b018fb890a7872f5a03957b776cc228f5495daf57
 ---
 
 ## § 7. FINITE DIMENSIONAL MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
 
-In this paragraph, we retain the general notations of §6. We denote by P (resp. Q) the group of weights of R (resp. radical weights of R). We denote by $P_+$ (resp. $Q_+)$ the set of elements of P (resp. Q) that are positive for the order relation defined by B. We denote by $P_{++}$ the set of dominant weights of R relative to B (Chap. VI, §1, no. 10). An element $\lambda$ of $\mathfrak{h}^*$ belongs to P (resp. to $P_{++})$ if and only if all the $\lambda (H_{\alpha}),\alpha \in B$, are integers (resp. integers $\geq 0)$. We have $P_{++}\subset P_+$ (Chap. VI, §1, no. 6). If $w\in W$, we denote by $\varepsilon (w)$ the determinant of $w$, which is equal to 1 or $-1$. We put $\rho =^1_2\sum_{\alpha\in R_+}\alpha$.
+In this paragraph, we retain the general notations of §6. We denote by P (resp. Q) the group of weights of R (resp. radical weights of R). We denote by $P_+$ (resp. $Q_+)$ the set of elements of P (resp. Q) that are positive for the order relation defined by B. We denote by $P_{++}$ the set of dominant weights of R relative to B (Chap. VI, §1, no. 10). An element $\lambda$ of $\mathfrak{h}^*$ belongs to P (resp. to $P_{++})$ if and only if all the $\lambda (H_{\alpha}),\alpha \in B$, are integers (resp. integers $\geq 0)$. We have $P_{++}\subset P_+$ (Chap. VI, §1, no. 6). If $w\in W$, we denote by $\varepsilon (w)$ the determinant of $w$, which is equal to 1 or $-1$. We put $\rho =\frac{1}{2}\sum_{\alpha\in R_+}\alpha$.
 
 ### 1. WEIGHTS OF A FINITE DIMENSIONAL SIMPLE $\mathfrak{g}$-MODULE
 

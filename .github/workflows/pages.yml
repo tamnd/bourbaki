@@ -99,11 +99,27 @@ jobs:
       # same reading puts back the label written over an arrow, so the exact
       # sequences of chapter VIII and of Lie 7 to 9 now say what they print
       # instead of scattering the label into the scripts on either side.
+      #
+      # 25 to 23, 41 to 27, 19 to 18 and 80 to 74 once the drawn rules of a page
+      # were read. A fraction set inline and a bar drawn over a letter are the
+      # two shapes TeX makes with a path rather than a glyph, so neither is in
+      # the text layer at all: the numerator goes where a superscript goes, the
+      # denominator where a subscript goes, and an overline leaves no trace, so
+      # a page hands back f where it printed f bar. poppler does report the
+      # paths, and the extractor now takes the ones drawn under 0.8 point, gives
+      # each to the line it stands across, and reads what is above and below the
+      # span. The bar over an index is told from a fraction by the room TeX
+      # leaves beside one: a rule that starts at the end of the run in front of
+      # it is a bar over an index with the exponent of that same base beside it,
+      # and a rule that starts clear of it is a fraction. Over the six volumes
+      # the reading adds 718 overlines and 159 fractions, and on all 873 lines
+      # it touches the characters are the same before and after, so the whole of
+      # it is a re-bracketing.
       - name: publish -check
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=25,fr/alg=19,en/lie=41,fr/ta=33,fr/ts=80
+        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=23,fr/alg=18,en/lie=27,fr/ta=33,fr/ts=74
 
       # Where Pages will serve this from, asked rather than typed, so the links
       # are right under tamnd.github.io/bourbaki and under a custom domain both.

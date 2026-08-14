@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: 948b9c12167d638d59551289e0175d3b8b39effc06c957faddbdcd476e509d48
+content_sha256: 74444701bf42664dbffeed208098ca0ae43cd77175c341ba1c7caedca7698a34
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -812,7 +812,7 @@ $$
 
 Prenons en particulier $M = A_s$; alors $f^*(A_s) = B\otimes_AA_s$ est isomorphe à $B_s$ (II, p. 56), d’où
 
-(30) $i(f) =$ long(B)$/$ long(A). D’après le théorème de Wedderburn (VIII, p. 116, th. 1), il existe des entiers $m\geqslant 1$ et $n\geqslant 1$ et des corps D et E tels que A soit isomorphe à $\mathbf{M}_m(D)$ et B à $\mathbf{M}_n(E)$; d’après la formule (30), on a $i(f) =_m^n$ et en particulier $m$ divise $n$.
+(30) $i(f) =$ long(B)$/$ long(A). D’après le théorème de Wedderburn (VIII, p. 116, th. 1), il existe des entiers $m\geqslant 1$ et $n\geqslant 1$ et des corps D et E tels que A soit isomorphe à $\mathbf{M}_m(D)$ et B à $\mathbf{M}_n(E)$; d’après la formule (30), on a $i(f) =\frac{n}{m}$ et en particulier $m$ divise $n$.
 
 Soit N un B-module ; notons $\mathfrak{a}$ sa longueur. Alors N est isomorphe à $T^{(\mathfrak{a})}$, donc le A-module $f_*(N)$ est isomorphe à $f_*(T)^{(\mathfrak{a})}$; par définition de $h(f)$, on a
 

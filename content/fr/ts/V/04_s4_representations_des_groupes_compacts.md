@@ -49,7 +49,7 @@ subsections:
       pdf_page: 489
 statements: 54
 exercises: 32
-content_sha256: c561adb0f772f5021d6654d53bfec18e218f5160fc228e520ae87d7a9f68b20c
+content_sha256: e596c967e84814ccbf6dba26b7868c5e0f72447e01978c68df4b482a1466f4db
 ---
 
 ## § 4. REPRÉSENTATIONS DES GROUPES COMPACTS
@@ -200,14 +200,14 @@ d’où l’assertion b). L’assertion c) résulte également de a) et du lemme
 
 #### Corollaire 5 {#ts-v-s4-prop-2-cor-5 .statement tag=03DW}
 
-Soient $\pi_1$ et $\pi_2$ des représentations unitaires irréductibles de G. On a $\pi_1(\chi_{\pi_2}) = 0$ si $\pi_1$ n’est pas isomorphe à $\pi_2$, et $\pi_1(\chi_{\pi_1})$ est la multiplication par $1/$ dim($\pi_1$).
+Soient $\pi_1$ et $\pi_2$ des représentations unitaires irréductibles de G. On a $\pi_1(\overline{\chi}_{\pi_2}) = 0$ si $\pi_1$ n’est pas isomorphe à $\pi_2$, et $\pi_1(\overline{\chi}_{\pi_1})$ est la multiplication par $1/$ dim($\pi_1$).
 
-Le caractère de $\pi_2$ est une fonction centrale continue sur G donc l’application linéaire $u$ = $\pi_1(\chi_{\pi_2})$ est définie et appartient à l’espace Hom$_G(\pi_1, \pi_1)$. C’est une homothétie d’après le lemme de Schur (prop. 6 de V, p. 386) dont la trace est
+Le caractère de $\pi_2$ est une fonction centrale continue sur G donc l’application linéaire $u$ = $\pi_1(\overline{\chi}_{\pi_2})$ est définie et appartient à l’espace Hom$_G(\pi_1, \pi_1)$. C’est une homothétie d’après le lemme de Schur (prop. 6 de V, p. 386) dont la trace est
 
-Tr($u$) $=$ Tr $\int_G\chi_{\pi_2}(g)\pi_1(g)d\mu(g)$
+Tr($u$) $=$ Tr $\int_G\overline{\chi_{\pi_2}(g)}\pi_1(g)d\mu(g)$
 
 $$
-=\int_G\chi_{\pi_2}(g)\chi_{\pi_1}(g)d\mu(g)
+=\int_G\overline{\chi_{\pi_2}(g)}\chi_{\pi_1}(g)d\mu(g)
 $$
 
 D’après les relations d’orthogonalité, la trace de $u$ est donc nulle si $\pi_1$ n’est pas isomorphe à $\pi_2$, et égale à 1 sinon. L’assertion en résulte.
@@ -258,9 +258,9 @@ Rappelons que la représentation unitaire birégulière de G est la représentat
 
 #### Proposition 5 {#ts-v-s4-prop-5 .statement tag=03E0}
 
-Soit $\pi \in \widehat{G}$. L’espace $\boldsymbol{\varrho }_G(\pi )$ est une sous-représentation de $\boldsymbol{\varrho }_G$ qui est isomorphe à $\pi \boxtimes \pi$. En particulier, c’est une représentation irréductible de $G\times G$.
+Soit $\pi \in \widehat{G}$. L’espace $\boldsymbol{\varrho }_G(\pi )$ est une sous-représentation de $\boldsymbol{\varrho }_G$ qui est isomorphe à $\overline{\pi}\boxtimes \pi$. En particulier, c’est une représentation irréductible de $G\times G$.
 
-D’après la prop. 7 de V, p. 422 (appliquée avec $Z =\{e\})$, l’espace $\boldsymbol{\varrho }_G(\pi )$ est une sous-représentation de $\boldsymbol{\varrho }_G$ et l’application linéaire de $E_{\pi}\otimes E_{\pi}$ dans $L^2(G)$ qui associe à $x\otimes y$ le coefficient matriciel $g\mapsto  \langle x|\pi (g)y\rangle$ est un $(G\times$ G)-isomorphisme de $\pi \boxtimes \pi$ dans $\boldsymbol{\varrho }_G(\pi )$. La sous-représentation $\boldsymbol{\varrho }_G(\pi )$ est donc irréductible (prop. 3 de V, p. 461).
+D’après la prop. 7 de V, p. 422 (appliquée avec $Z =\{e\})$, l’espace $\boldsymbol{\varrho }_G(\pi )$ est une sous-représentation de $\boldsymbol{\varrho }_G$ et l’application linéaire de $E_{\pi}\otimes E_{\pi}$ dans $L^2(G)$ qui associe à $x\otimes y$ le coefficient matriciel $g\mapsto  \langle x|\pi (g)y\rangle$ est un $(G\times$ G)-isomorphisme de $\overline{\pi}\boxtimes \pi$ dans $\boldsymbol{\varrho }_G(\pi )$. La sous-représentation $\boldsymbol{\varrho }_G(\pi )$ est donc irréductible (prop. 3 de V, p. 461).
 
 #### Théorème 1 (Peter–Weyl) {#ts-v-s4-thm-1 .statement tag=03E1}
 
@@ -270,13 +270,13 @@ Les espaces $\boldsymbol{\varrho }_G(\pi )$ sont deux à deux orthogonaux ; ce s
 
 #### Corollaire 1 {#ts-v-s4-thm-1-cor-1 .statement tag=03E2}
 
-Pour tout $\pi \in \widehat{G}$, la sous-représentation $\boldsymbol{\varrho }_G(\pi )$ est la composante $(\pi \boxtimes \pi )$-isotypique de $\boldsymbol{\varrho }_G$.
+Pour tout $\pi \in \widehat{G}$, la sous-représentation $\boldsymbol{\varrho }_G(\pi )$ est la composante $(\overline{\pi}\boxtimes \pi )$-isotypique de $\boldsymbol{\varrho }_G$.
 
-Soit F la composante $(\pi \boxtimes \pi$)-isotypique de $\boldsymbol{\varrho }_G$. L’espace F contient $\boldsymbol{\varrho }_G(\pi )$ (prop. 5). De plus, pour tout $\tau \in \widehat{G}$ différent de $\pi$, l’intersection de F et $\boldsymbol{\varrho }_G(\tau )$ est nulle (prop. 3 de V, p. 461). On en déduit que $F =\boldsymbol{\varrho }_G(\pi )$ en appliquant le théorème.
+Soit F la composante $(\overline{\pi}\boxtimes \pi$)-isotypique de $\boldsymbol{\varrho }_G$. L’espace F contient $\boldsymbol{\varrho }_G(\pi )$ (prop. 5). De plus, pour tout $\tau \in \widehat{G}$ différent de $\pi$, l’intersection de F et $\boldsymbol{\varrho }_G(\tau )$ est nulle (prop. 3 de V, p. 461). On en déduit que $F =\boldsymbol{\varrho }_G(\pi )$ en appliquant le théorème.
 
 #### Corollaire 2 {#ts-v-s4-thm-1-cor-2 .statement tag=03E3}
 
-Soient $\pi_1$ et $\pi_2$ des représentations irréductibles non isomorphes de G. La composante $(\pi_1\boxtimes \pi_2)$-isotypique de $\boldsymbol{\varrho }_G$ est nulle.
+Soient $\pi_1$ et $\pi_2$ des représentations irréductibles non isomorphes de G. La composante $(\overline{\pi}_1\boxtimes \pi_2)$-isotypique de $\boldsymbol{\varrho }_G$ est nulle.
 
 #### Corollaire 3 {#ts-v-s4-thm-1-cor-3 .statement tag=03E4}
 
@@ -284,11 +284,11 @@ La représentation régulière droite (resp. gauche) de G est isomorphe à la so
 
 $\pi \bigoplus\in \widehat{G}\pi$dim($\pi$ ).
 
-D’après le théorème et la proposition 5, la restriction de la représentation birégulière de G au sous-groupe $H =\{e\} \times G$ est isomorphe à la somme hilbertienne des restrictions à H des représentations $\pi \boxtimes \pi$ pour $\pi \in \widehat{G}$. Celles-ci sont isomorphes à la somme directe de dim($\pi$ ) copies de $\pi$ (lemme 8 de V, p. 384). Cela implique le résultat pour la représentation régulière droite, et le cas de la représentation régulière gauche est similaire.
+D’après le théorème et la proposition 5, la restriction de la représentation birégulière de G au sous-groupe $H =\{e\} \times G$ est isomorphe à la somme hilbertienne des restrictions à H des représentations $\overline{\pi}\boxtimes \pi$ pour $\pi \in \widehat{G}$. Celles-ci sont isomorphes à la somme directe de dim($\pi$ ) copies de $\pi$ (lemme 8 de V, p. 384). Cela implique le résultat pour la représentation régulière droite, et le cas de la représentation régulière gauche est similaire.
 
 #### Corollaire 4 {#ts-v-s4-thm-1-cor-4 .statement tag=03E5}
 
-Soit $\pi \in \widehat{G}$. La composante $\pi$-isotypique de $\boldsymbol{\delta }_G$ (resp. la composante $\pi$-isotypique de $\boldsymbol{\gamma }_G)$ est égale à $\boldsymbol{\varrho }_G(\pi )$.
+Soit $\pi \in \widehat{G}$. La composante $\pi$-isotypique de $\boldsymbol{\delta }_G$ (resp. la composante $\overline{\pi}$-isotypique de $\boldsymbol{\gamma }_G)$ est égale à $\boldsymbol{\varrho }_G(\pi )$.
 
 L’argument est similaire à celui du corollaire précédent, en considérant $\boldsymbol{\varrho }_G(\pi )$ comme sous-représentation de $\boldsymbol{\delta }_G$ (resp. de $\boldsymbol{\gamma }_G)$.
 
@@ -356,13 +356,13 @@ Soit $\pi$ une représentation continue irréductible de G dans un espace locale
 
 Soit $\varrho$ une représentation continue de G dans un espace localement convexe séparé quasi-complet E et soit $\pi$ une représentation continue irréductible de G.
 
-a) Le G-morphisme $p_{\pi}=$ dim($\pi$ )$\varrho (\chi_{\pi})$ de E dans E est un projecteur continu de E dont l’image est la composante $\pi$-isotypique de $\varrho$;
+a) Le G-morphisme $p_{\pi}=$ dim($\pi$ )$\varrho (\overline{\chi}_{\pi})$ de E dans E est un projecteur continu de E dont l’image est la composante $\pi$-isotypique de $\varrho$;
 
 b) Si $\varrho$ est une représentation unitaire, alors le projecteur $p_{\pi}$ est l’orthoprojecteur de E d’image $M_{\pi}(\varrho )$.
 
-Démontrons a). L’application linéaire $p_{\pi}=$ dim($\pi$ )$\varrho (\chi_{\pi})$ est bien définie, puisque E est quasi-complet et que G est compact (V, p. 401). C’est un élément de Hom$_G(\varrho , \varrho )$ puisque le caractère de $\pi$ est une fonction centrale continue sur G.
+Démontrons a). L’application linéaire $p_{\pi}=$ dim($\pi$ )$\varrho (\overline{\chi}_{\pi})$ est bien définie, puisque E est quasi-complet et que G est compact (V, p. 401). C’est un élément de Hom$_G(\varrho , \varrho )$ puisque le caractère de $\pi$ est une fonction centrale continue sur G.
 
-Soient $\varpi$ une sous-représentation de dimension finie de E et F son espace. L’application $p_{\pi}$ induit, par passage aux sous-espaces, l’endomorphisme (dim $\pi )\varpi (\chi_{\pi})$ de F. Cet endomorphisme est donc nul si $\varpi$ n’est pas isomorphe à $\pi$, et est l’application identique de F sinon (en effet, c’est le cas si $\varpi$ est irréductible d’après le cor. 5 de V, p. 460, et le cas général s’en déduit puisque $\varpi$ est semi-simple d’après la prop. 1 de V, p. 457).
+Soient $\varpi$ une sous-représentation de dimension finie de E et F son espace. L’application $p_{\pi}$ induit, par passage aux sous-espaces, l’endomorphisme (dim $\pi )\varpi (\overline{\chi}_{\pi})$ de F. Cet endomorphisme est donc nul si $\varpi$ n’est pas isomorphe à $\pi$, et est l’application identique de F sinon (en effet, c’est le cas si $\varpi$ est irréductible d’après le cor. 5 de V, p. 460, et le cas général s’en déduit puisque $\varpi$ est semi-simple d’après la prop. 1 de V, p. 457).
 
 Finalement, puisque la somme des sous-représentations de dimension finie de E est dense dans E (prop. 7) et que $p_{\pi}$ est continu, on conclut que $p_{\pi}$ est un projecteur dont l’image est la composante $\pi$-isotypique de $\varrho$. Si E est hilbertien, le projecteur $p_{\pi}$ est hermitien d’après le cor. 1 de V, p. 458 donc c’est un orthoprojecteur (lemme 3, (ii) de I, p. 133).
 
@@ -401,7 +401,7 @@ Soit $\varrho$ une représentation unitaire de G dans un espace hilbertien E de 
 On a les formules suivantes
 
 $$
-\chi_{\varrho_1\oplus\varrho_2}=\chi_{\varrho_1}+\chi_{\varrho_2},\chi_{\varrho_1\otimes\varrho_2}=\chi_{\varrho_1}\chi_{\varrho_2},\chi_{\breve{\varrho}}=\chi_{\varrho}=\chi_{\varrho}
+\chi_{\varrho_1\oplus\varrho_2}=\chi_{\varrho_1}+\chi_{\varrho_2},\chi_{\varrho_1\otimes\varrho_2}=\chi_{\varrho_1}\chi_{\varrho_2},\chi_{\breve{\varrho}}=\chi_{\overline{\varrho}}=\overline{\chi}_{\varrho}
 $$
 
 (cf. A, VIII, p. 388–389).
@@ -422,7 +422,7 @@ Soient $\pi$ et $\sigma$ des représentations irréductibles de G. On a
 
 dim($\pi$ )$(\chi_{\pi}*\chi_{\sigma}) =$ dim($\pi$ )$\boldsymbol{\gamma }_G(\chi_{\pi})\chi_{\sigma}$
 
-(lemme 4 de V, p. 407). La fonction dim($\pi$ )$\boldsymbol{\gamma }_G(\chi_{\pi})\chi_{\sigma}$ est la projection orthogonale de $\chi_{\sigma}$ sur la composante $\pi$-isotypique de $\boldsymbol{\gamma }_G$ (cor. 2 de V, p. 465), c’est-à-dire sur $\boldsymbol{\varrho }_G(\pi )$ (cor. 4 de V, p. 463). Comme $\chi_{\sigma}$ appartient à $\boldsymbol{\varrho }_G(\sigma )$, le résultat découle du théorème 1 de V, p. 462.
+(lemme 4 de V, p. 407). La fonction dim($\pi$ )$\boldsymbol{\gamma }_G(\chi_{\pi})\chi_{\sigma}$ est la projection orthogonale de $\chi_{\sigma}$ sur la composante $\overline{\pi}$-isotypique de $\boldsymbol{\gamma }_G$ (cor. 2 de V, p. 465), c’est-à-dire sur $\boldsymbol{\varrho }_G(\pi )$ (cor. 4 de V, p. 463). Comme $\chi_{\sigma}$ appartient à $\boldsymbol{\varrho }_G(\sigma )$, le résultat découle du théorème 1 de V, p. 462.
 
 #### Lemme 2 {#ts-v-s4-lem-2 .statement tag=03EI}
 
@@ -444,10 +444,10 @@ Lorsque G est un groupe de Lie, l’espace $\Theta (G^{\sharp})$ est également 
 
 Soit $\pi$ une représentation unitaire irréductible de G. L’espace vectoriel $L^2(G^{\sharp})\cap \boldsymbol{\varrho }_G(\pi )$ est de dimension un et engendré par le caractère de $\pi$.
 
-Considérons la représentation unitaire $\sigma$ de G dans l’espace $\boldsymbol{\varrho }_G(\pi )$ définie par $\sigma (g) =\boldsymbol{\varrho }_G(g, g)$. Puisque la représentation unitaire $\boldsymbol{\varrho }_G(\pi )$ de $G\times G$ est isomorphe à $\pi \boxtimes \pi$ (prop. 5 de V, p. 462), son caractère est donné par
+Considérons la représentation unitaire $\sigma$ de G dans l’espace $\boldsymbol{\varrho }_G(\pi )$ définie par $\sigma (g) =\boldsymbol{\varrho }_G(g, g)$. Puisque la représentation unitaire $\boldsymbol{\varrho }_G(\pi )$ de $G\times G$ est isomorphe à $\overline{\pi}\boxtimes \pi$ (prop. 5 de V, p. 462), son caractère est donné par
 
 $$
-\chi_{\sigma}(g) =\chi_{\pi\boxtimes\pi}(g, g) =|\chi_{\pi}(g)|^2
+\chi_{\sigma}(g) =\chi_{\overline{\pi}\boxtimes\pi}(g, g) =|\chi_{\pi}(g)|^2
 $$
 
 pour tout $g\in G$. L’espace $L^2(G^{\sharp})\cap \boldsymbol{\varrho }_G(\pi )$ est le sous-espace des éléments invariants de cette représentation, et sa dimension est égale à
@@ -494,7 +494,7 @@ Puisque les classes des représentations $\pi \in \widehat{G}$ forment une base 
 
 Soit H un groupe topologique localement compact tel que G est un sous-groupe compact de H. Soit $\varrho$ une représentation unitaire de H dans un espace hilbertien E. Si la composante $\pi$-isotypique de la restriction de $\varrho$ à G est de dimension finie pour tout $\pi \in \widehat{G}$, alors la représentation $\varrho$ de H est semi-simple et toute représentation unitaire irréductible de H est de multiplicité finie dans $\varrho$.
 
-Notons $\sigma$ la restriction de $\varrho$ au sous-groupe compact G de H. Soit $\pi$ une représentation irréductible de G. L’endomorphisme $\sigma (\chi_{\pi})\in \mathscr{L}(E)$ est de rang fini, puisque son image est la composante $\pi$-isotypique de $\sigma$ (cor. 2 de V, p. 465) et que celle-ci est de dimension finie par hypothèse. Par conséquent, l’endomorphisme $\sigma (f)$ est de rang fini pour tout $f\in \Theta (G^{\sharp})$ et est compact pour tout $f\in \mathscr{C}(G^{\sharp})$ (cor. 1 de V, p. 468 et cor. de la prop. 2 de III, p. 4).
+Notons $\sigma$ la restriction de $\varrho$ au sous-groupe compact G de H. Soit $\pi$ une représentation irréductible de G. L’endomorphisme $\sigma (\chi_{\pi})\in \mathscr{L}(E)$ est de rang fini, puisque son image est la composante $\overline{\pi}$-isotypique de $\sigma$ (cor. 2 de V, p. 465) et que celle-ci est de dimension finie par hypothèse. Par conséquent, l’endomorphisme $\sigma (f)$ est de rang fini pour tout $f\in \Theta (G^{\sharp})$ et est compact pour tout $f\in \mathscr{C}(G^{\sharp})$ (cor. 1 de V, p. 468 et cor. de la prop. 2 de III, p. 4).
 
 Notons $j$ l’injection canonique de G dans H. C’est une application continue qui est $\nu$-propre pour toute mesure $\nu$ sur G (INT, V, p. 69, § 6, n$^o1$, remarque 1). Soit $\mathfrak{B}$ le filtre des voisinages compacts de l’élément $e$ dans G. Pour tout $V\in \mathfrak{B}$, il existe une fonction centrale continue positive $f_V$ sur G à support contenu dans V dont l’intégrale sur G vaut 1. Notons $\beta_V$ la mesure image $j(f_V\cdot \mu)$; c’est une mesure positive à support compact sur H telle que $\varrho (\beta_V) =\sigma (f_V)$ (INT, V, p. 71, § 6, n$^o2$, th. 1). D’après ce qui précède, la base de filtre sur $\mathscr{M}_c(H)$ image de $\mathfrak{B}$ par l’application $V\mapsto \beta_V$ vérifie les conditions de la proposition 2 de V, p. 402 et l’assertion en résulte.
 
@@ -524,9 +524,9 @@ Soit $\nu \in \mathscr{M}^1(G)$. Pour tout $\pi \in \widehat{G}$, on a $\|\pi (\
 
 #### Définition 1 {#ts-v-s4-def-1 .statement tag=03EO}
 
-Pour toute mesure $\nu \in \mathscr{M}^1(G)$, l’élément $(\pi (\nu ))_{\pi\in\widehat{G}}$ de $F_b(\widehat{G})$ est noté $\mathscr{F}_G(\nu )$. L’application de $\mathscr{M}^1(G)$ dans $F_b(\widehat{G})$ ainsi définie est appelée la cotransformation de Fourier de G, et $\mathscr{F}_G(\nu )$ est appelée la cotransformée de Fourier de la mesure $\nu$.
+Pour toute mesure $\nu \in \mathscr{M}^1(G)$, l’élément $(\pi (\nu ))_{\pi\in\widehat{G}}$ de $F_b(\widehat{G})$ est noté $\mathscr{F}_G(\nu )$. L’application de $\mathscr{M}^1(G)$ dans $F_b(\widehat{G})$ ainsi définie est appelée la cotransformation de Fourier de G, et $\overline{\mathscr{F}}_G(\nu )$ est appelée la cotransformée de Fourier de la mesure $\nu$.
 
-Pour $f\in L^1$(G), on notera $\mathscr{F}_G(f) =\mathscr{F}_G(f\cdot \mu)$.
+Pour $f\in L^1$(G), on notera $\overline{\mathscr{F}}_G(f) =\overline{\mathscr{F}}_G(f\cdot \mu)$.
 
 Pour toute représentation $\pi \in \widehat{G}$, l’application $\nu \mapsto \pi (\nu )$ est un morphisme unifère d’algèbres de Banach involutives de $\mathscr{M}^1(G)$ dans End(E$_{\pi})$ (lemme 1 de V, p. 401). La cotransformation de Fourier est donc un morphisme unifère d’algèbres de Banach involutives de $\mathscr{M}^1(G)$ dans $F_b(\widehat{G})$.
 
@@ -540,13 +540,13 @@ $\langle u_1|u_2\rangle =$ dim($\pi$)Tr($u^*_1u_2$) $=$ dim($\pi$)Tr($u_2u^*_1$)
 
 pour $u_1,u_2$ dans End(E$_{\pi}) ($cf. EVT, V, p. 52, th. 1).
 
-On note $\|u\|_2$ = $\langle u|u\rangle$ la norme d’un élément $u$ de End(E$_{\pi})$ pour $\pi \in \widehat{G}$. Pour tout $g\in G$, on a $\|\pi (g)\|_2=$ dim($\pi$ ) puisque $\pi (g)$ est unitaire.
+On note $\|u\|_2$ = $\overline{\langle u|u\rangle}$ la norme d’un élément $u$ de End(E$_{\pi})$ pour $\pi \in \widehat{G}$. Pour tout $g\in G$, on a $\|\pi (g)\|_2=$ dim($\pi$ ) puisque $\pi (g)$ est unitaire.
 
 La norme notée ici $\|u\|_2$ diffère par un facteur dim($\pi$ ) de la norme définie dans EVT, V, p. 52 sur l’espace des applications de Hilbert– Schmidt de $E_{\pi}$.
 
 #### Lemme 4 {#ts-v-s4-lem-4 .statement tag=03EP}
 
-Soit $\pi$ une représentation irréductible de G. L’application $f\mapsto \pi (f)$ définit par passage aux sous-espaces un isomorphisme isométrique de $\boldsymbol{\varrho }_G(\pi )$ dans End(E$_{\pi})$.
+Soit $\pi$ une représentation irréductible de G. L’application $f\mapsto \pi (f)$ définit par passage aux sous-espaces un isomorphisme isométrique de $\boldsymbol{\varrho }_G(\overline{\pi})$ dans End(E$_{\pi})$.
 
 Posons $\varepsilon_{\pi}(g, h)u=\pi (g)\circ u\circ \pi (h^{-1})$ pour tout $(g, h)\in G\times G$ et pour tout $u\in$ End(E$_{\pi})$. L’application $\varepsilon_{\pi}$ est une représentation continue de $G\times G$ dans End(E$_{\pi})$. Elle est unitaire. En effet, puisque $\pi$ elle-même est unitaire, il vient
 
@@ -554,15 +554,15 @@ $\|\varepsilon_{\pi}(g, h)u\|^2_2=$ dim($\pi$ ) Tr $(\pi (g)u\pi (h^{-1}))^*\pi 
 
 = dim($\pi$ ) Tr($\pi (h)u^*u\pi (h)^{-1}$) $=$ dim($\pi$ ) Tr($u^*u$) $=\|u\|^2_2$ pour tout $(g, h)\in G\times G$ et tout $u\in$ End(E$_{\pi})$.
 
-L’application Ψ définie par $f\mapsto \pi (f)$ est un $(G\times$ G)-morphisme de $\boldsymbol{\varrho }_G(\pi )$ dans End(E$_{\pi})$, puisque
+L’application Ψ définie par $f\mapsto \pi (f)$ est un $(G\times$ G)-morphisme de $\boldsymbol{\varrho }_G(\overline{\pi})$ dans End(E$_{\pi})$, puisque
 
 $$
 \pi (\boldsymbol{\varrho }_G(g, h)f) =\int_Gf(g^{-1}xh)\pi (x)d\mu(x) =\pi (g)\pi (f)\pi (h^{-1})
 $$
 
-pour tout $(g, h)\in G\times G$ et tout $f\in \boldsymbol{\varrho }_G(\pi )$. Puisque $\boldsymbol{\varrho }_G(\pi )$ est une représentation irréductible (th. 1, a) de V, p. 462), il existe $\lambda \in \mathbf{C}^*$ tel que l’application $\lambda \Psi$ est nulle ou isométrique (cor. 5, a) de V, p. 388).
+pour tout $(g, h)\in G\times G$ et tout $f\in \boldsymbol{\varrho }_G(\overline{\pi})$. Puisque $\boldsymbol{\varrho }_G(\overline{\pi})$ est une représentation irréductible (th. 1, a) de V, p. 462), il existe $\lambda \in \mathbf{C}^*$ tel que l’application $\lambda \Psi$ est nulle ou isométrique (cor. 5, a) de V, p. 388).
 
-Soit $f=$ dim($\pi$ )$\chi_{\pi}\in \boldsymbol{\varrho }_G(\pi )$. Il vient $\pi (f) = 1_{E_{\pi}}$ (cor. 2 de V, p. 465), d’où $\|\pi (f)\|_2=$ dim($\pi$ ) $=\|f\|$ (cor. 3 de V, p. 459). Par conséquent, l’application Ψ est isométrique. Comme $\boldsymbol{\varrho }_G(\pi )$ et End(E$_{\pi})$ sont de même dimension, Ψ est un isomorphisme isométrique.
+Soit $f=$ dim($\pi$ )$\overline{\chi}_{\pi}\in \boldsymbol{\varrho }_G(\overline{\pi})$. Il vient $\pi (f) = 1_{E_{\pi}}$ (cor. 2 de V, p. 465), d’où $\|\pi (f)\|_2=$ dim($\pi$ ) $=\|f\|$ (cor. 3 de V, p. 459). Par conséquent, l’application Ψ est isométrique. Comme $\boldsymbol{\varrho }_G(\overline{\pi})$ et End(E$_{\pi})$ sont de même dimension, Ψ est un isomorphisme isométrique.
 
 On note $F^2(\widehat{G})$ la somme hilbertienne des espaces hilbertiens End(E$_{\pi})$. La norme d’un élément $x\in F^2(\widehat{G})$ est encore notée $\|x\|_2$.
 
@@ -588,11 +588,11 @@ $$
 
 qui converge dans $L^2(G)$.
 
-D’après le théorème de Peter–Weyl (th. 1 de V, p. 462), l’espace hilbertien $L^2(G)$ est la somme hilbertienne des espaces $\boldsymbol{\varrho }_G(\pi )$ pour $\pi \in \widehat{G}$. Pour tout $\pi \in \widehat{G}$, l’application linéaire $f\mapsto \pi (f)$ de $\boldsymbol{\varrho }_G(\pi )$ dans End(E$_{\pi})$ est un isomorphisme isométrique (lemme 4). Par conséquent, la restriction à $L^2(G)$ de la cotransformation de Fourier définit un isomorphisme isométrique de $L^2(G)$ sur $F^2(\widehat{G})$.
+D’après le théorème de Peter–Weyl (th. 1 de V, p. 462), l’espace hilbertien $L^2(G)$ est la somme hilbertienne des espaces $\boldsymbol{\varrho }_G(\overline{\pi})$ pour $\pi \in \widehat{G}$. Pour tout $\pi \in \widehat{G}$, l’application linéaire $f\mapsto \pi (f)$ de $\boldsymbol{\varrho }_G(\overline{\pi})$ dans End(E$_{\pi})$ est un isomorphisme isométrique (lemme 4). Par conséquent, la restriction à $L^2(G)$ de la cotransformation de Fourier définit un isomorphisme isométrique de $L^2(G)$ sur $F^2(\widehat{G})$.
 
-Soit $f\in L^2(G)$. Soit $\pi \in \widehat{G}$ et soit $f_{\pi}\in \mathscr{C}(G)$ la projection orthogonale de $f$ sur $\boldsymbol{\varrho }_G(\pi )$ (th. 1 de V, p. 462). Cet espace étant la composante $\pi$-isotypique de $\boldsymbol{\delta }_G$ (cor. 4 de V, p. 463), on a $f_{\pi}=$ dim($\pi$ )$\boldsymbol{\delta }_G(\chi_{\pi})(f)$ d’après le cor. 2 de V, p. 465. Pour tout $x\in G$, il vient
+Soit $f\in L^2(G)$. Soit $\pi \in \widehat{G}$ et soit $f_{\overline{\pi}}\in \mathscr{C}(G)$ la projection orthogonale de $f$ sur $\boldsymbol{\varrho }_G(\overline{\pi})$ (th. 1 de V, p. 462). Cet espace étant la composante $\overline{\pi}$-isotypique de $\boldsymbol{\delta }_G$ (cor. 4 de V, p. 463), on a $f_{\overline{\pi}}=$ dim($\pi$ )$\boldsymbol{\delta }_G(\chi_{\pi})(f)$ d’après le cor. 2 de V, p. 465. Pour tout $x\in G$, il vient
 
-$f_{\pi}(x) =$ dim($\pi$ )$\int_G\chi_{\pi}(g)(\boldsymbol{\delta }_G(g)f)(x)d\mu(g)$
+$f_{\overline{\pi}}(x) =$ dim($\pi$ )$\int_G\chi_{\pi}(g)(\boldsymbol{\delta }_G(g)f)(x)d\mu(g)$
 
 = dim($\pi$ )$\int_G\chi_{\pi}(g)f(xg)d\mu(g)$
 
@@ -600,9 +600,9 @@ $f_{\pi}(x) =$ dim($\pi$ )$\int_G\chi_{\pi}(g)(\boldsymbol{\delta }_G(g)f)(x)d\m
 
 = dim($\pi$)Tr($\pi (x^{-1})\pi (f)$) $=\langle \pi (x)|\pi (f)\rangle$,
 
-c’est-à-dire $f_{\pi}=\mathscr{F}_{\pi}(\pi (f))$.
+c’est-à-dire $f_{\overline{\pi}}=\mathscr{F}_{\pi}(\pi (f))$.
 
-Comme $f$ est la somme dans $L^2(G)$ de la famille $(f_{\pi})$ d’après le théorème de Peter–Weyl, on obtient
+Comme $f$ est la somme dans $L^2(G)$ de la famille $(f_{\overline{\pi}})$ d’après le théorème de Peter–Weyl, on obtient
 
 $$
 f=\sum_{\pi\in\widehat{G}}\mathscr{F}_{\pi}(\pi (f))
@@ -625,7 +625,7 @@ $g\mapsto \sum_{\pi\in\widehat{G}}\langle \pi (g)|u_{\pi}\rangle =\sum_{\pi\in\w
 Soit $f\in L^2(G)$. On a alors la formule de Plancherel
 
 $$
-\|f\|^2=\|\mathscr{F}_G(f)\|^2=\sum_{\pi\in\widehat{G}}\|\pi (f)\|^2
+\|f\|^2=\|\overline{\mathscr{F}}_G(f)\|^2=\sum_{\pi\in\widehat{G}}\|\pi (f)\|^2
 $$
 
 De plus, d’après le théorème 2$,f$ est la somme dans $L^2(G)$ de la famille $(f_{\pi})_{\pi\in\widehat{G}}$ où
@@ -648,7 +648,7 @@ $$
 
 ce qui démontre que la cotransformation de Fourier définie ci-dessus coïncide avec la cotransformation de Fourier de G définie dans II, p. 206.
 
-Tout $f\in \mathscr{L}^2(G)$ est intégrable et la formule $\|\mathscr{F}_G(f)\|_2=\|f\|$ est la formule de Plancherel (II, p. 215, théorème 1).
+Tout $f\in \mathscr{L}^2(G)$ est intégrable et la formule $\|\overline{\mathscr{F}}_G(f)\|_2=\|f\|$ est la formule de Plancherel (II, p. 215, théorème 1).
 
 #### Proposition 10 {#ts-v-s4-prop-10 .statement tag=03EU}
 
@@ -656,7 +656,7 @@ La cotransformation de Fourier est un morphisme injectif d’algèbres de Banach
 
 Comme G est compact, l’espace $\mathscr{C}(G)$ est inclus et dense dans $\mathscr{L}^1(G)$ et $\mathscr{L}^2(G)$.
 
-Soit $\nu \in \mathscr{M}^1(G)$ telle que $\mathscr{F}_G(\nu ) = 0$. Pour toute fonction $f$ continue sur G, on a alors $\mathscr{F}_G(\nu *f) = 0$. Or $\nu *f$ appartient à $\mathscr{C}(G)$ (INT, VIII, p. 152, § 4, n$^o2$, prop. 3). Comme, d’après le théorème 2, la cotransformation de Fourier est injective sur $L^2$(G), et a fortiori, sur l’espace $\mathscr{C}$ (G), on a $\nu *f= 0$ pour $f\in \mathscr{C}(G)$. En particulier, il vient
+Soit $\nu \in \mathscr{M}^1(G)$ telle que $\overline{\mathscr{F}}_G(\nu ) = 0$. Pour toute fonction $f$ continue sur G, on a alors $\overline{\mathscr{F}}_G(\nu *f) = 0$. Or $\nu *f$ appartient à $\mathscr{C}(G)$ (INT, VIII, p. 152, § 4, n$^o2$, prop. 3). Comme, d’après le théorème 2, la cotransformation de Fourier est injective sur $L^2$(G), et a fortiori, sur l’espace $\mathscr{C}$ (G), on a $\nu *f= 0$ pour $f\in \mathscr{C}(G)$. En particulier, il vient
 
 $$
 \int_Gf(x)d\nu (x) = (\nu *\check{f})(e) = 0
@@ -678,7 +678,7 @@ $$
 \sum_{\pi\in\widehat{G}}\mathscr{F}_{\pi}(u_{\pi})
 $$
 
-converge dans $L^2(G)$ vers $f$ (INT, IV, p. 127, § 3, n$^o3$, prop. 4). On a donc $\mathscr{F}_G((u_{\pi})_{\pi}) =f$ dans $L^2$(G), d’où $(u_{\pi})_{\pi\in\widehat{G}}=\mathscr{F}_G(f)$ (théorème 2).
+converge dans $L^2(G)$ vers $f$ (INT, IV, p. 127, § 3, n$^o3$, prop. 4). On a donc $\mathscr{F}_G((u_{\pi})_{\pi}) =f$ dans $L^2$(G), d’où $(u_{\pi})_{\pi\in\widehat{G}}=\overline{\mathscr{F}}_G(f)$ (théorème 2).
 
 Démontrons l’assertion b). On peut appliquer l’assertion a) à la famille $(\pi (f))_{\pi\in G}$. La somme $g$ de la famille $(\mathscr{F}_{\pi}(\pi (f)))_{\pi\in G}$ est une fonction continue, donc appartenant à $L^2$(G), telle que $\mathscr{F}_G(g) = (\pi (f))_{\pi\in G}$. Puisque $\mathscr{F}_G$ est injective sur $L^2$(G), on a $f=g$ dans $L^2$(G), donc dans $L^1(G)$.
 
@@ -710,7 +710,7 @@ Lorsque G est un groupe de Lie, on peut calculer FS($\pi$ ) à l’aide de la pr
 
 #### Définition 3 {#ts-v-s4-def-3 .statement tag=03EW}
 
-Soit $\varrho$ une représentation unitaire de dimension finie de G dans un espace hilbertien E. Soit $k$ un entier positif. On appelle moment absolu d’ordre $2k$ de $\varrho$, et on note $M_{2k}(\varrho )$, la dimension du sous-espace des éléments G-invariants dans la représentation $\varrho^{\otimes k}\otimes \varrho^{\otimes k}$.
+Soit $\varrho$ une représentation unitaire de dimension finie de G dans un espace hilbertien E. Soit $k$ un entier positif. On appelle moment absolu d’ordre $2k$ de $\varrho$, et on note $M_{2k}(\varrho )$, la dimension du sous-espace des éléments G-invariants dans la représentation $\overline{\varrho}^{\otimes k}\otimes \varrho^{\otimes k}$.
 
 #### Théorème 3 (Alternative de Larsen) {#ts-v-s4-thm-3 .statement tag=03EX}
 
@@ -724,7 +724,7 @@ Nous utiliserons dans la démonstration les lemmes suivants.
 
 #### Lemme 5 {#ts-v-s4-lem-5 .statement tag=03EY}
 
-Soit $\pi$ une représentation unitaire de G dans un espace hilbertien E de dimension finie. Soient $(\varrho_i)_{i\in I}$ une famille de représentations unitaires non nulles de G et $(n_i)_{i\in I}$ une famille d’entiers $\geqslant 1$ tels que la représentation $\pi \otimes \pi$ de G (resp. la représentation $\pi \otimes \pi )$ soit isomorphe à la somme directe $\bigoplus_{i\in I}\varrho^n_{i^i}$. Alors on a
+Soit $\pi$ une représentation unitaire de G dans un espace hilbertien E de dimension finie. Soient $(\varrho_i)_{i\in I}$ une famille de représentations unitaires non nulles de G et $(n_i)_{i\in I}$ une famille d’entiers $\geqslant 1$ tels que la représentation $\overline{\pi}\otimes \pi$ de G (resp. la représentation $\pi \otimes \pi )$ soit isomorphe à la somme directe $\bigoplus_{i\in I}\varrho^n_{i^i}$. Alors on a
 
 $$
 M_4(\pi )\geqslant \sum_{i\in I}n^2_i
@@ -734,7 +734,7 @@ avec égalité si et seulement si les représentations $\varrho_i$ sont irréduc
 
 Notons $\chi_i$ le caractère de $\varrho_i$ pour $i\in I$. On a
 
-$|\chi_{\pi}|^2=\chi_{\pi\otimes\pi}=\sum_{i\in I}n_i\chi_i$, (resp. $\chi^2_{\pi}=\chi_{\pi\otimes\pi}=\sum_{i\in I}n_i\chi_i)$.
+$|\chi_{\pi}|^2=\chi_{\overline{\pi}\otimes\pi}=\sum_{i\in I}n_i\chi_i$, (resp. $\chi^2_{\pi}=\chi_{\pi\otimes\pi}=\sum_{i\in I}n_i\chi_i)$.
 
 D’après la définition et le cor. 3 de V, p. 466, il vient
 
@@ -744,7 +744,7 @@ $$
 
 d’où, dans les deux cas, la formule
 
-$M_4(\pi ) =\sum_{i,j}n_in_j\int_G\chi_i\chi_jd\mu=\sum_{i,j}n_in_j$ dim Hom$_G(\varrho_i, \varrho_j)$
+$M_4(\pi ) =\sum_{i,j}n_in_j\int_G\chi_i\overline{\chi}_jd\mu=\sum_{i,j}n_in_j$ dim Hom$_G(\varrho_i, \varrho_j)$
 
 (cor. 4, b) de V, p. 459). Soit $i\in I$. Comme la représentation $\varrho_i$ n’est pas nulle, l’espace Hom$_G(\varrho_i, \varrho_i)$ n’est pas nul, et on en déduit la minoration
 

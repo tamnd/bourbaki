@@ -37,7 +37,7 @@ subsections:
       pdf_page: 445
 statements: 31
 exercises: 0
-content_sha256: f0f99408b61d16553ee29c5cd5f8bbb787377a7eae5b072dafc70c94a00899c5
+content_sha256: f348b024354cb167f49f5fdd8b426df4390e361b67acf3829d9d26717cd47171
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -190,7 +190,7 @@ Soit Y un espace topologique connexe par arcs, non vide, et soit $(A_i)_{i\in I}
 
 (ii) l’espace Y est délaçable, ainsi que les espaces $A_i$, pour $i\in I$, la famille $(A_i)_{i\in I}$ est localement finie, les $A_i$ sont fermés dans Y et leurs intersections deux à deux sont localement connexes par arcs (cf. IV, p. 399, exemple 1).
 
-Soit $J'$ l’ensemble des triplets $(i, i',V)$, où $i$ et $i'$ sont des éléments de I et où V est une composante connexe par arcs de $A_i\cap A_{i'}$. Si $j= (i, i',V)\in J'$, on pose $i_1(j) =i,i_2(j) =i'$ et $j= (i', i,V)$. Soit J le sous-ensemble de $J'$ formé des triplets tels que $i < i'$. On appelle armature du recouvrement le carquois Γ dont l’ensemble des sommets est I, dont l’ensemble des flèches est J et les applications origine et terme sont respectivement les applications $j\mapsto i_1(j)$ et $j\mapsto i_2(j)$. Nous identifierons le graphe associé à Γ au graphe $\widetilde{\Gamma}$ dont l’ensemble des sommets est I, l’ensemble des flèches est $J\cup J$, les applications origine et terme sont les applications $j\mapsto i_1(j)$ et $j\mapsto i_2(j)$ et l’involution est l’application $j\mapsto j$.
+Soit $J'$ l’ensemble des triplets $(i, i',V)$, où $i$ et $i'$ sont des éléments de I et où V est une composante connexe par arcs de $A_i\cap A_{i'}$. Si $j= (i, i',V)\in J'$, on pose $i_1(j) =i,i_2(j) =i'$ et $\overline{j}= (i', i,V)$. Soit J le sous-ensemble de $J'$ formé des triplets tels que $i < i'$. On appelle armature du recouvrement le carquois Γ dont l’ensemble des sommets est I, dont l’ensemble des flèches est J et les applications origine et terme sont respectivement les applications $j\mapsto i_1(j)$ et $j\mapsto i_2(j)$. Nous identifierons le graphe associé à Γ au graphe $\widetilde{\Gamma}$ dont l’ensemble des sommets est I, l’ensemble des flèches est $J\cup \overline{J}$, les applications origine et terme sont les applications $j\mapsto i_1(j)$ et $j\mapsto i_2(j)$ et l’involution est l’application $j\mapsto \overline{j}$.
 
 Notons $p_1$ et $p_2$ les projections du carré fibré $X\times_YX$ vers X ; soit $\mathsf{\Gamma}$ l’armature du couple $(\varpi (p_1), \varpi (p_2))$ de morphismes de groupoïdes de $\varpi (X\times_YX)$ dans $\varpi (X)$.
 
@@ -202,13 +202,13 @@ Les composantes connexes par arcs de X sont les $A_i$, pour $i\in I$. Les compos
 
 Pour tout élément $i$ de I, choisissons un point $a(i)$ de $A_i$.
 
-Pour tout élément $j= (i, i',V)$ de J, choisissons un point $b(j)$ dans V, un chemin $B_1(j)$ reliant $b(j)$ à $a(i)$ dans $A_i$ et un chemin $B_2(j)$ reliant $b(j)$ à $a(i')$ dans $A_{i'}$. Soit $j= (i, i',V)$ un élément de J ; alors $j= (i', i,V)$ appartient à J et l’on pose $b(j) =b(j)$, $B_1(j) = B_2(j)$ et $B_2(j) = B_1(j)$. Pour $j\in J'\cup J'$, les chemins $B_1(j)$ et $B_2(j)$ dans Y sont juxtaposables. Posons
+Pour tout élément $j= (i, i',V)$ de J, choisissons un point $b(j)$ dans V, un chemin $B_1(j)$ reliant $b(j)$ à $a(i)$ dans $A_i$ et un chemin $B_2(j)$ reliant $b(j)$ à $a(i')$ dans $A_{i'}$. Soit $j= (i, i',V)$ un élément de $\overline{J}$; alors $\overline{j}= (i', i,V)$ appartient à J et l’on pose $b(\overline{j}) =b(j)$, $B_1(j) = B_2(\overline{j})$ et $B_2(j) = B_1(\overline{j})$. Pour $j\in J'\cup \overline{J'}$, les chemins $B_1(j)$ et $B_2(j)$ dans Y sont juxtaposables. Posons
 
 $$
 B(j) = B_1(j)*B_2(j) \tag{3}
 $$
 
-C’est un chemin qui relie $a(i_1(j))$ à $a(i_2(j))$ dans Y ; on a la relation $B(j) = B(j)$.
+C’est un chemin qui relie $a(i_1(j))$ à $a(i_2(j))$ dans Y ; on a la relation $B(\overline{j}) = B(j)$.
 
 Pour tout $j= (i, i',V)\in J'$, notons $p_{j,1}: V\rightarrow A_i$ et $p_{j,2}: V\rightarrow A_{i'}$ les injections canoniques ; notons aussi $\varphi_j:\pi_1(V, b(j))\rightarrow \pi_1(A_i, a(i))$ et $\psi_j:\pi_1(V, b(j))\rightarrow \pi_1(A_{i'}, a(i'))$ les homomorphismes de groupes définis par
 
@@ -259,15 +259,15 @@ Notons K le sous-ensemble de $K'$ formé des quadruplets $(i_1, i_2, i_3,U)$ tel
 Posons alors, pour $k\in K$,
 
 $$
-L_1(k) = B_1(j_{13}(k))*C_{13}(k)*C_{12}(k)*B_1(j_{12}(k))
+L_1(k) = B_1(j_{13}(k))*\overline{C_{13}(k)}*C_{12}(k)*B_1(j_{12}(k))
 $$
 
 $$
-L_2(k) = B_2(j_{12}(k))*C_{12}(k)*C_{23}(k)*B_1(j_{23}(k)) \tag{4}
+L_2(k) = B_2(j_{12}(k))*\overline{C_{12}(k)}*C_{23}(k)*B_1(j_{23}(k)) \tag{4}
 $$
 
 $$
-L_3(k) = B_2(j_{23}(k))*C_{23}(k)*C_{13}(k)*B_2(j_{13}(k))
+L_3(k) = B_2(j_{23}(k))*\overline{C_{23}(k)}*C_{13}(k)*B_2(j_{13}(k))
 $$
 
 Pour $s\in  \{1,2,3\}$, on note $\lambda_s(k)$ la classe dans $\pi_1(A_{i_s}, a(i_s))$ du lacet $L_s(k)$.
@@ -290,13 +290,13 @@ Soit X l’espace topologique somme de la famille $(A_i)_{i\in I}$ et soit $f: X
 
 Les composantes connexes par arcs de X sont les ensembles $X_i=$ $A_i\times  \{i\}$ pour $i\in I$. On identifie ainsi $\pi_0(X)$ à l’ensemble I. Pour tout $i\in I$, notons $\mathsf{a}(i)$ le point $(a(i), i)$ de $X_i$.
 
-Posons $Z = X\times_YX$. Les composantes connexes par arcs de Z sont les ensembles $Z_j= (V\times \{i\})\times_Y(V\times \{i'\})$, où $j= (i, i',V)$ parcourt $J'$. On identifie ainsi $\pi_0(Z)$ à l’ensemble $J'$. Soit $J_0$ l’ensemble des éléments de J de la forme $(i, i,A_i)$, de sorte que la famille $(J_0,J,J)$ est une partition de $J'$. Pour $i\in I$ et $j= (i, i,A_i)\in J_0$, posons $\mathsf{b}(j) = (\mathsf{a}(i),\mathsf{a}(i))$ et prenons pour $\beta_1(j)$ et $\beta_2(j)$ la classe du chemin constant en $\mathsf{a}(i)$. Pour $j= (i, i',V)\in J\cup J$, notons $\mathsf{b}(j)$ le point $((b(j), i),(b(j), i'))$ de $Z_j$ et notons $\beta_1(j)$ et $\beta_2(j)$ les classes des chemins $t\mapsto (B_1(j)(t), i)$ et $t\mapsto (B_2(j)(t), i')$ dans X.
+Posons $Z = X\times_YX$. Les composantes connexes par arcs de Z sont les ensembles $Z_j= (V\times \{i\})\times_Y(V\times \{i'\})$, où $j= (i, i',V)$ parcourt $J'$. On identifie ainsi $\pi_0(Z)$ à l’ensemble $J'$. Soit $J_0$ l’ensemble des éléments de J de la forme $(i, i,A_i)$, de sorte que la famille $(J_0,J,J)$ est une partition de $J'$. Pour $i\in I$ et $j= (i, i,A_i)\in J_0$, posons $\mathsf{b}(j) = (\mathsf{a}(i),\mathsf{a}(i))$ et prenons pour $\beta_1(j)$ et $\beta_2(j)$ la classe du chemin constant en $\mathsf{a}(i)$. Pour $j= (i, i',V)\in J\cup \overline{J}$, notons $\mathsf{b}(j)$ le point $((b(j), i),(b(j), i'))$ de $Z_j$ et notons $\beta_1(j)$ et $\beta_2(j)$ les classes des chemins $t\mapsto (B_1(j)(t), i)$ et $t\mapsto (B_2(j)(t), i')$ dans X.
 
 Posons $W = X\times_YX\times_YX$. Les composantes connexes par arcs de W sont les ensembles $W_k= (U\times  \{i_1\})\times_Y(U\times  \{i_2\})\times_Y(U\times  \{i_3\})$, où $k= (i_1, i_2, i_3,U)$ parcourt $K'$. On identifie ainsi $\pi_0(W)$ à l’ensemble $K'$.
 
 Notons $K_0$ l’ensemble des éléments de $K'$ de la forme $k= (i, i, i,A_i)$, pour $i\in I$. Pour un tel élément $k\in K_0$, on pose $\mathsf{c}(k) = (\mathsf{a}(i),\mathsf{a}(i),\mathsf{a}(i))$ et on choisit pour $\gamma_{st}(k)$ la classe du chemin constant en $(\mathsf{a}(i),\mathsf{a}(i))$.
 
-Notons $K_1$ l’ensemble des éléments de $K'$ de la forme $k$ = $(i_1, i_2, i_3,V)$ pour lesquels l’ensemble $\{i_1, i_2, i_3\}$ a deux éléments. Soit $k$ un élément de $K'$ de la forme $(i, i, i',V)$, de sorte que $j= (i, i',V)$ appartient à $J\cup J$. On pose alors
+Notons $K_1$ l’ensemble des éléments de $K'$ de la forme $k$ = $(i_1, i_2, i_3,V)$ pour lesquels l’ensemble $\{i_1, i_2, i_3\}$ a deux éléments. Soit $k$ un élément de $K'$ de la forme $(i, i, i',V)$, de sorte que $j= (i, i',V)$ appartient à $J\cup \overline{J}$. On pose alors
 
 $$
 \mathsf{c}(k) = ((b(j), i),(b(j), i),(b(j), i')),\gamma_{12}(k) = (\beta_1(j), \beta_1(j))
@@ -334,12 +334,12 @@ qui induit l’isomorphisme de $\pi_1(X,\mathsf{a}(i))$ sur $\pi_1(A_i, a(i))$ d
 
 $\rho (j) = 1$ pour $j\in J_0$
 
-$\rho (j) =j,\rho (j) =j^{-1}$ pour $j\in J$.
+$\rho (j) =j,\rho (\overline{j}) =j^{-1}$ pour $j\in J$.
 
-Soit $\mathsf{L}$ l’homomorphisme de groupes défini dans le th. 1 de IV, p. 408. Pour $j= (i, i,A_i)\in J_0$, on a $\mathsf{L}(j) = 1 =\mathsf{M}\circ \rho (j)$. Soit $j= (i, i',V)$ un élément de J ; on a $\mathsf{L}(j) = (\mathsf{M}\circ \rho )(j)$ par définition. Enfin, si $j=$ $(i, i',V)$ est un élément de J$,j\in J$ et l’on vérifie que
+Soit $\mathsf{L}$ l’homomorphisme de groupes défini dans le th. 1 de IV, p. 408. Pour $j= (i, i,A_i)\in J_0$, on a $\mathsf{L}(j) = 1 =\mathsf{M}\circ \rho (j)$. Soit $j= (i, i',V)$ un élément de J ; on a $\mathsf{L}(j) = (\mathsf{M}\circ \rho )(j)$ par définition. Enfin, si $j=$ $(i, i',V)$ est un élément de $\overline{J},\overline{j}\in J$ et l’on vérifie que
 
 $$
-\mathsf{L}(j) =\mathsf{L}(j)^{-1}=\mathsf{M}(\rho (j))^{-1}=\mathsf{M}(\rho (j))
+\mathsf{L}(j) =\mathsf{L}(\overline{j})^{-1}=\mathsf{M}(\rho (\overline{j}))^{-1}=\mathsf{M}(\rho (j))
 $$
 
 Par conséquent, on a $\mathsf{M}\circ \rho =\mathsf{L}$.
@@ -348,7 +348,7 @@ L’homomorphisme $\mathsf{L}$ est surjectif (loc. cit.), donc l’homomorphisme
 
 Éléments $R_1$. — Une flèche de l’arbre orienté $\mathsf{T}$ est de la forme $Z_j$, avec $j= (i, i',V)\in J$ ; son image est l’élément $j$ de F(J).
 
-Éléments $R_2$. — Soit $j= (i, i',V)\in J'$. Si $i=i'$, on a $\rho (\mathsf{r}_2(j, v)) = 1$ pour tout $v\in \pi_1(A_i,\mathsf{a}(i))$. Si $j\in J$, l’image de $\mathsf{r}_2(j, v)$ est l’élément $r_2(j, v) =\varphi_j(v)j\psi_j(v)^{-1}j^{-1}$, pour tout $v\in \pi_1(Z,\mathsf{b}(j))$. Dans le cas restant, on a $j\in J$ et l’égalité
+Éléments $R_2$. — Soit $j= (i, i',V)\in J'$. Si $i=i'$, on a $\rho (\mathsf{r}_2(j, v)) = 1$ pour tout $v\in \pi_1(A_i,\mathsf{a}(i))$. Si $j\in J$, l’image de $\mathsf{r}_2(j, v)$ est l’élément $r_2(j, v) =\varphi_j(v)j\psi_j(v)^{-1}j^{-1}$, pour tout $v\in \pi_1(Z,\mathsf{b}(j))$. Dans le cas restant, on a $\overline{j}\in J$ et l’égalité
 
 $$
 \rho (\mathsf{r}_2(j, v)) =\rho (\varphi_j(v)j\psi_j(v)^{-1}j^{-1})
@@ -359,7 +359,7 @@ $$
 $$
 
 $$
-= [B_2(j)]^{-1}v[B_2(j)]j^{-1}[B_1(j)]^{-1}v^{-1}[B_1(j)]j
+= [B_2(\overline{j})]^{-1}v[B_2(\overline{j})]\overline{j}^{-1}[B_1(\overline{j})]^{-1}v^{-1}[B_1(\overline{j})]\overline{j}
 $$
 
 entraîne que $\rho (\mathsf{r}_2(j, v))$ est conjugué à $\rho (\mathsf{r}_2(j, v^{-1}))$.
@@ -368,7 +368,7 @@ entraîne que $\rho (\mathsf{r}_2(j, v))$ est conjugué à $\rho (\mathsf{r}_2(j
 
 Si $k\in K_0,i_1$ = $i_2$ = $i_3,\lambda_s(k)$ est la classe du chemin trivial pour tout $s\in  \{1,2,3\},j_{st}(k)\in J_0$ pour tout couple $(s, t)\in$ $\{(1,2),(1,3),(2,3)\}$. Alors, $\rho (\mathsf{r}_3(k))$ est l’élément neutre.
 
-Supposons $k\in K_1$. Si $i_1=i_2$, alors $j= (i_1, i_3,U)\in J\cup J$ et l’on a
+Supposons $k\in K_1$. Si $i_1=i_2$, alors $j= (i_1, i_3,U)\in J\cup \overline{J}$ et l’on a
 
 $$
 \mathsf{r}_3(k) =\beta_1(j)^{-1}j_{12}\beta_1(j)j_{23}\beta_2(j)^{-1}\beta_2(j)j_{13}^{-1}
@@ -462,7 +462,7 @@ Pour le cas d’un recouvrement formé de deux ensembles, voir le n$^o3$.
 
 #### Exemple 2 {#ta-iv-s5-n2-exa-2 .statement tag=0238}
 
-Soit G un graphe (II, p. 155, définition 1) ; notons S l’ensemble des sommets de G, A l’ensemble de ses arêtes orientées, $o$ et $t$ les applications origine et terme de A dans S ; pour toute arête orientée $a\in A$, on note $a$ l’arête orientée opposée. Munissons les ensembles S et A de la topologie discrète ; soit X l’espace somme de l’espace S et de l’espace $\mathbf{I}\times A$ et soit $\sim$ la relation d’équivalence la plus fine dans X pour laquelle $(u, a)\sim (1-u, a)$, $(0, a)\sim o(a)$ et $(1, a)\sim t(a)$ pour tout $u\in \mathbf{I}$ et toute arête orientée $a\in A$. L’espace quotient $|G|= X/\sim$ est appelé la réalisation géométrique du graphe G. On note $p$ la projection canonique de X sur $|G|$.
+Soit G un graphe (II, p. 155, définition 1) ; notons S l’ensemble des sommets de G, A l’ensemble de ses arêtes orientées, $o$ et $t$ les applications origine et terme de A dans S ; pour toute arête orientée $a\in A$, on note $\overline{a}$ l’arête orientée opposée. Munissons les ensembles S et A de la topologie discrète ; soit X l’espace somme de l’espace S et de l’espace $\mathbf{I}\times A$ et soit $\sim$ la relation d’équivalence la plus fine dans X pour laquelle $(u, a)\sim (1-u, a)$, $(0, a)\sim o(a)$ et $(1, a)\sim t(a)$ pour tout $u\in \mathbf{I}$ et toute arête orientée $a\in A$. L’espace quotient $|G|= X/\sim$ est appelé la réalisation géométrique du graphe G. On note $p$ la projection canonique de X sur $|G|$.
 
 Démontrons que $|G|$ est localement contractile. Soit $s\in S$. Notons $X_s$ la réunion de $\{s\}$ et des parties $[0,1[\times  \{a\}$ pour $a\in \overset{-1}{o}(s)$ et des
 
@@ -724,7 +724,7 @@ L’armature Γ du recouvrement considéré a pour sommets l’ensemble $I'$. Se
 
 Pour $i\in I$, on choisit comme point-base $\mathsf{a}(i) =a_i\in U_i$; on pose aussi $\mathsf{a}(s) =s\in C'(X)$.
 
-Pour $j\in$ J, on pose $\mathsf{b}(j) =\alpha '_f(b_j,^1_2)$. On note $B_1(j)$ le chemin dans $C'(X)$ d’origine $\mathsf{b}(j)$ et de terme $\mathsf{a}(s)$ donné par $t\mapsto \alpha '_f(b_j,(1-t)/2)$. On note $B_2(j)$ le chemin dans $U_{\varphi(j)}$ d’origine $\mathsf{b}(j)$ et de terme $\mathsf{a}(\varphi (j)) =a_{\varphi(j)}$, juxtaposition du chemin $t\mapsto \alpha '_f(b_j,(1 +t)/2)$ et du chemin $B_j$. Alors, la classe du chemin $B(j) = B_1(j)*B_2(j)$ est égale à $\gamma_j\beta_j$.
+Pour $j\in$ J, on pose $\mathsf{b}(j) =\alpha '_f(b_j,\frac{1}{2})$. On note $B_1(j)$ le chemin dans $C'(X)$ d’origine $\mathsf{b}(j)$ et de terme $\mathsf{a}(s)$ donné par $t\mapsto \alpha '_f(b_j,(1-t)/2)$. On note $B_2(j)$ le chemin dans $U_{\varphi(j)}$ d’origine $\mathsf{b}(j)$ et de terme $\mathsf{a}(\varphi (j)) =a_{\varphi(j)}$, juxtaposition du chemin $t\mapsto \alpha '_f(b_j,(1 +t)/2)$ et du chemin $B_j$. Alors, la classe du chemin $B(j) = B_1(j)*B_2(j)$ est égale à $\gamma_j\beta_j$.
 
 On choisit $i_0=s$.
 
@@ -770,7 +770,7 @@ Supposons de plus que les composantes connexes par arcs de Y soient simplement c
 
 #### Remarque 1 {#ta-iv-s5-n5-rem-1 .statement tag=023R}
 
-Soit X un espace topologique dont les composantes connexes par arcs sont ouvertes. Soit A un sous-espace fermé de X ; notons $\iota : A\rightarrow$ X l’injection canonique, $X/A$ l’espace déduit de X par contraction de A sur un point $o$ et $p: X\rightarrow X/A$ l’application canonique. Supposons en outre que le couple $(X,A)$ possède la propriété d’extension des homotopies. L’application canonique $\rho :$ Côn$(\iota )\rightarrow X/A$ est alors une homéotopie (III, p. 255, remarque 1) et l’on déduit de la prop. 4 le calcul du groupe de Poincaré de $X/A$ en son point-base $o$. En particulier, si les composantes connexes par arcs de X sont simplement connexes par arcs, le groupe $\pi_1(X/A, o)$ est un groupe libre.
+Soit X un espace topologique dont les composantes connexes par arcs sont ouvertes. Soit A un sous-espace fermé de X ; notons $\iota : A\rightarrow$ X l’injection canonique, $X/A$ l’espace déduit de X par contraction de A sur un point $o$ et $p: X\rightarrow X/A$ l’application canonique. Supposons en outre que le couple $(X,A)$ possède la propriété d’extension des homotopies. L’application canonique $\overline{\rho}:$ Côn$(\iota )\rightarrow X/A$ est alors une homéotopie (III, p. 255, remarque 1) et l’on déduit de la prop. 4 le calcul du groupe de Poincaré de $X/A$ en son point-base $o$. En particulier, si les composantes connexes par arcs de X sont simplement connexes par arcs, le groupe $\pi_1(X/A, o)$ est un groupe libre.
 
 ### 6. Éclatement et recollement
 

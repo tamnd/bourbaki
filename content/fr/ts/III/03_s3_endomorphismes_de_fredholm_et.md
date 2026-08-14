@@ -37,7 +37,7 @@ subsections:
       pdf_page: 67
 statements: 31
 exercises: 8
-content_sha256: c209d3200e7257401f233eedf9722c0644e3e5ce76e386fb5d4706dd4bf45aac
+content_sha256: 2552816265b5f2f6cff122e098d52baab350efee3b06eb3f3d10c28ad8a64679
 ---
 
 ## § 3. ENDOMORPHISMES DE FREDHOLM ET ENDOMORPHISMES DE RIESZ
@@ -448,15 +448,15 @@ $$
 
 donc $r'$ est une rétraction linéaire continue de $j$ et Ker($v$) possède un supplémentaire topologique dans F. Cela démontre la première assertion de c). La seconde se démontre de manière analogue, en remarquant que si $s:$ Coker($u$)$\rightarrow E$ est une section linéaire continue de la surjection canonique de E sur Coker($u$), alors $p\circ s\circ q''$ en est une de la surjection canonique de F sur Coker($v$).
 
-Notons $u: E/$ Ker($u$)$\rightarrow$ Im($u$) et $v: F/$ Ker($v$)$\rightarrow$ Im($v$) les applications linéaires continues bijectives déduites de $u$ et $v$. D’après les formules (6), l’application $p$ définit par passage aux quotients une application linéaire continue $p_1: E/$ Ker($u$)$\rightarrow F/$ Ker($v$), et $p,q$ définissent par passage aux sous-espaces des applications linéaires continues $p_0:$ Im($u$)$\rightarrow$ Im($v$) et $q_0:$ Im($v$)$\rightarrow$ Im($u$).
+Notons $\overline{u}: E/$ Ker($u$)$\rightarrow$ Im($u$) et $\overline{v}: F/$ Ker($v$)$\rightarrow$ Im($v$) les applications linéaires continues bijectives déduites de $u$ et $v$. D’après les formules (6), l’application $p$ définit par passage aux quotients une application linéaire continue $p_1: E/$ Ker($u$)$\rightarrow F/$ Ker($v$), et $p,q$ définissent par passage aux sous-espaces des applications linéaires continues $p_0:$ Im($u$)$\rightarrow$ Im($v$) et $q_0:$ Im($v$)$\rightarrow$ Im($u$).
 
-Notons $t:$ Im($v$)$\rightarrow F/$ Ker($v$) l’application composée de l’injection canonique Im($v$)$\rightarrow F$ et de la surjection canonique $F\rightarrow F/$ Ker($v$); elle est continue. On a $v\circ t= 1_{Im(v)}-p_0\circ q_0$ et $v\circ p_1=p_0\circ u$, d’où
+Notons $t:$ Im($v$)$\rightarrow F/$ Ker($v$) l’application composée de l’injection canonique Im($v$)$\rightarrow F$ et de la surjection canonique $F\rightarrow F/$ Ker($v$); elle est continue. On a $\overline{v}\circ t= 1_{Im(v)}-p_0\circ q_0$ et $\overline{v}\circ p_1=p_0\circ \overline{u}$, d’où
 
 $$
-v\circ (t+p_1\circ u^{-1}\circ q_0) =v\circ t+p_0\circ q_0= 1_{Im(v)}
+\overline{v}\circ (t+p_1\circ \overline{u}^{-1}\circ q_0) =\overline{v}\circ t+p_0\circ q_0= 1_{Im(v)}
 $$
 
-Cela prouve que $t+p_1\circ u^{-1}\circ q_0$ est la bijection réciproque de $v$. Si $u$ est stricte, l’application $u^{-1}$ est continue, et il en est de même de $v^{-1}$, ce qui prouve que $v$ est stricte. Cela démontre d).
+Cela prouve que $t+p_1\circ \overline{u}^{-1}\circ q_0$ est la bijection réciproque de $\overline{v}$. Si $u$ est stricte, l’application $\overline{u}^{-1}$ est continue, et il en est de même de $\overline{v}^{-1}$, ce qui prouve que $v$ est stricte. Cela démontre d).
 
 D’après le lemme 5, si $u$ est un automorphisme de E, alors $v$ en est un de F. De même, si $u$ est un endomorphisme de Fredholm de E, alors $v$ en est un de F, et l’on a alors ind($u$) $=$ ind($v$) d’après a). Ceci démontre e) et f). Enfin, si E et F sont séparés et que $u$ est un endomorphisme de Riesz de E, alors $v$ en est un de F d’après le lemme 5 et la condition (ii) de la prop. 8 ; c’est l’assertion g).
 

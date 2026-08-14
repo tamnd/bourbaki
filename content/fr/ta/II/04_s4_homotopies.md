@@ -33,7 +33,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 0
-content_sha256: 6956963ac938e1efabb1a557db216e6d900571283a75be61d6612418368ee7fc
+content_sha256: 3b5f35e6280d55a8bf8380e253692ce4d6f91a9c8d0bf59ed8d6c8bc446bc156
 ---
 
 ## § 4. HOMOTOPIES
@@ -64,11 +64,11 @@ Soient G, $G'$ des groupoïdes, H, $H'$ des carquois, soient $u: H'\rightarrow H
 
 #### Remarque 2 {#ta-ii-s4-n1-rem-2 .statement tag=01U5}
 
-Soit G un groupoïde, soit H un carquois et soient $\varphi , \psi$ des morphismes de carquois de H dans G. Notons $j$ le morphisme canonique de H dans Grp(H), soient $\varphi$ et $\psi$ les morphismes de groupoïdes de Grp(H) dans G tels que $\varphi \circ j=\varphi$ et $\psi \circ j=\psi$.
+Soit G un groupoïde, soit H un carquois et soient $\varphi , \psi$ des morphismes de carquois de H dans G. Notons $j$ le morphisme canonique de H dans Grp(H), soient $\overline{\varphi}$ et $\overline{\psi}$ les morphismes de groupoïdes de Grp(H) dans G tels que $\overline{\varphi}\circ j=\varphi$ et $\overline{\psi}\circ j=\psi$.
 
 Rappelons que Som(H) = Som(Grp(H)).
 
-Une homotopie $h:$ Som(H) $\rightarrow$ Fl(G) reliant $\varphi$ à $\psi$ est une homotopie reliant $\varphi$ à $\psi$.
+Une homotopie $h:$ Som(H) $\rightarrow$ Fl(G) reliant $\varphi$ à $\psi$ est une homotopie reliant $\overline{\varphi}$ à $\overline{\psi}$.
 
 ### 2. Homotopismes de groupoïdes
 
@@ -466,7 +466,7 @@ L’homomorphisme Λ est surjectif ; son noyau est le plus petit sous-groupe dis
 
 L’existence et l’unicité de l’homomorphisme Λ résulte de la propriété universelle des produits libres et des groupes libres (A, I, p. 85, prop. 8).
 
-Notons A l’ensemble des $a(i)$ pour $i\in$ Orb(G) et $G_A$ le sous-groupoïde plein de G dont l’ensemble des sommets est A. Pour tout $x\in$ Som(G), notons $x$ l’orbite de $x$ dans G et choisissons une flèche $d_x$ de G reliant $x$ à $a(x)$. Le couple $v$ formé de l’application $x\mapsto a(x)$ de Som(G) dans A et de l’application qui à $f\in$ Fl$_{x,y}(G)$ associe l’élément $d^{-1}_xf d_y$ de Fl$_{a(x),a(y)}(G_A)$ est un morphisme de groupoïdes. Il résulte de la prop. 1 de II, p. 182 que $v$ est un homotopisme. Notons $\varphi '=v\circ \varphi$ et $\psi '=v\circ \psi$, puis $w$ le morphisme canonique de Coh($\varphi , \psi$ ) dans Coh($\varphi ', \psi '$) ; c’est un homotopisme (II, p. 187, théorème 1).
+Notons A l’ensemble des $a(i)$ pour $i\in$ Orb(G) et $G_A$ le sous-groupoïde plein de G dont l’ensemble des sommets est A. Pour tout $x\in$ Som(G), notons $\overline{x}$ l’orbite de $x$ dans G et choisissons une flèche $d_x$ de G reliant $x$ à $a(\overline{x})$. Le couple $v$ formé de l’application $x\mapsto a(\overline{x})$ de Som(G) dans A et de l’application qui à $f\in$ Fl$_{x,y}(G)$ associe l’élément $d^{-1}_xf d_y$ de Fl$_{a(\overline{x}),a(\overline{y})}(G_A)$ est un morphisme de groupoïdes. Il résulte de la prop. 1 de II, p. 182 que $v$ est un homotopisme. Notons $\varphi '=v\circ \varphi$ et $\psi '=v\circ \psi$, puis $w$ le morphisme canonique de Coh($\varphi , \psi$ ) dans Coh($\varphi ', \psi '$) ; c’est un homotopisme (II, p. 187, théorème 1).
 
 Les orbites de $G_A$ sont les ensembles $\{a\}$, pour $a\in A$, et l’injection $G_A\rightarrow G$ induit une bijection de Orb(G$_A)$ sur Orb(G) par laquelle nous identifierons ces deux ensembles. On définit un équipement de base $(a', b', \beta_1', \beta_2',T', i_0)$ du couple $(\varphi ', \psi ')$ en posant $a'(i) =a(i)$ pour $i\in$ Orb(G)$,b'(j) =b(j),\beta_1'(j) =v(c_1(j)),\beta_2'(j) =v(c_2(j))$ pour $j\in$ Orb(H) et $T'= T$. Les homomorphismes de groupes $\varphi '_j$ et $\psi '_j$ (pour $j\in$ Orb(H)), le morphisme de carquois $\tau_0'$, les flèches $\delta_i'$ (pour $i\in$ Orb(G)), et donc l’homomorphisme de groupes $\Lambda '$, déduits de cet équipement de base sont les composés avec $w$ des homomorphismes correspondants $\varphi_j,\psi_j$, du morphisme de carquois $\tau_0$, des flèches correspondantes $\delta_i$ et de l’homomorphisme Λ.
 

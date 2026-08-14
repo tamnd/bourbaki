@@ -29,7 +29,7 @@ subsections:
       pdf_page: 165
 statements: 12
 exercises: 16
-content_sha256: 68416a9d214702b4eca05fde66d670a50e9ced5b1715e7bbcb79d7fd9795a8c8
+content_sha256: 4d86b04a3d0a3385c9979c7d5a9a83e7e6f7bf558e00dc37fd87a4e49b99ee0b
 ---
 
 ## § 9. THE FORMULA OF HERMANN WEYL
@@ -285,7 +285,7 @@ $$
 1 + 1 + 1 + 1 +
 
 $$
-^1_23_21_2+^3_21 +^3_2
+\frac{1}{2}\frac{3}{2}\frac{1}{2}+\frac{3}{2}1 +\frac{3}{2}
 $$
 
 $$

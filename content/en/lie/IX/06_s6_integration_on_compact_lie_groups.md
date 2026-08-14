@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: b4f0de44d1619bc350bca1bb7ad3da1fea92b250a1806c808dd52f47490eb8f2
+content_sha256: 69f834c1107c78bebb40bc441cbf08e91c3513989d6c2e3face0ac2292335933
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
@@ -210,17 +210,17 @@ hence the lemma.
 
 #### Theorem 1 (H. Weyl) {#lie-ix-s6-thm-1 .statement tag=01F1}
 
-The measure $dg$ on G is the image under the map $(g, t) \rightarrow gtg^{-1}$ from $G\times T$ to G of the measure $dg\otimes_{w(G)}^1\delta_Gdt$, where
+The measure $dg$ on G is the image under the map $(g, t) \rightarrow gtg^{-1}$ from $G\times T$ to G of the measure $dg\otimes \frac{1}{w(G)}\delta_Gdt$, where
 
 $\delta_G(t) =$ det(Ad$_{\mathfrak{g}/\mathfrak{t}}(t)-1) =\prod_{\alpha\in R(G,T)}(t^{\alpha}-1)$.
 
-Equivalently (Integration, Chap. V, §6, no. 3, Prop. $4),dg$ is the image under the map $f: (G/T)\times T\rightarrow G$ of the measure $\mu\otimes_{w(G)}^1\delta_Gdt$.
+Equivalently (Integration, Chap. V, §6, no. 3, Prop. $4),dg$ is the image under the map $f: (G/T)\times T\rightarrow G$ of the measure $\mu\otimes \frac{1}{w(G)}\delta_Gdt$.
 
 We prove the last assertion. It follows from §5, no. 1 and Differentiable and Analytic Manifolds, Results$, 10.1.3c)$ that G**--** $G_r$ is negligible in G and T **--** $T_r$ is negligible in T. Further, the map $f_r$ makes $(G/T)\times T_r$ a principal covering of $G_r$, with group W (§5, no. 4, Prop. $4b))$. The theorem now follows from Lemma 3 and Integration, Chap. V, §6, no. 6, Prop. 11.
 
 #### Corollary 1 {#lie-ix-s6-thm-1-cor-1 .statement tag=01F2}
 
-(i) Let $\varphi$ be an integrable function on G with values in a Banach space or in $\mathbf{R}$. For almost all $t\in T$, the function $g \rightarrow \varphi (gtg^{-1})$ on G is integrable for $dg$. The function $t \rightarrow \delta_G(t)\int_G\varphi (gtg^{-1})dg$ is integrable on T, and we have
+(i) Let $\varphi$ be an integrable function on G with values in a Banach space or in $\overline{\mathbf{R}}$. For almost all $t\in T$, the function $g \rightarrow \varphi (gtg^{-1})$ on G is integrable for $dg$. The function $t \rightarrow \delta_G(t)\int_G\varphi (gtg^{-1})dg$ is integrable on T, and we have
 
 $\int$ 1 $\int(\int_{-1})$
 
@@ -250,7 +250,7 @@ Since the map $f$ is induced by passage to the quotient from the map $(g, t) \ri
 
 #### Corollary 2 {#lie-ix-s6-thm-1-cor-2 .statement tag=01F3}
 
-Let $\varphi$ be a central function on G (that is, such that $\varphi (gh) =$ $\varphi (hg)$ for all $g$ and $h$ in G) with values in a Banach space or in $\mathbf{R}$.
+Let $\varphi$ be a central function on G (that is, such that $\varphi (gh) =$ $\varphi (hg)$ for all $g$ and $h$ in G) with values in a Banach space or in $\overline{\mathbf{R}}$.
 
 a$)\varphi$ is measurable if and only if its restriction to T is measurable.
 
@@ -266,7 +266,7 @@ $$
 _Gw(G)_T
 $$
 
-Denote by $p: G/T\times T\rightarrow T$ the second projection. We have $\varphi \circ f$ = $(\varphi |T)\circ p$; further, the image under $p$ of the measure $\mu\otimes_{w(G)}^1\delta_Gdt$ is $_{w(G)}^1\delta_Gdt$. The corollary now follows from Th. 1 above and Th. 1 of Integration, Chap. V, §6, no. 2, applied to the two proper maps $f$ and $p$.
+Denote by $p: G/T\times T\rightarrow T$ the second projection. We have $\varphi \circ f$ = $(\varphi |T)\circ p$; further, the image under $p$ of the measure $\mu\otimes \frac{1}{w(G)}\delta_Gdt$ is $\frac{1}{w(G)}\delta_Gdt$. The corollary now follows from Th. 1 above and Th. 1 of Integration, Chap. V, §6, no. 2, applied to the two proper maps $f$ and $p$.
 
 #### Corollary 3 {#lie-ix-s6-thm-1-cor-3 .statement tag=01F4}
 
@@ -314,7 +314,7 @@ where $\pi$ denotes the canonical projection of T onto $T/W$. Cor. 2 means that 
 
 #### Remark 3 {#lie-ix-s6-n2-rem-3 .statement tag=01F7}
 
-Assume that G is simply-connected. Let A be an alcove of $\mathfrak{t}$, and $dx$ the Haar measure on $\mathfrak{t}$ such that $\int_Adx= 1$. Then the measure $\nu$ can also be obtained by transporting the measure $_{w(G)}^1\prod_{\alpha\in R_+(G,T)}4$ sin$^2\pi \widehat{\alpha}(x)dx$ on A by
+Assume that G is simply-connected. Let A be an alcove of $\mathfrak{t}$, and $dx$ the Haar measure on $\mathfrak{t}$ such that $\int_Adx= 1$. Then the measure $\nu$ can also be obtained by transporting the measure $\frac{1}{w(G)}\prod_{\alpha\in R_+(G,T)}4$ sin$^2\pi \widehat{\alpha}(x)dx$ on A by
 
 the homeomorphism $A\rightarrow T/W ($§5, no. 2, Cor. 1 of Prop. 2).
 
@@ -328,7 +328,7 @@ A corresponding to the conjugacy class of $-_{i\theta}$ . Let $d\theta$ be Lebes
 
 0 $e$
 
-measure on $0, \pi$; it follows from the preceding that the image on A of the Haar measure on G is the measure $^2_{\pi}$ sin$^2\theta  d\theta$.
+measure on $0, \pi$; it follows from the preceding that the image on A of the Haar measure on G is the measure $\frac{2}{\pi}$ sin$^2\theta  d\theta$.
 
 ### 3. INTEGRATION ON LIE ALGEBRAS
 
@@ -360,7 +360,7 @@ $(\omega_H$(exp $x))(T_x$(exp)($x_1$)$, . . . ,T_x$(exp)($x_m$))
 
 $=\omega_H(e)((x).x_1, . . . , (x).x_m) =$ (det $(x))\omega_{\mathfrak{h}}(x_1, . . . , x_m)$;
 
-thus, exp$^*\omega_H=\lambda_{\mathfrak{h}}\omega_{\mathfrak{h}}$, with $\lambda_{\mathfrak{h}}(x) =$ det $(x) =$ det$^{exp ad}_{adx}^{x-1}$ (Chap. III, §6, no. 4, Prop. 12).
+thus, exp$^*\omega_H=\lambda_{\mathfrak{h}}\omega_{\mathfrak{h}}$, with $\lambda_{\mathfrak{h}}(x) =$ det $(x) =$ det$\frac{exp ad x-1}{ad x}$ (Chap. III, §6, no. 4, Prop. 12).
 
 Let $h\in H$; since Ad $h$ is an automorphism of $\mathfrak{h}$, we have
 
@@ -428,7 +428,7 @@ Choose invariant differential forms $\omega_G$ on G and $\omega_T$ on T, of maxi
 
 #### Proposition 4 {#lie-ix-s6-prop-4 .statement tag=01FC}
 
-The measure $dz$ on $\mathfrak{g}$ is the image under the proper map $(g, x) \rightarrow$ (Ad $g)(x)$ from $G\times \mathfrak{t}$ to $\mathfrak{g}$ of the measure $dg\otimes_{w(G)}^1\pi_{\mathfrak{g}}dx$.
+The measure $dz$ on $\mathfrak{g}$ is the image under the proper map $(g, x) \rightarrow$ (Ad $g)(x)$ from $G\times \mathfrak{t}$ to $\mathfrak{g}$ of the measure $dg\otimes \frac{1}{w(G)}\pi_{\mathfrak{g}}dx$.
 
 We leave to the reader the statement and proof of the analogues of Cor. 1 to 3 and Remarks 1 to 3 of no. 2. For example, let $\varphi$ be an integrable function on $\mathfrak{g}$ (with values in a Banach space or $\mathbf{R})$; then
 
@@ -502,7 +502,7 @@ $$
 
 with $\varepsilon (x, u) =u(x)$; the map $\varepsilon$ being continuous (General Topology, Chap. X, §3, no. 4, Cor. 1 of Th. $3),g$ is continuous.
 
-Let $(h_0, x_0)\in H\times X$; we shall prove that $f_1$ is continuous at $(h_0, x_0)$. There exist charts $(U, \psi ,F)$ and $(V, \chi ,F')$ of X and an open subset $\Omega$ of H such that $x_0\in U, h_0\in \Omega$ and $m(\Omega \times U)\subset V$. By using the expression for $J^k(X,X)$ in these charts, we are reduced to proving, for $1\leq l\leq k$, the continuity at $(h_0, x_0)$ of the map $(h, x) \rightarrow \Delta^l_x(\tau_h)$ from $\Omega \times U$ to $P_l(F; F')$, with $\Delta^l_x(\tau_h)(v) =$ $_{l!}^1D^l\tau_h(x).v$ for $v\in F ($Differentiable and Analytic Manifolds, Results, 12.2). But $D^l\tau_h(x)$ is simply the $l$th partial derivative of $m(h, x)$ with respect to $x$, which is continuous by hypothesis; consequently, $f_1$ is continuous. The proof that $f_2$ is continuous is similar, hence the lemma.
+Let $(h_0, x_0)\in H\times X$; we shall prove that $f_1$ is continuous at $(h_0, x_0)$. There exist charts $(U, \psi ,F)$ and $(V, \chi ,F')$ of X and an open subset $\Omega$ of H such that $x_0\in U, h_0\in \Omega$ and $m(\Omega \times U)\subset V$. By using the expression for $J^k(X,X)$ in these charts, we are reduced to proving, for $1\leq l\leq k$, the continuity at $(h_0, x_0)$ of the map $(h, x) \rightarrow \Delta^l_x(\tau_h)$ from $\Omega \times U$ to $P_l(F; F')$, with $\Delta^l_x(\tau_h)(v) =$ $\frac{1}{l!}D^l\tau_h(x).v$ for $v\in F ($Differentiable and Analytic Manifolds, Results, 12.2). But $D^l\tau_h(x)$ is simply the $l$th partial derivative of $m(h, x)$ with respect to $x$, which is continuous by hypothesis; consequently, $f_1$ is continuous. The proof that $f_2$ is continuous is similar, hence the lemma.
 
 #### Proposition 5 {#lie-ix-s6-prop-5 .statement tag=01FE}
 

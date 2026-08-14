@@ -45,7 +45,7 @@ subsections:
       pdf_page: 152
 statements: 24
 exercises: 16
-content_sha256: 01be4b24f732bc25a789742fe7965095764534270d93cf8168a9024d253ab214
+content_sha256: e640f048c43e6160963cc55a660e9e02d632abd72a53614d254e078a3e942768
 ---
 
 ## § 7. SPECTRE DES ENDOMORPHISMES DES ESPACES DE BANACH
@@ -252,7 +252,7 @@ b) Si $H_1$ et $H_2$ sont des parties disjointes, ouvertes et fermées du spectr
 
 c) Si $\lambda \in \mathbf{C}$ est un point isolé du spectre de $u$, alors $\lambda$ est une valeur propre de $u$ et l’image du projecteur spectral $e_{\lambda}(u)$ est l’espace propre de $u$ relatif à $\lambda$.
 
-Démontrons a). Comme le calcul fonctionnel holomorphe est compatible avec le calcul fonctionnel continu (I, p. 111, cor. 1), on a $e_H(u) =\varphi_H(u)$, où $\varphi_H\in \mathscr{C}$ (Sp($u$)) est la fonction caractéristique de H. Cela implique $e_H(u)^*=\varphi_H(u) =\varphi_H(u) =e_H(u)$, donc $e_H(u)$ est un orthoprojecteur (lemme 3, (ii)). Son noyau est l’image du projecteur $1-e_H(u) =e_{Sp(u)-H}(u)$.
+Démontrons a). Comme le calcul fonctionnel holomorphe est compatible avec le calcul fonctionnel continu (I, p. 111, cor. 1), on a $e_H(u) =\varphi_H(u)$, où $\varphi_H\in \mathscr{C}$ (Sp($u$)) est la fonction caractéristique de H. Cela implique $e_H(u)^*=\overline{\varphi}_H(u) =\varphi_H(u) =e_H(u)$, donc $e_H(u)$ est un orthoprojecteur (lemme 3, (ii)). Son noyau est l’image du projecteur $1-e_H(u) =e_{Sp(u)-H}(u)$.
 
 Démontrons b). Les fonctions caractéristiques $\varphi_{H_1}$ et $\varphi_{H_2}$ de $H_1$ et $H_2$ dans Sp($u$) sont continues et leur produit est nul, ce qui implique $e_{H_1}(u)\circ e_{H_2}(u) =e_{H_2}(u)\circ e_{H_1}(u) = 0$. Les inclusions $E_{H_2}(u)\subset E_{H_1}(u)^{\circ}$ et $E_{H_1}(u)\subset E_{H_2}(u)^{\circ}$ en résultent.
 
@@ -302,11 +302,11 @@ $$
 \surd
 $$
 
-orthoprojecteurs de rang 1 de E est la sphère S de rayon $1/$ 2 centrée en $^1_21_E$ dans le sous-espace affine de dimension 3 des endomorphismes de trace 1 dans $\mathscr{L}(E)_h$.
+orthoprojecteurs de rang 1 de E est la sphère S de rayon $1/$ 2 centrée en $\frac{1}{2}1_E$ dans le sous-espace affine de dimension 3 des endomorphismes de trace 1 dans $\mathscr{L}(E)_h$.
 
 Soit F le sous-espace affine réel de $\mathscr{L}(E)_h$ formé des éléments de trace 1. Les orthoprojecteurs de rang 1 de E appartiennent à F (lemme 3, (ii)).
 
-Soit $u\in F$. On a $\|u-^1_21_E\|^2=$ Tr($u^2-u+^1_4$) $=$ Tr($u^2$)$-^1_2$. Par conséquent, $u\in S$ si et seulement si Tr($u^2$) $= 1$. Puisque 2 det($u$) $=$ Tr($u$)$^2-$ Tr($u^2$) $= 1-$ Tr($u^2$), cette condition équivaut à det($u$) $= 0$. D’après le théorème de Hamilton–Cayley (A, III, p. 107, prop. 20), on a donc $u\in S$ si et seulement si $u^2-u= 0$, ce qui signifie que $u$ est un projecteur hermitien de rang 1 (loc. cit.), d’où le résultat.
+Soit $u\in F$. On a $\|u-\frac{1}{2}1_E\|^2=$ Tr($u^2-u+\frac{1}{4}$) $=$ Tr($u^2$)$-\frac{1}{2}$. Par conséquent, $u\in S$ si et seulement si Tr($u^2$) $= 1$. Puisque 2 det($u$) $=$ Tr($u$)$^2-$ Tr($u^2$) $= 1-$ Tr($u^2$), cette condition équivaut à det($u$) $= 0$. D’après le théorème de Hamilton–Cayley (A, III, p. 107, prop. 20), on a donc $u\in S$ si et seulement si $u^2-u= 0$, ce qui signifie que $u$ est un projecteur hermitien de rang 1 (loc. cit.), d’où le résultat.
 
 #### Lemme 6 {#ts-i-s7-lem-6 .statement tag=02GE}
 

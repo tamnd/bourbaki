@@ -45,7 +45,7 @@ subsections:
       pdf_page: 467
 statements: 39
 exercises: 23
-content_sha256: d9a7e786cf34b167d022ccb5300bbe4f371298e4b7d07af369c31dfd609152f1
+content_sha256: dc055543a3bf644ab6de944269b86dbe94fca664b1eab100d6a1ae1a413a4b1a
 ---
 
 ## § 3. FONCTIONS DE TYPE POSITIF
@@ -63,7 +63,7 @@ Soit $f\in \mathscr{C}(X\times X)$. Les conditions suivantes sont équivalentes 
 (i) Pour toute partie compacte Y de X et toute mesure positive $\mu$ sur Y, l’endomorphisme de $L^2(Y, \mu)$ défini par le noyau $f|(Y\times Y)$ (déf. 1 de III, p. 29) est positif, autrement dit, on a
 
 $$
-\int_{Y\times Y}h(x)h(y)f(x, y)d(\mu\otimes \mu)(x, y)\geqslant 0
+\int_{Y\times Y}\overline{h(x)}h(y)f(x, y)d(\mu\otimes \mu)(x, y)\geqslant 0
 $$
 
 pour tout $h\in \mathscr{L}^2(Y, \mu)$;
@@ -71,7 +71,7 @@ pour tout $h\in \mathscr{L}^2(Y, \mu)$;
 (ii) Pour tout entier $n\in \mathbf{N}$, toute famille $(x_i)_{0\leqslant i\leqslant n}$ dans X et toute famille $(t_i)_{0\leqslant i\leqslant n}$ de nombres complexes, on a
 
 $$
-\sum_{i=0}^n\sum_{j=0}^nt_it_jf(x_i, x_j)\geqslant 0
+\sum_{i=0}^n\sum_{j=0}^n\overline{t}_it_jf(x_i, x_j)\geqslant 0
 $$
 
 (iii) Il existe un espace hilbertien complexe E et une application continue $g: X\rightarrow E$ d’image totale telle que $f(x, y) =\langle g(x)|g(y)\rangle$ pour tous $x$ et $y$ dans X ;
@@ -89,11 +89,11 @@ $x_i=x$
 Démontrons que (iv) implique (i). Supposons qu’il existe un espace hilbertien complexe E et une application continue $g: X\rightarrow E$ tels que $f(x, y) =\langle g(x)|g(y)\rangle$ pour tout $(x, y)\in X\times X$. Soient Y une partie compacte de $X,\mu$ une mesure positive sur Y et $h\in \mathscr{L}^2(Y, \mu)$. On a
 
 $$
-\int_{Y\times Y}h(x)h(y)f(x, y)d(\mu\otimes \mu)(x, y)
+\int_{Y\times Y}\overline{h(x)}h(y)f(x, y)d(\mu\otimes \mu)(x, y)
 $$
 
 $$
-=\int_{Y\times Y}h(x)h(y)\langle g(x)|g(y)\rangle d(\mu\otimes \mu)(x, y)
+=\int_{Y\times Y}\overline{h(x)}h(y)\langle g(x)|g(y)\rangle d(\mu\otimes \mu)(x, y)
 $$
 
 = $\int_Yh(x)g(x)d\mu(x)\int_Yh(y)g(y)d\mu(y)\geqslant 0$ d’après INT, V, p. 97, § 8, n$^o4$, prop. 9.
@@ -101,13 +101,13 @@ $$
 Démontrons enfin que (ii) implique (iii). Soit $\widetilde{E}$ l’espace des mesures complexes à support fini sur X. Pour $\mu_1$ et $\mu_2$ dans $\widetilde{E}$, on pose
 
 $$
-\langle \mu_1|\mu_2\rangle =\int_{X\times X}f(x, y) (\mu_1\otimes \mu_2)(x, y)
+\langle \mu_1|\mu_2\rangle =\int_{X\times X}f(x, y) (\overline{\mu}_1\otimes \mu_2)(x, y)
 $$
 
 La forme sesquilinéaire ainsi définie sur $\widetilde{E}$ est une forme hermitienne positive. En effet, soit $\mu\in \widetilde{E}$; il existe une famille finie $(x_i)_{0\leqslant i\leqslant n}$ dans X et des nombres complexes $(t_i)_{0\leqslant i\leqslant n}$ tels que $\mu=\sum^n_{i=0}t_i\varepsilon_{x_i}$. On a alors
 
 $$
-\langle \mu|\mu\rangle =\sum_{i=0}^n\sum_{j=0}^nt_it_jf(x_i, x_j)\geqslant 0
+\langle \mu|\mu\rangle =\sum_{i=0}^n\sum_{j=0}^n\overline{t}_it_jf(x_i, x_j)\geqslant 0
 $$
 
 par hypothèse. On définit $\widetilde{g}: X\rightarrow \widetilde{E}$ par $\widetilde{g}(x) =\varepsilon_x$. L’image de l’application $\widetilde{g}$ engendre $\widetilde{E}$. De plus, pour tout $(x, y)\in X\times X$, on a d’une part $f(x, y) =\langle \widetilde{g}(x)|\widetilde{g}(y)\rangle$ et d’autre part
@@ -141,11 +141,11 @@ L’unicité de $u$ résulte du fait que l’image de $g_1$ est totale dans $E_1
 Soit $t=\sum t_xe_x$ un élément de F. On a
 
 $$
-\|u_1(t)\|^2=\sum_{x,y}t_xt_y\langle g_1(x)|g_1(y)\rangle =\sum_{x,y}t_xt_yf(x, y)
+\|u_1(t)\|^2=\sum_{x,y}\overline{t}_xt_y\langle g_1(x)|g_1(y)\rangle =\sum_{x,y}\overline{t}_xt_yf(x, y)
 $$
 
 $$
-=\sum_{x,y}t_xt_y\langle g_2(x)|g_2(y)\rangle =\|u_2(t)\|^2
+=\sum_{x,y}\overline{t}_xt_y\langle g_2(x)|g_2(y)\rangle =\|u_2(t)\|^2
 $$
 
 Par conséquent, il existe une application linéaire isométrique $v$ de $F_1$ dans $F_2$ telle que $u_2=v\circ u_1$, et en particulier $g_2(x) =v(g_1(x))$ pour tout $x\in X$. Puisque l’image de $g_1$ est totale dans $E_1$, cette application se prolonge en une application linéaire isométrique $u$ de $E_1$ dans $E_2$ telle que $g_2=u\circ g_1$.
@@ -164,7 +164,7 @@ La caractérisation (ii) de Noy$_+(X)$ (th. 1) implique que cet ensemble est fer
 
 ### 2. Complément sur le calcul fonctionnel holomorphe
 
-Pour toute partie X de $\mathbf{C}$, on note $X^*$ l’image de X par la conjugaison complexe. Soient U une partie ouverte de $\mathbf{C}$ et $g: U\rightarrow \mathbf{C}$ une fonction holomorphe. La fonction $f^*:z\mapsto g(z)$ est alors définie et holomorphe sur $U^*$. L’application $f\mapsto f^*$ est une bijection continue de $\mathscr{O}(U)$ dans $\mathscr{O}(U^*)$ telle que $(f_1f_2)^*=f_1^*f_2^*$ et $(f_1+f_2)^*=f_1^*+f_2^*$ pour $f_1$ et $f_2$ dans $\mathscr{O}(U)$.
+Pour toute partie X de $\mathbf{C}$, on note $X^*$ l’image de X par la conjugaison complexe. Soient U une partie ouverte de $\mathbf{C}$ et $g: U\rightarrow \mathbf{C}$ une fonction holomorphe. La fonction $f^*:z\mapsto g(\overline{z})$ est alors définie et holomorphe sur $U^*$. L’application $f\mapsto f^*$ est une bijection continue de $\mathscr{O}(U)$ dans $\mathscr{O}(U^*)$ telle que $(f_1f_2)^*=f_1^*f_2^*$ et $(f_1+f_2)^*=f_1^*+f_2^*$ pour $f_1$ et $f_2$ dans $\mathscr{O}(U)$.
 
 Soit C une partie compacte de $\mathbf{C}$. Les applications $f\mapsto f^*$ de $\mathscr{O}(U)$ dans $\mathscr{O}(U^*)$ pour U parcourant les parties ouvertes de $\mathbf{C}$ contenant C induisent une bijection continue de l’espace $\mathscr{O}(C)$ dans $\mathscr{O}(C^*)$(I, p. 49, n$^o1$), qui est également notée $f\mapsto f^*$ et qui vérifie $(f_1f_2)^*=f_1^*f_2^*$ et $(f_1+f_2)^*=f_1^*+f_2^*$ pour $f_1$ et $f_2$ dans $\mathscr{O}(C)$.
 
@@ -218,7 +218,7 @@ Soit A une algèbre de Banach involutive. L’ensemble $A'_+$ est un cône conve
 
 Soient A une algèbre de Banach involutive et $\lambda$ une forme linéaire positive sur A.
 
-a) Pour tous $a$ et $b$ dans A, on a $\lambda (a^*b) =\lambda (b^*a)$ et
+a) Pour tous $a$ et $b$ dans A, on a $\lambda (a^*b) =\overline{\lambda(b^*a)}$ et
 
 $$
 |\lambda (a^*b)|^2\leqslant \lambda (a^*a)\lambda (b^*b)
@@ -246,7 +246,7 @@ Soit X un espace topologique compact et soit A l’algèbre stellaire $\mathscr{
 
 Soit A une algèbre de Banach unifère involutive admettant une unité approchée (I, p. 120, déf. 7). Soit $\lambda$ une forme linéaire positive continue sur A.
 
-a) Pour tout $a$ dans A, on a $\lambda (a^*) =\lambda (a)$ et $|\lambda (a)|^2\leqslant \|\lambda \|\lambda (a^*a)$;
+a) Pour tout $a$ dans A, on a $\lambda (a^*) =\overline{\lambda(a)}$ et $|\lambda (a)|^2\leqslant \|\lambda \|\lambda (a^*a)$;
 
 b) Soit $\widetilde{A}$ l’algèbre involutive obtenue à partir de A par adjonction d’un élément unité et soit $e$ son élément unité. Il existe une forme linéaire positive continue $\widetilde{\lambda}$ sur $\widetilde{A}$ qui prolonge $\lambda$ et telle que $\widetilde{\lambda}(e) =\|\lambda \|$;
 
@@ -254,7 +254,7 @@ c) Pour tous $a$ et $b$ dans A, on a $|\lambda (b^*ab)|\leqslant \|a\|\lambda (b
 
 Démontrons a). Soit $\mathfrak{F}$ une unité approchée de A. Soit $a\in A$. En utilisant le lemme 2, a) et la définition d’une unité approchée, on trouve
 
-$\lambda (a^*) =$ lim$_{f,\mathfrak{F}}\lambda (f a^*) =$ lim$_{f,\mathfrak{F}}\lambda (af^*) =$ lim$_{f,\mathfrak{F}}\lambda ((f a^*)^*) =\lambda (a)$,
+$\lambda (a^*) =$ lim$_{f,\mathfrak{F}}\lambda (f a^*) =$ lim$_{f,\mathfrak{F}}\lambda (af^*) =$ lim$_{f,\mathfrak{F}}\lambda ((f a^*)^*) =\overline{\lambda(a)}$,
 
 d’où (loc. cit.)
 
@@ -293,7 +293,7 @@ donc $\lambda$ est une forme linéaire positive sur A ; elle est continue puisqu
 Démontrons b). La fonction $f$ est continue. Pour tout $n\in \mathbf{N}$, toute famille $(a_i)_{0\leqslant i\leqslant n}$ dans A et toute famille $(t_i)_{0\leqslant i\leqslant n}$ de nombres complexes, on a
 
 $$
-\sum_{i=0}^n\sum_{j=0}^nt_it_jf(a_i, a_j) =\lambda \sum_{i=0}^nt_ia_i^*\sum_{j=0}^nt_ja_j\geqslant 0
+\sum_{i=0}^n\sum_{j=0}^n\overline{t}_it_jf(a_i, a_j) =\lambda \sum_{i=0}^nt_ia_i^*\sum_{j=0}^nt_ja_j\geqslant 0
 $$
 
 d’où le résultat (déf. 1 de V, p. 433).
@@ -593,7 +593,7 @@ Comme $\varphi_j(e) =\varphi (e) = 1$, on en déduit que $\varphi_j=\varphi$ si 
 Soit $\varphi \in$ Pos(G). La fonction $\varphi$ est bornée sur G et on a $\|\varphi \|_{\infty}=\varphi (e)$. De plus, on a
 
 $$
-|\varphi (g^{-1}h)-\varphi (h)|\leqslant 2\varphi (e)(\varphi (e)-\mathscr{R}(\varphi (g))) \tag{1}
+|\varphi (g^{-1}h)-\varphi (h)|\leqslant \overline{2\varphi(e)(\varphi(e) -\mathscr{R}(\varphi(g)))} \tag{1}
 $$
 
 pour tout $(g, h)\in G\times G$.
@@ -841,7 +841,7 @@ Comme B est bornée et que la représentation régulière gauche de G dans $L^1(
 Soit $\psi \in L^1(G)$ telle que $\psi \geqslant 0$ et $\int\psi = 1$. Notons $p$ la semi-norme sur $\mathscr{C}_b(G)$ définie par $p(\varphi ) =|\langle \varphi , \psi \rangle |$ pour tout $\varphi \in \mathscr{C}_b(G)$. Pour tout $\varphi \in$ Pos$_1(G)$, on a
 
 $$
-\|\psi *\varphi -\varphi \|_{\infty}\leqslant 2p(1-\varphi )
+\|\psi *\varphi -\varphi \|_{\infty}\leqslant \overline{2p(1 -\varphi)}
 $$
 
 Soient $\varphi \in$ Pos$_1(G)$ et $x\in G$. D’après INT, VIII, p. 167, § 4, n$^o5$, prop. 14, on obtient
@@ -855,7 +855,7 @@ $$
 $$
 
 $$
-\leqslant \int_G2(1-\mathscr{R}\varphi (y))\psi (y)d\mu(y)
+\leqslant \int_G\overline{2(1 -\mathscr{R}\varphi(y))}\psi (y)d\mu(y)
 $$
 
 en appliquant la majoration (1) de V, p. 446. L’inégalité de CauchySchwarz implique alors
@@ -911,7 +911,7 @@ Notons $q_V$ la semi-norme $\varphi \mapsto  |\langle \varphi , \psi_V\rangle |$
 Soit $\varphi \in U\cap$ Pos$_1(G)$. D’après le lemme 7, on a
 
 $$
-\|(\iota -u)(\varphi )\|_{\infty}\leqslant 2q_V(1-\varphi )\leqslant \varepsilon
+\|(\iota -u)(\varphi )\|_{\infty}\leqslant \overline{2q_V(1 -\varphi)}\leqslant \varepsilon
 $$
 
 donc $(\iota -u)(U)\subset W$. Le théorème est démontré.
@@ -961,7 +961,7 @@ Une fonction continue $\varphi$ sur $\widehat{G}$ appartient à Pos($\widehat{G}
 Soit $\nu \in \mathscr{M}^1(G)$ une mesure positive. Sa transformée de Fourier est continue. Pour toute famille finie $(x_i)_{i\in I}$ dans $\widehat{G}$ et toute famille finie $(t_i)_{i\in I}$ de nombres complexes, il vient
 
 $$
-\sum_{i\in I}\sum_{j\in I}t_it_j\mathscr{F}(\nu )(x^{-1}_ix_j) =\sum_{i\in I}\sum_{j\in I}t_it_j\int_Gx_ix_jd\nu
+\sum_{i\in I}\sum_{j\in I}\overline{t}_it_j\mathscr{F}(\nu )(x^{-1}_ix_j) =\sum_{i\in I}\sum_{j\in I}\overline{t}_it_j\int_Gx_i\overline{x}_jd\nu
 $$
 
 $\int$ 2

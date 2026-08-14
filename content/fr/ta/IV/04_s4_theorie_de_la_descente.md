@@ -45,7 +45,7 @@ subsections:
       pdf_page: 418
 statements: 29
 exercises: 0
-content_sha256: 6bcb0dbabba5c5daffe7d92252651adcb290ae73aaf48cfb78c91fe6d0ece0e9
+content_sha256: 5d39d505050b616e52ba8a385d1a8c7edee8f4515a74a82d797ae9795d5ab8c4
 ---
 
 ## § 4. THÉORIE DE LA DESCENTE
@@ -156,15 +156,15 @@ $$
 \tau '(\varphi (z), x) =\varphi (\tau (z, x))
 $$
 
-pour tout $(z, x)\in Z\times_YX$. Il revient au même de dire que les images par $\varphi$ de deux points équivalents suivant la relation $R_{\tau}$ sont équivalents suivant la relation $R_{\tau'}$. Un tel morphisme $\varphi$ définit, par passage aux quotients, une application continue $\varphi : Z/R_{\tau}\rightarrow Z'/R_{\tau'}$; c’est un morphisme de Y-espaces.
+pour tout $(z, x)\in Z\times_YX$. Il revient au même de dire que les images par $\varphi$ de deux points équivalents suivant la relation $R_{\tau}$ sont équivalents suivant la relation $R_{\tau'}$. Un tel morphisme $\varphi$ définit, par passage aux quotients, une application continue $\overline{\varphi}: Z/R_{\tau}\rightarrow Z'/R_{\tau'}$; c’est un morphisme de Y-espaces.
 
 Notons $\mathscr{C}_{\tau ,\tau'}(Z; Z')$ l’ensemble des X-morphismes de Z dans $Z'$ qui sont compatibles avec les données de descente $\tau$ et $\tau '$.
 
 #### Proposition 3 {#ta-iv-s4-prop-3 .statement tag=022E}
 
-Soient X et Y des espaces topologiques et soit $f: X\rightarrow$ Y une application continue. Soient $(Z, p)$ et $(Z', p')$ des X-espaces munis de données de descente relatives à $f$, notées respectivement $\tau$ et $\tau '$. Si la donnée de descente $\tau '$ est effective, l’application $\varphi \mapsto \varphi$ est une bijection de $\mathscr{C}_{\tau ,\tau'}(Z; Z')$ sur $\mathscr{C}_Y(Z/R_{\tau}; Z'/R_{\tau'})$.
+Soient X et Y des espaces topologiques et soit $f: X\rightarrow$ Y une application continue. Soient $(Z, p)$ et $(Z', p')$ des X-espaces munis de données de descente relatives à $f$, notées respectivement $\tau$ et $\tau '$. Si la donnée de descente $\tau '$ est effective, l’application $\varphi \mapsto \overline{\varphi}$ est une bijection de $\mathscr{C}_{\tau ,\tau'}(Z; Z')$ sur $\mathscr{C}_Y(Z/R_{\tau}; Z'/R_{\tau'})$.
 
-Pour tout X-morphisme $\varphi$ de Z dans $Z'$ compatible avec les données de descente, l’application $\varphi$ est un Y-morphisme. Inversement, notons $g: Z\rightarrow Z/R_{\tau}$ et $g': Z'\rightarrow Z'/R_{\tau'}$ les applications canoniques et soit $\psi : Z/R_{\tau}\rightarrow Z'/R_{\tau'}$ un Y-morphisme. Les applications $p: Z\rightarrow X$ et $\psi \circ g: Z\rightarrow Z'/R_{\tau'}$ sont des Y-morphismes. L’hypothèse que la donnée de descente $\tau '$ est effective signifie que le diagramme
+Pour tout X-morphisme $\varphi$ de Z dans $Z'$ compatible avec les données de descente, l’application $\overline{\varphi}$ est un Y-morphisme. Inversement, notons $g: Z\rightarrow Z/R_{\tau}$ et $g': Z'\rightarrow Z'/R_{\tau'}$ les applications canoniques et soit $\psi : Z/R_{\tau}\rightarrow Z'/R_{\tau'}$ un Y-morphisme. Les applications $p: Z\rightarrow X$ et $\psi \circ g: Z\rightarrow Z'/R_{\tau'}$ sont des Y-morphismes. L’hypothèse que la donnée de descente $\tau '$ est effective signifie que le diagramme
 
 $$
 {Z'}^{g'}Z'/R_{\tau'}
@@ -174,7 +174,7 @@ $p'q'$
 
 X $^f$ Y
 
-est un carré cartésien. Il existe donc une unique application continue $\varphi : Z\rightarrow Z'$ telle que $p'\circ \varphi =p$ et $g'\circ \varphi =\psi \circ g$. La première égalité signifie que $\varphi$ est un X-morphisme, la seconde égalité signifie que $\varphi$ est compatible avec les données de descente et que $\varphi =\psi$, d’où la proposition.
+est un carré cartésien. Il existe donc une unique application continue $\varphi : Z\rightarrow Z'$ telle que $p'\circ \varphi =p$ et $g'\circ \varphi =\psi \circ g$. La première égalité signifie que $\varphi$ est un X-morphisme, la seconde égalité signifie que $\varphi$ est compatible avec les données de descente et que $\overline{\varphi}=\psi$, d’où la proposition.
 
 ### 4. Descente : cas des espaces étalés
 
@@ -184,9 +184,9 @@ Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une applicati
 
 Supposons que l’application $f$ soit stricte et surjective et que T soit un Y-espace étalé. Alors, l’application $f^*:\mathscr{C}_Y(T; T')\rightarrow \mathscr{C}_f(X\times_YT; X\times_YT')$ est bijective.
 
-Notons $\tau$ (resp. $\tau ')$ la relation d’équivalence sur $X\times_YT$ (resp. sur $X\times_YT')$ qui est associée à la donnée de descente canonique. Comme l’application $f$ est surjective, la projection pr$_2: X\times_YT\rightarrow T$ est surjective et l’application canonique $(X\times_YT)/R_{\tau}\rightarrow T$ est bijective. En particulier, l’application $f^*$ est injective. Démontrons qu’elle est surjective. Soit $\varphi : X\times_YT\rightarrow X\times_YT'$ un X-morphisme compatible avec les données de descente canoniques. Pour $(x, t)\in X\times_YT$, on a donc $\varphi (x, t) = (x, \varphi (t))$, où $\varphi$ est une application de T dans $T'$.
+Notons $\tau$ (resp. $\tau ')$ la relation d’équivalence sur $X\times_YT$ (resp. sur $X\times_YT')$ qui est associée à la donnée de descente canonique. Comme l’application $f$ est surjective, la projection pr$_2: X\times_YT\rightarrow T$ est surjective et l’application canonique $(X\times_YT)/R_{\tau}\rightarrow T$ est bijective. En particulier, l’application $f^*$ est injective. Démontrons qu’elle est surjective. Soit $\varphi : X\times_YT\rightarrow X\times_YT'$ un X-morphisme compatible avec les données de descente canoniques. Pour $(x, t)\in X\times_YT$, on a donc $\varphi (x, t) = (x, \varphi (t))$, où $\overline{\varphi}$ est une application de T dans $T'$.
 
-Par définition de $\varphi$, l’application $\varphi \circ$ pr$_2: X\times_YT\rightarrow T'$ est égale à pr$_2\circ \varphi$, elle est donc continue. Comme l’application $f$ est surjective et stricte et que T est un Y-espace étalé, la projection pr$_2: X\times_YT\rightarrow T$ est stricte (I, p. 32, remarque 3). D’après la proposition 9 de I, p. 18, l’application $\varphi$ est donc continue. C’est un Y-morphisme tel que $f^*(\varphi ) =\varphi$, ce qui démontre la proposition.
+Par définition de $\overline{\varphi}$, l’application $\overline{\varphi}\circ$ pr$_2: X\times_YT\rightarrow T'$ est égale à pr$_2\circ \varphi$, elle est donc continue. Comme l’application $f$ est surjective et stricte et que T est un Y-espace étalé, la projection pr$_2: X\times_YT\rightarrow T$ est stricte (I, p. 32, remarque 3). D’après la proposition 9 de I, p. 18, l’application $\overline{\varphi}$ est donc continue. C’est un Y-morphisme tel que $f^*(\overline{\varphi}) =\varphi$, ce qui démontre la proposition.
 
 #### Corollaire {#ta-iv-s4-n4-cor-1 .statement tag=022G}
 
@@ -334,7 +334,7 @@ On peut supposer que les espaces X et Y sont non vides. Notons G le sous-groupo�
 
 Soit $y_0$ un point de Y et notons H le sous-groupe $G_{y_0}$ de $\pi_1(Y, y_0)$. D’après le th. 1 de IV, p. 342, il existe un revêtement connexe $(T, p)$ de Y et un point $t_0$ de la fibre $T_{y_0}$ dont H soit le fixateur.
 
-Si $x$ est un point de X, l’ensemble Fl$_{y_0,f(x)}(G)$ n’est pas vide, car G est transitif. Pour $u\in$ Fl$_{y_0,f(x)}(G)$, le point $t_0\cdot u$ est un point de la fibre $T_{f(x)}$, indépendant de $u$ puisque le groupe H, groupe d’isotropie de G en $y_0$, fixe $t_0$. Notons $\sigma (x)$ ce point ; notons $\sigma : X\rightarrow T$ l’application ainsi définie et $s: X\rightarrow X\times_YT$ l’application $x\mapsto (x, \sigma (x))$. Par construction, l’application $s$ est compatible avec les opérations canoniques de $\varpi (X)$ dans X et $X\times_YT$. Il résulte alors du lemme 1 de III, p. 312 que $s$ est continue. L’application $\sigma$ est donc continue ; elle est en outre compatible à la relation d’équivalence définie par $f$, car $\sigma (x)$ ne dépend que de $f(x)$. Puisque $f$ est stricte et surjective, il existe une unique application continue $\sigma : Y\rightarrow T$ telle que $\sigma \circ f=\sigma$, si bien que le revêtement T admet une section. Comme T est connexe, l’application $p: T\rightarrow Y$ est un homéomorphisme (I, p. 31, cor. 4 de la prop. 6) et l’on a $H =\pi_1(Y, y_0)$, d’où $G_{y_0}=\pi_1(Y, y_0)$. Comme G est transitif, il en résulte que $G =\varpi (Y)$.
+Si $x$ est un point de X, l’ensemble Fl$_{y_0,f(x)}(G)$ n’est pas vide, car G est transitif. Pour $u\in$ Fl$_{y_0,f(x)}(G)$, le point $t_0\cdot u$ est un point de la fibre $T_{f(x)}$, indépendant de $u$ puisque le groupe H, groupe d’isotropie de G en $y_0$, fixe $t_0$. Notons $\sigma (x)$ ce point ; notons $\sigma : X\rightarrow T$ l’application ainsi définie et $s: X\rightarrow X\times_YT$ l’application $x\mapsto (x, \sigma (x))$. Par construction, l’application $s$ est compatible avec les opérations canoniques de $\varpi (X)$ dans X et $X\times_YT$. Il résulte alors du lemme 1 de III, p. 312 que $s$ est continue. L’application $\sigma$ est donc continue ; elle est en outre compatible à la relation d’équivalence définie par $f$, car $\sigma (x)$ ne dépend que de $f(x)$. Puisque $f$ est stricte et surjective, il existe une unique application continue $\overline{\sigma}: Y\rightarrow T$ telle que $\overline{\sigma}\circ f=\sigma$, si bien que le revêtement T admet une section. Comme T est connexe, l’application $p: T\rightarrow Y$ est un homéomorphisme (I, p. 31, cor. 4 de la prop. 6) et l’on a $H =\pi_1(Y, y_0)$, d’où $G_{y_0}=\pi_1(Y, y_0)$. Comme G est transitif, il en résulte que $G =\varpi (Y)$.
 
 #### Proposition 10 {#ta-iv-s4-prop-10 .statement tag=022Q}
 
@@ -414,7 +414,7 @@ Si $c$ est un chemin dans X, on notera $[c]$ sa classe d’homotopie stricte dan
 
 Soit $c'$ un chemin dans Y. D’après le lemme 4 de III, p. 272, appliqué
 
-à l’espace compact $\mathbf{I}$ et au recouvrement ($(^-{c'}^1)(U_j)$)$_{j\in J}$ de $\mathbf{I}$, il existe un entier $n$ tel que, pour tout entier $k$ vérifiant $1\leqslant k\leqslant n$, l’image de l’intervalle $[^{k-1}_n,^k_n]$ par $c'$ soit contenue dans un ouvert $U_{j(k)}$. Pour tout entier $k,1\leqslant k\leqslant n$, soit $c'_k$ le chemin dans Y défini par $s\mapsto c'(^{k+s-1}_n)$ ; on a $[c'] = [c'_1][c'_2]. . .[c'_n]$ (cf. III, p. 291, remarque 1), et $c'$ est le chemin noté $c'_1*c'_2* \cdots  *c'_n$. Pour tout $k\in  \{1, . . . , n\}$, notons $c_k$ le chemin $s_{j(k)}\circ c'_k$ dans X et posons $\{c_k\}=\gamma ([c_k])$. Comme pour tout $k$, les chemins $c'_{k-1}=f\circ c_{k-1}$ et $c'_k=f\circ c_k$ sont juxtaposables, la suite $(\{c_1\}, . . . ,\{c_n\})$ est composable dans Coeg($f$). Par construction,
+à l’espace compact $\mathbf{I}$ et au recouvrement ($(^-{c'}^1)(U_j)$)$_{j\in J}$ de $\mathbf{I}$, il existe un entier $n$ tel que, pour tout entier $k$ vérifiant $1\leqslant k\leqslant n$, l’image de l’intervalle $[\frac{k-1}{n},\frac{k}{n}]$ par $c'$ soit contenue dans un ouvert $U_{j(k)}$. Pour tout entier $k,1\leqslant k\leqslant n$, soit $c'_k$ le chemin dans Y défini par $s\mapsto c'(\frac{k+s-1}{n})$ ; on a $[c'] = [c'_1][c'_2]. . .[c'_n]$ (cf. III, p. 291, remarque 1), et $c'$ est le chemin noté $c'_1*c'_2* \cdots  *c'_n$. Pour tout $k\in  \{1, . . . , n\}$, notons $c_k$ le chemin $s_{j(k)}\circ c'_k$ dans X et posons $\{c_k\}=\gamma ([c_k])$. Comme pour tout $k$, les chemins $c'_{k-1}=f\circ c_{k-1}$ et $c'_k=f\circ c_k$ sont juxtaposables, la suite $(\{c_1\}, . . . ,\{c_n\})$ est composable dans Coeg($f$). Par construction,
 
 $$
 \varpi '(f)(\{c_1\}. . .\{c_n\}) =\varpi '(f)(\{c_1\}). . . \varpi '(f)(\{c_n\})
@@ -436,9 +436,9 @@ ce qui prouve que le morphisme de groupoïdes $\varpi '(f)$ est surjectif.
 
 Soient $u$ et $v$ des flèches de Coeg($f$). Comme le groupoïde Coeg($f$) est engendré par l’image de $\varpi (X)$ (II, p. 200, corollaire), il existe des suites finies $(c_1, . . . , c_n)$ et $(d_1, . . . , d_n)$ de chemins dans X telles que l’on ait $u=\{c_1\}. . .\{c_n\}$ et $v=\{d_1\}. . .\{d_n\}$. Les chemins $(f\circ c_1, . . . , f\circ c_n)$ dans Y sont alors juxtaposables et l’on a $\varpi '(f)(u) = [(f\circ c_1)]. . .[(f\circ$ $c_n)]$; de même, $\varpi '(f)(v) = [(f\circ d_1)]. . .[(f\circ d_n)]$.
 
-Supposons que l’on ait $\varpi '(f)(u) =\varpi '(f)(v)$. Il existe alors une homotopie stricte $\sigma$ reliant $(f\circ c_1)* \cdots  *(f\circ c_n)$ à $(f\circ d_1)* \cdots  *(f\circ d_n)$. D’après le lemme 4 de III, p. 272, appliqué à l’espace compact $\mathbf{I}\times \mathbf{I}$ et au recouvrement $(\overset{-1}{\sigma}(U_i))_{i\in I})$ de $\mathbf{I}\times \mathbf{I}$, il existe un entier $m\geqslant 1$ tel que, pour tout couple d’entiers $(j, k)$ vérifiant $1\leqslant j\leqslant m$ et $1\leqslant k\leqslant m$, l’image de $[^{j-1}_m,_m^j]\times [^{k-1}_m,_m^k]$ par $\sigma$ soit contenue dans un ouvert $U_{i(j,k)}$ du recouvrement $(U_i)_{i\in I}$.
+Supposons que l’on ait $\varpi '(f)(u) =\varpi '(f)(v)$. Il existe alors une homotopie stricte $\sigma$ reliant $(f\circ c_1)* \cdots  *(f\circ c_n)$ à $(f\circ d_1)* \cdots  *(f\circ d_n)$. D’après le lemme 4 de III, p. 272, appliqué à l’espace compact $\mathbf{I}\times \mathbf{I}$ et au recouvrement $(\overset{-1}{\sigma}(U_i))_{i\in I})$ de $\mathbf{I}\times \mathbf{I}$, il existe un entier $m\geqslant 1$ tel que, pour tout couple d’entiers $(j, k)$ vérifiant $1\leqslant j\leqslant m$ et $1\leqslant k\leqslant m$, l’image de $[\frac{j-1}{m},\frac{j}{m}]\times [\frac{k-1}{m},\frac{k}{m}]$ par $\sigma$ soit contenue dans un ouvert $U_{i(j,k)}$ du recouvrement $(U_i)_{i\in I}$.
 
-Tout chemin $c$ dans X est de la forme $c_1* \cdots  *c_m$, où $c_k$ est le chemin $t\mapsto c(^{k-1+t}_m)$. Quitte à remplacer les entiers $m$ et $n$ par leur produit $mn$, on peut donc supposer que $m=n$.
+Tout chemin $c$ dans X est de la forme $c_1* \cdots  *c_m$, où $c_k$ est le chemin $t\mapsto c(\frac{k-1+t}{m})$. Quitte à remplacer les entiers $m$ et $n$ par leur produit $mn$, on peut donc supposer que $m=n$.
 
 Pour tout couple $(j, k)$ d’entiers de $\{1, . . . , n\}$ et tout couple $(s, t)\in$ $\mathbf{I}\times \mathbf{I}$, posons
 
@@ -554,17 +554,17 @@ Pour tout chemin $c= (c_1, c_2)$ dans $X\times_YX$, on a $\beta ([c_1]) =\beta (
 
 Soit $c$ un tel chemin.
 
-Soit $x\in X$, soit $K_x$ son fixateur dans G. D’après TG, III, p. 32, prop. 8, il existe un voisinage ouvert $U_x$ de $x$ dans X tel que $K_x\cdot U_x=$ $U_x,g\cdot U_x\cap U_x$ = $\emptyset$ pour tout $g\in$ G - $K_x$, et tel que l’application $f$ induise un homéomorphisme de $U_x/K_x$ sur un voisinage ouvert $V_x$ de $f(x)$ dans Y. Comme X est délaçable et que la restriction à $U_x$ de l’application $f$ est ouverte et fermée, on peut en outre supposer que $U_x$ est connexe et que l’image de l’homomorphisme canonique $\pi_1(U_x, x)\rightarrow \pi_1(X, x)$ est réduite à l’élément neutre. Les ouverts $(V_x)_{x\in X}$ ainsi construits forment un recouvrement ouvert de Y. D’après le lemme 4 de III, p. 272, appliqué à l’espace compact $\mathbf{I}$ et aux ouverts $(f\circ c_1)^{-1}(V_x)$ pour $x\in X$, il existe un entier $n\geqslant 1$ tel que pour tout $i\in  \{1, . . . , n\}$, il existe un point $x_i$ dans X tel que $c_1([^{i-1}_n,_n^i])$
+Soit $x\in X$, soit $K_x$ son fixateur dans G. D’après TG, III, p. 32, prop. 8, il existe un voisinage ouvert $U_x$ de $x$ dans X tel que $K_x\cdot U_x=$ $U_x,g\cdot U_x\cap U_x$ = $\emptyset$ pour tout $g\in$ G - $K_x$, et tel que l’application $f$ induise un homéomorphisme de $U_x/K_x$ sur un voisinage ouvert $V_x$ de $f(x)$ dans Y. Comme X est délaçable et que la restriction à $U_x$ de l’application $f$ est ouverte et fermée, on peut en outre supposer que $U_x$ est connexe et que l’image de l’homomorphisme canonique $\pi_1(U_x, x)\rightarrow \pi_1(X, x)$ est réduite à l’élément neutre. Les ouverts $(V_x)_{x\in X}$ ainsi construits forment un recouvrement ouvert de Y. D’après le lemme 4 de III, p. 272, appliqué à l’espace compact $\mathbf{I}$ et aux ouverts $(f\circ c_1)^{-1}(V_x)$ pour $x\in X$, il existe un entier $n\geqslant 1$ tel que pour tout $i\in  \{1, . . . , n\}$, il existe un point $x_i$ dans X tel que $c_1([\frac{i-1}{n},\frac{i}{n}])$
 
-soit contenu dans $\overset{-1}{f}(V_{x_i})$. Comme $f\circ c_1=f\circ c_2,c_2([^{i-1}_n,_n^i])$ est aussi
+soit contenu dans $\overset{-1}{f}(V_{x_i})$. Comme $f\circ c_1=f\circ c_2,c_2([\frac{i-1}{n},\frac{i}{n}])$ est aussi
 
 contenu dans $\overset{-1}{f}(V_{x_i})$.
 
-Pour $j= 1$ ou 2 et pour $i\in  \{1, . . . , n\}$, notons $c_{j,i}$ le chemin dans X défini par $t\mapsto c_j(^{i+t-1}_n)$ ; on a $c_j=c_{j,1}* \cdots  *c_{j,n}($III, p. 291, remarque 1). Par suite, pour montrer que $\beta ([c_1]) =\beta ([c_2])$, il suffit de montrer que $\beta ([c_{1,i}]) =\beta ([c_{2,i}])$ pour tout entier $i\in  \{1, . . . , n\}$. Quitte à remplacer le chemin $(c_1, c_2)$ par le chemin $(c_{1,i}, c_{2,i})$, on suppose ainsi qu’il existe $x\in X$ tel que $(f\circ c_1)([0,1])\subset V_x$.
+Pour $j= 1$ ou 2 et pour $i\in  \{1, . . . , n\}$, notons $c_{j,i}$ le chemin dans X défini par $t\mapsto c_j(\frac{i+t-1}{n})$ ; on a $c_j=c_{j,1}* \cdots  *c_{j,n}($III, p. 291, remarque 1). Par suite, pour montrer que $\beta ([c_1]) =\beta ([c_2])$, il suffit de montrer que $\beta ([c_{1,i}]) =\beta ([c_{2,i}])$ pour tout entier $i\in  \{1, . . . , n\}$. Quitte à remplacer le chemin $(c_1, c_2)$ par le chemin $(c_{1,i}, c_{2,i})$, on suppose ainsi qu’il existe $x\in X$ tel que $(f\circ c_1)([0,1])\subset V_x$.
 
 L’image réciproque de $V_x$ par $f$ est la réunion disjointe des parties connexes $g\cdot U_x$, où $g$ parcourt un système de représentants dans G de $G/K_x$. Pour $i= 1$ ou 2, soit $g_i$ un élément de G tel que le point $x_i=$ $g_i\cdot c_i(0)$ appartienne à $U_x$. L’image du chemin $g_i\cdot c_i$ est alors contenue dans $U_x$. Par définition du groupoïde $\varpi (X)/G$, on a $\beta ([g_i\cdot c_i]) =\beta ([c_i])$, ce qui permet de supposer que les images des chemins $c_1$ et $c_2$ sont contenues dans $U_x$ et que $g_1=g_2=e$.
 
-Pour $s= 0$ ou 1, soit $d_s$ un chemin dans $U_x$ reliant $x$ à $c_1(s)$ et soit $g_s$ un élément de $K_x$ tel que $g_s\cdot c_2(s) =c_1(s)$. Les chemins $d_0*c_1*d_1$ et $d_0*(g_0\cdot c_2)*(g_0g_1^{-1}\cdot d_1)$ sont des lacets en $x$ dans $U_x$. Ils sont donc strictement homotopes dans X au lacet constant en $x$, car l’image de l’homomorphisme canonique $\pi_1(U_x, x)\rightarrow \pi_1(X, x)$ est réduite à l’élément neutre. Leurs classes ont en particulier même image par le morphisme de groupoïdes $\beta$, d’où
+Pour $s= 0$ ou 1, soit $d_s$ un chemin dans $U_x$ reliant $x$ à $c_1(s)$ et soit $g_s$ un élément de $K_x$ tel que $g_s\cdot c_2(s) =c_1(s)$. Les chemins $d_0*c_1*\overline{d_1}$ et $d_0*(g_0\cdot c_2)*(g_0g_1^{-1}\cdot \overline{d_1})$ sont des lacets en $x$ dans $U_x$. Ils sont donc strictement homotopes dans X au lacet constant en $x$, car l’image de l’homomorphisme canonique $\pi_1(U_x, x)\rightarrow \pi_1(X, x)$ est réduite à l’élément neutre. Leurs classes ont en particulier même image par le morphisme de groupoïdes $\beta$, d’où
 
 $$
 \beta ([d_0])\beta ([c_1])\beta ([d_1])^{-1}=\beta ([d_0])\beta ([g_0\cdot c_2])\beta ([g_0g_1^{-1}\cdot d_1])^{-1}

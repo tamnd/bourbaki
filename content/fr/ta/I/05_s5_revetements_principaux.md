@@ -41,7 +41,7 @@ subsections:
       pdf_page: 130
 statements: 58
 exercises: 0
-content_sha256: 333ecfec465fbbccd0b07b60bc34ef28cf60aaadc7caff60dcb9457883576a2a
+content_sha256: 1c1c6718570bcdcd0ccbec40f1638f9f8c986ef5e1a97d35127679fb0c9f4e08
 ---
 
 ## § 5. REVÊTEMENTS PRINCIPAUX
@@ -354,7 +354,7 @@ Si $h: F\rightarrow F'$ est une application continue (compatible avec les opéra
 
 #### Exemple 1 {#ta-i-s5-n5-exa-1 .statement tag=01R6}
 
-Soit F un espace topologique et soit G un groupe topologique opérant continûment à gauche dans F. Si l’on munit l’espace topologique G de l’opération de G par translations à droite, l’espace $G\times^GF$ s’identifie canoniquement à F de la façon suivante. Les applications continues $\varphi : F\rightarrow G\times F$ et $\psi : G\times F\rightarrow$ F définies par $\varphi (f) = (e, f)$ (où $e$ désigne l’élément neutre de G) et $\psi (g, f) =g\cdot f$ induisent des applications continues $\varphi : F\rightarrow G\times^GF$ et $\psi : G\times^GF\rightarrow F$ qui sont réciproques l’une de l’autre.
+Soit F un espace topologique et soit G un groupe topologique opérant continûment à gauche dans F. Si l’on munit l’espace topologique G de l’opération de G par translations à droite, l’espace $G\times^GF$ s’identifie canoniquement à F de la façon suivante. Les applications continues $\varphi : F\rightarrow G\times F$ et $\psi : G\times F\rightarrow$ F définies par $\varphi (f) = (e, f)$ (où $e$ désigne l’élément neutre de G) et $\psi (g, f) =g\cdot f$ induisent des applications continues $\overline{\varphi}: F\rightarrow G\times^GF$ et $\overline{\psi}: G\times^GF\rightarrow F$ qui sont réciproques l’une de l’autre.
 
 #### Exemple 2 {#ta-i-s5-n5-exa-2 .statement tag=01R7}
 
@@ -398,7 +398,7 @@ Sous les hypothèses de la proposition 7, le B-espace fibré localement trivial 
 
 Soient B un espace topologique, G un groupe topologique et soit $(E, p)$ un B-espace fibré principal de groupe G. Soit H un sous-groupe de G.
 
-Notons $\varphi : E\rightarrow E\times (G/H)$ et $\psi : E\times (G/H)\rightarrow E/H$ les applications définies par $\varphi (x) = (x,H)$ et $\psi (x, gH) = (x\cdot g)H$. Elles sont compatibles aux projections vers B et aux opérations de G et définissent par passage aux quotients des morphismes de B-espaces $\varphi : E/H\rightarrow E\times^G(G/H)$ et $\psi : E\times^G(G/H)\rightarrow E/H$, réciproques l’un de l’autre. On dit que $\varphi$ est l’homéomorphisme canonique de $E/H$ sur $E\times^G(G/H)$. En particulier, l’espace topologique $E/H$ muni de l’application continue $p_H: E/H\rightarrow B$ est un B-espace fibré localement trivial de fibre-type $G/H$.
+Notons $\varphi : E\rightarrow E\times (G/H)$ et $\psi : E\times (G/H)\rightarrow E/H$ les applications définies par $\varphi (x) = (x,H)$ et $\psi (x, gH) = (x\cdot g)H$. Elles sont compatibles aux projections vers B et aux opérations de G et définissent par passage aux quotients des morphismes de B-espaces $\overline{\varphi}: E/H\rightarrow E\times^G(G/H)$ et $\overline{\psi}: E\times^G(G/H)\rightarrow E/H$, réciproques l’un de l’autre. On dit que $\overline{\varphi}$ est l’homéomorphisme canonique de $E/H$ sur $E\times^G(G/H)$. En particulier, l’espace topologique $E/H$ muni de l’application continue $p_H: E/H\rightarrow B$ est un B-espace fibré localement trivial de fibre-type $G/H$.
 
 Si de plus H est un sous-groupe distingué dans G, l’action de G munit, par passage aux quotients, le B-espace $E/H$ d’une structure d’espace fibré principal de groupe $G/H$.
 
@@ -406,7 +406,7 @@ En particulier, si E est un revêtement principal de B de groupe G, $E/H$ est un
 
 #### Exemple 5 {#ta-i-s5-n5-exa-5 .statement tag=01RC}
 
-Soit B un espace topologique, soit G un groupe topologique et soit E un B-espace fibré principal de groupe G. Soit F un espace homogène topologique relativement à G (TG, III, p. 12). Soit $y$ un point de F et soit $G_y$ son fixateur. L’application $\varphi_y:x\mapsto (x, y)$ de E dans $E\times F$ définit par passage aux quotients un homéomorphisme $\varphi_y$ de $E/G_y$ sur $E\times^GF$. Lorsque le groupe G est abélien, le sous-groupe $G_y$ ne dépend pas du point $y$, mais l’homéomorphisme $\varphi_y$, en général, en dépend.
+Soit B un espace topologique, soit G un groupe topologique et soit E un B-espace fibré principal de groupe G. Soit F un espace homogène topologique relativement à G (TG, III, p. 12). Soit $y$ un point de F et soit $G_y$ son fixateur. L’application $\varphi_y:x\mapsto (x, y)$ de E dans $E\times F$ définit par passage aux quotients un homéomorphisme $\overline{\varphi}_y$ de $E/G_y$ sur $E\times^GF$. Lorsque le groupe G est abélien, le sous-groupe $G_y$ ne dépend pas du point $y$, mais l’homéomorphisme $\overline{\varphi}_y$, en général, en dépend.
 
 #### Exemple 6 {#ta-i-s5-n5-exa-6 .statement tag=01RD}
 
@@ -690,17 +690,17 @@ Soit $\mathscr{U}= (U_i)_{i\in I}$ un recouvrement ouvert de B. Notons $P(B,\mat
 
 En vertu de la définition d’un espace fibré principal, l’ensemble $P(B,G)$ est la réunion des ensembles de la forme $P(B,\mathscr{U},G)$, où $\mathscr{U}$ est un recouvrement ouvert de B.
 
-Soit $\mathscr{U}= (U_i)_{i\in I}$ un recouvrement ouvert de B et soit $\mathscr{V}= (V_k)_{k\in K}$ un recouvrement ouvert de B plus fin que $\mathscr{U}$. On a $P(B,\mathscr{U},G)\subset$ $P(B,\mathscr{V},G)$ ; on note $i_{\mathscr{V} \mathscr{U}}$ l’injection canonique définie par cette inclusion. Choisissons une application $\varphi : K\rightarrow I$ telle que $V_k\subset U_{\varphi(k)}$ pour tout $k\in K$. Étant donné un cocycle $(g_{ij})\in Z^1_{cont}(B,\mathscr{U},G)$, posons, pour tout couple $(k, \ell )\in K\times K,g_{k\ell}=g_{\varphi(k)\varphi(\ell)}|V_k\cap V_{\ell}$.
+Soit $\mathscr{U}= (U_i)_{i\in I}$ un recouvrement ouvert de B et soit $\mathscr{V}= (V_k)_{k\in K}$ un recouvrement ouvert de B plus fin que $\mathscr{U}$. On a $P(B,\mathscr{U},G)\subset$ $P(B,\mathscr{V},G)$ ; on note $i_{\mathscr{V} \mathscr{U}}$ l’injection canonique définie par cette inclusion. Choisissons une application $\varphi : K\rightarrow I$ telle que $V_k\subset U_{\varphi(k)}$ pour tout $k\in K$. Étant donné un cocycle $(g_{ij})\in Z^1_{cont}(B,\mathscr{U},G)$, posons, pour tout couple $(k, \ell )\in K\times K,\overline{g}_{k\ell}=g_{\varphi(k)\varphi(\ell)}|V_k\cap V_{\ell}$.
 
-La famille $(g_{k\ell})$ est un cocycle sur B, à valeurs dans G, subordonné à $\mathscr{V}$. Si $(g_{ij}')\in Z^1_{cont}(B,\mathscr{U},G)$ est un cocycle cohomologue au cocycle $(g_{ij})$, le cocycle $(g'_{k\ell})$ déduit de $(g_{k\ell}'$ ) est cohomologue au cocycle $(g_{k\ell})$. Il en résulte une application
+La famille $(\overline{g}_{k\ell})$ est un cocycle sur B, à valeurs dans G, subordonné à $\mathscr{V}$. Si $(g_{ij}')\in Z^1_{cont}(B,\mathscr{U},G)$ est un cocycle cohomologue au cocycle $(g_{ij})$, le cocycle $(\overline{g}'_{k\ell})$ déduit de $(g_{k\ell}'$ ) est cohomologue au cocycle $(\overline{g}_{k\ell})$. Il en résulte une application
 
 $$
 c(\varphi ): H^1_{cont}(B,\mathscr{U},G)\rightarrow H^1_{cont}(B,\mathscr{V},G)
 $$
 
-qui à la classe de $(g_{ij})$ associe la classe de $(g_{k\ell})$.
+qui à la classe de $(g_{ij})$ associe la classe de $(\overline{g}_{k\ell})$.
 
-Soit E un espace fibré principal de base B et de groupe G et, pour tout $i\in$ I, soit $f_i: E_{U_i}\rightarrow U_i\times G$ une trivialisation du $U_i$-espace fibré principal $E_{U_i}$. Pour tout $k\in$ K, soit $f_k': E_{V_k}\rightarrow V_k\times G$ la trivialisation déduite de $f_{\varphi(k)}$ par passage aux sous-ensembles. Soit $(g_{ij})\in Z^1_{cont}(B,\mathscr{U},G)$ le cocycle défini par la famille $(f_i)$ ; le cocycle défini par la famille $(f_k')$ est précisément le cocycle $(g_{k\ell})$ défini ci-dessus. Ainsi, le diagramme suivant est commutatif :
+Soit E un espace fibré principal de base B et de groupe G et, pour tout $i\in$ I, soit $f_i: E_{U_i}\rightarrow U_i\times G$ une trivialisation du $U_i$-espace fibré principal $E_{U_i}$. Pour tout $k\in$ K, soit $f_k': E_{V_k}\rightarrow V_k\times G$ la trivialisation déduite de $f_{\varphi(k)}$ par passage aux sous-ensembles. Soit $(g_{ij})\in Z^1_{cont}(B,\mathscr{U},G)$ le cocycle défini par la famille $(f_i)$ ; le cocycle défini par la famille $(f_k')$ est précisément le cocycle $(\overline{g}_{k\ell})$ défini ci-dessus. Ainsi, le diagramme suivant est commutatif :
 
 $$
 H^1_{cont}(B,\mathscr{U},G)^{c(\varphi)}H^1_{cont}(B,\mathscr{V},G)

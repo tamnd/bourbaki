@@ -45,7 +45,7 @@ subsections:
       pdf_page: 195
 statements: 34
 exercises: 0
-content_sha256: 2b4c8cae6b30fd6f0e4e76ebbdd597f2cfde345c92de3b0f38338a09b496bb64
+content_sha256: 831b354dabb1051883f70b9a7b3e4f5255e27ba2488f5937eeec39781d71ccc9
 ---
 
 ## § 12. CHEVALLEY ORDERS
@@ -762,7 +762,7 @@ Let $w\in W$. There exists an elementary automorphism $\varphi$ of $\mathfrak{g}
 
 It suffices to treat the case in which $w$ is of the form $s_{\alpha}(\alpha \in B)$. Note first of all that ad $x_{\alpha}$ and ad $y_{\alpha}$ are locally nilpotent on $U(\mathfrak{g})$, in other words that for all $u\in U(\mathfrak{g})$ there exists an integer $n$ such that (ad $x_{\alpha})^nu=$ (ad $y_{\alpha})^nu= 0$.
 
-This enables us to define the automorphisms $e^{adx_{\alpha}}=\sum_n^{\infty}_{=0n}^1_!$(ad $x_{\alpha})^n$ and $e^{ady_{\alpha}}$ of $U(\mathfrak{g})$; we verify immediately that these automorphisms of $U(\mathfrak{g})$ leave $\mathscr{U}$ stable. Put $\varphi_1=e^{adx_{\alpha}}e^{ady_{\alpha}}e^{adx_{\alpha}},\varphi_2=e^{ady_{\alpha}}e^{adx_{\alpha}}e^{ady_{\alpha}}$. We have $\varphi_1|\mathfrak{g}=$ $\varphi_2|\mathfrak{g}($§2, no. 2, formula (1)), so $\varphi_1=\varphi_2$. Put $\varphi_1=\varphi_2=\varphi$. We have $\theta \varphi \theta^{-1}=\varphi$, so $\theta$ and $\varphi$ commute. On the other hand, $\varphi |\mathfrak{h}=w$ by §2, no. 2, Lemma 1.
+This enables us to define the automorphisms $e^{adx_{\alpha}}=\sum_{n=0}^{\infty}\frac{1}{n!}$(ad $x_{\alpha})^n$ and $e^{ady_{\alpha}}$ of $U(\mathfrak{g})$; we verify immediately that these automorphisms of $U(\mathfrak{g})$ leave $\mathscr{U}$ stable. Put $\varphi_1=e^{adx_{\alpha}}e^{ady_{\alpha}}e^{adx_{\alpha}},\varphi_2=e^{ady_{\alpha}}e^{adx_{\alpha}}e^{ady_{\alpha}}$. We have $\varphi_1|\mathfrak{g}=$ $\varphi_2|\mathfrak{g}($§2, no. 2, formula (1)), so $\varphi_1=\varphi_2$. Put $\varphi_1=\varphi_2=\varphi$. We have $\theta \varphi \theta^{-1}=\varphi$, so $\theta$ and $\varphi$ commute. On the other hand, $\varphi |\mathfrak{h}=w$ by §2, no. 2, Lemma 1.
 
 #### Corollary 3 {#lie-viii-s12-prop-3-cor-3 .statement tag=018C}
 

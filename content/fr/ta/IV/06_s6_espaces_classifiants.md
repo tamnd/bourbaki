@@ -33,7 +33,7 @@ subsections:
       pdf_page: 465
 statements: 32
 exercises: 0
-content_sha256: c2a84e054f25b1bc317d66209e46d14aaa136481711f609b6c70c03b007543d6
+content_sha256: 14cc1f309f261a621018b651a4c9c57e1d280f153831fdbbbe852c5b5f3ad676
 ---
 
 ## § 6. ESPACES CLASSIFIANTS
@@ -48,7 +48,7 @@ Notons $i_A$ l’injection canonique de A dans X$,i_U$ l’injection canonique d
 
 Il existe une application continue $r: X\times \mathbf{I}\rightarrow$ Cyl($i_U$) telle que $j_U\circ$ $r(x) =x$ pour tout point $x\in j_A$(Cyl($i_A$)).
 
-Soit $U'$ un ouvert de $X'$ tel que $A\subset X\cap U'\subset U$. Par définition d’un espace normal (TG, IX, p. 41), il existe un voisinage ouvert $V'$ de A dans $X'$ tel que $A\subset V'\subset V'\subset U'$ et une fonction continue $\varphi ': X'\rightarrow \mathbf{I}$ qui soit égale à 1 en tout point de A et à 0 en tout point de $\complement V'$. Posons $\varphi =\varphi '|X$ et $V = X\cap V'$. Notons aussi $\alpha : U\times \mathbf{I}\rightarrow$ Cyl($i_U$) et $\beta : X\rightarrow$ Cyl($i_U$) les applications canoniques (III, p. 238).
+Soit $U'$ un ouvert de $X'$ tel que $A\subset X\cap U'\subset U$. Par définition d’un espace normal (TG, IX, p. 41), il existe un voisinage ouvert $V'$ de A dans $X'$ tel que $A\subset V'\subset \overline{V'}\subset U'$ et une fonction continue $\varphi ': X'\rightarrow \mathbf{I}$ qui soit égale à 1 en tout point de A et à 0 en tout point de $\complement V'$. Posons $\varphi =\varphi '|X$ et $V = X\cap V'$. Notons aussi $\alpha : U\times \mathbf{I}\rightarrow$ Cyl($i_U$) et $\beta : X\rightarrow$ Cyl($i_U$) les applications canoniques (III, p. 238).
 
 Soit $r$ l’application de $X\times \mathbf{I}$ dans Cyl($i_U$) donnée par
 
@@ -108,7 +108,7 @@ Il existe alors un $X\times \mathbf{I}$-morphisme $h: X\times \mathbf{I}\times Y
 
 En outre, si $f$ et $g$ sont des homéomorphismes, on peut choisir un homéomorphisme $h$ ayant les propriétés requises.
 
-Soit $U'$ un voisinage ouvert de A dans $X'$ tel que $U'\cap X\subset U$. Comme l’espace $X'$ est normal, il existe un voisinage ouvert $V'$ de A dans $X'$ tel que $A\subset V'\subset V'\subset U'$ (TG, IX, p. 41). Quitte à remplacer U par $V'\cap X$, on peut ainsi supposer que U est fermé dans X. Reprenons alors les notations de la prop. 1 et de sa démonstration ; soit $r: X\times \mathbf{I}\rightarrow$ Cyl($i_U$) une application continue telle que $j_U\circ r(x) =x$ pour tout point $x\in j_A$(Cyl($i_A$)).
+Soit $U'$ un voisinage ouvert de A dans $X'$ tel que $U'\cap X\subset U$. Comme l’espace $X'$ est normal, il existe un voisinage ouvert $V'$ de A dans $X'$ tel que $A\subset V'\subset \overline{V'}\subset U'$ (TG, IX, p. 41). Quitte à remplacer U par $\overline{V'}\cap X$, on peut ainsi supposer que U est fermé dans X. Reprenons alors les notations de la prop. 1 et de sa démonstration ; soit $r: X\times \mathbf{I}\rightarrow$ Cyl($i_U$) une application continue telle que $j_U\circ r(x) =x$ pour tout point $x\in j_A$(Cyl($i_A$)).
 
 Posons aussi $f'=$ pr$_3\circ f$ et $g'=$ pr$_3\circ g$. Comme $f'$ et $g'$ coïncident sur $U\times  \{1\} \times Y$, il existe une unique application
 
@@ -144,15 +144,15 @@ Soient $g_0: E_0\rightarrow B_0\times F_0$ et $g_1: E_1\rightarrow B_1\times F_1
 
 Soit B un espace topologique et soit $(E, p)$ un $B\times \mathbf{I}$-espace fibré localement trivial. Tout point $a$ de B possède un voisinage V tel que le $V\times \mathbf{I}$-espace $E_{V\times\mathbf{I}}$ soit trivialisable.
 
-Soit $a$ un point de B; pour tout point $t$ de $\mathbf{I}$, il existe un voisinage ouvert $W_t$ de $t$ dans $\mathbf{I}$ et un voisinage $V_t$ de $a$ dans B tels que E soit trivialisable au-dessus de $V_t\times W_t$. Il existe alors un entier $n >0$ et, pour tout entier $i$ tel que 1 $\leqslant i\leqslant n$, un point $t_i$ de $\mathbf{I}$ tel que l’intervalle $[^{i-1}_n,_n^i]$ soit contenu dans $W_{t_i}($III, p. 272, lemme 4). Posons $V =\cap_{1\leqslant i\leqslant n}V_{t_i}$. L’espace fibré E est trivialisable au-dessus de $V\times$ $[^{i-1}_n,_n^i]$ pour tout entier $i$ tel que $1\leqslant i\leqslant n$. Le lemme 3 résulte alors du lemme 2 par récurrence sur $n$.
+Soit $a$ un point de B; pour tout point $t$ de $\mathbf{I}$, il existe un voisinage ouvert $W_t$ de $t$ dans $\mathbf{I}$ et un voisinage $V_t$ de $a$ dans B tels que E soit trivialisable au-dessus de $V_t\times W_t$. Il existe alors un entier $n >0$ et, pour tout entier $i$ tel que 1 $\leqslant i\leqslant n$, un point $t_i$ de $\mathbf{I}$ tel que l’intervalle $[\frac{i-1}{n},\frac{i}{n}]$ soit contenu dans $W_{t_i}($III, p. 272, lemme 4). Posons $V =\cap_{1\leqslant i\leqslant n}V_{t_i}$. L’espace fibré E est trivialisable au-dessus de $V\times$ $[\frac{i-1}{n},\frac{i}{n}]$ pour tout entier $i$ tel que $1\leqslant i\leqslant n$. Le lemme 3 résulte alors du lemme 2 par récurrence sur $n$.
 
 Démontrons maintenant la proposition. D’après le lemme 3, il existe un recouvrement ouvert $(U_j)_{j\in J}$ de B tel que, pour tout $j\in J$, E soit trivialisable au-dessus de $U_j\times \mathbf{I}$. Comme l’espace B est paracompact, on peut supposer le recouvrement $(U_j)_{j\in J}$ localement fini (TG, IX, p. 49) et choisir un recouvrement $(A_j)_{j\in J}$ de B où, pour tout $j\in J$, l’ensemble $A_j$ est fermé dans B et contenu dans $U_j$ (TG, IX, p. 49, prop. 4 et p. 48, cor. 1).
 
 Pour toute partie ouverte U de B, notons $\mathscr{F}(U)$ l’ensemble des $U\times \mathbf{I}$-isomorphismes de $\overset{-1}{p}(U\times \mathbf{I})$ sur $\overset{-1}{p_{1}}(U)\times \mathbf{I}$ qui induisent l’application identique de $\overset{-1}{p}(U\times  \{1\})$ sur $\overset{-1}{p_{1}}(U)\times  \{1\}$. Pour tout couple $(V,U)$ d’ouverts de B tels que $U\subset V$, notons $r_{UV}:\mathscr{F}(V)\rightarrow \mathscr{F}(U)$ l’application qui, à un $(V\times \mathbf{I})$-isomorphisme $g:\overset{-1}{p}(V\times \mathbf{I})\rightarrow \overset{-1}{p_{0}}(V)\times \mathbf{I}$, associe le $(U\times \mathbf{I})$-isomorphisme déduit de $g$ par passage aux sous-espaces. Le couple $\mathscr{F}= ((\mathscr{F}(U)),(r_{UV}))$ est un faisceau sur B (I, p. 45, exemple 4). Pour démontrer la proposition, il suffit de démontrer que le faisceau $\mathscr{F}$ est mou (I, p. 64).
 
-Soit $j\in J$, soit A une partie fermée de $A_j$, soit V un ensemble ouvert dans B tel que $A\subset V\subset U_j$ et soit $g$ un élément de $\mathscr{F}(V)$. Il existe un voisinage ouvert W de A tel que $W\subset V$, car un espace paracompact est normal (TG, IX, p. 49, prop. 4). Nous allons démontrer qu’il existe un élément $g'$ de $\mathscr{F}(U_j)$ tel que $g'|W =g|W$. Le corollaire 2 (I, p. 65) de la prop. 6 entraîne alors que le faisceau $\mathscr{F}$ est mou.
+Soit $j\in J$, soit A une partie fermée de $A_j$, soit V un ensemble ouvert dans B tel que $A\subset V\subset U_j$ et soit $g$ un élément de $\mathscr{F}(V)$. Il existe un voisinage ouvert W de A tel que $\overline{W}\subset V$, car un espace paracompact est normal (TG, IX, p. 49, prop. 4). Nous allons démontrer qu’il existe un élément $g'$ de $\mathscr{F}(U_j)$ tel que $g'|W =g|W$. Le corollaire 2 (I, p. 65) de la prop. 6 entraîne alors que le faisceau $\mathscr{F}$ est mou.
 
-Comme le $B\times \mathbf{I}$-espace E est trivialisable au-dessus de $U_j\times \mathbf{I}$, nous pouvons supposer que $\overset{-1}{p}(U_j\times \mathbf{I}) = U_j\times \mathbf{I}\times F$, où F est un espace topologique. L’élément $g$ de $\mathscr{F}(V)$ est alors un $V\times \mathbf{I}$-isomorphisme de $V\times \mathbf{I}\times F$ sur lui-même qui induit l’application identique de $V\times$ $\{1\}\times F$. Appliquons le cor. 5 de IV, p. 439, aux espaces $X'= X$, $X = U_j$, A = W, U = V, et Y = Z = F, à l’application $g: V\times \mathbf{I}\times F\rightarrow V\times \mathbf{I}\times F$ et à l’application identique de $U_j\times  \{1\} \times F$. Il existe donc un $U_j\times \mathbf{I}$-isomorphisme $g'$ de $U_j\times \mathbf{I}\times F$ sur lui-même qui induit l’application identique de $U_j\times  \{1\} \times F$ et qui coïncide avec $g$ sur $W\times \mathbf{I}\times F$, et a fortiori sur $W\times \mathbf{I}\times F$. D’où la proposition.
+Comme le $B\times \mathbf{I}$-espace E est trivialisable au-dessus de $U_j\times \mathbf{I}$, nous pouvons supposer que $\overset{-1}{p}(U_j\times \mathbf{I}) = U_j\times \mathbf{I}\times F$, où F est un espace topologique. L’élément $g$ de $\mathscr{F}(V)$ est alors un $V\times \mathbf{I}$-isomorphisme de $V\times \mathbf{I}\times F$ sur lui-même qui induit l’application identique de $V\times$ $\{1\}\times F$. Appliquons le cor. 5 de IV, p. 439, aux espaces $X'= X$, $X = U_j$, A = W, U = V, et Y = Z = F, à l’application $g: V\times \mathbf{I}\times F\rightarrow V\times \mathbf{I}\times F$ et à l’application identique de $U_j\times  \{1\} \times F$. Il existe donc un $U_j\times \mathbf{I}$-isomorphisme $g'$ de $U_j\times \mathbf{I}\times F$ sur lui-même qui induit l’application identique de $U_j\times  \{1\} \times F$ et qui coïncide avec $g$ sur $\overline{W}\times \mathbf{I}\times F$, et a fortiori sur $W\times \mathbf{I}\times F$. D’où la proposition.
 
 #### Corollaire 1 {#ta-iv-s6-lem-3-cor-1 .statement tag=0245}
 
@@ -252,7 +252,7 @@ Il existe un recouvrement ouvert $(U_j)_{j\in J}$ de B tel que, pour tout $j\in 
 
 D’après I, p. 65, cor. 2 de la prop. 6, il suffit, pour démontrer la proposition, d’établir l’assertion suivante : soit U une partie ouverte de B telle que l’espace fibré principal $(E_U, p_U)$ soit trivialisable, soit A une partie fermée de B contenue dans U, soit V un voisinage ouvert de A contenu dans U et soit $f$ un élément de $\mathscr{F}(V)$, il existe alors un voisinage ouvert W de A dans V et un élément $f'$ de $\mathscr{F}(U)$ tel que $r_{WU}(f') =r_{WV}(f)$. Démontrons cette assertion.
 
-Soit W une partie ouverte de B telle que $A\subset W\subset W\subset V$. Soit $s: U\rightarrow E_U$ une section de $(E_U, p_U)$. Appliquons le corollaire 3 (IV, p. 438) à l’espace B, au fermé W et au voisinage V de W et à l’application $g=f\circ (s|_V)$ de $E_V$ dans $E'$. Il existe donc une application continue $\widetilde{g}: B\rightarrow E'$ qui coïncide avec $g$ sur W. Soit $h=\widetilde{g}|_U$. On a $h|_W=g|_W=f\circ (s|_W)$.
+Soit W une partie ouverte de B telle que $A\subset W\subset \overline{W}\subset V$. Soit $s: U\rightarrow E_U$ une section de $(E_U, p_U)$. Appliquons le corollaire 3 (IV, p. 438) à l’espace B, au fermé $\overline{W}$ et au voisinage V de $\overline{W}$ et à l’application $g=f\circ (s|_V)$ de $E_V$ dans $E'$. Il existe donc une application continue $\widetilde{g}: B\rightarrow E'$ qui coïncide avec $g$ sur $\overline{W}$. Soit $h=\widetilde{g}|_U$. On a $h|_W=g|_W=f\circ (s|_W)$.
 
 L’application $H: U\times G\rightarrow E'$ définie par $H(x, g) =h(x)\cdot g$ pour $(x, g)\in U\times G$ est continue et compatible avec les opérations de G dans $U\times G$ et $E'$. Posons $f'= H\circ s^{-1}$; c’est un élément de $\mathscr{F}(U)$. Pour tout $x\in W$, les applications $f$ et $f'$ coïncident au point $s(x)$, donc en tout point de $\overset{-1}{p}(x)$, car ce sont des morphismes d’espaces fibrés principaux. La proposition en résulte.
 
@@ -272,13 +272,13 @@ Soit E un espace fibré principal de groupe G et de base B. D’après la prop. 
 
 Soient $f_0$ et $f_1$ des applications continues de B dans $B_u$. Si les applications $f_0$ et $f_1$ sont homotopes, les espaces fibrés principaux $f_0^*E_u$ et $f_1^*E_u$ sont isomorphes (IV, p. 445, cor. 2). Démontrons la réciproque. Pour $\alpha \in  \{0,1\}$, notons $E_{\alpha}$ le $B_u$-espace fibré principal $f_{\alpha}^*E_u$, $g_{\alpha}: E_{\alpha}\rightarrow E_u$ la première projection et $p_{\alpha}: E_{\alpha}\rightarrow B$ la seconde projection. Soit $i: E_0\rightarrow E_1$ un isomorphisme d’espaces fibrés principaux. Soit $p$ l’application $p_0\times$ Id$_{\mathbf{I}}: E_0\times \mathbf{I}\rightarrow B\times \mathbf{I}$.
 
-Comme l’espace $B\times \mathbf{I}$ est paracompact (TG, IX, p. 70, prop. 17), le faisceau $\mathscr{G}$ sur $B\times \mathbf{I}$ des morphismes d’espaces fibrés principaux de $E_0\times \mathbf{I}$ dans $E_u$ est mou (IV, p. 446, prop. 4). Posons $A = B\times  \{0,1\}$, $U = B\times ([0,^1_2[\cup ]^1_2,1])$, et définissons un élément $g$ de $\mathscr{G}(U)$ en posant
+Comme l’espace $B\times \mathbf{I}$ est paracompact (TG, IX, p. 70, prop. 17), le faisceau $\mathscr{G}$ sur $B\times \mathbf{I}$ des morphismes d’espaces fibrés principaux de $E_0\times \mathbf{I}$ dans $E_u$ est mou (IV, p. 446, prop. 4). Posons $A = B\times  \{0,1\}$, $U = B\times ([0,\frac{1}{2}[\cup ]\frac{1}{2},1])$, et définissons un élément $g$ de $\mathscr{G}(U)$ en posant
 
 $g_0(x)$ pour $(x, t)\in E_0\times [0,^1[$,
 
 $g(x, t) =$ 2
 
-$g_1\circ i(x)$ pour $(x, t)\in E_0\times ]^1_2,1]$.
+$g_1\circ i(x)$ pour $(x, t)\in E_0\times ]\frac{1}{2},1]$.
 
 Comme le faisceau $\mathscr{G}$ est mou, il existe un élément $h\in \mathscr{G}(B\times \mathbf{I})$ et un voisinage ouvert V de A dans U tel que $h|V =g|V$ ; un tel élément est une application continue $H: E_0\times \mathbf{I}\rightarrow E_u$, compatible avec les opérations de G et telle que $H(x,0) =g_0(x)$, $H(x,1) =g_1(i(x))$ pour tout $x\in E_0$. Il existe alors une application $h': B\times \mathbf{I}\rightarrow B_u$ telle que $h'(p_0(x), t) =p_u(H(x, t))$ pour $x\in E_0$ et $t\in \mathbf{I}$; cette application est continue, c’est une homotopie reliant $f_0$ à $f_1$.
 
@@ -342,7 +342,7 @@ $$
 p_V(\sigma (h, t)\sigma (k, u)^{-1})\leqslant p_V(hk^{-1}) +|t-u|
 $$
 
-autrement dit, pour que $\sigma (h, t)\in V^*_{\varepsilon}\sigma (k, u)$, il suffit que l’on ait $|t-u|\leqslant^{\varepsilon}_2$ et $h\in V^*_{\varepsilon /2}k$, ce qui démontre la continuité de $\sigma$ en $(k, u)$.
+autrement dit, pour que $\sigma (h, t)\in V^*_{\varepsilon}\sigma (k, u)$, il suffit que l’on ait $|t-u|\leqslant \frac{\varepsilon}{2}$ et $h\in V^*_{\varepsilon /2}k$, ce qui démontre la continuité de $\sigma$ en $(k, u)$.
 
 Pour tout $h\in G^*,\sigma (h,0)$ est l’application constante d’image $\{e\}$, tandis que $\sigma (h,1) =h$. En outre, $\sigma (e, t) =e$ pour tout $t\in \mathbf{I}$. Par conséquent, $\sigma$ est une homotopie pointée en $e\in G^*$ reliant l’application constante d’image $\{e\}$ à l’application identique de $G^*$. Cela démontre que $G^*$ est contractile en $e^*$.
 
@@ -528,7 +528,7 @@ c) Démontrer que l’injection canonique de X dans Y induit un isomorphisme de 
 
 d) Démontrer que la topologie quotient de la convergence compacte sur $\pi_1(Y, a)$ n’est pas discrète.
 
-5) Soit X le sous-espace de $\mathbf{R}^2$ réunion de $[0,1]\times  \{0,1\}$, de $\{0\} \times [0,1]$ et des segments $\{^1_n\} \times [0,1]$, pour $n\geqslant 1$.
+5) Soit X le sous-espace de $\mathbf{R}^2$ réunion de $[0,1]\times  \{0,1\}$, de $\{0\} \times [0,1]$ et des segments $\{\frac{1}{n}\} \times [0,1]$, pour $n\geqslant 1$.
 
 a) Démontrer que tout point $a$ de X admet un voisinage V tel que l’image de $\pi_1(V, a)$ dans $\pi_1(X, a)$ soit triviale.
 
@@ -658,7 +658,7 @@ b) Démontrer que pour tout entier $n\geqslant 2$, le groupe $\mathbf{S}\mathbf{
 
 2) Soit Y un espace topologique obtenu par recollement d’espaces $X_i$; soit X l’espace topologique somme de la famille $(X_i)$ et soit $f: X\rightarrow Y$ l’application canonique (TG, I, p. 16). Pour tout $i$, posons $Y_i=f(X_i)$ et soit $f_i: X_i\rightarrow Y_i$ l’application déduite de $f$ par passage aux sous-espaces. L’application $f_i$ est bijective et continue. Si l’application $f_i$ n’est pas un homéomorphisme, la donnée de descente canonique sur X, relative à $f$, n’est pas effective. Pour un exemple, cf. TG, I, p. 94, exerc. 15.
 
-3) Notons B l’ensemble des points $(x, y)$ du carré $[0,1]^2$ vérifiant $x= 0$, ou $x= 1$, ou $y= 0$, ou $y= 1$, ou il existe $n\in \mathbf{N}$ tel que $nx= 1$. Soient $B_1$ et $B_2$ les sous-ensembles de B formés des points $(x, y)$ de B pour lesquels $y\leqslant^1_2$ et $y\geqslant^1_2$ respectivement.
+3) Notons B l’ensemble des points $(x, y)$ du carré $[0,1]^2$ vérifiant $x= 0$, ou $x= 1$, ou $y= 0$, ou $y= 1$, ou il existe $n\in \mathbf{N}$ tel que $nx= 1$. Soient $B_1$ et $B_2$ les sous-ensembles de B formés des points $(x, y)$ de B pour lesquels $y\leqslant \frac{1}{2}$ et $y\geqslant \frac{1}{2}$ respectivement.
 
 Construire un B-espace $(E, p)$ qui n’est pas un revêtement mais tel que le $B_1$-espace $(E_{B_1}, p_{B_1})$ et le $B_2$-espace $(E_{B_2}, p_{B_2})$ soient des revêtements.
 
@@ -752,7 +752,7 @@ b) Soit $R'$ la relation d’équivalence dans W dont $B\cup S$ est la seule cla
 
 11) Soit X un espace topologique connexe par arcs et soit $f: X\rightarrow X$ un homéomorphisme. Soit T l’espace quotient de $X\times \mathbf{I}$ par la relation d’équivalence la plus fine pour laquelle les points $(x,0)$ et $(f(x),1)$ sont équivalents, pour tout $x\in X$. On note $p: X\times \mathbf{I}\rightarrow T$ l’application canonique ; on note $j: X\rightarrow T$ l’application donnée par $x\mapsto p(x,1/2)$. Soit $a$ un point de X, soit $c\in \Lambda_{f(a),a}(X)$ un chemin d’origine $f(a)$ et de terme $a$, et soit $\gamma = [c]$.
 
-a) Démontrer que l’application de $\mathbf{I}$ dans T donnée par $t\mapsto p(a,^1_2-t)$ pour $t\in [0,^1_2]$ et $t\mapsto p(c(2t-1),^3_2-t)$ pour $t\in ]^1_2,1]$ est un lacet en $j(a)$ dans T. On note $\delta$ sa classe.
+a) Démontrer que l’application de $\mathbf{I}$ dans T donnée par $t\mapsto p(a,\frac{1}{2}-t)$ pour $t\in [0,\frac{1}{2}]$ et $t\mapsto p(c(2t-1),\frac{3}{2}-t)$ pour $t\in ]\frac{1}{2},1]$ est un lacet en $j(a)$ dans T. On note $\delta$ sa classe.
 
 b) Soit $\mathsf{S}$ l’unique homomorphisme de groupes de $\pi_1(X, a)*\mathbf{Z}$ dans $\pi_1(T, j(a))$ qui applique une classe $v\in \pi_1(X, a)$ sur $j_*(v)$ et l’élément $t= 1$ de $\mathbf{Z}$ sur la classe $\delta$. Démontrer que l’homomorphisme $\mathsf{S}$ est surjectif et que son noyau est le plus petit sous-groupe distingué qui contient les éléments $vt(\gamma^{-1}f_*(v)\gamma )^{-1}t^{-1}$, pour $v\in \pi_1(X, a)$.
 

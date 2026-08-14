@@ -41,7 +41,7 @@ subsections:
       pdf_page: 51
 statements: 26
 exercises: 4
-content_sha256: 75c707d1e1b9b71208ce7fba4ec7cf0e40d406733339be5d951fca17784ea6d4
+content_sha256: d398e5ef3eb5ed5c4a9b61d762f4ef7e6ec8a695be9fb37ac1b84d97349fbe19
 ---
 
 ## § 2. EXEMPLES D’APPLICATIONS LINÉAIRES COMPACTES
@@ -134,7 +134,7 @@ Vérifions les conditions (i) et (ii) pour $k$. Pour tout $y\in Y$, l’applicat
 
 On prend ici $K =\mathbf{C}$. Soit X un espace topologique localement compact muni d’une mesure positive $\mu$. Pour tout $r\in [1,+\infty ]$, on note $\mathscr{L}^r(X) =\mathscr{L}_{\mathbf{C}}^r(X, \mu)$ et $L^r(X) = L^r_{\mathbf{C}}(X, \mu)$. Lorsque $r\in [1,+\infty [$, on identifie le dual de $L^r(X)$ avec $L^{r'}(X)$ où $r'$ est l’exposant conjugué de $r$, tel que $1/r+ 1/r'= 1$ (INT, V, p. 61, § 5, n$^o8$, th. 4). On note $\|f\|_r$ la norme (ou semi-norme) de $f\in L^r(X)$ (ou $f\in \mathscr{L}^r(X))$.
 
-On rappelle qu’une partie A de X est dite $\mu$-modérée (INT, V, p. 4, § 1, n$^o2)$ si elle est contenue dans la réunion d’une suite d’ensembles $\mu$-intégrables, et qu’une fonction $f$ définie sur X à valeurs dans un espace vectoriel ou dans $\mathbf{R}$ est $\mu$-modérée si elle est nulle dans le complémentaire d’une partie $\mu$-modérée de X. Si 1 $\leqslant p <+\infty$ et $f\in \mathscr{L}^p$(X), alors $f$ est modérée (INT, V, p. 9, § 1, n$^o3$, cor.). Si $f$ est $\mu$-modérée, alors $f g$ est $\mu$-modérée pour toute fonction $g$.
+On rappelle qu’une partie A de X est dite $\mu$-modérée (INT, V, p. 4, § 1, n$^o2)$ si elle est contenue dans la réunion d’une suite d’ensembles $\mu$-intégrables, et qu’une fonction $f$ définie sur X à valeurs dans un espace vectoriel ou dans $\overline{\mathbf{R}}$ est $\mu$-modérée si elle est nulle dans le complémentaire d’une partie $\mu$-modérée de X. Si 1 $\leqslant p <+\infty$ et $f\in \mathscr{L}^p$(X), alors $f$ est modérée (INT, V, p. 9, § 1, n$^o3$, cor.). Si $f$ est $\mu$-modérée, alors $f g$ est $\mu$-modérée pour toute fonction $g$.
 
 Soient $p$ et $q$ des éléments de$]1,+\infty [$. Soient X et Y des espaces topologiques localement compacts, munis de mesures positives $\mu$ et $\nu$, respectivement. On munit l’espace $X\times Y$ (resp. $Y\times X)$ de la mesure produit $\mu\otimes \nu$ (resp. $\nu \otimes \mu)$.
 
@@ -365,13 +365,13 @@ D’après la prop. 5, on a $k\in \mathscr{N}^{2,2}(X\times Y)$, donc l’applic
 Dans le cas $p=q= 2$, il est généralement plus commode d’exprimer la caractérisation de l’opérateur intégral $u_k$ à l’aide du produit scalaire : il s’agit de l’unique application de $L^2(X)$ dans $L^2(Y)$ telle que
 
 $$
-\langle g|u_k(f)\rangle =\int_{X\times Y}k(x, y)f(x)g(y)d(\mu\otimes \nu )(x, y)
+\langle g|u_k(f)\rangle =\int_{X\times Y}k(x, y)f(x)\overline{g(y)}d(\mu\otimes \nu )(x, y)
 $$
 
 pour tous $f\in L^2(X)$ et $g\in L^2(Y)$. De plus, l’adjoint de $u_k$ est l’application linéaire $u_{k^*}$, où $k^*\in L^2(Y\times X)$ vérifie $k^*(y, x) =k(x, y)$ pour presque tout $(y, x)\in Y\times X$. En effet, pour tous $f\in L^2(X)$ et $g\in L^2$(Y), on a
 
 $$
-\langle g|u_k(f)\rangle =\int_{X\times Y}k(x, y)g(y)f(x)d(\mu\otimes \nu )(x, y) =\langle u_{k^*}(g)|f\rangle
+\langle g|u_k(f)\rangle =\int_{X\times Y}k(x, y)\overline{g(y)}f(x)d(\mu\otimes \nu )(x, y) =\langle u_{k^*}(g)|f\rangle
 $$
 
 #### Corollaire 2 {#ts-iii-s2-prop-7-cor-2 .statement tag=02R0}

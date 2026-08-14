@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: 7579b3be13f393cca63afec84f986887ac83e4d5769c01eb528f33a68e485aa3
+content_sha256: b1be68ea80a432d65557d8645406fd6e4f866fdcfd239b21ed7147d4c2ec3867
 ---
 
 ## § 1. OPÉRATEURS COMPACTS SUR UN ESPACE HILBERTIEN
@@ -98,7 +98,7 @@ d) Si K = $\mathbf{C}$, alors l’application de calcul fonctionnel continu de $
 
 D’après le lemme 1, la famille des valeurs propres d’un endomorphisme diagonal dans B est bornée et l’application de $\mathscr{D}_B(E)$ dans $\mathscr{B}(I)$ ainsi définie est un morphisme continu isométrique d’algèbres de Banach unifères.
 
-Soit $i\in I$. Pour tout $j\in I$, on a $\langle u^*(e_i)|e_j\rangle =\lambda_j\langle e_i|e_j\rangle =\langle \lambda_je_i|e_j\rangle$. Il en résulte que $u^*(e_i) =\lambda_ie_i$. L’adjoint de $u$ est donc l’endomorphisme diagonal dans la base B dont $(\lambda_i)_{i\in I}$ est la famille des valeurs propres. L’assertion a) en résulte.
+Soit $i\in I$. Pour tout $j\in I$, on a $\langle u^*(e_i)|e_j\rangle =\lambda_j\langle e_i|e_j\rangle =\langle \overline{\lambda_j}e_i|e_j\rangle$. Il en résulte que $u^*(e_i) =\overline{\lambda}_ie_i$. L’adjoint de $u$ est donc l’endomorphisme diagonal dans la base B dont $(\lambda_i)_{i\in I}$ est la famille des valeurs propres. L’assertion a) en résulte.
 
 Soit $\lambda = (\lambda_i)_{i\in I}\in \mathscr{B}(I)$. Pour tout $x\in E$, la famille $(|\langle e_i|x\rangle |^2)_{i\in I}$ est sommable, de somme $\|x\|^2$ (EVT, V, p. 22, prop. 5), d’où, pour tout sous-ensemble fini J de I :
 
@@ -158,7 +158,7 @@ Supposons $K =\mathbf{C}$. Soit $u$ un endomorphisme compact et normal de E. Il 
 
 L’ensemble Sp$_s(u)$ est dénombrable, et il ne contient pas 0 si E est de dimension infinie (III, p. 90, prop. 5, b)). Pour tout élément $\lambda \in$ Sp$_s(u)$, notons $N_{\lambda}$ le nilespace de $u-\lambda 1_E$. Il est de dimension finie (loc. cit.) et, puisque $u$ est normal, il coïncide avec l’espace propre de $u$ relatif à $\lambda$ (EVT, V, p. 43, cor. de la prop. 8). Les espaces $N_{\lambda}$ sont deux à deux orthogonaux (I, p. 132, n$^o5$).
 
-Soit F le sous-espace de E somme hilbertienne des espaces $N_{\lambda}$ pour $\lambda \in$ Sp$_s(u)-\{0\}$. C’est un espace de type dénombrable, stable par $u$ puisque chaque sous-espace $N_{\lambda}$ est stable par $u$. Comme $N_{\lambda}$ est aussi l’espace propre de $u^*$ relatif à $\lambda$ (EVT, V, loc. cit.), l’endomorphisme $u$ induit un endomorphisme $\widetilde{u}$ de $F^{\circ}$ par passage aux sous-espaces. L’endomorphisme $\widetilde{u}$ est compact (prop. 3 de III, p. 5) et normal (lemme 4 de I, p. 135). Par construction, le spectre sensible de $\widetilde{u}$ est contenu dans $\{0\}$ (en effet, tout vecteur propre pour $\widetilde{u}$ en serait un pour $u$, donc appartiendrait à l’un des espaces $N_{\lambda}$ si la valeur propre correspondante était non nulle). Ainsi le rayon spectral de $\widetilde{u}$ est nul, d’où $\widetilde{u}= 0$ puisque $\widetilde{u}$ est normal (cor. 1 de I, p. 108). On a donc $F^{\circ}\subset$ Ker($u$).
+Soit F le sous-espace de E somme hilbertienne des espaces $N_{\lambda}$ pour $\lambda \in$ Sp$_s(u)-\{0\}$. C’est un espace de type dénombrable, stable par $u$ puisque chaque sous-espace $N_{\lambda}$ est stable par $u$. Comme $N_{\lambda}$ est aussi l’espace propre de $u^*$ relatif à $\overline{\lambda}$ (EVT, V, loc. cit.), l’endomorphisme $u$ induit un endomorphisme $\widetilde{u}$ de $F^{\circ}$ par passage aux sous-espaces. L’endomorphisme $\widetilde{u}$ est compact (prop. 3 de III, p. 5) et normal (lemme 4 de I, p. 135). Par construction, le spectre sensible de $\widetilde{u}$ est contenu dans $\{0\}$ (en effet, tout vecteur propre pour $\widetilde{u}$ en serait un pour $u$, donc appartiendrait à l’un des espaces $N_{\lambda}$ si la valeur propre correspondante était non nulle). Ainsi le rayon spectral de $\widetilde{u}$ est nul, d’où $\widetilde{u}= 0$ puisque $\widetilde{u}$ est normal (cor. 1 de I, p. 108). On a donc $F^{\circ}\subset$ Ker($u$).
 
 Pour tout $\lambda \in$ Sp$_s(u)$, soit $B_{\lambda}$ une base orthonormale de $N_{\lambda}$ et $(e_j)_{j\in J}$ la famille réunion des $B_{\lambda}$; c’est une base orthonormale de F. Soit B la réunion de $(e_j)_{j\in J}$ et d’une base orthonormale de $F^{\circ}$. C’est une base orthonormale de E et $u$ est diagonal dans la base B.
 
@@ -172,7 +172,7 @@ Si $K =\mathbf{C}$, cela résulte aussitôt du théorème. Supposons $K =\mathbf
 
 Soit F un espace hilbertien et soit $u$ une application linéaire continue compacte de E dans F. Il existe un ensemble dénombrable I, une base orthonormale $(e_i)_{i\in I}$ de l’espace initial Ker($u$)$^{\circ}$ de $u$, une famille orthonormale $(f_i)_{i\in I}$ de F et une famille $(\alpha_i)_{i\in I}\in (\mathbf{R}^*_+)^I$ telles que $u(e_i) =\alpha_if_i$ pour tout $i\in I$.
 
-Soit $v=u^*\circ u$. C’est un endomorphisme compact (III, p. 5, prop. 3) et positif, donc hermitien, de E. D’après le corollaire 1, il existe une base orthonormale $(e_j)_{j\in J}$ de E telle que $v$ est diagonal dans cette base. La famille $(\lambda_j)_{j\in J}$ de ses valeurs propres est contenue dans $\mathbf{R}_+^J$. Posons $\alpha_j=\lambda_j$ pour tout $j\in J$. Soit I l’ensemble des $j\in J$ tels que $\alpha_j\not = 0$. C’est un ensemble dénombrable puisque $v$ est compact. La famille $(e_i)_{i\in I}$ est une base orthonormale de l’espace initial de $v$, qui est l’espace initial Ker($u$)$^{\circ}$ de $u$ (EVT, V, p. 43, prop. 8). Posons $f_i=_{\alpha}^{1_i}u(e_i)$ pour $i\in I$. Quels que soient $i$ et $j$ dans I, on a
+Soit $v=u^*\circ u$. C’est un endomorphisme compact (III, p. 5, prop. 3) et positif, donc hermitien, de E. D’après le corollaire 1, il existe une base orthonormale $(e_j)_{j\in J}$ de E telle que $v$ est diagonal dans cette base. La famille $(\lambda_j)_{j\in J}$ de ses valeurs propres est contenue dans $\mathbf{R}_+^J$. Posons $\alpha_j=\lambda_j$ pour tout $j\in J$. Soit I l’ensemble des $j\in J$ tels que $\alpha_j\not = 0$. C’est un ensemble dénombrable puisque $v$ est compact. La famille $(e_i)_{i\in I}$ est une base orthonormale de l’espace initial de $v$, qui est l’espace initial Ker($u$)$^{\circ}$ de $u$ (EVT, V, p. 43, prop. 8). Posons $f_i=\frac{1}{\alpha_i}u(e_i)$ pour $i\in I$. Quels que soient $i$ et $j$ dans I, on a
 
 1 1 $\lambda_i$
 
@@ -212,11 +212,11 @@ Soit $u$ un endomorphisme compact positif de E. Soit $B = (f_i)_{i\in I}$ une ba
 
 Dans ce numéro, on suppose que $K =\mathbf{C}$.
 
-On note $\mathbf{N}=\mathbf{N}\cup  \{+\infty \} \subset \mathbf{R}$. Dans ce numéro, on dira qu’un espace vectoriel E est de dimension $+\infty  \in \mathbf{N}$ si E n’est pas de dimension finie.
+On note $\overline{\mathbf{N}}=\mathbf{N}\cup  \{+\infty \} \subset \overline{\mathbf{R}}$. Dans ce numéro, on dira qu’un espace vectoriel E est de dimension $+\infty  \in \overline{\mathbf{N}}$ si E n’est pas de dimension finie.
 
 Soit $I_E\subset \mathbf{N}$ l’ensemble des dimensions des sous-espaces de dimension finie F de E tels que $F\not = E$. On a $I_E=\mathbf{N}$ si E est de dimension infinie, et sinon $I_E=\{0, . . .$, dim(E) $-1\}$. On notera $I = I_E$ lorsqu’aucune confusion ne pourra en résulter.
 
-Soit $u$ un endomorphisme compact et positif (en particulier hermitien) de E. Le spectre sensible de $u$ est l’ensemble des valeurs d’une suite strictement décroissante $(\nu_k)_{0\leqslant k<Card(Sp_s(u))}$ de nombres réels positifs (cf. prop. 5 de III, p. 90). Pour tout entier $k$ tel que $0\leqslant k <$ Card(Sp$_s(u))$, on note $n_k\geqslant 1$ la multiplicité spectrale de $\nu_k$. Soit $M\in \mathbf{N}$ la somme des multiplicités spectrales $n_k$; c’est la dimension de l’image de $u$. On a $M\leqslant$ Card(I).
+Soit $u$ un endomorphisme compact et positif (en particulier hermitien) de E. Le spectre sensible de $u$ est l’ensemble des valeurs d’une suite strictement décroissante $(\nu_k)_{0\leqslant k<Card(Sp_s(u))}$ de nombres réels positifs (cf. prop. 5 de III, p. 90). Pour tout entier $k$ tel que $0\leqslant k <$ Card(Sp$_s(u))$, on note $n_k\geqslant 1$ la multiplicité spectrale de $\nu_k$. Soit $M\in \overline{\mathbf{N}}$ la somme des multiplicités spectrales $n_k$; c’est la dimension de l’image de $u$. On a $M\leqslant$ Card(I).
 
 Pour $0\leqslant n <M$, on définit $\lambda_n(u) =\nu_k$, où $k\geqslant 0$ est l’unique entier tel que
 
@@ -604,11 +604,11 @@ $$
 
 comme désiré.
 
-Soit I un intervalle de $\mathbf{R}$ ne contenant pas $+\infty$. Rappelons (FVR, I, p. 38, remarque) qu’une fonction continue $f: I\rightarrow [-\infty ,+\infty [$ est dite convexe si sa restriction à l’intérieur de I est une fonction convexe à valeurs dans $\mathbf{R}$; elle a alors une limite (finie ou infinie) à droite en inf I. Dans les énoncés ci-dessous, le produit de 0 et d’un élément de $\{-\infty ,+\infty \}$ est par convention égal à 0.
+Soit I un intervalle de $\overline{\mathbf{R}}$ ne contenant pas $+\infty$. Rappelons (FVR, I, p. 38, remarque) qu’une fonction continue $f: I\rightarrow [-\infty ,+\infty [$ est dite convexe si sa restriction à l’intérieur de I est une fonction convexe à valeurs dans $\mathbf{R}$; elle a alors une limite (finie ou infinie) à droite en inf I. Dans les énoncés ci-dessous, le produit de 0 et d’un élément de $\{-\infty ,+\infty \}$ est par convention égal à 0.
 
 #### Lemme 5 {#ts-iv-s1-lem-5 .statement tag=02X3}
 
-Soient $I\subset \mathbf{R}$ un intervalle ne contenant pas $+\infty$ et $f$ une fonction convexe croissante de I dans $[-\infty ,+\infty [$.
+Soient $I\subset \overline{\mathbf{R}}$ un intervalle ne contenant pas $+\infty$ et $f$ une fonction convexe croissante de I dans $[-\infty ,+\infty [$.
 
 Soient $n$ un entier naturel et
 
@@ -714,7 +714,7 @@ $$
 \sum_{i=0}^n\alpha_i(v\circ u)^r\leqslant \sum_{i=0}^n\alpha_i(v)^r\alpha_i(u)^r
 $$
 
-b) Soient $p, q, r\in \mathbf{R}_+^*$ tels que $^1_p+^1_q=^1_r$. Alors
+b) Soient $p, q, r\in \mathbf{R}_+^*$ tels que $\frac{1}{p}+\frac{1}{q}=\frac{1}{r}$. Alors
 
 $n1/rn1/pn1/q$
 
@@ -1080,7 +1080,7 @@ L’application $\theta$ définit par passage aux quotients une application lin�
 
 La première assertion est élémentaire. Démontrons la seconde.
 
-Soient $(f_i)_{i\in I}$ et $(g_j)_{j\in J}$ des bases orthonormales de $L^2(X)$ et $L^2$(Y), respectivement. La famille $(f_i\otimes g_j)_{(i,j)\in I\times J}$ est une base orthonormale de $L^2(X)\widehat{\otimes}_2L^2(Y)$ (EVT, V, p. 29, cor. 1) et la famille $(\widetilde{\theta}(f_i\otimes g_j))_{(i,j)\in I\times J}$ est orthonormale dans $L^2(X\times Y)$ (INT, V, p. 95, § 8, n$^o3$, cor. 2). L’application $\widetilde{\theta}$ s’étend donc par continuité en une application linéaire isométrique de $L^2(X)\widehat{\otimes}_2L^2(Y)$ dans $L^2(X\times Y)$. Il reste à démontrer que cette extension est surjective.
+Soient $(f_i)_{i\in I}$ et $(g_j)_{j\in J}$ des bases orthonormales de $L^2(X)$ et $L^2$(Y), respectivement. La famille $(f_i\otimes g_j)_{(i,j)\in I\times J}$ est une base orthonormale de $L^2(X)\widehat{\otimes}_2L^2(Y)$ (EVT, V, p. 29, cor. 1) et la famille $(\widetilde{\theta}(\overline{f}_i\otimes g_j))_{(i,j)\in I\times J}$ est orthonormale dans $L^2(X\times Y)$ (INT, V, p. 95, § 8, n$^o3$, cor. 2). L’application $\widetilde{\theta}$ s’étend donc par continuité en une application linéaire isométrique de $L^2(X)\widehat{\otimes}_2L^2(Y)$ dans $L^2(X\times Y)$. Il reste à démontrer que cette extension est surjective.
 
 Pour cela il suffit de prouver que l’image de $\widetilde{\theta}$ est dense dans $L^2(X\times Y)$. Soit N un élément de $L^2(X\times Y)$ orthogonal à l’image de $\widetilde{\theta}$. Pour tous $i\in I$ et $j\in J$, on a $\langle g_j|u_N(f_i)\rangle =\langle \widetilde{\theta}(f_i\otimes g_j)|N\rangle = 0$ (formule (12)), d’où $u_N= 0$, et donc N = 0.
 
@@ -1094,20 +1094,20 @@ L’application $N\mapsto u_N$ est un isomorphisme isométrique de $L^2(X\times 
 
 L’application linéaire de $L^2(Y)\otimes L^2(X)$ dans $\mathscr{L}_2(L^2(X); L^2(Y))$ qui associe à $g\otimes f$ l’application de Hilbert–Schmidt $h\mapsto  \langle f|h\rangle g$ se prolonge en un isomorphisme isométrique $\theta_1$ de $L^2(Y)\widehat{\otimes}_2L^2(X)$ sur $\mathscr{L}_2(L^2(X); L^2(Y))$ (EVT, V, p. 52, th. 1).
 
-Notons par ailleurs $\theta_2$ l’isomorphisme isométrique de $L^2(X)\widehat{\otimes}_2L^2(Y)$ sur $L^2(Y)\widehat{\otimes}_2L^2(X)$ qui à $f\otimes g$ associe $g\otimes f$ pour tout $f\in L^2(X)$ et tout $g\in L^2(Y)$.
+Notons par ailleurs $\theta_2$ l’isomorphisme isométrique de $L^2(X)\widehat{\otimes}_2L^2(Y)$ sur $L^2(Y)\widehat{\otimes}_2L^2(X)$ qui à $f\otimes g$ associe $g\otimes \overline{f}$ pour tout $f\in L^2(X)$ et tout $g\in L^2(Y)$.
 
 L’application linéaire $\theta_3=\theta_1\circ \theta_2$ s’identifie à un isomorphisme isométrique de $L^2(X\times Y)$ sur $\mathscr{L}_2(L^2(X); L^2(Y))$.
 
 Soient $f\in L^2(X)$ et $g\in L^2$(Y), et soit N l’élément de $L^2(X\times Y)$ identifié à $f\otimes g$. D’après INT, V, p. 95, § 8, n$^o3$, cor. 2 et la formule (12) on a
 
 $$
-\langle g_1|u_N(f_1)\rangle =\langle f|f_1\rangle  \langle g_1|g\rangle
+\langle g_1|u_N(f_1)\rangle =\langle \overline{f}|f_1\rangle  \langle g_1|g\rangle
 $$
 
 pour tous $f_1\in L^2(X)$ et $g_1\in L^2(Y)$. L’application $u=\theta_3(N)$ est l’application linéaire $\theta_1(g\otimes f)$; elle vérifie donc $u(h) =\langle f|h\rangle g$ pour tout $h\in L^2(X)$. Par conséquent, quels que soient $f_1\in L^2(X)$ et $g_1\in L^2$(Y), il vient
 
 $$
-\langle g_1|u(h_1)\rangle =\langle f|h_1\rangle  \langle g_1|g\rangle =\langle g_1|u_N(h_1)\rangle
+\langle g_1|u(h_1)\rangle =\langle \overline{f}|h_1\rangle  \langle g_1|g\rangle =\langle g_1|u_N(h_1)\rangle
 $$
 
 d’où $\theta_3(N) =u_N$. Puisque $\theta_3$ et $N\mapsto u_N$ sont continues, on conclut que $\theta_3(N) =u_N$ pour tout $N\in L^2(X\times Y)$, ce qui conclut la preuve.
@@ -1130,7 +1130,7 @@ pour tout $f\in L^2$(X), où la série converge dans $L^2(Y)$. D’après le cor
 
 $\sum_{i\in I}\alpha^2_i=$ Tr($u^*_Nu_N$) $=\|u_N\|^2_2=\int_{X\times Y}|N(x, y)|^2d(\mu\otimes \nu )(x, y)$.
 
-Notons de plus $h_{i,j}=f_i\otimes g_j\in L^2(X\times Y)$ pour tout $(i, j)\in I\times I$. On a alors
+Notons de plus $h_{i,j}=\overline{f}_i\otimes g_j\in L^2(X\times Y)$ pour tout $(i, j)\in I\times I$. On a alors
 
 $$
 N =\sum_{i\in I}\alpha_ih_{i,i}
@@ -1214,12 +1214,12 @@ Soit $(x, y)\in \widetilde{X}\times \widetilde{X}$. Pour tout sous-ensemble fini
 
 $1/21/2$
 
-(15) $\sum_{i\in J}\alpha_if_i(x)g_i(y)\leqslant \sum_{i\in J}\alpha_i|f_i(x)|^2\sum_{i\in J}\alpha_i|g_i(y)|^2$
+(15) $\sum_{i\in J}\alpha_i\overline{f_i(x)}g_i(y)\leqslant \sum_{i\in J}\alpha_i|f_i(x)|^2\sum_{i\in J}\alpha_i|g_i(y)|^2$
 
 d’où également
 
 $$
-\sum_{i\in J}\alpha_if_i(x)g_i(y)\leqslant H(x, y) \tag{16}
+\sum_{i\in J}\alpha_i\overline{f_i(x)}g_i(y)\leqslant H(x, y) \tag{16}
 $$
 
 ce qui établit dores et déjà la propriété (ii).
@@ -1227,7 +1227,7 @@ ce qui établit dores et déjà la propriété (ii).
 D’après l’inégalité (15), la série $\sum_i\alpha_ih_i$ converge uniformément sur $K_m\times K_n$ pour tout $(m, n)\in \mathbf{N}^2$. Soit $\widetilde{N}$ la fonction sur $X\times X$ définie par
 
 $$
-\widetilde{N}(x, y) =\sum_{i\in I}\alpha_ih_i(x, y) =\sum_{i\in I}\alpha_if_i(x)g_i(y)
+\widetilde{N}(x, y) =\sum_{i\in I}\alpha_ih_i(x, y) =\sum_{i\in I}\alpha_i\overline{f_i(x)}g_i(y)
 $$
 
 pour tout $(x, y)\in \widetilde{X}\times \widetilde{X}$ et par $\widetilde{N}(x, y) = 0$ sinon. La fonction $\widetilde{N}$ est mesurable (INT, IV, p. 175, § 5, n$^o4$, th. 2), et elle est continue sur $K_m\times K_n$ pour tout $(m, n)\in \mathbf{N}^2$.
@@ -1237,19 +1237,19 @@ D’après (16), on a $|\widetilde{N}(x, y)|\leqslant H(x, y)$ pour tout $(x, y)
 Démontrons que $N =\widetilde{N}$ sur $\widetilde{X}\times \widetilde{X}$, ce qui établira la propriété (i). Soient $f$ et $g$ des éléments de $\mathscr{L}^2(X)$. On a
 
 $$
-\langle g|u_{\widetilde{N}}(f)\rangle =\int_{X\times X}\widetilde{N}(x, y)f(x)g(y)d(\mu\otimes \mu)(x, y)
+\langle g|u_{\widetilde{N}}(f)\rangle =\int_{X\times X}\widetilde{N}(x, y)f(x)\overline{g(y)}d(\mu\otimes \mu)(x, y)
 $$
 
 (formule (12) de IV, p. 172). Pour tout $(x, y)\in \widetilde{X}\times \widetilde{X}$ et toute partie finie J de I, on a
 
 $$
-\sum_{i\in J}\alpha_if_i(x)g_i(y)f(x)g(y)\leqslant |f(x)g(y)|H(x, y)
+\sum_{i\in J}\alpha_i\overline{f_i(x)}g_i(y)f(x)\overline{g(y)}\leqslant |f(x)g(y)|H(x, y)
 $$
 
 par la formule (16). Comme le membre de droite de cette inégalité est intégrable sur $X\times X$ (INT, V, p. 95, § 8, n$^o3$, cor. 2), on peut appliquer le théorème de Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6) et la formule (13) pour en déduire que
 
 $$
-\langle g|u_{\widetilde{N}}(f)\rangle =\sum_{i\in I}\alpha_i\int_{X\times X}f_i(x)g_i(y)f(x)g(y)d(\mu\otimes \mu)(x, y)
+\langle g|u_{\widetilde{N}}(f)\rangle =\sum_{i\in I}\alpha_i\int_{X\times X}\overline{f_i(x)}g_i(y)f(x)\overline{g(y)}d(\mu\otimes \mu)(x, y)
 $$
 
 $$
@@ -1279,13 +1279,13 @@ D’après les conditions (i) et (ii), on a $|N(x, x)|\leqslant H(x, x)$ pour $x
 La condition (i) démontre l’égalité
 
 $$
-N(x, x) =\sum_{i\in I}\alpha_if_i(x)g_i(x)
+N(x, x) =\sum_{i\in I}\alpha_i\overline{f_i(x)}g_i(x)
 $$
 
 pour tout $x\in \widetilde{X}$. D’après les conditions (ii) et (iii), on peut appliquer le théorème de Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6), dont il résulte que
 
 $$
-\int_XN(x, x)d\mu(x) =\sum_{i\in I}\alpha_i\int_Xf_i(x)g_i(x)d\mu(x)
+\int_XN(x, x)d\mu(x) =\sum_{i\in I}\alpha_i\int_X\overline{f_i(x)}g_i(x)d\mu(x)
 $$
 
 $=\sum_{i\in I}\alpha_i\langle f_i|g_i\rangle =$ Tr($u_N$),

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 362
 statements: 16
 exercises: 8
-content_sha256: 963962e2621183217ec3e3a81e35a96f46c7b6ddc814593e5bb08222c83bcb94
+content_sha256: a3e1aa494eba5115eb3006e527482b94209558f398d6749d67eff3055b0576a2
 ---
 
 ## § 19. ALGÈBRES DE QUATERNIONS
@@ -51,22 +51,22 @@ $$
 C’est une algèbre cayleyenne (III, p. 15, déf. 1) dont la conjugaison satisfait à
 
 $$
-i=\beta -i,j=-j,k=-k \tag{2}
+\overline{i}=\beta -i,\overline{j}=-j,\overline{k}=-k \tag{2}
 $$
 
-Rappelons que la trace et la norme cayleyennes de F sont les applications $T_F$ et $N_F$ de F dans K définies par $T_F(q) =q+q$ et $N_F(q) =qq$.
+Rappelons que la trace et la norme cayleyennes de F sont les applications $T_F$ et $N_F$ de F dans K définies par $T_F(q) =q+\overline{q}$ et $N_F(q) =qq$.
 
 Le sous-espace vectoriel E de F de base $(1, i)$ est une sous-algèbre cayleyenne commutative de F ; c’est une algèbre quadratique de type $(\alpha , \beta )$ et F s’identifie à l’extension cayleyenne de E définie par $\gamma$ (III, p. 17). Pour tout $z\in E$, on a $zj=jz$. Tout élément $q$ de F s’écrit de manière unique sous la forme $x+jy$, avec $x, y\in E$, et l’on a
 
 $$
-q=x-jy,T_F(q) =x+x,N_F(q) =xx-\gamma yy \tag{3}
+\overline{q}=\overline{x}-jy,T_F(q) =x+\overline{x},N_F(q) =xx-\gamma yy \tag{3}
 $$
 
 #### Proposition 1 {#alg-viii-s19-prop-1 .statement tag=00LQ}
 
 Le polynôme caractéristique d’un élément $q$ de F est égal à $(X^2-T_F(q)X + N_F(q))^2$.
 
-D’après ce qui précède, l’algèbre F est un E-module à droite libre de base $(1, j)$. Par conséquent, F[X] est un E[X]-module à droite libre de base $(1, j)$. Notons $u$ l’endomorphisme du E[X]-module à droite F[X] défini par $u(P) = (X-q)P$ pour tout $P\in F[X]$. Le polynôme caractéristique de $q$ est le déterminant de $u$ considéré comme endomorphisme du K[X]-module F[X]. D’après la prop. 6 de III, p. 112, il est égal à N(det $u)$, où N désigne la norme de E[X] à K[X]. Écrivons $q$ sous la forme $x+jy$, avec $x, y\in E$. La matrice de $u$ par rapport à la base $(1, j)$ est $(^X_-^-_y^x_X^-_-^{\gamma y}_x)$; son déterminant est égal à $D = (X-x)(X-x)-\gamma yy= X^2-T_F(q)X + N_F(q) ($cf. formule (3)). Comme D appartient à K[X], on a $N(D) = D^2$, d’où la prop. 1.
+D’après ce qui précède, l’algèbre F est un E-module à droite libre de base $(1, j)$. Par conséquent, F[X] est un E[X]-module à droite libre de base $(1, j)$. Notons $u$ l’endomorphisme du E[X]-module à droite F[X] défini par $u(P) = (X-q)P$ pour tout $P\in F[X]$. Le polynôme caractéristique de $q$ est le déterminant de $u$ considéré comme endomorphisme du K[X]-module F[X]. D’après la prop. 6 de III, p. 112, il est égal à N(det $u)$, où N désigne la norme de E[X] à K[X]. Écrivons $q$ sous la forme $x+jy$, avec $x, y\in E$. La matrice de $u$ par rapport à la base $(1, j)$ est $(^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x}}})$; son déterminant est égal à $D = (X-x)(X-\overline{x})-\gamma yy= X^2-T_F(q)X + N_F(q) ($cf. formule (3)). Comme D appartient à K[X], on a $N(D) = D^2$, d’où la prop. 1.
 
 #### Remarque 1 {#alg-viii-s19-n1-rem-1 .statement tag=00LR}
 
@@ -238,10 +238,10 @@ $$
 i^2=j^2=k^2=-1,ij=-ji=k,-ik=ki=j,jk=-kj=i
 $$
 
-On identifie C à la sous-algèbre $R + Ri$ de H. Le conjugué d’un élément $q=x+yi+$ $zj+tk$ de H est $q=x-yi-zj-tk$. La trace et la norme cayleyennes de $q$ sont données par
+On identifie C à la sous-algèbre $R + Ri$ de H. Le conjugué d’un élément $q=x+yi+$ $zj+tk$ de H est $\overline{q}=x-yi-zj-tk$. La trace et la norme cayleyennes de $q$ sont données par
 
 $$
-T(q) =q+q= 2x,N(q) =qq=x^2+y^2+z^2+t^2
+T(q) =q+\overline{q}= 2x,N(q) =qq=x^2+y^2+z^2+t^2
 $$
 
 Comme R est un corps ordonné, on a $N(q)>0$ si $q\not= 0$, donc H est un corps, de centre R (VIII, p. 355, prop. 2). La trace et la norme réduites d’un élément $q$ de H sont $T(q)$ et $N(q)$ respectivement.

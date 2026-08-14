@@ -33,7 +33,7 @@ subsections:
       pdf_page: 156
 statements: 24
 exercises: 18
-content_sha256: 8669cf1d7201effe9ace4e266bafe45f152cbc07c82b32fe0bc954169076af83
+content_sha256: 8859a6b0573d4c210f3a62d9f114b94021ab2d8e4f8b830402b7c871294dce5b
 ---
 
 ## § 8. SYMMETRIC INVARIANTS
@@ -347,7 +347,7 @@ Prop. 6 shows that Aut$_0(\mathfrak{a})$ is closed. Let $\overline{k}$ be an alg
 
 ### 5. CENTRE OF THE ENVELOPING ALGEBRA
 
-In this number, we choose a basis B of R. Let $R_+$ be the set of positive roots relative to B. Let $\rho =^1_2\sum_{\alpha\in R_+}\alpha$, and $\delta$ the automorphism of the algebra $\mathbf{S}(\mathfrak{h})$ that takes every $x\in \mathfrak{h}$ to $x-\rho (x)$, and hence the polynomial function $p$ on $\mathfrak{h}^*$ to the function $\lambda  \rightarrow p(\lambda -\rho )$.
+In this number, we choose a basis B of R. Let $R_+$ be the set of positive roots relative to B. Let $\rho =\frac{1}{2}\sum_{\alpha\in R_+}\alpha$, and $\delta$ the automorphism of the algebra $\mathbf{S}(\mathfrak{h})$ that takes every $x\in \mathfrak{h}$ to $x-\rho (x)$, and hence the polynomial function $p$ on $\mathfrak{h}^*$ to the function $\lambda  \rightarrow p(\lambda -\rho )$.
 
 #### Theorem 2 {#lie-viii-s8-thm-2 .statement tag=015J}
 

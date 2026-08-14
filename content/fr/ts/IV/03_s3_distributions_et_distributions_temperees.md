@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: 7d66bcffa1460836b747007f8c6dfba03d2e4efa4d124f2a548123f68b9fbd89
+content_sha256: 2548efadcbed47a2bb41d5019dc3ca935387d2e0d98821a7908f38a29fad94b6
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -82,7 +82,7 @@ $$
 x\cdot y=\sum_{i=1}^nx_iy_i
 $$
 
-le produit scalaire sur l’espace euclidien $\mathbf{R}^n$; la norme euclidienne est notée $x\mapsto  \|x\|$ (TG, VI, p. 7). On rappelle que le groupe $\mathbf{R}^n$ est en dualité avec lui-même relativement à l’application $(x, y)\mapsto$ exp(2$i\pi  x\cdot y)$ et que la mesure duale de la mesure de Lebesgue s’identifie alors avec la mesure de Lebesgue (corollaire 3 de II, p. 236). On note $\mathscr{F}$ (resp. $\mathscr{F})$ la transformation de Fourier (resp. la cotransformation de Fourier) de $\mathbf{R}^n$ (cf. n$^o9$ de II, p. 237).
+le produit scalaire sur l’espace euclidien $\mathbf{R}^n$; la norme euclidienne est notée $x\mapsto  \|x\|$ (TG, VI, p. 7). On rappelle que le groupe $\mathbf{R}^n$ est en dualité avec lui-même relativement à l’application $(x, y)\mapsto$ exp(2$i\pi  x\cdot y)$ et que la mesure duale de la mesure de Lebesgue s’identifie alors avec la mesure de Lebesgue (corollaire 3 de II, p. 236). On note $\mathscr{F}$ (resp. $\overline{\mathscr{F}})$ la transformation de Fourier (resp. la cotransformation de Fourier) de $\mathbf{R}^n$ (cf. n$^o9$ de II, p. 237).
 
 Pour tout $\alpha = (\alpha_i)_{1\leqslant i\leqslant n}\in \mathbf{N}^n$, on notera $X^{\alpha}$ la fonction de $\mathbf{R}^n$
 
@@ -525,7 +525,7 @@ L’espace $\mathscr{D}(U)$ est dense dans $\mathscr{D}'(U)$.
 Soit $\lambda$ une forme linéaire sur $\mathscr{D}'(U)$ nulle sur $\mathscr{D}(U)$. Puisque $\mathscr{D}(U)$ est réflexif, il existe une fonction test $\varphi \in \mathscr{D}(U)$ telle que $\lambda (f) =\langle f, \varphi \rangle$ pour tout $f\in \mathscr{D}'(U)$. Il vient
 
 $$
-0 =\lambda (\varphi ) =\langle \varphi , \varphi \rangle =\int_U|\varphi |^2d\mu
+0 =\lambda (\overline{\varphi}) =\langle \varphi , \varphi \rangle =\int_U|\varphi |^2d\mu
 $$
 
 d’où $\varphi = 0$. La proposition découle alors du théorème de Hahn–Banach (EVT, II, p. 49, cor. 3 (ii)).
@@ -726,7 +726,7 @@ sup $\widetilde{q}_{\alpha_i,k_i}(\varphi -\varphi_0)\leqslant \delta T$ +.
 
 $_{i\in I}$ T
 
-Posons $T =^{4M}_{\varepsilon}$, puis $\delta =_{2T}^{\varepsilon_k}$. On constate que $V\cap B$ contient le voisinage de $\varphi_0$ dans B pour la topologie induite par $\mathscr{C}^{\infty}(\mathbf{R}^n)$ qui est défini par (4). Cela conclut la preuve.
+Posons $T =\frac{4M}{\varepsilon}$, puis $\delta =\frac{\varepsilon}{2T^k}$. On constate que $V\cap B$ contient le voisinage de $\varphi_0$ dans B pour la topologie induite par $\mathscr{C}^{\infty}(\mathbf{R}^n)$ qui est défini par (4). Cela conclut la preuve.
 
 #### Corollaire {#ts-iv-s3-n7-cor-1 .statement tag=0310}
 
@@ -964,7 +964,7 @@ pour tout $\psi \in \mathscr{D}(\mathbf{R}^n)$. La mesure $\varphi \cdot \mu$ su
 
 ### 12. Transformation de Fourier des distributions tempérées
 
-Comme toute fonction de Schwartz $\varphi$ est intégrable sur $\mathbf{R}^n$ (prop. 13 de IV, p. 213), elle admet une transformée de Fourier $\mathscr{F}(\varphi )$ (resp. une cotransformée de Fourier $\mathscr{F}(\varphi ))$ qui s’identifie à la fonction continue et bornée sur $\mathbf{R}^n$ définie par
+Comme toute fonction de Schwartz $\varphi$ est intégrable sur $\mathbf{R}^n$ (prop. 13 de IV, p. 213), elle admet une transformée de Fourier $\mathscr{F}(\varphi )$ (resp. une cotransformée de Fourier $\overline{\mathscr{F}}(\varphi ))$ qui s’identifie à la fonction continue et bornée sur $\mathbf{R}^n$ définie par
 
 $y\mapsto \int\varphi (x)$ exp($-2i\pi  x\cdot y$)$d\mu(x)$
 
@@ -1044,9 +1044,9 @@ Comme l’inclusion de l’espace $\mathscr{S}(\mathbf{R}^n)$ dans $L^1(\mathbf{
 
 On appelle transformation de Fourier (resp. cotransformation de Fourier) sur $\mathscr{S}'(\mathbf{R}^n)$ la transposée de la transformation de Fourier sur $\mathscr{S}(\mathbf{R}^n) ($resp. de la cotransformation de Fourier).
 
-On note encore $\mathscr{F}$ (resp. $\mathscr{F})$ la transformation de Fourier (resp. la cotransformation de Fourier) sur $\mathscr{S}'(\mathbf{R}^n)$. La transformation de Fourier sur $\mathscr{S}'(\mathbf{R}^n)$ est donc un automorphisme d’espaces vectoriels topologiques dont l’inverse est la cotransformation de Fourier. Pour tout $f\in \mathscr{S}'(\mathbf{R}^n)$, la distribution tempérée $\mathscr{F}(f)$ (resp. $\mathscr{F}(f))$ est définie par la formule
+On note encore $\mathscr{F}$ (resp. $\overline{\mathscr{F}})$ la transformation de Fourier (resp. la cotransformation de Fourier) sur $\mathscr{S}'(\mathbf{R}^n)$. La transformation de Fourier sur $\mathscr{S}'(\mathbf{R}^n)$ est donc un automorphisme d’espaces vectoriels topologiques dont l’inverse est la cotransformation de Fourier. Pour tout $f\in \mathscr{S}'(\mathbf{R}^n)$, la distribution tempérée $\mathscr{F}(f)$ (resp. $\overline{\mathscr{F}}(f))$ est définie par la formule
 
-$\langle \mathscr{F}(f), \varphi \rangle =\langle f,\mathscr{F}(\varphi )\rangle$ resp. $\langle \mathscr{F}(f), \varphi \rangle =\langle f,\mathscr{F}(\varphi )\rangle$
+$\langle \mathscr{F}(f), \varphi \rangle =\langle f,\mathscr{F}(\varphi )\rangle$ resp. $\langle \overline{\mathscr{F}}(f), \varphi \rangle =\langle f,\overline{\mathscr{F}}(\varphi )\rangle$
 
 pour tout $\varphi \in \mathscr{S}(\mathbf{R}^n)$.
 
@@ -1117,7 +1117,7 @@ On note aussi $H^k(U) = W^{k,2}(U)$ et $H^k_0(U) = W^{k,2}_0(U)$.
 La norme de $H^k(U)$ est une norme préhilbertienne, associée à la forme hermitienne positive sur $H^k(U)$ définie par
 
 $$
-(f_1, f_2)\mapsto \sum_{|\alpha|\leqslant}\int_{kU}\partial^{\alpha}f_1\partial^{\alpha}f_2d\mu
+(f_1, f_2)\mapsto \sum_{|\alpha|\leqslant}\int_{kU}\overline{\partial^{\alpha}f_1}\partial^{\alpha}f_2d\mu
 $$
 
 L’espace hilbertien $H^k(U)$ coïncide avec l’espace noté $\mathscr{H}^k$ dans EVT, V, p. 6, exemple (3).

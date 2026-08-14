@@ -25,7 +25,7 @@ subsections:
       pdf_page: 161
 statements: 11
 exercises: 11
-content_sha256: eff4c95a5bf31e0317d40777cb4058645e02ea838deef7c55193c46333beaac7
+content_sha256: 1567227f27d09abb3a35f92854c179442efa2e98b0036fe0e16d0817096a3383
 ---
 
 ## § 8. ALGÈBRES DE FONCTIONS CONTINUES SUR UN ESPACE COMPACT
@@ -73,7 +73,7 @@ L’assertion a) résulte de la prop. 10 de I, p. 40, et l’assertion b) de la 
 Démontrons c). Supposons donc que B est une sous-algèbre involutive pleine de $\mathscr{C}(X)$. Pour démontrer que ev est surjective, il suffit de démontrer que pour tout $\chi \in \mathsf{X}(B)$, il existe $y\in X$ tel que Ker($\chi$ ) $=$ Ker(ev$_y)$ (th. 2 de I, p. 30). Soit I = Ker($\chi$ ). C’est un idéal maximal de B. Soit Φ l’ensemble des $x\in X$ tels que $f(x) = 0$ pour tout $f\in I$. Montrons que Φ n’est pas vide. Dans le cas contraire, puisque X est compact, il existerait un entier $n\geqslant 1$, un recouvrement ouvert $(V_1, . . . ,V_n)$ de X et, pour tout entier $i$ tel que $1\leqslant i\leqslant n$, une fonction $f_i\in I$ telle que $f_i(x)\not= 0$ pour tout $x\in V_i$. Comme l’algèbre B est une sous-algèbre involutive de $\mathscr{C}(X)$, la fonction
 
 $$
-f=\sum_{i=1}^nf_if_i
+f=\sum_{i=1}^nf_i\overline{f}_i
 $$
 
 appartiendrait à I. Or $f(x)>0$ pour tout $x\in X$, et donc $f$ serait inversible dans $\mathscr{C}(X)$. Puisque B est supposée être une sous-algèbre pleine de $\mathscr{C}(X)$, la fonction $f\in$ I serait inversible dans B, ce qui ne peut être. Par conséquent, l’ensemble Φ n’est pas vide. Soit $y$ un élément de Φ; le noyau du caractère ev$_y$ contient I, et est donc égal à I.
@@ -242,7 +242,7 @@ Si X est connexe, les seuls idempotents de $\mathscr{C}(X)$, donc de P(X), sont 
 
 Soit X un sous-ensemble compact du plan et soit O une composante connexe bornée de $\mathbf{C}-$ X. La frontière de O est contenue dans X.
 
-L’adhérence de l’ensemble O dans $\mathbf{C}-$ X est égale à $O\cap (\mathbf{C}-$ X) où O est son adhérence dans $\mathbf{C}$. Comme O est une composante connexe de $\mathbf{C}-$ X, on a donc $O\cap (\mathbf{C}-$ X) = O, ce qui démontre bien que O - $O\subset X$.
+L’adhérence de l’ensemble O dans $\mathbf{C}-$ X est égale à $\overline{O}\cap (\mathbf{C}-$ X) où $\overline{O}$ est son adhérence dans $\mathbf{C}$. Comme O est une composante connexe de $\mathbf{C}-$ X, on a donc $\overline{O}\cap (\mathbf{C}-$ X) = O, ce qui démontre bien que O - $O\subset X$.
 
 Soit X une partie compacte de $\mathbf{C}$. Soit $O_{\infty}$ la composante connexe non bornée de $\mathbf{C}-$X, et soit $(O_i)_{i\in I}$ la famille des composantes connexes bornées de $\mathbf{C}-$ X, les parties $O_i$ étant deux à deux distinctes.
 

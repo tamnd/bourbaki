@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: 0c76c1ec7f388f2806caab0de56dc16a3e0fa51fbbf125663308ded44f61be4c
+content_sha256: 52c777b3dc11a793f479a920f9bc5f7b39019723e9a4b1fd2bb66d20a97d79dd
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -244,7 +244,7 @@ Si $u\in \mathscr{L}$ (E), cette définition coïncide avec EVT, V, p. 42, déf.
 
 Si $u$ est un opérateur partiel auto-adjoint sur E, alors $b(u)$ est hermitien (cor. de la prop. 2 de IV, p. 264) donc $u$ est normal.
 
-Soit D le disque unité ouvert dans $\mathbf{C}$. On note $\beta$ la fonction de $\mathbf{C}$ dans D définie par $\beta (z) =z/1 +|z|^2$. C’est un homéomorphisme, dont l’inverse vérifie $\beta^{-1}(z) =z/1- |z|^2$ pour $z\in D$.
+Soit D le disque unité ouvert dans $\mathbf{C}$. On note $\beta$ la fonction de $\mathbf{C}$ dans D définie par $\beta (z) =z/\overline{1 + |z|^2}$. C’est un homéomorphisme, dont l’inverse vérifie $\beta^{-1}(z) =z/\overline{1 - |z|^2}$ pour $z\in D$.
 
 Soit $u\in \mathscr{L}(E)$. Il résulte des formules (2) et (3) de la proposition 1 de IV, p. 262 que $u=\beta^{-1}(b(u))$, et donc
 
@@ -260,7 +260,7 @@ a) Soit $g$ une fonction $\mu$-mesurable sur X. L’opérateur de multiplication
 
 b) Soit $h: X\rightarrow D$ une fonction $\mu$-mesurable. L’endomorphisme $m_h$ appartient à $\Omega (L^2(X, \mu))$ et $B(m_h) =m_{\beta^{-1}\circ h}$.
 
-L’opérateur partiel $m_g$ est fermé à domaine dense. Comme $m^*_gm_g=$ $m_gm_g=m_{|g|^2}$ (prop. 23 de IV, p. 253 et prop. 24 de IV, p. 255) on a
+L’opérateur partiel $m_g$ est fermé à domaine dense. Comme $m^*_gm_g=$ $m_{\overline{g}}m_g=m_{|g|^2}$ (prop. 23 de IV, p. 253 et prop. 24 de IV, p. 255) on a
 
 $$
 W(m_g) =-R(m_{|g|^2},-1) =m_{(1+|g|^2)^{-1}}
@@ -312,7 +312,7 @@ Soit $u$ un opérateur partiel normal sur E. Soit $f\in \mathscr{K}$ (Sp($u$)). 
 
 Pour toute fonction $f\in \mathscr{K}$ (Sp($u$)), on définit l’endomorphisme $f(u)$ de E par $f(u) =f_{\beta}(b(u))$.
 
-L’application $f\mapsto f_{\beta}$ est un morphisme d’algèbres complexes de $\mathscr{K}$ (Sp($u$)) dans $\mathscr{C}$(Sp($b(u)$)), donc l’application $f\mapsto f(u)$ est un morphisme d’algèbres complexes de $\mathscr{K}$ (Sp($u$)) dans $\mathscr{L}(E)$. On a $f(u) =f(u)^*$ puisque $f_{\beta}=f_{\beta}$. Si $f\geqslant 0$ alors $f_{\beta}\geqslant 0$, donc $f(u)$ est un endomorphisme positif de E.
+L’application $f\mapsto f_{\beta}$ est un morphisme d’algèbres complexes de $\mathscr{K}$ (Sp($u$)) dans $\mathscr{C}$(Sp($b(u)$)), donc l’application $f\mapsto f(u)$ est un morphisme d’algèbres complexes de $\mathscr{K}$ (Sp($u$)) dans $\mathscr{L}(E)$. On a $\overline{f}(u) =f(u)^*$ puisque $\overline{f}_{\beta}=\overline{f_{\beta}}$. Si $f\geqslant 0$ alors $f_{\beta}\geqslant 0$, donc $f(u)$ est un endomorphisme positif de E.
 
 #### Remarque {#ts-iv-s5-n2-rem-3 .statement tag=035K}
 
@@ -353,7 +353,7 @@ L’opérateur partiel $m_g$ est normal et $b(m_g) =m_{\beta\circ g}=m_{g(1+|g|^
 Soient $f_1$ et $f_2$ dans $\mathscr{L}^2(X, \mu)$ de classes $\widetilde{f}_1$ et $\widetilde{f}_2$ dans $L^2(X, \mu)$. Puisque la mesure $\nu =f_1f_2\cdot \mu$ est bornée, la mesure image $g(\nu )$ est définie (INT, V, p. 69, § 6, n$^o1$, rem. 1). Soit $f\in \mathscr{K}$ (Sp($m_g$)). On a $f(m_g) =m_{f\circ g}$ d’après a), d’où
 
 $$
-\langle \widetilde{f}_1|f(m_g)\widetilde{f}_2\rangle =\int_Xf_1(f\circ g)f_2d\mu=\int_X(f\circ g) (f_1f_2d\mu) =\int_{\mathbf{C}}f d\nu
+\langle \widetilde{f}_1|f(m_g)\widetilde{f}_2\rangle =\int_X\overline{f}_1(f\circ g)f_2d\mu=\int_X(f\circ g) (\overline{f}_1f_2d\mu) =\int_{\mathbf{C}}f d\nu
 $$
 
 (INT, V, p. 69, § 6, n$^o1$, formule (1)), ce qui établit l’assertion b).
@@ -449,7 +449,7 @@ $$
 qui est fini, donc $f g\in \mathscr{L}^1(S, \mu_{\widetilde{\varphi}_1,\widetilde{\varphi}_2})$. De plus, on a alors
 
 $$
-\langle g(m_h)(\widetilde{\varphi}_2)|f(m_h)(\widetilde{\varphi}_1)\rangle =\int_X(g\circ h)\varphi_2(f\circ h)\varphi_1d\mu
+\langle g(m_h)(\widetilde{\varphi}_2)|f(m_h)(\widetilde{\varphi}_1)\rangle =\int_X\overline{(g\circ h) \varphi_2}(f\circ h)\varphi_1d\mu
 $$
 
 $$
@@ -480,7 +480,7 @@ pour tout $y\in E$ d’après (8). L’endomorphisme $f(u)$ coïncide avec celui
 
 #### Corollaire 1 {#ts-iv-s5-def-5-cor-1 .statement tag=035T}
 
-a) Pour tout $f\in \mathscr{L}_u$(Sp($u$)), l’opérateur partiel $f(u)$ est normal et $f(u)^*=f(u)$. De plus $f(u)$ est positif si $f\geqslant 0$, et auto-adjoint si $f$ est à valeurs réelles ;
+a) Pour tout $f\in \mathscr{L}_u$(Sp($u$)), l’opérateur partiel $f(u)$ est normal et $f(u)^*=\overline{f}(u)$. De plus $f(u)$ est positif si $f\geqslant 0$, et auto-adjoint si $f$ est à valeurs réelles ;
 
 b) Soient $k\in \mathbf{N}$ et $f(z) =z^k$ pour $z\in$ Sp($u$). On a $f(u) =u^k$;
 
@@ -869,7 +869,7 @@ pour tout $y\not = 0$.
 On a $\sigma_{\varepsilon}\in L^2(\mathbf{R})$ d’après la prop. 3 de IV, p. 199, et la classe de la fonction $\eta_{\varepsilon}$ appartient à $L^2(\mathbf{R})\cap L^1(\mathbf{R})$. Pour tout $x\in \mathbf{R}$, on a
 
 $$
-\mathscr{F}(\eta_{\varepsilon})(x) = 2\pi \varepsilon \int_{\mathbf{R}_+}e^{2\pi(ix-\varepsilon)y}dy-2\pi \varepsilon \int_{\mathbf{R}_-}e^{2\pi(ix+\varepsilon)y}dy
+\overline{\mathscr{F}}(\eta_{\varepsilon})(x) = 2\pi \varepsilon \int_{\mathbf{R}_+}e^{2\pi(ix-\varepsilon)y}dy-2\pi \varepsilon \int_{\mathbf{R}_-}e^{2\pi(ix+\varepsilon)y}dy
 $$
 
 $$
@@ -882,7 +882,7 @@ $$
 \varepsilon -ix\varepsilon +ixx^2+\varepsilon^2
 $$
 
-d’où $\mathscr{F}(\eta_{\varepsilon}) =\sigma_{\varepsilon}$. Le résultat découle alors de la formule d’inversion de Fourier dans $L^2(\mathbf{R})$ (corollaire du théorème 2 de II, p. 220).
+d’où $\overline{\mathscr{F}}(\eta_{\varepsilon}) =\sigma_{\varepsilon}$. Le résultat découle alors de la formule d’inversion de Fourier dans $L^2(\mathbf{R})$ (corollaire du théorème 2 de II, p. 220).
 
 #### Lemme 7 {#ts-iv-s5-lem-7 .statement tag=0369}
 
@@ -969,7 +969,7 @@ $$
 $$
 
 $$
-_{\mathbf{R}}y-x+i\varepsilon y-x-i\varepsilon -_r(x-y)^2+\varepsilon^2
+_{\mathbf{R}}y-x+i\varepsilon y-x-i\varepsilon -_r\overline{(x-y)^2 + \varepsilon^2}
 $$
 
 $$
@@ -1012,7 +1012,7 @@ $$
 \leqslant 2\pi \varepsilon \int_{\mathbf{R}}|\mathscr{F}(f')(y)|dy
 $$
 
-donc $\mathscr{F}(f')\mathscr{F}(\sigma_{\varepsilon})$ converge vers 0 dans $L^1(\mathbf{R})$ quand $\varepsilon$ tend vers 0. Comme $f'$ et $\sigma_{\varepsilon}$ appartiennent à $L^2(\mathbf{R})$, la prop. 14 de II, p. 223 implique que $f'*\sigma_{\varepsilon}=\mathscr{F}(\mathscr{F}(f')\mathscr{F}(\sigma_{\varepsilon}))$ converge vers 0 dans $\mathscr{C}_b(\mathbf{R})$.
+donc $\mathscr{F}(f')\mathscr{F}(\sigma_{\varepsilon})$ converge vers 0 dans $L^1(\mathbf{R})$ quand $\varepsilon$ tend vers 0. Comme $f'$ et $\sigma_{\varepsilon}$ appartiennent à $L^2(\mathbf{R})$, la prop. 14 de II, p. 223 implique que $f'*\sigma_{\varepsilon}=\overline{\mathscr{F}}(\mathscr{F}(f')\mathscr{F}(\sigma_{\varepsilon}))$ converge vers 0 dans $\mathscr{C}_b(\mathbf{R})$.
 
 Pour tout $\varepsilon  >0$, la mesure positive $\delta_{\varepsilon}\cdot dx$ sur $\mathbf{R}$ est de masse totale 1 (cf. FVR, III, p. 7). L’ensemble des mesures $\delta_{\varepsilon}\cdot dx$ pour $\varepsilon  >0$ et le filtre induit sur cet ensemble par le filtre des voisinages de 0 dans $\mathbf{R}_+^*$ vérifient les hypothèses du lemme 4 de INT, VIII, p. 137, § 2, n$^o7$. Les mesures $\delta_{\varepsilon}\cdot dx$ convergent donc dans $\mathscr{M}^1(\mathbf{R})$ vers la mesure ponctuelle $\varepsilon_0$ quand $\varepsilon$ tend vers 0. Il vient $f*\delta_{\varepsilon}\rightarrow f$ dans $\mathscr{C}_b(\mathbf{R})$ (INT, VIII, p. 163, § 4, n$^o4)$. Le lemme est démontré.
 
@@ -1185,7 +1185,7 @@ Pour tout $n\in \mathbf{N}$, on a
 $\partial \widetilde{f}$ 1 $\partial \widetilde{f}$
 
 $$
-\partial z(\lambda )R(u^n, \lambda )\leqslant \mathscr{I}(\lambda )\partial z(\lambda )
+\overline{\partial z}(\lambda )R(u^n, \lambda )\leqslant \overline{\mathscr{I} (\lambda)}\overline{\partial z}(\lambda )
 $$
 
 (prop. 17 de IV, p. 248) donc
@@ -1193,7 +1193,7 @@ $$
 $\partial \widetilde{f}$ 1 $\partial \widetilde{f}$
 
 $$
-\partial z(\lambda )\varpi (R(u^n, \lambda ))_p\leqslant c\mathscr{I}(\lambda )\partial z(\lambda )
+\overline{\partial z}(\lambda )\varpi (R(u^n, \lambda ))_p\leqslant c\overline{\mathscr{I} (\lambda)}\overline{\partial z}(\lambda )
 $$
 
 La majoration (13) de IV, p. 281 démontre que le membre de droite de cette inégalité est une fonction bornée pour $\lambda \in \mathbf{C}-\mathbf{R}$; elle est intégrable sur $\mathbf{C}$ puisque $\widetilde{f}$ est à support compact. On déduit du théorème de Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6) et de la formule de Helffer–Sjöstrand appliquée à $f$ que $\varpi (f(u_n))$ converge vers $\varpi (f(u))$, donc $p(f(u_n)-f(u))$ tend vers 0.
@@ -1431,7 +1431,7 @@ donc $y= 0$. L’assertion a) est donc démontrée.
 Puisque dom($q$) est dense dans E et que $\|x\|\leqslant \|x\|_q$ pour tout $x\in$ dom($q$), l’assertion a) implique que dom($u$) est dense dans E. Comme la forme $q$ est hermitienne (resp. positive), pour tous $x$ et $y$ dans dom($u$), on a
 
 $$
-\langle y|u(x)\rangle =q(y, x) =q(x, y) =\langle x|u(y)\rangle =\langle u(y)|x\rangle
+\langle y|u(x)\rangle =q(y, x) =q(x, y) =\overline{\langle x|u(y)\rangle}=\langle u(y)|x\rangle
 $$
 
 (resp. $\langle x|u(x)\rangle =q(x, x)\geqslant 0)$ de sorte que $u$ est symétrique (resp. positif). Enfin, l’opérateur partiel $u+ 1_E$ est auto-adjoint d’après le corollaire de la proposition 10 de IV, p. 240, et il en est de même de $u$.
@@ -2016,11 +2016,11 @@ Soient $q$ une forme partielle positive fermée sur E et $u$ l’opérateur auto
 
 (i) L’opérateur partiel $u$ est à résolvante compacte ;
 
-(ii) L’endomorphisme positif $(1_E+u)^{-1}= (1_E+u)^{-1/2}$ de E est compact;
+(ii) L’endomorphisme positif $\overline{(1_E + u)^{-1}}= (1_E+u)^{-1/2}$ de E est compact;
 
 (iii) L’injection canonique $j$ de l’espace hilbertien $E_q$ (déf. 9 de IV, p. 292) dans E est compacte.
 
-Comme $u$ est positif, le nombre réel $-1$ appartient à l’ensemble résolvant de $u$ (prop. 17 de IV, p. 248), donc l’endomorphisme positif $v=(1_E+u)^{-1}$ est défini, et on a $v= (1_E+u)^{-1/2}$ d’après le calcul fonctionnel.
+Comme $u$ est positif, le nombre réel $-1$ appartient à l’ensemble résolvant de $u$ (prop. 17 de IV, p. 248), donc l’endomorphisme positif $v=\overline{(1_E + u)^{-1}}$ est défini, et on a $v= (1_E+u)^{-1/2}$ d’après le calcul fonctionnel.
 
 L’endomorphisme $v$ est compact si et seulement si $v^2= (1_E+u)^{-1}$ est compact (prop. 6 de III, p. 91), c’est-à-dire si et seulement si $u$ est à résolvante compacte (prop. 19, (iii)). Cela démontre que les conditions (i) et (ii) sont équivalentes.
 
@@ -2033,7 +2033,7 @@ L’application linéaire $\widetilde{v}:x\mapsto (1_E+u)^{-1/2}(x)$ de E dans $
 Soit $n\in \mathbf{N}$. Soit U un ouvert de $\mathbf{R}^n$. On munit U de la mesure de Lebesgue, notée $\mu$. Soit Δ l’opérateur différentiel scalaire $-\sum^n_{i=1}\partial_i^2$ sur U. L’opérateur partiel $\Delta_-$ de domaine $\mathscr{D}(U)$ défini par $\varphi \mapsto \Delta (\varphi )$ est fermable (prop. 13 de IV, p. 242) et symétrique (IV, p. 243). Il est positif, puisque pour tout $\varphi \in \mathscr{D}$(U), on a
 
 $$
-\langle \varphi |\Delta_-(\varphi )\rangle =\int_U\varphi \Delta (\varphi )d\mu=-\sum_{i=1}^n\int_U\varphi  \partial_i^2\varphi  d\mu
+\langle \varphi |\Delta_-(\varphi )\rangle =\int_U\overline{\varphi}\Delta (\varphi )d\mu=-\sum_{i=1}^n\int_U\varphi  \partial_i^2\varphi  d\mu
 $$
 
 $$
@@ -2045,7 +2045,7 @@ On note $\Delta_D$ l’extension de Friedrichs de l’opérateur partiel positif
 Soit $q$ la forme partielle positive associée à $\Delta_D$. Le domaine de $q$ est l’espace hilbertien complété de $\mathscr{D}(U)$ pour la forme hermitienne positive définie par
 
 $$
-(\varphi_1, \varphi_2)\mapsto \int_U\varphi_1\varphi_2+\sum_{i=1}^n\int_U\partial_i\varphi_1\partial_i\varphi_2
+(\varphi_1, \varphi_2)\mapsto \int_U\overline{\varphi}_1\varphi_2+\sum_{i=1}^n\int_U\overline{\partial_i\varphi_1}\partial_i\varphi_2
 $$
 
 pour tout $(\varphi_1, \varphi_2)\in \mathscr{D}(U)\times \mathscr{D}(U)$. Autrement dit, le domaine de $q$ est l’espace de Sobolev $H^1_0(U)$ (n$^o14$ de IV, p. 221).

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 41
 statements: 28
 exercises: 37
-content_sha256: d8c22b31d759275510252e50d5f48177de8621565e209a56f970ee302ffb4501
+content_sha256: 0be0c3d178a91592c827395e9b73a0546d9b9a4924eae231cd2c7cc2d4cb203b
 ---
 
 ## § 2. ALGÈBRES NORMÉES
@@ -128,7 +128,7 @@ c’est-à-dire l’adhérence dans K de l’ensemble $f(X)$ des valeurs de $f$.
 
 Les algèbres $\mathscr{C}_b(X; K)$ et $\mathscr{C}_0(X; K)$ sont des algèbres de Banach commutatives sur K; en effet, ce sont des sous-espaces fermés de $\mathscr{B}(X; K)$ (TG, X, p. 21, cor. 2 et INT, III, §1, n$^o2)$.
 
-L’inverse d’une fonction continue partout non nulle étant continue, la sous-algèbre $\mathscr{C}_b(X; K)$ est une sous-algèbre pleine de $\mathscr{B}(X; K)$. En particulier, le spectre d’un élément $f$ de $\mathscr{C}_b(X; K)$ est égal à $f(X)$.
+L’inverse d’une fonction continue partout non nulle étant continue, la sous-algèbre $\mathscr{C}_b(X; K)$ est une sous-algèbre pleine de $\mathscr{B}(X; K)$. En particulier, le spectre d’un élément $f$ de $\mathscr{C}_b(X; K)$ est égal à $\overline{f(X)}$.
 
 Si X est discret, on a $\mathscr{C}_b(X; K) =\mathscr{B}(X; K)$.
 
@@ -362,7 +362,7 @@ C’est immédiat puisque $\|x\|<1$ implique $\varrho (x)<1$.
 
 Soient A une algèbre de Banach et I un idéal à gauche (resp. à droite) maximal régulier de A. Alors I est fermé.
 
-Soit $(\widetilde{A}, e)$ l’algèbre de Banach unifère déduite de A par adjonction d’un élément unité. Il existe un idéal à gauche (resp. à droite) maximal J de $\widetilde{A}$ tel que $J\cap A = I$ (A, VIII, p. 428, prop. 4). Alors J est disjoint de la boule ouverte de centre $e$ et de rayon 1 (cor. 1), et donc $J\not=\widetilde{A}$. Comme J est un idéal maximal, cela implique que J = J, et par suite que $I = J\cap A = J\cap A$ est fermé dans A.
+Soit $(\widetilde{A}, e)$ l’algèbre de Banach unifère déduite de A par adjonction d’un élément unité. Il existe un idéal à gauche (resp. à droite) maximal J de $\widetilde{A}$ tel que $J\cap A = I$ (A, VIII, p. 428, prop. 4). Alors J est disjoint de la boule ouverte de centre $e$ et de rayon 1 (cor. 1), et donc $\overline{J}\not=\widetilde{A}$. Comme J est un idéal maximal, cela implique que J = J, et par suite que $I = J\cap A = J\cap A$ est fermé dans A.
 
 #### Corollaire 3 {#ts-i-s2-prop-2-cor-3 .statement tag=0267}
 
@@ -412,9 +412,9 @@ Soit $y_n$ un inverse à gauche de $x_n$. D’après la prop. 3 (ii), $\|y_n\|$ 
 
 Soit A une algèbre de Banach unifère et soit B une sous-algèbre pleine de A. Alors B est une sous-algèbre pleine de A.
 
-En effet, soient $x$ un élément de B inversible dans A, et $(x_n)$ une suite d’éléments de B tendant vers $x$. Alors, pour $n$ assez grand, $x_n$ est inversible dans A et $x^{-1}_n$ tend vers $x^{-1}$. Puisque la sous-algèbre B est pleine, on a $x^{-1}_n\in B$, d’où $x^{-1}\in B$.
+En effet, soient $x$ un élément de $\overline{B}$ inversible dans A, et $(x_n)$ une suite d’éléments de B tendant vers $x$. Alors, pour $n$ assez grand, $x_n$ est inversible dans A et $x^{-1}_n$ tend vers $x^{-1}$. Puisque la sous-algèbre B est pleine, on a $x^{-1}_n\in B$, d’où $x^{-1}\in B$.
 
-Soit A est une algèbre de Banach unifère et soit $(y_i)_{i\in I}$ une famille d’éléments de A. Soit B la sous-algèbre pleine de A engendrée par les éléments $y_i$. Alors B est la plus petite sous-algèbre pleine fermée de A contenant les $y_i$. On l’appelle la sous-algèbre pleine fermée engendrée par les éléments $y_i$.
+Soit A est une algèbre de Banach unifère et soit $(y_i)_{i\in I}$ une famille d’éléments de A. Soit B la sous-algèbre pleine de A engendrée par les éléments $y_i$. Alors $\overline{B}$ est la plus petite sous-algèbre pleine fermée de A contenant les $y_i$. On l’appelle la sous-algèbre pleine fermée engendrée par les éléments $y_i$.
 
 ### 5. Spectre d’un élément dans une algèbre normée
 
@@ -466,7 +466,7 @@ $$
 
 d’après la prop. 2 de I, p. 22. Donc la résolvante de $x$ est définie et holomorphe dans le disque ouvert de centre $\lambda_0$ et de rayon $\|y^{-1}\|^{-1}$. Par suite, la résolvante de $x$ est une application holomorphe de $\mathbf{C}-$ Sp$_A(x)$ dans A.
 
-La formule (1) de I, p. 4 implique $_{\partial \lambda}^{\partial}R(x, \lambda ) =-R(x, \lambda )^2$, d’où, par récurrence sur $k$,
+La formule (1) de I, p. 4 implique $\frac{\partial}{\partial \lambda}R(x, \lambda ) =-R(x, \lambda )^2$, d’où, par récurrence sur $k$,
 
 $\partial kkk+1$
 

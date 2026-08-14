@@ -46,7 +46,7 @@ subsections:
       pdf_page: 552
 statements: 0
 exercises: 0
-content_sha256: 9a5f2c8cccd6a70e54c6cd279f0db0925bedd07636f29d5f0ab447d142870178
+content_sha256: 241791f6ee17d35c60aabea6be516fc7b9f9fe17f455c902efacd40f754d52d6
 ---
 
 # NOTE HISTORIQUE
@@ -115,7 +115,7 @@ $$
 
 Dans cette formule, les $\lambda_p$ sont les valeurs propres de B et $x\mapsto \sigma (s, x)$ est (pour $s\in \mathbf{R}$ fixé) une forme quadratique positive séparante sur E, tandis que $s\mapsto \sigma (s, x)$ est[^3] (pour $x\in E$ fixé) une fonction continue croissante qui tend vers 0 en $-\infty$ et vers $\|x\|^2$ en $+\infty ($cf. ÉHM, p. 284, pour les notations de Stieltjes).
 
-Notons S l’ensemble des points de $\mathbf{R}$ n’admettant pas de voisinage où $s\mapsto \sigma (s, x)$ reste constante pour tout $x$; alors l’intégrale dans (3) peut naturellement être prise sur S. Hilbert baptise « spectre continu » (Streckenspektrum) l’ensemble S, « spectre ponctuel » (Punktspektrum) l’ensemble des valeurs propres de B, et « spectre » (Spektrum) leur réunion. Ce terme, venu de l’optique, avait été utilisé en 1897 par W. Wirtinger [**91**] dans l’étude d’équations différentielles à coefficients périodiques.
+Notons S l’ensemble des points de $\overline{\mathbf{R}}$ n’admettant pas de voisinage où $s\mapsto \sigma (s, x)$ reste constante pour tout $x$; alors l’intégrale dans (3) peut naturellement être prise sur S. Hilbert baptise « spectre continu » (Streckenspektrum) l’ensemble S, « spectre ponctuel » (Punktspektrum) l’ensemble des valeurs propres de B, et « spectre » (Spektrum) leur réunion. Ce terme, venu de l’optique, avait été utilisé en 1897 par W. Wirtinger [**91**] dans l’étude d’équations différentielles à coefficients périodiques.
 
 Hilbert tirerait vite de ses méthodes « spectrales » un profond renouveau de plusieurs problèmes de l’Analyse classique, relevant de l’étude des équations différentielles ordinaires (en particulier de type Sturm–Liouville), des équations aux dérivées partielles ou des fonctions d’une variable complexe. Nous ne rendrons pas compte ici du foisonnement de résultats qui s’ensuivit dans le premier quart du xx$^e$ siècle et renvoyons à la synthèse de E. Hellinger et O. Toeplitz [**29**]. Nous mentionnerons cependant certains de ces travaux sur les équations intégrales, où se trouveront en germe des développements ultérieurs de la théorie abstraite.
 
@@ -165,7 +165,7 @@ $$
 a(s)\varphi (s) +\int_0^{2\pi}K(s, t)\varphi (t)dt=f(s) \tag{4}
 $$
 
-Ici le noyau $K(s, t)$ prend la forme $b(s)$ cot($^{t-s}_2$) $+ A(s, t)$ pour une fonction A continue. Il est donc singulier le long de la diagonale, et l’intégrale ci-dessus est à prendre au sens de la valeur principale de Cauchy.
+Ici le noyau $K(s, t)$ prend la forme $b(s)$ cot($\frac{t-s}{2}$) $+ A(s, t)$ pour une fonction A continue. Il est donc singulier le long de la diagonale, et l’intégrale ci-dessus est à prendre au sens de la valeur principale de Cauchy.
 
 Noether [**53**] observe que contrairement aux équations intégrales vérifiant l’alternative de Fredholm, dans le cas d’un noyau K comme ci-dessus et d’un second membre $f$ non nul, il est possible que (4) admette des familles de solutions non triviales. Il montre que l’espace des solutions est gouverné par l’entier
 

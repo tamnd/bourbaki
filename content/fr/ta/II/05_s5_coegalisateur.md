@@ -33,7 +33,7 @@ subsections:
       pdf_page: 226
 statements: 22
 exercises: 0
-content_sha256: be4ef73c46da7909f606648dd78c737fb170b08f05b42bd206dba0ebd6ae023b
+content_sha256: 7b0a9c217b98da8b51b7209e911a0be0352c879fd5aee96fd137b782104f270e
 ---
 
 ## § 5. COÉGALISATEUR
@@ -66,7 +66,7 @@ On dit qu’une partie Z de $\Omega (\widetilde{\Gamma})$ est distinguée (relat
 
 (i) Pour toute flèche $z$ de $\widetilde{\Gamma}$, on a $(z, z)\in Z$ ;
 
-(ii) Pour tout $(z_1, . . . , z_n)\in$ Z, on a $(z_n, . . . , z_2, z_1)\in$ Z et $(z_n, z_1, . . . , z_{n-1})\in Z$ ;
+(ii) Pour tout $(z_1, . . . , z_n)\in$ Z, on a $(\overline{z}_n, . . . , z_2, z_1)\in$ Z et $(z_n, z_1, . . . , z_{n-1})\in Z$ ;
 
 (iii) Soient $\mathbf{z}= (z_1, . . . , z_n)$ et $\mathbf{z}'= (z'_1, . . . , z'_m)$ des éléments de Z tels que $t(z_n) =o(z_1')$. Posons $\mathbf{z}\mathbf{z}'= (z_1, . . . , z_n, z_1', . . . , z'_m)$. Si deux éléments parmi $\mathbf{z},\mathbf{z}',\mathbf{z}\mathbf{z}'$ appartiennent à Z, il en est de même du troisième ;
 
@@ -82,7 +82,7 @@ Notons Z l’ensemble des éléments $\mathbf{z}\in \Omega (\widetilde{\Gamma})$
 
 Soit $z\in$ Fl($\widetilde{\Gamma}$). On a $c(z, z) =\{e_a\}$ par définition, d’où $(z, z)\in Z$.
 
-Soit $(z_1, . . . , z_n)\in Z$. Par définition de $c$, la classe de conjugaison $c(z_1, . . . , z_n)$ est égale à $c(z_n, z_1, . . . , z_{n-1})$ et est formée des inverses des éléments de $c(z_n, . . . , z_1)$. Cela montre que Z vérifie la condition (ii).
+Soit $(z_1, . . . , z_n)\in Z$. Par définition de $c$, la classe de conjugaison $c(z_1, . . . , z_n)$ est égale à $c(z_n, z_1, . . . , z_{n-1})$ et est formée des inverses des éléments de $c(\overline{z}_n, . . . , z_1)$. Cela montre que Z vérifie la condition (ii).
 
 Avec les notations de la condition (iii), on peut choisir des éléments $u\in c(\mathbf{z}),v\in c(\mathbf{z}')$ et $w\in c(\mathbf{z}\mathbf{z}')$ tels que $uv=w$. Si deux des éléments $u,v$ et $w$ appartiennent à N, il en est de même du troisième, donc N satisfait à (iii).
 
@@ -128,7 +128,7 @@ Le couple (Coeg($\varphi , \psi$ )$, \gamma )$ possède la propriété universel
 
 a) On a $\gamma \circ \varphi =\gamma \circ \psi$.
 
-b) Soient $G'$ un groupoïde et $\theta : G\rightarrow G'$ un morphisme de groupoïdes tel que $\theta \circ \varphi =\theta \circ \psi$. Il existe un unique morphisme de groupoïdes $\theta :$ Coeg($\varphi , \psi$ )$\rightarrow G'$ tel que $\theta \circ \gamma =\theta$.
+b) Soient $G'$ un groupoïde et $\theta : G\rightarrow G'$ un morphisme de groupoïdes tel que $\theta \circ \varphi =\theta \circ \psi$. Il existe un unique morphisme de groupoïdes $\overline{\theta}:$ Coeg($\varphi , \psi$ )$\rightarrow G'$ tel que $\overline{\theta}\circ \gamma =\theta$.
 
 Soit $a$ un sommet de H. La flèche $h(a)$ de Coh($\varphi , \psi$ ) relie $\alpha (\varphi (a))$ à $\alpha (\psi (a))$. Par définition du groupoïde Coeg($\varphi , \psi$ ), l’origine et le terme de la flèche $\beta (h(a))$ sont égaux ; on a donc $\gamma (\varphi (a)) =\gamma (\psi (a))$.
 
@@ -140,15 +140,15 @@ $$
 
 En prenant l’image par $\beta$ des deux membres de cette égalité, on obtient la relation $\gamma (\varphi (f)) =\gamma (\psi (f))$. Cela démontre l’assertion a).
 
-Démontrons b). L’application $\eta :$ Som(H) $\rightarrow$ Fl(G$')$ qui à tout sommet $a$ de H associe la flèche $e_{\theta(\varphi(a))}$ de $G'$ est une homotopie reliant $\theta \circ \varphi$ à $\theta \circ \psi$. D’après la propriété universelle des cohomotopeurs (II, p. 185, prop. 3), il existe un unique morphisme de groupoïdes $\theta_1:$ Coh($\varphi , \psi$ )$\rightarrow G'$ tel que $\theta_1\circ \alpha =\theta$ et $\theta_1(h(a)) =e_{\theta(\varphi(a))}$ pour tout sommet $a$ de H. D’après la prop. 7 de II, p. 176, cette dernière propriété implique l’existence d’un unique morphisme de groupoïdes $\theta :$ Coeg($\varphi , \psi$ )$\rightarrow G'$ tel que $\theta \circ \beta =\theta_1$. On a alors $\theta \circ \gamma =\theta_1\circ \alpha =\theta$.
+Démontrons b). L’application $\eta :$ Som(H) $\rightarrow$ Fl(G$')$ qui à tout sommet $a$ de H associe la flèche $e_{\theta(\varphi(a))}$ de $G'$ est une homotopie reliant $\theta \circ \varphi$ à $\theta \circ \psi$. D’après la propriété universelle des cohomotopeurs (II, p. 185, prop. 3), il existe un unique morphisme de groupoïdes $\theta_1:$ Coh($\varphi , \psi$ )$\rightarrow G'$ tel que $\theta_1\circ \alpha =\theta$ et $\theta_1(h(a)) =e_{\theta(\varphi(a))}$ pour tout sommet $a$ de H. D’après la prop. 7 de II, p. 176, cette dernière propriété implique l’existence d’un unique morphisme de groupoïdes $\overline{\theta}:$ Coeg($\varphi , \psi$ )$\rightarrow G'$ tel que $\overline{\theta}\circ \beta =\theta_1$. On a alors $\overline{\theta}\circ \gamma =\theta_1\circ \alpha =\theta$.
 
-Inversement, si $\theta ':$ Coeg($\varphi , \psi$ )$\rightarrow G'$ est un morphisme de groupoïdes tel que $\theta '\circ \gamma =\theta$, on a $(\theta '\circ \beta )\circ \alpha = (\theta \circ \beta )\circ \alpha$, d’où $\theta '\circ \beta =\theta \circ \beta$ d’après II, p. 185, prop. 3, d’où $\theta '=\theta$ d’après la prop. 7 de II, p. 176. Cela démontre l’unicité de $\theta$, d’où l’assertion b).
+Inversement, si $\overline{\theta}':$ Coeg($\varphi , \psi$ )$\rightarrow G'$ est un morphisme de groupoïdes tel que $\overline{\theta}'\circ \gamma =\theta$, on a $(\overline{\theta}'\circ \beta )\circ \alpha = (\overline{\theta}\circ \beta )\circ \alpha$, d’où $\overline{\theta}'\circ \beta =\overline{\theta}\circ \beta$ d’après II, p. 185, prop. 3, d’où $\overline{\theta}'=\overline{\theta}$ d’après la prop. 7 de II, p. 176. Cela démontre l’unicité de $\overline{\theta}$, d’où l’assertion b).
 
 #### Corollaire {#ta-ii-s5-n2-cor-1 .statement tag=01UO}
 
 Le groupoïde Coeg($\varphi , \psi$ ) est engendré par l’image du morphisme $\gamma$.
 
-Soit C le sous-groupoïde de Coeg($\varphi , \psi$ ) engendré par l’image de G ; notons $i$ le morphisme canonique de C dans Coeg($\varphi , \psi$ ) et $\theta : G\rightarrow C$ le morphisme tel que $i\circ \theta =\gamma$. D’après la proposition 2, il existe un unique morphisme de groupoïdes $\theta :$ Coeg($\varphi , \psi$ )$\rightarrow C$ tel que $\theta \circ \gamma =\theta$. Alors, $\gamma =i\circ \theta \circ \gamma$, donc $i\circ \theta$ est le morphisme identique de Coeg($\varphi , \psi$ ) (loc. cit.). En particulier, les applications Som($i$) et Fl($i$) sont surjectives, donc C = Coeg($\varphi , \psi$ ).
+Soit C le sous-groupoïde de Coeg($\varphi , \psi$ ) engendré par l’image de G ; notons $i$ le morphisme canonique de C dans Coeg($\varphi , \psi$ ) et $\theta : G\rightarrow C$ le morphisme tel que $i\circ \theta =\gamma$. D’après la proposition 2, il existe un unique morphisme de groupoïdes $\overline{\theta}:$ Coeg($\varphi , \psi$ )$\rightarrow C$ tel que $\overline{\theta}\circ \gamma =\theta$. Alors, $\gamma =i\circ \overline{\theta}\circ \gamma$, donc $i\circ \overline{\theta}$ est le morphisme identique de Coeg($\varphi , \psi$ ) (loc. cit.). En particulier, les applications Som($i$) et Fl($i$) sont surjectives, donc C = Coeg($\varphi , \psi$ ).
 
 #### Remarque 1 {#ta-ii-s5-n2-rem-1 .statement tag=01UP}
 
@@ -852,9 +852,9 @@ e) Soient $n$ et $q$ des entiers ; si F est un groupe libre à $n$ générateurs
 
 (ii) Si $f,g,h\in F$ sont tels que les couples $(f, g)$ et $(g, h)$ appartiennent à C, alors les couples $(f, m(g, h))$ et $(m(f, g), h)$ appartiennent à C et l’on a $m(f, m(g, h)) =m(m(f, g), h)$ ;
 
-(iii) Pour tout $f\in F$, il existe des éléments $o(f),t(f)$ et $f\in F$, nécessairement uniques en vertu de (i), tels que les couples $(f, t(f))$, $(o(f), f)$, $(f, f)$, $(f , f)$ appartiennent à C et que l’on ait $m(f, t(f)) =f=m(o(f), f)$ et $m(f, f) =o(f)$.
+(iii) Pour tout $f\in F$, il existe des éléments $o(f),t(f)$ et $\overline{f}\in F$, nécessairement uniques en vertu de (i), tels que les couples $(f, t(f))$, $(o(f), f)$, $(f, f)$, $(f , f)$ appartiennent à C et que l’on ait $m(f, t(f)) =f=m(o(f), f)$ et $m(f, f) =o(f)$.
 
-a) Démontrer que, pour tout $f\in F$, on a $(f , f)\in C$ et $m(f , f) =t(f)$. En déduire que $(o(f), o(f))\in C$ et $m(o(f), o(f)) =o(f)$. Démontrer aussi que $o(f) =t(f)$ et $f=f$.
+a) Démontrer que, pour tout $f\in F$, on a $(f , f)\in C$ et $m(f , f) =t(f)$. En déduire que $(o(f), o(f))\in C$ et $m(o(f), o(f)) =o(f)$. Démontrer aussi que $o(\overline{f}) =t(f)$ et $\overline{f}=f$.
 
 b) Soit S l’ensemble des éléments $e$ de F tels que $(e, e)\in C$ et $m(e, e) =e$; notons $o$ et $t$ les applications de F dans S données par $f\mapsto o(f)$ et $f\mapsto t(f)$.
 

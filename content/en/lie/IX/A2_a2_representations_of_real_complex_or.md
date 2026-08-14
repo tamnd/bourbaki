@@ -22,7 +22,7 @@ subsections:
       pdf_page: 394
 statements: 6
 exercises: 0
-content_sha256: beae2a50c798d743e5583c7e899d16583998c449472622c9ed757672809447a2
+content_sha256: 9e50cf70232aa333aa71eb3631458b86dd3394addacaf6f3c5c075a6d0b86160
 ---
 
 ## APPENDIX II
@@ -47,19 +47,19 @@ The commutant E of V is a field, a finite extension of $\mathbf{R}($Algebra, Cha
 
 If E is isomorphic to $\mathbf{R}$, the commutant of $V_{(\mathbf{C})}$ is isomorphic to $\mathbf{C}$, and $V_{(\mathbf{C})}$ is a simple $A_{(\mathbf{C})}$-module (Algebra, Chap. VIII, §11, no. 4).
 
-If E is not isomorphic to $\mathbf{R}$, it contains a field isomorphic to $\mathbf{C}$; it follows that V has an $A_{(\mathbf{C})}$-module structure, denoted by $V^c$. Then $V^c$ is a simple $A_{(\mathbf{C})}$-module, and the $\mathbf{C}$-linear map $\psi : V_{(\mathbf{C})}\rightarrow V^c\oplus V^c$ such that $\psi (\alpha \otimes v) =$ $(\alpha v,\overline{\alpha v})$ for $\alpha \in \mathbf{C},v\in V$, is an isomorphism (Algebra, Chap. V, §10, no. 4, Prop. 8). Moreover, $\sigma \otimes 1_V$ corresponds under this isomorphism to the $\mathbf{R}$-automorphism $(v, v') \rightarrow (v', v)$ of $V^c\oplus V^c$, and hence interchanges the two $A_{(\mathbf{C})}$-submodules $\psi^{-1}(V^c)$ and $\psi^{-1}(V^c)$.
+If E is not isomorphic to $\mathbf{R}$, it contains a field isomorphic to $\mathbf{C}$; it follows that V has an $A_{(\mathbf{C})}$-module structure, denoted by $V^c$. Then $V^c$ is a simple $A_{(\mathbf{C})}$-module, and the $\mathbf{C}$-linear map $\psi : V_{(\mathbf{C})}\rightarrow V^c\oplus \overline{V}^c$ such that $\psi (\alpha \otimes v) =$ $(\alpha v,\overline{\alpha v})$ for $\alpha \in \mathbf{C},v\in V$, is an isomorphism (Algebra, Chap. V, §10, no. 4, Prop. 8). Moreover, $\sigma \otimes 1_V$ corresponds under this isomorphism to the $\mathbf{R}$-automorphism $(v, v') \rightarrow (v', v)$ of $V^c\oplus V^c$, and hence interchanges the two $A_{(\mathbf{C})}$-submodules $\psi^{-1}(V^c)$ and $\psi^{-1}(V^c)$.
 
-The commutant $E_{(\mathbf{C})}$ of $V_{(\mathbf{C})}$ thus contains $\mathbf{C}\times \mathbf{C}$, operating by homotheties on $V^c\oplus V^c$. There is no isomorphism of $A_{(\mathbf{C})}$-modules from $V^c$ to $V^c$ if and only if $E_{(\mathbf{C})}$ reduces to $\mathbf{C}\times \mathbf{C}$, that is, if E is isomorphic to $\mathbf{C}$. This completes the proof.
+The commutant $E_{(\mathbf{C})}$ of $V_{(\mathbf{C})}$ thus contains $\mathbf{C}\times \mathbf{C}$, operating by homotheties on $V^c\oplus \overline{V}^c$. There is no isomorphism of $A_{(\mathbf{C})}$-modules from $V^c$ to $V^c$ if and only if $E_{(\mathbf{C})}$ reduces to $\mathbf{C}\times \mathbf{C}$, that is, if E is isomorphic to $\mathbf{C}$. This completes the proof.
 
 #### Proposition 2 {#lie-ix-a2-prop-2 .statement tag=01IT}
 
 Let A be an $\mathbf{R}$-algebra (associative and unital), and W a finite dimensional simple $A_{(\mathbf{C})}$-module over $\mathbf{C}$. Then, we must be in one of the following three situations:
 
-a) There exists an $A_{(\mathbf{C})}$-isomorphism $\theta$ from W to W with $\theta \circ \theta = 1_W$. Then the set V of fixed points of $\theta$ is an $\mathbf{R}$-structure on W, and a simple A-module with commutant $\mathbf{R}.1_V$. Moreover, $W_{[\mathbf{R}]}$ is the direct sum of two isomorphic simple A-modules.
+a) There exists an $A_{(\mathbf{C})}$-isomorphism $\theta$ from W to $\overline{W}$ with $\theta \circ \theta = 1_W$. Then the set V of fixed points of $\theta$ is an $\mathbf{R}$-structure on W, and a simple A-module with commutant $\mathbf{R}.1_V$. Moreover, $W_{[\mathbf{R}]}$ is the direct sum of two isomorphic simple A-modules.
 
-b) The $A_{(\mathbf{C})}$-modules W and W are not isomorphic; then $W_{[\mathbf{R}]}$ is a simple A-module with commutant $\mathbf{C}.1_W$.
+b) The $A_{(\mathbf{C})}$-modules W and $\overline{W}$ are not isomorphic; then $W_{[\mathbf{R}]}$ is a simple A-module with commutant $\mathbf{C}.1_W$.
 
-c) There exists an $A_{(\mathbf{C})}$-isomorphism $\theta$ from W to W with $\theta \circ \theta =-1_W$. Then the A-module $W_{[\mathbf{R}]}$ is simple, and its commutant is the field $\mathbf{C}.1_W\oplus \mathbf{C}.\theta$, which is isomorphic to $\mathbf{H}$.
+c) There exists an $A_{(\mathbf{C})}$-isomorphism $\theta$ from W to $\overline{W}$ with $\theta \circ \theta =-1_W$. Then the A-module $W_{[\mathbf{R}]}$ is simple, and its commutant is the field $\mathbf{C}.1_W\oplus \mathbf{C}.\theta$, which is isomorphic to $\mathbf{H}$.
 
 The complex vector space Hom$_{A_{(\mathbf{C})}}(W,W)$ is of dimension $\leq 1 ($Algebra, Chap. VIII, §3, no. 2); if $\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$, the endomorphism $\theta \circ \theta$ of W is a homothety, with ratio $\alpha \in \mathbf{C}$. For all $w\in W$, we have $\alpha \theta (w) =\theta \circ \theta \circ \theta (w) =$ $\theta (\alpha w) = \overline{\alpha \theta}(w)$, so $\alpha$ is real. If $\theta '=\lambda \theta$, with $\lambda \in \mathbf{C}$, then $\theta '\circ \theta '=|\lambda |^2\theta \circ \theta$; thus, exactly one of the following three possibilities is realised:
 

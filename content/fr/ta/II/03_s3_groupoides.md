@@ -61,7 +61,7 @@ subsections:
       pdf_page: 194
 statements: 40
 exercises: 0
-content_sha256: c8e4e074ad02d3003f51325f61be234086cb735049c83a11396505756d53e615
+content_sha256: f50d93cffde088e5f1bd6c6174d37d1bd40464fb19fe707ee922901cf5bf4bbe
 ---
 
 ## § 3. GROUPOÏDES
@@ -296,17 +296,17 @@ L’homomorphisme $p_a$ est surjectif en vertu de la remarque précédente. Son 
 
 #### Proposition 3 {#ta-ii-s3-prop-3 .statement tag=01TM}
 
-Soit G un groupoïde, soit H un sous-groupoïde distingué de G et soit $p: G\rightarrow G/H$ le morphisme canonique. Soit $\varphi : G\rightarrow G'$ un morphisme de groupoïdes tel que $H\subset$ Ker($\varphi$ ). Il existe un unique morphisme de groupoïdes $\varphi : G/H\rightarrow G'$ tel que $\varphi \circ p=\varphi$.
+Soit G un groupoïde, soit H un sous-groupoïde distingué de G et soit $p: G\rightarrow G/H$ le morphisme canonique. Soit $\varphi : G\rightarrow G'$ un morphisme de groupoïdes tel que $H\subset$ Ker($\varphi$ ). Il existe un unique morphisme de groupoïdes $\overline{\varphi}: G/H\rightarrow G'$ tel que $\overline{\varphi}\circ p=\varphi$.
 
-On dit que $\varphi$ est le morphisme de groupoïdes déduit de $\varphi$ par passage au quotient.
+On dit que $\overline{\varphi}$ est le morphisme de groupoïdes déduit de $\varphi$ par passage au quotient.
 
 L’unicité d’un tel morphisme est évidente, car les applications Som($p$) et Fl($p$) sont surjectives.
 
-Soient $a$ et $b$ des sommets de G. S’ils sont dans la même orbite de H, il existe une flèche $f$ reliant $a$ à $b$ dans H et l’on a $\varphi (f) =e_{\varphi(a)}$. En particulier, $\varphi (a) =\varphi (b)$. Par suite, l’application Som($\varphi$ ) définit, par passage au quotient, une application $\varphi_1:$ Orb(H) $\rightarrow$ Som(G$')$. Soient $f$ et $g$ des flèches dans G. Si $f$ et $g$ sont équivalentes modulo $\mathscr{R}$, il existe des flèches $x$ et $y$ dans H telles que $f$ = $xgy$. Par suite, $\varphi (f) =\varphi (x)\varphi (g)\varphi (y) =\varphi (g)$ puisque $\varphi (x)$ et $\varphi (y)$ sont des éléments neutres. L’application Fl($\varphi$ ) définit donc, par passage au quotient, une application $\varphi_2:$ Fl(G)$/\mathscr{R}\rightarrow$ Fl(G$')$.
+Soient $a$ et $b$ des sommets de G. S’ils sont dans la même orbite de H, il existe une flèche $f$ reliant $a$ à $b$ dans H et l’on a $\varphi (f) =e_{\varphi(a)}$. En particulier, $\varphi (a) =\varphi (b)$. Par suite, l’application Som($\varphi$ ) définit, par passage au quotient, une application $\overline{\varphi}_1:$ Orb(H) $\rightarrow$ Som(G$')$. Soient $f$ et $g$ des flèches dans G. Si $f$ et $g$ sont équivalentes modulo $\mathscr{R}$, il existe des flèches $x$ et $y$ dans H telles que $f$ = $xgy$. Par suite, $\varphi (f) =\varphi (x)\varphi (g)\varphi (y) =\varphi (g)$ puisque $\varphi (x)$ et $\varphi (y)$ sont des éléments neutres. L’application Fl($\varphi$ ) définit donc, par passage au quotient, une application $\overline{\varphi}_2:$ Fl(G)$/\mathscr{R}\rightarrow$ Fl(G$')$.
 
-Soient $f$ et $g$ des flèches de G qui sont composables ; notons $u$ et $v$ leurs classes dans Fl(G$/H)$. On a $\varphi_2(uv) =\varphi (f g) =\varphi (f)\varphi (g) =$ $\varphi_2(u)\varphi_2(v)$.
+Soient $f$ et $g$ des flèches de G qui sont composables ; notons $u$ et $v$ leurs classes dans Fl(G$/H)$. On a $\overline{\varphi}_2(uv) =\varphi (f g) =\varphi (f)\varphi (g) =$ $\overline{\varphi}_2(u)\overline{\varphi}_2(v)$.
 
-Le couple $\varphi = (\varphi_1, \varphi_2)$ est un morphisme de groupoïdes de $G/H$ dans $G'$ et l’on a $\varphi \circ p=\varphi$.
+Le couple $\overline{\varphi}= (\overline{\varphi}_1, \varphi_2)$ est un morphisme de groupoïdes de $G/H$ dans $G'$ et l’on a $\overline{\varphi}\circ p=\varphi$.
 
 ### 9. Groupoïde des classes de chemins d’un graphe
 
@@ -322,29 +322,29 @@ Deux chemins équivalents modulo $\mathscr{R}$ ont même origine et même terme.
 
 Muni de cette loi de composition, $\varpi_G$ est un groupoïde.
 
-Par construction, on a la relation $\varphi (cc') =\varphi (c)\varphi (c')$, pour tout couple de chemins $(c, c')$ juxtaposables dans G. Toute flèche de $\varpi_G$ est de la forme $\varphi (c)$, où $c$ est un chemin dans G. Cela entraîne que la loi de composition de $\varpi_G$ est associative et que $\varphi (e_a)$ est un élément neutre en $a$, pour tout sommet $a$ de $\varpi_G$. Il reste à démontrer que toute flèche de $\varpi_G$ est inversible. Soit $c$ un chemin dans G et démontrons par récurrence sur la longueur de $c$ que l’on a $\varphi (c)\varphi (c) =\varphi (e_{o(c)})$. Cette égalité est vraie si $c$ est de longueur 0. Si $c$ est de longueur $n\geqslant 1$, on peut écrire $c=c_1c_2$, avec $c_1$ de longueur 1 et $c_2$ de longueur $n-1$. Alors, $c=c_2c_1$ et l’on a
+Par construction, on a la relation $\varphi (cc') =\varphi (c)\varphi (c')$, pour tout couple de chemins $(c, c')$ juxtaposables dans G. Toute flèche de $\varpi_G$ est de la forme $\varphi (c)$, où $c$ est un chemin dans G. Cela entraîne que la loi de composition de $\varpi_G$ est associative et que $\varphi (e_a)$ est un élément neutre en $a$, pour tout sommet $a$ de $\varpi_G$. Il reste à démontrer que toute flèche de $\varpi_G$ est inversible. Soit $c$ un chemin dans G et démontrons par récurrence sur la longueur de $c$ que l’on a $\varphi (c)\varphi (\overline{c}) =\varphi (e_{o(c)})$. Cette égalité est vraie si $c$ est de longueur 0. Si $c$ est de longueur $n\geqslant 1$, on peut écrire $c=c_1c_2$, avec $c_1$ de longueur 1 et $c_2$ de longueur $n-1$. Alors, $\overline{c}=\overline{c_2}\overline{c_1}$ et l’on a
 
 $$
-\varphi (c)\varphi (c) =\varphi (c_1)\varphi (c_2)\varphi (c_2)\varphi (c_1) =\varphi (c_1)\varphi (e_{o(c_2)})\varphi (c_1) =\varphi (c_1)\varphi (c_1)
+\varphi (c)\varphi (\overline{c}) =\varphi (c_1)\varphi (c_2)\varphi (\overline{c_2})\varphi (\overline{c_1}) =\varphi (c_1)\varphi (e_{o(c_2)})\varphi (\overline{c_1}) =\varphi (c_1)\varphi (\overline{c_1})
 $$
 
 $$
-=\varphi (c_1c_1) =\varphi (e_{o(c_1)})
+=\varphi (c_1\overline{c_1}) =\varphi (e_{o(c_1)})
 $$
 
 par définition de la relation $\mathscr{R}$.
 
-En appliquant cette égalité au chemin $c$, on voit que $\varphi (c)\varphi (c) =$ $\varphi (e_{t(c)})$. Ainsi, $\varphi (c)$ est inversible, d’inverse $\varphi (c)$.
+En appliquant cette égalité au chemin $\overline{c}$, on voit que $\varphi (\overline{c})\varphi (c) =$ $\varphi (e_{t(c)})$. Ainsi, $\varphi (c)$ est inversible, d’inverse $\varphi (\overline{c})$.
 
 Les classes d’équivalence de la relation $\mathscr{R}$ s’appellent les classes de chemins dans le graphe G ; le groupoïde $\varpi_G$ s’appelle le groupoïde des classes de chemins du graphe G. Il a même ensemble de sommets que G et ses orbites sont les composantes connexes du graphe G.
 
-Notons $v$ l’application qui, à une flèche $f$ de G, associe la classe du chemin $(o(f), f, t(f))$ de G. Le couple $j$ = (Id$_{Som(G)}, v)$ est un morphisme, dit canonique, de carquois de G dans $\varpi_G$. Son image engendre $\varpi_G$; pour toute flèche $f$ de G, on a $j(f) =j(f)^{-1}$.
+Notons $v$ l’application qui, à une flèche $f$ de G, associe la classe du chemin $(o(f), f, t(f))$ de G. Le couple $j$ = (Id$_{Som(G)}, v)$ est un morphisme, dit canonique, de carquois de G dans $\varpi_G$. Son image engendre $\varpi_G$; pour toute flèche $f$ de G, on a $j(\overline{f}) =j(f)^{-1}$.
 
 Soient G et $G'$ des graphes, soit $\varphi : G\rightarrow G'$ un morphisme de graphes. Notons $j: G\rightarrow \varpi_G$ et $j': G'\rightarrow \varpi_{G'}$ les morphismes canoniques. Si $c= (a_0, f_1, a_1, . . . , a_n)$ est un chemin dans G, la classe du chemin $\varphi (c) = (\varphi (a_0), \varphi (f_1), \varphi (a_1), . . . , \varphi (a_n))$ ne dépend que de la classe de $c$. On définit ainsi par passage aux classes d’équivalence un morphisme de carquois $\varpi (\varphi ):\varpi_G\rightarrow \varpi_{G'}$ tel que $\varpi (\varphi )\circ j=j'\circ \varphi$. C’est un morphisme de groupoïdes.
 
 #### Proposition 5 {#ta-ii-s3-prop-5 .statement tag=01TO}
 
-Soit G un graphe ; notons $j$ le morphisme canonique de carquois de G dans $\varpi_G$. Soit $\varphi$ un morphisme de carquois de G dans un groupoïde $G'$ tel que $\varphi (f) =\varphi (f)^{-1}$ pour toute flèche $f$ de G. Il existe alors un unique morphisme de groupoïdes $\varphi '$ de $\varpi_G$ dans $G'$ tel que $\varphi '\circ j=\varphi$.
+Soit G un graphe ; notons $j$ le morphisme canonique de carquois de G dans $\varpi_G$. Soit $\varphi$ un morphisme de carquois de G dans un groupoïde $G'$ tel que $\varphi (\overline{f}) =\varphi (f)^{-1}$ pour toute flèche $f$ de G. Il existe alors un unique morphisme de groupoïdes $\varphi '$ de $\varpi_G$ dans $G'$ tel que $\varphi '\circ j=\varphi$.
 
 On définit une application $u:$ Ch(G) $\rightarrow$ Fl(G$')$ en posant, pour tout chemin $c= (a_0, f_1, a_1, . . . , f_n, a_n)$ dans G$,u(c) =e_{a_0}\varphi (f_1). . . \varphi (f_n)$. Pour tout couple $(c, c')$ de chemins juxtaposables dans G, on a $u(cc') =$ $u(c)u(c')$. L’application $u$ est compatible avec la relation d’équivalence $\mathscr{R}$ définie ci-dessus, d’où, par passage au quotient, une application $u':$ Ch(G)$/\mathscr{R}\rightarrow$ Fl(G$')$. Posons alors $\varphi '=$ (Som($\varphi$ )$, u')$. C’est un morphisme de groupoïdes de $\varpi_G$ dans $G'$ tel que $\varphi '\circ j=\varphi$.
 
@@ -358,7 +358,7 @@ Soit G un graphe. Notons $j: G\rightarrow \varpi_G$ le morphisme de carquois can
 
 L’existence, pour tout chemin $c$ de G, d’un chemin équivalent qui soit sans aller-retour est immédiate par récurrence sur la longueur de $c$ (cf. II, p. 157).
 
-Soit A une orientation de G et soit $G'$ le groupoïde associé au groupe libre F(A) construit sur A (II, p. 163, exemple 1). Soit $\psi$ le morphisme de carquois de G dans $G'$ tel que, pour tout $f\in A,\psi (f)$ soit l’élément $f$ de F(A) et $\psi (f)$ soit l’élément $f^{-1}$ de F(A). Soit $\psi '$ l’unique morphisme de groupoïdes de $\varpi_G$ dans $G'$ tel que $\psi '\circ j=\psi$.
+Soit A une orientation de G et soit $G'$ le groupoïde associé au groupe libre F(A) construit sur A (II, p. 163, exemple 1). Soit $\psi$ le morphisme de carquois de G dans $G'$ tel que, pour tout $f\in A,\psi (f)$ soit l’élément $f$ de F(A) et $\psi (\overline{f})$ soit l’élément $f^{-1}$ de F(A). Soit $\psi '$ l’unique morphisme de groupoïdes de $\varpi_G$ dans $G'$ tel que $\psi '\circ j=\psi$.
 
 Soient $c,c'$ des chemins sans aller-retour équivalents modulo $\mathscr{R}$. Ils ont même source et même but. Pour démontrer qu’ils sont égaux, il suffit de démontrer que les suites $(f_1, . . . , f_n)$ et $(g_1, . . . , g_m)$ de leurs flèches sont égales. L’image par $\psi '$ de la classe commune de $c$ et $c'$ est égale à $\psi (f_1). . . \psi (f_n)$ et à $\psi (g_1). . . \psi (g_m)$. Or les termes des suites $(\psi (f_1), . . . , \psi (f_n))$ et $(\psi (g_1), . . . , \psi (g_m))$ appartiennent au sous-ensemble $A\cup A^{-1}$ de F(A) et deux éléments consécutifs de ces suites ne sont pas inverses l’un de l’autre. D’après A, I, p. 84, prop. 7, ces deux suites sont égales. Il en résulte que les suites $(f_1, . . . , f_n)$ et $(g_1, . . . , g_m)$ sont égales, et donc que $c=c'$, d’où l’unicité.
 
@@ -474,7 +474,7 @@ En effet, sous cette hypothèse, on a Grp(Γ)$_b=\{e_b\}$ pour tout sommet $b$ d
 
 ### 12. Groupe de Poincaré d’un graphe
 
-Soit G un graphe. Soit $a$ un sommet de G; le groupe d’isotropie en $a$ du groupoïde Grp(G) est appelé groupe de Poincaré de G en $a$ et est noté $\pi_1(G, a)$. Soit $c$ une classe de chemins dans G, soient $a$ son origine et $b$ son terme. L’application Int($c$)$:\pi_1(G, b)\rightarrow \pi_1(G, a)$ définie par $c'\mapsto cc'c^{-1}$ est un isomorphisme de groupes. Soit $\varphi : G\rightarrow H$ un morphisme de graphes. Notons $\theta_G: G\rightarrow$ Grp(G) et $\theta_H: H\rightarrow$ Grp(H) les morphismes canoniques. Si $\varphi$ désigne l’unique morphisme de groupoïdes Grp(G) $\rightarrow$ Grp(H) tel que $\varphi \circ \theta_G=\theta_H\circ \varphi$, l’homomorphisme de groupes $\varphi_a:\pi_1(G, a)\rightarrow \pi_1(H, \varphi (a))$ est noté $\pi_1(\varphi , a)$.
+Soit G un graphe. Soit $a$ un sommet de G; le groupe d’isotropie en $a$ du groupoïde Grp(G) est appelé groupe de Poincaré de G en $a$ et est noté $\pi_1(G, a)$. Soit $c$ une classe de chemins dans G, soient $a$ son origine et $b$ son terme. L’application Int($c$)$:\pi_1(G, b)\rightarrow \pi_1(G, a)$ définie par $c'\mapsto cc'c^{-1}$ est un isomorphisme de groupes. Soit $\varphi : G\rightarrow H$ un morphisme de graphes. Notons $\theta_G: G\rightarrow$ Grp(G) et $\theta_H: H\rightarrow$ Grp(H) les morphismes canoniques. Si $\overline{\varphi}$ désigne l’unique morphisme de groupoïdes Grp(G) $\rightarrow$ Grp(H) tel que $\overline{\varphi}\circ \theta_G=\theta_H\circ \varphi$, l’homomorphisme de groupes $\overline{\varphi}_a:\pi_1(G, a)\rightarrow \pi_1(H, \varphi (a))$ est noté $\pi_1(\varphi , a)$.
 
 Soit G un graphe connexe, soit S une orientation de G et soit A un arbre orienté maximal de G (II, p. 157, prop. 1). Étant donnés des sommets $a$ et $b$ de G, il existe une unique classe de chemins $\gamma_{a,b}$ dans le graphe $\widetilde{A}$ associé à A qui relie $a$ à $b($II, p. 174, cor. 4 de la prop. 5). Si $a,b$ et $c$ sont des sommets de G, on a $\gamma_{a,b}\gamma_{b,c}=\gamma_{a,c}$, ces deux classes de chemins étant égales à l’unique classe de chemins reliant $a$ à $c$ dans $\widetilde{A}$.
 
@@ -498,4 +498,4 @@ L’homomorphisme $\mu_a$ est l’isomorphisme réciproque de $\lambda$.
 
 #### Remarque 2 {#ta-ii-s3-n12-rem-2 .statement tag=01U2}
 
-Il existe un unique homomorphisme $\lambda :$ F(Fl(G)) $\rightarrow \pi_1(G, a)$ défini par les relations (1) pour tout $f\in$ Fl(G). Il résulte de la proposition 8 que l’homomorphisme $\lambda$ est surjectif et que son noyau est le plus petit sous-groupe distingué de F(Fl(G)) contenant les éléments $f$, pour $f\in$ Fl(A), et les éléments $f\cdot f$, pour $f\in$ Fl(G).
+Il existe un unique homomorphisme $\lambda :$ F(Fl(G)) $\rightarrow \pi_1(G, a)$ défini par les relations (1) pour tout $f\in$ Fl(G). Il résulte de la proposition 8 que l’homomorphisme $\lambda$ est surjectif et que son noyau est le plus petit sous-groupe distingué de F(Fl(G)) contenant les éléments $f$, pour $f\in$ Fl(A), et les éléments $f\cdot \overline{f}$, pour $f\in$ Fl(G).

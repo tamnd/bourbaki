@@ -29,7 +29,7 @@ subsections:
       pdf_page: 331
 statements: 23
 exercises: 0
-content_sha256: 9fdf3f12b8f6360d62bc612579a1fbbf648ff71065eb298914ac526bec2fd1b1
+content_sha256: d7dace0e868d5da2a87b4d684c939e100489fda9ba8b12f6e4d9839d8b4aef32
 ---
 
 ## § 5. HOMOTOPIE ET REVÊTEMENTS (CAS DES ESPACES LOCALEMENT CONNEXES PAR ARCS)
@@ -44,7 +44,7 @@ La condition est nécessaire sans hypothèse sur l’espace Y. En effet, si un t
 
 Démontrons qu’elle est suffisante. Notons $s: \Lambda_b(B)\rightarrow \Lambda_x(E)$ l’homéomorphisme réciproque de l’homéomorphisme $c\mapsto p\circ c($III, p. 302, cor. 2 de la prop. 3) et soit $\varphi : \Lambda_y(Y)\rightarrow \Lambda_x(E)$ l’application $d\mapsto$ $s(f\circ d)$. L’application $\varphi$ est continue (I, p. 132, lemme).
 
-Soient $d$ et $d'\in \Lambda_y(Y)$ des chemins d’origine $y$ ayant le même terme ; démontrons que les chemins $\varphi (d)$ et $\varphi (d')$ ont même terme. Posons $c=f\circ d,c'=f\circ d'$. Comme le chemin $d*d'$ est un lacet dans Y en $y$, le chemin $c*c'$ est un lacet dans B en $b$ et sa classe appartient à l’image de l’homomorphisme $\pi_1(f, y)$, donc à l’image de l’homomorphisme $\pi_1(p, x)$ par hypothèse. D’après le cor. 2 de la prop. 4 (III, p. 303), le chemin $s(c*c')$ est un lacet dans E en $x$. Il en est de même du chemin $s(c'*c)$ qui, par unicité du relèvement des chemins, est égal à $s(c*c')$. On a donc $s(c'*c)(^1_2) =s(c')(1) =s(c)(1)$, ce qu’on voulait démontrer.
+Soient $d$ et $d'\in \Lambda_y(Y)$ des chemins d’origine $y$ ayant le même terme ; démontrons que les chemins $\varphi (d)$ et $\varphi (d')$ ont même terme. Posons $c=f\circ d,c'=f\circ d'$. Comme le chemin $d*\overline{d'}$ est un lacet dans Y en $y$, le chemin $c*\overline{c'}$ est un lacet dans B en $b$ et sa classe appartient à l’image de l’homomorphisme $\pi_1(f, y)$, donc à l’image de l’homomorphisme $\pi_1(p, x)$ par hypothèse. D’après le cor. 2 de la prop. 4 (III, p. 303), le chemin $s(c*\overline{c'})$ est un lacet dans E en $x$. Il en est de même du chemin $s(c'*\overline{c})$ qui, par unicité du relèvement des chemins, est égal à $s(c*\overline{c'})$. On a donc $s(c'*\overline{c})(\frac{1}{2}) =s(c')(1) =s(c)(1)$, ce qu’on voulait démontrer.
 
 Notons respectivement $e_E: \Lambda_x(E)\rightarrow E$ et $e_Y: \Lambda_y(Y)\rightarrow Y$ les applications terme. Comme l’espace Y est supposé connexe et localement connexe par arcs, l’application $e_Y$ est surjective et ouverte (III, p. 262, prop. 10). D’après l’alinéa précédent, il existe une unique application $g: Y\rightarrow E$ telle que $e_E\circ \varphi =g\circ e_Y$. Elle est continue, car l’application $e_Y$ stricte ( I, p. 18, exemple 2).
 
@@ -248,7 +248,7 @@ a) Soit G un groupe topologique discret. Pour tout homomorphisme continu $f:\pi_
 
 b) Pour tout espace topologique discret F muni d’une opération à droite, admissible, du groupe $\pi_1(B, b)$, il existe un revêtement E de B tel que les $\pi_1(B, b)$-ensembles F et $E_b$ soient isomorphes.
 
-Démontrons a). Soit $f$ un homomorphisme continu de $\pi_1(B, b)$ dans un groupe discret G. Son noyau est un sous-groupe ouvert distingué K de $\pi_1(B, b)$ ; notons H le groupe $\pi_1(B, b)/K$ et $f: H\rightarrow G$ l’homomorphisme de groupes déduit de $f$ par passage au quotient. D’après III, p. 316, prop. 5, il existe un revêtement connexe $E'$ de B tel que le sous-groupe K soit le fixateur de tout point de la fibre $E'_b$; le revêtement $E'$ est principal de groupe $H =\pi_1(B, b)/K$. Soit $x'$ un point de $E'_b$; l’homomorphisme $h_{(E',x')}:\pi_1(B, b)\rightarrow H$ est surjectif de noyau K (III, p. 306, prop. 5). Soit donc $\varphi : H\rightarrow G$ l’unique homomorphisme de groupes tel que $\varphi \circ h_{(E',x')}=f$. Le revêtement associé $E = E'\times^HG$ de B est principal de groupe G et l’on a $h_{(E,x)}=\varphi \circ h_{(E',x')}=f$ (III, p. 307, exemple 2). Cela démontre l’assertion a).
+Démontrons a). Soit $f$ un homomorphisme continu de $\pi_1(B, b)$ dans un groupe discret G. Son noyau est un sous-groupe ouvert distingué K de $\pi_1(B, b)$ ; notons H le groupe $\pi_1(B, b)/K$ et $\overline{f}: H\rightarrow G$ l’homomorphisme de groupes déduit de $f$ par passage au quotient. D’après III, p. 316, prop. 5, il existe un revêtement connexe $E'$ de B tel que le sous-groupe K soit le fixateur de tout point de la fibre $E'_b$; le revêtement $E'$ est principal de groupe $H =\pi_1(B, b)/K$. Soit $x'$ un point de $E'_b$; l’homomorphisme $h_{(E',x')}:\pi_1(B, b)\rightarrow H$ est surjectif de noyau K (III, p. 306, prop. 5). Soit donc $\varphi : H\rightarrow G$ l’unique homomorphisme de groupes tel que $\varphi \circ h_{(E',x')}=f$. Le revêtement associé $E = E'\times^HG$ de B est principal de groupe G et l’on a $h_{(E,x)}=\varphi \circ h_{(E',x')}=f$ (III, p. 307, exemple 2). Cela démontre l’assertion a).
 
 Démontrons b). Soit F un ensemble muni d’une opération à droite, admissible, du groupe $\pi_1(B, b)$. Notons $f:\pi_1(B, b)\rightarrow \mathfrak{S}_F$ cette opération et munissons le groupe $\mathfrak{S}_F$ de la topologie discrète. D’après a), il existe un revêtement E de B, principal de groupe $\mathfrak{S}_F$, et un point $x\in E$ tels que l’homomorphisme $h_{(E,x)}$ soit égal à $f$. L’opération canonique du groupe $\pi_1(B, b)$ sur la fibre en $b$ du revêtement associé $E\times^{\mathfrak{S}_F}F$ de B s’identifie à l’opération de $\pi_1(B, b)$ sur F (III, p. 306, exemple 1).
 
@@ -490,17 +490,17 @@ b) Démontrer que le B-espace E possède la propriété d’extension des sectio
 
 1) Soit X un espace topologique et soient $x,y$ des points de X. Démontrer que les applications $p_x$ et $p_y$ constantes d’image respectivement $x$ et $y$ sont homotopes si et seulement si $x$ et $y$ appartiennent à la même composante connexe par arcs de X.
 
-2) Soit S le graphe de la fonction de $]0,1]$ dans $\mathbf{R}$ donnée par $x\mapsto$ sin($\pi /x$); soit S son adhérence dans $\mathbf{R}^2$.
+2) Soit S le graphe de la fonction de $]0,1]$ dans $\mathbf{R}$ donnée par $x\mapsto$ sin($\pi /x$); soit $\overline{S}$ son adhérence dans $\mathbf{R}^2$.
 
-a) Démontrer que les espaces S et S sont connexes.
+a) Démontrer que les espaces S et $\overline{S}$ sont connexes.
 
-b) Démontrer qu’une partie connexe et compacte de S contenant les points $(1,0)$ et les points $(0,1)$ est nécessairement égale à S, mais qu’il n’existe pas d’homéomorphisme de $\mathbf{I}$ sur S appliquant 0 sur $(1,0)$ et 1 sur $(0,1)$.
+b) Démontrer qu’une partie connexe et compacte de $\overline{S}$ contenant les points $(1,0)$ et les points $(0,1)$ est nécessairement égale à S, mais qu’il n’existe pas d’homéomorphisme de $\mathbf{I}$ sur $\overline{S}$ appliquant 0 sur $(1,0)$ et 1 sur $(0,1)$.
 
-c) Déterminer les composantes connexes par arcs de l’espace S.
+c) Déterminer les composantes connexes par arcs de l’espace $\overline{S}$.
 
-d) Démontrer que l’espace S n’est pas localement connexe.
+d) Démontrer que l’espace $\overline{S}$ n’est pas localement connexe.
 
-3) Soit $a\in S$. Démontrer que l’espace pointé $(S, a)$ possède un revêtement universel si et seulement si $a\in  \{0\} \times [-1,1]$.
+3) Soit $a\in \overline{S}$. Démontrer que l’espace pointé $(S, a)$ possède un revêtement universel si et seulement si $a\in  \{0\} \times [-1,1]$.
 
 4) Soit $D = [0,1]\cap (\mathbf{R}-\mathbf{Q})$.
 
@@ -532,17 +532,17 @@ a) Démontrer que pour tout $x\in X$, l’espace X $-\{x\}$ est connexe.
 
 b) Soient $a, b$ des points distincts de X et soient $U,V$ des parties ouvertes et fermées, non vides, de X telles que X$-\{a, b\}= U\cup V$. Démontrer que l’on a $U = U\cup  \{a, b\},V = V\cup  \{a, b\}$ et que ces ensembles sont connexes.
 
-c) On suppose que X possède une partie dénombrable partout dense. Démontrer alors que X est homéomorphe au cercle $\mathbf{S}_1$. (Prouver qu’il existe un homéomorphisme de $\mathbf{I}$ sur U qui applique 0 sur $a$ et 1 sur $b.)$
+c) On suppose que X possède une partie dénombrable partout dense. Démontrer alors que X est homéomorphe au cercle $\mathbf{S}_1$. (Prouver qu’il existe un homéomorphisme de $\mathbf{I}$ sur $\overline{U}$ qui applique 0 sur $a$ et 1 sur $b.)$
 
 9) Soit A un ensemble bien ordonné non dénombrable dont tout segment $[u, v]$ est dénombrable.
 
 a) Démontrer que l’ensemble $L = A\times [0,1[$, totalement ordonné par l’ordre lexicographique et muni de la topologie $\mathscr{T}_0(L)$ (TG, I, p. 91, exerc. 5), est connexe (TG, IV, p. 48, exerc. 7). L’espace L est appelé droite d’Alexandroff. b) Démontrer que, pour tout point $x\in L$, l’espace topologique L$-\{x\}$ n’est pas connexe.
 
-c) Soit L l’ensemble ordonné obtenu en adjoignant à L des points $-\infty$ et $+\infty$ tels que $-\infty < x <+\infty$ pour tout $x\in L$. Munissons-le de la topologie $\mathscr{T}_0(L)$; on l’appelle la droite d’Alexandroff achevée. Démontrer que L est compact et connexe.
+c) Soit $\overline{L}$ l’ensemble ordonné obtenu en adjoignant à L des points $-\infty$ et $+\infty$ tels que $-\infty < x <+\infty$ pour tout $x\in L$. Munissons-le de la topologie $\mathscr{T}_0(L)$; on l’appelle la droite d’Alexandroff achevée. Démontrer que $\overline{L}$ est compact et connexe.
 
-d) Démontrer qu’il n’existe pas d’homéomorphisme de $[0,1]$ sur L qui applique 0 sur $-\infty$ et 1 sur $+\infty$.
+d) Démontrer qu’il n’existe pas d’homéomorphisme de $[0,1]$ sur $\overline{L}$ qui applique 0 sur $-\infty$ et 1 sur $+\infty$.
 
-10) Soit L la droite d’Alexandroff achevée et soit S l’espace topologique déduit de L par identification des points $-\infty$ et $+\infty$.
+10) Soit $\overline{L}$ la droite d’Alexandroff achevée et soit S l’espace topologique déduit de $\overline{L}$ par identification des points $-\infty$ et $+\infty$.
 
 a) Démontrer que l’espace S est compact et connexe, de cardinal au moins 2.
 
@@ -604,9 +604,9 @@ b) Soit $\varphi : P\rightarrow P$ l’application définie par $\varphi (x) =x$
 
 c) Montrer que le noyau de l’homomorphisme $\varphi_*=\pi_1(\varphi ,(a,0))$ est un sous-groupe de $\pi_1(P\times \mathbf{R},(a,0))$ qui est ouvert pour la topologie de la convergence compacte.
 
-d) Soit $u:\mathbf{I}\rightarrow C$ le lacet donné par $t\mapsto^1_2(1-$ cos(2$\pi t)$, sin(2$\pi t))$ et soit $c\in \Omega_e(E)$ le lacet donné par $t\mapsto (u(t),0)$. Montrer que l’image de $\varphi_*$ est un sous-groupe ouvert de $\pi_1(E, e)$ qui ne contient pas la classe du lacet $c$.
+d) Soit $u:\mathbf{I}\rightarrow C$ le lacet donné par $t\mapsto \frac{1}{2}(1-$ cos(2$\pi t)$, sin(2$\pi t))$ et soit $c\in \Omega_e(E)$ le lacet donné par $t\mapsto (u(t),0)$. Montrer que l’image de $\varphi_*$ est un sous-groupe ouvert de $\pi_1(E, e)$ qui ne contient pas la classe du lacet $c$.
 
-e) Soit $c_n:\mathbf{I}\rightarrow E$ le lacet défini par $c_n(t) =p(2^{-n}u(t),0)$ et soit $d:\mathbf{I}\rightarrow E$ le lacet donné par $t\mapsto p(a, t)$. Montrer que $d^nc_nd^n$ est strictement homotope à $c$. En déduire que la classe $[c]$ est contenue dans tout sous-groupe admissible de $\pi_1(E, e)$.
+e) Soit $c_n:\mathbf{I}\rightarrow E$ le lacet défini par $c_n(t) =p(2^{-n}u(t),0)$ et soit $d:\mathbf{I}\rightarrow E$ le lacet donné par $t\mapsto p(a, t)$. Montrer que $d^nc_n\overline{d}^n$ est strictement homotope à $c$. En déduire que la classe $[c]$ est contenue dans tout sous-groupe admissible de $\pi_1(E, e)$.
 
 f) Montrer que la topologie admissible sur $\pi_1(E, e)$ est strictement moins fine que la topologie de la convergence compacte.
 
@@ -620,7 +620,7 @@ b) Démontrer que l’application $j$ ne fait pas de Y un revêtement de X.
 
 a) Soit $Y = X\cup (-X)$. Soit $p: Y\rightarrow X$ l’application définie comme suit : on a $p$(cos($t$), sin($t$)) $=$ (cos(2$t)$, sin(2$t))$ pour $t\in \mathbf{R}$ et $p(z) =p(-z) =z$ pour $z\in X_1\cup X_2$. Démontrer que $p$ fait de Y un revêtement de degré 2 de X.
 
-b) Soit $Z_2$ l’ensemble des points du plan tels que $(x-1)^2+y^2= 4$ et $y\leqslant 0$ ; on pose $Z = X_0\cup X_1\cup (-X_1)\cup Z_2\cup (-Z_2)$. Soit $q: Z\rightarrow X$ l’application définie par $q$(cos($t$), sin($t$)) $=$ (cos(2$t)$, sin(2$t))$ pour $t\in \mathbf{R},q(z) =q(-z) =z$ pour $z\in X_1$ et $q(z) =q(-z) = 1 +^1_2z$ pour $z\in Z_2$. Démontrer que $q$ fait de Z un revêtement de degré 2 de X.
+b) Soit $Z_2$ l’ensemble des points du plan tels que $(x-1)^2+y^2= 4$ et $y\leqslant 0$ ; on pose $Z = X_0\cup X_1\cup (-X_1)\cup Z_2\cup (-Z_2)$. Soit $q: Z\rightarrow X$ l’application définie par $q$(cos($t$), sin($t$)) $=$ (cos(2$t)$, sin(2$t))$ pour $t\in \mathbf{R},q(z) =q(-z) =z$ pour $z\in X_1$ et $q(z) =q(-z) = 1 +\frac{1}{2}z$ pour $z\in Z_2$. Démontrer que $q$ fait de Z un revêtement de degré 2 de X.
 
 c) Démontrer que $q_*\pi_1(Z,(1,0)) =p_*\pi_1(Y,(1,0))$ mais qu’il n’existe pas d’application continue $f: Z\rightarrow Y$ telle que $p\circ f=q$.[^4]
 
@@ -652,7 +652,7 @@ b) Soit T l’ensemble des classes de lacets de la forme $\lambda_{m,n}\mu_{m,n}
 
 c) Démontrer que la loi de composition de $\pi_1(P,0)$ n’est pas continue lorsqu’on munit le groupe $\pi_1(P,0)$ de la topologie quotient de la convergence compacte.[^5]
 
-9) Reprenons les notations de l’exercice 6. Pour tout entier $n\in \mathbf{N}^*$, soit $c_n:\mathbf{I}\rightarrow C_n$ le lacet en l’origine défini par $t\mapsto_{2n}^1(1-$ cos(2$\pi t)$, sin(2$\pi t))$.
+9) Reprenons les notations de l’exercice 6. Pour tout entier $n\in \mathbf{N}^*$, soit $c_n:\mathbf{I}\rightarrow C_n$ le lacet en l’origine défini par $t\mapsto \frac{1}{2n}(1-$ cos(2$\pi t)$, sin(2$\pi t))$.
 
 a) Pour toute suite $\alpha \in  \{0,1\}^{\mathbf{N}^*}$, soit $c_{\alpha}$ l’application définie par $c_{\alpha}(0) = 0$ par $c_{\alpha}(t) =\alpha_nc_n(2^nt-1)$ pour tout entier $n\geqslant 1$ et tout $t\in \mathbf{I}$ tel que $2^{-n}\leqslant$ $t\leqslant 2^{1-n}$. Montrer que c’est un lacet en l’origine. Montrer que l’application $\alpha \mapsto [c_{\alpha}]$ de $\{0,1\}^{\mathbf{N}^*}$ dans $\pi_1(P,0)$ est injective.
 

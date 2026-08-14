@@ -41,7 +41,7 @@ subsections:
       pdf_page: 107
 statements: 36
 exercises: 30
-content_sha256: 3a0864467207af688220b7538549a8267470ac04aaa33a59bbd84c8e5046056d
+content_sha256: a9d8fdf3b8fc2586e56d218165fd8291cc71db692acf62f555fad9fa5835dfe5
 ---
 
 ## § 6. PROPRIÉTÉS SPECTRALES DES ENDOMORPHISMES DES ESPACES DE BANACH
@@ -126,7 +126,7 @@ Soient X une partie compacte de $\mathbf{C}$ et $\mathscr{C}(X)$ l’espace de B
 
 ### 2. Une partition du spectre
 
-Notons $\mathbf{Z}$ le sous-ensemble $\mathbf{Z}\cup  \{-\infty ,+\infty \}$ de $\mathbf{R}$. Si $u$ est une application linéaire dont le noyau ou le conoyau est de dimension finie, on appelle indice de $u$ l’élément ind($u$) de $\mathbf{Z}$ défini par
+Notons $\overline{\mathbf{Z}}$ le sous-ensemble $\mathbf{Z}\cup  \{-\infty ,+\infty \}$ de $\overline{\mathbf{R}}$. Si $u$ est une application linéaire dont le noyau ou le conoyau est de dimension finie, on appelle indice de $u$ l’élément ind($u$) de $\overline{\mathbf{Z}}$ défini par
 
 ind($u$) $=$ dim Coker($u$)$-$ dim Ker($u$)
 
@@ -136,7 +136,7 @@ ind($u$) $=$ dim Coker($u$)$-$ dim Ker($u$)
 
 Soient E un espace normable complet et $u$ un endomorphisme de E. Pour tout $n\in \mathbf{Z}$, on note Sp$_n(u)$ l’ensemble des nombres complexes $\lambda \in$ Sp$_e(u)$ tels que $u-\lambda 1_E$ soit un morphisme strict, dont le noyau ou le conoyau est de dimension finie, et dont l’indice est $n$. On note Sp$_{\omega}(u)$ le complémentaire dans Sp$_e(u)$ de l’union des sous-ensembles Sp$_n(u)$ pour $n\in \mathbf{Z}$.
 
-Les ensembles Sp$_s(u)$, Sp$_n(u)$ pour $n\in \mathbf{Z}$ et Sp$_{\omega}(u)$ forment une partition du spectre de $u$.
+Les ensembles Sp$_s(u)$, Sp$_n(u)$ pour $n\in \overline{\mathbf{Z}}$ et Sp$_{\omega}(u)$ forment une partition du spectre de $u$.
 
 Tout endomorphisme de E dont le conoyau est de dimension finie est strict (III, p. 52, lemme 6). Les endomorphismes de Fredholm de E sont les endomorphismes de E dont le noyau et le conoyau sont de dimension finie (III, p. 52, prop. 11). L’ensemble $\mathbf{C}-$ Sp$_e(u)$ se compose des $\lambda \in \mathbf{C}$ tels que $u-\lambda 1_E$ soit un endomorphisme de Riesz de E, et un tel endomorphisme est un endomorphisme de Fredholm de E d’indice 0.
 
@@ -176,11 +176,11 @@ Soient E un espace normable complet et $u$ un endomorphisme de E.
 
 a) L’ensemble Sp$_{\omega}(u)$ est compact. Il n’est pas vide si E est de dimension infinie;
 
-b) Soit $n\in \mathbf{Z}$. L’ensemble Sp$_n(u)$ est réunion d’une famille de composantes connexes bornées de $\mathbf{C}-$ Sp$_{\omega}(u)$. Il est ouvert dans $\mathbf{C}$, et sa frontière dans $\mathbf{C}$ est contenue dans Sp$_{\omega}(u)$.
+b) Soit $n\in \overline{\mathbf{Z}}$. L’ensemble Sp$_n(u)$ est réunion d’une famille de composantes connexes bornées de $\mathbf{C}-$ Sp$_{\omega}(u)$. Il est ouvert dans $\mathbf{C}$, et sa frontière dans $\mathbf{C}$ est contenue dans Sp$_{\omega}(u)$.
 
 L’ensemble $\mathbf{C}-$ Sp$_{\omega}(u)$ se compose des nombres complexes $\lambda \in \mathbf{C}$ tels que $u-\lambda 1_E$ soit un morphisme strict, dont le noyau ou le conoyau est de dimension finie. D’après les prop. 11 de III, p. 67 et 13 de III, p. 70, il est ouvert. L’ensemble Sp$_{\omega}(u)$ est donc fermé. Comme il est borné, il est compact.
 
-Démontrons b). Soit $n\in \mathbf{Z}$. L’ensemble Sp$_n(u)$ est contenu dans $\mathbf{C}-$Sp$_{\omega}(u)$. Soit U une composante connexe de $\mathbf{C}-$ Sp$_{\omega}(u)$ qui rencontre Sp$_n(u)$. L’application $\lambda \mapsto$ ind($u-\lambda 1_E$) de $\mathbf{C}-$ Sp$_{\omega}(u)$ dans $\mathbf{Z}$ étant localement constante (cor. 1 de la prop. 12 de III, p. 68 et cor. 1 de la prop. 13 de III, p. 70), l’indice de $u-\lambda 1_E$ est égal à $n$ pour tout $\lambda \in U$. Si $n\not = 0$, cela implique que U est contenu dans Sp$_n(u)$. Si $n= 0$, remarquons que l’ensemble U est une composante connexe de $\mathbf{C}-$ (Sp$_{\omega}(u)\cup$ Sp$_{-\infty}(u)\cup$ Sp$_{+\infty}(u))$. Puisque U rencontre Sp$_0(u)$ et donc Sp$_e(u)$, il résulte alors de la remarque 2 que l’ensemble U est contenu dans Sp$_e(u)$, et par suite dans Sp$_0(u)$. On conclut dans tous les cas que Sp$_n(u)$ est la réunion des composantes connexes de $\mathbf{C}-$ Sp$_{\omega}(u)$ qui rencontrent Sp$_n(u)$. Celles-ci sont nécessairement bornées puisque l’ensemble Sp($u$) est borné. Par suite, Sp$_n(u)$ est ouvert dans $\mathbf{C}$ et sa frontière est contenue dans Sp$_{\omega}(u)$. Cela démontre b).
+Démontrons b). Soit $n\in \overline{\mathbf{Z}}$. L’ensemble Sp$_n(u)$ est contenu dans $\mathbf{C}-$Sp$_{\omega}(u)$. Soit U une composante connexe de $\mathbf{C}-$ Sp$_{\omega}(u)$ qui rencontre Sp$_n(u)$. L’application $\lambda \mapsto$ ind($u-\lambda 1_E$) de $\mathbf{C}-$ Sp$_{\omega}(u)$ dans $\mathbf{Z}$ étant localement constante (cor. 1 de la prop. 12 de III, p. 68 et cor. 1 de la prop. 13 de III, p. 70), l’indice de $u-\lambda 1_E$ est égal à $n$ pour tout $\lambda \in U$. Si $n\not = 0$, cela implique que U est contenu dans Sp$_n(u)$. Si $n= 0$, remarquons que l’ensemble U est une composante connexe de $\mathbf{C}-$ (Sp$_{\omega}(u)\cup$ Sp$_{-\infty}(u)\cup$ Sp$_{+\infty}(u))$. Puisque U rencontre Sp$_0(u)$ et donc Sp$_e(u)$, il résulte alors de la remarque 2 que l’ensemble U est contenu dans Sp$_e(u)$, et par suite dans Sp$_0(u)$. On conclut dans tous les cas que Sp$_n(u)$ est la réunion des composantes connexes de $\mathbf{C}-$ Sp$_{\omega}(u)$ qui rencontrent Sp$_n(u)$. Celles-ci sont nécessairement bornées puisque l’ensemble Sp($u$) est borné. Par suite, Sp$_n(u)$ est ouvert dans $\mathbf{C}$ et sa frontière est contenue dans Sp$_{\omega}(u)$. Cela démontre b).
 
 Supposons finalement que l’ensemble Sp$_{\omega}(u)$ est vide. D’après b), chacun des ensembles Sp$_n(u)$, pour $n\in \mathbf{Z}$, est alors vide. On a donc Sp($u$) $=$ Sp$_s(u)$. Le spectre de $u$ est par conséquent discret et compact, donc fini, et comme tous ses points sont de multiplicité spectrale finie, l’espace vectoriel E est de dimension finie (III, p. 83, prop. 2). Cela termine la démonstration de a).
 
@@ -190,17 +190,17 @@ a) Soit Ω la composante connexe non bornée de $\mathbf{C}-$ Sp$_{\omega}(u)$. 
 
 b) Tout point adhérent à Sp$_s(u)$ qui n’appartient pas à Sp$_s(u)$ appartient à Sp$_{\omega}(u)$.
 
-L’assertion a) est une conséquence directe de l’assertion b) du th. 1. Soit $\lambda$ un point adhérent à Sp$_s(u)$ qui n’appartient pas à Sp$_s(u)$. Il appartient au spectre de $u$, puisque celui-ci est fermé. Il n’appartient à aucun des ensembles Sp$_n(u)$, pour $n\in \mathbf{Z}$, puisque ceux-ci sont ouverts (loc. cit.) et disjoints de Sp$_s(u)$. On a donc $\lambda \in$ Sp$_{\omega}(u)$, d’où b).
+L’assertion a) est une conséquence directe de l’assertion b) du th. 1. Soit $\lambda$ un point adhérent à Sp$_s(u)$ qui n’appartient pas à Sp$_s(u)$. Il appartient au spectre de $u$, puisque celui-ci est fermé. Il n’appartient à aucun des ensembles Sp$_n(u)$, pour $n\in \overline{\mathbf{Z}}$, puisque ceux-ci sont ouverts (loc. cit.) et disjoints de Sp$_s(u)$. On a donc $\lambda \in$ Sp$_{\omega}(u)$, d’où b).
 
 #### Proposition 3 {#ts-iii-s6-prop-3 .statement tag=02UQ}
 
 Soient E et F des espaces normables complets, $u: E\rightarrow F$ et $v: F\rightarrow E$ des applications linéaires continues.
 
-a) Les traces sur $\mathbf{C}-\{0\}$ des ensembles Sp($v\circ u$) et Sp($u\circ v$) $($resp. Sp$_s(v\circ u)$ et Sp$_s(u\circ v)$, resp. Sp$_n(v\circ u)$ et Sp$_n(u\circ v)$ pour $n\in \mathbf{Z}$, resp. Sp$_{\omega}(v\circ u)$ et Sp$_{\omega}(u\circ v))$ sont égales ;
+a) Les traces sur $\mathbf{C}-\{0\}$ des ensembles Sp($v\circ u$) et Sp($u\circ v$) $($resp. Sp$_s(v\circ u)$ et Sp$_s(u\circ v)$, resp. Sp$_n(v\circ u)$ et Sp$_n(u\circ v)$ pour $n\in \overline{\mathbf{Z}}$, resp. Sp$_{\omega}(v\circ u)$ et Sp$_{\omega}(u\circ v))$ sont égales ;
 
 b) Soit $\lambda$ un élément de Sp$_s(v\circ u)$ distinct de 0. Les multiplicités spectrales de $\lambda$ pour $v\circ u$ et pour $u\circ v$ sont égales.
 
-Soit $\mu$ un nombre complexe non nul et soit $n\in \mathbf{Z}$. Pour que $\mu1_E-v\circ u$ soit un automorphisme (resp. un endomorphisme de Riesz, resp. un morphisme strict dont le noyau ou le conoyau est de dimension finie et dont l’indice est $n)$, il faut et il suffit que $\mu1_F-u\circ v$ en soit un (III, p. 49, prop. 10). L’assertion a) résulte alors des définitions.
+Soit $\mu$ un nombre complexe non nul et soit $n\in \overline{\mathbf{Z}}$. Pour que $\mu1_E-v\circ u$ soit un automorphisme (resp. un endomorphisme de Riesz, resp. un morphisme strict dont le noyau ou le conoyau est de dimension finie et dont l’indice est $n)$, il faut et il suffit que $\mu1_F-u\circ v$ en soit un (III, p. 49, prop. 10). L’assertion a) résulte alors des définitions.
 
 Soit $\lambda$ un point de Sp$_s(v\circ u)$ distinct de 0. On a
 
@@ -214,7 +214,7 @@ pour tout $n\geqslant 0 ($loc. cit.), donc les multiplicités spectrales de $\la
 
 Soient E un espace normable complet, $E'$ l’espace dual de E et $u$ un endomorphisme de E.
 
-a) On a Sp$_s(u) =$ Sp$_s(^tu)$, Sp$_n(u) =$ Sp$_{-n}(^tu)$ pour tout $n\in \mathbf{Z}$ et Sp$_{\omega}(u) = Sp_{\omega}(^tu)$;
+a) On a Sp$_s(u) =$ Sp$_s(^tu)$, Sp$_n(u) =$ Sp$_{-n}(^tu)$ pour tout $n\in \overline{\mathbf{Z}}$ et Sp$_{\omega}(u) = Sp_{\omega}(^tu)$;
 
 b) Tout point de Sp$_s(u)$ a même multiplicité spectrale pour $u$ et pour $^tu$.
 
@@ -226,13 +226,13 @@ dim Coker($^t(u-\lambda 1_E)$) $=$ dim Ker($u-\lambda 1_E$)
 
 dim Ker($^t(u-\lambda 1_E)$) $=$ dim Coker($u-\lambda 1_E$)
 
-dans $\mathbf{Z}$. L’assertion a) en résulte, compte tenu des définitions des diverses parties du spectre (déf. 3 de III, p. 85).
+dans $\overline{\mathbf{Z}}$. L’assertion a) en résulte, compte tenu des définitions des diverses parties du spectre (déf. 3 de III, p. 85).
 
 ### 4. Perturbation par un opérateur compact
 
 #### Théorème 2 {#ts-iii-s6-thm-2 .statement tag=02US}
 
-Soient E un espace normable complet, $u$ un endomorphisme de E et $h$ un endomorphisme compact de E. On a Sp$_{\omega}(u+h) =$ Sp$_{\omega}(u)$ et Sp$_n(u+h) =$ Sp$_n(u)$ pour tout $n\in \mathbf{Z}-\{0\}$.
+Soient E un espace normable complet, $u$ un endomorphisme de E et $h$ un endomorphisme compact de E. On a Sp$_{\omega}(u+h) =$ Sp$_{\omega}(u)$ et Sp$_n(u+h) =$ Sp$_n(u)$ pour tout $n\in \overline{\mathbf{Z}}-\{0\}$.
 
 Soit $\lambda \in \mathbf{C}$. Pour que $u+h-\lambda 1_E$ soit un morphisme strict dont le noyau (resp. le conoyau) est de dimension finie, il faut et il suffit que $u-\lambda 1_E$ le soit, d’après le th. 1 de III, p. 72 (resp. le th. 2 de III, p. 73).
 
@@ -264,7 +264,7 @@ Considérons le cas général. En remplaçant X par $X-x$ pour un élément $x\i
 
 Soit $S\subset \mathbf{C}$ un ensemble infini, discret, borné et fermé dans $\mathbf{C}-\{0\}$. Alors S est l’ensemble des valeurs d’une suite $(\lambda_n)_{n\in\mathbf{N}}$ de nombres complexes non nuls, deux à deux distincts, telle que la suite $(|\lambda_n|)_{n\in\mathbf{N}}$ soit décroissante et converge vers 0.
 
-Pour tout entier $i\geqslant 1$, l’ensemble $A_i$ des nombres complexes $\lambda \in S$ tels que $|\lambda |\geqslant^1_i$ est compact et discret dans $\mathbf{C}$, donc fini. Notons $a_i$ son cardinal. Comme S est infini, la suite $(a_i)$ tend vers $+\infty$. Posons $A_0=\emptyset$ et $a_0= 0$. Pour tout $i\geqslant 1$, choisissons une bijection $n\mapsto \lambda_n$ de l’intervalle $[a_{i-1}, a_i[$ de $\mathbf{N}$ sur $A_i-A_{i-1}$ telle que l’application $n\mapsto  |\lambda_n|$ soit décroissante sur $[a_{i-1}, a_i[$. La suite $(\lambda_n)_{n\in\mathbf{N}}$ vérifie les propriétés demandées.
+Pour tout entier $i\geqslant 1$, l’ensemble $A_i$ des nombres complexes $\lambda \in S$ tels que $|\lambda |\geqslant \frac{1}{i}$ est compact et discret dans $\mathbf{C}$, donc fini. Notons $a_i$ son cardinal. Comme S est infini, la suite $(a_i)$ tend vers $+\infty$. Posons $A_0=\emptyset$ et $a_0= 0$. Pour tout $i\geqslant 1$, choisissons une bijection $n\mapsto \lambda_n$ de l’intervalle $[a_{i-1}, a_i[$ de $\mathbf{N}$ sur $A_i-A_{i-1}$ telle que l’application $n\mapsto  |\lambda_n|$ soit décroissante sur $[a_{i-1}, a_i[$. La suite $(\lambda_n)_{n\in\mathbf{N}}$ vérifie les propriétés demandées.
 
 Soit E un espace normable complet de dimension infinie. L’algèbre $\mathscr{L}^c(E)$ est une sous-algèbre non unifère de $\mathscr{L}(E)$. Rappelons que pour tout endomorphisme compact $u\in \mathscr{L}^c$(E), le spectre Sp$'_{\mathscr{L}^c(E)}(u)$ est le spectre de $u$ relativement à la sous-algèbre unifère $\mathscr{L}^c(E)\oplus \mathbf{C}1_E$ de $\mathscr{L}(E) ($I, p. 4, n$^o4$).
 
@@ -338,7 +338,7 @@ Démontrons b). D’après a), il suffit de vérifier que l’indice d’un endo
 
 Soit $u\in \mathscr{L}(E)$. Si $u$ est normal, alors Sp$_0(u)$ est vide, et si $u$ est hermitien, alors Sp$_e(u)$ coïncide avec le spectre de $\pi (u)$ relatif à l’algèbre $\mathscr{C}$alk(E).
 
-Les deux assertions résultent de la proposition et de la définition des ensembles Sp$_n(u)$ pour $n\in \mathbf{Z}$ et de Sp$_{\omega}(u)$, qui forment une partition du spectre essentiel de $u$ (déf. 2 de III, p. 83).
+Les deux assertions résultent de la proposition et de la définition des ensembles Sp$_n(u)$ pour $n\in \overline{\mathbf{Z}}$ et de Sp$_{\omega}(u)$, qui forment une partition du spectre essentiel de $u$ (déf. 2 de III, p. 83).
 
 #### Théorème 3 (Weyl) {#ts-iii-s6-thm-3 .statement tag=02V1}
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 162
 statements: 49
 exercises: 31
-content_sha256: de6699c09534d49f0005c1650b8849b586e897fe27292c8fca56200be42daa8e
+content_sha256: 9d663ff53f021d7258c9ce570b3d6f56ca0683dd0e5c6837055519ff50e9de3e
 ---
 
 ## § 9. RADICAL
@@ -54,7 +54,7 @@ Soit $\mathfrak{a}$ un idéal à gauche de A. Le radical du A-module $A_s/\mathf
 
 #### Exemple 2 {#alg-viii-s9-n1-exa-2 .statement tag=00A3}
 
-Soit A un anneau principal qui n’est pas un corps et soit K son corps des fractions. Comme K-module, K est sans radical. Démontrons que le radical de K, considéré comme A-module, est égal à K, ou, ce qui revient au même, que toute application A-linéaire $f$ de K dans un A-module simple S est nulle. D’après VII, p. 25, on peut supposer S égal à $A/(\pi )$, où $\pi$ est un élément extrémal de A ; pour tout $x\in K$, on a $f(x) =f(\pi_{\pi}^x)=\pi f(^x_{\pi})= 0$ puisque $\pi S = 0$, d’où le résultat.
+Soit A un anneau principal qui n’est pas un corps et soit K son corps des fractions. Comme K-module, K est sans radical. Démontrons que le radical de K, considéré comme A-module, est égal à K, ou, ce qui revient au même, que toute application A-linéaire $f$ de K dans un A-module simple S est nulle. D’après VII, p. 25, on peut supposer S égal à $A/(\pi )$, où $\pi$ est un élément extrémal de A ; pour tout $x\in K$, on a $f(x) =f(\pi \frac{x}{\pi})=\pi f(\frac{x}{\pi})= 0$ puisque $\pi S = 0$, d’où le résultat.
 
 #### Proposition 1 {#alg-viii-s9-prop-1 .statement tag=00A4}
 
@@ -260,15 +260,15 @@ La dernière assertion du théorème se déduit de ce qui précède en prenant N
 
 #### Corollaire 1 {#alg-viii-s9-thm-2-cor-1 .statement tag=00R9}
 
-Conservons les hypothèses du théorème 2. Soit $(x_i)_{i\in I}$ une famille d’éléments de M, et soit $x_i$ l’image canonique de $x_i$ dans $M/\mathfrak{a}M$. Si la famille $(x_i)_{i\in I}$ engendre le $(A/\mathfrak{a})$-module $M/\mathfrak{a}M$, la famille $(x_i)_{i\in I}$ engendre le A-module M.
+Conservons les hypothèses du théorème 2. Soit $(x_i)_{i\in I}$ une famille d’éléments de M, et soit $\overline{x}_i$ l’image canonique de $x_i$ dans $M/\mathfrak{a}M$. Si la famille $(\overline{x_i})_{i\in I}$ engendre le $(A/\mathfrak{a})$-module $M/\mathfrak{a}M$, la famille $(x_i)_{i\in I}$ engendre le A-module M.
 
 Cela résulte du th. 2 appliqué au sous-module N de M engendré par la famille $(x_i)_{i\in I}$.
 
 #### Corollaire 2 {#alg-viii-s9-thm-2-cor-2 .statement tag=00AP}
 
-Conservons les hypothèses du théorème 2. Soient par ailleurs $M'$ un A-module et $u: M'\rightarrow M$un homomorphisme. Si l’homomorphisme $u$ de $M'/\mathfrak{a}M'$ dans $M/\mathfrak{a}M$déduit de $u$ par passage aux quotients est surjectif, l’homomorphisme $u$ est surjectif.
+Conservons les hypothèses du théorème 2. Soient par ailleurs $M'$ un A-module et $u: M'\rightarrow M$un homomorphisme. Si l’homomorphisme $\overline{u}$ de $M'/\mathfrak{a}M'$ dans $M/\mathfrak{a}M$déduit de $u$ par passage aux quotients est surjectif, l’homomorphisme $u$ est surjectif.
 
-Il suffit d’appliquer le th. 2 à l’image N de $u:$ en effet, l’image de $u$ est $(N +\mathfrak{a}M)/\mathfrak{a}M$, donc $u$ est surjectif si et seulement si on a $N +\mathfrak{a}M = M$.
+Il suffit d’appliquer le th. 2 à l’image N de $u:$ en effet, l’image de $\overline{u}$ est $(N +\mathfrak{a}M)/\mathfrak{a}M$, donc $\overline{u}$ est surjectif si et seulement si on a $N +\mathfrak{a}M = M$.
 
 ### 4. Relèvements d’idempotents
 
@@ -280,17 +280,17 @@ Soit $n$ un entier strictement positif tel que $(a-a^2)^n= 0$. Posons P(X) = $1-
 
 #### Proposition 7 {#alg-viii-s9-prop-7 .statement tag=00AR}
 
-Soit $\mathfrak{a}$ un nilidéal bilatère de A et soit $e$ un élément idempotent de l’anneau $A/\mathfrak{a}$. Il existe un élément idempotent $e$ de A dont l’image canonique dans $A/\mathfrak{a}$ est égale à $e$.
+Soit $\mathfrak{a}$ un nilidéal bilatère de A et soit $\overline{e}$ un élément idempotent de l’anneau $A/\mathfrak{a}$. Il existe un élément idempotent $e$ de A dont l’image canonique dans $A/\mathfrak{a}$ est égale à $\overline{e}$.
 
-Soit $a$ un représentant quelconque de $e$ dans A. L’élément $a-a^2$ de A est nilpotent puisqu’il appartient à $\mathfrak{a}$. Choisissons un polynôme $P\in \mathbf{Z}[X]$ satisfaisant aux conditions du lemme 1. On a que $a-P(a)\in A(a-a^2)$ et l’élément $e= P(a)$ de A convient.
+Soit $a$ un représentant quelconque de $\overline{e}$ dans A. L’élément $a-a^2$ de A est nilpotent puisqu’il appartient à $\mathfrak{a}$. Choisissons un polynôme $P\in \mathbf{Z}[X]$ satisfaisant aux conditions du lemme 1. On a que $a-P(a)\in A(a-a^2)$ et l’élément $e= P(a)$ de A convient.
 
-☡ Supposons que $e$ appartienne au centre de l’anneau $A/\mathfrak{a}$. Il n’existe pas nécessairement d’idempotent $e$ dans le centre Z de A, relevant $e$ (VIII, p. 167, exerc. 31) ; cependant, si $e$ appartient à l’image de Z dans $A/\mathfrak{a}$, il se relève en un idempotent de Z puisque $Z\cap \mathfrak{a}$ est un nilidéal de Z.
+☡ Supposons que $\overline{e}$ appartienne au centre de l’anneau $A/\mathfrak{a}$. Il n’existe pas nécessairement d’idempotent $e$ dans le centre Z de A, relevant $e$ (VIII, p. 167, exerc. 31) ; cependant, si $e$ appartient à l’image de Z dans $A/\mathfrak{a}$, il se relève en un idempotent de Z puisque $Z\cap \mathfrak{a}$ est un nilidéal de Z.
 
 #### Corollaire 1 {#alg-viii-s9-prop-7-cor-1 .statement tag=00AS}
 
 Soient M et P des A-modules et $u$ une application A-linéaire surjective de P dans M. On suppose que P est projectif et qu’il existe un idéal bilatère nilpotent $\mathfrak{a}$ de A tel que le noyau N de $u$ soit contenu dans $\mathfrak{a}P$. Soient $M'$ et $M''$ des sous-modules de M, tels que M soit somme directe de $M'$ et $M''$. Alors P est somme directe de sous-modules $P'$ et $P''$ tels que $u(P') = M'$ et $u(P'') = M''$.
 
-Notons B le sous-anneau de End$_A(P)$ formé des endomorphismes $f$ de P tels que $f(N)\subset N$. Soit B l’anneau des endomorphismes de M. Pour tout $f\in B$, notons $f$ l’unique endomorphisme de M tel que $f\circ u=u\circ f$. L’application $f\rightarrow f$ est un homomorphisme d’anneaux de B dans B. Comme le module P est projectif, cet homomorphisme est surjectif ; son noyau $\mathfrak{b}$ se compose des endomorphismes $f\in B$ tels que $f(P)\subset N$. Soit $n$ un entier positif tel que $\mathfrak{a}^n= 0$. On a
+Notons B le sous-anneau de End$_A(P)$ formé des endomorphismes $f$ de P tels que $f(N)\subset N$. Soit B l’anneau des endomorphismes de M. Pour tout $f\in B$, notons $\overline{f}$ l’unique endomorphisme de M tel que $\overline{f}\circ u=u\circ f$. L’application $f\rightarrow \overline{f}$ est un homomorphisme d’anneaux de B dans B. Comme le module P est projectif, cet homomorphisme est surjectif ; son noyau $\mathfrak{b}$ se compose des endomorphismes $f\in B$ tels que $f(P)\subset N$. Soit $n$ un entier positif tel que $\mathfrak{a}^n= 0$. On a
 
 $$
 P =\mathfrak{a}^0P\supset \mathfrak{a}^1P\supset  \cdots  \supset \mathfrak{a}^{n-1}P\supset \mathfrak{a}^nP = 0
@@ -304,7 +304,7 @@ $$
 
 puisque $N\subset \mathfrak{a}P$ par hypothèse. Pour tout entier naturel $j$ et tout $f\in \mathfrak{b}^j$, on a donc $f(P)\subset \mathfrak{a}^jP$. En particulier, on a $\mathfrak{b}^n= 0$.
 
-Soit $\varepsilon '$ le projecteur de M d’image $M'$ et de noyau $M''$. D’après la prop. 7 appliquée à l’anneau B et à l’idéal bilatère nilpotent $\mathfrak{b}$, il existe un élément idempotent $e'$ de B tel que $e'=\varepsilon '$, c’est-à-dire $\varepsilon '\circ u=u\circ e'$. Posons $e''= 1-e',\varepsilon ''=e''$, $P'=e'$(P), $P''=e''(P)$. Alors P est somme directe des sous-modules de $P'$ et $P''$ et l’on a
+Soit $\varepsilon '$ le projecteur de M d’image $M'$ et de noyau $M''$. D’après la prop. 7 appliquée à l’anneau B et à l’idéal bilatère nilpotent $\mathfrak{b}$, il existe un élément idempotent $e'$ de B tel que $\overline{e'}=\varepsilon '$, c’est-à-dire $\varepsilon '\circ u=u\circ e'$. Posons $e''= 1-e',\varepsilon ''=\overline{e''}$, $P'=e'$(P), $P''=e''(P)$. Alors P est somme directe des sous-modules de $P'$ et $P''$ et l’on a
 
 $$
 u(P') =u(e'(P)) =\varepsilon '(u(P)) =\varepsilon '(M) = M'
@@ -316,7 +316,7 @@ l’égalité $u(P'') = M''$ se démontre de manière analogue.
 
 Soit A un anneau et soit $\mathfrak{a}$ un idéal bilatère nilpotent de A. Si P est un A-module projectif, alors $P/\mathfrak{a}P$est un module projectif sur $A/\mathfrak{a}$ et pour que le A-module P soit indécomposable il faut et il suffit que le $A/\mathfrak{a}$-module $P/\mathfrak{a}P$le soit.
 
-Soit P un A-module projectif et soit P le $A/\mathfrak{a}$-module $P/\mathfrak{a}P$. Le A-module P est nul si et seulement si P l’est (th. 2 de VIII, p. 154). On suppose maintenant $P\not= 0$. Comme le $A/\mathfrak{a}$-module P est isomorphe à $A\otimes_AP$, il est projectif (II, p. 84, cor.). Si P est indécomposable, il en est de même de P d’après le cor. 1. Inversement, supposons que P soit décomposable et non nul, et soient $P'$ et $P''$ deux sous-modules non nuls de P tels que $P = P'\oplus P''$. D’après le lemme de Nakayama (VIII, p. 154, th. 2), on a $P'+\mathfrak{a}P\not= P$ et $P''+\mathfrak{a}P\not= P$; si $P'$ et $P''$ sont les images canoniques de $P'$ et $P''$ dans P, on a $P'\not= P, P''\not= P$ et $P = P'\oplus P''$. Cela prouve que P est décomposable.
+Soit P un A-module projectif et soit P le $A/\mathfrak{a}$-module $P/\mathfrak{a}P$. Le A-module P est nul si et seulement si P l’est (th. 2 de VIII, p. 154). On suppose maintenant $P\not= 0$. Comme le $A/\mathfrak{a}$-module P est isomorphe à $A\otimes_AP$, il est projectif (II, p. 84, cor.). Si P est indécomposable, il en est de même de P d’après le cor. 1. Inversement, supposons que P soit décomposable et non nul, et soient $P'$ et $P''$ deux sous-modules non nuls de P tels que $P = P'\oplus P''$. D’après le lemme de Nakayama (VIII, p. 154, th. 2), on a $P'+\mathfrak{a}P\not= P$ et $P''+\mathfrak{a}P\not= P$; si $P'$ et $P''$ sont les images canoniques de $P'$ et $P''$ dans P, on a $P'\not= P, P''\not= P$ et $P = P'\oplus \overline{P}''$. Cela prouve que P est décomposable.
 
 ### 5. Couverture projective d’un module
 
@@ -358,9 +358,9 @@ Soit $(P, u)$une couverture projective du A-module M. Si Q est un A-module proje
 
 #### Proposition 9 {#alg-viii-s9-prop-9 .statement tag=00B0}
 
-Soient M un A-module et $(P, u)$une couverture projective de M. Notons $\mathfrak{r}$ le radical de l’anneau A. L’homomorphisme $u: P/\mathfrak{r}P\rightarrow M/\mathfrak{r}M$déduit de $u$ par passage aux quotients est un isomorphisme.
+Soient M un A-module et $(P, u)$une couverture projective de M. Notons $\mathfrak{r}$ le radical de l’anneau A. L’homomorphisme $\overline{u}: P/\mathfrak{r}P\rightarrow M/\mathfrak{r}M$déduit de $u$ par passage aux quotients est un isomorphisme.
 
-L’homomorphisme $u$ est surjectif par définition, donc $u$ est surjectif. Notons N le noyau de $u$. On a $u^{-1}(\mathfrak{r}M) = N+\mathfrak{r}P$. Démontrons que l’on a $N\subset \mathfrak{r}P$, ce qui entraînera l’injectivité de $u$. Pour tout sous-module maximal $P'$ de P, on a $u(P')\not= M$, d’où $P'+ N\not= P$; comme $P'$ est maximal, on a $N\subset P'$. Le sous-module N de P est donc contenu dans le radical de P ; or celui-ci est égal à $\mathfrak{r}P$ d’après la prop. 6 de VIII, p. 154.
+L’homomorphisme $u$ est surjectif par définition, donc $\overline{u}$ est surjectif. Notons N le noyau de $u$. On a $u^{-1}(\mathfrak{r}M) = N+\mathfrak{r}P$. Démontrons que l’on a $N\subset \mathfrak{r}P$, ce qui entraînera l’injectivité de $\overline{u}$. Pour tout sous-module maximal $P'$ de P, on a $u(P')\not= M$, d’où $P'+ N\not= P$; comme $P'$ est maximal, on a $N\subset P'$. Le sous-module N de P est donc contenu dans le radical de P ; or celui-ci est égal à $\mathfrak{r}P$ d’après la prop. 6 de VIII, p. 154.
 
 #### Corollaire {#alg-viii-s9-n5-cor-1 .statement tag=00B1}
 
@@ -382,7 +382,7 @@ On peut donner un exemple d’un anneau commutatif A pour lequel $A/\mathfrak{r}
 
 #### Proposition 10 {#alg-viii-s9-prop-10 .statement tag=00B4}
 
-Soient M un A-module, P un A-module projectif et $u: P\rightarrow M$ une application linéaire. Soit $\mathfrak{a}$ un idéal bilatère de A . On suppose que l’application linéaire $u: P/\mathfrak{a}P\rightarrow M/\mathfrak{a}M$déduite de $u$ par passage aux quotients est bijective et que l’une des deux hypothèses suivantes est satisfaite :
+Soient M un A-module, P un A-module projectif et $u: P\rightarrow M$ une application linéaire. Soit $\mathfrak{a}$ un idéal bilatère de A . On suppose que l’application linéaire $\overline{u}: P/\mathfrak{a}P\rightarrow M/\mathfrak{a}M$déduite de $u$ par passage aux quotients est bijective et que l’une des deux hypothèses suivantes est satisfaite :
 
 (i) Les A-modules M et P sont de type fini et $\mathfrak{a}$ est contenu dans le radical de A ;
 
@@ -408,7 +408,7 @@ Alors M possède une couverture projective.
 
 Plus précisément, soient P un A-module libre, $(e_i)_{i\in I}$ une base de P et $u: P\rightarrow M$ un homomorphisme tel que les images canoniques des éléments $u(e_i)$dans $M/\mathfrak{a}M$ forment une base du $(A/\mathfrak{a})$-module $M/\mathfrak{a}M$. Alors $(P, u)$est une couverture projective de M.
 
-En effet, le $(A/\mathfrak{a}$)-module $P/\mathfrak{a}P$ est libre et l’homomorphisme $u$ de $P/\mathfrak{a}P$ dans $M/\mathfrak{a}M$ déduit de $u$ par passage aux quotients transforme une base de $P/\mathfrak{a}P$ en une base de $M/\mathfrak{a}M$, donc est bijectif.
+En effet, le $(A/\mathfrak{a}$)-module $P/\mathfrak{a}P$ est libre et l’homomorphisme $\overline{u}$ de $P/\mathfrak{a}P$ dans $M/\mathfrak{a}M$ déduit de $u$ par passage aux quotients transforme une base de $P/\mathfrak{a}P$ en une base de $M/\mathfrak{a}M$, donc est bijectif.
 
 Si $\mathfrak{a}$ est nilpotent, il suffit alors d’appliquer la prop. 10. Supposons maintenant que l’anneau A est non nul et que le A-module M est de type fini ; il en est alors de même du $(A/\mathfrak{a}$)-module $M/\mathfrak{a}M$, et par conséquent du $(A/\mathfrak{a}$)-module $P/\mathfrak{a}P$. Toute base de $P/\mathfrak{a}P$ est alors finie. Il en résulte que l’ensemble I est fini et que le A-module P est de type fini. On applique alors à nouveau la prop. 10.
 
@@ -420,13 +420,13 @@ Soient A un anneau local et $\mathfrak{r}$ son radical. C’est un idéal bilat�
 
 #### Remarque 5 {#alg-viii-s9-n5-rem-5 .statement tag=00B8}
 
-Soient A un anneau local et $\mathfrak{r}$ son radical. Soient M un A-module de type fini, P un A-module projectif de type fini et $u: P\rightarrow M$ un homomorphisme. D’après le cor. 6 de VIII, p. 33, le A-module P est libre. Choisissons-en une base $(e_i)_{i\in I}$. Posons $x_i=u(e_i)$ et notons $x_i$ l’image canonique de $x_i$ dans $M/\mathfrak{r}M$. Les conditions suivantes sont équivalentes :
+Soient A un anneau local et $\mathfrak{r}$ son radical. Soient M un A-module de type fini, P un A-module projectif de type fini et $u: P\rightarrow M$ un homomorphisme. D’après le cor. 6 de VIII, p. 33, le A-module P est libre. Choisissons-en une base $(e_i)_{i\in I}$. Posons $x_i=u(e_i)$ et notons $\overline{x_i}$ l’image canonique de $x_i$ dans $M/\mathfrak{r}M$. Les conditions suivantes sont équivalentes :
 
 (i) Le couple $(P, u)$ est une couverture projective de M ;
 
 (ii) La famille $(x_i)_{i\in I}$ est une famille génératrice minimale du A-module M ;
 
-(iii) La famille $(x_i)_{i\in I}$ est une base de l’espace vectoriel $M/\mathfrak{r}M$ sur le corps $A/\mathfrak{r}$. On a en effet (i) $=\Rightarrow$ (ii) d’après la remarque 2 de VIII, p. 157 et (iii) $=\Rightarrow$ (i) d’après le cor. 2. Par ailleurs, si la famille $(x_i)$ est une famille génératrice minimale du A-module M, la famille $(x_i)$ est une famille génératrice minimale, c’est-à-dire une base, de l’espace vectoriel $M/\mathfrak{r}M$ sur $A/\mathfrak{r}$ (VIII, p. 154, cor. 1).
+(iii) La famille $(\overline{x}_i)_{i\in I}$ est une base de l’espace vectoriel $M/\mathfrak{r}M$ sur le corps $A/\mathfrak{r}$. On a en effet (i) $=\Rightarrow$ (ii) d’après la remarque 2 de VIII, p. 157 et (iii) $=\Rightarrow$ (i) d’après le cor. 2. Par ailleurs, si la famille $(x_i)$ est une famille génératrice minimale du A-module M, la famille $(\overline{x}_i)$ est une famille génératrice minimale, c’est-à-dire une base, de l’espace vectoriel $M/\mathfrak{r}M$ sur $A/\mathfrak{r}$ (VIII, p. 154, cor. 1).
 
 #### Proposition 11 {#alg-viii-s9-prop-11 .statement tag=00B9}
 

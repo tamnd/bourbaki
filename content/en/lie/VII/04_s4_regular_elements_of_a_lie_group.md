@@ -29,7 +29,7 @@ subsections:
       pdf_page: 44
 statements: 18
 exercises: 4
-content_sha256: de75598523978ecc9f188180f4a190e826399bbea35166d0a49ab25c1bd638ee
+content_sha256: 426cd8bc5c4247aa68e2e65051c35dbbd392429d869dbcad0cb8d00a37bd2e97
 ---
 
 ## § 4. REGULAR ELEMENTS OF A LIE GROUP
@@ -174,11 +174,11 @@ Let V be an open subgroup of $\mathfrak{g}$ and let exp$: V\rightarrow G$ be an 
 
 (ii) If $k=\mathbf{R}$ or $\mathbf{C},\mathfrak{g}^1$(exp $x)\supset \mathfrak{g}^0(x)$ for all $x\in \mathfrak{g}$.
 
-By Cor. 3 of Prop. 8 of Chap. III, §4, no. 4, there exists a neighbourhood $V'$ of 0 in V such that, for all $x\in V'$, exp(ad($x$)) $=\sum_n^{\infty}_{=0n}^1_!$ ad($x$)$^n$ is defined and Ad(exp $x) =$ exp(ad($x$)). If $P\in k[X]$ and $\alpha \in$ End($\mathfrak{g}$), it is easy to check that $\mathfrak{g}^{\lambda}(\alpha )\subset \mathfrak{g}^{P(\lambda)}(P(\alpha ))$ for all $\lambda \in k$. Consequently,
+By Cor. 3 of Prop. 8 of Chap. III, §4, no. 4, there exists a neighbourhood $V'$ of 0 in V such that, for all $x\in V'$, exp(ad($x$)) $=\sum_{n=0}^{\infty}\frac{1}{n!}$ ad($x$)$^n$ is defined and Ad(exp $x) =$ exp(ad($x$)). If $P\in k[X]$ and $\alpha \in$ End($\mathfrak{g}$), it is easy to check that $\mathfrak{g}^{\lambda}(\alpha )\subset \mathfrak{g}^{P(\lambda)}(P(\alpha ))$ for all $\lambda \in k$. Consequently,
 
 $\mathfrak{g}^0$(ad($x$))$\subset \mathfrak{g}^1$(exp(ad($x$))) $=\mathfrak{g}^1$(Ad(exp $x)) =\mathfrak{g}^1$(exp $x)$
 
-for all $x\in V'$. If $k=\mathbf{R}$ or $\mathbf{C}, V =\mathfrak{g}$ and we can take $V'$ = V, which proves (ii). We prove (i). Let U be a neighbourhood of 0 in End($\mathfrak{g}$) such that Log(1 $+\alpha ) =\sum_{n>0}(-1)^{n+1 1}_n\alpha^n$ is defined for all $\alpha \in U$. Then Log $\circ$ exp = 1 on a neighbourhood of 0 and $\mathfrak{g}^1(1 +\alpha )\subset \mathfrak{g}^0$(Log(1 $+\alpha ))$ for all $\alpha \in U$. Let W be the neighbourhood of 0 in $\mathfrak{g}$ consisting of those $x\in V'$ such that exp ad $x\in 1 + U$ and
+for all $x\in V'$. If $k=\mathbf{R}$ or $\mathbf{C}, V =\mathfrak{g}$ and we can take $V'$ = V, which proves (ii). We prove (i). Let U be a neighbourhood of 0 in End($\mathfrak{g}$) such that Log(1 $+\alpha ) =\sum_{n>0}(-1)^{n+1 1}_{\overline{n}}\alpha^n$ is defined for all $\alpha \in U$. Then Log $\circ$ exp = 1 on a neighbourhood of 0 and $\mathfrak{g}^1(1 +\alpha )\subset \mathfrak{g}^0$(Log(1 $+\alpha ))$ for all $\alpha \in U$. Let W be the neighbourhood of 0 in $\mathfrak{g}$ consisting of those $x\in V'$ such that exp ad $x\in 1 + U$ and
 
 Log(exp(ad($x$))) $=$ ad($x$).
 

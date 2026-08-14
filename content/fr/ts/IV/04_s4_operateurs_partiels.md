@@ -53,7 +53,7 @@ subsections:
       pdf_page: 268
 statements: 74
 exercises: 24
-content_sha256: 2053858227921263d79b997bb9fc40d5d8ac540e030216d9159e3bc5f871129c
+content_sha256: aa7bd9d6ea17ccdcc1628de483acbb706e54bcaa40fc4ae4921eb82865ae0758
 ---
 
 ## § 4. OPÉRATEURS PARTIELS
@@ -154,13 +154,13 @@ La dernière assertion résulte du fait que si $w$ est une extension fermée de 
 
 #### Définition 3 {#ts-iv-s4-def-3 .statement tag=032N}
 
-Soient E et F des espaces vectoriels topologiques sur K. Soit $u$ un opérateur fermable de E dans F. L’opérateur fermé dont le graphe est $\Gamma_u$ est appelé la fermeture de $u$. Il est noté $u$.
+Soient E et F des espaces vectoriels topologiques sur K. Soit $u$ un opérateur fermable de E dans F. L’opérateur fermé dont le graphe est $\Gamma_u$ est appelé la fermeture de $u$. Il est noté $\overline{u}$.
 
 #### Remarque {#ts-iv-s4-n2-rem-1 .statement tag=032O}
 
 Soient E et F des espaces vectoriels topologiques sur K. Soit $u$ un opérateur fermable de E dans F. Le domaine de la fermeture de $u$ est contenu dans l’adhérence du domaine de $u$ dans E. En général, il en est distinct (exercice 1 de IV, p. 344, b)).
 
-Si $u\in \mathscr{P}(E; F)$ est fermable et dom($u$) $= E$, alors $u=u$ est fermé, puisqu’alors dom($u$) $=$ dom($u$).
+Si $u\in \mathscr{P}(E; F)$ est fermable et dom($u$) $= E$, alors $u=\overline{u}$ est fermé, puisqu’alors dom($\overline{u}$) $=$ dom($u$).
 
 #### Proposition 2 {#ts-iv-s4-prop-2 .statement tag=032P}
 
@@ -184,7 +184,7 @@ Démontrons a). Soit $\gamma$ l’application $(x, y)\mapsto (x, y-v(x))$ de $E\
 
 Démontrons b). L’application $\eta = (v,1_F)$ de $G\times F$ dans $E\times F$ est continue ; pour tout $(z, y)\in G\times F$, on a $\eta (z, y) = (v(z), y)$, donc $\overset{-1}{\eta}(\Gamma_u) = \Gamma_{u\circ v}$. L’assertion en résulte.
 
-Soient E et F des espaces vectoriels topologiques sur K, l’espace F étant séparé. Soit $a\in K$. Si $u\in \mathscr{P}(E; F)$ est fermable, alors il en est de même de $au$. Si $a\not = 0$, on a $au=au$, et $u$ est fermé si et seulement si $au$ l’est. Si $a= 0$, la fermeture de $au$ est $0_{dom(u)}$, et $au$ est égal à $0_{dom(u)}$; il se peut donc que $u$ soit fermé mais que $au$ ne le soit pas.
+Soient E et F des espaces vectoriels topologiques sur K, l’espace F étant séparé. Soit $a\in K$. Si $u\in \mathscr{P}(E; F)$ est fermable, alors il en est de même de $au$. Si $a\not = 0$, on a $\overline{au}=au$, et $u$ est fermé si et seulement si $au$ l’est. Si $a= 0$, la fermeture de $au$ est $0_{\overline{dom(u)}}$, et $au$ est égal à $0_{dom(\overline{u})}$; il se peut donc que $u$ soit fermé mais que $au$ ne le soit pas.
 
 #### Proposition 3 {#ts-iv-s4-prop-3 .statement tag=032R}
 
@@ -402,17 +402,17 @@ Démontrons l’assertion c). Si $y$ est orthogonal à l’image de $u$, la form
 
 #### Proposition 8 {#ts-iv-s4-prop-8 .statement tag=0335}
 
-Soit $u$ un opérateur à domaine dense de E dans F. Alors $u^*$ est à domaine dense si et seulement si $u$ est fermable. Lorsque c’est le cas, la fermeture $u$ de $u$ est égale à $u^{**}$, et l’adjoint de $u$ est égal à $u^*$.
+Soit $u$ un opérateur à domaine dense de E dans F. Alors $u^*$ est à domaine dense si et seulement si $u$ est fermable. Lorsque c’est le cas, la fermeture $\overline{u}$ de $u$ est égale à $u^{**}$, et l’adjoint de $\overline{u}$ est égal à $u^*$.
 
 D’après la prop. 7, l’opérateur partiel $u^*$ est fermé. Supposons que le domaine $D^*$ de $u^*$ est dense dans F. Soit $u^{**}$ l’adjoint de $u^*$; c’est un opérateur partiel fermé de E dans F. Démontrons que $u\subset u^{**}$, ce qui impliquera que $u$ est fermable. Soit $x\in$ dom($u$). Par définition de $u^*$, les formes linéaires sur $D^*$ données par $y\mapsto  \langle x|u^*(y)\rangle$ et $y\mapsto  \langle u(x)|y\rangle$ sont égales ; on a donc $x\in$ dom($u^{**}$) et $u^{**}(x) =u(x)$, d’où l’assertion.
 
-Réciproquement, supposons que $u$ est fermable ; on a $\Gamma_u= \Gamma_u$ (prop. 1 de IV, p. 228). Soit $y\in F$ un vecteur orthogonal à dom($u^*$). L’élément $(y,0)$ de $F\oplus E$ appartient alors à l’orthogonal du graphe de $u^*$. Or, d’après la prop. 7, a), on a
+Réciproquement, supposons que $u$ est fermable ; on a $\Gamma_{\overline{u}}= \Gamma_u$ (prop. 1 de IV, p. 228). Soit $y\in F$ un vecteur orthogonal à dom($u^*$). L’élément $(y,0)$ de $F\oplus E$ appartient alors à l’orthogonal du graphe de $u^*$. Or, d’après la prop. 7, a), on a
 
 $$
 \Gamma^{\circ}_{u^*}= (s(\Gamma_u)^{\circ})^{\circ}=s(\Gamma_u) =s(\Gamma_u)
 $$
 
-Il vient donc $(0, y)\in \Gamma_u$, d’où $y=u(0) = 0$. L’orthogonal de dom($u^*$) étant réduit à 0, l’espace dom($u^*$) est dense dans F.
+Il vient donc $(0, y)\in \Gamma_{\overline{u}}$, d’où $y=\overline{u}(0) = 0$. L’orthogonal de dom($u^*$) étant réduit à 0, l’espace dom($u^*$) est dense dans F.
 
 Finalement, la prop. 7, appliquée à $u^*$, implique que
 
@@ -420,7 +420,7 @@ $$
 \Gamma_{u^{**}}=s^{-1}(\Gamma^{\circ}_{u^*}) =s^{-1}(s(\Gamma^{\circ \circ}_u)) = \Gamma_u
 $$
 
-donc $u^{**}=u$, puis $u^*= (u^*)^{**}=u^*=u^*$ comme $u^*$ est fermé.
+donc $u^{**}=\overline{u}$, puis $\overline{u}^*= (u^*)^{**}=\overline{u^*}=u^*$ comme $u^*$ est fermé.
 
 #### Corollaire {#ts-iv-s4-n4-cor-1 .statement tag=0336}
 
@@ -428,7 +428,7 @@ Si $u$ est un opérateur partiel fermé à domaine dense de E dans F, alors $u^*
 
 #### Définition 7 {#ts-iv-s4-def-7 .statement tag=0337}
 
-Soit $u$ un opérateur partiel sur E. On dit que $u$ est symétrique si $u$ est à domaine dense et si $u^*$ est une extension de $u$. On dit que $u$ est auto-adjoint si $u$ est à domaine dense et $u^*=u$. On dit que $u$ est essentiellement auto-adjoint s’il est fermable et si la fermeture $u$ de $u$ est auto-adjointe.
+Soit $u$ un opérateur partiel sur E. On dit que $u$ est symétrique si $u$ est à domaine dense et si $u^*$ est une extension de $u$. On dit que $u$ est auto-adjoint si $u$ est à domaine dense et $u^*=u$. On dit que $u$ est essentiellement auto-adjoint s’il est fermable et si la fermeture $\overline{u}$ de $u$ est auto-adjointe.
 
 On dit que $u$ est un opérateur partiel minoré si $u$ est symétrique et s’il existe un nombre réel $c$ tel que $\langle x|u(x)\rangle \geqslant c\|x\|^2$ pour tout $x$ appartenant au domaine de $u$. On dit alors que $c$ est un minorant de $u$. Si $c= 0$, on dit aussi que $u$ est un opérateur partiel positif.
 
@@ -452,7 +452,7 @@ Un opérateur partiel auto-adjoint $u$ est essentiellement auto-adjoint (cf. pro
 
 #### Remarque 3 {#ts-iv-s4-n4-rem-3 .statement tag=033A}
 
-Soit $u$ un opérateur partiel symétrique sur E. L’opérateur $u$ est fermable (prop. 7, b)). Il vérifie dom($u$)$\subset$ dom($u^*$), et $u$ est auto-adjoint si et seulement si dom($u$) $=$ dom($u^*$). De plus, la fermeture $u$ de $u$ est symétrique puisque $u\subset u^*=u^*$ (prop. 8).
+Soit $u$ un opérateur partiel symétrique sur E. L’opérateur $u$ est fermable (prop. 7, b)). Il vérifie dom($u$)$\subset$ dom($u^*$), et $u$ est auto-adjoint si et seulement si dom($u$) $=$ dom($u^*$). De plus, la fermeture $\overline{u}$ de $u$ est symétrique puisque $\overline{u}\subset u^*=\overline{u}^*$ (prop. 8).
 
 #### Remarque 4 {#ts-iv-s4-n4-rem-4 .statement tag=033B}
 
@@ -464,7 +464,7 @@ Soient $u$ et $v$ des opérateurs partiels symétriques sur E. Si $u$ est auto-a
 
 #### Remarque 6 {#ts-iv-s4-n4-rem-6 .statement tag=033D}
 
-Un opérateur partiel essentiellement auto-adjoint $u$ est symétrique, puisque $u\subset u$ implique $u=u^*\subset u^*$, donc $u\subset u^*$.
+Un opérateur partiel essentiellement auto-adjoint $u$ est symétrique, puisque $u\subset \overline{u}$ implique $\overline{u}=\overline{u}^*\subset u^*$, donc $u\subset u^*$.
 
 #### Remarque 7 {#ts-iv-s4-n4-rem-7 .statement tag=033E}
 
@@ -533,11 +533,11 @@ Soit $u$ un opérateur partiel symétrique sur E et soit $\lambda \in \mathbf{C}
 Il suffit de démontrer que dom($u^*$)$\subset$ dom($u$). Soit $x\in$ dom($u^*$). Il existe par hypothèse $y\in$ dom($u$) tel que $u(y) +\lambda y=u^*(x) +\lambda x$. Démontrons que $y=x$. Pour tout $z\in$ dom($u$), il vient
 
 $$
-\langle (u+\lambda 1_E)(z)|x\rangle =\langle z|(u^*+\lambda 1_E)(x)\rangle
+\langle (u+\lambda 1_E)(z)|x\rangle =\langle z|(u^*+\overline{\lambda}1_E)(x)\rangle
 $$
 
 $$
-=\langle z|(u+\lambda 1_E)(y)\rangle =\langle (u+\lambda 1_E)(z)|y\rangle
+=\langle z|(u+\overline{\lambda}1_E)(y)\rangle =\langle (u+\lambda 1_E)(z)|y\rangle
 $$
 
 puisque $u$ est symétrique. Comme l’opérateur $u+\lambda 1_E$ est surjectif, on a bien $y=x$, donc $x\in$ dom($u$).
@@ -599,7 +599,7 @@ Soient $k\in \mathbf{N}$ et $h\in \mathbf{N}$ tels que $h\geqslant k$. Soit D un
 Soit $^tD$ l’opérateur différentiel scalaire sur U transposé de D (VAR, R2, 14.3.2) ; il est d’ordre $\leqslant k$ et de classe $C^{h-k}$; pour $\varphi \in \mathscr{D}$(U), on a
 
 $$
-^tD(\varphi ) =\sum_{|\alpha|\leqslant k}(-1)^{|\alpha|}\partial^{\alpha}(n_{\alpha}\varphi )
+^tD(\varphi ) =\sum_{|\alpha|\leqslant k}(-1)^{|\alpha|}\partial^{\alpha}(\overline{n}_{\alpha}\varphi )
 $$
 
 (loc. cit.) ; en particulier, les coefficients de $^tD$ sont bornés sur U.
@@ -633,7 +633,7 @@ $$
 $$
 
 $$
-=\sum_{|\alpha|\leqslant k}(-1)^{|\alpha|}\langle \partial^{\alpha}(n_{\alpha}\varphi )|\psi \rangle =\langle^tD(\varphi )|\psi \rangle
+=\sum_{|\alpha|\leqslant k}(-1)^{|\alpha|}\langle \partial^{\alpha}(\overline{n}_{\alpha}\varphi )|\psi \rangle =\langle^tD(\varphi )|\psi \rangle
 $$
 
 (cf. VAR, R2, 14.3.8). Puisque $\mathscr{D}(U)$ est dense dans $L^2(U)$ (prop. 4 de IV, p. 202), cela implique que $\varphi \in$ dom($u^*$) et $u^*(\varphi ) =^tD(\varphi )$. On a donc $(^tD)_-\subset u^*$; en particulier, $u^*$ est à domaine dense et $u$ est fermable (prop. 8 de IV, p. 237).
@@ -641,17 +641,17 @@ $$
 Soient $f\in$ dom($u^*$) et $\varphi \in \mathscr{D}(U)$. Puisque $\mathscr{D}(U)\subset$ dom($u$), la distribution associée à $u^*(f)$ vérifie
 
 $$
-\langle u^*(f), \varphi \rangle =\langle \varphi |u^*(f)\rangle =\langle u(\varphi )|f\rangle
+\langle u^*(f), \varphi \rangle =\langle \overline{\varphi}|u^*(f)\rangle =\langle u(\overline{\varphi})|f\rangle
 $$
 
-Comme $D_-\subset u$, on calcule $u(\varphi )$ par la formule (5), d’où
+Comme $D_-\subset u$, on calcule $u(\overline{\varphi})$ par la formule (5), d’où
 
 $$
-\langle u^*(f), \varphi \rangle =\sum_{\alpha}\langle n_{\alpha}\partial^{\alpha}\varphi |f\rangle =\sum_{\alpha}\langle \partial^{\alpha}\varphi |n_{\alpha}f\rangle
+\langle u^*(f), \varphi \rangle =\sum_{\alpha}\langle n_{\alpha}\partial^{\alpha}\overline{\varphi}|f\rangle =\sum_{\alpha}\langle \partial^{\alpha}\overline{\varphi}|\overline{n}_{\alpha}f\rangle
 $$
 
 $$
-=\sum_{\alpha}\langle n_{\alpha}f, \partial^{\alpha}\varphi \rangle =\sum_{\alpha}(-1)^{|\alpha|}\langle \partial^{\alpha}(n_{\alpha}f), \varphi \rangle =\langle^tD(f), \varphi \rangle
+=\sum_{\alpha}\langle \overline{n}_{\alpha}f, \partial^{\alpha}\varphi \rangle =\sum_{\alpha}(-1)^{|\alpha|}\langle \partial^{\alpha}(\overline{n}_{\alpha}f), \varphi \rangle =\langle^tD(f), \varphi \rangle
 $$
 
 Les distributions $u^*(f)$ et $^tD(f)$ sont donc égales ; la distribution $f$ appartient donc à $H_{_tD}$ et $u^*(f) =^tD(f)$, d’où $u^*\subset (^tD)_+$.
@@ -839,10 +839,10 @@ Soit $u$ un opérateur fermé à domaine dense sur un espace hilbertien complexe
 Soit $\lambda \in \mathbf{C}-$ Sp($u$) un élément de l’ensemble résolvant de $u$. On a $u=\lambda 1_E-R(u, \lambda )^{-1}$, donc
 
 $$
-u^*=\lambda 1_E-(R(u, \lambda )^{-1})^*=\lambda 1_E-(R(u, \lambda )^*)^{-1}
+u^*=\overline{\lambda}1_E-(R(u, \lambda )^{-1})^*=\overline{\lambda}1_E-(R(u, \lambda )^*)^{-1}
 $$
 
-(IV, p. 236 et prop. 9 de IV, p. 239). D’après la remarque 5, on en déduit que $\lambda \in \mathbf{C}-$ Sp($u^*$) et que $R(u, \lambda )^*= R(u^*, \lambda )$. Par conséquent, le spectre de $u^*$ est contenu dans l’image de Sp($u$) par la conjugaison complexe. On obtient l’égalité en appliquant cette propriété à $u^*$, puisque $u^{**}=u$ (cor. de la prop. 8 de IV, p. 237). La dernière assertion résulte alors de la formule (9), p. 245.
+(IV, p. 236 et prop. 9 de IV, p. 239). D’après la remarque 5, on en déduit que $\overline{\lambda}\in \mathbf{C}-$ Sp($u^*$) et que $R(u, \lambda )^*= R(u^*, \lambda )$. Par conséquent, le spectre de $u^*$ est contenu dans l’image de Sp($u$) par la conjugaison complexe. On obtient l’égalité en appliquant cette propriété à $u^*$, puisque $u^{**}=u$ (cor. de la prop. 8 de IV, p. 237). La dernière assertion résulte alors de la formule (9), p. 245.
 
 #### Corollaire {#ts-iv-s4-n7-cor-1 .statement tag=033U}
 
@@ -860,7 +860,7 @@ Soit E un espace hilbertien complexe et soit $u$ un opérateur partiel fermé à
 
 Alors $\lambda$ appartient à l’ensemble résolvant de $u$ et $\|R(u, \lambda )\|\leqslant c^{-1}$.
 
-L’hypothèse implique que $u-\lambda 1_E$ et $u^*-\lambda 1_E$ sont injectifs. Soit F l’image de $u-\lambda 1_E$. L’espace F est dense dans E, puisque son orthogonal est égal à Ker($u^*-\lambda 1_E$) (prop. 7, c) de IV, p. 236), qui est nul.
+L’hypothèse implique que $u-\lambda 1_E$ et $u^*-\overline{\lambda}1_E$ sont injectifs. Soit F l’image de $u-\lambda 1_E$. L’espace F est dense dans E, puisque son orthogonal est égal à Ker($u^*-\overline{\lambda}1_E$) (prop. 7, c) de IV, p. 236), qui est nul.
 
 Démontrons que l’espace F est fermé. Soit $(x_n)_{n\in\mathbf{N}}$ une suite dans dom($u$) telle que la suite $(u(x_n)-\lambda x_n)_{n\in\mathbf{N}}$ converge vers $y\in F$. L’inégalité (10) implique que la suite $(x_n)_{n\in\mathbf{N}}$ est une suite de Cauchy dans E. Soit $x\in E$ sa limite. La suite $(x_n, u(x_n))$ converge vers $(x, y+\lambda x)$ dans $E\times E$; puisque le graphe de $u$ est fermé, on a donc $x\in$ dom($u$) et $u(x) =y+\lambda x$, ce qui démontre que $y\in F$.
 
@@ -942,7 +942,7 @@ d’où $\langle x|y\rangle = 0$.
 
 #### Remarque {#ts-iv-s4-n7-rem-2 .statement tag=033Y}
 
-Si $u$ est un opérateur symétrique fermé non auto-adjoint, son spectre n’est pas contenu dans $\mathbf{R}($cf. cor. 10 de IV, p. 257 ci-dessous), et il est possible que les espaces propres de $u$ relatifs à $\lambda$ et $\lambda$ ne soient pas orthogonaux (exercice 11 de IV, p. 347).
+Si $u$ est un opérateur symétrique fermé non auto-adjoint, son spectre n’est pas contenu dans $\mathbf{R}($cf. cor. 10 de IV, p. 257 ci-dessous), et il est possible que les espaces propres de $u$ relatifs à $\lambda$ et $\overline{\lambda}$ ne soient pas orthogonaux (exercice 11 de IV, p. 347).
 
 ### 8. Pseudo-spectre
 
@@ -1042,25 +1042,25 @@ Au vu du choix de M, cela signifie que $\varphi$ est nulle $\mu$-presque partout
 
 #### Proposition 23 {#ts-iv-s4-prop-23 .statement tag=0346}
 
-Soit $g$ une fonction $\mu$-mesurable sur X. L’adjoint de l’opérateur de multiplication $m_g$ est $m_g$.
+Soit $g$ une fonction $\mu$-mesurable sur X. L’adjoint de l’opérateur de multiplication $m_g$ est $m_{\overline{g}}$.
 
 Pour tout entier $n\geqslant$ 1, soit $\varphi_n$ la fonction caractéristique de l’ensemble des éléments $x\in$ X tels que $|g(x)|\leqslant n$, et soit $\widetilde{\varphi}_n$ sa classe dans $L^2(X, \mu)$. Soient $f\in \mathscr{L}^2(X, \mu)$ dont la classe $\widetilde{f}$ appartient à dom($m^*_g$) et $\psi$ une fonction dont la classe est $m^*_g(\widetilde{f})$.
 
 Pour toute $h\in \mathscr{L}^2(X, \mu)$ dont la classe $\widetilde{h}$ appartient à dom($m_g$), on a également $\widetilde{h}\widetilde{\varphi}_n\in$ dom($m_g$), et donc $\langle \widetilde{f}|m_g(\widetilde{h}\widetilde{\varphi}_n)\rangle =\langle m^*_g(\widetilde{f})|\widetilde{h}\widetilde{\varphi}_n\rangle$. Cela entraîne l’égalité
 
 $$
-\int_X(f g-\psi )\varphi_nh d\mu= 0
+\int_X\overline{(f g-\psi)}\varphi_nh d\mu= 0
 $$
 
-Puisque le domaine de $m_g$ est dense dans $L^2(X, \mu)$, on en déduit que $(f g-\psi )\varphi_n$ est nulle $\mu$-presque partout. Puisque $n$ est arbitraire, cela signifie que $m^*_g(\widetilde{f})$ est la classe dans $L^2(X, \mu)$ de $f g$. En particulier, comme $m^*_g(\widetilde{f})\in L^2(X, \mu)$, on conclut que $f$ appartient au domaine de $m_g$ et que $m^*_g(\widetilde{f}) =m_g(\widetilde{f})$.
+Puisque le domaine de $m_g$ est dense dans $L^2(X, \mu)$, on en déduit que $(f g-\psi )\varphi_n$ est nulle $\mu$-presque partout. Puisque $n$ est arbitraire, cela signifie que $m^*_g(\widetilde{f})$ est la classe dans $L^2(X, \mu)$ de $f g$. En particulier, comme $m^*_g(\widetilde{f})\in L^2(X, \mu)$, on conclut que $f$ appartient au domaine de $m_{\overline{g}}$ et que $m^*_g(\widetilde{f}) =m_{\overline{g}}(\widetilde{f})$.
 
-L’adjoint de $m_g$ est donc une extension de $m_g$. De plus, on a
+L’adjoint de $m_g$ est donc une extension de $m_{\overline{g}}$. De plus, on a
 
 $$
-\langle f|m_g(h)\rangle =\int_Xf\cdot (gh)d\mu=\int_Xf g h d\mu
+\langle f|m_g(h)\rangle =\int_X\overline{f}\cdot (gh)d\mu=\int_Xf g h d\mu
 $$
 
-pour tout $f\in L^2(X, \mu)$ et $h\in$ dom($m_g$), ce qui démontre que la forme linéaire $h\mapsto  \langle f|m_g(h)\rangle$ est continue lorsque $m_g(f)g$ appartient à $L^2(X, \mu)$. Par conséquent le domaine de $m_g$ est contenu dans celui de $m^*_g$, ce qui conclut la preuve.
+pour tout $f\in L^2(X, \mu)$ et $h\in$ dom($m_g$), ce qui démontre que la forme linéaire $h\mapsto  \langle f|m_g(h)\rangle$ est continue lorsque $m_{\overline{g}}(f)g$ appartient à $L^2(X, \mu)$. Par conséquent le domaine de $m_{\overline{g}}$ est contenu dans celui de $m^*_g$, ce qui conclut la preuve.
 
 #### Corollaire {#ts-iv-s4-n9-cor-1 .statement tag=0347}
 
@@ -1080,7 +1080,7 @@ b) On a $m_{g_1}\circ m_{g_2}\subset m_{g_1g_2}$;
 
 c) Supposons que $g_1$ est bornée. On a alors $m_{g_2}\circ m_{g_1}=m_{g_1g_2}$. Par ailleurs, le domaine de $m_{g_2}$ est contenu dans le domaine de $m_{g_1g_2}$, et $m_{g_1}\circ m_{g_2}$ est la réduction de $m_{g_1g_2}$ à dom($m_{g_2}$).
 
-Il est élémentaire que $m_{g_1+g_2}$ est une extension de $m_{g_1}+m_{g_2}$; ce dernier opérateur est donc fermable, et $m_{g_1}+m_{g_2}\subset m_{g_1+g_2}$.
+Il est élémentaire que $m_{g_1+g_2}$ est une extension de $m_{g_1}+m_{g_2}$; ce dernier opérateur est donc fermable, et $\overline{m_{g_1} + m_{g_2}}\subset m_{g_1+g_2}$.
 
 Soit $f\in \mathscr{L}^2(X, \mu)$ tel que la fonction $h= (g_1+g_2)f$ appartient à $\mathscr{L}^2(X, \mu)$. Pour tout entier $n\geqslant 1$, notons $X_n$ l’ensemble des $x\in X$ tels que $|g_1(x)|+|g_2(x)|\leqslant n$ et $\varphi_n$ la fonction caractéristique de $X_n$. On a $\varphi_nf\in$ dom($m_{g_1}+m_{g_2}$). Comme $(\varphi_nf)(x)$ converge vers $f(x)$ pour tout $x\in X$ et que pour tout $n\in \mathbf{N}$, on a $|\varphi_nf|\leqslant |f|$ et $|(g_1+g_2)\varphi_nf|\leqslant$ $|(g_1+g_2)f|=|h|$, avec $h\in \mathscr{L}^2(X, \mu)$ par hypothèse, le théorème de Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6) implique que la suite des couples de classes dans $L^2(X, \mu)\times L^2(X, \mu)$ de $(\varphi_nf,(g_1+g_2)\varphi_nf)$, qui appartiennent au graphe de $m_{g_1}+m_{g_2}$, converge vers le couple des classes de $(f, h)$ dans $L^2(X, \mu)$. La fermeture de $m_{g_1}+m_{g_2}$ est donc bien égale à $m_{g_1+g_2}$.
 
@@ -1094,19 +1094,19 @@ On se gardera de croire que $m_{g_1}\circ m_{g_2}=m_{g_1g_2}$ en général (exer
 
 Soit $g$ une fonction $\mu$-mesurable sur X.
 
-a) On a $m_g\circ m_g=m_{|g|^2}$;
+a) On a $m_{\overline{g}}\circ m_g=m_{|g|^2}$;
 
-b) Pour tous entiers $k, \ell \in \mathbf{N}$, on a $m_{g^kg^{\ell}}=m^k_gm^{\ell}_g$.
+b) Pour tous entiers $k, \ell \in \mathbf{N}$, on a $m_{g^k\overline{g}^{\ell}}=m^k_gm^{\ell}_{\overline{g}}$.
 
-On a $m_g\circ m_g\subset m_{|g|^2}$ par le lemme 6. Inversement, on déduit de l’inégalité $|g|\leqslant 1 +|g|^2$ que dom($m_{|g|^2}$) $=$ dom($m_g\circ m_g$), d’où la première assertion.
+On a $m_{\overline{g}}\circ m_g\subset m_{|g|^2}$ par le lemme 6. Inversement, on déduit de l’inégalité $|g|\leqslant 1 +|g|^2$ que dom($m_{|g|^2}$) $=$ dom($m_{\overline{g}}\circ m_g$), d’où la première assertion.
 
-Soient $k, \ell \in \mathbf{N}$. On a $m^k_gm^{\ell}_g\subset m_{g^kg^{\ell}}($loc. cit.). Le domaine de $m^k_gm^{\ell}_g$ est l’ensemble des classes dans $L^2(X, \mu)$ de fonctions $h\in \mathscr{L}^2(X, \mu)$ telles que $|g|^jh$ appartient à $\mathscr{L}^2(X, \mu)$ pour tout entier $j$ tel que $0\leqslant j\leqslant k+\ell$. Les inégalités
+Soient $k, \ell \in \mathbf{N}$. On a $m^k_gm^{\ell}_{\overline{g}}\subset m_{g^k\overline{g}^{\ell}}($loc. cit.). Le domaine de $m^k_gm^{\ell}_{\overline{g}}$ est l’ensemble des classes dans $L^2(X, \mu)$ de fonctions $h\in \mathscr{L}^2(X, \mu)$ telles que $|g|^jh$ appartient à $\mathscr{L}^2(X, \mu)$ pour tout entier $j$ tel que $0\leqslant j\leqslant k+\ell$. Les inégalités
 
 $$
 |g^jh|\leqslant |h|+|g^{k+\ell}h|
 $$
 
-valides pour $0\leqslant j\leqslant k+\ell$, permettent de constater que dom($m^k_gm^{\ell}_g$) est égal à dom($m_{g^kg^{\ell}}$), d’où l’assertion b).
+valides pour $0\leqslant j\leqslant k+\ell$, permettent de constater que dom($m^k_gm^{\ell}_{\overline{g}}$) est égal à dom($m_{g^k\overline{g}^{\ell}}$), d’où l’assertion b).
 
 ### 10. Extensions auto-adjointes d’un opérateur symétrique
 
@@ -1284,7 +1284,7 @@ $$
 = 4\|x\|^2= 4\|p_+(x+y)\|^2
 $$
 
-Ainsi, considérant G comme sous-espace fermé de l’espace hilbertien $E_{u^*}$, l’application $x\mapsto^1_2p_+(x)$ de G dans I une isométrie. En particulier, I est fermé dans $E_+$ (lemme 8 de I, p. 107). Il existe alors une unique condition au bord $b$ pour $u$ dont I est l’espace initial et qui coïncide avec $b_0$ sur I. On a dom($w$) $=$ dom($u_b$), d’où $w=u_b$. Cela établit l’assertion b).
+Ainsi, considérant G comme sous-espace fermé de l’espace hilbertien $E_{u^*}$, l’application $x\mapsto \frac{1}{2}p_+(x)$ de G dans I une isométrie. En particulier, I est fermé dans $E_+$ (lemme 8 de I, p. 107). Il existe alors une unique condition au bord $b$ pour $u$ dont I est l’espace initial et qui coïncide avec $b_0$ sur I. On a dom($w$) $=$ dom($u_b$), d’où $w=u_b$. Cela établit l’assertion b).
 
 Démontrons les assertions c) et d). Soient $b$ une condition au bord pour $u$ et I son sous-espace initial. Pour $x_0\in$ dom($u$) et $y\in I$, on a
 
@@ -1306,7 +1306,7 @@ Cela découle du corollaire de la proposition 26 et du théorème, ainsi que de 
 
 Soit E un espace hilbertien réel. Soit $u$ un opérateur symétrique fermé sur E. L’opérateur partiel $u_{(\mathbf{C})}$ sur $E_{(\mathbf{C})}$ est symétrique et fermé, et admet au moins une extension auto-adjointe.
 
-L’opérateur partiel $u_{(\mathbf{C})}$ est fermé et symétrique d’après la prop. 2 de IV, p. 228 et le lemme 3 de IV, p. 239. L’isomorphisme $\mathbf{R}$-linéaire $j$ de $E_{(\mathbf{C})}$ dans $E_{(\mathbf{C})}$ tel que $j(z\otimes x) =z\otimes x$ pour tout $z\in \mathbf{C}$ et tout $x\in E$ induit un isomorphisme d’espaces hilbertiens de Ker($u^*_{(\mathbf{C})}-i$) dans Ker($u^*_{(\mathbf{C})}+i$) et on peut appliquer le corollaire 1.
+L’opérateur partiel $u_{(\mathbf{C})}$ est fermé et symétrique d’après la prop. 2 de IV, p. 228 et le lemme 3 de IV, p. 239. L’isomorphisme $\mathbf{R}$-linéaire $j$ de $E_{(\mathbf{C})}$ dans $E_{(\mathbf{C})}$ tel que $j(z\otimes x) =\overline{z}\otimes x$ pour tout $z\in \mathbf{C}$ et tout $x\in E$ induit un isomorphisme d’espaces hilbertiens de Ker($u^*_{(\mathbf{C})}-i$) dans Ker($u^*_{(\mathbf{C})}+i$) et on peut appliquer le corollaire 1.
 
 #### Corollaire 3 {#ts-iv-s4-thm-1-cor-3 .statement tag=034J}
 
@@ -1322,9 +1322,9 @@ Soit $u$ un opérateur symétrique sur E. Les conditions suivantes sont équival
 
 Les conditions (ii) et (iii) sont équivalentes d’après la prop. 7, c) de IV, p. 236.
 
-L’opérateur partiel $u$ est essentiellement auto-adjoint si et seulement si $u$ est auto-adjoint, c’est-à-dire si Ker($u^*-i$) $=$ Ker($u^*+i$) $=\{0\}$ (cor. de la prop. 26). Comme $u^*=u^*$ (prop. 8 de IV, p. 237), la condition (i) est donc équivalente à la condition (ii). De plus, le corollaire précédent démontre que (ii) implique que $u$ a une unique extension auto-adjointe, ce qui est la condition (iv).
+L’opérateur partiel $u$ est essentiellement auto-adjoint si et seulement si $\overline{u}$ est auto-adjoint, c’est-à-dire si Ker($\overline{u}^*-i$) $=$ Ker($\overline{u}^*+i$) $=\{0\}$ (cor. de la prop. 26). Comme $\overline{u}^*=u^*$ (prop. 8 de IV, p. 237), la condition (i) est donc équivalente à la condition (ii). De plus, le corollaire précédent démontre que (ii) implique que $u$ a une unique extension auto-adjointe, ce qui est la condition (iv).
 
-Enfin, supposons que $u$ a une unique extension auto-adjointe $v$. Il en est alors de même de $u$, puisque toute extension auto-adjointe de $u$ en est une de $u$, donc est égale à $v$. D’après le corollaire précédent, les espaces Ker($u^*+i$) et Ker($u^*-i$) doivent être nuls, d’où la condition (ii) en utilisant encore $u^*=u^*$.
+Enfin, supposons que $u$ a une unique extension auto-adjointe $v$. Il en est alors de même de $\overline{u}$, puisque toute extension auto-adjointe de $\overline{u}$ en est une de $u$, donc est égale à $v$. D’après le corollaire précédent, les espaces Ker($\overline{u}^*+i$) et Ker($\overline{u}^*-i$) doivent être nuls, d’où la condition (ii) en utilisant encore $\overline{u}^*=u^*$.
 
 #### Exemple {#ts-iv-s4-n10-exa-1 .statement tag=034K}
 

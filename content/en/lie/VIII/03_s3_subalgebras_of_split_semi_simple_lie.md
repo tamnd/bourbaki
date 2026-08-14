@@ -33,7 +33,7 @@ subsections:
       pdf_page: 102
 statements: 28
 exercises: 14
-content_sha256: bb4fbba66794d2448e767216a487cc2435a0d8e55bfa7858277f92188f613d3e
+content_sha256: 81e6407d59f55c8f629ae6f7e8cd2ff17e6c5dc4b3a709e929bd6191182e2999
 ---
 
 ## § 3. SUBALGEBRAS OF SPLIT SEMI-SIMPLE LIE ALGEBRAS
@@ -393,7 +393,7 @@ If $P\in \mathscr{P}$, the facet F such that P = P(F) is said to be associated t
 Let $\mathscr{H}$ be the set of hyperplanes of $\mathfrak{h}_{\mathbf{R}}$ consisting of the kernels of the roots in R. Let $\mathscr{F}$ be the set of facets of $\mathfrak{h}_{\mathbf{R}}$ relative to $\mathscr{H}$. Let $\mathscr{S}$ be the set of parabolic subalgebras of $(\mathfrak{g},\mathfrak{h})$. For every $\mathfrak{p}=\mathfrak{h}+\mathfrak{g}^P\in \mathscr{S}$, let $F(\mathfrak{p})$ be the facet associated to P. Then $\mathfrak{p} \rightarrow F(\mathfrak{p})$ is a bijection from $\mathscr{S}$ to $\mathscr{F}$. If $\mathfrak{p}_1,\mathfrak{p}_2\in \mathscr{P}$,
 
 $$
-\mathfrak{p}_1\supset \mathfrak{p}_2\Leftarrow \Rightarrow F(\mathfrak{p}_1)\subset F(\mathfrak{p}_2)
+\mathfrak{p}_1\supset \mathfrak{p}_2\Leftarrow \Rightarrow F(\mathfrak{p}_1)\subset \overline{F(\mathfrak{p}_2)}
 $$
 
 This follows immediately from Lemma 3.

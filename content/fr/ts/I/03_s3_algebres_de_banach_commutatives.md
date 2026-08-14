@@ -41,7 +41,7 @@ subsections:
       pdf_page: 57
 statements: 48
 exercises: 29
-content_sha256: 5e32b280f0e88745c2496992a31f3601eda2654b873ef5175497127e4d4f2f4e
+content_sha256: f6ce510d33b48cb7d981701098ef96e8029d1308ef57b9c441604229ff35a6a2
 ---
 
 ## § 3. ALGÈBRES DE BANACH COMMUTATIVES
@@ -123,7 +123,7 @@ Alors l’élément
 1
 
 $$
-g_{\varepsilon}=\sum\varphi_x\varphi_x\geqslant 0
+g_{\varepsilon}=\sum\varphi_x\overline{\varphi_x}\geqslant 0
 $$
 
 $$
@@ -532,7 +532,7 @@ $$
 |P(c)|\leqslant \|P(x)\| \tag{2}
 $$
 
-pour tout P $\in \mathbf{C}[(X_{\lambda})]$. Soit $A'$ la sous-algèbre unifère de A engendrée par la famille $x$; ses éléments sont de la forme $P(x)$ pour $P\in \mathbf{C}[(X_{\lambda})]$. La majoration (2) implique que la condition $P(x) = 0$ entraîne $P(c) = 0$. Il existe donc un morphisme d’algèbres unifères $\xi$ de $A'$ dans $\mathbf{C}$ tel que $\xi (x_{\lambda}) =c_{\lambda}$ pour tout $\lambda \in \Lambda$. D’après (2), le morphisme $\xi$ est continu. Il se prolonge donc par continuité en un caractère $\chi$ de $A'= A$, qui vérifie $c= (\chi (x_{\lambda}))_{\lambda\in\Lambda}\in$ Sp$^{\Lambda}_A(x)$. Cela termine la démonstration.
+pour tout P $\in \mathbf{C}[(X_{\lambda})]$. Soit $A'$ la sous-algèbre unifère de A engendrée par la famille $x$; ses éléments sont de la forme $P(x)$ pour $P\in \mathbf{C}[(X_{\lambda})]$. La majoration (2) implique que la condition $P(x) = 0$ entraîne $P(c) = 0$. Il existe donc un morphisme d’algèbres unifères $\xi$ de $A'$ dans $\mathbf{C}$ tel que $\xi (x_{\lambda}) =c_{\lambda}$ pour tout $\lambda \in \Lambda$. D’après (2), le morphisme $\xi$ est continu. Il se prolonge donc par continuité en un caractère $\chi$ de $\overline{A'}= A$, qui vérifie $c= (\chi (x_{\lambda}))_{\lambda\in\Lambda}\in$ Sp$^{\Lambda}_A(x)$. Cela termine la démonstration.
 
 ### 7. Ensembles polynomialement convexes
 

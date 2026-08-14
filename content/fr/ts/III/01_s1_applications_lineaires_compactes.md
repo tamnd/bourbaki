@@ -41,7 +41,7 @@ subsections:
       pdf_page: 34
 statements: 57
 exercises: 37
-content_sha256: 0bc9c89363bf7319df76daba8b9287747eb369c589204771fe6260d15b426793
+content_sha256: b81a1c1e387922ae4c941c243f843069fb12bd1b423a0e2082ea2451e98ae0fb
 ---
 
 ## § 1. APPLICATIONS LINÉAIRES COMPACTES
@@ -358,7 +358,7 @@ Soient E un espace localement convexe, A une partie équicontinue de $\mathscr{L
 
 #### Remarque 4 {#ts-iii-s1-n6-rem-4 .statement tag=02OY}
 
-Soit E un espace localement convexe sur $\mathbf{C}$. Notons $E_0$ l’espace localement convexe sur $\mathbf{R}$ sous-jacent à E. Pour que E soit un espace d’approximation, il faut et il suffit que $E_0$ en soit un. En effet, la condition est nécessaire ; démontrons qu’elle est suffisante. Supposons donc que $E_0$ soit un espace d’approximation. Soient C une partie précompacte de E et U un voisinage convexe équilibré de 0 dans E. Posons $C'= C\cup iC$. Il existe une application $\mathbf{R}$-linéaire $u$ continue de rang fini de $E_0$ dans $E_0$ telle que $x-u(x)$ appartienne à U pour tout $x\in C'$. Posons $v(x) =^1_2(u(x)-iu(ix))$ pour tout $x$ dans E. On définit ainsi une application $\mathbf{C}$-linéaire continue de rang fini de E dans E. Pour tout $x\in C$, on a $x\in C',ix\in C'$ et $x-v(x) =^1_2(x-u(x))-_2^i(ix-u(ix))$, de sorte que $x-v(x)$ appartient à U. Cela prouve que E est un espace d’approximation.
+Soit E un espace localement convexe sur $\mathbf{C}$. Notons $E_0$ l’espace localement convexe sur $\mathbf{R}$ sous-jacent à E. Pour que E soit un espace d’approximation, il faut et il suffit que $E_0$ en soit un. En effet, la condition est nécessaire ; démontrons qu’elle est suffisante. Supposons donc que $E_0$ soit un espace d’approximation. Soient C une partie précompacte de E et U un voisinage convexe équilibré de 0 dans E. Posons $C'= C\cup iC$. Il existe une application $\mathbf{R}$-linéaire $u$ continue de rang fini de $E_0$ dans $E_0$ telle que $x-u(x)$ appartienne à U pour tout $x\in C'$. Posons $v(x) =\frac{1}{2}(u(x)-iu(ix))$ pour tout $x$ dans E. On définit ainsi une application $\mathbf{C}$-linéaire continue de rang fini de E dans E. Pour tout $x\in C$, on a $x\in C',ix\in C'$ et $x-v(x) =\frac{1}{2}(x-u(x))-\frac{i}{2}(ix-u(ix))$, de sorte que $x-v(x)$ appartient à U. Cela prouve que E est un espace d’approximation.
 
 #### Remarque 5 {#ts-iii-s1-n6-rem-5 .statement tag=02OZ}
 
@@ -432,7 +432,7 @@ $$
 v(x-u(x)) =v(x)-\sum_{j=1}^nf_j(v(x))y_j+\sum_{j=1}^nf_j(v(x))(y_j-v(x_j))
 $$
 
-d’où $p(v(x-u(x)))\leqslant^1_2+_{2nM}^{nM}= 1$, et par suite $x-u(x)\in U$. La proposition en résulte.
+d’où $p(v(x-u(x)))\leqslant \frac{1}{2}+\frac{nM}{2nM}= 1$, et par suite $x-u(x)\in U$. La proposition en résulte.
 
 #### Corollaire 1 {#ts-iii-s1-prop-12-cor-1 .statement tag=02P6}
 
@@ -478,10 +478,10 @@ b) Inversement, supposons que pour tout espace de Banach F, toute application li
 
 Soit F un espace semi-normé. L’adhérence de $\mathscr{L}^f(F; E)$ dans $\mathscr{L}(F; E)$ est contenue dans $\mathscr{L}^c(F; E)$ (prop. 1 et 2 de III, p. 4). Elle est égale à $\mathscr{L}^c(F; E)$ si E est un espace d’approximation d’après le cor. de la prop. 11. Cela prouve l’assertion a).
 
-Supposons satisfaite l’hypothèse de b). Soit $\varepsilon  >0$ un nombre réel. Soient A une partie compacte de E et $p$ une semi-norme continue sur E. Soit L une partie compacte convexe équilibrée de E telle que A soit une partie compacte de l’espace normé $E_L$ (lemme 4). L’injection canonique $j: E_L\rightarrow E$ est compacte et $E_L$ est un espace de Banach (EVT, III, p. 8, cor.). Il existe donc par hypothèse un entier $n\geqslant 1$, des éléments $e_1, . . . , e_n$ de E, et des formes linéaires continues $\ell_1, . . . , \ell_n$ sur $E_L$, tels que l’application $v$ de $E_L$ dans E définie par $v(x) =\sum^n_{i=1}\ell_i(x)e_i$ vérifie $p(x-v(x))\leqslant^{\varepsilon}_2$ pour $x\in A$. L’image de $^tj: E'\rightarrow (E_L)'$ est dense dans $(E_L)'$ pour la topologie faible (EVT, IV, p. 6, prop. 5). Sur $(E_L)'$ la topologie de la convergence compacte est compatible avec la dualité entre $(E_L)'$ et $E_L$ (EVT, IV, p. 3, exemple). Donc $^tj(E')$ est dense dans $(E_L)'$ pour la topologie de la convergence compacte (EVT, IV, p. 1, prop. 1), et il existe des formes linéaires continues $f_1, . . . , f_n$ sur E telles que
+Supposons satisfaite l’hypothèse de b). Soit $\varepsilon  >0$ un nombre réel. Soient A une partie compacte de E et $p$ une semi-norme continue sur E. Soit L une partie compacte convexe équilibrée de E telle que A soit une partie compacte de l’espace normé $E_L$ (lemme 4). L’injection canonique $j: E_L\rightarrow E$ est compacte et $E_L$ est un espace de Banach (EVT, III, p. 8, cor.). Il existe donc par hypothèse un entier $n\geqslant 1$, des éléments $e_1, . . . , e_n$ de E, et des formes linéaires continues $\ell_1, . . . , \ell_n$ sur $E_L$, tels que l’application $v$ de $E_L$ dans E définie par $v(x) =\sum^n_{i=1}\ell_i(x)e_i$ vérifie $p(x-v(x))\leqslant \frac{\varepsilon}{2}$ pour $x\in A$. L’image de $^tj: E'\rightarrow (E_L)'$ est dense dans $(E_L)'$ pour la topologie faible (EVT, IV, p. 6, prop. 5). Sur $(E_L)'$ la topologie de la convergence compacte est compatible avec la dualité entre $(E_L)'$ et $E_L$ (EVT, IV, p. 3, exemple). Donc $^tj(E')$ est dense dans $(E_L)'$ pour la topologie de la convergence compacte (EVT, IV, p. 1, prop. 1), et il existe des formes linéaires continues $f_1, . . . , f_n$ sur E telles que
 
 $$
-|\ell_i(x)-f_i(x)|p(e_i)\leqslant_{2n}^{\varepsilon}
+|\ell_i(x)-f_i(x)|p(e_i)\leqslant \frac{\varepsilon}{2n}
 $$
 
 pour $x\in A$ et $1\leqslant i\leqslant n$. L’endomorphisme $u:x\mapsto \sum^n_{i=1}f_i(x)e_i$ de E appartient à $\mathscr{L}^f(E)$ et pour tout $x\in A$, on a

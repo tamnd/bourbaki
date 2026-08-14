@@ -33,7 +33,7 @@ subsections:
       pdf_page: 84
 statements: 23
 exercises: 18
-content_sha256: ad44f42a6ae2e09b5bc45ae6094a07d1a1d2bb1818b5e7343c75decb31b5ea4d
+content_sha256: 9271798472575d16cf263fc38524faad143eab7127adbafed388378239520236
 ---
 
 ## § 1. THE LIE ALGEBRA $\mathfrak{s}\mathfrak{l}$(2$\boldsymbol{, k}$) AND ITS REPRESENTATIONS
@@ -146,7 +146,7 @@ and hence the elements of $X_+^{m-1}(E)$**--** $\{0\}$ are primitive.
 
 #### Proposition 1 {#lie-viii-s1-prop-1 .statement tag=00XX}
 
-Let E be an $\mathfrak{s}\mathfrak{l}(2, k)$-module, and $e$ a primitive element of E of weight $\lambda$. Put $e_n=^{(-1)}_{n^n}X_-^ne$ for $n\geq 0$, and $e_{-1}= 0$. Then
+Let E be an $\mathfrak{s}\mathfrak{l}(2, k)$-module, and $e$ a primitive element of E of weight $\lambda$. Put $e_n=\frac{(-1)^n}{n}X_-^ne$ for $n\geq 0$, and $e_{-1}= 0$. Then
 
 $$
 He_n= (\lambda -2n)e_n
