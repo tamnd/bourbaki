@@ -33,7 +33,7 @@ subsections:
       pdf_page: 465
 statements: 32
 exercises: 0
-content_sha256: 3b307db5f56f78fbd3358c684b32354dac47a42c80020e9f4ec7d0750f1f841e
+content_sha256: c2a84e054f25b1bc317d66209e46d14aaa136481711f609b6c70c03b007543d6
 ---
 
 ## § 6. ESPACES CLASSIFIANTS
@@ -130,15 +130,15 @@ si bien que $h$ coïncide avec $f$ sur $X\times  \{1\} \times Y$. Le corollaire 
 
 #### Proposition 2 {#ta-iv-s6-prop-2 .statement tag=0242}
 
-Soit B un espace topologique paracompact et soit $(E, p)$ un $B\times \mathbf{I}$-espace fibré localement trivial. Posons $E_1=^-p^1(B\times \{1\})$ et notons $p_1: E_1\rightarrow B$ l’application pr$_1\circ p|E_1$. Alors, les $B\times \mathbf{I}$-espaces $(E, p)$ et $(E_1\times \mathbf{I}, p_1\times$ Id$_{\mathbf{I}})$ sont isomorphes.
+Soit B un espace topologique paracompact et soit $(E, p)$ un $B\times \mathbf{I}$-espace fibré localement trivial. Posons $E_1=\overset{-1}{p}(B\times \{1\})$ et notons $p_1: E_1\rightarrow B$ l’application pr$_1\circ p|E_1$. Alors, les $B\times \mathbf{I}$-espaces $(E, p)$ et $(E_1\times \mathbf{I}, p_1\times$ Id$_{\mathbf{I}})$ sont isomorphes.
 
 Démontrons d’abord deux lemmes.
 
 #### Lemme 2 {#ta-iv-s6-lem-2 .statement tag=0243}
 
-Soient $\alpha ,\beta ,\gamma$ des nombres réels tels que $\alpha \leqslant \beta \leqslant \gamma$, soit B un espace topologique et soit $p: E\rightarrow B\times [\alpha , \gamma ]$ une application continue. Posons $B_0= B\times [\alpha , \beta ]$, $B_1= B\times [\beta , \gamma ]$, $E_0=^-p^1(B_0)$, $E_1=$ $^-p^1(B_1)$ et notons $p_0: E_0\rightarrow B_0,p_1: E_1\rightarrow B_1$ les applications déduites de $p$. Si $(E_0, p_0)$ et $(E_1, p_1)$ sont des espaces fibrés trivialisables, il en est de même de $(E, p)$.
+Soient $\alpha ,\beta ,\gamma$ des nombres réels tels que $\alpha \leqslant \beta \leqslant \gamma$, soit B un espace topologique et soit $p: E\rightarrow B\times [\alpha , \gamma ]$ une application continue. Posons $B_0= B\times [\alpha , \beta ]$, $B_1= B\times [\beta , \gamma ]$, $E_0=\overset{-1}{p}(B_0)$, $E_1=$ $\overset{-1}{p}(B_1)$ et notons $p_0: E_0\rightarrow B_0,p_1: E_1\rightarrow B_1$ les applications déduites de $p$. Si $(E_0, p_0)$ et $(E_1, p_1)$ sont des espaces fibrés trivialisables, il en est de même de $(E, p)$.
 
-Soient $g_0: E_0\rightarrow B_0\times F_0$ et $g_1: E_1\rightarrow B_1\times F_1$ des trivialisations de $E_0$ et $E_1$ respectivement. Notons $g'_0$ et $g_1'$ les trivialisations du $B\times  \{\beta \}$-espace fibré $^-p^1(B\times  \{\beta \})$ déduites de $g_0$ et $g_1$ par restriction. L’application $h=g_0'\circ (g_1')^{-1}$ est un $B\times  \{\beta \}$-isomorphisme de $B\times  \{\beta \} \times F_1$ sur $B\times  \{\beta \} \times F_0$. On définit une application continue $h'$ de $B\times F_1$ dans $F_0$ en posant $h'(a, y) =$ pr$_3\circ h(a, \beta , y)$ pour $(a, y)\in B\times F_1$. Pour $(a, t, y)\in B\times [\beta , \gamma ]\times F_1$, posons $H(a, t, y) = (a, t, h'(a, y))$. L’application H ainsi définie est un $(B\times [\beta , \gamma ])$-isomorphisme de $B\times [\beta , \gamma ]\times F_1$ sur $B\times [\beta , \gamma ]\times F_0$, et l’on a $g_0|^-p^1(B\times  \{\beta \}) = H\circ g_1|^-p^1(B\times  \{\beta \})$. Il existe donc une application continue $g: E\rightarrow B\times [\alpha , \gamma ]\times F_0$ telle que $g|E_0=g_0$ et $g|E_1= H\circ g_1$. L’application $g$ est un isomorphisme de $B\times [\alpha , \gamma ]$-espaces, donc E est trivialisable.
+Soient $g_0: E_0\rightarrow B_0\times F_0$ et $g_1: E_1\rightarrow B_1\times F_1$ des trivialisations de $E_0$ et $E_1$ respectivement. Notons $g'_0$ et $g_1'$ les trivialisations du $B\times  \{\beta \}$-espace fibré $\overset{-1}{p}(B\times  \{\beta \})$ déduites de $g_0$ et $g_1$ par restriction. L’application $h=g_0'\circ (g_1')^{-1}$ est un $B\times  \{\beta \}$-isomorphisme de $B\times  \{\beta \} \times F_1$ sur $B\times  \{\beta \} \times F_0$. On définit une application continue $h'$ de $B\times F_1$ dans $F_0$ en posant $h'(a, y) =$ pr$_3\circ h(a, \beta , y)$ pour $(a, y)\in B\times F_1$. Pour $(a, t, y)\in B\times [\beta , \gamma ]\times F_1$, posons $H(a, t, y) = (a, t, h'(a, y))$. L’application H ainsi définie est un $(B\times [\beta , \gamma ])$-isomorphisme de $B\times [\beta , \gamma ]\times F_1$ sur $B\times [\beta , \gamma ]\times F_0$, et l’on a $g_0|\overset{-1}{p}(B\times  \{\beta \}) = H\circ g_1|\overset{-1}{p}(B\times  \{\beta \})$. Il existe donc une application continue $g: E\rightarrow B\times [\alpha , \gamma ]\times F_0$ telle que $g|E_0=g_0$ et $g|E_1= H\circ g_1$. L’application $g$ est un isomorphisme de $B\times [\alpha , \gamma ]$-espaces, donc E est trivialisable.
 
 #### Lemme 3 {#ta-iv-s6-lem-3 .statement tag=0244}
 
@@ -148,11 +148,11 @@ Soit $a$ un point de B; pour tout point $t$ de $\mathbf{I}$, il existe un voisin
 
 Démontrons maintenant la proposition. D’après le lemme 3, il existe un recouvrement ouvert $(U_j)_{j\in J}$ de B tel que, pour tout $j\in J$, E soit trivialisable au-dessus de $U_j\times \mathbf{I}$. Comme l’espace B est paracompact, on peut supposer le recouvrement $(U_j)_{j\in J}$ localement fini (TG, IX, p. 49) et choisir un recouvrement $(A_j)_{j\in J}$ de B où, pour tout $j\in J$, l’ensemble $A_j$ est fermé dans B et contenu dans $U_j$ (TG, IX, p. 49, prop. 4 et p. 48, cor. 1).
 
-Pour toute partie ouverte U de B, notons $\mathscr{F}(U)$ l’ensemble des $U\times \mathbf{I}$-isomorphismes de $^-p^1(U\times \mathbf{I})$ sur $^-p_1^1(U)\times \mathbf{I}$ qui induisent l’application identique de $^-p^1(U\times  \{1\})$ sur $^-p_1^1(U)\times  \{1\}$. Pour tout couple $(V,U)$ d’ouverts de B tels que $U\subset V$, notons $r_{UV}:\mathscr{F}(V)\rightarrow \mathscr{F}(U)$ l’application qui, à un $(V\times \mathbf{I})$-isomorphisme $g:^-p^1(V\times \mathbf{I})\rightarrow^-p_0^1(V)\times \mathbf{I}$, associe le $(U\times \mathbf{I})$-isomorphisme déduit de $g$ par passage aux sous-espaces. Le couple $\mathscr{F}= ((\mathscr{F}(U)),(r_{UV}))$ est un faisceau sur B (I, p. 45, exemple 4). Pour démontrer la proposition, il suffit de démontrer que le faisceau $\mathscr{F}$ est mou (I, p. 64).
+Pour toute partie ouverte U de B, notons $\mathscr{F}(U)$ l’ensemble des $U\times \mathbf{I}$-isomorphismes de $\overset{-1}{p}(U\times \mathbf{I})$ sur $\overset{-1}{p_{1}}(U)\times \mathbf{I}$ qui induisent l’application identique de $\overset{-1}{p}(U\times  \{1\})$ sur $\overset{-1}{p_{1}}(U)\times  \{1\}$. Pour tout couple $(V,U)$ d’ouverts de B tels que $U\subset V$, notons $r_{UV}:\mathscr{F}(V)\rightarrow \mathscr{F}(U)$ l’application qui, à un $(V\times \mathbf{I})$-isomorphisme $g:\overset{-1}{p}(V\times \mathbf{I})\rightarrow \overset{-1}{p_{0}}(V)\times \mathbf{I}$, associe le $(U\times \mathbf{I})$-isomorphisme déduit de $g$ par passage aux sous-espaces. Le couple $\mathscr{F}= ((\mathscr{F}(U)),(r_{UV}))$ est un faisceau sur B (I, p. 45, exemple 4). Pour démontrer la proposition, il suffit de démontrer que le faisceau $\mathscr{F}$ est mou (I, p. 64).
 
 Soit $j\in J$, soit A une partie fermée de $A_j$, soit V un ensemble ouvert dans B tel que $A\subset V\subset U_j$ et soit $g$ un élément de $\mathscr{F}(V)$. Il existe un voisinage ouvert W de A tel que $W\subset V$, car un espace paracompact est normal (TG, IX, p. 49, prop. 4). Nous allons démontrer qu’il existe un élément $g'$ de $\mathscr{F}(U_j)$ tel que $g'|W =g|W$. Le corollaire 2 (I, p. 65) de la prop. 6 entraîne alors que le faisceau $\mathscr{F}$ est mou.
 
-Comme le $B\times \mathbf{I}$-espace E est trivialisable au-dessus de $U_j\times \mathbf{I}$, nous pouvons supposer que $^-p^1(U_j\times \mathbf{I}) = U_j\times \mathbf{I}\times F$, où F est un espace topologique. L’élément $g$ de $\mathscr{F}(V)$ est alors un $V\times \mathbf{I}$-isomorphisme de $V\times \mathbf{I}\times F$ sur lui-même qui induit l’application identique de $V\times$ $\{1\}\times F$. Appliquons le cor. 5 de IV, p. 439, aux espaces $X'= X$, $X = U_j$, A = W, U = V, et Y = Z = F, à l’application $g: V\times \mathbf{I}\times F\rightarrow V\times \mathbf{I}\times F$ et à l’application identique de $U_j\times  \{1\} \times F$. Il existe donc un $U_j\times \mathbf{I}$-isomorphisme $g'$ de $U_j\times \mathbf{I}\times F$ sur lui-même qui induit l’application identique de $U_j\times  \{1\} \times F$ et qui coïncide avec $g$ sur $W\times \mathbf{I}\times F$, et a fortiori sur $W\times \mathbf{I}\times F$. D’où la proposition.
+Comme le $B\times \mathbf{I}$-espace E est trivialisable au-dessus de $U_j\times \mathbf{I}$, nous pouvons supposer que $\overset{-1}{p}(U_j\times \mathbf{I}) = U_j\times \mathbf{I}\times F$, où F est un espace topologique. L’élément $g$ de $\mathscr{F}(V)$ est alors un $V\times \mathbf{I}$-isomorphisme de $V\times \mathbf{I}\times F$ sur lui-même qui induit l’application identique de $V\times$ $\{1\}\times F$. Appliquons le cor. 5 de IV, p. 439, aux espaces $X'= X$, $X = U_j$, A = W, U = V, et Y = Z = F, à l’application $g: V\times \mathbf{I}\times F\rightarrow V\times \mathbf{I}\times F$ et à l’application identique de $U_j\times  \{1\} \times F$. Il existe donc un $U_j\times \mathbf{I}$-isomorphisme $g'$ de $U_j\times \mathbf{I}\times F$ sur lui-même qui induit l’application identique de $U_j\times  \{1\} \times F$ et qui coïncide avec $g$ sur $W\times \mathbf{I}\times F$, et a fortiori sur $W\times \mathbf{I}\times F$. D’où la proposition.
 
 #### Corollaire 1 {#ta-iv-s6-lem-3-cor-1 .statement tag=0245}
 
@@ -206,9 +206,9 @@ Par conséquent, $\alpha_U$ est une bijection pour tout ouvert U de B tel que le
 
 #### Proposition 3 {#ta-iv-s6-prop-3 .statement tag=024B}
 
-Soit G un groupe topologique, soit B un espace topologique paracompact et soit $(E, p)$ un espace fibré principal de groupe G et de base $B\times \mathbf{I}$. Posons $E_1=^-p^1(B\times \{1\})$ et soit $p_1: E_0\rightarrow B$ l’application pr$_1\circ p|E_1$. Alors, $(E, p)$ et $(E_1\times \mathbf{I}, p_1\times$ Id$_{\mathbf{I}})$ sont des espaces fibrés principaux de groupe G et de base $B\times \mathbf{I}$ isomorphes.
+Soit G un groupe topologique, soit B un espace topologique paracompact et soit $(E, p)$ un espace fibré principal de groupe G et de base $B\times \mathbf{I}$. Posons $E_1=\overset{-1}{p}(B\times \{1\})$ et soit $p_1: E_0\rightarrow B$ l’application pr$_1\circ p|E_1$. Alors, $(E, p)$ et $(E_1\times \mathbf{I}, p_1\times$ Id$_{\mathbf{I}})$ sont des espaces fibrés principaux de groupe G et de base $B\times \mathbf{I}$ isomorphes.
 
-Soit F l’espace topologique G muni de l’opération à gauche du groupe $G\times G$ donnée par $(g, g')\cdot f=g'f g^{-1}$. Soit $(M, q)$ l’espace fibré localement trivial de base $B\times \mathbf{I}$ et de fibre-type F associé à l’espace fibré principal $E\times_{B\times\mathbf{I}}(E_1\times \mathbf{I})$ de groupe $G\times G$. Posons $M_1=^-q^1(B\times \{1\})$ et $q_1=$ pr$_1\circ p|M_1$; le B-espace $(M_1, q_1)$ s’identifie à l’espace fibré localement trivial de fibre-type F associé à $E_1\times_BE_1$. D’après le lemme 4, où l’on prend pour espaces fibrés principaux E et $E'$ égaux à $E_1$, le B-espace $M_1$ possède une section. Comme les $B\times \mathbf{I}$-espaces $(M, q)$ et $(M_1\times \mathbf{I}, q_1\times$Id$_{\mathbf{I}})$ sont isomorphes (IV, p. 440, prop. 2), le $B\times \mathbf{I}$-espace $(M, q)$ possède une section, ce qui entraîne que les espaces fibrés principaux de groupe G, E et $E_1\times \mathbf{I}$, sont isomorphes.
+Soit F l’espace topologique G muni de l’opération à gauche du groupe $G\times G$ donnée par $(g, g')\cdot f=g'f g^{-1}$. Soit $(M, q)$ l’espace fibré localement trivial de base $B\times \mathbf{I}$ et de fibre-type F associé à l’espace fibré principal $E\times_{B\times\mathbf{I}}(E_1\times \mathbf{I})$ de groupe $G\times G$. Posons $M_1=\overset{-1}{q}(B\times \{1\})$ et $q_1=$ pr$_1\circ p|M_1$; le B-espace $(M_1, q_1)$ s’identifie à l’espace fibré localement trivial de fibre-type F associé à $E_1\times_BE_1$. D’après le lemme 4, où l’on prend pour espaces fibrés principaux E et $E'$ égaux à $E_1$, le B-espace $M_1$ possède une section. Comme les $B\times \mathbf{I}$-espaces $(M, q)$ et $(M_1\times \mathbf{I}, q_1\times$Id$_{\mathbf{I}})$ sont isomorphes (IV, p. 440, prop. 2), le $B\times \mathbf{I}$-espace $(M, q)$ possède une section, ce qui entraîne que les espaces fibrés principaux de groupe G, E et $E_1\times \mathbf{I}$, sont isomorphes.
 
 #### Corollaire 1 {#ta-iv-s6-prop-3-cor-1 .statement tag=024C}
 
@@ -230,7 +230,7 @@ Une démonstration alternative de ces résultats consisterait à vérifier que l
 
 Soit G un groupe topologique, soient B et $B'$ des espaces topologiques et soient $(E, p)$ et $(E', p')$ des espaces fibrés principaux de groupe G et de bases B et $B'$ respectivement.
 
-Soit U une partie ouverte de B et soit $f':^-p^1(U)\rightarrow E'$ une application continue qui est compatible avec les opérations de G dans $^-p^1(U)$ et $E'$ respectivement. Il existe alors une unique application continue $f: U\rightarrow B'$ telle que $f\circ p_U=p'\circ f'$ et le carré commutatif
+Soit U une partie ouverte de B et soit $f':\overset{-1}{p}(U)\rightarrow E'$ une application continue qui est compatible avec les opérations de G dans $\overset{-1}{p}(U)$ et $E'$ respectivement. Il existe alors une unique application continue $f: U\rightarrow B'$ telle que $f\circ p_U=p'\circ f'$ et le carré commutatif
 
 $$
 E_U^{f'}E'
@@ -242,7 +242,7 @@ U $^fB'$
 
 est alors cartésien (I, p. 94, exemple (FP)).
 
-Pour toute partie ouverte U de B, notons alors $\mathscr{F}(U)$ l’ensemble des applications continues $g: E_U\rightarrow E'$ qui sont compatibles avec les opérations de G dans $^-p^1(U)$ et $E'$ respectivement. Pour tout couple $(U,V)$ d’ouverts de B tels que $U\subset V$, on note $r_{UV}:\mathscr{F}(V)\rightarrow \mathscr{F}(U)$ l’application définie par $r_{UV}(g) =g|E_U$. On vérifie immédiatement que l’on a défini ainsi un faisceau $\mathscr{F}= ((\mathscr{F}(U)),(r_{UV}))$ sur B. Nous appellerons ce faisceau le faisceau sur B des morphismes d’espaces fibrés principaux de groupe G de E dans $E'$.
+Pour toute partie ouverte U de B, notons alors $\mathscr{F}(U)$ l’ensemble des applications continues $g: E_U\rightarrow E'$ qui sont compatibles avec les opérations de G dans $\overset{-1}{p}(U)$ et $E'$ respectivement. Pour tout couple $(U,V)$ d’ouverts de B tels que $U\subset V$, on note $r_{UV}:\mathscr{F}(V)\rightarrow \mathscr{F}(U)$ l’application définie par $r_{UV}(g) =g|E_U$. On vérifie immédiatement que l’on a défini ainsi un faisceau $\mathscr{F}= ((\mathscr{F}(U)),(r_{UV}))$ sur B. Nous appellerons ce faisceau le faisceau sur B des morphismes d’espaces fibrés principaux de groupe G de E dans $E'$.
 
 #### Proposition 4 {#ta-iv-s6-prop-4 .statement tag=024G}
 
@@ -254,7 +254,7 @@ D’après I, p. 65, cor. 2 de la prop. 6, il suffit, pour démontrer la proposi
 
 Soit W une partie ouverte de B telle que $A\subset W\subset W\subset V$. Soit $s: U\rightarrow E_U$ une section de $(E_U, p_U)$. Appliquons le corollaire 3 (IV, p. 438) à l’espace B, au fermé W et au voisinage V de W et à l’application $g=f\circ (s|_V)$ de $E_V$ dans $E'$. Il existe donc une application continue $\widetilde{g}: B\rightarrow E'$ qui coïncide avec $g$ sur W. Soit $h=\widetilde{g}|_U$. On a $h|_W=g|_W=f\circ (s|_W)$.
 
-L’application $H: U\times G\rightarrow E'$ définie par $H(x, g) =h(x)\cdot g$ pour $(x, g)\in U\times G$ est continue et compatible avec les opérations de G dans $U\times G$ et $E'$. Posons $f'= H\circ s^{-1}$; c’est un élément de $\mathscr{F}(U)$. Pour tout $x\in W$, les applications $f$ et $f'$ coïncident au point $s(x)$, donc en tout point de $^-p^1(x)$, car ce sont des morphismes d’espaces fibrés principaux. La proposition en résulte.
+L’application $H: U\times G\rightarrow E'$ définie par $H(x, g) =h(x)\cdot g$ pour $(x, g)\in U\times G$ est continue et compatible avec les opérations de G dans $U\times G$ et $E'$. Posons $f'= H\circ s^{-1}$; c’est un élément de $\mathscr{F}(U)$. Pour tout $x\in W$, les applications $f$ et $f'$ coïncident au point $s(x)$, donc en tout point de $\overset{-1}{p}(x)$, car ce sont des morphismes d’espaces fibrés principaux. La proposition en résulte.
 
 #### Théorème 1 {#ta-iv-s6-thm-1 .statement tag=024H}
 
@@ -350,7 +350,7 @@ En outre, pour tout voisinage V de $e$ dans G et tout nombre réel $\varepsilon 
 
 Comme $G^*$ est un groupe topologique, il est contractile et localement contractile en chacun de ses points.
 
-Soit $\iota$ l’application de G dans $G^*$ qui, à $g\in G$, associe l’application constante d’image $\{g\}$ de $[0,1[$ dans G. L’application $\iota$ est un homomorphisme injectif de groupes. Soit V un voisinage de $e$ dans G et soit $\varepsilon$ un nombre réel strictement positif. On a $^-\iota^1(V^*_{\varepsilon}) = V$ si $\varepsilon \leqslant 1$ et $^-\iota^1(V^*_{\varepsilon}) = G$ sinon. L’image réciproque d’un voisinage de l’élément neutre de $G^*$ est un voisinage de l’élément neutre de G, d’où la continuité de $\iota$. De plus, $\iota (V) = V^*_1\cap \iota (G)$ pour tout voisinage V de $e$ dans G. Par suite, $\iota$ définit un isomorphisme de groupes topologiques de G sur son image.
+Soit $\iota$ l’application de G dans $G^*$ qui, à $g\in G$, associe l’application constante d’image $\{g\}$ de $[0,1[$ dans G. L’application $\iota$ est un homomorphisme injectif de groupes. Soit V un voisinage de $e$ dans G et soit $\varepsilon$ un nombre réel strictement positif. On a $\overset{-1}{\iota}(V^*_{\varepsilon}) = V$ si $\varepsilon \leqslant 1$ et $\overset{-1}{\iota}(V^*_{\varepsilon}) = G$ sinon. L’image réciproque d’un voisinage de l’élément neutre de $G^*$ est un voisinage de l’élément neutre de G, d’où la continuité de $\iota$. De plus, $\iota (V) = V^*_1\cap \iota (G)$ pour tout voisinage V de $e$ dans G. Par suite, $\iota$ définit un isomorphisme de groupes topologiques de G sur son image.
 
 #### Remarque 1 {#ta-iv-s6-n5-rem-1 .statement tag=024M}
 
@@ -642,7 +642,7 @@ d) Si G est simplement connexe, alors $\varphi$ est un isomorphisme. En particul
 
 9) Soit G un groupe de Lie connexe, soit $(\widetilde{G}, q)$ un revêtement universel de G et soit $\widetilde{e}$ l’élément neutre de $\widetilde{G}$. Soit H un sous-groupe fermé connexe de G ; on note $i: H\rightarrow G$ l’injection canonique et $p: G\rightarrow G/H$ la surjection canonique.
 
-a) Soit $H_1$ la composante neutre de $^-q^1(H)$ et soit $q_1:\widetilde{G}/H_1\rightarrow G/H$ l’application déduite de $q$ par passage aux quotients. Démontrer que $q_1$ fait de $\widetilde{G}/H_1$ un revêtement de $G/H$ dont la fibre en $p(e)$ est isomorphe à $\pi_1(G/H, p(e))$. b) En déduire qu’il existe une suite exacte de groupes
+a) Soit $H_1$ la composante neutre de $\overset{-1}{q}(H)$ et soit $q_1:\widetilde{G}/H_1\rightarrow G/H$ l’application déduite de $q$ par passage aux quotients. Démontrer que $q_1$ fait de $\widetilde{G}/H_1$ un revêtement de $G/H$ dont la fibre en $p(e)$ est isomorphe à $\pi_1(G/H, p(e))$. b) En déduire qu’il existe une suite exacte de groupes
 
 $$
 \pi_1(H_1,\widetilde{e})\longrightarrow^{q_*}\pi_1(H, e)\longrightarrow^{i_*}\pi_1(G, e)\longrightarrow^{p_*}\pi_1(G/H, p(e))
@@ -838,7 +838,7 @@ b) Pour $x\in \mathbf{R}^2-$ C et $v\in \mathbf{S}_1$, on note $n_v(x)$ le nombr
 
 c) En déduire que $\mathbf{R}^2-$ C possède exactement deux composantes connexes et que leurs frontières sont égales à C.
 
-d) Soit $g:\mathbf{I}\rightarrow \mathbf{R}^2$ une application affine par morceaux, injective telle que $^-g^1(C) =\{0,1\}$; on pose $P =g(\mathbf{I})$ et $D = C\cup P$. Démontrer que $C-(C\cap P)$ possède deux composantes connexes ; notons-les $P_1$ et $P_2$. Démontrer que $\mathbf{R}^2-$ D possède trois composantes connexes et que leurs frontières sont égales à C, $P_1\cup P$ et $P_2\cup P$.
+d) Soit $g:\mathbf{I}\rightarrow \mathbf{R}^2$ une application affine par morceaux, injective telle que $\overset{-1}{g}(C) =\{0,1\}$; on pose $P =g(\mathbf{I})$ et $D = C\cup P$. Démontrer que $C-(C\cap P)$ possède deux composantes connexes ; notons-les $P_1$ et $P_2$. Démontrer que $\mathbf{R}^2-$ D possède trois composantes connexes et que leurs frontières sont égales à C, $P_1\cup P$ et $P_2\cup P$.
 
 e) Soit G un graphe fini planaire ; soit S l’ensemble de ses sommets et A l’ensemble de ses arêtes orientées. Soit $f:|G| \rightarrow \mathbf{R}^2$ une application continue injective affine par morceaux et soit P son image. Démontrer que le nombre de composantes connexes de $\mathbf{R}^2-$ P est égal à 1 + Card(S) $-$ Card(A) + Card($\pi_0(G)$).
 
@@ -886,7 +886,7 @@ d) Pour tout $j\in \mathbf{Z}/m\mathbf{Z}$, soit $c_j$ un lacet dans C-L, d’or
 
 – Les ensembles $C_i$ sont deux à deux disjoints ;
 
-– Pour tout $i\in I$, l’ensemble $L_i=^-\varphi^1_i(C_i\cap K)$ est le sous-espace L défini dans l’exercice 23 si $m_i= 0$ et dans l’exercice 24 (où l’on pose $m=m_i)$ si $m_i\geqslant 1$.
+– Pour tout $i\in I$, l’ensemble $L_i=\overset{-1}{\varphi_{i}}(C_i\cap K)$ est le sous-espace L défini dans l’exercice 23 si $m_i= 0$ et dans l’exercice 24 (où l’on pose $m=m_i)$ si $m_i\geqslant 1$.
 
 – L’ensemble $K'= K-\bigcup_i(\mathring{C}_i\cap K)$ est la réunion d’une famille finie de segments fermés deux à deux disjoints dans le plan $\mathbf{R}^2\times  \{0\}$.
 
@@ -898,7 +898,7 @@ Démontrer qu’alors le point $c_1(1)$ n’appartient pas à P ; on note $A_c$ 
 
 Pour toute composante connexe par arcs $\alpha$ de $\mathbf{R}^2-$ P, on fixe un chemin $c(\alpha )$ dans $\mathbf{R}^2-$ K, d’origine N et de terme S qui est franc et tel que $A_{c(\alpha)}=\alpha$.
 
-b) Soit $i\in I$ tel que $m_i= 0$, de sorte que $^-\varphi^1_i(K\cap C_i)$ est l’ensemble L défini dans l’exercice 23, dont on reprend les notations ; on a $^-\varphi^1_i(P\times  \{0\} \cap$ $C_i) = Q\times  \{0\}$. Pour tout $j\in \mathbf{Z}/4\mathbf{Z}$, notons $\alpha_{i,j}$ la composante connexe par arcs de $\mathbf{R}^2-$ P qui contient l’image par $\varphi_i$ de la composante connexe $A_j$ de $\mathbf{B}_2-$ P. Démontrer que l’on a $[c(\alpha_{i,1})][c(\alpha_{i,4})]^{-1}= [c(\alpha_{i,2})][c(\alpha_{i,3})]^{-1}$ dans $\pi_1(\mathbf{R}^3-K,N)$.
+b) Soit $i\in I$ tel que $m_i= 0$, de sorte que $\overset{-1}{\varphi_{i}}(K\cap C_i)$ est l’ensemble L défini dans l’exercice 23, dont on reprend les notations ; on a $\overset{-1}{\varphi_{i}}(P\times  \{0\} \cap$ $C_i) = Q\times  \{0\}$. Pour tout $j\in \mathbf{Z}/4\mathbf{Z}$, notons $\alpha_{i,j}$ la composante connexe par arcs de $\mathbf{R}^2-$ P qui contient l’image par $\varphi_i$ de la composante connexe $A_j$ de $\mathbf{B}_2-$ P. Démontrer que l’on a $[c(\alpha_{i,1})][c(\alpha_{i,4})]^{-1}= [c(\alpha_{i,2})][c(\alpha_{i,3})]^{-1}$ dans $\pi_1(\mathbf{R}^3-K,N)$.
 
 c) Soit $\omega$ un élément de $\pi_0(\mathbf{R}^2-$ P). Soit $\lambda_{\omega}: F(\pi_0(\mathbf{R}^2-P))\rightarrow \pi_1(\mathbf{R}^3-K,N)$ l’unique homomorphisme de groupes qui, pour $\alpha \in \pi_0(\mathbf{R}^2-$ P), applique l’élément $x_{\alpha}$ sur $[c(\alpha )][c(\omega )]^{-1}$.
 
@@ -926,7 +926,7 @@ a) Soit $\gamma_0$ la classe du lacet dans X donné par $t\mapsto (-$ cos(2$\pi 
 
 b) Démontrer que l’unique homomorphisme du groupe libre à $g$ générateurs $x_1, . . . , x_j$ dans $\pi_1(X, a_0)$ qui applique $x_j$ sur $\gamma_j$ est un isomorphisme de groupes. (Appliquer le théorème de van Kampen au recouvrement de X défini par ses intersections avec les demi-plans $\mathbf{R}_+\times \mathbf{R}$ et $\mathbf{R}_-\times \mathbf{R}.)$
 
-c) Soit $f: X\rightarrow \mathbf{R}_+$ une fonction continue telle que $^-f^1(0) =\bigcup^g_{j=0}C_j$ et soit Y le sous-espace de $\mathbf{R}^3$ formé des points $(x, y, z)$ tels que $z^2=f(x, y)$. On note $i_+$ (resp. $i_-)$ l’application continue de X dans Y donnée par $(x, y)\mapsto$ $(x, y,f(x, y))$ (resp. $(x, y)\mapsto (x, y,-f(x, y))$). Pour toute classe de chemin $\gamma$ dans X, on définit des classes de chemins dans $\varpi (Y)$ par $\gamma^+= (i_+)_*(\gamma )$ et $\gamma^-= (i_-)_*(\gamma )$.
+c) Soit $f: X\rightarrow \mathbf{R}_+$ une fonction continue telle que $\overset{-1}{f}(0) =\bigcup^g_{j=0}C_j$ et soit Y le sous-espace de $\mathbf{R}^3$ formé des points $(x, y, z)$ tels que $z^2=f(x, y)$. On note $i_+$ (resp. $i_-)$ l’application continue de X dans Y donnée par $(x, y)\mapsto$ $(x, y,f(x, y))$ (resp. $(x, y)\mapsto (x, y,-f(x, y))$). Pour toute classe de chemin $\gamma$ dans X, on définit des classes de chemins dans $\varpi (Y)$ par $\gamma^+= (i_+)_*(\gamma )$ et $\gamma^-= (i_-)_*(\gamma )$.
 
 Pour tout $j\in  \{1, . . . , g\}$, on définit enfin un élément de $\pi_1(Y, a_0)$ par $\delta_j=u^+_ju^-_j$. Démontrer que l’on a les relations $\gamma^+_j\delta_j=\delta_j\gamma_j^-$ pour $1\leqslant j\leqslant g$, et $\gamma_1^+. . . \gamma_g^+=\gamma_1^-. . . \gamma^-_g$.
 

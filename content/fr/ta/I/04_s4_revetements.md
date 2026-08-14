@@ -53,7 +53,7 @@ subsections:
       pdf_page: 105
 statements: 50
 exercises: 0
-content_sha256: de25ce4f934e02a616a0259cf699b42cc5f9f82e3231ca3c911d564f925a1e85
+content_sha256: dc18d29d5750e49f8fffe9b44a74b95078bd43c5407b6075282736d31937f82a
 ---
 
 ## § 4. REVÊTEMENTS
@@ -66,21 +66,21 @@ Soit E un B-espace. S’il existe un espace topologique F et un B-isomorphisme $
 
 #### Définition 1 {#ta-i-s4-def-1 .statement tag=01OR}
 
-Soit B un espace topologique. Soit E un B-espace et soit $p$ sa projection. On dit que E est un B-espace fibré localement trivial si tout point de B possède un voisinage V tel que $(^-p^1(V), p_V)$ soit un V-espace fibré trivialisable.
+Soit B un espace topologique. Soit E un B-espace et soit $p$ sa projection. On dit que E est un B-espace fibré localement trivial si tout point de B possède un voisinage V tel que $(\overset{-1}{p}(V), p_V)$ soit un V-espace fibré trivialisable.
 
 Au lieu de « B-espace fibré localement trivial », on dit également « espace fibré localement trivial de base B ». Si E est un B-espace fibré localement trivial, on dit parfois que $(E,B, p)$ est une fibration localement triviale, ou, par abus, que $p$ est une fibration localement triviale. On dit aussi qu’un B-espace $(E, p)$ est trivialisable au-dessus d’une partie A de B si le A-espace $E_A$ induit par $(E, p)$ au-dessus de A est un espace fibré trivialisable.
 
 Soit E un B-espace fibré localement trivial ; notons $p$ sa projection.
 
-L’ensemble des points $a$ de B tels que la fibre $^-p^1(a)$ soit vide (resp. non vide) est ouvert. L’image de $p$ est donc une partie ouverte et fermée de B.
+L’ensemble des points $a$ de B tels que la fibre $\overset{-1}{p}(a)$ soit vide (resp. non vide) est ouvert. L’image de $p$ est donc une partie ouverte et fermée de B.
 
 Soit F un espace topologique. Si toutes les fibres de E sont homéo-morphes à F, on dit que E est un B-espace fibré localement trivial de fibre-type F.
 
 #### Remarque 1 {#ta-i-s4-n1-rem-1 .statement tag=01OS}
 
-Soit $(E, p)$ un B-espace fibré localement trivial et soit A une partie de B. Le A-espace $E_A= (^-p^1(A), p_A)$ déduit de E par passage aux sous-espaces est un espace fibré localement trivial. Si E est trivialisable, il en est de même de $E_A$.
+Soit $(E, p)$ un B-espace fibré localement trivial et soit A une partie de B. Le A-espace $E_A= (\overset{-1}{p}(A), p_A)$ déduit de E par passage aux sous-espaces est un espace fibré localement trivial. Si E est trivialisable, il en est de même de $E_A$.
 
-En effet, pour tout point $a$ de A, il existe un voisinage ouvert U de $a$ dans B, un espace topologique F et un U-isomorphisme $g:^-p^1(U)\rightarrow$ $U\times F$. L’application $f$ induit un $(A\cap U)$-isomorphisme de $p^{-1}_A(A\cap U)$ sur $(A\cap U)\times F$, ce qui prouve que $E_A$ est un A-espace fibré localement trivial.
+En effet, pour tout point $a$ de A, il existe un voisinage ouvert U de $a$ dans B, un espace topologique F et un U-isomorphisme $g:\overset{-1}{p}(U)\rightarrow$ $U\times F$. L’application $f$ induit un $(A\cap U)$-isomorphisme de $p^{-1}_A(A\cap U)$ sur $(A\cap U)\times F$, ce qui prouve que $E_A$ est un A-espace fibré localement trivial.
 
 #### Remarque 2 {#ta-i-s4-n1-rem-2 .statement tag=01OT}
 
@@ -88,7 +88,7 @@ Soit $(E, p)$ un B-espace et soit $(E_i)_{i\in I}$ une partition de E formée d�
 
 Si chacun des B-espaces $(E_i, p|E_i)$ est un espace fibré trivialisable, E est un B-espace fibré trivialisable. En effet, pour chaque $i\in I$, soit $F_i$ un espace topologique tel que les B-espaces $(E_i, p|E_i)$ et $(B\times F_i$, pr$_1)$ soient isomorphes. Alors le B-espace $(E, p)$ est isomorphe à $(B\times F$, pr$_1)$, où F est l’espace topologique somme de la famille $(F_i)_{i\in I}$.
 
-Supposons l’ensemble I fini. Si chacun des B-espaces $(E_i, p|E_i)$ est un B-espace fibré localement trivial, il en est de même du B-espace E. En effet, puisque l’ensemble I est fini, chaque point de B possède un voisinage U au-dessus duquel les B-espaces fibrés $E_i$ sont tous trivialisables. D’après ce qui précède, le U-espace $(^-p^1(U), p_U)$ est alors un espace fibré trivialisable.
+Supposons l’ensemble I fini. Si chacun des B-espaces $(E_i, p|E_i)$ est un B-espace fibré localement trivial, il en est de même du B-espace E. En effet, puisque l’ensemble I est fini, chaque point de B possède un voisinage U au-dessus duquel les B-espaces fibrés $E_i$ sont tous trivialisables. D’après ce qui précède, le U-espace $(\overset{-1}{p}(U), p_U)$ est alors un espace fibré trivialisable.
 
 ### 2. Revêtements
 
@@ -98,7 +98,7 @@ On appelle revêtement un espace fibré localement trivial dont toutes les fibre
 
 Au lieu de dire qu’un B-espace E est un revêtement, on dit aussi que E est un revêtement de B.
 
-Soit E un B-espace, notons $p$ sa projection ; soit A une partie de B. Si E est un revêtement de B, les fibres de $p$ sont discrètes, donc celles de $p_A:^-p^1(A)\rightarrow A$ aussi et le A-espace fibré localement trivial $(^-p^1(A), p_A)$ est un revêtement.
+Soit E un B-espace, notons $p$ sa projection ; soit A une partie de B. Si E est un revêtement de B, les fibres de $p$ sont discrètes, donc celles de $p_A:\overset{-1}{p}(A)\rightarrow A$ aussi et le A-espace fibré localement trivial $(\overset{-1}{p}(A), p_A)$ est un revêtement.
 
 #### Proposition 1 {#ta-i-s4-prop-1 .statement tag=01OV}
 
@@ -108,13 +108,13 @@ Soient B et E des espaces topologiques et soit $p: E\rightarrow B$ une applicati
 
 (ii) Il existe une partition $(V_i)_{i\in I}$ de E formée d’ensembles ouverts telle que, pour tout $i\in I$, l’application $p|V_i: V_i\rightarrow B$ soit un homéomorphisme.
 
-Supposons que la condition (i) soit vérifiée et soit $g: E\rightarrow B\times F$ une trivialisation du B-espace $(E, p)$, de fibre-type F. Par suite, F est un espace topologique discret et, les ensembles $V_i=^-g^1(B\times  \{i\})$, pour $i\in F$, forment une partition de E formée d’ensembles ouverts. Pour tout $i$, l’application $p|V_i: V_i\rightarrow B$ est un homéomorphisme, d’homéomorphisme réciproque l’application $x\mapsto g^{-1}(x, i)$, d’où la condition (ii).
+Supposons que la condition (i) soit vérifiée et soit $g: E\rightarrow B\times F$ une trivialisation du B-espace $(E, p)$, de fibre-type F. Par suite, F est un espace topologique discret et, les ensembles $V_i=\overset{-1}{g}(B\times  \{i\})$, pour $i\in F$, forment une partition de E formée d’ensembles ouverts. Pour tout $i$, l’application $p|V_i: V_i\rightarrow B$ est un homéomorphisme, d’homéomorphisme réciproque l’application $x\mapsto g^{-1}(x, i)$, d’où la condition (ii).
 
 Inversement, supposons que la condition (ii) soit satisfaite. L’application $p$ est alors continue. Considérons l’application de E dans $B\times I$ qui à $x\in E$ associe le couple $(p(x), i)$, où $i$ est l’unique élément de I telle que $x\in V_i$. Si I est muni de la topologie discrète, la condition (ii) signifie que cette application est un B-isomorphisme et le B-espace $(E, p)$ est un revêtement trivialisable.
 
 #### Corollaire 1 {#ta-i-s4-prop-1-cor-1 .statement tag=01OW}
 
-Soient B et E des espaces topologiques et soit $p: E\rightarrow B$ une application. Pour que E, muni de l’application $p$, soit un revêtement de B, il faut et il suffit que, pour tout point $a$ de B, il existe un voisinage ouvert U de $a$ et une partition $(V_i)_{i\in I}$ de $^-p^1(U)$ formée d’ensembles ouverts de E telle que, pour tout $i\in I$, l’application $p$ induise un homéomorphisme de $V_i$ sur U.
+Soient B et E des espaces topologiques et soit $p: E\rightarrow B$ une application. Pour que E, muni de l’application $p$, soit un revêtement de B, il faut et il suffit que, pour tout point $a$ de B, il existe un voisinage ouvert U de $a$ et une partition $(V_i)_{i\in I}$ de $\overset{-1}{p}(U)$ formée d’ensembles ouverts de E telle que, pour tout $i\in I$, l’application $p$ induise un homéomorphisme de $V_i$ sur U.
 
 #### Remarque {#ta-i-s4-n2-rem-1 .statement tag=01OX}
 
@@ -178,10 +178,10 @@ ${B'}^f$ B
 
 un carré cartésien. Supposons qu’au voisinage de tout point de B, l’application $f$ possède une section continue. Alors, si $(E', p')$ est un $B'$-espace fibré localement trivial ( resp. un revêtement), le B-espace $(E, p)$ est un espace fibré localement trivial ( resp. un revêtement).
 
-Il s’agit de démontrer que tout point $a$ de B possède un voisinage U tel que le U-espace induit par $(E, p)$ au-dessus de U soit un espace fibré localement trivial (resp. un revêtement). Prenons pour U un voisinage de $a$ au-dessus duquel il existe une section continue $s$ de $f$. Notons $i: U\rightarrow B$ et $j:^-p^1(U)\rightarrow E$ les injections canoniques. Comme le carré (1) est cartésien, il existe une unique application continue $s':^-p^1(U)\rightarrow E'$ telle que $f'\circ s'=j$ et $p'\circ s'=s\circ p_U$. Le carré
+Il s’agit de démontrer que tout point $a$ de B possède un voisinage U tel que le U-espace induit par $(E, p)$ au-dessus de U soit un espace fibré localement trivial (resp. un revêtement). Prenons pour U un voisinage de $a$ au-dessus duquel il existe une section continue $s$ de $f$. Notons $i: U\rightarrow B$ et $j:\overset{-1}{p}(U)\rightarrow E$ les injections canoniques. Comme le carré (1) est cartésien, il existe une unique application continue $s':\overset{-1}{p}(U)\rightarrow E'$ telle que $f'\circ s'=j$ et $p'\circ s'=s\circ p_U$. Le carré
 
 $$
-^-p^1(U)^{s'}E'
+\overset{-1}{p}(U)^{s'}E'
 $$
 
 $$
@@ -192,7 +192,7 @@ U $^sB'$
 
 est ainsi commutatif et son composé avec le carré (1) est le carré cartésien
 
-$^-p^1(U)^j$ E
+$\overset{-1}{p}(U)^j$ E
 
 $p_Up$
 
@@ -206,11 +206,11 @@ Si dans la proposition 3, on affaiblit l’hypothèse sur l’application $f$ en
 
 ### 4. Degré d’un revêtement
 
-Soit B un espace topologique, soit E un revêtement de B, notons $p$ sa projection. Notons C l’ensemble des cardinaux Card($^-p^1(b)$), où $b$ parcourt B. L’application $b\mapsto$ Card($^-p^1(b)$) est une application localement constante de B dans C. On dit que le revêtement E possède un degré si B n’est pas vide et si l’application $b\mapsto$ Card($^-p^1(b)$) est constante. La valeur commune des cardinaux Card($^-p^1(b)$), pour $b\in B$, est alors appelée le degré du revêtement E et est notée deg(E$, p)$, voire [E: B] s’il ne peut y avoir d’ambiguïté sur l’application $p$.
+Soit B un espace topologique, soit E un revêtement de B, notons $p$ sa projection. Notons C l’ensemble des cardinaux Card($\overset{-1}{p}(b)$), où $b$ parcourt B. L’application $b\mapsto$ Card($\overset{-1}{p}(b)$) est une application localement constante de B dans C. On dit que le revêtement E possède un degré si B n’est pas vide et si l’application $b\mapsto$ Card($\overset{-1}{p}(b)$) est constante. La valeur commune des cardinaux Card($\overset{-1}{p}(b)$), pour $b\in B$, est alors appelée le degré du revêtement E et est notée deg(E$, p)$, voire [E: B] s’il ne peut y avoir d’ambiguïté sur l’application $p$.
 
 Si B n’est pas vide, le revêtement trivial de base B et de fibre-type F possède un degré qui est égal à Card(F).
 
-Si B est connexe, la fonction $b\mapsto$ Card($^-p^1(b)$) est constante. Par suite :
+Si B est connexe, la fonction $b\mapsto$ Card($\overset{-1}{p}(b)$) est constante. Par suite :
 
 #### Proposition 4 {#ta-i-s4-prop-4 .statement tag=01P5}
 
@@ -225,10 +225,10 @@ $$
 En effet, si $z$ est un point de G, toutes les fibres de l’application
 
 $$
-f_{_-g^1(z)}:^-f^1(^-g^1(z))\rightarrow^-g^1(z)
+f_{_-g^1(z)}:\overset{-1}{f}(\overset{-1}{g}(z))\rightarrow \overset{-1}{g}(z)
 $$
 
-ont pour cardinal deg(E$, f)$, et $^-g^1(z)$ a pour cardinal deg(F$, g)$. L’assertion résulte donc du principe des bergers (E, III, p. 41, prop. 9).
+ont pour cardinal deg(E$, f)$, et $\overset{-1}{g}(z)$ a pour cardinal deg(F$, g)$. L’assertion résulte donc du principe des bergers (E, III, p. 41, prop. 9).
 
 Soient B et $B'$ des espaces topologiques, soit $(E, p)$ un revêtement de B et soit $(E', p')$ un revêtement de $B'$. Supposons que ces revêtements possèdent un degré ; alors, le revêtement $(E\times E', p\times p')$ de $B\times B'$ (I, p. 71, prop. 2) possède un degré et l’on a :
 
@@ -258,25 +258,25 @@ Soient E, B des espaces topologiques et $p: E\rightarrow B$ une application. Les
 
 (ii) L’application $p$ est étale, propre et séparée ;
 
-(iii) L’application $p$ est continue, ouverte et séparée, ses fibres sont finies et la fonction numérique $b\mapsto$ Card($^-p^1(b)$) est semi-continue supérieurement sur B (TG, IV, p. 28).
+(iii) L’application $p$ est continue, ouverte et séparée, ses fibres sont finies et la fonction numérique $b\mapsto$ Card($\overset{-1}{p}(b)$) est semi-continue supérieurement sur B (TG, IV, p. 28).
 
 Nous utiliserons dans la démonstration le lemme suivant :
 
 #### Lemme {#ta-i-s4-n5-lem-1 .statement tag=01P7}
 
-Soient X et Y des espaces topologiques. Pour qu’une application $f: X\rightarrow Y$ soit fermée, il faut et il suffit que pour tout point $y$ de Y et tout voisinage W de la fibre $^-f^1(y)$, il existe un voisinage V
+Soient X et Y des espaces topologiques. Pour qu’une application $f: X\rightarrow Y$ soit fermée, il faut et il suffit que pour tout point $y$ de Y et tout voisinage W de la fibre $\overset{-1}{f}(y)$, il existe un voisinage V
 
-de $y$ tel que W contienne $^-f^1(V)$.
+de $y$ tel que W contienne $\overset{-1}{f}(V)$.
 
-Dans cet énoncé, on peut ne considérer que les voisinages W de $^-f^1(y)$ qui sont ouverts. En notant F le complémentaire de W dans Y, on peut alors reformuler l’énoncé de la façon suivante : pour qu’une application $f: X\rightarrow Y$ soit fermée, il faut et il suffit que, pour toute partie fermée F de X, tout point $y$ de Y qui n’appartient pas à $f(F)$ possède un voisinage V disjoint de $f(F)$. Or cette assertion résulte immédiatement de la définition d’une application fermée (TG, I, p. 30, déf. 1).
+Dans cet énoncé, on peut ne considérer que les voisinages W de $\overset{-1}{f}(y)$ qui sont ouverts. En notant F le complémentaire de W dans Y, on peut alors reformuler l’énoncé de la façon suivante : pour qu’une application $f: X\rightarrow Y$ soit fermée, il faut et il suffit que, pour toute partie fermée F de X, tout point $y$ de Y qui n’appartient pas à $f(F)$ possède un voisinage V disjoint de $f(F)$. Or cette assertion résulte immédiatement de la définition d’une application fermée (TG, I, p. 30, déf. 1).
 
 Démontrons maintenant le théorème 1. Chacune des trois conditions implique que l’application $p$ est continue, ouverte et séparée, et aussi que les fibres de $p$ sont finies. C’est clair sous les hypothèses (i) et (iii) ; sous l’hypothèse (ii), les fibres de $p$ sont discrètes (I, p. 29, remarque 2) et quasi-compactes (TG, I, p. 75, th. 1) donc finies (TG, I, p. 60, exemple 1).
 
-(i)$\Rightarrow$(ii) : il suffit de démontrer que $p$ est propre et, pour cela, que pour tout ouvert U au-dessus duquel le revêtement $(E, p)$ est trivialisable, l’application $p_U:^-p^1(U)\rightarrow U$ est propre (TG, I, p. 72, prop. 3). Comme les fibres de $p_U$ sont finies, cette dernière assertion résulte du corollaire 5 de TG, I, p. 77.
+(i)$\Rightarrow$(ii) : il suffit de démontrer que $p$ est propre et, pour cela, que pour tout ouvert U au-dessus duquel le revêtement $(E, p)$ est trivialisable, l’application $p_U:\overset{-1}{p}(U)\rightarrow U$ est propre (TG, I, p. 72, prop. 3). Comme les fibres de $p_U$ sont finies, cette dernière assertion résulte du corollaire 5 de TG, I, p. 77.
 
-(ii)$\Rightarrow$(iii) : soit $b$ un point de B et, pour tout $x\in^-p^1(b)$, soit $W_x$ un voisinage ouvert de $x$ dans E tel que $p|W_x$ soit injectif. L’ensemble $W =\bigcup_{x\in^-p^1(b)}W_x$ est un voisinage ouvert de $^-p^1(b)$. Comme l’application $p$ est fermée, il existe d’après le lemme ci-dessus un voisinage ouvert U de $b$ tel que $^-p^1(U)\subset W$. Pour tout $a\in U$, on a $^-p^1(a)\subset W$ ; comme la restriction de $p$ à chaque $W_x$ est injective, il en résulte que Card($^-p^1(a)$)$\leqslant$ Card($^-p^1(b)$), ce qui prouve la semi-continuité supérieure de l’application $a\mapsto$ Card($^-p^1(a)$).
+(ii)$\Rightarrow$(iii) : soit $b$ un point de B et, pour tout $x\in \overset{-1}{p}(b)$, soit $W_x$ un voisinage ouvert de $x$ dans E tel que $p|W_x$ soit injectif. L’ensemble $W =\bigcup_{x\in^-p^1(b)}W_x$ est un voisinage ouvert de $\overset{-1}{p}(b)$. Comme l’application $p$ est fermée, il existe d’après le lemme ci-dessus un voisinage ouvert U de $b$ tel que $\overset{-1}{p}(U)\subset W$. Pour tout $a\in U$, on a $\overset{-1}{p}(a)\subset W$ ; comme la restriction de $p$ à chaque $W_x$ est injective, il en résulte que Card($\overset{-1}{p}(a)$)$\leqslant$ Card($\overset{-1}{p}(b)$), ce qui prouve la semi-continuité supérieure de l’application $a\mapsto$ Card($\overset{-1}{p}(a)$).
 
-(iii)$\Rightarrow$(i) : soit $b$ un point de B. Comme la fibre $E_b=^-p^1(b)$ est finie et l’application $p$ séparée, on peut choisir, pour tout $x\in E_b$, un voisinage ouvert $V'_x$ de $x$ de telle sorte que les $V'_x$ soient deux à deux disjoints (I, p. 26, remarque 4). Comme l’application $p$ est ouverte et l’ensemble $E_b$ fini, l’ensemble $U'=\bigcap_{x\in E_b}p(V_x')$ est un voisinage ouvert de $b$ dans B. Soit U un voisinage ouvert de $b$ dans B, contenu dans $U'$ et tel que pour tout $a\in U$, Card(E$_a)\leqslant$ Card(E$_b)$. Pour tout $x\in E_b$, posons $V_x= V'_x\cap^-p^1(U)$. Soit $a$ un point de U ; les ensembles $E_a\cap V_x$, pour $x\in E_b$, sont non vides et deux à deux disjoints. Ces ensembles contiennent donc chacun un unique élément et forment une partition de $E_a$. Cela démontre que, pour tout $x\in E_b$, l’application $p|V_x$ est injective et que l’on a $^-p^1(U) =\bigcup_{x\in E_b}V_x$. Comme l’application $p$ est ouverte, elle induit un homéomorphisme de $V_x$ sur U et par suite, $(E, p)$ est un revêtement de B (I, p. 70, cor. 1 de la prop. 1).
+(iii)$\Rightarrow$(i) : soit $b$ un point de B. Comme la fibre $E_b=\overset{-1}{p}(b)$ est finie et l’application $p$ séparée, on peut choisir, pour tout $x\in E_b$, un voisinage ouvert $V'_x$ de $x$ de telle sorte que les $V'_x$ soient deux à deux disjoints (I, p. 26, remarque 4). Comme l’application $p$ est ouverte et l’ensemble $E_b$ fini, l’ensemble $U'=\bigcap_{x\in E_b}p(V_x')$ est un voisinage ouvert de $b$ dans B. Soit U un voisinage ouvert de $b$ dans B, contenu dans $U'$ et tel que pour tout $a\in U$, Card(E$_a)\leqslant$ Card(E$_b)$. Pour tout $x\in E_b$, posons $V_x= V'_x\cap \overset{-1}{p}(U)$. Soit $a$ un point de U ; les ensembles $E_a\cap V_x$, pour $x\in E_b$, sont non vides et deux à deux disjoints. Ces ensembles contiennent donc chacun un unique élément et forment une partition de $E_a$. Cela démontre que, pour tout $x\in E_b$, l’application $p|V_x$ est injective et que l’on a $\overset{-1}{p}(U) =\bigcup_{x\in E_b}V_x$. Comme l’application $p$ est ouverte, elle induit un homéomorphisme de $V_x$ sur U et par suite, $(E, p)$ est un revêtement de B (I, p. 70, cor. 1 de la prop. 1).
 
 #### Remarque {#ta-i-s4-n5-rem-1 .statement tag=01P8}
 
@@ -292,7 +292,7 @@ L’ensemble F des points de E en lesquels l’application $p$ n’est pas étal
 
 Soit B un espace topologique séparé et soit E un B-espace. Supposons que E soit compact et que sa projection $p: E\rightarrow B$ soit étale. Alors, E est un revêtement fini de B.
 
-L’application $p$ est séparée (I, p. 26, remarque 2) et propre (TG, I, p. 76, cor. 2). D’après le corollaire 1, E est donc un revêtement localement fini de B. Comme E est compact, $p(E)$ est une partie quasi-compacte de B; l’application de $p(E)$ dans $\mathbf{N}$ donnée par $b\mapsto$ Card $^-p^1(b)$ étant localement constante, elle est majorée (TG, IV, p. 30, corollaire).
+L’application $p$ est séparée (I, p. 26, remarque 2) et propre (TG, I, p. 76, cor. 2). D’après le corollaire 1, E est donc un revêtement localement fini de B. Comme E est compact, $p(E)$ est une partie quasi-compacte de B; l’application de $p(E)$ dans $\mathbf{N}$ donnée par $b\mapsto$ Card $\overset{-1}{p}(b)$ étant localement constante, elle est majorée (TG, IV, p. 30, corollaire).
 
 #### Corollaire 3 {#ta-i-s4-thm-1-cor-3 .statement tag=01PB}
 
@@ -332,9 +332,9 @@ Soit $x\in E$; il existe alors une plus petite partie ouverte et fermée X de E 
 
 Soit B un espace topologique, soient E et $E'$ des B-espaces et soit $f: E'\rightarrow E$ un B-morphisme. On suppose que E est un revêtement localement fini et que l’espace $E'$, muni de l’application $f$, est un E-espace fibré localement trivial ( resp. un revêtement). Alors, $E'$ est un B-espace fibré localement trivial ( resp. un revêtement).
 
-Notons $p$ et $p'$ les projections respectives des B-espaces E et $E'$. Soit $b$ un point de B. Il existe un voisinage ouvert U de $b$ dans B et une partition finie $(V_i)_{i\in I}$ de $^-p^1(U)$ formée d’ensembles ouverts de E telle que, pour tout $i\in I$, l’application $p$ induise un homéomorphisme de
+Notons $p$ et $p'$ les projections respectives des B-espaces E et $E'$. Soit $b$ un point de B. Il existe un voisinage ouvert U de $b$ dans B et une partition finie $(V_i)_{i\in I}$ de $\overset{-1}{p}(U)$ formée d’ensembles ouverts de E telle que, pour tout $i\in I$, l’application $p$ induise un homéomorphisme de
 
-$V_i$ sur U. Posons $V'_i=^-f^1(V_i)$. Les ensembles $V'_i$ sont ouverts dans $E'$,
+$V_i$ sur U. Posons $V'_i=\overset{-1}{f}(V_i)$. Les ensembles $V'_i$ sont ouverts dans $E'$,
 
 forment une partition de $(^-{p'}^1)(U)$ et l’application de $V'_i$ dans U déduite de $p'$ par passage aux sous-espaces fait de $V'_i$ un U-espace fibré localement trivial. Il en résulte que l’espace $(^-{p'}^1)(U)$, muni de l’application
 
@@ -354,19 +354,19 @@ L’image $s(B)$ de toute section $s$ de $p$ est ouverte (I, p. 30, cor. 3) et f
 
 Si B est localement connexe, la réunion des images des sections de $p$ est donc une partie ouverte et fermée de E (cf. TG, I, p. 85).
 
-Supposons que E soit un revêtement trivialisable de B et soit $g: E\rightarrow B\times F$ une trivialisation. Si l’espace B est connexe, les ensembles $V_x=^-g^1(B\times  \{x\})$, pour $x$ parcourant F, sont les composantes connexes de E (cf. prop. 1 de I, p. 69).
+Supposons que E soit un revêtement trivialisable de B et soit $g: E\rightarrow B\times F$ une trivialisation. Si l’espace B est connexe, les ensembles $V_x=\overset{-1}{g}(B\times  \{x\})$, pour $x$ parcourant F, sont les composantes connexes de E (cf. prop. 1 de I, p. 69).
 
 #### Proposition 6 {#ta-i-s4-prop-6 .statement tag=01PG}
 
-Soit B un espace topologique et soit E un B-espace ; notons $p$ sa projection. Supposons que l’espace E soit localement connexe. Pour que E soit un revêtement de B, il faut et il suffit que tout point de B possède un voisinage ouvert U tel que l’application $p$ induise un homéomorphisme de toute composante connexe de $^-p^1(U)$ sur U.
+Soit B un espace topologique et soit E un B-espace ; notons $p$ sa projection. Supposons que l’espace E soit localement connexe. Pour que E soit un revêtement de B, il faut et il suffit que tout point de B possède un voisinage ouvert U tel que l’application $p$ induise un homéomorphisme de toute composante connexe de $\overset{-1}{p}(U)$ sur U.
 
-Soit $b$ un point de B. Si E est un revêtement de B, tout voisinage ouvert U de $b$ qui est connexe et au-dessus duquel le revêtement E est trivialisable remplit les conditions énoncées dans la proposition. Inversement, soit U un voisinage ouvert de $b$ remplissant ces conditions. L’ensemble $^-p^1(U)$ est ouvert ; ses composantes connexes sont des parties ouvertes de E (TG, I, p. 85, prop. 11) et constituent une partition de $^-p^1(U)$. La proposition résulte donc du corollaire 1 (I, p. 70) de la proposition 1.
+Soit $b$ un point de B. Si E est un revêtement de B, tout voisinage ouvert U de $b$ qui est connexe et au-dessus duquel le revêtement E est trivialisable remplit les conditions énoncées dans la proposition. Inversement, soit U un voisinage ouvert de $b$ remplissant ces conditions. L’ensemble $\overset{-1}{p}(U)$ est ouvert ; ses composantes connexes sont des parties ouvertes de E (TG, I, p. 85, prop. 11) et constituent une partition de $\overset{-1}{p}(U)$. La proposition résulte donc du corollaire 1 (I, p. 70) de la proposition 1.
 
 #### Corollaire 1 {#ta-i-s4-prop-6-cor-1 .statement tag=01PH}
 
 Soit B un espace topologique localement connexe, soit $(E, p)$ un revêtement de B et soit $E'$ une partie ouverte et fermée de E. Le B-espace $(E', p|E')$ est un revêtement et $p(E')$ est ouvert et fermé dans B.
 
-Les espaces E et $E'$ sont localement connexes. Pour toute partie ouverte U de B, l’ensemble $E'\cap^-p^1(U)$ est ouvert et fermé dans $^-p^1(U)$, donc est réunion de composantes connexes de $^-p^1(U)$. Les parties ouvertes U de B telles que $p$ induise un homéomorphisme de chaque composante connexe de $^-p^1(U)$ sur U recouvrent B. D’après la proposition, $p|E'$ fait de $E'$ un revêtement de B. La deuxième assertion en résulte (cf. I, p. 68).
+Les espaces E et $E'$ sont localement connexes. Pour toute partie ouverte U de B, l’ensemble $E'\cap \overset{-1}{p}(U)$ est ouvert et fermé dans $\overset{-1}{p}(U)$, donc est réunion de composantes connexes de $\overset{-1}{p}(U)$. Les parties ouvertes U de B telles que $p$ induise un homéomorphisme de chaque composante connexe de $\overset{-1}{p}(U)$ sur U recouvrent B. D’après la proposition, $p|E'$ fait de $E'$ un revêtement de B. La deuxième assertion en résulte (cf. I, p. 68).
 
 #### Corollaire 2 {#ta-i-s4-prop-6-cor-2 .statement tag=01PI}
 
@@ -422,7 +422,7 @@ Comme $f|U: U\rightarrow X$ est bijective et ouverte, c’est un homéomorphisme
 
 Conservons les hypothèses précédant le lemme et démontrons maintenant l’assertion a). Soit V une composante connexe de E. C’est un
 
-ensemble ouvert et fermé dans E et $^-f^1(V)$ est réunion de composantes connexes de $E'$ que $f$ applique homéomorphiquement sur V d’après le lemme. Il résulte de la prop. 6 de I, p. 79 que $(E', f)$ est un revêtement.
+ensemble ouvert et fermé dans E et $\overset{-1}{f}(V)$ est réunion de composantes connexes de $E'$ que $f$ applique homéomorphiquement sur V d’après le lemme. Il résulte de la prop. 6 de I, p. 79 que $(E', f)$ est un revêtement.
 
 Démontrons b). Comme $f$ est surjective, il résulte du lemme que toute composante connexe V de E est l’image homéomorphe d’une composante connexe $U = B\times \{x\}$ de $E'$. L’application $p$ induit alors un homéomorphisme de V sur B. D’après la prop. 6, E est un revêtement de B.
 
@@ -446,7 +446,7 @@ $A\times_BE$ E
 
 implique que $E'$ est un revêtement de E.
 
-Démontrons b). Supposons que $f$ soit surjective. Alors, pour tout élément $i$ de I, l’application $f_{U_i}: U_i\times_BE'\rightarrow U_i\times_BE$ est surjective et l’espace $U_i\times_BE'$, muni de l’application $f_{U_i}$, est un revêtement de $U_i\times_BE$ (I, p. 71, cor. 2 de la prop. 2). Il résulte du cas particulier traité précédemment que le $U_i$-espace $(^-p^1(U_i), p_{U_i})$ est un revêtement. Par conséquent, E est un revêtement de B.
+Démontrons b). Supposons que $f$ soit surjective. Alors, pour tout élément $i$ de I, l’application $f_{U_i}: U_i\times_BE'\rightarrow U_i\times_BE$ est surjective et l’espace $U_i\times_BE'$, muni de l’application $f_{U_i}$, est un revêtement de $U_i\times_BE$ (I, p. 71, cor. 2 de la prop. 2). Il résulte du cas particulier traité précédemment que le $U_i$-espace $(\overset{-1}{p}(U_i), p_{U_i})$ est un revêtement. Par conséquent, E est un revêtement de B.
 
 Soit B un espace topologique, soient E et $E'$ des revêtements de B et soit $f: E\rightarrow E'$ un B-morphisme On a vu que $(E, f)$ est un revêtement sous chacune des deux hypothèses suivantes : 1) le revêtement E est localement de degré fini (I, p. 76, cor. 1) ; 2) l’espace B est localement connexe (I, p. 81, prop. 7). Ce phénomène peut s’expliquer comme suit.
 
@@ -484,7 +484,7 @@ Soit E un espace topologique séparé. Supposons que E possède un recouvrement 
 
 Soit $(W_j)_{j\in J}$ un recouvrement ouvert de E ; nous allons démontrer qu’il existe un recouvrement ouvert localement fini $(A_k)_{k\in K}$ de E qui est plus fin que le recouvrement $(W_j)_{j\in J}$. Pour tout $i\in I$, soit $(A'_{\ell})_{\ell\in K_i}$ un recouvrement localement fini de $V_i$ par des ouverts de $V_i$, plus fin que le recouvrement $(W_j\cap V_i)_{j\in J}$. Soit K la somme de la famille $(K_i)_{i\in I}$ (E, II, p. 30, déf. 8). Pour tout élément $k= (\ell , i)$ de K, posons $A_k= A'_{\ell}\cap V_i$. Alors $A_k$ est ouvert dans E et l’on a $\bigcup_{k\in K}A_k=\bigcup_{i\in I}V_i= E$ ; de plus, pour tout $k\in K$, il existe un indice $j\in J$ tel que $A_k\subset W_j$. Ainsi, la famille $(A_k)_{k\in K}$ est un recouvrement ouvert de E plus fin que $(W_j)_{j\in J}$. Il reste à démontrer que la famille $(A_k)_{k\in K}$ est localement finie. Soit $x\in E$ ; il existe un voisinage ouvert U de $x$ qui ne rencontre $V_i$ que pour $i$ appartenant à un sous-ensemble fini $I'$ de I. Pour tout $i\in I',x$ possède un voisinage ouvert $U_i\subset U$ qui ne rencontre qu’un nombre fini d’ouverts $A_k$, pour $k\in K_i\times \{i\}:$ c’est évident si $x$ n’appartient pas à $V_i$, et si $x$ appartient à $V_i$, cela résulte de la propriété de finitude locale du recouvrement $(A'_{\ell})_{\ell\in K_i}$ de $V_i$. Par suite, $V'=\bigcap_{i\in I'}U_i$ est un voisinage ouvert de $x$ qui ne rencontre qu’un nombre fini des $A_k,k\in K$, et le recouvrement $(A_k)_{k\in K}$ est localement fini.
 
-Démontrons la proposition. Soit E un revêtement de B, notons $p$ sa projection, et supposons que l’espace B soit paracompact. Soit $(A_i)_{i\in I}$ un recouvrement ouvert localement fini de B tel que, pour tout $i\in I$, le revêtement E soit trivialisable au-dessus de $A_i$. Pour tout $i\in I$, soit $F_i$ un espace topologique discret et soit $g_i:^-p^1(A_i)\rightarrow A_i\times F_i$ une trivialisation de E au-dessus de $A_i$. Soit $(B_i)_{i\in I}$ un recouvrement ouvert de B tel que, pour tout $i\in I$, on ait $B_i\subset A_i$ (TG, IX, p. 49, prop. 4 et p. 48, cor. 1). Pour tout $i\in I$, posons $V_i=^-p^1(B_i)$ ; on a $V_i\subset^-p^1(B_i)\subset^-p^1(A_i)$ et $V_i=^-g^1_i(B_i\times F_i)$, d’où $V_i\subset^-g^1_i(B_i\times F_i)$. Comme B est paracompact, $B_i$ est paracompact (TG, I, p. 69, prop. 16) et $B_i\times F_i$ est paracompact (TG, I, p. 70, prop. 18). Par suite, $^-g^1_i(B_i\times F_i)$ est paracompact, donc $V_i$ aussi (TG, I, p. 69, prop. 16). La famille $(V_i)_{i\in I}$ est, par construction, un recouvrement ouvert localement fini de E. Enfin, l’espace E est séparé (I, p. 26, remarque 3). Il satisfait donc aux hypothèses du lemme, d’où la proposition.
+Démontrons la proposition. Soit E un revêtement de B, notons $p$ sa projection, et supposons que l’espace B soit paracompact. Soit $(A_i)_{i\in I}$ un recouvrement ouvert localement fini de B tel que, pour tout $i\in I$, le revêtement E soit trivialisable au-dessus de $A_i$. Pour tout $i\in I$, soit $F_i$ un espace topologique discret et soit $g_i:\overset{-1}{p}(A_i)\rightarrow A_i\times F_i$ une trivialisation de E au-dessus de $A_i$. Soit $(B_i)_{i\in I}$ un recouvrement ouvert de B tel que, pour tout $i\in I$, on ait $B_i\subset A_i$ (TG, IX, p. 49, prop. 4 et p. 48, cor. 1). Pour tout $i\in I$, posons $V_i=\overset{-1}{p}(B_i)$ ; on a $V_i\subset \overset{-1}{p}(B_i)\subset \overset{-1}{p}(A_i)$ et $V_i=\overset{-1}{g_{i}}(B_i\times F_i)$, d’où $V_i\subset \overset{-1}{g_{i}}(B_i\times F_i)$. Comme B est paracompact, $B_i$ est paracompact (TG, I, p. 69, prop. 16) et $B_i\times F_i$ est paracompact (TG, I, p. 70, prop. 18). Par suite, $\overset{-1}{g_{i}}(B_i\times F_i)$ est paracompact, donc $V_i$ aussi (TG, I, p. 69, prop. 16). La famille $(V_i)_{i\in I}$ est, par construction, un recouvrement ouvert localement fini de E. Enfin, l’espace E est séparé (I, p. 26, remarque 3). Il satisfait donc aux hypothèses du lemme, d’où la proposition.
 
 #### Remarque {#ta-i-s4-n7-rem-1 .statement tag=01PS}
 
@@ -582,9 +582,9 @@ Pour tout point $a\in A$, il résulte de la proposition précédente et de l’e
 
 Soient B un espace topologique et A un sous-espace de B. On suppose que les espaces A et B sont localement connexes et que le couple $(B,A)$ jouit de la propriété (PCV) de I, p. 37. Soient E et $E'$ des revêtements de B, notons $p$ et $p'$ leurs projections. Soit
 
-$g:^-p^1(A)\rightarrow (^-{p'}^1)(A)$ un A-morphisme ( resp. un A-isomorphisme). Il existe un voisinage U de A dans B et un U-morphisme ( resp. un
+$g:\overset{-1}{p}(A)\rightarrow (^-{p'}^1)(A)$ un A-morphisme ( resp. un A-isomorphisme). Il existe un voisinage U de A dans B et un U-morphisme ( resp. un
 
-U-isomorphisme) $f:^-p^1(U)\rightarrow (^-p^1')(U)$ tel que $f_A=g$.
+U-isomorphisme) $f:\overset{-1}{p}(U)\rightarrow (\overset{-1}{p}')(U)$ tel que $f_A=g$.
 
 Conservons les notations du corollaire 1. D’après ce même corollaire, un A-morphisme $g: E_A\rightarrow E'_A$ s’identifie à une section $s_0$ au-dessus de A de l’espace étalé $E_{\mathscr{M}}$ associé à $\mathscr{M}$. D’après l’hypothèse faite sur le couple $(B,A)$ et le lemme 3 de I, p. 39, il existe un voisinage ouvert U de A dans B et une section continue $s$ de $E_{\mathscr{M}}$ au-dessus de U prolongeant $s_0$. Cette section $s$ s’identifie à un U-morphisme $f: E_U\rightarrow E'_U$ prolongeant $f$.
 

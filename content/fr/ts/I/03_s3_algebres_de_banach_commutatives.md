@@ -41,7 +41,7 @@ subsections:
       pdf_page: 57
 statements: 48
 exercises: 29
-content_sha256: 3a9bd3b033f9edbeaf123c4923ad441ff5d939d7ced18c678d6ea4d6ab8f9afe
+content_sha256: 5e32b280f0e88745c2496992a31f3601eda2654b873ef5175497127e4d4f2f4e
 ---
 
 ## § 3. ALGÈBRES DE BANACH COMMUTATIVES
@@ -184,7 +184,7 @@ L’application $x\mapsto$ ev$_x$ est un homéomorphisme de $X'$ sur $\mathsf{X}
 
 L’application ev$:x\mapsto$ ev$_x$ de $X'$ dans $\mathsf{X}'(\mathscr{C}_0(X))$ est injective. Elle est surjective d’après le cor. 1 et le th. 2 de I, p. 30. Elle est continue, car pour toute fonction $f\in \mathscr{C}_0(X)$ et tout ouvert U de $\mathbf{R}$, on a
 
-ev$^{-1}(\{\chi \in \mathsf{X}'(\mathscr{C}_0(X))|\chi (f)\in U\}) =^-f^1(U)$
+ev$^{-1}(\{\chi \in \mathsf{X}'(\mathscr{C}_0(X))|\chi (f)\in U\}) =\overset{-1}{f}(U)$
 
 qui est ouvert dans X. L’application ev est donc un homéomorphisme puisque $X'$ est compact. La restriction de ev à X est alors un homéo-morphisme sur $\mathsf{X}(\mathscr{C}_0(X))$.
 
@@ -218,7 +218,7 @@ L’application $f\mapsto \widetilde{f}$ est une bijection entre l’ensemble de
 
 Soit $f$ une application partielle propre de X dans Y et soit U son domaine. Démontrons que l’application $\widetilde{f}$ est continue. Elle est continue en tout point de U, car U est ouvert dans $X'$. Démontrons qu’elle est également continue en tout point $x$ de $X'-$ U ; on a alors $\widetilde{f}(x) =\omega_Y$. Soit V un voisinage ouvert de $\omega_Y$ dans $Y'$; démontrons que $\widetilde{f}^{-1}(V)$ est un voisinage de $x$. Par définition de l’espace topologique $Y'$, on peut supposer que V est de la forme $Y'-$ K, où K est une partie compacte de Y. Puisque $f$ définit une application propre de U dans Y, l’ensemble $f^{-1}(K)$ est compact dans U (TG, I, p. 77, prop. 6), donc dans $X'$. C’est en particulier une partie fermée de $X'$ et $\widetilde{f}^{-1}(V) =$ $X'-f^{-1}(K)$ est une partie ouverte de $X'$, et est donc un voisinage de $x$.
 
-Inversement, soient $g: X'\rightarrow Y'$ une application continue telle que $g(\omega_X) =\omega_Y$ et $\Gamma_g\subset X'\times Y'$ son graphe. L’ensemble U = X $-^-g^1(\omega_Y)$ est ouvert dans X. La correspondance $f= (\Gamma_g\cap (U\times Y),X,Y)$ est une application partielle propre de X dans Y (TG, I, p. 77, prop. 7) telle que $\widetilde{f}=g$, et c’est la seule.
+Inversement, soient $g: X'\rightarrow Y'$ une application continue telle que $g(\omega_X) =\omega_Y$ et $\Gamma_g\subset X'\times Y'$ son graphe. L’ensemble U = X $-\overset{-1}{g}(\omega_Y)$ est ouvert dans X. La correspondance $f= (\Gamma_g\cap (U\times Y),X,Y)$ est une application partielle propre de X dans Y (TG, I, p. 77, prop. 7) telle que $\widetilde{f}=g$, et c’est la seule.
 
 Nous identifierons les applications partielles propres de X dans Y aux applications continues de $X'$ dans $Y'$ qui appliquent $\omega_X$ sur $\omega_Y$. En particulier, les applications propres de X dans Y sont les applications partielles propres de domaine X ; elles s’identifient aux applica-
 

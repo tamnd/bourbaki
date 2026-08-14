@@ -34,7 +34,7 @@ subsections:
       pdf_page: 54
 statements: 37
 exercises: 20
-content_sha256: 0421e17bc38a6f5e241f895129d2066a508755181243b2dd957f8dd190e93e7d
+content_sha256: 752206f0383fa9a6f2e94751a61ac0c242d8ef95494dbccc264f8a23ac17591e
 ---
 
 ## § 2. THE STRUCTURE OF MODULES OF FINITE LENGTH
@@ -117,7 +117,7 @@ Let K be a commutative field of characteristic $p >0$ and G a $p$-group (I, §6,
 
 ### 2. Weyr–Fitting Decomposition
 
-Let A be a ring, M an A-module, and $u$ an endomorphism of M. For any integer $p\geqslant 0$, we denote the kernel of $u^p$ by $N_p$. The sequence of submodules $(N_p)$ is increasing, and its union is a submodule $N_{\infty}$ of M that is stable under $u$. For every integer $p\geqslant 0$, we have $N_{p+1}=^-u^1(N_p)$, and the relation $N_p= N_{p+1}$ therefore implies $N_{p+1}= N_{p+2}$. Consequently, either the sequence $(N_p)$ is strictly increasing, or there exists an integer $p\geqslant 0$ such that $N_0, . . . ,N_p$ are distinct and $N_p= N_{\infty}$.
+Let A be a ring, M an A-module, and $u$ an endomorphism of M. For any integer $p\geqslant 0$, we denote the kernel of $u^p$ by $N_p$. The sequence of submodules $(N_p)$ is increasing, and its union is a submodule $N_{\infty}$ of M that is stable under $u$. For every integer $p\geqslant 0$, we have $N_{p+1}=\overset{-1}{u}(N_p)$, and the relation $N_p= N_{p+1}$ therefore implies $N_{p+1}= N_{p+2}$. Consequently, either the sequence $(N_p)$ is strictly increasing, or there exists an integer $p\geqslant 0$ such that $N_0, . . . ,N_p$ are distinct and $N_p= N_{\infty}$.
 
 For any integer $q\geqslant 0$, denote the image of $u^q$ by $I_q$. The sequence of submodules $(I_q)$ is decreasing, and its intersection is a submodule $I_{\infty}$ of M that is stable under $u$. For every integer $q\geqslant 0$, we have $u(I_q) = I_{q+1}$, and the relation $I_q= I_{q+1}$ therefore implies $I_{q+1}= I_{q+2}$. Consequently, either the sequence $(I_q)$ is strictly decreasing, or there exists an integer $q\geqslant 0$ such that $I_0, . . . ,I_q$ are distinct and $I_q= I_{\infty}$.
 

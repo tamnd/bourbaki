@@ -37,7 +37,7 @@ subsections:
       pdf_page: 93
 statements: 19
 exercises: 11
-content_sha256: d9dcf3c95669d7a2e0b0be2386fbb69e74436b3799f3de37ea85b47889e1fc99
+content_sha256: 35e0a105157ed1d8224d87b237d1b1e82b058529a3bc71a4273044ff48b03903
 ---
 
 ## § 5. PERTURBATION PAR UNE APPLICATION LINÉAIRE COMPACTE
@@ -50,7 +50,7 @@ Soient E et F des espaces vectoriels topologiques, $u$ une application linéaire
 
 L’ensemble $u(U)$ est un voisinage de 0 dans I ; il est fermé dans F, donc le sous-groupe I de F est localement fermé en 0, et par conséquent il est fermé (TG, III, p. 7, prop. 4).
 
-Comme Ker($u$) ne rencontre U qu’en 0, on a Ker($u$) $=\{0\}$ et l’application $u$ est injective. Soit V un voisinage fermé de 0 dans E contenu dans U. Comme $u(\mathring{V})$ est un voisinage de 0 dans $u$(V), il existe un voisinage équilibré W de 0 dans F tel que $u(V)\cap W\subset u(\mathring{V})$. L’ensemble $^-u^1(W)$ est équilibré, donc connexe. Il contient 0 et est contenu dans $\mathring{V}\cup (E$ - V). Comme $\mathring{V}$ et E- V sont des parties ouvertes disjointes de E, l’ensemble $^-u^1(W)$ est contenu dans $\mathring{V}$, d’où $W\cap I\subset u(\mathring{V})$. Par suite $u(\mathring{V})$ est un voisinage de 0 dans I. Cela implique que $u$ induit un homéomorphisme de E sur I.
+Comme Ker($u$) ne rencontre U qu’en 0, on a Ker($u$) $=\{0\}$ et l’application $u$ est injective. Soit V un voisinage fermé de 0 dans E contenu dans U. Comme $u(\mathring{V})$ est un voisinage de 0 dans $u$(V), il existe un voisinage équilibré W de 0 dans F tel que $u(V)\cap W\subset u(\mathring{V})$. L’ensemble $\overset{-1}{u}(W)$ est équilibré, donc connexe. Il contient 0 et est contenu dans $\mathring{V}\cup (E$ - V). Comme $\mathring{V}$ et E- V sont des parties ouvertes disjointes de E, l’ensemble $\overset{-1}{u}(W)$ est contenu dans $\mathring{V}$, d’où $W\cap I\subset u(\mathring{V})$. Par suite $u(\mathring{V})$ est un voisinage de 0 dans I. Cela implique que $u$ induit un homéomorphisme de E sur I.
 
 #### Proposition 1 {#ts-iii-s5-prop-1 .statement tag=02TL}
 
@@ -62,7 +62,7 @@ Soient E un espace localement convexe séparé, F un espace localement convexe e
 
 (i) $=\Rightarrow$ (ii) : Supposons que $u$ vérifie la condition (i). Comme le noyau de $u$ est de dimension finie, il possède un supplémentaire topologique $E_1$ dans E (III, p. 55, prop. 1), et il existe un voisinage compact C de 0 dans Ker($u$). Identifions E à $E_1\times$ Ker($u$); l’ensemble $V = E_1\times C$ est alors un voisinage fermé de 0 dans E. La restriction de $u$ à V est composée de la projection de $E_1\times C$ sur $E_1$ qui est propre (TG, I, p. 77, cor. 5) et de la restriction $u_1$ de $u$ à $E_1$. Or $u_1$ est un homéomorphisme de $E_1$ sur un sous-espace fermé de F, donc est propre (TG, I, p. 72, prop. 2). La composée de deux applications propres est propre (TG, I, p. 73, prop. 5, a)), donc la restriction de $u$ à V est propre.
 
-(ii) $=\Rightarrow$ (i) : Soit V un voisinage fermé de 0 dans E tel que la restriction $v$ de $u$ à V soit propre. L’ensemble $V\cap$ Ker($u$) $=^-v^1(\{0\})$ est alors compact (TG, I, p. 75, th. 1) ; par suite, l’espace vectoriel Ker($u$) est localement compact, donc de dimension finie (EVT, I, p. 15, th. 3). Soit $E_1$ un supplémentaire topologique de Ker($u$) dans E (prop. 1 de III, p. 55) ; posons $V_1= E_1\cap V$. L’ensemble $V_1$ est fermé dans V. L’application $u|V_1$ est propre (TG, I, p. 74, cor. 1) et injective, donc est un homéomorphisme de $V_1$ sur une partie fermée de F (TG, I, p. 72, prop. 2). D’après le lemme 1, la restriction de $u$ à $E_1$ est un homéomorphisme de $E_1$ sur un sous-espace fermé de F, donc $u$ est un morphisme strict d’image fermée.
+(ii) $=\Rightarrow$ (i) : Soit V un voisinage fermé de 0 dans E tel que la restriction $v$ de $u$ à V soit propre. L’ensemble $V\cap$ Ker($u$) $=\overset{-1}{v}(\{0\})$ est alors compact (TG, I, p. 75, th. 1) ; par suite, l’espace vectoriel Ker($u$) est localement compact, donc de dimension finie (EVT, I, p. 15, th. 3). Soit $E_1$ un supplémentaire topologique de Ker($u$) dans E (prop. 1 de III, p. 55) ; posons $V_1= E_1\cap V$. L’ensemble $V_1$ est fermé dans V. L’application $u|V_1$ est propre (TG, I, p. 74, cor. 1) et injective, donc est un homéomorphisme de $V_1$ sur une partie fermée de F (TG, I, p. 72, prop. 2). D’après le lemme 1, la restriction de $u$ à $E_1$ est un homéomorphisme de $E_1$ sur un sous-espace fermé de F, donc $u$ est un morphisme strict d’image fermée.
 
 ### 2. Perturbation des applications linéaires injectives ou surjec- tives
 

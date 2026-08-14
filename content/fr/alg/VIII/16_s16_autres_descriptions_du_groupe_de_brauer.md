@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: 23a34d20f4e88889d39a474b94a28528228145a9a00c6dc32ea4ca294d4c071c
+content_sha256: 7195aab92424774a239c77b35067f96bcd42904714a0e338820030c4e1cfa0b1
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -202,7 +202,7 @@ Soit $u': G''\rightarrow G'$ un homomorphisme de groupes et soit $\mathscr{E}$ u
 
 #### Exemple {#alg-viii-s16-n2-exa-1 .statement tag=00RI}
 
-Soit H un sous-groupe de G et $j: H\rightarrow G$ l’injection canonique. Alors pour toute $\tau$-extension $\mathscr{E}= (\Gamma , \iota , \pi )$, la $\tau \circ j$-extension $j^*(\mathscr{E})$ est isomorphe à $(^-\pi^1(H), \iota ', \pi ')$ où $\iota ': F\rightarrow^-\pi^1(H)$ (resp. $\pi ':^-\pi^1(H)\rightarrow H)$ est l’homomorphisme de groupes $f\rightarrow \iota (f)$ (resp. $\gamma \rightarrow \pi (\gamma ))$. Plus généralement, si l’homomorphisme de groupes $u: G'\rightarrow G$ est injectif, alors l’homomorphisme canonique $\varphi$ est injectif d’image $^-\pi^1(u(G'))$.
+Soit H un sous-groupe de G et $j: H\rightarrow G$ l’injection canonique. Alors pour toute $\tau$-extension $\mathscr{E}= (\Gamma , \iota , \pi )$, la $\tau \circ j$-extension $j^*(\mathscr{E})$ est isomorphe à $(\overset{-1}{\pi}(H), \iota ', \pi ')$ où $\iota ': F\rightarrow \overset{-1}{\pi}(H)$ (resp. $\pi ':\overset{-1}{\pi}(H)\rightarrow H)$ est l’homomorphisme de groupes $f\rightarrow \iota (f)$ (resp. $\gamma \rightarrow \pi (\gamma ))$. Plus généralement, si l’homomorphisme de groupes $u: G'\rightarrow G$ est injectif, alors l’homomorphisme canonique $\varphi$ est injectif d’image $\overset{-1}{\pi}(u(G'))$.
 
 ### 3. Image directe d’une $\tau$-extension
 
@@ -396,7 +396,7 @@ est commutatif. D’après la prop. 2 de VIII, p. 286, il en résulte que la $(\
 
 Notons $c$ : F $\rightarrow$ F l’homomorphisme constant $f\rightarrow$ 1. Compte tenu de l’exemple 1 de VIII, p. 288, le fait que $\mathscr{I}_{\tau}$ soit un élément neutre pour cette loi de composition résulte de l’isomorphisme de $\delta^*(\mathscr{E}\times \mathscr{E})$ sur $\Delta_*(\mathscr{E})$ et du diagramme commutatif
 
-F $M^{(Id}M$M$M^{^F}M^{\times}M^{c)\circ\Delta}/$/ $F\times F$
+F $M^{(Id}M$M$M^{^F}M\overset{\times c)\circ\Delta}{M}/$/ $F\times F$
 
 $_{\times\circ}M^{Id}MM^{^F}$ $^{(cId_F)\Delta}$ MMM $^m$
 
@@ -404,7 +404,7 @@ $F\times F^m$ M//&& $F$.
 
 La dernière assertion résulte du diagramme commutatif
 
-F $M^{(Id}M$M$M^{^F}M^{\times}M^{s)\circ\Delta}/$/ $F\times F$
+F $M^{(Id}M$M$M^{^F}M\overset{\times s)\circ\Delta}{M}/$/ $F\times F$
 
 $_{(s\times Id)\circ\Delta}$ M$M^cM$
 

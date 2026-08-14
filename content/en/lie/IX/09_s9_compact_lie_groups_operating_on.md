@@ -33,7 +33,7 @@ errata:
     - says: §5, no. 2, Cor. of Prop. 2
       read: §5, no. 2, Cor. 1 of Prop. 2
       why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and the reference does not say which. The sentence citing it has G simply-connected and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected group. Corollary 2 is the same statement for the Lie algebra, over a chamber rather than an alcove, and Corollary 3 is about existence and uniqueness and names no map at all.
-content_sha256: 4d32afa35d233ffc177cf2be6f2759c37d5af50fc5be327f1ce8aefa360574ad
+content_sha256: 27479e2e4fd107a3cfc44b4e90ea6208f9992f3c4323eb4ab2c403539405d437
 ---
 
 ## § 9. COMPACT LIE GROUPS OPERATING ON MANIFOLDS
@@ -218,7 +218,7 @@ dim(G $\times^{G_x}W) =$ dim(G) + dim(W) $-$ dim(G$_x)$
 
 so it suffices to show that $\mu$ is submersive at $z$, or equivalently that $\lambda$ is submersive at $(e,0)$. But, the tangent map $T_{(e,0)}(\lambda ) : T_e(G)\oplus W\rightarrow T$ is equal to $T_e(\rho (x)) +i$, where $\rho (x)$ is the orbital map $g \rightarrow gx$ and $i$ the canonical injection from W to T; since Im $T_e(\rho (x)) = T_x(Gx)$, the map $T_{(e,0)}(\lambda )$ is surjective, and $\mu$ is étale at $z$.
 
-We are going to show that there exists an open neighbourhood $\Omega$ of $Gz$ in $G\times^{G_x}W$, stable under G, such that $\mu$ induces an isomorphism from $\Omega$ onto an open subset of X. This will imply the proposition: indeed, the inverse image of $\Omega$ in $G\times W$ is stable under G, and hence is of the form $G\times B$, where B is an open subset of W containing the origin and stable under $G_x$; restricting $\Omega$ if necessary, we can assume that there exists an isomorphism $u: W\rightarrow B$, compatible with the operations of $G_x$ (Lemma 4). It is clear that the composite morphism $\alpha : G\times^{G_x}W^{(Id}\longrightarrow^{,u)}G\times^{G_x}B\longrightarrow^\mu$ X satisfies the conditions in the statement of the proposition.
+We are going to show that there exists an open neighbourhood $\Omega$ of $Gz$ in $G\times^{G_x}W$, stable under G, such that $\mu$ induces an isomorphism from $\Omega$ onto an open subset of X. This will imply the proposition: indeed, the inverse image of $\Omega$ in $G\times W$ is stable under G, and hence is of the form $G\times B$, where B is an open subset of W containing the origin and stable under $G_x$; restricting $\Omega$ if necessary, we can assume that there exists an isomorphism $u: W\rightarrow B$, compatible with the operations of $G_x$ (Lemma 4). It is clear that the composite morphism $\alpha : G\times^{G_x}W\overset{(Id,u)}{\longrightarrow}G\times^{G_x}B\longrightarrow^\mu$ X satisfies the conditions in the statement of the proposition.
 
 Thus, the proposition is a consequence of the following lemma:
 

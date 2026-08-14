@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: cf0a09514cb74911f68c6d01931ba975cfd9aba3031f7e95f00d2e405465755e
+content_sha256: 0b85b86e0619ad28cb29775c7981c8c2db59223e0b54b66a5fae7357b988eae6
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -219,7 +219,7 @@ The proof is identical to that of Prop. 3 of Chap. VI, §3, no. 4, replacing A b
 Let $\Theta (G)$ (resp. $\Theta (T))$ be the $\mathbf{C}$-algebra of continuous representative functions on G (resp. T), and let $Z\Theta (G)$ (resp. $\Theta (T)^W)$ be the subalgebra consisting of the central (resp. W-invariant) functions. The restriction map $\Theta (G)\rightarrow \Theta (T)$ induces a homomorphism of rings $r: Z\Theta (G)\rightarrow \Theta (T)^W$. On the other hand, the map that associates to a representation $\tau$ its character (that is, the function $g \rightarrow$ Tr $\tau (g))$ extends to a homomorphism of $\mathbf{C}$-algebras Tr$:\mathbf{C}\otimes_{\mathbf{Z}}R(G)\rightarrow Z\Theta (G)$ which, by Spectral Theories, is an isomorphism. Similarly, the canonical injection $X(T)\rightarrow \Theta (T)$ induces an isomorphism of $\mathbf{C}$-algebras $\iota :\mathbf{C}[X(T)]\rightarrow \Theta$(T), which induces an isomorphism $\iota :\mathbf{C}[X(T)]^W\rightarrow \Theta (T)^W$. The diagram
 
 $$
-\mathbf{C}\otimes_{\mathbf{Z}}R(G)^1\longrightarrow^{\otimes Ch}\mathbf{C}[X(T)]^W
+\mathbf{C}\otimes_{\mathbf{Z}}R(G)\overset{1\otimes Ch}{\longrightarrow}\mathbf{C}[X(T)]^W
 $$
 
 $$

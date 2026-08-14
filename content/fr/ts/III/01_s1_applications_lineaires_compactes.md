@@ -41,7 +41,7 @@ subsections:
       pdf_page: 34
 statements: 57
 exercises: 37
-content_sha256: 30a26cd09e4ddec8d2705f7d2d3e48407f517a0ef3e123f2a87b0a8bae1a4cd8
+content_sha256: 0bc9c89363bf7319df76daba8b9287747eb369c589204771fe6260d15b426793
 ---
 
 ## § 1. APPLICATIONS LINÉAIRES COMPACTES
@@ -94,7 +94,7 @@ c) L’ensemble $\mathscr{L}^c(E; F)$ des applications linéaires compactes de E
 
 Démontrons a). Soient $v: E\rightarrow F$ une application linéaire compacte et U un voisinage de 0 dans F. Choisissons un voisinage V de 0 dans E tel que $v(V)$ soit relativement compact dans F. Alors $v(V)$ est borné et il existe donc un nombre réel $\lambda  >0$ tel que l’ensemble $v(\lambda V)$ soit contenu dans U ; par suite, $v$ est continue.
 
-Soit $u: E\rightarrow F$ une application linéaire continue de rang fini. Comme l’image $u(E)$ de $u$ est séparée et de dimension finie, il existe un voisinage compact A de 0 dans $u(E)$. L’ensemble $V =^-u^1(A)$ est un voisinage de 0 dans E et l’on a $u(V)\subset A$, donc l’application linéaire $u$ est compacte. Cela prouve l’assertion b).
+Soit $u: E\rightarrow F$ une application linéaire continue de rang fini. Comme l’image $u(E)$ de $u$ est séparée et de dimension finie, il existe un voisinage compact A de 0 dans $u(E)$. L’ensemble $V =\overset{-1}{u}(A)$ est un voisinage de 0 dans E et l’on a $u(V)\subset A$, donc l’application linéaire $u$ est compacte. Cela prouve l’assertion b).
 
 Soient $u_1$ et $u_2$ des applications linéaires compactes de E dans F. Soient $V_1$ et $V_2$ des voisinages de 0 dans E tels que les ensembles $u_1(V_1)$ et $u_2(V_2)$ soient relativement compacts dans F. Posons $V = V_1\cap V_2$ et $u=u_1+u_2$. Alors $u(V)$ est contenu dans $u_1(V_1) +u_2(V_2)$, donc est relativement compact dans F, et l’application linéaire $u$ est compacte. Il est immédiat que $\mathscr{L}^c(E; F)$ est stable par homothétie. Cela prouve que $\mathscr{L}^c(E; F)$ est un sous-espace vectoriel de $\mathscr{L}(E; F)$, d’où l’assertion c).
 
@@ -118,7 +118,7 @@ Il existe des espaces de Banach E et F tels que $\mathscr{L}^f(E; F)$ ne soit pa
 
 Soient $E_1$, E, F, $F_1$ des espaces vectoriels topologiques, F et $F_1$ étant supposés séparés. Soient $v: E_1\rightarrow E,u: E\rightarrow F$ et $w: F\rightarrow F_1$ des applications linéaires. Si $v$ et $w$ sont continues et $u$ compacte, alors $w\circ u\circ v$ est compacte.
 
-Par hypothèse, il existe un voisinage V de 0 dans E tel que $u(V)$ soit relativement compact dans F. Posons $U =^-v^1(V)$. Alors U est un voisinage de 0 dans $E_1$ et son image par $w\circ u\circ v$ est contenu dans $w(u$(V)), donc est relativement compact dans $F_1$. Par suite, l’application linéaire $w\circ u\circ v$ est compacte.
+Par hypothèse, il existe un voisinage V de 0 dans E tel que $u(V)$ soit relativement compact dans F. Posons $U =\overset{-1}{v}(V)$. Alors U est un voisinage de 0 dans $E_1$ et son image par $w\circ u\circ v$ est contenu dans $w(u$(V)), donc est relativement compact dans $F_1$. Par suite, l’application linéaire $w\circ u\circ v$ est compacte.
 
 Soit E un espace vectoriel topologique séparé ; d’après les prop. 1 et 3$,\mathscr{L}^c(E)$ est un idéal bilatère de l’algèbre $\mathscr{L}(E)$. Lorsque E est un espace de Banach, $\mathscr{L}(E)$ est une algèbre de Banach et $\mathscr{L}^c(E)$ est un idéal bilatère fermé de $\mathscr{L}(E)$ (cor. de la prop. 2). C’est un idéal propre si E est de dimension infinie (cf. remarque 3, p. 2).
 
@@ -406,7 +406,7 @@ Cela résulte de la prop. 11, c), car l’image d’une partie bornée de F par 
 
 #### Proposition 12 {#ts-iii-s1-prop-12 .statement tag=02P5}
 
-Soient E un espace localement convexe, I un ensemble, et pour chaque $i\in I$, soient $F_i$ un espace localement convexe et $v_i: E\rightarrow F_i$ une application linéaire continue d’image dense. Supposons que pour tout voisinage U de 0 dans E, il existe $i\in I$ et un voisinage V de 0 dans $F_i$ tels que $^-v_i^1(V)\subset U$. Si les $F_i$ sont des espaces d’approximation, alors E en est un également.
+Soient E un espace localement convexe, I un ensemble, et pour chaque $i\in I$, soient $F_i$ un espace localement convexe et $v_i: E\rightarrow F_i$ une application linéaire continue d’image dense. Supposons que pour tout voisinage U de 0 dans E, il existe $i\in I$ et un voisinage V de 0 dans $F_i$ tels que $\overset{-1}{v_{i}}(V)\subset U$. Si les $F_i$ sont des espaces d’approximation, alors E en est un également.
 
 Soient A une partie précompacte de E et U un voisinage de 0 dans E. Il existe par hypothèse $i\in I$ et une semi-norme continue $p$ sur $F_i$ tels que U contienne $(p\circ v_i)^{-1}([0,1])$. Posons $F = F_i,v=v_i$ et $B =v$(A), et supposons que F soit un espace d’approximation. L’ensemble B est précompact dans F. Il existe donc (lemme 2) un entier $n\geqslant 1$, des éléments $y_1, . . . , y_n$ de F et des formes linéaires continues $f_1, . . . , f_n$ sur F, tels que l’on ait, pour tout $y\in B$,
 

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: 814cf1d4a71a20e0200f4c6608ac74c1e5be078e6a50f6d258bd3acab2407719
+content_sha256: 72e1d2e1b8ef797e1776378a0b5492c4995af6d5f7298d97fb0464a58299fa71
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -340,7 +340,7 @@ Dans l’assertion a), dire que la série de terme général $f_n$ converge vers
 
 Démontrons a). D’après la prop. 6 de INT, IV, p. 128, § 3, n$^o3$, il existe un ensemble $\nu$-négligeable $S\subset G/H$ tel que la série de terme général $\|f_n(gH)\|$ converge absolument pour $gH\in /S$. De plus, la fonction $h$ qui est égale à la somme de cette série pour $gH\in /S$ et qui est nulle pour $gH\in S$ vérifie $N_p(h)<+\infty$.
 
-L’ensemble $T =^-\varpi^1(S)$ est négligeable modulo H. Pour tout $g /\in T$, la série de terme général $f_n(g)$ est absolument convergente dans E. Définissons $f(g) =\sum f_n(g)$ pour $g /\in T$ et $f(g) = 0$ sinon. On a $f\in$ $\mathscr{F}_{\pi}(G)$. Notons que $\|f(gH)\|\leqslant h(gH)$ pour tout $g\in G$, d’où $N_p(f)\leqslant$ $N_p(h)<+\infty$. On a donc $f\in \mathscr{F}_{\pi}^p(G)$. De manière similaire, il vient
+L’ensemble $T =\overset{-1}{\varpi}(S)$ est négligeable modulo H. Pour tout $g /\in T$, la série de terme général $f_n(g)$ est absolument convergente dans E. Définissons $f(g) =\sum f_n(g)$ pour $g /\in T$ et $f(g) = 0$ sinon. On a $f\in$ $\mathscr{F}_{\pi}(G)$. Notons que $\|f(gH)\|\leqslant h(gH)$ pour tout $g\in G$, d’où $N_p(f)\leqslant$ $N_p(h)<+\infty$. On a donc $f\in \mathscr{F}_{\pi}^p(G)$. De manière similaire, il vient
 
 $$
 N_pf-\sum_{n=0}^kf_n\leqslant \sum_{n=k+1}^{+\infty}N_p(f_n)

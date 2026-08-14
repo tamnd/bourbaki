@@ -53,7 +53,7 @@ subsections:
       pdf_page: 82
 statements: 35
 exercises: 0
-content_sha256: d05501701d8ed395e4179248f23a02e9c3c5fca53e716e23c1b5529995b2b752
+content_sha256: 06ac51884abdf1f8e49541050b9192c12ec9af5941b31932857a8822d2492cf8
 ---
 
 ## § 3. FAISCEAUX
@@ -140,13 +140,13 @@ Soient $(E, p)$ et $(E', p')$ des B-espaces. Pour tout ouvert U de E, on note $\
 
 Pour tout ouvert U de B, soit $\mathscr{M}(U)$ l’ensemble des U-morphismes
 
-de $^-p^1(U)$ dans $(^-{p'}^1)(U)$. Pour tout couple $(U,V)$ d’ouverts de B tel que $U\subset V$, soit $m_{UV}:\mathscr{M}(V)\rightarrow \mathscr{M}(U)$ l’application qui à un V-morphisme
+de $\overset{-1}{p}(U)$ dans $(^-{p'}^1)(U)$. Pour tout couple $(U,V)$ d’ouverts de B tel que $U\subset V$, soit $m_{UV}:\mathscr{M}(V)\rightarrow \mathscr{M}(U)$ l’application qui à un V-morphisme
 
-$f:^-p^1(V)\rightarrow (^-{p'}^1)(V)$ associe le U-morphisme de $^-p^1(U)$ dans $(^-{p'}^1)(U)$ déduit de $f$ par passage aux sous-ensembles. Alors $(\mathscr{M}(U), m_{UV})$ est un faisceau sur B. On le note $\mathscr{M}$or$_B(E; E')$ et on l’appelle le faisceau sur B des B-morphismes de $(E, p)$ dans $(E', p')$.
+$f:\overset{-1}{p}(V)\rightarrow (^-{p'}^1)(V)$ associe le U-morphisme de $\overset{-1}{p}(U)$ dans $(^-{p'}^1)(U)$ déduit de $f$ par passage aux sous-ensembles. Alors $(\mathscr{M}(U), m_{UV})$ est un faisceau sur B. On le note $\mathscr{M}$or$_B(E; E')$ et on l’appelle le faisceau sur B des B-morphismes de $(E, p)$ dans $(E', p')$.
 
 Pour tout ouvert U de B, soit $\mathscr{I}$s(U) le sous-ensemble de $\mathscr{M}(U)$
 
-constitué des U-isomorphismes de $^-p^1(U)$ dans $(^-{p'}^1)(U)$. La famille $(\mathscr{I}$s(U)) est un sous-faisceau du faisceau $\mathscr{M}$or$_B(E; E')$ des morphismes de $(E, p)$ dans $(E', p')$. Le faisceau ainsi obtenu est noté $\mathscr{I}$som$_B(E; E')$ et appelé faisceau sur B des B-isomorphismes de $(E, p)$ dans $(E', p')$.
+constitué des U-isomorphismes de $\overset{-1}{p}(U)$ dans $(^-{p'}^1)(U)$. La famille $(\mathscr{I}$s(U)) est un sous-faisceau du faisceau $\mathscr{M}$or$_B(E; E')$ des morphismes de $(E, p)$ dans $(E', p')$. Le faisceau ainsi obtenu est noté $\mathscr{I}$som$_B(E; E')$ et appelé faisceau sur B des B-isomorphismes de $(E, p)$ dans $(E', p')$.
 
 5) Faisceaux d’applications de classe $C^r$
 
@@ -268,7 +268,7 @@ Si $\varphi$ est un isomorphisme, Il en est de même de $E(\varphi )$.
 
 Soit $\mathscr{F}$ un faisceau sur B relatif à la base $\mathscr{B}$. Soit $B'$ une partie ouverte de B, soit $\mathscr{B}'$ une base de la topologie de $B'$ telle que $\mathscr{B}'\subset \mathscr{B}$. Soit $\mathscr{F}|\mathscr{B}'$ le préfaisceau sur $B'$ relatif à la base $\mathscr{B}'$ déduit de $\mathscr{F}$ par restriction.
 
-1) L’ensemble $X_{\mathscr{F}|\mathscr{B}'}$ est alors un sous-ensemble de $X_{\mathscr{F}}$ et la relation d’équivalence $R_{\mathscr{F}}$ induit dans $X_{\mathscr{F}|\mathscr{B}'}$ la relation d’équivalence $R_{\mathscr{F}|\mathscr{B}'}$. On en déduit une injection canonique $i$ de $E_{\mathscr{F}|\mathscr{B}'}$ dans $E_{\mathscr{F}}$. Son image est $^-p^1(B')$ car pour tout élément $[U, s, x]$ de $^-p^1(B')$, il existe un élément V de $\mathscr{B}'$ tel que $x\in V$ et $V\subset U$, et l’on a $[U, s, x] =i([V, r_{VU}(s), x])$. L’application $i$ est continue car la topologie de $X_{\mathscr{F}|\mathscr{B}'}$ est la plus fine rendant continues les applications définies par $x\mapsto [U, s, x]$, pour $U\in \mathscr{B}'$ et $s\in \mathscr{F}(U)$. D’après le corollaire 2 de I, p. 30 de la proposition 6, l’injection canonique $i$ de $E_{\mathscr{F}|\mathscr{B}'}$ dans $E_{\mathscr{F}}$ induit un $B'$-isomorphisme de $E_{\mathscr{F}|\mathscr{B}'}$ sur $^-p^1(B')$.
+1) L’ensemble $X_{\mathscr{F}|\mathscr{B}'}$ est alors un sous-ensemble de $X_{\mathscr{F}}$ et la relation d’équivalence $R_{\mathscr{F}}$ induit dans $X_{\mathscr{F}|\mathscr{B}'}$ la relation d’équivalence $R_{\mathscr{F}|\mathscr{B}'}$. On en déduit une injection canonique $i$ de $E_{\mathscr{F}|\mathscr{B}'}$ dans $E_{\mathscr{F}}$. Son image est $\overset{-1}{p}(B')$ car pour tout élément $[U, s, x]$ de $\overset{-1}{p}(B')$, il existe un élément V de $\mathscr{B}'$ tel que $x\in V$ et $V\subset U$, et l’on a $[U, s, x] =i([V, r_{VU}(s), x])$. L’application $i$ est continue car la topologie de $X_{\mathscr{F}|\mathscr{B}'}$ est la plus fine rendant continues les applications définies par $x\mapsto [U, s, x]$, pour $U\in \mathscr{B}'$ et $s\in \mathscr{F}(U)$. D’après le corollaire 2 de I, p. 30 de la proposition 6, l’injection canonique $i$ de $E_{\mathscr{F}|\mathscr{B}'}$ dans $E_{\mathscr{F}}$ induit un $B'$-isomorphisme de $E_{\mathscr{F}|\mathscr{B}'}$ sur $\overset{-1}{p}(B')$.
 
 En particulier, lorsque $B'$ est égal à B$,i: E_{\mathscr{F}|\mathscr{B}'}\rightarrow E_{\mathscr{F}}$ est un B-isomorphisme d’espaces étalés.
 
@@ -442,11 +442,11 @@ Ces résultats permettent de déduire un énoncé relatif aux B-espaces étalés
 
 Soient A et B des espaces topologiques et $u: A\rightarrow B$ une application continue.
 
-Soit $\mathscr{F}= (\mathscr{F}(U), f_{UV})$ un préfaisceau sur A. On définit un préfaisceau $\mathscr{F}'$ sur B de la façon suivante : pour tout ouvert U de B, posons $\mathscr{F}'(U) =\mathscr{F}(^-u^1(U))$ et pour tout couple $(U,V)$ d’ouverts de B tel que U $\subset V$, posons $f_{UV}'=f_{_-u^1(U)^-u^1(V)}$. Alors $(\mathscr{F}'(U), f_{UV}'$ ) est un préfaisceau sur B. On le note $u_*(\mathscr{F})$ et on l’appelle le préfaisceau image directe du préfaisceau $\mathscr{F}$ par l’application $u$.
+Soit $\mathscr{F}= (\mathscr{F}(U), f_{UV})$ un préfaisceau sur A. On définit un préfaisceau $\mathscr{F}'$ sur B de la façon suivante : pour tout ouvert U de B, posons $\mathscr{F}'(U) =\mathscr{F}(\overset{-1}{u}(U))$ et pour tout couple $(U,V)$ d’ouverts de B tel que U $\subset V$, posons $f_{UV}'=f_{_-u^1(U)^-u^1(V)}$. Alors $(\mathscr{F}'(U), f_{UV}'$ ) est un préfaisceau sur B. On le note $u_*(\mathscr{F})$ et on l’appelle le préfaisceau image directe du préfaisceau $\mathscr{F}$ par l’application $u$.
 
-Si $(U_i)_{i\in I}$ est une famille d’ouverts de B, on a $^-u^1(\bigcup_{i\in I}U_i) =$ $\bigcup_{i\in I}^-u^1(U_i)$ et $^-u^1(\bigcap_{i\in I}U_i) =\bigcap_{i\in I}^-u^1(U_i)$ (E, II, p. 25, prop. 3 et 4). Il en résulte aussitôt que, si $\mathscr{F}$ jouit de la propriété $(F_1)$ (resp. $(F_2)$) des faisceaux (I, p. 43), il en est de même de $u_*(\mathscr{F})$. Par suite, l’image directe d’un faisceau est un faisceau.
+Si $(U_i)_{i\in I}$ est une famille d’ouverts de B, on a $\overset{-1}{u}(\bigcup_{i\in I}U_i) =$ $\bigcup_{i\in I}\overset{-1}{u}(U_i)$ et $\overset{-1}{u}(\bigcap_{i\in I}U_i) =\bigcap_{i\in I}\overset{-1}{u}(U_i)$ (E, II, p. 25, prop. 3 et 4). Il en résulte aussitôt que, si $\mathscr{F}$ jouit de la propriété $(F_1)$ (resp. $(F_2)$) des faisceaux (I, p. 43), il en est de même de $u_*(\mathscr{F})$. Par suite, l’image directe d’un faisceau est un faisceau.
 
-Soient $\mathscr{F}_1$ et $\mathscr{F}_2$ des préfaisceaux sur A et soit $\varphi :\mathscr{F}_1\rightarrow \mathscr{F}_2$ un morphisme de préfaisceaux. Il existe alors un unique morphisme de préfaisceaux $u_*\varphi :u_*\mathscr{F}_1\rightarrow u_*\mathscr{F}_2$ tel que pour tout ouvert U de B, l’application $(u_*\varphi )(U): (u_*\mathscr{F}_1)(U)\rightarrow (u_*\mathscr{F}_2)(U)$ soit l’application $\varphi (^-u^1(U)):\mathscr{F}_1(^-u^1(U))\rightarrow \mathscr{F}_2(^-u^1(U))$. Si $\mathscr{F}_3$ est un préfaisceau sur A et si $\psi :\mathscr{F}_2\rightarrow \mathscr{F}_3$ est un morphisme de préfaisceaux, on a $u_*(\psi \circ \varphi ) =u_*(\psi )\circ u_*(\varphi )$.
+Soient $\mathscr{F}_1$ et $\mathscr{F}_2$ des préfaisceaux sur A et soit $\varphi :\mathscr{F}_1\rightarrow \mathscr{F}_2$ un morphisme de préfaisceaux. Il existe alors un unique morphisme de préfaisceaux $u_*\varphi :u_*\mathscr{F}_1\rightarrow u_*\mathscr{F}_2$ tel que pour tout ouvert U de B, l’application $(u_*\varphi )(U): (u_*\mathscr{F}_1)(U)\rightarrow (u_*\mathscr{F}_2)(U)$ soit l’application $\varphi (\overset{-1}{u}(U)):\mathscr{F}_1(\overset{-1}{u}(U))\rightarrow \mathscr{F}_2(\overset{-1}{u}(U))$. Si $\mathscr{F}_3$ est un préfaisceau sur A et si $\psi :\mathscr{F}_2\rightarrow \mathscr{F}_3$ est un morphisme de préfaisceaux, on a $u_*(\psi \circ \varphi ) =u_*(\psi )\circ u_*(\varphi )$.
 
 Soit C un espace topologique et soit $v: B\rightarrow$ C une application continue. Si $\mathscr{F}$ est un préfaisceau sur A, les préfaisceaux $v_*(u_*(\mathscr{F}))$ et $(v\circ u)_*(\mathscr{F})$ coïncident. Si $\varphi :\mathscr{F}_1\rightarrow \mathscr{F}_2$ est un morphisme de préfaisceaux sur A, on a l’égalité $v_*(u_*(\varphi )) = (v\circ u)_*(\varphi )$.
 
@@ -476,19 +476,19 @@ Supposons que A soit un sous-espace ouvert de B et soit $\mathscr{G}$ un faiscea
 
 ### 8. Les homomorphismes $\alpha \mathbf{e}\mathbf{t}\beta$ ; adjonction
 
-Soient A et B des espaces topologiques et soit $u: A\rightarrow B$ une application continue. Soit $\mathscr{G}$ un préfaisceau sur B. Par définition de l’image directe de préfaisceaux, une section du faisceau $u_*u^*\mathscr{G}$ au-dessus d’un ouvert U de B est une section du faisceau $u^*\mathscr{G}$ au-dessus de l’ouvert $^-u^1(U)$ de A, c’est-à-dire un B-morphisme $^-u^1(U)\rightarrow E_{\mathscr{G}}$. On définit ainsi un morphisme de faisceaux $\widetilde{\mathscr{G}}\rightarrow u_*u^*\mathscr{G}$ en associant à la section $s$ de $E_{\mathscr{G}}$ au-dessus d’un ouvert U de B la section $s\circ u$ de $E_{\mathscr{G}}$ au-dessus de $^-u^1(U)$. La composition de ce morphisme et du morphisme canonique $\sigma_{\mathscr{G}}:\mathscr{G}\rightarrow \widetilde{\mathscr{G}}$ (I, p. 53) est un morphisme de préfaisceaux $\mathscr{G}\rightarrow u_*u^*\mathscr{G}$ que l’on notera $\beta_{\mathscr{G}}^u$, voire $\beta_{\mathscr{G}}$ s’il n’y a pas d’ambiguïté sur l’application $u$.
+Soient A et B des espaces topologiques et soit $u: A\rightarrow B$ une application continue. Soit $\mathscr{G}$ un préfaisceau sur B. Par définition de l’image directe de préfaisceaux, une section du faisceau $u_*u^*\mathscr{G}$ au-dessus d’un ouvert U de B est une section du faisceau $u^*\mathscr{G}$ au-dessus de l’ouvert $\overset{-1}{u}(U)$ de A, c’est-à-dire un B-morphisme $\overset{-1}{u}(U)\rightarrow E_{\mathscr{G}}$. On définit ainsi un morphisme de faisceaux $\widetilde{\mathscr{G}}\rightarrow u_*u^*\mathscr{G}$ en associant à la section $s$ de $E_{\mathscr{G}}$ au-dessus d’un ouvert U de B la section $s\circ u$ de $E_{\mathscr{G}}$ au-dessus de $\overset{-1}{u}(U)$. La composition de ce morphisme et du morphisme canonique $\sigma_{\mathscr{G}}:\mathscr{G}\rightarrow \widetilde{\mathscr{G}}$ (I, p. 53) est un morphisme de préfaisceaux $\mathscr{G}\rightarrow u_*u^*\mathscr{G}$ que l’on notera $\beta_{\mathscr{G}}^u$, voire $\beta_{\mathscr{G}}$ s’il n’y a pas d’ambiguïté sur l’application $u$.
 
 #### Remarque 1 {#ta-i-s3-n8-rem-1 .statement tag=01OH}
 
 Soient A, B, C des espaces topologiques, soient $u: A\rightarrow B,v: B\rightarrow C$ des applications continues ; posons $w=v\circ u$. Soit $\mathscr{G}$ un préfaisceau sur C.
 
-Soient U un ouvert de C et $s$ une section de $E_{\mathscr{G}}$ au-dessus de U. Alors, $\beta_{\mathscr{G}}^v(s)$ est la section $s\circ v$ de $E_{\mathscr{G}}$ au-dessus de $^-v^1(U)$, et $v_*(\beta_v^{u_*}_{\mathscr{G}})(\beta^v_{\mathscr{G}}(s))$ est la section $s\circ v\circ u=s\circ w$ de $E_{\mathscr{G}}$ au-dessus de $^-u^1(^-v^1(U)) =^-w^1(U)$.
+Soient U un ouvert de C et $s$ une section de $E_{\mathscr{G}}$ au-dessus de U. Alors, $\beta_{\mathscr{G}}^v(s)$ est la section $s\circ v$ de $E_{\mathscr{G}}$ au-dessus de $\overset{-1}{v}(U)$, et $v_*(\beta_v^{u_*}_{\mathscr{G}})(\beta^v_{\mathscr{G}}(s))$ est la section $s\circ v\circ u=s\circ w$ de $E_{\mathscr{G}}$ au-dessus de $\overset{-1}{u}(\overset{-1}{v}(U)) =\overset{-1}{w}(U)$.
 
 Il en résulte l’égalité $\beta_{\mathscr{G}}^w=v_*(\beta_v^{u_*}_{\mathscr{G}})\circ \beta_{\mathscr{G}}^v$.
 
 #### Remarque 2 {#ta-i-s3-n8-rem-2 .statement tag=01OI}
 
-Si $\gamma :\mathscr{G}_1\rightarrow \mathscr{G}_2$ est un morphisme de préfaisceaux sur B, les morphismes de préfaisceaux $\beta_{\mathscr{G}_2}\circ \gamma$ et $u_*u^*(\gamma )\circ \beta_{\mathscr{G}_1}$ sont égaux. En effet, si V est un ouvert de B et $s\in \mathscr{G}_1(V),\beta_{\mathscr{G}_1}(s)$ est la section $t$ de $A\times_BE_{\mathscr{G}_1}$ au-dessus de $^-u^1(V)$, définie par $x\mapsto (x,[V, s, u(x)])$. L’image de $t$ par $u^*(\gamma )$ est ainsi la section de $A\times_BE_{\mathscr{G}_2}$ au-dessus de $^-u^1(V)$ donnée par $x\mapsto (x,[V, \gamma (s), u(x)])$. Il en résulte bien que $u_*u^*(\gamma )\circ \beta_{\mathscr{G}_1}(s) =\beta_{\mathscr{G}_2}(\gamma (s))$.
+Si $\gamma :\mathscr{G}_1\rightarrow \mathscr{G}_2$ est un morphisme de préfaisceaux sur B, les morphismes de préfaisceaux $\beta_{\mathscr{G}_2}\circ \gamma$ et $u_*u^*(\gamma )\circ \beta_{\mathscr{G}_1}$ sont égaux. En effet, si V est un ouvert de B et $s\in \mathscr{G}_1(V),\beta_{\mathscr{G}_1}(s)$ est la section $t$ de $A\times_BE_{\mathscr{G}_1}$ au-dessus de $\overset{-1}{u}(V)$, définie par $x\mapsto (x,[V, s, u(x)])$. L’image de $t$ par $u^*(\gamma )$ est ainsi la section de $A\times_BE_{\mathscr{G}_2}$ au-dessus de $\overset{-1}{u}(V)$ donnée par $x\mapsto (x,[V, \gamma (s), u(x)])$. Il en résulte bien que $u_*u^*(\gamma )\circ \beta_{\mathscr{G}_1}(s) =\beta_{\mathscr{G}_2}(\gamma (s))$.
 
 #### Proposition 4 {#ta-i-s3-prop-4 .statement tag=01OJ}
 
@@ -515,7 +515,7 @@ où $u^*(\sigma_{\mathscr{G}}):u^*(\mathscr{G})\rightarrow u^*(\widetilde{\maths
 Nous p$\widetilde{o}$uvons donc supposer que $\mathscr{G}$ est un faisceau. Pour qu’un morphisme de faisceaux $\psi :u^*(\mathscr{G})\rightarrow \mathscr{F}$ satisfasse à la conclusion de la proposition 4, il faut et il suffit que pour tout ouvert V de B et toute section $t$ de $E_{\mathscr{G}}$ au-dessus de V, on ait
 
 $$
-\varphi_V(t) =\psi_{_-u^1(V)}(t\circ u|^-u^1(V)) \tag{6}
+\varphi_V(t) =\psi_{_-u^1(V)}(t\circ u|\overset{-1}{u}(V)) \tag{6}
 $$
 
 Soit $U_0$ un ouvert de A et $s_0$ un élément de $u^*(\mathscr{G})(U_0)$, autrement dit un B-morphisme de $U_0$ dans $E_{\mathscr{G}}$. Soit $S(U_0, s_0)$ l’ensemble des triplets $(U,V, t)$ où U est un ouvert de A contenu dans $U_0$, V est un ouvert de B tel que $u(U)\subset V$ et $t$ une section de $E_{\mathscr{G}}$ au-dessus de V telle que l’on ait
@@ -535,7 +535,7 @@ $$
 $$
 
 $$
-=f_{U^-u^1(V)}(\psi_{_-u^1(V)}(t\circ u|^-u^1(V)))
+=f_{U^-u^1(V)}(\psi_{_-u^1(V)}(t\circ u|\overset{-1}{u}(V)))
 $$
 
 Par suite, si $\psi :u^*(\mathscr{G})\rightarrow \mathscr{F}$ satisfait à (6), on a
@@ -544,7 +544,7 @@ $$
 f_{UU_0}(\psi_{U_0}(s_0)) =f_{U^-u^1(V)}(\varphi_V(t)) \tag{8}
 $$
 
-Démontrons que, pour tout point $a$ de $U_0$, il existe un triplet $(U,V, t)\in S(U_0, s_0)$ tel que $a\in U$. Soit en effet $a$ un point de $U_0$. Il existe un voisinage ouvert V de B contenant $u(a)$ et une section $t$ de l’espace étalé $E_{\mathscr{G}}$ au-dessus de V telle que $t(u(a)) =s_0(a)$ (I, p. 33, prop. 9). Soit $U_1=^-u^1(V)\cap U_0$. Les sections $s_0|U_1$ et $t\circ u|U_1$ du $U_1$-espace étalé $E_{\mathscr{G}}\times_BU_1$ coïncident au point $a$. D’après la proposition 11, b) de I, p. 34, l’ensemble des points où elles coïncident est un ouvert U de $U_1$ qui contient $a$. Le triplet $(U,V, t)$ appartient alors à $S(U_0, s_0)$.
+Démontrons que, pour tout point $a$ de $U_0$, il existe un triplet $(U,V, t)\in S(U_0, s_0)$ tel que $a\in U$. Soit en effet $a$ un point de $U_0$. Il existe un voisinage ouvert V de B contenant $u(a)$ et une section $t$ de l’espace étalé $E_{\mathscr{G}}$ au-dessus de V telle que $t(u(a)) =s_0(a)$ (I, p. 33, prop. 9). Soit $U_1=\overset{-1}{u}(V)\cap U_0$. Les sections $s_0|U_1$ et $t\circ u|U_1$ du $U_1$-espace étalé $E_{\mathscr{G}}\times_BU_1$ coïncident au point $a$. D’après la proposition 11, b) de I, p. 34, l’ensemble des points où elles coïncident est un ouvert U de $U_1$ qui contient $a$. Le triplet $(U,V, t)$ appartient alors à $S(U_0, s_0)$.
 
 La formule (8) et la propriété $(F_1)$ des faisceaux (I, p. 43) entraînent alors l’unicité de $\psi$.
 
@@ -576,7 +576,7 @@ $$
 
 Par définition de $\psi_{U_1}(s_1)$, on a donc $\psi_{U_1}(s_1) =f_{U_1U_0}(\psi_{U_0}(s_0))$. Cela prouve que la famille $\psi = (\psi_U)$ est un morphisme de faisceaux de $u^*(\mathscr{G})$ dans $\mathscr{F}$.
 
-Démontrons que $\psi$ satisfait à la relation (6). Soient ainsi V un ouvert de B et $t$ une section de $E_{\mathscr{G}}$ au-dessus de V. Si U = $^-u^1(V)$ et si $s=t\circ u|U$, le triplet $(U,V, t)$ appartient à $S(U, s)$ et la relation (6) est conséquence immédiate de la relation (10), appliquée à $U = U_0$.
+Démontrons que $\psi$ satisfait à la relation (6). Soient ainsi V un ouvert de B et $t$ une section de $E_{\mathscr{G}}$ au-dessus de V. Si U = $\overset{-1}{u}(V)$ et si $s=t\circ u|U$, le triplet $(U,V, t)$ appartient à $S(U, s)$ et la relation (6) est conséquence immédiate de la relation (10), appliquée à $U = U_0$.
 
 #### Proposition 5 {#ta-i-s3-prop-5 .statement tag=01OK}
 
@@ -652,7 +652,7 @@ Soit $\mathscr{F}$ un faisceau sur B. Le faisceau $\mathscr{F}$ est mou si et se
 
 Si $\mathscr{F}$ est un faisceau mou, $\mathscr{F}(B)$ est non vide : en effet, l’unique section de l’espace étalé $E_{\mathscr{F}}$ associé à $\mathscr{F}$ au-dessus de $\emptyset$ se prolonge en une section continue de $E_{\mathscr{F}}$ au-dessus de B.
 
-Soit $p: E\rightarrow B$ une application étale et soit A un sous-espace fermé de B. Si $p$ est molle, l’application $p_A:^-p^1(A)\rightarrow A$ est molle. De façon équivalente, si $\mathscr{F}$ est un faisceau mou sur B, le faisceau induit sur un sous-espace fermé A est mou.
+Soit $p: E\rightarrow B$ une application étale et soit A un sous-espace fermé de B. Si $p$ est molle, l’application $p_A:\overset{-1}{p}(A)\rightarrow A$ est molle. De façon équivalente, si $\mathscr{F}$ est un faisceau mou sur B, le faisceau induit sur un sous-espace fermé A est mou.
 
 #### Proposition 6 {#ta-i-s3-prop-6 .statement tag=01OO}
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 149
 statements: 37
 exercises: 0
-content_sha256: e86d8db84fe3e6a37959e0712dfd6cbce9d8a02da41570ad2a6d08154437d003
+content_sha256: 5fa1ebc59a10f6a673a510f911681e8878e30d086930fb7db2d0a12489fbfa8e
 ---
 
 ## § 6. ESPACES SIMPLEMENT CONNEXES
@@ -174,7 +174,7 @@ Soient B un espace topologique simplement connexe et $(E, p)$ un revêtement de 
 
 #### Remarque 2 {#ta-i-s6-n3-rem-2 .statement tag=01S0}
 
-Soit B un espace topologique dont tout point possède un voisinage simplement connexe ; alors tout revêtement d’un revêtement de B est un revêtement de B. Considérons en effet un revêtement $(E, p)$ de B ainsi qu’un revêtement $(F, q)$ de E. Démontrons que $(F, p\circ q)$ est un revêtement de B. La question étant locale dans B, nous pouvons supposer que l’espace B est simplement connexe et donc que E est un revêtement trivialisable de B. Soit V une composante connexe de E. Elle est ouverte et fermée et $p|V: V\rightarrow B$ est un homéomorphisme (I, p. 69, proposition 1) ; par suite, l’espace V est simplement connexe. Toute composante connexe W de $^-q^1(V)$ est ouverte et fermée dans $^-q^1(V)$, donc dans F et l’application $q$ induit un homéomorphisme de W sur V. L’application $p\circ q$ fait donc de F un revêtement de B, trivialisable (loc. cit.).
+Soit B un espace topologique dont tout point possède un voisinage simplement connexe ; alors tout revêtement d’un revêtement de B est un revêtement de B. Considérons en effet un revêtement $(E, p)$ de B ainsi qu’un revêtement $(F, q)$ de E. Démontrons que $(F, p\circ q)$ est un revêtement de B. La question étant locale dans B, nous pouvons supposer que l’espace B est simplement connexe et donc que E est un revêtement trivialisable de B. Soit V une composante connexe de E. Elle est ouverte et fermée et $p|V: V\rightarrow B$ est un homéomorphisme (I, p. 69, proposition 1) ; par suite, l’espace V est simplement connexe. Toute composante connexe W de $\overset{-1}{q}(V)$ est ouverte et fermée dans $\overset{-1}{q}(V)$, donc dans F et l’application $q$ induit un homéomorphisme de W sur V. L’application $p\circ q$ fait donc de F un revêtement de B, trivialisable (loc. cit.).
 
 #### Proposition 3 {#ta-i-s6-prop-3 .statement tag=01S1}
 
@@ -202,7 +202,7 @@ Soient X et Y des espaces simplement connexes et supposons que Y soit localement
 
 Un espace topologique connexe et localement connexe, tel que l’intersection de deux parties ouvertes connexes quelconques soit connexe, est un espace simplement connexe.
 
-Soit B un tel espace topologique. Soit $(E, p)$ un revêtement de B, soit $x$ un point de E et notons $b=p(x)$. Il s’agit de démontrer qu’il existe une section continue $s$ de $p$ telle que $s(b) =x$ (cor. 2, I, p. 70). Soit $\mathscr{S}$ l’ensemble des couples $(U, s_U)$ où U est une partie ouverte connexe de B contenant $b$ et $s_U$ une section continue de $p_U:^-p^1(U)\rightarrow U$ telle que $s_U(b) =x$. L’ensemble $\mathscr{S}$ n’est pas vide ( I, p. 34, prop. 10). Soient $(U, s_U)$ et $(V, s_V)$ des éléments de $\mathscr{S}$. Alors, $s_U|U\cap V$ et $s_V|U\cap V$ sont des sections continues de $p_{U\cap V}$ qui prennent la valeur $x$ en $b$. Par hypothèse, $U\cap V$ est connexe ; on a donc $s_U|U\cap V =s_V|U\cap V$ (I, p. 34, cor. 1 de la prop. 11). Soit A la réunion des ouverts U lorsque $(U, s_U)$ parcourt $\mathscr{S}$ et soit $s: A\rightarrow E$ l’unique application telle que $s|U =s_U$ pour tout couple $(U, s_U)\in \mathscr{S}$. L’ensemble A est ouvert et connexe (TG, I, p. 81, prop. 2), il contient $b$, et $s$ est une section continue de $p_A$ telle que $s(b) =x$. Il suffit maintenant de démontrer que l’ensemble A est fermé, ce qui entraînera qu’il est égal à B.
+Soit B un tel espace topologique. Soit $(E, p)$ un revêtement de B, soit $x$ un point de E et notons $b=p(x)$. Il s’agit de démontrer qu’il existe une section continue $s$ de $p$ telle que $s(b) =x$ (cor. 2, I, p. 70). Soit $\mathscr{S}$ l’ensemble des couples $(U, s_U)$ où U est une partie ouverte connexe de B contenant $b$ et $s_U$ une section continue de $p_U:\overset{-1}{p}(U)\rightarrow U$ telle que $s_U(b) =x$. L’ensemble $\mathscr{S}$ n’est pas vide ( I, p. 34, prop. 10). Soient $(U, s_U)$ et $(V, s_V)$ des éléments de $\mathscr{S}$. Alors, $s_U|U\cap V$ et $s_V|U\cap V$ sont des sections continues de $p_{U\cap V}$ qui prennent la valeur $x$ en $b$. Par hypothèse, $U\cap V$ est connexe ; on a donc $s_U|U\cap V =s_V|U\cap V$ (I, p. 34, cor. 1 de la prop. 11). Soit A la réunion des ouverts U lorsque $(U, s_U)$ parcourt $\mathscr{S}$ et soit $s: A\rightarrow E$ l’unique application telle que $s|U =s_U$ pour tout couple $(U, s_U)\in \mathscr{S}$. L’ensemble A est ouvert et connexe (TG, I, p. 81, prop. 2), il contient $b$, et $s$ est une section continue de $p_A$ telle que $s(b) =x$. Il suffit maintenant de démontrer que l’ensemble A est fermé, ce qui entraînera qu’il est égal à B.
 
 Soit $a$ un point de B adhérent à A et soit V un voisinage ouvert connexe de $a$ tel que le revêtement E soit trivialisable au-dessus de V. Il existe un point $c$ dans $A\cap V$ et une section continue $s_V$ de $p_V$ telle que $s_V(c) =s(c)$. Soit $A'$ l’ouvert $A\cup V$. Comme $A\cap V$ est connexe, il existe une section continue $s'$ de $p_{A'}$ qui prolonge $s$ et $s_V($I, p. 35, cor. 3 de la prop. 11) ; le couple $(A', s')$ appartient à $\mathscr{S}$ et $A'$ est donc contenu dans A. Par suite, $a$ appartient à A et A est fermé.
 
@@ -254,9 +254,9 @@ Pour $i\in  \{1,2\}$, l’application canonique $g_i$ de $Y_i$ dans Y est un hom
 
 Pour $x\in U$ et $n\in \mathbf{Z}$, on a (pr$_1\circ h)(x, n) =x=$ pr$_1(x, n)$. Il existe donc une unique application continue $p: Y\rightarrow X$ telle que $p\circ g_i=$ pr$_1$ pour $i\in  \{1,2\}$. Démontrons que le X-espace $(Y, p)$ est un revêtement. Par construction, les fibres de l’application $p$ sont homéomorphes à l’espace discret $\mathbf{Z}$.
 
-Pour $i\in  \{1,2\}$, l’application $g_i$ définit par passage aux sous-espaces un isomorphisme de $U_i$-espaces de $U_i\times \mathbf{Z}$ sur $^-p^1(U_i)$.
+Pour $i\in  \{1,2\}$, l’application $g_i$ définit par passage aux sous-espaces un isomorphisme de $U_i$-espaces de $U_i\times \mathbf{Z}$ sur $\overset{-1}{p}(U_i)$.
 
-Par définition de l’espace Y, il existe une unique application $k$ de $(X-A)\times \mathbf{Z}$ dans Y telle que $k(x, n) =g_1(x, n)$ pour $x\in (U_1-A)\times \mathbf{Z}$ et $k(x, n) =g_2(x, n-1)$ pour $x\in (U_2-A)\times \mathbf{Z}$; c’est un isomorphisme de (X-A)-espaces de $(X-A)\times \mathbf{Z}$ sur $^-p^1(X-A)$. De même, il existe une unique application $k'$ de $(X-B)\times \mathbf{Z}$ dans Y qui coïncide avec $g_1$ dans $(U_1-B)\times \mathbf{Z}$ et avec $g_2$ dans $(U_2-B)\times \mathbf{Z}$ et c’est un isomorphisme de (X-B)-espaces de $(X-B)\times \mathbf{Z}$ sur $^-p^1(X-B)$.
+Par définition de l’espace Y, il existe une unique application $k$ de $(X-A)\times \mathbf{Z}$ dans Y telle que $k(x, n) =g_1(x, n)$ pour $x\in (U_1-A)\times \mathbf{Z}$ et $k(x, n) =g_2(x, n-1)$ pour $x\in (U_2-A)\times \mathbf{Z}$; c’est un isomorphisme de (X-A)-espaces de $(X-A)\times \mathbf{Z}$ sur $\overset{-1}{p}(X-A)$. De même, il existe une unique application $k'$ de $(X-B)\times \mathbf{Z}$ dans Y qui coïncide avec $g_1$ dans $(U_1-B)\times \mathbf{Z}$ et avec $g_2$ dans $(U_2-B)\times \mathbf{Z}$ et c’est un isomorphisme de (X-B)-espaces de $(X-B)\times \mathbf{Z}$ sur $\overset{-1}{p}(X-B)$.
 
 Cela démontre que le X-espace $(Y, p)$ est trivialisable au-dessus des parties $U_1,U_2$, X-A et X-B. On a $U_1\cup U_2= X$; si $U_1$ et $U_2$ sont ouverts dans X, cela démontre que $(Y, p)$ est un revêtement de X. Il en est de même lorsque $U_1$ et $U_2$ sont fermés dans X car alors, X-A et X-B sont des ouverts de X dont la réunion est X. La proposition est ainsi démontrée.
 
@@ -270,11 +270,11 @@ Soient $X_1$ et $X_2$ les adhérences de A et de X-A respectivement. Les ensembl
 
 #### Proposition 8 {#ta-i-s6-prop-8 .statement tag=01SD}
 
-Soit B un espace topologique. Soit T un espace simplement connexe et localement connexe. Soit E un revêtement de $B\times T$, de projection $p$, et soit $t$ un point de T. Notons $E_t$ l’espace $^-p^1(B\times  \{t\})$ ; muni de l’application $p_t=$ pr$_1\circ p|E_t: E_t\rightarrow B$, c’est un revêtement de B. Il existe alors un unique $(B\times T)$-isomorphisme du revêtement $(E_t\times T, p_t\times$ Id$_T)$ sur le revêtement E qui applique $(x, t)$ sur $x$ pour tout $x\in E_t$.
+Soit B un espace topologique. Soit T un espace simplement connexe et localement connexe. Soit E un revêtement de $B\times T$, de projection $p$, et soit $t$ un point de T. Notons $E_t$ l’espace $\overset{-1}{p}(B\times  \{t\})$ ; muni de l’application $p_t=$ pr$_1\circ p|E_t: E_t\rightarrow B$, c’est un revêtement de B. Il existe alors un unique $(B\times T)$-isomorphisme du revêtement $(E_t\times T, p_t\times$ Id$_T)$ sur le revêtement E qui applique $(x, t)$ sur $x$ pour tout $x\in E_t$.
 
 On peut supposer que B n’est pas vide. Soit $x$ un point de $E_t$. D’après la proposition 3 de I, p. 125 appliquée au revêtement E et à l’application continue $T\rightarrow B\times T,u\mapsto (p_t(x), u)$, il existe une unique application continue $f_x: T\rightarrow E$ telle que $f_x(t) =x$ et $p(f_x(u)) =$ $(p_t(x), u)$ pour tout $u\in T$. Soit $h: E_t\times T\rightarrow E$ l’application définie par $h(x, u) =f_x(u)$. On a $h(x, t) =x$ et $p\circ h=p_t\times$ Id$_T$. L’application $h$ est un relèvement à E de l’application $p_t\times$ Id$_T$. La restriction de $h$ à $E_t\times  \{t\}$ est continue, de même que la restriction de $h$ à $\{x\} \times T$ pour tout point $x$ de $E_t$. Comme l’espace T est localement connexe, l’application $h$ est continue ( I, p. 37, cor. 1 du th. 1).
 
-Soit $b$ un point de B. Par construction, l’application $h$ induit une bijection de la fibre $^-p^1_t(b)\times  \{t\}$ de $E_t\times T$ sur la fibre $^-p^1(b, t)$ de E en $(b, t)$. Comme l’espace T est connexe et localement connexe, l’application $h$ est bijective (I, p. 84, cor. de la prop. 7). C’est donc un $B\times T$-isomorphisme (I, p. 30, cor. 2 de la prop. 6).
+Soit $b$ un point de B. Par construction, l’application $h$ induit une bijection de la fibre $\overset{-1}{p_{t}}(b)\times  \{t\}$ de $E_t\times T$ sur la fibre $\overset{-1}{p}(b, t)$ de E en $(b, t)$. Comme l’espace T est connexe et localement connexe, l’application $h$ est bijective (I, p. 84, cor. de la prop. 7). C’est donc un $B\times T$-isomorphisme (I, p. 30, cor. 2 de la prop. 6).
 
 Soit $h'$ un $(B\times T)$-isomorphisme du revêtement $(E_t\times T, p_t\times$ Id$_T)$ sur le revêtement E qui applique $(x, t)$ sur $x$ pour tout point $x\in E_t$. Pour tout $x\in E_t$, les applications $u\mapsto h(x, u)$ et $u\mapsto h'(x, u)$ sont égales (I, p. 34, cor. 1 de la prop. 11). On a donc $h=h'$.
 
@@ -324,7 +324,7 @@ a) L’application $f\mapsto g\circ f$ de $\mathscr{C}_c(X; Y)$ dans $\mathscr{C
 
 b) Si l’espace topologique Z est séparé, l’application $h\mapsto h\circ g$ de $\mathscr{C}_c(Z; X)$ dans $\mathscr{C}_c(Y; X)$ est continue.
 
-Étant données une partie compacte K de X, une partie ouverte U de Z et une application continue $f$ de X dans Y, pour que l’on ait $(g\circ f)(K)\subset U$, il faut et il suffit que l’on ait $f(K)\subset^-g^1(U)$. La première assertion résulte donc de la définition de la topologie de la convergence compacte (TG, X, p. 26, déf. 1).
+Étant données une partie compacte K de X, une partie ouverte U de Z et une application continue $f$ de X dans Y, pour que l’on ait $(g\circ f)(K)\subset U$, il faut et il suffit que l’on ait $f(K)\subset \overset{-1}{g}(U)$. La première assertion résulte donc de la définition de la topologie de la convergence compacte (TG, X, p. 26, déf. 1).
 
 De même, soient K une partie compacte de Y et U une partie ouverte de X. Comme l’espace Z est supposé séparé, l’ensemble $g(K)$ est compact (TG, I, p. 63, cor. 1). Si $h$ est une application de Z dans X, la condition $(h\circ g)(K)\subset U$ n’est autre que la condition $h(g(K))\subset U$, d’où la deuxième assertion.
 
@@ -394,9 +394,9 @@ Soient $g\in F$ et $s\in S$. Soient $u$ et $v$ des éléments de M tels que $v=s
 
 #### Lemme 6 {#ta-i-s6-lem-6 .statement tag=01SO}
 
-Pour tout $x\in X$, le groupe N opère fidèlement et transitivement sur la fibre $^-p^1(x)$.
+Pour tout $x\in X$, le groupe N opère fidèlement et transitivement sur la fibre $\overset{-1}{p}(x)$.
 
-Comme $p$ est surjective, la fibre $^-p^1(x)$ n’est pas vide. Soient $y, y'\in$ $^-p^1(x)$ ; démontrons qu’il existe un unique élément $n\in$ N tel que $n\cdot y=y'$. Soient $g, h\in$ F et soient $u, v\in$ M tels que $y=\pi (g, u)$ et $y'=\pi (h, v)$. Posons $s=\varphi (g^{-1}h)$. Comme $x=\varphi (g)\cdot u=\varphi (h)\cdot v$, on a $u=s\cdot v$, d’où $s\in S$. Il s’ensuit que $\varphi (h) =\varphi (gx_s)$, si bien qu’il existe $n\in N$ tel que $h=ngx_s$. Alors,
+Comme $p$ est surjective, la fibre $\overset{-1}{p}(x)$ n’est pas vide. Soient $y, y'\in$ $\overset{-1}{p}(x)$ ; démontrons qu’il existe un unique élément $n\in$ N tel que $n\cdot y=y'$. Soient $g, h\in$ F et soient $u, v\in$ M tels que $y=\pi (g, u)$ et $y'=\pi (h, v)$. Posons $s=\varphi (g^{-1}h)$. Comme $x=\varphi (g)\cdot u=\varphi (h)\cdot v$, on a $u=s\cdot v$, d’où $s\in S$. Il s’ensuit que $\varphi (h) =\varphi (gx_s)$, si bien qu’il existe $n\in N$ tel que $h=ngx_s$. Alors,
 
 $$
 y'=\pi (h, v) =\pi (ngx_s, v) =n\cdot \pi (gx_s, v) =n\cdot \pi (g, s\cdot v) =n\cdot y
@@ -498,7 +498,7 @@ b) Dans ce cas, démontrer que l’application canonique $X/R\rightarrow B$ est 
 
 4) Soit $n$ un entier $\geqslant 1$ et soit U un voisinage ouvert connexe de 0 dans $\mathbf{C}^n$.
 
-Soit $f: U\rightarrow \mathbf{C}$ une application analytique non constante. On pose $A =^-f^1(0)$; on suppose que A n’est pas vide.
+Soit $f: U\rightarrow \mathbf{C}$ une application analytique non constante. On pose $A =\overset{-1}{f}(0)$; on suppose que A n’est pas vide.
 
 a) Démontrer qu’il existe un point $a\in$ A et un entier $p\geqslant 1$ tel que $D^mf(z) = 0$ pour tout $z\in A$ et tout $m\in  \{0, . . . , p\}$ et $D^{p+1}f(a)= 0\not$ .
 
@@ -508,7 +508,7 @@ d) Démontrer qu’il existe une partie fermée S de A, d’intérieur vide dans
 
 5) Soit U un voisinage ouvert de 0 dans $\mathbf{C}^n$ et soient $f_1, . . . , f_n$ des applications analytiques de U dans $\mathbf{C}$. Soit $f: U\rightarrow \mathbf{C}^n$ l’application donnée par $x\mapsto (f_1(x), . . . , f_n(x))$, soit $J_f: U\rightarrow \mathbf{M}_n(\mathbf{C})$ l’application $x\mapsto (\partial_if_j(x))$ et soit $h=$ det$\circ J_f$.
 
-a) Démontrer par récurrence sur $n$ que $J_f$ est nulle en tout point de $^-h^1(0)$. b) On suppose que $f$ est injective ; démontrer que $h$ ne s’annule pas.
+a) Démontrer par récurrence sur $n$ que $J_f$ est nulle en tout point de $\overset{-1}{h}(0)$. b) On suppose que $f$ est injective ; démontrer que $h$ ne s’annule pas.
 
 6) Soit U un voisinage ouvert de 0 dans $\mathbf{C}^n$ et soient $f_1, . . . , f_m$ des applications analytiques de U dans $\mathbf{C}$. Soit $f: U\rightarrow \mathbf{C}^m$ l’application $x\mapsto$ $(f_1(x), . . . , f_m(x))$. Montrer l’équivalence des conditions suivantes :
 
@@ -600,7 +600,7 @@ i) Soit A un ensemble de cardinal $\geqslant 2$ et soit $\mathscr{F}$ le préfai
 
 5) Soient A et B des espaces topologiques et soit $u: A\rightarrow B$ une application continue. Pour tout faisceau $\mathscr{F}$ sur B et tout élément $s\in \mathscr{F}(B)$, on note $s_A$ l’élément de $(u^*\mathscr{F})(A)$ déduit de $s$.
 
-a) Soit $\mathscr{F}$ un faisceau sur B, soient $s$ et $s'$ des sections de $\mathscr{F}$ sur B. On suppose que, pour tout couple $(U,U')$ d’ouverts de B tels que $^-u^1(U) =^-u^1(U')$, on a $U = U'$. Démontrer que $s=s'$ si $s_A=s'_A$.
+a) Soit $\mathscr{F}$ un faisceau sur B, soient $s$ et $s'$ des sections de $\mathscr{F}$ sur B. On suppose que, pour tout couple $(U,U')$ d’ouverts de B tels que $\overset{-1}{u}(U) =\overset{-1}{u}(U')$, on a $U = U'$. Démontrer que $s=s'$ si $s_A=s'_A$.
 
 b) Démontrer que $s=s'$ si $u$ est surjective et $s_A=s'_A$.
 
@@ -608,7 +608,7 @@ On suppose désormais que, pour tout faisceau $\mathscr{F}$ sur B et pour tout c
 
 c) On suppose que B est un espace topologique accessible (c’est-à-dire que les parties de B réduites à un point sont fermées, cf. TG, I, p. 100, §8, exerc. 1). Démontrer que $u$ est surjective.
 
-d) Démontrer que, pour tout couple $(U,U')$ de parties ouvertes de B telles que $^-u^1(U) =^-u^1(U')$, on a $U = U'$.
+d) Démontrer que, pour tout couple $(U,U')$ de parties ouvertes de B telles que $\overset{-1}{u}(U) =\overset{-1}{u}(U')$, on a $U = U'$.
 
 e) On prend pour B l’espace topologique $\{1,2\}$ muni de la topologie pour laquelle les ensembles ouverts sont $\emptyset ,\{1\}$ et $\{1,2\}$. Démontrer que si $s$ et $s'$ sont des sections d’un faisceau $\mathscr{F}$ sur B telles que $s_2=s'_2$, alors $s=s'$.
 
@@ -690,11 +690,11 @@ b) Donner un exemple où $g$ et $g\circ f$ ont un degré, mais où $f$ n’a pas
 
 a) Pour tout élément $x= (x_1, . . . , x_n)\in \mathbf{C}^n$, montrer qu’il existe un unique polynôme P à coefficients complexes, unitaire, de degré $n+1$, tel que P(0) = 0 et tel que $(x_1, . . . , x_n)$ soient les zéros de la dérivée de P. On note $\theta (x) =$ $(P(x_1), . . . ,P(x_n))$; ses coefficients sont les valeurs critiques de P.
 
-b) Montrer que $\theta$ définit une application polynomiale de $\mathbf{C}^n$ dans $\mathbf{C}^n$ telle que $^-\theta^1(0) = 0$.
+b) Montrer que $\theta$ définit une application polynomiale de $\mathbf{C}^n$ dans $\mathbf{C}^n$ telle que $\overset{-1}{\theta}(0) = 0$.
 
-c) On note U l’ouvert de $\mathbf{C}^n$ dont les éléments sont les éléments $(x_1, . . . , x_n)$ dont les coefficients sont distincts et non nuls. Montrer que $^-\theta^1(U)\subset U$ et que la restriction de $\theta$ à $^-\theta^1(U)$ définit un revêtement $(^-\theta^1(U), \theta_U)$ de U.
+c) On note U l’ouvert de $\mathbf{C}^n$ dont les éléments sont les éléments $(x_1, . . . , x_n)$ dont les coefficients sont distincts et non nuls. Montrer que $\overset{-1}{\theta}(U)\subset U$ et que la restriction de $\theta$ à $\overset{-1}{\theta}(U)$ définit un revêtement $(\overset{-1}{\theta}(U), \theta_U)$ de U.
 
-d) Démontrer que le revêtement $(^-\theta^1(U), \theta_U)$ est de degré $(n+ 1)^n$.
+d) Démontrer que le revêtement $(\overset{-1}{\theta}(U), \theta_U)$ est de degré $(n+ 1)^n$.
 
 e) Démontrer que l’application $\theta$ est surjective.
 
@@ -708,9 +708,9 @@ c) On suppose que B et F sont dénombrables à l’infini. Démontrer que E est 
 
 §5
 
-1) Soit $\alpha \in \mathbf{R}-\mathbf{Q}$ un nombre réel irrationnel et soit D la droite de $\mathbf{R}^2$ engendrée par le vecteur $(1, \alpha )$. Soit $p$ l’application canonique de $\mathbf{R}^2$ sur $\mathbf{R}^2/\mathbf{Z}^2$. On pose $B =p(D)$. a) Montrer que $(^-p^1(B), p_B)$ est un revêtement de B.
+1) Soit $\alpha \in \mathbf{R}-\mathbf{Q}$ un nombre réel irrationnel et soit D la droite de $\mathbf{R}^2$ engendrée par le vecteur $(1, \alpha )$. Soit $p$ l’application canonique de $\mathbf{R}^2$ sur $\mathbf{R}^2/\mathbf{Z}^2$. On pose $B =p(D)$. a) Montrer que $(\overset{-1}{p}(B), p_B)$ est un revêtement de B.
 
-b) Montrer que D est une composante connexe de $^-p^1(B)$ mais que $(D, p_B)$ n’est pas un revêtement.
+b) Montrer que D est une composante connexe de $\overset{-1}{p}(B)$ mais que $(D, p_B)$ n’est pas un revêtement.
 
 Cela montre que dans la proposition 6 de I, p. 103, l’hypothèse que B est localement connexe ne peut pas être supprimée. L’application $p: D\rightarrow B$ fournit aussi un exemple d’application bijective continue telle que $(D, p)$ ne soit pas un revêtement.
 

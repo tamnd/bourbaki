@@ -78,20 +78,32 @@ jobs:
       # lines together, or set a matrix inline, and the scripts of one landed on
       # the scripts of the other.
       #
-      # fr/ta and fr/ts enter at the numbers they measure, 59 and 80, and they
-      # have had none of the rounds of repair the other three have had. Both are
-      # mostly the double scripts described above, and the rest is the shape
-      # Topologie générale writes the inverse image with: the minus one is set
-      # over the letter rather than after it, and the layer reports the minus in
-      # front of the letter and the one behind it, so a page ends up saying
-      # ^-f^1 where it printed the inverse image of f. There are twelve of
-      # those and they want the same treatment the other split index got, which
-      # is a reading of the geometry and not a table.
+      # fr/ta and fr/ts entered at the numbers they measured, 59 and 80, and
+      # they have had none of the rounds of repair the other three have had.
+      # Both are mostly the double scripts described above.
+      #
+      # fr/ta came down to 33 once the inverse image was put back over the
+      # symbol it is written on. Topologie algébrique and Théories spectrales
+      # set the -1 of an inverse image over the symbol rather than after it, and
+      # the layer reports the minus in front of the symbol and the one behind
+      # it, so a page ends up saying ^-f^1 where it printed the inverse image of
+      # f. The shape occurs 444 times across the six volumes and only a handful
+      # of those were ever counted here, because most of them are legal TeX that
+      # sets as nonsense rather than TeX that KaTeX refuses, which is the worse
+      # of the two faults and the one no ceiling was ever going to catch.
+      #
+      # It is read out of the drawing order and not out of a table. Part of the
+      # script is drawn before the symbol, which nothing else on a page is: an
+      # exponent is set after the base it belongs to, so a superscript standing
+      # in front of a symbol is a superscript something was laid through. The
+      # same reading puts back the label written over an arrow, so the exact
+      # sequences of chapter VIII and of Lie 7 to 9 now say what they print
+      # instead of scattering the label into the scripts on either side.
       - name: publish -check
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=25,fr/alg=19,en/lie=41,fr/ta=59,fr/ts=80
+        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=25,fr/alg=19,en/lie=41,fr/ta=33,fr/ts=80
 
       # Where Pages will serve this from, asked rather than typed, so the links
       # are right under tamnd.github.io/bourbaki and under a custom domain both.

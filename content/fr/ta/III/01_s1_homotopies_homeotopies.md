@@ -53,7 +53,7 @@ subsections:
       pdf_page: 269
 statements: 55
 exercises: 0
-content_sha256: dcb0b3df1f7b9c7e39c8bfb778a0ef557f55897f2df784366f8644b3fd7321a6
+content_sha256: 6139e8f40cd5fa1f75e9b38d6e9e273974cebc87f73b681bdd76c8e8588dd4e0
 ---
 
 ## § 1. HOMOTOPIES, HOMÉOTOPIES
@@ -344,11 +344,11 @@ L’application $\sigma_f$ est appelée la contraction canonique du cylindre de 
 
 #### Remarque 1 {#ta-iii-s1-n6-rem-1 .statement tag=01VR}
 
-Soit A une partie de $X\times \mathbf{I}$ et soit $A_1$ l’ensemble des points $x\in X$ tels que $(x,1)\in A$. On a $\alpha^{-1}_f(\alpha_f(A)) = A\cup^-f^1(f(A_1))\times \{1\}$ et $\beta^{-1}_f(\alpha_f(A)) =f(A_1)$. Par suite, l’application $\alpha_f$ est fermée (resp. ouverte) si $f$ l’est.
+Soit A une partie de $X\times \mathbf{I}$ et soit $A_1$ l’ensemble des points $x\in X$ tels que $(x,1)\in A$. On a $\alpha^{-1}_f(\alpha_f(A)) = A\cup \overset{-1}{f}(f(A_1))\times \{1\}$ et $\beta^{-1}_f(\alpha_f(A)) =f(A_1)$. Par suite, l’application $\alpha_f$ est fermée (resp. ouverte) si $f$ l’est.
 
 #### Remarque 2 {#ta-iii-s1-n6-rem-2 .statement tag=01VS}
 
-Supposons que l’application $f$ soit propre. Soit P un point de Cyl($f$). Si P = $\alpha_f(x, t)$, avec 0 $\leqslant t <$ 1 et $x\in$ X, on a $\alpha^{-1}_f(P) = (x, t)$. Dans le cas contraire, il existe $y\in Y$ tel que $P =\beta_f(y)$ et $\alpha^-_f^1(P) =^-f^1(y)\times  \{1\}$. Cela démontre que les fibres de l’application $\alpha_f$ sont quasi-compactes. L’application $\alpha_f$ est alors propre (TG, I, p. 75, th. 1), car elle est fermée.
+Supposons que l’application $f$ soit propre. Soit P un point de Cyl($f$). Si P = $\alpha_f(x, t)$, avec 0 $\leqslant t <$ 1 et $x\in$ X, on a $\alpha^{-1}_f(P) = (x, t)$. Dans le cas contraire, il existe $y\in Y$ tel que $P =\beta_f(y)$ et $\alpha^-_f^1(P) =\overset{-1}{f}(y)\times  \{1\}$. Cela démontre que les fibres de l’application $\alpha_f$ sont quasi-compactes. L’application $\alpha_f$ est alors propre (TG, I, p. 75, th. 1), car elle est fermée.
 
 D’après la prop. 5 et TG, I, p. 72, prop. 2, l’application $\beta_f$ est elle-même propre. Par suite, si $f$ est propre, la surjection canonique de U sur Cyl($f$) est propre donc, en particulier, universellement stricte (I, p. 20, corollaire).
 
@@ -442,13 +442,13 @@ Soit X un espace topologique séparé et soit A une partie de X telle que le cou
 
 Soient X et Y des espaces topologiques, soit $p: X\rightarrow Y$ une application continue propre et ouverte, et soit $f: X\rightarrow \mathbf{R}$ une application continue. L’application $g: Y\rightarrow \mathbf{R}$ donnée par $y\mapsto$ sup $f(x)$ est continue.
 
-$x\in^-p^1(y)$
+$x\in \overset{-1}{p}(y)$
 
-Soit $b\in Y$. Comme $p$ est propre, sa fibre $^-p^1(b)$ est un espace quasi-compact ; on a donc $g(b)\in \mathbf{R}\cup  \{-\infty \}$.
+Soit $b\in Y$. Comme $p$ est propre, sa fibre $\overset{-1}{p}(b)$ est un espace quasi-compact ; on a donc $g(b)\in \mathbf{R}\cup  \{-\infty \}$.
 
-Soit $m\in \mathbf{R}$ tel que $g(b)< m$. Pour tout $a\in^-p^1(b)$, on a $f(a)\leqslant$ $g(b)< m$; soit $V_a$ un voisinage de $a$ dans X tel que $f(x)< m$ pour tout $x\in V_a$. La réunion V des ensembles $V_a$ est un voisinage de $^-p^1(b)$ dans X. D’après le lemme 5 (I, p. 75), il existe un voisinage W de $b$ dans Y tel que $^-p^1(W)\subset V$. Pour tout $y\in W$, on a $g(y)\leqslant m$. Cela prouve que $g$ est semi-continue supérieurement en $b$.
+Soit $m\in \mathbf{R}$ tel que $g(b)< m$. Pour tout $a\in \overset{-1}{p}(b)$, on a $f(a)\leqslant$ $g(b)< m$; soit $V_a$ un voisinage de $a$ dans X tel que $f(x)< m$ pour tout $x\in V_a$. La réunion V des ensembles $V_a$ est un voisinage de $\overset{-1}{p}(b)$ dans X. D’après le lemme 5 (I, p. 75), il existe un voisinage W de $b$ dans Y tel que $\overset{-1}{p}(W)\subset V$. Pour tout $y\in W$, on a $g(y)\leqslant m$. Cela prouve que $g$ est semi-continue supérieurement en $b$.
 
-Démontrons maintenant que $g$ est semi-continue inférieurement en $b$. On peut supposer $g(b)\in \mathbf{R}$. Soit $m\in \mathbf{R}$ tel que $m < g(b)$. Soit $a\in^-p^1(b)$ tel que $m < f(b)$ ; soit alors V un voisinage de $a$ dans X tel que $f(x)> m$ pour tout $x\in V$. Il s’ensuit que $g(y)> m$ pour tout $y\in p(V)$. Comme $p$ est ouverte, $p(V)$ est un voisinage de $b$, si bien que $g$ est semi-continue inférieurement.
+Démontrons maintenant que $g$ est semi-continue inférieurement en $b$. On peut supposer $g(b)\in \mathbf{R}$. Soit $m\in \mathbf{R}$ tel que $m < g(b)$. Soit $a\in \overset{-1}{p}(b)$ tel que $m < f(b)$ ; soit alors V un voisinage de $a$ dans X tel que $f(x)> m$ pour tout $x\in V$. Il s’ensuit que $g(y)> m$ pour tout $y\in p(V)$. Comme $p$ est ouverte, $p(V)$ est un voisinage de $b$, si bien que $g$ est semi-continue inférieurement.
 
 Le lemme est ainsi démontré.
 
@@ -458,11 +458,11 @@ Soit X un espace topologique et soit A un sous-espace fermé de X ; notons $i: A
 
 (i) Le couple $(X,A)$ possède la propriété d’extension des homotopies ;
 
-(ii) Il existe une application continue $\varphi : X\rightarrow \mathbf{I}$ telle que $A =^-\varphi^1(0)$ et une homotopie $\sigma : X\times \mathbf{I}\rightarrow X$ fixe sur A dont le terme est l’application identique de X et telle que $\sigma (x,0)\in A$ pour tout point $x\in X$ tel que $\varphi (x)= 1\not$ .
+(ii) Il existe une application continue $\varphi : X\rightarrow \mathbf{I}$ telle que $A =\overset{-1}{\varphi}(0)$ et une homotopie $\sigma : X\times \mathbf{I}\rightarrow X$ fixe sur A dont le terme est l’application identique de X et telle que $\sigma (x,0)\in A$ pour tout point $x\in X$ tel que $\varphi (x)= 1\not$ .
 
-(iii) Il existe une application continue $\varphi : X\rightarrow \mathbf{R}_+$ telle que $A =^-\varphi^1(0)$ et une homotopie $\sigma :^-\varphi^1(\mathbf{I})\times \mathbf{I}\rightarrow X$, fixe sur A, telle que $\sigma (x,1) =x$ et $\sigma (x,0)\in A$ pour tout $x\in^-\varphi^1(\mathbf{I})$.
+(iii) Il existe une application continue $\varphi : X\rightarrow \mathbf{R}_+$ telle que $A =\overset{-1}{\varphi}(0)$ et une homotopie $\sigma :\overset{-1}{\varphi}(\mathbf{I})\times \mathbf{I}\rightarrow X$, fixe sur A, telle que $\sigma (x,1) =x$ et $\sigma (x,0)\in A$ pour tout $x\in \overset{-1}{\varphi}(\mathbf{I})$.
 
-(iv) Il existe une application continue $\varphi : X\rightarrow \mathbf{R}_+$ telle que $A\subset^-\varphi^1(0)$ et une application continue
+(iv) Il existe une application continue $\varphi : X\rightarrow \mathbf{R}_+$ telle que $A\subset \overset{-1}{\varphi}(0)$ et une application continue
 
 $$
 \sigma :\{(x, t)\in X\times \mathbf{I}|t+\varphi (x)\geqslant 1\} \rightarrow X
@@ -482,13 +482,13 @@ Pour $x\in X$, on a $\sigma (x,1) =x$. Soit $x\in X$ tel que $\sigma (x,0)\notin
 
 Cela démontre que (i) entraîne (ii).
 
-Soient $\varphi$ et $\sigma$ des applications vérifiant les propriétés de l’assertion (ii). Posons $\varphi_1= 2\varphi$ et soit $\sigma_1$ la restriction de $\sigma$ à $^-\varphi^1_1(\mathbf{I})\times \mathbf{I}$. On a $^-\varphi^1_1(0) = A$; pour $a\in A,\sigma_1(a, t) =a$ pour tout $a\in A$. Soit $x\in X$ tel que $\varphi_1(x)\leqslant 1$ ; on a $\sigma_1(x,1) =x$; en outre, $\varphi (x) =\varphi_1(x)/2<1$, donc $\sigma_1(x,0)\in A$. Ainsi, (ii) implique (iii).
+Soient $\varphi$ et $\sigma$ des applications vérifiant les propriétés de l’assertion (ii). Posons $\varphi_1= 2\varphi$ et soit $\sigma_1$ la restriction de $\sigma$ à $\overset{-1}{\varphi}_{1}(\mathbf{I})\times \mathbf{I}$. On a $\overset{-1}{\varphi}_{1}(0) = A$; pour $a\in A,\sigma_1(a, t) =a$ pour tout $a\in A$. Soit $x\in X$ tel que $\varphi_1(x)\leqslant 1$ ; on a $\sigma_1(x,1) =x$; en outre, $\varphi (x) =\varphi_1(x)/2<1$, donc $\sigma_1(x,0)\in A$. Ainsi, (ii) implique (iii).
 
-Démontrons que (iii) entraîne (iv). Soient $\varphi : X\rightarrow \mathbf{R}$ et $\sigma :^-\varphi^1(\mathbf{I})\times$ $\mathbf{I}\rightarrow X$ comme dans l’énoncé ; posons $B =^-\varphi^1(\mathbf{I})$ et $C =^-\varphi^1([1,+\infty [)$.
+Démontrons que (iii) entraîne (iv). Soient $\varphi : X\rightarrow \mathbf{R}$ et $\sigma :\overset{-1}{\varphi}(\mathbf{I})\times$ $\mathbf{I}\rightarrow X$ comme dans l’énoncé ; posons $B =\overset{-1}{\varphi}(\mathbf{I})$ et $C =\overset{-1}{\varphi}([1,+\infty [)$.
 
 Soit $u_1$ l’application de $B\times \mathbf{I}$ dans X telle que $u_1(x, t) =\sigma (x,1-$ $(1-t)/2\varphi (x))$ si $t+ 2\varphi (x)\geqslant 1$ et $\varphi (x)>0$ et $u_1(x, t) =\sigma (x,0)$ sinon. D’après le lemme 4 ci-dessous, elle est continue.
 
-Soit $u_2$ l’application de $B\times \mathbf{I}$ dans X telle que $u_2(x, t) =$ $\sigma (x$, sup(0$,1-2(1-t)(1-\varphi (x))))$. Elle est continue. Pour $x\in B$ tel que $\varphi (x) = 1/2$ et $t\in \mathbf{I}$, on a $u_1(x, t) =\sigma (x, t) =u_2(x, t)$. Notons $u: B\times \mathbf{I}\rightarrow X$ l’application telle que $u(x, t) =u_1(x, t)$ si $\varphi (x)\leqslant 1/2$ et $u(x, t) =u_2(x, t)$ si $1/2< x\leqslant 1$ ; elle est continue car ses restrictions aux sous-espaces fermés $^-\varphi^1([0,1/2])\times \mathbf{I}$ et $^-\varphi^1([1/2,1])\times \mathbf{I}$ de $B\times \mathbf{I}$ sont continues (TG, I, p. 19, prop. 4).
+Soit $u_2$ l’application de $B\times \mathbf{I}$ dans X telle que $u_2(x, t) =$ $\sigma (x$, sup(0$,1-2(1-t)(1-\varphi (x))))$. Elle est continue. Pour $x\in B$ tel que $\varphi (x) = 1/2$ et $t\in \mathbf{I}$, on a $u_1(x, t) =\sigma (x, t) =u_2(x, t)$. Notons $u: B\times \mathbf{I}\rightarrow X$ l’application telle que $u(x, t) =u_1(x, t)$ si $\varphi (x)\leqslant 1/2$ et $u(x, t) =u_2(x, t)$ si $1/2< x\leqslant 1$ ; elle est continue car ses restrictions aux sous-espaces fermés $\overset{-1}{\varphi}([0,1/2])\times \mathbf{I}$ et $\overset{-1}{\varphi}([1/2,1])\times \mathbf{I}$ de $B\times \mathbf{I}$ sont continues (TG, I, p. 19, prop. 4).
 
 Pour $x\in X$ tel que $\varphi (x) = 1$ et $t\in \mathbf{I}$, on a $u(x, t) =u_2(x, t) =$ $\sigma (x,1) =x$. Il existe donc une unique application $\tau : X\times \mathbf{I}\rightarrow X$ qui coïncide avec $u$ dans $B\times \mathbf{I}$ et avec l’application pr$_1$ dans $C\times \mathbf{I}$; elle est continue (loc. cit.).
 
@@ -522,17 +522,17 @@ Comme les images des applications $\alpha_i$ et $\beta_i$ recouvrent Cyl($i$), i
 
 #### Lemme 4 {#ta-iii-s1-lem-4 .statement tag=01W0}
 
-Soient X et Y des espaces topologiques, soit $\varphi : X\rightarrow \mathbf{R}_+$ une application continue, posons $A =^-\varphi^1(0)$. Soit $\sigma : X\times \mathbf{I}\rightarrow Y$ une homotopie qui est fixe sur A. L’application $\sigma ': X\times \mathbf{I}\rightarrow Y$ qui applique $(x, s)$ sur $\sigma (x, s/\varphi (x))$ si $s < \varphi (x)$ et sur $\sigma (x,1)$ si $s\geqslant \varphi (x)$ est continue.
+Soient X et Y des espaces topologiques, soit $\varphi : X\rightarrow \mathbf{R}_+$ une application continue, posons $A =\overset{-1}{\varphi}(0)$. Soit $\sigma : X\times \mathbf{I}\rightarrow Y$ une homotopie qui est fixe sur A. L’application $\sigma ': X\times \mathbf{I}\rightarrow Y$ qui applique $(x, s)$ sur $\sigma (x, s/\varphi (x))$ si $s < \varphi (x)$ et sur $\sigma (x,1)$ si $s\geqslant \varphi (x)$ est continue.
 
-L’application $\sigma '$ est continue en tout point de la partie fermée $^-\varphi^1([1,+\infty [)\times \mathbf{I}$; il suffit donc de démontrer que sa restriction à $^-\varphi^1(\mathbf{I})\times \mathbf{I}$ est continue. On peut donc supposer que $\varphi (X)\subset \mathbf{I}$. Soient C et $C'$ les sous-espaces de $X\times \mathbf{I}$ formés des couples $(x, s)$ tels que $s\leqslant \varphi (x)$ et $s\geqslant \varphi (x)$ respectivement. Ils sont fermés et recouvrent $X\times \mathbf{I}$. L’application $\sigma '$ est continue sur $C'$; démontrons qu’elle est continue sur C.
+L’application $\sigma '$ est continue en tout point de la partie fermée $\overset{-1}{\varphi}([1,+\infty [)\times \mathbf{I}$; il suffit donc de démontrer que sa restriction à $\overset{-1}{\varphi}(\mathbf{I})\times \mathbf{I}$ est continue. On peut donc supposer que $\varphi (X)\subset \mathbf{I}$. Soient C et $C'$ les sous-espaces de $X\times \mathbf{I}$ formés des couples $(x, s)$ tels que $s\leqslant \varphi (x)$ et $s\geqslant \varphi (x)$ respectivement. Ils sont fermés et recouvrent $X\times \mathbf{I}$. L’application $\sigma '$ est continue sur $C'$; démontrons qu’elle est continue sur C.
 
 Soit $\alpha : X\times \mathbf{I}\rightarrow X\times \mathbf{I}$ l’application continue donnée par $\alpha (x, t) =$ $(x, t\varphi (x))$. Son image est égale à C et $\sigma '\circ \alpha$ est l’application continue $\sigma$. Démontrons que $\alpha$ est une application propre. Considérons en effet un ultrafiltre $\mathfrak{U}$ sur $X\times \mathbf{I}$ et un point $(x, t)\in X\times \mathbf{I}$ qui est adhérent à la base d’ultrafiltre $\alpha (\mathfrak{U})$. Puisque pr$_1\circ \alpha =$ pr$_1$, la base d’ultrafiltre pr$_1(\mathfrak{U})$ sur X converge vers $x$. Comme $\mathbf{I}$ est compact, il existe un point $s\in \mathbf{I}$ tel que la base d’ultrafiltre pr$_2(\mathfrak{U})$ converge vers $s$. Alors $\mathfrak{U}$ converge vers $(x, s)$. Comme $\alpha$ est continue, la base d’ultrafiltre $\alpha (\mathfrak{U})$ converge vers $(x, s\varphi (x))$. Comme $\mathbf{I}$ est séparé, on a $s\varphi (x) =t$, d’où $\alpha (x, s) = (x, t)$, si bien que $\alpha$ est propre (TG, I, p. 75, th. 1). Il résulte alors de I, p. 18, exemple 2 et prop. 9 que $\sigma '|C$ est continue.
 
 #### Corollaire 1 {#ta-iii-s1-lem-4-cor-1 .statement tag=01W1}
 
-Soit X un espace topologique normal et soit A un sous-espace fermé de X. On suppose qu’il existe un voisinage V de A dans X et une contraction de V sur A, ainsi qu’une application continue $f: X\rightarrow \mathbf{R}$ telle que $^-f^1(0) = A$. Alors, le couple $(X,A)$ possède la propriété d’extension des homotopies.
+Soit X un espace topologique normal et soit A un sous-espace fermé de X. On suppose qu’il existe un voisinage V de A dans X et une contraction de V sur A, ainsi qu’une application continue $f: X\rightarrow \mathbf{R}$ telle que $\overset{-1}{f}(0) = A$. Alors, le couple $(X,A)$ possède la propriété d’extension des homotopies.
 
-Soit $\rho : V\times \mathbf{I}\rightarrow V$ une contraction de V sur A. Par définition d’un espace normal (TG, IX, p. 41, définition 1), il existe une application continue $g: X\rightarrow \mathbf{I}$ qui vaut 0 sur A et 1 en tout point de X - V. Soit $\varphi : X\rightarrow \mathbf{R}$ l’application donnée par $\varphi (x) =|f(x)|+g(x)$ pour $x\in X$ ; elle est continue. On a $^-\varphi^1(0) = A$ et $^-\varphi^1(\mathbf{I})\subset V$. Soit $\sigma$ l’application de $^-\varphi^1(\mathbf{I})\times \mathbf{I}$ dans X donnée par $\sigma (x, t) =\rho (x,1-t)$ pour $x\in^-\varphi^1(\mathbf{I})$ et $t\in \mathbf{I}$. Pour $x\in^-\varphi^1(\mathbf{I})$, on a $\sigma (x,1) =\rho (x,0) =x$ et $\sigma (x,0) =\rho (x,1)\in A$.
+Soit $\rho : V\times \mathbf{I}\rightarrow V$ une contraction de V sur A. Par définition d’un espace normal (TG, IX, p. 41, définition 1), il existe une application continue $g: X\rightarrow \mathbf{I}$ qui vaut 0 sur A et 1 en tout point de X - V. Soit $\varphi : X\rightarrow \mathbf{R}$ l’application donnée par $\varphi (x) =|f(x)|+g(x)$ pour $x\in X$ ; elle est continue. On a $\overset{-1}{\varphi}(0) = A$ et $\overset{-1}{\varphi}(\mathbf{I})\subset V$. Soit $\sigma$ l’application de $\overset{-1}{\varphi}(\mathbf{I})\times \mathbf{I}$ dans X donnée par $\sigma (x, t) =\rho (x,1-t)$ pour $x\in \overset{-1}{\varphi}(\mathbf{I})$ et $t\in \mathbf{I}$. Pour $x\in \overset{-1}{\varphi}(\mathbf{I})$, on a $\sigma (x,1) =\rho (x,0) =x$ et $\sigma (x,0) =\rho (x,1)\in A$.
 
 Les applications $\varphi$ et $\sigma$ vérifient les conditions de l’assertion (iii) du th. 1 de III, p. 243 ; par suite, le couple $(X,A)$ possède la propriété d’extension des homotopies.
 
@@ -544,9 +544,9 @@ Prenons pour espace X la boule $\mathbf{B}_n$ et pour sous-espace A la sphère $
 
 Soient X et Y des espaces topologiques, soit A un sous-espace fermé de X, soit B un sous-espace fermé de Y. Si les couples $(X,A)$ et $(Y,B)$ possèdent la propriété d’extension des homotopies, il en est de même du couple $(X\times Y,(X\times B)\cup (A\times Y))$.
 
-Soient $\varphi : X\rightarrow \mathbf{R}_+$ et $\sigma :^-\varphi^1(\mathbf{I})\times \mathbf{I}\rightarrow$ X, resp. $\varphi ': Y\rightarrow \mathbf{R}_+$
+Soient $\varphi : X\rightarrow \mathbf{R}_+$ et $\sigma :\overset{-1}{\varphi}(\mathbf{I})\times \mathbf{I}\rightarrow$ X, resp. $\varphi ': Y\rightarrow \mathbf{R}_+$
 
-et $\sigma ':^-\psi^1(\mathbf{I})\times \mathbf{I}\rightarrow Y$, vérifiant les conditions de l’assertion (iv) du théorème 1 pour le couple $(X,A)$, resp. pour le couple $(Y,B)$. Soit $\psi : X\times Y\rightarrow \mathbf{R}_+$ l’application donnée par $(x, y)\mapsto$ inf($\varphi (x), \varphi '(x)$) ; elle est continue ; on a aussi $\psi (x, y) = 0$ pour tout $(x, y)\in X\times Y$ tel que $x\in A$ ou $y\in B$. Pour $(x, y, t)\in X\times Y\times \mathbf{I}$ tel que $t+\psi (x)\geqslant 1$, on a $t+\varphi (x)\geqslant 1$ et $t+\varphi '(x)\geqslant 1$. On définit ainsi une application continue
+et $\sigma ':\overset{-1}{\psi}(\mathbf{I})\times \mathbf{I}\rightarrow Y$, vérifiant les conditions de l’assertion (iv) du théorème 1 pour le couple $(X,A)$, resp. pour le couple $(Y,B)$. Soit $\psi : X\times Y\rightarrow \mathbf{R}_+$ l’application donnée par $(x, y)\mapsto$ inf($\varphi (x), \varphi '(x)$) ; elle est continue ; on a aussi $\psi (x, y) = 0$ pour tout $(x, y)\in X\times Y$ tel que $x\in A$ ou $y\in B$. Pour $(x, y, t)\in X\times Y\times \mathbf{I}$ tel que $t+\psi (x)\geqslant 1$, on a $t+\varphi (x)\geqslant 1$ et $t+\varphi '(x)\geqslant 1$. On définit ainsi une application continue
 
 $$
 \tau :\{(x, y, t)\in X\times Y\times \mathbf{I}|t+\psi (x)\geqslant 1\} \rightarrow X\times Y
@@ -576,15 +576,15 @@ Notons $\alpha_f: X\rightarrow X\cup_fB$ et $\beta_f: B\rightarrow X\cup_fB$ les
 
 L’application $\alpha_f$ est injective. Pour toute partie U
 
-de X, on a $\alpha^{-1}_f(\alpha_f(U)) = U$ et $\beta^{-1}_f(\alpha_f(U)) =^-f^1(U)$. Si A est une partie ouverte (resp. fermée) de B, ces relations entraînent que $\alpha_f$ est une application ouverte (resp. fermée) de X dans $X\cup_fB$.
+de X, on a $\alpha^{-1}_f(\alpha_f(U)) = U$ et $\beta^{-1}_f(\alpha_f(U)) =\overset{-1}{f}(U)$. Si A est une partie ouverte (resp. fermée) de B, ces relations entraînent que $\alpha_f$ est une application ouverte (resp. fermée) de X dans $X\cup_fB$.
 
-Soit U une partie ouverte de X et soit V un ouvert de B tel que $^-f^1(U) = V\cap A$. La réunion des parties U de $Y_1$ et V de $Y_2$ est un ouvert saturé de Y ; son image dans $X\cup_fB$ est donc ouverte et sa trace sur $\alpha_f(X)$ est $\alpha_f(U)$. Par suite, l’application $\alpha_f$ définit un homéomorphisme de X sur son image dans $X\cup_fB$.
+Soit U une partie ouverte de X et soit V un ouvert de B tel que $\overset{-1}{f}(U) = V\cap A$. La réunion des parties U de $Y_1$ et V de $Y_2$ est un ouvert saturé de Y ; son image dans $X\cup_fB$ est donc ouverte et sa trace sur $\alpha_f(X)$ est $\alpha_f(U)$. Par suite, l’application $\alpha_f$ définit un homéomorphisme de X sur son image dans $X\cup_fB$.
 
 #### Remarque 2 {#ta-iii-s1-n8-rem-2 .statement tag=01W7}
 
 Soit V une partie de B. On a $\alpha^{-1}_f(\beta_f(V)) =f(V\cap A)$ et
 
-$\beta^{-1}_f(\beta_f(V)) = V\cup^-f^1(f(V\cap A))$. Si A est fermé dans B et si l’application $f$ est fermée, l’application $\beta_f$ est donc fermée. De même, si A est ouvert dans B et si l’application $f$ est ouverte, l’application $\beta_f$ est ouverte.
+$\beta^{-1}_f(\beta_f(V)) = V\cup \overset{-1}{f}(f(V\cap A))$. Si A est fermé dans B et si l’application $f$ est fermée, l’application $\beta_f$ est donc fermée. De même, si A est ouvert dans B et si l’application $f$ est ouverte, l’application $\beta_f$ est ouverte.
 
 Dans ces deux cas, l’application $\beta_f$ induit alors un homéomorphisme de B-A sur son image.
 
@@ -592,11 +592,11 @@ Dans ces deux cas, l’application $\beta_f$ induit alors un homéomorphisme de 
 
 Supposons que A soit fermé et que l’application $f$ soit propre. On vient de voir que l’application $\beta_f$ est fermée. Pour tout $x\in X$,
 
-$\beta^{-1}_f(\alpha_f(x)) =^-f^1(x)$. C’est donc une partie quasi-compacte de A (TG,
+$\beta^{-1}_f(\alpha_f(x)) =\overset{-1}{f}(x)$. C’est donc une partie quasi-compacte de A (TG,
 
 I, p. 75, théorème 1), donc aussi de B. Pour tout $b\in B,\beta^{-1}_f(\beta_f(b))$
 
-égale $\{b\}$ si $b\in B-A$, et $^-f^1(f(b))$ si $b\in A$ ; dans les deux cas, c’est une partie quasi-compacte de B. Les fibres de l’application $\beta_f$ sont donc quasi-compactes ; par suite (loc. cit.), l’application $\beta_f$ est propre.
+égale $\{b\}$ si $b\in B-A$, et $\overset{-1}{f}(f(b))$ si $b\in A$ ; dans les deux cas, c’est une partie quasi-compacte de B. Les fibres de l’application $\beta_f$ sont donc quasi-compactes ; par suite (loc. cit.), l’application $\beta_f$ est propre.
 
 L’application $\alpha_f$ est également propre (TG, I, p. 72, prop. 2). Il en résulte que l’application canonique de Y sur $X\cup_fB$ est propre.
 
