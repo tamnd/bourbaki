@@ -45,7 +45,7 @@ subsections:
       pdf_page: 207
 statements: 32
 exercises: 28
-content_sha256: 0ba7c792836245d30a6a96e8981572de88529232501c5b1eb4df22e2f395b19e
+content_sha256: 165363ebfb20ce8155dd3b050619ce5cedef07b4b1c442c9a028bba02ac122b4
 ---
 
 ## § 2. ENDOMORPHISMES NORMAUX
@@ -74,9 +74,9 @@ Si $p= 2$, l’image de $p_i$ est orthogonale à celle $p_j$ pour tous $i\not =j
 
 Soit X un espace localement compact dénombrable à l’infini. Soit $\mu$ une mesure positive sur X. Pour tout $p\in [1,+\infty [$, l’espace $L^p(X, \mu)$ est de type dénombrable.
 
-Soit $(U_n)_{n\in\mathbf{N}}$ une suite d’ouverts relativement compacts de X dont la réunion est égale à X et qui vérifient $U_n\subset U_{n+1}$ pour tout $n\in \mathbf{N}$ (TG, I, p. 68, prop. 15). Pour tout $n\in \mathbf{N}$, l’espace $\mathscr{K}(X,U_n)$ s’identifie à un sous-espace fermé de l’espace de Banach $\mathscr{C}(U_n)$ (INT, III, p. 40, § 1, n$^o1)$; puisque ce dernier espace est de type dénombrable (TG, X, p. 25, corollaire), il en est de même de $\mathscr{K}(X,U_n)$ (TG, IX, p. 19, cor., (i)). Soit $\mathscr{F}_n$ une partie dénombrable dense de $\mathscr{K}(X,U_n)$.
+Soit $(U_n)_{n\in\mathbf{N}}$ une suite d’ouverts relativement compacts de X dont la réunion est égale à X et qui vérifient $U_n\subset U_{n+1}$ pour tout $n\in \mathbf{N}$ (TG, I, p. 68, prop. 15). Pour tout $n\in \mathbf{N}$, l’espace $\mathscr{K}(X,\overline{U}_n)$ s’identifie à un sous-espace fermé de l’espace de Banach $\mathscr{C}(U_n)$ (INT, III, p. 40, § 1, n$^o1)$; puisque ce dernier espace est de type dénombrable (TG, X, p. 25, corollaire), il en est de même de $\mathscr{K}(X,\overline{U}_n)$ (TG, IX, p. 19, cor., (i)). Soit $\mathscr{F}_n$ une partie dénombrable dense de $\mathscr{K}(X,\overline{U}_n)$.
 
-Soit $f\in \mathscr{L}^p(X, \mu)$ et soit $\varepsilon  >0$. Il existe un entier $n\in \mathbf{N}$ tel que $\int_{X-U_n}|f|^p< \varepsilon /2$, et il existe $g\in \mathscr{F}_n$ telle que $\int_{U_n}|f-g|^p< \varepsilon /2$. La réunion des classes dans $L^p(X, \mu)$ des éléments des ensembles $\mathscr{F}_n$ est donc dense dans $L^p(X, \mu)$, ce qui conclut la démonstration (TG, IX, p. 18, prop. 12).
+Soit $f\in \mathscr{L}^p(X, \mu)$ et soit $\varepsilon  >0$. Il existe un entier $n\in \mathbf{N}$ tel que $\int_{X-U_n}|f|^p< \varepsilon /2$, et il existe $g\in \mathscr{F}_n$ telle que $\int_{\overline{U}_n}|f-g|^p< \varepsilon /2$. La réunion des classes dans $L^p(X, \mu)$ des éléments des ensembles $\mathscr{F}_n$ est donc dense dans $L^p(X, \mu)$, ce qui conclut la démonstration (TG, IX, p. 18, prop. 12).
 
 ### 2. Image essentielle d’une fonction mesurable
 
@@ -271,10 +271,10 @@ En particulier, pour tout $g\in L^{\infty}(X, \mu)$, l’endomorphisme de multip
 D’après la prop. 5, l’application $\widetilde{m}$ est un morphisme injectif et isométrique d’algèbres de Banach unifères de $L^{\infty}(X, \mu)$ dans $\mathscr{L}(L^2(X, \mu))$. Soit $g\in \mathscr{L}^{\infty}(X, \mu)$. Pour $f_1$ et $f_2\in \mathscr{L}^2(X, \mu)$, on a
 
 $$
-\langle f_1|\widetilde{m}_g(f_2)\rangle =\int_Xf_1(x)g(x)f_2(x)d\mu(x) =\langle \widetilde{m}_g(f_1)|f_2\rangle
+\langle f_1|\widetilde{m}_g(f_2)\rangle =\int_X\overline{f_1(x)}g(x)f_2(x)d\mu(x) =\langle \widetilde{m}_{\overline{g}}(f_1)|f_2\rangle
 $$
 
-dont il résulte que $\widetilde{m}^*_g=\widetilde{m}_g$, ce qui démontre que $m$ est un morphisme involutif. Les dernières assertions en résultent (cf. I, p. 106, prop. 5).
+dont il résulte que $\widetilde{m}^*_g=\widetilde{m}_{\overline{g}}$, ce qui démontre que $m$ est un morphisme involutif. Les dernières assertions en résultent (cf. I, p. 106, prop. 5).
 
 #### Corollaire {#ts-iv-s2-n5-cor-1 .statement tag=02Z4}
 
@@ -332,14 +332,14 @@ Soit $u$ un endomorphisme de l’espace hilbertien $L^2(X, \mu)$ permutable à $
 
 D’après la prop. 7, il suffit de démontrer que $u$ commute avec $\widetilde{m}_g$ pour tout $g\in \mathscr{L}^{\infty}(X, \mu)$. Soient $h_1$ et $h_2$ des éléments de $\mathscr{L}^2(X, \mu)$ de classes $\widetilde{h}_1$ et $\widetilde{h}_2$ dans $L^2(X, \mu)$. Soit $k_1$ (resp. $k_2)$ une fonction dans $\mathscr{L}^2(X, \mu)$ dont la classe est $u(\widetilde{h}_1)$ (resp. $u^*(\widetilde{h}_2))$.
 
-Notons $h=h_1k_2-k_1h_2$; on a $h\in \mathscr{L}^1(X, \mu)$. Définissons la mesure $\nu =h\cdot \mu$ sur X ; elle est bornée. Pour tout $g\in \mathscr{L}^{\infty}(X, \mu)$, on a
+Notons $h=h_1\overline{k}_2-k_1\overline{h}_2$; on a $h\in \mathscr{L}^1(X, \mu)$. Définissons la mesure $\nu =h\cdot \mu$ sur X ; elle est bornée. Pour tout $g\in \mathscr{L}^{\infty}(X, \mu)$, on a
 
 $$
 \langle \widetilde{h}_2|u(\widetilde{m}_g(\widetilde{h}_1))-\widetilde{m}_g(u(\widetilde{h}_1))\rangle =\langle u^*(\widetilde{h}_2)|\widetilde{m}_g(\widetilde{h}_1)\rangle  - \langle \widetilde{h}_2|\widetilde{m}_g(u(\widetilde{h}_1))\rangle
 $$
 
 $$
-=\int_Xg\cdot h_1\cdot k_2d\mu-\int_Xg\cdot k_1\cdot h_2d\mu=\nu (g)
+=\int_Xg\cdot h_1\cdot \overline{k}_2d\mu-\int_Xg\cdot k_1\cdot \overline{h}_2d\mu=\nu (g)
 $$
 
 On a donc par hypothèse $\nu (g) = 0$ pour toute fonction $g\in \mathscr{K}$ (X), c’est-à-dire $\nu = 0$. Par conséquent, il vient

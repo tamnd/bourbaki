@@ -25,7 +25,7 @@ subsections:
       pdf_page: 177
 statements: 12
 exercises: 11
-content_sha256: 55485906eea7d0089748b7d8faa05e77381c6f78f7ca1b7225c5d753c234b076
+content_sha256: 0b6cc831bac53550643bac155530ac8217b5490c9be459943d55f9f3647b3239
 ---
 
 ## § 10. MODULES SUR UN ANNEAU ARTINIEN
@@ -110,7 +110,7 @@ Le radical $\mathfrak{r}$ de A est un idéal bilatère nilpotent (VIII, p. 169, 
 
 Démontrons l’assertion b). L’existence d’une couverture projective $(P, u)$ de M résulte de la prop. 4 et l’isomorphisme de $P/\mathfrak{r}P$ avec M de la prop. 9 de VIII, p. 158. Comme l’anneau $A/\mathfrak{r}$ est semi-simple, un module sur cet anneau est indécomposable si et seulement s’il est simple. La dernière assertion découle alors du cor. 2 de VIII, p. 156.
 
-Prouvons c). Soit $f$ un isomorphisme de P sur $P'$; il induit un isomorphisme $f$ de $P/\mathfrak{r}P$ sur $P'/\mathfrak{r}P'$, qui sont respectivement isomorphes à M et $M'$ d’après b). Donc M est isomorphe à $M'$. Réciproquement, tout isomorphisme $f$ de M sur $M'$ se relève en un isomorphisme $\widetilde{f}$ de P sur $P'$ tel que $f\circ u=u'\circ \widetilde{f}$ d’après la prop. 8 de VIII, p. 157.
+Prouvons c). Soit $f$ un isomorphisme de P sur $P'$; il induit un isomorphisme $\overline{f}$ de $P/\mathfrak{r}P$ sur $P'/\mathfrak{r}P'$, qui sont respectivement isomorphes à M et $M'$ d’après b). Donc M est isomorphe à $M'$. Réciproquement, tout isomorphisme $f$ de M sur $M'$ se relève en un isomorphisme $\widetilde{f}$ de P sur $P'$ tel que $f\circ u=u'\circ \widetilde{f}$ d’après la prop. 8 de VIII, p. 157.
 
 #### Corollaire {#alg-viii-s10-n3-cor-1 .statement tag=00CE}
 

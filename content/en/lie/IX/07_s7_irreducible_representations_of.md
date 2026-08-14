@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: 0b85b86e0619ad28cb29775c7981c8c2db59223e0b54b66a5fae7357b988eae6
+content_sha256: b11bf0a3f827f95e81b5a5281a45d1f07af3ab791dd75785c1072ce93d9cc0fc
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -258,7 +258,7 @@ If $\lambda \in X_{++}$, the characters $^w(\lambda \rho )$ are distinct; indeed
 
 $J(\lambda \rho )^2=$ Card(W) $=w(G)$.
 
-An element $f\in L^2(T)$ is said to be anti-invariant if $^wf=\varepsilon (w)f$ for all $w\in W$ (that is, if $^sf=-f$ for every reflection $s)$. We shall show that $_{w(G)}^1$ J is the orthogonal projection of $L^2(T)$ onto the subspace of anti-invariant elements. Indeed, let $f, f'$ be in $L^2$(T), with $f'$ anti-invariant; then $J(f)$ is anti-invariant and
+An element $f\in L^2(T)$ is said to be anti-invariant if $^wf=\varepsilon (w)f$ for all $w\in W$ (that is, if $^sf=-f$ for every reflection $s)$. We shall show that $\frac{1}{w(G)}J$ is the orthogonal projection of $L^2(T)$ onto the subspace of anti-invariant elements. Indeed, let $f, f'$ be in $L^2$(T), with $f'$ anti-invariant; then $J(f)$ is anti-invariant and
 
 $$
 \langle f',J(f)\rangle =\sum_{w\in W}\varepsilon (w)\langle f',^wf\rangle =\sum_{w\in W}\langle^wf',^wf\rangle
@@ -270,7 +270,7 @@ $$
 
 #### Proposition 3 {#lie-ix-s7-prop-3 .statement tag=01GB}
 
-The elements $J(\lambda \rho )/(w(G)$, for $\lambda \in X_{++}$, form an orthonormal basis of the subspace of anti-invariant elements of $L^2(T)$, and an algebraic basis of the subspace of anti-invariant elements of $\Theta (T)$.
+The elements $J(\lambda \rho )/(\overline{w(G)}$, for $\lambda \in X_{++}$, form an orthonormal basis of the subspace of anti-invariant elements of $L^2(T)$, and an algebraic basis of the subspace of anti-invariant elements of $\Theta (T)$.
 
 The proof is identical to that of Chap. VI, §3, no. 3, Prop. 1.
 
@@ -295,7 +295,7 @@ If $\varphi$ and $\psi$ are two continuous central functions on G,
 $\int$ 1 $\int$
 
 $$
-\varphi (g)\psi (g)dg=(\varphi (t)J(\rho )(t)).(\psi (t)J(\rho )(t))dt
+\varphi (g)\psi (g)dg=\overline{(\varphi(t)J(\rho)(t))}.(\psi (t)J(\rho )(t))dt
 $$
 
 $$
@@ -353,7 +353,7 @@ The map which associates to any continuous central function $\varphi$ on G the f
 Let $\varphi$ be a continuous central function on G. Then,
 
 $$
-\int_G\chi_{\lambda}(g)\varphi (g)dg=\int_T\lambda (t)\prod_{\alpha >0}(1-\alpha (t)^{-1})\varphi (t)dt=\int_T\lambda \rho (t).\varphi (t)J(\rho )(t)dt
+\int_G\overline{\chi_{\lambda}(g)}\varphi (g)dg=\int_T\overline{\lambda(t)}\prod_{\alpha >0}(1-\alpha (t)^{-1})\varphi (t)dt=\int_T\overline{\lambda \rho(t)}.\varphi (t)J(\rho )(t)dt
 $$
 
 Indeed, by Lemma 4 and Th. 2,
@@ -370,18 +370,18 @@ $$
 
 1 $\int$
 
-= $J(\lambda \rho )(t)\varphi (t)J(\rho )(t)dt$.
+= $\overline{J(\lambda \rho)(t)}\varphi (t)J(\rho )(t)dt$.
 
 $$
 w(G)_T
 $$
 
-But the function $t \rightarrow \varphi (t)J(\rho )(t)$ is anti-invariant and $_{w(G)}^1J(\lambda \rho )$ is the orthogonal projection of $\lambda \rho$ onto the subspace of anti-invariant elements of $L^2$(T), so
+But the function $t \rightarrow \varphi (t)J(\rho )(t)$ is anti-invariant and $\frac{1}{w(G)}J(\lambda \rho )$ is the orthogonal projection of $\lambda \rho$ onto the subspace of anti-invariant elements of $L^2$(T), so
 
 1 $\int\int$
 
 $$
-J(\lambda \rho )(t)\varphi (t)J(\rho )(t)dt=\lambda \rho (t)\varphi (t)J(\rho )(t)dt
+J(\lambda \rho )(t)\varphi (t)J(\rho )(t)dt=\overline{\lambda \rho(t)}\varphi (t)J(\rho )(t)dt
 $$
 
 $w(G)_T$ T
@@ -440,7 +440,7 @@ $$
 _{\alpha\in R_+}\langle \rho , K_{\alpha}\rangle
 $$
 
-Put $\gamma =^1_2\sum_{\alpha >0}K_{\alpha}$, so $\delta (\alpha )(\gamma ) = 2\pi i$ for every simple root $\alpha$ (Chap. VI, §1, no. 10, Prop. 29). The line $\mathbf{R}\gamma$ is not contained in any of the hyperplanes Ker $\delta (\alpha )$, so exp($z\gamma$ ) is a regular element of G for all sufficiently small $z\in \mathbf{R}^*$; for all $\mu\in X(T)$ and all $z\in \mathbf{R}$, we have
+Put $\gamma =\frac{1}{2}\sum_{\alpha >0}K_{\alpha}$, so $\delta (\alpha )(\gamma ) = 2\pi i$ for every simple root $\alpha$ (Chap. VI, §1, no. 10, Prop. 29). The line $\mathbf{R}\gamma$ is not contained in any of the hyperplanes Ker $\delta (\alpha )$, so exp($z\gamma$ ) is a regular element of G for all sufficiently small $z\in \mathbf{R}^*$; for all $\mu\in X(T)$ and all $z\in \mathbf{R}$, we have
 
 $J(\mu$)(exp($z\gamma$ )) $=\sum_{w\in W}\varepsilon (w)e^{z\delta(\mu)(w^{-1}\gamma)}$.
 

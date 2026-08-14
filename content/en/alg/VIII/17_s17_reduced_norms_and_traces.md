@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: ddeef9e5cd26e15e7d6169e210fab3880c2e67273210d462bd8013acf2a18bc8
+content_sha256: 1b6f872bd56a0a5117fa3b7bd142070fbfa037e56b7d448fe4d87c586c30a6d0
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -53,7 +53,7 @@ Let L be a commutative ring and M a free L-module of finite rank $m$. If $u$ is 
 
 and $c_r(u) = 0$ for $r > m$. By Proposition 7 of III, §8, No. 4, p. 527, the mapping $u\mapsto$ det($u$) from End(M) to L is a homogeneous polynomial mapping of degree $m$ (IV, §5, No. 9, p. 55). More generally, for every integer $r$ such that $0\leqslant r\leqslant m$, the mapping $c_r$ from End(M) to L is a homogeneous polynomial mapping of degree $r$; this follows from Proposition 10 of III, §8, No. 5, p. 529.
 
-Let $u$ be an endomorphism of M and $u$ the endomorphism of the L[X]module $M[X] = M\otimes_LL[X]$ deduced from $u$ by extension of scalars (II, §5, No. 1, p. 277). Recall (III, §8, No. 11, p. 541, Definition 3 and (50)) that the characteristic polynomial of $u$ is the determinant $\chi_u(X)$ of the L[X]endomorphism $X-u$ of M[X] and that we have the relation
+Let $u$ be an endomorphism of M and $\overline{u}$ the endomorphism of the L[X]module $M[X] = M\otimes_LL[X]$ deduced from $u$ by extension of scalars (II, §5, No. 1, p. 277). Recall (III, §8, No. 11, p. 541, Definition 3 and (50)) that the characteristic polynomial of $u$ is the determinant $\chi_u(X)$ of the L[X]endomorphism $X-\overline{u}$ of M[X] and that we have the relation
 
 $$
 \chi_u(X) =\sum_{r=0}^m(-1)^rc_r(u) X^{m-r} \tag{2}
@@ -105,7 +105,7 @@ $\widetilde{u}(u(x_1))\wedge x_2\wedge  \cdots  \wedge x_m=u(x_1)\wedge  \cdots 
 
 Consequently, $h_1(\widetilde{u}\circ u(x_1)) =h_1$(det($u$)$x_1)$, which gives the relation $\widetilde{u}\circ u=$ det($u$)$_M$ by Lemma 1.
 
-We denote by U the endomorphism $X-u$ of the L[X]-module M[X] (VIII, p. 335). By the above applied to U, there exists an endomorphism $\widetilde{U}$ of the L[X]-module M[X] that satisfies the relations
+We denote by U the endomorphism $X-\overline{u}$ of the L[X]-module M[X] (VIII, p. 335). By the above applied to U, there exists an endomorphism $\widetilde{U}$ of the L[X]-module M[X] that satisfies the relations
 
 $$
 \widetilde{U}(x_1)\wedge x_2\wedge  \cdots  \wedge x_m=x_1\wedge (Xx_2-u(x_2))\wedge  \cdots  \wedge (Xx_m-u(x_m)) \tag{9}
@@ -113,7 +113,7 @@ $$
 
 for $x_1, . . . , x_m$ in M and
 
-(10) $\widetilde{U}\circ U =$ det(X $-u)_{M[X]}$.
+(10) $\widetilde{U}\circ U =$ det(X $-\overline{u})_{M[X]}$.
 
 Let us view $\widetilde{U}$ as an element of End(M)[X] (VIII, p. 9); by formula (9) and Lemma 1, it has degree $\leqslant m-1$, so we can write it as
 
@@ -213,7 +213,7 @@ Set P(X) = det(X$I_n-\theta (1\otimes a))$; it is a monic polynomial in L[X]. By
 
 (19) Pc($a; X$) $= P(X)^n$.
 
-Let G be the Galois group of L over K. For $\sigma \in G$, denote by $\sigma$ the automorphism of the ring L[X] that coincides with $\sigma$ on L and fixes X. Then K[X] is the set of polynomials Q of L[X] such that we have $\sigma (Q) = Q$ for every $\sigma \in G$ (V, §10, No. 1, p. 56, Theorem 1). Since the polynomial Pc($a; X$) $= P(X)^n$ belongs to K[X], we have $\sigma (P)^n= P^n$ for every $\sigma \in G$. By Lemma 2, we therefore have $\sigma (P) = P$ for every $\sigma \in G$, so P belongs to K[X].
+Let G be the Galois group of L over K. For $\sigma \in G$, denote by $\overline{\sigma}$ the automorphism of the ring L[X] that coincides with $\sigma$ on L and fixes X. Then K[X] is the set of polynomials Q of L[X] such that we have $\overline{\sigma}(Q) = Q$ for every $\sigma \in G$ (V, §10, No. 1, p. 56, Theorem 1). Since the polynomial Pc($a; X$) $= P(X)^n$ belongs to K[X], we have $\overline{\sigma}(P)^n= P^n$ for every $\sigma \in G$. By Lemma 2, we therefore have $\overline{\sigma}(P) = P$ for every $\sigma \in G$, so P belongs to K[X].
 
 #### Definition 1 {#alg-viii-s17-def-1 .statement tag=00RM}
 
@@ -429,7 +429,7 @@ Let $u$ be the element $\sum_{i\in I}T_i\otimes e_i$ of the central simple $K(\m
 
 We choose an extension L of K and an L-algebra isomorphism $\theta$ from $A_{(L)}$ to $\mathbf{M}_n(L)$. We denote by $\theta : A_{(L(\mathbf{T}))}\rightarrow \mathbf{M}_n(L(\mathbf{T}))$ the isomorphism of $L(\mathbf{T})$-algebras deduced from $\theta$ by extension of scalars. By Corollary 1 of VIII, p. 342, we have
 
-(47) $P(X) =\chi_{\theta(u)}(X) =$ det(X$I_n-\theta (u)) =$ det X$I_n-\sum_{i\in I}T_i\theta (1\otimes e_i)$.
+(47) $P(X) =\chi_{\overline{\theta}(u)}(X) =$ det(X$I_n-\overline{\theta}(u)) =$ det X$I_n-\sum_{i\in I}T_i\theta (1\otimes e_i)$.
 
 Since the matrices $\theta (1\otimes e_i)$ belong to $\mathbf{M}_n$(L), this formula shows that P is a homogeneous polynomial of degree $n$ in $L[\mathbf{T},X]$. It also belongs to $K(\mathbf{T})[X]$ and can be written as $P(X) =\sum_{j\geqslant 0}c_jX^j$, where each $c_j$ belongs to the intersection $K(\mathbf{T})\cap L[\mathbf{T}]$. By Lemma 3, each of the elements $c_j$ belongs to $K[\mathbf{T}]$; Lemma 4 follows.
 
@@ -439,7 +439,7 @@ For every extension $K'$ of K and every element $(t_i)_{i\in I}$ of ${K'}^I$, we
 
 (48) Pcrd$_{A_{(K')}/K'}\sum_{i\in I}t_i\otimes e_i= P((t_i)_{i\in I},X)$.
 
-Let $\varphi : K[\mathbf{T}]\rightarrow K'$ be the unique K-algebra homomorphism that sends $T_i$ to $t_i$ for every $i\in I$; it defines on $K'$ the structure of a $K[\mathbf{T}$]-algebra. The $K'$-algebra $A_{(K[\mathbf{T}])(K')}$ can be identified with $A_{(K')}$ (transitivity of extension of scalars), where the element $1\otimes \sum T_i\otimes e_i$ is identified with the element $\sum t_i\otimes e_i$ of $A_{(K')}$. We denote by $\varphi : K[\mathbf{T}][X]\rightarrow K'[X]$ the K-algebra homomorphism deduced from $\varphi$. By formula (21) of III, §9, No. 3, p. 544, the characteristic polynomial of $\sum t_i\otimes e_i$ with respect to the $K'$-algebra $A_{(K')}$ is the image by $\varphi$ of the characteristic polynomial of $\sum T_i\otimes e_i$ with respect to the $K[\mathbf{T}$]-algebra $A_{(K[\mathbf{T}])}$, that is, of $P^n$. In other words, we have
+Let $\varphi : K[\mathbf{T}]\rightarrow K'$ be the unique K-algebra homomorphism that sends $T_i$ to $t_i$ for every $i\in I$; it defines on $K'$ the structure of a $K[\mathbf{T}$]-algebra. The $K'$-algebra $A_{(K[\mathbf{T}])(K')}$ can be identified with $A_{(K')}$ (transitivity of extension of scalars), where the element $1\otimes \sum T_i\otimes e_i$ is identified with the element $\sum t_i\otimes e_i$ of $A_{(K')}$. We denote by $\overline{\varphi}: K[\mathbf{T}][X]\rightarrow K'[X]$ the K-algebra homomorphism deduced from $\varphi$. By formula (21) of III, §9, No. 3, p. 544, the characteristic polynomial of $\sum t_i\otimes e_i$ with respect to the $K'$-algebra $A_{(K')}$ is the image by $\overline{\varphi}$ of the characteristic polynomial of $\sum T_i\otimes e_i$ with respect to the $K[\mathbf{T}$]-algebra $A_{(K[\mathbf{T}])}$, that is, of $P^n$. In other words, we have
 
 (49) Pc$_{A_{(K')}/K'}\sum_{i\in I}t_i\otimes e_i; X= P((t_i)_{i\in I},X)^n$;
 

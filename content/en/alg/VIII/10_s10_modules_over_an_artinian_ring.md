@@ -26,7 +26,7 @@ subsections:
       pdf_page: 192
 statements: 12
 exercises: 11
-content_sha256: 643b4db3c7a842dfd2d56687032c1f67ff5b8a334c0a8205d99847933738d49e
+content_sha256: 0e8d69a48e3eac3d070a735ca535992e1ad10a43c6009f717126482355c6907e
 ---
 
 ## § 10. MODULES OVER AN ARTINIAN RING
@@ -111,7 +111,7 @@ The radical $\mathfrak{r}$ of A is a nilpotent two-sided ideal (VIII, p. 173, Pr
 
 Let us prove assertion b). The existence of a projective cover $(P, u)$ of M follows from Proposition 4 and the isomorphism from $P/\mathfrak{r}P$ to M of Proposition 9 of VIII, p. 162. Since the ring $A/\mathfrak{r}$ is semisimple, a module over this ring is indecomposable if and only if it is simple. The last assertion then follows from Corollary 2 of VIII, p. 160.
 
-Let us prove c). Let $f$ be an isomorphism from P to $P'$; it induces an isomorphism $f$ from $P/\mathfrak{r}P$ to $P'/\mathfrak{r}P'$. By b), these quotients are isomorphic to M and $M'$, respectively. Therefore, M is isomorphic to $M'$. Conversely, by Proposition 8 of VIII, p. 161, every isomorphism $f$ from M to $M'$ lifts to an isomorphism $\widetilde{f}$ from P to $P'$ such that $f\circ u=u'\circ \widetilde{f}$.
+Let us prove c). Let $f$ be an isomorphism from P to $P'$; it induces an isomorphism $\overline{f}$ from $P/\mathfrak{r}P$ to $P'/\mathfrak{r}P'$. By b), these quotients are isomorphic to M and $M'$, respectively. Therefore, M is isomorphic to $M'$. Conversely, by Proposition 8 of VIII, p. 161, every isomorphism $f$ from M to $M'$ lifts to an isomorphism $\widetilde{f}$ from P to $P'$ such that $f\circ u=u'\circ \widetilde{f}$.
 
 #### Corollary {#alg-viii-s10-n3-cor-1 .statement tag=00CE}
 

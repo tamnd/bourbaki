@@ -21,7 +21,7 @@ subsections:
       pdf_page: 260
 statements: 16
 exercises: 14
-content_sha256: fee5bfe2919b6f5bbed209c2fb083a9c362747a66f84f0feb8f2b8eef6e3499a
+content_sha256: d85cbf22c0db2c51875f7be3d59191d2cccf2b9a7c13aea75ecd2b3ccc64b4b0
 ---
 
 ## § 2. CLASSIFICATION
@@ -32,13 +32,13 @@ content_sha256: fee5bfe2919b6f5bbed209c2fb083a9c362747a66f84f0feb8f2b8eef6e3499a
 
 Soit H un groupe localement compact, et soit R l’un des groupes $\mathbf{R}$ ou $\mathbf{Z}$. Soit $\varphi$ un morphisme continu de R dans H. Si $\varphi$ n’est pas un isomorphisme topologique de R sur un sous-groupe de H, alors l’image de R dans H est relativement compacte.
 
-Soit I l’image de $\varphi$. Quitte à remplacer H par I, on peut supposer que I est dense dans H. On doit alors montrer que H est compact si $\varphi$ n’est pas un isomorphisme topologique de R sur I.
+Soit I l’image de $\varphi$. Quitte à remplacer H par $\overline{I}$, on peut supposer que I est dense dans H. On doit alors montrer que H est compact si $\varphi$ n’est pas un isomorphisme topologique de R sur I.
 
 Supposons qu’il existe un voisinage V de $e$ dans H et un entier $M>0$ tels que, pour tout $t >M$ dans R, on ait $\varphi (t)\notin V$. Alors $\varphi$ est injective : si $\varphi (u) =e$, on a $\varphi (nu) =e$ pour tout entier $n\geqslant 1$, donc l’ensemble $\mathbf{N}u$ est borné dans R, ce qui signifie que $u= 0$. La restriction de $\varphi$ à $[-M,M]\cap R$ est donc un homéomorphisme sur son image, qui contient $V\cap I$. La restriction de $\varphi^{-1}$ à $V\cap I$ étant continue, il s’ensuit que $\varphi$ est un isomorphisme topologique de R sur I.
 
 Supposons maintenant que $\varphi$ n’est pas un isomorphisme topologique de R sur I. Soient W un voisinage ouvert relativement compact de $e$ dans H, et V un voisinage symétrique de $e$ tel que $V^2\subset W$. Pour tout $x\in$ H = I, il existe un élément $s\in$ R tel que $x\in \varphi (s)V$. D’après l’alinéa précédent et l’hypothèse sur $\varphi$, il existe $t\in$ R tel que $t >|s|$ et $\varphi (t)\in V$. On a alors $x\in \varphi (t+s)\varphi (t)^{-1}V\subset \varphi (t+s)W$, et $t+s >0$. Par suite, les ensembles ouverts $\varphi (u)W$ pour $u >0$ forment un recouvrement ouvert de H. Comme W est relativement compact, il existe un entier $n\geqslant 1$ et des éléments $u_1, . . . , u_n$ de R, strictement positifs, tels que $W\subset \bigcup_{1\leqslant i\leqslant n}\varphi (u_i)W$. Soit U le plus grand des $u_i$.
 
-Soit $x\in H$ et soit $s=$ inf$\{t\in R|t\geqslant 0,\varphi (t)x^{-1}\in W\}$. Comme W est compact, on a alors $\varphi (s)x^{-1}\in W$. Il existe un entier $i$ tel que $\varphi (s)x^{-1}\in \varphi (u_i)W$, d’où $\varphi (s-u_i)x^{-1}\in W$. La définition de $s$ entraîne $s-u_i<0$, d’où $s\leqslant U$. Il en résulte que $H =\varphi ([0,U]\cap R)W$ est compact.
+Soit $x\in H$ et soit $s=$ inf$\{t\in R|t\geqslant 0,\varphi (t)x^{-1}\in \overline{W}\}$. Comme $\overline{W}$ est compact, on a alors $\varphi (s)x^{-1}\in \overline{W}$. Il existe un entier $i$ tel que $\varphi (s)x^{-1}\in \varphi (u_i)W$, d’où $\varphi (s-u_i)x^{-1}\in \overline{W}$. La définition de $s$ entraîne $s-u_i<0$, d’où $s\leqslant U$. Il en résulte que $H =\varphi ([0,U]\cap R)W$ est compact.
 
 #### Lemme 2 {#ts-ii-s2-lem-2 .statement tag=02MA}
 
@@ -48,7 +48,7 @@ Quitte à remplacer V par $V\cup V^{-1}$, on peut supposer que V est symétrique
 
 Comme $V^2$ est compact, il existe un entier $k\geqslant 1$ et des éléments $x_1, . . . , x_k\in G$ tels que $V^2\subset \bigcup_{1\leqslant i\leqslant k}x_iV$. Soit $D_0$ le sous-groupe de G engendré par la famille $(x_i)_{1\leqslant i\leqslant k}$. On a $V^2\subset D_0V$, d’où par récurrence $V^n\subset D_0V$ pour tout entier $n\geqslant 1$, et donc $G = D_0V$ puisque V engendre G. Soit alors J une partie de $\{1,2, . . . , k\}$ telle que le sous-groupe D engendré par la famille $(x_i)_{i\in J}$ soit topologiquement isomorphe à $\mathbf{Z}^{Card(J)}$, et maximale pour cette propriété. Montrons que $G/D$ est compact.
 
-Soit $p$ la surjection canonique de G sur $G/D$. Soit $i\in  \{1,2, . . . , k\}-J$. Si le sous-groupe $H_i$ de $G/D$ engendré par $p(x_i)$ est topologiquement isomorphe à $\mathbf{Z}$, le sous-groupe de G engendré par D et $x_i$ est discret et l’application $(d, n)\mapsto dx^n_i$ est un isomorphisme de $D\times \mathbf{Z}$ sur ce sous-groupe, contrairement à la maximalité de J. Le lemme 1 entraîne donc que $H_i$ est compact. Donc $G/D = (\prod_{i\notin J}H_i)p(V)$ est compact
+Soit $p$ la surjection canonique de G sur $G/D$. Soit $i\in  \{1,2, . . . , k\}-J$. Si le sous-groupe $H_i$ de $G/D$ engendré par $p(x_i)$ est topologiquement isomorphe à $\mathbf{Z}$, le sous-groupe de G engendré par D et $x_i$ est discret et l’application $(d, n)\mapsto dx^n_i$ est un isomorphisme de $D\times \mathbf{Z}$ sur ce sous-groupe, contrairement à la maximalité de J. Le lemme 1 entraîne donc que $\overline{H}_i$ est compact. Donc $G/D = (\prod_{i\notin J}\overline{H}_i)p(V)$ est compact
 
 #### Lemme 3 {#ts-ii-s2-lem-3 .statement tag=02MB}
 

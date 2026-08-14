@@ -14,15 +14,15 @@ Audited: 4 chapters, 61 sections, 668 exercises, 2873 extracted pages, 4464 tags
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (134) |
-| mathematics | 6 | 2 | 1 | M06 (1), M09 (120) |
+| mathematics | 6 | 2 | 1 | M06 (1), M09 (108) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
 | translation | 8 | 2 | 1 | L08 (1) |
 | solutions | 0 | 4 | 0 | none |
-| publication | 0 | 1 | 0 | P04 (117) |
+| publication | 0 | 1 | 0 | P04 (105) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 373 soft, over 56 rules that ran and 3 that could not.
+0 hard findings and 349 soft, over 56 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -41,7 +41,7 @@ Soft, mathematics.
 
 - `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.47 displays a page over 17 pages, against a mean of 1.23 and a sigma of 1.30
 
-## M09 no base carries two superscripts or two subscripts (120)
+## M09 no base carries two superscripts or two subscripts (108)
 
 Soft, mathematics.
 
@@ -50,7 +50,7 @@ Soft, mathematics.
 - `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:352` two of one script against one base, which TeX will not set: _n^{j-}_-^1_1
 - `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:362` two of one script against one base, which TeX will not set: _n^{j-}_-^1_1
 - `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:692` two of one script against one base, which TeX will not set: ^-_1^1
-- `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_x
+- `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x}}}
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:86` two of one script against one base, which TeX will not set: ^a_0^0_b
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:474` two of one script against one base, which TeX will not set: _g'_{_{-1}}
 - `content/en/alg/VIII/exercises/s11/05.md:15` two of one script against one base, which TeX will not set: ^p_0^0_q
@@ -59,21 +59,21 @@ Soft, mathematics.
 - `content/en/alg/VIII/exercises/s14/18.md:15` two of one script against one base, which TeX will not set: ^z_{0\sigma(}^0_{z)}
 - `content/en/alg/VIII/exercises/s19/06.md:25` two of one script against one base, which TeX will not set: ^r_{j=0}^{-1}
 - `content/en/alg/VIII/exercises/s19/06.md:25` two of one script against one base, which TeX will not set: ^2_{h^r=0}^{-1}
-- `content/en/alg/VIII/exercises/s21/21.md:33` two of one script against one base, which TeX will not set: ^n_{j=1j^{\alpha j}}^1_{\alpha_j!}
-- `content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md:363` two of one script against one base, which TeX will not set: ^{exp ad}_{adx}^{x-1}
 - `content/en/lie/IX/08_s8_fourier_transform.md:71` two of one script against one base, which TeX will not set: _u^2_2
 - `content/en/lie/IX/08_s8_fourier_transform.md:75` two of one script against one base, which TeX will not set: _u^2_2
 - `content/en/lie/IX/A1_a1_structure_of_compact_groups.md:102` two of one script against one base, which TeX will not set: ^l_{\beta^{\beta \alpha}}^{(\lambda)}
 - `content/en/lie/IX/exercises/s2/08.md:29` two of one script against one base, which TeX will not set: ^-_G^1
-- `content/en/lie/IX/exercises/s6/02.md:27` two of one script against one base, which TeX will not set: ^1_{2i=1}^{n\partial}_{\partial x^2}^{P_{2i}}
-- `content/en/lie/IX/exercises/s6/02.md:31` two of one script against one base, which TeX will not set: _n^{\infty}_{=1}^{\Delta^n}_n^{(P)}_!
+- `content/en/lie/IX/exercises/s6/02.md:27` two of one script against one base, which TeX will not set: ^1_{\overline{2}i=1}^n
 - `content/en/lie/IX/exercises/s7/04.md:23` two of one script against one base, which TeX will not set: ^n_{\partial x}^{\partial^2}_{\partial y}^P
-- `content/en/lie/IX/exercises/s7/05.md:15` two of one script against one base, which TeX will not set: ^{\partial}_{\partial x^2}^{P_{2i}}
-- `content/en/lie/IX/exercises/s8/01.md:23` two of one script against one base, which TeX will not set: ^{(-}_j^{1)}_{!^i}
+- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:491` two of one script against one base, which TeX will not set: _-'_{\alpha}
+- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:555` two of one script against one base, which TeX will not set: _-'_{\alpha}
+- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:559` two of one script against one base, which TeX will not set: _-'_{\alpha}
+- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:559` two of one script against one base, which TeX will not set: _-'_{\alpha}
+- `content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md:181` two of one script against one base, which TeX will not set: ^m_{i^i}^{n_i}
 
-and 95 more, which `bourbaki audit -only M09` prints in full.
+and 83 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (117)
+## P04 every math span parses under KaTeX (105)
 
 Soft, publication.
 
@@ -82,7 +82,7 @@ Soft, publication.
 - `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:352` KaTeX will not set it: Double subscript at position 31: … d_n^j=d_n^{j-}_̲-^1_1\circ d_n^…: d_{n-1}^i\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \ta…
 - `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:362` KaTeX will not set it: Double subscript at position 53: …)^{i+j}d_n^{j-}_̲-^1_1\circ d_n^…: =\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_n^{j-…
 - `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:692` KaTeX will not set it: Double superscript at position 70: …_1(x\cdot g^-_1^̲1)}c(h_2(x\cdot…: =\prod_{x\in H\backslash G}^{s(x\cdot g_1^{-1})^{-…
-- `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\g…: ^X_-^-_y^x_X^-_-^{\gamma y}_x
+- `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\g…: ^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x…
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:86` KaTeX will not set it: Double superscript at position 20: …b)\mapsto (^a_0^̲0_b): (a, b)\mapsto (^a_0^0_b)
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:474` KaTeX will not set it: Double subscript at position 54: …_{\in G}f_gf_g'_̲{_{-1}} \tag{28…: \langle f, f'\rangle_G=|G|^{-1}_g\sum_{\in G}f_gf_…
 - `content/en/alg/VIII/exercises/s11/05.md:15` KaTeX will not set it: Double superscript at position 28: … q) = (m+n,^p_0^̲0_q: (m, p) + (n, q) = (m+n,^p_0^0_q
@@ -90,20 +90,20 @@ Soft, publication.
 - `content/en/alg/VIII/exercises/s11/10.md:17` KaTeX will not set it: Double superscript at position 6: (^X_0^̲0_I): (^X_0^0_I)
 - `content/en/alg/VIII/exercises/s14/18.md:15` KaTeX will not set it: Double superscript at position 14: ^z_{0\sigma(}^̲0_{z)}: ^z_{0\sigma(}^0_{z)}
 - `content/en/alg/VIII/exercises/s19/06.md:25` KaTeX will not set it: Double superscript at position 14: \prod^r_{j=0}^̲{-1}(1 + T^{2^j…: \prod^r_{j=0}^{-1}(1 + T^{2^j}) =\sum^2_{h^r=0}^{-…
-- `content/en/alg/VIII/exercises/s21/21.md:33` KaTeX will not set it: Double superscript at position 51: …=1j^{\alpha j}}^̲1_{\alpha_j!}: c_{\boldsymbol{\alpha }}=\prod^n_{j=1j^{\alpha j}}…
-- `content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md:363` KaTeX will not set it: Double superscript at position 16: ^{exp ad}_{adx}^̲{x-1}: ^{exp ad}_{adx}^{x-1}
 - `content/en/lie/IX/08_s8_fourier_transform.md:71` KaTeX will not set it: Double subscript at position 12: \sum_uA_u^2_̲2<\infty: \sum_uA_u^2_2<\infty
 - `content/en/lie/IX/08_s8_fourier_transform.md:75` KaTeX will not set it: Double subscript at position 34: …idehat{G}}A_u^2_̲2: A^2_2=\sum_{u\in\widehat{G}}A_u^2_2
 - `content/en/lie/IX/A1_a1_structure_of_compact_groups.md:102` KaTeX will not set it: Double superscript at position 44: …{\beta \alpha}}^̲{(\lambda)}) = …: f_{\alpha \beta}(S^l_{\beta^{\beta \alpha}}^{(\lam…
 - `content/en/lie/IX/exercises/s2/08.md:29` KaTeX will not set it: Double superscript at position 5: ^-_G^̲1(T_r)\subset L…: ^-_G^1(T_r)\subset L(T)
-- `content/en/lie/IX/exercises/s6/02.md:27` KaTeX will not set it: Double superscript at position 26: … =\sum^1_{2i=1}^̲{n\partial}_{\p…: \Delta (P) =\sum^1_{2i=1}^{n\partial}_{\partial x^…
-- `content/en/lie/IX/exercises/s6/02.md:31` KaTeX will not set it: Double subscript at position 20: …\sum_n^{\infty}_̲{=1}^{\Delta^n}…: P^*=\sum_n^{\infty}_{=1}^{\Delta^n}_n^{(P)}_!=e^{\…
+- `content/en/lie/IX/exercises/s6/02.md:27` KaTeX will not set it: Double superscript at position 37: …overline{2}i=1}^̲n\frac{\partial…: \Delta (P) =\sum^1_{\overline{2}i=1}^n\frac{\parti…
 - `content/en/lie/IX/exercises/s7/04.md:23` KaTeX will not set it: Double superscript at position 20: …^n_{\partial x}^̲{\partial^2}_{\…: \sum^n_{\partial x}^{\partial^2}_{\partial y}^P
-- `content/en/lie/IX/exercises/s7/05.md:15` KaTeX will not set it: Double superscript at position 47: …_{\partial x^2}^̲{P_{2i}}: \Delta (P) =^1_2\sum^{\partial}_{\partial x^2}^{P_…
-- `content/en/lie/IX/exercises/s8/01.md:23` KaTeX will not set it: Double superscript at position 24: …}^n(g) =^{(-}_j^̲{1)}_{!^i}\alph…: \tau_{ij}^n(g) =^{(-}_j^{1)}_{!^i}\alpha^{i+j-n}\b…
-- `content/en/lie/IX/exercises/s8/01.md:27` KaTeX will not set it: Double superscript at position 18: …+ 1)^{1/2}(^j_i^̲{!(}_{!(}^n_n^-…: (n+ 1)^{1/2}(^j_i^{!(}_{!(}^n_n^-_-^j_{i)!}^{)!})^…
+- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:491` KaTeX will not set it: Double subscript at position 82: …},\varphi (X_-'_̲{\alpha}) =X_{-…: \varphi (X_{\alpha}') =X_{\alpha},\varphi (H_{\alp…
+- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:555` KaTeX will not set it: Double subscript at position 57: …{\alpha}', X_-'_̲{\alpha}] = [X_…: X_{\alpha}'\in \mathfrak{g}^{\alpha},[X_{\alpha}',…
+- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:559` KaTeX will not set it: Double subscript at position 143: …u_{-\alpha}X_-'_̲{\alpha}=X_-'_{…: \theta (X_{\alpha}') =\theta (u^{-1}_{\alpha}X_{\a…
+- `content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md:181` KaTeX will not set it: Double superscript at position 32: …a_i) =t^m_{i^i}^̲{n_i}=t^m_i= (\…: \chi (n_i\lambda_i) =t^m_{i^i}^{n_i}=t^m_i= (\psi^…
+- `content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md:415` KaTeX will not set it: Double subscript at position 17: …sum m_{\alpha}'_̲{\alpha}: \sum m_{\alpha}'_{\alpha}
+- `content/en/lie/VIII/08_s8_symmetric_invariants.md:266` KaTeX will not set it: Expected group after '_' at position 28: …_++\mathfrak{n}_̲: \mathfrak{n}_++\mathfrak{n}_
 
-and 92 more, which `bourbaki audit -only P04` prints in full.
+and 80 more, which `bourbaki audit -only P04` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (134)
 

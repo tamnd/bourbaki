@@ -13,7 +13,7 @@ pdf_pages: 0058-0059, 0076-0076
 extraction: native
 statements: 3
 exercises: 2
-content_sha256: d084e22be21c20c485afa31102f63229c7f5621e1fd070f9a1295ea2902a9f93
+content_sha256: ffaf56e9c1944e0bbcecbf623479502c717683b83fb96d7dea3d76415a97a8f1
 ---
 
 ## APPENDIX II A CONNECTEDNESS PROPERTY
@@ -28,7 +28,7 @@ $$
 (V\cap \Omega )\cap \Omega_0= V\cap \Omega_0\not=\emptyset
 $$
 
-so $V\cap \Omega \subset \Omega_0$. Thus, since $\Omega$ is dense in $X,\Omega_0$ is a neighbourhood of $x$. Consequently, $\Omega_0$ is non-empty, open and closed, and since X is connected, $\Omega_0= X$. Since $\Omega_0$ is closed in $\Omega$, this implies that $\Omega_0=\Omega \cap \Omega_0=\Omega$, which proves that $\Omega$ is connected.
+so $V\cap \Omega \subset \Omega_0$. Thus, since $\Omega$ is dense in $X,\overline{\Omega}_0$ is a neighbourhood of $x$. Consequently, $\Omega_0$ is non-empty, open and closed, and since X is connected, $\overline{\Omega}_0= X$. Since $\Omega_0$ is closed in $\Omega$, this implies that $\Omega_0=\Omega \cap \overline{\Omega}_0=\Omega$, which proves that $\Omega$ is connected.
 
 #### Lemma 2 {#lie-vii-a2-lem-2 .statement tag=00XO}
 

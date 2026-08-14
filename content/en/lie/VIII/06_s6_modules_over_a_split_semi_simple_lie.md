@@ -29,7 +29,7 @@ subsections:
       pdf_page: 130
 statements: 17
 exercises: 5
-content_sha256: ca6cbdef42ccfefee97dca1e407a3d944eb412e53fd098ef1c1ba47c359d7529
+content_sha256: 3a707a40b405a269e1c921c11fec0003f9973d5dcde7d8f2258ba0e253ca3267
 ---
 
 ## § 6. MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -294,7 +294,7 @@ Thus, $x$ is primitive of weight $\lambda -(m+ 1)\alpha$. In view of Prop. 6, th
 
 #### Corollary 2 {#lie-viii-s6-prop-6-cor-2 .statement tag=012Z}
 
-Let $\rho =^1_2\sum_{\alpha\in R_+}\alpha$, and $\lambda , \mu\in \mathfrak{h}^*$. Assume that $\lambda +\rho$ is a dominant weight in R, and that there exists $w\in W$ with $\mu+\rho =w(\lambda +\rho )$. Then $Z(\mu)$ is isomorphic to a submodule of $Z(\lambda )$.
+Let $\rho =\frac{1}{2}\sum_{\alpha\in R_+}\alpha$, and $\lambda , \mu\in \mathfrak{h}^*$. Assume that $\lambda +\rho$ is a dominant weight in R, and that there exists $w\in W$ with $\mu+\rho =w(\lambda +\rho )$. Then $Z(\mu)$ is isomorphic to a submodule of $Z(\lambda )$.
 
 The assertion is clear when $w= 1$. Assume that it is established whenever $w$ is of length $< q$. If $w$ is of length $q$, there exists $\alpha \in B$ such that $w=s_{\alpha}w^{'-1}$, with $l(w') =q-1$. We have $w'(\alpha )\in R_+$ (Chap. VI, §1, no. 6, Cor. 2 of Prop. 17), and hence $w^{'-1}(\lambda +\rho )(H_{\alpha}) = (\lambda +\rho )(H_{w'\alpha})$ is an integer $\geq 0$. Put
 
@@ -358,7 +358,7 @@ $$
 
 #### Corollary {#lie-viii-s6-n4-cor-1 .statement tag=0132}
 
-Let $\langle  \cdot ,\cdot  \rangle$ be a non-degenerate invariant symmetric bilinear form on $\mathfrak{g}$, C the Casimir element associated to $\langle  \cdot ,\cdot  \rangle$. Denote also by $\langle  \cdot ,\cdot  \rangle$ the inverse form on $\mathfrak{h}^*$ of the restriction of $\langle  \cdot ,\cdot  \rangle$ to $\mathfrak{h}($§2, no. 3, Prop. 5). Then $\chi (C) =\langle \lambda , \lambda + 2\rho \rangle$, where $\rho =^1_2\sum_{\alpha\in R_+}\alpha$.
+Let $\langle  \cdot ,\cdot  \rangle$ be a non-degenerate invariant symmetric bilinear form on $\mathfrak{g}$, C the Casimir element associated to $\langle  \cdot ,\cdot  \rangle$. Denote also by $\langle  \cdot ,\cdot  \rangle$ the inverse form on $\mathfrak{h}^*$ of the restriction of $\langle  \cdot ,\cdot  \rangle$ to $\mathfrak{h}($§2, no. 3, Prop. 5). Then $\chi (C) =\langle \lambda , \lambda + 2\rho \rangle$, where $\rho =\frac{1}{2}\sum_{\alpha\in R_+}\alpha$.
 
 We recall the notations of §2, no. 3, Prop. 6. We have
 

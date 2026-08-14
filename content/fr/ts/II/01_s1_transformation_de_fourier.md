@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: 573420e23070fd054b73f9c71d9d6acd316fa5c33efe43944a761ab4fcf1e848
+content_sha256: aa7b03a95301acfabb64a397313577c6ffc6506551f3d390dc31923824964b51
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -70,7 +70,7 @@ Dans ce chapitre, on dira souvent simplement « caractère » au lieu de « cara
 
 Soit E un espace hilbertien de dimension 1, et soit $\chi$ un caractère unitaire de G. L’application qui à $x\in G$ fait correspondre l’homothétie de rapport $\chi (x)$ dans E est une représentation linéaire continue isométrique de G dans E. Réciproquement, toute représentation linéaire continue bornée de G dans E est obtenue par ce procédé, et en particulier est unitaire.
 
-Il est immédiat que le produit de deux caractères unitaires, l’inverse d’un caractère unitaire, et la fonction constante égale à 1 sont des caractères unitaires. Par suite, l’ensemble $\widehat{G}$ des caractères unitaires de G est un groupe pour la multiplication. Ce groupe est commutatif. D’autre part, l’application $(\chi_1, \chi_2)\mapsto \chi_1\chi^{-1}_2=\chi_1\chi_2$ est continue pour la topologie de la convergence compacte et $\widehat{G}$ muni de la topologie de la convergence compacte est un groupe topologique (TG, X, p. 6, corollaire 2 et remarque 1).
+Il est immédiat que le produit de deux caractères unitaires, l’inverse d’un caractère unitaire, et la fonction constante égale à 1 sont des caractères unitaires. Par suite, l’ensemble $\widehat{G}$ des caractères unitaires de G est un groupe pour la multiplication. Ce groupe est commutatif. D’autre part, l’application $(\chi_1, \chi_2)\mapsto \chi_1\chi^{-1}_2=\chi_1\overline{\chi}_2$ est continue pour la topologie de la convergence compacte et $\widehat{G}$ muni de la topologie de la convergence compacte est un groupe topologique (TG, X, p. 6, corollaire 2 et remarque 1).
 
 #### Définition 2 {#ts-ii-s1-def-2 .statement tag=02HR}
 
@@ -93,7 +93,7 @@ Pour tout $\chi \in \widehat{G}$, l’application $\mu\mapsto \chi (\mu)$ est un
 D’après INT, VIII, §3, n$^o3$, prop. 11, l’application $\mu\mapsto \chi (\mu)$ est un caractère de l’algèbre de Banach involutive $\mathscr{M}^1(G)$. De plus, on a :
 
 $$
-\chi (\mu^*) =\int_G\chi (x^{-1})d\mu(x) =\int_G\chi (x)d\mu(x) =\chi (\mu)
+\chi (\mu^*) =\int_G\chi (x^{-1})d\mu(x) =\int_G\overline{\chi(x)}d\mu(x) =\overline{\chi(\mu)}
 $$
 
 et ce caractère est donc hermitien.
@@ -287,65 +287,65 @@ Le calcul du groupe dual d’un produit infini de groupes compacts commutatifs e
 Soit $\mu\in \mathscr{M}^1(G)$ une mesure complexe bornée sur G. On appelle transformée de Fourier de $\mu$ la fonction $\mathscr{F}_G(\mu)$ sur $\widehat{G}$ définie par
 
 $$
-\mathscr{F}_G(\mu)(\widehat{x}) =\int_G\langle \widehat{x}, x\rangle d\mu(x) \tag{5}
+\mathscr{F}_G(\mu)(\widehat{x}) =\int_G\overline{\langle\widehat{x}, x\rangle}d\mu(x) \tag{5}
 $$
 
-On appelle cotransformée de Fourier de $\mu$ la fonction $\mathscr{F}_G(\mu)$ sur $\widehat{G}$ definie par
+On appelle cotransformée de Fourier de $\mu$ la fonction $\overline{\mathscr{F}}_G(\mu)$ sur $\widehat{G}$ definie par
 
 $$
-\mathscr{F}_G(\mu)(\widehat{x}) =\int_G\langle \widehat{x}, x\rangle d\mu(x) \tag{6}
+\overline{\mathscr{F}}_G(\mu)(\widehat{x}) =\int_G\langle \widehat{x}, x\rangle d\mu(x) \tag{6}
 $$
 
-Lorsque il n’y a pas d’ambiguïté concernant le groupe G considéré, on écrira aussi $\mathscr{F}(\mu)$ et $\mathscr{F}(\mu)$. On note aussi parfois $\widehat{\mu}=\mathscr{F}_G(\mu)$.
+Lorsque il n’y a pas d’ambiguïté concernant le groupe G considéré, on écrira aussi $\mathscr{F}(\mu)$ et $\overline{\mathscr{F}}(\mu)$. On note aussi parfois $\widehat{\mu}=\mathscr{F}_G(\mu)$.
 
 #### Proposition 3 {#ts-ii-s1-prop-3 .statement tag=02I2}
 
-Pour toute mesure $\mu\in \mathscr{M}^1(G)$, les fonctions $\mathscr{F}_G(\mu)$ et $\mathscr{F}_G(\mu)$ sont continues et bornées. Les applications $\mathscr{F}_G:\mu\mapsto$ $\mathscr{F}_G(\mu)$ et $\mathscr{F}_G:\mu\mapsto \mathscr{F}_G(\mu)$ sont des morphismes continus de l’algèbre involutive $\mathscr{M}^1(G)$ dans l’algèbre involutive des fonctions continues bornées sur $\widehat{G}$ (exemple 1 de I, p. 99).
+Pour toute mesure $\mu\in \mathscr{M}^1(G)$, les fonctions $\mathscr{F}_G(\mu)$ et $\overline{\mathscr{F}}_G(\mu)$ sont continues et bornées. Les applications $\mathscr{F}_G:\mu\mapsto$ $\mathscr{F}_G(\mu)$ et $\overline{\mathscr{F}}_G:\mu\mapsto \overline{\mathscr{F}}_G(\mu)$ sont des morphismes continus de l’algèbre involutive $\mathscr{M}^1(G)$ dans l’algèbre involutive des fonctions continues bornées sur $\widehat{G}$ (exemple 1 de I, p. 99).
 
 Soit $\mu\in \mathscr{M}^1(G)$. Pour tout $\chi \in \widehat{G}$, on a
 
 $$
-|\mathscr{F}(\mu)(\chi )|=\int_G\langle \chi , x\rangle d\mu(x)\leqslant \|\mu\|_1 \tag{7}
+|\mathscr{F}(\mu)(\chi )|=\int_G\overline{\langle\chi , x\rangle}d\mu(x)\leqslant \|\mu\|_1 \tag{7}
 $$
 
-donc la transformée de Fourier de $\mu$ est bornée. Similairement, on vérifie que $\mathscr{F}(\mu)$ est bornée.
+donc la transformée de Fourier de $\mu$ est bornée. Similairement, on vérifie que $\overline{\mathscr{F}}(\mu)$ est bornée.
 
-Si $\chi$ tend vers $\chi_0$ dans $\widehat{G}$, la fonction $\chi$ sur G tend vers $\chi_0$ uniformément sur tout compact en restant bornée par la fonction constante 1 qui appartient à $L^1(G, \mu)$. D’après le théorème de Lebesgue (INT, IV, §3, n$^o7$, th. 6), il en résulte que $\mathscr{F}(\mu)(\chi )$ tend vers $\mathscr{F}(\mu)(\chi_0)$. Donc $\mathscr{F}(\mu)$ est continue. Il en est de même de $\mathscr{F}(\mu)$.
+Si $\chi$ tend vers $\chi_0$ dans $\widehat{G}$, la fonction $\chi$ sur G tend vers $\chi_0$ uniformément sur tout compact en restant bornée par la fonction constante 1 qui appartient à $L^1(G, \mu)$. D’après le théorème de Lebesgue (INT, IV, §3, n$^o7$, th. 6), il en résulte que $\mathscr{F}(\mu)(\chi )$ tend vers $\mathscr{F}(\mu)(\chi_0)$. Donc $\mathscr{F}(\mu)$ est continue. Il en est de même de $\overline{\mathscr{F}}(\mu)$.
 
-Pour tout $\chi \in \widehat{G}$, l’application $\mu\mapsto \chi (\mu) =\int\langle \chi , x\rangle d\mu(x)$ est un caractère hermitien de $\mathscr{M}^1(G)$ (lemme 1 de II, p. 202). Cela entraîne que $\mathscr{F}$ et $\mathscr{F}$ sont des morphismes d’algèbres involutives de $\mathscr{M}^1(G)$ dans l’algèbre involutive des fonctions continues bornées sur $\widehat{G}$. L’inégalité (7) démontre que ces morphismes sont continus.
+Pour tout $\chi \in \widehat{G}$, l’application $\mu\mapsto \chi (\mu) =\int\langle \chi , x\rangle d\mu(x)$ est un caractère hermitien de $\mathscr{M}^1(G)$ (lemme 1 de II, p. 202). Cela entraîne que $\mathscr{F}$ et $\overline{\mathscr{F}}$ sont des morphismes d’algèbres involutives de $\mathscr{M}^1(G)$ dans l’algèbre involutive des fonctions continues bornées sur $\widehat{G}$. L’inégalité (7) démontre que ces morphismes sont continus.
 
-La transformation de Fourier de G (resp. la cotransformation de Fourier de G) est l’application $\mu\mapsto \mathscr{F}_G(\mu)$ (resp. l’application $\mu\mapsto$ $\mathscr{F}_G(\mu)$) de $\mathscr{M}^1(G)$ dans $\mathscr{C}_b(\widehat{G})$.
+La transformation de Fourier de G (resp. la cotransformation de Fourier de G) est l’application $\mu\mapsto \mathscr{F}_G(\mu)$ (resp. l’application $\mu\mapsto$ $\overline{\mathscr{F}}_G(\mu)$) de $\mathscr{M}^1(G)$ dans $\mathscr{C}_b(\widehat{G})$.
 
 Notons quelques formules utiles pour $\mu\in \mathscr{M}^1(G),x\in G$ et $\chi \in \widehat{G}:$
 
 $$
-\mathscr{F}(\mu)(\chi ) =\mathscr{F}(\mu)(\chi^{-1}) =\mathscr{F}(\mu)(\chi ) \tag{8}
+\overline{\mathscr{F}}(\mu)(\chi ) =\mathscr{F}(\mu)(\chi^{-1}) =\overline{\mathscr{F}(\overline{\mu})(\chi)} \tag{8}
 $$
 
 $$
-\|\mathscr{F}(\mu)\|_{\infty}=\|\mathscr{F}(\mu)\|_{\infty}\leqslant \|\mu\|_1 \tag{9}
+\|\mathscr{F}(\mu)\|_{\infty}=\|\overline{\mathscr{F}}(\mu)\|_{\infty}\leqslant \|\mu\|_1 \tag{9}
 $$
 
 $$
-\mathscr{F}(\varepsilon_x)(\chi ) =\langle \chi , x\rangle
+\mathscr{F}(\varepsilon_x)(\chi ) =\overline{\langle\chi , x\rangle}
 $$
 
 (10)
 
 $$
-\mathscr{F}(\varepsilon_x)(\chi ) =\langle \chi , x\rangle
+\overline{\mathscr{F}}(\varepsilon_x)(\chi ) =\langle \chi , x\rangle
 $$
 
-(en particulier $\mathscr{F}(\varepsilon_e) =\mathscr{F}(\varepsilon_e) = 1$),
+(en particulier $\mathscr{F}(\varepsilon_e) =\overline{\mathscr{F}}(\varepsilon_e) = 1$),
 
 $$
-\mathscr{F}(\varepsilon_x*\mu)(\chi ) =\langle \chi , x\rangle \mathscr{F}(\mu)(\chi )
+\mathscr{F}(\varepsilon_x*\mu)(\chi ) =\overline{\langle\chi , x\rangle}\mathscr{F}(\mu)(\chi )
 $$
 
 (11)
 
 $$
-\mathscr{F}(\varepsilon_x*\mu)(\chi ) =\langle \chi , x\rangle \mathscr{F}(\mu)(\chi )
+\overline{\mathscr{F}}(\varepsilon_x*\mu)(\chi ) =\langle \chi , x\rangle \overline{\mathscr{F}}(\mu)(\chi )
 $$
 
 $$
@@ -355,13 +355,13 @@ $$
 (12)
 
 $$
-\mathscr{F}(\chi \cdot \mu) =\varepsilon_{\chi^{-1}}*\mathscr{F}(\mu)
+\overline{\mathscr{F}}(\chi \cdot \mu) =\varepsilon_{\chi^{-1}}*\overline{\mathscr{F}}(\mu)
 $$
 
 Les formules (8), (9), (10) et (11) découlent des définitions. Démontrons la première des formules (12), la seconde étant analogue. On a pour tout $\xi$ dans $\widehat{G}$ les égalités
 
 $$
-\mathscr{F}(\chi \cdot \mu)(\xi ) =\int_G\langle \xi , x\rangle \langle \chi , x\rangle d\mu(x) =\int_G\langle \xi \chi^{-1}, x\rangle d\mu(x)
+\mathscr{F}(\chi \cdot \mu)(\xi ) =\int_G\langle \xi , x\rangle \langle \chi , x\rangle d\mu(x) =\int_G\overline{\langle\xi \chi^{-1}, x\rangle}d\mu(x)
 $$
 
 $$
@@ -385,13 +385,13 @@ Soit H un groupe localement compact commutatif et soit $\varphi : G\rightarrow H
 Par restriction à la sous-algèbre $L^1(G)$ de $\mathscr{M}^1(G)$, on obtient la définition de la transformation de Fourier et de la cotransformation de Fourier sur $L^1(G)$. On a donc pour $f\in L^1(G)$ et $\chi \in \widehat{G}:$
 
 $$
-(14)\mathscr{F}_G(f)(\chi ) =\int_G\langle \chi , x\rangle f(x)dx,\mathscr{F}_G(f)(\chi ) =\int_G\langle \chi , x\rangle f(x)dx
+(14)\mathscr{F}_G(f)(\chi ) =\int_G\overline{\langle\chi , x\rangle}f(x)dx,\overline{\mathscr{F}}_G(f)(\chi ) =\int_G\langle \chi , x\rangle f(x)dx
 $$
 
-En particulier, $\mathscr{F}_G(f) =\mathscr{F}_G(f)$. On a aussi
+En particulier, $\mathscr{F}_G(f) =\overline{\overline{\mathscr{F}}_G(\overline{f})}$. On a aussi
 
 $$
-\mathscr{F}(f)(\chi ) =\chi (f) \tag{15}
+\overline{\mathscr{F}}(f)(\chi ) =\chi (f) \tag{15}
 $$
 
 pour tout $f\in L^1(G)$ et tout $\chi \in \widehat{G}$.
@@ -426,7 +426,7 @@ Par continuité, la transformation de Fourier et la cotransformation de Fourier 
 
 La cotransformation de Fourier se prolonge par continuité en un morphisme d’algèbres stellaires de Stell(G) dans $\mathscr{C}_0(\widehat{G})$. Si l’on identifie $\widehat{G}$ avec $\mathsf{X}$(Stell(G)) (cor. 1 de II, p. 204 et prop. 1 de II, p. 202), ce prolongement est la transformation de Gelfand de Stell(G). D’après le th. 1 de I, p. 108, c’est un isomorphisme. L’assertion concernant la transformation de Fourier en découle.
 
-On notera toujours $\mathscr{F}$ et $\mathscr{F}$ les isomorphismes de la prop. 5.
+On notera toujours $\overline{\mathscr{F}}$ et $\mathscr{F}$ les isomorphismes de la prop. 5.
 
 #### Corollaire {#ts-ii-s1-n2-cor-1 .statement tag=02I6}
 
@@ -441,7 +441,7 @@ Supposons que G est compact. La mesure de Haar normalisée $dx$ appartient à $\
 Soit $\chi \in \widehat{G}$. Puisque $\varepsilon_y*dx=dx$ pour tout $y\in G$, on a
 
 $$
-\mathscr{F}(dx)(\chi ) =\langle \chi , y\rangle \mathscr{F}(dx)(\chi )
+\mathscr{F}(dx)(\chi ) =\overline{\langle\chi , y\rangle}\mathscr{F}(dx)(\chi )
 $$
 
 d’après la formule (11). Si $\chi \not= 1$, il existe $y\in G$ tel que $\langle \chi , y\rangle  \not= 1$, donc $\mathscr{F}(dx)(\chi ) = 0$. Si $\chi = 1$, alors $\mathscr{F}(dx)(\chi ) =\int_Gdx= 1$ puisque la mesure $dx$ est normalisée.
@@ -650,7 +650,7 @@ Soit $a$ un nombre réel $>0$. Si l’on remplace $dx$ par la mesure $a\cdot dx$
 
 L’espace $A(\widehat{G})$ est dense dans $L^2(\widehat{G})$.
 
-Soit $h$ un élément de $L^2(\widehat{G})$ orthogonal à $\widehat{A}(G)$. Pour $f$ et $g$ dans A(G), on a $\mathscr{F}(f)\cdot \mathscr{F}(g) =\mathscr{F}(f*g)\in \widehat{A}(G)$, donc $h\cdot \mathscr{F}(f)$ est orthogonal à $\mathscr{F}(g)$. Ainsi, pour tout $f\in A(G)$, la fonction $h\cdot \mathscr{F}(f)$ est orthogonale à $\widehat{A}(G)$. Mais $h\cdot \mathscr{F}(f)\in L^1(\widehat{G})$, et $\widehat{A}(G)$ est dense dans $\mathscr{C}_0(\widehat{G})$, donc la mesure $h\mathscr{F}(f)\cdot \nu$ est nulle, c’est-à-dire que $h\mathscr{F}(f)$ est $\nu$-localement négligeable (INT, V, §5, n$^o3$, cor. 2 de la prop. 3). En particulier, $h$ est $\nu$-localement négligeable sur l’ensemble $\Omega_f$ des caractères $\chi$ tels que $\mathscr{F}(f)(\chi )\not= 0$. D’après le corollaire 2, on en déduit que $h$ est $\nu$-localement négligeable, donc nulle puisque $h$ appartient à $L^2(\widehat{G})$. Cela conclut la preuve.
+Soit $h$ un élément de $L^2(\widehat{G})$ orthogonal à $\widehat{A}(G)$. Pour $f$ et $g$ dans A(G), on a $\mathscr{F}(f)\cdot \mathscr{F}(g) =\mathscr{F}(f*g)\in \widehat{A}(G)$, donc $h\cdot \overline{\mathscr{F}(f)}$ est orthogonal à $\mathscr{F}(g)$. Ainsi, pour tout $f\in A(G)$, la fonction $h\cdot \mathscr{F}(f)$ est orthogonale à $\widehat{A}(G)$. Mais $h\cdot \mathscr{F}(f)\in L^1(\widehat{G})$, et $\widehat{A}(G)$ est dense dans $\mathscr{C}_0(\widehat{G})$, donc la mesure $h\mathscr{F}(f)\cdot \nu$ est nulle, c’est-à-dire que $h\mathscr{F}(f)$ est $\nu$-localement négligeable (INT, V, §5, n$^o3$, cor. 2 de la prop. 3). En particulier, $h$ est $\nu$-localement négligeable sur l’ensemble $\Omega_f$ des caractères $\chi$ tels que $\mathscr{F}(f)(\chi )\not= 0$. D’après le corollaire 2, on en déduit que $h$ est $\nu$-localement négligeable, donc nulle puisque $h$ appartient à $L^2(\widehat{G})$. Cela conclut la preuve.
 
 #### Théorème 1 (Plancherel) {#ts-ii-s1-thm-1 .statement tag=02II}
 
@@ -666,7 +666,7 @@ $\Phi (f) =$ lim$_{g,\mathfrak{B}}\Phi (g) =$ lim$_{g,\mathfrak{B}}\mathscr{F}(g
 
 suite $(g_n)$ dans A(G) telle que $\mathscr{F}(g_n)$ converge vers $\Phi (f)$ dans $L^2(\widehat{G})$ et vers $\mathscr{F}(f)$ dans $\mathscr{C}_0(\widehat{G})$. D’après INT, IV, §3, n$^o4$, th. 3 et cor. 1, on a $\mathscr{F}(f) = \Phi (f)$, et en particulier $\mathscr{F}(f)\in L^2(\widehat{G})$. Ceci achève de prouver le théorème.
 
-On note encore $\mathscr{F}$ l’isométrie de $L^2(G)$ sur $L^2(\widehat{G})$ définie dans le théorème 1, et on l’appelle la transformation de Fourier dans $L^2(G)$. De même, la cotransformation de Fourier admet un unique prolongement isométrique à $L^2(G)$, encore appelé cotransformation de Fourier et noté $\mathscr{F}$.
+On note encore $\mathscr{F}$ l’isométrie de $L^2(G)$ sur $L^2(\widehat{G})$ définie dans le théorème 1, et on l’appelle la transformation de Fourier dans $L^2(G)$. De même, la cotransformation de Fourier admet un unique prolongement isométrique à $L^2(G)$, encore appelé cotransformation de Fourier et noté $\overline{\mathscr{F}}$.
 
 #### Corollaire {#ts-ii-s1-n3-cor-1 .statement tag=02IJ}
 
@@ -685,15 +685,15 @@ donc la famille des caractères de G est orthonormale (prop. 6 de II, p. 210). E
 Certaines des formules concernant la transformation de Fourier sur $L^1(G)$ s’étendent à la transformation de Fourier sur $L^2(G)$. En particulier, pour $f\in L^2(G)$ et $\chi \in \widehat{G}$, on a
 
 $$
-\mathscr{F}(f) = (\chi \mapsto \mathscr{F}(f)(\chi^{-1})) =\mathscr{F}(f)
+\overline{\mathscr{F}}(f) = (\chi \mapsto \mathscr{F}(f)(\chi^{-1})) =\overline{\mathscr{F}(\overline{f})}
 $$
 
 $$
-\mathscr{F}(\varepsilon_x*f) =\eta (x^{-1})\mathscr{F}(f),\mathscr{F}(\varepsilon_x*f) =\eta (x)\mathscr{F}(f)
+\mathscr{F}(\varepsilon_x*f) =\eta (x^{-1})\mathscr{F}(f),\overline{\mathscr{F}}(\varepsilon_x*f) =\eta (x)\mathscr{F}(f)
 $$
 
 $$
-\mathscr{F}(\chi  f) =\varepsilon_{\chi}*\mathscr{F}(f),\mathscr{F}(\chi  f) =\varepsilon_{\chi}*\mathscr{F}(f)
+\mathscr{F}(\chi  f) =\varepsilon_{\chi}*\mathscr{F}(f),\overline{\mathscr{F}}(\chi  f) =\varepsilon_{\chi}*\mathscr{F}(f)
 $$
 
 Si $\sigma$ est un automorphisme de G et Δ le module de $\sigma$ (INT, VII, §1, n$^o4$, déf. 4), alors pour $f\in L^2(G)$, on a
@@ -709,13 +709,13 @@ dans $L^2(G)$.
 Les formules
 
 $$
-\|\mathscr{F}(f)\|^2=\|f\|^2 \tag{23}
+\|\overline{\mathscr{F}}(f)\|^2=\|f\|^2 \tag{23}
 $$
 
 pour $f\in L^2(G)$, ou bien
 
 $$
-\int_Gf(x)g(x)dx=\int_{\widehat{G}}\mathscr{F}(f)(\chi )\mathscr{F}(g)(\chi )d\chi \tag{24}
+\int_Gf(x)\overline{g(x)}dx=\int_{\widehat{G}}\mathscr{F}(f)(\chi )\overline{\mathscr{F}(g)(\chi)}d\chi \tag{24}
 $$
 
 pour $f$ et $g$ dans $L^2(G)$, sont appelées « formules de Plancherel ».
@@ -747,7 +747,7 @@ $$
 Autrement dit, pour $f\in A(G)$, on a
 
 $$
-f=\mathscr{F}_{\widehat{G}}(\mathscr{F}_G(f))\circ \eta \tag{26}
+f=\overline{\mathscr{F}}_{\widehat{G}}(\mathscr{F}_G(f))\circ \eta \tag{26}
 $$
 
 où $\eta$ désigne l’application canonique de G dans le groupe bidual $\widehat{\widehat{G}}$.
@@ -755,7 +755,7 @@ où $\eta$ désigne l’application canonique de G dans le groupe bidual $\wideh
 D’après le lemme 4 de II, p. 213 et la proposition 9 de II, p. 214, on a $\mathscr{F}(f)\in L^1(\widehat{G})$ pour toute fonction $f\in A(G)$. D’après la formule de Plancherel (24), pour $f$ et $g$ dans $L^2(G)$, on a
 
 $$
-(f*\widetilde{g})(e) =\int_{\widehat{G}}\mathscr{F}(f)(\chi )\mathscr{F}(g)(\chi )d\widehat{x}(\chi ) \tag{27}
+(f*\widetilde{g})(e) =\int_{\widehat{G}}\mathscr{F}(f)(\chi )\overline{\mathscr{F}(g)(\chi)}d\widehat{x}(\chi ) \tag{27}
 $$
 
 Soient $f$ et $g$ dans $L^1(G)\cap L^2(G)$ et $h=f*\widetilde{g}\in A(G)$. Puisque la transformation de Fourier est un morphisme involutif, la formule (27) est l’assertion (25) pour la fonction $h$ au point $x=e$. Par linéarité, on en déduit que la formule (25) est valide au point $x=e$ pour toute fonction $h\in A(G)$.
@@ -764,7 +764,7 @@ Soient $x\in G$ et $h\in A(G)$. Soit $h_1=\varepsilon_{x^{-1}}*h$. Alors $h_1\in
 
 #### Lemme 6 {#ts-ii-s1-lem-6 .statement tag=02IO}
 
-Soit $\varphi \in L^1(\widehat{G})\cap L^2(\widehat{G})$. Alors $f=\mathscr{F}_{\widehat{G}}(\varphi )\circ \eta$ appartient à $L^2(G)$ et $\mathscr{F}_G(f) =\varphi$ dans $L^2(\widehat{G})$.
+Soit $\varphi \in L^1(\widehat{G})\cap L^2(\widehat{G})$. Alors $f=\overline{\mathscr{F}}_{\widehat{G}}(\varphi )\circ \eta$ appartient à $L^2(G)$ et $\mathscr{F}_G(f) =\varphi$ dans $L^2(\widehat{G})$.
 
 La fonction $f$ est continue et bornée sur G car $\varphi \in L^1(\widehat{G})$. Pour toute fonction $g\in L^1(G)\cap L^2(G)$, on a
 
@@ -773,13 +773,13 @@ $$
 $$
 
 $$
-=\int_{\widehat{G}}\mathscr{F}_G(g)(\chi )\varphi (\chi )d\widehat{x}(\chi ) \tag{28}
+=\int_{\widehat{G}}\overline{\mathscr{F}}_G(g)(\chi )\varphi (\chi )d\widehat{x}(\chi ) \tag{28}
 $$
 
 en appliquant le théorème de Lebesgue-Fubini (INT, V, §8, n$^o4$, th. 1, a)) à la fonction $(x, \chi )\mapsto g(x)\varphi (\chi )\langle \chi , x\rangle$ qui est intégrable sur $G\times \widehat{G}$ par rapport à la mesure produit $dx\otimes d\widehat{x}$. On en déduit que
 
 $$
-\int_Gg(x)f(x)dx\leqslant \|\mathscr{F}_G(g)\|_2\|\varphi \|_2=\|g\|_2\|\varphi \|_2
+\int_Gg(x)f(x)dx\leqslant \|\overline{\mathscr{F}}_G(g)\|_2\|\varphi \|_2=\|g\|_2\|\varphi \|_2
 $$
 
 d’après la formule de Plancherel. La forme linéaire $g\mapsto \int_Gf g$ est donc continue sur $L^1(G)\cap L^2(G)$, et comme $L^1(G)\cap L^2(G)$ est dense dans l’espace hilbertien $L^2(G)$, on en déduit que $f$ appartient à $L^2(G)$.
@@ -787,18 +787,18 @@ d’après la formule de Plancherel. La forme linéaire $g\mapsto \int_Gf g$ est
 En appliquant alors le th. 1 de II, p. 215, on obtient d’autre part
 
 $$
-\int_Gg(x)f(x)dx=\int_{\widehat{G}}\mathscr{F}_G(g)(\chi )\mathscr{F}_G(f)(\chi )d\widehat{x}(\chi )
+\int_Gg(x)f(x)dx=\int_{\widehat{G}}\overline{\mathscr{F}_G(\overline{g})(\chi)}\mathscr{F}_G(f)(\chi )d\widehat{x}(\chi )
 $$
 
 $$
-=\int_{\widehat{G}}\mathscr{F}_G(g)(\chi )\mathscr{F}_G(f)(\chi )d\widehat{x}(\chi )
+=\int_{\widehat{G}}\overline{\mathscr{F}}_G(g)(\chi )\mathscr{F}_G(f)(\chi )d\widehat{x}(\chi )
 $$
 
 pour tout $g\in L^2(G)$. Comparant avec (28), on conclut que $\varphi =\mathscr{F}_G(f)$ dans $L^2(\widehat{G})$, puisque A(G) est contenu dans $L^1(G)\cap L^2(G)$ et que $\widehat{A}(G)$ est dense dans $L^2(\widehat{G})$ (lemme 5 de II, p. 215).
 
 Proposition 12 (Formule d’inversion de Fourier)
 
-Soit $f\in L^2(G)$ telle que $\mathscr{F}_G(f)\in L^1(\widehat{G})$. Alors on a $f$ = $\mathscr{F}_G(\mathscr{F}_G(f))\circ \eta$ dans $L^2(G)$. Autrement dit, pour presque tout $x\in G$, on a
+Soit $f\in L^2(G)$ telle que $\mathscr{F}_G(f)\in L^1(\widehat{G})$. Alors on a $f$ = $\overline{\mathscr{F}}_G(\mathscr{F}_G(f))\circ \eta$ dans $L^2(G)$. Autrement dit, pour presque tout $x\in G$, on a
 
 $$
 f(x) =\int_{\widehat{G}}\langle \widehat{x}, x\rangle \mathscr{F}_G(f)(\widehat{x})d\widehat{x}
@@ -812,10 +812,10 @@ Pour tout sous-ensemble fermé P de $\widehat{G}$ et tout $\chi \in \widehat{G}$
 
 Comme, d’après (12), on a $\mathscr{F}(\chi f) =\varepsilon_{\chi}*\mathscr{F}(f)$ pour tout $\chi \in \widehat{G}$, il suffit de considérer le cas où $\chi$ est l’élément neutre de $\widehat{G}$.
 
-Soit U un voisinage compact symétrique de $e\in \widehat{G}$ tel que $U^2\cap P =\emptyset$. Soit $\varphi$ une fonction continue positive sur $\widehat{G}$, nulle en dehors de U et telle que $\varphi (e) = 1$. La fonction $\varphi_1=\varphi *\varphi$ est alors nulle sur P et $\varphi_1(e)>0$. Il suffit donc de démontrer que $\varphi_1$ appartient à l’image de la transformation de Fourier sur $L^1(G)$. Or $\varphi$ et $\varphi_1$ appartiennent à $L^1(\widehat{G})\cap L^2(\widehat{G})$. Posons $f=\mathscr{F}(\varphi )\circ \eta$ et $f_1=\mathscr{F}(\varphi_1)\circ \eta$. Le lemme 6 implique que $f$ et $f_1$ appartiennent à $L^2(G)$ et vérifient $\varphi =\mathscr{F}(f)$ et $\varphi_1=\mathscr{F}(f_1)$. De plus
+Soit U un voisinage compact symétrique de $e\in \widehat{G}$ tel que $U^2\cap P =\emptyset$. Soit $\varphi$ une fonction continue positive sur $\widehat{G}$, nulle en dehors de U et telle que $\varphi (e) = 1$. La fonction $\varphi_1=\varphi *\varphi$ est alors nulle sur P et $\varphi_1(e)>0$. Il suffit donc de démontrer que $\varphi_1$ appartient à l’image de la transformation de Fourier sur $L^1(G)$. Or $\varphi$ et $\varphi_1$ appartiennent à $L^1(\widehat{G})\cap L^2(\widehat{G})$. Posons $f=\overline{\mathscr{F}}(\varphi )\circ \eta$ et $f_1=\overline{\mathscr{F}}(\varphi_1)\circ \eta$. Le lemme 6 implique que $f$ et $f_1$ appartiennent à $L^2(G)$ et vérifient $\varphi =\mathscr{F}(f)$ et $\varphi_1=\mathscr{F}(f_1)$. De plus
 
 $$
-f_1=\mathscr{F}(\varphi *\varphi )\circ \eta = (\mathscr{F}(\varphi )\circ \eta )^2=f^2
+f_1=\overline{\mathscr{F}}(\varphi *\varphi )\circ \eta = (\overline{\mathscr{F}}(\varphi )\circ \eta )^2=f^2
 $$
 
 et donc $f_1\in L^1(G)$. Ainsi $\varphi_1=\mathscr{F}(f_1)$ est bien dans l’image de $L^1(G)$ par la transformation de Fourier.
@@ -835,23 +835,23 @@ L’application canonique $\eta$ de G dans $\widehat{\widehat{G}}$ est un isomor
 Démontrons d’abord que $\eta$ est injective et stricte. Il suffit pour cela de montrer que pour tout voisinage U de $e$ dans G, il existe un voisinage W de $e$ dans $\widehat{\widehat{G}}$ tel que $\overset{-1}{\eta}(W)\subset U$ (lemme 2 de II, p. 200). Or soit V un voisinage compact symétrique de $e$ dans G tel que $V^2\subset U$, soit $f$ une fonction continue positive sur G, à support contenu dans V, et telle que $f(e)>0$. Soit $g=\widetilde{f}*f$. Alors $g$ appartient à A(G), son support est contenu dans U et $g(e)>0$. De plus, $\mathscr{F}_G(g)\in L^1(\widehat{G})$ d’après la prop. 11 de II, p. 217. L’ensemble W des $\xi$ dans $\widehat{\widehat{G}}$ tels que
 
 $$
-\mathscr{F}_G(\mathscr{F}_G(g))(\xi )-\mathscr{F}_G(\mathscr{F}_G(g))(e)<1g(e)
+\overline{\mathscr{F}}_G(\mathscr{F}_G(g))(\xi )-\overline{\mathscr{F}}_G(\mathscr{F}_G(g))(e)<1g(e)
 $$
 
 2
 
-est un voisinage de $e$ dans $\widehat{\widehat{G}}$ puisque la fonction $\mathscr{F}_{\widehat{G}}(\mathscr{F}_G(g))$ est continue sur $\widehat{\widehat{G}}$. Soit $x\in \overset{-1}{\eta}(W)$. D’après la formule (26), on a
+est un voisinage de $e$ dans $\widehat{\widehat{G}}$ puisque la fonction $\overline{\mathscr{F}}_{\widehat{G}}(\mathscr{F}_G(g))$ est continue sur $\widehat{\widehat{G}}$. Soit $x\in \overset{-1}{\eta}(W)$. D’après la formule (26), on a
 
 $$
-\mathscr{F}_{\widehat{G}}(\mathscr{F}_G(g))(\eta (x)) =g(x)
+\overline{\mathscr{F}}_{\widehat{G}}(\mathscr{F}_G(g))(\eta (x)) =g(x)
 $$
 
-et donc $|g(x)-g(e)|<^1_2g(e)$. Cela implique $g(x)\not= 0$ et donc $x\in U$, puisque le support de $g$ est contenu dans U. Ainsi $\overset{-1}{\eta}(W)\subset U$.
+et donc $|g(x)-g(e)|<\frac{1}{2}g(e)$. Cela implique $g(x)\not= 0$ et donc $x\in U$, puisque le support de $g$ est contenu dans U. Ainsi $\overset{-1}{\eta}(W)\subset U$.
 
 Démontrons que l’application $\eta$ est surjective. Comme cette application est un homéomorphisme sur son image, le groupe $\eta (G)$ est un sous-groupe localement compact de $\widehat{\widehat{G}}$. Il est donc fermé dans $\widehat{\widehat{G}}$ (TG, III, p. 22, cor. 2). Raisonnons par l’absurde et supposons qu’il existe un caractère $\xi \in \widehat{\widehat{G}}$ tel que $\xi \notin \eta (G)$. Il existe alors (corollaire 1 de II, p. 219) un élément $f$ non nul de $L^1(\widehat{G})$ tel que $\mathscr{F}_{\widehat{G}}(f)$ soit nulle sur $\eta (G)$. Soit $g\in L^1(G)$. La fonction $(x, \chi )\mapsto g(x)f(\chi )\langle \chi , x\rangle$ appartient à $L^1(G\times \widehat{G})$. D’après le th. de Lebesgue-Fubini (INT, V, §8, n$^o4$, th. 1, a)), il vient donc
 
 $$
-\int_{\widehat{G}}f(\chi )\mathscr{F}_G(g)(\chi )d\chi =\int_Gg(x)\int_{\widehat{G}}f(\chi )\langle \chi , x\rangle d\chi dx
+\int_{\widehat{G}}f(\chi )\mathscr{F}_G(g)(\chi )d\chi =\int_Gg(x)\int_{\widehat{G}}f(\chi )\overline{\langle\chi , x\rangle}d\chi dx
 $$
 
 $$
@@ -878,25 +878,25 @@ La cotransformation de Fourier de $L^2(\widehat{G})$ sur $L^2(G)$ et la transfor
 
 #### Remarque {#ts-ii-s1-n5-rem-1 .statement tag=02IT}
 
-Soient $f\in L^2(G)$ et $g\in L^2(\widehat{G})$. En appliquant la formule de Plancherel (24) à $f$ et $\mathscr{F}_{\widehat{G}}(g)$, on obtient la formule
+Soient $f\in L^2(G)$ et $g\in L^2(\widehat{G})$. En appliquant la formule de Plancherel (24) à $f$ et $\overline{\mathscr{F}_{\widehat{G}}(g)}$, on obtient la formule
 
 $$
 \int_Gf(x)\mathscr{F}_{\widehat{G}}(g)(x)dx=\int_{\widehat{G}}\mathscr{F}_G(f)(\chi )g(\chi )d\widehat{x}(\chi ) \tag{29}
 $$
 
-puisque l’on a $\mathscr{F}_G(\mathscr{F}_{\widehat{G}}(g)) =\mathscr{F}_G(\mathscr{F}_{\widehat{G}}(g)) =g$.
+puisque l’on a $\mathscr{F}_G(\mathscr{F}_{\widehat{G}}(g)) =\mathscr{F}_G(\overline{\mathscr{F}}_{\widehat{G}}(\overline{g})) =\overline{g}$.
 
 La transformation et la cotransformation de Fourier définies sur $\mathscr{M}^1(\widehat{G})$ sont à valeurs dans l’espace des fonctions continues bornées sur G. Pour $\beta \in \mathscr{M}^1(\widehat{G})$ et $x\in G$, on a
 
 $$
-\mathscr{F}_{\widehat{G}}(\beta )(x) =\int_{\widehat{G}}\langle \chi , x\rangle d\beta (\chi ),\mathscr{F}_{\widehat{G}}(\beta )(x) =\int_{\widehat{G}}\langle \chi , x\rangle d\beta (\chi )
+\mathscr{F}_{\widehat{G}}(\beta )(x) =\int_{\widehat{G}}\overline{\langle\chi , x\rangle}d\beta (\chi ),\overline{\mathscr{F}}_{\widehat{G}}(\beta )(x) =\int_{\widehat{G}}\langle \chi , x\rangle d\beta (\chi )
 $$
 
 Les transformations de Fourier de G et $\widehat{G}$ sont également transposées l’une de l’autre. Plus précisément :
 
 #### Proposition 13 {#ts-ii-s1-prop-13 .statement tag=02IU}
 
-Soient $\alpha \in \mathscr{M}^1(G)$ et $\beta \in \mathscr{M}^1(\widehat{G})$. On a alors (30) $\mathscr{F}_G(\mathscr{F}_{\widehat{G}}(\beta )\cdot \alpha ) =\beta *\mathscr{F}_G(\alpha )$
+Soient $\alpha \in \mathscr{M}^1(G)$ et $\beta \in \mathscr{M}^1(\widehat{G})$. On a alors (30) $\mathscr{F}_G(\overline{\mathscr{F}}_{\widehat{G}}(\beta )\cdot \alpha ) =\beta *\mathscr{F}_G(\alpha )$
 
 et en particulier
 
@@ -907,17 +907,17 @@ $$
 La formule (30) implique la formule (31) en évaluant les deux côtés de l’identité en $\chi = 1$. Démontrons (30). Soit $\chi \in \widehat{G}$. Il vient
 
 $$
-(\mathscr{F}_G(\mathscr{F}_{\widehat{G}}(\beta )\cdot \alpha ))(\chi ) =\int_G\langle \chi , x\rangle \mathscr{F}_{\widehat{G}}(\beta )(x)d\alpha (x)
+(\mathscr{F}_G(\overline{\mathscr{F}}_{\widehat{G}}(\beta )\cdot \alpha ))(\chi ) =\int_G\overline{\langle\chi , x\rangle}\overline{\mathscr{F}}_{\widehat{G}}(\beta )(x)d\alpha (x)
 $$
 
 $$
-=\int_G\langle \chi , x\rangle \int_{\widehat{G}}\langle \xi , x\rangle d\beta (\xi )d\alpha (x)
+=\int_G\overline{\langle\chi , x\rangle}\int_{\widehat{G}}\langle \xi , x\rangle d\beta (\xi )d\alpha (x)
 $$
 
 La fonction $(x, \xi )\mapsto  \langle \chi , x\rangle \langle \xi , x\rangle$ est continue et bornée, donc intégrable sur $G\times \widehat{G}$ par rapport à la mesure $\alpha \otimes \beta$. D’après le théorème de Lebesgue-Fubini (INT, V, §8, n$^o4$, th. 1, a)), on obtient
 
 $$
-(\mathscr{F}_G(\mathscr{F}_{\widehat{G}}(\beta )\cdot \alpha ))(\chi ) =\int_{\widehat{G}}\int_G\langle \chi \xi^{-1}, x\rangle d\alpha (x)d\beta (\xi )
+(\mathscr{F}_G(\overline{\mathscr{F}}_{\widehat{G}}(\beta )\cdot \alpha ))(\chi ) =\int_{\widehat{G}}\int_G\overline{\langle\chi \xi^{-1}, x\rangle}d\alpha (x)d\beta (\xi )
 $$
 
 $$
@@ -932,7 +932,7 @@ La transformation de Fourier $\mathscr{F}_G$ est injective sur $\mathscr{M}^1(G)
 
 En effet, si $\alpha \in \mathscr{M}^1(G)$ vérifie $\mathscr{F}_G(\alpha ) = 0$, on déduit de (31) que $\alpha (\mathscr{F}_G(f)) = 0$ pour toute $f\in L^1(\widehat{G})$ ; comme l’image de $L^1(\widehat{G})$ par la tran$\widehat{s}$formation de Fourier est dense dans $\mathscr{C}_0(G)$ (cor. de la prop. 5 de II, p. 209), on a donc $\alpha = 0$.
 
-Il existe des espaces fonctionnels sur G et $\widehat{G}$, autres que $L^2(G)$ et $L^2(\widehat{G})$, sur lesquels $\mathscr{F}$ et $\mathscr{F}$ sont des isomorphismes inverses l’un de l’autre. Le théorème suivant en donne un exemple. On note B(G) le sous-espace vectoriel de $L^1(G)$ formé des éléments $f\in L^1(G)$ tels que $\mathscr{F}_G(f)\in L^1(\widehat{G})$. C’est une sous-algèbre de $L^1(G)$. En effet, soient $f$ et $g$ dans B(G). On a $f*g\in L^1(G)$ et $\mathscr{F}_G(f*g) =\mathscr{F}_G(f)\mathscr{F}_G(g)\in L^1(\widehat{G})$, puisque $\mathscr{F}_G(f)\in L^1(\widehat{G})$ et $\mathscr{F}_G(g)\in \mathscr{C}_0(\widehat{G})$.
+Il existe des espaces fonctionnels sur G et $\widehat{G}$, autres que $L^2(G)$ et $L^2(\widehat{G})$, sur lesquels $\mathscr{F}$ et $\overline{\mathscr{F}}$ sont des isomorphismes inverses l’un de l’autre. Le théorème suivant en donne un exemple. On note B(G) le sous-espace vectoriel de $L^1(G)$ formé des éléments $f\in L^1(G)$ tels que $\mathscr{F}_G(f)\in L^1(\widehat{G})$. C’est une sous-algèbre de $L^1(G)$. En effet, soient $f$ et $g$ dans B(G). On a $f*g\in L^1(G)$ et $\mathscr{F}_G(f*g) =\mathscr{F}_G(f)\mathscr{F}_G(g)\in L^1(\widehat{G})$, puisque $\mathscr{F}_G(f)\in L^1(\widehat{G})$ et $\mathscr{F}_G(g)\in \mathscr{C}_0(\widehat{G})$.
 
 #### Théorème 3 {#ts-ii-s1-thm-3 .statement tag=02IW}
 
@@ -941,7 +941,7 @@ La restriction de la transformation de Fourier à B(G) induit un isomorphisme d�
 Soit $f\in B(G)$. Notons $g=\mathscr{F}_G(f)$. On a $g\in L^1(\widehat{G})\cap \mathscr{C}_0(\widehat{G})\subset$ $L^1(\widehat{G})\cap L^2(\widehat{G})$. Posons $f_1=\mathscr{F}_{\widehat{G}}(g)\in L^2(G)$. Pour toute fonction continue à support compact $h\in \mathscr{K}(\widehat{G})$, on a $h\in L^1(\widehat{G})\cap L^2(\widehat{G})$ et
 
 $$
-\int_Gf_1(x)\mathscr{F}_{\widehat{G}}(h)(x)dx=\int_G\mathscr{F}_{\widehat{G}}(g)(x)\mathscr{F}_{\widehat{G}}(h)(x)dx
+\int_Gf_1(x)\mathscr{F}_{\widehat{G}}(h)(x)dx=\int_G\overline{\mathscr{F}}_{\widehat{G}}(g)(x)\overline{\overline{\mathscr{F}}_{\widehat{G}}(\overline{h})(x)}dx
 $$
 
 $$
@@ -954,13 +954,13 @@ $$
 
 en utilisant le théorème de Plancherel et la formule (31). Puisque $\mathscr{K}(\widehat{G})$ est dense dans $L^2(\widehat{G})$, son image par la transformation de Fourier est dense dans $L^2(G)$. Par conséquent, on a $f_1=f$ dans $L^1(G)$ ; cela démontre que $g\in B(\widehat{G})$.
 
-La formule $f_1=f$ signifie que la restriction à B(G) de la composition $\mathscr{F}_{\widehat{G}}\circ \mathscr{F}_G$ est l’application identique de B(G). En échangeant les rôles de G et $\widehat{G}$, on constate que $\mathscr{F}_G\circ \mathscr{F}_{\widehat{G}}$ est l’application identique de $B(\widehat{G})$, ce qui achève la preuve du théorème.
+La formule $f_1=f$ signifie que la restriction à B(G) de la composition $\overline{\mathscr{F}}_{\widehat{G}}\circ \mathscr{F}_G$ est l’application identique de B(G). En échangeant les rôles de G et $\widehat{G}$, on constate que $\mathscr{F}_G\circ \mathscr{F}_{\widehat{G}}$ est l’application identique de $B(\widehat{G})$, ce qui achève la preuve du théorème.
 
 #### Corollaire 1 {#ts-ii-s1-thm-3-cor-1 .statement tag=02IX}
 
 Soit $f\in L^1(G)$. Alors $f\in B(G)$ si et seulement si $f$ appartient à l’image de la transformation de Fourier $\mathscr{F}_{\widehat{G}}$ sur $L^1(\widehat{G})$. En particulier, on a $A(G)\subset B(G)$.
 
-Le théorème 3 prouve que si $f\in B(G)$, alors $f=\mathscr{F}_{\widehat{G}}(\mathscr{F}_G(f))$, où $\mathscr{F}_G(f)$ appartient à $L^1(\widehat{G})$. Réciproquement, si $f=\mathscr{F}_{\widehat{G}}(g)$, où $g\in L^1(\widehat{G})$, alors on a $g\in B(\widehat{G})$ et donc $f\in B(G)$ d’après le théorème. La dernière assertion résulte alors de la prop. 11 de II, p. 217.
+Le théorème 3 prouve que si $f\in B(G)$, alors $f=\mathscr{F}_{\widehat{G}}(\overline{\mathscr{F}}_G(f))$, où $\mathscr{F}_G(f)$ appartient à $L^1(\widehat{G})$. Réciproquement, si $f=\mathscr{F}_{\widehat{G}}(g)$, où $g\in L^1(\widehat{G})$, alors on a $g\in B(\widehat{G})$ et donc $f\in B(G)$ d’après le théorème. La dernière assertion résulte alors de la prop. 11 de II, p. 217.
 
 #### Corollaire 2 {#ts-ii-s1-thm-3-cor-2 .statement tag=02IY}
 
@@ -1211,14 +1211,14 @@ $$
 appartient à $L^1(G/H)$. La transformée de Fourier de $f^{\flat}$ s’identifie à la fonction sur $H^{\bot}=\widehat{G}/H$ donnée pour $\chi \in H^{\bot}$ par
 
 $$
-\mathscr{F}_{G/H}(f^{\flat})(\chi ) =\int_{G/H}\langle \chi ,\dot{x}\rangle f^{\flat}( \dot{x})d\gamma ( \dot{x})
+\mathscr{F}_{G/H}(f^{\flat})(\chi ) =\int_{G/H}\overline{\langle\chi ,\dot{x}\rangle}f^{\flat}( \dot{x})d\gamma ( \dot{x})
 $$
 
 $$
-=\int_G\langle \chi , x\rangle f(x)d\beta (x) =\mathscr{F}_G(f)(\chi )
+=\int_G\overline{\langle\chi , x\rangle}f(x)d\beta (x) =\mathscr{F}_G(f)(\chi )
 $$
 
-d’après la formule (33), appliquée à la fonction intégrable $x\mapsto$ $\langle \chi , x\rangle f(x)$. Par hypothèse, la fonction $\mathscr{F}(f)|H^{\bot}=\mathscr{F}_{G/H}(f^{\flat})$ appartient à $L^1(H^{\bot})$, et donc la fonction $f^{\flat}$ appartient à l’espace $B(G/H)$. Il en résulte (th. 3 de II, p. 222) que $f^{\flat}$ coïncide presque partout avec $\mathscr{F}_{\widehat{G}/H}(\mathscr{F}_{G/H}(f^{\flat}))$. Pour presque tout $\dot{x}\in G/H$, on a donc
+d’après la formule (33), appliquée à la fonction intégrable $x\mapsto$ $\langle \chi , x\rangle f(x)$. Par hypothèse, la fonction $\mathscr{F}(f)|H^{\bot}=\mathscr{F}_{G/H}(f^{\flat})$ appartient à $L^1(H^{\bot})$, et donc la fonction $f^{\flat}$ appartient à l’espace $B(G/H)$. Il en résulte (th. 3 de II, p. 222) que $f^{\flat}$ coïncide presque partout avec $\overline{\mathscr{F}}_{\widehat{G}/H}(\mathscr{F}_{G/H}(f^{\flat}))$. Pour presque tout $\dot{x}\in G/H$, on a donc
 
 $$
 f^{\flat}( \dot{x}) =\int_{H^{\bot}}\langle \chi , x\rangle \mathscr{F}_{G/H}(f^{\flat})(\chi )d\widehat{\gamma}(\chi ) =\int_{H^{\bot}}\langle \chi , x\rangle \mathscr{F}_G(f)(\chi )d\widehat{\gamma}(\chi )
@@ -1242,7 +1242,7 @@ $$
 \int_Hf(y)d\alpha (y) =\int_{H^{\bot}}\mathscr{F}_G(f)(\chi )d\widehat{\gamma}(\chi ) \tag{34}
 $$
 
-En effet, reprenant les notations de la preuve de la proposition précédente, les fonctions $f^{\flat}$ et $\mathscr{F}_{\widehat{G}/H}(\mathscr{F}_{G/H}(f^{\flat}))$ sur $G/H$ sont continues et égales presque partout. Elle sont donc égales partout et en particulier en $e$, ce qui donne la formule (34).
+En effet, reprenant les notations de la preuve de la proposition précédente, les fonctions $f^{\flat}$ et $\overline{\mathscr{F}}_{\widehat{G}/H}(\mathscr{F}_{G/H}(f^{\flat}))$ sur $G/H$ sont continues et égales presque partout. Elle sont donc égales partout et en particulier en $e$, ce qui donne la formule (34).
 
 #### Proposition 16 {#ts-ii-s1-prop-16 .statement tag=02JJ}
 
@@ -1269,20 +1269,20 @@ $$
 $$
 
 $$
-=\int_G\langle \chi \xi , x\rangle f(x)d\beta (x) =\mathscr{F}_G(f)(\chi \xi )
+=\int_G\langle \chi \xi , x\rangle f(x)d\beta (x) =\overline{\mathscr{F}}_G(f)(\chi \xi )
 $$
 
 d’après la formule (33). Donc
 
 $$
-\int_{G/H}|\varphi (x, \chi )|^2d\gamma ( \dot{x}) =\int_{H^{\bot}}|\mathscr{F}_G(f)(\chi \xi )|^2d\widehat{\gamma}(\xi ) \tag{36}
+\int_{G/H}|\varphi (x, \chi )|^2d\gamma ( \dot{x}) =\int_{H^{\bot}}|\overline{\mathscr{F}}_G(f)(\chi \xi )|^2d\widehat{\gamma}(\xi ) \tag{36}
 $$
 
 par la formule de Plancherel de nouveau.
 
 On calcule alors finalement
 
-$\int_{\widehat{G}}|\mathscr{F}_G(f)|^2d\widehat{\beta}=\int_G|f|^2d\beta$ (par (23))
+$\int_{\widehat{G}}|\overline{\mathscr{F}}_G(f)|^2d\widehat{\beta}=\int_G|f|^2d\beta$ (par (23))
 
 $=\int_{G/H}d\gamma ( \dot{x})\int_H|f(xy)|^2d\alpha (y)$ (par (33))
 
@@ -1292,7 +1292,7 @@ $$
 =\int_{\widehat{G}/H^{\bot}}d\widehat{\alpha}( \dot{\chi})\int_{G/H}|\varphi (x, \chi )|^2d\gamma ( \dot{x})
 $$
 
-$=\int_{\widehat{G}/H^{\bot}}d\widehat{\alpha}( \dot{\chi})\int_{H^{\bot}}|\mathscr{F}_G(f)(\chi \xi )|^2d\widehat{\gamma}(\xi )$ (par (36)$)$,
+$=\int_{\widehat{G}/H^{\bot}}d\widehat{\alpha}( \dot{\chi})\int_{H^{\bot}}|\overline{\mathscr{F}}_G(f)(\chi \xi )|^2d\widehat{\gamma}(\xi )$ (par (36)$)$,
 
 où on a appliqué INT, V, §8, n$^o3$, prop. 5 à la fonction continue positive $( \dot{x},\dot{\chi})\mapsto  |\varphi (x, \chi )|^2$ sur $G/H\times \widehat{G}/H^{\bot}$.
 
@@ -1562,11 +1562,11 @@ Pour tout $p\in [1,+\infty ]$, on peut identifier $L^p(\mathbf{R}^n)$ à un sous
 
 #### Définition 7 {#ts-ii-s1-def-7 .statement tag=02K7}
 
-On appelle transformation de Fourier sur $\mathscr{S}'(\mathbf{R}^n)$, et on note $\mathscr{F}$ (resp. on appelle cotransformation de Fourier, et on note $\mathscr{F})$ la transposée de la transformation de Fourier sur $\mathscr{S}(\mathbf{R}^n)$ (resp. de la cotransformation de Fourier).
+On appelle transformation de Fourier sur $\mathscr{S}'(\mathbf{R}^n)$, et on note $\mathscr{F}$ (resp. on appelle cotransformation de Fourier, et on note $\overline{\mathscr{F}})$ la transposée de la transformation de Fourier sur $\mathscr{S}(\mathbf{R}^n)$ (resp. de la cotransformation de Fourier).
 
-Pour $f\in \mathscr{S}'(\mathbf{R}^n)$, la distribution tempérée $\mathscr{F}(f)$ (resp. $\mathscr{F}(f)$) est définie par $\varphi \mapsto  \langle f,\mathscr{F}(\varphi )\rangle$ pour $\varphi \in \mathscr{S}(\mathbf{R}^n)$ (resp. par $\varphi \mapsto$ $\langle f,\mathscr{F}(\varphi )\rangle )$.
+Pour $f\in \mathscr{S}'(\mathbf{R}^n)$, la distribution tempérée $\mathscr{F}(f)$ (resp. $\overline{\mathscr{F}}(f)$) est définie par $\varphi \mapsto  \langle f,\mathscr{F}(\varphi )\rangle$ pour $\varphi \in \mathscr{S}(\mathbf{R}^n)$ (resp. par $\varphi \mapsto$ $\langle f,\overline{\mathscr{F}}(\varphi )\rangle )$.
 
-La transformation de Fourier sur $\mathscr{S}'(\mathbf{R}^n)$ est un automorphisme d’espaces vectoriels topologiques dont l’inverse est la cotransformation de Fourier $\mathscr{F}$.
+La transformation de Fourier sur $\mathscr{S}'(\mathbf{R}^n)$ est un automorphisme d’espaces vectoriels topologiques dont l’inverse est la cotransformation de Fourier $\overline{\mathscr{F}}$.
 
 #### Proposition 22 {#ts-ii-s1-prop-22 .statement tag=02K8}
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 395
 statements: 21
 exercises: 0
-content_sha256: e2d1e5815bf85cfbc6f0aaf2ad7fa10d1ff651c359e57ae75ac78eaba3e67136
+content_sha256: 0ca6a99c7eed0ae6c1e7af1fffa4314b06c89b1f76941c6157874489a59361fa
 ---
 
 ## § 3. GROUPES DE POINCARÉ DES GROUPES TOPOLOGIQUES
@@ -112,7 +112,7 @@ Soient G et $G'$ des groupes topologiques localement connexes, soient V et $V'$ 
 
 Soit G un groupe topologique simplement connexe et soit V un voisinage connexe de l’élément neutre de G. On définit une présentation de G en prenant pour ensemble générateur l’ensemble V et pour ensemble $\mathbf{r}$ de relateurs la famille des $xyz^{-1}$, où $(x, y, z)$ parcourt les triplets d’éléments de V tels que $xy=z$.
 
-Soit $F(V,\mathbf{r})$ le groupe quotient du groupe libre F(V) par le plus petit sous-groupe distingué contenant les éléments $xyz^{-1}$, où $(x, y, z)\in V\times$ $V\times V$ et $xy=z$ (A, I, p. 86). Notons $f: V\rightarrow F(V,\mathbf{r})$ et $g: F(V,\mathbf{r})\rightarrow G$ les applications canoniques. Par construction, l’application $f$ est un homomorphisme local de G dans $F(V,\mathbf{r})$. D’après le corollaire 1, il existe un unique homomorphisme de groupes $f: G\rightarrow F(V,\mathbf{r})$ prolongeant $f$. Comme le groupe $F(V,\mathbf{r})$ est engendré par $f(V)$, l’homomorphisme $f$ est surjectif. Pour $x\in V$, on a $g(f(x)) =g(f(x)) =x$; comme V engendre G$,g\circ f=$ Id$_G$, ce qui démontre que $f$ est injectif. C’est donc un isomorphisme.
+Soit $F(V,\mathbf{r})$ le groupe quotient du groupe libre F(V) par le plus petit sous-groupe distingué contenant les éléments $xyz^{-1}$, où $(x, y, z)\in V\times$ $V\times V$ et $xy=z$ (A, I, p. 86). Notons $f: V\rightarrow F(V,\mathbf{r})$ et $g: F(V,\mathbf{r})\rightarrow G$ les applications canoniques. Par construction, l’application $f$ est un homomorphisme local de G dans $F(V,\mathbf{r})$. D’après le corollaire 1, il existe un unique homomorphisme de groupes $\overline{f}: G\rightarrow F(V,\mathbf{r})$ prolongeant $f$. Comme le groupe $F(V,\mathbf{r})$ est engendré par $f(V)$, l’homomorphisme $\overline{f}$ est surjectif. Pour $x\in V$, on a $g(\overline{f}(x)) =g(f(x)) =x$; comme V engendre G$,g\circ \overline{f}=$ Id$_G$, ce qui démontre que $\overline{f}$ est injectif. C’est donc un isomorphisme.
 
 ### 2. Espaces de Hopf
 
@@ -134,7 +134,7 @@ Soient G un groupe topologique et $m$ sa loi de composition. L’élément neutr
 
 #### Exemple 2 {#ta-iv-s3-n2-exa-2 .statement tag=021W}
 
-Soient X un espace topologique et $x$ un point de X. Muni de la juxtaposition des lacets en $x$, l’espace pointé $(\Omega_x(X), e_x)$ est un espace de Hopf. En effet, on a d’abord $e_x*e_x=e_x$. D’autre part, soit $\psi :\mathbf{I}\rightarrow \mathbf{I}$ la fonction définie par $\psi (t) = 2t$ pour $0\leqslant t\leqslant^1_2$ et $\psi (t) = 1$ pour $^1_2\leqslant t\leqslant 1$ (cf. III, p. 291) et soit $\sigma :\mathbf{I}\times \mathbf{I}\rightarrow \mathbf{I}$ une homotopie stricte reliant $\psi$ à Id$_{\mathbf{I}}($III, p. 289, exemple). Alors, pour tout lacet $c\in \Omega_x(X)$, l’application $c\circ \sigma :\mathbf{I}\times \mathbf{I}\rightarrow X$ est une homotopie stricte reliant $c*e_x$ à $c$ dans $\Omega_x(X)$.
+Soient X un espace topologique et $x$ un point de X. Muni de la juxtaposition des lacets en $x$, l’espace pointé $(\Omega_x(X), e_x)$ est un espace de Hopf. En effet, on a d’abord $e_x*e_x=e_x$. D’autre part, soit $\psi :\mathbf{I}\rightarrow \mathbf{I}$ la fonction définie par $\psi (t) = 2t$ pour $0\leqslant t\leqslant \frac{1}{2}$ et $\psi (t) = 1$ pour $\frac{1}{2}\leqslant t\leqslant 1$ (cf. III, p. 291) et soit $\sigma :\mathbf{I}\times \mathbf{I}\rightarrow \mathbf{I}$ une homotopie stricte reliant $\psi$ à Id$_{\mathbf{I}}($III, p. 289, exemple). Alors, pour tout lacet $c\in \Omega_x(X)$, l’application $c\circ \sigma :\mathbf{I}\times \mathbf{I}\rightarrow X$ est une homotopie stricte reliant $c*e_x$ à $c$ dans $\Omega_x(X)$.
 
 Soit $\tau$ l’application $\Omega_x(X)\times \mathbf{I}\rightarrow \Omega_x(X)$ définie par $\tau (c, s)(t) =$ $c\circ \sigma (s, t)$. Démontrons que $\tau$ est continue. D’après la proposition 1 de III, p. 257, il suffit de montrer que l’application $(c, s, t)\mapsto c(\sigma (s, t))$ de $\Omega_x(X)\times \mathbf{I}\times \mathbf{I}$ dans X est continue, soit encore puisque $\mathbf{I}\times \mathbf{I}$ est compact, que l’application $c\mapsto c\circ \sigma$ de $\mathscr{C}_c(\mathbf{I}; X)$ dans $\mathscr{C}_c(\mathbf{I}\times \mathbf{I}; X)$ est continue. Cette dernière assertion résulte alors du lemme, I, p. 132, b). Par suite, l’application $\tau$ est une homotopie reliant l’application $c\mapsto c*e_x$ à l’application identique de $\Omega_x(X)$. On a $\tau (e_x, s)(t) =x$ pour tous $s,t\in \mathbf{I}$, donc $\tau$ est une homotopie pointée en $e_x$. On raisonne de même pour l’application $c\mapsto e_x*c$.
 

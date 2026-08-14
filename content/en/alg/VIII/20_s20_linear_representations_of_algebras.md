@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: 7e2ccd5502e156c2c28d736280e40b2421899df1c93483c8d33399cddccfb6b4
+content_sha256: 102a5c45fd7645a18ac63b9894961bbdec83bb4353a1446bb479f1723d74a758
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -421,9 +421,9 @@ $$
 ui \tag{12}
 $$
 
-$R_K(A_{(K)})^{\chi_{\mathscr{A}}}$ // (1 + TK[[T]])$_{\mathscr{A}}$,
+$R_{\overline{K}}(A_{(K)})^{\overline{\chi}_{\mathscr{A}}}$ // (1 + TK[[T]])$_{\mathscr{A}}$,
 
-where $u$ is the homomorphism deduced from the extension of scalars from K to K (VIII, p. 195$),i$ is the canonical injection, and $\chi_{\mathscr{A}}$ is the homomorphism $z\mapsto (\chi_{1\otimes a}(z))_{a\in\mathscr{A}}$. By formula (12) of III, §9, No. 1, p. 542, diagram (12) is commutative. By the above, the homomorphism $\chi_{\mathscr{A}}$ is injective. Since $u$ is injective (VIII, p. 195, Theorem 1), the homomorphism $\chi_{\mathscr{A}}$ is injective.
+where $u$ is the homomorphism deduced from the extension of scalars from K to K (VIII, p. 195$),i$ is the canonical injection, and $\overline{\chi}_{\mathscr{A}}$ is the homomorphism $z\mapsto (\chi_{1\otimes a}(z))_{a\in\mathscr{A}}$. By formula (12) of III, §9, No. 1, p. 542, diagram (12) is commutative. By the above, the homomorphism $\overline{\chi}_{\mathscr{A}}$ is injective. Since $u$ is injective (VIII, p. 195, Theorem 1), the homomorphism $\chi_{\mathscr{A}}$ is injective.
 
 #### Corollary 1 {#alg-viii-s20-thm-2-cor-1 .statement tag=00MX}
 

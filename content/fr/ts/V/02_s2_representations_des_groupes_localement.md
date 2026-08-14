@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: 72e1d2e1b8ef797e1776378a0b5492c4995af6d5f7298d97fb0464a58299fa71
+content_sha256: 6fb8e98fcae1914f1474e962cf5c9f1eef38ee0d9bcf146b3536b4e8a80a634b
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -66,7 +66,7 @@ Dans ce paragraphe, les espaces vectoriels sont sur le corps $K =\mathbf{R}$ ou 
 
 Soit H un groupe localement compact. Soit $\varrho_1$ (resp. $\varrho_2)$ une représentation continue de G (resp. de H) dans un K-espace vectoriel localement convexe séparé $E_1$ (resp. $E_2)$. Notons F l’espace $\mathscr{L}(E_1; E_2)$ muni de la topologie de la convergence compacte. La représentation $\varrho$ de $G\times H$ dans F définie par $\varrho (g, h)u=\varrho_2(h)\circ u\circ \varrho_1(g^{-1})$ pour $(g, h)\in G\times H$ est continue.
 
-Notons $\mathscr{L}_c(E_1; E_2)$ l’espace $\mathscr{L}(E_1; E_2)$ muni de la topologie de la convergence compacte. Soient $\mathfrak{F}_1$ (resp. $\mathfrak{F}_2,\mathfrak{F}_3)$ un filtre dans G convergeant vers $e$ (resp. un filtre dans $\mathscr{L}_c(E_1; E_2)$ convergeant vers 0, un filtre dans H convergeant vers $e)$. Comme G et H sont localement compacts, il existe des éléments $C\in \mathfrak{F}_1$ et $D\in \mathfrak{F}_3$ qui sont relativement compacts. L’ensemble $\varrho_1(C^{-1})$ est équicontinu dans $\mathscr{L}(E_1) ($cf. INT, VIII, p. 129, § 2, n$^o1$, rem. 2, a$'))$. D’après la prop. 9 de EVT, III, p. 33 et la prop. 4 de EVT, III, p. 31, l’application définie par $(u, v)\mapsto u\circ v$ de $\mathscr{L}_c(E_1; E_2)\times \varrho_1(C^{-1})$ dans $\mathscr{L}_c(E_1; E_2)$ est continue. La base de filtre $\mathfrak{F}_2\circ \varrho_1(\mathfrak{F}^{-1}_1)$ converge donc vers 0 dans $\mathscr{L}_c(E_1; E_2)$. L’ensemble $\varrho_2(D)$ est équicontinu dans $\mathscr{L}(E_2) ($cf. INT, VIII, p. 129, § 2, n$^o1$, rem. 2), et pour tout $x\in E_2$, l’ensemble $\varrho_2(D)x\subset E_2$ est relativement compact. Par conséquent, $\varrho_2(D)$ est relativement compact dans $\mathscr{L}(E_2)$ muni de la topologie de la convergence compacte (TG, X, p. 18, cor. 1). L’application définie par $(u, v)\mapsto u\circ v$ de $\varrho_2(D)\times \mathscr{L}_c(E_1; E_2)$ dans $\mathscr{L}_c(E_1; E_2)$ est continue d’après la prop. 9 de EVT, III, p. 33 et la prop. 4 de EVT, III, p. 31. Donc la base de filtre $\varrho (\mathfrak{F}_1\times \mathfrak{F}_3)(\mathfrak{F}_2)$ converge vers 0 dans $\mathscr{L}_c(E_1; E_2)$. Cela entraîne l’assertion.
+Notons $\mathscr{L}_c(E_1; E_2)$ l’espace $\mathscr{L}(E_1; E_2)$ muni de la topologie de la convergence compacte. Soient $\mathfrak{F}_1$ (resp. $\mathfrak{F}_2,\mathfrak{F}_3)$ un filtre dans G convergeant vers $e$ (resp. un filtre dans $\mathscr{L}_c(E_1; E_2)$ convergeant vers 0, un filtre dans H convergeant vers $e)$. Comme G et H sont localement compacts, il existe des éléments $C\in \mathfrak{F}_1$ et $D\in \mathfrak{F}_3$ qui sont relativement compacts. L’ensemble $\varrho_1(C^{-1})$ est équicontinu dans $\mathscr{L}(E_1) ($cf. INT, VIII, p. 129, § 2, n$^o1$, rem. 2, a$'))$. D’après la prop. 9 de EVT, III, p. 33 et la prop. 4 de EVT, III, p. 31, l’application définie par $(u, v)\mapsto u\circ v$ de $\mathscr{L}_c(E_1; E_2)\times \varrho_1(C^{-1})$ dans $\mathscr{L}_c(E_1; E_2)$ est continue. La base de filtre $\mathfrak{F}_2\circ \varrho_1(\mathfrak{F}^{-1}_1)$ converge donc vers 0 dans $\mathscr{L}_c(E_1; E_2)$. L’ensemble $\varrho_2(D)$ est équicontinu dans $\mathscr{L}(E_2) ($cf. INT, VIII, p. 129, § 2, n$^o1$, rem. 2), et pour tout $x\in E_2$, l’ensemble $\varrho_2(D)x\subset E_2$ est relativement compact. Par conséquent, $\varrho_2(D)$ est relativement compact dans $\mathscr{L}(E_2)$ muni de la topologie de la convergence compacte (TG, X, p. 18, cor. 1). L’application définie par $(u, v)\mapsto u\circ v$ de $\overline{\varrho_2(D)}\times \mathscr{L}_c(E_1; E_2)$ dans $\mathscr{L}_c(E_1; E_2)$ est continue d’après la prop. 9 de EVT, III, p. 33 et la prop. 4 de EVT, III, p. 31. Donc la base de filtre $\varrho (\mathfrak{F}_1\times \mathfrak{F}_3)(\mathfrak{F}_2)$ converge vers 0 dans $\mathscr{L}_c(E_1; E_2)$. Cela entraîne l’assertion.
 
 #### Corollaire {#ts-v-s2-n1-cor-1 .statement tag=03A5}
 
@@ -554,7 +554,7 @@ $$
 
 $G/H(G/H)-L$ 2
 
-La fonction $f_L$ est $\mu$-mesurable et nulle en dehors d’un ensemble compact modulo H. Elle appartient à $\mathscr{L}_{\pi}^p$(G), donc d’après le cas précédent, il existe $\widetilde{f}\in \mathscr{K}_{\pi}(G)$ telle que $N_p(f_L-\widetilde{f})\leqslant (^{\varepsilon}_2)^{1/p}$, d’où
+La fonction $f_L$ est $\mu$-mesurable et nulle en dehors d’un ensemble compact modulo H. Elle appartient à $\mathscr{L}_{\pi}^p$(G), donc d’après le cas précédent, il existe $\widetilde{f}\in \mathscr{K}_{\pi}(G)$ telle que $N_p(f_L-\widetilde{f})\leqslant (\frac{\varepsilon}{2})^{1/p}$, d’où
 
 $$
 \int_{G/H}^*\|f-\widetilde{f}\|^pd\nu \leqslant \varepsilon
@@ -596,15 +596,15 @@ Soit $p\in [1,+\infty [$ et soit $\pi$ une représentation unitaire de H dans un
 
 #### Lemme 6 {#ts-v-s2-lem-6 .statement tag=03AL}
 
-Soit $f\in \mathscr{K}_{\pi}(G)$. Pour tout $g\in G$, la fonction
+Soit $f\in \mathscr{K}_{\overline{\pi}}(G)$. Pour tout $g\in G$, la fonction
 
 $$
 \widetilde{f}:x\mapsto \eta (g^{-1}, xH)^{1/p}f(g^{-1}x)
 $$
 
-de G dans E appartient à $\mathscr{K}_{\pi}(G)$ et vérifie $N_p(\widetilde{f}) = N_p(f)$.
+de G dans E appartient à $\mathscr{K}_{\overline{\pi}}(G)$ et vérifie $N_p(\widetilde{f}) = N_p(f)$.
 
-On vérifie sans peine que $\widetilde{f}\in \mathscr{K}_{\pi}(G)$. Comme
+On vérifie sans peine que $\widetilde{f}\in \mathscr{K}_{\overline{\pi}}(G)$. Comme
 
 $$
 N_p(\widetilde{f})^p=\int_{G/H}^*\|\widetilde{f}\|^pd\nu =\int_{G/H}^*\gamma_{G/H}(g)(\|f\|^p)(y)\eta (g^{-1}, y)d\nu (y)
@@ -612,15 +612,15 @@ $$
 
 et que $(y\mapsto \eta (g^{-1}, y))\cdot \nu =\boldsymbol{\gamma }_{G/H}(g)\nu$, on obtient $N_p(\widetilde{f}) = N_p(f)$.
 
-Il résulte de ce lemme qu’il existe une représentation continue et isométrique $\widetilde{\pi}$ de G dans $L^p_{\pi}(G)$ telle que pour $f\in \mathscr{K}_{\pi}(G)$ et $g\in G$, l’élément $\widetilde{\pi}(g)f$ soit la classe de la fonction $\widetilde{f}$ définie ci-dessus. Si $p= 2$, alors cette représentation est unitaire.
+Il résulte de ce lemme qu’il existe une représentation continue et isométrique $\widetilde{\pi}$ de G dans $L^p_{\overline{\pi}}(G)$ telle que pour $f\in \mathscr{K}_{\pi}(G)$ et $g\in G$, l’élément $\widetilde{\pi}(g)f$ soit la classe de la fonction $\widetilde{f}$ définie ci-dessus. Si $p= 2$, alors cette représentation est unitaire.
 
 #### Définition 2 {#ts-v-s2-def-2 .statement tag=03AM}
 
-On dit que la représentation unitaire de G dans l’espace $L^2_{\pi}(G)$ ainsi définie est la représentation unitaire de G induite par la représentation $\pi$ de H relativement à $\kappa$. On la note Ind$^G_H(\pi , \kappa )$, ou simplement Ind$^G_H(\pi )$.
+On dit que la représentation unitaire de G dans l’espace $L^2_{\overline{\pi}}(G)$ ainsi définie est la représentation unitaire de G induite par la représentation $\pi$ de H relativement à $\kappa$. On la note Ind$^G_H(\pi , \kappa )$, ou simplement Ind$^G_H(\pi )$.
 
 #### Remarque 1 {#ts-v-s2-n6-rem-1 .statement tag=03AN}
 
-Soit $\varrho$ une représentation unitaire de H dans un espace hilbertien complexe F et soit $u:\pi \rightarrow \varrho$ un H-morphisme. Pour toute fonction $f\in \mathscr{K}_{\pi}$(G), notons $v(f)$ la fonction $g\mapsto u(f(g))$ de G dans F ; elle appartient à $\mathscr{K}_{\varrho}(G)$ et vérifie $N_p(v(f))\leqslant \|u\|N_p(f)$. L’application linéaire de $\mathscr{K}_{\pi}(G)$ dans $\mathscr{K}_{\varrho}(G)$ qui à $f$ associe $v(f)$ s’étend donc en un H-morphisme continu de Ind$^G_H(\pi )$ dans Ind$^G_H(\varrho )$ qui est noté Ind$^G_H(u)$. On a Ind$^G_H(1_{\pi}) = 1_{Ind^G_H(\pi)}$. Soit $\sigma$ une représentation unitaire de H et soit $v:\varrho \rightarrow \sigma$ un H-morphisme ; on a Ind$^G_H(v\circ u) =$ Ind$^G_H(v)\circ$ Ind$^G_H(u)$.
+Soit $\varrho$ une représentation unitaire de H dans un espace hilbertien complexe F et soit $u:\pi \rightarrow \varrho$ un H-morphisme. Pour toute fonction $f\in \mathscr{K}_{\overline{\pi}}$(G), notons $v(f)$ la fonction $g\mapsto u(f(g))$ de G dans F ; elle appartient à $\mathscr{K}_{\overline{\varrho}}(G)$ et vérifie $N_p(v(f))\leqslant \|u\|N_p(f)$. L’application linéaire de $\mathscr{K}_{\overline{\pi}}(G)$ dans $\mathscr{K}_{\overline{\varrho}}(G)$ qui à $f$ associe $v(f)$ s’étend donc en un H-morphisme continu de Ind$^G_H(\pi )$ dans Ind$^G_H(\varrho )$ qui est noté Ind$^G_H(u)$. On a Ind$^G_H(1_{\pi}) = 1_{Ind^G_H(\pi)}$. Soit $\sigma$ une représentation unitaire de H et soit $v:\varrho \rightarrow \sigma$ un H-morphisme ; on a Ind$^G_H(v\circ u) =$ Ind$^G_H(v)\circ$ Ind$^G_H(u)$.
 
 *Autrement dit, la construction qui à $\pi$ associe Ind$^G_H(\pi )$ et à $u$ associe Ind$^G_H(u)$ est un foncteur de la catégorie des représentations unitaires de H dans celle des représentations unitaires de G (cf. CAT, I, § 2, en préparation).*
 
@@ -667,7 +667,7 @@ Ces formules sont conséquences des définitions.
 Pour tout $g\in G$ et tout $f\in \mathscr{F}_{\chi}$(G), les fonctions $x\mapsto f(g^{-1}x)$ et $x\mapsto f(xg)$ appartiennent à $\mathscr{F}_{\chi}(G)$. On les note respectivement $\boldsymbol{\gamma }_{G,\chi}(g)f$ et $\boldsymbol{\delta }_{G,\chi}(g)f$. Les applications $\boldsymbol{\gamma }_{G,\chi}$ et $\boldsymbol{\delta }_{G,\chi}$ sont des représentations linéaires de G dans $\mathscr{F}_{\chi}(G)$. Pour tout $z\in Z$, on a
 
 $$
-\boldsymbol{\gamma }_{G,\chi}(gz) =\chi (z)\boldsymbol{\gamma }_{G,\chi}(g),\boldsymbol{\delta }_{G,\chi}(gz) =\chi (z)\boldsymbol{\delta }_{G,\chi}(g) \tag{7}
+\boldsymbol{\gamma }_{G,\chi}(gz) =\overline{\chi(z)}\boldsymbol{\gamma }_{G,\chi}(g),\boldsymbol{\delta }_{G,\chi}(gz) =\chi (z)\boldsymbol{\delta }_{G,\chi}(g) \tag{7}
 $$
 
 Soient $f\in \mathscr{F}_{\chi}(G)$ et $g\in G$; on a
@@ -690,7 +690,7 @@ $$
 
 pour tout $(g, h)\in G\times G ($cf. lemme 1 de V, p. 377).
 
-La représentation $\boldsymbol{\gamma }_{G,\chi}$ sur $L^2_{\chi}(G)$ n’est autre que la représentation induite Ind$^G_Z(\chi )$.
+La représentation $\boldsymbol{\gamma }_{G,\chi}$ sur $L^2_{\chi}(G)$ n’est autre que la représentation induite Ind$^G_Z(\overline{\chi})$.
 
 Lorsque $Z =\{e\}$, le lemme suivant résulte de INT, VIII, p. 166, § 4, n$^o5$, prop. 12, puisque G est unimodulaire.
 
@@ -698,34 +698,34 @@ Lorsque $Z =\{e\}$, le lemme suivant résulte de INT, VIII, p. 166, § 4, n$^o5$
 
 Soient $f_1\in \mathscr{K}_{\chi}(G)$ et $f_2\in \mathscr{L}_{\chi}^2(G)$.
 
-a) La fonction $f$ sur G définie par $f(g) =\langle f_1|\boldsymbol{\gamma }_{G,\chi}(g)f_2\rangle$ pour tout $g\in G$ appartient à $\mathscr{L}_{\chi}^2(G)$ et vérifie $N_2(f)\leqslant N_1(f_1)N_2(f_2)$;
+a) La fonction $f$ sur G définie par $f(g) =\langle f_1|\boldsymbol{\gamma }_{G,\chi}(g)f_2\rangle$ pour tout $g\in G$ appartient à $\mathscr{L}_{\overline{\chi}}^2(G)$ et vérifie $N_2(f)\leqslant N_1(f_1)N_2(f_2)$;
 
 b) La fonction $f$ sur G définie par $f(g) =\langle f_1|\boldsymbol{\delta }_{G,\chi}(g)f_2\rangle$ pour tout $g\in G$ appartient à $\mathscr{L}_{\chi}^2(G)$ et vérifie $N_2(f)\leqslant N_1(f_1)N_2(f_2)$.
 
 Démontrons a), la preuve de l’assertion b) étant similaire. La fonction $f$ est continue, donc $\mu$-mesurable. Pour tout $z\in Z$ et tout $g\in G$, on a
 
 $$
-f(gz) =\langle f_1|\boldsymbol{\gamma }_{G,\chi}(gz)f_2\rangle =\chi (z)\langle f_1|\boldsymbol{\gamma }_{G,\chi}(g)f_2\rangle
+f(gz) =\langle f_1|\boldsymbol{\gamma }_{G,\chi}(gz)f_2\rangle =\overline{\chi(z)}\langle f_1|\boldsymbol{\gamma }_{G,\chi}(g)f_2\rangle
 $$
 
-(formule (7), p. 417), donc $f\in \mathscr{F}_{\chi}(G)$. La prop. 5 de V, p. 413 implique qu’il suffit maintenant de démontrer que $N_2(f)\leqslant N_1(f_1)N_2(f_2)$.
+(formule (7), p. 417), donc $f\in \mathscr{F}_{\overline{\chi}}(G)$. La prop. 5 de V, p. 413 implique qu’il suffit maintenant de démontrer que $N_2(f)\leqslant N_1(f_1)N_2(f_2)$.
 
 Supposons d’abord que $f_2$ appartient à $\mathscr{K}_{\chi}(G)$. Pour tout $g\in G$, on a par définition
 
 $$
-f(g) =\int_{G/Z}f_1\boldsymbol{\gamma }_{G,\chi}(g)f_2d\nu
+f(g) =\int_{G/Z}\overline{f_1}\boldsymbol{\gamma }_{G,\chi}(g)f_2d\nu
 $$
 
-où la fonction $f_1\boldsymbol{\gamma }_{G,\chi}(g)f_2$ est identifiée à une fonction sur $G/Z$.
+où la fonction $\overline{f_1}\boldsymbol{\gamma }_{G,\chi}(g)f_2$ est identifiée à une fonction sur $G/Z$.
 
 Définissons une fonction $f_3$ sur G en posant $f_3(g) = 0$ si $f_1(g) = 0$ et $f_3(g) =f_1(g)|f_1(g)|^{-1/2}$ sinon. La fonction $f_3$ appartient à $\mathscr{F}_{\chi}(G)$ et vérifie $f_1=|f_1|^{1/2}f_3$; elle est $\mu$-mesurable et nulle en dehors d’un compact modulo Z, puisque $f_1$ l’est. Comme $|f_1|^{1/2}\in \mathscr{K}_1$(G), il vient
 
 $$
-f_1\boldsymbol{\gamma }_{G,\chi}(g)f_2=|f_1|^{1/2}f_3\boldsymbol{\gamma }_{G,\chi}(g)f_2
+\overline{f_1}\boldsymbol{\gamma }_{G,\chi}(g)f_2=|f_1|^{1/2}\overline{f_3}\boldsymbol{\gamma }_{G,\chi}(g)f_2
 $$
 
 $$
-|f_3\boldsymbol{\gamma }_{G,\chi}(g)f_2|=|f_3| |\boldsymbol{\gamma }_{G,\chi}(g)f_2|
+|\overline{f_3}\boldsymbol{\gamma }_{G,\chi}(g)f_2|=|f_3| |\boldsymbol{\gamma }_{G,\chi}(g)f_2|
 $$
 
 pour tout $g\in G$.
@@ -766,7 +766,7 @@ $$
 
 Par conséquent, on a $N_2(f)^2\leqslant N_1(f_1)^2N_2(f_2)^2$, ce qui établit la propriété demandée dans ce cas.
 
-Considérons le cas général. Notons $u$ l’application linéaire de $\mathscr{K}_{\chi}(G)$ dans $\mathscr{L}_{\chi}^2(G)$ qui à $f_2$ associe $f$. Soit $f_2\in \mathscr{L}_{\chi}^2(G)$ et soit $(f_{2,n})_{n\in\mathbf{N}}$ une suite dans $\mathscr{K}_{\chi}(G)$ qui converge vers $f_2$ dans $\mathscr{L}_{\chi}^2(G)$. Soit $f_n=u(f_{2,n})$; la suite $(f_n)_{n\in\mathbf{N}}$ est de Cauchy dans $\mathscr{L}_{\chi}^2(G)$ puisque le cas précédent implique que $N_2(f_n-f_m)\leqslant N_1(f_1)N_2(f_{2,n}-f_{2,m})$ pour tous $n$ et $m$ dans $\mathbf{N}$. Soit $f\in \mathscr{L}_{\chi}^2(G)$ telle que $(f_n)$ converge vers $f$ (prop. 3, c) de V, p. 409). Comme $N_2(f_n)\leqslant N_1(f_1)N_2(f_{2,n})$ pour tout $n\in \mathbf{N}$, il vient $N_2(f)\leqslant N_1(f_1)N_2(f_2)$.
+Considérons le cas général. Notons $u$ l’application linéaire de $\mathscr{K}_{\chi}(G)$ dans $\mathscr{L}_{\overline{\chi}}^2(G)$ qui à $f_2$ associe $f$. Soit $f_2\in \mathscr{L}_{\chi}^2(G)$ et soit $(f_{2,n})_{n\in\mathbf{N}}$ une suite dans $\mathscr{K}_{\chi}(G)$ qui converge vers $f_2$ dans $\mathscr{L}_{\chi}^2(G)$. Soit $f_n=u(f_{2,n})$; la suite $(f_n)_{n\in\mathbf{N}}$ est de Cauchy dans $\mathscr{L}_{\overline{\chi}}^2(G)$ puisque le cas précédent implique que $N_2(f_n-f_m)\leqslant N_1(f_1)N_2(f_{2,n}-f_{2,m})$ pour tous $n$ et $m$ dans $\mathbf{N}$. Soit $f\in \mathscr{L}_{\overline{\chi}}^2(G)$ telle que $(f_n)$ converge vers $f$ (prop. 3, c) de V, p. 409). Comme $N_2(f_n)\leqslant N_1(f_1)N_2(f_{2,n})$ pour tout $n\in \mathbf{N}$, il vient $N_2(f)\leqslant N_1(f_1)N_2(f_2)$.
 
 Il existe une suite extraite $(f_{n_k})_{k\in\mathbf{N}}$ telle que $f_{n_k}(g)$ converge vers $f(g)$ pour tout $g\in G$ en dehors d’une partie de G négligeable modulo Z (loc. cit., b)). Mais par ailleurs, pour tout $g\in G$, on a
 
@@ -774,7 +774,7 @@ $$
 f_{n_k}(g) =\langle f_1|\boldsymbol{\gamma }_{G,\chi}(g)f_{2,n_k}\rangle  \rightarrow  \langle f_1|\boldsymbol{\gamma }_{G,\chi}(g)f_2\rangle
 $$
 
-Par conséquent, on a $f(g) =\langle f_1|\boldsymbol{\gamma }_{G,\chi}(g)f_2\rangle$ pour tout $g$ en dehors d’une partie de G négligeable modulo Z. Puisque $f\in \mathscr{L}_{\chi}^2(G)$ et que $N_2(f)\leqslant N_1(f_1)N_2(f_2)$, le lemme est démontré.
+Par conséquent, on a $f(g) =\langle f_1|\boldsymbol{\gamma }_{G,\chi}(g)f_2\rangle$ pour tout $g$ en dehors d’une partie de G négligeable modulo Z. Puisque $f\in \mathscr{L}_{\overline{\chi}}^2(G)$ et que $N_2(f)\leqslant N_1(f_1)N_2(f_2)$, le lemme est démontré.
 
 ### 8. Représentations de carré intégrable
 
@@ -842,7 +842,7 @@ La fonction $f_{x,y}$ est continue donc $\mu$-mesurable. On a $f_{x,y}\in \maths
 
 Soit $\pi$ une représentation unitaire irréductible de G dans un espace hilbertien E qui est de carré intégrable modulo le centre. Soit $\chi$ la restriction à Z du caractère central de $\pi$.
 
-Il existe un nombre réel $c >0$ et un unique $(G\times G)$-morphisme isométrique $w$ de la représentation unitaire $\pi \boxtimes \pi$ dans $L^2_{\chi}(G)$ tels que, pour tout $(x, y)\in E\times E$, l’élément $w(x\otimes y)$ est la classe dans $L^2_{\chi}(G)$ de la fonction $c^{1/2}f_{x,y}$.
+Il existe un nombre réel $c >0$ et un unique $(G\times G)$-morphisme isométrique $w$ de la représentation unitaire $\overline{\pi}\boxtimes \pi$ dans $L^2_{\chi}(G)$ tels que, pour tout $(x, y)\in \overline{E}\times E$, l’élément $w(x\otimes y)$ est la classe dans $L^2_{\chi}(G)$ de la fonction $c^{1/2}f_{x,y}$.
 
 Pour tout $(x, y)\in E\times E$, on a $f_{x,y}\in \mathscr{L}_{\chi}^2(G)$ (lemme 9). Notons $v$ l’unique application linéaire de $E\otimes E$ dans $L^2_{\chi}(G)$ telle que $v(x\otimes y)$ est la classe de $f_{x,y}$ pour tout $(x, y)\in E\times E$.
 
@@ -855,23 +855,23 @@ Il existe un nombre réel $c >0$ tel que l’application linéaire $w=c^{1/2}v$ 
 Ce lemme étant supposé valide, remarquons que la formule (10), p. 420, s’écrit
 
 $$
-v(\pi (g_1)x\otimes \pi (h_1)y) =\boldsymbol{\varrho }_{G,\chi}(g_1, h_1)v(x\otimes y) \tag{11}
+v(\overline{\pi}(g_1)x\otimes \pi (h_1)y) =\boldsymbol{\varrho }_{G,\chi}(g_1, h_1)v(x\otimes y) \tag{11}
 $$
 
-pour tout $(g_1, h_1)\in G\times G$ et tout $(x, y)\in E\times E$. L’application linéaire isométrique $w$ de $E\otimes E$ dans $L^2_{\chi}(G)$ admet un prolongement continu, encore noté $w$, à $E\widehat{\otimes}_2E$. Par continuité et linéarité, la formule (11) implique que $w$ est un $(G\times$ G)-morphisme de $\pi \boxtimes \pi$ dans $L^2_{\chi}$(G), ce qui conclut la démonstration de la proposition.
+pour tout $(g_1, h_1)\in G\times G$ et tout $(x, y)\in \overline{E}\times E$. L’application linéaire isométrique $w$ de $E\otimes E$ dans $L^2_{\chi}(G)$ admet un prolongement continu, encore noté $w$, à $E\widehat{\otimes}_2E$. Par continuité et linéarité, la formule (11) implique que $w$ est un $(G\times$ G)-morphisme de $\overline{\pi}\boxtimes \pi$ dans $L^2_{\chi}$(G), ce qui conclut la démonstration de la proposition.
 
 Démontrons le lemme. Pour tout $x\in E$, on note $u_x$ l’application linéaire $y\mapsto v(x\otimes y) =f_{x,y}$ de E dans $L^2_{\chi}(G)$. On a $u_x\in$ Hom$_G(\pi ,\boldsymbol{\gamma }_{G,\chi})$ (formule (10)). D’après le cor. 5 de V, p. 388, il existe un nombre réel $\lambda_x\geqslant 0$ tel que $\lambda_xu_x$ est isométrique.
 
 Soient $x$ et $y$ dans E. On a
 
 $$
-\|f_{x,y}\|^2=\int_{G/Z}f_{x,y}f_{x,y}d\nu_Z=\int_{G/Z}\check{f}_{x,y}\check{f}_{x,y}d\nu_Z
+\|f_{x,y}\|^2=\int_{G/Z}\overline{f}_{x,y}f_{x,y}d\nu_Z=\int_{G/Z}\overline{\check{f}}_{x,y}\check{f}_{x,y}d\nu_Z
 $$
 
 puisque $G/Z$ est unimodulaire (lemme 7 de V, p. 417). En notant que $\check{f}_{x,y}=f_{y,x}$, on obtient
 
 $$
-\lambda_x\|y\|^2=\|f_{x,y}\|^2=\int_{G/Z}f_{y,x}f_{y,x}d\nu_Z=\|f_{y,x}\|^2=\lambda_y\|x\|^2
+\lambda_x\|y\|^2=\|f_{x,y}\|^2=\int_{G/Z}f_{y,x}\overline{f}_{y,x}d\nu_Z=\|f_{y,x}\|^2=\lambda_y\|x\|^2
 $$
 
 Cela signifie que le nombre réel positif $\lambda_x/\|x\|^2$ est indépendant du choix de l’élément non nul $x$ de E. Il est strictement positif puisque, pour tout $x$ non nul, la fonction $f_{x,x}$ est continue et prend la valeur $\|x\|^2>0$ en $e$, d’où $\|u_x(x)\|=\|f_{x,x}\|>0$. Notons $c^{-1}$ ce nombre réel.
@@ -886,11 +886,11 @@ En utilisant EVT, V, p. 29, cor. 1, on en déduit que l’application linéaire 
 
 #### Corollaire {#ts-v-s2-n8-cor-1 .statement tag=03AW}
 
-Soit $\pi$ une représentation unitaire irréductible de G et soit $\chi$ la restriction à Z de son caractère central. La représentation $\pi$ est de carré intégrable modulo le centre si et seulement si elle est isomorphe à une sous-représentation de la représentation $\boldsymbol{\gamma }_{G,\chi}$ de G dans $L^2_{\chi}(G)$ (resp. de la représentation $\boldsymbol{\delta }_{G,\chi}$ de G dans $L^2_{\chi}(G))$.
+Soit $\pi$ une représentation unitaire irréductible de G et soit $\chi$ la restriction à Z de son caractère central. La représentation $\pi$ est de carré intégrable modulo le centre si et seulement si elle est isomorphe à une sous-représentation de la représentation $\boldsymbol{\gamma }_{G,\chi}$ de G dans $L^2_{\overline{\chi}}(G)$ (resp. de la représentation $\boldsymbol{\delta }_{G,\chi}$ de G dans $L^2_{\chi}(G))$.
 
 Démontrons l’assertion concernant $\boldsymbol{\gamma }_{G,\chi}$, la seconde étant démontrée de manière similaire.
 
-Supposons d’abord qu’il existe une sous-représentation E de la représentation $\boldsymbol{\gamma }_{G,\chi}$ isomorphe à $\pi$. Comme l’espace E n’est pas nul, il existe une fonction $f_1\in \mathscr{K}_{\chi}(G)$ dont la classe $\widetilde{f}_1$ n’est pas orthogonale à E. On a $f_1\in \mathscr{L}_{\chi}^1(G)$. Notons $\widetilde{f}_{1,E}$ la projection orthogonale de $\widetilde{f}_1$ sur E ; c’est un élément non nul de E. Soit par ailleurs $\widetilde{f}_2\in E$ non nulle. L’application $h:g\mapsto  \langle \widetilde{f}_{1,E}|\boldsymbol{\gamma }_{G,\chi}(g)\widetilde{f}_2\rangle$ est un coefficient matriciel de $\pi$. Pour tout $g\in G$, on a $h(g) =\langle \widetilde{f}_1|\boldsymbol{\gamma }_{G,\chi}(g)\widetilde{f}_2\rangle$ puisque $\widetilde{f}_1-\widetilde{f}_{1,E}$ est orthogonale à E. D’après le lemme 8 de V, p. 418, la fonction $h$ appartient à $\mathscr{L}_{\chi}^2$(G), donc la proposition 6 implique que $\pi$ est de carré intégrable modulo le centre.
+Supposons d’abord qu’il existe une sous-représentation E de la représentation $\boldsymbol{\gamma }_{G,\chi}$ isomorphe à $\pi$. Comme l’espace E n’est pas nul, il existe une fonction $f_1\in \mathscr{K}_{\overline{\chi}}(G)$ dont la classe $\widetilde{f}_1$ n’est pas orthogonale à E. On a $f_1\in \mathscr{L}_{\overline{\chi}}^1(G)$. Notons $\widetilde{f}_{1,E}$ la projection orthogonale de $\widetilde{f}_1$ sur E ; c’est un élément non nul de E. Soit par ailleurs $\widetilde{f}_2\in E$ non nulle. L’application $h:g\mapsto  \langle \widetilde{f}_{1,E}|\boldsymbol{\gamma }_{G,\chi}(g)\widetilde{f}_2\rangle$ est un coefficient matriciel de $\pi$. Pour tout $g\in G$, on a $h(g) =\langle \widetilde{f}_1|\boldsymbol{\gamma }_{G\overline{,\chi}}(g)\widetilde{f}_2\rangle$ puisque $\widetilde{f}_1-\widetilde{f}_{1,E}$ est orthogonale à E. D’après le lemme 8 de V, p. 418, la fonction $h$ appartient à $\mathscr{L}_{\chi}^2$(G), donc la proposition 6 implique que $\pi$ est de carré intégrable modulo le centre.
 
 Réciproquement, supposons que $\pi$ est de carré intégrable modulo le centre. Soit $x_0\in E$ un vecteur non nul. D’après la prop. 7 et la formule (10), l’application $y\mapsto \check{f}_{x_0,y}$ est un G-morphisme injectif de $\pi$ dans $\boldsymbol{\gamma }_{G,\chi}$.
 
@@ -986,7 +986,7 @@ pour $x\in G$ et $f\in L^2(G, \mu)$.
 
 Soient M et N des parties mesurables égales à un ensemble localement négligeable près. Comme $\varphi_M$ est alors égale à $\varphi_N$ dans $L^{\infty}(\widehat{G},\widehat{\mu})$, cette condition implique que $E_M= E_N$.
 
-Supposons réciproquement que M et N ne sont pas égales à un ensemble localement négligeable près. Quitte éventuellement à échanger le rôle de M et N, il existe alors un sous-ensemble compact K tel que l’ensemble $L = K\cap (M$ - $(M\cap N))$ n’est pas négligeable. Soit $\varphi_L\in L^2(\widehat{G},\widehat{\mu})$ la classe de la fonction caractéristique de L, et posons $f=\mathscr{F}_{\widehat{G}}(\varphi_L)\in L^2(G, \mu)$; on a $\mathscr{F}_G(f) =\varphi_L$ (cor. du th. 2 de II, p. 220). Alors $f$ appartient à $E_N$, puisque $L\cap N$ est vide, mais pas à $E_M$, puisque $\varphi_M\mathscr{F}(f) =\varphi_M\varphi_L=\varphi_L$. On a donc $E_M\not = E_N$, ce qui prouve b).
+Supposons réciproquement que M et N ne sont pas égales à un ensemble localement négligeable près. Quitte éventuellement à échanger le rôle de M et N, il existe alors un sous-ensemble compact K tel que l’ensemble $L = K\cap (M$ - $(M\cap N))$ n’est pas négligeable. Soit $\varphi_L\in L^2(\widehat{G},\widehat{\mu})$ la classe de la fonction caractéristique de L, et posons $f=\overline{\mathscr{F}}_{\widehat{G}}(\varphi_L)\in L^2(G, \mu)$; on a $\mathscr{F}_G(f) =\varphi_L$ (cor. du th. 2 de II, p. 220). Alors $f$ appartient à $E_N$, puisque $L\cap N$ est vide, mais pas à $E_M$, puisque $\varphi_M\mathscr{F}(f) =\varphi_M\varphi_L=\varphi_L$. On a donc $E_M\not = E_N$, ce qui prouve b).
 
 Soit maintenant E une sous-représentation de $\boldsymbol{\gamma }_G$. Soit $p_E$ l’orthoprojecteur de $L^2(G, \mu)$ d’image E et soit $q_E=\mathscr{F}_G\circ p_E\circ \mathscr{F}_G^{-1}$. Le projecteur $p_E$ appartient à Hom$_G(\boldsymbol{\gamma }_G,\boldsymbol{\gamma }_G)$ (prop. 4 de V, p. 383), donc il commute avec $\boldsymbol{\gamma }_G(f)$ pour tout $f\in L^1(G, \mu) ($cf. V, p. 401). Cela signifie qu’il commute avec les endomorphismes $\varphi \mapsto f*\varphi$ pour $f\in L^1(G, \mu)$ (lemme 4 de V, p. 407). Par conséquent, l’endomorphisme $q_E$ de $L^2(\widehat{G},\widehat{\mu})$ commute avec l’endomorphisme de multiplication par $g$ pour toute fonction $g\in \mathscr{C}_0(\widehat{G})$ appartenant à l’image de la transformation de Fourier de $L^1(G, \mu)$ dans $\mathscr{C}_0(\widehat{G})$ (prop. 14 de II, p. 223). Puisque l’image de la transformation de Fourier est dense dans $\mathscr{C}_0(\widehat{G})$ (corollaire de la prop. 5 de II, p. 209), la continuité du morphisme $g\mapsto m_g$ implique que $q_E$ commute avec $m_g$ pour toute fonction $g\in \mathscr{C}_0(\widehat{G})$.
 
@@ -1140,19 +1140,19 @@ Il résulte alors de la prop. 6 de IV, p. 276 que la fonction $\psi_x$ est déri
 
 Soit $\varrho$ une représentation unitaire de $\mathbf{R}$ dans E. Alors le générateur infinitésimal $u$ de $\varrho$ est auto-adjoint et $\varrho (t) =e^{itu}$ pour tout $t\in \mathbf{R}$.
 
-D’après le lemme 13, c), l’opérateur partiel $u$ est essentiellement auto-adjoint. Sa fermeture $u$ est donc un opérateur auto-adjoint. Notons $\pi$ la représentation unitaire de $\mathbf{R}$ définie par $\pi (t) =e^{itu}$ (lemme 11).
+D’après le lemme 13, c), l’opérateur partiel $u$ est essentiellement auto-adjoint. Sa fermeture $\overline{u}$ est donc un opérateur auto-adjoint. Notons $\pi$ la représentation unitaire de $\mathbf{R}$ définie par $\pi (t) =e^{itu}$ (lemme 11).
 
 Pour tout $x\in E$, notons $\psi_x$ (resp. $\widetilde{\psi}_x)$ l’application de $\mathbf{R}$ dans E définie par $\psi_x(t) =\varrho (t)x$ (resp. par $\widetilde{\psi}_x(t) =\pi (t)x)$.
 
-D’après le lemme 13, a) et b), l’espace dom($u$) est le sous-espace de E formé des éléments $x\in E$ tels que l’application $\psi_x$ est dérivable sur $\mathbf{R}$, et pour tout $x\in$ dom($u$) et tout $t\in \mathbf{R}$, on a $\psi_x'(t) =iu(\psi_x(t))$. De même, l’espace dom($u$) est le sous-espace de E formé des éléments $x\in E$ tels que l’application $\widetilde{\psi}_x$ est dérivable sur $\mathbf{R}$, et pour tout $x\in$ dom($u$) et tout $t\in \mathbf{R}$, on a $\widetilde{\psi}_x'(t) =iu(\widetilde{\psi}_x(t))$.
+D’après le lemme 13, a) et b), l’espace dom($u$) est le sous-espace de E formé des éléments $x\in E$ tels que l’application $\psi_x$ est dérivable sur $\mathbf{R}$, et pour tout $x\in$ dom($u$) et tout $t\in \mathbf{R}$, on a $\psi_x'(t) =iu(\psi_x(t))$. De même, l’espace dom($\overline{u}$) est le sous-espace de E formé des éléments $x\in E$ tels que l’application $\widetilde{\psi}_x$ est dérivable sur $\mathbf{R}$, et pour tout $x\in$ dom($\overline{u}$) et tout $t\in \mathbf{R}$, on a $\widetilde{\psi}_x'(t) =iu(\widetilde{\psi}_x(t))$.
 
-Soit $x\in$ dom($u$)$\subset$ dom($u$). Posons $f=\psi_x-\widetilde{\psi}_x$. C’est une fonction dérivable de $\mathbf{R}$ dans E. Pour tout $t\in \mathbf{R}$, il vient
+Soit $x\in$ dom($u$)$\subset$ dom($\overline{u}$). Posons $f=\psi_x-\widetilde{\psi}_x$. C’est une fonction dérivable de $\mathbf{R}$ dans E. Pour tout $t\in \mathbf{R}$, il vient
 
 $$
 f'(t) =iu(\psi_x(t))-iu(\widetilde{\psi}_x(t)) =iu(f(t))
 $$
 
-puisque $\psi_x(t)\in$ dom($u$) et $u\subset u$. Posons $g=\|f\|^2$; c’est une application dérivable de $\mathbf{R}$ dans $\mathbf{R}$ telle que $g(0) = 0$. Pour $t\in \mathbf{R}$, on obtient d’après FVR, I, p. 28, prop. 2
+puisque $\psi_x(t)\in$ dom($u$) et $u\subset \overline{u}$. Posons $g=\|f\|^2$; c’est une application dérivable de $\mathbf{R}$ dans $\mathbf{R}$ telle que $g(0) = 0$. Pour $t\in \mathbf{R}$, on obtient d’après FVR, I, p. 28, prop. 2
 
 $$
 g'(t) =\langle f'(t)|f(t)\rangle +\langle f(t)|f'(t)\rangle
@@ -1162,7 +1162,7 @@ $$
 =\langle iu(f(t))|f(t)\rangle +\langle f(t)|iu(f(t))\rangle = 0
 $$
 
-puisque $u$ est auto-adjoint. On a donc $f= 0$, d’où $\varrho (t)x=\pi (t)x$ pour tout $t\in \mathbf{R}$. Les endomorphismes continus $\varrho (t)$ et $\pi (t)$ de E coïncident sur dom($u$), et sont donc égaux pour tout $t\in \mathbf{R}$. Ainsi, on a $\pi =\varrho$; comme $u$ est le générateur infinitésimal de $\pi$ (lemme. 14), on a $u=u$, ce qui démontre que $u$ est auto-adjoint.
+puisque $\overline{u}$ est auto-adjoint. On a donc $f= 0$, d’où $\varrho (t)x=\pi (t)x$ pour tout $t\in \mathbf{R}$. Les endomorphismes continus $\varrho (t)$ et $\pi (t)$ de E coïncident sur dom($u$), et sont donc égaux pour tout $t\in \mathbf{R}$. Ainsi, on a $\pi =\varrho$; comme $\overline{u}$ est le générateur infinitésimal de $\pi$ (lemme. 14), on a $\overline{u}=u$, ce qui démontre que $u$ est auto-adjoint.
 
 Nous pouvons maintenant démontrer le th. 1.
 

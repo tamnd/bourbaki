@@ -57,7 +57,7 @@ subsections:
       pdf_page: 407
 statements: 50
 exercises: 7
-content_sha256: ace07a756fd31f4402f7803637c8f68f8177e58ef5318cf994fc2b98bf061b8b
+content_sha256: 5053a4dc4e4e329edeb4e91a8697d86524dabbe10969a25702b4d92ba3c10685
 ---
 
 ## § 1. REPRÉSENTATIONS UNITAIRES
@@ -276,13 +276,13 @@ $$
 
 donc $u=\varrho_2(g)\circ u\circ \varrho_1(g^{-1})$. Par conséquent, $u\in$ Hom$_G(\varrho_2, \varrho_1)$. La proposition en résulte.
 
-Soit $\varrho$ une représentation unitaire d’un groupe topologique G dans un espace hilbertien E. Si $K =\mathbf{C}$, notons E l’espace conjugué de E (EVT, V, p. 6). Si $K =\mathbf{R}$, posons E = E. La représentation conjuguée $\varrho$ est la représentation de G dans E définie par $\varrho (g) =\varrho (g)$ pour tout $g\in G$. C’est une représentation unitaire de G ; par définition, un sous-espace de E est une sous-représentation de E si et seulement si c’est une sous-représentation de E.
+Soit $\varrho$ une représentation unitaire d’un groupe topologique G dans un espace hilbertien E. Si $K =\mathbf{C}$, notons E l’espace conjugué de E (EVT, V, p. 6). Si $K =\mathbf{R}$, posons E = E. La représentation conjuguée $\overline{\varrho}$ est la représentation de G dans E définie par $\overline{\varrho}(g) =\varrho (g)$ pour tout $g\in G$. C’est une représentation unitaire de G ; par définition, un sous-espace de E est une sous-représentation de E si et seulement si c’est une sous-représentation de E.
 
 #### Proposition 2 {#ts-v-s1-prop-2 .statement tag=038X}
 
-Soit $\varrho$ une représentation unitaire d’un groupe topologique G dans un espace hilbertien E. Notons $u$ l’isomorphisme isométrique de E dans $E'$ qui à $x$ associe la forme linéaire $y\mapsto  \langle x|y\rangle$.
+Soit $\varrho$ une représentation unitaire d’un groupe topologique G dans un espace hilbertien E. Notons $u$ l’isomorphisme isométrique de $\overline{E}$ dans $E'$ qui à $x$ associe la forme linéaire $y\mapsto  \langle x|y\rangle$.
 
-a) L’application $u$ est un isomorphisme de la représentation conjuguée $\varrho$ dans la représentation contragrédiente $\breve{\varrho}$;
+a) L’application $u$ est un isomorphisme de la représentation conjuguée $\overline{\varrho}$ dans la représentation contragrédiente $\breve{\varrho}$;
 
 b) Munissons $E'$ de la structure d’espace hilbertien obtenue par transport de structure à l’aide de $u$; la représentation contragrédiente $\breve{\varrho}$ est une représentation unitaire de G dans $E'$.
 
@@ -295,10 +295,10 @@ $$
 $$
 
 $$
-=\langle x|\varrho (g^{-1})y\rangle =\langle \varrho (g)x|y\rangle =\langle y, u(\varrho (g)x)\rangle
+=\langle x|\varrho (g^{-1})y\rangle =\langle \varrho (g)x|y\rangle =\langle y, u(\overline{\varrho}(g)x)\rangle
 $$
 
-donc $\breve{\varrho}(g)\circ u=u\circ \varrho (g)$, ce qui démontre a) ; l’assertion b) en découle aussitôt.
+donc $\breve{\varrho}(g)\circ u=u\circ \overline{\varrho}(g)$, ce qui démontre a) ; l’assertion b) en découle aussitôt.
 
 #### Corollaire {#ts-v-s1-n5-cor-1 .statement tag=038Y}
 
@@ -308,7 +308,7 @@ Soit $\varrho$ une représentation unitaire d’un groupe topologique G dans un 
 
 (ii) La représentation contragrédiente $\breve{\varrho}$ est irréductible ;
 
-(iii) La représentation conjuguée $\varrho$ est irréductible.
+(iii) La représentation conjuguée $\overline{\varrho}$ est irréductible.
 
 Cela résulte de la proposition 2, et de la remarque précédant celle-ci concernant les sous-représentations de E.
 
@@ -419,7 +419,7 @@ Soit G un groupe topologique. Les ensembles Θ(G) et Υ(G) sont des sous-algèbr
 La fonction constante 1 est un coefficient matriciel de la représentation triviale de G sur $\mathbf{C}$. Soit $\varrho$ une représentation unitaire de G et soient $x$ et $y$ des vecteurs de l’espace de $\varrho$. Pour tout $\lambda \in \mathbf{C}$ et tout $g\in G$, on a $\lambda \langle x|\varrho (g)y\rangle =\langle x|\varrho (g)(\lambda y)\rangle$. De plus, on a
 
 $$
-\langle x|\varrho (g)y\rangle =\langle \varrho (g^{-1})x|y\rangle =\langle y|\varrho (g^{-1})x\rangle
+\langle x|\varrho (g)y\rangle =\langle \varrho (g^{-1})x|y\rangle =\overline{\langle y|\varrho(g^{-1})x\rangle}
 $$
 
 pour tout $g\in G$. Par conséquent, les ensembles Θ(G) et Υ(G) sont stables par multiplication par des scalaires et par conjugaison.
@@ -548,7 +548,7 @@ Soit $\pi$ une représentation unitaire irréductible d’un groupe topologique 
 
 #### Remarque {#ts-v-s1-n8-rem-1 .statement tag=039E}
 
-Soit $\pi$ (resp. $\varrho )$ une représentation unitaire irréductible d’un groupe topologique G (resp. H) dans un espace hilbertien E (resp. F). Notons $\chi$ (resp. $\eta )$ le caractère central de $\pi$ (resp. $\varrho )$. Le caractère central de la représentation $\pi$ est $\chi$, et le caractère central de la représentation unitaire irréductible $\pi \boxtimes \varrho$ de $G\times H$ (cor. 6) est le caractère $\chi \boxtimes \eta : (g, h)\mapsto \chi (g)\eta (h)$ de $G\times H$.
+Soit $\pi$ (resp. $\varrho )$ une représentation unitaire irréductible d’un groupe topologique G (resp. H) dans un espace hilbertien E (resp. F). Notons $\chi$ (resp. $\eta )$ le caractère central de $\pi$ (resp. $\varrho )$. Le caractère central de la représentation $\overline{\pi}$ est $\overline{\chi}$, et le caractère central de la représentation unitaire irréductible $\pi \boxtimes \varrho$ de $G\times H$ (cor. 6) est le caractère $\chi \boxtimes \eta : (g, h)\mapsto \chi (g)\eta (h)$ de $G\times H$.
 
 ### 9. Semi-simplicité
 
@@ -636,7 +636,7 @@ Si G est fini, l’ensemble $\widehat{G}$ est en bijection avec l’ensemble des
 
 #### Remarque 3 {#ts-v-s1-n10-rem-3 .statement tag=039O}
 
-Pour $\pi \in \widehat{G}$, on identifiera $\pi$ avec la classe dans $\widehat{G}$ de la représentation conjuguée de $\pi$.
+Pour $\pi \in \widehat{G}$, on identifiera $\overline{\pi}$ avec la classe dans $\widehat{G}$ de la représentation conjuguée de $\pi$.
 
 #### Remarque 4 {#ts-v-s1-n10-rem-4 .statement tag=039P}
 

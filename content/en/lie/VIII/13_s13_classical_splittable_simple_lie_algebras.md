@@ -29,7 +29,7 @@ subsections:
       pdf_page: 219
 statements: 2
 exercises: 19
-content_sha256: a1dea383f997461c44f6804e68c2879c6939ad418b7d3452afe90f5d5fca3016
+content_sha256: d0426afaca8e468453cea52b736bc088c6ca41579e473fe1ec86f5849e19febc
 ---
 
 ## § 13. CLASSICAL SPLITTABLE SIMPLE LIE ALGEBRAS
@@ -278,7 +278,7 @@ On the other hand, $\mathfrak{g}\mathfrak{l}(l+ 1,\mathbf{Z})$ is a Chevalley or
 
 (I) Let V be a finite dimensional vector space, and $\Psi$ a non-degenerate symmetric bilinear form on V. The set of endomorphisms $x$ of V such that $\Psi (xv, v') +\Psi (v, xv') = 0$ for all $v, v'\in V$ is a Lie subalgebra of $\mathfrak{s}\mathfrak{l}$(V), semi-simple for dim $V\not= 2$ (Chap. I, §6, no. 7, Prop. 9). We denote it by $\mathfrak{o}(\Psi )$ and call it the orthogonal Lie algebra associated to $\Psi$.
 
-Assume that V is of odd dimension $2l+ 1\geq 3$ and that $\Psi$ is of maximum index $l$. Denote by Q the quadratic form such that $\Psi$ is associated to Q. We have $Q(x) =^1_2\Psi (x, x)$ for $x\in V$. By Algebra, Chap. IX, §4, no. 2, V can be written as the direct sum of two maximal totally isotropic subspaces F and $F'$ and the orthogonal complement G of $F + F'$, which is non-isotropic and 1-dimensional. Up to multiplying $\Psi$ by a non-zero constant, we can assume that there exists $e_0\in G$ such that $\Psi (e_0, e_0) =-2$. On the other hand, F and $F'$ are in duality via $\Psi$; let $(e_i)_{1\leq i\leq l}$ be a basis of F and $(e_{-i})_{1\leq i\leq l}$ the dual basis of $F'$. Then
+Assume that V is of odd dimension $2l+ 1\geq 3$ and that $\Psi$ is of maximum index $l$. Denote by Q the quadratic form such that $\Psi$ is associated to Q. We have $Q(x) =\frac{1}{2}\Psi (x, x)$ for $x\in V$. By Algebra, Chap. IX, §4, no. 2, V can be written as the direct sum of two maximal totally isotropic subspaces F and $F'$ and the orthogonal complement G of $F + F'$, which is non-isotropic and 1-dimensional. Up to multiplying $\Psi$ by a non-zero constant, we can assume that there exists $e_0\in G$ such that $\Psi (e_0, e_0) =-2$. On the other hand, F and $F'$ are in duality via $\Psi$; let $(e_i)_{1\leq i\leq l}$ be a basis of F and $(e_{-i})_{1\leq i\leq l}$ the dual basis of $F'$. Then
 
 $$
 (e_1, . . . , e_l, e_0, e_{-l}, . . . , e_{-1})
@@ -428,7 +428,7 @@ $$
 \mathfrak{o}(\Psi )\longrightarrow \mathfrak{g}\mathfrak{l}(V)\longrightarrow V\otimes V^*\longrightarrow V\otimes V\longrightarrow C^+(Q)
 $$
 
-(the 1st is the canonical injection, the 3rd is defined by the canonical isomorphism from $V^*$ to V corresponding to $\Psi$, the 4th is defined by the multiplication in C(Q), cf. Algebra, Chap. IX, § 9, no. 1). Put $f=^1_2f_0$.
+(the 1st is the canonical injection, the 3rd is defined by the canonical isomorphism from $V^*$ to V corresponding to $\Psi$, the 4th is defined by the multiplication in C(Q), cf. Algebra, Chap. IX, § 9, no. 1). Put $f=\frac{1}{2}f_0$.
 
 (i) If $(e_r),(e'_r)$ are bases of V such that $\Psi (e_r, e'_s) =\delta_{rs}$, we have $f_0(a) =$ $\sum_r(ae_r)e'_r$ for all $a\in \mathfrak{o}(\Psi )$.
 
@@ -580,7 +580,7 @@ $$
 
 2 2 We deduce that, for $1\leq i_1<\cdots < i_k\leq l:$
 
-$\rho (H)(e\wedge  \cdots  \wedge e) =\{-^1_2e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}$ if $i\in  \{i_1, . . . , i_k\}$
+$\rho (H)(e\wedge  \cdots  \wedge e) =\{-\frac{1}{2}e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}$ if $i\in  \{i_1, . . . , i_k\}$
 
 $^{i-i_1}-^{i_k}1_2e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}$ if $i /\in  \{i_1, . . . i_k\}$
 
@@ -598,7 +598,7 @@ This shows that the highest weight of $\rho$ is $_l$. We call $\rho$ the spinor 
 
 (V) We have $w_0=-1$, so every finite dimensional simple representation of $\mathfrak{g}$ is orthogonal or symplectic. By Chap. VI, §4, no. 5.VI, the sum of the coordinates of $_r$ with respect to $(\alpha_1, . . . , \alpha_l)$ is integral for $1\leq r\leq l-1:$ thus, the representation $\bigwedge^r\sigma$ is orthogonal. Moreover, it leaves invariant the extension $\Psi_{(r)}$ of $\Psi$ to $\bigwedge^rV$.
 
-For the spinor representation, the sum of the coordinates of $_l$ with respect to $(\alpha_1, . . . , \alpha_l)$ is $^1_2(1 +\cdots +l) =^{l(l+1)}_4$ (loc. cit.). Thus, it is orthogonal for $l\equiv 0$ or $-1$ (mod. 4) and symplectic for $l\equiv 1$ or 2 (mod. 4). In fact, consider the bilinear form $\Phi$ on $N =\bigwedge F'$ defined as follows: if $x\in \bigwedge^pF'$ and $y\in \bigwedge^qF'$, put $\Phi (x, y) = 0$ if $p+q\not=l$ and
+For the spinor representation, the sum of the coordinates of $_l$ with respect to $(\alpha_1, . . . , \alpha_l)$ is $\frac{1}{2}(1 +\cdots +l) =\frac{l(l+1)}{4}($loc. cit.). Thus, it is orthogonal for $l\equiv 0$ or $-1$ (mod. 4) and symplectic for $l\equiv 1$ or 2 (mod. 4). In fact, consider the bilinear form $\Phi$ on $N =\bigwedge F'$ defined as follows: if $x\in \bigwedge^pF'$ and $y\in \bigwedge^qF'$, put $\Phi (x, y) = 0$ if $p+q\not=l$ and
 
 $$
 x\wedge y= (-1)^{^{p(p+1)}_2}\Phi (x, y)e_{-1}\wedge  \cdots  \wedge e_{-r}
@@ -992,7 +992,7 @@ $$
 
 (IX) Recall the $X_{\alpha}$ defined by formulas $(6) (\alpha \in R)$. It is easily verified that $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$ for $\alpha \in R$. On the other hand, the map $\theta :a \rightarrow  -^ta$ is an automorphism of $\mathfrak{g}$ and $\theta (X_{\alpha}) =X_{-\alpha}$ for all $\alpha \in R$. Consequently, $(X_{\alpha})_{\alpha\in R}$ is a Chevalley system in $(\mathfrak{g},\mathfrak{h})$.
 
-Assume that $k=\mathbf{Q}$. The Cartan subalgebra $\mathfrak{h}$ has two permissible lattices $Q(R^{\vee}) =\sum_{i=1}^l\mathbf{Z}.H_i$ and $P(R^{\vee}) = Q(R^{\vee}) +^1_2\mathbf{Z}.\sum_{i=1}^lH_i$ (Chap. VI, §4,
+Assume that $k=\mathbf{Q}$. The Cartan subalgebra $\mathfrak{h}$ has two permissible lattices $Q(R^{\vee}) =\sum_{i=1}^l\mathbf{Z}.H_i$ and $P(R^{\vee}) = Q(R^{\vee}) +\frac{1}{2}\mathbf{Z}.\sum_{i=1}^lH_i$ (Chap. VI, §4,
 
 no. 5.VIII). We see that $Q(R^{\vee})$ is the set of matrices with integer entries belonging to $\mathfrak{h}$. It follows that the Chevalley order $Q(R^{\vee}) +\sum_{\alpha\in R}\mathbf{Z}.X_{\alpha}$ is the set $\mathfrak{s}\mathfrak{p}(2l,\mathbf{Z})$ of matrices in $\mathfrak{g}$ with integer entries.
 
@@ -1102,7 +1102,7 @@ We shall show that, for $1\leq r\leq l-2$, the representation $\bigwedge^r\sigma
 
 For this, it suffices to show that $\bigwedge^r\sigma$ is irreducible for $1\leq r\leq l-1$ (note that the representation $\bigwedge^l\sigma$ is not irreducible, cf. Exerc. 10), or that the smallest subspace $T_r$ of $\bigwedge^rV$ containing $e_1\wedge  \cdots  \wedge e_r$ and stable under $\mathfrak{g}$ is the whole of $\bigwedge^rV$. This is immediate for $r= 1$. For $r= 2$, we see as in no. 2 that $\bigwedge^2\sigma$ is equivalent to the adjoint representation of $\mathfrak{g}$, which is irreducible since $\mathfrak{g}$ is simple. The proof is completed by arguing by induction on $l$, as in no. 2, but assuming that $l-1\geq r\geq 3$.
 
-We are now going to determine the fundamental representations of highest weight $_{l-1}$ and $_l$. Let Q be the quadratic form $x \rightarrow^1_2\Psi (x, x)$. We have defined in no. 2.IV the spinor representation $\lambda$ of the Clifford algebra C(Q) on $N =\bigwedge F'$. We verify immediately that the subspace $N_+$ (resp. $N_-)$ of N given by the sum of the $\bigwedge^pF'$ for $p$ even (resp. odd) is stable under the restriction of $\lambda$ to $C^+(Q)$. Consequently, the representations $\lambda_+$ and $\lambda_-$ of $C^+(Q)$ on $N_+$ and $N_-$ respectively are the semi-spinor representations of $C^+(Q) ($Algebra, Chap. IX, §9, no. 4); they are irreducible, of dimension $2^{l-1}$ and inequivalent. Let $\rho_+=\lambda_+\circ f$ and $\rho_-=\lambda_-\circ f$ be the corresponding irreducible representations of $\mathfrak{g}$ (no. 2, Lemma 1 (vi)). In view of Lemma 1 (i), we have
+We are now going to determine the fundamental representations of highest weight $_{l-1}$ and $_l$. Let Q be the quadratic form $x \rightarrow \frac{1}{2}\Psi (x, x)$. We have defined in no. 2.IV the spinor representation $\lambda$ of the Clifford algebra C(Q) on $N =\bigwedge F'$. We verify immediately that the subspace $N_+$ (resp. $N_-)$ of N given by the sum of the $\bigwedge^pF'$ for $p$ even (resp. odd) is stable under the restriction of $\lambda$ to $C^+(Q)$. Consequently, the representations $\lambda_+$ and $\lambda_-$ of $C^+(Q)$ on $N_+$ and $N_-$ respectively are the semi-spinor representations of $C^+(Q) ($Algebra, Chap. IX, §9, no. 4); they are irreducible, of dimension $2^{l-1}$ and inequivalent. Let $\rho_+=\lambda_+\circ f$ and $\rho_-=\lambda_-\circ f$ be the corresponding irreducible representations of $\mathfrak{g}$ (no. 2, Lemma 1 (vi)). In view of Lemma 1 (i), we have
 
 1 1 1
 
@@ -1200,7 +1200,7 @@ $$
 
 Assume that $k=\mathbf{Q}$. By Chap. VI, §4, no. 8.VIII, the subalgebra $\mathfrak{h}$ has three permissible lattices if $l$ is odd and four permissible lattices if $l$ is even. In particular, the lattice $\mathscr{H}$ generated by the $H_i$ is permissible. But this lattice is the set of diagonal matrices in $\mathfrak{g}$ with integer entries. It follows that $\mathfrak{o}_S(2l,\mathbf{Z})$ is the Chevalley order $\mathscr{H}+\sum\mathbf{Z}.X_{\alpha}$ in $\mathfrak{g}$. Since $X_{\alpha}^2= 0$ for all $\alpha \in R$, we see that the lattice $\mathscr{V}$ in V generated by the Witt basis $(e_i)$ is an admissible lattice in V for $\mathfrak{o}_S(2l,\mathbf{Z})$. The same holds for $\bigwedge^r\mathscr{V}$ in $\bigwedge^rV$.
 
-On the other hand, if we take $P(R^{\vee}) =\mathbf{Z}.^1_2\sum_{i=1}^lH_i+\mathscr{H}$ as permissible lattice and $\mathscr{G}= P(R^{\vee}) +\sum\mathbf{Z}.X_{\alpha}$ as Chevalley order, we see that $\bigwedge^rV$ has an admissible lattice only if $r$ is even; $\bigwedge^r\mathscr{V}$ is then admissible.
+On the other hand, if we take $P(R^{\vee}) =\mathbf{Z}.\frac{1}{2}\sum_{i=1}^lH_i+\mathscr{H}$ as permissible lattice and $\mathscr{G}= P(R^{\vee}) +\sum\mathbf{Z}.X_{\alpha}$ as Chevalley order, we see that $\bigwedge^rV$ has an admissible lattice only if $r$ is even; $\bigwedge^r\mathscr{V}$ is then admissible.
 
 Consider the reductive Lie algebra $\mathfrak{o}(\Psi ) +\mathbf{Q}.1$; we see immediately that the lattice $\widetilde{\mathscr{G}}= (\mathfrak{o}(\Psi ) +\mathbf{Q}.1)\cap \mathfrak{g}\mathfrak{l}(2l,\mathbf{Z})$ is a Chevalley order. The Chevalley order $\mathscr{G}$ is the projection of $\widetilde{\mathscr{G}}$ onto $\mathfrak{o}(\Psi )$ parallel to the centre $\mathbf{Q}.1$.
 
@@ -1214,10 +1214,10 @@ $$
 A_l(l\geq 1)B_l(l\geq 2)
 $$
 
-$\{0r\not=^{l+1}_2r$ 1 $r\not=l$
+$\{0r\not=\frac{l+1}{2}r$ 1 $r\not=l$
 
 $$
-^r(-1)^rr=^{l+1}_2l(-1)^{l(l+1)/2}
+^r(-1)^rr=\frac{l+1}{2}l(-1)^{l(l+1)/2}
 $$
 
 $$

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 269
 statements: 55
 exercises: 0
-content_sha256: 6139e8f40cd5fa1f75e9b38d6e9e273974cebc87f73b681bdd76c8e8588dd4e0
+content_sha256: b1b76876d098a24e07699b6e549cfac761d3daf621520455e8d5e02046dc7838
 ---
 
 ## § 1. HOMOTOPIES, HOMÉOTOPIES
@@ -86,7 +86,7 @@ $\tau (x,2t-1)$ pour $1/2\leqslant t\leqslant 1$
 
 est continue (TG, I, p. 19, prop. 4) et est une homotopie reliant l’origine de $\sigma$ au terme de $\tau$. On l’appelle l’homotopie juxtaposée des homotopies $\sigma$ et $\tau$.
 
-Si $\sigma : X\times \mathbf{I}\rightarrow Y$ est une homotopie, l’application $\sigma : X\times \mathbf{I}\rightarrow Y$ définie par $(x, t)\mapsto \sigma (x,1-t)$ est une homotopie reliant le terme de $\sigma$ à l’origine de $\sigma$. On a $\sigma =\sigma$. Si $\sigma$ et $\tau$ sont des homotopies juxtaposables de $X\times \mathbf{I}$ dans Y, les homotopies $\tau$ et $\sigma$ sont juxtaposables et l’on a $\sigma *\tau =\tau *\sigma$.
+Si $\sigma : X\times \mathbf{I}\rightarrow Y$ est une homotopie, l’application $\overline{\sigma}: X\times \mathbf{I}\rightarrow Y$ définie par $(x, t)\mapsto \sigma (x,1-t)$ est une homotopie reliant le terme de $\sigma$ à l’origine de $\sigma$. On a $\overline{\overline{\sigma}}=\sigma$. Si $\sigma$ et $\tau$ sont des homotopies juxtaposables de $X\times \mathbf{I}$ dans Y, les homotopies $\overline{\tau}$ et $\overline{\sigma}$ sont juxtaposables et l’on a $\overline{\sigma*\tau}=\overline{\tau}*\overline{\sigma}$.
 
 #### Proposition 1 {#ta-iii-s1-prop-1 .statement tag=01V5}
 
@@ -94,7 +94,7 @@ Soient X et Y des espaces topologiques. La relation « $f$ est homotope à $g$ �
 
 Soit $f$ un élément de $\mathscr{C}(X; Y)$. L’application $f\circ$ pr$_1: X\times \mathbf{I}\rightarrow Y$ est une homotopie reliant $f$ à $f$; cette relation est donc réflexive.
 
-Soient $f$ et $g$ des éléments de $\mathscr{C}(X; Y)$ et $\sigma : X\times \mathbf{I}\rightarrow Y$ une homotopie reliant $f$ à $g$. L’application $\sigma : X\times \mathbf{I}\rightarrow Y$ est alors une homotopie reliant $g$ à $f$; la relation considérée est donc symétrique.
+Soient $f$ et $g$ des éléments de $\mathscr{C}(X; Y)$ et $\sigma : X\times \mathbf{I}\rightarrow Y$ une homotopie reliant $f$ à $g$. L’application $\overline{\sigma}: X\times \mathbf{I}\rightarrow Y$ est alors une homotopie reliant $g$ à $f$; la relation considérée est donc symétrique.
 
 Démontrons enfin qu’elle est transitive. Si $f,g$ et $h$ sont des éléments de $\mathscr{C}(X; Y),\sigma$ une homotopie reliant $f$ à $g$ et $\tau$ une homotopie reliant $g$ à $h$, alors $\sigma$ et $\tau$ sont juxtaposables et $\sigma *\tau$ est une homotopie reliant $f$ à $h$.
 
@@ -264,15 +264,15 @@ Avec les notations qui précèdent, on dit que $\sigma$ est une contraction fort
 
 #### Exemple {#ta-iii-s1-n5-exa-1 .statement tag=01VL}
 
-Soit X le complémentaire de l’origine dans $\mathbf{B}_n$. L’application de $X\times \mathbf{I}$ dans X donnée par $(x, t)\mapsto ((1-t) +t_{\|x\|}^1)x$ est une contraction forte de X sur $\mathbf{S}_{n-1}$. La rétraction de X sur $\mathbf{S}_{n-1}$ qui lui est associée est l’application donnée par $x\mapsto x/\|x\|$.
+Soit X le complémentaire de l’origine dans $\mathbf{B}_n$. L’application de $X\times \mathbf{I}$ dans X donnée par $(x, t)\mapsto ((1-t) +t\frac{1}{\|x\|})x$ est une contraction forte de X sur $\mathbf{S}_{n-1}$. La rétraction de X sur $\mathbf{S}_{n-1}$ qui lui est associée est l’application donnée par $x\mapsto x/\|x\|$.
 
 #### Lemme 2 {#ta-iii-s1-lem-2 .statement tag=01VM}
 
-Soit X un espace topologique, soit U un ouvert de X et soit $\sigma$ une contraction forte de X sur X-U. Alors, $\sigma (U\times \mathbf{I})\subset U$. En particulier, $\sigma (U\times  \{1\})$ est contenu dans la frontière de U.
+Soit X un espace topologique, soit U un ouvert de X et soit $\sigma$ une contraction forte de X sur X-U. Alors, $\sigma (U\times \mathbf{I})\subset \overline{U}$. En particulier, $\sigma (U\times  \{1\})$ est contenu dans la frontière de U.
 
-Soit $x\in U$. L’ensemble des nombres réels $t\in \mathbf{I}$ tels que $\sigma (x, t)\in U$ est ouvert dans $\mathbf{I}$ et contient 0 ; soit $s$ sa borne supérieure. On a $\sigma (x, s)\in U$. Si $s <1,\sigma (x, s)\notin U$, par définition de $s$; il en est de même si $s= 1$ car $\sigma (x,1)\in X-U$. Par suite, $\sigma (x, s)\in$ Fr(U). Par définition d’une contraction forte, on a alors $\sigma (x, s) =\sigma (\sigma (x, s),1) =\sigma (x,1)$; en particulier, $\sigma (x,1)\in U$. Par conséquent, $\sigma (x,1)$ appartient à la frontière $U\cap (X-U)$ de U.
+Soit $x\in U$. L’ensemble des nombres réels $t\in \mathbf{I}$ tels que $\sigma (x, t)\in U$ est ouvert dans $\mathbf{I}$ et contient 0 ; soit $s$ sa borne supérieure. On a $\sigma (x, s)\in \overline{U}$. Si $s <1,\sigma (x, s)\notin U$, par définition de $s$; il en est de même si $s= 1$ car $\sigma (x,1)\in X-U$. Par suite, $\sigma (x, s)\in$ Fr(U). Par définition d’une contraction forte, on a alors $\sigma (x, s) =\sigma (\sigma (x, s),1) =\sigma (x,1)$; en particulier, $\sigma (x,1)\in \overline{U}$. Par conséquent, $\sigma (x,1)$ appartient à la frontière $\overline{U}\cap (X-U)$ de U.
 
-Soit $t\in \mathbf{I}$; si $\sigma (x, t)\notin U$, il vient encore $\sigma (x, t) =\sigma (\sigma (x, t),1) =$ $\sigma (x,1)$, donc $\sigma (x, t)\in U$, d’où le lemme.
+Soit $t\in \mathbf{I}$; si $\sigma (x, t)\notin U$, il vient encore $\sigma (x, t) =\sigma (\sigma (x, t),1) =$ $\sigma (x,1)$, donc $\sigma (x, t)\in \overline{U}$, d’où le lemme.
 
 ### 6. Cylindre d’une application
 
@@ -362,7 +362,7 @@ Dans ce cas, l’assertion résulte de ce que l’espace $X\times [0,1[$ est sé
 
 – Il existe $(x, t)\in X\times [0,1[$ tel que $z=\alpha_f(x, t)$ et $y'\in Y$ tel que $z'=\beta_f(y')$.
 
-Alors, $\alpha_f(X\times [0,^{t+1}_2$ [) et Cyl($f$)$-\alpha_f(X\times [0,^{t+1}_2$ ]) sont des voisinages ouverts disjoints de $z$ et $z'$ dans Cyl($f$).
+Alors, $\alpha_f(X\times [0,\frac{t+1}{2}[)$ et Cyl($f$)$-\alpha_f(X\times [0,\frac{t+1}{2}])$ sont des voisinages ouverts disjoints de $z$ et $z'$ dans Cyl($f$).
 
 – Il existe $y$ et $y'\in Y$ tels que $z=\beta_f(y),z'=\beta_f(y')$.
 
@@ -376,7 +376,7 @@ Soit X un espace topologique et soit A une partie de X. On dit que le couple $(X
 
 #### Remarque 1 {#ta-iii-s1-n7-rem-1 .statement tag=01VV}
 
-Soit X un espace topologique et soit A une partie de X telle que le couple $(X,A)$ possède la propriété d’extension des homotopies. Soit Y un espace topologique, soit $f: X\rightarrow Y$ une application continue et soit $\sigma : A\times \mathbf{I}\rightarrow Y$ une homotopie dont l’origine est l’application $f|A$. L’application $\sigma : A\times \mathbf{I}\rightarrow Y$ définie par $(a, t)\mapsto \sigma (a,1-t)$ est une homotopie de terme $f|A$; soit $\tau : X\times \mathbf{I}\rightarrow Y$ une homotopie de terme $f$ qui prolonge $\sigma$. L’application $\tau : X\times \mathbf{I}\rightarrow Y$ donnée par $(x, t)\mapsto \tau (x,1-t)$ est alors une homotopie qui prolonge $\sigma$ et dont l’origine est l’application $f$.
+Soit X un espace topologique et soit A une partie de X telle que le couple $(X,A)$ possède la propriété d’extension des homotopies. Soit Y un espace topologique, soit $f: X\rightarrow Y$ une application continue et soit $\sigma : A\times \mathbf{I}\rightarrow Y$ une homotopie dont l’origine est l’application $f|A$. L’application $\overline{\sigma}: A\times \mathbf{I}\rightarrow Y$ définie par $(a, t)\mapsto \sigma (a,1-t)$ est une homotopie de terme $f|A$; soit $\tau : X\times \mathbf{I}\rightarrow Y$ une homotopie de terme $f$ qui prolonge $\overline{\sigma}$. L’application $\overline{\tau}: X\times \mathbf{I}\rightarrow Y$ donnée par $(x, t)\mapsto \tau (x,1-t)$ est alors une homotopie qui prolonge $\sigma$ et dont l’origine est l’application $f$.
 
 Soit X un espace topologique, soit A un sous-espace de X et soit $i: A\rightarrow X$ l’injection canonique. Notons $\alpha_i: A\times \mathbf{I}\rightarrow$ Cyl($i$) et $\beta_i: X\rightarrow$ Cyl($i$) les applications canoniques. Soit $j:$ Cyl($i$)$\rightarrow X\times \mathbf{I}$ l’unique application continue telle que $j(\alpha_i(a, s)) = (i(a), s)$ et $j(\beta_i(x)) = (x,1)$ pour $a\in A,s\in \mathbf{I}$ et $x\in X$. Elle est injective ; son image est le sous-espace $(A\times \mathbf{I})\cup (X\times  \{1\})$ de $X\times \mathbf{I}$. L’application $j$ est fermée si A est fermé dans X. Elle n’est pas toujours stricte (III, p. 325, exerc. 17).
 
@@ -440,7 +440,7 @@ Soit X un espace topologique séparé et soit A une partie de X telle que le cou
 
 #### Lemme 3 {#ta-iii-s1-lem-3 .statement tag=01VY}
 
-Soient X et Y des espaces topologiques, soit $p: X\rightarrow Y$ une application continue propre et ouverte, et soit $f: X\rightarrow \mathbf{R}$ une application continue. L’application $g: Y\rightarrow \mathbf{R}$ donnée par $y\mapsto$ sup $f(x)$ est continue.
+Soient X et Y des espaces topologiques, soit $p: X\rightarrow Y$ une application continue propre et ouverte, et soit $f: X\rightarrow \mathbf{R}$ une application continue. L’application $g: Y\rightarrow \overline{\mathbf{R}}$ donnée par $y\mapsto$ sup $f(x)$ est continue.
 
 $x\in \overset{-1}{p}(y)$
 

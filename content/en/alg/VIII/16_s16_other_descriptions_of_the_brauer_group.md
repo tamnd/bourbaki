@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: b6b222278de48878d29ca98867fd5bd62b16842e0a0a5d331a924a235a4a3321
+content_sha256: 444a9799141dfc25ef0704322ef785d3d26e1232b3675646f5caa61dde180ede
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -337,7 +337,7 @@ $$
 \tau '(g)\cdot v(f) =v(\tau (g)\cdot f)
 $$
 
-for $g\in G$ and $f\in F$. Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension of G by F. Then $\iota (E)$ is a normal subgroup of Γ, and the $\tau '$-extension $v_*(\mathscr{E})$ of G by $F'$ is isomorphic to the extension $(\Gamma /\iota (E), \iota , \pi )$, where $\iota$ and $\pi$ are the group homomorphisms deduced from $\iota$ and $\pi$ by passing to the quotients. By this isomorphism, the canonical homomorphism $\varphi$ associated with $v_*(\mathscr{E})$ corresponds to the canonical homomorphism from Γ to $\Gamma /\iota (E)$.
+for $g\in G$ and $f\in F$. Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension of G by F. Then $\iota (E)$ is a normal subgroup of Γ, and the $\tau '$-extension $v_*(\mathscr{E})$ of G by $F'$ is isomorphic to the extension $(\Gamma /\iota (E), \iota , \pi )$, where $\overline{\iota}$ and $\overline{\pi}$ are the group homomorphisms deduced from $\iota$ and $\pi$ by passing to the quotients. By this isomorphism, the canonical homomorphism $\varphi$ associated with $v_*(\mathscr{E})$ corresponds to the canonical homomorphism from Γ to $\Gamma /\iota (E)$.
 
 #### Proposition 3 {#alg-viii-s16-prop-3 .statement tag=00IM}
 
@@ -999,7 +999,7 @@ c) Denote by $L^G($resp. $L^G_{\sigma})$ the subalgebra of L (resp. $L_{\sigma})
 
 Since the algebra L is reduced and of finite degree, the intersection of the maximal ideals of L is reduced to 0 (VIII, p. 173, Corollary 2). Moreover, if $\mathfrak{m}$ and $\mathfrak{m}'$ are two distinct maximal ideals of L, then we have $\mathfrak{m}+\mathfrak{m}'= L$. By Proposition 10 of I, §8, No. 11, p. 110, the canonical mapping from L to $\prod_{\mathfrak{m}\in\mathscr{S}}L/\mathfrak{m}$ is an isomorphism, as is the canonical mapping from $L/\mathfrak{a}_{\sigma}$ to $\prod_{\mathfrak{m}\in\sigma}L/\mathfrak{m}$ for every $\sigma \in \mathscr{O}$. Assertion a) follows. Since $\mathscr{O}$ is a partition of $\mathscr{S}$, assertion b) follows; assertion c) is an immediate consequence of b).
 
-Let us now fix an orbit $\sigma \in \mathscr{O}$ and an element $\mathfrak{m}$ of $\sigma$. Set $F_{\mathfrak{m}}$ = Coind$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$, and denote by $\lambda_{F_{\mathfrak{m}}}$ the action of G on $F_{\mathfrak{m}}$. For any $x\in L$, denote by $x$ the mapping from G to $L/\mathfrak{m}$ that sends $g$ to $\pi_{\mathfrak{m}}(gx)$. By formula (15) of VIII, p. 305 and the definition of the action of $G_{\mathfrak{m}}$ on $L/\mathfrak{m}$, it is immediate that $x$ belongs to $F_{\mathfrak{m}}$, and the mapping $u:x\mapsto x$ from L to $F_{\mathfrak{m}}$ satisfies $\lambda_{F_{\mathfrak{m}}}(g)\circ u=u\circ \lambda (g)$ for $g\in G$. In other words, $u$ is a morphism of $(K$, G)-algebras.
+Let us now fix an orbit $\sigma \in \mathscr{O}$ and an element $\mathfrak{m}$ of $\sigma$. Set $F_{\mathfrak{m}}$ = Coind$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$, and denote by $\lambda_{F_{\mathfrak{m}}}$ the action of G on $F_{\mathfrak{m}}$. For any $x\in L$, denote by $\overline{x}$ the mapping from G to $L/\mathfrak{m}$ that sends $g$ to $\pi_{\mathfrak{m}}(gx)$. By formula (15) of VIII, p. 305 and the definition of the action of $G_{\mathfrak{m}}$ on $L/\mathfrak{m}$, it is immediate that $\overline{x}$ belongs to $F_{\mathfrak{m}}$, and the mapping $u:x\mapsto \overline{x}$ from L to $F_{\mathfrak{m}}$ satisfies $\lambda_{F_{\mathfrak{m}}}(g)\circ u=u\circ \lambda (g)$ for $g\in G$. In other words, $u$ is a morphism of $(K$, G)-algebras.
 
 #### Lemma 9 {#alg-viii-s16-lem-9 .statement tag=00IZ}
 

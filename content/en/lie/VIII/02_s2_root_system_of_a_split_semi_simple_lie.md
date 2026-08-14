@@ -29,7 +29,7 @@ subsections:
       pdf_page: 91
 statements: 28
 exercises: 12
-content_sha256: f6d0de926f5d870fcb22714d7cb7feb86adfdcde4df8a89d8763dd9b0186668f
+content_sha256: 88fb783c018c5b736880fcc13293ffbbd9c9b691b0429da8f88d814f2ef96023
 ---
 
 ## § 2. ROOT SYSTEM OF A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -298,7 +298,7 @@ $$
 
 $\alpha \in Ri\in I$
 
-Indeed, by Prop. $1,\Phi (H_i, X_{\alpha}) =\Phi (H_i', X_{\alpha}) = 0$ for all $i\in I,\alpha \in R$, and $\Phi (_{\Phi(X_{\alpha},X_{-\alpha})}^1X_{\alpha}, X_{-\beta})=\delta_{\alpha \beta}$ for all $\alpha , \beta \in R$.
+Indeed, by Prop. $1,\Phi (H_i, X_{\alpha}) =\Phi (H_i', X_{\alpha}) = 0$ for all $i\in I,\alpha \in R$, and $\Phi (\frac{1}{\Phi(X_{\alpha},X_{-\alpha})}X_{\alpha}, X_{-\beta})=\delta_{\alpha \beta}$ for all $\alpha , \beta \in R$.
 
 ### 4. THE COEFFICIENTS N$_{\boldsymbol{\alpha \beta }}$
 
@@ -415,7 +415,7 @@ $$
 $$
 
 $$
-\langle \delta , \delta \rangle =\langle H_{\gamma}, H_{\gamma}\rangle \tag{6}
+\overline{\langle\delta , \delta\rangle}=\overline{\langle H_{\gamma}, H_{\gamma}\rangle} \tag{6}
 $$
 
 Now, by Chap. VI, §1, no. 3, Prop. 10,

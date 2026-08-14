@@ -29,7 +29,7 @@ subsections:
       pdf_page: 362
 statements: 20
 exercises: 0
-content_sha256: 8f97caab7fe63e53b8cb7003b525777c36f09bad96b7889784ee82f3014513b7
+content_sha256: 155ffffac4b7431150b5059d5ca7564ea931ea37b964c818aa2c4ea9f5859586
 ---
 
 ## § 1. ESPACES DÉLAÇABLES
@@ -224,9 +224,9 @@ a) Supposons que X soit connexe par arcs et que le groupe G soit engendré par l
 
 b) Si l’espace X est délaçable, l’espace $X/G$ est délaçable.
 
-a) L’ensemble N des éléments $g\in G$ pour lesquels il existe un chemin $c_g:\mathbf{I}\rightarrow X$ tel que $c_g(0) =x,c_g(1) =g\cdot x$ et tel que le lacet $p\circ c_g$ dans $X/G$ soit strictement homotope à un lacet constant est un sous-groupe de G. Si $g\in G$ et s’il existe un point $y$ de X tel que $g\cdot y=y$, choisissons un chemin $c:\mathbf{I}\rightarrow X$ reliant $x$ à $y$; alors le chemin $c'=c*$ $(g\cdot c)$ vérifie $c'(0) =x,c'(1) =g\cdot x$ et $[p\circ c'] = [p\circ c][p\circ (g\cdot c)]^{-1}=e_{p(x)}$, donc $p\circ c'$ est strictement homotope à un lacet constant. Comme G est engendré par les fixateurs des points de X, il en résulte que N = G.
+a) L’ensemble N des éléments $g\in G$ pour lesquels il existe un chemin $c_g:\mathbf{I}\rightarrow X$ tel que $c_g(0) =x,c_g(1) =g\cdot x$ et tel que le lacet $p\circ c_g$ dans $X/G$ soit strictement homotope à un lacet constant est un sous-groupe de G. Si $g\in G$ et s’il existe un point $y$ de X tel que $g\cdot y=y$, choisissons un chemin $c:\mathbf{I}\rightarrow X$ reliant $x$ à $y$; alors le chemin $c'=c*$ $\overline{(g\cdot c)}$ vérifie $c'(0) =x,c'(1) =g\cdot x$ et $[p\circ c'] = [p\circ c][p\circ (g\cdot c)]^{-1}=e_{p(x)}$, donc $p\circ c'$ est strictement homotope à un lacet constant. Comme G est engendré par les fixateurs des points de X, il en résulte que N = G.
 
-Soit $c$ un lacet dans $X/G$ en $p(x)$. D’après le théorème 4 de III, p. 287, il existe un chemin $\widetilde{c}:\mathbf{I}\rightarrow X$ relevant $c$ tel que $\widetilde{c}(0) =x$. Comme $p(\widetilde{c}(1)) =c(1) =p(x)$, il existe $g\in G$ tel que $\widetilde{c}(1) =g\cdot x$. Choisissons un chemin $c_g:\mathbf{I}\rightarrow X$ reliant $x$ à $g\cdot x$ et tel que $p\circ c_g$ soit strictement homotope à un lacet constant. Alors, le chemin $c'=\widetilde{c}*c_g$ est un lacet en $x$ dans X tel que $[p\circ c'] = [c]$. Cela montre que l’homomorphisme $\pi_1(X, x)\rightarrow \pi_1(X/G, p(x))$ est surjectif. L’autre assertion en découle immédiatement.
+Soit $c$ un lacet dans $X/G$ en $p(x)$. D’après le théorème 4 de III, p. 287, il existe un chemin $\widetilde{c}:\mathbf{I}\rightarrow X$ relevant $c$ tel que $\widetilde{c}(0) =x$. Comme $p(\widetilde{c}(1)) =c(1) =p(x)$, il existe $g\in G$ tel que $\widetilde{c}(1) =g\cdot x$. Choisissons un chemin $c_g:\mathbf{I}\rightarrow X$ reliant $x$ à $g\cdot x$ et tel que $p\circ c_g$ soit strictement homotope à un lacet constant. Alors, le chemin $c'=\widetilde{c}*\overline{c_g}$ est un lacet en $x$ dans X tel que $[p\circ c'] = [c]$. Cela montre que l’homomorphisme $\pi_1(X, x)\rightarrow \pi_1(X/G, p(x))$ est surjectif. L’autre assertion en découle immédiatement.
 
 Démontrons maintenant l’assertion b). L’espace $X/G$ est localement connexe par arcs (III, p. 261, prop. 8).
 

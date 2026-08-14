@@ -37,7 +37,7 @@ subsections:
       pdf_page: 381
 statements: 30
 exercises: 0
-content_sha256: e8cb72c1956dd638be544bbbec18b92e96cf4c40cefe45f46c3ea4255b446f8d
+content_sha256: 7119eec31baf2b05c6d7fc1ef33504ab852b7f2a33dbab206cfd3d7255ee37a5
 ---
 
 ## § 2. GROUPES DE POINCARÉ DES ESPACES DÉLAÇABLES
@@ -116,7 +116,7 @@ Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une applicati
 
 Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une application continue relativement connexe.
 
-a) Pour toute composante connexe U de X$,f(U)$ est une partie
+a) Pour toute composante connexe U de X$,\overline{f(U)}$ est une partie
 
 connexe, ouverte et fermée de Y, et l’on a $\overset{-1}{f}(f(U)) = U$.
 
@@ -126,7 +126,7 @@ c) Les composantes connexes de X ( resp. de Y) sont ouvertes et fermées.
 
 a) Soit V l’ensemble des $y\in Y$ qui possèdent un voisinage W tel que
 
-$\overset{-1}{f}(W)$ soit connexe et rencontre U ; c’est un ouvert de Y. Il contient $f(U)$ car $f$ est relativement connexe. Inversement, soit $y\in V$ ; soit
+$\overset{-1}{f}(W)$ soit connexe et rencontre U ; c’est un ouvert de Y. Il contient $\overline{f(U)}$ car $f$ est relativement connexe. Inversement, soit $y\in V$ ; soit
 
 W un voisinage de $y$ tel que $\overset{-1}{f}(W)$ soit connexe et rencontre U. Pour
 
@@ -134,7 +134,7 @@ tout voisinage $W'$ de $y$ tel que $\overset{-1}{f}(W')$ soit connexe, $\overset
 
 pas vide, donc $\overset{-1}{f}(W\cup W')$ est connexe (TG, I, p. 81, prop. 2). Par
 
-hypothèse, $\overset{-1}{f}(W\cup W')$ rencontre U ; on a donc $\overset{-1}{f}(W\cup W')\subset U$ et, a fortiori, $W'\cap f(U)=\not\emptyset$. Cela démontre que $y\in f(U)$ ; par suite, $V =f(U)$. En particulier, l’ensemble $f(U)$ est ouvert et fermé dans Y ; la prop. 1 (TG, I, p. 81) entraîne en outre qu’il est connexe.
+hypothèse, $\overset{-1}{f}(W\cup W')$ rencontre U ; on a donc $\overset{-1}{f}(W\cup W')\subset U$ et, a fortiori, $W'\cap f(U)=\not\emptyset$. Cela démontre que $y\in \overline{f(U)}$; par suite, $V =\overline{f(U)}$. En particulier, l’ensemble $\overline{f(U)}$ est ouvert et fermé dans Y ; la prop. 1 (TG, I, p. 81) entraîne en outre qu’il est connexe.
 
 Les arguments qui précèdent montrent de plus que $\overset{-1}{f}(f(U))\subset U$,
 
@@ -144,7 +144,7 @@ b) Soit V la composante connexe d’un point $y$ de Y, soit W un
 
 voisinage de $y$ tel que $\overset{-1}{f}(W)$ soit connexe et non vide et soit U la
 
-composante connexe de X qui contient $\overset{-1}{f}(W)$. Comme $y\in f(U)$, il résulte de a) et de la définition de la composante connexe de $y$ que $V =f(U)$. Par suite, V est ouvert et fermé dans Y.
+composante connexe de X qui contient $\overset{-1}{f}(W)$. Comme $y\in \overline{f(U)}$, il résulte de a) et de la définition de la composante connexe de $y$ que $V =\overline{f(U)}$. Par suite, V est ouvert et fermé dans Y.
 
 #### Corollaire 1 {#ta-iv-s2-prop-4-cor-1 .statement tag=020X}
 
@@ -164,7 +164,7 @@ Supposons que l’application $f$ soit relativement connexe. La densité de $f(X
 
 connexe. Soit V un ouvert de Y ; l’application $f_V:\overset{-1}{f}(V)\rightarrow$ V est relativement connexe. D’après la prop. 4, les composantes connexes de V sont ouvertes et fermées dans V. Il en résulte que Y est localement connexe (TG, I, p. 85, prop. 11). Pour démontrer l’assertion c), il suffit de démontrer que X est connexe si Y l’est. D’après le lemme, il existe
 
-une composante connexe U de X telle que $Y =f(U)$ et $\overset{-1}{f}(f(U)) = U$, d’où U = X et X est connexe.
+une composante connexe U de X telle que $Y =\overline{f(U)}$ et $\overset{-1}{f}(f(U)) = U$, d’où U = X et X est connexe.
 
 Inversement, supposons que les conditions a), b), c) sont vérifiées et montrons que $f$ est relativement connexe. Soit $y$ un point de Y ; puisque Y est localement connexe, $y$ admet un système fondamental de voisinages ouverts connexes. Si W est un tel voisinage, les conditions
 
@@ -278,7 +278,7 @@ Montrons par récurrence qu’il existe, pour tout entier $k$ tel que 1 $\leqsla
 
 Appliquons ce qui précède à $k=n$; il existe alors, pour tout $x\in F$, une section $s_x$ de E au-dessus de $K_x$, de sorte que $U =\bigcup_{x\in F}s_x(W_x)$ soit un ouvert connexe de E. On a $p(U) = X$. Comme le groupe G opère transitivement dans chaque fibre du revêtement E, on a GU = E.
 
-L’adhérence de U est contenue dans $\bigcup_{x\in F}s_x(K_x)$ donc est compacte. L’opération de G dans E est propre (I, p. 96, cor. 1), donc l’ensemble des couples $(g, x)\in G\times E$ tels que $x\in U$ et $gx\in U$ est une partie compacte de $G\times E$ (TG, I, p. 77, prop. 6). Il s’ensuit que l’ensemble des $g\in G$ tels que $U\cap gU=\not\emptyset$ est compact. Comme il est discret, il est fini. A fortiori, l’ensemble des $g\in G$ tels que $U\cap gU=\not\emptyset$ est fini. Le théorème découle ainsi de la prop. 10 de I, p. 136.
+L’adhérence de U est contenue dans $\bigcup_{x\in F}s_x(K_x)$ donc est compacte. L’opération de G dans E est propre (I, p. 96, cor. 1), donc l’ensemble des couples $(g, x)\in G\times E$ tels que $x\in \overline{U}$ et $gx\in \overline{U}$ est une partie compacte de $G\times E$ (TG, I, p. 77, prop. 6). Il s’ensuit que l’ensemble des $g\in G$ tels que $\overline{U}\cap g\overline{U}=\not\emptyset$ est compact. Comme il est discret, il est fini. A fortiori, l’ensemble des $g\in G$ tels que $U\cap gU=\not\emptyset$ est fini. Le théorème découle ainsi de la prop. 10 de I, p. 136.
 
 ### 4. Compléments sur les espaces polonais
 

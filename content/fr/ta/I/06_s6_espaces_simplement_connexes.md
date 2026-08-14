@@ -33,7 +33,7 @@ subsections:
       pdf_page: 149
 statements: 37
 exercises: 0
-content_sha256: 5fa1ebc59a10f6a673a510f911681e8878e30d086930fb7db2d0a12489fbfa8e
+content_sha256: 59a0e7681779a9a4ee75f5027ef805156c808e4c1c963cc9ee07e98de9791486
 ---
 
 ## § 6. ESPACES SIMPLEMENT CONNEXES
@@ -86,7 +86,7 @@ Soit E l’espace numérique à $n$ dimensions *(ou, plus généralement, un esp
 
 #### Lemme 1 {#ta-i-s6-lem-1 .statement tag=01RV}
 
-Soit E l’espace numérique à $n$ dimensions et soit A une partie convexe et compacte de E dont 0 est un point intérieur. Pour tout $x\in E$, notons $p_A(x)$ la borne inférieure dans $\mathbf{R}$ de l’ensemble des nombres réels $t >0$ tels que $x\in tA$.
+Soit E l’espace numérique à $n$ dimensions et soit A une partie convexe et compacte de E dont 0 est un point intérieur. Pour tout $x\in E$, notons $p_A(x)$ la borne inférieure dans $\overline{\mathbf{R}}$ de l’ensemble des nombres réels $t >0$ tels que $x\in tA$.
 
 L’application $p_A$ est finie, continue, et vérifie les propriétés suivantes :
 
@@ -408,7 +408,7 @@ Soit $n'$ un élément de N tel que $n'\cdot y=y'$. On a $n'\cdot \pi (g, u) =n\
 
 Muni de l’action de N, le X-espace $(Y, p)$ est un revêtement principal à gauche. Il est trivialisable au-dessus de M.
 
-Soit $x\in X$ ; fixons un élément $g\in E_x$ ainsi qu’un élément $g\in F$ tel que $\varphi (g) =g$. On note $\mu_x: E_x\times M\rightarrow X$ l’application donnée par $(h, u)\mapsto h\cdot u$.
+Soit $x\in X$ ; fixons un élément $g\in E_x$ ainsi qu’un élément $\overline{g}\in F$ tel que $\varphi (\overline{g}) =g$. On note $\mu_x: E_x\times M\rightarrow X$ l’application donnée par $(h, u)\mapsto h\cdot u$.
 
 Soit $n\in N$, soient $h, k\in E_x$ et soient $u, v\in M$ tels que $h\cdot u=k\cdot v$; posons $s=g^{-1}h,t=h^{-1}k$ et $r=st=g^{-1}k$. Comme $x$ appartient à $g\cdot M\cap h\cdot M\cap k\cdot M$, le couple $(s, t)$ appartient à T, d’où $x_sx_t=x_r$. On a donc
 
@@ -424,10 +424,10 @@ $$
 
 De plus, pour $n, n'\in N$ et $y\in E_x\cdot M$, on a $\theta (n'n, y) =n'\cdot \theta (n, y)$. L’application $\theta ': N\times (E_x\times M)\rightarrow Y$ donnée par $\theta '(n,(h, u)) =\theta (n, \mu_x(h, u))$ est continue ; comme l’application $\mu_x$ est universellement stricte (I, p. 133, lemme 2), l’application $\theta$ est continue. C’est une bijection de $N\times (E_x\cdot M)$ sur le sous-espace $Y\times_X(E_x\cdot M)$ de Y (lemme 6).
 
-Soient $z= (k, v)\in Z$ et $(h, u)\in E_x\times M$ tels que $q(k, v) =\mu_x(h, u)$. Posons $s$ = $h^{-1}\varphi (k)$ ; comme $\varphi (k)\cdot v$ = $h\cdot u$, on a $s\in$ S. Posons alors $\lambda '(z,(h, u)) =kx^{-1}_sx_{h^{-1}g}g^{-1}$; on a $\varphi (\lambda '(z,(h, u))) =$ $\varphi (k)s^{-1}h^{-1}gg^{-1}$ = $e$, donc $\lambda '(z,(h, u))\in$ N. On définit ainsi une application continue $\lambda ': Z\times_X(E_x\times M)\rightarrow N$. De plus, pour tout $z$ et $(h, u)$ comme ci-dessus, on a
+Soient $z= (k, v)\in Z$ et $(h, u)\in E_x\times M$ tels que $q(k, v) =\mu_x(h, u)$. Posons $s$ = $h^{-1}\varphi (\overline{k})$ ; comme $\varphi (\overline{k})\cdot v$ = $h\cdot u$, on a $s\in$ S. Posons alors $\lambda '(z,(h, u)) =kx^{-1}_sx_{h^{-1}g}\overline{g}^{-1}$; on a $\varphi (\lambda '(z,(h, u))) =$ $\varphi (k)s^{-1}h^{-1}gg^{-1}$ = $e$, donc $\lambda '(z,(h, u))\in$ N. On définit ainsi une application continue $\lambda ': Z\times_X(E_x\times M)\rightarrow N$. De plus, pour tout $z$ et $(h, u)$ comme ci-dessus, on a
 
 $$
-\theta (\lambda '(z,(h, u)), h\cdot u) =\pi (kx^{-1}_sx_{h^{-1}g}g^{-1}gx_{g^{-1}h}, u)
+\theta (\lambda '(z,(h, u)), h\cdot u) =\pi (kx^{-1}_sx_{h^{-1}g}\overline{g}^{-1}gx_{g^{-1}h}, u)
 $$
 
 $$
@@ -632,7 +632,7 @@ e) Démontrer qu’il existe un faisceau flasque $\mathscr{F}'$ et un morphisme 
 
 (iii) Si $V(a)$ et $V(b)$ ont un point commun, il existe $i\in I$ tel que $V(a)$ et $V(b)$ soient tous deux contenus dans $U_i$.
 
-(Introduire un recouvrement ouvert $(U'_i)_{i\in I}$ de B tel que $U'_i\subset U_i$ pour tout $i$. Construire une famille $(V(b))_{b\in B}$ vérifiant les conditions (i) et (ii) et telle que, si $V(b)$ rencontre $U'_i$, alors $b\in U'_i$. Démontrer que la propriété (iii) est alors satisfaite.)
+(Introduire un recouvrement ouvert $(U'_i)_{i\in I}$ de B tel que $\overline{U'_i}\subset U_i$ pour tout $i$. Construire une famille $(V(b))_{b\in B}$ vérifiant les conditions (i) et (ii) et telle que, si $V(b)$ rencontre $\overline{U'_i}$, alors $b\in \overline{U'_i}$. Démontrer que la propriété (iii) est alors satisfaite.)
 
 8) Soit B un espace topologique, soit $\mathscr{F}$ un préfaisceau sur B, soit $\widetilde{\mathscr{F}}$ le faisceau associé et $\sigma_{\mathscr{F}}:\mathscr{F}\rightarrow \widetilde{\mathscr{F}}$ le morphisme canonique.
 

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 315
 statements: 27
 exercises: 0
-content_sha256: 86e6e5c40b24232d71e3f95443117124cfb9d05efd48f393f1ecd889de87913a
+content_sha256: 8ae9f3b618ebca68a814b8db68dc1f380d756c9ac56c880f36553601d75c8f9c
 ---
 
 ## § 3. GROUPOÏDE DE POINCARÉ
@@ -52,11 +52,11 @@ On appelle espace des lacets de X, et on note Ω(X),le sous-espace de Λ(X) cons
 
 On note $\Omega_x(X)$ l’ensemble $\Lambda_{x,x}(X)$. Les éléments de $\Omega_x(X)$ sont appelés les lacets dans X en $x$ et les éléments de $\varpi_{x,x}(X)$ sont appelés classes de lacets dans X en $x$. L’application $e_x:\mathbf{I}\rightarrow X$ constante d’image $x$ est un lacet, appelé le lacet constant en $x$; sa classe d’homotopie stricte est notée $\varepsilon_x$. L’application $x\mapsto e_x$ de X dans Λ(X) est continue (III, p. 257, prop. 1).
 
-Soit X un espace topologique et soient $x,y,z$ des points de X. Par passage aux composantes connexes par arcs, on déduit de l’application continue $c\mapsto c$ de $\Lambda_{x,y}(X)$ dans $\Lambda_{y,x}(X)$ (III, p. 258, corollaire) une application de $\varpi_{x,y}(X)$ dans $\varpi_{y,x}(X)$ que l’on note $\gamma \mapsto \gamma$. Si $\gamma \in$ $\varpi_{x,y}(X),\gamma$ s’appelle l’inverse de la classe de chemins $\gamma$.
+Soit X un espace topologique et soient $x,y,z$ des points de X. Par passage aux composantes connexes par arcs, on déduit de l’application continue $c\mapsto \overline{c}$ de $\Lambda_{x,y}(X)$ dans $\Lambda_{y,x}(X)$ (III, p. 258, corollaire) une application de $\varpi_{x,y}(X)$ dans $\varpi_{y,x}(X)$ que l’on note $\gamma \mapsto \overline{\gamma}$. Si $\gamma \in$ $\varpi_{x,y}(X),\overline{\gamma}$ s’appelle l’inverse de la classe de chemins $\gamma$.
 
 De même, si l’on identifie les ensembles $\pi_0(\Lambda_{x,y}(X))\times \pi_0(\Lambda_{y,z}(X))$ et $\pi_0(\Lambda_{x,y}(X)\times \Lambda_{y,z}(X))$ (III, p. 260, prop. 6), on déduit de l’application continue $(c, d)\mapsto c*d$ de $\Lambda_{x,y}(X)\times \Lambda_{y,z}(X)$ dans $\Lambda_{x,z}(X)$ (III, p. 258, corollaire), par passage aux composantes connexes par arcs, une application $C_{x,y,z}:\varpi_{x,y}(X)\times \varpi_{y,z}(X)\rightarrow \varpi_{x,z}(X)$. Pour $\gamma \in \varpi_{x,y}(X)$ et $\delta \in \varpi_{y,z}(X)$, on note $\gamma \delta$ la classe d’homotopie stricte $C_{x,y,z}(\gamma , \delta )$. On l’appelle la composée des classes de chemins juxtaposables $\gamma$ et $\delta$.
 
-On a $\gamma =\gamma$ et $\gamma \delta =\delta  \gamma$.
+On a $\overline{\overline{\gamma}}=\gamma$ et $\overline{\gamma \delta}=\delta  \gamma$.
 
 #### Proposition 1 {#ta-iii-s3-prop-1 .statement tag=01YH}
 
@@ -67,7 +67,7 @@ $$
 $$
 
 $$
-\gamma_1\gamma_1=\varepsilon_x,\gamma_1\gamma_1=\varepsilon_y \tag{2}
+\gamma_1\overline{\gamma}_1=\varepsilon_x,\overline{\gamma}_1\gamma_1=\varepsilon_y \tag{2}
 $$
 
 $$
@@ -118,7 +118,7 @@ $$
 
 $c_1(2(1-t)s)$ pour $1/2\leqslant t\leqslant 1$
 
-est continue ; c’est une homotopie stricte reliant le chemin $e_x$ au chemin $c_1*c_1$, d’où la première égalité de (2). La seconde résulte de la première et du fait que, pour tout chemin $c$, on a $c=c$.
+est continue ; c’est une homotopie stricte reliant le chemin $e_x$ au chemin $c_1*\overline{c_1}$, d’où la première égalité de (2). La seconde résulte de la première et du fait que, pour tout chemin $c$, on a $c=\overline{\overline{c}}$.
 
 #### Remarque 1 {#ta-iii-s3-n1-rem-1 .statement tag=01YI}
 
@@ -128,9 +128,9 @@ $$
 c_1*(c_2*(\cdots  *(c_{n-1}*c_n). . .))
 $$
 
-et $c'$ le chemin défini par $c'(t) =c_i(nt-i+ 1)$ pour $1\leqslant i\leqslant n$ et $t\in [^{i-1}_n,_n^i]$. Les chemins $c$ et $c'$ ont même image et sont strictement homotopes : l’un est le composé de l’autre avec un homéomorphisme de $\mathbf{I}$ laissant fixes 0 et 1 (cf. III, p. 289, exemple). On notera parfois $c_1*c_2* \cdots  *c_n$ le chemin $c'$.
+et $c'$ le chemin défini par $c'(t) =c_i(nt-i+ 1)$ pour $1\leqslant i\leqslant n$ et $t\in [\frac{i-1}{n},\frac{i}{n}]$. Les chemins $c$ et $c'$ ont même image et sont strictement homotopes : l’un est le composé de l’autre avec un homéomorphisme de $\mathbf{I}$ laissant fixes 0 et 1 (cf. III, p. 289, exemple). On notera parfois $c_1*c_2* \cdots  *c_n$ le chemin $c'$.
 
-Il existe un unique graphe orienté $\varpi (X)$ dont l’ensemble des sommets est X et dont l’ensemble des flèches reliant un point $x$ à un point $y$ est $\varpi_{x,y}(X)$, et dans lequel les applications $C_{x,y,z}$ définissent une loi de composition. D’après la proposition $1,\varpi (X)$ est un groupoïde (II, p. 162, déf. 4). Pour tout $x\in X$, l’élément neutre en le sommet $x$ de ce groupoïde est la classe du lacet constant d’image $x$. L’inverse d’une flèche $\gamma$ est la flèche $\gamma$ que nous noterons aussi $\gamma^{-1}$. En particulier, la loi de composition $C_{x,x,x}$ munit, pour tout $x\in X$, l’ensemble $\varpi_{x,x}(X)$ d’une structure de groupe ; on note ce groupe $\pi_1(X, x)$.
+Il existe un unique graphe orienté $\varpi (X)$ dont l’ensemble des sommets est X et dont l’ensemble des flèches reliant un point $x$ à un point $y$ est $\varpi_{x,y}(X)$, et dans lequel les applications $C_{x,y,z}$ définissent une loi de composition. D’après la proposition $1,\varpi (X)$ est un groupoïde (II, p. 162, déf. 4). Pour tout $x\in X$, l’élément neutre en le sommet $x$ de ce groupoïde est la classe du lacet constant d’image $x$. L’inverse d’une flèche $\gamma$ est la flèche $\overline{\gamma}$ que nous noterons aussi $\gamma^{-1}$. En particulier, la loi de composition $C_{x,x,x}$ munit, pour tout $x\in X$, l’ensemble $\varpi_{x,x}(X)$ d’une structure de groupe ; on note ce groupe $\pi_1(X, x)$.
 
 #### Définition 3 {#ta-iii-s3-def-3 .statement tag=01YJ}
 
@@ -352,13 +352,13 @@ Soit $\varphi$ l’application canonique de $\mathbf{R}$ sur $\mathbf{T}=\mathbf
 
 Soit X un espace topologique connexe par arcs et soit $x$ un point de X.
 
-a) Tout lacet dans X est librement homotope à un lacet en $x$. Plus précisément, si $c$ est un lacet en $y$ et $d$ un chemin d’origine $y$ et de terme $x,c$ est librement homotope au lacet $(d*c)*d$ en $x$.
+a) Tout lacet dans X est librement homotope à un lacet en $x$. Plus précisément, si $c$ est un lacet en $y$ et $d$ un chemin d’origine $y$ et de terme $x,c$ est librement homotope au lacet $(\overline{d}*c)*d$ en $x$.
 
 b) Deux lacets dans X en $x$ sont librement homotopes si et seulement si leurs classes d’homotopie stricte sont conjuguées dans le groupe $\pi_1(X, x)$.
 
-Démontrons a). Pour tout $s\in [0,1]$, notons $d_s$ le chemin dans X défini par $d_s(t) =d(st)$ pour $t\in \mathbf{I}$; son origine est $y$. Comme l’application $(s, t)\mapsto d(st)$ est continue, l’application $s\mapsto d_s$ de $\mathbf{I}$ dans $\mathscr{C}_c(\mathbf{I}; X)$ est continue (III, p. 257, prop. 1). L’application $s\mapsto (d_s*c)*d_s$ est alors un chemin dans Ω(X) (III, p. 257, prop. 2) reliant $(e_y*c)*e_y$ à $(d*c)*d$, d’où a).
+Démontrons a). Pour tout $s\in [0,1]$, notons $d_s$ le chemin dans X défini par $d_s(t) =d(st)$ pour $t\in \mathbf{I}$; son origine est $y$. Comme l’application $(s, t)\mapsto d(st)$ est continue, l’application $s\mapsto d_s$ de $\mathbf{I}$ dans $\mathscr{C}_c(\mathbf{I}; X)$ est continue (III, p. 257, prop. 1). L’application $s\mapsto (\overline{d_s}*c)*d_s$ est alors un chemin dans Ω(X) (III, p. 257, prop. 2) reliant $(e_y*c)*e_y$ à $(\overline{d}*c)*d$, d’où a).
 
-Soient $c$ et $c'$ deux lacets dans X en $x$. Si leurs classes d’homotopie stricte sont conjuguées dans $\pi_1(X, x)$, il existe un lacet $d$ en $x$ tel que $c'$ soit strictement homotope au lacet $(d*c)*d$. Il résulte de a) que $c$ et $c'$ sont librement homotopes. Réciproquement, supposons qu’il existe une homotopie libre $\varphi$ reliant $c$ à $c'$. Posons $d(t) =\varphi (0, t)$, on a aussi $d(t) =\varphi (1, t)$ et $d$ est un lacet en $x$. D’après le lemme 1 de III, p. 295, les lacets $c*d$ et $d*c'$ sont strictement homotopes. Les classes d’homotopie stricte de $c$ et $c'$ sont donc conjuguées dans $\pi_1(X, x)$.
+Soient $c$ et $c'$ deux lacets dans X en $x$. Si leurs classes d’homotopie stricte sont conjuguées dans $\pi_1(X, x)$, il existe un lacet $d$ en $x$ tel que $c'$ soit strictement homotope au lacet $(\overline{d}*c)*d$. Il résulte de a) que $c$ et $c'$ sont librement homotopes. Réciproquement, supposons qu’il existe une homotopie libre $\varphi$ reliant $c$ à $c'$. Posons $d(t) =\varphi (0, t)$, on a aussi $d(t) =\varphi (1, t)$ et $d$ est un lacet en $x$. D’après le lemme 1 de III, p. 295, les lacets $c*d$ et $d*c'$ sont strictement homotopes. Les classes d’homotopie stricte de $c$ et $c'$ sont donc conjuguées dans $\pi_1(X, x)$.
 
 #### Scholie {#ta-iii-s3-n3-sch-1 .statement tag=01Z4}
 

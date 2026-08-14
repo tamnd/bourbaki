@@ -25,7 +25,7 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 19
-content_sha256: 080ed78fe4283e393786a69f5de6863b5628ca664c28a58dc5e6e8995c3a102f
+content_sha256: 99dd0d98a1e424221559f5cedef378b06584a4fca7c47aa0cefacbc11693be3d
 ---
 
 ## § 3. SOUS-ESPACES INVARIANTS
@@ -48,7 +48,7 @@ Ce résultat sera démontré ultérieurement (cf. V, à paraître).
 
 ### 2. Idéaux fermés de $L^1(G)$
 
-La cotransformation de Fourier sur l’algèbre de Banach $L^1(G)$ s’identifie avec la transformation de Gelfand de $L^1(G)$ (II, p. 209). Avec cette identification, rappelons que si I est un idéal de $L^1(G)$, on note V(I) l’ensemble fermé dans $\widehat{G}$ des caractères $\chi \in \widehat{G}$ tels que, pour toute fonction $f\in I$, la cotransformation de Fourier de $f$ s’annule en $\chi ($cf. I, p. 30). Pour toute partie M de $\widehat{G}$, on note Υ(M) l’idéal fermé des $f\in L^1(G)$ telles que $\mathscr{F}_G(f)$ s’annule sur M (I, p. 30).
+La cotransformation de Fourier sur l’algèbre de Banach $L^1(G)$ s’identifie avec la transformation de Gelfand de $L^1(G)$ (II, p. 209). Avec cette identification, rappelons que si I est un idéal de $L^1(G)$, on note V(I) l’ensemble fermé dans $\widehat{G}$ des caractères $\chi \in \widehat{G}$ tels que, pour toute fonction $f\in I$, la cotransformation de Fourier de $f$ s’annule en $\chi ($cf. I, p. 30). Pour toute partie M de $\widehat{G}$, on note Υ(M) l’idéal fermé des $f\in L^1(G)$ telles que $\overline{\mathscr{F}}_G(f)$ s’annule sur M (I, p. 30).
 
 D’après la prop. 2 de II, p. 219, l’algèbre de Banach $L^1(G)$ est régulière. D’après § 5 de I, p. 88 on en déduit donc les propriétés suivantes de la transformation et de la cotransformation de Fourier :
 
@@ -68,15 +68,15 @@ Soit $g\in L^1(G)$. Il existe $g_1, g_2\in L^2(G)$ telles que $g=g_1g_2$ (on peu
 
 #### Proposition 2 {#ts-ii-s3-prop-2 .statement tag=02N5}
 
-Soit I un idéal fermé de $L^1(G)$, et soit $f\in L^1(G)$. Si $\mathscr{F}_G(f)$ s’annule sur un voisinage de V(I), alors $f$ appartient à I.
+Soit I un idéal fermé de $L^1(G)$, et soit $f\in L^1(G)$. Si $\overline{\mathscr{F}}_G(f)$ s’annule sur un voisinage de V(I), alors $f$ appartient à I.
 
-Soit $\varepsilon  >0$. Il existe une fonction $g\in L^1(G)$ telle que $\|f-f*g\|_1<$ $\varepsilon$ (prop. 8 de II, p. 211 (iv)). Soit $h\in L^1(G)$ tel que le support de $\mathscr{F}_G(h)$ est compact et $\|f\|_1\|g-h\|_1< \varepsilon$ (lemme 1). On a
+Soit $\varepsilon  >0$. Il existe une fonction $g\in L^1(G)$ telle que $\|f-f*g\|_1<$ $\varepsilon$ (prop. 8 de II, p. 211 (iv)). Soit $h\in L^1(G)$ tel que le support de $\overline{\mathscr{F}}_G(h)$ est compact et $\|f\|_1\|g-h\|_1< \varepsilon$ (lemme 1). On a
 
 $$
 \|f-f*h\|_1\leqslant \|f-f*g\|_1+\|f*(g-h)\|_1<2\varepsilon
 $$
 
-D’après l’hypothèse sur $f$, la fonction $\mathscr{F}_G(f*h) =\mathscr{F}_G(f)\mathscr{F}_G(h)$ est à support compact disjoint de V(I), ce qui implique que $f*h\in I$ (remarque 2 ci-dessus). Comme $\varepsilon$ est arbitrairement petit, on a $f\in$ I = I.
+D’après l’hypothèse sur $f$, la fonction $\overline{\mathscr{F}}_G(f*h) =\overline{\mathscr{F}}_G(f)\overline{\mathscr{F}}_G(h)$ est à support compact disjoint de V(I), ce qui implique que $f*h\in I$ (remarque 2 ci-dessus). Comme $\varepsilon$ est arbitrairement petit, on a $f\in$ I = I.
 
 #### Théorème 1 {#ts-ii-s3-thm-1 .statement tag=02N6}
 
@@ -104,7 +104,7 @@ a) Pour toute fonction $h\in L^1(G)$ telle que $\int_Gh(x)dx= 1$, la limite de $
 
 b) Supposons de plus que $g$ soit lentement oscillante suivant Φ. Alors $g$ tend vers $\alpha$ suivant Φ.
 
-En remplaçant $g$ par $g-\alpha$, on se ramène au cas où $\alpha = 0$. Soit I l’ensemble des fonctions $h\in L^1(G)$ telles que $h*g$ tende vers 0 suivant Φ. L’ensemble I est un sous-espace vectoriel de $L^1(G)$ invariant par translation. C’est un espace fermé. En effet, soit $h\in I$. Pour toute fonction $h_0\in L^1(G)$ et tout $x\in G$, on a
+En remplaçant $g$ par $g-\alpha$, on se ramène au cas où $\alpha = 0$. Soit I l’ensemble des fonctions $h\in L^1(G)$ telles que $h*g$ tende vers 0 suivant Φ. L’ensemble I est un sous-espace vectoriel de $L^1(G)$ invariant par translation. C’est un espace fermé. En effet, soit $h\in \overline{I}$. Pour toute fonction $h_0\in L^1(G)$ et tout $x\in G$, on a
 
 $$
 |(h*g)(x)|\leqslant |((h-h_0)*g)(x)|+|(h_0*g)(x)|
@@ -174,12 +174,12 @@ $$
 
 4
 
-pour tout $x\in$ K est un voisinage de $e$ dans $\widehat{G}$. Soit U $\subset U_1$ un voisinage ouvert, symétrique, et intégrable pour la mesure de Haar $m=d\widehat{x}$ de $\widehat{G}$ duale de la mesure $dx$. Soit $V\subset U$ un voisinage compact symétrique de $e$ tel que $m(V)\geqslant^1_2m(U)$. Notons $\varphi_U$ (resp. $\varphi_V)$ la fonction caractéristique de U (resp. de V). Puisque $\varphi_U$ appartient à $L^2(G)$, il existe $u\in L^2(G)$ telle que $\varphi_U=\mathscr{F}_G(u)$ (th. 1 de II, p. 215). De même, il existe une fonction $v\in L^2(G)$ telle que $\varphi_V=\mathscr{F}_G(v)$. Nous allons montrer que la fonction $j=_{m(V)}^1uv$ vérifie les propriétés demandées. On a $j\in L^1(G)$.
+pour tout $x\in$ K est un voisinage de $e$ dans $\widehat{G}$. Soit U $\subset U_1$ un voisinage ouvert, symétrique, et intégrable pour la mesure de Haar $m=d\widehat{x}$ de $\widehat{G}$ duale de la mesure $dx$. Soit $V\subset U$ un voisinage compact symétrique de $e$ tel que $m(V)\geqslant \frac{1}{2}m(U)$. Notons $\varphi_U$ (resp. $\varphi_V)$ la fonction caractéristique de U (resp. de V). Puisque $\varphi_U$ appartient à $L^2(G)$, il existe $u\in L^2(G)$ telle que $\varphi_U=\mathscr{F}_G(u)$ (th. 1 de II, p. 215). De même, il existe une fonction $v\in L^2(G)$ telle que $\varphi_V=\mathscr{F}_G(v)$. Nous allons montrer que la fonction $j=\frac{1}{m(V)}uv$ vérifie les propriétés demandées. On a $j\in L^1(G)$.
 
-a) D’après le théorème de Plancherel et la condition $m(V)\geqslant^1_2m(U)$, on a
+a) D’après le théorème de Plancherel et la condition $m(V)\geqslant \frac{1}{2}m(U)$, on a
 
 $$
-\|u\|_2\|v\|_2\|\mathscr{F}_G(u)\|_2\|\mathscr{F}_G(v)\|_2m(U)m(V)\surd
+\|u\|_2\|v\|_2\|\mathscr{F}_G(u)\|_2\|\mathscr{F}_G(v)\|_2\overline{m(U)m(V)}\surd
 $$
 
 $\|j\|_1\leqslant$ = = $\leqslant 2$.
@@ -224,7 +224,7 @@ $$
 
 $_{\widehat{G}}$ 4
 
-puisque $U\subset U_1$, et de même $\|v-v*\varepsilon_x\|^2_2\leqslant m(V)^{\eta}_4^2$. Donc
+puisque $U\subset U_1$, et de même $\|v-v*\varepsilon_x\|^2_2\leqslant m(V)\frac{\eta}{4}^2$. Donc
 
 1
 
@@ -249,7 +249,7 @@ $$
 $$
 
 $$
-\eta m(U)m(V)
+\eta \overline{m(U)m(V)}
 $$
 
 = $< \eta$.
@@ -264,7 +264,7 @@ L’algèbre $L^1(G)$ vérifie la condition de Ditkin (I, p. 92, déf. 2).
 
 Soit $\chi$ un caractère de $L^1(G)$. Distinguons deux cas suivant que $\chi$ est nul ou non. Si $\chi$ est nul, il faut vérifier que pour toute fonction $f\in L^1(G)$, il existe une suite $(f_n)_{n\geqslant 1}$ dans $L^1(G)$ telle que $\mathscr{F}(f_n)$ s’annule hors d’une partie compacte de $\widehat{G}$ et telle que $f_n*f$ tende vers $f$ dans $L^1(G)$. L’existence d’une telle suite résulte du lemme 1 ci-dessus et de la prop. 8 de II, p. 211.
 
-Supposons maintenant que $\chi$ est non nul, donc $\chi \in \mathsf{X}(L^1(G)) =\widehat{G}$ (prop. 1 de II, p. 202). Soit $f\in L^1(G)$ telle que $\mathscr{G}_{L^1(G)}(f)(\chi ) =$ $\mathscr{F}(f)(\chi ) = 0$. Il s’agit de prouver l’existence d’une suite $(f_n)_{n\geqslant 1}$ dans $L^1(G)$ telle que $f*f_n$ converge vers $f$ dans $L^1(G)$ et telle que $\mathscr{F}(f_n)$ s’annule au voisinage de $\chi$. On peut supposer que $\|f\|_1= 1$. Par translation dans $\widehat{G}$, on se ramène au cas où $\chi =e$.
+Supposons maintenant que $\chi$ est non nul, donc $\chi \in \mathsf{X}(L^1(G)) =\widehat{G}$ (prop. 1 de II, p. 202). Soit $f\in L^1(G)$ telle que $\mathscr{G}_{L^1(G)}(f)(\chi ) =$ $\overline{\mathscr{F}}(f)(\chi ) = 0$. Il s’agit de prouver l’existence d’une suite $(f_n)_{n\geqslant 1}$ dans $L^1(G)$ telle que $f*f_n$ converge vers $f$ dans $L^1(G)$ et telle que $\overline{\mathscr{F}}(f_n)$ s’annule au voisinage de $\chi$. On peut supposer que $\|f\|_1= 1$. Par translation dans $\widehat{G}$, on se ramène au cas où $\chi =e$.
 
 Soit $K_n$ une partie compacte de G telle que
 
@@ -366,13 +366,13 @@ Soit W un sous-espace vectoriel faiblement fermé de $L^{\infty}(G)$. Supposons 
 
 Si W est un sous-espace vectoriel de $L^{\infty}(G)$ faiblement fermé et invariant par translation, nous noterons A(W) l’ensemble des caractères $\chi \in \widehat{G}$ qui appartiennent à W. C’est une partie fermée de $\widehat{G}$. Si F est une partie fermée de $\widehat{G}$, nous noterons Y(F) le sous-espace vectoriel faiblement fermé de $L^{\infty}(G)$ engendré par les éléments de F; comme toute translation de G transforme chaque caractère en une fonction proportionnelle à ce caractère, l’espace Y(F) est invariant par translation.
 
-Soit W un sous-espace faiblement fermé de $L^{\infty}(G)$ invariant par les translations de G. D’après le théorème des bipolaires (EVT, II, p. 48, th. 1), un caractère $\chi$ appartient à W si et seulement si il appartient à $(W^{\circ})^{\circ}$; ce dernier espace est l’ensemble des fonctions $g\in L^{\infty}(G)$ telles que $\langle f, g\rangle = 0$ pour $f\in W^{\circ}$. On a $\langle f, \chi \rangle =\mathscr{F}(f)(\chi )$, et donc
+Soit W un sous-espace faiblement fermé de $L^{\infty}(G)$ invariant par les translations de G. D’après le théorème des bipolaires (EVT, II, p. 48, th. 1), un caractère $\chi$ appartient à W si et seulement si il appartient à $(W^{\circ})^{\circ}$; ce dernier espace est l’ensemble des fonctions $g\in L^{\infty}(G)$ telles que $\langle f, g\rangle = 0$ pour $f\in W^{\circ}$. On a $\langle f, \chi \rangle =\overline{\mathscr{F}}(f)(\chi )$, et donc
 
 $$
 A(W) = V(W^{\circ})
 $$
 
-Similairement, une fonction $f\in L^1(G)$ appartient à $Y(F)^{\circ}$ si et seulement $\langle f, \chi \rangle = 0$ pour tout $\chi \in F$, ce qui équivaut à $\mathscr{F}(f)(\chi ) = 0$ pour $\chi \in F$, c’est-à-dire à $f\in \Upsilon (F)$. Donc (loc. cit.) on a
+Similairement, une fonction $f\in L^1(G)$ appartient à $Y(F)^{\circ}$ si et seulement $\langle f, \chi \rangle = 0$ pour tout $\chi \in F$, ce qui équivaut à $\overline{\mathscr{F}}(f)(\chi ) = 0$ pour $\chi \in F$, c’est-à-dire à $f\in \Upsilon (F)$. Donc (loc. cit.) on a
 
 $$
 Y(F) = \Upsilon (F)^{\circ}
@@ -398,7 +398,7 @@ a) Quel que soit le voisinage U de A(W) dans $\widehat{G}$, toute fonction de W 
 
 b) Si la frontière de A(W) ne contient aucun ensemble parfait non vide, toute fonction de W est limite faible de combinaisons linéaires de caractères appartenant à W.
 
-Pour prouver a), il suffit par le théorème des bipolaires de montrer que si $f$ est une fonction de $L^1(G)$ orthogonale aux éléments de U, alors $f$ est orthogonale à W. Or, la cotransformée de Fourier $\mathscr{F}(f)$ s’annule alors sur le voisinage U de $A(W) = V(W^{\circ})$, de sorte que la prop. 2 de II, p. 252 montre effectivement que $f\in W^{\circ}$. L’assertion b) s’établit de manière analogue, en employant le th. 2 de II, p. 257 au lieu de la prop. 2 de II, p. 252.
+Pour prouver a), il suffit par le théorème des bipolaires de montrer que si $f$ est une fonction de $L^1(G)$ orthogonale aux éléments de U, alors $f$ est orthogonale à W. Or, la cotransformée de Fourier $\overline{\mathscr{F}}(f)$ s’annule alors sur le voisinage U de $A(W) = V(W^{\circ})$, de sorte que la prop. 2 de II, p. 252 montre effectivement que $f\in W^{\circ}$. L’assertion b) s’établit de manière analogue, en employant le th. 2 de II, p. 257 au lieu de la prop. 2 de II, p. 252.
 
 # Exercices
 

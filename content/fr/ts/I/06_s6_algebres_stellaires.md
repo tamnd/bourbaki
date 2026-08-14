@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: 70259e73d7fcd31e5d8459d78f75a02de2fc751943cf9e78c71a768dd47e990a
+content_sha256: 5f8360b77b422b55767eb7c848c7eac622e1059b8c13e2f313a640207549f491
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -128,7 +128,7 @@ Soit A une algèbre involutive. On dit que $x^*$ est l’adjoint de $x$. Une par
 
 Un élément $x\in A$ est dit hermitien si $x=x^*$ et normal si $xx^*=$ $x^*x$. Cette terminologie généralise celle de A, IX, § 7, n$^o3$. Tout élément hermitien est normal, tout élément unitaire est normal. L’ensemble $A_h$ des éléments hermitiens de A est un sous-espace vectoriel réel de A. Si $x$ et $y$ sont hermitiens et permutables, on a $(xy)^*$ = $y^*x^*=yx=xy$, donc $xy$ est hermitien. Pour tout $x\in A$, les éléments $xx^*$ et $x^*x$ de A sont hermitiens.
 
-Si $A =\mathbf{C}$ muni de l’involution $z\mapsto z$, on a $A_h=\mathbf{R}$.
+Si $A =\mathbf{C}$ muni de l’involution $z\mapsto \overline{z}$, on a $A_h=\mathbf{R}$.
 
 #### Lemme 2 {#ts-i-s6-lem-2 .statement tag=02CL}
 
@@ -162,7 +162,7 @@ Soient A une algèbre involutive et B une sous-algèbre involutive commutative m
 
 En effet, soit $x\in A$ un élément permutable à B. Alors $x^*$ est permutable à B. Écrivons $x=x_1+ix_2$ avec $x_1$ et $x_2$ hermitiens ; les éléments $x_1$ et $x_2$ sont permutables à B (lemme 2). La sous-algèbre de A engendrée par B et $x_1$ est donc commutative et involutive. Par conséquent, elle est égale à B, de sorte que $x_1\in B$. De même, on a $x_2\in B$, et donc finalement $x\in B$.
 
-Soit A une algèbre involutive. Si $f$ est une forme linéaire sur A, l’application $x\mapsto f(x^*)$ sur A est une forme linéaire sur A, que l’on note $f^*$. L’application $f\mapsto f^*$ est une involution semi-linéaire sur $A'$. On dit que $f$ est hermitienne si $f=f^*$. D’après le lemme 1 de I, p. 95, toute forme linéaire $f$ sur A a une unique représentation $f=f_1+if_2$ où $f_1$ et $f_2$ sont hermitiennes, à savoir $f_1=^1_2(f+f^*)$ et $f_2=_{2i}^1(f-f^*)$.
+Soit A une algèbre involutive. Si $f$ est une forme linéaire sur A, l’application $x\mapsto f(x^*)$ sur A est une forme linéaire sur A, que l’on note $f^*$. L’application $f\mapsto f^*$ est une involution semi-linéaire sur $A'$. On dit que $f$ est hermitienne si $f=f^*$. D’après le lemme 1 de I, p. 95, toute forme linéaire $f$ sur A a une unique représentation $f=f_1+if_2$ où $f_1$ et $f_2$ sont hermitiennes, à savoir $f_1=\frac{1}{2}(f+f^*)$ et $f_2=\frac{1}{2i}(f-f^*)$.
 
 Pour qu’une forme linéaire $f$ soit hermitienne, il faut et il suffit que la restriction de $f$ à $A_h$ soit à valeurs réelles (proposition 1 de I, p. 95). L’application $f\mapsto f|A_h$ est un isomorphisme de l’espace vectoriel réel des formes hermitiennes sur l’espace vectoriel dual de l’espace vectoriel réel $A_h$.
 
@@ -177,18 +177,18 @@ Soit A une algèbre involutive commutative. La transformation de Gelfand de A da
 En effet, dire que $\mathscr{G}_A$ est un morphisme d’algèbres involutives revient à dire que, pour tous $x\in A$ et $\chi \in \mathsf{X}(A)$, on a
 
 $$
-\chi (x^*) =\mathscr{G}_A(x^*)(\chi ) =\mathscr{G}_A(x)(\chi ) =\chi (x)
+\chi (x^*) =\mathscr{G}_A(x^*)(\chi ) =\mathscr{G}_A(x)(\chi ) =\overline{\chi(x)}
 $$
 
 c’est-à-dire que tout $\chi$ est hermitien.
 
 #### Exemple 1 {#ts-i-s6-n2-exa-1 .statement tag=02CO}
 
-Soit A l’algèbre des fonctions à valeurs complexes sur un ensemble X. L’application $f\mapsto f$ est une involution dans A. La sous-algèbre des fonctions bornées dans X est une sous-algèbre involutive de A. Si X est un espace topologique localement compact, les sous-algèbres $\mathscr{C}(X),\mathscr{C}_b(X),\mathscr{C}_0(X)$ et $\mathscr{K}(X)$ sont des sous-algèbres involutives de A.
+Soit A l’algèbre des fonctions à valeurs complexes sur un ensemble X. L’application $f\mapsto \overline{f}$ est une involution dans A. La sous-algèbre des fonctions bornées dans X est une sous-algèbre involutive de A. Si X est un espace topologique localement compact, les sous-algèbres $\mathscr{C}(X),\mathscr{C}_b(X),\mathscr{C}_0(X)$ et $\mathscr{K}(X)$ sont des sous-algèbres involutives de A.
 
 #### Exemple 2 {#ts-i-s6-n2-exa-2 .statement tag=02CP}
 
-Soient X un espace topologique localement compact et $\mu$ une mesure positive sur X. L’application $f\mapsto f$ est une involution sur l’algèbre $\mathscr{L}^{\infty}(X, \mu)$ ; elle induit par passage au quotient une involution sur l’algèbre unifère $L^{\infty}(X, \mu)$.
+Soient X un espace topologique localement compact et $\mu$ une mesure positive sur X. L’application $f\mapsto \overline{f}$ est une involution sur l’algèbre $\mathscr{L}^{\infty}(X, \mu)$ ; elle induit par passage au quotient une involution sur l’algèbre unifère $L^{\infty}(X, \mu)$.
 
 #### Exemple 3 {#ts-i-s6-n2-exa-3 .statement tag=02CQ}
 
@@ -202,11 +202,11 @@ L’application $x\mapsto x^{-1}$ de G sur G transforme toute mesure $\mu\in$ $\
 
 L’ensemble A des mesures bornées admettant une densité par rapport à une mesure de Haar est une sous-algèbre fermée de $\mathscr{M}^1(G)$ stable par l’involution (cf. INT, VIII, §4, n$^o5)$; elle ne dépend pas du choix d’une mesure de Haar.
 
-Soit $\nu$ une mesure de Haar à gauche sur G et notons Δ le module de G. On munit $L^1(G, \nu )$ du produit $(f, g)\mapsto f*^{\nu}g$ et de l’involution $f\mapsto f^*=\widetilde{f}\cdot \Delta^{-1}$, où $\widetilde{f}(x) =f(x^{-1})$ pour tout $x\in G$. Alors l’application $f\mapsto f\cdot \nu$ est un isomorphisme de l’algèbre involutive $L^1(G, \nu )$ sur A. Cet isomorphisme est isométrique. En particulier, $L^1(G, \nu )$ s’identifie à une sous-algèbre involutive de $\mathscr{M}^1(G)$.
+Soit $\nu$ une mesure de Haar à gauche sur G et notons Δ le module de G. On munit $L^1(G, \nu )$ du produit $(f, g)\mapsto f*^{\nu}g$ et de l’involution $f\mapsto f^*=\widetilde{f}\cdot \Delta^{-1}$, où $\widetilde{f}(x) =\overline{f(x^{-1})}$ pour tout $x\in G$. Alors l’application $f\mapsto f\cdot \nu$ est un isomorphisme de l’algèbre involutive $L^1(G, \nu )$ sur A. Cet isomorphisme est isométrique. En particulier, $L^1(G, \nu )$ s’identifie à une sous-algèbre involutive de $\mathscr{M}^1(G)$.
 
 #### Exemple 5 {#ts-i-s6-n2-exa-5 .statement tag=02CS}
 
-Soit U une partie ouverte de $\mathbf{C}$ stable par la conjugaison complexe. Considérons l’algèbre $\mathscr{O}(U)$ des fonctions holomorphes à valeurs complexes sur U. Pour toute fonction $f\in \mathscr{O}(U)$, l’application $f^*:z\mapsto f(z)$ est une fonction holomorphe sur U. L’application $f\mapsto f^*$ est une involution sur $\mathscr{O}(U)$.
+Soit U une partie ouverte de $\mathbf{C}$ stable par la conjugaison complexe. Considérons l’algèbre $\mathscr{O}(U)$ des fonctions holomorphes à valeurs complexes sur U. Pour toute fonction $f\in \mathscr{O}(U)$, l’application $f^*:z\mapsto f(\overline{z})$ est une fonction holomorphe sur U. L’application $f\mapsto f^*$ est une involution sur $\mathscr{O}(U)$.
 
 Similairement, soit S une partie compacte de $\mathbf{C}$ stable par la conjugaison complexe. Considérons l’algèbre $\mathscr{O}(S)$ des germes de fonctions holomorphes à valeurs complexes au voisinage de S. L’application $f\mapsto f^*$ est une involution sur $\mathscr{O}(S)$.
 
@@ -224,7 +224,7 @@ Soit X un espace topologique localement compact. L’algèbre de Banach $\mathsc
 
 $x\in X$
 
-$f\mapsto f$, est une algèbre de Banach involutive. La sous-algèbre $\mathscr{C}_0(X)$ des fonctions continues tendant vers 0 à l’infini est une sous-algèbre involutive fermée de $\mathscr{C}_b(X)$.
+$f\mapsto \overline{f}$, est une algèbre de Banach involutive. La sous-algèbre $\mathscr{C}_0(X)$ des fonctions continues tendant vers 0 à l’infini est une sous-algèbre involutive fermée de $\mathscr{C}_b(X)$.
 
 #### Exemple 2 {#ts-i-s6-n3-exa-2 .statement tag=02CV}
 
@@ -264,7 +264,7 @@ Si A est une algèbre normée involutive, l’ensemble $A_h$ des éléments herm
 
 Soit A une algèbre normée involutive. Pour toute forme linéaire $f$ continue sur A, on a $\|f^*\|=\|f\|$. Si de plus $f$ est hermitienne, alors $\|f\|=\|f|A_h\|$.
 
-La première assertion découle des définitions. Pour la seconde, notons $g$ la restriction de $f$ à $A_h$. On a $\|f\|\geqslant \|g\|$. Montrons l’inégalité réciproque. Pour tout $\varepsilon  >$ 0, il existe $x\in$ A tel que $\|x\|\leqslant 1$ et $|f(x)|\geqslant \|f\| -\varepsilon$. En multipliant $x$ par un nombre complexe de module 1, on peut supposer $f(x)\geqslant 0$. Alors l’élément $^1_2(x+x^*)$ appartient à $A_h$ et est de norme $\leqslant 1$. On a
+La première assertion découle des définitions. Pour la seconde, notons $g$ la restriction de $f$ à $A_h$. On a $\|f\|\geqslant \|g\|$. Montrons l’inégalité réciproque. Pour tout $\varepsilon  >$ 0, il existe $x\in$ A tel que $\|x\|\leqslant 1$ et $|f(x)|\geqslant \|f\| -\varepsilon$. En multipliant $x$ par un nombre complexe de module 1, on peut supposer $f(x)\geqslant 0$. Alors l’élément $\frac{1}{2}(x+x^*)$ appartient à $A_h$ et est de norme $\leqslant 1$. On a
 
 1 $_*$ 1 $*$
 
@@ -416,7 +416,7 @@ Supposons d’abord que A possède un élément unité $e$. Le produit des algè
 
 Supposons désormais que A ne possède pas d’élément unité. Pour tout $x\in \widetilde{A}$, soit $\boldsymbol{\gamma }_x$ l’opérateur de multiplication $y\mapsto xy$ de A dans A, et posons $\|x\|_{\widetilde{A}}=\|\boldsymbol{\gamma }_x\|$. L’application $x\mapsto  \|x\|_{\widetilde{A}}$ est une semi-norme sur $\widetilde{A}$. Pour tous $x$ et $x'$ de $\widetilde{A}$, on a $\|xx'\|_{\widetilde{A}}\leqslant \|x\|_{\widetilde{A}}\|x'\|_{\widetilde{A}}$. De plus, d’après le lemme 7, on a $\|x\|_{\widetilde{A}}=\|x\|$ pour tout $x\in A$.
 
-Montrons que l’application $x\mapsto  \|x\|_{\widetilde{A}}$ est une norme sur $\widetilde{A}$. Soient $\lambda \in \mathbf{C}$ et $x\in A$ tels que $\|\lambda \widetilde{e}+x\|_{\widetilde{A}}$ = 0. Si $\lambda \not= 0$, la condition $(\lambda \widetilde{e}+x)y= 0$ pour tout $y\in A$ implique que $-\lambda^{-1}x$ est un élément unité à gauche dans A. De même, l’élément $-\lambda^{-1}x^*$ est un élément unité à droite. Ainsi, l’algèbre A possèderait alors un élément unité, contrairement à l’hypothèse. On a donc $\lambda = 0$. Mais alors $0 =\|x\|_{\widetilde{A}}=$ $\|x\|$, et donc $x= 0$.
+Montrons que l’application $x\mapsto  \|x\|_{\widetilde{A}}$ est une norme sur $\widetilde{A}$. Soient $\lambda \in \mathbf{C}$ et $x\in A$ tels que $\|\lambda \widetilde{e}+x\|_{\widetilde{A}}$ = 0. Si $\lambda \not= 0$, la condition $(\lambda \widetilde{e}+x)y= 0$ pour tout $y\in A$ implique que $-\lambda^{-1}x$ est un élément unité à gauche dans A. De même, l’élément $-\overline{\lambda}^{-1}x^*$ est un élément unité à droite. Ainsi, l’algèbre A possèderait alors un élément unité, contrairement à l’hypothèse. On a donc $\lambda = 0$. Mais alors $0 =\|x\|_{\widetilde{A}}=$ $\|x\|$, et donc $x= 0$.
 
 Comme A est complet et de codimension 1 dans $\widetilde{A}$, l’espace $\widetilde{A}$ muni de la norme $x\mapsto  \|x\|_{\widetilde{A}}$ est complet. Pour conclure, il est donc suffisant de montrer que l’on a $\|x\|^2_{\widetilde{A}}\leqslant \|x^*x\|_{\widetilde{A}}$ pour tout $x\in \widetilde{A}$ (lemme 6). On peut supposer que $\|x\|_{\widetilde{A}}= 1$. Pour tout nombre réel $r <1$, il existe donc $y\in A$ tel que $\|y\|=\|y^*\|\leqslant 1$ et $\|xy\|^2\geqslant r$. Comme $xy\in A$, on a
 
@@ -509,7 +509,7 @@ La transformation de Gelfand est un morphisme d’algèbres involutives de A dan
 Pour tout élément hermitien $y$ de A, on a $\|\mathscr{G}(y)\|=\varrho (y) =\|y\|$ (prop. 7 de I, p. 38 et formule (2) de I, p. 104), d’où, pour tout $x\in A$, les égalités
 
 $$
-\|x\|^2=\|x^*x\|=\|\mathscr{G}(x^*x)\|=\|\mathscr{G}(x)\cdot \mathscr{G}(x)\|=\|\mathscr{G}(x)\|^2
+\|x\|^2=\|x^*x\|=\|\mathscr{G}(x^*x)\|=\|\overline{\mathscr{G} (x)}\cdot \mathscr{G}(x)\|=\|\mathscr{G}(x)\|^2
 $$
 
 Ainsi $\mathscr{G}$ est isométrique, et son image B est donc fermée (lemme 8). On conclut que $B =\mathscr{C}_0(\mathsf{X}(A))$.
@@ -576,7 +576,7 @@ Supposons qu’il existe $\lambda \in \mathbf{C}$ tel que Sp$_A(x)$ est réduit 
 
 #### Exemple 2 {#ts-i-s6-n6-exa-2 .statement tag=02DX}
 
-Pour que $x$ soit hermitien, il faut et il suffit que Sp$_A(x)$ soit contenu dans $\mathbf{R}$. En effet, soit $f$ l’application continue sur Sp$_A(x)$ donnée par $f(z) =z-z$. Alors $x$ est hermitien si et seulement si $f(x) = 0$, c’est-à-dire si $f$ est nulle, c’est-à-dire si Sp$_A(x)$ est contenu dans $\mathbf{R}$.
+Pour que $x$ soit hermitien, il faut et il suffit que Sp$_A(x)$ soit contenu dans $\mathbf{R}$. En effet, soit $f$ l’application continue sur Sp$_A(x)$ donnée par $f(z) =z-\overline{z}$. Alors $x$ est hermitien si et seulement si $f(x) = 0$, c’est-à-dire si $f$ est nulle, c’est-à-dire si Sp$_A(x)$ est contenu dans $\mathbf{R}$.
 
 #### Exemple 3 {#ts-i-s6-n6-exa-3 .statement tag=02DY}
 
@@ -586,7 +586,7 @@ Pour que $x$ soit unitaire, il faut et il suffit que son spectre soit contenu da
 
 L’application $f\mapsto f(x)$ est l’unique morphisme unifère d’algèbres involutives de $\mathscr{C}$ (Sp$_A(x))$ dans A tel que l’application identique $z$ de Sp$_A(x)$ ait pour image $x$.
 
-En effet, la sous-algèbre unifère de $\mathscr{C}$ (Sp$_A(x))$ engendrée par les éléments $z$ et $z$ de $\mathscr{C}$(Sp$_A(x))$ est dense dans $\mathscr{C}$ (Sp$_A(x))$ (TG, X, p. 40, cor. 1). Puisque tout morphisme d’algèbres involutives de $\mathscr{C}$ (Sp$_A(x))$ dans A est continu (I, p. 104, prop. 2), il existe au plus un morphisme d’algèbres involutives de $\mathscr{C}$(Sp$_A(x))$ dans A qui applique $z$ sur $x$.
+En effet, la sous-algèbre unifère de $\mathscr{C}$ (Sp$_A(x))$ engendrée par les éléments $z$ et $\overline{z}$ de $\mathscr{C}$(Sp$_A(x))$ est dense dans $\mathscr{C}$ (Sp$_A(x))$ (TG, X, p. 40, cor. 1). Puisque tout morphisme d’algèbres involutives de $\mathscr{C}$ (Sp$_A(x))$ dans A est continu (I, p. 104, prop. 2), il existe au plus un morphisme d’algèbres involutives de $\mathscr{C}$(Sp$_A(x))$ dans A qui applique $z$ sur $x$.
 
 Le corollaire suivant montre que lorsque $f$ est la restriction d’une fonction holomorphe au voisinage de Sp$_A(x)$, la définition de $f(x)$ coïn-cide avec celle du calcul fonctionnel holomorphe en une variable du numéro 9 de I, p. 74.
 
@@ -674,7 +674,7 @@ Soit $f\in \mathscr{C}$ (Sp$'_A(x))$. Comme $\pi (f(x)) =f(\pi (x))$ (prop. 8 de
 
 L’application $f\mapsto f(x)$ est l’unique morphisme d’algèbres involutives de l’algèbre stellaire $\mathscr{C}'$(Sp$'_A(x))$ dans A tel que l’application identique $z$ de Sp$'_A(x)$ ait pour image $x$.
 
-Les éléments $z$ et $z$ de $\mathscr{C}'$(Sp$'_A(x))$ engendrent une sous-algèbre dense de $\mathscr{C}'$(Sp$'_A(x))$ (cf. TG, X, p. 40, cor. 2). Puisque tout morphisme d’algèbres involutives de l’algèbre stellaire $\mathscr{C}'$(Sp$'_A(x))$ dans l’algèbre stellaire A est continu (I, p. 104, prop. 2), le résultat en découle.
+Les éléments $z$ et $\overline{z}$ de $\mathscr{C}'$(Sp$'_A(x))$ engendrent une sous-algèbre dense de $\mathscr{C}'$(Sp$'_A(x))$ (cf. TG, X, p. 40, cor. 2). Puisque tout morphisme d’algèbres involutives de l’algèbre stellaire $\mathscr{C}'$(Sp$'_A(x))$ dans l’algèbre stellaire A est continu (I, p. 104, prop. 2), le résultat en découle.
 
 Les résultats du numéro précédent concernant le calcul fonctionnel s’étendent au cas général. Nous les énoncerons simplement et laisserons aux lecteurs le soin de compléter les démonstrations, mutatis mutandis.
 
@@ -742,7 +742,7 @@ Soit $\widetilde{A}$ l’algèbre stellaire déduite de A par adjonction d’un 
 
 On a $0\in A_+$. Pour tout $\lambda \in \mathbf{R}_+^*$ et tout $x\in A$, on a Sp$'_A(\lambda x) =$ $\lambda$ Sp$'_A(x)$, ce qui implique que $A_+$ est un cône dans l’espace de Banach réel $A_h$.
 
-Pour montrer que $A_+$ est convexe, il suffit de montrer que si $x$ et $y$ sont positifs, alors $x+y\geqslant 0$ (EVT, II, p. 11, prop. 10). Par homothétie, il suffit de démontrer que si $x\geqslant 0$ et $y\geqslant 0$ vérifient de plus $\|x\|\leqslant 1$, $\|y\|\leqslant 1$, alors l’élément $^1_2(x+y)$ est positif. Or on a
+Pour montrer que $A_+$ est convexe, il suffit de montrer que si $x$ et $y$ sont positifs, alors $x+y\geqslant 0$ (EVT, II, p. 11, prop. 10). Par homothétie, il suffit de démontrer que si $x\geqslant 0$ et $y\geqslant 0$ vérifient de plus $\|x\|\leqslant 1$, $\|y\|\leqslant 1$, alors l’élément $\frac{1}{2}(x+y)$ est positif. Or on a
 
 1 1 1
 
@@ -752,7 +752,7 @@ $$
 
 2 2 2
 
-d’après l’assertion b) du lemme 12, et cette même assertion montre alors que $^1_2(x+y)$ est positif.
+d’après l’assertion b) du lemme 12, et cette même assertion montre alors que $\frac{1}{2}(x+y)$ est positif.
 
 Enfin, l’assertion a) du lemme 12 implique également que $A_+$ est fermé.
 
@@ -816,9 +816,9 @@ On a vu ci-dessus que $x^{1/\alpha}$ vérifie les propriétés demandées. Inver
 
 Soit A une algèbre stellaire unifère. Tout élément de A est somme d’éléments unitaires.
 
-Soit $x$ un élément hermitien de A. Supposons d’abord que $\|x\|\leqslant 2$. D’après le lemme 12, c), on a $1-^1_4x^2\in A_+$. Soit $y=^1_2x+i1-^1_4x^2$.
+Soit $x$ un élément hermitien de A. Supposons d’abord que $\|x\|\leqslant 2$. D’après le lemme 12, c), on a $1-\frac{1}{4}x^2\in A_+$. Soit $y=\frac{1}{2}x+i1-\frac{1}{4}x^2$.
 
-On a $y^*=^1_2x-i1-^1_4x^2$, donc $yy^*= 1$ et $x=y+y^*$ est somme de deux éléments unitaires. Dans le cas général, soit $k$ un entier tel que $\|^1_kx\|\leqslant 2$ ; l’élément $x$ est alors somme de $2k$ éléments unitaires. D’après le lemme 2 de I, p. 96, le lemme en résulte.
+On a $y^*=\frac{1}{2}x-i1-\frac{1}{4}x^2$, donc $yy^*= 1$ et $x=y+y^*$ est somme de deux éléments unitaires. Dans le cas général, soit $k$ un entier tel que $\|\frac{1}{k}x\|\leqslant 2$ ; l’élément $x$ est alors somme de $2k$ éléments unitaires. D’après le lemme 2 de I, p. 96, le lemme en résulte.
 
 #### Théorème 2 {#ts-i-s6-thm-2 .statement tag=02EL}
 

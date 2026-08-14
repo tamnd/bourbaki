@@ -29,7 +29,7 @@ subsections:
       pdf_page: 29
 statements: 40
 exercises: 16
-content_sha256: 3de96c51065d84f5de18528f2c64ead7198e0a21121822fb94978cb7570089d5
+content_sha256: 4c7c3f9cdbe37aff4a59d4c286ec8409b5ba3c0c1a54d4fae5ab04b51ca00829
 ---
 
 ## § 2. CARTAN SUBALGEBRAS AND REGULAR ELEMENTS OF A LIE ALGEBRA
@@ -198,7 +198,7 @@ If the characteristic of $k$ is $\not= 2$, then rk($\mathfrak{g}$) $= 1$ and the
 
 #### Example 3 {#lie-vii-s2-n2-exa-3 .statement tag=00U6}
 
-Let V be a vector space of finite dimension $n$, and $\mathfrak{g}=\mathfrak{g}\mathfrak{l}(V)$. Let $k$ be an algebraic closure of $k$. Let $x\in \mathfrak{g}$, and let $\lambda_1, . . . , \lambda_n$ be the roots in $k$ of the characteristic polynomial of $x$ (each root being written a number of times equal to its multiplicity). The canonical isomorphism from $V^*\otimes V$ to $\mathfrak{g}$ is compatible with the $\mathfrak{g}$-module structures of these two spaces, in other words it takes $1\otimes x-^tx\otimes 1$ to ad $x$ (Chap. I, §3, no. 3, Prop. 4). In view of §1, Prop. 4 (i), it follows that the roots of the characteristic polynomial of ad $x$ are the $\lambda_i-\lambda_j$ for $1\leq i\leq n,1\leq j\leq n$ (each root being written a number of times equal to its multiplicity). Thus, the rank of $\mathfrak{g}$ is $n$, and $x$ is regular if and only if each $\lambda_i$ is a simple root of the characteristic polynomial of $x$.
+Let V be a vector space of finite dimension $n$, and $\mathfrak{g}=\mathfrak{g}\mathfrak{l}(V)$. Let $\overline{k}$ be an algebraic closure of $k$. Let $x\in \mathfrak{g}$, and let $\lambda_1, . . . , \lambda_n$ be the roots in $\overline{k}$ of the characteristic polynomial of $x$ (each root being written a number of times equal to its multiplicity). The canonical isomorphism from $V^*\otimes V$ to $\mathfrak{g}$ is compatible with the $\mathfrak{g}$-module structures of these two spaces, in other words it takes $1\otimes x-^tx\otimes 1$ to ad $x$ (Chap. I, §3, no. 3, Prop. 4). In view of §1, Prop. 4 (i), it follows that the roots of the characteristic polynomial of ad $x$ are the $\lambda_i-\lambda_j$ for $1\leq i\leq n,1\leq j\leq n$ (each root being written a number of times equal to its multiplicity). Thus, the rank of $\mathfrak{g}$ is $n$, and $x$ is regular if and only if each $\lambda_i$ is a simple root of the characteristic polynomial of $x$.
 
 #### Proposition 6 {#lie-vii-s2-prop-6 .statement tag=00U7}
 

@@ -45,7 +45,7 @@ subsections:
       pdf_page: 242
 statements: 33
 exercises: 12
-content_sha256: bc2ed7444f1eb51924345fd7a15e66bdb6513d28df6c10ca757772ca39e84b7d
+content_sha256: 00a1533bcb80a2ad00827099231a662bcb014b710600a0cf2fd5696a942cd545
 ---
 
 ## § 13. ALGÈBRES ABSOLUMENT SEMI-SIMPLES
@@ -560,13 +560,13 @@ D’après le théorème de Jacobson (loc. cit.), tout élément de $1 +\mathfra
 
 #### Proposition 7 {#alg-viii-s13-prop-7 .statement tag=00FY}
 
-Supposons que le $(A\otimes_KA^o)$-module A soit projectif.
+Supposons que le $(A\otimes_K\overline{A^o})$-module A soit projectif.
 
 a) Soient $S_1$ et $S_2$ des sous-algèbres de A satisfaisant à $A = S_1\oplus \mathfrak{r}= S_2\oplus \mathfrak{r}$. Il existe un automorphisme spécial de A transformant $S_1$ en $S_2$.
 
 b) Supposons que $\pi$ possède une section K-linéaire et que le radical $\mathfrak{r}$ de A soit nilpotent. Il existe alors une sous-algèbre S de A satisfaisant à $A = S\oplus \mathfrak{r}$.
 
-Plaçons-nous sous les hypothèses de a) et notons $s_1$ et $s_2$ les éléments de l’ensemble Σ correspondant aux sous-algèbres $S_1$ et $S_2$. Soit $\varepsilon$ l’application K-linéaire de $A\otimes_KA$ dans A telle que $\varepsilon (a\otimes b) =ab$. D’après la prop. 5 de VIII, p. 232, et la remarque 1 de VIII, p. 232, il existe un élément $e=\sum^r_{i=1}\alpha_i\otimes \alpha '_i$ de $A\otimes_KA$ satisfaisant à $\sum^r_{i=1}\alpha_i\alpha '_i= 1$ et $\sum^r_{i=1}\alpha \alpha_i\otimes \alpha '_i=\sum^r_{i=1}\alpha_i\otimes \alpha '_i\alpha$ pour tout $\alpha \in A$. Posons $x=\sum^r_{i=1}s_1(\alpha_i)s_2(\alpha '_i)$. On a $\pi (x) =\sum^r_{i=1}\alpha_i\alpha '_i= 1$, d’où $x\in 1 +\mathfrak{r}$. Soit $\alpha$ un élément de A. On a
+Plaçons-nous sous les hypothèses de a) et notons $s_1$ et $s_2$ les éléments de l’ensemble Σ correspondant aux sous-algèbres $S_1$ et $S_2$. Soit $\varepsilon$ l’application K-linéaire de $A\otimes_KA$ dans A telle que $\varepsilon (a\otimes b) =ab$. D’après la prop. 5 de VIII, p. 232, et la remarque 1 de VIII, p. 232, il existe un élément $e=\sum^r_{i=1}\alpha_i\otimes \alpha '_i$ de $A\otimes_K\overline{A}$ satisfaisant à $\sum^r_{i=1}\alpha_i\alpha '_i= 1$ et $\sum^r_{i=1}\alpha \alpha_i\otimes \alpha '_i=\sum^r_{i=1}\alpha_i\otimes \alpha '_i\alpha$ pour tout $\alpha \in A$. Posons $x=\sum^r_{i=1}s_1(\alpha_i)s_2(\alpha '_i)$. On a $\pi (x) =\sum^r_{i=1}\alpha_i\alpha '_i= 1$, d’où $x\in 1 +\mathfrak{r}$. Soit $\alpha$ un élément de A. On a
 
 $$
 s_1(\alpha )x=\sum_{i=1}^rs_1(\alpha \alpha_i)s_2(\alpha '_i) = (\varepsilon \circ (s_1\otimes s_2))(\sum_{i=1}^r\alpha \alpha_i\otimes \alpha '_i)

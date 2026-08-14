@@ -1,6 +1,6 @@
 {
   "version": "dev",
-  "commit": "640f55d69410b0e67419561c408640929a3944ae",
+  "commit": "7fe75b8573405825eeb07b6dd9d5f365c24a57ec",
   "root": "/Users/apple/github/tamnd/bourbaki",
   "langs": [
     "en",
@@ -8,7 +8,7 @@
     "vi"
   ],
   "hard": 0,
-  "soft": 373,
+  "soft": 349,
   "checks": [
     {
       "id": "F01",
@@ -163,14 +163,14 @@
       "group": "mathematics",
       "hard": false,
       "title": "no base carries two superscripts or two subscripts",
-      "found": 120
+      "found": 108
     },
     {
       "id": "P04",
       "group": "publication",
       "hard": false,
       "title": "every math span parses under KaTeX",
-      "found": 117
+      "found": 105
     },
     {
       "id": "R01",
@@ -482,7 +482,7 @@
       "hard": false,
       "file": "content/en/alg/VIII/19_s19_quaternion_algebras.md",
       "line": 70,
-      "message": "two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\\gamma y}_x"
+      "message": "two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\\gamma y}_{\\overline{\\overline{x}}}"
     },
     {
       "check": "M09",
@@ -552,22 +552,6 @@
       "check": "M09",
       "group": "mathematics",
       "hard": false,
-      "file": "content/en/alg/VIII/exercises/s21/21.md",
-      "line": 33,
-      "message": "two of one script against one base, which TeX will not set: ^n_{j=1j^{\\alpha j}}^1_{\\alpha_j!}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md",
-      "line": 363,
-      "message": "two of one script against one base, which TeX will not set: ^{exp ad}_{adx}^{x-1}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
       "file": "content/en/lie/IX/08_s8_fourier_transform.md",
       "line": 71,
       "message": "two of one script against one base, which TeX will not set: _u^2_2"
@@ -602,15 +586,7 @@
       "hard": false,
       "file": "content/en/lie/IX/exercises/s6/02.md",
       "line": 27,
-      "message": "two of one script against one base, which TeX will not set: ^1_{2i=1}^{n\\partial}_{\\partial x^2}^{P_{2i}}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/lie/IX/exercises/s6/02.md",
-      "line": 31,
-      "message": "two of one script against one base, which TeX will not set: _n^{\\infty}_{=1}^{\\Delta^n}_n^{(P)}_!"
+      "message": "two of one script against one base, which TeX will not set: ^1_{\\overline{2}i=1}^n"
     },
     {
       "check": "M09",
@@ -619,38 +595,6 @@
       "file": "content/en/lie/IX/exercises/s7/04.md",
       "line": 23,
       "message": "two of one script against one base, which TeX will not set: ^n_{\\partial x}^{\\partial^2}_{\\partial y}^P"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/lie/IX/exercises/s7/05.md",
-      "line": 15,
-      "message": "two of one script against one base, which TeX will not set: ^{\\partial}_{\\partial x^2}^{P_{2i}}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/lie/IX/exercises/s8/01.md",
-      "line": 23,
-      "message": "two of one script against one base, which TeX will not set: ^{(-}_j^{1)}_{!^i}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/lie/IX/exercises/s8/01.md",
-      "line": 27,
-      "message": "two of one script against one base, which TeX will not set: ^j_i^{!(}_{!(}^n_n^-_-^j_{i)!}^{)!}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md",
-      "line": 177,
-      "message": "two of one script against one base, which TeX will not set: _n^{\\infty}_{=0n}^1_!"
     },
     {
       "check": "M09",
@@ -699,14 +643,6 @@
       "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
       "line": 415,
       "message": "two of one script against one base, which TeX will not set: _{\\alpha}'_{\\alpha}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/lie/VIII/12_s12_chevalley_orders.md",
-      "line": 765,
-      "message": "two of one script against one base, which TeX will not set: _n^{\\infty}_{=0n}^1_!"
     },
     {
       "check": "M09",
@@ -762,7 +698,7 @@
       "hard": false,
       "file": "content/fr/alg/VIII/19_s19_algebres_de_quaternions.md",
       "line": 69,
-      "message": "two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\\gamma y}_x"
+      "message": "two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\\gamma y}_{\\overline{\\overline{x}}}"
     },
     {
       "check": "M09",
@@ -859,14 +795,6 @@
       "file": "content/fr/alg/VIII/exercises/s19/06.md",
       "line": 21,
       "message": "two of one script against one base, which TeX will not set: ^2_{h^r=0}^{-1}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/exercises/s21/21.md",
-      "line": 33,
-      "message": "two of one script against one base, which TeX will not set: ^n_{j=1j^{\\alpha j}}^1_{\\alpha_j!}"
     },
     {
       "check": "M09",
@@ -1112,14 +1040,6 @@
       "check": "M09",
       "group": "mathematics",
       "hard": false,
-      "file": "content/fr/ts/I/04_s4_calcul_fonctionnel_holomorphe.md",
-      "line": 1605,
-      "message": "two of one script against one base, which TeX will not set: ^{P(}_{Q(}^z_z^)_)"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
       "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
       "line": 887,
       "message": "two of one script against one base, which TeX will not set: ^\u003c_+^1"
@@ -1195,14 +1115,6 @@
       "file": "content/fr/ts/I/exercises/s6/23.md",
       "line": 23,
       "message": "two of one script against one base, which TeX will not set: ^{\\leqslant}_+^1"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ts/II/03_s3_sous_espaces_invariants.md",
-      "line": 227,
-      "message": "two of one script against one base, which TeX will not set: ^{\\eta}_4^2"
     },
     {
       "check": "M09",
@@ -1291,14 +1203,6 @@
       "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
       "line": 143,
       "message": "two of one script against one base, which TeX will not set: ^{\\alpha}_{\\overset{-1}{0}}^0_0"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ts/III/exercises/s1/09.md",
-      "line": 27,
-      "message": "two of one script against one base, which TeX will not set: ^2_{2^n}^k"
     },
     {
       "check": "M09",
@@ -1442,7 +1346,7 @@
       "hard": false,
       "file": "content/en/alg/VIII/19_s19_quaternion_algebras.md",
       "line": 70,
-      "message": "KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\\g…: ^X_-^-_y^x_X^-_-^{\\gamma y}_x"
+      "message": "KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\\g…: ^X_-^-_y^x_X^-_-^{\\gamma y}_{\\overline{\\overline{x…"
     },
     {
       "check": "P04",
@@ -1504,22 +1408,6 @@
       "check": "P04",
       "group": "publication",
       "hard": false,
-      "file": "content/en/alg/VIII/exercises/s21/21.md",
-      "line": 33,
-      "message": "KaTeX will not set it: Double superscript at position 51: …=1j^{\\alpha j}}^̲1_{\\alpha_j!}: c_{\\boldsymbol{\\alpha }}=\\prod^n_{j=1j^{\\alpha j}}…"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md",
-      "line": 363,
-      "message": "KaTeX will not set it: Double superscript at position 16: ^{exp ad}_{adx}^̲{x-1}: ^{exp ad}_{adx}^{x-1}"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
       "file": "content/en/lie/IX/08_s8_fourier_transform.md",
       "line": 71,
       "message": "KaTeX will not set it: Double subscript at position 12: \\sum_uA_u^2_̲2\u003c\\infty: \\sum_uA_u^2_2\u003c\\infty"
@@ -1554,15 +1442,7 @@
       "hard": false,
       "file": "content/en/lie/IX/exercises/s6/02.md",
       "line": 27,
-      "message": "KaTeX will not set it: Double superscript at position 26: … =\\sum^1_{2i=1}^̲{n\\partial}_{\\p…: \\Delta (P) =\\sum^1_{2i=1}^{n\\partial}_{\\partial x^…"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/IX/exercises/s6/02.md",
-      "line": 31,
-      "message": "KaTeX will not set it: Double subscript at position 20: …\\sum_n^{\\infty}_̲{=1}^{\\Delta^n}…: P^*=\\sum_n^{\\infty}_{=1}^{\\Delta^n}_n^{(P)}_!=e^{\\…"
+      "message": "KaTeX will not set it: Double superscript at position 37: …overline{2}i=1}^̲n\\frac{\\partial…: \\Delta (P) =\\sum^1_{\\overline{2}i=1}^n\\frac{\\parti…"
     },
     {
       "check": "P04",
@@ -1571,38 +1451,6 @@
       "file": "content/en/lie/IX/exercises/s7/04.md",
       "line": 23,
       "message": "KaTeX will not set it: Double superscript at position 20: …^n_{\\partial x}^̲{\\partial^2}_{\\…: \\sum^n_{\\partial x}^{\\partial^2}_{\\partial y}^P"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/IX/exercises/s7/05.md",
-      "line": 15,
-      "message": "KaTeX will not set it: Double superscript at position 47: …_{\\partial x^2}^̲{P_{2i}}: \\Delta (P) =^1_2\\sum^{\\partial}_{\\partial x^2}^{P_…"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/IX/exercises/s8/01.md",
-      "line": 23,
-      "message": "KaTeX will not set it: Double superscript at position 24: …}^n(g) =^{(-}_j^̲{1)}_{!^i}\\alph…: \\tau_{ij}^n(g) =^{(-}_j^{1)}_{!^i}\\alpha^{i+j-n}\\b…"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/IX/exercises/s8/01.md",
-      "line": 27,
-      "message": "KaTeX will not set it: Double superscript at position 18: …+ 1)^{1/2}(^j_i^̲{!(}_{!(}^n_n^-…: (n+ 1)^{1/2}(^j_i^{!(}_{!(}^n_n^-_-^j_{i)!}^{)!})^…"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md",
-      "line": 177,
-      "message": "KaTeX will not set it: Double subscript at position 17: …\\sum_n^{\\infty}_̲{=0n}^1_!: =\\sum_n^{\\infty}_{=0n}^1_!"
     },
     {
       "check": "P04",
@@ -1651,14 +1499,6 @@
       "file": "content/en/lie/VIII/08_s8_symmetric_invariants.md",
       "line": 266,
       "message": "KaTeX will not set it: Expected group after '_' at position 28: …_++\\mathfrak{n}_̲: \\mathfrak{n}_++\\mathfrak{n}_"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/VIII/12_s12_chevalley_orders.md",
-      "line": 765,
-      "message": "KaTeX will not set it: Double subscript at position 33: …\\sum_n^{\\infty}_̲{=0n}^1_!: e^{adx_{\\alpha}}=\\sum_n^{\\infty}_{=0n}^1_!"
     },
     {
       "check": "P04",
@@ -1714,7 +1554,7 @@
       "hard": false,
       "file": "content/fr/alg/VIII/19_s19_algebres_de_quaternions.md",
       "line": 69,
-      "message": "KaTeX will not set it: Double superscript at position 6: (^X_-^̲-_y^x_X^-_-^{\\g…: (^X_-^-_y^x_X^-_-^{\\gamma y}_x)"
+      "message": "KaTeX will not set it: Double superscript at position 6: (^X_-^̲-_y^x_X^-_-^{\\g…: (^X_-^-_y^x_X^-_-^{\\gamma y}_{\\overline{\\overline{…"
     },
     {
       "check": "P04",
@@ -1811,14 +1651,6 @@
       "file": "content/fr/alg/VIII/exercises/s19/06.md",
       "line": 21,
       "message": "KaTeX will not set it: Double superscript at position 15: \\sum^2_{h^r=0}^̲{-1}T^h): \\sum^2_{h^r=0}^{-1}T^h)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/alg/VIII/exercises/s21/21.md",
-      "line": 33,
-      "message": "KaTeX will not set it: Double superscript at position 51: …=1j^{\\alpha j}}^̲1_{\\alpha_j!}: c_{\\boldsymbol{\\alpha }}=\\prod^n_{j=1j^{\\alpha j}}…"
     },
     {
       "check": "P04",
@@ -2064,14 +1896,6 @@
       "check": "P04",
       "group": "publication",
       "hard": false,
-      "file": "content/fr/ts/I/04_s4_calcul_fonctionnel_holomorphe.md",
-      "line": 1605,
-      "message": "KaTeX will not set it: Double superscript at position 11: ^{P(}_{Q(}^̲z_z^)_): ^{P(}_{Q(}^z_z^)_)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
       "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
       "line": 887,
       "message": "KaTeX will not set it: Double superscript at position 6: A^\u003c_+^̲1): A^\u003c_+^1)"
@@ -2160,14 +1984,6 @@
       "check": "P04",
       "group": "publication",
       "hard": false,
-      "file": "content/fr/ts/II/03_s3_sous_espaces_invariants.md",
-      "line": 227,
-      "message": "KaTeX will not set it: Double superscript at position 49: …t m(V)^{\\eta}_4^̲2: \\|v-v*\\varepsilon_x\\|^2_2\\leqslant m(V)^{\\eta}_4^2"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
       "file": "content/fr/ts/II/exercises/s1/33.md",
       "line": 71,
       "message": "KaTeX will not set it: Double superscript at position 15: \\mathbf{F}^2_p^̲{p-2}: \\mathbf{F}^2_p^{p-2}"
@@ -2227,14 +2043,6 @@
       "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
       "line": 143,
       "message": "KaTeX will not set it: Double superscript at position 26: …^{\\alpha}_{0 0}^̲0),v_0\\equiv^{\\…: u\\equiv (^{\\alpha}_{0 0}^0),v_0\\equiv^{\\alpha^-_0}…"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ts/III/exercises/s1/09.md",
-      "line": 27,
-      "message": "KaTeX will not set it: Double superscript at position 9: ^2_{2^n}^̲k\u003c y\\leqslant^{…: ^2_{2^n}^k\u003c y\\leqslant^{2k+1_n}_2"
     },
     {
       "check": "P04",

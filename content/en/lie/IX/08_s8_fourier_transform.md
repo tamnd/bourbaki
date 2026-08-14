@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 1bde8e3f7c59aae94f63d94f5a2ccff639107a53ac3452ce11541f5cc9180025
+content_sha256: 50c50dd9ebbbc639ef4420e4566fb489963a9b15141600ac2e3d6e2d9ab684db
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -57,7 +57,7 @@ $A_2=\langle A|A\rangle^{1/2}= (d(u$)Tr(A$^*A))^{1/2}$. (2)
 We have
 
 $$
-(d(u)A_{\infty}\leq  A_2\leq d(u)A_{\infty} \tag{3}
+(\overline{d(u)}A_{\infty}\leq  A_2\leq d(u)A_{\infty} \tag{3}
 $$
 
 so
@@ -83,12 +83,12 @@ for all $u\in \widehat{G}$. We have $u(f)_{\infty}\leq \int_G|f(g)|dg=f_1$. The 
 $^6$ See note $^1$, §7, p. 66.
 
 $$
-f^2_2=\sum_{u\in\widehat{G}}\langle u(f)|u(f)\rangle =\mathscr{F}(f)^2_2
+f^2_2=\sum_{u\in\widehat{G}}\langle u(f)|u(f)\rangle =\overline{\mathscr{F}}(f)^2_2
 $$
 
-so $\mathscr{F}$ induces an isometric linear map from the Hilbert space $L^2(G)$ to the Hilbert space $L^2( \widehat{G}):$ in other words, for $f$ and $f'$ in $L^2$(G), we have
+so $\overline{\mathscr{F}}$ induces an isometric linear map from the Hilbert space $L^2(G)$ to the Hilbert space $L^2( \widehat{G}):$ in other words, for $f$ and $f'$ in $L^2$(G), we have
 
-$\int_Gf(g)f'(g)dg=\langle \mathscr{F}(f)|\mathscr{F}(f')\rangle =\sum_{u\in\widehat{G}}d(u$)Tr($u(f)^*u(f')$). (7)
+$\int_G\overline{f(g)}f'(g)dg=\langle \overline{\mathscr{F}}(f)|\overline{\mathscr{F}}(f')\rangle =\sum_{u\in\widehat{G}}d(u$)Tr($u(f)^*u(f')$). (7)
 
 For $f$ and $f'$ in $L^1$(G), the convolution product $f*f'$ of $f$ and $f'$ is defined by
 
@@ -101,7 +101,7 @@ $$
 We have $f*f'\in L^1(G)$ and, for all $u\in \widehat{G},u(f*f') =u(f)u(f')$, so
 
 $$
-\mathscr{F}(f*f') =\mathscr{F}(f).\mathscr{F}(f') \tag{8}
+\overline{\mathscr{F}}(f*f') =\overline{\mathscr{F}}(f).\overline{\mathscr{F}}(f') \tag{8}
 $$
 
 Conversely, let $A = (A_u)_{u\in\widehat{G}}$ be an element of $F( \widehat{G})$; for all $u\in \widehat{G}$, let $\mathscr{F}_uA$ be the (analytic) function on G defined by
@@ -122,7 +122,7 @@ $$
 
 $=d(u)\int_Gf(g$)Tr($u(gh^{-1})$)$dg=d(u)\int_Gf(gh$)Tr($u(g)$)$dg$. (10)
 
-For all $u\in \widehat{G}$ choose an orthonormal basis $Bu$ of $E_u$, and denote by $(u_{ij}(g))$ the matrix of $u(g)$ in this basis. Prop. 1 also means that the family of functions $(d(u)u_{ij}$, for $u$ in $\widehat{G}$ and $i, j$ in $B_u$, is an orthonormal basis of the space $L^2(G)$.
+For all $u\in \widehat{G}$ choose an orthonormal basis $Bu$ of $E_u$, and denote by $(u_{ij}(g))$ the matrix of $u(g)$ in this basis. Prop. 1 also means that the family of functions $(\overline{d(u)}u_{ij}$, for $u$ in $\widehat{G}$ and $i, j$ in $B_u$, is an orthonormal basis of the space $L^2(G)$.
 
 If $f$ is an integrable function on G such that the family $(f_u)$ is uniformly summable, then the sum of this family is a continuous function which coincides almost everywhere with $f$; in other words, if we assume in addition that $f$ is continuous, then for all $h\in G$,
 
@@ -284,7 +284,7 @@ so $|(L_t\mathscr{F}(A))(g)| \leq mMp_m(A)$; this proves that $\mathscr{F}$ is c
 
 #### Corollary {#lie-ix-s8-n2-cor-1 .statement tag=01H4}
 
-The maps $\mathscr{F}:f \rightarrow (u(f))_{u\in\widehat{G}}$ and $\mathscr{F}: A \rightarrow \sum_{u\in\widehat{G}}\langle u(g)|A_u\rangle$ induce inverse isomorphisms between the topological vector spaces $\mathscr{C}^{\infty}(G;\mathbf{C})$ and $\mathscr{S}( \widehat{G})$.
+The maps $\overline{\mathscr{F}}:f \rightarrow (u(f))_{u\in\widehat{G}}$ and $\mathscr{F}: A \rightarrow \sum_{u\in\widehat{G}}\langle u(g)|A_u\rangle$ induce inverse isomorphisms between the topological vector spaces $\mathscr{C}^{\infty}(G;\mathbf{C})$ and $\mathscr{S}( \widehat{G})$.
 
 $^7$ This follows from the fact that the space $\mathscr{C}^{\infty}(G;\mathbf{C})$, with the topology of uniform
 
@@ -347,7 +347,7 @@ $$
 $$
 
 $$
-u(f) =\langle \chi_u|f\rangle \rangle \tag{20}
+u(f) =\langle \overline{\chi}_u|f\rangle \rangle \tag{20}
 $$
 
 $$
@@ -361,7 +361,7 @@ $$
 $$
 
 $$
-\mathscr{F}(f) =\langle \chi_u|f\rangle \tag{21}
+\overline{\mathscr{F}}(f) =\langle \chi_u|f\rangle \tag{21}
 $$
 
 $$
@@ -375,7 +375,7 @@ _2\varepsilon_{u2}
 $$
 
 $$
-\mathscr{F}(f)_2=\sum))))\langle \chi_u|f\rangle ))))_2=\sum|\langle \chi_u|f\rangle |^2
+\overline{\mathscr{F}}(f)_2=\sum))))\langle \chi_u|f\rangle ))))_2=\sum|\langle \overline{\chi}_u|f\rangle |^2
 $$
 
 $$
@@ -384,13 +384,13 @@ $$
 
 $uu$
 
-Conversely, if $\varphi$ is a square-integrable complex function on $\widehat{G}$, the element $(^{\varphi(u)}_{d(u)}\varepsilon_u)_{u\in\widehat{G}}$ of $F( \widehat{G})$ belongs to $L^2( \widehat{G})$, and we have (formula (9))
+Conversely, if $\varphi$ is a square-integrable complex function on $\widehat{G}$, the element $(\frac{\varphi(u)}{d(u)}\varepsilon_u)_{u\in\widehat{G}}$ of $F( \widehat{G})$ belongs to $L^2( \widehat{G})$, and we have (formula (9))
 
 $$
 ((\varphi (u)))(\varphi (u)-)
 $$
 
-$\mathscr{F}_u\varepsilon_u(g) =d(u$)Tr $\varepsilon_uu(g)^1=\varphi (u)\chi_u(g)$,
+$\mathscr{F}_u\varepsilon_u(g) =d(u$)Tr $\varepsilon_uu(g)^1=\varphi (u)\overline{\chi}_u(g)$,
 
 $$
 d(u)d(u)
@@ -399,7 +399,7 @@ $$
 so
 
 $$
-\mathscr{F}((\varphi (u)\varepsilon_u))=\sum\varphi (u)\chi_u \tag{22}
+\mathscr{F}((\varphi (u)\varepsilon_u))=\sum\varphi (u)\overline{\chi}_u \tag{22}
 $$
 
 $$
@@ -410,19 +410,19 @@ $u\in \widehat{G}$
 
 Note, in particular, that formulas (20) and (21) give, for $u, v$ in $\widehat{G},^8$
 
-$u(\chi_v) = 0$ if $u\not=v$, (23)
+$u(\overline{\chi}_v) = 0$ if $u\not=v$, (23)
 
 $$
 \varepsilon_u
 $$
 
-$u(\chi_u) =\in$ End(E$_u)$, (24)
+$u(\overline{\chi}_u) =\in$ End(E$_u)$, (24)
 
 $$
 d(u)
 $$
 
-$\mathscr{F}(\chi_u) =\varepsilon^u\in$ End(E$_u)\subset F( \widehat{G})$. (25)
+$\overline{\mathscr{F}}(\chi_u) =\varepsilon^u\in$ End(E$_u)\subset F( \widehat{G})$. (25)
 
 $$
 d(u)
@@ -438,15 +438,15 @@ $$
 
 for all $g\in G$.
 
-By Th. $1b)$, the function $f$ is infinitely-differentiable if and only if the function $u \rightarrow  u(f)_{\infty}$ is rapidly decreasing; but, by (20),
+By Th. $1b)$, the function $\overline{f}$ is infinitely-differentiable if and only if the function $u \rightarrow  u(\overline{f})_{\infty}$ is rapidly decreasing; but, by (20),
 
-$u(f)_{\infty}=$ 1 $|\langle \chi_u|f\rangle |$,
+$u(\overline{f})_{\infty}=$ 1 $|\langle \chi_u|f\rangle |$,
 
 $$
 d(u)
 $$
 
-hence the first assertion, since the functions $d(u)$ and $_{d(u)}^1$ are moderately increasing.
+hence the first assertion, since the functions $d(u)$ and $\frac{1}{d(u)}$ are moderately increasing.
 
 Assume that $f$ is infinitely-differentiable; by Th. $1a),f(g) =\sum_{u\in\widehat{G}}f_u(g)$ for all $g\in G$, so
 
@@ -460,9 +460,9 @@ $$
 d(u)
 $$
 
-$=\langle \chi_u|f\rangle$Tr($u(g)^{-1}$) $=\langle \chi_u|f\rangle \chi_u(g)$.
+$=\langle \overline{\chi}_u|f\rangle$Tr($u(g)^{-1}$) $=\langle \overline{\chi}_u|f\rangle \overline{\chi}_u(g)$.
 
-Hence, $f(g) =\sum_{u\in\widehat{G}}\langle \chi_u|f\rangle \chi_u(g)$; but, for all $u\in \widehat{G}$, the contragredient representation $u'$ of $u$ satisfies $\chi_u=\chi_{u'}$ and the map $u \rightarrow u'$ is a permutation of $\widehat{G}$; so we also have $f(g) =\sum_{u\in\widehat{G}}\langle \chi_u|f\rangle \chi_u(g)$, hence the proposition.
+Hence, $f(g) =\sum_{u\in\widehat{G}}\langle \overline{\chi}_u|f\rangle \overline{\chi}_u(g)$; but, for all $u\in \widehat{G}$, the contragredient representation $u'$ of $u$ satisfies $\overline{\chi}_u=\chi_{u'}$ and the map $u \rightarrow u'$ is a permutation of $\widehat{G}$; so we also have $f(g) =\sum_{u\in\widehat{G}}\langle \chi_u|f\rangle \chi_u(g)$, hence the proposition.
 
 $^8$ We embed End(E$_u)$ in the product $F( \widehat{G}) =\prod_{v\in\widehat{G}}$ End(E$_v)$ by associating to any
 
@@ -474,7 +474,7 @@ Let $f$ be a continuous central function on G. Then $f$ is infinitely-differenti
 
 Indeed, by Cor. 4 of §7, no. 4,
 
-$\langle \chi_u|f\rangle =\int_G\lambda (u)(t)\varphi (t)dt$, where $\varphi (t) =\prod_{\alpha >0}(1-\alpha (t)^{-1})f(t)$.
+$\langle \chi_u|f\rangle =\int_G\overline{\lambda(u)(t)}\varphi (t)dt$, where $\varphi (t) =\prod_{\alpha >0}(1-\alpha (t)^{-1})f(t)$.
 
 If $f|T$ is infinitely-differentiable, so is $\varphi$; by Prop. 5, applied to the group T, the function $\mu \rightarrow \int_T\mu(t)\varphi (t)dt$ on $\widehat{T} = X(T)$ is then rapidly decreasing, and so is the function $u \rightarrow  \langle \chi_u|f\rangle$; hence the function $f$ is infinitely-differentiable (Prop. 5). The converse is clear.
 

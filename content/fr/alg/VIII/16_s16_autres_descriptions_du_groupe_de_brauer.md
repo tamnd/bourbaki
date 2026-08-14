@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: 7195aab92424774a239c77b35067f96bcd42904714a0e338820030c4e1cfa0b1
+content_sha256: 0561fbabe2465eea691b9347080a70296d0e4f1f0e37ead58a5da6796d2389d4
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -279,7 +279,7 @@ ${F'}^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}/$/ $G'_1$ soit commutatif et tel que
 Pour tout $(f, \gamma )\in F'\times \Gamma$, notons $(f, \gamma )$ la classe de $(f, \gamma )$ dans $\Gamma '$. Si l’homomorphisme de groupes $\psi : \Gamma '\rightarrow \Gamma '_1$ convient, il vérifie les relations
 
 $$
-\psi ((f', \gamma ))=\psi (\iota '(f')\varphi (\gamma )) =\iota '_1(f')\varphi_1(\gamma )
+\psi (\overline{(f', \gamma)})=\psi (\iota '(f')\varphi (\gamma )) =\iota '_1(f')\varphi_1(\gamma )
 $$
 
 pour tout $f'\in F'$ et tout $\gamma \in \Gamma$. Inversement, l’application $\widetilde{\psi}$ de $F'\times_{\tau'\circ\pi}\Gamma$ dans $\Gamma '_1$ donnée par $(f, \gamma )\rightarrow \iota '_1(f)\varphi_1(\gamma )$ est un homomorphisme de groupes. En effet, on a les relations
@@ -334,7 +334,7 @@ $$
 \tau '(g).v(f) =v(\tau (g).f)
 $$
 
-pour $g\in G$ et $f\in F$. Soit $\mathscr{E}= (\Gamma , \iota , \pi )$ une $\tau$-extension de G par F. Alors $\iota (E)$ est un sous-groupe distingué de Γ et la $\tau '$-extension $v_*(\mathscr{E})$ de G par $F'$ est isomorphe à l’extension $(\Gamma /\iota (E), \iota , \pi )$ où $\iota$ et $\pi$ sont les homomorphismes de groupes déduits de $\iota$ et $\pi$ par passages aux quotients. L’homomorphisme canonique $\varphi$ associé à $v_*(\mathscr{E})$ correspond par cet isomorphisme à l’homomorphisme canonique de Γ dans $\Gamma /\iota (E)$.
+pour $g\in G$ et $f\in F$. Soit $\mathscr{E}= (\Gamma , \iota , \pi )$ une $\tau$-extension de G par F. Alors $\iota (E)$ est un sous-groupe distingué de Γ et la $\tau '$-extension $v_*(\mathscr{E})$ de G par $F'$ est isomorphe à l’extension $(\Gamma /\iota (E), \iota , \pi )$ où $\overline{\iota}$ et $\overline{\pi}$ sont les homomorphismes de groupes déduits de $\iota$ et $\pi$ par passages aux quotients. L’homomorphisme canonique $\varphi$ associé à $v_*(\mathscr{E})$ correspond par cet isomorphisme à l’homomorphisme canonique de Γ dans $\Gamma /\iota (E)$.
 
 #### Proposition 3 {#alg-viii-s16-prop-3 .statement tag=00IM}
 
@@ -978,7 +978,7 @@ c) Notons $L^G$ (resp. $L^G_{\sigma})$la sous-algèbre de L (resp. $L_{\sigma})$
 
 Comme l’algèbre L est réduite et de degré fini, l’intersection des idéaux maximaux de L est réduite à 0 (VIII, p. 169, cor. 2). De plus si $\mathfrak{m}$ et $\mathfrak{m}'$ sont deux idéaux maximaux de L distincts, on a $\mathfrak{m}+\mathfrak{m}'= L$. D’après la prop. 10 de I, p. 105, l’application canonique de L dans $\prod_{\mathfrak{m}\in\mathscr{S}}L/\mathfrak{m}$ est un isomorphisme de même que l’application canonique de $L/\mathfrak{a}_{\sigma}$ dans $\prod_{\mathfrak{m}\in\sigma}L/\mathfrak{m}$, pour tout $\sigma \in \mathscr{O}$. L’assertion a) en résulte. Comme $\mathscr{O}$ est une partition de $\mathscr{S}$, l’assertion b) en découle et c) est une conséquence immédiate de b).
 
-Fixons maintenant une orbite $\sigma \in \mathscr{O}$ et un élément $\mathfrak{m}$ de $\sigma$. Posons $F_{\mathfrak{m}}=$ Coïnd$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$ et notons $\lambda_{F_{\mathfrak{m}}}$ l’action de G sur $F_{\mathfrak{m}}$. Pour tout $x\in L$, notons $x$ l’application de G dans $L/\mathfrak{m}$ qui envoie $g$ sur $\pi_{\mathfrak{m}}(gx)$. Compte tenu de la formule (15) de VIII, p. 300 et de la définition de l’action de $G_{\mathfrak{m}}$ sur $L/\mathfrak{m}$, il est immédiat que $x$ appartient à $F_{\mathfrak{m}}$ et l’application $u:x\rightarrow x$ de L dans $F_{\mathfrak{m}}$ vérifie $\lambda_{F_{\mathfrak{m}}}(g)\circ u=u\circ \lambda (g)$ pour $g\in G$. Autrement dit, $u$ est un morphisme de $(K$, G)-algèbres.
+Fixons maintenant une orbite $\sigma \in \mathscr{O}$ et un élément $\mathfrak{m}$ de $\sigma$. Posons $F_{\mathfrak{m}}=$ Coïnd$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$ et notons $\lambda_{F_{\mathfrak{m}}}$ l’action de G sur $F_{\mathfrak{m}}$. Pour tout $x\in L$, notons $\overline{x}$ l’application de G dans $L/\mathfrak{m}$ qui envoie $g$ sur $\pi_{\mathfrak{m}}(gx)$. Compte tenu de la formule (15) de VIII, p. 300 et de la définition de l’action de $G_{\mathfrak{m}}$ sur $L/\mathfrak{m}$, il est immédiat que $\overline{x}$ appartient à $F_{\mathfrak{m}}$ et l’application $u:x\rightarrow \overline{x}$ de L dans $F_{\mathfrak{m}}$ vérifie $\lambda_{F_{\mathfrak{m}}}(g)\circ u=u\circ \lambda (g)$ pour $g\in G$. Autrement dit, $u$ est un morphisme de $(K$, G)-algèbres.
 
 #### Lemme 9 {#alg-viii-s16-lem-9 .statement tag=00IZ}
 

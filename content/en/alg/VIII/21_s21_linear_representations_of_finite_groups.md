@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 39cac58c0492fe4210953de6b668289f111a68b0246c625e697f294ef8d6f732
+content_sha256: e3b79b0444a84be556abac63500f6c83af7c6fa05d862cfe2878e27137f5adb8
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -351,7 +351,7 @@ For the remainder of this section, we assume that the group G is finite and that
 
 The algebra K[G] is semisimple (Maschke’s theorem) and finite-dimensional. Denote by $\widehat{G}$ the set of classes of simple K[G]-modules. For every $\lambda \in \widehat{G}$, choose a linear representation $(V_{\lambda}, \pi_{\lambda})$ of G such that the associated K[G]-module has class $\lambda$. The set $\widehat{G}$ is finite, and the vector spaces $V_{\lambda}$ are finite-dimensional (VIII, p. 141, Example). For any $\lambda \in \widehat{G}$, denote by $d_{\lambda}$ the degree of the representation $\pi_{\lambda}$, that is, the dimension of the K-vector space $V_{\lambda}$, and denote its character by $\chi_{\lambda}$.
 
-Denote by $F(\widehat{G})$ the product algebra $\prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ and by $\mathscr{F}$ the mapping from K[G] to $F(\widehat{G})$ defined by $\mathscr{F}(a) = (\pi_{\lambda}(a))_{\lambda\in\widehat{G}}$. Since the field K is algebraically closed, the mapping $\mathscr{F}$ is an algebra isomorphism (loc. cit.).
+Denote by $F(\widehat{G})$ the product algebra $\prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ and by $\overline{\mathscr{F}}$ the mapping from K[G] to $F(\widehat{G})$ defined by $\overline{\mathscr{F}}(a) = (\pi_{\lambda}(a))_{\lambda\in\widehat{G}}$. Since the field K is algebraically closed, the mapping $\overline{\mathscr{F}}$ is an algebra isomorphism (loc. cit.).
 
 For every $\lambda \in \widehat{G}$, the dimension of the algebra End$_K(V_{\lambda})$ is $d^2_{\lambda}$; that of the algebra K[G] is Card(G). We therefore have the relation
 
@@ -367,9 +367,9 @@ Denote by $\widehat{\tau}$ the trace in the algebra $F(\widehat{G})$. Let $A = (
 
 (10) $\widehat{\tau}(A) =\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda})$.
 
-Since the mapping $\mathscr{F}$ is a K-algebra isomorphism, we have $\widehat{\tau}\circ \mathscr{F}=\tau$, and therefore
+Since the mapping $\overline{\mathscr{F}}$ is a K-algebra isomorphism, we have $\widehat{\tau}\circ \overline{\mathscr{F}}=\tau$, and therefore
 
-$\tau (a) =\widehat{\tau}(\mathscr{F}(a)) =\widehat{\tau}(\pi_{\lambda}(a))_{\lambda\in\widehat{G}}=\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr($\pi_{\lambda}(a)$) $=\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr$_{\lambda}(a)$
+$\tau (a) =\widehat{\tau}(\overline{\mathscr{F}}(a)) =\widehat{\tau}(\pi_{\lambda}(a))_{\lambda\in\widehat{G}}=\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr($\pi_{\lambda}(a)$) $=\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr$_{\lambda}(a)$
 
 for every $a\in K[G]$, that is
 
@@ -391,13 +391,13 @@ For $a\in K[G]$, relation $(^{\lambda\in\widehat{G}}$ 9) takes on the following 
 
 it follows that for every element $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ of $F(\widehat{G})$, we have
 
-(14) $\mathscr{F}^{-1}(A) =|G|^{-1}\sum_{g\in G}\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda}\pi_{\lambda}(g^{-1}))g$ (“Fourier inversion formula”).
+(14) $\overline{\mathscr{F}}^{-1}(A) =|G|^{-1}\sum_{g\in G}\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda}\pi_{\lambda}(g^{-1}))g$ (“Fourier inversion formula”).
 
 For $\mu\in \widehat{G}$, denote by $j_\mu:$ End$_K(V_\mu)\longrightarrow \prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ the mapping such that $j_\mu(u) = (v_{\lambda})$, where $v_{\lambda}= 0$ if $\lambda \not=\mu$ and $v_\mu=u$. By formula (14), we have
 
-(15) $\mathscr{F}^{-1}(j_\mu(u)) =|G|^{-1}d_\mu\sum_{g\in G}$ Tr($u\pi_\mu(g^{-1})$)$g$.
+(15) $\overline{\mathscr{F}}^{-1}(j_\mu(u)) =|G|^{-1}d_\mu\sum_{g\in G}$ Tr($u\pi_\mu(g^{-1})$)$g$.
 
-The center of the algebra $F(\widehat{G}) =\prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ consists of the families $(a_{\lambda}1_{V_{\lambda}})_{\lambda\in\widehat{G}}$, where $(a_{\lambda})$ is a family of elements of K. It is the image by $\mathscr{F}$ of the center of the algebra K[G]. That center therefore has a basis $(e_{\lambda})_{\lambda\in\widehat{G}}$ characterized by the relation
+The center of the algebra $F(\widehat{G}) =\prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ consists of the families $(a_{\lambda}1_{V_{\lambda}})_{\lambda\in\widehat{G}}$, where $(a_{\lambda})$ is a family of elements of K. It is the image by $\overline{\mathscr{F}}$ of the center of the algebra K[G]. That center therefore has a basis $(e_{\lambda})_{\lambda\in\widehat{G}}$ characterized by the relation
 
 $$
 \pi_{\lambda}(e_\mu) =\delta_{\lambda \mu}1_{V_{\lambda}} \tag{16}
@@ -657,7 +657,7 @@ Let $(V, \pi )$ be a simple representation of G and $\chi$ be its character. For
 
 Let L be an extension of $\mathbf{Q}$. Let A be a subring of L. Suppose that A is a finitely generated $\mathbf{Z}$-module. We have $A\cap \mathbf{Q}=\mathbf{Z}$.
 
-Since the $\mathbf{Z}$-module $A\cap \mathbf{Q}$ is finitely generated, there exists a strictly positive integer N such that $A\cap \mathbf{Q}$ is contained in $_N^1\mathbf{Z}$. Let $x$ be an element of $\mathbf{Q}-\mathbf{Z}$; we write it as $x=^p_q$, where $p$ and $q$ are mutually prime integers and $q\geqslant 2$. We have $q^N\geqslant 2^N>N ($Set Theory, III, §3, No. 6, p. 165, Theorem 2), the integers $p^N$ and $q^N$ are mutually prime, and consequently $x^N\in /_N^1\mathbf{Z}$. It follows that $x$ does not belong to A. This concludes the proof of the lemma.
+Since the $\mathbf{Z}$-module $A\cap \mathbf{Q}$ is finitely generated, there exists a strictly positive integer N such that $A\cap \mathbf{Q}$ is contained in $\frac{1}{N}\mathbf{Z}$. Let $x$ be an element of $\mathbf{Q}-\mathbf{Z}$; we write it as $x=\frac{p}{q}$, where $p$ and $q$ are mutually prime integers and $q\geqslant 2$. We have $q^N\geqslant 2^N>N ($Set Theory, III, §3, No. 6, p. 165, Theorem 2), the integers $p^N$ and $q^N$ are mutually prime, and consequently $x^N\in /\frac{1}{N}\mathbf{Z}$. It follows that $x$ does not belong to A. This concludes the proof of the lemma.
 
 In the next subsection, we extend Proposition 9 to the case when we only assume that the characteristic of K does not divide the order of G.
 
@@ -685,7 +685,7 @@ A) Suppose that the field K has characteristic 0.
 
 The group $\mu_n(K)$ is cyclic (V, §11, No. 2, p. 78, Theorem 1); choose a generator $\zeta$ of this group. Consider the ring homomorphism $\rho :\mathbf{Z}[X]\rightarrow \mathscr{O}_n$ that sends X to $\zeta$. It is surjective. The cyclotomic polynomial $\Phi_n(X)$ is irreducible in $\mathbf{Q}[X]$ (V, §11, No. 5, p. 84, Theorem 2); it is therefore the minimal polynomial of $\zeta$ over $\mathbf{Q}$. The polynomial $\Phi_n$ is monic with integer coefficients (V, §11, No. 4, p. 81). Let $P\in \mathbf{Z}[X]$ be a polynomial such that $P(\zeta ) = 0$; by Euclidean division of polynomials (IV, §1, No. 6, p. 10), there exist two polynomial Q and R in $\mathbf{Z}[X]$ such that P = QΦ$_n+ R$ and deg(R) $<$ deg(Φ$_n)$. We have $R(\zeta ) = 0$, and therefore R = 0 because $\Phi_n$ is the minimal polynomial of $\zeta$. Consequently, the kernel of $\rho$ is the ideal $\Phi_n\mathbf{Z}[X]$ of $\mathbf{Z}[X]$, and $\rho$ induces a ring isomorphism from $\mathbf{Z}[X]/\Phi_n\mathbf{Z}[X]$ to $\mathscr{O}_n$.
 
-Set $\zeta '=\varphi (\zeta )$; it is a primitive $n$-th root of unity in $K'$, and we therefore have $\Phi_n(\zeta ') = 0$ (V, §11, No. 5, p. 83, Lemma 3). Consequently, there exists a homomorphism $\varphi_0$ from the ring $\mathscr{O}_n$ to the field $K'$ that transforms $\zeta$ into $\zeta '$; it extends the mapping $\varphi$ from $\mu_n(K)$ to $\mu_n(K')$. Let $\mathscr{O}$ be the subring of K consisting of the elements $_n^{a_r}$ with $a\in \mathscr{O}_n$ and $r\in \mathbf{N}$. Since $n\cdot 1$ is invertible in $K'$, the homomorphism $\varphi_0$ extends to a homomorphism $\varphi_1$ from $\mathscr{O}$ to $K'$.
+Set $\zeta '=\varphi (\zeta )$; it is a primitive $n$-th root of unity in $K'$, and we therefore have $\Phi_n(\zeta ') = 0$ (V, §11, No. 5, p. 83, Lemma 3). Consequently, there exists a homomorphism $\varphi_0$ from the ring $\mathscr{O}_n$ to the field $K'$ that transforms $\zeta$ into $\zeta '$; it extends the mapping $\varphi$ from $\mu_n(K)$ to $\mu_n(K')$. Let $\mathscr{O}$ be the subring of K consisting of the elements $\frac{a}{n^r}$ with $a\in \mathscr{O}_n$ and $r\in \mathbf{N}$. Since $n\cdot 1$ is invertible in $K'$, the homomorphism $\varphi_0$ extends to a homomorphism $\varphi_1$ from $\mathscr{O}$ to $K'$.
 
 We identify the algebra $\mathscr{O}[G]$ of the group G over $\mathscr{O}$ with a subring of the algebra K[G] and define a ring homomorphism Φ from $\mathscr{O}[G]$ to $K'[G]$ by the formula
 
@@ -731,13 +731,13 @@ $$
 \delta (T) = (1 + T\omega_1)\cdots (1 + T\omega_{d_{\lambda}})
 $$
 
-We define $\delta '(T)$ likewise, and we denote the eigenvalues of $\pi_{\lambda'}(g)$ by $\omega '_1, . . . , \omega '_{d_{\lambda'}}$. The $\mathscr{O}$-module $\mathscr{O}[G]$ is free with basis G, and the K-vector space K[G] has basis G. Denote by Δ(T) the determinant of multiplication by $1 +e_{\lambda}gT$ in the $\mathscr{O}$[T]-module $\mathscr{O}[T]\otimes_{\mathscr{O}}\mathscr{O}[G]$. It is also the determinant of multiplication by $1 +e_{\lambda}gT$ in the K[T]-module $K[T]\otimes_KK[G]$. Let $\varphi_1$ be the homomorphism from $\mathscr{O}[T]$ to $K'[T]$ that extends $\varphi_1$ and sends T to T. Since G is a basis of the $K'$-vector space $K'[G]$, the polynomial $\varphi_1(\Delta (T))$ is equal to the determinant $\Delta '(T)$ of multiplication by $1 +e_{\lambda'}gT$ in the $K'$-vector space $K'[G]$.
+We define $\delta '(T)$ likewise, and we denote the eigenvalues of $\pi_{\lambda'}(g)$ by $\omega '_1, . . . , \omega '_{d_{\lambda'}}$. The $\mathscr{O}$-module $\mathscr{O}[G]$ is free with basis G, and the K-vector space K[G] has basis G. Denote by Δ(T) the determinant of multiplication by $1 +e_{\lambda}gT$ in the $\mathscr{O}$[T]-module $\mathscr{O}[T]\otimes_{\mathscr{O}}\mathscr{O}[G]$. It is also the determinant of multiplication by $1 +e_{\lambda}gT$ in the K[T]-module $K[T]\otimes_KK[G]$. Let $\overline{\varphi}_1$ be the homomorphism from $\mathscr{O}[T]$ to $K'[T]$ that extends $\varphi_1$ and sends T to T. Since G is a basis of the $K'$-vector space $K'[G]$, the polynomial $\overline{\varphi}_1(\Delta (T))$ is equal to the determinant $\Delta '(T)$ of multiplication by $1 +e_{\lambda'}gT$ in the $K'$-vector space $K'[G]$.
 
 The algebra K[G] is the direct sum of its simple components $e_\mu K[G]$ for $\mu$ running through $\mathscr{S}_K(G)$. For $\mu$ different from $\lambda$, the element $e_{\lambda}g$ annihilates $e_\mu K[G]$. Moreover, multiplication by $e_{\lambda}g$ coincides with multiplication by $g$ in $e_{\lambda}K[G]$. In view of VIII, p. 409 and Example 6 of VIII, p. 400, the representation of G in $e_{\lambda}K[G]$ is the direct sum of $d_{\lambda}$ representations of class $\lambda$. We consequently have $\Delta (T) =\delta (T)^{d_{\lambda}}$.
 
 Analogously, we have $\Delta '(T) =\delta '(T)^{d_{\lambda'}}$.
 
-From the relation $\Delta '(T) =\varphi_1$(Δ(T)), we deduce first that $d^2_{\lambda}=d^2_{\lambda'}$, and therefore $d_{\lambda}=d_{\lambda'}$, and then that the sequence $\varphi (\omega_1), . . . , \varphi (\omega_{d_{\lambda}})$ can be deduced from the sequence $(\omega '_1, . . . , \omega '_{d'_{\lambda'}})$ by a permutation of the set of indices.
+From the relation $\Delta '(T) =\overline{\varphi}_1$(Δ(T)), we deduce first that $d^2_{\lambda}=d^2_{\lambda'}$, and therefore $d_{\lambda}=d_{\lambda'}$, and then that the sequence $\varphi (\omega_1), . . . , \varphi (\omega_{d_{\lambda}})$ can be deduced from the sequence $(\omega '_1, . . . , \omega '_{d'_{\lambda'}})$ by a permutation of the set of indices.
 
 Since this is true for every element $g$ of G, the representations $\lambda$ and $\lambda '$ are related. We have therefore proved Proposition 10 when the field K has characteristic 0.
 
@@ -840,13 +840,13 @@ Let Ψ be a Hermitian form on M; there exists a unique endomorphism A of M such 
 We endow the vector space $\mathbf{C}[G]$ of complex functions on G with the Hilbert space structure whose inner product is given by
 
 $$
-\langle f|f'\rangle_G=|G|^{-1}\sum_{g\in G}f(g)f'(g) \tag{50}
+\langle f|f'\rangle_G=|G|^{-1}\sum_{g\in G}\overline{f(g)}f'(g) \tag{50}
 $$
 
 For any function $f\in \mathbf{C}[G]$, we denote by $f^*$ the function defined by
 
 $$
-f^*(g) =f(g^{-1}) \tag{51}
+f^*(g) =\overline{f(g^{-1})} \tag{51}
 $$
 
 for $g\in G$; the mapping $f\mapsto f^*$ is a semilinear involution of $\mathbf{C}[G]$. We also have

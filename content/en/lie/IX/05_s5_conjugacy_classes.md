@@ -29,7 +29,7 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: ea7a2d7cd087379e261b5ceb1c7446ed68736814f472c4f9bf184283d91150a5
+content_sha256: 4b91101cc1891e53ac126bac850c8fc44e5df06c21ee56732fa70a347324e326
 ---
 
 ## § 5. CONJUGACY CLASSES
@@ -96,13 +96,13 @@ If $w\in W$ and $\gamma \in \Gamma$(T), then $wt_{\gamma}w^{-1}=t_{w(\gamma)}$ a
 
 #### Corollary 1 {#lie-ix-s5-prop-2-cor-1 .statement tag=01DY}
 
-Let A be an alcove of $\mathfrak{t}$, A its closure, and $H_A$ the stabilizer of A in $W'_a$.
+Let A be an alcove of $\mathfrak{t},\overline{A}$ its closure, and $H_A$ the stabilizer of A in $W'_a$.
 
 a) The group $W_a'$ is the semi-direct product of $H_A$ by $W_a$.
 
 b) The exponential map $A\rightarrow T$ and the canonical injection $T\rightarrow G$ induce by passage to the quotients and to subsets homeomorphisms
 
-$A/H_A\rightarrow T/W\rightarrow G/$Int(G)
+$\overline{A}/H_A\rightarrow T/W\rightarrow G/$Int(G)
 
 $A/H_A\rightarrow T_r/W\rightarrow G_r/$Int(G).
 
@@ -124,9 +124,9 @@ The special points of $W_a$ (Chap. VI, §2, no. 2) are the elements $x$ of $\mat
 
 #### Corollary 2 {#lie-ix-s5-prop-2-cor-2 .statement tag=01E2}
 
-Let C be a chamber of $\mathfrak{t}$ and C its closure. The canonical injections $C\rightarrow \mathfrak{t}\rightarrow \mathfrak{g}$ induce by passage to the quotient homeomorphisms
+Let C be a chamber of $\mathfrak{t}$ and $\overline{C}$ its closure. The canonical injections $\overline{C}\rightarrow \mathfrak{t}\rightarrow \mathfrak{g}$ induce by passage to the quotient homeomorphisms
 
-$C\rightarrow \mathfrak{t}/W\rightarrow \mathfrak{g}/$Ad(G).
+$\overline{C}\rightarrow \mathfrak{t}/W\rightarrow \mathfrak{g}/$Ad(G).
 
 The canonical maps $C\rightarrow \mathfrak{t}$ and $\mathfrak{t}\rightarrow \mathfrak{t}/W$ are proper (General Topology, Chap. III, §4, no. 1, Prop. $2c))$. The map $C\rightarrow \mathfrak{t}/W$ is continuous, proper and bijective (Prop. $2c))$; thus, it is a homeomorphism, hence the corollary in view of the Cor. of Prop. 6 of §2, no. 5.
 
@@ -142,7 +142,7 @@ $C\rightarrow \mathfrak{t}_{reg}/W\rightarrow \mathfrak{g}_{reg}/$Ad(G).
 
 #### Corollary 3 {#lie-ix-s5-prop-2-cor-3 .statement tag=01E4}
 
-Assume that G is simply-connected; let $g$ be a regular element of G. There exist a maximal torus S of G, and an alcove A of L(S), both uniquely determined, such that $g\in$ exp(A) and $0\in A$.
+Assume that G is simply-connected; let $g$ be a regular element of G. There exist a maximal torus S of G, and an alcove A of L(S), both uniquely determined, such that $g\in$ exp(A) and $0\in \overline{A}$.
 
 We can assume that $g$ belongs to $T_r($§2, no. 2, Th. 2). Let $x$ be an element of $\mathfrak{t}_r$ such that exp $x=g$, and let $A'$ be the alcove of $\mathfrak{t}$ containing $x$. The alcoves A of $\mathfrak{t}$ such that $g\in$ exp(A) are the alcoves $A'-\gamma$ for $\gamma \in \Gamma (T)$; thus, the assertion follows from Prop. $2d)$.
 
@@ -292,7 +292,7 @@ $$
 (u, x).\omega = (u.\omega , \omega^{-1}(x)),u\in G/T, x\in \mathfrak{t}, \omega \in W'_a
 $$
 
-where $\omega$ is the image of $\omega$ in the quotient $W'_a/\Gamma (T) = W$.
+where $\overline{\omega}$ is the image of $\omega$ in the quotient $W'_a/\Gamma (T) = W$.
 
 If A is an alcove of $\mathfrak{t}$, and if $H_A$ is the subgroup of $W'_a$ that stabilizes A, we obtain by restriction an operation of $H_A$ on $(G/T)\times A$.
 

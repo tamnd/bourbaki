@@ -26,7 +26,7 @@ subsections:
       pdf_page: 391
 statements: 9
 exercises: 1
-content_sha256: 7b766d35694398091ea1358aaff8ca389aa653296b33011fadd9cd6b1767dfe7
+content_sha256: 41872eb014d688a41d6d3ba05be1302df46947f174e42f3298da768560d2a8da
 ---
 
 ## APPENDIX I
@@ -71,7 +71,7 @@ Let $(G_{\alpha}, f_{\alpha \beta})$ be a projective system of topological group
 
 a) The subgroups $D(G_{\alpha})$ (resp. $C(G_{\alpha})$, resp. $C(G_{\alpha})_0)$ form a projective system of subsets of $G_{\alpha}$.
 
-b) We have D(G) = lim$_{_{\leftarrow -}}D(G_{\alpha})$ and C(G) = lim$_{_{\leftarrow -}}C(G_{\alpha})$.
+b) We have D(G) = lim$_{_{\leftarrow -}}\overline{D(G_{\alpha})}$ and C(G) = lim$_{_{\leftarrow -}}C(G_{\alpha})$.
 
 $\alpha \alpha$
 

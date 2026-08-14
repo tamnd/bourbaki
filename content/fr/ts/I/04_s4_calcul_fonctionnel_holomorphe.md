@@ -69,7 +69,7 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: 084289b4f98eb082568c563a28d3cefc2b1d3d47a37d2d5ac3389e25f32963fd
+content_sha256: 33dcf620be1bbbf74fc41dd412fda77f90cad3658fbe14fc00a18ce4253618bf
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -208,7 +208,7 @@ $$
 
 Soient U un ouvert de $\mathbf{C}^n$ et K un sous-ensemble compact de U. Il existe une application indéfiniment dérivable $h$ de $\mathbf{C}^n$ dans $\mathbf{C}$, égale à 1 sur K et à support compact inclus dans U.
 
-Soit V un voisinage ouvert relativement compact de K tel que V est inclus dans U (TG, I, p. 65, prop. 10). Il existe une fonction indéfiniment dérivable $h$ de $\mathbf{C}^n$ dans $\mathbf{C}$ dont le support est inclus dans V et qui est égale à 1 sur K (VAR, R1, p. 40, 5.3.6). Cette fonction a les propriétés demandées.
+Soit V un voisinage ouvert relativement compact de K tel que $\overline{V}$ est inclus dans U (TG, I, p. 65, prop. 10). Il existe une fonction indéfiniment dérivable $h$ de $\mathbf{C}^n$ dans $\mathbf{C}$ dont le support est inclus dans V et qui est égale à 1 sur K (VAR, R1, p. 40, 5.3.6). Cette fonction a les propriétés demandées.
 
 #### Exemple {#ts-i-s4-n3-exa-1 .statement tag=029Y}
 
@@ -1158,7 +1158,7 @@ $$
 z-(a+h) = (1-h(z-a)^{-1})(z-a)
 $$
 
-et $\|h(z-a)^{-1}\|\leqslant^1_2$, donc $z-(a+h)$ est inversible et son inverse vérifie
+et $\|h(z-a)^{-1}\|\leqslant \frac{1}{2}$, donc $z-(a+h)$ est inversible et son inverse vérifie
 
 $$
 (z-(a+h))^{-1}= (z-a)^{-1}\sum_{n=0}^{\infty}(h(z-a)^{-1})^n \tag{8}
@@ -1586,7 +1586,7 @@ Soient E et F des espaces vectoriels topologiques normables sur K. L’espace ve
 
 Soient E et F des espaces vectoriels topologiques normables sur $\mathbf{R}$. L’application $\mathbf{C}$-linéaire $\varphi :\mathscr{L}(E; F)_{(\mathbf{C})}\rightarrow \mathscr{L}(E_{(\mathbf{C})}; F_{(\mathbf{C})})$ définie par $\varphi (\lambda \otimes u) =\lambda u_{(\mathbf{C})}$ est un isomorphisme d’espaces vectoriels topologiques complexes. En particulier, le dual de $E_{(\mathbf{C})}$ s’identifie au complexifié du dual de E et l’algèbre normable $\mathscr{L}(E_{(\mathbf{C})})$ à la complexifiée de l’algèbre normable $\mathscr{L}(E)$.
 
-Soit S une partie compacte de $\mathbf{C}$ stable par la conjugaison complexe. Considérons la $\mathbf{C}$-algèbre $\mathscr{O}(S)$ des germes de fonctions holomorphes à valeurs complexes au voisinage de S, munie de la structure d’espace localement convexe complexe définie au n$^o1$ de I, p. 49. Si U est un voisinage ouvert de S dans $\mathbf{C}$, et $h: U\rightarrow \mathbf{C}$ une fonction holomorphe, l’image V de U par la conjugaison complexe est un voisinage ouvert de S dans $\mathbf{C}$ et $h^*:w\mapsto h(w)$ est une fonction holomorphe sur V. On en déduit par passage à la limite inductive une involution continue $f\mapsto f^*$ dans l’algèbre $\mathscr{O}(S)$. On a en particulier :
+Soit S une partie compacte de $\mathbf{C}$ stable par la conjugaison complexe. Considérons la $\mathbf{C}$-algèbre $\mathscr{O}(S)$ des germes de fonctions holomorphes à valeurs complexes au voisinage de S, munie de la structure d’espace localement convexe complexe définie au n$^o1$ de I, p. 49. Si U est un voisinage ouvert de S dans $\mathbf{C}$, et $h: U\rightarrow \mathbf{C}$ une fonction holomorphe, l’image V de U par la conjugaison complexe est un voisinage ouvert de S dans $\mathbf{C}$ et $h^*:w\mapsto \overline{h(\overline{w})}$ est une fonction holomorphe sur V. On en déduit par passage à la limite inductive une involution continue $f\mapsto f^*$ dans l’algèbre $\mathscr{O}(S)$. On a en particulier :
 
 $$
 (f+g)^*=f^*+g^*(f g)^*=f^*g^*(\lambda f)^*=\lambda f^*
@@ -1602,7 +1602,7 @@ Notons $z$ le germe dans $\mathscr{O}(S)$ de l’application identique de $\math
 
 On a $z^*=z$, donc $z$ appartient à $\mathscr{O}_{\mathbf{R}}(S)$. Soit B une sous-$\mathbf{R}$-algèbre fermée pleine de $\mathscr{O}(S)$ contenant $z$. L’application $f\mapsto f+f^*$ de $\mathscr{O}(S)$ dans $\mathscr{O}_{\mathbf{R}}(S)$ est continue et surjective, et l’ensemble des germes de fonctions rationnelles holomorphes au voisinage de S est dense dans $\mathscr{O}(S)$ (th. 3 de I, p. 69). Pour démontrer que B contient $\mathscr{O}_{\mathbf{R}}(S)$, il suffit donc de démontrer que si $f$ est le germe d’une telle fonction rationnelle, on a $f+f^*\in B$.
 
-Il existe des polynômes P et Q dans $\mathbf{C}[X]$ tels que Q ne s’annule en aucun point de S et que l’on ait $f$ = $^{P(}_{Q(}^z_z^)_)$. Notons $P^*$ et $Q^*$ les polynômes obtenus en remplaçant les coefficients de P et Q par leurs conjugués. On a alors $P(z)^*= P^*(z)$ et $Q(z)^*= Q^*(z)$. Comme S est stable par la conjugaison complexe, le polynôme $Q^*$ ne s’annule en aucun point de S. Les germes $Q^*(z)$ et (QQ$^*)(z)$ sont donc inversibles dans $\mathscr{O}(S)$, et
+Il existe des polynômes P et Q dans $\mathbf{C}[X]$ tels que Q ne s’annule en aucun point de S et que l’on ait $f=\frac{P(z)}{Q(z)}$. Notons $P^*$ et $Q^*$ les polynômes obtenus en remplaçant les coefficients de P et Q par leurs conjugués. On a alors $P(z)^*= P^*(z)$ et $Q(z)^*= Q^*(z)$. Comme S est stable par la conjugaison complexe, le polynôme $Q^*$ ne s’annule en aucun point de S. Les germes $Q^*(z)$ et (QQ$^*)(z)$ sont donc inversibles dans $\mathscr{O}(S)$, et
 
 $_*P(z)P^*(z)$ (PQ$^*+ P^*Q)(z)$
 
@@ -1620,19 +1620,19 @@ $\varrho (x) =_{n\rightarrow}$lim$_{+\infty}\|x^n\|^{1/n}=$ inf$_{n>0}\|x^n\|^{1
 
 pour toute norme sur A qui définit la topologie de A. En effet, on peut supposer que la norme sur A est la restriction d’une norme sur $A_{(\mathbf{C})}$ qui définit la topologie de $A_{(\mathbf{C})}$ et appliquer la prop. 1 de I, p. 20.
 
-Notons $u\mapsto u$ l’endomorphisme de la $\mathbf{R}$-algèbre $A_{(\mathbf{C})}$ qui applique $\lambda \otimes a$ sur $\lambda \otimes a$. Il est continu.
+Notons $u\mapsto \overline{u}$ l’endomorphisme de la $\mathbf{R}$-algèbre $A_{(\mathbf{C})}$ qui applique $\lambda \otimes a$ sur $\lambda \otimes a$. Il est continu.
 
 #### Lemme {#ts-i-s4-n13-lem-1 .statement tag=02BB}
 
-Pour tout $f\in \mathscr{O}$(Sp$_{A_{(\mathbf{C})}}(x))$, on a $f^*(1\otimes x) =f(1\otimes x)$.
+Pour tout $f\in \mathscr{O}$(Sp$_{A_{(\mathbf{C})}}(x))$, on a $f^*(1\otimes x) =\overline{f(1 \otimes x)}$.
 
-Les applications $f\mapsto f(1\otimes x)$ et $f\mapsto f^*(1\otimes x)$ sont des homomorphismes unifères continus de $\mathbf{C}$-algèbres de $\mathscr{O}$(Sp($x$)) dans $A_{(\mathbf{C})}$ qui appliquent $z$ sur $1\otimes x$; elles sont donc égales (I, p. 74, th. 5).
+Les applications $f\mapsto f(1\otimes x)$ et $f\mapsto \overline{f^*(1 \otimes x)}$ sont des homomorphismes unifères continus de $\mathbf{C}$-algèbres de $\mathscr{O}$(Sp($x$)) dans $A_{(\mathbf{C})}$ qui appliquent $z$ sur $1\otimes x$; elles sont donc égales (I, p. 74, th. 5).
 
 #### Proposition 20 {#ts-i-s4-prop-20 .statement tag=02BC}
 
 Pour tout $f\in \mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x))$, il existe un unique élément $f(x)$ de A tel que $f(1\otimes x) = 1\otimes f(x)$ dans $A_{(\mathbf{C})}$. L’application $f\mapsto f(x)$ de $\mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x))$ dans A est l’unique homomorphisme unifère continu de $\mathbf{R}$-algèbres qui applique sur $x$ le germe dans $\mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x))$ de l’application identique de $\mathbf{C}$.
 
-Notons S = Sp$_{A_{(\mathbf{C})}}(x)$. D’après le lemme ci-dessus, pour tout germe $f\in \mathscr{O}_{\mathbf{R}}$(Sp($x$)), on a $f(1\otimes x) =f(1\otimes x)$. La première assertion en résulte. Notons $z$ le germe dans $\mathscr{O}_{\mathbf{R}}(S)$ de l’application identique de $\mathbf{C}$. L’application $f\mapsto f(x)$ est un homomorphisme continu unifère de la $\mathbf{R}$-algèbre $\mathscr{O}_{\mathbf{R}}$(Sp($x$)) dans A, qui applique $z$ sur $x$. C’est le seul d’après la prop. 19, puisque tout morphisme ayant ces propriétés est déterminé de manière unique sur toute sous-$\mathbf{R}$-algèbre fermée pleine de $\mathscr{O}(S)$ contenant $z$.
+Notons S = Sp$_{A_{(\mathbf{C})}}(x)$. D’après le lemme ci-dessus, pour tout germe $f\in \mathscr{O}_{\mathbf{R}}$(Sp($x$)), on a $f(1\otimes x) =\overline{f(1 \otimes x)}$. La première assertion en résulte. Notons $z$ le germe dans $\mathscr{O}_{\mathbf{R}}(S)$ de l’application identique de $\mathbf{C}$. L’application $f\mapsto f(x)$ est un homomorphisme continu unifère de la $\mathbf{R}$-algèbre $\mathscr{O}_{\mathbf{R}}$(Sp($x$)) dans A, qui applique $z$ sur $x$. C’est le seul d’après la prop. 19, puisque tout morphisme ayant ces propriétés est déterminé de manière unique sur toute sous-$\mathbf{R}$-algèbre fermée pleine de $\mathscr{O}(S)$ contenant $z$.
 
 Soit $f\in \mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x))$. L’élément $f(x)$ appartient à toute sous-algèbre fermée pleine de A contenant $x$ (prop. 19), donc appartient au bicommutant de $x$ dans A. Le spectre complexe de $f(x)$ est égal à $f$(Sp($x$)) (I, p. 75, prop. 8). Pour tout $g\in \mathscr{O}_{\mathbf{R}}(f$(Sp$_{A_{(\mathbf{C})}}(x)))$, on a $g\circ f\in \mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x))$ et (loc. cit.) $(g\circ f)(x) =g(f(x))$.
 

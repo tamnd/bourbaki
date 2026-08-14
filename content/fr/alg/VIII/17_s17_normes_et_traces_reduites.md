@@ -37,7 +37,7 @@ subsections:
       pdf_page: 345
 statements: 31
 exercises: 7
-content_sha256: 9b85ada3ab4ad4b70fe0563c47dcedec6421feb35bc3a2864cf6893721b30c77
+content_sha256: f3266c68dfb1405a75fcd339eea03443646cac7036648f520b60474aad74cf26
 ---
 
 ## § 17. NORMES ET TRACES RÉDUITES
@@ -52,7 +52,7 @@ Soient L un anneau commutatif et M un L-module libre de dimension finie $m$. Si 
 
 et $c_r(u) = 0$ pour $r > m$. D’après la prop. 7 de III, p. 94, L’application $u\rightarrow$ det($u$) de End(M) dans L est polynomiale homogène de degré $m$ (IV, p. 52). Plus généralement, pour tout entier $r$ tel que $0\leqslant r\leqslant m$, l’application $c_r$ de End(M) dans L est polynomiale homogène de degré $r$; cela résulte de la prop. 10 de III, p. 96.
 
-Soient $u$ un endomorphisme de M et $u$ l’endomorphisme du L[X]-module M[X] = $M\otimes_LL[X]$ déduit de $u$ par extension des scalaires (II, p. 83). On rappelle (III, p. 107, déf. 3 et (50)) que le polynôme caractéristique de $u$ est le déterminant $\chi_u(X)$ du L[X]-endomorphisme $X-u$ de M[X] et que l’on a la relation
+Soient $u$ un endomorphisme de M et $\overline{u}$ l’endomorphisme du L[X]-module M[X] = $M\otimes_LL[X]$ déduit de $u$ par extension des scalaires (II, p. 83). On rappelle (III, p. 107, déf. 3 et (50)) que le polynôme caractéristique de $u$ est le déterminant $\chi_u(X)$ du L[X]-endomorphisme $X-\overline{u}$ de M[X] et que l’on a la relation
 
 $$
 \chi_u(X) =\sum_{r=0}^m(-1)^rc_r(u) X^{m-r} \tag{2}
@@ -110,7 +110,7 @@ $$
 
 Par suite, $h_1(\widetilde{u}\circ u(x_1)) =h_1$(det($u$)$x_1)$, d’où la relation $\widetilde{u}\circ u=$ det($u$)$_M$ d’après le lemme 1.
 
-Notons U l’endomorphisme $X-u$ du L[X]-module M[X] (VIII, p. 329). D’après ce qui précède, appliqué à U, il existe un endomorphisme $\widetilde{U}$ du L[X]-module M[X] qui satisfait aux relations
+Notons U l’endomorphisme $X-\overline{u}$ du L[X]-module M[X] (VIII, p. 329). D’après ce qui précède, appliqué à U, il existe un endomorphisme $\widetilde{U}$ du L[X]-module M[X] qui satisfait aux relations
 
 $$
 \widetilde{U}(x_1)\wedge x_2\wedge  \cdots  \wedge x_m=x_1\wedge (Xx_2-u(x_2))\wedge  \cdots  \wedge (Xx_m-u(x_m)) \tag{9}
@@ -216,7 +216,7 @@ Posons P(X) = det(X$I_n-\theta (1\otimes a))$; c’est un polynôme unitaire de 
 
 (19) Pc($a; X$) $= P(X)^n$.
 
-Soit G le groupe de Galois de L sur K. Pour $\sigma \in G$, notons $\sigma$ l’automorphisme de l’anneau L[X] qui coïncide avec $\sigma$ dans L et fixe X. Alors K[X] est l’ensemble des polynômes Q de L[X] tels que l’on ait $\sigma (Q) = Q$ pour tout $\sigma \in G$ (V, p. 54, th. 1). Comme le polynôme Pc($a; X$) $= P(X)^n$ appartient à K[X], on a $\sigma (P)^n= P^n$ pour tout $\sigma \in G$. D’après le lemme 2, on a donc $\sigma (P) = P$ pour tout $\sigma \in G$; ainsi P appartient à K[X].
+Soit G le groupe de Galois de L sur K. Pour $\sigma \in G$, notons $\overline{\sigma}$ l’automorphisme de l’anneau L[X] qui coïncide avec $\sigma$ dans L et fixe X. Alors K[X] est l’ensemble des polynômes Q de L[X] tels que l’on ait $\overline{\sigma}(Q) = Q$ pour tout $\sigma \in G$ (V, p. 54, th. 1). Comme le polynôme Pc($a; X$) $= P(X)^n$ appartient à K[X], on a $\overline{\sigma}(P)^n= P^n$ pour tout $\sigma \in G$. D’après le lemme 2, on a donc $\overline{\sigma}(P) = P$ pour tout $\sigma \in G$; ainsi P appartient à K[X].
 
 #### Définition 1 {#alg-viii-s17-def-1 .statement tag=00RM}
 
@@ -418,9 +418,9 @@ Soit $(e_i)_{i\in I}$ une base de A sur K et $\mathbf{T} = (T_i)_{i\in I}$ une f
 
 Soit $u$ l’élément $\sum_{i\in I}T_i\otimes e_i$ de la $K(\mathbf{T})$-algèbre centrale et simple $A_{(K(\mathbf{T}))}$. Soit P le polynôme caractéristique réduit de cet élément $u$. Alors P appartient à l’anneau $K[\mathbf{T}][X]$;considéré comme élément de l’anneau $K[\mathbf{T},X]$, il est homogène de degré $n$.
 
-Choisissons une extension L de K et un isomorphisme $\theta$ de L-algèbres de $A_{(L)}$ sur $\mathbf{M}_n(L)$. Notons $\theta : A_{(L(\mathbf{T}))}\rightarrow \mathbf{M}_n(L(\mathbf{T}))$ l’isomorphisme de $L(\mathbf{T}$)-algèbres déduit de $\theta$ par extension des scalaires. D’après le cor. 1 de VIII, p. 335, on a
+Choisissons une extension L de K et un isomorphisme $\theta$ de L-algèbres de $A_{(L)}$ sur $\mathbf{M}_n(L)$. Notons $\overline{\theta}: A_{(L(\mathbf{T}))}\rightarrow \mathbf{M}_n(L(\mathbf{T}))$ l’isomorphisme de $L(\mathbf{T}$)-algèbres déduit de $\theta$ par extension des scalaires. D’après le cor. 1 de VIII, p. 335, on a
 
-(47) $P(X) =\chi_{\theta(u)}(X) =$ det(X$I_n-\theta (u)) =$ det$(XI_n-\sum_{i\in I}T_i\theta (1\otimes e_i))$.
+(47) $P(X) =\chi_{\overline{\theta}(u)}(X) =$ det(X$I_n-\overline{\theta}(u)) =$ det$(XI_n-\sum_{i\in I}T_i\theta (1\otimes e_i))$.
 
 Comme les matrices $\theta (1\otimes e_i)$ appartiennent à $\mathbf{M}_n$(L), cette formule montre que P est un polynôme homogène de degré $n$ dans $L[\mathbf{T},X]$. Il appartient aussi à $K(\mathbf{T})[X]$ et il s’écrit sous la forme $P(X) =\sum_{j\geqslant 0}c_jX^j$, où chaque $c_j$ appartient à $K(\mathbf{T})\cap L[\mathbf{T}]$. D’après le lemme 3, chacun des éléments $c_j$ appartient à $K[\mathbf{T}]$, d’où le lemme 4.
 
@@ -430,7 +430,7 @@ Pour toute extension $K'$ de K et tout élément $(t_i)_{i\in I}$ de ${K'}^I$, o
 
 (48) Pcrd$_{A_{(K')}/K'}(\sum_{i\in I}t_i\otimes e_i)= P((t_i)_{i\in I},X)$.
 
-Soit $\varphi : K[\mathbf{T}]\rightarrow K'$ l’unique homomorphisme de K-algèbres qui transforme $T_i$ en $t_i$ pour tout $i\in$ I ; il définit sur $K'$ une structure de $K[\mathbf{T}$]-algèbre. La $K'$-algèbre $A_{(K[\mathbf{T}])(K')}$ s’identifie à $A_{(K')}$ (transitivité de l’extension des scalaires), l’élément $1\otimes (\sum T_i\otimes e_i)$ s’identifiant à l’élément $\sum t_i\otimes e_i$ de $A_{(K')}$. Notons $\varphi : K[\mathbf{T}][X]\rightarrow K'[X]$ l’homomorphisme de K-algèbres déduit de $\varphi$. D’après la formule (21) de III, p. 110, le polynôme caractéristique de $\sum t_i\otimes e_i$ relativement à la $K'$-algèbre $A_{(K')}$ est l’image par $\varphi$ du polynôme caractéristique de $\sum T_i\otimes e_i$ relativement à la $K[\mathbf{T}$]-algèbre $A_{(K[\mathbf{T}])}$, c’est-à-dire de $P^n$. Autrement dit, on a
+Soit $\varphi : K[\mathbf{T}]\rightarrow K'$ l’unique homomorphisme de K-algèbres qui transforme $T_i$ en $t_i$ pour tout $i\in$ I ; il définit sur $K'$ une structure de $K[\mathbf{T}$]-algèbre. La $K'$-algèbre $A_{(K[\mathbf{T}])(K')}$ s’identifie à $A_{(K')}$ (transitivité de l’extension des scalaires), l’élément $1\otimes (\sum T_i\otimes e_i)$ s’identifiant à l’élément $\sum t_i\otimes e_i$ de $A_{(K')}$. Notons $\overline{\varphi}: K[\mathbf{T}][X]\rightarrow K'[X]$ l’homomorphisme de K-algèbres déduit de $\varphi$. D’après la formule (21) de III, p. 110, le polynôme caractéristique de $\sum t_i\otimes e_i$ relativement à la $K'$-algèbre $A_{(K')}$ est l’image par $\overline{\varphi}$ du polynôme caractéristique de $\sum T_i\otimes e_i$ relativement à la $K[\mathbf{T}$]-algèbre $A_{(K[\mathbf{T}])}$, c’est-à-dire de $P^n$. Autrement dit, on a
 
 (49) Pc$_{A_{(K')}/K'}(\sum_{i\in I}t_i\otimes e_i; X) = P((t_i)_{i\in I},X)^n$;
 
