@@ -96,6 +96,6 @@
 {"from":"01KZ","from_label":"lie-viii-s8-ex-15","to":"015A","to_label":"lie-viii-s8-thm-1","kind":"cites","raw":"Th. 1","form":"local","resolved_by":"in-section","file":"content/en/lie/VIII/exercises/s8/15.md","line":29},
 {"from":"01KZ","from_label":"lie-viii-s8-ex-15","to":"015G","to_label":"lie-viii-s8-lem-6","kind":"cites","raw":"Lemma 6","form":"local","resolved_by":"in-section","file":"content/en/lie/VIII/exercises/s8/15.md","line":29},
 {"from":"01L1","from_label":"lie-viii-s8-ex-17","to":"01KZ","to_label":"lie-viii-s8-ex-15","kind":"cites","raw":"Exerc. 15","form":"local","resolved_by":"exercise","file":"content/en/lie/VIII/exercises/s8/17.md","line":21},
-{"from":"01L2","from_label":"lie-viii-s8-ex-18","kind":"cites","raw":"Chap. V, §5, no. 4","form":"section","resolved_by":"out-of-corpus","book":"LIE","chapter":"V","file":"content/en/lie/VIII/exercises/s8/18.md","line":23},
+{"from":"01L2","from_label":"lie-viii-s8-ex-18","kind":"cites","raw":"Prop. 5 of Chap. V, §5, no. 4","form":"section","resolved_by":"out-of-corpus","book":"LIE","chapter":"V","file":"content/en/lie/VIII/exercises/s8/18.md","line":23},
 {"from":"01L2","from_label":"lie-viii-s8-ex-18","to":"015S","to_label":"lie-viii-s8-ex-6","kind":"cites","raw":"Exerc. 6","form":"local","resolved_by":"exercise","file":"content/en/lie/VIII/exercises/s8/18.md","line":27}
 ]}

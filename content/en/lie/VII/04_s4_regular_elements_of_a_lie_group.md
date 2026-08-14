@@ -29,7 +29,7 @@ subsections:
       pdf_page: 44
 statements: 18
 exercises: 4
-content_sha256: d669868c18876c245ddaebdd98d5fe3a60834173d02a3044e84e61ddb556a7c6
+content_sha256: de75598523978ecc9f188180f4a190e826399bbea35166d0a49ab25c1bd638ee
 ---
 
 ## § 4. REGULAR ELEMENTS OF A LIE GROUP
@@ -174,11 +174,11 @@ Let V be an open subgroup of $\mathfrak{g}$ and let exp$: V\rightarrow G$ be an 
 
 (ii) If $k=\mathbf{R}$ or $\mathbf{C},\mathfrak{g}^1$(exp $x)\supset \mathfrak{g}^0(x)$ for all $x\in \mathfrak{g}$.
 
-By Cor. 3 of Prop. 8 of Chap. III, §4, no. 4, there exists a neighbourhood $V'$ of 0 in V such that, for all $x\in V'$, exp(ad($x$)) $=_n\sum^{\infty}_{=0n}^1_!$ ad($x$)$^n$ is defined and Ad(exp $x) =$ exp(ad($x$)). If $P\in k[X]$ and $\alpha \in$ End($\mathfrak{g}$), it is easy to check that $\mathfrak{g}^{\lambda}(\alpha )\subset \mathfrak{g}^{P(\lambda)}(P(\alpha ))$ for all $\lambda \in k$. Consequently,
+By Cor. 3 of Prop. 8 of Chap. III, §4, no. 4, there exists a neighbourhood $V'$ of 0 in V such that, for all $x\in V'$, exp(ad($x$)) $=\sum_n^{\infty}_{=0n}^1_!$ ad($x$)$^n$ is defined and Ad(exp $x) =$ exp(ad($x$)). If $P\in k[X]$ and $\alpha \in$ End($\mathfrak{g}$), it is easy to check that $\mathfrak{g}^{\lambda}(\alpha )\subset \mathfrak{g}^{P(\lambda)}(P(\alpha ))$ for all $\lambda \in k$. Consequently,
 
 $\mathfrak{g}^0$(ad($x$))$\subset \mathfrak{g}^1$(exp(ad($x$))) $=\mathfrak{g}^1$(Ad(exp $x)) =\mathfrak{g}^1$(exp $x)$
 
-for all $x\in V'$. If $k=\mathbf{R}$ or $\mathbf{C}, V =\mathfrak{g}$ and we can take $V'$ = V, which proves (ii). We prove (i). Let U be a neighbourhood of 0 in End($\sum\mathfrak{g}$) such that Log(1 $+\alpha ) =_{n>0}(-1)^{n+1 1}_n\alpha^n$ is defined for all $\alpha \in U$. Then Log $\circ$ exp = 1 on a neighbourhood of 0 and $\mathfrak{g}^1(1 +\alpha )\subset \mathfrak{g}^0$(Log(1 $+\alpha ))$ for all $\alpha \in U$. Let W be the neighbourhood of 0 in $\mathfrak{g}$ consisting of those $x\in V'$ such that exp ad $x\in 1 + U$ and
+for all $x\in V'$. If $k=\mathbf{R}$ or $\mathbf{C}, V =\mathfrak{g}$ and we can take $V'$ = V, which proves (ii). We prove (i). Let U be a neighbourhood of 0 in End($\mathfrak{g}$) such that Log(1 $+\alpha ) =\sum_{n>0}(-1)^{n+1 1}_n\alpha^n$ is defined for all $\alpha \in U$. Then Log $\circ$ exp = 1 on a neighbourhood of 0 and $\mathfrak{g}^1(1 +\alpha )\subset \mathfrak{g}^0$(Log(1 $+\alpha ))$ for all $\alpha \in U$. Let W be the neighbourhood of 0 in $\mathfrak{g}$ consisting of those $x\in V'$ such that exp ad $x\in 1 + U$ and
 
 Log(exp(ad($x$))) $=$ ad($x$).
 
@@ -248,7 +248,7 @@ If $k=\mathbf{C}$, the subalgebras $\mathfrak{g}^1(a)$, for $a$ regular and belo
 
 Let $k$ be a field of characteristic 0 and $\mathfrak{g}$ a Lie algebra over $k$. If $a\in$ Aut$_e(\mathfrak{g})$, the dimension of the nilspace of $a-1$ is greater than or equal to the rank of $\mathfrak{g}$.
 
-By the “Lefschetz principle” (Algebra, Chap. V, §14, no. 6, Cor. 2 of Th. $5),k$ is an ascending directed union of subfields $(k_i)_{i\in I}$ which admit $\mathbf{C}$ as extension field. Let $(e_{\alpha})$ be a basis of $\mathfrak{g}$ over $k$ and $x_1, . . . , x_m$ elements of $\mathfrak{g}$ such that ad($x_1$)$, . . .$, ad($x_m$) are nilpotent and $a=e^{ad(x_1)}. . . e^{ad(x_m)}$. Let $c^{\gamma}_{\alpha \beta}$ be the structure constants of $\mathfrak{g}$ with respect to the basis $(e_{\alpha})$ and $(x^{\alpha}_r)$ the components of $x_r$ with respect to this basis $(1\leq r\leq m)$. There exists an$\sum$ index $j\in I$ such that the $c^{\gamma}_{\alpha \beta}$ and the $x^{\alpha}_r$ all belong to $k_j$. Let $\mathfrak{g}_j=_{\alpha}k_je_{\alpha}$;
+By the “Lefschetz principle” (Algebra, Chap. V, §14, no. 6, Cor. 2 of Th. $5),k$ is an ascending directed union of subfields $(k_i)_{i\in I}$ which admit $\mathbf{C}$ as extension field. Let $(e_{\alpha})$ be a basis of $\mathfrak{g}$ over $k$ and $x_1, . . . , x_m$ elements of $\mathfrak{g}$ such that ad($x_1$)$, . . .$, ad($x_m$) are nilpotent and $a=e^{ad(x_1)}. . . e^{ad(x_m)}$. Let $c^{\gamma}_{\alpha \beta}$ be the structure constants of $\mathfrak{g}$ with respect to the basis $(e_{\alpha})$ and $(x^{\alpha}_r)$ the components of $x_r$ with respect to this basis $(1\leq r\leq m)$. There exists an index $j\in I$ such that the $c^{\gamma}_{\alpha \beta}$ and the $x^{\alpha}_r$ all belong to $k_j$. Let $\mathfrak{g}_j=\sum_{\alpha}k_je_{\alpha}$;
 
 this is a Lie algebra over $k_j$ containing $x_1, . . . , x_m$, and the restriction $a_j$ of $a$ to $\mathfrak{g}_j$ is an elementary automorphism of $\mathfrak{g}_j$. The extension of $a_j$ to $\mathfrak{g}_j\otimes_{k_j}\mathbf{C}$ is an elementary automorphism $a_j\otimes 1$ of $\mathfrak{g}_j\otimes \mathbf{C}$. So let $G_j$ be a connected complex Lie group with Lie algebra $\mathfrak{g}_j\otimes \mathbf{C}$, and $s$ an element of $G_j$ such that Ad($s$) $=a_j\otimes 1$. Prop. 8, applied to the pair $(G_j, s)$, shows that the nilspace of $a_j\otimes 1-1$ is of dimension $n$, so
 

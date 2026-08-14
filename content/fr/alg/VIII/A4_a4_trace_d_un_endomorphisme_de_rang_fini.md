@@ -22,7 +22,7 @@ subsections:
       pdf_page: 455
 statements: 5
 exercises: 2
-content_sha256: 5fcbf235cdf951145f09bed0ae97ba7fe5abfc2a6e7a7cec19ac574cd0bab12d
+content_sha256: 9cd2d17e2a2dcae4f31cfa2e66c955f9e87049726f818b929d13ba20dd27e03b
 ---
 
 ### APPENDICE 4 TRACE D’UN ENDOMORPHISME DE RANG FINI
@@ -121,11 +121,9 @@ Prouvons a). Pour tout entier $p\geqslant 0$, le A-module projectif $\wedge^pF$ 
 
 Prouvons b). Soit G un A-module tel que le A-module $L = E\oplus G$ soit libre. Notons $u', v'$ les endomorphismes $u\oplus 0_G$ et $v\oplus 0_G$ de L. D’après a), on a les relations det(1$_L+u') =$ det(1$_E+u)$, det(1$_L+v') =$ det(1$_E+v)$ et
 
-det(1$_L+u'+v'+u'\circ v') =$ det(1$_E+u+v+u\circ v)$; il suffit donc de prouver l’assertion b) lorsque le A-module E est libre. Il existe alors un sous-module libre de type fini F de E qui contient l’image de $u$ et celle de $v$. Posons $w=u+v+u\circ v$. L’image de $w$ est contenue dans F et l’on a $w_F=u_F+v_F+u_F\circ v_F$. On a donc, d’après (5), on a det(1$_E+u) =$ det(1$_F+u_F)$, det(1$_E+v) =$ det(1$_F+v_F)$
+det(1$_L+u'+v'+u'\circ v') =$ det(1$_E+u+v+u\circ v)$; il suffit donc de prouver l’assertion b) lorsque le A-module E est libre. Il existe alors un sous-module libre de type fini F de E qui contient l’image de $u$ et celle de $v$. Posons $w=u+v+u\circ v$. L’image de $w$ est contenue dans F et l’on a $w_F=u_F+v_F+u_F\circ v_F$. On a donc, d’après (5), on a det(1$_E+u) =$ det(1$_F+u_F)$, det(1$_E+v) =$ det(1$_F+v_F)$ et
 
-et $()$
-
-det $(1_E+u)\circ (1_E+v)$ = det(1$_E+w) =$ det(1$_F+w_F) =$ det((1$_F+u_F)\circ (1_F+v_F))$. Comme F est un A-module libre de type fini, on a
+det$((1_E+u)\circ (1_E+v))=$ det(1$_E+w) =$ det(1$_F+w_F) =$ det((1$_F+u_F)\circ (1_F+v_F))$. Comme F est un A-module libre de type fini, on a
 
 det((1$_F+u_F)\circ (1_F+v_F)) =$ det(1$_F+u_F)$ det(1$_F+v_F) =$ det(1$_E+u)$ det(1$_E+v)$.
 

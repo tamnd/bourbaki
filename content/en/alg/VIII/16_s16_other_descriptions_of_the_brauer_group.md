@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: dfc283af858516b9a560ae62b85ef070adea34c36f3c66f448de31a3f3498b66
+content_sha256: 3b927bc17d28fc25b45eb1070384920a9490424f7c16a93759926e5a0af404f0
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -749,11 +749,11 @@ $$
 =\prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}h(x\cdot g_1)^{-1}, h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}
 $$
 
-$\prod s(x)_{-1}-1''-1-1$
+$s(x)_{-1}-1''-1-1$
 
-$\times c h(x), s(x)g_1g_2s(x\cdot g_1g_2)$
-
-$x\in H\backslash G$
+$$
+\times \prod_{x\in H\backslash G}c h(x), s(x)g_1g_2s(x\cdot g_1g_2)
+$$
 
 $$
 \times c h(x)^{-1}, s'(x)g_1s'(x\cdot g_1)^{-1}
@@ -765,12 +765,12 @@ $$
 \times \prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}
 $$
 
-$\prod s(x)_{-1}-1-1-1$
+$s(x)_{-1}-1-1-1$
 
-$\times c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)$
+$\times \prod_{x\in H\backslash G}c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)$
 
 $$
-\times \prod^x_x^{\in}_{\in}^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}c h(x)^{-1}, s'(x)g_1g_2s'(x\cdot g_1g_2)^{-1-1}
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c h(x)^{-1}, s'(x)g_1g_2s'(x\cdot g_1g_2)^{-1-1}
 $$
 
 $$
@@ -779,15 +779,15 @@ $$
 
 $=\prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}$
 
-$\prod s(x)_{-1}-1-1-1$
+$s(x)_{-1}-1-1-1$
 
-$\times c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)$ $\times \prod^x_x^{\in}_{\in}^H_H^{\backslash}_{\backslash}^G_G^{g_1s(x)^{-1}}c h(x)^{-1}, h(x)s(x)g_2s'(x\cdot g_2)^{-1}$
+$\times \prod_{x\in H\backslash G}c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)$ $\times \prod_{x\in H\backslash G}^{g_1s(x)^{-1}}c h(x)^{-1}, h(x)s(x)g_2s'(x\cdot g_2)^{-1}$
 
-$\prod s(x)^-_1-1''-1-1$
+$s(x)^-_1-1''-1-1$
 
-$\times c h(x), s(x)g_1g_2s(x\cdot g_1g_2)$
-
-$x\in H\backslash G$
+$$
+\times \prod_{x\in H\backslash G}c h(x), s(x)g_1g_2s(x\cdot g_1g_2)
+$$
 
 $$
 \times c h(x)^{-1}, s'(x)g_1s'(x\cdot g_1)^{-1}
@@ -807,11 +807,11 @@ $$
 \prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}h(x\cdot g_1g_2)^{-1}
 $$
 
-$\prod s(x)_{-1}-1-1-1$
+$s(x)_{-1}-1-1-1$
 
-$\times c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)$
-
-$x\in H\backslash G$
+$$
+\times \prod_{x\in H\backslash G}c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)
+$$
 
 $=\prod_{x\in H\backslash G}^{g_1s(x\cdot g_1)^{-1}}c s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}, h(x\cdot g_1g_2)^{-1-1}$
 
@@ -827,12 +827,14 @@ $-1-1-1$
 
 $\times c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)$ $=\prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}$
 
-$\prod gs(x)_{-1}-1-1-1$
-
-$\times$ 1 $c s(x)g_2s(x\cdot g_2), h(x\cdot g_2)$
+$gs(x)_{-1}-1-1-1$
 
 $$
-\times \prod^x_x^{\in}_{\in}^H_H^{\backslash}_{\backslash}^G_G^{s(x)^{-1}}c s(x)g_1g_2s(x\cdot g_1g_2)^{-1}, h(x\cdot g_1g_2)^{-1}
+\times \prod_{x\in H\backslash G^1}c s(x)g_2s(x\cdot g_2), h(x\cdot g_2)
+$$
+
+$$
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1g_2s(x\cdot g_1g_2)^{-1}, h(x\cdot g_1g_2)^{-1}
 $$
 
 $$

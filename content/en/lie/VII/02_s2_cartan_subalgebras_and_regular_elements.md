@@ -29,7 +29,7 @@ subsections:
       pdf_page: 29
 statements: 40
 exercises: 16
-content_sha256: 5ab71245494206d6f62d68916a9920dc1fab8ed147e5fc51fa2e2cb037a8de22
+content_sha256: 3de96c51065d84f5de18528f2c64ead7198e0a21121822fb94978cb7570089d5
 ---
 
 ## § 2. CARTAN SUBALGEBRAS AND REGULAR ELEMENTS OF A LIE ALGEBRA
@@ -56,7 +56,7 @@ If $\mathfrak{g}$ is nilpotent, the only Cartan subalgebra of $\mathfrak{g}$ is 
 
 #### Example 2 {#lie-vii-s2-n1-exa-2 .statement tag=00TL}
 
-Let $\mathfrak{g}=\mathfrak{g}\mathfrak{l}(n, k)$, and let $\mathfrak{h}$ be the set of diagonal matrices belonging to $\mathfrak{g}$. We show that $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{g}$. First, $\mathfrak{h}$ is commutative, hence$\sum$ nilpotent. Let $(E_{ij})$ be the canonical basis of $\mathfrak{g}\mathfrak{l}(n, k)$, and let $x=\mu_{ij}E_{ij}$ be an element of the normalizer of $\mathfrak{h}$ in $\mathfrak{g}$. If $i\not=j$, formulas (5) of Chap. I, §1, no. 2 show that the coefficient of $E_{ij}$ in $[E_{ii}, x]$ is $\mu_{ij}$. Since $E_{ii}\in \mathfrak{h}$, $[E_{ii}, x]\in \mathfrak{h}$, and the coefficient in question is zero. Thus $\mu_{ij}= 0$ for $i\not=j$, so $x\in \mathfrak{h}$, which shows that $\mathfrak{h}$ is indeed a Cartan subalgebra of $\mathfrak{g}$.
+Let $\mathfrak{g}=\mathfrak{g}\mathfrak{l}(n, k)$, and let $\mathfrak{h}$ be the set of diagonal matrices belonging to $\mathfrak{g}$. We show that $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{g}$. First, $\mathfrak{h}$ is commutative, hence nilpotent. Let $(E_{ij})$ be the canonical basis of $\mathfrak{g}\mathfrak{l}(n, k)$, and let $x=\sum\mu_{ij}E_{ij}$ be an element of the normalizer of $\mathfrak{h}$ in $\mathfrak{g}$. If $i\not=j$, formulas (5) of Chap. I, §1, no. 2 show that the coefficient of $E_{ij}$ in $[E_{ii}, x]$ is $\mu_{ij}$. Since $E_{ii}\in \mathfrak{h}$, $[E_{ii}, x]\in \mathfrak{h}$, and the coefficient in question is zero. Thus $\mu_{ij}= 0$ for $i\not=j$, so $x\in \mathfrak{h}$, which shows that $\mathfrak{h}$ is indeed a Cartan subalgebra of $\mathfrak{g}$.
 
 #### Example 3 {#lie-vii-s2-n1-exa-3 .statement tag=00TM}
 
@@ -72,13 +72,13 @@ There exist maximal nilpotent subalgebras that are not Cartan subalgebras (Exerc
 
 #### Proposition 2 {#lie-vii-s2-prop-2 .statement tag=00TO}
 
-Let $(\mathfrak{g}_i)_{i\in I}$ be a finite family of Lie algebras and$\prod\mathfrak{g}=\prod_{i\in I}\mathfrak{g}_i$.
+Let $(\mathfrak{g}_i)_{i\in I}$ be a finite family of Lie algebras and $\mathfrak{g}=\prod_{i\in I}\mathfrak{g}_i$.
 
-The Cartan subalgebras of $\mathfrak{g}$ are the subalgebras of the form $_{i\in I}\mathfrak{h}_i$, where $\mathfrak{h}_i$
+The Cartan subalgebras of $\mathfrak{g}$ are the subalgebras of the form $\prod_{i\in I}\mathfrak{h}_i$, where $\mathfrak{h}_i$
 
 is a Cartan subalgebra of $\mathfrak{g}_i$.
 
-If $\mathfrak{h}_i$ is a subalgebra of$\prod\mathfrak{g}_i$ with normalizer $\mathfrak{n}\prod_i$, then $\prod\mathfrak{h}_i$ is a subalgebra of $\mathfrak{g}$ with normalizer $\mathfrak{n}_i$; if the $\mathfrak{h}_i$ are nilpotent,$\prod\mathfrak{h}_i$ is nilpotent; thus, if $\mathfrak{h}_i$ is a Cartan subalgebra of $\mathfrak{g}_i$ for all $i,\mathfrak{h}_i$ is a Cartan subalgebra of $\mathfrak{g}$. Conversely, let $\mathfrak{h}$ be a Cartan subalgebra of$\prod\mathfrak{g}$; the projection $\mathfrak{h}_i$ of $\mathfrak{h}$ onto $\mathfrak{g}_i$ is a nilpotent subalgebra of$\prod\mathfrak{g}_i$, and $\mathfrak{h}_i$ is a nilpotent subalgebra of $\mathfrak{g}$ containing $\mathfrak{h}$; hence $\mathfrak{h}=\mathfrak{h}_i$ (Prop. 1); thus, for all $i,\mathfrak{h}_i$ is its own normalizer in $\mathfrak{g}_i$, and so is a Cartan subalgebra of $\mathfrak{g}_i$.
+If $\mathfrak{h}_i$ is a subalgebra of $\mathfrak{g}_i$ with normalizer $\mathfrak{n}_i$, then $\prod\mathfrak{h}_i$ is a subalgebra of $\mathfrak{g}$ with normalizer $\prod\mathfrak{n}_i$; if the $\mathfrak{h}_i$ are nilpotent, $\prod\mathfrak{h}_i$ is nilpotent; thus, if $\mathfrak{h}_i$ is a Cartan subalgebra of $\mathfrak{g}_i$ for all $i,\prod\mathfrak{h}_i$ is a Cartan subalgebra of $\mathfrak{g}$. Conversely, let $\mathfrak{h}$ be a Cartan subalgebra of $\mathfrak{g}$; the projection $\mathfrak{h}_i$ of $\mathfrak{h}$ onto $\mathfrak{g}_i$ is a nilpotent subalgebra of $\mathfrak{g}_i$, and $\prod\mathfrak{h}_i$ is a nilpotent subalgebra of $\mathfrak{g}$ containing $\mathfrak{h}$; hence $\mathfrak{h}=\prod\mathfrak{h}_i$ (Prop. 1); thus, for all $i,\mathfrak{h}_i$ is its own normalizer in $\mathfrak{g}_i$, and so is a Cartan subalgebra of $\mathfrak{g}_i$.
 
 #### Example 4 {#lie-vii-s2-n1-exa-4 .statement tag=00TP}
 
@@ -170,7 +170,7 @@ If $\mathfrak{g}\not=\{0\},a_0= 0$ since (ad $x)(x) = 0$ for all $x\in \mathfrak
 
 #### Remark 2 {#lie-vii-s2-n2-rem-2 .statement tag=00U2}
 
-Let $k'$ be an extension of $k$. Write det(T $-$ ad $x') =_i\sum_{=0}^na'_i(x')T^i$ for $x'\in \mathfrak{g}\otimes_kk'$. Then $a'_i|\mathfrak{g}=a_i$ for all $i$.
+Let $k'$ be an extension of $k$. Write det(T $-$ ad $x') =\sum_{i=0}^na'_i(x')T^i$ for $x'\in \mathfrak{g}\otimes_kk'$. Then $a'_i|\mathfrak{g}=a_i$ for all $i$.
 
 #### Definition 2 {#lie-vii-s2-def-2 .statement tag=00U3}
 
@@ -182,11 +182,11 @@ The set of regular elements is dense and open in $\mathfrak{g}$ for the Zariski 
 
 #### Example 1 {#lie-vii-s2-n2-exa-1 .statement tag=00U4}
 
-If $\mathfrak{g}$ is nilpotent, rk($(\mathfrak{g}) =$ dim$)\mathfrak{g}$ and all elements of $\mathfrak{g}$ are regular.
+If $\mathfrak{g}$ is nilpotent, rk($\mathfrak{g}$) $=$ dim$\mathfrak{g}$ and all elements of $\mathfrak{g}$ are regular.
 
 #### Example 2 {#lie-vii-s2-n2-exa-2 .statement tag=00U5}
 
-Let $\mathfrak{g}=\mathfrak{s}\mathfrak{l}(2, k)$. If $x=\gamma -\alpha \in \mathfrak{g}$, an easy calculation gives
+Let $\mathfrak{g}=\mathfrak{s}\mathfrak{l}(2, k)$. If $x=(\gamma -\alpha )\in \mathfrak{g}$, an easy calculation gives
 
 $$
 \beta \gamma
@@ -212,17 +212,11 @@ This follows from Remark 2.
 
 #### Proposition 7 {#lie-vii-s2-prop-7 .statement tag=01IY}
 
-$\prod$ Let $(\mathfrak{g}_i)_{i\in I}$ be a finite family of Lie algebras, and let $\mathfrak{g}=$
+Let $(\mathfrak{g}_i)_{i\in I}$ be a finite family of Lie algebras, and let $\mathfrak{g}=$ $\prod_{i\in I}\mathfrak{g}_i$.
 
-$$
-\mathfrak{g}_i
-$$
+(i) An element $(x_i)_{i\in I}$ of $\mathfrak{g}$ is regular in $\mathfrak{g}$ if and only if, for all $i\in I,x_i$ is regular in $\mathfrak{g}_i$.
 
-$i\in I$
-
-(i) An element $(x_i)_{i\in I}$ of $\mathfrak{g}$ is regular in $\mathfrak{g}$ if and only if, for all $i\in I,x_i$ is regular in $\mathfrak{g}_i.\sum$
-
-(ii) rk($\mathfrak{g}$) $=_{i\in I}$ rk($\mathfrak{g}_i$).
+(ii) rk($\mathfrak{g}$) $=\sum_{i\in I}$ rk($\mathfrak{g}_i$).
 
 Indeed, for any $x= (x_i)_{i\in I}\in \mathfrak{g}$, the characteristic polynomial of ad$_{\mathfrak{g}}x$ is the product of the characteristic polynomials of the ad$_{\mathfrak{g}_i}x_i$.
 

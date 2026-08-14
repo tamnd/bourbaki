@@ -37,7 +37,7 @@ subsections:
       pdf_page: 302
 statements: 32
 exercises: 11
-content_sha256: 746dba6956457eeb73e542e53ce2939fa0fb771be0af8d74e691ebc3f438bdbe
+content_sha256: e5d807ec9f0f7605079b7df9be6766cf748f5524d6c78c8a1ba4445c5d33167b
 ---
 
 ## § 2. MAXIMAL TORI OF COMPACT LIE GROUPS
@@ -112,7 +112,7 @@ Indeed, exp(L(G)) contains all the maximal tori of G, hence $a)$. Assertion $b)$
 
 #### Remark 1 {#lie-ix-s2-n2-rem-1 .statement tag=01A4}
 
-There exists a compact subset K of L(G) such that exp$_G(K) = G$. Indeed, if T is a maximal torus of G, there exists a compact subset $C\bigcup\subset L(T)$ such that exp$_T(C) = T$; it suffices to take $K =_{g\in G}$(Ad $g)(C)$.
+There exists a compact subset K of L(G) such that exp$_G(K) = G$. Indeed, if T is a maximal torus of G, there exists a compact subset $C\subset L(T)$ such that exp$_T(C) = T$; it suffices to take $K =\bigcup_{g\in G}$(Ad $g)(C)$.
 
 #### Corollary 2 {#lie-ix-s2-thm-2-cor-2 .statement tag=01A5}
 

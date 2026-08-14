@@ -1,14 +1,13 @@
 {
   "book": "alg-viii-fr",
   "pages": 487,
-  "clean": 447,
-  "flagged": 39,
+  "clean": 450,
+  "flagged": 36,
   "empty": 1,
   "reasons": {
     "diagram": 29,
     "empty": 1,
-    "stacked-matrix": 7,
-    "stacked-rows": 5
+    "stacked-matrix": 7
   },
   "flagged_pages": [
     {
@@ -109,13 +108,6 @@
       ]
     },
     {
-      "pdf_page": 268,
-      "page_label": "A VIII.265",
-      "flags": [
-        "stacked-rows"
-      ]
-    },
-    {
       "pdf_page": 286,
       "page_label": "A VIII.283",
       "flags": [
@@ -193,13 +185,6 @@
       ]
     },
     {
-      "pdf_page": 357,
-      "page_label": "A VIII.354",
-      "flags": [
-        "stacked-rows"
-      ]
-    },
-    {
       "pdf_page": 379,
       "page_label": "A VIII.377",
       "flags": [
@@ -259,22 +244,13 @@
       "pdf_page": 446,
       "page_label": "A VIII.444",
       "flags": [
-        "stacked-rows",
         "stacked-matrix"
-      ]
-    },
-    {
-      "pdf_page": 448,
-      "page_label": "A VIII.446",
-      "flags": [
-        "stacked-rows"
       ]
     },
     {
       "pdf_page": 449,
       "page_label": "A VIII.447",
       "flags": [
-        "stacked-rows",
         "stacked-matrix"
       ]
     },

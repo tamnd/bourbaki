@@ -67,7 +67,7 @@
 {"from":"01FN","from_label":"lie-ix-s6-ex-2","kind":"cites","raw":"Chap. V, §5, no. 4, Prop. 5","form":"section","resolved_by":"out-of-corpus","book":"LIE","chapter":"V","file":"content/en/lie/IX/exercises/s6/02.md","line":39},
 {"from":"01FO","from_label":"lie-ix-s6-ex-3","to_label":"lie-ix-s4","kind":"cites","raw":"§4, no. 2","form":"section","resolved_by":"section","file":"content/en/lie/IX/exercises/s6/03.md","line":31},
 {"from":"01FO","from_label":"lie-ix-s6-ex-3","to":"01FM","to_label":"lie-ix-s6-ex-1","kind":"cites","raw":"Exerc. 1","form":"local","resolved_by":"exercise","file":"content/en/lie/IX/exercises/s6/03.md","line":33},
-{"from":"01FO","from_label":"lie-ix-s6-ex-3","to":"01BO","to_label":"lie-ix-s3-ex-9","kind":"cites","raw":"Exerc. 9 of §3","form":"section","resolved_by":"exercise","file":"content/en/lie/IX/exercises/s6/03.md","line":45},
+{"from":"01FO","from_label":"lie-ix-s6-ex-3","to":"01BO","to_label":"lie-ix-s3-ex-9","kind":"cites","raw":"Exerc. 9 of §3","form":"section","resolved_by":"exercise","file":"content/en/lie/IX/exercises/s6/03.md","line":41},
 {"from":"01FP","from_label":"lie-ix-s6-ex-4","kind":"cites","raw":"Algèbre, Chap. X, p. 183, Exerc. 18","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"X","file":"content/en/lie/IX/exercises/s6/04.md","line":17},
 {"from":"01FP","from_label":"lie-ix-s6-ex-4","to":"01FI","to_label":"lie-ix-s6-thm-2","kind":"cites","raw":"Th. 2","form":"local","resolved_by":"in-section","file":"content/en/lie/IX/exercises/s6/04.md","line":23},
 {"from":"01FQ","from_label":"lie-ix-s6-ex-5","to":"01FP","to_label":"lie-ix-s6-ex-4","kind":"cites","raw":"Exerc. 4","form":"local","resolved_by":"exercise","file":"content/en/lie/IX/exercises/s6/05.md","line":15},

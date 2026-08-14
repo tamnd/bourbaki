@@ -60,23 +60,28 @@ jobs:
       # loads, 77 to 69 by taking back the paragraphs of the pages repaired by
       # hand that the extractor now reads better than the repair did, 69 to 60
       # once a base carrying a prime was braced before it takes a superscript of
-      # its own, and 60 to 51 once an index was let stand a glyph box wider than
-      # the exponent written across it. That 51 is the 31 and the 20 below.
+      # its own, 60 to 51 once an index was let stand a glyph box wider than the
+      # exponent written across it, and 51 to 44 once a large operator was put
+      # back on the line it is drawn on. That 44 is the 25 and the 19 below.
       #
       # en/lie entered at 68, down from the 95 it first measured once a prime
-      # was never read as an index again, and 68 to 56 once a minus that is an
-      # index stopped being read as the hyphen of a compound word. What is left
-      # of it, and most of what is left of the other two, is double superscripts
-      # and double subscripts, which are the same fault twice over: the line
-      # gathering ran two display lines together, or set a matrix inline, and
-      # the scripts of one landed on the scripts of the other. The Lie volume
-      # has a third shape of it, where a large operator and the limits written
-      # under it were gathered onto different lines.
+      # was never read as an index again, 68 to 56 once a minus that is an index
+      # stopped being read as the hyphen of a compound word, and 56 to 41 with
+      # that same repair to the operators. poppler reports the top of an
+      # extension glyph truly and its height as junk, but the foot it makes of
+      # the two lands a few units inside the band of the line the operator is
+      # drawn on, which is enough to place it, and a limit wider than its sign
+      # is then measured by the half of itself drawn to the right, which nothing
+      # was written across. What is left of that volume, and most of what is
+      # left of the other two, is double superscripts and double subscripts,
+      # which are the same fault twice over: the line gathering ran two display
+      # lines together, or set a matrix inline, and the scripts of one landed on
+      # the scripts of the other.
       - name: publish -check
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=31,fr/alg=20,en/lie=56
+        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=25,fr/alg=19,en/lie=41
 
       # Where Pages will serve this from, asked rather than typed, so the links
       # are right under tamnd.github.io/bourbaki and under a custom domain both.

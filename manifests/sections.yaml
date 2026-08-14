@@ -223,7 +223,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: dfc283af858516b9a560ae62b85ef070adea34c36f3c66f448de31a3f3498b66
+              content_sha256: 3b927bc17d28fc25b45eb1070384920a9490424f7c16a93759926e5a0af404f0
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -236,7 +236,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: 292f6683d9b5d2ec22b09033d69bf9491c7fa8bc745995ea39ed7de776d30f8e
+              content_sha256: ddeef9e5cd26e15e7d6169e210fab3880c2e67273210d462bd8013acf2a18bc8
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -288,7 +288,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: 4087a45fc0dcb54dd178194f7c64b217b51cd06178db75ad302d42e750d9573b
+              content_sha256: bcc10cca24da9b98ed1be070ef13086751b9e5f1f6da884c13073eca99934d6a
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
@@ -380,7 +380,7 @@ books:
               statements: 36
               exercises: 28
               extraction: native
-              content_sha256: 878a93b8e41ca628a62a70813e8f9b890d57703999cc476a1b0764f32b1e08b9
+              content_sha256: b5b8edbc7c774dd1982514cec915da3970268cb02796033d65a1d739d18edeca
             - kind: section
               section: 2
               title: Structure des modules de longueur finie
@@ -393,7 +393,7 @@ books:
               statements: 37
               exercises: 19
               extraction: native
-              content_sha256: bf71cdddea883d082ffabb1e855bc076eda1f524b11c3a6f13d4a05725c66fce
+              content_sha256: 803669ca3d99fd8bc964b35d1cb73984b02451895363d5691f96f427ece52fc9
             - kind: section
               section: 3
               title: Modules simples
@@ -419,7 +419,7 @@ books:
               statements: 43
               exercises: 8
               extraction: native
-              content_sha256: 6613b392e0ec3ccdfecbfe2f8654271c3932ce7dc980fd1f81e494f3ccfbbb4e
+              content_sha256: bdf8eeb87f296f013124da36ec1579093157f52d60fdd6a4a52dd056f5de87e9
             - kind: section
               section: 5
               title: Commutation
@@ -432,7 +432,7 @@ books:
               statements: 37
               exercises: 19
               extraction: native
-              content_sha256: b4d599398718e84f42dbe47bfa9d4a51d98d75710e9712dba69f406f0e62272e
+              content_sha256: c9e9120986305700fdf16b43f31ae23f7e2dcc7b5022b4c947c5783a982b30d4
             - kind: section
               section: 6
               title: Équivalence de Morita des modules et des algèbres
@@ -471,7 +471,7 @@ books:
               statements: 30
               exercises: 6
               extraction: native
-              content_sha256: 6ea92f41770ad3a64d6fe597643c80deebe81e0e65e06b90aa4840f14588b49f
+              content_sha256: b57dc581ca10984e6f769821ee4f7f61fabd2e6f7c3b257442c43a4830830474
             - kind: section
               section: 9
               title: Radical
@@ -484,7 +484,7 @@ books:
               statements: 49
               exercises: 31
               extraction: native
-              content_sha256: 12942c09b7a3e64603917bebb3e915bc608489afc172ae08312239b4b1a7d8fb
+              content_sha256: 7838acd983bda31fb85481c8e30ec20927f6c73a3ca79a6edf2971c78f199a69
             - kind: section
               section: 10
               title: Modules sur un anneau artinien
@@ -523,7 +523,7 @@ books:
               statements: 26
               exercises: 17
               extraction: native
-              content_sha256: 462225e0ce5ca6e64289c41290358cdcb9e28b091e9b82016369f508c575066f
+              content_sha256: bbfcf3414ba6d6da444e30b137a119f735d0c535aa99978bd40a706e976de9e1
             - kind: section
               section: 13
               title: Algèbres absolument semi-simples
@@ -575,7 +575,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: de4668e4932ae9db19b867a615986f91080e65411e84c937c6c9c36fa20d7a16
+              content_sha256: 23a34d20f4e88889d39a474b94a28528228145a9a00c6dc32ea4ca294d4c071c
             - kind: section
               section: 17
               title: Normes et traces réduites
@@ -588,7 +588,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: d5829c9ac6f2ca2277b4b3ff768d5ad55dc614256c1730f660d4690aa93b2721
+              content_sha256: 9b85ada3ab4ad4b70fe0563c47dcedec6421feb35bc3a2864cf6893721b30c77
             - kind: section
               section: 18
               title: Algèbres simples sur un corps fini
@@ -614,7 +614,7 @@ books:
               statements: 16
               exercises: 8
               extraction: native
-              content_sha256: d5e47c316e6cb872d62325295e54b27b50dfc67851089ffc04d5a0dddf927573
+              content_sha256: 963962e2621183217ec3e3a81e35a96f46c7b6ddc814593e5bb08222c83bcb94
             - kind: section
               section: 20
               title: Représentations linéaires des algèbres
@@ -627,7 +627,7 @@ books:
               statements: 31
               exercises: 6
               extraction: native
-              content_sha256: a35e4df4d9c343312e9b1a9dc42e43a67cb45581362d7f4a27bae85b89e04c25
+              content_sha256: 7108f6bd4c3b6c681b554709f31ce438c5f5fbdef631046cd35b996d3ddfe841
             - kind: section
               section: 21
               title: Représentations linéaires des groupes finis
@@ -640,7 +640,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: d3cbabdc4a49112866d0acb075981e8dbf7f3d490f9b96e3bdff0cf2ea34c648
+              content_sha256: 7a542126f546b95146f4c4d19e85bff6bfd95b1da9adba64e3b99971d76d9978
             - kind: appendix
               section: 1
               title: Algèbres sans élément unité
@@ -692,7 +692,7 @@ books:
               statements: 5
               exercises: 2
               extraction: native
-              content_sha256: 5fcbf235cdf951145f09bed0ae97ba7fe5abfc2a6e7a7cec19ac574cd0bab12d
+              content_sha256: 9cd2d17e2a2dcae4f31cfa2e66c955f9e87049726f818b929d13ba20dd27e03b
             - kind: historical
               title: Historical Note
               path: content/fr/alg/VIII/historical_note.md
@@ -732,7 +732,7 @@ books:
               statements: 25
               exercises: 11
               extraction: native
-              content_sha256: 09898f932e7af43c3ba71ebd9b9d269ef703cbf486bbdb00b0b707f570da4978
+              content_sha256: 575b6f0a3f9a3d5aa4cd76cd44622cddd588e8d2cf1d3e2ec7c24cb9b797b8be
             - kind: section
               section: 2
               title: Cartan subalgebras and regular elements of a Lie algebra
@@ -745,7 +745,7 @@ books:
               statements: 40
               exercises: 16
               extraction: native
-              content_sha256: 5ab71245494206d6f62d68916a9920dc1fab8ed147e5fc51fa2e2cb037a8de22
+              content_sha256: 3de96c51065d84f5de18528f2c64ead7198e0a21121822fb94978cb7570089d5
             - kind: section
               section: 3
               title: Conjugacy theorems
@@ -758,7 +758,7 @@ books:
               statements: 17
               exercises: 18
               extraction: native
-              content_sha256: 328dbc41ee606865fc60e4c126e9e7181b193c73a291316876d1391ffa9c93d1
+              content_sha256: 8062d47373862d84654775f2045e58b48948d626259f15262d5ec18bdd045e13
             - kind: section
               section: 4
               title: Regular elements of a Lie group
@@ -771,7 +771,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: d669868c18876c245ddaebdd98d5fe3a60834173d02a3044e84e61ddb556a7c6
+              content_sha256: de75598523978ecc9f188180f4a190e826399bbea35166d0a49ab25c1bd638ee
             - kind: section
               section: 5
               title: Decomposable linear Lie algebras
@@ -784,7 +784,7 @@ books:
               statements: 29
               exercises: 11
               extraction: native
-              content_sha256: 35f575369ae4a63eb8603bb2f1c1f2d80a0ecbc1f193983c2183c23967c90299
+              content_sha256: 7a2b8fd2c87e6ff2d8189963f1e5dd66074d658bc49c392b226ae69eb4f3454e
             - kind: appendix
               section: 1
               title: Polynomial maps and Zariski topology
@@ -837,7 +837,7 @@ books:
               statements: 23
               exercises: 18
               extraction: native+ocr
-              content_sha256: 4a04257697e30a7398c3056e7eaf098ac05f716498deb344adeae5b04020c4bd
+              content_sha256: ad44f42a6ae2e09b5bc45ae6094a07d1a1d2bb1818b5e7343c75decb31b5ea4d
             - kind: section
               section: 2
               title: Root system of a split semi-simple Lie algebra
@@ -850,7 +850,7 @@ books:
               statements: 28
               exercises: 12
               extraction: native
-              content_sha256: a12e1c7cb7c7a3a6e46de6301d5a96e4545ddc5bdb73879740536e5f3622bd97
+              content_sha256: f6d0de926f5d870fcb22714d7cb7feb86adfdcde4df8a89d8763dd9b0186668f
             - kind: section
               section: 3
               title: Subalgebras of split semi-simple Lie algebras
@@ -863,7 +863,7 @@ books:
               statements: 28
               exercises: 14
               extraction: native
-              content_sha256: d27b47e36afadb2730365f425dfdd8d919e6f718e128ea5ddc0ec998143508b8
+              content_sha256: bb4fbba66794d2448e767216a487cc2435a0d8e55bfa7858277f92188f613d3e
             - kind: section
               section: 4
               title: Split semi-simple Lie algebra defined by a reduced root system
@@ -876,7 +876,7 @@ books:
               statements: 23
               exercises: 7
               extraction: native
-              content_sha256: c46cb8f57452a0e43d115c28dbe94d471784a55e78c165fe6f682374eff091bf
+              content_sha256: c52392ff02cb5ea33fe3cfdd300f164545b53658186fb2593fb48acc4156ce72
             - kind: section
               section: 5
               title: Automorphisms of a semi-simple Lie algebra
@@ -889,7 +889,7 @@ books:
               statements: 25
               exercises: 13
               extraction: native+ocr
-              content_sha256: ce04f909506c73f39f2c1bfb3b42a64865c912f9a59e2a54423331de04b404ba
+              content_sha256: 4cb0cd2d76b32556fcf2dcae97fad2bc7fee6d517c3dcfb35b54bd9480118d79
             - kind: section
               section: 6
               title: Modules over a split semi-simple Lie algebra
@@ -902,7 +902,7 @@ books:
               statements: 17
               exercises: 5
               extraction: native
-              content_sha256: 1bd375264bc8ed6aed42c2c23b0811306e9eaa94dc6c31aadeffa7d3adc3cee0
+              content_sha256: ca6cbdef42ccfefee97dca1e407a3d944eb412e53fd098ef1c1ba47c359d7529
             - kind: section
               section: 7
               title: Finite dimensional modules over a split semi-simple Lie algebra
@@ -915,7 +915,7 @@ books:
               statements: 46
               exercises: 27
               extraction: native+ocr
-              content_sha256: 8ba3a866aa2359f3813f05fa0d0652387cfc0111098666856284500edc7032a1
+              content_sha256: 53fb34891002fe609aad115437b2e0765938e621f5fa52c239562d684f221521
             - kind: section
               section: 8
               title: Symmetric invariants
@@ -928,7 +928,7 @@ books:
               statements: 24
               exercises: 18
               extraction: native+ocr
-              content_sha256: a6fe2641540f7ef8e66ab4717045d1f1b772d707694ca1e89e5e6c5999f2030e
+              content_sha256: 8669cf1d7201effe9ace4e266bafe45f152cbc07c82b32fe0bc954169076af83
             - kind: section
               section: 9
               title: The formula of Hermann Weyl
@@ -941,7 +941,7 @@ books:
               statements: 12
               exercises: 16
               extraction: native
-              content_sha256: fa2022a20036d0e94a6aec813ec06056270cc0f59def2b7336832394c152b03d
+              content_sha256: 0da1bd5b937f6bd197e7e1828aee350cbb6af216e5f2674d4943317b61e24020
             - kind: section
               section: 10
               title: Maximal subalgebras of semi-simple Lie algebras
@@ -954,7 +954,7 @@ books:
               statements: 8
               exercises: 7
               extraction: native
-              content_sha256: 3e2c1befb4368a225f5873975be2bb9365dc485f6997209de39299d9c5d2d7f2
+              content_sha256: 16093e656915016760237c5db575e614423b25f25929bb29575e0fe1d0374415
             - kind: section
               section: 11
               title: Classes of nilpotent elements and sl2 -triplets
@@ -967,7 +967,7 @@ books:
               statements: 29
               exercises: 17
               extraction: native+ocr
-              content_sha256: c16c9d95431784c6017fc33c32afad5be8d8caf00db22dcd34f5980e9dc11976
+              content_sha256: 12e3be0b241f81b98cb35188f5bf0071b0245c196bd8f28247108a9b75e9cc5c
             - kind: section
               section: 12
               title: Chevalley orders
@@ -980,7 +980,7 @@ books:
               statements: 34
               exercises: 0
               extraction: native
-              content_sha256: efd74b9aa15b548c76be727e8a11a8a2659fae0f4839ce31d909fd0d601c24d2
+              content_sha256: 2b4c8cae6b30fd6f0e4e76ebbdd597f2cfde345c92de3b0f38338a09b496bb64
             - kind: section
               section: 13
               title: Classical splittable simple Lie algebras
@@ -993,7 +993,7 @@ books:
               statements: 2
               exercises: 19
               extraction: native+ocr
-              content_sha256: ab33bc75658c091e24f715daf5acc36ee9d20749319686322856f42027f6fa81
+              content_sha256: a1dea383f997461c44f6804e68c2879c6939ad418b7d3452afe90f5d5fca3016
         - chapter: IX
           title: COMPACT REAL LIE GROUPS
           sections:
@@ -1033,7 +1033,7 @@ books:
               statements: 32
               exercises: 11
               extraction: native+ocr
-              content_sha256: 746dba6956457eeb73e542e53ce2939fa0fb771be0af8d74e691ebc3f438bdbe
+              content_sha256: e5d807ec9f0f7605079b7df9be6766cf748f5524d6c78c8a1ba4445c5d33167b
             - kind: section
               section: 3
               title: Compact forms of complex semi-simple Lie algebras
@@ -1046,7 +1046,7 @@ books:
               statements: 17
               exercises: 9
               extraction: native+ocr
-              content_sha256: 551a1dd601743218d750cbf5cbbc841582595aa0687e3326031f955c157bf6b5
+              content_sha256: 8c6af33be7bfa914d08767f309c3b61ce8fde4ef372cc0c42b8a92c3363d045f
             - kind: section
               section: 4
               title: Root system associated to a compact group
@@ -1059,7 +1059,7 @@ books:
               statements: 60
               exercises: 22
               extraction: native+ocr
-              content_sha256: 9d1a733b0b25b387e7351baa4a4859967775869e03352f1607128113b698a358
+              content_sha256: 0b1f0f67463babe97a0733de35f347456e7869438e10d22b7f0696140ab0cc6f
             - kind: section
               section: 5
               title: Conjugacy classes
@@ -1072,7 +1072,7 @@ books:
               statements: 26
               exercises: 12
               extraction: native
-              content_sha256: 28018721f37f31ae8930f6476f813e7630b9dfae7f7036bc210222851e3c77fa
+              content_sha256: ea7a2d7cd087379e261b5ceb1c7446ed68736814f472c4f9bf184283d91150a5
             - kind: section
               section: 6
               title: Integration on compact Lie groups
@@ -1085,7 +1085,7 @@ books:
               statements: 25
               exercises: 13
               extraction: native
-              content_sha256: 9f9cb8d95e62fea7267fa5e1093bedc50888bfbe803a174419b0a62c8cff9dfd
+              content_sha256: 0a3b0560e6477aef85b5b033a11cf8828cefb5254aaf75e2764f57f2ebd87df9
             - kind: section
               section: 7
               title: Irreducible representations of connected compact Lie groups
@@ -1098,7 +1098,7 @@ books:
               statements: 28
               exercises: 8
               extraction: native
-              content_sha256: 62411aad48cb47419e45e5d04fe914a3cc441aa5a2fd52c44b0e8c6d8571b0a9
+              content_sha256: c2e56ab4c40ab5de27e745b16ee5016d5722d942bed053357b8b7204da0caf57
             - kind: section
               section: 8
               title: Fourier transform
@@ -1111,7 +1111,7 @@ books:
               statements: 9
               exercises: 6
               extraction: native
-              content_sha256: 165484d87a018c10cc7dc8f5870a2d390854c4ba267d5c7c214b6dfbd0b71103
+              content_sha256: 1bde8e3f7c59aae94f63d94f5a2ccff639107a53ac3452ce11541f5cc9180025
             - kind: section
               section: 9
               title: Compact Lie groups operating on manifolds
@@ -1124,7 +1124,7 @@ books:
               statements: 19
               exercises: 21
               extraction: native
-              content_sha256: f2cf8eecc03e40bf07d8eec98759d355c9a08760f6c2609496deca005e78fb73
+              content_sha256: 4d32afa35d233ffc177cf2be6f2759c37d5af50fc5be327f1ce8aefa360574ad
             - kind: appendix
               section: 1
               title: Structure of compact groups
@@ -1137,7 +1137,7 @@ books:
               statements: 9
               exercises: 1
               extraction: native
-              content_sha256: b48914131abef9ec0c7e4e02bc1f069d123e97b3289d1e3be9ad024ffb7c8ae8
+              content_sha256: 7b766d35694398091ea1358aaff8ca389aa653296b33011fadd9cd6b1767dfe7
             - kind: appendix
               section: 2
               title: Representations of real, complex or quaternionic type
@@ -1150,4 +1150,4 @@ books:
               statements: 6
               exercises: 0
               extraction: native
-              content_sha256: 8419fc198da7479d4576a10c08d5dcf16d99c3673738946e3cb6399a7227a0ab
+              content_sha256: beae2a50c798d743e5583c7e899d16583998c449472622c9ed757672809447a2

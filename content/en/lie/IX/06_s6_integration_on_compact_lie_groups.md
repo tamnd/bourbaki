@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: 9f9cb8d95e62fea7267fa5e1093bedc50888bfbe803a174419b0a62c8cff9dfd
+content_sha256: 0a3b0560e6477aef85b5b033a11cf8828cefb5254aaf75e2764f57f2ebd87df9
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
@@ -197,13 +197,13 @@ The inverse image on $(G/T)\times T_r$ of the measure $dg$ on $G_r$ under the lo
 Choose an invariant differential form $\omega_T$ (resp. $\omega_{G/T})$ on T (resp. $G/T)$ of maximal degree, such that the measure defined by $\omega_T$ (resp. $\omega_{G/T})$ is equal to $dt$ (resp. $\mu)$. Put $\omega_G=\omega_{G/T}\cap \omega_T$. Lemma 2 implies that the measure defined by $\omega_G$ is equal to $dg$. Let U be an open subset of $(G/T)\times T_r$ such that $f_r$ induces an isomorphism from U to an open subset V of $G_r$. Let $\varphi$ be a continuous function with compact support in V; denote also by $\varphi$ the extension of $\varphi$ to $G_r$ which vanishes outside V. We have
 
 $$
-\int_V\varphi  dg=\int\int_V\varphi  \omega_G=\int_U(\varphi \circ f_r)f_r^*(\omega_G)
+\int_V\varphi  dg=\int_V\varphi  \omega_G=\int_U(\varphi \circ f_r)f_r^*(\omega_G)
 $$
 
-= $(\varphi \circ f_r)\omega_{G/T}\wedge \delta_G\omega_T$ (Prop$.1)$
+$=\int_U(\varphi \circ f_r)\omega_{G/T}\wedge \delta_G\omega_T$ (Prop$.1)$
 
 $$
-=\int^U_U(\varphi \circ f_r)d\mu.\delta_Gdt
+=\int_U(\varphi \circ f_r)d\mu.\delta_Gdt
 $$
 
 hence the lemma.
@@ -220,7 +220,7 @@ We prove the last assertion. It follows from §5, no. 1 and Differentiable and A
 
 #### Corollary 1 {#lie-ix-s6-thm-1-cor-1 .statement tag=01F2}
 
-(i) Let $\varphi$ be an integrable function on G with values in a Banach space or in $\mathbf{R}$. For almost all $t\in T$, the function$\int g \rightarrow \varphi (gtg^{-1})$ on G is integrable for $dg$. The function $t \rightarrow \delta_G(t)_G\varphi (gtg^{-1})dg$ is integrable on T, and we have
+(i) Let $\varphi$ be an integrable function on G with values in a Banach space or in $\mathbf{R}$. For almost all $t\in T$, the function $g \rightarrow \varphi (gtg^{-1})$ on G is integrable for $dg$. The function $t \rightarrow \delta_G(t)\int_G\varphi (gtg^{-1})dg$ is integrable on T, and we have
 
 $\int$ 1 $\int(\int_{-1})$
 
@@ -234,7 +234,7 @@ $$
 
 (“Hermann Weyl’s integration formula”).
 
-(ii) Let $\varphi$ be a positive measurable function on G. For almost all$\int t\in T$, the function $g \rightarrow \varphi (gtg^{-1})$ on G is measurable. The function $t \rightarrow_G^*\varphi (gtg^{-1})dg$ on T is measurable, and we have
+(ii) Let $\varphi$ be a positive measurable function on G. For almost all $t\in T$, the function $g \rightarrow \varphi (gtg^{-1})$ on G is measurable. The function $t \rightarrow \int_G^*\varphi (gtg^{-1})dg$ on T is measurable, and we have
 
 $\int*$ 1 $\int*(\int*-1)$
 
@@ -314,15 +314,15 @@ where $\pi$ denotes the canonical projection of T onto $T/W$. Cor. 2 means that 
 
 #### Remark 3 {#lie-ix-s6-n2-rem-3 .statement tag=01F7}
 
-Assume that G is simply-connected. Let A be an alcove of$\int\mathfrak{t}$, and $dx$ the Haar measure on $\mathfrak{t}$ such that $_Adx= 1$. Then the measure$\prod\nu$ can also be obtained by transporting the measure $_{w(G)}^1_{\alpha\in R_+(G,T)}4$ sin$^2\pi \widehat{\alpha}(x)dx$ on A by
+Assume that G is simply-connected. Let A be an alcove of $\mathfrak{t}$, and $dx$ the Haar measure on $\mathfrak{t}$ such that $\int_Adx= 1$. Then the measure $\nu$ can also be obtained by transporting the measure $_{w(G)}^1\prod_{\alpha\in R_+(G,T)}4$ sin$^2\pi \widehat{\alpha}(x)dx$ on A by
 
 the homeomorphism $A\rightarrow T/W ($§5, no. 2, Cor. 1 of Prop. 2).
 
 #### Example {#lie-ix-s6-n2-exa-1 .statement tag=01F8}
 
-Take G to be the group $\mathbf{S}\mathbf{U}(2,\mathbf{C})$ and T to be the subgroup of diagonal matrices (§3, no. 6); identify $\mathfrak{t}$ with $\mathbf{R}$ by the choice of basis $\{iH\}$ of $\mathfrak{t}($loc. cit.). Put $A = 0, \pi$; this is an alcove of $\mathfrak{t}$. The interval $A = 0, \pi$ can be identified with the space of conjugacy classes of G, the element$()\theta$ of
+Take G to be the group $\mathbf{S}\mathbf{U}(2,\mathbf{C})$ and T to be the subgroup of diagonal matrices (§3, no. 6); identify $\mathfrak{t}$ with $\mathbf{R}$ by the choice of basis $\{iH\}$ of $\mathfrak{t}($loc. cit.). Put $A = 0, \pi$; this is an alcove of $\mathfrak{t}$. The interval $A = 0, \pi$ can be identified with the space of conjugacy classes of G, the element $\theta$ of
 
-$e^{i\theta}$ 0
+$(e^{i\theta}$ 0 $)$
 
 A corresponding to the conjugacy class of $-_{i\theta}$ . Let $d\theta$ be Lebesgue
 
@@ -340,9 +340,9 @@ Let H be a (real) Lie group of dimension $m,\mathfrak{h}$ its Lie algebra. Let $
 
 where $\lambda_{\mathfrak{h}}$ is the Ad(H)-invariant function on $\mathfrak{h}$ such that
 
-$\sum$ 1 $p$
+1 $p$
 
-$\lambda_{\mathfrak{h}}(x) =$ det (ad $x)$ for $x\in \mathfrak{h}$.
+$\lambda_{\mathfrak{h}}(x) =$ det $\sum$ (ad $x)$ for $x\in \mathfrak{h}$.
 
 $(p+$ 1)!
 
@@ -384,7 +384,7 @@ $$
 
 $\alpha \in R(G,T)$
 
-with $\delta_{\mathfrak{g}}(x) =\delta_G$(exp $x)$ and $\pi_{\mathfrak{g}}(x) =_{\alpha\in}\prod_{R(G,T)}\delta (\alpha )(x) =$ det ad$_{\mathfrak{g}/\mathfrak{t}}(x)$.
+with $\delta_{\mathfrak{g}}(x) =\delta_G$(exp $x)$ and $\pi_{\mathfrak{g}}(x) =\prod_{\alpha\in R(G,T)}\delta (\alpha )(x) =$ det ad$_{\mathfrak{g}/\mathfrak{t}}(x)$.
 
 Let $\omega_{G/T}$ be an invariant differential form of degree $n-r$ on $G/T$ and $\omega_{\mathfrak{t}}$ a translation-invariant differential form of degree $r$ on $\mathfrak{t}$. With the notation of no. 1, denote by $\omega_{G/T}\cap \omega_{\mathfrak{t}}$ the unique translation-invariant differential form $\omega_{\mathfrak{g}}$ of degree $n$ on $\mathfrak{g}$ such that $\omega_{\mathfrak{g}}(0) =\omega_{G/T}(\overline{e})\cap \omega_{\mathfrak{t}}(0)$.
 
@@ -398,7 +398,7 @@ $$
 \psi^*\omega_{\mathfrak{g}}=\omega_{G/T}\wedge \pi_{\mathfrak{g}}\omega_{\mathfrak{t}}
 $$
 
-where $\pi_{\mathfrak{g}}$ is the function on $\mathfrak{t}$ defined by $\pi_{\mathfrak{g}}(x) =_{\alpha\in}\prod_{R(G,T)}\delta (\alpha )(x)$.
+where $\pi_{\mathfrak{g}}$ is the function on $\mathfrak{t}$ defined by $\pi_{\mathfrak{g}}(x) =\prod_{\alpha\in R(G,T)}\delta (\alpha )(x)$.
 
 Denote by $\omega_G$ (resp. $\omega_T)$ the invariant differential form of maximum degree on G (resp. T) that coincides with $\omega_{\mathfrak{g}}$ (resp. $\omega_{\mathfrak{t}})$ at the origin. Consider the commutative diagram
 
@@ -506,9 +506,9 @@ Let $(h_0, x_0)\in H\times X$; we shall prove that $f_1$ is continuous at $(h_0,
 
 #### Proposition 5 {#lie-ix-s6-prop-5 .statement tag=01FE}
 
-Assume that the group H is compact and denote by $dh$ the Haar measure on H of total mass 1. Let $s$ be a section of E of class $C^r$. Denote by $s$ the vector integral $\int_H^hs dh$. Then $s$ is a section of$\int$ E of class $C^r$, invariant under H; for $x\in X$, we have $s(x) =_Hhs(h^{-1}x)dh\in E_x$. The endomorphism $s \rightarrow s$ of $\mathscr{S}^r(X; E)$ is a projection onto the subspace of H-invariant sections.
+Assume that the group H is compact and denote by $dh$ the Haar measure on H of total mass 1. Let $s$ be a section of E of class $C^r$. Denote by $s$ the vector integral $\int_H^hs dh$. Then $s$ is a section of E of class $C^r$, invariant under H; for $x\in X$, we have $s(x) =\int_Hhs(h^{-1}x)dh\in E_x$. The endomorphism $s \rightarrow s$ of $\mathscr{S}^r(X; E)$ is a projection onto the subspace of H-invariant sections.
 
-Consider the map $h \rightarrow^hs$ from H to $\mathscr{S}^r(X; E)$; it is continuous by Lemma 4. Since the space$\int\mathscr{S}^r(X; E)$ is separated and complete, the integral $s$ = $_H^hs dh$ belongs to $\mathscr{S}^r(X; E) ($Integration, Chap. III, §3, no. 3, Cor. 2). The linear map$\int s \rightarrow s(x)$ from $\mathscr{S}^r(X; E)$ to $E_x$ being continuous, we have $s(x) =$ $_H^hs(x)dh$ for all $x\in X$. It is clear that $s$ is invariant under H; if $s$ is an H-invariant section, we have $s=s$, hence the last assertion.
+Consider the map $h \rightarrow^hs$ from H to $\mathscr{S}^r(X; E)$; it is continuous by Lemma 4. Since the space $\mathscr{S}^r(X; E)$ is separated and complete, the integral $s$ = $\int_H^hs dh$ belongs to $\mathscr{S}^r(X; E) ($Integration, Chap. III, §3, no. 3, Cor. 2). The linear map $s \rightarrow s(x)$ from $\mathscr{S}^r(X; E)$ to $E_x$ being continuous, we have $s(x) =$ $\int_H^hs(x)dh$ for all $x\in X$. It is clear that $s$ is invariant under H; if $s$ is an H-invariant section, we have $s=s$, hence the last assertion.
 
 #### Corollary 1 {#lie-ix-s6-prop-5-cor-1 .statement tag=01FF}
 
@@ -538,7 +538,7 @@ for $x\in X$. The function $f$ is of class $C^r$, and $f(hx) =f(x)$ for $x\in X$
 
 #### Corollary 3 {#lie-ix-s6-prop-5-cor-3 .statement tag=01FH}
 
-Let F be a Banach space, $p$ an integer $\geq 0,^k\Omega^p(X; F)$ the space of differential forms of degree $p$ on X, with values in$\int$ F, and of class $C^k(2\leq k+ 1\leq r)$. For $\omega \in^k\Omega^p(X; F)$, put $\omega$ = $_H\tau_h^*\omega  dh$. Then the map $\omega  \rightarrow \omega$ is a projection on $^k\Omega^p(X; F)$ whose image is the subspace of H-invariant forms. We have $d(\omega ) = (d\omega )$ for all $\omega \in^k\Omega^p(X; F)$.
+Let F be a Banach space, $p$ an integer $\geq 0,^k\Omega^p(X; F)$ the space of differential forms of degree $p$ on X, with values in F, and of class $C^k(2\leq k+ 1\leq r)$. For $\omega \in^k\Omega^p(X; F)$, put $\omega =\int_H\tau_h^*\omega  dh$. Then the map $\omega  \rightarrow \omega$ is a projection on $^k\Omega^p(X; F)$ whose image is the subspace of H-invariant forms. We have $d(\omega ) = (d\omega )$ for all $\omega \in^k\Omega^p(X; F)$.
 
 The first assertion follows from the proposition applied to the vector H-bundle Alt$^p(T(X); F)$ (Chap. III, §1, no. 8, Examples). To prove the second assertion, it suffices, in view of Integration, Chap. III, §3, no. 2, Prop. 2, to prove that the map $d:^k\Omega^p(X; F)\rightarrow^{k-1}\Omega^{p+1}(X; F)$ is continuous when the first (resp. second) space is given the topology of compact $C^k$-convergence (resp. $C^{k-1}$-convergence). But this follows immediately from the definition of these topologies by means of semi-norms (Spectral Theories, in preparation) and the fact that $d$ is a differential operator of order $\leq 1 ($Differentiable and Analytic Manifolds, Results, 14.4.2).
 
@@ -568,7 +568,7 @@ A differential form $\omega \in \Omega (X)$ is invariant if $\tau_g^*\omega =\om
 
 #### Theorem 2 {#lie-ix-s6-thm-2 .statement tag=01FI}
 
-The canonical injection $\iota :\Omega (X)^G\rightarrow \Omega (X)$ is a homotopism$\int$ of complexes (Algèbre, Chap. X, p. 33, déf. 5); the map $\omega  \rightarrow \omega$ = $_G\tau_g^*\omega  dg$ is a homotopism, inverse to it up to homotopy. In particular, the map $H(\iota ) : H(\Omega (X)^G)\rightarrow H(\Omega (X))$ is bijective.
+The canonical injection $\iota :\Omega (X)^G\rightarrow \Omega (X)$ is a homotopism of complexes (Algèbre, Chap. X, p. 33, déf. 5); the map $\omega  \rightarrow \omega =\int_G\tau_g^*\omega  dg$ is a homotopism, inverse to it up to homotopy. In particular, the map $H(\iota ) : H(\Omega (X)^G)\rightarrow H(\Omega (X))$ is bijective.
 
 By Cor. 3 of no. 4, the map $\omega  \rightarrow \omega$ is a morphism of complexes from $\Omega (X)$ to $\Omega (X)^G$ that induces the identity on the subcomplex $\Omega (X)^G$; thus, to prove the theorem it suffices to construct a homomorphism $s:\Omega (X)\rightarrow \Omega$(X), graded of degree $-1$, such that
 

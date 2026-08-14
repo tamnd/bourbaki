@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: 62411aad48cb47419e45e5d04fe914a3cc441aa5a2fd52c44b0e8c6d8571b0a9
+content_sha256: c2e56ab4c40ab5de27e745b16ee5016d5722d942bed053357b8b7204da0caf57
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -70,7 +70,7 @@ Denote by $X_{++}$ the set of elements of X(T) such that $\langle \lambda , K_{\
 
 If G is simply-connected, for each simple root $\alpha$ there exists an element $_{\alpha}$ of X(T) such that $\langle_{\beta}, K_{\alpha}\rangle =\delta_{\alpha \beta}$ for every simple root $\beta$, that is, $s_{\alpha}(_{\alpha}) =$
 
-$_{\alpha}-\alpha ,s_{\beta}(_{\alpha}) =_{\alpha}$ for every simple root $\beta \not=\alpha$; the $_{\alpha}$ are called the fundamental dominant weights; they form a basis of the commutative group X(T) and of the commutative monoid $X\sum_{++}$; more precisely, every element $\lambda$ of X(T) can be written in the form $\lambda =_{\alpha}\langle \lambda , K_{\alpha}\rangle_{\alpha}$.
+$_{\alpha}-\alpha ,s_{\beta}(_{\alpha}) =_{\alpha}$ for every simple root $\beta \not=\alpha$; the $_{\alpha}$ are called the fundamental dominant weights; they form a basis of the commutative group X(T) and of the commutative monoid $X_{++}$; more precisely, every element $\lambda$ of X(T) can be written in the form $\lambda =\sum_{\alpha}\langle \lambda , K_{\alpha}\rangle_{\alpha}$.
 
 Denote by $\rho$ the element of $X(T)\otimes \mathbf{Q}$ such that
 
@@ -120,7 +120,7 @@ Indeed, this follows from the corresponding statement for the $\mathfrak{g}_{\ma
 
 #### Remark 2 {#lie-ix-s7-n2-rem-2 .statement tag=01G4}
 
-Let $\Theta (G)$ be the algebra of continuous representative functions on G with values in $\mathbf{C}($Algebra, Chap. VIII). Let G operate on $\Theta (G)$ by left and right translations. For each $\lambda \in X_{++}$, let $(V_{\lambda}, \tau_{\lambda})$ be an irreducible representation of G of highest weight $\lambda$ (Th. 1), and $(V^*_{\lambda},\check{\tau}_{\lambda})$ the contragredient representation (Chap. III, §3, no. 11); by Spectral Theories, the representation of $G\times G$ on $\Theta (G)$ is isomorphic to the direct sum of the representations $(V_{\lambda}\otimes V^*_{\lambda}, \tau_{\lambda}\otimes \check{\tau}_{\lambda})$ for all $\lambda$ in $X_{++}$. Remark 1 now implies the following statement: Let $\lambda \in X_{++}$, and let $E_{\lambda}$ be the vector subspace of $\Theta (G)$ consisting of the continuous representative functions $f$ on G such that $f(gt) =\lambda (t)^-\bigoplus^1f(g)$ for all $g\in G$ and all $t\in T$, and such that $f*x= 0$ for all $x\in \mathfrak{n}_-=_{\alpha <0}\mathfrak{g}^{\alpha}$.
+Let $\Theta (G)$ be the algebra of continuous representative functions on G with values in $\mathbf{C}($Algebra, Chap. VIII). Let G operate on $\Theta (G)$ by left and right translations. For each $\lambda \in X_{++}$, let $(V_{\lambda}, \tau_{\lambda})$ be an irreducible representation of G of highest weight $\lambda$ (Th. 1), and $(V^*_{\lambda},\check{\tau}_{\lambda})$ the contragredient representation (Chap. III, §3, no. 11); by Spectral Theories, the representation of $G\times G$ on $\Theta (G)$ is isomorphic to the direct sum of the representations $(V_{\lambda}\otimes V^*_{\lambda}, \tau_{\lambda}\otimes \check{\tau}_{\lambda})$ for all $\lambda$ in $X_{++}$. Remark 1 now implies the following statement: Let $\lambda \in X_{++}$, and let $E_{\lambda}$ be the vector subspace of $\Theta (G)$ consisting of the continuous representative functions $f$ on G such that $f(gt) =\lambda (t)^{-1}f(g)$ for all $g\in G$ and all $t\in T$, and such that $f*x= 0$ for all $x\in \mathfrak{n}_-=\bigoplus_{\alpha <0}\mathfrak{g}^{\alpha}$.
 
 Then $E_{\lambda}$ is stable under left translations, and the representation of G on $E_{\lambda}$ by left translations is irreducible of highest weight $\lambda$.
 
@@ -134,7 +134,7 @@ The definitions and statements of Chap. VIII, §7, nos. 2 to 5 can be generalize
 
 #### Proposition 1 {#lie-ix-s7-prop-1 .statement tag=01G7}
 
-Let $\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$ be an irreducible representation of$\sum$ G of highest weight $\lambda \in X_{++}$. Let $m$ be the integer $_{\alpha\in R_+}\langle \lambda , K_{\alpha}\rangle$, and let $w_0$
+Let $\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$ be an irreducible representation of G of highest weight $\lambda \in X_{++}$. Let $m$ be the integer $\sum_{\alpha\in R_+}\langle \lambda , K_{\alpha}\rangle$, and let $w_0$
 
 be the element of the Weyl group such that $w_0(R_+) = R_-$ (Chap. VI, § 6, Cor. 3 of Prop. 17). There are three possible cases:
 
@@ -189,11 +189,11 @@ We define in the same way (loc. cit.) a homomorphism of rings, also denoted by C
 R(G) $\longrightarrow^{Ch}\mathbf{Z}[X(T)]$
 
 $$
-)_l)_{\widetilde{\delta}} \tag{1}
+_{l\widetilde{\delta}} \tag{1}
 $$
 
 $$
-\mathscr{R}(\mathfrak{g}_{\mathbf{C}})\longrightarrow^{ch}\mathbf{Z}[P]
+\mathscr{R}()\mathfrak{g}_{\mathbf{C}})\longrightarrow^{ch}\mathbf{Z})[P]
 $$
 
 where P denotes the group of weights of $R(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$ and $\widetilde{\delta}$ the homomorphism induced by $\delta$.
@@ -206,9 +206,9 @@ The homomorphism Ch induces an isomorphism from R(G) to $Z[X(T)]^W$.
 
 For $\lambda \in X_{++}$, denote by $[\lambda ]$ the class in R(G) of the irreducible representation of highest weight $\lambda$. Since the family $([\lambda ])_{\lambda\in X_{++}}$ is a basis of the $\mathbf{Z}$-module R(G), it suffices to prove the following assertion:
 
-The family (Ch[$\lambda ])_{\lambda\in X_{++}}\sum$is a basis of the $\mathbf{Z}$-module $\mathbf{Z}[X(T)]^W$.
+The family (Ch[$\lambda ])_{\lambda\in X_{++}}$ is a basis of the $\mathbf{Z}$-module $\mathbf{Z}[X(T)]^W$.
 
-For every element $u=a_{\lambda}e^{\lambda}$ of $\mathbf{Z}[X(T)]$, a term $a_{\lambda}e^{\lambda}$ in $u$ is called maximal if $\lambda$ is a maximal element of the set of$^{\lambda}\mu\in X(T)$ such that $a_\mu\not= 0$. Th. 1 implies that Ch[$\lambda ]$ has a unique maximal term, namely $e^{\lambda}$. Thus, the proposition follows from the following lemma.
+For every element $u=\sum_{\lambda}a_{\lambda}e^{\lambda}$ of $\mathbf{Z}[X(T)]$, a term $a_{\lambda}e^{\lambda}$ in $u$ is called maximal if $\lambda$ is a maximal element of the set of $\mu\in X(T)$ such that $a_\mu\not= 0$. Th. 1 implies that Ch[$\lambda ]$ has a unique maximal term, namely $e^{\lambda}$. Thus, the proposition follows from the following lemma.
 
 #### Lemma 3 {#lie-ix-s7-lem-3 .statement tag=01G9}
 
@@ -308,9 +308,9 @@ For all $\lambda \in X_{++}$, denote by $\chi_{\lambda}$ the character of an irr
 
 For all $\lambda \in X_{++}$, we have $J(\rho ).\chi_{\lambda}|T = J(\lambda \rho )$.
 
-The function $J(\rho ).\chi_{\lambda}|T$ is anti-invariant under W, and is a linear combination with integer coefficients of elements of X(T). Thus, by Chap. VI,$\sum$ §3, no. 3, Prop. 1, it can be written as $_\mu a_\mu J(\mu\rho )$, where $\mu$ belongs to $X\int_{++}$, and the $a_\mu$ are integers all but finitely-many of which are zero; since $_G|\chi_{\lambda}(g)|^2dg= 1\sum$
+The function $J(\rho ).\chi_{\lambda}|T$ is anti-invariant under W, and is a linear combination with integer coefficients of elements of X(T). Thus, by Chap. VI, §3, no. 3, Prop. 1, it can be written as $\sum_\mu a_\mu J(\mu\rho )$, where $\mu$ belongs to $X_{++}$, and the $a_\mu$ are integers all but finitely-many of which are zero; since $\int_G|\chi_{\lambda}(g)|^2dg= 1$
 
-(Spectral Theories), it follows from Prop. 3 and Lemma 4 that $_\mu(a_\mu)^2= 1$; thus, the $a_\mu$ are all zero, except one which must be equal to 1 or $-1$. But the coefficient of $\lambda$ in $\chi_{\alpha}|T$ is equal to 1 (Th. 1), hence the coefficient of $\lambda \rho$ in $J(\rho ).\chi_{\lambda}|T$ is equal to 1 (Chap. VI, §3, no. 3, Remark 2), which implies that $a_{\lambda \rho}= 1$, hence the theorem.
+(Spectral Theories), it follows from Prop. 3 and Lemma 4 that $\sum_\mu(a_\mu)^2= 1$; thus, the $a_\mu$ are all zero, except one which must be equal to 1 or $-1$. But the coefficient of $\lambda$ in $\chi_{\alpha}|T$ is equal to 1 (Th. 1), hence the coefficient of $\lambda \rho$ in $J(\rho ).\chi_{\lambda}|T$ is equal to 1 (Chap. VI, §3, no. 3, Remark 2), which implies that $a_{\lambda \rho}= 1$, hence the theorem.
 
 #### Corollary 1 {#lie-ix-s7-thm-2-cor-1 .statement tag=01GE}
 
@@ -325,15 +325,15 @@ This follows from the theorem and commutative diagram (2) (no. 3).
 For all $\lambda \in X_{++}$ and every regular element $t$ of T,
 
 $$
-\sum\varepsilon (w)\lambda (wt)\rho (wt)
+\sum_w\varepsilon (w)\lambda (wt)\rho (wt)
 $$
 
 $$
-\chi_{\lambda}(t) =^w\sum \tag{5}
+\chi_{\lambda}(t) = \tag{5}
 $$
 
 $$
-_w\varepsilon (w)\rho (wt)
+\sum_w\varepsilon (w)\rho (wt)
 $$
 
 where the two sums are over the elements $w$ of W.
@@ -365,12 +365,10 @@ $$
 $$
 
 $$
-w(G)
+_Gw(G)_T
 $$
 
-G $\int T$
-
-1
+1 $\int$
 
 = $J(\lambda \rho )(t)\varphi (t)J(\rho )(t)dt$.
 
@@ -388,7 +386,9 @@ $$
 
 $w(G)_T$ T
 
-finally, by formula (3), we have $\rho (t)J(\rho )(t) =_{\alpha >}\prod_0(1-\alpha (t)^{-1})$, hence the corollary.
+finally, by formula (3), we have $\rho (t)J(\rho )(t) =\prod_{\alpha >0}(1-\alpha (t)^{-1})$, hence the
+
+corollary.
 
 #### Remark 1 {#lie-ix-s7-n4-rem-1 .statement tag=01GI}
 
@@ -401,13 +401,13 @@ $$
 If $t$ is a regular element of T, we deduce from (5) that
 
 $$
-\sum\varepsilon (w)^w\lambda (t)\rho_w(t)\sum\varepsilon (w)^w\lambda (t)\rho_w(t)
+\sum_w\varepsilon (w)^w\lambda (t)\rho_w(t)\sum_w\varepsilon (w)^w\lambda (t)\rho_w(t)
 $$
 
-$\chi_{\lambda}(t) =^w\sum$ = $\prod^w$. (7)
+$\chi_{\lambda}(t) =$ =. (7)
 
 $$
-_w\varepsilon (w)\rho_w(t)\alpha >_0(1-\alpha (t)^{-1})
+\sum_w\varepsilon (w)\rho_w(t)\prod_{\alpha >0}(1-\alpha (t)^{-1})
 $$
 
 Note that $\rho_w$ is a linear combination of roots with integer coefficients, and hence belongs to X(T) even if we do not assume that $\rho \in X(T)$. It follows that formula (7) is valid without the assumption that $\rho \in X(T):$ indeed, to prove this we replace G by a suitable connected covering, and are then reduced to Cor. 2.
@@ -437,10 +437,10 @@ $$
 $$
 
 $$
-_{\alpha\in R}\langle \rho , K_{\alpha}\rangle
+_{\alpha\in R_+}\langle \rho , K_{\alpha}\rangle
 $$
 
-Put $\gamma =^1_2\sum_{\alpha >^+0}K_{\alpha}$, so $\delta (\alpha )(\gamma ) = 2\pi i$ for every simple root $\alpha$ (Chap. VI, §1, no. 10, Prop. 29). The line $\mathbf{R}\gamma$ is not contained in any of the hyperplanes Ker $\delta (\alpha )$, so exp($z\gamma$ ) is a regular element of G for all sufficiently small $z\in \mathbf{R}^*$; for all $\mu\in X(T)$ and all $z\in \mathbf{R}$, we have
+Put $\gamma =^1_2\sum_{\alpha >0}K_{\alpha}$, so $\delta (\alpha )(\gamma ) = 2\pi i$ for every simple root $\alpha$ (Chap. VI, §1, no. 10, Prop. 29). The line $\mathbf{R}\gamma$ is not contained in any of the hyperplanes Ker $\delta (\alpha )$, so exp($z\gamma$ ) is a regular element of G for all sufficiently small $z\in \mathbf{R}^*$; for all $\mu\in X(T)$ and all $z\in \mathbf{R}$, we have
 
 $J(\mu$)(exp($z\gamma$ )) $=\sum_{w\in W}\varepsilon (w)e^{z\delta(\mu)(w^{-1}\gamma)}$.
 
@@ -502,15 +502,17 @@ b) If G is semi-simple, inf $d(\lambda )/\lambda +\rho >0$.
 
 $\lambda \in X_{++}$
 
-$a)$ For all $\alpha \in R_+$, there exists $A\prod_{\alpha}>0$ with $|\langle \lambda +\rho , K_{\alpha}\rangle | \leq A_{\alpha}\lambda +\rho$ , hence $d(\lambda )/\lambda +\rho^N\leq_{\alpha >0}A_{\alpha}/\langle \rho , K_{\alpha}\rangle$.
+$a)$ For all $\alpha \in R_+$, there exists $A_{\alpha}>0$ with $|\langle \lambda +\rho , K_{\alpha}\rangle | \leq A_{\alpha}\lambda +\rho$ , hence $d(\lambda )/\lambda +\rho^N\leq \prod_{\alpha >0}A_{\alpha}/\langle \rho , K_{\alpha}\rangle$.
 
 $b)$ Assume that G is semi-simple, denote by $\beta_1, . . . , \beta_r$ the simple roots and put $N_i=K_{\beta_i}$. Then
 
 $$
-\prod^r\langle \lambda +\rho , N_i\rangle \prod^r
+^r\langle \lambda +\rho , N_i\rangle^r
 $$
 
-$d(\lambda )\geq$ = $\langle \lambda +\rho , N_i\rangle$;
+$$
+d(\lambda )\geq \prod=\prod\langle \lambda +\rho , N_i\rangle
+$$
 
 $$
 _{i=1}\langle \rho , N_i\rangle_{i=1}
@@ -526,15 +528,11 @@ If G is semi-simple, $x \rightarrow$ sup$|\langle x, N_i\rangle |$ is a norm on 
 
 Assume that G is semi-simple; let $d$ be an integer. The set of classes of representations of G of dimension $\leq d$ is finite.
 
-Cor. $1b)$ implies that the set $X_d$ of elements $\lambda$ of $X_{++}$ such that $d(\lambda )\leq d$ is finite. For all $\lambda$ in $X_d$, let $V_{\lambda}$ be an irreducible representation of highest weight$\bigoplus\lambda$; every representation of dimension $\leq d$ is isomorphic to a direct sum
-
-$V^n_{\lambda^{\lambda}}$, with $n_{\lambda}\leq d$, hence the corollary.
-
-$\lambda \in X_d$
+Cor. $1b)$ implies that the set $X_d$ of elements $\lambda$ of $X_{++}$ such that $d(\lambda )\leq d$ is finite. For all $\lambda$ in $X_d$, let $V_{\lambda}$ be an irreducible representation of highest weight $\lambda$; every representation of dimension $\leq d$ is isomorphic to a direct sum $\bigoplus_{\lambda\in X_d}V^n_{\lambda^{\lambda}}$, with $n_{\lambda}\leq d$, hence the corollary.
 
 ### 6. CASIMIR ELEMENTS
 
-By Prop. 3 of §1, no. 3, there exist negative symmetric bilinear forms on $\mathfrak{g}$, separating and invariant under Ad(G) (if G is semi-simple, we can take the Killing form of $\mathfrak{g}$, for example). Let F be such a form. Recall (Chap. I, §3, no. 7) that the Casimir element associated to F is the element $\Gamma$ of the centre of the enveloping algebra $U(\mathfrak{g})$ such that, for any basis $(\sum e_i)$ of $\mathfrak{g}$ satisfying $F(e_i, e_j) =-\delta_{ij}$, we have $\Gamma =-e^2_i$.
+By Prop. 3 of §1, no. 3, there exist negative symmetric bilinear forms on $\mathfrak{g}$, separating and invariant under Ad(G) (if G is semi-simple, we can take the Killing form of $\mathfrak{g}$, for example). Let F be such a form. Recall (Chap. I, §3, no. 7) that the Casimir element associated to F is the element $\Gamma$ of the centre of the enveloping algebra $U(\mathfrak{g})$ such that, for any basis $(e_i)$ of $\mathfrak{g}$ satisfying $F(e_i, e_j) =-\delta_{ij}$, we have $\Gamma =-\sum e^2_i$.
 
 In the remainder of this chapter we shall call the Casimir elements of G the elements of $U(\mathfrak{g})$ obtained in this way from negative separating invariant symmetric bilinear forms on $\mathfrak{g}$. If $\Gamma$ is a Casimir element of G and if $\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$ is an irreducible representation of G, the endomorphism $\Gamma_V$ of V is a homothety (Algebra, Chap. VIII, §3, no. 2, Th. 1), whose ratio we shall denote by $\widetilde{\Gamma}(\tau )$.
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 94
 statements: 37
 exercises: 19
-content_sha256: b4d599398718e84f42dbe47bfa9d4a51d98d75710e9712dba69f406f0e62272e
+content_sha256: c9e9120986305700fdf16b43f31ae23f7e2dcc7b5022b4c947c5783a982b30d4
 ---
 
 ## § 5. COMMUTATION
@@ -62,13 +62,13 @@ Soit $n$ un entier $\geqslant 1$. Considérons $A^n$ comme un $\mathbf{M}_n$(A)-
 
 #### Proposition 1 {#alg-viii-s5-prop-1 .statement tag=005F}
 
-Soit $(A_i)\prod_{i\in I}$ une famille d’anneaux et, pour tout$\prod i\in I$, soit $M_i$ un $A_i$-module. Posons A = $A_i$,M = $M_i$ et $N =\bigoplus M_i$. Munissons M de la structure de A-module dont la loi d’action est $((a_i),(x_i))\rightarrow (a_ix_i)$. L’ensemble N est un sous-A-module de M.
+Soit $(A_i)_{i\in I}$ une famille d’anneaux et, pour tout $i\in I$, soit $M_i$ un $A_i$-module. Posons $A =\prod A_i, M =\prod M_i$ et $N =\bigoplus M_i$. Munissons M de la structure de A-module dont la loi d’action est $((a_i),(x_i))\rightarrow (a_ix_i)$. L’ensemble N est un sous-A-module de M.
 
-a) L’application $(u_i)\rightarrow \prod u_i$ de $\prod$ End$_{\mathbf{Z}}(M_i)$dans End$_{\mathbf{Z}}(M)$ (II, p. 10) définit par passage aux sous-ensembles des isomorphismes d’anneaux de$\prod\prod(A_i)_{M_i},\prod(A_i)'_{M_i}$ et $(A_i)''_{M_i}$ sur $A_M, A'_M$ et $A''_M\bigoplus$respectivement.$\prod$
+a) L’application $(u_i)\rightarrow \prod u_i$ de $\prod$ End$_{\mathbf{Z}}(M_i)$dans End$_{\mathbf{Z}}(M)$ (II, p. 10) définit par passage aux sous-ensembles des isomorphismes d’anneaux de $\prod(A_i)_{M_i},\prod(A_i)'_{M_i}$ et $\prod(A_i)''_{M_i}$ sur $A_M, A'_M$ et $A''_M$ respectivement.
 
-b) L’application $(u_i)\rightarrow u_i$ de End$_{\mathbf{Z}}(M_i)$dans End$_{\mathbf{Z}}(N)$ (II, p. 13) définit par passage aux sous-ensembles des isomorphismes d’anneaux de$\prod\prod(A_i)_{M_i},\prod(A_i)'_{M_i}$ et $(A_i)''_{M_i}$ sur $A_N, A'_N$ et $A''_N\prod$respectivement.$\prod$
+b) L’application $(u_i)\rightarrow \bigoplus u_i$ de $\prod$ End$_{\mathbf{Z}}(M_i)$dans End$_{\mathbf{Z}}(N)$ (II, p. 13) définit par passage aux sous-ensembles des isomorphismes d’anneaux de $\prod(A_i)_{M_i},\prod(A_i)'_{M_i}$ et $\prod(A_i)''_{M_i}$ sur $A_N, A'_N$ et $A''_N$ respectivement.
 
-L’application $\varphi : (u_i)\rightarrow u_i$ de End$_{\mathbf{Z}}(M_i)$ dans End$_{\mathbf{Z}}(M)$ est un homomorphisme injectif d’anneaux. Par définition de la structure de A-module de M, on a $\varphi (\prod(A_i)_{M_i}) = A_M$. Soit $u\in A'_M$. Pour tout $i\in I$, notons $h_i$ l’élément de A dont toutes les composantes sont égales à 1 sauf celle d’indice $i$ qui est égale à 0 . Si $x$ est un élément de M dont la composante d’indice $i$ est nulle, on a $x=h_ix$, d’où pr$_i(u(x)) =$ pr$_i(u(h_ix)) =$ pr$_i(h_iu(x)) = 0$. Il existe par suite un unique homomorphisme de groupes $u_i: M_i\rightarrow M_i$ telle que pr$_i(u(y)) =u_i$(pr$_i(y))$ pour tout $y\in M$. On a $u=\prod u_i$. Comme l’application $u$ est A-linéaire, l’application $u_i$ est $A_i$-linéaire pour tout $i\in I$. Cela prouve que $A'_M$ est contenu dans l’image de $\prod(A_i)'_{M_i}$ par $\varphi$; l’inclusion opposée est évidente. En appliquant cela au contremodule de M, on en déduit que $\varphi$ induit un isomorphisme de $A''_M$ sur $\prod_i(A_i)''_{M_i}$. Cela prouve l’assertion a).
+L’application $\varphi : (u_i)\rightarrow \prod u_i$ de $\prod$ End$_{\mathbf{Z}}(M_i)$ dans End$_{\mathbf{Z}}(M)$ est un homomorphisme injectif d’anneaux. Par définition de la structure de A-module de M, on a $\varphi (\prod(A_i)_{M_i}) = A_M$. Soit $u\in A'_M$. Pour tout $i\in I$, notons $h_i$ l’élément de A dont toutes les composantes sont égales à 1 sauf celle d’indice $i$ qui est égale à 0 . Si $x$ est un élément de M dont la composante d’indice $i$ est nulle, on a $x=h_ix$, d’où pr$_i(u(x)) =$ pr$_i(u(h_ix)) =$ pr$_i(h_iu(x)) = 0$. Il existe par suite un unique homomorphisme de groupes $u_i: M_i\rightarrow M_i$ telle que pr$_i(u(y)) =u_i$(pr$_i(y))$ pour tout $y\in M$. On a $u=\prod u_i$. Comme l’application $u$ est A-linéaire, l’application $u_i$ est $A_i$-linéaire pour tout $i\in I$. Cela prouve que $A'_M$ est contenu dans l’image de $\prod(A_i)'_{M_i}$ par $\varphi$; l’inclusion opposée est évidente. En appliquant cela au contremodule de M, on en déduit que $\varphi$ induit un isomorphisme de $A''_M$ sur $\prod_i(A_i)''_{M_i}$. Cela prouve l’assertion a).
 
 La démonstration de b) est la même que celle de a) mutatis mutandis.
 
@@ -280,7 +280,7 @@ Soit M un A-module semi-simple et soit B l’anneau des endomorphismes de M. On 
 
 #### Remarque 1 {#alg-viii-s5-n4-rem-1 .statement tag=00R4}
 
-La description canonique $\alpha_M$ du A-module M est un isomorphisme de $(A,($B)-bimodules à gauche. D’après VIII, p.$)$ 67, cor. de la prop. 9, l’application $f\rightarrow$ Hom(1$_{S_{\lambda}}, f)_{\lambda\in\mathscr{S}_M}$ de B dans $\prod_{\lambda\in\mathscr{S}_M}$ End$_{D_{\lambda}}(V_{\lambda})$ est un isomorphisme d’anneaux.
+La description canonique $\alpha_M$ du A-module M est un isomorphisme de $(A$, B)-bimodules à gauche. D’après VIII, p. 67, cor. de la prop. 9, l’application $f\rightarrow ($Hom(1$_{S_{\lambda}}, f))_{\lambda\in\mathscr{S}_M}$ de B dans $\prod_{\lambda\in\mathscr{S}_M}$ End$_{D_{\lambda}}(V_{\lambda})$ est un isomorphisme d’anneaux.
 
 #### Proposition 5 {#alg-viii-s5-prop-5 .statement tag=005X}
 
@@ -350,9 +350,9 @@ c) Soit Λ une partie de $\mathscr{S}_M$. Notons $e_{\Lambda}$ l’unique élém
 
 d) Si le support $\mathscr{S}_M$ de M est fini, l’application $\Lambda \rightarrow e_{\Lambda}Z$est une bijection de l’ensemble des parties de $\mathscr{S}_M$ sur l’ensemble des idéaux de Z et l’application $\mathfrak{a}\rightarrow \mathfrak{a}M$ est une bijection de l’ensemble des idéaux de Z sur l’ensemble des sous-$(A,B^o)$-bimodules de M. Ces bijections sont des isomorphismes d’ensembles ordonnés. La bijection réciproque associe à un sous $(A,B^o)$-bimodule N de M l’idéal formé des éléments $z$ de Z qui appliquent N dans M.
 
-Pour $\lambda \in \mathscr{S}_M, Z_{\lambda}$ est le centre commun du commutant $D_{\lambda}$ et du bicommutant $C_{\lambda}$ du A-module $S_{\lambda}$. D’après la prop. 7 c) ci-dessus, l’application $c\rightarrow (c_{\lambda})_{\lambda\in\mathscr{S}_M}$ est un isomorphisme de C sur $\prod_{\lambda\in\mathscr{S}}C_{\lambda}$. Par restriction aux centres, on obtient l’isomorphisme $z\rightarrow (z_S)_{\lambda\in\mathscr{S}_M}$ de Z sur$^{^M}\prod_{\lambda\in\mathscr{S}_M}Z_{\lambda}$, d’où a).
+Pour $\lambda \in \mathscr{S}_M, Z_{\lambda}$ est le centre commun du commutant $D_{\lambda}$ et du bicommutant $C_{\lambda}$ du A-module $S_{\lambda}$. D’après la prop. 7 c) ci-dessus, l’application $c\rightarrow (c_{\lambda})_{\lambda\in\mathscr{S}_M}$ est un isomorphisme de C sur $\prod_{\lambda\in\mathscr{S}}C_{\lambda}$. Par restriction aux centres, on obtient l’isomorphisme $z\rightarrow (z_{S_{\lambda}})_{\lambda\in\mathscr{S}_M}$ de Z sur$^{^M}\prod_{\lambda\in\mathscr{S}_M}Z_{\lambda}$, d’où a).
 
-Pour que l’anneau $\prod^{^{\lambda}}_{\lambda\in\mathscr{S}_M}Z_{\lambda}$ soit un corps, il faut et il suffit que l’ensemble $\mathscr{S}_M$ ait un seul élément, d’où b).
+Pour que l’anneau $\prod_{\lambda\in\mathscr{S}_M}Z_{\lambda}$ soit un corps, il faut et il suffit que l’ensemble $\mathscr{S}_M$ ait un seul élément, d’où b).
 
 L’assertion c) résulte de la prop. 7 a). Supposons $\mathscr{S}_M$ fini. On déduit de a) et de la prop. 8 de I, p. 104, que l’application $\Lambda \rightarrow e_{\Lambda}Z$ est un isomorphisme d’ensembles ordonnés de $\mathfrak{P}(\mathscr{S}_M)$ sur l’ensemble des idéaux de Z. Soit Λ une partie de $\mathscr{S}_M$. D’après c), on a la relation $e_{\Lambda}$ZM $=e_{\Lambda}M =\bigoplus_{\lambda\in\Lambda}M_{\lambda}$; Compte tenu de la prop. 6, c) de VIII, p. 81, il ne reste plus qu’à décrire la bijection réciproque. Mais pour que $z\in Z$ applique M dans $\bigoplus_{\lambda\in\Lambda}M_{\lambda}$, il faut et il suffit que l’on ait $z=e_{\Lambda}z$, c’est-à-dire $z\in e_{\Lambda}Z$.
 

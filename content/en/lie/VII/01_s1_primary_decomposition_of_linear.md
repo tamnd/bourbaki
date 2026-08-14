@@ -33,7 +33,7 @@ subsections:
       pdf_page: 21
 statements: 25
 exercises: 11
-content_sha256: 09898f932e7af43c3ba71ebd9b9d269ef703cbf486bbdb00b0b707f570da4978
+content_sha256: 575b6f0a3f9a3d5aa4cd76cd44622cddd588e8d2cf1d3e2ec7c24cb9b797b8be
 ---
 
 ## § 1. PRIMARY DECOMPOSITION OF LINEAR REPRESENTATIONS
@@ -47,11 +47,11 @@ In particular, if S reduces to a single element $s, P$ can be identified with $k
 For all $\lambda \in P$, the following relations are immediate:
 
 $$
-V^{\lambda}(S) =\bigcap V^{\lambda(s)}(s) \tag{1}
+V^{\lambda}(S) =\bigcap_{s\in S}V^{\lambda(s)}(s) \tag{1}
 $$
 
 $$
-V_{\lambda}(S) =\bigcap^s_s^{\in}_{\in}^S_SV_{\lambda(s)}(s) \tag{2}
+V_{\lambda}(S) =\bigcap_{s\in S}V_{\lambda(s)}(s) \tag{2}
 $$
 
 Let $k'$ be an extension of $k$. The canonical map from End(V) to End($V\otimes_kk'$) gives, by composition with $r$, a map $r': S\rightarrow$ End($V\otimes_kk'$). Similarly, every map $\lambda$ from S to $k$ defines canonically a map, also denoted by $\lambda$, from S to $k'$. With these notations, we have the following proposition:
@@ -62,7 +62,7 @@ For all $\lambda \in P$,
 
 $(V\otimes_kk')^{\lambda}(S) = V^{\lambda}(S)\otimes_kk'$ and $(V\otimes_kk')_{\lambda}(S) = V_{\lambda}(S)\otimes_kk'$.
 
-Let $(a_i)$ be a basis of the $k\sum$-vector space $k'$. If $v\in V\otimes_kk',v$ can be expressed uniquely in the form $v_i\otimes a_i$ where $(v_i)$ is a finitely-supported family of elements of V. For all $s\in S$,
+Let $(a_i)$ be a basis of the $k$-vector space $k'$. If $v\in V\otimes_kk',v$ can be expressed uniquely in the form $\sum v_i\otimes a_i$ where $(v_i)$ is a finitely-supported family of elements of V. For all $s\in S$,
 
 $$
 (r'(s)-\lambda (s))^n(v) =\sum(r(s)-\lambda (s))^nv_i\otimes a_i
@@ -107,10 +107,10 @@ $$
 for $s\in S,v\in V,v'\in V'$, hence by induction on $n$
 
 $$
-'\sum(n)''
+'(n)''
 $$
 
-$(q(s)-\lambda (s)-\mu(s))^nB(v, v) =B((r(s)-\lambda (s))^iv,(r(s)-\mu(s))^jv)$.
+$(q(s)-\lambda (s)-\mu(s))^nB(v, v) =\sum B((r(s)-\lambda (s))^iv,(r(s)-\mu(s))^jv)$.
 
 $$
 i
@@ -142,15 +142,15 @@ The second assertion is a consequence of the first; hence it suffices to prove t
 
 $a) S$ is empty. The assertion is trivial.
 
-$b) S$ is reduced to a single element $s$. Let $\lambda_0, \lambda_1, . . . , \lambda_n$ be distinct elements of $k$. For $i= 0,1, . . . , n$, let $v_i\in V^{\lambda_i}(s)$ and assume that $v_0=v_1+\cdots +v_n$. It suffices to prove that $v_0$ = 0. For $i= 0, . . . , n$, there exists an integer $q_i\prod>$ 0 such that $(r(s)-\lambda_i)^{q_i}v_i$ = 0. Consider the polynomials $P(X) =_{i\geq 1}(X-\lambda_i)^{q_i}$ and $Q(X) = (X-\lambda_0)^{q_0}$. We have $Q(r(s))v_0= 0$, and
+$b) S$ is reduced to a single element $s$. Let $\lambda_0, \lambda_1, . . . , \lambda_n$ be distinct elements of $k$. For $i= 0,1, . . . , n$, let $v_i\in V^{\lambda_i}(s)$ and assume that $v_0=v_1+\cdots +v_n$. It suffices to prove that $v_0$ = 0. For $i= 0, . . . , n$, there exists an integer $q_i>$ 0 such that $(r(s)-\lambda_i)^{q_i}v_i$ = 0. Consider the polynomials $P(X) =\prod_{i\geq 1}(X-\lambda_i)^{q_i}$ and $Q(X) = (X-\lambda_0)^{q_0}$. We have $Q(r(s))v_0= 0$, and
 
 $P(r(s))v_0=\sum_{i=1}^nP(r(s))v_i= 0$. Since P and Q are relatively prime, the Bezout identity proves that $v_0= 0$.
 
-$c) S$ is finite and non-empty. We argue by induction on the cardinal of S. Let $s\in S$ and $S'= S$**--**$\sum\{s\}$. Let $(v_{\lambda})_{\lambda\in P}$ be a finitely-supported family of elements of V such that $v_{\lambda}= 0$ and $v_{\lambda}\in V^{\lambda}(S)$. Let $\lambda_0\in P$. Let $P'$ be the set of $\lambda \in P$ such that$\sum^{\lambda\in}\lambda^P|S'=\lambda_0|S'$. By the induction hypothesis applied to $S'$, we have $v_{\lambda}= 0$. If $\lambda , \mu$ are distinct elements of $P',\lambda (s)\not=\mu(s)$.
+$c) S$ is finite and non-empty. We argue by induction on the cardinal of S. Let $s\in S$ and $S'= S$**--** $\{s\}$. Let $(v_{\lambda})_{\lambda\in P}$ be a finitely-supported family of elements of V such that $\sum_{\lambda\in P}v_{\lambda}= 0$ and $v_{\lambda}\in V^{\lambda}(S)$. Let $\lambda_0\in P$. Let $P'$ be the set of $\lambda \in P$ such that $\lambda |S'=\lambda_0|S'$. By the induction hypothesis applied to $S'$, we have $\sum_{\lambda\in P'}v_{\lambda}= 0$. If $\lambda , \mu$ are distinct elements of $P',\lambda (s)\not=\mu(s)$.
 
-Since the sum $_{\alpha}\sum^{\lambda\in P}_{\in k}{V'}^{\alpha}(s)$ is direct by $b)$, and since $v_{\lambda}\in V^{\lambda(s)}(s),v_{\lambda}= 0$ for all $\lambda \in P'$, and in particular $v_{\lambda_0}= 0$, which we had to prove.
+Since the sum $\sum_{\alpha\in k}V^{\alpha}(s)$ is direct by $b)$, and since $v_{\lambda}\in V^{\lambda(s)}(s),v_{\lambda}= 0$ for all $\lambda \in P'$, and in particular $v_{\lambda_0}= 0$, which we had to prove.
 
-$d)$ General case$\sum$ . Let $(v_{\lambda})_{\lambda\in P}$ be a finitely-supported family of elements of V such that $_{\lambda\in P}v_{\lambda}= 0$ and $v_{\lambda}\in V^{\lambda}(S)$. Let $P'$ be the finite set of $\lambda \in P$ such that $v_{\lambda}\not= 0$, and let $S'$ be a finite subset of S such that the conditions $\lambda \in P'$, $\mu\in P',\lambda |S'=\mu|S'$ imply that $\lambda =\mu$. We have $v_{\lambda}\in V^{\lambda|S'}(S')$; applying $c)$, we see that $v_{\lambda}= 0$ for $\lambda \in P'$, which completes the proof.
+$d)$ General case. Let $(v_{\lambda})_{\lambda\in P}$ be a finitely-supported family of elements of V such that $\sum_{\lambda\in P}v_{\lambda}= 0$ and $v_{\lambda}\in V^{\lambda}(S)$. Let $P'$ be the finite set of $\lambda \in P$ such that $v_{\lambda}\not= 0$, and let $S'$ be a finite subset of S such that the conditions $\lambda \in P'$, $\mu\in P',\lambda |S'=\mu|S'$ imply that $\lambda =\mu$. We have $v_{\lambda}\in V^{\lambda|S'}(S')$; applying $c)$, we see that $v_{\lambda}= 0$ for $\lambda \in P'$, which completes the proof.
 
 Recall that, if $x\in$ End(V), we denote by ad $x$ the map $y \rightarrow xy-yx= [x, y]$ from End(V) to itself.
 
@@ -158,11 +158,11 @@ Recall that, if $x\in$ End(V), we denote by ad $x$ the map $y \rightarrow xy-yx=
 
 Let $x, y\in$ End(V).
 
-(i) Assume that$\sum$ V is finite dimensional. Then $x$ is triangularizable if and only if $V =_{a\in k}V^a(x)$.
+(i) Assume that V is finite dimensional. Then $x$ is triangularizable if and only if $V =\sum_{a\in k}V^a(x)$.
 
-(ii) If there exists an integer $n$ such that (ad $x)^ny= 0$, each $V^a(x)$ is stable under $y.\sum$
+(ii) If there exists an integer $n$ such that (ad $x)^ny= 0$, each $V^a(x)$ is stable under $y$.
 
-(iii) Assume that V is finite dimensional. If $V =_{a\in k}V^a(x)$ and if each
+(iii) Assume that V is finite dimensional. If $V =\sum_{a\in k}V^a(x)$ and if each
 
 $V^a(x)$ is stable under $y$, there exists an integer $n$ such that (ad $x)^ny= 0$.
 
@@ -190,13 +190,13 @@ In the sequel, we shall say that the map $r: S\rightarrow$ End(V) satisfies cond
 
 Assume that V is finite dimensional. The following conditions are equivalent:
 
-(i) Condition (AC) is satisfied and, for all $s\in S,r(s)$ is triangularizable.$\sum$
+(i) Condition (AC) is satisfied and, for all $s\in S,r(s)$ is triangularizable.
 
-(ii) For all$\sum\lambda \in P$, $V^{\lambda}(S)$ is stable under$\sum r(S)$, and $V =_{\lambda\in P}V^{\lambda}(S)$.
+(ii) For all $\lambda \in P$, $V^{\lambda}(S)$ is stable under $r(S)$, and $V =\sum_{\lambda\in P}V^{\lambda}(S)$.
 
-If $V =_{\lambda\in P}V^{\lambda}$(S), then $V =_{a\in k}V^a(s)$ for all $s\in S$, and it follows from
+If $V =\sum_{\lambda\in P}V^{\lambda}$(S), then $V =\sum_{a\in k}V^a(s)$ for all $s\in S$, and it follows from
 
-Lemma 1 that (ii) implies (i). Assume that condition (i) is satisfied. Lemma 1 and formula (1) imply that each $V\sum^{\lambda}(S)$ is stable under $r(S)$. It remains to prove that $V =_{\lambda\in P}V^{\lambda}(S)$. We argue by induction on dim V. We distinguish two cases.
+Lemma 1 that (ii) implies (i). Assume that condition (i) is satisfied. Lemma 1 and formula (1) imply that each $V^{\lambda}(S)$ is stable under $r(S)$. It remains to prove that $V =\sum_{\lambda\in P}V^{\lambda}(S)$. We argue by induction on dim V. We distinguish two cases.
 
 $a)$ For all $s\in S,r(s)$ has a single eigenvalue $\lambda (s)$. Then $V = V^{\lambda}(S)$.
 
@@ -204,7 +204,7 @@ $b)$ There exists $s\in S$ such that $r(s)$ has at least two distinct eigenvalue
 
 #### Corollary 1 {#lie-vii-s1-thm-1-cor-1 .statement tag=00SP}
 
-Assume that V is finite dimensional and that condition (AC) is satisfied. Let $k'$ be an extension of $k$. Assume that, for all $s\in S$, the endomorphism $r(s)\otimes 1$ of $V\otimes_kk'$ is triangularizable. Let$\sum P'$ be the set of maps from S to $k'$. Then $V\otimes_kk'=_{\lambda'\in P'}(V\otimes_kk')^{\lambda'}(S)$.
+Assume that V is finite dimensional and that condition (AC) is satisfied. Let $k'$ be an extension of $k$. Assume that, for all $s\in S$, the endomorphism $r(s)\otimes 1$ of $V\otimes_kk'$ is triangularizable. Let $P'$ be the set of maps from S to $k'$. Then $V\otimes_kk'=\sum_{\lambda'\in P'}(V\otimes_kk')^{\lambda'}(S)$.
 
 Let $r': S\rightarrow$ End(V$\otimes_kk')$ be the map defined by $r$. If $s_1, s_2\in S$, there exists an integer $n$ such that (ad $r(s_1))^nr(s_2) = 0$, hence (ad $r'(s_1))^nr'(s_2) = 0$. It now suffices to apply Th. 1.
 
@@ -216,19 +216,15 @@ Assume that V is finite dimensional and that condition (AC) is satisfied. Denote
 
 (ii) $V = V^0(S)\oplus V^+(S)$;
 
-(iii) every vector subspace W of V, stable under $r(S)$ and such that $W^0(S) = 0\sum$, is contained in $V^+(S)$;
+(iii) every vector subspace W of V, stable under $r(S)$ and such that $W^0(S) = 0$, is contained in $V^+(S)$;
 
-(iv) $_{s\in S}r(s)V^+(S) = V^+(S)$.
+(iv) $\sum_{s\in S}r(s)V^+(S) = V^+(S)$.
 
 Moreover, $V^+(S)$ is the only vector subspace of V with properties (i) and (ii). For any extension $k'$ of $k,(V\otimes_kk')^+(S) = V^+(S)\otimes_kk'$.
 
-The last assertion is immediate. Thus, taking Prop. 1 into account, in proving the others we can assume that$\sum k$ is algebraically closed. By Th. 1, V =
+The last assertion is immediate. Thus, taking Prop. 1 into account, in proving the others we can assume that $k$ is algebraically closed. By Th. 1, V = $\sum_{\lambda\in P}V^{\lambda}$(S), and the $V^{\lambda}(S)$ are stable under $r(S)$. If $s\in S$, the characteristic
 
-$V^{\lambda}$(S), and the $V^{\lambda}(S)$ are stable under $r(S)$. If $s\in S$, the characteristic
-
-$\lambda \in P\bigcap$
-
-polynomial of $r(s)|V^{\lambda}(S)$ is $(X-\lambda (s))^{dim V^{\lambda}(S)}$; it follows that $_{i\geq 1}r(s)^iV^{\lambda}(s)$
+polynomial of $r(s)|V^{\lambda}(S)$ is $(X-\lambda (s))^{dim V^{\lambda}(S)}$; it follows that $\bigcap_{i\geq 1}r(s)^iV^{\lambda}(s)$
 
 is zero if $\lambda (s) = 0$ and is equal to $V^{\lambda}(S)$ if $\lambda (s)\not= 0$; hence,
 
@@ -236,7 +232,7 @@ $$
 V^+(S) =\sum_{\lambda\in P,\lambda\not=0}V^{\lambda}(S) \tag{3}
 $$
 
-which proves (i), (ii) and (iv). If W is a vector subspace of V stable under$\sum$ $r$(S), then $W =_{\lambda\in P}W^{\lambda}(S)$ and $W^{\lambda}(S) = W\cap V^{\lambda}(S)$. If $W^0(S) = 0$, we see that $W\subset V^+$(S), which proves (iii).
+which proves (i), (ii) and (iv). If W is a vector subspace of V stable under $r$(S), then $W =\sum_{\lambda\in P}W^{\lambda}(S)$ and $W^{\lambda}(S) = W\cap V^{\lambda}(S)$. If $W^0(S) = 0$, we see that $W\subset V^+$(S), which proves (iii).
 
 Let $V'$ be a vector subspace of V stable under $r(S)$ and such that $V'\cap V^0(S) = 0$. Then ${V'}^0(S) = 0$, so $V'\subset V^+(S)$ by (iii). If, in addition, $V = V^0(S) + V'$, we see that $V'= V^+(S)$. Q.E.D.
 
@@ -246,11 +242,7 @@ We sometimes call $(V^0(S),V^+(S))$ the Fitting decomposition of V, or of the ma
 
 Let V and $V'$ be finite dimensional vector spaces, and let $r: S\rightarrow$ End(V) and $r': S\rightarrow$ End(V$')$ be maps satisfying condition (AC). Let $f: V\rightarrow V'$ be a surjective linear map such that $f(r(s)v) =r'(s)f(v)$ for $s\in S$ and $v\in V$. Then $f(V^{\lambda}{(S)) = V'}^{\lambda}(S)$ for all $\lambda \in P$.
 
-In view of Prop. 1, we are reduced to the case in which$\bigoplus\bigoplus k$ is algebraically closed. We have $V =\sum_{\lambda\in P}V^{\lambda}$(S), $V'=_{\lambda\in P}{V'}^{\lambda}(S)$ by Th. 1, and $V'=f(V) =$
-
-$f(V^{\lambda}(S))$. Finally, $f(V^{\lambda}(S))\subset {V'}^{\lambda}(S)$ by Prop. 2 (i), hence the corollary.
-
-$\lambda \in P$
+In view of Prop. 1, we are reduced to the case in which $k$ is algebraically closed. We have $V =\bigoplus_{\lambda\in P}V^{\lambda}$(S), $V'=\bigoplus_{\lambda\in P}{V'}^{\lambda}(S)$ by Th. 1, and $V'=f(V) =$ $\sum_{\lambda\in P}f(V^{\lambda}(S))$. Finally, $f(V^{\lambda}(S))\subset {V'}^{\lambda}(S)$ by Prop. 2 (i), hence the corollary.
 
 #### Proposition 4 {#lie-vii-s1-prop-4 .statement tag=00SS}
 
@@ -350,9 +342,9 @@ Let $\mathfrak{h}$ be a Lie algebra and M an $\mathfrak{h}$-module. For any map 
 
 #### Proposition 8 {#lie-vii-s1-prop-8 .statement tag=00SW}
 
-Let $\mathfrak{h}$ be a Lie algebra, and $L,M,N\mathfrak{h}$-modules. Denote by P the set of maps from$\sum\mathfrak{h}$ to $k$.
+Let $\mathfrak{h}$ be a Lie algebra, and $L,M,N\mathfrak{h}$-modules. Denote by P the set of maps from $\mathfrak{h}$ to $k$.
 
-(i) The sum $_{\lambda\in P}L^{\lambda}(P)$ is direct.
+(i) The sum $\sum_{\lambda\in P}L^{\lambda}(P)$ is direct.
 
 (ii) If $f: L\rightarrow M$ is a homomorphism of $\mathfrak{h}$-modules, $f(L^{\lambda}(\mathfrak{h}))\subset M^{\lambda}(\mathfrak{h})$ for all $\lambda \in P$.
 
@@ -370,7 +362,7 @@ This follows from Props. 2 and 3.
 
 Let $\mathfrak{h}$ be a nilpotent Lie algebra and M a finite dimensional $\mathfrak{h}$-module. Denote by P the set of maps from $\mathfrak{h}$ to $k$.
 
-(i) Each $M^{\lambda}(\mathfrak{h}\sum)$ is an $\mathfrak{h}$-submodule of M. If $x_M$ is triangularizable for all $x\in \mathfrak{h}$, then $M =_{\lambda\in P}M^{\lambda}(\mathfrak{h})$.
+(i) Each $M^{\lambda}(\mathfrak{h})$ is an $\mathfrak{h}$-submodule of M. If $x_M$ is triangularizable for all $x\in \mathfrak{h}$, then $M =\sum_{\lambda\in P}M^{\lambda}(\mathfrak{h})$.
 
 (ii) If $k$ is infinite, there exists $x\in \mathfrak{h}$ such that $M^0(x) = M^0(\mathfrak{h})$.
 
@@ -388,18 +380,14 @@ $$
 
 from the above, this is a representation of $\mathfrak{h}$ on M, and $\rho (x)$ is nilpotent for all $x\in \mathfrak{h}$. By Engel’s theorem (Chap. I, §4, no. 2, Th. 1), there exists $m\not= 0$ in M such that $\rho (x)m= 0$ for all $x\in \mathfrak{h}$, so $m\in M_{\lambda}(\mathfrak{h})$.
 
-The first assertion of (v) follows from no. 1, Prop. 2 (ii). To prove the second, we can assume that $k$ is algebraically closed in view of Prop. 1 of no. $1;\sum\sum$ it then follows from the first and the fact that M = $M^{\lambda}(\mathfrak{h}), N =N^{\lambda}(\mathfrak{h})$,
-
-$\lambda \lambda$
-
-cf. (i).
+The first assertion of (v) follows from no. 1, Prop. 2 (ii). To prove the second, we can assume that $k$ is algebraically closed in view of Prop. 1 of no. 1; it then follows from the first and the fact that $M =\sum_{\lambda}M^{\lambda}(\mathfrak{h}), N =\sum_{\lambda}N^{\lambda}(\mathfrak{h})$, cf. (i).
 
 #### Remark {#lie-vii-s1-n3-rem-1 .statement tag=00SY}
 
-Assume that $k$ is perfect and of characteristic 2. Let $\mathfrak{h}(=\mathfrak{s}\mathfrak{l}(2, k))$, and
+Assume that $k$ is perfect and of characteristic 2. Let $\mathfrak{h}=\mathfrak{s}\mathfrak{l}(2, k)$, and
 
 $$
-_2ab
+_2(ab)
 $$
 
 let M be the $\mathfrak{h}$-module $k$ (for the identity map of $\mathfrak{h})$. If $x=$ is an
@@ -494,7 +482,7 @@ Let $\mathfrak{g}$ be a Lie algebra, $a$ an automorphism of $\mathfrak{g}$.
 
 (ii) If B is a symmetric bilinear form on $\mathfrak{g}$ invariant under $a,\mathfrak{g}^{\lambda}(a)$ and $\mathfrak{g}^\mu(a)$ are orthogonal relative to B for $\lambda \mu\not= 1$. Assume that B is non-degenerate. Then, if $\lambda \not= 0$, the restriction of B to $\mathfrak{g}^{\lambda}(a)\times \mathfrak{g}^{1/\lambda}(a)$ is non-degenerate.
 
-Assertion (i) and the first half of (ii) follow from Prop. 2 (iii) applied to the composition law $\mathfrak{g}\times \mathfrak{g}\rightarrow \mathfrak{g}$ and the bilinear form B. To prove the second$\bigoplus$ half of (ii), we can assume that $k$ is algebraically closed. Then $\mathfrak{g}=_{\nu\in k}\mathfrak{g}^{\nu}(a)$. In view of the above, $\mathfrak{g}^{\lambda}(a)$ is orthogonal to $\mathfrak{g}^{\nu}(a)$ if $\lambda \nu \not= 1$; since B is non-degenerate, it follows that its restriction to $\mathfrak{g}^{\lambda}(a)\times \mathfrak{g}^{1/\lambda}(a)$ is also.
+Assertion (i) and the first half of (ii) follow from Prop. 2 (iii) applied to the composition law $\mathfrak{g}\times \mathfrak{g}\rightarrow \mathfrak{g}$ and the bilinear form B. To prove the second half of (ii), we can assume that $k$ is algebraically closed. Then $\mathfrak{g}=\bigoplus_{\nu\in k}\mathfrak{g}^{\nu}(a)$. In view of the above, $\mathfrak{g}^{\lambda}(a)$ is orthogonal to $\mathfrak{g}^{\nu}(a)$ if $\lambda \nu \not= 1$; since B is non-degenerate, it follows that its restriction to $\mathfrak{g}^{\lambda}(a)\times \mathfrak{g}^{1/\lambda}(a)$ is also.
 
 #### Corollary {#lie-vii-s1-n4-cor-1 .statement tag=00T4}
 

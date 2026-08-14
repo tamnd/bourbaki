@@ -29,7 +29,7 @@ subsections:
       pdf_page: 165
 statements: 12
 exercises: 16
-content_sha256: fa2022a20036d0e94a6aec813ec06056270cc0f59def2b7336832394c152b03d
+content_sha256: 0da1bd5b937f6bd197e7e1828aee350cbb6af216e5f2674d4943317b61e24020
 ---
 
 ## § 9. THE FORMULA OF HERMANN WEYL
@@ -50,11 +50,9 @@ $$
 (\varphi \psi )(\nu ) =\sum_{\mu\in\mathfrak{h}^*}\varphi (\mu)\psi (\nu -\mu)
 $$
 
-(the family $(\varphi (\mu)\psi (\nu -\mu))_{\mu\in\mathfrak{h}^*}$ has finite support, in view of the condition$\sum\sum$ satisfied by the supports of$\sum\varphi$ and $\psi )$. If $\varphi =_{\nu}x_{\nu}e^{\nu}$ and $\psi =_{\nu}y_{\nu}e^{\nu}$, then $\varphi \psi =x_{\nu}y_\mu e^{\nu+\mu}$.
+(the family $(\varphi (\mu)\psi (\nu -\mu))_{\mu\in\mathfrak{h}^*}$ has finite support, in view of the condition satisfied by the supports of $\varphi$ and $\psi )$. If $\varphi =\sum_{\nu}x_{\nu}e^{\nu}$ and $\psi =\sum_{\nu}y_{\nu}e^{\nu}$, then $\varphi \psi =\sum_{\nu ,\mu}x_{\nu}y_\mu e^{\nu+\mu}$.
 
-$\nu ,\mu$
-
-Let $\nu \in \mathfrak{h}^*$. A partition of $\nu$ into positive roots$\sum$ is a family $(n_{\alpha})_{\alpha\in R_+}$, where the $n_{\alpha}$ are integers $\geq 0$ such that $\nu =_{\alpha\in R_+}n_{\alpha}\alpha$. We denote by $\mathfrak{P}(\nu )$ the number of partitions of $\nu$ into positive roots. We have
+Let $\nu \in \mathfrak{h}^*$. A partition of $\nu$ into positive roots is a family $(n_{\alpha})_{\alpha\in R_+}$, where the $n_{\alpha}$ are integers $\geq 0$ such that $\nu =\sum_{\alpha\in R_+}n_{\alpha}\alpha$. We denote by $\mathfrak{P}(\nu )$ the number of partitions of $\nu$ into positive roots. We have
 
 $$
 \mathfrak{P}(\nu )>0\Leftarrow \Rightarrow \nu \in Q_+
@@ -76,7 +74,7 @@ is an anti-invariant element of $\mathbf{Z}[P]$.
 
 #### Lemma 1 {#lie-viii-s9-lem-1 .statement tag=015T}
 
-In the ring $\mathbf{Z}\langle P\rangle$, we have $K._{\alpha\in}\prod_{R_+}(1-e^{-\alpha}) = Ke^{-\rho}d= 1$.
+In the ring $\mathbf{Z}\langle P\rangle$, we have $K.\prod_{\alpha\in R_+}(1-e^{-\alpha}) = Ke^{-\rho}d= 1$.
 
 Indeed,
 
@@ -174,7 +172,7 @@ which also follows easily from §1, no. 2, Prop. 2.
 
 ### 2. DIMENSIONS OF SIMPLE $\mathfrak{g}$-MODULES
 
-If $\mu\in \mathfrak{h}^*$, put $J(e^\mu) =_w\sum_{\in W}\varepsilon (w)e^{w\mu}$, cf. Chap. VI, §3, no. 3.
+If $\mu\in \mathfrak{h}^*$, put $J(e^\mu) =\sum_{w\in W}\varepsilon (w)e^{w\mu}$, cf. Chap. VI, §3, no. 3.
 
 #### Theorem 2 {#lie-viii-s9-thm-2 .statement tag=015Y}
 
@@ -287,21 +285,19 @@ $$
 1 + 1 + 1 + 1 +
 
 $$
-^1_2(^3_2)((^1_2+^3_2)1 +^3_2
+^1_23_21_2+^3_21 +^3_2
 $$
 
 $$
-3n_1/2 + 3n_2/23n_1/2 + 3n_2
+(3n_1/2 + 3n_2/2)((3n_1/2 + 3n_2)
 $$
 
 $\times$ 1 + $_{33}$ 1 + $_3$
 
-+ + 3
-
-$($ 2 2 $)(($ 2 $)(()$
+$_2+_2$ 2 + 3
 
 $$
-n_1+ 3n_22n_1+ 3n_2n_1+n_2
+(n_1+ 3n_2)((2n_1+ 3n_2)((n_1+n_2)
 $$
 
 $= (1 +n_1)(1 +n_2)$ 1 + 1 + 1 +
@@ -420,7 +416,7 @@ $$
 =\sum_{\tau\in P}(\sum_{w\in W}\varepsilon (w)m_{\tau+\rho-w(\mu+\rho)})e^{\tau+\rho}
 $$
 
-Now, if $\xi \in P_{++},\xi +\rho$ belongs to the chamber defined by B (Chap. VI, §1, no. 10); thus, for all $w\in W$ distinct from 1, we have$\sum w(\xi +\rho )\in /P_{++}$. Consequently, the coefficient of $e^{\nu+\rho}$ in $_{\xi\in P_{++}}l_{\xi}J(e^{\xi+\rho})$ is equal to $l_{\nu}$. In view of (3), we obtain
+Now, if $\xi \in P_{++},\xi +\rho$ belongs to the chamber defined by B (Chap. VI, §1, no. 10); thus, for all $w\in W$ distinct from 1, we have $w(\xi +\rho )\in /P_{++}$. Consequently, the coefficient of $e^{\nu+\rho}$ in $\sum_{\xi\in P_{++}}l_{\xi}J(e^{\xi+\rho})$ is equal to $l_{\nu}$. In view of (3), we obtain
 
 $$
 l_{\nu}=\sum_{w\in W}\varepsilon (w)m_{\nu+\rho-w(\mu+\rho)}
@@ -442,36 +438,36 @@ $$
 m(\lambda , \mu, \nu ) =\mathfrak{P}(n\alpha +\alpha +p\alpha +\alpha -q\alpha -\alpha )
 $$
 
-$2($ 2 2 2 2 $)$
+2 2 2 2 2
 
 $$
-n\alpha p\alpha q
+(n\alpha p\alpha q)
 $$
 
 $$
 -\mathfrak{P}\alpha +-\alpha --\alpha -\alpha
 $$
 
-$(2$ 2 2 2 2 $)$
+2 2 2 2 2
 
 $$
--\mathfrak{P}-n\alpha -\alpha +p\alpha +\alpha -q\alpha -\alpha
+-\mathfrak{P}(-n\alpha -\alpha +p\alpha +\alpha -q\alpha -\alpha )
 $$
 
-$($ 2 2 2 2 2 $)$
+2 2 2 2 2
 
 $$
-n\alpha p\alpha q
+(n\alpha p\alpha q)
 $$
 
 $$
 +\mathfrak{P}-\alpha --\alpha --\alpha -\alpha
 $$
 
-$($ 2 $2)$ 2 $(2$ 2 $)$
+2 2 2 2 2
 
 $$
-n+p-qn-p-q-2
+(n+p-q)(n-p-q-2)
 $$
 
 $$
