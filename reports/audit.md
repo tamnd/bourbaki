@@ -6,23 +6,23 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 1 chapter, 27 sections, 317 exercises, 2873 extracted pages, 1026 tags, 2122 references, 345 translated files, 5 solutions. Languages: en, fr, vi.
+Audited: 4 chapters, 61 sections, 668 exercises, 2873 extracted pages, 2060 tags, 4178 references, 345 translated files, 5 solutions. Languages: en, fr, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
-| tags | 7 | 1 | 1 | T10 (113) |
-| mathematics | 6 | 2 | 1 | M09 (38) |
+| tags | 7 | 1 | 1 | T10 (134) |
+| mathematics | 6 | 2 | 1 | M06 (1), M09 (68) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
-| translation | 7 | 2 | 1 | L06 (1), L08 (1) |
+| translation | 8 | 2 | 1 | L08 (1) |
 | solutions | 0 | 4 | 0 | none |
-| publication | 0 | 1 | 0 | P04 (37) |
+| publication | 0 | 1 | 0 | P04 (74) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 190 soft, over 55 rules that ran and 3 that could not.
+0 hard findings and 278 soft, over 56 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -35,7 +35,13 @@ should trust.
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
 
-## M09 no base carries two superscripts or two subscripts (38)
+## M06 displays per page within three sigma of the book mean (1)
+
+Soft, mathematics.
+
+- `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.29 displays a page over 17 pages, against a mean of 1.23 and a sigma of 1.28
+
+## M09 no base carries two superscripts or two subscripts (68)
 
 Soft, mathematics.
 
@@ -57,17 +63,17 @@ Soft, mathematics.
 - `content/en/alg/VIII/exercises/s19/06.md:25` two of one script against one base, which TeX will not set: ^r_{j=0}^{-1}
 - `content/en/alg/VIII/exercises/s19/06.md:25` two of one script against one base, which TeX will not set: ^2_{h^r=0}^{-1}
 - `content/en/alg/VIII/exercises/s21/21.md:33` two of one script against one base, which TeX will not set: ^n_{j=1j^{\alpha j}}^1_{\alpha_j!}
-- `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:351` two of one script against one base, which TeX will not set: _n^{j-}_-^1_1
-- `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:361` two of one script against one base, which TeX will not set: _n^j_-^{-1}_1
-- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:681` two of one script against one base, which TeX will not set: ^-_1^1
-- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:855` two of one script against one base, which TeX will not set: ^x_x^{\in}_{\in}^H_H^{\backslash}_{\backslash}^G_G
-- `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_x
-- `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:85` two of one script against one base, which TeX will not set: ^a_0^0_b
-- `content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md:501` two of one script against one base, which TeX will not set: _g'_{_{-1}}
+- `content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md:317` two of one script against one base, which TeX will not set: _{w(G)}^1_{\alpha\in R_+(G,T)}
+- `content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md:363` two of one script against one base, which TeX will not set: ^{exp ad}_{adx}^{x-1}
+- `content/en/lie/IX/08_s8_fourier_transform.md:75` two of one script against one base, which TeX will not set: _u^2_2
+- `content/en/lie/IX/08_s8_fourier_transform.md:79` two of one script against one base, which TeX will not set: _u^2_2
+- `content/en/lie/IX/A1_a1_structure_of_compact_groups.md:112` two of one script against one base, which TeX will not set: ^l_{\beta^{\beta \alpha}}^{(\lambda)}
+- `content/en/lie/IX/exercises/s2/08.md:29` two of one script against one base, which TeX will not set: ^-_G^1
+- `content/en/lie/IX/exercises/s6/01.md:25` two of one script against one base, which TeX will not set: _{N!}^1_{w\in W(R)}
 
-and 13 more, which `bourbaki audit -only M09` prints in full.
+and 43 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (37)
+## P04 every math span parses under KaTeX (74)
 
 Soft, publication.
 
@@ -88,18 +94,18 @@ Soft, publication.
 - `content/en/alg/VIII/exercises/s14/18.md:15` KaTeX will not set it: Double superscript at position 14: ^z_{0\sigma(}^̲0_{z)}: ^z_{0\sigma(}^0_{z)}
 - `content/en/alg/VIII/exercises/s19/06.md:25` KaTeX will not set it: Double superscript at position 14: \prod^r_{j=0}^̲{-1}(1 + T^{2^j…: \prod^r_{j=0}^{-1}(1 + T^{2^j}) =\sum^2_{h^r=0}^{-…
 - `content/en/alg/VIII/exercises/s21/21.md:33` KaTeX will not set it: Double superscript at position 51: …=1j^{\alpha j}}^̲1_{\alpha_j!}: c_{\boldsymbol{\alpha }}=\prod^n_{j=1j^{\alpha j}}…
-- `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:351` KaTeX will not set it: Double subscript at position 31: … d_n^j=d_n^{j-}_̲-^1_1\circ d_n^…: d_{n-1}^i\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \ta…
-- `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:361` KaTeX will not set it: Double subscript at position 50: …(-1)^{i+j}d_n^j_̲-^{-1}_1\circ d…: =\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_n^j_-…
-- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:681` KaTeX will not set it: Double superscript at position 60: …{-1}h_1(x.g^-_1^̲1)}c(h_2(x.g_1^…: =\prod_{x\in H\backslash G}^{s(x.g_1^{-1})^{-1}h_1…
-- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:855` KaTeX will not set it: Double superscript at position 18: …times \prod^x_x^̲{\in}_{\in}^H_H…: \times \prod^x_x^{\in}_{\in}^H_H^{\backslash}_{\ba…
-- `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\g…: ^X_-^-_y^x_X^-_-^{\gamma y}_x
-- `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:85` KaTeX will not set it: Double superscript at position 24: …ightarrow (^a_0^̲0_b): (a, b)\rightarrow (^a_0^0_b)
-- `content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md:501` KaTeX will not set it: Double subscript at position 53: …{g\in G}f_gf_g'_̲{_{-1}} \tag{28…: \langle f, f'\rangle_G=|G|^{-1}\sum_{g\in G}f_gf_g…
-- `content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md:763` KaTeX will not set it: Double subscript at position 30: …. . , \omega_d'_̲{_{\lambda'}}: \omega '_1, . . . , \omega_d'_{_{\lambda'}}
+- `content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md:317` KaTeX will not set it: Double subscript at position 10: _{w(G)}^1_̲{\alpha\in R_+(…: _{w(G)}^1_{\alpha\in R_+(G,T)}4
+- `content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md:363` KaTeX will not set it: Double superscript at position 16: ^{exp ad}_{adx}^̲{x-1}: ^{exp ad}_{adx}^{x-1}
+- `content/en/lie/IX/08_s8_fourier_transform.md:75` KaTeX will not set it: Double subscript at position 6: A_u^2_̲2<\infty: A_u^2_2<\infty
+- `content/en/lie/IX/08_s8_fourier_transform.md:79` KaTeX will not set it: Double subscript at position 34: …idehat{G}}A_u^2_̲2: A^2_2=\sum_{u\in\widehat{G}}A_u^2_2
+- `content/en/lie/IX/A1_a1_structure_of_compact_groups.md:112` KaTeX will not set it: Double superscript at position 44: …{\beta \alpha}}^̲{(\lambda)}) = …: f_{\alpha \beta}(S^l_{\beta^{\beta \alpha}}^{(\lam…
+- `content/en/lie/IX/exercises/s2/08.md:29` KaTeX will not set it: Double superscript at position 5: ^-_G^̲1(T_r)\subset L…: ^-_G^1(T_r)\subset L(T)
+- `content/en/lie/IX/exercises/s6/01.md:25` KaTeX will not set it: Double subscript at position 11: P =_{N!}^1_̲{w\in W(R)}\var…: P =_{N!}^1_{w\in W(R)}\varepsilon (w)(w\rho )^N\pr…
+- `content/en/lie/IX/exercises/s6/02.md:27` KaTeX will not set it: Double subscript at position 45: …=1}^{n\partial}_̲{\partial x^2}^…: \int\Delta (P) =^1_{2i}\sum_{=1}^{n\partial}_{\par…
 
-and 12 more, which `bourbaki audit -only P04` prints in full.
+and 49 more, which `bourbaki audit -only P04` prints in full.
 
-## T10 the tags of a file climb, as they did on the run that assigned them (113)
+## T10 the tags of a file climb, as they did on the run that assigned them (134)
 
 Soft, tags.
 
@@ -107,7 +113,7 @@ Soft, tags.
 - `content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:182` has 000I after 00QW, which was assigned later
 - `content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:332` has 000T after 00QX, which was assigned later
 - `content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:388` has 000V after 00RW, which was assigned later
-- `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:254` has 00RX after 00SE, which was assigned later
+- `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:254` has 00RX after 01L7, which was assigned later
 - `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:262` has 0029 after 00RX, which was assigned later
 - `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:326` has 002E after 00QY, which was assigned later
 - `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:390` has 002J after 00RY, which was assigned later
@@ -129,16 +135,10 @@ Soft, tags.
 - `content/en/alg/VIII/08_s8_semisimple_rings.md:66` has 0093 after 00S4, which was assigned later
 - `content/en/alg/VIII/08_s8_semisimple_rings.md:398` has 009T after 00R8, which was assigned later
 
-and 88 more, which `bourbaki audit -only T10` prints in full.
-
-## L06 the glossary is followed (1)
-
-Soft, translation.
-
-- `content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md:1` the English mentions 57 glossary terms and 1 are not in this file as the glossary writes them: commutative k-algebra (đại số giao hoán trên K)
+and 109 more, which `bourbaki audit -only T10` prints in full.
 
 ## L08 no translation was written by a small model (1)
 
 Soft, translation.
 
-- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again

@@ -32,9 +32,9 @@ subsections:
       title: The Structure of Modules of Finite Length
       page: 37
       pdf_page: 54
-statements: 36
+statements: 37
 exercises: 20
-content_sha256: ac697f997df71a21a380fea64a7c6b4f93aca834b517f5ab70f309315fcedd54
+content_sha256: 7a363e65da13a4f5affdce18e63018bbce927fa4bc921f20835393ecbd0debb2
 ---
 
 ## § 2. THE STRUCTURE OF MODULES OF FINITE LENGTH
@@ -107,9 +107,7 @@ Let A be a commutative local ring and $B = A[[X_i]]_{i\in I}$ an algebra of form
 
 Let $p$ be a prime number. We denote by $\mathbf{Z}_{(p)}$ the subring of the field $\mathbf{Q}$ of rational numbers consisting of the fractions $a/b$ with $a\in \mathbf{Z},b\in \mathbf{Z}$, and $b$ not divisible by $p*$(cf. Comm. Alg., II, §2, No. 1, p. 60) . Then $\mathbf{Z}$ is
 
-$$
-*(_{p)}
-$$
+$*(_{p)}$
 
 a commutative local ring, with maximal ideal $p\mathbf{Z}_{(p)}$. The ring $\mathbf{Z}_p$ of $p$-adic integers (V, §12, No. 3, p. 96) is a commutative local ring, with maximal ideal $p\mathbf{Z}_p$ (VIII, p. 40, Exercise 9).
 
@@ -245,11 +243,13 @@ An injective module is indecomposable if and only if it is primordial (X, §1, n
 
 A module is called semiprimordial if it is the direct sum of a family of primordial submodules.
 
-#### Example {#alg-viii-s2-n4-exa-1 .statement tag=00SE}
+#### Example 1 {#alg-viii-s2-n4-exa-1 .statement tag=00SE}
 
-$*$1) Every simple module is primordial (VIII, p. 45); every semisimple module is therefore semiprimordial (VIII, p. 55, Definition 1).
+$*$Every simple module is primordial (VIII, p. 45); every semisimple module is therefore semiprimordial (VIII, p. 55, Definition 1).
 
-2) If A is a left Noetherian ring, then every injective A-module is semiprimordial (X, §1, n$^o9$, p. 21, proposition 14 and X, §1, n$^o10$, p. 22, théorème 3, b)).$*$
+#### Example 2 {#alg-viii-s2-n4-exa-2 .statement tag=01L7}
+
+If A is a left Noetherian ring, then every injective A-module is semiprimordial (X, §1, n$^o9$, p. 21, proposition 14 and X, §1, n$^o10$, p. 22, théorème 3, b)).$*$
 
 #### Theorem 1 {#alg-viii-s2-thm-1 .statement tag=00RX}
 

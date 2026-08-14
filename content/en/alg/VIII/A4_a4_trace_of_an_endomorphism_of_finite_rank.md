@@ -23,7 +23,7 @@ subsections:
       pdf_page: 481
 statements: 5
 exercises: 2
-content_sha256: e5a22e80026c895ee2286ad46b5134d8dbf041a2c83895de27c83c97d947524f
+content_sha256: ccb72b61fc06161c2d4193fc99cbb21bba636f19ad764e051c807cd276e7fa52
 ---
 
 ## APPENDIX 4 TRACE OF AN ENDOMORPHISM OF FINITE RANK
@@ -120,9 +120,7 @@ b) Let $u$ and $v$ be two elements of End$^f_A(E)$. We have
 
 (6) det $(1_E+u)\circ (1_E+v)$ = det(1$_E+u)$ det(1$_E+v)$.
 
-Let us prove a). For every integer $p\geqslant 0$, the projective A-module $\wedge^pF$ can be identified with a submodule of $\wedge^pE$ (III, §7, No. 9, p. 520, Corollary). The image of $\wedge^pu$ is contained in $\wedge^pF$, and the endomorphism of $\wedge^pF$ induced by $\wedge^pu$ is equal to $\wedge^pu_F$. We consequently have Tr($\wedge^pu$) $=$ Tr($\wedge^pu_F$) by the
-
-corollary of Proposition 2, and therefore a).
+Let us prove a). For every integer $p\geqslant 0$, the projective A-module $\wedge^pF$ can be identified with a submodule of $\wedge^pE$ (III, §7, No. 9, p. 520, Corollary). The image of $\wedge^pu$ is contained in $\wedge^pF$, and the endomorphism of $\wedge^pF$ induced by $\wedge^pu$ is equal to $\wedge^pu_F$. We consequently have Tr($\wedge^pu$) $=$ Tr($\wedge^pu_F$) by the corollary of Proposition 2, and therefore a).
 
 Let us prove b). Let G be an A-module such that the A-module $L = E\oplus G$ is free. Denote by $u'$ and $v'$ the endomorphisms $u\oplus 0_G$ and $v\oplus 0_G$ of L. By a), we have the relations det(1$_L+u') =$ det(1$_E+u)$, det(1$_L+v') =$ det(1$_E+v)$, and
 

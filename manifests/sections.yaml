@@ -38,10 +38,10 @@ books:
               last_pdf_page: 60
               book_pages: A VIII.25-A VIII.43
               subsections: 5
-              statements: 36
+              statements: 37
               exercises: 20
               extraction: native
-              content_sha256: ac697f997df71a21a380fea64a7c6b4f93aca834b517f5ab70f309315fcedd54
+              content_sha256: 7a363e65da13a4f5affdce18e63018bbce927fa4bc921f20835393ecbd0debb2
             - kind: section
               section: 3
               title: Simple Modules
@@ -236,7 +236,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: 9be3c77e6f5c31294407dc9647d4fa71a803859fd5dc1416e380eac0a7927ed2
+              content_sha256: 292f6683d9b5d2ec22b09033d69bf9491c7fa8bc745995ea39ed7de776d30f8e
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -340,7 +340,7 @@ books:
               statements: 5
               exercises: 2
               extraction: native
-              content_sha256: e5a22e80026c895ee2286ad46b5134d8dbf041a2c83895de27c83c97d947524f
+              content_sha256: ccb72b61fc06161c2d4193fc99cbb21bba636f19ad764e051c807cd276e7fa52
             - kind: historical
               title: Historical Note
               path: content/en/alg/VIII/historical_note.md
@@ -390,10 +390,10 @@ books:
               last_pdf_page: 51
               book_pages: A VIII.23-A VIII.40
               subsections: 5
-              statements: 36
+              statements: 37
               exercises: 19
               extraction: native
-              content_sha256: 987bb974b4cba42533bf92f704a4253bf2dd1d3a4696d9a9602ae57c91dc552a
+              content_sha256: bf71cdddea883d082ffabb1e855bc076eda1f524b11c3a6f13d4a05725c66fce
             - kind: section
               section: 3
               title: Modules simples
@@ -445,7 +445,7 @@ books:
               statements: 41
               exercises: 8
               extraction: native
-              content_sha256: 4aa7786302514151077513c0454d1f5b21ea907a51ecab0fddd293881cf316ca
+              content_sha256: 53bc6c3cdaf211eab12b0482fa2f8630171f7d9615eef75d577846d5cd4dadea
             - kind: section
               section: 7
               title: Anneaux simples
@@ -588,7 +588,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: 34d2fac49860dd620813cf71bbee672bc92ef0e431444042d6d868afe2e5dbca
+              content_sha256: d5829c9ac6f2ca2277b4b3ff768d5ad55dc614256c1730f660d4690aa93b2721
             - kind: section
               section: 18
               title: Algèbres simples sur un corps fini
@@ -640,7 +640,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: 7649d578ec5a544e6d7892b3eb418b8c4a13a4c62fc9a237f1005dc8aaabec3c
+              content_sha256: d3cbabdc4a49112866d0acb075981e8dbf7f3d490f9b96e3bdff0cf2ea34c648
             - kind: appendix
               section: 1
               title: Algèbres sans élément unité
@@ -692,7 +692,7 @@ books:
               statements: 5
               exercises: 2
               extraction: native
-              content_sha256: 61723c841f5b4b121b1f809e79591cd5a8f85f6783252c80270eac319d22bc45
+              content_sha256: 5fcbf235cdf951145f09bed0ae97ba7fe5abfc2a6e7a7cec19ac574cd0bab12d
             - kind: historical
               title: Historical Note
               path: content/fr/alg/VIII/historical_note.md
@@ -704,3 +704,450 @@ books:
               exercises: 0
               extraction: native
               content_sha256: dff4586a2fc5d4c5e3e342febfa06791e5746d2ced989856bce17f1846004875
+    - id: lie-vii-ix
+      chapters:
+        - chapter: VII
+          title: CARTAN SUBALGEBRAS AND REGULAR ELEMENTS
+          sections:
+            - kind: front
+              title: CARTAN SUBALGEBRAS AND REGULAR ELEMENTS
+              path: content/en/lie/VII/00_frontmatter.md
+              first_pdf_page: 11
+              last_pdf_page: 11
+              book_pages: A VII.1
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: 2f4dd637bb4537574f93faa962c99be3748ca45125ce09fbb7d4377d1d2f2b95
+            - kind: section
+              section: 1
+              title: Primary decomposition of linear representations
+              path: content/en/lie/VII/01_s1_primary_decomposition_of_linear.md
+              label: lie-vii-s1
+              first_pdf_page: 11
+              last_pdf_page: 64
+              book_pages: A VII.1-A VII.12, A VII.51-A VII.55
+              subsections: 5
+              statements: 25
+              exercises: 11
+              extraction: native
+              content_sha256: 09898f932e7af43c3ba71ebd9b9d269ef703cbf486bbdb00b0b707f570da4978
+            - kind: section
+              section: 2
+              title: Cartan subalgebras and regular elements of a Lie algebra
+              path: content/en/lie/VII/02_s2_cartan_subalgebras_and_regular_elements.md
+              label: lie-vii-s2
+              first_pdf_page: 22
+              last_pdf_page: 66
+              book_pages: A VII.12-A VII.20, A VII.55-A VII.57
+              subsections: 4
+              statements: 40
+              exercises: 16
+              extraction: native
+              content_sha256: 5ab71245494206d6f62d68916a9920dc1fab8ed147e5fc51fa2e2cb037a8de22
+            - kind: section
+              section: 3
+              title: Conjugacy theorems
+              path: content/en/lie/VII/03_s3_conjugacy_theorems.md
+              label: lie-vii-s3
+              first_pdf_page: 30
+              last_pdf_page: 71
+              book_pages: A VII.20-A VII.27, A VII.57-A VII.62
+              subsections: 5
+              statements: 17
+              exercises: 18
+              extraction: native
+              content_sha256: 328dbc41ee606865fc60e4c126e9e7181b193c73a291316876d1391ffa9c93d1
+            - kind: section
+              section: 4
+              title: Regular elements of a Lie group
+              path: content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md
+              label: lie-vii-s4
+              first_pdf_page: 37
+              last_pdf_page: 72
+              book_pages: A VII.27-A VII.34, A VII.63
+              subsections: 4
+              statements: 18
+              exercises: 4
+              extraction: native
+              content_sha256: d669868c18876c245ddaebdd98d5fe3a60834173d02a3044e84e61ddb556a7c6
+            - kind: section
+              section: 5
+              title: Decomposable linear Lie algebras
+              path: content/en/lie/VII/05_s5_decomposable_linear_lie_algebras.md
+              label: lie-vii-s5
+              first_pdf_page: 44
+              last_pdf_page: 75
+              book_pages: A VII.34-A VII.45, A VII.63-A VII.66
+              subsections: 5
+              statements: 29
+              exercises: 11
+              extraction: native
+              content_sha256: 35f575369ae4a63eb8603bb2f1c1f2d80a0ecbc1f193983c2183c23967c90299
+            - kind: appendix
+              section: 1
+              title: Polynomial maps and Zariski topology
+              path: content/en/lie/VII/A1_a1_polynomial_maps_and_zariski_topology.md
+              label: lie-vii-a1
+              first_pdf_page: 55
+              last_pdf_page: 75
+              book_pages: A VII.45-A VII.47, A VII.66
+              subsections: 2
+              statements: 7
+              exercises: 4
+              extraction: native
+              content_sha256: 7046fc843f9773a8a235bb7ed604583756a929994f3e17dd9804f6c86204f1b0
+            - kind: appendix
+              section: 2
+              title: A connectedness property
+              path: content/en/lie/VII/A2_a2_a_connectedness_property.md
+              label: lie-vii-a2
+              first_pdf_page: 58
+              last_pdf_page: 76
+              book_pages: A VII.48-A VII.49, A VII.67
+              subsections: 0
+              statements: 3
+              exercises: 2
+              extraction: native
+              content_sha256: d084e22be21c20c485afa31102f63229c7f5621e1fd070f9a1295ea2902a9f93
+        - chapter: VIII
+          title: SPLIT SEMI-SIMPLE LIE ALGEBRAS
+          sections:
+            - kind: front
+              title: SPLIT SEMI-SIMPLE LIE ALGEBRAS
+              path: content/en/lie/VIII/00_frontmatter.md
+              first_pdf_page: 77
+              last_pdf_page: 77
+              book_pages: A VIII.69
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: 081434cbe2cce1d847490b5edd635852c3b9d3bf2298d5e1d870e140c27ae63b
+            - kind: section
+              section: 1
+              title: The Lie algebra sl(2, k) and its representations
+              path: content/en/lie/VIII/01_s1_the_lie_algebra_sl_2_k_and_its.md
+              label: lie-viii-s1
+              first_pdf_page: 77
+              last_pdf_page: 234
+              book_pages: A VIII.69-A VIII.77, A VIII.219-A VIII.226
+              subsections: 5
+              statements: 23
+              exercises: 18
+              extraction: native+ocr
+              content_sha256: 4a04257697e30a7398c3056e7eaf098ac05f716498deb344adeae5b04020c4bd
+            - kind: section
+              section: 2
+              title: Root system of a split semi-simple Lie algebra
+              path: content/en/lie/VIII/02_s2_root_system_of_a_split_semi_simple_lie.md
+              label: lie-viii-s2
+              first_pdf_page: 85
+              last_pdf_page: 237
+              book_pages: A VIII.77-A VIII.86, A VIII.226-A VIII.229
+              subsections: 4
+              statements: 28
+              exercises: 12
+              extraction: native
+              content_sha256: a12e1c7cb7c7a3a6e46de6301d5a96e4545ddc5bdb73879740536e5f3622bd97
+            - kind: section
+              section: 3
+              title: Subalgebras of split semi-simple Lie algebras
+              path: content/en/lie/VIII/03_s3_subalgebras_of_split_semi_simple_lie.md
+              label: lie-viii-s3
+              first_pdf_page: 94
+              last_pdf_page: 239
+              book_pages: A VIII.86-A VIII.95, A VIII.229-A VIII.231
+              subsections: 5
+              statements: 28
+              exercises: 14
+              extraction: native
+              content_sha256: d27b47e36afadb2730365f425dfdd8d919e6f718e128ea5ddc0ec998143508b8
+            - kind: section
+              section: 4
+              title: Split semi-simple Lie algebra defined by a reduced root system
+              path: content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md
+              label: lie-viii-s4
+              first_pdf_page: 103
+              last_pdf_page: 241
+              book_pages: A VIII.95-A VIII.106, A VIII.231-A VIII.233
+              subsections: 4
+              statements: 23
+              exercises: 7
+              extraction: native
+              content_sha256: 77d8021aa47e06dd15ee227d3a330861db6c273c951c4886c1367658405f136f
+            - kind: section
+              section: 5
+              title: Automorphisms of a semi-simple Lie algebra
+              path: content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md
+              label: lie-viii-s5
+              first_pdf_page: 114
+              last_pdf_page: 245
+              book_pages: A VIII.106-A VIII.115, A VIII.233-A VIII.237
+              subsections: 5
+              statements: 25
+              exercises: 13
+              extraction: native+ocr
+              content_sha256: ce04f909506c73f39f2c1bfb3b42a64865c912f9a59e2a54423331de04b404ba
+            - kind: section
+              section: 6
+              title: Modules over a split semi-simple Lie algebra
+              path: content/en/lie/VIII/06_s6_modules_over_a_split_semi_simple_lie.md
+              label: lie-viii-s6
+              first_pdf_page: 123
+              last_pdf_page: 246
+              book_pages: A VIII.115-A VIII.123, A VIII.238
+              subsections: 4
+              statements: 17
+              exercises: 5
+              extraction: native
+              content_sha256: ae93e953b3448cf4eeb0f4f3fb892dbe9898aed4400e5c8059189b26c10e49d6
+            - kind: section
+              section: 7
+              title: Finite dimensional modules over a split semi-simple Lie algebra
+              path: content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md
+              label: lie-viii-s7
+              first_pdf_page: 132
+              last_pdf_page: 258
+              book_pages: A VIII.124-A VIII.140, A VIII.238-A VIII.250
+              subsections: 7
+              statements: 46
+              exercises: 27
+              extraction: native+ocr
+              content_sha256: 8ba3a866aa2359f3813f05fa0d0652387cfc0111098666856284500edc7032a1
+            - kind: section
+              section: 8
+              title: Symmetric invariants
+              path: content/en/lie/VIII/08_s8_symmetric_invariants.md
+              label: lie-viii-s8
+              first_pdf_page: 149
+              last_pdf_page: 261
+              book_pages: A VIII.141-A VIII.151, A VIII.250-A VIII.253
+              subsections: 5
+              statements: 24
+              exercises: 18
+              extraction: native+ocr
+              content_sha256: a6fe2641540f7ef8e66ab4717045d1f1b772d707694ca1e89e5e6c5999f2030e
+            - kind: section
+              section: 9
+              title: The formula of Hermann Weyl
+              path: content/en/lie/VIII/09_s9_the_formula_of_hermann_weyl.md
+              label: lie-viii-s9
+              first_pdf_page: 160
+              last_pdf_page: 268
+              book_pages: A VIII.152-A VIII.159, A VIII.253-A VIII.260
+              subsections: 4
+              statements: 12
+              exercises: 16
+              extraction: native
+              content_sha256: fa2022a20036d0e94a6aec813ec06056270cc0f59def2b7336832394c152b03d
+            - kind: section
+              section: 10
+              title: Maximal subalgebras of semi-simple Lie algebras
+              path: content/en/lie/VIII/10_s10_maximal_subalgebras_of_semi_simple_lie.md
+              label: lie-viii-s10
+              first_pdf_page: 167
+              last_pdf_page: 269
+              book_pages: A VIII.159-A VIII.163, A VIII.260-A VIII.261
+              subsections: 0
+              statements: 8
+              exercises: 7
+              extraction: native
+              content_sha256: 3e2c1befb4368a225f5873975be2bb9365dc485f6997209de39299d9c5d2d7f2
+            - kind: section
+              section: 11
+              title: Classes of nilpotent elements and sl2 -triplets
+              path: content/en/lie/VIII/11_s11_classes_of_nilpotent_elements_and_sl2.md
+              label: lie-viii-s11
+              first_pdf_page: 171
+              last_pdf_page: 274
+              book_pages: A VIII.163-A VIII.173, A VIII.261-A VIII.266
+              subsections: 4
+              statements: 29
+              exercises: 17
+              extraction: native+ocr
+              content_sha256: c16c9d95431784c6017fc33c32afad5be8d8caf00db22dcd34f5980e9dc11976
+            - kind: section
+              section: 12
+              title: Chevalley orders
+              path: content/en/lie/VIII/12_s12_chevalley_orders.md
+              label: lie-viii-s12
+              first_pdf_page: 181
+              last_pdf_page: 197
+              book_pages: A VIII.173-A VIII.189
+              subsections: 8
+              statements: 34
+              exercises: 0
+              extraction: native
+              content_sha256: efd74b9aa15b548c76be727e8a11a8a2659fae0f4839ce31d909fd0d601c24d2
+            - kind: section
+              section: 13
+              title: Classical splittable simple Lie algebras
+              path: content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md
+              label: lie-viii-s13
+              first_pdf_page: 197
+              last_pdf_page: 279
+              book_pages: A VIII.189-A VIII.218, A VIII.266-A VIII.271
+              subsections: 4
+              statements: 2
+              exercises: 19
+              extraction: native+ocr
+              content_sha256: ed1457f69c0afb4030e84f61ce6ffb0da2f4ea41ea0d739b93a267cd58c46f87
+        - chapter: IX
+          title: COMPACT REAL LIE GROUPS
+          sections:
+            - kind: front
+              title: COMPACT REAL LIE GROUPS
+              path: content/en/lie/IX/00_frontmatter.md
+              first_pdf_page: 288
+              last_pdf_page: 288
+              book_pages: A IX.281
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: d772a4eed722fd519004dbad5aaa9600eb4ce21471f1c7d17164928c49095430
+            - kind: section
+              section: 1
+              title: Compact Lie algebras
+              path: content/en/lie/IX/01_s1_compact_lie_algebras.md
+              label: lie-ix-s1
+              first_pdf_page: 288
+              last_pdf_page: 398
+              book_pages: A IX.281-A IX.287, A IX.389-A IX.391
+              subsections: 4
+              statements: 13
+              exercises: 9
+              extraction: native
+              content_sha256: a0ea6ff66efb6fd732a160af583d309a29e61483daaa1bf8d67281c2bb6279df
+            - kind: section
+              section: 2
+              title: Maximal tori of compact Lie groups
+              path: content/en/lie/IX/02_s2_maximal_tori_of_compact_lie_groups.md
+              label: lie-ix-s2
+              first_pdf_page: 294
+              last_pdf_page: 401
+              book_pages: A IX.287-A IX.295, A IX.391-A IX.394
+              subsections: 6
+              statements: 32
+              exercises: 11
+              extraction: native+ocr
+              content_sha256: 746dba6956457eeb73e542e53ce2939fa0fb771be0af8d74e691ebc3f438bdbe
+            - kind: section
+              section: 3
+              title: Compact forms of complex semi-simple Lie algebras
+              path: content/en/lie/IX/03_s3_compact_forms_of_complex_semi_simple.md
+              label: lie-ix-s3
+              first_pdf_page: 303
+              last_pdf_page: 403
+              book_pages: A IX.296-A IX.303, A IX.394-A IX.396
+              subsections: 6
+              statements: 17
+              exercises: 9
+              extraction: native+ocr
+              content_sha256: 551a1dd601743218d750cbf5cbbc841582595aa0687e3326031f955c157bf6b5
+            - kind: section
+              section: 4
+              title: Root system associated to a compact group
+              path: content/en/lie/IX/04_s4_root_system_associated_to_a_compact.md
+              label: lie-ix-s4
+              first_pdf_page: 311
+              last_pdf_page: 412
+              book_pages: A IX.304-A IX.324, A IX.396-A IX.405
+              subsections: 10
+              statements: 60
+              exercises: 22
+              extraction: native+ocr
+              content_sha256: 9d1a733b0b25b387e7351baa4a4859967775869e03352f1607128113b698a358
+            - kind: section
+              section: 5
+              title: Conjugacy classes
+              path: content/en/lie/IX/05_s5_conjugacy_classes.md
+              label: lie-ix-s5
+              first_pdf_page: 331
+              last_pdf_page: 416
+              book_pages: A IX.324-A IX.333, A IX.405-A IX.409
+              subsections: 4
+              statements: 26
+              exercises: 12
+              extraction: native
+              content_sha256: 28018721f37f31ae8930f6476f813e7630b9dfae7f7036bc210222851e3c77fa
+            - kind: section
+              section: 6
+              title: Integration on compact Lie groups
+              path: content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md
+              label: lie-ix-s6
+              first_pdf_page: 340
+              last_pdf_page: 421
+              book_pages: A IX.333-A IX.346, A IX.409-A IX.414
+              subsections: 5
+              statements: 25
+              exercises: 13
+              extraction: native
+              content_sha256: 9f9cb8d95e62fea7267fa5e1093bedc50888bfbe803a174419b0a62c8cff9dfd
+            - kind: section
+              section: 7
+              title: Irreducible representations of connected compact Lie groups
+              path: content/en/lie/IX/07_s7_irreducible_representations_of.md
+              label: lie-ix-s7
+              first_pdf_page: 354
+              last_pdf_page: 424
+              book_pages: A IX.347-A IX.359, A IX.414-A IX.417
+              subsections: 6
+              statements: 28
+              exercises: 8
+              extraction: native
+              content_sha256: 62411aad48cb47419e45e5d04fe914a3cc441aa5a2fd52c44b0e8c6d8571b0a9
+            - kind: section
+              section: 8
+              title: Fourier transform
+              path: content/en/lie/IX/08_s8_fourier_transform.md
+              label: lie-ix-s8
+              first_pdf_page: 366
+              last_pdf_page: 425
+              book_pages: A IX.359-A IX.369, A IX.417-A IX.418
+              subsections: 4
+              statements: 9
+              exercises: 6
+              extraction: native
+              content_sha256: 165484d87a018c10cc7dc8f5870a2d390854c4ba267d5c7c214b6dfbd0b71103
+            - kind: section
+              section: 9
+              title: Compact Lie groups operating on manifolds
+              path: content/en/lie/IX/09_s9_compact_lie_groups_operating_on.md
+              label: lie-ix-s9
+              first_pdf_page: 376
+              last_pdf_page: 431
+              book_pages: A IX.369-A IX.381, A IX.419-A IX.424
+              subsections: 4
+              statements: 19
+              exercises: 21
+              extraction: native
+              content_sha256: f2cf8eecc03e40bf07d8eec98759d355c9a08760f6c2609496deca005e78fb73
+            - kind: appendix
+              section: 1
+              title: Structure of compact groups
+              path: content/en/lie/IX/A1_a1_structure_of_compact_groups.md
+              label: lie-ix-a1
+              first_pdf_page: 388
+              last_pdf_page: 432
+              book_pages: A IX.381-A IX.385, A IX.424-A IX.425
+              subsections: 3
+              statements: 9
+              exercises: 1
+              extraction: native
+              content_sha256: b48914131abef9ec0c7e4e02bc1f069d123e97b3289d1e3be9ad024ffb7c8ae8
+            - kind: appendix
+              section: 2
+              title: Representations of real, complex or quaternionic type
+              path: content/en/lie/IX/A2_a2_representations_of_real_complex_or.md
+              label: lie-ix-a2
+              first_pdf_page: 392
+              last_pdf_page: 395
+              book_pages: A IX.385-A IX.388
+              subsections: 2
+              statements: 6
+              exercises: 0
+              extraction: native
+              content_sha256: 8419fc198da7479d4576a10c08d5dcf16d99c3673738946e3cb6399a7227a0ab

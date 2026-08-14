@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: 7649d578ec5a544e6d7892b3eb418b8c4a13a4c62fc9a237f1005dc8aaabec3c
+content_sha256: d3cbabdc4a49112866d0acb075981e8dbf7f3d490f9b96e3bdff0cf2ea34c648
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -766,7 +766,7 @@ L’algèbre K[G] est somme directe de ses composants simples $e_{\mu}K[G]$ pour
 
 De manière analogue, on a $\Delta '(T) =\delta '(T)^{d_{\lambda'}}$.
 
-De la relation $\Delta '(T) =\varphi_1$(Δ(T)), on déduit d’abord que $d^2_{\lambda}=d^2_{\lambda'}$, d’où $d_{\lambda}=d_{\lambda'}$ puis le fait que la suite $\varphi (\omega_1), . . . , \varphi (\omega_{d_{\lambda}})$ se déduit de la suite $(\omega_1', . . . , \omega_d'_{_{'\lambda'}})$ par une permutation de l’ensemble des indices.
+De la relation $\Delta '(T) =\varphi_1$(Δ(T)), on déduit d’abord que $d^2_{\lambda}=d^2_{\lambda'}$, d’où $d_{\lambda}=d_{\lambda'}$ puis le fait que la suite $\varphi (\omega_1), . . . , \varphi (\omega_{d_{\lambda}})$ se déduit de la suite $(\omega_1', . . . , \omega_d''_{_{\lambda'}})$ par une permutation de l’ensemble des indices.
 
 Ceci étant prouvé pour tout élément $g$ de G, les représentations $\lambda$ et $\lambda '$ sont apparentées. On a donc prouvé la proposition 10 lorsque le corps K est de caractéristique 0.
 

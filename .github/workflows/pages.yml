@@ -39,30 +39,43 @@ jobs:
       # through KaTeX and fails on a tag that resolves to nothing.
       #
       # -max-broken is a ceiling and not a target. The text layer of the printed
-      # volume lost 204 formulae, mostly a prime read as an underscore and a
+      # volumes lost formulae, mostly a prime read as an underscore and a
       # subscript that swallowed the character after it, and they are being
       # repaired page by page in tamnd/bourbaki-solver#3. Until that is done a
-      # plain build refuses to write a site at all, so the number here is what
-      # holds the line: a change that breaks a formula that used to set fails
-      # this check, and the number comes down as the pages are repaired and
-      # never goes up. When it reaches zero this flag comes off and P04 becomes
+      # plain build refuses to write a site at all, so the numbers here are what
+      # hold the line: a change that breaks a formula that used to set fails
+      # this check, and a number comes down as the pages are repaired and never
+      # goes up. When they all reach zero this flag comes off and P04 becomes
       # hard.
       #
-      # 204 to 94 with the prime repair, 94 to 77 once the dangerous bend stopped
-      # being written as a command no renderer here loads, 77 to 69 by taking
-      # back the paragraphs of the pages repaired by hand that the extractor now
-      # reads better than the repair did, 69 to 60 once a base carrying a prime
-      # was braced before it takes a superscript of its own, and 60 to 51 once an
-      # index was let stand a glyph box wider than the exponent written across
-      # it. What is left is 28 double superscripts and 9 double subscripts,
+      # One number per volume and not one for the corpus. A total would let a
+      # volume that got worse hide behind a volume that got better, and catching
+      # that is the whole of what this is for. It is also what lets a new volume
+      # in: the first chapter arrived carrying 204 and came down to 51 over five
+      # rounds of repair, and a volume that has had none of those rounds cannot
+      # enter under a number tuned by them.
+      #
+      # en/alg and fr/alg: 204 to 94 with the prime repair, 94 to 77 once the
+      # dangerous bend stopped being written as a command no renderer here
+      # loads, 77 to 69 by taking back the paragraphs of the pages repaired by
+      # hand that the extractor now reads better than the repair did, 69 to 60
+      # once a base carrying a prime was braced before it takes a superscript of
+      # its own, and 60 to 51 once an index was let stand a glyph box wider than
+      # the exponent written across it. That 51 is the 31 and the 20 below.
+      #
+      # en/lie entered at 68, down from the 95 it first measured once a prime
+      # was never read as an index again. What is left of it, and most of what
+      # is left of the other two, is double superscripts and double subscripts,
       # which are the same fault twice over: the line gathering ran two display
       # lines together, or set a matrix inline, and the scripts of one landed on
-      # the scripts of the other.
+      # the scripts of the other. The Lie volume has a third shape of it, where
+      # a large operator and the limits written under it were gathered onto
+      # different lines.
       - name: publish -check
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki publish -check -max-broken 51
+        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=31,fr/alg=20,en/lie=68
 
       # Where Pages will serve this from, asked rather than typed, so the links
       # are right under tamnd.github.io/bourbaki and under a custom domain both.

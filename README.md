@@ -84,7 +84,7 @@ content/fr/...                                 same tree, extracted from the Fre
 content/{vi,zh,ja}/...                         same tree, translated
 content/solutions/<lang>/<book>/<CH>/sN/NN.md  verified solutions
 tags/                                          permanent tag index
-manifests/                                     books, TOC, page maps, refs, glossary
+manifests/                                     books, TOC, page maps, refs, glossary, errata
 figures/                                       cropped diagrams, small, committed
 reports/                                       audit, usage, coverage, scorecards
 imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet checked
@@ -94,7 +94,7 @@ imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet che
 
 `pdf/`, `images/` and `work/` are gitignored. Nothing large or copyrighted is committed.
 
-`imports/` is deliberately outside `content/`. It holds sections read off public ChatGPT share links, which cost an HTTP GET rather than 150 seconds of a browser per page, and which nobody has yet held against the printed book. The audit runs over `content/`, so anything dropped in there would pass all 57 rules by default. See [imports/README.md](imports/README.md).
+`imports/` is deliberately outside `content/`. It holds sections read off public ChatGPT share links, which cost an HTTP GET rather than 150 seconds of a browser per page, and which nobody has yet held against the printed book. The audit runs over `content/`, so anything dropped in there would pass all 58 rules by default. See [imports/README.md](imports/README.md).
 
 ## Coverage
 
@@ -108,14 +108,14 @@ imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet che
 | Algebra | V | 0 of 17 | 0 | 0 | 0 | 0 |
 | Algebra | VI | 0 of 2 | 0 | 0 | 0 | 1 |
 | Algebra | VII | 0 of 5 | 0 | 0 | 0 | 1 |
-| Algebra | VIII | 25 of 25 | 709 | 317 | 1026 | 964 |
+| Algebra | VIII | 25 of 25 | 710 | 317 | 1027 | 964 |
 | Theory of Sets | I | 0 of 6 | 0 | 0 | 0 | 0 |
 | Theory of Sets | II | 0 of 6 | 0 | 0 | 0 | 0 |
 | Theory of Sets | III | 0 of 7 | 0 | 0 | 0 | 0 |
 | Theory of Sets | IV | 0 of 3 | 0 | 0 | 0 | 0 |
-| Lie Groups and Lie Algebras | VII | 0 of 7 | 0 | 0 | 0 | 66 |
-| Lie Groups and Lie Algebras | VIII | 0 of 13 | 0 | 0 | 0 | 211 |
-| Lie Groups and Lie Algebras | IX | 0 of 11 | 0 | 0 | 0 | 152 |
+| Lie Groups and Lie Algebras | VII | 7 of 7 | 139 | 66 | 205 | 66 |
+| Lie Groups and Lie Algebras | VIII | 13 of 13 | 299 | 173 | 472 | 211 |
+| Lie Groups and Lie Algebras | IX | 11 of 11 | 244 | 112 | 356 | 152 |
 | Topologie algébrique | I | 0 of 6 | 0 | 0 | 0 | 150 |
 | Topologie algébrique | II | 0 of 5 | 0 | 0 | 0 | 78 |
 | Topologie algébrique | III | 0 of 5 | 0 | 0 | 0 | 110 |
@@ -126,7 +126,7 @@ imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet che
 | Théories spectrales | IV | 0 of 5 | 0 | 0 | 0 | 228 |
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 
-25 of 190 sections are in the corpus, 13 per cent. 709 statements and 317 exercises, 1026 of them carrying a permanent tag.
+56 of 190 sections are in the corpus, 29 per cent. 1392 statements and 668 exercises, 2060 of them carrying a permanent tag.
 
 The table is one row per chapter of the volumes that have a table of contents. 34 further volumes and 10509 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
 <!-- END COVERAGE -->

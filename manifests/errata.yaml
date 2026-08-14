@@ -9,3 +9,62 @@ errata:
           why: The right ideals of A are the $K'$-subspaces of K, so the deduction the
             exercise asks for holds exactly when K is infinite over $K'$, and the French
             of 1981 (A VIII.13) reads "de dimension infinie sur $K'$".
+    - label: lie-ix-s9
+      lang: en
+      errata:
+        - says: §5, no. 2, Cor. of Prop. 2
+          read: §5, no. 2, Cor. 1 of Prop. 2
+          why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and
+            the reference does not say which. The sentence citing it has G simply-connected
+            and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a
+            homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to
+            $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected
+            group. Corollary 2 is the same statement for the Lie algebra, over a chamber
+            rather than an alcove, and Corollary 3 is about existence and uniqueness and
+            names no map at all.
+    - label: lie-viii-s5
+      lang: en
+      errata:
+        - says: Chap. VII, §13, no. 1
+          read: Chap. VIII, §13, no. 1
+          why: Chapter VII has five sections and no section 13. The sentence says that the
+            groups Aut$_0(\mathfrak{g})$ and Aut$_e(\mathfrak{g})$ can be distinct, and the
+            place that shows it is no. 1 of section 13 of this chapter, on the algebras of
+            type $A_l$, which computes Aut$_0(\mathfrak{g}) =\varphi (\mathbf{G}\mathbf{L}(l+
+            1, k))$, identifies the quotient Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$
+            with $\mathbf{P}\mathbf{G}\mathbf{L}(l+ 1, k)/\mathbf{P}\mathbf{S}\mathbf{L}(l+
+            1, k)$, and over the reals finds it isomorphic to $\mathbf{Z}/2\mathbf{Z}$ when
+            $l+1$ is even. Chapter VII names neither group anywhere.
+    - label: lie-viii-s10-ex-5
+      lang: en
+      errata:
+        - says: Cor. 2 of Th. 1
+          read: Cor. 2 of Th. 2
+          why: Section 10 prints no corollary under its Theorem 1. Theorem 1 is on page
+            167, Lemma 1 and Definition 1 stand between, Theorem 2 is on page 169 and
+            both Corollary 1 and Corollary 2 follow it on page 170. Corollary 2 is the
+            statement this exercise is using, that a subalgebra of nilpotent elements
+            lies in the nilradical of a parabolic subalgebra.
+    - label: lie-viii-s10-ex-6
+      lang: en
+      errata:
+        - says: Cor. 2 of Th. 1
+          read: Cor. 2 of Th. 2
+          why: The same reference as exercise 5 of this section, and wrong the same way.
+            Both corollaries of section 10 are printed under Theorem 2 on page 170.
+    - label: lie-viii-s11-ex-9
+      lang: en
+      errata:
+        - says: Cor. 2 of Th. 1 of §10
+          read: Cor. 2 of Th. 2 of §10
+          why: Section 10 has no corollary under its Theorem 1. Corollary 2 of its Theorem
+            2 is the one that puts a subalgebra of nilpotent elements inside a parabolic
+            subalgebra, which is what this exercise needs to show that P is dense in N.
+    - label: lie-viii-s11-ex-10
+      lang: en
+      errata:
+        - says: §10, Cor. 2 of Th. 1
+          read: §10, Cor. 2 of Th. 2
+          why: Section 10 has no corollary under its Theorem 1. The fact this exercise is
+            reproving, that every nilpotent element lies in a Borel subalgebra, is
+            Corollary 2 of Theorem 2 on page 170.

@@ -7,6 +7,12 @@ pdf/
 # Scratch: OCR output before assembly, job queue, caches
 /work/
 
+# What one OCR run did: which host answered, how long it took, what it cost.
+# A record of the run and not of the corpus, and it names the fleet, so it stays
+# on the machine that made it.
+/reports/ocr-*.json
+/reports/ocr-usage.jsonl
+
 # OS / editor
 .DS_Store
 Thumbs.db
@@ -23,6 +29,4 @@ Thumbs.db
 !tags/migrations.log
 !reports/*.log
 
-# The migration log is part of the tag record and is kept, log or no log.
-!tags/migrations.log
 site/

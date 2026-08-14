@@ -464,6 +464,288 @@
           ]
         }
       ]
+    },
+    {
+      "id": "lie-vii-ix",
+      "chapters": [
+        {
+          "chapter": "VII",
+          "title": "CARTAN SUBALGEBRAS AND REGULAR ELEMENTS",
+          "total": 66,
+          "sections": [
+            {
+              "section": 1,
+              "label": "lie-vii-s1",
+              "dir": "s1",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 4
+            },
+            {
+              "section": 2,
+              "label": "lie-vii-s2",
+              "dir": "s2",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 3
+            },
+            {
+              "section": 3,
+              "label": "lie-vii-s3",
+              "dir": "s3",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 5
+            },
+            {
+              "section": 4,
+              "label": "lie-vii-s4",
+              "dir": "s4",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 5,
+              "label": "lie-vii-s5",
+              "dir": "s5",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 4
+            },
+            {
+              "section": 1,
+              "appendix": true,
+              "label": "lie-vii-a1",
+              "dir": "a1",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 2,
+              "appendix": true,
+              "label": "lie-vii-a2",
+              "dir": "a2",
+              "count": 2,
+              "first": 1,
+              "last": 2,
+              "starred": 2
+            }
+          ]
+        },
+        {
+          "chapter": "VIII",
+          "title": "SPLIT SEMI-SIMPLE LIE ALGEBRAS",
+          "total": 173,
+          "sections": [
+            {
+              "section": 1,
+              "label": "lie-viii-s1",
+              "dir": "s1",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 8
+            },
+            {
+              "section": 2,
+              "label": "lie-viii-s2",
+              "dir": "s2",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "lie-viii-s3",
+              "dir": "s3",
+              "count": 14,
+              "first": 1,
+              "last": 14,
+              "starred": 2
+            },
+            {
+              "section": 4,
+              "label": "lie-viii-s4",
+              "dir": "s4",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 2
+            },
+            {
+              "section": 5,
+              "label": "lie-viii-s5",
+              "dir": "s5",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 5
+            },
+            {
+              "section": 6,
+              "label": "lie-viii-s6",
+              "dir": "s6",
+              "count": 5,
+              "first": 1,
+              "last": 5
+            },
+            {
+              "section": 7,
+              "label": "lie-viii-s7",
+              "dir": "s7",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 8
+            },
+            {
+              "section": 8,
+              "label": "lie-viii-s8",
+              "dir": "s8",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 2
+            },
+            {
+              "section": 9,
+              "label": "lie-viii-s9",
+              "dir": "s9",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 6
+            },
+            {
+              "section": 10,
+              "label": "lie-viii-s10",
+              "dir": "s10",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 2
+            },
+            {
+              "section": 11,
+              "label": "lie-viii-s11",
+              "dir": "s11",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "starred": 7
+            },
+            {
+              "section": 13,
+              "label": "lie-viii-s13",
+              "dir": "s13",
+              "count": 19,
+              "first": 1,
+              "last": 19,
+              "starred": 4
+            }
+          ]
+        },
+        {
+          "chapter": "IX",
+          "title": "COMPACT REAL LIE GROUPS",
+          "total": 112,
+          "sections": [
+            {
+              "section": 1,
+              "label": "lie-ix-s1",
+              "dir": "s1",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 2,
+              "label": "lie-ix-s2",
+              "dir": "s2",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "lie-ix-s3",
+              "dir": "s3",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 4,
+              "label": "lie-ix-s4",
+              "dir": "s4",
+              "count": 22,
+              "first": 1,
+              "last": 22,
+              "starred": 2
+            },
+            {
+              "section": 5,
+              "label": "lie-ix-s5",
+              "dir": "s5",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 1
+            },
+            {
+              "section": 6,
+              "label": "lie-ix-s6",
+              "dir": "s6",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 1
+            },
+            {
+              "section": 7,
+              "label": "lie-ix-s7",
+              "dir": "s7",
+              "count": 8,
+              "first": 1,
+              "last": 8
+            },
+            {
+              "section": 8,
+              "label": "lie-ix-s8",
+              "dir": "s8",
+              "count": 6,
+              "first": 1,
+              "last": 6
+            },
+            {
+              "section": 9,
+              "label": "lie-ix-s9",
+              "dir": "s9",
+              "count": 21,
+              "first": 1,
+              "last": 21,
+              "starred": 6
+            },
+            {
+              "section": 1,
+              "appendix": true,
+              "label": "lie-ix-a1",
+              "dir": "a1",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            }
+          ]
+        }
+      ]
     }
   ]
 }

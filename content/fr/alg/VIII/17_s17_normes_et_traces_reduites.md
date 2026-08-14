@@ -37,7 +37,7 @@ subsections:
       pdf_page: 345
 statements: 31
 exercises: 7
-content_sha256: 34d2fac49860dd620813cf71bbee672bc92ef0e431444042d6d868afe2e5dbca
+content_sha256: d5829c9ac6f2ca2277b4b3ff768d5ad55dc614256c1730f660d4690aa93b2721
 ---
 
 ## § 17. NORMES ET TRACES RÉDUITES
@@ -46,9 +46,7 @@ Dans ce paragraphe on désigne par K un corps commutatif et par A une K-algèbre
 
 ### 1. Compléments sur les polynômes caractéristiques
 
-Soient L un anneau commutatif et M un L-module libre de dimension finie $m$. Si $u$ est un endomorphisme de M et $r$ un entier positif, on note $c_r(u)$ la trace de
-
-l’endomorphisme $\wedge^r(u)$ du L-module libre $\wedge^r(M)$. On a en particulier
+Soient L un anneau commutatif et M un L-module libre de dimension finie $m$. Si $u$ est un endomorphisme de M et $r$ un entier positif, on note $c_r(u)$ la trace de l’endomorphisme $\wedge^r(u)$ du L-module libre $\wedge^r(M)$. On a en particulier
 
 (1) $c_0(u) = 1,c_1(u) =$ Tr($u$)$,c_m(u) =$ det($u$)
 
@@ -64,25 +62,25 @@ $$
 
 Soient L un anneau commutatif, M un L-module libre de dimension finie $m\geqslant 1$et $u$ un endomorphisme de M. Il existe un endomorphisme $\widetilde{u}$ de M, et un seul, satisfaisant à la relation
 
-(3) $\widetilde{u}(x)\wedge w=x\wedge \wedge^{m-1}(u)(w)$ pour $x\in M$et $w\in \wedge^{m-1}(M)$. De plus, on a les relations
+$$
+\widetilde{u}(x)\wedge w=x\wedge \wedge^{m-1}(u)(w) \tag{3}
+$$
 
-(4) $u\circ \widetilde{u}=\widetilde{u}\circ u=$ det($u$)$_M$, (5) det($\widetilde{u}$) $=$ det($u$)$^{m-1}$, (6) $\widetilde{u}=\sum^{m-1}_{r=0}(-1)^rc_{m-1-r}(u)u^r$.
+pour $x\in M$et $w\in \wedge^{m-1}(M)$. De plus, on a les relations
+
+(4) $u\circ \widetilde{u}=\widetilde{u}\circ u=$ det($u$)$_M$,
+
+(5) det($\widetilde{u}$) $=$ det($u$)$^{m-1}$,
+
+$$
+\widetilde{u}=\sum^{m-1}_{r=0}(-1)^rc_{m-1-r}(u)u^r \tag{6}
+$$
 
 #### Lemme 1 {#alg-viii-s17-lem-1 .statement tag=00KE}
 
-Soit $p$ un entier tel que $0\leqslant p\leqslant m$. Pour tout $w$ dans $\wedge^p(M)$, soit $h_p(w)$l’application linéaire $w'\rightarrow w\wedge w'$ de $\wedge^{m-p}(M)$dans $\wedge^m(M)$. L’application linéaire $h_p:w\rightarrow h_p(w)$de $\wedge^p(M)$dans Hom$_L(\wedge^{m-p}(M),\wedge^m(M))$est un isomor-
+Soit $p$ un entier tel que $0\leqslant p\leqslant m$. Pour tout $w$ dans $\wedge^p(M)$, soit $h_p(w)$l’application linéaire $w'\rightarrow w\wedge w'$ de $\wedge^{m-p}(M)$dans $\wedge^m(M)$. L’application linéaire $h_p:w\rightarrow h_p(w)$de $\wedge^p(M)$dans Hom$_L(\wedge^{m-p}(M),\wedge^m(M))$est un isomorphisme.
 
-phisme.
-
-Soit $(e_i)_{i\in I}$ une base de M ; munissons l’ensemble I d’une relation d’ordre total. Pour toute partie J de I, posons $e_J=e_{i_1}\wedge  \cdots  \wedge e_{i_r}$, où $(i_1, . . . , i_r)$ est la suite des
-
-éléments de J rangés par ordre croissant. Le L-module $\wedge^{m-p}(M)$ admet pour base
-
-les éléments $e_S$, où S parcourt l’ensemble des parties à $m-p$ éléments de I ; de
-
-plus $\wedge^m(M)$ a pour base $\{e_I\}$. Il existe donc une base de Hom$_L(\wedge^{m-p}(M),\wedge^m(M))$
-
-formée des applications linéaires $e^*_J$ caractérisées par la formule
+Soit $(e_i)_{i\in I}$ une base de M ; munissons l’ensemble I d’une relation d’ordre total. Pour toute partie J de I, posons $e_J=e_{i_1}\wedge  \cdots  \wedge e_{i_r}$, où $(i_1, . . . , i_r)$ est la suite des éléments de J rangés par ordre croissant. Le L-module $\wedge^{m-p}(M)$ admet pour base les éléments $e_S$, où S parcourt l’ensemble des parties à $m-p$ éléments de I ; de plus $\wedge^m(M)$ a pour base $\{e_I\}$. Il existe donc une base de Hom$_L(\wedge^{m-p}(M),\wedge^m(M))$ formée des applications linéaires $e^*_J$ caractérisées par la formule
 
 $_*e_I$ si $I = J\cup S$
 
@@ -94,13 +92,13 @@ J S
 
 0 sinon
 
-où J parcourt l’ensemble des parties à $p$ éléments de I. Il résulte de la formule (20) de III, p. 87 que, pour toute partie J à $p$ éléments de I, on a $h_p(e_J)\in  \{e^*_J,-e^*_J\}$; comme
-
-les éléments $e_J$ forment une base de $\wedge^p$(M), l’application linéaire $h_p$ est bijective.
+où J parcourt l’ensemble des parties à $p$ éléments de I. Il résulte de la formule (20) de III, p. 87 que, pour toute partie J à $p$ éléments de I, on a $h_p(e_J)\in  \{e^*_J,-e^*_J\}$; comme les éléments $e_J$ forment une base de $\wedge^p$(M), l’application linéaire $h_p$ est bijective.
 
 Démontrons maintenant la proposition 1. Soient $u$ et $\widetilde{u}$ des endomorphismes de M. La relation (3) équivaut à
 
-(8) $h_1\circ \widetilde{u}=$ Hom($\wedge^{m-1}(u),1\wedge^{^m}_{(M)}$)$\circ h_1$; d’après le lemme 1$,h_1$ est un isomorphisme de M sur Hom$_L(\wedge^{m-1}(M),\wedge^m(M))$.
+(8) $h_1\circ \widetilde{u}=$ Hom($\wedge^{m-1}(u),1\wedge^{^m}_{(M)}$)$\circ h_1$;
+
+d’après le lemme 1$,h_1$ est un isomorphisme de M sur Hom$_L(\wedge^{m-1}(M),\wedge^m(M))$.
 
 Par suite, pour tout endomorphisme $u$ de M, il existe un unique endomorphisme $\widetilde{u}$ de M satisfaisant à la relation (3).
 

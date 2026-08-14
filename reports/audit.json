@@ -1,14 +1,14 @@
 {
   "version": "dev",
-  "commit": "b51555770ef5f5c48f8766db839b4aaabc8e353c",
+  "commit": "3abd3e63c36a7bf14dba0bbb98c49644c9888415",
   "root": "/Users/apple/github/tamnd/bourbaki",
   "langs": [
     "en",
     "fr",
     "vi"
   ],
-  "hard": 1,
-  "soft": 151,
+  "hard": 0,
+  "soft": 278,
   "checks": [
     {
       "id": "F01",
@@ -142,7 +142,7 @@
       "group": "mathematics",
       "hard": false,
       "title": "displays per page within three sigma of the book mean",
-      "found": 0
+      "found": 1
     },
     {
       "id": "M07",
@@ -159,23 +159,37 @@
       "found": 0
     },
     {
+      "id": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "title": "no base carries two superscripts or two subscripts",
+      "found": 68
+    },
+    {
+      "id": "P04",
+      "group": "publication",
+      "hard": false,
+      "title": "every math span parses under KaTeX",
+      "found": 74
+    },
+    {
       "id": "R01",
       "group": "references",
-      "hard": false,
+      "hard": true,
       "title": "every in-corpus reference resolves",
-      "found": 37
+      "found": 0
     },
     {
       "id": "R02",
       "group": "references",
-      "hard": false,
+      "hard": true,
       "title": "a reference that leaves the corpus names a Book of the Éléments",
       "found": 0
     },
     {
       "id": "R03",
       "group": "references",
-      "hard": false,
+      "hard": true,
       "title": "no reference resolves to a tag that is not in tags",
       "found": 0
     },
@@ -184,15 +198,13 @@
       "group": "solutions",
       "hard": false,
       "title": "a solution's tag is a tag, and it is an exercise",
-      "skipped": "the corpus has no solutions yet",
       "found": 0
     },
     {
       "id": "X02",
       "group": "solutions",
       "hard": false,
-      "title": "verified means both judges passed",
-      "skipped": "the corpus has no solutions yet",
+      "title": "a status is a fact about the judges",
       "found": 0
     },
     {
@@ -200,7 +212,6 @@
       "group": "solutions",
       "hard": false,
       "title": "every tag a solution says it uses exists",
-      "skipped": "the corpus has no solutions yet",
       "found": 0
     },
     {
@@ -208,7 +219,6 @@
       "group": "solutions",
       "hard": false,
       "title": "no provider leakage and no meta-commentary",
-      "skipped": "the corpus has no solutions yet",
       "found": 0
     },
     {
@@ -336,7 +346,7 @@
       "group": "tags",
       "hard": false,
       "title": "the tags of a file climb, as they did on the run that assigned them",
-      "found": 113
+      "found": 134
     },
     {
       "id": "L01",
@@ -371,7 +381,7 @@
       "group": "translation",
       "hard": true,
       "title": "source_content_sha256 is the English hash as it stands",
-      "found": 1
+      "found": 0
     },
     {
       "id": "L06",
@@ -401,304 +411,1166 @@
       "title": "the glossary version moves when the renderings do",
       "skipped": "no base revision was given, so there is nothing to compare the glossary against",
       "found": 0
+    },
+    {
+      "id": "L10",
+      "group": "translation",
+      "hard": true,
+      "title": "no English term was left standing",
+      "found": 0
+    },
+    {
+      "id": "L11",
+      "group": "translation",
+      "hard": true,
+      "title": "no sentence was left untranslated",
+      "found": 0
     }
   ],
   "findings": [
     {
-      "check": "R01",
-      "group": "references",
+      "check": "M06",
+      "group": "mathematics",
       "hard": false,
-      "file": "content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md",
-      "line": 190,
-      "message": "\"Corollary of Proposition 3\" does not resolve: alg-viii-s1 has no corollary 1 of Proposition 3"
+      "file": "content/en/lie/VIII/12_s12_chevalley_orders.md",
+      "line": 1,
+      "message": "6.29 displays a page over 17 pages, against a mean of 1.23 and a sigma of 1.28"
     },
     {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md",
-      "line": 194,
-      "message": "\"corollary of Proposition 12\" does not resolve: alg-viii-s2 has no corollary 1 of Proposition 12"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md",
-      "line": 300,
-      "message": "\"Corollary of Proposition 13\" does not resolve: alg-viii-s2 has no corollary 1 of Proposition 13"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/04_s4_semisimple_modules.md",
-      "line": 110,
-      "message": "\"corollary of Proposition 2\" does not resolve: alg-viii-s4 has no corollary 1 of Proposition 2"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/05_s5_commutation.md",
-      "line": 306,
-      "message": "\"VIII, p. 82, Corollary 1\" does not resolve: alg-viii-s5 has 2 statements called Corollary 1 and 2 of them in no. 3"
-    },
-    {
-      "check": "R01",
-      "group": "references",
+      "check": "M09",
+      "group": "mathematics",
       "hard": false,
       "file": "content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md",
-      "line": 330,
-      "message": "\"Theorem 3\" does not resolve: alg-viii-s6 has no Theorem 3"
+      "line": 352,
+      "message": "two of one script against one base, which TeX will not set: ^-_V^1"
     },
     {
-      "check": "R01",
-      "group": "references",
+      "check": "M09",
+      "group": "mathematics",
       "hard": false,
-      "file": "content/en/alg/VIII/07_s7_simple_rings.md",
-      "line": 94,
-      "message": "\"VIII, p. 82, Corollary 1\" does not resolve: alg-viii-s5 has 2 statements called Corollary 1 and 2 of them in no. 3"
+      "file": "content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md",
+      "line": 362,
+      "message": "two of one script against one base, which TeX will not set: ^-_V^1"
     },
     {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/07_s7_simple_rings.md",
-      "line": 112,
-      "message": "\"Corollary 2 of VIII, p. 83\" does not resolve: alg-viii-s5 has 2 statements called Corollary 2 and 2 of them in no. 3"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/08_s8_semisimple_rings.md",
-      "line": 144,
-      "message": "\"Corollary of Theorem 1\" does not resolve: alg-viii-s8 has no corollary 1 of Theorem 1"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/09_s9_radical.md",
-      "line": 318,
-      "message": "\"Corollary of Proposition 4\" does not resolve: alg-viii-s9 has no corollary 1 of Proposition 4"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/09_s9_radical.md",
-      "line": 446,
-      "message": "\"VIII, p. 162, Corollary 1\" does not resolve: alg-viii-s9 has 6 statements called Corollary 1 and 2 of them in no. 5"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/10_s10_modules_over_an_artinian_ring.md",
-      "line": 110,
-      "message": "\"Corollary 1 of VIII, p. 163\" does not resolve: alg-viii-s9 has 6 statements called Corollary 1 and 2 of them in no. 5"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/11_s11_grothendieck_groups.md",
-      "line": 524,
-      "message": "\"Corollary 1 of Proposition 4\" does not resolve: alg-viii-s11 has no corollary 1 of Proposition 4"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md",
-      "line": 158,
-      "message": "\"Corollary 1 of Theorem 5\" does not resolve: alg-viii-s12 has no corollary 1 of Theorem 5"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md",
-      "line": 204,
-      "message": "\"Corollary 2 of VIII, p. 215\" does not resolve: alg-viii-s12 has 3 statements called Corollary 2 and 0 of them in no. 3"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md",
-      "line": 220,
-      "message": "\"VIII, p. 215, Corollary 2\" does not resolve: alg-viii-s12 has 3 statements called Corollary 2 and 0 of them in no. 3"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md",
-      "line": 308,
-      "message": "\"Corollary 1 of VIII, p. 215\" does not resolve: alg-viii-s12 has 3 statements called Corollary 1 and 0 of them in no. 3"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md",
-      "line": 336,
-      "message": "\"corollary of Proposition 14\" does not resolve: alg-viii-s12 has no corollary 1 of Proposition 14"
-    },
-    {
-      "check": "R01",
-      "group": "references",
+      "check": "M09",
+      "group": "mathematics",
       "hard": false,
       "file": "content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md",
-      "line": 242,
-      "message": "\"Corollary 1 of VIII, p. 215\" does not resolve: alg-viii-s12 has 3 statements called Corollary 1 and 0 of them in no. 3"
+      "line": 352,
+      "message": "two of one script against one base, which TeX will not set: _n^{j-}_-^1_1"
     },
     {
-      "check": "R01",
-      "group": "references",
+      "check": "M09",
+      "group": "mathematics",
       "hard": false,
-      "file": "content/en/alg/VIII/14_s14_central_simple_algebras.md",
-      "line": 62,
-      "message": "\"VIII, p. 83, Corollary 2\" does not resolve: alg-viii-s5 has 2 statements called Corollary 2 and 2 of them in no. 3"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/14_s14_central_simple_algebras.md",
-      "line": 66,
-      "message": "\"Corollary of Proposition 6\" does not resolve: alg-viii-s14 has no corollary 1 of Proposition 6"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/14_s14_central_simple_algebras.md",
-      "line": 66,
-      "message": "\"Corollary of Proposition 6\" does not resolve: alg-viii-s14 has no corollary 1 of Proposition 6"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/14_s14_central_simple_algebras.md",
-      "line": 98,
-      "message": "\"Corollary of Proposition 10\" does not resolve: alg-viii-s14 has no corollary 1 of Proposition 10"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/14_s14_central_simple_algebras.md",
-      "line": 102,
-      "message": "\"Corollary 2 of VIII, p. 83\" does not resolve: alg-viii-s5 has 2 statements called Corollary 2 and 2 of them in no. 3"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/15_s15_brauer_groups.md",
-      "line": 188,
-      "message": "\"VIII, p. 82, Corollary 1\" does not resolve: alg-viii-s5 has 2 statements called Corollary 1 and 2 of them in no. 3"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/20_s20_linear_representations_of_algebras.md",
-      "line": 176,
-      "message": "\"corollary of Theorem 5\" does not resolve: alg-viii-s20 has no corollary 1 of Theorem 5"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/20_s20_linear_representations_of_algebras.md",
-      "line": 246,
-      "message": "\"Corollary of Theorem 5\" does not resolve: alg-viii-s20 has no corollary 1 of Theorem 5"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/20_s20_linear_representations_of_algebras.md",
-      "line": 344,
-      "message": "\"VIII, p. 83, Corollary 1\" does not resolve: alg-viii-s5 has 2 statements called Corollary 1 and 2 of them in no. 3"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/20_s20_linear_representations_of_algebras.md",
-      "line": 346,
-      "message": "\"Corollary of Proposition 1\" does not resolve: alg-viii-s20 has no corollary 1 of Proposition 1"
-    },
-    {
-      "check": "R01",
-      "group": "references",
-      "hard": false,
-      "file": "content/en/alg/VIII/20_s20_linear_representations_of_algebras.md",
+      "file": "content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md",
       "line": 362,
-      "message": "\"Corollary 1 of Proposition 4\" does not resolve: alg-viii-s20 has no corollary 1 of Proposition 4"
+      "message": "two of one script against one base, which TeX will not set: _n^{j-}_-^1_1"
     },
     {
-      "check": "R01",
-      "group": "references",
+      "check": "M09",
+      "group": "mathematics",
       "hard": false,
-      "file": "content/en/alg/VIII/20_s20_linear_representations_of_algebras.md",
-      "line": 412,
-      "message": "\"Corollary of Proposition 6\" does not resolve: alg-viii-s20 has no corollary 1 of Proposition 6"
+      "file": "content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md",
+      "line": 692,
+      "message": "two of one script against one base, which TeX will not set: ^-_1^1"
     },
     {
-      "check": "R01",
-      "group": "references",
+      "check": "M09",
+      "group": "mathematics",
       "hard": false,
-      "file": "content/en/alg/VIII/20_s20_linear_representations_of_algebras.md",
-      "line": 460,
-      "message": "\"Corollary of Proposition 6\" does not resolve: alg-viii-s20 has no corollary 1 of Proposition 6"
+      "file": "content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md",
+      "line": 772,
+      "message": "two of one script against one base, which TeX will not set: ^x_x^{\\in}_{\\in}^H_H^{\\backslash}_{\\backslash}^G_G^{s(x)^{-1}}"
     },
     {
-      "check": "R01",
-      "group": "references",
+      "check": "M09",
+      "group": "mathematics",
       "hard": false,
-      "file": "content/en/alg/VIII/20_s20_linear_representations_of_algebras.md",
-      "line": 494,
-      "message": "\"Proposition 16\" does not resolve: alg-viii-s20 has no Proposition 16"
+      "file": "content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md",
+      "line": 784,
+      "message": "two of one script against one base, which TeX will not set: ^x_x^{\\in}_{\\in}^H_H^{\\backslash}_{\\backslash}^G_G^{g_1s(x)^{-1}}"
     },
     {
-      "check": "R01",
-      "group": "references",
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md",
+      "line": 834,
+      "message": "two of one script against one base, which TeX will not set: ^x_x^{\\in}_{\\in}^H_H^{\\backslash}_{\\backslash}^G_G^{s(x)^{-1}}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/alg/VIII/19_s19_quaternion_algebras.md",
+      "line": 70,
+      "message": "two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\\gamma y}_x"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/alg/VIII/19_s19_quaternion_algebras.md",
+      "line": 86,
+      "message": "two of one script against one base, which TeX will not set: ^a_0^0_b"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
       "hard": false,
       "file": "content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md",
-      "line": 326,
-      "message": "\"Corollary of Theorem 5\" does not resolve: alg-viii-s21 has no corollary 1 of Theorem 5"
+      "line": 474,
+      "message": "two of one script against one base, which TeX will not set: _g'_{_{-1}}"
     },
     {
-      "check": "R01",
-      "group": "references",
+      "check": "M09",
+      "group": "mathematics",
       "hard": false,
-      "file": "content/en/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md",
-      "line": 107,
-      "message": "\"Proposition 6\" does not resolve: alg-viii-a4 has no Proposition 6"
+      "file": "content/en/alg/VIII/exercises/s11/05.md",
+      "line": 15,
+      "message": "two of one script against one base, which TeX will not set: ^p_0^0_q"
     },
     {
-      "check": "R01",
-      "group": "references",
+      "check": "M09",
+      "group": "mathematics",
       "hard": false,
-      "file": "content/en/alg/VIII/exercises/s2/10.md",
+      "file": "content/en/alg/VIII/exercises/s11/08.md",
+      "line": 19,
+      "message": "two of one script against one base, which TeX will not set: ^X_{0Y}^0"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/alg/VIII/exercises/s11/10.md",
       "line": 17,
-      "message": "\"Corollary of Proposition 11\" does not resolve: alg-viii-s2 has no corollary 1 of Proposition 11"
+      "message": "two of one script against one base, which TeX will not set: ^X_0^0_I"
     },
     {
-      "check": "R01",
-      "group": "references",
+      "check": "M09",
+      "group": "mathematics",
       "hard": false,
-      "file": "content/en/alg/VIII/exercises/s2/17.md",
+      "file": "content/en/alg/VIII/exercises/s14/18.md",
+      "line": 15,
+      "message": "two of one script against one base, which TeX will not set: ^z_{0\\sigma(}^0_{z)}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/alg/VIII/exercises/s19/06.md",
+      "line": 25,
+      "message": "two of one script against one base, which TeX will not set: ^r_{j=0}^{-1}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/alg/VIII/exercises/s19/06.md",
+      "line": 25,
+      "message": "two of one script against one base, which TeX will not set: ^2_{h^r=0}^{-1}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/alg/VIII/exercises/s21/21.md",
+      "line": 33,
+      "message": "two of one script against one base, which TeX will not set: ^n_{j=1j^{\\alpha j}}^1_{\\alpha_j!}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md",
+      "line": 317,
+      "message": "two of one script against one base, which TeX will not set: _{w(G)}^1_{\\alpha\\in R_+(G,T)}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md",
+      "line": 363,
+      "message": "two of one script against one base, which TeX will not set: ^{exp ad}_{adx}^{x-1}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/08_s8_fourier_transform.md",
+      "line": 75,
+      "message": "two of one script against one base, which TeX will not set: _u^2_2"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/08_s8_fourier_transform.md",
+      "line": 79,
+      "message": "two of one script against one base, which TeX will not set: _u^2_2"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/A1_a1_structure_of_compact_groups.md",
+      "line": 112,
+      "message": "two of one script against one base, which TeX will not set: ^l_{\\beta^{\\beta \\alpha}}^{(\\lambda)}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s2/08.md",
+      "line": 29,
+      "message": "two of one script against one base, which TeX will not set: ^-_G^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s6/01.md",
+      "line": 25,
+      "message": "two of one script against one base, which TeX will not set: _{N!}^1_{w\\in W(R)}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s6/02.md",
+      "line": 27,
+      "message": "two of one script against one base, which TeX will not set: _{=1}^{n\\partial}_{\\partial x^2}^{P_{2i}}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s6/02.md",
+      "line": 31,
+      "message": "two of one script against one base, which TeX will not set: ^{\\infty}_{=1}^{\\Delta^n}_n^{(P)}_!"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s7/04.md",
+      "line": 23,
+      "message": "two of one script against one base, which TeX will not set: ^n_{\\partial x}^{\\partial^2}_{\\partial y}^P"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s7/05.md",
+      "line": 15,
+      "message": "two of one script against one base, which TeX will not set: ^1_2^{\\partial}_{\\partial x^2}^{P_{2i}}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s8/01.md",
+      "line": 23,
+      "message": "two of one script against one base, which TeX will not set: ^{(-}_j^{1)}_{!^i}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s8/01.md",
+      "line": 27,
+      "message": "two of one script against one base, which TeX will not set: ^j_i^{!(}_{!(}^n_n^-_-^j_{i)!}^{)!}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VII/01_s1_primary_decomposition_of_linear.md",
+      "line": 53,
+      "message": "two of one script against one base, which TeX will not set: ^s_s^{\\in}_{\\in}^S_S"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md",
+      "line": 177,
+      "message": "two of one script against one base, which TeX will not set: ^{\\infty}_{=0n}^1_!"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
+      "line": 499,
+      "message": "two of one script against one base, which TeX will not set: _-'_{\\alpha}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
+      "line": 563,
+      "message": "two of one script against one base, which TeX will not set: _-'_{\\alpha}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
+      "line": 567,
+      "message": "two of one script against one base, which TeX will not set: _-'_{\\alpha}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
+      "line": 567,
+      "message": "two of one script against one base, which TeX will not set: _-'_{\\alpha}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md",
+      "line": 181,
+      "message": "two of one script against one base, which TeX will not set: ^m_{i^i}^{n_i}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
+      "line": 417,
+      "message": "two of one script against one base, which TeX will not set: _{\\alpha}'_{\\alpha}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/11_s11_classes_of_nilpotent_elements_and_sl2.md",
+      "line": 371,
+      "message": "two of one script against one base, which TeX will not set: ^{\\alpha}_{\\alpha}^{\\in}_{\\in}^B_B"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/12_s12_chevalley_orders.md",
+      "line": 755,
+      "message": "two of one script against one base, which TeX will not set: _n^{\\infty}_{=0n}^1_!"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/12_s12_chevalley_orders.md",
+      "line": 787,
+      "message": "two of one script against one base, which TeX will not set: _-'_{\\alpha}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/12_s12_chevalley_orders.md",
+      "line": 877,
+      "message": "two of one script against one base, which TeX will not set: _{\\lambda\\in I}^h_{n^{\\lambda}_{\\lambda}}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
+      "line": 249,
+      "message": "two of one script against one base, which TeX will not set: _l'_{+1}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
+      "line": 479,
+      "message": "two of one script against one base, which TeX will not set: ^r''"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
+      "line": 511,
+      "message": "two of one script against one base, which TeX will not set: ^r''"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
+      "line": 519,
+      "message": "two of one script against one base, which TeX will not set: ^r''"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/en/lie/VIII/exercises/s9/14.md",
+      "line": 19,
+      "message": "two of one script against one base, which TeX will not set: ^{\\alpha}_{\\alpha}^{\\in}_{\\in}^B_B"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md",
+      "line": 351,
+      "message": "two of one script against one base, which TeX will not set: _n^{j-}_-^1_1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md",
+      "line": 361,
+      "message": "two of one script against one base, which TeX will not set: _n^j_-^{-1}_1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md",
+      "line": 681,
+      "message": "two of one script against one base, which TeX will not set: ^-_1^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md",
+      "line": 855,
+      "message": "two of one script against one base, which TeX will not set: ^x_x^{\\in}_{\\in}^H_H^{\\backslash}_{\\backslash}^G_G"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/19_s19_algebres_de_quaternions.md",
+      "line": 69,
+      "message": "two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\\gamma y}_x"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/19_s19_algebres_de_quaternions.md",
+      "line": 85,
+      "message": "two of one script against one base, which TeX will not set: ^a_0^0_b"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
+      "line": 501,
+      "message": "two of one script against one base, which TeX will not set: _g'_{_{-1}}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
+      "line": 763,
+      "message": "two of one script against one base, which TeX will not set: _d'_{_{\\lambda'}}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
+      "line": 769,
+      "message": "two of one script against one base, which TeX will not set: _d''_{_{\\lambda'}}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md",
+      "line": 152,
+      "message": "two of one script against one base, which TeX will not set: _n^-_i"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md",
+      "line": 408,
+      "message": "two of one script against one base, which TeX will not set: ^{I_n}_{0^{-2}U}^0"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s11/05.md",
+      "line": 15,
+      "message": "two of one script against one base, which TeX will not set: ^p_0^0_q"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s11/08.md",
+      "line": 19,
+      "message": "two of one script against one base, which TeX will not set: ^X_0^0_Y"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s11/10.md",
       "line": 17,
-      "message": "\"Proposition 14\" does not resolve: alg-viii-s2 has no Proposition 14"
+      "message": "two of one script against one base, which TeX will not set: ^X_0^0_I"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s14/18.md",
+      "line": 15,
+      "message": "two of one script against one base, which TeX will not set: ^z_{0\\sigma(}^0_{z)}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s19/06.md",
+      "line": 21,
+      "message": "two of one script against one base, which TeX will not set: ^r_j^-_{=0}^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s19/06.md",
+      "line": 21,
+      "message": "two of one script against one base, which TeX will not set: ^2_{h^r=0}^{-1}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s21/21.md",
+      "line": 33,
+      "message": "two of one script against one base, which TeX will not set: ^n_{j=1j^{\\alpha j}}^1_{\\alpha_j!}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s5/12.md",
+      "line": 19,
+      "message": "two of one script against one base, which TeX will not set: ^(_s^{\\mathbf{N})}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s6/05.md",
+      "line": 15,
+      "message": "two of one script against one base, which TeX will not set: ^(_s^{\\mathbf{N})}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md",
+      "line": 352,
+      "message": "KaTeX will not set it: Double superscript at position 54: …circ \\theta^-_V^̲1: h\\mapsto \\theta_W\\circ (1_Q\\otimes h)\\circ \\theta^…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md",
+      "line": 362,
+      "message": "KaTeX will not set it: Double superscript at position 20: …psto \\theta^-_V^̲1: W\\mapsto \\theta^-_V^1"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md",
+      "line": 352,
+      "message": "KaTeX will not set it: Double subscript at position 31: … d_n^j=d_n^{j-}_̲-^1_1\\circ d_n^…: d_{n-1}^i\\circ d_n^j=d_n^{j-}_-^1_1\\circ d_n^i \\ta…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md",
+      "line": 362,
+      "message": "KaTeX will not set it: Double subscript at position 53: …)^{i+j}d_n^{j-}_̲-^1_1\\circ d_n^…: =\\sum_{0\\leqslant i\u003cj\\leqslant n}(-1)^{i+j}d_n^{j-…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md",
+      "line": 692,
+      "message": "KaTeX will not set it: Double superscript at position 70: …_1(x\\cdot g^-_1^̲1)}c(h_2(x\\cdot…: =\\prod_{x\\in H\\backslash G}^{s(x\\cdot g_1^{-1})^{-…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md",
+      "line": 772,
+      "message": "KaTeX will not set it: Double superscript at position 18: …times \\prod^x_x^̲{\\in}_{\\in}^H_H…: \\times \\prod^x_x^{\\in}_{\\in}^H_H^{\\backslash}_{\\ba…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md",
+      "line": 784,
+      "message": "KaTeX will not set it: Double superscript at position 17: …times \\prod^x_x^̲{\\in}_{\\in}^H_H…: \\times \\prod^x_x^{\\in}_{\\in}^H_H^{\\backslash}_{\\ba…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md",
+      "line": 834,
+      "message": "KaTeX will not set it: Double superscript at position 18: …times \\prod^x_x^̲{\\in}_{\\in}^H_H…: \\times \\prod^x_x^{\\in}_{\\in}^H_H^{\\backslash}_{\\ba…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/19_s19_quaternion_algebras.md",
+      "line": 70,
+      "message": "KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\\g…: ^X_-^-_y^x_X^-_-^{\\gamma y}_x"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/19_s19_quaternion_algebras.md",
+      "line": 86,
+      "message": "KaTeX will not set it: Double superscript at position 20: …b)\\mapsto (^a_0^̲0_b): (a, b)\\mapsto (^a_0^0_b)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md",
+      "line": 474,
+      "message": "KaTeX will not set it: Double subscript at position 54: …_{\\in G}f_gf_g'_̲{_{-1}} \\tag{28…: \\langle f, f'\\rangle_G=|G|^{-1}_g\\sum_{\\in G}f_gf_…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/exercises/s11/05.md",
+      "line": 15,
+      "message": "KaTeX will not set it: Double superscript at position 28: … q) = (m+n,^p_0^̲0_q: (m, p) + (n, q) = (m+n,^p_0^0_q"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/exercises/s11/08.md",
+      "line": 19,
+      "message": "KaTeX will not set it: Double superscript at position 9: (^X_{0Y}^̲0): (^X_{0Y}^0)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/exercises/s11/10.md",
+      "line": 17,
+      "message": "KaTeX will not set it: Double superscript at position 6: (^X_0^̲0_I): (^X_0^0_I)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/exercises/s14/18.md",
+      "line": 15,
+      "message": "KaTeX will not set it: Double superscript at position 14: ^z_{0\\sigma(}^̲0_{z)}: ^z_{0\\sigma(}^0_{z)}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/exercises/s19/06.md",
+      "line": 25,
+      "message": "KaTeX will not set it: Double superscript at position 14: \\prod^r_{j=0}^̲{-1}(1 + T^{2^j…: \\prod^r_{j=0}^{-1}(1 + T^{2^j}) =\\sum^2_{h^r=0}^{-…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/alg/VIII/exercises/s21/21.md",
+      "line": 33,
+      "message": "KaTeX will not set it: Double superscript at position 51: …=1j^{\\alpha j}}^̲1_{\\alpha_j!}: c_{\\boldsymbol{\\alpha }}=\\prod^n_{j=1j^{\\alpha j}}…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md",
+      "line": 317,
+      "message": "KaTeX will not set it: Double subscript at position 10: _{w(G)}^1_̲{\\alpha\\in R_+(…: _{w(G)}^1_{\\alpha\\in R_+(G,T)}4"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md",
+      "line": 363,
+      "message": "KaTeX will not set it: Double superscript at position 16: ^{exp ad}_{adx}^̲{x-1}: ^{exp ad}_{adx}^{x-1}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/08_s8_fourier_transform.md",
+      "line": 75,
+      "message": "KaTeX will not set it: Double subscript at position 6: A_u^2_̲2\u003c\\infty: A_u^2_2\u003c\\infty"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/08_s8_fourier_transform.md",
+      "line": 79,
+      "message": "KaTeX will not set it: Double subscript at position 34: …idehat{G}}A_u^2_̲2: A^2_2=\\sum_{u\\in\\widehat{G}}A_u^2_2"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/A1_a1_structure_of_compact_groups.md",
+      "line": 112,
+      "message": "KaTeX will not set it: Double superscript at position 44: …{\\beta \\alpha}}^̲{(\\lambda)}) = …: f_{\\alpha \\beta}(S^l_{\\beta^{\\beta \\alpha}}^{(\\lam…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s2/08.md",
+      "line": 29,
+      "message": "KaTeX will not set it: Double superscript at position 5: ^-_G^̲1(T_r)\\subset L…: ^-_G^1(T_r)\\subset L(T)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s6/01.md",
+      "line": 25,
+      "message": "KaTeX will not set it: Double subscript at position 11: P =_{N!}^1_̲{w\\in W(R)}\\var…: P =_{N!}^1_{w\\in W(R)}\\varepsilon (w)(w\\rho )^N\\pr…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s6/02.md",
+      "line": 27,
+      "message": "KaTeX will not set it: Double subscript at position 45: …=1}^{n\\partial}_̲{\\partial x^2}^…: \\int\\Delta (P) =^1_{2i}\\sum_{=1}^{n\\partial}_{\\par…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s6/02.md",
+      "line": 31,
+      "message": "KaTeX will not set it: Double superscript at position 25: …m^{\\infty}_{=1}^̲{\\Delta^n}_n^{(…: P^*=_n\\sum^{\\infty}_{=1}^{\\Delta^n}_n^{(P)}_!=e^{\\…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s7/03.md",
+      "line": 25,
+      "message": "KaTeX will not set it: Expected group after '^' at position 5: \\tau^̲: \\tau^"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s7/04.md",
+      "line": 23,
+      "message": "KaTeX will not set it: Double superscript at position 20: …^n_{\\partial x}^̲{\\partial^2}_{\\…: \\sum^n_{\\partial x}^{\\partial^2}_{\\partial y}^P"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s7/05.md",
+      "line": 15,
+      "message": "KaTeX will not set it: Double superscript at position 17: …Delta (P) =^1_2^̲{\\partial}_{\\pa…: \\Delta (P) =^1_2^{\\partial}_{\\partial x^2}^{P_{2i}…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s8/01.md",
+      "line": 23,
+      "message": "KaTeX will not set it: Double superscript at position 24: …}^n(g) =^{(-}_j^̲{1)}_{!^i}\\alph…: \\tau_{ij}^n(g) =^{(-}_j^{1)}_{!^i}\\alpha^{i+j-n}\\b…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/IX/exercises/s8/01.md",
+      "line": 27,
+      "message": "KaTeX will not set it: Double superscript at position 18: …+ 1)^{1/2}(^j_i^̲{!(}_{!(}^n_n^-…: (n+ 1)^{1/2}(^j_i^{!(}_{!(}^n_n^-_-^j_{i)!}^{)!})^…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VII/01_s1_primary_decomposition_of_linear.md",
+      "line": 53,
+      "message": "KaTeX will not set it: Double superscript at position 29: …S) =\\bigcap^s_s^̲{\\in}_{\\in}^S_S…: V_{\\lambda}(S) =\\bigcap^s_s^{\\in}_{\\in}^S_SV_{\\lam…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md",
+      "line": 177,
+      "message": "KaTeX will not set it: Double superscript at position 23: …^{\\infty}_{=0n}^̲1_!: =_n\\sum^{\\infty}_{=0n}^1_!"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
+      "line": 287,
+      "message": "KaTeX will not set it: Expected group after '_' at position 13: \\mathfrak{a}_̲: \\mathfrak{a}_"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
+      "line": 349,
+      "message": "KaTeX will not set it: Expected group after '_' at position 9: \\mu\\in Q_̲: \\mu\\in Q_"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
+      "line": 499,
+      "message": "KaTeX will not set it: Double subscript at position 82: …},\\varphi (X_-'_̲{\\alpha}) =X_{-…: \\varphi (X_{\\alpha}') =X_{\\alpha},\\varphi (H_{\\alp…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
+      "line": 563,
+      "message": "KaTeX will not set it: Double subscript at position 57: …{\\alpha}', X_-'_̲{\\alpha}] = [X_…: X_{\\alpha}'\\in \\mathfrak{g}^{\\alpha},[X_{\\alpha}',…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
+      "line": 567,
+      "message": "KaTeX will not set it: Double subscript at position 143: …u_{-\\alpha}X_-'_̲{\\alpha}=X_-'_{…: \\theta (X_{\\alpha}') =\\theta (u^{-1}_{\\alpha}X_{\\a…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md",
+      "line": 181,
+      "message": "KaTeX will not set it: Double superscript at position 32: …a_i) =t^m_{i^i}^̲{n_i}=t^m_i= (\\…: \\chi (n_i\\lambda_i) =t^m_{i^i}^{n_i}=t^m_i= (\\psi^…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/06_s6_modules_over_a_split_semi_simple_lie.md",
+      "line": 81,
+      "message": "KaTeX will not set it: Expected group after '_' at position 13: \\mathfrak{n}_̲: \\mathfrak{n}_"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
+      "line": 417,
+      "message": "KaTeX will not set it: Double subscript at position 12: m_{\\alpha}'_̲{\\alpha}: m_{\\alpha}'_{\\alpha}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/08_s8_symmetric_invariants.md",
+      "line": 266,
+      "message": "KaTeX will not set it: Expected group after '_' at position 28: …_++\\mathfrak{n}_̲: \\mathfrak{n}_++\\mathfrak{n}_"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/11_s11_classes_of_nilpotent_elements_and_sl2.md",
+      "line": 371,
+      "message": "KaTeX will not set it: Double superscript at position 25: …alpha}_{\\alpha}^̲{\\in}_{\\in}^B_B…: y=\\sum^{\\alpha}_{\\alpha}^{\\in}_{\\in}^B_BX_{-\\alpha…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/12_s12_chevalley_orders.md",
+      "line": 755,
+      "message": "KaTeX will not set it: Double subscript at position 33: …\\sum_n^{\\infty}_̲{=0n}^1_!: e^{adx_{\\alpha}}=\\sum_n^{\\infty}_{=0n}^1_!"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/12_s12_chevalley_orders.md",
+      "line": 787,
+      "message": "KaTeX will not set it: Double subscript at position 29: …_{\\alpha}, X_-'_̲{\\alpha}=y_{\\al…: X_{\\alpha}'=x_{\\alpha}, X_-'_{\\alpha}=y_{\\alpha}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/12_s12_chevalley_orders.md",
+      "line": 877,
+      "message": "KaTeX will not set it: Double subscript at position 18: …\\lambda\\in I}^h_̲{n^{\\lambda}_{\\…: _{\\lambda\\in I}^h_{n^{\\lambda}_{\\lambda}}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
+      "line": 249,
+      "message": "KaTeX will not set it: Double subscript at position 77: …+\\cdots +\\xi_l'_̲{+1}E_{l+1,l+1}…: \\Phi (\\xi_1E_{11}+\\cdots +\\xi_{l+1}E_{l+1,l+1}, \\x…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
+      "line": 479,
+      "message": "KaTeX will not set it: Double superscript at position 9: \n1\\sum^r'̲'\n: 1\\sum^r''"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
+      "line": 511,
+      "message": "KaTeX will not set it: Double superscript at position 9: \n1\\sum^r'̲'\n: 1\\sum^r''"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
+      "line": 519,
+      "message": "KaTeX will not set it: Double superscript at position 9: \n1\\sum^r'̲'\n: 1\\sum^r''"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
+      "line": 815,
+      "message": "KaTeX will not set it: Expected group after '_' at position 2: X_̲: X_"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
+      "line": 861,
+      "message": "KaTeX will not set it: Expected group after '_' at position 2: X_̲: X_"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/exercises/s13/19.md",
+      "line": 33,
+      "message": "KaTeX will not set it: Expected group after '_' at position 2: X_̲: X_"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/en/lie/VIII/exercises/s9/14.md",
+      "line": 19,
+      "message": "KaTeX will not set it: Double superscript at position 72: …alpha}_{\\alpha}^̲{\\in}_{\\in}^B_B: E^-(\\mu, \\gamma , \\nu ) = E(\\mu)^{\\gamma}\\cap \\big…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md",
+      "line": 351,
+      "message": "KaTeX will not set it: Double subscript at position 31: … d_n^j=d_n^{j-}_̲-^1_1\\circ d_n^…: d_{n-1}^i\\circ d_n^j=d_n^{j-}_-^1_1\\circ d_n^i \\ta…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md",
+      "line": 361,
+      "message": "KaTeX will not set it: Double subscript at position 50: …(-1)^{i+j}d_n^j_̲-^{-1}_1\\circ d…: =\\sum_{0\\leqslant i\u003cj\\leqslant n}(-1)^{i+j}d_n^j_-…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md",
+      "line": 681,
+      "message": "KaTeX will not set it: Double superscript at position 60: …{-1}h_1(x.g^-_1^̲1)}c(h_2(x.g_1^…: =\\prod_{x\\in H\\backslash G}^{s(x.g_1^{-1})^{-1}h_1…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md",
+      "line": 855,
+      "message": "KaTeX will not set it: Double superscript at position 18: …times \\prod^x_x^̲{\\in}_{\\in}^H_H…: \\times \\prod^x_x^{\\in}_{\\in}^H_H^{\\backslash}_{\\ba…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/19_s19_algebres_de_quaternions.md",
+      "line": 69,
+      "message": "KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\\g…: ^X_-^-_y^x_X^-_-^{\\gamma y}_x"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/19_s19_algebres_de_quaternions.md",
+      "line": 85,
+      "message": "KaTeX will not set it: Double superscript at position 24: …ightarrow (^a_0^̲0_b): (a, b)\\rightarrow (^a_0^0_b)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
+      "line": 501,
+      "message": "KaTeX will not set it: Double subscript at position 53: …{g\\in G}f_gf_g'_̲{_{-1}} \\tag{28…: \\langle f, f'\\rangle_G=|G|^{-1}\\sum_{g\\in G}f_gf_g…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
+      "line": 763,
+      "message": "KaTeX will not set it: Double subscript at position 30: …. . , \\omega_d'_̲{_{\\lambda'}}: \\omega '_1, . . . , \\omega_d'_{_{\\lambda'}}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
+      "line": 769,
+      "message": "KaTeX will not set it: Double subscript at position 31: … . , \\omega_d''_̲{_{\\lambda'}}): (\\omega_1', . . . , \\omega_d''_{_{\\lambda'}})"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md",
+      "line": 152,
+      "message": "KaTeX will not set it: Double subscript at position 18: …_i=\\pi (-1)_n^-_̲i\\pi (\\mu_i)^-_…: t_i=\\pi (-1)_n^-_i\\pi (\\mu_i)^-_1\\varphi (p(v_1), …"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md",
+      "line": 408,
+      "message": "KaTeX will not set it: Double superscript at position 29: …{I_n}_{0^{-2}U}^̲0: U\\rightarrow^{I_n}_{0^{-2}U}^0"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s11/05.md",
+      "line": 15,
+      "message": "KaTeX will not set it: Double superscript at position 28: … q) = (m+n,^p_0^̲0_q: (m, p) + (n, q) = (m+n,^p_0^0_q"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s11/08.md",
+      "line": 19,
+      "message": "KaTeX will not set it: Double superscript at position 6: (^X_0^̲0_Y): (^X_0^0_Y)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s11/10.md",
+      "line": 17,
+      "message": "KaTeX will not set it: Double superscript at position 5: ^X_0^̲0_I: ^X_0^0_I"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s14/18.md",
+      "line": 15,
+      "message": "KaTeX will not set it: Double superscript at position 14: ^z_{0\\sigma(}^̲0_{z)}: ^z_{0\\sigma(}^0_{z)}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s19/06.md",
+      "line": 21,
+      "message": "KaTeX will not set it: Double superscript at position 10: \\prod^r_j^̲-_{=0}^1(1 + T^…: \\prod^r_j^-_{=0}^1(1 + T^{2^j}) ="
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s19/06.md",
+      "line": 21,
+      "message": "KaTeX will not set it: Double superscript at position 15: \\sum^2_{h^r=0}^̲{-1}T^h): \\sum^2_{h^r=0}^{-1}T^h)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s21/21.md",
+      "line": 33,
+      "message": "KaTeX will not set it: Double superscript at position 51: …=1j^{\\alpha j}}^̲1_{\\alpha_j!}: c_{\\boldsymbol{\\alpha }}=\\prod^n_{j=1j^{\\alpha j}}…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s5/12.md",
+      "line": 19,
+      "message": "KaTeX will not set it: Double superscript at position 6: A^(_s^̲{\\mathbf{N})}: A^(_s^{\\mathbf{N})}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/alg/VIII/exercises/s6/05.md",
+      "line": 15,
+      "message": "KaTeX will not set it: Double superscript at position 9: _A(A^(_s^̲{\\mathbf{N})})\\…: _A(A^(_s^{\\mathbf{N})})\\rightarrow"
     },
     {
       "check": "T10",
@@ -738,7 +1610,7 @@
       "hard": false,
       "file": "content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md",
       "line": 254,
-      "message": "has 00RX after 00SE, which was assigned later"
+      "message": "has 00RX after 01L7, which was assigned later"
     },
     {
       "check": "T10",
@@ -1049,7 +1921,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md",
-      "line": 998,
+      "line": 1002,
       "message": "has 00IZ after 00RL, which was assigned later"
     },
     {
@@ -1057,7 +1929,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/en/alg/VIII/17_s17_reduced_norms_and_traces.md",
-      "line": 242,
+      "line": 232,
       "message": "has 00KK after 00RM, which was assigned later"
     },
     {
@@ -1065,7 +1937,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/en/alg/VIII/17_s17_reduced_norms_and_traces.md",
-      "line": 292,
+      "line": 282,
       "message": "has 00KN after 00RO, which was assigned later"
     },
     {
@@ -1073,7 +1945,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/en/alg/VIII/17_s17_reduced_norms_and_traces.md",
-      "line": 356,
+      "line": 346,
       "message": "has 00KQ after 00RP, which was assigned later"
     },
     {
@@ -1129,7 +2001,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md",
-      "line": 490,
+      "line": 486,
       "message": "has 00NT after 00SG, which was assigned later"
     },
     {
@@ -1147,6 +2019,174 @@
       "file": "content/en/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md",
       "line": 46,
       "message": "has 00QN after 00RV, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/IX/02_s2_maximal_tori_of_compact_lie_groups.md",
+      "line": 305,
+      "message": "has 01AO after 01JE, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/IX/03_s3_compact_forms_of_complex_semi_simple.md",
+      "line": 123,
+      "message": "has 01B2 after 01JG, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/IX/04_s4_root_system_associated_to_a_compact.md",
+      "line": 135,
+      "message": "has 01BP after 01JI, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/IX/04_s4_root_system_associated_to_a_compact.md",
+      "line": 425,
+      "message": "has 01C5 after 01C7, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/IX/04_s4_root_system_associated_to_a_compact.md",
+      "line": 473,
+      "message": "has 01C8 after 01JJ, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/IX/04_s4_root_system_associated_to_a_compact.md",
+      "line": 743,
+      "message": "has 01D3 after 01K9, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VII/02_s2_cartan_subalgebras_and_regular_elements.md",
+      "line": 229,
+      "message": "has 00U8 after 01IY, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VII/05_s5_decomposable_linear_lie_algebras.md",
+      "line": 61,
+      "message": "has 00WJ after 01KQ, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VII/05_s5_decomposable_linear_lie_algebras.md",
+      "line": 313,
+      "message": "has 00X0 after 01JS, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VIII/01_s1_the_lie_algebra_sl_2_k_and_its.md",
+      "line": 455,
+      "message": "has 00YD after 01L4, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VIII/03_s3_subalgebras_of_split_semi_simple_lie.md",
+      "line": 215,
+      "message": "has 00ZW after 01IZ, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md",
+      "line": 229,
+      "message": "has 011X after 01J0, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md",
+      "line": 267,
+      "message": "has 011Z after 01J3, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
+      "line": 139,
+      "message": "has 013F after 01L8, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
+      "line": 225,
+      "message": "has 013M after 01J4, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
+      "line": 411,
+      "message": "has 013Y after 01J5, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
+      "line": 541,
+      "message": "has 0145 after 01J6, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
+      "line": 655,
+      "message": "has 0149 after 01JX, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VIII/08_s8_symmetric_invariants.md",
+      "line": 162,
+      "message": "has 0157 after 01J8, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VIII/08_s8_symmetric_invariants.md",
+      "line": 288,
+      "message": "has 015E after 01JY, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/lie/VIII/08_s8_symmetric_invariants.md",
+      "line": 324,
+      "message": "has 015G after 01L6, which was assigned later"
     },
     {
       "check": "T10",
@@ -1185,15 +2225,15 @@
       "group": "tags",
       "hard": false,
       "file": "content/fr/alg/VIII/02_s2_structure_des_modules_de_longueur_finie.md",
-      "line": 247,
-      "message": "has 00RX after 00SE, which was assigned later"
+      "line": 249,
+      "message": "has 00RX after 01L7, which was assigned later"
     },
     {
       "check": "T10",
       "group": "tags",
       "hard": false,
       "file": "content/fr/alg/VIII/02_s2_structure_des_modules_de_longueur_finie.md",
-      "line": 255,
+      "line": 257,
       "message": "has 0029 after 00RX, which was assigned later"
     },
     {
@@ -1201,7 +2241,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/fr/alg/VIII/02_s2_structure_des_modules_de_longueur_finie.md",
-      "line": 319,
+      "line": 321,
       "message": "has 002E after 00QY, which was assigned later"
     },
     {
@@ -1209,7 +2249,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/fr/alg/VIII/02_s2_structure_des_modules_de_longueur_finie.md",
-      "line": 383,
+      "line": 385,
       "message": "has 002J after 00RY, which was assigned later"
     },
     {
@@ -1313,7 +2353,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/fr/alg/VIII/06_s6_equivalence_de_morita_des_modules_et.md",
-      "line": 523,
+      "line": 529,
       "message": "has 007H after 00R6, which was assigned later"
     },
     {
@@ -1497,7 +2537,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md",
-      "line": 969,
+      "line": 983,
       "message": "has 00IZ after 00RL, which was assigned later"
     },
     {
@@ -1505,7 +2545,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/fr/alg/VIII/17_s17_normes_et_traces_reduites.md",
-      "line": 239,
+      "line": 237,
       "message": "has 00KK after 00RM, which was assigned later"
     },
     {
@@ -1513,7 +2553,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/fr/alg/VIII/17_s17_normes_et_traces_reduites.md",
-      "line": 285,
+      "line": 283,
       "message": "has 00KN after 00RO, which was assigned later"
     },
     {
@@ -1521,7 +2561,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/fr/alg/VIII/17_s17_normes_et_traces_reduites.md",
-      "line": 347,
+      "line": 345,
       "message": "has 00KQ after 00RP, which was assigned later"
     },
     {
@@ -1577,7 +2617,7 @@
       "group": "tags",
       "hard": false,
       "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
-      "line": 517,
+      "line": 513,
       "message": "has 00NT after 00SG, which was assigned later"
     },
     {
@@ -1601,16 +2641,8 @@
       "group": "tags",
       "hard": false,
       "file": "content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md",
-      "line": 52,
+      "line": 53,
       "message": "has 00QN after 00RV, which was assigned later"
-    },
-    {
-      "check": "L05",
-      "group": "translation",
-      "hard": true,
-      "file": "content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md",
-      "line": 1,
-      "message": "was translated from da960d566cc8 and content/en/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md is now ba92c1457894, so it is stale"
     },
     {
       "check": "L08",
@@ -1618,16 +2650,17 @@
       "hard": false,
       "file": "content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md",
       "line": 1,
-      "message": "was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again"
+      "message": "was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again"
     }
   ],
   "counts": {
-    "exercises": 317,
-    "pages": 997,
-    "references": 2102,
-    "sections": 27,
-    "tags": 1026,
+    "exercises": 668,
+    "pages": 2873,
+    "references": 4178,
+    "sections": 61,
+    "solutions": 5,
+    "tags": 2060,
     "translated": 345,
-    "unresolved": 186
+    "unresolved": 246
   }
 }
