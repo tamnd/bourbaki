@@ -31,9 +31,9 @@ subsections:
       title: Structure des modules de longueur finie
       page: 34
       pdf_page: 45
-statements: 36
+statements: 37
 exercises: 19
-content_sha256: 987bb974b4cba42533bf92f704a4253bf2dd1d3a4696d9a9602ae57c91dc552a
+content_sha256: bf71cdddea883d082ffabb1e855bc076eda1f524b11c3a6f13d4a05725c66fce
 ---
 
 ## § 2. STRUCTURE DES MODULES DE LONGUEUR FINIE
@@ -238,11 +238,13 @@ Un module injectif est indécomposable si et seulement s’il est primordial (X,
 
 On dit qu’un module est semi-primordial s’il est somme directe d’une famille de sous-modules primordiaux.
 
-#### Exemple {#alg-viii-s2-n4-exa-1 .statement tag=00SE}
+#### Exemple 1 {#alg-viii-s2-n4-exa-1 .statement tag=00SE}
 
-$*$1) Tout module simple est primordial (VIII, p. 41) ; tout module semi-simple est donc semi-primordial (VIII, p. 51, déf 1).
+$*$Tout module simple est primordial (VIII, p. 41) ; tout module semi-simple est donc semi-primordial (VIII, p. 51, déf 1).
 
-2) Si A est un anneau noethérien à gauche, tout A-module injectif est semi-primordial (X, p. 21, prop. 14 et p. 22, th. 3, b)). $*$
+#### Exemple 2 {#alg-viii-s2-n4-exa-2 .statement tag=01L7}
+
+Si A est un anneau noethérien à gauche, tout A-module injectif est semi-primordial (X, p. 21, prop. 14 et p. 22, th. 3, b)). $*$
 
 #### Théorème 1 {#alg-viii-s2-thm-1 .statement tag=00RX}
 

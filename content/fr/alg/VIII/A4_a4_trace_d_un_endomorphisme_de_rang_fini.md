@@ -22,7 +22,7 @@ subsections:
       pdf_page: 455
 statements: 5
 exercises: 2
-content_sha256: 61723c841f5b4b121b1f809e79591cd5a8f85f6783252c80270eac319d22bc45
+content_sha256: 5fcbf235cdf951145f09bed0ae97ba7fe5abfc2a6e7a7cec19ac574cd0bab12d
 ---
 
 ### APPENDICE 4 TRACE D’UN ENDOMORPHISME DE RANG FINI
@@ -97,11 +97,7 @@ Soit E un A-module projectif, soit $u$ un élément de End$^f_A(E)$et soit F un 
 
 Notons $i$ l’injection canonique de F dans E, et $v: E\rightarrow F$ l’homomorphisme déduit de $u$. On a $u_F=v\circ i$ et $u=i\circ v$, d’où le corollaire.
 
-Soient E un A-module projectif et $u\in$ End$^f_A(E)$. Pour tout entier naturel $p$, le
-
-A-module $\wedge^pE$ est projectif (III, p. 87, cor. 2), l’endomorphisme $\wedge^pu$ appartient à End$^f_A(\wedge^pE)$ (III, p. 80, prop. 6) et il est nul dès que $p$ est assez grand. L’en-
-
-semble $1_E+$ End$^f_A(E)$ est stable par composition. On définit une application det de $1_E+$ End$^f_A(E)$ dans A en posant
+Soient E un A-module projectif et $u\in$ End$^f_A(E)$. Pour tout entier naturel $p$, le A-module $\wedge^pE$ est projectif (III, p. 87, cor. 2), l’endomorphisme $\wedge^pu$ appartient à End$^f_A(\wedge^pE)$ (III, p. 80, prop. 6) et il est nul dès que $p$ est assez grand. L’ensemble $1_E+$ End$^f_A(E)$ est stable par composition. On définit une application det de $1_E+$ End$^f_A(E)$ dans A en posant
 
 det(1$_E+u) =\sum_{p\geqslant 0}$ Tr$\wedge^pu$,
 

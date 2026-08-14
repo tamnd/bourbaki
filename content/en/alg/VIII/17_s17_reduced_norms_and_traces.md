@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: 9be3c77e6f5c31294407dc9647d4fa71a803859fd5dc1416e380eac0a7927ed2
+content_sha256: 292f6683d9b5d2ec22b09033d69bf9491c7fa8bc745995ea39ed7de776d30f8e
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -47,11 +47,7 @@ In this section, K is a commutative field and A a central simple K-algebra of fi
 
 ### 1. Complements on Characteristic Polynomials
 
-Let L be a commutative ring and M a free L-module of finite rank $m$. If $u$ is an endomorphism of M and $r$ a natural number, then we denote by $c_r(u)$ the
-
-trace of the endomorphism $\wedge^r(u)$ of the free L-module $\wedge^r(M)$. In particular,
-
-we have
+Let L be a commutative ring and M a free L-module of finite rank $m$. If $u$ is an endomorphism of M and $r$ a natural number, then we denote by $c_r(u)$ the trace of the endomorphism $\wedge^r(u)$ of the free L-module $\wedge^r(M)$. In particular, we have
 
 (1) $c_0(u) = 1,c_1(u) =$ Tr($u$)$,c_m(u) =$ det($u$),
 
@@ -67,9 +63,15 @@ $$
 
 Let L be a commutative ring, M a free L-module of finite rank $m\geqslant 1$, and $u$ an endomorphism of M. There exists a unique endomorphism $\widetilde{u}$ of M satisfying the relation
 
-(3) $\widetilde{u}(x)\wedge w=x\wedge \wedge^{m-1}(u)(w)$ for $x\in M$ and $w\in \wedge^{m-1}(M)$. Moreover, we have the relations
+$$
+\widetilde{u}(x)\wedge w=x\wedge \wedge^{m-1}(u)(w) \tag{3}
+$$
 
-(4) $u\circ \widetilde{u}=\widetilde{u}\circ u=$ det($u$)$_M$, (5) det($\widetilde{u}$) $=$ det($u$)$^{m-1}$,
+for $x\in M$ and $w\in \wedge^{m-1}(M)$. Moreover, we have the relations
+
+(4) $u\circ \widetilde{u}=\widetilde{u}\circ u=$ det($u$)$_M$,
+
+(5) det($\widetilde{u}$) $=$ det($u$)$^{m-1}$,
 
 $$
 \widetilde{u}=\sum^{m-1}_{r=0}(-1)^rc_{m-1-r}(u)u^r \tag{6}
@@ -77,19 +79,9 @@ $$
 
 #### Lemma 1 {#alg-viii-s17-lem-1 .statement tag=00KE}
 
-Let $p$ be an integer such that $0\leqslant p\leqslant m$. For any $w$ in $\wedge^p(M)$, let $h_p(w)$ be the linear mapping $w'\mapsto w\wedge w'$ from $\wedge^{m-p}(M)$ to $\wedge^m(M)$. The linear mapping $h_p:w\mapsto h_p(w)$ from $\wedge^p(M)$ to Hom$_L(\wedge^{m-p}(M),\wedge^m(M))$ is
+Let $p$ be an integer such that $0\leqslant p\leqslant m$. For any $w$ in $\wedge^p(M)$, let $h_p(w)$ be the linear mapping $w'\mapsto w\wedge w'$ from $\wedge^{m-p}(M)$ to $\wedge^m(M)$. The linear mapping $h_p:w\mapsto h_p(w)$ from $\wedge^p(M)$ to Hom$_L(\wedge^{m-p}(M),\wedge^m(M))$ is an isomorphism.
 
-an isomorphism.
-
-Let $(e_i)_{i\in I}$ be a basis of M; we endow the set I with a total order. For any subset J of I, set $e_J=e_{i_1}\wedge  \cdots  \wedge e_{i_r}$, where $(i_1, . . . , i_r)$ is the sequence
-
-of elements of J in increasing order. The L-module $\wedge^{m-p}(M)$ admits as a
-
-basis the elements $e_S$, where S runs through the set of subsets of I with $m-p$
-
-elements; $\wedge^m(M)$ has $\{e_I\}$ as a basis. Consequently, there exists a basis of Hom$_L(\wedge^{m-p}(M),\wedge^m(M))$ consisting of linear mappings $e^*_J$ characterized by
-
-the formula
+Let $(e_i)_{i\in I}$ be a basis of M; we endow the set I with a total order. For any subset J of I, set $e_J=e_{i_1}\wedge  \cdots  \wedge e_{i_r}$, where $(i_1, . . . , i_r)$ is the sequence of elements of J in increasing order. The L-module $\wedge^{m-p}(M)$ admits as a basis the elements $e_S$, where S runs through the set of subsets of I with $m-p$ elements; $\wedge^m(M)$ has $\{e_I\}$ as a basis. Consequently, there exists a basis of Hom$_L(\wedge^{m-p}(M),\wedge^m(M))$ consisting of linear mappings $e^*_J$ characterized by the formula
 
 $_*e_I$ if $I = J\cup S$,
 
@@ -99,15 +91,13 @@ $$
 
 0 otherwise ,
 
-where J runs through the set of subsets of I with $p$ elements. It follows from formula (20) of III, §7, No. 8, p. 519 that for every subset J of I with $p$ elements, we have $h_p(e_J)\in  \{e^*_J,-e^*_J\}$; since the elements $e_J$ form a basis
-
-of $\wedge^p$(M), the linear mapping $h_p$ is bijective.
+where J runs through the set of subsets of I with $p$ elements. It follows from formula (20) of III, §7, No. 8, p. 519 that for every subset J of I with $p$ elements, we have $h_p(e_J)\in  \{e^*_J,-e^*_J\}$; since the elements $e_J$ form a basis of $\wedge^p$(M), the linear mapping $h_p$ is bijective.
 
 Let us now prove Proposition 1. Let $u$ and $\widetilde{u}$ be endomorphisms of M. Relation (3) is equivalent to
 
-(8) $h_1\circ \widetilde{u}=$ Hom($\wedge^{m-1}(u)\cdot 1\wedge^{^m}_{(M)}$)$\circ h_1$; the mapping $h_1$ is an isomorphism from M to Hom$_L(\wedge^{m-1}(M),\wedge^m(M))$ by
+(8) $h_1\circ \widetilde{u}=$ Hom($\wedge^{m-1}(u)\cdot 1\wedge^{^m}_{(M)}$)$\circ h_1$;
 
-Lemma 1. Consequently, for every endomorphism $u$ of M, there exists a unique endomorphism $\widetilde{u}$ of M satisfying relation (3).
+the mapping $h_1$ is an isomorphism from M to Hom$_L(\wedge^{m-1}(M),\wedge^m(M))$ by Lemma 1. Consequently, for every endomorphism $u$ of M, there exists a unique endomorphism $\widetilde{u}$ of M satisfying relation (3).
 
 Let $x_1, . . . , x_m$ be elements of M. Let us replace $x$ with $u(x_1)$ and $w$ with $x_2\wedge  \cdots  \wedge x_m$ in (3); we obtain
 

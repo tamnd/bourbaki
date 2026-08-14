@@ -14,13 +14,13 @@ pdf_pages: 0478-0479
 extraction: native
 statements: 3
 exercises: 0
-content_sha256: bd75ad96ae6155f1b433a2ca0c3840bb5382fe5cec2b6bd721157b958f597a28
+content_sha256: 892018a144437dae0015d8fc958e20a935b4f7d68c23fe5239889ec61d23cda0
 translated_from: content/en/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md
 source_content_sha256: 62a239c325be0cac2b5d6dfbb28a3bbcfbf54f3af50c5736bc78715892302599
 translation_model: gpt-5-6
 translation_run: translate-vi-ab0abfcc
-glossary_version: 5
-glossary_terms_sha256: d8bb037432de8f3d884d8d49307921c09807c7e42fc5f11238c683e2669ff149
+glossary_version: 14
+glossary_terms_sha256: 3fce4e7c40341565f72f952662c80f7362c9567fc13984f46c7c1284f0441493
 prompt_sha256: 7816e1600c72058e14ecd8b330e9a16e059e370f96fa366ad5fc8f147bcd8dd9
 ---
 
@@ -28,7 +28,7 @@ prompt_sha256: 7816e1600c72058e14ecd8b330e9a16e059e370f96fa366ad5fc8f147bcd8dd9
 
 #### Định lý 1 {#alg-viii-a3-thm-1 .statement tag=00QM}
 
-Cho A là một miền nguyên, K là trường các phân thức của nó, và L là một đại số giao hoán K. Giả sử đại số trên A L được sinh bởi hữu hạn phần tử và L là một trường.
+Cho A là một miền nguyên, K là trường các phân thức của nó, và L là một đại số giao hoán trên K. Giả sử đại số trên A L được sinh bởi hữu hạn phần tử và L là một trường.
 
 a) Bậc của L trên K là hữu hạn.
 
@@ -38,17 +38,17 @@ Cho S là một tập con sinh của đại số trên A L. Ta dùng quy nạp t
 
 Trước hết, giả sử các phần tử của S đều đại số trên K. Khi đó bậc của L trên K là hữu hạn (V, §3, No. 2, p. 18, Định lý 2). Gọi $(e_i)_{i\in I}$ là một cơ sở của L trên K. Tồn tại một phần tử khác không $a$ của A sao cho các tọa độ theo cơ sở này của các phần tử của S, của phần tử 1, và của các phần tử $e_ie_j$ với $i,j$ thuộc I đều thuộc $A[a^{-1}]$. Tập các tổ hợp tuyến tính $\sum_{i\in I}a_ie_i$ với $a_i\in A[a^{-1}]$ với mọi $i$ khi đó là một vành con của L. Theo phép dựng, nó chứa A và S, do đó bằng L. Đặc biệt, nó chứa $Ke_1$, nên K bằng $A[a^{-1}]$.
 
-Bây giờ giả sử một phần tử $s$ của S là siêu việt trên K. Ký hiệu E là trường các phân thức của vành $A[s]$. Đại số $A[s$]-L được sinh bởi S $-\{s\}$. Theo giả thiết quy nạp, tồn tại một đa thức $P\in A[X]$ khác không sao cho E bằng $A[s][P(s)^{-1}]$. Cho K là một bao đóng đại số của K (V, §4, No. 3, p. 23, Định lý 2). Vì trường K là vô hạn (V, §4, No. 1, p. 20, Mệnh đề 3), tồn tại một phần tử $x$ của K sao cho $P(x)\not= 0$. Gọi $\varphi : E\rightarrow K$ là đồng cấu duy nhất từ đại số K $E = A[s][P(s)^{-1}]$ vào đại số K K gửi $s$ vào $x$. Điều này là vô lý vì E là một mở rộng siêu việt của K và K là một mở rộng đại số của K. Điều này hoàn tất chứng minh định lý.
+Bây giờ giả sử rằng một phần tử $s$ của S là siêu việt trên K. Ký hiệu E là trường các phân thức của vành $A[s]$. Đại số $A[s$]-trên L được sinh bởi S $-\{s\}$. Theo giả thiết quy nạp, tồn tại một đa thức khác không $P\in A[X]$ sao cho E bằng $A[s][P(s)^{-1}]$. Cho K là một bao đóng đại số của K (V, §4, No. 3, p. 23, Định lý 2). Vì trường K là vô hạn (V, §4, No. 1, p. 20, Mệnh đề 3), tồn tại một phần tử $x$ của K sao cho $P(x)\not= 0$. Gọi $\varphi : E\rightarrow K$ là đồng cấu duy nhất từ đại số trên K $E = A[s][P(s)^{-1}]$ vào đại số trên K K gửi $s$ tới $x$. Điều này là vô lý vì E là một mở rộng siêu việt của K và K là một mở rộng đại số của K. Chứng minh của định lý được hoàn tất.
 
 #### Hệ quả 1 {#alg-viii-a3-thm-1-cor-1 .statement tag=00RV}
 
-Cho K là một trường giao hoán, A là một đại số giao hoán K được sinh bởi hữu hạn phần tử, và $\mathfrak{m}$ là một iđêan cực đại của A.
+Cho K là một trường giao hoán, A là một đại số giao hoán trên K được sinh bởi hữu hạn phần tử, và $\mathfrak{m}$ là một iđêan cực đại của A.
 
 a) Bậc của $A/\mathfrak{m}$ trên K là hữu hạn.
 
-b) Cho Ω là một mở rộng đóng đại số của K. Tồn tại một đồng cấu đại số K từ A vào Ω có hạt nhân $\mathfrak{m}$.
+b) Cho Ω là một mở rộng đóng đại số của K. Tồn tại một đồng cấu đại số trên K từ A vào Ω có hạt nhân $\mathfrak{m}$.
 
-Đại số K $A/\mathfrak{m}$ được sinh bởi hữu hạn phần tử, và $A/\mathfrak{m}$ là một trường. Theo Định lý 1, bậc của $A/\mathfrak{m}$ là hữu hạn; mệnh đề a) được suy ra. Mọi mở rộng của K có bậc hữu hạn đều đẳng cấu với một mở rộng con của Ω (V, §4, No. 1, p. 20, Định lý 1); điều này cho b).
+Đại số trên K $A/\mathfrak{m}$ được sinh bởi hữu hạn phần tử, và $A/\mathfrak{m}$ là một trường. Theo Định lý 1, bậc của $A/\mathfrak{m}$ là hữu hạn; mệnh đề a) được suy ra. Mọi mở rộng của K có bậc hữu hạn đều đẳng cấu với một mở rộng con của Ω (V, §4, No. 1, p. 20, Định lý 1); điều này cho b).
 
 #### Hệ quả 2 {#alg-viii-a3-thm-1-cor-2 .statement tag=00QN}
 
@@ -58,4 +58,4 @@ Cho K là một trường giao hoán, $n$ là một số tự nhiên, $(P_i)_{i\
 
 (ii) Tồn tại một họ $(Q_i)_{i\in I}$, có giá hữu hạn, gồm các phần tử của $K[X_1, . . . ,X_n]$ sao cho $\sum_{i\in I}P_iQ_i= 1$.
 
-Gọi A là vành $K[X_1, . . . ,X_n]$ và $\mathfrak{a}$ là iđêan sinh bởi đa thức $P_i$. Điều kiện (i) có nghĩa là không có đồng cấu đại số K từ $A/\mathfrak{a}$ vào Ω. Nếu điều kiện này được thỏa mãn thì theo Hệ quả 1, vành $A/\mathfrak{a}$ không có iđêan cực đại nào và do đó là không, và 1 thuộc $\mathfrak{a}$. Điều này chứng minh rằng (i) kéo theo (ii). Hàm ý (ii) $\Rightarrow$ (i) là hiển nhiên.
+Quy ước A là vành $K[X_1, . . . ,X_n]$ và $\mathfrak{a}$ là iđêan sinh bởi đa thức $P_i$. Điều kiện (i) có nghĩa là không có đồng cấu đại số trên K nào từ $A/\mathfrak{a}$ vào Ω. Nếu điều kiện này được thỏa mãn thì theo Hệ quả 1, vành $A/\mathfrak{a}$ không có iđêan cực đại nào và do đó là không, và 1 thuộc $\mathfrak{a}$. Điều này chứng minh rằng (i) kéo theo (ii). Hàm ý (ii) $\Rightarrow$ (i) là hiển nhiên.

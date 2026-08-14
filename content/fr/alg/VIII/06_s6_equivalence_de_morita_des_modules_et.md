@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 41
 exercises: 8
-content_sha256: 4aa7786302514151077513c0454d1f5b21ea907a51ecab0fddd293881cf316ca
+content_sha256: 53bc6c3cdaf211eab12b0482fa2f8630171f7d9615eef75d577846d5cd4dadea
 ---
 
 ## § 6. ÉQUIVALENCE DE MORITA DES MODULES ET DES ALGÈBRES
@@ -434,11 +434,17 @@ $\bigcap_{i\in I}M_i$ Borne inférieure inf$_{i\in I}M_i$
 
 $\sum_{i\in I}M_i$ Borne supérieure sup$_{i\in I}M_i$
 
-Sous-modules supplémentaires inf(M$',M'') = 0$, sup(M$',M'') = M$ Sous-module simple de M Élément minimal de D(M) $-\{0\}$ Sous-module maximal de M Élément maximal de D(M)$-\{M\}$
+Sous-modules supplémentaires inf(M$',M'') = 0$, sup(M$',M'') = M$
+
+Sous-module simple de M Élément minimal de D(M) $-\{0\}$
+
+Sous-module maximal de M Élément maximal de D(M)$-\{M\}$
 
 Socle $\mathscr{S}(M)$ de M Borne supérieure dans D(M) de l’ensemble
 
-des éléments minimaux de D(M) $-\{0\}$ $*$ Radical $\mathfrak{R}(M)$ de M (VIII, p. 147$)*$ Borne inférieure dans D(M) de l’ensemble
+des éléments minimaux de D(M) $-\{0\}$
+
+$*$ Radical $\mathfrak{R}(M)$ de M (VIII, p. 147$)*$ Borne inférieure dans D(M) de l’ensemble
 
 des éléments maximaux de D(M)$-\{M\}$
 
