@@ -1,6 +1,6 @@
 {
   "version": "dev",
-  "commit": "3abd3e63c36a7bf14dba0bbb98c49644c9888415",
+  "commit": "3c76776ca89a99ce97899b0932ca5b4ca68bffe9",
   "root": "/Users/apple/github/tamnd/bourbaki",
   "langs": [
     "en",
@@ -8,7 +8,7 @@
     "vi"
   ],
   "hard": 0,
-  "soft": 278,
+  "soft": 271,
   "checks": [
     {
       "id": "F01",
@@ -170,7 +170,7 @@
       "group": "publication",
       "hard": false,
       "title": "every math span parses under KaTeX",
-      "found": 74
+      "found": 67
     },
     {
       "id": "R01",
@@ -1192,14 +1192,6 @@
       "check": "P04",
       "group": "publication",
       "hard": false,
-      "file": "content/en/lie/IX/exercises/s7/03.md",
-      "line": 25,
-      "message": "KaTeX will not set it: Expected group after '^' at position 5: \\tau^̲: \\tau^"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
       "file": "content/en/lie/IX/exercises/s7/04.md",
       "line": 23,
       "message": "KaTeX will not set it: Double superscript at position 20: …^n_{\\partial x}^̲{\\partial^2}_{\\…: \\sum^n_{\\partial x}^{\\partial^2}_{\\partial y}^P"
@@ -1249,22 +1241,6 @@
       "group": "publication",
       "hard": false,
       "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
-      "line": 287,
-      "message": "KaTeX will not set it: Expected group after '_' at position 13: \\mathfrak{a}_̲: \\mathfrak{a}_"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
-      "line": 349,
-      "message": "KaTeX will not set it: Expected group after '_' at position 9: \\mu\\in Q_̲: \\mu\\in Q_"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
       "line": 499,
       "message": "KaTeX will not set it: Double subscript at position 82: …},\\varphi (X_-'_̲{\\alpha}) =X_{-…: \\varphi (X_{\\alpha}') =X_{\\alpha},\\varphi (H_{\\alp…"
     },
@@ -1291,14 +1267,6 @@
       "file": "content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md",
       "line": 181,
       "message": "KaTeX will not set it: Double superscript at position 32: …a_i) =t^m_{i^i}^̲{n_i}=t^m_i= (\\…: \\chi (n_i\\lambda_i) =t^m_{i^i}^{n_i}=t^m_i= (\\psi^…"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/VIII/06_s6_modules_over_a_split_semi_simple_lie.md",
-      "line": 81,
-      "message": "KaTeX will not set it: Expected group after '_' at position 13: \\mathfrak{n}_̲: \\mathfrak{n}_"
     },
     {
       "check": "P04",
@@ -1379,30 +1347,6 @@
       "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
       "line": 519,
       "message": "KaTeX will not set it: Double superscript at position 9: \n1\\sum^r'̲'\n: 1\\sum^r''"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
-      "line": 815,
-      "message": "KaTeX will not set it: Expected group after '_' at position 2: X_̲: X_"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
-      "line": 861,
-      "message": "KaTeX will not set it: Expected group after '_' at position 2: X_̲: X_"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/VIII/exercises/s13/19.md",
-      "line": 33,
-      "message": "KaTeX will not set it: Expected group after '_' at position 2: X_̲: X_"
     },
     {
       "check": "P04",

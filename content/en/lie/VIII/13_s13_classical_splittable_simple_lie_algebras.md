@@ -29,7 +29,7 @@ subsections:
       pdf_page: 219
 statements: 2
 exercises: 19
-content_sha256: ed1457f69c0afb4030e84f61ce6ffb0da2f4ea41ea0d739b93a267cd58c46f87
+content_sha256: ab33bc75658c091e24f715daf5acc36ee9d20749319686322856f42027f6fa81
 ---
 
 ## § 13. CLASSICAL SPLITTABLE SIMPLE LIE ALGEBRAS
@@ -812,7 +812,7 @@ $$
 X_+u=(\sum_{i=1}^le^*_i\wedge e^*_{-i})\wedge u
 $$
 
-To calculate $X_+$ and $X_$-,introduce a basis of $\bigwedge V$ in the following way: for any triplet $(A,B,C)$ formed by three disjoint subsets of $1, l$, put
+To calculate $X_+$ and $X_-$, introduce a basis of $\bigwedge V$ in the following way: for any triplet $(A,B,C)$ formed by three disjoint subsets of $1, l$, put
 
 $$
 e_{A,B,C}=e_{a_1}\wedge  \cdots  \wedge e_{a_m}\wedge e_{-b_1}\wedge  \cdots  \wedge e_{-b_n}\wedge e_{c_1}\wedge e_{-c_1}\wedge  \cdots  \wedge e_{c_p}\wedge e_{-c_p}
@@ -858,7 +858,7 @@ $$
 
 This shows in particular that dim $E_r=(^{2l}_r)-(_{r-2}^{2l})$ for $0\leq r\leq l$.
 
-On the other hand, the very definition of $\mathfrak{s}\mathfrak{p}(\Psi )$ shows that $\Gamma^*$ is annihilated by the second exterior power of the dual of$\bigwedge\sigma$. Similarly, $\Gamma$ is annihilated by $^2\sigma$. We deduce immediately that$\bigwedge X_+$ and $X_$-,and hence also $H$, commute with the endomorphisms $\sigma \bigwedge(g)$ for $g\in \mathfrak{g}$. Consequently, the subspaces $E\bigwedge_r$ for $0\leq r\leq l$ are stable under $^r\sigma$; we shall show that the restriction of
+On the other hand, the very definition of $\mathfrak{s}\mathfrak{p}(\Psi )$ shows that $\Gamma^*$ is annihilated by the second exterior power of the dual of$\bigwedge\sigma$. Similarly, $\Gamma$ is annihilated by $^2\sigma$. We deduce immediately that$\bigwedge X_+$ and $X_-$, and hence also $H$, commute with the endomorphisms $\sigma \bigwedge(g)$ for $g\in \mathfrak{g}$. Consequently, the subspaces $E\bigwedge_r$ for $0\leq r\leq l$ are stable under $^r\sigma$; we shall show that the restriction of
 
 $^r\sigma$ to $E_r$ is a fundamental representation $\sigma \bigwedge_r$ of weight$_rr(1\leq r\leq l)$.
 

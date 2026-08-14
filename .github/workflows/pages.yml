@@ -64,18 +64,19 @@ jobs:
       # the exponent written across it. That 51 is the 31 and the 20 below.
       #
       # en/lie entered at 68, down from the 95 it first measured once a prime
-      # was never read as an index again. What is left of it, and most of what
-      # is left of the other two, is double superscripts and double subscripts,
-      # which are the same fault twice over: the line gathering ran two display
-      # lines together, or set a matrix inline, and the scripts of one landed on
-      # the scripts of the other. The Lie volume has a third shape of it, where
-      # a large operator and the limits written under it were gathered onto
-      # different lines.
+      # was never read as an index again, and 68 to 56 once a minus that is an
+      # index stopped being read as the hyphen of a compound word. What is left
+      # of it, and most of what is left of the other two, is double superscripts
+      # and double subscripts, which are the same fault twice over: the line
+      # gathering ran two display lines together, or set a matrix inline, and
+      # the scripts of one landed on the scripts of the other. The Lie volume
+      # has a third shape of it, where a large operator and the limits written
+      # under it were gathered onto different lines.
       - name: publish -check
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=31,fr/alg=20,en/lie=68
+        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=31,fr/alg=20,en/lie=56
 
       # Where Pages will serve this from, asked rather than typed, so the links
       # are right under tamnd.github.io/bourbaki and under a custom domain both.

@@ -876,7 +876,7 @@ books:
               statements: 23
               exercises: 7
               extraction: native
-              content_sha256: 77d8021aa47e06dd15ee227d3a330861db6c273c951c4886c1367658405f136f
+              content_sha256: c46cb8f57452a0e43d115c28dbe94d471784a55e78c165fe6f682374eff091bf
             - kind: section
               section: 5
               title: Automorphisms of a semi-simple Lie algebra
@@ -902,7 +902,7 @@ books:
               statements: 17
               exercises: 5
               extraction: native
-              content_sha256: ae93e953b3448cf4eeb0f4f3fb892dbe9898aed4400e5c8059189b26c10e49d6
+              content_sha256: 1bd375264bc8ed6aed42c2c23b0811306e9eaa94dc6c31aadeffa7d3adc3cee0
             - kind: section
               section: 7
               title: Finite dimensional modules over a split semi-simple Lie algebra
@@ -993,7 +993,7 @@ books:
               statements: 2
               exercises: 19
               extraction: native+ocr
-              content_sha256: ed1457f69c0afb4030e84f61ce6ffb0da2f4ea41ea0d739b93a267cd58c46f87
+              content_sha256: ab33bc75658c091e24f715daf5acc36ee9d20749319686322856f42027f6fa81
         - chapter: IX
           title: COMPACT REAL LIE GROUPS
           sections:
