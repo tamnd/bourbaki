@@ -45,7 +45,7 @@ subsections:
       pdf_page: 195
 statements: 34
 exercises: 0
-content_sha256: efd74b9aa15b548c76be727e8a11a8a2659fae0f4839ce31d909fd0d601c24d2
+content_sha256: 2b4c8cae6b30fd6f0e4e76ebbdd597f2cfde345c92de3b0f38338a09b496bb64
 ---
 
 ## § 12. CHEVALLEY ORDERS
@@ -67,10 +67,12 @@ induced by $\gamma$ and $c$ give $\mathscr{V}$ the structure of a $\mathbf{Z}$-b
 Let A be a unital $k$-algebra, $x\in A,d\in k,n\in \mathbf{N}$. Put
 
 $$
-x(x-d). . .(x-d(n-1))^n\prod^{-1}
+x(x-d). . .(x-d(n-1))^{n-1}
 $$
 
-$x^{(n,d)}=$ = $(x-id)/(i+ 1)$. (1)
+$$
+x^{(n,d)}==\prod(x-id)/(i+ 1) \tag{1}
+$$
 
 $n$!
 
@@ -138,9 +140,9 @@ hence formula (4) for $n+ 1$.
 
 Let $\mathfrak{g}$ be a finite dimensional $\mathbf{Q}$-Lie algebra, $U(\mathfrak{g})$ its enveloping bigebra. If I is a totally ordered set, $\mathbf{x}= (x_i)_{i\in I}$ a family of elements of $\mathfrak{g}$, and $\mathbf{n}=$ $(n_i)_{i\in I}\in \mathbf{N}^{(I)}$ a multi-index, put
 
-$(\mathbf{n})\prod xni^i$
+$(\mathbf{n})xni^i$
 
-$\mathbf{x}$ =, (5)
+$\mathbf{x}=\prod$, (5)
 
 $n_i$!
 
@@ -268,7 +270,7 @@ $$
 
 where $\mathbf{n}= (n_1, . . . , n_r)$ belongs to $\mathbf{N}^r$, form a basis of the $\mathbf{Z}$-module $(^{\mathscr{V}}_{\mathbf{Z}})$.
 
-For $m\in \mathbf{N}$, put $\mathbf{S}_m(V) =_i\sum_{\leq m}\mathbf{S}^i$(V), $\mathbf{S}_m(\mathscr{V}) =_i\sum_{\leq m}\mathbf{S}^i(\mathscr{V})$. By Algebra, Chap. IV, §5, no. 9, Prop. 15 and Remark,
+For $m\in \mathbf{N}$, put $\mathbf{S}_m(V) =\sum_{i\leq m}\mathbf{S}^i$(V), $\mathbf{S}_m(\mathscr{V}) =\sum_{i\leq m}\mathbf{S}^i(\mathscr{V})$. By Algebra, Chap. IV, §5, no. 9, Prop. 15 and Remark,
 
 $(\mathscr{V})$ 1
 
@@ -278,13 +280,13 @@ $$
 
 $\mathbf{Z}m$!
 
-so $(^{\mathscr{V}}_{\mathbf{Z}})\cap V =\mathscr{V}$. Since $\mathbf{S}_m(\mathscr{V})$ is a lattice in $\mathbf{S}_m$(V), $\mathbf{S}_m(V)\cap (_{\mathbf{Z}}^{\mathscr{V}})$ is also a lattice in $\mathbf{S}_m(V)$. On the other hand, $\mathbf{S}_m(V)\cap (^{\mathscr{V}}_{\mathbf{Z}})$ is a direct factor of $\mathbf{S}_{m+1}(V)\cap (_{\mathbf{Z}}^{\mathscr{V}})$ (since the quotient is torsion-free), hence it admits a complement which is a free $\mathbf{Z}$-module. It follows that $(^{\mathscr{V}}_{\mathbf{Z}})$ is a free $\mathbf{Z}$-module. It is clear that this is a unital order in the algebra$()\mathbf{S}(V)$. Let $(u_n)_{n\in\mathbf{N}}$ be a basis of the $\mathbf{Z}$-module $^{\mathscr{V}}_{\mathbf{Z}}$ . This is also a basis of the $\mathbf{Q}$-module $\mathbf{S}(V)$ and, for all
+so $(^{\mathscr{V}}_{\mathbf{Z}})\cap V =\mathscr{V}$. Since $\mathbf{S}_m(\mathscr{V})$ is a lattice in $\mathbf{S}_m$(V), $\mathbf{S}_m(V)\cap (_{\mathbf{Z}}^{\mathscr{V}})$ is also a lattice in $\mathbf{S}_m(V)$. On the other hand, $\mathbf{S}_m(V)\cap (^{\mathscr{V}}_{\mathbf{Z}})$ is a direct factor of $\mathbf{S}_{m+1}(V)\cap (_{\mathbf{Z}}^{\mathscr{V}})$ (since the quotient is torsion-free), hence it admits a complement which is a free $\mathbf{Z}$-module. It follows that $(^{\mathscr{V}}_{\mathbf{Z}})$ is a free $\mathbf{Z}$-module. It is clear that this is a unital order in the algebra $\mathbf{S}(V)$. Let $(u_n)_{n\in\mathbf{N}}$ be a basis of the $\mathbf{Z}$-module $(^{\mathscr{V}}_{\mathbf{Z}})$. This is also a basis of the $\mathbf{Q}$-module $\mathbf{S}(V)$ and, for all
 
 $$
 \varphi \in \mathbf{S}(V\times V) =\mathbf{S}(V)\otimes_{\mathbf{Q}}\mathbf{S}(V)
 $$
 
-there exists a unique sequence $(v_n)$ of elements of $\mathbf{S}(V)$ such that $\varphi =\sum u_n\otimes v_n$. As above, identify$()\mathbf{S}(V)$ with $A(V^*)$ and $\mathbf{S}(V)\otimes \mathbf{S}(V)$ with $A(V(^*\times )V^*)$. If $\varphi \in^{\mathscr{V}\times\mathscr{V}}_{\mathbf{Z}}$ , the polynomial function $x \rightarrow \varphi (x, y)$ belongs to $^{\mathscr{V}}_{\mathbf{Z}}$ for all $y\in \mathscr{V}(^*$. It follows that$)v_n(y)\in \mathbf{Z}$ for all $n$ and all$(y)\in \mathscr{V}^*($, in other words that$)()$ $v_n\in^{\mathscr{V}}_{\mathbf{Z}}$ . This proves that the coproduct maps $^{\mathscr{V}}_{\mathbf{Z}}$ to $_{\mathbf{Z}}^{\mathscr{V}}\otimes_{\mathbf{Z}\mathbf{Z}}^{\mathscr{V}}$ . If $h\in \mathscr{V}$ and $n\in \mathbf{N}$, then $(_n^h)$ maps $u\in \mathscr{V}^*$ to the integer $(^{u(h)}_n)$, so $(^h_n)\in (_{\mathbf{Z}}^{\mathscr{V}})$. Assertion (iii) is now obtained by applying Th. 1 to the commutative Lie algebra V, and (ii) follows.
+there exists a unique sequence $(v_n)$ of elements of $\mathbf{S}(V)$ such that $\varphi =\sum u_n\otimes v_n$. As above, identify $\mathbf{S}(V)$ with $A(V^*)$ and $\mathbf{S}(V)\otimes \mathbf{S}(V)$ with $A(V^*\times V^*)$. If $\varphi \in (^{\mathscr{V}\times\mathscr{V}}_{\mathbf{Z}})$, the polynomial function $x \rightarrow \varphi (x, y)$ belongs to $(^{\mathscr{V}}_{\mathbf{Z}})$ for all $y\in \mathscr{V}^*$. It follows that $v_n(y)\in \mathbf{Z}$ for all $n$ and all $y\in \mathscr{V}^*$, in other words that $v_n\in (^{\mathscr{V}}_{\mathbf{Z}})$. This proves that the coproduct maps $(^{\mathscr{V}}_{\mathbf{Z}})$ to $(_{\mathbf{Z}}^{\mathscr{V}})\otimes_{\mathbf{Z}}(_{\mathbf{Z}}^{\mathscr{V}})$. If $h\in \mathscr{V}$ and $n\in \mathbf{N}$, then $(_n^h)$ maps $u\in \mathscr{V}^*$ to the integer $(^{u(h)}_n)$, so $(^h_n)\in (_{\mathbf{Z}}^{\mathscr{V}})$. Assertion (iii) is now obtained by applying Th. 1 to the commutative Lie algebra V, and (ii) follows.
 
 #### Corollary {#lie-viii-s12-n4-cor-1 .statement tag=017Z}
 
@@ -300,9 +302,9 @@ In this number, A denotes a unital associative algebra. If $x\in A$, we write ad
 
 If $x, y\in A$ and $n\in \mathbf{N}$,
 
-(ad $x)^n\sum x^px^q\sum$
+(ad $x)^nx^px^q$
 
-$y=(-1)^qy$ = $(-1)^qx^{(p)}yx^{(q)}$. (11)
+$y=\sum(-1)^qy$ = $\sum(-1)^qx^{(p)}yx^{(q)}$. (11)
 
 $n$! $p$! $q$!
 
@@ -364,7 +366,7 @@ $$
 
 $p\geq 0$
 
-(ii) Let $A'$ be the$()\mathbf{Z}$-subalgebra of A generated by the $x^{(m)}$ and the $y^{(m)}$ for $m\in \mathbf{N}$. Then $^h_n\in A'$ for all $n\in \mathbf{N}$.
+(ii) Let $A'$ be the $\mathbf{Z}$-subalgebra of A generated by the $x^{(m)}$ and the $y^{(m)}$ for $m\in \mathbf{N}$. Then $(^h_n)\in A'$ for all $n\in \mathbf{N}$.
 
 Formula (16) can be written in the equivalent form
 
@@ -385,10 +387,12 @@ This is trivial for $m= 0$. We argue by induction on $m$. From $(17_m)$, we obta
 $(m+$ 1)(ad $x^{(n)})y^{(m+1)}=$ (ad $x^{(n)})y^{(m)}.y+y^{(m)}$.(ad $x^{(n)})y$ (18)
 
 $$
-\sum_{(m-p)}(m+n-p-1-h)_{(n-p)(m)}-
+_{(m-p)}(m+n-p-1-h)_{(n-p)(m)}-
 $$
 
-= $yxy+y(n-1-h)x^{(n1)}$
+$$
+=\sum yxy+y(n-1-h)x^{(n1)}
+$$
 
 $$
 p
@@ -409,21 +413,21 @@ xy
 $$
 
 $$
-p()
+p
 $$
 
 $$
-m+n-p-1-h_{(n-p)}-_-
+(m+n-p-1-h)_{(n-p)}-_-
 $$
 
 = $(yx+ (n-p-1-h)x^{(np1)})$
 
 $$
-(p)
+p
 $$
 
 $$
-m+n-p+ 1-h_{(n-p)}
+(m+n-p+ 1-h)_{(n-p)}
 $$
 
 $$
@@ -431,11 +435,11 @@ $$
 $$
 
 $$
-p()
+p
 $$
 
 $$
-m+n-p-1-h-_-
+(m+n-p-1-h)_{--}
 $$
 
 + $(n-p-1-h)x^{(np1)}$.
@@ -449,20 +453,12 @@ Inserting this into (18), we obtain
 $(m+$ 1)(ad $x^{(n)})y^{(m+1)}$
 
 $$
-\sum_-(m+n-p+ 1-h)_-
-$$
-
-= $(m-p+ 1)y^{(mp+1)}x^{(np)}$
-
-$$
-p
+_-(m+n-p+ 1-h)_-
 $$
 
 $$
-\sum^{p\geq 1}_-(m+n-p-1-h)_{--}
+=\sum(m-p+ 1)y^{(mp+1)}x^{(np)}
 $$
-
-+ $y^{(mp)}(n-p-1-h)x^{(np1)}$
 
 $$
 p
@@ -471,24 +467,38 @@ $$
 $p\geq 1$
 
 $$
-+\sum y^{(m)}(n-1-h)x^{(n-1)}()
+_-(m+n-p-1-h)_{--}
 $$
 
-$$
-_-m+n-p+ 1-h_-
-$$
-
-= $(m-p+ 1)y^{(mp+1)}x^{(np)}$
+$+\sum y^{(mp)}(n-p-1-h)x^{(np1)}$
 
 $$
 p
 $$
 
+$p\geq 1$
+
 $$
-\sum^{p\geq 1}_{(m-p)}(m+n-p-1-h)_{--}
++y^{(m)}(n-1-h)x^{(n-1)}
 $$
 
-+ $y(n-p-1-h)x^{(np1)}$.
+$$
+_-(m+n-p+ 1-h)_-
+$$
+
+$=\sum(m-p+ 1)y^{(mp+1)}x^{(np)}$
+
+$$
+p
+$$
+
+$p\geq 1$
+
+$$
+_{(m-p)}(m+n-p-1-h)_{--}
+$$
+
+$+\sum y(n-p-1-h)x^{(np1)}$.
 
 $$
 p
@@ -538,9 +548,9 @@ $$
 pp
 $$
 
-Inserting this into (19), we obtain $(17()_{m+1})$, hence (i).
+Inserting this into (19), we obtain $(17_{m+1})$, hence (i).
 
-Assume that $^h_p\in A'$ for $p < n$. Then, for all $P\in \mathbf{Q}[T]$ of degree $< n$ such that $P(\mathbf{Z})\subset \mathbf{Z}$, we have $P(h)\in A'$ (no. 4, Cor. of Prop. 2). Hence, in view of (16) with $m=n$,
+Assume that $(^h_p)\in A'$ for $p < n$. Then, for all $P\in \mathbf{Q}[T]$ of degree $< n$ such that $P(\mathbf{Z})\subset \mathbf{Z}$, we have $P(h)\in A'$ (no. 4, Cor. of Prop. 2). Hence, in view of (16) with $m=n$,
 
 $$
 (h)(n-1-h)
@@ -553,10 +563,10 @@ nn
 $$
 
 $$
-\sum^{n-1}_-(2n-p-1-h)_-'
+^{n-1}_-(2n-p-1-h)_-'
 $$
 
-$=-x^{(n)}y^{(n)}+y^{(np)}x^{(np)}\in A$ ;
+$=-x^{(n)}y^{(n)}+\sum y^{(np)}x^{(np)}\in A$ ;
 
 $$
 p
@@ -608,9 +618,9 @@ Denote by $\mathscr{U}_+$ the $\mathbf{Z}$-subalgebra of $U(\mathfrak{n}_+)$ gen
 
 #### Lemma 5 {#lie-viii-s12-lem-5 .statement tag=0187}
 
-(i) $\mathscr{U}_+$ is a lattice in the vector space$\bigoplus U(\mathfrak{n}_+)$.
+(i) $\mathscr{U}_+$ is a lattice in the vector space $U(\mathfrak{n}_+)$.
 
-(ii) For all $\alpha \in B$, we have $\mathscr{U}_+\cap U(\mathfrak{g}^{\alpha}) =_{n\in\mathbf{N}}\mathbf{Z}x^{(n)}_{\alpha}$.
+(ii) For all $\alpha \in B$, we have $\mathscr{U}_+\cap U(\mathfrak{g}^{\alpha}) =\bigoplus_{n\in\mathbf{N}}\mathbf{Z}x^{(n)}_{\alpha}$.
 
 By definition, $\mathscr{U}_+$ is generated as a $\mathbf{Z}$-module by the elements
 
@@ -624,7 +634,7 @@ $$
 
 The monomials of this kind having a given degree $q$ are finite in number, and generate over $\mathbf{Q}$ the homogeneous component of $U(\mathfrak{n}_+)$ of degree $q$. This proves (i).
 
-If $\alpha \in B,\mathscr{U}_+\cap U(\mathfrak{g}^{\alpha})$ is contained in the sum of the homogeneous components of degrees which are multiples of$\sum\alpha$; thus, by the preceding, $\mathscr{U}_+\cap U(\mathfrak{g}^{\alpha})$ is generated by the $x^{(\mathbf{n})}_{\varphi}$ such that $n(i)\varphi (i)\in \mathbf{N}\alpha$, which forces $\varphi (i) =\alpha$ for all $i$ (since B is a basis of R), so
+If $\alpha \in B,\mathscr{U}_+\cap U(\mathfrak{g}^{\alpha})$ is contained in the sum of the homogeneous components of degrees which are multiples of $\alpha$; thus, by the preceding, $\mathscr{U}_+\cap U(\mathfrak{g}^{\alpha})$ is generated by the $x^{(\mathbf{n})}_{\varphi}$ such that $\sum n(i)\varphi (i)\in \mathbf{N}\alpha$, which forces $\varphi (i) =\alpha$ for all $i$ (since B is a basis of R), so
 
 $_{(\mathbf{n})(n(1))(n(r))}(n(1) +\cdots +n(r$))! $_{(n(1)+\cdot \cdot \cdot+n(r))}$
 
@@ -638,7 +648,7 @@ In the remainder of this paragraph, if E and F are $\mathbf{Z}$-submodules of $U
 
 #### Proposition 3 {#lie-viii-s12-prop-3 .statement tag=0188}
 
-Let $\mathscr{H}$ be a permissible lattice in $\mathfrak{h}$. Let $\mathscr{U}_+,\mathscr{U}_-,\mathscr{U}_0$ be the $\mathbf{Z}$-subalgebras of $U(\mathfrak{g})$ generated respectively by the elements$()x_{\alpha}^{(n)}$ $(\alpha \in B,n\in \mathbf{N}),y_{\alpha}^{(n)}(\alpha \in B, n\in \mathbf{N})$, $^h_n(h\in \mathscr{H}, n\in \mathbf{N})$. Let $\mathscr{U}$ be the $\mathbf{Z}$-subalgebra of $U(\mathfrak{g})$ generated by $\mathscr{U}_+,\mathscr{U}_-,\mathscr{U}_0$.
+Let $\mathscr{H}$ be a permissible lattice in $\mathfrak{h}$. Let $\mathscr{U}_+,\mathscr{U}_-,\mathscr{U}_0$ be the $\mathbf{Z}$-subalgebras of $U(\mathfrak{g})$ generated respectively by the elements $x_{\alpha}^{(n)}$ $(\alpha \in B,n\in \mathbf{N}),y_{\alpha}^{(n)}(\alpha \in B, n\in \mathbf{N}),(^h_n)(h\in \mathscr{H}, n\in \mathbf{N})$. Let $\mathscr{U}$ be the $\mathbf{Z}$-subalgebra of $U(\mathfrak{g})$ generated by $\mathscr{U}_+,\mathscr{U}_-,\mathscr{U}_0$.
 
 (i) $\mathscr{U}$ is a biorder in the bigebra $U(\mathfrak{g})$.
 
@@ -722,7 +732,7 @@ $$
 \mathscr{L}.\mathscr{L}\subset \mathscr{U}_-.\mathscr{U}_0.\mathscr{L}\subset \mathscr{U}_-.\mathscr{L}\subset \mathscr{L}
 $$
 
-Thus, $\mathscr{L}$ is a $\mathbf{Z}$-subalgebra of $U(\mathfrak{g})$, so $\mathscr{U}=\mathscr{L}$. If $c$ is the coproduct of $U(\mathfrak{g}),c(\mathscr{U})\subset \mathscr{U}\otimes_{\mathbf{Z}}\mathscr{U}(($(no. 2, Prop. 1). Let$))\gamma$ be the counit of $U(\mathfrak{g})$. Since $\gamma (x^{(n)}_{\alpha}) =\gamma (y^{(n)}_{\alpha}) =\gamma^h_n$ = 0 for $n >0$, we have $\gamma (\mathscr{U})\subset \mathbf{Z}$. This proves (i). On the other hand,
+Thus, $\mathscr{L}$ is a $\mathbf{Z}$-subalgebra of $U(\mathfrak{g})$, so $\mathscr{U}=\mathscr{L}$. If $c$ is the coproduct of $U(\mathfrak{g}),c(\mathscr{U})\subset \mathscr{U}\otimes_{\mathbf{Z}}\mathscr{U}$ (no. 2, Prop. 1). Let $\gamma$ be the counit of $U(\mathfrak{g})$. Since $\gamma (x^{(n)}_{\alpha}) =\gamma (y^{(n)}_{\alpha}) =\gamma ((^h_n))= 0$ for $n >0$, we have $\gamma (\mathscr{U})\subset \mathbf{Z}$. This proves (i). On the other hand,
 
 $$
 \mathscr{U}\cap \mathfrak{h}=\mathscr{L}\cap \mathfrak{h}=\mathscr{U}_0\cap \mathfrak{h}=\mathscr{H}
@@ -742,7 +752,7 @@ By Prop. 5 of §4, no. 4, there exists a unique automorphism $\theta$ of $\mathf
 
 #### Corollary 1 {#lie-viii-s12-prop-3-cor-1 .statement tag=018A}
 
-Put $\mathscr{G}=\mathscr{U}\cap \mathfrak{g}$. Then$\sum\mathscr{G}$ is an order in the Lie algebra $\mathfrak{g}$, stable under $\theta$. We have $\mathscr{G}=\mathscr{H}+_{\alpha\in R}(\mathscr{G}\cap \mathfrak{g}^{\alpha})$. For all $\alpha \in B$ and all $n\in \mathbf{N}$, the maps (ad $x_{\alpha})^n/n$!, (ad $y_{\alpha})^n/n$! leave $\mathscr{U}$ and $\mathscr{G}$ stable.
+Put $\mathscr{G}=\mathscr{U}\cap \mathfrak{g}$. Then $\mathscr{G}$ is an order in the Lie algebra $\mathfrak{g}$, stable under $\theta$. We have $\mathscr{G}=\mathscr{H}+\sum_{\alpha\in R}(\mathscr{G}\cap \mathfrak{g}^{\alpha})$. For all $\alpha \in B$ and all $n\in \mathbf{N}$, the maps (ad $x_{\alpha})^n/n$!, (ad $y_{\alpha})^n/n$! leave $\mathscr{U}$ and $\mathscr{G}$ stable.
 
 The first assertion is clear. The second follows by considering the graduation of type Q(R) on $U(\mathfrak{g})$ and $\mathscr{U}$. The third follows from Lemma 2 of no. 5.
 
@@ -800,11 +810,11 @@ Let $(\mathfrak{g},\mathfrak{h})$ be a split reductive Lie algebra over $\mathbf
 
 $a)$ a permissible lattice $\mathscr{H}$ in $\mathfrak{h}$ (no. 6, Def. 1);
 
-$b)$ for all $\alpha \in \sum R$, a lattice $\mathscr{G}^{\alpha}$ in $\mathfrak{g}^{\alpha}$.
+$b)$ for all $\alpha \in R$, a lattice $\mathscr{G}^{\alpha}$ in $\mathfrak{g}^{\alpha}$.
 
-Put $\mathscr{G}=\mathscr{H}\oplus_{\alpha\in R}\mathscr{G}^{\alpha}$. This is a lattice in$()\mathfrak{g}$. Denote by $\mathscr{U}$ the $\mathbf{Z}$-subalgebra
+Put $\mathscr{G}=\mathscr{H}\oplus \sum_{\alpha\in R}\mathscr{G}^{\alpha}$. This is a lattice in $\mathfrak{g}$. Denote by $\mathscr{U}$ the $\mathbf{Z}$-subalgebra
 
-of $U(\mathfrak{g})$ generated by the $^h_n(h\in \mathscr{H}, n\in \mathbf{N})$ and the $x^{(n)}(x\in \mathscr{G}^{\alpha}, \alpha \in R$, $n\in \mathbf{N})$. Finally, for $\alpha \in R$ and $x\in \mathfrak{g}^{\alpha}$ **--** $\{0\}$, put
+of $U(\mathfrak{g})$ generated by the $(^h_n)(h\in \mathscr{H}, n\in \mathbf{N})$ and the $x^{(n)}(x\in \mathscr{G}^{\alpha}, \alpha \in R$, $n\in \mathbf{N})$. Finally, for $\alpha \in R$ and $x\in \mathfrak{g}^{\alpha}$ **--** $\{0\}$, put
 
 $w_{\alpha}(x) =$ (exp ad $x$)(exp ad $y$)(exp ad $x)$,
 
@@ -850,7 +860,7 @@ When conditions (i) to (iv) of Th. 2 are satisfied, $\mathscr{G}$ is said to be 
 
 #### Remark {#lie-viii-s12-n7-rem-1 .statement tag=018I}
 
-Chevalley orders in $(\sum\mathfrak{g},\mathfrak{h})$ always exist. Indeed, the Chevalley orders are the sets of the form $\mathscr{H}\oplus_{\alpha\in R}\mathbf{Z}X_{\alpha}$, where $(X_{\alpha})_{\alpha\in R}$ is a Chevalley system in $(\mathfrak{g},\mathfrak{h})$ and $\mathscr{H}$ is a lattice in $\mathfrak{h}$ such that
+Chevalley orders in $(\mathfrak{g},\mathfrak{h})$ always exist. Indeed, the Chevalley orders are the sets of the form $\mathscr{H}\oplus \sum_{\alpha\in R}\mathbf{Z}X_{\alpha}$, where $(X_{\alpha})_{\alpha\in R}$ is a Chevalley system in $(\mathfrak{g},\mathfrak{h})$ and $\mathscr{H}$ is a lattice in $\mathfrak{h}$ such that
 
 $$
 Q(R^{\vee})\subset \mathscr{H}\subset P(R^{\vee})\oplus \mathfrak{c}
@@ -864,19 +874,19 @@ We retain the notations at the beginning of no. 7, and assume that $\mathscr{G}$
 
 (i) $\mathscr{U}$ is a biorder in $U(\mathfrak{g})$.
 
-(ii) Let B be a basis of R, and $(X_{\alpha})_{\alpha\in B\cup(-B)}$ a family of elements of $\mathfrak{g}$ such that$()\mathscr{G}^{\alpha}=\mathbf{Z}X_{\alpha}$ for $\alpha \in B\cup (-B)$. The $\mathbf{Z}$-algebra $\mathscr{U}$ is generated by the $^h_n$ and the $X_{\alpha}^{(n)}(h\in \mathscr{H}, \alpha \in B\cup (-B), n\in \mathbf{N})$. If $\mathfrak{g}$ is semi-simple and $\mathscr{H}= Q(R^{\vee})$, the $\mathbf{Z}$-algebra $\mathscr{U}$ is generated by the $X_{\alpha}^{(n)}(\alpha \in B\cup (-B), n\in \mathbf{N})$.
+(ii) Let B be a basis of R, and $(X_{\alpha})_{\alpha\in B\cup(-B)}$ a family of elements of $\mathfrak{g}$ such that $\mathscr{G}^{\alpha}=\mathbf{Z}X_{\alpha}$ for $\alpha \in B\cup (-B)$. The $\mathbf{Z}$-algebra $\mathscr{U}$ is generated by the $(^h_n)$ and the $X_{\alpha}^{(n)}(h\in \mathscr{H}, \alpha \in B\cup (-B), n\in \mathbf{N})$. If $\mathfrak{g}$ is semi-simple and $\mathscr{H}= Q(R^{\vee})$, the $\mathbf{Z}$-algebra $\mathscr{U}$ is generated by the $X_{\alpha}^{(n)}(\alpha \in B\cup (-B), n\in \mathbf{N})$.
 
-(iii) Let B be a basis of$\sum$ R, $R_+\sum$the corresponding set of positive roots, $R_-=-R_+,\mathfrak{n}_+=_{\alpha\in R_+}\mathfrak{g}^{\alpha},\mathfrak{n}_-=_{\alpha\in R_-}\mathfrak{g}^{\alpha}$. Then,
+(iii) Let B be a basis of R, $R_+$ the corresponding set of positive roots, $R_-=-R_+,\mathfrak{n}_+=\sum_{\alpha\in R_+}\mathfrak{g}^{\alpha},\mathfrak{n}_-=\sum_{\alpha\in R_-}\mathfrak{g}^{\alpha}$. Then,
 
 $$
 \mathscr{U}= (\mathscr{U}\cap U(\mathfrak{n}_-)).(\mathscr{U}\cap U(\mathfrak{h})).(\mathscr{U}\cap U(\mathfrak{n}_+))
 $$
 
-Let $(h_i)_{i\in I}$ be a basis of $\mathscr{H}$. For all $\alpha \in R$, let $X_{\alpha}$ be a basis of $\mathscr{G}^{\alpha}$. Give the set $I\cup R$ a total order$()$ (we assume that $I\cap R =\emptyset )$. For $\lambda \in I\cup R$ and $n\in \mathbf{N}$, put $e^{\langle n\rangle}_{\lambda}=^h_{n^{\lambda}}$ if $\lambda \in I,e^{\langle n\rangle}_{\lambda}=X_{\lambda}^{(n)}$ if $\lambda \in R$. Then the products $_{\lambda\in}\prod_{I\cup R}e^{\langle n_{\lambda}}_{\lambda}\prod^{\rangle}$, where$()(n_{\lambda})$ belongs to $\mathbf{N}^{I\cup R}$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}$. The
+Let $(h_i)_{i\in I}$ be a basis of $\mathscr{H}$. For all $\alpha \in R$, let $X_{\alpha}$ be a basis of $\mathscr{G}^{\alpha}$. Give the set $I\cup R$ a total order (we assume that $I\cap R =\emptyset )$. For $\lambda \in I\cup R$ and $n\in \mathbf{N}$, put $e^{\langle n\rangle}_{\lambda}=(^h_{n^{\lambda}})$ if $\lambda \in I,e^{\langle n\rangle}_{\lambda}=X_{\lambda}^{(n)}$ if $\lambda \in R$. Then the products $\prod_{\lambda\in I\cup R}e^{\langle n_{\lambda}\rangle}_{\lambda}$, where $(n_{\lambda})$ belongs to $\mathbf{N}^{I\cup R}$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}$. The
 
-products $_{\lambda\in I}^h_{n^{\lambda}_{\lambda}}$ , where$\prod(n_{\lambda})$ belongs to $\mathbf{N}^I$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}\cap U(\mathfrak{h})$. The products $_{\lambda\in R_+}X_{\lambda}^{(n_{\lambda})}$, where $(n_{\lambda})$ belongs to $\mathbf{N}^{R_+}$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}\cap U(\mathfrak{n}_+)$.
+products $\prod_{\lambda\in I}(^h_{n^{\lambda}_{\lambda}})$, where $(n_{\lambda})$ belongs to $\mathbf{N}^I$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}\cap U(\mathfrak{h})$. The products $\prod_{\lambda\in R_+}X_{\lambda}^{(n_{\lambda})}$, where $(n_{\lambda})$ belongs to $\mathbf{N}^{R_+}$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}\cap U(\mathfrak{n}_+)$.
 
-Let B and $(X_{\alpha})_{\alpha\in B\cup(-B)}$ be as in (ii), and such that $[(X)_{-\alpha}, X_{\alpha}] =H_{\alpha}$. Let $\mathscr{U}'$ be the $\mathbf{Z}$-subalgebra of $U(\mathfrak{g})$ generated by the $_n^h$ and the $X_{\alpha}^{(n)}$ $(h\in \mathscr{H}, \alpha \in B\cup (-B), n\in \mathbf{N})$. We have seen in the proof of Th. 2, (i) $=\Rightarrow$ (ii), that $\mathscr{U}'$ is equal to $\mathscr{U}$ and is a biorder in $U(\mathfrak{g})$. This proves (i) and the first assertion of (ii); the second follows from Lemma 4 (ii). Assertion (iii) follows from Th. 1 (no. 3) and Prop. 3 (no. 6).
+Let B and $(X_{\alpha})_{\alpha\in B\cup(-B)}$ be as in (ii), and such that $[X_{-\alpha}, X_{\alpha}] =H_{\alpha}$. Let $\mathscr{U}'$ be the $\mathbf{Z}$-subalgebra of $U(\mathfrak{g})$ generated by the $(_n^h)$ and the $X_{\alpha}^{(n)}$ $(h\in \mathscr{H}, \alpha \in B\cup (-B), n\in \mathbf{N})$. We have seen in the proof of Th. 2, (i) $=\Rightarrow$ (ii), that $\mathscr{U}'$ is equal to $\mathscr{U}$ and is a biorder in $U(\mathfrak{g})$. This proves (i) and the first assertion of (ii); the second follows from Lemma 4 (ii). Assertion (iii) follows from Th. 1 (no. 3) and Prop. 3 (no. 6).
 
 ### 8. ADMISSIBLE LATTICES
 
@@ -884,11 +894,11 @@ Generalizing the terminology adopted for vector spaces, an endomorphism $u$ of a
 
 #### Lemma 6 {#lie-viii-s12-lem-6 .statement tag=018K}
 
-Let M be a free $\mathbf{Z}$-module of finite type, $u$ an endomorphism of$()$ M, and $v$ the endomorphism $u\otimes 1$ of $M\otimes_{\mathbf{Z}}\mathbf{Q}$. Assume that $^v_n(M)\subset M$ for all $n\in \mathbf{N}$. Then $u$ is diagonalizable.
+Let M be a free $\mathbf{Z}$-module of finite type, $u$ an endomorphism of M, and $v$ the endomorphism $u\otimes 1$ of $M\otimes_{\mathbf{Z}}\mathbf{Q}$. Assume that $(^v_n)(M)\subset M$ for all $n\in \mathbf{N}$. Then $u$ is diagonalizable.
 
 $a)$ For any polynomial $P\in \mathbf{Q}[T]$ such that $P(\mathbf{Z})\subset \mathbf{Z}$, we have $P(v)(M)\subset M$ (no. 4, Cor. of Prop. 2), so det $P(v)\in \mathbf{Z}$.
 
-$b)$ Denote by $\chi_v(t) =t^d+\alpha_1t^{d-1}+\cdots$ the characteristic polynomial of$()$ $v$. Let $k\in \mathbf{Z}, n\in \mathbf{N}$. Applying $a)$ to the polynomial $^{T-k}_n$ , we see that the
+$b)$ Denote by $\chi_v(t) =t^d+\alpha_1t^{d-1}+\cdots$ the characteristic polynomial of $v$. Let $k\in \mathbf{Z}, n\in \mathbf{N}$. Applying $a)$ to the polynomial $(^{T-k}_n)$, we see that the
 
 number
 
@@ -984,17 +994,15 @@ Let $\mathfrak{g},\mathfrak{h},R,\mathscr{H},\mathscr{G}^{\alpha},\mathscr{G},\m
 
 Let E be a $\mathfrak{g}$-module. A lattice $\mathscr{E}$ in E is said to be admissible (relative to $\mathscr{G})$ if the following conditions are satisfied:
 
-(i) $\mathscr{U}$ maps $\mathscr{E}$ to $\mathscr{E};()$
+(i) $\mathscr{U}$ maps $\mathscr{E}$ to $\mathscr{E}$;
 
-(ii) $\mathscr{E}$ is stable under $^h_n$ and $x^{(n)}$ for all $\alpha \in R, x\in \mathscr{G}^{\alpha}, n\in \mathbf{N}, h\in \mathscr{H}$.
+(ii) $\mathscr{E}$ is stable under $(^h_n)$ and $x^{(n)}$ for all $\alpha \in R, x\in \mathscr{G}^{\alpha}, n\in \mathbf{N}, h\in \mathscr{H}$.
 
 #### Remark 2 {#lie-viii-s12-n8-rem-2 .statement tag=018N}
 
-Let $\rho$ be the adjoint representation of $\mathfrak{g}$ on $U(\mathfrak{g})$. Let $\alpha , x, n, h$ be as in (ii) above. We have $\rho (x^{(n)}).\mathscr{U}\subset \mathscr{U}$ by Lemma 2. On the other hand,
+Let $\rho$ be the adjoint representation of $\mathfrak{g}$ on $U(\mathfrak{g})$. Let $\alpha , x, n, h$ be as in (ii) above. We have $\rho (x^{(n)}).\mathscr{U}\subset \mathscr{U}$ by Lemma 2. On the other hand, if $p\in \mathbf{N}$,
 
-if $p\in ((\mathbf{N},))()()$
-
-$h_{(n)}$ ad $h_{(n)}n\alpha (h)_{(n)}$
+$((h))_{(n)}($ ad $h)_{(n)}(n\alpha (h))_{(n)}$
 
 $\rho x$ = $x$ = $x$
 
@@ -1032,7 +1040,7 @@ Let E be a finite dimensional $\mathfrak{g}$-module. The following conditions ar
 
 (i) $=\Rightarrow$ (ii): this follows from Remark 3.
 
-(ii) $=\Rightarrow$ (i): we assume that condition (ii) is satisfied and prove (i). By Th. 4 of Chap. I, §6, no. 5, we can assume that the elements of $\mathfrak{c}$ define homotheties of E, and that E is a simple $\mathscr{D}\mathfrak{g}$-module. Let B be a basis of R, and $\mathfrak{g}=\mathfrak{n}_-\oplus \mathfrak{h}\oplus \mathfrak{n}_+$ the corresponding decomposition of $\mathfrak{g}$. Let $\lambda$ be the highest weight of the $\mathscr{D}\mathfrak{g}$-module E, and let $e\in E^{\lambda}$ **--** $\{0\}$. Put $\mathscr{E}=\mathscr{U}.e$. It is clear that $\mathscr{U}.\mathscr{E}\subset \mathscr{E}$. Since E is simple, $U(\mathfrak{g}).e= E$ and hence$()(\mathscr{E}$ generates E as$)$ a $\mathbf{Q}$-vector space. For $h\in \mathscr{H}$ and $n\in \mathbf{N}$, we have $^h_ne=^{\lambda(h)}_ne\in \mathbf{Z}e$, so
+(ii) $=\Rightarrow$ (i): we assume that condition (ii) is satisfied and prove (i). By Th. 4 of Chap. I, §6, no. 5, we can assume that the elements of $\mathfrak{c}$ define homotheties of E, and that E is a simple $\mathscr{D}\mathfrak{g}$-module. Let B be a basis of R, and $\mathfrak{g}=\mathfrak{n}_-\oplus \mathfrak{h}\oplus \mathfrak{n}_+$ the corresponding decomposition of $\mathfrak{g}$. Let $\lambda$ be the highest weight of the $\mathscr{D}\mathfrak{g}$-module E, and let $e\in E^{\lambda}$ **--** $\{0\}$. Put $\mathscr{E}=\mathscr{U}.e$. It is clear that $\mathscr{U}.\mathscr{E}\subset \mathscr{E}$. Since E is simple, $U(\mathfrak{g}).e= E$ and hence $\mathscr{E}$ generates E as a $\mathbf{Q}$-vector space. For $h\in \mathscr{H}$ and $n\in \mathbf{N}$, we have $(^h_n)e=(^{\lambda(h)}_n)e\in \mathbf{Z}e$, so
 
 $$
 (\mathscr{U}\cap U(\mathfrak{h})).e=\mathbf{Z}e

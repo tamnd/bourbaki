@@ -45,7 +45,7 @@ subsections:
       pdf_page: 78
 statements: 43
 exercises: 8
-content_sha256: 6613b392e0ec3ccdfecbfe2f8654271c3932ce7dc980fd1f81e494f3ccfbbb4e
+content_sha256: bdf8eeb87f296f013124da36ec1579093157f52d60fdd6a4a52dd056f5de87e9
 ---
 
 ## § 4. MODULES SEMI-SIMPLES
@@ -530,9 +530,7 @@ a) Pour tout $\lambda \in \mathscr{S},\alpha$ induit un isomorphisme du A-module
 
 b) Pour tout $\lambda \in \mathscr{S}$, l’application $\beta_{\lambda}: V_{\lambda}\rightarrow$ Hom$_A(S_{\lambda},M)$définie par $\beta_{\lambda}(v)(s) =\alpha (s\otimes v)$est $D_{\lambda}$-linéaire et bijective.
 
-c) Soit N un sous-module de M. Il existe une unique famille $(W_{\lambda})_{\lambda\in\mathscr{S}}$ vérifiant $: W_{\lambda}$ est un sous-$D_{\lambda}$-espace vectoriel de $V_{\lambda}$ pour tout $\lambda \in \mathscr{S}$ et N est l’image par$\bigoplus\alpha$ du module $\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}W_{\lambda})$identifié à son image canonique dans le module
-
-$_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})$. Pour tout $\lambda \in \mathscr{S}, W_{\lambda}$ est l’ensemble des éléments $v\in V_{\lambda}$ tels que $\alpha (s\otimes v)$appartienne à N pour tout $s\in S_{\lambda}$.
+c) Soit N un sous-module de M. Il existe une unique famille $(W_{\lambda})_{\lambda\in\mathscr{S}}$ vérifiant $: W_{\lambda}$ est un sous-$D_{\lambda}$-espace vectoriel de $V_{\lambda}$ pour tout $\lambda \in \mathscr{S}$ et N est l’image par $\alpha$ du module $\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}W_{\lambda})$identifié à son image canonique dans le module $\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})$. Pour tout $\lambda \in \mathscr{S}, W_{\lambda}$ est l’ensemble des éléments $v\in V_{\lambda}$ tels que $\alpha (s\otimes v)$appartienne à N pour tout $s\in S_{\lambda}$.
 
 Le A-module $S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda}$ est isotypique de type $\lambda$ pour tout $\lambda \in \mathscr{S}$. L’assertion a) résulte alors du fait que $\alpha$ est un isomorphisme et du fait que M est la somme directe de la famille $(M_{\lambda})_{\lambda\in\mathscr{S}}$ (VIII, p. 61, prop. 4 a)).
 
@@ -560,11 +558,11 @@ C’est une traduction de la prop. 8 c) appliquée à la description canonique d
 
 Soient M et $M'$ des A-modules semi-simples et soient $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$et $((V_{\lambda}')_{\lambda\in\mathscr{S}}, \alpha ')$des descriptions de M et $M'$ respectivement. Pour toute famille $\boldsymbol{f}= (f_{\lambda})_{\lambda\in\mathscr{S}}$ de $\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V'_{\lambda})$, il existe une unique application A-linéaire $\varphi (\boldsymbol{f})\in$ Hom$_A(M,M')$rendant commutatif le diagramme
 
-$_{\lambda}\bigoplus_{\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})^{\alpha}$ // M
+$\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})^{\alpha}$ // M
 
 $\bigoplus_{\lambda\in\mathscr{S}}(1_{S\lambda}\otimes f_{\lambda})\varphi (\boldsymbol{f})$
 
-$_{\lambda}\bigoplus_{\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V'_{\lambda})^{\alpha'}$ // $M'$.
+$\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V'_{\lambda})^{\alpha'}$ // $M'$.
 
 L’application $\varphi :\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V_{\lambda}')\rightarrow$ Hom$_A(M,M')$ainsi définie est un isomorphisme de groupes. Lorsque l’on a $M = M', V_{\lambda}= V'_{\lambda}$ pour tout $\lambda \in \mathscr{S}$ et $\alpha =\alpha '$, l’application $\varphi$ est un isomorphisme d’anneaux de $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}(V_{\lambda})$sur End$_A(M)$.
 

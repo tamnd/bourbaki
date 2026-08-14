@@ -45,7 +45,7 @@ subsections:
       pdf_page: 382
 statements: 31
 exercises: 6
-content_sha256: a35e4df4d9c343312e9b1a9dc42e43a67cb45581362d7f4a27bae85b89e04c25
+content_sha256: 7108f6bd4c3b6c681b554709f31ce438c5f5fbdef631046cd35b996d3ddfe841
 ---
 
 ## § 20. REPRÉSENTATIONS LINÉAIRES DES ALGÈBRES
@@ -82,7 +82,7 @@ $$
 
 pour $a\in A$. On dit que $\pi$ et $\pi '$ sont isomorphes si les A-modules $M_{\pi}$ et $M'_{\pi'}$ sont isomorphes. On dit que $\pi$ est une sous-représentation (resp. une représentation quotient) de $\pi '$ si $M_{\pi}$ est un sous-module (resp. un module quotient) de $M'_{\pi'}$.
 
-Supposons donnée une famille $(M_i, \pi_i)$ de représentations linéaires de A. Soit M le K-module somme directe des $M_i$; pour tout $a\in A$, soit $\pi (a)$ l’endomorphisme $(x_i)_{i\in I}\rightarrow (\pi_i(a)(x_i))_{i\in I}$ de M. Alors $\pi$ est une représentation linéaire de A dans M. Le A-module $M_{\pi}$ est somme directe de la famille des A-modules $(M\bigoplus_i)_{\pi_i}(i\in I)$; on dit que $\pi$ est la somme directe des $\pi_i$, et l’on écrit $\pi =\pi_i$.
+Supposons donnée une famille $(M_i, \pi_i)$ de représentations linéaires de A. Soit M le K-module somme directe des $M_i$; pour tout $a\in A$, soit $\pi (a)$ l’endomorphisme $(x_i)_{i\in I}\rightarrow (\pi_i(a)(x_i))_{i\in I}$ de M. Alors $\pi$ est une représentation linéaire de A dans M. Le A-module $M_{\pi}$ est somme directe de la famille des A-modules $(M_i)_{\pi_i}(i\in I)$; on dit que $\pi$ est la somme directe des $\pi_i$, et l’on écrit $\pi =\bigoplus\pi_i$.
 
 On dit que la représentation $\pi$ de A dans M est simple ou irréductible si le A-module $M_{\pi}$ est simple ; on dit que la représentation $\pi$ de A dans M est semi-simple, ou complètement réductible, si le A-module $M_{\pi}$ est semi-simple.
 
@@ -202,7 +202,7 @@ $\langle \gamma_E(h), a\rangle =$ Tr($\theta_E(h)\circ a_E$) pour $a\in A$ et $h
 
 L’application $c''_E$ est bijective. Si E est de dimension finie, il en est de même de $c'_E$.
 
-Si F est un A-module à droite et G un K-espace vectoriel, on a défini en II, p. 74, prop. 1 a), un isomorphisme $\gamma$ de K-espaces vectoriels de Hom$_K(F\otimes_AE,G)$ sur Hom$_A(E,($Hom$_K(F,G))$. Cet isomorphisme associe à$)\varphi : F\otimes_AE\rightarrow G$ l’homomorphisme $e\rightarrow f\rightarrow \varphi (f\otimes e)$ . Compte tenu de l’isomorphisme canonique de $A_d\otimes_AE$ avec E (II, p. $56),\gamma$ s’identifie à $c''_E$ dans le cas où $F = A_d, G = K$.
+Si F est un A-module à droite et G un K-espace vectoriel, on a défini en II, p. 74, prop. 1 a), un isomorphisme $\gamma$ de K-espaces vectoriels de Hom$_K(F\otimes_AE,G)$ sur Hom$_A(E$, Hom$_K(F,G))$. Cet isomorphisme associe à $\varphi : F\otimes_AE\rightarrow G$ l’homomorphisme $e\rightarrow (f\rightarrow \varphi (f\otimes e))$. Compte tenu de l’isomorphisme canonique de $A_d\otimes_AE$ avec E (II, p. $56),\gamma$ s’identifie à $c''_E$ dans le cas où $F = A_d, G = K$.
 
 De manière analogue, l’isomorphisme$\beta$ défini en II, p. 74, prop. 1 b) se spécialise en un isomorphisme $\beta$ de Hom$_K(E^*\otimes_AA_s,K)$ sur Hom$_A(E^*$, Hom$_K(A_s,K))$. Lorsque E est de dimension finie, E s’identifie canonique à Hom$_K(E^*,K)$ et $E^*$ à $E^*\otimes_AA_s$, l’homomorphisme $\beta$ s’identifie alors à $c'_E$.
 

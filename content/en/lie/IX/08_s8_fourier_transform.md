@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 165484d87a018c10cc7dc8f5870a2d390854c4ba267d5c7c214b6dfbd0b71103
+content_sha256: 1bde8e3f7c59aae94f63d94f5a2ccff639107a53ac3452ce11541f5cc9180025
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -66,15 +66,11 @@ $$
 |\langle A|B\rangle | \leq d(u)^2A_{\infty}B_{\infty} \tag{4}
 $$
 
-For all $g\in G$, we have $u(g)_2=\prod d(u)$.
+For all $g\in G$, we have $u(g)_2=d(u)$.
 
-Denote by $F( \widehat{G})$ the algebra End(E$_u)$. Denote by $L^2( \widehat{G})$ the Hilbert
+Denote by $F( \widehat{G})$ the algebra $\prod_{u\in\widehat{G}}$ End(E$_u)$. Denote by $L^2( \widehat{G})$ the Hilbert sum of the Hilbert spaces End(E$_u)$; this is the space of families $A= (A_u)\in F( \widehat{G})$ such that $\sum_uA_u^2_2<\infty$, with the scalar product
 
-$u\in \widehat{G}$
-
-sum of the Hilbert spaces End(E$\sum_u)$; this is the space of families $A= (A_u)\in F( \widehat{G})$ such that $A_u^2_2<\infty$, with the scalar product
-
-$\langle A|B\rangle =\sum^u_{u\in\widehat{G}}\langle A_u|B_u\rangle =\sum_{u\in\widehat{G}}d(u$)Tr(A$^*_uB_u)$. (5)
+$\langle A|B\rangle =\sum_{u\in\widehat{G}}\langle A_u|B_u\rangle =\sum_{u\in\widehat{G}}d(u$)Tr(A$^*_uB_u)$. (5)
 
 Denote the Hilbert norm on $L^2( \widehat{G})$ also by $_2$, so that $A^2_2=\sum_{u\in\widehat{G}}A_u^2_2$ for $A\in L^2( \widehat{G})$.
 
@@ -110,7 +106,9 @@ $$
 
 Conversely, let $A = (A_u)_{u\in\widehat{G}}$ be an element of $F( \widehat{G})$; for all $u\in \widehat{G}$, let $\mathscr{F}_uA$ be the (analytic) function on G defined by
 
-$(\mathscr{F}_uA)(g) =\langle u(g)|A_u\rangle =d(u$)Tr(A$_uu(g)^{-1})$. (9) If $A\in L^2( \widehat{G})$, the family $(\mathscr{F}_uA)_{u\in\widehat{G}}$ is summable in $L^2(G)$; the Fourier transform of A, denoted by $\mathscr{F}$(A), is the sum of this family. The maps $\mathscr{F}$ and $\mathscr{F}$ are inverse isomorphisms between the Hilbert spaces $L^2(G)$ and $L^2( \widehat{G})$.
+$(\mathscr{F}_uA)(g) =\langle u(g)|A_u\rangle =d(u$)Tr(A$_uu(g)^{-1})$. (9)
+
+If $A\in L^2( \widehat{G})$, the family $(\mathscr{F}_uA)_{u\in\widehat{G}}$ is summable in $L^2(G)$; the Fourier transform of A, denoted by $\mathscr{F}$(A), is the sum of this family. The maps $\mathscr{F}$ and $\mathscr{F}$ are inverse isomorphisms between the Hilbert spaces $L^2(G)$ and $L^2( \widehat{G})$.
 
 In other words:
 
@@ -119,14 +117,12 @@ In other words:
 Every square integrable complex function $f$ on G is the sum in the Hilbert space $L^2(G)$ of the family $(f_u)_{u\in\widehat{G}}$ where, for all $h\in G$ and all $u\in \widehat{G}$,
 
 $$
-f_u(h) =\langle u(h)\int|u(f)\rangle \int
+f_u(h) =\langle u(h)|u(f)\rangle
 $$
 
-$=d(u)f(g$)Tr($u(gh^{-1})$)$dg=d(u)f(gh$)Tr($u(g)$)$dg$. (10)
+$=d(u)\int_Gf(g$)Tr($u(gh^{-1})$)$dg=d(u)\int_Gf(gh$)Tr($u(g)$)$dg$. (10)
 
-G G
-
-For all $u\in \widehat{G}$ choose an orthonormal basis $Bu$ of $E_u$, and denote by $(u_{ij}(g))$ the matrix of$(u(g)$ in this basis. Prop. 1 also means that the family of functions $d(u)u_{ij}$, for $u$ in $\widehat{G}$ and $i, j$ in $B_u$, is an orthonormal basis of the space $L^2(G)$.
+For all $u\in \widehat{G}$ choose an orthonormal basis $Bu$ of $E_u$, and denote by $(u_{ij}(g))$ the matrix of $u(g)$ in this basis. Prop. 1 also means that the family of functions $(d(u)u_{ij}$, for $u$ in $\widehat{G}$ and $i, j$ in $B_u$, is an orthonormal basis of the space $L^2(G)$.
 
 If $f$ is an integrable function on G such that the family $(f_u)$ is uniformly summable, then the sum of this family is a continuous function which coincides almost everywhere with $f$; in other words, if we assume in addition that $f$ is continuous, then for all $h\in G$,
 
@@ -278,7 +274,7 @@ $$
 
 Since $d(u)$ and $u(t)_{\infty}$ are moderately increasing (Prop. 3) and $A_{u\infty}$ is rapidly decreasing, the function $u \rightarrow$ sup$_g|(L_tf_u)(g)|$ is rapidly decreasing; thus, the family $(L_tf_u)_{u\in\widehat{G}}$ is uniformly summable. It follows$^7$ that the sum of the family $(f_u)$ is an infinitely-differentiable function on G, whose Fourier cotransform is $(A_u)$, hence the theorem.
 
-Denote by $\mathscr{S}( \widehat{G})$ the vector subspace of $L^2( \widehat{G})$ consisting of the families $A = (A_u)_{u\in\widehat{G}}$ such that the function $u \rightarrow  A_{u\infty}$ is rapidly decreasing on $\widehat{G}$. It follows from the theorem that the maps$\sum\mathscr{F}:f \rightarrow (u(f))_{u\in\widehat{G}}$ and $\mathscr{F}: A \rightarrow_{u\in\widehat{G}}\langle u(g)|A_u\rangle$ induce inverse isomorphisms between the complex vector spaces $\mathscr{C}^{\infty}(G;\mathbf{C})$ and $\mathscr{S}( \widehat{G})$. Give the space $\mathscr{C}^{\infty}(G;\mathbf{C})$ the topology of uniform $C^{\infty}$-convergence (§6, no. 4) which can be defined by the family of semi-norms $f \rightarrow_g$sup$_{\in G}|L_tf(g)|$ for $t\in U(G)$, and the space $\mathscr{S}( \widehat{G})$ the topology defined by the sequence of semi-norms $p_n: A \rightarrow_u$sup$_{\in\widehat{G}}( \widetilde{\Gamma}(u) + 1)^nA_{u\infty}$. Formula (15) of the preceding proof shows that $\mathscr{F}$ is continuous. Let $t\in U(G)$, and let $A = (A_u)_{u\in\widehat{G}}$ be an element of$\sum\mathscr{S}( \widehat{G})$; put $f_n(g) =\langle u(g)|A_u\rangle$. Let $p$ be an integer such that $\widetilde{\Gamma}(u)^{-p}= M<\infty$. By the preceding proof, there exists a positive integer$^um^{\in\widehat{G}}$such that, for all $g\in G$,
+Denote by $\mathscr{S}( \widehat{G})$ the vector subspace of $L^2( \widehat{G})$ consisting of the families $A = (A_u)_{u\in\widehat{G}}$ such that the function $u \rightarrow  A_{u\infty}$ is rapidly decreasing on $\widehat{G}$. It follows from the theorem that the maps $\mathscr{F}:f \rightarrow (u(f))_{u\in\widehat{G}}$ and $\mathscr{F}: A \rightarrow \sum_{u\in\widehat{G}}\langle u(g)|A_u\rangle$ induce inverse isomorphisms between the complex vector spaces $\mathscr{C}^{\infty}(G;\mathbf{C})$ and $\mathscr{S}( \widehat{G})$. Give the space $\mathscr{C}^{\infty}(G;\mathbf{C})$ the topology of uniform $C^{\infty}$-convergence (§6, no. 4) which can be defined by the family of semi-norms $f \rightarrow_g$sup$_{\in G}|L_tf(g)|$ for $t\in U(G)$, and the space $\mathscr{S}( \widehat{G})$ the topology defined by the sequence of semi-norms $p_n: A \rightarrow_u$sup$_{\in\widehat{G}}( \widetilde{\Gamma}(u) + 1)^nA_{u\infty}$. Formula (15) of the preceding proof shows that $\mathscr{F}$ is continuous. Let $t\in U(G)$, and let $A = (A_u)_{u\in\widehat{G}}$ be an element of $\mathscr{S}( \widehat{G})$; put $f_n(g) =\langle u(g)|A_u\rangle$. Let $p$ be an integer such that $\sum_{u\in\widehat{G}}\widetilde{\Gamma}(u)^{-p}= M<\infty$. By the preceding proof, there exists a positive integer $m$ such that, for all $g\in G$,
 
 $$
 |(L_tf_u)(g)| \leq d(u)^2u(t)_{\infty}A_{u\infty}\leq m.(1 + \widetilde{\Gamma}(u))^m\widetilde{\Gamma}(u)^{-p}A_{u\infty}
@@ -375,10 +371,12 @@ $$
 with
 
 $$
-_2\sum))))\varepsilon_u))))_2\sum
+_2\varepsilon_{u2}
 $$
 
-$\mathscr{F}(f)_2=\langle \chi_u|f\rangle$ 2 = $|\langle \chi_u|f\rangle |^2$.
+$$
+\mathscr{F}(f)_2=\sum))))\langle \chi_u|f\rangle ))))_2=\sum|\langle \chi_u|f\rangle |^2
+$$
 
 $$
 d(u)
@@ -386,7 +384,7 @@ $$
 
 $uu$
 
-Conversely, if$()\varphi$ is a square-integrable complex function on $\widehat{G}$, the element $^{\varphi(u)}_{d(u)}\varepsilon_{uu\in\widehat{G}}$ of $F( \widehat{G})$ belongs to $L^2( \widehat{G})$, and we have (formula (9))
+Conversely, if $\varphi$ is a square-integrable complex function on $\widehat{G}$, the element $(^{\varphi(u)}_{d(u)}\varepsilon_u)_{u\in\widehat{G}}$ of $F( \widehat{G})$ belongs to $L^2( \widehat{G})$, and we have (formula (9))
 
 $$
 ((\varphi (u)))(\varphi (u)-)
@@ -398,9 +396,11 @@ $$
 d(u)d(u)
 $$
 
-so $(())\sum$
+so
 
-$\mathscr{F}\varphi (u)\varepsilon_u$ = $\varphi (u)\chi_u$. (22)
+$$
+\mathscr{F}((\varphi (u)\varepsilon_u))=\sum\varphi (u)\chi_u \tag{22}
+$$
 
 $$
 d(u)
@@ -446,13 +446,9 @@ $$
 d(u)
 $$
 
-hence the first assertion, since the functions $d(u)$ and $_{d(u)}^1$ are moderately increasing. $\sum$
+hence the first assertion, since the functions $d(u)$ and $_{d(u)}^1$ are moderately increasing.
 
-Assume that $f$ is infinitely-differentiable; by Th. $1a),f(g) =f_u(g)$
-
-$u\in \widehat{G}$
-
-for all $g\in G$, so
+Assume that $f$ is infinitely-differentiable; by Th. $1a),f(g) =\sum_{u\in\widehat{G}}f_u(g)$ for all $g\in G$, so
 
 $$
 _-(_-\varepsilon_u)
@@ -466,7 +462,7 @@ $$
 
 $=\langle \chi_u|f\rangle$Tr($u(g)^{-1}$) $=\langle \chi_u|f\rangle \chi_u(g)$.
 
-Hence, $f(g) =\sum_{u\in\widehat{G}}\langle \chi_u|f\rangle \chi_u(g)$; but, for all $u\in \widehat{G}$, the contragredient representation $u'$ of $u$ satisfies $\chi_u\sum=\chi_{u'}$ and the map $u \rightarrow u'$ is a permutation of $\widehat{G}$; so we also have $f(g) =_{u\in\widehat{G}}\langle \chi_u|f\rangle \chi_u(g)$, hence the proposition.
+Hence, $f(g) =\sum_{u\in\widehat{G}}\langle \chi_u|f\rangle \chi_u(g)$; but, for all $u\in \widehat{G}$, the contragredient representation $u'$ of $u$ satisfies $\chi_u=\chi_{u'}$ and the map $u \rightarrow u'$ is a permutation of $\widehat{G}$; so we also have $f(g) =\sum_{u\in\widehat{G}}\langle \chi_u|f\rangle \chi_u(g)$, hence the proposition.
 
 $^8$ We embed End(E$_u)$ in the product $F( \widehat{G}) =\prod_{v\in\widehat{G}}$ End(E$_v)$ by associating to any
 
@@ -480,7 +476,7 @@ Indeed, by Cor. 4 of §7, no. 4,
 
 $\langle \chi_u|f\rangle =\int_G\lambda (u)(t)\varphi (t)dt$, where $\varphi (t) =\prod_{\alpha >0}(1-\alpha (t)^{-1})f(t)$.
 
-If $f|T$ is infinitely-differentiable, so is$\int\varphi$; by Prop. 5, applied to the group T, the function $\mu \rightarrow_T\mu(t)\varphi (t)dt$ on $\widehat{T} = X(T)$ is then rapidly decreasing, and so is the function $u \rightarrow  \langle \chi_u|f\rangle$; hence the function $f$ is infinitely-differentiable (Prop. 5). The converse is clear.
+If $f|T$ is infinitely-differentiable, so is $\varphi$; by Prop. 5, applied to the group T, the function $\mu \rightarrow \int_T\mu(t)\varphi (t)dt$ on $\widehat{T} = X(T)$ is then rapidly decreasing, and so is the function $u \rightarrow  \langle \chi_u|f\rangle$; hence the function $f$ is infinitely-differentiable (Prop. 5). The converse is clear.
 
 ### 4. CENTRAL FUNCTIONS ON G AND FUNCTIONS ON T
 

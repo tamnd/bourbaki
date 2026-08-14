@@ -33,7 +33,7 @@ subsections:
       pdf_page: 162
 statements: 49
 exercises: 31
-content_sha256: 12942c09b7a3e64603917bebb3e915bc608489afc172ae08312239b4b1a7d8fb
+content_sha256: 7838acd983bda31fb85481c8e30ec20927f6c73a3ca79a6edf2971c78f199a69
 ---
 
 ## § 9. RADICAL
@@ -54,7 +54,7 @@ Soit $\mathfrak{a}$ un idéal à gauche de A. Le radical du A-module $A_s/\mathf
 
 #### Exemple 2 {#alg-viii-s9-n1-exa-2 .statement tag=00A3}
 
-Soit A un anneau principal qui n’est pas un corps et soit K son corps des fractions. Comme K-module, K est sans radical. Démontrons que le radical de K, considéré comme A-module, est égal à K, ou, ce qui revient au même, que toute application A-linéaire $f$ de K dans un A-module simple S est nulle. D’après VII, p. 25, on peut supposer S égal à $A()/(\pi ()$, où$)\pi$ est un élément extrémal de A ; pour tout $x\in K$, on a $f(x) =f\pi_{\pi}^x=\pi f^x_{\pi}$ = 0 puisque $\pi S = 0$, d’où le résultat.
+Soit A un anneau principal qui n’est pas un corps et soit K son corps des fractions. Comme K-module, K est sans radical. Démontrons que le radical de K, considéré comme A-module, est égal à K, ou, ce qui revient au même, que toute application A-linéaire $f$ de K dans un A-module simple S est nulle. D’après VII, p. 25, on peut supposer S égal à $A/(\pi )$, où $\pi$ est un élément extrémal de A ; pour tout $x\in K$, on a $f(x) =f(\pi_{\pi}^x)=\pi f(^x_{\pi})= 0$ puisque $\pi S = 0$, d’où le résultat.
 
 #### Proposition 1 {#alg-viii-s9-prop-1 .statement tag=00A4}
 
@@ -240,7 +240,7 @@ Pour tout A-module M, on a $\mathfrak{R}(A)M\subset \mathfrak{R}(M)$et on a éga
 
 Soit P un sous-module maximal de M ; le A-module $M/P$ est simple, donc il est annulé par $\mathfrak{R}(A)$ d’après la prop. 5 de VIII, p. 150. On a donc $\mathfrak{R}(A)M\subset P$ pour tout sous-module maximal P de M, d’où $\mathfrak{R}(A)M\subset \mathfrak{R}(M)$.
 
-On a évidemment $\mathfrak{R}(A_s) =\mathfrak{R}(A)A_s$. Si le A-module M est projectif, il existe un A-module N tel que $M\oplus N$ soit libre, c’est-à-dire somme directe d’une famille $(L_i)_{i\in I}$ de modules isomorphes à $A(\bigoplus)_s$. D’après le cor. 2 de VIII, p. 148, on a $\mathfrak{R}(M\oplus N) =$ $\mathfrak{R}(M)\oplus \mathfrak{R}(N)$ et $\mathfrak{R}_{i\in I}L_i=\bigoplus_{i\in I}\mathfrak{R}(L_i)$; de l’égalité $\mathfrak{R}(L_i) =\mathfrak{R}(A)L_i$, on déduit alors l’égalité $\mathfrak{R}(M) =\mathfrak{R}(A)M$.
+On a évidemment $\mathfrak{R}(A_s) =\mathfrak{R}(A)A_s$. Si le A-module M est projectif, il existe un A-module N tel que $M\oplus N$ soit libre, c’est-à-dire somme directe d’une famille $(L_i)_{i\in I}$ de modules isomorphes à $A_s$. D’après le cor. 2 de VIII, p. 148, on a $\mathfrak{R}(M\oplus N) =$ $\mathfrak{R}(M)\oplus \mathfrak{R}(N)$ et $\mathfrak{R}(\bigoplus_{i\in I}L_i)=\bigoplus_{i\in I}\mathfrak{R}(L_i)$; de l’égalité $\mathfrak{R}(L_i) =\mathfrak{R}(A)L_i$, on déduit alors l’égalité $\mathfrak{R}(M) =\mathfrak{R}(A)M$.
 
 #### Théorème 2 {#alg-viii-s9-thm-2 .statement tag=00S6}
 

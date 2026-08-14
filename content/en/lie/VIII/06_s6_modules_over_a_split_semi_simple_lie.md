@@ -29,7 +29,7 @@ subsections:
       pdf_page: 130
 statements: 17
 exercises: 5
-content_sha256: 1bd375264bc8ed6aed42c2c23b0811306e9eaa94dc6c31aadeffa7d3adc3cee0
+content_sha256: ca6cbdef42ccfefee97dca1e407a3d944eb412e53fd098ef1c1ba47c359d7529
 ---
 
 ## § 6. MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -80,9 +80,9 @@ Let V be a $\mathfrak{g}$-module, $v$ a primitive element of V and $\omega$ the 
 
 (i) If $U(\mathfrak{n}_-)$ denotes the enveloping algebra of $\mathfrak{n}_-$, we have $V = U(\mathfrak{n}_-).v$.
 
-(ii) For all $\lambda \in \mathfrak{h}^*,\bigoplus V^{\lambda}$ is the set of $x\in V$ such that $Hx=\lambda (H)x$ for all $H\in \mathfrak{h}$. We have $V =_{\lambda\in\mathfrak{h}^*}V^{\lambda}$, and each $V^{\lambda}$ is finite dimensional. The space$\sum$
+(ii) For all $\lambda \in \mathfrak{h}^*,V^{\lambda}$ is the set of $x\in V$ such that $Hx=\lambda (H)x$ for all $H\in \mathfrak{h}$. We have $V =\bigoplus_{\lambda\in\mathfrak{h}^*}V^{\lambda}$, and each $V^{\lambda}$ is finite dimensional. The space
 
-$V^{\omega}$ is of dimension 1, and every weight of V is of the form $\omega -_{\alpha\in B}n_{\alpha}.\alpha$, where the $n_{\alpha}$ are integers $\geq 0$.
+$V^{\omega}$ is of dimension 1, and every weight of V is of the form $\omega -\sum_{\alpha\in B}n_{\alpha}.\alpha$, where the $n_{\alpha}$ are integers $\geq 0$.
 
 (iii) V is an indecomposable $\mathfrak{g}$-module, and its commutant reduces to the scalars.
 
@@ -120,7 +120,7 @@ V = $\sum T_{\lambda}$.
 
 $\lambda \in \omega -\mathbf{N}\alpha_1-\cdot \cdot \cdot -\mathbf{N}\alpha_n$
 
-The sum of the $V^{\lambda}$ is direct (Chap. VII, §1, no. 1, Prop. 3). From these observations it follows that $V^{\lambda}= T_{\lambda}$, that V is the direct sum of the $V^{\lambda}$, and that $V^{\lambda}$ is the set of $x\in V$ such that $hx=\lambda (h)x$ for all $h\in \mathfrak{h}$. On the other hand, dim $V^{\lambda}$ is at most the cardinal of the set of $(p_1, . . . , p_n)\in \mathbf{N}\sum^n$ such that $p_1\alpha_1+\cdots +p_n\alpha_n=\omega -\lambda$. This proves that $V^{\lambda}= 0$ if $\omega -\lambda  /\in_{\alpha\in B}\mathbf{N}\alpha$,
+The sum of the $V^{\lambda}$ is direct (Chap. VII, §1, no. 1, Prop. 3). From these observations it follows that $V^{\lambda}= T_{\lambda}$, that V is the direct sum of the $V^{\lambda}$, and that $V^{\lambda}$ is the set of $x\in V$ such that $hx=\lambda (h)x$ for all $h\in \mathfrak{h}$. On the other hand, dim $V^{\lambda}$ is at most the cardinal of the set of $(p_1, . . . , p_n)\in \mathbf{N}^n$ such that $p_1\alpha_1+\cdots +p_n\alpha_n=\omega -\lambda$. This proves that $V^{\lambda}= 0$ if $\omega -\lambda  /\in \sum_{\alpha\in B}\mathbf{N}\alpha$,
 
 that dim $V^{\omega}= 1$, and that the $V^{\lambda}$ are all finite dimensional.
 
@@ -190,7 +190,7 @@ Let V be a simple $\mathfrak{g}$-module with a highest weight $\omega$.
 
 (ii) V is semi-simple as an $\mathfrak{h}$-module.
 
-(iii) We have $V =_{\lambda}\bigoplus_{\in\mathfrak{h}^*}V^{\lambda}$. For all $\lambda \in \mathfrak{h}^*,V^{\lambda}$ is finite dimensional. We
+(iii) We have $V =\bigoplus_{\lambda\in\mathfrak{h}^*}V^{\lambda}$. For all $\lambda \in \mathfrak{h}^*,V^{\lambda}$ is finite dimensional. We
 
 have dim $V^{\omega}= 1$.
 
@@ -238,9 +238,9 @@ $$
 
 hence (i).
 
-The $\mathfrak{h}$-module $Z(\sum\lambda )$ is semi-simple (Prop. 1). If G is a $\mathfrak{g}$-submodule of $Z(\lambda )$, then G = $*(G\cap Z(\lambda )^\mu)$. The hypothesis $G\cap Z(\lambda )^{\lambda}\not= 0$ implies
+The $\mathfrak{h}$-module $Z(\lambda )$ is semi-simple (Prop. 1). If G is a $\mathfrak{g}$-submodule of $Z(\lambda )$, then $G =\sum_{\mu\in\mathfrak{h}^*}(G\cap Z(\lambda )^\mu)$. The hypothesis $G\cap Z(\lambda )^{\lambda}\not= 0$ implies
 
-that $G = Z(\lambda )$, since dim $Z(\sum^{\mu\in\mathfrak{h}}\lambda )^{\lambda}= 1$ and $e$ generates the $\mathfrak{g}$-module $Z(\lambda )$. If $G\not= Z(\lambda )$, then $G =_{\mu\not=\lambda}G\cap Z(\lambda )^\mu\subset Z^+(\lambda )$.
+that $G = Z(\lambda )$, since dim $Z(\lambda )^{\lambda}= 1$ and $e$ generates the $\mathfrak{g}$-module $Z(\lambda )$. If $G\not= Z(\lambda )$, then $G =\sum_{\mu\not=\lambda}G\cap Z(\lambda )^\mu\subset Z^+(\lambda )$.
 
 Let $F_{\lambda}$ be the sum of the $\mathfrak{g}$-submodules of $Z(\lambda )$ distinct from $Z(\lambda )$. By (ii), $F_{\lambda}\subset Z^+(\lambda )$. Hence $F_{\lambda}$ is the largest submodule of $Z(\lambda )$ distinct from $Z(\lambda )$. It is clear that $Z(\lambda )/F_{\lambda}$ is simple and that the canonical image of $e$ in $Z(\lambda )/F_{\lambda}$ is primitive of weight $\lambda$.
 
@@ -294,7 +294,7 @@ Thus, $x$ is primitive of weight $\lambda -(m+ 1)\alpha$. In view of Prop. 6, th
 
 #### Corollary 2 {#lie-viii-s6-prop-6-cor-2 .statement tag=012Z}
 
-Let $\rho =^1_{2\alpha}\sum_{\in R_+}\alpha$, and $\lambda , \mu\in \mathfrak{h}^*$. Assume that $\lambda +\rho$ is a dominant weight in R, and that there exists $w\in W$ with $\mu+\rho =w(\lambda +\rho )$. Then $Z(\mu)$ is isomorphic to a submodule of $Z(\lambda )$.
+Let $\rho =^1_2\sum_{\alpha\in R_+}\alpha$, and $\lambda , \mu\in \mathfrak{h}^*$. Assume that $\lambda +\rho$ is a dominant weight in R, and that there exists $w\in W$ with $\mu+\rho =w(\lambda +\rho )$. Then $Z(\mu)$ is isomorphic to a submodule of $Z(\lambda )$.
 
 The assertion is clear when $w= 1$. Assume that it is established whenever $w$ is of length $< q$. If $w$ is of length $q$, there exists $\alpha \in B$ such that $w=s_{\alpha}w^{'-1}$, with $l(w') =q-1$. We have $w'(\alpha )\in R_+$ (Chap. VI, §1, no. 6, Cor. 2 of Prop. 17), and hence $w^{'-1}(\lambda +\rho )(H_{\alpha}) = (\lambda +\rho )(H_{w'\alpha})$ is an integer $\geq 0$. Put
 
@@ -324,7 +324,7 @@ $$
 [h, u((q_i),(m_i),(p_i))] = ((p_1-q_1)\alpha_1+\cdots +(p_n-q_n)\alpha_n)(h)u((q_i),(m_i),(p_i)).(3)
 $$
 
-The vector space U is a $\mathfrak{g}$-module (hence also an $\mathfrak{h}$-module) under the adjoint representation. If $\lambda \in \mathfrak{h}^*$, the subspaces $U^{\lambda}$ and $U_{\lambda}$ are defined$\bigoplus$ (Chap. VII, §1, no. 3); formula (3) shows that $U^{\lambda}= U_{\lambda}$ and that $U =_{\lambda\in Q}U^{\lambda}$
+The vector space U is a $\mathfrak{g}$-module (hence also an $\mathfrak{h}$-module) under the adjoint representation. If $\lambda \in \mathfrak{h}^*$, the subspaces $U^{\lambda}$ and $U_{\lambda}$ are defined (Chap. VII, §1, no. 3); formula (3) shows that $U^{\lambda}= U_{\lambda}$ and that $U =\bigoplus_{\lambda\in Q}U^{\lambda}$
 
 (where Q is the group of radical weights of R). In particular, $U^0$ is the commutant of $\mathfrak{h}$, or of V, in U.
 
@@ -336,7 +336,7 @@ Put $L = (\mathfrak{n}_-U)\cap U^0$.
 
 (ii) We have $U^0= V\oplus L$.
 
-It is clear that $\mathfrak{n}_-U$ (resp. $U\mathfrak{n}_+)$ is the set of linear combinations of the$\sum\sum$ elements $u((q_i),(m_i),(p_i))$ such that $q_i>0$ (resp. $p_i>0)$. On the other hand
+It is clear that $\mathfrak{n}_-U$ (resp. $U\mathfrak{n}_+)$ is the set of linear combinations of the elements $u((q_i),(m_i),(p_i))$ such that $\sum q_i>0$ (resp. $\sum p_i>0)$. On the other hand
 
 $$
 u((q_i),(m_i),(p_i))\in U^0\Leftarrow \Rightarrow p_1\alpha_1+\cdots +p_n\alpha_n=q_1\alpha_1+\cdots +q_n\alpha_n
@@ -358,21 +358,23 @@ $$
 
 #### Corollary {#lie-viii-s6-n4-cor-1 .statement tag=0132}
 
-Let $\langle  \cdot ,\cdot  \rangle$ be a non-degenerate invariant symmetric bilinear form on $\mathfrak{g}$, C the Casimir element associated to $\langle  \cdot ,\cdot  \rangle$. Denote also by $\langle  \cdot ,\cdot  \rangle$ the inverse form on $\mathfrak{h}^*$ of the restriction of$\sum\langle  \cdot ,\cdot  \rangle$ to $\mathfrak{h}($§2, no. 3, Prop. 5). Then $\chi (C) =\langle \lambda , \lambda + 2\rho \rangle$, where $\rho =^1_{2\alpha\in R_+}\alpha$.
+Let $\langle  \cdot ,\cdot  \rangle$ be a non-degenerate invariant symmetric bilinear form on $\mathfrak{g}$, C the Casimir element associated to $\langle  \cdot ,\cdot  \rangle$. Denote also by $\langle  \cdot ,\cdot  \rangle$ the inverse form on $\mathfrak{h}^*$ of the restriction of $\langle  \cdot ,\cdot  \rangle$ to $\mathfrak{h}($§2, no. 3, Prop. 5). Then $\chi (C) =\langle \lambda , \lambda + 2\rho \rangle$, where $\rho =^1_2\sum_{\alpha\in R_+}\alpha$.
 
 We recall the notations of §2, no. 3, Prop. 6. We have
 
-$\sum$ 1 $\sum$ 1
+1 1
 
-C = $X_{\alpha}X_{-\alpha}+X_{-\alpha}X_{\alpha}$
+C = $\sum X_{\alpha}X_{-\alpha}+\sum X_{-\alpha}X_{\alpha}$
 
 $$
 _{\alpha\in R_-}\langle X_{\alpha}, X_{-\alpha}\rangle \alpha_{\in R_+}\langle X_{\alpha}, X_{-\alpha}\rangle
 $$
 
-$\sum$ 1 $\sum'$
+1 $'$
 
-+ $[X_{\alpha}, X_{-\alpha}] +H_iH$
+$$
++\sum[X_{\alpha}, X_{-\alpha}] +\sum H_iH
+$$
 
 $$
 _{\alpha\in R_+}\langle X_{\alpha}, X_{-\alpha}\rangle i_{\in I}^i
@@ -392,10 +394,10 @@ $$
 
 By Prop. 7,
 
-$\sum$ 1 $\sum'$
+1 $'$
 
 $$
-\chi (C) =\lambda ([X_{\alpha}, X_{-\alpha}]) +\lambda (H_i)\lambda (H)
+\chi (C) =\sum\lambda ([X_{\alpha}, X_{-\alpha}]) +\sum\lambda (H_i)\lambda (H)
 $$
 
 $$

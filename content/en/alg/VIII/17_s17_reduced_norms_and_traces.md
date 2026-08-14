@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: 292f6683d9b5d2ec22b09033d69bf9491c7fa8bc745995ea39ed7de776d30f8e
+content_sha256: ddeef9e5cd26e15e7d6169e210fab3880c2e67273210d462bd8013acf2a18bc8
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -521,7 +521,9 @@ We denote the $K'$-algebra $K'[T]/(P(T))$ by $K''$ and the canonical class of T 
 
 0 0 $\cdots$ 0 $-a_s$
 
-1 0 $\cdots$ 0 $-a_{s-1}$
+1 0 $\cdots$ 0 $-a$
+
+$s-1$
 
 0 1 $\cdots$ 0 $-a$
 

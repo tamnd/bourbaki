@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: d3cbabdc4a49112866d0acb075981e8dbf7f3d490f9b96e3bdff0cf2ea34c648
+content_sha256: 7a542126f546b95146f4c4d19e85bff6bfd95b1da9adba64e3b99971d76d9978
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -133,10 +133,8 @@ La représentation régulière (gauche) de G est la représentation $\boldsymbol
 $|G|$ si $g$ est l’élément neutre,
 
 $$
-\chi (g) = \tag{2}
+\chi_{\boldsymbol{\gamma }}(g) = \tag{2}
 $$
-
-$\boldsymbol{\gamma }$
 
 0 sinon.
 
@@ -148,7 +146,7 @@ On définit de façon similaire la représentation régulière droite de G. La r
 
 #### Exemple 4 {#alg-viii-s21-n1-exa-4 .statement tag=00NH}
 
-Soient $(M, \pi )$ et $(M', \pi ')$ des représentations linéaires de G. On a défini dans l’exemple 1 de VIII, p. 193 une structure de K[G]-module sur $M\otimes_KM'$. La représentation linéaire correspondante est appelée $($ produit tensoriel de$)\pi$ et $\pi '$ et notée $\pi \otimes \pi '$. Pour $g\in G,x\in M$ et $x'\in M'$, on a $(\pi \otimes \pi ')(g)(x\otimes x') =\pi (g)x\otimes \pi '(g)x'$.
+Soient $(M, \pi )$ et $(M', \pi ')$ des représentations linéaires de G. On a défini dans l’exemple 1 de VIII, p. 193 une structure de K[G]-module sur $M\otimes_KM'$. La représentation linéaire correspondante est appelée produit tensoriel de $\pi$ et $\pi '$ et notée $\pi \otimes \pi '$. Pour $g\in G,x\in M$ et $x'\in M'$, on a $((\pi \otimes \pi ')(g))(x\otimes x') =\pi (g)x\otimes \pi '(g)x'$.
 
 Si M et $M'$ sont des K-modules libres de dimension finie, on a, d’après la prop. 2 de III, p. 109,
 

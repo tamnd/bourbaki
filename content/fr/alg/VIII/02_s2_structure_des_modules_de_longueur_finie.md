@@ -33,7 +33,7 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 19
-content_sha256: bf71cdddea883d082ffabb1e855bc076eda1f524b11c3a6f13d4a05725c66fce
+content_sha256: 803669ca3d99fd8bc964b35d1cb73984b02451895363d5691f96f427ece52fc9
 ---
 
 ## § 2. STRUCTURE DES MODULES DE LONGUEUR FINIE
@@ -292,7 +292,7 @@ Soit $j\in J$. D’après le lemme 3, il existe un indice $i\in I$ tel que $p_j$
 
 Card(J) $\leqslant \sum_{i\in I_L}$ Card(J($i$))$\leqslant$ Card(I$_L)$.
 
-Supposons maintenant l’ensemble J fini, et démontrons le lemme par récurrence sur le cardinal de J. Si J est vide, il n’y a rien à prouver. Supposons donc J non vide et choisissons un élément $j$ de J. D’après ce qui précède, il existe un indice $i\in I_L$ tel que $p_j$ induise un isomorphisme de $M_i$ sur $N_j$. Posons $I'= I-\{i\}$ et $J'= J-\{j\}$. Le module M est somme directe de $M_i$ et du noyau de $p_j$. Il est aussi somme directe de $M_i$ et du sous-module $M'=\oplus_{i'\in I'}M_{i'}$. Il existe donc (II, p. 20, cor. de la prop. 13) un$(\sum)$ isomorphisme $\varphi$ de Ker$p_j= N_0\oplus_{j'\in J'}N_{j'}$ sur $M'$. Posons $N'=\varphi_{j'\in J'}N_{j'}$. Le sous-module $N'$ est facteur direct de $M'$ et est somme directe de la famille $(\varphi (N_{j'}))_{j'\in J'}$ de sous-modules primordiaux isomorphes à L. Appliquons l’hypothèse de récurrence à $M'$ et $N':$ on a Card(J$')\leqslant$ Card(I$_L-\{i\})$, d’où l’inégalité (1).
+Supposons maintenant l’ensemble J fini, et démontrons le lemme par récurrence sur le cardinal de J. Si J est vide, il n’y a rien à prouver. Supposons donc J non vide et choisissons un élément $j$ de J. D’après ce qui précède, il existe un indice $i\in I_L$ tel que $p_j$ induise un isomorphisme de $M_i$ sur $N_j$. Posons $I'= I-\{i\}$ et $J'= J-\{j\}$. Le module M est somme directe de $M_i$ et du noyau de $p_j$. Il est aussi somme directe de $M_i$ et du sous-module $M'=\oplus_{i'\in I'}M_{i'}$. Il existe donc (II, p. 20, cor. de la prop. 13) un isomorphisme $\varphi$ de Ker$p_j= N_0\oplus_{j'\in J'}N_{j'}$ sur $M'$. Posons $N'=\varphi (\sum_{j'\in J'}N_{j'})$. Le sous-module $N'$ est facteur direct de $M'$ et est somme directe de la famille $(\varphi (N_{j'}))_{j'\in J'}$ de sous-modules primordiaux isomorphes à L. Appliquons l’hypothèse de récurrence à $M'$ et $N':$ on a Card(J$')\leqslant$ Card(I$_L-\{i\})$, d’où l’inégalité (1).
 
 Prouvons le théorème 1. Soient $(M_i)_{i\in I}$ et $(N_j)_{j\in J}$ deux familles de sous-modules primordiaux dont M soit la somme directe. Soit $I_L$ (resp. $J_L)$ l’ensemble des $i\in I$ (resp. $j\in J)$ tels que $M_i$ (resp. $N_j)$ soit isomorphe à L. On a Card(J$_L)\leqslant$ Card(I$_L)$ d’après le lemme 4. En échangeant les rôles de I et J on obtient l’inégalité opposée, d’où le théorème.
 

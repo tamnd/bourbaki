@@ -29,7 +29,7 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: 28018721f37f31ae8930f6476f813e7630b9dfae7f7036bc210222851e3c77fa
+content_sha256: ea7a2d7cd087379e261b5ceb1c7446ed68736814f472c4f9bf184283d91150a5
 ---
 
 ## § 5. CONJUGACY CLASSES
@@ -134,7 +134,7 @@ The canonical maps $C\rightarrow \mathfrak{t}$ and $\mathfrak{t}\rightarrow \mat
 
 Denote by $\mathfrak{g}_{reg}$ the set of regular elements of $\mathfrak{g}$ (Chap. VII, §2, no. 2, Def. 2) and put $\mathfrak{t}_{reg}=\mathfrak{t}\cap \mathfrak{g}_{reg}$. For $x\in \mathfrak{t}$, we have
 
-det(X $-$ ad$_{\mathfrak{g}}x) = X^{dim\mathfrak{t}}_{\alpha}\prod_{\in R(G,T)}(X-\delta (\alpha )(x))$,
+det(X $-$ ad$_{\mathfrak{g}}x) = X^{dim}\prod_{\alpha\in R(G,T)}^{\mathfrak{t}}(X-\delta (\alpha )(x))$,
 
 and hence $\mathfrak{t}_{reg}$ is the set of elements $x$ of $\mathfrak{t}$ such that $\delta (\alpha )(x)\not= 0$ for all $\alpha \in R(G,T)$, that is the union of the chambers of $\mathfrak{t}$ (so $\mathfrak{t}_r\subset \mathfrak{t}_{reg})$. Consequently $C\cap \mathfrak{t}_{reg}= C$, so we have homeomorphisms
 
@@ -160,7 +160,7 @@ Assertion $a)$ is clear. To prove $b)$, we can replace G by D(G) (§1, Cor. 1 of
 
 $u\circ$ Int $g=$ (Int $u(g))\circ u=$ Int $g\circ$ (Int $h)^{-1}\circ u$,
 
-so the framing (Int$\sum g)(E)$ is stable under $u$. If (Int $g)(E) = (T_1,B,(U_{\alpha})_{\alpha\in B})$, then $U_{\alpha}\in L(H)$; since $L(H) =\{0\}$, this implies that $B =\emptyset$, so $G = T_1$, and G is commutative.
+so the framing (Int $g)(E)$ is stable under $u$. If (Int $g)(E) = (T_1,B,(U_{\alpha})_{\alpha\in B})$, then $\sum U_{\alpha}\in L(H)$; since $L(H) =\{0\}$, this implies that $B =\emptyset$, so $G = T_1$, and G is commutative.
 
 #### Lemma 2 {#lie-ix-s5-lem-2 .statement tag=01E6}
 

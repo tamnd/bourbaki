@@ -12,7 +12,7 @@ pdf_pages: 0167-0171, 0268-0269
 extraction: native
 statements: 8
 exercises: 7
-content_sha256: 3e2c1befb4368a225f5873975be2bb9365dc485f6997209de39299d9c5d2d7f2
+content_sha256: 16093e656915016760237c5db575e614423b25f25929bb29575e0fe1d0374415
 ---
 
 ## § 10. MAXIMAL SUBALGEBRAS OF SEMI-SIMPLE LIE ALGEBRAS
@@ -45,9 +45,9 @@ an element of $\mathfrak{g}_1$ is orthogonal to $\mathfrak{q}_1$ if and only if 
 
 $d)$ The Cartan subalgebra $\mathfrak{h}$ of $\mathfrak{m}$ is a Cartan subalgebra of $\mathfrak{g}:$ We have $\mathfrak{q}=\mathfrak{m}\oplus \mathfrak{n}$ and $\mathfrak{h}=\mathfrak{m}\cap \mathfrak{g}_1$, so it is immediate that $\mathfrak{q}_1=\mathfrak{h}\oplus \mathfrak{n}_1$. Moreover, $[\mathfrak{h},\mathfrak{n}_1] = 0,\mathfrak{h}$ is commutative and $\mathfrak{n}_1$ is nilpotent, so the Lie algebra $\mathfrak{q}_1$ is nilpotent. By $a)$ and $c),\mathfrak{q}_1$ is the normalizer of $\mathfrak{n}_1$ in $\mathfrak{g}_1$; a fortiori$,\mathfrak{q}_1$ is equal to its normalizer in $\mathfrak{g}_1$, hence is a Cartan subalgebra of $\mathfrak{g}_1$. Since $\mathfrak{g}_1$ is reductive in $\mathfrak{g}\mathfrak{l}$(V), it follows from Cor. 3 of Th. 2 of Chap. VII, §2, no. 4, that $\mathfrak{q}_1$ is composed of semi-simple endomorphisms of V; thus, since $\mathfrak{n}_1$ is composed of nilpotent endomorphisms of V, we have $\mathfrak{n}_1= 0$. Consequently, $\mathfrak{h}=\mathfrak{q}_1$ is a Cartan subalgebra of $\mathfrak{g}_1$, and since $\mathfrak{g}_1$ normalizes $\mathfrak{h}$, we have $\mathfrak{h}=\mathfrak{g}_1$. Thus, we have proved that every element of $\mathfrak{h}$ is a semi-simple element of $\mathfrak{g}$, and that the commutant of $\mathfrak{h}$ in $\mathfrak{g}$ is equal to $\mathfrak{h}$; it follows that $\mathfrak{h}=\mathfrak{g}^0(\mathfrak{h})$, so $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{g}$.
 
-$e)\mathfrak{q}$ is a parabolic subalgebra of $\mathfrak{g}:$ by the preceding, $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{g},\mathfrak{n}$ consists of nilpotent elements of $\mathfrak{g}$, and $[\mathfrak{h},\mathfrak{n}]\subset \mathfrak{n}$. Let $\overline{k}$ be an algebraic closure of $k$; by definition, $\mathfrak{q}$ is parabolic in $\mathfrak{g}$ if and only if $\overline{k}\otimes_k\mathfrak{q}$ is a parabolic subalgebra of $\overline{k}\otimes_k\mathfrak{g}$. The properties stated above being preserved by extension of scalars, for the proof we can restrict ourselves to the case in which $\mathfrak{h}$ is splitting. Let R be the root system of $(\mathfrak{g},\mathfrak{h})$; by Prop. 2 (v) of$\sum$ §3, no. 1, there exists a subset P of R such that $P\cap (-P) =\emptyset$ and $\mathfrak{n}=\mathfrak{g}^{\alpha}$.
+$e)\mathfrak{q}$ is a parabolic subalgebra of $\mathfrak{g}:$ by the preceding, $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{g},\mathfrak{n}$ consists of nilpotent elements of $\mathfrak{g}$, and $[\mathfrak{h},\mathfrak{n}]\subset \mathfrak{n}$. Let $\overline{k}$ be an algebraic closure of $k$; by definition, $\mathfrak{q}$ is parabolic in $\mathfrak{g}$ if and only if $\overline{k}\otimes_k\mathfrak{q}$ is a parabolic subalgebra of $\overline{k}\otimes_k\mathfrak{g}$. The properties stated above being preserved by extension of scalars, for the proof we can restrict ourselves to the case in which $\mathfrak{h}$ is splitting. Let R be the root system of $(\mathfrak{g},\mathfrak{h})$; by Prop. 2 (v) of §3, no. 1, there exists a subset P of R such that $P\cap (-P) =\emptyset$ and $\mathfrak{n}=\sum_{\alpha\in P}\mathfrak{g}^{\alpha}$.
 
-Let $P'$ be the set of roots $\alpha$ such that $-\alpha  /\in P$; we have $P\sum'\cup (-{P'}^{\alpha}) = R,^{\in P}$ and the orthogonal complement $\mathfrak{q}$ of $\mathfrak{n}$ in $\mathfrak{g}$ is equal to $\mathfrak{h}+_{\alpha\in P'}\mathfrak{g}^{\alpha}$. We have
+Let $P'$ be the set of roots $\alpha$ such that $-\alpha  /\in P$; we have $P'\cup (-P') = R$, and the orthogonal complement $\mathfrak{q}$ of $\mathfrak{n}$ in $\mathfrak{g}$ is equal to $\mathfrak{h}+\sum_{\alpha\in P'}\mathfrak{g}^{\alpha}$. We have
 
 proved that $\mathfrak{q}$ is parabolic. Q.E.D.
 
@@ -59,13 +59,13 @@ Let $\mathfrak{g}$ be a semi-simple Lie algebra, V a finite dimensional vector s
 
 (ii) If $\rho$ is injective, the restriction of $\Phi$ to $\mathfrak{s}$ (resp. $\mathfrak{s}')$ is non-degenerate.
 
-Assume that the Cartan subalgebra$\bigwedge\bigwedge\mathfrak{h}$ is splitting. Let $d$ be the dimension of D; put W = $^d(V)$ and $\sigma =^d(\rho )$; denote also by $(e_1, . . . , e_d)$ a basis of D and $e=e_1\wedge  \cdots  \wedge e_d$ a decomposable $d$-vector associated to D. Let P be the set of weights of $\sigma$ with respect to $\mathfrak{h}$; denote by $W^\mu$ the subspace of
+Assume that the Cartan subalgebra $\mathfrak{h}$ is splitting. Let $d$ be the dimension of D; put $W =\bigwedge^d(V)$ and $\sigma =\bigwedge^d(\rho )$; denote also by $(e_1, . . . , e_d)$ a basis of D and $e=e_1\wedge  \cdots  \wedge e_d$ a decomposable $d$-vector associated to D. Let P be the set of weights of $\sigma$ with respect to $\mathfrak{h}$; denote by $W^\mu$ the subspace of
 
-$^5$ In other words, $\Phi (x, y) =$ Tr($\rho (x)\rho (y)$) for $x, y\in \mathfrak{g}$. W associated to the weight $\mu$, and put $e=_\mu\sum_{\in P}e^\mu$ (with $e^\mu\in W^\mu$ for all
+$^5$ In other words, $\Phi (x, y) =$ Tr($\rho (x)\rho (y)$) for $x, y\in \mathfrak{g}$. W associated to the weight $\mu$, and put $e=\sum_{\mu\in P}e^\mu$ (with $e^\mu\in W^\mu$ for all
 
 $\mu\in P)$; finally, let $P'$ be the set of weights $\mu$ such that $e^\mu\not= 0$ and let $P''$ be the set of differences of elements of $P'$. Let $x$ be in $\mathfrak{h}$; then $x$ belongs to $\mathfrak{s}$ if and only if there exists $c$ in $k$ such that $\rho (x).e=c.e$ (Chap. VII, §5, no. 4, Lemma 2 (i)). Since $\rho (x).e^\mu=\mu(x).e^\mu$, we see that $x\in \mathfrak{s}$ is equivalent to the relation “$\mu(x) = 0$ for all $\mu\in P''$ ”. Now, the $\mathbf{Q}$-structure of $\mathfrak{h}$ is the $\mathbf{Q}$-vector subspace $\mathfrak{h}_{\mathbf{Q}}$ of $\mathfrak{h}$ generated by the coroots $H_{\alpha}$ and all $\mu$ in $P''$ take rational values on $\mathfrak{h}_{\mathbf{Q}}$; it follows (Algebra, Chap. II, §8, no. 4, Prop. 5) that $\mathfrak{s}$ is a subspace of $\mathfrak{h}$ rational over $\mathbf{Q}$.
 
-For any weight $\mu\in P$, let$\bigoplus p_\mu$ be the projection onto $V^\mu$ associated to the decomposition $V =_{\mu\in P}V^\mu$; denote by $P_1$ the set of $\mu\in P$ such that
+For any weight $\mu\in P$, let $p_\mu$ be the projection onto $V^\mu$ associated to the decomposition $V =\bigoplus_{\mu\in P}V^\mu$; denote by $P_1$ the set of $\mu\in P$ such that
 
 $p_\mu(D)\not= 0$. It is immediate that $\mathfrak{s}'$ is the intersection of the kernels (in $\mathfrak{h})$ of the elements of $P_1$; it follows, in the same way as for $\mathfrak{s}$, that $\mathfrak{s}'$ is a subspace of $\mathfrak{h}$ rational over $\mathbf{Q}$. This proves (i).
 

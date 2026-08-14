@@ -29,7 +29,7 @@ subsections:
       pdf_page: 147
 statements: 30
 exercises: 6
-content_sha256: 6ea92f41770ad3a64d6fe597643c80deebe81e0e65e06b90aa4840f14588b49f
+content_sha256: b57dc581ca10984e6f769821ee4f7f61fabd2e6f7c3b257442c43a4830830474
 ---
 
 ## § 8. ANNEAUX SEMI-SIMPLES
@@ -248,11 +248,7 @@ Démontrons le corollaire. Soit $i\in I$; notons $\mathfrak{b}'_i$ le noyau de p
 
 Notons Z le centre de A ; pour tout $\lambda \in \mathscr{S}$, soit $Z_{\lambda}$ le centre du corps $D_{\lambda}$.
 
-a) L’application $z\rightarrow (z_S)_{\lambda\in\mathscr{S}}$ est un isomorphisme de l’anneau Z sur le produit
-
-$\prod\lambda$
-
-$_{\lambda\in\mathscr{S}}Z_{\lambda}$.
+a) L’application $z\rightarrow (z_{S_{\lambda}})_{\lambda\in\mathscr{S}}$ est un isomorphisme de l’anneau Z sur le produit $\prod_{\lambda\in\mathscr{S}}Z_{\lambda}$.
 
 b) Ordonnons par inclusion l’ensemble $\mathscr{I}_Z$ des idéaux de Z et l’ensemble $\mathscr{B}_A$ des idéaux bilatères de A. L’application $\mathfrak{a}\rightarrow \mathfrak{a}A$est un isomorphisme d’ensembles ordonnés de $\mathscr{I}_Z$ sur $\mathscr{B}_A$. L’isomorphisme réciproque associe à un idéal bilatère $\mathfrak{b}$ de A l’idéal $\mathfrak{b}\cap Z$de Z.
 
@@ -410,7 +406,7 @@ b) Les idempotents indécomposables de l’anneau Z sont les $e_{\lambda}$, et l
 
 c) Soient M un A-module et $(M_{\lambda})_{\lambda\in\mathscr{S}}$ la famille de ses composants isotypiques. La famille de projecteurs associée à la décomposition de M en somme directe des $M_{\lambda}$ (VIII, p. 61) est $((e_{\lambda})_M)_{\lambda\in\mathscr{S}}$ et l’on a $M_{\lambda}=\mathfrak{a}_{\lambda}M$pour tout $\lambda \in \mathscr{S}$.
 
-Soient $\lambda$ et $\mu$ distincts dans $\mathscr{S}$. On a $e_{\lambda}\in \mathfrak{a}_{\lambda}$ et $\mathfrak{a}_{\lambda}$ est contenu dans l’annulateur $\mathfrak{b}_{\mu}$ du A-module $S_{\mu}$ (VIII, p. 137, prop.$\sum 9$) ; on a donc $(e_{\lambda})_{S_{\mu}}= 0$. La relation $(e_{\lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$ résulte de là puisqu’on a 1 = $_{\nu\in\mathscr{S}}e_{\nu}$. L’assertion a) découle alors de la prop. 8 de VIII, p. 137.
+Soient $\lambda$ et $\mu$ distincts dans $\mathscr{S}$. On a $e_{\lambda}\in \mathfrak{a}_{\lambda}$ et $\mathfrak{a}_{\lambda}$ est contenu dans l’annulateur $\mathfrak{b}_{\mu}$ du A-module $S_{\mu}$ (VIII, p. 137, prop. 9) ; on a donc $(e_{\lambda})_{S_{\mu}}= 0$. La relation $(e_{\lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$ résulte de là puisqu’on a $1 =\sum_{\nu\in\mathscr{S}}e_{\nu}$. L’assertion a) découle alors de la prop. 8 de VIII, p. 137.
 
 Soit $\lambda$ dans $\mathscr{S}$. L’idéal bilatère $\mathfrak{a}_{\lambda}$ de A se compose des éléments $x$ tels que $x=xe_{\lambda}$; on a donc $Z\cap \mathfrak{a}_{\lambda}= Ze_{\lambda}$, d’où b) d’après la prop. 10, b) de VIII, p. 138.
 

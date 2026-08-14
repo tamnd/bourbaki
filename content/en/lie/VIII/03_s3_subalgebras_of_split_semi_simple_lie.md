@@ -33,7 +33,7 @@ subsections:
       pdf_page: 102
 statements: 28
 exercises: 14
-content_sha256: d27b47e36afadb2730365f425dfdd8d919e6f718e128ea5ddc0ec998143508b8
+content_sha256: bb4fbba66794d2448e767216a487cc2435a0d8e55bfa7858277f92188f613d3e
 ---
 
 ## § 3. SUBALGEBRAS OF SPLIT SEMI-SIMPLE LIE ALGEBRAS
@@ -44,7 +44,7 @@ In this paragraph, we denote by $(\mathfrak{g},\mathfrak{h})$ a split semi-simpl
 
 #### Lemma 1 {#lie-viii-s3-lem-1 .statement tag=00ZO}
 
-Let V be a vector subspace of$\sum\mathfrak{g}$ and R(V) the set of $\alpha \in R$ such that $\mathfrak{g}^{\alpha}\subset V$. Then, $(V\cap \mathfrak{h}) +_{\alpha\in R(V)}\mathfrak{g}^{\alpha}$ is the largest vector subspace of V stable under ad $\mathfrak{h}$.
+Let V be a vector subspace of $\mathfrak{g}$ and R(V) the set of $\alpha \in R$ such that $\mathfrak{g}^{\alpha}\subset V$. Then, $(V\cap \mathfrak{h}) +\sum_{\alpha\in R(V)}\mathfrak{g}^{\alpha}$ is the largest vector subspace of V stable under ad $\mathfrak{h}$.
 
 A vector subspace W of V is stable under ad $\mathfrak{h}$ if and only if
 
@@ -52,7 +52,7 @@ $$
 W = (W\cap \mathfrak{h}) +\sum_{\alpha\in R}(W\cap \mathfrak{g}^{\alpha})
 $$
 
-(Algebra, Chap. VII, §2, no. 2, Cor. 1 of Th. 1). The largest vector subspace$\sum$ of V stable under ad $\mathfrak{h}$ is thus $(V\cap \mathfrak{h}) +_{\alpha\in R}(V\cap \mathfrak{g}^{\alpha})$. But $V\cap \mathfrak{g}^{\alpha}=\mathfrak{g}^{\alpha}$ for $\alpha \in R(V)$, and $V\cap \mathfrak{g}^{\alpha}= 0$ for $\alpha  /\in R(V)$ since dim $\mathfrak{g}^{\alpha}= 1$. Q.E.D.
+(Algebra, Chap. VII, §2, no. 2, Cor. 1 of Th. 1). The largest vector subspace of V stable under ad $\mathfrak{h}$ is thus $(V\cap \mathfrak{h}) +\sum_{\alpha\in R}(V\cap \mathfrak{g}^{\alpha})$. But $V\cap \mathfrak{g}^{\alpha}=\mathfrak{g}^{\alpha}$ for $\alpha \in R(V)$, and $V\cap \mathfrak{g}^{\alpha}= 0$ for $\alpha  /\in R(V)$ since dim $\mathfrak{g}^{\alpha}= 1$. Q.E.D.
 
 For any subset P of R, put
 
@@ -148,13 +148,13 @@ $$
 
 so $\mathfrak{a}$ is solvable and $[\mathfrak{a},\mathfrak{a}]$ is given by the formula in the proposition. If $P\cap (-P)\not=\emptyset$, let $\alpha \in P$ be such that $-\alpha \in P$. Then $\mathfrak{h}_{\alpha}+\mathfrak{g}^{\alpha}+\mathfrak{g}^{-\alpha}$ is a simple subalgebra of $\mathfrak{a}$ so $\mathfrak{a}$ is not solvable.
 
-We prove (i). Since P is closed, $(P + Q)\cap R\subset P$. If $\alpha \in P, \beta \in Q$ and $\alpha +\beta \in R$, we cannot have $\alpha +\beta \in  -P$, for, P being closed, this would imply that $-\beta =-(\alpha +\beta ) +\alpha \in P$ whereas $\beta \in Q$; thus, $(P + Q)\cap R\subset Q$. This proves that $\mathfrak{g}^Q$ is an ideal of $\mathfrak{a}$, nilpotent by (v). We have $P\bigcap\cap (-Q) =\emptyset$, and $P\cap (-P) = P\cap \complement Q$, so $\mathfrak{h}_{P\cap(-Q)}\subset \mathfrak{k}\subset_{\alpha\in P,\alpha  /\in Q}$ Ker$\alpha$. By Prop. 1 (ii),
+We prove (i). Since P is closed, $(P + Q)\cap R\subset P$. If $\alpha \in P, \beta \in Q$ and $\alpha +\beta \in R$, we cannot have $\alpha +\beta \in  -P$, for, P being closed, this would imply that $-\beta =-(\alpha +\beta ) +\alpha \in P$ whereas $\beta \in Q$; thus, $(P + Q)\cap R\subset Q$. This proves that $\mathfrak{g}^Q$ is an ideal of $\mathfrak{a}$, nilpotent by (v). We have $P\cap (-Q) =\emptyset$, and $P\cap (-P) = P\cap \complement Q$, so $\mathfrak{h}_{P\cap(-Q)}\subset \mathfrak{k}\subset \bigcap_{\alpha\in P,\alpha  /\in Q}$ Ker$\alpha$. By Prop. 1 (ii),
 
 $\mathfrak{k}+\mathfrak{g}^Q$ is an ideal of $\mathfrak{a}$. Since $Q\cap (-Q) =\emptyset$, this ideal is solvable by (iii). It is therefore contained in the radical $\mathfrak{r}$ of $\mathfrak{a}$. Since $\mathfrak{r}$ is stable under every derivation of $\mathfrak{a},\mathfrak{r}$ is stable under ad $\mathfrak{h}$. Hence there exists a subset S of P such that $\mathfrak{r}= (\mathfrak{r}\cap \mathfrak{h}) +\mathfrak{g}^S$. Suppose that $\alpha \in S$ and that $-\alpha \in P$. Then $\mathfrak{h}_{\alpha}= [\mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}]\subset \mathfrak{r}$, so $\mathfrak{g}^{-\alpha}= [\mathfrak{h}_{\alpha},\mathfrak{g}^{-\alpha}]\subset \mathfrak{r}= 0$, so that $-\alpha \in S$; by (iii), this contradicts the fact that $\mathfrak{r}$ is solvable. Consequently, $S\subset Q$. Finally, if $x\in \mathfrak{r}\cap \mathfrak{h}$ and if $\alpha \in P\cap (-P)$, then $[x,\mathfrak{g}^{\alpha}]\subset \mathfrak{g}^{\alpha}\cap \mathfrak{r}= 0$, so $\alpha (x) = 0$; this shows that $x\in \mathfrak{k}$. Hence $\mathfrak{r}\subset \mathfrak{k}+\mathfrak{g}^Q$ and the proof of (i) is complete.
 
 We prove (iv). By (i), the adjoint representation of $\mathfrak{a}$ on $\mathfrak{g}$ is semi-simple if and only if ad$_{\mathfrak{g}}x$ is semi-simple for all $x\in \mathfrak{k}+\mathfrak{g}^Q$ (Chap. I, §6, no. 5, Th. 4); by (v), this is the case if and only if $Q =\emptyset$, in other words $P =-P$.
 
-We prove (ii). If $\mathfrak{a}$ is semi-simple, $P =-P$ by (i), so $\mathfrak{h}_P\subset \mathfrak{h}'$; further, $\mathfrak{a}= [\mathfrak{a},\mathfrak{a}]\subset \mathfrak{h}_P+\mathfrak{g}^P$ and consequently$\sum\mathfrak{h}'=\mathfrak{h}_P$. If $P =-P$ and $\mathfrak{h}'=\mathfrak{h}_P,\mathfrak{a}$ is reductive by (iv), and $\mathfrak{a}=_{\alpha\in P}\mathfrak{s}_{\alpha}$, so $\mathfrak{a}= [\mathfrak{a},\mathfrak{a}]$ and $\mathfrak{a}$ is semi-simple.
+We prove (ii). If $\mathfrak{a}$ is semi-simple, $P =-P$ by (i), so $\mathfrak{h}_P\subset \mathfrak{h}'$; further, $\mathfrak{a}= [\mathfrak{a},\mathfrak{a}]\subset \mathfrak{h}_P+\mathfrak{g}^P$ and consequently $\mathfrak{h}'=\mathfrak{h}_P$. If $P =-P$ and $\mathfrak{h}'=\mathfrak{h}_P,\mathfrak{a}$ is reductive by (iv), and $\mathfrak{a}=\sum_{\alpha\in P}\mathfrak{s}_{\alpha}$, so $\mathfrak{a}= [\mathfrak{a},\mathfrak{a}]$ and $\mathfrak{a}$ is semi-simple.
 
 #### Proposition 3 {#lie-viii-s3-prop-3 .statement tag=00ZS}
 
@@ -260,15 +260,15 @@ This is clear from condition (iii) of Prop. 7.
 
 #### Proposition 9 {#lie-viii-s3-prop-9 .statement tag=0101}
 
-Let $\mathfrak{b}$ be the Borel subalgebra of$\sum(\mathfrak{g},\mathfrak{h})$ defined by a chamber C of R. Let $\mathfrak{n}=\mathfrak{g}^{R_+(C)}=_{\alpha\in R,\alpha >0}\mathfrak{g}^{\alpha}$. Let $l=$ dim$\mathfrak{h}$.
+Let $\mathfrak{b}$ be the Borel subalgebra of $(\mathfrak{g},\mathfrak{h})$ defined by a chamber C of R. Let $\mathfrak{n}=\mathfrak{g}^{R_+(C)}=\sum_{\alpha\in R,\alpha >0}\mathfrak{g}^{\alpha}$. Let $l=$ dim$\mathfrak{h}$.
 
-(i)$\prod$ If $h\in \mathfrak{h}$ and $x\in \mathfrak{n}$, the characteristic polynomial of ad$_{\mathfrak{g}}(h+x)$ is $T^l_{\alpha\in R}(T-\alpha (h))$.
+(i) If $h\in \mathfrak{h}$ and $x\in \mathfrak{n}$, the characteristic polynomial of ad$_{\mathfrak{g}}(h+x)$ is $T^l\prod_{\alpha\in R}(T-\alpha (h))$.
 
 (ii) The largest nilpotent ideal of $\mathfrak{b}$ is equal to $\mathfrak{n}$ and to $[\mathfrak{b},\mathfrak{b}]$. This is also the set of elements of $\mathfrak{b}$ nilpotent in $\mathfrak{g}$.
 
-(iii) Let B be the basis of R associated to C. For all $\alpha \in B$, let $X_{\alpha}$ be a non-zero element of$\sum\mathfrak{g}^{\alpha}$. Then $(X_{\alpha})_{\alpha\in B}$ generates the Lie algebra $\mathfrak{n}$. We have $[\mathfrak{n},\mathfrak{n}] =_{\alpha\in R,\alpha >0,\alpha  /\in B}\mathfrak{g}^{\alpha}$.
+(iii) Let B be the basis of R associated to C. For all $\alpha \in B$, let $X_{\alpha}$ be a non-zero element of $\mathfrak{g}^{\alpha}$. Then $(X_{\alpha})_{\alpha\in B}$ generates the Lie algebra $\mathfrak{n}$. We have $[\mathfrak{n},\mathfrak{n}] =\sum_{\alpha\in R,\alpha >0,\alpha  /\in B}\mathfrak{g}^{\alpha}$.
 
-There exists a total order on $\mathfrak{h}^*_{\mathbf{Q}}$ compatible with its vector space structure and such that the elements of $R_+(C)$ are $>0$ (Chap. VI, §1, no. 7). Let$\sum h, x$ be as in (i) and $y\in \mathfrak{g}^{\alpha}$. Then $[h+x, y] =\alpha (h)y+z$ where $z\in_{\beta >\alpha}\mathfrak{g}^{\beta}$. Then,
+There exists a total order on $\mathfrak{h}^*_{\mathbf{Q}}$ compatible with its vector space structure and such that the elements of $R_+(C)$ are $>0$ (Chap. VI, §1, no. 7). Let $h, x$ be as in (i) and $y\in \mathfrak{g}^{\alpha}$. Then $[h+x, y] =\alpha (h)y+z$ where $z\in \sum_{\beta >\alpha}\mathfrak{g}^{\beta}$. Then,
 
 with respect to a suitable basis of $\mathfrak{g}$, the matrix of ad$_{\mathfrak{g}}(h+x)$ has the following properties:
 
@@ -276,7 +276,7 @@ with respect to a suitable basis of $\mathfrak{g}$, the matrix of ad$_{\mathfrak
 
 2) the diagonal entries of the matrix are the number $0 (l$ times) and the $\alpha (h)$ for $\alpha \in R$.
 
-This proves (i). It also shows that the characteristic polynomial of$\prod$ ad$_{\mathfrak{b}}(h+x)$ is $T_{\alpha\in R_+(C)}^l(T-\alpha (h))$. It follows from the preceding that the
+This proves (i). It also shows that the characteristic polynomial of ad$_{\mathfrak{b}}(h+x)$ is $T\prod_{\alpha\in R_+(C)}^l(T-\alpha (h))$. It follows from the preceding that the
 
 set of elements of $\mathfrak{b}$ nilpotent in $\mathfrak{g}$, as well as the largest nilpotent ideal of $\mathfrak{b}$, are equal to $\mathfrak{n}$. We have $\mathfrak{n}= [\mathfrak{b},\mathfrak{b}]$ by Prop. 5 (i). Finally, assertion (iii) follows from §2, Prop. 4 (ii) and Chap. VI, §1, no. 6, Prop. 19.
 
@@ -406,9 +406,9 @@ The facets corresponding to the parabolic subalgebras of $(\mathfrak{g},\mathfra
 
 Let $\mathfrak{p}=\mathfrak{h}+\mathfrak{g}^P$ be a parabolic subalgebra of $(\mathfrak{g},\mathfrak{h})$, Q the set of $\alpha \in P$ such that $-\alpha  /\in P$, and $\mathfrak{s}=\mathfrak{h}+\mathfrak{g}^{P\cap(-P)}$. Then $\mathfrak{p}=\mathfrak{s}\oplus \mathfrak{g}^Q,\mathfrak{s}$ is reductive in $\mathfrak{g}$, and $\mathfrak{g}^Q$ is the largest nilpotent ideal of $\mathfrak{p}$ and the nilpotent radical of $\mathfrak{p}$. The centre of $\mathfrak{p}$ is zero.
 
-By Prop. $2,\mathfrak{s}$ is reductive in $\mathfrak{g}$ and $\mathfrak{g}^Q$ is a nilpotent ideal of $\mathfrak{p}$. If $\mathfrak{n}$ is the largest nilpotent ideal of $\mathfrak{p},\mathfrak{g}^Q\subset \mathfrak{n}\subset \mathfrak{h}+\mathfrak{g}^Q$ (Prop. 2 (i)); if $x\in \mathfrak{n}\cap \mathfrak{h}$, ad$_{\mathfrak{p}}x$ is nilpotent, so $\alpha (x) = 0$ for all $\alpha \in P$, and hence $x= 0$; this proves that $\mathfrak{n}=\mathfrak{g}^Q$. Since $[\mathfrak{h},\mathfrak{g}^Q] =\mathfrak{g}^Q$, the nilpotent radical of$\sum\mathfrak{p}$ contains $\mathfrak{g}^Q$ and consequently is equal to $\mathfrak{g}^Q$. Let $z=h+u_{\alpha}$ (where $h\in \mathfrak{h}, u_{\alpha}\in \mathfrak{g}^{\alpha})$ be an
+By Prop. $2,\mathfrak{s}$ is reductive in $\mathfrak{g}$ and $\mathfrak{g}^Q$ is a nilpotent ideal of $\mathfrak{p}$. If $\mathfrak{n}$ is the largest nilpotent ideal of $\mathfrak{p},\mathfrak{g}^Q\subset \mathfrak{n}\subset \mathfrak{h}+\mathfrak{g}^Q$ (Prop. 2 (i)); if $x\in \mathfrak{n}\cap \mathfrak{h}$, ad$_{\mathfrak{p}}x$ is nilpotent, so $\alpha (x) = 0$ for all $\alpha \in P$, and hence $x= 0$; this proves that $\mathfrak{n}=\mathfrak{g}^Q$. Since $[\mathfrak{h},\mathfrak{g}^Q] =\mathfrak{g}^Q$, the nilpotent radical of $\mathfrak{p}$ contains $\mathfrak{g}^Q$ and consequently is equal to $\mathfrak{g}^Q$. Let $z=h+\sum_{\alpha\in P}u_{\alpha}$ (where $h\in \mathfrak{h}, u_{\alpha}\in \mathfrak{g}^{\alpha})$ be an
 
-element of the centre of $\mathfrak{p}$. For all $h'\in \mathfrak{h}, 0 = [^{\alpha\in P}h', z] =\sum\alpha (h')u_{\alpha}$, so $u_{\alpha}= 0$ for all $\alpha \in P$; it follows that $[h,\mathfrak{g}^{\beta}] = 0$ for all $\beta \in P$, so $h= 0$.
+element of the centre of $\mathfrak{p}$. For all $h'\in \mathfrak{h}, 0 = [h', z] =\sum\alpha (h')u_{\alpha}$, so $u_{\alpha}= 0$ for all $\alpha \in P$; it follows that $[h,\mathfrak{g}^{\beta}] = 0$ for all $\beta \in P$, so $h= 0$.
 
 ### 5. NON-SPLIT CASE
 

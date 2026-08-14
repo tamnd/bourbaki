@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 4087a45fc0dcb54dd178194f7c64b217b51cd06178db75ad302d42e750d9573b
+content_sha256: bcc10cca24da9b98ed1be070ef13086751b9e5f1f6da884c13073eca99934d6a
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -377,15 +377,15 @@ for every $a\in K[G]$, that is
 
 Therefore, by (2) of VIII, p. 399, for $g\in G$, we have
 
-$\sum|G|$ if $g$ is the identity element,
+$|G|$ if $g$ is the identity element,
 
 $$
-d_{\lambda}\chi_{\lambda}(g) = \tag{12}
+\sum d_{\lambda}\chi_{\lambda}(g) = \tag{12}
 $$
 
-$_{\lambda\in\widehat{G}}$ 0 otherwise.
+0 otherwise.
 
-For $a\in K[G]$, relation (9) takes on the following form:
+For $a\in K[G]$, relation $(^{\lambda\in\widehat{G}}$ 9) takes on the following form:
 
 (13) $a=|G|^{-1}\sum_{g\in G}\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr($\pi_{\lambda}(a)\pi_{\lambda}(g^{-1})$)$g$;
 

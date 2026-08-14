@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: de4668e4932ae9db19b867a615986f91080e65411e84c937c6c9c36fa20d7a16
+content_sha256: 23a34d20f4e88889d39a474b94a28528228145a9a00c6dc32ea4ca294d4c071c
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -849,11 +849,11 @@ $$
 $$
 
 $$
-\times \prod c(g_1, g_2s(x.g_1g_2)^{-1})c(g_1, s(x.g_1)^{-1})^{-1}
+\times \prod_{x\in H\backslash G}c(g_1, g_2s(x.g_1g_2)^{-1})c(g_1, s(x.g_1)^{-1})^{-1}
 $$
 
 $$
-\times \prod^x_x^{\in}_{\in}^H_H^{\backslash}_{\backslash}^G_G(c(s(x)^{-1}, s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x.g_1)^{-1}))
+\times \prod_{x\in H\backslash G}(c(s(x)^{-1}, s(x)g_1g_2s(x.g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x.g_1)^{-1}))
 $$
 
 $$

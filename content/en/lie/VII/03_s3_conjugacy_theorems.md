@@ -33,7 +33,7 @@ subsections:
       pdf_page: 36
 statements: 17
 exercises: 18
-content_sha256: 328dbc41ee606865fc60e4c126e9e7181b193c73a291316876d1391ffa9c93d1
+content_sha256: 8062d47373862d84654775f2045e58b48948d626259f15262d5ec18bdd045e13
 ---
 
 ## § 3. CONJUGACY THEOREMS
@@ -75,10 +75,10 @@ $$
 (exp ad$_{\mathfrak{a}}x)a=$ (exp(L$_x-R_x))a=$ (exp $L_x$)(exp $R_{-x})a$ (1)
 
 $$
-\sum L^i_xR^j_{-x}
+L^i_xR^j_{-x}
 $$
 
-= $a=$ (exp $x)a$(exp($-x$)).
+$=\sum a=$ (exp $x)a$(exp($-x$)).
 
 $i$! $j$!
 
@@ -288,9 +288,9 @@ Assume that $k$ is $\mathbf{R},\mathbf{C}$ or a non-discrete complete ultrametri
 
 (i) Let $\mathfrak{s}$ be a vector space complement of $\mathfrak{h}$ in $\mathfrak{g},\mathfrak{s}_0$ a neighbourhood of 0 in $\mathfrak{s}$ on which an exponential map is defined, and $h_0\in \mathfrak{h}_r$. The map $(s, h) \rightarrow F(s, h) =$ (exp ad $s).h$ from $\mathfrak{s}_0\times \mathfrak{h}$ to $\mathfrak{g}$ is étale at $(0, h_0)$.
 
-(ii) The map $(g, h) \rightarrow F'(g, h) =$ (Ad $g).h$ from $G\times \mathfrak{h}_r$ to $\mathfrak{g}$ is a submersion. In particular, its image $\Omega$ is open. For all $x\in \Omega ,\mathfrak{g}^0(x)$ is a Cartan subalgebra of $\mathfrak{g}$ conjugate to $\mathfrak{h}$ under Ad(G). $\bigcup$
+(ii) The map $(g, h) \rightarrow F'(g, h) =$ (Ad $g).h$ from $G\times \mathfrak{h}_r$ to $\mathfrak{g}$ is a submersion. In particular, its image $\Omega$ is open. For all $x\in \Omega ,\mathfrak{g}^0(x)$ is a Cartan subalgebra of $\mathfrak{g}$ conjugate to $\mathfrak{h}$ under Ad(G).
 
-(iii) Let $h_0\in \mathfrak{h}_r$. For any neighbourhood U of $e$ in G, the set $_{a\in U}$(Ad $a)(\mathfrak{h}_r)$
+(iii) Let $h_0\in \mathfrak{h}_r$. For any neighbourhood U of $e$ in G, the set $\bigcup_{a\in U}$(Ad $a)(\mathfrak{h}_r)$
 
 is a neighbourhood of $h_0$ in $\mathfrak{g}$.
 

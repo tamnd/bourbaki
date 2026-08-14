@@ -53,7 +53,7 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: 9d1a733b0b25b387e7351baa4a4859967775869e03352f1607128113b698a358
+content_sha256: 0b1f0f67463babe97a0733de35f347456e7869438e10d22b7f0696140ab0cc6f
 ---
 
 ## § 4. ROOT SYSTEM ASSOCIATED TO A COMPACT GROUP
@@ -298,12 +298,10 @@ $$
 \iota_{\alpha}: T\rightarrow \mathbf{S}\mathbf{O}(K(\alpha ))
 $$
 
-There exists a unique isomorphism $\rho_{\alpha}:\mathbf{U}\rightarrow \mathbf{S}\mathbf{O}(K(\alpha ))$ such that $\iota_{\alpha}=\rho_{\alpha}\circ \alpha$. Indeed, let $X$ be a non-zero element of $\mathfrak{g}^{\alpha}$, and let $Y$ be the image of $X$ under the conjugation of $\mathfrak{g}_{\mathbf{C}}$ relative to $\mathfrak{g}$; then $Y\in \mathfrak{g}^{-\alpha}$, and we obtain a basis $(U, V)$ of $V(\alpha )$ by putting $U=X+Y, V=i(X-Y)$; the matrix of the endomorphism of $V(\alpha )$ induced by Ad $t,t\in T$, with respect to the basis
-
-$(U, V()$ is $)$
+There exists a unique isomorphism $\rho_{\alpha}:\mathbf{U}\rightarrow \mathbf{S}\mathbf{O}(K(\alpha ))$ such that $\iota_{\alpha}=\rho_{\alpha}\circ \alpha$. Indeed, let $X$ be a non-zero element of $\mathfrak{g}^{\alpha}$, and let $Y$ be the image of $X$ under the conjugation of $\mathfrak{g}_{\mathbf{C}}$ relative to $\mathfrak{g}$; then $Y\in \mathfrak{g}^{-\alpha}$, and we obtain a basis $(U, V)$ of $V(\alpha )$ by putting $U=X+Y, V=i(X-Y)$; the matrix of the endomorphism of $V(\alpha )$ induced by Ad $t,t\in T$, with respect to the basis $(U, V)$ is
 
 $$
-\mathscr{R}(t^{\alpha})-\mathscr{I}(t^{\alpha})
+(\mathscr{R}(t^{\alpha})-\mathscr{I}(t^{\alpha}))
 $$
 
 $$
@@ -484,9 +482,9 @@ $c)$ General case. There exists a surjective morphism $p: G'\rightarrow G$ with 
 
 0 $\longrightarrow \Gamma (T')\longrightarrow \Gamma (T)\longrightarrow$ N $\longrightarrow$ 0
 
-$)f(G',T'))f(G,T))$Id$_N$
+$f(G',T')f(G,T)$ Id$_N$
 
-0 $\longrightarrow \pi_1(G')\longrightarrow \pi_1(G)\longrightarrow$ N $\longrightarrow 0$.
+0 $\longrightarrow \pi_1(G)')\longrightarrow \pi_1)(G)\longrightarrow N)\longrightarrow 0$.
 
 It follows immediately from the snake diagram (Algebra, Chap. X, p. 4, Prop. 2) that $A(G',T')$ implies $A(G,T)$, hence the proposition, in view of $b)$.
 
@@ -538,7 +536,7 @@ Recall (Chap. VI, §1, no. 7) that a subset P of $R = R(G,T)$ is said to be clos
 
 Let $\mathscr{H}$ be the set of connected closed subgroups of G containing T, ordered by inclusion. The map $H \rightarrow R(H,T)$ is an increasing bijection from $\mathscr{H}$ to the set of symmetric closed subsets of $R(G,T)$, ordered by inclusion.
 
-If $H\in \mathscr{H}$, then $L(H)_{(\mathbf{C})}$ is the direct sum of $\mathfrak{t}_{\mathbf{C}}$ and the $\mathfrak{g}^{\alpha}$ for $\alpha \in R(H,T)$; since this is a reductive subalgebra in $\mathfrak{g}_{\mathbf{C}}$, the subset $R(H,T)$ of R satisfies the stated conditions (Chap. VIII, §3, no. 1, Lemma 2 and Prop. 2). Conversely, if$\sum$ P is a subset of R satisfying these conditions, then $\mathfrak{t}_{\mathbf{C}}\oplus_{\alpha\in P}\mathfrak{g}^{\alpha}$ is a subalgebra
+If $H\in \mathscr{H}$, then $L(H)_{(\mathbf{C})}$ is the direct sum of $\mathfrak{t}_{\mathbf{C}}$ and the $\mathfrak{g}^{\alpha}$ for $\alpha \in R(H,T)$; since this is a reductive subalgebra in $\mathfrak{g}_{\mathbf{C}}$, the subset $R(H,T)$ of R satisfies the stated conditions (Chap. VIII, §3, no. 1, Lemma 2 and Prop. 2). Conversely, if P is a subset of R satisfying these conditions, then $\mathfrak{t}_{\mathbf{C}}\oplus \sum_{\alpha\in P}\mathfrak{g}^{\alpha}$ is a subalgebra
 
 of $\mathfrak{g}_{\mathbf{C}}($loc. cit.) which is rational over $\mathbf{R}$ (no. 3), and hence of the form $\mathfrak{h}_{(\mathbf{C})}$, where $\mathfrak{h}$ is a subalgebra of $\mathfrak{g}$. Let H(P) be the integral subgroup of G defined by $\mathfrak{h}$; it is closed (§2, no. 4, Remark 1). We verify immediately that the maps $H \rightarrow R(H,T)$ and $P \rightarrow H(P)$ are increasing and inverses of each other.
 
@@ -566,15 +564,13 @@ Let S be a maximal torus of H. Since the centre of G is contained in S, it is co
 
 #### Remark 2 {#lie-ix-s4-n7-rem-2 .statement tag=01CI}
 
-Say that a subgroup C of G is radical if there exists a maximal$\bigcap$ torus S of G and a subset P of $R(G,S)$ such that C = Ker$\alpha$. It follows from Prop. 13 and Lemma 2 of no. 5 that the map $H^{\alpha\in} \rightarrow^PC(H)$ induces a bijection from the set of connected closed subgroups of maximal rank to the set of radical subgroups of G. The inverse bijection is the map $C \rightarrow Z(C)_0$.
+Say that a subgroup C of G is radical if there exists a maximal torus S of G and a subset P of $R(G,S)$ such that $C =\bigcap_{\alpha\in P}$ Ker$\alpha$. It follows from Prop. 13 and Lemma 2 of no. 5 that the map $H \rightarrow C(H)$ induces a bijection from the set of connected closed subgroups of maximal rank to the set of radical subgroups of G. The inverse bijection is the map $C \rightarrow Z(C)_0$.
 
 #### Corollary {#lie-ix-s4-n7-cor-1 .statement tag=01CJ}
 
 The set of $g\in G$ such that $T\cap gTg^{-1}\not= C(G)$ is the union of a finite number of closed analytic submanifolds of G distinct from G.
 
-Indeed, put $A_g= T\cap gTg^{-1}$; we have $T\subset Z(A_g)$ and $gTg^{-1}\subset Z(A_g)$. Hence, there exists $x\in Z(A_g)$ such that $xTx^{-1}=gTg^{-1}($§2, no. 2, Th. 2), which implies that $g\in Z(A_g).N_G(T)$. Denote by $\mathscr{A}$ the finite (Cor. 1) set of closed subgroups of G containing T and distinct from G, and put $X =\bigcup$
-
-$H.N_G(T)$; this is a finite union of closed submanifolds of G, distinct from G. If $A^{H\in\mathscr{A}}g\not= C(G)$, then $Z(A_g)\in \mathscr{A}$, and $g$ belongs to X. Conversely, if $g\in H.N_G$(T), with $H\in \mathscr{A}$, then $A_g$ contains C(H), so $A_g\not= C(G)$ (Prop. 13).
+Indeed, put $A_g= T\cap gTg^{-1}$; we have $T\subset Z(A_g)$ and $gTg^{-1}\subset Z(A_g)$. Hence, there exists $x\in Z(A_g)$ such that $xTx^{-1}=gTg^{-1}($§2, no. 2, Th. 2), which implies that $g\in Z(A_g).N_G(T)$. Denote by $\mathscr{A}$ the finite (Cor. 1) set of closed subgroups of G containing T and distinct from G, and put X = $\bigcup_{H\in\mathscr{A}}H.N_G(T)$; this is a finite union of closed submanifolds of G, distinct from G. If $A_g\not= C(G)$, then $Z(A_g)\in \mathscr{A}$, and $g$ belongs to X. Conversely, if $g\in H.N_G$(T), with $H\in \mathscr{A}$, then $A_g$ contains C(H), so $A_g\not= C(G)$ (Prop. 13).
 
 #### Proposition 14 {#lie-ix-s4-prop-14 .statement tag=01CK}
 

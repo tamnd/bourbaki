@@ -33,7 +33,7 @@ subsections:
       pdf_page: 362
 statements: 16
 exercises: 8
-content_sha256: d5e47c316e6cb872d62325295e54b27b50dfc67851089ffc04d5a0dddf927573
+content_sha256: 963962e2621183217ec3e3a81e35a96f46c7b6ddc814593e5bb08222c83bcb94
 ---
 
 ## § 19. ALGÈBRES DE QUATERNIONS
@@ -66,7 +66,7 @@ $$
 
 Le polynôme caractéristique d’un élément $q$ de F est égal à $(X^2-T_F(q)X + N_F(q))^2$.
 
-D’après ce qui précède, l’algèbre F est un E-module à droite libre de base $(1, j)$. Par conséquent, F[X] est un E[X]-module à droite libre de base $(1, j)$. Notons $u$ l’endomorphisme du E[X]-module à droite F[X] défini par $u(P) = (X-q)P$ pour tout $P\in F[X]$. Le polynôme caractéristique de $q$ est le déterminant de $u$ considéré comme endomorphisme du K[X]-module F[X]. D’après la prop. 6 de III, p. 112, il est égal à N(det $u)$, où N désigne la norme de E[X] à K[X]. Écrivons $q$ sous la forme$()$ $x+jy$, avec $x, y\in E$. La matrice de $u$ par rapport à la base $(1, j)$ est $^X_-^-_y^x_X^-_-^{\gamma y}_x$ ; son déterminant est égal à $D = (X-x)(X-x)-\gamma yy= X^2-T_F(q)X + N_F(q) ($cf. formule (3)). Comme D appartient à K[X], on a $N(D) = D^2$, d’où la prop. 1.
+D’après ce qui précède, l’algèbre F est un E-module à droite libre de base $(1, j)$. Par conséquent, F[X] est un E[X]-module à droite libre de base $(1, j)$. Notons $u$ l’endomorphisme du E[X]-module à droite F[X] défini par $u(P) = (X-q)P$ pour tout $P\in F[X]$. Le polynôme caractéristique de $q$ est le déterminant de $u$ considéré comme endomorphisme du K[X]-module F[X]. D’après la prop. 6 de III, p. 112, il est égal à N(det $u)$, où N désigne la norme de E[X] à K[X]. Écrivons $q$ sous la forme $x+jy$, avec $x, y\in E$. La matrice de $u$ par rapport à la base $(1, j)$ est $(^X_-^-_y^x_X^-_-^{\gamma y}_x)$; son déterminant est égal à $D = (X-x)(X-x)-\gamma yy= X^2-T_F(q)X + N_F(q) ($cf. formule (3)). Comme D appartient à K[X], on a $N(D) = D^2$, d’où la prop. 1.
 
 #### Remarque 1 {#alg-viii-s19-n1-rem-1 .statement tag=00LR}
 
@@ -224,7 +224,7 @@ Supposons que F ne soit pas un corps. Si $\gamma (4\alpha +\beta^2)\not= 0$, l�
 
 Soit $q=x+yi$ un élément de E. On a $N_{E/K}(q) =x^2+\beta xy-\alpha y^2$. Supposons la condition (v) satisfaite. On a $N_{E/K}(q)-\gamma \not= 0$ et $N_{E/K}(q)\not= 0$ si $q\not= 0$, d’où (vi).
 
-Enfin, supposons la condition (vi) satisfaite. Soit $q$ un élément non nul de F ; écrivons-le sous la forme $u+vj$, avec $u$ et $v$ dans E. Si $v$ est nul,$(q$ est inversible.$)$ Si $v$ n’est pas nul, on a $N_F(q) = N_F(v)N_F(v^{-1}u+j) = N_{E/K}(v)N_{E/K}(v^{-1}u)-\gamma$ d’après III, p. 17, formule (24). Comme $\gamma$ n’est pas une norme, $N_F(q)$ n’est pas nul, et $q$ est inversible.
+Enfin, supposons la condition (vi) satisfaite. Soit $q$ un élément non nul de F ; écrivons-le sous la forme $u+vj$, avec $u$ et $v$ dans E. Si $v$ est nul, $q$ est inversible. Si $v$ n’est pas nul, on a $N_F(q) = N_F(v)N_F(v^{-1}u+j) = N_{E/K}(v)(N_{E/K}(v^{-1}u)-\gamma )$ d’après III, p. 17, formule (24). Comme $\gamma$ n’est pas une norme, $N_F(q)$ n’est pas nul, et $q$ est inversible.
 
 #### Remarque {#alg-viii-s19-n4-rem-1 .statement tag=00RQ}
 

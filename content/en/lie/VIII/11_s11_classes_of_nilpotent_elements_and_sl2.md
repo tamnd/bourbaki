@@ -29,7 +29,7 @@ subsections:
       pdf_page: 178
 statements: 29
 exercises: 17
-content_sha256: c16c9d95431784c6017fc33c32afad5be8d8caf00db22dcd34f5980e9dc11976
+content_sha256: 12e3be0b241f81b98cb35188f5bf0071b0245c196bd8f28247108a9b75e9cc5c
 ---
 
 ## § 11. CLASSES OF NILPOTENT ELEMENTS AND $\mathfrak{s}\mathfrak{l}_{2}$-TRIPLETS
@@ -92,7 +92,7 @@ $$
 e^{ad_{\mathfrak{g}}z}x=x,e^{ad_{\mathfrak{g}}z}h=h',e^{ad_{\mathfrak{g}}z}y=y'
 $$
 
-Let $\mathfrak{n}=$ Ker(ad $x)\cap$ Im(ad $x)$. For all $p\in \mathbf{Z}$, let $\mathfrak{g}_p=$ Ker(ad $h-p)$. By §1, no. 3 (applied to the adjoint representation of$\sum kx+ky+kh$ on $\mathfrak{g})$, we have that $\mathfrak{n}\subset_{p>0}\mathfrak{g}_p$, so ad$_{\mathfrak{g}}n$ is nilpotent for all $n\in \mathfrak{n}$, and $[h,\mathfrak{n}] =\mathfrak{n}$. We have $[x, h'-h] = 0$ and $[x, y-y'] =h'-h$, so $h'-h\in \mathfrak{n}$. By Lemmas 2 and 3, there exists $z\in \mathfrak{n}$ such that $e^{ad_{\mathfrak{g}}z}h=h'$. Since $z\in$ Ker ad$_{\mathfrak{g}}x$, we have $e^{ad_{\mathfrak{g}}z}x=x$. Lemma 1 now proves that $e^{ad_{\mathfrak{g}}z}y=y'$. Q.E.D.
+Let $\mathfrak{n}=$ Ker(ad $x)\cap$ Im(ad $x)$. For all $p\in \mathbf{Z}$, let $\mathfrak{g}_p=$ Ker(ad $h-p)$. By §1, no. 3 (applied to the adjoint representation of $kx+ky+kh$ on $\mathfrak{g})$, we have that $\mathfrak{n}\subset \sum_{p>0}\mathfrak{g}_p$, so ad$_{\mathfrak{g}}n$ is nilpotent for all $n\in \mathfrak{n}$, and $[h,\mathfrak{n}] =\mathfrak{n}$. We have $[x, h'-h] = 0$ and $[x, y-y'] =h'-h$, so $h'-h\in \mathfrak{n}$. By Lemmas 2 and 3, there exists $z\in \mathfrak{n}$ such that $e^{ad_{\mathfrak{g}}z}h=h'$. Since $z\in$ Ker ad$_{\mathfrak{g}}x$, we have $e^{ad_{\mathfrak{g}}z}x=x$. Lemma 1 now proves that $e^{ad_{\mathfrak{g}}z}y=y'$. Q.E.D.
 
 Let G be a group of automorphisms of $\mathfrak{g}$. Then two $\mathfrak{s}\mathfrak{l}_2$-triplets $(x, h, y)$, $(x', h', y')$ are said to be G-conjugate if there exists $g\in G$ such that $gx=x'$, $gh=h', gy=y'$.
 
@@ -194,7 +194,7 @@ This follows from Prop. 1 and 2.
 
 #### Lemma 7 {#lie-viii-s11-lem-7 .statement tag=017B}
 
-Let K be a commutative field with at least$()$ 4 elements. Let G be the group of matrices $\alpha 0\alpha \beta_{-1}$ where $\alpha \in K^*,\beta \in K$. Let $G'$ be the group
+Let K be a commutative field with at least 4 elements. Let G be the group of matrices $(\alpha 0\alpha \beta_{-1})$ where $\alpha \in K^*,\beta \in K$. Let $G'$ be the group
 
 of such matrices such that $\alpha = 1$. Then $G'= (G,G)$.
 
@@ -244,7 +244,7 @@ The condition is clearly necessary. It is sufficient by Lemma 6.
 
 Assume that $\mathfrak{g}$ is splittable semi-simple. Let $\mathfrak{h}$ be a splitting Cartan subalgebra of $\mathfrak{g}$, R the set of roots of $(\mathfrak{g},\mathfrak{h})$, and B a basis of R. Let $h$ be a simple element of $\mathfrak{g}$ belonging to $\mathfrak{h}$. Then $h$ is conjugate under Aut$_e(\mathfrak{g},\mathfrak{h})$ to an element $h'$ of $\mathfrak{h}$ such that $\alpha (h')\in  \{0,1,2\}$ for all $\alpha \in B$.
 
-The eigenvalues of ad$_{\mathfrak{g}}h$ belong to $\mathbf{Z}($§1, no. 2, Cor. of Prop. 2). Hence $h\in \mathfrak{h}_{\mathbf{Q}}$. There exists an element $w$ of the Weyl group of $(\mathfrak{g},\mathfrak{h})$ such that $\alpha (wh)\geq 0$ for all $\alpha \in B$ (Chap. VI, §1, no. 5, Th. 2 (i)). In view of §2, no. 2, Cor. of Th. 2, we are reduced to the case in which $\alpha (h)\in \mathbf{N}$ for all $\alpha \in B$. Let $R_+$ be the set of positive roots relative to B, and $R_-=-R_+$. There exists an $\mathfrak{s}\mathfrak{l}_2$-triplet in $\mathfrak{g}$ of the form $(x, h, y)$. Let T be the set of roots$\sum$ $\beta$ such that $\beta (h) =-2$. Then $T\subset R_-$ and $y\in_{\beta\in T}\mathfrak{g}^{\beta}$. Assume that there
+The eigenvalues of ad$_{\mathfrak{g}}h$ belong to $\mathbf{Z}($§1, no. 2, Cor. of Prop. 2). Hence $h\in \mathfrak{h}_{\mathbf{Q}}$. There exists an element $w$ of the Weyl group of $(\mathfrak{g},\mathfrak{h})$ such that $\alpha (wh)\geq 0$ for all $\alpha \in B$ (Chap. VI, §1, no. 5, Th. 2 (i)). In view of §2, no. 2, Cor. of Th. 2, we are reduced to the case in which $\alpha (h)\in \mathbf{N}$ for all $\alpha \in B$. Let $R_+$ be the set of positive roots relative to B, and $R_-=-R_+$. There exists an $\mathfrak{s}\mathfrak{l}_2$-triplet in $\mathfrak{g}$ of the form $(x, h, y)$. Let T be the set of roots $\beta$ such that $\beta (h) =-2$. Then $T\subset R_-$ and $y\in \sum_{\beta\in T}\mathfrak{g}^{\beta}$. Assume that there
 
 exists $\alpha \in B$ such that $\alpha (h)>2$. For all $\beta \in T$, we have $(\alpha +\beta )(h)>0$, so $\alpha +\beta  /\in R_-$ and $\alpha +\beta \not= 0$; on the other hand, since $\beta \in R_-$ and $\alpha \in B$, we have $\alpha +\beta  /\in R_+$; hence $\alpha +\beta  /\in R\cup  \{0\}$, so $[\mathfrak{g}^{\alpha},\mathfrak{g}^{\beta}] = 0$. Thus, $[y,\mathfrak{g}^{\alpha}] = 0$. But ad$_{\mathfrak{g}}y|\mathfrak{g}^{\alpha}$ is injective since $\alpha (h)>0 ($§1, no. 2, Cor. of Prop. 2). This contradiction proves that $\alpha (h)\leq 2$ for all $\alpha \in B$.
 
@@ -260,9 +260,9 @@ Assume that $k$ is algebraically closed and that $\mathfrak{g}$ is semi-simple. 
 
 Let $\mathfrak{h}$ be a Cartan subalgebra of $\mathfrak{g}^0$. This is a Cartan subalgebra of $\mathfrak{g}$ containing $h$ (Chap. VII, §2, no. 3, Prop. 10). We have $h\in \mathfrak{h}_{\mathbf{Q}}$. Let R be the root system of $(\mathfrak{g},\mathfrak{h}), Q$ the group of radical weights. There exists a basis B of R such that $\alpha (h)\geq 0$ for all $\alpha \in B$.
 
-Let U be the set of $z\in \mathfrak{h}$ such that $\alpha (z)\not= 0$ for all $\alpha \in B$. Let $(H_{\alpha}')_{\alpha\in B}$ be the basis of $\mathfrak{h}$ dual to B. If $z\in \prod U$, there exists a homomorphism from Q to $k^*$ that takes any $\gamma \in Q$ to $_{\alpha\in B}\alpha (z)^{\gamma(H'_{\alpha})}$. By §5, Prop. 2 and 4, the
+Let U be the set of $z\in \mathfrak{h}$ such that $\alpha (z)\not= 0$ for all $\alpha \in B$. Let $(H_{\alpha}')_{\alpha\in B}$ be the basis of $\mathfrak{h}$ dual to B. If $z\in U$, there exists a homomorphism from Q to $k^*$ that takes any $\gamma \in Q$ to $\prod_{\alpha\in B}\alpha (z)^{\gamma(H'_{\alpha})}$. By §5, Prop. 2 and 4, the
 
-endomorphism$\prod\varphi (z)$ of the vector space $\mathfrak{g}$ which induces on $\mathfrak{g}^{\gamma}$ the homothety with ratio $_{\alpha\in B}\alpha (z)^{\gamma(H_{\alpha}')}$ is an elementary automorphism of $\mathfrak{g}$, which clearly
+endomorphism $\varphi (z)$ of the vector space $\mathfrak{g}$ which induces on $\mathfrak{g}^{\gamma}$ the homothety with ratio $\prod_{\alpha\in B}\alpha (z)^{\gamma(H_{\alpha}')}$ is an elementary automorphism of $\mathfrak{g}$, which clearly
 
 belongs to $G_h$.
 
@@ -272,7 +272,7 @@ $$
 2 =\gamma (h) =\gamma (\sum_{\alpha\in B}\alpha (h)H_{\alpha}')=\sum_{\alpha\in B}\alpha (h)\gamma (H_{\alpha}')
 $$
 
-since $\alpha (h)\geq 0$ for all $\alpha \in B$, and since the $\gamma (H_{\alpha}')$ are integers either all $\geq 0$ or all $\leq 0$, we have $\gamma (H_{\alpha}')\in \mathbf{N}$ for all $\alpha \in B$. Thus, we can consider (for $z\in \mathfrak{h})$ the endomorphism $\psi (z\prod)$ of the vector space $\mathfrak{g}^2$ that induces on $\mathfrak{g}^{\gamma}\cap \mathfrak{g}^2$ the homothety with ratio $_{\alpha\in B}\alpha (z)^{\gamma(H_{\alpha}')}$. The map $z \rightarrow \psi (z)$ from $\mathfrak{h}$ to End($\mathfrak{g}^2$) is polynomial. For $z\in U$, we have $\psi (z) =\varphi (z)|\mathfrak{g}^2$.
+since $\alpha (h)\geq 0$ for all $\alpha \in B$, and since the $\gamma (H_{\alpha}')$ are integers either all $\geq 0$ or all $\leq 0$, we have $\gamma (H_{\alpha}')\in \mathbf{N}$ for all $\alpha \in B$. Thus, we can consider (for $z\in \mathfrak{h})$ the endomorphism $\psi (z)$ of the vector space $\mathfrak{g}^2$ that induces on $\mathfrak{g}^{\gamma}\cap \mathfrak{g}^2$ the homothety with ratio $\prod_{\alpha\in B}\alpha (z)^{\gamma(H_{\alpha}')}$. The map $z \rightarrow \psi (z)$ from $\mathfrak{h}$ to End($\mathfrak{g}^2$) is polynomial. For $z\in U$, we have $\psi (z) =\varphi (z)|\mathfrak{g}^2$.
 
 Let $\gamma_1, . . . , \gamma_r$ be the distinct roots of $(\mathfrak{g},\mathfrak{h})$ vanishing on $h$. If $y_1\in \mathfrak{g}^{\gamma_1}, . . .$, $y_r\in \mathfrak{g}^{\gamma_r}$, we have $e^{ady_1}. . . e^{ady_r}\in G_h$. We can thus define a map $\rho$ from $\mathfrak{h}\times \mathfrak{g}^{\gamma_1}\times  \cdots  \times \mathfrak{g}^{\gamma_r}$ to $\mathfrak{g}^2$ by putting
 
@@ -280,9 +280,9 @@ $$
 \rho (z, y_1, . . . , y_r) =\psi (z)e^{ady_1}. . . e^{ady_r}x
 $$
 
-for $z\in \mathfrak{h}, y_1\in \mathfrak{g}^{\gamma_1}, . . . , y_r\in \mathfrak{g}^{\gamma_r}$. This map is polynomial, and $\rho (U,\mathfrak{g}^{\gamma_1}, . . . ,\mathfrak{g}^{\gamma_r})$ $\subset G_hx$. By Chap. VII, App. I, Prop. 3 and 4, it suffices to prove that the tangent linear map of $\rho$ is surjective at some point. $\sum$
+for $z\in \mathfrak{h}, y_1\in \mathfrak{g}^{\gamma_1}, . . . , y_r\in \mathfrak{g}^{\gamma_r}$. This map is polynomial, and $\rho (U,\mathfrak{g}^{\gamma_1}, . . . ,\mathfrak{g}^{\gamma_r})$ $\subset G_hx$. By Chap. VII, App. I, Prop. 3 and 4, it suffices to prove that the tangent linear map of $\rho$ is surjective at some point.
 
-Now let T be the tangent linear map of $z \rightarrow \psi (z)$ at $h_0=_{\alpha\in B}H_{\alpha}'$. Then $T(z)$ is the endomorphism of $\mathfrak{g}^2$ that induces on $\mathfrak{g}^{\gamma}\cap \mathfrak{g}^2$ the homothety with ratio
+Now let T be the tangent linear map of $z \rightarrow \psi (z)$ at $h_0=\sum_{\alpha\in B}H_{\alpha}'$. Then $T(z)$ is the endomorphism of $\mathfrak{g}^2$ that induces on $\mathfrak{g}^{\gamma}\cap \mathfrak{g}^2$ the homothety with ratio
 
 $$
 \sum_{\alpha\in B}\gamma (H_{\alpha}')\alpha (h_0)^{\gamma(H'_{\alpha})-1}\alpha (z)\prod_{\beta\in B,\beta\not=\alpha}\beta (h_0)^{\gamma(H'_{\alpha})}=\sum_{\alpha\in B}\gamma (H_{\alpha}')\alpha (z) =\gamma (z)
@@ -344,7 +344,7 @@ Assume that $\mathfrak{g}$ is semi-simple. Let $(x, h, y)$ be an $\mathfrak{s}\m
 
 (iii) $(x, h, y)$ is principal.
 
-For $p\in \mathbf{Z}$, let $\mathfrak{g}^p=$ Ker(ad $h-p)$. Let $\mathfrak{g}'=_p\sum_{\in\mathbf{Z}}\mathfrak{g}^{2p}$. If $\mathfrak{g}$ is considered as
+For $p\in \mathbf{Z}$, let $\mathfrak{g}^p=$ Ker(ad $h-p)$. Let $\mathfrak{g}'=\sum_{p\in\mathbf{Z}}\mathfrak{g}^{2p}$. If $\mathfrak{g}$ is considered as
 
 a module over $\mathfrak{a}=kx+kh+ky,\mathfrak{g}'$ is the sum of the simple submodules of odd dimension (§1, no. 2, Cor. of Prop. 2). Let $l$ (resp. $l')$ be the length of $\mathfrak{g}$ (resp. $\mathfrak{g}')$ considered as an $\mathfrak{a}$-module. By §1, no. 2,
 
@@ -360,15 +360,15 @@ Assume that $\mathfrak{g}$ is semi-simple $\not= 0$. Let $\mathfrak{h}$ be a spl
 
 (i) The element $h^0$ is simple and principal.
 
-(ii) The elements $x$ of $\mathfrak{g}$ such that there exists an$\sum\mathfrak{s}\mathfrak{l}_2$-triplet of the form $(x, h^0, y)$ are the elements of $_{\alpha\in B}\mathfrak{g}^{\alpha}$ that have a non-zero component in each $\mathfrak{g}^{\alpha}$.
+(ii) The elements $x$ of $\mathfrak{g}$ such that there exists an $\mathfrak{s}\mathfrak{l}_2$-triplet of the form $(x, h^0, y)$ are the elements of $\sum_{\alpha\in B}\mathfrak{g}^{\alpha}$ that have a non-zero component in each $\mathfrak{g}^{\alpha}$.
 
-The element $h^0$ is that considered in §7, no. 5, Lemma 2 (cf. loc. cit., formula (1)). It follows from this lemma that$\sum h^0$ is simple principal and that, if $x\in_{\alpha\in B}\mathfrak{g}^{\alpha}$ has a non-zero component in each $\mathfrak{g}^{\alpha}$, there exists an $\mathfrak{s}\mathfrak{l}_2$-triplet of the form $(x, h^0, y)$. Conversely, let $(\sum\sum x, h^0, y)$ be a $\mathfrak{s}\mathfrak{l}_2$-triplet. We$\sum$ have $[h^0, x] = 2x$, so $x\in_{\gamma\in R,\gamma(h^0)=2}\mathfrak{g}^{\gamma}=_{\alpha\in B}\mathfrak{g}^{\alpha}$. Similarly, $y\in_{\alpha\in B}\mathfrak{g}^{-\alpha}$. Write
+The element $h^0$ is that considered in §7, no. 5, Lemma 2 (cf. loc. cit., formula (1)). It follows from this lemma that $h^0$ is simple principal and that, if $x\in \sum_{\alpha\in B}\mathfrak{g}^{\alpha}$ has a non-zero component in each $\mathfrak{g}^{\alpha}$, there exists an $\mathfrak{s}\mathfrak{l}_2$-triplet of the form $(x, h^0, y)$. Conversely, let $(x, h^0, y)$ be a $\mathfrak{s}\mathfrak{l}_2$-triplet. We have $[h^0, x] = 2x$, so $x\in \sum_{\gamma\in R,\gamma(h^0)=2}\mathfrak{g}^{\gamma}=\sum_{\alpha\in B}\mathfrak{g}^{\alpha}$. Similarly, $y\in \sum_{\alpha\in B}\mathfrak{g}^{-\alpha}$. Write
 
-$h^0=\sum a_{\alpha}H_{\alpha}$ where $a_{\alpha}>0$ for all $\alpha \in B$,
+$h^0=\sum_{\alpha\in B}a_{\alpha}H_{\alpha}$ where $a_{\alpha}>0$ for all $\alpha \in B$,
 
-$x=\sum^{\alpha\in B}X_{\alpha}$ where $X_{\alpha}\in \mathfrak{g}^{\alpha}$ for all $\alpha \in B$,
+$x=\sum_{\alpha\in B}X_{\alpha}$ where $X_{\alpha}\in \mathfrak{g}^{\alpha}$ for all $\alpha \in B$,
 
-$y=\sum^{\alpha}_{\alpha}^{\in}_{\in}^B_BX_{-\alpha}$ where $X_{-\alpha}\in \mathfrak{g}^{-\alpha}$ for all $\alpha \in B$.
+$y=\sum_{\alpha\in B}X_{-\alpha}$ where $X_{-\alpha}\in \mathfrak{g}^{-\alpha}$ for all $\alpha \in B$.
 
 Then
 
@@ -394,11 +394,11 @@ Let $x, x'$ be principal nilpotent elements. There exist $\mathfrak{s}\mathfrak{
 
 #### Lemma 9 {#lie-viii-s11-lem-9 .statement tag=017R}
 
-With the notations of Prop.$\sum 8$, put $\mathfrak{g}^p=$ Ker(ad $h^0-p)$ for $p\in \mathbf{Z}$. Let $\mathfrak{g}^2_*$ be the set of elements of $\mathfrak{g}^2=_{\alpha\in B}\mathfrak{g}^{\alpha}$ that have a non-zero component$\sum$
+With the notations of Prop. 8, put $\mathfrak{g}^p=$ Ker(ad $h^0-p)$ for $p\in \mathbf{Z}$. Let $\mathfrak{g}^2_*$ be the set of elements of $\mathfrak{g}^2=\sum_{\alpha\in B}\mathfrak{g}^{\alpha}$ that have a non-zero component
 
-in each $\mathfrak{g}^{\alpha}$. Let $R_+$ be the set of positive roots relative to B$,\mathfrak{n}_+=_{\alpha\in R_+}\mathfrak{g}^{\alpha}$, and $x\in \mathfrak{g}^2_*$. Then $e^{ad\mathfrak{n}_+}.x=x+ [\mathfrak{n}_+,\mathfrak{n}_+]$.
+in each $\mathfrak{g}^{\alpha}$. Let $R_+$ be the set of positive roots relative to B$,\mathfrak{n}_+=\sum_{\alpha\in R_+}\mathfrak{g}^{\alpha}$, and $x\in \mathfrak{g}^2_*$. Then $e^{ad\mathfrak{n}_+}.x=x+ [\mathfrak{n}_+,\mathfrak{n}_+]$.
 
-It is clear that $e^{ad\mathfrak{n}_+}.x\subset x\sum+ [\mathfrak{n}_+,\mathfrak{n}_+]$. We prove that, if $v\in [\mathfrak{n}_+,\mathfrak{n}_+]$, then $x+v\in e^{ad\mathfrak{n}_+}.x$. Put $\mathfrak{n}^{(p)}=_{r\geq p}\mathfrak{g}^{2r}$; it suffices to prove that
+It is clear that $e^{ad\mathfrak{n}_+}.x\subset x+ [\mathfrak{n}_+,\mathfrak{n}_+]$. We prove that, if $v\in [\mathfrak{n}_+,\mathfrak{n}_+]$, then $x+v\in e^{ad\mathfrak{n}_+}.x$. Put $\mathfrak{n}^{(p)}=\sum_{r\geq p}\mathfrak{g}^{2r}$; it suffices to prove that
 
 $$
 x+v\in e^{ad\mathfrak{n}_+}.x+\mathfrak{n}^{(p)}
@@ -414,15 +414,15 @@ So $v+x\in e^{ad(z+z')}.x+\mathfrak{n}^{(p+1)}$, and our assertion is establishe
 
 #### Proposition 10 {#lie-viii-s11-prop-10 .statement tag=017S}
 
-Assume that $\mathfrak{g}$ is semi-simple. Let $\mathfrak{h}$ be a splitting Cartan subalgebra of $\mathfrak{g}$, R the root system of $\sum(\mathfrak{g},\mathfrak{h})$, B a basis of R, $R_+$ the set of positive roots relative to B, and $\mathfrak{n}_+=_{\alpha\in R_+}\mathfrak{g}^{\alpha}$. The principal nilpotent elements belonging to $\mathfrak{n}_+$ are the elements of $\mathfrak{n}_+$ having a non-zero component in $\mathfrak{g}^{\alpha}$ for all $\alpha \in B$.
+Assume that $\mathfrak{g}$ is semi-simple. Let $\mathfrak{h}$ be a splitting Cartan subalgebra of $\mathfrak{g}$, R the root system of $(\mathfrak{g},\mathfrak{h})$, B a basis of R, $R_+$ the set of positive roots relative to B, and $\mathfrak{n}_+=\sum_{\alpha\in R_+}\mathfrak{g}^{\alpha}$. The principal nilpotent elements belonging to $\mathfrak{n}_+$ are the elements of $\mathfrak{n}_+$ having a non-zero component in $\mathfrak{g}^{\alpha}$ for all $\alpha \in B$.
 
-Prop. 8 and Lemma 9 prove that such elements are principal nilpotent. We prove the converse. Evidently we can assume that $\mathfrak{g}$ is simple. Let $h^0$ and $\mathfrak{g}^p$ be as in Prop. 8 and Lemma 9. Let $\omega$ be the highest root, and put $\omega (h^0) = 2q$; we have $q=h-1$, where $h$ is the Coxeter number of R, cf. Chap. VI, §1, no. 11, Prop. 31. Then $\mathfrak{g}^{2q}=\mathfrak{g}^{\omega},\mathfrak{g}^{-2q}=\mathfrak{g}^{-\omega}$, and $\mathfrak{g}^{2k}= 0$ for $|k|> q$. There exists a principal $\mathfrak{s}\mathfrak{l}_2$-triplet $(x^0, h^0, y^0)$. By §1, no. 2, Cor. of Prop. 2, (ad $x^0)^{2q}(\mathfrak{g}^{-\omega}) =\mathfrak{g}^{\omega}$, so (ad $x^0)^{2q}\not= 0$. Let $x$ be a principal nilpotent element of $\mathfrak{g}$ belonging to $\mathfrak{n}_+$. If $\overline{k}$ is an algebraic closure of $k,x\otimes 1$ and $x^0\otimes 1$ are conjugate under an automorphism of $\mathfrak{g}\otimes_k\overline{k}$ (Prop. 9), so (ad$\sum x)^{2q}\not= 0$. There exists $\lambda \in R$ such that (ad $x)^{2q}\mathfrak{g}^{\lambda}\not= 0$. Put $x=_{n\geq 1}x_n$, where $x_n\in \mathfrak{g}^{2n}$.
+Prop. 8 and Lemma 9 prove that such elements are principal nilpotent. We prove the converse. Evidently we can assume that $\mathfrak{g}$ is simple. Let $h^0$ and $\mathfrak{g}^p$ be as in Prop. 8 and Lemma 9. Let $\omega$ be the highest root, and put $\omega (h^0) = 2q$; we have $q=h-1$, where $h$ is the Coxeter number of R, cf. Chap. VI, §1, no. 11, Prop. 31. Then $\mathfrak{g}^{2q}=\mathfrak{g}^{\omega},\mathfrak{g}^{-2q}=\mathfrak{g}^{-\omega}$, and $\mathfrak{g}^{2k}= 0$ for $|k|> q$. There exists a principal $\mathfrak{s}\mathfrak{l}_2$-triplet $(x^0, h^0, y^0)$. By §1, no. 2, Cor. of Prop. 2, (ad $x^0)^{2q}(\mathfrak{g}^{-\omega}) =\mathfrak{g}^{\omega}$, so (ad $x^0)^{2q}\not= 0$. Let $x$ be a principal nilpotent element of $\mathfrak{g}$ belonging to $\mathfrak{n}_+$. If $\overline{k}$ is an algebraic closure of $k,x\otimes 1$ and $x^0\otimes 1$ are conjugate under an automorphism of $\mathfrak{g}\otimes_k\overline{k}$ (Prop. 9), so (ad $x)^{2q}\not= 0$. There exists $\lambda \in R$ such that (ad $x)^{2q}\mathfrak{g}^{\lambda}\not= 0$. Put $x=\sum_{n\geq 1}x_n$, where $x_n\in \mathfrak{g}^{2n}$.
 
 Then
 
-(ad $x)^{2q}\mathfrak{g}^{\lambda}\subset$ (ad $x_1)^{2q}\mathfrak{g}^{\lambda}+\sum_{k>4q+\lambda(h^0)}\mathfrak{g}^k=$ (ad $x_1)^{2q}\mathfrak{g}^{\lambda}$, since $4q+\lambda (h^0)\geq 4q-2q= 2q$. Now (ad $x_1\sum)^{2q}\mathfrak{g}^{\lambda}\subset \mathfrak{g}^{4q+\lambda(h^0)}$, where $\lambda =-\omega$. Thus, (ad $x_1)^{2q}\mathfrak{g}^{-\omega}=\mathfrak{g}^{\omega}$. We have $\omega =n_{\alpha}\alpha$ with $n_{\alpha}>0$ for all $\alpha \in$ B (Chap. VI,$\sum$ §1, no. 8, Remark). If there exists$^{\alpha\in B}\alpha_0\in B$ such that $x_1\in$
+(ad $x)^{2q}\mathfrak{g}^{\lambda}\subset$ (ad $x_1)^{2q}\mathfrak{g}^{\lambda}+\sum_{k>4q+\lambda(h^0)}\mathfrak{g}^k=$ (ad $x_1)^{2q}\mathfrak{g}^{\lambda}$, since $4q+\lambda (h^0)\geq 4q-2q= 2q$. Now (ad $x_1)^{2q}\mathfrak{g}^{\lambda}\subset \mathfrak{g}^{4q+\lambda(h^0)}$, where $\lambda =-\omega$. Thus, (ad $x_1)^{2q}\mathfrak{g}^{-\omega}=\mathfrak{g}^{\omega}$. We have $\omega =\sum_{\alpha\in B}n_{\alpha}\alpha$ with $n_{\alpha}>0$ for all $\alpha \in$ B (Chap. VI, §1, no. 8, Remark). If there exists $\alpha_0\in B$ such that $x_1\in$
 
-$\mathfrak{g}^{\alpha}$, the relation
+$\sum\mathfrak{g}^{\alpha}$, the relation
 
 $\alpha \in B,\alpha \not=\alpha_0$
 

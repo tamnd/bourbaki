@@ -29,7 +29,7 @@ subsections:
       pdf_page: 91
 statements: 28
 exercises: 12
-content_sha256: a12e1c7cb7c7a3a6e46de6301d5a96e4545ddc5bdb73879740536e5f3622bd97
+content_sha256: f6d0de926f5d870fcb22714d7cb7feb86adfdcde4df8a89d8763dd9b0186668f
 ---
 
 ## § 2. ROOT SYSTEM OF A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -228,11 +228,9 @@ If $\mathfrak{h}_{\mathbf{Q}}$ (resp. $\mathfrak{h}^*_{\mathbf{Q}})$ denotes the
 
 #### Remark 2 {#lie-viii-s2-n2-rem-2 .statement tag=00YZ}
 
-The root system $R^{\vee}$ in $\mathfrak{h}$ defines a non-degenerate symmetric bilinear form$\sum\beta$ on $\mathfrak{h}$ (Chap. VI, §1, no. 1, Prop. 3), namely the form $(a, b) \rightarrow$
+The root system $R^{\vee}$ in $\mathfrak{h}$ defines a non-degenerate symmetric bilinear form $\beta$ on $\mathfrak{h}$ (Chap. VI, §1, no. 1, Prop. 3), namely the form $(a, b) \rightarrow$ $\sum_{\alpha\in R}\langle \alpha , a\rangle \langle \alpha , b\rangle$. By the Cor. to Th. 1, this form is just the restriction of the
 
-$\langle \alpha , a\rangle \langle \alpha , b\rangle$. By the Cor. to Th. 1, this form is just the restriction of the
-
-Killing form to$^{\alpha\in R}\mathfrak{h}$. The extension of $\beta |\mathfrak{h}_{\mathbf{Q}}\times \mathfrak{h}_{\mathbf{Q}}$ to $\mathfrak{h}_{\mathbf{Q}}\otimes_{\mathbf{Q}}\mathbf{R}$ is positive non-degenerate (Chap. VI, §1, no. 1, Prop. 3). On the other hand, we see that the inverse form on $\mathfrak{h}^*$ of the restriction to $\mathfrak{h}$ of the Killing form on $\mathfrak{g}$ is the canonical bilinear form $\Phi_R$ of R (Chap. VI, §1, no. 12).
+Killing form to $\mathfrak{h}$. The extension of $\beta |\mathfrak{h}_{\mathbf{Q}}\times \mathfrak{h}_{\mathbf{Q}}$ to $\mathfrak{h}_{\mathbf{Q}}\otimes_{\mathbf{Q}}\mathbf{R}$ is positive non-degenerate (Chap. VI, §1, no. 1, Prop. 3). On the other hand, we see that the inverse form on $\mathfrak{h}^*$ of the restriction to $\mathfrak{h}$ of the Killing form on $\mathfrak{g}$ is the canonical bilinear form $\Phi_R$ of R (Chap. VI, §1, no. 12).
 
 Let $(\mathfrak{g}_1,\mathfrak{h}_1), (\mathfrak{g}_2,\mathfrak{h}_2)$ be split semi-simple Lie algebras, $\varphi$ an isomorphism from $\mathfrak{g}_1$ to $\mathfrak{g}_2$ such that $\varphi (\mathfrak{h}_1) =\mathfrak{h}_2$. By transport of structure, the transpose of the map $\varphi |\mathfrak{h}_1$ takes $R(\mathfrak{g}_2,\mathfrak{h}_2)$ to $R(\mathfrak{g}_1,\mathfrak{h}_1)$.
 
@@ -250,9 +248,9 @@ Recall that, if $\alpha$ and $\beta$ are linearly independent roots, the set of 
 
 #### Proposition 4 {#lie-viii-s2-prop-4 .statement tag=00Z1}
 
-Let $\alpha$ and $\beta$ be linearly independent roots. Let $p$ (resp. $q)$ be the largest integer $j$ such that$\sum\beta +j\alpha$ (resp. $\beta -j\alpha )$ is a root.
+Let $\alpha$ and $\beta$ be linearly independent roots. Let $p$ (resp. $q)$ be the largest integer $j$ such that $\beta +j\alpha$ (resp. $\beta -j\alpha )$ is a root.
 
-(i) The vector subspace $_{-q\leq j\leq p}\mathfrak{g}^{\beta+j\alpha}$ of $\mathfrak{g}$ is a simple $\mathfrak{s}_{\alpha}$-module of dimension $p+q+ 1$.
+(i) The vector subspace $\sum_{-q\leq j\leq p}\mathfrak{g}^{\beta+j\alpha}$ of $\mathfrak{g}$ is a simple $\mathfrak{s}_{\alpha}$-module of dimension $p+q+ 1$.
 
 (ii) If $\alpha +\beta$ is a root, then $[\mathfrak{g}^{\alpha},\mathfrak{g}^{\beta}] =\mathfrak{g}^{\alpha+\beta}$.
 
@@ -266,7 +264,7 @@ $$
 [H_{\alpha}, x] = (\beta (H_{\alpha}) +p\alpha (H_{\alpha}))x= (-p+q+ 2p)x= (p+q)x
 $$
 
-Thus, $x$ is primitive of weight $p+q$ for the representation of$\sum\mathfrak{s}\mathfrak{l}(2, k)$ on $\mathfrak{g}$ associated to $X_{\alpha}$; but the $\mathfrak{s}\mathfrak{l}(2, k$)-module $_{-q\leq j\leq p}\mathfrak{g}^{\beta+j\alpha}$ is of dimension $p+q+ 1$; hence it is simple (§1, no. 2, Prop. 2). If $\alpha +\beta \in R$, then $p\geq 1$, so the elements of $\mathfrak{g}^{\beta}$ are not primitive, and hence $[X_{\alpha},\mathfrak{g}^{\beta}]\not= 0$. Since $[\mathfrak{g}^{\alpha},\mathfrak{g}^{\beta}]\subset$ $\mathfrak{g}^{\alpha+\beta}$, we see finally that $[\mathfrak{g}^{\alpha},\mathfrak{g}^{\beta}] =\mathfrak{g}^{\alpha+\beta}$.
+Thus, $x$ is primitive of weight $p+q$ for the representation of $\mathfrak{s}\mathfrak{l}(2, k)$ on $\mathfrak{g}$ associated to $X_{\alpha}$; but the $\mathfrak{s}\mathfrak{l}(2, k$)-module $\sum_{-q\leq j\leq p}\mathfrak{g}^{\beta+j\alpha}$ is of dimension $p+q+ 1$; hence it is simple (§1, no. 2, Prop. 2). If $\alpha +\beta \in R$, then $p\geq 1$, so the elements of $\mathfrak{g}^{\beta}$ are not primitive, and hence $[X_{\alpha},\mathfrak{g}^{\beta}]\not= 0$. Since $[\mathfrak{g}^{\alpha},\mathfrak{g}^{\beta}]\subset$ $\mathfrak{g}^{\alpha+\beta}$, we see finally that $[\mathfrak{g}^{\alpha},\mathfrak{g}^{\beta}] =\mathfrak{g}^{\alpha+\beta}$.
 
 #### Remark 3 {#lie-viii-s2-n2-rem-3 .statement tag=00Z2}
 
@@ -300,7 +298,7 @@ $$
 
 $\alpha \in Ri\in I$
 
-$($Indeed, by Prop. $1,)\Phi (H_i, X_{\alpha}) =\Phi (H_i', X_{\alpha}) = 0$ for all $i\in I,\alpha \in R$, and $\Phi_{\Phi(X_{\alpha},X_{-\alpha})}^1X_{\alpha}, X_{-\beta}=\delta_{\alpha \beta}$ for all $\alpha , \beta \in R$.
+Indeed, by Prop. $1,\Phi (H_i, X_{\alpha}) =\Phi (H_i', X_{\alpha}) = 0$ for all $i\in I,\alpha \in R$, and $\Phi (_{\Phi(X_{\alpha},X_{-\alpha})}^1X_{\alpha}, X_{-\beta})=\delta_{\alpha \beta}$ for all $\alpha , \beta \in R$.
 
 ### 4. THE COEFFICIENTS N$_{\boldsymbol{\alpha \beta }}$
 

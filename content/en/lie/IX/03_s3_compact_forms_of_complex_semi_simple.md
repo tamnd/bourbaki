@@ -37,7 +37,7 @@ subsections:
       pdf_page: 309
 statements: 17
 exercises: 9
-content_sha256: 551a1dd601743218d750cbf5cbbc841582595aa0687e3326031f955c157bf6b5
+content_sha256: 8c6af33be7bfa914d08767f309c3b61ce8fde4ef372cc0c42b8a92c3363d045f
 ---
 
 ## § 3. COMPACT FORMS OF COMPLEX SEMI- SIMPLE LIE ALGEBRAS
@@ -140,9 +140,9 @@ $$
 [u_{\alpha}, v_{\beta}] = N_{\alpha ,\beta}v_{\alpha+\beta}-N_{\alpha ,-\beta}v_{\alpha-\beta},\alpha \not=\pm \beta \tag{12}
 $$
 
-(in the last three formulas, it is understood, as usual, that $N_{\gamma ,\delta}= 0$ if $\gamma +\delta$ is not a root).$\sum$
+(in the last three formulas, it is understood, as usual, that $N_{\gamma ,\delta}= 0$ if $\gamma +\delta$ is not a root).
 
-Note that $\mathbf{R}u_{\alpha}$ is a real subalgebra of $\mathfrak{a}$, namely $\mathfrak{a}_0\cap \mathfrak{a}_u$.
+Note that $\sum\mathbf{R}u_{\alpha}$ is a real subalgebra of $\mathfrak{a}$, namely $\mathfrak{a}_0\cap \mathfrak{a}_u$.
 
 Let Q(R) be the group of radical weights of R (Chap. VI, §1, no. 9). Recall that to any homomorphism $\gamma : Q(R)\rightarrow \mathbf{C}^*$ is associated an elementary automorphism $f(\gamma )$ of $\mathfrak{a}$ such that $f(\gamma )(h) =h$ for all $h\in \mathfrak{h}$ and $f(\gamma )X_{\alpha}=$ $\gamma (\alpha )X_{\alpha}$ (Chap. VIII, §5, no. 2).
 
