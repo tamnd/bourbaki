@@ -33,7 +33,7 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 19
-content_sha256: 38cfe3563a428d261c3c0498c06371ce5f335e26115bbae63542aee9025a08f5
+content_sha256: 23686d4376f9a2a20cca7f63d08a555f2e7a78a75c06bfb2b1e0960df63c53d4
 ---
 
 ## § 2. STRUCTURE DES MODULES DE LONGUEUR FINIE
@@ -112,7 +112,7 @@ Soient K un corps commutatif de caractéristique $p >0$ et G un $p$-groupe (I, p
 
 ### 2. Décomposition de Weyr-Fitting
 
-Soient A un anneau, M un A-module et $u$ un endomorphisme de M. Pour tout entier $p\geqslant 0$, on note $N_p$ le noyau de $u^p$. La suite des sous-modules $N_p$ est croissante et sa réunion est un sous-module $N_{\infty}$ de M stable par $u$. Pour tout entier $p\geqslant 0$, on a $N_{p+1}=^-u^1(N_p)$ et la relation $N_p= N_{p+1}$ entraîne donc $N_{p+1}= N_{p+2}$. Par suite, ou bien la suite $(N_p)$ est strictement croissante, ou bien il existe un entier $p\geqslant 0$ tel que $N_0, . . . ,N_p$ soient distincts et $N_p= N_{\infty}$.
+Soient A un anneau, M un A-module et $u$ un endomorphisme de M. Pour tout entier $p\geqslant 0$, on note $N_p$ le noyau de $u^p$. La suite des sous-modules $N_p$ est croissante et sa réunion est un sous-module $N_{\infty}$ de M stable par $u$. Pour tout entier $p\geqslant 0$, on a $N_{p+1}=\overset{-1}{u}(N_p)$ et la relation $N_p= N_{p+1}$ entraîne donc $N_{p+1}= N_{p+2}$. Par suite, ou bien la suite $(N_p)$ est strictement croissante, ou bien il existe un entier $p\geqslant 0$ tel que $N_0, . . . ,N_p$ soient distincts et $N_p= N_{\infty}$.
 
 Pour tout entier $q\geqslant 0$, notons $I_q$ l’image de $u^q$. La suite des sous-modules $I_q$ est décroissante et son intersection est un sous-module $I_{\infty}$ de M stable par $u$. Pour tout entier $q\geqslant 0$, on a $u(I_q) = I_{q+1}$ et la relation $I_q= I_{q+1}$ entraîne donc $I_{q+1}= I_{q+2}$. Par suite, ou bien la suite $(I_q)$ est strictement décroissante, ou bien il existe un entier $q\geqslant 0$ tel que $I_0, . . . ,I_q$ soient distincts et $I_q= I_{\infty}$.
 

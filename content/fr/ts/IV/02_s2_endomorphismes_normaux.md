@@ -45,7 +45,7 @@ subsections:
       pdf_page: 207
 statements: 32
 exercises: 28
-content_sha256: 5a5cc7047c2c3d26de0faa06bebd83bd318cceb5038dc090fd11f7e45b3637f8
+content_sha256: 0ba7c792836245d30a6a96e8981572de88529232501c5b1eb4df22e2f395b19e
 ---
 
 ## § 2. ENDOMORPHISMES NORMAUX
@@ -84,13 +84,13 @@ Dans ce numéro, on désigne par X un espace topologique localement compact, et 
 
 #### Définition 1 {#ts-iv-s2-def-1 .statement tag=02YQ}
 
-Soit Y un espace topologique. Pour toute fonction mesurable $g$ de X dans Y, l’image $\mu$-essentielle de $g$ est le sous-ensemble des $y\in Y$ tels que, pour tout voisinage ouvert U de $y$, l’ensemble $^-g^1(U)$ n’est pas localement $\mu$-négligeable dans X (INT, IV, p. 172, § 5, n$^o2$, déf. 3).
+Soit Y un espace topologique. Pour toute fonction mesurable $g$ de X dans Y, l’image $\mu$-essentielle de $g$ est le sous-ensemble des $y\in Y$ tels que, pour tout voisinage ouvert U de $y$, l’ensemble $\overset{-1}{g}(U)$ n’est pas localement $\mu$-négligeable dans X (INT, IV, p. 172, § 5, n$^o2$, déf. 3).
 
 #### Lemme 1 {#ts-iv-s2-lem-1 .statement tag=02YR}
 
 Soient $g$ une fonction $\mu$-mesurable de X dans un espace topologique Y et S son image $\mu$-essentielle. L’ensemble des éléments $x\in X$ tel que $g(x)$ n’appartienne pas à S est localement $\mu$-négligeable dans X.
 
-Soit $Z =^-g^1(Y$ - S) l’ensemble en question.
+Soit $Z =\overset{-1}{g}(Y$ - S) l’ensemble en question.
 
 Supposons d’abord que X est compact et $g$ continue. Dans ce cas, la mesure image $g(\mu)$ est définie (INT, V, p. 69, § 6, n$^o1$, déf. 1) puisque $\mu$ est une mesure bornée. Il résulte des définitions que l’image $\mu$-essentielle de $g$ est le support de la mesure $g(\mu) ($cf. INT, V, p. 70, § 6, n$^o2$, cor. 2), d’où $\mu(Z) =g(\mu)(Y$ - S) = 0 (INT, IV, p. 118, § 2, n$^o2$, prop. 5).
 
@@ -104,9 +104,9 @@ Soit $\mu_1$ la mesure induite par $\mu$ sur $C_1$ (INT, IV, p. 186, § 5, n$^o7
 
 Soit $g$ une fonction continue de X dans $\mathbf{C}$. L’image $\mu$-essentielle de $g$ est l’adhérence de l’image par $g$ du support de $\mu$.
 
-Soit Y le support de $\mu$. Si $z\in \mathbf{C}$ n’est pas adhérent à $g$(Y), alors il existe un voisinage ouvert U de $z$ tel que l’ouvert $^-g^1(U)$ ne rencontre pas Y et est donc localement $\mu$-négligeable ; cela signifie que $z$ n’appartient pas à l’image $\mu$-essentielle de $g$.
+Soit Y le support de $\mu$. Si $z\in \mathbf{C}$ n’est pas adhérent à $g$(Y), alors il existe un voisinage ouvert U de $z$ tel que l’ouvert $\overset{-1}{g}(U)$ ne rencontre pas Y et est donc localement $\mu$-négligeable ; cela signifie que $z$ n’appartient pas à l’image $\mu$-essentielle de $g$.
 
-Réciproquement, si $z\in \mathbf{C}$ est adhérent à $g$(Y), alors pour tout voisinage ouvert U de $z$, l’ensemble $^-g^1(U)$ est un ouvert dans X qui rencontre Y. Il n’est donc pas $\mu$-négligeable, et puisque c’est un ouvert, il n’est pas localement $\mu$-négligeable (INT, IV, p. 172, § 5, n$^o2$, cor. 2). Donc $z$ appartient à l’image $\mu$-essentielle de $g$.
+Réciproquement, si $z\in \mathbf{C}$ est adhérent à $g$(Y), alors pour tout voisinage ouvert U de $z$, l’ensemble $\overset{-1}{g}(U)$ est un ouvert dans X qui rencontre Y. Il n’est donc pas $\mu$-négligeable, et puisque c’est un ouvert, il n’est pas localement $\mu$-négligeable (INT, IV, p. 172, § 5, n$^o2$, cor. 2). Donc $z$ appartient à l’image $\mu$-essentielle de $g$.
 
 #### Lemme 3 {#ts-iv-s2-lem-3 .statement tag=02YT}
 
@@ -114,7 +114,7 @@ Soient $g$ une fonction continue de X dans $\mathbf{C}$ et S son image $\mu$-ess
 
 Posons $h(x) = 1/g(x)$ si $g(x)\not = 0$ et $h(x) = 0$ sinon. La fonction $h$ appartient à $\mathscr{L}^{\infty}(X, \mu)$. Soit $\widetilde{h}$ la classe de $h$ dans $L^{\infty}(X, \mu)$. On a alors la formule $\delta^{-1}=\|\widetilde{h}\|_{\infty}$.
 
-Soit U un voisinage ouvert de 0 tel que l’ouvert $Z =^-g^1(U)$ est localement $\mu$-négligeable, donc négligeable (INT, IV, p. 172, § 5, n$^o2$, cor. 2). Soit Y le support de $\mu$; on a $Y\subset X$ - Z. La restriction de la fonction $h$ à X - Z est continue et bornée, donc $h\in \mathscr{L}^{\infty}(X, \mu)$ et la norme de $\widetilde{h}$ dans $\mathscr{L}^{\infty}(X, \mu)$ est égale à la norme de sa restriction à X - Z. De plus, pour tout $\alpha \in \mathbf{R}_+$, l’ensemble des $x\in X$ - Z tels que $|h(x)|> \alpha$ est un ouvert dans X - Z ; il est donc localement $\mu$-négligeable si et seulement s’il ne rencontre pas Y (INT, IV, loc. cit. et INT, III, p. 66, § 3, n$^o2$, déf. 1). Par conséquent, on a
+Soit U un voisinage ouvert de 0 tel que l’ouvert $Z =\overset{-1}{g}(U)$ est localement $\mu$-négligeable, donc négligeable (INT, IV, p. 172, § 5, n$^o2$, cor. 2). Soit Y le support de $\mu$; on a $Y\subset X$ - Z. La restriction de la fonction $h$ à X - Z est continue et bornée, donc $h\in \mathscr{L}^{\infty}(X, \mu)$ et la norme de $\widetilde{h}$ dans $\mathscr{L}^{\infty}(X, \mu)$ est égale à la norme de sa restriction à X - Z. De plus, pour tout $\alpha \in \mathbf{R}_+$, l’ensemble des $x\in X$ - Z tels que $|h(x)|> \alpha$ est un ouvert dans X - Z ; il est donc localement $\mu$-négligeable si et seulement s’il ne rencontre pas Y (INT, IV, loc. cit. et INT, III, p. 66, § 3, n$^o2$, déf. 1). Par conséquent, on a
 
 1
 
@@ -168,7 +168,7 @@ Il peut exister des fonctions universellement mesurables sur X qui ne sont pas b
 
 Soit $\mu$ une mesure positive sur X. Soient $g$ une fonction $\mu$-mesurable de X dans $\mathbf{C}$ et S son image $\mu$-essentielle. Pour toute fonction $f\in \mathscr{L}_u(S)$, l’application $h$ de X dans $\mathbf{C}$ telle que $h(x) = 0$ si $g(x)\in /S$ et $h(x) =f(g(x))$ si $g(x)\in S$ est $\mu$-mesurable.
 
-Soient $x\in X$ et U un voisinage ouvert relativement compact de $x$. L’ensemble N = U - $(U\cap^-g^1(S))$ est $(\mu|$U)-négligeable. Pour tout entier $n\geqslant 1$, soit $V_n$ un ouvert tel que $N\subset V_n\subset U$ et $\mu(V_n-N)<1/n$ (INT, IV, p. 116, § 1, n$^o4$, prop. 19).
+Soient $x\in X$ et U un voisinage ouvert relativement compact de $x$. L’ensemble N = U - $(U\cap \overset{-1}{g}(S))$ est $(\mu|$U)-négligeable. Pour tout entier $n\geqslant 1$, soit $V_n$ un ouvert tel que $N\subset V_n\subset U$ et $\mu(V_n-N)<1/n$ (INT, IV, p. 116, § 1, n$^o4$, prop. 19).
 
 La restriction $\widetilde{g}$ de $g$ à U- $V_n$ est $\mu|(U$- $V_n$)-propre et son image est contenue dans S. Puisque $f$ est universellement mesurable, l’application $x\mapsto f(g(x))$ de U - $V_n$ dans $\mathbf{C}$ est mesurable par rapport à la mesure $\mu|(U$ - $V_n)$ (INT, V, p. 71, § 6, n$^o2$, prop. 3). L’application $h_n$ de X dans $\mathbf{C}$ telle que $h_n(x) = 0$ si $x /\in U$ - $V_n$ et $h_n(x) =f(g(x))$ si $x\in U$ - $V_n$ est donc $\mu$-mesurable (INT, IV, p. 193, § 5, n$^o10$, prop. 16).
 
@@ -190,9 +190,9 @@ Soit X un espace topologique localement compact et soit $\mu$ une mesure positiv
 
 Soit $g\in \mathscr{L}^{\infty}(X, \mu)$. Le spectre de la classe de $g$ dans $L^{\infty}(X, \mu)$ est égal à l’image $\mu$-essentielle de $g$.
 
-Notons $\widetilde{g}$ la classe de $g$ dans $L^{\infty}(X, \mu)$ et S l’image $\mu$-essentielle de $g$. Soit $z\in \mathbf{C}-$ S. Par définition, il existe un voisinage ouvert U de $z$ tel que $Y =^-g^1(U)$ est localement $\mu$-négligeable. La fonction $h$ définie par $h(x) = (g(x)-z)^{-1}$ si $x /\in Y$, et $h(x) = 0$ si $x\in Y$, appartient alors à $\mathscr{L}^{\infty}(X, \mu)$. Sa classe $\widetilde{h}$ dans $L^{\infty}(X, \mu)$ vérifie $(\widetilde{g}-z)\widetilde{h}= 1$, puisque $(g(x)-z)h(x) = 1$ pour tout $x$ n’appartenant pas à l’ensemble localement $\mu$-négligeable Y. Donc $z\in \mathbf{C}-$ Sp($\widetilde{g}$).
+Notons $\widetilde{g}$ la classe de $g$ dans $L^{\infty}(X, \mu)$ et S l’image $\mu$-essentielle de $g$. Soit $z\in \mathbf{C}-$ S. Par définition, il existe un voisinage ouvert U de $z$ tel que $Y =\overset{-1}{g}(U)$ est localement $\mu$-négligeable. La fonction $h$ définie par $h(x) = (g(x)-z)^{-1}$ si $x /\in Y$, et $h(x) = 0$ si $x\in Y$, appartient alors à $\mathscr{L}^{\infty}(X, \mu)$. Sa classe $\widetilde{h}$ dans $L^{\infty}(X, \mu)$ vérifie $(\widetilde{g}-z)\widetilde{h}= 1$, puisque $(g(x)-z)h(x) = 1$ pour tout $x$ n’appartenant pas à l’ensemble localement $\mu$-négligeable Y. Donc $z\in \mathbf{C}-$ Sp($\widetilde{g}$).
 
-Réciproquement, soit $z\in \mathbf{C}-$ Sp($\widetilde{g}$). Soit $h\in \mathscr{L}^{\infty}(X, \mu)$ une fonction dont la classe est l’inverse de $\widetilde{g}-z$ dans $L^{\infty}(X, \mu)$. Il existe un nombre réel $M>0$ tel que $|h(x)|\leqslant M$ localement $\mu$-presque partout, et de plus on a $(g(x)-z)h(x) = 1$ localement $\mu$-presque partout. Soit U la boule ouverte de centre $z$ et de rayon $M^{-1}$ dans $\mathbf{C}$; alors $^-g^1(U)$ est contenu dans l’ensemble localement $\mu$-négligeable
+Réciproquement, soit $z\in \mathbf{C}-$ Sp($\widetilde{g}$). Soit $h\in \mathscr{L}^{\infty}(X, \mu)$ une fonction dont la classe est l’inverse de $\widetilde{g}-z$ dans $L^{\infty}(X, \mu)$. Il existe un nombre réel $M>0$ tel que $|h(x)|\leqslant M$ localement $\mu$-presque partout, et de plus on a $(g(x)-z)h(x) = 1$ localement $\mu$-presque partout. Soit U la boule ouverte de centre $z$ et de rayon $M^{-1}$ dans $\mathbf{C}$; alors $\overset{-1}{g}(U)$ est contenu dans l’ensemble localement $\mu$-négligeable
 
 $-1$
 

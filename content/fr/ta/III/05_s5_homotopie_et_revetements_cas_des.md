@@ -29,7 +29,7 @@ subsections:
       pdf_page: 331
 statements: 23
 exercises: 0
-content_sha256: 68b82f2af73aed1739e874471584a440895ae6249d2fa8cc2e9558743432d942
+content_sha256: 9fdf3f12b8f6360d62bc612579a1fbbf648ff71065eb298914ac526bec2fd1b1
 ---
 
 ## § 5. HOMOTOPIE ET REVÊTEMENTS (CAS DES ESPACES LOCALEMENT CONNEXES PAR ARCS)
@@ -134,7 +134,7 @@ Soit B un espace topologique localement connexe par arcs, soient $p: E\rightarro
 
 Soit $c$ un chemin dans E ; posons $c'=g\circ c$ et démontrons que l’application $c'$ est continue. Notons $d$ le chemin $p\circ c$ dans B et, pour tout $t\in \mathbf{I}$, notons $d_t$ le chemin $s\mapsto d(st)$. Pour tout $t\in \mathbf{I}$, on a $c(t) =c(0)\cdot d_t($III, p. 304, remarque 3), d’où $c'(t) =c'(0)\cdot d_t$ d’après l’hypothèse faite sur $g$, ce qui prouve que $c'$ est un chemin relevant le chemin $d$, d’après cette même remarque. Cela prouve que l’application $g$ est continue par arcs. Comme l’espace E est localement connexe par arcs (III, p. 261, cor. 2), l’application $g$ est continue (III, p. 269, corollaire de la prop. 13).
 
-Soit B un espace topologique. Considérons une opération $\varphi$ = $(\varphi_{a,b})_{(a,b)\in B\times B}$ du groupoïde $\varpi (B)$ sur un ensemble E, relativement à une application $p: E\rightarrow B$. On dit que $\varpi (B)$ opère sans monodromie sur E (cf. II, p. 168) si pour tout $b\in$ B et toute classe de lacet $\gamma \in \pi_1(B, b)$, l’action de $\gamma$ sur la fibre $E_b$ est triviale. Si B est connexe par arcs, il suffit qu’il en soit ainsi pour un point de B (loc. cit.). Nous dirons que l’opération $\varphi$ du groupoïde $\varpi (B)$ est sans monodromie locale si tout point de B possède un voisinage V tel que $\varpi (V)$ opère sans monodromie sur l’ensemble $E_V$ = $^-p^1(V)$ relativement à l’application $p_V=p|^-p^1(V)$.
+Soit B un espace topologique. Considérons une opération $\varphi$ = $(\varphi_{a,b})_{(a,b)\in B\times B}$ du groupoïde $\varpi (B)$ sur un ensemble E, relativement à une application $p: E\rightarrow B$. On dit que $\varpi (B)$ opère sans monodromie sur E (cf. II, p. 168) si pour tout $b\in$ B et toute classe de lacet $\gamma \in \pi_1(B, b)$, l’action de $\gamma$ sur la fibre $E_b$ est triviale. Si B est connexe par arcs, il suffit qu’il en soit ainsi pour un point de B (loc. cit.). Nous dirons que l’opération $\varphi$ du groupoïde $\varpi (B)$ est sans monodromie locale si tout point de B possède un voisinage V tel que $\varpi (V)$ opère sans monodromie sur l’ensemble $E_V$ = $\overset{-1}{p}(V)$ relativement à l’application $p_V=p|\overset{-1}{p}(V)$.
 
 #### Remarque {#ta-iii-s5-n3-rem-1 .statement tag=01ZW}
 
@@ -158,9 +158,9 @@ Soit $a$ un point de B. Pour tout point $b\in B$, il existe un chemin $c$ dans B
 
 Démontrons que l’opération canonique de $\varpi (B)$ sur E est identique à l’opération $\varphi$. Soient $x$ un point de $E_a$ et $b$ un point de B. Soit $c$ un chemin dans B qui joint le point $a$ au point $b$; l’application $t\mapsto \Phi_a(c(t), x)$ est alors un chemin dans E qui joint le point $x$ au point $\Phi_a(b, x) =f_{a,b}(x)$. Si $\gamma \in \varpi_{a,b}(B)$ désigne la classe du chemin $c$, on a ainsi $x\cdot \gamma =f_{a,b}(x)$. Cela démontre que l’opération canonique de $\varpi (B)$ sur le revêtement E et l’opération $\varphi$ coïncident sur les classes de chemins d’origine $a$. Comme ces classes engendrent le groupoïde $\varpi (B)$, les deux opérations sont égales.
 
-Traitons maintenant le cas général. Soit $\mathscr{B}$ l’ensemble des parties ouvertes V de E telles que $\varpi (V)$ opère sans monodromie sur $^-p^1(V)$. Par hypothèse, les éléments de $\mathscr{B}$ recouvrent B. D’après ce qui précède, il existe pour tout $V\in \mathscr{B}$, une unique topologie sur l’ensemble $^-p^1(V)$ telle que $(^-p^1(V), p_V)$ soit un revêtement de V et que l’opération canonique de $\varpi (V)$ sur ce revêtement coïncide avec l’opération induite par $\varphi$.
+Traitons maintenant le cas général. Soit $\mathscr{B}$ l’ensemble des parties ouvertes V de E telles que $\varpi (V)$ opère sans monodromie sur $\overset{-1}{p}(V)$. Par hypothèse, les éléments de $\mathscr{B}$ recouvrent B. D’après ce qui précède, il existe pour tout $V\in \mathscr{B}$, une unique topologie sur l’ensemble $\overset{-1}{p}(V)$ telle que $(\overset{-1}{p}(V), p_V)$ soit un revêtement de V et que l’opération canonique de $\varpi (V)$ sur ce revêtement coïncide avec l’opération induite par $\varphi$.
 
-Soient V et $V'\in \mathscr{B}$. La topologie de $^-p^1(V\cap V')$ induite par la topologie de $^-p^1(V)$ (resp. de $^-p^1(V')$) définie ci-dessus en fait un revêtement de $V\cap V'$ sur lequel l’opération canonique de $\varpi (V\cap V')$ est induite par l’opération $\varphi$. Ces topologies coïncident donc avec celle de $^-p^1(V\cap V')$. Il existe alors une unique topologie sur E induisant sur chaque $^-p^1(V)$ la topologie précédemment définie (cf. I, § 2, p. 16).
+Soient V et $V'\in \mathscr{B}$. La topologie de $\overset{-1}{p}(V\cap V')$ induite par la topologie de $\overset{-1}{p}(V)$ (resp. de $\overset{-1}{p}(V')$) définie ci-dessus en fait un revêtement de $V\cap V'$ sur lequel l’opération canonique de $\varpi (V\cap V')$ est induite par l’opération $\varphi$. Ces topologies coïncident donc avec celle de $\overset{-1}{p}(V\cap V')$. Il existe alors une unique topologie sur E induisant sur chaque $\overset{-1}{p}(V)$ la topologie précédemment définie (cf. I, § 2, p. 16).
 
 Lorsque E est muni de cette topologie, l’application $p$ est continue et le B-espace E est un revêtement. L’opération canonique de $\varpi (B)$ sur ce revêtement coïncide avec l’opération $\varphi$ sur les classes de chemins dont l’image est contenue dans un des ouverts de $\mathscr{B}$. D’après le lemme 4 de III, p. 272, ces classes engendrent le groupoïde $\varpi (B)$. Il en résulte que ces deux opérations sont égales (II, p. 167).
 
@@ -206,7 +206,7 @@ Soient A et B des espaces topologiques, soit $a$ un point de A et soit $f: A\rig
 
 Soit B un espace topologique localement connexe par arcs et soit $a$ un point de B. Pour qu’un sous-groupe H de $\pi_1(B, a)$ soit admissible, il faut et il suffit qu’il existe un revêtement $(E, p)$ de B et un point $x\in E_a$ tel que $H =p_*(\pi_1(E, x))$.
 
-Soit $(E, p)$ un revêtement de B et soit $x$ un point de $E_a$; posons $H =p_*(\pi_1(E, x))$ et montrons que c’est un sous-groupe admissible de $\pi_1(B, a)$. Soit $b$ un point de B et soit V un voisinage de $b$ tel que $E_V=$ $(^-p^1(V), p_V)$ soit un revêtement trivialisable de V. Soit $\gamma \in \varpi_{a,b}(B)$ ; nous allons démontrer que pour tout élément $\delta \in \pi_1(V, b)$, la classe de chemins $\gamma \delta \gamma^{-1}$ appartient à H.
+Soit $(E, p)$ un revêtement de B et soit $x$ un point de $E_a$; posons $H =p_*(\pi_1(E, x))$ et montrons que c’est un sous-groupe admissible de $\pi_1(B, a)$. Soit $b$ un point de B et soit V un voisinage de $b$ tel que $E_V=$ $(\overset{-1}{p}(V), p_V)$ soit un revêtement trivialisable de V. Soit $\gamma \in \varpi_{a,b}(B)$ ; nous allons démontrer que pour tout élément $\delta \in \pi_1(V, b)$, la classe de chemins $\gamma \delta \gamma^{-1}$ appartient à H.
 
 D’après III, p. 301, prop. 3, il existe une unique classe d’homotopie stricte $\gamma '$ de chemin d’origine $x$ dans E telle que $p_*(\gamma ') =\gamma$ Soit $y$ le terme de $\gamma '$; on a $p(y) =b($III, p. 302, prop. 4). Soit alors $\delta '$ l’unique classe de chemin d’origine $y$ dans E telle que $p_*(\delta ') =\delta$. Comme $E_V$ est trivialisable, $\delta '$ est la classe d’un lacet en $y$. Alors, $\gamma '\delta '(\gamma ')^{-1}$ est la classe d’un lacet en $a$ dans E dont l’image par $p_*$ est la classe $\gamma \delta \gamma^{-1}$, ce qu’il fallait démontrer.
 
@@ -214,7 +214,7 @@ Inversement, soit H un sous-groupe admissible de $\pi_1(B, a)$. Soit $\lambda_a(
 
 L’application $\varepsilon :\lambda_a(B)\rightarrow B$ induit, par passage au quotient, une application $q: H\backslash \lambda_a(B)\rightarrow B$. La composition des classes de chemins munit l’ensemble $H\backslash \lambda_a(B)$ d’une opération à droite du groupoïde $\varpi (B)$ relativement à l’application $q$.
 
-Cette opération est sans monodromie locale. Soit en effet $b$ un point de B et soit V un voisinage de $b$ tel que $\gamma i_*(\pi_1(V, b))\gamma^{-1}\subset H$ pour toute classe de chemins $\gamma$ reliant $a$ à $b$ dans B, où $i$ désigne l’inclusion de V dans B. Comme B est localement connexe par arcs, on peut en outre supposer que V est connexe par arcs. Soit $c\in V$, soit $\delta$ la classe dans $\pi_1(B, c)$ d’un lacet en $c$ contenu dans V et soit $\delta '$ un élément de $\lambda_a(B)$ tel que $\varepsilon (\delta ') =c$. Soit $\delta ''$ un élément de $\varpi_{c,b}(V)$ et posons $\gamma =\delta '\delta ''$. Par définition de V, l’élément $\delta '\delta (\delta ')^{-1}=\gamma ((\delta '')^{-1}\delta \delta '')\gamma^{-1}$ de $\pi_1(B, a)$ appartient à H. Alors, $H\delta '\cdot \delta = H\delta '$; cela démontre que $\pi_1(V, c)$ agit trivialement sur l’ensemble $^-q^1(c)$.
+Cette opération est sans monodromie locale. Soit en effet $b$ un point de B et soit V un voisinage de $b$ tel que $\gamma i_*(\pi_1(V, b))\gamma^{-1}\subset H$ pour toute classe de chemins $\gamma$ reliant $a$ à $b$ dans B, où $i$ désigne l’inclusion de V dans B. Comme B est localement connexe par arcs, on peut en outre supposer que V est connexe par arcs. Soit $c\in V$, soit $\delta$ la classe dans $\pi_1(B, c)$ d’un lacet en $c$ contenu dans V et soit $\delta '$ un élément de $\lambda_a(B)$ tel que $\varepsilon (\delta ') =c$. Soit $\delta ''$ un élément de $\varpi_{c,b}(V)$ et posons $\gamma =\delta '\delta ''$. Par définition de V, l’élément $\delta '\delta (\delta ')^{-1}=\gamma ((\delta '')^{-1}\delta \delta '')\gamma^{-1}$ de $\pi_1(B, a)$ appartient à H. Alors, $H\delta '\cdot \delta = H\delta '$; cela démontre que $\pi_1(V, c)$ agit trivialement sur l’ensemble $\overset{-1}{q}(c)$.
 
 D’après III, p. 313, prop. 3, il existe une unique topologie sur $H\backslash \lambda_a(B)$ pour laquelle $q$ est continue et le B-espace $(H\backslash \lambda_a(B), q)$ est un revêtement tel que l’opération canonique de $\varpi (B)$ sur ce revêtement soit l’opération définie ci-dessus. D’après l’assertion b) du théorème 1 de III, p. 305, le groupe $q_*(\pi_1(H\backslash \lambda_a(B),H))$ est égal à H.
 
@@ -394,7 +394,7 @@ e) Soit A un sous-espace fermé de X qui est un rétracte de X. Démontrer que A
 
 f) Soit A un sous-espace de X tel que le couple $(X,A)$ possède la propriété d’extension des homotopies. Démontrer que A est localement équiconnexe.
 
-19) Soit B un espace topologique, soit $u: X\rightarrow \mathbf{I}$ une application continue et soit $A =^-u^1(0)$.
+19) Soit B un espace topologique, soit $u: X\rightarrow \mathbf{I}$ une application continue et soit $A =\overset{-1}{u}(0)$.
 
 a) Démontrer que l’application $p$ de $X\times \mathbf{I}$ dans lui-même donnée par $p(x, t) = (x, tu(x))$ est fermée.
 
@@ -432,7 +432,7 @@ a) Démontrer que les propriétés suivantes sont équivalentes :
 
 (iv) Il existe une application continue $\varphi : X\rightarrow \mathbf{I}$, un sous-espace V de X et une homotopie $\sigma : V\times \mathbf{I}\rightarrow X$ tels que $\varphi (x) = 1$ si $x\notin V,\varphi (a) = 0$ pour $a\in A,\sigma (x,0) =x$ pour $x\in V,\sigma (a, t) =a$ pour $(a, t)\in A\times \mathbf{I},\sigma (x,1)\in A$ si $\varphi (x)<1$.
 
-b) On suppose que le couple $(X,A)$ possède la propriété d’extension des homotopies stationnaires et qu’il existe une fonction continue $u: X\rightarrow \mathbf{I}$ telle que $^-u^1(0) = A$. Démontrer que le le couple $(X,A)$ possède la propriété d’extension des homotopies.
+b) On suppose que le couple $(X,A)$ possède la propriété d’extension des homotopies stationnaires et qu’il existe une fonction continue $u: X\rightarrow \mathbf{I}$ telle que $\overset{-1}{u}(0) = A$. Démontrer que le le couple $(X,A)$ possède la propriété d’extension des homotopies.
 
 24) Soit M un ensemble non dénombrable, soit X l’espace $\mathbf{I}^M$ et soit A le sous-espace $\{0\}^M$ de X.
 
@@ -462,13 +462,13 @@ d) Démontrer que le couple $(X,A)$ possède la propriété d’extension des ho
 
 28) Soit X un espace topologique, soit A un sous-espace de X tel que le couple $(X,A)$ possède la propriété d’extension des homotopies. Démontrer qu’il en est de même du couple $(X,A)$.
 
-29) Soit B un espace topologique. On dit qu’un recouvrement $(V_i)_{i\in I}$ de B est numérique s’il existe une partition continue de l’unité $(g_j)_{j\in J}$ sur B, localement finie, telle que pour tout $j\in J,^-g_j^1(]0,1])$ est contenu dans l’un des $V_i$.
+29) Soit B un espace topologique. On dit qu’un recouvrement $(V_i)_{i\in I}$ de B est numérique s’il existe une partition continue de l’unité $(g_j)_{j\in J}$ sur B, localement finie, telle que pour tout $j\in J,\overset{-1}{g_{j}}(]0,1])$ est contenu dans l’un des $V_i$.
 
 a) Démontrer que B est paracompact si et seulement si tout recouvrement ouvert de B est numérique.
 
 b) Démontrer que B est normal si et seulement si tout recouvrement ouvert localement fini de B est numérique.
 
-c) Soit $(V_i)$ un recouvrement numérique de B, soit $B'$ un espace topologique et soit $f: B'\rightarrow B$ une application continue. Démontrer que le recouvrement $(^-f^1(V_i))$ de $B'$ est numérique.
+c) Soit $(V_i)$ un recouvrement numérique de B, soit $B'$ un espace topologique et soit $f: B'\rightarrow B$ une application continue. Démontrer que le recouvrement $(\overset{-1}{f}(V_i))$ de $B'$ est numérique.
 
 30) Soit B un espace topologique paracompact, soit F un espace topologique contractile, soit E un espace fibré localement trivial de base B et de fibre-type F. Démontrer que le faisceau des germes de sections continues de E est mou.
 
@@ -478,11 +478,11 @@ b) Soit E un B-espace et soit A un sous-espace de B qui est un rétracte de B. O
 
 c) Soit E un B-espace qui possède la propriété d’extension des sections. Soit
 
-$f: B\rightarrow \mathbf{I}$ une application continue et soit $V =^-f^1(]0,1])$. Démontrer que le V-espace $E_V$ possède la propriété d’extension des sections. (Soit A un sous-espace de V et soit W un halo de A dans V ; construire des suites $(A_n)$ et $(V_n)$ de sous-espaces de B vérifiant les propriétés suivantes : pour tout $n,A_n$ est contenu dans W, $V_n$ est un halo de $A_n$, et l’intersection des $A_n$ est égale à A.)
+$f: B\rightarrow \mathbf{I}$ une application continue et soit $V =\overset{-1}{f}(]0,1])$. Démontrer que le V-espace $E_V$ possède la propriété d’extension des sections. (Soit A un sous-espace de V et soit W un halo de A dans V ; construire des suites $(A_n)$ et $(V_n)$ de sous-espaces de B vérifiant les propriétés suivantes : pour tout $n,A_n$ est contenu dans W, $V_n$ est un halo de $A_n$, et l’intersection des $A_n$ est égale à A.)
 
 32) Soit B un espace topologique et soit $(E, p)$ un B-espace. Soit $(V_i)_{i\in I}$ un recouvrement numérique de B tel que, pour tout $i\in I$, le $V_i$-espace $E_{V_i}$ possède la propriété d’extension des sections.
 
-a) On suppose qu’il existe une partition continue de l’unité $(f_i)$ sur B, localement finie, telle que $V_i=^-f_i^1(]0,1])$ pour tout $i$. Soit $g: B\rightarrow [0,1]$ une application continue. On pose $A =^-g^1(1)$ et $W =^-g^1(]0,1])$ ; soit $s$ une section de E sur W. Démontrer qu’il existe une section de E qui coïncide avec $s$ sur A. (Considérer un élément maximal de l’ensemble des couples $(J, t)$, où J est une partie de I et $t$ est une section de E sur $W\cup \bigcup_{i\in J}V_i$ qui coïncide avec $s$ sur A, muni de la relation d’ordre donnée par $(J, t)\prec (J', t')$ si $J\subset J'$ et $t'$ prolonge $t.)$
+a) On suppose qu’il existe une partition continue de l’unité $(f_i)$ sur B, localement finie, telle que $V_i=\overset{-1}{f_{i}}(]0,1])$ pour tout $i$. Soit $g: B\rightarrow [0,1]$ une application continue. On pose $A =\overset{-1}{g}(1)$ et $W =\overset{-1}{g}(]0,1])$ ; soit $s$ une section de E sur W. Démontrer qu’il existe une section de E qui coïncide avec $s$ sur A. (Considérer un élément maximal de l’ensemble des couples $(J, t)$, où J est une partie de I et $t$ est une section de E sur $W\cup \bigcup_{i\in J}V_i$ qui coïncide avec $s$ sur A, muni de la relation d’ordre donnée par $(J, t)\prec (J', t')$ si $J\subset J'$ et $t'$ prolonge $t.)$
 
 b) Démontrer que le B-espace E possède la propriété d’extension des sections.
 

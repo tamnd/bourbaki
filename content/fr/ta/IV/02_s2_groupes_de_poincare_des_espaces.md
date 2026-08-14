@@ -37,7 +37,7 @@ subsections:
       pdf_page: 381
 statements: 30
 exercises: 0
-content_sha256: ba994b342dea516954ce76de70654eab250f435423adb63814fcf7fba06c2faa
+content_sha256: e58300af46e5f25ad4064a469b811e9b53154030bb4d6325ca900a19dd313fd0
 ---
 
 ## § 2. GROUPES DE POINCARÉ DES ESPACES DÉLAÇABLES
@@ -106,11 +106,11 @@ Inversement, supposons que tout revêtement de B soit trivialisable au-dessus de
 
 Soient X et Y des espaces topologiques et soit $f$ une application continue de X dans Y. On dit que l’application $f$ est relativement connexe si tout point de Y possède un système fondamental
 
-de voisinages constitué d’ensembles V tels que $^-f^1(V)$ soit connexe et non vide.
+de voisinages constitué d’ensembles V tels que $\overset{-1}{f}(V)$ soit connexe et non vide.
 
-Soit $f: X\rightarrow Y$ une application continue ; pour que $f$ soit relativement connexe, il faut et il suffit que tout point de Y possède un voisinage V tel que l’application $f_V:^-f^1(V)\rightarrow V$ déduite de $f$ soit relativement connexe.
+Soit $f: X\rightarrow Y$ une application continue ; pour que $f$ soit relativement connexe, il faut et il suffit que tout point de Y possède un voisinage V tel que l’application $f_V:\overset{-1}{f}(V)\rightarrow V$ déduite de $f$ soit relativement connexe.
 
-Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une application continue relativement connexe. L’image de $f$ est dense dans Y. Pour toute partie ouverte de Y, l’application $f_V:^-f^1(V)\rightarrow V$ est relativement connexe.
+Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une application continue relativement connexe. L’image de $f$ est dense dans Y. Pour toute partie ouverte de Y, l’application $f_V:\overset{-1}{f}(V)\rightarrow V$ est relativement connexe.
 
 #### Proposition 4 {#ta-iv-s2-prop-4 .statement tag=020W}
 
@@ -118,7 +118,7 @@ Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une applicati
 
 a) Pour toute composante connexe U de X$,f(U)$ est une partie
 
-connexe, ouverte et fermée de Y, et l’on a $^-f^1(f(U)) = U$.
+connexe, ouverte et fermée de Y, et l’on a $\overset{-1}{f}(f(U)) = U$.
 
 b) Pour toute composante connexe V de Y, il existe une composante connexe U de X telle que $V =f(U)$. L’application de U dans V déduite de $f$ par passage aux sous-ensembles est relativement connexe.
 
@@ -126,25 +126,25 @@ c) Les composantes connexes de X ( resp. de Y) sont ouvertes et fermées.
 
 a) Soit V l’ensemble des $y\in Y$ qui possèdent un voisinage W tel que
 
-$^-f^1(W)$ soit connexe et rencontre U ; c’est un ouvert de Y. Il contient $f(U)$ car $f$ est relativement connexe. Inversement, soit $y\in V$ ; soit
+$\overset{-1}{f}(W)$ soit connexe et rencontre U ; c’est un ouvert de Y. Il contient $f(U)$ car $f$ est relativement connexe. Inversement, soit $y\in V$ ; soit
 
-W un voisinage de $y$ tel que $^-f^1(W)$ soit connexe et rencontre U. Pour
+W un voisinage de $y$ tel que $\overset{-1}{f}(W)$ soit connexe et rencontre U. Pour
 
-tout voisinage $W'$ de $y$ tel que $^-f^1(W')$ soit connexe, $^-f^1(W\cap W')$ n’est
+tout voisinage $W'$ de $y$ tel que $\overset{-1}{f}(W')$ soit connexe, $\overset{-1}{f}(W\cap W')$ n’est
 
-pas vide, donc $^-f^1(W\cup W')$ est connexe (TG, I, p. 81, prop. 2). Par
+pas vide, donc $\overset{-1}{f}(W\cup W')$ est connexe (TG, I, p. 81, prop. 2). Par
 
-hypothèse, $^-f^1(W\cup W')$ rencontre U ; on a donc $^-f^1(W\cup W')\subset U$ et, a fortiori, $W'\cap f(U)=\not\emptyset$. Cela démontre que $y\in f(U)$ ; par suite, $V =f(U)$. En particulier, l’ensemble $f(U)$ est ouvert et fermé dans Y ; la prop. 1 (TG, I, p. 81) entraîne en outre qu’il est connexe.
+hypothèse, $\overset{-1}{f}(W\cup W')$ rencontre U ; on a donc $\overset{-1}{f}(W\cup W')\subset U$ et, a fortiori, $W'\cap f(U)=\not\emptyset$. Cela démontre que $y\in f(U)$ ; par suite, $V =f(U)$. En particulier, l’ensemble $f(U)$ est ouvert et fermé dans Y ; la prop. 1 (TG, I, p. 81) entraîne en outre qu’il est connexe.
 
-Les arguments qui précèdent montrent de plus que $^-f^1(f(U))\subset U$,
+Les arguments qui précèdent montrent de plus que $\overset{-1}{f}(f(U))\subset U$,
 
-d’où l’égalité $^-f^1(f(U)) = U$, l’autre inclusion étant évidente. En particulier, U est ouvert et fermé dans X.
+d’où l’égalité $\overset{-1}{f}(f(U)) = U$, l’autre inclusion étant évidente. En particulier, U est ouvert et fermé dans X.
 
 b) Soit V la composante connexe d’un point $y$ de Y, soit W un
 
-voisinage de $y$ tel que $^-f^1(W)$ soit connexe et non vide et soit U la
+voisinage de $y$ tel que $\overset{-1}{f}(W)$ soit connexe et non vide et soit U la
 
-composante connexe de X qui contient $^-f^1(W)$. Comme $y\in f(U)$, il résulte de a) et de la définition de la composante connexe de $y$ que $V =f(U)$. Par suite, V est ouvert et fermé dans Y.
+composante connexe de X qui contient $\overset{-1}{f}(W)$. Comme $y\in f(U)$, il résulte de a) et de la définition de la composante connexe de $y$ que $V =f(U)$. Par suite, V est ouvert et fermé dans Y.
 
 #### Corollaire 1 {#ta-iv-s2-prop-4-cor-1 .statement tag=020X}
 
@@ -162,13 +162,13 @@ c) Pour tout ensemble ouvert et connexe V de Y, l’ensemble $f(V)$ est connexe.
 
 Supposons que l’application $f$ soit relativement connexe. La densité de $f(X)$ dans Y résulte de la définition d’une application relativement
 
-connexe. Soit V un ouvert de Y ; l’application $f_V:^-f^1(V)\rightarrow$ V est relativement connexe. D’après la prop. 4, les composantes connexes de V sont ouvertes et fermées dans V. Il en résulte que Y est localement connexe (TG, I, p. 85, prop. 11). Pour démontrer l’assertion c), il suffit de démontrer que X est connexe si Y l’est. D’après le lemme, il existe
+connexe. Soit V un ouvert de Y ; l’application $f_V:\overset{-1}{f}(V)\rightarrow$ V est relativement connexe. D’après la prop. 4, les composantes connexes de V sont ouvertes et fermées dans V. Il en résulte que Y est localement connexe (TG, I, p. 85, prop. 11). Pour démontrer l’assertion c), il suffit de démontrer que X est connexe si Y l’est. D’après le lemme, il existe
 
-une composante connexe U de X telle que $Y =f(U)$ et $^-f^1(f(U)) = U$, d’où U = X et X est connexe.
+une composante connexe U de X telle que $Y =f(U)$ et $\overset{-1}{f}(f(U)) = U$, d’où U = X et X est connexe.
 
 Inversement, supposons que les conditions a), b), c) sont vérifiées et montrons que $f$ est relativement connexe. Soit $y$ un point de Y ; puisque Y est localement connexe, $y$ admet un système fondamental de voisinages ouverts connexes. Si W est un tel voisinage, les conditions
 
-c) et a) impliquent que $^-f^1(W)$ est connexe et non vide. Par suite, l’application $f$ est relativement connexe.
+c) et a) impliquent que $\overset{-1}{f}(W)$ est connexe et non vide. Par suite, l’application $f$ est relativement connexe.
 
 #### Corollaire 3 {#ta-iv-s2-prop-4-cor-3 .statement tag=020Z}
 
@@ -180,7 +180,7 @@ La restriction de $g$ à toute composante connexe de X est constante. D’après
 
 Soit X un espace topologique et soit R une relation d’équivalence dans X. Notons Y l’espace topologique quotient $X/R$ et $f: X\rightarrow Y$ l’application canonique. Supposons que les classes d’équivalences de R soient connexes. Alors, pour toute partie ouverte et
 
-connexe V de Y, l’ensemble $^-f^1(V)$ est connexe (TG, I, p. 23, corollaire 1 et p. 82, proposition 7). Si l’espace Y est localement connexe, l’application $f$ est ainsi relativement connexe.
+connexe V de Y, l’ensemble $\overset{-1}{f}(V)$ est connexe (TG, I, p. 23, corollaire 1 et p. 82, proposition 7). Si l’espace Y est localement connexe, l’application $f$ est ainsi relativement connexe.
 
 #### Exemple 2 {#ta-iv-s2-n2-exa-2 .statement tag=0211}
 
@@ -194,7 +194,7 @@ Soient X et Y des espaces topologiques et soit $f: X\rightarrow$ Y une applicati
 
 Soient $\mathscr{F}$ le faisceau sur X des X-morphismes de $X\times_YT$ dans $X\times_YT'$ et soit $\mathscr{G}$ le faisceau sur Y des Y-morphismes de T dans $T'($I, p. 45, exemple 4). Pour tout ouvert U de Y, posons $\varphi_U= (f_U)^*:\mathscr{G}(U)\rightarrow$
 
-$\mathscr{F}(^-f^1(U))$. Les applications $\varphi_U$ définissent un morphisme de faisceaux $\varphi :\mathscr{G}\rightarrow \varphi_*(\mathscr{F})$ et il suffit de démontrer que $\varphi$ est un isomorphisme de faisceaux.
+$\mathscr{F}(\overset{-1}{f}(U))$. Les applications $\varphi_U$ définissent un morphisme de faisceaux $\varphi :\mathscr{G}\rightarrow \varphi_*(\mathscr{F})$ et il suffit de démontrer que $\varphi$ est un isomorphisme de faisceaux.
 
 Comme Y est localement connexe (IV, p. 354, cor. 2), les ensembles ouverts connexes au-dessus desquels T et $T'$ sont trivialisables forment une base de la topologie de Y. D’après le corollaire 2 de I, p. 55, il suffit de démontrer que pour un tel ouvert U, l’application $\varphi_U$ est bijective, ce qui nous permet de supposer que Y est connexe et que les revêtements T et $T'$ sont les revêtements triviaux $Y\times F$ et $Y\times F'$ où F et $F'$ sont des ensembles munis de la topologie discrète. L’application $(x,(y, t))\mapsto (x, t)$ identifie le X-espace $X\times_Y(Y\times F)$ à $X\times F$ (resp. le X-espace $X\times_Y(Y\times F')$ à $X\times F')$. Comme l’espace X est connexe (IV, p. 354, cor. 2), les ensembles $\mathscr{C}_Y(Y\times F; Y\times F')$ et $\mathscr{C}_X(X\times F; X\times F')$ s’identifient tous deux à l’ensemble $\mathscr{F}(F; F')$ des applications de F dans $F'$, et l’application $f^*$ s’identifie à l’application identique de $\mathscr{F}(F; F')$. Cela conclut la démonstration.
 
@@ -218,25 +218,25 @@ D’après IV, p. 353, prop. 4, on peut supposer que les espaces X et Y sont con
 
 #### Proposition 6 {#ta-iv-s2-prop-6 .statement tag=0216}
 
-Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une application continue et relativement connexe. Supposons que tout point de Y possède un voisinage ouvert V dont l’image réciproque $^-f^1(V)$ soit simplement connexe. Alors, pour tout revêtement Z de X, il existe un revêtement T de Y tel que $X\times_YT$ soit X-isomorphe à Z.
+Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une application continue et relativement connexe. Supposons que tout point de Y possède un voisinage ouvert V dont l’image réciproque $\overset{-1}{f}(V)$ soit simplement connexe. Alors, pour tout revêtement Z de X, il existe un revêtement T de Y tel que $X\times_YT$ soit X-isomorphe à Z.
 
 Soit $\mathscr{U}$ l’ensemble des ouverts de Y dont l’image réciproque dans X
 
-est simplement connexe. Pour tout $V\in \mathscr{U}$, le revêtement $^-f^1(V)\times_XZ$
+est simplement connexe. Pour tout $V\in \mathscr{U}$, le revêtement $\overset{-1}{f}(V)\times_XZ$
 
-de $^-f^1(V)$ est trivialisable ; il existe ainsi un espace discret $F_V$ et un
+de $\overset{-1}{f}(V)$ est trivialisable ; il existe ainsi un espace discret $F_V$ et un
 
-isomorphisme de revêtements $g_V:^-f^1(V)\times_XZ\rightarrow^-f^1(V)\times F_V$. Pour tout
+isomorphisme de revêtements $g_V:\overset{-1}{f}(V)\times_XZ\rightarrow \overset{-1}{f}(V)\times F_V$. Pour tout
 
-couple $(V,V')$ d’ouverts appartenant à $\mathscr{U}$, l’application $f_{V\cap V'}:^-f^1(V\cap$ $V')\rightarrow V\cap V'$ est relativement connexe. D’après la proposition 5 de IV, p. 356, il existe un unique isomorphisme de revêtements de $V\cap V'$, $h_{V',V}: (V\cap V')\times F_V\rightarrow (V\cap V')\times F_{V'}$, tel que l’on ait $f^*(h_{V',V})(x, t) =$ $g_{V'}(g_V^{-1}(x, t))$ pour tout $x\in V\cap V'$ et tout $t\in F_V$. Si V, $V',V''$ sont des éléments de $\mathscr{U}$, on a $h_{V'',V}(x, t) =h_{V'',V'}(h_{V',V}(x, t))$ pour tout $x\in V\cap V'\cap V''$ et tout $t\in F_V$. Il existe alors un unique Y-espace T et, pour tout $V\in \mathscr{U}$, un isomorphisme $h_V: T_V\rightarrow V\times F_V$, tel que l’on ait $h_{V',V}(x, t) =h_{V'}\circ h^-_V^1(x, t)$ pour tout couple $(V,V')$ d’ouverts appartenant à $\mathscr{U}$, tout $x\in V\cap V'$ et tout $t\in F_V($cf. TG, I, p. 16). L’espace T est en particulier un revêtement de Y. Il existe en outre une
+couple $(V,V')$ d’ouverts appartenant à $\mathscr{U}$, l’application $f_{V\cap V'}:\overset{-1}{f}(V\cap$ $V')\rightarrow V\cap V'$ est relativement connexe. D’après la proposition 5 de IV, p. 356, il existe un unique isomorphisme de revêtements de $V\cap V'$, $h_{V',V}: (V\cap V')\times F_V\rightarrow (V\cap V')\times F_{V'}$, tel que l’on ait $f^*(h_{V',V})(x, t) =$ $g_{V'}(g_V^{-1}(x, t))$ pour tout $x\in V\cap V'$ et tout $t\in F_V$. Si V, $V',V''$ sont des éléments de $\mathscr{U}$, on a $h_{V'',V}(x, t) =h_{V'',V'}(h_{V',V}(x, t))$ pour tout $x\in V\cap V'\cap V''$ et tout $t\in F_V$. Il existe alors un unique Y-espace T et, pour tout $V\in \mathscr{U}$, un isomorphisme $h_V: T_V\rightarrow V\times F_V$, tel que l’on ait $h_{V',V}(x, t) =h_{V'}\circ h^-_V^1(x, t)$ pour tout couple $(V,V')$ d’ouverts appartenant à $\mathscr{U}$, tout $x\in V\cap V'$ et tout $t\in F_V($cf. TG, I, p. 16). L’espace T est en particulier un revêtement de Y. Il existe en outre une
 
-unique application de $X\times_YT$ sur Z dont la restriction à $^-f^1(V)\times_YT$ est donnée par $g^-_V^1\circ f^*(h_V)$ et c’est un isomorphisme de X-espaces, d’où la proposition.
+unique application de $X\times_YT$ sur Z dont la restriction à $\overset{-1}{f}(V)\times_YT$ est donnée par $g^-_V^1\circ f^*(h_V)$ et c’est un isomorphisme de X-espaces, d’où la proposition.
 
 #### Corollaire {#ta-iv-s2-n2-cor-1 .statement tag=0217}
 
 Soient X et Y des espaces topologiques délaçables et soit $f: X\rightarrow Y$ une application continue et relativement connexe. Supposons que tout point de Y possède un voisinage V dont l’image
 
-réciproque $^-f^1(V)$ soit simplement connexe. Alors, pour tout point $x$ de X, l’homomorphisme $\pi_1(f, x):\pi_1(X, x)\rightarrow \pi_1(Y, f(x))$ est bijectif.
+réciproque $\overset{-1}{f}(V)$ soit simplement connexe. Alors, pour tout point $x$ de X, l’homomorphisme $\pi_1(f, x):\pi_1(X, x)\rightarrow \pi_1(Y, f(x))$ est bijectif.
 
 On peut supposer les espaces X et Y connexes (IV, p. 353, prop. 4). D’après le corollaire 3 (IV, p. 357), l’homomorphisme $\pi_1(f, x)$ est surjectif. La proposition 6 et la proposition 1 de IV, p. 351 entraînent qu’il est injectif.
 
@@ -348,9 +348,9 @@ $$
 G_n(c) = F^*_n(c)\cap \complement \bigcup_{c'\in^-p_n^1(c)}F^*_{n+1}(c') \tag{1}
 $$
 
-Pour tout $c\in C_n,F^*_n(c)$ est approchable (IV, p. 361, lemme 2, c)). Comme $C_{n+1}$ est dénombrable, la réunion des parties approchables $F^*_{n+1}(c')$, pour $c'$ parcourant $^-p_n^1(c)$, est encore une partie approchable de X. Elle contient la réunion des $F_{n+1}(c')$ qui est égale à $F_n(c)$. Par suite (loc. cit., d)), $G_n(c)$ est une partie maigre de X. La réunion G des parties $G_n(c)$, pour $n\in \mathbf{N}$ et $c\in C_n$, est donc une partie maigre de X.
+Pour tout $c\in C_n,F^*_n(c)$ est approchable (IV, p. 361, lemme 2, c)). Comme $C_{n+1}$ est dénombrable, la réunion des parties approchables $F^*_{n+1}(c')$, pour $c'$ parcourant $\overset{-1}{p_{n}}(c)$, est encore une partie approchable de X. Elle contient la réunion des $F_{n+1}(c')$ qui est égale à $F_n(c)$. Par suite (loc. cit., d)), $G_n(c)$ est une partie maigre de X. La réunion G des parties $G_n(c)$, pour $n\in \mathbf{N}$ et $c\in C_n$, est donc une partie maigre de X.
 
-Soit $c_0\in C_0$ et soit $x$ un élément de $F^*_0(c_0)\cap \complement G$ ; démontrons que $x\in F_0(c_0)$. Puisque $x\notin G_0(c_0)$ et que $x\in F^*_0(c_0)$, il existe $c_1\in^-p_0^1(c_0)$ tel que $x\in F^*_1(c_1)$, d’après la relation (1). Par récurrence, il existe un élément $c= (c_n)_n$ de $\prod_nC_n$ tel que, pour tout entier $n\in \mathbf{N}$, on ait $x\in F^*_n(c_n)$ et $p_n(c_{n+1}) =c_n$.
+Soit $c_0\in C_0$ et soit $x$ un élément de $F^*_0(c_0)\cap \complement G$ ; démontrons que $x\in F_0(c_0)$. Puisque $x\notin G_0(c_0)$ et que $x\in F^*_0(c_0)$, il existe $c_1\in \overset{-1}{p_{0}}(c_0)$ tel que $x\in F^*_1(c_1)$, d’après la relation (1). Par récurrence, il existe un élément $c= (c_n)_n$ de $\prod_nC_n$ tel que, pour tout entier $n\in \mathbf{N}$, on ait $x\in F^*_n(c_n)$ et $p_n(c_{n+1}) =c_n$.
 
 Les parties $\varphi_n(c_n)$ forment une base d’un filtre de Cauchy dans P; ce filtre converge vers un point $p$ de P, puisque P est complet. L’image de ce filtre par $g$ est un filtre F sur X, de base l’ensemble des $F_n(c_n)$ pour $n\in \mathbf{N}$, qui converge vers $g(p)$. Comme $F^*_n(c_n)$ est contenu dans $F_n(c_n)$ et que $x$ appartient à chacun des $F_n(c_n),x$ est un point adhérent à F, donc $x=g(p)$ car l’espace X est séparé (TG, I, p. 52, prop. 1). Le point $p$ appartient à $\varphi_1(c_1)$, donc à $\varphi_0(c_0)$. Par suite, $x\in F_0(c_0)$.
 
@@ -440,7 +440,7 @@ Notons Z l’espace $K\times K\times \mathscr{C}_c(\mathbf{I}\times \mathbf{I}; 
 
 Soit H le sous-ensemble de Z formé des triplets $(\varepsilon , \varepsilon ', h)$ tels que $h$ soit une homotopie stricte reliant $c_{\varepsilon}$ à $c_{\varepsilon'}$. Les applications de Z dans $X^2$ données par $a_t: (\varepsilon , \varepsilon ', h)\mapsto (c_{\varepsilon}(t), h(t,0)),b_t: (\varepsilon , \varepsilon ', h)\mapsto$ $(c_{\varepsilon'}(t), h(t,1))$ et $c_t: (\varepsilon , \varepsilon ', h)\mapsto (h(0, t), h(1, t))$ sont continues, pour tout $t\in \mathbf{I}$, car l’application $\varepsilon \mapsto c_{\varepsilon}$ de K dans $\Omega_a(X)$ est continue, de même que les applications $h\mapsto h(s, t)$ de $\mathscr{C}_c(\mathbf{I}\times \mathbf{I}; X)$ dans X.
 
-Par définition, H est l’intersection des ensembles $^-a_t^1(\Delta_X),^-b_t^1(\Delta_X)$ et $^-c_t^1((a, a))$, pour $t\in \mathbf{I}$, où $\Delta_X$ désigne la diagonale de X. Cela démontre que H est une partie fermée de Z.
+Par définition, H est l’intersection des ensembles $\overset{-1}{a_{t}}(\Delta_X),\overset{-1}{b_{t}}(\Delta_X)$ et $\overset{-1}{c_{t}}((a, a))$, pour $t\in \mathbf{I}$, où $\Delta_X$ désigne la diagonale de X. Cela démontre que H est une partie fermée de Z.
 
 Par suite, H est un espace polonais. Soit $p: Z\rightarrow K\times K$ la projection canonique ; on a $\Gamma  =p(H)$ par définition. Comme $K\times K$ est séparé, Γ est un sous-ensemble souslinien de $K\times K$ (TG, IX, p. 59, déf. 2). D’après IV, p. 362, prop. 7, c’est une partie approchable de $K\times K$.
 

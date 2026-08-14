@@ -45,7 +45,7 @@ subsections:
       pdf_page: 418
 statements: 29
 exercises: 0
-content_sha256: bf43f129b2596314440e8249fc1ebb2e2297f22bd323c6b6578b48c7b87dd08f
+content_sha256: 6bcb0dbabba5c5daffe7d92252651adcb290ae73aaf48cfb78c91fe6d0ece0e9
 ---
 
 ## § 4. THÉORIE DE LA DESCENTE
@@ -80,13 +80,13 @@ Soient X et Y des espaces topologiques, soit $f: X\rightarrow Y$ une application
 
 Soient Y un espace topologique, $(V_i)_{i\in I}$ une famille de parties de Y, et pour tout $i\in I$, soit $(Z_i, p_i)$ un $V_i$-espace. Notons X l’espace topologique somme de la famille $(V_i)_{i\in I}$ et $(Z, p)$ le X-espace somme de la famille $(Z_i)_{i\in I}$. Soit $f: X\rightarrow Y$ l’application canonique.
 
-L’espace $X\times_YX$ s’identifie alors à l’espace somme de la famille $(V_i\cap$ $V_j)_{(i,j)\in I\times I}($I, p. 4, exemple 5). Soit $\tau$ une donnée de descente relative à $f$ sur $(Z, p)$. Pour tout couple $(i, j)\in I\times I$, on définit une application continue $\tau_{i,j}:^-p^1_i(V_i\cap V_j)\rightarrow^-p_j^1(V_i\cap V_j)$ par $z\mapsto \tau (z,(p_i(z), j))$. La famille $(\tau_{i,j})$ vérifie les propriétés suivantes :
+L’espace $X\times_YX$ s’identifie alors à l’espace somme de la famille $(V_i\cap$ $V_j)_{(i,j)\in I\times I}($I, p. 4, exemple 5). Soit $\tau$ une donnée de descente relative à $f$ sur $(Z, p)$. Pour tout couple $(i, j)\in I\times I$, on définit une application continue $\tau_{i,j}:\overset{-1}{p_{i}}(V_i\cap V_j)\rightarrow \overset{-1}{p_{j}}(V_i\cap V_j)$ par $z\mapsto \tau (z,(p_i(z), j))$. La famille $(\tau_{i,j})$ vérifie les propriétés suivantes :
 
 (i) Pour tout $i\in I$, on a $\tau_{i,i}=$ Id$_{Z_i}$;
 
 (ii) Pour tout couple $(i, j)\in I\times I,\tau_{i,j}$ est un isomorphisme de $(V_i\cap V_j)$-espaces ;
 
-(iii) Pour tout triplet $(i, j, k)\in I\times I\times I$ et tout $z\in^-p^1_i(V_i\cap V_j\cap V_k)$, on a $\tau_{j,k}(\tau_{i,j}(z)) =\tau_{i,k}(z)$.
+(iii) Pour tout triplet $(i, j, k)\in I\times I\times I$ et tout $z\in \overset{-1}{p_{i}}(V_i\cap V_j\cap V_k)$, on a $\tau_{j,k}(\tau_{i,j}(z)) =\tau_{i,k}(z)$.
 
 Inversement, toute famille $(\tau_{i,j})$ possédant les propriétés ci-dessus provient d’une unique donnée de descente relative à $f$ sur $(Z, p)$.
 
@@ -104,7 +104,7 @@ X $^f$ Y
 
 soit un carré commutatif. Le Y-espace $(Z/R_{\tau}, q)$ est appelé l’espace quotient de $(Z, p)$ par la donnée de descente $\tau$. Notons $h: Z\rightarrow X\times_Y$ $(Z/R_{\tau})$ l’application définie par $h(z) = (p(z), g(z))$ pour $z\in Z$. Elle est continue. Soit $(x, u)\in X\times_Y(Z/R_{\tau})$ et soit $z\in Z$ tel que $g(z) =u$; on a $(z, x)\in Z\times_YX$ et le point $z'=\tau (z, x)$ est l’unique élément de Z tel que $h(z') = (x, u)$ ; par suite, l’application $h$ est bijective.
 
-On dit que la donnée de descente $\tau$ relative à $f$ sur $(Z, p)$ est effective si le diagramme (1) est un carré cartésien, c’est-à-dire si la bijection continue $h$ est un homéomorphisme. Pour que la donnée de descente $\tau$ soit effective, il faut et il suffit que les ensembles $^-p^1(U)\cap V$, où U est une partie ouverte de X et V une partie ouverte de Z saturée pour $R_{\tau}$, constituent une base de la topologie de Z. En particulier, la condition, pour une donnée de descente relative à $f$, d’être effective est de nature locale dans Y.
+On dit que la donnée de descente $\tau$ relative à $f$ sur $(Z, p)$ est effective si le diagramme (1) est un carré cartésien, c’est-à-dire si la bijection continue $h$ est un homéomorphisme. Pour que la donnée de descente $\tau$ soit effective, il faut et il suffit que les ensembles $\overset{-1}{p}(U)\cap V$, où U est une partie ouverte de X et V une partie ouverte de Z saturée pour $R_{\tau}$, constituent une base de la topologie de Z. En particulier, la condition, pour une donnée de descente relative à $f$, d’être effective est de nature locale dans Y.
 
 #### Exemple 1 {#ta-iv-s4-n2-exa-1 .statement tag=022A}
 
@@ -114,7 +114,7 @@ L’application canonique $Z/R_{\tau}\rightarrow T$ est injective et continue. E
 
 #### Exemple 2 {#ta-iv-s4-n2-exa-2 .statement tag=022B}
 
-Reprenons les notations de l’exemple 2 (IV, p. 383). L’espace topologique $Z/R_{\tau}$ est alors l’espace topologique obtenu par recollement des espaces $Z_i$ le long des $^-p^1_i(V_i\cap V_j)$ au moyen des bijections $\tau_{i,j}$ (TG, I, p. 16). Par suite, si pour tout $i\in I$, l’ensemble $V_i$ est ouvert (resp. fermé) dans Y, l’ensemble $g(Z_i)$ est ouvert (resp. fermé) dans $Z/R_{\tau}$ et la restriction de $g$ à $Z_i$ induit un homéomorphisme de $Z_i$ sur $g(Z_i)$ (TG, I, p. 17, prop. 9). L’espace Z est l’espace somme des espaces $Z_i$; l’espace $X\times_Y(Z/R_{\tau})$ est l’espace somme des espaces $V_i\times_Y$ $(Z/R_{\tau}) =g(Z_i)$. L’application $h$ s’identifie à l’application somme des applications $g|Z_i: Z_i\rightarrow g(Z_i)$. C’est donc un homéomorphisme, ce qui démontre que la donnée de descente $\tau$ est effective.
+Reprenons les notations de l’exemple 2 (IV, p. 383). L’espace topologique $Z/R_{\tau}$ est alors l’espace topologique obtenu par recollement des espaces $Z_i$ le long des $\overset{-1}{p_{i}}(V_i\cap V_j)$ au moyen des bijections $\tau_{i,j}$ (TG, I, p. 16). Par suite, si pour tout $i\in I$, l’ensemble $V_i$ est ouvert (resp. fermé) dans Y, l’ensemble $g(Z_i)$ est ouvert (resp. fermé) dans $Z/R_{\tau}$ et la restriction de $g$ à $Z_i$ induit un homéomorphisme de $Z_i$ sur $g(Z_i)$ (TG, I, p. 17, prop. 9). L’espace Z est l’espace somme des espaces $Z_i$; l’espace $X\times_Y(Z/R_{\tau})$ est l’espace somme des espaces $V_i\times_Y$ $(Z/R_{\tau}) =g(Z_i)$. L’application $h$ s’identifie à l’application somme des applications $g|Z_i: Z_i\rightarrow g(Z_i)$. C’est donc un homéomorphisme, ce qui démontre que la donnée de descente $\tau$ est effective.
 
 Sans hypothèse particulière sur les parties $V_i$, il n’est pas toujours vrai que la restriction de $g$ à $Z_i$ induise un homéomorphisme de $Z_i$ sur son image ; dans ce cas, la donnée de descente $\tau$ n’est pas effective (IV, p. 462, exerc. 2).
 
@@ -208,9 +208,9 @@ Comme l’application $g$ est ouverte (IV, p. 386, prop. 2), l’ensemble $U_0\t
 
 b) Supposons maintenant que l’application $f$ soit propre et séparée.
 
-Soit $z_0$ un point de Z; posons $x_0=p(z_0)$ et $y_0=f(x_0)$. L’application $s$ donnée par $x\mapsto \tau (z_0, x)$ est une section de $p$ au-dessus de $^-f^1(y_0)$.
+Soit $z_0$ un point de Z; posons $x_0=p(z_0)$ et $y_0=f(x_0)$. L’application $s$ donnée par $x\mapsto \tau (z_0, x)$ est une section de $p$ au-dessus de $\overset{-1}{f}(y_0)$.
 
-L’ensemble $^-f^1(y_0)$ est compact (TG, I, p. 75, th. 1 et I, p. 26, remarque 2) et deux points distincts de $^-f^1(y_0)$ possèdent des voisinages disjoints dans X, car $f$ est séparée (I, p. 25, prop. 1). D’après le théo-rème 2 de I, p. 37, il existe donc un voisinage $U_0$ de $^-f^1(y_0)$ dans X et une section $s_0$ de $p$ au-dessus de $U_0$ qui prolonge $s$. L’ensemble $s_0(U_0)$ est un ouvert de Z, car $p$ est étale (I, p. 30, cor. 3), et contient le saturé de l’ensemble $\{z_0\}$ pour la relation $R_{\tau}$. L’application $g$ est fermée (IV, p. 386, prop. 2). Il existe alors un ouvert V de $Z/R_{\tau}$ tel que $W =^-g^1(V)\cap^-p^1(U_0)$ soit un voisinage de $z_0$ contenu dans $s_0(U_0)$ (I, p. 75, lemme).
+L’ensemble $\overset{-1}{f}(y_0)$ est compact (TG, I, p. 75, th. 1 et I, p. 26, remarque 2) et deux points distincts de $\overset{-1}{f}(y_0)$ possèdent des voisinages disjoints dans X, car $f$ est séparée (I, p. 25, prop. 1). D’après le théo-rème 2 de I, p. 37, il existe donc un voisinage $U_0$ de $\overset{-1}{f}(y_0)$ dans X et une section $s_0$ de $p$ au-dessus de $U_0$ qui prolonge $s$. L’ensemble $s_0(U_0)$ est un ouvert de Z, car $p$ est étale (I, p. 30, cor. 3), et contient le saturé de l’ensemble $\{z_0\}$ pour la relation $R_{\tau}$. L’application $g$ est fermée (IV, p. 386, prop. 2). Il existe alors un ouvert V de $Z/R_{\tau}$ tel que $W =\overset{-1}{g}(V)\cap \overset{-1}{p}(U_0)$ soit un voisinage de $z_0$ contenu dans $s_0(U_0)$ (I, p. 75, lemme).
 
 Soit alors $(x, u)\in U_0\times_YV$ et soit $z$ l’unique point de Z tel que $h(z) = (x, u)$ ; par définition, on a $z\in W$. Puisque $W\subset s_0(U_0)$, on a $z=s_0(p(x))$. Cela montre que la restriction de $h^{-1}$ à l’ouvert $U_0\times_YV$ de $X\times_Y(Z/R_{\tau})$ est égale à $s_0\circ p\circ$ pr$_1$. Par suite, $h$ est un homéomorphisme.
 
@@ -252,14 +252,14 @@ Comme l’application $f$ est universellement stricte (I, p. 20, corollaire), l�
 
 Soit $a$ un point de B ; il s’agit de démontrer que le point $a$ possède un voisinage W tel que le W-espace $(E_W, p_W)$ soit un revêtement
 
-trivialisable. Posons $B'_a$ = $^-f^1(a)$ et notons $E'_a$ = $(^-{p'}^1)(E_a)$. L’application $t_a: E'_a\rightarrow B'_a\times E_a$ définie par $t_a(y) = (p'(y), f'(y))$ est un $B'_a$-isomorphisme (I, p. 9, prop. 4), donc $E'_a$ est un revêtement trivialisable de $B'_a$ et $t_a$ est une trivialisation de ce revêtement.
+trivialisable. Posons $B'_a$ = $\overset{-1}{f}(a)$ et notons $E'_a$ = $(^-{p'}^1)(E_a)$. L’application $t_a: E'_a\rightarrow B'_a\times E_a$ définie par $t_a(y) = (p'(y), f'(y))$ est un $B'_a$-isomorphisme (I, p. 9, prop. 4), donc $E'_a$ est un revêtement trivialisable de $B'_a$ et $t_a$ est une trivialisation de ce revêtement.
 
 Démontrons qu’il existe un voisinage $V'$ de $B'_a$ dans $B'$ et une trivialisation continue $t$ du revêtement $(E'_{V'}, p_{V'})$ qui prolonge $t_a$. Sous l’hypothèse (ii), $B'_a$ est fini et ses points possèdent des voisinages ouverts deux à deux disjoints au-dessus desquels le revêtement $E'$ est trivialisable, d’où l’assertion dans ce cas. Sous l’hypothèse (i), $B'_a$ est localement connexe, de même que $B'($IV, p. 390, lemme 1) ; comme l’application $f$ est propre et séparée, $B'_a$ est compact et deux points distincts possèdent des voisinages disjoints dans $B'$, si bien que le couple $(B',B'_a)$ satisfait la propriété (PCV) ( I, p. 37, lemme 1). L’assertion résulte donc du cor. 2 de I, p. 90.
 
-Comme $f$ est propre, il existe un voisinage V de $a$ dans B tel que $V'$ contienne $^-f^1(V)$ (lemme, I, p. 75). On peut ainsi supposer que
+Comme $f$ est propre, il existe un voisinage V de $a$ dans B tel que $V'$ contienne $\overset{-1}{f}(V)$ (lemme, I, p. 75). On peut ainsi supposer que
 
 $$
-V'=^-f^1(V)
+V'=\overset{-1}{f}(V)
 $$
 
 Munissons les $V'$-espaces $V'\times E_a$ et $E'_{V'}= V'\times_BE$ de leurs données de descente canoniques relatives à $f_V: V'\rightarrow V$. Nous allons montrer que, quitte à diminuer V et $V'$, l’isomorphisme de $V'$-espaces $t: E'_{V'}\rightarrow$ $V'\times E_a$ que nous venons de définir est compatible aux données de descentes, c’est-à-dire que l’on a $t(b'_1, x) =t(b'_2, x)$ si $(b'_1, b'_2)\in V'\times_VV'$ et $x\in E_{f(b'_1)}$. Notons $\widetilde{t}$ l’application pr$_2\circ t: E'_{V'}\rightarrow E_a$.
@@ -272,13 +272,13 @@ Comme $f$ est propre, l’application canonique $f''$ de $B'\times_BB'$ dans B e
 
 D’après le lemme de I, p. 75, il existe un voisinage W de $a$ dans V
 
-tel que $({f^-''}^1)(W)$ soit contenu dans $W''$; posons $W'=(^-f^1')(W)$, c’est une partie de $V'$ et l’isomorphisme d’espaces étalés $t: E'_{W'}\rightarrow W'\times E_a$ est compatible aux données de descente canoniques relatives à l’application $f_W: W'\rightarrow W$. Il résulte du corollaire (IV, p. 388) que les W-espaces étalés $E_W$ et $W\times E_a$ sont isomorphes. En particulier, $E_W$ est un revêtement trivialisable, d’où la proposition.
+tel que $(f\overset{-1}{''})(W)$ soit contenu dans $W''$; posons $W'=(\overset{-1}{f}')(W)$, c’est une partie de $V'$ et l’isomorphisme d’espaces étalés $t: E'_{W'}\rightarrow W'\times E_a$ est compatible aux données de descente canoniques relatives à l’application $f_W: W'\rightarrow W$. Il résulte du corollaire (IV, p. 388) que les W-espaces étalés $E_W$ et $W\times E_a$ sont isomorphes. En particulier, $E_W$ est un revêtement trivialisable, d’où la proposition.
 
 #### Corollaire 1 {#ta-iv-s4-prop-6-cor-1 .statement tag=022K}
 
-Soient E et B des espaces topologiques, $p: E\rightarrow B$ une application continue et $(A_i)_{i\in I}$ un recouvrement fermé localement fini de B tel que pour tout couple $(i, j)\in I\times I,i=\not j$, l’intersection $A_i\cap A_j$ soit un espace localement connexe. Alors, pour que le B-espace $(E, p)$ soit un revêtement, il faut et il suffit que, pour tout $i\in I$, le $A_i$-espace $(^-p^1(A_i), p_{A_i})$ soit un revêtement de $A_i$.
+Soient E et B des espaces topologiques, $p: E\rightarrow B$ une application continue et $(A_i)_{i\in I}$ un recouvrement fermé localement fini de B tel que pour tout couple $(i, j)\in I\times I,i=\not j$, l’intersection $A_i\cap A_j$ soit un espace localement connexe. Alors, pour que le B-espace $(E, p)$ soit un revêtement, il faut et il suffit que, pour tout $i\in I$, le $A_i$-espace $(\overset{-1}{p}(A_i), p_{A_i})$ soit un revêtement de $A_i$.
 
-La condition est nécessaire (cf. I, p. 69). Inversement, notons $B'$ l’espace topologique somme de la famille $(A_i)_{i\in I}$ et $f: B'\rightarrow B$ l’application canonique. L’application $f$ est fermée (TG, I, p. 6, prop. 4), séparée (I, p. 27, remarque 5), à fibres finies, donc propre (TG, I, p. 75, th. 1), elle est aussi surjective. La diagonale $\Delta_{B'}$, étant égale à $\bigcup_{i\in I}A_i\times_BA_i$, est ouverte dans $B'\times_BB'$. Enfin, l’espace $(B'\times_BB')-\Delta_{B'}$ est homéomorphe à l’espace somme de la famille $(A_i\cap A_j)$, $(i, j)\in I\times I$, $i=\not j$; il est donc localement connexe. L’hypothèse (ii) de la proposition 6 est satisfaite. Si pour tout $i,^-p^1(A_i)$ est un revêtement de $A_i,E'$ est alors un revêtement de $B'$, donc E est un revêtement de B.
+La condition est nécessaire (cf. I, p. 69). Inversement, notons $B'$ l’espace topologique somme de la famille $(A_i)_{i\in I}$ et $f: B'\rightarrow B$ l’application canonique. L’application $f$ est fermée (TG, I, p. 6, prop. 4), séparée (I, p. 27, remarque 5), à fibres finies, donc propre (TG, I, p. 75, th. 1), elle est aussi surjective. La diagonale $\Delta_{B'}$, étant égale à $\bigcup_{i\in I}A_i\times_BA_i$, est ouverte dans $B'\times_BB'$. Enfin, l’espace $(B'\times_BB')-\Delta_{B'}$ est homéomorphe à l’espace somme de la famille $(A_i\cap A_j)$, $(i, j)\in I\times I$, $i=\not j$; il est donc localement connexe. L’hypothèse (ii) de la proposition 6 est satisfaite. Si pour tout $i,\overset{-1}{p}(A_i)$ est un revêtement de $A_i,E'$ est alors un revêtement de $B'$, donc E est un revêtement de B.
 
 #### Corollaire 2 {#ta-iv-s4-prop-6-cor-2 .statement tag=022L}
 
@@ -436,7 +436,7 @@ ce qui prouve que le morphisme de groupoïdes $\varpi '(f)$ est surjectif.
 
 Soient $u$ et $v$ des flèches de Coeg($f$). Comme le groupoïde Coeg($f$) est engendré par l’image de $\varpi (X)$ (II, p. 200, corollaire), il existe des suites finies $(c_1, . . . , c_n)$ et $(d_1, . . . , d_n)$ de chemins dans X telles que l’on ait $u=\{c_1\}. . .\{c_n\}$ et $v=\{d_1\}. . .\{d_n\}$. Les chemins $(f\circ c_1, . . . , f\circ c_n)$ dans Y sont alors juxtaposables et l’on a $\varpi '(f)(u) = [(f\circ c_1)]. . .[(f\circ$ $c_n)]$; de même, $\varpi '(f)(v) = [(f\circ d_1)]. . .[(f\circ d_n)]$.
 
-Supposons que l’on ait $\varpi '(f)(u) =\varpi '(f)(v)$. Il existe alors une homotopie stricte $\sigma$ reliant $(f\circ c_1)* \cdots  *(f\circ c_n)$ à $(f\circ d_1)* \cdots  *(f\circ d_n)$. D’après le lemme 4 de III, p. 272, appliqué à l’espace compact $\mathbf{I}\times \mathbf{I}$ et au recouvrement $(^-\sigma^1(U_i))_{i\in I})$ de $\mathbf{I}\times \mathbf{I}$, il existe un entier $m\geqslant 1$ tel que, pour tout couple d’entiers $(j, k)$ vérifiant $1\leqslant j\leqslant m$ et $1\leqslant k\leqslant m$, l’image de $[^{j-1}_m,_m^j]\times [^{k-1}_m,_m^k]$ par $\sigma$ soit contenue dans un ouvert $U_{i(j,k)}$ du recouvrement $(U_i)_{i\in I}$.
+Supposons que l’on ait $\varpi '(f)(u) =\varpi '(f)(v)$. Il existe alors une homotopie stricte $\sigma$ reliant $(f\circ c_1)* \cdots  *(f\circ c_n)$ à $(f\circ d_1)* \cdots  *(f\circ d_n)$. D’après le lemme 4 de III, p. 272, appliqué à l’espace compact $\mathbf{I}\times \mathbf{I}$ et au recouvrement $(\overset{-1}{\sigma}(U_i))_{i\in I})$ de $\mathbf{I}\times \mathbf{I}$, il existe un entier $m\geqslant 1$ tel que, pour tout couple d’entiers $(j, k)$ vérifiant $1\leqslant j\leqslant m$ et $1\leqslant k\leqslant m$, l’image de $[^{j-1}_m,_m^j]\times [^{k-1}_m,_m^k]$ par $\sigma$ soit contenue dans un ouvert $U_{i(j,k)}$ du recouvrement $(U_i)_{i\in I}$.
 
 Tout chemin $c$ dans X est de la forme $c_1* \cdots  *c_m$, où $c_k$ est le chemin $t\mapsto c(^{k-1+t}_m)$. Quitte à remplacer les entiers $m$ et $n$ par leur produit $mn$, on peut donc supposer que $m=n$.
 
@@ -556,9 +556,9 @@ Soit $c$ un tel chemin.
 
 Soit $x\in X$, soit $K_x$ son fixateur dans G. D’après TG, III, p. 32, prop. 8, il existe un voisinage ouvert $U_x$ de $x$ dans X tel que $K_x\cdot U_x=$ $U_x,g\cdot U_x\cap U_x$ = $\emptyset$ pour tout $g\in$ G - $K_x$, et tel que l’application $f$ induise un homéomorphisme de $U_x/K_x$ sur un voisinage ouvert $V_x$ de $f(x)$ dans Y. Comme X est délaçable et que la restriction à $U_x$ de l’application $f$ est ouverte et fermée, on peut en outre supposer que $U_x$ est connexe et que l’image de l’homomorphisme canonique $\pi_1(U_x, x)\rightarrow \pi_1(X, x)$ est réduite à l’élément neutre. Les ouverts $(V_x)_{x\in X}$ ainsi construits forment un recouvrement ouvert de Y. D’après le lemme 4 de III, p. 272, appliqué à l’espace compact $\mathbf{I}$ et aux ouverts $(f\circ c_1)^{-1}(V_x)$ pour $x\in X$, il existe un entier $n\geqslant 1$ tel que pour tout $i\in  \{1, . . . , n\}$, il existe un point $x_i$ dans X tel que $c_1([^{i-1}_n,_n^i])$
 
-soit contenu dans $^-f^1(V_{x_i})$. Comme $f\circ c_1=f\circ c_2,c_2([^{i-1}_n,_n^i])$ est aussi
+soit contenu dans $\overset{-1}{f}(V_{x_i})$. Comme $f\circ c_1=f\circ c_2,c_2([^{i-1}_n,_n^i])$ est aussi
 
-contenu dans $^-f^1(V_{x_i})$.
+contenu dans $\overset{-1}{f}(V_{x_i})$.
 
 Pour $j= 1$ ou 2 et pour $i\in  \{1, . . . , n\}$, notons $c_{j,i}$ le chemin dans X défini par $t\mapsto c_j(^{i+t-1}_n)$ ; on a $c_j=c_{j,1}* \cdots  *c_{j,n}($III, p. 291, remarque 1). Par suite, pour montrer que $\beta ([c_1]) =\beta ([c_2])$, il suffit de montrer que $\beta ([c_{1,i}]) =\beta ([c_{2,i}])$ pour tout entier $i\in  \{1, . . . , n\}$. Quitte à remplacer le chemin $(c_1, c_2)$ par le chemin $(c_{1,i}, c_{2,i})$, on suppose ainsi qu’il existe $x\in X$ tel que $(f\circ c_1)([0,1])\subset V_x$.
 

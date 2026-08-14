@@ -1,6 +1,6 @@
 {
   "version": "dev",
-  "commit": "d646fd73142c89cd035d2d7512040fd8c6305fd8",
+  "commit": "3b761592af379c9b990d15df57268dd8730f08bd",
   "root": "/Users/apple/github/tamnd/bourbaki",
   "langs": [
     "en",
@@ -8,7 +8,7 @@
     "vi"
   ],
   "hard": 0,
-  "soft": 400,
+  "soft": 373,
   "checks": [
     {
       "id": "F01",
@@ -163,14 +163,14 @@
       "group": "mathematics",
       "hard": false,
       "title": "no base carries two superscripts or two subscripts",
-      "found": 134
+      "found": 120
     },
     {
       "id": "P04",
       "group": "publication",
       "hard": false,
       "title": "every math span parses under KaTeX",
-      "found": 130
+      "found": 117
     },
     {
       "id": "R01",
@@ -888,94 +888,6 @@
       "check": "M09",
       "group": "mathematics",
       "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 301,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 301,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 339,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 787,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 791,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 791,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 793,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 793,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 795,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/I/02_s2_applications_etales.md",
-      "line": 281,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/I/02_s2_applications_etales.md",
-      "line": 285,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
       "file": "content/fr/ta/I/03_s3_faisceaux.md",
       "line": 485,
       "message": "two of one script against one base, which TeX will not set: _v^{u_*}_{\\mathscr{G}}"
@@ -987,14 +899,6 @@
       "file": "content/fr/ta/I/03_s3_faisceaux.md",
       "line": 487,
       "message": "two of one script against one base, which TeX will not set: _v^{u_*}_{\\mathscr{G}}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/I/04_s4_revetements.md",
-      "line": 587,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
     },
     {
       "check": "M09",
@@ -1099,22 +1003,6 @@
       "file": "content/fr/ta/IV/02_s2_groupes_de_poincare_des_espaces.md",
       "line": 233,
       "message": "two of one script against one base, which TeX will not set: ^-_V^1"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/IV/04_s4_theorie_de_la_descente.md",
-      "line": 275,
-      "message": "two of one script against one base, which TeX will not set: ^-''"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ta/IV/04_s4_theorie_de_la_descente.md",
-      "line": 275,
-      "message": "two of one script against one base, which TeX will not set: ^1'"
     },
     {
       "check": "M09",
@@ -1952,86 +1840,6 @@
       "check": "P04",
       "group": "publication",
       "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 301,
-      "message": "KaTeX will not set it: Double superscript at position 12: X'_0=(^-p^1'̲)(B'_0)\\cap (^-…: X'_0=(^-p^1')(B'_0)\\cap (^-f^1')(X_0)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 339,
-      "message": "KaTeX will not set it: Double superscript at position 22: …}\\subset (^-f^1'̲)(X_b): X'_{b'}\\subset (^-f^1')(X_b)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 787,
-      "message": "KaTeX will not set it: Double superscript at position 11: \np'((^-f^1'̲)(A)) =^-f^1(p(…: p'((^-f^1')(A)) =^-f^1(p(A)) \\tag{20}"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 791,
-      "message": "KaTeX will not set it: Double superscript at position 13: x'\\in (^-f^1'̲)(A): x'\\in (^-f^1')(A)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 791,
-      "message": "KaTeX will not set it: Double superscript at position 16: b'\\in p'((^-f^1'̲)(A)): b'\\in p'((^-f^1')(A))"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 793,
-      "message": "KaTeX will not set it: Double superscript at position 7: (^-f^1'̲)(A): (^-f^1')(A)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 793,
-      "message": "KaTeX will not set it: Double superscript at position 10: p'((^-f^1'̲)(A)): p'((^-f^1')(A))"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
-      "line": 795,
-      "message": "KaTeX will not set it: Double superscript at position 12: f(p'((^-f^1'̲)(A))): f(p'((^-f^1')(A)))"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/I/02_s2_applications_etales.md",
-      "line": 281,
-      "message": "KaTeX will not set it: Double superscript at position 7: (^-f^1'̲)(U): (^-f^1')(U)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/I/02_s2_applications_etales.md",
-      "line": 285,
-      "message": "KaTeX will not set it: Double superscript at position 7: (^-f^1'̲)(U): (^-f^1')(U)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
       "file": "content/fr/ta/I/03_s3_faisceaux.md",
       "line": 485,
       "message": "KaTeX will not set it: Double subscript at position 18: …*(\\beta_v^{u_*}_̲{\\mathscr{G}})(…: v_*(\\beta_v^{u_*}_{\\mathscr{G}})(\\beta^v_{\\mathscr…"
@@ -2043,14 +1851,6 @@
       "file": "content/fr/ta/I/03_s3_faisceaux.md",
       "line": 487,
       "message": "KaTeX will not set it: Double subscript at position 40: …*(\\beta_v^{u_*}_̲{\\mathscr{G}})\\…: \\beta_{\\mathscr{G}}^w=v_*(\\beta_v^{u_*}_{\\mathscr{…"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/I/04_s4_revetements.md",
-      "line": 587,
-      "message": "KaTeX will not set it: Double superscript at position 29: …ghtarrow (^-p^1'̲)(U): f:^-p^1(U)\\rightarrow (^-p^1')(U)"
     },
     {
       "check": "P04",
@@ -2106,7 +1906,7 @@
       "hard": false,
       "file": "content/fr/ta/III/01_s1_homotopies_homeotopies.md",
       "line": 351,
-      "message": "KaTeX will not set it: Double superscript at position 11: \\alpha^-_f^̲1(P) =^-f^1(y)\\…: \\alpha^-_f^1(P) =^-f^1(y)\\times \\{1\\}"
+      "message": "KaTeX will not set it: Double superscript at position 11: \\alpha^-_f^̲1(P) =\\overset{…: \\alpha^-_f^1(P) =\\overset{-1}{f}(y)\\times \\{1\\}"
     },
     {
       "check": "P04",
@@ -2163,22 +1963,6 @@
       "file": "content/fr/ta/IV/02_s2_groupes_de_poincare_des_espaces.md",
       "line": 233,
       "message": "KaTeX will not set it: Double superscript at position 6: g^-_V^̲1\\circ f^*(h_V): g^-_V^1\\circ f^*(h_V)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/IV/04_s4_theorie_de_la_descente.md",
-      "line": 275,
-      "message": "KaTeX will not set it: Double superscript at position 6: ({f^-'̲'}^1)(W): ({f^-''}^1)(W)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/IV/04_s4_theorie_de_la_descente.md",
-      "line": 275,
-      "message": "KaTeX will not set it: Double superscript at position 10: W'=(^-f^1'̲)(W): W'=(^-f^1')(W)"
     },
     {
       "check": "P04",

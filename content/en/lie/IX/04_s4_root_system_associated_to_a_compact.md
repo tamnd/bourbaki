@@ -53,7 +53,7 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: 0b1f0f67463babe97a0733de35f347456e7869438e10d22b7f0696140ab0cc6f
+content_sha256: 445a52efa9ae30f74217ff794a3a66bb05d82e5ebee67cfe1d69963fe9ef6c18
 ---
 
 ## § 4. ROOT SYSTEM ASSOCIATED TO A COMPACT GROUP
@@ -166,11 +166,11 @@ In particular, assume that $f$ is surjective, with finite kernel N, so that we h
 
 where $i$ is the canonical injection. Then, $L(f)$ is bijective, and (4) gives an isomorphism $N\rightarrow$ Coker $\Gamma (f)$, hence an exact sequence
 
-0 $\longrightarrow \Gamma (S)^{\Gamma}\longrightarrow^{(f)}\Gamma (S')\longrightarrow$ N $\longrightarrow 0$. (5)
+0 $\longrightarrow \Gamma (S)\overset{\Gamma(f)}{\longrightarrow}\Gamma (S')\longrightarrow$ N $\longrightarrow 0$. (5)
 
 Moreover, by Spectral Theories, Chap. II, §1, no. 7, Th. 4, the sequence
 
-0 $\longrightarrow X(S')^{X(}\longrightarrow^{f)}$ X(S) $\longrightarrow^{X(i)}$ X(N) $\longrightarrow$ 0 (6)
+0 $\longrightarrow X(S')\overset{X(f)}{\longrightarrow}$ X(S) $\longrightarrow^{X(i)}$ X(N) $\longrightarrow$ 0 (6)
 
 is exact.
 

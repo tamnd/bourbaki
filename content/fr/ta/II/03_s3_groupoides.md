@@ -61,7 +61,7 @@ subsections:
       pdf_page: 194
 statements: 40
 exercises: 0
-content_sha256: df3cb6de250118c96072a99aebdb7c57bcf50e68adc006e748d00a07570b042c
+content_sha256: c8e4e074ad02d3003f51325f61be234086cb735049c83a11396505756d53e615
 ---
 
 ## § 3. GROUPOÏDES
@@ -154,7 +154,7 @@ Soient $a,b,c$ des sommets de G. On a $e_a\in G_{a,a}$; si $f\in G_{a,b}$, $f^{-
 
 2) Soit X un ensemble. Soit G le carquois $(X,X\times X$, pr$_1$, pr$_2)$ ; définissons une loi de composition dans G en posant $(x, x')\cdot (x', x'') = (x, x'')$, si $x, x', x''$ sont des éléments de X. Cette loi est associative ; pour tout $x\in X$, $(x, x)$ est l’élément neutre en $x$; l’inverse de la flèche $(x, x')$ est la flèche $(x', x)$. Le groupoïde ainsi défini est appelé groupoïde des couples de l’ensemble X. Si X n’est pas vide, il est simplement transitif.
 
-3) Soient X et S des ensembles et soit $p: X\rightarrow S$ une application. Pour $a\in S$, on note $X_a=^-p^1(a)$. Pour $a$ et $b$ dans S, soit $G_{a,b}$ l’ensemble $\mathscr{B}(X_a; X_b)$ des bijections de $X_a$ dans $X_b$ et soit G l’ensemble somme des ensembles $G_{a,b}$. Soient $o$ et $t$ les applications de G dans S telles que $o(f) =a$ et $t(f) =b$ pour tout élément $f\in G_{a,b}$. Le quadruplet $(S,G, o, t)$ est un carquois. Munissons-le de la loi de composition définie par $m(f, g) =g\circ f$ si $f\in \mathscr{B}(X_a; X_b)$ et $g\in \mathscr{B}(X_b; X_c)$, où $a, b, c$ sont des points de S. C’est un groupoïde ; on le note $\mathscr{B}(X, p)$ et on l’appelle le groupoïde des permutations de X relativement à $p$.
+3) Soient X et S des ensembles et soit $p: X\rightarrow S$ une application. Pour $a\in S$, on note $X_a=\overset{-1}{p}(a)$. Pour $a$ et $b$ dans S, soit $G_{a,b}$ l’ensemble $\mathscr{B}(X_a; X_b)$ des bijections de $X_a$ dans $X_b$ et soit G l’ensemble somme des ensembles $G_{a,b}$. Soient $o$ et $t$ les applications de G dans S telles que $o(f) =a$ et $t(f) =b$ pour tout élément $f\in G_{a,b}$. Le quadruplet $(S,G, o, t)$ est un carquois. Munissons-le de la loi de composition définie par $m(f, g) =g\circ f$ si $f\in \mathscr{B}(X_a; X_b)$ et $g\in \mathscr{B}(X_b; X_c)$, où $a, b, c$ sont des points de S. C’est un groupoïde ; on le note $\mathscr{B}(X, p)$ et on l’appelle le groupoïde des permutations de X relativement à $p$.
 
 4) Soit $(G_i)_{i\in I}$ une famille de groupoïdes. Notons G le carquois produit de la famille des carquois sous-jacents ; pour tout $i\in I$, soit pr$_i: G\rightarrow G_i$ le morphisme de carquois canonique. Il existe une unique loi de composition dans G pour laquelle G est un groupoïde et telle que, pour tout $i\in I$, pr$_i$ soit un morphisme de groupoïdes. Soient $f= (f_i)_{i\in I}$ et $g= (g_i)_{i\in I}$ des flèches de G ; elles sont composables si et seulement si les flèches $f_i$ et $g_i$ sont composables, pour $i\in I$. On a alors $f g= (f_ig_i)_{i\in I}$.
 

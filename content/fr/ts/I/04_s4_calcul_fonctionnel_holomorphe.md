@@ -69,7 +69,7 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: 8f9417829ccfa6a5f5c3a176abbaf4ba5586540439544fe923a74346a4c55f50
+content_sha256: 084289b4f98eb082568c563a28d3cefc2b1d3d47a37d2d5ac3389e25f32963fd
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -103,7 +103,7 @@ Soit $m$ un entier naturel. Soient L une partie compacte de $\mathbf{C}^m$ et V 
 $-1$
 
 $$
-\mathscr{O}(U; F)^{\varphi}\leftarrow^{^*}\rightarrow \mathscr{O}(^-\varphi^1(U); F)^{\varphi^{\varphi}}\leftarrow^{^{(U)}}\rightarrow \mathscr{O}(L; F)
+\mathscr{O}(U; F)^{\varphi}\leftarrow^{^*}\rightarrow \mathscr{O}(\overset{-1}{\varphi}(U); F)^{\varphi^{\varphi}}\leftarrow^{^{(U)}}\rightarrow \mathscr{O}(L; F)
 $$
 
 pour U voisinage ouvert de K, induisent une application linéaire continue $\varphi^*:\mathscr{O}(K; F)\rightarrow \mathscr{O}(L; F)$ (loc. cit.).

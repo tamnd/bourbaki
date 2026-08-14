@@ -37,7 +37,7 @@ subsections:
       pdf_page: 445
 statements: 31
 exercises: 0
-content_sha256: 4ab3bad6b0f9a7796accf65251691ddf631dba70dca796c154bc3c1ec59fe943
+content_sha256: f0f99408b61d16553ee29c5cd5f8bbb787377a7eae5b072dafc70c94a00899c5
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -464,9 +464,9 @@ Pour le cas d’un recouvrement formé de deux ensembles, voir le n$^o3$.
 
 Soit G un graphe (II, p. 155, définition 1) ; notons S l’ensemble des sommets de G, A l’ensemble de ses arêtes orientées, $o$ et $t$ les applications origine et terme de A dans S ; pour toute arête orientée $a\in A$, on note $a$ l’arête orientée opposée. Munissons les ensembles S et A de la topologie discrète ; soit X l’espace somme de l’espace S et de l’espace $\mathbf{I}\times A$ et soit $\sim$ la relation d’équivalence la plus fine dans X pour laquelle $(u, a)\sim (1-u, a)$, $(0, a)\sim o(a)$ et $(1, a)\sim t(a)$ pour tout $u\in \mathbf{I}$ et toute arête orientée $a\in A$. L’espace quotient $|G|= X/\sim$ est appelé la réalisation géométrique du graphe G. On note $p$ la projection canonique de X sur $|G|$.
 
-Démontrons que $|G|$ est localement contractile. Soit $s\in S$. Notons $X_s$ la réunion de $\{s\}$ et des parties $[0,1[\times  \{a\}$ pour $a\in^-o^1(s)$ et des
+Démontrons que $|G|$ est localement contractile. Soit $s\in S$. Notons $X_s$ la réunion de $\{s\}$ et des parties $[0,1[\times  \{a\}$ pour $a\in \overset{-1}{o}(s)$ et des
 
-parties $]0,1]\times \{a\}$ pour $a\in^-t^1(s)$. Soit $U_s$ l’image de $X_s$ dans $|G|$; c’est un voisinage ouvert de $p(s)$ dans $|G|$ car $X_s$ est un voisinage ouvert saturé de $s$ dans X. Soit $f$ l’application de $X_s\times \mathbf{I}$ dans $X_s$ définie, pour $u, v\in \mathbf{I}$ et $a\in A$, par les relations
+parties $]0,1]\times \{a\}$ pour $a\in \overset{-1}{t}(s)$. Soit $U_s$ l’image de $X_s$ dans $|G|$; c’est un voisinage ouvert de $p(s)$ dans $|G|$ car $X_s$ est un voisinage ouvert saturé de $s$ dans X. Soit $f$ l’application de $X_s\times \mathbf{I}$ dans $X_s$ définie, pour $u, v\in \mathbf{I}$ et $a\in A$, par les relations
 
 $$
 f(s, v) =s
@@ -688,7 +688,7 @@ Soit $\sigma : I\rightarrow J$ une section de l’application $\varphi$. Posons 
 
 #### Proposition 4 {#ta-iv-s5-prop-4 .statement tag=023O}
 
-Supposons que les composantes connexes par arcs de Y soient ouvertes. Pour tout $i\in$ I, soit $G_i$ le quotient du groupe $\pi_1(Y_i, b_i)$ par le plus petit sous-groupe distingué contenant l’image des homomorphismes $\psi_j$, pour $j\in^-\varphi^1(i)$ ; notons $p_i$ la surjection canonique de $\pi_1(Y_i, b_i)$ sur $G_i$.
+Supposons que les composantes connexes par arcs de Y soient ouvertes. Pour tout $i\in$ I, soit $G_i$ le quotient du groupe $\pi_1(Y_i, b_i)$ par le plus petit sous-groupe distingué contenant l’image des homomorphismes $\psi_j$, pour $j\in \overset{-1}{\varphi}(i)$ ; notons $p_i$ la surjection canonique de $\pi_1(Y_i, b_i)$ sur $G_i$.
 
 Il existe un unique homomorphisme de groupes
 
@@ -706,19 +706,19 @@ Notons $Y'$ la réunion des composantes connexes par arcs de Y qui rencontrent $
 
 Pour tout $j\in J$, posons $V_j=\alpha '_f(X_j\times ]0,1[)$. Par passage aux sous-espaces, l’application $\alpha '_f$ induit un homéomorphisme de $X\times ]0,1[$ sur le complémentaire de $Y\cup  \{s\}$ dans Côn$(f)$. Par suite, les ensembles $V_j$ sont les composantes connexes par arcs de Côn$(f)-(Y\cup  \{s\})$.
 
-Pour tout $i\in I$, posons $U_i= (\rho '_f)^{-1}(Y_i)$ ; c’est une partie ouverte de Côn$(f)$, car $Y_i$ est ouvert dans Y par hypothèse. Pour tout $j\in^-\varphi^1(i)$, on a $f(X_j)\subset Y_i$ et
+Pour tout $i\in I$, posons $U_i= (\rho '_f)^{-1}(Y_i)$ ; c’est une partie ouverte de Côn$(f)$, car $Y_i$ est ouvert dans Y par hypothèse. Pour tout $j\in \overset{-1}{\varphi}(i)$, on a $f(X_j)\subset Y_i$ et
 
 $$
 V_j\cup Y_i=\alpha '_f(X_j\times ]0,1])\cup Y_i
 $$
 
-si bien que $V_j\cup Y_i$ est une partie connexe par arcs de Côn$(f)$ contenant $Y_i$. Comme $U_i$ est la réunion de $Y_i$ et des ensembles $V_j$, pour $j\in^-\varphi^1(i)$, il en résulte que $U_i$ est connexe par arcs.
+si bien que $V_j\cup Y_i$ est une partie connexe par arcs de Côn$(f)$ contenant $Y_i$. Comme $U_i$ est la réunion de $Y_i$ et des ensembles $V_j$, pour $j\in \overset{-1}{\varphi}(i)$, il en résulte que $U_i$ est connexe par arcs.
 
 Enfin, l’ensemble $C'(X) =$ Côn$(f)$ - Y est une partie ouverte de Côn$(f)$ ; elle est contractile en $s$, donc connexe par arcs.
 
 L’ensemble $C'(X)$ et les ensembles $U_i$, pour $i\in I$, constituent un recouvrement de Côn$(f)$ par des parties ouvertes et connexes par arcs, recouvrement auquel nous allons appliquer la prop. 1 de IV, p. 412. Soit $I'$ l’ensemble obtenu par adjonction de $s$ à I ; on le munit d’un ordre total pour lequel $s$ est son plus petit élément.
 
-Pour des éléments $i, i'$ de I distincts, on a $U_i\cap U_{i'}=\emptyset$. Pour $i\in I$, $C'(X)\cap U_i$ est la réunion des ensembles $V_j$, pour $j\in^-\varphi^1(i)$ ; ils sont connexes et deux à deux disjoints. L’intersection de trois ensembles distincts quelconques de ce recouvrement est vide.
+Pour des éléments $i, i'$ de I distincts, on a $U_i\cap U_{i'}=\emptyset$. Pour $i\in I$, $C'(X)\cap U_i$ est la réunion des ensembles $V_j$, pour $j\in \overset{-1}{\varphi}(i)$ ; ils sont connexes et deux à deux disjoints. L’intersection de trois ensembles distincts quelconques de ce recouvrement est vide.
 
 L’armature Γ du recouvrement considéré a pour sommets l’ensemble $I'$. Ses flèches sont les triplets $(s, i,V_j)$, pour $j\in J$ et $i=\varphi (j)$ ; on identifiera ainsi l’ensemble des flèches de Γ à l’ensemble J.
 
@@ -776,7 +776,7 @@ Soit X un espace topologique dont les composantes connexes par arcs sont ouverte
 
 Soit C un espace topologique et soit $(B_{\ell})_{\ell\in L}$ une famille finie de parties fermées de C, deux à deux disjointes. Soit B un espace topologique et, pour tout $\ell \in L$, soit $h_{\ell}$ un homéomorphisme de B sur $B_{\ell}$. On note $B_L$ la réunion de la famille $(B_{\ell})_{\ell\in L}$. Nous supposerons que B et L ne sont pas vides. Soit R la relation d’équivalence sur C définie de la manière suivante. La classe d’un élément $x$ de $C-B_L$ est l’ensemble $\{x\}$; si $x$ est un élément de $B_{\ell}$, où $\ell \in L$, la classe de $x$ est
 
-l’ensemble des éléments $h_k(^-h_{\ell}^1(x))$, où $k$ parcourt L. Notons A l’espace topologique quotient $C/R$ et $f: C\rightarrow A$ la surjection canonique. On dit que l’espace A est obtenu à partir de l’espace C par identification des ensembles $B_{\ell}$ au moyen des homéomorphismes $h_{\ell}$.
+l’ensemble des éléments $h_k(\overset{-1}{h_{\ell}}(x))$, où $k$ parcourt L. Notons A l’espace topologique quotient $C/R$ et $f: C\rightarrow A$ la surjection canonique. On dit que l’espace A est obtenu à partir de l’espace C par identification des ensembles $B_{\ell}$ au moyen des homéomorphismes $h_{\ell}$.
 
 L’application $f\circ h_{\ell}$ de B dans A est indépendante de l’élément $\ell$ de L ; elle est fermée et injective ; elle induit donc un homéomorphisme de B sur une partie fermée de A. Nous identifierons ainsi B à $f\circ h_{\ell}(B)$ par l’homéomorphisme $f\circ h_{\ell}$; l’application $f$ induit un homéomorphisme de $C-B_L$ sur A-B.
 
@@ -982,4 +982,4 @@ Pour tout $\ell \in L$, l’ensemble $M_{\ell}$ est ouvert dans A-B et dans $N'_
 
 Par passage au quotient, l’application $f': C'\rightarrow A$ déduite des injections canoniques dans A des espaces A-B et $N_{\ell}$, pour $\ell \in L$, induit une
 
-application continue $f: C\rightarrow A$. Si $x$ est un point de B, la fibre $^-f^1(x)$ est l’ensemble des points $\rho (\varphi_{\ell}(x))$, pour $\ell \in L$. La relation d’équivalence sur C associée à l’application $f$ est la relation R définie au début du numéro. Notons $B_L$ la réunion de la famille $(B_{\ell})_{\ell\in L}$. Par construction, l’application $f$ induit un homéomorphisme de $C-B_L$ sur A-B et, pour $\ell \in L$, un homéomorphisme de $N'_{\ell}$ sur $N_{\ell}$. Nous allons démontrer que l’application $f$ est fermée ; la topologie de A sera donc la topologie quotient de C par la relation d’équivalence R (I, p. 18, exemple 2). Pour cela, démontrons que si F est une partie de A telle que $F\cap (A-B)$ soit fermé dans A-B et telle que $F\cap N'_{\ell}$ soit fermé dans $N'_{\ell}$, pour $\ell \in L$, l’ensemble F est fermé dans A. L’ensemble U, réunion de la famille $(N'_{\ell})_{\ell\in L}$ est ouvert dans A et les ensembles $N'_{\ell}$, pour $\ell \in L$, en constituent un recouvrement fermé fini. Par suite, l’ensemble $F\cap U$ est fermé dans U (TG, I, p. 18, prop. 3). Les ensembles U et A-B forment un recouvrement ouvert de A, l’ensemble F est donc fermé dans A (loc. cit.).
+application continue $f: C\rightarrow A$. Si $x$ est un point de B, la fibre $\overset{-1}{f}(x)$ est l’ensemble des points $\rho (\varphi_{\ell}(x))$, pour $\ell \in L$. La relation d’équivalence sur C associée à l’application $f$ est la relation R définie au début du numéro. Notons $B_L$ la réunion de la famille $(B_{\ell})_{\ell\in L}$. Par construction, l’application $f$ induit un homéomorphisme de $C-B_L$ sur A-B et, pour $\ell \in L$, un homéomorphisme de $N'_{\ell}$ sur $N_{\ell}$. Nous allons démontrer que l’application $f$ est fermée ; la topologie de A sera donc la topologie quotient de C par la relation d’équivalence R (I, p. 18, exemple 2). Pour cela, démontrons que si F est une partie de A telle que $F\cap (A-B)$ soit fermé dans A-B et telle que $F\cap N'_{\ell}$ soit fermé dans $N'_{\ell}$, pour $\ell \in L$, l’ensemble F est fermé dans A. L’ensemble U, réunion de la famille $(N'_{\ell})_{\ell\in L}$ est ouvert dans A et les ensembles $N'_{\ell}$, pour $\ell \in L$, en constituent un recouvrement fermé fini. Par suite, l’ensemble $F\cap U$ est fermé dans U (TG, I, p. 18, prop. 3). Les ensembles U et A-B forment un recouvrement ouvert de A, l’ensemble F est donc fermé dans A (loc. cit.).

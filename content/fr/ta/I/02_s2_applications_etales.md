@@ -37,7 +37,7 @@ subsections:
       pdf_page: 56
 statements: 47
 exercises: 0
-content_sha256: 22147a7933efa36d9dd8cf29c89a649a46c5803653f0dcf3c46ad9c6c96cdc9b
+content_sha256: 5cfdec0eb7df3953fa42f07be84325ebb574c1c81149dc28afde0318feaeb974
 ---
 
 ## § 2. APPLICATIONS ÉTALES
@@ -54,7 +54,7 @@ Soient X et Y des espaces topologiques et soit $f: X\rightarrow$ Y une applicati
 
 (iii) Pour tout couple $(x_1, x_2)$ de points de X tel que $x_1=\not x_2$ et $f(x_1) =f(x_2)$, il existe un voisinage $V_1$ de $x_1$ dans X et un voisinage $V_2$ de $x_2$ dans X tels que $V_1\cap V_2=\emptyset$.
 
-(i)$\Rightarrow$(ii) : Soient $g_1,g_2$ des applications continues de W dans X telles que $f\circ g_1=f\circ g_2$, et $g: W\rightarrow X\times_YX$ l’application déduite de $g_1$ et $g_2$. L’ensemble des points $w\in W$ tels que $g_1(w) =g_2(w)$ est $^-g^1(\Delta_X)$. Puisque $g$ est continue, il est donc fermé si la diagonale $\Delta_X$ est fermée.
+(i)$\Rightarrow$(ii) : Soient $g_1,g_2$ des applications continues de W dans X telles que $f\circ g_1=f\circ g_2$, et $g: W\rightarrow X\times_YX$ l’application déduite de $g_1$ et $g_2$. L’ensemble des points $w\in W$ tels que $g_1(w) =g_2(w)$ est $\overset{-1}{g}(\Delta_X)$. Puisque $g$ est continue, il est donc fermé si la diagonale $\Delta_X$ est fermée.
 
 (ii)$\Rightarrow$(i) : La diagonale $\Delta_X$ est l’ensemble des points $z\in X\times_YX$ tels que pr$_1(z) =$ pr$_2(z)$. Il résulte de (ii) appliqué à $W = X\times_YX$ et au couple d’applications (pr$_1$, pr$_2)$ que la diagonale $\Delta_X$ est fermée dans $X\times_YX$.
 
@@ -88,7 +88,7 @@ Une application continue injective est séparée.
 
 Pour qu’un espace topologique X soit séparé (TG, I, p. 52, déf. 1), il faut et il suffit que l’application de X dans un espace réduit à un point soit séparée. Dans ce cas, toute application continue de X dans un espace topologique est séparée (prop. 1, (iii)).
 
-Soit $f: X\rightarrow$ Y une application continue et séparée. Pour tout point $y$ de Y, la fibre $^-f^1(y)$ est un espace topologique séparé (loc. cit.). Il existe toutefois des applications continues qui ne sont pas séparées mais dont toutes les fibres sont des espaces topologiques séparés (I, p. 140, exerc. 1).
+Soit $f: X\rightarrow$ Y une application continue et séparée. Pour tout point $y$ de Y, la fibre $\overset{-1}{f}(y)$ est un espace topologique séparé (loc. cit.). Il existe toutefois des applications continues qui ne sont pas séparées mais dont toutes les fibres sont des espaces topologiques séparés (I, p. 140, exerc. 1).
 
 #### Remarque 3 {#ta-i-s2-n1-rem-3 .statement tag=01MM}
 
@@ -98,7 +98,7 @@ Soit $f: X\rightarrow Y$ une application continue et séparée. Si l’espace Y 
 
 Soient $f: X\rightarrow Y$ une application continue et séparée, $y$ un point
 
-de Y et A une partie finie de $^-f^1(y)$. Démontrons qu’il existe une famille $(V_a)_{a\in A}$ d’ensembles deux à deux disjoints telle que pour chaque $a\in A$, l’ensemble $V_a$ soit un voisinage de $a$ dans X. Pour cela, pour chaque partie $\{a, b\}$ de A à deux éléments, choisissons un voisinage $V_{(a,b)}$ de $a$ et un voisinage $V_{(b,a)}$ de $b$ dans X tels que $V_{(a,b)}\cap V_{(b,a)}=\emptyset$ (prop. 1, (iii)). Notons $V_a$ l’intersection de la famille formée par X et les ensembles $V_{(a,b)}$ pour $b\in A,b=\not a$. L’ensemble $V_a$ est un voisinage de $a$ dans X, et si $a,b$ sont deux éléments distincts de A, l’ensemble $V_a\cap V_b$ est contenu dans $V_{(a,b)}\cap V_{(b,a)}$, donc est vide.
+de Y et A une partie finie de $\overset{-1}{f}(y)$. Démontrons qu’il existe une famille $(V_a)_{a\in A}$ d’ensembles deux à deux disjoints telle que pour chaque $a\in A$, l’ensemble $V_a$ soit un voisinage de $a$ dans X. Pour cela, pour chaque partie $\{a, b\}$ de A à deux éléments, choisissons un voisinage $V_{(a,b)}$ de $a$ et un voisinage $V_{(b,a)}$ de $b$ dans X tels que $V_{(a,b)}\cap V_{(b,a)}=\emptyset$ (prop. 1, (iii)). Notons $V_a$ l’intersection de la famille formée par X et les ensembles $V_{(a,b)}$ pour $b\in A,b=\not a$. L’ensemble $V_a$ est un voisinage de $a$ dans X, et si $a,b$ sont deux éléments distincts de A, l’ensemble $V_a\cap V_b$ est contenu dans $V_{(a,b)}\cap V_{(b,a)}$, donc est vide.
 
 #### Remarque 5 {#ta-i-s2-n1-rem-5 .statement tag=01MO}
 
@@ -132,11 +132,11 @@ $q'q$
 
 ${B'}^f$ B
 
-où l’application $\varphi$ est induite par l’application $f'\times f': X'\times X'\rightarrow X\times X$. Rappelons (I, p. 13, exemple 1) que ce carré est cartésien et que l’on a $^-\varphi^1(\Delta_X) = \Delta_{X'}$.
+où l’application $\varphi$ est induite par l’application $f'\times f': X'\times X'\rightarrow X\times X$. Rappelons (I, p. 13, exemple 1) que ce carré est cartésien et que l’on a $\overset{-1}{\varphi}(\Delta_X) = \Delta_{X'}$.
 
 Si l’application $p$ est séparée, l’ensemble $\Delta_X$ est fermé dans $X\times_BX$ ; par suite, $\Delta_{X'}$ est une partie fermée de $X'\times_{B'}X'$, ce qui prouve que l’application $p'$ est séparée.
 
-Si l’application $f$ est surjective, l’application $\varphi$ est surjective (I, p. 10, cor.) ; si $f$ est universellement stricte, $\varphi$ est stricte (I, p. 20, déf. 6). Supposons l’application $p'$ séparée. Alors, $\Delta_{X'}$ est fermé dans $X'\times_{B'}X'$. Comme $\Delta_{X'}=^-\varphi^1(\Delta_X)$ et comme $\varphi$ est surjective et stricte, $\Delta_X$ est fermé dans $X\times_BX$, ce qui prouve que l’application $p$ est séparée.
+Si l’application $f$ est surjective, l’application $\varphi$ est surjective (I, p. 10, cor.) ; si $f$ est universellement stricte, $\varphi$ est stricte (I, p. 20, déf. 6). Supposons l’application $p'$ séparée. Alors, $\Delta_{X'}$ est fermé dans $X'\times_{B'}X'$. Comme $\Delta_{X'}=\overset{-1}{\varphi}(\Delta_X)$ et comme $\varphi$ est surjective et stricte, $\Delta_X$ est fermé dans $X\times_BX$, ce qui prouve que l’application $p$ est séparée.
 
 #### Proposition 5 {#ta-i-s2-prop-5 .statement tag=01MR}
 
@@ -196,7 +196,7 @@ d) Supposons que $g\circ f$ est étale et que l’application $f$ est continue e
 
 Démontrons a). Supposons les applications $f$ et $g$ étales. Elles sont alors continues et ouvertes, donc l’application $g\circ f$ est continue et ouverte. Soit $x$ un point de X. Il existe un voisinage W de $f(x)$ dans Y tel que l’application $g|W$ soit injective, et un voisinage V de $x$
 
-dans X, contenu dans $^-f^1(W)$, tel que l’application $f|V$ soit injective ; l’application $(g\circ f)|V$ est alors injective. Cela prouve que l’application $g\circ f$ est étale (remarque 2).
+dans X, contenu dans $\overset{-1}{f}(W)$, tel que l’application $f|V$ soit injective ; l’application $(g\circ f)|V$ est alors injective. Cela prouve que l’application $g\circ f$ est étale (remarque 2).
 
 Démontrons b). Soient $x$ un point de X et W un voisinage ouvert de $f(x)$ tel que $g$ induise un homéomorphisme de W sur l’ouvert $g(W)$. Soit V un voisinage de $x$ tel que $f(V)$ soit contenu dans W; alors, $g\circ f(V)$ est un voisinage de $g\circ f(x)$, donc $f(V)$ est un voisinage de $f(x)$ dans l’ouvert W, et aussi dans Y. Ceci prouve que l’application $f$ est ouverte (TG, I, p. 33, prop. 5).
 
@@ -256,9 +256,9 @@ $$
 
 $q'q$
 
-${B'}^fB$. On a $\Delta_{E'}=^-\varphi^1(\Delta_E)$ (loc. cit.). De plus, la diagonale $\Delta_E$ est ouverte dans $E\times_BE$ (prop. 7), donc la diagonale $\Delta_{E'}$ est ouverte dans $E'\times_{B'}E'$. Cela prouve que l’application $p'$ est étale (loc. cit.).
+${B'}^fB$. On a $\Delta_{E'}=\overset{-1}{\varphi}(\Delta_E)$ (loc. cit.). De plus, la diagonale $\Delta_E$ est ouverte dans $E\times_BE$ (prop. 7), donc la diagonale $\Delta_{E'}$ est ouverte dans $E'\times_{B'}E'$. Cela prouve que l’application $p'$ est étale (loc. cit.).
 
-Supposons maintenant que l’application $f$ soit surjective et universellement stricte et que l’application $p'$ soit étale. Alors, $p'$ est ouverte, donc $p$ est ouverte (I, p. 21, prop. 11, a)). D’autre part $\Delta_{E'}$ est une partie ouverte de $E'\times_{B'}E'$. Puisque $\Delta_{E'}=^-\varphi^1(\Delta_E)$ et que l’application $\varphi$ est surjective et stricte (I, p. 20, déf. 6), $\Delta_E$ est ouverte dans $E\times_BE$. D’après la prop. 7, l’application $p$ est étale.
+Supposons maintenant que l’application $f$ soit surjective et universellement stricte et que l’application $p'$ soit étale. Alors, $p'$ est ouverte, donc $p$ est ouverte (I, p. 21, prop. 11, a)). D’autre part $\Delta_{E'}$ est une partie ouverte de $E'\times_{B'}E'$. Puisque $\Delta_{E'}=\overset{-1}{\varphi}(\Delta_E)$ et que l’application $\varphi$ est surjective et stricte (I, p. 20, déf. 6), $\Delta_E$ est ouverte dans $E\times_BE$. D’après la prop. 7, l’application $p$ est étale.
 
 #### Corollaire {#ta-i-s2-n2-cor-1 .statement tag=01N5}
 
@@ -278,15 +278,15 @@ ${B'}^f$ B
 
 un carré cartésien. Si l’application $p$ est étale et si l’application $f$ est stricte, l’application $f'$ est stricte. En effet, sous ces hypothèses, tout point de E possède un voisinage ouvert U tel que $p$ induise un homéomorphisme de U sur l’ouvert $p(U)$. L’application $p'$ induit alors
 
-un homéomorphisme de $(^-f^1')(U)$ sur $^-f^1(p(U))$. L’application $f$ induit
+un homéomorphisme de $(\overset{-1}{f}')(U)$ sur $\overset{-1}{f}(p(U))$. L’application $f$ induit
 
-une application stricte de $^-f^1(p(U))$ sur $p(U)$ (I, p. 20) et l’application
+une application stricte de $\overset{-1}{f}(p(U))$ sur $p(U)$ (I, p. 20) et l’application
 
-$f'$ induit donc une application stricte de $(^-f^1')(U)$ dans U. Il en résulte que l’application $f'$ est stricte ( I, p. 23, corollaire 2).
+$f'$ induit donc une application stricte de $(\overset{-1}{f}')(U)$ dans U. Il en résulte que l’application $f'$ est stricte ( I, p. 23, corollaire 2).
 
 ### 3. Sections locales des applications étales
 
-Soient E et B des ensembles, A une partie de B et $p: E\rightarrow B$ une application. On appelle section de $p$ au-dessus de A (ou sur A) une application $s: A\rightarrow E$ telle que $p\circ s$ soit l’injection canonique de A dans B. La donnée d’une section $s$ de $p$ au-dessus de A équivaut à la donnée d’une section de l’application $p_A:^-p^1(A)\rightarrow A$ déduite de $p$. Si $s$ est une section de $p$ au-dessus de A et si $A'$ est une partie de A, la restriction $s'$ de $s$ à $A'$ est une section de $p$ au-dessus de $A'$. On dit alors que $s$ est un prolongement de $s'$ à A.
+Soient E et B des ensembles, A une partie de B et $p: E\rightarrow B$ une application. On appelle section de $p$ au-dessus de A (ou sur A) une application $s: A\rightarrow E$ telle que $p\circ s$ soit l’injection canonique de A dans B. La donnée d’une section $s$ de $p$ au-dessus de A équivaut à la donnée d’une section de l’application $p_A:\overset{-1}{p}(A)\rightarrow A$ déduite de $p$. Si $s$ est une section de $p$ au-dessus de A et si $A'$ est une partie de A, la restriction $s'$ de $s$ à $A'$ est une section de $p$ au-dessus de $A'$. On dit alors que $s$ est un prolongement de $s'$ à A.
 
 Lorsque E et B sont des espaces topologiques et $p: E\rightarrow$ B une application continue, l’ensemble $\mathscr{C}_B(A; E)$ (I, p. 2) des sections continues de $p$ au-dessus de A est aussi noté $\mathscr{S}(A;p)$ ou $\mathscr{S}(A; E)$. Soit $s$ une section continue de $p$ au-dessus de A. L’application $s$ induit un homéo-morphisme de A sur $s(A)$, et $p$ induit l’homéomorphisme réciproque. D’après la définition 2, I, p. 28, on a donc :
 
@@ -324,7 +324,7 @@ Soient $z\in Z$ et $x\in E$ des points tels que $f(z) =p(x)$. Il existe un voisi
 
 Il existe un voisinage ouvert V de $p(x)$ dans B et une section continue $s$ de $p$ au-dessus de V telle que $s(p(x)) =x$ (prop. 9). L’ensemble
 
-$W =^-f^1(V)$ est un voisinage ouvert de $z$ et l’application $g=s\circ (f|W)$ est un relèvement continu de $f$ à E, défini sur W et tel que $g(z) =x$.
+$W =\overset{-1}{f}(V)$ est un voisinage ouvert de $z$ et l’application $g=s\circ (f|W)$ est un relèvement continu de $f$ à E, défini sur W et tel que $g(z) =x$.
 
 #### Proposition 11 {#ta-i-s2-prop-11 .statement tag=01NB}
 

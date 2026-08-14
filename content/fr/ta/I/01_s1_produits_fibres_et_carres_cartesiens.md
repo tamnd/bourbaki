@@ -57,7 +57,7 @@ subsections:
       pdf_page: 36
 statements: 44
 exercises: 0
-content_sha256: 0dff11b6569903ca5dcd6b824ddc68a918d48d5f0f5bbf91ec124bc7863db9c0
+content_sha256: 1bf631208c6f18191df37dc42c4732b55aab45541421a36ea305cdbd2398b602
 ---
 
 ## § 1. PRODUITS FIBRÉS ET CARRÉS CARTÉSIENS
@@ -86,7 +86,7 @@ Soient X, $X'$ des B-espaces. On note $\mathscr{C}_B(X; X')$ l’ensemble des B-
 
 Soient X un B-espace et $p$ sa projection. Si l’on munit B de la structure de B-espace dont la projection est Id$_B$, l’ensemble $\mathscr{C}_B(B; X)$ est l’ensemble des sections (E, II, p. 18, déf. 11) continues de $p$.
 
-Soient X un B-espace, $p$ sa projection et $b$ un point de B. Le sous-espace $^-p^1(b)$ de X est appelé la fibre de X en $b$ (ou la fibre de $p$ en $b)$ et noté $X_b$. Pour qu’une application continue $f$ de X dans un B-espace $X'$ soit un B-morphisme, il faut et il suffit que $f(X_b)$ soit contenu dans $X'_b$ pour tout $b\in B$.
+Soient X un B-espace, $p$ sa projection et $b$ un point de B. Le sous-espace $\overset{-1}{p}(b)$ de X est appelé la fibre de X en $b$ (ou la fibre de $p$ en $b)$ et noté $X_b$. Pour qu’une application continue $f$ de X dans un B-espace $X'$ soit un B-morphisme, il faut et il suffit que $f(X_b)$ soit contenu dans $X'_b$ pour tout $b\in B$.
 
 Soient X un B-espace et $p$ sa projection. Soit $f$ une application continue d’un espace topologique $B'$ dans B. Une application continue $g: B'\rightarrow X$ telle que $p\circ g=f$ est appelée un relèvement continu de $f$ à X. Autrement dit, si l’on munit $B'$ de la structure de B-espace de projection $f$, les relèvements continus de $f$ à X sont les B-morphismes de $B'$ dans X.
 
@@ -94,7 +94,7 @@ Soient X un B-espace et $p$ sa projection. Soit $f$ une application continue d�
 
 Soit B un espace topologique.
 
-Soient X un B-espace et $p$ sa projection. On munit tout sous-espace topologique Y de X de la structure de B-espace dont la projection est $p|Y$. Soit A un sous-espace de B; muni de l’application $p_A:^-p^1(A)\rightarrow A$ déduite de $p$ par passage aux sous-ensembles, l’espace topologique $^-p^1(A)$, est un A-espace. On l’appelle le A-espace induit par $(X, p)$ au-dessus de A et on le note parfois $X_A$.
+Soient X un B-espace et $p$ sa projection. On munit tout sous-espace topologique Y de X de la structure de B-espace dont la projection est $p|Y$. Soit A un sous-espace de B; muni de l’application $p_A:\overset{-1}{p}(A)\rightarrow A$ déduite de $p$ par passage aux sous-ensembles, l’espace topologique $\overset{-1}{p}(A)$, est un A-espace. On l’appelle le A-espace induit par $(X, p)$ au-dessus de A et on le note parfois $X_A$.
 
 Soit $(X_i)_{i\in I}$ une famille de B-espaces, et soit $p_i$ la projection de $X_i$. L’espace somme $X =\coprod_{i\in I}X_i$ (TG, I, p. 15), muni de l’application $p: X\rightarrow$ B définie par $p(i, x) =p_i(x)$ (pour $i\in$ I et $x\in X_i)$, est un B-espace appelé la somme de la famille de B-espaces $(X_i)_{i\in I}$. Les injections canoniques $X_i\rightarrow X$ sont des B-morphismes.
 
@@ -146,7 +146,7 @@ définie par $h((i, j),(x, y)) = ((i, x),(j, y))$ est un B-isomorphisme.
 
 Soient B, $B'$ des espaces topologiques et $f: B'\rightarrow B$ une application continue. Soit X un B-espace. L’application $f$ munit $B'$ d’une structure de B-espace, ce qui permet de définir le produit fibré $B'\times_BX$. Celui-ci, muni de l’application pr$_1: B'\times_BX\rightarrow B'$ est un $B'$-espace appelé le $B'$-espace déduit du B-espace X par le changement de base $f: B'\rightarrow B$ (ou par changement de base de B à $B'$ suivant $f)$. On l’appelle aussi le $B'$-espace image réciproque de X par $f$. On le note $f^*(X)$, ou parfois $X_{B'}$ lorsqu’il n’y a pas de confusion possible sur l’application $f$.
 
-Lorsque $B'$ est un sous-espace de B et que $f: B'\rightarrow B$ est l’injection canonique, l’application $(b', x)\mapsto x$ de $B'\times_BX'$ dans $^-p^1(B')$ (où $p$ est la projection de X) est un $B'$-isomorphisme de $f^*(X)$ sur le $B'$-espace induit par X au-dessus de $B'$.
+Lorsque $B'$ est un sous-espace de B et que $f: B'\rightarrow B$ est l’injection canonique, l’application $(b', x)\mapsto x$ de $B'\times_BX'$ dans $\overset{-1}{p}(B')$ (où $p$ est la projection de X) est un $B'$-isomorphisme de $f^*(X)$ sur le $B'$-espace induit par X au-dessus de $B'$.
 
 Soient Y un second B-espace et $u: X\rightarrow Y$ un B-morphisme. L’application Id$_{B'}\times_Bu: B'\times_BX\rightarrow B'\times_BY$ est un $B'$-morphisme, appelé le $B'$-morphisme déduit du B-morphisme $u$ par le changement de base $f: B'\rightarrow B$ et parfois noté $f^*(u)$, ou $u_{B'}$ lorsqu’il n’y a pas de confusion possible sur l’application $f$. C’est l’unique $B'$-morphisme $v$ de $B'\times_BX$ dans $B'\times_BY$ tel que pr$_2\circ v=u\circ$ pr$_2$.
 
@@ -298,7 +298,7 @@ $$
 
 ${B'}^f$ B
 
-un carré cartésien et soient $B_0,B'_0,X_0$ des sous-espaces de B, $B'$ et X respectivement. Supposons qu’on ait $f(B'_0)\subset B_0,p(X_0)\subset B_0$ et posons $X'_0=(^-p^1')(B'_0)\cap (^-f^1')(X_0)$. Alors, le carré
+un carré cartésien et soient $B_0,B'_0,X_0$ des sous-espaces de B, $B'$ et X respectivement. Supposons qu’on ait $f(B'_0)\subset B_0,p(X_0)\subset B_0$ et posons $X'_0=(\overset{-1}{p}')(B'_0)\cap (\overset{-1}{f}')(X_0)$. Alors, le carré
 
 $$
 {X'_0}^{f_0'}X_0
@@ -316,7 +316,7 @@ $$
 
 Considérons l’application canonique $h: X'\rightarrow B'\times_BX$ déduite du diagramme commutatif (4). Comme le carré (4) est cartésien, $h$ est un
 
-homéomorphisme. Par construction, on a $X'_0=^-h^1(B'_0\times_{B_0}X_0)$ et l’application $h_0: X'_0\rightarrow B'_0\times_{B_0}X_0$ déduite du diagramme commutatif ($4'$) est déduite de $h$ par passage aux sous-ensembles. C’est donc un homéomorphisme et le carré ($4'$)est cartésien (prop. 2).
+homéomorphisme. Par construction, on a $X'_0=\overset{-1}{h}(B'_0\times_{B_0}X_0)$ et l’application $h_0: X'_0\rightarrow B'_0\times_{B_0}X_0$ déduite du diagramme commutatif ($4'$) est déduite de $h$ par passage aux sous-ensembles. C’est donc un homéomorphisme et le carré ($4'$)est cartésien (prop. 2).
 
 #### Corollaire {#ta-i-s1-n7-cor-1 .statement tag=01LP}
 
@@ -336,7 +336,7 @@ b) Si l’application $p$ est injective ( resp. surjective, resp. bijective), il
 
 Soit $b'$ un point de $B'$. Posons $b=f(b')$. Pour tout $x'\in X'_{b'}$, on a $p(f'(x')) =f(p'(x')) =f(b') =b$, d’où $f'(x')\in X_b$. Cela prouve que
 
-l’on a $X'_{b'}\subset (^-f^1')(X_b)$. Dans la prop. 4, prenons $B_0=\{b\},B'_0=\{b'\}$ et $X_0= X_b$; on a alors $X'_0= X'_{b'}$, d’où l’assertion a).
+l’on a $X'_{b'}\subset (\overset{-1}{f}')(X_b)$. Dans la prop. 4, prenons $B_0=\{b\},B'_0=\{b'\}$ et $X_0= X_b$; on a alors $X'_0= X'_{b'}$, d’où l’assertion a).
 
 Pour que l’application $p$ soit injective (resp. surjective, resp. bijective), il faut et il suffit que le cardinal de chacune de ses fibres soit inférieur (resp. supérieur, resp. égal) à 1. L’assertion b) en résulte.
 
@@ -344,7 +344,7 @@ Pour que l’application $p$ soit injective (resp. surjective, resp. bijective),
 
 Soient $(X, p)$ un B-espace et A un sous-espace de B. Le carré
 
-$^-p^1(A)^j$ X
+$\overset{-1}{p}(A)^j$ X
 
 $$
 p_{_A}p \tag{5}
@@ -498,7 +498,7 @@ $$
 
 ${B'}^f$ B .
 
-On a la relation $^-\varphi^1(\Delta_X) = \Delta_{X'}$. En effet, par la prop. 2 de I, p. 8, il suffit de considérer le cas où $X'= B'\times_BX$. Soit alors $((b, x),(b, x'))$ un élément de $X'\times_{B'}X'$ avec $b\in B'$ et $x, x'\in X$. Cet élément appartient à $^-\varphi^1(\Delta_X)$ si et seulement si $x=x'$.
+On a la relation $\overset{-1}{\varphi}(\Delta_X) = \Delta_{X'}$. En effet, par la prop. 2 de I, p. 8, il suffit de considérer le cas où $X'= B'\times_BX$. Soit alors $((b, x),(b, x'))$ un élément de $X'\times_{B'}X'$ avec $b\in B'$ et $x, x'\in X$. Cet élément appartient à $\overset{-1}{\varphi}(\Delta_X)$ si et seulement si $x=x'$.
 
 #### Proposition 6 {#ta-i-s1-prop-6 .statement tag=01LV}
 
@@ -528,7 +528,7 @@ Les applications $f,f'$ et $p'$ sont continues. La commutativité du carré ($10
 
 #### Exemple 2 {#ta-i-s1-n8-exa-2 .statement tag=01LW}
 
-Soit $(X, p)$ un B-espace et soit $(A_k)_{k\in K}$ une famille de sous-espaces de B. Soit A l’espace somme de la famille $(A_k)_{k\in K}$ et soit Y l’espace somme de la famille $(^-p^1(A_k))_{k\in K}$; notons $i: A\rightarrow B$, $j: Y\rightarrow X$ et $p': Y\rightarrow A$ les applications déduites des injections canoniques de $A_k$ dans B, des injections canoniques de $^-p^1(A_k)$ dans X, et des applications $p_{A_k}:^-p^1(A_k)\rightarrow A_k$, pour $k\in K$. Le carré
+Soit $(X, p)$ un B-espace et soit $(A_k)_{k\in K}$ une famille de sous-espaces de B. Soit A l’espace somme de la famille $(A_k)_{k\in K}$ et soit Y l’espace somme de la famille $(\overset{-1}{p}(A_k))_{k\in K}$; notons $i: A\rightarrow B$, $j: Y\rightarrow X$ et $p': Y\rightarrow A$ les applications déduites des injections canoniques de $A_k$ dans B, des injections canoniques de $\overset{-1}{p}(A_k)$ dans X, et des applications $p_{A_k}:\overset{-1}{p}(A_k)\rightarrow A_k$, pour $k\in K$. Le carré
 
 Y $^j$ X
 
@@ -650,7 +650,7 @@ un carré cartésien. Si l’application $p$ est ouverte ( resp. est propre, res
 
 D’après la remarque 2, I, p. 16, il suffit de démontrer la proposition pour les carrés cartésiens du type suivant :
 
-$^-p^1(A)^j$ X $X\times F^{pr_1}$ X
+$\overset{-1}{p}(A)^j$ X $X\times F^{pr_1}$ X
 
 $_{p_A}p$ et $p_{\times Id_Fp}$
 
@@ -660,7 +660,7 @@ où F est un espace topologique, A un sous-espace de B et $i,j$ les injections c
 
 #### Remarque 1 {#ta-i-s1-n10-rem-1 .statement tag=01M2}
 
-Avec les notations de la prop. 8, si $p$ est une application fermée, il n’en est pas nécessairement de même de $p'($cf. TG, I, p. 72, exemple). Cependant, si l’application $p$ est fermée et si A est un sous-espace de B, l’application $p_A:^-p^1(A)\rightarrow A$ est fermée (TG, I, p. 30, prop. 2, a)).
+Avec les notations de la prop. 8, si $p$ est une application fermée, il n’en est pas nécessairement de même de $p'($cf. TG, I, p. 72, exemple). Cependant, si l’application $p$ est fermée et si A est un sous-espace de B, l’application $p_A:\overset{-1}{p}(A)\rightarrow A$ est fermée (TG, I, p. 30, prop. 2, a)).
 
 #### Définition 5 {#ta-i-s1-def-5 .statement tag=01M3}
 
@@ -700,7 +700,7 @@ c) Si $f$ et $g\circ f$ sont strictes, $g$ est stricte.
 
 Démontrons l’assertion a). Notons R la relation associée à $f$ dans X ; par hypothèse, l’application de $X/R$ sur Y déduite de $f$ par passage au quotient est un homéomorphisme. La première assertion résulte alors de la prop. 6 de I, p. 21.
 
-Démontrons b). Soit B une partie fermée saturée de Y pour la relation définie par $g$ et soit $A =^-f^1(B)$. Comme $f$ est continue, A est fermée dans X, et A est saturée pour la relation d’équivalence définie par $g\circ f$. Puisque $g\circ f$ est stricte et $f$ est surjective, $g(B) =g\circ f(A)$ est alors fermée dans Z. L’application continue $g$ est donc stricte.
+Démontrons b). Soit B une partie fermée saturée de Y pour la relation définie par $g$ et soit $A =\overset{-1}{f}(B)$. Comme $f$ est continue, A est fermée dans X, et A est saturée pour la relation d’équivalence définie par $g\circ f$. Puisque $g\circ f$ est stricte et $f$ est surjective, $g(B) =g\circ f(A)$ est alors fermée dans Z. L’application continue $g$ est donc stricte.
 
 L’assertion c) résulte immédiatement des assertions a) et b).
 
@@ -730,7 +730,7 @@ $p'p$
 
 ${B'}^f$ B
 
-un carré cartésien, où l’application $p$ est stricte. L’application $p'$ n’est pas nécessairement stricte (cf. TG, I, p. 96, exerc. 6). Cependant, si A est un sous-espace ouvert ou fermé de B, l’application $p_A:^-p^1(A)\rightarrow A$ est stricte (TG, I, p. 23, cor. 1).
+un carré cartésien, où l’application $p$ est stricte. L’application $p'$ n’est pas nécessairement stricte (cf. TG, I, p. 96, exerc. 6). Cependant, si A est un sous-espace ouvert ou fermé de B, l’application $p_A:\overset{-1}{p}(A)\rightarrow A$ est stricte (TG, I, p. 23, cor. 1).
 
 #### Définition 6 {#ta-i-s1-def-6 .statement tag=01MA}
 
@@ -785,18 +785,18 @@ c) Supposons que l’application $f$ soit universellement stricte et surjective.
 Remarquons au préalable que pour toute partie A de X, on a
 
 $$
-p'((^-f^1')(A)) =^-f^1(p(A)) \tag{20}
+p'((\overset{-1}{f}')(A)) =\overset{-1}{f}(p(A)) \tag{20}
 $$
 
-En effet, si $x'\in (^-f^1')(A)$, alors $f(p'(x')) =p\circ f'(x')\in p(A)$. Réciproquement, si $b'\in^-f^1(p(A))$, soit $x\in A$ tel que $f(b') =p(x)$. Par définition d’un carré cartésien, il existe un unique $x'\in X'$ tel que $f'(x') =x$ et $p'(x') =b'$, si bien que $b'\in p'((^-f^1')(A))$.
+En effet, si $x'\in (\overset{-1}{f}')(A)$, alors $f(p'(x')) =p\circ f'(x')\in p(A)$. Réciproquement, si $b'\in \overset{-1}{f}(p(A))$, soit $x\in A$ tel que $f(b') =p(x)$. Par définition d’un carré cartésien, il existe un unique $x'\in X'$ tel que $f'(x') =x$ et $p'(x') =b'$, si bien que $b'\in p'((\overset{-1}{f}')(A))$.
 
-Démontrons a). Supposons d’abord que $p'$ soit une application ouverte (resp. fermée) et soit A un ensemble ouvert (resp. fermé) dans X. L’ensemble $(^-f^1')(A)$ est ouvert (resp. fermé) dans $X'$. Par suite, l’ensemble $p'((^-f^1')(A))$ est ouvert (resp. fermé) dans $B'$. D’après la relation (20), il est aussi saturé pour la relation d’équivalence définie par $f$. Puisque l’application $f$ est supposée surjective, on a alors $p(A) =$
+Démontrons a). Supposons d’abord que $p'$ soit une application ouverte (resp. fermée) et soit A un ensemble ouvert (resp. fermé) dans X. L’ensemble $(\overset{-1}{f}')(A)$ est ouvert (resp. fermé) dans $X'$. Par suite, l’ensemble $p'((\overset{-1}{f}')(A))$ est ouvert (resp. fermé) dans $B'$. D’après la relation (20), il est aussi saturé pour la relation d’équivalence définie par $f$. Puisque l’application $f$ est supposée surjective, on a alors $p(A) =$
 
-$f(p'((^-f^1')(A)))$, et comme elle est stricte, l’ensemble $p(A)$ est ouvert (resp. fermé) dans B. L’application $p$ est donc ouverte (resp. fermée).
+$f(p'((\overset{-1}{f}')(A)))$, et comme elle est stricte, l’ensemble $p(A)$ est ouvert (resp. fermé) dans B. L’application $p$ est donc ouverte (resp. fermée).
 
 Pour qu’une application continue soit propre, il faut et il suffit qu’elle soit fermée et que ses fibres soient quasi-compactes (TG, I, p. 75, th. 1). Si l’application $p'$ est propre, l’application $p$ est fermée d’après ce qui précède. Étudions ses fibres : si $b\in B$, soit $b'\in B'$ tel que $f(b') =b$. D’après le corollaire de I, p. 10, l’application $f'$ induit un homéomorphisme $X'_{b'}\rightarrow X_b$. Puisque $p'$ est propre, $X'_{b'}$ est quasi-compacte, donc $X_b$ l’est aussi. L’application $p$ est donc propre.
 
-Démontrons b) et c). Posons Y = $p(X)$ et $Y'=p'(X')$ ; la relation (20) appliquée à X entraîne que $Y'=^-f^1(Y)$. Notons $g$ l’application de $Y'$ dans Y induite par $f$. Dans le cas b), l’application $g$ est stricte d’après la remarque 1, I, p. 18. Dans le cas c), elle est stricte en vertu de la définition 6 puisque le carré
+Démontrons b) et c). Posons Y = $p(X)$ et $Y'=p'(X')$ ; la relation (20) appliquée à X entraîne que $Y'=\overset{-1}{f}(Y)$. Notons $g$ l’application de $Y'$ dans Y induite par $f$. Dans le cas b), l’application $g$ est stricte d’après la remarque 1, I, p. 18. Dans le cas c), elle est stricte en vertu de la définition 6 puisque le carré
 
 $Y'$ Y
 
@@ -852,9 +852,9 @@ sont cartésiens, où $r: X'\times_XY\rightarrow B'\times_BC$ désigne l’appli
 
 #### Corollaire 2 {#ta-i-s1-prop-11-cor-2 .statement tag=01MG}
 
-Soient B et X des espaces topologiques et soit $p: X\rightarrow B$ une application continue. Soit $(A_i)_{i\in I}$ une famille de parties de B qui est un recouvrement ouvert de B, ou bien un recouvrement fermé localement fini de B. Si pour tout $i\in$ I, l’application $p_{A_i}:^-p^1(A_i)\rightarrow A_i$ est stricte ( resp. universellement stricte), l’application $p$ est stricte ( resp. universellement stricte).
+Soient B et X des espaces topologiques et soit $p: X\rightarrow B$ une application continue. Soit $(A_i)_{i\in I}$ une famille de parties de B qui est un recouvrement ouvert de B, ou bien un recouvrement fermé localement fini de B. Si pour tout $i\in$ I, l’application $p_{A_i}:\overset{-1}{p}(A_i)\rightarrow A_i$ est stricte ( resp. universellement stricte), l’application $p$ est stricte ( resp. universellement stricte).
 
-Pour tout $i\in I$, posons $Y_i=^-p^1(A_i)$ et $p_i=p_{A_i}$. Soient A l’espace somme de la famille $(A_i)_{i\in I}$, Y l’espace somme de la famille $(Y_i)_{i\in I}$; notons $f: A\rightarrow B$ (resp. $g: Y\rightarrow X,q: Y\rightarrow A$) l’application déduite de la famille des injections canoniques $A_i\rightarrow B$ (resp. des injections canoniques $Y_i\rightarrow X$, des applications $p_i)$. Le carré
+Pour tout $i\in I$, posons $Y_i=\overset{-1}{p}(A_i)$ et $p_i=p_{A_i}$. Soient A l’espace somme de la famille $(A_i)_{i\in I}$, Y l’espace somme de la famille $(Y_i)_{i\in I}$; notons $f: A\rightarrow B$ (resp. $g: Y\rightarrow X,q: Y\rightarrow A$) l’application déduite de la famille des injections canoniques $A_i\rightarrow B$ (resp. des injections canoniques $Y_i\rightarrow X$, des applications $p_i)$. Le carré
 
 Y $^g$ X
 
@@ -866,4 +866,4 @@ est un carré cartésien (exemples, I, p. 10 et p. 14). D’après le corollaire
 
 Supposons que chacune des applications $p_i,i\in I$, soit stricte. Si U est une partie ouverte de X et saturée pour la relation d’équivalence définie par $p$, l’ensemble $p_i(X_i\cap U)$ est ouvert dans $A_i$ et $p(U) =$ $\bigcup_{i\in I}p_i(X_i\cap U)$ est ouvert dans B. L’application $p$ est donc stricte.
 
-Supposons maintenant que chacune des applications $p_i,i\in I$, soit universellement stricte et montrons que l’application $p$ est universellement stricte. Soient C un espace topologique et $h: C\rightarrow B$ une application continue. Il s’agit de montrer que l’application pr$_1: X\times_BC\rightarrow C$ est stricte. L’espace C s’identifie à l’espace somme de la famille des $C_i=^-h^1(A_i)$ et l’espace $X\times_BC$ s’identifie à l’espace somme de la famille des $X\times_BC_i= X_i\times_{A_i}C_i$. Comme $p_i$ est universellement stricte, l’application pr$_1: X_i\times_{A_i}C_i\rightarrow C_i$ est stricte. D’après ce qui précède, l’application pr$_1: X\times_BC\rightarrow C$ est stricte. Cela prouve que l’application $p$ est universellement stricte.
+Supposons maintenant que chacune des applications $p_i,i\in I$, soit universellement stricte et montrons que l’application $p$ est universellement stricte. Soient C un espace topologique et $h: C\rightarrow B$ une application continue. Il s’agit de montrer que l’application pr$_1: X\times_BC\rightarrow C$ est stricte. L’espace C s’identifie à l’espace somme de la famille des $C_i=\overset{-1}{h}(A_i)$ et l’espace $X\times_BC$ s’identifie à l’espace somme de la famille des $X\times_BC_i= X_i\times_{A_i}C_i$. Comme $p_i$ est universellement stricte, l’application pr$_1: X_i\times_{A_i}C_i\rightarrow C_i$ est stricte. D’après ce qui précède, l’application pr$_1: X\times_BC\rightarrow C$ est stricte. Cela prouve que l’application $p$ est universellement stricte.

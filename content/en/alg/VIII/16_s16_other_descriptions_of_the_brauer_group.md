@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: 3b927bc17d28fc25b45eb1070384920a9490424f7c16a93759926e5a0af404f0
+content_sha256: b6b222278de48878d29ca98867fd5bd62b16842e0a0a5d331a924a235a4a3321
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -201,7 +201,7 @@ Let $u': G''\rightarrow G'$ be a group homomorphism, and let $\mathscr{E}$ be a 
 
 #### Example {#alg-viii-s16-n2-exa-1 .statement tag=00RI}
 
-Let H be a subgroup of G and $j: H\rightarrow G$ the canonical injection. Then for every $\tau$-extension $\mathscr{E}= (\Gamma , \iota , \pi )$, the $\tau \circ j$-extension $j^*(\mathscr{E})$ is isomorphic to $(^-\pi^1(H), \iota ', \pi ')$, where $\iota ': F\rightarrow^-\pi^1(H)$ (resp. $\pi ':^-\pi^1(H)\rightarrow H)$ is the group homomorphism $f\mapsto \iota (f)$ (resp. $\gamma \mapsto \pi (\gamma ))$. More generally, if the group homomorphism $u: G'\rightarrow G$ is injective, then the canonical homomorphism $\varphi$ is injective with image $^-\pi^1(u(G'))$.
+Let H be a subgroup of G and $j: H\rightarrow G$ the canonical injection. Then for every $\tau$-extension $\mathscr{E}= (\Gamma , \iota , \pi )$, the $\tau \circ j$-extension $j^*(\mathscr{E})$ is isomorphic to $(\overset{-1}{\pi}(H), \iota ', \pi ')$, where $\iota ': F\rightarrow \overset{-1}{\pi}(H)$ (resp. $\pi ':\overset{-1}{\pi}(H)\rightarrow H)$ is the group homomorphism $f\mapsto \iota (f)$ (resp. $\gamma \mapsto \pi (\gamma ))$. More generally, if the group homomorphism $u: G'\rightarrow G$ is injective, then the canonical homomorphism $\varphi$ is injective with image $\overset{-1}{\pi}(u(G'))$.
 
 ### 3. Direct Image of a $\tau$-Extension
 

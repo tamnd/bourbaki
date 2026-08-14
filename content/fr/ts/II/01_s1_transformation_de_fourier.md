@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: 2f7dbed03b68b20aa52adad677b2a1449b233a466fd9ee2ef9d56e087bebcebb
+content_sha256: 573420e23070fd054b73f9c71d9d6acd316fa5c33efe43944a761ab4fcf1e848
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -832,7 +832,7 @@ D’après la prop. 1 de I, p. 88 et l’identification de la transformation de 
 
 L’application canonique $\eta$ de G dans $\widehat{\widehat{G}}$ est un isomorphisme de groupes topologiques. Il transforme la mesure de Haar $dx$ en la mesure de Haar biduale $d\widehat{\widehat{x}}$.
 
-Démontrons d’abord que $\eta$ est injective et stricte. Il suffit pour cela de montrer que pour tout voisinage U de $e$ dans G, il existe un voisinage W de $e$ dans $\widehat{\widehat{G}}$ tel que $^-\eta^1(W)\subset U$ (lemme 2 de II, p. 200). Or soit V un voisinage compact symétrique de $e$ dans G tel que $V^2\subset U$, soit $f$ une fonction continue positive sur G, à support contenu dans V, et telle que $f(e)>0$. Soit $g=\widetilde{f}*f$. Alors $g$ appartient à A(G), son support est contenu dans U et $g(e)>0$. De plus, $\mathscr{F}_G(g)\in L^1(\widehat{G})$ d’après la prop. 11 de II, p. 217. L’ensemble W des $\xi$ dans $\widehat{\widehat{G}}$ tels que
+Démontrons d’abord que $\eta$ est injective et stricte. Il suffit pour cela de montrer que pour tout voisinage U de $e$ dans G, il existe un voisinage W de $e$ dans $\widehat{\widehat{G}}$ tel que $\overset{-1}{\eta}(W)\subset U$ (lemme 2 de II, p. 200). Or soit V un voisinage compact symétrique de $e$ dans G tel que $V^2\subset U$, soit $f$ une fonction continue positive sur G, à support contenu dans V, et telle que $f(e)>0$. Soit $g=\widetilde{f}*f$. Alors $g$ appartient à A(G), son support est contenu dans U et $g(e)>0$. De plus, $\mathscr{F}_G(g)\in L^1(\widehat{G})$ d’après la prop. 11 de II, p. 217. L’ensemble W des $\xi$ dans $\widehat{\widehat{G}}$ tels que
 
 $$
 \mathscr{F}_G(\mathscr{F}_G(g))(\xi )-\mathscr{F}_G(\mathscr{F}_G(g))(e)<1g(e)
@@ -840,13 +840,13 @@ $$
 
 2
 
-est un voisinage de $e$ dans $\widehat{\widehat{G}}$ puisque la fonction $\mathscr{F}_{\widehat{G}}(\mathscr{F}_G(g))$ est continue sur $\widehat{\widehat{G}}$. Soit $x\in^-\eta^1(W)$. D’après la formule (26), on a
+est un voisinage de $e$ dans $\widehat{\widehat{G}}$ puisque la fonction $\mathscr{F}_{\widehat{G}}(\mathscr{F}_G(g))$ est continue sur $\widehat{\widehat{G}}$. Soit $x\in \overset{-1}{\eta}(W)$. D’après la formule (26), on a
 
 $$
 \mathscr{F}_{\widehat{G}}(\mathscr{F}_G(g))(\eta (x)) =g(x)
 $$
 
-et donc $|g(x)-g(e)|<^1_2g(e)$. Cela implique $g(x)\not= 0$ et donc $x\in U$, puisque le support de $g$ est contenu dans U. Ainsi $^-\eta^1(W)\subset U$.
+et donc $|g(x)-g(e)|<^1_2g(e)$. Cela implique $g(x)\not= 0$ et donc $x\in U$, puisque le support de $g$ est contenu dans U. Ainsi $\overset{-1}{\eta}(W)\subset U$.
 
 Démontrons que l’application $\eta$ est surjective. Comme cette application est un homéomorphisme sur son image, le groupe $\eta (G)$ est un sous-groupe localement compact de $\widehat{\widehat{G}}$. Il est donc fermé dans $\widehat{\widehat{G}}$ (TG, III, p. 22, cor. 2). Raisonnons par l’absurde et supposons qu’il existe un caractère $\xi \in \widehat{\widehat{G}}$ tel que $\xi \notin \eta (G)$. Il existe alors (corollaire 1 de II, p. 219) un élément $f$ non nul de $L^1(\widehat{G})$ tel que $\mathscr{F}_{\widehat{G}}(f)$ soit nulle sur $\eta (G)$. Soit $g\in L^1(G)$. La fonction $(x, \chi )\mapsto g(x)f(\chi )\langle \chi , x\rangle$ appartient à $L^1(G\times \widehat{G})$. D’après le th. de Lebesgue-Fubini (INT, V, §8, n$^o4$, th. 1, a)), il vient donc
 
@@ -1072,9 +1072,9 @@ Nous commencerons par démontrer quelques lemmes. On notera que chacun d’entre
 
 Soit $g: G\rightarrow K$ un morphisme de groupes topologiques localement compacts commutatifs. Si le morphisme $g$ est surjectif et strict, alors $\widehat{g}$ est injectif et strict.
 
-Puisque $g$ est surjectif, le morphisme $\widehat{g}$ est injectif (lemme 2 de II, p. 205). Pour démontrer que $\widehat{g}$ est un morphisme strict, il suffit de démontrer que pour tout voisinage U de $e$ dans $\widehat{K}$, il existe un voisinage V de $e$ dans $\widehat{G}$ tel que $^-\widehat{g}^1(V)\subset U$ (lemme 2 de II, p. 200). Soit U un tel voisinage de $e$ dans $\widehat{K}$. Par définition de la topologie de $\widehat{K}$, il existe une partie compacte X de K et un nombre $\varepsilon  >0$ tels que U contienne l’ensemble des $\widehat{z}\in \widehat{K}$ qui, pour tout $z\in X$, vérifient $|\langle \widehat{z}, z\rangle  -1|< \varepsilon$. Puisque $g$ est strict et surjectif, il existe, d’après TG, I, p. 80, prop. 10, une partie compacte $X_0$ de G telle que $g(X_0) = X$. Soit V le voisinage de $e$ dans $\widehat{G}$ formé des éléments $\chi \in \widehat{G}$ tels que,
+Puisque $g$ est surjectif, le morphisme $\widehat{g}$ est injectif (lemme 2 de II, p. 205). Pour démontrer que $\widehat{g}$ est un morphisme strict, il suffit de démontrer que pour tout voisinage U de $e$ dans $\widehat{K}$, il existe un voisinage V de $e$ dans $\widehat{G}$ tel que $\overset{-1}{\widehat{g}}(V)\subset U$ (lemme 2 de II, p. 200). Soit U un tel voisinage de $e$ dans $\widehat{K}$. Par définition de la topologie de $\widehat{K}$, il existe une partie compacte X de K et un nombre $\varepsilon  >0$ tels que U contienne l’ensemble des $\widehat{z}\in \widehat{K}$ qui, pour tout $z\in X$, vérifient $|\langle \widehat{z}, z\rangle  -1|< \varepsilon$. Puisque $g$ est strict et surjectif, il existe, d’après TG, I, p. 80, prop. 10, une partie compacte $X_0$ de G telle que $g(X_0) = X$. Soit V le voisinage de $e$ dans $\widehat{G}$ formé des éléments $\chi \in \widehat{G}$ tels que,
 
-pour tout $x\in X_0$, on ait $|\langle \chi , x\rangle  -1|< \varepsilon$. On a alors $^-\widehat{g}^1(V)\subset U$. Cela démontre l’assertion.
+pour tout $x\in X_0$, on ait $|\langle \chi , x\rangle  -1|< \varepsilon$. On a alors $\overset{-1}{\widehat{g}}(V)\subset U$. Cela démontre l’assertion.
 
 #### Lemme 9 {#ts-ii-s1-lem-9 .statement tag=02J7}
 

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 268
 statements: 74
 exercises: 24
-content_sha256: 1e72e48027f5d07f0db9536747af6d390955c1bbb56544fd75d57374bd80f006
+content_sha256: 2053858227921263d79b997bb9fc40d5d8ac540e030216d9159e3bc5f871129c
 ---
 
 ## § 4. OPÉRATEURS PARTIELS
@@ -88,13 +88,13 @@ Des opérateurs partiels $u= (\Gamma ,E,F)$ et $u'= (\Gamma ',E,F)$ de E dans F 
 
 Suivant E, II, §3, les notions suivantes sont définies :
 
-(i) Soit $u$ un opérateur partiel de E dans F ; soient D son domaine et $u: D\rightarrow F$ l’application linéaire associée. L’image d’un sous-ensemble A de E par $u$ est le sous-ensemble $u(A\cap D)$ de F ; on la note simplement $u(A)$. L’image réciproque par $u$ d’un sous-ensemble B de F par $u$ est le sous-ensemble $^-u^1(B)$ de D.
+(i) Soit $u$ un opérateur partiel de E dans F ; soient D son domaine et $u: D\rightarrow F$ l’application linéaire associée. L’image d’un sous-ensemble A de E par $u$ est le sous-ensemble $u(A\cap D)$ de F ; on la note simplement $u(A)$. L’image réciproque par $u$ d’un sous-ensemble B de F par $u$ est le sous-ensemble $\overset{-1}{u}(B)$ de D.
 
 Si A (resp. B) est un sous-espace vectoriel de E (resp. de F), alors son image par $u$ (resp. son image réciproque) est un sous-espace vectoriel de F (resp. de E).
 
-L’image de $u$ est le sous-espace vectoriel $u(D)$ de F, noté aussi Im($u$). On dit que $u$ est un opérateur partiel surjectif si Im($u$) $= F$. Le noyau de $u$ est le sous-espace vectoriel $^-u^1(\{0\})$ de E, noté aussi Ker($u$). Le noyau de $u$ est réduit à 0 si et seulement si l’application linéaire $u$ de dom($u$) dans F est injective. On dit alors que $u$ est injectif. Si $u$ est injectif et surjectif, on dit qu’il est bijectif.
+L’image de $u$ est le sous-espace vectoriel $u(D)$ de F, noté aussi Im($u$). On dit que $u$ est un opérateur partiel surjectif si Im($u$) $= F$. Le noyau de $u$ est le sous-espace vectoriel $\overset{-1}{u}(\{0\})$ de E, noté aussi Ker($u$). Le noyau de $u$ est réduit à 0 si et seulement si l’application linéaire $u$ de dom($u$) dans F est injective. On dit alors que $u$ est injectif. Si $u$ est injectif et surjectif, on dit qu’il est bijectif.
 
-(ii) Si E, F et G sont des espaces vectoriels sur K et $u= (\Gamma ,E,F)$, $v= (\Gamma ',F,G)$ sont des opérateurs partiels de E dans F et de F dans G, respectivement, la correspondance composée $v\circ u= (\Gamma '\circ \Gamma ,E,G)$ est un opérateur partiel de E dans G. Son domaine est $^-u^1$(dom($v$)). Si H est un espace vectoriel sur K et $w= (\Gamma '',G,H)$ un opérateur partiel de G dans H, on a $w\circ (v\circ u) = (w\circ v)\circ u$. On écrira parfois $vu$ au lieu de $v\circ u$.
+(ii) Si E, F et G sont des espaces vectoriels sur K et $u= (\Gamma ,E,F)$, $v= (\Gamma ',F,G)$ sont des opérateurs partiels de E dans F et de F dans G, respectivement, la correspondance composée $v\circ u= (\Gamma '\circ \Gamma ,E,G)$ est un opérateur partiel de E dans G. Son domaine est $\overset{-1}{u}$(dom($v$)). Si H est un espace vectoriel sur K et $w= (\Gamma '',G,H)$ un opérateur partiel de G dans H, on a $w\circ (v\circ u) = (w\circ v)\circ u$. On écrira parfois $vu$ au lieu de $v\circ u$.
 
 (iii) En particulier, pour tout opérateur partiel $u$ de E dans F et tout $a\in K$, les opérateurs partiels $au= (a1_F)\circ u$ et $ua=u\circ (a1_E)$ sont définis. Ils sont égaux si $a\not = 0$, ou si le domaine de $u$ est égal à E ; on a $u0 = 0_E$ et $0u= 0_{dom(u)}$.
 
@@ -180,9 +180,9 @@ a) Pour tout $v\in \mathscr{L}(E; F)$, l’opérateur partiel $u+v$ est fermé.
 
 b) Pour tout $v\in \mathscr{L}(G; E)$, l’opérateur partiel $u\circ v$ est fermé.
 
-Démontrons a). Soit $\gamma$ l’application $(x, y)\mapsto (x, y-v(x))$ de $E\times F$ dans lui-même ; elle est continue. Pour tout $(x, y)\in E\times F$, on a $\gamma (x, y)\in \Gamma_u$ si et seulement si $x\in$ dom($u$) et $y=u(x) +v(x)$, c’est-àdire que $^-\gamma^1(\Gamma_u) = \Gamma_{u+v}$. L’assertion en résulte.
+Démontrons a). Soit $\gamma$ l’application $(x, y)\mapsto (x, y-v(x))$ de $E\times F$ dans lui-même ; elle est continue. Pour tout $(x, y)\in E\times F$, on a $\gamma (x, y)\in \Gamma_u$ si et seulement si $x\in$ dom($u$) et $y=u(x) +v(x)$, c’est-àdire que $\overset{-1}{\gamma}(\Gamma_u) = \Gamma_{u+v}$. L’assertion en résulte.
 
-Démontrons b). L’application $\eta = (v,1_F)$ de $G\times F$ dans $E\times F$ est continue ; pour tout $(z, y)\in G\times F$, on a $\eta (z, y) = (v(z), y)$, donc $^-\eta^1(\Gamma_u) = \Gamma_{u\circ v}$. L’assertion en résulte.
+Démontrons b). L’application $\eta = (v,1_F)$ de $G\times F$ dans $E\times F$ est continue ; pour tout $(z, y)\in G\times F$, on a $\eta (z, y) = (v(z), y)$, donc $\overset{-1}{\eta}(\Gamma_u) = \Gamma_{u\circ v}$. L’assertion en résulte.
 
 Soient E et F des espaces vectoriels topologiques sur K, l’espace F étant séparé. Soit $a\in K$. Si $u\in \mathscr{P}(E; F)$ est fermable, alors il en est de même de $au$. Si $a\not = 0$, on a $au=au$, et $u$ est fermé si et seulement si $au$ l’est. Si $a= 0$, la fermeture de $au$ est $0_{dom(u)}$, et $au$ est égal à $0_{dom(u)}$; il se peut donc que $u$ soit fermé mais que $au$ ne le soit pas.
 
@@ -1020,7 +1020,7 @@ a) Le spectre de $m_g$ est l’image $\mu$-essentielle S de $g$;
 
 b) Soit $\lambda \in \mathbf{C}-$ Sp($m_g$). La résolvante $R(m_g, \lambda )$ est l’opérateur de multiplication $m_h$, où $h$ est la fonction sur X définie par $h(x) = 0$ si $g(x) =\lambda$ et $h(x) = (\lambda -g(x))^{-1}$ sinon.
 
-Démontrons que $\mathbf{C}-$ S est contenu dans l’ensemble résolvant de $m_g$. Soit $\lambda \in \mathbf{C}-$ S. Il existe un voisinage ouvert U de $\lambda$ tel que le sous-ensemble $Y =^-g^1(U)$ de X est localement $\mu$-négligeable. La fonction $k$ définie sur X par $k(x) = (\lambda -g(x))^{-1}$ si $x /\in Y$ et $k(x) = 0$ si $x\in Y$ appartient alors à $\mathscr{L}^{\infty}(X, \mu)$ (lemme 5 de IV, p. 184) ; l’opérateur de multiplication par $k$ est donc un endomorphisme de $L^2(X, \mu)$.
+Démontrons que $\mathbf{C}-$ S est contenu dans l’ensemble résolvant de $m_g$. Soit $\lambda \in \mathbf{C}-$ S. Il existe un voisinage ouvert U de $\lambda$ tel que le sous-ensemble $Y =\overset{-1}{g}(U)$ de X est localement $\mu$-négligeable. La fonction $k$ définie sur X par $k(x) = (\lambda -g(x))^{-1}$ si $x /\in Y$ et $k(x) = 0$ si $x\in Y$ appartient alors à $\mathscr{L}^{\infty}(X, \mu)$ (lemme 5 de IV, p. 184) ; l’opérateur de multiplication par $k$ est donc un endomorphisme de $L^2(X, \mu)$.
 
 Comme $|gk|\leqslant 1 +|\lambda k|$, on a
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 67
 statements: 31
 exercises: 8
-content_sha256: da78f50f34ac477662f0f04ab1566e3cf22beac9e03267e8963f646d15b9c528
+content_sha256: c209d3200e7257401f233eedf9722c0644e3e5ce76e386fb5d4706dd4bf45aac
 ---
 
 ## § 3. ENDOMORPHISMES DE FREDHOLM ET ENDOMORPHISMES DE RIESZ
@@ -62,7 +62,7 @@ Comme F est séparé, le noyau de $v$ est un sous-espace vectoriel fermé de E ;
 
 Soit T un sous-espace vectoriel séparé de dimension finie de F. Notons $\pi : F\rightarrow F/T$ la surjection canonique. Pour que $u$ soit un morphisme strict d’image fermée, il faut et il suffit que $\pi \circ u$ en soit un.
 
-L’application identique de T sur lui-même se prolonge en une application continue $q: F\rightarrow T$ (EVT, II, p. 26, remarque). Le noyau S de $q$ est un supplémentaire topologique fermé de T. Soit $p: F\rightarrow F$ le projecteur d’image S associé à la décomposition $F = T\oplus S$. Pour que $\pi \circ u$ soit un morphisme strict d’image fermée, il faut et il suffit que $p\circ u$ en soit un. Or $p\circ u$ et $u$ ont même restriction à $^-u^1$(S), qui est un sous-espace vectoriel fermé de codimension finie de E, et l’assertion résulte de la proposition.
+L’application identique de T sur lui-même se prolonge en une application continue $q: F\rightarrow T$ (EVT, II, p. 26, remarque). Le noyau S de $q$ est un supplémentaire topologique fermé de T. Soit $p: F\rightarrow F$ le projecteur d’image S associé à la décomposition $F = T\oplus S$. Pour que $\pi \circ u$ soit un morphisme strict d’image fermée, il faut et il suffit que $p\circ u$ en soit un. Or $p\circ u$ et $u$ ont même restriction à $\overset{-1}{u}$(S), qui est un sous-espace vectoriel fermé de codimension finie de E, et l’assertion résulte de la proposition.
 
 ### 2. Applications de Fredholm
 

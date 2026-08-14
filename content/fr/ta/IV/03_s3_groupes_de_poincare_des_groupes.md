@@ -33,7 +33,7 @@ subsections:
       pdf_page: 395
 statements: 21
 exercises: 0
-content_sha256: 8681f8e8713a23755e526e55c0c974fa8194a632ce1e1ec10d0c8db8b2224f8c
+content_sha256: e2d1e5815bf85cfbc6f0aaf2ad7fa10d1ff651c359e57ae75ac78eaba3e67136
 ---
 
 ## § 3. GROUPES DE POINCARÉ DES GROUPES TOPOLOGIQUES
@@ -56,7 +56,7 @@ La condition est nécessaire d’après la proposition 3 de TG, III, p. 6. Inver
 
 #### Proposition 2 {#ta-iv-s3-prop-2 .statement tag=021O}
 
-Soit G un groupe topologique connexe, soit $G'$ un groupe et soit $f: V\rightarrow G'$ un homomorphisme local de G dans $G'$, où V est un voisinage connexe de l’élément neutre de G. Il existe alors un groupe topologique connexe H, un morphisme de groupes topologiques $p: H\rightarrow G$ tel que $(H, p)$ soit un revêtement de G et un homomorphisme de groupes $\varphi : H\rightarrow G'$ tel que l’ensemble des $y\in^-p^1(V)$ vérifiant $f(p(y)) =\varphi (y)$ soit un voisinage de l’élément neutre dans H.
+Soit G un groupe topologique connexe, soit $G'$ un groupe et soit $f: V\rightarrow G'$ un homomorphisme local de G dans $G'$, où V est un voisinage connexe de l’élément neutre de G. Il existe alors un groupe topologique connexe H, un morphisme de groupes topologiques $p: H\rightarrow G$ tel que $(H, p)$ soit un revêtement de G et un homomorphisme de groupes $\varphi : H\rightarrow G'$ tel que l’ensemble des $y\in \overset{-1}{p}(V)$ vérifiant $f(p(y)) =\varphi (y)$ soit un voisinage de l’élément neutre dans H.
 
 Si $G'$ est un groupe topologique et si l’application $f$ est continue, un tel homomorphisme $\varphi$ est continu.
 
@@ -82,7 +82,7 @@ Soit $h\in H$. Comme U est un voisinage de $e$ contenu dans V$,j(U)$ engendre H 
 
 Munissons alors le groupe G de cette topologie.
 
-Notons $p: H\rightarrow$ G la restriction à H de la première projection $G\times G'\rightarrow G$. C’est un homomorphisme de groupes. Pour tout voisinage U de $e$ contenu dans V, l’ensemble $^-p^1(U)$ contient le voisinage $j(U)$ de l’élément neutre de H, donc $p$ est un homomorphisme continu de groupes topologiques. Pour tout voisinage U de $e$ contenu dans V, on a $p(j(U)) = U$, donc $p$ est une application ouverte. Comme G est connexe, $p$ est surjective. Son noyau est discret car il ne rencontre $j(V)$ qu’en l’élément neutre. Il résulte alors du corollaire 3 (I, p. 100) que le G-espace $(H, p)$ est un revêtement.
+Notons $p: H\rightarrow$ G la restriction à H de la première projection $G\times G'\rightarrow G$. C’est un homomorphisme de groupes. Pour tout voisinage U de $e$ contenu dans V, l’ensemble $\overset{-1}{p}(U)$ contient le voisinage $j(U)$ de l’élément neutre de H, donc $p$ est un homomorphisme continu de groupes topologiques. Pour tout voisinage U de $e$ contenu dans V, on a $p(j(U)) = U$, donc $p$ est une application ouverte. Comme G est connexe, $p$ est surjective. Son noyau est discret car il ne rencontre $j(V)$ qu’en l’élément neutre. Il résulte alors du corollaire 3 (I, p. 100) que le G-espace $(H, p)$ est un revêtement.
 
 Soit $\varphi$ la restriction à H de la seconde projection $G\times G'\rightarrow G'$. Si $g\in V$, on a $(g, f(g)) =j(g)\in j(V)$ et $\varphi (g, f(g)) =f(g)$, si bien que $\varphi (y) =f(p(y))$ pour $y\in j(V)$.
 
@@ -224,7 +224,7 @@ Supposons maintenant la loi $m$ commutative ; les applications $(h_1, h_2)\mapst
 
 Si $e$ est élément neutre à droite (resp. à gauche) pour la loi $m$, l’application $h\mapsto m'(h, e')$ (resp. $h\mapsto m'(e', h)$) de $X'$ dans $X'$ est un X-morphisme de revêtements qui coïncide avec Id$_{X'}$ au point $e'$, donc en tout point de $X'$, puisque $X'$ est connexe (loc. cit.), d’où b).
 
-Démontrons enfin c). Supposons que X soit un groupe topologique. D’après ce qui précède, la loi $m'$ est associative et $e'$ en est un élément neutre. Notons $i: X\rightarrow X$ l’application $g\mapsto g^{-1}$. Elle est continue (TG, III, p. 1) et l’homomorphisme $\pi_1(i, e):\pi_1(X, e)\rightarrow \pi_1(X, e)$ n’est autre que l’application $\gamma \mapsto \gamma^{-1}($IV, p. 374, prop. 3). Par suite, le sous-groupe $(i\circ p)_*(\pi_1(X', e'))$ est égal à $p_*(\pi_1(X', e'))$. D’après la prop. 1 de III, p. 308, il existe donc une application continue $i': X'\rightarrow X'$ telle que $p\circ i'=i\circ p$ et $i'(e') =e'$. Les applications $h\mapsto m'(h, i'(h))$ et $h\mapsto$ $m'(i'(h), h)$ de $X'$ dans $X'$ sont des relèvements à $X'$ de l’application constante d’image $e$ de $X'$ dans X. Elles sont donc constantes et leur image est $e'=m'(e', e')$. Ainsi, tout élément $h$ de $X'$ est inversible, d’inverse $i'(h)$, ce qui montre que $X'$, muni de la loi de composition $m'$, est un groupe. Par construction de la loi $m'$, l’application $p: X'\rightarrow X$ est un homomorphisme de groupes. Comme les applications $m'$ et $i'$ sont continues, la structure de groupe de $X'$ est compatible avec sa topologie (TG, III, p. 1). La fibre $^-p^1(e)$ est un sous-groupe discret de $X'$ qui est contenu dans le centre de $X'($I, p. 100, cor. 3) et X est isomorphe au groupe topologique quotient $X'/^-p^1(e)$.
+Démontrons enfin c). Supposons que X soit un groupe topologique. D’après ce qui précède, la loi $m'$ est associative et $e'$ en est un élément neutre. Notons $i: X\rightarrow X$ l’application $g\mapsto g^{-1}$. Elle est continue (TG, III, p. 1) et l’homomorphisme $\pi_1(i, e):\pi_1(X, e)\rightarrow \pi_1(X, e)$ n’est autre que l’application $\gamma \mapsto \gamma^{-1}($IV, p. 374, prop. 3). Par suite, le sous-groupe $(i\circ p)_*(\pi_1(X', e'))$ est égal à $p_*(\pi_1(X', e'))$. D’après la prop. 1 de III, p. 308, il existe donc une application continue $i': X'\rightarrow X'$ telle que $p\circ i'=i\circ p$ et $i'(e') =e'$. Les applications $h\mapsto m'(h, i'(h))$ et $h\mapsto$ $m'(i'(h), h)$ de $X'$ dans $X'$ sont des relèvements à $X'$ de l’application constante d’image $e$ de $X'$ dans X. Elles sont donc constantes et leur image est $e'=m'(e', e')$. Ainsi, tout élément $h$ de $X'$ est inversible, d’inverse $i'(h)$, ce qui montre que $X'$, muni de la loi de composition $m'$, est un groupe. Par construction de la loi $m'$, l’application $p: X'\rightarrow X$ est un homomorphisme de groupes. Comme les applications $m'$ et $i'$ sont continues, la structure de groupe de $X'$ est compatible avec sa topologie (TG, III, p. 1). La fibre $\overset{-1}{p}(e)$ est un sous-groupe discret de $X'$ qui est contenu dans le centre de $X'($I, p. 100, cor. 3) et X est isomorphe au groupe topologique quotient $X'/\overset{-1}{p}(e)$.
 
 #### Corollaire {#ta-iv-s3-n4-cor-1 .statement tag=0221}
 
@@ -246,7 +246,7 @@ b) Le noyau N de $p$ est un sous-groupe discret de $\widetilde{G}$, contenu dans
 
 c) Si $G'$ est un groupe topologique, d’élément neutre $e'$ et si $p': G'\rightarrow$ G est un homomorphisme de groupes qui fait de $G'$ un revêtement de G, l’unique application continue $u:\widetilde{G}\rightarrow G'$ telle que $u(\widetilde{e}) =e'$ et $p'\circ u=p$ est un homomorphisme de groupes. Muni de l’application $u,(\widetilde{G},\widetilde{e})$ est un revêtement universel de $(G', e')$.
 
-D’après IV, p. 342, théorème 1, il existe un revêtement $(\widetilde{G}, p)$ de G, simplement connexe et simplement connexe par arcs, galoisien de groupe $\pi_1(G)^{\circ}$, et un point $\widetilde{e}$ de $^-p^1(e)$ tel que le revêtement pointé $(\widetilde{G},\widetilde{e})$ soit un revêtement universel de $(G, e)$.
+D’après IV, p. 342, théorème 1, il existe un revêtement $(\widetilde{G}, p)$ de G, simplement connexe et simplement connexe par arcs, galoisien de groupe $\pi_1(G)^{\circ}$, et un point $\widetilde{e}$ de $\overset{-1}{p}(e)$ tel que le revêtement pointé $(\widetilde{G},\widetilde{e})$ soit un revêtement universel de $(G, e)$.
 
 D’après IV, p. 375, prop. 4 et IV, p. 377, prop. 5, il existe sur l’espace $\widetilde{G}$ une unique structure de groupe compatible avec sa topologie pour laquelle $p$ soit un homomorphisme de groupes et $\widetilde{e}$ un élément neutre. Il résulte de la prop. 4 que le groupe $\widetilde{G}$ vérifie les assertions a) et b).
 
