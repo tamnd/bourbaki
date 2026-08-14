@@ -53,7 +53,7 @@ subsections:
       pdf_page: 105
 statements: 50
 exercises: 0
-content_sha256: dc18d29d5750e49f8fffe9b44a74b95078bd43c5407b6075282736d31937f82a
+content_sha256: 20f7aa73947ed388b45a4d5ea703262efec0626d89dfa3fa4de175912003c11a
 ---
 
 ## § 4. REVÊTEMENTS
@@ -274,7 +274,7 @@ Démontrons maintenant le théorème 1. Chacune des trois conditions implique qu
 
 (i)$\Rightarrow$(ii) : il suffit de démontrer que $p$ est propre et, pour cela, que pour tout ouvert U au-dessus duquel le revêtement $(E, p)$ est trivialisable, l’application $p_U:\overset{-1}{p}(U)\rightarrow U$ est propre (TG, I, p. 72, prop. 3). Comme les fibres de $p_U$ sont finies, cette dernière assertion résulte du corollaire 5 de TG, I, p. 77.
 
-(ii)$\Rightarrow$(iii) : soit $b$ un point de B et, pour tout $x\in \overset{-1}{p}(b)$, soit $W_x$ un voisinage ouvert de $x$ dans E tel que $p|W_x$ soit injectif. L’ensemble $W =\bigcup_{x\in^-p^1(b)}W_x$ est un voisinage ouvert de $\overset{-1}{p}(b)$. Comme l’application $p$ est fermée, il existe d’après le lemme ci-dessus un voisinage ouvert U de $b$ tel que $\overset{-1}{p}(U)\subset W$. Pour tout $a\in U$, on a $\overset{-1}{p}(a)\subset W$ ; comme la restriction de $p$ à chaque $W_x$ est injective, il en résulte que Card($\overset{-1}{p}(a)$)$\leqslant$ Card($\overset{-1}{p}(b)$), ce qui prouve la semi-continuité supérieure de l’application $a\mapsto$ Card($\overset{-1}{p}(a)$).
+(ii)$\Rightarrow$(iii) : soit $b$ un point de B et, pour tout $x\in \overset{-1}{p}(b)$, soit $W_x$ un voisinage ouvert de $x$ dans E tel que $p|W_x$ soit injectif. L’ensemble $W =\bigcup_{x\in\overset{-1}{p}(b)}W_x$ est un voisinage ouvert de $\overset{-1}{p}(b)$. Comme l’application $p$ est fermée, il existe d’après le lemme ci-dessus un voisinage ouvert U de $b$ tel que $\overset{-1}{p}(U)\subset W$. Pour tout $a\in U$, on a $\overset{-1}{p}(a)\subset W$ ; comme la restriction de $p$ à chaque $W_x$ est injective, il en résulte que Card($\overset{-1}{p}(a)$)$\leqslant$ Card($\overset{-1}{p}(b)$), ce qui prouve la semi-continuité supérieure de l’application $a\mapsto$ Card($\overset{-1}{p}(a)$).
 
 (iii)$\Rightarrow$(i) : soit $b$ un point de B. Comme la fibre $E_b=\overset{-1}{p}(b)$ est finie et l’application $p$ séparée, on peut choisir, pour tout $x\in E_b$, un voisinage ouvert $V'_x$ de $x$ de telle sorte que les $V'_x$ soient deux à deux disjoints (I, p. 26, remarque 4). Comme l’application $p$ est ouverte et l’ensemble $E_b$ fini, l’ensemble $U'=\bigcap_{x\in E_b}p(V_x')$ est un voisinage ouvert de $b$ dans B. Soit U un voisinage ouvert de $b$ dans B, contenu dans $U'$ et tel que pour tout $a\in U$, Card(E$_a)\leqslant$ Card(E$_b)$. Pour tout $x\in E_b$, posons $V_x= V'_x\cap \overset{-1}{p}(U)$. Soit $a$ un point de U ; les ensembles $E_a\cap V_x$, pour $x\in E_b$, sont non vides et deux à deux disjoints. Ces ensembles contiennent donc chacun un unique élément et forment une partition de $E_a$. Cela démontre que, pour tout $x\in E_b$, l’application $p|V_x$ est injective et que l’on a $\overset{-1}{p}(U) =\bigcup_{x\in E_b}V_x$. Comme l’application $p$ est ouverte, elle induit un homéomorphisme de $V_x$ sur U et par suite, $(E, p)$ est un revêtement de B (I, p. 70, cor. 1 de la prop. 1).
 

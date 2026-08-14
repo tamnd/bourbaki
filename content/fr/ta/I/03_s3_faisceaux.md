@@ -53,7 +53,7 @@ subsections:
       pdf_page: 82
 statements: 35
 exercises: 0
-content_sha256: 06ac51884abdf1f8e49541050b9192c12ec9af5941b31932857a8822d2492cf8
+content_sha256: a29ded564fa841ba238531eb88ac07f749f48fef591d111e13dfddb39c59e86a
 ---
 
 ## § 3. FAISCEAUX
@@ -442,7 +442,7 @@ Ces résultats permettent de déduire un énoncé relatif aux B-espaces étalés
 
 Soient A et B des espaces topologiques et $u: A\rightarrow B$ une application continue.
 
-Soit $\mathscr{F}= (\mathscr{F}(U), f_{UV})$ un préfaisceau sur A. On définit un préfaisceau $\mathscr{F}'$ sur B de la façon suivante : pour tout ouvert U de B, posons $\mathscr{F}'(U) =\mathscr{F}(\overset{-1}{u}(U))$ et pour tout couple $(U,V)$ d’ouverts de B tel que U $\subset V$, posons $f_{UV}'=f_{_-u^1(U)^-u^1(V)}$. Alors $(\mathscr{F}'(U), f_{UV}'$ ) est un préfaisceau sur B. On le note $u_*(\mathscr{F})$ et on l’appelle le préfaisceau image directe du préfaisceau $\mathscr{F}$ par l’application $u$.
+Soit $\mathscr{F}= (\mathscr{F}(U), f_{UV})$ un préfaisceau sur A. On définit un préfaisceau $\mathscr{F}'$ sur B de la façon suivante : pour tout ouvert U de B, posons $\mathscr{F}'(U) =\mathscr{F}(\overset{-1}{u}(U))$ et pour tout couple $(U,V)$ d’ouverts de B tel que U $\subset V$, posons $f_{UV}'=f_{_-u^1(U)\overset{-1}{u}(V)}$. Alors $(\mathscr{F}'(U), f_{UV}'$ ) est un préfaisceau sur B. On le note $u_*(\mathscr{F})$ et on l’appelle le préfaisceau image directe du préfaisceau $\mathscr{F}$ par l’application $u$.
 
 Si $(U_i)_{i\in I}$ est une famille d’ouverts de B, on a $\overset{-1}{u}(\bigcup_{i\in I}U_i) =$ $\bigcup_{i\in I}\overset{-1}{u}(U_i)$ et $\overset{-1}{u}(\bigcap_{i\in I}U_i) =\bigcap_{i\in I}\overset{-1}{u}(U_i)$ (E, II, p. 25, prop. 3 et 4). Il en résulte aussitôt que, si $\mathscr{F}$ jouit de la propriété $(F_1)$ (resp. $(F_2)$) des faisceaux (I, p. 43), il en est de même de $u_*(\mathscr{F})$. Par suite, l’image directe d’un faisceau est un faisceau.
 
@@ -535,13 +535,13 @@ $$
 $$
 
 $$
-=f_{U^-u^1(V)}(\psi_{_-u^1(V)}(t\circ u|\overset{-1}{u}(V)))
+=f_{U\overset{-1}{u}(V)}(\psi_{_-u^1(V)}(t\circ u|\overset{-1}{u}(V)))
 $$
 
 Par suite, si $\psi :u^*(\mathscr{G})\rightarrow \mathscr{F}$ satisfait à (6), on a
 
 $$
-f_{UU_0}(\psi_{U_0}(s_0)) =f_{U^-u^1(V)}(\varphi_V(t)) \tag{8}
+f_{UU_0}(\psi_{U_0}(s_0)) =f_{U\overset{-1}{u}(V)}(\varphi_V(t)) \tag{8}
 $$
 
 Démontrons que, pour tout point $a$ de $U_0$, il existe un triplet $(U,V, t)\in S(U_0, s_0)$ tel que $a\in U$. Soit en effet $a$ un point de $U_0$. Il existe un voisinage ouvert V de B contenant $u(a)$ et une section $t$ de l’espace étalé $E_{\mathscr{G}}$ au-dessus de V telle que $t(u(a)) =s_0(a)$ (I, p. 33, prop. 9). Soit $U_1=\overset{-1}{u}(V)\cap U_0$. Les sections $s_0|U_1$ et $t\circ u|U_1$ du $U_1$-espace étalé $E_{\mathscr{G}}\times_BU_1$ coïncident au point $a$. D’après la proposition 11, b) de I, p. 34, l’ensemble des points où elles coïncident est un ouvert U de $U_1$ qui contient $a$. Le triplet $(U,V, t)$ appartient alors à $S(U_0, s_0)$.
@@ -551,19 +551,19 @@ La formule (8) et la propriété $(F_1)$ des faisceaux (I, p. 43) entraînent al
 Soient $(U,V, t)$ et $(U',V', t')$ des éléments de $S(U_0, s_0)$. D’après la relation (7), les restrictions à $u(U\cap U')$ de $t$ et $t'$ coïncident. D’après la prop. 11, b) de I, p. 34, il existe un ouvert W de B tel que $u(U\cap U')\subset$ $W\subset V\cap V'$ et que $t|W =t'|W$. On a donc
 
 $$
-f_{_-u^1(W)^-u^1(V)}(\varphi_V(t)) =\varphi_W(t|W) =\varphi_W(t'|W) =f_{_-u^1(W)^-u^1(V')}(\varphi_{V'}(t'))
+f_{_-u^1(W)\overset{-1}{u}(V)}(\varphi_V(t)) =\varphi_W(t|W) =\varphi_W(t'|W) =f_{_-u^1(W)\overset{-1}{u}(V')}(\varphi_{V'}(t'))
 $$
 
 d’où
 
 $$
-f_{(U\cap U')^-u^1(V)}(\varphi_V(t)) =f_{(U\cap U')^-u^1(V')}(\varphi_{V'}(t')) \tag{9}
+f_{(U\cap U')\overset{-1}{u}(V)}(\varphi_V(t)) =f_{(U\cap U')\overset{-1}{u}(V')}(\varphi_{V'}(t')) \tag{9}
 $$
 
 D’après les propriétés $(F_1)$ et $(F_2)$ pour le faisceau $\mathscr{F}$, il existe un unique élément $s'$ de $\mathscr{F}(U_0)$ tel que pour tout triplet $(U,V, t)$ de $S(U_0, s_0)$, on ait :
 
 $$
-f_{UU_0}(s') =f_{U^-u^1(V)}(\varphi_V(t)) \tag{10}
+f_{UU_0}(s') =f_{U\overset{-1}{u}(V)}(\varphi_V(t)) \tag{10}
 $$
 
 Notons $\psi_{U_0}(s_0)$ cet élément.
@@ -571,7 +571,7 @@ Notons $\psi_{U_0}(s_0)$ cet élément.
 Soit $U_1$ un ouvert contenu dans $U_0$ et soit $s_1=s_0|U_1$. Si $(U,V, t)\in$ $S(U_1, s_1)$, U est un ouvert contenu dans $U_0$ et $t\circ u|U =s_1|U =s_0|U$, donc $(U, v, t)\in S(U_0, s_0)$ et la relation (10) entraîne alors que
 
 $$
-f_{UU_1}(f_{U_1U_0}(\psi_{U_0}(s_0))) =f_{UU_0}(\psi_{U_0}(s_0)) =f_{U^-u^1(V)}(\varphi_V(t))
+f_{UU_1}(f_{U_1U_0}(\psi_{U_0}(s_0))) =f_{UU_0}(\psi_{U_0}(s_0)) =f_{U\overset{-1}{u}(V)}(\varphi_V(t))
 $$
 
 Par définition de $\psi_{U_1}(s_1)$, on a donc $\psi_{U_1}(s_1) =f_{U_1U_0}(\psi_{U_0}(s_0))$. Cela prouve que la famille $\psi = (\psi_U)$ est un morphisme de faisceaux de $u^*(\mathscr{G})$ dans $\mathscr{F}$.

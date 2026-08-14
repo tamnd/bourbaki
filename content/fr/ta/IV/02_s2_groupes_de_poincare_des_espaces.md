@@ -37,7 +37,7 @@ subsections:
       pdf_page: 381
 statements: 30
 exercises: 0
-content_sha256: e58300af46e5f25ad4064a469b811e9b53154030bb4d6325ca900a19dd313fd0
+content_sha256: e8cb72c1956dd638be544bbbec18b92e96cf4c40cefe45f46c3ea4255b446f8d
 ---
 
 ## § 2. GROUPES DE POINCARÉ DES ESPACES DÉLAÇABLES
@@ -345,7 +345,7 @@ Soit S un sous-espace souslinien de X. Par définition, il existe un espace mét
 Pour tout entier $n$ et tout $c\in C_n$, notons $F_n(c)$ l’image de l’ensemble $\varphi_n(c)$ par $g$; posons aussi $F^*_n(c) = D^*(F_n(c))$ et
 
 $$
-G_n(c) = F^*_n(c)\cap \complement \bigcup_{c'\in^-p_n^1(c)}F^*_{n+1}(c') \tag{1}
+G_n(c) = F^*_n(c)\cap \complement \bigcup_{c'\in\overset{-1}{p_{n}}(c)}F^*_{n+1}(c') \tag{1}
 $$
 
 Pour tout $c\in C_n,F^*_n(c)$ est approchable (IV, p. 361, lemme 2, c)). Comme $C_{n+1}$ est dénombrable, la réunion des parties approchables $F^*_{n+1}(c')$, pour $c'$ parcourant $\overset{-1}{p_{n}}(c)$, est encore une partie approchable de X. Elle contient la réunion des $F_{n+1}(c')$ qui est égale à $F_n(c)$. Par suite (loc. cit., d)), $G_n(c)$ est une partie maigre de X. La réunion G des parties $G_n(c)$, pour $n\in \mathbf{N}$ et $c\in C_n$, est donc une partie maigre de X.

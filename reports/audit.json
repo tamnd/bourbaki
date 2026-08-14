@@ -1,6 +1,6 @@
 {
   "version": "dev",
-  "commit": "3b761592af379c9b990d15df57268dd8730f08bd",
+  "commit": "5d9ac2553cec15b7b6f0604aa9a349acf9e63347",
   "root": "/Users/apple/github/tamnd/bourbaki",
   "langs": [
     "en",
@@ -1290,7 +1290,7 @@
       "hard": false,
       "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
       "line": 143,
-      "message": "two of one script against one base, which TeX will not set: ^{\\alpha^-}_{0^1}^0_0"
+      "message": "two of one script against one base, which TeX will not set: ^{\\alpha}_{\\overset{-1}{0}}^0_0"
     },
     {
       "check": "M09",

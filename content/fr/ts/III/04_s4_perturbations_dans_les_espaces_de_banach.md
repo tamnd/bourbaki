@@ -37,7 +37,7 @@ subsections:
       pdf_page: 81
 statements: 30
 exercises: 9
-content_sha256: 370925dce399d029a8a8ad0cf9b655736af8a4c9da6d3d2fc55d71ea661e7528
+content_sha256: e70bcc80ce37bfaf0b78b261679af7c958fdbc5f329415b8aa2d46bced3b96a6
 ---
 
 ## § 4. PERTURBATIONS DANS LES ESPACES DE BANACH
@@ -141,7 +141,7 @@ $$
 On a $\varphi (u_0) =v_0$ et l’application $\varphi$ est analytique (loc. cit.). Modulo les applications linéaires continues de rang fini, on a les congruences
 
 $$
-u\equiv (^{\alpha}_{0 0}^0),v_0\equiv^{\alpha^-_0}_{0^1}^0_0,\varphi (u)\equiv^{\alpha^-}_{0^1}^0_0
+u\equiv (^{\alpha}_{0 0}^0),v_0\equiv^{\alpha^-_0}_{0^1}^0_0,\varphi (u)\equiv^{\alpha}_{\overset{-1}{0}}^0_0
 $$
 
 Par suite, $\varphi (u)$ est un quasi-inverse de $u$. Tout élément $u$ de U définit par restriction un isomorphisme de $E_1$ sur un supplémentaire topologique de $F_2$ dans F. D’après la prop. 3 de III, p. 44, on a donc
