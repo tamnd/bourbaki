@@ -33,7 +33,7 @@ subsections:
       pdf_page: 84
 statements: 23
 exercises: 18
-content_sha256: e48e4fb5e438d627a5a9bf8c1e6eb2359370d2cdde66430024b916d28a13a42c
+content_sha256: 4a04257697e30a7398c3056e7eaf098ac05f716498deb344adeae5b04020c4bd
 ---
 
 ## § 1. THE LIE ALGEBRA $\mathfrak{s}\mathfrak{l}$(2$\boldsymbol{, k}$) AND ITS REPRESENTATIONS
@@ -282,7 +282,7 @@ Hence, $(e_0^{(m)}, e_1^{(m)}, . . . , e_m^{(m)})$ is the basis of $V(m)$ associ
 
 Let $\Phi$ be the bilinear form on $V(m)$ such that
 
-$\Phi (e^{(m)}_n, e^{(m_')}_n) = 0$ if $n+n'\not=m$
+$\Phi (e^{(m)}_n, e^{(m')}_n) = 0$ if $n+n'\not=m$
 
 $$
 \Phi (e^{(m)}_n, e^{(m)}_{m-n}) = (-1)^n(m)
@@ -454,7 +454,7 @@ If $E = V(n)$, the proposition follows from formulas (4) and (6). The general ca
 
 #### Corollary {#lie-viii-s1-n5-cor-1 .statement tag=00YD}
 
-Let $E = E'\oplus (E''$ be the decomposition of$)$ E defined in the Cor. of Prop. 2. The element $-1$ 0 of $\mathbf{S}\mathbf{L}(2, k)$ operates by +1 on $E_'$
+Let $E = E'\oplus (E''$ be the decomposition of$)$ E defined in the Cor. of Prop. 2. The element $-1$ 0 of $\mathbf{S}\mathbf{L}(2, k)$ operates by +1 on $E'$
 
 0 $-1$
 

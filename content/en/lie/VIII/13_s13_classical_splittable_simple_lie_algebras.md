@@ -29,7 +29,7 @@ subsections:
       pdf_page: 219
 statements: 2
 exercises: 19
-content_sha256: 6b1e44fe82e61bbaf1b9db41dca710bffa5359d162c1477eec17e38edc9eef7c
+content_sha256: ed1457f69c0afb4030e84f61ce6ffb0da2f4ea41ea0d739b93a267cd58c46f87
 ---
 
 ## § 13. CLASSICAL SPLITTABLE SIMPLE LIE ALGEBRAS
@@ -463,7 +463,7 @@ $$
 which proves (ii). Next, for all $v\in V$, we have by (i),
 
 $$
-1\sum_''
+1\sum''
 $$
 
 $$
@@ -491,7 +491,7 @@ $$
 which proves (iii). Then
 
 $$
-[1\sum_']
+[1\sum']
 $$
 
 $[f(a), f(b)] =f(a),(be_r)e_r$ by (i)
@@ -501,7 +501,7 @@ $[f(a), f(b)] =f(a),(be_r)e_r$ by (i)
 $r$
 
 $$
-1\sum_''
+1\sum''
 $$
 
 = $([f(a), be_r]e_r+ (be_r)[f(a), e_r])$
@@ -992,7 +992,7 @@ For all $s\in \Sigma$, let $\mu(s)$ be the multiplier of $s$. The map $s \righta
 
 (VIII) The canonical bilinear form $\Phi_R$ on $\mathfrak{h}^*$ is given by
 
-$_''$ 1 $''$
+$''$ 1 $''$
 
 $$
 \Phi_R(\xi_1\varepsilon_1+\cdots +\xi_l\varepsilon_l, \xi_1\varepsilon_1+\cdots +\xi_l\varepsilon_l) =(\xi_1\xi_1+\cdots +\xi_l\xi_l)
@@ -1198,7 +1198,7 @@ Identify $\mathbf{S}\mathbf{O}(\Psi )/\{1,-1\}$ with a subgroup of $\Sigma_0/k^*
 
 (VIII) The canonical bilinear form $\Phi_R$ on $\mathfrak{h}^*$ is given by
 
-$_''$ 1 $''$
+$''$ 1 $''$
 
 $$
 \Phi_R(\xi_1\varepsilon_1+\cdots +\xi_l\varepsilon_l, \xi_1\varepsilon_1+\cdots +\xi_l\varepsilon_l) =(\xi_1\xi +\cdots +\xi_l\xi )

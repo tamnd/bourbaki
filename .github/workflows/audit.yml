@@ -74,6 +74,14 @@ jobs:
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: go run ./cmd/bourbaki assemble -book alg-viii-fr -lang fr -check
+      # A volume that is not checked is a volume that goes stale, which the
+      # French printing found out the hard way, so a volume is added here on the
+      # same commit that adds its content.
+      - name: assemble -check, Lie 7 to 9
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki assemble -book lie-vii-ix -check
       - name: tags verify
         working-directory: .solver
         env:

@@ -14,15 +14,15 @@ Audited: 4 chapters, 61 sections, 668 exercises, 2873 extracted pages, 2060 tags
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (134) |
-| mathematics | 6 | 2 | 1 | M06 (1), M09 (69) |
+| mathematics | 6 | 2 | 1 | M06 (1), M09 (68) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
 | translation | 8 | 2 | 1 | L08 (1) |
 | solutions | 0 | 4 | 0 | none |
-| publication | 0 | 1 | 0 | P04 (88) |
+| publication | 0 | 1 | 0 | P04 (74) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 293 soft, over 56 rules that ran and 3 that could not.
+0 hard findings and 278 soft, over 56 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -41,7 +41,7 @@ Soft, mathematics.
 
 - `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.29 displays a page over 17 pages, against a mean of 1.23 and a sigma of 1.28
 
-## M09 no base carries two superscripts or two subscripts (69)
+## M09 no base carries two superscripts or two subscripts (68)
 
 Soft, mathematics.
 
@@ -71,9 +71,9 @@ Soft, mathematics.
 - `content/en/lie/IX/exercises/s2/08.md:29` two of one script against one base, which TeX will not set: ^-_G^1
 - `content/en/lie/IX/exercises/s6/01.md:25` two of one script against one base, which TeX will not set: _{N!}^1_{w\in W(R)}
 
-and 44 more, which `bourbaki audit -only M09` prints in full.
+and 43 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (88)
+## P04 every math span parses under KaTeX (74)
 
 Soft, publication.
 
@@ -103,7 +103,7 @@ Soft, publication.
 - `content/en/lie/IX/exercises/s6/01.md:25` KaTeX will not set it: Double subscript at position 11: P =_{N!}^1_̲{w\in W(R)}\var…: P =_{N!}^1_{w\in W(R)}\varepsilon (w)(w\rho )^N\pr…
 - `content/en/lie/IX/exercises/s6/02.md:27` KaTeX will not set it: Double subscript at position 45: …=1}^{n\partial}_̲{\partial x^2}^…: \int\Delta (P) =^1_{2i}\sum_{=1}^{n\partial}_{\par…
 
-and 63 more, which `bourbaki audit -only P04` prints in full.
+and 49 more, which `bourbaki audit -only P04` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (134)
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 91
 statements: 28
 exercises: 12
-content_sha256: 0a27c652dcb2dcfa9c6f60e008337995a82cd56f4c24d7a7dfb9a855f08233d0
+content_sha256: a12e1c7cb7c7a3a6e46de6301d5a96e4545ddc5bdb73879740536e5f3622bd97
 ---
 
 ## § 2. ROOT SYSTEM OF A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -288,7 +288,7 @@ Let $\alpha \in R$, let $X_{\alpha}$ be a non-zero element of $\mathfrak{g}^{\al
 
 Let $(\mathfrak{g},\mathfrak{h})$ be a split semi-simple Lie algebra, $\Phi$ a non-degenerate invariant symmetric bilinear form on $\mathfrak{g}$. For all $\alpha \in R$, let $X_{\alpha}$ be a non-zero element of $\mathfrak{g}^{\alpha}$. Let $(H_i)_{i\in I}$ be a basis of $\mathfrak{h}$, and $(H_i')_{i\in I}$ the basis of $\mathfrak{h}$ such that $\Phi (H_i, H_j') =\delta_{ij}$. The Casimir element associated to $\Phi$ in the enveloping algebra of $\mathfrak{g}$ (Chap. I, §3, no. 7) is then
 
-$\sum$ 1 $\sum_'$
+$\sum$ 1 $\sum'$
 
 $$
 X_{\alpha}X_{-\alpha}+H_iH_i

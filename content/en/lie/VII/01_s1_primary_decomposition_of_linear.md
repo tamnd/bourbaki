@@ -33,7 +33,7 @@ subsections:
       pdf_page: 21
 statements: 25
 exercises: 11
-content_sha256: 647ecccac97e15b21cc3a7269107dcffafcd732e9645c17d56822c42c8b72411
+content_sha256: 09898f932e7af43c3ba71ebd9b9d269ef703cbf486bbdb00b0b707f570da4978
 ---
 
 ## § 1. PRIMARY DECOMPOSITION OF LINEAR REPRESENTATIONS
@@ -107,7 +107,7 @@ $$
 for $s\in S,v\in V,v'\in V'$, hence by induction on $n$
 
 $$
-_'\sum(n)_''
+'\sum(n)''
 $$
 
 $(q(s)-\lambda (s)-\mu(s))^nB(v, v) =B((r(s)-\lambda (s))^iv,(r(s)-\mu(s))^jv)$.
@@ -148,7 +148,7 @@ $P(r(s))v_0=\sum_{i=1}^nP(r(s))v_i= 0$. Since P and Q are relatively prime, the 
 
 $c) S$ is finite and non-empty. We argue by induction on the cardinal of S. Let $s\in S$ and $S'= S$**--**$\sum\{s\}$. Let $(v_{\lambda})_{\lambda\in P}$ be a finitely-supported family of elements of V such that $v_{\lambda}= 0$ and $v_{\lambda}\in V^{\lambda}(S)$. Let $\lambda_0\in P$. Let $P'$ be the set of $\lambda \in P$ such that$\sum^{\lambda\in}\lambda^P|S'=\lambda_0|S'$. By the induction hypothesis applied to $S'$, we have $v_{\lambda}= 0$. If $\lambda , \mu$ are distinct elements of $P',\lambda (s)\not=\mu(s)$.
 
-Since the sum $_{\alpha}\sum^{\lambda\in P}_{\in k}V^'^{\alpha}(s)$ is direct by $b)$, and since $v_{\lambda}\in V^{\lambda(s)}(s),v_{\lambda}= 0$ for all $\lambda \in P'$, and in particular $v_{\lambda_0}= 0$, which we had to prove.
+Since the sum $_{\alpha}\sum^{\lambda\in P}_{\in k}{V'}^{\alpha}(s)$ is direct by $b)$, and since $v_{\lambda}\in V^{\lambda(s)}(s),v_{\lambda}= 0$ for all $\lambda \in P'$, and in particular $v_{\lambda_0}= 0$, which we had to prove.
 
 $d)$ General case$\sum$ . Let $(v_{\lambda})_{\lambda\in P}$ be a finitely-supported family of elements of V such that $_{\lambda\in P}v_{\lambda}= 0$ and $v_{\lambda}\in V^{\lambda}(S)$. Let $P'$ be the finite set of $\lambda \in P$ such that $v_{\lambda}\not= 0$, and let $S'$ be a finite subset of S such that the conditions $\lambda \in P'$, $\mu\in P',\lambda |S'=\mu|S'$ imply that $\lambda =\mu$. We have $v_{\lambda}\in V^{\lambda|S'}(S')$; applying $c)$, we see that $v_{\lambda}= 0$ for $\lambda \in P'$, which completes the proof.
 

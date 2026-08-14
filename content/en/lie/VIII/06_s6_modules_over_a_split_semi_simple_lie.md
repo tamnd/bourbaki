@@ -29,7 +29,7 @@ subsections:
       pdf_page: 130
 statements: 17
 exercises: 5
-content_sha256: 1662a9a519abb41f92c82bca01c97493bb4cd95933fe4b77a4d54b9d84751056
+content_sha256: ae93e953b3448cf4eeb0f4f3fb892dbe9898aed4400e5c8059189b26c10e49d6
 ---
 
 ## § 6. MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -370,7 +370,7 @@ $$
 _{\alpha\in R_-}\langle X_{\alpha}, X_{-\alpha}\rangle \alpha_{\in R_+}\langle X_{\alpha}, X_{-\alpha}\rangle
 $$
 
-$\sum$ 1 $\sum_'$
+$\sum$ 1 $\sum'$
 
 + $[X_{\alpha}, X_{-\alpha}] +H_iH$
 
@@ -380,7 +380,7 @@ $$
 
 so
 
-$\sum$ 1 $\sum_'$
+$\sum$ 1 $\sum'$
 
 $$
 \varphi (C) =[X_{\alpha}, X_{-\alpha}] +H_iH
@@ -392,7 +392,7 @@ $$
 
 By Prop. 7,
 
-$\sum$ 1 $\sum_'$
+$\sum$ 1 $\sum'$
 
 $$
 \chi (C) =\lambda ([X_{\alpha}, X_{-\alpha}]) +\lambda (H_i)\lambda (H)

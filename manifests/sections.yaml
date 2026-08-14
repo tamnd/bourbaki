@@ -640,7 +640,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: 7649d578ec5a544e6d7892b3eb418b8c4a13a4c62fc9a237f1005dc8aaabec3c
+              content_sha256: d3cbabdc4a49112866d0acb075981e8dbf7f3d490f9b96e3bdff0cf2ea34c648
             - kind: appendix
               section: 1
               title: Algèbres sans élément unité
@@ -732,7 +732,7 @@ books:
               statements: 25
               exercises: 11
               extraction: native
-              content_sha256: 647ecccac97e15b21cc3a7269107dcffafcd732e9645c17d56822c42c8b72411
+              content_sha256: 09898f932e7af43c3ba71ebd9b9d269ef703cbf486bbdb00b0b707f570da4978
             - kind: section
               section: 2
               title: Cartan subalgebras and regular elements of a Lie algebra
@@ -771,7 +771,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: 3bd2efb10e67a61e3ea35262a627a000b0ba8ae119c5370bffe9a408d69f5736
+              content_sha256: d669868c18876c245ddaebdd98d5fe3a60834173d02a3044e84e61ddb556a7c6
             - kind: section
               section: 5
               title: Decomposable linear Lie algebras
@@ -837,7 +837,7 @@ books:
               statements: 23
               exercises: 18
               extraction: native+ocr
-              content_sha256: e48e4fb5e438d627a5a9bf8c1e6eb2359370d2cdde66430024b916d28a13a42c
+              content_sha256: 4a04257697e30a7398c3056e7eaf098ac05f716498deb344adeae5b04020c4bd
             - kind: section
               section: 2
               title: Root system of a split semi-simple Lie algebra
@@ -850,7 +850,7 @@ books:
               statements: 28
               exercises: 12
               extraction: native
-              content_sha256: 0a27c652dcb2dcfa9c6f60e008337995a82cd56f4c24d7a7dfb9a855f08233d0
+              content_sha256: a12e1c7cb7c7a3a6e46de6301d5a96e4545ddc5bdb73879740536e5f3622bd97
             - kind: section
               section: 3
               title: Subalgebras of split semi-simple Lie algebras
@@ -902,7 +902,7 @@ books:
               statements: 17
               exercises: 5
               extraction: native
-              content_sha256: 1662a9a519abb41f92c82bca01c97493bb4cd95933fe4b77a4d54b9d84751056
+              content_sha256: ae93e953b3448cf4eeb0f4f3fb892dbe9898aed4400e5c8059189b26c10e49d6
             - kind: section
               section: 7
               title: Finite dimensional modules over a split semi-simple Lie algebra
@@ -993,7 +993,7 @@ books:
               statements: 2
               exercises: 19
               extraction: native+ocr
-              content_sha256: 6b1e44fe82e61bbaf1b9db41dca710bffa5359d162c1477eec17e38edc9eef7c
+              content_sha256: ed1457f69c0afb4030e84f61ce6ffb0da2f4ea41ea0d739b93a267cd58c46f87
         - chapter: IX
           title: COMPACT REAL LIE GROUPS
           sections:
