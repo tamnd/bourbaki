@@ -37,7 +37,7 @@ subsections:
       pdf_page: 94
 statements: 37
 exercises: 19
-content_sha256: c9e9120986305700fdf16b43f31ae23f7e2dcc7b5022b4c947c5783a982b30d4
+content_sha256: 3dc210a10bb179ccf2a23b0b2f6bfe005a1cb81ff19c49b92d1acb8a0478fcbb
 ---
 
 ## § 5. COMMUTATION
@@ -266,7 +266,7 @@ Considérons le A-module $M =\prod_{i\in I}S_i$. Comme I est fini, on a aussi $M
 
 Ce corollaire s’applique en particulier lorsque A est une algèbre sur un corps commutatif K et que chacun des $S_i$ est un A-module simple, de dimension finie comme K-espace vectoriel : en effet, $D_i$ contient alors les homothéties $\alpha_{S_i}$, où $\alpha$ parcourt K, et $S_i$ est de dimension finie sur $D_i$ puisqu’il l’est sur K.
 
-#### Corollaire 2 {#alg-viii-s5-prop-4-cor-2 .statement tag=00S0}
+#### Corollaire 2 (Théorème de Burnside) {#alg-viii-s5-prop-4-cor-2 .statement tag=00S0}
 
 Soit A une algèbre sur un corps commutatif algébriquement clos K, et soit S un A-module simple, de dimension finie comme espace vectoriel sur K. Alors l’application $a\rightarrow a_S$ de A dans End$_K(S)$est surjective.
 
@@ -364,7 +364,7 @@ Comme M est un espace vectoriel de dimension finie sur K, somme directe de la fa
 
 ### 5. Théorème de densité
 
-#### Théorème 3 {#alg-viii-s5-thm-3 .statement tag=00S1}
+#### Théorème 3 (Jacobson) {#alg-viii-s5-thm-3 .statement tag=00S1}
 
 Soit M un A-module semi-simple et soit $c$ un endomorphisme du groupe additif de M. Pour que $c$ appartienne au bicommutant $A''_M$ de M, il faut et il suffit qu’il satisfasse à la condition suivante :
 

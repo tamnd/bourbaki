@@ -29,7 +29,7 @@ subsections:
       pdf_page: 130
 statements: 24
 exercises: 16
-content_sha256: 0b765aceec1975921927fb863708eb2d8f4fecbeb153b3919c0ec1521581e092
+content_sha256: b72c918f126c4b4d2cd5d6b619af8ff04f06dc17e2232d98a8287e35038e3263
 ---
 
 ## § 7. ANNEAUX SIMPLES
@@ -76,7 +76,7 @@ Par conséquent, compte tenu de la condition (ii) de la prop. 1, les anneaux sim
 
 ☡ On dit parfois qu’un anneau A est quasi-simple s’il n’est pas réduit à 0 et si ses seuls idéaux bilatères sont 0 et A. On dit que A est primitif s’il possède un module simple et fidèle. D’après la prop. 1, tout anneau simple est quasi-simple. Comme tout anneau non réduit à 0 possède un module simple et que l’annulateur d’un module simple est un idéal bilatère, on voit que tout anneau quasi-simple est primitif. Cependant, il existe des anneaux quasi-simples qui ne sont pas simples, et des anneaux primitifs qui ne sont pas quasi-simples (VIII, p. 124, exerc. 2) ; de tels anneaux ne sont pas artiniens à gauche.
 
-#### Théorème 1 {#alg-viii-s7-thm-1 .statement tag=00S3}
+#### Théorème 1 (Wedderburn) {#alg-viii-s7-thm-1 .statement tag=00S3}
 
 Pour qu’un anneau soit simple, il faut et il suffit qu’il soit isomorphe à un anneau de matrices $\mathbf{M}_r(D)$, où $r\geqslant 1$est un entier et D un corps.
 

@@ -31,7 +31,7 @@ subsections:
       pdf_page: 459
 statements: 20
 exercises: 15
-content_sha256: 958695ae012e636e59595b07b3722e3e1437026f9d5a402eaf7773065e45074d
+content_sha256: bc01a7c8de4d29020aa27c809b1cac71a8e09930d921d035eba6f8cf50ecca9e
 ---
 
 ## APPENDIX 1 ALGEBRAS WITHOUT UNIT ELEMENT
@@ -216,7 +216,7 @@ Let M be a semisimple left A-pseudomodule, and let $x$ be an element of M. There
 
 Let N be the left A-pseudomodule $\widetilde{A}x/Ax$. It satisfies AN $=\{0\}$. By Corollary 3 of VIII, p. 56 applied to the $\widetilde{A}$-modules M and $\widetilde{A}x$, the A-pseudomodule N is semisimple. By definition, every simple sub-pseudomodule S of N satisfies AS $\not=\{0\}$. Consequently, the pseudomodule N is zero, and we obtain that $x\in Ax$.
 
-#### Theorem 1 {#alg-viii-a1-thm-1 .statement tag=00SD}
+#### Theorem 1 (Jacobson’s density theorem) {#alg-viii-a1-thm-1 .statement tag=00SD}
 
 Let M be a semisimple left A-pseudomodule. Let $b$ be an element of the bicommutant of the $\widetilde{A}$-module M. Let $F =\{x_1, . . . , x_n\}$ be a finite subset of M. Then there exists an element $a\in A$ such that $bx_i=ax_i$ for every $i\in [1, n]$.
 

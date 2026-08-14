@@ -29,7 +29,7 @@ subsections:
       pdf_page: 20
 statements: 36
 exercises: 28
-content_sha256: b5b8edbc7c774dd1982514cec915da3970268cb02796033d65a1d739d18edeca
+content_sha256: 2b08bf5d172d32adbe9fb5702b2f948e3152a8025e0501c9e93de6eefe5eac90
 ---
 
 ## § 1. MODULES ARTINIENS ET MODULES NOETHÉRIENS
@@ -378,7 +378,7 @@ Ainsi, $\mathfrak{b}$ est égal à $\mathfrak{c}$; c’est donc un idéal de typ
 
 Si l’endomorphisme $\sigma$ de l’anneau A n’est pas un automorphisme, l’anneau $A[X]_{\sigma ,d}$ n’est pas nécessairement noethérien à gauche, même lorsque A est un anneau commutatif noethérien (VIII, p. 21, exerc. 26).
 
-#### Corollaire 1 {#alg-viii-s1-thm-2-cor-1 .statement tag=00RW}
+#### Corollaire 1 (Hilbert) {#alg-viii-s1-thm-2-cor-1 .statement tag=00RW}
 
 Soit A un anneau commutatif et noethérien. Pour tout entier $n\geqslant 0$, l’algèbre de polynômes $A[X_1, . . . ,X_n]$est un anneau noethérien.
 

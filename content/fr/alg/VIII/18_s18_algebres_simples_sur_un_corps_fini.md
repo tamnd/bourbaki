@@ -21,14 +21,14 @@ subsections:
       pdf_page: 351
 statements: 10
 exercises: 7
-content_sha256: 19d7b2552974dbc633d8e8cb4ddbcf0a72c831c8eaa08af7f8343da0df5e7cbc
+content_sha256: 843a3069858897a275212a1758a95f1eb0f8c287b92443c15f26d765a9bb6652
 ---
 
 ## § 18. ALGÈBRES SIMPLES SUR UN CORPS FINI
 
 ### 1. Polynômes sur un corps fini
 
-#### Théorème 1 {#alg-viii-s18-thm-1 .statement tag=00SA}
+#### Théorème 1 (Chevalley-Warning) {#alg-viii-s18-thm-1 .statement tag=00SA}
 
 Soit K un corps commutatif fini, de caractéristique $p$. Soient $n$ un entier $\geqslant 1$et $(f_i)_{i\in I}$ une famille finie d’éléments non nuls de $K[X_1, . . . ,X_n]$. Notons Z l’ensemble des éléments $\mathbf{x}$de $K^n$ tels que l’on ait $f_i(\mathbf{x}) = 0$ pour $i\in I$. Si l’on a $n >\sum_{i\in I}$ deg($f_i$), le cardinal de Z est divisible par $p$.
 
@@ -90,7 +90,7 @@ Soit $(e_1, . . . , e_n)$ une base de V sur K. Par définition des applications 
 
 ### 2. Algèbres simples sur un corps fini
 
-#### Théorème 2 {#alg-viii-s18-thm-2 .statement tag=00SB}
+#### Théorème 2 (Wedderburn) {#alg-viii-s18-thm-2 .statement tag=00SB}
 
 Tout corps fini est commutatif.
 

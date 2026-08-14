@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: fe6b81bdd379a05c360e53c28e74eb95c0ad2435e419722f77f003b2c71fa76f
+content_sha256: 948b9c12167d638d59551289e0175d3b8b39effc06c957faddbdcd476e509d48
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -754,7 +754,7 @@ Le B-module $f^*(S)$ est semi-simple et de type fini, donc de longueur finie. D�
 
 Or, on a défini en II, p. 82 (formule 2 et remarque 2) une bijection E-linéaire de Hom$_A(S, f_*(T))$ sur Hom$_B(f^*(S),T)$. L’assertion b) résulte alors de la formule (20).
 
-#### Corollaire {#alg-viii-s11-n11-cor-1 .statement tag=00S7}
+#### Corollaire (Réciprocité de Frobenius) {#alg-viii-s11-n11-cor-1 .statement tag=00S7}
 
 Supposons que A et B soient des algèbres semi-simples de dimension finie sur un corps commutatif K et que $f$ soit K-linéaire. Alors les K-espaces vectoriels S, T, D, E et H sont de dimension finie, et l’on a les égalités
 

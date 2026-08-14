@@ -1,6 +1,6 @@
 {
   "version": "dev",
-  "commit": "cc4f38e7ffaa55c5613cf1013f1fc8337b9c5e32",
+  "commit": "d646fd73142c89cd035d2d7512040fd8c6305fd8",
   "root": "/Users/apple/github/tamnd/bourbaki",
   "langs": [
     "en",
@@ -8,7 +8,7 @@
     "vi"
   ],
   "hard": 0,
-  "soft": 247,
+  "soft": 400,
   "checks": [
     {
       "id": "F01",
@@ -163,14 +163,14 @@
       "group": "mathematics",
       "hard": false,
       "title": "no base carries two superscripts or two subscripts",
-      "found": 56
+      "found": 134
     },
     {
       "id": "P04",
       "group": "publication",
       "hard": false,
       "title": "every math span parses under KaTeX",
-      "found": 55
+      "found": 130
     },
     {
       "id": "R01",
@@ -885,6 +885,630 @@
       "message": "two of one script against one base, which TeX will not set: ^(_s^{\\mathbf{N})}"
     },
     {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 301,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 301,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 339,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 787,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 791,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 791,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 793,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 793,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 795,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/02_s2_applications_etales.md",
+      "line": 281,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/02_s2_applications_etales.md",
+      "line": 285,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/03_s3_faisceaux.md",
+      "line": 485,
+      "message": "two of one script against one base, which TeX will not set: _v^{u_*}_{\\mathscr{G}}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/03_s3_faisceaux.md",
+      "line": 487,
+      "message": "two of one script against one base, which TeX will not set: _v^{u_*}_{\\mathscr{G}}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/04_s4_revetements.md",
+      "line": 587,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/I/06_s6_espaces_simplement_connexes.md",
+      "line": 789,
+      "message": "two of one script against one base, which TeX will not set: ^1_{1 0}^{-1}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/II/04_s4_homotopies.md",
+      "line": 309,
+      "message": "two of one script against one base, which TeX will not set: ^v_{v\\circ}^{\\circ\\varphi}_{\\psi}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/II/05_s5_coegalisateur.md",
+      "line": 323,
+      "message": "two of one script against one base, which TeX will not set: _{\\varphi}^{-_01}_{(j_k)}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/II/05_s5_coegalisateur.md",
+      "line": 327,
+      "message": "two of one script against one base, which TeX will not set: _{\\psi}^{-_01}_{(j_k)}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/II/05_s5_coegalisateur.md",
+      "line": 341,
+      "message": "two of one script against one base, which TeX will not set: _{\\varphi}^{-_01}_{(j_k)}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/II/05_s5_coegalisateur.md",
+      "line": 411,
+      "message": "two of one script against one base, which TeX will not set: _{\\psi}^{-_01}_{(j)}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/III/01_s1_homotopies_homeotopies.md",
+      "line": 351,
+      "message": "two of one script against one base, which TeX will not set: ^-_f^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/III/02_s2_homotopie_et_chemins.md",
+      "line": 459,
+      "message": "two of one script against one base, which TeX will not set: ^2'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/III/02_s2_homotopie_et_chemins.md",
+      "line": 461,
+      "message": "two of one script against one base, which TeX will not set: ^2'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/III/02_s2_homotopie_et_chemins.md",
+      "line": 463,
+      "message": "two of one script against one base, which TeX will not set: ^2'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/III/02_s2_homotopie_et_chemins.md",
+      "line": 465,
+      "message": "two of one script against one base, which TeX will not set: ^2'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/IV/02_s2_groupes_de_poincare_des_espaces.md",
+      "line": 231,
+      "message": "two of one script against one base, which TeX will not set: ^-_V^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/IV/02_s2_groupes_de_poincare_des_espaces.md",
+      "line": 233,
+      "message": "two of one script against one base, which TeX will not set: ^-_V^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/IV/04_s4_theorie_de_la_descente.md",
+      "line": 275,
+      "message": "two of one script against one base, which TeX will not set: ^-''"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/IV/04_s4_theorie_de_la_descente.md",
+      "line": 275,
+      "message": "two of one script against one base, which TeX will not set: ^1'"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/IV/06_s6_espaces_classifiants.md",
+      "line": 907,
+      "message": "two of one script against one base, which TeX will not set: _{i,}^i_2"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/IV/06_s6_espaces_classifiants.md",
+      "line": 907,
+      "message": "two of one script against one base, which TeX will not set: _{i,}^i_2"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/IV/06_s6_espaces_classifiants.md",
+      "line": 907,
+      "message": "two of one script against one base, which TeX will not set: _{i,}^i_2"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/IV/06_s6_espaces_classifiants.md",
+      "line": 1045,
+      "message": "two of one script against one base, which TeX will not set: ^-_n^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/IV/06_s6_espaces_classifiants.md",
+      "line": 1045,
+      "message": "two of one script against one base, which TeX will not set: ^-_1^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ta/IV/06_s6_espaces_classifiants.md",
+      "line": 1045,
+      "message": "two of one script against one base, which TeX will not set: ^-_{n-}^1_1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 263,
+      "message": "two of one script against one base, which TeX will not set: _n^{\\rightarrow}_+^{\\infty}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 273,
+      "message": "two of one script against one base, which TeX will not set: ^1_1^{/n}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 273,
+      "message": "two of one script against one base, which TeX will not set: ^1_1^{/n}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 277,
+      "message": "two of one script against one base, which TeX will not set: ^1_1^{/n}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 289,
+      "message": "two of one script against one base, which TeX will not set: ^1_1^{/n}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 295,
+      "message": "two of one script against one base, which TeX will not set: ^1_1^{/n}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 295,
+      "message": "two of one script against one base, which TeX will not set: ^1_1^{/n}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/04_s4_calcul_fonctionnel_holomorphe.md",
+      "line": 1605,
+      "message": "two of one script against one base, which TeX will not set: ^{P(}_{Q(}^z_z^)_)"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 887,
+      "message": "two of one script against one base, which TeX will not set: ^\u003c_+^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 929,
+      "message": "two of one script against one base, which TeX will not set: ^\u003c_+^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 935,
+      "message": "two of one script against one base, which TeX will not set: ^\u003c_+^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 935,
+      "message": "two of one script against one base, which TeX will not set: ^\u003c_+^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 935,
+      "message": "two of one script against one base, which TeX will not set: ^\u003c_+^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 937,
+      "message": "two of one script against one base, which TeX will not set: ^\u003c_+^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 937,
+      "message": "two of one script against one base, which TeX will not set: ^\u003c_+^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 939,
+      "message": "two of one script against one base, which TeX will not set: ^\u003c_+^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 941,
+      "message": "two of one script against one base, which TeX will not set: ^\u003c_+^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/I/exercises/s6/23.md",
+      "line": 23,
+      "message": "two of one script against one base, which TeX will not set: ^{\\leqslant}_+^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/II/03_s3_sous_espaces_invariants.md",
+      "line": 227,
+      "message": "two of one script against one base, which TeX will not set: ^{\\eta}_4^2"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/II/exercises/s1/33.md",
+      "line": 71,
+      "message": "two of one script against one base, which TeX will not set: ^2_p^{p-2}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/III/02_s2_exemples_d_applications_lineaires.md",
+      "line": 277,
+      "message": "two of one script against one base, which TeX will not set: _L^{q_p''}_{(X)}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/III/02_s2_exemples_d_applications_lineaires.md",
+      "line": 293,
+      "message": "two of one script against one base, which TeX will not set: _L^{p_p''}_{(X)}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 67,
+      "message": "two of one script against one base, which TeX will not set: ^u_{0 0^1}^0"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 67,
+      "message": "two of one script against one base, which TeX will not set: ^{u^-_1}_{0^1}^0_0"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 133,
+      "message": "two of one script against one base, which TeX will not set: ^{\\alpha}_{0 0^0}^0"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 137,
+      "message": "two of one script against one base, which TeX will not set: ^-_0^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 137,
+      "message": "two of one script against one base, which TeX will not set: ^{\\alpha^{-1}-}_0^{\\alpha^-_0^10}_0"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 143,
+      "message": "two of one script against one base, which TeX will not set: ^{\\alpha}_{0 0}^0"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 143,
+      "message": "two of one script against one base, which TeX will not set: ^{\\alpha^-_0}_{0^1}^0_0"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 143,
+      "message": "two of one script against one base, which TeX will not set: ^{\\alpha^-}_{0^1}^0_0"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/III/exercises/s1/09.md",
+      "line": 27,
+      "message": "two of one script against one base, which TeX will not set: ^2_{2^n}^k"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/IV/03_s3_distributions_et_distributions_temperees.md",
+      "line": 1125,
+      "message": "two of one script against one base, which TeX will not set: ^0_0^{,p}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/IV/05_s5_operateurs_partiels_normaux_et_theoreme.md",
+      "line": 1663,
+      "message": "two of one script against one base, which TeX will not set: _n^u_{+1}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/IV/05_s5_operateurs_partiels_normaux_et_theoreme.md",
+      "line": 1699,
+      "message": "two of one script against one base, which TeX will not set: _n^u_{+1}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/IV/exercises/s3/18.md",
+      "line": 27,
+      "message": "two of one script against one base, which TeX will not set: ^-_K^1"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/IV/exercises/s3/25.md",
+      "line": 25,
+      "message": "two of one script against one base, which TeX will not set: _L'_{_1}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/IV/exercises/s3/25.md",
+      "line": 27,
+      "message": "two of one script against one base, which TeX will not set: _L'_{_1}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/IV/exercises/s3/25.md",
+      "line": 35,
+      "message": "two of one script against one base, which TeX will not set: _L'_{_1}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/IV/exercises/s3/25.md",
+      "line": 35,
+      "message": "two of one script against one base, which TeX will not set: _L'_{_1}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/V/01_s1_representations_unitaires.md",
+      "line": 365,
+      "message": "two of one script against one base, which TeX will not set: ^G_G^{\\times}_{\\times \\{}^H_{e\\}}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/V/02_s2_representations_des_groupes_localement.md",
+      "line": 741,
+      "message": "two of one script against one base, which TeX will not set: ^G_G^/_/^Z_Z"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/V/03_s3_fonctions_de_type_positif.md",
+      "line": 571,
+      "message": "two of one script against one base, which TeX will not set: ^1_1^{/2}"
+    },
+    {
+      "check": "M09",
+      "group": "mathematics",
+      "hard": false,
+      "file": "content/fr/ts/V/03_s3_fonctions_de_type_positif.md",
+      "line": 571,
+      "message": "two of one script against one base, which TeX will not set: ^1_2^{/2}"
+    },
+    {
       "check": "P04",
       "group": "publication",
       "hard": false,
@@ -1323,6 +1947,606 @@
       "file": "content/fr/alg/VIII/exercises/s6/05.md",
       "line": 15,
       "message": "KaTeX will not set it: Double superscript at position 9: _A(A^(_s^̲{\\mathbf{N})})\\…: _A(A^(_s^{\\mathbf{N})})\\rightarrow"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 301,
+      "message": "KaTeX will not set it: Double superscript at position 12: X'_0=(^-p^1'̲)(B'_0)\\cap (^-…: X'_0=(^-p^1')(B'_0)\\cap (^-f^1')(X_0)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 339,
+      "message": "KaTeX will not set it: Double superscript at position 22: …}\\subset (^-f^1'̲)(X_b): X'_{b'}\\subset (^-f^1')(X_b)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 787,
+      "message": "KaTeX will not set it: Double superscript at position 11: \np'((^-f^1'̲)(A)) =^-f^1(p(…: p'((^-f^1')(A)) =^-f^1(p(A)) \\tag{20}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 791,
+      "message": "KaTeX will not set it: Double superscript at position 13: x'\\in (^-f^1'̲)(A): x'\\in (^-f^1')(A)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 791,
+      "message": "KaTeX will not set it: Double superscript at position 16: b'\\in p'((^-f^1'̲)(A)): b'\\in p'((^-f^1')(A))"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 793,
+      "message": "KaTeX will not set it: Double superscript at position 7: (^-f^1'̲)(A): (^-f^1')(A)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 793,
+      "message": "KaTeX will not set it: Double superscript at position 10: p'((^-f^1'̲)(A)): p'((^-f^1')(A))"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md",
+      "line": 795,
+      "message": "KaTeX will not set it: Double superscript at position 12: f(p'((^-f^1'̲)(A))): f(p'((^-f^1')(A)))"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/02_s2_applications_etales.md",
+      "line": 281,
+      "message": "KaTeX will not set it: Double superscript at position 7: (^-f^1'̲)(U): (^-f^1')(U)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/02_s2_applications_etales.md",
+      "line": 285,
+      "message": "KaTeX will not set it: Double superscript at position 7: (^-f^1'̲)(U): (^-f^1')(U)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/03_s3_faisceaux.md",
+      "line": 485,
+      "message": "KaTeX will not set it: Double subscript at position 18: …*(\\beta_v^{u_*}_̲{\\mathscr{G}})(…: v_*(\\beta_v^{u_*}_{\\mathscr{G}})(\\beta^v_{\\mathscr…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/03_s3_faisceaux.md",
+      "line": 487,
+      "message": "KaTeX will not set it: Double subscript at position 40: …*(\\beta_v^{u_*}_̲{\\mathscr{G}})\\…: \\beta_{\\mathscr{G}}^w=v_*(\\beta_v^{u_*}_{\\mathscr{…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/04_s4_revetements.md",
+      "line": 587,
+      "message": "KaTeX will not set it: Double superscript at position 29: …ghtarrow (^-p^1'̲)(U): f:^-p^1(U)\\rightarrow (^-p^1')(U)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/I/06_s6_espaces_simplement_connexes.md",
+      "line": 789,
+      "message": "KaTeX will not set it: Double superscript at position 9: ^1_{1 0}^̲{-1}: ^1_{1 0}^{-1}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/II/04_s4_homotopies.md",
+      "line": 309,
+      "message": "KaTeX will not set it: Double superscript at position 12: ^v_{v\\circ}^̲{\\circ\\varphi}_…: ^v_{v\\circ}^{\\circ\\varphi}_{\\psi}G'{H'}^{\\varphi}_…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/II/05_s5_coegalisateur.md",
+      "line": 323,
+      "message": "KaTeX will not set it: Double subscript at position 90: …\\varphi}^{-_01}_̲{(j_k)}\\cdot\n: = (\\alpha \\circ \\varphi )(f_k)\\cdot (\\alpha \\circ …"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/II/05_s5_coegalisateur.md",
+      "line": 327,
+      "message": "KaTeX will not set it: Double subscript at position 74: …a_{\\psi}^{-_01}_̲{(j_k)}\\cdot\n: \\cdot \\delta_{\\varphi_0(j_k)}\\cdot \\tau_0(j_k)\\cdo…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/II/05_s5_coegalisateur.md",
+      "line": 341,
+      "message": "KaTeX will not set it: Double subscript at position 64: …\\varphi}^{-_01}_̲{(j_k)}: u_k=\\alpha (\\varphi (f_k)c_1(j_k))\\cdot \\delta_{\\v…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/II/05_s5_coegalisateur.md",
+      "line": 411,
+      "message": "KaTeX will not set it: Double subscript at position 63: …a_{\\psi}^{-_01}_̲{(j)}: \\lambda (j) =\\delta_{\\varphi_0(j)}\\tau (j)\\delta_{…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/III/01_s1_homotopies_homeotopies.md",
+      "line": 351,
+      "message": "KaTeX will not set it: Double superscript at position 11: \\alpha^-_f^̲1(P) =^-f^1(y)\\…: \\alpha^-_f^1(P) =^-f^1(y)\\times \\{1\\}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/III/02_s2_homotopie_et_chemins.md",
+      "line": 459,
+      "message": "KaTeX will not set it: Double superscript at position 4: V^2'̲\\subset V: V^2'\\subset V"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/III/02_s2_homotopie_et_chemins.md",
+      "line": 461,
+      "message": "KaTeX will not set it: Double superscript at position 4: U^2'̲\\subset U: U^2'\\subset U"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/III/02_s2_homotopie_et_chemins.md",
+      "line": 463,
+      "message": "KaTeX will not set it: Double superscript at position 9: z\\in U^2'̲(x): z\\in U^2'(x)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/III/02_s2_homotopie_et_chemins.md",
+      "line": 465,
+      "message": "KaTeX will not set it: Double superscript at position 12: f(y)\\in V^2'̲(f(x)): f(y)\\in V^2'(f(x))"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/III/03_s3_groupoide_de_poincare.md",
+      "line": 175,
+      "message": "KaTeX will not set it: Undefined control sequence: \\mapstochar at position 7: (c, d)\\̲m̲a̲p̲s̲t̲o̲c̲h̲a̲r̲ ̲\\rightarrow c*d: (c, d)\\mapstochar \\rightarrow c*d"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/IV/02_s2_groupes_de_poincare_des_espaces.md",
+      "line": 231,
+      "message": "KaTeX will not set it: Double superscript at position 34: …{V'}\\circ h^-_V^̲1(x, t): h_{V',V}(x, t) =h_{V'}\\circ h^-_V^1(x, t)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/IV/02_s2_groupes_de_poincare_des_espaces.md",
+      "line": 233,
+      "message": "KaTeX will not set it: Double superscript at position 6: g^-_V^̲1\\circ f^*(h_V): g^-_V^1\\circ f^*(h_V)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/IV/04_s4_theorie_de_la_descente.md",
+      "line": 275,
+      "message": "KaTeX will not set it: Double superscript at position 6: ({f^-'̲'}^1)(W): ({f^-''}^1)(W)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/IV/04_s4_theorie_de_la_descente.md",
+      "line": 275,
+      "message": "KaTeX will not set it: Double superscript at position 10: W'=(^-f^1'̲)(W): W'=(^-f^1')(W)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/IV/06_s6_espaces_classifiants.md",
+      "line": 823,
+      "message": "KaTeX will not set it: Undefined control sequence: \\mapstochar at position 2: t\\̲m̲a̲p̲s̲t̲o̲c̲h̲a̲r̲ ̲\\rightarrow f\\c…: t\\mapstochar \\rightarrow f\\circ p(a, t)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/IV/06_s6_espaces_classifiants.md",
+      "line": 907,
+      "message": "KaTeX will not set it: Double subscript at position 36: …u(x^w_{s_{i,}^i_̲2}): \\mu(x_{s_{i,4}}) =\\mu(x^w_{s_{i,}^i_2})"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/IV/06_s6_espaces_classifiants.md",
+      "line": 907,
+      "message": "KaTeX will not set it: Double subscript at position 71: …}}x^u_{s_{i,}^i_̲2}): \\mu(x_{s_{i,3}}) =\\mu(x^{-u_{2i}}_{s_{i,}}x^v_{s^i…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/IV/06_s6_espaces_classifiants.md",
+      "line": 907,
+      "message": "KaTeX will not set it: Double subscript at position 65: …}}x^u_{s_{i,}^i_̲2}: x_{s_{i,3}}x^{-u_{2i}}_{s_{i,}}x^{-v_{1i}}_{s_{i,}…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ta/IV/06_s6_espaces_classifiants.md",
+      "line": 1045,
+      "message": "KaTeX will not set it: Double superscript at position 15: g(c) =x_{s^-_n^̲1s_1}x_{s^-_1^1…: g(c) =x_{s^-_n^1s_1}x_{s^-_1^1s_2}. . . x_{s^-_{n-…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 263,
+      "message": "KaTeX will not set it: Double subscript at position 57: …n^{\\rightarrow}_̲+^{\\infty}n\n: _{n\\rightarrow+\\infty}n_{m\\geqslant 1}m_n^{\\righta…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 273,
+      "message": "KaTeX will not set it: Double superscript at position 12: \\|x^n\\|^1_1^̲{/n}=: \\|x^n\\|^1_1^{/n}="
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 273,
+      "message": "KaTeX will not set it: Double superscript at position 12: \\|x^n\\|^1_1^̲{/n}: \\|x^n\\|^1_1^{/n}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 277,
+      "message": "KaTeX will not set it: Double superscript at position 12: \\|x^n\\|^1_1^̲{/n}= 0: \\|x^n\\|^1_1^{/n}= 0"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 289,
+      "message": "KaTeX will not set it: Double superscript at position 43: …ant \\|x^n\\|^1_1^̲{/n}\\leqslant b…: a^{1/n}\\|x^n\\|^{1/n}\\leqslant \\|x^n\\|^1_1^{/n}\\leq…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 295,
+      "message": "KaTeX will not set it: Double superscript at position 22: …fty}\\|x^n\\|^1_1^̲{/n}=: _{+\\infty}\\|x^n\\|^1_1^{/n}="
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/02_s2_algebres_normees.md",
+      "line": 295,
+      "message": "KaTeX will not set it: Double superscript at position 18: …n\u003e0}\\|x^n\\|^1_1^̲{/n}: _{n\u003e0}\\|x^n\\|^1_1^{/n}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/04_s4_calcul_fonctionnel_holomorphe.md",
+      "line": 1605,
+      "message": "KaTeX will not set it: Double superscript at position 11: ^{P(}_{Q(}^̲z_z^)_): ^{P(}_{Q(}^z_z^)_)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 887,
+      "message": "KaTeX will not set it: Double superscript at position 6: A^\u003c_+^̲1): A^\u003c_+^1)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 929,
+      "message": "KaTeX will not set it: Double superscript at position 6: A^\u003c_+^̲1: A^\u003c_+^1"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 935,
+      "message": "KaTeX will not set it: Double superscript at position 6: A^\u003c_+^̲1: A^\u003c_+^1"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 935,
+      "message": "KaTeX will not set it: Double superscript at position 6: A^\u003c_+^̲1: A^\u003c_+^1"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 935,
+      "message": "KaTeX will not set it: Double superscript at position 11: z\\in A^\u003c_+^̲1: z\\in A^\u003c_+^1"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 937,
+      "message": "KaTeX will not set it: Double superscript at position 6: A^\u003c_+^̲1: A^\u003c_+^1"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 937,
+      "message": "KaTeX will not set it: Double superscript at position 6: A^\u003c_+^̲1: A^\u003c_+^1"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 939,
+      "message": "KaTeX will not set it: Double superscript at position 13: e_n\\in A^\u003c_+^̲1: e_n\\in A^\u003c_+^1"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/06_s6_algebres_stellaires.md",
+      "line": 941,
+      "message": "KaTeX will not set it: Double superscript at position 11: f\\in A^\u003c_+^̲1: f\\in A^\u003c_+^1"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/I/exercises/s6/23.md",
+      "line": 23,
+      "message": "KaTeX will not set it: Double superscript at position 16: A^{\\leqslant}_+^̲1: A^{\\leqslant}_+^1"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/II/00_frontmatter.md",
+      "line": 23,
+      "message": "KaTeX will not set it: Undefined control sequence: \\mapstochar at position 2: f\\̲m̲a̲p̲s̲t̲o̲c̲h̲a̲r̲ ̲\\rightarrow \\wi…: f\\mapstochar \\rightarrow \\widetilde{f}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/II/03_s3_sous_espaces_invariants.md",
+      "line": 227,
+      "message": "KaTeX will not set it: Double superscript at position 49: …t m(V)^{\\eta}_4^̲2: \\|v-v*\\varepsilon_x\\|^2_2\\leqslant m(V)^{\\eta}_4^2"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/II/exercises/s1/33.md",
+      "line": 71,
+      "message": "KaTeX will not set it: Double superscript at position 15: \\mathbf{F}^2_p^̲{p-2}: \\mathbf{F}^2_p^{p-2}"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/III/02_s2_exemples_d_applications_lineaires.md",
+      "line": 277,
+      "message": "KaTeX will not set it: Double subscript at position 22: …cr{L}_L^{q_p''}_̲{(X)}(Y, \\nu ): \\mathscr{L}_L^{q_p''}_{(X)}(Y, \\nu )"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/III/02_s2_exemples_d_applications_lineaires.md",
+      "line": 293,
+      "message": "KaTeX will not set it: Double subscript at position 22: …cr{L}_L^{p_p''}_̲{(X)}(Y, \\nu ): \\mathscr{L}_L^{p_p''}_{(X)}(Y, \\nu )"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 67,
+      "message": "KaTeX will not set it: Double superscript at position 11: ^u_{0 0^1}^̲0: ^u_{0 0^1}^0"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 67,
+      "message": "KaTeX will not set it: Double superscript at position 15: ^{u^-_1}_{0^1}^̲0_0: ^{u^-_1}_{0^1}^0_0"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 133,
+      "message": "KaTeX will not set it: Double superscript at position 18: …\\alpha}_{0 0^0}^̲0: ^{\\alpha}_{0 0^0}^0"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 137,
+      "message": "KaTeX will not set it: Double superscript at position 36: …\\alpha^{-1}-}_0^̲{\\alpha^-_0^10}…: \\varphi (u) =v_0+^{\\alpha^{-1}-}_0^{\\alpha^-_0^10}…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md",
+      "line": 143,
+      "message": "KaTeX will not set it: Double superscript at position 26: …^{\\alpha}_{0 0}^̲0),v_0\\equiv^{\\…: u\\equiv (^{\\alpha}_{0 0}^0),v_0\\equiv^{\\alpha^-_0}…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/III/exercises/s1/09.md",
+      "line": 27,
+      "message": "KaTeX will not set it: Double superscript at position 9: ^2_{2^n}^̲k\u003c y\\leqslant^{…: ^2_{2^n}^k\u003c y\\leqslant^{2k+1_n}_2"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/IV/03_s3_distributions_et_distributions_temperees.md",
+      "line": 1125,
+      "message": "KaTeX will not set it: Double superscript at position 6: W^0_0^̲{,p}(U) = L^p(U…: W^0_0^{,p}(U) = L^p(U)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/IV/05_s5_operateurs_partiels_normaux_et_theoreme.md",
+      "line": 1663,
+      "message": "KaTeX will not set it: Double subscript at position 18: …\\mathscr{F}_n^u_̲{+1}}\\widetilde…: _{\\mathscr{F}_n^u_{+1}}\\widetilde{R}_F(u)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/IV/05_s5_operateurs_partiels_normaux_et_theoreme.md",
+      "line": 1699,
+      "message": "KaTeX will not set it: Double subscript at position 18: …\\mathscr{F}_n^u_̲{+1}}\\widetilde…: _{\\mathscr{F}_n^u_{+1}}\\widetilde{R}_F(u)\\geqslant…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/IV/exercises/s3/18.md",
+      "line": 27,
+      "message": "KaTeX will not set it: Double superscript at position 8: \\pi^-_K^̲1(\\pi_K(T)).): \\pi^-_K^1(\\pi_K(T)).)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/IV/exercises/s3/25.md",
+      "line": 25,
+      "message": "KaTeX will not set it: Double subscript at position 15: \\mathscr{D}_L'_̲{_1}(\\mathbf{R}…: \\mathscr{D}_L'_{_1}(\\mathbf{R}^n)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/IV/exercises/s3/25.md",
+      "line": 27,
+      "message": "KaTeX will not set it: Double subscript at position 20: … \\mathscr{D}_L'_̲{_1}(\\mathbf{R}…: f\\in \\mathscr{D}_L'_{_1}(\\mathbf{R}^n)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/IV/exercises/s3/25.md",
+      "line": 35,
+      "message": "KaTeX will not set it: Double subscript at position 20: … \\mathscr{D}_L'_̲{_1}(\\mathbf{R}…: f\\in \\mathscr{D}_L'_{_1}(\\mathbf{R}^n)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/IV/exercises/s3/25.md",
+      "line": 35,
+      "message": "KaTeX will not set it: Double subscript at position 15: \\mathscr{D}_L'_̲{_1}(\\mathbf{R}…: \\mathscr{D}_L'_{_1}(\\mathbf{R}^n)"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/IV/exercises/s3/33.md",
+      "line": 23,
+      "message": "KaTeX will not set it: Expected group after '^' at position 2: A^̲: A^"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/V/01_s1_representations_unitaires.md",
+      "line": 365,
+      "message": "KaTeX will not set it: Double superscript at position 5: ^G_G^̲{\\times}_{\\time…: ^G_G^{\\times}_{\\times \\{}^H_{e\\}}(\\varrho )"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/V/02_s2_representations_des_groupes_localement.md",
+      "line": 741,
+      "message": "KaTeX will not set it: Double superscript at position 20: …qslant \\int^G_G^̲/_/^Z_Z|f_1|d\\n…: \\leqslant \\int^G_G^/_/^Z_Z|f_1|d\\nu \\int_{G/Z}|f_3…"
+    },
+    {
+      "check": "P04",
+      "group": "publication",
+      "hard": false,
+      "file": "content/fr/ts/V/03_s3_fonctions_de_type_positif.md",
+      "line": 571,
+      "message": "KaTeX will not set it: Double superscript at position 10: x_3=t^1_1^̲{/2}x_1+t^1_2^{…: x_3=t^1_1^{/2}x_1+t^1_2^{/2}x_2"
     },
     {
       "check": "T10",
@@ -2411,8 +3635,8 @@
     "references": 4179,
     "sections": 61,
     "solutions": 5,
-    "tags": 2060,
-    "translated": 345,
+    "tags": 4464,
+    "translated": 993,
     "unresolved": 246
   }
 }

@@ -38,7 +38,7 @@ subsections:
       pdf_page: 106
 statements: 37
 exercises: 19
-content_sha256: 04f80cc3864699945d7925098f6cf488f88cf5d05452680ebe165dc520e25f5f
+content_sha256: 25121e32634b054eaf79d53f1341199f32f6263588efec8ec6255fe5f2ad73a9
 ---
 
 ## § 5. COMMUTATION
@@ -275,7 +275,7 @@ Consider the A-module $M =\prod_{i\in I}S_i$. Since I is finite, we also have $M
 
 This corollary applies, in particular, when A is an algebra over a commutative field K and each $S_i$ is a simple A-module that is finite-dimensional as a K-vector space: indeed, $D_i$ then contains the homotheties $\alpha_{S_i}$, where $\alpha$ runs through K, and $S_i$ is finite-dimensional over $D_i$ because it is so over K.
 
-#### Corollary 2 {#alg-viii-s5-prop-4-cor-2 .statement tag=00S0}
+#### Corollary 2 (Burnside’s theorem) {#alg-viii-s5-prop-4-cor-2 .statement tag=00S0}
 
 Let A be an algebra over an algebraically closed commutative field K, and let S be a simple A-module that is finite-dimensional as a K-vector space. Then the mapping $a\mapsto a_S$ from A to End$_K(S)$ is surjective.
 
@@ -381,7 +381,7 @@ Since M is a finite-dimensional vector space over K that is the direct sum of th
 
 ### 5. Density Theorem
 
-#### Theorem 3 {#alg-viii-s5-thm-3 .statement tag=00S1}
+#### Theorem 3 (Jacobson) {#alg-viii-s5-thm-3 .statement tag=00S1}
 
 Let M be a semisimple A-module, and let $c$ be an endomorphism of the additive group M. Then $c$ belongs to the bicommutant $A''_M$ of M if and only if it satisfies the following condition:
 

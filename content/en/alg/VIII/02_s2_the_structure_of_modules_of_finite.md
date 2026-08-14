@@ -34,7 +34,7 @@ subsections:
       pdf_page: 54
 statements: 37
 exercises: 20
-content_sha256: 7a363e65da13a4f5affdce18e63018bbce927fa4bc921f20835393ecbd0debb2
+content_sha256: 0421e17bc38a6f5e241f895129d2066a508755181243b2dd957f8dd190e93e7d
 ---
 
 ## § 2. THE STRUCTURE OF MODULES OF FINITE LENGTH
@@ -251,7 +251,7 @@ $*$Every simple module is primordial (VIII, p. 45); every semisimple module is t
 
 If A is a left Noetherian ring, then every injective A-module is semiprimordial (X, §1, n$^o9$, p. 21, proposition 14 and X, §1, n$^o10$, p. 22, théorème 3, b)).$*$
 
-#### Theorem 1 {#alg-viii-s2-thm-1 .statement tag=00RX}
+#### Theorem 1 (Azumaya) {#alg-viii-s2-thm-1 .statement tag=00RX}
 
 Let A be a ring, L a primordial A-module, and M a semiprimordial A-module. There exists a unique cardinal, denoted by [M : L], with the following property:
 
@@ -371,7 +371,7 @@ The relation [M : L] = 0 therefore means that there exists no direct factor subm
 
 ### 5. The Structure of Modules of Finite Length
 
-#### Theorem 2 {#alg-viii-s2-thm-2 .statement tag=00RY}
+#### Theorem 2 (Krull–Remak–Schmidt) {#alg-viii-s2-thm-2 .statement tag=00RY}
 
 Let A be a ring and M an A-module of finite length.
 

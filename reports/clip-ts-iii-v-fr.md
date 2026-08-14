@@ -1,10 +1,5 @@
 # Clip audit: ts-iii-v-fr
 
-7 clips, 6 agree, 1 differ, 0 silent.
+5 clips, 5 agree, 0 differ, 0 silent.
 
-## Disagreements
-
-### page 22
-
-- the model read and we have not: `Šmulian`
-- we have and the model did not: `Smulian`
+Nothing to look at: every clip that came back reads the same as the extractor.

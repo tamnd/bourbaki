@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 41
 exercises: 8
-content_sha256: 53bc6c3cdaf211eab12b0482fa2f8630171f7d9615eef75d577846d5cd4dadea
+content_sha256: a3a9d501b7ae8f988d32ae3a5ff923fd2227e02f036ea6afb3af4ae5f3910528
 ---
 
 ## § 6. ÉQUIVALENCE DE MORITA DES MODULES ET DES ALGÈBRES
@@ -346,7 +346,7 @@ $\lambda : P\otimes_BQ\rightarrow_sA_d$ et $\theta : Q\otimes_AP\rightarrow_sB_d
 
 Pour tout B-module à gauche V, nous noterons $\theta_V$ l’isomorphisme de B-modules $\theta \otimes 1_V: Q\otimes_AP\otimes_BV\rightarrow V$. De même, pour tout A-module à gauche M, nous noterons $\lambda_M$ l’isomorphisme de A-modules $\lambda \otimes 1_M: P\otimes_BQ\otimes_AM\rightarrow M$.
 
-#### Théorème 2 {#alg-viii-s6-thm-2 .statement tag=00S2}
+#### Théorème 2 (Morita) {#alg-viii-s6-thm-2 .statement tag=00S2}
 
 a) Soient V et W des B-modules à gauche. L’application $g\rightarrow 1_P\otimes g$ est une bijection de Hom$_B(V,W)$sur Hom$_A(P\otimes_BV,P\otimes_BW)$. La bijection réciproque associe à tout élément $h$ de Hom$_A(P\otimes_BV,P\otimes_BW)$l’élément $\theta_W\circ (1_Q\otimes h)\circ \theta^{-1}_V$ de Hom$_B(V,W)$.
 

@@ -28,7 +28,7 @@ books:
               statements: 36
               exercises: 28
               extraction: native
-              content_sha256: 17a577e4eaa9e0a250681b465e79693fa82515b4e2c87bb92b49d011a6060bf6
+              content_sha256: fcba0c65e9200f571f11d216e1445424d50d18dde35e6c5c0d98cf44c45badeb
             - kind: section
               section: 2
               title: The Structure of Modules of Finite Length
@@ -41,7 +41,7 @@ books:
               statements: 37
               exercises: 20
               extraction: native
-              content_sha256: 7a363e65da13a4f5affdce18e63018bbce927fa4bc921f20835393ecbd0debb2
+              content_sha256: 0421e17bc38a6f5e241f895129d2066a508755181243b2dd957f8dd190e93e7d
             - kind: section
               section: 3
               title: Simple Modules
@@ -54,7 +54,7 @@ books:
               statements: 23
               exercises: 10
               extraction: native
-              content_sha256: 485024f3f61ab2ab75ea92b18331ced4082da94086552987c8888a732338a56b
+              content_sha256: 0086266c71c0c87c1dba800a7ab95a073135a25e6906f0d4a8a767c2676b5856
             - kind: section
               section: 4
               title: Semisimple Modules
@@ -80,7 +80,7 @@ books:
               statements: 37
               exercises: 19
               extraction: native
-              content_sha256: 04f80cc3864699945d7925098f6cf488f88cf5d05452680ebe165dc520e25f5f
+              content_sha256: 25121e32634b054eaf79d53f1341199f32f6263588efec8ec6255fe5f2ad73a9
             - kind: section
               section: 6
               title: Morita Equivalence of Modules and Algebras
@@ -93,7 +93,7 @@ books:
               statements: 41
               exercises: 8
               extraction: native
-              content_sha256: dca01570f144ba45ee0938bb509a9dd854da5b0e8768b5efaf3c13a202e821a0
+              content_sha256: 22ae1a54d08d23a37d767ca40cb1bbf396cf0a218b29c2c2355c77f480e11542
             - kind: section
               section: 7
               title: Simple Rings
@@ -106,7 +106,7 @@ books:
               statements: 24
               exercises: 16
               extraction: native
-              content_sha256: 1ee3d2e054ca2baa5e68eda080a1ea2d851fe5647449be475f94805231c82e8e
+              content_sha256: 13a105e1ae4a8f7b21014f593edf1d71da3a94fc4158a3550efe2776d02521b0
             - kind: section
               section: 8
               title: Semisimple Rings
@@ -119,7 +119,7 @@ books:
               statements: 30
               exercises: 6
               extraction: native
-              content_sha256: 23c28681bfd7d9c9ee72eb0129068883fb103a617f494201f60b1bf885e4afbd
+              content_sha256: ddbe60c24a0a35af0471e643272aee5f82ebc557f3541f38cbb86f2f793e6b73
             - kind: section
               section: 9
               title: Radical
@@ -132,7 +132,7 @@ books:
               statements: 49
               exercises: 31
               extraction: native
-              content_sha256: cdf69741edd2e7bed2a3ba3bb66c89ed8bcd5a650dba337f40b3c6ca67b8d8a3
+              content_sha256: 66edee0eaa77a1ada25ae2c77a16aafeb9768e48d9d685064d798c786800652a
             - kind: section
               section: 10
               title: Modules over an Artinian Ring
@@ -158,7 +158,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native
-              content_sha256: c43d8a939fd5f479077bece86a39d568c784f9c59d54cfe7167ee61acc16ffd1
+              content_sha256: 2ae7a00ffb8a34198f5c55c4ce6e3ca804cb8c3dac776290a78c350dfc20f6d2
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -184,7 +184,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native
-              content_sha256: 9fb80605d931826f21789db4de751932e6c8c8e2a202db23b38971255752d9e3
+              content_sha256: c04c0da23de90b86fa0ef1a5bfacdd55ec448cf0e8d692737d85e505b7bcfe22
             - kind: section
               section: 14
               title: Central Simple Algebras
@@ -197,7 +197,7 @@ books:
               statements: 36
               exercises: 19
               extraction: native
-              content_sha256: c71e4e63b26e1e1b6504a6aa65c3af96ad85bf3e3e06ffe52d663cfcb59c3fc4
+              content_sha256: 71bd3e725cf0dd55080ebca27c90559e1f515b85cd70ece94a89b411766ca274
             - kind: section
               section: 15
               title: Brauer Groups
@@ -249,7 +249,7 @@ books:
               statements: 10
               exercises: 7
               extraction: native
-              content_sha256: eb029a5940a0e8efa653e42faea62e419926512b4e5224112cea8769a115a867
+              content_sha256: d31b4be0a28e051d53e054449fca9f4c3e20f71756a7b6eb4d0636bcb8e68567
             - kind: section
               section: 19
               title: Quaternion Algebras
@@ -288,7 +288,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: bcc10cca24da9b98ed1be070ef13086751b9e5f1f6da884c13073eca99934d6a
+              content_sha256: 39cac58c0492fe4210953de6b668289f111a68b0246c625e697f294ef8d6f732
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
@@ -301,7 +301,7 @@ books:
               statements: 20
               exercises: 15
               extraction: native
-              content_sha256: 958695ae012e636e59595b07b3722e3e1437026f9d5a402eaf7773065e45074d
+              content_sha256: bc01a7c8de4d29020aa27c809b1cac71a8e09930d921d035eba6f8cf50ecca9e
             - kind: appendix
               section: 2
               title: Determinants over a Noncommutative Field
@@ -380,7 +380,7 @@ books:
               statements: 36
               exercises: 28
               extraction: native
-              content_sha256: b5b8edbc7c774dd1982514cec915da3970268cb02796033d65a1d739d18edeca
+              content_sha256: 2b08bf5d172d32adbe9fb5702b2f948e3152a8025e0501c9e93de6eefe5eac90
             - kind: section
               section: 2
               title: Structure des modules de longueur finie
@@ -393,7 +393,7 @@ books:
               statements: 37
               exercises: 19
               extraction: native
-              content_sha256: 803669ca3d99fd8bc964b35d1cb73984b02451895363d5691f96f427ece52fc9
+              content_sha256: 38cfe3563a428d261c3c0498c06371ce5f335e26115bbae63542aee9025a08f5
             - kind: section
               section: 3
               title: Modules simples
@@ -406,7 +406,7 @@ books:
               statements: 23
               exercises: 10
               extraction: native
-              content_sha256: 21593dbc947e654587c38614edf84647e75f5b375680b9554d8a371878158cd8
+              content_sha256: 878b3b0e4c5d1ebb2849546169639f3a27e5804983082b2065db897a8b3fbaaf
             - kind: section
               section: 4
               title: Modules semi-simples
@@ -432,7 +432,7 @@ books:
               statements: 37
               exercises: 19
               extraction: native
-              content_sha256: c9e9120986305700fdf16b43f31ae23f7e2dcc7b5022b4c947c5783a982b30d4
+              content_sha256: 3dc210a10bb179ccf2a23b0b2f6bfe005a1cb81ff19c49b92d1acb8a0478fcbb
             - kind: section
               section: 6
               title: Équivalence de Morita des modules et des algèbres
@@ -445,7 +445,7 @@ books:
               statements: 41
               exercises: 8
               extraction: native
-              content_sha256: 53bc6c3cdaf211eab12b0482fa2f8630171f7d9615eef75d577846d5cd4dadea
+              content_sha256: a3a9d501b7ae8f988d32ae3a5ff923fd2227e02f036ea6afb3af4ae5f3910528
             - kind: section
               section: 7
               title: Anneaux simples
@@ -458,7 +458,7 @@ books:
               statements: 24
               exercises: 16
               extraction: native
-              content_sha256: 0b765aceec1975921927fb863708eb2d8f4fecbeb153b3919c0ec1521581e092
+              content_sha256: b72c918f126c4b4d2cd5d6b619af8ff04f06dc17e2232d98a8287e35038e3263
             - kind: section
               section: 8
               title: Anneaux semi-simples
@@ -471,7 +471,7 @@ books:
               statements: 30
               exercises: 6
               extraction: native
-              content_sha256: b57dc581ca10984e6f769821ee4f7f61fabd2e6f7c3b257442c43a4830830474
+              content_sha256: b8cd5a2eda963f903b7f438a590699901817ce67cce1d1577041c3b3a9600930
             - kind: section
               section: 9
               title: Radical
@@ -484,7 +484,7 @@ books:
               statements: 49
               exercises: 31
               extraction: native
-              content_sha256: 7838acd983bda31fb85481c8e30ec20927f6c73a3ca79a6edf2971c78f199a69
+              content_sha256: de6699c09534d49f0005c1650b8849b586e897fe27292c8fca56200be42daa8e
             - kind: section
               section: 10
               title: Modules sur un anneau artinien
@@ -510,7 +510,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native
-              content_sha256: fe6b81bdd379a05c360e53c28e74eb95c0ad2435e419722f77f003b2c71fa76f
+              content_sha256: 948b9c12167d638d59551289e0175d3b8b39effc06c957faddbdcd476e509d48
             - kind: section
               section: 12
               title: Produit tensoriel de modules semi-simples
@@ -536,7 +536,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native
-              content_sha256: f8b66679a7d47200f00ce0b4877e1ff5c72d894f8d9bb5857fb3c15922912b6c
+              content_sha256: bc2ed7444f1eb51924345fd7a15e66bdb6513d28df6c10ca757772ca39e84b7d
             - kind: section
               section: 14
               title: Algèbres centrales et simples
@@ -549,7 +549,7 @@ books:
               statements: 36
               exercises: 19
               extraction: native
-              content_sha256: 80858a88c5e870c10a153d28ea1cb56185a08b4094a98ff1e9927cf41df47ef5
+              content_sha256: ca0004dc7935bf67c646b7e08e52d23627e47b974f85e1817aea2c3423ef1f0c
             - kind: section
               section: 15
               title: Groupes de Brauer
@@ -601,7 +601,7 @@ books:
               statements: 10
               exercises: 7
               extraction: native
-              content_sha256: 19d7b2552974dbc633d8e8cb4ddbcf0a72c831c8eaa08af7f8343da0df5e7cbc
+              content_sha256: 843a3069858897a275212a1758a95f1eb0f8c287b92443c15f26d765a9bb6652
             - kind: section
               section: 19
               title: Algèbres de quaternions
@@ -640,7 +640,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: 7a542126f546b95146f4c4d19e85bff6bfd95b1da9adba64e3b99971d76d9978
+              content_sha256: 5e3ba1a9587dc7f78f7e6bcbfd35e94352655a3e65fd20e397bffbdbe94a4b12
             - kind: appendix
               section: 1
               title: Algèbres sans élément unité
@@ -653,7 +653,7 @@ books:
               statements: 20
               exercises: 15
               extraction: native
-              content_sha256: aed85e9cce0839fe9a7a4e1d620e065bf57525d77eec3dbce8381edf1fef8880
+              content_sha256: a21defe43482cf661215448bdef1dbbe6cd9a4bde962f38c0cff113ca237959f
             - kind: appendix
               section: 2
               title: Déterminants sur un corps non commutatif
@@ -941,7 +941,7 @@ books:
               statements: 12
               exercises: 16
               extraction: native
-              content_sha256: 0da1bd5b937f6bd197e7e1828aee350cbb6af216e5f2674d4943317b61e24020
+              content_sha256: 68416a9d214702b4eca05fde66d670a50e9ced5b1715e7bbcb79d7fd9795a8c8
             - kind: section
               section: 10
               title: Maximal subalgebras of semi-simple Lie algebras
@@ -967,7 +967,7 @@ books:
               statements: 29
               exercises: 17
               extraction: native+ocr
-              content_sha256: 12e3be0b241f81b98cb35188f5bf0071b0245c196bd8f28247108a9b75e9cc5c
+              content_sha256: 255448d2efd9757d8216b0db186bd1fca06077284f78065762a7531bf0e92f1e
             - kind: section
               section: 12
               title: Chevalley orders
@@ -1085,7 +1085,7 @@ books:
               statements: 25
               exercises: 13
               extraction: native
-              content_sha256: 0a3b0560e6477aef85b5b033a11cf8828cefb5254aaf75e2764f57f2ebd87df9
+              content_sha256: b4f0de44d1619bc350bca1bb7ad3da1fea92b250a1806c808dd52f47490eb8f2
             - kind: section
               section: 7
               title: Irreducible representations of connected compact Lie groups
@@ -1098,7 +1098,7 @@ books:
               statements: 28
               exercises: 8
               extraction: native
-              content_sha256: c2e56ab4c40ab5de27e745b16ee5016d5722d942bed053357b8b7204da0caf57
+              content_sha256: cf0a09514cb74911f68c6d01931ba975cfd9aba3031f7e95f00d2e405465755e
             - kind: section
               section: 8
               title: Fourier transform
@@ -1151,3 +1151,770 @@ books:
               exercises: 0
               extraction: native
               content_sha256: beae2a50c798d743e5583c7e899d16583998c449472622c9ed757672809447a2
+    - id: ta-i-iv-fr
+      chapters:
+        - chapter: I
+          title: REVÊTEMENTS
+          sections:
+            - kind: front
+              title: REVÊTEMENTS
+              path: content/fr/ta/I/00_frontmatter.md
+              first_pdf_page: 17
+              last_pdf_page: 17
+              book_pages: A I.1
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: ff3500201c493cc24cc7788f6da0440d2309ccb140c3c6ab933053c8ad1b3d6f
+            - kind: section
+              section: 1
+              title: Produits fibrés et carrés cartésiens
+              path: content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md
+              label: ta-i-s1
+              first_pdf_page: 17
+              last_pdf_page: 40
+              book_pages: A I.1-A I.24
+              subsections: 11
+              statements: 44
+              exercises: 0
+              extraction: native
+              content_sha256: 0dff11b6569903ca5dcd6b824ddc68a918d48d5f0f5bbf91ec124bc7863db9c0
+            - kind: section
+              section: 2
+              title: Applications étales
+              path: content/fr/ta/I/02_s2_applications_etales.md
+              label: ta-i-s2
+              first_pdf_page: 41
+              last_pdf_page: 58
+              book_pages: A I.25-A I.42
+              subsections: 6
+              statements: 47
+              exercises: 0
+              extraction: native
+              content_sha256: 22147a7933efa36d9dd8cf29c89a649a46c5803653f0dcf3c46ad9c6c96cdc9b
+            - kind: section
+              section: 3
+              title: Faisceaux
+              path: content/fr/ta/I/03_s3_faisceaux.md
+              label: ta-i-s3
+              first_pdf_page: 58
+              last_pdf_page: 83
+              book_pages: A I.42-A I.67
+              subsections: 10
+              statements: 35
+              exercises: 0
+              extraction: native
+              content_sha256: d05501701d8ed395e4179248f23a02e9c3c5fca53e716e23c1b5529995b2b752
+            - kind: section
+              section: 4
+              title: Revêtements
+              path: content/fr/ta/I/04_s4_revetements.md
+              label: ta-i-s4
+              first_pdf_page: 84
+              last_pdf_page: 106
+              book_pages: A I.68-A I.90
+              subsections: 10
+              statements: 50
+              exercises: 0
+              extraction: native
+              content_sha256: de25ce4f934e02a616a0259cf699b42cc5f9f82e3231ca3c911d564f925a1e85
+            - kind: section
+              section: 5
+              title: Revêtements principaux
+              path: content/fr/ta/I/05_s5_revetements_principaux.md
+              label: ta-i-s5
+              first_pdf_page: 107
+              last_pdf_page: 135
+              book_pages: A I.91-A I.119
+              subsections: 7
+              statements: 58
+              exercises: 0
+              extraction: native
+              content_sha256: 1c99bc1e39127143367d30f812896f6b739a296bd750efba71a35373cd1a910a
+            - kind: section
+              section: 6
+              title: Espaces simplement connexes
+              path: content/fr/ta/I/06_s6_espaces_simplement_connexes.md
+              label: ta-i-s6
+              first_pdf_page: 136
+              last_pdf_page: 166
+              book_pages: A I.120-A I.150
+              subsections: 5
+              statements: 37
+              exercises: 0
+              extraction: native
+              content_sha256: e86d8db84fe3e6a37959e0712dfd6cbce9d8a02da41570ad2a6d08154437d003
+        - chapter: II
+          title: GROUPOÏDES
+          sections:
+            - kind: front
+              title: GROUPOÏDES
+              path: content/fr/ta/II/00_frontmatter.md
+              first_pdf_page: 167
+              last_pdf_page: 167
+              book_pages: A II.151
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: 0bbbe01e85dc2e92f64f817460e34fd9316432a1e93f1c02f2dee341954f4a3e
+            - kind: section
+              section: 1
+              title: Carquois
+              path: content/fr/ta/II/01_s1_carquois.md
+              label: ta-ii-s1
+              first_pdf_page: 167
+              last_pdf_page: 171
+              book_pages: A II.151-A II.155
+              subsections: 6
+              statements: 2
+              exercises: 0
+              extraction: native
+              content_sha256: e8c1db21237ea0626578399ea2ba68a1b4d0579241b4dc09c6b32e2f03da49f0
+            - kind: section
+              section: 2
+              title: Graphes
+              path: content/fr/ta/II/02_s2_graphes.md
+              label: ta-ii-s2
+              first_pdf_page: 171
+              last_pdf_page: 175
+              book_pages: A II.155-A II.159
+              subsections: 4
+              statements: 5
+              exercises: 0
+              extraction: native
+              content_sha256: b85d9764093c7cc1903eaffd2f25c6f7645b22adb3b30466b5e21e2d46059b65
+            - kind: section
+              section: 3
+              title: Groupoïdes
+              path: content/fr/ta/II/03_s3_groupoides.md
+              label: ta-ii-s3
+              first_pdf_page: 175
+              last_pdf_page: 195
+              book_pages: A II.159-A II.179
+              subsections: 12
+              statements: 40
+              exercises: 0
+              extraction: native
+              content_sha256: df3cb6de250118c96072a99aebdb7c57bcf50e68adc006e748d00a07570b042c
+            - kind: section
+              section: 4
+              title: Homotopies
+              path: content/fr/ta/II/04_s4_homotopies.md
+              label: ta-ii-s4
+              first_pdf_page: 196
+              last_pdf_page: 212
+              book_pages: A II.180-A II.196
+              subsections: 5
+              statements: 15
+              exercises: 0
+              extraction: native
+              content_sha256: 6956963ac938e1efabb1a557db216e6d900571283a75be61d6612418368ee7fc
+            - kind: section
+              section: 5
+              title: Coégalisateur
+              path: content/fr/ta/II/05_s5_coegalisateur.md
+              label: ta-ii-s5
+              first_pdf_page: 212
+              last_pdf_page: 244
+              book_pages: A II.196-A II.228
+              subsections: 5
+              statements: 22
+              exercises: 0
+              extraction: native
+              content_sha256: be4ef73c46da7909f606648dd78c737fb170b08f05b42bd206dba0ebd6ae023b
+        - chapter: III
+          title: HOMOTOPIE ET GROUPOÏDE DE POINCARÉ
+          sections:
+            - kind: front
+              title: HOMOTOPIE ET GROUPOÏDE DE POINCARÉ
+              path: content/fr/ta/III/00_frontmatter.md
+              first_pdf_page: 245
+              last_pdf_page: 245
+              book_pages: A III.229
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: 5b5c8d5997d2edf0d1891d12b555ea477901a90e4409ee8975f7c2fa2f776a6e
+            - kind: section
+              section: 1
+              title: Homotopies, homéotopies
+              path: content/fr/ta/III/01_s1_homotopies_homeotopies.md
+              label: ta-iii-s1
+              first_pdf_page: 245
+              last_pdf_page: 272
+              book_pages: A III.229-A III.256
+              subsections: 10
+              statements: 55
+              exercises: 0
+              extraction: native
+              content_sha256: dcb0b3df1f7b9c7e39c8bfb778a0ef557f55897f2df784366f8644b3fd7321a6
+            - kind: section
+              section: 2
+              title: Homotopie et chemins
+              path: content/fr/ta/III/02_s2_homotopie_et_chemins.md
+              label: ta-iii-s2
+              first_pdf_page: 272
+              last_pdf_page: 305
+              book_pages: A III.256-A III.289
+              subsections: 10
+              statements: 63
+              exercises: 0
+              extraction: native
+              content_sha256: 7544fc1ac61550271ecb8f89ad34c6175a9224e33a8b187e0c169e8b87115433
+            - kind: section
+              section: 3
+              title: Groupoïde de Poincaré
+              path: content/fr/ta/III/03_s3_groupoide_de_poincare.md
+              label: ta-iii-s3
+              first_pdf_page: 305
+              last_pdf_page: 316
+              book_pages: A III.289-A III.300
+              subsections: 3
+              statements: 27
+              exercises: 0
+              extraction: native
+              content_sha256: 86e6e5c40b24232d71e3f95443117124cfb9d05efd48f393f1ecd889de87913a
+            - kind: section
+              section: 4
+              title: Homotopie et revêtements
+              path: content/fr/ta/III/04_s4_homotopie_et_revetements.md
+              label: ta-iii-s4
+              first_pdf_page: 316
+              last_pdf_page: 323
+              book_pages: A III.300-A III.307
+              subsections: 4
+              statements: 16
+              exercises: 0
+              extraction: native
+              content_sha256: d6da2e3c741a49d74be4492a2ce326f706bc3822b407b201f72e0ff9a3a8a86d
+            - kind: section
+              section: 5
+              title: Homotopie et revêtements (cas des espaces localement connexes par arcs)
+              path: content/fr/ta/III/05_s5_homotopie_et_revetements_cas_des.md
+              label: ta-iii-s5
+              first_pdf_page: 324
+              last_pdf_page: 354
+              book_pages: A III.308-A III.338
+              subsections: 4
+              statements: 23
+              exercises: 0
+              extraction: native
+              content_sha256: 68b82f2af73aed1739e874471584a440895ae6249d2fa8cc2e9558743432d942
+        - chapter: IV
+          title: ESPACES DÉLAÇABLES
+          sections:
+            - kind: front
+              title: ESPACES DÉLAÇABLES
+              path: content/fr/ta/IV/00_frontmatter.md
+              first_pdf_page: 355
+              last_pdf_page: 355
+              book_pages: A IV.339
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: c9a5c306649fd16f6687c2bec106e0435f2bf6710ae601f3dbe3a45aa71f1caf
+            - kind: section
+              section: 1
+              title: Espaces délaçables
+              path: content/fr/ta/IV/01_s1_espaces_delacables.md
+              label: ta-iv-s1
+              first_pdf_page: 356
+              last_pdf_page: 367
+              book_pages: A IV.340-A IV.351
+              subsections: 4
+              statements: 20
+              exercises: 0
+              extraction: native
+              content_sha256: dc9fb068a5f23baf7703b844f8c6d79d0abb6cc37ee1c3e39a8d37360e346101
+            - kind: section
+              section: 2
+              title: Groupes de Poincaré des espaces délaçables
+              path: content/fr/ta/IV/02_s2_groupes_de_poincare_des_espaces.md
+              label: ta-iv-s2
+              first_pdf_page: 367
+              last_pdf_page: 384
+              book_pages: A IV.351-A IV.368
+              subsections: 6
+              statements: 30
+              exercises: 0
+              extraction: native
+              content_sha256: ba994b342dea516954ce76de70654eab250f435423adb63814fcf7fba06c2faa
+            - kind: section
+              section: 3
+              title: Groupes de Poincaré des groupes topologiques
+              path: content/fr/ta/IV/03_s3_groupes_de_poincare_des_groupes.md
+              label: ta-iv-s3
+              first_pdf_page: 385
+              last_pdf_page: 398
+              book_pages: A IV.369-A IV.382
+              subsections: 5
+              statements: 21
+              exercises: 0
+              extraction: native
+              content_sha256: 8681f8e8713a23755e526e55c0c974fa8194a632ce1e1ec10d0c8db8b2224f8c
+            - kind: section
+              section: 4
+              title: Théorie de la descente
+              path: content/fr/ta/IV/04_s4_theorie_de_la_descente.md
+              label: ta-iv-s4
+              first_pdf_page: 398
+              last_pdf_page: 421
+              book_pages: A IV.382-A IV.405
+              subsections: 8
+              statements: 29
+              exercises: 0
+              extraction: native
+              content_sha256: bf43f129b2596314440e8249fc1ebb2e2297f22bd323c6b6578b48c7b87dd08f
+            - kind: section
+              section: 5
+              title: Théorème de van Kampen
+              path: content/fr/ta/IV/05_s5_theoreme_de_van_kampen.md
+              label: ta-iv-s5
+              first_pdf_page: 421
+              last_pdf_page: 452
+              book_pages: A IV.405-A IV.436
+              subsections: 6
+              statements: 31
+              exercises: 0
+              extraction: native
+              content_sha256: 4ab3bad6b0f9a7796accf65251691ddf631dba70dca796c154bc3c1ec59fe943
+            - kind: section
+              section: 6
+              title: Espaces classifiants
+              path: content/fr/ta/IV/06_s6_espaces_classifiants.md
+              label: ta-iv-s6
+              first_pdf_page: 453
+              last_pdf_page: 496
+              book_pages: A IV.437-A IV.480
+              subsections: 5
+              statements: 32
+              exercises: 0
+              extraction: native
+              content_sha256: 3b307db5f56f78fbd3358c684b32354dac47a42c80020e9f4ec7d0750f1f841e
+    - id: ts-i-ii-fr
+      chapters:
+        - chapter: I
+          title: ALGÈBRES NORMÉES
+          sections:
+            - kind: front
+              title: ALGÈBRES NORMÉES
+              path: content/fr/ts/I/00_frontmatter.md
+              first_pdf_page: 14
+              last_pdf_page: 14
+              book_pages: A I.1
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: d82c29d8ea32233d40f0dbacb3e575e296ee8524ce093a03821c0ac91e9ac1ed
+            - kind: section
+              section: 1
+              title: Spectres et caractères
+              path: content/fr/ts/I/01_s1_spectres_et_caracteres.md
+              label: ts-i-s1
+              first_pdf_page: 14
+              last_pdf_page: 167
+              book_pages: A I.1-A I.15, A I.153-A I.154
+              subsections: 8
+              statements: 33
+              exercises: 8
+              extraction: native
+              content_sha256: 49414d4ac1595b3292290f033f3a7ed5a7b36188c004ceb10ccb735cc1ba7832
+            - kind: section
+              section: 2
+              title: Algèbres normées
+              path: content/fr/ts/I/02_s2_algebres_normees.md
+              label: ts-i-s2
+              first_pdf_page: 28
+              last_pdf_page: 178
+              book_pages: A I.15-A I.29, A I.155-A I.165
+              subsections: 6
+              statements: 28
+              exercises: 37
+              extraction: native
+              content_sha256: d8c22b31d759275510252e50d5f48177de8621565e209a56f970ee302ffb4501
+            - kind: section
+              section: 3
+              title: Algèbres de Banach commutatives
+              path: content/fr/ts/I/03_s3_algebres_de_banach_commutatives.md
+              label: ts-i-s3
+              first_pdf_page: 42
+              last_pdf_page: 185
+              book_pages: A I.29-A I.49, A I.166-A I.172
+              subsections: 7
+              statements: 48
+              exercises: 29
+              extraction: native
+              content_sha256: 3a9bd3b033f9edbeaf123c4923ad441ff5d939d7ced18c678d6ea4d6ab8f9afe
+            - kind: section
+              section: 4
+              title: Calcul fonctionnel holomorphe
+              path: content/fr/ts/I/04_s4_calcul_fonctionnel_holomorphe.md
+              label: ts-i-s4
+              first_pdf_page: 62
+              last_pdf_page: 190
+              book_pages: A I.49-A I.88, A I.172-A I.177
+              subsections: 14
+              statements: 55
+              exercises: 18
+              extraction: native
+              content_sha256: 8f9417829ccfa6a5f5c3a176abbaf4ba5586540439544fe923a74346a4c55f50
+            - kind: section
+              section: 5
+              title: Algèbres de Banach commutatives régulières
+              path: content/fr/ts/I/05_s5_algebres_de_banach_commutatives.md
+              label: ts-i-s5
+              first_pdf_page: 101
+              last_pdf_page: 193
+              book_pages: A I.88-A I.95, A I.178-A I.180
+              subsections: 2
+              statements: 16
+              exercises: 7
+              extraction: native
+              content_sha256: 3daef8ec3ec30bd55b00615d263b60eb53238e1f2c62cf11e8822316d818eaaf
+            - kind: section
+              section: 6
+              title: Algèbres stellaires
+              path: content/fr/ts/I/06_s6_algebres_stellaires.md
+              label: ts-i-s6
+              first_pdf_page: 108
+              last_pdf_page: 200
+              book_pages: A I.95-A I.127, A I.180-A I.187
+              subsections: 13
+              statements: 94
+              exercises: 32
+              extraction: native
+              content_sha256: 70259e73d7fcd31e5d8459d78f75a02de2fc751943cf9e78c71a768dd47e990a
+            - kind: section
+              section: 7
+              title: Spectre des endomorphismes des espaces de Banach
+              path: content/fr/ts/I/07_s7_spectre_des_endomorphismes_des_espaces.md
+              label: ts-i-s7
+              first_pdf_page: 140
+              last_pdf_page: 204
+              book_pages: A I.127-A I.142, A I.187-A I.191
+              subsections: 8
+              statements: 24
+              exercises: 16
+              extraction: native
+              content_sha256: 01be4b24f732bc25a789742fe7965095764534270d93cf8168a9024d253ab214
+            - kind: section
+              section: 8
+              title: Algèbres de fonctions continues sur un espace compact
+              path: content/fr/ts/I/08_s8_algebres_de_fonctions_continues_sur_un.md
+              label: ts-i-s8
+              first_pdf_page: 155
+              last_pdf_page: 210
+              book_pages: A I.142-A I.151, A I.191-A I.197
+              subsections: 3
+              statements: 11
+              exercises: 11
+              extraction: native
+              content_sha256: eff4c95a5bf31e0317d40777cb4058645e02ea838deef7c55193c46333beaac7
+        - chapter: II
+          title: GROUPES LOCALEMENT COMPACTS COMMUTATIFS
+          sections:
+            - kind: front
+              title: GROUPES LOCALEMENT COMPACTS COMMUTATIFS
+              path: content/fr/ts/II/00_frontmatter.md
+              first_pdf_page: 211
+              last_pdf_page: 212
+              book_pages: A II.199-A II.200
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: 29ae5756e4274b0cc9d0a00975d3dadb705f894055c8de00b1f1aeaeb88e2079
+            - kind: section
+              section: 1
+              title: Transformation de Fourier
+              path: content/fr/ts/II/01_s1_transformation_de_fourier.md
+              label: ts-ii-s1
+              first_pdf_page: 213
+              last_pdf_page: 316
+              book_pages: A II.201-A II.243, A II.262-A II.304
+              subsections: 9
+              statements: 95
+              exercises: 68
+              extraction: native
+              content_sha256: 2f7dbed03b68b20aa52adad677b2a1449b233a466fd9ee2ef9d56e087bebcebb
+            - kind: section
+              section: 2
+              title: Classification
+              path: content/fr/ts/II/02_s2_classification.md
+              label: ts-ii-s2
+              first_pdf_page: 256
+              last_pdf_page: 320
+              book_pages: A II.244-A II.250, A II.304-A II.308
+              subsections: 2
+              statements: 16
+              exercises: 14
+              extraction: native
+              content_sha256: 7712f405be17f1f494b660f621e2af5465d2b6760ec9149dec45bdef7384c2d1
+            - kind: section
+              section: 3
+              title: Sous-espaces invariants
+              path: content/fr/ts/II/03_s3_sous_espaces_invariants.md
+              label: ts-ii-s3
+              first_pdf_page: 262
+              last_pdf_page: 330
+              book_pages: A II.250-A II.261, A II.308-A II.318
+              subsections: 3
+              statements: 12
+              exercises: 19
+              extraction: native
+              content_sha256: 080ed78fe4283e393786a69f5de6863b5628ca664c28a58dc5e6e8995c3a102f
+    - id: ts-iii-v-fr
+      chapters:
+        - chapter: III
+          title: APPLICATIONS LINÉAIRES COMPACTES ET PERTURBATIONS
+          sections:
+            - kind: front
+              title: APPLICATIONS LINÉAIRES COMPACTES ET PERTURBATIONS
+              path: content/fr/ts/III/00_frontmatter.md
+              first_pdf_page: 15
+              last_pdf_page: 16
+              book_pages: A III.1-A III.2
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: 9c67ed516de2b1d0b8a9b5cd130ad06d36e82e59f0d089c902435a9e6cd50783
+            - kind: section
+              section: 1
+              title: Applications linéaires compactes
+              path: content/fr/ts/III/01_s1_applications_lineaires_compactes.md
+              label: ts-iii-s1
+              first_pdf_page: 16
+              last_pdf_page: 132
+              book_pages: A III.2-A III.23, A III.103-A III.118
+              subsections: 7
+              statements: 57
+              exercises: 37
+              extraction: native
+              content_sha256: 30a26cd09e4ddec8d2705f7d2d3e48407f517a0ef3e123f2a87b0a8bae1a4cd8
+            - kind: section
+              section: 2
+              title: Exemples d’applications linéaires compactes
+              path: content/fr/ts/III/02_s2_exemples_d_applications_lineaires.md
+              label: ts-iii-s2
+              first_pdf_page: 37
+              last_pdf_page: 134
+              book_pages: A III.23-A III.39, A III.118-A III.120
+              subsections: 7
+              statements: 26
+              exercises: 4
+              extraction: native
+              content_sha256: 75c707d1e1b9b71208ce7fba4ec7cf0e40d406733339be5d951fca17784ea6d4
+            - kind: section
+              section: 3
+              title: Endomorphismes de Fredholm et endomorphismes de Riesz
+              path: content/fr/ts/III/03_s3_endomorphismes_de_fredholm_et.md
+              label: ts-iii-s3
+              first_pdf_page: 53
+              last_pdf_page: 136
+              book_pages: A III.39-A III.55, A III.120-A III.122
+              subsections: 6
+              statements: 31
+              exercises: 8
+              extraction: native
+              content_sha256: da78f50f34ac477662f0f04ab1566e3cf22beac9e03267e8963f646d15b9c528
+            - kind: section
+              section: 4
+              title: Perturbations dans les espaces de Banach
+              path: content/fr/ts/III/04_s4_perturbations_dans_les_espaces_de_banach.md
+              label: ts-iii-s4
+              first_pdf_page: 69
+              last_pdf_page: 138
+              book_pages: A III.55-A III.70, A III.123-A III.124
+              subsections: 6
+              statements: 30
+              exercises: 9
+              extraction: native
+              content_sha256: 370925dce399d029a8a8ad0cf9b655736af8a4c9da6d3d2fc55d71ea661e7528
+            - kind: section
+              section: 5
+              title: Perturbation par une application linéaire compacte
+              path: content/fr/ts/III/05_s5_perturbation_par_une_application.md
+              label: ts-iii-s5
+              first_pdf_page: 85
+              last_pdf_page: 142
+              book_pages: A III.71-A III.82, A III.125-A III.128
+              subsections: 6
+              statements: 19
+              exercises: 11
+              extraction: native
+              content_sha256: d9dcf3c95669d7a2e0b0be2386fbb69e74436b3799f3de37ea85b47889e1fc99
+            - kind: section
+              section: 6
+              title: Propriétés spectrales des endomorphismes des espaces de Banach
+              path: content/fr/ts/III/06_s6_proprietes_spectrales_des.md
+              label: ts-iii-s6
+              first_pdf_page: 96
+              last_pdf_page: 156
+              book_pages: A III.82-A III.101, A III.128-A III.142
+              subsections: 7
+              statements: 36
+              exercises: 30
+              extraction: native
+              content_sha256: 3a0864467207af688220b7538549a8267470ac04aaa33a59bbd84c8e5046056d
+        - chapter: IV
+          title: THÉORIE SPECTRALE HILBERTIENNE
+          sections:
+            - kind: front
+              title: THÉORIE SPECTRALE HILBERTIENNE
+              path: content/fr/ts/IV/00_frontmatter.md
+              first_pdf_page: 158
+              last_pdf_page: 159
+              book_pages: A IV.145-A IV.146
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: e7c238b53e7737a55e36a5de71cb4dbc858da62dfbf49da6607e34504d2a8b75
+            - kind: section
+              section: 1
+              title: Opérateurs compacts sur un espace hilbertien
+              path: content/fr/ts/IV/01_s1_operateurs_compacts_sur_un_espace.md
+              label: ts-iv-s1
+              first_pdf_page: 159
+              last_pdf_page: 332
+              book_pages: A IV.146-A IV.179, A IV.313-A IV.319
+              subsections: 10
+              statements: 66
+              exercises: 22
+              extraction: native
+              content_sha256: 7579b3be13f393cca63afec84f986887ac83e4d5769c01eb528f33a68e485aa3
+            - kind: section
+              section: 2
+              title: Endomorphismes normaux
+              path: content/fr/ts/IV/02_s2_endomorphismes_normaux.md
+              label: ts-iv-s2
+              first_pdf_page: 192
+              last_pdf_page: 343
+              book_pages: A IV.179-A IV.195, A IV.319-A IV.330
+              subsections: 8
+              statements: 32
+              exercises: 28
+              extraction: native
+              content_sha256: 5a5cc7047c2c3d26de0faa06bebd83bd318cceb5038dc090fd11f7e45b3637f8
+            - kind: section
+              section: 3
+              title: Distributions et distributions tempérées
+              path: content/fr/ts/IV/03_s3_distributions_et_distributions_temperees.md
+              label: ts-iv-s3
+              first_pdf_page: 209
+              last_pdf_page: 357
+              book_pages: A IV.196-A IV.223, A IV.330-A IV.344
+              subsections: 14
+              statements: 46
+              exercises: 33
+              extraction: native
+              content_sha256: 7d66bcffa1460836b747007f8c6dfba03d2e4efa4d124f2a548123f68b9fbd89
+            - kind: section
+              section: 4
+              title: Opérateurs partiels
+              path: content/fr/ts/IV/04_s4_operateurs_partiels.md
+              label: ts-iv-s4
+              first_pdf_page: 237
+              last_pdf_page: 365
+              book_pages: A IV.224-A IV.261, A IV.344-A IV.352
+              subsections: 10
+              statements: 74
+              exercises: 24
+              extraction: native
+              content_sha256: 1e72e48027f5d07f0db9536747af6d390955c1bbb56544fd75d57374bd80f006
+            - kind: section
+              section: 5
+              title: Opérateurs partiels normaux et théorème spectral
+              path: content/fr/ts/IV/05_s5_operateurs_partiels_normaux_et_theoreme.md
+              label: ts-iv-s5
+              first_pdf_page: 275
+              last_pdf_page: 385
+              book_pages: A IV.262-A IV.311, A IV.352-A IV.372
+              subsections: 12
+              statements: 75
+              exercises: 43
+              extraction: native
+              content_sha256: 0c76c1ec7f388f2806caab0de56dc16a3e0fa51fbbf125663308ded44f61be4c
+        - chapter: V
+          title: REPRÉSENTATIONS UNITAIRES
+          sections:
+            - kind: front
+              title: REPRÉSENTATIONS UNITAIRES
+              path: content/fr/ts/V/00_frontmatter.md
+              first_pdf_page: 386
+              last_pdf_page: 386
+              book_pages: A V.373
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: cee14d8c3ca7f6b3a0ffdb9a2662b85e3e969fd3a1e13494f1fad3b5f1f84c7f
+            - kind: section
+              section: 1
+              title: Représentations unitaires
+              path: content/fr/ts/V/01_s1_representations_unitaires.md
+              label: ts-v-s1
+              first_pdf_page: 386
+              last_pdf_page: 499
+              book_pages: A V.373-A V.398, A V.483-A V.486
+              subsections: 11
+              statements: 50
+              exercises: 7
+              extraction: native
+              content_sha256: ace07a756fd31f4402f7803637c8f68f8177e58ef5318cf994fc2b98bf061b8b
+            - kind: section
+              section: 2
+              title: Représentations des groupes localement compacts
+              path: content/fr/ts/V/02_s2_representations_des_groupes_localement.md
+              label: ts-v-s2
+              first_pdf_page: 412
+              last_pdf_page: 505
+              book_pages: A V.399-A V.431, A V.486-A V.492
+              subsections: 10
+              statements: 45
+              exercises: 20
+              extraction: native
+              content_sha256: 814cf1d4a71a20e0200f4c6608ac74c1e5be078e6a50f6d258bd3acab2407719
+            - kind: section
+              section: 3
+              title: Fonctions de type positif
+              path: content/fr/ts/V/03_s3_fonctions_de_type_positif.md
+              label: ts-v-s3
+              first_pdf_page: 444
+              last_pdf_page: 517
+              book_pages: A V.431-A V.456, A V.492-A V.504
+              subsections: 8
+              statements: 39
+              exercises: 23
+              extraction: native
+              content_sha256: d9a7e786cf34b167d022ccb5300bbe4f371298e4b7d07af369c31dfd609152f1
+            - kind: section
+              section: 4
+              title: Représentations des groupes compacts
+              path: content/fr/ts/V/04_s4_representations_des_groupes_compacts.md
+              label: ts-v-s4
+              first_pdf_page: 469
+              last_pdf_page: 529
+              book_pages: A V.456-A V.482, A V.504-A V.516
+              subsections: 9
+              statements: 54
+              exercises: 32
+              extraction: native
+              content_sha256: c561adb0f772f5021d6654d53bfec18e218f5160fc228e520ae87d7a9f68b20c
+            - kind: historical
+              title: Historical Note
+              path: content/fr/ts/V/historical_note.md
+              first_pdf_page: 530
+              last_pdf_page: 553
+              book_pages: A V.517-A V.540
+              subsections: 8
+              statements: 0
+              exercises: 0
+              extraction: native
+              content_sha256: 9a5f2c8cccd6a70e54c6cd279f0db0925bedd07636f29d5f0ab447d142870178

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 165
 statements: 12
 exercises: 16
-content_sha256: 0da1bd5b937f6bd197e7e1828aee350cbb6af216e5f2674d4943317b61e24020
+content_sha256: 68416a9d214702b4eca05fde66d670a50e9ced5b1715e7bbcb79d7fd9795a8c8
 ---
 
 ## § 9. THE FORMULA OF HERMANN WEYL
@@ -136,7 +136,7 @@ Card $D_L<$ Card $D_M$.
 
 It now suffices to apply the induction hypothesis.
 
-#### Theorem 1 {#lie-viii-s9-thm-1 .statement tag=015W}
+#### Theorem 1 (Character Formula of H. Weyl) {#lie-viii-s9-thm-1 .statement tag=015W}
 
 Let M be a finite dimensional simple $\mathfrak{g}$-module, and $\lambda$ its highest weight. Then
 

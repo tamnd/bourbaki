@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 4 chapters, 61 sections, 668 exercises, 2873 extracted pages, 2060 tags, 4179 references, 345 translated files, 5 solutions. Languages: en, fr, vi.
+Audited: 4 chapters, 61 sections, 668 exercises, 2873 extracted pages, 4464 tags, 4179 references, 993 translated files, 5 solutions. Languages: en, fr, vi.
 
 ## Summary
 
@@ -14,15 +14,15 @@ Audited: 4 chapters, 61 sections, 668 exercises, 2873 extracted pages, 2060 tags
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (134) |
-| mathematics | 6 | 2 | 1 | M06 (1), M09 (56) |
+| mathematics | 6 | 2 | 1 | M06 (1), M09 (134) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
 | translation | 8 | 2 | 1 | L08 (1) |
 | solutions | 0 | 4 | 0 | none |
-| publication | 0 | 1 | 0 | P04 (55) |
+| publication | 0 | 1 | 0 | P04 (130) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 247 soft, over 56 rules that ran and 3 that could not.
+0 hard findings and 400 soft, over 56 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -41,7 +41,7 @@ Soft, mathematics.
 
 - `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.47 displays a page over 17 pages, against a mean of 1.23 and a sigma of 1.30
 
-## M09 no base carries two superscripts or two subscripts (56)
+## M09 no base carries two superscripts or two subscripts (134)
 
 Soft, mathematics.
 
@@ -71,9 +71,9 @@ Soft, mathematics.
 - `content/en/lie/IX/exercises/s7/05.md:15` two of one script against one base, which TeX will not set: ^{\partial}_{\partial x^2}^{P_{2i}}
 - `content/en/lie/IX/exercises/s8/01.md:23` two of one script against one base, which TeX will not set: ^{(-}_j^{1)}_{!^i}
 
-and 31 more, which `bourbaki audit -only M09` prints in full.
+and 109 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (55)
+## P04 every math span parses under KaTeX (130)
 
 Soft, publication.
 
@@ -103,7 +103,7 @@ Soft, publication.
 - `content/en/lie/IX/exercises/s8/01.md:23` KaTeX will not set it: Double superscript at position 24: …}^n(g) =^{(-}_j^̲{1)}_{!^i}\alph…: \tau_{ij}^n(g) =^{(-}_j^{1)}_{!^i}\alpha^{i+j-n}\b…
 - `content/en/lie/IX/exercises/s8/01.md:27` KaTeX will not set it: Double superscript at position 18: …+ 1)^{1/2}(^j_i^̲{!(}_{!(}^n_n^-…: (n+ 1)^{1/2}(^j_i^{!(}_{!(}^n_n^-_-^j_{i)!}^{)!})^…
 
-and 30 more, which `bourbaki audit -only P04` prints in full.
+and 105 more, which `bourbaki audit -only P04` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (134)
 

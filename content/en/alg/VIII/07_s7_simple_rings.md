@@ -30,7 +30,7 @@ subsections:
       pdf_page: 143
 statements: 24
 exercises: 16
-content_sha256: 1ee3d2e054ca2baa5e68eda080a1ea2d851fe5647449be475f94805231c82e8e
+content_sha256: 13a105e1ae4a8f7b21014f593edf1d71da3a94fc4158a3550efe2776d02521b0
 ---
 
 ## § 7. SIMPLE RINGS
@@ -77,7 +77,7 @@ Consequently, by Proposition 1 (condition (ii)), commutative simple rings are no
 
 We sometimes say that a ring A is quasi-simple if it is not reduced to 0 and if its only two-sided ideals are 0 and A. We say that A is primitive if it admits a faithful simple module. By Proposition 1, every simple ring is quasi-simple. Since every nonzero ring admits a simple module and the annihilator of a simple module is a two-sided ideal, we see that every quasi-simple ring is primitive. However, there exist quasi-simple rings that are not simple and primitive rings that are not quasi-simple (VIII, p. 128, Exercise 2); such rings are not left Artinian.
 
-#### Theorem 1 {#alg-viii-s7-thm-1 .statement tag=00S3}
+#### Theorem 1 (Wedderburn) {#alg-viii-s7-thm-1 .statement tag=00S3}
 
 A ring is simple if and only if it is isomorphic to a matrix ring $\mathbf{M}_r(D)$, where $r\geqslant 1$ is an integer and D a field.
 

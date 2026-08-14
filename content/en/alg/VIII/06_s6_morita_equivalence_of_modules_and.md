@@ -42,7 +42,7 @@ subsections:
       pdf_page: 128
 statements: 41
 exercises: 8
-content_sha256: dca01570f144ba45ee0938bb509a9dd854da5b0e8768b5efaf3c13a202e821a0
+content_sha256: 22ae1a54d08d23a37d767ca40cb1bbf396cf0a218b29c2c2355c77f480e11542
 ---
 
 ## § 6. MORITA EQUIVALENCE OF MODULES AND ALGEBRAS
@@ -343,7 +343,7 @@ $\lambda : P\otimes_BQ\rightarrow_sA_d$ and $\theta : Q\otimes_AP\rightarrow_sB_
 
 For any left B-module V, denote by $\theta_V$ the homomorphism of B-modules $\theta \otimes 1_V: Q\otimes_AP\otimes_BV\rightarrow V$; it is an isomorphism since $\theta$ is an isomorphism. Likewise, for every left A-module M, denote by $\lambda_M$ the homomorphism of A-modules $\lambda \otimes 1_M: P\otimes_BQ\otimes_AM\rightarrow M$; it is an isomorphism since $\lambda$ is an isomorphism.
 
-#### Theorem 2 {#alg-viii-s6-thm-2 .statement tag=00S2}
+#### Theorem 2 (Morita) {#alg-viii-s6-thm-2 .statement tag=00S2}
 
 a) Let V and W be left B-modules. The mapping $g\mapsto 1_P\otimes g$ is a bijection from Hom$_B(V,W)$ to Hom$_A(P\otimes_BV,P\otimes_BW)$. The inverse bijection sends an element $h$ of Hom$_A(P\otimes_BV,P\otimes_BW)$ to the element $\theta_W\circ (1_Q\otimes h)\circ \theta_V^{-1}$ of Hom$_B(V,W)$.
 

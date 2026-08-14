@@ -45,7 +45,7 @@ subsections:
       pdf_page: 242
 statements: 33
 exercises: 12
-content_sha256: f8b66679a7d47200f00ce0b4877e1ff5c72d894f8d9bb5857fb3c15922912b6c
+content_sha256: bc2ed7444f1eb51924345fd7a15e66bdb6513d28df6c10ca757772ca39e84b7d
 ---
 
 ## § 13. ALGÈBRES ABSOLUMENT SEMI-SIMPLES
@@ -630,7 +630,7 @@ $$
 
 L’algèbre $A''/\mathfrak{r}^{p-1}$ est isomorphe à $A'/\mathfrak{r}'$; on a $(\mathfrak{r}^{p-1})^2= 0$ donc $\mathfrak{r}^{p-1}$ est le radical de $A''$. D’après le cas traité précédemment, il existe une sous-algèbre S de $A''$ telle que $A''= S\oplus \mathfrak{r}^{p-1}$; on déduit de (23) la relation $A = S\oplus \mathfrak{r}$.
 
-#### Corollaire 1 {#alg-viii-s13-prop-7-cor-1 .statement tag=00S8}
+#### Corollaire 1 (théorème de Wedderburn) {#alg-viii-s13-prop-7-cor-1 .statement tag=00S8}
 
 Soient K un corps commutatif, A une K-algèbre, $\mathfrak{r}$ le radical de A. On suppose que la K-algèbre $A/\mathfrak{r}$ est absolument semi-simple.
 

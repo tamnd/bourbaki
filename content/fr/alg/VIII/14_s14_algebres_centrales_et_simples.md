@@ -45,7 +45,7 @@ subsections:
       pdf_page: 265
 statements: 36
 exercises: 19
-content_sha256: 80858a88c5e870c10a153d28ea1cb56185a08b4094a98ff1e9927cf41df47ef5
+content_sha256: ca0004dc7935bf67c646b7e08e52d23627e47b974f85e1817aea2c3423ef1f0c
 ---
 
 ## § 14. ALGÈBRES CENTRALES ET SIMPLES
@@ -184,7 +184,7 @@ Soient A et B des algèbres sur le corps K. On suppose que B est centrale, simpl
 
 Avec les notations du théorème 2, on a en effet Z = K, d’où $f_Z=g_Z$.
 
-#### Théorème 3 {#alg-viii-s14-thm-3 .statement tag=00S9}
+#### Théorème 3 (Skolem-Noether) {#alg-viii-s14-thm-3 .statement tag=00S9}
 
 Soient A et B des K-algèbres simples, Z(A) et Z(B) leurs centres. On suppose que l’algèbre B est de degré fini sur K, et que l’algèbre $Z(A)\otimes_KZ(B)$est un corps (ce qui a lieu en particulier si A ou B est centrale). Soient $f$ et $g$ des homomorphismes de K-algèbres de B dans A. Il existe un automorphisme intérieur $\theta$ de A tel que $g=\theta \circ f$.
 

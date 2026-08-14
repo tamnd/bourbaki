@@ -46,7 +46,7 @@ subsections:
       pdf_page: 283
 statements: 36
 exercises: 19
-content_sha256: c71e4e63b26e1e1b6504a6aa65c3af96ad85bf3e3e06ffe52d663cfcb59c3fc4
+content_sha256: 71bd3e725cf0dd55080ebca27c90559e1f515b85cd70ece94a89b411766ca274
 ---
 
 ## § 14. CENTRAL SIMPLE ALGEBRAS
@@ -185,7 +185,7 @@ Let A and B be algebras over the field K. Suppose that B is central simple and o
 
 In the notation of Theorem 2, we have Z = K and therefore $f_Z= 1_Z=g_Z$.
 
-#### Theorem 3 {#alg-viii-s14-thm-3 .statement tag=00S9}
+#### Theorem 3 (Skolem–Noether) {#alg-viii-s14-thm-3 .statement tag=00S9}
 
 Let A and B be simple K-algebras and Z(A) and Z(B) their centers. Suppose that the algebra B has finite degree over K and that the algebra $Z(A)\otimes_KZ(B)$ is a field (which is, in particular, the case when A or B is central). Let $f$ and $g$ be K-algebra homomorphisms from B to A. There exists an inner automorphism $\theta$ of A such that $g=\theta \circ f$.
 

@@ -77,11 +77,21 @@ jobs:
       # which are the same fault twice over: the line gathering ran two display
       # lines together, or set a matrix inline, and the scripts of one landed on
       # the scripts of the other.
+      #
+      # fr/ta and fr/ts enter at the numbers they measure, 59 and 80, and they
+      # have had none of the rounds of repair the other three have had. Both are
+      # mostly the double scripts described above, and the rest is the shape
+      # Topologie générale writes the inverse image with: the minus one is set
+      # over the letter rather than after it, and the layer reports the minus in
+      # front of the letter and the one behind it, so a page ends up saying
+      # ^-f^1 where it printed the inverse image of f. There are twelve of
+      # those and they want the same treatment the other split index got, which
+      # is a reading of the geometry and not a table.
       - name: publish -check
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=25,fr/alg=19,en/lie=41
+        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=25,fr/alg=19,en/lie=41,fr/ta=59,fr/ts=80
 
       # Where Pages will serve this from, asked rather than typed, so the links
       # are right under tamnd.github.io/bourbaki and under a custom domain both.
