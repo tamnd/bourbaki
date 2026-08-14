@@ -22,14 +22,14 @@ subsections:
       pdf_page: 374
 statements: 10
 exercises: 7
-content_sha256: eb029a5940a0e8efa653e42faea62e419926512b4e5224112cea8769a115a867
+content_sha256: d31b4be0a28e051d53e054449fca9f4c3e20f71756a7b6eb4d0636bcb8e68567
 ---
 
 ## § 18. SIMPLE ALGEBRAS OVER A FINITE FIELD
 
 ### 1. Polynomials over a Finite Field
 
-#### Theorem 1 {#alg-viii-s18-thm-1 .statement tag=00SA}
+#### Theorem 1 (Chevalley–Warning) {#alg-viii-s18-thm-1 .statement tag=00SA}
 
 Let K be a finite commutative field of characteristic $p$. Let $n$ be an integer $\geqslant 1$ and $(f_i)_{i\in I}$ a finite family of nonzero elements of $K[X_1, . . . ,X_n]$. Denote by Z the set of elements $\mathbf{x}$ of $K^n$ such that we have $f_i(\mathbf{x}) = 0$ for $i\in I$. If we have $n >\sum_{i\in I}$ deg($f_i$), then the cardinal of Z is divisible by $p$.
 
@@ -91,7 +91,7 @@ Let $(e_1, . . . , e_n)$ be a basis of V over K. By the definition of homogeneou
 
 ### 2. Simple Algebras over Finite Fields
 
-#### Theorem 2 {#alg-viii-s18-thm-2 .statement tag=00SB}
+#### Theorem 2 (Wedderburn) {#alg-viii-s18-thm-2 .statement tag=00SB}
 
 Every finite field is commutative.
 

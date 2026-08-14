@@ -29,7 +29,7 @@ subsections:
       pdf_page: 178
 statements: 29
 exercises: 17
-content_sha256: 12e3be0b241f81b98cb35188f5bf0071b0245c196bd8f28247108a9b75e9cc5c
+content_sha256: 255448d2efd9757d8216b0db186bd1fca06077284f78065762a7531bf0e92f1e
 ---
 
 ## § 11. CLASSES OF NILPOTENT ELEMENTS AND $\mathfrak{s}\mathfrak{l}_{2}$-TRIPLETS
@@ -170,7 +170,7 @@ $$
 
 Hence there exists $z'\in \mathfrak{n}$ such that $[h, z'] + 2z'= [h, z] + 2z$, that is, $[h, y] =-2y$, putting $y=z-z'$. Since $[x, y] = [x, z] =-h$, this completes the proof.
 
-#### Proposition 2 {#lie-viii-s11-prop-2 .statement tag=0179}
+#### Proposition 2 (Jacobson-Morozov) {#lie-viii-s11-prop-2 .statement tag=0179}
 
 Assume that $\mathfrak{g}$ is semi-simple. Let $x$ be a non-zero nilpotent element of $\mathfrak{g}$. There exist $h, y\in \mathfrak{g}$ such that $(x, h, y)$ is an $\mathfrak{s}\mathfrak{l}_2$-triplet.
 

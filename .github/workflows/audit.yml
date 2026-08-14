@@ -82,6 +82,24 @@ jobs:
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: go run ./cmd/bourbaki assemble -book lie-vii-ix -check
+      - name: assemble -check, Topologie algébrique I to IV
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki assemble -book ta-i-iv-fr -lang fr -check
+      # Théories spectrales is one volume in content/fr/ts and two books in
+      # pages/, because it was printed in two, so both are checked and both
+      # write into the same tree.
+      - name: assemble -check, Théories spectrales I and II
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki assemble -book ts-i-ii-fr -lang fr -check
+      - name: assemble -check, Théories spectrales III to V
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki assemble -book ts-iii-v-fr -lang fr -check
       - name: tags verify
         working-directory: .solver
         env:

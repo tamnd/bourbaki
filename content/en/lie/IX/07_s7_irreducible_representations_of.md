@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: c2e56ab4c40ab5de27e745b16ee5016d5722d942bed053357b8b7204da0caf57
+content_sha256: cf0a09514cb74911f68c6d01931ba975cfd9aba3031f7e95f00d2e405465755e
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -304,7 +304,7 @@ $$
 
 For all $\lambda \in X_{++}$, denote by $\chi_{\lambda}$ the character of an irreducible representation of G of highest weight $\lambda$.
 
-#### Theorem 2 {#lie-ix-s7-thm-2 .statement tag=01GD}
+#### Theorem 2 (H. Weyl) {#lie-ix-s7-thm-2 .statement tag=01GD}
 
 For all $\lambda \in X_{++}$, we have $J(\rho ).\chi_{\lambda}|T = J(\lambda \rho )$.
 

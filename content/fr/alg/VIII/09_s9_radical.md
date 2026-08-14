@@ -33,7 +33,7 @@ subsections:
       pdf_page: 162
 statements: 49
 exercises: 31
-content_sha256: 7838acd983bda31fb85481c8e30ec20927f6c73a3ca79a6edf2971c78f199a69
+content_sha256: de6699c09534d49f0005c1650b8849b586e897fe27292c8fca56200be42daa8e
 ---
 
 ## § 9. RADICAL
@@ -176,7 +176,7 @@ Soit $\mathfrak{a}$ un idéal bilatère maximal de A. Dans l’anneau $A/\mathfr
 
 ☡ On dit qu’un idéal à gauche (ou à droite) de A est un nilidéal s’il se compose d’éléments nilpotents. On dit qu’un idéal bilatère $\mathfrak{a}$ de A est nilpotent s’il existe un entier $n\geqslant 1$ tel que $\mathfrak{a}^n= 0$, c’est-à-dire (I, p. 102) tel que l’on ait $x_1. . . x_n= 0$ pour toute suite $(x_1, . . . , x_n)$ d’éléments de $\mathfrak{a}$. Tout idéal bilatère nilpotent est un nilidéal, mais il peut exister des nilidéaux qui ne sont pas contenus dans un idéal bilatère nilpotent (VIII, p. 162, exerc. 9).
 
-#### Théorème 1 {#alg-viii-s9-thm-1 .statement tag=00S5}
+#### Théorème 1 (Jacobson) {#alg-viii-s9-thm-1 .statement tag=00S5}
 
 Le radical d’un anneau A se compose des éléments $x\in A$tels que $1 +ax$ soit inversible à gauche (I, p. 15) pour tout $a\in A$. C’est aussi le plus grand des idéaux bilatères $\mathfrak{a}$ tels que $1 +x$ soit inversible pour tout $x\in \mathfrak{a}$. Le radical de A contient tout nilidéal à gauche de A.
 
@@ -242,7 +242,7 @@ Soit P un sous-module maximal de M ; le A-module $M/P$ est simple, donc il est a
 
 On a évidemment $\mathfrak{R}(A_s) =\mathfrak{R}(A)A_s$. Si le A-module M est projectif, il existe un A-module N tel que $M\oplus N$ soit libre, c’est-à-dire somme directe d’une famille $(L_i)_{i\in I}$ de modules isomorphes à $A_s$. D’après le cor. 2 de VIII, p. 148, on a $\mathfrak{R}(M\oplus N) =$ $\mathfrak{R}(M)\oplus \mathfrak{R}(N)$ et $\mathfrak{R}(\bigoplus_{i\in I}L_i)=\bigoplus_{i\in I}\mathfrak{R}(L_i)$; de l’égalité $\mathfrak{R}(L_i) =\mathfrak{R}(A)L_i$, on déduit alors l’égalité $\mathfrak{R}(M) =\mathfrak{R}(A)M$.
 
-#### Théorème 2 {#alg-viii-s9-thm-2 .statement tag=00S6}
+#### Théorème 2 (« lemme de Nakayama ») {#alg-viii-s9-thm-2 .statement tag=00S6}
 
 Soient M un A-module et $\mathfrak{a}$ un idéal bilatère de A. Supposons satisfaite l’une des deux hypothèses suivantes :
 

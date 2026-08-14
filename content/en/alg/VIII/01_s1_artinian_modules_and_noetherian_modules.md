@@ -30,7 +30,7 @@ subsections:
       pdf_page: 26
 statements: 36
 exercises: 28
-content_sha256: 17a577e4eaa9e0a250681b465e79693fa82515b4e2c87bb92b49d011a6060bf6
+content_sha256: fcba0c65e9200f571f11d216e1445424d50d18dde35e6c5c0d98cf44c45badeb
 ---
 
 ## § 1. ARTINIAN MODULES AND NOETHERIAN MODULES
@@ -379,7 +379,7 @@ It follows that $\mathfrak{b}$ is equal to $\mathfrak{c}$; it is therefore a fin
 
 If the endomorphism $\sigma$ of the ring A is not an automorphism, then the ring $A[X]_{\sigma ,d}$ is not necessarily left Noetherian, even when A is a Noetherian commutative ring (VIII, p. 22, Exercise 26).
 
-#### Corollary 1 {#alg-viii-s1-thm-2-cor-1 .statement tag=00RW}
+#### Corollary 1 (Hilbert) {#alg-viii-s1-thm-2-cor-1 .statement tag=00RW}
 
 Let A be a Noetherian commutative ring. For every integer $n\geqslant 0$, the polynomial algebra $A[X_1, . . . ,X_n]$ is a Noetherian ring.
 

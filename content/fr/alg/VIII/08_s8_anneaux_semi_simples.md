@@ -29,14 +29,14 @@ subsections:
       pdf_page: 147
 statements: 30
 exercises: 6
-content_sha256: b57dc581ca10984e6f769821ee4f7f61fabd2e6f7c3b257442c43a4830830474
+content_sha256: b8cd5a2eda963f903b7f438a590699901817ce67cce1d1577041c3b3a9600930
 ---
 
 ## § 8. ANNEAUX SEMI-SIMPLES
 
 ### 1. Anneaux semi-simples
 
-#### Théorème 1 {#alg-viii-s8-thm-1 .statement tag=00S4}
+#### Théorème 1 (Wedderburn) {#alg-viii-s8-thm-1 .statement tag=00S4}
 
 Soit A un anneau. Les conditions suivantes sont équivalentes :
 

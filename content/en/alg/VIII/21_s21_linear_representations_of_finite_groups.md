@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: bcc10cca24da9b98ed1be070ef13086751b9e5f1f6da884c13073eca99934d6a
+content_sha256: 39cac58c0492fe4210953de6b668289f111a68b0246c625e697f294ef8d6f732
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -203,7 +203,7 @@ for every $x\in M$. Since N is stable under the action of G and $p$ induces the 
 
 The K-module M is therefore the direct sum of the image N of $q$ and the kernel of $q$. We have $g q(x) =q(gx)$ for every $x\in M$ and $g\in G$, so that the kernel of $q$ is a K[G]-submodule of M. This proves that N is a direct factor of the K[G]-module M.
 
-#### Corollary 1 {#alg-viii-s21-thm-1-cor-1 .statement tag=00SC}
+#### Corollary 1 (Maschke) {#alg-viii-s21-thm-1-cor-1 .statement tag=00SC}
 
 Suppose that the group G is finite and that K is a commutative field. The algebra K[G] is semisimple if and only if the element $|G|$ of the field K is not zero.
 
@@ -477,7 +477,7 @@ $$
 
 for every $f=\sum f_gg$ and $f'=\sum f_g'g$ belonging to K[G]. We have $\langle f, f'\rangle_G=$ $|G|^{-2}\tau (f f')$.
 
-#### Proposition 4 {#alg-viii-s21-prop-4 .statement tag=00SG}
+#### Proposition 4 (Orthogonality relation for characters) {#alg-viii-s21-prop-4 .statement tag=00SG}
 
 For $\lambda$ and $\mu$ in $\widehat{G}$, we have $\langle \chi_{\lambda}, \chi_\mu\rangle_G=\delta_{\lambda \mu}$.
 

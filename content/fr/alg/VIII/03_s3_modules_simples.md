@@ -33,7 +33,7 @@ subsections:
       pdf_page: 58
 statements: 23
 exercises: 10
-content_sha256: 21593dbc947e654587c38614edf84647e75f5b375680b9554d8a371878158cd8
+content_sha256: 878b3b0e4c5d1ebb2849546169639f3a27e5804983082b2065db897a8b3fbaaf
 ---
 
 ## § 3. MODULES SIMPLES
@@ -114,7 +114,7 @@ b) Si N est simple, on a Im($f$) $= N$, donc $f$ est surjectif.
 
 c) Si M et N sont simples, $f$ est à la fois injectif et surjectif.
 
-#### Corollaire {#alg-viii-s3-n2-cor-1 .statement tag=00RZ}
+#### Corollaire (Lemme de Schur) {#alg-viii-s3-n2-cor-1 .statement tag=00RZ}
 
 L’anneau des endomorphismes d’un module simple est un corps.
 

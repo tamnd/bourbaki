@@ -746,6 +746,303 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ta-i-iv-fr",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "REVÊTEMENTS",
+          "total": 0,
+          "sections": null
+        },
+        {
+          "chapter": "II",
+          "title": "GROUPOÏDES",
+          "total": 0,
+          "sections": null
+        },
+        {
+          "chapter": "III",
+          "title": "HOMOTOPIE ET GROUPOÏDE DE POINCARÉ",
+          "total": 0,
+          "sections": null
+        },
+        {
+          "chapter": "IV",
+          "title": "ESPACES DÉLAÇABLES",
+          "total": 0,
+          "sections": null
+        }
+      ]
+    },
+    {
+      "id": "ts-i-ii-fr",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "ALGÈBRES NORMÉES",
+          "total": 158,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ts-i-s1",
+              "dir": "s1",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "ts-i-s2",
+              "dir": "s2",
+              "count": 37,
+              "first": 1,
+              "last": 37,
+              "starred": 4
+            },
+            {
+              "section": 3,
+              "label": "ts-i-s3",
+              "dir": "s3",
+              "count": 29,
+              "first": 1,
+              "last": 29,
+              "starred": 1
+            },
+            {
+              "section": 4,
+              "label": "ts-i-s4",
+              "dir": "s4",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 2
+            },
+            {
+              "section": 5,
+              "label": "ts-i-s5",
+              "dir": "s5",
+              "count": 7,
+              "first": 1,
+              "last": 7
+            },
+            {
+              "section": 6,
+              "label": "ts-i-s6",
+              "dir": "s6",
+              "count": 32,
+              "first": 1,
+              "last": 32,
+              "starred": 2
+            },
+            {
+              "section": 7,
+              "label": "ts-i-s7",
+              "dir": "s7",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 1
+            },
+            {
+              "section": 8,
+              "label": "ts-i-s8",
+              "dir": "s8",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 3
+            }
+          ]
+        },
+        {
+          "chapter": "II",
+          "title": "GROUPES LOCALEMENT COMPACTS COMMUTATIFS",
+          "total": 101,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ts-ii-s1",
+              "dir": "s1",
+              "count": 68,
+              "first": 1,
+              "last": 68,
+              "starred": 6
+            },
+            {
+              "section": 2,
+              "label": "ts-ii-s2",
+              "dir": "s2",
+              "count": 14,
+              "first": 1,
+              "last": 14,
+              "starred": 3
+            },
+            {
+              "section": 3,
+              "label": "ts-ii-s3",
+              "dir": "s3",
+              "count": 19,
+              "first": 1,
+              "last": 19,
+              "starred": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ts-iii-v-fr",
+      "chapters": [
+        {
+          "chapter": "III",
+          "title": "APPLICATIONS LINÉAIRES COMPACTES ET PERTURBATIONS",
+          "total": 99,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ts-iii-s1",
+              "dir": "s1",
+              "count": 37,
+              "first": 1,
+              "last": 37,
+              "starred": 2
+            },
+            {
+              "section": 2,
+              "label": "ts-iii-s2",
+              "dir": "s2",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 3,
+              "label": "ts-iii-s3",
+              "dir": "s3",
+              "count": 8,
+              "first": 1,
+              "last": 8
+            },
+            {
+              "section": 4,
+              "label": "ts-iii-s4",
+              "dir": "s4",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 5,
+              "label": "ts-iii-s5",
+              "dir": "s5",
+              "count": 11,
+              "first": 1,
+              "last": 11
+            },
+            {
+              "section": 6,
+              "label": "ts-iii-s6",
+              "dir": "s6",
+              "count": 30,
+              "first": 1,
+              "last": 30
+            }
+          ]
+        },
+        {
+          "chapter": "IV",
+          "title": "THÉORIE SPECTRALE HILBERTIENNE",
+          "total": 150,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ts-iv-s1",
+              "dir": "s1",
+              "count": 22,
+              "first": 1,
+              "last": 22
+            },
+            {
+              "section": 2,
+              "label": "ts-iv-s2",
+              "dir": "s2",
+              "count": 28,
+              "first": 1,
+              "last": 28,
+              "starred": 2
+            },
+            {
+              "section": 3,
+              "label": "ts-iv-s3",
+              "dir": "s3",
+              "count": 33,
+              "first": 1,
+              "last": 33
+            },
+            {
+              "section": 4,
+              "label": "ts-iv-s4",
+              "dir": "s4",
+              "count": 24,
+              "first": 1,
+              "last": 24
+            },
+            {
+              "section": 5,
+              "label": "ts-iv-s5",
+              "dir": "s5",
+              "count": 43,
+              "first": 1,
+              "last": 43,
+              "starred": 1
+            }
+          ]
+        },
+        {
+          "chapter": "V",
+          "title": "REPRÉSENTATIONS UNITAIRES",
+          "total": 82,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ts-v-s1",
+              "dir": "s1",
+              "count": 7,
+              "first": 1,
+              "last": 7
+            },
+            {
+              "section": 2,
+              "label": "ts-v-s2",
+              "dir": "s2",
+              "count": 20,
+              "first": 1,
+              "last": 20,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "ts-v-s3",
+              "dir": "s3",
+              "count": 23,
+              "first": 1,
+              "last": 23
+            },
+            {
+              "section": 4,
+              "label": "ts-v-s4",
+              "dir": "s4",
+              "count": 32,
+              "first": 1,
+              "last": 32,
+              "starred": 2
+            }
+          ]
+        }
+      ]
     }
   ]
 }

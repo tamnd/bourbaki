@@ -30,14 +30,14 @@ subsections:
       pdf_page: 162
 statements: 30
 exercises: 6
-content_sha256: 23c28681bfd7d9c9ee72eb0129068883fb103a617f494201f60b1bf885e4afbd
+content_sha256: ddbe60c24a0a35af0471e643272aee5f82ebc557f3541f38cbb86f2f793e6b73
 ---
 
 ## § 8. SEMISIMPLE RINGS
 
 ### 1. Semisimple Rings
 
-#### Theorem 1 {#alg-viii-s8-thm-1 .statement tag=00S4}
+#### Theorem 1 (Wedderburn) {#alg-viii-s8-thm-1 .statement tag=00S4}
 
 Let A be a ring. The following properties are equivalent:
 

@@ -34,7 +34,7 @@ subsections:
       pdf_page: 178
 statements: 49
 exercises: 31
-content_sha256: cdf69741edd2e7bed2a3ba3bb66c89ed8bcd5a650dba337f40b3c6ca67b8d8a3
+content_sha256: 66edee0eaa77a1ada25ae2c77a16aafeb9768e48d9d685064d798c786800652a
 ---
 
 ## § 9. RADICAL
@@ -177,7 +177,7 @@ Let $\mathfrak{a}$ be a maximal two-sided ideal of A. In the ring $A/\mathfrak{a
 
 We say that a left (or right) ideal of A is a nil ideal if it consists of nilpotent elements. We say that a two-sided ideal $\mathfrak{a}$ of A is nilpotent if there exists an integer $n\geqslant 1$ such that $\mathfrak{a}^n= 0$, that is (I, §8, No. 9, p. 107), such that we have $x_1\cdots x_n= 0$ for every sequence $(x_1, . . . , x_n)$ of elements of $\mathfrak{a}$. Every nilpotent two-sided ideal is a nil ideal, but there can exist nil ideals that are not contained in a nilpotent two-sided ideal (VIII, p. 167, Exercise 9).
 
-#### Theorem 1 {#alg-viii-s9-thm-1 .statement tag=00S5}
+#### Theorem 1 (Jacobson) {#alg-viii-s9-thm-1 .statement tag=00S5}
 
 The radical of a ring A consists of the elements $x\in A$ such that $1 +ax$ is left invertible (I, §2, No. 3, p. 15) for every $a\in A$. It is also the largest two-sided ideal $\mathfrak{a}$ such that $1 +x$ is invertible for every $x\in \mathfrak{a}$. The radical of A contains every left nil ideal of A.
 
@@ -241,7 +241,7 @@ Let P be a maximal submodule of M; the A-module $M/P$ is simple, hence annihilat
 
 We clearly have $\mathfrak{R}(A_s) =\mathfrak{R}(A)A_s$. If the A-module M is projective, then there exists an A-module N such that $M\oplus N$ is free, that is, the direct sum of a family $(L_i)_{i\in I}$ of modules isomorphic to $A_s$. By Corollary 2 of VIII, p. 152, we have $\mathfrak{R}(M\oplus N) =\mathfrak{R}(M)\oplus \mathfrak{R}(N)$ and $\mathfrak{R}\bigoplus_{i\in I}L_i=\bigoplus_{i\in I}\mathfrak{R}(L_i)$. We then deduce $\mathfrak{R}(M) =\mathfrak{R}(A)M$ from the equality $\mathfrak{R}(L_i) =\mathfrak{R}(A)L_i$.
 
-#### Theorem 2 {#alg-viii-s9-thm-2 .statement tag=00S6}
+#### Theorem 2 (“Nakayama’s lemma”) {#alg-viii-s9-thm-2 .statement tag=00S6}
 
 Let M be an A-module and $\mathfrak{a}$ a two-sided ideal of A. Suppose that one of the following conditions is satisfied:
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: 0a3b0560e6477aef85b5b033a11cf8828cefb5254aaf75e2764f57f2ebd87df9
+content_sha256: b4f0de44d1619bc350bca1bb7ad3da1fea92b250a1806c808dd52f47490eb8f2
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
@@ -208,7 +208,7 @@ $$
 
 hence the lemma.
 
-#### Theorem 1 {#lie-ix-s6-thm-1 .statement tag=01F1}
+#### Theorem 1 (H. Weyl) {#lie-ix-s6-thm-1 .statement tag=01F1}
 
 The measure $dg$ on G is the image under the map $(g, t) \rightarrow gtg^{-1}$ from $G\times T$ to G of the measure $dg\otimes_{w(G)}^1\delta_Gdt$, where
 

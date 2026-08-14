@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: 9fb80605d931826f21789db4de751932e6c8c8e2a202db23b38971255752d9e3
+content_sha256: c04c0da23de90b86fa0ef1a5bfacdd55ec448cf0e8d692737d85e505b7bcfe22
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -623,7 +623,7 @@ $$
 
 The algebra $A''/\mathfrak{r}^{p-1}$ is isomorphic to $A'/\mathfrak{r}'$; we have $(\mathfrak{r}^{p-1})^2= 0$, so $\mathfrak{r}^{p-1}$ is the radical of $A''$. By the case we just treated, there exists a subalgebra S of $A''$ such that $A''= S\oplus \mathfrak{r}^{p-1}$; we deduce the relation $A = S\oplus \mathfrak{r}$ from (23).
 
-#### Corollary 1 {#alg-viii-s13-prop-7-cor-1 .statement tag=00S8}
+#### Corollary 1 (Wedderburn’s theorem) {#alg-viii-s13-prop-7-cor-1 .statement tag=00S8}
 
 Let K be a commutative field, A a K-algebra, and $\mathfrak{r}$ the radical of A. Suppose that the K-algebra $A/\mathfrak{r}$ is absolutely semisimple.
 

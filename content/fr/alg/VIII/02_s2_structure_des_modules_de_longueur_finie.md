@@ -33,7 +33,7 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 19
-content_sha256: 803669ca3d99fd8bc964b35d1cb73984b02451895363d5691f96f427ece52fc9
+content_sha256: 38cfe3563a428d261c3c0498c06371ce5f335e26115bbae63542aee9025a08f5
 ---
 
 ## § 2. STRUCTURE DES MODULES DE LONGUEUR FINIE
@@ -246,7 +246,7 @@ $*$Tout module simple est primordial (VIII, p. 41) ; tout module semi-simple est
 
 Si A est un anneau noethérien à gauche, tout A-module injectif est semi-primordial (X, p. 21, prop. 14 et p. 22, th. 3, b)). $*$
 
-#### Théorème 1 {#alg-viii-s2-thm-1 .statement tag=00RX}
+#### Théorème 1 (Azumaya) {#alg-viii-s2-thm-1 .statement tag=00RX}
 
 Soient A un anneau, L un A-module primordial et M un A-module semi-primordial. Il existe un unique cardinal, noté [M : L], possédant la propriété suivante :
 
@@ -366,7 +366,7 @@ Soient M et $M'$ des A-modules semi-primordiaux. Il résulte aussitôt du lemme 
 
 ### 5. Structure des modules de longueur finie
 
-#### Théorème 2 {#alg-viii-s2-thm-2 .statement tag=00RY}
+#### Théorème 2 (Krull-Remak-Schmidt) {#alg-viii-s2-thm-2 .statement tag=00RY}
 
 Soient A un anneau et M un A-module de longueur finie.
 

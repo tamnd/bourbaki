@@ -30,7 +30,7 @@ subsections:
       pdf_page: 433
 statements: 20
 exercises: 15
-content_sha256: aed85e9cce0839fe9a7a4e1d620e065bf57525d77eec3dbce8381edf1fef8880
+content_sha256: a21defe43482cf661215448bdef1dbbe6cd9a4bde962f38c0cff113ca237959f
 ---
 
 ### APPENDICE 1 ALGÈBRES SANS ÉLÉMENT UNITÉ
@@ -217,7 +217,7 @@ Soit M un A-pseudomodule à gauche semi-simple et soit $x$ un élément de M. Il
 
 Soit N le A-pseudomodule à gauche $\widetilde{A}x/Ax$. Il vérifie AN $=\{0\}$. D’après le corollaire 3 de VIII, p. 52 appliqué aux $\widetilde{A}$-modules M et $\widetilde{A}x$, le A-pseudomodule N est semi-simple. Par définition, tout sous-pseudomodule simple S de N vérifie AS $\not=\{0\}$. Par conséquent, le pseudomodule N est nul et on obtient que $x\in Ax$.
 
-#### Théorème 1 {#alg-viii-a1-thm-1 .statement tag=00SD}
+#### Théorème 1 (Théorème de densité de Jacobson) {#alg-viii-a1-thm-1 .statement tag=00SD}
 
 Soit M un A-pseudomodule à gauche semi-simple. Soit $b$ un élément du bicommutant du $\widetilde{A}$-module M. Soit $\{x_1, . . . , x_n\}$ une partie finie de M. Alors il existe un élément $a\in$ A tel que $bx_i=ax_i$ pour tout $i\in [1, n]$.
 

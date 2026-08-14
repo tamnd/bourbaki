@@ -34,7 +34,7 @@ subsections:
       pdf_page: 68
 statements: 23
 exercises: 10
-content_sha256: 485024f3f61ab2ab75ea92b18331ced4082da94086552987c8888a732338a56b
+content_sha256: 0086266c71c0c87c1dba800a7ab95a073135a25e6906f0d4a8a767c2676b5856
 ---
 
 ## § 3. SIMPLE MODULES
@@ -115,7 +115,7 @@ b) If N is simple, then we have Im($f$) $= N$, so $f$ is surjective.
 
 c) If M and N are simple, then $f$ is both injective and surjective.
 
-#### Corollary {#alg-viii-s3-n2-cor-1 .statement tag=00RZ}
+#### Corollary (Schur’s lemma) {#alg-viii-s3-n2-cor-1 .statement tag=00RZ}
 
 The endomorphism ring of a simple module is a field.
 

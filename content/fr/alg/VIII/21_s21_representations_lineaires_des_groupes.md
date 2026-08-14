@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: 7a542126f546b95146f4c4d19e85bff6bfd95b1da9adba64e3b99971d76d9978
+content_sha256: 5e3ba1a9587dc7f78f7e6bcbfd35e94352655a3e65fd20e397bffbdbe94a4b12
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -202,7 +202,7 @@ pour tout $x\in M$. Comme N est stable pour l’action de G et que $p$ induit l�
 
 Le K-module M est donc somme directe de l’image N de $q$ et du noyau de $q$. On a $g q(x) =q(gx)$ pour tout $x\in M$ et tout $g\in G$, de sorte que le noyau de $q$ est un sous-K[G]-module de M. Cela prouve que N est facteur direct du K[G]-module M.
 
-#### Corollaire 1 {#alg-viii-s21-thm-1-cor-1 .statement tag=00SC}
+#### Corollaire 1 (Maschke) {#alg-viii-s21-thm-1-cor-1 .statement tag=00SC}
 
 On suppose que le groupe G est fini et que K est un corps commutatif. L’algèbre K[G] est semi-simple si et seulement si l’élément $|G|$ du corps K n’est pas nul.
 
@@ -502,7 +502,7 @@ $$
 
 pour tous $f=\sum f_gg$ et $f'=\sum f_g'g$ appartenant à K[G]. On a $\langle f, f'\rangle_G=|G|^{-2}\tau (f f')$.
 
-#### Proposition 4 {#alg-viii-s21-prop-4 .statement tag=00SG}
+#### Proposition 4 (Relation d’orthogonalité des caractères) {#alg-viii-s21-prop-4 .statement tag=00SG}
 
 Pour $\lambda$ et $\mu$ dans $\widehat{G}$, on a $\langle \chi_{\lambda}, \chi_{\mu}\rangle_G=\delta_{\lambda \mu}$.
 
