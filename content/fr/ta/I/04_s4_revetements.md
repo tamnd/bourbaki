@@ -53,7 +53,7 @@ subsections:
       pdf_page: 105
 statements: 50
 exercises: 0
-content_sha256: 20f7aa73947ed388b45a4d5ea703262efec0626d89dfa3fa4de175912003c11a
+content_sha256: 95edacb7fd6e2d957335a5c93193968f19ddc5927d6e92aac9f4b4e07418c748
 ---
 
 ## § 4. REVÊTEMENTS
@@ -225,7 +225,7 @@ $$
 En effet, si $z$ est un point de G, toutes les fibres de l’application
 
 $$
-f_{_-g^1(z)}:\overset{-1}{f}(\overset{-1}{g}(z))\rightarrow \overset{-1}{g}(z)
+f_{\overset{-1}{g}(z)}:\overset{-1}{f}(\overset{-1}{g}(z))\rightarrow \overset{-1}{g}(z)
 $$
 
 ont pour cardinal deg(E$, f)$, et $\overset{-1}{g}(z)$ a pour cardinal deg(F$, g)$. L’assertion résulte donc du principe des bergers (E, III, p. 41, prop. 9).

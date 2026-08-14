@@ -53,7 +53,7 @@ subsections:
       pdf_page: 82
 statements: 35
 exercises: 0
-content_sha256: a29ded564fa841ba238531eb88ac07f749f48fef591d111e13dfddb39c59e86a
+content_sha256: 87a541a4bfee295892f6aca8b0e6995640615daddcbc4e8ffdb23d8c0604e798
 ---
 
 ## § 3. FAISCEAUX
@@ -442,7 +442,7 @@ Ces résultats permettent de déduire un énoncé relatif aux B-espaces étalés
 
 Soient A et B des espaces topologiques et $u: A\rightarrow B$ une application continue.
 
-Soit $\mathscr{F}= (\mathscr{F}(U), f_{UV})$ un préfaisceau sur A. On définit un préfaisceau $\mathscr{F}'$ sur B de la façon suivante : pour tout ouvert U de B, posons $\mathscr{F}'(U) =\mathscr{F}(\overset{-1}{u}(U))$ et pour tout couple $(U,V)$ d’ouverts de B tel que U $\subset V$, posons $f_{UV}'=f_{_-u^1(U)\overset{-1}{u}(V)}$. Alors $(\mathscr{F}'(U), f_{UV}'$ ) est un préfaisceau sur B. On le note $u_*(\mathscr{F})$ et on l’appelle le préfaisceau image directe du préfaisceau $\mathscr{F}$ par l’application $u$.
+Soit $\mathscr{F}= (\mathscr{F}(U), f_{UV})$ un préfaisceau sur A. On définit un préfaisceau $\mathscr{F}'$ sur B de la façon suivante : pour tout ouvert U de B, posons $\mathscr{F}'(U) =\mathscr{F}(\overset{-1}{u}(U))$ et pour tout couple $(U,V)$ d’ouverts de B tel que U $\subset V$, posons $f_{UV}'=f_{\overset{-1}{u}(U)\overset{-1}{u}(V)}$. Alors $(\mathscr{F}'(U), f_{UV}'$ ) est un préfaisceau sur B. On le note $u_*(\mathscr{F})$ et on l’appelle le préfaisceau image directe du préfaisceau $\mathscr{F}$ par l’application $u$.
 
 Si $(U_i)_{i\in I}$ est une famille d’ouverts de B, on a $\overset{-1}{u}(\bigcup_{i\in I}U_i) =$ $\bigcup_{i\in I}\overset{-1}{u}(U_i)$ et $\overset{-1}{u}(\bigcap_{i\in I}U_i) =\bigcap_{i\in I}\overset{-1}{u}(U_i)$ (E, II, p. 25, prop. 3 et 4). Il en résulte aussitôt que, si $\mathscr{F}$ jouit de la propriété $(F_1)$ (resp. $(F_2)$) des faisceaux (I, p. 43), il en est de même de $u_*(\mathscr{F})$. Par suite, l’image directe d’un faisceau est un faisceau.
 
@@ -515,7 +515,7 @@ où $u^*(\sigma_{\mathscr{G}}):u^*(\mathscr{G})\rightarrow u^*(\widetilde{\maths
 Nous p$\widetilde{o}$uvons donc supposer que $\mathscr{G}$ est un faisceau. Pour qu’un morphisme de faisceaux $\psi :u^*(\mathscr{G})\rightarrow \mathscr{F}$ satisfasse à la conclusion de la proposition 4, il faut et il suffit que pour tout ouvert V de B et toute section $t$ de $E_{\mathscr{G}}$ au-dessus de V, on ait
 
 $$
-\varphi_V(t) =\psi_{_-u^1(V)}(t\circ u|\overset{-1}{u}(V)) \tag{6}
+\varphi_V(t) =\psi_{\overset{-1}{u}(V)}(t\circ u|\overset{-1}{u}(V)) \tag{6}
 $$
 
 Soit $U_0$ un ouvert de A et $s_0$ un élément de $u^*(\mathscr{G})(U_0)$, autrement dit un B-morphisme de $U_0$ dans $E_{\mathscr{G}}$. Soit $S(U_0, s_0)$ l’ensemble des triplets $(U,V, t)$ où U est un ouvert de A contenu dans $U_0$, V est un ouvert de B tel que $u(U)\subset V$ et $t$ une section de $E_{\mathscr{G}}$ au-dessus de V telle que l’on ait
@@ -535,7 +535,7 @@ $$
 $$
 
 $$
-=f_{U\overset{-1}{u}(V)}(\psi_{_-u^1(V)}(t\circ u|\overset{-1}{u}(V)))
+=f_{U\overset{-1}{u}(V)}(\psi_{\overset{-1}{u}(V)}(t\circ u|\overset{-1}{u}(V)))
 $$
 
 Par suite, si $\psi :u^*(\mathscr{G})\rightarrow \mathscr{F}$ satisfait à (6), on a
@@ -551,7 +551,7 @@ La formule (8) et la propriété $(F_1)$ des faisceaux (I, p. 43) entraînent al
 Soient $(U,V, t)$ et $(U',V', t')$ des éléments de $S(U_0, s_0)$. D’après la relation (7), les restrictions à $u(U\cap U')$ de $t$ et $t'$ coïncident. D’après la prop. 11, b) de I, p. 34, il existe un ouvert W de B tel que $u(U\cap U')\subset$ $W\subset V\cap V'$ et que $t|W =t'|W$. On a donc
 
 $$
-f_{_-u^1(W)\overset{-1}{u}(V)}(\varphi_V(t)) =\varphi_W(t|W) =\varphi_W(t'|W) =f_{_-u^1(W)\overset{-1}{u}(V')}(\varphi_{V'}(t'))
+f_{\overset{-1}{u}(W)\overset{-1}{u}(V)}(\varphi_V(t)) =\varphi_W(t|W) =\varphi_W(t'|W) =f_{\overset{-1}{u}(W)\overset{-1}{u}(V')}(\varphi_{V'}(t'))
 $$
 
 d’où

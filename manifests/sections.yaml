@@ -1205,7 +1205,7 @@ books:
               statements: 35
               exercises: 0
               extraction: native
-              content_sha256: a29ded564fa841ba238531eb88ac07f749f48fef591d111e13dfddb39c59e86a
+              content_sha256: 87a541a4bfee295892f6aca8b0e6995640615daddcbc4e8ffdb23d8c0604e798
             - kind: section
               section: 4
               title: Revêtements
@@ -1218,7 +1218,7 @@ books:
               statements: 50
               exercises: 0
               extraction: native
-              content_sha256: 20f7aa73947ed388b45a4d5ea703262efec0626d89dfa3fa4de175912003c11a
+              content_sha256: 95edacb7fd6e2d957335a5c93193968f19ddc5927d6e92aac9f4b4e07418c748
             - kind: section
               section: 5
               title: Revêtements principaux
