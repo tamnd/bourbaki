@@ -1,0 +1,22 @@
+{"edges": [
+{"from":"03HI","from_label":"ens-ii-s3-prop-1","to_label":"ens-ii-s1","kind":"cites","raw":"§ 1, no. 6","form":"section","resolved_by":"section","file":"content/en/ens/II/03_s3_correspondences.md","line":87},
+{"from":"03HI","from_label":"ens-ii-s3-prop-1","to_label":"ens-ii-s1","kind":"cites","raw":"§ 1, no. 7","form":"section","resolved_by":"section","file":"content/en/ens/II/03_s3_correspondences.md","line":93},
+{"from":"03HJ","from_label":"ens-ii-s3-def-2","to":"03HN","to_label":"ens-ii-s3-def-9","kind":"cites","raw":"Definition 9","form":"local","resolved_by":"in-section","file":"content/en/ens/II/03_s3_correspondences.md","line":123},
+{"from":"03HJ","from_label":"ens-ii-s3-def-2","to_label":"ens-ii-s1","kind":"cites","raw":"§ 1, no. 4","form":"section","resolved_by":"section","file":"content/en/ens/II/03_s3_correspondences.md","line":129},
+{"from":"03HJ","from_label":"ens-ii-s3-def-2","to_label":"ens-ii-s5","kind":"cites","raw":"§ 5, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/03_s3_correspondences.md","line":135},
+{"from":"03HL","from_label":"ens-ii-s3-prop-4","to_label":"ens-ii-s4","kind":"cites","raw":"§ 4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/03_s3_correspondences.md","line":185},
+{"from":"03HM","from_label":"ens-ii-s3-prop-5","to_label":"ens-ii-s4","kind":"cites","raw":"§ 4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/03_s3_correspondences.md","line":207},
+{"from":"03HM","from_label":"ens-ii-s3-prop-5","to":"03HM","to_label":"ens-ii-s3-prop-5","kind":"cites","raw":"Proposition 5","form":"local","resolved_by":"in-section","file":"content/en/ens/II/03_s3_correspondences.md","line":237},
+{"from":"03HM","from_label":"ens-ii-s3-prop-5","to":"03HK","to_label":"ens-ii-s3-prop-3","kind":"cites","raw":"Proposition 3","form":"local","resolved_by":"in-section","file":"content/en/ens/II/03_s3_correspondences.md","line":237},
+{"from":"03HN","from_label":"ens-ii-s3-def-9","to_label":"ens-ii-s5","kind":"cites","raw":"§ 5, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/03_s3_correspondences.md","line":253},
+{"from":"03HN","from_label":"ens-ii-s3-def-9","to_label":"ens-ii-s5","kind":"cites","raw":"§ 5, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/03_s3_correspondences.md","line":253},
+{"from":"03HN","from_label":"ens-ii-s3-def-9","to_label":"ens-ii-s5","kind":"cites","raw":"§ 5, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/03_s3_correspondences.md","line":255},
+{"from":"","from_label":"ens-ii-s3","to_label":"ens-ii-s1","kind":"cites","raw":"§ 1, no. 6","form":"section","resolved_by":"section","file":"content/en/ens/II/03_s3_correspondences.md","line":301},
+{"from":"03HU","from_label":"ens-ii-s3-def-11","to":"03HS","to_label":"ens-ii-s3-prop-8","kind":"cites","raw":"Proposition 8","form":"local","resolved_by":"in-section","file":"content/en/ens/II/03_s3_correspondences.md","line":449},
+{"from":"03HU","from_label":"ens-ii-s3-def-11","to":"03HS","to_label":"ens-ii-s3-prop-8","kind":"cites","raw":"Proposition 8","form":"local","resolved_by":"in-section","file":"content/en/ens/II/03_s3_correspondences.md","line":455},
+{"from":"03HU","from_label":"ens-ii-s3-def-11","to":"03HS","to_label":"ens-ii-s3-prop-8","kind":"cites","raw":"Proposition 8","form":"local","resolved_by":"in-section","file":"content/en/ens/II/03_s3_correspondences.md","line":457},
+{"from":"03HU","from_label":"ens-ii-s3-def-11","to":"03HS","to_label":"ens-ii-s3-prop-8","kind":"cites","raw":"Proposition 8","form":"local","resolved_by":"in-section","file":"content/en/ens/II/03_s3_correspondences.md","line":459},
+{"from":"03HU","from_label":"ens-ii-s3-def-11","to":"03HS","to_label":"ens-ii-s3-prop-8","kind":"cites","raw":"Proposition 8","form":"local","resolved_by":"in-section","file":"content/en/ens/II/03_s3_correspondences.md","line":466},
+{"from":"03HU","from_label":"ens-ii-s3-def-11","to":"03HS","to_label":"ens-ii-s3-prop-8","kind":"cites","raw":"Proposition 8","form":"local","resolved_by":"in-section","file":"content/en/ens/II/03_s3_correspondences.md","line":473},
+{"from":"","from_label":"ens-ii-s3","to_label":"ens-ii-s5","kind":"cites","raw":"§5, no. 5","form":"section","resolved_by":"section","file":"content/en/ens/II/03_s3_correspondences.md","line":530}
+]}

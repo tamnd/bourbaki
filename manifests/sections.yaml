@@ -1915,3 +1915,281 @@ books:
               exercises: 0
               extraction: native
               content_sha256: 241791f6ee17d35c60aabea6be516fc7b9f9fe17f455c902efacd40f754d52d6
+    - id: ens-i-iv
+      chapters:
+        - chapter: I
+          title: DESCRIPTION OF FORMAL MATHEMATICS
+          sections:
+            - kind: front
+              title: DESCRIPTION OF FORMAL MATHEMATICS
+              path: content/en/ens/I/00_frontmatter.md
+              first_pdf_page: 22
+              last_pdf_page: 22
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: eb0becbc2526534b10f85e1b4fe17a074453ecdcedbae7c3b662e74114fec4b6
+            - kind: section
+              section: 1
+              title: Terms and relations
+              path: content/en/ens/I/01_s1_terms_and_relations.md
+              label: ens-i-s1
+              first_pdf_page: 22
+              last_pdf_page: 63
+              subsections: 4
+              statements: 0
+              exercises: 6
+              extraction: ocr
+              content_sha256: 49a5e6020c574ee57d0404074026f6b6f85ae6bb934f3728569e50ca758b24ae
+            - kind: section
+              section: 2
+              title: Theorems
+              path: content/en/ens/I/02_s2_theorems.md
+              label: ens-i-s2
+              first_pdf_page: 31
+              last_pdf_page: 64
+              subsections: 4
+              statements: 1
+              exercises: 1
+              extraction: ocr
+              content_sha256: 426226c8d926ac1684ac5007c8f9fc68b8a56b33f7ef8994a25f18e77ab44521
+            - kind: section
+              section: 3
+              title: Logical theories
+              path: content/en/ens/I/03_s3_logical_theories.md
+              label: ens-i-s3
+              first_pdf_page: 35
+              last_pdf_page: 65
+              subsections: 5
+              statements: 0
+              exercises: 5
+              extraction: ocr
+              content_sha256: c10a084df4a1b7029eb35abcff12a2a10672c9c9dbeea72786c566065f8caa1f
+            - kind: section
+              section: 4
+              title: Quantified theories
+              path: content/en/ens/I/04_s4_quantified_theories.md
+              label: ens-i-s4
+              first_pdf_page: 43
+              last_pdf_page: 66
+              subsections: 4
+              statements: 0
+              exercises: 8
+              extraction: ocr
+              content_sha256: 390faba94e5344c8331bc40a954a257df6dcfce3814ae7413ab574ac21e02422
+            - kind: section
+              section: 5
+              title: Equalitarian theories
+              path: content/en/ens/I/05_s5_equalitarian_theories.md
+              label: ens-i-s5
+              first_pdf_page: 51
+              last_pdf_page: 67
+              subsections: 3
+              statements: 0
+              exercises: 7
+              extraction: ocr
+              content_sha256: b55b4026adbafccd45115f22432627d69b636aae58b1284ed1ad9b6cb8b80051
+            - kind: appendix
+              title: Characterization of terms and relations
+              path: content/en/ens/I/A_a_characterization_of_terms_and_relations.md
+              label: ens-i-a0
+              first_pdf_page: 57
+              last_pdf_page: 71
+              subsections: 4
+              statements: 4
+              exercises: 8
+              extraction: ocr
+              content_sha256: 5b0551cbb38812d93b23f473901f66576e3ca3747e2e48df5c9fd429a898a51a
+        - chapter: II
+          title: THEORY OF SETS
+          sections:
+            - kind: front
+              title: THEORY OF SETS
+              path: content/en/ens/II/00_frontmatter.md
+              first_pdf_page: 72
+              last_pdf_page: 72
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 9531647b763674c24c94cb3b47fc7b0d1926b99a0ea581ac0d4dc10374d3a218
+            - kind: section
+              section: 1
+              title: Collectivizing relations
+              path: content/en/ens/II/01_s1_collectivizing_relations.md
+              label: ens-ii-s1
+              first_pdf_page: 72
+              last_pdf_page: 130
+              subsections: 7
+              statements: 5
+              exercises: 6
+              extraction: ocr
+              content_sha256: 4fa472ac743fc962a93d530eefdfbe457b4f4c92a386bfd54a45108e9556d9f1
+            - kind: section
+              section: 2
+              title: Ordered pairs
+              path: content/en/ens/II/02_s2_ordered_pairs.md
+              label: ens-ii-s2
+              first_pdf_page: 79
+              last_pdf_page: 131
+              subsections: 2
+              statements: 0
+              exercises: 2
+              extraction: ocr
+              content_sha256: acc75f970797c7902c6fb0899dde2bd3b04d19cab46212ab5f8120ec77e6b5ed
+            - kind: section
+              section: 3
+              title: Correspondences
+              path: content/en/ens/II/03_s3_correspondences.md
+              label: ens-ii-s3
+              first_pdf_page: 82
+              last_pdf_page: 131
+              subsections: 9
+              statements: 13
+              exercises: 6
+              extraction: ocr
+              content_sha256: 2d0a2e42d2e8c0099dbb49d37d426223086caff70e019275bf168380cac018e4
+            - kind: section
+              section: 4
+              title: Union and intersection of a family of sets
+              path: content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md
+              label: ens-ii-s4
+              first_pdf_page: 97
+              last_pdf_page: 133
+              subsections: 8
+              statements: 10
+              exercises: 8
+              extraction: ocr
+              content_sha256: 8323cd440d02a544f5665f24c4a52b694f342bc768569b97c397945e4a5a80e7
+            - kind: section
+              section: 5
+              title: Product of a family of sets
+              path: content/en/ens/II/05_s5_product_of_a_family_of_sets.md
+              label: ens-ii-s5
+              first_pdf_page: 108
+              last_pdf_page: 134
+              subsections: 7
+              statements: 12
+              exercises: 2
+              extraction: ocr
+              content_sha256: acfabb08876479de59b412fab4852a8640ea565ef52376f98ff329dbcfdc569a
+            - kind: section
+              section: 6
+              title: Equivalence relations
+              path: content/en/ens/II/06_s6_equivalence_relations.md
+              label: ens-ii-s6
+              first_pdf_page: 119
+              last_pdf_page: 136
+              subsections: 9
+              statements: 2
+              exercises: 11
+              extraction: ocr
+              content_sha256: 53e33e4b22925155e08c9a1f38dbc1985c066396c26c07da8256c632507987a0
+        - chapter: III
+          title: ORDERED SETS, CARDINALS, INTEGERS
+          sections:
+            - kind: front
+              title: ORDERED SETS, CARDINALS, INTEGERS
+              path: content/en/ens/III/00_frontmatter.md
+              first_pdf_page: 137
+              last_pdf_page: 137
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 7eac5a31f87f038d612878b810e26e665b28d2963fc1d8a53c11ad250e05d92b
+            - kind: section
+              section: 1
+              title: Order relations. Ordered sets
+              path: content/en/ens/III/01_s1_order_relations_ordered_sets.md
+              label: ens-iii-s1
+              first_pdf_page: 137
+              last_pdf_page: 227
+              subsections: 13
+              statements: 21
+              exercises: 3
+              extraction: ocr
+              content_sha256: 1fbc4cb101fc75c7ea581a90ec1c15cb2a86224eecfa0febc4a9925ecb3407a9
+            - kind: section
+              section: 2
+              title: Well-ordered sets
+              path: content/en/ens/III/02_s2_well_ordered_sets.md
+              label: ens-iii-s2
+              first_pdf_page: 154
+              last_pdf_page: 235
+              subsections: 6
+              statements: 13
+              exercises: 10
+              extraction: ocr
+              content_sha256: cb93e9c2ebb7316897c1fd141a37d411f84b60cf252f380de3c373c704f8b6d3
+            - kind: section
+              section: 3
+              title: Equipotent sets. Cardinals
+              path: content/en/ens/III/03_s3_equipotent_sets_cardinals.md
+              label: ens-iii-s3
+              first_pdf_page: 163
+              last_pdf_page: 236
+              subsections: 6
+              statements: 18
+              exercises: 6
+              extraction: ocr
+              content_sha256: ecfc3ea957563e4015b3a17da3305568adf676c532bddda527c9104e7e71ed5a
+            - kind: section
+              section: 4
+              title: Natural integers. Finite sets
+              path: content/en/ens/III/04_s4_natural_integers_finite_sets.md
+              label: ens-iii-s4
+              first_pdf_page: 172
+              last_pdf_page: 240
+              subsections: 5
+              statements: 5
+              exercises: 11
+              extraction: ocr
+              content_sha256: fec8bdd22fd857b459e10fb127464c9da256c410775ffb8a36a5b05c1b316a61
+            - kind: section
+              section: 5
+              title: Properties of integers
+              path: content/en/ens/III/05_s5_properties_of_integers.md
+              label: ens-iii-s5
+              first_pdf_page: 177
+              last_pdf_page: 246
+              subsections: 8
+              statements: 24
+              exercises: 18
+              extraction: ocr
+              content_sha256: f084f8570bc5211f8b39c1fdd1b5581b6a7cdc0858bfaa9c996b3751ddf0de7a
+            - kind: section
+              section: 6
+              title: Infinite sets
+              path: content/en/ens/III/06_s6_infinite_sets.md
+              label: ens-iii-s6
+              first_pdf_page: 189
+              last_pdf_page: 257
+              subsections: 5
+              statements: 22
+              exercises: 31
+              extraction: ocr
+              content_sha256: 2c5a22b40974e6a642d48f71bfacc97373de53b727ba2ca00520384456320562
+            - kind: section
+              section: 7
+              title: Inverse limits and direct limits
+              path: content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md
+              label: ens-iii-s7
+              first_pdf_page: 197
+              last_pdf_page: 260
+              subsections: 7
+              statements: 15
+              exercises: 9
+              extraction: ocr
+              content_sha256: 24e5e9b6602c14b8fa634881b2386b110c5b5819945d8a94ab29057fe2959e53
+            - kind: historical
+              title: Historical Note
+              path: content/en/ens/III/historical_note.md
+              first_pdf_page: 261
+              last_pdf_page: 263
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: a1ac5f5e8ae6c28e0be4eaeb885d40a3b2adcbe7ffa7939fabfc1375b9f22220

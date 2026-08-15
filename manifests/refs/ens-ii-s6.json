@@ -1,0 +1,11 @@
+{"edges": [
+{"from":"03IX","from_label":"ens-ii-s6-n1-exa-1","to_label":"ens-ii-s4","kind":"cites","raw":"§ 4, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":83},
+{"from":"","from_label":"ens-ii-s6","to":"03HU","to_label":"ens-ii-s3-def-11","kind":"cites","raw":"§ 3, no. 8, Definition 11","form":"section","resolved_by":"section-no","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":124},
+{"from":"","from_label":"ens-ii-s6","to_label":"ens-ii-s4","kind":"cites","raw":"§ 4, no. 7","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":132},
+{"from":"","from_label":"ens-ii-s6","to":"03I5","to_label":"ens-ii-s4-prop-3","kind":"cites","raw":"§4, Proposition 3","form":"section","resolved_by":"section-no","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":180},
+{"from":"","from_label":"ens-ii-s6","to_label":"ens-ii-s3","kind":"cites","raw":"§ 3, no. 9","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":248},
+{"from":"","from_label":"ens-ii-s6","to_label":"ens-ii-s5","kind":"cites","raw":"§ 5, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":264},
+{"from":"","from_label":"ens-ii-s6","to_label":"ens-ii-s5","kind":"cites","raw":"§5, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":268},
+{"from":"","from_label":"ens-ii-s6","to_label":"ens-ii-s1","kind":"cites","raw":"§1, no. 6","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":278},
+{"from":"03J9","from_label":"ens-ii-s6-ex-11","to":"03J8","to_label":"ens-ii-s6-ex-10","kind":"cites","raw":"Exercise 10","form":"local","resolved_by":"exercise","file":"content/en/ens/II/exercises/s6/11.md","line":18}
+]}

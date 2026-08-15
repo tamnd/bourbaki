@@ -1,6 +1,4 @@
 {"edges": [
-{"from":"","from_label":"alg-viii-s15","kind":"cites","raw":"Set Theory, II, §6, No. 9, p. 122","form":"page","resolved_by":"out-of-corpus","book":"E","chapter":"II","file":"content/en/alg/VIII/15_s15_brauer_groups.md","line":46},
-{"from":"","from_label":"alg-viii-s15","kind":"cites","raw":"Set Theory, II, §1, No. 4, p. 68","form":"page","resolved_by":"out-of-corpus","book":"E","chapter":"II","file":"content/en/alg/VIII/15_s15_brauer_groups.md","line":52},
 {"from":"00HV","from_label":"alg-viii-s15-prop-1","kind":"cites","raw":"III, §4, No. 1, p. 461","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"III","file":"content/en/alg/VIII/15_s15_brauer_groups.md","line":60},
 {"from":"00HV","from_label":"alg-viii-s15-prop-1","to_label":"alg-viii-s6","kind":"cites","raw":"VIII, p. 100","form":"page","resolved_by":"section","file":"content/en/alg/VIII/15_s15_brauer_groups.md","line":62},
 {"from":"00HV","from_label":"alg-viii-s15-prop-1","to":"007M","to_label":"alg-viii-s6-prop-13","kind":"cites","raw":"Proposition 13, d) of VIII, p. 111","form":"named","resolved_by":"page-map","file":"content/en/alg/VIII/15_s15_brauer_groups.md","line":62},
