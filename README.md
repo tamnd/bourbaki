@@ -109,10 +109,10 @@ imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet che
 | Algebra | VI | 0 of 2 | 0 | 0 | 0 | 1 |
 | Algebra | VII | 0 of 5 | 0 | 0 | 0 | 1 |
 | Algebra | VIII | 25 of 25 | 710 | 317 | 1027 | 964 |
-| Theory of Sets | I | 0 of 6 | 0 | 0 | 0 | 0 |
-| Theory of Sets | II | 0 of 6 | 0 | 0 | 0 | 0 |
-| Theory of Sets | III | 0 of 7 | 0 | 0 | 0 | 0 |
-| Theory of Sets | IV | 0 of 3 | 0 | 0 | 0 | 0 |
+| Theory of Sets | I | 0 of 6 | 0 | 0 | 0 | 15 |
+| Theory of Sets | II | 0 of 6 | 0 | 0 | 0 | 9 |
+| Theory of Sets | III | 0 of 7 | 0 | 0 | 0 | 14 |
+| Theory of Sets | IV | 0 of 3 | 0 | 0 | 0 | 11 |
 | Lie Groups and Lie Algebras | VII | 7 of 7 | 139 | 66 | 205 | 66 |
 | Lie Groups and Lie Algebras | VIII | 13 of 13 | 299 | 173 | 472 | 211 |
 | Lie Groups and Lie Algebras | IX | 11 of 11 | 244 | 112 | 356 | 152 |

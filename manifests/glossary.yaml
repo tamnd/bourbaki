@@ -1,4 +1,4 @@
-version: 14
+version: 17
 terms:
     - en: ring
       vi: vành
@@ -1370,10 +1370,6 @@ terms:
       vi: bảng
       zh: 表
       ja: 表
-    - en: wedderburn-s
-      vi: Wedderburn
-      zh: 韦德伯恩的
-      ja: ウェダーバーンの
     - en: zorn ring
       vi: vành Zorn
       zh: Zorn环
@@ -1605,8 +1601,6 @@ terms:
       vi: tương ứng
       zh: 相应的
       ja: 各々の
-    - en: schur-s
-      vi: Schur
     - en: semi-artinian
       vi: nửa Artin
       zh: 半阿廷的
@@ -2496,10 +2490,6 @@ terms:
       vi: nói rằng
       zh: 说
       ja: という
-    - en: schur-s lemma
-      vi: bổ đề Schur
-      zh: 舒尔引理
-      ja: Schurの補題
     - en: semilinear mapping
       vi: ánh xạ nửa tuyến tính
       zh: 半线性映射
@@ -2808,10 +2798,6 @@ terms:
       vi: Artin trái
       zh: 左阿廷
       ja: 左アルティン
-    - en: burnside-s theorem
-      vi: định lý Burnside
-      zh: 伯恩赛德定理
-      ja: バーンサイドの定理
     - en: can prove
       vi: có thể chứng minh
       zh: 可以证明
@@ -3197,3 +3183,675 @@ terms:
       zh: 零点定理
       ja: ヌルステレンザッツ
       note: Added by hand, and the rendering is the German word itself. The appendix heading came back as "ĐỊNH LÝ ZEROS CỦA HILBERT" on one run and "ĐỊNH LÝ NULLSTELLENSATZ CỦA HILBERT" on another, so the term needed pinning rather than leaving to the run. Vietnamese mathematical writing keeps Nullstellensatz as it stands, the way it keeps Nakayama and Noether, and "định lý zeros" is a half translation that names nothing.
+    - en: set
+      vi: tập hợp
+    - en: lie algebra
+      vi: đại số Lie
+    - en: semi-simple
+      vi: nửa đơn
+    - en: cartan subalgebra
+      vi: đại số con Cartan
+    - en: weight
+      vi: trọng số
+    - en: dimensional
+      vi: chiều
+    - en: finite dimensional
+      vi: hữu hạn chiều
+    - en: invariant
+      vi: bất biến
+    - en: connected
+      vi: liên thông
+    - en: lie group
+      vi: nhóm Lie
+    - en: morphism
+      vi: cấu xạ
+    - en: notation
+      vi: ký hiệu
+    - en: torus
+      vi: xuyến
+    - en: relative
+      vi: tương đối
+    - en: highest
+      vi: cao nhất
+    - en: neighbourhood
+      vi: lân cận
+    - en: manifold
+      vi: đa tạp
+    - en: compact lie
+      vi: Lie compact
+    - en: semi-simple lie
+      vi: Lie nửa đơn
+    - en: bilinear
+      vi: song tuyến tính
+    - en: highest weight
+      vi: trọng số cao nhất
+    - en: compact lie group
+      vi: nhóm Lie compact
+    - en: semi-simple lie algebra
+      vi: đại số Lie nửa đơn
+    - en: centre
+      vi: tâm
+    - en: root system
+      vi: hệ nghiệm
+    - en: reductive
+      vi: khả quy
+    - en: splitting
+      vi: tách
+    - en: bilinear form
+      vi: dạng song tuyến tính
+    - en: theory
+      vi: lý thuyết
+    - en: borel subalgebra
+      vi: đại số con Borel
+    - en: connected compact
+      vi: compact liên thông
+    - en: polynomial function
+      vi: hàm đa thức
+    - en: inequality
+      vi: bất đẳng thức
+    - en: lift
+      vi: nâng
+    - en: split reductive lie algebra
+      vi: đại số Lie reductive tách được
+    - en: transport
+      vi: phép chuyển
+    - en: additive set
+      vi: tập hợp cộng tính
+    - en: algebra defined
+      vi: đại số xác định
+    - en: biorder
+      vi: song thứ tự
+    - en: cogebra
+      vi: đối đại số
+    - en: cross product
+      vi: tích có hướng
+    - en: finer
+      vi: mịn hơn
+    - en: finite sequence
+      vi: dãy hữu hạn
+    - en: minuscule weight
+      vi: trọng lượng minuscule
+    - en: nodal vector
+      vi: vectơ nút
+    - en: real lie group
+      vi: nhóm Lie thực
+    - en: compact real lie
+      vi: Lie thực compact
+    - en: decomposable envelope
+      vi: bao phân tích được
+    - en: density
+      vi: mật độ
+    - en: directed set
+      vi: tập có hướng
+    - en: euclidean
+      vi: Euclid
+    - en: finitely generated projective module
+      vi: môđun xạ ảnh hữu hạn sinh
+    - en: fitting decomposition
+      vi: phân rã Fitting
+    - en: frobenius reciprocity
+      vi: tương hỗ Frobenius
+    - en: integrable function
+      vi: hàm khả tích
+    - en: invariant bilinear form
+      vi: dạng song tuyến tính bất biến
+    - en: isotypical module
+      vi: môđun đẳng kiểu
+    - en: lower
+      vi: thấp hơn
+    - en: nilpotent lie algebra
+      vi: đại số Lie lũy linh
+    - en: reduced root system
+      vi: hệ căn rút gọn
+    - en: solvable lie algebra
+      vi: đại số Lie giải được
+    - en: characterization
+      vi: đặc trưng hóa
+    - en: complex semi-simple lie algebra
+      vi: đại số Lie nửa đơn phức
+    - en: cross
+      vi: chéo
+    - en: equivalence class
+      vi: lớp tương đương
+    - en: invariant bilinear
+      vi: song tuyến tính bất biến
+    - en: maximal ordered
+      vi: cực đại được sắp thứ tự
+    - en: noncommutative field
+      vi: trường không giao hoán
+    - en: order relation
+      vi: quan hệ thứ tự
+    - en: quaternionic type
+      vi: kiểu quaternion
+    - en: connected commutative
+      vi: liên thông giao hoán
+    - en: decomposable lie algebra
+      vi: đại số Lie phân rã được
+    - en: direct limit
+      vi: giới hạn trực tiếp
+    - en: expansion
+      vi: khai triển
+    - en: inductive
+      vi: quy nạp
+    - en: integer values
+      vi: các giá trị nguyên
+    - en: lie algebra defined
+      vi: đại số Lie được xác định
+    - en: objects
+      vi: đối tượng
+    - en: strict
+      vi: ngặt
+    - en: terminology
+      vi: thuật ngữ
+    - en: tube
+      vi: ống
+    - en: vector bundle
+      vi: bó vectơ
+    - en: classical splittable simple
+      vi: cổ điển phân rã được đơn
+    - en: collectivizing
+      vi: xác định tập
+    - en: compact form
+      vi: dạng compact
+    - en: dominant polynomial map
+      vi: ánh xạ đa thức trội
+    - en: fourier transform
+      vi: biến đổi Fourier
+    - en: indecomposable module
+      vi: môđun bất khả phân
+    - en: infinite set
+      vi: tập vô hạn
+    - en: multilinear form
+      vi: dạng đa tuyến tính
+    - en: species
+      vi: loài
+    - en: totally ordered
+      vi: được sắp thứ tự toàn phần
+    - en: unimodular group
+      vi: nhóm đơn môđula
+    - en: alternating multilinear forms
+      vi: dạng đa tuyến tính thay phiên
+    - en: artinian algebra
+      vi: đại số Artin
+    - en: Artinian Modules and Noetherian Modules
+      vi: Môđun Artin và môđun Noether
+    - en: associativity
+      vi: tính kết hợp
+    - en: Change of Base Field
+      vi: đổi trường cơ sở
+    - en: coinduced
+      vi: đối cảm sinh
+    - en: collectivizing relations
+      vi: các quan hệ xác định tập
+    - en: conjugacy theorems
+      vi: các định lý liên hợp
+    - en: conjunction
+      vi: phép hội
+    - en: corestriction
+      vi: hạn chế đối
+    - en: dominant polynomial
+      vi: đa thức trội
+    - en: double
+      vi: kép
+    - en: euclidean division
+      vi: phép chia Euclid
+    - en: fourier inversion formula
+      vi: công thức đảo Fourier
+    - en: greatest element
+      vi: phần tử lớn nhất
+    - en: greatest lower bound
+      vi: cận dưới lớn nhất
+    - en: historical note
+      vi: ghi chú lịch sử
+    - en: increasing mappings
+      vi: các ánh xạ tăng
+    - en: inductive set
+      vi: tập quy nạp
+    - en: infinite cardinal
+      vi: bản số vô hạn
+    - en: infinitely
+      vi: vô hạn
+    - en: LIE GROUP CASE
+      vi: trường hợp nhóm Lie
+    - en: Modules over an Artinian Ring
+      vi: Môđun trên một vành Artin
+    - en: nodal group
+      vi: nhóm nút
+    - en: preorder relation
+      vi: quan hệ tiền thứ tự
+    - en: principle
+      vi: nguyên lý
+    - en: projective limit
+      vi: giới hạn xạ ảnh
+    - en: quotient set
+      vi: tập thương
+    - en: real complex
+      vi: phức thực
+    - en: Reduced Norms and Traces
+      vi: Các chuẩn và vết rút gọn
+    - en: regular ideal
+      vi: iđêan chính quy
+    - en: representation ring
+      vi: vành biểu diễn
+    - en: restricted dual
+      vi: đối ngẫu hạn chế
+    - en: schur orthogonality
+      vi: trực giao Schur
+    - en: The axioms
+      vi: Các tiên đề
+    - en: totally ordered set
+      vi: tập sắp thứ tự toàn phần
+    - en: unimodular
+      vi: đơn môđula
+    - en: universal mapping
+      vi: ánh xạ phổ quát
+    - en: $\tau$-Extensions of Groups
+      vi: Các mở rộng $\tau$ của nhóm
+    - en: A connectedness property
+      vi: Một tính chất liên thông
+    - en: A PRELIMINARY CONSTRUCTION
+      vi: MỘT XÂY DỰNG SƠ BỘ
+    - en: character formula
+      vi: công thức đặc trưng
+    - en: Character of a Representation
+      vi: đặc trưng của một biểu diễn
+    - en: CHARACTERS OF $\mathfrak{g}$-MODULES
+      vi: các đặc trưng của $\mathfrak{g}$-môđun
+    - en: Classes of equivalent objects
+      vi: các lớp đối tượng tương đương
+    - en: cogebra structure
+      vi: cấu trúc cođại số
+    - en: combinatorial analysis
+      vi: giải tích tổ hợp
+    - en: commutative real lie group
+      vi: nhóm Lie thực giao hoán
+    - en: COMPACT GROUPS OF RANK 1
+      vi: các nhóm compact hạng 1
+    - en: compact set
+      vi: tập compact
+    - en: Comparison of theories
+      vi: so sánh các lý thuyết
+    - en: complex linear representations
+      vi: các biểu diễn tuyến tính phức
+    - en: Composition of two correspondences
+      vi: hợp thành của hai tương ứng
+    - en: countable sets
+      vi: các tập đếm được
+    - en: Criteria of substitution
+      vi: các tiêu chuẩn thế
+    - en: Deduction of structures
+      vi: suy diễn các cấu trúc
+    - en: DEFINITION OF $\mathfrak{s}\mathfrak{l}_{2}$-TRIPLETS
+      vi: định nghĩa các bộ ba $\mathfrak{s}\mathfrak{l}_{2}$
+    - en: Definition of integers
+      vi: định nghĩa các số nguyên
+    - en: Definition of quantifiers
+      vi: định nghĩa các lượng từ
+    - en: Definition of the Brauer Group
+      vi: định nghĩa nhóm Brauer
+    - en: Description of a Semisimple Module
+      vi: mô tả một môđun nửa đơn
+    - en: Description of an Isotypical Module
+      vi: mô tả một môđun đẳng kiểu
+    - en: DESCRIPTION OF FORMAL MATHEMATICS
+      vi: mô tả toán học hình thức
+    - en: DIMENSIONS OF SIMPLE $\mathfrak{g}$-MODULES
+      vi: số chiều của các $\mathfrak{g}$-môđun đơn
+    - en: distributivity formulae
+      vi: các công thức phân phối
+    - en: DIVIDED POWERS IN A BIGEBRA
+      vi: lũy thừa chia trong một bigebra
+    - en: division
+      vi: phép chia
+    - en: dominant characters
+      vi: các đặc trưng trội
+    - en: double inverse limit
+      vi: giới hạn ngược kép
+    - en: DUAL OF A $\mathfrak{g}$-MODULE
+      vi: đối ngẫu của một $\mathfrak{g}$-môđun
+    - en: echelons
+      vi: các tầng
+    - en: Hilbert’s Nullstellensatz
+      vi: Định lý không điểm của Hilbert
+    - en: historical
+      vi: lịch sử
+    - en: Ideals of Simple Rings
+      vi: Các iđêan của các vành đơn
+    - en: Images of a union and an intersection
+      vi: Ảnh của hợp và giao
+    - en: Index and Exponent
+      vi: Chỉ số và số mũ
+    - en: initial structures
+      vi: cấu trúc ban đầu
+    - en: integration formula
+      vi: công thức tích phân
+    - en: invariant hermitian forms
+      vi: các dạng Hermite bất biến
+    - en: Inverse Image of a $\tau$-Extension
+      vi: Ảnh ngược của một $\tau$-mở rộng
+    - en: inverse limit
+      vi: giới hạn ngược
+    - en: Inverse of a correspondence
+      vi: Tương ứng nghịch đảo
+    - en: inverse system
+      vi: hệ ngược
+    - en: Inverse systems of mappings
+      vi: Các hệ ngược của ánh xạ
+    - en: inversion formula
+      vi: công thức đảo
+    - en: LATTICES AND ORDERS
+      vi: DÀN VÀ THỨ TỰ
+    - en: lexicographic products
+      vi: các tích từ điển
+    - en: logical theories
+      vi: các lý thuyết logic
+    - en: Maschke’s Theorem
+      vi: Định lý Maschke
+    - en: maximal subalgebra
+      vi: đại số con cực đại
+    - en: Methods of proof
+      vi: các phương pháp chứng minh
+    - en: Modules over a Semisimple Ring
+      vi: các môđun trên vành nửa đơn
+    - en: Modules over a Simple Ring
+      vi: các môđun trên vành đơn
+    - en: morita equivalence
+      vi: tương đương Morita
+    - en: multiplicative structure
+      vi: cấu trúc nhân
+    - en: Nakayama’s Lemma
+      vi: Bổ đề Nakayama
+    - en: NODAL GROUP OF A TORUS
+      vi: nhóm nút của một xuyến
+    - en: NON-SPLIT CASE
+      vi: trường hợp không tách được
+    - en: Notation and terminology
+      vi: ký hiệu và thuật ngữ
+    - en: Operations on cardinals
+      vi: các phép toán trên lực lượng
+    - en: ordered pair
+      vi: cặp có thứ tự
+    - en: ordered subset
+      vi: tập con sắp thứ tự
+    - en: partial products
+      vi: các tích từng phần
+    - en: preorder
+      vi: tiền thứ tự
+    - en: principal elements
+      vi: các phần tử chính
+    - en: Product of a family of sets
+      vi: Tích của một họ tập hợp
+    - en: Product of two sets
+      vi: Tích của hai tập hợp
+    - en: Projective Cover of a Module
+      vi: Bao xạ ảnh của một môđun
+    - en: PROPERTIES OF Aut0
+      vi: CÁC TÍNH CHẤT CỦA Aut0
+    - en: Properties of equality
+      vi: Các tính chất của đẳng thức
+    - en: quantified theories
+      vi: các lý thuyết có lượng từ
+    - en: Representations and the Grothendieck Group
+      vi: Các biểu diễn và nhóm Grothendieck
+    - en: Restriction and Corestriction
+      vi: Hạn chế và đồng hạn chế
+    - en: Retractions and sections
+      vi: Phép co rút và tiết diện
+    - en: saturated subsets
+      vi: các tập con bão hòa
+    - en: Schur’s Lemma
+      vi: Bổ đề Schur
+    - en: segments
+      vi: các đoạn
+    - en: significant words
+      vi: các từ có nghĩa
+    - en: Signs and assemblies
+      vi: Các dấu và các dãy ký hiệu
+      note: an assembly in Theory of Sets I.1.1 is a succession of signs and letters written next to one another, so it is a sequence of symbols; the run said tổ hợp, which is combination and belongs to counting
+    - en: Signs and words
+      vi: Các dấu và các từ
+    - en: SOME FORMULAS
+      vi: MỘT SỐ CÔNG THỨC
+    - en: Some Operations on Modules
+      vi: Một số phép toán trên môđun
+    - en: Species of structures
+      vi: Loài cấu trúc
+    - en: stationary sequences
+      vi: các dãy dừng
+    - en: Structure of compact groups
+      vi: Cấu trúc của các nhóm compact
+    - en: symmetric invariants
+      vi: các bất biến đối xứng
+    - en: TENSOR PRODUCTS OF $\mathfrak{g}$-MODULES
+      vi: TÍCH TENXƠ CỦA CÁC $\mathfrak{g}$-MÔĐUN
+    - en: Tensor Products of Simple Modules
+      vi: Tích tenxơ của các môđun đơn
+    - en: Terms and relations
+      vi: Thuật ngữ và quan hệ
+    - en: The axiom of extent
+      vi: Tiên đề ngoại diên
+    - en: The cardinal of a set
+      vi: Lực lượng của một tập hợp
+    - en: The Case of Abelian Groups
+      vi: Trường hợp các nhóm Abel
+    - en: The Case of Simple Rings
+      vi: Trường hợp các vành đơn
+    - en: The Center of a Quaternion Algebra
+      vi: Tâm của một đại số quaternion
+    - en: THE COEFFICIENTS N$_{\boldsymbol{\alpha \beta }}$
+      vi: CÁC HỆ SỐ N$_{\boldsymbol{\alpha \beta }}$
+    - en: The formula of Hermann Weyl
+      vi: Công thức của Hermann Weyl
+    - en: The Morita Correspondence of Modules
+      vi: Tương ứng Morita của các môđun
+    - en: The principle of induction
+      vi: Nguyên lý quy nạp
+    - en: The principle of transfinite induction
+      vi: Nguyên lý quy nạp siêu hạn
+    - en: The Radical of a Module
+      vi: Căn của một môđun
+    - en: The Radical of a Ring
+      vi: Căn của một vành
+    - en: The Radical of an Algebra
+      vi: Căn của một đại số
+    - en: The Radical of an Artinian Ring
+      vi: Căn của một vành Artin
+    - en: The scheme of selection and union
+      vi: Sơ đồ chọn và hợp
+    - en: The set of natural integers
+      vi: Tập hợp các số tự nhiên
+    - en: The theory of sets
+      vi: lý thuyết tập hợp
+    - en: The Unimodular Group
+      vi: Nhóm đơn môđula
+    - en: THEORY OF SETS
+      vi: LÝ THUYẾT TẬP HỢP
+    - en: transfinite induction
+      vi: quy nạp siêu hạn
+    - en: transportable relations
+      vi: quan hệ chuyển được
+    - en: TUBES AND TRANSVERSALS
+      vi: ỐNG VÀ CÁC ĐƯỜNG CẮT NGANG
+    - en: Two Lemmas on Bimodules
+      vi: Hai bổ đề về song môđun
+    - en: typical quantifiers
+      vi: các lượng từ điển hình
+    - en: uniqueness theorem
+      vi: định lý duy nhất
+    - en: Upper and lower bounds
+      vi: Cận trên và cận dưới
+    - en: using composition series
+      vi: sử dụng các chuỗi hợp thành
+    - en: well-ordered set
+      vi: tập được sắp thứ tự tốt
+    - en: weyr fitting decomposition
+      vi: phân rã Weyr–Fitting
+    - en: Weyr–Fitting Decomposition
+      vi: Phân rã Weyr–Fitting
+    - en: Zermelo's theorem
+      vi: định lý Zermelo
+    - en: analysis
+      vi: giải tích
+    - en: assemblies
+      vi: các dãy ký hiệu
+      note: an assembly in Theory of Sets I.1.1 is a succession of signs and letters written next to one another, so it is a sequence of symbols; the run said tổ hợp, which is combination and belongs to counting
+    - en: canonical extensions
+      vi: các mở rộng chính tắc
+    - en: characteristic functions
+      vi: các hàm đặc trưng
+    - en: cohomological
+      vi: đối đồng điều
+    - en: coinduced representations
+      vi: các biểu diễn đối cảm ứng
+    - en: combinatorial
+      vi: tổ hợp
+    - en: compact algebras
+      vi: đại số compac
+    - en: compact lie groups operating
+      vi: các nhóm Lie compac tác động
+    - en: comparison
+      vi: sự so sánh
+    - en: complex linear
+      vi: tuyến tính phức
+    - en: connectedness property
+      vi: tính chất liên thông
+    - en: criteria
+      vi: các tiêu chuẩn
+    - en: decomposable algebras
+      vi: các đại số phân rã được
+    - en: deduction
+      vi: suy diễn
+    - en: derived structures
+      vi: các cấu trúc dẫn xuất
+    - en: distributivity
+      vi: tính phân phối
+    - en: divided powers
+      vi: lũy thừa chia
+    - en: double direct limit product
+      vi: tích giới hạn thuận kép
+    - en: double inverse
+      vi: nghịch đảo kép
+    - en: embedding theorem
+      vi: định lý nhúng
+    - en: empty set
+      vi: tập rỗng
+    - en: equalitarian
+      vi: bình đẳng
+    - en: equipotent sets cardinals
+      vi: các tập hợp cùng lực lượng
+    - en: equivalence classes quotient set
+      vi: các lớp tương đương, tập thương
+    - en: equivalence relation induced equivalence
+      vi: quan hệ tương đương cảm sinh
+    - en: equivalent objects
+      vi: các đối tượng tương đương
+    - en: equivalent species
+      vi: các loại tương đương
+    - en: equivariant embedding
+      vi: phép nhúng đẳng biến
+    - en: example polynomials
+      vi: ví dụ các đa thức
+    - en: exponentiation
+      vi: phép lũy thừa
+    - en: extent
+      vi: ngoại diên
+    - en: field theory
+      vi: lý thuyết trường
+    - en: formal mathematics
+      vi: toán học hình thức
+    - en: formative
+      vi: kiến tạo
+    - en: formulae
+      vi: các công thức
+    - en: functional
+      vi: phiếm hàm
+    - en: functions inverse function
+      vi: hàm, hàm ngược
+    - en: group sl
+      vi: nhóm SL
+    - en: infinitely differentiable functions
+      vi: các hàm khả vi vô hạn
+    - en: initial
+      vi: ban đầu
+    - en: integral variant
+      vi: dạng nguyên
+    - en: invariant hermitian
+      vi: Hermitian bất biến
+    - en: lexicographic
+      vi: từ điển
+    - en: lie algebra relative
+      vi: đại số Lie tương đối
+    - en: lie algebra sl
+      vi: đại số Lie sl
+    - en: linear family
+      vi: họ tuyến tính
+    - en: linear lie algebras
+      vi: các đại số Lie tuyến tính
+    - en: logical
+      vi: lôgic
+    - en: mappings compatible
+      vi: các ánh xạ tương thích
+    - en: mathematical theory
+      vi: lý thuyết toán học
+    - en: matrix coefficients
+      vi: các hệ số ma trận
+    - en: morita correspondence
+      vi: tương ứng Morita
+    - en: natural integers
+      vi: số nguyên tự nhiên
+    - en: non-split
+      vi: không chẻ
+    - en: ordered subsets product
+      vi: tập con có thứ tự, tích
+    - en: poincar é-birkhoff witt theorem
+      vi: định lý Poincaré-Birkhoff-Witt
+    - en: preliminary construction
+      vi: xây dựng sơ bộ
+    - en: primary decomposition
+      vi: phân tích nguyên sơ
+    - en: properties preserved
+      vi: các tính chất được bảo toàn
+    - en: quantified
+      vi: lượng hóa
+    - en: quantifiers
+      vi: lượng từ
+    - en: real algebras
+      vi: đại số thực
+    - en: real forms associated
+      vi: các dạng thực liên kết
+    - en: relation induced equivalence relation
+      vi: quan hệ tương đương cảm sinh
+    - en: relations compatible
+      vi: các quan hệ tương thích
+    - en: retractions
+      vi: các phép rút
+    - en: root system associated
+      vi: hệ căn nghiệm liên kết
+    - en: scheme
+      vi: lược đồ
+    - en: selection
+      vi: phép chọn
+    - en: semi-simple action
+      vi: tác động nửa đơn
+    - en: significant
+      vi: đáng kể
+    - en: simplicity
+      vi: tính đơn
+    - en: sl triplets
+      vi: bộ ba sl
+    - en: strict inequalities
+      vi: bất đẳng thức chặt
+    - en: subalgebras stable
+      vi: các đại số con ổn định
+    - en: substitution
+      vi: phép thế
+    - en: transportable
+      vi: khả chuyển
+    - en: typical
+      vi: điển hình
+    - en: universal sets
+      vi: tập vũ trụ
+    - en: using composition
+      vi: sử dụng phép hợp thành
+    - en: well-ordered
+      vi: được sắp tốt
