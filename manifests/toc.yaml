@@ -3216,11 +3216,11 @@ books:
                   page: 29
                   pdf_page: 36
                 - "no": 3
-                  title: Met?ods .of proof
+                  title: Methods of proof
                   page: 30
                   pdf_page: 37
                 - "no": 4
-                  title: ConjunctIon
+                  title: Conjunction
                   page: 33
                   pdf_page: 40
                 - "no": 5
@@ -3335,7 +3335,7 @@ books:
                   page: 69
                   pdf_page: 76
                 - "no": 7
-                  title: Complement ofa set. The empty set
+                  title: Complement of a set. The empty set
                   page: 71
                   pdf_page: 78
               exercises:
@@ -3442,7 +3442,7 @@ books:
                 page: 125
                 pdf_page: 132
             - section: 5
-              title: Product ofa family of sets
+              title: Product of a family of sets
               page: 101
               pdf_page: 108
               subsections:
@@ -3533,7 +3533,7 @@ books:
               pdf_page: 137
               subsections:
                 - "no": 1
-                  title: Definition oran order relation
+                  title: Definition of an order relation
                   page: 131
                   pdf_page: 137
                 - "no": 2
@@ -3545,11 +3545,11 @@ books:
                   page: 135
                   pdf_page: 141
                 - "no": 4
-                  title: Ordered subsets. Product or ordered sets
+                  title: Ordered subsets. Product of ordered sets
                   page: 136
                   pdf_page: 142
                 - "no": 5
-                  title: Increasing mappings '"
+                  title: Increasing mappings
                   page: 138
                   pdf_page: 144
                 - "no": 6
@@ -3557,7 +3557,7 @@ books:
                   page: 139
                   pdf_page: 145
                 - "no": 7
-                  title: Greatest dement and least dement
+                  title: Greatest element and least element
                   page: 140
                   pdf_page: 146
                 - "no": 8
@@ -3588,7 +3588,7 @@ books:
                 page: 212
                 pdf_page: 218
             - section: 2
-              title: Wdl-ordered sets
+              title: Well-ordered sets
               page: 148
               pdf_page: 154
               subsections:
@@ -3609,7 +3609,7 @@ books:
                   page: 154
                   pdf_page: 160
                 - "no": 5
-                  title: Isomorphisms orwell-ordered sets
+                  title: Isomorphisms of well-ordered sets
                   page: 155
                   pdf_page: 161
                 - "no": 6
@@ -3620,7 +3620,7 @@ books:
                 page: 221
                 pdf_page: 227
             - section: 3
-              title: Equipotent sets. Cardinals '" "
+              title: Equipotent sets. Cardinals
               page: 157
               pdf_page: 163
               subsections:
@@ -3733,7 +3733,7 @@ books:
                   page: 184
                   pdf_page: 190
                 - "no": 3
-                  title: Properties of infinite cardinals "
+                  title: Properties of infinite cardinals
                   page: 186
                   pdf_page: 192
                 - "no": 4
@@ -3854,7 +3854,7 @@ books:
                   page: 280
                   pdf_page: 285
                 - "no": 6
-                  title: Examples of final structures "
+                  title: Examples of final structures
                   page: 281
                   pdf_page: 286
               exercises:
