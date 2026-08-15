@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 4 chapters, 61 sections, 668 exercises, 2873 extracted pages, 4464 tags, 4179 references, 993 translated files, 5 solutions. Languages: en, fr, vi.
+Audited: 4 chapters, 61 sections, 668 exercises, 2928 extracted pages, 4464 tags, 4179 references, 994 translated files, 5 solutions. Languages: en, fr, vi.
 
 ## Summary
 
@@ -17,12 +17,12 @@ Audited: 4 chapters, 61 sections, 668 exercises, 2873 extracted pages, 4464 tags
 | mathematics | 6 | 2 | 1 | M06 (1), M09 (95) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
-| translation | 8 | 2 | 1 | L08 (1) |
+| translation | 8 | 2 | 1 | L06 (2), L08 (1) |
 | solutions | 0 | 4 | 0 | none |
 | publication | 0 | 1 | 0 | P04 (93) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 324 soft, over 56 rules that ran and 3 that could not.
+0 hard findings and 326 soft, over 56 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -136,6 +136,13 @@ Soft, tags.
 - `content/en/alg/VIII/08_s8_semisimple_rings.md:398` has 009T after 00R8, which was assigned later
 
 and 109 more, which `bourbaki audit -only T10` prints in full.
+
+## L06 the glossary is followed (2)
+
+Soft, translation.
+
+- `content/vi/alg/VIII/00_frontmatter.md:1` the English mentions 38 glossary terms and 2 are not in this file as the glossary writes them: module structure (cấu trúc môđun), l-algebra (đại số trên L)
+- `content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md:1` the English mentions 58 glossary terms and 2 are not in this file as the glossary writes them: Hilbert’s Nullstellensatz (Định lý không điểm của Hilbert), set (tập hợp)
 
 ## L08 no translation was written by a small model (1)
 
