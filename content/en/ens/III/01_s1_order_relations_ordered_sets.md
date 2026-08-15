@@ -64,9 +64,9 @@ subsections:
       title: INTERVALS
       page: 147
       pdf_page: 153
-statements: 26
+statements: 48
 exercises: 3
-content_sha256: 09457fae6e9e6a7ebc4aecf1f57fe7f4042ada4e587ebb34357f12177ebfd4ef
+content_sha256: b2655c012fb0316004f0e9abda8be168f60e338a0995c108e2526e3e8f485165
 ---
 
 ## 1. ORDER RELATIONS. ORDERED SETS
@@ -83,11 +83,17 @@ The first of the above relations says that R is *transitive* with respect to the
 
 *Examples*
 
-(1) The *relation of equality*, $x = y$, is an order relation.
+#### Example 1 {#ens-iii-s1-n1-exa-1 .statement tag=03SH}
 
-(2) The relation $X \subset Y$ is an order relation between X and Y (Chapter II, § 1, no. 2, Propositions 1 and 2 and axiom A1) which is often called the *inclusion relation*.
+The *relation of equality*, $x = y$, is an order relation.
 
-(3) Let $R\{x, y\}$ be an order relation between $x$ and $y$. The relation $R\{\, y,\, x\}$ is then an order relation *between x and y*, called the *opposite* of the order relation $R\{x,\, y\}$.
+#### Example 2 {#ens-iii-s1-n1-exa-2 .statement tag=03SI}
+
+The relation $X \subset Y$ is an order relation between X and Y (Chapter II, § 1, no. 2, Propositions 1 and 2 and axiom A1) which is often called the *inclusion relation*.
+
+#### Example 3 {#ens-iii-s1-n1-exa-3 .statement tag=03SJ}
+
+Let $R\{x, y\}$ be an order relation between $x$ and $y$. The relation $R\{\, y,\, x\}$ is then an order relation *between x and y*, called the *opposite* of the order relation $R\{x,\, y\}$.
 
 An *order relation on a set* E is an order relation $R\{x,\, y\}$ with respect to two distinct letters $x$, $y$ such that the relation $R\{x,\, x\}$ is *equivalent to* $x \in E$ (in other words, is such that $R\{x,\, y\}$ is *reflexive* on E (Chapter II, § 6, no. 1)). Then the relation $R\{x,\, y\}$ implies "$x \in E$ and $y \in E$" and the relation $(R\{x,\, y\}$ and $R\{\, y,\, x\})$ is equivalent to "$x \in E$ and $y \in E$ and $x = y$".
 
@@ -263,9 +269,13 @@ For example, if a set E is ordered by the equality relation, the identity mappin
 
 *Examples*
 
-(1) Let E be a set.  The mapping $X \rightarrow E - X$ of $\mathfrak{P}(E)$ (ordered by inclusion) onto itself is strictly decreasing.
+#### Example 1 {#ens-iii-s1-n5-exa-1 .statement tag=03SK}
 
-(2) Let E be an ordered set. For each $x \in E$ let $U_x$ be the set of all $y \in E$ such that $y \geqslant x$. The mapping $x \to U_x$ is a strictly decreasing mapping of E into $\mathfrak{P}(E)$ (ordered by inclusion); indeed, the relation $x \leqslant y$ is equivalent to $U_x \supset U_y$.
+Let E be a set.  The mapping $X \rightarrow E - X$ of $\mathfrak{P}(E)$ (ordered by inclusion) onto itself is strictly decreasing.
+
+#### Example 2 {#ens-iii-s1-n5-exa-2 .statement tag=03SL}
+
+Let E be an ordered set. For each $x \in E$ let $U_x$ be the set of all $y \in E$ such that $y \geqslant x$. The mapping $x \to U_x$ is a strictly decreasing mapping of E into $\mathfrak{P}(E)$ (ordered by inclusion); indeed, the relation $x \leqslant y$ is equivalent to $U_x \supset U_y$.
 
 An injective monotone mapping of an ordered set E into an ordered set F is *strictly monotone*; the converse is usually not true, because it may happen that $f(x) = f(y)$ when neither of the relations $x \leqslant y$, $x \geqslant y$ is true (cf. no. 12, Proposition 11).
 
@@ -291,13 +301,21 @@ Every minimal element of E is a maximal element with respect to the opposite ord
 
 *Examples*
 
-(1) Let A be a set. In the subset of $\mathfrak{P}(A)$ (ordered by inclusion) consisting of the non-empty subsets of A, the minimal elements are the subsets consisting of a single element.
+#### Example 1 {#ens-iii-s1-n6-exa-1 .statement tag=03SM}
 
-(2) In the set $\Phi(E, F)$ of mappings of subsets of E into F (F being non-empty), ordered by the relation "$v$ extends $u$" between $u$ and $v$, the maximal elements are the mappings of the whole of E into F.
+Let A be a set. In the subset of $\mathfrak{P}(A)$ (ordered by inclusion) consisting of the non-empty subsets of A, the minimal elements are the subsets consisting of a single element.
 
-\* (3) In the set of natural integers $> 1$, ordered by the relation "$m$ divides $n$" between $m$ and $n$, the minimal elements are the prime numbers. $_*$
+#### Example 2 {#ens-iii-s1-n6-exa-2 .statement tag=03SN}
 
-\* (4) The set of real numbers has no maximal element and no minimal element. $_*$
+In the set $\Phi(E, F)$ of mappings of subsets of E into F (F being non-empty), ordered by the relation "$v$ extends $u$" between $u$ and $v$, the maximal elements are the mappings of the whole of E into F.
+
+#### Example 3 {#ens-iii-s1-n6-exa-3 .statement tag=03SO}
+
+In the set of natural integers $> 1$, ordered by the relation "$m$ divides $n$" between $m$ and $n$, the minimal elements are the prime numbers. $_*$
+
+#### Example 4 {#ens-iii-s1-n6-exa-4 .statement tag=03SP}
+
+The set of real numbers has no maximal element and no minimal element. $_*$
 
 ### 7. GREATEST ELEMENT AND LEAST ELEMENT
 
@@ -313,9 +331,13 @@ An ordered set need not have a greatest element nor a least element. If E has a 
 
 *Examples*
 
-(1) Let $\mathfrak{S}$ be a non-empty subset of the set $\mathfrak{P}(E)$ of subsets of a set E. If $\mathfrak{S}$ has a least (resp. greatest) element A with respect to the inclusion relation, then A is the intersection (resp. union) of the sets of $\mathfrak{S}$. Conversely, if the intersection (resp. union) of the sets of $\mathfrak{S}$ belongs to $\mathfrak{S}$, then it is the least (resp. greatest) element of $\mathfrak{S}$.
+#### Example 1 {#ens-iii-s1-n7-exa-1 .statement tag=03SQ}
 
-(2) In particular, $\emptyset$ is the least element and E the greatest element of $\mathfrak{P}(E)$. In the set $\Phi(E, F)$ of mappings of subsets of E into F, ordered by extension of mappings (no. 1, Example 3), the empty mapping is the least element, and there is no greatest element unless F consists of a single element. The diagonal $\Delta$ of $E \times E$ is the least element of the set of graphs of equivalence relations on E (or of the set of preorderings on E).
+Let $\mathfrak{S}$ be a non-empty subset of the set $\mathfrak{P}(E)$ of subsets of a set E. If $\mathfrak{S}$ has a least (resp. greatest) element A with respect to the inclusion relation, then A is the intersection (resp. union) of the sets of $\mathfrak{S}$. Conversely, if the intersection (resp. union) of the sets of $\mathfrak{S}$ belongs to $\mathfrak{S}$, then it is the least (resp. greatest) element of $\mathfrak{S}$.
+
+#### Example 2 {#ens-iii-s1-n7-exa-2 .statement tag=03SR}
+
+In particular, $\emptyset$ is the least element and E the greatest element of $\mathfrak{P}(E)$. In the set $\Phi(E, F)$ of mappings of subsets of E into F, ordered by extension of mappings (no. 1, Example 3), the empty mapping is the least element, and there is no greatest element unless F consists of a single element. The diagonal $\Delta$ of $E \times E$ is the least element of the set of graphs of equivalence relations on E (or of the set of preorderings on E).
 
 #### Proposition 3 {#ens-iii-s1-prop-3 .statement tag=03JH}
 
@@ -365,11 +387,17 @@ or by sup X (resp. inf X) if there is no risk of ambiguity. The least upper boun
 
 *Examples*
 
-(1) The set of upper bounds of the empty set $\emptyset$ in an ordered set E is evidently E itself; hence $\emptyset$ has a supremum in E if and only if E has a *least* element, which is then the *least upper bound* of $\emptyset$.
+#### Example 1 {#ens-iii-s1-n9-exa-1 .statement tag=03SS}
 
-(2) In the set $\mathfrak{P}(E)$ of subsets of a set E, ordered by inclusion, every subset $\mathfrak{S}$ of $\mathfrak{P}(E)$ has a least upper bound, namely the *union* of the sets of $\mathfrak{S}$, and a greatest lower bound, namely the *intersection* of the sets of $\mathfrak{S}$.
+The set of upper bounds of the empty set $\emptyset$ in an ordered set E is evidently E itself; hence $\emptyset$ has a supremum in E if and only if E has a *least* element, which is then the *least upper bound* of $\emptyset$.
 
-(3) Let E, F be two sets and let $\Theta$ be a subset of the $\Phi(E, F)$ of mappings of subsets of E into F, ordered by extension of mappings (no. 1, Example 3). For each $u \in \Phi(E, F)$ let $D(u)$ be the domain of $u$. The condition for the existence of a common extension of a family of mappings belonging to $\Phi(E, F)$ (Chapter II, § 4, no. 6, Proposition 7) shows that $\Theta$ has a least upper bound in $\Phi(E, F)$ if and only if for each pair $(u, v)$ of elements of $\Theta$ we have $u(x) = v(x)$ whenever $x \in D(u) \cap D(v)$.
+#### Example 2 {#ens-iii-s1-n9-exa-2 .statement tag=03ST}
+
+In the set $\mathfrak{P}(E)$ of subsets of a set E, ordered by inclusion, every subset $\mathfrak{S}$ of $\mathfrak{P}(E)$ has a least upper bound, namely the *union* of the sets of $\mathfrak{S}$, and a greatest lower bound, namely the *intersection* of the sets of $\mathfrak{S}$.
+
+#### Example 3 {#ens-iii-s1-n9-exa-3 .statement tag=03SU}
+
+Let E, F be two sets and let $\Theta$ be a subset of the $\Phi(E, F)$ of mappings of subsets of E into F, ordered by extension of mappings (no. 1, Example 3). For each $u \in \Phi(E, F)$ let $D(u)$ be the domain of $u$. The condition for the existence of a common extension of a family of mappings belonging to $\Phi(E, F)$ (Chapter II, § 4, no. 6, Proposition 7) shows that $\Theta$ has a least upper bound in $\Phi(E, F)$ if and only if for each pair $(u, v)$ of elements of $\Theta$ we have $u(x) = v(x)$ whenever $x \in D(u) \cap D(v)$.
 
 A mapping $f$ of a set A into an ordered set E is said to have a least upper bound if the image $f(A)$ has a least upper bound in E; this bound is then called the *least upper bound of f* and is written $\sup_{x \in A} f(x)$. Similarly for the greatest lower bound.
 
@@ -486,10 +514,21 @@ because the union and intersection of two subsets of A are again subsets of A.
 
 *Examples*
 
-* (1) The set of integers $\geq 1$, ordered by the relation “$m$ divides $n$” between $m$ and $n$, is a lattice; the least upper bound of $\{m,n\}$ is the l.c.m. of $m$ and $n$, and the greatest lower bound is their h.c.f.
-(2) The set of subgroups of a group G, ordered by inclusion, is a lattice.
-(3) The set of topologies on a set A, ordered by the relation “$\mathcal{T}$ is coarser than $\mathcal{T}'$” between $\mathcal{T}$ and $\mathcal{T}'$, is a lattice. (General Topology, Chapter I, § 2).
-(4) The set $\mathscr{F}(I,\mathbf{R})$ of all real-valued functions defined on an interval I of $\mathbf{R}$ is a lattice with respect to the order relation $f\leq g$ (no. 4), and as such is isomorphic to the product $\mathbf{R}^{I}$. *
+#### Example 1 {#ens-iii-s1-n11-exa-1 .statement tag=03SV}
+
+The set of integers $\geq 1$, ordered by the relation “$m$ divides $n$” between $m$ and $n$, is a lattice; the least upper bound of $\{m,n\}$ is the l.c.m. of $m$ and $n$, and the greatest lower bound is their h.c.f.
+
+#### Example 2 {#ens-iii-s1-n11-exa-2 .statement tag=03TT}
+
+The set of subgroups of a group G, ordered by inclusion, is a lattice.
+
+#### Example 3 {#ens-iii-s1-n11-exa-3 .statement tag=03TU}
+
+The set of topologies on a set A, ordered by the relation “$\mathcal{T}$ is coarser than $\mathcal{T}'$” between $\mathcal{T}$ and $\mathcal{T}'$, is a lattice. (General Topology, Chapter I, § 2).
+
+#### Example 4 {#ens-iii-s1-n11-exa-4 .statement tag=03TV}
+
+The set $\mathscr{F}(I,\mathbf{R})$ of all real-valued functions defined on an interval I of $\mathbf{R}$ is a lattice with respect to the order relation $f\leq g$ (no. 4), and as such is isomorphic to the product $\mathbf{R}^{I}$. *
 
 #### Remark {#ens-iii-s1-n11-rem-1 .statement tag=03JQ}
 
@@ -507,10 +546,21 @@ An ordering on E is a total ordering if and only if its graph G satisfies the re
 
 *Examples*
 
-(1) Every subset of a totally ordered set is totally ordered by the induced ordering.
-(2) Let E be an arbitrary ordered set. The empty subset of E is totally ordered, and so is every subset of E consisting of a single element.
-* (3) The set $\mathbf{R}$ of real numbers is totally ordered. *
-(4) If A is a set which has at least two distinct elements, the set $\mathscr{P}(A)$ (ordered by inclusion) is not totally ordered, for if $x\neq y$, the subsets $\{x\}$ and $\{y\}$ are not comparable.
+#### Example 1 {#ens-iii-s1-n12-exa-1 .statement tag=03SW}
+
+Every subset of a totally ordered set is totally ordered by the induced ordering.
+
+#### Example 2 {#ens-iii-s1-n12-exa-2 .statement tag=03TW}
+
+Let E be an arbitrary ordered set. The empty subset of E is totally ordered, and so is every subset of E consisting of a single element.
+
+#### Example 3 {#ens-iii-s1-n12-exa-3 .statement tag=03TX}
+
+The set $\mathbf{R}$ of real numbers is totally ordered. *
+
+#### Example 4 {#ens-iii-s1-n12-exa-4 .statement tag=03TY}
+
+If A is a set which has at least two distinct elements, the set $\mathscr{P}(A)$ (ordered by inclusion) is not totally ordered, for if $x\neq y$, the subsets $\{x\}$ and $\{y\}$ are not comparable.
 
 A totally ordered set is also totally ordered with respect to the opposite ordering; it is a lattice and *a fortiori* both left and right directed.
 

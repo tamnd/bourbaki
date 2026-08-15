@@ -36,9 +36,9 @@ subsections:
       title: LEXICOGRAPHIC PRODUCTS
       page: 157
       pdf_page: 163
-statements: 20
+statements: 28
 exercises: 10
-content_sha256: 1a2d9db98e6ef5ed74df882f0958d82eeb8e59fb48837725860acbe96db49115
+content_sha256: af2eb46f28d58f32ba0f426034093b2763513b46012633b47b311797b5c4456c
 ---
 
 ## 2. WELL-ORDERED SETS
@@ -57,15 +57,25 @@ A well-ordered set E is totally ordered because every subset $\{x, y\}$ of E has
 
 *Examples*
 
-(1) Let $\mathrm{E} = \{\alpha, \beta\}$ be a set whose elements are distinct. It is easily verified that the subset $\{(\alpha, \alpha), (\beta, \beta), (\alpha, \beta)\}$ of $\mathrm{E} \times \mathrm{E}$ is the graph of a well-ordering on E.
+#### Example 1 {#ens-iii-s2-n1-exa-1 .statement tag=03SX}
 
-(2) Every subset (in particular, the empty subset) of a well-ordered set is well-ordered by the induced ordering.
+Let $\mathrm{E} = \{\alpha, \beta\}$ be a set whose elements are distinct. It is easily verified that the subset $\{(\alpha, \alpha), (\beta, \beta), (\alpha, \beta)\}$ of $\mathrm{E} \times \mathrm{E}$ is the graph of a well-ordering on E.
 
-\* (3) The existence of totally ordered sets which are not well-ordered is equivalent to the axiom of infinity (§ 4, no. 4, Corollary 1 to Proposition 3, and Exercise 3).
+#### Example 2 {#ens-iii-s2-n1-exa-2 .statement tag=03SY}
 
-(4) If $\Gamma$ is a well-ordering on E, the ordering opposite to $\Gamma$ is a well-ordering on E only if E is finite (§ 4, Exercise 3). \*
+Every subset (in particular, the empty subset) of a well-ordered set is well-ordered by the induced ordering.
 
-(5) Let E be a well-ordered set. The set $\mathrm{E}_1$ obtained by adjoining to E a greatest element $b$ (§ 1, no. 7) is well-ordered, for if H is any
+#### Example 3 {#ens-iii-s2-n1-exa-3 .statement tag=03SZ}
+
+The existence of totally ordered sets which are not well-ordered is equivalent to the axiom of infinity (§ 4, no. 4, Corollary 1 to Proposition 3, and Exercise 3).
+
+#### Example 4 {#ens-iii-s2-n1-exa-4 .statement tag=03T0}
+
+If $\Gamma$ is a well-ordering on E, the ordering opposite to $\Gamma$ is a well-ordering on E only if E is finite (§ 4, Exercise 3). \*
+
+#### Example 5 {#ens-iii-s2-n1-exa-5 .statement tag=03T1}
+
+Let E be a well-ordered set. The set $\mathrm{E}_1$ obtained by adjoining to E a greatest element $b$ (§ 1, no. 7) is well-ordered, for if H is any
 
 non-empty subset of $\mathrm{E}_1$ other than $\{b\}$, the least element of $\mathrm{H} \cap \mathrm{E}$ is also the least element of H.
 
@@ -209,11 +219,17 @@ implies $(\exists x)(x \in \mathrm{E} - \mathrm{X})$, we have $p(\mathrm{X}) \in
 
 *Examples*
 
-(1) Let $\mathfrak{F}$ be a set of subsets of a set A, ordered by inclusion, and such that for every totally ordered subset $\mathfrak{G}$ of $\mathfrak{F}$ the union of the sets of $\mathfrak{G}$ belongs to $\mathfrak{F}$. Then $\mathfrak{F}$ is inductive with respect to the relation $\subset$ because the union of the sets of $\mathfrak{G}$ is the least upper bound of $\mathfrak{G}$ in $\mathfrak{P}(\mathrm{A})$.
+#### Example 1 {#ens-iii-s2-n4-exa-1 .statement tag=03T2}
 
-(2) An important example of a set of subsets which is inductive with respect to the relation $\subset$ is the set $\mathfrak{F}$ of graphs of mappings of subsets of a set A into a set B. For $\mathfrak{F}$ is a subset of $\mathfrak{P}(\mathrm{A} \times \mathrm{B})$, and to say that a subset $\mathfrak{G}$ of $\mathfrak{F}$ is totally ordered by inclusion means that the elements of $\mathfrak{G}$ are graphs of mappings such that, given any two of these mappings, one is an extension of the other. It follows immediately that the union of the sets of $\mathfrak{G}$ is an element of $\mathfrak{F}$ (Chapter II, § 4, no. 6, Proposition 7). Hence the set $\Phi(\mathrm{A}, \mathrm{B})$ of mappings of subsets of A into B is inductive with respect to the order relation "$v$ extends $u$" between $u$ and $v$.
+Let $\mathfrak{F}$ be a set of subsets of a set A, ordered by inclusion, and such that for every totally ordered subset $\mathfrak{G}$ of $\mathfrak{F}$ the union of the sets of $\mathfrak{G}$ belongs to $\mathfrak{F}$. Then $\mathfrak{F}$ is inductive with respect to the relation $\subset$ because the union of the sets of $\mathfrak{G}$ is the least upper bound of $\mathfrak{G}$ in $\mathfrak{P}(\mathrm{A})$.
 
-\* (3) It follows from the axiom of infinity (§ 6, no. 1) that the well-ordered set of natural integers is not inductive with respect to the relation $\leqslant$. \*
+#### Example 2 {#ens-iii-s2-n4-exa-2 .statement tag=03T3}
+
+An important example of a set of subsets which is inductive with respect to the relation $\subset$ is the set $\mathfrak{F}$ of graphs of mappings of subsets of a set A into a set B. For $\mathfrak{F}$ is a subset of $\mathfrak{P}(\mathrm{A} \times \mathrm{B})$, and to say that a subset $\mathfrak{G}$ of $\mathfrak{F}$ is totally ordered by inclusion means that the elements of $\mathfrak{G}$ are graphs of mappings such that, given any two of these mappings, one is an extension of the other. It follows immediately that the union of the sets of $\mathfrak{G}$ is an element of $\mathfrak{F}$ (Chapter II, § 4, no. 6, Proposition 7). Hence the set $\Phi(\mathrm{A}, \mathrm{B})$ of mappings of subsets of A into B is inductive with respect to the order relation "$v$ extends $u$" between $u$ and $v$.
+
+#### Example 3 {#ens-iii-s2-n4-exa-3 .statement tag=03T4}
+
+It follows from the axiom of infinity (§ 6, no. 1) that the well-ordered set of natural integers is not inductive with respect to the relation $\leqslant$. \*
 
 #### Theorem 2 ("Zorn's lemma") {#ens-iii-s2-thm-2 .statement tag=03QT}
 

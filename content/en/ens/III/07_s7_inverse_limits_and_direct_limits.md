@@ -40,9 +40,9 @@ subsections:
       title: DOUBLE DIRECT LIMIT. PRODUCT OF DIRECT LIMITS
       page: 209
       pdf_page: 215
-statements: 25
+statements: 34
 exercises: 9
-content_sha256: d1db59d454db5cf67de05088affcb90d16bb99013e48cff61a07623c5743a335
+content_sha256: fd2f200662bc2d2a1500cfe129cf016da43f418c92fd50ea6081b2a5555410f3
 ---
 
 ## 7. INVERSE LIMITS AND DIRECT LIMITS
@@ -71,9 +71,13 @@ whenever $\alpha\leq\beta$; this is merely a transcription of the relations (1) 
 
 *Examples*
 
-(1) Suppose that the order relation on $I$ is the relation of *equality*. Then the only pairs $(\alpha,\beta)$ such that $\alpha\leq\beta$ are the pairs $(\alpha,\alpha)$ where $\alpha\in I$, and since $f_{\alpha\alpha}$ is the identity mapping, the relation (1) is satisfied for all $x\in G$; in other words, $\underset{\longleftarrow}{\lim}E_\alpha$ is then the *product* $\prod_{\alpha\in I}E_\alpha$.
+#### Example 1 {#ens-iii-s7-n1-exa-1 .statement tag=03TF}
 
-(2) Suppose that $I$ is *right directed*, that $E_\alpha$ is the same set F for all $\alpha\in I$, and that $f_{\alpha\beta}$ is the identity mapping of F onto itself whenever $\alpha\leq\beta$. Then $E=\underset{\longleftarrow}{\lim}E_\alpha$ is the *diagonal* $\Delta$ of the product $\prod_{\alpha\in I}E_\alpha=F^I$.
+Suppose that the order relation on $I$ is the relation of *equality*. Then the only pairs $(\alpha,\beta)$ such that $\alpha\leq\beta$ are the pairs $(\alpha,\alpha)$ where $\alpha\in I$, and since $f_{\alpha\alpha}$ is the identity mapping, the relation (1) is satisfied for all $x\in G$; in other words, $\underset{\longleftarrow}{\lim}E_\alpha$ is then the *product* $\prod_{\alpha\in I}E_\alpha$.
+
+#### Example 2 {#ens-iii-s7-n1-exa-2 .statement tag=03TG}
+
+Suppose that $I$ is *right directed*, that $E_\alpha$ is the same set F for all $\alpha\in I$, and that $f_{\alpha\beta}$ is the identity mapping of F onto itself whenever $\alpha\leq\beta$. Then $E=\underset{\longleftarrow}{\lim}E_\alpha$ is the *diagonal* $\Delta$ of the product $\prod_{\alpha\in I}E_\alpha=F^I$.
 
 Indeed, it is clear that each $x\in\Delta$ satisfies the relations (1). Conversely, let $x$ be an element of $E$, and let us show that for each pair of indices
 
@@ -225,15 +229,21 @@ In particular, if $\mathrm{I}$ has a *greatest element* $\omega$, we may take $\
 
 *Remarks*
 
-(1) For each $\alpha \in I$ put $E'_\alpha = f_\alpha(E)$. Then the sets $E'_\alpha$ form an *inverse system of subsets* of the $E_\alpha$ by reason of (2), and it is immediately clear that $\varprojlim E'_\alpha = E = \varprojlim E_\alpha$. The mapping $f'_{\alpha\beta} : E'_\beta \to E'_\alpha$ (where $\alpha \leqslant \beta$), whose graph is the same as that of the restriction of $f_{\alpha\beta}$ to $E_\beta$, is *surjective*, and we have
+#### Remark 1 {#ens-iii-s7-n2-rem-1 .statement tag=03TH}
+
+For each $\alpha \in I$ put $E'_\alpha = f_\alpha(E)$. Then the sets $E'_\alpha$ form an *inverse system of subsets* of the $E_\alpha$ by reason of (2), and it is immediately clear that $\varprojlim E'_\alpha = E = \varprojlim E_\alpha$. The mapping $f'_{\alpha\beta} : E'_\beta \to E'_\alpha$ (where $\alpha \leqslant \beta$), whose graph is the same as that of the restriction of $f_{\alpha\beta}$ to $E_\beta$, is *surjective*, and we have
 
 $$(10) \qquad E'_\alpha = f_\alpha(E) \subset \bigcap_{\beta \geqslant \alpha} f_{\alpha\beta}(E_\beta)$$
 
 for all $\alpha \in I$.
 
-(2) Let I be a (*right*) *directed* ordered set, let $(E_\alpha, f_{\alpha\beta})$ be an inverse system of sets relative to I, and for each $\alpha \in I$ let $u_\alpha : F \to E_\alpha$ be a mapping such that the family $(u_\alpha)$ satisfies formula (5). Consider the inverse system $(F_\alpha, i_{\alpha\beta})$ indexed by I, where $F_\alpha = F$ for all $\alpha \in I$ and $i_{\alpha\beta}$ is the identity mapping of F. Then (no. 1, Example 2) F is canonically identified with $\varprojlim F_\alpha$. If we consider $u_\alpha$ as a mapping of $F_\alpha$ into $E_\alpha$, then $(u_\alpha)$ is an inverse system of mappings, and the mapping $u : F \to E$ defined by (6) is identified with the inverse limit of this system of mappings. Hence, by abuse of language, we write $u = \varprojlim u_\alpha$.
+#### Remark 2 {#ens-iii-s7-n2-rem-2 .statement tag=03TI}
 
-(3) Let I be an ordered set and let $(E_\alpha, f_{\alpha\beta})$ be an inverse system of sets relative to I. For each finite subset J of I, let $F_J$ be the inverse limit of the (finite) inverse system obtained from $(E_\alpha, f_{\alpha\beta})$ by restricting the index set to J. If J and K are any two finite subsets of I such that $J \subset K$, let $g_{JK}$ denote the canonical mapping (3) of $F_K$ into $F_J$. Then the relation (4) shows that $(F_J, g_{JK})$ is an *inverse system* of sets relative to the *directed* set (with respect to the relation $\subset$) $\mathfrak{F}(I)$ of finite subsets of I. Next, for each $J \in \mathfrak{F}(I)$ let $h_J : E \to F_J$ be the canonical mapping (3). By virtue of (4) and with the abuse of language mentioned in Remark (2), $(h_J)$ is an *inverse system* of mappings. Put $h = \varprojlim h_J : E \to F = \varprojlim F_J$, and let us show that $h$ is a *bijection* (called *canonical*). Indeed, let $y = (y_J) \in F$. By definition we have $y_J = (x_{\alpha, J})_{\alpha \in J}$, where $x_{\alpha, J} \in E_\alpha$ for all $\alpha \in J$. If $J \subset K$, then by definition of the mapping $g_{JK}$ and because $y_J = g_{JK}(y_K)$, we have $x_{\alpha, J} = x_{\alpha, K}$ for all $\alpha \in J$. Hence, given $\alpha \in I$, there is a unique element $x_\alpha \in E_\alpha$ such that $x_\alpha = x_{\alpha, J}$ for all finite subsets J of I which contain $\alpha$. If $\alpha \leqslant \beta$, there is a finite subset J of I which contains both $\alpha$ and $\beta$; hence $x_\alpha = f_{\alpha\beta}(x_\beta)$ by definition. Consequently $x = (x_\alpha)$ is the unique element of E such that $h(x) = y$.
+Let I be a (*right*) *directed* ordered set, let $(E_\alpha, f_{\alpha\beta})$ be an inverse system of sets relative to I, and for each $\alpha \in I$ let $u_\alpha : F \to E_\alpha$ be a mapping such that the family $(u_\alpha)$ satisfies formula (5). Consider the inverse system $(F_\alpha, i_{\alpha\beta})$ indexed by I, where $F_\alpha = F$ for all $\alpha \in I$ and $i_{\alpha\beta}$ is the identity mapping of F. Then (no. 1, Example 2) F is canonically identified with $\varprojlim F_\alpha$. If we consider $u_\alpha$ as a mapping of $F_\alpha$ into $E_\alpha$, then $(u_\alpha)$ is an inverse system of mappings, and the mapping $u : F \to E$ defined by (6) is identified with the inverse limit of this system of mappings. Hence, by abuse of language, we write $u = \varprojlim u_\alpha$.
+
+#### Remark 3 {#ens-iii-s7-n2-rem-3 .statement tag=03TJ}
+
+Let I be an ordered set and let $(E_\alpha, f_{\alpha\beta})$ be an inverse system of sets relative to I. For each finite subset J of I, let $F_J$ be the inverse limit of the (finite) inverse system obtained from $(E_\alpha, f_{\alpha\beta})$ by restricting the index set to J. If J and K are any two finite subsets of I such that $J \subset K$, let $g_{JK}$ denote the canonical mapping (3) of $F_K$ into $F_J$. Then the relation (4) shows that $(F_J, g_{JK})$ is an *inverse system* of sets relative to the *directed* set (with respect to the relation $\subset$) $\mathfrak{F}(I)$ of finite subsets of I. Next, for each $J \in \mathfrak{F}(I)$ let $h_J : E \to F_J$ be the canonical mapping (3). By virtue of (4) and with the abuse of language mentioned in Remark (2), $(h_J)$ is an *inverse system* of mappings. Put $h = \varprojlim h_J : E \to F = \varprojlim F_J$, and let us show that $h$ is a *bijection* (called *canonical*). Indeed, let $y = (y_J) \in F$. By definition we have $y_J = (x_{\alpha, J})_{\alpha \in J}$, where $x_{\alpha, J} \in E_\alpha$ for all $\alpha \in J$. If $J \subset K$, then by definition of the mapping $g_{JK}$ and because $y_J = g_{JK}(y_K)$, we have $x_{\alpha, J} = x_{\alpha, K}$ for all $\alpha \in J$. Hence, given $\alpha \in I$, there is a unique element $x_\alpha \in E_\alpha$ such that $x_\alpha = x_{\alpha, J}$ for all finite subsets J of I which contain $\alpha$. If $\alpha \leqslant \beta$, there is a finite subset J of I which contains both $\alpha$ and $\beta$; hence $x_\alpha = f_{\alpha\beta}(x_\beta)$ by definition. Consequently $x = (x_\alpha)$ is the unique element of E such that $h(x) = y$.
 
 ### 3. DOUBLE INVERSE LIMIT
 
@@ -395,9 +405,13 @@ and if we choose an $x_\alpha$ in this set such that $\overset{-1}{f}_{\alpha\be
 
 *Examples*
 
-(1) If the $E_\alpha$ are *finite* sets, Theorem 1 can be applied by taking $\mathfrak{S}_\alpha$ to be the set of *all* subsets of $E_\alpha$. \* This example is generalized in *General Topology* to the situation in which the $E_\alpha$ are *compact* topological spaces, the $f_{\alpha\beta}$ *continuous* maps, and $\mathfrak{S}_\alpha$ the set of *closed* subsets of $E_\alpha$ (*General Topology*, Chapter I, § 9, no. 6). \*
+#### Example 1 {#ens-iii-s7-n4-exa-1 .statement tag=03TK}
 
-\* (2) Let A be a ring with an identity element, and for each $\alpha \in I$ let $T_\alpha$ be an *Artinian* left A-module. Let $E_\alpha$ be a *homogeneous space* for $T_\alpha$ on which $T_\alpha$ operates faithfully (so that $E_\alpha$ is an *affine space* attached to $T_\alpha$). For $\beta \geqslant \alpha$, suppose that $f_{\alpha\beta} : E_\beta \to E_\alpha$ is an *affine mapping*. Take $\mathfrak{S}_\alpha$ to be the set consisting of the empty set and the *affine linear varieties* in $E_\alpha$. Then condition (i) is trivially satisfied, and (ii) follows from the fact that $T_\alpha$ is Artinian; for this implies that there exists a minimal element in the set of finite intersections of sets $M \in \mathfrak{F}$, and this minimal element must be equal to $\bigcap_{M \in \mathfrak{F}} M$. Finally, since $f_{\alpha\beta}$ is affine, conditions (iii) and (iv) are trivially satisfied. \*
+If the $E_\alpha$ are *finite* sets, Theorem 1 can be applied by taking $\mathfrak{S}_\alpha$ to be the set of *all* subsets of $E_\alpha$. \* This example is generalized in *General Topology* to the situation in which the $E_\alpha$ are *compact* topological spaces, the $f_{\alpha\beta}$ *continuous* maps, and $\mathfrak{S}_\alpha$ the set of *closed* subsets of $E_\alpha$ (*General Topology*, Chapter I, § 9, no. 6). \*
+
+#### Example 2 {#ens-iii-s7-n4-exa-2 .statement tag=03TL}
+
+Let A be a ring with an identity element, and for each $\alpha \in I$ let $T_\alpha$ be an *Artinian* left A-module. Let $E_\alpha$ be a *homogeneous space* for $T_\alpha$ on which $T_\alpha$ operates faithfully (so that $E_\alpha$ is an *affine space* attached to $T_\alpha$). For $\beta \geqslant \alpha$, suppose that $f_{\alpha\beta} : E_\beta \to E_\alpha$ is an *affine mapping*. Take $\mathfrak{S}_\alpha$ to be the set consisting of the empty set and the *affine linear varieties* in $E_\alpha$. Then condition (i) is trivially satisfied, and (ii) follows from the fact that $T_\alpha$ is Artinian; for this implies that there exists a minimal element in the set of finite intersections of sets $M \in \mathfrak{F}$, and this minimal element must be equal to $\bigcap_{M \in \mathfrak{F}} M$. Finally, since $f_{\alpha\beta}$ is affine, conditions (iii) and (iv) are trivially satisfied. \*
 
 ### 5. DIRECT LIMITS
 
@@ -423,9 +437,13 @@ since for each $x \in \mathrm{E}_\alpha$ we have $f_{\beta\beta}(f_{\beta\alpha}
 
 *Examples*
 
-(1) Let A, B be two sets, and let $(\mathrm{V}_\alpha)_{\alpha \in \mathrm{I}}$ be a family of subsets of A whose index set I is directed, and such that the relation $\alpha \leqslant \beta$ implies $\mathrm{V}_\beta \subset \mathrm{V}_\alpha$. Let $\mathrm{E}_\alpha$ denote the set of all mappings of $\mathrm{V}_\alpha$ into B, and for each pair of indices $(\alpha, \beta)$ such that $\alpha \leqslant \beta$ let $f_{\beta\alpha}$ be the mapping of $\mathrm{E}_\alpha$ into $\mathrm{E}_\beta$ which sends each function $u \in \mathrm{E}_\alpha$ to its *restriction* to $\mathrm{V}_\beta$. It is obvious that the conditions $(\mathrm{LI_I})$ and $(\mathrm{LI_{II}})$ are satisfied, and the set $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$ is called the set of *germs of mappings* of the $\mathrm{V}_\alpha$ into B. \* The most frequent case is that in which $(\mathrm{V}_\alpha)$ is the family of *neighbourhoods* of a subset of a topological space A (*General Topology*, Chapter I, §6, no. 10). \*
+#### Example 1 {#ens-iii-s7-n5-exa-1 .statement tag=03TM}
 
-(2) Suppose that, for each $\alpha \in \mathrm{I}$, $\mathrm{E}_\alpha$ is the same set F and that whenever $\alpha \leqslant \beta$, $f_{\beta\alpha}$ is the identity mapping of F onto itself. Then there exists a *canonical bijection* of $\varinjlim \mathrm{E}_\alpha$ onto F. In order to define $\varinjlim \mathrm{E}_\alpha$, we have to form the set G which is the sum of the family $(\mathrm{E}_\alpha)$; G is therefore the union of a family $(\mathrm{G}_\alpha)$ of mutually disjoint sets, and for each $\alpha \in \mathrm{I}$ there is a canonical bijection $h_\alpha : \mathrm{F} \to \mathrm{G}_\alpha$. We have next to consider the equivalence relation R on G corresponding to the partition $(\mathrm{P}_y)_{y \in \mathrm{F}}$, where $\mathrm{P}_y$ is the set of all $h_\alpha(y)$ as $\alpha$ runs through I. Clearly $y \to \mathrm{P}_y$ is a bijection whose inverse is the bijection required. We shall identify F with $\varinjlim \mathrm{E}_\alpha$ by means of this canonical bijection.
+Let A, B be two sets, and let $(\mathrm{V}_\alpha)_{\alpha \in \mathrm{I}}$ be a family of subsets of A whose index set I is directed, and such that the relation $\alpha \leqslant \beta$ implies $\mathrm{V}_\beta \subset \mathrm{V}_\alpha$. Let $\mathrm{E}_\alpha$ denote the set of all mappings of $\mathrm{V}_\alpha$ into B, and for each pair of indices $(\alpha, \beta)$ such that $\alpha \leqslant \beta$ let $f_{\beta\alpha}$ be the mapping of $\mathrm{E}_\alpha$ into $\mathrm{E}_\beta$ which sends each function $u \in \mathrm{E}_\alpha$ to its *restriction* to $\mathrm{V}_\beta$. It is obvious that the conditions $(\mathrm{LI_I})$ and $(\mathrm{LI_{II}})$ are satisfied, and the set $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$ is called the set of *germs of mappings* of the $\mathrm{V}_\alpha$ into B. \* The most frequent case is that in which $(\mathrm{V}_\alpha)$ is the family of *neighbourhoods* of a subset of a topological space A (*General Topology*, Chapter I, §6, no. 10). \*
+
+#### Example 2 {#ens-iii-s7-n5-exa-2 .statement tag=03TN}
+
+Suppose that, for each $\alpha \in \mathrm{I}$, $\mathrm{E}_\alpha$ is the same set F and that whenever $\alpha \leqslant \beta$, $f_{\beta\alpha}$ is the identity mapping of F onto itself. Then there exists a *canonical bijection* of $\varinjlim \mathrm{E}_\alpha$ onto F. In order to define $\varinjlim \mathrm{E}_\alpha$, we have to form the set G which is the sum of the family $(\mathrm{E}_\alpha)$; G is therefore the union of a family $(\mathrm{G}_\alpha)$ of mutually disjoint sets, and for each $\alpha \in \mathrm{I}$ there is a canonical bijection $h_\alpha : \mathrm{F} \to \mathrm{G}_\alpha$. We have next to consider the equivalence relation R on G corresponding to the partition $(\mathrm{P}_y)_{y \in \mathrm{F}}$, where $\mathrm{P}_y$ is the set of all $h_\alpha(y)$ as $\alpha$ runs through I. Clearly $y \to \mathrm{P}_y$ is a bijection whose inverse is the bijection required. We shall identify F with $\varinjlim \mathrm{E}_\alpha$ by means of this canonical bijection.
 
 #### Lemma 1 {#ens-iii-s7-lem-1 .statement tag=03OK}
 

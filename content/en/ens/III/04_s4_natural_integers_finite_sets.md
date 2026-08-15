@@ -32,9 +32,9 @@ subsections:
       title: PROPERTIES OF FINITE CHARACTER
       page: 170
       pdf_page: 176
-statements: 12
+statements: 15
 exercises: 11
-content_sha256: d14c3e7c12027b0a4624228c3ac5e8bb8d8b580caabd604b1dbacb617604f022
+content_sha256: 639aea14b68cb00b9aa94c3219d8c3f40cd1c9cfb9b67a4ac2c93aa6ba48ce99
 ---
 
 ## 4. NATURAL INTEGERS. FINITE SETS
@@ -229,11 +229,17 @@ A property $P\{X\}$ of a subset $X$ of a set $E$ is said to be *of finite charac
 
 *Examples*
 
-(1) The set of totally ordered subsets of an ordered set $E$ is of finite character. Indeed, a subset $X$ of $E$ is totally ordered if and only if every subset of $X$ consisting of two elements is totally ordered.
+#### Example 1 {#ens-iii-s4-n5-exa-1 .statement tag=03T9}
 
-\* (2) The set of all free subsets of a module is of finite character. The same is true of the set of all algebraically free subsets of an extension of a field.
+The set of totally ordered subsets of an ordered set $E$ is of finite character. Indeed, a subset $X$ of $E$ is totally ordered if and only if every subset of $X$ consisting of two elements is totally ordered.
 
-(3) The set of submodules of a module $E$ is not of finite character, because a finite subset of a submodule of $E$ is not necessarily a submodule of $E$. $_*$
+#### Example 2 {#ens-iii-s4-n5-exa-2 .statement tag=03TA}
+
+The set of all free subsets of a module is of finite character. The same is true of the set of all algebraically free subsets of an extension of a field.
+
+#### Example 3 {#ens-iii-s4-n5-exa-3 .statement tag=03TB}
+
+The set of submodules of a module $E$ is not of finite character, because a finite subset of a submodule of $E$ is not necessarily a submodule of $E$. $_*$
 
 #### Theorem 1 {#ens-iii-s4-thm-1 .statement tag=03LD}
 

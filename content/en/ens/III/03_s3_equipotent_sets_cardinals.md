@@ -36,9 +36,9 @@ subsections:
       title: ORDER RELATION AND OPERATIONS ON CARDINALS
       page: 164
       pdf_page: 170
-statements: 33
+statements: 37
 exercises: 6
-content_sha256: f273e9b170258a117da79ef4f3ab93ad25f22069f52032c43829c9a9bc0d6628
+content_sha256: 155ceb1fa79c2e2f92adc39b2358178220f94a8b40cabc2c2895bcd17ab7ece2
 ---
 
 ## 3. EQUIPOTENT SETS. CARDINALS
@@ -81,13 +81,21 @@ Since $\mathrm{Eq}(X, X)$ is true, $\mathrm{Card}(X)$ is *equipotent* to X (Chap
 
 *Examples*
 
-(1) $\mathrm{Card}(\emptyset)$ is denoted by 0. Since the only set equipotent to $\emptyset$ is $\emptyset$ (Chapter II, § 3, nos. 1 and 4), we have $0 = \mathrm{Card}(\emptyset) = \emptyset$.
+#### Example 1 {#ens-iii-s3-n1-exa-1 .statement tag=03T5}
 
-(2) All sets consisting of a single element are equipotent, since $\{(a, b)\}$ is the graph of a bijection of $\{a\}$ onto $\{b\}$; in particular, they are all equipotent to $\{\emptyset\}$. The cardinal $\mathrm{Card}(\{\emptyset\}) = \tau_Z(\mathrm{Eq}(\{\emptyset\}, Z))$ is denoted by 1. [^1]
+$\mathrm{Card}(\emptyset)$ is denoted by 0. Since the only set equipotent to $\emptyset$ is $\emptyset$ (Chapter II, § 3, nos. 1 and 4), we have $0 = \mathrm{Card}(\emptyset) = \emptyset$.
 
-(3) $\mathrm{Card}(\{\emptyset, \{\emptyset\}\})$ is denoted by 2; this is the cardinal of every set consisting of two distinct elements.
+#### Example 2 {#ens-iii-s3-n1-exa-2 .statement tag=03T6}
 
-*(4) A Hilbert space of countable type is equipotent to the set of real numbers. *
+All sets consisting of a single element are equipotent, since $\{(a, b)\}$ is the graph of a bijection of $\{a\}$ onto $\{b\}$; in particular, they are all equipotent to $\{\emptyset\}$. The cardinal $\mathrm{Card}(\{\emptyset\}) = \tau_Z(\mathrm{Eq}(\{\emptyset\}, Z))$ is denoted by 1. [^1]
+
+#### Example 3 {#ens-iii-s3-n1-exa-3 .statement tag=03T7}
+
+$\mathrm{Card}(\{\emptyset, \{\emptyset\}\})$ is denoted by 2; this is the cardinal of every set consisting of two distinct elements.
+
+#### Example 4 {#ens-iii-s3-n1-exa-4 .statement tag=03T8}
+
+A Hilbert space of countable type is equipotent to the set of real numbers. *
 
 ### 2. ORDER RELATION BETWEEN CARDINALS
 

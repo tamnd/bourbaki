@@ -48,9 +48,9 @@ subsections:
       title: CLASSES OF EQUIVALENT OBJECTS
       page: 121
       pdf_page: 128
-statements: 3
+statements: 12
 exercises: 11
-content_sha256: cb6b8eca8726854f2f07f088f1cf7653ce006136a7893ec60fce180a80edfe41
+content_sha256: 596d334d63b530aeb8abd8a315236afe2c367122a1185fbdc8b77d1e8bccf7e5
 ---
 
 ## 6. EQUIVALENCE RELATIONS
@@ -73,7 +73,7 @@ Hence $R\{x, y\}$ and $R\{y, x\}$ are equivalent.
 
 $$(R\{x, y\} \text{ and } R\{y, z\}) \Rightarrow R\{x, z\}.$$
 
-#### Example {#ens-ii-s6-n1-exa-1 .statement tag=03IX}
+#### Example {#ens-ii-s6-n1-exa-6 .statement tag=03TP}
 
 The relation $x = y$ is symmetric and transitive. The relation $X \subset Y$ is transitive but not symmetric. The relation $X \cap Y = \emptyset$ is symmetric but not transitive.
 
@@ -87,11 +87,25 @@ If $R\{x, y\}$ is both symmetric and transitive it is said to be an *equivalence
 
 *Examples*
 
-(1) The relation $x = y$ is an equivalence relation which has no graph, for if it did, the first projection of this graph would be the set of all objects.
-(2) The relation "$x = y$ and $x \in E$" is an equivalence relation on E whose graph is the diagonal of $E \times E$.
-(3) The relation "there exists a bijection of X onto Y" is an equivalence relation which has no graph (cf. Chapter III, § 3).
-(4) The relation "$x \in E$ and $y \in E$" is an equivalence relation on E, whose graph is $E \times E$.
-(5) Suppose $A \subset E$; then the relation
+#### Example 1 {#ens-ii-s6-n1-exa-1 .statement tag=03IX}
+
+The relation $x = y$ is an equivalence relation which has no graph, for if it did, the first projection of this graph would be the set of all objects.
+
+#### Example 2 {#ens-ii-s6-n1-exa-2 .statement tag=03SC}
+
+The relation "$x = y$ and $x \in E$" is an equivalence relation on E whose graph is the diagonal of $E \times E$.
+
+#### Example 3 {#ens-ii-s6-n1-exa-3 .statement tag=03TQ}
+
+The relation "there exists a bijection of X onto Y" is an equivalence relation which has no graph (cf. Chapter III, § 3).
+
+#### Example 4 {#ens-ii-s6-n1-exa-4 .statement tag=03TR}
+
+The relation "$x \in E$ and $y \in E$" is an equivalence relation on E, whose graph is $E \times E$.
+
+#### Example 5 {#ens-ii-s6-n1-exa-5 .statement tag=03TS}
+
+Suppose $A \subset E$; then the relation
 
 $$(x \in E - A \text{ and } y = x) \text{ or } (x \in A \text{ and } y \in A)$$
 
@@ -128,9 +142,13 @@ i.e., $p(x) = p(y)$. Conversely, if $\mathrm{G}(x) = \mathrm{G}(y)$, we have $y 
 
 *Examples*
 
-(1) Let $\mathrm{R}$ be the equivalence relation "$x \in \mathrm{E}$ and $y \in \mathrm{E}$ and $x = y$" on a set $\mathrm{E}$. The equivalence class of $x \in \mathrm{E}$ is then the set $\{x\}$, and the canonical mapping $x \to \{x\}$ of $\mathrm{E}$ onto $\mathrm{E}/\mathrm{R}$ is bijective.
+#### Example 1 {#ens-ii-s6-n2-exa-1 .statement tag=03SD}
 
-(2) Let $\mathrm{E}$, $\mathrm{F}$ be two sets and let $\mathrm{R}$ be the equivalence relation on $\mathrm{E} \times \mathrm{F}$ associated with the mapping $\mathrm{pr}_1$ of $\mathrm{E} \times \mathrm{F}$ onto $\mathrm{E}$. The equivalence classes with respect to $\mathrm{R}$ are the sets of the form $\{x\} \times \mathrm{F}$, where $x \in \mathrm{E}$; the mapping $x \to \{x\} \times \mathrm{F}$ is a bijection of $\mathrm{E}$ onto $(\mathrm{E} \times \mathrm{F})/\mathrm{R}$.
+Let $\mathrm{R}$ be the equivalence relation "$x \in \mathrm{E}$ and $y \in \mathrm{E}$ and $x = y$" on a set $\mathrm{E}$. The equivalence class of $x \in \mathrm{E}$ is then the set $\{x\}$, and the canonical mapping $x \to \{x\}$ of $\mathrm{E}$ onto $\mathrm{E}/\mathrm{R}$ is bijective.
+
+#### Example 2 {#ens-ii-s6-n2-exa-2 .statement tag=03SE}
+
+Let $\mathrm{E}$, $\mathrm{F}$ be two sets and let $\mathrm{R}$ be the equivalence relation on $\mathrm{E} \times \mathrm{F}$ associated with the mapping $\mathrm{pr}_1$ of $\mathrm{E} \times \mathrm{F}$ onto $\mathrm{E}$. The equivalence classes with respect to $\mathrm{R}$ are the sets of the form $\{x\} \times \mathrm{F}$, where $x \in \mathrm{E}$; the mapping $x \to \{x\} \times \mathrm{F}$ is a bijection of $\mathrm{E}$ onto $(\mathrm{E} \times \mathrm{F})/\mathrm{R}$.
 
 Let $\mathrm{R}$ be an equivalence relation on a set $\mathrm{E}$. The quotient set $\mathrm{E}/\mathrm{R}$ is a subset of $\mathfrak{P}(\mathrm{E})$, and the identity mapping of $\mathrm{E}/\mathrm{R}$ is a *partition* of $\mathrm{E}$ (§ 4, no. 7); for if $\mathrm{G}$ is the graph of $\mathrm{R}$, we have $x \in \mathrm{G}(x)$ for all $x \in \mathrm{E}$,
 
@@ -220,9 +238,13 @@ Let R, S be two equivalence relations with respect to two letters $x$, $y$. We s
 
 *Examples*
 
-(1) The relation "$x \in E$ and $y \in E$ and $x = y$" is finer than every equivalence relation on E. The relation "$x \in E$ and $y \in E$" is coarser than every equivalence relation on E.
+#### Example 1 {#ens-ii-s6-n7-exa-1 .statement tag=03SF}
 
-\* (2) The equivalence relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 4" is finer than the equivalence relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 2". \*
+The relation "$x \in E$ and $y \in E$ and $x = y$" is finer than every equivalence relation on E. The relation "$x \in E$ and $y \in E$" is coarser than every equivalence relation on E.
+
+#### Example 2 {#ens-ii-s6-n7-exa-2 .statement tag=03SG}
+
+The equivalence relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 4" is finer than the equivalence relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 2". \*
 
 Let R and S be two equivalence relations on the same set E, such that S is finer than R. Let $f$ and $g$ be the canonical mappings of E onto E/R and E onto E/S respectively; then the function $f$ is compatible with S. Let $h$ be the function induced by $f$ on passing to the quotient with respect to S; then $h$ is a mapping of E/S onto E/R. The equivalence relation associated with $h$ on E/S is called the *quotient of* R *by* S and is denoted by R/S. The relation $x \equiv y \pmod{R}$ is equivalent to $g(x) \equiv g(y) \pmod{R/S}$, and the equivalence classes with respect to R/S are the images under $g$ of the equivalence classes with respect to R. Let $h = j \circ h_2 \circ h_1$ be the canonical decomposition (no. 5) of the mapping $h$. Then $h_1$ is the canonical mapping of E/S onto (E/S)/(R/S), $j$ is the identity mapping of E/R, and $h_2$ is a one-to-one mapping of (E/S)/(R/S) onto E/R. The mapping $h_2$ and its inverse are said to be *canonical*.
 

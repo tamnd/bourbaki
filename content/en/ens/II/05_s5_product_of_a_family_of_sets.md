@@ -40,9 +40,9 @@ subsections:
       title: EXTENSION OF MAPPINGS TO PRODUCTS
       page: 111
       pdf_page: 118
-statements: 22
+statements: 24
 exercises: 2
-content_sha256: 0cbe6d5272c5b2d610912cb1413201e4eddff7119a5a5e1e2b9560ff0a55cece
+content_sha256: 36bc8ec590d1a5a4692fdddc22b88dd0fd8a107ff42e89223a29bca8ce919d92
 ---
 
 ## 5. PRODUCT OF A FAMILY OF SETS
@@ -207,9 +207,13 @@ of I into $\bigcup_{\iota \in I} X_\iota$ such that $v_\lambda$ is the restricti
 
 *Remarks*
 
-(1) Let $\alpha$, $\beta$ be two distinct objects and let $(J_\lambda)_{\lambda \in \{\alpha, \beta\}}$ be a partition of I into two sets $J_\alpha$, $J_\beta$. We thus obtain a one-to-one mapping (again called *canonical*) of the product $\prod_{\iota \in I} X_\iota$ onto $\left( \prod_{\iota \in J_\alpha} X_\iota \right) \times \left( \prod_{\iota \in J_\beta} X_\iota \right)$ by forming the composition of the canonical mapping of $\prod_{\lambda \in \{\alpha, \beta\}} \left( \prod_{\iota \in J_\lambda} X_\iota \right)$ onto $\left( \prod_{\iota \in J_\alpha} X_\iota \right) \times \left( \prod_{\iota \in J_\beta} X_\iota \right)$ and the canonical mapping of $\prod_{\iota \in I} X_\iota$ onto $\prod_{\lambda \in \{\alpha, \beta\}} \left( \prod_{\iota \in J_\lambda} X_\iota \right)$. If $X_\iota$ is a set consisting of a *single element* for each $\iota \in J_\beta$, then $\mathrm{pr}_{J_\alpha}$ is a bijective mapping of $\prod_{\iota \in I} X_\iota$ onto $\prod_{\iota \in J_\alpha} X_\iota$.
+#### Remark 1 {#ens-ii-s5-n5-rem-1 .statement tag=03SA}
 
-(2) Let $\alpha$, $\beta$, $\gamma$ be three objects, no two of which are equal (three such objects exist; for example, $\emptyset$, $\{\emptyset\}$, $\{\{\emptyset\}\}$), and let A, B, C be sets. Consider the functional graph $\{(\alpha, A), (\beta, B), (\gamma, C)\}$, i.e., the family of sets $(X_\iota)_{\iota \in \{\alpha, \beta, \gamma\}}$ such that $X_\alpha = A$, $X_\beta = B$, $X_\gamma = C$. To the partition of $\{\alpha, \beta, \gamma\}$ formed by the two sets $\{\alpha, \beta\}$ and $\{\gamma\}$ there corresponds a canonical bijection of $\prod_{\iota \in \{\alpha, \beta, \gamma\}} X_\iota$ onto the product
+Let $\alpha$, $\beta$ be two distinct objects and let $(J_\lambda)_{\lambda \in \{\alpha, \beta\}}$ be a partition of I into two sets $J_\alpha$, $J_\beta$. We thus obtain a one-to-one mapping (again called *canonical*) of the product $\prod_{\iota \in I} X_\iota$ onto $\left( \prod_{\iota \in J_\alpha} X_\iota \right) \times \left( \prod_{\iota \in J_\beta} X_\iota \right)$ by forming the composition of the canonical mapping of $\prod_{\lambda \in \{\alpha, \beta\}} \left( \prod_{\iota \in J_\lambda} X_\iota \right)$ onto $\left( \prod_{\iota \in J_\alpha} X_\iota \right) \times \left( \prod_{\iota \in J_\beta} X_\iota \right)$ and the canonical mapping of $\prod_{\iota \in I} X_\iota$ onto $\prod_{\lambda \in \{\alpha, \beta\}} \left( \prod_{\iota \in J_\lambda} X_\iota \right)$. If $X_\iota$ is a set consisting of a *single element* for each $\iota \in J_\beta$, then $\mathrm{pr}_{J_\alpha}$ is a bijective mapping of $\prod_{\iota \in I} X_\iota$ onto $\prod_{\iota \in J_\alpha} X_\iota$.
+
+#### Remark 2 {#ens-ii-s5-n5-rem-2 .statement tag=03SB}
+
+Let $\alpha$, $\beta$, $\gamma$ be three objects, no two of which are equal (three such objects exist; for example, $\emptyset$, $\{\emptyset\}$, $\{\{\emptyset\}\}$), and let A, B, C be sets. Consider the functional graph $\{(\alpha, A), (\beta, B), (\gamma, C)\}$, i.e., the family of sets $(X_\iota)_{\iota \in \{\alpha, \beta, \gamma\}}$ such that $X_\alpha = A$, $X_\beta = B$, $X_\gamma = C$. To the partition of $\{\alpha, \beta, \gamma\}$ formed by the two sets $\{\alpha, \beta\}$ and $\{\gamma\}$ there corresponds a canonical bijection of $\prod_{\iota \in \{\alpha, \beta, \gamma\}} X_\iota$ onto the product
 
 $$\left( \prod_{\iota \in \{\alpha, \beta\}} X_\iota \right) \times X_\gamma^{\{\gamma\}},$$
 

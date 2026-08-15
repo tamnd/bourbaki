@@ -28,9 +28,9 @@ subsections:
       title: FORMATIVE CRITERIA
       page: 21
       pdf_page: 28
-statements: 3
+statements: 5
 exercises: 6
-content_sha256: 1abfd2495eb94b17d82a9a097103ec627d59825ad16780ec43ea9047b73003b5
+content_sha256: bb554ed20fc7b3ab48f1b03434cd7587a6cfd49400a7649f457fd3f4a1a8215b
 ---
 
 ## 1. TERMS AND RELATIONS
@@ -58,8 +58,13 @@ The exclusive use of assemblies would lead to insuperable difficulties both for 
 
 *Examples*
 
-(1) The assembly $\vee 1$ is represented by $\Rightarrow$.
-(2) The following symbols represent assemblies (and very long ones at that) :
+#### Example 1 {#ens-i-s1-n1-exa-1 .statement tag=03P0}
+
+The assembly $\vee 1$ is represented by $\Rightarrow$.
+
+#### Example 2 {#ens-i-s1-n1-exa-2 .statement tag=03P1}
+
+The following symbols represent assemblies (and very long ones at that) :
 
 “3 and 4”
 
@@ -101,7 +106,7 @@ Let $A$ and $B$ be assemblies. We shall denote by $AB$ the assembly obtained by 
 
 Let $A$ be an assembly and let $x$ be a letter. We shall denote by $\tau_x(A)$ the assembly constructed as follows : form the assembly $\tau A$, link each occurrence of $x$ in $A$ to the $\tau$ written on the left of $A$, and then replace $x$ everywhere it occurs by the sign $\square$. The assembly denoted by $\tau_x(A)$ therefore *does not contain* $x$.
 
-#### Example {#ens-i-s1-n1-exa-1 .statement tag=03P0}
+#### Example {#ens-i-s1-n1-exa-3 .statement tag=03RY}
 
 The symbol $\tau_x(\in xy)$ represents the assembly
 
@@ -117,7 +122,7 @@ $$
 
 is identical with $\tau_x(A)$.
 
-#### Example {#ens-i-s1-n1-exa-2 .statement tag=03P1}
+#### Example {#ens-i-s1-n1-exa-4 .statement tag=03TO}
 
 If we replace $x$ by $\square$ wherever $x$ occurs in the assembly $\vee\in xy=xx$, we obtain the assembly $\vee\in\square y=\square\square$.
 

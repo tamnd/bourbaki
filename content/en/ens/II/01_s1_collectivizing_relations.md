@@ -40,9 +40,9 @@ subsections:
       title: COMPLEMENT OF A SET. THE EMPTY SET
       page: 71
       pdf_page: 78
-statements: 8
+statements: 10
 exercises: 6
-content_sha256: 87d04088b5a3d35d02571c0ff3ecac7614d61691b9abe66ff27c887733b4bdea
+content_sha256: f27c098283cf976dbfe884a6515c10d42a193eed1659b1a36d768d136ab18309
 ---
 
 ## 1. COLLECTIVIZING RELATIONS
@@ -137,9 +137,13 @@ Intuitively, to say that $R$ is collectivizing in $x$ is to say that there exist
 
 *Examples*
 
-(1) The relation $x \in y$ is clearly collectivizing in $x$.
+#### Example 1 {#ens-ii-s1-n4-exa-1 .statement tag=03RZ}
 
-(2) The relation $x \neq x$ *is not collectivizing in $x$*; in other words, (not $\operatorname{Coll}_x(x \neq x)$) is a theorem. Let us argue by contradiction and suppose that $x \neq x$ is collectivizing. Let $a$ be an auxiliary constant, distinct from $x$ and the constants of the theory, with the introductory axiom
+The relation $x \in y$ is clearly collectivizing in $x$.
+
+#### Example 2 {#ens-ii-s1-n4-exa-2 .statement tag=03S0}
+
+The relation $x \neq x$ *is not collectivizing in $x$*; in other words, (not $\operatorname{Coll}_x(x \neq x)$) is a theorem. Let us argue by contradiction and suppose that $x \neq x$ is collectivizing. Let $a$ be an auxiliary constant, distinct from $x$ and the constants of the theory, with the introductory axiom
 
 $$
 (\forall x)((x \neq x) \Longleftrightarrow (x \in a)).

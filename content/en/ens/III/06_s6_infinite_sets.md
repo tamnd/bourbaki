@@ -32,9 +32,9 @@ subsections:
       title: STATIONARY SEQUENCES
       page: 189
       pdf_page: 195
-statements: 23
+statements: 26
 exercises: 31
-content_sha256: a93483da8b8bc648bf1b671280829866bfbb5b3c851f5096c1a2789925f6d792
+content_sha256: 77f70aee6764a579bfe1b9d46b02201949dbe28ed9954f8d2836dfccee740326
 ---
 
 ## 6. INFINITE SETS
@@ -103,15 +103,21 @@ $$T\{f^{(n)}\} = S\{f^{(n)}(n-1)\} = S\{f(n-1)\}.$$
 
 *Examples*
 
-(1) Suppose that $a$ is an element of a set $E$ and that $S\{u\}$ is the term $g(u)$, where $g$ is a mapping of $E$ into itself [^3]. Then it is immediately seen by induction on $n$ that for all $n \in \mathbf{N}$ we have $f(n) \in E$; consequently $f$ is a mapping of $\mathbf{N}$ into $E$ such that $f(0) = a$ and $f(n+1) = g(f(n))$ for all integers $n$.
+#### Example 1 {#ens-iii-s6-n2-exa-1 .statement tag=03TC}
+
+Suppose that $a$ is an element of a set $E$ and that $S\{u\}$ is the term $g(u)$, where $g$ is a mapping of $E$ into itself [^3]. Then it is immediately seen by induction on $n$ that for all $n \in \mathbf{N}$ we have $f(n) \in E$; consequently $f$ is a mapping of $\mathbf{N}$ into $E$ such that $f(0) = a$ and $f(n+1) = g(f(n))$ for all integers $n$.
 
 Likewise, let $h$ be a mapping of $\mathbf{N} \times E$ into $E$, and let $\psi$ be the mapping of $\mathbf{N} \times E$ into itself defined by $\psi(n, x) = (n+1, h(n, x))$. By the preceding discussion there exists a unique mapping $g = (\theta, f)$ of $\mathbf{N}$ into $\mathbf{N} \times E$ such that $g(0) = (0, a)$ and $g(n+1) = \psi(g(n))$ for all $n$, from which follows the existence and uniqueness of a mapping $f$
 
 of $\mathbf{N}$ into E such that $f(0) = a$ and $f(n + 1) = h(n, f(n))$ for each integer $n$.
 
-(2) Let X be a set and let E be the set of mappings of X into itself. Let $e$ denote the identity mapping of X into itself, and let $f$ be any element of E. Take $S\{u\}$ to be the term $f \circ u$ (*)[^4]. By applying C63 we see that there exists a unique mapping of $\mathbf{N}$ into E, denoted by $n \to f^n$, such that $f^0 = e$ and $f^{n+1} = f \circ f^n$. The mapping $f^n$ is called the *nth iterate* of the mapping $f$.
+#### Example 2 {#ens-iii-s6-n2-exa-2 .statement tag=03TD}
 
-(3) If we take $S\{u\}$ to be the term $\mathfrak{P}(u)$, and $a$ to be a set E, it follows likewise that there exists a mapping, denoted by $n \to \mathfrak{P}^n(\mathrm{E})$, of $\mathbf{N}$ into a set V(E) such that $\mathfrak{P}^0(\mathrm{E}) = \mathrm{E}$, $\mathfrak{P}^1(\mathrm{E}) = \mathfrak{P}(\mathrm{E})$, and $\mathfrak{P}^{n+1}(\mathrm{E}) = \mathfrak{P}(\mathfrak{P}^n(\mathrm{E}))$ for every integer $n$.
+Let X be a set and let E be the set of mappings of X into itself. Let $e$ denote the identity mapping of X into itself, and let $f$ be any element of E. Take $S\{u\}$ to be the term $f \circ u$ (*)[^4]. By applying C63 we see that there exists a unique mapping of $\mathbf{N}$ into E, denoted by $n \to f^n$, such that $f^0 = e$ and $f^{n+1} = f \circ f^n$. The mapping $f^n$ is called the *nth iterate* of the mapping $f$.
+
+#### Example 3 {#ens-iii-s6-n2-exa-3 .statement tag=03TE}
+
+If we take $S\{u\}$ to be the term $\mathfrak{P}(u)$, and $a$ to be a set E, it follows likewise that there exists a mapping, denoted by $n \to \mathfrak{P}^n(\mathrm{E})$, of $\mathbf{N}$ into a set V(E) such that $\mathfrak{P}^0(\mathrm{E}) = \mathrm{E}$, $\mathfrak{P}^1(\mathrm{E}) = \mathfrak{P}(\mathrm{E})$, and $\mathfrak{P}^{n+1}(\mathrm{E}) = \mathfrak{P}(\mathfrak{P}^n(\mathrm{E}))$ for every integer $n$.
 
 #### Remark {#ens-iii-s6-n2-rem-1 .statement tag=03MY}
 

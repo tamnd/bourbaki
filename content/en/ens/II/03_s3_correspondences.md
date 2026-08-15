@@ -48,9 +48,9 @@ subsections:
       title: FUNCTIONS OF TWO ARGUMENTS
       page: 89
       pdf_page: 96
-statements: 26
+statements: 35
 exercises: 6
-content_sha256: e5f9a03f2b9c8c12b324d03754ee977abb10d2a0dc6c2e3790573a775eb1a61f
+content_sha256: 4a19eb1d99a5f890c8aa2b18a567b541ae251c1049bc719aa90ca1b8ae8ae18f
 ---
 
 ## 3. CORRESPONDENCES
@@ -93,7 +93,7 @@ $$\mathrm{A} = \mathscr{E}_x((\exists y)((x, y) \in \mathrm{G}))) \qquad \text{a
 
 these sets are called respectively *the first and second projections* of the graph G, or the *domain* and *range* of G; they are denoted by $\mathrm{pr}_1 \langle \mathrm{G} \rangle$ and $\mathrm{pr}_2 \langle \mathrm{G} \rangle$ (or by $\mathrm{pr}_1 \mathrm{G}$ and $\mathrm{pr}_2 \mathrm{G}$ if there is no risk of confusion). It is immediately verified that $\mathrm{G} \subset (\mathrm{pr}_1 \mathrm{G}) \times (\mathrm{pr}_2 \mathrm{G})$; every set of ordered pairs is therefore a subset of a product, and conversely. If one of the two sets $\mathrm{pr}_1 \mathrm{G}$, $\mathrm{pr}_2 \mathrm{G}$ is empty, we have $\mathrm{G} = \emptyset$ (§ 2, Proposition 2).
 
-#### Remark {#ens-ii-s3-n1-rem-1 .statement tag=03PH}
+#### Remark {#ens-ii-s3-n1-rem-3 .statement tag=03S1}
 
 The relation $x = y$ has no graph, for the first projection of the graph, if it existed, would be the set of all objects (cf. § 1, no. 7, Remark).
 
@@ -125,9 +125,13 @@ implies $(x, y) \in G$ and therefore has a graph $G'$. The second projection of 
 
 *Remarks*
 
-(1) Precisely, $G\langle X \rangle$ denotes the set $\mathscr{E}_y((\exists x)(x \in X \text{ and } (x,y) \in G))$. From now on we shall not usually translate our definitions into formal language.
+#### Remark 1 {#ens-ii-s3-n1-rem-1 .statement tag=03PH}
 
-(2) The notations $G(X)$ and $\Gamma(X)$ can occasionally lead to confusion with the notation introduced later (cf. no. 4, Remark following Definition 9).
+Precisely, $G\langle X \rangle$ denotes the set $\mathscr{E}_y((\exists x)(x \in X \text{ and } (x,y) \in G))$. From now on we shall not usually translate our definitions into formal language.
+
+#### Remark 2 {#ens-ii-s3-n1-rem-2 .statement tag=03S2}
+
+The notations $G(X)$ and $\Gamma(X)$ can occasionally lead to confusion with the notation introduced later (cf. no. 4, Remark following Definition 9).
 
 Let G be a graph. Since the relation $(x, y) \in G$ implies $y \in \mathrm{pr}_2 G$, we have $G\langle X \rangle \subset \mathrm{pr}_2 G$ for every set X. Since $(x, y) \in G$ implies $x \in \mathrm{pr}_1 G$, we have $G\langle \mathrm{pr}_1 G \rangle = \mathrm{pr}_2 G$. We have $G\langle \emptyset \rangle = \emptyset$, since $x \notin \emptyset$ is a theorem. If $X \subset \mathrm{pr}_1 G$ and $X \neq \emptyset$, we have $G\langle X \rangle \neq \emptyset$.
 
@@ -339,9 +343,13 @@ implies $y = y'$, and hence $F$ is a functional graph. The remaining statements 
 
 *Examples*
 
-(1) If $f$ is a mapping of $A$ into $B$, the function $f$ is equal to the function $x \to f(x)$ ($x \in A$, $f(x) \in B$), which is written simply as $x \to f(x)$ or also $(f_x)_{x \in A}$ (the latter notation is especially associated with the phrase “family of elements” instead of “function”).
+#### Example 1 {#ens-ii-s3-n6-exa-1 .statement tag=03S3}
 
-(2) Let G be a set of ordered pairs. The functions
+If $f$ is a mapping of $A$ into $B$, the function $f$ is equal to the function $x \to f(x)$ ($x \in A$, $f(x) \in B$), which is written simply as $x \to f(x)$ or also $(f_x)_{x \in A}$ (the latter notation is especially associated with the phrase “family of elements” instead of “function”).
+
+#### Example 2 {#ens-ii-s3-n6-exa-2 .statement tag=03S4}
+
+Let G be a set of ordered pairs. The functions
 
 $$z \to \mathrm{pr}_1 z \quad (z \in \mathrm{G}, \ \mathrm{pr}_1 z \in \mathrm{pr}_1 \mathrm{G})$$
 
@@ -373,19 +381,29 @@ Instead of saying that $f$ is surjective, we sometimes say that $f$ is a mapping
 
 *Examples*
 
-(1) If $\mathrm{A} \subset \mathrm{B}$, the mapping of A into B whose graph is the diagonal of A is injective and is called the *canonical mapping* or the *canonical injection* (or simply the *injection*) of A into B.
+#### Example 1 {#ens-ii-s3-n7-exa-1 .statement tag=03S5}
 
-(2) Let A be a set. The mapping $x \to (x, x)$ of A into the diagonal $\Delta_\mathbf{A}$ of $\mathrm{A} \times \mathrm{A}$ is a bijective mapping, called the *diagonal mapping* of A.
+If $\mathrm{A} \subset \mathrm{B}$, the mapping of A into B whose graph is the diagonal of A is injective and is called the *canonical mapping* or the *canonical injection* (or simply the *injection*) of A into B.
 
-(3) Let G be a set of ordered pairs. The mapping $\mathrm{pr}_1$ (resp. $\mathrm{pr}_2$) of G into $\mathrm{pr}_1\mathrm{G}$ (resp. $\mathrm{pr}_2\mathrm{G}$) is surjective; $\mathrm{pr}_1$ is injective if and only if G is a functional graph.
+#### Example 2 {#ens-ii-s3-n7-exa-2 .statement tag=03S6}
 
-(4) Let G be a set of ordered pairs. The mapping
+Let A be a set. The mapping $x \to (x, x)$ of A into the diagonal $\Delta_\mathbf{A}$ of $\mathrm{A} \times \mathrm{A}$ is a bijective mapping, called the *diagonal mapping* of A.
+
+#### Example 3 {#ens-ii-s3-n7-exa-3 .statement tag=03S7}
+
+Let G be a set of ordered pairs. The mapping $\mathrm{pr}_1$ (resp. $\mathrm{pr}_2$) of G into $\mathrm{pr}_1\mathrm{G}$ (resp. $\mathrm{pr}_2\mathrm{G}$) is surjective; $\mathrm{pr}_1$ is injective if and only if G is a functional graph.
+
+#### Example 4 {#ens-ii-s3-n7-exa-4 .statement tag=03S8}
+
+Let G be a set of ordered pairs. The mapping
 
 $$z \to (\mathrm{pr}_2 z,\ \mathrm{pr}_1 z)$$
 
 of G into $\overset{-1}{\mathrm{G}}$ is a bijection (called the *canonical* bijection).
 
-(5) Let A be a set and $b$ an object. The mapping $x \to (x,\ b)$ of A into $\mathrm{A} \times \{b\}$ is a bijection.
+#### Example 5 {#ens-ii-s3-n7-exa-5 .statement tag=03S9}
+
+Let A be a set and $b$ an object. The mapping $x \to (x,\ b)$ of A into $\mathrm{A} \times \{b\}$ is a bijection.
 
 #### Proposition 7 {#ens-ii-s3-prop-7 .statement tag=03PQ}
 
