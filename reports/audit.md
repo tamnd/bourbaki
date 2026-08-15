@@ -19,10 +19,10 @@ Audited: 4 chapters, 61 sections, 668 exercises, 2928 extracted pages, 4464 tags
 | references | 3 | 0 | 0 | none |
 | translation | 8 | 2 | 1 | L06 (2), L08 (1) |
 | solutions | 0 | 4 | 0 | none |
-| publication | 0 | 1 | 0 | P04 (93) |
+| publication | 0 | 1 | 0 | P04 (89) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 326 soft, over 56 rules that ran and 3 that could not.
+0 hard findings and 322 soft, over 56 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -73,7 +73,7 @@ Soft, mathematics.
 
 and 70 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (93)
+## P04 every math span parses under KaTeX (89)
 
 Soft, publication.
 
@@ -103,7 +103,7 @@ Soft, publication.
 - `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:351` KaTeX will not set it: Double subscript at position 31: … d_n^j=d_n^{j-}_̲-^1_1\circ d_n^…: d_{n-1}^i\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \ta…
 - `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:361` KaTeX will not set it: Double subscript at position 50: …(-1)^{i+j}d_n^j_̲-^{-1}_1\circ d…: =\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_n^j_-…
 
-and 68 more, which `bourbaki audit -only P04` prints in full.
+and 64 more, which `bourbaki audit -only P04` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (134)
 

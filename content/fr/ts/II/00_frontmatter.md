@@ -13,14 +13,14 @@ pdf_pages: 0211-0212
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: 29ae5756e4274b0cc9d0a00975d3dadb705f894055c8de00b1f1aeaeb88e2079
+content_sha256: f0a34bd9c54759663a590c75007545becf8100c62def4810e12d3cafda8a3506
 ---
 
 ## CHAPITRE II
 
 # Groupes localement compacts commutatifs
 
-Dans tout ce chapitre, la lettre G désigne, sauf mention du contraire, un groupe localement compact commutatif muni d’une mesure de Haar notée généralement $dx$; pour $p\in [1,+\infty ]$, l’espace $L^p(G, dx)$ sera simplement noté $L^p(G)$, et sa norme sera notée $f\mapsto  \|f\|_p$. On identifie $L^1(G)$ à un sous-espace de $\mathscr{M}^1(G)$ par l’application $f\mapsto f\cdot dx$. On rappelle que le support de la mesure de Haar est égal à G (INT, VII, §1, n$^o1$, remarque 3) ; en particulier (INT, III, §2, n$^o2$, proposition 9), l’application canonique de l’espace $\mathscr{K}(G)$ dans $L^p(G)$ est injective pour $p\in [1,+\infty ]$. Pour $p\not= +\infty$, on identifiera $L^p(G)$ à un sous-espace de l’espace $\widetilde{\mathscr{F}}(G;\mathbf{C})$ des classes de fonctions à valeurs complexes sur G définies et finies presque partout (INT, IV, §3, n$^o5$, n$^o6)$. En particulier, la notation $L^1(G)\cap L^2(G)$ désigne l’intersection de $L^1(G)$ et $L^2(G)$ dans cet espace. On note $f\mapstochar \rightarrow \widetilde{f}$ l’involution sur l’algèbre involutive $L^1(G)$ (exemple 4 de I, p. 99) ; on a $\widetilde{f}(x) =f(x^{-1})$ pour tout $x$ dans G.
+Dans tout ce chapitre, la lettre G désigne, sauf mention du contraire, un groupe localement compact commutatif muni d’une mesure de Haar notée généralement $dx$; pour $p\in [1,+\infty ]$, l’espace $L^p(G, dx)$ sera simplement noté $L^p(G)$, et sa norme sera notée $f\mapsto  \|f\|_p$. On identifie $L^1(G)$ à un sous-espace de $\mathscr{M}^1(G)$ par l’application $f\mapsto f\cdot dx$. On rappelle que le support de la mesure de Haar est égal à G (INT, VII, §1, n$^o1$, remarque 3) ; en particulier (INT, III, §2, n$^o2$, proposition 9), l’application canonique de l’espace $\mathscr{K}(G)$ dans $L^p(G)$ est injective pour $p\in [1,+\infty ]$. Pour $p\not= +\infty$, on identifiera $L^p(G)$ à un sous-espace de l’espace $\widetilde{\mathscr{F}}(G;\mathbf{C})$ des classes de fonctions à valeurs complexes sur G définies et finies presque partout (INT, IV, §3, n$^o5$, n$^o6)$. En particulier, la notation $L^1(G)\cap L^2(G)$ désigne l’intersection de $L^1(G)$ et $L^2(G)$ dans cet espace. On note $f\mapsto \widetilde{f}$ l’involution sur l’algèbre involutive $L^1(G)$ (exemple 4 de I, p. 99) ; on a $\widetilde{f}(x) =f(x^{-1})$ pour tout $x$ dans G.
 
 On rappelle (INT, V, §5, n$^o3$, th. 1) que si $\mu$ est une mesure complexe sur un espace topologique localement compact X et si $f$ est une fonction localement $\mu$-intégrable sur X, alors la mesure $\nu$ de densité $f$ par rapport à $\mu$ est notée $f\cdot \mu$ ou encore $f \mu$. Une fonction $g$ de X dans $\mathbf{C}$ est essentiellement intégrable pour la mesure $\nu$ si, et seulement si, $gf$ est essentiellement intégrable pour $\mu$; on a alors
 
