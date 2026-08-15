@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: 5f8360b77b422b55767eb7c848c7eac622e1059b8c13e2f313a640207549f491
+content_sha256: d5f7022988bd6fff865e8014ac7aec2c89bcd4133c067065e099369def1ce4e4
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -688,7 +688,7 @@ b) Pour tout $f\in \mathscr{C}'$(Sp$'_A(x))$ et pour tout $g\in \mathscr{C}'$(Sp
 
 c) Soit $A'$ une algèbre stellaire et soit $\pi$ un morphisme de A dans $A'$; alors $\pi (x)$ est normal dans $A'$, on a Sp$'_{A'}(\pi (x))\subset$ Sp$'_A(x)$ et $\pi (f(x)) =f(\pi (x))$ pour tout $f\in \mathscr{C}'$(Sp$'_A(x))$;
 
-d) Si A est commutative, et si $f\in \mathscr{C}'$(Sp$'_A(x))$, alors $\mathscr{G}_A'(f(x)) =$ $f\circ \mathscr{G}_A'(x)$.
+d) Si A est commutative, et si $f\in \mathscr{C}'$(Sp$'_A(x))$, alors $\mathscr{G}'_A(f(x)) =$ $f\circ \mathscr{G}'_A(x)$.
 
 #### Remarque {#ts-i-s6-n8-rem-1 .statement tag=02EB}
 

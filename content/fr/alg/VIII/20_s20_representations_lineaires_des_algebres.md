@@ -45,7 +45,7 @@ subsections:
       pdf_page: 382
 statements: 31
 exercises: 6
-content_sha256: d31b39551629aacc2b761e2ecb9a421232930e512777ae9c87e4e8aaa87ea53d
+content_sha256: 7a92452973fdef928b4244179907dede740b0805ce3108c8023ba23ebd17bfe1
 ---
 
 ## § 20. REPRÉSENTATIONS LINÉAIRES DES ALGÈBRES
@@ -90,7 +90,7 @@ Soit $\pi$ une représentation linéaire de A dans M. Soit $M^*$ le K-module dua
 
 Soit L une K-algèbre commutative et soit $(M, \pi )$ une représentation linéaire de la K-algèbre A. L’homomorphisme $\pi_{(L)}: A_{(L)}\rightarrow$ End$_L(M_{(L)})$ correspondant à la structure de $A_{(L)}$-module de $M_{(L)}$ est une représentation linéaire de la L-algèbre $A_{(L)}$. On dit que $\pi_{(L)}$ est la représentation linéaire de l’algèbre $A_{(L)}$ déduite de la représentation $\pi$ par extension à L de l’anneau K des scalaires.
 
-Supposons que K soit un corps et que L soit une K-algèbre commutative non nulle. Soient $\pi$ et $\pi '$ des représentations linéaires de l’algèbre A. Il résulte de VIII, p. 34, th. 3 que les représentations $\pi$ et $\pi '$ sont isomorphes si et seulement si $\pi_{(L)}$ et $\pi_{(L)}'$ le sont.
+Supposons que K soit un corps et que L soit une K-algèbre commutative non nulle. Soient $\pi$ et $\pi '$ des représentations linéaires de l’algèbre A. Il résulte de VIII, p. 34, th. 3 que les représentations $\pi$ et $\pi '$ sont isomorphes si et seulement si $\pi_{(L)}$ et $\pi '_{(L)}$ le sont.
 
 Supposons que K soit un corps. Soit L une extension de K. Considérons le groupe de Grothendieck $R_K(A)$ (resp. $R_L(A_{(L)}))$ des A-modules de dimension finie sur K (resp. des $A_{(L)}$-modules de dimension finie sur L). Nous avons vu que l’homomorphisme de groupes
 
@@ -534,26 +534,26 @@ $$
 
 pour tous $a, b\in A$ et tout $f\in \Theta (A)$, d’où le lemme.
 
-Comme $j_2$ est injective, il existe au plus une application linéaire $c$ rendant commutatif le diagramme précédent. Pour en prouver l’existence, il s’agit de démontrer que l’image de $^tm\circ j_1$ est contenue dans celle de $j_2$; autrement dit, il s’agit de prouver qu’il existe, pour tout élément $f$ de Θ(A), un entier naturel $n$ et des éléments $f_1', . . . , f_n', f_1'', . . . , f_n''$ de Θ(A) satisfaisant aux relations
+Comme $j_2$ est injective, il existe au plus une application linéaire $c$ rendant commutatif le diagramme précédent. Pour en prouver l’existence, il s’agit de démontrer que l’image de $^tm\circ j_1$ est contenue dans celle de $j_2$; autrement dit, il s’agit de prouver qu’il existe, pour tout élément $f$ de Θ(A), un entier naturel $n$ et des éléments $f'_1, . . . , f'_n, f''_1, . . . , f''_n$ de Θ(A) satisfaisant aux relations
 
 $$
-f(ab) =\sum_{i=1}^nf_i'(a)f_i''(b) \tag{16}
+f(ab) =\sum_{i=1}^nf'_i(a)f''_i(b) \tag{16}
 $$
 
 pour $a, b\in A$. On aura alors
 
 $$
-c(f) =\sum_{i=1}^nf_i'\otimes f_i'' \tag{17}
+c(f) =\sum_{i=1}^nf'_i\otimes f''_i \tag{17}
 $$
 
-D’après le cor. de VIII, p. 371, il existe un A-module à gauche E, de dimension finie sur K, dont $f$ est un coefficient. Soient $(e_1, . . . , e_n)$ une base de $E, (e^*_1, . . . , e^*_n)$ la base duale, $x$ un élément de E et $x^*$ un élément de $E^*$ tels que $f=c_E(x, x^*)$. Posons $f_i'=c_E(e_i, x^*)$ et $f_i''=c_E(x, e^*_i)$ pour $i\in [1, n]$; pour $a, b$ dans A, on a
+D’après le cor. de VIII, p. 371, il existe un A-module à gauche E, de dimension finie sur K, dont $f$ est un coefficient. Soient $(e_1, . . . , e_n)$ une base de $E, (e^*_1, . . . , e^*_n)$ la base duale, $x$ un élément de E et $x^*$ un élément de $E^*$ tels que $f=c_E(x, x^*)$. Posons $f'_i=c_E(e_i, x^*)$ et $f''_i=c_E(x, e^*_i)$ pour $i\in [1, n]$; pour $a, b$ dans A, on a
 
 $$
 f(ab) =\langle x^*, abx\rangle =\langle x^*a, bx\rangle
 $$
 
 $$
-=\sum_i\langle x^*a, e_i\rangle \langle e^*_i, bx\rangle =\sum_i\langle x^*, ae_i\rangle \langle e^*_i, bx\rangle =\sum_if_i'(a)f_i''(b)
+=\sum_i\langle x^*a, e_i\rangle \langle e^*_i, bx\rangle =\sum_i\langle x^*, ae_i\rangle \langle e^*_i, bx\rangle =\sum_if'_i(a)f''_i(b)
 $$
 
 d’où (16).
@@ -646,10 +646,10 @@ La dernière assertion résulte du cor. de VIII, p. 379 : l’ensemble $\mathscr
 
 (iii) $=\Rightarrow$ (ii) : Soit $\mathscr{C}$ un ensemble héréditaire de classes de A-modules de dimension finie sur K. Alors $\Theta_{\mathscr{C}}(A)$ est la réunion de la famille filtrante $(\Theta_E(A))_{E\in\mathscr{C}}$. Comme $\Theta_E(A)$ est une sous-cogèbre de Θ(A) pour tout $E\in \mathscr{C}$ (VIII, p. 382, formule (19)), il en est de même de $\Theta_{\mathscr{C}}(A)$.
 
-(ii) $=\Rightarrow$ (i) : Soit $f\in \Theta (A)$. Soient $f_1', . . . , f_n', f_1'', . . . , f_n''$ des éléments de Θ(A) satisfaisant à $c(f) =\sum f_i'\otimes f_i''$. Pour $a,b$ dans A, on a $f(ab) =\sum f_i'(a)f_i''(b)$, d’où
+(ii) $=\Rightarrow$ (i) : Soit $f\in \Theta (A)$. Soient $f'_1, . . . , f'_n, f''_1, . . . , f''_n$ des éléments de Θ(A) satisfaisant à $c(f) =\sum f'_i\otimes f''_i$. Pour $a,b$ dans A, on a $f(ab) =\sum f'_i(a)f''_i(b)$, d’où
 
 $$
-bf=\sum_{i=1}^nf_i''(b)f_i',f a=\sum_{i=1}^nf_i'(a)f_i''
+bf=\sum_{i=1}^nf''_i(b)f'_i,f a=\sum_{i=1}^nf'_i(a)f''_i
 $$
 
 (VIII, p. 367, formules (3) et (4)). Par suite, une sous-cogèbre de Θ(A) en est un sous-(A, A)-bimodule.

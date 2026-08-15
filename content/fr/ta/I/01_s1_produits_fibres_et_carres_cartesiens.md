@@ -57,7 +57,7 @@ subsections:
       pdf_page: 36
 statements: 44
 exercises: 0
-content_sha256: 1bf631208c6f18191df37dc42c4732b55aab45541421a36ea305cdbd2398b602
+content_sha256: 440017051878cb3d38a4032e28c93bbb5358b45ecd69541111d94aacf0f9f213
 ---
 
 ## § 1. PRODUITS FIBRÉS ET CARRÉS CARTÉSIENS
@@ -301,7 +301,7 @@ ${B'}^f$ B
 un carré cartésien et soient $B_0,B'_0,X_0$ des sous-espaces de B, $B'$ et X respectivement. Supposons qu’on ait $f(B'_0)\subset B_0,p(X_0)\subset B_0$ et posons $X'_0=(\overset{-1}{p}')(B'_0)\cap (\overset{-1}{f}')(X_0)$. Alors, le carré
 
 $$
-{X'_0}^{f_0'}X_0
+{X'_0}^{f'_0}X_0
 $$
 
 $$
@@ -312,7 +312,7 @@ $$
 {B'_0}^{f_0}B_0
 $$
 
-(où les applications $f_0,f_0',p_0,p'_0$ sont déduites de $f,f',p,p'$ respectivement par passage aux sous-ensembles) est cartésien.
+(où les applications $f_0,f'_0,p_0,p'_0$ sont déduites de $f,f',p,p'$ respectivement par passage aux sous-ensembles) est cartésien.
 
 Considérons l’application canonique $h: X'\rightarrow B'\times_BX$ déduite du diagramme commutatif (4). Comme le carré (4) est cartésien, $h$ est un
 
@@ -373,7 +373,7 @@ A B
 Soit I un ensemble et, pour tout $i\in I$, soit
 
 $$
-{X'_i}^{f_i'}X_i
+{X'_i}^{f'_i}X_i
 $$
 
 $$
@@ -398,9 +398,9 @@ $$
 \prod i\in IB'if\prod i\in IBi
 $$
 
-(où $f,f',p,p'$ sont les extensions des familles $(f_i)$, $(f_i')$, $(p_i)$, $(p'_i)$ aux produits) est cartésien.
+(où $f,f',p,p'$ sont les extensions des familles $(f_i)$, $(f'_i)$, $(p_i)$, $(p'_i)$ aux produits) est cartésien.
 
-Soit Y un espace topologique, soient $u: Y\rightarrow \prod_iB'_i$ et $v: Y\rightarrow \prod_iX_i$ des applications continues telles que $f\circ u=p\circ v$. Pour $i\in I$, posons $u_i$ = pr$_i\circ u$ et $v_i=$ pr$_i\circ v$; on a $f_i\circ u_i=p_i\circ v_i$ et il existe une unique application continue $w_i: Y\rightarrow X'_i$ telle que $p'_i\circ w_i=u_i$ et $f_i'\circ w_i=v_i$. Alors, l’application $w= (w_i)$ est une application continue de Y dans $\prod_iX'_i$ telle que $p'\circ w=u$ et $f'\circ w=v$, et c’est la seule ayant ces propriétés.
+Soit Y un espace topologique, soient $u: Y\rightarrow \prod_iB'_i$ et $v: Y\rightarrow \prod_iX_i$ des applications continues telles que $f\circ u=p\circ v$. Pour $i\in I$, posons $u_i$ = pr$_i\circ u$ et $v_i=$ pr$_i\circ v$; on a $f_i\circ u_i=p_i\circ v_i$ et il existe une unique application continue $w_i: Y\rightarrow X'_i$ telle que $p'_i\circ w_i=u_i$ et $f'_i\circ w_i=v_i$. Alors, l’application $w= (w_i)$ est une application continue de Y dans $\prod_iX'_i$ telle que $p'\circ w=u$ et $f'\circ w=v$, et c’est la seule ayant ces propriétés.
 
 #### Corollaire 1 {#ta-i-s1-prop-5-cor-1 .statement tag=01LS}
 
@@ -424,10 +424,10 @@ $_pp$ et Id$_{_FId_P}$
 
 B $^{Id_B}$ B F P .
 
-Soient B et $B'$ des espaces topologiques et soit $f: B'\rightarrow$ B une application continue. Soit I un ensemble et, pour tout $i\in I$, soient $X_i$ un B-espace, $X'_i$ un $B'$-espace et $f_i': X'_i\rightarrow X_i$ une application continue telle que le carré
+Soient B et $B'$ des espaces topologiques et soit $f: B'\rightarrow$ B une application continue. Soit I un ensemble et, pour tout $i\in I$, soient $X_i$ un B-espace, $X'_i$ un $B'$-espace et $f'_i: X'_i\rightarrow X_i$ une application continue telle que le carré
 
 $$
-{X'_i}^{f_i'}X_i
+{X'_i}^{f'_i}X_i
 $$
 
 (9)
@@ -440,7 +440,7 @@ $$
 f':\prod_{i\in IB'}X'_i\rightarrow \prod_{i\in IB}X_i
 $$
 
-telle que pr$_i\circ f'=f_i'\circ$ pr$_i$ pour tout $i\in I$ et telle que le carré
+telle que pr$_i\circ f'=f'_i\circ$ pr$_i$ pour tout $i\in I$ et telle que le carré
 
 $i\prod\in IB'X'if'i\prod\in I$B $Xi$
 
@@ -451,7 +451,7 @@ $$
 ${B'}^f$ B soit commutatif (cette dernière condition résultant des autres si I $=\not\emptyset ) :$ c’est l’application déduite de l’application
 
 $$
-f\times \prod_{i\in I}f_i': B'\times \prod_{i\in I}X'_i\rightarrow B\times \prod_{i\in I}X_i
+f\times \prod_{i\in I}f'_i: B'\times \prod_{i\in I}X'_i\rightarrow B\times \prod_{i\in I}X_i
 $$
 
 par passage aux sous-ensembles. Avec ces notations :
@@ -463,7 +463,7 @@ Si le carré (9) est cartésien pour tout $i\in I$, le carré ($9'$) est cartés
 On déduit de la prop. 5 un carré cartésien
 
 $$
-B'\times \prod_i{X'_i}^{Id_B\times}\prod_{_i}^{f_i'}B\times \prod_iX_i
+B'\times \prod_i{X'_i}^{Id_B\times}\prod_{_i}^{f'_i}B\times \prod_iX_i
 $$
 
 $$
@@ -504,7 +504,7 @@ On a la relation $\overset{-1}{\varphi}(\Delta_X) = \Delta_{X'}$. En effet, par 
 
 Soit I un ensemble et, pour tout $i\in I$, soit
 
-${X'_i}^{f_i'}$ X
+${X'_i}^{f'_i}$ X
 
 $$
 p'_{_i}p \tag{10}
@@ -512,7 +512,7 @@ $$
 
 ${B'_i}^{f_i}$ B
 
-un carré cartésien. Soient $X'$ et $B'$ les espaces sommes des familles $(X'_i)$ et $(B'_i)$ respectivement. Soient $f: B'\rightarrow B,f': X'\rightarrow X$ et $p': X'\rightarrow B'$ les applications déduites des familles $(f_i)$, $(f_i')$ et $(p'_i)$ respectivement. Le carré
+un carré cartésien. Soient $X'$ et $B'$ les espaces sommes des familles $(X'_i)$ et $(B'_i)$ respectivement. Soient $f: B'\rightarrow B,f': X'\rightarrow X$ et $p': X'\rightarrow B'$ les applications déduites des familles $(f_i)$, $(f'_i)$ et $(p'_i)$ respectivement. Le carré
 
 ${X'}^{f'}$ X
 

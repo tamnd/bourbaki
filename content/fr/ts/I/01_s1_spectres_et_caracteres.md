@@ -45,7 +45,7 @@ subsections:
       pdf_page: 24
 statements: 33
 exercises: 8
-content_sha256: 49414d4ac1595b3292290f033f3a7ed5a7b36188c004ceb10ccb735cc1ba7832
+content_sha256: e73b371064afd6e8060ad6f064a94108e26a97491fadc62079e9a58c16b79b8d
 ---
 
 ## § 1. SPECTRES ET CARACTÈRES
@@ -320,11 +320,11 @@ L’application nulle est un morphisme d’algèbres. Si A possède un élément
 
 On posera $\mathsf{X}(A) =\mathsf{X}'(A)-\{0\}$; d’après ce qui précède, la notation est compatible avec celle introduite lorsque A est unifère.
 
-Si $h: A\rightarrow B$ est un morphisme d’algèbres commutatives, l’application $\chi \mapsto \chi \circ h$ est une application $\mathsf{X}'(h) :\mathsf{X}'(B)\rightarrow \mathsf{X}'(A)$. Elle transforme 0 en 0. Si $k: B\rightarrow C$ est un morphisme d’algèbres commutatives, alors on a $\mathsf{X}'(k\circ h) =\mathsf{X}'(h)\circ \mathsf{X}'(k)$. Si $h$ est surjectif, $\mathsf{X}'(h)$ est une bijection de $\mathsf{X}'(B)$ sur l’ensemble des caractères de A nuls sur le noyau de $h$. Soient $A_1, . . . ,A_n$ des algèbres commutatives, $A = A_1\times  \cdots  \times A_n$ et $\pi : A\rightarrow A_i$ le morphisme canonique ; alors $\mathsf{X}'(\pi_i)$ est une bijection de $\mathsf{X}'(A_i)$ sur une partie $\mathsf{X}_i'$ de $\mathsf{X}'(A)$, à savoir l’ensemble des caractères de A nuls sur $\prod_{j\not=i}A_j$; on voit comme au n$^o6$ que $\mathsf{X}'(A)$ est réunion
+Si $h: A\rightarrow B$ est un morphisme d’algèbres commutatives, l’application $\chi \mapsto \chi \circ h$ est une application $\mathsf{X}'(h) :\mathsf{X}'(B)\rightarrow \mathsf{X}'(A)$. Elle transforme 0 en 0. Si $k: B\rightarrow C$ est un morphisme d’algèbres commutatives, alors on a $\mathsf{X}'(k\circ h) =\mathsf{X}'(h)\circ \mathsf{X}'(k)$. Si $h$ est surjectif, $\mathsf{X}'(h)$ est une bijection de $\mathsf{X}'(B)$ sur l’ensemble des caractères de A nuls sur le noyau de $h$. Soient $A_1, . . . ,A_n$ des algèbres commutatives, $A = A_1\times  \cdots  \times A_n$ et $\pi : A\rightarrow A_i$ le morphisme canonique ; alors $\mathsf{X}'(\pi_i)$ est une bijection de $\mathsf{X}'(A_i)$ sur une partie $\mathsf{X}'_i$ de $\mathsf{X}'(A)$, à savoir l’ensemble des caractères de A nuls sur $\prod_{j\not=i}A_j$; on voit comme au n$^o6$ que $\mathsf{X}'(A)$ est réunion
 
-des $\mathsf{X}'_i$; d’autre part, $\mathsf{X}_i'\cap \mathsf{X}'_j=\{0\}$ pour $i\not=j$; en particulier les $\mathsf{X}'_i-\{0\}$ forment une partition de $\mathsf{X}'(A)-\{0\}=\mathsf{X}(A)$.
+des $\mathsf{X}'_i$; d’autre part, $\mathsf{X}'_i\cap \mathsf{X}'_j=\{0\}$ pour $i\not=j$; en particulier les $\mathsf{X}'_i-\{0\}$ forment une partition de $\mathsf{X}'(A)-\{0\}=\mathsf{X}(A)$.
 
-Pour tout $x\in A$, soit $\mathscr{G}_A'(x)$, ou simplement $\mathscr{G}'(x)$, l’application $\chi \mapsto \chi (x)$ de $\mathsf{X}'(A)$ dans K. L’application $\mathscr{G}'$ est un morphisme de A dans l’algèbre $A_1$ des applications $\mathsf{X}'(A)\rightarrow K$ nulles en 0. Soient B une algèbre commutative, $B_1$ l’algèbre des applications $\mathsf{X}'(B)\rightarrow$ K nulles en 0, et $h$ un morphisme de A dans B; alors $\mathsf{X}'(h)$ définit un morphisme $h_1: A_1\rightarrow B_1$, et l’on a $h_1\circ \mathscr{G}_A'=\mathscr{G}_B'\circ h$. On note $\mathscr{G}_A(x)$, ou simplement $\mathscr{G}(x)$, la restriction de $\mathscr{G}_A'(x)$ à $\mathsf{X}(A)$ et on l’appelle transformée de Gelfand de $x$.
+Pour tout $x\in A$, soit $\mathscr{G}'_A(x)$, ou simplement $\mathscr{G}'(x)$, l’application $\chi \mapsto \chi (x)$ de $\mathsf{X}'(A)$ dans K. L’application $\mathscr{G}'$ est un morphisme de A dans l’algèbre $A_1$ des applications $\mathsf{X}'(A)\rightarrow K$ nulles en 0. Soient B une algèbre commutative, $B_1$ l’algèbre des applications $\mathsf{X}'(B)\rightarrow$ K nulles en 0, et $h$ un morphisme de A dans B; alors $\mathsf{X}'(h)$ définit un morphisme $h_1: A_1\rightarrow B_1$, et l’on a $h_1\circ \mathscr{G}'_A=\mathscr{G}'_B\circ h$. On note $\mathscr{G}_A(x)$, ou simplement $\mathscr{G}(x)$, la restriction de $\mathscr{G}'_A(x)$ à $\mathsf{X}(A)$ et on l’appelle transformée de Gelfand de $x$.
 
 Soit $\widetilde{A}$ l’algèbre unifère déduite de A par adjonction d’un élément unité. Par restriction, tout caractère de $\widetilde{A}$ définit un caractère de A ; inversement, tout caractère de A se prolonge de manière unique en un caractère de $\widetilde{A}$. Cela définit une bijection canonique de $\mathsf{X}'(A)$ sur $\mathsf{X}(\widetilde{A})$, par laquelle on identifie ces deux ensembles. Le caractère 0 de A s’identifie à l’unique caractère de $\widetilde{A}$ de noyau A.
 
@@ -338,7 +338,7 @@ Rappelons (A, VIII, p. 426, déf. 1) qu’un idéal I de A est dit régulier si 
 
 Démontrons le lemme. D’une part $\mathsf{X}(A)$ s’identifie à l’ensemble des caractères de $\widetilde{A}$ non nuls sur A. D’autre part, d’après A, VIII, p. 428, prop. 4, l’application $I\mapsto A\cap I$ est une bijection de l’ensemble des idéaux maximaux de $\widetilde{A}$ distincts de A sur l’ensemble des idéaux maximaux réguliers de A. Le lemme découle alors des résultats du n$^o6$.
 
-Supposons maintenant que K soit un corps topologique. On munit alors $\mathsf{X}'(A)$ de la topologie de la convergence simple sur A ; la notation $\mathsf{X}'(A)$ désignera désormais l’espace topologique ainsi obtenu. Lorsque $K =\mathbf{R}$ ou $\mathbf{C}$, nous l’appelerons également topologie faible. Pour tout $x\in A$, la fonction $\mathscr{G}_A'(x)$ sur $\mathsf{X}'(A)$ est continue.
+Supposons maintenant que K soit un corps topologique. On munit alors $\mathsf{X}'(A)$ de la topologie de la convergence simple sur A ; la notation $\mathsf{X}'(A)$ désignera désormais l’espace topologique ainsi obtenu. Lorsque $K =\mathbf{R}$ ou $\mathbf{C}$, nous l’appelerons également topologie faible. Pour tout $x\in A$, la fonction $\mathscr{G}'_A(x)$ sur $\mathsf{X}'(A)$ est continue.
 
 Si $h$ est un morphisme de A dans B, l’application $\mathsf{X}'(h) :\mathsf{X}'(B)\rightarrow$ $\mathsf{X}'(A)$ est continue. Si $h$ est surjectif, $\mathsf{X}'(h)$ est un homéomorphisme de $\mathsf{X}'(B)$ sur son image et cette image est fermée dans $\mathsf{X}'(A)$.
 

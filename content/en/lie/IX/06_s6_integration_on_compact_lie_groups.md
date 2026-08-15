@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: 69f834c1107c78bebb40bc441cbf08e91c3513989d6c2e3face0ac2292335933
+content_sha256: edfea0057110aa9a9db8e3f776a7e0c233f1cbf817d78946a764a8f6e710798b
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
@@ -70,10 +70,10 @@ $$
 
 The map $\varphi :$ Alt$^s(M'')\otimes_A$Alt$^r(M')\rightarrow$ Alt$^{s+r}(M)$ such that $\varphi (u\otimes v) =u\cap v$ is an isomorphism of free A-modules of rank one.
 
-The existence of a form $v_1$ satisfying condition $a)$ follows from the fact that $\wedge \wedge^r(i)$ induces an isomorphism from $\wedge \wedge^r(M')$ to a direct factor submodule of $\wedge \wedge^r(M) ($Algebra, Chap. III, §7, no. 2). Let $v_1$ be such a form; put $u\cap v=u_1\wedge v_1$. Formula (1) is then satisfied, since if we put $i(x'_k) =x_{s+k}$ for $1\leq k\leq r$, the only element $\sigma$ of $\mathfrak{S}_{s,r}$ such that $p(x_{\sigma(i)})\not= 0$ for $1\leq i\leq s$ is the identity permutation. On the other hand, formula (1) determines $u\cap v$ uniquely: indeed, let $(e'_1, . . . , e'_r)$ be a basis of $M', (f_1'', . . . , f_s'')$ a basis of $M''$, and $f_1, . . . , f_s$ elements of M such that $p(f_i) =f_i''$ for $1\leq i\leq s$. Then $(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r))$ is a basis of M (Algebra, Chap. II, §1, no. 11, Prop. 21), and formula (1) can be written
+The existence of a form $v_1$ satisfying condition $a)$ follows from the fact that $\wedge \wedge^r(i)$ induces an isomorphism from $\wedge \wedge^r(M')$ to a direct factor submodule of $\wedge \wedge^r(M) ($Algebra, Chap. III, §7, no. 2). Let $v_1$ be such a form; put $u\cap v=u_1\wedge v_1$. Formula (1) is then satisfied, since if we put $i(x'_k) =x_{s+k}$ for $1\leq k\leq r$, the only element $\sigma$ of $\mathfrak{S}_{s,r}$ such that $p(x_{\sigma(i)})\not= 0$ for $1\leq i\leq s$ is the identity permutation. On the other hand, formula (1) determines $u\cap v$ uniquely: indeed, let $(e'_1, . . . , e'_r)$ be a basis of $M', (f''_1, . . . , f''_s)$ a basis of $M''$, and $f_1, . . . , f_s$ elements of M such that $p(f_i) =f''_i$ for $1\leq i\leq s$. Then $(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r))$ is a basis of M (Algebra, Chap. II, §1, no. 11, Prop. 21), and formula (1) can be written
 
 $$
-(u\cap v)(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r)) =u(f_1'', . . . , f_s'')v(e'_1, . . . , e'_r) \tag{2}
+(u\cap v)(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r)) =u(f''_1, . . . , f''_s)v(e'_1, . . . , e'_r) \tag{2}
 $$
 
 but an element of Alt$^{s+r}(M)$ is determined by its value on a basis.

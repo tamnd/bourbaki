@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: aa7b03a95301acfabb64a397313577c6ffc6506551f3d390dc31923824964b51
+content_sha256: 644df124b55187454086439f9fb7cfd294a47623c22a85e52b3e094bc59bc31a
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -504,7 +504,7 @@ La propriété (ii) résulte de INT, VIII, § 2, n$^o7$, corollaire 1 du lemme 4
 
 compacte sur $\widehat{G}$, c’est-à-dire (iii).
 
-Finalement, soit $p= 1$ ou $p= 2$. Soit $f\in L^p(G)$. On a $\varphi *f\rightarrow f$ dans $L^p(G)$ selon le filtre $\mathfrak{B}$ (INT, VIII, §4, n$^o7$, prop. 20). De plus, pour tout K dans $\mathfrak{B}_0$ et $\varphi \in X_K$, il existe $\psi \in X_K'$ tel que $\varphi =\psi *\psi$, d’où $\varphi *f=\psi *(\psi *f)$. On a $\psi \in L^1(G)\cap L^2(G)$ et $\psi *f\in L^1(G)\cap L^2(G)$, donc $\varphi *f\in A(G)$.
+Finalement, soit $p= 1$ ou $p= 2$. Soit $f\in L^p(G)$. On a $\varphi *f\rightarrow f$ dans $L^p(G)$ selon le filtre $\mathfrak{B}$ (INT, VIII, §4, n$^o7$, prop. 20). De plus, pour tout K dans $\mathfrak{B}_0$ et $\varphi \in X_K$, il existe $\psi \in X'_K$ tel que $\varphi =\psi *\psi$, d’où $\varphi *f=\psi *(\psi *f)$. On a $\psi \in L^1(G)\cap L^2(G)$ et $\psi *f\in L^1(G)\cap L^2(G)$, donc $\varphi *f\in A(G)$.
 
 #### Corollaire 1 {#ts-ii-s1-prop-8-cor-1 .statement tag=02IA}
 

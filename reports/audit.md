@@ -14,15 +14,15 @@ Audited: 4 chapters, 61 sections, 668 exercises, 2873 extracted pages, 4464 tags
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (134) |
-| mathematics | 6 | 2 | 1 | M06 (1), M09 (108) |
+| mathematics | 6 | 2 | 1 | M06 (1), M09 (95) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
 | translation | 8 | 2 | 1 | L08 (1) |
 | solutions | 0 | 4 | 0 | none |
-| publication | 0 | 1 | 0 | P04 (105) |
+| publication | 0 | 1 | 0 | P04 (93) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 349 soft, over 56 rules that ran and 3 that could not.
+0 hard findings and 324 soft, over 56 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -41,7 +41,7 @@ Soft, mathematics.
 
 - `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.47 displays a page over 17 pages, against a mean of 1.23 and a sigma of 1.30
 
-## M09 no base carries two superscripts or two subscripts (108)
+## M09 no base carries two superscripts or two subscripts (95)
 
 Soft, mathematics.
 
@@ -65,15 +65,15 @@ Soft, mathematics.
 - `content/en/lie/IX/exercises/s2/08.md:29` two of one script against one base, which TeX will not set: ^-_G^1
 - `content/en/lie/IX/exercises/s6/02.md:27` two of one script against one base, which TeX will not set: ^1_{\overline{2}i=1}^n
 - `content/en/lie/IX/exercises/s7/04.md:23` two of one script against one base, which TeX will not set: ^n_{\partial x}^{\partial^2}_{\partial y}^P
-- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:491` two of one script against one base, which TeX will not set: _-'_{\alpha}
-- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:555` two of one script against one base, which TeX will not set: _-'_{\alpha}
-- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:559` two of one script against one base, which TeX will not set: _-'_{\alpha}
-- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:559` two of one script against one base, which TeX will not set: _-'_{\alpha}
 - `content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md:181` two of one script against one base, which TeX will not set: ^m_{i^i}^{n_i}
+- `content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md:415` two of one script against one base, which TeX will not set: _{\alpha}'_{\alpha}
+- `content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md:499` two of one script against one base, which TeX will not set: ^r''
+- `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:351` two of one script against one base, which TeX will not set: _n^{j-}_-^1_1
+- `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:361` two of one script against one base, which TeX will not set: _n^j_-^{-1}_1
 
-and 83 more, which `bourbaki audit -only M09` prints in full.
+and 70 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (105)
+## P04 every math span parses under KaTeX (93)
 
 Soft, publication.
 
@@ -96,14 +96,14 @@ Soft, publication.
 - `content/en/lie/IX/exercises/s2/08.md:29` KaTeX will not set it: Double superscript at position 5: ^-_G^̲1(T_r)\subset L…: ^-_G^1(T_r)\subset L(T)
 - `content/en/lie/IX/exercises/s6/02.md:27` KaTeX will not set it: Double superscript at position 37: …overline{2}i=1}^̲n\frac{\partial…: \Delta (P) =\sum^1_{\overline{2}i=1}^n\frac{\parti…
 - `content/en/lie/IX/exercises/s7/04.md:23` KaTeX will not set it: Double superscript at position 20: …^n_{\partial x}^̲{\partial^2}_{\…: \sum^n_{\partial x}^{\partial^2}_{\partial y}^P
-- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:491` KaTeX will not set it: Double subscript at position 82: …},\varphi (X_-'_̲{\alpha}) =X_{-…: \varphi (X_{\alpha}') =X_{\alpha},\varphi (H_{\alp…
-- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:555` KaTeX will not set it: Double subscript at position 57: …{\alpha}', X_-'_̲{\alpha}] = [X_…: X_{\alpha}'\in \mathfrak{g}^{\alpha},[X_{\alpha}',…
-- `content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md:559` KaTeX will not set it: Double subscript at position 143: …u_{-\alpha}X_-'_̲{\alpha}=X_-'_{…: \theta (X_{\alpha}') =\theta (u^{-1}_{\alpha}X_{\a…
 - `content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md:181` KaTeX will not set it: Double superscript at position 32: …a_i) =t^m_{i^i}^̲{n_i}=t^m_i= (\…: \chi (n_i\lambda_i) =t^m_{i^i}^{n_i}=t^m_i= (\psi^…
 - `content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md:415` KaTeX will not set it: Double subscript at position 17: …sum m_{\alpha}'_̲{\alpha}: \sum m_{\alpha}'_{\alpha}
 - `content/en/lie/VIII/08_s8_symmetric_invariants.md:266` KaTeX will not set it: Expected group after '_' at position 28: …_++\mathfrak{n}_̲: \mathfrak{n}_++\mathfrak{n}_
+- `content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md:499` KaTeX will not set it: Double superscript at position 9: 1\sum^r'̲' : 1\sum^r''
+- `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:351` KaTeX will not set it: Double subscript at position 31: … d_n^j=d_n^{j-}_̲-^1_1\circ d_n^…: d_{n-1}^i\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \ta…
+- `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:361` KaTeX will not set it: Double subscript at position 50: …(-1)^{i+j}d_n^j_̲-^{-1}_1\circ d…: =\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_n^j_-…
 
-and 80 more, which `bourbaki audit -only P04` prints in full.
+and 68 more, which `bourbaki audit -only P04` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (134)
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 130
 statements: 58
 exercises: 0
-content_sha256: 1c1c6718570bcdcd0ccbec40f1638f9f8c986ef5e1a97d35127679fb0c9f4e08
+content_sha256: 50267f460d15e7bc910dc595bb160936e23850e1e27162ec41c420bb01ad7f34
 ---
 
 ## § 5. REVÊTEMENTS PRINCIPAUX
@@ -610,7 +610,7 @@ Soit F l’espace topologique obtenu par recollement des espaces $U_i\times G$ l
 
 #### Définition 7 {#ta-i-s5-def-7 .statement tag=01RO}
 
-Soient B un espace topologique, G un groupe topologique et $\mathscr{U}= (U_i)_{i\in I}$ un recouvrement ouvert de B. On dit que deux cocycles $(g_{ij})$ et $(g_{ij}')$ de $Z^1_{cont}(B,\mathscr{U},G)$ sont cohomologues s’il existe une famille $(h_i)_{i\in I}$ d’applications continues $h_i: U_i\rightarrow G$ telle que l’on ait
+Soient B un espace topologique, G un groupe topologique et $\mathscr{U}= (U_i)_{i\in I}$ un recouvrement ouvert de B. On dit que deux cocycles $(g_{ij})$ et $(g'_{ij})$ de $Z^1_{cont}(B,\mathscr{U},G)$ sont cohomologues s’il existe une famille $(h_i)_{i\in I}$ d’applications continues $h_i: U_i\rightarrow G$ telle que l’on ait
 
 $$
 g'_{ij}(b) =h_i(b)g_{ij}(b)h_j(b)^{-1} \tag{6}
@@ -626,27 +626,27 @@ Soient B un espace topologique, G un groupe topologique et $\mathscr{U}= (U_i)_{
 
 a) Tout B-espace fibré principal de groupe G qui est trivialisable au-dessus de $\mathscr{U}$ est isomorphe à un espace fibré principal défini par un cocycle de $Z^1_{cont}(B,\mathscr{U},G)$.
 
-b) Soient $(E, p)$ et $(E', p')$ des B-espaces fibrés principaux qui sont trivialisables au-dessus de $\mathscr{U}$. Soit $(f_i)_{i\in I}($ resp. $(f_i')_{i\in I})$ une trivialisation de $(E, p)$ ( resp. de $(E', p')$) adaptée à $\mathscr{U}$ et notons $(g_{ij})_{(i,j)\in I\times I}$ ( resp. $(g_{i,j}')_{(i,j)\in I\times I})$ le cocycle défini par cette trivialisation. Alors, les espaces fibrés principaux $(E, p)$ et $(E', p')$ sont isomorphes si et seulement si ces cocycles sont cohomologues.
+b) Soient $(E, p)$ et $(E', p')$ des B-espaces fibrés principaux qui sont trivialisables au-dessus de $\mathscr{U}$. Soit $(f_i)_{i\in I}($ resp. $(f'_i)_{i\in I})$ une trivialisation de $(E, p)$ ( resp. de $(E', p')$) adaptée à $\mathscr{U}$ et notons $(g_{ij})_{(i,j)\in I\times I}$ ( resp. $(g'_{i,j})_{(i,j)\in I\times I})$ le cocycle défini par cette trivialisation. Alors, les espaces fibrés principaux $(E, p)$ et $(E', p')$ sont isomorphes si et seulement si ces cocycles sont cohomologues.
 
 Démontrons b). Soit $\varphi : E\rightarrow E'$ un isomorphisme de fibrés principaux de base B et de groupe G. Pour tout $i\in I$, soit $h_i$ l’application continue de $U_i$ dans G définie par
 
 $$
-(b, h_i(b)) =f_i'\circ \varphi \circ f_i^{-1}(b, e)
+(b, h_i(b)) =f'_i\circ \varphi \circ f_i^{-1}(b, e)
 $$
 
-Comme, pour tout $i\in I,f_i$ et $f_i'$ sont compatibles avec les opérations de G, on a pour tout $b\in U_i$ et tout $g\in G$,
+Comme, pour tout $i\in I,f_i$ et $f'_i$ sont compatibles avec les opérations de G, on a pour tout $b\in U_i$ et tout $g\in G$,
 
 $$
-(f_i'\circ \varphi \circ f_i^{-1})(b, g) = (b, h_i(b)g)
+(f'_i\circ \varphi \circ f_i^{-1})(b, g) = (b, h_i(b)g)
 $$
 
 et
 
 $$
-(f_i\circ \varphi^{-1}\circ (f_i')^{-1})(b, g) = (b, h_i(b)^{-1}g)
+(f_i\circ \varphi^{-1}\circ (f'_i)^{-1})(b, g) = (b, h_i(b)^{-1}g)
 $$
 
-Par suite, pour tout couple $(i, j)\in I\times I$ et tout point $b$ de $U_i\cap U_j:$ $f_i'\circ (f_j')^{-1}(b, e) = (f_i'\circ \varphi \circ f_i^{-1})\circ (f_i\circ f_j^{-1})\circ (f_j\circ \varphi^{-1}\circ (f_j')^{-1})(b, e)$
+Par suite, pour tout couple $(i, j)\in I\times I$ et tout point $b$ de $U_i\cap U_j:$ $f'_i\circ (f'_j)^{-1}(b, e) = (f'_i\circ \varphi \circ f_i^{-1})\circ (f_i\circ f_j^{-1})\circ (f_j\circ \varphi^{-1}\circ (f'_j)^{-1})(b, e)$
 
 $$
 = (b, h_i(b)g_{ij}(b)h_j(b)^{-1})
@@ -655,29 +655,29 @@ $$
 de sorte que l’on a
 
 $$
-g_{ij}'(b) =h_i(b)g_{ij}(b)h_j(b)^{-1}
+g'_{ij}(b) =h_i(b)g_{ij}(b)h_j(b)^{-1}
 $$
 
 Cela démontre que les cocycles $(g_{ij})$ et $(g'_{ij})$ sont cohomologues.
 
 Inversement, supposons que ces cocycles soient cohomologues et soit $(h_i)_{i\in I}$ une famille d’applications continues $h_i: U_i\rightarrow G$ telle que l’on ait $g'_{ij}(b) =h_i(b)g_{ij}(b)h_j(b)^{-1}$ pour $i,j\in I$ et $b\in U_i\cap U_j$. Pour
 
-$i\in I$, soit $\varphi_i:\overset{-1}{p}(U_i)\rightarrow (^-{p'}^1)(U_i)$ l’application définie par $f_i'\circ \varphi_i\circ$ $f_i^{-1}(b, g) = (b, h_i(b)g)$, pour $b\in U_i$ et $g\in G$. C’est un isomorphisme d’espaces fibrés principaux de base $U_i$ et de groupe G. Pour $(i, j)\in$ $I\times I$, notons $\gamma_{ij}$ et $\gamma_{ij}'$ les homéomorphismes de recollement associés comme ci-dessus aux cocycles $(g_{ij})$ et $(g_{ij}')$ respectivement (I, p. 115, formule (5)), de sorte que $f_i(b, g) =\gamma_{ij}\circ f_j(b, g)$ et $f_i'(b, g) =\gamma_{ij}'\circ f_j'(b, g)$ pour tout $(b, g)\in (U_i\cap U_j)\times G$. Par suite, pour $(i, j)\in I\times I$ et $(b, g)\in (U_i\cap U_j)\times G$, on a les relations
+$i\in I$, soit $\varphi_i:\overset{-1}{p}(U_i)\rightarrow (^-{p'}^1)(U_i)$ l’application définie par $f'_i\circ \varphi_i\circ$ $f_i^{-1}(b, g) = (b, h_i(b)g)$, pour $b\in U_i$ et $g\in G$. C’est un isomorphisme d’espaces fibrés principaux de base $U_i$ et de groupe G. Pour $(i, j)\in$ $I\times I$, notons $\gamma_{ij}$ et $\gamma '_{ij}$ les homéomorphismes de recollement associés comme ci-dessus aux cocycles $(g_{ij})$ et $(g'_{ij})$ respectivement (I, p. 115, formule (5)), de sorte que $f_i(b, g) =\gamma_{ij}\circ f_j(b, g)$ et $f'_i(b, g) =\gamma '_{ij}\circ f'_j(b, g)$ pour tout $(b, g)\in (U_i\cap U_j)\times G$. Par suite, pour $(i, j)\in I\times I$ et $(b, g)\in (U_i\cap U_j)\times G$, on a les relations
 
 $$
-f_i'\circ \varphi_j\circ f_i^{-1}(b, g) =\gamma_{ij}'\circ (f_j'\circ \varphi_j\circ f_j^{-1})(b, g_{ij}(b)^{-1}g)
-$$
-
-$$
-=\gamma_{ij}'(b, h_j(b)g_{ij}(b)^{-1}g)
+f'_i\circ \varphi_j\circ f_i^{-1}(b, g) =\gamma '_{ij}\circ (f'_j\circ \varphi_j\circ f_j^{-1})(b, g_{ij}(b)^{-1}g)
 $$
 
 $$
-= (b, g_{ij}'(b)h_j(b)g_{ij}(b)^{-1}g)
+=\gamma '_{ij}(b, h_j(b)g_{ij}(b)^{-1}g)
 $$
 
 $$
-= (b, h_i(b)g) =f_i'\circ \varphi_i\circ f_i^{-1}(b, g)
+= (b, g'_{ij}(b)h_j(b)g_{ij}(b)^{-1}g)
+$$
+
+$$
+= (b, h_i(b)g) =f'_i\circ \varphi_i\circ f_i^{-1}(b, g)
 $$
 
 Cela démontre que $\varphi_i$ et $\varphi_j$ coïncident sur $\overset{-1}{p}(U_i\cap U_j)$. Les morphismes $\varphi_i$ se recollent donc en un B-morphisme de fibrés principaux de E dans $E'$. L’assertion b) en résulte car tout morphisme de fibrés principaux de base B et de groupe G est un isomorphisme (I, p. 93, prop. 1).
@@ -692,7 +692,7 @@ En vertu de la définition d’un espace fibré principal, l’ensemble $P(B,G)$
 
 Soit $\mathscr{U}= (U_i)_{i\in I}$ un recouvrement ouvert de B et soit $\mathscr{V}= (V_k)_{k\in K}$ un recouvrement ouvert de B plus fin que $\mathscr{U}$. On a $P(B,\mathscr{U},G)\subset$ $P(B,\mathscr{V},G)$ ; on note $i_{\mathscr{V} \mathscr{U}}$ l’injection canonique définie par cette inclusion. Choisissons une application $\varphi : K\rightarrow I$ telle que $V_k\subset U_{\varphi(k)}$ pour tout $k\in K$. Étant donné un cocycle $(g_{ij})\in Z^1_{cont}(B,\mathscr{U},G)$, posons, pour tout couple $(k, \ell )\in K\times K,\overline{g}_{k\ell}=g_{\varphi(k)\varphi(\ell)}|V_k\cap V_{\ell}$.
 
-La famille $(\overline{g}_{k\ell})$ est un cocycle sur B, à valeurs dans G, subordonné à $\mathscr{V}$. Si $(g_{ij}')\in Z^1_{cont}(B,\mathscr{U},G)$ est un cocycle cohomologue au cocycle $(g_{ij})$, le cocycle $(\overline{g}'_{k\ell})$ déduit de $(g_{k\ell}'$ ) est cohomologue au cocycle $(\overline{g}_{k\ell})$. Il en résulte une application
+La famille $(\overline{g}_{k\ell})$ est un cocycle sur B, à valeurs dans G, subordonné à $\mathscr{V}$. Si $(g'_{ij})\in Z^1_{cont}(B,\mathscr{U},G)$ est un cocycle cohomologue au cocycle $(g_{ij})$, le cocycle $(\overline{g}'_{k\ell})$ déduit de $(g'_{k\ell})$ est cohomologue au cocycle $(\overline{g}_{k\ell})$. Il en résulte une application
 
 $$
 c(\varphi ): H^1_{cont}(B,\mathscr{U},G)\rightarrow H^1_{cont}(B,\mathscr{V},G)
@@ -700,7 +700,7 @@ $$
 
 qui à la classe de $(g_{ij})$ associe la classe de $(\overline{g}_{k\ell})$.
 
-Soit E un espace fibré principal de base B et de groupe G et, pour tout $i\in$ I, soit $f_i: E_{U_i}\rightarrow U_i\times G$ une trivialisation du $U_i$-espace fibré principal $E_{U_i}$. Pour tout $k\in$ K, soit $f_k': E_{V_k}\rightarrow V_k\times G$ la trivialisation déduite de $f_{\varphi(k)}$ par passage aux sous-ensembles. Soit $(g_{ij})\in Z^1_{cont}(B,\mathscr{U},G)$ le cocycle défini par la famille $(f_i)$ ; le cocycle défini par la famille $(f_k')$ est précisément le cocycle $(\overline{g}_{k\ell})$ défini ci-dessus. Ainsi, le diagramme suivant est commutatif :
+Soit E un espace fibré principal de base B et de groupe G et, pour tout $i\in$ I, soit $f_i: E_{U_i}\rightarrow U_i\times G$ une trivialisation du $U_i$-espace fibré principal $E_{U_i}$. Pour tout $k\in$ K, soit $f'_k: E_{V_k}\rightarrow V_k\times G$ la trivialisation déduite de $f_{\varphi(k)}$ par passage aux sous-ensembles. Soit $(g_{ij})\in Z^1_{cont}(B,\mathscr{U},G)$ le cocycle défini par la famille $(f_i)$ ; le cocycle défini par la famille $(f'_k)$ est précisément le cocycle $(\overline{g}_{k\ell})$ défini ci-dessus. Ainsi, le diagramme suivant est commutatif :
 
 $$
 H^1_{cont}(B,\mathscr{U},G)^{c(\varphi)}H^1_{cont}(B,\mathscr{V},G)

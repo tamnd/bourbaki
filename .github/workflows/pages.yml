@@ -115,11 +115,25 @@ jobs:
       # the reading adds 718 overlines and 159 fractions, and on all 873 lines
       # it touches the characters are the same before and after, so the whole of
       # it is a re-bracketing.
+      # 27 to 18, 18 to 15 and 74 to 66 once a prime was put back in front of
+      # the index it was drawn over. TeX sets a prime as a superscript of the
+      # base it marks, so the prime and the index of that base start at the same
+      # place, and the layer hands the runs back by left edge rather than by
+      # drawing order, so the index opens first and the prime lands inside it.
+      # Page 114 of Lie 7 to 9 sets X prime with minus alpha as its index and
+      # handed back a base carrying two subscripts, which KaTeX refuses; where
+      # the index is one piece nothing failed and the page shipped the prime on
+      # the far side of the index from where the volume prints it. A prime the
+      # author wrote after the index stands clear of the box of the index and a
+      # prime written on the base overlaps it, and that is what is asked. Over
+      # the six volumes it touches 191 lines of 107 pages, and on all of them
+      # the characters are the same before and after, so this too is a
+      # re-bracketing.
       - name: publish -check
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=23,fr/alg=18,en/lie=27,fr/ta=33,fr/ts=74
+        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=23,fr/alg=15,en/lie=18,fr/ta=33,fr/ts=66
 
       # Where Pages will serve this from, asked rather than typed, so the links
       # are right under tamnd.github.io/bourbaki and under a custom domain both.

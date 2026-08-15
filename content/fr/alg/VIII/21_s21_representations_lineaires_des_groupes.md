@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: 4345d148560ec8eb73f04b167a3adaa3349f64be42a0f40380ded965be8a7b02
+content_sha256: 72f8391c11c1559d61f45db3c4f54e293ab78ed7af7f9bf4a0f8c8128c18fc12
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -176,7 +176,7 @@ L’isomorphisme de K-modules $\theta_V: V^*\otimes_KV\rightarrow$ End$_K(V)$ de
 
 Soit L une K-algèbre commutative et soit $(M, \pi )$ une représentation linéaire du groupe G. L’homomorphisme de groupes $\pi_{(L)}: G\rightarrow \mathbf{G}\mathbf{L}(M_{(L)})$ défini par $g\rightarrow$ Id$_L\otimes \pi (g)$ est une représentation linéaire de G dans le L-module $M_{(L)}$, appelée la représentation linéaire de G déduite de la représentation $\pi$ par extension à L de l’anneau K des scalaires.
 
-Supposons que K soit un corps et que L soit une K algèbre commutative non nulle. Soient $(M, \pi )$ et $(M', \pi ')$ des représentations linéaires de G. Les représentations $\pi$ et $\pi '$ sont isomorphes si et seulement si $\pi_{(L)}$ et $\pi_{(L)}'$ le sont (VIII, p. 34, th. 3).
+Supposons que K soit un corps et que L soit une K algèbre commutative non nulle. Soient $(M, \pi )$ et $(M', \pi ')$ des représentations linéaires de G. Les représentations $\pi$ et $\pi '$ sont isomorphes si et seulement si $\pi_{(L)}$ et $\pi '_{(L)}$ le sont (VIII, p. 34, th. 3).
 
 On suppose en outre que l’algèbre L est une extension de K. Considérons les anneaux $R_K(G)$ et $R_L(G)$ définis dans l’exemple 1 de VIII, p. 193. L’extension des scalaires définit un homomorphisme d’anneaux
 
@@ -497,10 +497,10 @@ Conservons les notations des numéros 5 et 6. Rappelons que Z(K[G]) est formé d
 On définit une application bilinéaire symétrique de $K[G]\times K[G]$ dans K par la formule
 
 $$
-\langle f, f'\rangle_G=|G|^{-1}\sum_{g\in G}f_gf_g'_{_{-1}} \tag{28}
+\langle f, f'\rangle_G=|G|^{-1}\sum_{g\in G}f_gf'_{g_{-1}} \tag{28}
 $$
 
-pour tous $f=\sum f_gg$ et $f'=\sum f_g'g$ appartenant à K[G]. On a $\langle f, f'\rangle_G=|G|^{-2}\tau (f f')$.
+pour tous $f=\sum f_gg$ et $f'=\sum f'_gg$ appartenant à K[G]. On a $\langle f, f'\rangle_G=|G|^{-2}\tau (f f')$.
 
 #### Proposition 4 (Relation d’orthogonalité des caractères) {#alg-viii-s21-prop-4 .statement tag=00SG}
 
@@ -516,7 +516,7 @@ Soient $\pi$ et $\pi '$ des représentations linéaires de dimension finie de G.
 
 Supposons d’abord que $\pi$ et $\pi '$ soient des représentations simples. L’espace vectoriel Hom$_G(\pi , \pi ')$ est de dimension 1 ou 0 suivant que $\pi$ et $\pi '$ sont isomorphes ou non (lemme de Schur, VIII, p. 43, prop. 2). La formule (29) résulte dans ce cas de la proposition 4.
 
-Dans le cas général, la représentation $\pi$ (resp. $\pi ')$ est somme directe de représentations simples $\pi_1, . . . , \pi_m$ (resp. $\pi '_1, . . . , \pi_n')$. L’espace Hom$_G(\pi , \pi ')$ est isomorphe à la somme directe des espaces Hom$_G(\pi_i, \pi_j')$, pour $1\leqslant i\leqslant m, 1\leqslant j\leqslant n$, et l’on a
+Dans le cas général, la représentation $\pi$ (resp. $\pi ')$ est somme directe de représentations simples $\pi_1, . . . , \pi_m$ (resp. $\pi '_1, . . . , \pi '_n)$. L’espace Hom$_G(\pi , \pi ')$ est isomorphe à la somme directe des espaces Hom$_G(\pi_i, \pi '_j)$, pour $1\leqslant i\leqslant m, 1\leqslant j\leqslant n$, et l’on a
 
 $$
 \chi_{\pi}=\chi_{\pi_1}+\cdots +\chi_{\pi_m},\chi_{\pi'}=\chi_{\pi'_1}+\cdots +\chi_{\pi'_n}
@@ -692,9 +692,9 @@ Conservons les notations du numéro précédent. Soit $K'$ un corps algébriquem
 
 Soient $\pi_1$ et $\pi_2$ (resp. $\pi '_1$ et $\pi '_2)$ des représentations linéaires de G dans des espaces vectoriels de dimension finie sur K (resp. $K')$. On a les propriétés suivantes :
 
-a) Si $\pi_1$ est apparentée à $\pi '_1$ et $\pi_2'$, alors $\pi '_1$ et $\pi_2'$ sont isomorphes ;
+a) Si $\pi_1$ est apparentée à $\pi '_1$ et $\pi '_2$, alors $\pi '_1$ et $\pi '_2$ sont isomorphes ;
 
-b) Si $\pi_1$ est apparentée à $\pi '_1$, et $\pi_2$ à $\pi_2'$, alors $\pi_1\oplus \pi_2$ est apparentée à $\pi_1'\oplus \pi_2'$, et $\pi_1\otimes \pi_2$ est apparentée à $\pi_1'\otimes \pi_2'$.
+b) Si $\pi_1$ est apparentée à $\pi '_1$, et $\pi_2$ à $\pi '_2$, alors $\pi_1\oplus \pi_2$ est apparentée à $\pi '_1\oplus \pi '_2$, et $\pi_1\otimes \pi_2$ est apparentée à $\pi '_1\otimes \pi '_2$.
 
 L’assertion a) résulte du cor. 5 de VIII, p. 392 et l’assertion b) est claire.
 
@@ -758,13 +758,13 @@ $$
 \delta (T) = (1 + T\omega_1). . .(1 + T\omega_{d_{\lambda}})
 $$
 
-On définit de même $\delta '(T)$ et on note $\omega '_1, . . . , \omega_d'_{_{\lambda'}}$ les valeurs propres de $\pi_{\lambda'}(g)$. Le $\mathscr{O}$-module $\mathscr{O}[G]$ est libre de base G et le K-espace vectoriel K[G] a pour base G. Notons Δ(T) le déterminant de la multiplication par $1 +e_{\lambda}gT$ dans le $\mathscr{O}$[T]-module $\mathscr{O}[T]\otimes_{\mathscr{O}}\mathscr{O}[G]$. C’est aussi le déterminant de la multiplication par $1 +e_{\lambda}gT$ dans le K[T]-module $K[T]\otimes_KK[G]$. Soit $\overline{\varphi}_1$ l’homomorphisme de $\mathscr{O}[T]$ dans $K'[T]$ qui prolonge $\varphi_1$ et applique T sur T. Comme G est une base du $K'$-espace vectoriel $K'[G]$, le polynôme $\overline{\varphi}_1(\Delta (T))$ est égal au déterminant $\Delta '(T)$ de la multiplication par $1 +e_{\lambda'}gT$ dans le $K'$-espace vectoriel $K'[G]$.
+On définit de même $\delta '(T)$ et on note $\omega '_1, . . . , \omega '_{d_{\lambda'}}$ les valeurs propres de $\pi_{\lambda'}(g)$. Le $\mathscr{O}$-module $\mathscr{O}[G]$ est libre de base G et le K-espace vectoriel K[G] a pour base G. Notons Δ(T) le déterminant de la multiplication par $1 +e_{\lambda}gT$ dans le $\mathscr{O}$[T]-module $\mathscr{O}[T]\otimes_{\mathscr{O}}\mathscr{O}[G]$. C’est aussi le déterminant de la multiplication par $1 +e_{\lambda}gT$ dans le K[T]-module $K[T]\otimes_KK[G]$. Soit $\overline{\varphi}_1$ l’homomorphisme de $\mathscr{O}[T]$ dans $K'[T]$ qui prolonge $\varphi_1$ et applique T sur T. Comme G est une base du $K'$-espace vectoriel $K'[G]$, le polynôme $\overline{\varphi}_1(\Delta (T))$ est égal au déterminant $\Delta '(T)$ de la multiplication par $1 +e_{\lambda'}gT$ dans le $K'$-espace vectoriel $K'[G]$.
 
 L’algèbre K[G] est somme directe de ses composants simples $e_{\mu}K[G]$ pour $\mu$ parcourant $\mathscr{S}_K(G)$. Pour $\mu$ distinct de $\lambda$, l’élément $e_{\lambda}g$ annule $e_{\mu}K[G]$; de plus, la multiplication par $e_{\lambda}g$ coïncide avec la multiplication par $g$ dans $e_{\lambda}K[G]$. Compte tenu de VIII, p. 398 et de l’exemple 6 de VIII, p. 390, la représentation de G dans $e_{\lambda}K[G]$ est somme directe de $d_{\lambda}$ représentations de classe $\lambda$. On a par suite $\Delta (T) =\delta (T)^{d_{\lambda}}$.
 
 De manière analogue, on a $\Delta '(T) =\delta '(T)^{d_{\lambda'}}$.
 
-De la relation $\Delta '(T) =\overline{\varphi}_1$(Δ(T)), on déduit d’abord que $d^2_{\lambda}=d^2_{\lambda'}$, d’où $d_{\lambda}=d_{\lambda'}$ puis le fait que la suite $\varphi (\omega_1), . . . , \varphi (\omega_{d_{\lambda}})$ se déduit de la suite $(\omega_1', . . . , \omega_d''_{_{\lambda'}})$ par une permutation de l’ensemble des indices.
+De la relation $\Delta '(T) =\overline{\varphi}_1$(Δ(T)), on déduit d’abord que $d^2_{\lambda}=d^2_{\lambda'}$, d’où $d_{\lambda}=d_{\lambda'}$ puis le fait que la suite $\varphi (\omega_1), . . . , \varphi (\omega_{d_{\lambda}})$ se déduit de la suite $(\omega '_1, . . . , \omega '_{d'_{\lambda'}})$ par une permutation de l’ensemble des indices.
 
 Ceci étant prouvé pour tout élément $g$ de G, les représentations $\lambda$ et $\lambda '$ sont apparentées. On a donc prouvé la proposition 10 lorsque le corps K est de caractéristique 0.
 
@@ -773,10 +773,10 @@ B) Cas général.
 Soit L un corps algébriquement clos de caractéristique 0 (par exemple, une clôture algébrique de $\mathbf{Q})$. Notons $\mathscr{S}_L(G)$ l’ensemble des classes de L[G]-modules simples. Choisissons un isomorphisme $\eta$ du groupe $\mu_n(L)$ sur le groupe $\mu_n(K)$ et posons $\eta '=\varphi \circ \eta$. D’après la partie A) de la démonstration, il existe des bijections
 
 $$
-\eta_G:\mathscr{S}_L(G)\rightarrow \mathscr{S}_K(G), \eta_G':\mathscr{S}_L(G)\rightarrow \mathscr{S}_{K'}(G)
+\eta_G:\mathscr{S}_L(G)\rightarrow \mathscr{S}_K(G), \eta '_G:\mathscr{S}_L(G)\rightarrow \mathscr{S}_{K'}(G)
 $$
 
-possédant la propriété suivante : pour tout $\lambda$ dans $\mathscr{S}_L$(G), les représentations $\lambda$ et $\eta_G(\lambda )$ sont apparentées par $\eta$, et les représentations $\lambda$ et $\eta_G'(\lambda )$ sont apparentées par $\eta '$. La bijection $\varphi_G=\eta_G'\circ \eta_G^{-1}$ convient.
+possédant la propriété suivante : pour tout $\lambda$ dans $\mathscr{S}_L$(G), les représentations $\lambda$ et $\eta_G(\lambda )$ sont apparentées par $\eta$, et les représentations $\lambda$ et $\eta '_G(\lambda )$ sont apparentées par $\eta '$. La bijection $\varphi_G=\eta '_G\circ \eta_G^{-1}$ convient.
 
 La bijection $\varphi_G$ de $\mathscr{S}_K(G)$ sur $\mathscr{S}_{K'}(G)$ se prolonge en un isomorphisme, encore noté $\varphi_G$, du groupe de Grothendieck $R_K(G)$ sur le groupe $R_{K'}(G)$.
 
@@ -804,7 +804,7 @@ Supposons le groupe G commutatif. On a vu dans la remarque de VIII, p. 404 que $
 
 Soient $\pi_1$ et $\pi_2$ des représentations linéaires de G dans des espaces vectoriels de dimension finie sur K. Pour $i= 1,2$, soit $\pi '_i$ une représentation apparentée à $\pi_i$ par $\varphi$. On a
 
-(47) dim$_K$ Hom$_K(\pi_1, \pi_2) =$ dim$_{K'}$ Hom$_{K'}(\pi_1', \pi '_2)$.
+(47) dim$_K$ Hom$_K(\pi_1, \pi_2) =$ dim$_{K'}$ Hom$_{K'}(\pi '_1, \pi '_2)$.
 
 Cela se démontre comme dans le corollaire de VIII, p. 400 par réduction au cas où les $\pi_i$ (et donc les $\pi '_i)$ sont simples.
 

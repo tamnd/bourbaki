@@ -53,7 +53,7 @@ subsections:
       pdf_page: 300
 statements: 63
 exercises: 0
-content_sha256: 3c4913dd242f397ba22dff0b943ecc0c7d18096bc2390c14abddd1cd1a7453a1
+content_sha256: 2aaf00f8609a5a490eac56c951955f2349a79b0bc20ea2cec145435681e50405
 ---
 
 ## § 2. HOMOTOPIE ET CHEMINS
@@ -282,7 +282,7 @@ Un espace connexe par arcs est connexe (III, p. 258, prop. 4). Il existe des esp
 
 Un espace topologique connexe et localement connexe, dont la topologie peut être définie par une distance pour laquelle il est complet, est connexe par arcs.
 
-Soit X un espace topologique. Appelons train dans X toute suite finie non vide $T = (W_i)_{1\leqslant i\leqslant n}$ de parties ouvertes connexes de X telles que $W_i\cap W_{i+1}=\not\emptyset$ pour $1\leqslant i\leqslant n-1$. On dit que $n$ est la longueur du train T et que les $W_i$ sont ses wagons. Si X est muni d’une distance compatible avec sa topologie, on appelle largeur du train T le maximum des diamètres de ses wagons. On dit que le train joint un point $a$ à un point $b$ si $a$ appartient au premier et $b$ au dernier wagon. On appelle raffinement de T tout couple $(T', f)$ formé d’un train $T'= (W_j')_{1\leqslant j\leqslant m}$ et d’une application strictement croissante $f:\{0,1, . . . , n\} \rightarrow  \{0,1, . . . , m\}$ telle que $f(0) = 0,f(n) =m$ et $W'_j\subset W_i$ pour $1\leqslant i\leqslant n$ et $f(i-1)< j\leqslant f(i)$.
+Soit X un espace topologique. Appelons train dans X toute suite finie non vide $T = (W_i)_{1\leqslant i\leqslant n}$ de parties ouvertes connexes de X telles que $W_i\cap W_{i+1}=\not\emptyset$ pour $1\leqslant i\leqslant n-1$. On dit que $n$ est la longueur du train T et que les $W_i$ sont ses wagons. Si X est muni d’une distance compatible avec sa topologie, on appelle largeur du train T le maximum des diamètres de ses wagons. On dit que le train joint un point $a$ à un point $b$ si $a$ appartient au premier et $b$ au dernier wagon. On appelle raffinement de T tout couple $(T', f)$ formé d’un train $T'= (W'_j)_{1\leqslant j\leqslant m}$ et d’une application strictement croissante $f:\{0,1, . . . , n\} \rightarrow  \{0,1, . . . , m\}$ telle que $f(0) = 0,f(n) =m$ et $W'_j\subset W_i$ pour $1\leqslant i\leqslant n$ et $f(i-1)< j\leqslant f(i)$.
 
 #### Lemme 1 {#ta-iii-s2-lem-1 .statement tag=01XE}
 

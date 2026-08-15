@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: 0561fbabe2465eea691b9347080a70296d0e4f1f0e37ead58a5da6796d2389d4
+content_sha256: b35d192f83465be652ffabed97e16b37139cb15c3f253b92421f67d8a37a66d7
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -142,7 +142,7 @@ $u$
 
 F $^{\iota}$ // Γ $^{\pi}$ // G
 
-est commutatif. En outre, si $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$est une $\tau '$-extension et $\varphi_1: \Gamma '_1\rightarrow \Gamma$est un homomorphisme de groupes tel que le diagramme
+est commutatif. En outre, si $\mathscr{E}'_1= (\Gamma '_1, \iota '_1, \pi '_1)$est une $\tau '$-extension et $\varphi_1: \Gamma '_1\rightarrow \Gamma$est un homomorphisme de groupes tel que le diagramme
 
 F $^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}$ // $G'$
 
@@ -150,7 +150,7 @@ $\varphi_1u$
 
 F $^{\iota}$ // Γ $^{\pi}$ // G
 
-soit commutatif, alors il existe un unique morphisme $\psi$ de $\tau '$-extensions de $\mathscr{E}_1'$ dans $u^*(\mathscr{E})$tel qu’on ait $\varphi_1=\varphi \circ \psi$.
+soit commutatif, alors il existe un unique morphisme $\psi$ de $\tau '$-extensions de $\mathscr{E}'_1$ dans $u^*(\mathscr{E})$tel qu’on ait $\varphi_1=\varphi \circ \psi$.
 
 La commutativité du premier diagramme découle de la définition de $\varphi$. L’existence et l’unicité de $\psi$ résultent du lemme qui suit.
 
@@ -162,9 +162,9 @@ $$
 w(\tau_1(g)(f)) =\tau (u(g))(w(f))
 $$
 
-pour tout $f\in F'_1$ et tout $g\in G'$. Soit $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi_1')$une $\tau_1$-extension de $G'$ par $F'_1$ et $\varphi_1: \Gamma '_1\rightarrow \Gamma$un homomorphisme de groupes tel que le diagramme
+pour tout $f\in F'_1$ et tout $g\in G'$. Soit $\mathscr{E}'_1= (\Gamma '_1, \iota '_1, \pi '_1)$une $\tau_1$-extension de $G'$ par $F'_1$ et $\varphi_1: \Gamma '_1\rightarrow \Gamma$un homomorphisme de groupes tel que le diagramme
 
-${F'_1}^{\iota'_1}$ // ${\Gamma '_1}^{\pi_1'}$ // $G'$
+${F'_1}^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}$ // $G'$
 
 $w\varphi_1u$
 
@@ -172,7 +172,7 @@ F $^{\iota}$ // Γ $^{\pi}$ // G
 
 soit commutatif. Alors il existe un unique homomorphisme de groupes $\psi : \Gamma '_1\rightarrow \Gamma '$ tel que le diagramme
 
-${F'_1}^{\iota'_1}$ // ${\Gamma '_1}^{\pi_1'}$ // $G'$
+${F'_1}^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}$ // $G'$
 
 $w\psi$
 
@@ -183,10 +183,10 @@ soit commutatif et tel que $\varphi_1=\varphi \circ \psi$.
 Si l’homomorphisme de groupes$\psi : \Gamma '_1\rightarrow \Gamma '$ convient, alors il vérifie les relations
 
 $$
-\psi (\gamma ) = (\varphi \circ \psi (\gamma ), \pi '\circ \psi (\gamma )) = (\varphi_1(\gamma ), \pi_1'(\gamma ))
+\psi (\gamma ) = (\varphi \circ \psi (\gamma ), \pi '\circ \psi (\gamma )) = (\varphi_1(\gamma ), \pi '_1(\gamma ))
 $$
 
-pour tout $\gamma \in \Gamma '_1$. Inversement, l’homomorphisme de groupes de $\Gamma '_1$ dans $\Gamma \times G'$ défini par $\gamma \rightarrow (\varphi_1(\gamma ), \pi '_1(\gamma ))$ est à valeurs dans le produit fibré $\Gamma \times_GG'$ puisque $\pi \circ \varphi_1(\gamma ) =u\circ \pi_1'(\gamma )$ pour tout $\gamma \in \Gamma '_1$.
+pour tout $\gamma \in \Gamma '_1$. Inversement, l’homomorphisme de groupes de $\Gamma '_1$ dans $\Gamma \times G'$ défini par $\gamma \rightarrow (\varphi_1(\gamma ), \pi '_1(\gamma ))$ est à valeurs dans le produit fibré $\Gamma \times_GG'$ puisque $\pi \circ \varphi_1(\gamma ) =u\circ \pi '_1(\gamma )$ pour tout $\gamma \in \Gamma '_1$.
 
 #### Corollaire 1 {#alg-viii-s16-lem-2-cor-1 .statement tag=00IE}
 
@@ -246,7 +246,7 @@ $$
 
 ${F'}^{\iota'}$ // ${\Gamma '}^{\pi'}$ // G
 
-est commutatif. Soit $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$une $\tau '$-extension de G par $F'$ et soit $\varphi_1: \Gamma \rightarrow \Gamma '_1$ un homomorphisme de groupes tel que le diagramme
+est commutatif. Soit $\mathscr{E}'_1= (\Gamma '_1, \iota '_1, \pi '_1)$une $\tau '$-extension de G par $F'$ et soit $\varphi_1: \Gamma \rightarrow \Gamma '_1$ un homomorphisme de groupes tel que le diagramme
 
 F $^{\iota}$ // Γ $^{\pi}$ // G
 
@@ -254,13 +254,13 @@ $v\varphi_1$
 
 ${F'}^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}$ // G
 
-soit commutatif, alors il existe un unique morphisme $\psi$ de $\tau '$-extensions de $v_*(\mathscr{E})$ dans $\mathscr{E}_1'$ tel qu’on ait $\varphi_1=\psi \circ \varphi$.
+soit commutatif, alors il existe un unique morphisme $\psi$ de $\tau '$-extensions de $v_*(\mathscr{E})$ dans $\mathscr{E}'_1$ tel qu’on ait $\varphi_1=\psi \circ \varphi$.
 
 La commutativité du premier diagramme résulte des constructions. L’existence et l’unicité de $\psi$ découlent du lemme qui suit.
 
 #### Lemme 3 {#alg-viii-s16-lem-3 .statement tag=00IH}
 
-Soit $G'_1$ un groupe et soient $w: G\rightarrow G'_1$ et $\tau_1: G'_1\rightarrow$ Aut(F$')$des homomorphismes de groupes tels que $\tau '=\tau_1\circ w$. Soit $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$une $\tau_1$-extension de $G'_1$ par $F'$ et soit $\varphi_1: \Gamma \rightarrow \Gamma '_1$ un homomorphisme de groupes tel que le diagramme
+Soit $G'_1$ un groupe et soient $w: G\rightarrow G'_1$ et $\tau_1: G'_1\rightarrow$ Aut(F$')$des homomorphismes de groupes tels que $\tau '=\tau_1\circ w$. Soit $\mathscr{E}'_1= (\Gamma '_1, \iota '_1, \pi '_1)$une $\tau_1$-extension de $G'_1$ par $F'$ et soit $\varphi_1: \Gamma \rightarrow \Gamma '_1$ un homomorphisme de groupes tel que le diagramme
 
 F $^{\iota}$ // Γ $^{\pi}$ // G
 
@@ -285,7 +285,7 @@ $$
 pour tout $f'\in F'$ et tout $\gamma \in \Gamma$. Inversement, l’application $\widetilde{\psi}$ de $F'\times_{\tau'\circ\pi}\Gamma$ dans $\Gamma '_1$ donnée par $(f, \gamma )\rightarrow \iota '_1(f)\varphi_1(\gamma )$ est un homomorphisme de groupes. En effet, on a les relations
 
 $$
-\iota '_1(f)\varphi_1(\gamma )\iota '_1(f')\varphi_1(\gamma ') =\iota '_1(f \tau_1(\pi_1'(\varphi_1(\gamma ))).f')\varphi_1(\gamma \gamma ') =\iota '_1(f \tau '(\pi (\gamma )).f')\varphi_1(\gamma \gamma ')
+\iota '_1(f)\varphi_1(\gamma )\iota '_1(f')\varphi_1(\gamma ') =\iota '_1(f \tau_1(\pi '_1(\varphi_1(\gamma ))).f')\varphi_1(\gamma \gamma ') =\iota '_1(f \tau '(\pi (\gamma )).f')\varphi_1(\gamma \gamma ')
 $$
 
 pour $f, f'\in F'$ et $\gamma , \gamma '\in \Gamma$. Le noyau de $\widetilde{\psi}$ contient l’image de $j$ puisque $\iota '_1(v(f)) =$ $\varphi_1(\iota (f))$ pour $f\in F$ et le morphisme $\psi$ déduit de $\widetilde{\psi}$ par passage au quotient convient.
@@ -320,7 +320,7 @@ $$
 \tau ''(g).v'(f) =v'(\tau '(g).f)
 $$
 
-pour $g\in G$et $f\in F'$. Soit $\mathscr{E}$ une $\tau$-extension de G par F et notons $\varphi$ (resp. $\varphi ',\varphi '')$ l’homomorphisme canonique associé à $v_*(\mathscr{E})$ (resp. $v'_*(v_*(\mathscr{E}))$, $(v'\circ v)_*(\mathscr{E}))$. Alors il existe un unique morphisme $\psi$ de la $\tau ''$-extension $v_*'(v_*(\mathscr{E}))$de G par $F''$ dans la $\tau ''$-extension $(v'\circ v)_*(\mathscr{E})$tel que $\varphi ''=\psi \circ \varphi '\circ \varphi$.
+pour $g\in G$et $f\in F'$. Soit $\mathscr{E}$ une $\tau$-extension de G par F et notons $\varphi$ (resp. $\varphi ',\varphi '')$ l’homomorphisme canonique associé à $v_*(\mathscr{E})$ (resp. $v'_*(v_*(\mathscr{E}))$, $(v'\circ v)_*(\mathscr{E}))$. Alors il existe un unique morphisme $\psi$ de la $\tau ''$-extension $v'_*(v_*(\mathscr{E}))$de G par $F''$ dans la $\tau ''$-extension $(v'\circ v)_*(\mathscr{E})$tel que $\varphi ''=\psi \circ \varphi '\circ \varphi$.
 
 #### Exemple 1 {#alg-viii-s16-n3-exa-1 .statement tag=00IK}
 
@@ -346,7 +346,7 @@ $$
 
 pour $g\in G$et $f\in F$. On note $\tau ''=\tau '\circ u$. Soit $\mathscr{E}$ une $\tau$-extension de G par F. On note $\varphi_u$ (resp. $\varphi_v,\varphi '_u,\varphi '_v)$l’homomorphisme canonique correspondant à la $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. à la $\tau '$-extension $v_*(\mathscr{E})$, aux $\tau ''$-extensions $u^*(v_*(\mathscr{E}))$et $v_*(u^*(\mathscr{E})))$. Alors il existe un unique morphisme $\psi$ de $\tau ''$-extensions de $v_*(u^*(\mathscr{E}))$dans $u^*(v_*(\mathscr{E}))$ tel que $\varphi_v\circ \varphi_u=\varphi '_u\circ \psi \circ \varphi '_v$.
 
-On note $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma '_u, \iota '_u, \pi_u'))$ la $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. la $\tau ''$-extension $u^*(v_*(\mathscr{E})))$. En appliquant le lemme 2 de VIII, p. 283 à $\varphi_v\circ \varphi_u$, on obtient qu’il existe un homomorphisme de groupes $\psi_1: \Gamma_u\rightarrow \Gamma '_u$ tel que le diagramme
+On note $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma '_u, \iota '_u, \pi '_u))$ la $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. la $\tau ''$-extension $u^*(v_*(\mathscr{E})))$. En appliquant le lemme 2 de VIII, p. 283 à $\varphi_v\circ \varphi_u$, on obtient qu’il existe un homomorphisme de groupes $\psi_1: \Gamma_u\rightarrow \Gamma '_u$ tel que le diagramme
 
 F $^{\iota_u}$ // $\Gamma_u^{\pi_u}$ // $G'$
 

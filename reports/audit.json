@@ -1,6 +1,6 @@
 {
   "version": "dev",
-  "commit": "7fe75b8573405825eeb07b6dd9d5f365c24a57ec",
+  "commit": "5a24992341417d09a0bd5e48b87ca5a656cfe8df",
   "root": "/Users/apple/github/tamnd/bourbaki",
   "langs": [
     "en",
@@ -8,7 +8,7 @@
     "vi"
   ],
   "hard": 0,
-  "soft": 349,
+  "soft": 324,
   "checks": [
     {
       "id": "F01",
@@ -163,14 +163,14 @@
       "group": "mathematics",
       "hard": false,
       "title": "no base carries two superscripts or two subscripts",
-      "found": 108
+      "found": 95
     },
     {
       "id": "P04",
       "group": "publication",
       "hard": false,
       "title": "every math span parses under KaTeX",
-      "found": 105
+      "found": 93
     },
     {
       "id": "R01",
@@ -600,38 +600,6 @@
       "check": "M09",
       "group": "mathematics",
       "hard": false,
-      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
-      "line": 491,
-      "message": "two of one script against one base, which TeX will not set: _-'_{\\alpha}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
-      "line": 555,
-      "message": "two of one script against one base, which TeX will not set: _-'_{\\alpha}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
-      "line": 559,
-      "message": "two of one script against one base, which TeX will not set: _-'_{\\alpha}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
-      "line": 559,
-      "message": "two of one script against one base, which TeX will not set: _-'_{\\alpha}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
       "file": "content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md",
       "line": 181,
       "message": "two of one script against one base, which TeX will not set: ^m_{i^i}^{n_i}"
@@ -643,22 +611,6 @@
       "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
       "line": 415,
       "message": "two of one script against one base, which TeX will not set: _{\\alpha}'_{\\alpha}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/lie/VIII/12_s12_chevalley_orders.md",
-      "line": 797,
-      "message": "two of one script against one base, which TeX will not set: _-'_{\\alpha}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
-      "line": 249,
-      "message": "two of one script against one base, which TeX will not set: _l'_{+1}"
     },
     {
       "check": "M09",
@@ -707,30 +659,6 @@
       "file": "content/fr/alg/VIII/19_s19_algebres_de_quaternions.md",
       "line": 85,
       "message": "two of one script against one base, which TeX will not set: ^a_0^0_b"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
-      "line": 499,
-      "message": "two of one script against one base, which TeX will not set: _g'_{_{-1}}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
-      "line": 761,
-      "message": "two of one script against one base, which TeX will not set: _d'_{_{\\lambda'}}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
-      "line": 767,
-      "message": "two of one script against one base, which TeX will not set: _d''_{_{\\lambda'}}"
     },
     {
       "check": "M09",
@@ -1130,7 +1058,7 @@
       "hard": false,
       "file": "content/fr/ts/III/02_s2_exemples_d_applications_lineaires.md",
       "line": 277,
-      "message": "two of one script against one base, which TeX will not set: _L^{q_p''}_{(X)}"
+      "message": "two of one script against one base, which TeX will not set: _L^{q'_{p'}}_{(X)}"
     },
     {
       "check": "M09",
@@ -1138,7 +1066,7 @@
       "hard": false,
       "file": "content/fr/ts/III/02_s2_exemples_d_applications_lineaires.md",
       "line": 293,
-      "message": "two of one script against one base, which TeX will not set: _L^{p_p''}_{(X)}"
+      "message": "two of one script against one base, which TeX will not set: _L^{p'_{p'}}_{(X)}"
     },
     {
       "check": "M09",
@@ -1235,38 +1163,6 @@
       "file": "content/fr/ts/IV/exercises/s3/18.md",
       "line": 27,
       "message": "two of one script against one base, which TeX will not set: ^-_K^1"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ts/IV/exercises/s3/25.md",
-      "line": 25,
-      "message": "two of one script against one base, which TeX will not set: _L'_{_1}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ts/IV/exercises/s3/25.md",
-      "line": 27,
-      "message": "two of one script against one base, which TeX will not set: _L'_{_1}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ts/IV/exercises/s3/25.md",
-      "line": 35,
-      "message": "two of one script against one base, which TeX will not set: _L'_{_1}"
-    },
-    {
-      "check": "M09",
-      "group": "mathematics",
-      "hard": false,
-      "file": "content/fr/ts/IV/exercises/s3/25.md",
-      "line": 35,
-      "message": "two of one script against one base, which TeX will not set: _L'_{_1}"
     },
     {
       "check": "M09",
@@ -1456,30 +1352,6 @@
       "check": "P04",
       "group": "publication",
       "hard": false,
-      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
-      "line": 491,
-      "message": "KaTeX will not set it: Double subscript at position 82: …},\\varphi (X_-'_̲{\\alpha}) =X_{-…: \\varphi (X_{\\alpha}') =X_{\\alpha},\\varphi (H_{\\alp…"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
-      "line": 555,
-      "message": "KaTeX will not set it: Double subscript at position 57: …{\\alpha}', X_-'_̲{\\alpha}] = [X_…: X_{\\alpha}'\\in \\mathfrak{g}^{\\alpha},[X_{\\alpha}',…"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md",
-      "line": 559,
-      "message": "KaTeX will not set it: Double subscript at position 143: …u_{-\\alpha}X_-'_̲{\\alpha}=X_-'_{…: \\theta (X_{\\alpha}') =\\theta (u^{-1}_{\\alpha}X_{\\a…"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
       "file": "content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md",
       "line": 181,
       "message": "KaTeX will not set it: Double superscript at position 32: …a_i) =t^m_{i^i}^̲{n_i}=t^m_i= (\\…: \\chi (n_i\\lambda_i) =t^m_{i^i}^{n_i}=t^m_i= (\\psi^…"
@@ -1499,22 +1371,6 @@
       "file": "content/en/lie/VIII/08_s8_symmetric_invariants.md",
       "line": 266,
       "message": "KaTeX will not set it: Expected group after '_' at position 28: …_++\\mathfrak{n}_̲: \\mathfrak{n}_++\\mathfrak{n}_"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/VIII/12_s12_chevalley_orders.md",
-      "line": 797,
-      "message": "KaTeX will not set it: Double subscript at position 29: …_{\\alpha}, X_-'_̲{\\alpha}=y_{\\al…: X_{\\alpha}'=x_{\\alpha}, X_-'_{\\alpha}=y_{\\alpha}"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md",
-      "line": 249,
-      "message": "KaTeX will not set it: Double subscript at position 77: …+\\cdots +\\xi_l'_̲{+1}E_{l+1,l+1}…: \\Phi (\\xi_1E_{11}+\\cdots +\\xi_{l+1}E_{l+1,l+1}, \\x…"
     },
     {
       "check": "P04",
@@ -1563,30 +1419,6 @@
       "file": "content/fr/alg/VIII/19_s19_algebres_de_quaternions.md",
       "line": 85,
       "message": "KaTeX will not set it: Double superscript at position 24: …ightarrow (^a_0^̲0_b): (a, b)\\rightarrow (^a_0^0_b)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
-      "line": 499,
-      "message": "KaTeX will not set it: Double subscript at position 53: …{g\\in G}f_gf_g'_̲{_{-1}} \\tag{28…: \\langle f, f'\\rangle_G=|G|^{-1}\\sum_{g\\in G}f_gf_g…"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
-      "line": 761,
-      "message": "KaTeX will not set it: Double subscript at position 30: …. . , \\omega_d'_̲{_{\\lambda'}}: \\omega '_1, . . . , \\omega_d'_{_{\\lambda'}}"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/alg/VIII/21_s21_representations_lineaires_des_groupes.md",
-      "line": 767,
-      "message": "KaTeX will not set it: Double subscript at position 31: … . , \\omega_d''_̲{_{\\lambda'}}): (\\omega_1', . . . , \\omega_d''_{_{\\lambda'}})"
     },
     {
       "check": "P04",
@@ -1994,7 +1826,7 @@
       "hard": false,
       "file": "content/fr/ts/III/02_s2_exemples_d_applications_lineaires.md",
       "line": 277,
-      "message": "KaTeX will not set it: Double subscript at position 22: …cr{L}_L^{q_p''}_̲{(X)}(Y, \\nu ): \\mathscr{L}_L^{q_p''}_{(X)}(Y, \\nu )"
+      "message": "KaTeX will not set it: Double subscript at position 24: …{L}_L^{q'_{p'}}_̲{(X)}(Y, \\nu ): \\mathscr{L}_L^{q'_{p'}}_{(X)}(Y, \\nu )"
     },
     {
       "check": "P04",
@@ -2002,7 +1834,7 @@
       "hard": false,
       "file": "content/fr/ts/III/02_s2_exemples_d_applications_lineaires.md",
       "line": 293,
-      "message": "KaTeX will not set it: Double subscript at position 22: …cr{L}_L^{p_p''}_̲{(X)}(Y, \\nu ): \\mathscr{L}_L^{p_p''}_{(X)}(Y, \\nu )"
+      "message": "KaTeX will not set it: Double subscript at position 24: …{L}_L^{p'_{p'}}_̲{(X)}(Y, \\nu ): \\mathscr{L}_L^{p'_{p'}}_{(X)}(Y, \\nu )"
     },
     {
       "check": "P04",
@@ -2075,38 +1907,6 @@
       "file": "content/fr/ts/IV/exercises/s3/18.md",
       "line": 27,
       "message": "KaTeX will not set it: Double superscript at position 8: \\pi^-_K^̲1(\\pi_K(T)).): \\pi^-_K^1(\\pi_K(T)).)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ts/IV/exercises/s3/25.md",
-      "line": 25,
-      "message": "KaTeX will not set it: Double subscript at position 15: \\mathscr{D}_L'_̲{_1}(\\mathbf{R}…: \\mathscr{D}_L'_{_1}(\\mathbf{R}^n)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ts/IV/exercises/s3/25.md",
-      "line": 27,
-      "message": "KaTeX will not set it: Double subscript at position 20: … \\mathscr{D}_L'_̲{_1}(\\mathbf{R}…: f\\in \\mathscr{D}_L'_{_1}(\\mathbf{R}^n)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ts/IV/exercises/s3/25.md",
-      "line": 35,
-      "message": "KaTeX will not set it: Double subscript at position 20: … \\mathscr{D}_L'_̲{_1}(\\mathbf{R}…: f\\in \\mathscr{D}_L'_{_1}(\\mathbf{R}^n)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ts/IV/exercises/s3/25.md",
-      "line": 35,
-      "message": "KaTeX will not set it: Double subscript at position 15: \\mathscr{D}_L'_̲{_1}(\\mathbf{R}…: \\mathscr{D}_L'_{_1}(\\mathbf{R}^n)"
     },
     {
       "check": "P04",

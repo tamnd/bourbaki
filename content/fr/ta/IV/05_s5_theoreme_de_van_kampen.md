@@ -37,7 +37,7 @@ subsections:
       pdf_page: 445
 statements: 31
 exercises: 0
-content_sha256: f348b024354cb167f49f5fdd8b426df4390e361b67acf3829d9d26717cd47171
+content_sha256: 60ecee17dc5656a1bdd50d5cf707cfb3e6141700e014f969bb840adeb8fbfadd
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -626,11 +626,11 @@ Supposons que X soit délaçable. L’homomorphisme $\mathsf{N}$ est alors surje
 
 pour $k\in G$ et $v\in \pi_1(X, o)$ ;
 
-($R_3'$)$r_3'(k, j) = [k](\beta_k^{-1}k^*(\gamma_j)^{-1}\gamma_j)$
+($R'_3$)$r'_3(k, j) = [k](\beta_k^{-1}k^*(\gamma_j)^{-1}\gamma_j)$
 
 pour $k\in G$ et $j\in \pi_0(X^k)$ ;
 
-($R_3''$)$r_3''(k, h) = [kh]^{-1}[k][h](\beta_h^{-1}h^*(\beta_k^{-1})\beta_{kh})$
+($R''_3$)$r''_3(k, h) = [kh]^{-1}[k][h](\beta_h^{-1}h^*(\beta_k^{-1})\beta_{kh})$
 
 pour $k$ et $h\in G$.
 
@@ -666,9 +666,9 @@ Supposons que X soit simplement connexe par arcs. L’application de G dans $\pi
 
 ### 5. Cônes ; contraction d’un sous-espace
 
-Soient X et Y des espaces topologiques non vides et soit $f: X\rightarrow Y$ une application continue. Soit Côn$(f)$ le cône de l’application $f$ et soit $s$ son sommet. Notons $\alpha '_f: X\times \mathbf{I}\rightarrow$ Côn$(f)$ et $\beta_f': Y\rightarrow$ Côn$(f)$ les applications canoniques. La restriction de $\alpha '_f$ au sous-espace $X\times  \{0\}$ de $X\times \mathbf{I}$ est l’application constante d’image $\{s\}$. L’application $\beta_f'$ induit un homéomorphisme de Y sur la base du cône Côn$(f)$ par lequel nous identifierons ces deux espaces. Notons aussi
+Soient X et Y des espaces topologiques non vides et soit $f: X\rightarrow Y$ une application continue. Soit Côn$(f)$ le cône de l’application $f$ et soit $s$ son sommet. Notons $\alpha '_f: X\times \mathbf{I}\rightarrow$ Côn$(f)$ et $\beta '_f: Y\rightarrow$ Côn$(f)$ les applications canoniques. La restriction de $\alpha '_f$ au sous-espace $X\times  \{0\}$ de $X\times \mathbf{I}$ est l’application constante d’image $\{s\}$. L’application $\beta '_f$ induit un homéomorphisme de Y sur la base du cône Côn$(f)$ par lequel nous identifierons ces deux espaces. Notons aussi
 
-$\sigma_f': ($Côn$(f)-\{s\})\times \mathbf{I}\rightarrow$ Côn$(f)-\{s\}$
+$\sigma '_f: ($Côn$(f)-\{s\})\times \mathbf{I}\rightarrow$ Côn$(f)-\{s\}$
 
 la contraction canonique et $\rho '_f:$ Côn$(f)-\{s\} \rightarrow Y$ la rétraction canonique du cône privé de son sommet sur sa base.
 
@@ -734,7 +734,7 @@ Soit $j\in J$ et soit $i=\varphi (j)$.
 
 L’homomorphisme $\varphi_j$ de $\pi_1(V_j,\mathsf{b}(j))$ dans $\pi_1(C'(X), s)$ est l’homomorphisme trivial car $C'(X)$ est contractile en $s$.
 
-L’application $\alpha '_f$ induit un homéomorphisme de $X_j\times ]0,1[$ sur $V_j$; cet homéomorphisme induit un isomorphisme du groupe $\pi_1(V_j,\mathsf{b}(j))$ sur le groupe $\pi_1(X_j, b_j) =\pi_1(X, b_j)$. Par passage aux sous-espaces, l’application $\sigma_f'$ induit une contraction forte de $U_i$ sur $Y_i$, laquelle induit un isomorphisme du groupe $\pi_1(U_i,\mathsf{a}(i))$ sur le groupe $\pi_1(Y, a_i)$. Par ces isomorphismes, l’homomorphisme
+L’application $\alpha '_f$ induit un homéomorphisme de $X_j\times ]0,1[$ sur $V_j$; cet homéomorphisme induit un isomorphisme du groupe $\pi_1(V_j,\mathsf{b}(j))$ sur le groupe $\pi_1(X_j, b_j) =\pi_1(X, b_j)$. Par passage aux sous-espaces, l’application $\sigma '_f$ induit une contraction forte de $U_i$ sur $Y_i$, laquelle induit un isomorphisme du groupe $\pi_1(U_i,\mathsf{a}(i))$ sur le groupe $\pi_1(Y, a_i)$. Par ces isomorphismes, l’homomorphisme
 
 $$
 \psi_j:\pi_1(V_j,\mathsf{b}(j))\rightarrow \pi_1(U_{\varphi(j)},\mathsf{a}(\varphi (j)))

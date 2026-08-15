@@ -45,7 +45,7 @@ subsections:
       pdf_page: 195
 statements: 34
 exercises: 0
-content_sha256: 831b354dabb1051883f70b9a7b3e4f5255e27ba2488f5937eeec39781d71ccc9
+content_sha256: c8819dad8ef1c3acc1b24290a0d3543dacc604f1bfc3c2f27d64865598a6056f
 ---
 
 ## § 12. CHEVALLEY ORDERS
@@ -772,7 +772,7 @@ This is clear if $\alpha \in B$, by construction of $\mathscr{U}$ and Cor. 1. In
 
 #### Corollary 4 {#lie-viii-s12-prop-3-cor-4 .statement tag=018D}
 
-There exists a Chevalley system $(X_{\alpha})_{\alpha\in R}$ in $(\mathfrak{g},\mathfrak{h}) ($§2, no. 4, Def. 3) such that $X_{\alpha}=x_{\alpha}$ and $X_{-\alpha}=y_{\alpha}$ for $\alpha \in B$. For every Chevalley system $(X_{\alpha}')_{\alpha\in R}$ having these properties, and for all $\alpha \in R,X_{\alpha}'$ is a basis of $\mathscr{G}\cap \mathfrak{g}^{\alpha}$.
+There exists a Chevalley system $(X_{\alpha})_{\alpha\in R}$ in $(\mathfrak{g},\mathfrak{h}) ($§2, no. 4, Def. 3) such that $X_{\alpha}=x_{\alpha}$ and $X_{-\alpha}=y_{\alpha}$ for $\alpha \in B$. For every Chevalley system $(X'_{\alpha})_{\alpha\in R}$ having these properties, and for all $\alpha \in R,X'_{\alpha}$ is a basis of $\mathscr{G}\cap \mathfrak{g}^{\alpha}$.
 
 For $\alpha \in B$, put $X_{\alpha}=x_{\alpha}, X_{-\alpha}=y_{\alpha}$. For $\alpha \in R_+$ **--** B, choose a $w\in W$ such that $w(\alpha )\in B$ and an automorphism $\varphi$ of $\mathfrak{g}$ such that $\theta \varphi =\varphi \theta ,\varphi (\mathscr{G}) =\mathscr{G}$ and $\varphi (h) =w^{-1}(h)$ for $h\in \mathfrak{h}$ (Cor. 2); put $X_{\alpha}=\varphi (x_{w(\alpha)}), X_{-\alpha}=\varphi (y_{w(\alpha)})$. Then
 
@@ -794,7 +794,7 @@ $$
 \mathscr{G}\cap \mathfrak{g}^{-\alpha}=\varphi (\mathscr{G}\cap \mathfrak{g}^{-w(\alpha)}) =\varphi (\mathbf{Z}y_{w(\alpha)}) =\mathbf{Z}X_{-\alpha} \tag{33}
 $$
 
-Let $(X_{\alpha}')_{\alpha\in R}$ be a Chevalley system such that $X_{\alpha}'=x_{\alpha}, X_-'_{\alpha}=y_{\alpha}$ for $\alpha \in B$. Let S be the set of $\alpha \in R$ such that $X_{\alpha}'=\pm X_{\alpha}$. By §2, no. 4, Prop. 7, S is a closed set of roots. Since $S\supset B\cup (-B)$, we have S = R (Chap. VI, §1, no. 6, Prop. 19). Thus, by (32) and (33), we have $\mathscr{G}\cap \mathfrak{g}^{\alpha}=\mathbf{Z}X_{\alpha}'$ for all $\alpha \in R$.
+Let $(X'_{\alpha})_{\alpha\in R}$ be a Chevalley system such that $X'_{\alpha}=x_{\alpha}, X'_{-\alpha}=y_{\alpha}$ for $\alpha \in B$. Let S be the set of $\alpha \in R$ such that $X'_{\alpha}=\pm X_{\alpha}$. By §2, no. 4, Prop. 7, S is a closed set of roots. Since $S\supset B\cup (-B)$, we have S = R (Chap. VI, §1, no. 6, Prop. 19). Thus, by (32) and (33), we have $\mathscr{G}\cap \mathfrak{g}^{\alpha}=\mathbf{Z}X'_{\alpha}$ for all $\alpha \in R$.
 
 #### Remark 5 {#lie-viii-s12-n6-rem-5 .statement tag=018E}
 

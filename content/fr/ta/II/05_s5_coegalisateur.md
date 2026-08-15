@@ -33,7 +33,7 @@ subsections:
       pdf_page: 226
 statements: 22
 exercises: 0
-content_sha256: 7b0a9c217b98da8b51b7209e911a0be0352c879fd5aee96fd137b782104f270e
+content_sha256: e34572ba83f4a5601a28df7f3bd600db2572cab890263dbc547381626d0bab93
 ---
 
 ## § 5. COÉGALISATEUR
@@ -68,7 +68,7 @@ On dit qu’une partie Z de $\Omega (\widetilde{\Gamma})$ est distinguée (relat
 
 (ii) Pour tout $(z_1, . . . , z_n)\in$ Z, on a $(\overline{z}_n, . . . , z_2, z_1)\in$ Z et $(z_n, z_1, . . . , z_{n-1})\in Z$ ;
 
-(iii) Soient $\mathbf{z}= (z_1, . . . , z_n)$ et $\mathbf{z}'= (z'_1, . . . , z'_m)$ des éléments de Z tels que $t(z_n) =o(z_1')$. Posons $\mathbf{z}\mathbf{z}'= (z_1, . . . , z_n, z_1', . . . , z'_m)$. Si deux éléments parmi $\mathbf{z},\mathbf{z}',\mathbf{z}\mathbf{z}'$ appartiennent à Z, il en est de même du troisième ;
+(iii) Soient $\mathbf{z}= (z_1, . . . , z_n)$ et $\mathbf{z}'= (z'_1, . . . , z'_m)$ des éléments de Z tels que $t(z_n) =o(z'_1)$. Posons $\mathbf{z}\mathbf{z}'= (z_1, . . . , z_n, z'_1, . . . , z'_m)$. Si deux éléments parmi $\mathbf{z},\mathbf{z}',\mathbf{z}\mathbf{z}'$ appartiennent à Z, il en est de même du troisième ;
 
 (iv) Pour toute flèche $f$ de H, posons $\widetilde{\varphi}(f,1) =\widetilde{\psi}(f,-1) =$ $\varphi (f)$ et $\widetilde{\varphi}(f,-1) =\widetilde{\psi}(f,1) =\psi (f)$. Soient $n$ un entier $\geqslant$ 1 et $(f_1, \varepsilon_1), . . . ,(f_n, \varepsilon_n)$ une suite d’éléments de Fl(H) $\times  \{-1,1\}$ telle que $\widetilde{\psi}(f_i, \varepsilon_i) =\widetilde{\varphi}(f_{i+1}, \varepsilon_{i+1})$ pour $1\leqslant i < n$ et $\widetilde{\psi}(f_n, \varepsilon_n) =\widetilde{\varphi}(f_1, \varepsilon_1)$ ; notons $a_i$ l’origine de $f_i$ et $b_i$ son terme. Pour que $((a_1, \varepsilon_1), . . . ,(a_n, \varepsilon_n))$ appartienne à Z, il faut et il suffit que $((b_1, \varepsilon_1), . . . ,(b_n, \varepsilon_n))$ appartienne à Z.
 
@@ -458,11 +458,11 @@ tel que $\lambda (f) =\gamma_o(f)$ pour $f\in G_o$ et $\lambda ([k]) =\gamma (c_
 
 pour $k\in K$ et $f\in G_o$;
 
-($R_3'$)$r_3'(k, a) = [k](c^{-1}_kk^*(f_{(a,k)})^{-1}f_{(a,k)}))$
+($R'_3$)$r'_3(k, a) = [k](c^{-1}_kk^*(f_{(a,k)})^{-1}f_{(a,k)}))$
 
 pour $k\in K-\{e\}$ et $a\in A_k$
 
-($R_3''$)$r_3''(k, h) = [kh]^{-1}[k][h](c^{-1}_hh^*(c^{-1}_k)c_{kh})$
+($R''_3$)$r''_3(k, h) = [kh]^{-1}[k][h](c^{-1}_hh^*(c^{-1}_k)c_{kh})$
 
 pour $k$ et $h\in K$.
 
@@ -506,7 +506,7 @@ $$
 [k][h](c^{-1}_hh^*(c^{-1}_k)c_{kh})[kh]^{-1} \tag{5}
 $$
 
-Les éléments $r_3'(e, a)$ donnés par les relations ($R'_3$) pour $k=e$ sont tous égaux à $[e]c^{-1}_e$, élément du groupe $G_o*F(K)$ qu’on obtient en appliquant la relation ($R''_3$) à $k=h=e$. Compte tenu des relations (3), (4) et (5), la proposition résulte donc de II, p. 208, prop. 5.
+Les éléments $r'_3(e, a)$ donnés par les relations ($R'_3$) pour $k=e$ sont tous égaux à $[e]c^{-1}_e$, élément du groupe $G_o*F(K)$ qu’on obtient en appliquant la relation ($R''_3$) à $k=h=e$. Compte tenu des relations (3), (4) et (5), la proposition résulte donc de II, p. 208, prop. 5.
 
 #### Corollaire 1 {#ta-ii-s5-prop-6-cor-1 .statement tag=01V0}
 
@@ -524,13 +524,13 @@ $$
 
 pour $k,h\in K$ et $a,b\in G_o$. On vérifie que cette loi de composition est associative, que $(e, c^{-1}_e)$ est un élément neutre et que l’élément $(k^{-1}, c^{-1_1}_{k^-}(k^{-1})^*(c_ka)^{-1}c_e)$ est l’inverse de $(k, a)$. Elle munit donc M d’une structure de groupe. En outre, l’application $\lambda ': M\rightarrow (G/K)_{\gamma(o)}$ définie par $(k, a)\mapsto \lambda ([k]a)$ est un homomorphisme de groupes. Soit $\alpha '$ l’unique morphisme de groupes de $G_o*F(K)$ dans M tel que $\alpha '(f) =$ $(e, f)$ si $f\in G_o$ et $\alpha '([k]) = (k, e_o)$ si $k\in K$ ; on a $\lambda '\circ \alpha '=\lambda$.
 
-Les relations ($R_2$) et ($R_3''$) montrent que tout élément de $(G/K)_{\gamma(o)}$ est l’image par l’homomorphisme $\lambda$ d’un élément de $G_o*F(K)$ de la forme $[k]f$, avec $f\in G_o$ et $k\in K$. Par suite, l’homomorphisme $\lambda '$ est surjectif. On vérifie en outre que l’image par $\alpha '$ d’un élément de $G_o*$ F(K) de la forme $(R_2)$ ou $(R''_3)$ est nulle. Par conséquent, le noyau de l’homomorphisme $\lambda '$ est le plus petit sous-groupe distingué de M contenant les images par $\alpha '$ des éléments de $G_o*F(K)$ de la forme ($R_3'$).
+Les relations ($R_2$) et ($R''_3$) montrent que tout élément de $(G/K)_{\gamma(o)}$ est l’image par l’homomorphisme $\lambda$ d’un élément de $G_o*F(K)$ de la forme $[k]f$, avec $f\in G_o$ et $k\in K$. Par suite, l’homomorphisme $\lambda '$ est surjectif. On vérifie en outre que l’image par $\alpha '$ d’un élément de $G_o*$ F(K) de la forme $(R_2)$ ou $(R''_3)$ est nulle. Par conséquent, le noyau de l’homomorphisme $\lambda '$ est le plus petit sous-groupe distingué de M contenant les images par $\alpha '$ des éléments de $G_o*F(K)$ de la forme ($R'_3$).
 
 #### Corollaire 2 {#ta-ii-s5-prop-6-cor-2 .statement tag=01V2}
 
 Supposons que le groupe K opère librement dans Som(G). Il existe alors un unique morphisme de groupes $\pi : (G/K)_{\gamma(o)}\rightarrow$ K dont le noyau contient l’image de $\gamma_o$ et tel que $\pi (\lambda ([k])) =k$ pour tout $k\in K$. De plus, $G_o\longrightarrow^{\gamma_o}(G/K)_{\gamma(o)}-\rightarrow^{\pi}$ K est une extension de K par $G_o$.
 
-Si un tel homomorphisme de groupes $\pi$ existe, l’homomorphisme de groupes $\pi \circ \lambda$ est nécessairement égal à l’unique homomorphisme de groupes $p$ de $G_o*F(K)$ dans K tel que $p(f) =e$ pour $f\in G_o$ et $p([k]) =k$. Il est immédiat de vérifier que les éléments de $G_o*F(K)$ définis par les formules ($R_2$) et ($R''_3$) appartiennent au noyau de $p$. Par hypothèse, il n’y a pas d’élément du type ($R_3'$). Ainsi, le noyau du morphisme $\lambda$ contient celui de $p$. Par suite, il existe un unique homomorphisme de groupes $\pi : (G/K)_{\gamma(o)}\rightarrow K$ tel que $\pi \circ \lambda =p$.
+Si un tel homomorphisme de groupes $\pi$ existe, l’homomorphisme de groupes $\pi \circ \lambda$ est nécessairement égal à l’unique homomorphisme de groupes $p$ de $G_o*F(K)$ dans K tel que $p(f) =e$ pour $f\in G_o$ et $p([k]) =k$. Il est immédiat de vérifier que les éléments de $G_o*F(K)$ définis par les formules ($R_2$) et ($R''_3$) appartiennent au noyau de $p$. Par hypothèse, il n’y a pas d’élément du type ($R'_3$). Ainsi, le noyau du morphisme $\lambda$ contient celui de $p$. Par suite, il existe un unique homomorphisme de groupes $\pi : (G/K)_{\gamma(o)}\rightarrow K$ tel que $\pi \circ \lambda =p$.
 
 Il est évident que l’homomorphisme $\pi$ est surjectif. Pour montrer que l’homomorphisme $\gamma_o$ est injectif et que son image est exactement le noyau de $\pi$, remarquons que l’homomorphisme $\lambda ': M\rightarrow (G/K)_{\gamma(o)}$ (II, p. 213, remarque 1) est un isomorphisme, car on a supposé que K opère librement dans Som(G). L’homomorphisme composé $(\lambda ')^{-1}\circ \gamma_o$ de $G_o$ dans M est donné par $f\mapsto (e, f)$, tandis l’homomorphisme $\pi \circ \lambda ': M\rightarrow K$ applique $(k, f)$ sur $k$. Le corollaire en résulte.
 
@@ -684,7 +684,7 @@ $e_{s,f}=-1$ si $o(f)=\not s$ et $t(f) =s$;
 
 Démontrer que la matrice Λ de L dans la base canonique de $\mathbf{C}^S$ est donnée par Λ = $E\cdot^tE$.
 
-d) On suppose que G est connexe et que l’ensemble de ses sommets n’est pas vide ; soit $x$ un sommet de G et soit $S'= S-\{x\}$. Soit T un sous-ensemble de F de cardinal Card(S$')$. Démontrer que T est l’ensemble des flèches d’un sous-arbre orienté maximal de G (muni de l’orientation $F_1)$ si et seulement si le rang de la matrice $E_T'$ de type $(S',T)$ déduite de E est égal à Card(S$')$. En déduire alors que le déterminant de la matrice $\Lambda_{S',S'}$ est égal au nombre de sous-arbres orientés maximaux de G. (Utiliser l’exercice 6 de A, III, §8, p. 192.)
+d) On suppose que G est connexe et que l’ensemble de ses sommets n’est pas vide ; soit $x$ un sommet de G et soit $S'= S-\{x\}$. Soit T un sous-ensemble de F de cardinal Card(S$')$. Démontrer que T est l’ensemble des flèches d’un sous-arbre orienté maximal de G (muni de l’orientation $F_1)$ si et seulement si le rang de la matrice $E'_T$ de type $(S',T)$ déduite de E est égal à Card(S$')$. En déduire alors que le déterminant de la matrice $\Lambda_{S',S'}$ est égal au nombre de sous-arbres orientés maximaux de G. (Utiliser l’exercice 6 de A, III, §8, p. 192.)
 
 e) Soit W l’orthogonal de Ker(L). Démontrer que W est un sous-espace de $\mathbf{C}^S$ qui est stable par W et que det(L$|_W)$ est égal au nombre de forêts maximales du graphe G (théorème de Kirchhoff).
 

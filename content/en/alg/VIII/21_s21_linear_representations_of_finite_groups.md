@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: e3b79b0444a84be556abac63500f6c83af7c6fa05d862cfe2878e27137f5adb8
+content_sha256: 44ac507bfbd37db562a1b8650cb5640fcbed01c02c28d768586d32020ca362aa
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -491,7 +491,7 @@ Let $\pi$ and $\pi '$ be finite-dimensional linear representations of G. In the 
 
 We first suppose that $\pi$ and $\pi '$ are simple representations. The vector space Hom$_G(\pi , \pi ')$ has dimension 1 or 0 according to whether or not $\pi$ and $\pi '$ are isomorphic (Schur’s lemma, VIII, p. 47, Proposition 2). In this case, formula (29) follows from Proposition 4.
 
-In the general case, the representation $\pi$ (resp. $\pi ')$ is the direct sum of simple representations $\pi_1, . . . , \pi_m$ (resp. $\pi '_1, . . . , \pi_n')$. The space Hom$_G(\pi , \pi ')$ is isomorphic to the direct sum of the spaces Hom$_G(\pi_i, \pi '_j)$ for $1\leqslant i\leqslant m$, $1\leqslant j\leqslant n$, and we have
+In the general case, the representation $\pi$ (resp. $\pi ')$ is the direct sum of simple representations $\pi_1, . . . , \pi_m$ (resp. $\pi '_1, . . . , \pi '_n)$. The space Hom$_G(\pi , \pi ')$ is isomorphic to the direct sum of the spaces Hom$_G(\pi_i, \pi '_j)$ for $1\leqslant i\leqslant m$, $1\leqslant j\leqslant n$, and we have
 
 $$
 \chi_{\pi}=\chi_{\pi_1}+\cdots +\chi_{\pi_m},\chi_{\pi'}=\chi_{\pi'_1}+\cdots +\chi_{\pi'_n}
@@ -665,11 +665,11 @@ In the next subsection, we extend Proposition 9 to the case when we only assume 
 
 We keep the notation of the previous subsection. Let $K'$ be an algebraically closed field such that the element $n\cdot 1$ of $K'$ is not zero. The groups $\mu_n(K)$ and $\mu_n(K')$ are cyclic of order $n$ (V, §11, No. 2, p. 78, Theorem 1). Choose an isomorphism $\varphi$ from $\mu_n(K)$ to $\mu_n(K')$. Let $\pi$ be a linear representation of G in a finite-dimensional K-vector space, and let $\pi '$ be a linear representation of G in a finite-dimensional $K'$-vector space. We say that $\pi$ and $\pi '$ are related (through $\varphi )$ if for every $g\in G$ and $\omega \in \mu_n$(K), the multiplicity of $\omega$ as an eigenvalue of $\pi (g)$ is equal to the multiplicity of $\varphi (\omega )$ as an eigenvalue of $\pi '(g)$. When this is the case, $\pi$ and $\pi '$ have the same dimension, as can be seen by taking $g= 1$.
 
-Let $\pi_1$ and $\pi_2$ (resp. $\pi_1'$ and $\pi_2')$ be linear representations of G in finite-dimensional vector spaces over K (resp. $K')$. We have the following properties:
+Let $\pi_1$ and $\pi_2$ (resp. $\pi '_1$ and $\pi '_2)$ be linear representations of G in finite-dimensional vector spaces over K (resp. $K')$. We have the following properties:
 
-a) If $\pi_1$ is related to $\pi '_1$ and $\pi_2'$, then $\pi '_1$ and $\pi_2'$ are isomorphic.
+a) If $\pi_1$ is related to $\pi '_1$ and $\pi '_2$, then $\pi '_1$ and $\pi '_2$ are isomorphic.
 
-b) If $\pi_1$ is related to $\pi '_1$ and $\pi_2$ to $\pi_2'$, then $\pi_1\oplus \pi_2$ is related to $\pi '_1\oplus \pi_2'$ and $\pi_1\otimes \pi_2$ is related to $\pi '_1\otimes \pi_2'$.
+b) If $\pi_1$ is related to $\pi '_1$ and $\pi_2$ to $\pi '_2$, then $\pi_1\oplus \pi_2$ is related to $\pi '_1\oplus \pi '_2$ and $\pi_1\otimes \pi_2$ is related to $\pi '_1\otimes \pi '_2$.
 
 Assertion a) follows from Corollary 5 of VIII, p. 402, and assertion b) is clear.
 
@@ -746,7 +746,7 @@ B) General case.
 Let L be an algebraically closed field of characteristic 0 (for example, an algebraic closure of $\mathbf{Q})$. Denote by $\mathscr{S}_L(G)$ the set of classes of simple L[G]-modules. Choose an isomorphism $\eta$ from the group $\mu_n(L)$ to the group $\mu_n$(K), and set $\eta '=\varphi \circ \eta$. By part A) of the proof, there exist bijections
 
 $$
-\eta_G:\mathscr{S}_L(G)\rightarrow \mathscr{S}_K(G),\eta_G':\mathscr{S}_L(G)\rightarrow \mathscr{S}_{K'}(G)
+\eta_G:\mathscr{S}_L(G)\rightarrow \mathscr{S}_K(G),\eta '_G:\mathscr{S}_L(G)\rightarrow \mathscr{S}_{K'}(G)
 $$
 
 with the following property: for every $\lambda$ in $\mathscr{S}_L$(G), the representations $\lambda$ and $\eta_G(\lambda )$ are related through $\eta$, and the representations $\lambda$ and $\eta '_G(\lambda )$ are related through $\eta '$. The bijection $\varphi_G=\eta '_G\circ \eta_G^{-1}$ has the desired properties.
@@ -775,11 +775,11 @@ Suppose that the group G is abelian. We saw in the remark of VIII, p. 414 that $
 
 #### Remark 3 {#alg-viii-s21-n12-rem-3 .statement tag=00O6}
 
-Let $\pi_1$ and $\pi_2$ be linear representations of G in finite-dimensional vector spaces over K. For $i= 1,2$, let $\pi_i'$ be a representation related to $\pi_i$ through $\varphi$. We have
+Let $\pi_1$ and $\pi_2$ be linear representations of G in finite-dimensional vector spaces over K. For $i= 1,2$, let $\pi '_i$ be a representation related to $\pi_i$ through $\varphi$. We have
 
-(47) dim$_K$ Hom$_K(\pi_1, \pi_2) =$ dim$_{K'}$ Hom$_{K'}(\pi '_1, \pi_2')$.
+(47) dim$_K$ Hom$_K(\pi_1, \pi_2) =$ dim$_{K'}$ Hom$_{K'}(\pi '_1, \pi '_2)$.
 
-The proof follows that of Corollary VIII, p. 410, by reducing to the case when the $\pi_i$ (and therefore the $\pi_i')$ are simple.
+The proof follows that of Corollary VIII, p. 410, by reducing to the case when the $\pi_i$ (and therefore the $\pi '_i)$ are simple.
 
 #### Remark 4 {#alg-viii-s21-n12-rem-4 .statement tag=00O7}
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 91
 statements: 28
 exercises: 12
-content_sha256: 88fb783c018c5b736880fcc13293ffbbd9c9b691b0429da8f88d814f2ef96023
+content_sha256: 76903e64a7bed03cf3d69b67d5aabf44c01f8897393cfc4484d11de5199bd2ab
 ---
 
 ## § 2. ROOT SYSTEM OF A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -284,7 +284,7 @@ Let $\alpha \in R$, let $X_{\alpha}$ be a non-zero element of $\mathfrak{g}^{\al
 
 #### Proposition 6 {#lie-viii-s2-prop-6 .statement tag=00Z5}
 
-Let $(\mathfrak{g},\mathfrak{h})$ be a split semi-simple Lie algebra, $\Phi$ a non-degenerate invariant symmetric bilinear form on $\mathfrak{g}$. For all $\alpha \in R$, let $X_{\alpha}$ be a non-zero element of $\mathfrak{g}^{\alpha}$. Let $(H_i)_{i\in I}$ be a basis of $\mathfrak{h}$, and $(H_i')_{i\in I}$ the basis of $\mathfrak{h}$ such that $\Phi (H_i, H_j') =\delta_{ij}$. The Casimir element associated to $\Phi$ in the enveloping algebra of $\mathfrak{g}$ (Chap. I, §3, no. 7) is then
+Let $(\mathfrak{g},\mathfrak{h})$ be a split semi-simple Lie algebra, $\Phi$ a non-degenerate invariant symmetric bilinear form on $\mathfrak{g}$. For all $\alpha \in R$, let $X_{\alpha}$ be a non-zero element of $\mathfrak{g}^{\alpha}$. Let $(H_i)_{i\in I}$ be a basis of $\mathfrak{h}$, and $(H'_i)_{i\in I}$ the basis of $\mathfrak{h}$ such that $\Phi (H_i, H'_j) =\delta_{ij}$. The Casimir element associated to $\Phi$ in the enveloping algebra of $\mathfrak{g}$ (Chap. I, §3, no. 7) is then
 
 $\sum$ 1 $\sum'$
 
@@ -298,7 +298,7 @@ $$
 
 $\alpha \in Ri\in I$
 
-Indeed, by Prop. $1,\Phi (H_i, X_{\alpha}) =\Phi (H_i', X_{\alpha}) = 0$ for all $i\in I,\alpha \in R$, and $\Phi (\frac{1}{\Phi(X_{\alpha},X_{-\alpha})}X_{\alpha}, X_{-\beta})=\delta_{\alpha \beta}$ for all $\alpha , \beta \in R$.
+Indeed, by Prop. $1,\Phi (H_i, X_{\alpha}) =\Phi (H'_i, X_{\alpha}) = 0$ for all $i\in I,\alpha \in R$, and $\Phi (\frac{1}{\Phi(X_{\alpha},X_{-\alpha})}X_{\alpha}, X_{-\beta})=\delta_{\alpha \beta}$ for all $\alpha , \beta \in R$.
 
 ### 4. THE COEFFICIENTS N$_{\boldsymbol{\alpha \beta }}$
 

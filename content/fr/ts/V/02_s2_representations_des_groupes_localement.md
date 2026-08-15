@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: 6fb8e98fcae1914f1474e962cf5c9f1eef38ee0d9bcf146b3536b4e8a80a634b
+content_sha256: b1f89af0ce81c994650cd2e912efa689b6f09b789af031768f0e77c23f7dfb84
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -1080,7 +1080,7 @@ $$
 \psi_x(t+h)-\psi_x(t) =\varrho (t)\psi_x(h)-\psi_x(0)
 $$
 
-ce qui démontre que dom($u$) est l’espace des éléments $x\in E$ tels que $\psi_x$ est dérivable sur $\mathbf{R}$ et établit que $\psi_x'(t) =\varrho (t)\psi_x'(0) =i\varrho (t)(u(x))$ pour tout $t\in \mathbf{R}$.
+ce qui démontre que dom($u$) est l’espace des éléments $x\in E$ tels que $\psi_x$ est dérivable sur $\mathbf{R}$ et établit que $\psi '_x(t) =\varrho (t)\psi '_x(0) =i\varrho (t)(u(x))$ pour tout $t\in \mathbf{R}$.
 
 Soient $x\in$ E et $t\in \mathbf{R}$. On a $\psi_{\varrho(t)x}(s) =\psi_x(s+t)$ pour tout $s\in \mathbf{R}$. Par conséquent, on a $\varrho (t)x\in$ dom($u$) si $x\in$ dom($u$), et de plus $u(\varrho (t)x) =i^{-1}\psi '_x(t) =\varrho (t)u(x)$ d’après a). On obtient alors l’assertion b).
 
@@ -1134,7 +1134,7 @@ $$
 hh_0
 $$
 
-Il résulte alors de la prop. 6 de IV, p. 276 que la fonction $\psi_x$ est dérivable sur $\mathbf{R}$ et vérifie $\psi_x'(t) =iu(\varrho (t)x)$ pour tout $t\in \mathbf{R}$. Par conséquent, le domaine de $u$ est inclus dans l’ensemble des $x\in E$ tels que $\psi_x$ est dérivable en 0 et qu’on a alors $\psi_x'(0) =iu(x)$. Cela signifie par définition que le générateur infinitésimal de $\varrho$ est une extension de $u$. Ces deux opérateurs sont donc égaux puisqu’ils sont symétriques et que $u$ est auto-adjoint (IV, p. 238, remarque 5).
+Il résulte alors de la prop. 6 de IV, p. 276 que la fonction $\psi_x$ est dérivable sur $\mathbf{R}$ et vérifie $\psi '_x(t) =iu(\varrho (t)x)$ pour tout $t\in \mathbf{R}$. Par conséquent, le domaine de $u$ est inclus dans l’ensemble des $x\in E$ tels que $\psi_x$ est dérivable en 0 et qu’on a alors $\psi '_x(0) =iu(x)$. Cela signifie par définition que le générateur infinitésimal de $\varrho$ est une extension de $u$. Ces deux opérateurs sont donc égaux puisqu’ils sont symétriques et que $u$ est auto-adjoint (IV, p. 238, remarque 5).
 
 #### Lemme 15 {#ts-v-s2-lem-15 .statement tag=03B9}
 
@@ -1144,7 +1144,7 @@ D’après le lemme 13, c), l’opérateur partiel $u$ est essentiellement auto-
 
 Pour tout $x\in E$, notons $\psi_x$ (resp. $\widetilde{\psi}_x)$ l’application de $\mathbf{R}$ dans E définie par $\psi_x(t) =\varrho (t)x$ (resp. par $\widetilde{\psi}_x(t) =\pi (t)x)$.
 
-D’après le lemme 13, a) et b), l’espace dom($u$) est le sous-espace de E formé des éléments $x\in E$ tels que l’application $\psi_x$ est dérivable sur $\mathbf{R}$, et pour tout $x\in$ dom($u$) et tout $t\in \mathbf{R}$, on a $\psi_x'(t) =iu(\psi_x(t))$. De même, l’espace dom($\overline{u}$) est le sous-espace de E formé des éléments $x\in E$ tels que l’application $\widetilde{\psi}_x$ est dérivable sur $\mathbf{R}$, et pour tout $x\in$ dom($\overline{u}$) et tout $t\in \mathbf{R}$, on a $\widetilde{\psi}_x'(t) =iu(\widetilde{\psi}_x(t))$.
+D’après le lemme 13, a) et b), l’espace dom($u$) est le sous-espace de E formé des éléments $x\in E$ tels que l’application $\psi_x$ est dérivable sur $\mathbf{R}$, et pour tout $x\in$ dom($u$) et tout $t\in \mathbf{R}$, on a $\psi '_x(t) =iu(\psi_x(t))$. De même, l’espace dom($\overline{u}$) est le sous-espace de E formé des éléments $x\in E$ tels que l’application $\widetilde{\psi}_x$ est dérivable sur $\mathbf{R}$, et pour tout $x\in$ dom($\overline{u}$) et tout $t\in \mathbf{R}$, on a $\widetilde{\psi}'_x(t) =iu(\widetilde{\psi}_x(t))$.
 
 Soit $x\in$ dom($u$)$\subset$ dom($\overline{u}$). Posons $f=\psi_x-\widetilde{\psi}_x$. C’est une fonction dérivable de $\mathbf{R}$ dans E. Pour tout $t\in \mathbf{R}$, il vient
 

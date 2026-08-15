@@ -29,7 +29,7 @@ subsections:
       pdf_page: 130
 statements: 24
 exercises: 16
-content_sha256: b72c918f126c4b4d2cd5d6b619af8ff04f06dc17e2232d98a8287e35038e3263
+content_sha256: 7e79740f063bb1a4fe9a4f31b959fc0ff5c83377f3ff4c798af7d418b70cab6e
 ---
 
 ## § 7. ANNEAUX SIMPLES
@@ -248,7 +248,7 @@ c) Soient $W_1$ et $W_2$ des sous-espaces vectoriels de V. Les relations $W_1\su
 
 L’assertion b) résulte de l’exemple 1, b) de VIII, p. 100 appliquée au $(D^o,A^o)$-bimodule inversible V, de même que l’équivalence des relations $W_1\subset W_2$ et $\mathfrak{b}(W_1)\subset$ $\mathfrak{b}(W_2)$.
 
-Soit $V^*$ le dual de V, considéré comme espace vectoriel à droite sur le corps $D^o$ opposé de D. Pour tout sous-espace W de V, notons $W'$ l’orthogonal de W dans $V^*$. L’application $W\rightarrow W'$ est une bijection de l’ensemble des sous-espaces de V sur l’ensemble des sous-espaces de $V^*$. Si $W_1$ et $W_2$ sont deux sous-espaces de V, les relations $W_1\subset W_2$ et $W_1'\supset W'_2$ sont équivalentes. Or, l’application $u\rightarrow^tu$ est un isomorphisme de A sur l’anneau opposé de End$_{D^o}(V^*)$; elle transforme idéaux à gauche de A en idéaux à droite de End$_{D^o}(V^*)$, et $\mathfrak{a}(W)$ en l’ensemble $\mathfrak{b}(W')$ des endomorphismes $h$ de $V^*$ tels que $h(V^*)\subset W'$. L’assertion a), ainsi que l’équivalence des relations $W_1\subset W_2$ et $\mathfrak{a}(W_1)\supset \mathfrak{a}(W_2)$, résultent alors de l’assertion analogue à b) pour le dual $V^*$ de V.
+Soit $V^*$ le dual de V, considéré comme espace vectoriel à droite sur le corps $D^o$ opposé de D. Pour tout sous-espace W de V, notons $W'$ l’orthogonal de W dans $V^*$. L’application $W\rightarrow W'$ est une bijection de l’ensemble des sous-espaces de V sur l’ensemble des sous-espaces de $V^*$. Si $W_1$ et $W_2$ sont deux sous-espaces de V, les relations $W_1\subset W_2$ et $W'_1\supset W'_2$ sont équivalentes. Or, l’application $u\rightarrow^tu$ est un isomorphisme de A sur l’anneau opposé de End$_{D^o}(V^*)$; elle transforme idéaux à gauche de A en idéaux à droite de End$_{D^o}(V^*)$, et $\mathfrak{a}(W)$ en l’ensemble $\mathfrak{b}(W')$ des endomorphismes $h$ de $V^*$ tels que $h(V^*)\subset W'$. L’assertion a), ainsi que l’équivalence des relations $W_1\subset W_2$ et $\mathfrak{a}(W_1)\supset \mathfrak{a}(W_2)$, résultent alors de l’assertion analogue à b) pour le dual $V^*$ de V.
 
 #### Corollaire {#alg-viii-s7-n4-cor-1 .statement tag=008M}
 

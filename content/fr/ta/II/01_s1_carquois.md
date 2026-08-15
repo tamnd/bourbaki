@@ -37,7 +37,7 @@ subsections:
       pdf_page: 170
 statements: 2
 exercises: 0
-content_sha256: e8c1db21237ea0626578399ea2ba68a1b4d0579241b4dc09c6b32e2f03da49f0
+content_sha256: 2f8e74c2b62cbf2cebf0e13b84b57da7bbdd963bd760707be83512da724fd3ec
 ---
 
 ## § 1. CARQUOIS
@@ -128,9 +128,9 @@ Un chemin dont l’origine est égale au terme est appelé un lacet. Un chemin d
 
 On dit que des chemins
 
-$c= (a_0, f_1, a_1, . . . , a_{n-1}, f_n, a_n)$ et $c'= (a'_0, f_1', a'_1, . . . , a'_{m-1}, f_m', a'_m)$
+$c= (a_0, f_1, a_1, . . . , a_{n-1}, f_n, a_n)$ et $c'= (a'_0, f'_1, a'_1, . . . , a'_{m-1}, f'_m, a'_m)$
 
-dans C sont juxtaposables si le terme $a_n$ de $c$ est l’origine $a'_0$ de $c'$. Dans ce cas, la suite $(a_0, f_1, a_1, . . . , a_{n-1}, f_n, a_n, f_1', a'_1, . . . , f_m', a'_m)$ est un chemin dans C que l’on note $c*c'$ et que l’on appelle le chemin juxtaposé de $c$ et $c'$. Il relie l’origine de $c$ au terme de $c'$; sa longueur est la somme des longueurs des chemins $c$ et $c'$.
+dans C sont juxtaposables si le terme $a_n$ de $c$ est l’origine $a'_0$ de $c'$. Dans ce cas, la suite $(a_0, f_1, a_1, . . . , a_{n-1}, f_n, a_n, f'_1, a'_1, . . . , f'_m, a'_m)$ est un chemin dans C que l’on note $c*c'$ et que l’on appelle le chemin juxtaposé de $c$ et $c'$. Il relie l’origine de $c$ au terme de $c'$; sa longueur est la somme des longueurs des chemins $c$ et $c'$.
 
 ### 6. Composantes connexes d’un carquois
 

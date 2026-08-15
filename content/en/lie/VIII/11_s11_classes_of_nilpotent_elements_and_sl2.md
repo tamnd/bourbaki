@@ -29,7 +29,7 @@ subsections:
       pdf_page: 178
 statements: 29
 exercises: 17
-content_sha256: 255448d2efd9757d8216b0db186bd1fca06077284f78065762a7531bf0e92f1e
+content_sha256: 63d393e6e92aff98668caf225dbc1bd0084b863c04001d835aa65b3a522309db
 ---
 
 ## § 11. CLASSES OF NILPOTENT ELEMENTS AND $\mathfrak{s}\mathfrak{l}_{2}$-TRIPLETS
@@ -260,19 +260,19 @@ Assume that $k$ is algebraically closed and that $\mathfrak{g}$ is semi-simple. 
 
 Let $\mathfrak{h}$ be a Cartan subalgebra of $\mathfrak{g}^0$. This is a Cartan subalgebra of $\mathfrak{g}$ containing $h$ (Chap. VII, §2, no. 3, Prop. 10). We have $h\in \mathfrak{h}_{\mathbf{Q}}$. Let R be the root system of $(\mathfrak{g},\mathfrak{h}), Q$ the group of radical weights. There exists a basis B of R such that $\alpha (h)\geq 0$ for all $\alpha \in B$.
 
-Let U be the set of $z\in \mathfrak{h}$ such that $\alpha (z)\not= 0$ for all $\alpha \in B$. Let $(H_{\alpha}')_{\alpha\in B}$ be the basis of $\mathfrak{h}$ dual to B. If $z\in U$, there exists a homomorphism from Q to $k^*$ that takes any $\gamma \in Q$ to $\prod_{\alpha\in B}\alpha (z)^{\gamma(H'_{\alpha})}$. By §5, Prop. 2 and 4, the
+Let U be the set of $z\in \mathfrak{h}$ such that $\alpha (z)\not= 0$ for all $\alpha \in B$. Let $(H'_{\alpha})_{\alpha\in B}$ be the basis of $\mathfrak{h}$ dual to B. If $z\in U$, there exists a homomorphism from Q to $k^*$ that takes any $\gamma \in Q$ to $\prod_{\alpha\in B}\alpha (z)^{\gamma(H'_{\alpha})}$. By §5, Prop. 2 and 4, the
 
-endomorphism $\varphi (z)$ of the vector space $\mathfrak{g}$ which induces on $\mathfrak{g}^{\gamma}$ the homothety with ratio $\prod_{\alpha\in B}\alpha (z)^{\gamma(H_{\alpha}')}$ is an elementary automorphism of $\mathfrak{g}$, which clearly
+endomorphism $\varphi (z)$ of the vector space $\mathfrak{g}$ which induces on $\mathfrak{g}^{\gamma}$ the homothety with ratio $\prod_{\alpha\in B}\alpha (z)^{\gamma(H'_{\alpha})}$ is an elementary automorphism of $\mathfrak{g}$, which clearly
 
 belongs to $G_h$.
 
 Let $s\in \mathfrak{h}$. If $\gamma \in R$ is such that $\mathfrak{g}^{\gamma}\cap \mathfrak{g}^2\not= 0$,
 
 $$
-2 =\gamma (h) =\gamma (\sum_{\alpha\in B}\alpha (h)H_{\alpha}')=\sum_{\alpha\in B}\alpha (h)\gamma (H_{\alpha}')
+2 =\gamma (h) =\gamma (\sum_{\alpha\in B}\alpha (h)H'_{\alpha})=\sum_{\alpha\in B}\alpha (h)\gamma (H'_{\alpha})
 $$
 
-since $\alpha (h)\geq 0$ for all $\alpha \in B$, and since the $\gamma (H_{\alpha}')$ are integers either all $\geq 0$ or all $\leq 0$, we have $\gamma (H_{\alpha}')\in \mathbf{N}$ for all $\alpha \in B$. Thus, we can consider (for $z\in \mathfrak{h})$ the endomorphism $\psi (z)$ of the vector space $\mathfrak{g}^2$ that induces on $\mathfrak{g}^{\gamma}\cap \mathfrak{g}^2$ the homothety with ratio $\prod_{\alpha\in B}\alpha (z)^{\gamma(H_{\alpha}')}$. The map $z \rightarrow \psi (z)$ from $\mathfrak{h}$ to End($\mathfrak{g}^2$) is polynomial. For $z\in U$, we have $\psi (z) =\varphi (z)|\mathfrak{g}^2$.
+since $\alpha (h)\geq 0$ for all $\alpha \in B$, and since the $\gamma (H'_{\alpha})$ are integers either all $\geq 0$ or all $\leq 0$, we have $\gamma (H'_{\alpha})\in \mathbf{N}$ for all $\alpha \in B$. Thus, we can consider (for $z\in \mathfrak{h})$ the endomorphism $\psi (z)$ of the vector space $\mathfrak{g}^2$ that induces on $\mathfrak{g}^{\gamma}\cap \mathfrak{g}^2$ the homothety with ratio $\prod_{\alpha\in B}\alpha (z)^{\gamma(H'_{\alpha})}$. The map $z \rightarrow \psi (z)$ from $\mathfrak{h}$ to End($\mathfrak{g}^2$) is polynomial. For $z\in U$, we have $\psi (z) =\varphi (z)|\mathfrak{g}^2$.
 
 Let $\gamma_1, . . . , \gamma_r$ be the distinct roots of $(\mathfrak{g},\mathfrak{h})$ vanishing on $h$. If $y_1\in \mathfrak{g}^{\gamma_1}, . . .$, $y_r\in \mathfrak{g}^{\gamma_r}$, we have $e^{ady_1}. . . e^{ady_r}\in G_h$. We can thus define a map $\rho$ from $\mathfrak{h}\times \mathfrak{g}^{\gamma_1}\times  \cdots  \times \mathfrak{g}^{\gamma_r}$ to $\mathfrak{g}^2$ by putting
 
@@ -282,10 +282,10 @@ $$
 
 for $z\in \mathfrak{h}, y_1\in \mathfrak{g}^{\gamma_1}, . . . , y_r\in \mathfrak{g}^{\gamma_r}$. This map is polynomial, and $\rho (U,\mathfrak{g}^{\gamma_1}, . . . ,\mathfrak{g}^{\gamma_r})$ $\subset G_hx$. By Chap. VII, App. I, Prop. 3 and 4, it suffices to prove that the tangent linear map of $\rho$ is surjective at some point.
 
-Now let T be the tangent linear map of $z \rightarrow \psi (z)$ at $h_0=\sum_{\alpha\in B}H_{\alpha}'$. Then $T(z)$ is the endomorphism of $\mathfrak{g}^2$ that induces on $\mathfrak{g}^{\gamma}\cap \mathfrak{g}^2$ the homothety with ratio
+Now let T be the tangent linear map of $z \rightarrow \psi (z)$ at $h_0=\sum_{\alpha\in B}H'_{\alpha}$. Then $T(z)$ is the endomorphism of $\mathfrak{g}^2$ that induces on $\mathfrak{g}^{\gamma}\cap \mathfrak{g}^2$ the homothety with ratio
 
 $$
-\sum_{\alpha\in B}\gamma (H_{\alpha}')\alpha (h_0)^{\gamma(H'_{\alpha})-1}\alpha (z)\prod_{\beta\in B,\beta\not=\alpha}\beta (h_0)^{\gamma(H'_{\alpha})}=\sum_{\alpha\in B}\gamma (H_{\alpha}')\alpha (z) =\gamma (z)
+\sum_{\alpha\in B}\gamma (H'_{\alpha})\alpha (h_0)^{\gamma(H'_{\alpha})-1}\alpha (z)\prod_{\beta\in B,\beta\not=\alpha}\beta (h_0)^{\gamma(H'_{\alpha})}=\sum_{\alpha\in B}\gamma (H'_{\alpha})\alpha (z) =\gamma (z)
 $$
 
 Thus, the tangent linear map of $z \rightarrow \rho (z,0, . . . ,0)$ at $h_0$ is the map $z \rightarrow [z, x]$; its image is $[x,\mathfrak{h}]$. The tangent linear map at 0 of the map $y_1 \rightarrow \rho (h_0, y_1,0, . . . ,0)$ is the map $y_1 \rightarrow \psi (h_0)[y_1, x]$; this last map has image $\psi (h_0)[x,\mathfrak{g}^{\gamma_1}] = [x,\mathfrak{g}^{\gamma_1}]$. Similarly, the tangent linear map at 0 of the map $y_i \rightarrow \rho (h_0,0, . . . ,0, y_i,0, . . . ,0)$ has image $[x,\mathfrak{g}^{\gamma_i}]$. Finally, the tangent linear map of $\rho$ at $(h_0,0, . . . ,0)$ has image

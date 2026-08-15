@@ -45,7 +45,7 @@ subsections:
       pdf_page: 78
 statements: 43
 exercises: 8
-content_sha256: bdf8eeb87f296f013124da36ec1579093157f52d60fdd6a4a52dd056f5de87e9
+content_sha256: 7dd38af5b6337429891d1b1e47a5dee67bdb5257cd7198a36397acb5d36e296f
 ---
 
 ## § 4. MODULES SEMI-SIMPLES
@@ -556,7 +556,7 @@ C’est une traduction de la prop. 8 c) appliquée à la description canonique d
 
 #### Proposition 9 {#alg-viii-s4-prop-9 .statement tag=0052}
 
-Soient M et $M'$ des A-modules semi-simples et soient $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$et $((V_{\lambda}')_{\lambda\in\mathscr{S}}, \alpha ')$des descriptions de M et $M'$ respectivement. Pour toute famille $\boldsymbol{f}= (f_{\lambda})_{\lambda\in\mathscr{S}}$ de $\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V'_{\lambda})$, il existe une unique application A-linéaire $\varphi (\boldsymbol{f})\in$ Hom$_A(M,M')$rendant commutatif le diagramme
+Soient M et $M'$ des A-modules semi-simples et soient $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$et $((V'_{\lambda})_{\lambda\in\mathscr{S}}, \alpha ')$des descriptions de M et $M'$ respectivement. Pour toute famille $\boldsymbol{f}= (f_{\lambda})_{\lambda\in\mathscr{S}}$ de $\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V'_{\lambda})$, il existe une unique application A-linéaire $\varphi (\boldsymbol{f})\in$ Hom$_A(M,M')$rendant commutatif le diagramme
 
 $\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})^{\alpha}$ // M
 
@@ -564,7 +564,7 @@ $\bigoplus_{\lambda\in\mathscr{S}}(1_{S\lambda}\otimes f_{\lambda})\varphi (\bol
 
 $\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V'_{\lambda})^{\alpha'}$ // $M'$.
 
-L’application $\varphi :\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V_{\lambda}')\rightarrow$ Hom$_A(M,M')$ainsi définie est un isomorphisme de groupes. Lorsque l’on a $M = M', V_{\lambda}= V'_{\lambda}$ pour tout $\lambda \in \mathscr{S}$ et $\alpha =\alpha '$, l’application $\varphi$ est un isomorphisme d’anneaux de $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}(V_{\lambda})$sur End$_A(M)$.
+L’application $\varphi :\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V'_{\lambda})\rightarrow$ Hom$_A(M,M')$ainsi définie est un isomorphisme de groupes. Lorsque l’on a $M = M', V_{\lambda}= V'_{\lambda}$ pour tout $\lambda \in \mathscr{S}$ et $\alpha =\alpha '$, l’application $\varphi$ est un isomorphisme d’anneaux de $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}(V_{\lambda})$sur End$_A(M)$.
 
 Compte tenu de la description des composants isotypiques de M et $M'$ donnée dans la prop. 8 a), cela résulte du th. 3 de VIII, p. 60 et de la prop. 5, b) de VIII, p. 62.
 

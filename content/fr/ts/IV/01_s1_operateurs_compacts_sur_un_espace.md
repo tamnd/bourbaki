@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: b1be68ea80a432d65557d8645406fd6e4f866fdcfd239b21ed7147d4c2ec3867
+content_sha256: 849cf771bc81ec33c4d8e0c7fbe660b9d967209de35f48dd3588c02c78b001b3
 ---
 
 ## § 1. OPÉRATEURS COMPACTS SUR UN ESPACE HILBERTIEN
@@ -639,7 +639,7 @@ $$
 Par ailleurs, si $i < n$, on a
 
 $$
-\alpha_i\geqslant f_g'(a_i)\geqslant f_d'(a_{i+1})\geqslant \alpha_{i+1}
+\alpha_i\geqslant f'_g(a_i)\geqslant f'_d(a_{i+1})\geqslant \alpha_{i+1}
 $$
 
 (loc. cit. et FVR, I, p. 36, cor. 1) ; de plus $\alpha_i\geqslant 0$ puisque $f$ est croissante (FVR, I, p. 22, corollaire), d’où $\varrho_i\alpha_i\geqslant \varrho_{i+1}\alpha_{i+1}\geqslant 0$ pour $0\leqslant i < n$.
