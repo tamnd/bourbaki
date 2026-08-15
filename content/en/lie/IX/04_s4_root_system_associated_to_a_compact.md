@@ -53,7 +53,7 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: 445a52efa9ae30f74217ff794a3a66bb05d82e5ebee67cfe1d69963fe9ef6c18
+content_sha256: 0b80306211126e0666f9faab3eeafa11cba96b5a32f4c5590939cc24b6c9453d
 ---
 
 ## § 4. ROOT SYSTEM ASSOCIATED TO A COMPACT GROUP
@@ -762,7 +762,7 @@ For all $\alpha \in B_0$, denote by $K(\alpha )$ the restriction of the quadrati
 
 The group Int(G) operates simply-transitively on the set of framings of G.
 
-Let $e= (T,B,(U_{\alpha}))$ and $e'= (T',B',(U_{\alpha}'))$ be two framings of G. There exist elements $g$ in G such that (Int $g)(T) = T'$, and these elements form a single coset modulo $N_G(T)$. Thus, we can assume that $T = T'$, and we must prove that there exists a unique element of Int$_G(N_G(T))$ that transforms $e$ to $e'$. By Chap. VI, §1, no. 5, Remark 4, there exists a unique element $w$ of W(R) such that $w(B) = B'$. Since W(R) can be identified with $N_G(T)/T$, there exists $n\in N_G(T)$ such that $w=$ Int $n$, and $n$ is uniquely determined modulo T. Thus, we can assume that $B = B'$, and we must prove that there exists a unique element of Int$_G(T)$ that transforms $e$ to $e'$, which is simply Lemma 3.
+Let $e= (T,B,(U_{\alpha}))$ and $e'= (T',B',(U'_{\alpha}))$ be two framings of G. There exist elements $g$ in G such that (Int $g)(T) = T'$, and these elements form a single coset modulo $N_G(T)$. Thus, we can assume that $T = T'$, and we must prove that there exists a unique element of Int$_G(N_G(T))$ that transforms $e$ to $e'$. By Chap. VI, §1, no. 5, Remark 4, there exists a unique element $w$ of W(R) such that $w(B) = B'$. Since W(R) can be identified with $N_G(T)/T$, there exists $n\in N_G(T)$ such that $w=$ Int $n$, and $n$ is uniquely determined modulo T. Thus, we can assume that $B = B'$, and we must prove that there exists a unique element of Int$_G(T)$ that transforms $e$ to $e'$, which is simply Lemma 3.
 
 #### Corollary {#lie-ix-s4-n10-cor-2 .statement tag=01D7}
 
@@ -772,7 +772,7 @@ Indeed, every element of Aut(G) transforms $e$ into a framing of G. By Prop. 19,
 
 #### Remark {#lie-ix-s4-n10-rem-1 .statement tag=01D8}
 
-Let G and $G'$ be two connected compact Lie groups, and let $e=$ $(T,B,(U_{\alpha}))$ and $e'= (T',B',(U_{\alpha}'))$ be framings of G and $G'$, respectively. Let X be the set of isomorphisms from G to $G'$ that take $e$ to $e'$. The map $f \rightarrow D^*(f)$ (resp. $D_*(f))$ is a bijection from X to the set of isomorphisms from $D^*(G',T')$ to $D^*(G,T)$ (resp. $D_*(G,T)$ to $D_*(G',T'))$ that map $B'$ to B (resp. B to $B')$. Indeed, this follows immediately from Prop. 15 and Lemma 3.
+Let G and $G'$ be two connected compact Lie groups, and let $e=$ $(T,B,(U_{\alpha}))$ and $e'= (T',B',(U'_{\alpha}))$ be framings of G and $G'$, respectively. Let X be the set of isomorphisms from G to $G'$ that take $e$ to $e'$. The map $f \rightarrow D^*(f)$ (resp. $D_*(f))$ is a bijection from X to the set of isomorphisms from $D^*(G',T')$ to $D^*(G,T)$ (resp. $D_*(G,T)$ to $D_*(G',T'))$ that map $B'$ to B (resp. B to $B')$. Indeed, this follows immediately from Prop. 15 and Lemma 3.
 
 ### Exercises {#lie-ix-s4-exercises}
 

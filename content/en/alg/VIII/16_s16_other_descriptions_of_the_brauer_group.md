@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: 444a9799141dfc25ef0704322ef785d3d26e1232b3675646f5caa61dde180ede
+content_sha256: a33ae206368ccaddd7f1cce2d6c43be00bdf8ae012b11db09599cee7faf302a3
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -323,7 +323,7 @@ $$
 \tau ''(g)\cdot v'(f) =v'(\tau '(g)\cdot f)
 $$
 
-for $g\in G$ and $f\in F'$. Let $\mathscr{E}$ be a $\tau$-extension of G by F, and denote by $\varphi ($resp. $\varphi ',\varphi '')$ the canonical homomorphism associated with $v_*(\mathscr{E}) ($resp. $v_*'(v_*(\mathscr{E}))$, $(v'\circ v)_*(\mathscr{E}))$. Then there exists a unique morphism $\psi$ from the $\tau ''$-extension $v_*'(v_*(\mathscr{E}))$ of G by $F''$ to the $\tau ''$-extension $(v'\circ v)_*(\mathscr{E})$ such that $\varphi ''=\psi \circ \varphi '\circ \varphi$.
+for $g\in G$ and $f\in F'$. Let $\mathscr{E}$ be a $\tau$-extension of G by F, and denote by $\varphi ($resp. $\varphi ',\varphi '')$ the canonical homomorphism associated with $v_*(\mathscr{E}) ($resp. $v'_*(v_*(\mathscr{E}))$, $(v'\circ v)_*(\mathscr{E}))$. Then there exists a unique morphism $\psi$ from the $\tau ''$-extension $v'_*(v_*(\mathscr{E}))$ of G by $F''$ to the $\tau ''$-extension $(v'\circ v)_*(\mathscr{E})$ such that $\varphi ''=\psi \circ \varphi '\circ \varphi$.
 
 #### Example 1 {#alg-viii-s16-n3-exa-1 .statement tag=00IK}
 
@@ -349,7 +349,7 @@ $$
 
 for $g\in G$ and $f\in F$. We write $\tau ''=\tau '\circ u$. Let $\mathscr{E}$ be a $\tau$-extension of G by F. We denote by $\varphi_u($resp. $\varphi_v,\varphi '_u,\varphi '_v)$ the canonical homomorphism corresponding to the $\tau \circ u$-extension $u^*(\mathscr{E}) ($resp. to the $\tau '$-extension $v_*(\mathscr{E})$, to the $\tau ''$-extensions $u^*(v_*(\mathscr{E}))$ and $v_*(u^*(\mathscr{E})))$. Then there exists a unique morphism $\psi$ of $\tau ''$-extensions from $v_*(u^*(\mathscr{E}))$ to $u^*(v_*(\mathscr{E}))$ such that $\varphi_v\circ \varphi_u=$ $\varphi '_u\circ \psi \circ \varphi '_v$.
 
-We denote the $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. the $\tau ''$-extension $u^*(v_*(\mathscr{E})))$ by $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma '_u, \iota '_u, \pi_u'))$. Applying Lemma 2 of VIII, p. 287 to $\varphi_v\circ \varphi_u$, we find that there exists a group homomorphism $\psi_1: \Gamma_u\rightarrow \Gamma '_u$ such that the diagram
+We denote the $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. the $\tau ''$-extension $u^*(v_*(\mathscr{E})))$ by $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma '_u, \iota '_u, \pi '_u))$. Applying Lemma 2 of VIII, p. 287 to $\varphi_v\circ \varphi_u$, we find that there exists a group homomorphism $\psi_1: \Gamma_u\rightarrow \Gamma '_u$ such that the diagram
 
 F $^{\iota_u}$ // $\Gamma_u^{\pi_u}$ // $G'$
 

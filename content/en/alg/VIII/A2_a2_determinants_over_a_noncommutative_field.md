@@ -35,7 +35,7 @@ subsections:
       pdf_page: 472
 statements: 18
 exercises: 4
-content_sha256: 2d199e7eae8488e137647b15a487a0d5edba7c66b18a00763fa06b901a421e93
+content_sha256: 10d4864a0128a2e574c3645c2e03108244f33f690878140360ba87a13f8d1726
 ---
 
 ## APPENDIX 2 DETERMINANTS OVER A NONCOMMUTATIVE FIELD
@@ -231,12 +231,12 @@ a) If $\mu_i\not=0$, then the sequences $(p(v_1), . . . ,\widehat{p(v_k)}, . . .
 b) If there exists an index $k$ different from $i$ and $j$ such that $\mu_k\not= 0$, then we have $p(v'_l) =p(v_l)$ for $l\not=i$ and $p(v'_i) =p(v_i) +p(v_j)$. The elements $p(v_i)$ and $p(v_j)$ both belong to the sequence $(p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n))$. Since $\varphi$ belongs to Ω(W), formula (2) of VIII, p. 447 applies; it gives
 
 $$
-\varphi (p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n)) =\varphi (p(v'_1), . . . ,p(\widehat{v}_k'), . . . , p(v_n'))
+\varphi (p(v_1), . . . ,p(\widehat{v}_k), . . . , p(v_n)) =\varphi (p(v'_1), . . . ,p(\widehat{v}'_k), . . . , p(v'_n))
 $$
 
 But we also have $\mu_k=\mu'_k$, and therefore $t=t'$.
 
-c) It remains to examine the case when the only index $k$ such that $\mu_k\not= 0$ is $j$. We then have $\mu'_j=\mu_j,e=v_j\mu_j$, and $p(v_j) = 0$. Set $k=j$ in formulas (12) and (13). Since the sequences $(p(v_1), . . . ,p(\widehat{v}_j), . . . , p(v_n))$ and $(p(v'_1), . . . ,p(\widehat{v}_j'), . . . , p(v_n'))$ are equal, we have $t=t'$.
+c) It remains to examine the case when the only index $k$ such that $\mu_k\not= 0$ is $j$. We then have $\mu'_j=\mu_j,e=v_j\mu_j$, and $p(v_j) = 0$. Set $k=j$ in formulas (12) and (13). Since the sequences $(p(v_1), . . . ,p(\widehat{v}_j), . . . , p(v_n))$ and $(p(v'_1), . . . ,p(\widehat{v}'_j), . . . , p(v'_n))$ are equal, we have $t=t'$.
 
 #### Corollary 1 {#alg-viii-a2-prop-1-cor-1 .statement tag=00Q2}
 

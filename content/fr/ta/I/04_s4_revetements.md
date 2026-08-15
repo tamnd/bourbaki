@@ -53,7 +53,7 @@ subsections:
       pdf_page: 105
 statements: 50
 exercises: 0
-content_sha256: 78677921529c126d791e81622199bb207f60d13eeef24aef304415493b86f5bc
+content_sha256: 03a425bcc9e7dfd1e0495c3419d1920800bd7cb92a44eba9315c3e9cdacb928f
 ---
 
 ## § 4. REVÊTEMENTS
@@ -276,7 +276,7 @@ Démontrons maintenant le théorème 1. Chacune des trois conditions implique qu
 
 (ii)$\Rightarrow$(iii) : soit $b$ un point de B et, pour tout $x\in \overset{-1}{p}(b)$, soit $W_x$ un voisinage ouvert de $x$ dans E tel que $p|W_x$ soit injectif. L’ensemble $W =\bigcup_{x\in\overset{-1}{p}(b)}W_x$ est un voisinage ouvert de $\overset{-1}{p}(b)$. Comme l’application $p$ est fermée, il existe d’après le lemme ci-dessus un voisinage ouvert U de $b$ tel que $\overset{-1}{p}(U)\subset W$. Pour tout $a\in U$, on a $\overset{-1}{p}(a)\subset W$ ; comme la restriction de $p$ à chaque $W_x$ est injective, il en résulte que Card($\overset{-1}{p}(a)$)$\leqslant$ Card($\overset{-1}{p}(b)$), ce qui prouve la semi-continuité supérieure de l’application $a\mapsto$ Card($\overset{-1}{p}(a)$).
 
-(iii)$\Rightarrow$(i) : soit $b$ un point de B. Comme la fibre $E_b=\overset{-1}{p}(b)$ est finie et l’application $p$ séparée, on peut choisir, pour tout $x\in E_b$, un voisinage ouvert $V'_x$ de $x$ de telle sorte que les $V'_x$ soient deux à deux disjoints (I, p. 26, remarque 4). Comme l’application $p$ est ouverte et l’ensemble $E_b$ fini, l’ensemble $U'=\bigcap_{x\in E_b}p(V_x')$ est un voisinage ouvert de $b$ dans B. Soit U un voisinage ouvert de $b$ dans B, contenu dans $U'$ et tel que pour tout $a\in U$, Card(E$_a)\leqslant$ Card(E$_b)$. Pour tout $x\in E_b$, posons $V_x= V'_x\cap \overset{-1}{p}(U)$. Soit $a$ un point de U ; les ensembles $E_a\cap V_x$, pour $x\in E_b$, sont non vides et deux à deux disjoints. Ces ensembles contiennent donc chacun un unique élément et forment une partition de $E_a$. Cela démontre que, pour tout $x\in E_b$, l’application $p|V_x$ est injective et que l’on a $\overset{-1}{p}(U) =\bigcup_{x\in E_b}V_x$. Comme l’application $p$ est ouverte, elle induit un homéomorphisme de $V_x$ sur U et par suite, $(E, p)$ est un revêtement de B (I, p. 70, cor. 1 de la prop. 1).
+(iii)$\Rightarrow$(i) : soit $b$ un point de B. Comme la fibre $E_b=\overset{-1}{p}(b)$ est finie et l’application $p$ séparée, on peut choisir, pour tout $x\in E_b$, un voisinage ouvert $V'_x$ de $x$ de telle sorte que les $V'_x$ soient deux à deux disjoints (I, p. 26, remarque 4). Comme l’application $p$ est ouverte et l’ensemble $E_b$ fini, l’ensemble $U'=\bigcap_{x\in E_b}p(V'_x)$ est un voisinage ouvert de $b$ dans B. Soit U un voisinage ouvert de $b$ dans B, contenu dans $U'$ et tel que pour tout $a\in U$, Card(E$_a)\leqslant$ Card(E$_b)$. Pour tout $x\in E_b$, posons $V_x= V'_x\cap \overset{-1}{p}(U)$. Soit $a$ un point de U ; les ensembles $E_a\cap V_x$, pour $x\in E_b$, sont non vides et deux à deux disjoints. Ces ensembles contiennent donc chacun un unique élément et forment une partition de $E_a$. Cela démontre que, pour tout $x\in E_b$, l’application $p|V_x$ est injective et que l’on a $\overset{-1}{p}(U) =\bigcup_{x\in E_b}V_x$. Comme l’application $p$ est ouverte, elle induit un homéomorphisme de $V_x$ sur U et par suite, $(E, p)$ est un revêtement de B (I, p. 70, cor. 1 de la prop. 1).
 
 #### Remarque {#ta-i-s4-n5-rem-1 .statement tag=01P8}
 
@@ -338,7 +338,7 @@ $V_i$ sur U. Posons $V'_i=\overset{-1}{f}(V_i)$. Les ensembles $V'_i$ sont ouver
 
 forment une partition de $(^-{p'}^1)(U)$ et l’application de $V'_i$ dans U déduite de $p'$ par passage aux sous-espaces fait de $V'_i$ un U-espace fibré localement trivial. Il en résulte que l’espace $(^-{p'}^1)(U)$, muni de l’application
 
-$p'_U:(^-{p'}^1)(U)\rightarrow U$, est un U-espace fibré localement trivial (I, p. 69, remarque 2). Si $(E', f)$ est un revêtement de E, les fibres de $p'_U$ sont discrètes car leurs intersections avec chacun des ensembles ouverts $V_i'$ le sont. Cela termine la démonstration.
+$p'_U:(^-{p'}^1)(U)\rightarrow U$, est un U-espace fibré localement trivial (I, p. 69, remarque 2). Si $(E', f)$ est un revêtement de E, les fibres de $p'_U$ sont discrètes car leurs intersections avec chacun des ensembles ouverts $V'_i$ le sont. Cela termine la démonstration.
 
 #### Remarque {#ta-i-s4-n5-rem-2 .statement tag=01PF}
 
@@ -556,7 +556,7 @@ Avec les notations précédentes, le B-morphisme canonique $\Phi : E\rightarrow 
 
 Soit B un espace topologique, soient $(E, p)$ et $(E', p')$ des B-espaces. Notons $\mathscr{M}$ = $\mathscr{M}$or$_B(E; E')$ le faisceau sur B des B-morphismes de $(E, p)$ dans $(E', p')$ (I, p. 45, exemple 4). Si U est un ouvert de B et $b$ un point de U, on notera $\theta_{b,U}:\mathscr{M}(U)\rightarrow \mathscr{C}(E_b; E'_b)$ l’application canonique obtenue par passage aux fibres en $b$. On note $\theta_b:\mathscr{M}_b\rightarrow$ $\mathscr{C}(E_b; E'_b)$ l’unique application telle que $\theta_{b,U}$ soit la composée de $\theta_b$ et de l’application canonique $\mathscr{M}(U)\rightarrow \mathscr{M}_b$ pour tout ouvert U de B contenant $b$ (E, III, p. 62).
 
-Soit aussi $\mathscr{I}=\mathscr{I}$som$_B(E; E')$ le faisceau sur B des B-isomorphismes de $(E, p)$ dans $(E', p')$. Notons $i:\mathscr{I}\rightarrow \mathscr{M}$ le morphisme canonique. Pour tout $b\in B$, l’application $\theta_b\circ i_b$ induit une application $\theta_b'$ de $\mathscr{I}_b$ dans l’ensemble des bijections continues de $E_b$ sur $E'_b$.
+Soit aussi $\mathscr{I}=\mathscr{I}$som$_B(E; E')$ le faisceau sur B des B-isomorphismes de $(E, p)$ dans $(E', p')$. Notons $i:\mathscr{I}\rightarrow \mathscr{M}$ le morphisme canonique. Pour tout $b\in B$, l’application $\theta_b\circ i_b$ induit une application $\theta '_b$ de $\mathscr{I}_b$ dans l’ensemble des bijections continues de $E_b$ sur $E'_b$.
 
 #### Proposition 12 {#ta-i-s4-prop-12 .statement tag=01Q2}
 

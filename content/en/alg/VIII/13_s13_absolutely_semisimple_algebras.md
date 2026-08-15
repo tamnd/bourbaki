@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: ef6b9947228ae65409289f6ac57958dcb52a8dac7f88d2dfed2d5a20ef3267af
+content_sha256: 3655ec1a7e9ab9c1debbe633a62ac5a368014e0e83eb7540aeff3779ef6d5e9f
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -570,7 +570,7 @@ s_1(\alpha )x=\sum_{i=1}^rs_1(\alpha \alpha_i)s_2(\alpha '_i) = (\varepsilon \ci
 $$
 
 $$
-= (\varepsilon \circ (s_1\otimes s_2))\sum_{i=1}^r\alpha_i\otimes \alpha '_i\alpha =\sum_{i=1}^rs_1(\alpha_i)s_2(\alpha_i'\alpha ) =xs_2(\alpha )
+= (\varepsilon \circ (s_1\otimes s_2))\sum_{i=1}^r\alpha_i\otimes \alpha '_i\alpha =\sum_{i=1}^rs_1(\alpha_i)s_2(\alpha '_i\alpha ) =xs_2(\alpha )
 $$
 
 The equality $x^{-1}S_1x= S_2$ follows, giving assertion a).

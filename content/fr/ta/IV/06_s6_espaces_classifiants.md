@@ -33,7 +33,7 @@ subsections:
       pdf_page: 465
 statements: 32
 exercises: 0
-content_sha256: 14cc1f309f261a621018b651a4c9c57e1d280f153831fdbbbe852c5b5f3ad676
+content_sha256: ffc17a4e71cf538455847dc109c2f4ab628788523087bde6910c89a20829fb0c
 ---
 
 ## § 6. ESPACES CLASSIFIANTS
@@ -138,7 +138,7 @@ Démontrons d’abord deux lemmes.
 
 Soient $\alpha ,\beta ,\gamma$ des nombres réels tels que $\alpha \leqslant \beta \leqslant \gamma$, soit B un espace topologique et soit $p: E\rightarrow B\times [\alpha , \gamma ]$ une application continue. Posons $B_0= B\times [\alpha , \beta ]$, $B_1= B\times [\beta , \gamma ]$, $E_0=\overset{-1}{p}(B_0)$, $E_1=$ $\overset{-1}{p}(B_1)$ et notons $p_0: E_0\rightarrow B_0,p_1: E_1\rightarrow B_1$ les applications déduites de $p$. Si $(E_0, p_0)$ et $(E_1, p_1)$ sont des espaces fibrés trivialisables, il en est de même de $(E, p)$.
 
-Soient $g_0: E_0\rightarrow B_0\times F_0$ et $g_1: E_1\rightarrow B_1\times F_1$ des trivialisations de $E_0$ et $E_1$ respectivement. Notons $g'_0$ et $g_1'$ les trivialisations du $B\times  \{\beta \}$-espace fibré $\overset{-1}{p}(B\times  \{\beta \})$ déduites de $g_0$ et $g_1$ par restriction. L’application $h=g_0'\circ (g_1')^{-1}$ est un $B\times  \{\beta \}$-isomorphisme de $B\times  \{\beta \} \times F_1$ sur $B\times  \{\beta \} \times F_0$. On définit une application continue $h'$ de $B\times F_1$ dans $F_0$ en posant $h'(a, y) =$ pr$_3\circ h(a, \beta , y)$ pour $(a, y)\in B\times F_1$. Pour $(a, t, y)\in B\times [\beta , \gamma ]\times F_1$, posons $H(a, t, y) = (a, t, h'(a, y))$. L’application H ainsi définie est un $(B\times [\beta , \gamma ])$-isomorphisme de $B\times [\beta , \gamma ]\times F_1$ sur $B\times [\beta , \gamma ]\times F_0$, et l’on a $g_0|\overset{-1}{p}(B\times  \{\beta \}) = H\circ g_1|\overset{-1}{p}(B\times  \{\beta \})$. Il existe donc une application continue $g: E\rightarrow B\times [\alpha , \gamma ]\times F_0$ telle que $g|E_0=g_0$ et $g|E_1= H\circ g_1$. L’application $g$ est un isomorphisme de $B\times [\alpha , \gamma ]$-espaces, donc E est trivialisable.
+Soient $g_0: E_0\rightarrow B_0\times F_0$ et $g_1: E_1\rightarrow B_1\times F_1$ des trivialisations de $E_0$ et $E_1$ respectivement. Notons $g'_0$ et $g'_1$ les trivialisations du $B\times  \{\beta \}$-espace fibré $\overset{-1}{p}(B\times  \{\beta \})$ déduites de $g_0$ et $g_1$ par restriction. L’application $h=g'_0\circ (g'_1)^{-1}$ est un $B\times  \{\beta \}$-isomorphisme de $B\times  \{\beta \} \times F_1$ sur $B\times  \{\beta \} \times F_0$. On définit une application continue $h'$ de $B\times F_1$ dans $F_0$ en posant $h'(a, y) =$ pr$_3\circ h(a, \beta , y)$ pour $(a, y)\in B\times F_1$. Pour $(a, t, y)\in B\times [\beta , \gamma ]\times F_1$, posons $H(a, t, y) = (a, t, h'(a, y))$. L’application H ainsi définie est un $(B\times [\beta , \gamma ])$-isomorphisme de $B\times [\beta , \gamma ]\times F_1$ sur $B\times [\beta , \gamma ]\times F_0$, et l’on a $g_0|\overset{-1}{p}(B\times  \{\beta \}) = H\circ g_1|\overset{-1}{p}(B\times  \{\beta \})$. Il existe donc une application continue $g: E\rightarrow B\times [\alpha , \gamma ]\times F_0$ telle que $g|E_0=g_0$ et $g|E_1= H\circ g_1$. L’application $g$ est un isomorphisme de $B\times [\alpha , \gamma ]$-espaces, donc E est trivialisable.
 
 #### Lemme 3 {#ta-iv-s6-lem-3 .statement tag=0244}
 
@@ -994,7 +994,7 @@ c) Soit P une partie de $\mathbf{R}^n$ homéomorphe à $[0,1]$ qui est la réuni
 
 31) Soit $f= (f_1, . . . , f_n):\mathbf{I}\rightarrow \mathbf{R}^n$ une application de classe $C^1$ telle que $f'(t)= 0\not$ pour tout $t\in \mathbf{I}$.
 
-a) On fait l’hypothèse que $f_1'(t)>0$ pour tout $t\in \mathbf{I}$. Pour tout $j\in$ $\{2, . . . , n\}$, démontrer qu’il existe une application continue $g_j:\mathbf{R}\rightarrow \mathbf{R}$ telle que $f_j(x) =g_j(f_1(x))$ pour tout $x\in \mathbf{I}$. En déduire que $f(\mathbf{I})$ est isotope à un segment. b) Démontrer qu’il existe un nombre réel $\delta  >0$ et une application continue injective $j: [-\delta ,1 +\delta ]\times \mathbf{B}_{n-1}\rightarrow \mathbf{R}^n$ telle que $j(t,0) =f(t)$ pour tout $t\in \mathbf{I}$. Déduire de l’exercice 30 que, pour tout $\tau \in [0,1[$, l’ensemble $f(\mathbf{I})$ est isotope à $f([\tau ,1])$.
+a) On fait l’hypothèse que $f'_1(t)>0$ pour tout $t\in \mathbf{I}$. Pour tout $j\in$ $\{2, . . . , n\}$, démontrer qu’il existe une application continue $g_j:\mathbf{R}\rightarrow \mathbf{R}$ telle que $f_j(x) =g_j(f_1(x))$ pour tout $x\in \mathbf{I}$. En déduire que $f(\mathbf{I})$ est isotope à un segment. b) Démontrer qu’il existe un nombre réel $\delta  >0$ et une application continue injective $j: [-\delta ,1 +\delta ]\times \mathbf{B}_{n-1}\rightarrow \mathbf{R}^n$ telle que $j(t,0) =f(t)$ pour tout $t\in \mathbf{I}$. Déduire de l’exercice 30 que, pour tout $\tau \in [0,1[$, l’ensemble $f(\mathbf{I})$ est isotope à $f([\tau ,1])$.
 
 c) Démontrer que $f(\mathbf{I})$ est isotope à un segment.
 
@@ -1006,7 +1006,7 @@ a) Soit $p$ un point de A tel que A soit modéré en $p$. Soit $(V_n)$ une suite
 
 b) On suppose que A est modéré en tout point. Démontrer qu’il existe un homéomorphisme de $\mathbf{R}^3$ sur lui-même qui applique A sur un segment. En déduire que $\mathbf{R}^3-$ A est connexe et simplement connexe par arcs.
 
-33) [^4] Soit L un sous-espace de$\surd \mathbf{R}^3$ comme défini dans l’exercice$\surd$ 23, où l’on prend $u= (1-i)/$ 2 et $v= (1 +i)/$ 2. Soient $a$ et $r$ des nombres réels tels que $0<2r < a <1-2r$. On pose $p_1= (0,-a),p_2= (0,0)$ et $p_3= (0, a);q_1= (-1,-a),q_2= (-1,0),q_3= (-1, a);q_1'= (1,-a)$, $q'_2= (1,0),q_3'= (1, a)$. Soit K la réunion des ensembles $p_1+rL,p_2+rL$, $p_3+rL$ et des segments $[q_1, p_1-rv]$, $[q_2, p_2-ru]$, $[q_3, p_3-ru]$, $[q'_1, p_1+ru]$, $[q'_2, p_3+ru]$, $[q'_3, p_3+rv]$.
+33) [^4] Soit L un sous-espace de$\surd \mathbf{R}^3$ comme défini dans l’exercice$\surd$ 23, où l’on prend $u= (1-i)/$ 2 et $v= (1 +i)/$ 2. Soient $a$ et $r$ des nombres réels tels que $0<2r < a <1-2r$. On pose $p_1= (0,-a),p_2= (0,0)$ et $p_3= (0, a);q_1= (-1,-a),q_2= (-1,0),q_3= (-1, a);q'_1= (1,-a)$, $q'_2= (1,0),q'_3= (1, a)$. Soit K la réunion des ensembles $p_1+rL,p_2+rL$, $p_3+rL$ et des segments $[q_1, p_1-rv]$, $[q_2, p_2-ru]$, $[q_3, p_3-ru]$, $[q'_1, p_1+ru]$, $[q'_2, p_3+ru]$, $[q'_3, p_3+rv]$.
 
 Soit $(x_n)_{n\in\mathbf{Z}}$ une famille strictement croissante de nombres réels telle que $_{n\rightarrow -\infty}$lim $x_n=-1$ et $_{n\rightarrow}$lim$_{+\infty}x_n= 1$ ; pour $n\in \mathbf{Z}$, on pose $z_n=y_n= 1- |x_n|$. Pour $n\in \mathbf{Z}$, on note $f_n$ l’application de $[-1,1]^3$ dans $\mathbf{R}^3$ donnée par
 

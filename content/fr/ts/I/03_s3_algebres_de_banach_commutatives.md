@@ -41,7 +41,7 @@ subsections:
       pdf_page: 57
 statements: 48
 exercises: 29
-content_sha256: f6ce510d33b48cb7d981701098ef96e8029d1308ef57b9c441604229ff35a6a2
+content_sha256: 445e9146c9eeefd8b29764fbeefa325bce58c3d482affbdca27df267b4572a78
 ---
 
 ## § 3. ALGÈBRES DE BANACH COMMUTATIVES
@@ -320,7 +320,7 @@ Soit Δ le disque unité des nombres complexes $z$ tels que $|z|\leqslant 1$. Sa
 
 Soit A une algèbre de Banach commutative. Pour tout $x\in A$, la fonction $\mathscr{G}(x)$ appartient à l’algèbre de Banach commutative $\mathscr{C}_0(\mathsf{X}(A))$ des fonctions continues sur $\mathsf{X}(A)$ tendant vers 0 à l’infini.
 
-Par définition (cf. n$^o7$ de I, p. 9), la fonction $\mathscr{G}_A'(x) :\chi \mapsto \chi (x)$ est continue sur $\mathsf{X}'(A)$ et nulle en 0. Comme $\mathsf{X}'(A)$ s’identifie au compactifié d’Alexandroff de $\mathsf{X}(A)$ d’après le cor. 1 de I, p. 29, la proposition en résulte.
+Par définition (cf. n$^o7$ de I, p. 9), la fonction $\mathscr{G}'_A(x) :\chi \mapsto \chi (x)$ est continue sur $\mathsf{X}'(A)$ et nulle en 0. Comme $\mathsf{X}'(A)$ s’identifie au compactifié d’Alexandroff de $\mathsf{X}(A)$ d’après le cor. 1 de I, p. 29, la proposition en résulte.
 
 #### Proposition 6 {#ts-i-s3-prop-6 .statement tag=0289}
 

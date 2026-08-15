@@ -53,7 +53,7 @@ subsections:
       pdf_page: 269
 statements: 55
 exercises: 0
-content_sha256: b1b76876d098a24e07699b6e549cfac761d3daf621520455e8d5e02046dc7838
+content_sha256: 37b2c7cd5bfaa28e1b581f965f47720bf613ac211342286ac26e5a88bf490518
 ---
 
 ## § 1. HOMOTOPIES, HOMÉOTOPIES
@@ -698,11 +698,11 @@ Soient X et Y des espaces topologiques et soit $f$ une application continue de X
 
 On appelle cône de l’application $f$ et on note Côn$(f)$ l’espace topologique déduit de Cyl($f$) par contraction de $f_0(X)$.
 
-Notons $\beta_f': Y\rightarrow$ Côn$(f)$ la composition de l’application canonique $\beta_f: Y\rightarrow$ Cyl($f$) et de la surjection canonique de Cyl($f$) sur Côn$(f)$. L’application $\beta_f'$ est continue et définit un homéomorphisme de Y sur une partie fermée de Côn$(f)$, appelée base du cône, et que nous identifierons ainsi à Y.
+Notons $\beta '_f: Y\rightarrow$ Côn$(f)$ la composition de l’application canonique $\beta_f: Y\rightarrow$ Cyl($f$) et de la surjection canonique de Cyl($f$) sur Côn$(f)$. L’application $\beta '_f$ est continue et définit un homéomorphisme de Y sur une partie fermée de Côn$(f)$, appelée base du cône, et que nous identifierons ainsi à Y.
 
-Notons $\alpha '_f: X\times \mathbf{I}\rightarrow$ Côn$(f)$ la composition de l’application $\alpha_f$ et de la surjection canonique de Cyl($f$) sur Côn$(f)$. L’application $\alpha '_f$ est une homotopie dont l’origine est une application constante et dont le terme est l’application $\beta_f'\circ f$.
+Notons $\alpha '_f: X\times \mathbf{I}\rightarrow$ Côn$(f)$ la composition de l’application $\alpha_f$ et de la surjection canonique de Cyl($f$) sur Côn$(f)$. L’application $\alpha '_f$ est une homotopie dont l’origine est une application constante et dont le terme est l’application $\beta '_f\circ f$.
 
-Si X est vide, l’application $\beta_f'$ est un homéomorphisme de Y sur Côn$(f)$.
+Si X est vide, l’application $\beta '_f$ est un homéomorphisme de Y sur Côn$(f)$.
 
 Supposons que X ne soit pas vide. Notons alors $s$ le point-base de l’espace Cyl($f$)$/f_0(X)$; on dit que c’est le sommet du cône Côn$(f)$. Comme $f_0(X)$ est fermé dans Cyl($f$), l’application canonique $\pi :$ Cyl($f$)$\rightarrow$ Côn$(f)$ induit un homéomorphisme de Cyl($f$)$-f_0(X)$ sur Côn$(f)-\{s\}($III, p. 252). Le sommet du cône Côn$(f)$ n’appartient pas à sa base ; l’injection canonique de Y dans Côn$(f)-\{s\}$ est une homéotopie (III, p. 239, prop. 6).
 
@@ -710,9 +710,9 @@ Soit $\sigma_f:$ Cyl($f$)$\times \mathbf{I}\rightarrow$ Cyl($f$) la contraction 
 
 Proposition 11 (Propriété universelle des cônes)
 
-Soit Z un espace topologique, soit $\beta : Y\rightarrow Z$ une application continue et soit $\alpha : X\times \mathbf{I}\rightarrow Z$ une homotopie dont l’origine est une application constante et dont le terme est égal à $\beta \circ f$. Il existe une unique application continue $\varphi$ de Côn$(f)$ dans Z telle que $\alpha =\varphi \circ \alpha '_f$ et $\beta =\varphi \circ \beta_f'$.
+Soit Z un espace topologique, soit $\beta : Y\rightarrow Z$ une application continue et soit $\alpha : X\times \mathbf{I}\rightarrow Z$ une homotopie dont l’origine est une application constante et dont le terme est égal à $\beta \circ f$. Il existe une unique application continue $\varphi$ de Côn$(f)$ dans Z telle que $\alpha =\varphi \circ \alpha '_f$ et $\beta =\varphi \circ \beta '_f$.
 
-D’après la propriété universelle des cylindres (III, p. 238, prop. 4), il existe une unique application continue $h:$ Cyl($f$)$\rightarrow$ Z telle que $\alpha =h\circ \alpha_f$ et $\beta =h\circ \beta_f$. Comme l’origine de $\alpha$ est une application constante, la restriction de $h$ au sous-espace $\alpha_f(X\times \{0\})$ est constante. Il existe donc une unique application continue $\varphi :$ Côn$(f)\rightarrow Z$ telle que $h=\varphi \circ \pi$, où $\pi$ désigne la surjection canonique de Cyl($f$) sur Côn$(f)$. L’application $\varphi$ vérifie $\alpha =\varphi \circ \alpha '_f$ et $\beta =\varphi \circ \beta_f'$ et c’est la seule ayant ces propriétés, car les images de $\alpha '_f$ et $\beta '_f$ recouvrent Côn$(f)$.
+D’après la propriété universelle des cylindres (III, p. 238, prop. 4), il existe une unique application continue $h:$ Cyl($f$)$\rightarrow$ Z telle que $\alpha =h\circ \alpha_f$ et $\beta =h\circ \beta_f$. Comme l’origine de $\alpha$ est une application constante, la restriction de $h$ au sous-espace $\alpha_f(X\times \{0\})$ est constante. Il existe donc une unique application continue $\varphi :$ Côn$(f)\rightarrow Z$ telle que $h=\varphi \circ \pi$, où $\pi$ désigne la surjection canonique de Cyl($f$) sur Côn$(f)$. L’application $\varphi$ vérifie $\alpha =\varphi \circ \alpha '_f$ et $\beta =\varphi \circ \beta '_f$ et c’est la seule ayant ces propriétés, car les images de $\alpha '_f$ et $\beta '_f$ recouvrent Côn$(f)$.
 
 #### Exemple 1 {#ta-iii-s1-n10-exa-1 .statement tag=01WK}
 
@@ -730,4 +730,4 @@ Soit X un espace topologique et soit A un sous-espace de X ; notons $i$ l’inje
 
 Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une application continue. L’application canonique $\alpha '_f: X\times \mathbf{I}\rightarrow$ Côn$(f)$ est constante sur $X\times  \{0\}$ donc définit une application continue $\gamma_f: C(X)\rightarrow$ Côn$(f)$. La restriction à $C'(X)$ de l’application $\gamma_f$ est injective et stricte et définit par passage aux sous-espaces un homéomorphisme du cône ouvert $C'(X)$ sur le complémentaire de Y dans Côn$(f)$.
 
-Identifions la base du cône C(X) à l’espace X et notons $u$ l’application continue de $Y\cup_fC(X)$ dans Côn$(f)$ déduite des applications $\beta '_f: Y\rightarrow$ Côn$(f)$ et $\gamma_f: C(X)\rightarrow$ Côn$(f)$. Inversement, soit $v:$ Côn$(f)\rightarrow Y\cup_fC(X)$ l’unique application continue telle que $v\circ \alpha '_f$ soit l’application canonique de $X\times \mathbf{I}$ sur C(X) et $v\circ \beta_f'$ soit l’application canonique de Y sur $Y\cup_fC(X)$. Les applications $u$ et $v$ sont des homéomorphismes réciproques l’un de l’autre.
+Identifions la base du cône C(X) à l’espace X et notons $u$ l’application continue de $Y\cup_fC(X)$ dans Côn$(f)$ déduite des applications $\beta '_f: Y\rightarrow$ Côn$(f)$ et $\gamma_f: C(X)\rightarrow$ Côn$(f)$. Inversement, soit $v:$ Côn$(f)\rightarrow Y\cup_fC(X)$ l’unique application continue telle que $v\circ \alpha '_f$ soit l’application canonique de $X\times \mathbf{I}$ sur C(X) et $v\circ \beta '_f$ soit l’application canonique de Y sur $Y\cup_fC(X)$. Les applications $u$ et $v$ sont des homéomorphismes réciproques l’un de l’autre.

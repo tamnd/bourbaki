@@ -22,7 +22,7 @@ subsections:
       pdf_page: 56
 statements: 7
 exercises: 4
-content_sha256: 7046fc843f9773a8a235bb7ed604583756a929994f3e17dd9804f6c86204f1b0
+content_sha256: 924d229258599545b2e684cddeddef2bd0e7a75b8d133f6a0fc19c591581eb15
 ---
 
 ## APPENDIX I POLYNOMIAL MAPS AND ZARISKI TOPOLOGY
@@ -55,7 +55,7 @@ A subset F of V is said to be closed if there exists a family $(f_i)_{i\in I}$ o
 
 $x\in F\Leftarrow \Rightarrow x\in V$ and $f_i(x) = 0$ for all $i\in I$.
 
-It is clear that $\emptyset$ and V are closed, and that any intersection of closed sets is closed. If F is defined by the vanishing of the $f_i$ and $F'$ by that of the $f_j'$, $F\cup F'$ is defined by the vanishing of the $f_if_j'$, and hence is closed. Thus, there exists a topology on V such that the closed sets for this topology are exactly the closed sets in the above sense. This topology is called the Zariski topology on V. For any $f\in A_V$, we denote by $V_f$ the set of $x\in V$ such that $f(x)\not= 0$; this is an open subset of V. It is clear that the $V_f$ form a base of the Zariski topology. (If $k$ is a topological field, the canonical topology of V is finer than the Zariski topology.)
+It is clear that $\emptyset$ and V are closed, and that any intersection of closed sets is closed. If F is defined by the vanishing of the $f_i$ and $F'$ by that of the $f'_j$, $F\cup F'$ is defined by the vanishing of the $f_if'_j$, and hence is closed. Thus, there exists a topology on V such that the closed sets for this topology are exactly the closed sets in the above sense. This topology is called the Zariski topology on V. For any $f\in A_V$, we denote by $V_f$ the set of $x\in V$ such that $f(x)\not= 0$; this is an open subset of V. It is clear that the $V_f$ form a base of the Zariski topology. (If $k$ is a topological field, the canonical topology of V is finer than the Zariski topology.)
 
 The map $x \rightarrow \mathfrak{m}_x$ of the Cor. of Prop. 1 can be considered as a map $\varepsilon$ from V to the prime spectrum Spec(A$_V)$ of $A_V($Commutative Algebra, Chap. II, §4, no. 3, Def. 4). It is immediate that the Zariski topology is the inverse image under $\varepsilon$ of the topology of Spec(A$_V)$.
 

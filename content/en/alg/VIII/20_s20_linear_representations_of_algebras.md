@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: 102a5c45fd7645a18ac63b9894961bbdec83bb4353a1446bb479f1723d74a758
+content_sha256: 096f38a0bf1310e2d760b503e1e5c3ddbacbf9fe609328bb5c9fb3181b649a91
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -93,7 +93,7 @@ Let L be a commutative K-algebra, and let $(M, \pi )$ be a linear representation
 
 Suppose that K is a field and that L is a nonzero commutative K-algebra.
 
-Let $\pi$ and $\pi '$ be linear representations of the algebra A. It follows from VIII, p. 37, Theorem 3 that the representations $\pi$ and $\pi '$ are isomorphic if and only if $\pi_{(L)}$ and $\pi_{(L)}'$ are.
+Let $\pi$ and $\pi '$ be linear representations of the algebra A. It follows from VIII, p. 37, Theorem 3 that the representations $\pi$ and $\pi '$ are isomorphic if and only if $\pi_{(L)}$ and $\pi '_{(L)}$ are.
 
 Suppose that K is a field. Let L be an extension of K. Consider the Grothendieck group $R_K(A)$ (resp. $R_L(A_{(L)}))$ of the A-modules that are finite-dimensional over K (resp. of the $A_{(L)}$-modules that are finite-dimensional over L). We have seen that the group homomorphism
 
@@ -537,26 +537,26 @@ $$
 
 for all $a, b\in A$ and every $f\in \Theta (A)$. The lemma follows.
 
-Since $j_2$ is injective, there exists at most one linear mapping $c$ that makes the diagram above commute. To prove its existence, we must prove that the image of $^tm\circ j_1$ is contained in that of $j_2$. In other words, we must prove that there exist, for every element $f$ of Θ(A), a natural number $n$ and elements $f_1', . . . , f_n', f_1'', . . . , f_n''$ of Θ(A) satisfying the relations
+Since $j_2$ is injective, there exists at most one linear mapping $c$ that makes the diagram above commute. To prove its existence, we must prove that the image of $^tm\circ j_1$ is contained in that of $j_2$. In other words, we must prove that there exist, for every element $f$ of Θ(A), a natural number $n$ and elements $f'_1, . . . , f'_n, f''_1, . . . , f''_n$ of Θ(A) satisfying the relations
 
 $$
-f(ab) =\sum_{i=1}^nf_i'(a)f_i''(b) \tag{16}
+f(ab) =\sum_{i=1}^nf'_i(a)f''_i(b) \tag{16}
 $$
 
 for $a, b\in A$. We will then have
 
 $$
-c(f) =\sum_{i=1}^nf_i'\otimes f_i'' \tag{17}
+c(f) =\sum_{i=1}^nf'_i\otimes f''_i \tag{17}
 $$
 
-By the corollary of VIII, p. 379, there exists a left A-module E of finite dimension over K with $f$ as a coefficient. Let $(e_1, . . . , e_n)$ be a basis of E, $(e^*_1, . . . , e^*_n)$ the dual basis, $x$ an element of E, and $x^*$ an element of $E^*$ such that $f=c_E(x, x^*)$. Set $f_i'=c_E(e_i, x^*)$ and $f_i''=c_E(x, e^*_i)$ for $i\in [1, n]$; for $a, b$ in A, we have
+By the corollary of VIII, p. 379, there exists a left A-module E of finite dimension over K with $f$ as a coefficient. Let $(e_1, . . . , e_n)$ be a basis of E, $(e^*_1, . . . , e^*_n)$ the dual basis, $x$ an element of E, and $x^*$ an element of $E^*$ such that $f=c_E(x, x^*)$. Set $f'_i=c_E(e_i, x^*)$ and $f''_i=c_E(x, e^*_i)$ for $i\in [1, n]$; for $a, b$ in A, we have
 
 $$
 f(ab) =\langle x^*, abx\rangle =\langle x^*a, bx\rangle =\sum_i\langle x^*a, e_i\rangle e^*_i, bx
 $$
 
 $$
-=\sum_i\langle x^*a, e_i\rangle \langle e^*_i, bx\rangle =\sum_i\langle x^*, ae_i\rangle \langle e^*_i, bx\rangle =\sum_if_i'(a)f_i''(b)
+=\sum_i\langle x^*a, e_i\rangle \langle e^*_i, bx\rangle =\sum_i\langle x^*, ae_i\rangle \langle e^*_i, bx\rangle =\sum_if'_i(a)f''_i(b)
 $$
 
 and therefore (16).
@@ -651,10 +651,10 @@ The last assertion follows from the corollary of VIII, p. 388: the set $\mathscr
 
 (iii) $\Rightarrow$ (ii): Let $\mathscr{C}$ be a hereditary set of classes of A-modules of finite dimension over K. Then $\Theta_{\mathscr{C}}(A)$ is the union of the directed family $(\Theta_E(A))_{E\in\mathscr{C}}$. Since $\Theta_E(A)$ is a subcogebra of Θ(A) for every $E\in \mathscr{C}$ (VIII, p. 390, formula (19)), the same holds for $\Theta_{\mathscr{C}}(A)$.
 
-(ii) $\Rightarrow$ (i): Let $f\in \Theta (A)$. Let $f_1', . . . , f_n', f_1'', . . . , f_n''$ be elements of Θ(A) satisfying $c(f) =\sum f_i'\otimes f_i''$. For $a,b$ in A, we have $f(ab) =\sum f_i'(a)f_i''(b)$, and therefore
+(ii) $\Rightarrow$ (i): Let $f\in \Theta (A)$. Let $f'_1, . . . , f'_n, f''_1, . . . , f''_n$ be elements of Θ(A) satisfying $c(f) =\sum f'_i\otimes f''_i$. For $a,b$ in A, we have $f(ab) =\sum f'_i(a)f''_i(b)$, and therefore
 
 $$
-bf=\sum_{i=1}^nf_i''(b)f_i',f a=\sum_{i=1}^nf_i'(a)f_i''
+bf=\sum_{i=1}^nf''_i(b)f'_i,f a=\sum_{i=1}^nf'_i(a)f''_i
 $$
 
 (VIII, p. 375, formulas (3) and (4)). Consequently, a subcogebra of Θ(A) is an $(A$, A)-sub-bimodule.

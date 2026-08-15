@@ -53,7 +53,7 @@ subsections:
       pdf_page: 82
 statements: 35
 exercises: 0
-content_sha256: 87a541a4bfee295892f6aca8b0e6995640615daddcbc4e8ffdb23d8c0604e798
+content_sha256: 03bd61380b7a235a657a269549c5f7aaa6572d8529a5b483171e40583b5e1a1c
 ---
 
 ## § 3. FAISCEAUX
@@ -104,7 +104,7 @@ Soit $\mathscr{F}$ un faisceau sur B et soit $B'$ une partie ouverte de B ; le p
 
 Soit B un espace topologique. Soit $\mathscr{F}= (\mathscr{F}(U), f_{UV})$ un préfaisceau sur B, relatif à une base $\mathscr{B}$ de la topologie de B.
 
-Supposons donné, pour tout ouvert $U\in \mathscr{B}$, un sous-ensemble $\mathscr{L}(U)$ de $\mathscr{F}(U)$. Si l’on a $f_{UV}(\mathscr{L}(V))\subset \mathscr{L}(U)$ pour tout couple $(U,V)$ d’éléments de $\mathscr{B}$ tel que $U\subset V$, le couple $\mathscr{L}= ((\mathscr{L}(U))_{U\in\mathscr{B}},(f_{UV}'$ )), où $f_{UV}':\mathscr{L}(V)\rightarrow \mathscr{L}(U)$ est l’application déduite de $f_{UV}$, est un préfaisceau. Un tel préfaisceau s’appelle un sous-préfaisceau de $\mathscr{F}$. Comme les applications $f_{UV}'$ sont déterminées par la donnée du préfaisceau $\mathscr{F}$ et de la famille $(\mathscr{L}(U))_{U\in\mathscr{B}}$, on dit aussi par abus de langage que la famille $(\mathscr{L}(U))_{U\in\mathscr{B}}$ est un sous-préfaisceau de $\mathscr{F}$.
+Supposons donné, pour tout ouvert $U\in \mathscr{B}$, un sous-ensemble $\mathscr{L}(U)$ de $\mathscr{F}(U)$. Si l’on a $f_{UV}(\mathscr{L}(V))\subset \mathscr{L}(U)$ pour tout couple $(U,V)$ d’éléments de $\mathscr{B}$ tel que $U\subset V$, le couple $\mathscr{L}= ((\mathscr{L}(U))_{U\in\mathscr{B}},(f'_{UV}))$, où $f'_{UV}:\mathscr{L}(V)\rightarrow \mathscr{L}(U)$ est l’application déduite de $f_{UV}$, est un préfaisceau. Un tel préfaisceau s’appelle un sous-préfaisceau de $\mathscr{F}$. Comme les applications $f'_{UV}$ sont déterminées par la donnée du préfaisceau $\mathscr{F}$ et de la famille $(\mathscr{L}(U))_{U\in\mathscr{B}}$, on dit aussi par abus de langage que la famille $(\mathscr{L}(U))_{U\in\mathscr{B}}$ est un sous-préfaisceau de $\mathscr{F}$.
 
 Supposons maintenant que $\mathscr{F}$ soit un faisceau sur B et soit, pour toute partie ouverte U de B$,\mathscr{L}(U)$, un sous-ensemble de $\mathscr{F}(U)$. Pour que $(\mathscr{L}(U))_{U\in\mathscr{B}}$ soit un sous-préfaisceau de $\mathscr{F}$, et que ce préfaisceau soit un faisceau, il faut et il suffit que la condition suivante soit satisfaite :
 
@@ -442,7 +442,7 @@ Ces résultats permettent de déduire un énoncé relatif aux B-espaces étalés
 
 Soient A et B des espaces topologiques et $u: A\rightarrow B$ une application continue.
 
-Soit $\mathscr{F}= (\mathscr{F}(U), f_{UV})$ un préfaisceau sur A. On définit un préfaisceau $\mathscr{F}'$ sur B de la façon suivante : pour tout ouvert U de B, posons $\mathscr{F}'(U) =\mathscr{F}(\overset{-1}{u}(U))$ et pour tout couple $(U,V)$ d’ouverts de B tel que U $\subset V$, posons $f_{UV}'=f_{\overset{-1}{u}(U)\overset{-1}{u}(V)}$. Alors $(\mathscr{F}'(U), f_{UV}'$ ) est un préfaisceau sur B. On le note $u_*(\mathscr{F})$ et on l’appelle le préfaisceau image directe du préfaisceau $\mathscr{F}$ par l’application $u$.
+Soit $\mathscr{F}= (\mathscr{F}(U), f_{UV})$ un préfaisceau sur A. On définit un préfaisceau $\mathscr{F}'$ sur B de la façon suivante : pour tout ouvert U de B, posons $\mathscr{F}'(U) =\mathscr{F}(\overset{-1}{u}(U))$ et pour tout couple $(U,V)$ d’ouverts de B tel que U $\subset V$, posons $f'_{UV}=f_{\overset{-1}{u}(U)\overset{-1}{u}(V)}$. Alors $(\mathscr{F}'(U), f'_{UV})$ est un préfaisceau sur B. On le note $u_*(\mathscr{F})$ et on l’appelle le préfaisceau image directe du préfaisceau $\mathscr{F}$ par l’application $u$.
 
 Si $(U_i)_{i\in I}$ est une famille d’ouverts de B, on a $\overset{-1}{u}(\bigcup_{i\in I}U_i) =$ $\bigcup_{i\in I}\overset{-1}{u}(U_i)$ et $\overset{-1}{u}(\bigcap_{i\in I}U_i) =\bigcap_{i\in I}\overset{-1}{u}(U_i)$ (E, II, p. 25, prop. 3 et 4). Il en résulte aussitôt que, si $\mathscr{F}$ jouit de la propriété $(F_1)$ (resp. $(F_2)$) des faisceaux (I, p. 43), il en est de même de $u_*(\mathscr{F})$. Par suite, l’image directe d’un faisceau est un faisceau.
 
@@ -452,7 +452,7 @@ Soit C un espace topologique et soit $v: B\rightarrow$ C une application continu
 
 #### Exemple 1 {#ta-i-s3-n7-exa-1 .statement tag=01OE}
 
-Soient B un espace topologique, A un sous-espace de B et $\mathscr{F}= (\mathscr{F}(U), f_{UV})$ un préfaisceau sur A. Notons $i: A\rightarrow B$ l’injection canonique. On a alors $i_*(\mathscr{F}) = (\mathscr{F}'(U), f_{UV}'$ ) où pour tout ouvert U de B$,\mathscr{F}'(U) =\mathscr{F}(U\cap A)$, et pour tout couple $(U,V)$ d’ouverts de B avec $U\subset V,f_{UV}'=f_{(U\cap A)(V\cap A)}$.
+Soient B un espace topologique, A un sous-espace de B et $\mathscr{F}= (\mathscr{F}(U), f_{UV})$ un préfaisceau sur A. Notons $i: A\rightarrow B$ l’injection canonique. On a alors $i_*(\mathscr{F}) = (\mathscr{F}'(U), f'_{UV})$ où pour tout ouvert U de B$,\mathscr{F}'(U) =\mathscr{F}(U\cap A)$, et pour tout couple $(U,V)$ d’ouverts de B avec $U\subset V,f'_{UV}=f_{(U\cap A)(V\cap A)}$.
 
 Soit maintenant $\mathscr{G}$ un préfaisceau sur B. On appelle image réciproque du préfaisceau $\mathscr{G}$ par $u$, et l’on note $u^*(\mathscr{G})$ le faisceau $\mathscr{C}_B(A; E_{\mathscr{G}})$ sur A des B-morphismes à valeurs dans le B-espace $E_{\mathscr{G}}($I, p. 45, exemple 4). Il est canoniquement isomorphe au faisceau sur A des sections du A-espace étalé $A\times_BE_{\mathscr{G}}$ (I, p. 9, prop. 3). On en déduit (I, p. 52, exemple 2) un isomorphisme canonique $\varphi$ de l’espace étalé associé à $u^*(\mathscr{G})$ sur le A-espace $A\times_BE_{\mathscr{G}}$. Si de plus $\mathscr{G}$ est un faisceau, on a pour tout point $a$ de A une bijection canonique $\psi_a:u^*(\mathscr{G})_a\rightarrow \mathscr{G}_{u(a)}:$ pour tout voisinage ouvert U de $a$ dans A et tout B-morphisme $f: U\rightarrow E_{\mathscr{G}}$, on a
 

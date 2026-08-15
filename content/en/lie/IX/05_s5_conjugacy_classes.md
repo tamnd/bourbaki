@@ -29,7 +29,7 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: 4b91101cc1891e53ac126bac850c8fc44e5df06c21ee56732fa70a347324e326
+content_sha256: 3f426d926882951431d94183bc438fab427a521e6c9e82a63ccbf5726084177e
 ---
 
 ## § 5. CONJUGACY CLASSES
@@ -84,7 +84,7 @@ It follows that, for all chambers C and all $w\in W,w(C)$ is a chamber and that 
 
 #### Proposition 2 {#lie-ix-s5-prop-2 .statement tag=01DX}
 
-a) The group $W_a$ (resp. $W'_a)$ is the semi-direct product of W by $N(G,T)$ (resp. $\Gamma (T))$; the subgroup $W_a$ of $W_a'$ is normal.
+a) The group $W_a$ (resp. $W'_a)$ is the semi-direct product of W by $N(G,T)$ (resp. $\Gamma (T))$; the subgroup $W_a$ of $W'_a$ is normal.
 
 b) The group W (resp. $W_a)$ operates simply-transitively on the set of chambers (resp. alcoves ).
 
@@ -98,7 +98,7 @@ If $w\in W$ and $\gamma \in \Gamma$(T), then $wt_{\gamma}w^{-1}=t_{w(\gamma)}$ a
 
 Let A be an alcove of $\mathfrak{t},\overline{A}$ its closure, and $H_A$ the stabilizer of A in $W'_a$.
 
-a) The group $W_a'$ is the semi-direct product of $H_A$ by $W_a$.
+a) The group $W'_a$ is the semi-direct product of $H_A$ by $W_a$.
 
 b) The exponential map $A\rightarrow T$ and the canonical injection $T\rightarrow G$ induce by passage to the quotients and to subsets homeomorphisms
 
@@ -346,7 +346,7 @@ The restriction of $\varphi_A$ to $W\times A\subset (G/T)\times A$ makes $W\time
 
 #### Remark 3 {#lie-ix-s5-n4-rem-3 .statement tag=01EK}
 
-Denote by $\mathfrak{g}_r$ the inverse image of $G_r$ under the exponential map and by $\varepsilon :\mathfrak{g}_r\rightarrow G_r$ the map induced by exp$_G$. The map $(g, x) \rightarrow$ (Ad $g)(x)$ from $G\times \mathfrak{t}_r$ to $\mathfrak{g}_r$ defines by passage to the quotient a map $\psi_r: (G/T)\times \mathfrak{t}_r\rightarrow \mathfrak{g}_r$. We have $\varepsilon \circ \psi_r=\varphi_r$. Let $w\in W, \gamma \in \Gamma (T)$ and $\omega \in W_a'$ be such that $\omega (z) =w(z) +\gamma$ for all $z\in \mathfrak{t}$; then $\psi_r((\overline{g}, x)\omega ) =\psi_r(\overline{g}, x)-$ (Ad $g)(\gamma )$ for $g\in G, x\in \mathfrak{t}_r$, so $\psi_r((\overline{g}, x)\omega ) =\psi_r(\overline{g}, x)$ if and only if $\gamma = 0$. It follows (cf. General Topology, Chap. XI, in preparation) that $\psi_r$ is a principal covering of $\mathfrak{g}_r$ with group W, and that $\varepsilon :\mathfrak{g}_r\rightarrow G_r$ is a covering associated to the principal covering $\varphi_r$, with fibre isomorphic to the $W'_a$-set $W'_a/W$.
+Denote by $\mathfrak{g}_r$ the inverse image of $G_r$ under the exponential map and by $\varepsilon :\mathfrak{g}_r\rightarrow G_r$ the map induced by exp$_G$. The map $(g, x) \rightarrow$ (Ad $g)(x)$ from $G\times \mathfrak{t}_r$ to $\mathfrak{g}_r$ defines by passage to the quotient a map $\psi_r: (G/T)\times \mathfrak{t}_r\rightarrow \mathfrak{g}_r$. We have $\varepsilon \circ \psi_r=\varphi_r$. Let $w\in W, \gamma \in \Gamma (T)$ and $\omega \in W'_a$ be such that $\omega (z) =w(z) +\gamma$ for all $z\in \mathfrak{t}$; then $\psi_r((\overline{g}, x)\omega ) =\psi_r(\overline{g}, x)-$ (Ad $g)(\gamma )$ for $g\in G, x\in \mathfrak{t}_r$, so $\psi_r((\overline{g}, x)\omega ) =\psi_r(\overline{g}, x)$ if and only if $\gamma = 0$. It follows (cf. General Topology, Chap. XI, in preparation) that $\psi_r$ is a principal covering of $\mathfrak{g}_r$ with group W, and that $\varepsilon :\mathfrak{g}_r\rightarrow G_r$ is a covering associated to the principal covering $\varphi_r$, with fibre isomorphic to the $W'_a$-set $W'_a/W$.
 
 ### Exercises {#lie-ix-s5-exercises}
 
