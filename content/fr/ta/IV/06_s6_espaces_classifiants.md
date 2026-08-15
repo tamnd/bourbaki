@@ -33,7 +33,7 @@ subsections:
       pdf_page: 465
 statements: 32
 exercises: 0
-content_sha256: ffc17a4e71cf538455847dc109c2f4ab628788523087bde6910c89a20829fb0c
+content_sha256: 5426dfb0347472981986682ac6292fb5587c243494c03881db448165ff162074
 ---
 
 ## § 6. ESPACES CLASSIFIANTS
@@ -820,7 +820,7 @@ e) Démontrer que le quotient de G par son groupe dérivé est isomorphe à $\ma
 
 19) Soit G un graphe ; notons S l’ensemble de ses sommets, A celui de ses arêtes orientées et $|G|$ sa réalisation géométrique. Notons $j: S\rightarrow  |G|$ et $p:\mathbf{I}\times A\rightarrow  |G|$ les applications canoniques. On suppose que les ensembles S et A sont finis.
 
-On dit qu’une application $f:|G| \rightarrow \mathbf{R}^n$ est affine (resp. affine par morceaux) si pour toute arête $a\in A$, l’application $t\mapstochar \rightarrow f\circ p(a, t)$ est affine (resp. affine par morceaux). (Cf. III, p. 331, exerc. 6.)
+On dit qu’une application $f:|G| \rightarrow \mathbf{R}^n$ est affine (resp. affine par morceaux) si pour toute arête $a\in A$, l’application $t\mapsto f\circ p(a, t)$ est affine (resp. affine par morceaux). (Cf. III, p. 331, exerc. 6.)
 
 a) Démontrer qu’il existe une application injective et affine par morceaux de $|G|$ dans $\mathbf{R}^3$. (Commencer par démontrer qu’il existe un entier $n\geqslant 1$ et une application injective et affine par morceaux de $|G|$ dans $\mathbf{R}^n.)$ b) Pour toute application continue injective $f:|G| \rightarrow \mathbf{R}^n$, démontrer qu’il existe une application continue injective $g:|G| \rightarrow \mathbf{R}^n$ qui est affine par morceaux et homotope à $f$.
 

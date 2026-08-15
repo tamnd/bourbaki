@@ -25,7 +25,7 @@ subsections:
       pdf_page: 315
 statements: 27
 exercises: 0
-content_sha256: 8ae9f3b618ebca68a814b8db68dc1f380d756c9ac56c880f36553601d75c8f9c
+content_sha256: 5a7cdbd2c571d6c2f3d26c449c1235840d01ccaa4350e98d28dde54a459561c1
 ---
 
 ## § 3. GROUPOÏDE DE POINCARÉ
@@ -172,7 +172,7 @@ Soit X un espace topologique et soit C une composante connexe par arcs de X. Si 
 
 #### Remarque 3 {#ta-iii-s3-n1-rem-3 .statement tag=01YM}
 
-Soit X un espace topologique et soient $x,y,z$ des points de X. L’application $(c, d)\mapstochar \rightarrow c*d$ de $\Lambda_{x,y}(X)\times \Lambda_{y,z}(X)$ dans $\Lambda_{x,z}(X)$ est continue (III, p. 258, corollaire de la prop. 2). On prendra garde que l’application de composition $\varpi_{x,y}(X)\times \varpi_{y,z}(X)\rightarrow \varpi_{x,z}(X)$ qui s’en déduit n’est pas nécessairement continue lorsqu’on munit les ensembles $\varpi_{x,y}(X),\varpi_{y,z}(X)$ et $\varpi_{x,z}(X)$ des topologies quotient (cf. TG, I, p. 35 et III, p. 259). Cependant, pour tout $\gamma_0\in \varpi_{x,y}(X)$ et tout $\delta_0\in \varpi_{y,z}(X)$, les applications partielles $\gamma \mapsto \gamma \delta_0$ de $\varpi_{x,y}(X)$ dans $\varpi_{x,z}(X)$ et $\delta \mapsto \gamma_0\delta$ de $\varpi_{y,z}(X)$ dans $\varpi_{x,z}(X)$ sont des homéomorphismes. En effet, soit $c_0\in \Lambda_{x,y}(X)$ un chemin de classe $\gamma_0$. L’application $d\mapsto c_0*d$ est une application continue de $\Lambda_{y,z}(X)$ dans $\Lambda_{x,z}(X)$. L’application $\delta \mapsto \gamma_0\delta$ s’en déduit par passage aux quotients, donc est continue. Il en est de même de l’application $\delta '\mapsto \gamma_0^{-1}\delta '$ de $\varpi_{x,z}(X)$ dans $\varpi_{y,z}(X)$. Ces deux applications étant réciproques l’une de l’autre, ce sont des homéomorphismes. On raisonne de façon analogue pour l’application $\gamma \mapsto \gamma \delta_0$. Voir aussi IV, p. 374.
+Soit X un espace topologique et soient $x,y,z$ des points de X. L’application $(c, d)\mapsto c*d$ de $\Lambda_{x,y}(X)\times \Lambda_{y,z}(X)$ dans $\Lambda_{x,z}(X)$ est continue (III, p. 258, corollaire de la prop. 2). On prendra garde que l’application de composition $\varpi_{x,y}(X)\times \varpi_{y,z}(X)\rightarrow \varpi_{x,z}(X)$ qui s’en déduit n’est pas nécessairement continue lorsqu’on munit les ensembles $\varpi_{x,y}(X),\varpi_{y,z}(X)$ et $\varpi_{x,z}(X)$ des topologies quotient (cf. TG, I, p. 35 et III, p. 259). Cependant, pour tout $\gamma_0\in \varpi_{x,y}(X)$ et tout $\delta_0\in \varpi_{y,z}(X)$, les applications partielles $\gamma \mapsto \gamma \delta_0$ de $\varpi_{x,y}(X)$ dans $\varpi_{x,z}(X)$ et $\delta \mapsto \gamma_0\delta$ de $\varpi_{y,z}(X)$ dans $\varpi_{x,z}(X)$ sont des homéomorphismes. En effet, soit $c_0\in \Lambda_{x,y}(X)$ un chemin de classe $\gamma_0$. L’application $d\mapsto c_0*d$ est une application continue de $\Lambda_{y,z}(X)$ dans $\Lambda_{x,z}(X)$. L’application $\delta \mapsto \gamma_0\delta$ s’en déduit par passage aux quotients, donc est continue. Il en est de même de l’application $\delta '\mapsto \gamma_0^{-1}\delta '$ de $\varpi_{x,z}(X)$ dans $\varpi_{y,z}(X)$. Ces deux applications étant réciproques l’une de l’autre, ce sont des homéomorphismes. On raisonne de façon analogue pour l’application $\gamma \mapsto \gamma \delta_0$. Voir aussi IV, p. 374.
 
 ### 2. Fonctorialité du groupoïde de Poincaré
 
