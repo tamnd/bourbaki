@@ -1376,7 +1376,7 @@ books:
               statements: 27
               exercises: 0
               extraction: native
-              content_sha256: 8ae9f3b618ebca68a814b8db68dc1f380d756c9ac56c880f36553601d75c8f9c
+              content_sha256: 5a7cdbd2c571d6c2f3d26c449c1235840d01ccaa4350e98d28dde54a459561c1
             - kind: section
               section: 4
               title: Homotopie et revêtements
@@ -1494,7 +1494,7 @@ books:
               statements: 32
               exercises: 0
               extraction: native
-              content_sha256: ffc17a4e71cf538455847dc109c2f4ab628788523087bde6910c89a20829fb0c
+              content_sha256: 5426dfb0347472981986682ac6292fb5587c243494c03881db448165ff162074
     - id: ts-i-ii-fr
       chapters:
         - chapter: I
@@ -1628,7 +1628,7 @@ books:
               statements: 0
               exercises: 0
               extraction: native
-              content_sha256: 29ae5756e4274b0cc9d0a00975d3dadb705f894055c8de00b1f1aeaeb88e2079
+              content_sha256: f0a34bd9c54759663a590c75007545becf8100c62def4810e12d3cafda8a3506
             - kind: section
               section: 1
               title: Transformation de Fourier
