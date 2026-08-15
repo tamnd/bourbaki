@@ -68,3 +68,70 @@ errata:
           why: Section 10 has no corollary under its Theorem 1. The fact this exercise is
             reproving, that every nilpotent element lies in a Borel subalgebra, is
             Corollary 2 of Theorem 2 on page 170.
+
+# The table of contents of a volume, corrected before bourbaki toc build reads it.
+# These are errors of the Acrobat text layer and of the printing itself, not of the
+# reading of the pages.
+contents:
+    - book: ens-i-iv
+      errata:
+        - says: '3. Met?ods .of proof.'
+          read: '3. Methods of proof.'
+          why: The Acrobat text layer of the printed contents, pdf page 9, reads Met?ods
+            .of where the page prints Methods of.
+        - says: '4. ConjunctIon'
+          read: '4. Conjunction'
+          why: The text layer of the printed contents, pdf page 9, capitalises the i of
+            Conjunction.
+        - says: '7. Complement ofa set. The empty set'
+          read: '7. Complement of a set. The empty set'
+          why: The text layer of the printed contents, pdf page 10, runs of a together
+            into ofa.
+        - says: '§ 5. Product ofa family of sets'
+          read: '§ 5. Product of a family of sets'
+          why: The text layer of the printed contents, pdf page 11, runs of a together
+            into ofa.
+        - says: '1. Definition oran order relation'
+          read: '1. Definition of an order relation'
+          why: The text layer of the printed contents, pdf page 12, reads of an as oran.
+        - says: '4. Ordered subsets. Product or ordered sets'
+          read: '4. Ordered subsets. Product of ordered sets'
+          why: The text layer of the printed contents, pdf page 12, reads of as or.
+        - says: '5. Increasing mappings ................. ''" ... .... ..'
+          read: '5. Increasing mappings ...............................'
+          why: The text layer of the printed contents, pdf page 12, sets a stray quote
+            mark in the run of leader dots, and the reader takes it for the end of the
+            title.
+        - says: '7. Greatest dement and least dement'
+          read: '7. Greatest element and least element'
+          why: The text layer of the printed contents, pdf page 12, reads element as
+            dement, twice on the one line.
+        - says: '§ 2. Wdl-ordered sets'
+          read: '§ 2. Well-ordered sets'
+          why: The text layer of the printed contents, pdf page 12, reads Well- as Wdl-.
+        - says: '5. Isomorphisms orwell-ordered sets.'
+          read: '5. Isomorphisms of well-ordered sets.'
+          why: The text layer of the printed contents, pdf page 12, runs of well
+            together into orwell.
+        - says: '§ 3. Equipotent sets. Cardinals ................. ''" ...... "'
+          read: '§ 3. Equipotent sets. Cardinals .............................'
+          why: The text layer of the printed contents, pdf page 12, sets two stray quote
+            marks in the run of leader dots, and the reader takes the first for the end
+            of the title.
+        - says: '3. Properties of infinite cardinals ...... " ...... , . . . . ..'
+          read: '3. Properties of infinite cardinals .......................'
+          why: The text layer of the printed contents, pdf page 13, sets a stray quote
+            mark and a comma in the run of leader dots.
+        - says: '6. Examples of final structures ..... " .... ............'
+          read: '6. Examples of final structures ..........................'
+          why: The text layer of the printed contents, pdf page 14, sets a stray quote
+            mark in the run of leader dots.
+        - says: '5. Direct limits ....................................                                            201'
+          read: '5. Direct limits ....................................                                            202'
+          why: The contents of chapter III puts no. 5 of § 7 on page 201 and the volume
+            prints its heading on page 202. Page 201 is no. 4 throughout, from the end
+            of the proof of Theorem 1 to the Remark that weakens its condition (iii),
+            and it ends in a display; page 202 opens on the two Examples that close no.
+            4 and then heads DIRECT LIMITS. The running head of 201 is CONDITIONS FOR AN
+            INVERSE LIMIT TO BE NON-EMPTY, § 7.4, and the first page whose running head
+            reads DIRECT LIMITS is 203.
