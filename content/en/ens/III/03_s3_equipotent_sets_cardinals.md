@@ -8,43 +8,46 @@ section_title: Equipotent sets. Cardinals
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 157-165, 229-230
 pdf_pages: 0163-0171, 0235-0236
 extraction: ocr
 subsections:
     - "no": 1
       title: THE CARDINAL OF A SET
-      page: 0
+      page: 157
       pdf_page: 163
     - "no": 2
       title: ORDER RELATION BETWEEN CARDINALS
-      page: 0
+      page: 158
       pdf_page: 164
     - "no": 3
       title: OPERATIONS ON CARDINALS
-      page: 0
+      page: 160
       pdf_page: 166
     - "no": 4
       title: PROPERTIES OF THE CARDINALS 0 AND 1
-      page: 0
+      page: 162
       pdf_page: 168
     - "no": 5
       title: EXPONENTIATION OF CARDINALS
-      page: 0
+      page: 163
       pdf_page: 169
     - "no": 6
       title: ORDER RELATION AND OPERATIONS ON CARDINALS
-      page: 0
+      page: 164
       pdf_page: 170
-statements: 18
+statements: 33
 exercises: 6
-content_sha256: cbfbef3490be9c0347a20ea3b5dc0817819106a6ba05003afeb39f66b022fd24
+content_sha256: f273e9b170258a117da79ef4f3ab93ad25f22069f52032c43829c9a9bc0d6628
 ---
 
 ## 3. EQUIPOTENT SETS. CARDINALS
 
 ### 1. THE CARDINAL OF A SET
 
-**Definition 1.** A set $X$ is *said to be equipotent to a set $Y$ if there exists a bijection of $X$ onto $Y$. The relation “$X$ is equipotent to $Y$” is denoted by $\operatorname{Eq}(X,Y)$.
+#### Definition 1 {#ens-iii-s3-def-1 .statement tag=03QU}
+
+A set $X$ is *said to be equipotent to a set $Y$ if there exists a bijection of $X$ onto $Y$. The relation “$X$ is equipotent to $Y$” is denoted by $\operatorname{Eq}(X,Y)$.
 
 The relations $\operatorname{Eq}(X,Y)$ and $\operatorname{Eq}(Y,X)$ are clearly equivalent, so that the relation $\operatorname{Eq}(X,Y)$ is *symmetric*; when it is true, we say that $X$ and $Y$ are *equipotent*. Next, $\operatorname{Eq}(X,X)$ is true. Finally, the relation $\operatorname{Eq}(X,Y)$ is *transitive* since the composition of two bijections is a bijection (Chapter II, § 3, no. 8, Theorem 1); it is therefore an *equivalence relation*, reflexive on every set.
 
@@ -66,11 +69,15 @@ $$\tau_Z(\mathrm{Eq}(X, Z)) = \tau_Z(\mathrm{Eq}(Y, Z)),$$
 
 which justifies the following definition :
 
-**Definition 2.** *The set* $\tau_Z(\mathrm{Eq}(X, Z))$ *is called the cardinal of* X (or the *power* of X) *and is written* $\mathrm{Card}(X)$.
+#### Definition 2 {#ens-iii-s3-def-2 .statement tag=03QV}
+
+*The set* $\tau_Z(\mathrm{Eq}(X, Z))$ *is called the cardinal of* X (or the *power* of X) *and is written* $\mathrm{Card}(X)$.
 
 Since $\mathrm{Eq}(X, X)$ is true, $\mathrm{Card}(X)$ is *equipotent* to X (Chapter I, § 4, Scheme S5). We have therefore proved the following result :
 
-**Proposition 1.** *Two sets* X *and* Y *are equipotent if and only if their cardinals are equal.*
+#### Proposition 1 {#ens-iii-s3-prop-1 .statement tag=03QW}
+
+*Two sets* X *and* Y *are equipotent if and only if their cardinals are equal.*
 
 *Examples*
 
@@ -86,7 +93,9 @@ Since $\mathrm{Eq}(X, X)$ is true, $\mathrm{Card}(X)$ is *equipotent* to X (Chap
 
 The relation "X is equipotent to a subset of Y" is equivalent to "there exists an injection of X into Y"; it is also equivalent to the relation "Card (X) is equipotent to a subset of Card (Y)" (Chapter II, § 3, no. 8, Theorem 1).
 
-**Theorem 1.** *The relation $R\{\xi,\eta\}$: “$\xi$ and $\eta$ are cardinals and $\xi$ is equipotent to a subset of $\eta$” is a well-ordering relation (§ 2, no. 1).*
+#### Theorem 1 {#ens-iii-s3-thm-1 .statement tag=03QX}
+
+*The relation $R\{\xi,\eta\}$: “$\xi$ and $\eta$ are cardinals and $\xi$ is equipotent to a subset of $\eta$” is a well-ordering relation (§ 2, no. 1).*
 
 Since $R\{\xi,\xi\}$ is true for every cardinal $\xi$, what must be proved is that, for every set E of cardinals the relation “$\xi\in E$ and $\eta\in E$ and $R\{\xi,\eta\}$” is a well-ordering relation on E. Consider the set $A=\bigcup_{\xi\in E}\xi$.
 
@@ -104,11 +113,17 @@ For clearly the second relation implies the first. Conversely, if $\xi$ is equip
 
 Clearly we have $0\leq\xi$ for every cardinal $\xi$, and $1\leq\xi$ for every cardinal $\xi\neq0$.
 
-**Corollary 1.** *Given any two sets, one of them is equipotent to a subset of the other.*
+#### Corollary 1 {#ens-iii-s3-thm-1-cor-1 .statement tag=03QY}
 
-**Corollary 2.** *Two sets each of which is equipotent to a subset of the other are equipotent.*
+*Given any two sets, one of them is equipotent to a subset of the other.*
 
-**Remark.** Given any set A, there exists a set whose elements are the cardinals $\operatorname{Card}(X)$ for all the subsets X of A, namely, the set of objects of the form $\operatorname{Card}(X)$ for $X\in\mathfrak{P}(A)$ (Chapter II, § 1, no. 6). For every cardinal $\alpha$ the relation “$\xi$ is a cardinal and $\xi\leq\alpha$” is therefore collectivizing in $\xi$ (Chapter II, § 1, no. 4), because it is equivalent to the
+#### Corollary 2 {#ens-iii-s3-thm-1-cor-2 .statement tag=03QZ}
+
+*Two sets each of which is equipotent to a subset of the other are equipotent.*
+
+#### Remark {#ens-iii-s3-n2-rem-1 .statement tag=03R0}
+
+Given any set A, there exists a set whose elements are the cardinals $\operatorname{Card}(X)$ for all the subsets X of A, namely, the set of objects of the form $\operatorname{Card}(X)$ for $X\in\mathfrak{P}(A)$ (Chapter II, § 1, no. 6). For every cardinal $\alpha$ the relation “$\xi$ is a cardinal and $\xi\leq\alpha$” is therefore collectivizing in $\xi$ (Chapter II, § 1, no. 4), because it is equivalent to the
 
 relation "$\mathfrak{x}$ is of the form Card (X) for $X \subset \mathfrak{a}$"; the set of all $\mathfrak{x}$ satisfying this relation is called the *set of cardinals* $\leqslant \mathfrak{a}$.
 
@@ -146,7 +161,9 @@ For there exists a bijection of P (resp. S) onto the product (resp. sum) of the 
 
 For there exists a mapping of the sum S of the $\mathrm{E}_\iota$ onto the union of the $\mathrm{E}_\iota$ (Chapter II, § 4, no. 8); the Corollary therefore follows from Propositions 3 and 4.
 
-**Proposition 5.** (a) *Let* $(\mathfrak{a}_\iota)_{\iota \in \mathrm{I}}$ *be a family of cardinals, and let f be a bijection of a set* K *onto the index set* I. *Then*
+#### Proposition 5 {#ens-iii-s3-prop-5 .statement tag=03R1}
+
+(a) *Let* $(\mathfrak{a}_\iota)_{\iota \in \mathrm{I}}$ *be a family of cardinals, and let f be a bijection of a set* K *onto the index set* I. *Then*
 
 $$\sum_{x \in \mathrm{K}} \mathfrak{a}_{f(x)} = \sum_{\iota \in \mathrm{I}} \mathfrak{a}_\iota, \qquad \mathop{\mathrm{P}}_{x \in \mathrm{K}} \mathfrak{a}_{f(x)} = \mathop{\mathrm{P}}_{\iota \in \mathrm{I}} \mathfrak{a}_\iota.$$
 
@@ -176,7 +193,9 @@ are also mutually disjoint.
 
 depend only on $\mathfrak{a}$ and $\mathfrak{b}$ (by reason of Proposition 5(a)); these cardinals are called respectively the *sum* and the *product* of $\mathfrak{a}$ and $\mathfrak{b}$, and are denoted by $\mathfrak{a} + \mathfrak{b}$ and $\mathfrak{a}\mathfrak{b}$. Similarly for the sum and product of three or more cardinals. Proposition 5 then implies the following corollary :
 
-**Corollary.** *Let $\mathfrak{a}$, $\mathfrak{b}$, $\mathfrak{c}$ be cardinals. Then*
+#### Corollary {#ens-iii-s3-n3-cor-2 .statement tag=03R2}
+
+*Let $\mathfrak{a}$, $\mathfrak{b}$, $\mathfrak{c}$ be cardinals. Then*
 
 (1) $$\mathfrak{a} + \mathfrak{b} = \mathfrak{b} + \mathfrak{a}, \qquad \mathfrak{a}\mathfrak{b} = \mathfrak{b}\mathfrak{a};$$
 (2) $$\mathfrak{a} + (\mathfrak{b} + \mathfrak{c}) = (\mathfrak{a} + \mathfrak{b}) + \mathfrak{c}, \qquad \mathfrak{a}(\mathfrak{b}\mathfrak{c}) = (\mathfrak{a}\mathfrak{b})\mathfrak{c};$$
@@ -184,25 +203,35 @@ depend only on $\mathfrak{a}$ and $\mathfrak{b}$ (by reason of Proposition 5(a))
 
 ### 4. PROPERTIES OF THE CARDINALS 0 AND 1
 
-**Proposition 6.** *Let $(\mathfrak{a}_\iota)_{\iota \in \mathrm{I}}$ be a family of cardinals, and let $\mathrm{J}$ (resp. $\mathrm{K}$) be a subset of $\mathrm{I}$ such that $\mathfrak{a}_\iota = 0$ for all $\iota \notin \mathrm{J}$ (resp. $\mathfrak{a}_\iota = 1$ for all $\iota \notin \mathrm{K}$). Then*
+#### Proposition 6 {#ens-iii-s3-prop-6 .statement tag=03R3}
+
+*Let $(\mathfrak{a}_\iota)_{\iota \in \mathrm{I}}$ be a family of cardinals, and let $\mathrm{J}$ (resp. $\mathrm{K}$) be a subset of $\mathrm{I}$ such that $\mathfrak{a}_\iota = 0$ for all $\iota \notin \mathrm{J}$ (resp. $\mathfrak{a}_\iota = 1$ for all $\iota \notin \mathrm{K}$). Then*
 
 $$\sum_{\iota \in \mathrm{I}} \mathfrak{a}_\iota = \sum_{\iota \in \mathrm{J}} \mathfrak{a}_\iota \qquad \left(\text{resp. } \mathbf{P}_{\iota \in \mathrm{I}}\, \mathfrak{a}_\iota = \mathbf{P}_{\iota \in \mathrm{K}}\, \mathfrak{a}_\iota\right).$$
 
 The proposition is obvious as regards the sum, for the sum $\mathrm{S}_\mathrm{I}$ of the family of sets $(\mathfrak{a}_\iota)_{\iota \in \mathrm{I}}$ is equipotent to the union of the sum $\mathrm{S}_\mathrm{J}$ of the family $(\mathfrak{a}_\iota)_{\iota \in \mathrm{I}}$ and the empty set, and hence equipotent to $\mathrm{S}_\mathrm{J}$. The assertion concerning products follows from the fact that the projection $\mathrm{pr}_\mathrm{K}$ of the product set $\prod_{\iota \in \mathrm{I}} \mathfrak{a}_\iota$ onto the partial product $\prod_{\iota \in \mathrm{K}} \mathfrak{a}_\iota$ is a bijection (Chapter II, § 5, no. 5, Remark 1).
 
-**Corollary 1.** *For every cardinal $\mathfrak{a}$ we have $\mathfrak{a} + 0 = \mathfrak{a} . 1 = \mathfrak{a}$.*
+#### Corollary 1 {#ens-iii-s3-prop-6-cor-1 .statement tag=03R4}
 
-**Corollary 2.** *Let $\mathfrak{a}$ and $\mathfrak{b}$ be cardinals and let $\mathrm{I}$ be a set equipotent to $\mathfrak{b}$. For each $\iota \in \mathrm{I}$ let $\mathfrak{a}_\iota = \mathfrak{a}$, $\mathfrak{c}_\iota = 1$. Then*
+*For every cardinal $\mathfrak{a}$ we have $\mathfrak{a} + 0 = \mathfrak{a} . 1 = \mathfrak{a}$.*
+
+#### Corollary 2 {#ens-iii-s3-prop-6-cor-2 .statement tag=03R5}
+
+*Let $\mathfrak{a}$ and $\mathfrak{b}$ be cardinals and let $\mathrm{I}$ be a set equipotent to $\mathfrak{b}$. For each $\iota \in \mathrm{I}$ let $\mathfrak{a}_\iota = \mathfrak{a}$, $\mathfrak{c}_\iota = 1$. Then*
 
 $$\mathfrak{a}\mathfrak{b} = \sum_{\iota \in \mathrm{I}} \mathfrak{a}_\iota, \qquad \mathfrak{b} = \sum_{\iota \in \mathrm{I}} \mathfrak{c}_\iota.$$
 
 The second formula is a consequence of the fact that any set is the union of its one-element subsets. The first formula follows from the second by multiplying by $\mathfrak{a}$ and using Corollary 1.
 
-**Proposition 7.** *Let $(\mathfrak{a}_\iota)_{\iota \in \mathrm{I}}$ be a family of cardinals. Then $\mathbf{P}_{\iota \in \mathrm{I}}\, \mathfrak{a}_\iota \neq 0$ if and only if $\mathfrak{a}_\iota \neq 0$ for all $\iota \in \mathrm{I}$.*
+#### Proposition 7 {#ens-iii-s3-prop-7 .statement tag=03R6}
+
+*Let $(\mathfrak{a}_\iota)_{\iota \in \mathrm{I}}$ be a family of cardinals. Then $\mathbf{P}_{\iota \in \mathrm{I}}\, \mathfrak{a}_\iota \neq 0$ if and only if $\mathfrak{a}_\iota \neq 0$ for all $\iota \in \mathrm{I}$.*
 
 This is merely a translation of the condition that a product set should be non-empty (Chapter II, § 5, no. 4, Proposition 5, Corollary 2).
 
-**Proposition 8.** *If $\mathfrak{a}$ and $\mathfrak{b}$ are cardinals such that $\mathfrak{a} + 1 = \mathfrak{b} + 1$, then $\mathfrak{a} = \mathfrak{b}$.*
+#### Proposition 8 {#ens-iii-s3-prop-8 .statement tag=03R7}
+
+*If $\mathfrak{a}$ and $\mathfrak{b}$ are cardinals such that $\mathfrak{a} + 1 = \mathfrak{b} + 1$, then $\mathfrak{a} = \mathfrak{b}$.*
 
 Let $X = \mathfrak{a} + 1 = \mathfrak{b} + 1$. Then there exist subsets A, B of X with cardinals $\mathfrak{a}$, $\mathfrak{b}$, respectively, such that the complements $X - A, X - B$ each consist of a single element. Let $u$, $v$ be these elements. The intersection $C = A \cap B$ has as complement in X the set $\{u, v\}$. If $u = v$, then $A = B = C$, so that $\mathfrak{a} = \mathfrak{b}$. If $u \neq v$, then $A = C \cup \{v\}$, $B = C \cup \{u\}$, and therefore $\mathfrak{a} = 1 + \mathrm{Card}\ (C) = \mathfrak{b}$.
 
@@ -300,7 +329,9 @@ Put $\mathfrak{b}_\iota = \mathfrak{a}_\iota$ if $\iota \in J$, and $\mathfrak{b
 
 For $\mathfrak{a}^\mathfrak{b} \leqslant \mathfrak{a}'^\mathfrak{b}$ by Propositions 10 and 14, and $\mathfrak{a}'^\mathfrak{b} \leqslant \mathfrak{a}'^{\mathfrak{b}'}$ by Proposition 10 and Corollary 1 to Proposition 14.
 
-**Theorem 2** (Cantor). — *For each cardinal* $\mathfrak{a}$, *we have* $2^\mathfrak{a} > \mathfrak{a}$.
+#### Theorem 2 (Cantor) {#ens-iii-s3-thm-2 .statement tag=03R8}
+
+— *For each cardinal* $\mathfrak{a}$, *we have* $2^\mathfrak{a} > \mathfrak{a}$.
 
 We have $\mathrm{Card}(\mathfrak{P}(\mathfrak{a})) = 2^\mathfrak{a}$ (no. 5, Proposition 12). The mapping $x \to \{x\}$ $(x \in \mathfrak{a})$ is an injection of $\mathfrak{a}$ into $\mathfrak{P}(\mathfrak{a})$, whence $\mathfrak{a} \leqslant 2^\mathfrak{a}$. Hence it is enough to show that $\mathfrak{a} \neq 2^\mathfrak{a}$, i.e., that for every mapping $f$ of $\mathfrak{a}$ into $\mathfrak{P}(\mathfrak{a})$, the image $f(\mathfrak{a})$ is distinct from $\mathfrak{P}(\mathfrak{a})$. Let X be the set of all $x \in \mathfrak{a}$ such that $x \notin f(x)$. If $x \in X$, we have $x \notin f(x)$, whence $f(x) \neq X$; if $x \in \mathfrak{a} - X$, we have $x \in f(x)$ and $x \notin X$, whence $f(x) = X$. This shows that $X \notin f(\mathfrak{a})$ and proves the theorem.
 

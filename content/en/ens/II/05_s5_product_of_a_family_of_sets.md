@@ -8,40 +8,41 @@ section_title: Product of a family of sets
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 101-112, 127
 pdf_pages: 0108-0119, 0134-0134
 extraction: ocr
 subsections:
     - "no": 1
       title: THE AXIOM OF THE SET OF SUBSETS
-      page: 0
+      page: 101
       pdf_page: 108
     - "no": 2
       title: SET OF MAPPINGS OF ONE SET INTO ANOTHER
-      page: 0
+      page: 102
       pdf_page: 109
     - "no": 3
       title: DEFINITIONS OF THE PRODUCT OF A FAMILY OF SETS
-      page: 0
+      page: 103
       pdf_page: 110
     - "no": 4
       title: PARTIAL PRODUCTS
-      page: 0
+      page: 105
       pdf_page: 112
     - "no": 5
       title: ASSOCIATIVITY OF PRODUCTS OF SETS
-      page: 0
+      page: 106
       pdf_page: 113
     - "no": 6
       title: DISTRIBUTIVITY FORMULAE
-      page: 0
+      page: 107
       pdf_page: 114
     - "no": 7
       title: EXTENSION OF MAPPINGS TO PRODUCTS
-      page: 0
+      page: 111
       pdf_page: 118
-statements: 12
+statements: 22
 exercises: 2
-content_sha256: 15cedf30fce86eafc61dbbf384c81a26e43c4f7cca308330672b35e9e9dd34f2
+content_sha256: 0cbe6d5272c5b2d610912cb1413201e4eddff7119a5a5e1e2b9560ff0a55cece
 ---
 
 ## 5. PRODUCT OF A FAMILY OF SETS
@@ -70,7 +71,9 @@ Let $E$, $F$ be sets. The graph of a mapping of $E$ into $F$ is a subset of $E \
 
 ¶ Let $E$, $E'$, $F$, $F'$ be sets. Let $u$ be a mapping of $E'$ into $E$, and let $v$ be a mapping of $F$ into $F'$. Then the function $f \mapsto v \circ f \circ u$ is a mapping of $\mathscr{F}(E, F)$ into $\mathscr{F}(E', F')$.
 
-**Proposition 2.** (1) *If $u$ is a surjection of $E'$ onto $E$ and $v$ an injection of $F$ into $F'$, then the mapping $f \mapsto v \circ f \circ u$ is injective.*
+#### Proposition 2 {#ens-ii-s5-prop-2 .statement tag=03Q5}
+
+(1) *If $u$ is a surjection of $E'$ onto $E$ and $v$ an injection of $F$ into $F'$, then the mapping $f \mapsto v \circ f \circ u$ is injective.*
 
 (2) *If $u$ is an injection of $E'$ into $E$ and $v$ a surjection of $F$ onto $F'$, then the mapping $f \mapsto v \circ f \circ u$ is surjective.*
 
@@ -86,13 +89,17 @@ is injective.
 
 (2) Let $r'$ be a retraction of $u$ and let $s'$ be a section of $v$. For every mapping $f' : E' \to F'$ we have $v \circ (s' \circ f' \circ r') \circ u = f'$, which shows that the mapping $f \mapsto v \circ f \circ u$ is surjective.
 
-**Corollary.** *If $u$ is a bijection of $E'$ onto $E$ and $v$ is a bijection of $F$ onto $F'$, then $f \mapsto v \circ f \circ u$ is bijective.*
+#### Corollary {#ens-ii-s5-n2-cor-1 .statement tag=03Q6}
+
+*If $u$ is a bijection of $E'$ onto $E$ and $v$ is a bijection of $F$ onto $F'$, then $f \mapsto v \circ f \circ u$ is bijective.*
 
 Let $A$, $B$, $C$ be three sets and let $f$ be a mapping of $B \times C$ into $A$. For every $y \in C$ let $f(\mathord{\cdot}, y)$ be the partial mapping $x \mapsto f(x,y)$ of $B$ into $A$ (§ 3, no. 9); the function $y \mapsto f(\mathord{\cdot}, y)$ is a mapping of $C$ into $\mathscr{F}(B, A)$
 
 exists a unique mapping $f$ of $\mathrm{B} \times \mathrm{C}$ into A such that $g(y) = f(\bullet, y)$ for each $y \in \mathrm{C}$, namely the mapping $(x, y) \to (g(y))(x)$. Hence :
 
-**Proposition 3.** *If for every mapping $f$ of* $\mathrm{B} \times \mathrm{C}$ *into* A *we denote by $\tilde{f}$ the mapping $y \to f(\bullet, y)$ of* C *into* $\mathscr{F}(\mathrm{B}, \mathrm{A})$, *then the function $f \to \tilde{f}$ is a bijection* (called the *canonical bijection*) *of* $\mathscr{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$ *onto* $\mathscr{F}(\mathrm{C}, \mathscr{F}(\mathrm{B}, \mathrm{A}))$.
+#### Proposition 3 {#ens-ii-s5-prop-3 .statement tag=03Q7}
+
+*If for every mapping $f$ of* $\mathrm{B} \times \mathrm{C}$ *into* A *we denote by $\tilde{f}$ the mapping $y \to f(\bullet, y)$ of* C *into* $\mathscr{F}(\mathrm{B}, \mathrm{A})$, *then the function $f \to \tilde{f}$ is a bijection* (called the *canonical bijection*) *of* $\mathscr{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$ *onto* $\mathscr{F}(\mathrm{C}, \mathscr{F}(\mathrm{B}, \mathrm{A}))$.
 
 Similarly we define a *canonical bijection* of $\mathscr{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$ onto $\mathscr{F}(\mathrm{B}, \mathscr{F}(\mathrm{C}, \mathrm{A}))$. By reason of the one-to-one correspondence between mappings and functional graphs, these bijections give rise to *canonical bijections* of $\mathrm{A}^{\mathrm{B} \times \mathrm{C}}$ onto $(\mathrm{A}^{\mathrm{B}})^{\mathrm{C}}$ (resp. $(\mathrm{A}^{\mathrm{C}})^{\mathrm{B}}$).
 
@@ -100,7 +107,9 @@ Similarly we define a *canonical bijection* of $\mathscr{F}(\mathrm{B} \times \m
 
 Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets and let F be a functional graph with domain I such that $\mathrm{F}(\iota) \in \mathrm{X}_\iota$ for each $\iota \in \mathrm{I}$. Then for each $\iota \in \mathrm{I}$ we have $\mathrm{F}(\iota) \in \mathrm{A} = \bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$, and therefore F is an element of $\mathfrak{P}(\mathrm{I} \times \mathrm{A})$. The functional graphs with the above property therefore form a subset of $\mathfrak{P}(\mathrm{I} \times \mathrm{A})$.
 
-**Definition 1.** *Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets. The set of functional graphs* F *with domain* I *such that* $\mathrm{F}(\iota) \in \mathrm{X}_\iota$ *for each* $\iota \in \mathrm{I}$ *is called the product of the family of sets $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ and is denoted by* $\prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota$. *For each* $\iota \in \mathrm{I}$, $\mathrm{X}_\iota$ *is called the factor of index $\iota$ in the product* $\prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota$. *The mapping* $\mathrm{F} \to \mathrm{F}(\iota)$ $\left( \mathrm{F} \in \prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota,\ \mathrm{F}(\iota) \in \mathrm{X}_\iota \right)$ *is called the coordinate function* (or *projection*) *of index $\iota$, and is denoted by* $\mathrm{pr}_\iota$.
+#### Definition 1 {#ens-ii-s5-def-1 .statement tag=03Q8}
+
+*Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets. The set of functional graphs* F *with domain* I *such that* $\mathrm{F}(\iota) \in \mathrm{X}_\iota$ *for each* $\iota \in \mathrm{I}$ *is called the product of the family of sets $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ and is denoted by* $\prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota$. *For each* $\iota \in \mathrm{I}$, $\mathrm{X}_\iota$ *is called the factor of index $\iota$ in the product* $\prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota$. *The mapping* $\mathrm{F} \to \mathrm{F}(\iota)$ $\left( \mathrm{F} \in \prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota,\ \mathrm{F}(\iota) \in \mathrm{X}_\iota \right)$ *is called the coordinate function* (or *projection*) *of index $\iota$, and is denoted by* $\mathrm{pr}_\iota$.
 
 $\mathrm{F}(\iota)$ is called the *coordinate of index* $\iota$ (or *projection of index* $\iota$) of F; the image $\mathrm{pr}_\iota\langle \mathrm{A} \rangle$ of a subset A of $\prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ under the coordinate function of index $\iota$ is called the *projection of index* $\iota$ of A. It is easily verified that $\mathrm{A} \subset \prod_{\iota \in \mathrm{I}} \mathrm{pr}_\iota \langle \mathrm{A} \rangle$.
 
@@ -142,19 +151,25 @@ $$A = \bigcup_{\iota \in I} X_\iota = \bigcup_{x \in K} X_{u(x)}$$
 
 Let $(X_\iota)_{\iota\in I}$ be a family of sets, and let $J$ be a subset of $I$. The product $\displaystyle\prod_{\iota\in J}X_\iota$ is called a *partial product* of $\displaystyle\prod_{\iota\in I}X_\iota$. If $f$ is a function whose graph $F$ is a member of $\displaystyle\prod_{\iota\in I}X_\iota$, then $F\circ\Delta_J$ (where $\Delta_J$ is the diagonal of $J\times J$) is the graph of the *restriction* of $f$ to $J$. Clearly $F\circ\Delta_J\in\displaystyle\prod_{\iota\in J}X_\iota$; the mapping $F\to F\circ\Delta_J$ of $\displaystyle\prod_{\iota\in I}X_\iota$ into $\displaystyle\prod_{\iota\in J}X_\iota$ is called the *projection of index* $J$ and is denoted by $\operatorname{pr}_J$.
 
-**Proposition 5.** *Let $(X_\iota)_{\iota\in I}$ be a family of sets and let $J$ be a subset of $I$. If for each $\iota\in I$ we have $X_\iota\ne\varnothing$, the projection $\operatorname{pr}_J$ is a mapping of $\displaystyle\prod_{\iota\in I}X_\iota$ onto $\displaystyle\prod_{\iota\in J}X_\iota$.*
+#### Proposition 5 {#ens-ii-s5-prop-5 .statement tag=03Q9}
+
+*Let $(X_\iota)_{\iota\in I}$ be a family of sets and let $J$ be a subset of $I$. If for each $\iota\in I$ we have $X_\iota\ne\varnothing$, the projection $\operatorname{pr}_J$ is a mapping of $\displaystyle\prod_{\iota\in I}X_\iota$ onto $\displaystyle\prod_{\iota\in J}X_\iota$.*
 
 In view of the remarks made above, it is enough to prove the following proposition :
 
-**Proposition 6.** *Let $(X_\iota)_{\iota\in I}$ be a family of sets such that $X_\iota\ne\varnothing$ for all $\iota\in I$. If $g$ is a mapping of $J\subset I$ into $A=\displaystyle\bigcup_{\iota\in I}X_\iota$, such that $g(\iota)\in X_\iota$ for all $\iota\in J$, then there exists an extension $f$ of $g$ to $I$ such that $f(\iota)\in X_\iota$ for all $\iota\in I$.*
+#### Proposition 6 {#ens-ii-s5-prop-6 .statement tag=03QA}
+
+*Let $(X_\iota)_{\iota\in I}$ be a family of sets such that $X_\iota\ne\varnothing$ for all $\iota\in I$. If $g$ is a mapping of $J\subset I$ into $A=\displaystyle\bigcup_{\iota\in I}X_\iota$, such that $g(\iota)\in X_\iota$ for all $\iota\in J$, then there exists an extension $f$ of $g$ to $I$ such that $f(\iota)\in X_\iota$ for all $\iota\in I$.*
 
 For each $\iota\in I-J$ let $T_\iota$ denote the term $\tau_\iota(y\in X_\iota)$. Since $X_\iota\ne\varnothing$ by hypothesis, we have $T_\iota\in X_\iota$ for all $\iota\in I-J$ (Chapter I, §4, no. 1). If $G$ is the graph of $g$, the graph $G\cup\left(\displaystyle\bigcup_{\iota\in I-J}\{(\iota,T_\iota)\}\right)$ is the graph of a function which has the required properties, as is immediately verified.
 
-**Corollary 1.** *Let $(X_\iota)_{\iota\in I}$ be a family of sets such that for each $\iota\in I$ we have $X_\iota\ne\varnothing$. Then for each $\alpha\in I$ the projection $\operatorname{pr}_\alpha$ is a mapping of $\displaystyle\prod_{\iota\in I}X_\iota$ onto $X_\alpha$.*
+#### Corollary 1 {#ens-ii-s5-prop-6-cor-1 .statement tag=03QB}
+
+*Let $(X_\iota)_{\iota\in I}$ be a family of sets such that for each $\iota\in I$ we have $X_\iota\ne\varnothing$. Then for each $\alpha\in I$ the projection $\operatorname{pr}_\alpha$ is a mapping of $\displaystyle\prod_{\iota\in I}X_\iota$ onto $X_\alpha$.*
 
 Apply Proposition 5 to the subset $J=\{\alpha\}$ of $I$ and note that $\operatorname{pr}_\alpha$ is the composition of the canonical mapping of $X_\alpha^{\{\alpha\}}$ onto $X_\alpha$ and the mapping $\operatorname{pr}_{\{\alpha\}}$.
 
-#### Corollary 2 {#ens-ii-s5-prop-4-cor-2 .statement tag=03IL}
+#### Corollary 2 {#ens-ii-s5-prop-6-cor-2 .statement tag=03QC}
 
 *Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets. Then $\prod\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota = \emptyset$ if and only if there exists $\iota \in \mathrm{I}$ such that $\mathrm{X}_\iota = \emptyset$.*
 
@@ -162,7 +177,7 @@ If we have $\mathrm{X}_\iota \neq \emptyset$ for each $\iota \in \mathrm{I}$, th
 
 Hence, if we have a family $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ of non-empty sets, we may introduce (as an auxiliary constant) a function $f$ with domain I such that $f(\iota) \in \mathrm{X}_\iota$ for all $\iota \in \mathrm{I}$. In practice one says : "take an element $x_\iota$ in each $\mathrm{X}_\iota$". Intuitively, we have thus "chosen" an element $x_\iota$ in each set $\mathrm{X}_\iota$; the introduction of the logical sign $\tau$ and the criteria governing its use absolve us from the necessity of formulating an "axiom of choice" to legalize this operation (cf. Summary of Results, §4, no. 10).
 
-#### Corollary 3 {#ens-ii-s5-prop-4-cor-3 .statement tag=03IM}
+#### Corollary 3 {#ens-ii-s5-prop-6-cor-3 .statement tag=03QD}
 
 *Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ and $(\mathrm{Y}_\iota)_{\iota \in \mathrm{I}}$ be two families of sets having the same index set I. If $\mathrm{X}_\iota \subset \mathrm{Y}_\iota$ for each $\iota \in \mathrm{I}$, then*
 
@@ -271,7 +286,9 @@ $$g(\lambda) \in X_{\lambda,\, f(\lambda)}$$
 
 and, *a fortiori*, $g(\lambda) \in \bigcup_{\iota \in J_\lambda} X_{\lambda, \iota}$. This completes the proof of the first formula. The proof of the second formula is analogous but simpler, and we leave it to the reader.
 
-**Corollary 1.** *Suppose that* $L \neq \emptyset$ *and that* $J_\lambda \neq \emptyset$ *for each* $\lambda \in L$. *If for e achindex* $\lambda \in L$ *the family* $(X_{\lambda, \iota})_{\iota \in J_\lambda}$ *is a partition of* $X_\lambda = \bigcup_{\iota \in J_\lambda} X_{\lambda, \iota}$, *then the family* $\left( \prod_{\lambda \in L} X_{\lambda, f(\lambda)} \right)_{f \in I}$ *is a partition of* $\prod_{\lambda \in L} X_\lambda$.
+#### Corollary 1 {#ens-ii-s5-prop-9-cor-1 .statement tag=03QE}
+
+*Suppose that* $L \neq \emptyset$ *and that* $J_\lambda \neq \emptyset$ *for each* $\lambda \in L$. *If for e achindex* $\lambda \in L$ *the family* $(X_{\lambda, \iota})_{\iota \in J_\lambda}$ *is a partition of* $X_\lambda = \bigcup_{\iota \in J_\lambda} X_{\lambda, \iota}$, *then the family* $\left( \prod_{\lambda \in L} X_{\lambda, f(\lambda)} \right)_{f \in I}$ *is a partition of* $\prod_{\lambda \in L} X_\lambda$.
 
 If we set
 
@@ -283,7 +300,9 @@ $$f(\lambda) \neq g(\lambda)$$
 
 and therefore, by virtue of the hypothesis, $X_{\lambda, f(\lambda)} \cap X_{\lambda, g(\lambda)} = \emptyset$. It follows that there is no graph belonging to $\mathrm{P}_f \cap \mathrm{P}_g$; for if G were such a graph, we would have $\mathrm{G}(\lambda) \in X_{\lambda, f(\lambda)} \cap X_{\lambda, g(\lambda)} = \emptyset$, which is absurd.
 
-**Corollary 2.** *Let* $(X_\iota)_{\iota \in I}$ *and* $(Y_\varkappa)_{\varkappa \in K}$ *be two families of sets. Then*
+#### Corollary 2 {#ens-ii-s5-prop-9-cor-2 .statement tag=03QF}
+
+*Let* $(X_\iota)_{\iota \in I}$ *and* $(Y_\varkappa)_{\varkappa \in K}$ *be two families of sets. Then*
 
 $$\left( \bigcup_{\iota \in I} X_\iota \right) \times \left( \bigcup_{\varkappa \in K} Y_\varkappa \right) = \bigcup_{(\iota, \varkappa) \in I \times K} (X_\iota \times Y_\varkappa)$$
 
@@ -293,7 +312,9 @@ $$\left( \bigcap_{\iota \in I} X_\iota \right) \times \left( \bigcap_{\varkappa 
 
 The proof follows the pattern of the proof of the Corollary to Proposition 8.
 
-**Proposition 10.** *Let* $(X_{\iota, \varkappa})_{(\iota, \varkappa) \in I \times K}$ *be a family of sets whose index set is the product of two sets* I *and* K. *If* $K \neq \emptyset$, *we have*
+#### Proposition 10 {#ens-ii-s5-prop-10 .statement tag=03QG}
+
+*Let* $(X_{\iota, \varkappa})_{(\iota, \varkappa) \in I \times K}$ *be a family of sets whose index set is the product of two sets* I *and* K. *If* $K \neq \emptyset$, *we have*
 
 $$\bigcap_{\varkappa \in K} \left( \prod_{\iota \in I} X_{\iota, \varkappa} \right) = \prod_{\iota \in I} \left( \bigcap_{K \in \varkappa} X_{\iota, \varkappa} \right).$$
 

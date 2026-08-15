@@ -8,44 +8,45 @@ section_title: Union and intersection of a family of sets
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 90-101, 125-126
 pdf_pages: 0097-0108, 0132-0133
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF THE UNION AND THE INTERSECTION OF A FAMILY OF SETS
-      page: 0
+      page: 90
       pdf_page: 97
     - "no": 2
       title: PROPERTIES OF UNION AND INTERSECTION
-      page: 0
+      page: 93
       pdf_page: 100
     - "no": 3
       title: IMAGES OF A UNION AND AN INTERSECTION
-      page: 0
+      page: 94
       pdf_page: 101
     - "no": 4
       title: COMPLEMENTS OF UNIONS AND INTERSECTIONS
-      page: 0
+      page: 96
       pdf_page: 103
     - "no": 5
       title: UNION AND INTERSECTION OF TWO SETS
-      page: 0
+      page: 96
       pdf_page: 103
     - "no": 6
       title: COVERINGS
-      page: 0
+      page: 98
       pdf_page: 105
     - "no": 7
       title: PARTITIONS
-      page: 0
+      page: 99
       pdf_page: 106
     - "no": 8
       title: SUM OF A FAMILY OF SETS
-      page: 0
+      page: 100
       pdf_page: 107
-statements: 10
+statements: 22
 exercises: 8
-content_sha256: 8e41d9364c862c0e6c822d7802196a688cbc939f7a4e22a5b18510eaa38a0b9a
+content_sha256: 02ffdad7ebf4f9a8cd9a37c23134dd73584756c2dd0be5a88773412a0dba6ac5
 ---
 
 ## 4. UNION AND INTERSECTION OF A FAMILY OF SETS
@@ -75,7 +76,9 @@ It is clear that if $I=\varnothing$, we have $\displaystyle\bigcup_{l\in I}X_l=\
 $$ (\forall l)((l\in I)\Longrightarrow(x\in X_l)) $$
 implies $x\in X_\alpha$ and therefore, by virtue of C52 (§1, no. 6), this relation is *collectivizing in $x$.*
 
-**Definition 2.** *Let $(X_l)_{l\in I}$ be a family of sets whose index set $I$ is not empty. The set $\mathcal{E}_x((\forall l)((l\in I)\Longrightarrow(x\in X_l)))$, that is to say, the set of all $x$ which belong to every set of the family $(X_l)_{l\in I}$, is called the intersection of the family and is denoted by*
+#### Definition 2 {#ens-ii-s4-def-2 .statement tag=03PT}
+
+*Let $(X_l)_{l\in I}$ be a family of sets whose index set $I$ is not empty. The set $\mathcal{E}_x((\forall l)((l\in I)\Longrightarrow(x\in X_l)))$, that is to say, the set of all $x$ which belong to every set of the family $(X_l)_{l\in I}$, is called the intersection of the family and is denoted by*
 $$\bigcap_{l\in I}X_l.$$
 
 If $I=\varnothing$, the relation $(\forall l)((l\in I)\Longrightarrow(x\in X_l))$ is not collectivizing in $x$; for it is a true relation and there exists no set $Y$ such that $x\in Y$ is a true relation, because $Y$ would then be the set of all objects (cf. §1, no. 7, Remark).
@@ -84,7 +87,9 @@ If $(X_l)_{l\in I}$ is a family of subsets of a set $E$ and if $I\neq\varnothing
 $$ (\forall l)((l\in I)\Longrightarrow(x\in X_l)); $$
 consequently it is collectivizing in $x$, and the set of all $x$ which satisfy this relation is equal to $\displaystyle\bigcap_{l\in I}X_l$. If $I=\varnothing$, the relation “$x\in E$ and $(\forall l)((l\in I)\Longrightarrow(x\in X_l))$” is equivalent to $x\in E$; it is therefore collectivizing in $x$, and the set of all $x$ which satisfy this relation is $E$. Hence we may state the following definition :
 
-**Definition 3.** *Let $(X_l)_{l\in I}$ be a family of subsets of a set $E$. The set*
+#### Definition 3 {#ens-ii-s4-def-3 .statement tag=03PU}
+
+*Let $(X_l)_{l\in I}$ be a family of subsets of a set $E$. The set*
 $$\mathcal{E}_x\left(x\in E\text{ and }(\forall l)((l\in I)\Longrightarrow(x\in X_l))\right),$$
 
 *in other words, the set of all $x$ which belong to* E *and to each of the sets* $X_\iota$, *is called the intersection of the family and is denoted by* $\bigcap\limits_{\iota \in I} X_\iota$.
@@ -95,7 +100,9 @@ $$\bigcap_{\iota \in \emptyset} X_\iota = E.$$
 
 But for a family $(X_\iota)_{\iota \in I}$ of subsets of E whose index set is not empty, the intersection $\bigcap\limits_{\iota \in I} X_\iota$ depends neither on E nor on the target of $\iota \rightarrow X_\iota$; and this justifies the use of the same notation in Definitions 2 and 3.
 
-**Proposition 1.** *Let* $(X_\iota)_{\iota \in I}$ *be a family of sets, and let $f$ be a mapping of a set* K *onto* I. *Then*
+#### Proposition 1 {#ens-ii-s4-prop-1 .statement tag=03PV}
+
+*Let* $(X_\iota)_{\iota \in I}$ *be a family of sets, and let $f$ be a mapping of a set* K *onto* I. *Then*
 
 $$\bigcup_{\varkappa \in K} X_{f(\varkappa)} = \bigcup_{\iota \in I} X_\iota,$$
 
@@ -289,13 +296,17 @@ from Proposition 4.
 
 ¶ We record also the following Proposition on complements :
 
-**Proposition 6.** *Let $f$ be a mapping of* A *into* B. *For every subset* Y *of* B, *we have*
+#### Proposition 6 {#ens-ii-s4-prop-6 .statement tag=03PW}
+
+*Let $f$ be a mapping of* A *into* B. *For every subset* Y *of* B, *we have*
 
 $$\overset{-1}{f}\langle \mathrm{B} - \mathrm{Y} \rangle = \overset{-1}{f}\langle \mathrm{B} \rangle - \overset{-1}{f}\langle \mathrm{Y} \rangle.$$
 
 For $x$ belongs to $\overset{-1}{f}\langle \mathrm{B} - \mathrm{Y} \rangle$ if and only if $f(x)$ belongs to B but not to Y, i.e., if and only if $x$ belongs to $\overset{-1}{f}\ \langle \mathrm{B} \rangle$ but not to $\overset{-1}{f}\ \langle \mathrm{Y} \rangle$.
 
-**Corollary.** *Let $f$ be an injection of* A *into* B. *For every subset* X *of* A, *we have $f\langle \mathrm{A} - \mathrm{X} \rangle = f\langle \mathrm{A} \rangle - f\langle \mathrm{X} \rangle$.*
+#### Corollary {#ens-ii-s4-n5-cor-1 .statement tag=03PX}
+
+*Let $f$ be an injection of* A *into* B. *For every subset* X *of* A, *we have $f\langle \mathrm{A} - \mathrm{X} \rangle = f\langle \mathrm{A} \rangle - f\langle \mathrm{X} \rangle$.*
 
 Writing $f = i \circ g$, where $i$ is the canonical injection of $f\langle \mathrm{A} \rangle$ into B, we reduce the Corollary to Proposition 6 applied to $\overset{-1}{g}$.
 
@@ -303,7 +314,9 @@ Writing $f = i \circ g$, where $i$ is the canonical injection of $f\langle \math
 
 ### 6. COVERINGS
 
-**Definition 5.** *A family of sets $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ is said to be a covering of a set* E *(or to cover* E) *if $\mathrm{E} \subset \bigcup\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota$. If $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ and $(\mathrm{Y}_\varkappa)_{\varkappa \in \mathrm{K}}$ are coverings of* E, *the second of these coverings is said to be finer than the first (or to be a refinement of the first, or to refine the first) if, for each $\varkappa \in \mathrm{K}$, there exists $\iota \in \mathrm{I}$ such that*
+#### Definition 5 {#ens-ii-s4-def-5 .statement tag=03PY}
+
+*A family of sets $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ is said to be a covering of a set* E *(or to cover* E) *if $\mathrm{E} \subset \bigcup\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota$. If $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ and $(\mathrm{Y}_\varkappa)_{\varkappa \in \mathrm{K}}$ are coverings of* E, *the second of these coverings is said to be finer than the first (or to be a refinement of the first, or to refine the first) if, for each $\varkappa \in \mathrm{K}$, there exists $\iota \in \mathrm{I}$ such that*
 
 $$\mathrm{Y}_\varkappa \subset \mathrm{X}_\iota.$$
 
@@ -322,7 +335,9 @@ $$(X_\iota \cap Y_\varkappa)_{(\iota, \varkappa) \in I \times K}.$$
 ¶ Let $(X_\iota)_{\iota \in I}$ be a covering of a set A, and let $f$ be a mapping of A *onto* a set B. The family $(f\langle X_\iota \rangle)_{\iota \in I}$ is then a covering of B (Proposition 3), called the *image under* $f$ *of the covering* $(X_\iota)_{\iota \in I}$. If $g$ is a mapping of a set C into the set A, the family $(\overset{-1}{g}\langle X_\iota \rangle)_{\iota \in I}$ is a covering of C, called the *inverse image under* $g$ *of the covering* $(X_\iota)_{\iota \in I}$.
 ¶ Let E and F be sets, let $(X_\iota)_{\iota \in I}$ be a covering of E, and let $(Y_\varkappa)_{\varkappa \in K}$ be a covering of F. The family $(X_\iota \times Y_\varkappa)_{(\iota, \varkappa) \in I \times K}$ is then a covering of $E \times F$, called the *product* of the coverings $(X_\iota)_{\iota \in I}$ of E and $(Y_\varkappa)_{\varkappa \in K}$ of F.
 
-**Proposition 7.** (1) *Let* E *be a set and* $(X_\iota)_{\iota \in I}$ *a covering of* E. *If* $f$ *and* $g$ *are two functions with domain* E *such that* $f$ *and* $g$ *agree on* $E \cap X_\iota$ *for each* $\iota \in I$, *then* $f$ *and* $g$ *agree on* E.
+#### Proposition 7 {#ens-ii-s4-prop-7 .statement tag=03PZ}
+
+(1) *Let* E *be a set and* $(X_\iota)_{\iota \in I}$ *a covering of* E. *If* $f$ *and* $g$ *are two functions with domain* E *such that* $f$ *and* $g$ *agree on* $E \cap X_\iota$ *for each* $\iota \in I$, *then* $f$ *and* $g$ *agree on* E.
 
 (2) *Let* $(X_\iota)_{\iota \in I}$ *be a family of sets and let* $(f_\iota)_{\iota \in I}$ *be a family of mappings with the same target* F *such that for each* $\iota \in I$ *the domain of* $f_\iota$ *is* $X_\iota$, *and for each pair* $(\iota, \varkappa) \in I \times I$, $f_\iota$ *and* $f_\varkappa$ *agree on* $X_\iota \cap X_\varkappa$. *Then there is exactly one function* $f$ *with domain* $A = \bigcup_{\iota \in I} X_\iota$ *and target* F *which extends each of the functions* $f_\iota$ $(i \in I)$.
 
@@ -335,17 +350,23 @@ that is to say, $y = y'$. The graph G has domain $\mathrm{pr}_1 G = \bigcup_{\io
 
 ### 7. PARTITIONS
 
-**Definition 6.** *Two sets* A *and* B *are said to be disjoint* (*or not to intersect*) *if* $A \cap B = \emptyset$. *If* $A \cap B \neq \emptyset$, *we say that* A *meets* (*or intersects*) B. *Let*
+#### Definition 6 {#ens-ii-s4-def-6 .statement tag=03Q0}
+
+*Two sets* A *and* B *are said to be disjoint* (*or not to intersect*) *if* $A \cap B = \emptyset$. *If* $A \cap B \neq \emptyset$, *we say that* A *meets* (*or intersects*) B. *Let*
 
 $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ *be a family of sets. The sets of this family are said to be mutually disjoint if the conditions* $\iota \in \mathrm{I}$, $\varkappa \in \mathrm{I}$, $\iota \neq \varkappa$ *imply* $\mathrm{X}_\iota \cap \mathrm{X}_\varkappa = \emptyset$.
 
 Let $f$ be a mapping of A into B, and let $(\mathrm{Y}_\iota)_{\iota \in \mathrm{I}}$ be a family of mutually disjoint subsets of B. Proposition 4 then shows that the sets of the family $(\overset{-1}{f}\langle \mathrm{Y}_\iota \rangle)_{\iota \in \mathrm{I}}$ of subsets of A are mutually disjoint. On the other hand, if $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ is a family of mutually disjoint subsets of A, the sets of the family $(f \langle \mathrm{X}_\iota \rangle)_{\iota \in \mathrm{I}}$ are not in general mutually disjoint.
 
-**Proposition 8.** *Let* $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ *be a family of mutually disjoint sets, and let* $(f_\iota)_{\iota \in \mathrm{I}}$ *be a family of functions with the same target* F *such that the domain of* $f_\iota$ *is* $\mathrm{X}_\iota$ *for each* $\iota \in \mathrm{I}$. *Then there exists exactly one function f with domain* $\bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ *and target* F *which extends each of the functions* $f_\iota$ $(\iota \in \mathrm{I})$.
+#### Proposition 8 {#ens-ii-s4-prop-8 .statement tag=03Q1}
+
+*Let* $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ *be a family of mutually disjoint sets, and let* $(f_\iota)_{\iota \in \mathrm{I}}$ *be a family of functions with the same target* F *such that the domain of* $f_\iota$ *is* $\mathrm{X}_\iota$ *for each* $\iota \in \mathrm{I}$. *Then there exists exactly one function f with domain* $\bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ *and target* F *which extends each of the functions* $f_\iota$ $(\iota \in \mathrm{I})$.
 
 This is a corollary of Proposition 7, since $f_\iota$ and $f_\varkappa$ clearly agree on $\mathrm{X}_\iota \cap \mathrm{X}_\varkappa = \emptyset$ whenever $\iota \neq \varkappa$.
 
-**Definition 7.** *A partition of a set* E *is a family of* non-empty *mutually disjoint subsets of* E *which covers* E.
+#### Definition 7 {#ens-ii-s4-def-7 .statement tag=03Q2}
+
+*A partition of a set* E *is a family of* non-empty *mutually disjoint subsets of* E *which covers* E.
 
 #### Example {#ens-ii-s4-n7-exa-1 .statement tag=03I9}
 
@@ -355,11 +376,15 @@ If $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ is a partition of a set E, the ma
 
 ### 8. SUM OF A FAMILY OF SETS
 
-**Proposition 9.** *Let* $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ *be a family of sets. Then there exists a set* X *with the following property* : X *is the union of a family* $(\mathrm{X}'_\iota)_{\iota \in \mathrm{I}}$ *of mutually disjoint sets such that for each* $\iota \in \mathrm{I}$ *there exists a one-to-one mapping of* $\mathrm{X}_\iota$ *onto* $\mathrm{X}'_\iota$.
+#### Proposition 9 {#ens-ii-s4-prop-9 .statement tag=03Q3}
+
+*Let* $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ *be a family of sets. Then there exists a set* X *with the following property* : X *is the union of a family* $(\mathrm{X}'_\iota)_{\iota \in \mathrm{I}}$ *of mutually disjoint sets such that for each* $\iota \in \mathrm{I}$ *there exists a one-to-one mapping of* $\mathrm{X}_\iota$ *onto* $\mathrm{X}'_\iota$.
 
 Let $\mathrm{A} = \bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$. If $\iota \in \mathrm{I}$, the mapping $x \rightarrow (x, \iota)$ $(x \in \mathrm{X}_\iota)$ is a one-to-one mapping of $\mathrm{X}_\iota$ onto a subset $\mathrm{X}'_\iota$ of $\mathrm{A} \times \mathrm{I}$. Moreover, the image of $\mathrm{X}'_\iota$ under the second coordinate function on $\mathrm{A} \times \mathrm{I}$ is contained in the set $\{\iota\}$; it follows that $\mathrm{X}'_\iota \cap \mathrm{X}'_\varkappa = \emptyset$ whenever $\iota \neq \varkappa$. We may then take $\mathrm{X} = \bigcup_{\iota \in \mathrm{I}} \mathrm{X}'_\iota$.
 
-**Definition 8.** *Let* $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ *be a family of sets. The sum of this family is the union of the family of sets* $(\mathrm{X}_\iota \times \{\iota\})_{\iota \in \mathrm{I}}$.
+#### Definition 8 {#ens-ii-s4-def-8 .statement tag=03Q4}
+
+*Let* $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ *be a family of sets. The sum of this family is the union of the family of sets* $(\mathrm{X}_\iota \times \{\iota\})_{\iota \in \mathrm{I}}$.
 
 #### Proposition 10 {#ens-ii-s4-prop-10 .statement tag=03IA}
 

@@ -8,40 +8,41 @@ section_title: Inverse limits and direct limits
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 191-211, 251-254
 pdf_pages: 0197-0217, 0257-0260
 extraction: ocr
 subsections:
     - "no": 1
       title: INVERSE LIMITS
-      page: 0
+      page: 191
       pdf_page: 197
     - "no": 2
       title: INVERSE SYSTEMS OF MAPPINGS
-      page: 0
+      page: 192
       pdf_page: 198
     - "no": 3
       title: DOUBLE INVERSE LIMIT
-      page: 0
+      page: 196
       pdf_page: 202
     - "no": 4
       title: CONDITIONS FOR AN INVERSE LIMIT TO BE NON-EMPTY
-      page: 0
+      page: 198
       pdf_page: 204
     - "no": 5
       title: DIRECT LIMITS
-      page: 0
+      page: 202
       pdf_page: 208
     - "no": 6
       title: DIRECT SYSTEMS OF MAPPINGS
-      page: 0
+      page: 204
       pdf_page: 210
     - "no": 7
       title: DOUBLE DIRECT LIMIT. PRODUCT OF DIRECT LIMITS
-      page: 0
+      page: 209
       pdf_page: 215
-statements: 15
+statements: 25
 exercises: 9
-content_sha256: d55ecf6d6c43560edd8aa36963eb2513d3becc706b140208fe69c599c0a2aac9
+content_sha256: d1db59d454db5cf67de05088affcb90d16bb99013e48cff61a07623c5743a335
 ---
 
 ## 7. INVERSE LIMITS AND DIRECT LIMITS
@@ -122,7 +123,9 @@ $$u_\alpha(y) = f_{\alpha\beta}(u_\beta(y))$$
 
 and therefore follows from (5). The second part of the Proposition follows immediately from the definitions.
 
-**Corollary 1.** *Let* $(E_\alpha, f_{\alpha\beta})$ *and* $(F_\alpha, g_{\alpha\beta})$ *be two inverse systems of sets relative to the same index set* I; *let* $E = \varprojlim E_\alpha$, $F = \varprojlim F_\alpha$, *and let* $f_\alpha$ *(resp.* $g_\alpha$*) be the canonical mapping of* E *into* $E_\alpha$ *(resp. of* F *into* $F_\alpha$*) for each* $\alpha \in I$, *For each* $\alpha \in I$, *let* $u_\alpha$ *be a mapping of* E *into* $F_\alpha$ *such that the diagram*
+#### Corollary 1 {#ens-iii-s7-prop-1-cor-1 .statement tag=03RN}
+
+*Let* $(E_\alpha, f_{\alpha\beta})$ *and* $(F_\alpha, g_{\alpha\beta})$ *be two inverse systems of sets relative to the same index set* I; *let* $E = \varprojlim E_\alpha$, $F = \varprojlim F_\alpha$, *and let* $f_\alpha$ *(resp.* $g_\alpha$*) be the canonical mapping of* E *into* $E_\alpha$ *(resp. of* F *into* $F_\alpha$*) for each* $\alpha \in I$, *For each* $\alpha \in I$, *let* $u_\alpha$ *be a mapping of* E *into* $F_\alpha$ *such that the diagram*
 
 $$\begin{array}{ccc} E_\beta & \overset{u_\beta}{\longrightarrow} & F_\beta \\ {\scriptstyle f_{\alpha\beta}}\big\downarrow & & \big\downarrow{\scriptstyle g_{\alpha\beta}} \\ E_\alpha & \underset{u_\alpha}{\longrightarrow} & F_\alpha \end{array}$$
 
@@ -148,7 +151,9 @@ for each $\alpha \in I$.
 
 ¶ A family of mappings $u_\alpha : E_\alpha \to F_\alpha$ which satisfies the conditions of Corollary 1 is called an *inverse system of mappings* of $(E_\alpha, f_{\alpha\beta})$ into $(F_\alpha, g_{\alpha\beta})$. The mapping $u$ defined in Corollary 1 is called the *inverse limit* of the family $(u_\alpha)$ and is written $u = \underset{\leftarrow}{\lim}\,u_\alpha$ when there is no risk of confusion.
 
-**Corollary 2.** Let $(E_\alpha, f_{\alpha\beta})$, $(F_\alpha, g_{\alpha\beta})$, $(G_\alpha, h_{\alpha\beta})$ be three inverse systems of sets relative to the same index set $I$; let $E = \underset{\leftarrow}{\lim}\,E_\alpha$, $F = \underset{\leftarrow}{\lim}\,F_\alpha$, $G = \underset{\leftarrow}{\lim}\,G_\alpha$, and let $f_\alpha$ (resp. $g_\alpha$, $h_\alpha$) be the canonical mapping of $E$ (resp. $F$, $G$) into $E_\alpha$ (resp. $F_\alpha$, $G_\alpha$). If $(u_\alpha)$ and $(v_\alpha)$ are two inverse systems of mappings, $u_\alpha : E_\alpha \to F_\alpha$, $v_\alpha : F_\alpha \to G_\alpha$, then the composite mappings $v_\alpha \circ u_\alpha : E_\alpha \to G_\alpha$ form an inverse system of mappings, and we have
+#### Corollary 2 {#ens-iii-s7-prop-1-cor-2 .statement tag=03RO}
+
+Let $(E_\alpha, f_{\alpha\beta})$, $(F_\alpha, g_{\alpha\beta})$, $(G_\alpha, h_{\alpha\beta})$ be three inverse systems of sets relative to the same index set $I$; let $E = \underset{\leftarrow}{\lim}\,E_\alpha$, $F = \underset{\leftarrow}{\lim}\,F_\alpha$, $G = \underset{\leftarrow}{\lim}\,G_\alpha$, and let $f_\alpha$ (resp. $g_\alpha$, $h_\alpha$) be the canonical mapping of $E$ (resp. $F$, $G$) into $E_\alpha$ (resp. $F_\alpha$, $G_\alpha$). If $(u_\alpha)$ and $(v_\alpha)$ are two inverse systems of mappings, $u_\alpha : E_\alpha \to F_\alpha$, $v_\alpha : F_\alpha \to G_\alpha$, then the composite mappings $v_\alpha \circ u_\alpha : E_\alpha \to G_\alpha$ form an inverse system of mappings, and we have
 
 $$
 (7)\qquad
@@ -186,7 +191,9 @@ $$
 \prod_{\alpha\in I} M_\alpha.
 $$
 
-**Proposition 2.** Let $(E_\alpha, f_{\alpha\beta})$ and $(E'_\alpha, f'_{\alpha\beta})$ be two inverse systems of sets relative to $I$, and let $u_\alpha$ be a mapping of $E_\alpha$ into $E'_\alpha$ for each $\alpha \in I$, such that the $u_\alpha$ form an inverse system of mappings. Let $u = \underset{\leftarrow}{\lim}\,u_\alpha$. Then for each $x' = (x'_\alpha) \in E' = \underset{\leftarrow}{\lim}\,E'_\alpha$, the $\bar{u}_\alpha^{-1}(x'_\alpha)$ form an inverse system of subsets of the $E_\alpha$, and $\bar{u}^{-1}(x') = \underset{\leftarrow}{\lim}\,\bar{u}_\alpha^{-1}(x'_\alpha)$.
+#### Proposition 2 {#ens-iii-s7-prop-2 .statement tag=03RP}
+
+Let $(E_\alpha, f_{\alpha\beta})$ and $(E'_\alpha, f'_{\alpha\beta})$ be two inverse systems of sets relative to $I$, and let $u_\alpha$ be a mapping of $E_\alpha$ into $E'_\alpha$ for each $\alpha \in I$, such that the $u_\alpha$ form an inverse system of mappings. Let $u = \underset{\leftarrow}{\lim}\,u_\alpha$. Then for each $x' = (x'_\alpha) \in E' = \underset{\leftarrow}{\lim}\,E'_\alpha$, the $\bar{u}_\alpha^{-1}(x'_\alpha)$ form an inverse system of subsets of the $E_\alpha$, and $\bar{u}^{-1}(x') = \underset{\leftarrow}{\lim}\,\bar{u}_\alpha^{-1}(x'_\alpha)$.
 
 For if $\alpha \leqslant \beta$ and $x_\beta \in \overset{-1}{u_\beta}(x'_\beta)$, we have
 
@@ -306,7 +313,9 @@ In view of (i), it is clear that (ii) is equivalent to the following condition :
 
 (ii)′  *If $\mathfrak{G} \subset \mathfrak{S}_\alpha$ is left directed (with respect to inclusion) and does not contain the empty set, then $\bigcap\limits_{\mathbf{M} \in \mathfrak{G}} \mathrm{M}$ is non-empty.*
 
-**Theorem 1.**  *Suppose that I is directed, that the sets $\mathfrak{S}_\alpha$ satisfy conditions* (i) *and* (ii), *and that the inverse system $(\mathrm{E}_\alpha, f_{\alpha\beta})$ has the following properties:*
+#### Theorem 1 {#ens-iii-s7-thm-1 .statement tag=03RQ}
+
+*Suppose that I is directed, that the sets $\mathfrak{S}_\alpha$ satisfy conditions* (i) *and* (ii), *and that the inverse system $(\mathrm{E}_\alpha, f_{\alpha\beta})$ has the following properties:*
 
 (iii)  *For each pair of indices $\alpha$, $\beta$ such that $\alpha \leqslant \beta$, and each $x_\alpha \in \mathrm{E}_\alpha$, we have $\overset{-1}{f}_{\alpha\beta}(x_\alpha) \in \mathfrak{S}_\beta$.*
 
@@ -432,7 +441,9 @@ since for each $x \in \mathrm{E}_\alpha$ we have $f_{\beta\beta}(f_{\beta\alpha}
 
 ### 6. DIRECT SYSTEMS OF MAPPINGS
 
-**Proposition 6.** *Let* I *be a directed set, let* $(E_\alpha, f_{\beta\alpha})$ *be a direct system of sets relative to* I, *let* $E = \varinjlim E_\alpha$ *be the direct limit, and for each* $\alpha \in I$ *let*
+#### Proposition 6 {#ens-iii-s7-prop-6 .statement tag=03RR}
+
+*Let* I *be a directed set, let* $(E_\alpha, f_{\beta\alpha})$ *be a direct system of sets relative to* I, *let* $E = \varinjlim E_\alpha$ *be the direct limit, and for each* $\alpha \in I$ *let*
 
 $$f_\alpha : E_\alpha \to E$$
 
@@ -462,7 +473,7 @@ $$f_\alpha : E_\alpha \to E$$
 
 Suppose that each of the mappings $f_{\beta\alpha}$ is *injective*. Then each of the $f_\alpha$ is *injective*, by the definition of the relation R. In this case we generally identify $\mathrm{E}_\alpha$ and $f_\alpha(\mathrm{E}_\alpha)$ and consider E therefore as the *union* of the $\mathrm{E}_\alpha$. Conversely, let $(\mathrm{F}_\alpha)_{\alpha \in \mathrm{I}}$ be an increasing family of subsets of a set F and suppose that F is the *union* of this family. If $j_{\beta\alpha}$ denotes the canonical injection of $\mathrm{F}_\alpha$ into $\mathrm{F}_\beta$ for $\alpha \leqslant \beta$, then it follows from Proposition 6 that we may identify F with the direct limit of the family $\mathrm{F}_\alpha$ with respect to the family of mappings $(j_{\beta\alpha})$, and the canonical mapping of $\mathrm{F}_\alpha$ into $\varinjlim \mathrm{F}_\alpha$ with the canonical injection of $\mathrm{F}_\alpha$ into F, for each $\alpha \in \mathrm{I}$.
 
-#### Corollary 1 {#ens-iii-s7-lem-1-cor-1 .statement tag=03OM}
+#### Corollary 1 {#ens-iii-s7-prop-6-cor-1 .statement tag=03RS}
 
 *Let* $(\mathrm{E}_\alpha, f_{\beta\alpha})$ *and* $(\mathrm{F}_\alpha, g_{\beta\alpha})$ *be two direct systems of sets relative to the same index set* I; *let* $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$, $\mathrm{F} = \varinjlim \mathrm{F}_\alpha$, *and for each* $\alpha \in \mathrm{I}$ *let* $f_\alpha$ (*resp.* $g_\alpha$) *be the canonical mapping of* $\mathrm{E}_\alpha$ (*resp.* $\mathrm{F}_\alpha$) *into* E (*resp.* F). *For each* $\alpha \in \mathrm{I}$ *let* $u_\alpha$ *be a mapping of* $\mathrm{E}_\alpha$ *into* $\mathrm{F}_\alpha$ *such that, whenever* $\alpha \leqslant \beta$, *the diagram*
 
@@ -486,7 +497,9 @@ for all $\alpha \in \mathrm{I}$.
 
 ¶ A family of mappings $u_\alpha : \mathrm{E}_\alpha \to \mathrm{F}_\alpha$ which satisfies the conditions of Corollary 1 is called a *direct system of mappings* of $(\mathrm{E}_\alpha, f_{\beta\alpha})$ into $(\mathrm{F}_\alpha, g_{\beta\alpha})$. The mapping defined in Corollary 1 is called the *direct limit* of the family $(u_\alpha)$ and is written $u = \varinjlim u_\alpha$ when there is no risk of ambiguity.
 
-**Corollary 2.** *Let* $(\mathrm{E}_\alpha, f_{\beta\alpha})$, $(\mathrm{F}_\alpha, g_{\beta\alpha})$, $(\mathrm{G}_\alpha, h_{\beta\alpha})$ *be three direct systems of sets relative to* I. *Let* $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$, $\mathrm{F} = \varinjlim \mathrm{F}_\alpha$, $\mathrm{G} = \varinjlim \mathrm{G}_\alpha$, *and let* $f_\alpha$ *(resp.* $g_\alpha$, $h_\alpha$*) be the canonical mapping of* $\mathrm{E}_\alpha$ *(resp.* $\mathrm{F}_\alpha$, $\mathrm{G}_\alpha$*) into* E *(resp.* F, G*). If* $(u_\alpha)$ *and* $(v_\alpha)$ *are two direct systems of mappings* $u_\alpha : \mathrm{E}_\alpha \to \mathrm{F}_\alpha$, $v_\alpha : \mathrm{F}_\alpha \to \mathrm{G}_\alpha$, *then the mappings* $v_\alpha \circ u_\alpha : \mathrm{E}_\alpha \to \mathrm{G}_\alpha$ *form a direct system of mappings, and we have*
+#### Corollary 2 {#ens-iii-s7-prop-6-cor-2 .statement tag=03RT}
+
+*Let* $(\mathrm{E}_\alpha, f_{\beta\alpha})$, $(\mathrm{F}_\alpha, g_{\beta\alpha})$, $(\mathrm{G}_\alpha, h_{\beta\alpha})$ *be three direct systems of sets relative to* I. *Let* $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$, $\mathrm{F} = \varinjlim \mathrm{F}_\alpha$, $\mathrm{G} = \varinjlim \mathrm{G}_\alpha$, *and let* $f_\alpha$ *(resp.* $g_\alpha$, $h_\alpha$*) be the canonical mapping of* $\mathrm{E}_\alpha$ *(resp.* $\mathrm{F}_\alpha$, $\mathrm{G}_\alpha$*) into* E *(resp.* F, G*). If* $(u_\alpha)$ *and* $(v_\alpha)$ *are two direct systems of mappings* $u_\alpha : \mathrm{E}_\alpha \to \mathrm{F}_\alpha$, $v_\alpha : \mathrm{F}_\alpha \to \mathrm{G}_\alpha$, *then the mappings* $v_\alpha \circ u_\alpha : \mathrm{E}_\alpha \to \mathrm{G}_\alpha$ *form a direct system of mappings, and we have*
 
 (25) $$\varinjlim (v_\alpha \circ u_\alpha) = (\varinjlim v_\alpha) \circ (\varinjlim u_\alpha).$$
 
@@ -500,7 +513,9 @@ $$(v \circ u) \circ f_\alpha = v \circ (g_\alpha \circ u_\alpha) = h_\alpha \cir
 
 and by virtue of the uniqueness of the direct limit, we have $v \circ u = \varinjlim w_\alpha$.
 
-**Proposition 7.** *Let* $(\mathrm{E}_\alpha, f_{\beta\alpha})$ *and* $(\mathrm{E}'_\alpha, f'_{\beta\alpha})$ *be two direct systems of sets relative to* I, *and for each* $\alpha \in \mathrm{I}$ *let* $u_\alpha$ *be a mapping of* $\mathrm{E}_\alpha$ *into* $\mathrm{E}'_\alpha$ *such that the* $u_\alpha$ *form a direct system of mappings. Let* $u = \varinjlim u_\alpha$. *If each* $u_\alpha$ *is injective* (resp. *surjective*) *then* $u$ *is injective* (resp. *surjective*).
+#### Proposition 7 {#ens-iii-s7-prop-7 .statement tag=03RU}
+
+*Let* $(\mathrm{E}_\alpha, f_{\beta\alpha})$ *and* $(\mathrm{E}'_\alpha, f'_{\beta\alpha})$ *be two direct systems of sets relative to* I, *and for each* $\alpha \in \mathrm{I}$ *let* $u_\alpha$ *be a mapping of* $\mathrm{E}_\alpha$ *into* $\mathrm{E}'_\alpha$ *such that the* $u_\alpha$ *form a direct system of mappings. Let* $u = \varinjlim u_\alpha$. *If each* $u_\alpha$ *is injective* (resp. *surjective*) *then* $u$ *is injective* (resp. *surjective*).
 
 Let $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$, $\mathrm{E}' = \varinjlim \mathrm{E}'_\alpha$, and let $f_\alpha : \mathrm{E}_\alpha \to \mathrm{E}$, $f'_\alpha : \mathrm{E}'_\alpha \to \mathrm{E}'$ be the canonical mappings. Suppose that each $u_\alpha$ is injective. To show that $u$ is injective it is enough, by Proposition 6, to verify that if $x \in \mathrm{E}_\alpha$ and $y \in \mathrm{E}_\alpha$ are such that $f'_\alpha(u_\alpha(x)) = f'_\alpha(u_\alpha(y))$, then there exists $\beta \geqslant \alpha$ such that $f_{\beta\alpha}(x) = f_{\beta\alpha}(y)$. Now the hypothesis implies (no. 6, Lemma 1) that there exists $\beta \geqslant \alpha$ such that
 
@@ -588,19 +603,25 @@ $$h^\lambda(g_\alpha^\lambda(\mathrm{E}_\alpha^\lambda)) = u_\alpha^\lambda(\mat
 
 Next, let $x$, $y$ be two elements of $\mathrm{E}_\alpha^\lambda$ such that $u_\alpha^\lambda(x) = u_\alpha^\lambda(y)$, i.e., $h^\lambda(g_\alpha^\lambda(x)) = h^\lambda(g_\alpha^\lambda(y))$. Then (no. 5, Lemma 1) there exists $\mu \geqslant \lambda$ such that $h^{\mu\lambda}(g_\alpha^\lambda(x)) = h^{\mu\lambda}(g_\alpha^\lambda(y))$, i.e., $g_\alpha^\mu(f_{\alpha\alpha}^{\mu\lambda}(x)) = g_\alpha^\mu(f_{\alpha\alpha}^{\mu\lambda}(y))$; likewise there exists $\beta \geqslant \alpha$ such that $g_{\beta\alpha}^\mu(f_{\alpha\alpha}^{\mu\lambda}(x)) = g_{\beta\alpha}^\mu(f_{\alpha\alpha}^{\mu\lambda}(y))$ (no. 5, Lemma 1), i.e., $f_{\beta\alpha}^{\mu\lambda}(x) = f_{\beta\alpha}^{\mu\lambda}(y)$; and this shows (no. 6, Proposition 6) that $u$ is injective. We have therefore proved :
 
-**Proposition 9.** *If* $(\mathrm{E}_\alpha^\lambda, f_{\beta\alpha}^{\mu\lambda})$ *is a direct system of sets relative to a product* $\mathrm{I} \times \mathrm{L}$ *of two directed sets, then (up to a canonical bijection) we have*
+#### Proposition 9 {#ens-iii-s7-prop-9 .statement tag=03RV}
+
+*If* $(\mathrm{E}_\alpha^\lambda, f_{\beta\alpha}^{\mu\lambda})$ *is a direct system of sets relative to a product* $\mathrm{I} \times \mathrm{L}$ *of two directed sets, then (up to a canonical bijection) we have*
 
 (32)
 $$\varinjlim_{\alpha,\ \lambda} \mathrm{E}_\alpha^\lambda = \varinjlim_{\lambda}\ (\varinjlim_{\alpha} \mathrm{E}_\alpha^\lambda).$$
 
-**Corollary.** *Let* $(\mathrm{E}'^\lambda_\alpha, f'^{\mu\lambda}_{\beta\alpha})$ *be another direct system of sets relative to* $\mathrm{I} \times \mathrm{L}$, *and for each* $(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$ *let* $u_\alpha^\lambda$ *be a mapping of* $\mathrm{E}_\alpha^\lambda$ *into* $\mathrm{E}'^\lambda_\alpha$, *such that the* $u_\alpha^\lambda$ *form a direct system of mappings. Then we have*
+#### Corollary {#ens-iii-s7-n7-cor-1 .statement tag=03OQ}
+
+*Let* $(\mathrm{E}'^\lambda_\alpha, f'^{\mu\lambda}_{\beta\alpha})$ *be another direct system of sets relative to* $\mathrm{I} \times \mathrm{L}$, *and for each* $(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$ *let* $u_\alpha^\lambda$ *be a mapping of* $\mathrm{E}_\alpha^\lambda$ *into* $\mathrm{E}'^\lambda_\alpha$, *such that the* $u_\alpha^\lambda$ *form a direct system of mappings. Then we have*
 
 (33)
 $$\varinjlim_{\alpha,\ \lambda} u_\alpha^\lambda = \varinjlim_{\lambda}\ (\varinjlim_{\alpha} u_\alpha^\lambda).$$
 
 We leave the verification to the reader.
 
-**Proposition 10.** *Let* $(\mathrm{E}_\alpha, f_{\beta\alpha})$ *and* $(\mathrm{E}'_\alpha, f'_{\beta\alpha})$ *be two direct systems of sets, both relative to the same directed set* I. *Let* $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$, $\mathrm{E}' = \varinjlim \mathrm{E}'_\alpha$, *and let* $f_\alpha : \mathrm{E}_\alpha \to \mathrm{E}, f'_\alpha : \mathrm{E}'_\alpha \to \mathrm{E}'$ *denote the canonical mappings, for each* $\alpha \in \mathrm{I}$. *Then* $(\mathrm{E}_\alpha \times \mathrm{E}'_\alpha, f_{\beta\alpha} \times f'_{\beta\alpha})$ *is a direct systems of sets,* $(f_\alpha \times f'_\alpha)$ *is a direct system of mappings, and* $\varinjlim (f_\alpha \times f'_\alpha)$ *is a bijection*
+#### Proposition 10 {#ens-iii-s7-prop-10 .statement tag=03RW}
+
+*Let* $(\mathrm{E}_\alpha, f_{\beta\alpha})$ *and* $(\mathrm{E}'_\alpha, f'_{\beta\alpha})$ *be two direct systems of sets, both relative to the same directed set* I. *Let* $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$, $\mathrm{E}' = \varinjlim \mathrm{E}'_\alpha$, *and let* $f_\alpha : \mathrm{E}_\alpha \to \mathrm{E}, f'_\alpha : \mathrm{E}'_\alpha \to \mathrm{E}'$ *denote the canonical mappings, for each* $\alpha \in \mathrm{I}$. *Then* $(\mathrm{E}_\alpha \times \mathrm{E}'_\alpha, f_{\beta\alpha} \times f'_{\beta\alpha})$ *is a direct systems of sets,* $(f_\alpha \times f'_\alpha)$ *is a direct system of mappings, and* $\varinjlim (f_\alpha \times f'_\alpha)$ *is a bijection*
 
 (34)
 $$\varinjlim (\mathrm{E}_\alpha \times \mathrm{E}'_\alpha) \to (\varinjlim \mathrm{E}_\alpha) \times (\varinjlim \mathrm{E}'_\alpha).$$
@@ -609,7 +630,7 @@ The first two assertions of the Proposition are immediately verified. To show th
 
 The bijection $g$ is called *canonical*.
 
-#### Corollary {#ens-iii-s7-n7-cor-1 .statement tag=03OQ}
+#### Corollary {#ens-iii-s7-n7-cor-2 .statement tag=03RX}
 
 *Let* $(\mathrm{F}_\alpha, g_{\beta\alpha})$ *and* $(\mathrm{F}'_\alpha, g'_{\beta\alpha})$ *be two direct systems of sets relative to* I, *and for each* $\alpha \in \mathrm{I}$ *let* $u_\alpha : \mathrm{E}_\alpha \to \mathrm{F}_\alpha$, $u'_\alpha : \mathrm{E}'_\alpha \to \mathrm{F}'_\alpha$ *be mappings such that* $(u_\alpha)$ *and* $(u'_\alpha)$ *are two direct systems of mappings. Then* $(u_\alpha \times u'_\alpha)$ *is a direct system of mappings, and (up to canonical bijections) we have*
 

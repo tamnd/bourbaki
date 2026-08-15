@@ -8,48 +8,49 @@ section_title: Equivalence relations
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 112-122, 127-129
 pdf_pages: 0119-0129, 0134-0136
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF AN EQUIVALENCE RELATION
-      page: 0
+      page: 113
       pdf_page: 120
     - "no": 2
       title: EQUIVALENCE CLASSES ; QUOTIENT SET
-      page: 0
+      page: 114
       pdf_page: 121
     - "no": 3
       title: RELATIONS COMPATIBLE WITH AN EQUIVALENCE RELATION
-      page: 0
+      page: 116
       pdf_page: 123
     - "no": 4
       title: SATURATED SUBSETS
-      page: 0
+      page: 117
       pdf_page: 124
     - "no": 5
       title: MAPPINGS COMPATIBLE WITH EQUIVALENCE RELATIONS
-      page: 0
+      page: 118
       pdf_page: 125
     - "no": 6
       title: INVERSE IMAGE OF AN EQUIVALENCE RELATION;
-      page: 0
+      page: 119
       pdf_page: 126
     - "no": 7
       title: QUOTIENTS OF EQUIVALENCE RELATIONS
-      page: 0
+      page: 119
       pdf_page: 126
     - "no": 8
       title: PRODUCT OF TWO EQUIVALENCE RELATIONS
-      page: 0
+      page: 120
       pdf_page: 127
     - "no": 9
       title: CLASSES OF EQUIVALENT OBJECTS
-      page: 0
+      page: 121
       pdf_page: 128
-statements: 2
+statements: 3
 exercises: 11
-content_sha256: 3246492bd37b166ff5bf88eb2e73a1ed354e0fa1eaa9a03900b5124c984af816
+content_sha256: cb6b8eca8726854f2f07f088f1cf7653ce006136a7893ec60fce180a80edfe41
 ---
 
 ## 6. EQUIVALENCE RELATIONS
@@ -97,7 +98,9 @@ $$(x \in E - A \text{ and } y = x) \text{ or } (x \in A \text{ and } y \in A)$$
 is an equivalence relation on E.
 (6) \* The relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 4" is an equivalence relation on $\mathbf{Z}$.\*
 
-**Proposition 1.** *A correspondence* $\Gamma$ *between* X *and* X *is an equivalence on* X *if and only if it satisfies the following conditions :* (a) X *is the domain of* $\Gamma$; (b) $\Gamma = \overset{-1}{\Gamma}$; (c) $\Gamma \circ \Gamma = \Gamma$.
+#### Proposition 1 {#ens-ii-s6-prop-1 .statement tag=03QH}
+
+*A correspondence* $\Gamma$ *between* X *and* X *is an equivalence on* X *if and only if it satisfies the following conditions :* (a) X *is the domain of* $\Gamma$; (b) $\Gamma = \overset{-1}{\Gamma}$; (c) $\Gamma \circ \Gamma = \Gamma$.
 Let $\Gamma$ be a correspondence between X and X, and let G be its graph. If $\Gamma$ is an equivalence on X, then $(x, x) \in G$ for all $x \in X$; hence X is the domain of $\Gamma$. The relation $(x, y) \in G$ is equivalent to $(y, x) \in G$, hence to $(x, y) \in \overset{-1}{G}$, so that $G = \overset{-1}{G}$ and therefore $\Gamma = \overset{-1}{\Gamma}$. The relations $(x, y) \in G$ and $(y, z) \in G$ imply $(x, z) \in G$, so that $G \circ G \subset G$; conversely, $(x, y) \in G$ implies $(x, x) \in G$ and therefore $(x, y) \in G \circ G$, so that $G \subset G \circ G$; hence $G = G \circ G$ and consequently $\Gamma = \Gamma \circ \Gamma$.
 ¶ Conversely, suppose that conditions (a), (b), and (c) are satisfied. The relation $(x, y) \in G$ is symmetric (by (b)) and transitive (by (c)); hence it is an equivalence relation, and by (a) it is an equivalence relation on X.
 

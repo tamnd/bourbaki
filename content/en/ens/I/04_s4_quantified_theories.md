@@ -8,24 +8,25 @@ section_title: Quantified theories
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 36-44, 58-59
 pdf_pages: 0043-0051, 0065-0066
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF QUANTIFIERS
-      page: 0
+      page: 36
       pdf_page: 43
     - "no": 2
       title: AXIOMS OF QUANTIFIED THEORIES
-      page: 0
+      page: 37
       pdf_page: 44
     - "no": 3
       title: PROPERTIES OF QUANTIFIERS
-      page: 0
+      page: 38
       pdf_page: 45
     - "no": 4
       title: TYPICAL QUANTIFIERS
-      page: 0
+      page: 41
       pdf_page: 48
 statements: 0
 exercises: 8

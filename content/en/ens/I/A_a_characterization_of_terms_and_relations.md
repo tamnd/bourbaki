@@ -9,28 +9,29 @@ appendix: true
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 50-55, 60-64
 pdf_pages: 0057-0062, 0067-0071
 extraction: ocr
 subsections:
     - "no": 1
       title: SIGNS AND WORDS
-      page: 0
+      page: 50
       pdf_page: 57
     - "no": 2
       title: SIGNIFICANT WORDS
-      page: 0
+      page: 51
       pdf_page: 58
     - "no": 3
       title: CHARACTERIZATION OF SIGNIFICANT WORDS
-      page: 0
+      page: 51
       pdf_page: 58
     - "no": 4
       title: APPLICATION TO ASSEMBLIES IN A MATHEMATICAL THEORY
-      page: 0
+      page: 53
       pdf_page: 60
-statements: 4
+statements: 7
 exercises: 8
-content_sha256: adc75d1af0c42d3a0ed6b01af8c66546033411b66ccb4cc11a1f6591796c719f
+content_sha256: df82f63eb14ef58e18c03d3cb3a5081969f0bab7d6da2f050817894fabf24715
 ---
 
 ## APPENDIX
@@ -64,7 +65,9 @@ $$A_i = f\, A_{i_1} A_{i_2} \, \ldots \, A_{i_p}.$$
 
 Words which appear in significant sequences are called *significant words*. Then we have :
 
-**Proposition 1.** *If $A_1$, $A_2$, ..., $A_p$ are $p$ significant words and if $f$ is a sign of weight $p$, then the word $f A_1 A_2 \ldots A_p$ is significant.*
+#### Proposition 1 {#ens-i-a0-prop-1 .statement tag=03P6}
+
+*If $A_1$, $A_2$, ..., $A_p$ are $p$ significant words and if $f$ is a sign of weight $p$, then the word $f A_1 A_2 \ldots A_p$ is significant.*
 
 ### 3. CHARACTERIZATION OF SIGNIFICANT WORDS
 
@@ -74,7 +77,9 @@ A word $A \in \mathrm{L}_0(\mathrm{S})$ is said to be *balanced* if it has the f
 
 (2) For every proper initial segment $B$ of $A$, $l(B) \leqslant n(B)$.
 
-**Proposition 2.** *A word is significant if and only if it is balanced.*
+#### Proposition 2 {#ens-i-a0-prop-2 .statement tag=03P7}
+
+*A word is significant if and only if it is balanced.*
 
 Let $A$ be a significant word belonging to a significant sequence
 
@@ -100,7 +105,9 @@ Hence $A_k$ is balanced.
 
 ¶ To prove that, conversely, every balanced word is significant, we need the following two lemmas :
 
-**Lemma 1.** *Let A be a balanced word. Then for each integer k such that $0 \leqslant k < l(A)$ there exists exactly one balanced segment S of A which begins at the $(k + 1)$th place.*
+#### Lemma 1 {#ens-i-a0-lem-1 .statement tag=03P8}
+
+*Let A be a balanced word. Then for each integer k such that $0 \leqslant k < l(A)$ there exists exactly one balanced segment S of A which begins at the $(k + 1)$th place.*
 
 The uniqueness of $S$ is an immediate consequence of the following remark : if $T$ is a balanced word, then by definition no proper initial segment of $T$ is balanced. Let us prove the existence of $S$. Write $A = BC$ where $l(B) = k$. For each $i$ such that $0 \leqslant i \leqslant q = l(C)$, let $C_i$ be the initial segment of $C$ of length $i$. Since $B$ is a proper initial segment of $A$, we have
 

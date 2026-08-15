@@ -8,40 +8,41 @@ section_title: Collectivizing relations
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 65-72, 123
 pdf_pages: 0072-0079, 0130-0130
 extraction: ocr
 subsections:
     - "no": 1
       title: THE THEORY OF SETS
-      page: 0
+      page: 65
       pdf_page: 72
     - "no": 2
       title: INCLUSION
-      page: 0
+      page: 66
       pdf_page: 73
     - "no": 3
       title: THE AXIOM OF EXTENT
-      page: 0
+      page: 67
       pdf_page: 74
     - "no": 4
       title: COLLECTIVIZING RELATIONS
-      page: 0
+      page: 67
       pdf_page: 74
     - "no": 5
       title: THE AXIOM OF THE SET OF TWO ELEMENTS
-      page: 0
+      page: 69
       pdf_page: 76
     - "no": 6
       title: THE SCHEME OF SELECTION AND UNION
-      page: 0
+      page: 69
       pdf_page: 76
     - "no": 7
       title: COMPLEMENT OF A SET. THE EMPTY SET
-      page: 0
+      page: 71
       pdf_page: 78
-statements: 5
+statements: 8
 exercises: 6
-content_sha256: 904a1cd9730da44333a7762a7c1c5009b4a611de70a7e4b333b7d85fa81a1c48
+content_sha256: 87d04088b5a3d35d02571c0ff3ecac7614d61691b9abe66ff27c887733b4bdea
 ---
 
 ## 1. COLLECTIVIZING RELATIONS
@@ -82,11 +83,15 @@ From now on we shall no longer write down explicitly the criteria of substitutio
 
 To prove the relation $x \subset y$ in a theory $\mathscr{T}$, it is enough, by C27 (Chapter I, § 4, no. 1), to prove that $z \in y$ in the theory obtained by adjoining $z \in x$ to the axioms of $\mathscr{T}$, where $z$ is a letter distinct from $x$, $y$ and the constants of the theory. In pratice we say "let $z$ be an element of $x$", and we attempt to prove $z \in y$.
 
-**Proposition 1.** $x \subset x$.
+#### Proposition 1 {#ens-ii-s1-prop-1 .statement tag=03P9}
+
+$x \subset x$.
 
 Obvious.
 
-**Proposition 2.** $(x \subset y$ and $y \subset z) \Rightarrow (x \subset z)$.
+#### Proposition 2 {#ens-ii-s1-prop-2 .statement tag=03PA}
+
+$(x \subset y$ and $y \subset z) \Rightarrow (x \subset z)$.
 
 Adjoin the hypotheses $x \subset y$, $y \subset z$, and $u \in x$. Then the relations
 
@@ -270,7 +275,9 @@ For the relation $(\forall x)(x \notin X)$ implies $(\forall Y)(X \subset Y)$; b
 
 ¶ The term $\tau_x((\forall x)(x \notin X))$ corresponding to this functional relation is represented by the functional symbol $\emptyset$, and is called *the empty set* (\*)[^1]; the relation $(\forall x)(x \notin X)$, which is equivalent to $X = \emptyset$, is read as follows: "*the set* X *is empty*". We have the theorems $x \notin \emptyset$, $\emptyset \subset X$, $\complement_X X = \emptyset$, $\complement_X \emptyset = X$. The relation $X \subset \emptyset$ is equivalent to $X = \emptyset$. If $R\{x\}$ is a relation, the relation $(\forall x)((x \in \emptyset) \Rightarrow R\{x\})$ is true.
 
-**Remark.** There exists no set of which every object is an element; in other words, "not $(\exists X)(\forall x)(x \in X)$" is a theorem. For if there were such a set, then by C52 every relation would be collectivizing. But we have seen (no. 4) that the relation $x \notin x$ is not collectivizing.
+#### Remark {#ens-ii-s1-n7-rem-1 .statement tag=03PB}
+
+There exists no set of which every object is an element; in other words, "not $(\exists X)(\forall x)(x \in X)$" is a theorem. For if there were such a set, then by C52 every relation would be collectivizing. But we have seen (no. 4) that the relation $x \notin x$ is not collectivizing.
 
 ### Exercises {#ens-ii-s1-exercises}
 

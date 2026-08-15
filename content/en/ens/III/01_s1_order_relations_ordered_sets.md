@@ -8,64 +8,65 @@ section_title: Order relations. Ordered sets
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 131-148, 212-221
 pdf_pages: 0137-0154, 0218-0227
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF AN ORDER RELATION
-      page: 0
+      page: 131
       pdf_page: 137
     - "no": 2
       title: PREORDER RELATIONS
-      page: 0
+      page: 133
       pdf_page: 139
     - "no": 3
       title: NOTATION AND TERMINOLOGY
-      page: 0
+      page: 135
       pdf_page: 141
     - "no": 4
       title: ORDERED SUBSETS. PRODUCT OF ORDERED SETS
-      page: 0
+      page: 136
       pdf_page: 142
     - "no": 5
       title: INCREASING MAPPINGS
-      page: 0
+      page: 138
       pdf_page: 144
     - "no": 6
       title: MAXIMAL AND MINIMAL ELEMENTS
-      page: 0
+      page: 139
       pdf_page: 145
     - "no": 7
       title: GREATEST ELEMENT AND LEAST ELEMENT
-      page: 0
+      page: 140
       pdf_page: 146
     - "no": 8
       title: UPPER AND LOWER BOUNDS
-      page: 0
+      page: 141
       pdf_page: 147
     - "no": 9
       title: LEAST UPPER BOUND AND GREATEST LOWER BOUND
-      page: 0
+      page: 141
       pdf_page: 147
     - "no": 10
       title: DIRECTED SETS
-      page: 0
+      page: 145
       pdf_page: 151
     - "no": 11
       title: LATTICES
-      page: 0
+      page: 145
       pdf_page: 151
     - "no": 12
       title: TOTALLY ORDERED SETS
-      page: 0
+      page: 146
       pdf_page: 152
     - "no": 13
       title: INTERVALS
-      page: 0
+      page: 147
       pdf_page: 153
-statements: 21
+statements: 26
 exercises: 3
-content_sha256: 70a2a572a2fde9b17fe7e7f56f801d935c7df809acb11d95eed3b2f9a5a1149e
+content_sha256: 09457fae6e9e6a7ebc4aecf1f57fe7f4042ada4e587ebb34357f12177ebfd4ef
 ---
 
 ## 1. ORDER RELATIONS. ORDERED SETS
@@ -420,7 +421,9 @@ $$a' = \sup_{\iota \in I} x_\iota.$$
 
 $$(2) \qquad \sup_{(\lambda,\,\mu)\in L\times M} x_{\lambda\mu} = \sup_{\mu\in M}\left(\sup_{\lambda\in L} x_{\lambda\mu}\right).$$
 
-**Proposition 8.** *Let* $(E_\iota)_{\iota\in I}$ *be a family of ordered sets. Let* A *be a subset of the product ordered set* $E = \prod_{\iota\in I} E_\iota$, *and let* $A_\iota = \mathrm{pr}_\iota A$ *for each* $\iota \in I$. *For* A *to have a least upper bound in* E *it is necessary and sufficient that, for each* $\iota \in I$, $A_\iota$ *should have a least upper bound in* $E_\iota$, *and then we have*
+#### Proposition 8 {#ens-iii-s1-prop-8 .statement tag=03QI}
+
+*Let* $(E_\iota)_{\iota\in I}$ *be a family of ordered sets. Let* A *be a subset of the product ordered set* $E = \prod_{\iota\in I} E_\iota$, *and let* $A_\iota = \mathrm{pr}_\iota A$ *for each* $\iota \in I$. *For* A *to have a least upper bound in* E *it is necessary and sufficient that, for each* $\iota \in I$, $A_\iota$ *should have a least upper bound in* $E_\iota$, *and then we have*
 
 $$\sup A = (\sup A_\iota)_{\iota\in I} = \left(\sup_{x\in A} \mathrm{pr}_\iota x\right)_{\iota\in I}.$$
 
@@ -444,13 +447,17 @@ is an upper bound of A; consequently $c' \geqslant a$ and therefore $a'_\varkapp
 
 However, we have the following result :
 
-**Proposition 9.** *Let* E *be an ordered set,* F *a subset of* E, A *a subset of* F. *If both* $\sup_E A$ *and* $\sup_F A$ *exist, we have* $\sup_E A \leqslant \sup_F A$. *If* $\sup_E A$ *exists and belongs to* F, *then* $\sup_F A$ *exists and is equal to* $\sup_E A$.
+#### Proposition 9 {#ens-iii-s1-prop-9 .statement tag=03QJ}
+
+*Let* E *be an ordered set,* F *a subset of* E, A *a subset of* F. *If both* $\sup_E A$ *and* $\sup_F A$ *exist, we have* $\sup_E A \leqslant \sup_F A$. *If* $\sup_E A$ *exists and belongs to* F, *then* $\sup_F A$ *exists and is equal to* $\sup_E A$.
 
 The first assertion follows from the fact that the set $\mathrm{M}$ of upper bounds of A in F is contained in the set N of upper bounds of A in E, and from Proposition 5. On the other hand, if the least element of N lies in F, then it belongs to M and is clearly the least element of M; this proves the second assertion.
 
 ### 10. DIRECTED SETS
 
-**Definition 7.** *A preordered set* E *is said to be right directed* (resp. *left directed*) *if every subset of two elements of* E *is bounded above* (resp. *bounded below*).
+#### Definition 7 {#ens-iii-s1-def-7 .statement tag=03QK}
+
+*A preordered set* E *is said to be right directed* (resp. *left directed*) *if every subset of two elements of* E *is bounded above* (resp. *bounded below*).
 
 In place of "right directed" we shall often use the expression "directed with respect to the relation $\leqslant$", and analogous expressions when the preorder relation is denoted by some other sign. For example, if $\mathfrak{S}$ is a set of subsets of a set A, we say that $\mathfrak{S}$ is *directed with respect to the relation* $\subset$ (resp. $\supset$) if, for each subset $\{\mathrm{X}, \mathrm{Y}\}$ consisting of two elements of $\mathfrak{S}$, there exists $\mathrm{Z} \in \mathfrak{S}$ such that $\mathrm{X} \subset \mathrm{Z}$ and $\mathrm{Y} \subset \mathrm{Z}$ (resp. $\mathrm{X} \supset \mathrm{Z}$ and $\mathrm{Y} \supset \mathrm{Z}$).
 
@@ -459,7 +466,9 @@ In place of "right directed" we shall often use the expression "directed with re
 \* (2) In a topological space, a fundamental system of neighbourhoods of a point is directed with respect to the relation $\supset$.
 (3) The set of submodules of finite type of an arbitrary module is directed with respect to the relation $\subset$. \*
 
-**Proposition 10.** *In a right directed ordered set* E, *a maximal element a is the greatest element of* E.
+#### Proposition 10 {#ens-iii-s1-prop-10 .statement tag=03QL}
+
+*In a right directed ordered set* E, *a maximal element a is the greatest element of* E.
 
 For every $x \in \mathrm{E}$ there exists by hypothesis $y \in \mathrm{E}$ such that $x \leqslant y$ and $a \leqslant y$; since $a$ is maximal, $y = a$.
 
@@ -467,7 +476,9 @@ For every $x \in \mathrm{E}$ there exists by hypothesis $y \in \mathrm{E}$ such 
 
 ### 11. LATTICES
 
-**Definition 8.** *An ordered set* E *is said to be a lattice if every subset consisting of two elements of* E *has a least upper bound and a greatest lower bound in* E.
+#### Definition 8 {#ens-iii-s1-def-8 .statement tag=03QM}
+
+*An ordered set* E *is said to be a lattice if every subset consisting of two elements of* E *has a least upper bound and a greatest lower bound in* E.
 
 Every product of lattices is a lattice; this follows from the condition for the existence of a least upper bound in a product of ordered sets (no. 9, Proposition 8). The set of subsets of a set A, ordered by inclusion, is a lattice
 

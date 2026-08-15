@@ -1,9 +1,9 @@
 {"edges": [
-{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s2","kind":"cites","raw":"§ 2, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":61},
-{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s2","kind":"cites","raw":"§ 2, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":69},
-{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s1","kind":"cites","raw":"§ 1, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":180},
-{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s1","kind":"cites","raw":"§ 1, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":204},
-{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s1","kind":"cites","raw":"§ 1, no. 4","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":208},
-{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s1","kind":"cites","raw":"§ 1, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":256},
-{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s1","kind":"cites","raw":"§ 1, no. 4","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":260}
+{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s2","kind":"cites","raw":"§ 2, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":62},
+{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s2","kind":"cites","raw":"§ 2, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":70},
+{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s1","kind":"cites","raw":"§ 1, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":181},
+{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s1","kind":"cites","raw":"§ 1, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":205},
+{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s1","kind":"cites","raw":"§ 1, no. 4","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":209},
+{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s1","kind":"cites","raw":"§ 1, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":257},
+{"from":"","from_label":"ens-i-s3","to_label":"ens-i-s1","kind":"cites","raw":"§ 1, no. 4","form":"section","resolved_by":"section","file":"content/en/ens/I/03_s3_logical_theories.md","line":261}
 ]}

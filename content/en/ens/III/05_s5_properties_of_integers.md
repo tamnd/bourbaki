@@ -8,44 +8,45 @@ section_title: Properties of integers
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 171-183, 235-240
 pdf_pages: 0177-0189, 0241-0246
 extraction: ocr
 subsections:
     - "no": 1
       title: OPERATIONS ON INTEGERS AND FINITE SETS
-      page: 0
+      page: 171
       pdf_page: 177
     - "no": 2
       title: STRICT INEQUALITIES BETWEEN INTEGERS
-      page: 0
+      page: 173
       pdf_page: 179
     - "no": 3
       title: INTERVALS IN SETS OF INTEGERS
-      page: 0
+      page: 174
       pdf_page: 180
     - "no": 4
       title: FINITE SEQUENCES
-      page: 0
+      page: 175
       pdf_page: 181
     - "no": 5
       title: CHARACTERISTIC FUNCTIONS OF SETS
-      page: 0
+      page: 175
       pdf_page: 181
     - "no": 6
       title: EUCLIDEAN DIVISION
-      page: 0
+      page: 176
       pdf_page: 182
     - "no": 7
       title: EXPANSION TO BASE $b$
-      page: 0
+      page: 177
       pdf_page: 183
     - "no": 8
       title: COMBINATORIAL ANALYSIS
-      page: 0
+      page: 179
       pdf_page: 185
-statements: 24
+statements: 30
 exercises: 18
-content_sha256: 4974051164f0e0a4b7c274078e10a8db274019e6b68b8d9cf34356aece1b0f5a
+content_sha256: 8a102c1fe61e0d9ba0dfa780d76c5ac2d059f4ade38b37129f41be94b8afbf2f
 ---
 
 ## 5. PROPERTIES OF INTEGERS
@@ -348,17 +349,23 @@ This is also a consequence of the fact that, if E is a set with $n$ elements, $X
 
 We put $\binom{n}{p} = 0$ for each pair of natural integers such that $p > n$. With this convention the number of subsets of $p$ elements in a set of $n$ elements is $\binom{n}{p}$ for *every* natural integer $p$.
 
-**Corollary 2.** *Let* E *and* F *be totally ordered finite sets with* $p$ *and* $n$ *elements, respectively. Then the number of strictly increasing mappings of* E *into* F *is* $\binom{n}{p}$.
+#### Corollary 2 {#ens-iii-s5-prop-11-cor-2 .statement tag=03RG}
+
+*Let* E *and* F *be totally ordered finite sets with* $p$ *and* $n$ *elements, respectively. Then the number of strictly increasing mappings of* E *into* F *is* $\binom{n}{p}$.
 
 For such a mapping is an injection of E into F (§ 1, no. 12, Proposition 11), and since E and F are well-ordered (§ 4, no. 4, Corollary 1 to Proposition 3), for each subset X of $p$ elements of F there is exactly one strictly increasing mapping of E onto X (§ 2, no. 5, Theorem 3).
 
-**Proposition 12.** *For each integer* $n$, *we have*
+#### Proposition 12 {#ens-iii-s5-prop-12 .statement tag=03RH}
+
+*For each integer* $n$, *we have*
 
 $$\sum_p \binom{n}{p} = 2^n.$$
 
 For if E is a set of $n$ elements, the left-hand side of the equality is the number of subsets of E. Now apply Proposition 12 of § 3, no. 5.
 
-**Proposition 13.** *If* $n$ *and* $p$ *are integers, then*
+#### Proposition 13 {#ens-iii-s5-prop-13 .statement tag=03RI}
+
+*If* $n$ *and* $p$ *are integers, then*
 
 $$\binom{n+1}{p+1} = \binom{n}{p+1} + \binom{n}{p}.$$
 
@@ -370,7 +377,9 @@ Let P′ (resp. P″) denote the set of subsets of $p + 1$ elements of E which c
 
 Proposition 13 can also be proved by means of a simple calculation from the formula $\binom{n}{p} = \dfrac{n!}{p!(n-p)!}$ for $p \leqslant n$.
 
-**Proposition 14.** *Let* $n$ *be an integer* $> 0$. *Then the number* $a_n$ (resp. $b_n$) *of ordered pairs* $(i, j)$ *of integers such that* $1 \leqslant i \leqslant j \leqslant n$ (resp. $1 \leqslant i < j \leqslant n$) *is* $\frac{1}{2}n(n+1)$ ((resp. $\frac{1}{2}n(n-1)$)).
+#### Proposition 14 {#ens-iii-s5-prop-14 .statement tag=03RJ}
+
+*Let* $n$ *be an integer* $> 0$. *Then the number* $a_n$ (resp. $b_n$) *of ordered pairs* $(i, j)$ *of integers such that* $1 \leqslant i \leqslant j \leqslant n$ (resp. $1 \leqslant i < j \leqslant n$) *is* $\frac{1}{2}n(n+1)$ ((resp. $\frac{1}{2}n(n-1)$)).
 
 For $b_n$ is the number of subsets of 2 elements in $[1, n]$; hence
 
@@ -378,13 +387,17 @@ $$b_n = \frac{n!}{2!(n-2)!} = \frac{1}{2} n(n-1).$$
 
 The value of $a_n$ is deduced from this by noting that the set of ordered pairs $(i, j)$ such that $1 \leqslant i \leqslant j \leqslant n$ is the union of the set of ordered pairs $(i, j)$ such that $1 \leqslant i \leqslant j < n$ and the set of pairs $(i, i)$ where $1 \leqslant i \leqslant n$. Thus $a_n = n + b_n = \frac{1}{2} n(n+1)$.
 
-**Corollary.** *For each integer $n > 0$, we have*
+#### Corollary {#ens-iii-s5-n8-cor-2 .statement tag=03RK}
+
+*For each integer $n > 0$, we have*
 
 $$\sum_{i=1}^{n} i = \frac{1}{2} n(n+1).$$
 
 In the set A of ordered pairs of integers $(i, j)$ such that $1 \leqslant i \leqslant j \leqslant n$, let $A_k$ denote the subset of pairs $(i, k)$, where $1 \leqslant i \leqslant k$ (for an arbitrary integer $k \leqslant n$). Then $A_k$ has $k$ elements. But $(A_k)_{1 \leqslant k \leqslant n}$ is a partition of A; hence the result.
 
-**Proposition 15.** *Let $n$ and $h$ be integers and let* E *be a set with $h$ elements. Then the number of mappings $u$ of* E *into* $[0, n]$ *such that* $\sum_{x \in E} u(x) \leqslant n$ *(resp.* $\sum_{x \in E} u(x) = n$, *for $h > 0$) is*
+#### Proposition 15 {#ens-iii-s5-prop-15 .statement tag=03RL}
+
+*Let $n$ and $h$ be integers and let* E *be a set with $h$ elements. Then the number of mappings $u$ of* E *into* $[0, n]$ *such that* $\sum_{x \in E} u(x) \leqslant n$ *(resp.* $\sum_{x \in E} u(x) = n$, *for $h > 0$) is*
 
 $$\binom{n+h}{h} \left( \text{resp.} \ \binom{n+h-1}{h-1} \right).$$
 

@@ -9,6 +9,7 @@ kind: historical
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 255-257
 pdf_pages: 0261-0263
 extraction: ocr
 statements: 0

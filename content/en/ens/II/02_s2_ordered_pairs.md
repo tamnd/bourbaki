@@ -8,20 +8,21 @@ section_title: Ordered pairs
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 72-75, 123-124
 pdf_pages: 0079-0082, 0130-0131
 extraction: ocr
 subsections:
     - "no": 1
       title: THE AXIOM OF THE ORDERED PAIR
-      page: 0
+      page: 72
       pdf_page: 79
     - "no": 2
       title: PRODUCT OF TWO SETS
-      page: 0
+      page: 74
       pdf_page: 81
-statements: 0
+statements: 4
 exercises: 2
-content_sha256: acc75f970797c7902c6fb0899dde2bd3b04d19cab46212ab5f8120ec77e6b5ed
+content_sha256: 39df2ab84c1a4cd7487506eb10473433071a3570142a04a0b8feb982b45bc203
 ---
 
 ## 2. ORDERED PAIRS
@@ -86,7 +87,9 @@ This means that we may interpret a relation between the objects $x$ and $y$ as a
 
 ### 2. PRODUCT OF TWO SETS
 
-**Theorem 1.** *The relation*
+#### Theorem 1 {#ens-ii-s2-thm-1 .statement tag=03PC}
+
+*The relation*
 
 $$(\forall X)(\forall Y)(\exists Z)(\forall z)((z \in Z) \Leftrightarrow (\exists x)(\exists y)(z = (x, y) \text{ and } x \in X \text{ and } y \in Y)$$
 
@@ -98,7 +101,9 @@ $$(\forall y)(\exists A)(\forall z)(R \Rightarrow (z \in A))$$
 
 is true, by virtue of S5 (Chapter I, §4, no. 2). It then follows from S8 that the relation $(\exists y)(y \in Y$ and R$)$ is collectivizing in $z$. But this relation is equivalent to $(\exists x)(\exists y)(y \in Y$ and $x \in X$ and $z = (x, y))$; hence the result.
 
-**Definition 1.** *Given two sets* X *and* Y, *the set*
+#### Definition 1 {#ens-ii-s2-def-1 .statement tag=03PD}
+
+*Given two sets* X *and* Y, *the set*
 
 $$\mathcal{E}_z((\exists x)(\exists y)(z = (x, y) \text{ and } x \in X \text{ and } y \in Y))$$
 
@@ -106,7 +111,9 @@ $$\mathcal{E}_z((\exists x)(\exists y)(z = (x, y) \text{ and } x \in X \text{ an
 
 The relation $z \in X \times Y$ is thus equivalent to "$z$ is an ordered pair and $\mathrm{pr}_1 z \in X$ and $\mathrm{pr}_2 z \in Y$". The sets X and Y are called the *first* and *second factors* of X $\times$ Y.
 
-**Proposition 1.** *If* A$'$, B$'$ *are non-empty sets, the relation* A$' \times$ B$' \subset$ A $\times$ B *is equivalent to* "A$' \subset$ A *and* B$' \subset$ B".
+#### Proposition 1 {#ens-ii-s2-prop-1 .statement tag=03PE}
+
+*If* A$'$, B$'$ *are non-empty sets, the relation* A$' \times$ B$' \subset$ A $\times$ B *is equivalent to* "A$' \subset$ A *and* B$' \subset$ B".
 
 In the first place, the relation $z \in A' \times B'$ is equivalent to "$z$ is an ordered pair and $\mathrm{pr}_1 z \in A'$ and $\mathrm{pr}_2 z \in B'$"; therefore, without any restriction on A$'$ and B$'$, the relation "A$' \subset$ A and B$' \subset$ B" implies
 
@@ -114,7 +121,9 @@ $$A' \times B' \subset A \times B.$$
 
 Conversely, let us first show that if $B' \neq \emptyset$ (without restriction on $A'$), the relation $A' \times B' \subset A \times B$ implies $A' \subset A$. Let $x$ be an element of $A'$; since $B' \neq \emptyset$, there is an object $y$ which is an element of $B'$; we have $(x, y) \in A' \times B'$, hence $(x, y) \in A \times B$, and consequently $x \in A$; thus $A' \subset A$. Similarly, if $A' \neq \emptyset$, the relation $A' \times B' \subset A \times B$ implies $B' \subset B$. Hence the result.
 
-**Proposition 2.** *Let* A *and* B *be two sets. The relation* $A \times B = \emptyset$ *is equivalent to* "$A = \emptyset$ *or* $B = \emptyset$".
+#### Proposition 2 {#ens-ii-s2-prop-2 .statement tag=03PF}
+
+*Let* A *and* B *be two sets. The relation* $A \times B = \emptyset$ *is equivalent to* "$A = \emptyset$ *or* $B = \emptyset$".
 
 For the relation $z \in A \times B$ implies $\mathrm{pr}_1 z \in A$ and $\mathrm{pr}_2 z \in B$; hence $A \neq \emptyset$ and $B \neq \emptyset$. Conversely, the relation "$x \in A$ and $y \in B$" implies $(x, y) \in A \times B$ and hence $A \times B \neq \emptyset$. In other words, the relation $A \times B \neq \emptyset$ is equivalent to "$A \neq \emptyset$ and $B \neq \emptyset$"; hence the result.
 

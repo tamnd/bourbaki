@@ -9,6 +9,7 @@ kind: front
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: "65"
 pdf_pages: 0072-0072
 extraction: ocr
 statements: 0

@@ -8,55 +8,58 @@ section_title: Correspondences
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 75-90, 124
 pdf_pages: 0082-0097, 0131-0131
 extraction: ocr
 subsections:
     - "no": 1
       title: GRAPHS AND CORRESPONDENCES
-      page: 0
+      page: 75
       pdf_page: 82
     - "no": 2
       title: INVERSE OF A CORRESPONDENCE
-      page: 0
+      page: 78
       pdf_page: 85
     - "no": 3
       title: COMPOSITION OF TWO CORRESPONDENCES
-      page: 0
+      page: 78
       pdf_page: 85
     - "no": 4
       title: FUNCTIONS
-      page: 0
+      page: 81
       pdf_page: 88
     - "no": 5
       title: RESTRICTIONS AND EXTENSIONS OF FUNCTIONS
-      page: 0
+      page: 82
       pdf_page: 89
     - "no": 6
       title: DEFINITION OF A FUNCTION BY MEANS OF A TERM
-      page: 0
+      page: 83
       pdf_page: 90
     - "no": 7
       title: COMPOSITION OF TWO FUNCTIONS. INVERSE FUNCTION
-      page: 0
+      page: 84
       pdf_page: 91
     - "no": 8
       title: RETRACTIONS AND SECTIONS
-      page: 0
+      page: 86
       pdf_page: 93
     - "no": 9
       title: FUNCTIONS OF TWO ARGUMENTS
-      page: 0
+      page: 89
       pdf_page: 96
-statements: 13
+statements: 26
 exercises: 6
-content_sha256: bc1029b947dfe2d2bc79f85eb745ee33962ceb2f5b9f98e5d7860133c66c8d01
+content_sha256: e5f9a03f2b9c8c12b324d03754ee977abb10d2a0dc6c2e3790573a775eb1a61f
 ---
 
 ## 3. CORRESPONDENCES
 
 ### 1. GRAPHS AND CORRESPONDENCES
 
-**Definition 1.** G *is said to be a graph if every element of* G *is an ordered pair, i.e., if the relation*
+#### Definition 1 {#ens-ii-s3-def-1 .statement tag=03PG}
+
+G *is said to be a graph if every element of* G *is an ordered pair, i.e., if the relation*
 
 $$(\forall z)(z \in G \Rightarrow (z \text{ is an ordered pair}))$$
 
@@ -90,7 +93,9 @@ $$\mathrm{A} = \mathscr{E}_x((\exists y)((x, y) \in \mathrm{G}))) \qquad \text{a
 
 these sets are called respectively *the first and second projections* of the graph G, or the *domain* and *range* of G; they are denoted by $\mathrm{pr}_1 \langle \mathrm{G} \rangle$ and $\mathrm{pr}_2 \langle \mathrm{G} \rangle$ (or by $\mathrm{pr}_1 \mathrm{G}$ and $\mathrm{pr}_2 \mathrm{G}$ if there is no risk of confusion). It is immediately verified that $\mathrm{G} \subset (\mathrm{pr}_1 \mathrm{G}) \times (\mathrm{pr}_2 \mathrm{G})$; every set of ordered pairs is therefore a subset of a product, and conversely. If one of the two sets $\mathrm{pr}_1 \mathrm{G}$, $\mathrm{pr}_2 \mathrm{G}$ is empty, we have $\mathrm{G} = \emptyset$ (§ 2, Proposition 2).
 
-**Remark.** The relation $x = y$ has no graph, for the first projection of the graph, if it existed, would be the set of all objects (cf. § 1, no. 7, Remark).
+#### Remark {#ens-ii-s3-n1-rem-1 .statement tag=03PH}
+
+The relation $x = y$ has no graph, for the first projection of the graph, if it existed, would be the set of all objects (cf. § 1, no. 7, Remark).
 
 #### Definition 2 {#ens-ii-s3-def-2 .statement tag=03HJ}
 
@@ -112,7 +117,9 @@ $$x \in X \text{ and } (x, y) \in G$$
 
 implies $(x, y) \in G$ and therefore has a graph $G'$. The second projection of $G'$ consists of all the objects which correspond under G to objects of X.
 
-**Definition 3.** *Let* G *be a graph and* X *a set. The set of all objects which correspond under* G *to elements of* X *is called the image of* X *under* G *and is denoted by* $G\langle X \rangle$ *or* $G(X)$.
+#### Definition 3 {#ens-ii-s3-def-3 .statement tag=03PI}
+
+*Let* G *be a graph and* X *a set. The set of all objects which correspond under* G *to elements of* X *is called the image of* X *under* G *and is denoted by* $G\langle X \rangle$ *or* $G(X)$.
 
 ¶ *Let* $\Gamma = (G, A, B)$ *be a correspondence and let* X *be a subset of* A. *The set* $G\langle X \rangle$ *is also denoted by* $\Gamma\langle X \rangle$ *or* $\Gamma(X)$ *and is called the image of* X *under* $\Gamma$.
 
@@ -124,13 +131,19 @@ implies $(x, y) \in G$ and therefore has a graph $G'$. The second projection of 
 
 Let G be a graph. Since the relation $(x, y) \in G$ implies $y \in \mathrm{pr}_2 G$, we have $G\langle X \rangle \subset \mathrm{pr}_2 G$ for every set X. Since $(x, y) \in G$ implies $x \in \mathrm{pr}_1 G$, we have $G\langle \mathrm{pr}_1 G \rangle = \mathrm{pr}_2 G$. We have $G\langle \emptyset \rangle = \emptyset$, since $x \notin \emptyset$ is a theorem. If $X \subset \mathrm{pr}_1 G$ and $X \neq \emptyset$, we have $G\langle X \rangle \neq \emptyset$.
 
-**Proposition 2.** *Let* G *be a graph and let* X, Y *be two sets; then the relation* $X \subset Y$ *implies* $G\langle X \rangle \subset G\langle Y \rangle$.
+#### Proposition 2 {#ens-ii-s3-prop-2 .statement tag=03PJ}
+
+*Let* G *be a graph and let* X, Y *be two sets; then the relation* $X \subset Y$ *implies* $G\langle X \rangle \subset G\langle Y \rangle$.
 
 This is an immediate consequence of the definitions and of C50 (§ 1, no. 4).
 
-**Corollary.** *If* $A \supset \mathrm{pr}_1 G$, *we have* $G\langle A \rangle = \mathrm{pr}_2 G$.
+#### Corollary {#ens-ii-s3-n1-cor-1 .statement tag=03PK}
 
-**Definition 4.** *Let* G *be a graph and* $x$ *an object. The set* $G\langle \{x\} \rangle$ (which is sometimes denoted by $G(x)$, by abuse of language) *is called the section of* G *at* $x$.
+*If* $A \supset \mathrm{pr}_1 G$, *we have* $G\langle A \rangle = \mathrm{pr}_2 G$.
+
+#### Definition 4 {#ens-ii-s3-def-4 .statement tag=03PL}
+
+*Let* G *be a graph and* $x$ *an object. The set* $G\langle \{x\} \rangle$ (which is sometimes denoted by $G(x)$, by abuse of language) *is called the section of* G *at* $x$.
 
 It follows immediately from C43 (Chapter I, § 5, no. 1) that the relation $y \in G\langle \{x\} \rangle$ is equivalent to $(x, y) \in G$. If G and $G'$ are two graphs, the relation $G \subset G'$ is thus equivalent to
 
@@ -142,7 +155,9 @@ If $\Gamma = (\mathrm{G}, \mathrm{A}, \mathrm{B})$ is a correspondence between A
 
 Let G be a graph and $\mathrm{A} = \mathrm{pr}_1\mathrm{G}$, $\mathrm{B} = \mathrm{pr}_2\mathrm{G}$ its projections. The relation $(y, x) \in \mathrm{G}$ implies $(x, y) \in \mathrm{B} \times \mathrm{A}$; this relation therefore has a graph which consists of all ordered pairs $(x, y)$ such that $(y, x) \in \mathrm{G}$.
 
-**Definition 5.** *Let G be a graph. The graph whose elements are the ordered pairs $(x, y)$ such that $(y, x) \in \mathrm{G}$ is called the inverse of G and is denoted by* $\overset{-1}{\mathrm{G}}$.
+#### Definition 5 {#ens-ii-s3-def-5 .statement tag=03PM}
+
+*Let G be a graph. The graph whose elements are the ordered pairs $(x, y)$ such that $(y, x) \in \mathrm{G}$ is called the inverse of G and is denoted by* $\overset{-1}{\mathrm{G}}$.
 
 For every set X, $\overset{-1}{\mathrm{G}}\langle\mathrm{X}\rangle$ is called the *inverse image of* X *under* G.
 
@@ -162,7 +177,9 @@ A graph G is said to be *symmetric* if $\overset{-1}{\mathrm{G}} = \mathrm{G}$.
 
 Let G, G′ be two graphs. Let A denote the set $\mathrm{pr}_1\mathrm{G}$ and let C denote the set $\mathrm{pr}_2\mathrm{G}'$. The relation $(\exists y)((x, y) \in \mathrm{G}$ and $(y, z) \in \mathrm{G}')$ implies that $(x, z) \in \mathrm{A} \times \mathrm{C}$, and therefore has a graph with respect to $x$ and $z$.
 
-**Definition 6.** *Let G, G′ be two graphs. The graph (with respect to $x$ and $z$) of the relation $(\exists y)((x, y) \in \mathrm{G}$ and $(y, z) \in \mathrm{G}')$ is called the composition of G′ and G, and is denoted by* $\mathrm{G}' \circ \mathrm{G}$ (or sometimes by $\mathrm{G}'\mathrm{G}$).
+#### Definition 6 {#ens-ii-s3-def-6 .statement tag=03PN}
+
+*Let G, G′ be two graphs. The graph (with respect to $x$ and $z$) of the relation $(\exists y)((x, y) \in \mathrm{G}$ and $(y, z) \in \mathrm{G}')$ is called the composition of G′ and G, and is denoted by* $\mathrm{G}' \circ \mathrm{G}$ (or sometimes by $\mathrm{G}'\mathrm{G}$).
 
 #### Proposition 3 {#ens-ii-s3-prop-3 .statement tag=03HK}
 
@@ -232,11 +249,15 @@ that is to say, $x \in \overset{-1}{\mathrm{G}}\langle \mathrm{G}\langle \mathrm
 
 ¶ Let $\Gamma = (\mathrm{G}, \mathrm{A}, \mathrm{B})$ and $\Gamma' = (\mathrm{G}', \mathrm{B}, \mathrm{C})$ be two correspondences such that the target of $\Gamma$ is the same as the source of $\Gamma'$. From the above discussion we have $\mathrm{pr}_1(\mathrm{G}' \circ \mathrm{G}) \subset \mathrm{pr}_1\mathrm{G} \subset \mathrm{A}$ and $\mathrm{pr}_2(\mathrm{G}' \circ \mathrm{G}) \subset \mathrm{pr}_2\mathrm{G}' \subset \mathrm{C}$; hence we may state the following definition :
 
-**Definition 7.** *Let* $\Gamma = (\mathrm{G}, \mathrm{A}, \mathrm{B})$ *and* $\Gamma' = (\mathrm{G}', \mathrm{B}, \mathrm{C})$ *be two correspondences such that the target of* $\Gamma$ *is the source of* $\Gamma'$. *Then the correspondence* $(\mathrm{G}' \circ \mathrm{G}, \mathrm{A}, \mathrm{C})$ *is called the composition of* $\Gamma'$ *and* $\Gamma$, *and is denoted by* $\Gamma' \circ \Gamma$ (or sometimes $\Gamma'\Gamma$).
+#### Definition 7 {#ens-ii-s3-def-7 .statement tag=03PO}
+
+*Let* $\Gamma = (\mathrm{G}, \mathrm{A}, \mathrm{B})$ *and* $\Gamma' = (\mathrm{G}', \mathrm{B}, \mathrm{C})$ *be two correspondences such that the target of* $\Gamma$ *is the source of* $\Gamma'$. *Then the correspondence* $(\mathrm{G}' \circ \mathrm{G}, \mathrm{A}, \mathrm{C})$ *is called the composition of* $\Gamma'$ *and* $\Gamma$, *and is denoted by* $\Gamma' \circ \Gamma$ (or sometimes $\Gamma'\Gamma$).
 
 It follows immediately from Proposition 5 that if X is a subset of A we have $(\Gamma' \circ \Gamma)\langle \mathrm{X}\rangle = \Gamma'\langle \Gamma\langle \mathrm{X}\rangle\rangle$. Furthermore, since the target of $\overset{-1}{\Gamma'}$ is the same as the source of $\overset{-1}{\Gamma}$, the inverse of $\Gamma' \circ \Gamma$ is $\overset{-1}{\Gamma} \circ \overset{-1}{\Gamma'}$, by Proposition 3.
 
-**Definition 8.** *If* A *is a set, the set* $\Delta_\mathrm{A}$ *of all objects of the form* $(x, x)$, *where* $x \in \mathrm{A}$, *is called the diagonal of* $\mathrm{A} \times \mathrm{A}$.
+#### Definition 8 {#ens-ii-s3-def-8 .statement tag=03PP}
+
+*If* A *is a set, the set* $\Delta_\mathrm{A}$ *of all objects of the form* $(x, x)$, *where* $x \in \mathrm{A}$, *is called the diagonal of* $\mathrm{A} \times \mathrm{A}$.
 
 Clearly we have $\mathrm{pr}_1\Delta_\mathrm{A} = \mathrm{pr}_2\Delta_\mathrm{A} = \mathrm{A}$. The correspondence
 
@@ -366,7 +387,9 @@ of G into $\overset{-1}{\mathrm{G}}$ is a bijection (called the *canonical* bije
 
 (5) Let A be a set and $b$ an object. The mapping $x \to (x,\ b)$ of A into $\mathrm{A} \times \{b\}$ is a bijection.
 
-**Proposition 7.** *Let $f$ be a mapping of* A *into* B. *Then* $\overset{-1}{f}$ *is a function if and only if $f$ is bijective.*
+#### Proposition 7 {#ens-ii-s3-prop-7 .statement tag=03PQ}
+
+*Let $f$ be a mapping of* A *into* B. *Then* $\overset{-1}{f}$ *is a function if and only if $f$ is bijective.*
 
 If $\overset{-1}{f}$ is a function, its source B is equal to its domain, i.e., to $f(\mathrm{A})$; hence $f$ is surjective. To show that $f$ is injective, let $x$ and $y$ be two elements of A such that $f(x) = f(y)$. If F denotes the graph of $f$, we have
 
@@ -426,7 +449,9 @@ Instead of retraction (resp. section) the phrase *left-inverse* (resp. *right-in
 
 ¶ If $f$ is surjective and if $s$, $s'$ are two sections of $f$ such that $s(\mathrm{B}) = s'(\mathrm{B})$, then $s = s'$; for if $x \in \mathrm{B}$, there exists $y \in \mathrm{B}$ such that $s(x) = s'(y)$, and we have $x = f(s(x)) = f(s'(y)) = y$, so that $s(x) = s'(x)$ and consequently $s = s'$. Thus a section $s$ is uniquely determined by the set $s(\mathrm{B})$. By abuse of language, the set $s(\mathrm{B})$ is sometimes called a *section of $f$*.
 
-**Theorem 1.** *Let $f$ be a mapping of* A *into* B, *let $f'$ be a mapping of* B *into* C, *and let $f'' = f' \circ f$. Then :*
+#### Theorem 1 {#ens-ii-s3-thm-1 .statement tag=03PR}
+
+*Let $f$ be a mapping of* A *into* B, *let $f'$ be a mapping of* B *into* C, *and let $f'' = f' \circ f$. Then :*
 
 (a) *If $f$ and $f'$ are injections, then $f''$ is an injection. If $r$, $r'$ are retractions of $f$, $f'$, respectively, then $r \circ r'$ is a retraction of $f''$.*
 
@@ -472,7 +497,9 @@ $$= f \circ \overset{-1}{f} = \mathrm{I_B}.$$
 
 If $f''$ is an injection and $f$ a surjection, then $f'$ is an injection, by Proposition 8 if $\mathrm{A} \neq \emptyset$, and trivially if $\mathrm{A} = \emptyset$ (for then we have $\mathrm{B} = f\langle \mathrm{A}\rangle = \emptyset$).
 
-**Proposition 9.** (a) *Let* E, F, G *be sets, let* $g$ *be a mapping of* E *onto* F *and* $f$ *a mapping of* E *into* G. *Then there exists a mapping* $h$ *of* F *into* G *such that* $f = h \circ g$ *if and only if the relation* $g(x) = g(y)$ *(where* $x \in \mathrm{E}$, $y \in \mathrm{E}$*) implies the relation* $f(x) = f(y)$. *The mapping* $h$ *is then uniquely determined by* $f$; *if* $s$ *is a section of* $g$, *we have* $h = f \circ s$.
+#### Proposition 9 {#ens-ii-s3-prop-9 .statement tag=03PS}
+
+(a) *Let* E, F, G *be sets, let* $g$ *be a mapping of* E *onto* F *and* $f$ *a mapping of* E *into* G. *Then there exists a mapping* $h$ *of* F *into* G *such that* $f = h \circ g$ *if and only if the relation* $g(x) = g(y)$ *(where* $x \in \mathrm{E}$, $y \in \mathrm{E}$*) implies the relation* $f(x) = f(y)$. *The mapping* $h$ *is then uniquely determined by* $f$; *if* $s$ *is a section of* $g$, *we have* $h = f \circ s$.
 
 $$\begin{array}{ccc}
 \mathrm{E} & \overset{f}{\searrow} & \\

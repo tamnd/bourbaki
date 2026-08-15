@@ -8,28 +8,29 @@ section_title: Logical theories
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 28-36, 57-58
 pdf_pages: 0035-0043, 0064-0065
 extraction: ocr
 subsections:
     - "no": 1
       title: THE AXIOMS
-      page: 0
+      page: 28
       pdf_page: 35
     - "no": 2
       title: FIRST CONSEQUENCES
-      page: 0
+      page: 29
       pdf_page: 36
     - "no": 3
       title: METHODS OF PROOF
-      page: 0
+      page: 30
       pdf_page: 37
     - "no": 4
       title: CONJUNCTION
-      page: 0
+      page: 33
       pdf_page: 40
     - "no": 5
       title: EQUIVALENCE
-      page: 0
+      page: 34
       pdf_page: 41
 statements: 0
 exercises: 5

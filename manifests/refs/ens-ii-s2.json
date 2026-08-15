@@ -1,10 +1,10 @@
 {"edges": [
-{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s1","kind":"cites","raw":"§1, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":31},
-{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s5","kind":"cites","raw":"§ 5, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":35},
-{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s5","kind":"cites","raw":"§5, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":49},
-{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s4","kind":"cites","raw":"§4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":57},
-{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s4","kind":"cites","raw":"§4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":77},
-{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s5","kind":"cites","raw":"§5, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":79},
-{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s1","kind":"cites","raw":"§1, no. 6","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":95},
-{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s4","kind":"cites","raw":"§4, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":99}
+{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s1","kind":"cites","raw":"§1, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":32},
+{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s5","kind":"cites","raw":"§ 5, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":36},
+{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s5","kind":"cites","raw":"§5, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":50},
+{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s4","kind":"cites","raw":"§4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":58},
+{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s4","kind":"cites","raw":"§4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":78},
+{"from":"","from_label":"ens-ii-s2","to_label":"ens-ii-s5","kind":"cites","raw":"§5, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":80},
+{"from":"03PC","from_label":"ens-ii-s2-thm-1","to_label":"ens-ii-s1","kind":"cites","raw":"§1, no. 6","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":98},
+{"from":"03PC","from_label":"ens-ii-s2-thm-1","to_label":"ens-ii-s4","kind":"cites","raw":"§4, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/II/02_s2_ordered_pairs.md","line":102}
 ]}

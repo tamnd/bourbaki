@@ -8,24 +8,25 @@ section_title: Theorems
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 24-28, 56-57
 pdf_pages: 0031-0035, 0063-0064
 extraction: ocr
 subsections:
     - "no": 1
       title: AXIOMS
-      page: 0
+      page: 24
       pdf_page: 31
     - "no": 2
       title: PROOFS
-      page: 0
+      page: 25
       pdf_page: 32
     - "no": 3
       title: SUBSTITUTIONS IN A THEORY
-      page: 0
+      page: 26
       pdf_page: 33
     - "no": 4
       title: COMPARISON OF THEORIES
-      page: 0
+      page: 26
       pdf_page: 33
 statements: 1
 exercises: 1

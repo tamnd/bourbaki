@@ -8,32 +8,33 @@ section_title: Infinite sets
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 183-190, 241-251
 pdf_pages: 0189-0196, 0247-0257
 extraction: ocr
 subsections:
     - "no": 1
       title: THE SET OF NATURAL INTEGERS
-      page: 0
+      page: 183
       pdf_page: 189
     - "no": 2
       title: DEFINITION OF MAPPINGS BY INDUCTION
-      page: 0
+      page: 184
       pdf_page: 190
     - "no": 3
       title: PROPERTIES OF INFINITE CARDINALS
-      page: 0
+      page: 186
       pdf_page: 192
     - "no": 4
       title: COUNTABLE SETS
-      page: 0
+      page: 188
       pdf_page: 194
     - "no": 5
       title: STATIONARY SEQUENCES
-      page: 0
+      page: 189
       pdf_page: 195
-statements: 22
+statements: 23
 exercises: 31
-content_sha256: e5c209da281e5ee27d099fa26989ee4682ac6c0dbd476060165c20750a255e79
+content_sha256: a93483da8b8bc648bf1b671280829866bfbb5b3c851f5096c1a2789925f6d792
 ---
 
 ## 6. INFINITE SETS
@@ -267,7 +268,9 @@ For every finite ordered set has a maximal element (§ 4, no. 4, Proposition 3, 
 
 ¶ An ordered set E which satisfies the equivalent conditions of Proposition 6 is sometimes said to be *Noetherian*.
 
-**Proposition 7** ("Principle of Noetherian induction"). — *Let* E *be a Noetherian set, and let* F *be a subset of* E *with the following property : if* $a \in E$ *is such that the relation* $x > a$ *implies* $x \in F$, *then* $a \in F$. *Under these conditions,* F $=$ E.
+#### Proposition 7 ("Principle of Noetherian induction") {#ens-iii-s6-prop-7 .statement tag=03RM}
+
+— *Let* E *be a Noetherian set, and let* F *be a subset of* E *with the following property : if* $a \in E$ *is such that the relation* $x > a$ *implies* $x \in F$, *then* $a \in F$. *Under these conditions,* F $=$ E.
 
 Indeed, suppose E $\neq$ F; then E $-$ F has a maximal element $b$. By definition we have $x \in F$ for all $x > b$; but this implies $b \in F$, which is absurd.
 

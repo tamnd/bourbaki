@@ -8,24 +8,25 @@ section_title: Equalitarian theories
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 44-49, 59-60
 pdf_pages: 0051-0056, 0066-0067
 extraction: ocr
 subsections:
     - "no": 1
       title: THE AXIOMS
-      page: 0
+      page: 44
       pdf_page: 51
     - "no": 2
       title: PROPERTIES OF EQUALITY
-      page: 0
+      page: 45
       pdf_page: 52
     - "no": 3
       title: FUNCTIONAL RELATIONS
-      page: 0
+      page: 47
       pdf_page: 54
-statements: 0
+statements: 3
 exercises: 7
-content_sha256: b55b4026adbafccd45115f22432627d69b636aae58b1284ed1ad9b6cb8b80051
+content_sha256: c49154b5d581ddcf39f153a1ef13db9d02c6c523721b4d0e07f23ac5b38a1f91
 ---
 
 ## 5. EQUALITARIAN THEORIES
@@ -66,13 +67,17 @@ When a relation of the form $T = U$ has been proved in a theory $\mathscr{T}$, i
 
 From now on we shall consider only equalitarian theories. Let $\mathscr{T}$ be such a theory, and let $\mathscr{T}_0$ be the theory whose signs are those of $\mathscr{T}$ and whose only axioms are those provided by schemes S1 through S7. The theory $\mathscr{T}_0$ is weaker than $\mathscr{T}$ (§2, no. 4) and has no constants. The following three theorems are theorems in $\mathscr{T}_0$.
 
-**Theorem 1.** $x = x$.
+#### Theorem 1 {#ens-i-s5-thm-1 .statement tag=03P3}
+
+$x = x$.
 
 Let $S$ denote the relation $x = x$ in $\mathscr{T}_0$. By C27 (§4, no. 1), for every relation $R$ in $\mathscr{T}_0$, $(\forall x)(R \Leftrightarrow R)$ is a theorem in $\mathscr{T}_0$, and therefore, by S7, $\tau_x(R) = \tau_x(R)$, that is to say $(\tau_x(R)|x)S$, is a theorem in $\mathscr{T}_0$. Taking $R$ to be the relation "not $S$" and considering C26 (§4, no. 1), we see that $(\forall x)S$ is a theorem in $\mathscr{T}_0$. By C30 (§4, no. 3), $S$ is therefore a theorem in $\mathscr{T}_0$.
 
 The relation $(\forall x)(x = x)$ is also a theorem in $\mathscr{T}_0$; and if $T$ is a term in $\mathscr{T}_0$, then $T = T$ is a theorem in $\mathscr{T}_0$ (cf. §4, no. 3). It is possible to transform later theorems in the same way into theorems in which no letter appears or into metamathematical criteria. From now on we shall not explicitly perform these transformations, but we shall often implicitly make use of them.
 
-**Theorem 2.** $(x = y) \Leftrightarrow (y = x)$.
+#### Theorem 2 {#ens-i-s5-thm-2 .statement tag=03P4}
+
+$(x = y) \Leftrightarrow (y = x)$.
 
 Suppose that the relation $x = y$ is true. By S6, the relation
 
@@ -84,7 +89,9 @@ $$(x = y) \Rightarrow ((x = x) \Leftrightarrow (y = x)),$$
 
 is true. Therefore $(x = x) \Leftrightarrow (y = x)$ is true. By Theorem 1 it follows that $y = x$ is true, and the theorem is proved.
 
-**Theorem 3.** $((x = y) \text{ and } (y = z)) \Rightarrow (x = z)$.
+#### Theorem 3 {#ens-i-s5-thm-3 .statement tag=03P5}
+
+$((x = y) \text{ and } (y = z)) \Rightarrow (x = z)$.
 
 Let us adjoin the hypotheses $x = y$, $y = z$ to the axioms of $\mathscr{T}_0$. By S6 the relation $(x = y) \Rightarrow ((x = z) \Leftrightarrow (y = z))$ is true. Hence
 

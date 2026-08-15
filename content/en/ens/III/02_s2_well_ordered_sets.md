@@ -8,36 +8,37 @@ section_title: Well-ordered sets
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 148-157, 221-229
 pdf_pages: 0154-0163, 0227-0235
 extraction: ocr
 subsections:
     - "no": 1
       title: SEGMENTS OF A WELL-ORDERED SET
-      page: 0
+      page: 148
       pdf_page: 154
     - "no": 2
       title: THE PRINCIPLE OF TRANSFINITE INDUCTION
-      page: 0
+      page: 151
       pdf_page: 157
     - "no": 3
       title: ZERMELO'S THEOREM
-      page: 0
+      page: 152
       pdf_page: 158
     - "no": 4
       title: INDUCTIVE SETS
-      page: 0
+      page: 154
       pdf_page: 160
     - "no": 5
       title: ISOMORPHISMS OF WELL-ORDERED SETS
-      page: 0
+      page: 155
       pdf_page: 161
     - "no": 6
       title: LEXICOGRAPHIC PRODUCTS
-      page: 0
+      page: 157
       pdf_page: 163
-statements: 13
+statements: 20
 exercises: 10
-content_sha256: 29a8cecc4d74a8a3646b3af36d10653cee3f05e634f8f17568cef0c5cd2e1945
+content_sha256: 1a2d9db98e6ef5ed74df882f0958d82eeb8e59fb48837725860acbe96db49115
 ---
 
 ## 2. WELL-ORDERED SETS
@@ -72,11 +73,15 @@ non-empty subset of $\mathrm{E}_1$ other than $\{b\}$, the least element of $\ma
 
 \* As a consequence of the axiom of infinity (§ 6, no. 1), there exist well-ordered sets which have no greatest element, for example the set $\mathbf{N}$ of natural integers. \*
 
-**Definition 2.** *In an ordered set* E, *a subset of* E *such that the relations* $x \in \mathrm{S}$, $y \in \mathrm{E}$, *and* $y \leqslant x$ *imply* $y \in \mathrm{S}$ *is called a segment of* E.
+#### Definition 2 {#ens-iii-s2-def-2 .statement tag=03QN}
+
+*In an ordered set* E, *a subset of* E *such that the relations* $x \in \mathrm{S}$, $y \in \mathrm{E}$, *and* $y \leqslant x$ *imply* $y \in \mathrm{S}$ *is called a segment of* E.
 
 Clearly, every intersection and union of segments of E is a segment of E. If S is a segment of E, every segment of S is also a segment of E. The set E itself and the empty set are segments of E.
 
-**Proposition 1.** *In a well-ordered set* E, *every segment of* E *other than* E *itself is an interval* $]\leftarrow, a[$, *where* $a \in \mathrm{E}$.
+#### Proposition 1 {#ens-iii-s2-prop-1 .statement tag=03QO}
+
+*In a well-ordered set* E, *every segment of* E *other than* E *itself is an interval* $]\leftarrow, a[$, *where* $a \in \mathrm{E}$.
 
 Let S be a segment of E such that $\mathrm{S} \neq \mathrm{E}$. Since $\mathrm{E} - \mathrm{S}$ is not empty, it has a least element $a$. By virtue of Definition 2, the relation $x \geqslant a$ implies $x \notin \mathrm{S}$; otherwise we would have $a \in \mathrm{S}$, which is absurd. Hence $\mathrm{E} - \mathrm{S}$ is the interval $[a, \rightarrow[$, and S is the interval $]\leftarrow, a[$.
 
@@ -86,17 +91,23 @@ Note that if E is well-ordered and not empty, $\mathrm{S}_x$ has a least element
 
 Let E be a totally ordered set. The union A of the $\mathrm{S}_x$, as $x$ runs through E, is E if E has no greatest element; and if E has a greatest element $b$, we have $\mathrm{A} = \mathrm{E} - \{b\}$.
 
-**Proposition 2.** *The set* E\* *of segments of a well-ordered set* E *is well-ordered by inclusion. The mapping* $x \rightarrow \mathrm{S}_x$ *is an isomorphism of the well-ordered set* E *onto the set of segments of* E *other than* E *itself.*
+#### Proposition 2 {#ens-iii-s2-prop-2 .statement tag=03QP}
+
+*The set* E\* *of segments of a well-ordered set* E *is well-ordered by inclusion. The mapping* $x \rightarrow \mathrm{S}_x$ *is an isomorphism of the well-ordered set* E *onto the set of segments of* E *other than* E *itself.*
 
 It is clear that if $x \in \mathrm{E}$ and $y \in \mathrm{E}$, the relation $x \leqslant y$ implies $\mathrm{S}_x \subset \mathrm{S}_y$, and that $x < y$ implies $\mathrm{S}_x \neq \mathrm{S}_y$; the mapping $x \rightarrow \mathrm{S}_x$ is therefore an isomorphism of E onto the set S(E) of segments of E distinct from E itself (§ 1, no. 12, Proposition 11), and consequently S(E) is well-ordered. Moreover, E\* is isomorphic to the well-ordered set obtained from S(E) by adjoining a greatest element.
 
-**Proposition 3.** *Let* $(\mathrm{X}_\iota)_{\iota \in \mathbf{I}}$ *be a family of well-ordered sets such that for each pair of indices* $(\iota, \varkappa)$ *one of the sets* $\mathrm{X}_\iota$, $\mathrm{X}_\varkappa$ *is a segment of the other. Then there exists a unique ordering on the set* $\mathrm{E} = \bigcup_{\iota \in \mathbf{I}} \mathrm{X}_\iota$ *which induces the given ordering on each of the* $\mathrm{X}_\iota$. *Endowed with this ordering,* E *is a well-ordered set. Every*
+#### Proposition 3 {#ens-iii-s2-prop-3 .statement tag=03QQ}
+
+*Let* $(\mathrm{X}_\iota)_{\iota \in \mathbf{I}}$ *be a family of well-ordered sets such that for each pair of indices* $(\iota, \varkappa)$ *one of the sets* $\mathrm{X}_\iota$, $\mathrm{X}_\varkappa$ *is a segment of the other. Then there exists a unique ordering on the set* $\mathrm{E} = \bigcup_{\iota \in \mathbf{I}} \mathrm{X}_\iota$ *which induces the given ordering on each of the* $\mathrm{X}_\iota$. *Endowed with this ordering,* E *is a well-ordered set. Every*
 
 *segment of* $\mathrm{X}_\iota$ *is a segment of* E; *for each* $x \in \mathrm{X}_\iota$, *the segment with endpoint* $x$ *in* $\mathrm{X}_\iota$ *is equal to the segment with endpoint* $x$ *in* E; *and each segment of* E *is either* E *itself or a segment of one of the* $\mathrm{X}_\iota$.
 
 The first assertion is a consequence of the following general lemma :
 
-**Lemma 1.** *Let* $(\mathrm{X}_\alpha)_{\alpha \in \mathrm{A}}$ *be a family of ordered sets, directed with respect to the relation* $\subset$ (in other words, such that for each pair of indices $\alpha$, $\beta$ there exists an index $\gamma$ such that $\mathrm{X}_\alpha \subset \mathrm{X}_\gamma$ and $\mathrm{X}_\beta \subset \mathrm{X}_\gamma$). *Suppose that, for each pair of indices* $(\alpha, \beta)$ *such that* $\mathrm{X}_\alpha \subset \mathrm{X}_\beta$, *the ordering induced on* $\mathrm{X}_\alpha$ *by that of* $\mathrm{X}_\beta$ *is identical with the given ordering on* $\mathrm{X}_\alpha$. *Under these conditions there exists a unique ordering on the set* $\mathrm{E} = \bigcup_{\alpha \in \mathrm{A}} \mathrm{X}_\alpha$ *which induces the given ordering on each* $\mathrm{X}_\alpha$.
+#### Lemma 1 {#ens-iii-s2-lem-1 .statement tag=03QR}
+
+*Let* $(\mathrm{X}_\alpha)_{\alpha \in \mathrm{A}}$ *be a family of ordered sets, directed with respect to the relation* $\subset$ (in other words, such that for each pair of indices $\alpha$, $\beta$ there exists an index $\gamma$ such that $\mathrm{X}_\alpha \subset \mathrm{X}_\gamma$ and $\mathrm{X}_\beta \subset \mathrm{X}_\gamma$). *Suppose that, for each pair of indices* $(\alpha, \beta)$ *such that* $\mathrm{X}_\alpha \subset \mathrm{X}_\beta$, *the ordering induced on* $\mathrm{X}_\alpha$ *by that of* $\mathrm{X}_\beta$ *is identical with the given ordering on* $\mathrm{X}_\alpha$. *Under these conditions there exists a unique ordering on the set* $\mathrm{E} = \bigcup_{\alpha \in \mathrm{A}} \mathrm{X}_\alpha$ *which induces the given ordering on each* $\mathrm{X}_\alpha$.
 
 Let $\mathrm{G}_\alpha$ be the graph of the given ordering on $\mathrm{X}_\alpha$. If G is the graph of an ordering on E which induces on each $\mathrm{X}_\alpha$ the ordering whose graph is $\mathrm{G}_\alpha$, then we must have $\mathrm{G}_\alpha \subset \mathrm{G}$ for each $\alpha \in \mathrm{A}$; hence G contains $\bigcup_{\alpha \in \mathrm{A}} \mathrm{G}_\alpha$. On the other hand, for each pair $(x, y)$ of elements of E there exists by hypothesis an index $\alpha \in \mathrm{A}$ such that $x \in \mathrm{X}_\alpha$ and $y \in \mathrm{X}_\alpha$; if $(x, y) \in \mathrm{G}$, we have $(x, y) \in \mathrm{G}_\alpha$, so that $\mathrm{G} \subset \bigcup_{\alpha \in \mathrm{A}} \mathrm{G}_\alpha$. Hence if the required ordering on E exists, its graph is necessarily $\mathrm{G} = \bigcup_{\alpha \in \mathrm{A}} \mathrm{G}_\alpha$. It remains to be shown that this set satisfies the conditions of the lemma. Since $\mathrm{G}_\beta \cap (\mathrm{X}_\alpha \times \mathrm{X}_\alpha) = \mathrm{G}_\alpha$ if $\mathrm{X}_\alpha \subset \mathrm{X}_\beta$, we have $\mathrm{G} \cap (\mathrm{X}_\alpha \times \mathrm{X}_\alpha) = \mathrm{G}_\alpha$ for all $\alpha \in \mathrm{A}$; on the other hand, it follows from the hypothesis that any three elements $x$, $y$, $z$ of E belong to the same $\mathrm{X}_\alpha$. Hence $(x, y) \in \mathrm{G}$ is an order relation on E, and the lemma is proved.
 
@@ -182,7 +193,9 @@ It is easily seen that the graph of the ordering on M belongs to $\mathfrak{M}$.
 
 Note that if $\emptyset \notin \mathfrak{S}$ (and in particular if $\mathfrak{S}$ is empty), the set M whose existence is asserted by Lemma 3 is the empty set; this follows from condition 1 of Lemma 3.
 
-**Theorem 1** (Zermelo). *Every set* E *can be well-ordered.*
+#### Theorem 1 (Zermelo) {#ens-iii-s2-thm-1 .statement tag=03QS}
+
+*Every set* E *can be well-ordered.*
 
 Let $\mathfrak{S} = \mathfrak{P}(\mathrm{E}) - \{\mathrm{E}\}$ be the set of all subsets of E other than E itself. For each $\mathrm{X} \in \mathfrak{S}$ let $p(\mathrm{X}) = \tau_x \ (x \in \mathrm{E} - \mathrm{X})$; since the relation $\mathrm{X} \in \mathfrak{S}$
 
@@ -202,7 +215,9 @@ implies $(\exists x)(x \in \mathrm{E} - \mathrm{X})$, we have $p(\mathrm{X}) \in
 
 \* (3) It follows from the axiom of infinity (§ 6, no. 1) that the well-ordered set of natural integers is not inductive with respect to the relation $\leqslant$. \*
 
-**Theorem 2** ("Zorn's lemma"). — *Every inductive ordered set has a maximal element.*
+#### Theorem 2 ("Zorn's lemma") {#ens-iii-s2-thm-2 .statement tag=03QT}
+
+— *Every inductive ordered set has a maximal element.*
 
 This theorem is a particular case of the following result :
 

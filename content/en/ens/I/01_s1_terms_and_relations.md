@@ -8,28 +8,29 @@ section_title: Terms and relations
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 15-23, 56
 pdf_pages: 0022-0030, 0063-0063
 extraction: ocr
 subsections:
     - "no": 1
       title: SIGNS AND ASSEMBLIES
-      page: 0
+      page: 15
       pdf_page: 22
     - "no": 2
       title: CRITERIA OF SUBSTITUTION
-      page: 0
+      page: 18
       pdf_page: 25
     - "no": 3
       title: FORMATIVE CONSTRUCTIONS
-      page: 0
+      page: 19
       pdf_page: 26
     - "no": 4
       title: FORMATIVE CRITERIA
-      page: 0
+      page: 21
       pdf_page: 28
-statements: 0
+statements: 3
 exercises: 6
-content_sha256: 49a5e6020c574ee57d0404074026f6b6f85ae6bb934f3728569e50ca758b24ae
+content_sha256: 1abfd2495eb94b17d82a9a097103ec627d59825ad16780ec43ea9047b73003b5
 ---
 
 ## 1. TERMS AND RELATIONS
@@ -100,7 +101,9 @@ Let $A$ and $B$ be assemblies. We shall denote by $AB$ the assembly obtained by 
 
 Let $A$ be an assembly and let $x$ be a letter. We shall denote by $\tau_x(A)$ the assembly constructed as follows : form the assembly $\tau A$, link each occurrence of $x$ in $A$ to the $\tau$ written on the left of $A$, and then replace $x$ everywhere it occurs by the sign $\square$. The assembly denoted by $\tau_x(A)$ therefore *does not contain* $x$.
 
-**Example.** The symbol $\tau_x(\in xy)$ represents the assembly
+#### Example {#ens-i-s1-n1-exa-1 .statement tag=03P0}
+
+The symbol $\tau_x(\in xy)$ represents the assembly
 
 $$
 \tau\in\square y.
@@ -114,11 +117,15 @@ $$
 
 is identical with $\tau_x(A)$.
 
-**Example.** If we replace $x$ by $\square$ wherever $x$ occurs in the assembly $\vee\in xy=xx$, we obtain the assembly $\vee\in\square y=\square\square$.
+#### Example {#ens-i-s1-n1-exa-2 .statement tag=03P1}
+
+If we replace $x$ by $\square$ wherever $x$ occurs in the assembly $\vee\in xy=xx$, we obtain the assembly $\vee\in\square y=\square\square$.
 
 If $A$ is an assembly and we are interested particularly in a letter $x$, or two distinct letters $x$ and $y$ (which may or may not appear in $A$), we shall often write $A\{x\}$ or $A\{x,y\}$. In this case we write $A\{B\}$ instead of $(B\mathbin{|}x)\,A$. We denote by $A\{B,C\}$ the assembly obtained by *simultaneously* replacing $x$ by $B$ and $y$ by $C$ wherever they occur in $A$ (note that $x$ and $y$ may appear in $B$ and in $C$); if $x'$ and $y'$ are distinct letters, other than $x$ and $y$, which appear in neither $A$, $B$, nor $C$, then $A\{B,C\}$ is the same as $(B\mathbin{|}x')(C\mathbin{|}y')(x'\mathbin{|}x)(y'\mathbin{|}y)A$.
 
-**Remark.** When an abbreviating symbol $\Sigma$ is introduced, by means of a definition, to represent a certain assembly, the (usually tacit) convention is made of representing the assembly obtained by substituting an assembly $B$ for a letter $x$ in the original assembly, by the symbol obtained by the replacing the letter $x$ in $\Sigma$ by the assembly $B$ (or, more often, by an abbreviating symbol representing the assembly $B$).
+#### Remark {#ens-i-s1-n1-rem-1 .statement tag=03P2}
+
+When an abbreviating symbol $\Sigma$ is introduced, by means of a definition, to represent a certain assembly, the (usually tacit) convention is made of representing the assembly obtained by substituting an assembly $B$ for a letter $x$ in the original assembly, by the symbol obtained by the replacing the letter $x$ in $\Sigma$ by the assembly $B$ (or, more often, by an abbreviating symbol representing the assembly $B$).
 
 ¶ *For example, having defined what assembly is represented by the symbol $E\otimes F$, where $E$ and $F$ are letters — an assembly which, incidentally, contains other letters besides $E$ and $F$ — the symbol $Z\otimes F$ can be used without further explanation.*
 

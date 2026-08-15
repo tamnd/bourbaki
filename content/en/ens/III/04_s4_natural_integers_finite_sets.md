@@ -8,45 +8,50 @@ section_title: Natural integers. Finite sets
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
+book_pages: 166-171, 230-234
 pdf_pages: 0172-0177, 0236-0240
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF INTEGERS
-      page: 0
+      page: 166
       pdf_page: 172
     - "no": 2
       title: INEQUALITIES BETWEEN INTEGERS
-      page: 0
+      page: 166
       pdf_page: 172
     - "no": 3
       title: THE PRINCIPLE OF INDUCTION
-      page: 0
+      page: 168
       pdf_page: 174
     - "no": 4
       title: FINITE SUBSETS OF ORDERED SETS
-      page: 0
+      page: 170
       pdf_page: 176
     - "no": 5
       title: PROPERTIES OF FINITE CHARACTER
-      page: 0
+      page: 170
       pdf_page: 176
-statements: 5
+statements: 12
 exercises: 11
-content_sha256: 87a2b30527620e9f1030ed91cf6ae97b9711f5490c304c9cc7f3b313c989837e
+content_sha256: d14c3e7c12027b0a4624228c3ac5e8bb8d8b580caabd604b1dbacb617604f022
 ---
 
 ## 4. NATURAL INTEGERS. FINITE SETS
 
 ### 1. DEFINITION OF INTEGERS
 
-**Definition 1.** *A cardinal $\alpha$ is said to be finite if $\alpha \ne \alpha + 1$. A finite cardinal is also called a natural integer (or simply an* integer *if there is no risk of confusion (*)[^1]). A set E is said to be finite if Card (E) is a finite cardinal; and Card (E) is then called the number of elements of E.*
+#### Definition 1 {#ens-iii-s4-def-1 .statement tag=03R9}
+
+*A cardinal $\alpha$ is said to be finite if $\alpha \ne \alpha + 1$. A finite cardinal is also called a natural integer (or simply an* integer *if there is no risk of confusion (*)[^1]). A set E is said to be finite if Card (E) is a finite cardinal; and Card (E) is then called the number of elements of E.*
 
 *A family (Chapter II, § 3, no. 4) is said to be finite if its index set is finite.*
 
 *When we say that the number of objects of a certain type is an integer $m$, we mean that these objects are elements of a finite set whose number of elements is $m$. A set whose number of elements is $m$ is also called a set of $m$ elements.*
 
-**Proposition 1.** *A cardinal $\alpha$ is finite if and only if $\alpha + 1$ is finite.*
+#### Proposition 1 {#ens-iii-s4-prop-1 .statement tag=03RA}
+
+*A cardinal $\alpha$ is finite if and only if $\alpha + 1$ is finite.*
 
 For the relations $\alpha = \beta$ and $\alpha + 1 = \beta + 1$ between cardinals $\alpha$ and $\beta$ are equivalent (§ 3, no. 4, Proposition 8); the relations $\alpha \ne \alpha + 1$ and $\alpha + 1 \ne (\alpha + 1) + 1$ are therefore equivalent.
 
@@ -54,7 +59,9 @@ For the relations $\alpha = \beta$ and $\alpha + 1 = \beta + 1$ between cardinal
 
 ### 2. INEQUALITIES BETWEEN INTEGERS
 
-**Proposition 2.** *Let $n$ be an integer. Then every cardinal $\alpha$ such that $\alpha \leq n$ is an integer. If $n \ne 0$, there exists a unique integer $m$ such that $n = m + 1$, and the relation $\alpha < n$ is equivalent to $\alpha \leq m$.*
+#### Proposition 2 {#ens-iii-s4-prop-2 .statement tag=03RB}
+
+*Let $n$ be an integer. Then every cardinal $\alpha$ such that $\alpha \leq n$ is an integer. If $n \ne 0$, there exists a unique integer $m$ such that $n = m + 1$, and the relation $\alpha < n$ is equivalent to $\alpha \leq m$.*
 
 If $\alpha \leq n$, there exists a cardinal $\beta$ such that $n = \alpha + \beta$ (§ 3, no. 6, Proposition 13). Then $(\alpha + 1) + \beta = (\alpha + \beta) + 1 = n + 1$ (§ 3, no. 3, Proposition 5, Corollary); and since $n \ne n + 1$, we have
 
@@ -70,9 +77,13 @@ $$a \leqslant m + 1 = n;$$
 
 and if $a = n = m + 1$, we would have $a > m$, contrary to hypothesis.
 
-**Corollary 1.** *Every subset of a finite set is finite.*
+#### Corollary 1 {#ens-iii-s4-prop-2-cor-1 .statement tag=03RC}
 
-**Corollary 2.** *If* X *is a subset of a finite set* E *and* X $\neq$ E, *then*
+*Every subset of a finite set is finite.*
+
+#### Corollary 2 {#ens-iii-s4-prop-2-cor-2 .statement tag=03RD}
+
+*If* X *is a subset of a finite set* E *and* X $\neq$ E, *then*
 
 $$\mathrm{Card}\ (\mathrm{X})\ <\ \mathrm{Card}\ (\mathrm{E}).$$
 
@@ -84,11 +95,15 @@ $$\mathrm{Card}\ (\mathrm{X}) < \mathrm{Card}\ (\mathrm{E})$$
 
 for every subset X of E such that X $\neq$ E, then E is finite.
 
-**Corollary 3.** *If* $f$ *is a mapping of a finite set* E *into a set* F, *then* $f(\mathrm{E})$ *is a finite subset of* F.
+#### Corollary 3 {#ens-iii-s4-prop-2-cor-3 .statement tag=03RE}
+
+*If* $f$ *is a mapping of a finite set* E *into a set* F, *then* $f(\mathrm{E})$ *is a finite subset of* F.
 
 For $\mathrm{Card}\ (f(\mathrm{E})) \leqslant \mathrm{Card}\ (\mathrm{E})$ (§ 3, no. 2, Proposition 3).
 
-**Corollary 4.** *Let* E *and* F *be two finite sets with the same number of elements, and let* $f$ *be a mapping of* E *into* F. *Then the following statements are equivalent :*
+#### Corollary 4 {#ens-iii-s4-prop-2-cor-4 .statement tag=03RF}
+
+*Let* E *and* F *be two finite sets with the same number of elements, and let* $f$ *be a mapping of* E *into* F. *Then the following statements are equivalent :*
 
 (a) $f$ *is an injection*;
 (b) $f$ *is a surjection*;
