@@ -2216,3 +2216,67 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: a1ac5f5e8ae6c28e0be4eaeb885d40a3b2adcbe7ffa7939fabfc1375b9f22220
+        - chapter: IV
+          title: STRUCTURES
+          sections:
+            - kind: front
+              title: STRUCTURES
+              path: content/en/ens/IV/00_frontmatter.md
+              first_pdf_page: 264
+              last_pdf_page: 264
+              book_pages: "259"
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 20e20bd940c64b62bf0e38141659a7362eae807af09e20f381b46a8bf16b236a
+            - kind: section
+              section: 1
+              title: Structures and isomorphisms
+              path: content/en/ens/IV/01_s1_structures_and_isomorphisms.md
+              label: ens-iv-s1
+              first_pdf_page: 264
+              last_pdf_page: 294
+              book_pages: 259-271, 289
+              subsections: 7
+              statements: 16
+              exercises: 1
+              extraction: ocr
+              content_sha256: 72e7a50a926695c09905a33aa4733b05bfba50ebcbc6f53e8ad15ba1695dd9eb
+            - kind: section
+              section: 2
+              title: Morphisms and derived structures
+              path: content/en/ens/IV/02_s2_morphisms_and_derived_structures.md
+              label: ens-iv-s2
+              first_pdf_page: 276
+              last_pdf_page: 299
+              book_pages: 271-283, 290-294
+              subsections: 6
+              statements: 12
+              exercises: 11
+              extraction: ocr
+              content_sha256: 53e40c1cbd4a981d6d8f26773b3ae20ef14918c26abafd8f761cbe647e256330
+            - kind: section
+              section: 3
+              title: Universal mappings
+              path: content/en/ens/IV/03_s3_universal_mappings.md
+              label: ens-iv-s3
+              first_pdf_page: 288
+              last_pdf_page: 300
+              book_pages: 283-288, 294-295
+              subsections: 3
+              statements: 0
+              exercises: 3
+              extraction: ocr
+              content_sha256: c4af390c8c914b0b51319df2878c621998b9fe73bbc70a8f9d7d26d1ab9052d6
+            - kind: historical
+              title: Historical Note
+              path: content/en/ens/IV/historical_note.md
+              first_pdf_page: 301
+              last_pdf_page: 301
+              book_pages: "296"
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 113281c126ff9e88603d1b5600b32163d2f4ef4bb45c5666162e5e70f1cf4fe9
