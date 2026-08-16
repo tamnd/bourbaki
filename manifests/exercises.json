@@ -1234,6 +1234,39 @@
               "starred": 1
             }
           ]
+        },
+        {
+          "chapter": "IV",
+          "title": "STRUCTURES",
+          "total": 15,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ens-iv-s1",
+              "dir": "s1",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 2,
+              "label": "ens-iv-s2",
+              "dir": "s2",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "supplementary": 3
+            },
+            {
+              "section": 3,
+              "label": "ens-iv-s3",
+              "dir": "s3",
+              "count": 3,
+              "first": 1,
+              "last": 3,
+              "supplementary": 2
+            }
+          ]
         }
       ]
     }

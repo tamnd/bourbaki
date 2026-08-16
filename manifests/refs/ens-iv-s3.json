@@ -1,0 +1,10 @@
+{"edges": [
+{"from":"","from_label":"ens-iv-s3","to_label":"ens-iv-s2","kind":"cites","raw":"§ 2, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/IV/03_s3_universal_mappings.md","line":36},
+{"from":"","from_label":"ens-iv-s3","to_label":"ens-iv-s1","kind":"cites","raw":"§ 1, no. 4","form":"section","resolved_by":"section","file":"content/en/ens/IV/03_s3_universal_mappings.md","line":36},
+{"from":"","from_label":"ens-iv-s3","to_label":"ens-iv-s2","kind":"cites","raw":"§ 2, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/IV/03_s3_universal_mappings.md","line":50},
+{"from":"","from_label":"ens-iv-s3","to":"03W8","to_label":"ens-iv-s3-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/ens/IV/03_s3_universal_mappings.md","line":62},
+{"from":"","from_label":"ens-iv-s3","to_label":"ens-iv-s2","kind":"cites","raw":"§ 2, no. 4","form":"section","resolved_by":"section","file":"content/en/ens/IV/03_s3_universal_mappings.md","line":64},
+{"from":"","from_label":"ens-iv-s3","to_label":"ens-iv-s2","kind":"cites","raw":"§ 2, no. 4","form":"section","resolved_by":"section","file":"content/en/ens/IV/03_s3_universal_mappings.md","line":68},
+{"from":"","from_label":"ens-iv-s3","kind":"cites","raw":"*General Topology*, Chapter II, § 3, no. 7","form":"section","resolved_by":"out-of-corpus","book":"TG","chapter":"II","file":"content/en/ens/IV/03_s3_universal_mappings.md","line":104},
+{"from":"","from_label":"ens-iv-s3","kind":"cites","raw":"*General Topology*, Chapter IX, § 1, Exercise 7","form":"section","resolved_by":"out-of-corpus","book":"TG","chapter":"IX","file":"content/en/ens/IV/03_s3_universal_mappings.md","line":106}
+]}
