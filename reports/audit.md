@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 8 chapters, 89 sections, 878 exercises, 3252 extracted pages, 5049 tags, 4902 references, 994 translated files, 21 solutions. Languages: en, fr, vi.
+Audited: 8 chapters, 89 sections, 878 exercises, 3252 extracted pages, 5049 tags, 4902 references, 994 translated files, 24 solutions. Languages: en, fr, vi.
 
 ## Summary
 
@@ -17,12 +17,12 @@ Audited: 8 chapters, 89 sections, 878 exercises, 3252 extracted pages, 5049 tags
 | mathematics | 6 | 2 | 1 | M06 (1), M09 (95) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
-| translation | 8 | 2 | 1 | L06 (2), L08 (1) |
-| solutions | 0 | 4 | 0 | none |
+| translation | 9 | 2 | 1 | L06 (2), L08 (1) |
+| solutions | 0 | 5 | 0 | X05 (1) |
 | publication | 0 | 1 | 0 | P04 (89) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 373 soft, over 56 rules that ran and 3 that could not.
+0 hard findings and 374 soft, over 58 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -104,6 +104,12 @@ Soft, publication.
 - `content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md:361` KaTeX will not set it: Double subscript at position 50: …(-1)^{i+j}d_n^j_̲-^{-1}_1\circ d…: =\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_n^j_-…
 
 and 64 more, which `bourbaki audit -only P04` prints in full.
+
+## X05 a solution writes its mathematics in TeX (1)
+
+Soft, solutions.
+
+- `content/solutions/en/ens/III/s1/01.md:15` 31 characters of mathematics stand outside any math span, as ⇒∈∧≠≤, so the solution was written in symbols rather than in TeX
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (185)
 
