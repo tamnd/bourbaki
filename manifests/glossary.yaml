@@ -1,4 +1,4 @@
-version: 26
+version: 27
 terms:
     - en: ring
       vi: vành
@@ -386,7 +386,21 @@ terms:
     - en: order
       vi: cấp
       zh: 阶
+      ja: 位数
+      note: the order of a group or of an element, a cardinal. The ordering sense
+        belongs to Theory of Sets and has its own row.
+    - en: order
+      vi: thứ tự
+      zh: 序
       ja: 順序
+      books:
+        - ens
+      note: an ordering, as in order relation and order-type. Theory of Sets never
+        uses the word for the order of a group.
+    - en: order-type
+      vi: kiểu thứ tự
+      zh: 序型
+      ja: 順序型
     - en: annihilator
       vi: linh hóa tử
       zh: 湮没子
