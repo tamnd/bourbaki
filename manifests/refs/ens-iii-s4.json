@@ -32,8 +32,11 @@
 {"from":"03LI","from_label":"ens-iii-s4-ex-5","to":"03LI","to_label":"ens-iii-s4-ex-5","kind":"cites","raw":"Exercise 5","form":"local","resolved_by":"exercise","file":"content/en/ens/III/exercises/s4/05.md","line":14},
 {"from":"03LJ","from_label":"ens-iii-s4-ex-6","to":"03LI","to_label":"ens-iii-s4-ex-5","kind":"cites","raw":"Exercise 5","form":"local","resolved_by":"exercise","file":"content/en/ens/III/exercises/s4/06.md","line":14},
 {"from":"03LJ","from_label":"ens-iii-s4-ex-6","to":"03LI","to_label":"ens-iii-s4-ex-5","kind":"cites","raw":"Exercise 5","form":"local","resolved_by":"exercise","file":"content/en/ens/III/exercises/s4/06.md","line":36},
+{"from":"03LL","from_label":"ens-iii-s4-ex-8","to":"03UC","to_label":"ens-iii-s1-ex-16","kind":"cites","raw":"§ 1, Exercise 16","form":"section","resolved_by":"exercise","file":"content/en/ens/III/exercises/s4/08.md","line":14},
 {"from":"03LL","from_label":"ens-iii-s4-ex-8","to":"03LK","to_label":"ens-iii-s4-ex-7","kind":"cites","raw":"Exercise 7","form":"local","resolved_by":"exercise","file":"content/en/ens/III/exercises/s4/08.md","line":14},
 {"from":"03LL","from_label":"ens-iii-s4-ex-8","to":"03LK","to_label":"ens-iii-s4-ex-7","kind":"cites","raw":"Exercise 7","form":"local","resolved_by":"exercise","file":"content/en/ens/III/exercises/s4/08.md","line":16},
+{"from":"03LL","from_label":"ens-iii-s4-ex-8","to":"03U2","to_label":"ens-iii-s1-ex-6","kind":"cites","raw":"§ 1, Exercise 6","form":"section","resolved_by":"exercise","file":"content/en/ens/III/exercises/s4/08.md","line":16},
 {"from":"03LM","from_label":"ens-iii-s4-ex-9","to":"03LK","to_label":"ens-iii-s4-ex-7","kind":"cites","raw":"Exercise 7","form":"local","resolved_by":"exercise","file":"content/en/ens/III/exercises/s4/09.md","line":20},
+{"from":"03LM","from_label":"ens-iii-s4-ex-9","to":"03U1","to_label":"ens-iii-s1-ex-5","kind":"cites","raw":"§ 1, Exercise 5","form":"section","resolved_by":"exercise","file":"content/en/ens/III/exercises/s4/09.md","line":26},
 {"from":"03LM","from_label":"ens-iii-s4-ex-9","to":"03LI","to_label":"ens-iii-s4-ex-5","kind":"cites","raw":"Exercise 5","form":"local","resolved_by":"exercise","file":"content/en/ens/III/exercises/s4/09.md","line":26}
 ]}

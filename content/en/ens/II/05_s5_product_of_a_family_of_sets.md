@@ -41,7 +41,7 @@ subsections:
       page: 111
       pdf_page: 118
 statements: 24
-exercises: 2
+exercises: 3
 content_sha256: 36bc8ec590d1a5a4692fdddc22b88dd0fd8a107ff42e89223a29bca8ce919d92
 ---
 

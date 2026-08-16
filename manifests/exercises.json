@@ -1108,7 +1108,7 @@
         {
           "chapter": "II",
           "title": "THEORY OF SETS",
-          "total": 35,
+          "total": 36,
           "sections": [
             {
               "section": 1,
@@ -1146,9 +1146,10 @@
               "section": 5,
               "label": "ens-ii-s5",
               "dir": "s5",
-              "count": 2,
+              "count": 3,
               "first": 1,
-              "last": 2
+              "last": 3,
+              "supplementary": 1
             },
             {
               "section": 6,
@@ -1163,24 +1164,27 @@
         {
           "chapter": "III",
           "title": "ORDERED SETS, CARDINALS, INTEGERS",
-          "total": 88,
+          "total": 120,
           "sections": [
             {
               "section": 1,
               "label": "ens-iii-s1",
               "dir": "s1",
-              "count": 3,
+              "count": 24,
               "first": 1,
-              "last": 3
+              "last": 24,
+              "starred": 6,
+              "supplementary": 4
             },
             {
               "section": 2,
               "label": "ens-iii-s2",
               "dir": "s2",
-              "count": 10,
+              "count": 20,
               "first": 1,
-              "last": 10,
-              "starred": 4
+              "last": 20,
+              "starred": 10,
+              "supplementary": 2
             },
             {
               "section": 3,
@@ -1213,10 +1217,11 @@
               "section": 6,
               "label": "ens-iii-s6",
               "dir": "s6",
-              "count": 31,
+              "count": 32,
               "first": 1,
-              "last": 31,
-              "starred": 18
+              "last": 32,
+              "starred": 19,
+              "supplementary": 1
             },
             {
               "section": 7,

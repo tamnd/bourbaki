@@ -75,5 +75,6 @@
 {"from":"03MO","from_label":"ens-iii-s5-ex-12","to":"03LJ","to_label":"ens-iii-s4-ex-6","kind":"cites","raw":"Exercise 6 of § 4","form":"section","resolved_by":"exercise","file":"content/en/ens/III/exercises/s5/12.md","line":14},
 {"from":"03MP","from_label":"ens-iii-s5-ex-13","to":"03MO","to_label":"ens-iii-s5-ex-12","kind":"cites","raw":"Exercise 12","form":"local","resolved_by":"exercise","file":"content/en/ens/III/exercises/s5/13.md","line":16},
 {"from":"03MS","from_label":"ens-iii-s5-ex-16","to":"03MR","to_label":"ens-iii-s5-ex-15","kind":"cites","raw":"Exercise 15","form":"local","resolved_by":"exercise","file":"content/en/ens/III/exercises/s5/16.md","line":18},
+{"from":"03MU","from_label":"ens-iii-s5-ex-18","to":"03U1","to_label":"ens-iii-s1-ex-5","kind":"cites","raw":"§ 1, Exercise 5","form":"section","resolved_by":"exercise","file":"content/en/ens/III/exercises/s5/18.md","line":14},
 {"from":"03MU","from_label":"ens-iii-s5-ex-18","to":"03LI","to_label":"ens-iii-s4-ex-5","kind":"cites","raw":"§ 4, Exercise 5","form":"section","resolved_by":"exercise","file":"content/en/ens/III/exercises/s5/18.md","line":14}
 ]}

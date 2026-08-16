@@ -1943,7 +1943,7 @@ books:
               statements: 5
               exercises: 6
               extraction: ocr
-              content_sha256: f2ffecd78c6538e00e77528f38f59d11a69210ac76b6669c9d5fdd7491588579
+              content_sha256: bb554ed20fc7b3ab48f1b03434cd7587a6cfd49400a7649f457fd3f4a1a8215b
             - kind: section
               section: 2
               title: Theorems
@@ -2084,7 +2084,7 @@ books:
               book_pages: 101-112, 127
               subsections: 7
               statements: 24
-              exercises: 2
+              exercises: 3
               extraction: ocr
               content_sha256: 36bc8ec590d1a5a4692fdddc22b88dd0fd8a107ff42e89223a29bca8ce919d92
             - kind: section
@@ -2099,7 +2099,7 @@ books:
               statements: 12
               exercises: 11
               extraction: ocr
-              content_sha256: 46bbd43d29f9c5d332bf833c0f86ea687938d026f02591fbfccdb07434ee49cc
+              content_sha256: 596d334d63b530aeb8abd8a315236afe2c367122a1185fbdc8b77d1e8bccf7e5
         - chapter: III
           title: ORDERED SETS, CARDINALS, INTEGERS
           sections:
@@ -2124,9 +2124,9 @@ books:
               book_pages: 131-148, 212-221
               subsections: 13
               statements: 48
-              exercises: 3
+              exercises: 24
               extraction: ocr
-              content_sha256: 11a807e943876c09bc8387787a7822b4ff0e93a4224393488cfc8a18391c2554
+              content_sha256: b2655c012fb0316004f0e9abda8be168f60e338a0995c108e2526e3e8f485165
             - kind: section
               section: 2
               title: Well-ordered sets
@@ -2137,7 +2137,7 @@ books:
               book_pages: 148-157, 221-229
               subsections: 6
               statements: 28
-              exercises: 10
+              exercises: 20
               extraction: ocr
               content_sha256: af2eb46f28d58f32ba0f426034093b2763513b46012633b47b311797b5c4456c
             - kind: section
@@ -2189,7 +2189,7 @@ books:
               book_pages: 183-190, 241-251
               subsections: 5
               statements: 26
-              exercises: 31
+              exercises: 32
               extraction: ocr
               content_sha256: 77f70aee6764a579bfe1b9d46b02201949dbe28ed9954f8d2836dfccee740326
             - kind: section
