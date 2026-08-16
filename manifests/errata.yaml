@@ -9,6 +9,57 @@ errata:
           why: The right ideals of A are the $K'$-subspaces of K, so the deduction the
             exercise asks for holds exactly when K is infinite over $K'$, and the French
             of 1981 (A VIII.13) reads "de dimension infinie sur $K'$".
+    - label: ens-ii-s5
+      lang: en
+      errata:
+        - says: Proposition 1, Corollary 5
+          read: Proposition 6, Corollary 1
+          why: Section 5 prints five corollaries in no. 4 and all five stand under
+            Proposition 6, which is on page 105 and is the auxiliary the no. announces
+            with "it is enough to prove the following proposition". Proposition 1 has
+            no corollary at all, so there is no Corollary 5 of it. The sentence citing
+            this, on page 106, needs the projection of a product onto a factor to be
+            surjective, and that is Corollary 1 of Proposition 6, whose proof reads
+            "Apply Proposition 5 to the subset J = {alpha} of I".
+        - says: Proposition 5, Corollary 2
+          read: Proposition 6, Corollary 2
+          why: The volume hangs these five corollaries on Proposition 5 four times over
+            and on Proposition 6 once, and the page prints them under Proposition 6. The
+            fact wanted in both sentences here, on pages 108 and 109, is that a product
+            is empty exactly when one of its factors is, which is Corollary 2.
+            Proposition 5 is the statement about a partial product that the proof of
+            Corollary 1 applies, and it carries no corollary of its own.
+        - says: Corollary 2 to Proposition 5
+          read: Corollary 2 to Proposition 6
+          why: The same reference as the two above, written the other way round on page
+            109, and wrong the same way.
+    - label: ens-iii-s3
+      lang: en
+      errata:
+        - says: § 5, no. 4, Proposition 5, Corollary 2
+          read: § 5, no. 4, Proposition 6, Corollary 2
+          why: The sentence on page 157 is a translation of the condition that a product
+            set should be non-empty, which is Corollary 2 of no. 4 of § 5 of chapter II.
+            The five corollaries of that no. are printed under Proposition 6 and the
+            volume names them under Proposition 5 here as it does three times in chapter
+            II itself.
+        - says: § 6, no. 3, Theorem 3
+          read: § 6, no. 3, Theorem 2
+          why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma
+            1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries
+            on page 188. The Corollary 4 this sentence cites with it is the one that puts
+            the product of two cardinals, one of them infinite, at their supremum, which
+            is Corollary 4 of Theorem 2 and is what the sentence is about.
+    - label: ens-iii-s7
+      lang: en
+      errata:
+        - says: no. 2, Proposition 2, Corollary 2
+          read: no. 2, Proposition 1, Corollary 2
+          why: The fact cited on page 197 is that the maps of an inverse system compose,
+            h to the lambda nu being h to the lambda mu after h to the mu nu, and that is
+            Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse
+            systems. Proposition 2 of that no. prints one corollary and it carries no
+            number.
     - label: lie-ix-s9
       lang: en
       errata:
@@ -68,3 +119,70 @@ errata:
           why: Section 10 has no corollary under its Theorem 1. The fact this exercise is
             reproving, that every nilpotent element lies in a Borel subalgebra, is
             Corollary 2 of Theorem 2 on page 170.
+
+# The table of contents of a volume, corrected before bourbaki toc build reads it.
+# These are errors of the Acrobat text layer and of the printing itself, not of the
+# reading of the pages.
+contents:
+    - book: ens-i-iv
+      errata:
+        - says: '3. Met?ods .of proof.'
+          read: '3. Methods of proof.'
+          why: The Acrobat text layer of the printed contents, pdf page 9, reads Met?ods
+            .of where the page prints Methods of.
+        - says: '4. ConjunctIon'
+          read: '4. Conjunction'
+          why: The text layer of the printed contents, pdf page 9, capitalises the i of
+            Conjunction.
+        - says: '7. Complement ofa set. The empty set'
+          read: '7. Complement of a set. The empty set'
+          why: The text layer of the printed contents, pdf page 10, runs of a together
+            into ofa.
+        - says: '§ 5. Product ofa family of sets'
+          read: '§ 5. Product of a family of sets'
+          why: The text layer of the printed contents, pdf page 11, runs of a together
+            into ofa.
+        - says: '1. Definition oran order relation'
+          read: '1. Definition of an order relation'
+          why: The text layer of the printed contents, pdf page 12, reads of an as oran.
+        - says: '4. Ordered subsets. Product or ordered sets'
+          read: '4. Ordered subsets. Product of ordered sets'
+          why: The text layer of the printed contents, pdf page 12, reads of as or.
+        - says: '5. Increasing mappings ................. ''" ... .... ..'
+          read: '5. Increasing mappings ...............................'
+          why: The text layer of the printed contents, pdf page 12, sets a stray quote
+            mark in the run of leader dots, and the reader takes it for the end of the
+            title.
+        - says: '7. Greatest dement and least dement'
+          read: '7. Greatest element and least element'
+          why: The text layer of the printed contents, pdf page 12, reads element as
+            dement, twice on the one line.
+        - says: '§ 2. Wdl-ordered sets'
+          read: '§ 2. Well-ordered sets'
+          why: The text layer of the printed contents, pdf page 12, reads Well- as Wdl-.
+        - says: '5. Isomorphisms orwell-ordered sets.'
+          read: '5. Isomorphisms of well-ordered sets.'
+          why: The text layer of the printed contents, pdf page 12, runs of well
+            together into orwell.
+        - says: '§ 3. Equipotent sets. Cardinals ................. ''" ...... "'
+          read: '§ 3. Equipotent sets. Cardinals .............................'
+          why: The text layer of the printed contents, pdf page 12, sets two stray quote
+            marks in the run of leader dots, and the reader takes the first for the end
+            of the title.
+        - says: '3. Properties of infinite cardinals ...... " ...... , . . . . ..'
+          read: '3. Properties of infinite cardinals .......................'
+          why: The text layer of the printed contents, pdf page 13, sets a stray quote
+            mark and a comma in the run of leader dots.
+        - says: '6. Examples of final structures ..... " .... ............'
+          read: '6. Examples of final structures ..........................'
+          why: The text layer of the printed contents, pdf page 14, sets a stray quote
+            mark in the run of leader dots.
+        - says: '5. Direct limits ....................................                                            201'
+          read: '5. Direct limits ....................................                                            202'
+          why: The contents of chapter III puts no. 5 of § 7 on page 201 and the volume
+            prints its heading on page 202. Page 201 is no. 4 throughout, from the end
+            of the proof of Theorem 1 to the Remark that weakens its condition (iii),
+            and it ends in a display; page 202 opens on the two Examples that close no.
+            4 and then heads DIRECT LIMITS. The running head of 201 is CONDITIONS FOR AN
+            INVERSE LIMIT TO BE NON-EMPTY, § 7.4, and the first page whose running head
+            reads DIRECT LIMITS is 203.

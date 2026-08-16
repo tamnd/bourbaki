@@ -1,6 +1,6 @@
 {"edges": [
 {"from":"","from_label":"alg-viii-a1","kind":"cites","raw":"III, §1, No. 2, p. 430","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"III","file":"content/en/alg/VIII/A1_a1_algebras_without_unit_element.md","line":43},
-{"from":"00P4","from_label":"alg-viii-a1-def-1","kind":"cites","raw":"Theorem 2 of Set Theory, III, §2, No. 4, p. 154","form":"named","resolved_by":"out-of-corpus","book":"E","chapter":"III","file":"content/en/alg/VIII/A1_a1_algebras_without_unit_element.md","line":55},
+{"from":"00P4","from_label":"alg-viii-a1-def-1","to":"03QT","to_label":"ens-iii-s2-thm-2","kind":"cites","raw":"Theorem 2 of Set Theory, III, §2, No. 4, p. 154","form":"named","resolved_by":"page-map","file":"content/en/alg/VIII/A1_a1_algebras_without_unit_element.md","line":55},
 {"from":"00P6","from_label":"alg-viii-a1-prop-2","kind":"cites","raw":"I, §8, No. 1, p. 98","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"I","file":"content/en/alg/VIII/A1_a1_algebras_without_unit_element.md","line":63},
 {"from":"00P6","from_label":"alg-viii-a1-prop-2","kind":"cites","raw":"Theorem 1 of I, §9, No. 1, p. 115","form":"named","resolved_by":"out-of-corpus","book":"A","chapter":"I","file":"content/en/alg/VIII/A1_a1_algebras_without_unit_element.md","line":67},
 {"from":"00P8","from_label":"alg-viii-a1-n1-exa-2","kind":"cites","raw":"Gen. Top., X, §4, No. 4, p. 316","form":"page","resolved_by":"out-of-corpus","book":"TG","chapter":"X","file":"content/en/alg/VIII/A1_a1_algebras_without_unit_element.md","line":75},

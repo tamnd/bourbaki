@@ -129,11 +129,22 @@ jobs:
       # the six volumes it touches 191 lines of 107 pages, and on all of them
       # the characters are the same before and after, so this too is a
       # re-bracketing.
+      #
+      # en/ens enters at zero. Theory of Sets was read a page at a time by a
+      # model that is given the page as an image and writes the formula out, so
+      # it never had the run gathering to get wrong, and the ten it did have
+      # were two faults on two pages: the ordinal product of III page 224 is
+      # printed as a large P with its index under it and was written as a
+      # \mathsf with \limits, which needs a \mathop to take one, and the
+      # footnote call of III page 247 was written inside the display it stands
+      # after. Both are repaired at the page rather than counted here. A ceiling
+      # of zero says the volume was measured and reads as one, and the first
+      # formula this gate refuses in it fails the build.
       - name: publish -check
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=23,fr/alg=15,en/lie=18,fr/ta=33,fr/ts=66
+        run: go run ./cmd/bourbaki publish -check -max-broken en/alg=23,fr/alg=15,en/lie=18,fr/ta=33,fr/ts=66,en/ens=0
 
       # Where Pages will serve this from, asked rather than typed, so the links
       # are right under tamnd.github.io/bourbaki and under a custom domain both.

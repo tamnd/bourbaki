@@ -1,4 +1,4 @@
-version: 17
+version: 26
 terms:
     - en: ring
       vi: vành
@@ -786,7 +786,9 @@ terms:
       ja: 半単純加群
     - en: countermodule
       vi: môđun đối
+      zh: 对模
       ja: 対加群
+      note: Pinned by hand. Bourbaki's contre-module is M carried over its own commutant, not the dual Hom(M,A), and 对偶模 is the dual. The Vietnamese has moodun doi and the Japanese has the counter kanji, and 对模 is the same word.
     - en: principal
       vi: chính
       zh: 主
@@ -1302,6 +1304,7 @@ terms:
     - en: homomorphism br
       vi: đồng cấu Br
       zh: 同态
+      ja: 準同型写像
     - en: immediate
       vi: ngay lập tức
       zh: 直接的
@@ -1417,6 +1420,8 @@ terms:
     - en: minimal right
       vi: cực tiểu phải
       zh: 最小右的
+      ja: 極小右
+      note: Written by hand after three rounds split on it. Minuscule keeps its long vowel in katakana, and minimal is 極小 where minimum is 最小, which is the distinction these volumes rest an argument on.
     - en: nonisomorphic
       vi: không đẳng cấu
       zh: 非同构
@@ -1632,6 +1637,7 @@ terms:
     - en: using exercise
       vi: sử dụng bài tập
       zh: 利用习题
+      ja: 演習問題を用いて
     - en: generated
       vi: sinh
       zh: 生成的
@@ -2393,6 +2399,7 @@ terms:
       ja: 交換すること
     - en: isomorphism sends
       vi: đẳng cấu biến
+      zh: 同构送入
       ja: 同型写像は送る
     - en: left resp right ideal
       vi: iđêan trái tương ứng phải
@@ -3185,673 +3192,1078 @@ terms:
       note: Added by hand, and the rendering is the German word itself. The appendix heading came back as "ĐỊNH LÝ ZEROS CỦA HILBERT" on one run and "ĐỊNH LÝ NULLSTELLENSATZ CỦA HILBERT" on another, so the term needed pinning rather than leaving to the run. Vietnamese mathematical writing keeps Nullstellensatz as it stands, the way it keeps Nakayama and Noether, and "định lý zeros" is a half translation that names nothing.
     - en: set
       vi: tập hợp
+      zh: 集合
+      ja: 集合
     - en: lie algebra
       vi: đại số Lie
+      zh: 李代数
+      ja: リー代数
     - en: semi-simple
       vi: nửa đơn
+      zh: 半单
+      ja: 半単純
     - en: cartan subalgebra
       vi: đại số con Cartan
+      zh: 嘉当子代数
+      ja: カルタン部分代数
     - en: weight
       vi: trọng số
+      zh: 权
+      ja: 重み
     - en: dimensional
       vi: chiều
+      zh: 维
     - en: finite dimensional
       vi: hữu hạn chiều
+      zh: 有限维
+      ja: 有限次元
     - en: invariant
       vi: bất biến
+      zh: 不变量
+      ja: 不変量
     - en: connected
       vi: liên thông
+      zh: 连通
+      ja: 連結
     - en: lie group
       vi: nhóm Lie
+      zh: 李群
+      ja: リー群
     - en: morphism
       vi: cấu xạ
+      zh: 态射
+      ja: 射
     - en: notation
       vi: ký hiệu
+      zh: 记号
+      ja: 記法
     - en: torus
       vi: xuyến
+      zh: 环面
+      ja: トーラス
     - en: relative
       vi: tương đối
+      zh: 相对
+      ja: 相対的
     - en: highest
       vi: cao nhất
+      zh: 最高
+      ja: 最高
     - en: neighbourhood
       vi: lân cận
+      zh: 邻域
+      ja: 近傍
     - en: manifold
       vi: đa tạp
+      zh: 流形
+      ja: 多様体
     - en: compact lie
       vi: Lie compact
+      zh: 紧李
+      ja: コンパクトリー
     - en: semi-simple lie
       vi: Lie nửa đơn
+      zh: 半单李
+      ja: 半単純リー
     - en: bilinear
       vi: song tuyến tính
+      zh: 双线性
+      ja: 双線形
     - en: highest weight
       vi: trọng số cao nhất
+      zh: 最高权
+      ja: 最高重量
     - en: compact lie group
       vi: nhóm Lie compact
+      zh: 紧李群
+      ja: コンパクト・リー群
     - en: semi-simple lie algebra
       vi: đại số Lie nửa đơn
+      zh: 半单李代数
+      ja: 半単純リー代数
     - en: centre
       vi: tâm
+      zh: 中心
+      ja: 中心
     - en: root system
       vi: hệ nghiệm
+      zh: 根系
+      ja: 根系
     - en: reductive
       vi: khả quy
+      zh: 约化
+      ja: 還元的
     - en: splitting
       vi: tách
+      zh: 分裂
+      ja: 分裂
     - en: bilinear form
       vi: dạng song tuyến tính
+      zh: 双线性形式
+      ja: 双線形形式
     - en: theory
       vi: lý thuyết
+      zh: 理论
+      ja: 理論
     - en: borel subalgebra
       vi: đại số con Borel
+      zh: 博雷尔子代数
+      ja: ボレル部分代数
     - en: connected compact
       vi: compact liên thông
+      zh: 连通紧致
+      ja: 連結コンパクト
     - en: polynomial function
       vi: hàm đa thức
+      zh: 多项式函数
+      ja: 多項式関数
     - en: inequality
       vi: bất đẳng thức
+      zh: 不等式
+      ja: 不等式
     - en: lift
       vi: nâng
+      zh: 提升
+      ja: 挙上
     - en: split reductive lie algebra
       vi: đại số Lie reductive tách được
+      zh: 分裂约化李代数
+      ja: 分解的簡約リー代数
     - en: transport
       vi: phép chuyển
+      zh: 迁移
+      ja: 輸送
     - en: additive set
       vi: tập hợp cộng tính
+      zh: 加法集合
+      ja: 加法的集合
     - en: algebra defined
       vi: đại số xác định
     - en: biorder
       vi: song thứ tự
+      zh: 双序
+      ja: 双順序
     - en: cogebra
       vi: đối đại số
+      zh: 余代数
+      ja: 余代数
     - en: cross product
       vi: tích có hướng
+      zh: 叉积
+      ja: 外積
     - en: finer
       vi: mịn hơn
+      zh: 更细
+      ja: より細かい
     - en: finite sequence
       vi: dãy hữu hạn
+      zh: 有限序列
+      ja: 有限列
     - en: minuscule weight
       vi: trọng lượng minuscule
+      zh: 极小权
+      ja: ミニスキュール重み
+      note: Written by hand after three rounds split on it. Minuscule keeps its long vowel in katakana, and minimal is 極小 where minimum is 最小, which is the distinction these volumes rest an argument on.
     - en: nodal vector
       vi: vectơ nút
+      zh: 节点向量
+      ja: 節ベクトル
     - en: real lie group
       vi: nhóm Lie thực
+      zh: 实李群
+      ja: 実リー群
     - en: compact real lie
       vi: Lie thực compact
+      zh: 紧实李
+      ja: コンパクト実リー群
     - en: decomposable envelope
       vi: bao phân tích được
+      zh: 可分解包络
+      ja: 分解可能包絡
     - en: density
       vi: mật độ
+      zh: 密度
+      ja: 稠密度
     - en: directed set
       vi: tập có hướng
+      zh: 有向集合
+      ja: 有向集合
     - en: euclidean
       vi: Euclid
+      zh: 欧氏
+      ja: ユークリッド
     - en: finitely generated projective module
       vi: môđun xạ ảnh hữu hạn sinh
+      zh: 有限生成射影模
+      ja: 有限生成射影加群
     - en: fitting decomposition
       vi: phân rã Fitting
+      zh: Fitting 分解
+      ja: フィッティング分解
+      note: Pinned by hand. Two runs spelled Fitting three ways between them, 菲丁 and 菲廷 and the Latin, and one corpus cannot spell one name three ways. Neither Weyr nor Fitting has a settled Chinese form the way Poincare has, the Vietnamese rows keep both as they stand, so these keep the Latin.
     - en: frobenius reciprocity
       vi: tương hỗ Frobenius
+      zh: 弗罗贝尼乌斯互易律
+      ja: フロベニウスの相互法則
     - en: integrable function
       vi: hàm khả tích
+      zh: 可积函数
+      ja: 可積分関数
     - en: invariant bilinear form
       vi: dạng song tuyến tính bất biến
+      zh: 不变双线性形式
+      ja: 不変双線形形式
     - en: isotypical module
       vi: môđun đẳng kiểu
+      zh: 同型模
+      ja: 等型加群
     - en: lower
       vi: thấp hơn
+      ja: 下
     - en: nilpotent lie algebra
       vi: đại số Lie lũy linh
+      zh: 幂零李代数
+      ja: べき零リー代数
+      note: Written by hand after three rounds split on it. Nilpotent is べき零 in Japanese algebra, and a Lie algebra is リー代数, so the two together are べき零リー代数. The katakana ニルポテント is a transcription of the English word rather than the term.
     - en: reduced root system
       vi: hệ căn rút gọn
+      zh: 约化根系
+      ja: 約根系
     - en: solvable lie algebra
       vi: đại số Lie giải được
+      zh: 可解李代数
+      ja: 可解リー代数
     - en: characterization
       vi: đặc trưng hóa
+      zh: 刻画
+      ja: 特徴付け
     - en: complex semi-simple lie algebra
       vi: đại số Lie nửa đơn phức
+      zh: 复半单李代数
+      ja: 複素半単純リー代数
     - en: cross
       vi: chéo
+      zh: 叉积
     - en: equivalence class
       vi: lớp tương đương
+      zh: 等价类
+      ja: 同値類
     - en: invariant bilinear
       vi: song tuyến tính bất biến
+      zh: 不变双线性
+      ja: 不変双線形
     - en: maximal ordered
       vi: cực đại được sắp thứ tự
+      zh: 极大有序
+      ja: 極大順序
     - en: noncommutative field
       vi: trường không giao hoán
+      zh: 非交换域
+      ja: 斜体
+      note: Written by hand after three rounds split on it. Japanese mathematical writing has 斜体 for a skew field, and 歪体 and 非可換体 are both readable and neither is the word the textbooks use.
     - en: order relation
       vi: quan hệ thứ tự
+      zh: 序关系
     - en: quaternionic type
       vi: kiểu quaternion
+      zh: 四元数型
     - en: connected commutative
       vi: liên thông giao hoán
+      zh: 连通交换
     - en: decomposable lie algebra
       vi: đại số Lie phân rã được
+      zh: 可分解李代数
     - en: direct limit
       vi: giới hạn trực tiếp
+      zh: 直极限
+      note: 'Pinned by hand after the two runs disagreed. These are the forms Chinese textbooks use: an ordered set has 下确界 and 上确界 rather than the literal greatest lower bound, a filtered colimit is 直极限, and Maschke is 马施克.'
     - en: expansion
       vi: khai triển
+      zh: 展开
     - en: inductive
       vi: quy nạp
+      zh: 归纳
     - en: integer values
       vi: các giá trị nguyên
+      zh: 整数值
     - en: lie algebra defined
       vi: đại số Lie được xác định
+      zh: 定义的李代数
     - en: objects
       vi: đối tượng
+      zh: 对象
     - en: strict
       vi: ngặt
+      zh: 严格
     - en: terminology
       vi: thuật ngữ
+      zh: 术语
     - en: tube
       vi: ống
+      zh: 管
     - en: vector bundle
       vi: bó vectơ
+      zh: 向量丛
     - en: classical splittable simple
       vi: cổ điển phân rã được đơn
+      zh: 经典可分单
     - en: collectivizing
       vi: xác định tập
+      zh: 集合化
     - en: compact form
       vi: dạng compact
+      zh: 紧形式
     - en: dominant polynomial map
       vi: ánh xạ đa thức trội
+      zh: 支配多项式映射
     - en: fourier transform
       vi: biến đổi Fourier
+      zh: 傅里叶变换
     - en: indecomposable module
       vi: môđun bất khả phân
+      zh: 不可分解模
     - en: infinite set
       vi: tập vô hạn
+      zh: 无限集合
     - en: multilinear form
       vi: dạng đa tuyến tính
+      zh: 多重线性形式
     - en: species
       vi: loài
+      zh: 类
     - en: totally ordered
       vi: được sắp thứ tự toàn phần
+      zh: 全序
     - en: unimodular group
       vi: nhóm đơn môđula
+      zh: 幺模群
+      note: Pinned by hand after two runs of glossary translate disagreed about it. Chinese writes unimodular 幺模, and 么模, 单模 and 幂 are a variant character, simple module and power respectively.
     - en: alternating multilinear forms
       vi: dạng đa tuyến tính thay phiên
+      zh: 交替多重线性形式
     - en: artinian algebra
       vi: đại số Artin
+      zh: 阿廷代数
     - en: Artinian Modules and Noetherian Modules
       vi: Môđun Artin và môđun Noether
+      zh: 阿廷模与诺特模
     - en: associativity
       vi: tính kết hợp
+      zh: 结合性
     - en: Change of Base Field
       vi: đổi trường cơ sở
+      zh: 基域变换
     - en: coinduced
       vi: đối cảm sinh
+      zh: 上诱导
     - en: collectivizing relations
       vi: các quan hệ xác định tập
+      zh: 集合化关系
     - en: conjugacy theorems
       vi: các định lý liên hợp
+      zh: 共轭定理
     - en: conjunction
       vi: phép hội
+      zh: 合取
     - en: corestriction
       vi: hạn chế đối
+      zh: 余限制
     - en: dominant polynomial
       vi: đa thức trội
+      zh: 首一多项式
     - en: double
       vi: kép
+      zh: 双
     - en: euclidean division
       vi: phép chia Euclid
+      zh: 欧几里得除法
     - en: fourier inversion formula
       vi: công thức đảo Fourier
+      zh: 傅里叶反演公式
     - en: greatest element
       vi: phần tử lớn nhất
+      zh: 最大元素
     - en: greatest lower bound
       vi: cận dưới lớn nhất
+      zh: 下确界
+      note: 'Pinned by hand after the two runs disagreed. These are the forms Chinese textbooks use: an ordered set has 下确界 and 上确界 rather than the literal greatest lower bound, a filtered colimit is 直极限, and Maschke is 马施克.'
     - en: historical note
       vi: ghi chú lịch sử
+      zh: 历史注记
     - en: increasing mappings
       vi: các ánh xạ tăng
+      zh: 单调递增映射
     - en: inductive set
       vi: tập quy nạp
+      zh: 归纳集合
     - en: infinite cardinal
       vi: bản số vô hạn
+      zh: 无限基数
     - en: infinitely
       vi: vô hạn
+      zh: 无限地
     - en: LIE GROUP CASE
       vi: trường hợp nhóm Lie
+      zh: 李群情形
     - en: Modules over an Artinian Ring
       vi: Môđun trên một vành Artin
+      zh: 阿廷环上的模
     - en: nodal group
       vi: nhóm nút
     - en: preorder relation
       vi: quan hệ tiền thứ tự
+      zh: 预序关系
     - en: principle
       vi: nguyên lý
+      zh: 原理
     - en: projective limit
       vi: giới hạn xạ ảnh
+      zh: 射影极限
     - en: quotient set
       vi: tập thương
+      zh: 商集
     - en: real complex
       vi: phức thực
     - en: Reduced Norms and Traces
       vi: Các chuẩn và vết rút gọn
+      zh: 简化范数与迹
     - en: regular ideal
       vi: iđêan chính quy
+      zh: 正则理想
     - en: representation ring
       vi: vành biểu diễn
+      zh: 表示环
     - en: restricted dual
       vi: đối ngẫu hạn chế
+      zh: 限制对偶
     - en: schur orthogonality
       vi: trực giao Schur
+      zh: 舒尔正交性
     - en: The axioms
       vi: Các tiên đề
+      zh: 公理
     - en: totally ordered set
       vi: tập sắp thứ tự toàn phần
+      zh: 全序集
     - en: unimodular
       vi: đơn môđula
+      zh: 幺模
+      note: Pinned by hand after two runs of glossary translate disagreed about it. Chinese writes unimodular 幺模, and 么模, 单模 and 幂 are a variant character, simple module and power respectively.
     - en: universal mapping
       vi: ánh xạ phổ quát
+      zh: 普遍映射
     - en: $\tau$-Extensions of Groups
       vi: Các mở rộng $\tau$ của nhóm
+      zh: $\tau$-群扩张
     - en: A connectedness property
       vi: Một tính chất liên thông
+      zh: 一个连通性质
     - en: A PRELIMINARY CONSTRUCTION
       vi: MỘT XÂY DỰNG SƠ BỘ
+      zh: 一个预备构造
     - en: character formula
       vi: công thức đặc trưng
+      zh: 特征标公式
+      note: Pinned by hand after the two runs disagreed. In representation theory a character is 特征标, not 特征, which is the word for an eigen- prefix and for a characteristic in the sense of a field.
     - en: Character of a Representation
       vi: đặc trưng của một biểu diễn
+      zh: 表示的特征标
+      note: Pinned by hand after the two runs disagreed. In representation theory a character is 特征标, not 特征, which is the word for an eigen- prefix and for a characteristic in the sense of a field.
     - en: CHARACTERS OF $\mathfrak{g}$-MODULES
       vi: các đặc trưng của $\mathfrak{g}$-môđun
+      zh: $\mathfrak{g}$-模的特征标
+      note: Pinned by hand after the two runs disagreed. In representation theory a character is 特征标, not 特征, which is the word for an eigen- prefix and for a characteristic in the sense of a field.
     - en: Classes of equivalent objects
       vi: các lớp đối tượng tương đương
+      zh: 等价对象类
     - en: cogebra structure
       vi: cấu trúc cođại số
+      zh: 余代数结构
     - en: combinatorial analysis
       vi: giải tích tổ hợp
+      zh: 组合分析
     - en: commutative real lie group
       vi: nhóm Lie thực giao hoán
+      zh: 交换实李群
     - en: COMPACT GROUPS OF RANK 1
       vi: các nhóm compact hạng 1
+      zh: 秩为1的紧群
     - en: compact set
       vi: tập compact
+      zh: 紧集
     - en: Comparison of theories
       vi: so sánh các lý thuyết
+      zh: 理论比较
     - en: complex linear representations
       vi: các biểu diễn tuyến tính phức
+      zh: 复线性表示
     - en: Composition of two correspondences
       vi: hợp thành của hai tương ứng
+      zh: 两个对应的合成
     - en: countable sets
       vi: các tập đếm được
+      zh: 可数集
     - en: Criteria of substitution
       vi: các tiêu chuẩn thế
+      zh: 代换判据
     - en: Deduction of structures
       vi: suy diễn các cấu trúc
+      zh: 结构的演绎
     - en: DEFINITION OF $\mathfrak{s}\mathfrak{l}_{2}$-TRIPLETS
       vi: định nghĩa các bộ ba $\mathfrak{s}\mathfrak{l}_{2}$
+      zh: $\mathfrak{s}\mathfrak{l}_{2}$-三元组的定义
     - en: Definition of integers
       vi: định nghĩa các số nguyên
+      zh: 整数的定义
     - en: Definition of quantifiers
       vi: định nghĩa các lượng từ
+      zh: 量词的定义
     - en: Definition of the Brauer Group
       vi: định nghĩa nhóm Brauer
+      zh: 布劳尔群的定义
     - en: Description of a Semisimple Module
       vi: mô tả một môđun nửa đơn
+      zh: 半单模的描述
     - en: Description of an Isotypical Module
       vi: mô tả một môđun đẳng kiểu
+      zh: 等型模的描述
     - en: DESCRIPTION OF FORMAL MATHEMATICS
       vi: mô tả toán học hình thức
+      zh: 形式数学的描述
     - en: DIMENSIONS OF SIMPLE $\mathfrak{g}$-MODULES
       vi: số chiều của các $\mathfrak{g}$-môđun đơn
+      zh: 单$\mathfrak{g}$-模的维数
     - en: distributivity formulae
       vi: các công thức phân phối
+      zh: 分配律公式
     - en: DIVIDED POWERS IN A BIGEBRA
       vi: lũy thừa chia trong một bigebra
+      zh: 双代数中的分次幂
     - en: division
       vi: phép chia
+      zh: 除法
     - en: dominant characters
       vi: các đặc trưng trội
+      zh: 优势特征
     - en: double inverse limit
       vi: giới hạn ngược kép
+      zh: 双重逆极限
     - en: DUAL OF A $\mathfrak{g}$-MODULE
       vi: đối ngẫu của một $\mathfrak{g}$-môđun
+      zh: $\mathfrak{g}$-模的对偶
     - en: echelons
       vi: các tầng
+      zh: 阶梯
     - en: Hilbert’s Nullstellensatz
       vi: Định lý không điểm của Hilbert
+      zh: 希尔伯特零点定理
     - en: historical
       vi: lịch sử
+      zh: 历史
     - en: Ideals of Simple Rings
       vi: Các iđêan của các vành đơn
+      zh: 单环的理想
     - en: Images of a union and an intersection
       vi: Ảnh của hợp và giao
+      zh: 并与交的像
     - en: Index and Exponent
       vi: Chỉ số và số mũ
+      zh: 指数与指数
     - en: initial structures
       vi: cấu trúc ban đầu
+      zh: 初始结构
     - en: integration formula
       vi: công thức tích phân
+      zh: 积分公式
     - en: invariant hermitian forms
       vi: các dạng Hermite bất biến
+      zh: 不变厄米形式
     - en: Inverse Image of a $\tau$-Extension
       vi: Ảnh ngược của một $\tau$-mở rộng
+      zh: $\tau$-扩张的原像
     - en: inverse limit
       vi: giới hạn ngược
+      zh: 逆极限
     - en: Inverse of a correspondence
       vi: Tương ứng nghịch đảo
+      zh: 逆对应
     - en: inverse system
       vi: hệ ngược
+      zh: 逆系
     - en: Inverse systems of mappings
       vi: Các hệ ngược của ánh xạ
+      zh: 映射的逆系
     - en: inversion formula
       vi: công thức đảo
+      zh: 反演公式
     - en: LATTICES AND ORDERS
       vi: DÀN VÀ THỨ TỰ
+      zh: 格与序
     - en: lexicographic products
       vi: các tích từ điển
+      zh: 字典积
     - en: logical theories
       vi: các lý thuyết logic
+      zh: 逻辑理论
     - en: Maschke’s Theorem
       vi: Định lý Maschke
+      zh: 马施克定理
+      note: 'Pinned by hand after the two runs disagreed. These are the forms Chinese textbooks use: an ordered set has 下确界 and 上确界 rather than the literal greatest lower bound, a filtered colimit is 直极限, and Maschke is 马施克.'
     - en: maximal subalgebra
       vi: đại số con cực đại
+      zh: 极大子代数
     - en: Methods of proof
       vi: các phương pháp chứng minh
+      zh: 证明方法
     - en: Modules over a Semisimple Ring
       vi: các môđun trên vành nửa đơn
+      zh: 半单环上的模
     - en: Modules over a Simple Ring
       vi: các môđun trên vành đơn
+      zh: 单环上的模
     - en: morita equivalence
       vi: tương đương Morita
+      zh: 森田等价
     - en: multiplicative structure
       vi: cấu trúc nhân
+      zh: 乘法结构
     - en: Nakayama’s Lemma
       vi: Bổ đề Nakayama
+      zh: 中山引理
     - en: NODAL GROUP OF A TORUS
       vi: nhóm nút của một xuyến
     - en: NON-SPLIT CASE
       vi: trường hợp không tách được
+      zh: 非分裂情形
     - en: Notation and terminology
       vi: ký hiệu và thuật ngữ
+      zh: 记号与术语
     - en: Operations on cardinals
       vi: các phép toán trên lực lượng
+      zh: 基数运算
     - en: ordered pair
       vi: cặp có thứ tự
+      zh: 有序对
     - en: ordered subset
       vi: tập con sắp thứ tự
+      zh: 有序子集
     - en: partial products
       vi: các tích từng phần
+      zh: 部分积
     - en: preorder
       vi: tiền thứ tự
+      zh: 预序
     - en: principal elements
       vi: các phần tử chính
+      zh: 主元素
     - en: Product of a family of sets
       vi: Tích của một họ tập hợp
+      zh: 集族的积
     - en: Product of two sets
       vi: Tích của hai tập hợp
+      zh: 两个集合的积
     - en: Projective Cover of a Module
       vi: Bao xạ ảnh của một môđun
+      zh: 模的投射覆盖
     - en: PROPERTIES OF Aut0
       vi: CÁC TÍNH CHẤT CỦA Aut0
+      zh: Aut0的性质
     - en: Properties of equality
       vi: Các tính chất của đẳng thức
+      zh: 等式的性质
     - en: quantified theories
       vi: các lý thuyết có lượng từ
+      zh: 量化理论
     - en: Representations and the Grothendieck Group
       vi: Các biểu diễn và nhóm Grothendieck
+      zh: 表示与Grothendieck群
     - en: Restriction and Corestriction
       vi: Hạn chế và đồng hạn chế
+      zh: 限制与余限制
     - en: Retractions and sections
       vi: Phép co rút và tiết diện
+      zh: 缩回与截面
     - en: saturated subsets
       vi: các tập con bão hòa
+      zh: 饱和子集
     - en: Schur’s Lemma
       vi: Bổ đề Schur
     - en: segments
       vi: các đoạn
+      zh: 段
     - en: significant words
       vi: các từ có nghĩa
+      zh: 有意义字
     - en: Signs and assemblies
       vi: Các dấu và các dãy ký hiệu
+      zh: 符号与组合
       note: an assembly in Theory of Sets I.1.1 is a succession of signs and letters written next to one another, so it is a sequence of symbols; the run said tổ hợp, which is combination and belongs to counting
     - en: Signs and words
       vi: Các dấu và các từ
+      zh: 符号与字
     - en: SOME FORMULAS
       vi: MỘT SỐ CÔNG THỨC
+      zh: 一些公式
     - en: Some Operations on Modules
       vi: Một số phép toán trên môđun
+      zh: 模的若干运算
     - en: Species of structures
       vi: Loài cấu trúc
+      zh: 结构种
     - en: stationary sequences
       vi: các dãy dừng
+      zh: 平稳序列
     - en: Structure of compact groups
       vi: Cấu trúc của các nhóm compact
+      zh: 紧群的结构
     - en: symmetric invariants
       vi: các bất biến đối xứng
+      zh: 对称不变量
     - en: TENSOR PRODUCTS OF $\mathfrak{g}$-MODULES
       vi: TÍCH TENXƠ CỦA CÁC $\mathfrak{g}$-MÔĐUN
+      zh: $\mathfrak{g}$-模的张量积
     - en: Tensor Products of Simple Modules
       vi: Tích tenxơ của các môđun đơn
+      zh: 单模的张量积
     - en: Terms and relations
       vi: Thuật ngữ và quan hệ
+      zh: 项与关系
     - en: The axiom of extent
       vi: Tiên đề ngoại diên
+      zh: 外延公理
     - en: The cardinal of a set
       vi: Lực lượng của một tập hợp
+      zh: 集合的基数
     - en: The Case of Abelian Groups
       vi: Trường hợp các nhóm Abel
+      zh: 阿贝尔群的情形
     - en: The Case of Simple Rings
       vi: Trường hợp các vành đơn
+      zh: 单环的情形
     - en: The Center of a Quaternion Algebra
       vi: Tâm của một đại số quaternion
+      zh: 四元数代数的中心
     - en: THE COEFFICIENTS N$_{\boldsymbol{\alpha \beta }}$
       vi: CÁC HỆ SỐ N$_{\boldsymbol{\alpha \beta }}$
+      zh: 系数 N$_{\boldsymbol{\alpha \beta }}$
     - en: The formula of Hermann Weyl
       vi: Công thức của Hermann Weyl
+      zh: 魏尔公式
     - en: The Morita Correspondence of Modules
       vi: Tương ứng Morita của các môđun
+      zh: 模的森田对应
     - en: The principle of induction
       vi: Nguyên lý quy nạp
+      zh: 归纳原理
     - en: The principle of transfinite induction
       vi: Nguyên lý quy nạp siêu hạn
+      zh: 超限归纳原理
     - en: The Radical of a Module
       vi: Căn của một môđun
+      zh: 模的根
     - en: The Radical of a Ring
       vi: Căn của một vành
+      zh: 环的根
     - en: The Radical of an Algebra
       vi: Căn của một đại số
+      zh: 代数的根
     - en: The Radical of an Artinian Ring
       vi: Căn của một vành Artin
+      zh: 阿廷环的根
     - en: The scheme of selection and union
       vi: Sơ đồ chọn và hợp
+      zh: 选择并集方案
     - en: The set of natural integers
       vi: Tập hợp các số tự nhiên
+      zh: 自然整数集合
     - en: The theory of sets
       vi: lý thuyết tập hợp
+      zh: 集合论
     - en: The Unimodular Group
       vi: Nhóm đơn môđula
+      zh: 幺模群
+      note: Pinned by hand after two runs of glossary translate disagreed about it. Chinese writes unimodular 幺模, and 么模, 单模 and 幂 are a variant character, simple module and power respectively.
     - en: THEORY OF SETS
       vi: LÝ THUYẾT TẬP HỢP
+      zh: 集合论
     - en: transfinite induction
       vi: quy nạp siêu hạn
+      zh: 超限归纳
     - en: transportable relations
       vi: quan hệ chuyển được
+      zh: 可运输关系
     - en: TUBES AND TRANSVERSALS
       vi: ỐNG VÀ CÁC ĐƯỜNG CẮT NGANG
+      zh: 管与横截面
     - en: Two Lemmas on Bimodules
       vi: Hai bổ đề về song môđun
+      zh: 双模的两个引理
     - en: typical quantifiers
       vi: các lượng từ điển hình
+      zh: 典型量词
     - en: uniqueness theorem
       vi: định lý duy nhất
+      zh: 唯一性定理
     - en: Upper and lower bounds
       vi: Cận trên và cận dưới
+      zh: 上界和下界
     - en: using composition series
       vi: sử dụng các chuỗi hợp thành
+      zh: 利用合成序列
     - en: well-ordered set
       vi: tập được sắp thứ tự tốt
+      zh: 良序集
     - en: weyr fitting decomposition
       vi: phân rã Weyr–Fitting
+      zh: Weyr-Fitting 分解
+      note: Pinned by hand. Two runs spelled Fitting three ways between them, 菲丁 and 菲廷 and the Latin, and one corpus cannot spell one name three ways. Neither Weyr nor Fitting has a settled Chinese form the way Poincare has, the Vietnamese rows keep both as they stand, so these keep the Latin.
     - en: Weyr–Fitting Decomposition
       vi: Phân rã Weyr–Fitting
+      zh: Weyr-Fitting 分解
+      note: Pinned by hand. Two runs spelled Fitting three ways between them, 菲丁 and 菲廷 and the Latin, and one corpus cannot spell one name three ways. Neither Weyr nor Fitting has a settled Chinese form the way Poincare has, the Vietnamese rows keep both as they stand, so these keep the Latin.
     - en: Zermelo's theorem
       vi: định lý Zermelo
+      zh: 策梅洛定理
     - en: analysis
       vi: giải tích
+      zh: 数学分析
     - en: assemblies
       vi: các dãy ký hiệu
+      zh: 组合
       note: an assembly in Theory of Sets I.1.1 is a succession of signs and letters written next to one another, so it is a sequence of symbols; the run said tổ hợp, which is combination and belongs to counting
     - en: canonical extensions
       vi: các mở rộng chính tắc
+      zh: 典范扩张
     - en: characteristic functions
       vi: các hàm đặc trưng
+      zh: 特征函数
     - en: cohomological
       vi: đối đồng điều
+      zh: 上同调
     - en: coinduced representations
       vi: các biểu diễn đối cảm ứng
+      zh: 上诱导表示
     - en: combinatorial
       vi: tổ hợp
+      zh: 组合
     - en: compact algebras
       vi: đại số compac
+      zh: 紧代数
     - en: compact lie groups operating
       vi: các nhóm Lie compac tác động
+      zh: 作用的紧李群
     - en: comparison
       vi: sự so sánh
+      zh: 比较
     - en: complex linear
       vi: tuyến tính phức
+      zh: 复线性
     - en: connectedness property
       vi: tính chất liên thông
+      zh: 连通性
     - en: criteria
       vi: các tiêu chuẩn
+      zh: 判据
     - en: decomposable algebras
       vi: các đại số phân rã được
+      zh: 可分解代数
     - en: deduction
       vi: suy diễn
+      zh: 演绎
     - en: derived structures
       vi: các cấu trúc dẫn xuất
+      zh: 导出结构
     - en: distributivity
       vi: tính phân phối
+      zh: 分配律
     - en: divided powers
       vi: lũy thừa chia
+      zh: 分幂
     - en: double direct limit product
       vi: tích giới hạn thuận kép
+      zh: 双重直极限积
     - en: double inverse
       vi: nghịch đảo kép
+      zh: 双逆
     - en: embedding theorem
       vi: định lý nhúng
+      zh: 嵌入定理
     - en: empty set
       vi: tập rỗng
+      zh: 空集
     - en: equalitarian
       vi: bình đẳng
+      zh: 平等的
     - en: equipotent sets cardinals
       vi: các tập hợp cùng lực lượng
+      zh: 等势集合 基数
     - en: equivalence classes quotient set
       vi: các lớp tương đương, tập thương
+      zh: 等价类 商集
     - en: equivalence relation induced equivalence
       vi: quan hệ tương đương cảm sinh
+      zh: 等价关系 导出等价
     - en: equivalent objects
       vi: các đối tượng tương đương
+      zh: 等价对象
     - en: equivalent species
       vi: các loại tương đương
+      zh: 等价种
     - en: equivariant embedding
       vi: phép nhúng đẳng biến
+      zh: 等变嵌入
     - en: example polynomials
       vi: ví dụ các đa thức
     - en: exponentiation
       vi: phép lũy thừa
+      zh: 幂运算
     - en: extent
       vi: ngoại diên
+      zh: 外延
     - en: field theory
       vi: lý thuyết trường
+      zh: 域论
     - en: formal mathematics
       vi: toán học hình thức
+      zh: 形式数学
     - en: formative
       vi: kiến tạo
+      zh: 构词的
     - en: formulae
       vi: các công thức
+      zh: 公式
     - en: functional
       vi: phiếm hàm
+      zh: 泛函
     - en: functions inverse function
       vi: hàm, hàm ngược
+      zh: 函数逆函数
     - en: group sl
       vi: nhóm SL
+      zh: 特殊线性群
     - en: infinitely differentiable functions
       vi: các hàm khả vi vô hạn
+      zh: 无限可微函数
     - en: initial
       vi: ban đầu
+      zh: 初始
     - en: integral variant
       vi: dạng nguyên
     - en: invariant hermitian
       vi: Hermitian bất biến
+      zh: 不变厄米
     - en: lexicographic
       vi: từ điển
+      zh: 字典序的
     - en: lie algebra relative
       vi: đại số Lie tương đối
+      zh: 相对李代数
     - en: lie algebra sl
       vi: đại số Lie sl
+      zh: 特殊线性李代数
     - en: linear family
       vi: họ tuyến tính
+      zh: 线性族
     - en: linear lie algebras
       vi: các đại số Lie tuyến tính
+      zh: 线性李代数
     - en: logical
       vi: lôgic
+      zh: 逻辑的
     - en: mappings compatible
       vi: các ánh xạ tương thích
+      zh: 相容映射
     - en: mathematical theory
       vi: lý thuyết toán học
+      zh: 数学理论
     - en: matrix coefficients
       vi: các hệ số ma trận
+      zh: 矩阵系数
     - en: morita correspondence
       vi: tương ứng Morita
+      zh: 森田对应
     - en: natural integers
       vi: số nguyên tự nhiên
+      zh: 自然整数
     - en: non-split
       vi: không chẻ
+      zh: 不分裂
     - en: ordered subsets product
       vi: tập con có thứ tự, tích
+      zh: 有序子集乘积
     - en: poincar é-birkhoff witt theorem
       vi: định lý Poincaré-Birkhoff-Witt
+      zh: 庞加莱-伯克霍夫-威特定理
     - en: preliminary construction
       vi: xây dựng sơ bộ
+      zh: 预备构造
     - en: primary decomposition
       vi: phân tích nguyên sơ
+      zh: 初等分解
     - en: properties preserved
       vi: các tính chất được bảo toàn
+      zh: 保持的性质
     - en: quantified
       vi: lượng hóa
+      zh: 量化的
     - en: quantifiers
       vi: lượng từ
+      zh: 量词
     - en: real algebras
       vi: đại số thực
+      zh: 实代数
     - en: real forms associated
       vi: các dạng thực liên kết
+      zh: 伴随实形式
     - en: relation induced equivalence relation
       vi: quan hệ tương đương cảm sinh
+      zh: 关系诱导的等价关系
     - en: relations compatible
       vi: các quan hệ tương thích
+      zh: 相容关系
     - en: retractions
       vi: các phép rút
+      zh: 退化
     - en: root system associated
       vi: hệ căn nghiệm liên kết
+      zh: 伴随根系
     - en: scheme
       vi: lược đồ
+      zh: 概形
     - en: selection
       vi: phép chọn
+      zh: 选择
     - en: semi-simple action
       vi: tác động nửa đơn
+      zh: 半单作用
     - en: significant
       vi: đáng kể
     - en: simplicity
       vi: tính đơn
+      zh: 单纯性
     - en: sl triplets
       vi: bộ ba sl
+      zh: sl三元组
     - en: strict inequalities
       vi: bất đẳng thức chặt
+      zh: 严格不等式
     - en: subalgebras stable
       vi: các đại số con ổn định
+      zh: 稳定子代数
     - en: substitution
       vi: phép thế
+      zh: 代换
     - en: transportable
       vi: khả chuyển
+      zh: 可迁移
     - en: typical
       vi: điển hình
+      zh: 典型
     - en: universal sets
       vi: tập vũ trụ
+      zh: 全集
     - en: using composition
       vi: sử dụng phép hợp thành
     - en: well-ordered
       vi: được sắp tốt
+      zh: 良序
