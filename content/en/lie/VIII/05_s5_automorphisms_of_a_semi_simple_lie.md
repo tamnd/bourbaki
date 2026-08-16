@@ -7,7 +7,7 @@ section: 5
 section_title: Automorphisms of a semi-simple Lie algebra
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.106-A VIII.115, A VIII.233-A VIII.237
+book_pages: 106-115, 233-237
 pdf_pages: 0114-0123, 0241-0245
 extraction: native+ocr
 subsections:

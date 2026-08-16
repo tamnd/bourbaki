@@ -7,7 +7,7 @@ section: 3
 section_title: Conjugacy theorems
 lang: en
 source: lie-vii-ix
-book_pages: A VII.20-A VII.27, A VII.57-A VII.62
+book_pages: 20-27, 57-62
 pdf_pages: 0030-0037, 0066-0071
 extraction: native
 subsections:

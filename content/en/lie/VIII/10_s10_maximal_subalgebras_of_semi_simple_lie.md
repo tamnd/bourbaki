@@ -7,7 +7,7 @@ section: 10
 section_title: Maximal subalgebras of semi-simple Lie algebras
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.159-A VIII.163, A VIII.260-A VIII.261
+book_pages: 159-163, 260-261
 pdf_pages: 0167-0171, 0268-0269
 extraction: native
 statements: 8

@@ -714,7 +714,6 @@ books:
               path: content/en/lie/VII/00_frontmatter.md
               first_pdf_page: 11
               last_pdf_page: 11
-              book_pages: A VII.1
               subsections: 0
               statements: 0
               exercises: 0
@@ -727,7 +726,7 @@ books:
               label: lie-vii-s1
               first_pdf_page: 11
               last_pdf_page: 64
-              book_pages: A VII.1-A VII.12, A VII.51-A VII.55
+              book_pages: 1-12, 51-55
               subsections: 5
               statements: 25
               exercises: 11
@@ -740,7 +739,7 @@ books:
               label: lie-vii-s2
               first_pdf_page: 22
               last_pdf_page: 66
-              book_pages: A VII.12-A VII.20, A VII.55-A VII.57
+              book_pages: 12-20, 55-57
               subsections: 4
               statements: 40
               exercises: 16
@@ -753,7 +752,7 @@ books:
               label: lie-vii-s3
               first_pdf_page: 30
               last_pdf_page: 71
-              book_pages: A VII.20-A VII.27, A VII.57-A VII.62
+              book_pages: 20-27, 57-62
               subsections: 5
               statements: 17
               exercises: 18
@@ -766,7 +765,7 @@ books:
               label: lie-vii-s4
               first_pdf_page: 37
               last_pdf_page: 72
-              book_pages: A VII.27-A VII.34, A VII.63
+              book_pages: 27-34, 63
               subsections: 4
               statements: 18
               exercises: 4
@@ -779,7 +778,7 @@ books:
               label: lie-vii-s5
               first_pdf_page: 44
               last_pdf_page: 75
-              book_pages: A VII.34-A VII.45, A VII.63-A VII.66
+              book_pages: 34-45, 63-66
               subsections: 5
               statements: 29
               exercises: 11
@@ -792,7 +791,7 @@ books:
               label: lie-vii-a1
               first_pdf_page: 55
               last_pdf_page: 75
-              book_pages: A VII.45-A VII.47, A VII.66
+              book_pages: 45-47, 66
               subsections: 2
               statements: 7
               exercises: 4
@@ -805,7 +804,7 @@ books:
               label: lie-vii-a2
               first_pdf_page: 58
               last_pdf_page: 76
-              book_pages: A VII.48-A VII.49, A VII.67
+              book_pages: 48-49, 67
               subsections: 0
               statements: 3
               exercises: 2
@@ -819,7 +818,6 @@ books:
               path: content/en/lie/VIII/00_frontmatter.md
               first_pdf_page: 77
               last_pdf_page: 77
-              book_pages: A VIII.69
               subsections: 0
               statements: 0
               exercises: 0
@@ -832,7 +830,7 @@ books:
               label: lie-viii-s1
               first_pdf_page: 77
               last_pdf_page: 234
-              book_pages: A VIII.69-A VIII.77, A VIII.219-A VIII.226
+              book_pages: 69-77, 219-226
               subsections: 5
               statements: 23
               exercises: 18
@@ -845,10 +843,10 @@ books:
               label: lie-viii-s2
               first_pdf_page: 85
               last_pdf_page: 237
-              book_pages: A VIII.77-A VIII.86, A VIII.226-A VIII.229
+              book_pages: 77-86, 226-229
               subsections: 4
               statements: 28
-              exercises: 12
+              exercises: 11
               extraction: native
               content_sha256: 76903e64a7bed03cf3d69b67d5aabf44c01f8897393cfc4484d11de5199bd2ab
             - kind: section
@@ -858,7 +856,7 @@ books:
               label: lie-viii-s3
               first_pdf_page: 94
               last_pdf_page: 239
-              book_pages: A VIII.86-A VIII.95, A VIII.229-A VIII.231
+              book_pages: 86-95, 229-231
               subsections: 5
               statements: 28
               exercises: 14
@@ -871,7 +869,7 @@ books:
               label: lie-viii-s4
               first_pdf_page: 103
               last_pdf_page: 241
-              book_pages: A VIII.95-A VIII.106, A VIII.231-A VIII.233
+              book_pages: 95-106, 231-233
               subsections: 4
               statements: 23
               exercises: 7
@@ -884,7 +882,7 @@ books:
               label: lie-viii-s5
               first_pdf_page: 114
               last_pdf_page: 245
-              book_pages: A VIII.106-A VIII.115, A VIII.233-A VIII.237
+              book_pages: 106-115, 233-237
               subsections: 5
               statements: 25
               exercises: 13
@@ -897,7 +895,7 @@ books:
               label: lie-viii-s6
               first_pdf_page: 123
               last_pdf_page: 246
-              book_pages: A VIII.115-A VIII.123, A VIII.238
+              book_pages: 115-123, 238
               subsections: 4
               statements: 17
               exercises: 5
@@ -910,7 +908,7 @@ books:
               label: lie-viii-s7
               first_pdf_page: 132
               last_pdf_page: 258
-              book_pages: A VIII.124-A VIII.140, A VIII.238-A VIII.250
+              book_pages: 124-140, 238-250
               subsections: 7
               statements: 46
               exercises: 27
@@ -923,7 +921,7 @@ books:
               label: lie-viii-s8
               first_pdf_page: 149
               last_pdf_page: 261
-              book_pages: A VIII.141-A VIII.151, A VIII.250-A VIII.253
+              book_pages: 141-151, 250-253
               subsections: 5
               statements: 24
               exercises: 18
@@ -936,7 +934,7 @@ books:
               label: lie-viii-s9
               first_pdf_page: 160
               last_pdf_page: 268
-              book_pages: A VIII.152-A VIII.159, A VIII.253-A VIII.260
+              book_pages: 152-159, 253-260
               subsections: 4
               statements: 12
               exercises: 16
@@ -949,7 +947,7 @@ books:
               label: lie-viii-s10
               first_pdf_page: 167
               last_pdf_page: 269
-              book_pages: A VIII.159-A VIII.163, A VIII.260-A VIII.261
+              book_pages: 159-163, 260-261
               subsections: 0
               statements: 8
               exercises: 7
@@ -962,7 +960,7 @@ books:
               label: lie-viii-s11
               first_pdf_page: 171
               last_pdf_page: 274
-              book_pages: A VIII.163-A VIII.173, A VIII.261-A VIII.266
+              book_pages: 163-173, 261-266
               subsections: 4
               statements: 29
               exercises: 17
@@ -975,12 +973,12 @@ books:
               label: lie-viii-s12
               first_pdf_page: 181
               last_pdf_page: 197
-              book_pages: A VIII.173-A VIII.189
+              book_pages: 173-189
               subsections: 8
               statements: 34
               exercises: 0
               extraction: native
-              content_sha256: c8819dad8ef1c3acc1b24290a0d3543dacc604f1bfc3c2f27d64865598a6056f
+              content_sha256: 1642fa4e5c816a65484bf3f50d22b9ef5567f03656090866dfba4af2410ea377
             - kind: section
               section: 13
               title: Classical splittable simple Lie algebras
@@ -988,7 +986,7 @@ books:
               label: lie-viii-s13
               first_pdf_page: 197
               last_pdf_page: 279
-              book_pages: A VIII.189-A VIII.218, A VIII.266-A VIII.271
+              book_pages: 189-218, 266-271
               subsections: 4
               statements: 2
               exercises: 19
@@ -1002,7 +1000,6 @@ books:
               path: content/en/lie/IX/00_frontmatter.md
               first_pdf_page: 288
               last_pdf_page: 288
-              book_pages: A IX.281
               subsections: 0
               statements: 0
               exercises: 0
@@ -1015,7 +1012,7 @@ books:
               label: lie-ix-s1
               first_pdf_page: 288
               last_pdf_page: 398
-              book_pages: A IX.281-A IX.287, A IX.389-A IX.391
+              book_pages: 281-287, 389-391
               subsections: 4
               statements: 13
               exercises: 9
@@ -1028,7 +1025,7 @@ books:
               label: lie-ix-s2
               first_pdf_page: 294
               last_pdf_page: 401
-              book_pages: A IX.287-A IX.295, A IX.391-A IX.394
+              book_pages: 287-295, 391-394
               subsections: 6
               statements: 32
               exercises: 11
@@ -1041,12 +1038,12 @@ books:
               label: lie-ix-s3
               first_pdf_page: 303
               last_pdf_page: 403
-              book_pages: A IX.296-A IX.303, A IX.394-A IX.396
+              book_pages: 296-303, 394-396
               subsections: 6
               statements: 17
               exercises: 9
               extraction: native+ocr
-              content_sha256: 8c6af33be7bfa914d08767f309c3b61ce8fde4ef372cc0c42b8a92c3363d045f
+              content_sha256: bca0792a11d3faaed07748452301512dc1150714a083b0d510df4f7906ffd7e2
             - kind: section
               section: 4
               title: Root system associated to a compact group
@@ -1054,7 +1051,7 @@ books:
               label: lie-ix-s4
               first_pdf_page: 311
               last_pdf_page: 412
-              book_pages: A IX.304-A IX.324, A IX.396-A IX.405
+              book_pages: 304-324, 396-405
               subsections: 10
               statements: 60
               exercises: 22
@@ -1067,7 +1064,7 @@ books:
               label: lie-ix-s5
               first_pdf_page: 331
               last_pdf_page: 416
-              book_pages: A IX.324-A IX.333, A IX.405-A IX.409
+              book_pages: 324-333, 405-409
               subsections: 4
               statements: 26
               exercises: 12
@@ -1080,7 +1077,7 @@ books:
               label: lie-ix-s6
               first_pdf_page: 340
               last_pdf_page: 421
-              book_pages: A IX.333-A IX.346, A IX.409-A IX.414
+              book_pages: 333-346, 409-414
               subsections: 5
               statements: 25
               exercises: 13
@@ -1093,7 +1090,7 @@ books:
               label: lie-ix-s7
               first_pdf_page: 354
               last_pdf_page: 424
-              book_pages: A IX.347-A IX.359, A IX.414-A IX.417
+              book_pages: 347-359, 414-417
               subsections: 6
               statements: 28
               exercises: 8
@@ -1106,12 +1103,12 @@ books:
               label: lie-ix-s8
               first_pdf_page: 366
               last_pdf_page: 425
-              book_pages: A IX.359-A IX.369, A IX.417-A IX.418
+              book_pages: 359-369, 417-418
               subsections: 4
               statements: 9
               exercises: 6
               extraction: native
-              content_sha256: 50c50dd9ebbbc639ef4420e4566fb489963a9b15141600ac2e3d6e2d9ab684db
+              content_sha256: e09893f179a0081836009f746d500d6517b0410874ab7dd281c3625db876ecb8
             - kind: section
               section: 9
               title: Compact Lie groups operating on manifolds
@@ -1119,7 +1116,7 @@ books:
               label: lie-ix-s9
               first_pdf_page: 376
               last_pdf_page: 431
-              book_pages: A IX.369-A IX.381, A IX.419-A IX.424
+              book_pages: 369-381, 419-424
               subsections: 4
               statements: 19
               exercises: 21
@@ -1132,7 +1129,7 @@ books:
               label: lie-ix-a1
               first_pdf_page: 388
               last_pdf_page: 432
-              book_pages: A IX.381-A IX.385, A IX.424-A IX.425
+              book_pages: 381-385, 424-425
               subsections: 3
               statements: 9
               exercises: 1
@@ -1145,7 +1142,7 @@ books:
               label: lie-ix-a2
               first_pdf_page: 392
               last_pdf_page: 395
-              book_pages: A IX.385-A IX.388
+              book_pages: 385-388
               subsections: 2
               statements: 6
               exercises: 0

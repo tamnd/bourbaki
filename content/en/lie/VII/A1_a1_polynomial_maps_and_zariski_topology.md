@@ -8,7 +8,7 @@ section_title: Polynomial maps and Zariski topology
 appendix: true
 lang: en
 source: lie-vii-ix
-book_pages: A VII.45-A VII.47, A VII.66
+book_pages: 45-47, 66
 pdf_pages: 0055-0057, 0075-0075
 extraction: native
 subsections:

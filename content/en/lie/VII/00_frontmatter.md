@@ -8,7 +8,6 @@ section_title: CARTAN SUBALGEBRAS AND REGULAR ELEMENTS
 kind: front
 lang: en
 source: lie-vii-ix
-book_pages: A VII.1
 pdf_pages: 0011-0011
 extraction: native
 statements: 0

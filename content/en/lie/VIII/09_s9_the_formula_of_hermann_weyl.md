@@ -7,7 +7,7 @@ section: 9
 section_title: The formula of Hermann Weyl
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.152-A VIII.159, A VIII.253-A VIII.260
+book_pages: 152-159, 253-260
 pdf_pages: 0160-0167, 0261-0268
 extraction: native
 subsections:

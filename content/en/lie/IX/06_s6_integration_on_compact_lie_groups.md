@@ -7,7 +7,7 @@ section: 6
 section_title: Integration on compact Lie groups
 lang: en
 source: lie-vii-ix
-book_pages: A IX.333-A IX.346, A IX.409-A IX.414
+book_pages: 333-346, 409-414
 pdf_pages: 0340-0353, 0416-0421
 extraction: native
 subsections:

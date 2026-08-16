@@ -8,7 +8,7 @@ section_title: A connectedness property
 appendix: true
 lang: en
 source: lie-vii-ix
-book_pages: A VII.48-A VII.49, A VII.67
+book_pages: 48-49, 67
 pdf_pages: 0058-0059, 0076-0076
 extraction: native
 statements: 3

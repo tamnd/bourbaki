@@ -7,7 +7,7 @@ section: 3
 section_title: Compact forms of complex semi-simple Lie algebras
 lang: en
 source: lie-vii-ix
-book_pages: A IX.296-A IX.303, A IX.394-A IX.396
+book_pages: 296-303, 394-396
 pdf_pages: 0303-0310, 0401-0403
 extraction: native+ocr
 subsections:
@@ -37,10 +37,10 @@ subsections:
       pdf_page: 309
 statements: 17
 exercises: 9
-content_sha256: 8c6af33be7bfa914d08767f309c3b61ce8fde4ef372cc0c42b8a92c3363d045f
+content_sha256: bca0792a11d3faaed07748452301512dc1150714a083b0d510df4f7906ffd7e2
 ---
 
-## § 3. COMPACT FORMS OF COMPLEX SEMI- SIMPLE LIE ALGEBRAS
+## § 3. COMPACT FORMS OF COMPLEX SEMI-SIMPLE LIE ALGEBRAS
 
 ### 1. REAL FORMS
 

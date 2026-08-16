@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 4 chapters, 61 sections, 668 exercises, 2928 extracted pages, 4464 tags, 4179 references, 994 translated files, 5 solutions. Languages: en, fr, vi.
+Audited: 4 chapters, 61 sections, 667 exercises, 2928 extracted pages, 4463 tags, 4178 references, 994 translated files, 5 solutions. Languages: en, fr, vi.
 
 ## Summary
 

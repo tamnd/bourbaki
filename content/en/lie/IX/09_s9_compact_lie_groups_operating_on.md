@@ -7,7 +7,7 @@ section: 9
 section_title: Compact Lie groups operating on manifolds
 lang: en
 source: lie-vii-ix
-book_pages: A IX.369-A IX.381, A IX.419-A IX.424
+book_pages: 369-381, 419-424
 pdf_pages: 0376-0388, 0426-0431
 extraction: native
 subsections:

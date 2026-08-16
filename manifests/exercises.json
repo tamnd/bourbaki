@@ -541,7 +541,7 @@
         {
           "chapter": "VIII",
           "title": "SPLIT SEMI-SIMPLE LIE ALGEBRAS",
-          "total": 173,
+          "total": 172,
           "sections": [
             {
               "section": 1,
@@ -556,9 +556,9 @@
               "section": 2,
               "label": "lie-viii-s2",
               "dir": "s2",
-              "count": 12,
+              "count": 11,
               "first": 1,
-              "last": 12,
+              "last": 11,
               "starred": 1
             },
             {

@@ -7,7 +7,7 @@ section: 7
 section_title: Irreducible representations of connected compact Lie groups
 lang: en
 source: lie-vii-ix
-book_pages: A IX.347-A IX.359, A IX.414-A IX.417
+book_pages: 347-359, 414-417
 pdf_pages: 0354-0366, 0421-0424
 extraction: native
 subsections:

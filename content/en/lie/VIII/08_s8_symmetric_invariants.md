@@ -7,7 +7,7 @@ section: 8
 section_title: Symmetric invariants
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.141-A VIII.151, A VIII.250-A VIII.253
+book_pages: 141-151, 250-253
 pdf_pages: 0149-0159, 0258-0261
 extraction: native+ocr
 subsections:

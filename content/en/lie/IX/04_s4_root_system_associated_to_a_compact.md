@@ -7,7 +7,7 @@ section: 4
 section_title: Root system associated to a compact group
 lang: en
 source: lie-vii-ix
-book_pages: A IX.304-A IX.324, A IX.396-A IX.405
+book_pages: 304-324, 396-405
 pdf_pages: 0311-0331, 0403-0412
 extraction: native+ocr
 subsections:

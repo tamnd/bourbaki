@@ -7,7 +7,7 @@ section: 1
 section_title: The Lie algebra sl(2, k) and its representations
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.69-A VIII.77, A VIII.219-A VIII.226
+book_pages: 69-77, 219-226
 pdf_pages: 0077-0085, 0227-0234
 extraction: native+ocr
 subsections:

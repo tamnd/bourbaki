@@ -7,7 +7,7 @@ section: 12
 section_title: Chevalley orders
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.173-A VIII.189
+book_pages: 173-189
 pdf_pages: 0181-0197
 extraction: native
 subsections:
@@ -20,7 +20,7 @@ subsections:
       page: 173
       pdf_page: 181
     - "no": 3
-      title: INTEGRAL VARIANT OF THE POINCAR É-BIRKHOFF- WITT THEOREM
+      title: INTEGRAL VARIANT OF THE POINCARÉ-BIRKHOFF-WITT THEOREM
       page: 174
       pdf_page: 182
     - "no": 4
@@ -45,7 +45,7 @@ subsections:
       pdf_page: 195
 statements: 34
 exercises: 0
-content_sha256: c8819dad8ef1c3acc1b24290a0d3543dacc604f1bfc3c2f27d64865598a6056f
+content_sha256: 1642fa4e5c816a65484bf3f50d22b9ef5567f03656090866dfba4af2410ea377
 ---
 
 ## § 12. CHEVALLEY ORDERS
@@ -136,7 +136,7 @@ $$
 
 hence formula (4) for $n+ 1$.
 
-### 3. INTEGRAL VARIANT OF THE POINCAR É-BIRKHOFF- WITT THEOREM
+### 3. INTEGRAL VARIANT OF THE POINCARÉ-BIRKHOFF-WITT THEOREM
 
 Let $\mathfrak{g}$ be a finite dimensional $\mathbf{Q}$-Lie algebra, $U(\mathfrak{g})$ its enveloping bigebra. If I is a totally ordered set, $\mathbf{x}= (x_i)_{i\in I}$ a family of elements of $\mathfrak{g}$, and $\mathbf{n}=$ $(n_i)_{i\in I}\in \mathbf{N}^{(I)}$ a multi-index, put
 

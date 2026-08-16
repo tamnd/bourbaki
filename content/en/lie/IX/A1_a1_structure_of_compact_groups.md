@@ -8,7 +8,7 @@ section_title: Structure of compact groups
 appendix: true
 lang: en
 source: lie-vii-ix
-book_pages: A IX.381-A IX.385, A IX.424-A IX.425
+book_pages: 381-385, 424-425
 pdf_pages: 0388-0392, 0431-0432
 extraction: native
 subsections:

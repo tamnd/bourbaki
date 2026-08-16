@@ -7,7 +7,7 @@ section: 1
 section_title: Compact Lie algebras
 lang: en
 source: lie-vii-ix
-book_pages: A IX.281-A IX.287, A IX.389-A IX.391
+book_pages: 281-287, 389-391
 pdf_pages: 0288-0294, 0396-0398
 extraction: native
 subsections:
