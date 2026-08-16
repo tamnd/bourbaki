@@ -1,6 +1,5 @@
 {"edges": [
 {"from":"","from_label":"lie-vii-s4","to_label":"lie-vii-s1","kind":"cites","raw":"§1, no. 1","form":"section","resolved_by":"section","file":"content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md","line":37},
-{"from":"00VU","from_label":"lie-vii-s4-lem-1","to":"00W2","to_label":"lie-vii-s4-lem-3","kind":"cites","raw":"Lemma 3","form":"local","resolved_by":"in-section","file":"content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md","line":67},
 {"from":"00VV","from_label":"lie-vii-s4-lem-2","to":"00SR","to_label":"lie-vii-s1-thm-1-cor-3","kind":"cites","raw":"§1, no. 1, Cor. 3 of Th.1","form":"attached","resolved_by":"parent-label","file":"content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md","line":85},
 {"from":"00VV","from_label":"lie-vii-s4-lem-2","to":"00VU","to_label":"lie-vii-s4-lem-1","kind":"cites","raw":"Lemma 1","form":"local","resolved_by":"in-section","file":"content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md","line":91},
 {"from":"00VX","from_label":"lie-vii-s4-prop-1","to":"00VU","to_label":"lie-vii-s4-lem-1","kind":"cites","raw":"Lemma 1","form":"local","resolved_by":"in-section","file":"content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md","line":101},

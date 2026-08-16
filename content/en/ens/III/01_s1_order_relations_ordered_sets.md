@@ -64,9 +64,9 @@ subsections:
       title: INTERVALS
       page: 147
       pdf_page: 153
-statements: 49
+statements: 52
 exercises: 24
-content_sha256: 3f3afcda046bc5edd83964851c452f0b71a960362027ae7e3358d9bd3bbeb781
+content_sha256: 9aa0ba9c66e0e7562086ef9405dfbe251e949c96f337a2aa1a7cc6d19e72765c
 ---
 
 ## 1. ORDER RELATIONS. ORDERED SETS
@@ -226,11 +226,17 @@ Let E be a set ordered by an ordering $\Gamma$, with graph G. For each subset A 
 
 *Examples*. The relations induced by the inclusion relation $X \subset Y$ on various sets of subsets are of considerable importance. Here are some examples :
 
-(1) Let E, F be two sets, and let $\Phi(E, F)$ be the set of all mappings of subsets of E into F. For each $f \in \Phi(E, F)$ let $G_f$ be the graph of $f$, which is a subset of $E \times F$. If we endow $\Phi(E, F)$ with the order relation "*g extends f*" between $f$ and $g$ (no. 1, Example 3), then $f \to G_f$ is an isomorphism of the ordered set $\Phi(E, F)$ onto a subset of $\mathfrak{P}(E \times F)$, ordered by inclusion.
+#### Example 1 {#ens-iii-s1-n4-exa-1 .statement tag=03WB}
 
-(2) For each partition $\varpi$ of a set E, let $\tilde{\varpi}$ be the graph of the equivalence relation defined by $\varpi$ on E. The mapping $\varpi \to \tilde{\varpi}$ is an isomorphism of the set $\mathfrak{L}$ of partitions of E, ordered by the relation "$\varpi$ is finer than $\varpi'$" between $\varpi$ and $\varpi'$ (no. 1, Example 4) onto a subset of $\mathfrak{P}(E \times E)$, ordered by inclusion.
+Let E, F be two sets, and let $\Phi(E, F)$ be the set of all mappings of subsets of E into F. For each $f \in \Phi(E, F)$ let $G_f$ be the graph of $f$, which is a subset of $E \times F$. If we endow $\Phi(E, F)$ with the order relation "*g extends f*" between $f$ and $g$ (no. 1, Example 3), then $f \to G_f$ is an isomorphism of the ordered set $\Phi(E, F)$ onto a subset of $\mathfrak{P}(E \times F)$, ordered by inclusion.
 
-(3) Let E be a set and let $\Omega \subset \mathfrak{P}(E \times E)$ be the set of graphs of *preorderings* on E (no. 2) (or, by abuse of language, the set of all preorderings on E). The order relation $s \subset t$ between $s$ and $t$, induced on $\Omega$ by the inclusion relation on $\mathfrak{P}(E \times E)$, is expressed by saying that "the preordering $s$ is *finer* than $t$" (or that "$t$ is *coarser* than $s$"). Let $x(s)y$ and $x(t)y$ respectively denote the preorder relations $(x, y) \in s$ and $(x, y) \in t$ on E; then to say that $s$ is finer than $t$ is equivalent to saying that the relation $x(s)y$ *implies* $x(t)y$.
+#### Example 2 {#ens-iii-s1-n4-exa-2 .statement tag=03WC}
+
+For each partition $\varpi$ of a set E, let $\tilde{\varpi}$ be the graph of the equivalence relation defined by $\varpi$ on E. The mapping $\varpi \to \tilde{\varpi}$ is an isomorphism of the set $\mathfrak{L}$ of partitions of E, ordered by the relation "$\varpi$ is finer than $\varpi'$" between $\varpi$ and $\varpi'$ (no. 1, Example 4) onto a subset of $\mathfrak{P}(E \times E)$, ordered by inclusion.
+
+#### Example 3 {#ens-iii-s1-n4-exa-3 .statement tag=03WD}
+
+Let E be a set and let $\Omega \subset \mathfrak{P}(E \times E)$ be the set of graphs of *preorderings* on E (no. 2) (or, by abuse of language, the set of all preorderings on E). The order relation $s \subset t$ between $s$ and $t$, induced on $\Omega$ by the inclusion relation on $\mathfrak{P}(E \times E)$, is expressed by saying that "the preordering $s$ is *finer* than $t$" (or that "$t$ is *coarser* than $s$"). Let $x(s)y$ and $x(t)y$ respectively denote the preorder relations $(x, y) \in s$ and $(x, y) \in t$ on E; then to say that $s$ is finer than $t$ is equivalent to saying that the relation $x(s)y$ *implies* $x(t)y$.
 
 Let $(E_\iota)_{\iota \in I}$ be a family of sets, and for each index $\iota \in I$ let $\Gamma_\iota$ be an ordering on $E_\iota$; let $G_\iota \subset E_\iota \times E_\iota$ be its graph, and let $x_\iota \leqslant y_\iota$ denote the order relation $(x_\iota, y_\iota) \in G_\iota$ on $E_\iota$. On the product set $F = \prod_{\iota \in I} E_\iota$, the relation
 

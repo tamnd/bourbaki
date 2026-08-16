@@ -60,6 +60,22 @@ errata:
             Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse
             systems. Proposition 2 of that no. prints one corollary and it carries no
             number.
+    - label: ens-iv-s2-ex-9
+      lang: en
+      errata:
+        - says: Example 2 of no. 4
+          read: Example 2 of § 1, no. 4
+          why: No. 4 of section 2 numbers no examples. It sets its three under the run-in
+            titles I. Inverse image of a structure, II. Induced structure and III.
+            Product structure, on pages 279 to 281, and none of the three is about
+            homomorphisms. Example 2 of no. 4 of section 1 is the species of structures
+            with a single internal law of composition, everywhere defined, and it is the
+            example the word homomorphism is defined against on page 276, where no. 1 of
+            section 2 opens "Take Sigma to be a species of algebraic structures which
+            has a single (internal) law of composition, everywhere defined (§ 1, no. 4,
+            Example 2)". Exercise 8, printed on the same page 293 as this one, writes
+            the same citation with its section in front of it, "the axiom of the species
+            of topological structures (§ 1, no. 4, Example 3)".
     - label: lie-ix-s9
       lang: en
       errata:

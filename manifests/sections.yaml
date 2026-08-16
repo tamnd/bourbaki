@@ -2123,10 +2123,10 @@ books:
               last_pdf_page: 227
               book_pages: 131-148, 212-221
               subsections: 13
-              statements: 49
+              statements: 52
               exercises: 24
               extraction: ocr
-              content_sha256: 3f3afcda046bc5edd83964851c452f0b71a960362027ae7e3358d9bd3bbeb781
+              content_sha256: 9aa0ba9c66e0e7562086ef9405dfbe251e949c96f337a2aa1a7cc6d19e72765c
             - kind: section
               section: 2
               title: Well-ordered sets
