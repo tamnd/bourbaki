@@ -7,7 +7,7 @@ section: 1
 section_title: Primary decomposition of linear representations
 lang: en
 source: lie-vii-ix
-book_pages: A VII.1-A VII.12, A VII.51-A VII.55
+book_pages: 1-12, 51-55
 pdf_pages: 0011-0022, 0060-0064
 extraction: native
 subsections:

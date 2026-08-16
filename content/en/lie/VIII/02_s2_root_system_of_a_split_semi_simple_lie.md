@@ -7,7 +7,7 @@ section: 2
 section_title: Root system of a split semi-simple Lie algebra
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.77-A VIII.86, A VIII.226-A VIII.229
+book_pages: 77-86, 226-229
 pdf_pages: 0085-0094, 0234-0237
 extraction: native
 subsections:
@@ -28,7 +28,7 @@ subsections:
       page: 83
       pdf_page: 91
 statements: 28
-exercises: 12
+exercises: 11
 content_sha256: 76903e64a7bed03cf3d69b67d5aabf44c01f8897393cfc4484d11de5199bd2ab
 ---
 

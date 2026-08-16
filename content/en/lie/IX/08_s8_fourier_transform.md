@@ -7,7 +7,7 @@ section: 8
 section_title: Fourier transform
 lang: en
 source: lie-vii-ix
-book_pages: A IX.359-A IX.369, A IX.417-A IX.418
+book_pages: 359-369, 417-418
 pdf_pages: 0366-0376, 0424-0425
 extraction: native
 subsections:
@@ -16,7 +16,7 @@ subsections:
       page: 360
       pdf_page: 367
     - "no": 2
-      title: FOURIER TRANSFORMS OF INFINITELY- DIFFERENTIABLE FUNCTIONS
+      title: FOURIER TRANSFORMS OF INFINITELY-DIFFERENTIABLE FUNCTIONS
       page: 362
       pdf_page: 369
     - "no": 3
@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 50c50dd9ebbbc639ef4420e4566fb489963a9b15141600ac2e3d6e2d9ab684db
+content_sha256: e09893f179a0081836009f746d500d6517b0410874ab7dd281c3625db876ecb8
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -158,7 +158,7 @@ $$
 
 When G is commutative, $\widehat{G}$ is the underlying set of the dual group of G (Spectral Theories, Chap. II, §1, no. $1),d(u) = 1$ for all $u\in \widehat{G}$, and we recover the definitions of the Fourier transform given in Spectral Theories, Chap. II.
 
-### 2. FOURIER TRANSFORMS OF INFINITELY- DIFFERENTIABLE FUNCTIONS
+### 2. FOURIER TRANSFORMS OF INFINITELY-DIFFERENTIABLE FUNCTIONS
 
 Recall (Chap. III, §3, no. 1, Def. 2) that U(G) denotes the algebra of distributions on G with support contained in $\{e\}$. The canonical injection of $\mathfrak{g}$ into U(G) extends to an isomorphism from the enveloping algebra of the Lie algebra $\mathfrak{g}$ to U(G) (loc. cit., no. 7, Prop. 25); from now on we identify these two algebras by this isomorphism. If $f$ is an infinitely-differentiable complex function on G and if $t\in U(G)$, we denote by $L_tf$ and $R_tf$ the functions on G defined by
 

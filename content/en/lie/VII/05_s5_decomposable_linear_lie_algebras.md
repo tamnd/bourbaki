@@ -7,7 +7,7 @@ section: 5
 section_title: Decomposable linear Lie algebras
 lang: en
 source: lie-vii-ix
-book_pages: A VII.34-A VII.45, A VII.63-A VII.66
+book_pages: 34-45, 63-66
 pdf_pages: 0044-0055, 0072-0075
 extraction: native
 subsections:

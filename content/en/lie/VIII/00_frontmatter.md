@@ -8,7 +8,6 @@ section_title: SPLIT SEMI-SIMPLE LIE ALGEBRAS
 kind: front
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.69
 pdf_pages: 0077-0077
 extraction: native
 statements: 0

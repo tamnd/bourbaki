@@ -7,7 +7,7 @@ section: 3
 section_title: Subalgebras of split semi-simple Lie algebras
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.86-A VIII.95, A VIII.229-A VIII.231
+book_pages: 86-95, 229-231
 pdf_pages: 0094-0103, 0237-0239
 extraction: native
 subsections:

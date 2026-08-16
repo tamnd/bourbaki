@@ -8,7 +8,6 @@ section_title: COMPACT REAL LIE GROUPS
 kind: front
 lang: en
 source: lie-vii-ix
-book_pages: A IX.281
 pdf_pages: 0288-0288
 extraction: native
 statements: 0

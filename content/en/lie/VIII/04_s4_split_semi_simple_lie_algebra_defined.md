@@ -7,7 +7,7 @@ section: 4
 section_title: Split semi-simple Lie algebra defined by a reduced root system
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.95-A VIII.106, A VIII.231-A VIII.233
+book_pages: 95-106, 231-233
 pdf_pages: 0103-0114, 0239-0241
 extraction: native
 subsections:

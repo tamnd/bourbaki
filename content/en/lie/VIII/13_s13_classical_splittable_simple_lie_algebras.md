@@ -7,7 +7,7 @@ section: 13
 section_title: Classical splittable simple Lie algebras
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.189-A VIII.218, A VIII.266-A VIII.271
+book_pages: 189-218, 266-271
 pdf_pages: 0197-0226, 0274-0279
 extraction: native+ocr
 subsections:

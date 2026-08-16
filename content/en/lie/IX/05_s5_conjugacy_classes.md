@@ -7,7 +7,7 @@ section: 5
 section_title: Conjugacy classes
 lang: en
 source: lie-vii-ix
-book_pages: A IX.324-A IX.333, A IX.405-A IX.409
+book_pages: 324-333, 405-409
 pdf_pages: 0331-0340, 0412-0416
 extraction: native
 subsections:

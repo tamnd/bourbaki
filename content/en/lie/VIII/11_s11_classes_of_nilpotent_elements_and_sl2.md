@@ -7,7 +7,7 @@ section: 11
 section_title: Classes of nilpotent elements and sl2 -triplets
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.163-A VIII.173, A VIII.261-A VIII.266
+book_pages: 163-173, 261-266
 pdf_pages: 0171-0181, 0269-0274
 extraction: native+ocr
 subsections:

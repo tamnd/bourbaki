@@ -7,7 +7,7 @@ section: 7
 section_title: Finite dimensional modules over a split semi-simple Lie algebra
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.124-A VIII.140, A VIII.238-A VIII.250
+book_pages: 124-140, 238-250
 pdf_pages: 0132-0148, 0246-0258
 extraction: native+ocr
 subsections:

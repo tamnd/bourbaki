@@ -7,7 +7,7 @@ section: 4
 section_title: Regular elements of a Lie group
 lang: en
 source: lie-vii-ix
-book_pages: A VII.27-A VII.34, A VII.63
+book_pages: 27-34, 63
 pdf_pages: 0037-0044, 0072-0072
 extraction: native
 subsections:

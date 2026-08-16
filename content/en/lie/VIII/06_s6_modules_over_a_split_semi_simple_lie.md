@@ -7,7 +7,7 @@ section: 6
 section_title: Modules over a split semi-simple Lie algebra
 lang: en
 source: lie-vii-ix
-book_pages: A VIII.115-A VIII.123, A VIII.238
+book_pages: 115-123, 238
 pdf_pages: 0123-0131, 0246-0246
 extraction: native
 subsections:

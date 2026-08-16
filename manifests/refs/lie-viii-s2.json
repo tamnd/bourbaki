@@ -67,5 +67,5 @@
 {"from":"00ZH","from_label":"lie-viii-s2-ex-6","to":"00ZB","to_label":"lie-viii-s2-prop-8","kind":"cites","raw":"Prop. 8","form":"local","resolved_by":"in-section","file":"content/en/lie/VIII/exercises/s2/06.md","line":19},
 {"from":"00ZK","from_label":"lie-viii-s2-ex-9","kind":"cites","raw":"Chap. III, §6","form":"section","resolved_by":"out-of-corpus","book":"LIE","chapter":"III","file":"content/en/lie/VIII/exercises/s2/09.md","line":19},
 {"from":"00ZL","from_label":"lie-viii-s2-ex-10","to":"00ZJ","to_label":"lie-viii-s2-ex-8","kind":"cites","raw":"Exerc. 8","form":"local","resolved_by":"exercise","file":"content/en/lie/VIII/exercises/s2/10.md","line":15},
-{"from":"00ZM","from_label":"lie-viii-s2-ex-11","kind":"cites","raw":"Chap. VI, §1","form":"section","resolved_by":"out-of-corpus","book":"LIE","chapter":"VI","file":"content/en/lie/VIII/exercises/s2/11.md","line":15}
+{"from":"00ZM","from_label":"lie-viii-s2-ex-11","kind":"cites","raw":"Chap. VI, §1, no. 12","form":"section","resolved_by":"out-of-corpus","book":"LIE","chapter":"VI","file":"content/en/lie/VIII/exercises/s2/11.md","line":15}
 ]}

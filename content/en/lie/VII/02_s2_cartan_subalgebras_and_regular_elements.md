@@ -7,7 +7,7 @@ section: 2
 section_title: Cartan subalgebras and regular elements of a Lie algebra
 lang: en
 source: lie-vii-ix
-book_pages: A VII.12-A VII.20, A VII.55-A VII.57
+book_pages: 12-20, 55-57
 pdf_pages: 0022-0030, 0064-0066
 extraction: native
 subsections:

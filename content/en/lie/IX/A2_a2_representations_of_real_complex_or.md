@@ -8,7 +8,7 @@ section_title: Representations of real, complex or quaternionic type
 appendix: true
 lang: en
 source: lie-vii-ix
-book_pages: A IX.385-A IX.388
+book_pages: 385-388
 pdf_pages: 0392-0395
 extraction: native
 subsections:

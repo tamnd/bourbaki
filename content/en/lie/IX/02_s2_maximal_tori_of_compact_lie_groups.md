@@ -7,7 +7,7 @@ section: 2
 section_title: Maximal tori of compact Lie groups
 lang: en
 source: lie-vii-ix
-book_pages: A IX.287-A IX.295, A IX.391-A IX.394
+book_pages: 287-295, 391-394
 pdf_pages: 0294-0302, 0398-0401
 extraction: native+ocr
 subsections:
