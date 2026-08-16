@@ -2054,11 +2054,11 @@ books:
               path: content/en/ens/II/03_s3_correspondences.md
               label: ens-ii-s3
               first_pdf_page: 82
-              last_pdf_page: 131
-              book_pages: 75-90, 124
+              last_pdf_page: 132
+              book_pages: 75-90, 124-125
               subsections: 9
               statements: 35
-              exercises: 6
+              exercises: 11
               extraction: ocr
               content_sha256: 4a19eb1d99a5f890c8aa2b18a567b541ae251c1049bc719aa90ca1b8ae8ae18f
             - kind: section
@@ -2073,7 +2073,7 @@ books:
               statements: 22
               exercises: 8
               extraction: ocr
-              content_sha256: 02ffdad7ebf4f9a8cd9a37c23134dd73584756c2dd0be5a88773412a0dba6ac5
+              content_sha256: b3ef35017b9cb1994bf41f966dc0a0d8b8b12b3f3cc2deb0e9a9c1834fbc92b7
             - kind: section
               section: 5
               title: Product of a family of sets
@@ -2139,7 +2139,7 @@ books:
               statements: 28
               exercises: 20
               extraction: ocr
-              content_sha256: af2eb46f28d58f32ba0f426034093b2763513b46012633b47b311797b5c4456c
+              content_sha256: 65da6eb8d8759db6e65d9e867b0617a631d488f7be094032cffc5bb93cf130d7
             - kind: section
               section: 3
               title: Equipotent sets. Cardinals

@@ -15,3 +15,6 @@
 2026-08-11 migrate alg-viii-s18-lem-2-cor-1 -> alg-viii-s18-thm-2-cor-1
 2026-08-11 migrate alg-viii-s18-lem-2-cor-2 -> alg-viii-s18-thm-2-cor-2
 2026-08-16 retire 00ZN lie-viii-s2-ex-12: never an exercise: the section sign of a reference to Chap. VI was read as the number of a new one and split exercise 11 in two
+2026-08-16 retire 03IL ens-ii-s5-prop-4-cor-2: the corollary was re-read under Proposition 6 once that proposition was read and now holds 03QC
+2026-08-16 retire 03IM ens-ii-s5-prop-4-cor-3: the corollary was re-read under Proposition 6 once that proposition was read and now holds 03QD
+2026-08-16 retire 03OM ens-iii-s7-lem-1-cor-1: the corollary was re-read under Proposition 6 once that proposition was read and now holds 03RS

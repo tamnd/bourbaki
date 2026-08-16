@@ -1,6 +1,7 @@
 {"edges": [
 {"from":"","from_label":"ens-ii-s4","to_label":"ens-ii-s3","kind":"cites","raw":"§3, no. 4","form":"section","resolved_by":"section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":56},
 {"from":"","from_label":"ens-ii-s4","to_label":"ens-ii-s3","kind":"cites","raw":"§3, no. 6","form":"section","resolved_by":"section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":56},
+{"from":"","from_label":"ens-ii-s4","to_label":"ens-i-s4","kind":"cites","raw":"Chapter I, §4","form":"section","resolved_by":"section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":58},
 {"from":"","from_label":"ens-ii-s4","to_label":"ens-ii-s1","kind":"cites","raw":"§1, no. 6","form":"section","resolved_by":"section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":62},
 {"from":"03I1","from_label":"ens-ii-s4-def-1","to_label":"ens-ii-s1","kind":"cites","raw":"§1, no. 6","form":"section","resolved_by":"section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":77},
 {"from":"03PT","from_label":"ens-ii-s4-def-2","to_label":"ens-ii-s1","kind":"cites","raw":"§1, no. 7","form":"section","resolved_by":"section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":84},
@@ -11,7 +12,7 @@
 {"from":"03I5","from_label":"ens-ii-s4-prop-3","to":"03PJ","to_label":"ens-ii-s3-prop-2","kind":"cites","raw":"§3, Proposition 2","form":"section","resolved_by":"section-no","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":193},
 {"from":"03I6","from_label":"ens-ii-s4-prop-4","to":"03I5","to_label":"ens-ii-s4-prop-3","kind":"cites","raw":"Proposition 3","form":"local","resolved_by":"in-section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":219},
 {"from":"03I7","from_label":"ens-ii-s4-n3-cor-1","to":"03I6","to_label":"ens-ii-s4-prop-4","kind":"cites","raw":"Proposition 4","form":"local","resolved_by":"in-section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":225},
-{"from":"","from_label":"ens-ii-s4","to_label":"ens-ii-s3","kind":"cites","raw":"§3, no. 5","form":"section","resolved_by":"section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":273},
+{"from":"","from_label":"ens-ii-s4","to_label":"ens-i-s3","kind":"cites","raw":"Chapter I, §3, no. 5","form":"section","resolved_by":"section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":273},
 {"from":"","from_label":"ens-ii-s4","to_label":"ens-ii-s5","kind":"cites","raw":"§5, no. 6","form":"section","resolved_by":"section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":277},
 {"from":"","from_label":"ens-ii-s4","to":"03I8","to_label":"ens-ii-s4-prop-5","kind":"cites","raw":"Proposition 5","form":"local","resolved_by":"in-section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":279},
 {"from":"","from_label":"ens-ii-s4","to":"03I5","to_label":"ens-ii-s4-prop-3","kind":"cites","raw":"Proposition 3","form":"local","resolved_by":"in-section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":287},
@@ -22,5 +23,5 @@
 {"from":"03IA","from_label":"ens-ii-s4-prop-10","to":"03Q1","to_label":"ens-ii-s4-prop-8","kind":"cites","raw":"Proposition 8","form":"local","resolved_by":"in-section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":393},
 {"from":"03IA","from_label":"ens-ii-s4-prop-10","to":"03Q4","to_label":"ens-ii-s4-def-8","kind":"cites","raw":"Definition 8","form":"local","resolved_by":"in-section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":395},
 {"from":"03IA","from_label":"ens-ii-s4-prop-10","to":"03IA","to_label":"ens-ii-s4-prop-10","kind":"cites","raw":"Proposition 10","form":"local","resolved_by":"in-section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":397},
-{"from":"","from_label":"ens-ii-s4","to_label":"ens-ii-s4","kind":"cites","raw":"§4, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":423}
+{"from":"","from_label":"ens-ii-s4","to_label":"ens-ii-s4","kind":"cites","raw":"§4, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":403}
 ]}

@@ -8,8 +8,8 @@ section_title: Correspondences
 lang: en
 source: ens-i-iv
 source_edition: 2004, Springer
-book_pages: 75-90, 124
-pdf_pages: 0082-0097, 0131-0131
+book_pages: 75-90, 124-125
+pdf_pages: 0082-0097, 0131-0132
 extraction: ocr
 subsections:
     - "no": 1
@@ -49,7 +49,7 @@ subsections:
       page: 89
       pdf_page: 96
 statements: 35
-exercises: 6
+exercises: 11
 content_sha256: 4a19eb1d99a5f890c8aa2b18a567b541ae251c1049bc719aa90ca1b8ae8ae18f
 ---
 

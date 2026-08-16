@@ -109,10 +109,10 @@ imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet che
 | Algebra | VI | 0 of 2 | 0 | 0 | 0 | 1 |
 | Algebra | VII | 0 of 5 | 0 | 0 | 0 | 1 |
 | Algebra | VIII | 25 of 25 | 710 | 317 | 1027 | 964 |
-| Theory of Sets | I | 0 of 6 | 0 | 0 | 0 | 15 |
-| Theory of Sets | II | 0 of 6 | 0 | 0 | 0 | 9 |
-| Theory of Sets | III | 0 of 7 | 0 | 0 | 0 | 14 |
-| Theory of Sets | IV | 0 of 3 | 0 | 0 | 0 | 11 |
+| Theory of Sets | I | 6 of 6 | 16 | 35 | 51 | 50 |
+| Theory of Sets | II | 6 of 6 | 107 | 41 | 148 | 65 |
+| Theory of Sets | III | 7 of 7 | 218 | 120 | 338 | 127 |
+| Theory of Sets | IV | 0 of 3 | 0 | 0 | 0 | 109 |
 | Lie Groups and Lie Algebras | VII | 7 of 7 | 139 | 66 | 205 | 66 |
 | Lie Groups and Lie Algebras | VIII | 13 of 13 | 299 | 172 | 471 | 211 |
 | Lie Groups and Lie Algebras | IX | 11 of 11 | 244 | 112 | 356 | 152 |
@@ -126,7 +126,7 @@ imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet che
 | Théories spectrales | IV | 0 of 5 | 0 | 0 | 0 | 228 |
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 
-56 of 190 sections are in the corpus, 29 per cent. 1392 statements and 667 exercises, 2059 of them carrying a permanent tag.
+75 of 190 sections are in the corpus, 39 per cent. 1733 statements and 863 exercises, 2596 of them carrying a permanent tag.
 
 The table is one row per chapter of the volumes that have a table of contents. 34 further volumes and 10509 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
 <!-- END COVERAGE -->

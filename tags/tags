@@ -4564,8 +4564,6 @@
 03II,ens-ii-s4-ex-8
 03IJ,ens-ii-s5-prop-1
 03IK,ens-ii-s5-prop-4
-03IL,ens-ii-s5-prop-4-cor-2
-03IM,ens-ii-s5-prop-4-cor-3
 03IN,ens-ii-s5-prop-7
 03IO,ens-ii-s5-prop-8
 03IP,ens-ii-s5-n6-cor-1
@@ -4781,7 +4779,6 @@
 03OJ,ens-iii-s7-n4-rem-1
 03OK,ens-iii-s7-lem-1
 03OL,ens-iii-s7-n6-rem-1
-03OM,ens-iii-s7-lem-1-cor-1
 03ON,ens-iii-s7-n6-cor-1
 03OO,ens-iii-s7-n6-rem-2
 03OP,ens-iii-s7-prop-8
@@ -5007,3 +5004,8 @@
 03UT,ens-iii-s2-ex-19
 03UU,ens-iii-s2-ex-20
 03UV,ens-iii-s6-ex-32
+03UW,ens-ii-s3-ex-7
+03UX,ens-ii-s3-ex-8
+03UY,ens-ii-s3-ex-9
+03UZ,ens-ii-s3-ex-10
+03V0,ens-ii-s3-ex-11

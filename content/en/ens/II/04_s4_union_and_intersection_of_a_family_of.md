@@ -46,7 +46,7 @@ subsections:
       pdf_page: 107
 statements: 22
 exercises: 8
-content_sha256: 02ffdad7ebf4f9a8cd9a37c23134dd73584756c2dd0be5a88773412a0dba6ac5
+content_sha256: b3ef35017b9cb1994bf41f966dc0a0d8b8b12b3f3cc2deb0e9a9c1834fbc92b7
 ---
 
 ## 4. UNION AND INTERSECTION OF A FAMILY OF SETS
@@ -397,26 +397,6 @@ By abuse of language, a set E is said to be the *sum* of a family of sets $(\mat
 Note that if $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ is an arbitrary family of sets, the argument of Proposition 10 shows that there exists a mapping of the sum S *onto* the union A.
 
 ### Exercises {#ens-ii-s4-exercises}
-
-if and only if
-
-$$
-G \circ G^{-1} \circ G = \varnothing.
-$$
-
-7. A graph $G$ is functional if and only if for each set $X$ we have
-
-$$
-G^{-1}(G(X)) \subset X.
-$$
-
-8. Let $A$, $B$ be two sets, let $\Gamma$ be a correspondence between $A$ and $B$, and let $\Gamma'$ be a correspondence between $B$ and $A$. Show that if $\Gamma'(\Gamma(x))=\{x\}$ for all $x\in A$ and if $\Gamma(\Gamma'(y))=\{y\}$ for all $y\in B$, then $\Gamma'$ is a bijection of $A$ onto $B$, and $\Gamma'$ is the inverse mapping.
-
-9. Let $A$, $B$, $C$, $D$ be sets, $f$ a mapping of $A$ into $B$, $g$ a mapping of $B$ into $C$, $h$ a mapping of $C$ into $D$. If $g\circ f$ and $h\circ g$ are bijections, show that all of $f$, $g$, $h$ are bijections.
-
-10. Let $A$, $B$, $C$ be sets, $f$ a mapping of $A$ into $B$, $g$ a mapping of $B$ into $C$, $h$ a mapping of $C$ into $A$. Show that if two of the three mappings $h\circ g\circ f$, $g\circ f\circ h$, $f\circ h\circ g$ are surjections and the third is an injection, then $f$, $g$, $h$ are all bijections.
-
-*11. Find the error in the following argument : Let $\mathbf{N}$ denote the set of natural numbers and let $A$ denote the set of all integers $n>2$ for which there exist three strictly positive integers $x$, $y$, $z$ such that $x^n+y^n=z^n$. Then the set $A$ is not empty (in other words, “Fermat’s last theorem” is false). For let $B=\{A\}$ and $C=\{\mathbf{N}\}$; $B$ and $C$ are sets consisting of a single element, hence there is a bijection $f$ of $B$ onto $C$. We have $f(A)=\mathbf{N}$; if $A$ were empty we should have $\mathbf{N}=f(\varnothing)=\varnothing$, which is absurd. *
 
 See the [exercises for § 4](exercises/s4/).
 

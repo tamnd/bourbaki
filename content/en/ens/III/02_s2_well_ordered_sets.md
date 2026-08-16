@@ -38,7 +38,7 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: af2eb46f28d58f32ba0f426034093b2763513b46012633b47b311797b5c4456c
+content_sha256: 65da6eb8d8759db6e65d9e867b0617a631d488f7be094032cffc5bb93cf130d7
 ---
 
 ## 2. WELL-ORDERED SETS
@@ -153,7 +153,7 @@ $$
 
 is usually called the “inductive hypothesis”.
 
-¶ In what follows, for every mapping $g$ of a segment S of E into a set F, and for each $x\in S$ we shall denote by $g^{(x)}$ the mapping of the segment $S_x=]←,x[$ of E onto $g(S_x)$ which coincides with $g$ on $S_x$. With this notation we have
+¶ In what follows, for every mapping $g$ of a segment S of E into a set F, and for each $x\in S$ we shall denote by $g^{(x)}$ the mapping of the segment $S_x=]\leftarrow, x[$ of E onto $g(S_x)$ which coincides with $g$ on $S_x$. With this notation we have
 
 C60. (Definition of a mapping by transfinite induction.) *Let $u$ be a letter, $\mathscr{T}\{u\}$ a term in the theory $\mathscr{T}$. There exists a set U and a mapping $f$ of E onto U such that for all $x\in E$ we have $f(x)=\mathscr{T}\{f^{(x)}\}$. Furthermore, the set U and the mapping $f$ are uniquely determined by these conditions.*
 

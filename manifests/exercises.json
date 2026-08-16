@@ -1108,7 +1108,7 @@
         {
           "chapter": "II",
           "title": "THEORY OF SETS",
-          "total": 36,
+          "total": 41,
           "sections": [
             {
               "section": 1,
@@ -1130,9 +1130,10 @@
               "section": 3,
               "label": "ens-ii-s3",
               "dir": "s3",
-              "count": 6,
+              "count": 11,
               "first": 1,
-              "last": 6
+              "last": 11,
+              "supplementary": 1
             },
             {
               "section": 4,
