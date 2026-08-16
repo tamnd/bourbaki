@@ -82,6 +82,13 @@ jobs:
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: go run ./cmd/bourbaki assemble -book lie-vii-ix -check
+      # Theory of Sets is four chapters of four as of the commit that adds this,
+      # so it is checked here from now on like the others.
+      - name: assemble -check, Theory of Sets
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki assemble -book ens-i-iv -check
       - name: assemble -check, Topologie algébrique I to IV
         working-directory: .solver
         env:
