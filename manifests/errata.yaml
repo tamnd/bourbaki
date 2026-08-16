@@ -9,6 +9,57 @@ errata:
           why: The right ideals of A are the $K'$-subspaces of K, so the deduction the
             exercise asks for holds exactly when K is infinite over $K'$, and the French
             of 1981 (A VIII.13) reads "de dimension infinie sur $K'$".
+    - label: ens-ii-s5
+      lang: en
+      errata:
+        - says: Proposition 1, Corollary 5
+          read: Proposition 6, Corollary 1
+          why: Section 5 prints five corollaries in no. 4 and all five stand under
+            Proposition 6, which is on page 105 and is the auxiliary the no. announces
+            with "it is enough to prove the following proposition". Proposition 1 has
+            no corollary at all, so there is no Corollary 5 of it. The sentence citing
+            this, on page 106, needs the projection of a product onto a factor to be
+            surjective, and that is Corollary 1 of Proposition 6, whose proof reads
+            "Apply Proposition 5 to the subset J = {alpha} of I".
+        - says: Proposition 5, Corollary 2
+          read: Proposition 6, Corollary 2
+          why: The volume hangs these five corollaries on Proposition 5 four times over
+            and on Proposition 6 once, and the page prints them under Proposition 6. The
+            fact wanted in both sentences here, on pages 108 and 109, is that a product
+            is empty exactly when one of its factors is, which is Corollary 2.
+            Proposition 5 is the statement about a partial product that the proof of
+            Corollary 1 applies, and it carries no corollary of its own.
+        - says: Corollary 2 to Proposition 5
+          read: Corollary 2 to Proposition 6
+          why: The same reference as the two above, written the other way round on page
+            109, and wrong the same way.
+    - label: ens-iii-s3
+      lang: en
+      errata:
+        - says: § 5, no. 4, Proposition 5, Corollary 2
+          read: § 5, no. 4, Proposition 6, Corollary 2
+          why: The sentence on page 157 is a translation of the condition that a product
+            set should be non-empty, which is Corollary 2 of no. 4 of § 5 of chapter II.
+            The five corollaries of that no. are printed under Proposition 6 and the
+            volume names them under Proposition 5 here as it does three times in chapter
+            II itself.
+        - says: § 6, no. 3, Theorem 3
+          read: § 6, no. 3, Theorem 2
+          why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma
+            1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries
+            on page 188. The Corollary 4 this sentence cites with it is the one that puts
+            the product of two cardinals, one of them infinite, at their supremum, which
+            is Corollary 4 of Theorem 2 and is what the sentence is about.
+    - label: ens-iii-s7
+      lang: en
+      errata:
+        - says: no. 2, Proposition 2, Corollary 2
+          read: no. 2, Proposition 1, Corollary 2
+          why: The fact cited on page 197 is that the maps of an inverse system compose,
+            h to the lambda nu being h to the lambda mu after h to the mu nu, and that is
+            Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse
+            systems. Proposition 2 of that no. prints one corollary and it carries no
+            number.
     - label: lie-ix-s9
       lang: en
       errata:

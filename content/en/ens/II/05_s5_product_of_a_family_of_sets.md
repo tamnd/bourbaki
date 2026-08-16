@@ -42,6 +42,16 @@ subsections:
       pdf_page: 118
 statements: 24
 exercises: 3
+errata:
+    - says: Proposition 1, Corollary 5
+      read: Proposition 6, Corollary 1
+      why: Section 5 prints five corollaries in no. 4 and all five stand under Proposition 6, which is on page 105 and is the auxiliary the no. announces with "it is enough to prove the following proposition". Proposition 1 has no corollary at all, so there is no Corollary 5 of it. The sentence citing this, on page 106, needs the projection of a product onto a factor to be surjective, and that is Corollary 1 of Proposition 6, whose proof reads "Apply Proposition 5 to the subset J = {alpha} of I".
+    - says: Proposition 5, Corollary 2
+      read: Proposition 6, Corollary 2
+      why: The volume hangs these five corollaries on Proposition 5 four times over and on Proposition 6 once, and the page prints them under Proposition 6. The fact wanted in both sentences here, on pages 108 and 109, is that a product is empty exactly when one of its factors is, which is Corollary 2. Proposition 5 is the statement about a partial product that the proof of Corollary 1 applies, and it carries no corollary of its own.
+    - says: Corollary 2 to Proposition 5
+      read: Corollary 2 to Proposition 6
+      why: The same reference as the two above, written the other way round on page 109, and wrong the same way.
 content_sha256: 36bc8ec590d1a5a4692fdddc22b88dd0fd8a107ff42e89223a29bca8ce919d92
 ---
 

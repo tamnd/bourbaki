@@ -41,7 +41,7 @@ subsections:
       pdf_page: 34
 statements: 57
 exercises: 37
-content_sha256: b81a1c1e387922ae4c941c243f843069fb12bd1b423a0e2082ea2451e98ae0fb
+content_sha256: 093d811134a8b6bd35b6df7266396e4641c8259917cdc3a4213a634199d67858
 ---
 
 ## § 1. APPLICATIONS LINÉAIRES COMPACTES
@@ -316,19 +316,19 @@ Terminons la démonstration du théorème 3. Soit $a$ un élément de A tel que 
 
 Posons F = Ker($u-\lambda 1_E$). C’est un sous-espace vectoriel fermé non nul de E ; il est stable par A, puisque $u$ commute aux éléments de A. D’après l’hypothèse (i), on a F = E, d’où $u=\lambda 1_E$.
 
-#### Corollaire 1 {#ts-iii-s1-lem-1-cor-1 .statement tag=02OR}
+#### Corollaire 1 {#ts-iii-s1-thm-3-cor-1 .statement tag=02OR}
 
 Conservons les hypothèses du théorème 3 et supposons de plus que les éléments de A soient deux à deux permutables. Alors E est de dimension 1 sur $\mathbf{C}$.
 
 D’après l’hypothèse (ii) du théorème 3, l’espace E n’est pas nul. Il contient donc un sous-espace vectoriel F de dimension 1. Ce sous-espace est fermé car E est supposé séparé. D’après le th. 3, tout élément de A est une homothétie, donc stabilise F. Il résulte alors de l’hypothèse (i) du th. 3 que F est égal à E.
 
-#### Corollaire 2 (Lomonosov) {#ts-iii-s1-lem-1-cor-2 .statement tag=02OS}
+#### Corollaire 2 (Lomonosov) {#ts-iii-s1-thm-3-cor-2 .statement tag=02OS}
 
 Soient E un espace localement convexe séparé de dimension au moins 2 sur le corps $\mathbf{C}$ et $u$ un endomorphisme de E. On suppose qu’il existe un endomorphisme compact $h\not = 0$ de E permutable à $u$. Il existe alors un sous-espace vectoriel fermé F de E, distinct de $\{0\}$ et de E, tel que $u(F)\subset F$.
 
 En effet, le corollaire 1 montre que l’ensemble $A =\{u, h\}$ ne peut satisfaire à l’hypothèse (i) du théorème 3.
 
-#### Corollaire 3 {#ts-iii-s1-lem-1-cor-3 .statement tag=02OT}
+#### Corollaire 3 {#ts-iii-s1-thm-3-cor-3 .statement tag=02OT}
 
 Soient E un espace localement convexe séparé sur le corps $\mathbf{C}$ et $u$ un endomorphisme compact de E. Si E est de dimension au moins 2, il existe un sous-espace vectoriel fermé F de E, distinct de $\{0\}$ et de E, tel que $u(F)\subset F$.
 

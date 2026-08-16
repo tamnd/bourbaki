@@ -34,7 +34,7 @@ subsections:
       pdf_page: 195
 statements: 26
 exercises: 32
-content_sha256: 77f70aee6764a579bfe1b9d46b02201949dbe28ed9954f8d2836dfccee740326
+content_sha256: 223731a1f4d4b294c9f6780fefb0badacba82554ae1c93ebfea1fbb37a2e871a
 ---
 
 ## 6. INFINITE SETS
@@ -167,25 +167,25 @@ $$(\mathrm{F} \times \mathrm{Y}) \cup (\mathrm{Y} \times \mathrm{F}) \cup (\math
 
 the mapping $g$ of Z into Z $\times$ Z, which is equal to $f$ on F and to $f_1$ on Y, is therefore a bijection which extends $f$, contrary to the definition of $f$. Hence $\mathrm{Card}(\mathrm{F}) = \mathfrak{a}$, and the proof is complete.
 
-#### Corollary 1 {#ens-iii-s6-lem-2-cor-1 .statement tag=03N2}
+#### Corollary 1 {#ens-iii-s6-thm-2-cor-1 .statement tag=03N2}
 
 *If $\mathfrak{a}$ is an infinite cardinal, then $\mathfrak{a}^n = \mathfrak{a}$ for every integer $n \geqslant 1$.*
 
 By induction on $n$.
 
-#### Corollary 2 {#ens-iii-s6-lem-2-cor-2 .statement tag=03N3}
+#### Corollary 2 {#ens-iii-s6-thm-2-cor-2 .statement tag=03N3}
 
 *The product of a finite family $(\mathfrak{a}_i)_{i \in \mathrm{I}}$ of non-zero cardinals, of which the greatest is an infinite cardinal $\mathfrak{a}$, is equal to $\mathfrak{a}$.*
 
 Let $\mathfrak{b}$ denote the product and let $n$ be the number of elements in I. Then $\mathfrak{b} \leqslant \mathfrak{a}^n = \mathfrak{a}$ (§ 3, no. 6, Proposition 14). On the other hand, since $\mathfrak{a}_i \geqslant 1$ for all $i \in \mathrm{I}$, we have $\mathfrak{b} \geqslant \mathfrak{a}$ (§ 3, no. 6, Proposition 14).
 
-#### Corollary 3 {#ens-iii-s6-lem-2-cor-3 .statement tag=03N4}
+#### Corollary 3 {#ens-iii-s6-thm-2-cor-3 .statement tag=03N4}
 
 *Let $\mathfrak{a}$ be an infinite cardinal and let $(\mathfrak{a}_\iota)_{\iota \in \mathrm{I}}$ be a family of cardinals $\leqslant \mathfrak{a}$ whose index set I has a cardinal $\leqslant \mathfrak{a}$. Then $\sum\limits_{\iota \in \mathrm{I}} \mathfrak{a}_\iota \leqslant \mathfrak{a}$; and if $\mathfrak{a}_\iota = \mathfrak{a}$ for at least one index $\iota \in \mathrm{I}$, then $\sum\limits_{\iota \in \mathrm{I}} \mathfrak{a}_\iota = \mathfrak{a}$.*
 
 Let $\mathfrak{b}$ be the cardinal of I; then we have $\sum\limits_{\iota \in \mathrm{I}} \mathfrak{a}_\iota \leqslant \mathfrak{a}\mathfrak{b} \leqslant \mathfrak{a}^2 = \mathfrak{a}$ (§ 3, no. 6, Proposition 14), and $\sum\limits_{\iota \in \mathrm{I}} \mathfrak{a}_\iota \geqslant \mathfrak{a}_\varkappa$ for all $\varkappa \in \mathrm{I}$.
 
-#### Corollary 4 {#ens-iii-s6-lem-2-cor-4 .statement tag=03N5}
+#### Corollary 4 {#ens-iii-s6-thm-2-cor-4 .statement tag=03N5}
 
 *If $\mathfrak{a}$ and $\mathfrak{b}$ are two non-zero cardinals, one of which is infinite, we have $\mathfrak{a}\mathfrak{b} = \mathfrak{a} + \mathfrak{b} = \sup\,(\mathfrak{a},\,\mathfrak{b})$.*
 

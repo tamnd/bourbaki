@@ -3490,9 +3490,9 @@
 02OO,ts-iii-s1-thm-2
 02OP,ts-iii-s1-thm-3
 02OQ,ts-iii-s1-lem-1
-02OR,ts-iii-s1-lem-1-cor-1
-02OS,ts-iii-s1-lem-1-cor-2
-02OT,ts-iii-s1-lem-1-cor-3
+02OR,ts-iii-s1-thm-3-cor-1
+02OS,ts-iii-s1-thm-3-cor-2
+02OT,ts-iii-s1-thm-3-cor-3
 02OU,ts-iii-s1-def-2
 02OV,ts-iii-s1-n6-rem-1
 02OW,ts-iii-s1-n6-rem-2
@@ -4723,10 +4723,10 @@
 03MZ,ens-iii-s6-thm-2
 03N0,ens-iii-s6-lem-1
 03N1,ens-iii-s6-lem-2
-03N2,ens-iii-s6-lem-2-cor-1
-03N3,ens-iii-s6-lem-2-cor-2
-03N4,ens-iii-s6-lem-2-cor-3
-03N5,ens-iii-s6-lem-2-cor-4
+03N2,ens-iii-s6-thm-2-cor-1
+03N3,ens-iii-s6-thm-2-cor-2
+03N4,ens-iii-s6-thm-2-cor-3
+03N5,ens-iii-s6-thm-2-cor-4
 03N6,ens-iii-s6-def-3
 03N7,ens-iii-s6-prop-1
 03N8,ens-iii-s6-prop-2
@@ -5009,3 +5009,6 @@
 03UY,ens-ii-s3-ex-9
 03UZ,ens-ii-s3-ex-10
 03V0,ens-ii-s3-ex-11
+03V1,ens-ii-s3-n4-exa-1
+03V2,ens-ii-s3-n4-exa-2
+03V3,ens-iii-s1-n1-exa-4

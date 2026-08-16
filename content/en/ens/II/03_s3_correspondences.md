@@ -48,9 +48,9 @@ subsections:
       title: FUNCTIONS OF TWO ARGUMENTS
       page: 89
       pdf_page: 96
-statements: 35
+statements: 37
 exercises: 11
-content_sha256: 4a19eb1d99a5f890c8aa2b18a567b541ae251c1049bc719aa90ca1b8ae8ae18f
+content_sha256: 8a4115cf22d57ea009a5fd57d02c81b51fc1ae5d0adb1e6d32b5c21f6d93004f
 ---
 
 ## 3. CORRESPONDENCES
@@ -301,9 +301,13 @@ Throughout this series we shall often use the word “function” in place of �
 
 *Examples of functions*
 
-(1) The empty set is a functional graph. Every function whose graph is empty has domain and range equal to the empty set. Among such functions, the one whose target is empty (i.e., the function $(\varnothing,\varnothing,\varnothing)$) is called the *empty function*.
+#### Example 1 {#ens-ii-s3-n4-exa-1 .statement tag=03V1}
 
-(2) Let A be a set. The identity correspondence of A (no. 3) is a function, called the *identity mapping* of A.
+The empty set is a functional graph. Every function whose graph is empty has domain and range equal to the empty set. Among such functions, the one whose target is empty (i.e., the function $(\varnothing,\varnothing,\varnothing)$) is called the *empty function*.
+
+#### Example 2 {#ens-ii-s3-n4-exa-2 .statement tag=03V2}
+
+Let A be a set. The identity correspondence of A (no. 3) is a function, called the *identity mapping* of A.
 
 Thus with every set A there is associated a family, defined by the identity mapping of A, whose index set is A and whose set of elements is A. By abuse of language, a set is sometimes referred to as a “family”, in which case it is the family thus associated with the set in question.
 

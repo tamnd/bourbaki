@@ -64,9 +64,9 @@ subsections:
       title: INTERVALS
       page: 147
       pdf_page: 153
-statements: 48
+statements: 49
 exercises: 24
-content_sha256: b2655c012fb0316004f0e9abda8be168f60e338a0995c108e2526e3e8f485165
+content_sha256: 3f3afcda046bc5edd83964851c452f0b71a960362027ae7e3358d9bd3bbeb781
 ---
 
 ## 1. ORDER RELATIONS. ORDERED SETS
@@ -83,29 +83,31 @@ The first of the above relations says that R is *transitive* with respect to the
 
 *Examples*
 
-#### Example 1 {#ens-iii-s1-n1-exa-1 .statement tag=03SH}
+(1) The *relation of equality*, $x = y$, is an order relation.
 
-The *relation of equality*, $x = y$, is an order relation.
+(2) The relation $X \subset Y$ is an order relation between X and Y (Chapter II, § 1, no. 2, Propositions 1 and 2 and axiom A1) which is often called the *inclusion relation*.
 
-#### Example 2 {#ens-iii-s1-n1-exa-2 .statement tag=03SI}
-
-The relation $X \subset Y$ is an order relation between X and Y (Chapter II, § 1, no. 2, Propositions 1 and 2 and axiom A1) which is often called the *inclusion relation*.
-
-#### Example 3 {#ens-iii-s1-n1-exa-3 .statement tag=03SJ}
-
-Let $R\{x, y\}$ be an order relation between $x$ and $y$. The relation $R\{\, y,\, x\}$ is then an order relation *between x and y*, called the *opposite* of the order relation $R\{x,\, y\}$.
+(3) Let $R\{x, y\}$ be an order relation between $x$ and $y$. The relation $R\{\, y,\, x\}$ is then an order relation *between x and y*, called the *opposite* of the order relation $R\{x,\, y\}$.
 
 An *order relation on a set* E is an order relation $R\{x,\, y\}$ with respect to two distinct letters $x$, $y$ such that the relation $R\{x,\, x\}$ is *equivalent to* $x \in E$ (in other words, is such that $R\{x,\, y\}$ is *reflexive* on E (Chapter II, § 6, no. 1)). Then the relation $R\{x,\, y\}$ implies "$x \in E$ and $y \in E$" and the relation $(R\{x,\, y\}$ and $R\{\, y,\, x\})$ is equivalent to "$x \in E$ and $y \in E$ and $x = y$".
 
 *Examples*
 
-(1) The relations of equality and inclusion are not order relations on a set, for the relations $x = x$ and $\mathrm{X} \subset \mathrm{X}$ are not collectivizing (Chapter II, § 1, no. 7).
+#### Example 1 {#ens-iii-s1-n1-exa-1 .statement tag=03SH}
 
-(2) Let $\mathrm{R}\}x,\ y\{$ be an order relation between $x$ and $y$, and let E be a set such that $x \in \mathrm{E}$ implies $\mathrm{R}\}x,\ x\{$ (notice that the empty set satisfies this condition). The relation "$\mathrm{R}\}x,\ y\{$ and $x \in \mathrm{E}$ and $y \in \mathrm{E}$" is then an order relation on E, as is immediately verified; it is called the order relation *induced* by $\mathrm{R}\}x,y\{$ on E (cf. no. 4). By abuse of language, the phrase "the relation $\mathrm{S}\}x,\ y\{$ is an order relation between elements of E" is often used in place of "the relation ($\mathrm{S}\}x,\ y\{$ and $x \in \mathrm{E}$ and $y \in \mathrm{E}$) is an order relation on E". For example, if A is a set, the relation "$\mathrm{X} \subset \mathrm{Y}$ and $\mathrm{X} \subset \mathrm{A}$ and $\mathrm{Y} \subset \mathrm{A}$" is an order relation between subsets of A.
+The relations of equality and inclusion are not order relations on a set, for the relations $x = x$ and $\mathrm{X} \subset \mathrm{X}$ are not collectivizing (Chapter II, § 1, no. 7).
 
-(3) Let E, F be sets. The relation "*g extends f*" is an order relation (between $f$ and $g$) on the set of mappings of subsets of E into F.
+#### Example 2 {#ens-iii-s1-n1-exa-2 .statement tag=03SI}
 
-(4) In the set $\mathfrak{P}(\mathfrak{P}(\mathrm{E}))$ of sets of subsets of a set E, let $\mathscr{P}$ be the set of *partitions* of E (Chapter II, § 4, no. 7). We recall that a partition $\varpi$ is said to be *coarser* than a partition $\varpi'$ if given any $\mathrm{Y} \in \varpi'$ there exists $\mathrm{X} \in \varpi$ such that $\mathrm{Y} \subset \mathrm{X}$ (Chapter II, § 4, no. 6). For each partition $\varpi$ of E let $\tilde{\varpi}$ be the graph of the equivalence relation defined by $\varpi$ on E (Chapter II, § 6, no. 2), that is to say, the union of the (mutually disjoint) sets $\mathrm{A} \times \mathrm{A}$, where A runs through $\varpi$. The relation "$\varpi$ is coarser than $\varpi'$" is immediately seen to be equivalent to $\tilde{\varpi} \supset \tilde{\varpi}'$, and is therefore an order relation on the set $\mathscr{P}$ between $\varpi$ and $\varpi'$.
+Let $\mathrm{R}\}x,\ y\{$ be an order relation between $x$ and $y$, and let E be a set such that $x \in \mathrm{E}$ implies $\mathrm{R}\}x,\ x\{$ (notice that the empty set satisfies this condition). The relation "$\mathrm{R}\}x,\ y\{$ and $x \in \mathrm{E}$ and $y \in \mathrm{E}$" is then an order relation on E, as is immediately verified; it is called the order relation *induced* by $\mathrm{R}\}x,y\{$ on E (cf. no. 4). By abuse of language, the phrase "the relation $\mathrm{S}\}x,\ y\{$ is an order relation between elements of E" is often used in place of "the relation ($\mathrm{S}\}x,\ y\{$ and $x \in \mathrm{E}$ and $y \in \mathrm{E}$) is an order relation on E". For example, if A is a set, the relation "$\mathrm{X} \subset \mathrm{Y}$ and $\mathrm{X} \subset \mathrm{A}$ and $\mathrm{Y} \subset \mathrm{A}$" is an order relation between subsets of A.
+
+#### Example 3 {#ens-iii-s1-n1-exa-3 .statement tag=03SJ}
+
+Let E, F be sets. The relation "*g extends f*" is an order relation (between $f$ and $g$) on the set of mappings of subsets of E into F.
+
+#### Example 4 {#ens-iii-s1-n1-exa-4 .statement tag=03V3}
+
+In the set $\mathfrak{P}(\mathfrak{P}(\mathrm{E}))$ of sets of subsets of a set E, let $\mathscr{P}$ be the set of *partitions* of E (Chapter II, § 4, no. 7). We recall that a partition $\varpi$ is said to be *coarser* than a partition $\varpi'$ if given any $\mathrm{Y} \in \varpi'$ there exists $\mathrm{X} \in \varpi$ such that $\mathrm{Y} \subset \mathrm{X}$ (Chapter II, § 4, no. 6). For each partition $\varpi$ of E let $\tilde{\varpi}$ be the graph of the equivalence relation defined by $\varpi$ on E (Chapter II, § 6, no. 2), that is to say, the union of the (mutually disjoint) sets $\mathrm{A} \times \mathrm{A}$, where A runs through $\varpi$. The relation "$\varpi$ is coarser than $\varpi'$" is immediately seen to be equivalent to $\tilde{\varpi} \supset \tilde{\varpi}'$, and is therefore an order relation on the set $\mathscr{P}$ between $\varpi$ and $\varpi'$.
 
 An *ordering* on a set E is a correspondence $\Gamma = (\mathrm{G},\ \mathrm{E},\ \mathrm{E})$ with E as source and as target, and such that the relation $(x,\ y) \in \mathrm{G}$ is an order relation on E. By abuse of language we shall sometimes refer to the graph G of $\Gamma$ as an ordering on E. If $\mathrm{R}\}x,\ y\{$ is an order relation on E, it has a graph which is an ordering on E.
 
@@ -387,17 +389,11 @@ or by sup X (resp. inf X) if there is no risk of ambiguity. The least upper boun
 
 *Examples*
 
-#### Example 1 {#ens-iii-s1-n9-exa-1 .statement tag=03SS}
+(1) The set of upper bounds of the empty set $\emptyset$ in an ordered set E is evidently E itself; hence $\emptyset$ has a supremum in E if and only if E has a *least* element, which is then the *least upper bound* of $\emptyset$.
 
-The set of upper bounds of the empty set $\emptyset$ in an ordered set E is evidently E itself; hence $\emptyset$ has a supremum in E if and only if E has a *least* element, which is then the *least upper bound* of $\emptyset$.
+(2) In the set $\mathfrak{P}(E)$ of subsets of a set E, ordered by inclusion, every subset $\mathfrak{S}$ of $\mathfrak{P}(E)$ has a least upper bound, namely the *union* of the sets of $\mathfrak{S}$, and a greatest lower bound, namely the *intersection* of the sets of $\mathfrak{S}$.
 
-#### Example 2 {#ens-iii-s1-n9-exa-2 .statement tag=03ST}
-
-In the set $\mathfrak{P}(E)$ of subsets of a set E, ordered by inclusion, every subset $\mathfrak{S}$ of $\mathfrak{P}(E)$ has a least upper bound, namely the *union* of the sets of $\mathfrak{S}$, and a greatest lower bound, namely the *intersection* of the sets of $\mathfrak{S}$.
-
-#### Example 3 {#ens-iii-s1-n9-exa-3 .statement tag=03SU}
-
-Let E, F be two sets and let $\Theta$ be a subset of the $\Phi(E, F)$ of mappings of subsets of E into F, ordered by extension of mappings (no. 1, Example 3). For each $u \in \Phi(E, F)$ let $D(u)$ be the domain of $u$. The condition for the existence of a common extension of a family of mappings belonging to $\Phi(E, F)$ (Chapter II, § 4, no. 6, Proposition 7) shows that $\Theta$ has a least upper bound in $\Phi(E, F)$ if and only if for each pair $(u, v)$ of elements of $\Theta$ we have $u(x) = v(x)$ whenever $x \in D(u) \cap D(v)$.
+(3) Let E, F be two sets and let $\Theta$ be a subset of the $\Phi(E, F)$ of mappings of subsets of E into F, ordered by extension of mappings (no. 1, Example 3). For each $u \in \Phi(E, F)$ let $D(u)$ be the domain of $u$. The condition for the existence of a common extension of a family of mappings belonging to $\Phi(E, F)$ (Chapter II, § 4, no. 6, Proposition 7) shows that $\Theta$ has a least upper bound in $\Phi(E, F)$ if and only if for each pair $(u, v)$ of elements of $\Theta$ we have $u(x) = v(x)$ whenever $x \in D(u) \cap D(v)$.
 
 A mapping $f$ of a set A into an ordered set E is said to have a least upper bound if the image $f(A)$ has a least upper bound in E; this bound is then called the *least upper bound of f* and is written $\sup_{x \in A} f(x)$. Similarly for the greatest lower bound.
 
@@ -467,11 +463,17 @@ is an upper bound of A; consequently $c' \geqslant a$ and therefore $a'_\varkapp
 
 *Examples*
 
-\* (1) In the ordered set $E = \mathbf{R}$ of real numbers, consider the subset $F = \mathbf{Q}$ of rational numbers and the set $A \subset F$ of rational numbers $< \sqrt{2}$; $\sup_E A$ exists but $\sup_F A$ does not.
+#### Example 1 {#ens-iii-s1-n9-exa-1 .statement tag=03SS}
 
-(2) In the notation of Example 1, let G be the union of A and the set $\{2\}$; then $G \subset F$ and $\sup_G A$ exists, but $\sup_F A$ does not.
+In the ordered set $E = \mathbf{R}$ of real numbers, consider the subset $F = \mathbf{Q}$ of rational numbers and the set $A \subset F$ of rational numbers $< \sqrt{2}$; $\sup_E A$ exists but $\sup_F A$ does not.
 
-(3) With the same notation, $\sup_E A = \sqrt{2}$, $\sup_G A = 2$. \*
+#### Example 2 {#ens-iii-s1-n9-exa-2 .statement tag=03ST}
+
+In the notation of Example 1, let G be the union of A and the set $\{2\}$; then $G \subset F$ and $\sup_G A$ exists, but $\sup_F A$ does not.
+
+#### Example 3 {#ens-iii-s1-n9-exa-3 .statement tag=03SU}
+
+With the same notation, $\sup_E A = \sqrt{2}$, $\sup_G A = 2$. \*
 
 However, we have the following result :
 

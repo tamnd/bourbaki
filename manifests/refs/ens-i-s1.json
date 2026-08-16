@@ -1,4 +1,4 @@
 {"edges": [
 {"from":"03P1","from_label":"ens-i-s1-n1-exa-2","to_label":"ens-i-s3","kind":"cites","raw":"§ 3, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/I/01_s1_terms_and_relations.md","line":103},
-{"from":"03G6","from_label":"ens-i-s1-ex-6","to":"03G4","to_label":"ens-i-s1-ex-4","kind":"cites","raw":"Exercise 4","form":"local","resolved_by":"exercise","file":"content/en/ens/I/exercises/s1/06.md","line":14}
+{"from":"03G6","from_label":"ens-i-s1-ex-6","to":"03G4","to_label":"ens-i-s1-ex-4","kind":"cites","raw":"Exercise 4","form":"local","resolved_by":"exercise","file":"content/en/ens/I/exercises/s1/06.md","line":15}
 ]}

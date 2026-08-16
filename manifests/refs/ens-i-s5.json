@@ -15,6 +15,6 @@
 {"from":"","from_label":"ens-i-s5","to_label":"ens-i-s3","kind":"cites","raw":"§3, no. 4","form":"section","resolved_by":"section","file":"content/en/ens/I/05_s5_equalitarian_theories.md","line":124},
 {"from":"","from_label":"ens-i-s5","to_label":"ens-i-s4","kind":"cites","raw":"§4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/I/05_s5_equalitarian_theories.md","line":144},
 {"from":"","from_label":"ens-i-s5","to_label":"ens-i-s4","kind":"cites","raw":"§ 4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/I/05_s5_equalitarian_theories.md","line":182},
-{"from":"03GR","from_label":"ens-i-s5-ex-6","to":"03GM","to_label":"ens-i-s5-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/ens/I/exercises/s5/06.md","line":14},
-{"from":"03GS","from_label":"ens-i-s5-ex-7","to":"03HB","to_label":"ens-ii-s1-ex-2","kind":"cites","raw":"Chapter II, § 1, Exercise 2","form":"section","resolved_by":"exercise","file":"content/en/ens/I/exercises/s5/07.md","line":17}
+{"from":"03GR","from_label":"ens-i-s5-ex-6","to":"03GM","to_label":"ens-i-s5-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/ens/I/exercises/s5/06.md","line":15},
+{"from":"03GS","from_label":"ens-i-s5-ex-7","to":"03HB","to_label":"ens-ii-s1-ex-2","kind":"cites","raw":"Chapter II, § 1, Exercise 2","form":"section","resolved_by":"exercise","file":"content/en/ens/I/exercises/s5/07.md","line":18}
 ]}

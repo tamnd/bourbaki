@@ -1693,7 +1693,7 @@ books:
               statements: 57
               exercises: 37
               extraction: native
-              content_sha256: b81a1c1e387922ae4c941c243f843069fb12bd1b423a0e2082ea2451e98ae0fb
+              content_sha256: 093d811134a8b6bd35b6df7266396e4641c8259917cdc3a4213a634199d67858
             - kind: section
               section: 2
               title: Exemples d’applications linéaires compactes
@@ -2057,10 +2057,10 @@ books:
               last_pdf_page: 132
               book_pages: 75-90, 124-125
               subsections: 9
-              statements: 35
+              statements: 37
               exercises: 11
               extraction: ocr
-              content_sha256: 4a19eb1d99a5f890c8aa2b18a567b541ae251c1049bc719aa90ca1b8ae8ae18f
+              content_sha256: 8a4115cf22d57ea009a5fd57d02c81b51fc1ae5d0adb1e6d32b5c21f6d93004f
             - kind: section
               section: 4
               title: Union and intersection of a family of sets
@@ -2123,10 +2123,10 @@ books:
               last_pdf_page: 227
               book_pages: 131-148, 212-221
               subsections: 13
-              statements: 48
+              statements: 49
               exercises: 24
               extraction: ocr
-              content_sha256: b2655c012fb0316004f0e9abda8be168f60e338a0995c108e2526e3e8f485165
+              content_sha256: 3f3afcda046bc5edd83964851c452f0b71a960362027ae7e3358d9bd3bbeb781
             - kind: section
               section: 2
               title: Well-ordered sets
@@ -2191,7 +2191,7 @@ books:
               statements: 26
               exercises: 32
               extraction: ocr
-              content_sha256: 77f70aee6764a579bfe1b9d46b02201949dbe28ed9954f8d2836dfccee740326
+              content_sha256: 223731a1f4d4b294c9f6780fefb0badacba82554ae1c93ebfea1fbb37a2e871a
             - kind: section
               section: 7
               title: Inverse limits and direct limits

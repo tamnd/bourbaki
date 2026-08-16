@@ -6,14 +6,14 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 4 chapters, 61 sections, 667 exercises, 2928 extracted pages, 4463 tags, 4178 references, 994 translated files, 5 solutions. Languages: en, fr, vi.
+Audited: 7 chapters, 84 sections, 863 exercises, 3232 extracted pages, 5003 tags, 4838 references, 994 translated files, 5 solutions. Languages: en, fr, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
-| tags | 7 | 1 | 1 | T10 (134) |
+| tags | 7 | 1 | 1 | T10 (184) |
 | mathematics | 6 | 2 | 1 | M06 (1), M09 (95) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
@@ -22,7 +22,7 @@ Audited: 4 chapters, 61 sections, 667 exercises, 2928 extracted pages, 4463 tags
 | publication | 0 | 1 | 0 | P04 (89) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 322 soft, over 56 rules that ran and 3 that could not.
+0 hard findings and 372 soft, over 56 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -39,7 +39,7 @@ should trust.
 
 Soft, mathematics.
 
-- `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.47 displays a page over 17 pages, against a mean of 1.23 and a sigma of 1.30
+- `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.47 displays a page over 17 pages, against a mean of 1.32 and a sigma of 1.24
 
 ## M09 no base carries two superscripts or two subscripts (95)
 
@@ -105,7 +105,7 @@ Soft, publication.
 
 and 64 more, which `bourbaki audit -only P04` prints in full.
 
-## T10 the tags of a file climb, as they did on the run that assigned them (134)
+## T10 the tags of a file climb, as they did on the run that assigned them (184)
 
 Soft, tags.
 
@@ -135,7 +135,7 @@ Soft, tags.
 - `content/en/alg/VIII/08_s8_semisimple_rings.md:66` has 0093 after 00S4, which was assigned later
 - `content/en/alg/VIII/08_s8_semisimple_rings.md:398` has 009T after 00R8, which was assigned later
 
-and 109 more, which `bourbaki audit -only T10` prints in full.
+and 159 more, which `bourbaki audit -only T10` prints in full.
 
 ## L06 the glossary is followed (2)
 

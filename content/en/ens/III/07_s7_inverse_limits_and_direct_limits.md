@@ -42,6 +42,10 @@ subsections:
       pdf_page: 215
 statements: 34
 exercises: 9
+errata:
+    - says: no. 2, Proposition 2, Corollary 2
+      read: no. 2, Proposition 1, Corollary 2
+      why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
 content_sha256: fd2f200662bc2d2a1500cfe129cf016da43f418c92fd50ea6081b2a5555410f3
 ---
 

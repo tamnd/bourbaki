@@ -38,6 +38,13 @@ subsections:
       pdf_page: 170
 statements: 37
 exercises: 6
+errata:
+    - says: § 5, no. 4, Proposition 5, Corollary 2
+      read: § 5, no. 4, Proposition 6, Corollary 2
+      why: The sentence on page 157 is a translation of the condition that a product set should be non-empty, which is Corollary 2 of no. 4 of § 5 of chapter II. The five corollaries of that no. are printed under Proposition 6 and the volume names them under Proposition 5 here as it does three times in chapter II itself.
+    - says: § 6, no. 3, Theorem 3
+      read: § 6, no. 3, Theorem 2
+      why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma 1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries on page 188. The Corollary 4 this sentence cites with it is the one that puts the product of two cardinals, one of them infinite, at their supremum, which is Corollary 4 of Theorem 2 and is what the sentence is about.
 content_sha256: 155ceb1fa79c2e2f92adc39b2358178220f94a8b40cabc2c2895bcd17ab7ece2
 ---
 
