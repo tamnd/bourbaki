@@ -29,6 +29,11 @@ books:
       page_height_pt: 666.142
       grammar: foot-number
       pagination: continuous
+      introduction:
+        title: INTRODUCTION
+        page: 7
+        first_pdf_page: 15
+        last_pdf_page: 21
     - id: alg-i-iii
       book: alg
       lang: en

@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 8 chapters, 89 sections, 878 exercises, 3252 extracted pages, 5049 tags, 4902 references, 1098 translated files, 27 solutions. Languages: en, fr, vi.
+Audited: 8 chapters, 90 sections, 878 exercises, 3252 extracted pages, 5049 tags, 4903 references, 1099 translated files, 27 solutions. Languages: en, fr, vi.
 
 ## Summary
 
@@ -17,12 +17,12 @@ Audited: 8 chapters, 89 sections, 878 exercises, 3252 extracted pages, 5049 tags
 | mathematics | 6 | 2 | 1 | M06 (1), M09 (95) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
-| translation | 9 | 2 | 1 | L06 (22), L08 (56) |
+| translation | 9 | 2 | 1 | L06 (23), L08 (56) |
 | solutions | 0 | 5 | 0 | X05 (2) |
 | publication | 0 | 1 | 0 | P04 (89) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 487 soft, over 58 rules that ran and 3 that could not.
+0 hard findings and 488 soft, over 58 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -39,7 +39,7 @@ should trust.
 
 Soft, mathematics.
 
-- `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.47 displays a page over 17 pages, against a mean of 1.28 and a sigma of 1.24
+- `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.47 displays a page over 17 pages, against a mean of 1.27 and a sigma of 1.24
 
 ## M09 no base carries two superscripts or two subscripts (95)
 
@@ -144,12 +144,13 @@ Soft, tags.
 
 and 197 more, which `bourbaki audit -only T10` prints in full.
 
-## L06 the glossary is followed (22)
+## L06 the glossary is followed (23)
 
 Soft, translation.
 
 - `content/vi/alg/VIII/00_frontmatter.md:1` the English mentions 38 glossary terms and 2 are not in this file as the glossary writes them: module structure (cấu trúc môđun), l-algebra (đại số trên L)
 - `content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md:1` the English mentions 58 glossary terms and 2 are not in this file as the glossary writes them: Hilbert’s Nullstellensatz (Định lý không điểm của Hilbert), set (tập hợp)
+- `content/vi/ens/00_introduction.md:1` the English mentions 98 glossary terms and 6 are not in this file as the glossary writes them: analysis (giải tích), division (phép chia), nothing (không có gì), extent (ngoại diên), proved (đã chứng minh), weight (trọng số)
 - `content/vi/ens/I/01_s1_terms_and_relations.md:1` the English mentions 83 glossary terms and 5 are not in this file as the glossary writes them: Signs and assemblies (Các dấu và các dãy ký hiệu), substitution (phép thế), division (phép chia), itself (chính nó), lower (thấp hơn)
 - `content/vi/ens/I/03_s3_logical_theories.md:1` the English mentions 60 glossary terms and 4 are not in this file as the glossary writes them: similar (đồng dạng), proved (đã chứng minh), reason (lý do), order (thứ tự)
 - `content/vi/ens/I/05_s5_equalitarian_theories.md:1` the English mentions 49 glossary terms and 1 are not in this file as the glossary writes them: precisely (chính xác)
