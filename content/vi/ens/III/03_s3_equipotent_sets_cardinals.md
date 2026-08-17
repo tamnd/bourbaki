@@ -45,11 +45,11 @@ errata:
     - says: § 6, no. 3, Theorem 3
       read: § 6, no. 3, Theorem 2
       why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma 1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries on page 188. The Corollary 4 this sentence cites with it is the one that puts the product of two cardinals, one of them infinite, at their supremum, which is Corollary 4 of Theorem 2 and is what the sentence is about.
-content_sha256: 6e3fd2a79035a91e32af9ab49f789d4e58941828af625cbffd7ae256d07392d0
+content_sha256: 6a17c7fbf0a2eabbd98c9f63295cf28690085cc48331309330b6f8d5d4c6f894
 translated_from: content/en/ens/III/03_s3_equipotent_sets_cardinals.md
 source_content_sha256: 10b9449ea9bd34a5afe226531f3f11696bb938442e68e1812cfc379c8696eeac
-translation_model: gpt-5.4, gpt-5-6, gpt-5-6-mini
-translation_run: translate-vi-0508e91e
+translation_model: gpt-5.4, gpt-5-6
+translation_run: translate-vi-786fc151
 glossary_version: 29
 glossary_terms_sha256: c8a13a30b99cc61097cf1a7bb198f0f68d9460457ec82a4c38dcf44948fce268
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
@@ -309,13 +309,13 @@ theo Hệ quả 1.
 
 *Cho $\mathfrak{a}$ là một lực lượng. Khi đó $\mathfrak{a}^0 = 1$, $\mathfrak{a}^1 = \mathfrak{a}$, $1^{\mathfrak{a}} = 1$; và $0^{\mathfrak{a}} = 0$ nếu $\mathfrak{a} \neq 0$.*
 
-Vì tồn tại một ánh xạ duy nhất từ $\varnothing$ vào bất kỳ tập hợp nào cho trước (cụ thể là ánh xạ có đồ thị là tập rỗng); tập hợp các ánh xạ từ một tập hợp gồm một phần tử vào một tập hợp tùy ý X có cùng lực lượng với X (Chương II, § 5, no. 3); tồn tại một ánh xạ duy nhất từ một tập hợp tùy ý vào một tập hợp gồm một phần tử; và cuối cùng, không có ánh xạ nào từ một tập hợp không rỗng vào $\varnothing$.
+Thật vậy, tồn tại một ánh xạ duy nhất từ $\varnothing$ vào bất kỳ tập hợp đã cho nào (cụ thể là ánh xạ có đồ thị là tập rỗng); tập hợp các ánh xạ từ một tập hợp gồm một phần tử duy nhất vào một tập hợp tùy ý X là đẳng lực với X (Chương II, § 5, no. 3); tồn tại một ánh xạ duy nhất từ một tập hợp tùy ý vào một tập hợp gồm một phần tử duy nhất; và, cuối cùng, không có ánh xạ nào từ một tập hợp khác rỗng vào $\varnothing$.
 
 ¶ Đặc biệt, chú ý rằng $0^0 = 1$.
 
 #### Mệnh đề 12 {#ens-iii-s3-prop-12 .statement tag=03KX}
 
-*Cho X là một tập hợp và $\mathfrak{a}$ là lực lượng của nó. Khi đó lực lượng của tập hợp $\mathfrak{P}(\mathrm{X})$ gồm tất cả các tập con của X là $2^{\mathfrak{a}}$.*
+*Cho X là một tập hợp và $\mathfrak{a}$ là lực lượng của nó. Khi đó lực lượng của tập hợp $\mathfrak{P}(\mathrm{X})$ gồm mọi tập con của X là $2^{\mathfrak{a}}$.*
 
 Cho $\alpha$ và $\beta$ là các phần tử của lực lượng 2. Với mỗi tập con Y của X, gọi $f_{\mathrm{Y}}$ là ánh xạ từ X vào 2 được định nghĩa bởi $f_{\mathrm{Y}}(x) = \alpha$ nếu $x \in \mathrm{Y}$ và $f_{\mathrm{Y}}(x) = \beta$ nếu $x \in \mathrm{X} - \mathrm{Y}$. Gọi $u$ là ánh xạ $\mathrm{Y} \to f_{\mathrm{Y}}$ từ $\mathfrak{P}(\mathrm{X})$ vào $2^{\mathrm{X}}$. Ngược lại, với mỗi ánh xạ $g$ từ X vào 2, ta liên kết với nó tập con $\overset{-1}{g}(\alpha)$ của X, và gọi $v$ là ánh xạ $g \to \overset{-1}{g}(\alpha)$ từ $2^{\mathrm{X}}$ vào $\mathfrak{P}(\mathrm{X})$. Hiển nhiên $u \circ v$ và $v \circ u$ là các ánh xạ đồng nhất của $2^{\mathrm{X}}$ và $\mathfrak{P}(\mathrm{X})$; do đó $u$ và $v$ là các song ánh (chương II, § 3, no. 8, Mệnh đề 8, Hệ quả) và vì vậy Card $(\mathfrak{P}(\mathrm{X})) = 2^{\mathfrak{a}}$.
 
@@ -333,17 +333,17 @@ Nếu $\mathfrak{a} \geqslant \mathfrak{b}$, thường tồn tại nhiều lực
 
 #### Mệnh đề 14 {#ens-iii-s3-prop-14 .statement tag=03KZ}
 
-*Cho* $(\mathfrak{a}_\iota)_{\iota \in I}$ *và* $(\mathfrak{b}_\iota)_{\iota \in I}$ *là hai họ các số lực lượng, đều được đánh chỉ số bởi cùng một tập hợp* I, *và sao cho* $\mathfrak{a}_\iota \geqslant \mathfrak{b}_\iota$ *với mọi* $\iota \in I$. *Khi đó*
+*Cho* $(\mathfrak{a}_\iota)_{\iota \in I}$ *và* $(\mathfrak{b}_\iota)_{\iota \in I}$ *là hai họ các số lực lượng, cả hai đều được đánh chỉ số bởi cùng một tập hợp* I, *và sao cho* $\mathfrak{a}_\iota \geqslant \mathfrak{b}_\iota$ *với mọi* $\iota \in I$. *Khi đó*
 
 $$\sum_{\iota \in I} \mathfrak{a}_\iota \geqslant \sum_{\iota \in I} \mathfrak{b}_\iota, \qquad \mathbf{P}_{\iota \in I} \, \mathfrak{a}_\iota \geqslant \mathbf{P}_{\iota \in I} \, \mathfrak{b}_\iota.$$
 
-Bất đẳng thức thứ hai suy ra từ các quan hệ bao hàm giữa các tích của các tập hợp (chương II, § 5, no. 4, Mệnh đề 6, Hệ quả 3). Đối với bất đẳng thức thứ nhất, nếu một tập hợp E là hợp của một họ $(A_\iota)_{\iota \in I}$ các tập con rời nhau từng đôi một và nếu $B_\iota \subset A_\iota$ với mọi $\iota \in I$, thì các $B_\iota$ cũng rời nhau từng đôi một và $\bigcup_\iota B_\iota \subset \bigcup_\iota A_\iota$ (chương II, § 4, no. 2).
+Bất đẳng thức thứ hai suy ra từ các quan hệ bao hàm giữa các tích của các tập hợp (Chương II, § 5, số 4, Mệnh đề 6, Hệ quả 3). Đối với bất đẳng thức thứ nhất, nếu một tập hợp E là hợp của một họ $(A_\iota)_{\iota \in I}$ các tập con đôi một rời nhau và nếu $B_\iota \subset A_\iota$ với mọi $\iota \in I$, thì các $B_\iota$ cũng đôi một rời nhau và $\bigcup_\iota B_\iota \subset \bigcup_\iota A_\iota$ (Chương II, § 4, số 2).
 
 #### Hệ quả 1 {#ens-iii-s3-prop-14-cor-1 .statement tag=03L0}
 
 *Cho* $(\mathfrak{a}_\iota)_{\iota \in I}$ *là một họ các số lực lượng. Với mỗi tập con* J *của* I *ta có* $\sum_{\iota \in J} \mathfrak{a}_\iota \leqslant \sum_{\iota \in I} \mathfrak{a}_\iota$. *Nếu thêm* $\mathfrak{a}_\iota \neq 0$ *với mọi* $\iota \in I - J$, *thì* $\mathbf{P}_{\iota \in J} \, \mathfrak{a}_\iota \leqslant \mathbf{P}_{\iota \in I} \, \mathfrak{a}_\iota$.
 
-Đặt $\mathfrak{b}_\iota = \mathfrak{a}_\iota$ nếu $\iota \in J$, và $\mathfrak{b}_\iota = 0$ (resp. $\mathfrak{b}_\iota = 1$) nếu $\iota \in I - J$. Khi đó áp dụng Mệnh đề 14, nhận thấy rằng quan hệ $\mathfrak{a} \neq 0$ kéo theo $\mathfrak{a} \geqslant 1$.
+Đặt $\mathfrak{b}_\iota = \mathfrak{a}_\iota$ nếu $\iota \in J$, và $\mathfrak{b}_\iota = 0$ (tương ứng $\mathfrak{b}_\iota = 1$) nếu $\iota \in I - J$. Khi đó áp dụng Mệnh đề 14, nhận thấy rằng quan hệ $\mathfrak{a} \neq 0$ kéo theo $\mathfrak{a} \geqslant 1$.
 
 #### Hệ quả 2 {#ens-iii-s3-prop-14-cor-2 .statement tag=03L1}
 
@@ -355,16 +355,16 @@ For $\mathfrak{a}^\mathfrak{b} \leqslant \mathfrak{a}'^\mathfrak{b}$ theo Mệnh
 
 — *Với mỗi lực lượng* $\mathfrak{a}$, *ta có* $2^\mathfrak{a} > \mathfrak{a}$.
 
-Ta có $\mathrm{Card}(\mathfrak{P}(\mathfrak{a})) = 2^\mathfrak{a}$ (no. 5, Mệnh đề 12). Ánh xạ $x \to \{x\}$ $(x \in \mathfrak{a})$ là một đơn ánh của $\mathfrak{a}$ vào $\mathfrak{P}(\mathfrak{a})$, do đó $\mathfrak{a} \leqslant 2^\mathfrak{a}$. Do đó chỉ cần chứng minh rằng $\mathfrak{a} \neq 2^\mathfrak{a}$, tức là, với mọi ánh xạ $f$ của $\mathfrak{a}$ vào $\mathfrak{P}(\mathfrak{a})$, ảnh $f(\mathfrak{a})$ phân biệt với $\mathfrak{P}(\mathfrak{a})$. Cho X là tập hợp tất cả các $x \in \mathfrak{a}$ sao cho $x \notin f(x)$. Nếu $x \in X$, ta có $x \notin f(x)$, do đó $f(x) \neq X$; nếu $x \in \mathfrak{a} - X$, ta có $x \in f(x)$ và $x \notin X$, do đó $f(x) = X$. Điều này cho thấy $X \notin f(\mathfrak{a})$ và chứng minh định lý.
+Ta có $\mathrm{Card}(\mathfrak{P}(\mathfrak{a})) = 2^\mathfrak{a}$ (số 5, Mệnh đề 12). Ánh xạ $x \to \{x\}$ $(x \in \mathfrak{a})$ là một đơn ánh từ $\mathfrak{a}$ vào $\mathfrak{P}(\mathfrak{a})$, do đó $\mathfrak{a} \leqslant 2^\mathfrak{a}$. Vì thế chỉ cần chỉ ra rằng $\mathfrak{a} \neq 2^\mathfrak{a}$, nghĩa là, với mọi ánh xạ $f$ từ $\mathfrak{a}$ vào $\mathfrak{P}(\mathfrak{a})$, ảnh $f(\mathfrak{a})$ phân biệt với $\mathfrak{P}(\mathfrak{a})$. Gọi X là tập hợp tất cả các $x \in \mathfrak{a}$ sao cho $x \notin f(x)$. Nếu $x \in X$, ta có $x \notin f(x)$, do đó $f(x) \neq X$; nếu $x \in \mathfrak{a} - X$, ta có $x \in f(x)$ và $x \notin X$, do đó $f(x) = X$. Điều đó cho thấy rằng $X \notin f(\mathfrak{a})$ và chứng minh định lý.
 
 #### Hệ quả {#ens-iii-s3-n6-cor-1 .statement tag=03L2}
 
-*Không tồn tại một tập hợp có mọi lực lượng làm phần tử.*
+*Không tồn tại một tập hợp có mọi lực lượng như một phần tử.*
 
-Nếu U là một tập hợp như vậy, thì tồn tại một tập hợp S, là tổng của họ các tập hợp $(X)_{X \in U}$, sao cho mọi lực lượng đều đẳng lực với một tập con của S. Đặc biệt, đặt $\mathfrak{S} = \mathrm{Card}(S)$; vì $2^\mathfrak{S}$ là một lực lượng, ta có $2^\mathfrak{S} \leqslant \mathfrak{S}$, trái với Định lý 2.
+Nếu U là một tập hợp như vậy, thì tồn tại một tập hợp S, là tổng của họ các tập hợp $(X)_{X \in U}$, sao cho mọi lực lượng là đẳng lực với một tập con của S. Đặc biệt, đặt $\mathfrak{S} = \mathrm{Card}(S)$; vì $2^\mathfrak{S}$ là một lực lượng, ta sẽ có $2^\mathfrak{S} \leqslant \mathfrak{S}$, trái với Định lý 2.
 
 ### Bài tập {#ens-iii-s3-exercises}
 
 Xem các [bài tập của § 3](exercises/s3/).
 
-[^1]: (*) Số hạng toán học *được ký hiệu bởi* (chương I, § 1, no. 1) ký hiệu "1" dĩ nhiên không được nhầm lẫn với *từ* "one" trong ngôn ngữ thông thường. Số hạng được ký hiệu bởi "1" bằng, theo định nghĩa trên, số hạng được ký hiệu bởi $$\tau_Z((\exists u)(\exists U)(u = (U, \{\emptyset\}, Z) \text{ và } U \subset \{\emptyset\} \times Z$$ $$\text{và } (\forall x)((x \in \{\emptyset\}) \Rightarrow (\exists y)((x, y) \in U))$$ $$\text{và } (\forall x)(\forall y)(\forall y')(((x, y) \in U \text{ và } (x, y') \in U) \Rightarrow (y = y'))$$ $$\text{và } (\forall y)((y \in Z) \Rightarrow (\exists x)((x, y) \in U)))).$$ Theo một ước lượng sơ bộ, số hạng được *ký hiệu* như vậy là một tập hợp gồm vài chục nghìn ký hiệu (mỗi ký hiệu là một trong $\tau$, $\square$, $\vee$, $\neg$, $=$, $\in$, $\supset$).
+[^1]: (*) Số hạng toán học *được ký hiệu bởi* (Chương I, § 1, số 1) ký hiệu "1" dĩ nhiên không được nhầm lẫn với *từ* "một" trong ngôn ngữ thông thường. Số hạng được ký hiệu bởi "1" là bằng, theo định nghĩa ở trên, với số hạng được ký hiệu bởi ký hiệu $$\tau_Z((\exists u)(\exists U)(u = (U, \{\emptyset\}, Z) \text{ và } U \subset \{\emptyset\} \times Z$$ $$\text{và } (\forall x)((x \in \{\emptyset\}) \Rightarrow (\exists y)((x, y) \in U))$$ $$\text{và } (\forall x)(\forall y)(\forall y')(((x, y) \in U \text{ và } (x, y') \in U) \Rightarrow (y = y'))$$ $$\text{và } (\forall y)((y \in Z) \Rightarrow (\exists x)((x, y) \in U)))).$$ Theo một ước lượng sơ bộ, số hạng được *ký hiệu* như vậy là một tập hợp gồm vài chục nghìn dấu (mỗi dấu trong đó là một trong $\tau$, $\square$, $\vee$, $\neg$, $=$, $\in$, $\supset$).

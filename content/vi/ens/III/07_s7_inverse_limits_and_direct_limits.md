@@ -46,33 +46,33 @@ errata:
     - says: no. 2, Proposition 2, Corollary 2
       read: no. 2, Proposition 1, Corollary 2
       why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
-content_sha256: 82eb7d05537234bb263e796310a3172dd878bd372bf4454a6f41838e48040f20
+content_sha256: bf84b83179911a9d9955fd49a55221dff23c09fa06bff6d18a95618e8985f026
 translated_from: content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md
 source_content_sha256: a49555c4f56c60d7aca4de0b044ddea42c75f0dbc65c50f4a3e879299a765497
-translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6, nemotron-3-ultra-free
-translation_run: translate-vi-00d7eec5
+translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4, nemotron-3-ultra-free
+translation_run: translate-vi-786fc151
 glossary_version: 29
 glossary_terms_sha256: 7460ccb7ab747636181ff4e6a149d10bc90b8626116296b8c4361e04f71e73e4
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## 7. GIỚI HẠN NGHỊCH VÀ GIỚI HẠN TRỰC TIẾP
+## 7. GIỚI HẠN NGHỊCH ĐẢO VÀ GIỚI HẠN TRỰC TIẾP
 
-### 1. GIỚI HẠN NGHỊCH
+### 1. GIỚI HẠN NGHỊCH ĐẢO
 
-Cho $I$ là một tập hợp được tiền thứ tự và $(E_\alpha)_{\alpha\in I}$ là một họ các tập hợp được đánh chỉ số bởi $I$. Với mỗi cặp $(\alpha,\beta)$ các phần tử của $I$ sao cho $\alpha\leq\beta$, cho $f_{\alpha\beta}$ là một ánh xạ từ $E_\beta$ vào $E_\alpha$. Giả sử rằng các $f_{\alpha\beta}$ thỏa mãn các điều kiện sau:
+Cho $I$ là một tập hợp tiền thứ tự và cho $(E_\alpha)_{\alpha\in I}$ là một họ các tập hợp được chỉ số bởi $I$. Với mỗi cặp $(\alpha,\beta)$ các phần tử của $I$ sao cho $\alpha\leq\beta$, cho $f_{\alpha\beta}$ là một ánh xạ từ $E_\beta$ vào $E_\alpha$. Giả sử rằng các $f_{\alpha\beta}$ thỏa mãn các điều kiện sau :
 
 $(\mathrm{LP}_I)$ *Các quan hệ $\alpha\leq\beta\leq\gamma$ suy ra $f_{\alpha\gamma}=f_{\alpha\beta}\circ f_{\beta\gamma}$.*
 
 $(\mathrm{LP}_{II})$ *Với mỗi $\alpha\in I$, $f_{\alpha\alpha}$ là ánh xạ đồng nhất của $E_\alpha$.*
 
-Cho $G=\prod_{\alpha\in I}E_\alpha$ là *tích* của họ các tập hợp $(E_\alpha)_{\alpha\in I}$, và gọi $E$ là tập con của $G$ gồm mọi $x$ thỏa mãn mỗi quan hệ
+Cho $G=\prod_{\alpha\in I}E_\alpha$ là *tích* của họ các tập hợp $(E_\alpha)_{\alpha\in I}$, và gọi $E$ là tập con của $G$ gồm tất cả các $x$ thỏa mãn mỗi quan hệ
 
 (1)
 
 $$\operatorname{pr}_{\alpha}x=f_{\alpha\beta}(\operatorname{pr}_{\beta}x)$$
 
-với mỗi cặp chỉ số $(\alpha,\beta)$ sao cho $\alpha\leq\beta$. $E$ được gọi là *giới hạn ngược của họ* $(E_\alpha)_{\alpha\in I}$ *đối với họ các ánh xạ* $(f_{\alpha\beta})$, và ta viết $E=\underset{\longleftarrow}{\lim}\,(E_\alpha,f_{\alpha\beta})$ hoặc đơn giản $E=\underset{\longleftarrow}{\lim}\,E_\alpha$ khi không có nguy cơ nhầm lẫn. Theo lối nói lạm dụng, cặp $((E_\alpha),(f_{\alpha\beta}))$ (thường được ký hiệu là $(E_{\alpha\beta},f_{\alpha\beta})$) được gọi là một *hệ ngược của các tập hợp*, tương đối với tập hợp chỉ số $I$. *Hạn chế* $f_\alpha$ của phép chiếu $\operatorname{pr}_\alpha$ lên $E$ được gọi là *ánh xạ chính tắc* của $E$ vào $E_\alpha$, và ta có quan hệ
+đối với mỗi cặp chỉ số $(\alpha,\beta)$ sao cho $\alpha\leq\beta$. $E$ được gọi là *giới hạn ngược của họ* $(E_\alpha)_{\alpha\in I}$ *đối với họ ánh xạ* $(f_{\alpha\beta})$, và ta viết $E=\underset{\longleftarrow}{\lim}\,(E_\alpha,f_{\alpha\beta})$ hoặc đơn giản là $E=\underset{\longleftarrow}{\lim}\,E_\alpha$ khi không có nguy cơ gây nhầm lẫn. Với sự lạm dụng ngôn ngữ, cặp $((E_\alpha),(f_{\alpha\beta}))$ (thường được ký hiệu bởi $(E_{\alpha\beta},f_{\alpha\beta})$) được gọi là một *hệ ngược các tập hợp*, tương đối với tập hợp chỉ số $I$. *Hạn chế* $f_\alpha$ của phép chiếu $\operatorname{pr}_\alpha$ lên $E$ được gọi là *ánh xạ chính tắc* của $E$ vào $E_\alpha$, và ta có quan hệ
 
 (2)
 
@@ -84,11 +84,11 @@ với mọi $\alpha\leq\beta$; đây chỉ là sự chép lại các quan hệ (
 
 #### Ví dụ 1 {#ens-iii-s7-n1-exa-1 .statement tag=03TF}
 
-Giả sử quan hệ thứ tự trên $I$ là quan hệ *đẳng thức*. Khi đó các cặp $(\alpha,\beta)$ duy nhất sao cho $\alpha\leq\beta$ là các cặp $(\alpha,\alpha)$ với $\alpha\in I$; và vì $f_{\alpha\alpha}$ là ánh xạ đồng nhất, quan hệ (1) được thỏa mãn với *mọi* $x\in G$; nói cách khác, $\underset{\longleftarrow}{\lim}\,E_\alpha$ khi đó là *tích* $\prod_{\alpha\in I}E_\alpha$.
+Giả sử rằng quan hệ thứ tự trên $I$ là quan hệ *đẳng thức*. Khi đó các cặp $(\alpha,\beta)$ duy nhất sao cho $\alpha\leq\beta$ là các cặp $(\alpha,\alpha)$ với $\alpha\in I$; và vì $f_{\alpha\alpha}$ là ánh xạ đồng nhất, quan hệ (1) được thỏa mãn đối với *mọi* $x\in G$; nói cách khác, $\underset{\longleftarrow}{\lim}\,E_\alpha$ khi đó là *tích* $\prod_{\alpha\in I}E_\alpha$.
 
 #### Ví dụ 2 {#ens-iii-s7-n1-exa-2 .statement tag=03TG}
 
-Giả sử rằng $I$ là *có hướng phải*, rằng $E_\alpha$ là cùng một tập hợp $F$ đối với mọi $\alpha\in I$, và rằng $f_{\alpha\beta}$ là ánh xạ đồng nhất của $F$ lên chính nó mỗi khi $\alpha\leq\beta$. Khi đó $E=\underset{\longleftarrow}{\lim}\,E_\alpha$ là *đường chéo* $\Delta$ của tích $\prod_{\alpha\in I}E_\alpha=F^I$. Thật vậy, rõ ràng mỗi $x\in\Delta$ thỏa mãn các quan hệ (1). Ngược lại, cho $x$ là một phần tử của $E$, và ta hãy chứng minh rằng đối với mỗi cặp chỉ số
+Giả sử rằng $I$ là *có hướng phải*, rằng $E_\alpha$ là cùng một tập hợp $F$ đối với mọi $\alpha\in I$, và rằng $f_{\alpha\beta}$ là ánh xạ đồng nhất của $F$ lên chính nó mỗi khi $\alpha\leq\beta$. Khi đó $E=\underset{\longleftarrow}{\lim}\,E_\alpha$ là *đường chéo* $\Delta$ của tích $\prod_{\alpha\in I}E_\alpha=F^I$. Thật vậy, hiển nhiên rằng mỗi $x\in\Delta$ thỏa mãn các hệ thức (1). Ngược lại, cho $x$ là một phần tử của $E$, và ta hãy chứng minh rằng đối với mỗi cặp chỉ số
 
 $(\alpha, \beta)$ ta có $\mathrm{pr}_\alpha x = \mathrm{pr}_\beta x$. Theo giả thiết, tồn tại một chỉ số $\gamma \in I$ sao cho $\alpha \leqslant \gamma$ và $\beta \leqslant \gamma$; do đó theo (1) ta có $\mathrm{pr}_\alpha x = f_{\alpha\gamma}(\mathrm{pr}_\gamma x) = \mathrm{pr}_\gamma x$, và tương tự $\mathrm{pr}_\beta x = \mathrm{pr}_\gamma x$, điều này chứng minh mệnh đề của chúng ta.
 
@@ -106,13 +106,13 @@ $$g'' = g' \circ g. \tag{4}$$
 
 #### Mệnh đề 1 {#ens-iii-s7-prop-1 .statement tag=03OC}
 
-*Cho* I *là một tập hợp có thứ tự, cho* $(E_\alpha, f_{\alpha\beta})$ *là một hệ ngược các tập hợp tương đối với* I, *cho* $E = \varprojlim E_\alpha$ *là giới hạn ngược của nó, và với mỗi* $\alpha \in I$ *cho*
+*Cho* I *là một tập hợp có thứ tự, cho* $(E_\alpha, f_{\alpha\beta})$ *là một hệ ngược của các tập hợp tương đối với* I, *cho* $E = \varprojlim E_\alpha$ *là giới hạn ngược của nó, và với mỗi* $\alpha \in I$ *cho*
 
 $$f_\alpha : E \to E_\alpha$$
 
-*là ánh xạ chính tắc. Với mỗi* $\alpha \in I$, *cho* $u_\alpha$ *là một ánh xạ từ một tập hợp* F *vào* $E_\alpha$ *sao cho*
+*là ánh xạ chính tắc. Với mỗi* $\alpha \in I$, *cho* $u_\alpha$ *là một ánh xạ của một tập hợp* F *vào* $E_\alpha$ *sao cho*
 
-$$f_{\alpha\beta} \circ u_\beta = u_\alpha \qquad \textit{bất cứ khi nào } \alpha \leqslant \beta. \tag{5}$$
+$$f_{\alpha\beta} \circ u_\beta = u_\alpha \qquad \textit{khi } \alpha \leqslant \beta. \tag{5}$$
 
 *Khi đó :*
 
@@ -162,7 +162,7 @@ $$
 
 với mỗi $\alpha\in I$.
 
-¶ Một họ các ánh xạ $u_\alpha:E_\alpha\to F_\alpha$ thỏa mãn các điều kiện của Hệ quả 1 được gọi là một *hệ ngược các ánh xạ* của $(E_\alpha,f_{\alpha\beta})$ vào $(F_\alpha,g_{\alpha\beta})$. Ánh xạ $u$ được định nghĩa trong Hệ quả 1 được gọi là *giới hạn ngược* của họ $(u_\alpha)$ và được viết $u=\underset{\leftarrow}{\lim}\,u_\alpha$ khi không có nguy cơ nhầm lẫn.
+¶ Một họ các ánh xạ $u_\alpha:E_\alpha\to F_\alpha$ thỏa mãn các điều kiện của Hệ quả 1 được gọi là một *hệ ngược các ánh xạ* của $(E_\alpha,f_{\alpha\beta})$ vào $(F_\alpha,g_{\alpha\beta})$. Ánh xạ $u$ được định nghĩa trong Hệ quả 1 được gọi là *giới hạn ngược* của họ $(u_\alpha)$ và được viết là $u=\underset{\leftarrow}{\lim}\,u_\alpha$ khi không có nguy cơ nhầm lẫn.
 
 #### Hệ quả 2 {#ens-iii-s7-prop-1-cor-2 .statement tag=03RO}
 
@@ -177,7 +177,7 @@ $$
 \left(\underset{\leftarrow}{\lim}\,u_\alpha\right).
 $$
 
-Vì nếu đặt $w_\alpha=v_\alpha\circ u_\alpha$, thì nếu $\alpha\leq\beta$ ta có
+Thật vậy, nếu đặt $w_\alpha=v_\alpha\circ u_\alpha$, thì với $\alpha\leq\beta$ ta có
 
 $$
 w_\alpha\circ f_{\alpha\beta}
@@ -187,7 +187,7 @@ w_\alpha\circ f_{\alpha\beta}
 =h_{\alpha\beta}\circ w_\beta,
 $$
 
-điều này cho thấy $(w_\alpha)$ là một hệ ngược các ánh xạ. Hơn nữa, nếu $u=\underset{\leftarrow}{\lim}\,u_\alpha$ và $v=\underset{\leftarrow}{\lim}\,v_\alpha$, thì $h_\alpha\circ(v\circ u)=(v_\alpha\circ g_\alpha)\circ u=(v_\alpha\circ u_\alpha)\circ f_\alpha$ với mỗi $\alpha\in I$, và do đó, theo tính duy nhất của giới hạn ngược, ta có $v\circ u=\underset{\leftarrow}{\lim}\,w_\alpha$.
+suy ra $(w_\alpha)$ là một hệ ngược các ánh xạ. Hơn nữa, nếu $u=\underset{\leftarrow}{\lim}\,u_\alpha$ và $v=\underset{\leftarrow}{\lim}\,v_\alpha$, thì $h_\alpha\circ(v\circ u)=(v_\alpha\circ g_\alpha)\circ u=(v_\alpha\circ u_\alpha)\circ f_\alpha$ với mỗi $\alpha\in I$, và do đó, theo tính duy nhất của giới hạn ngược, ta có $v\circ u=\underset{\leftarrow}{\lim}\,w_\alpha$.
 
 ¶ Cho $(E_\alpha,f_{\alpha\beta})$ là một hệ ngược các tập hợp, và với mỗi $\alpha\in I$ cho $M_\alpha$ là một tập con của $E_\alpha$. Nếu $f_{\alpha\beta}(M_\beta)\subset M_\alpha$ mỗi khi $\alpha\leq\beta$, thì các $M_\alpha$ được gọi là tạo thành một *hệ ngược các tập con* của các $E_\alpha$. Cho $g_{\alpha\beta}$ là ánh xạ của $M_\beta$ vào $M_\alpha$ (trong đó $\alpha\leq\beta$) có đồ thị trùng với đồ thị của hạn chế của $f_{\alpha\beta}$ lên $M_\beta$. Khi đó rõ ràng $(M_\alpha,g_{\alpha\beta})$ là một hệ ngược các tập hợp và rằng
 
@@ -201,7 +201,7 @@ $$
 
 #### Mệnh đề 2 {#ens-iii-s7-prop-2 .statement tag=03RP}
 
-Cho $(E_\alpha,f_{\alpha\beta})$ và $(E'_\alpha,f'_{\alpha\beta})$ là hai *hệ ngược của các tập hợp tương đối với* $I$, và cho $u_\alpha$ là một ánh xạ từ $E_\alpha$ vào $E'_\alpha$ với mỗi $\alpha\in I$, sao cho các $u_\alpha$ lập thành một *hệ ngược của các ánh xạ*. Đặt $u=\underset{\leftarrow}{\lim}\,u_\alpha$. Khi đó, với mỗi $x'=(x'_\alpha)\in E'=\underset{\leftarrow}{\lim}\,E'_\alpha$, các $\bar u_\alpha^{-1}(x'_\alpha)$ lập thành một *hệ ngược của các tập con* của các $E_\alpha$, và $\bar u^{-1}(x')=\underset{\leftarrow}{\lim}\,\bar u_\alpha^{-1}(x'_\alpha)$.
+Cho $(E_\alpha,f_{\alpha\beta})$ và $(E'_\alpha,f'_{\alpha\beta})$ là hai *hệ ngược của các tập hợp tương đối với* $I$, và cho $u_\alpha$ là một ánh xạ từ $E_\alpha$ vào $E'_\alpha$ với mỗi $\alpha\in I$, sao cho các $u_\alpha$ tạo thành một *hệ ngược của các ánh xạ*. Đặt $u=\underset{\leftarrow}{\lim}\,u_\alpha$. Khi đó với mỗi $x'=(x'_\alpha)\in E'=\underset{\leftarrow}{\lim}\,E'_\alpha$, các $\bar u_\alpha^{-1}(x'_\alpha)$ tạo thành một *hệ ngược của các tập con* của các $E_\alpha$, và $\bar u^{-1}(x')=\underset{\leftarrow}{\lim}\,\bar u_\alpha^{-1}(x'_\alpha)$.
 
 Thật vậy, nếu $\alpha \leqslant \beta$ và $x_\beta \in \overset{-1}{u_\beta}(x'_\beta)$, thì ta có
 
@@ -349,7 +349,7 @@ $$(20) \qquad \mathrm{A}_\alpha \neq \emptyset \quad \textit{và} \quad \mathrm{
 
 $$(21) \qquad f_{\alpha\beta}(\mathrm{A}_\beta) \subset \mathrm{A}_\alpha \quad \textit{khi} \quad \alpha \leqslant \beta.$$
 
-Nếu $\mathfrak{A} = (A_\alpha)$ và $\mathfrak{A}' = (A'_\alpha)$ là hai phần tử bất kỳ của $\Sigma$, ta gọi quan hệ $\mathfrak{A} \leqslant \mathfrak{A}'$ có nghĩa là $A_\alpha \supset A'_\alpha$ với mọi $\alpha$. Rõ ràng $\Sigma$ có thứ tự bởi quan hệ này.
+Nếu $\mathfrak{A} = (A_\alpha)$ và $\mathfrak{A}' = (A'_\alpha)$ là hai phần tử bất kỳ của $\Sigma$, gọi quan hệ $\mathfrak{A} \leqslant \mathfrak{A}'$ là quan hệ $A_\alpha \supset A'_\alpha$ với mọi $\alpha$. Rõ ràng $\Sigma$ có thứ tự theo quan hệ này.
 
 (1) Trước hết, hãy chỉ ra rằng tập hợp có thứ tự $\Sigma$ là *quy nạp*. Cho L là một tập sắp thứ tự toàn phần và $\lambda \to \mathfrak{A}^\lambda = (A^\lambda_\alpha)_{\alpha \in I}$ là một ánh xạ tăng ngặt từ L vào $\Sigma$. Với mỗi $\alpha \in I$, đặt $B_\alpha = \bigcap_{\lambda \in L} A^\lambda_\alpha$. Khi đó ngay lập tức thấy rằng họ $\mathfrak{B} = (B_\alpha)_{\alpha \in I}$ thỏa mãn (21); do (i) và (ii), nó cũng thỏa mãn (20), nên thuộc $\Sigma$; và hiển nhiên $\mathfrak{B}$ là một cận trên của tập hợp các $\mathfrak{A}^\lambda$.
 
@@ -443,11 +443,11 @@ vì với mỗi $x \in \mathrm{E}_\alpha$ ta có $f_{\beta\beta}(f_{\beta\alpha}
 
 #### Ví dụ 1 {#ens-iii-s7-n5-exa-1 .statement tag=03TM}
 
-Cho A, B là hai tập hợp, và cho $(\mathrm{V}_\alpha)_{\alpha \in \mathrm{I}}$ là một họ các tập con của A mà tập chỉ số I là có hướng, và sao cho quan hệ $\alpha \leqslant \beta$ kéo theo $\mathrm{V}_\beta \subset \mathrm{V}_\alpha$. Gọi $\mathrm{E}_\alpha$ là tập hợp tất cả các ánh xạ của $\mathrm{V}_\alpha$ vào B, và với mỗi cặp chỉ số $(\alpha, \beta)$ sao cho $\alpha \leqslant \beta$, gọi $f_{\beta\alpha}$ là ánh xạ của $\mathrm{E}_\alpha$ vào $\mathrm{E}_\beta$ biến mỗi hàm $u \in \mathrm{E}_\alpha$ thành hạn chế của nó trên $\mathrm{V}_\beta$. Hiển nhiên các điều kiện $(\mathrm{LI_I})$ và $(\mathrm{LI_{II}})$ được thỏa mãn, và tập hợp $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$ được gọi là tập hợp các *mầm của ánh xạ* của các $\mathrm{V}_\alpha$ vào B. \* Trường hợp thường gặp nhất là trường hợp trong đó $(\mathrm{V}_\alpha)$ là họ các *lân cận* của một tập con của một không gian tôpô A (*Tôpô đại cương*, chương I, §6, số 10). \*
+Cho A, B là hai tập hợp, và cho $(\mathrm{V}_\alpha)_{\alpha \in \mathrm{I}}$ là một họ các tập con của A có tập chỉ số I có hướng, và sao cho quan hệ $\alpha \leqslant \beta$ kéo theo $\mathrm{V}_\beta \subset \mathrm{V}_\alpha$. Ký hiệu $\mathrm{E}_\alpha$ là tập hợp tất cả các ánh xạ từ $\mathrm{V}_\alpha$ vào B, và với mỗi cặp chỉ số $(\alpha, \beta)$ sao cho $\alpha \leqslant \beta$, ký hiệu $f_{\beta\alpha}$ là ánh xạ từ $\mathrm{E}_\alpha$ vào $\mathrm{E}_\beta$ biến mỗi hàm $u \in \mathrm{E}_\alpha$ thành *hạn chế* của nó lên $\mathrm{V}_\beta$. Hiển nhiên rằng các điều kiện $(\mathrm{LI_I})$ và $(\mathrm{LI_{II}})$ được thỏa mãn, và tập hợp $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$ được gọi là tập hợp các *mầm của ánh xạ* của các $\mathrm{V}_\alpha$ vào B. \* Trường hợp thường gặp nhất là trường hợp trong đó $(\mathrm{V}_\alpha)$ là họ các *lân cận* của một tập con của một không gian tôpô A (*Tôpô đại cương*, Chương I, §6, số 10). \*
 
 #### Ví dụ 2 {#ens-iii-s7-n5-exa-2 .statement tag=03TN}
 
-Giả sử rằng, với mỗi $\alpha \in \mathrm{I}$, $\mathrm{E}_\alpha$ là cùng một tập hợp F và rằng khi $\alpha \leqslant \beta$, $f_{\beta\alpha}$ là ánh xạ đồng nhất của F lên chính nó. Khi đó tồn tại một *song ánh chính tắc* của $\varinjlim \mathrm{E}_\alpha$ lên F. Để định nghĩa $\varinjlim \mathrm{E}_\alpha$, ta phải tạo thành tập hợp G là tổng của họ $(\mathrm{E}_\alpha)$; do đó G là hợp của một họ $(\mathrm{G}_\alpha)$ gồm các tập hợp rời nhau từng đôi một, và với mỗi $\alpha \in \mathrm{I}$ có một song ánh chính tắc $h_\alpha : \mathrm{F} \to \mathrm{G}_\alpha$. Tiếp theo ta phải xét quan hệ tương đương R trên G tương ứng với phân hoạch $(\mathrm{P}_y)_{y \in \mathrm{F}}$, trong đó $\mathrm{P}_y$ là tập hợp tất cả các $h_\alpha(y)$ khi $\alpha$ chạy qua I. Rõ ràng $y \to \mathrm{P}_y$ là một song ánh mà nghịch đảo của nó là song ánh cần tìm. Ta sẽ đồng nhất F với $\varinjlim \mathrm{E}_\alpha$ bằng song ánh chính tắc này.
+Giả sử rằng, với mỗi $\alpha \in \mathrm{I}$, $\mathrm{E}_\alpha$ là cùng một tập hợp F và rằng bất cứ khi nào $\alpha \leqslant \beta$, $f_{\beta\alpha}$ là ánh xạ đồng nhất của F lên chính nó. Khi đó tồn tại một *song ánh chính tắc* của $\varinjlim \mathrm{E}_\alpha$ lên F. Để định nghĩa $\varinjlim \mathrm{E}_\alpha$, ta phải tạo thành tập hợp G là tổng của họ $(\mathrm{E}_\alpha)$; do đó G là hợp của một họ $(\mathrm{G}_\alpha)$ gồm các tập hợp rời nhau từng đôi một, và với mỗi $\alpha \in \mathrm{I}$ có một song ánh chính tắc $h_\alpha : \mathrm{F} \to \mathrm{G}_\alpha$. Tiếp theo ta phải xét quan hệ tương đương R trên G tương ứng với phân hoạch $(\mathrm{P}_y)_{y \in \mathrm{F}}$, trong đó $\mathrm{P}_y$ là tập hợp tất cả các $h_\alpha(y)$ khi $\alpha$ chạy qua I. Rõ ràng $y \to \mathrm{P}_y$ là một song ánh mà nghịch đảo của nó là song ánh cần tìm. Ta sẽ đồng nhất F với $\varinjlim \mathrm{E}_\alpha$ bằng song ánh chính tắc này.
 
 #### Bổ đề 1 {#ens-iii-s7-lem-1 .statement tag=03OK}
 
@@ -471,9 +471,9 @@ $$f_\alpha : E_\alpha \to E$$
 
 *là ánh xạ chính tắc. Với mỗi* $\alpha \in I$, *cho* $u_\alpha$ *là một ánh xạ từ* $E_\alpha$ *vào một tập hợp* F *sao cho*
 
-(23) $$u_\beta \circ f_{\beta\alpha} = u_\alpha \qquad \textit{mỗi khi } \alpha \leqslant \beta.$$
+(23) $$u_\beta \circ f_{\beta\alpha} = u_\alpha \qquad \textit{khi } \alpha \leqslant \beta.$$
 
-*Khi đó:*
+*Do đó:*
 
 (a) *Tồn tại một ánh xạ duy nhất* $u$ *từ* E *vào* F *sao cho*
 
@@ -599,11 +599,11 @@ Bây giờ, với mỗi $\beta \in I$, tồn tại $\gamma \in J$ sao cho $\beta
 
 ### 7. GIỚI HẠN TRỰC TIẾP KÉP. TÍCH CỦA CÁC GIỚI HẠN TRỰC TIẾP
 
-Cho I, L là hai tập có hướng, và cho $I \times L$ là tích của chúng (§ 1, số 4), với tiền thứ tự tích, lại là một tập có hướng. Xét một hệ trực tiếp các tập hợp $(E^\lambda_\alpha, f^{\mu\lambda}_{\beta\alpha})$ tương đối với $I \times L$. Khi đó ta có
+Cho I, L là hai tập có hướng, và $I \times L$ là tích của chúng (§ 1, no. 4), với quan hệ tiền thứ tự tích, lại là một tập có hướng. Xét một hệ trực tiếp của các tập $(E^\lambda_\alpha, f^{\mu\lambda}_{\beta\alpha})$ tương đối với $I \times L$. Khi đó ta có
 
 $$(29) \qquad f^{\nu\lambda}_{\gamma\alpha} = f^{\mu\nu}_{\gamma\beta} \circ f^{\mu\lambda}_{\beta\alpha}$$
 
-bất cứ khi nào $\alpha \leqslant \beta \leqslant \gamma$ và $\lambda \leqslant \mu \leqslant \nu$.
+mỗi khi $\alpha \leqslant \beta \leqslant \gamma$ và $\lambda \leqslant \mu \leqslant \nu$.
 
 Ký hiệu E hoặc $\varinjlim_{\alpha,\lambda} E^\lambda_\alpha$ là giới hạn trực tiếp của hệ trực tiếp này. Với mỗi $\lambda \in L$, đặt $g^\lambda_{\beta\alpha} = f^{\lambda\lambda}_{\beta\alpha} : E^\lambda_\alpha \to E^\lambda_\beta$. Khi đó từ (29) ta có
 
