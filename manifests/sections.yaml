@@ -1916,6 +1916,18 @@ books:
               extraction: native
               content_sha256: 241791f6ee17d35c60aabea6be516fc7b9f9fe17f455c902efacd40f754d52d6
     - id: ens-i-iv
+      introduction:
+        kind: introduction
+        title: INTRODUCTION
+        path: content/en/ens/00_introduction.md
+        first_pdf_page: 15
+        last_pdf_page: 21
+        book_pages: 7-13
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 250f5d2e888b77b5920f20703e8c05c00a213fdd7bcfb0354d16639743afb908
       chapters:
         - chapter: I
           title: DESCRIPTION OF FORMAL MATHEMATICS
