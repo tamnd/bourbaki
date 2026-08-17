@@ -14,15 +14,15 @@ Audited: 8 chapters, 90 sections, 878 exercises, 3253 extracted pages, 5252 tags
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (236) |
-| mathematics | 6 | 2 | 1 | M06 (1), M09 (59) |
+| mathematics | 6 | 2 | 1 | M06 (1), M09 (53) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
-| translation | 11 | 3 | 1 | L06 (66), L08 (12), L15 (2) |
+| translation | 11 | 3 | 1 | L06 (66), L08 (6), L15 (2) |
 | solutions | 0 | 5 | 0 | X05 (3) |
-| publication | 0 | 1 | 0 | P04 (56) |
+| publication | 0 | 1 | 0 | P04 (50) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 435 soft, over 61 rules that ran and 3 that could not.
+0 hard findings and 417 soft, over 61 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -41,17 +41,13 @@ Soft, mathematics.
 
 - `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.47 displays a page over 17 pages, against a mean of 1.27 and a sigma of 1.24
 
-## M09 no base carries two superscripts or two subscripts (59)
+## M09 no base carries two superscripts or two subscripts (53)
 
 Soft, mathematics.
 
 - `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:692` two of one script against one base, which TeX will not set: ^-_1^1
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x}}}
-- `content/en/alg/VIII/19_s19_quaternion_algebras.md:86` two of one script against one base, which TeX will not set: ^a_0^0_b
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:474` two of one script against one base, which TeX will not set: _g'_{_{-1}}
-- `content/en/alg/VIII/exercises/s11/05.md:15` two of one script against one base, which TeX will not set: ^p_0^0_q
-- `content/en/alg/VIII/exercises/s11/08.md:19` two of one script against one base, which TeX will not set: ^X_{0Y}^0
-- `content/en/alg/VIII/exercises/s11/10.md:17` two of one script against one base, which TeX will not set: ^X_0^0_I
 - `content/en/alg/VIII/exercises/s14/18.md:15` two of one script against one base, which TeX will not set: ^z_{0\sigma(}^0_{z)}
 - `content/en/alg/VIII/exercises/s19/06.md:25` two of one script against one base, which TeX will not set: ^2_{h^r=0}^{-1}
 - `content/en/lie/IX/08_s8_fourier_transform.md:71` two of one script against one base, which TeX will not set: _u^2_2
@@ -64,26 +60,26 @@ Soft, mathematics.
 - `content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md:499` two of one script against one base, which TeX will not set: ^r''
 - `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:681` two of one script against one base, which TeX will not set: ^-_1^1
 - `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x}}}
-- `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:85` two of one script against one base, which TeX will not set: ^a_0^0_b
 - `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:152` two of one script against one base, which TeX will not set: _n^-_i
 - `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:408` two of one script against one base, which TeX will not set: ^{I_n}_{0^{-2}U}^0
-- `content/fr/alg/VIII/exercises/s11/05.md:15` two of one script against one base, which TeX will not set: ^p_0^0_q
 - `content/fr/alg/VIII/exercises/s11/08.md:19` two of one script against one base, which TeX will not set: ^X_0^0_Y
 - `content/fr/alg/VIII/exercises/s11/10.md:17` two of one script against one base, which TeX will not set: ^X_0^0_I
+- `content/fr/alg/VIII/exercises/s14/18.md:15` two of one script against one base, which TeX will not set: ^z_{0\sigma(}^0_{z)}
+- `content/fr/alg/VIII/exercises/s19/06.md:21` two of one script against one base, which TeX will not set: ^2_{h^r=0}^{-1}
+- `content/fr/ta/I/03_s3_faisceaux.md:485` two of one script against one base, which TeX will not set: _v^{u_*}_{\mathscr{G}}
+- `content/fr/ta/I/03_s3_faisceaux.md:487` two of one script against one base, which TeX will not set: _v^{u_*}_{\mathscr{G}}
+- `content/fr/ta/I/exercises/s6/05.md:33` two of one script against one base, which TeX will not set: ^1_{1 0}^{-1}
+- `content/fr/ta/II/04_s4_homotopies.md:309` two of one script against one base, which TeX will not set: ^v_{v\circ}^{\circ\varphi}_{\psi}
 
-and 34 more, which `bourbaki audit -only M09` prints in full.
+and 28 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (56)
+## P04 every math span parses under KaTeX (50)
 
 Soft, publication.
 
 - `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:692` KaTeX will not set it: Double superscript at position 70: …_1(x\cdot g^-_1^̲1)}c(h_2(x\cdot…: =\prod_{x\in H\backslash G}^{s(x\cdot g_1^{-1})^{-…
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\g…: ^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x…
-- `content/en/alg/VIII/19_s19_quaternion_algebras.md:86` KaTeX will not set it: Double superscript at position 20: …b)\mapsto (^a_0^̲0_b): (a, b)\mapsto (^a_0^0_b)
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:474` KaTeX will not set it: Double subscript at position 54: …_{\in G}f_gf_g'_̲{_{-1}} \tag{28…: \langle f, f'\rangle_G=|G|^{-1}_g\sum_{\in G}f_gf_…
-- `content/en/alg/VIII/exercises/s11/05.md:15` KaTeX will not set it: Double superscript at position 28: … q) = (m+n,^p_0^̲0_q: (m, p) + (n, q) = (m+n,^p_0^0_q
-- `content/en/alg/VIII/exercises/s11/08.md:19` KaTeX will not set it: Double superscript at position 9: (^X_{0Y}^̲0): (^X_{0Y}^0)
-- `content/en/alg/VIII/exercises/s11/10.md:17` KaTeX will not set it: Double superscript at position 6: (^X_0^̲0_I): (^X_0^0_I)
 - `content/en/alg/VIII/exercises/s14/18.md:15` KaTeX will not set it: Double superscript at position 14: ^z_{0\sigma(}^̲0_{z)}: ^z_{0\sigma(}^0_{z)}
 - `content/en/alg/VIII/exercises/s19/06.md:25` KaTeX will not set it: Double superscript at position 47: …=\sum^2_{h^r=0}^̲{-1}T^h): \prod^{r-1}_{j=0}(1 + T^{2^j}) =\sum^2_{h^r=0}^{-1…
 - `content/en/lie/IX/08_s8_fourier_transform.md:71` KaTeX will not set it: Double subscript at position 12: \sum_uA_u^2_̲2<\infty: \sum_uA_u^2_2<\infty
@@ -97,13 +93,17 @@ Soft, publication.
 - `content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md:499` KaTeX will not set it: Double superscript at position 9: 1\sum^r'̲' : 1\sum^r''
 - `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:681` KaTeX will not set it: Double superscript at position 60: …{-1}h_1(x.g^-_1^̲1)}c(h_2(x.g_1^…: =\prod_{x\in H\backslash G}^{s(x.g_1^{-1})^{-1}h_1…
 - `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` KaTeX will not set it: Double superscript at position 6: (^X_-^̲-_y^x_X^-_-^{\g…: (^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{…
-- `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:85` KaTeX will not set it: Double superscript at position 24: …ightarrow (^a_0^̲0_b): (a, b)\rightarrow (^a_0^0_b)
 - `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:152` KaTeX will not set it: Double subscript at position 18: …_i=\pi (-1)_n^-_̲i\pi (\mu_i)^-_…: t_i=\pi (-1)_n^-_i\pi (\mu_i)^-_1\varphi (p(v_1), …
 - `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:408` KaTeX will not set it: Double superscript at position 29: …{I_n}_{0^{-2}U}^̲0: U\rightarrow^{I_n}_{0^{-2}U}^0
-- `content/fr/alg/VIII/exercises/s11/05.md:15` KaTeX will not set it: Double superscript at position 29: …q) = (m+n,(^p_0^̲0_q)): (m, p) + (n, q) = (m+n,(^p_0^0_q))
 - `content/fr/alg/VIII/exercises/s11/08.md:19` KaTeX will not set it: Double superscript at position 6: (^X_0^̲0_Y): (^X_0^0_Y)
+- `content/fr/alg/VIII/exercises/s11/10.md:17` KaTeX will not set it: Double superscript at position 6: (^X_0^̲0_I): (^X_0^0_I)
+- `content/fr/alg/VIII/exercises/s14/18.md:15` KaTeX will not set it: Double superscript at position 15: (^z_{0\sigma(}^̲0_{z)}): (^z_{0\sigma(}^0_{z)})
+- `content/fr/alg/VIII/exercises/s19/06.md:21` KaTeX will not set it: Double superscript at position 15: \sum^2_{h^r=0}^̲{-1}T^h): \sum^2_{h^r=0}^{-1}T^h)
+- `content/fr/ta/I/03_s3_faisceaux.md:485` KaTeX will not set it: Double subscript at position 18: …*(\beta_v^{u_*}_̲{\mathscr{G}})(…: v_*(\beta_v^{u_*}_{\mathscr{G}})(\beta^v_{\mathscr…
+- `content/fr/ta/I/03_s3_faisceaux.md:487` KaTeX will not set it: Double subscript at position 40: …*(\beta_v^{u_*}_̲{\mathscr{G}})\…: \beta_{\mathscr{G}}^w=v_*(\beta_v^{u_*}_{\mathscr{…
+- `content/fr/ta/I/exercises/s6/05.md:33` KaTeX will not set it: Double superscript at position 9: ^1_{1 0}^̲{-1}: ^1_{1 0}^{-1}
 
-and 31 more, which `bourbaki audit -only P04` prints in full.
+and 25 more, which `bourbaki audit -only P04` prints in full.
 
 ## X05 a solution writes its mathematics in TeX (3)
 
@@ -177,26 +177,20 @@ Soft, translation.
 
 and 41 more, which `bourbaki audit -only L06` prints in full.
 
-## L08 no translation was written by a small model (12)
+## L08 no translation was written by a small model (6)
 
 Soft, translation.
 
 - `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/III/05_s5_properties_of_integers.md:1` was translated by gpt-5-6, gpt-5.4, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` was translated by gpt-5-6, gpt-5.4, nemotron-3-ultra-free, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s2/20.md:1` was translated by gpt-5.4, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s4/07.md:1` was translated by gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s4/08.md:1` was translated by gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s5/05.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/III/exercises/s5/06.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/III/exercises/s5/07.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/III/exercises/s7/02.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/III/historical_note.md:1` was translated by gpt-5.4, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/IV/historical_note.md:1` was translated by gpt-5.4, gpt-5-6, gpt-5-6-mini, laguna-s-2.1-free, hy3-free, nemotron-3-ultra-free, which is a cut down model, so the section is worth doing again
 
 ## L15 no translation was written on the free gateway (2)
 
 Soft, translation.
 
 - `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` was translated by gpt-5-6, gpt-5.4, nemotron-3-ultra-free, gpt-5-6-mini, which is a free gateway model, so the section is worth doing again
-- `content/vi/ens/IV/historical_note.md:1` was translated by gpt-5.4, gpt-5-6, gpt-5-6-mini, laguna-s-2.1-free, hy3-free, nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/ens/IV/historical_note.md:1` was translated by gpt-5.4, gpt-5-6, laguna-s-2.1-free, hy3-free, nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again

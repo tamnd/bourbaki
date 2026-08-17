@@ -34,7 +34,7 @@ subsections:
       pdf_page: 384
 statements: 16
 exercises: 8
-content_sha256: b5996028b55144473fe8f797e1f0ef1f96e74a63697ee6e4b018df44f20f01cd
+content_sha256: 71e4f4f70eb40d09b1a16d408794c159eca92de0aa89ccbf3b967f67df1d0b5d
 ---
 
 ## § 19. QUATERNION ALGEBRAS
@@ -83,7 +83,7 @@ Let $q$ be an element of F. Then $q$ is nilpotent if and only if its characteris
 
 #### Example {#alg-viii-s19-n1-exa-1 .statement tag=00LU}
 
-The matrix algebra $\mathbf{M}_2(K)$ is isomorphic to the quaternion algebra of type $(0,1,1)$. Indeed, consider the quadratic algebra $E = K\times K$ (of type $(0,1))$ and the quaternion algebra $F = E + Ej$, which is the Cayley extension of E defined by the element $\gamma = 1$. The mapping $(a, b)\mapsto (^a_0^0_b)$ is an algebra homomorphism from E to $\mathbf{M}_2(K)$. Since for $a, b$ in K, we have
+The matrix algebra $\mathbf{M}_2(K)$ is isomorphic to the quaternion algebra of type $(0,1,1)$. Indeed, consider the quadratic algebra $E = K\times K$ (of type $(0,1))$ and the quaternion algebra $F = E + Ej$, which is the Cayley extension of E defined by the element $\gamma = 1$. The mapping $(a, b)\mapsto \begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix}$ is an algebra homomorphism from E to $\mathbf{M}_2(K)$. Since for $a, b$ in K, we have
 
 $$
 (01)((01)(10)(01)((a0)(b0)((01)
