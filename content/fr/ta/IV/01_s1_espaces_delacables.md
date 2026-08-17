@@ -7,8 +7,8 @@ section: 1
 section_title: Espaces délaçables
 lang: fr
 source: ta-i-iv-fr
-book_pages: A IV.340-A IV.351
-pdf_pages: 0356-0367
+book_pages: A IV.340-A IV.351, A IV.455-A IV.457
+pdf_pages: 0356-0367, 0471-0473
 extraction: native
 subsections:
     - "no": 1
@@ -28,8 +28,8 @@ subsections:
       page: 346
       pdf_page: 362
 statements: 20
-exercises: 0
-content_sha256: 155ffffac4b7431150b5059d5ca7564ea931ea37b964c818aa2c4ea9f5859586
+exercises: 6
+content_sha256: d205fb80da0bb08a6919e18d69a1c96a19fd7f9b6311bbe8cc4b795bdfbfe17c
 ---
 
 ## § 1. ESPACES DÉLAÇABLES
@@ -239,3 +239,7 @@ Soit $c$ un lacet en $x$ dans V ; d’après le théorème 4 (III, p. 287), appl
 #### Remarque 1 {#ta-iv-s1-n4-rem-1 .statement tag=020R}
 
 Le théorème 4 de III, p. 287 et la prop. 8 (IV, p. 349) restent valables sous l’hypothèse plus générale que G est un groupe de Lie de dimension finie sur $\mathbf{R}$ opérant proprement dans X. Pour plus de détails, cf. D. Montgomery et C. T. Yang, « The existence of a slice », Annals of mathematics 65 (1957), p. 108–116 ; R. Palais, « On the existence of slices for actions of non-compact Lie groups », Annals of mathematics 73 (1961), p. 295–323 ; et G. Bredon, Introduction to compact transformation groups, Academic Press, 1972.
+
+## EXERCICES {#ta-iv-s1-exercises}
+
+See the [exercises for § 1](exercises/s1/).

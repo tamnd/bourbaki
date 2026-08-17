@@ -7,8 +7,8 @@ section: 4
 section_title: Revêtements
 lang: fr
 source: ta-i-iv-fr
-book_pages: A I.68-A I.90
-pdf_pages: 0084-0106
+book_pages: A I.68-A I.90, A I.145-A I.147
+pdf_pages: 0084-0106, 0161-0163
 extraction: native
 subsections:
     - "no": 1
@@ -52,8 +52,8 @@ subsections:
       page: 89
       pdf_page: 105
 statements: 50
-exercises: 0
-content_sha256: 03a425bcc9e7dfd1e0495c3419d1920800bd7cb92a44eba9315c3e9cdacb928f
+exercises: 9
+content_sha256: ca934970917f7acfc2a1a30a448cc17a1363b1b813438b2326705c4c97461c14
 ---
 
 ## § 4. REVÊTEMENTS
@@ -589,3 +589,7 @@ U-isomorphisme) $f:\overset{-1}{p}(U)\rightarrow (\overset{-1}{p}')(U)$ tel que 
 Conservons les notations du corollaire 1. D’après ce même corollaire, un A-morphisme $g: E_A\rightarrow E'_A$ s’identifie à une section $s_0$ au-dessus de A de l’espace étalé $E_{\mathscr{M}}$ associé à $\mathscr{M}$. D’après l’hypothèse faite sur le couple $(B,A)$ et le lemme 3 de I, p. 39, il existe un voisinage ouvert U de A dans B et une section continue $s$ de $E_{\mathscr{M}}$ au-dessus de U prolongeant $s_0$. Cette section $s$ s’identifie à un U-morphisme $f: E_U\rightarrow E'_U$ prolongeant $f$.
 
 Le cas où $g$ est un A-isomorphisme se traite de manière analogue en considérant au lieu du faisceau $\mathscr{M}$ le faisceau $\mathscr{I}$.
+
+## EXERCICES {#ta-i-s4-exercises}
+
+See the [exercises for § 4](exercises/s4/).

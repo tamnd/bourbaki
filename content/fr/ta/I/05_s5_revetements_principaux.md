@@ -7,8 +7,8 @@ section: 5
 section_title: Revêtements principaux
 lang: fr
 source: ta-i-iv-fr
-book_pages: A I.91-A I.119
-pdf_pages: 0107-0135
+book_pages: A I.91-A I.119, A I.147-A I.149
+pdf_pages: 0107-0135, 0163-0165
 extraction: native
 subsections:
     - "no": 1
@@ -40,8 +40,8 @@ subsections:
       page: 114
       pdf_page: 130
 statements: 58
-exercises: 0
-content_sha256: 50267f460d15e7bc910dc595bb160936e23850e1e27162ec41c420bb01ad7f34
+exercises: 4
+content_sha256: 3911f0810d992f3e67343feceb17da23af4a99a35ecccb73e6961af4fa0fa712
 ---
 
 ## § 5. REVÊTEMENTS PRINCIPAUX
@@ -721,3 +721,7 @@ Soit $\mathscr{R}$ l’ensemble des éléments de $\mathfrak{P}(\mathfrak{P}(B))
 L’application $r: H^1_{cont}(B,G)\rightarrow P(B,G)$ est bijective.
 
 Soit $\mathscr{U}= (U_i)_{i\in I}$ un recouvrement ouvert de B; notons $c_{\mathscr{U}}$ l’application canonique $H^1_{cont}(B,\mathscr{U},G)\rightarrow H^1_{cont}(B,G)$. Si $(g_{ij})$ est un cocycle sur B, à valeurs dans G, subordonné au recouvrement ouvert $\mathscr{U}$, l’élément $c_{\mathscr{U}}((g_{ij}))$ de $H^1_{cont}(B,G)$ est appelé classe de cohomologie du cocycle $(g_{ij})$.
+
+## EXERCICES {#ta-i-s5-exercises}
+
+See the [exercises for § 5](exercises/s5/).

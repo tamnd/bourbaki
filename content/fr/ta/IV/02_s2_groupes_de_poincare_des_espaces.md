@@ -7,8 +7,8 @@ section: 2
 section_title: Groupes de Poincaré des espaces délaçables
 lang: fr
 source: ta-i-iv-fr
-book_pages: A IV.351-A IV.368
-pdf_pages: 0367-0384
+book_pages: A IV.351-A IV.368, A IV.457-A IV.458
+pdf_pages: 0367-0384, 0473-0474
 extraction: native
 subsections:
     - "no": 1
@@ -36,8 +36,8 @@ subsections:
       page: 365
       pdf_page: 381
 statements: 30
-exercises: 0
-content_sha256: 7119eec31baf2b05c6d7fc1ef33504ab852b7f2a33dbab206cfd3d7255ee37a5
+exercises: 5
+content_sha256: 4b2f1984b8356a27ffeca9c22d8e6d8f692e5409c1a78d01dd49846ada5cd4dc
 ---
 
 ## § 2. GROUPES DE POINCARÉ DES ESPACES DÉLAÇABLES
@@ -461,5 +461,9 @@ A fortiori, Card($\pi_1(X, a)$)$\leqslant$ Card($\mathfrak{P}(\mathbf{N})$). Il 
 #### Exemple {#ta-iv-s2-n6-exa-1 .statement tag=021L}
 
 Soit P l’espace topologique réunion des cercles de centre $(2/n,0)$ passant par l’origine du plan $\mathbf{R}^2$, pour $n\geqslant$ 1 (III, p. 336, exerc. 6). Le groupe de Poincaré de P a la puissance du continu (III, p. 338, exerc. 9).
+
+## EXERCICES {#ta-iv-s2-exercises}
+
+See the [exercises for § 2](exercises/s2/).
 
 [^1]: Voir « Can the fundamental (homotopy) group of a space be the rationals ? », Proc. Amer. Math. Soc. 103 (1988), no. 2, p. 627–632. La preuve qui suit est basée sur l’article de J. Pawlikowski, « The fundamental group of a compact metric space », Proc. Amer. Math. Soc. 126 (1998), no. 10, p. 3083–3087.

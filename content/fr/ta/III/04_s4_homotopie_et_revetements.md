@@ -7,8 +7,8 @@ section: 4
 section_title: Homotopie et revêtements
 lang: fr
 source: ta-i-iv-fr
-book_pages: A III.300-A III.307
-pdf_pages: 0316-0323
+book_pages: A III.300-A III.307, A III.334
+pdf_pages: 0316-0323, 0350-0350
 extraction: native
 subsections:
     - "no": 1
@@ -28,8 +28,8 @@ subsections:
       page: 305
       pdf_page: 321
 statements: 16
-exercises: 0
-content_sha256: d576df875de0ebc8ec4b380783bc3123ae15da3214221a74f3dddb4bcd305a21
+exercises: 1
+content_sha256: a4835c562bb735697c22647f5e61b6f4c0e2644f10f30d7f66520c829e285683
 ---
 
 ## § 4. HOMOTOPIE ET REVÊTEMENTS
@@ -233,3 +233,7 @@ x'\cdot \gamma =q(x\cdot \gamma , e) =q(x\cdot g^{-1}, e) =q(x, f(g)^{-1}) =q(x,
 $$
 
 ce qui démontre que $h_{(E',x')}(\gamma ) =f(g)$.
+
+## EXERCICES {#ta-iii-s4-exercises}
+
+See the [exercises for § 4](exercises/s4/).

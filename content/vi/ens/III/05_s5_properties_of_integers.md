@@ -46,11 +46,11 @@ subsections:
       pdf_page: 185
 statements: 30
 exercises: 18
-content_sha256: b51795f6a682e38bc4003611f271f641a1e74c916da18b46672abb47f636a238
+content_sha256: d876840a914b5792971e6ec89d724aca865ffca4eb1363ed2fdde8e7b92c8df1
 translated_from: content/en/ens/III/05_s5_properties_of_integers.md
 source_content_sha256: 539828b0c422fed3a1cc49cb93eb6b9243ff661d733b947ed2c4b6d11d68b451
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
-translation_run: translate-vi-ebf13ef0
+translation_run: translate-vi-786fc151
 glossary_version: 29
 glossary_terms_sha256: b38e6d2ba48454073ae09e72f9c985e28155d8d69c8d1f062ae11edf2f680c66
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
@@ -228,11 +228,11 @@ Các điều kiện đối với $q$ và $r$ là tương đương với $bq \leq
 
 #### Định nghĩa 1 {#ens-iii-s5-def-1 .statement tag=03M5}
 
-*Với ký hiệu của Định lý 1, r được gọi là số dư của phép chia a cho b. Nếu $r = 0$, ta nói rằng a là bội của b, hoặc a chia được cho b, hoặc b là ước của a, hoặc b chia hết a, hoặc b là nhân tử của a. Khi đó số q được gọi là thương của a cho b và được ký hiệu bởi $\dfrac{a}{b}$ hoặc $a/b$.*
+*Với ký hiệu của Định lý 1, r được gọi là số dư của phép chia a cho b. Nếu $r = 0$, ta nói rằng a là một bội của b, hoặc a chia được cho b, hoặc b là một ước của a, hoặc b chia a, hoặc b là một nhân tử của a. Khi đó số q được gọi là thương của a cho b và được ký hiệu bởi $\dfrac{a}{b}$ hoặc $a/b$.*
 
-Nếu $a$ không là bội của $b$, số $q$ được gọi là *phần nguyên của thương của a cho b* (xem *Tôpô đại cương*, chương IV, § 8, số 2).
+Nếu $a$ không phải là một bội của $b$, số $q$ được gọi là *phần nguyên của thương của a cho b* (xem *Tôpô đại cương*, Chương IV, § 8, số 2).
 
-*Trong chương này*, viết $a/b$ hoặc $\dfrac{a}{b}$ sẽ ngụ ý rằng $b$ chia hết $a$.
+*Trong chương này*, viết $a/b$ hoặc $\dfrac{a}{b}$ sẽ hàm ý rằng $b$ chia $a$.
 
 Các hệ thức $a = bq$ và $q = a/b$ là tương đương (nếu $b > 0$). Mọi bội $a'$ của một bội $a$ của $b$ đều là bội của $b$, và
 
@@ -337,9 +337,9 @@ Cho G là tập hợp các phép hoán vị của E và gọi P là tập hợp 
 
 Đặt $h = 2$, $p_1 = p$, $p_2 = n - p$ trong Mệnh đề 11.
 
-¶ Số các tập con chứa $p$ phần tử trong một tập hợp có $n$ phần tử (với $p \leqslant n$) được ký hiệu là $\begin{pmatrix} n \\ p \end{pmatrix}$ và được gọi là *hệ số nhị thức với các chỉ số n và p*. Từ quan hệ $\begin{pmatrix} n \\ p \end{pmatrix} = \dfrac{n!}{p!(n-p)!}$ suy ra ngay lập tức rằng $\begin{pmatrix} n \\ p \end{pmatrix} = \begin{pmatrix} n \\ n-p \end{pmatrix}$.
+¶ Số các tập con chứa $p$ phần tử trong một tập hợp có $n$ phần tử (trong đó $p \leqslant n$) được ký hiệu bởi $\begin{pmatrix} n \\ p \end{pmatrix}$ và được gọi là *hệ số nhị thức với các chỉ số n và p*. Từ quan hệ $\begin{pmatrix} n \\ p \end{pmatrix} = \dfrac{n!}{p!(n-p)!}$ suy ra ngay lập tức rằng $\begin{pmatrix} n \\ p \end{pmatrix} = \begin{pmatrix} n \\ n-p \end{pmatrix}$.
 
-Điều này cũng là một hệ quả của sự kiện rằng, nếu E là một tập hợp có $n$ phần tử, $X \to E - X$ là một song ánh của tập hợp các tập con của E gồm $p$ phần tử lên tập hợp các tập con có $n - p$ phần tử.
+Điều này cũng là một hệ quả của sự kiện rằng, nếu E là một tập hợp có $n$ phần tử, $X \to E - X$ là một song ánh của tập hợp các tập con của E gồm $p$ phần tử lên tập hợp các tập con gồm $n - p$ phần tử.
 
 Ta đặt $\binom{n}{p} = 0$ đối với mỗi cặp số nguyên tự nhiên sao cho $p > n$. Với quy ước này, số tập con gồm $p$ phần tử trong một tập hợp gồm $n$ phần tử là $\binom{n}{p}$ với *mọi* số nguyên tự nhiên $p$.
 
@@ -387,7 +387,7 @@ Giá trị của $a_n$ được suy ra từ điều này bằng cách nhận th�
 
 $$\sum_{i=1}^{n} i = \frac{1}{2} n(n+1).$$
 
-Trong tập hợp A gồm các cặp có thứ tự của các số nguyên $(i, j)$ sao cho $1 \leqslant i \leqslant j \leqslant n$, ký hiệu $A_k$ là tập con các cặp $(i, k)$, trong đó $1 \leqslant i \leqslant k$ (với một số nguyên tùy ý $k \leqslant n$). Khi đó $A_k$ có $k$ phần tử. Nhưng $(A_k)_{1 \leqslant k \leqslant n}$ là một phân hoạch của A; do đó có kết quả.
+Trong tập hợp A gồm các cặp có thứ tự của các số nguyên $(i, j)$ sao cho $1 \leqslant i \leqslant j \leqslant n$, ký hiệu $A_k$ là tập con gồm các cặp $(i, k)$, trong đó $1 \leqslant i \leqslant k$ (đối với một số nguyên tùy ý $k \leqslant n$). Khi đó $A_k$ có $k$ phần tử. Nhưng $(A_k)_{1 \leqslant k \leqslant n}$ là một phân hoạch của A; do đó có kết quả.
 
 #### Mệnh đề 15 {#ens-iii-s5-prop-15 .statement tag=03RL}
 
@@ -403,8 +403,8 @@ $$A(h, n) = A(h, n-1) + B(h, n) = A(h, n-1) + A(h-1, n).$$
 
 Vì $A(0, 0) = 1 = \binom{0}{0}$, công thức $A(h, n) = \binom{n+h}{h}$ suy ra từ trên và từ Mệnh đề 13, bằng quy nạp theo $n + h$.
 
-\* Số các đơn thức $X_1^{\alpha_1} X_2^{\alpha_2} \ldots X_h^{\alpha_n}$ theo $h$ biến bất định có bậc tổng $\leqslant n$ hiển nhiên bằng số các ánh xạ $i \rightarrow \alpha_i$ của $[1, h]$ vào $[0, n]$ sao cho $\sum_{i=0}^{h} \alpha_i \leqslant n$, và do đó bằng $\binom{n+h}{h}$ theo Mệnh đề 15; số này cũng là số các đơn thức theo $h + 1$ biến bất định có bậc tổng $n$. \*
+\* Số các đơn thức $X_1^{\alpha_1} X_2^{\alpha_2} \ldots X_h^{\alpha_n}$ trong $h$ bất định với bậc tổng $\leqslant n$ hiển nhiên bằng số các ánh xạ $i \rightarrow \alpha_i$ của $[1, h]$ vào $[0, n]$ sao cho $\sum_{i=0}^{h} \alpha_i \leqslant n$, và do đó bằng $\binom{n+h}{h}$ theo Mệnh đề 15; số này cũng là số các đơn thức trong $h + 1$ bất định với bậc tổng $n$. \*
 
 ### Bài tập {#ens-iii-s5-exercises}
 
-Xem [các bài tập của § 5](exercises/s5/).
+Xem các [bài tập cho § 5](exercises/s5/).

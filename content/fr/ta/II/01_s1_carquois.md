@@ -7,8 +7,8 @@ section: 1
 section_title: Carquois
 lang: fr
 source: ta-i-iv-fr
-book_pages: A II.151-A II.155
-pdf_pages: 0167-0171
+book_pages: A II.151-A II.155, A II.215-A II.218
+pdf_pages: 0167-0171, 0231-0234
 extraction: native
 subsections:
     - "no": 1
@@ -36,8 +36,8 @@ subsections:
       page: 154
       pdf_page: 170
 statements: 2
-exercises: 0
-content_sha256: 2f8e74c2b62cbf2cebf0e13b84b57da7bbdd963bd760707be83512da724fd3ec
+exercises: 10
+content_sha256: b5945a675f9d2e07ca143e96570aaf025abe6517cdfc0254d8c5e11cc1620c22
 ---
 
 ## § 1. CARQUOIS
@@ -139,3 +139,7 @@ Soit $C = (S,F, o, t)$ un carquois. Considérons la relation d’équivalence $R
 Les classes d’équivalence de cette relation d’équivalence s’appellent les composantes connexes de C. On note $\pi_0(C)$ l’ensemble des composantes connexes de C. On dit enfin que C est connexe s’il a au plus une composante connexe.
 
 Soit $\varphi : C\rightarrow C'$ un morphisme de carquois. L’application Som($\varphi$ ) définit par passage aux quotients une application de $\pi_0(C)$ dans $\pi_0(C')$ qu’on notera $\pi_0(\varphi )$.
+
+## EXERCICES {#ta-ii-s1-exercises}
+
+See the [exercises for § 1](exercises/s1/).

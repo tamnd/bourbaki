@@ -7,8 +7,8 @@ section: 3
 section_title: Groupoïde de Poincaré
 lang: fr
 source: ta-i-iv-fr
-book_pages: A III.289-A III.300
-pdf_pages: 0305-0316
+book_pages: A III.289-A III.300, A III.334
+pdf_pages: 0305-0316, 0350-0350
 extraction: native
 subsections:
     - "no": 1
@@ -24,8 +24,8 @@ subsections:
       page: 299
       pdf_page: 315
 statements: 27
-exercises: 0
-content_sha256: 5a7cdbd2c571d6c2f3d26c449c1235840d01ccaa4350e98d28dde54a459561c1
+exercises: 2
+content_sha256: 7f6e95725b6bd44931cf0ad6c60fdb1ae0b277f4ca895550da3b0115d568d793
 ---
 
 ## § 3. GROUPOÏDE DE POINCARÉ
@@ -363,3 +363,7 @@ Soient $c$ et $c'$ deux lacets dans X en $x$. Si leurs classes d’homotopie str
 #### Scholie {#ta-iii-s3-n3-sch-1 .statement tag=01Z4}
 
 Soit X un espace topologique connexe par arcs et soit $x$ un point de X. La proposition 6 permet de définir une bijection canonique de l’ensemble des classes d’homotopie libre de lacets dans X sur l’ensemble des classes de conjugaison dans $\pi_1(X, x)$.
+
+## EXERCICES {#ta-iii-s3-exercises}
+
+See the [exercises for § 3](exercises/s3/).

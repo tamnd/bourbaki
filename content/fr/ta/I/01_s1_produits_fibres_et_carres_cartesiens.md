@@ -7,8 +7,8 @@ section: 1
 section_title: Produits fibrés et carrés cartésiens
 lang: fr
 source: ta-i-iv-fr
-book_pages: A I.1-A I.24
-pdf_pages: 0017-0040
+book_pages: A I.1-A I.24, A I.139
+pdf_pages: 0017-0040, 0155-0155
 extraction: native
 subsections:
     - "no": 1
@@ -56,8 +56,8 @@ subsections:
       page: 20
       pdf_page: 36
 statements: 44
-exercises: 0
-content_sha256: 440017051878cb3d38a4032e28c93bbb5358b45ecd69541111d94aacf0f9f213
+exercises: 2
+content_sha256: f7607b900f6d7a7d54112c51721b34753c2587caaddf4850576a54a796ba67ac
 ---
 
 ## § 1. PRODUITS FIBRÉS ET CARRÉS CARTÉSIENS
@@ -867,3 +867,7 @@ est un carré cartésien (exemples, I, p. 10 et p. 14). D’après le corollaire
 Supposons que chacune des applications $p_i,i\in I$, soit stricte. Si U est une partie ouverte de X et saturée pour la relation d’équivalence définie par $p$, l’ensemble $p_i(X_i\cap U)$ est ouvert dans $A_i$ et $p(U) =$ $\bigcup_{i\in I}p_i(X_i\cap U)$ est ouvert dans B. L’application $p$ est donc stricte.
 
 Supposons maintenant que chacune des applications $p_i,i\in I$, soit universellement stricte et montrons que l’application $p$ est universellement stricte. Soient C un espace topologique et $h: C\rightarrow B$ une application continue. Il s’agit de montrer que l’application pr$_1: X\times_BC\rightarrow C$ est stricte. L’espace C s’identifie à l’espace somme de la famille des $C_i=\overset{-1}{h}(A_i)$ et l’espace $X\times_BC$ s’identifie à l’espace somme de la famille des $X\times_BC_i= X_i\times_{A_i}C_i$. Comme $p_i$ est universellement stricte, l’application pr$_1: X_i\times_{A_i}C_i\rightarrow C_i$ est stricte. D’après ce qui précède, l’application pr$_1: X\times_BC\rightarrow C$ est stricte. Cela prouve que l’application $p$ est universellement stricte.
+
+## EXERCICES {#ta-i-s1-exercises}
+
+See the [exercises for § 1](exercises/s1/).

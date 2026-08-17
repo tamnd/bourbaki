@@ -7,8 +7,8 @@ section: 1
 section_title: Homotopies, homéotopies
 lang: fr
 source: ta-i-iv-fr
-book_pages: A III.229-A III.256
-pdf_pages: 0245-0272
+book_pages: A III.229-A III.256, A III.321-A III.330
+pdf_pages: 0245-0272, 0337-0346
 extraction: native
 subsections:
     - "no": 1
@@ -52,8 +52,8 @@ subsections:
       page: 253
       pdf_page: 269
 statements: 55
-exercises: 0
-content_sha256: 37b2c7cd5bfaa28e1b581f965f47720bf613ac211342286ac26e5a88bf490518
+exercises: 32
+content_sha256: 399e48bb1ca7aaf57b65d9494844a8269031a526df97cde2d52f3d02441dfafa
 ---
 
 ## § 1. HOMOTOPIES, HOMÉOTOPIES
@@ -731,3 +731,7 @@ Soit X un espace topologique et soit A un sous-espace de X ; notons $i$ l’inje
 Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une application continue. L’application canonique $\alpha '_f: X\times \mathbf{I}\rightarrow$ Côn$(f)$ est constante sur $X\times  \{0\}$ donc définit une application continue $\gamma_f: C(X)\rightarrow$ Côn$(f)$. La restriction à $C'(X)$ de l’application $\gamma_f$ est injective et stricte et définit par passage aux sous-espaces un homéomorphisme du cône ouvert $C'(X)$ sur le complémentaire de Y dans Côn$(f)$.
 
 Identifions la base du cône C(X) à l’espace X et notons $u$ l’application continue de $Y\cup_fC(X)$ dans Côn$(f)$ déduite des applications $\beta '_f: Y\rightarrow$ Côn$(f)$ et $\gamma_f: C(X)\rightarrow$ Côn$(f)$. Inversement, soit $v:$ Côn$(f)\rightarrow Y\cup_fC(X)$ l’unique application continue telle que $v\circ \alpha '_f$ soit l’application canonique de $X\times \mathbf{I}$ sur C(X) et $v\circ \beta '_f$ soit l’application canonique de Y sur $Y\cup_fC(X)$. Les applications $u$ et $v$ sont des homéomorphismes réciproques l’un de l’autre.
+
+## EXERCICES {#ta-iii-s1-exercises}
+
+See the [exercises for § 1](exercises/s1/).

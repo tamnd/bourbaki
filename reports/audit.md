@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 8 chapters, 90 sections, 878 exercises, 3252 extracted pages, 5049 tags, 4947 references, 1234 translated files, 31 solutions. Languages: en, fr, vi.
+Audited: 8 chapters, 90 sections, 878 exercises, 3253 extracted pages, 5252 tags, 4947 references, 1437 translated files, 32 solutions. Languages: en, fr, vi.
 
 ## Summary
 
@@ -17,12 +17,12 @@ Audited: 8 chapters, 90 sections, 878 exercises, 3252 extracted pages, 5049 tags
 | mathematics | 6 | 2 | 1 | M06 (1), M09 (95) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
-| translation | 11 | 3 | 1 | L06 (67), L08 (14), L15 (2) |
+| translation | 11 | 3 | 1 | L06 (67), L08 (12), L15 (2) |
 | solutions | 0 | 5 | 0 | X05 (3) |
 | publication | 0 | 1 | 0 | P04 (89) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 507 soft, over 61 rules that ran and 3 that could not.
+0 hard findings and 505 soft, over 61 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -177,17 +177,15 @@ Soft, translation.
 
 and 42 more, which `bourbaki audit -only L06` prints in full.
 
-## L08 no translation was written by a small model (14)
+## L08 no translation was written by a small model (12)
 
 Soft, translation.
 
 - `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/III/03_s3_equipotent_sets_cardinals.md:1` was translated by gpt-5.4, gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/05_s5_properties_of_integers.md:1` was translated by gpt-5-6, gpt-5.4, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` was translated by gpt-5-6-mini, gpt-5.4, gpt-5-6, nemotron-3-ultra-free, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` was translated by gpt-5-6, gpt-5-6-mini, gpt-5.4, nemotron-3-ultra-free, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s2/20.md:1` was translated by gpt-5.4, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/III/exercises/s4/06.md:1` was translated by gpt-5.4, gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/III/exercises/s4/07.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s4/07.md:1` was translated by gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s4/08.md:1` was translated by gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s5/05.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s5/06.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
@@ -200,5 +198,5 @@ Soft, translation.
 
 Soft, translation.
 
-- `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` was translated by gpt-5-6-mini, gpt-5.4, gpt-5-6, nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` was translated by gpt-5-6, gpt-5-6-mini, gpt-5.4, nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
 - `content/vi/ens/IV/historical_note.md:1` was translated by gpt-5.4, gpt-5-6-mini, laguna-s-2.1-free, hy3-free, nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again

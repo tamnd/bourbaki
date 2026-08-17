@@ -7,8 +7,8 @@ section: 3
 section_title: Faisceaux
 lang: fr
 source: ta-i-iv-fr
-book_pages: A I.42-A I.67
-pdf_pages: 0058-0083
+book_pages: A I.42-A I.67, A I.141-A I.145
+pdf_pages: 0058-0083, 0157-0161
 extraction: native
 subsections:
     - "no": 1
@@ -52,8 +52,8 @@ subsections:
       page: 66
       pdf_page: 82
 statements: 35
-exercises: 0
-content_sha256: 03bd61380b7a235a657a269549c5f7aaa6572d8529a5b483171e40583b5e1a1c
+exercises: 8
+content_sha256: 0e203adc3cc78163425865fb66884c00545efaf7452fc3643dcb5ba991e7f4d7
 ---
 
 ## § 3. FAISCEAUX
@@ -715,3 +715,7 @@ Par exemple, le faisceau sur B des applications à valeurs dans un groupe est na
 Soient A et B des espaces topologiques et soit $u: A\rightarrow B$ une application continue. Si $\mathscr{F}$ est un (pré)faisceau sur A à valeurs dans l’espèce de structure Σ, il en est de même du (pré)faisceau $u_*(\mathscr{F})$ image directe du (pré)faisceau $\mathscr{F}$ par $u$.
 
 Supposons de plus que l’espèce de structure Σ soit celle des groupes, des groupes abéliens, des $k$-modules, des anneaux ou des $k$-algèbres. Si $\mathscr{G}$ est un (pré)faisceau sur B à valeurs dans l’espèce de structure Σ, alors le faisceau $u^*\mathscr{G}$ sur A, image réciproque du préfaisceau $\mathscr{G}$ par l’application $u$, est muni d’une structure de faisceau à valeurs dans Σ. Dans ce cas, les morphismes d’adjonction $\alpha$ et $\beta$ sont des morphismes de préfaisceaux à valeurs dans l’espèce de structure Σ. En particulier, si $\varphi :\mathscr{G}\rightarrow u_*\mathscr{F}$ est un morphisme de préfaisceaux à valeurs dans Σ, il en est de même du morphisme $\varphi^{\sharp}$; si $\psi :u^*(\mathscr{G})\rightarrow \mathscr{F}$ est un morphisme de préfaisceaux à valeurs dans Σ, il en est de même du morphisme $\psi^{\flat}$.
+
+## EXERCICES {#ta-i-s3-exercises}
+
+See the [exercises for § 3](exercises/s3/).
