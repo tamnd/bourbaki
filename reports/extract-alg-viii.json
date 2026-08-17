@@ -8,7 +8,7 @@
     "diagram": 29,
     "dropped-glyph": 7,
     "empty": 11,
-    "stacked-matrix": 7,
+    "stacked-matrix": 6,
     "stacked-rows": 4,
     "tall-delimiter": 9
   },
@@ -388,8 +388,7 @@
       "pdf_page": 471,
       "page_label": "A VIII.454",
       "flags": [
-        "dropped-glyph",
-        "stacked-matrix"
+        "dropped-glyph"
       ]
     },
     {
