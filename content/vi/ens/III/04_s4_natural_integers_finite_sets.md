@@ -34,55 +34,55 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: 20f5f27eeed44d4055d7062a1bac1b97751d6c7d8a824548793c22560de7c96e
+content_sha256: c8023c57604e2fdb0a3fc202eabd01afd40a23eab6fb7297cfedb39c9588a207
 translated_from: content/en/ens/III/04_s4_natural_integers_finite_sets.md
-source_content_sha256: 639aea14b68cb00b9aa94c3219d8c3f40cd1c9cfb9b67a4ac2c93aa6ba48ce99
-translation_model: gpt-5.4, gpt-5.4-mini
-translation_run: translate-vi-99f70c1a
-glossary_version: 27
+source_content_sha256: a6f2479eb99b8adca6c4e3e15057c1b81700e121b4ca8926b4c22732686f3d98
+translation_model: gpt-5-6, gpt-5.4
+translation_run: translate-vi-ebf13ef0
+glossary_version: 29
 glossary_terms_sha256: 5aa0d707f033e6cae3aa046c7b7600f4a480387eb9ac590dfec826249dcda422
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## 4. SỐ NGUYÊN TỰ NHIÊN. TẬP HỢP HỮU HẠN
+## 4. SỐ NGUYÊN TỰ NHIÊN. TẬP HỮU HẠN
 
 ### 1. ĐỊNH NGHĨA CÁC SỐ NGUYÊN
 
 #### Định nghĩa 1 {#ens-iii-s4-def-1 .statement tag=03R9}
 
-*Một lực lượng $\alpha$ được gọi là hữu hạn nếu $\alpha \ne \alpha + 1$. Một lực lượng hữu hạn cũng được gọi là một số nguyên tự nhiên (hoặc đơn giản là một* số nguyên *nếu không có nguy cơ nhầm lẫn (*)[^1]). Một tập hợp E được gọi là hữu hạn nếu Card (E) là một lực lượng hữu hạn; và khi đó Card (E) được gọi là số phần tử của E.*
+*Một lực lượng $\alpha$ được gọi là hữu hạn nếu $\alpha \ne \alpha + 1$. Một lực lượng hữu hạn còn được gọi là số nguyên tự nhiên (hoặc đơn giản là số nguyên nếu không có nguy cơ nhầm lẫn [^1]). Một tập hợp $E$ được gọi là hữu hạn nếu $\operatorname{Card}(E)$ là một lực lượng hữu hạn; và khi đó $\operatorname{Card}(E)$ được gọi là số phần tử của $E$.*
 
-*Một họ (Chương II, § 3, no. 4) được gọi là hữu hạn nếu tập hợp chỉ số của nó là hữu hạn.*
+Một họ (Chương II, § 3, no. 4) được gọi là *hữu hạn* nếu tập hợp chỉ số của nó là hữu hạn.
 
-*Khi ta nói rằng số các đối tượng của một kiểu nào đó là một số nguyên $m$, thì điều đó có nghĩa là các đối tượng ấy là các phần tử của một tập hợp hữu hạn có số phần tử là $m$. Một tập hợp có số phần tử là $m$ cũng được gọi là một tập hợp gồm $m$ phần tử.*
+*Khi ta nói rằng số các đối tượng thuộc một kiểu nào đó là một số nguyên $m$, ta có nghĩa rằng các đối tượng này là các phần tử của một tập hợp hữu hạn có số phần tử là $m$. Một tập hợp có số phần tử là $m$ cũng được gọi là một tập hợp gồm $m$ phần tử.*
 
 #### Mệnh đề 1 {#ens-iii-s4-prop-1 .statement tag=03RA}
 
 *Một lực lượng $\alpha$ là hữu hạn khi và chỉ khi $\alpha + 1$ là hữu hạn.*
 
-Thật vậy, các quan hệ $\alpha = \beta$ và $\alpha + 1 = \beta + 1$ giữa các lực lượng $\alpha$ và $\beta$ là tương đương (§ 3, no. 4, Mệnh đề 8); do đó các quan hệ $\alpha \ne \alpha + 1$ và $\alpha + 1 \ne (\alpha + 1) + 1$ là tương đương.
+Các quan hệ $\alpha = \mathfrak{b}$ và $\alpha + 1 = \mathfrak{b} + 1$ giữa các lực lượng $\alpha$ và $\mathfrak{b}$ là tương đương (§ 3, no. 4, Mệnh đề 8); do đó, các quan hệ $\alpha \ne \alpha + 1$ và $\alpha + 1 \ne (\alpha + 1) + 1$ là tương đương.
 
-Hiển nhiên là $0 \ne 1$; do đó $0$ là một số nguyên. Suy ra $1$ và $2$ là các số nguyên. Hai số đếm $2 + 1$ và $(2 + 1) + 1$ là các số nguyên, được ký hiệu lần lượt là $3$ và $4$.
+¶ Hiển nhiên $0 \ne 1$; do đó $0$ là một số nguyên. Suy ra $1$ và $2$ là các số nguyên. Các lực lượng $2 + 1$ và $(2 + 1) + 1$ là các số nguyên, lần lượt được ký hiệu là $3$ và $4$.
 
-### 2. BẤT ĐẲNG THỨC GIỮA CÁC SỐ NGUYÊN
+### 2. CÁC BẤT ĐẲNG THỨC GIỮA CÁC SỐ NGUYÊN
 
 #### Mệnh đề 2 {#ens-iii-s4-prop-2 .statement tag=03RB}
 
-*Cho $n$ là một số nguyên. Khi đó mọi lực lượng $\alpha$ sao cho $\alpha \leq n$ đều là một số nguyên. Nếu $n \ne 0$, tồn tại một số nguyên duy nhất $m$ sao cho $n = m + 1$, và quan hệ $\alpha < n$ tương đương với $\alpha \leq m$.*
+*Cho $n$ là một số nguyên. Khi đó mọi lực lượng $\alpha$ sao cho $\alpha \le n$ đều là một số nguyên. Nếu $n \ne 0$, tồn tại duy nhất một số nguyên $m$ sao cho $n = m + 1$, và quan hệ $\alpha < n$ tương đương với $\alpha \le m$.*
 
-Nếu $\alpha \leq n$, tồn tại một lực lượng $\beta$ sao cho $n = \alpha + \beta$ (§ 3, no. 6, Mệnh đề 13). Khi đó $(\alpha + 1) + \beta = (\alpha + \beta) + 1 = n + 1$ (§ 3, no. 3, Mệnh đề 5, Hệ quả); và vì $n \ne n + 1$, ta có
+Nếu $\alpha \le n$, tồn tại một lực lượng $\mathfrak{b}$ sao cho $n = \alpha + \mathfrak{b}$ (§ 3, no. 6, Mệnh đề 13). Khi đó $(\alpha + 1) + \mathfrak{b} = (\alpha + \mathfrak{b}) + 1 = n + 1$ (§ 3, no. 3, Mệnh đề 5, Hệ quả); và vì $n \ne n + 1$, ta có
 
 $$
-(\alpha + 1) + \beta \ne \alpha + \beta.
+(\alpha + 1) + \mathfrak{b} \ne \alpha + \mathfrak{b}.
 $$
 
-Do đó $\alpha + 1 \ne \alpha$, điều đó có nghĩa là $\alpha$ là một số nguyên. Nếu $n \ne 0$, ta có $n \geq 1$ (§ 3, no. 2), và do đó tồn tại một lực lượng duy nhất $m$ sao cho
+Do đó $\alpha + 1 \ne \alpha$, điều này có nghĩa là $\alpha$ là một số nguyên. Nếu $n \ne 0$, ta có $n \ge 1$ (§ 3, no. 2), và do đó tồn tại một lực lượng duy nhất $m$ such
 
-suy ra $n = m + 1$ (§ 3, no. 6, Mệnh đề 13 và no. 4, Mệnh đề 8). Vì $m \leqslant n$, nên $m$ là một số nguyên, theo điều đã được chứng minh. Cuối cùng, nếu $a$ là một số nguyên sao cho $a < n$, ta có $n = a + b$, với $b \neq 0$ (§ 3, no. 6, Mệnh đề 13); vì $b$ là một số nguyên, ta có $b = c + 1$ và $n = m + 1 = (a + c) + 1$. Suy ra $m = a + c$ (§ 3, no. 4, Mệnh đề 8), do đó $a \leqslant m$. Ngược lại, nếu $a \leqslant m$, ta có
+rằng $n = m + 1$ (§ 3, no. 6, Mệnh đề 13 và no. 4, Mệnh đề 8). Vì $m \leqslant n$, nên $m$ là một số nguyên, theo điều đã chứng minh. Cuối cùng, nếu một số nguyên $a$ sao cho $a < n$, thì ta có $n = a + b$, với $b \neq 0$ (§ 3, no. 6, Mệnh đề 13); vì $b$ là một số nguyên, nên ta có $b = c + 1$ và $n = m + 1 = (a + c) + 1$. Suy ra $m = a + c$ (§ 3, no. 4, Mệnh đề 8), do đó $a \leqslant m$. Ngược lại, nếu $a \leqslant m$, thì ta có
 
 $$a \leqslant m + 1 = n;$$
 
-và nếu $a = n = m + 1$, thì ta sẽ có $a > m$, trái với giả thiết.
+và nếu $a = n = m + 1$, ta sẽ có $a > m$, trái với giả thiết.
 
 #### Hệ quả 1 {#ens-iii-s4-prop-2-cor-1 .statement tag=03RC}
 
@@ -94,7 +94,7 @@ và nếu $a = n = m + 1$, thì ta sẽ có $a > m$, trái với giả thiết.
 
 $$\mathrm{Card}\ (\mathrm{X})\ <\ \mathrm{Card}\ (\mathrm{E}).$$
 
-Vì X được chứa trong phần bù X$'$ của một tập con của E gồm một phần tử duy nhất; ta có $\mathrm{Card}\,(\mathrm{X}) \leqslant \mathrm{Card}\,(\mathrm{X}')$ và $\mathrm{Card}\,(\mathrm{E}) = \mathrm{Card}\,(\mathrm{X}') + 1$, suy ra (Mệnh đề 2) $\mathrm{Card}\,(\mathrm{X}') < \mathrm{Card}\,(\mathrm{E})$ và *a fortiori* $\mathrm{Card}\,(\mathrm{X}) < \mathrm{Card}\,(\mathrm{E})$.
+Thật vậy, X được chứa trong phần bù X$'$ của một tập con của E gồm một phần tử duy nhất; ta có $\mathrm{Card}\,(\mathrm{X}) \leqslant \mathrm{Card}\,(\mathrm{X}')$ và $\mathrm{Card}\,(\mathrm{E}) = \mathrm{Card}\,(\mathrm{X}') + 1$, do đó (Mệnh đề 2) $\mathrm{Card}\,(\mathrm{X}') < \mathrm{Card}\,(\mathrm{E})$ và *a fortiori* $\mathrm{Card}\,(\mathrm{X}) < \mathrm{Card}\,(\mathrm{E})$.
 
 Định nghĩa 1 cho thấy rằng, ngược lại, nếu E là một tập hợp sao cho
 
@@ -104,13 +104,13 @@ $$\mathrm{Card}\ (\mathrm{X}) < \mathrm{Card}\ (\mathrm{E})$$
 
 #### Hệ quả 3 {#ens-iii-s4-prop-2-cor-3 .statement tag=03RE}
 
-*Nếu* $f$ *là một ánh xạ từ một tập hợp hữu hạn* E *vào một tập hợp* F, *thì* $f(\mathrm{E})$ *là một tập con hữu hạn của* F.
+*Nếu* $f$ *là một ánh xạ của một tập hợp hữu hạn* E *vào một tập hợp* F, *thì* $f(\mathrm{E})$ *là một tập con hữu hạn của* F.
 
-Vì $\mathrm{Card}\ (f(\mathrm{E})) \leqslant \mathrm{Card}\ (\mathrm{E})$ (§ 3, số 2, Mệnh đề 3).
+Thật vậy $\mathrm{Card}\ (f(\mathrm{E})) \leqslant \mathrm{Card}\ (\mathrm{E})$ (§ 3, no. 2, Mệnh đề 3).
 
 #### Hệ quả 4 {#ens-iii-s4-prop-2-cor-4 .statement tag=03RF}
 
-*Cho* E *và* F *là hai tập hợp hữu hạn có cùng số phần tử, và cho* $f$ *là một ánh xạ từ* E *vào* F. *Khi đó các mệnh đề sau là tương đương :*
+*Cho* E *và* F *là hai tập hợp hữu hạn có cùng số phần tử, và cho* $f$ *là một ánh xạ của* E *vào* F. *Khi đó các mệnh đề sau là tương đương :*
 
 (a) $f$ *là một đơn ánh*;
 (b) $f$ *là một toàn ánh*;
@@ -134,7 +134,7 @@ Ta sẽ lập luận bằng phản chứng. Giả sử rằng quan hệ
 
 $$(\exists n)(n \text{ là một số nguyên và } (\text{không } R\{n\}))$$
 
-là đúng. Cho $q$ là một số nguyên sao cho "không $R\{q\}$" (phương pháp của hằng số phụ; xem Chương I, § 3, no. 3 và § 4, no. 1). Các số nguyên $n$ sao cho "$n \leqslant q$ và (không $R\{n\}$)" tạo thành một tập hợp được sắp tốt không rỗng (§ 3, no. 2, Chú ý), do đó có một phần tử nhỏ nhất là $s$. Nếu $s = 0$, thì "không $R\{0\}$", mâu thuẫn với giả thiết. Nếu $s > 0$, thì $s = s' + 1$, trong đó $s'$ là một số nguyên sao cho $s' < s$ (no. 2, Mệnh đề 2). Theo định nghĩa của $s$, ta có $R\{s'\}$, nhưng khi đó giả thiết suy ra rằng $R\{s\}$ là đúng, mâu thuẫn với định nghĩa của $s$.
+là đúng. Cho $q$ là một số nguyên sao cho "không phải $R\{q\}$" (phương pháp hằng số phụ; xem Chương I, § 3, no. 3 và § 4, no. 1). Các số nguyên $n$ sao cho "$n \leqslant q$ và (không phải $R\{n\}$)" tạo thành một tập hợp không rỗng được sắp tốt (§ 3, no. 2, Chú ý), do đó có một phần tử bé nhất $s$. Nếu $s = 0$, thì "không phải $R\{0\}$", trái với giả thiết. Nếu $s > 0$, thì $s = s' + 1$, trong đó $s'$ là một số nguyên sao cho $s' < s$ (no. 2, Mệnh đề 2). Theo định nghĩa của $s$, ta có $R\{s'\}$, nhưng khi đó giả thiết kéo theo rằng $R\{s\}$ là đúng, trái với định nghĩa của $s$.
 
 Để áp dụng nguyên lý quy nạp thì đặc biệt cần phải chứng minh quan hệ
 
@@ -170,11 +170,11 @@ là đúng. Khi đó quan hệ
 
 $$(\forall n)\ ((n \text{ là một số nguyên} \geqslant k) \Rightarrow R\{n\})$$
 
-là đúng ("*quy nạp bắt đầu từ k*"). Thật vậy, hãy cho $S\{n\}$ là quan hệ
+là đúng ("*quy nạp bắt đầu từ k*"). Thật vậy, cho $S\{n\}$ là quan hệ
 
 $$(n \geqslant k) \Rightarrow R\{n\}.$$
 
-Khi đó, bằng phương pháp xét các trường hợp, ta thấy rằng $S\{0\}$ là đúng. Mặt khác, dễ dàng kiểm tra được rằng quan hệ
+Khi đó bởi phương pháp phân trường hợp loại trừ, ta thấy rằng $S\{0\}$ là đúng. Mặt khác, dễ dàng kiểm tra được rằng quan hệ
 
 $$(n \text{ là một số nguyên và } S\{n\}) \Rightarrow S\{n + 1\}$$
 
@@ -232,30 +232,30 @@ Vì một tập hợp như vậy là quy nạp theo Hệ quả 1 (x. § 2, no. 4
 
 *Cho* E *là một tập hợp. Một tập hợp* $\mathfrak{S}$ *gồm các tập con của* E *được gọi là có đặc trưng hữu hạn nếu quan hệ* $\mathrm{X} \in \mathfrak{S}$ *tương đương với quan hệ "mọi tập con hữu hạn của* X *đều thuộc* $\mathfrak{S}$".
 
-Một tính chất $P\{X\}$ của một tập con $X$ của một tập hợp $E$ được gọi là *có đặc trưng hữu hạn* nếu tập hợp các tập con $X$ của $E$ sao cho $P\{X\}$ đúng là có đặc trưng hữu hạn.
+Một tính chất $P\{X\}$ của một tập con $X$ của một tập hợp $E$ được gọi là *có đặc trưng hữu hạn* nếu tập hợp các tập con $X$ của $E$ mà đối với chúng $P\{X\}$ là đúng có đặc trưng hữu hạn.
 
 *Ví dụ*
 
 #### Ví dụ 1 {#ens-iii-s4-n5-exa-1 .statement tag=03T9}
 
-Tập hợp các tập con có thứ tự toàn phần của một tập hợp có thứ tự $E$ là có đặc trưng hữu hạn. Thật vậy, một tập con $X$ của $E$ có thứ tự toàn phần khi và chỉ khi mọi tập con của $X$ gồm hai phần tử đều có thứ tự toàn phần.
+Tập hợp các tập con được sắp thứ tự toàn phần của một tập hợp có thứ tự $E$ có đặc trưng hữu hạn. Thật vậy, một tập con $X$ của $E$ được sắp thứ tự toàn phần khi và chỉ khi mọi tập con của $X$ gồm hai phần tử đều được sắp thứ tự toàn phần.
 
 #### Ví dụ 2 {#ens-iii-s4-n5-exa-2 .statement tag=03TA}
 
-Tập hợp tất cả các tập con tự do của một môđun là có đặc trưng hữu hạn. Điều tương tự đúng với tập hợp tất cả các tập con tự do đại số của một mở rộng của một trường.
+Tập hợp mọi tập con tự do của một môđun có đặc trưng hữu hạn. Điều đó cũng đúng với tập hợp mọi tập con tự do đại số của một mở rộng của một trường.
 
 #### Ví dụ 3 {#ens-iii-s4-n5-exa-3 .statement tag=03TB}
 
-Tập hợp các môđun con của một môđun $E$ không có đặc trưng hữu hạn, vì một tập con hữu hạn của một môđun con của $E$ không tất yếu là một môđun con của $E$. $_*$
+Tập hợp các môđun con của một môđun $E$ không có đặc trưng hữu hạn, bởi vì một tập con hữu hạn của một môđun con của $E$ không tất yếu là một môđun con của $E$. $_*$
 
 #### Định lý 1 {#ens-iii-s4-thm-1 .statement tag=03LD}
 
-*Mọi tập hợp $\mathfrak{S}$ các tập con của một tập hợp $E$ mà có đặc trưng hữu hạn đều có một phần tử cực đại (khi được sắp theo bao hàm).*
+*Mọi tập hợp $\mathfrak{S}$ các tập con của một tập hợp $E$ có đặc trưng hữu hạn đều có một phần tử cực đại (khi được sắp thứ tự bởi quan hệ bao hàm).*
 
-Theo Định lý 2 của § 2, no. 4 thì chỉ cần chứng minh rằng $\mathfrak{S}$ là quy nạp. Để làm điều đó, ta sẽ chứng minh rằng nếu $\mathfrak{G}$ là bất kỳ tập con nào của $\mathfrak{S}$ được sắp thứ tự toàn phần theo bao hàm, thì hợp $X$ của các tập hợp thuộc $\mathfrak{G}$ thuộc $\mathfrak{S}$ (§ 2, no. 4, Định lý 2, Hệ quả 2). Vì $\mathfrak{S}$ có đặc trưng hữu hạn, chỉ cần chứng minh rằng mọi tập con hữu hạn $Y$ của $X$ đều thuộc $\mathfrak{S}$. Bây giờ, với mỗi $y \in Y$, tồn tại một tập hợp $Z_y \in \mathfrak{G}$ sao cho $y \in Z_y$. Vì tập hợp các tập hợp $Z_y$ $(y \in Y)$ là hữu hạn và được sắp thứ tự toàn phần theo bao hàm, nó có một phần tử lớn nhất $S$ (no. 4, Hệ quả 1 của Mệnh đề 3); nói cách khác, tồn tại một tập hợp $S \in \mathfrak{G}$ sao cho $Y \subset S$. Nhưng vì $S \in \mathfrak{S}$ và vì $Y$ là một tập con hữu hạn của $S$, nên $Y \in \mathfrak{S}$ vì $\mathfrak{S}$ có đặc trưng hữu hạn; điều này hoàn thành chứng minh.
+Theo Định lý 2 của § 2, no. 4, chỉ cần chứng minh rằng $\mathfrak{S}$ là quy nạp. Để làm điều đó, ta sẽ chứng minh rằng nếu $\mathfrak{G}$ là một tập con bất kỳ của $\mathfrak{S}$ được sắp thứ tự toàn phần theo bao hàm, thì hợp $X$ của các tập hợp thuộc $\mathfrak{G}$ thuộc $\mathfrak{S}$ (§ 2, no. 4, Định lý 2, Hệ quả 2). Vì $\mathfrak{S}$ có đặc trưng hữu hạn, chỉ cần chứng minh rằng mọi tập con hữu hạn $Y$ của $X$ đều thuộc $\mathfrak{S}$. Bây giờ, với mỗi $y \in Y$, tồn tại một tập hợp $Z_y \in \mathfrak{G}$ sao cho $y \in Z_y$. Vì tập hợp các tập hợp $Z_y$ $(y \in Y)$ là hữu hạn và được sắp thứ tự toàn phần theo bao hàm, nên nó có một phần tử lớn nhất $S$ (no. 4, Hệ quả 1 của Mệnh đề 3); nói cách khác, tồn tại một tập hợp $S \in \mathfrak{G}$ sao cho $Y \subset S$. Nhưng vì $S \in \mathfrak{S}$ và vì $Y$ là một tập con hữu hạn của $S$, nên ta có $Y \in \mathfrak{S}$ do $\mathfrak{S}$ có đặc trưng hữu hạn; điều này hoàn tất chứng minh.
 
 ### Bài tập {#ens-iii-s4-exercises}
 
-Xem [các bài tập cho § 4](exercises/s4/).
+Xem [các bài tập của § 4](exercises/s4/).
 
-[^1]: (*) Khái niệm “số nguyên” sẽ được khái quát hóa sau này, trong Đại số, nơi ta sẽ định nghĩa các *số nguyên hữu tỉ* và các *số nguyên đại số*.
+[^1]: Khái niệm “số nguyên” sẽ được tổng quát hóa sau này, trong Đại số, nơi ta sẽ định nghĩa *các số nguyên hữu tỉ* và *các số nguyên đại số*.

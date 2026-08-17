@@ -6,23 +6,23 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 8 chapters, 90 sections, 878 exercises, 3252 extracted pages, 5049 tags, 4903 references, 1209 translated files, 27 solutions. Languages: en, fr, vi.
+Audited: 8 chapters, 90 sections, 878 exercises, 3252 extracted pages, 5049 tags, 4947 references, 1234 translated files, 31 solutions. Languages: en, fr, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
-| tags | 7 | 1 | 1 | T10 (222) |
+| tags | 7 | 1 | 1 | T10 (236) |
 | mathematics | 6 | 2 | 1 | M06 (1), M09 (95) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
-| translation | 10 | 2 | 1 | L06 (56), L08 (122) |
-| solutions | 0 | 5 | 0 | X05 (2) |
+| translation | 11 | 3 | 1 | L06 (67), L08 (14), L15 (2) |
+| solutions | 0 | 5 | 0 | X05 (3) |
 | publication | 0 | 1 | 0 | P04 (89) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 587 soft, over 59 rules that ran and 3 that could not.
+0 hard findings and 507 soft, over 61 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -105,14 +105,15 @@ Soft, publication.
 
 and 64 more, which `bourbaki audit -only P04` prints in full.
 
-## X05 a solution writes its mathematics in TeX (2)
+## X05 a solution writes its mathematics in TeX (3)
 
 Soft, solutions.
 
 - `content/solutions/en/ens/III/s1/01.md:15` 31 characters of mathematics stand outside any math span, as ⇒∈∧≠≤, so the solution was written in symbols rather than in TeX
 - `content/solutions/en/ens/III/s2/01.md:17` 181 characters of mathematics stand outside any math span, as ΓΣφ→⇔∀∈∉∏≠≤⊂⊃⋂⋃, so the solution was written in symbols rather than in TeX
+- `content/solutions/en/ens/IV/s1/01.md:53` 90 characters of mathematics stand outside any math span, as τϬϭϰϲ≠≤≥, so the solution was written in symbols rather than in TeX
 
-## T10 the tags of a file climb, as they did on the run that assigned them (222)
+## T10 the tags of a file climb, as they did on the run that assigned them (236)
 
 Soft, tags.
 
@@ -142,68 +143,62 @@ Soft, tags.
 - `content/en/alg/VIII/08_s8_semisimple_rings.md:66` has 0093 after 00S4, which was assigned later
 - `content/en/alg/VIII/08_s8_semisimple_rings.md:398` has 009T after 00R8, which was assigned later
 
-and 197 more, which `bourbaki audit -only T10` prints in full.
+and 211 more, which `bourbaki audit -only T10` prints in full.
 
-## L06 the glossary is followed (56)
+## L06 the glossary is followed (67)
 
 Soft, translation.
 
 - `content/vi/alg/VIII/00_frontmatter.md:1` the English mentions 38 glossary terms and 2 are not in this file as the glossary writes them: module structure (cấu trúc môđun), l-algebra (đại số trên L)
 - `content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md:1` the English mentions 58 glossary terms and 2 are not in this file as the glossary writes them: Hilbert’s Nullstellensatz (Định lý không điểm của Hilbert), set (tập hợp)
 - `content/vi/ens/00_introduction.md:1` the English mentions 98 glossary terms and 6 are not in this file as the glossary writes them: analysis (giải tích), division (phép chia), nothing (không có gì), extent (ngoại diên), proved (đã chứng minh), weight (trọng số)
-- `content/vi/ens/I/01_s1_terms_and_relations.md:1` the English mentions 83 glossary terms and 5 are not in this file as the glossary writes them: Signs and assemblies (Các dấu và các dãy ký hiệu), substitution (phép thế), division (phép chia), itself (chính nó), lower (thấp hơn)
-- `content/vi/ens/I/03_s3_logical_theories.md:1` the English mentions 60 glossary terms and 4 are not in this file as the glossary writes them: similar (đồng dạng), proved (đã chứng minh), reason (lý do), order (thứ tự)
-- `content/vi/ens/I/05_s5_equalitarian_theories.md:1` the English mentions 49 glossary terms and 1 are not in this file as the glossary writes them: precisely (chính xác)
-- `content/vi/ens/I/A_a_characterization_of_terms_and_relations.md:1` the English mentions 86 glossary terms and 4 are not in this file as the glossary writes them: empty set (tập rỗng), remark (chú ý), series (chuỗi), left (trái)
+- `content/vi/ens/I/01_s1_terms_and_relations.md:1` the English mentions 83 glossary terms and 4 are not in this file as the glossary writes them: substitution (phép thế), defined (được định nghĩa), nothing (không có gì), lower (thấp hơn)
+- `content/vi/ens/I/02_s2_theorems.md:1` the English mentions 56 glossary terms and 3 are not in this file as the glossary writes them: defined (được định nghĩa), reason (lý do), line (dòng)
+- `content/vi/ens/I/03_s3_logical_theories.md:1` the English mentions 60 glossary terms and 3 are not in this file as the glossary writes them: reason (lý do), order (thứ tự), line (dòng)
+- `content/vi/ens/I/05_s5_equalitarian_theories.md:1` the English mentions 49 glossary terms and 3 are not in this file as the glossary writes them: example (ví dụ), similar (đồng dạng), proved (đã chứng minh)
+- `content/vi/ens/I/A_a_characterization_of_terms_and_relations.md:1` the English mentions 86 glossary terms and 3 are not in this file as the glossary writes them: empty set (tập rỗng), series (chuỗi), left (trái)
 - `content/vi/ens/I/exercises/a0/01.md:1` the English mentions 5 glossary terms and 1 are not in this file as the glossary writes them: segments (các đoạn)
 - `content/vi/ens/I/exercises/a0/03.md:1` the English mentions 22 glossary terms and 1 are not in this file as the glossary writes them: significant (đáng kể)
-- `content/vi/ens/I/exercises/s5/05.md:1` the English mentions 1 glossary terms and 1 are not in this file as the glossary writes them: functional (phiếm hàm)
-- `content/vi/ens/II/01_s1_collectivizing_relations.md:1` the English mentions 72 glossary terms and 4 are not in this file as the glossary writes them: necessarily (tất yếu), principle (nguyên lý), selection (phép chọn), addition (phép cộng)
-- `content/vi/ens/II/03_s3_correspondences.md:1` the English mentions 108 glossary terms and 5 are not in this file as the glossary writes them: Composition of two correspondences (hợp thành của hai tương ứng), mapping defined (ánh xạ được xác định), complete (đầy đủ), reason (lý do), series (chuỗi)
-- `content/vi/ens/II/05_s5_product_of_a_family_of_sets.md:1` the English mentions 103 glossary terms and 5 are not in this file as the glossary writes them: defined (được định nghĩa), proved (đã chứng minh), reason (lý do), point (điểm), form (dạng)
+- `content/vi/ens/I/exercises/s1/01.md:1` the English mentions 4 glossary terms and 1 are not in this file as the glossary writes them: assemblies (các dãy ký hiệu)
+- `content/vi/ens/II/01_s1_collectivizing_relations.md:1` the English mentions 72 glossary terms and 5 are not in this file as the glossary writes them: necessarily (tất yếu), principle (nguyên lý), selection (phép chọn), addition (phép cộng), proved (đã chứng minh)
+- `content/vi/ens/II/03_s3_correspondences.md:1` the English mentions 108 glossary terms and 2 are not in this file as the glossary writes them: mapping defined (ánh xạ được xác định), reason (lý do)
+- `content/vi/ens/II/04_s4_union_and_intersection_of_a_family_of.md:1` the English mentions 82 glossary terms and 2 are not in this file as the glossary writes them: empty set (tập rỗng), constant (hằng số)
+- `content/vi/ens/II/05_s5_product_of_a_family_of_sets.md:1` the English mentions 103 glossary terms and 3 are not in this file as the glossary writes them: proved (đã chứng minh), reason (lý do), form (dạng)
+- `content/vi/ens/II/06_s6_equivalence_relations.md:1` the English mentions 109 glossary terms and 2 are not in this file as the glossary writes them: constant (hằng số), proved (đã chứng minh)
 - `content/vi/ens/II/exercises/s6/01.md:1` the English mentions 4 glossary terms and 1 are not in this file as the glossary writes them: necessary (cần thiết)
 - `content/vi/ens/II/exercises/s6/07.md:1` the English mentions 11 glossary terms and 1 are not in this file as the glossary writes them: correspondence (sự tương ứng)
-- `content/vi/ens/III/01_s1_order_relations_ordered_sets.md:1` the English mentions 159 glossary terms and 7 are not in this file as the glossary writes them: The set of natural integers (Tập hợp các số tự nhiên), directed set (tập có hướng), addition (phép cộng), section (tiết diện), similar (đồng dạng), stated (đã phát biểu), lower (thấp hơn)
-- `content/vi/ens/III/02_s2_well_ordered_sets.md:1` the English mentions 117 glossary terms and 3 are not in this file as the glossary writes them: increasing mappings (các ánh xạ tăng), ordered subset (tập con sắp thứ tự), proved (đã chứng minh)
-- `content/vi/ens/III/03_s3_equipotent_sets_cardinals.md:1` the English mentions 98 glossary terms and 2 are not in this file as the glossary writes them: relation implies (quan hệ suy ra), possible (có thể)
-- `content/vi/ens/III/04_s4_natural_integers_finite_sets.md:1` the English mentions 86 glossary terms and 7 are not in this file as the glossary writes them: totally ordered set (tập sắp thứ tự toàn phần), empty set (tập rỗng), necessary (cần thiết), criteria (các tiêu chuẩn), similar (đồng dạng), proved (đã chứng minh), form (dạng)
-- `content/vi/ens/III/05_s5_properties_of_integers.md:1` the English mentions 127 glossary terms and 3 are not in this file as the glossary writes them: characteristic (đặc số), empty set (tập rỗng), proved (đã chứng minh)
-- `content/vi/ens/III/06_s6_infinite_sets.md:1` the English mentions 120 glossary terms and 6 are not in this file as the glossary writes them: The set of natural integers (Tập hợp các số tự nhiên), introduced (đưa vào), necessary (cần thiết), complete (đầy đủ), nothing (không có gì), stated (đã phát biểu)
-- `content/vi/ens/III/exercises/s1/02.md:1` the English mentions 28 glossary terms and 1 are not in this file as the glossary writes them: addition (phép cộng)
-- `content/vi/ens/III/exercises/s1/03.md:1` the English mentions 35 glossary terms and 2 are not in this file as the glossary writes them: canonically (một cách chính tắc), necessarily (tất yếu)
-- `content/vi/ens/III/exercises/s1/04.md:1` the English mentions 21 glossary terms and 1 are not in this file as the glossary writes them: example (ví dụ)
-- `content/vi/ens/III/exercises/s1/07.md:1` the English mentions 18 glossary terms and 2 are not in this file as the glossary writes them: necessary (cần thiết), constant (hằng số)
+- `content/vi/ens/III/01_s1_order_relations_ordered_sets.md:1` the English mentions 159 glossary terms and 6 are not in this file as the glossary writes them: The set of natural integers (Tập hợp các số tự nhiên), addition (phép cộng), section (tiết diện), similar (đồng dạng), stated (đã phát biểu), lower (thấp hơn)
+- `content/vi/ens/III/02_s2_well_ordered_sets.md:1` the English mentions 117 glossary terms and 4 are not in this file as the glossary writes them: increasing mappings (các ánh xạ tăng), ordered subset (tập con sắp thứ tự), complete (đầy đủ), proved (đã chứng minh)
+- `content/vi/ens/III/03_s3_equipotent_sets_cardinals.md:1` the English mentions 98 glossary terms and 3 are not in this file as the glossary writes them: relation implies (quan hệ suy ra), possible (có thể), reason (lý do)
+- `content/vi/ens/III/04_s4_natural_integers_finite_sets.md:1` the English mentions 86 glossary terms and 6 are not in this file as the glossary writes them: totally ordered set (tập sắp thứ tự toàn phần), empty set (tập rỗng), necessary (cần thiết), criteria (các tiêu chuẩn), similar (đồng dạng), form (dạng)
+- `content/vi/ens/III/05_s5_properties_of_integers.md:1` the English mentions 127 glossary terms and 5 are not in this file as the glossary writes them: characteristic (đặc số), empty set (tập rỗng), constant (hằng số), proved (đã chứng minh), series (chuỗi)
+- `content/vi/ens/III/06_s6_infinite_sets.md:1` the English mentions 120 glossary terms and 5 are not in this file as the glossary writes them: totally ordered set (tập sắp thứ tự toàn phần), introduce (giới thiệu), complete (đầy đủ), nothing (không có gì), stated (đã phát biểu)
+- `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` the English mentions 156 glossary terms and 4 are not in this file as the glossary writes them: double inverse (nghịch đảo kép), necessary (cần thiết), complete (đầy đủ), similar (đồng dạng)
 
-and 31 more, which `bourbaki audit -only L06` prints in full.
+and 42 more, which `bourbaki audit -only L06` prints in full.
 
-## L08 no translation was written by a small model (122)
+## L08 no translation was written by a small model (14)
 
 Soft, translation.
 
 - `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/00_frontmatter.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/01_s1_terms_and_relations.md:1` was translated by laguna-s-2.1-free, hy3-free, gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/02_s2_theorems.md:1` was translated by hy3-free, gpt-5-6, laguna-s-2.1-free, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/03_s3_logical_theories.md:1` was translated by gpt-5-6-mini, hy3-free, laguna-s-2.1-free, gpt-5-6, gpt-5.4, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/05_s5_equalitarian_theories.md:1` was translated by hy3-free, laguna-s-2.1-free, gpt-5-6, gpt-5.4-mini, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/A_a_characterization_of_terms_and_relations.md:1` was translated by hy3-free, gpt-5.4-mini, gpt-5-6, laguna-s-2.1-free, gpt-5-6-mini, gpt-5.4, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/exercises/a0/05.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/exercises/a0/06.md:1` was translated by hy3-free, gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/exercises/a0/07.md:1` was translated by gpt-5.4, gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/exercises/s1/06.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/exercises/s3/02.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/exercises/s5/01.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/I/exercises/s5/07.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/II/01_s1_collectivizing_relations.md:1` was translated by hy3-free, nemotron-3.5-lightning-free, laguna-s-2.1-free, gpt-5-6, nemotron-3-ultra-free, gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/II/02_s2_ordered_pairs.md:1` was translated by hy3-free, nemotron-3-ultra-free, gpt-5.4, gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/II/03_s3_correspondences.md:1` was translated by nemotron-3-ultra-free, gpt-5-6, nemotron-3.5-lightning-free, hy3-free, laguna-s-2.1-free, gpt-5.4-mini, gpt-5.4, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/II/05_s5_product_of_a_family_of_sets.md:1` was translated by gpt-5.4, gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/II/exercises/s1/03.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/II/exercises/s1/04.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/II/exercises/s1/05.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/II/exercises/s1/06.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/II/exercises/s2/01.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/II/exercises/s3/01.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/II/exercises/s3/02.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/03_s3_equipotent_sets_cardinals.md:1` was translated by gpt-5.4, gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/05_s5_properties_of_integers.md:1` was translated by gpt-5-6, gpt-5.4, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` was translated by gpt-5-6-mini, gpt-5.4, gpt-5-6, nemotron-3-ultra-free, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s2/20.md:1` was translated by gpt-5.4, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s4/06.md:1` was translated by gpt-5.4, gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s4/07.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s4/08.md:1` was translated by gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s5/05.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s5/06.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s5/07.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s7/02.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/historical_note.md:1` was translated by gpt-5.4, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/IV/historical_note.md:1` was translated by gpt-5.4, gpt-5-6-mini, laguna-s-2.1-free, hy3-free, nemotron-3-ultra-free, which is a cut down model, so the section is worth doing again
 
-and 97 more, which `bourbaki audit -only L08` prints in full.
+## L15 no translation was written on the free gateway (2)
+
+Soft, translation.
+
+- `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` was translated by gpt-5-6-mini, gpt-5.4, gpt-5-6, nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/ens/IV/historical_note.md:1` was translated by gpt-5.4, gpt-5-6-mini, laguna-s-2.1-free, hy3-free, nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again

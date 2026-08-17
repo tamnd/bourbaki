@@ -30,7 +30,7 @@ subsections:
       pdf_page: 28
 statements: 5
 exercises: 6
-content_sha256: bb554ed20fc7b3ab48f1b03434cd7587a6cfd49400a7649f457fd3f4a1a8215b
+content_sha256: f1edb54bf5badcc6a09214156341c4f9bad6948839b58b9a54ea7a9fd294886b
 ---
 
 ## 1. TERMS AND RELATIONS
@@ -228,23 +228,23 @@ CF5. If $A$ and $B$ are relations in a theory $\mathscr{T}$, then $\Longrightarr
 
 CF6. Let $A_1$, $A_2$, ..., $A_n$ be a formative construction in a theory $\mathscr{T}$, and let $x$ and $y$ be letters. Suppose that $y$ does not appear in any $A_i$. Then $(y|x) A_1$, $(y|x) A_2$, ..., $(y|x) A_n$ is a formative construction in $\mathscr{T}$.
 
-To prove CF6, let $A'_i$ be the assembly $(y|x)A_i$. If $A_i$ is a letter, then $A'_i$ is a letter. If $A_i$ is of the form $\neg A_j$, where $A_j$ is an assembly of the second species which precedes $A_i$ in the construction, then $A'_i$ is identical with $\neg A'_j$ by CS5, and $A'_j$ is an assembly of the second species. The reasoning is similar if $A_i$ is of the form $\vee A_jA_k$ or $sA_{j_1}A_{j_2}\ldots A_{j_m}$, $s$ being a specific sign of $\mathscr{T}$. If finally $A_i$ is of the form $\tau_z(A_j)$, where $A_j$ is an assembly of the second species which precedes $A_i$ in the construction, there are various cases to consider :
+To prove CF6, let $A_i'$ be the assembly $(y|x)A_i$. If $A_i$ is a letter, then $A_i'$ is a letter. If $A_i$ is of the form $\neg A_j$, where $A_j$ is an assembly of the second species which precedes $A_i$ in the construction, then $A_i'$ is identical with $\neg A_j'$ by CS5, and $A_j'$ is an assembly of the second species. The reasoning is similar if $A_i$ is of the form $\vee A_jA_k$ or $sA_{j_1}A_{j_2}\ldots A_{j_m}$, $s$ being a specific sign of $\mathscr{T}$. If finally $A_i$ is of the form $\tau_z(A_j)$, where $A_j$ is an assembly of the second species which precedes $A_i$ in the construction, there are various cases to consider:
 
-(a) $z$ is a letter distinct from $x$ and $y$. Then $A'_i$ is identical with $\tau_z(A'_j)$ by CS4, and $A'_j$ is an assembly of the second species.
+(a) $z$ is a letter distinct from $x$ and $y$. Then $A_i'$ is identical with $\tau_z(A_j')$ by CS4, and $A_j'$ is an assembly of the second species.
 
-(b) $z$ is identical with $x$. Then $A_i$ does not contain $x$, hence $A'_i$ is identical with $A_i$, that is to say with $\tau_x(A_j)$; since $y$ does not appear in $A_j$, $\tau_x(A_j)$ is identical with $\tau_y(A_j)$ by CS3.
+(b) $z$ is identical with $x$. Then $A_i$ does not contain $x$, hence $A_i'$ is identical with $A_i$, that is to say with $\tau_x(A_j)$; since $y$ does not appear in $A_j$, $\tau_x(A_j)$ is identical with $\tau_y(A_j)$ by CS3.
 
-(c) $z$ is identical with $y$. Then $A_i$ is the assembly $\tau A_j$, because $y$ does not appear in $A_j$; therefore $A'_i$ is the assembly $\tau A'_j$, that is $\tau_u(A'_j)$, where $u$ is a letter which does not appear in $A'_j$.
+(c) $z$ is identical with $y$. Then $A_i$ is the assembly $\tau A_j$, because $y$ does not appear in $A_j$; therefore $A_i'$ is the assembly $\tau A_j'$, that is $\tau_u(A_j')$, where $u$ is a letter which does not appear in $A_j'$.
 
-**CF7.** *Let $A$ be a relation (resp. a term) in a theory $\mathscr{T}$, and let $x$ and $y$ be letters. Then $(y|x)A$ is a relation (resp. a term) in $\mathscr{T}$.*
+CF7. *Let $A$ be a relation (resp. a term) in a theory $\mathscr{T}$, and let $x$ and $y$ be letters. Then $(y|x)A$ is a relation (resp. a term) in $\mathscr{T}$.*
 
-Let $A_1,A_2,\ldots,A_n$ be a formative construction in which $A$ appears. We shall show step by step that, if $A_i$ is a relation (resp. a term) then $(y|x)A_i$, which we shall denote by $A'_i$, is also a relation (resp. a term). Suppose that this point has been established for $A_1,A_2,\ldots,A_{i-1}$; let us prove it for $A_i$. If $A_i$ is a letter, then $A'_i$ is a letter. If $A_i$ is preceded in the construction by a relation $A_j$ such that $A_i$ is $\neg A_j$, then $A'_i$ is identical with $\neg A'_j$ by CS5, and $\neg A'_j$ is a relation by CF2. The argument is similar if $A_i$ is preceded by relations $A_j,A_k$ such that $A_i$ is $\vee A_jA_k$, or if $A_i$ is preceded by terms $A_{j_1},\ldots,A_{j_m}$ such that $A_i$ is $sA_{j_1}\ldots A_{j_m}$, where $s$ is a specific sign of $\mathscr{T}$ of weight $m$. Finally, if $A_i$ is preceded by a relation $A_j$ such that $A_i$ is $\tau_z(A_j)$, there are various cases to consider :
+Let $A_1,A_2,\ldots,A_n$ be a formative construction in which $A$ appears. We shall show step by step that, if $A_i$ is a relation (resp. a term) then $(y|x)A_i$, which we shall denote by $A_i'$, is also a relation (resp. a term). Suppose that this point has been established for $A_1,A_2,\ldots,A_{i-1}$; let us prove it for $A_i$. If $A_i$ is a letter, then $A_i'$ is a letter. If $A_i$ is preceded in the construction by a relation $A_j$ such that $A_i$ is $\neg A_j$, then $A_i'$ is identical with $\neg A_j'$ by CS5, and $\neg A_j'$ is a relation by CF2. The argument is similar if $A_i$ is preceded by relations $A_j,A_k$ such that $A_i$ is $\vee A_jA_k$, or if $A_i$ is preceded by terms $A_{j_1},\ldots,A_{j_m}$ such that $A_i$ is $sA_{j_1}\cdots A_{j_m}$, where $s$ is a specific sign of $\mathscr{T}$ of weight $m$. Finally, if $A_i$ is preceded by a relation $A_j$ such that $A_i$ is $\tau_z(A_j)$, there are various cases to consider:
 
-(a) $z$ is distinct from both $x$ and $y$. Then $A'_i$ is identical with $\tau_z(A'_j)$ by CS4, and we know already that $A'_j$ is a relation; hence $A_i$ is a term, by CF3.
+(a) $z$ is distinct from both $x$ and $y$. Then $A_i'$ is identical with $\tau_z(A_j')$ by CS4, and we know already that $A_j'$ is a relation; hence $A_i$ is a term, by CF3.
 
-(b) $z$ is identical with $x$. Then $A_i$ does not contain $x$, therefore $A'_i$ is identical with $A_i$, and consequently is a term.
+(b) $z$ is identical with $x$. Then $A_i$ does not contain $x$, therefore $A_i'$ is identical with $A_i$, and consequently is a term.
 
-(c) $z$ is identical with $y$. Then let $u$ be a letter, distinct from both $x$ and $y$, which does not appear in $A_1,A_2,\ldots,A_j$. By CF6, the sequence of assemblies $(u|y)A_1,\ldots,(u|y)A_j$, which we shall denote by $A''_1,\ldots,A''_j$, constitutes a formative construction in $\mathscr{T}$. Since $y$ no longer appears in this new construction, $(y|x)A''_1,\ldots,(y|x)A''_j$ is a formative construction by CF6, so that $(y|x)A''_j$ is a relation in $\mathscr{T}$; consequently $\tau_u((y|x)A''_j)$
+(c) $z$ is identical with $y$. Then let $u$ be a letter, distinct from both $x$ and $y$, which does not appear in $A_1,A_2,\ldots,A_j$. By CF6, the sequence of assemblies $(u|y)A_1,\ldots,(u|y)A_j$, which we shall denote by $A_1'',\ldots,A_j''$, constitutes a formative construction in $\mathscr{T}$. Since $y$ no longer appears in this new construction, $(y|x)A_1'',\ldots,(y|x)A_j''$ is a formative construction by CF6, so that $(y|x)A_j''$ is a relation in $\mathscr{T}$; consequently $\tau_u((y|x)A_j'')$
 
 is a term of $\mathscr{T}$. But this term is identical with $(y|x)\tau_u(A_j'')$ by CS4, hence with $(y|x)\tau_y(A_j)$ by CS3, hence is identical with $A_i$.
 

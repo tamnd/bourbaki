@@ -26,7 +26,7 @@ subsections:
       pdf_page: 291
 statements: 0
 exercises: 3
-content_sha256: c4af390c8c914b0b51319df2878c621998b9fe73bbc70a8f9d7d26d1ab9052d6
+content_sha256: 7fd3ffb3e738f589078a0c2c77d2d9195a8172d956b5078d1339b6d8d27f06fc
 ---
 
 ## 3. UNIVERSAL MAPPINGS
@@ -37,33 +37,33 @@ Let $\mathscr{T}$ be a theory which is stronger than the theory of sets, and let
 
 (QM$_{\mathrm{I}}$) *The relation $\alpha\{x,s\}\subset\mathscr{T}(E;x)$ is true in $\mathscr{T}_{\Sigma}$.*
 
-(QM$_{\mathrm{II}}$) *If (in a theory $\mathscr{T}^{\prime}$ which is stronger than $\mathscr{T}$) F and F$^{\prime}$ are two sets endowed with structures $\mathscr{G}$, $\mathscr{G}^{\prime}$ of species $\Sigma$, and if $f$ is a morphism of F into F$^{\prime}$, then the relation $\varphi\in\alpha\{F,\mathscr{G}\}$ implies $f\circ\varphi\in\alpha\{F^{\prime},\mathscr{G}^{\prime}\}$.*
+(QM$_{\mathrm{II}}$) *If (in a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$) F and F′ are two sets endowed with structures $\mathscr{G},\mathscr{G}'$ of species $\Sigma$, and if $f$ is a morphism of F into F′, then the relation $\varphi\in\alpha\{F,\mathscr{G}\}$ implies $f\circ\varphi\in\alpha\{F',\mathscr{G}'\}$.*
 
 We shall express the relation $\varphi\in\alpha\{x,s\}$ by saying that $\varphi$ is an $\alpha$-mapping of E into $x$ (endowed with $s$).
 
-A $\Sigma$-set $F_E$ and an $\alpha$-mapping $\varphi_E$ of E into $F_E$ are said to be universal if the following condition is satisfied :
+A $\Sigma$-set $F_E$ and an $\alpha$-mapping $\varphi_E$ of E into $F_E$ are said to be *universal* if the following condition is satisfied :
 
-(AU) *For each $\alpha$-mapping $\varphi$ of E into a $\Sigma$-set F there exists a unique morphism $f$ of $F_E$ into F such that $\varphi=f\circ\varphi_E$.*
+$(AU)$ *For each $\alpha$-mapping $\varphi$ of E into a $\Sigma$-set F there exists a unique morphism $f$ of $F_E$ into F such that $\varphi=f\circ\varphi_E$.*
 
 The pair $(F_E,\varphi_E)$ is then also said to be a *solution of the universal mapping problem* for E (relative to $\Sigma$, $\sigma$, and $\alpha$).
 
-¶ Let $(F'_E,\varphi'_E)$ and $(F''_E,\varphi''_E)$ be two solutions of the universal mapping problem for E. The condition (AU) shows then that there exists a unique morphism $f_1$ of $F'_E$ into $F''_E$ and a unique morphism $f_2$ of $F''_E$ into $F'_E$ such that $\varphi''_E=f_1\circ\varphi'_E$ and $\varphi'_E=f_2\circ\varphi''_E$. We have therefore $\varphi'_E=f_2\circ f_1\circ\varphi'_E$ and $\varphi''_E=f_1\circ f_2\circ\varphi''_E$. Applying (AU) to the case where $F=F'_E$ and $\varphi=\varphi'_E$, we find that $f_2\circ f_1$ is the identity mapping of $F'_E$ onto itself. Similarly, $f_1\circ f_2$ is the identity mapping of $F''_E$ onto itself. Consequently (§ 2, no. 1, criterion CST8) $f_1$ is an *isomorphism* of $F'_E$ onto $F''_E$, and $f_2$ is its inverse isomorphism. This result is expressed by saying that the solution of the universal mapping problem for E is *unique up to isomorphism.*
+¶ Let $(F'_E,\varphi'_E)$ and $(F''_E,\varphi''_E)$ be two solutions of the universal mapping problem for E. The condition $(AU)$ shows then that there exists a unique morphism $f_1$ of $F'_E$ into $F''_E$ and a unique morphism $f_2$ of $F''_E$ into $F'_E$ such that $\varphi''_E=f_1\circ\varphi'_E$ and $\varphi'_E=f_2\circ\varphi''_E$. We have therefore $\varphi''_E=f_2\circ f_1\circ\varphi'_E$ and $\varphi'_E=f_1\circ f_2\circ\varphi''_E$. Applying $(AU)$ to the case where $F=F'_E$ and $\varphi=\varphi'_E$, we find that $f_2\circ f_1$ is the identity mapping of $F'_E$ onto itself. Similarly, $f_1\circ f_2$ is the identity mapping of $F''_E$ onto itself. Consequently (§ 2, no. 1, criterion CST8) $f_1$ is an *isomorphism* of $F'_E$ onto $F''_E$, and $f_2$ is its inverse isomorphism. This result is expressed by saying that the solution of the universal mapping problem for E is *unique up to isomorphism*.
 
 To verify that a pair $(F_E,\varphi_E)$ is a solution of the universal mapping problem for E, it is often convenient to verify the following two conditions :
 
-(AU'$_{\mathrm I}$) *For every $\Sigma$-set F and every $\alpha$-mapping $\varphi$ of E into F, there exists a morphism $f$ of $F_E$ into F such that $\varphi=f\circ\varphi_E$.*
+$(AU'_{\mathrm I})$ *For every $\Sigma$-set F and every $\alpha$-mapping $\varphi$ of E into F, there exists a morphism $f$ of $F_E$ into F such that $\varphi=f\circ\varphi_E$.*
 
-(AU'$_{\mathrm{II}}$) *For every $\Sigma$-set F, two morphisms of $F_E$ into F which agree on $\varphi_E(E)$ are equal.*
+$(AU'_{\mathrm{II}})$ *For every $\Sigma$-set F, two morphisms of $F_E$ into F which agree on $\varphi_E(E)$ are equal.*
 
-For if these two conditions are satisfied, the morphism $f$ whose existence is ensured by (AU'$_{\mathrm I}$) is unique by (AU'$_{\mathrm{II}}$). Conversely, it is clear that (AU) implies (AU'$_{\mathrm I}$); furthermore, if $f$ and $f'$ are two morphisms of $F_E$ into F which agree on $\varphi_E(E)$, we have $f\circ\varphi_E=f'\circ\varphi_E$, whence $f=f'$ by applying (AU) to the $\alpha$-mapping $f\circ\varphi_E$. Hence (AU) implies (AU'$_{\mathrm{II}}$).
+For if these two conditions are satisfied, the morphism $f$ whose existence is ensured by $(AU'_{\mathrm I})$ is unique by $(AU'_{\mathrm{II}})$. Conversely, it is clear that $(AU)$ implies $(AU'_{\mathrm I})$; furthermore, if $f$ and $f'$ are two morphisms of $F_E$ into F which agree on $\varphi_E(E)$, we have $f\circ\varphi_E=f'\circ\varphi_E$, whence $f=f'$ by applying $(AU)$ to the $\alpha$-mapping $f\circ\varphi_E$. Hence $(AU)$ implies $(AU'_{\mathrm{II}})$.
 
 ### 2. EXISTENCE OF UNIVERSAL MAPPINGS
 
 A universal mapping problem does not necessarily have a solution (Exercise 1). However, we shall show that the following conditions imply the existence of a solution :
 
-(CU$_{\mathrm I}$) *On every product of a family of $\Sigma$-sets there exists a product structure of species $\Sigma$ (§ 2, no. 4).*
+$(CU_{\mathrm I})$ *On every product of a family of $\Sigma$-sets there exists a product structure of species $\Sigma$ (§ 2, no. 4).*
 
-(CU$_{\mathrm{II}}$) *Let $(F_i)_{i\in I}$ be a family of $\Sigma$-sets, and for each $i\in I$ let $\varphi_i$ be an $\alpha$-mapping of E into $F_i$. Then the mapping $(\varphi_i)_{i\in I}$ of E into $\prod_{i\in I}F_i$ (endowed with the product structure) is an $\alpha$-mapping.*
+$(CU_{\mathrm{II})}$ *Let $(F_i)_{i\in I}$ be a family of $\Sigma$-sets, and for each $i\in I$ let $\varphi_i$ be an $\alpha$-mapping of E into $F_i$. Then the mapping $(\varphi_i)_{i\in I}$ of E into $\prod_{i\in I}F_i$ (endowed with the product structure) is an $\alpha$-mapping.*
 
 A subset G of a $\Sigma$-set F will be said to be $\Sigma$-*admissible* if the structure on F induces a structure of species $\Sigma$ on G ($\S\,2$, no. 4).
 

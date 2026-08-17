@@ -24,5 +24,5 @@
 {"from":"03IA","from_label":"ens-ii-s4-prop-10","to":"03Q1","to_label":"ens-ii-s4-prop-8","kind":"cites","raw":"Proposition 8","form":"local","resolved_by":"in-section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":393},
 {"from":"03IA","from_label":"ens-ii-s4-prop-10","to":"03Q4","to_label":"ens-ii-s4-def-8","kind":"cites","raw":"Definition 8","form":"local","resolved_by":"in-section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":395},
 {"from":"03IA","from_label":"ens-ii-s4-prop-10","to":"03IA","to_label":"ens-ii-s4-prop-10","kind":"cites","raw":"Proposition 10","form":"local","resolved_by":"in-section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":397},
-{"from":"","from_label":"ens-ii-s4","to_label":"ens-ii-s4","kind":"cites","raw":"§4, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":403}
+{"from":"","from_label":"ens-ii-s4","kind":"cites","raw":"*Summary of Results*, §4, no. 2","form":"section","resolved_by":"out-of-corpus","book":"ER","file":"content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md","line":403}
 ]}

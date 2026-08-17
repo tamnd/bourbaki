@@ -38,7 +38,7 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: 65da6eb8d8759db6e65d9e867b0617a631d488f7be094032cffc5bb93cf130d7
+content_sha256: 845dbc1c55782e844864e013a4f025af3a86e8adc2f2ab053394718e2cac3395
 ---
 
 ## 2. WELL-ORDERED SETS
@@ -129,33 +129,33 @@ Let $\mathrm{G}_\alpha$ be the graph of the given ordering on $\mathrm{X}_\alpha
 
 #### Lemma 2 {#ens-iii-s2-lem-2 .statement tag=03K0}
 
-*Let E be a well-ordered set and let $\mathscr{S}$ be a set of segments of E with the following properties : (1) every union of segments belonging to $\mathscr{S}$ belongs to $\mathscr{S}$; (2) if $S_x\in\mathscr{S}$, then $S_x\cup\{x\}\in\mathscr{S}$. Then every segment of E belongs to $\mathscr{S}$.*
+Let $E$ be a well-ordered set and let $\mathscr{C}$ be a set of segments of $E$ with the following properties : (1) every union of segments belonging to $\mathscr{C}$ belongs to $\mathscr{C}$; (2) if $S_x\in\mathscr{C}$, then $S_x\cup\{x\}\in\mathscr{C}$. Then every segment of $E$ belongs to $\mathscr{C}$.
 
-Suppose that there are segments of E which do not belong to $\mathscr{S}$, and let S be the smallest of them (no. 1, Proposition 2). If S has no greatest element, then S is the union of the segments of S distinct from S itself, and these segments belong to $\mathscr{S}$ by virtue of the definition of S; hence S $\in\mathscr{S}$, which is absurd. If, on the other hand, S has a greatest element $a$, then $S=S_a\cup\{a\}$, and since $S_a$ is a segment of S distinct from S, we have $S_a\in\mathscr{S}$; but then also $S\in\mathscr{S}$, which again is absurd.
+Suppose that there are segments of $E$ which do not belong to $\mathscr{C}$, and let $S$ be the smallest of them (no. 1, Proposition 2). If $S$ has no greatest element, then $S$ is the union of the segments of $S$ distinct from $S$ itself, and these segments belong to $\mathscr{C}$ by virtue of the definition of $S$; hence $S\in\mathscr{C}$, which is absurd. If, on the other hand, $S$ has a greatest element $a$, then $S=S_a\cup\{a\}$, and since $S_a$ is a segment of $S$ distinct from $S$, we have $S_a\in\mathscr{C}$; but then also $S\in\mathscr{C}$, which again is absurd.
 
-¶ For greater convenience we shall place ourselves in a theory $\mathscr{T}$ in which E is a set *well-ordered* by a relation written $x\leq y$. We have then the following criteria :
+¶ For greater convenience we shall place ourselves in a theory $\mathscr{T}$ in which $E$ is a set *well-ordered* by a relation written $x\leq y$. We have then the following criteria :
 
-C59. (Principle of transfinite induction). *Let $\mathrm{R}\{x\}$ be a relation in $\mathscr{T}$ ($x$ not being a constant of $\mathscr{T}$) such that the relation*
+C59. (Principle of transfinite induction). *Let $R\{x\}$ be a relation in $\mathscr{T}$ ($x$ not being a constant of $\mathscr{T}$) such that the relation
 
 $$
-(x\in E\ \mathrm{and}\ (\forall y)((y\in E\ \mathrm{and}\ y<x)\Longrightarrow \mathrm{R}\{y\}))\Longrightarrow \mathrm{R}\{x\}
+(x\in E\text{ and }(\forall y)((y\in E\text{ and }y<x)\Rightarrow R\{y\}))\Rightarrow R\{x\}
 $$
 
-*is a theorem in $\mathscr{T}$. Under these conditions the relation $(x\in E)\Longrightarrow \mathrm{R}\{x\}$ is a theorem in $\mathscr{T}$.*
+is a theorem in $\mathscr{T}$. Under these conditions the relation $(x\in E)\Rightarrow R\{x\}$ is a theorem in $\mathscr{T}$.*
 
-Let $\mathscr{S}$ be the set of segments S of E such that $(y\in S)\Longrightarrow \mathrm{R}\{y\}$. It is clear that every union of segments belonging to $\mathscr{S}$ also belongs to $\mathscr{S}$. On the other hand, if $S_x\in\mathscr{S}$, we have $\mathrm{R}\{x\}$ by hypothesis; hence $(y\in S_x\cup\{y\})\Longrightarrow \mathrm{R}\{y\}$ by the method of disjunction of cases. Hence (Lemma 2) $E\in\mathscr{S}$, which proves the criterion.
+Let $\mathscr{C}$ be the set of segments $S$ of $E$ such that $(y\in S)\Rightarrow R\{y\}$. It is clear that every union of segments belonging to $\mathscr{C}$ also belongs to $\mathscr{C}$. On the other hand, if $S_x\in\mathscr{C}$, we have $R\{x\}$ by hypothesis; hence $(y\in S_x\cup\{y\})\Rightarrow R\{y\}$ by the method of disjunction of cases. Hence (Lemma 2) $E\in\mathscr{C}$, which proves the criterion.
 
 ¶ In the applications of C59, the relation
 
 $$
-x\in E\ \mathrm{and}\ (\forall y)((y\in E\ \mathrm{and}\ y<x)\Longrightarrow \mathrm{R}\{y\})
+x\in E\text{ and }(\forall y)((y\in E\text{ and }y<x)\Rightarrow R\{y\})
 $$
 
 is usually called the “inductive hypothesis”.
 
-¶ In what follows, for every mapping $g$ of a segment S of E into a set F, and for each $x\in S$ we shall denote by $g^{(x)}$ the mapping of the segment $S_x=]\leftarrow, x[$ of E onto $g(S_x)$ which coincides with $g$ on $S_x$. With this notation we have
+¶ In what follows, for every mapping $g$ of a segment $S$ of $E$ into a set $F$, and for each $x\in S$ we shall denote by $g^{(x)}$ the mapping of the segment $S_x=]\leftarrow,x[$ of $E$ onto $g(S_x)$ which coincides with $g$ on $S_x$. With this notation we have
 
-C60. (Definition of a mapping by transfinite induction.) *Let $u$ be a letter, $\mathscr{T}\{u\}$ a term in the theory $\mathscr{T}$. There exists a set U and a mapping $f$ of E onto U such that for all $x\in E$ we have $f(x)=\mathscr{T}\{f^{(x)}\}$. Furthermore, the set U and the mapping $f$ are uniquely determined by these conditions.*
+C60. (Definition of a mapping by transfinite induction.) *Let $u$ be a letter, $\mathrm{T}\{u\}$ a term in the theory $\mathscr{T}$. There exists a set $U$ and a mapping $f$ of $E$ onto $U$ such that for all $x\in E$ we have $f(x)=\mathrm{T}\{f^{(x)}\}$. Furthermore, the set $U$ and the mapping $f$ are uniquely determined by these conditions.*
 
 Let us first prove the uniqueness. Suppose that $f'$ and $\mathrm{U}'$ also satisfy the conditions of the criterion. Let $\mathfrak{S}$ be the set of segments S of E such that $f$ and $f'$ coincide on S. It is clear that every union of segments belonging to $\mathfrak{S}$ also belongs to $\mathfrak{S}$. On the other hand, if $\mathrm{S}_x \in \mathfrak{S}$, then $f$ and $f'$ agree on $\mathrm{S}_x$ and therefore $f^{(x)} = f'^{(x)}$; consequently
 
@@ -247,13 +247,13 @@ conditions of Lemma 3; in particular, M has no strict upper bound in E. Furtherm
 
 #### Corollary 1 {#ens-iii-s2-prop-4-cor-1 .statement tag=03K4}
 
-*Let E be an inductive ordered set and let $a$ be an element of E. Then there exists a maximal element $m$ of E such that $m\geq a$.*
+*Let E be an inductive ordered set and let a be an element of E. Then there exists a maximal element m of E such that $m\geq a$.*
 
 For it follows from Definition 3 that the set F of elements $x\geq a$ in E is inductive, and a maximal element of F is also maximal in E.
 
 #### Corollary 2 {#ens-iii-s2-prop-4-cor-2 .statement tag=03K5}
 
-*Let $\mathscr{F}$ be a set of subsets of a set E such that, for every subset $\mathscr{G}$ of $\mathscr{F}$ which is totally ordered by inclusion, the union (resp. intersection) of the sets of $\mathscr{G}$ belongs to $\mathscr{F}$; then $\mathscr{F}$ has a maximal (resp. minimal) element.*
+*Let $\mathfrak{F}$ be a set of subsets of a set E such that, for every subset $\mathfrak{G}$ of $\mathfrak{F}$ which is totally ordered by inclusion, the union (resp. intersection) of the sets of $\mathfrak{G}$ belongs to $\mathfrak{F}$; then $\mathfrak{F}$ has a maximal (resp. minimal) element.*
 
 ### 5. ISOMORPHISMS OF WELL-ORDERED SETS
 
@@ -265,21 +265,19 @@ For it follows from Definition 3 that the set F of elements $x\geq a$ in E is in
 
 (2) *there exists a unique isomorphism of F onto a segment of E.*
 
-Let $\mathscr{F}$ be the set of mappings of subsets of E into F such that each mapping is defined on a segment of E and is an isomorphism of this segment onto a segment of F. Then the set $\mathscr{F}$, ordered by the relation “$v$ extends $u$” between $u$ and $v$, is *inductive*. For if $\mathscr{G}$ is a totally ordered subset of $\mathscr{F}$, the union S of the domains of the mappings $u\in\mathscr{G}$ is a union of segments of E and is therefore itself a segment of E. If $v$ is the least upper bound of $\mathscr{G}$ in $\Phi(E,F)$ (no. 4, Example 2), then $v(S)$ is the union of the ranges of the mappings $u\in\mathscr{G}$ and is therefore a segment of F. Finally, for each pair of elements $x$, $y$ of S such that $x<y$ there exists $u\in\mathscr{G}$ whose domain contains both $x$ and $y$ (because $\mathscr{G}$ is totally ordered); and since $v(x)=u(x)<u(y)=v(y)$, $v$ is an isomorphism of S onto $v(S)$, and our assertion is proved.
+Let $\mathfrak{F}$ be the set of mappings of subsets of E into F such that each mapping is defined on a segment of E and is an isomorphism of this segment onto a segment of F. Then the set $\mathfrak{F}$, ordered by the relation “$v$ extends $u$” between $u$ and $v$, is inductive. For if $\mathfrak{G}$ is a totally ordered subset of $\mathfrak{F}$, the union S of the domains of the mappings $u\in\mathfrak{G}$ is a union of segments of E and is therefore itself a segment of E. If $v$ is the least upper bound of $\mathfrak{G}$ in $\Phi(E,F)$ (no. 4, Example 2), then $v(S)$ is the union of the ranges of the mappings $u\in\mathfrak{G}$ and is therefore a segment of F. Finally, for each pair of elements $x$, $y$ of S such that $x<y$ there exists $u\in\mathfrak{G}$ whose domain contains both $x$ and $y$ (because $\mathfrak{G}$ is totally ordered); and since $v(x)=u(x)<u(y)=v(y)$, $v$ is an isomorphism of S onto $v(S)$, and our assertion is proved.
 
-¶ Now let $u_0$ be a maximal element of $\mathfrak{S}$ (no. 4, Theorem 2) and let $S_0$ be the segment of E which is the domain of $u_0$. If we show that either $S_0=E$ or $u_0(S_0)=F$, the theorem will be proved. Let us argue by contradiction and suppose that $S_0\ne E$ and $u_0(S_0)\ne F$. There will then be an element $a\in E$ and an element $b\in F$ such that $S_0=]\leftarrow,a[$ and $u_0(S_0)=]\leftarrow,b[$ (no. 1, Proposition 1). Extend $u_0$ to a mapping $u_1$ of the segment $]\leftarrow,a]$ into F by putting $u_1(a)=b$; since $u_1$ is an isomorphism of $]\leftarrow,a]$ onto the segment $]\leftarrow,b]$, this contradicts the maximality of $u_0$ in $\mathfrak{S}$.
+¶ Now let $u_0$ be a maximal element of $\mathfrak{F}$ (no. 4, Theorem 2) and let $S_0$ be the segment of E which is the domain of $u_0$. If we show that either $S_0=E$ or $u_0(S_0)=F$, the theorem will be proved. Let us argue by contradiction and suppose that $S_0\ne E$ and $u_0(S_0)\ne F$. There will then be an element $a\in E$ and an element $b\in F$ such that $S_0=]-\leftarrow,a[$ and $u_0(S_0)]=]-\leftarrow,b[$ (no. 1, Proposition 1). Extend $u_0$ to a mapping $u_1$ of the segment $]-\leftarrow,a]$ into F by putting $u_1(a)=b$; since $u_1$ is an isomorphism of $]-\leftarrow,a]$ onto the segment $]-\leftarrow,b]$, this contradicts the maximality of $u_0$ in $\mathfrak{F}$.
 
 ¶ The uniqueness asserted in Theorem 3 is a consequence of the following Lemma :
 
 #### Lemma 4 {#ens-iii-s2-lem-4 .statement tag=03K7}
 
-*Let E, F be two well-ordered sets and let $f$, $g$ be two increasing mappings of E into F such that $f(E)$ is a segment of F and $g$ is strictly increasing; then $f(x)\leq g(x)$ for all $x\in E$.*
+*Let E, F be two well-ordered sets and let f, g be two increasing mappings of E into F such that $f(E)$ is a segment of F and g is strictly increasing; then $f(x)\leq g(x)$ for all $x\in E$.*
 
 Suppose, on the contrary, that the set of elements $y\in E$ such that $f(y)>g(y)$ is not empty; then this set will have a least element $a$. If $x<a$, we have then $f(x)\leq g(x)<g(a)<f(a)$ since $g$ is strictly increasing. Since $f(E)$ is a segment of F, there exists $z\in E$ such that $g(a)=f(z)$; $f$ is increasing, so that $f(z)<f(a)$ implies $z<a$. Hence
 
-$$
-f(z)\leq g(z)<g(a)=f(z),
-$$
+$$f(z)\leq g(z)<g(a)=f(z),$$
 
 which is absurd.
 
@@ -291,9 +289,9 @@ Put $F=E$ in Theorem 3.
 
 #### Corollary 2 {#ens-iii-s2-lem-4-cor-2 .statement tag=03K9}
 
-*Let E, F be two well-ordered sets. If there exists an isomorphism $f$ of E onto a segment T of F and an isomorphism $g$ of F onto a segment S of E, then we must have $S=E$, $T=F$, and $g$, $f$ are inverses of each other.*
+*Let E, F be two well-ordered sets. If there exists an isomorphism $f$ of E onto a segment T of F and an isomorphism $g$ of F onto a segment S of E, then we must have $S=E$, $T=F$, and $g,f$ are inverses of each other.*
 
-For $g\mathbin{\circ}f$ is an isomorphism of E onto the segment $g(T)\subset S$ of E; by Corollary 1 we have $g(T)=S=E$, and $g\mathbin{\circ}f$ is the identity mapping of E. Similarly, $f\mathbin{\circ}g$ is the identity mapping of F, whence the result.
+For $g\circ f$ is an isomorphism of E onto the segment $g(T)\subset S$ of E; by Corollary 1 we have $g(T)=S=E$, and $g\circ f$ is the identity mapping of E. Similarly, $f\circ g$ is the identity mapping of F, whence the result.
 
 #### Corollary 3 {#ens-iii-s2-lem-4-cor-3 .statement tag=03KA}
 
@@ -303,13 +301,13 @@ By virtue of Theorem 3 it is enough to prove that there exists no isomorphism $g
 
 ### 6. LEXICOGRAPHIC PRODUCTS
 
-Let $(E_\ell)_{\ell\in I}$ be a family of ordered sets, indexed by a *well-ordered* set $I$. Consider the product set $E=\prod_{\ell\in I}E_\ell$, and the relation
+Let $(E_\iota)_{\iota\in I}$ be a family of ordered sets, indexed by a *well-ordered* set I. Consider the product set $E=\displaystyle\prod_{\iota\in I}E_\iota$, and the relation
 
 $$
-“x\in E\text{ and }y\in E,\text{ and for the least index }\ell\in I\text{ such that }\operatorname{pr}_\ell x\ne\operatorname{pr}_\ell y,\text{ we have }\operatorname{pr}_\ell x<\operatorname{pr}_\ell y”,
+“x\in E\text{ and }y\in E,\text{ and for the least index }\iota\in I\text{ such that }\operatorname{pr}_{\iota}x\ne\operatorname{pr}_{\iota}y,\text{ we have }\operatorname{pr}_{\iota}x<\operatorname{pr}_{\iota}y”,
 $$
 
-which we shall denote by $R\{x,y\}$. It is evident that $R\{x,x\}$ is equivalent to $x\in E$, that $R\{x,y\}$ implies $R\{x,x\}$ and $R\{y,y\}$, and that $(R\{x,y\}$ and $R\{y,x\})$ implies $x=y$. Also it is easily verified that $(R\{x,y\}$ and $R\{y,z\})$ implies $R\{x,z\}$ (consider the least index $\ell\in I$ for which at least two of the three elements $\operatorname{pr}_\ell x$, $\operatorname{pr}_\ell y$, $\operatorname{pr}_\ell z$ are unequal); hence $R\{x,y\}$ is an *order relation* on the *product set* $E$. This relation and the ordering it defines are called the *lexicographic order relation* and the *lexicographic ordering* on $E$ (induced by the given orderings on $I$ and on the $E_\ell$); the set $E$ with this ordering is called the *lexicographic product* of the family of ordered sets $(E_\ell)_{\ell\in I}$. If each $E_\ell$ is *totally orderé'd* the lexicographic product is also *totally ordered*.
+which we shall denote by $R\{x,y\}$. It is evident that $R\{x,x\}$ is equivalent to $x\in E$, that $R\{x,y\}$ implies $R\{x,x\}$ and $R\{y,y\}$, and that $(R\{x,y\}\text{ and }R\{y,x\})$ implies $x=y$. Also it is easily verified that $(R\{x,y\}\text{ and }R\{y,z\})$ implies $R\{x,z\}$ (consider the least index $\iota\in I$ for which at least two of the three elements $\operatorname{pr}_{\iota}x$, $\operatorname{pr}_{\iota}y$, $\operatorname{pr}_{\iota}z$ are unequal); hence $R\{x,y\}$ is an *order relation on the product set E*. This relation and the ordering it defines are called the *lexicographic order relation* and the *lexicographic ordering* on $E$ (induced by the given orderings on $I$ and on the $E_\iota$); the set E with this ordering is called the *lexicographic product* of the family of ordered sets $(E_\iota)_{\iota\in I}$. If each $E_\iota$ is *totally ordered* the lexicographic product is also *totally ordered*.
 
 ### Exercises {#ens-iii-s2-exercises}
 

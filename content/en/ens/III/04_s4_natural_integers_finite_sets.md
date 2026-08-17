@@ -34,7 +34,7 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: 639aea14b68cb00b9aa94c3219d8c3f40cd1c9cfb9b67a4ac2c93aa6ba48ce99
+content_sha256: a6f2479eb99b8adca6c4e3e15057c1b81700e121b4ca8926b4c22732686f3d98
 ---
 
 ## 4. NATURAL INTEGERS. FINITE SETS
@@ -43,9 +43,9 @@ content_sha256: 639aea14b68cb00b9aa94c3219d8c3f40cd1c9cfb9b67a4ac2c93aa6ba48ce99
 
 #### Definition 1 {#ens-iii-s4-def-1 .statement tag=03R9}
 
-*A cardinal $\alpha$ is said to be finite if $\alpha \ne \alpha + 1$. A finite cardinal is also called a natural integer (or simply an* integer *if there is no risk of confusion (*)[^1]). A set E is said to be finite if Card (E) is a finite cardinal; and Card (E) is then called the number of elements of E.*
+*A cardinal $\alpha$ is said to be finite if $\alpha \ne \alpha + 1$. A finite cardinal is also called a natural integer (or simply an integer if there is no risk of confusion [^1]). A set $E$ is said to be finite if $\operatorname{Card}(E)$ is a finite cardinal; and $\operatorname{Card}(E)$ is then called the number of elements of $E$.*
 
-*A family (Chapter II, § 3, no. 4) is said to be finite if its index set is finite.*
+A family (Chapter II, § 3, no. 4) is said to be *finite* if its index set is finite.
 
 *When we say that the number of objects of a certain type is an integer $m$, we mean that these objects are elements of a finite set whose number of elements is $m$. A set whose number of elements is $m$ is also called a set of $m$ elements.*
 
@@ -53,7 +53,7 @@ content_sha256: 639aea14b68cb00b9aa94c3219d8c3f40cd1c9cfb9b67a4ac2c93aa6ba48ce99
 
 *A cardinal $\alpha$ is finite if and only if $\alpha + 1$ is finite.*
 
-For the relations $\alpha = \beta$ and $\alpha + 1 = \beta + 1$ between cardinals $\alpha$ and $\beta$ are equivalent (§ 3, no. 4, Proposition 8); the relations $\alpha \ne \alpha + 1$ and $\alpha + 1 \ne (\alpha + 1) + 1$ are therefore equivalent.
+For the relations $\alpha = \mathfrak{b}$ and $\alpha + 1 = \mathfrak{b} + 1$ between cardinals $\alpha$ and $\mathfrak{b}$ are equivalent (§ 3, no. 4, Proposition 8); the relations $\alpha \ne \alpha + 1$ and $\alpha + 1 \ne (\alpha + 1) + 1$ are therefore equivalent.
 
 ¶ It is clear that $0 \ne 1$; hence $0$ is an integer. It follows that $1$ and $2$ are integers. The cardinals $2 + 1$ and $(2 + 1) + 1$ are integers, denoted by $3$ and $4$, respectively.
 
@@ -61,15 +61,15 @@ For the relations $\alpha = \beta$ and $\alpha + 1 = \beta + 1$ between cardinal
 
 #### Proposition 2 {#ens-iii-s4-prop-2 .statement tag=03RB}
 
-*Let $n$ be an integer. Then every cardinal $\alpha$ such that $\alpha \leq n$ is an integer. If $n \ne 0$, there exists a unique integer $m$ such that $n = m + 1$, and the relation $\alpha < n$ is equivalent to $\alpha \leq m$.*
+*Let $n$ be an integer. Then every cardinal $\alpha$ such that $\alpha \le n$ is an integer. If $n \ne 0$, there exists a unique integer $m$ such that $n = m + 1$, and the relation $\alpha < n$ is equivalent to $\alpha \le m$.*
 
-If $\alpha \leq n$, there exists a cardinal $\beta$ such that $n = \alpha + \beta$ (§ 3, no. 6, Proposition 13). Then $(\alpha + 1) + \beta = (\alpha + \beta) + 1 = n + 1$ (§ 3, no. 3, Proposition 5, Corollary); and since $n \ne n + 1$, we have
+If $\alpha \le n$, there exists a cardinal $\mathfrak{b}$ such that $n = \alpha + \mathfrak{b}$ (§ 3, no. 6, Proposition 13). Then $(\alpha + 1) + \mathfrak{b} = (\alpha + \mathfrak{b}) + 1 = n + 1$ (§ 3, no. 3, Proposition 5, Corollary); and since $n \ne n + 1$, we have
 
 $$
-(\alpha + 1) + \beta \ne \alpha + \beta.
+(\alpha + 1) + \mathfrak{b} \ne \alpha + \mathfrak{b}.
 $$
 
-Hence $\alpha + 1 \ne \alpha$, which means that $\alpha$ is an integer. If $n \ne 0$, we have $n \geq 1$ (§ 3, no. 2), and therefore there exists a unique cardinal $m$ such
+Hence $\alpha + 1 \ne \alpha$, which means that $\alpha$ is an integer. If $n \ne 0$, we have $n \ge 1$ (§ 3, no. 2), and therefore there exists a unique cardinal $m$ such
 
 that $n = m + 1$ (§ 3, no. 6, Proposition 13 and no. 4, Proposition 8). Since $m \leqslant n$, $m$ is an integer, from what has already been proved. Finally, if an integer $a$ is such that $a < n$, we have $n = a + b$, with $b \neq 0$ (§ 3, no. 6, Proposition 13); since $b$ is an integer, we have $b = c + 1$ and $n = m + 1 = (a + c) + 1$. It follows that $m = a + c$ (§ 3, no. 4, Proposition 8), hence $a \leqslant m$. Conversely, if $a \leqslant m$, we have
 
@@ -251,4 +251,4 @@ By Theorem 2 of § 2, no. 4 it is enough to show that $\mathfrak{S}$ is inductiv
 
 See the [exercises for § 4](exercises/s4/).
 
-[^1]: (*) The notion of “integer” will be generalized later, in Algebra, where we shall define the *rational integers* and the *algebraic integers*.
+[^1]: The notion of “integer” will be generalized later, in Algebra, where we shall define the *rational integers* and the *algebraic integers*.

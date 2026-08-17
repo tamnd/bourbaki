@@ -46,7 +46,7 @@ subsections:
       pdf_page: 185
 statements: 30
 exercises: 18
-content_sha256: 8a102c1fe61e0d9ba0dfa780d76c5ac2d059f4ade38b37129f41be94b8afbf2f
+content_sha256: 539828b0c422fed3a1cc49cb93eb6b9243ff661d733b947ed2c4b6d11d68b451
 ---
 
 ## 5. PROPERTIES OF INTEGERS
@@ -233,10 +233,7 @@ $$a'/b = (a'/a)\,(a/b) \qquad \text{if} \qquad a \neq 0.$$
 
 Also, if $c$ and $d$ are multiples of $b$, then $c+d$ and $c-d$ (if $d\leq c$) are multiples of $b$, and we have
 
-$$
-\frac{c+d}{b}=\frac{c}{b}+\frac{d}{b},\qquad
-\frac{c-d}{b}=\frac{c}{b}-\frac{d}{b}.
-$$
+$$\frac{c+d}{b}=\frac{c}{b}+\frac{d}{b},\qquad \frac{c-d}{b}=\frac{c}{b}-\frac{d}{b}.$$
 
 The integers which are multiples of 2 are said to be *even*, and the others *odd*. By Theorem 1 the odd integers are of the form $2n+1$.
 
@@ -246,35 +243,25 @@ The integers which are multiples of 2 are said to be *even*, and the others *odd
 
 *Let $b$ be an integer $>1$. For each integer $k>0$ let $E_k$ be the lexicographic product (§ 2, no. 6) of the family $(J_h)_{0\leq h\leq k-1}$ of intervals all identical with $[0,b-1]$. For each $r=(r_0,r_1,\ldots,r_{k-1})\in E_k$, let*
 
-$$
-f_k(r)=\sum_{h=0}^{k-1}r_hb^{k-h-1};
-$$
+$$f_k(r)=\sum_{h=0}^{k-1}r_hb^{k-h-1};$$
 
 *then the mapping $f_k$ is an isomorphism of the ordered set $E_k$ onto the interval $[0,b^k-1]$.*
 
 The proof is by induction on $k$. For $k=1$ it is an immediate consequence of the definitions. For each $r=(r_0,\ldots,r_{k-1},r_k)\in E_{k+1}$ put
 
-$$
-\varphi(r)=(r_0,\ldots,r_{k-1})\in E_k.
-$$
+$$\varphi(r)=(r_0,\ldots,r_{k-1})\in E_k.$$
 
 Then the mapping $r\mapsto(\varphi(r),r_k)$ is an isomorphism of $E_{k+1}$ onto the lexicographical product of $E_k$ and $J=[0,b-1]$; this is immediate from the definitions. We may write
 
-$$
-f_{k+1}(r)=b\cdot f_k(\varphi(r))+r_k;
-$$
+$$f_{k+1}(r)=b\cdot f_k(\varphi(r))+r_k;$$
 
-let us show that the relation $r<r'$ in $E_{k+1}$ implies $f_{k+1}(r)<f_{k+1}(r')$. Indeed, we have either $\varphi(r)<\varphi(r')$, or else $\varphi(r)=\varphi(r')$ and $r_k<r'_k$. In the first case, the inductive hypothesis implies that $f_k(\varphi(r))<f_k(\varphi(r'))$, and therefore (§ 4, no. 2, Proposition 2) $f_k(\varphi(r'))\geq f_k(\varphi(r))+1$; consequently
+let us show that the relation $r<r'$ in $E_{k+1}$ implies $f_{k+1}(r)<f_{k+1}(r')$. Indeed, we have either $\varphi(r)<\varphi(r')$, or else $\varphi(r)=\varphi(r')$ and $r_k<r'_k$. In the first case, the inductive hypothesis implies that $f_k(\varphi(r))<f_k(\varphi(r'))$, and therefore (§ 4, no. 2, Proposition 2) $f_k(q(r'))\geq f_k(\varphi(r))+1$; consequently
 
-$$
-f_{k-1}(r')\geq b\cdot f_k(\varphi(r))+b>f_{k+1}(r),
-$$
+$$f_{k-1}(r')\geq b\cdot f_k(\varphi(r))+b>f_{k+1}(r),$$
 
 since $r_k\leq b-1$ (no. 2, Proposition 3). If, on the other hand, $\varphi(r)=\varphi(r')$ and $r_k<r'_k$, it is clear that $f_{k+1}(r)<f_{k+1}(r')$. Now the inductive hypothesis shows that $f_k(\varphi(r))\leq b^k-1$, whence
 
-$$
-f_{k+1}(r)\leq b(b^k-1)+b-1=b^{k+1}-1.
-$$
+$$f_{k+1}(r)\leq b(b^k-1)+b-1=b^{k+1}-1.$$
 
 It follows that $f_{k+1}$ is an isomorphism of $E_{k+1}$ onto a subset of the interval $[0,b^{k+1}-1]$; but this interval and $E_{k+1}$ have the same number of
 

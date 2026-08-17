@@ -66,7 +66,7 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: 9aa0ba9c66e0e7562086ef9405dfbe251e949c96f337a2aa1a7cc6d19e72765c
+content_sha256: 2924f71e77961cc70f637dea1ecb6b31ee1695b61f00448c8aa6677a1bdc9176
 ---
 
 ## 1. ORDER RELATIONS. ORDERED SETS
@@ -355,36 +355,36 @@ For if G is the graph of the ordering on E, the graph of an ordering on E$'$ whi
 
 ¶ The ordered set E$'$ is said to be obtained by *adjoining a greatest element* $a$ *to* E (cf. Exercise 3).
 
-¶ A subset A of a preordered set E is said to be *cofinal* (resp. *coinitial*) in E if for every $x\in E$ there exists $y\in A$ such that $x\leq y$ (resp. $y\leq x$). To say that an ordered set E has a greatest (resp. least) element therefore means that E has a cofinal (resp. coinitial) subset consisting of a single element.
+¶ A subset $A$ of a preordered set $E$ is said to be *cofinal* (resp. *coinitial*) in $E$ if for every $x\in E$ there exists $y\in A$ such that $x\leq y$ (resp. $y\leq x$). To say that an ordered set $E$ has a greatest (resp. least) element therefore means that $E$ has a cofinal (resp. coinitial) subset consisting of a single element.
 
 ### 8. UPPER AND LOWER BOUNDS
 
 #### Definition 5 {#ens-iii-s1-def-5 .statement tag=03JI}
 
-*Let E be a preordered set and let X be a subset of E. Any element $x\in E$ such that $x\leq y$ (resp. $x\geq y$) for all $y\in X$ is called a lower (resp. upper) bound of X in E.*
+*Let $E$ be a preordered set and let $X$ be a subset of $E$. Any element $x\in E$ such that $x\leq y$ (resp. $x\geq y$) for all $y\in X$ is called a lower (resp. upper) bound of $X$ in $E$.*
 
-Every upper bound of X is a lower bound of X with respect to the opposite ordering, and vice versa.
+Every upper bound of $X$ is a lower bound of $X$ with respect to the opposite ordering, and vice versa.
 
-¶ If $x$ is a lower bound of X, every element $z\leq x$ is also a lower bound of X. A lower bound of X is also a lower bound of every subset of X. An ordered set X has a least element if and only if there exists a lower bound of X which belongs to X.
+¶ If $x$ is a lower bound of $X$, every element $z\leq x$ is also a lower bound of $X$. A lower bound of $X$ is also a lower bound of every subset of $X$. An ordered set $X$ has a least element if and only if there exists a lower bound of $X$ which belongs to $X$.
 
-¶ The set of lower bounds of a subset X of a preordered set E may be empty : this is the case when $X=E$ and E is an ordered set which has no least element.
+¶ The set of lower bounds of a subset $X$ of a preordered set $E$ may be empty : this is the case when $X=E$ and $E$ is an ordered set which has no least element.
 
-¶ A subset X of E whose set of lower (resp. upper) bounds is not empty is said to be *bounded below* (resp. *bounded above*). A subset which is bounded both below and above is said to be *bounded*. If X is bounded below (resp. bounded above, bounded), the same is true of every subset of X.
+¶ A subset $X$ of $E$ whose set of lower (resp. upper) bounds is not empty is said to be *bounded below* (resp. *bounded above*). A subset which is bounded both below and above is said to be *bounded*. If $X$ is bounded below (resp. bounded above, bounded), the same is true of every subset of $X$.
 
 Every subset consisting of a single element is bounded. But a subset consisting of two elements need not be bounded either above or below (no. 10).
 
-Let E be a preordered set and let $f$ be a mapping of an arbitrary set A into E. The mapping $f$ is said (by abuse of language) to be *bounded below* (resp. *bounded above, bounded*) if the set $f(A)$ is bounded below (resp. bounded above, bounded) in E.
+Let $E$ be a preordered set and let $f$ be a mapping of an arbitrary set $A$ into $E$. The mapping $f$ is said (by abuse of language) to be *bounded below* (resp. *bounded above, bounded*) if the set $f(A)$ is bounded below (resp. bounded above, bounded) in $E$.
 
 ### 9. LEAST UPPER BOUND AND GREATEST LOWER BOUND
 
 #### Definition 6 {#ens-iii-s1-def-6 .statement tag=03JJ}
 
-*Let E be an ordered set and let X be a subset of E. An element of E is said to be the greatest lower bound or infimum (resp. least upper bound or supremum) of X in E if it is the greatest (resp. least) element of the set of lower (resp. upper) bounds of X in E.*
+*Let $E$ be an ordered set and let $X$ be a subset of $E$. An element of $E$ is said to be the greatest lower bound or infimum (resp. least upper bound or supremum) of $X$ in $E$ if it is the greatest (resp. least) element of the set of lower (resp. upper) bounds of $X$ in $E$.*
 
-Given a subset X of an ordered set E, the least upper bound (resp. greatest lower bound) of X in E, when it exists, is denoted by
+Given a subset $X$ of an ordered set $E$, the least upper bound (resp. greatest lower bound) of $X$ in $E$, when it exists, is denoted by
 
 $$
-\operatorname{sup}_{E}X\quad(\text{resp. }\operatorname{inf}_{E}X)
+\sup_E X\quad\text{(resp. }\inf_E X\text{)}
 $$
 
 or by sup X (resp. inf X) if there is no risk of ambiguity. The least upper bound (resp. greatest lower bound) of a set $\{x, y\}$ of two elements, when it exists, is denoted by sup $(x, y)$ (resp. inf $(x, y)$). Similarly for the least upper bound and greatest lower bound of a set of three elements, etc.
@@ -524,7 +524,7 @@ because the union and intersection of two subsets of A are again subsets of A.
 
 #### Example 1 {#ens-iii-s1-n11-exa-1 .statement tag=03SV}
 
-The set of integers $\geq 1$, ordered by the relation “$m$ divides $n$” between $m$ and $n$, is a lattice; the least upper bound of $\{m,n\}$ is the l.c.m. of $m$ and $n$, and the greatest lower bound is their h.c.f.
+The set of integers $\geqslant 1$, ordered by the relation “$m$ divides $n$” between $m$ and $n$, is a lattice; the least upper bound of $\{m,n\}$ is the l.c.m. of $m$ and $n$, and the greatest lower bound is their h.c.f.
 
 #### Example 2 {#ens-iii-s1-n11-exa-2 .statement tag=03TT}
 
@@ -532,25 +532,25 @@ The set of subgroups of a group G, ordered by inclusion, is a lattice.
 
 #### Example 3 {#ens-iii-s1-n11-exa-3 .statement tag=03TU}
 
-The set of topologies on a set A, ordered by the relation “$\mathcal{T}$ is coarser than $\mathcal{T}'$” between $\mathcal{T}$ and $\mathcal{T}'$, is a lattice. (General Topology, Chapter I, § 2).
+The set of topologies on a set A, ordered by the relation “$\mathscr{T}$ is coarser than $\mathscr{T}'$” between $\mathscr{T}$ and $\mathscr{T}'$, is a lattice. (*General Topology*, Chapter I, § 2).
 
 #### Example 4 {#ens-iii-s1-n11-exa-4 .statement tag=03TV}
 
-The set $\mathscr{F}(I,\mathbf{R})$ of all real-valued functions defined on an interval I of $\mathbf{R}$ is a lattice with respect to the order relation $f\leq g$ (no. 4), and as such is isomorphic to the product $\mathbf{R}^{I}$. *
+The set $\mathscr{F}(I,\mathbf{R})$ of all real-valued functions defined on an interval I of $\mathbf{R}$ is a lattice with respect to the order relation $f\leqslant g$ (no. 4), and as such is isomorphic to the product $\mathbf{R}^{I}$. *
 
 #### Remark {#ens-iii-s1-n11-rem-1 .statement tag=03JQ}
 
-A lattice is obviously both left and right directed. But an ordered set which is both left and right directed is not necessarily a lattice. * An example of the latter is the set of mappings $x\mapsto p(x)$ of $\mathbf{R}$ into itself, where $p$ is a polynomial in $\mathbf{R}[X]$, this set being ordered by the relation $p\leq q$ (no. 4). *
+A lattice is obviously both left and right directed. But an ordered set which is both left and right directed is not necessarily a lattice. * An example of the latter is the set of mappings $x\mapsto p(x)$ of $\mathbf{R}$ into itself, where $p$ is a polynomial in $\mathbf{R}[X]$, this set being ordered by the relation $p\leqslant q$ (no. 4). *
 
 ### 12. TOTALLY ORDERED SETS
 
 #### Definition 9 {#ens-iii-s1-def-9 .statement tag=03JR}
 
-*Two elements $x$, $y$ of a preordered set E are said to be comparable if the relation “$x\leq y$ or $y\leq x$” is true. A set E is said to be totally ordered if it is ordered and if any two elements of E are comparable. The ordering on E is then said to be a total ordering, and the corresponding order relation a total order relation.*
+*Two elements $x$, $y$ of a preordered set E are said to be comparable if the relation “$x\leqslant y$ or $y\leqslant x$” is true. A set E is said to be totally ordered if it is ordered and if any two elements of E are comparable. The ordering on E is then said to be a total ordering, and the corresponding order relation a total order relation.*
 
-If $x$ and $y$ are elements of a totally ordered set, then $x=y$ or $x<y$ or $x>y$; the negation of $x\leq y$ is thus $x>y$.
+If $x$ and $y$ are elements of a totally ordered set, then $x=y$ or $x<y$ or $x>y$; the negation of $x\leqslant y$ is thus $x>y$.
 
-An ordering on E is a total ordering if and only if its graph G satisfies the relation $G\cup G^{-1}=E\times E$, as well as the relations $G\circ G=G$ and $G\cap G^{-1}=\Delta$.
+An ordering on E is a total ordering if and only if its graph G satisfies the relation $G\cup\overset{-1}{G}=E\times E$, as well as the relations $G\circ G=G$ and $G\cap\overset{-1}{G}=\Delta$.
 
 *Examples*
 
@@ -568,7 +568,7 @@ The set $\mathbf{R}$ of real numbers is totally ordered. *
 
 #### Example 4 {#ens-iii-s1-n12-exa-4 .statement tag=03TY}
 
-If A is a set which has at least two distinct elements, the set $\mathscr{P}(A)$ (ordered by inclusion) is not totally ordered, for if $x\neq y$, the subsets $\{x\}$ and $\{y\}$ are not comparable.
+If A is a set which has at least two distinct elements, the set $\mathfrak{P}(A)$ (ordered by inclusion) is not totally ordered, for if $x\neq y$, the subsets $\{x\}$ and $\{y\}$ are not comparable.
 
 A totally ordered set is also totally ordered with respect to the opposite ordering; it is a lattice and *a fortiori* both left and right directed.
 
