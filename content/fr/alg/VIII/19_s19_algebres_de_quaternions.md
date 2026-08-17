@@ -33,7 +33,7 @@ subsections:
       pdf_page: 362
 statements: 16
 exercises: 8
-content_sha256: a3e1aa494eba5115eb3006e527482b94209558f398d6749d67eff3055b0576a2
+content_sha256: 62cad8b639e315c68a6fa0aa144ca51b748c10af120937c1403f01c5ab861a7f
 ---
 
 ## § 19. ALGÈBRES DE QUATERNIONS
@@ -82,7 +82,7 @@ Soit $q$ un élément de F. Pour que $q$ soit nilpotent, il faut et il suffit qu
 
 #### Exemple {#alg-viii-s19-n1-exa-1 .statement tag=00LU}
 
-L’algèbre de matrices $\mathbf{M}_2(K)$ est isomorphe à l’algèbre de quaternions de type $(0,1,1)$. Considérons en effet l’algèbre quadratique $E = K\times K$ (de type $(0,1))$ et l’algèbre de quaternions $F = E + Ej$, extension cayleyenne de E définie par l’élément $\gamma = 1$. L’application $(a, b)\rightarrow (^a_0^0_b)$ est un homomorphisme d’algèbres de E dans $\mathbf{M}_2(K)$. Comme l’on a, pour $a, b$ dans K,
+L’algèbre de matrices $\mathbf{M}_2(K)$ est isomorphe à l’algèbre de quaternions de type $(0,1,1)$. Considérons en effet l’algèbre quadratique $E = K\times K$ (de type $(0,1))$ et l’algèbre de quaternions $F = E + Ej$, extension cayleyenne de E définie par l’élément $\gamma = 1$. L’application $(a, b)\rightarrow \begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix}$ est un homomorphisme d’algèbres de E dans $\mathbf{M}_2(K)$. Comme l’on a, pour $a, b$ dans K,
 
 0 1 0 1 1 0 0 1 $a$ 0 $b$ 0 0 1
 

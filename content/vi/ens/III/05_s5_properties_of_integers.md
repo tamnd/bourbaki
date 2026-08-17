@@ -46,11 +46,11 @@ subsections:
       pdf_page: 185
 statements: 30
 exercises: 18
-content_sha256: d876840a914b5792971e6ec89d724aca865ffca4eb1363ed2fdde8e7b92c8df1
+content_sha256: 4cbd3c90d5481770d4c611b4d8910a417b5568279df4e578005458d9c1614094
 translated_from: content/en/ens/III/05_s5_properties_of_integers.md
 source_content_sha256: 539828b0c422fed3a1cc49cb93eb6b9243ff661d733b947ed2c4b6d11d68b451
-translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
-translation_run: translate-vi-786fc151
+translation_model: gpt-5-6, gpt-5.4
+translation_run: translate-vi-54eda197
 glossary_version: 29
 glossary_terms_sha256: b38e6d2ba48454073ae09e72f9c985e28155d8d69c8d1f062ae11edf2f680c66
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
@@ -333,7 +333,7 @@ Cho G là tập hợp các phép hoán vị của E và gọi P là tập hợp 
 
 #### Hệ quả 1 {#ens-iii-s5-prop-11-cor-1 .statement tag=03MC}
 
-*Cho* A *là một tập hợp có n phần tử và cho p là một số nguyên* $\leqslant n$. *Khi đó số các tập con của* A *có p phần tử là* $\dfrac{n!}{p!(n-p)!}$.
+*Cho* A *là một tập hợp có n phần tử và p là một số nguyên* $\leqslant n$. *Khi đó số các tập con của* A *có p phần tử là* $\dfrac{n!}{p!(n-p)!}$.
 
 Đặt $h = 2$, $p_1 = p$, $p_2 = n - p$ trong Mệnh đề 11.
 

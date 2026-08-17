@@ -262,7 +262,7 @@ books:
               statements: 16
               exercises: 8
               extraction: native
-              content_sha256: b5996028b55144473fe8f797e1f0ef1f96e74a63697ee6e4b018df44f20f01cd
+              content_sha256: 71e4f4f70eb40d09b1a16d408794c159eca92de0aa89ccbf3b967f67df1d0b5d
             - kind: section
               section: 20
               title: Linear Representations of Algebras
@@ -614,7 +614,7 @@ books:
               statements: 16
               exercises: 8
               extraction: native
-              content_sha256: a3e1aa494eba5115eb3006e527482b94209558f398d6749d67eff3055b0576a2
+              content_sha256: 62cad8b639e315c68a6fa0aa144ca51b748c10af120937c1403f01c5ab861a7f
             - kind: section
               section: 20
               title: Représentations linéaires des algèbres

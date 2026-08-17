@@ -46,11 +46,11 @@ errata:
     - says: no. 2, Proposition 2, Corollary 2
       read: no. 2, Proposition 1, Corollary 2
       why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
-content_sha256: bf84b83179911a9d9955fd49a55221dff23c09fa06bff6d18a95618e8985f026
+content_sha256: f4f121546b2e12ec9a9b2e139457564434eac32e1f0d15a1482f208b72337d57
 translated_from: content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md
 source_content_sha256: a49555c4f56c60d7aca4de0b044ddea42c75f0dbc65c50f4a3e879299a765497
-translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4, nemotron-3-ultra-free
-translation_run: translate-vi-786fc151
+translation_model: gpt-5-6, gpt-5.4, nemotron-3-ultra-free, gpt-5-6-mini
+translation_run: translate-vi-ae022fdf
 glossary_version: 29
 glossary_terms_sha256: 7460ccb7ab747636181ff4e6a149d10bc90b8626116296b8c4361e04f71e73e4
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
@@ -66,7 +66,7 @@ $(\mathrm{LP}_I)$ *Các quan hệ $\alpha\leq\beta\leq\gamma$ suy ra $f_{\alpha\
 
 $(\mathrm{LP}_{II})$ *Với mỗi $\alpha\in I$, $f_{\alpha\alpha}$ là ánh xạ đồng nhất của $E_\alpha$.*
 
-Cho $G=\prod_{\alpha\in I}E_\alpha$ là *tích* của họ các tập hợp $(E_\alpha)_{\alpha\in I}$, và gọi $E$ là tập con của $G$ gồm tất cả các $x$ thỏa mãn mỗi quan hệ
+Cho $G=\prod_{\alpha\in I}E_\alpha$ là *tích* của họ các tập hợp $(E_\alpha)_{\alpha\in I}$, và ký hiệu $E$ là tập con của $G$ gồm mọi $x$ thỏa mãn mỗi một trong các hệ thức
 
 (1)
 
@@ -443,11 +443,11 @@ vì với mỗi $x \in \mathrm{E}_\alpha$ ta có $f_{\beta\beta}(f_{\beta\alpha}
 
 #### Ví dụ 1 {#ens-iii-s7-n5-exa-1 .statement tag=03TM}
 
-Cho A, B là hai tập hợp, và cho $(\mathrm{V}_\alpha)_{\alpha \in \mathrm{I}}$ là một họ các tập con của A có tập chỉ số I có hướng, và sao cho quan hệ $\alpha \leqslant \beta$ kéo theo $\mathrm{V}_\beta \subset \mathrm{V}_\alpha$. Ký hiệu $\mathrm{E}_\alpha$ là tập hợp tất cả các ánh xạ từ $\mathrm{V}_\alpha$ vào B, và với mỗi cặp chỉ số $(\alpha, \beta)$ sao cho $\alpha \leqslant \beta$, ký hiệu $f_{\beta\alpha}$ là ánh xạ từ $\mathrm{E}_\alpha$ vào $\mathrm{E}_\beta$ biến mỗi hàm $u \in \mathrm{E}_\alpha$ thành *hạn chế* của nó lên $\mathrm{V}_\beta$. Hiển nhiên rằng các điều kiện $(\mathrm{LI_I})$ và $(\mathrm{LI_{II}})$ được thỏa mãn, và tập hợp $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$ được gọi là tập hợp các *mầm của ánh xạ* của các $\mathrm{V}_\alpha$ vào B. \* Trường hợp thường gặp nhất là trường hợp trong đó $(\mathrm{V}_\alpha)$ là họ các *lân cận* của một tập con của một không gian tôpô A (*Tôpô đại cương*, Chương I, §6, số 10). \*
+Cho A, B là hai tập hợp, và cho $(\mathrm{V}_\alpha)_{\alpha \in \mathrm{I}}$ là một họ các tập con của A có tập chỉ số I là có hướng, và sao cho quan hệ $\alpha \leqslant \beta$ kéo theo $\mathrm{V}_\beta \subset \mathrm{V}_\alpha$. Gọi $\mathrm{E}_\alpha$ là tập hợp tất cả các ánh xạ của $\mathrm{V}_\alpha$ vào B, và với mỗi cặp chỉ số $(\alpha, \beta)$ sao cho $\alpha \leqslant \beta$ gọi $f_{\beta\alpha}$ là ánh xạ của $\mathrm{E}_\alpha$ vào $\mathrm{E}_\beta$ gửi mỗi hàm $u \in \mathrm{E}_\alpha$ thành *hạn chế* của nó lên $\mathrm{V}_\beta$. Hiển nhiên rằng các điều kiện $(\mathrm{LI_I})$ và $(\mathrm{LI_{II}})$ được thỏa mãn, và tập hợp $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$ được gọi là tập hợp các *mầm của các ánh xạ* của các $\mathrm{V}_\alpha$ vào B. \* Trường hợp thường gặp nhất là trường hợp trong đó $(\mathrm{V}_\alpha)$ là họ các *lân cận* của một tập con của một không gian tôpô A (*Tôpô đại cương*, Chương I, §6, no. 10). \*
 
 #### Ví dụ 2 {#ens-iii-s7-n5-exa-2 .statement tag=03TN}
 
-Giả sử rằng, với mỗi $\alpha \in \mathrm{I}$, $\mathrm{E}_\alpha$ là cùng một tập hợp F và rằng bất cứ khi nào $\alpha \leqslant \beta$, $f_{\beta\alpha}$ là ánh xạ đồng nhất của F lên chính nó. Khi đó tồn tại một *song ánh chính tắc* của $\varinjlim \mathrm{E}_\alpha$ lên F. Để định nghĩa $\varinjlim \mathrm{E}_\alpha$, ta phải tạo thành tập hợp G là tổng của họ $(\mathrm{E}_\alpha)$; do đó G là hợp của một họ $(\mathrm{G}_\alpha)$ gồm các tập hợp rời nhau từng đôi một, và với mỗi $\alpha \in \mathrm{I}$ có một song ánh chính tắc $h_\alpha : \mathrm{F} \to \mathrm{G}_\alpha$. Tiếp theo ta phải xét quan hệ tương đương R trên G tương ứng với phân hoạch $(\mathrm{P}_y)_{y \in \mathrm{F}}$, trong đó $\mathrm{P}_y$ là tập hợp tất cả các $h_\alpha(y)$ khi $\alpha$ chạy qua I. Rõ ràng $y \to \mathrm{P}_y$ là một song ánh mà nghịch đảo của nó là song ánh cần tìm. Ta sẽ đồng nhất F với $\varinjlim \mathrm{E}_\alpha$ bằng song ánh chính tắc này.
+Giả sử rằng, với mỗi $\alpha \in \mathrm{I}$, $\mathrm{E}_\alpha$ là cùng một tập hợp F và rằng mỗi khi $\alpha \leqslant \beta$, $f_{\beta\alpha}$ là ánh xạ đồng nhất của F lên chính nó. Khi đó tồn tại một *song ánh chính tắc* của $\varinjlim \mathrm{E}_\alpha$ lên F. Để định nghĩa $\varinjlim \mathrm{E}_\alpha$, ta phải tạo thành tập hợp G là tổng của họ $(\mathrm{E}_\alpha)$; do đó G là hợp của một họ $(\mathrm{G}_\alpha)$ gồm các tập hợp đôi một rời nhau, và với mỗi $\alpha \in \mathrm{I}$ có một song ánh chính tắc $h_\alpha : \mathrm{F} \to \mathrm{G}_\alpha$. Tiếp theo ta phải xét quan hệ tương đương R trên G tương ứng với phân hoạch $(\mathrm{P}_y)_{y \in \mathrm{F}}$, trong đó $\mathrm{P}_y$ là tập hợp tất cả các $h_\alpha(y)$ khi $\alpha$ chạy qua I. Rõ ràng $y \to \mathrm{P}_y$ là một song ánh mà nghịch đảo của nó là song ánh cần tìm. Ta sẽ đồng nhất F với $\varinjlim \mathrm{E}_\alpha$ bằng song ánh chính tắc này.
 
 #### Bổ đề 1 {#ens-iii-s7-lem-1 .statement tag=03OK}
 
