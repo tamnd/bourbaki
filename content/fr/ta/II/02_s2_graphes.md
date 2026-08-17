@@ -7,8 +7,8 @@ section: 2
 section_title: Graphes
 lang: fr
 source: ta-i-iv-fr
-book_pages: A II.155-A II.159
-pdf_pages: 0171-0175
+book_pages: A II.155-A II.159, A II.219-A II.223
+pdf_pages: 0171-0175, 0235-0239
 extraction: native
 subsections:
     - "no": 1
@@ -28,8 +28,8 @@ subsections:
       page: 157
       pdf_page: 173
 statements: 5
-exercises: 0
-content_sha256: 10d22db37eef85b986459ca2f807d1ff3d0b7a34e6022af4cda1081b90dcff60
+exercises: 12
+content_sha256: 7b11f57105325047d7638e4ccda232addd1076f464d3da18b009dc079cf93bf9
 ---
 
 ## § 2. GRAPHES
@@ -121,5 +121,9 @@ On a défini dans LIE, IV, p. 33, annexe, la notion de graphe combinatoire comme
 Inversement, tout graphe tel que l’origine et le terme de toute flèche soient distinctes, et tel qu’une flèche soit déterminée par son origine et son terme est de cette forme.
 
 Le lecteur vérifiera que les notions de connexité, d’arbre, ou de forêt pour un graphe combinatoire coïncident avec les notions correspondantes pour le graphe qui lui est associé.
+
+## EXERCICES {#ta-ii-s2-exercises}
+
+See the [exercises for § 2](exercises/s2/).
 
 [^1]: On prendra garde à ne pas confondre la notion de graphe introduite ici avec celle de E, II, §3, n$^o1$.

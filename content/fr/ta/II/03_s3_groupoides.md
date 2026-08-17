@@ -7,8 +7,8 @@ section: 3
 section_title: Groupoïdes
 lang: fr
 source: ta-i-iv-fr
-book_pages: A II.159-A II.179
-pdf_pages: 0175-0195
+book_pages: A II.159-A II.179, A II.223-A II.227
+pdf_pages: 0175-0195, 0239-0243
 extraction: native
 subsections:
     - "no": 1
@@ -60,8 +60,8 @@ subsections:
       page: 178
       pdf_page: 194
 statements: 40
-exercises: 0
-content_sha256: f50d93cffde088e5f1bd6c6174d37d1bd40464fb19fe707ee922901cf5bf4bbe
+exercises: 12
+content_sha256: 4dfe715249b961d96e905eb455b131622f7a232e95b9449e4111e563d625299f
 ---
 
 ## § 3. GROUPOÏDES
@@ -499,3 +499,7 @@ L’homomorphisme $\mu_a$ est l’isomorphisme réciproque de $\lambda$.
 #### Remarque 2 {#ta-ii-s3-n12-rem-2 .statement tag=01U2}
 
 Il existe un unique homomorphisme $\lambda :$ F(Fl(G)) $\rightarrow \pi_1(G, a)$ défini par les relations (1) pour tout $f\in$ Fl(G). Il résulte de la proposition 8 que l’homomorphisme $\lambda$ est surjectif et que son noyau est le plus petit sous-groupe distingué de F(Fl(G)) contenant les éléments $f$, pour $f\in$ Fl(A), et les éléments $f\cdot \overline{f}$, pour $f\in$ Fl(G).
+
+## EXERCICES {#ta-ii-s3-exercises}
+
+See the [exercises for § 3](exercises/s3/).

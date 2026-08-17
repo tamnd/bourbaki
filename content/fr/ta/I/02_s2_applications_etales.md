@@ -7,8 +7,8 @@ section: 2
 section_title: Applications étales
 lang: fr
 source: ta-i-iv-fr
-book_pages: A I.25-A I.42
-pdf_pages: 0041-0058
+book_pages: A I.25-A I.42, A I.140-A I.141
+pdf_pages: 0041-0058, 0156-0157
 extraction: native
 subsections:
     - "no": 1
@@ -36,8 +36,8 @@ subsections:
       page: 40
       pdf_page: 56
 statements: 47
-exercises: 0
-content_sha256: 2c4f20246846601f7920d7a2dbf568e5fd0cffce60ed25a11ed3907ac9da2dc5
+exercises: 7
+content_sha256: 9dad7a878106a2f9eefb64314958fdaba881d0dafe1420cbfcf5a4642fa7150d
 ---
 
 ## § 2. APPLICATIONS ÉTALES
@@ -507,3 +507,7 @@ d’après le corollaire de E, III, p. 50 et le corollaire 1 de E, III, p. 49. L
 #### Remarque {#ta-i-s2-n6-rem-1 .statement tag=01NR}
 
 D’après ce qui précède, si la topologie de B admet une base dénombrable, il en est de même de celle de E et les fibres de E sont dénombrables (cf. TG, I, p. 88, théorème de Poincaré-Volterra).
+
+## EXERCICES {#ta-i-s2-exercises}
+
+See the [exercises for § 2](exercises/s2/).

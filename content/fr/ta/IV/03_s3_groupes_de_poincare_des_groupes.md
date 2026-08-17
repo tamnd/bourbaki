@@ -7,8 +7,8 @@ section: 3
 section_title: Groupes de Poincaré des groupes topologiques
 lang: fr
 source: ta-i-iv-fr
-book_pages: A IV.369-A IV.382
-pdf_pages: 0385-0398
+book_pages: A IV.369-A IV.382, A IV.459-A IV.461
+pdf_pages: 0385-0398, 0475-0477
 extraction: native
 subsections:
     - "no": 1
@@ -32,8 +32,8 @@ subsections:
       page: 379
       pdf_page: 395
 statements: 21
-exercises: 0
-content_sha256: 0ca6a99c7eed0ae6c1e7af1fffa4314b06c89b1f76941c6157874489a59361fa
+exercises: 10
+content_sha256: 51df0626d16b3013a47fe3c4250f6b85c9b95f0362cf3c12832cd75e24bf6b9e
 ---
 
 ## § 3. GROUPES DE POINCARÉ DES GROUPES TOPOLOGIQUES
@@ -285,3 +285,7 @@ Il existe un unique isomorphisme $f$ du groupe $F(V,\mathbf{r})$ sur $\widetilde
 L’ensemble $V\cdot V$ est connexe et ouvert, donc localement connexe par arcs. Soit $p$ la projection de $\widetilde{G}$. Il existe une section continue $s$ de $p$ au-dessus de $V\cdot V$ telle que $s(e) =\widetilde{e}$, où $\widetilde{e}$ désigne l’élément neutre de $\widetilde{G}($III, p. 308, prop. 1). Posons $\widetilde{V} =s(V)$ ; l’ensemble $\widetilde{V}$ est un voisinage ouvert connexe de $\widetilde{e}$ dans $\widetilde{G}$ et $s$ est un homéomorphisme de $V\cdot V$ sur $\widetilde{V}\cdot \widetilde{V}$. Les applications $(x, y)\mapsto s(x)s(y)$ et $(x, y)\mapsto s(xy)$ sont des relèvements à $\widetilde{G}$ de l’application $(x, y)\mapsto xy$ de $V\times V$ dans G qui coïncident en $(e, e)$ ; comme $V\times V$ est connexe, elles coïncident sur $V\times V$ (I, p. 34, cor. 1). En outre, si $(\widetilde{x},\widetilde{y},\widetilde{z})\in \widetilde{V}\times \widetilde{V}\times \widetilde{V}$, les conditions $\widetilde{x}\widetilde{y}=\widetilde{z}$ et $p(\widetilde{x})p(\widetilde{y}) =p(\widetilde{z})$ sont équivalentes. L’existence d’un isomorphisme $f: F(V,\mathbf{r})\rightarrow \widetilde{G}$ résulte alors du corollaire 3 (IV, p. 372) de la proposition 2.
 
 Soit $g$ un isomorphisme de $F(V,\mathbf{r})$ vérifiant les conditions de la proposition. L’égalité $e\cdot e=e$ entraîne que $eee^{-1}\in \mathbf{r}$, si bien que $j(e)$ est l’élément neutre de $F(V,\mathbf{r})$. Comme V est connexe, $g\circ j$ est l’unique relèvement continu à $\widetilde{G}$ de l’injection canonique de V dans G. Par suite, $f$ et $g$ coïncident sur $j(V)$. Comme $j(V)$ engendre le groupe $F(V,\mathbf{r})$, $f=g$.
+
+## EXERCICES {#ta-iv-s3-exercises}
+
+See the [exercises for § 3](exercises/s3/).

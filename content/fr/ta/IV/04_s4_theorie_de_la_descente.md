@@ -7,8 +7,8 @@ section: 4
 section_title: Théorie de la descente
 lang: fr
 source: ta-i-iv-fr
-book_pages: A IV.382-A IV.405
-pdf_pages: 0398-0421
+book_pages: A IV.382-A IV.405, A IV.462-A IV.463
+pdf_pages: 0398-0421, 0478-0479
 extraction: native
 subsections:
     - "no": 1
@@ -44,8 +44,8 @@ subsections:
       page: 402
       pdf_page: 418
 statements: 29
-exercises: 0
-content_sha256: 5d39d505050b616e52ba8a385d1a8c7edee8f4515a74a82d797ae9795d5ab8c4
+exercises: 7
+content_sha256: 4a5cbfe9334da77c865281037402a6213d7667e18d84869f2d27e63ca2b01a94
 ---
 
 ## § 4. THÉORIE DE LA DESCENTE
@@ -573,3 +573,7 @@ $$
 Puisque $\beta ([g\cdot c]) =\beta ([c])$ pour tout élément $g\in G$ et tout chemin $c$ dans X, il en résulte l’égalité $\beta ([c_1]) =\beta ([c_2])$, ainsi qu’il fallait démontrer.
 
 D’après le lemme, les deux morphismes de groupoïdes $\beta \circ \varpi$(pr$_1)$ et $\beta \circ \varpi$(pr$_2)$ de $\varpi (X\times_YX)$ dans Coeg($f$) sont égaux. D’après la propriété universelle du coégalisateur, il existe donc un unique morphisme de groupoïdes $\alpha ':$ Coeg($f$)$\rightarrow \varpi (X)/G$ tel que $\beta =\alpha '\circ \gamma$. Le morphisme $\alpha '\circ \alpha$ est l’unique morphisme de groupoïdes $\varphi$ de $\varpi (X)/G$ dans lui-même tel que $\varphi \circ \beta =\beta$; on a donc $\alpha '\circ \alpha$ = Id$_{\varpi(X)/G}$. De même, $\alpha \circ \alpha '=$ Id$_{Coeg(f)}$. Par suite, $\alpha$ est un isomorphisme.
+
+## EXERCICES {#ta-iv-s4-exercises}
+
+See the [exercises for § 4](exercises/s4/).

@@ -7,8 +7,8 @@ section: 2
 section_title: Homotopie et chemins
 lang: fr
 source: ta-i-iv-fr
-book_pages: A III.256-A III.289
-pdf_pages: 0272-0305
+book_pages: A III.256-A III.289, A III.330-A III.333
+pdf_pages: 0272-0305, 0346-0349
 extraction: native
 subsections:
     - "no": 1
@@ -52,8 +52,8 @@ subsections:
       page: 284
       pdf_page: 300
 statements: 63
-exercises: 0
-content_sha256: 2aaf00f8609a5a490eac56c951955f2349a79b0bc20ea2cec145435681e50405
+exercises: 14
+content_sha256: cab0ef567104d438de0b1165e1e3c0a0932ea212c1f76e83c6bb59b3ffdb4612
 ---
 
 ## § 2. HOMOTOPIE ET CHEMINS
@@ -705,3 +705,7 @@ Soit X un espace topologique séparé et soit G un groupe fini, muni de la topol
 Soit $n$ un entier $\geqslant 0$. Notons $P_n$ l’ensemble des polynômes $P\in$ $\mathbf{C}[X]$ unitaires de degré $n$, muni de la topologie pour laquelle l’application $(c_0, . . . , c_{n-1})\mapsto X^n+c_{n-1}X^{n-1}+\cdots +c_0$ est un homéo-morphisme de $\mathbf{C}^n$ sur $P_n$. L’application $p$ de $\mathbf{C}^n$ dans $P_n$ définie par $p(z_1, . . . , z_n) = (X-z_1). . .(X-z_n)$ est continue. Le groupe symétrique $\mathfrak{S}_n$ opère sur $\mathbf{C}^n$ par permutation des facteurs et $p$ définit par passage au quotient un homéomorphisme de $\mathbf{C}^n/\mathfrak{S}_n$ sur $P_n$ (TG, VIII, p. 22, prop. 1, I, p. 23, cor. 1 et TG, VIII, p. 20). On en déduit donc l’énoncé suivant :
 
 Soit I un intervalle de $\mathbf{R}$, soit $(c_0, . . . , c_{n-1})$ une suite d’applications continues de I dans $\mathbf{C}$, soit $a$ un point de I et soit $(z_1, . . . , z_n)$ une suite de nombres complexes telle que l’on ait $(X-z_1). . .(X-z_n) = X^n+$ $c_{n-1}(a)X^{n-1}+\cdots +c_0(a)$. Il existe une suite $(\lambda_1, . . . , \lambda_n)$ d’applications continues de I dans $\mathbf{C}$ telle que l’on ait $\lambda_i(a) =z_i$ pour $1\leqslant i\leqslant n$ et $(X-\lambda_1(t)). . .(X-\lambda_n(t)) = X^n+c_{n-1}(t)X^{n-1}+\cdots +c_0(t)$ pour tout $t\in I$.
+
+## EXERCICES {#ta-iii-s2-exercises}
+
+See the [exercises for § 2](exercises/s2/).

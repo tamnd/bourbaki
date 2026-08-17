@@ -7,8 +7,8 @@ section: 5
 section_title: Théorème de van Kampen
 lang: fr
 source: ta-i-iv-fr
-book_pages: A IV.405-A IV.436
-pdf_pages: 0421-0452
+book_pages: A IV.405-A IV.436, A IV.463-A IV.477
+pdf_pages: 0421-0452, 0479-0493
 extraction: native
 subsections:
     - "no": 1
@@ -36,8 +36,8 @@ subsections:
       page: 429
       pdf_page: 445
 statements: 31
-exercises: 0
-content_sha256: 60ecee17dc5656a1bdd50d5cf707cfb3e6141700e014f969bb840adeb8fbfadd
+exercises: 34
+content_sha256: 6026ee50fceac7e3065076f60de5b4626a6a2f85f6aad77dfbf4d57890272153
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -983,3 +983,7 @@ Pour tout $\ell \in L$, l’ensemble $M_{\ell}$ est ouvert dans A-B et dans $N'_
 Par passage au quotient, l’application $f': C'\rightarrow A$ déduite des injections canoniques dans A des espaces A-B et $N_{\ell}$, pour $\ell \in L$, induit une
 
 application continue $f: C\rightarrow A$. Si $x$ est un point de B, la fibre $\overset{-1}{f}(x)$ est l’ensemble des points $\rho (\varphi_{\ell}(x))$, pour $\ell \in L$. La relation d’équivalence sur C associée à l’application $f$ est la relation R définie au début du numéro. Notons $B_L$ la réunion de la famille $(B_{\ell})_{\ell\in L}$. Par construction, l’application $f$ induit un homéomorphisme de $C-B_L$ sur A-B et, pour $\ell \in L$, un homéomorphisme de $N'_{\ell}$ sur $N_{\ell}$. Nous allons démontrer que l’application $f$ est fermée ; la topologie de A sera donc la topologie quotient de C par la relation d’équivalence R (I, p. 18, exemple 2). Pour cela, démontrons que si F est une partie de A telle que $F\cap (A-B)$ soit fermé dans A-B et telle que $F\cap N'_{\ell}$ soit fermé dans $N'_{\ell}$, pour $\ell \in L$, l’ensemble F est fermé dans A. L’ensemble U, réunion de la famille $(N'_{\ell})_{\ell\in L}$ est ouvert dans A et les ensembles $N'_{\ell}$, pour $\ell \in L$, en constituent un recouvrement fermé fini. Par suite, l’ensemble $F\cap U$ est fermé dans U (TG, I, p. 18, prop. 3). Les ensembles U et A-B forment un recouvrement ouvert de A, l’ensemble F est donc fermé dans A (loc. cit.).
+
+## EXERCICES {#ta-iv-s5-exercises}
+
+See the [exercises for § 5](exercises/s5/).

@@ -1170,65 +1170,65 @@ books:
               path: content/fr/ta/I/01_s1_produits_fibres_et_carres_cartesiens.md
               label: ta-i-s1
               first_pdf_page: 17
-              last_pdf_page: 40
-              book_pages: A I.1-A I.24
+              last_pdf_page: 155
+              book_pages: A I.1-A I.24, A I.139
               subsections: 11
               statements: 44
-              exercises: 0
+              exercises: 2
               extraction: native
-              content_sha256: 440017051878cb3d38a4032e28c93bbb5358b45ecd69541111d94aacf0f9f213
+              content_sha256: f7607b900f6d7a7d54112c51721b34753c2587caaddf4850576a54a796ba67ac
             - kind: section
               section: 2
               title: Applications étales
               path: content/fr/ta/I/02_s2_applications_etales.md
               label: ta-i-s2
               first_pdf_page: 41
-              last_pdf_page: 58
-              book_pages: A I.25-A I.42
+              last_pdf_page: 157
+              book_pages: A I.25-A I.42, A I.140-A I.141
               subsections: 6
               statements: 47
-              exercises: 0
+              exercises: 7
               extraction: native
-              content_sha256: 2c4f20246846601f7920d7a2dbf568e5fd0cffce60ed25a11ed3907ac9da2dc5
+              content_sha256: 9dad7a878106a2f9eefb64314958fdaba881d0dafe1420cbfcf5a4642fa7150d
             - kind: section
               section: 3
               title: Faisceaux
               path: content/fr/ta/I/03_s3_faisceaux.md
               label: ta-i-s3
               first_pdf_page: 58
-              last_pdf_page: 83
-              book_pages: A I.42-A I.67
+              last_pdf_page: 161
+              book_pages: A I.42-A I.67, A I.141-A I.145
               subsections: 10
               statements: 35
-              exercises: 0
+              exercises: 8
               extraction: native
-              content_sha256: 03bd61380b7a235a657a269549c5f7aaa6572d8529a5b483171e40583b5e1a1c
+              content_sha256: 0e203adc3cc78163425865fb66884c00545efaf7452fc3643dcb5ba991e7f4d7
             - kind: section
               section: 4
               title: Revêtements
               path: content/fr/ta/I/04_s4_revetements.md
               label: ta-i-s4
               first_pdf_page: 84
-              last_pdf_page: 106
-              book_pages: A I.68-A I.90
+              last_pdf_page: 163
+              book_pages: A I.68-A I.90, A I.145-A I.147
               subsections: 10
               statements: 50
-              exercises: 0
+              exercises: 9
               extraction: native
-              content_sha256: 03a425bcc9e7dfd1e0495c3419d1920800bd7cb92a44eba9315c3e9cdacb928f
+              content_sha256: ca934970917f7acfc2a1a30a448cc17a1363b1b813438b2326705c4c97461c14
             - kind: section
               section: 5
               title: Revêtements principaux
               path: content/fr/ta/I/05_s5_revetements_principaux.md
               label: ta-i-s5
               first_pdf_page: 107
-              last_pdf_page: 135
-              book_pages: A I.91-A I.119
+              last_pdf_page: 165
+              book_pages: A I.91-A I.119, A I.147-A I.149
               subsections: 7
               statements: 58
-              exercises: 0
+              exercises: 4
               extraction: native
-              content_sha256: 50267f460d15e7bc910dc595bb160936e23850e1e27162ec41c420bb01ad7f34
+              content_sha256: 3911f0810d992f3e67343feceb17da23af4a99a35ecccb73e6961af4fa0fa712
             - kind: section
               section: 6
               title: Espaces simplement connexes
@@ -1236,12 +1236,12 @@ books:
               label: ta-i-s6
               first_pdf_page: 136
               last_pdf_page: 166
-              book_pages: A I.120-A I.150
+              book_pages: A I.120-A I.137, A I.149-A I.150
               subsections: 5
               statements: 37
-              exercises: 0
+              exercises: 6
               extraction: native
-              content_sha256: 59a0e7681779a9a4ee75f5027ef805156c808e4c1c963cc9ee07e98de9791486
+              content_sha256: d5a188d8b0d7068e538d2065b1061f61529072b3ee98bb174c1823580c7eb2a4
         - chapter: II
           title: GROUPOÏDES
           sections:
@@ -1262,39 +1262,39 @@ books:
               path: content/fr/ta/II/01_s1_carquois.md
               label: ta-ii-s1
               first_pdf_page: 167
-              last_pdf_page: 171
-              book_pages: A II.151-A II.155
+              last_pdf_page: 234
+              book_pages: A II.151-A II.155, A II.215-A II.218
               subsections: 6
               statements: 2
-              exercises: 0
+              exercises: 10
               extraction: native
-              content_sha256: 2f8e74c2b62cbf2cebf0e13b84b57da7bbdd963bd760707be83512da724fd3ec
+              content_sha256: b5945a675f9d2e07ca143e96570aaf025abe6517cdfc0254d8c5e11cc1620c22
             - kind: section
               section: 2
               title: Graphes
               path: content/fr/ta/II/02_s2_graphes.md
               label: ta-ii-s2
               first_pdf_page: 171
-              last_pdf_page: 175
-              book_pages: A II.155-A II.159
+              last_pdf_page: 239
+              book_pages: A II.155-A II.159, A II.219-A II.223
               subsections: 4
               statements: 5
-              exercises: 0
+              exercises: 12
               extraction: native
-              content_sha256: 10d22db37eef85b986459ca2f807d1ff3d0b7a34e6022af4cda1081b90dcff60
+              content_sha256: 7b11f57105325047d7638e4ccda232addd1076f464d3da18b009dc079cf93bf9
             - kind: section
               section: 3
               title: Groupoïdes
               path: content/fr/ta/II/03_s3_groupoides.md
               label: ta-ii-s3
               first_pdf_page: 175
-              last_pdf_page: 195
-              book_pages: A II.159-A II.179
+              last_pdf_page: 243
+              book_pages: A II.159-A II.179, A II.223-A II.227
               subsections: 12
               statements: 40
-              exercises: 0
+              exercises: 12
               extraction: native
-              content_sha256: f50d93cffde088e5f1bd6c6174d37d1bd40464fb19fe707ee922901cf5bf4bbe
+              content_sha256: 4dfe715249b961d96e905eb455b131622f7a232e95b9449e4111e563d625299f
             - kind: section
               section: 4
               title: Homotopies
@@ -1315,12 +1315,12 @@ books:
               label: ta-ii-s5
               first_pdf_page: 212
               last_pdf_page: 244
-              book_pages: A II.196-A II.228
+              book_pages: A II.196-A II.214, A II.227-A II.228
               subsections: 5
               statements: 22
-              exercises: 0
+              exercises: 3
               extraction: native
-              content_sha256: e34572ba83f4a5601a28df7f3bd600db2572cab890263dbc547381626d0bab93
+              content_sha256: 4c7139c74bd316bb578998218cff570e16b782d3a06c0a047cef2419d39beb3c
         - chapter: III
           title: HOMOTOPIE ET GROUPOÏDE DE POINCARÉ
           sections:
@@ -1341,52 +1341,52 @@ books:
               path: content/fr/ta/III/01_s1_homotopies_homeotopies.md
               label: ta-iii-s1
               first_pdf_page: 245
-              last_pdf_page: 272
-              book_pages: A III.229-A III.256
+              last_pdf_page: 346
+              book_pages: A III.229-A III.256, A III.321-A III.330
               subsections: 10
               statements: 55
-              exercises: 0
+              exercises: 32
               extraction: native
-              content_sha256: 37b2c7cd5bfaa28e1b581f965f47720bf613ac211342286ac26e5a88bf490518
+              content_sha256: 399e48bb1ca7aaf57b65d9494844a8269031a526df97cde2d52f3d02441dfafa
             - kind: section
               section: 2
               title: Homotopie et chemins
               path: content/fr/ta/III/02_s2_homotopie_et_chemins.md
               label: ta-iii-s2
               first_pdf_page: 272
-              last_pdf_page: 305
-              book_pages: A III.256-A III.289
+              last_pdf_page: 349
+              book_pages: A III.256-A III.289, A III.330-A III.333
               subsections: 10
               statements: 63
-              exercises: 0
+              exercises: 14
               extraction: native
-              content_sha256: 2aaf00f8609a5a490eac56c951955f2349a79b0bc20ea2cec145435681e50405
+              content_sha256: cab0ef567104d438de0b1165e1e3c0a0932ea212c1f76e83c6bb59b3ffdb4612
             - kind: section
               section: 3
               title: Groupoïde de Poincaré
               path: content/fr/ta/III/03_s3_groupoide_de_poincare.md
               label: ta-iii-s3
               first_pdf_page: 305
-              last_pdf_page: 316
-              book_pages: A III.289-A III.300
+              last_pdf_page: 350
+              book_pages: A III.289-A III.300, A III.334
               subsections: 3
               statements: 27
-              exercises: 0
+              exercises: 2
               extraction: native
-              content_sha256: 5a7cdbd2c571d6c2f3d26c449c1235840d01ccaa4350e98d28dde54a459561c1
+              content_sha256: 7f6e95725b6bd44931cf0ad6c60fdb1ae0b277f4ca895550da3b0115d568d793
             - kind: section
               section: 4
               title: Homotopie et revêtements
               path: content/fr/ta/III/04_s4_homotopie_et_revetements.md
               label: ta-iii-s4
               first_pdf_page: 316
-              last_pdf_page: 323
-              book_pages: A III.300-A III.307
+              last_pdf_page: 350
+              book_pages: A III.300-A III.307, A III.334
               subsections: 4
               statements: 16
-              exercises: 0
+              exercises: 1
               extraction: native
-              content_sha256: d576df875de0ebc8ec4b380783bc3123ae15da3214221a74f3dddb4bcd305a21
+              content_sha256: a4835c562bb735697c22647f5e61b6f4c0e2644f10f30d7f66520c829e285683
             - kind: section
               section: 5
               title: Homotopie et revêtements (cas des espaces localement connexes par arcs)
@@ -1394,12 +1394,12 @@ books:
               label: ta-iii-s5
               first_pdf_page: 324
               last_pdf_page: 354
-              book_pages: A III.308-A III.338
+              book_pages: A III.308-A III.320, A III.334-A III.338
               subsections: 4
               statements: 23
-              exercises: 0
+              exercises: 10
               extraction: native
-              content_sha256: d7dace0e868d5da2a87b4d684c939e100489fda9ba8b12f6e4d9839d8b4aef32
+              content_sha256: 05a8005752a7259f0a3387f624d400f50bd0040446bc44eecabcfbe739d7fa53
         - chapter: IV
           title: ESPACES DÉLAÇABLES
           sections:
@@ -1420,65 +1420,65 @@ books:
               path: content/fr/ta/IV/01_s1_espaces_delacables.md
               label: ta-iv-s1
               first_pdf_page: 356
-              last_pdf_page: 367
-              book_pages: A IV.340-A IV.351
+              last_pdf_page: 473
+              book_pages: A IV.340-A IV.351, A IV.455-A IV.457
               subsections: 4
               statements: 20
-              exercises: 0
+              exercises: 6
               extraction: native
-              content_sha256: 155ffffac4b7431150b5059d5ca7564ea931ea37b964c818aa2c4ea9f5859586
+              content_sha256: d205fb80da0bb08a6919e18d69a1c96a19fd7f9b6311bbe8cc4b795bdfbfe17c
             - kind: section
               section: 2
               title: Groupes de Poincaré des espaces délaçables
               path: content/fr/ta/IV/02_s2_groupes_de_poincare_des_espaces.md
               label: ta-iv-s2
               first_pdf_page: 367
-              last_pdf_page: 384
-              book_pages: A IV.351-A IV.368
+              last_pdf_page: 474
+              book_pages: A IV.351-A IV.368, A IV.457-A IV.458
               subsections: 6
               statements: 30
-              exercises: 0
+              exercises: 5
               extraction: native
-              content_sha256: 7119eec31baf2b05c6d7fc1ef33504ab852b7f2a33dbab206cfd3d7255ee37a5
+              content_sha256: 4b2f1984b8356a27ffeca9c22d8e6d8f692e5409c1a78d01dd49846ada5cd4dc
             - kind: section
               section: 3
               title: Groupes de Poincaré des groupes topologiques
               path: content/fr/ta/IV/03_s3_groupes_de_poincare_des_groupes.md
               label: ta-iv-s3
               first_pdf_page: 385
-              last_pdf_page: 398
-              book_pages: A IV.369-A IV.382
+              last_pdf_page: 477
+              book_pages: A IV.369-A IV.382, A IV.459-A IV.461
               subsections: 5
               statements: 21
-              exercises: 0
+              exercises: 10
               extraction: native
-              content_sha256: 0ca6a99c7eed0ae6c1e7af1fffa4314b06c89b1f76941c6157874489a59361fa
+              content_sha256: 51df0626d16b3013a47fe3c4250f6b85c9b95f0362cf3c12832cd75e24bf6b9e
             - kind: section
               section: 4
               title: Théorie de la descente
               path: content/fr/ta/IV/04_s4_theorie_de_la_descente.md
               label: ta-iv-s4
               first_pdf_page: 398
-              last_pdf_page: 421
-              book_pages: A IV.382-A IV.405
+              last_pdf_page: 479
+              book_pages: A IV.382-A IV.405, A IV.462-A IV.463
               subsections: 8
               statements: 29
-              exercises: 0
+              exercises: 7
               extraction: native
-              content_sha256: 5d39d505050b616e52ba8a385d1a8c7edee8f4515a74a82d797ae9795d5ab8c4
+              content_sha256: 4a5cbfe9334da77c865281037402a6213d7667e18d84869f2d27e63ca2b01a94
             - kind: section
               section: 5
               title: Théorème de van Kampen
               path: content/fr/ta/IV/05_s5_theoreme_de_van_kampen.md
               label: ta-iv-s5
               first_pdf_page: 421
-              last_pdf_page: 452
-              book_pages: A IV.405-A IV.436
+              last_pdf_page: 493
+              book_pages: A IV.405-A IV.436, A IV.463-A IV.477
               subsections: 6
               statements: 31
-              exercises: 0
+              exercises: 34
               extraction: native
-              content_sha256: 60ecee17dc5656a1bdd50d5cf707cfb3e6141700e014f969bb840adeb8fbfadd
+              content_sha256: 6026ee50fceac7e3065076f60de5b4626a6a2f85f6aad77dfbf4d57890272153
             - kind: section
               section: 6
               title: Espaces classifiants
@@ -1486,12 +1486,12 @@ books:
               label: ta-iv-s6
               first_pdf_page: 453
               last_pdf_page: 496
-              book_pages: A IV.437-A IV.480
+              book_pages: A IV.437-A IV.454, A IV.477-A IV.480
               subsections: 5
               statements: 32
-              exercises: 0
+              exercises: 9
               extraction: native
-              content_sha256: 5426dfb0347472981986682ac6292fb5587c243494c03881db448165ff162074
+              content_sha256: a2870b304efe50fc74eb2f4defc511a3177c203720e574519b617cf05e9df6e3
     - id: ts-i-ii-fr
       chapters:
         - chapter: I
