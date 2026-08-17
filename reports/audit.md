@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 8 chapters, 90 sections, 878 exercises, 3252 extracted pages, 5049 tags, 4903 references, 1099 translated files, 27 solutions. Languages: en, fr, vi.
+Audited: 8 chapters, 90 sections, 878 exercises, 3252 extracted pages, 5049 tags, 4903 references, 1209 translated files, 27 solutions. Languages: en, fr, vi.
 
 ## Summary
 
@@ -17,12 +17,12 @@ Audited: 8 chapters, 90 sections, 878 exercises, 3252 extracted pages, 5049 tags
 | mathematics | 6 | 2 | 1 | M06 (1), M09 (95) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
-| translation | 9 | 2 | 1 | L06 (23), L08 (56) |
+| translation | 10 | 2 | 1 | L06 (56), L08 (122) |
 | solutions | 0 | 5 | 0 | X05 (2) |
 | publication | 0 | 1 | 0 | P04 (89) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 488 soft, over 58 rules that ran and 3 that could not.
+0 hard findings and 587 soft, over 59 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -144,7 +144,7 @@ Soft, tags.
 
 and 197 more, which `bourbaki audit -only T10` prints in full.
 
-## L06 the glossary is followed (23)
+## L06 the glossary is followed (56)
 
 Soft, translation.
 
@@ -163,16 +163,20 @@ Soft, translation.
 - `content/vi/ens/II/05_s5_product_of_a_family_of_sets.md:1` the English mentions 103 glossary terms and 5 are not in this file as the glossary writes them: defined (được định nghĩa), proved (đã chứng minh), reason (lý do), point (điểm), form (dạng)
 - `content/vi/ens/II/exercises/s6/01.md:1` the English mentions 4 glossary terms and 1 are not in this file as the glossary writes them: necessary (cần thiết)
 - `content/vi/ens/II/exercises/s6/07.md:1` the English mentions 11 glossary terms and 1 are not in this file as the glossary writes them: correspondence (sự tương ứng)
-- `content/vi/ens/III/01_s1_order_relations_ordered_sets.md:1` the English mentions 159 glossary terms and 7 are not in this file as the glossary writes them: The set of natural integers (Tập hợp các số tự nhiên), unique minimal (duy nhất tối tiểu), necessary (cần thiết), addition (phép cộng), complete (đầy đủ), stated (đã phát biểu), lower (thấp hơn)
-- `content/vi/ens/III/02_s2_well_ordered_sets.md:1` the English mentions 117 glossary terms and 2 are not in this file as the glossary writes them: increasing mappings (các ánh xạ tăng), ordered subset (tập con sắp thứ tự)
-- `content/vi/ens/III/03_s3_equipotent_sets_cardinals.md:1` the English mentions 98 glossary terms and 3 are not in this file as the glossary writes them: relation implies (quan hệ suy ra), possible (có thể), reason (lý do)
+- `content/vi/ens/III/01_s1_order_relations_ordered_sets.md:1` the English mentions 159 glossary terms and 7 are not in this file as the glossary writes them: The set of natural integers (Tập hợp các số tự nhiên), directed set (tập có hướng), addition (phép cộng), section (tiết diện), similar (đồng dạng), stated (đã phát biểu), lower (thấp hơn)
+- `content/vi/ens/III/02_s2_well_ordered_sets.md:1` the English mentions 117 glossary terms and 3 are not in this file as the glossary writes them: increasing mappings (các ánh xạ tăng), ordered subset (tập con sắp thứ tự), proved (đã chứng minh)
+- `content/vi/ens/III/03_s3_equipotent_sets_cardinals.md:1` the English mentions 98 glossary terms and 2 are not in this file as the glossary writes them: relation implies (quan hệ suy ra), possible (có thể)
 - `content/vi/ens/III/04_s4_natural_integers_finite_sets.md:1` the English mentions 86 glossary terms and 7 are not in this file as the glossary writes them: totally ordered set (tập sắp thứ tự toàn phần), empty set (tập rỗng), necessary (cần thiết), criteria (các tiêu chuẩn), similar (đồng dạng), proved (đã chứng minh), form (dạng)
-- `content/vi/ens/III/05_s5_properties_of_integers.md:1` the English mentions 127 glossary terms and 4 are not in this file as the glossary writes them: characteristic (đặc số), empty set (tập rỗng), proved (đã chứng minh), series (chuỗi)
-- `content/vi/ens/III/06_s6_infinite_sets.md:1` the English mentions 120 glossary terms and 3 are not in this file as the glossary writes them: introduce (giới thiệu), complete (đầy đủ), stated (đã phát biểu)
-- `content/vi/ens/IV/01_s1_structures_and_isomorphisms.md:1` the English mentions 136 glossary terms and 3 are not in this file as the glossary writes them: equivalent species (các loại tương đương), division (phép chia), echelons (các thang)
-- `content/vi/ens/IV/exercises/s2/01.md:1` the English mentions 28 glossary terms and 1 are not in this file as the glossary writes them: otherwise (nếu không)
+- `content/vi/ens/III/05_s5_properties_of_integers.md:1` the English mentions 127 glossary terms and 3 are not in this file as the glossary writes them: characteristic (đặc số), empty set (tập rỗng), proved (đã chứng minh)
+- `content/vi/ens/III/06_s6_infinite_sets.md:1` the English mentions 120 glossary terms and 6 are not in this file as the glossary writes them: The set of natural integers (Tập hợp các số tự nhiên), introduced (đưa vào), necessary (cần thiết), complete (đầy đủ), nothing (không có gì), stated (đã phát biểu)
+- `content/vi/ens/III/exercises/s1/02.md:1` the English mentions 28 glossary terms and 1 are not in this file as the glossary writes them: addition (phép cộng)
+- `content/vi/ens/III/exercises/s1/03.md:1` the English mentions 35 glossary terms and 2 are not in this file as the glossary writes them: canonically (một cách chính tắc), necessarily (tất yếu)
+- `content/vi/ens/III/exercises/s1/04.md:1` the English mentions 21 glossary terms and 1 are not in this file as the glossary writes them: example (ví dụ)
+- `content/vi/ens/III/exercises/s1/07.md:1` the English mentions 18 glossary terms and 2 are not in this file as the glossary writes them: necessary (cần thiết), constant (hằng số)
 
-## L08 no translation was written by a small model (56)
+and 31 more, which `bourbaki audit -only L06` prints in full.
+
+## L08 no translation was written by a small model (122)
 
 Soft, translation.
 
@@ -202,4 +206,4 @@ Soft, translation.
 - `content/vi/ens/II/exercises/s3/01.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/II/exercises/s3/02.md:1` was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again
 
-and 31 more, which `bourbaki audit -only L08` prints in full.
+and 97 more, which `bourbaki audit -only L08` prints in full.
