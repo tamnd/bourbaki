@@ -1,14 +1,14 @@
 {
   "version": "dev",
-  "commit": "5a24992341417d09a0bd5e48b87ca5a656cfe8df",
-  "root": "/Users/apple/github/tamnd/bourbaki",
+  "commit": "e39cbdde347ce7f3bbc96b05e933a425814139f0",
+  "root": "/tmp/bkcheck",
   "langs": [
     "en",
     "fr",
     "vi"
   ],
   "hard": 0,
-  "soft": 324,
+  "soft": 471,
   "checks": [
     {
       "id": "F01",
@@ -170,7 +170,7 @@
       "group": "publication",
       "hard": false,
       "title": "every math span parses under KaTeX",
-      "found": 93
+      "found": 89
     },
     {
       "id": "R01",
@@ -220,6 +220,13 @@
       "hard": false,
       "title": "no provider leakage and no meta-commentary",
       "found": 0
+    },
+    {
+      "id": "X05",
+      "group": "solutions",
+      "hard": false,
+      "title": "a solution writes its mathematics in TeX",
+      "found": 2
     },
     {
       "id": "S01",
@@ -346,7 +353,7 @@
       "group": "tags",
       "hard": false,
       "title": "the tags of a file climb, as they did on the run that assigned them",
-      "found": 134
+      "found": 215
     },
     {
       "id": "L01",
@@ -388,7 +395,7 @@
       "group": "translation",
       "hard": false,
       "title": "the glossary is followed",
-      "found": 0
+      "found": 18
     },
     {
       "id": "L07",
@@ -402,7 +409,7 @@
       "group": "translation",
       "hard": false,
       "title": "no translation was written by a small model",
-      "found": 1
+      "found": 51
     },
     {
       "id": "L09",
@@ -425,6 +432,13 @@
       "hard": true,
       "title": "no sentence was left untranslated",
       "found": 0
+    },
+    {
+      "id": "L12",
+      "group": "translation",
+      "hard": true,
+      "title": "a word set inside the mathematics is translated too",
+      "found": 0
     }
   ],
   "findings": [
@@ -434,7 +448,7 @@
       "hard": false,
       "file": "content/en/lie/VIII/12_s12_chevalley_orders.md",
       "line": 1,
-      "message": "6.47 displays a page over 17 pages, against a mean of 1.23 and a sigma of 1.30"
+      "message": "6.47 displays a page over 17 pages, against a mean of 1.28 and a sigma of 1.24"
     },
     {
       "check": "M09",
@@ -1608,14 +1622,6 @@
       "check": "P04",
       "group": "publication",
       "hard": false,
-      "file": "content/fr/ta/III/03_s3_groupoide_de_poincare.md",
-      "line": 175,
-      "message": "KaTeX will not set it: Undefined control sequence: \\mapstochar at position 7: (c, d)\\̲m̲a̲p̲s̲t̲o̲c̲h̲a̲r̲ ̲\\rightarrow c*d: (c, d)\\mapstochar \\rightarrow c*d"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
       "file": "content/fr/ta/IV/02_s2_groupes_de_poincare_des_espaces.md",
       "line": 231,
       "message": "KaTeX will not set it: Double superscript at position 34: …{V'}\\circ h^-_V^̲1(x, t): h_{V',V}(x, t) =h_{V'}\\circ h^-_V^1(x, t)"
@@ -1627,14 +1633,6 @@
       "file": "content/fr/ta/IV/02_s2_groupes_de_poincare_des_espaces.md",
       "line": 233,
       "message": "KaTeX will not set it: Double superscript at position 6: g^-_V^̲1\\circ f^*(h_V): g^-_V^1\\circ f^*(h_V)"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
-      "file": "content/fr/ta/IV/06_s6_espaces_classifiants.md",
-      "line": 823,
-      "message": "KaTeX will not set it: Undefined control sequence: \\mapstochar at position 2: t\\̲m̲a̲p̲s̲t̲o̲c̲h̲a̲r̲ ̲\\rightarrow f\\c…: t\\mapstochar \\rightarrow f\\circ p(a, t)"
     },
     {
       "check": "P04",
@@ -1808,14 +1806,6 @@
       "check": "P04",
       "group": "publication",
       "hard": false,
-      "file": "content/fr/ts/II/00_frontmatter.md",
-      "line": 23,
-      "message": "KaTeX will not set it: Undefined control sequence: \\mapstochar at position 2: f\\̲m̲a̲p̲s̲t̲o̲c̲h̲a̲r̲ ̲\\rightarrow \\wi…: f\\mapstochar \\rightarrow \\widetilde{f}"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
       "file": "content/fr/ts/II/exercises/s1/33.md",
       "line": 71,
       "message": "KaTeX will not set it: Double superscript at position 15: \\mathbf{F}^2_p^̲{p-2}: \\mathbf{F}^2_p^{p-2}"
@@ -1912,14 +1902,6 @@
       "check": "P04",
       "group": "publication",
       "hard": false,
-      "file": "content/fr/ts/IV/exercises/s3/33.md",
-      "line": 23,
-      "message": "KaTeX will not set it: Expected group after '^' at position 2: A^̲: A^"
-    },
-    {
-      "check": "P04",
-      "group": "publication",
-      "hard": false,
       "file": "content/fr/ts/V/01_s1_representations_unitaires.md",
       "line": 365,
       "message": "KaTeX will not set it: Double superscript at position 5: ^G_G^̲{\\times}_{\\time…: ^G_G^{\\times}_{\\times \\{}^H_{e\\}}(\\varrho )"
@@ -1939,6 +1921,22 @@
       "file": "content/fr/ts/V/03_s3_fonctions_de_type_positif.md",
       "line": 571,
       "message": "KaTeX will not set it: Double superscript at position 10: x_3=t^1_1^̲{/2}x_1+t^1_2^{…: x_3=t^1_1^{/2}x_1+t^1_2^{/2}x_2"
+    },
+    {
+      "check": "X05",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s1/01.md",
+      "line": 15,
+      "message": "31 characters of mathematics stand outside any math span, as ⇒∈∧≠≤, so the solution was written in symbols rather than in TeX"
+    },
+    {
+      "check": "X05",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s2/01.md",
+      "line": 17,
+      "message": "181 characters of mathematics stand outside any math span, as ΓΣφ→⇔∀∈∉∏≠≤⊂⊃⋂⋃, so the solution was written in symbols rather than in TeX"
     },
     {
       "check": "T10",
@@ -2387,6 +2385,414 @@
       "file": "content/en/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md",
       "line": 46,
       "message": "has 00QN after 00RV, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/I/01_s1_terms_and_relations.md",
+      "line": 131,
+      "message": "has 03P2 after 03TO, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/I/A_a_characterization_of_terms_and_relations.md",
+      "line": 126,
+      "message": "has 03GT after 03P8, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/01_s1_collectivizing_relations.md",
+      "line": 194,
+      "message": "has 03H6 after 03S0, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/03_s3_correspondences.md",
+      "line": 82,
+      "message": "has 03HI after 03PG, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/03_s3_correspondences.md",
+      "line": 100,
+      "message": "has 03HJ after 03S1, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/03_s3_correspondences.md",
+      "line": 128,
+      "message": "has 03PH after 03PI, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/03_s3_correspondences.md",
+      "line": 138,
+      "message": "has 03PJ after 03S2, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/03_s3_correspondences.md",
+      "line": 188,
+      "message": "has 03HK after 03PN, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/03_s3_correspondences.md",
+      "line": 276,
+      "message": "has 03HN after 03PP, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/03_s3_correspondences.md",
+      "line": 350,
+      "message": "has 03S3 after 03V2, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/03_s3_correspondences.md",
+      "line": 368,
+      "message": "has 03HP after 03S4, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/03_s3_correspondences.md",
+      "line": 412,
+      "message": "has 03PQ after 03S9, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/03_s3_correspondences.md",
+      "line": 432,
+      "message": "has 03HR after 03PQ, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md",
+      "line": 133,
+      "message": "has 03I2 after 03PV, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md",
+      "line": 371,
+      "message": "has 03I9 after 03Q2, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md",
+      "line": 389,
+      "message": "has 03IA after 03Q4, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/05_s5_product_of_a_family_of_sets.md",
+      "line": 150,
+      "message": "has 03IK after 03Q8, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/05_s5_product_of_a_family_of_sets.md",
+      "line": 204,
+      "message": "has 03IN after 03QD, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/05_s5_product_of_a_family_of_sets.md",
+      "line": 234,
+      "message": "has 03IO after 03SB, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/05_s5_product_of_a_family_of_sets.md",
+      "line": 339,
+      "message": "has 03IR after 03QG, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/06_s6_equivalence_relations.md",
+      "line": 90,
+      "message": "has 03IX after 03TP, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/06_s6_equivalence_relations.md",
+      "line": 115,
+      "message": "has 03QH after 03TS, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/II/06_s6_equivalence_relations.md",
+      "line": 283,
+      "message": "has 03IY after 03SG, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 114,
+      "message": "has 03JA after 03V3, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 266,
+      "message": "has 03JC after 03WD, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 294,
+      "message": "has 03JE after 03SL, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 332,
+      "message": "has 03JG after 03SP, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 350,
+      "message": "has 03JH after 03SR, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 486,
+      "message": "has 03QJ after 03SU, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 541,
+      "message": "has 03JQ after 03TV, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 575,
+      "message": "has 03JS after 03TY, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/02_s2_well_ordered_sets.md",
+      "line": 82,
+      "message": "has 03JZ after 03T1, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/02_s2_well_ordered_sets.md",
+      "line": 130,
+      "message": "has 03K0 after 03QR, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/02_s2_well_ordered_sets.md",
+      "line": 216,
+      "message": "has 03K2 after 03QS, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/02_s2_well_ordered_sets.md",
+      "line": 234,
+      "message": "has 03QT after 03T4, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/02_s2_well_ordered_sets.md",
+      "line": 240,
+      "message": "has 03K3 after 03QT, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/03_s3_equipotent_sets_cardinals.md",
+      "line": 111,
+      "message": "has 03QX after 03T8, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/03_s3_equipotent_sets_cardinals.md",
+      "line": 145,
+      "message": "has 03KL after 03R0, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/03_s3_equipotent_sets_cardinals.md",
+      "line": 259,
+      "message": "has 03KQ after 03R7, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/03_s3_equipotent_sets_cardinals.md",
+      "line": 353,
+      "message": "has 03L2 after 03R8, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/04_s4_natural_integers_finite_sets.md",
+      "line": 206,
+      "message": "has 03L9 after 03RF, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/04_s4_natural_integers_finite_sets.md",
+      "line": 244,
+      "message": "has 03LD after 03TB, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/06_s6_infinite_sets.md",
+      "line": 122,
+      "message": "has 03MY after 03TE, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
+      "line": 102,
+      "message": "has 03OC after 03TG, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
+      "line": 212,
+      "message": "has 03OD after 03RP, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
+      "line": 284,
+      "message": "has 03OF after 03TJ, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
+      "line": 398,
+      "message": "has 03OJ after 03RQ, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
+      "line": 452,
+      "message": "has 03OK after 03TN, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
+      "line": 494,
+      "message": "has 03OL after 03RR, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
+      "line": 554,
+      "message": "has 03ON after 03RU, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
+      "line": 635,
+      "message": "has 03OQ after 03RV, which was assigned later"
     },
     {
       "check": "T10",
@@ -3013,22 +3419,806 @@
       "message": "has 00QN after 00RV, which was assigned later"
     },
     {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/I/01_s1_terms_and_relations.md",
+      "line": 138,
+      "message": "has 03P2 after 03TO, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/I/A_a_characterization_of_terms_and_relations.md",
+      "line": 133,
+      "message": "has 03GT after 03P8, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/01_s1_collectivizing_relations.md",
+      "line": 201,
+      "message": "has 03H6 after 03S0, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 89,
+      "message": "has 03HI after 03PG, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 107,
+      "message": "has 03HJ after 03S1, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 135,
+      "message": "has 03PH after 03PI, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 145,
+      "message": "has 03PJ after 03S2, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 195,
+      "message": "has 03HK after 03PN, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 283,
+      "message": "has 03HN after 03PP, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 357,
+      "message": "has 03S3 after 03V2, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 375,
+      "message": "has 03HP after 03S4, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 419,
+      "message": "has 03PQ after 03S9, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 439,
+      "message": "has 03HR after 03PQ, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
+      "line": 157,
+      "message": "has 03IK after 03Q8, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
+      "line": 211,
+      "message": "has 03IN after 03QD, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
+      "line": 241,
+      "message": "has 03IO after 03SB, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
+      "line": 346,
+      "message": "has 03IR after 03QG, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 121,
+      "message": "has 03JA after 03V3, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 273,
+      "message": "has 03JC after 03WD, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 301,
+      "message": "has 03JE after 03SL, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 339,
+      "message": "has 03JG after 03SP, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 357,
+      "message": "has 03JH after 03SR, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 493,
+      "message": "has 03QJ after 03SU, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 548,
+      "message": "has 03JQ after 03TV, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 582,
+      "message": "has 03JS after 03TY, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
+      "line": 89,
+      "message": "has 03JZ after 03T1, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
+      "line": 137,
+      "message": "has 03K0 after 03QR, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
+      "line": 223,
+      "message": "has 03K2 after 03QS, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
+      "line": 241,
+      "message": "has 03QT after 03T4, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
+      "line": 247,
+      "message": "has 03K3 after 03QT, which was assigned later"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/alg/VIII/00_frontmatter.md",
+      "line": 1,
+      "message": "the English mentions 38 glossary terms and 2 are not in this file as the glossary writes them: module structure (cấu trúc môđun), l-algebra (đại số trên L)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md",
+      "line": 1,
+      "message": "the English mentions 58 glossary terms and 2 are not in this file as the glossary writes them: Hilbert’s Nullstellensatz (Định lý không điểm của Hilbert), set (tập hợp)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/01_s1_terms_and_relations.md",
+      "line": 1,
+      "message": "the English mentions 83 glossary terms and 5 are not in this file as the glossary writes them: Signs and assemblies (Các dấu và các dãy ký hiệu), substitution (phép thế), division (phép chia), itself (chính nó), lower (thấp hơn)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/03_s3_logical_theories.md",
+      "line": 1,
+      "message": "the English mentions 60 glossary terms and 4 are not in this file as the glossary writes them: similar (đồng dạng), proved (đã chứng minh), reason (lý do), order (thứ tự)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/05_s5_equalitarian_theories.md",
+      "line": 1,
+      "message": "the English mentions 49 glossary terms and 1 are not in this file as the glossary writes them: precisely (chính xác)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/A_a_characterization_of_terms_and_relations.md",
+      "line": 1,
+      "message": "the English mentions 86 glossary terms and 4 are not in this file as the glossary writes them: empty set (tập rỗng), remark (chú ý), series (chuỗi), left (trái)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/exercises/a0/01.md",
+      "line": 1,
+      "message": "the English mentions 5 glossary terms and 1 are not in this file as the glossary writes them: segments (các đoạn)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/exercises/a0/03.md",
+      "line": 1,
+      "message": "the English mentions 22 glossary terms and 1 are not in this file as the glossary writes them: significant (đáng kể)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/exercises/s5/05.md",
+      "line": 1,
+      "message": "the English mentions 1 glossary terms and 1 are not in this file as the glossary writes them: functional (phiếm hàm)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/01_s1_collectivizing_relations.md",
+      "line": 1,
+      "message": "the English mentions 72 glossary terms and 4 are not in this file as the glossary writes them: necessarily (tất yếu), principle (nguyên lý), selection (phép chọn), addition (phép cộng)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 1,
+      "message": "the English mentions 109 glossary terms and 5 are not in this file as the glossary writes them: Composition of two correspondences (hợp thành của hai tương ứng), mapping defined (ánh xạ được xác định), complete (đầy đủ), reason (lý do), series (chuỗi)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
+      "line": 1,
+      "message": "the English mentions 104 glossary terms and 6 are not in this file as the glossary writes them: identity (đơn vị), defined (được định nghĩa), proved (đã chứng minh), reason (lý do), point (điểm), form (dạng)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s6/01.md",
+      "line": 1,
+      "message": "the English mentions 4 glossary terms and 1 are not in this file as the glossary writes them: necessary (cần thiết)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s6/07.md",
+      "line": 1,
+      "message": "the English mentions 11 glossary terms and 1 are not in this file as the glossary writes them: correspondence (sự tương ứng)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 1,
+      "message": "the English mentions 159 glossary terms and 7 are not in this file as the glossary writes them: The set of natural integers (Tập hợp các số tự nhiên), unique minimal (duy nhất tối tiểu), necessary (cần thiết), addition (phép cộng), complete (đầy đủ), stated (đã phát biểu), lower (thấp hơn)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
+      "line": 1,
+      "message": "the English mentions 118 glossary terms and 3 are not in this file as the glossary writes them: increasing mappings (các ánh xạ tăng), ordered subset (tập con sắp thứ tự), identity (đơn vị)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/IV/01_s1_structures_and_isomorphisms.md",
+      "line": 1,
+      "message": "the English mentions 137 glossary terms and 3 are not in this file as the glossary writes them: equivalent species (các loại tương đương), division (phép chia), identity (đơn vị)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/IV/exercises/s2/01.md",
+      "line": 1,
+      "message": "the English mentions 28 glossary terms and 1 are not in this file as the glossary writes them: otherwise (nếu không)"
+    },
+    {
       "check": "L08",
       "group": "translation",
       "hard": false,
       "file": "content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md",
       "line": 1,
       "message": "was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/00_frontmatter.md",
+      "line": 1,
+      "message": "was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/01_s1_terms_and_relations.md",
+      "line": 1,
+      "message": "was translated by laguna-s-2.1-free, hy3-free, gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/02_s2_theorems.md",
+      "line": 1,
+      "message": "was translated by hy3-free, gpt-5-6, laguna-s-2.1-free, gpt-5-6-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/03_s3_logical_theories.md",
+      "line": 1,
+      "message": "was translated by gpt-5-6-mini, hy3-free, laguna-s-2.1-free, gpt-5-6, gpt-5.4, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/05_s5_equalitarian_theories.md",
+      "line": 1,
+      "message": "was translated by hy3-free, laguna-s-2.1-free, gpt-5-6, gpt-5.4-mini, gpt-5-6-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/A_a_characterization_of_terms_and_relations.md",
+      "line": 1,
+      "message": "was translated by hy3-free, gpt-5.4-mini, gpt-5-6, laguna-s-2.1-free, gpt-5-6-mini, gpt-5.4, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/exercises/a0/05.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/exercises/a0/06.md",
+      "line": 1,
+      "message": "was translated by hy3-free, gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/exercises/a0/07.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4, gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/exercises/s1/06.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/exercises/s3/02.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/exercises/s5/01.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/exercises/s5/07.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/01_s1_collectivizing_relations.md",
+      "line": 1,
+      "message": "was translated by hy3-free, nemotron-3.5-lightning-free, laguna-s-2.1-free, gpt-5-6, nemotron-3-ultra-free, gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/02_s2_ordered_pairs.md",
+      "line": 1,
+      "message": "was translated by hy3-free, nemotron-3-ultra-free, gpt-5.4, gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 1,
+      "message": "was translated by nemotron-3-ultra-free, gpt-5-6, nemotron-3.5-lightning-free, hy3-free, laguna-s-2.1-free, gpt-5.4-mini, gpt-5.4, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4, gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s1/03.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s1/04.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s1/05.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s1/06.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s2/01.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s3/01.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s3/02.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s3/03.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s3/05.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s3/08.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s4/02.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s4/03.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s4/05.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s4/06.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s4/08.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, gpt-5.4, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s5/01.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s5/02.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s5/03.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s6/01.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s6/04.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s6/06.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s6/08.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s6/09.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s6/10.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, gpt-5.4, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/II/exercises/s6/11.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4, gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, gpt-5.4, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4, gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/IV/00_frontmatter.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/IV/01_s1_structures_and_isomorphisms.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, gpt-5.4, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/IV/exercises/s1/01.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4, gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/IV/exercises/s2/01.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, gpt-5.4, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/IV/exercises/s2/02.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4, gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/IV/exercises/s2/04.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
     }
   ],
   "counts": {
-    "exercises": 668,
-    "pages": 2873,
-    "references": 4179,
-    "sections": 61,
-    "solutions": 5,
-    "tags": 4464,
-    "translated": 993,
-    "unresolved": 246
+    "exercises": 878,
+    "pages": 3252,
+    "references": 4902,
+    "sections": 89,
+    "solutions": 27,
+    "tags": 5049,
+    "translated": 1093,
+    "unresolved": 250
   }
 }
