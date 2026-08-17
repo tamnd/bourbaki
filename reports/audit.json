@@ -1,6 +1,6 @@
 {
   "version": "dev",
-  "commit": "e39cbdde347ce7f3bbc96b05e933a425814139f0",
+  "commit": "becd80d0d2c25b553eb983dd977d791d47d6b0a9",
   "root": "/tmp/bkcheck",
   "langs": [
     "en",
@@ -8,7 +8,7 @@
     "vi"
   ],
   "hard": 0,
-  "soft": 471,
+  "soft": 487,
   "checks": [
     {
       "id": "F01",
@@ -353,7 +353,7 @@
       "group": "tags",
       "hard": false,
       "title": "the tags of a file climb, as they did on the run that assigned them",
-      "found": 215
+      "found": 222
     },
     {
       "id": "L01",
@@ -395,7 +395,7 @@
       "group": "translation",
       "hard": false,
       "title": "the glossary is followed",
-      "found": 18
+      "found": 22
     },
     {
       "id": "L07",
@@ -409,7 +409,7 @@
       "group": "translation",
       "hard": false,
       "title": "no translation was written by a small model",
-      "found": 51
+      "found": 56
     },
     {
       "id": "L09",
@@ -3659,6 +3659,62 @@
       "message": "has 03K3 after 03QT, which was assigned later"
     },
     {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/03_s3_equipotent_sets_cardinals.md",
+      "line": 118,
+      "message": "has 03QX after 03T8, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/03_s3_equipotent_sets_cardinals.md",
+      "line": 152,
+      "message": "has 03KL after 03R0, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/03_s3_equipotent_sets_cardinals.md",
+      "line": 266,
+      "message": "has 03KQ after 03R7, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/03_s3_equipotent_sets_cardinals.md",
+      "line": 360,
+      "message": "has 03L2 after 03R8, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/04_s4_natural_integers_finite_sets.md",
+      "line": 213,
+      "message": "has 03L9 after 03RF, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/04_s4_natural_integers_finite_sets.md",
+      "line": 251,
+      "message": "has 03LD after 03TB, which was assigned later"
+    },
+    {
+      "check": "T10",
+      "group": "tags",
+      "hard": false,
+      "file": "content/vi/ens/III/06_s6_infinite_sets.md",
+      "line": 129,
+      "message": "has 03MY after 03TE, which was assigned later"
+    },
+    {
       "check": "L06",
       "group": "translation",
       "hard": false,
@@ -3744,7 +3800,7 @@
       "hard": false,
       "file": "content/vi/ens/II/03_s3_correspondences.md",
       "line": 1,
-      "message": "the English mentions 109 glossary terms and 5 are not in this file as the glossary writes them: Composition of two correspondences (hợp thành của hai tương ứng), mapping defined (ánh xạ được xác định), complete (đầy đủ), reason (lý do), series (chuỗi)"
+      "message": "the English mentions 108 glossary terms and 5 are not in this file as the glossary writes them: Composition of two correspondences (hợp thành của hai tương ứng), mapping defined (ánh xạ được xác định), complete (đầy đủ), reason (lý do), series (chuỗi)"
     },
     {
       "check": "L06",
@@ -3752,7 +3808,7 @@
       "hard": false,
       "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
       "line": 1,
-      "message": "the English mentions 104 glossary terms and 6 are not in this file as the glossary writes them: identity (đơn vị), defined (được định nghĩa), proved (đã chứng minh), reason (lý do), point (điểm), form (dạng)"
+      "message": "the English mentions 103 glossary terms and 5 are not in this file as the glossary writes them: defined (được định nghĩa), proved (đã chứng minh), reason (lý do), point (điểm), form (dạng)"
     },
     {
       "check": "L06",
@@ -3784,7 +3840,39 @@
       "hard": false,
       "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
       "line": 1,
-      "message": "the English mentions 118 glossary terms and 3 are not in this file as the glossary writes them: increasing mappings (các ánh xạ tăng), ordered subset (tập con sắp thứ tự), identity (đơn vị)"
+      "message": "the English mentions 117 glossary terms and 2 are not in this file as the glossary writes them: increasing mappings (các ánh xạ tăng), ordered subset (tập con sắp thứ tự)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/III/03_s3_equipotent_sets_cardinals.md",
+      "line": 1,
+      "message": "the English mentions 98 glossary terms and 3 are not in this file as the glossary writes them: relation implies (quan hệ suy ra), possible (có thể), reason (lý do)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/III/04_s4_natural_integers_finite_sets.md",
+      "line": 1,
+      "message": "the English mentions 86 glossary terms and 7 are not in this file as the glossary writes them: totally ordered set (tập sắp thứ tự toàn phần), empty set (tập rỗng), necessary (cần thiết), criteria (các tiêu chuẩn), similar (đồng dạng), proved (đã chứng minh), form (dạng)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/III/05_s5_properties_of_integers.md",
+      "line": 1,
+      "message": "the English mentions 127 glossary terms and 4 are not in this file as the glossary writes them: characteristic (đặc số), empty set (tập rỗng), proved (đã chứng minh), series (chuỗi)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/III/06_s6_infinite_sets.md",
+      "line": 1,
+      "message": "the English mentions 120 glossary terms and 3 are not in this file as the glossary writes them: introduce (giới thiệu), complete (đầy đủ), stated (đã phát biểu)"
     },
     {
       "check": "L06",
@@ -3792,7 +3880,7 @@
       "hard": false,
       "file": "content/vi/ens/IV/01_s1_structures_and_isomorphisms.md",
       "line": 1,
-      "message": "the English mentions 137 glossary terms and 3 are not in this file as the glossary writes them: equivalent species (các loại tương đương), division (phép chia), identity (đơn vị)"
+      "message": "the English mentions 136 glossary terms and 3 are not in this file as the glossary writes them: equivalent species (các loại tương đương), division (phép chia), echelons (các thang)"
     },
     {
       "check": "L06",
@@ -4166,6 +4254,38 @@
       "check": "L08",
       "group": "translation",
       "hard": false,
+      "file": "content/vi/ens/III/03_s3_equipotent_sets_cardinals.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, gpt-5.4, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/III/04_s4_natural_integers_finite_sets.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4, gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/III/05_s5_properties_of_integers.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4-mini, gpt-5.4, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/III/06_s6_infinite_sets.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4, gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
       "file": "content/vi/ens/IV/00_frontmatter.md",
       "line": 1,
       "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
@@ -4209,6 +4329,14 @@
       "file": "content/vi/ens/IV/exercises/s2/04.md",
       "line": 1,
       "message": "was translated by gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/IV/exercises/s2/07.md",
+      "line": 1,
+      "message": "was translated by gpt-5.4, gpt-5.4-mini, which is a cut down model, so the section is worth doing again"
     }
   ],
   "counts": {
@@ -4218,7 +4346,7 @@
     "sections": 89,
     "solutions": 27,
     "tags": 5049,
-    "translated": 1093,
+    "translated": 1098,
     "unresolved": 250
   }
 }
