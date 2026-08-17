@@ -14,15 +14,15 @@ Audited: 8 chapters, 90 sections, 878 exercises, 3253 extracted pages, 5252 tags
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (236) |
-| mathematics | 6 | 2 | 1 | M06 (1), M09 (52) |
+| mathematics | 6 | 2 | 1 | M06 (1), M09 (50) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
 | translation | 11 | 3 | 1 | L06 (66), L08 (4), L15 (2) |
 | solutions | 0 | 5 | 0 | X05 (3) |
-| publication | 0 | 1 | 0 | P04 (49) |
+| publication | 0 | 1 | 0 | P04 (48) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 413 soft, over 61 rules that ran and 3 that could not.
+0 hard findings and 410 soft, over 61 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -41,7 +41,7 @@ Soft, mathematics.
 
 - `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.47 displays a page over 17 pages, against a mean of 1.27 and a sigma of 1.24
 
-## M09 no base carries two superscripts or two subscripts (52)
+## M09 no base carries two superscripts or two subscripts (50)
 
 Soft, mathematics.
 
@@ -67,13 +67,13 @@ Soft, mathematics.
 - `content/fr/alg/VIII/exercises/s19/06.md:21` two of one script against one base, which TeX will not set: ^2_{h^r=0}^{-1}
 - `content/fr/ta/I/03_s3_faisceaux.md:485` two of one script against one base, which TeX will not set: _v^{u_*}_{\mathscr{G}}
 - `content/fr/ta/I/03_s3_faisceaux.md:487` two of one script against one base, which TeX will not set: _v^{u_*}_{\mathscr{G}}
-- `content/fr/ta/I/exercises/s6/05.md:33` two of one script against one base, which TeX will not set: ^1_{1 0}^{-1}
 - `content/fr/ta/II/04_s4_homotopies.md:309` two of one script against one base, which TeX will not set: ^v_{v\circ}^{\circ\varphi}_{\psi}
 - `content/fr/ta/II/05_s5_coegalisateur.md:323` two of one script against one base, which TeX will not set: _{\varphi}^{-_01}_{(j_k)}
+- `content/fr/ta/II/05_s5_coegalisateur.md:327` two of one script against one base, which TeX will not set: _{\psi}^{-_01}_{(j_k)}
 
-and 27 more, which `bourbaki audit -only M09` prints in full.
+and 25 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (49)
+## P04 every math span parses under KaTeX (48)
 
 Soft, publication.
 
@@ -100,10 +100,10 @@ Soft, publication.
 - `content/fr/alg/VIII/exercises/s19/06.md:21` KaTeX will not set it: Double superscript at position 15: \sum^2_{h^r=0}^̲{-1}T^h): \sum^2_{h^r=0}^{-1}T^h)
 - `content/fr/ta/I/03_s3_faisceaux.md:485` KaTeX will not set it: Double subscript at position 18: …*(\beta_v^{u_*}_̲{\mathscr{G}})(…: v_*(\beta_v^{u_*}_{\mathscr{G}})(\beta^v_{\mathscr…
 - `content/fr/ta/I/03_s3_faisceaux.md:487` KaTeX will not set it: Double subscript at position 40: …*(\beta_v^{u_*}_̲{\mathscr{G}})\…: \beta_{\mathscr{G}}^w=v_*(\beta_v^{u_*}_{\mathscr{…
-- `content/fr/ta/I/exercises/s6/05.md:33` KaTeX will not set it: Double superscript at position 9: ^1_{1 0}^̲{-1}: ^1_{1 0}^{-1}
 - `content/fr/ta/II/04_s4_homotopies.md:309` KaTeX will not set it: Double superscript at position 12: ^v_{v\circ}^̲{\circ\varphi}_…: ^v_{v\circ}^{\circ\varphi}_{\psi}G'{H'}^{\varphi}_…
+- `content/fr/ta/II/05_s5_coegalisateur.md:323` KaTeX will not set it: Double subscript at position 90: …\varphi}^{-_01}_̲{(j_k)}\cdot : = (\alpha \circ \varphi )(f_k)\cdot (\alpha \circ …
 
-and 24 more, which `bourbaki audit -only P04` prints in full.
+and 23 more, which `bourbaki audit -only P04` prints in full.
 
 ## X05 a solution writes its mathematics in TeX (3)
 
