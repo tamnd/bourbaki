@@ -7,7 +7,7 @@ section: 1
 section_title: Applications linéaires compactes
 lang: fr
 source: ts-iii-v-fr
-book_pages: A III.2-A III.23, A III.103-A III.118
+book_pages: TS III.2-TS III.23, TS III.103-TS III.118
 pdf_pages: 0016-0037, 0117-0132
 extraction: native
 subsections:

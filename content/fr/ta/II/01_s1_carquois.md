@@ -7,7 +7,7 @@ section: 1
 section_title: Carquois
 lang: fr
 source: ta-i-iv-fr
-book_pages: A II.151-A II.155, A II.215-A II.218
+book_pages: TA II.151-TA II.155, TA II.215-TA II.218
 pdf_pages: 0167-0171, 0231-0234
 extraction: native
 subsections:

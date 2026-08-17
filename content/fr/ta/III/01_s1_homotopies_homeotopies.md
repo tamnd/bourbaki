@@ -7,7 +7,7 @@ section: 1
 section_title: Homotopies, homéotopies
 lang: fr
 source: ta-i-iv-fr
-book_pages: A III.229-A III.256, A III.321-A III.330
+book_pages: TA III.229-TA III.256, TA III.321-TA III.330
 pdf_pages: 0245-0272, 0337-0346
 extraction: native
 subsections:
@@ -53,7 +53,7 @@ subsections:
       pdf_page: 269
 statements: 55
 exercises: 32
-content_sha256: 399e48bb1ca7aaf57b65d9494844a8269031a526df97cde2d52f3d02441dfafa
+content_sha256: f4971769765862da61194450af840c5907877f45a78a17ce62acf26323b8b595
 ---
 
 ## § 1. HOMOTOPIES, HOMÉOTOPIES
@@ -348,7 +348,7 @@ Soit A une partie de $X\times \mathbf{I}$ et soit $A_1$ l’ensemble des points 
 
 #### Remarque 2 {#ta-iii-s1-n6-rem-2 .statement tag=01VS}
 
-Supposons que l’application $f$ soit propre. Soit P un point de Cyl($f$). Si P = $\alpha_f(x, t)$, avec 0 $\leqslant t <$ 1 et $x\in$ X, on a $\alpha^{-1}_f(P) = (x, t)$. Dans le cas contraire, il existe $y\in Y$ tel que $P =\beta_f(y)$ et $\alpha^-_f^1(P) =\overset{-1}{f}(y)\times  \{1\}$. Cela démontre que les fibres de l’application $\alpha_f$ sont quasi-compactes. L’application $\alpha_f$ est alors propre (TG, I, p. 75, th. 1), car elle est fermée.
+Supposons que l’application $f$ soit propre. Soit P un point de Cyl($f$). Si P = $\alpha_f(x, t)$, avec 0 $\leqslant t <$ 1 et $x\in$ X, on a $\alpha^{-1}_f(P) = (x, t)$. Dans le cas contraire, il existe $y\in Y$ tel que $P =\beta_f(y)$ et $\alpha^{-1}_f(P) =\overset{-1}{f}(y)\times  \{1\}$. Cela démontre que les fibres de l’application $\alpha_f$ sont quasi-compactes. L’application $\alpha_f$ est alors propre (TG, I, p. 75, th. 1), car elle est fermée.
 
 D’après la prop. 5 et TG, I, p. 72, prop. 2, l’application $\beta_f$ est elle-même propre. Par suite, si $f$ est propre, la surjection canonique de U sur Cyl($f$) est propre donc, en particulier, universellement stricte (I, p. 20, corollaire).
 

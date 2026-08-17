@@ -7,7 +7,7 @@ section: 2
 section_title: Représentations des groupes localement compacts
 lang: fr
 source: ts-iii-v-fr
-book_pages: A V.399-A V.431, A V.486-A V.492
+book_pages: TS V.399-TS V.431, TS V.486-TS V.492
 pdf_pages: 0412-0444, 0499-0505
 extraction: native
 subsections:

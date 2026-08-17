@@ -8,7 +8,7 @@ section_title: ESPACES DÉLAÇABLES
 kind: front
 lang: fr
 source: ta-i-iv-fr
-book_pages: A IV.339
+book_pages: TA IV.339
 pdf_pages: 0355-0355
 extraction: native
 statements: 0

@@ -7,7 +7,7 @@ section: 3
 section_title: Distributions et distributions tempérées
 lang: fr
 source: ts-iii-v-fr
-book_pages: A IV.196-A IV.223, A IV.330-A IV.344
+book_pages: TS IV.196-TS IV.223, TS IV.330-TS IV.344
 pdf_pages: 0209-0236, 0343-0357
 extraction: native
 subsections:
@@ -52,7 +52,7 @@ subsections:
       page: 214
       pdf_page: 227
     - "no": 11
-      title: Interprétation de fonctions comme distributions tempé- rées
+      title: Interprétation de fonctions comme distributions tempérées
       page: 216
       pdf_page: 229
     - "no": 12
@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: 2548efadcbed47a2bb41d5019dc3ca935387d2e0d98821a7908f38a29fad94b6
+content_sha256: dcac57bf93c65d293e09366aee31b158ead43e2a6f8699dd0c84eb3bfacbd7ec
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -902,7 +902,7 @@ Soit $\alpha \in \mathbf{N}^n$. L’application linéaire $\varphi \mapsto \part
 
 Soit $h\in \mathscr{C}^{\infty}(\mathbf{R}^n)$ une fonction telle que $\partial^{\alpha}h$ est à croissance polynomiale pour tout $\alpha \in \mathbf{N}^n$. La transposée de l’application linéaire continue $\varphi \mapsto h\varphi$ (prop. 14 de IV, p. 214) est une application linéaire continue sur $\mathscr{S}'(\mathbf{R}^n)$, notée $f\mapsto hf$.
 
-### 11. Interprétation de fonctions comme distributions tempé- rées
+### 11. Interprétation de fonctions comme distributions tempérées
 
 #### Définition 5 {#ts-iv-s3-def-5 .statement tag=031B}
 
@@ -1122,7 +1122,7 @@ $$
 
 L’espace hilbertien $H^k(U)$ coïncide avec l’espace noté $\mathscr{H}^k$ dans EVT, V, p. 6, exemple (3).
 
-On a $W^{0,p}(U) = L^p(U)$ et $H^0(U) = L^2(U)$ par définition ; de plus $W^0_0^{,p}(U) = L^p(U)$ d’après la prop. 4, b) de IV, p. 202.
+On a $W^{0,p}(U) = L^p(U)$ et $H^0(U) = L^2(U)$ par définition ; de plus $W^{0,p}_0(U) = L^p(U)$ d’après la prop. 4, b) de IV, p. 202.
 
 #### Proposition 20 {#ts-iv-s3-prop-20 .statement tag=031K}
 

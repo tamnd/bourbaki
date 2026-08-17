@@ -7,7 +7,7 @@ section: 3
 section_title: Groupes de Poincaré des groupes topologiques
 lang: fr
 source: ta-i-iv-fr
-book_pages: A IV.369-A IV.382, A IV.459-A IV.461
+book_pages: TA IV.369-TA IV.382, TA IV.459-TA IV.461
 pdf_pages: 0385-0398, 0475-0477
 extraction: native
 subsections:

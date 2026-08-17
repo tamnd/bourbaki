@@ -7,7 +7,7 @@ section: 2
 section_title: Endomorphismes normaux
 lang: fr
 source: ts-iii-v-fr
-book_pages: A IV.179-A IV.195, A IV.319-A IV.330
+book_pages: TS IV.179-TS IV.195, TS IV.319-TS IV.330
 pdf_pages: 0192-0208, 0332-0343
 extraction: native
 subsections:

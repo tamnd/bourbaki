@@ -8,7 +8,7 @@ section_title: GROUPES LOCALEMENT COMPACTS COMMUTATIFS
 kind: front
 lang: fr
 source: ts-i-ii-fr
-book_pages: A II.199-A II.200
+book_pages: TS II.199-TS II.200
 pdf_pages: 0211-0212
 extraction: native
 statements: 0

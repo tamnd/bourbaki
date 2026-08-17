@@ -7,7 +7,7 @@ section: 8
 section_title: Algèbres de fonctions continues sur un espace compact
 lang: fr
 source: ts-i-ii-fr
-book_pages: A I.142-A I.151, A I.191-A I.197
+book_pages: TS I.142-TS I.151, TS I.191-TS I.197
 pdf_pages: 0155-0164, 0204-0210
 extraction: native
 subsections:

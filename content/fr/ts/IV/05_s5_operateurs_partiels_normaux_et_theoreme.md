@@ -7,7 +7,7 @@ section: 5
 section_title: Opérateurs partiels normaux et théorème spectral
 lang: fr
 source: ts-iii-v-fr
-book_pages: A IV.262-A IV.311, A IV.352-A IV.372
+book_pages: TS IV.262-TS IV.311, TS IV.352-TS IV.372
 pdf_pages: 0275-0324, 0365-0385
 extraction: native
 subsections:
@@ -44,7 +44,7 @@ subsections:
       page: 291
       pdf_page: 304
     - "no": 9
-      title: Principes variationnels pour le spectre des opérateurs po- sitifs
+      title: Principes variationnels pour le spectre des opérateurs positifs
       page: 296
       pdf_page: 309
     - "no": 10
@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: 52c777b3dc11a793f479a920f9bc5f7b39019723e9a4b1fd2bb66d20a97d79dd
+content_sha256: d991f35c8f7c0acffc5b7432b05db05a7ea5b27962d1e1458c8bc3b1169340db
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -1512,7 +1512,7 @@ $$
 
 pour tout $x\in$ dom($u$). Alors $v=u+c1_E$ est un opérateur partiel positif sur E. On appelle extension de Friedrichs de $u$ l’opérateur auto-adjoint $\widetilde{v}-c1_E$, où $\widetilde{v}$ est l’extension de Friedrichs de $v$; c’est une extension auto-adjointe de $u$, qui ne dépend pas du choix du nombre réel $c$ vérifiant (17).
 
-### 9. Principes variationnels pour le spectre des opérateurs po- sitifs
+### 9. Principes variationnels pour le spectre des opérateurs positifs
 
 Dans ce numéro, E est un espace hilbertien complexe non nul.
 

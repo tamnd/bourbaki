@@ -7,7 +7,7 @@ section: 6
 section_title: Propriétés spectrales des endomorphismes des espaces de Banach
 lang: fr
 source: ts-iii-v-fr
-book_pages: A III.82-A III.101, A III.128-A III.142
+book_pages: TS III.82-TS III.101, TS III.128-TS III.142
 pdf_pages: 0096-0115, 0142-0156
 extraction: native
 subsections:

@@ -8,7 +8,7 @@ section_title: THÉORIE SPECTRALE HILBERTIENNE
 kind: front
 lang: fr
 source: ts-iii-v-fr
-book_pages: A IV.145-A IV.146
+book_pages: TS IV.145-TS IV.146
 pdf_pages: 0158-0159
 extraction: native
 statements: 0

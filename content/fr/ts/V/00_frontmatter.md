@@ -8,7 +8,7 @@ section_title: REPRÉSENTATIONS UNITAIRES
 kind: front
 lang: fr
 source: ts-iii-v-fr
-book_pages: A V.373
+book_pages: TS V.373
 pdf_pages: 0386-0386
 extraction: native
 statements: 0

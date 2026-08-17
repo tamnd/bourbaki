@@ -7,7 +7,7 @@ section: 2
 section_title: Exemples d’applications linéaires compactes
 lang: fr
 source: ts-iii-v-fr
-book_pages: A III.23-A III.39, A III.118-A III.120
+book_pages: TS III.23-TS III.39, TS III.118-TS III.120
 pdf_pages: 0037-0053, 0132-0134
 extraction: native
 subsections:

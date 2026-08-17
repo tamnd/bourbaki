@@ -7,7 +7,7 @@ section: 2
 section_title: Algèbres normées
 lang: fr
 source: ts-i-ii-fr
-book_pages: A I.15-A I.29, A I.155-A I.165
+book_pages: TS I.15-TS I.29, TS I.155-TS I.165
 pdf_pages: 0028-0042, 0168-0178
 extraction: native
 subsections:
@@ -37,7 +37,7 @@ subsections:
       pdf_page: 41
 statements: 28
 exercises: 37
-content_sha256: 0be0c3d178a91592c827395e9b73a0546d9b9a4924eae231cd2c7cc2d4cb203b
+content_sha256: 015c9053b44cbf4ed498e124264f53c7733518249f85e8b9f95aff2a1903796f
 ---
 
 ## § 2. ALGÈBRES NORMÉES
@@ -270,11 +270,11 @@ Ces inégalités démontrent la convergence de la suite $(a_n/n)_{n\geqslant 1}$
 
 Soit A une algèbre normée. Pour tout $x\in A$, la suite $(\|x^n\|^{1/n})_{n\geqslant 1}$ est convergente et sa limite $\varrho (x)$ est égale à inf$_{n\geqslant 1}\|x^n\|^{1/n}$. De plus, pour toute norme $x\mapsto  \|x\|_1$ définissant la topologie de A, on a également
 
-$\varrho (x) =$ lim $\|x^n\|^1_1^{/n}=$ inf $\|x^n\|^1_1^{/n}$.
+$\varrho (x) =$ lim $\|x^n\|^{1/n}_1=$ inf $\|x^n\|^{1/n}_1$.
 
 $n\rightarrow +\infty n\geqslant 1$
 
-Si $x$ est nilpotent, on a $\|x^n\|^1_1^{/n}= 0$ pour tout entier $n$ suffisamment grand et toute norme $x\mapsto  \|x\|_1$ définissant la topologie de A.
+Si $x$ est nilpotent, on a $\|x^n\|^{1/n}_1= 0$ pour tout entier $n$ suffisamment grand et toute norme $x\mapsto  \|x\|_1$ définissant la topologie de A.
 
 Supposons maintenant que $x$ n’est pas nilpotent, et posons $\alpha_n=$ $\|x^n\|$. On a $\alpha_n>0$ pour tout entier $n\geqslant 1$, et $\alpha_{n+m}\leqslant \alpha_n\alpha_m$ pour tous $n, m\in \mathbf{N}$ d’après (1). Le lemme 2, appliqué à la suite $a_n=$ log($\alpha_n$), montre l’existence de la limite $\varrho (x)$ et la formule $\varrho (x) =$ inf$_{n>0}\alpha_n^{1/n}$.
 
@@ -287,12 +287,12 @@ $$
 pour tout $x\in A$ (EVT, II, p. 7, cor. 2). Par conséquent,
 
 $$
-a^{1/n}\|x^n\|^{1/n}\leqslant \|x^n\|^1_1^{/n}\leqslant b^{1/n}\|x^n\|^{1/n}
+a^{1/n}\|x^n\|^{1/n}\leqslant \|x^n\|^{1/n}_1\leqslant b^{1/n}\|x^n\|^{1/n}
 $$
 
 pour tout $n\geqslant 1$, d’où en passant à la limite, ou en prenant la borne inférieure, l’égalité
 
-$\varrho (x) =_{n\rightarrow}$lim$_{+\infty}\|x^n\|^1_1^{/n}=$ inf$_{n>0}\|x^n\|^1_1^{/n}$.
+$\varrho (x) =_{n\rightarrow}$lim$_{+\infty}\|x^n\|^{1/n}_1=$ inf$_{n>0}\|x^n\|^{1/n}_1$.
 
 #### Définition 2 {#ts-i-s2-def-2 .statement tag=0260}
 

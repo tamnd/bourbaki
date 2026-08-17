@@ -93,7 +93,7 @@ books:
               statements: 41
               exercises: 8
               extraction: native
-              content_sha256: 22ae1a54d08d23a37d767ca40cb1bbf396cf0a218b29c2c2355c77f480e11542
+              content_sha256: 979adbb97ccde5c60105f84fb1e0b54beccc02cbb9a45ff56c704e7319b7a3ea
             - kind: section
               section: 7
               title: Simple Rings
@@ -184,7 +184,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native
-              content_sha256: 3655ec1a7e9ab9c1debbe633a62ac5a368014e0e83eb7540aeff3779ef6d5e9f
+              content_sha256: da9501ed099d6bc51fb4aa8a7418a423c3b712c29d73420785f4a0228fb130ed
             - kind: section
               section: 14
               title: Central Simple Algebras
@@ -536,7 +536,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native
-              content_sha256: 00a1533bcb80a2ad00827099231a662bcb014b710600a0cf2fd5696a942cd545
+              content_sha256: 831a16ce90e30e3dbf4b5d0c33294519366cfc0d9a18f2cc68d60a4b057a55b5
             - kind: section
               section: 14
               title: Algèbres centrales et simples
@@ -1158,7 +1158,7 @@ books:
               path: content/fr/ta/I/00_frontmatter.md
               first_pdf_page: 17
               last_pdf_page: 17
-              book_pages: A I.1
+              book_pages: TA I.1
               subsections: 0
               statements: 0
               exercises: 0
@@ -1171,7 +1171,7 @@ books:
               label: ta-i-s1
               first_pdf_page: 17
               last_pdf_page: 155
-              book_pages: A I.1-A I.24, A I.139
+              book_pages: TA I.1-TA I.24, TA I.139
               subsections: 11
               statements: 44
               exercises: 2
@@ -1184,7 +1184,7 @@ books:
               label: ta-i-s2
               first_pdf_page: 41
               last_pdf_page: 157
-              book_pages: A I.25-A I.42, A I.140-A I.141
+              book_pages: TA I.25-TA I.42, TA I.140-TA I.141
               subsections: 6
               statements: 47
               exercises: 7
@@ -1197,7 +1197,7 @@ books:
               label: ta-i-s3
               first_pdf_page: 58
               last_pdf_page: 161
-              book_pages: A I.42-A I.67, A I.141-A I.145
+              book_pages: TA I.42-TA I.67, TA I.141-TA I.145
               subsections: 10
               statements: 35
               exercises: 8
@@ -1210,7 +1210,7 @@ books:
               label: ta-i-s4
               first_pdf_page: 84
               last_pdf_page: 163
-              book_pages: A I.68-A I.90, A I.145-A I.147
+              book_pages: TA I.68-TA I.90, TA I.145-TA I.147
               subsections: 10
               statements: 50
               exercises: 9
@@ -1223,7 +1223,7 @@ books:
               label: ta-i-s5
               first_pdf_page: 107
               last_pdf_page: 165
-              book_pages: A I.91-A I.119, A I.147-A I.149
+              book_pages: TA I.91-TA I.119, TA I.147-TA I.149
               subsections: 7
               statements: 58
               exercises: 4
@@ -1236,7 +1236,7 @@ books:
               label: ta-i-s6
               first_pdf_page: 136
               last_pdf_page: 166
-              book_pages: A I.120-A I.137, A I.149-A I.150
+              book_pages: TA I.120-TA I.137, TA I.149-TA I.150
               subsections: 5
               statements: 37
               exercises: 6
@@ -1250,7 +1250,7 @@ books:
               path: content/fr/ta/II/00_frontmatter.md
               first_pdf_page: 167
               last_pdf_page: 167
-              book_pages: A II.151
+              book_pages: TA II.151
               subsections: 0
               statements: 0
               exercises: 0
@@ -1263,7 +1263,7 @@ books:
               label: ta-ii-s1
               first_pdf_page: 167
               last_pdf_page: 234
-              book_pages: A II.151-A II.155, A II.215-A II.218
+              book_pages: TA II.151-TA II.155, TA II.215-TA II.218
               subsections: 6
               statements: 2
               exercises: 10
@@ -1276,7 +1276,7 @@ books:
               label: ta-ii-s2
               first_pdf_page: 171
               last_pdf_page: 239
-              book_pages: A II.155-A II.159, A II.219-A II.223
+              book_pages: TA II.155-TA II.159, TA II.219-TA II.223
               subsections: 4
               statements: 5
               exercises: 12
@@ -1289,7 +1289,7 @@ books:
               label: ta-ii-s3
               first_pdf_page: 175
               last_pdf_page: 243
-              book_pages: A II.159-A II.179, A II.223-A II.227
+              book_pages: TA II.159-TA II.179, TA II.223-TA II.227
               subsections: 12
               statements: 40
               exercises: 12
@@ -1302,7 +1302,7 @@ books:
               label: ta-ii-s4
               first_pdf_page: 196
               last_pdf_page: 212
-              book_pages: A II.180-A II.196
+              book_pages: TA II.180-TA II.196
               subsections: 5
               statements: 15
               exercises: 0
@@ -1315,7 +1315,7 @@ books:
               label: ta-ii-s5
               first_pdf_page: 212
               last_pdf_page: 244
-              book_pages: A II.196-A II.214, A II.227-A II.228
+              book_pages: TA II.196-TA II.214, TA II.227-TA II.228
               subsections: 5
               statements: 22
               exercises: 3
@@ -1329,7 +1329,7 @@ books:
               path: content/fr/ta/III/00_frontmatter.md
               first_pdf_page: 245
               last_pdf_page: 245
-              book_pages: A III.229
+              book_pages: TA III.229
               subsections: 0
               statements: 0
               exercises: 0
@@ -1342,12 +1342,12 @@ books:
               label: ta-iii-s1
               first_pdf_page: 245
               last_pdf_page: 346
-              book_pages: A III.229-A III.256, A III.321-A III.330
+              book_pages: TA III.229-TA III.256, TA III.321-TA III.330
               subsections: 10
               statements: 55
               exercises: 32
               extraction: native
-              content_sha256: 399e48bb1ca7aaf57b65d9494844a8269031a526df97cde2d52f3d02441dfafa
+              content_sha256: f4971769765862da61194450af840c5907877f45a78a17ce62acf26323b8b595
             - kind: section
               section: 2
               title: Homotopie et chemins
@@ -1355,7 +1355,7 @@ books:
               label: ta-iii-s2
               first_pdf_page: 272
               last_pdf_page: 349
-              book_pages: A III.256-A III.289, A III.330-A III.333
+              book_pages: TA III.256-TA III.289, TA III.330-TA III.333
               subsections: 10
               statements: 63
               exercises: 14
@@ -1368,7 +1368,7 @@ books:
               label: ta-iii-s3
               first_pdf_page: 305
               last_pdf_page: 350
-              book_pages: A III.289-A III.300, A III.334
+              book_pages: TA III.289-TA III.300, TA III.334
               subsections: 3
               statements: 27
               exercises: 2
@@ -1381,7 +1381,7 @@ books:
               label: ta-iii-s4
               first_pdf_page: 316
               last_pdf_page: 350
-              book_pages: A III.300-A III.307, A III.334
+              book_pages: TA III.300-TA III.307, TA III.334
               subsections: 4
               statements: 16
               exercises: 1
@@ -1394,7 +1394,7 @@ books:
               label: ta-iii-s5
               first_pdf_page: 324
               last_pdf_page: 354
-              book_pages: A III.308-A III.320, A III.334-A III.338
+              book_pages: TA III.308-TA III.320, TA III.334-TA III.338
               subsections: 4
               statements: 23
               exercises: 10
@@ -1408,7 +1408,7 @@ books:
               path: content/fr/ta/IV/00_frontmatter.md
               first_pdf_page: 355
               last_pdf_page: 355
-              book_pages: A IV.339
+              book_pages: TA IV.339
               subsections: 0
               statements: 0
               exercises: 0
@@ -1421,7 +1421,7 @@ books:
               label: ta-iv-s1
               first_pdf_page: 356
               last_pdf_page: 473
-              book_pages: A IV.340-A IV.351, A IV.455-A IV.457
+              book_pages: TA IV.340-TA IV.351, TA IV.455-TA IV.457
               subsections: 4
               statements: 20
               exercises: 6
@@ -1434,12 +1434,12 @@ books:
               label: ta-iv-s2
               first_pdf_page: 367
               last_pdf_page: 474
-              book_pages: A IV.351-A IV.368, A IV.457-A IV.458
+              book_pages: TA IV.351-TA IV.368, TA IV.457-TA IV.458
               subsections: 6
               statements: 30
               exercises: 5
               extraction: native
-              content_sha256: 4b2f1984b8356a27ffeca9c22d8e6d8f692e5409c1a78d01dd49846ada5cd4dc
+              content_sha256: 9772e1f4e76b3b582778d0dcf1d6374675f46c35d8aede4730b0332b38d763c7
             - kind: section
               section: 3
               title: Groupes de Poincaré des groupes topologiques
@@ -1447,7 +1447,7 @@ books:
               label: ta-iv-s3
               first_pdf_page: 385
               last_pdf_page: 477
-              book_pages: A IV.369-A IV.382, A IV.459-A IV.461
+              book_pages: TA IV.369-TA IV.382, TA IV.459-TA IV.461
               subsections: 5
               statements: 21
               exercises: 10
@@ -1460,7 +1460,7 @@ books:
               label: ta-iv-s4
               first_pdf_page: 398
               last_pdf_page: 479
-              book_pages: A IV.382-A IV.405, A IV.462-A IV.463
+              book_pages: TA IV.382-TA IV.405, TA IV.462-TA IV.463
               subsections: 8
               statements: 29
               exercises: 7
@@ -1473,7 +1473,7 @@ books:
               label: ta-iv-s5
               first_pdf_page: 421
               last_pdf_page: 493
-              book_pages: A IV.405-A IV.436, A IV.463-A IV.477
+              book_pages: TA IV.405-TA IV.436, TA IV.463-TA IV.477
               subsections: 6
               statements: 31
               exercises: 34
@@ -1486,7 +1486,7 @@ books:
               label: ta-iv-s6
               first_pdf_page: 453
               last_pdf_page: 496
-              book_pages: A IV.437-A IV.454, A IV.477-A IV.480
+              book_pages: TA IV.437-TA IV.454, TA IV.477-TA IV.480
               subsections: 5
               statements: 32
               exercises: 9
@@ -1502,7 +1502,7 @@ books:
               path: content/fr/ts/I/00_frontmatter.md
               first_pdf_page: 14
               last_pdf_page: 14
-              book_pages: A I.1
+              book_pages: TS I.1
               subsections: 0
               statements: 0
               exercises: 0
@@ -1515,7 +1515,7 @@ books:
               label: ts-i-s1
               first_pdf_page: 14
               last_pdf_page: 167
-              book_pages: A I.1-A I.15, A I.153-A I.154
+              book_pages: TS I.1-TS I.15, TS I.153-TS I.154
               subsections: 8
               statements: 33
               exercises: 8
@@ -1528,12 +1528,12 @@ books:
               label: ts-i-s2
               first_pdf_page: 28
               last_pdf_page: 178
-              book_pages: A I.15-A I.29, A I.155-A I.165
+              book_pages: TS I.15-TS I.29, TS I.155-TS I.165
               subsections: 6
               statements: 28
               exercises: 37
               extraction: native
-              content_sha256: 0be0c3d178a91592c827395e9b73a0546d9b9a4924eae231cd2c7cc2d4cb203b
+              content_sha256: 015c9053b44cbf4ed498e124264f53c7733518249f85e8b9f95aff2a1903796f
             - kind: section
               section: 3
               title: Algèbres de Banach commutatives
@@ -1541,12 +1541,12 @@ books:
               label: ts-i-s3
               first_pdf_page: 42
               last_pdf_page: 185
-              book_pages: A I.29-A I.49, A I.166-A I.172
+              book_pages: TS I.29-TS I.49, TS I.166-TS I.172
               subsections: 7
               statements: 48
               exercises: 29
               extraction: native
-              content_sha256: 445e9146c9eeefd8b29764fbeefa325bce58c3d482affbdca27df267b4572a78
+              content_sha256: 255ce867f2f92aa5a433ad83c31093aad3669f7a2b53ca2d52e3c277250f585e
             - kind: section
               section: 4
               title: Calcul fonctionnel holomorphe
@@ -1554,12 +1554,12 @@ books:
               label: ts-i-s4
               first_pdf_page: 62
               last_pdf_page: 190
-              book_pages: A I.49-A I.88, A I.172-A I.177
+              book_pages: TS I.49-TS I.88, TS I.172-TS I.177
               subsections: 14
               statements: 55
               exercises: 18
               extraction: native
-              content_sha256: 33dcf620be1bbbf74fc41dd412fda77f90cad3658fbe14fc00a18ce4253618bf
+              content_sha256: 01f7d92569861302816b91ad977439840048381ad2f72762735ba146e3c5ff15
             - kind: section
               section: 5
               title: Algèbres de Banach commutatives régulières
@@ -1567,7 +1567,7 @@ books:
               label: ts-i-s5
               first_pdf_page: 101
               last_pdf_page: 193
-              book_pages: A I.88-A I.95, A I.178-A I.180
+              book_pages: TS I.88-TS I.95, TS I.178-TS I.180
               subsections: 2
               statements: 16
               exercises: 7
@@ -1580,12 +1580,12 @@ books:
               label: ts-i-s6
               first_pdf_page: 108
               last_pdf_page: 200
-              book_pages: A I.95-A I.127, A I.180-A I.187
+              book_pages: TS I.95-TS I.127, TS I.180-TS I.187
               subsections: 13
               statements: 94
               exercises: 32
               extraction: native
-              content_sha256: d5f7022988bd6fff865e8014ac7aec2c89bcd4133c067065e099369def1ce4e4
+              content_sha256: d55083c241f4ca758dd6515a40723b704b63198caffb074084201f9875adfbb7
             - kind: section
               section: 7
               title: Spectre des endomorphismes des espaces de Banach
@@ -1593,7 +1593,7 @@ books:
               label: ts-i-s7
               first_pdf_page: 140
               last_pdf_page: 204
-              book_pages: A I.127-A I.142, A I.187-A I.191
+              book_pages: TS I.127-TS I.142, TS I.187-TS I.191
               subsections: 8
               statements: 24
               exercises: 16
@@ -1606,7 +1606,7 @@ books:
               label: ts-i-s8
               first_pdf_page: 155
               last_pdf_page: 210
-              book_pages: A I.142-A I.151, A I.191-A I.197
+              book_pages: TS I.142-TS I.151, TS I.191-TS I.197
               subsections: 3
               statements: 11
               exercises: 11
@@ -1620,7 +1620,7 @@ books:
               path: content/fr/ts/II/00_frontmatter.md
               first_pdf_page: 211
               last_pdf_page: 212
-              book_pages: A II.199-A II.200
+              book_pages: TS II.199-TS II.200
               subsections: 0
               statements: 0
               exercises: 0
@@ -1633,7 +1633,7 @@ books:
               label: ts-ii-s1
               first_pdf_page: 213
               last_pdf_page: 316
-              book_pages: A II.201-A II.243, A II.262-A II.304
+              book_pages: TS II.201-TS II.243, A II.262-TS II.304
               subsections: 9
               statements: 95
               exercises: 68
@@ -1646,7 +1646,7 @@ books:
               label: ts-ii-s2
               first_pdf_page: 256
               last_pdf_page: 320
-              book_pages: A II.244-A II.250, A II.304-A II.308
+              book_pages: TS II.244-TS II.250, TS II.304-TS II.308
               subsections: 2
               statements: 16
               exercises: 14
@@ -1659,7 +1659,7 @@ books:
               label: ts-ii-s3
               first_pdf_page: 262
               last_pdf_page: 330
-              book_pages: A II.250-A II.261, A II.308-A II.318
+              book_pages: TS II.250-TS II.261, TS II.308-TS II.318
               subsections: 3
               statements: 12
               exercises: 19
@@ -1675,7 +1675,7 @@ books:
               path: content/fr/ts/III/00_frontmatter.md
               first_pdf_page: 15
               last_pdf_page: 16
-              book_pages: A III.1-A III.2
+              book_pages: TS III.1-TS III.2
               subsections: 0
               statements: 0
               exercises: 0
@@ -1688,7 +1688,7 @@ books:
               label: ts-iii-s1
               first_pdf_page: 16
               last_pdf_page: 132
-              book_pages: A III.2-A III.23, A III.103-A III.118
+              book_pages: TS III.2-TS III.23, TS III.103-TS III.118
               subsections: 7
               statements: 57
               exercises: 37
@@ -1701,7 +1701,7 @@ books:
               label: ts-iii-s2
               first_pdf_page: 37
               last_pdf_page: 134
-              book_pages: A III.23-A III.39, A III.118-A III.120
+              book_pages: TS III.23-TS III.39, TS III.118-TS III.120
               subsections: 7
               statements: 26
               exercises: 4
@@ -1714,7 +1714,7 @@ books:
               label: ts-iii-s3
               first_pdf_page: 53
               last_pdf_page: 136
-              book_pages: A III.39-A III.55, A III.120-A III.122
+              book_pages: TS III.39-TS III.55, TS III.120-TS III.122
               subsections: 6
               statements: 31
               exercises: 8
@@ -1727,7 +1727,7 @@ books:
               label: ts-iii-s4
               first_pdf_page: 69
               last_pdf_page: 138
-              book_pages: A III.55-A III.70, A III.123-A III.124
+              book_pages: TS III.55-TS III.70, TS III.123-TS III.124
               subsections: 6
               statements: 30
               exercises: 9
@@ -1740,12 +1740,12 @@ books:
               label: ts-iii-s5
               first_pdf_page: 85
               last_pdf_page: 142
-              book_pages: A III.71-A III.82, A III.125-A III.128
+              book_pages: TS III.71-TS III.82, TS III.125-TS III.128
               subsections: 6
               statements: 19
               exercises: 11
               extraction: native
-              content_sha256: b05606f49debbb248d625f36e9a2584118931c90fd9b5963eaeb0d0682c56fcb
+              content_sha256: 7b6f43887a77e9b42c8333784ae0263347c65c3e329a3d71dc8aa12d7293d0e1
             - kind: section
               section: 6
               title: Propriétés spectrales des endomorphismes des espaces de Banach
@@ -1753,7 +1753,7 @@ books:
               label: ts-iii-s6
               first_pdf_page: 96
               last_pdf_page: 156
-              book_pages: A III.82-A III.101, A III.128-A III.142
+              book_pages: TS III.82-TS III.101, TS III.128-TS III.142
               subsections: 7
               statements: 36
               exercises: 30
@@ -1767,7 +1767,7 @@ books:
               path: content/fr/ts/IV/00_frontmatter.md
               first_pdf_page: 158
               last_pdf_page: 159
-              book_pages: A IV.145-A IV.146
+              book_pages: TS IV.145-TS IV.146
               subsections: 0
               statements: 0
               exercises: 0
@@ -1780,7 +1780,7 @@ books:
               label: ts-iv-s1
               first_pdf_page: 159
               last_pdf_page: 332
-              book_pages: A IV.146-A IV.179, A IV.313-A IV.319
+              book_pages: TS IV.146-TS IV.179, TS IV.313-TS IV.319
               subsections: 10
               statements: 66
               exercises: 22
@@ -1793,7 +1793,7 @@ books:
               label: ts-iv-s2
               first_pdf_page: 192
               last_pdf_page: 343
-              book_pages: A IV.179-A IV.195, A IV.319-A IV.330
+              book_pages: TS IV.179-TS IV.195, TS IV.319-TS IV.330
               subsections: 8
               statements: 32
               exercises: 28
@@ -1806,12 +1806,12 @@ books:
               label: ts-iv-s3
               first_pdf_page: 209
               last_pdf_page: 357
-              book_pages: A IV.196-A IV.223, A IV.330-A IV.344
+              book_pages: TS IV.196-TS IV.223, TS IV.330-TS IV.344
               subsections: 14
               statements: 46
               exercises: 33
               extraction: native
-              content_sha256: 2548efadcbed47a2bb41d5019dc3ca935387d2e0d98821a7908f38a29fad94b6
+              content_sha256: dcac57bf93c65d293e09366aee31b158ead43e2a6f8699dd0c84eb3bfacbd7ec
             - kind: section
               section: 4
               title: Opérateurs partiels
@@ -1819,7 +1819,7 @@ books:
               label: ts-iv-s4
               first_pdf_page: 237
               last_pdf_page: 365
-              book_pages: A IV.224-A IV.261, A IV.344-A IV.352
+              book_pages: TS IV.224-TS IV.261, TS IV.344-TS IV.352
               subsections: 10
               statements: 74
               exercises: 24
@@ -1832,12 +1832,12 @@ books:
               label: ts-iv-s5
               first_pdf_page: 275
               last_pdf_page: 385
-              book_pages: A IV.262-A IV.311, A IV.352-A IV.372
+              book_pages: TS IV.262-TS IV.311, TS IV.352-TS IV.372
               subsections: 12
               statements: 75
               exercises: 43
               extraction: native
-              content_sha256: 52c777b3dc11a793f479a920f9bc5f7b39019723e9a4b1fd2bb66d20a97d79dd
+              content_sha256: d991f35c8f7c0acffc5b7432b05db05a7ea5b27962d1e1458c8bc3b1169340db
         - chapter: V
           title: REPRÉSENTATIONS UNITAIRES
           sections:
@@ -1846,7 +1846,7 @@ books:
               path: content/fr/ts/V/00_frontmatter.md
               first_pdf_page: 386
               last_pdf_page: 386
-              book_pages: A V.373
+              book_pages: TS V.373
               subsections: 0
               statements: 0
               exercises: 0
@@ -1859,12 +1859,12 @@ books:
               label: ts-v-s1
               first_pdf_page: 386
               last_pdf_page: 499
-              book_pages: A V.373-A V.398, A V.483-A V.486
+              book_pages: TS V.373-TS V.398, TS V.483-TS V.486
               subsections: 11
               statements: 50
               exercises: 7
               extraction: native
-              content_sha256: 5053a4dc4e4e329edeb4e91a8697d86524dabbe10969a25702b4d92ba3c10685
+              content_sha256: ed3d7f352e41bd04dc0b27d64f5189da102b07d59801abcc5ede376aa66204e7
             - kind: section
               section: 2
               title: Représentations des groupes localement compacts
@@ -1872,7 +1872,7 @@ books:
               label: ts-v-s2
               first_pdf_page: 412
               last_pdf_page: 505
-              book_pages: A V.399-A V.431, A V.486-A V.492
+              book_pages: TS V.399-TS V.431, TS V.486-TS V.492
               subsections: 10
               statements: 45
               exercises: 20
@@ -1885,12 +1885,12 @@ books:
               label: ts-v-s3
               first_pdf_page: 444
               last_pdf_page: 517
-              book_pages: A V.431-A V.456, A V.492-A V.504
+              book_pages: TS V.431-TS V.456, TS V.492-TS V.504
               subsections: 8
               statements: 39
               exercises: 23
               extraction: native
-              content_sha256: dc055543a3bf644ab6de944269b86dbe94fca664b1eab100d6a1ae1a413a4b1a
+              content_sha256: 5a8aecad360cc9a7e2a1980f62e1976cababa0d76dcc174f7b703a86f4f0e1de
             - kind: section
               section: 4
               title: Représentations des groupes compacts
@@ -1898,7 +1898,7 @@ books:
               label: ts-v-s4
               first_pdf_page: 469
               last_pdf_page: 529
-              book_pages: A V.456-A V.482, A V.504-A V.516
+              book_pages: TS V.456-TS V.482, TS V.504-TS V.516
               subsections: 9
               statements: 54
               exercises: 32
@@ -1909,7 +1909,7 @@ books:
               path: content/fr/ts/V/historical_note.md
               first_pdf_page: 530
               last_pdf_page: 553
-              book_pages: A V.517-A V.540
+              book_pages: TS V.517-TS V.540
               subsections: 8
               statements: 0
               exercises: 0

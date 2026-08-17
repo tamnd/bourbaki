@@ -7,7 +7,7 @@ section: 1
 section_title: Produits fibrés et carrés cartésiens
 lang: fr
 source: ta-i-iv-fr
-book_pages: A I.1-A I.24, A I.139
+book_pages: TA I.1-TA I.24, TA I.139
 pdf_pages: 0017-0040, 0155-0155
 extraction: native
 subsections:

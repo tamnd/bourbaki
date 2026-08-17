@@ -8,7 +8,7 @@ section_title: Historical Note
 kind: historical
 lang: fr
 source: ts-iii-v-fr
-book_pages: A V.517-A V.540
+book_pages: TS V.517-TS V.540
 pdf_pages: 0530-0553
 extraction: native
 subsections:

@@ -7,7 +7,7 @@ section: 3
 section_title: Faisceaux
 lang: fr
 source: ta-i-iv-fr
-book_pages: A I.42-A I.67, A I.141-A I.145
+book_pages: TA I.42-TA I.67, TA I.141-TA I.145
 pdf_pages: 0058-0083, 0157-0161
 extraction: native
 subsections:

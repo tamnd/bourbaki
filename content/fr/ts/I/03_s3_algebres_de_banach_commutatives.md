@@ -7,7 +7,7 @@ section: 3
 section_title: Algèbres de Banach commutatives
 lang: fr
 source: ts-i-ii-fr
-book_pages: A I.29-A I.49, A I.166-A I.172
+book_pages: TS I.29-TS I.49, TS I.166-TS I.172
 pdf_pages: 0042-0062, 0179-0185
 extraction: native
 subsections:
@@ -16,7 +16,7 @@ subsections:
       page: 29
       pdf_page: 42
     - "no": 2
-      title: Fonctions continues nulles à l’infini sur un espace locale- ment compact
+      title: Fonctions continues nulles à l’infini sur un espace localement compact
       page: 31
       pdf_page: 44
     - "no": 3
@@ -41,7 +41,7 @@ subsections:
       pdf_page: 57
 statements: 48
 exercises: 29
-content_sha256: 445e9146c9eeefd8b29764fbeefa325bce58c3d482affbdca27df267b4572a78
+content_sha256: 255ce867f2f92aa5a433ad83c31093aad3669f7a2b53ca2d52e3c277250f585e
 ---
 
 ## § 3. ALGÈBRES DE BANACH COMMUTATIVES
@@ -94,7 +94,7 @@ de $\mathsf{X}(A)$, qu’on notera parfois encore V(M). Similairement, pour tout
 
 Quand on utilisera une notion topologique dans $\mathsf{X}(A)$ sans préciser de quelle topologie il s’agit, il s’agira toujours de la topologie faible.
 
-### 2. Fonctions continues nulles à l’infini sur un espace locale- ment compact
+### 2. Fonctions continues nulles à l’infini sur un espace localement compact
 
 Dans ce numéro, X est un espace localement compact. On note $\mathscr{C}_0(X)$ l’algèbre de Banach commutative des fonctions complexes continues tendant vers 0 à l’infini sur X, munie de la norme $\|f\|=$ sup$|f(x)|$
 

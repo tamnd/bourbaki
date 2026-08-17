@@ -7,7 +7,7 @@ section: 1
 section_title: Représentations unitaires
 lang: fr
 source: ts-iii-v-fr
-book_pages: A V.373-A V.398, A V.483-A V.486
+book_pages: TS V.373-TS V.398, TS V.483-TS V.486
 pdf_pages: 0386-0411, 0496-0499
 extraction: native
 subsections:
@@ -32,7 +32,7 @@ subsections:
       page: 379
       pdf_page: 392
     - "no": 6
-      title: Somme directe hilbertienne et produit tensoriel de repré- sentations unitaires
+      title: Somme directe hilbertienne et produit tensoriel de représentations unitaires
       page: 383
       pdf_page: 396
     - "no": 7
@@ -57,7 +57,7 @@ subsections:
       pdf_page: 407
 statements: 50
 exercises: 7
-content_sha256: 5053a4dc4e4e329edeb4e91a8697d86524dabbe10969a25702b4d92ba3c10685
+content_sha256: ed3d7f352e41bd04dc0b27d64f5189da102b07d59801abcc5ede376aa66204e7
 ---
 
 ## § 1. REPRÉSENTATIONS UNITAIRES
@@ -336,7 +336,7 @@ et comme $\varrho (g)(p(x))$ appartient à F et $\varrho (g)y$ à $F^{\circ}$ (p
 
 Réciproquement, si $p\in$ Hom$_G(\varrho , \varrho )$ alors $1_E-p$ est un G-morphisme, donc F = Ker(1$_E-p)$ est une sous-représentation de $\varrho$.
 
-### 6. Somme directe hilbertienne et produit tensoriel de repré- sentations unitaires
+### 6. Somme directe hilbertienne et produit tensoriel de représentations unitaires
 
 Soit G un groupe topologique. Soit $(\varrho_i)_{i\in I}$ une famille de représentations unitaires de G dans des espaces hilbertiens $E_i$. Soit E l’espace somme hilbertienne externe des $E_i$ (EVT, V, p. 18, déf. 1). Pour tout $g$ dans G et pour tout $x= (x_i)_{i\in I}$ dans E, on a
 
@@ -362,7 +362,7 @@ a) L’application $\varrho : (g, h)\mapsto \varrho (g, h)$ est une représentat
 
 b) Pour toute base orthonormale $(e_i)_{i\in I}$ de $E_1$, l’application de la somme hilbertienne $\bigoplus_{i\in I}E_2$ dans E définie par $(y_i)_{i\in I}\mapsto \sum_{i\in I}e_i\otimes y_i$ est un H-isomorphisme isométrique de la somme hilbertienne $\bigoplus_{i\in I}\varrho_2$ dans Res$^{G\times H}_{\{e\}\times H}(\varrho )$;
 
-c) Pour toute base orthonormale $(f_j)_{j\in J}$ de $E_2$, l’application de la somme hilbertienne $\bigoplus_{j\in J}E_1$ dans E définie par $(x_j)_{j\in J}\mapsto \sum_{j\in J}x_j\otimes f_j$ est un G-isomorphisme isométrique de la somme hilbertienne $\bigoplus_{j\in J}\varrho_1$ dans Res$^G_G^{\times}_{\times \{}^H_{e\}}(\varrho )$.
+c) Pour toute base orthonormale $(f_j)_{j\in J}$ de $E_2$, l’application de la somme hilbertienne $\bigoplus_{j\in J}E_1$ dans E définie par $(x_j)_{j\in J}\mapsto \sum_{j\in J}x_j\otimes f_j$ est un G-isomorphisme isométrique de la somme hilbertienne $\bigoplus_{j\in J}\varrho_1$ dans Res$^{G\times H}_{G\times \{e\}}(\varrho )$.
 
 L’application $(g, h)\mapsto \varrho (g, h)$ est un homomorphisme de G dans $\mathbf{G}\mathbf{L}(E) ($cf. EVT, V, p. 28, n$^o2)$. Soit $(e_i)_{i\in I}$ une base orthonormale de $E_1$. D’après EVT, V, p. 29, prop. 3 et cor. 2, l’application
 

@@ -7,7 +7,7 @@ section: 5
 section_title: Revêtements principaux
 lang: fr
 source: ta-i-iv-fr
-book_pages: A I.91-A I.119, A I.147-A I.149
+book_pages: TA I.91-TA I.119, TA I.147-TA I.149
 pdf_pages: 0107-0135, 0163-0165
 extraction: native
 subsections:

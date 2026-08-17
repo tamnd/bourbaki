@@ -7,7 +7,7 @@ section: 4
 section_title: Opérateurs partiels
 lang: fr
 source: ts-iii-v-fr
-book_pages: A IV.224-A IV.261, A IV.344-A IV.352
+book_pages: TS IV.224-TS IV.261, TS IV.344-TS IV.352
 pdf_pages: 0237-0274, 0357-0365
 extraction: native
 subsections:

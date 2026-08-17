@@ -8,7 +8,7 @@ section_title: APPLICATIONS LINÉAIRES COMPACTES ET PERTURBATIONS
 kind: front
 lang: fr
 source: ts-iii-v-fr
-book_pages: A III.1-A III.2
+book_pages: TS III.1-TS III.2
 pdf_pages: 0015-0016
 extraction: native
 statements: 0

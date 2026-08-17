@@ -7,7 +7,7 @@ section: 7
 section_title: Spectre des endomorphismes des espaces de Banach
 lang: fr
 source: ts-i-ii-fr
-book_pages: A I.127-A I.142, A I.187-A I.191
+book_pages: TS I.127-TS I.142, TS I.187-TS I.191
 pdf_pages: 0140-0155, 0200-0204
 extraction: native
 subsections:

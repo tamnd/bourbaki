@@ -45,7 +45,7 @@ subsections:
       pdf_page: 242
 statements: 33
 exercises: 12
-content_sha256: 00a1533bcb80a2ad00827099231a662bcb014b710600a0cf2fd5696a942cd545
+content_sha256: 831a16ce90e30e3dbf4b5d0c33294519366cfc0d9a18f2cc68d60a4b057a55b5
 ---
 
 ## § 13. ALGÈBRES ABSOLUMENT SEMI-SIMPLES
@@ -349,7 +349,7 @@ On note $d_0=d^0_0$ l’application $\varepsilon : B_0\rightarrow A$.
 Soit $n$ un entier $\geqslant 1$. Pour $0\leqslant i < j\leqslant n$, on a
 
 $$
-d_{n-1}^i\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \tag{6}
+d_{n-1}^i\circ d_n^j=d_{n-1}^{j-1}\circ d_n^i \tag{6}
 $$
 
 et l’on en déduit
@@ -359,7 +359,7 @@ d_{n-1}\circ d_n=\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_{n-1}^i\circ d_n^j+
 $$
 
 $$
-=\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_n^j_-^{-1}_1\circ d_n^i+\sum_{0\leqslant j\leqslant i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
+=\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_{n-1}^{j-1}\circ d_n^i+\sum_{0\leqslant j\leqslant i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
 $$
 
 d’où

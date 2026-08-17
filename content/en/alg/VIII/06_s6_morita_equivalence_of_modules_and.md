@@ -42,7 +42,7 @@ subsections:
       pdf_page: 128
 statements: 41
 exercises: 8
-content_sha256: 22ae1a54d08d23a37d767ca40cb1bbf396cf0a218b29c2c2355c77f480e11542
+content_sha256: 979adbb97ccde5c60105f84fb1e0b54beccc02cbb9a45ff56c704e7319b7a3ea
 ---
 
 ## § 6. MORITA EQUIVALENCE OF MODULES AND ALGEBRAS
@@ -349,7 +349,7 @@ a) Let V and W be left B-modules. The mapping $g\mapsto 1_P\otimes g$ is a bijec
 
 b) Every left A-module M is isomorphic to a module of the form $P\otimes_BV$, where V is a left B-module.
 
-Let V and W be left B-modules. By Lemma 1 of VIII, p. 101, the mapping $\varphi :g\mapsto 1_P\otimes g$ from Hom$_B(V,W)$ to Hom$_A(P\otimes_BV,P\otimes_BW)$ is injective. By interchanging the roles of P and Q (and of A and B), we see that the mapping $\psi :h\mapsto 1_Q\otimes h$ from Hom$_A(P\otimes_BV,P\otimes_BW)$ to Hom$_A(Q\otimes_AP\otimes_BV,Q\otimes_AP\otimes_BW)$ is also injective. Now, the composition $\psi \circ \varphi$ is the mapping $g\mapsto \theta^{-1}_W\circ g\circ \theta_V$. It is bijective, hence so is $\psi$. Consequently, $\varphi$ is bijective, and its inverse is the mapping $h\mapsto \theta_W\circ (1_Q\otimes h)\circ \theta^-_V^1$.
+Let V and W be left B-modules. By Lemma 1 of VIII, p. 101, the mapping $\varphi :g\mapsto 1_P\otimes g$ from Hom$_B(V,W)$ to Hom$_A(P\otimes_BV,P\otimes_BW)$ is injective. By interchanging the roles of P and Q (and of A and B), we see that the mapping $\psi :h\mapsto 1_Q\otimes h$ from Hom$_A(P\otimes_BV,P\otimes_BW)$ to Hom$_A(Q\otimes_AP\otimes_BV,Q\otimes_AP\otimes_BW)$ is also injective. Now, the composition $\psi \circ \varphi$ is the mapping $g\mapsto \theta^{-1}_W\circ g\circ \theta_V$. It is bijective, hence so is $\psi$. Consequently, $\varphi$ is bijective, and its inverse is the mapping $h\mapsto \theta_W\circ (1_Q\otimes h)\circ \theta^{-1}_V$.
 
 Assertion b) follows from the fact that $\lambda_M$ is an isomorphism from $P\otimes_B$ $\otimes_A\otimes M$ to M.
 
@@ -359,7 +359,7 @@ Let V be a left B-module and W a submodule of V. Since the B-module P is project
 
 Let V be a left B-module. The mapping $W\mapsto P\otimes_BW$ is an isomorphism from the set of B-submodules of V, ordered by inclusion, to the set of A-submodules of $P\otimes_BV$, ordered by inclusion. The inverse isomorphism sends an A-submodule N of $P\otimes_BV$ to the image under $\theta_V$ of the B-submodule $Q\otimes_AN$ of $Q\otimes_AP\otimes_BV$.
 
-Denote by $D_B(V)$ the set of B-submodules of V, ordered by inclusion, and define the sets $D_A(P\otimes_BV)$ and $D_B(Q\otimes_AP\otimes_BV)$ likewise. Let $\varphi : D_B(V)\rightarrow$ $D_A(P\otimes_BV)$ be the mapping $W\mapsto P\otimes_BW$ and $\psi$ the mapping from $D_A(P\otimes_BV)$ to $D_B(Q\otimes_AP\otimes_BV)$ given by $N\mapsto Q\otimes_AN$. These are increasing mappings, and the composition $\psi \circ \varphi$ is the mapping $W\mapsto \theta^-_V^1$(W), which is bijective. Consequently, $\varphi$ is injective, and $\psi$ is surjective. By replacing B with A and V with $P\otimes_BV$, we see that $\psi$ is also injective. Hence, $\varphi$ and $\psi$ are bijective, and the inverse mapping of $\varphi$ is indeed that described in the proposition.
+Denote by $D_B(V)$ the set of B-submodules of V, ordered by inclusion, and define the sets $D_A(P\otimes_BV)$ and $D_B(Q\otimes_AP\otimes_BV)$ likewise. Let $\varphi : D_B(V)\rightarrow$ $D_A(P\otimes_BV)$ be the mapping $W\mapsto P\otimes_BW$ and $\psi$ the mapping from $D_A(P\otimes_BV)$ to $D_B(Q\otimes_AP\otimes_BV)$ given by $N\mapsto Q\otimes_AN$. These are increasing mappings, and the composition $\psi \circ \varphi$ is the mapping $W\mapsto \theta^{-1}_V$(W), which is bijective. Consequently, $\varphi$ is injective, and $\psi$ is surjective. By replacing B with A and V with $P\otimes_BV$, we see that $\psi$ is also injective. Hence, $\varphi$ and $\psi$ are bijective, and the inverse mapping of $\varphi$ is indeed that described in the proposition.
 
 #### Example 1 {#alg-viii-s6-n4-exa-1 .statement tag=0078}
 

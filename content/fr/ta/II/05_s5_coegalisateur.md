@@ -7,7 +7,7 @@ section: 5
 section_title: Coégalisateur
 lang: fr
 source: ta-i-iv-fr
-book_pages: A II.196-A II.214, A II.227-A II.228
+book_pages: TA II.196-TA II.214, TA II.227-TA II.228
 pdf_pages: 0212-0230, 0243-0244
 extraction: native
 subsections:

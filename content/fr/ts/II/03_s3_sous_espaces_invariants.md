@@ -7,7 +7,7 @@ section: 3
 section_title: Sous-espaces invariants
 lang: fr
 source: ts-i-ii-fr
-book_pages: A II.250-A II.261, A II.308-A II.318
+book_pages: TS II.250-TS II.261, TS II.308-TS II.318
 pdf_pages: 0262-0273, 0320-0330
 extraction: native
 subsections:

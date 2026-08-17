@@ -7,7 +7,7 @@ section: 4
 section_title: Théorie de la descente
 lang: fr
 source: ta-i-iv-fr
-book_pages: A IV.382-A IV.405, A IV.462-A IV.463
+book_pages: TA IV.382-TA IV.405, TA IV.462-TA IV.463
 pdf_pages: 0398-0421, 0478-0479
 extraction: native
 subsections:

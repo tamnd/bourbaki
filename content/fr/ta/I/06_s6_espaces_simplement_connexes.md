@@ -7,7 +7,7 @@ section: 6
 section_title: Espaces simplement connexes
 lang: fr
 source: ta-i-iv-fr
-book_pages: A I.120-A I.137, A I.149-A I.150
+book_pages: TA I.120-TA I.137, TA I.149-TA I.150
 pdf_pages: 0136-0153, 0165-0166
 extraction: native
 subsections:

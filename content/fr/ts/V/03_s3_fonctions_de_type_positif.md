@@ -7,7 +7,7 @@ section: 3
 section_title: Fonctions de type positif
 lang: fr
 source: ts-iii-v-fr
-book_pages: A V.431-A V.456, A V.492-A V.504
+book_pages: TS V.431-TS V.456, TS V.492-TS V.504
 pdf_pages: 0444-0469, 0505-0517
 extraction: native
 subsections:
@@ -45,7 +45,7 @@ subsections:
       pdf_page: 467
 statements: 39
 exercises: 23
-content_sha256: dc055543a3bf644ab6de944269b86dbe94fca664b1eab100d6a1ae1a413a4b1a
+content_sha256: 5a8aecad360cc9a7e2a1980f62e1976cababa0d76dcc174f7b703a86f4f0e1de
 ---
 
 ## § 3. FONCTIONS DE TYPE POSITIF
@@ -568,7 +568,7 @@ $\|x_1\|^2\|x_1\|^2$
 
 pour tout $g\in G$, d’où $\langle x_1|y\rangle =\langle \|x_1\|^2x|y\rangle$ pour tout élément $y$ du sous-espace vectoriel de E engendré par les éléments $\varrho (g)x$ pour $g\in G$, donc pour tout $y\in E$ puisque $x$ est un vecteur cyclique de $\varrho$. Cela impliquerait que $x_1=\|x_1\|^2x$ est aussi un vecteur cyclique de $\varrho$, ce qui est une contradiction, d’où l’assertion.
 
-Supposons maintenant que $\varrho$ est irréductible et démontrons que $\varphi$ est un point extrémal de Pos$_1(G)$. Soient $\varphi_1\not =\varphi_2$ des éléments de Pos$_1(G)$ et $t_1,t_2\in [0,1]$ tels que $t_1+t_2= 1$ et $\varphi =t_1\varphi_1+t_2\varphi_2$. Pour $j\in  \{1,2\}$, notons $(\varrho_j, x_j)$ une réalisation hilbertienne cyclique de $\varphi_j$, et notons $E_j$ l’espace de $\varrho_j$. Soit $x_3=t^1_1^{/2}x_1+t^1_2^{/2}x_2$. Alors $(\varrho_1\oplus \varrho_2, x_3)$ est une réalisation hilbertienne de $\varphi$. Comme $(\varrho , x)$ est cyclique, il existe un G-morphisme isométrique $u: E\rightarrow E_1\oplus E_2$ tel que $u(x) =x_3$ (prop. 10).
+Supposons maintenant que $\varrho$ est irréductible et démontrons que $\varphi$ est un point extrémal de Pos$_1(G)$. Soient $\varphi_1\not =\varphi_2$ des éléments de Pos$_1(G)$ et $t_1,t_2\in [0,1]$ tels que $t_1+t_2= 1$ et $\varphi =t_1\varphi_1+t_2\varphi_2$. Pour $j\in  \{1,2\}$, notons $(\varrho_j, x_j)$ une réalisation hilbertienne cyclique de $\varphi_j$, et notons $E_j$ l’espace de $\varrho_j$. Soit $x_3=t^{1/2}_1x_1+t^{1/2}_2x_2$. Alors $(\varrho_1\oplus \varrho_2, x_3)$ est une réalisation hilbertienne de $\varphi$. Comme $(\varrho , x)$ est cyclique, il existe un G-morphisme isométrique $u: E\rightarrow E_1\oplus E_2$ tel que $u(x) =x_3$ (prop. 10).
 
 Soit $j= 1$ ou $j= 2$. Puisque $\varrho$ est irréductible, il existe $\lambda_j\geqslant 0$ tel que le G-morphisme $u_j=$ pr$_j\circ u$ de E dans $E_j$ vérifie
 

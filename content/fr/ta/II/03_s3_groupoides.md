@@ -7,7 +7,7 @@ section: 3
 section_title: Groupoïdes
 lang: fr
 source: ta-i-iv-fr
-book_pages: A II.159-A II.179, A II.223-A II.227
+book_pages: TA II.159-TA II.179, TA II.223-TA II.227
 pdf_pages: 0175-0195, 0239-0243
 extraction: native
 subsections:

@@ -7,7 +7,7 @@ section: 4
 section_title: Revêtements
 lang: fr
 source: ta-i-iv-fr
-book_pages: A I.68-A I.90, A I.145-A I.147
+book_pages: TA I.68-TA I.90, TA I.145-TA I.147
 pdf_pages: 0084-0106, 0161-0163
 extraction: native
 subsections:

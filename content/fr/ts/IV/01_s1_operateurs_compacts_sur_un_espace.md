@@ -7,7 +7,7 @@ section: 1
 section_title: Opérateurs compacts sur un espace hilbertien
 lang: fr
 source: ts-iii-v-fr
-book_pages: A IV.146-A IV.179, A IV.313-A IV.319
+book_pages: TS IV.146-TS IV.179, TS IV.313-TS IV.319
 pdf_pages: 0159-0192, 0326-0332
 extraction: native
 subsections:

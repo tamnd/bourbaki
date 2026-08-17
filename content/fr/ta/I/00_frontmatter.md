@@ -8,7 +8,7 @@ section_title: REVÊTEMENTS
 kind: front
 lang: fr
 source: ta-i-iv-fr
-book_pages: A I.1
+book_pages: TA I.1
 pdf_pages: 0017-0017
 extraction: native
 statements: 0
