@@ -1955,7 +1955,7 @@ books:
               statements: 5
               exercises: 6
               extraction: ocr
-              content_sha256: bb554ed20fc7b3ab48f1b03434cd7587a6cfd49400a7649f457fd3f4a1a8215b
+              content_sha256: f1edb54bf5badcc6a09214156341c4f9bad6948839b58b9a54ea7a9fd294886b
             - kind: section
               section: 2
               title: Theorems
@@ -1981,7 +1981,7 @@ books:
               statements: 0
               exercises: 5
               extraction: ocr
-              content_sha256: c10a084df4a1b7029eb35abcff12a2a10672c9c9dbeea72786c566065f8caa1f
+              content_sha256: b429aa448e801f5e6c98174f23720386650518026195c14d31873c2ba51f7dd2
             - kind: section
               section: 4
               title: Quantified theories
@@ -2098,7 +2098,7 @@ books:
               statements: 24
               exercises: 3
               extraction: ocr
-              content_sha256: 36bc8ec590d1a5a4692fdddc22b88dd0fd8a107ff42e89223a29bca8ce919d92
+              content_sha256: ab63a5e5cc2acfa6050b72f3f3101a1a02b76af5e7ed1e3ff8a72602c1299fba
             - kind: section
               section: 6
               title: Equivalence relations
@@ -2111,7 +2111,7 @@ books:
               statements: 12
               exercises: 11
               extraction: ocr
-              content_sha256: 596d334d63b530aeb8abd8a315236afe2c367122a1185fbdc8b77d1e8bccf7e5
+              content_sha256: c6c3e77659f381e6b77f183ba2f44f12d66221c3beccde4dd5c2acdfdb891b2e
         - chapter: III
           title: ORDERED SETS, CARDINALS, INTEGERS
           sections:
@@ -2138,7 +2138,7 @@ books:
               statements: 52
               exercises: 24
               extraction: ocr
-              content_sha256: 9aa0ba9c66e0e7562086ef9405dfbe251e949c96f337a2aa1a7cc6d19e72765c
+              content_sha256: 2924f71e77961cc70f637dea1ecb6b31ee1695b61f00448c8aa6677a1bdc9176
             - kind: section
               section: 2
               title: Well-ordered sets
@@ -2151,7 +2151,7 @@ books:
               statements: 28
               exercises: 20
               extraction: ocr
-              content_sha256: 65da6eb8d8759db6e65d9e867b0617a631d488f7be094032cffc5bb93cf130d7
+              content_sha256: 845dbc1c55782e844864e013a4f025af3a86e8adc2f2ab053394718e2cac3395
             - kind: section
               section: 3
               title: Equipotent sets. Cardinals
@@ -2164,7 +2164,7 @@ books:
               statements: 37
               exercises: 6
               extraction: ocr
-              content_sha256: 155ceb1fa79c2e2f92adc39b2358178220f94a8b40cabc2c2895bcd17ab7ece2
+              content_sha256: 10b9449ea9bd34a5afe226531f3f11696bb938442e68e1812cfc379c8696eeac
             - kind: section
               section: 4
               title: Natural integers. Finite sets
@@ -2177,7 +2177,7 @@ books:
               statements: 15
               exercises: 11
               extraction: ocr
-              content_sha256: 639aea14b68cb00b9aa94c3219d8c3f40cd1c9cfb9b67a4ac2c93aa6ba48ce99
+              content_sha256: a6f2479eb99b8adca6c4e3e15057c1b81700e121b4ca8926b4c22732686f3d98
             - kind: section
               section: 5
               title: Properties of integers
@@ -2190,7 +2190,7 @@ books:
               statements: 30
               exercises: 18
               extraction: ocr
-              content_sha256: 8a102c1fe61e0d9ba0dfa780d76c5ac2d059f4ade38b37129f41be94b8afbf2f
+              content_sha256: 539828b0c422fed3a1cc49cb93eb6b9243ff661d733b947ed2c4b6d11d68b451
             - kind: section
               section: 6
               title: Infinite sets
@@ -2216,7 +2216,7 @@ books:
               statements: 34
               exercises: 9
               extraction: ocr
-              content_sha256: fd2f200662bc2d2a1500cfe129cf016da43f418c92fd50ea6081b2a5555410f3
+              content_sha256: a49555c4f56c60d7aca4de0b044ddea42c75f0dbc65c50f4a3e879299a765497
             - kind: historical
               title: Historical Note
               path: content/en/ens/III/historical_note.md
@@ -2227,7 +2227,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: a1ac5f5e8ae6c28e0be4eaeb885d40a3b2adcbe7ffa7939fabfc1375b9f22220
+              content_sha256: e392386e3fdea6fa40644954a9f6261d3e55aa11cd69be63e10a7679af76d092
         - chapter: IV
           title: STRUCTURES
           sections:
@@ -2267,7 +2267,7 @@ books:
               statements: 12
               exercises: 11
               extraction: ocr
-              content_sha256: 53e40c1cbd4a981d6d8f26773b3ae20ef14918c26abafd8f761cbe647e256330
+              content_sha256: 1df0116fa77b9eebc1d44429db56bb11c1cc04c82010063f9e8691600a51190e
             - kind: section
               section: 3
               title: Universal mappings
@@ -2280,15 +2280,15 @@ books:
               statements: 0
               exercises: 3
               extraction: ocr
-              content_sha256: c4af390c8c914b0b51319df2878c621998b9fe73bbc70a8f9d7d26d1ab9052d6
+              content_sha256: 7fd3ffb3e738f589078a0c2c77d2d9195a8172d956b5078d1339b6d8d27f06fc
             - kind: historical
               title: Historical Note
               path: content/en/ens/IV/historical_note.md
               first_pdf_page: 301
-              last_pdf_page: 301
-              book_pages: "296"
+              last_pdf_page: 351
+              book_pages: 296-346
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 113281c126ff9e88603d1b5600b32163d2f4ef4bb45c5666162e5e70f1cf4fe9
+              content_sha256: 1fbd6098784763a8fa00ec8ed047cb184616e6fc72068a91c65da4ad5c2a49ee

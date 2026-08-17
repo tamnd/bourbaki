@@ -34,7 +34,7 @@ subsections:
       pdf_page: 41
 statements: 0
 exercises: 5
-content_sha256: c10a084df4a1b7029eb35abcff12a2a10672c9c9dbeea72786c566065f8caa1f
+content_sha256: b429aa448e801f5e6c98174f23720386650518026195c14d31873c2ba51f7dd2
 ---
 
 ## 3. LOGICAL THEORIES
@@ -157,17 +157,17 @@ $$((\text{not } B) \Rightarrow (\text{not } A)) \Rightarrow (A \Rightarrow B)$$
 
 *is a theorem in $\mathscr{T}$.*
 
-For suppose that $(\text{not }B)\Longrightarrow(\text{not }A)$ is true. We have to show that $A\Longrightarrow B$ is true. Suppose that $A$ is true, and let us show that $B$ is true. Suppose “not $B$” is true. Then “not $A$” is true, which is absurd.
+For suppose that $(\text{not }B) \Rightarrow (\text{not }A)$ is true. We have to show that $A \Rightarrow B$ is true. Suppose that $A$ is true, and let us show that $B$ is true. Suppose “not $B$” is true. Then “not $A$” is true, which is absurd.
 
 III. *Method of disjunction of cases.* This rests on the following rule :
 
-C18. *Let $A$, $B$, $C$ be relations in $\mathscr{T}$. If “$A$ or $B$” $A\Longrightarrow C$, $B\Longrightarrow C$ are theorems in $\mathscr{T}$, then $C$ is a theorem in $\mathscr{T}$.*
+C18. *Let $A$, $B$, $C$ be relations in $\mathscr{T}$. If “$A$ or $B$” $A \Rightarrow C$, $B \Rightarrow C$ are theorems in $\mathscr{T}$, then $C$ is a theorem in $\mathscr{T}$.*
 
-For, by S4, “$(A\text{ or }B)\Longrightarrow(A\text{ or }C)$” and “$(C\text{ or }A)\Longrightarrow(C\text{ or }C)$” are theorems in $\mathscr{T}$. By S3 and S1, it follows that $(A\text{ or }B)\Longrightarrow C$ is a theorem in $\mathscr{T}$; hence the result.
+For, by S4, “$(A\text{ or }B) \Rightarrow (A\text{ or }C)$” and “$(C\text{ or }A) \Rightarrow (C\text{ or }C)$” are theorems in $\mathscr{T}$. By S3 and S1, it follows that $(A\text{ or }B) \Rightarrow C$ is a theorem in $\mathscr{T}$; hence the result.
 
 To prove $C$ it is therefore enough, when we have at our disposal a theorem “$A$ or $B$”, first to prove $C$ by adjoining $A$ to the axioms of $\mathscr{T}$, and then to prove $C$ by adjoining $B$ to the axioms of $\mathscr{T}$. The interesting feature of this method lies in the fact that if “$A$ or $B$” is true, we cannot in general assert either that $A$ is true or that $B$ is true.
 
-In particular, by C10, if “$A\Longrightarrow C$” and “$(\text{not }A)\Longrightarrow C$” are both theorems in $\mathscr{T}$, then $C$ is a theorem in $\mathscr{T}$.
+In particular, by C10, if “$A \Rightarrow C$” and “$(\text{not }A) \Rightarrow C$” are both theorems in $\mathscr{T}$, then $C$ is a theorem in $\mathscr{T}$.
 
 IV. *Method of the auxiliary constant.* This is founded on the following rule :
 
@@ -178,9 +178,9 @@ C19. *Let $x$ be a letter and let $A$ and $B$ be relations in $\mathscr{T}$ such
 
 *Let $\mathscr{T}'$ be the theory obtained by adjoining $A$ to the axioms of $\mathscr{T}$. If $B$ is a theorem in $\mathscr{T}'$, then $B$ is a theorem in $\mathscr{T}$.*
 
-Indeed, $A\Longrightarrow B$ is a theorem in $\mathscr{T}$ (criterion of deduction). Since $x$ is not a constant of $\mathscr{T}$, $(T|x)(A\Longrightarrow B)$ is a theorem in $\mathscr{T}$ by virtue of C3. Since $x$ does not appear in $B$, $(T|x)(A\Longrightarrow B)$ is identical with $((T|x)A)\Longrightarrow B$, by CS5 (§ 1, no. 2). Finally, $(T|x)A$ is a theorem in $\mathscr{T}$, and therefore so is $B$.
+Indeed, $A \Rightarrow B$ is a theorem in $\mathscr{T}$ (criterion of deduction). Since $x$ is not a constant of $\mathscr{T}$, $(T|x)(A \Rightarrow B)$ is a theorem in $\mathscr{T}$ by virtue of C3. Since $x$ does not appear in $B$, $(T|x)(A \Rightarrow B)$ is identical with $((T|x)A) \Rightarrow B$, by CS5 (§ 1, no. 2). Finally, $(T|x)A$ is a theorem in $\mathscr{T}$, and therefore so is $B$.
 
-Intuitively, the method consists in using, in order to prove $B$, an arbitrary object $x$ (the *auxiliary constant*) which is supposed to be endowed with certain properties, denoted by $A$. * For example, in a proof in geometry which involves, among other things, a line D, we may “take” a point $x$ on this line; the relation $A$ is then $x\in D$. * In order that one should be able to use an object endowed with certain properties during the course of a proof, it is clearly necessary that such objects should exist. The theorem $(T|x)A$, called the *theorem of legitimation*, guarantees this existence.
+Intuitively, the method consists in using, in order to prove $B$, an arbitrary object $x$ (the *auxiliary constant*) which is supposed to be endowed with certain properties, denoted by $A$. * For example, in a proof in geometry which involves, among other things, a line $D$, we may “take” a point $x$ on this line; the relation $A$ is then $x \in D$. * In order that one should be able to use an object endowed with certain properties during the course of a proof, it is clearly necessary that such objects should exist. The theorem $(T|x)A$, called the *theorem of legitimation*, guarantees this existence.
 
 In practice we indicate that we are going to use this method by a phrase such as “let $x$ be an object such that $A$”. By contrast with the method of the auxiliary hypothesis, the conclusion of the argument does not involve $x$.
 

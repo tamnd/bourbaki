@@ -33,7 +33,7 @@ subsections:
       page: 118
       pdf_page: 125
     - "no": 6
-      title: INVERSE IMAGE OF AN EQUIVALENCE RELATION;
+      title: INVERSE IMAGE OF AN EQUIVALENCE RELATION; INDUCED EQUIVALENCE RELATION
       page: 119
       pdf_page: 126
     - "no": 7
@@ -50,7 +50,7 @@ subsections:
       pdf_page: 128
 statements: 12
 exercises: 11
-content_sha256: 596d334d63b530aeb8abd8a315236afe2c367122a1185fbdc8b77d1e8bccf7e5
+content_sha256: c6c3e77659f381e6b77f183ba2f44f12d66221c3beccde4dd5c2acdfdb891b2e
 ---
 
 ## 6. EQUIVALENCE RELATIONS
@@ -218,23 +218,19 @@ This relation is called the *canonical decomposition of f*.
 
 ¶ Let $f$ be a mapping of a set E into a set F, let R be an equivalence relation on E, and let S be an equivalence relation on F. Let $u$ be the canonical mapping of E onto E/R, and let $v$ be the canonical
 
-mapping of F onto F/S. The mapping $f$ is said to be *compatible with the equivalence relations* R and S if $v\circ f$ is compatible with R; this means that the relation $x\equiv x'$ (mod R) *implies* $f(x)\equiv f(x')$ (mod S). The mapping $h$ of E/R into F/S induced by $v\circ f$ on passing to the quotient with respect to R is then called the *mapping induced by $f$ on passing to the quotients with respect to R and S*; it is characterized by the relation
-$$
-v\circ f=h\circ u.
-$$
+mapping of $F$ onto $F/S$. The mapping $f$ is said to be *compatible with the equivalence relations* $R$ and $S$ if $v\mathbin{\circ}f$ is compatible with $R$; this means that the relation $x\equiv x'$ (mod $R$) *implies* $f(x)\equiv f(x')$ (mod $S$). The mapping $h$ of $E/R$ into $F/S$ induced by $v\mathbin{\circ}f$ on passing to the quotient with respect to $R$ is then called the *mapping induced by $f$ on passing to the quotients with respect to $R$ and $S$*; it is characterized by the relation $v\mathbin{\circ}f=h\mathbin{\circ}u$.
 
-### 6. INVERSE IMAGE OF AN EQUIVALENCE RELATION;
-INDUCED EQUIVALENCE RELATION
+### 6. INVERSE IMAGE OF AN EQUIVALENCE RELATION; INDUCED EQUIVALENCE RELATION
 
-Let $\varphi$ be a mapping of a set E into a set F, and let S be an equivalence relation on F. If $u$ is the canonical mapping of F onto F/S, the equivalence relation associated with the mapping $u\circ\varphi$ of E into F/S is called the *inverse image* of S under $\varphi$; if R is this relation, $R\{x,y\}$ is equivalent to $S\{\varphi(x),\varphi(y)\}$, and the equivalence classes with respect to R are the inverse images under $\varphi$ of the equivalence classes with respect to S which meet $\varphi\langle E\rangle$.
+Let $\varphi$ be a mapping of a set $E$ into a set $F$, and let $S$ be an equivalence relation on $F$. If $u$ is the canonical mapping of $F$ onto $F/S$, the equivalence relation associated with the mapping $u\mathbin{\circ}\varphi$ of $E$ into $F/S$ is called the *inverse image* of $S$ under $\varphi$; if $R$ is this relation, $R\{x,y\}$ is equivalent to $S\{\varphi(x),\varphi(y)\}$, and the equivalence classes with respect to $R$ are the inverse images under $\varphi$ of the equivalence classes with respect to $S$ which meet $\varphi\langle E\rangle$.
 
-¶ In particular, consider an equivalence relation R on a set E, and let A be a subset of E; then the inverse image of R under the injection $j$ of A into E is called the equivalence relation *induced* by R on A, and is denoted by $R_A$.
+¶ In particular, consider an equivalence relation $R$ on a set $E$, and let $A$ be a subset of $E$; then the inverse image of $R$ under the injection $j$ of $A$ into $E$ is called the equivalence relation *induced* by $R$ on $A$, and is denoted by $R_A$.
 
-¶ The equivalence classes with respect to $R_A$ are the *traces* on A of the equivalence classes with respect to R which meet A. The injection $j$ is obviously compatible with the relations $R_A$ and R; the mapping $h$ of A/$R_A$ into E/R induced by $j$ on passing to the quotient with respect to $R_A$ and R is an *injective* mapping of A/$R_A$ into E/R : for if $f$ (resp. $g$) is the canonical mapping of E onto E/R (resp. A onto A/$R_A$), then the relation $h(g(x))=h(g(x'))$, where $x\in A$ and $x'\in A$, is equivalent to $f(x)=f(x')$ and therefore to $g(x)=g(x')$. The image $h\langle A/R_A\rangle$ is equal to $f\langle A\rangle$. If $k$ is the bijective mapping of A/$R_A$ onto $f\langle A\rangle$ which has the same graph as $h$, then $k$ and its inverse are said to be *canonical*.
+¶ The equivalence classes with respect to $R_A$ are the *traces* on $A$ of the equivalence classes with respect to $R$ which meet $A$. The injection $j$ is obviously compatible with the relations $R_A$ and $R$; the mapping $h$ of $A/R_A$ into $E/R$ induced by $j$ on passing to the quotient with respect to $R_A$ and $R$ is an *injective* mapping of $A/R_A$ into $E/R$: for if $f$ (resp. $g$) is the canonical mapping of $E$ onto $E/R$ (resp. $A$ onto $A/R_A$), then the relation $h(g(x))=h(g(x'))$, where $x\in A$ and $x'\in A$, is equivalent to $f(x)=f(x')$ and therefore to $g(x)=g(x')$. The image $h\langle A/R_A\rangle$ is equal to $f\langle A\rangle$. If $k$ is the bijective mapping of $A/R_A$ onto $f\langle A\rangle$ which has the same graph as $h$, then $k$ and its inverse are said to be *canonical*.
 
 ### 7. QUOTIENTS OF EQUIVALENCE RELATIONS
 
-Let R, S be two equivalence relations with respect to two letters $x$, $y$. We shall say that S is *finer* than R (or that R is *coarser* than S) if the relation $S\Longrightarrow R$ is true. If R and S are equivalence relations on the same set E, the statement that S is finer than R means that the graph of S is contained in that of R, or again that every equivalence class with respect to S is contained in an equivalence class with respect to R; or, equivalently, that every equivalence class with respect to R is saturated with respect to S.
+Let $R$, $S$ be two equivalence relations with respect to two letters $x$, $y$. We shall say that $S$ is *finer* than $R$ (or that $R$ is *coarser* than $S$) if the relation $S\Rightarrow R$ is true. If $R$ and $S$ are equivalence relations on the same set $E$, the statement that $S$ is finer than $R$ means that the graph of $S$ is contained in that of $R$, or again that every equivalence class with respect to $S$ is contained in an equivalence class with respect to $R$; or, equivalently, that every equivalence class with respect to $R$ is saturated with respect to $S$.
 
 *Examples*
 

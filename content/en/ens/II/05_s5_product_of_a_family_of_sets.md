@@ -52,7 +52,7 @@ errata:
     - says: Corollary 2 to Proposition 5
       read: Corollary 2 to Proposition 6
       why: The same reference as the two above, written the other way round on page 109, and wrong the same way.
-content_sha256: 36bc8ec590d1a5a4692fdddc22b88dd0fd8a107ff42e89223a29bca8ce919d92
+content_sha256: ab63a5e5cc2acfa6050b72f3f3101a1a02b76af5e7ed1e3ff8a72602c1299fba
 ---
 
 ## 5. PRODUCT OF A FAMILY OF SETS
@@ -363,13 +363,13 @@ This follows immediately from Definition 2.
 
 #### Corollary {#ens-ii-s5-n7-cor-1 .statement tag=03IU}
 
-*Let $(X_i)_{i\in I}$, $(Y_i)_{i\in I}$ be two families of sets and let $(g_i)_{i\in I}$ be a family of functions. If $g_i$ is an injection (resp. surjection) of $X_i$ into $Y_i$, for each $i\in I$, then the extension $g$ of $(g_i)_{i\in I}$ to products is an injection (resp. surjection) of $\displaystyle\prod_{i\in I}X_i$ into $\displaystyle\prod_{i\in I}Y_i$.*
+Let $(X_i)_{i\in I}$, $(Y_i)_{i\in I}$ be two families of sets and let $(g_i)_{i\in I}$ be a family of functions. If $g_i$ is an injection (resp. surjection) of $X_i$ into $Y_i$, for each $i\in I$, then the extension $g$ of $(g_i)_{i\in I}$ to products is an injection (resp. surjection) of $\displaystyle\prod_{i\in I}X_i$ into $\displaystyle\prod_{i\in I}Y_i$.
 
-(1) Let us assume that $X_i\neq\varnothing$ for each $i\in I$; otherwise the result is trivial. Suppose that $g_i$ is injective for each $i\in I$, and let $r_i$ be a retraction of $g_i$ (§ 3, no. 8, Definition 11), so that $r_i\circ g_i$ is the identity mapping of $X_i$. Let $r$ be the extension to products of the family $(r_i)_{i\in I}$; since $r\circ g$ is the extension to products of the family of identity mappings $I_{X_i}$, $r\circ g$ is the identity mapping of $\displaystyle\prod_{i\in I}X_i$, and hence $g$ is injective (§ 3, Proposition 8).
+(1) Let us assume that $X_i\ne\varnothing$ for each $i\in I$; otherwise the result is trivial. Suppose that $g_i$ is injective for each $i\in I$, and let $r_i$ be a retraction of $g_i$ (§ 3, no. 8, Definition 11), so that $r_i\circ g_i$ is the identity mapping of $X_i$. Let $r$ be the extension to products of the family $(r_i)_{i\in I}$; since $r\circ g$ is the extension to products of the family of identity mappings $I_{X_i}$, $r\circ g$ is the identity mapping of $\displaystyle\prod_{i\in I}X_i$, and hence $g$ is injective (§ 3, Proposition 8).
 
-(2) Suppose that $g_i$ is a surjection of $X_i$ onto $Y_i$, for each $i\in I$, and let $s_i$ be a section of $g_i$ (§ 3, no. 8, definition 11), so that $g_i\circ s_i$ is the identity mapping of $Y_i$. If $s$ is the extension to products of the family $(s_i)_{i\in I}$, then $g\circ s$ is the extension to products of the family of identity mappings $I_{Y_i}$ and is therefore the identity mapping of $\displaystyle\prod_{i\in I}Y_i$; hence $g$ is surjective (§ 3, Proposition 8).
+(2) Suppose that $g_i$ is a surjection of $X_i$ onto $Y_i$ for each $i\in I$, and let $s_i$ be a section of $g_i$ (§ 3, no. 8, definition 11), so that $g_i\circ s_i$ is the identity mapping of $Y_i$. If $s$ is the extension to products of the family $(s_i)_{i\in I}$, then $g\circ s$ is the extension to products of the family of identity mappings $I_{Y_i}$, and is therefore the identity mapping of $\displaystyle\prod_{i\in I}Y_i$; hence $g$ is surjective (§ 3, Proposition 8).
 
-Let $(X_i)_{i\in I}$ be a family of sets, and let E be a set. For every mapping $f$ of E into $\displaystyle\prod_{i\in I}X_i$, $\operatorname{pr}_i\circ f$ is a mapping of E into $X_i$. If $\bar f$ is the extension to products of this family of mappings, and if $d$ is the diagonal mapping of E into $E^I$, then it is immediate that $f=\bar f\circ d$. Conversely, let $(f_i)_{i\in I}$ be a family of functions such that $f_i$ is a mapping of E into $X_i$, for each $i\in I$, and let $\bar f$ be the extension to products of this family; then we have $\operatorname{pr}_i\circ(\bar f\circ d)=f_i$ for each $i\in I$. By abuse of language, the mapping $\bar f\circ d$ is also written as $(f_i)_{i\in I}$. In this way we define a one-to-one mapping of the set $\displaystyle\prod_{i\in I}X_i^E$ onto the set $\displaystyle\left(\prod_{i\in I}X_i\right)^E$; this mapping and its inverse are said to be *canonical*.
+Let $(X_i)_{i\in I}$ be a family of sets, and let $E$ be a set. For every mapping $f$ of $E$ into $\displaystyle\prod_{i\in I}X_i$, $\operatorname{pr}_i\circ f$ is a mapping of $E$ into $X_i$. If $\bar f$ is the extension to products of this family of mappings, and if $d$ is the diagonal mapping of $E$ into $E^I$, then it is immediate that $f=\bar f\circ d$. Conversely, let $(f_i)_{i\in I}$ be a family of functions such that $f_i$ is a mapping of $E$ into $X_i$ for each $i\in I$, and let $\bar f$ be the extension to products of this family; then we have $\operatorname{pr}_i\circ(\bar f\circ d)=f_i$ for each $i\in I$. By abuse of language, the mapping $\bar f\circ d$ is also written as $(f_i)_{i\in I}$. In this way we define a one-to-one mapping of the set $\displaystyle\prod_{i\in I}X_i^E$ onto the set $\displaystyle\left(\prod_{i\in I}X_i\right)^E$; this mapping and its inverse are said to be canonical.
 
 ### Exercises {#ens-ii-s5-exercises}
 

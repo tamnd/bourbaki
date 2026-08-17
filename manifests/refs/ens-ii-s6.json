@@ -8,9 +8,9 @@
 {"from":"","from_label":"ens-ii-s6","to":"03PW","to_label":"ens-ii-s4-prop-6","kind":"cites","raw":"§4, Proposition 6","form":"section","resolved_by":"section-no","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":193},
 {"from":"","from_label":"ens-ii-s6","to":"03I5","to_label":"ens-ii-s4-prop-3","kind":"cites","raw":"§4, Proposition 3","form":"section","resolved_by":"section-no","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":201},
 {"from":"","from_label":"ens-ii-s6","to":"03PS","to_label":"ens-ii-s3-prop-9","kind":"cites","raw":"§3, Proposition 9","form":"section","resolved_by":"section-no","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":207},
-{"from":"","from_label":"ens-ii-s6","to_label":"ens-ii-s3","kind":"cites","raw":"§ 3, no. 9","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":273},
-{"from":"","from_label":"ens-ii-s6","to_label":"ens-i-s5","kind":"cites","raw":"Chapter I, § 5, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":289},
-{"from":"","from_label":"ens-ii-s6","to_label":"ens-i-s5","kind":"cites","raw":"Chapter I, §5, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":293},
-{"from":"","from_label":"ens-ii-s6","to_label":"ens-ii-s1","kind":"cites","raw":"§1, no. 6","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":303},
+{"from":"","from_label":"ens-ii-s6","to_label":"ens-ii-s3","kind":"cites","raw":"§ 3, no. 9","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":269},
+{"from":"","from_label":"ens-ii-s6","to_label":"ens-i-s5","kind":"cites","raw":"Chapter I, § 5, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":285},
+{"from":"","from_label":"ens-ii-s6","to_label":"ens-i-s5","kind":"cites","raw":"Chapter I, §5, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":289},
+{"from":"","from_label":"ens-ii-s6","to_label":"ens-ii-s1","kind":"cites","raw":"§1, no. 6","form":"section","resolved_by":"section","file":"content/en/ens/II/06_s6_equivalence_relations.md","line":299},
 {"from":"03J9","from_label":"ens-ii-s6-ex-11","to":"03J8","to_label":"ens-ii-s6-ex-10","kind":"cites","raw":"Exercise 10","form":"local","resolved_by":"exercise","file":"content/en/ens/II/exercises/s6/11.md","line":19}
 ]}

@@ -46,7 +46,7 @@ errata:
     - says: no. 2, Proposition 2, Corollary 2
       read: no. 2, Proposition 1, Corollary 2
       why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
-content_sha256: fd2f200662bc2d2a1500cfe129cf016da43f418c92fd50ea6081b2a5555410f3
+content_sha256: a49555c4f56c60d7aca4de0b044ddea42c75f0dbc65c50f4a3e879299a765497
 ---
 
 ## 7. INVERSE LIMITS AND DIRECT LIMITS
@@ -55,35 +55,33 @@ content_sha256: fd2f200662bc2d2a1500cfe129cf016da43f418c92fd50ea6081b2a5555410f3
 
 Let $I$ be a preordered set and let $(E_\alpha)_{\alpha\in I}$ be a family of sets indexed by $I$. For each pair $(\alpha,\beta)$ of elements of $I$ such that $\alpha\leq\beta$, let $f_{\alpha\beta}$ be a mapping of $E_\beta$ into $E_\alpha$. Suppose that the $f_{\alpha\beta}$ satisfy the following conditions :
 
-$(\mathrm{LP}_{I})$ *The relations $\alpha\leq\beta\leq\gamma$ imply $f_{\alpha\gamma}=f_{\alpha\beta}\circ f_{\beta\gamma}$.*
+$(\mathrm{LP}_I)$ *The relations $\alpha\leq\beta\leq\gamma$ imply $f_{\alpha\gamma}=f_{\alpha\beta}\circ f_{\beta\gamma}$.*
 
 $(\mathrm{LP}_{II})$ *For each $\alpha\in I$, $f_{\alpha\alpha}$ is the identity mapping of $E_\alpha$.*
 
 Let $G=\prod_{\alpha\in I}E_\alpha$ be the *product* of the family of sets $(E_\alpha)_{\alpha\in I}$, and let $E$ denote the subset of $G$ consisting of all $x$ which satisfy each of the relations
 
-$$
-(1)\qquad \operatorname{pr}_{\alpha}x=f_{\alpha\beta}(\operatorname{pr}_{\beta}x)
-$$
+(1)
 
-for each pair of indices $(\alpha,\beta)$ such that $\alpha\leq\beta$. E is said to be the *inverse limit of the family* $(E_\alpha)_{\alpha\in I}$ *with respect to the family of mappings* $(f_{\alpha\beta})$, and we write $E=\underset{\longleftarrow}{\lim}(E_\alpha,f_{\alpha\beta})$ or simply $E=\underset{\longleftarrow}{\lim}E_\alpha$ when there is no risk of ambiguity. By abuse of language, the pair $((E_\alpha),(f_{\alpha\beta}))$ (usually denoted by $(E_{\alpha},f_{\alpha\beta})$) is called an *inverse system of sets*, relative to the index set $I$. The *restriction* $f_\alpha$ of the projection $\operatorname{pr}_\alpha$ to $E$ is called the *canonical mapping* of $E$ into $E_\alpha$, and we have the relation
+$$\operatorname{pr}_{\alpha}x=f_{\alpha\beta}(\operatorname{pr}_{\beta}x)$$
 
-$$
-(2)\qquad f_\alpha=f_{\alpha\beta}\circ f_\beta
-$$
+for each pair of indices $(\alpha,\beta)$ such that $\alpha\leq\beta$. $E$ is said to be the *inverse limit of the family* $(E_\alpha)_{\alpha\in I}$ *with respect to the family of mappings* $(f_{\alpha\beta})$, and we write $E=\underset{\longleftarrow}{\lim}\,(E_\alpha,f_{\alpha\beta})$ or simply $E=\underset{\longleftarrow}{\lim}\,E_\alpha$ when there is no risk of ambiguity. By abuse of language, the pair $((E_\alpha),(f_{\alpha\beta}))$ (usually denoted by $(E_{\alpha\beta},f_{\alpha\beta})$) is called an *inverse system of sets*, relative to the index set $I$. The *restriction* $f_\alpha$ of the projection $\operatorname{pr}_\alpha$ to $E$ is called the *canonical mapping* of $E$ into $E_\alpha$, and we have the relation
 
-whenever $\alpha\leq\beta$; this is merely a transcription of the relations (1) which define E.
+(2)
+
+$$f_\alpha=f_{\alpha\beta}\circ f_\beta$$
+
+whenever $\alpha\leq\beta$; this is merely a transcription of the relations (1) which define $E$.
 
 *Examples*
 
 #### Example 1 {#ens-iii-s7-n1-exa-1 .statement tag=03TF}
 
-Suppose that the order relation on $I$ is the relation of *equality*. Then the only pairs $(\alpha,\beta)$ such that $\alpha\leq\beta$ are the pairs $(\alpha,\alpha)$ where $\alpha\in I$, and since $f_{\alpha\alpha}$ is the identity mapping, the relation (1) is satisfied for all $x\in G$; in other words, $\underset{\longleftarrow}{\lim}E_\alpha$ is then the *product* $\prod_{\alpha\in I}E_\alpha$.
+Suppose that the order relation on $I$ is the relation of *equality*. Then the only pairs $(\alpha,\beta)$ such that $\alpha\leq\beta$ are the pairs $(\alpha,\alpha)$ where $\alpha\in I$; and since $f_{\alpha\alpha}$ is the identity mapping, the relation (1) is satisfied for *all* $x\in G$; in other words, $\underset{\longleftarrow}{\lim}\,E_\alpha$ is then the *product* $\prod_{\alpha\in I}E_\alpha$.
 
 #### Example 2 {#ens-iii-s7-n1-exa-2 .statement tag=03TG}
 
-Suppose that $I$ is *right directed*, that $E_\alpha$ is the same set F for all $\alpha\in I$, and that $f_{\alpha\beta}$ is the identity mapping of F onto itself whenever $\alpha\leq\beta$. Then $E=\underset{\longleftarrow}{\lim}E_\alpha$ is the *diagonal* $\Delta$ of the product $\prod_{\alpha\in I}E_\alpha=F^I$.
-
-Indeed, it is clear that each $x\in\Delta$ satisfies the relations (1). Conversely, let $x$ be an element of $E$, and let us show that for each pair of indices
+Suppose that $I$ is *right directed*, that $E_\alpha$ is the same set $F$ for all $\alpha\in I$, and that $f_{\alpha\beta}$ is the identity mapping of $F$ onto itself whenever $\alpha\leq\beta$. Then $E=\underset{\longleftarrow}{\lim}\,E_\alpha$ is the *diagonal* $\Delta$ of the product $\prod_{\alpha\in I}E_\alpha=F^I$. Indeed, it is clear that each $x\in\Delta$ satisfies the relations (1). Conversely, let $x$ be an element of $E$, and let us show that for each pair of indices
 
 $(\alpha, \beta)$ we have $\mathrm{pr}_\alpha x = \mathrm{pr}_\beta x$. By hypothesis, there exists an index $\gamma \in I$ such that $\alpha \leqslant \gamma$ and $\beta \leqslant \gamma$; hence by (1) we have $\mathrm{pr}_\alpha x = f_{\alpha\gamma}(\mathrm{pr}_\gamma x) = \mathrm{pr}_\gamma x$, and similarly $\mathrm{pr}_\beta x = \mathrm{pr}_\gamma x$, which proves our assertion.
 
@@ -149,59 +147,54 @@ $$g_{\alpha\beta} \circ v_\beta = g_{\alpha\beta} \circ u_\beta \circ f_\beta = 
 
 and we may therefore apply Proposition 1 to the mappings $v_\alpha$; hence the
 
-existence and uniqueness of a mapping $u : E \to F$ such that
+existence and uniqueness of a mapping $u:E\to F$ such that
 
 $$
-g_\alpha \circ u = v_\alpha = u_\alpha \circ f_\alpha
+g_\alpha\circ u=v_\alpha=u_\alpha\circ f_\alpha
 $$
 
-for each $\alpha \in I$.
+for each $\alpha\in I$.
 
-¶ A family of mappings $u_\alpha : E_\alpha \to F_\alpha$ which satisfies the conditions of Corollary 1 is called an *inverse system of mappings* of $(E_\alpha, f_{\alpha\beta})$ into $(F_\alpha, g_{\alpha\beta})$. The mapping $u$ defined in Corollary 1 is called the *inverse limit* of the family $(u_\alpha)$ and is written $u = \underset{\leftarrow}{\lim}\,u_\alpha$ when there is no risk of confusion.
+¶ A family of mappings $u_\alpha:E_\alpha\to F_\alpha$ which satisfies the conditions of Corollary 1 is called an *inverse system of mappings* of $(E_\alpha,f_{\alpha\beta})$ into $(F_\alpha,g_{\alpha\beta})$. The mapping $u$ defined in Corollary 1 is called the *inverse limit* of the family $(u_\alpha)$ and is written $u=\underset{\leftarrow}{\lim}\,u_\alpha$ when there is no risk of confusion.
 
 #### Corollary 2 {#ens-iii-s7-prop-1-cor-2 .statement tag=03RO}
 
-Let $(E_\alpha, f_{\alpha\beta})$, $(F_\alpha, g_{\alpha\beta})$, $(G_\alpha, h_{\alpha\beta})$ be three inverse systems of sets relative to the same index set $I$; let $E = \underset{\leftarrow}{\lim}\,E_\alpha$, $F = \underset{\leftarrow}{\lim}\,F_\alpha$, $G = \underset{\leftarrow}{\lim}\,G_\alpha$, and let $f_\alpha$ (resp. $g_\alpha$, $h_\alpha$) be the canonical mapping of $E$ (resp. $F$, $G$) into $E_\alpha$ (resp. $F_\alpha$, $G_\alpha$). If $(u_\alpha)$ and $(v_\alpha)$ are two inverse systems of mappings, $u_\alpha : E_\alpha \to F_\alpha$, $v_\alpha : F_\alpha \to G_\alpha$, then the composite mappings $v_\alpha \circ u_\alpha : E_\alpha \to G_\alpha$ form an inverse system of mappings, and we have
+Let $(E_\alpha,f_{\alpha\beta})$, $(F_\alpha,g_{\alpha\beta})$, $(G_\alpha,h_{\alpha\beta})$ be three *inverse systems of sets relative to the same index set* $I$; let $E=\underset{\leftarrow}{\lim}\,E_\alpha$, $F=\underset{\leftarrow}{\lim}\,F_\alpha$, $G=\underset{\leftarrow}{\lim}\,G_\alpha$, and let $f_\alpha$ (resp. $g_\alpha,h_\alpha$) be the *canonical mapping* of $E$ (resp. $F,G$) *into* $E_\alpha$ (resp. $F_\alpha,G_\alpha$). If $(u_\alpha)$ and $(v_\alpha)$ are *two inverse systems of mappings*, $u_\alpha:E_\alpha\to F_\alpha$, $v_\alpha:F_\alpha\to G_\alpha$, then the *composite mappings* $v_\alpha\circ u_\alpha:E_\alpha\to G_\alpha$ form an *inverse system of mappings*, and we have
+
+(7)
 
 $$
-(7)\qquad
-\underset{\leftarrow}{\lim}\,(v_\alpha \circ u_\alpha)
+\underset{\leftarrow}{\lim}\,(v_\alpha\circ u_\alpha)
 =
-\left(\underset{\leftarrow}{\lim}\,v_\alpha\right)
-\circ
+\left(\underset{\leftarrow}{\lim}\,v_\alpha\right)\circ
 \left(\underset{\leftarrow}{\lim}\,u_\alpha\right).
 $$
 
-For if we put $w_\alpha = v_\alpha \circ u_\alpha$, then if $\alpha \leq \beta$ we have
+For if we put $w_\alpha=v_\alpha\circ u_\alpha$, then if $\alpha\leq\beta$ we have
 
 $$
-w_\alpha \circ f_{\alpha\beta}
-=
-v_\alpha \circ (u_\alpha \circ f_{\alpha\beta})
-=
-v_\alpha \circ (g_{\alpha\beta} \circ u_\beta)
-=
-(h_{\alpha\beta} \circ v_\beta) \circ u_\beta
-=
-h_{\alpha\beta} \circ w_\beta,
+w_\alpha\circ f_{\alpha\beta}
+=v_\alpha\circ(u_\alpha\circ f_{\alpha\beta})
+=v_\alpha\circ(g_{\alpha\beta}\circ v_\beta)
+=(h_{\alpha\beta}\circ v_\beta)\circ u_\beta
+=h_{\alpha\beta}\circ w_\beta,
 $$
 
-which shows that $(w_\alpha)$ is an inverse system of mappings. Furthermore, if $u = \underset{\leftarrow}{\lim}\,u_\alpha$ and $v = \underset{\leftarrow}{\lim}\,v_\alpha$, then $h_\alpha \circ (v \circ u) = (v_\alpha \circ g_\alpha) \circ u = (v_\alpha \circ u_\alpha) \circ f_\alpha$ for each $\alpha \in I$, and therefore, by the uniqueness of the inverse limit, we have $v \circ u = \underset{\leftarrow}{\lim}\,w_\alpha$.
+which shows that $(w_\alpha)$ is an inverse system of mappings. Furthermore, if $u=\underset{\leftarrow}{\lim}\,u_\alpha$ and $v=\underset{\leftarrow}{\lim}\,v_\alpha$, then $h_\alpha\circ(v\circ u)=(v_\alpha\circ g_\alpha)\circ u=(v_\alpha\circ u_\alpha)\circ f_\alpha$ for each $\alpha\in I$, and therefore, by the uniqueness of the inverse limit, we have $v\circ u=\underset{\leftarrow}{\lim}\,w_\alpha$.
 
-¶ Let $(E_\alpha, f_{\alpha\beta})$ be an inverse system of sets, and for each $\alpha \in I$ let $M_\alpha$ be a subset of $E_\alpha$. If $f_{\alpha\beta}(M_\beta) \subset M_\alpha$ whenever $\alpha \leq \beta$, the $M_\alpha$ are said to form an *inverse system of subsets* of the $E_\alpha$. Let $g_{\alpha\beta}$ be the mapping of $M_\beta$ into $M_\alpha$ (where $\alpha \leq \beta$) whose graph is the same as that of the restriction of $f_{\alpha\beta}$ to $M_\beta$. Then it is clear that $(M_\alpha, g_{\alpha\beta})$ is an inverse system of sets and that
+¶ Let $(E_\alpha,f_{\alpha\beta})$ be an inverse system of sets, and for each $\alpha\in I$ let $M_\alpha$ be a subset of $E_\alpha$. If $f_{\alpha\beta}(M_\beta)\subset M_\alpha$ whenever $\alpha\leq\beta$, the $M_\alpha$ are said to form an *inverse system of subsets* of the $E_\alpha$. Let $g_{\alpha\beta}$ be the mapping of $M_\beta$ into $M_\alpha$ (where $\alpha\leq\beta$) whose graph is the same as that of the restriction of $f_{\alpha\beta}$ to $M_\beta$. Then it is clear that $(M_\alpha,g_{\alpha\beta})$ is an inverse system of sets and that
+
+(8)
 
 $$
-(8)\qquad
 \underset{\leftarrow}{\lim}\,M_\alpha
 =
-\left(\underset{\leftarrow}{\lim}\,E_\alpha\right)
-\cap
-\prod_{\alpha\in I} M_\alpha.
+\left(\underset{\leftarrow}{\lim}\,E_\alpha\right)\cap\prod_{\alpha\in I}M_\alpha.
 $$
 
 #### Proposition 2 {#ens-iii-s7-prop-2 .statement tag=03RP}
 
-Let $(E_\alpha, f_{\alpha\beta})$ and $(E'_\alpha, f'_{\alpha\beta})$ be two inverse systems of sets relative to $I$, and let $u_\alpha$ be a mapping of $E_\alpha$ into $E'_\alpha$ for each $\alpha \in I$, such that the $u_\alpha$ form an inverse system of mappings. Let $u = \underset{\leftarrow}{\lim}\,u_\alpha$. Then for each $x' = (x'_\alpha) \in E' = \underset{\leftarrow}{\lim}\,E'_\alpha$, the $\bar{u}_\alpha^{-1}(x'_\alpha)$ form an inverse system of subsets of the $E_\alpha$, and $\bar{u}^{-1}(x') = \underset{\leftarrow}{\lim}\,\bar{u}_\alpha^{-1}(x'_\alpha)$.
+Let $(E_\alpha,f_{\alpha\beta})$ and $(E'_\alpha,f'_{\alpha\beta})$ be two *inverse systems of sets relative to* $I$, and let $u_\alpha$ be a mapping of $E_\alpha$ into $E'_\alpha$ for each $\alpha\in I$, such that the $u_\alpha$ form an *inverse system of mappings*. Let $u=\underset{\leftarrow}{\lim}\,u_\alpha$. Then for each $x'=(x'_\alpha)\in E'=\underset{\leftarrow}{\lim}\,E'_\alpha$, the $\bar u_\alpha^{-1}(x'_\alpha)$ form an *inverse system of subsets* of the $E_\alpha$, and $\bar u^{-1}(x')=\underset{\leftarrow}{\lim}\,\bar u_\alpha^{-1}(x'_\alpha)$.
 
 For if $\alpha \leqslant \beta$ and $x_\beta \in \overset{-1}{u_\beta}(x'_\beta)$, we have
 

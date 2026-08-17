@@ -34,19 +34,19 @@ subsections:
       pdf_page: 195
 statements: 26
 exercises: 32
-content_sha256: ed52cd002e66284ca8e695aefcad74f3bdd54397bb5c3f4d8c36e2ae799a53fe
+content_sha256: 174ff5ef145893c5bc524865c63e7880d02655b04b84021cbcffda114cbdd7e6
 translated_from: content/en/ens/III/06_s6_infinite_sets.md
 source_content_sha256: 223731a1f4d4b294c9f6780fefb0badacba82554ae1c93ebfea1fbb37a2e871a
-translation_model: gpt-5.4-mini, gpt-5.4
-translation_run: translate-vi-637528ed
+translation_model: gpt-5.4
+translation_run: translate-vi-5db6ed08
 glossary_version: 29
 glossary_terms_sha256: f2556c61dd582f1eda9a13a773a6a023404f612169771615e4426597a8f350b7
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## 6. Các tập vô hạn
+## 6. CÁC TẬP HỢP VÔ HẠN
 
-### 1. Tập hợp các số nguyên tự nhiên
+### 1. TẬP HỢP CÁC SỐ NGUYÊN TỰ NHIÊN
 
 #### Định nghĩa 1 {#ens-iii-s6-def-1 .statement tag=03MV}
 
@@ -54,27 +54,27 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Đặc biệt, một lực lượng là vô hạn nếu nó không phải là một số nguyên.
 
-Quan hệ "tồn tại một tập vô hạn" kéo theo rằng quan hệ "$x$ là một số nguyên" là *xác định tập* (Chương II, § 1, no. 4); vì nếu $\mathfrak{a}$ là một lực lượng vô hạn và $n$ là một số nguyên tùy ý, ta không thể có $\mathfrak{a} \leqslant n$ (§ 4, no. 2, Mệnh đề 2). Do đó, $n < \mathfrak{a}$ với mọi số nguyên $n$, điều đó cho thấy tập hợp các số nguyên $< \mathfrak{a}$ (§ 3, no. 2, Nhận xét sau Định lý 1) chứa mọi số nguyên. Ngược lại, nếu quan hệ "$x$ là một số nguyên" là xác định tập, thì tập hợp E của các số nguyên là một tập *vô hạn*. Với mỗi số nguyên $n$, khoảng $[0, n]$ là một tập con của $n + 1$ phần tử của E (§ 5, no. 3, Mệnh đề 5). Do đó Card (E) $\geqslant n + 1 > n$. Nhưng nói rằng Card(E) $\neq n$ với mọi số nguyên $n$ có nghĩa là E là *vô hạn*.
+Quan hệ "tồn tại một tập hợp vô hạn" kéo theo rằng quan hệ "$x$ là một số nguyên" là *xác định tập* (Chương II, § 1, no. 4); vì nếu $\mathfrak{a}$ là một lực lượng vô hạn và $n$ là một số nguyên tùy ý, thì không thể có $\mathfrak{a} \leqslant n$ (§ 4, no. 2, Mệnh đề 2). Do đó ta có $n < \mathfrak{a}$ với mọi số nguyên $n$, điều này cho thấy tập hợp các số nguyên $< \mathfrak{a}$ (§ 3, no. 2, Nhận xét sau Định lý 1) chứa tất cả các số nguyên. Ngược lại, nếu quan hệ "$x$ là một số nguyên" là xác định tập, thì tập hợp E các số nguyên là một tập hợp *vô hạn*. Với mỗi số nguyên $n$, khoảng $[0, n]$ là một tập con gồm $n + 1$ phần tử của E (§ 5, no. 3, Mệnh đề 5). Do đó Card (E) $\geqslant n + 1 > n$. Nhưng nói rằng Card(E) $\neq n$ với mọi số nguyên $n$ có nghĩa là E là vô hạn.
 
-Bây giờ ta giới thiệu tiên đề sau :
+¶ Bây giờ ta đưa vào tiên đề sau:
 
-A5 ("Tiên đề vô hạn".) *Tồn tại một tập vô hạn.*
+A5 ("Tiên đề vô hạn".) *Tồn tại một tập hợp vô hạn.*
 
-Hiện chưa biết tiên đề này có thể suy ra từ các tiên đề và các lược đồ tiên đề đã giới thiệu trước đó hay không; tuy vấn đề chưa được giải quyết dứt khoát, vẫn phải coi tiên đề này là độc lập với các tiên đề khác.
+Người ta chưa biết liệu tiên đề này có thể hay không thể suy ra từ các tiên đề và các sơ đồ tiên đề đã được đưa vào trước đây; mặc dù vấn đề chưa được giải quyết dứt khoát, có cơ sở để giả định rằng tiên đề này độc lập với các tiên đề khác.
 
-Từ các nhận xét trên suy ra định lý sau :
+Những nhận xét trước đây khi đó chứng minh định lý sau:
 
 #### Định lý 1 {#ens-iii-s6-thm-1 .statement tag=03MW}
 
 *Quan hệ "$x$ là một số nguyên" là xác định tập.*
 
-Chúng ta sẽ ký hiệu $\mathbf{N}$ cho tập hợp các số nguyên (cũng gọi là "tập hợp các số nguyên tự nhiên" khi cần để tránh nhập nhằng). Lực lượng của $\mathbf{N}$ là
+Ta sẽ ký hiệu bởi $\mathbf{N}$ tập hợp các số nguyên (cũng được gọi là "Tập hợp các số tự nhiên" khi cần thiết để tránh sự nhập nhằng). Lực lượng của $\mathbf{N}$ được
 
-được ký hiệu bởi $\aleph_0$. Mỗi khi xem $\mathbf{N}$ như một tập hợp có thứ tự, thì luôn là thứ tự (gọi là thứ tự *thông thường*) được định nghĩa ở § 3, số 2 đang được xét, trừ khi điều ngược lại được phát biểu rõ ràng.
+ký hiệu bởi $\aleph_0$. Mỗi khi $\mathbf{N}$ được xét như một tập hợp có thứ tự, thì luôn luôn là thứ tự (được gọi là thứ tự *thông thường*) được định nghĩa trong § 3, no. 2 được xét đến, trừ khi điều trái lại được phát biểu minh nhiên.
 
 #### Định nghĩa 2 {#ens-iii-s6-def-2 .statement tag=03MX}
 
-*Một dãy* (resp. *một dãy các phần tử của một tập hợp* E) *là một họ* (resp. *một họ các phần tử của* E) *có tập chỉ số là một tập con của* $\mathbf{N}$. *Dãy được gọi là vô hạn nếu tập chỉ số của nó là một tập con vô hạn của* $\mathbf{N}$.
+*Một dãy* (tương ứng, *một dãy các phần tử của một tập hợp* E) *là một họ* (tương ứng, *một họ các phần tử của* E) *mà tập hợp chỉ số là một tập con của* $\mathbf{N}$. *Dãy được gọi là vô hạn nếu tập hợp chỉ số của nó là một tập con vô hạn của* $\mathbf{N}$.
 
 Cho $\mathrm{P}\{n\}$ là một quan hệ và cho I ký hiệu tập hợp các số nguyên $n$ sao cho $\mathrm{P}\{n\}$ là đúng. Khi đó I là một tập con của $\mathbf{N}$. Khi ấy một dãy $(x_n)_{n\in\mathrm{I}}$ đôi khi được viết là $(x_n)_{\mathrm{P}\{n\}}$, và $x_n$ được gọi là *số hạng thứ n* của dãy. Một dãy mà tập chỉ số là tập hợp các số nguyên $n \geqslant k$ thường được viết là $(x_n)_{k \leqslant n}$ hoặc $(x_n)_{n \geqslant k}$, hoặc thậm chí chỉ là $(x_n)$ nếu $k = 0$ hoặc $k = 1$. Trong cùng các điều kiện ấy, ví dụ, các ký hiệu $\prod_{\mathrm{P}\{n\}} \mathrm{X}_n$ và $\prod_{n=k}^{\infty} \mathrm{X}_n$ được dùng để chỉ tích của một dãy các tập hợp $(\mathrm{X}_n)_{n\in\mathrm{I}}$, và có các ký hiệu tương tự cho các hợp, các giao, các tích lực lượng và các tổng lực lượng.
 
@@ -84,11 +84,11 @@ Hai dãy $(x_n)_{n\in\mathrm{I}}$, $(y_n)_{n\in\mathrm{I}}$ có cùng tập hợ
 
 Một *dãy bội* là một họ mà tập hợp chỉ số là một tập con của một tích $\mathbf{N}^p$ ($p$ là một số nguyên) ("dãy kép" khi $p = 2$, "dãy ba" khi $p = 3$, v.v.).
 
-Với mỗi tập hợp có cùng lực với $\mathbf{N}$ và mỗi song ánh $f$ của $\mathbf{N}$ lên I. Với mỗi họ $(x_\iota)_{\iota\in\mathrm{I}}$ được chỉ số hóa bởi tập hợp I, dãy $n \to x_{f(n)}$ được gọi là thu được bằng cách *sắp xếp họ* $(x_\iota)_{\iota\in\mathrm{I}}$ *theo thứ tự được xác định bởi* $f$. Các dãy tương ứng theo cách này với hai song ánh phân biệt của $\mathbf{N}$ lên I chỉ khác nhau ở thứ tự các số hạng của chúng. Đối với một họ hữu hạn được chỉ số hóa bởi một tập hợp I gồm $n$ phần tử, ta cũng có thể định nghĩa tương tự một dãy hữu hạn với $[1, n]$ hoặc $[0, n-1]$ làm tập chỉ số, bằng cách sắp xếp họ theo thứ tự được xác định bởi một song ánh của một trong hai khoảng này lên I.
+Cho I là một tập hợp có cùng lực lượng với $\mathbf{N}$ và cho $f$ là một song ánh từ $\mathbf{N}$ lên I. Với mỗi họ $(x_\iota)_{\iota\in\mathrm{I}}$ được đánh chỉ số bởi tập hợp I, dãy $n \to x_{f(n)}$ được gọi là thu được bằng cách *sắp họ* $(x_\iota)_{\iota\in\mathrm{I}}$ *theo thứ tự được định nghĩa bởi* $f$. Các dãy tương ứng theo cách đó với hai song ánh phân biệt từ $\mathbf{N}$ lên I chỉ khác nhau ở thứ tự các số hạng của chúng. Đối với một họ hữu hạn được đánh chỉ số bởi một tập hợp I có $n$ phần tử, ta cũng có thể định nghĩa tương tự một dãy hữu hạn có tập hợp chỉ số là $[1, n]$ hoặc $[0, n-1]$, bằng cách sắp họ theo thứ tự được định nghĩa bởi một song ánh từ khoảng này hay khoảng kia lên I.
 
-### 2. ĐỊNH NGHĨA ÁNH XẠ BẰNG QUY NẠP
+### 2. ĐỊNH NGHĨA CÁC ÁNH XẠ BẰNG QUY NẠP
 
-Vì tập hợp $\mathbf{N}$ được sắp tốt, ta có thể áp dụng tiêu chuẩn C60 (§ 2, no. 2), mà giờ đây có dạng sau (với cùng ký hiệu) :
+Vì tập hợp $\mathbf{N}$ được sắp tốt, ta có thể áp dụng tiêu chuẩn C60 (§ 2, no. 2), ở đây tiêu chuẩn này có dạng sau đây (với cùng các ký hiệu) :
 
 C62. *Cho $u$ là một chữ cái và cho* $\mathrm{T}\{u\}$ *là một số hạng. Khi đó tồn tại một tập hợp* U *và một ánh xạ $f$ từ* $\mathbf{N}$ *lên* U *sao cho với mỗi số nguyên $n$ ta có* $f(n) = \mathrm{T}\{f^{(n)}\}$, *trong đó $f^{(n)}$ ký hiệu ánh xạ từ* $[0, n[$ *lên* $f([0, n[)$ *trùng với $f$ trên* $[0, n[$. *Hơn nữa, tập hợp* U *và ánh xạ $f$ được xác định duy nhất bởi điều kiện này.*
 
@@ -104,7 +104,7 @@ $$D(u) = \mathcal{E}_x(x \in \mathbf{N} \ \text{và} \ (\exists y)((x, y) \in \m
 
 $$(u = \varphi \ \text{và} \ y = a) \ \text{hoặc} \ (u \neq \varphi \ \text{và} \ y = S\{u(M(u))\})$$
 
-mà ta ký hiệu là $R\{y, u\}$ ; cuối cùng, hãy đặt $T\{u\}$ là số hạng $\tau_y(R\{y, u\})$. Áp dụng C62 cho số hạng $T\{u\}$. Vì $f^{(0)}$ bằng $\varphi$, ta có $T\{f^{(0)}\} = a$; do đó $f(0) = a$. Mặt khác, nếu $n > 0$, ta có $D(f^{(n)}) = [0, n-1]$ và $M(f^{(n)}) = n-1$, do đó
+mà ta ký hiệu bởi $R\{y, u\}$ ; sau cùng, đặt $T\{u\}$ là số hạng $\tau_y(R\{y, u\})$. Áp dụng C62 cho số hạng $T\{u\}$. Vì $f^{(0)}$ bằng $\varphi$, ta có $T\{f^{(0)}\} = a$; do đó $f(0) = a$. Mặt khác, nếu $n > 0$, ta có $D(f^{(n)}) = [0, n-1]$ và $M(f^{(n)}) = n-1$, do đó
 
 $$T\{f^{(n)}\} = S\{f^{(n)}(n-1)\} = S\{f(n-1)\}.$$
 
@@ -116,11 +116,11 @@ Giả sử $a$ là một phần tử của một tập hợp $E$ và $S\{u\}$ l�
 
 Tương tự, cho $h$ là một ánh xạ từ $\mathbf{N} \times E$ vào $E$, và cho $\psi$ là ánh xạ từ $\mathbf{N} \times E$ vào chính nó được định nghĩa bởi $\psi(n, x) = (n+1, h(n, x))$. Theo thảo luận trước đó, tồn tại một ánh xạ duy nhất $g = (\theta, f)$ từ $\mathbf{N}$ vào $\mathbf{N} \times E$ sao cho $g(0) = (0, a)$ và $g(n+1) = \psi(g(n))$ với mọi $n$, từ đó suy ra sự tồn tại và tính duy nhất của một ánh xạ $f$
 
-từ $\mathbf{N}$ vào E sao cho $f(0) = a$ và $f(n + 1) = h(n, f(n))$ với mỗi số nguyên $n$.
+từ $\mathbf{N}$ vào E sao cho $f(0) = a$ và $f(n + 1) = h(n, f(n))$ với mọi số nguyên $n$.
 
 #### Ví dụ 2 {#ens-iii-s6-n2-exa-2 .statement tag=03TD}
 
-Cho X là một tập hợp và cho E là tập hợp các ánh xạ của X vào chính nó. Ký hiệu $e$ là ánh xạ đồng nhất của X vào chính nó, và cho $f$ là bất kỳ phần tử nào của E. Lấy $S\{u\}$ là số hạng $f \circ u$ (*)[^4]. Áp dụng C63 ta thấy rằng tồn tại một ánh xạ duy nhất từ $\mathbf{N}$ vào E, được ký hiệu bởi $n \to f^n$, sao cho $f^0 = e$ và $f^{n+1} = f \circ f^n$. Ánh xạ $f^n$ được gọi là *lần lặp thứ n* của ánh xạ $f$.
+Cho X là một tập hợp và E là tập hợp các ánh xạ từ X vào chính nó. Gọi $e$ là ánh xạ đồng nhất của X vào chính nó, và $f$ là một phần tử bất kỳ của E. Lấy $S\{u\}$ là số hạng $f \circ u$ (*)[^4]. Áp dụng C63, ta thấy rằng tồn tại một ánh xạ duy nhất từ $\mathbf{N}$ vào E, ký hiệu là $n \to f^n$, sao cho $f^0 = e$ và $f^{n+1} = f \circ f^n$. Ánh xạ $f^n$ được gọi là *ánh xạ lặp thứ n* của ánh xạ $f$.
 
 #### Ví dụ 3 {#ens-iii-s6-n2-exa-3 .statement tag=03TE}
 
@@ -150,7 +150,7 @@ Tồn tại một quan hệ sắp thứ tự tốt trên E (§ 2, no. 3, Định
 
 Vì $\mathbf{N} \times \mathbf{N}$ chứa tập hợp $\{0\} \times \mathbf{N}$, tập hợp này có cùng lực lượng với $\mathbf{N}$, nên ta có $\mathrm{Card}(\mathbf{N}) \leqslant \mathrm{Card}(\mathbf{N} \times \mathbf{N})$. Để hoàn tất chứng minh, chỉ cần định nghĩa một đơn ánh $f$ từ $\mathbf{N} \times \mathbf{N}$ vào $\mathbf{N}$. Với mục đích đó, ta chú ý rằng
 
-tồn tại một đơn ánh $\varphi$ của $\mathbf{N}$ vào tập hợp các ánh xạ của $\mathbf{N}$ vào $\mathrm{I} = \{0, 1\}$, thu được như sau : nếu $r$ là số nguyên nhỏ nhất sao cho $n > 2^r$, và nếu $\sum_{k=0}^{r-1} \varepsilon_k 2^{r-k-1}$ là khai triển nhị phân của $n$ (§ 5, no. 7), thì $\varphi(n)$ được định nghĩa là dãy $(u_m)_{m \in \mathbf{N}}$ sao cho $u_m = \varepsilon_{r-m-1}$ với $m < r$ và $u_m = 0$ với $m \geqslant r$. Mệnh đề 8 của § 5, no. 7 cho thấy rằng $\varphi$ là đơn ánh. Với mỗi cặp $(n, n') \in \mathbf{N} \times \mathbf{N}$ ta định nghĩa $f(n, n')$ như sau : nếu $\varphi(n) = (u_m)$ và $\varphi(n') = (v_m)$, hãy lấy $f(n, \; n')$ là số nguyên $s$ sao cho $\varphi(s) = w_m$, trong đó $w_{2m} = u_m$ và $w_{2m+1} = v_m$ với mọi $m \in \mathbf{N}$. Rõ ràng quan hệ $f(n, \; n') = f(n_1, \; n_1')$ suy ra $\varphi(n) = \varphi(n_1)$ và $\varphi(n') = \varphi(n_1')$; do đó $(n, n') = (n_1, n_1')$, và vì thế $f$ là đơn ánh.
+tồn tại một đơn ánh $\varphi$ của $\mathbf{N}$ vào tập hợp các ánh xạ từ $\mathbf{N}$ vào $\mathrm{I} = \{0, 1\}$, thu được như sau : nếu $r$ là số nguyên nhỏ nhất sao cho $n > 2^r$, và nếu $\sum_{k=0}^{r-1} \varepsilon_k 2^{r-k-1}$ là khai triển nhị phân của $n$ (§ 5, no. 7), thì $\varphi(n)$ được định nghĩa là dãy $(u_m)_{m \in \mathbf{N}}$ sao cho $u_m = \varepsilon_{r-m-1}$ với $m < r$ và $u_m = 0$ với $m \geqslant r$. Mệnh đề 8 của § 5, no. 7 cho thấy rằng $\varphi$ là đơn ánh. Với mỗi cặp $(n, n') \in \mathbf{N} \times \mathbf{N}$ ta định nghĩa $f(n, n')$ như sau : nếu $\varphi(n) = (u_m)$ và $\varphi(n') = (v_m)$, đặt $f(n, \; n')$ là số nguyên $s$ sao cho $\varphi(s) = w_m$, trong đó $w_{2m} = u_m$ và $w_{2m+1} = v_m$ với mọi $m \in \mathbf{N}$. Hiển nhiên quan hệ $f(n, \; n') = f(n_1, \; n_1')$ kéo theo $\varphi(n) = \varphi(n_1)$ và $\varphi(n') = \varphi(n_1')$; do đó $(n, n') = (n_1, n_1')$, và vì thế $f$ là đơn ánh.
 
 ¶ Bây giờ ta đi đến chứng minh Định lý 2. Cho E là một tập hợp sao cho $\mathrm{Card}(\mathrm{E}) = \mathfrak{a}$. Lấy D là một tập con của E đẳng lực với $\mathbf{N}$ (Bổ đề 1). Khi đó tồn tại một song ánh $\psi_0$ từ D lên $\mathrm{D} \times \mathrm{D}$ (Bổ đề 2). Gọi $\mathfrak{M}$ là tập hợp các cặp $(\mathrm{X}, \psi)$, trong đó X là một tập con của E chứa D và $\psi$ là một song ánh từ X lên $\mathrm{X} \times \mathrm{X}$ mở rộng $\psi_0$. Sắp thứ tự tập hợp $\mathfrak{M}$ bằng quan hệ
 
@@ -160,7 +160,7 @@ giữa $(\mathrm{X}, \psi)$ và $(\mathrm{X}', \psi')$. Khi đó có thể thấ
 
 $$\mathrm{Z} \times \mathrm{Z} = (\mathrm{F} \times \mathrm{F}) \cup (\mathrm{F} \times \mathrm{Y}) \cup (\mathrm{Y} \times \mathrm{F}) \cup (\mathrm{Y} \times \mathrm{Y}),$$
 
-và bốn tích ở vế phải đôi một rời nhau. Vì F và Y cùng lực lượng, ta có
+và bốn tích ở vế phải đôi một rời nhau. Vì F và Y có cùng lực lượng, ta có
 
 $$\mathrm{Card}(\mathrm{F} \times \mathrm{Y}) = \mathrm{Card}(\mathrm{Y} \times \mathrm{F}) = \mathrm{Card}(\mathrm{Y} \times \mathrm{Y}) = \mathfrak{b}^2 = \mathfrak{b},$$
 
@@ -168,11 +168,11 @@ do đó
 
 $$\mathrm{Card}((\mathrm{F} \times \mathrm{Y}) \cup (\mathrm{Y} \times \mathrm{F}) \cup (\mathrm{Y} \times \mathrm{Y})) = 3\mathfrak{b} = \mathfrak{b}.$$
 
-Suy ra tồn tại một song ánh $f_1$ từ Y lên tập hợp
+Vậy tồn tại một song ánh $f_1$ từ Y lên tập hợp
 
 $$(\mathrm{F} \times \mathrm{Y}) \cup (\mathrm{Y} \times \mathrm{F}) \cup (\mathrm{Y} \times \mathrm{Y});$$
 
-ánh xạ $g$ của Z vào Z $\times$ Z, bằng $f$ trên F và bằng $f_1$ trên Y, do đó là một song ánh kéo dài $f$, trái với định nghĩa của $f$. Vậy $\mathrm{Card}(\mathrm{F}) = \mathfrak{a}$, và chứng minh hoàn tất.
+ánh xạ $g$ từ Z vào Z $\times$ Z, trùng với $f$ trên F và với $f_1$ trên Y, do đó là một song ánh mở rộng $f$, trái với định nghĩa của $f$. Suy ra $\mathrm{Card}(\mathrm{F}) = \mathfrak{a}$, và chứng minh hoàn tất.
 
 #### Hệ quả 1 {#ens-iii-s6-thm-2-cor-1 .statement tag=03N2}
 
@@ -188,13 +188,13 @@ Cho $\mathfrak{b}$ ký hiệu tích ấy và $n$ là số phần tử của I. K
 
 #### Hệ quả 3 {#ens-iii-s6-thm-2-cor-3 .statement tag=03N4}
 
-*Cho $\mathfrak{a}$ là một bản số vô hạn và cho $(\mathfrak{a}_\iota)_{\iota \in \mathrm{I}}$ là một họ các lực lượng $\leqslant \mathfrak{a}$ mà tập chỉ số I có một lực lượng $\leqslant \mathfrak{a}$. Khi đó $\sum\limits_{\iota \in \mathrm{I}} \mathfrak{a}_\iota \leqslant \mathfrak{a}$; và nếu $\mathfrak{a}_\iota = \mathfrak{a}$ đối với ít nhất một chỉ số $\iota \in \mathrm{I}$, thì $\sum\limits_{\iota \in \mathrm{I}} \mathfrak{a}_\iota = \mathfrak{a}$.*
+*Cho $\mathfrak{a}$ là một bản số vô hạn và cho $(\mathfrak{a}_\iota)_{\iota \in \mathrm{I}}$ là một họ các lực lượng $\leqslant \mathfrak{a}$ mà tập hợp chỉ số I có một lực lượng $\leqslant \mathfrak{a}$. Khi đó $\sum\limits_{\iota \in \mathrm{I}} \mathfrak{a}_\iota \leqslant \mathfrak{a}$; và nếu $\mathfrak{a}_\iota = \mathfrak{a}$ với ít nhất một chỉ số $\iota \in \mathrm{I}$, thì $\sum\limits_{\iota \in \mathrm{I}} \mathfrak{a}_\iota = \mathfrak{a}$.*
 
-Cho $\mathfrak{b}$ là lực lượng của I; khi đó ta có $\sum\limits_{\iota \in \mathrm{I}} \mathfrak{a}_\iota \leqslant \mathfrak{a}\mathfrak{b} \leqslant \mathfrak{a}^2 = \mathfrak{a}$ (§ 3, no. 6, Mệnh đề 14), và $\sum\limits_{\iota \in \mathrm{I}} \mathfrak{a}_\iota \geqslant \mathfrak{a}_\varkappa$ với mọi $\varkappa \in \mathrm{I}$.
+Gọi $\mathfrak{b}$ là lực lượng của I; khi đó ta có $\sum\limits_{\iota \in \mathrm{I}} \mathfrak{a}_\iota \leqslant \mathfrak{a}\mathfrak{b} \leqslant \mathfrak{a}^2 = \mathfrak{a}$ (§ 3, no. 6, Mệnh đề 14), và $\sum\limits_{\iota \in \mathrm{I}} \mathfrak{a}_\iota \geqslant \mathfrak{a}_\varkappa$ với mọi $\varkappa \in \mathrm{I}$.
 
 #### Hệ quả 4 {#ens-iii-s6-thm-2-cor-4 .statement tag=03N5}
 
-*Nếu $\mathfrak{a}$ và $\mathfrak{b}$ là hai lực lượng khác không, trong đó một lực lượng là vô hạn, thì ta có $\mathfrak{a}\mathfrak{b} = \mathfrak{a} + \mathfrak{b} = \sup\,(\mathfrak{a},\,\mathfrak{b})$.*
+*Nếu $\mathfrak{a}$ và $\mathfrak{b}$ là hai lực lượng khác không, trong đó có một lực lượng vô hạn, thì ta có $\mathfrak{a}\mathfrak{b} = \mathfrak{a} + \mathfrak{b} = \sup\,(\mathfrak{a},\,\mathfrak{b})$.*
 
 Điều này suy ra trực tiếp từ các Hệ quả 2 và 3.
 
@@ -269,27 +269,27 @@ Trước hết ta chỉ ra rằng (a) suy ra (b). Gọi X là tập hợp các p
 
 #### Hệ quả 1 {#ens-iii-s6-prop-6-cor-1 .statement tag=03NF}
 
-*Một tập sắp thứ tự toàn phần* E *được sắp tốt nếu và chỉ nếu mọi dãy giảm các phần tử của* E *đều dừng.*
+*Một tập hợp được sắp thứ tự toàn phần* E *được sắp tốt khi và chỉ khi mọi dãy giảm các phần tử của* E *đều dừng.*
 
-Vì nói rằng E được sắp tốt tương đương với nói rằng mọi tập con khác rỗng của E đều có một phần tử cực tiểu (§ 1, no. 10, Mệnh đề 10), nên mệnh đề này suy ra từ Mệnh đề 6.
+Thật vậy, nói rằng E được sắp tốt là tương đương với nói rằng mọi tập con khác rỗng của E đều có một phần tử cực tiểu (§ 1, no. 10, Mệnh đề 10), và do đó mệnh đề suy ra từ Mệnh đề 6.
 
 #### Hệ quả 2 {#ens-iii-s6-prop-6-cor-2 .statement tag=03NG}
 
-*Mọi dãy tăng các phần tử của một tập có thứ tự hữu hạn đều dừng.*
+*Mọi dãy tăng các phần tử của một tập hợp có thứ tự hữu hạn đều dừng.*
 
-Vì mọi tập có thứ tự hữu hạn đều có một phần tử cực đại (§ 4, no. 4, Mệnh đề 3, Hệ quả 2).
+Thật vậy, mọi tập hợp có thứ tự hữu hạn đều có một phần tử cực đại (§ 4, no. 4, Mệnh đề 3, Hệ quả 2).
 
-¶ Một tập có thứ tự E thỏa các điều kiện tương đương của Mệnh đề 6 đôi khi được gọi là *Noether*.
+¶ Một tập hợp có thứ tự E thỏa mãn các điều kiện tương đương của Mệnh đề 6 đôi khi được gọi là *Noether*.
 
 #### Mệnh đề 7 ("Nguyên lý quy nạp Noether") {#ens-iii-s6-prop-7 .statement tag=03RM}
 
-— *Cho* E *là một tập Noether, và cho* F *là một tập con của* E *có tính chất sau : nếu* $a \in E$ *sao cho quan hệ* $x > a$ *suy ra* $x \in F$, *thì* $a \in F$. *Trong các điều kiện này,* F $=$ E.
+— *Cho* E *là một tập hợp Noether, và* F *là một tập con của* E *có tính chất sau đây : nếu* $a \in E$ *sao cho quan hệ* $x > a$ *kéo theo* $x \in F$, *thì* $a \in F$. *Khi đó,* F $=$ E.
 
-Thật vậy, giả sử E $\neq$ F; khi đó E $-$ F có một phần tử cực đại $b$. Theo định nghĩa, ta có $x \in F$ với mọi $x > b$; nhưng điều này suy ra $b \in F$, điều đó vô lý.
+Thật vậy, giả sử E $\neq$ F; khi đó E $-$ F có một phần tử cực đại $b$. Theo định nghĩa ta có $x \in F$ với mọi $x > b$; nhưng điều này kéo theo $b \in F$, điều vô lý.
 
 ### Bài tập {#ens-iii-s6-exercises}
 
-Xem [các bài tập cho § 6](exercises/s6/).
+Xem [các bài tập của § 6](exercises/s6/).
 
 [^1]: (*) Cũng có thể cho một chứng minh trực tiếp của C63, tương tự như chứng minh của C60 (§ 2, no. 2).
 [^2]: (†) Định nghĩa của cận trên bé nhất (§ 1, nos. 7, 8, and 9) có thể được phát biểu theo cách sao cho nó có một nghĩa ngay cả đối với một tập hợp không bị chặn trên (nó ký hiệu một số hạng, trong ngôn ngữ hình thức hóa, có dạng $\tau_x(R\{x\})$, mà người đọc sẽ không gặp khó khăn gì khi viết ra).

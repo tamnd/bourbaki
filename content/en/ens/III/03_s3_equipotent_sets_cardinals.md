@@ -45,7 +45,7 @@ errata:
     - says: § 6, no. 3, Theorem 3
       read: § 6, no. 3, Theorem 2
       why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma 1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries on page 188. The Corollary 4 this sentence cites with it is the one that puts the product of two cardinals, one of them infinite, at their supremum, which is Corollary 4 of Theorem 2 and is what the sentence is about.
-content_sha256: 155ceb1fa79c2e2f92adc39b2358178220f94a8b40cabc2c2895bcd17ab7ece2
+content_sha256: 10b9449ea9bd34a5afe226531f3f11696bb938442e68e1812cfc379c8696eeac
 ---
 
 ## 3. EQUIPOTENT SETS. CARDINALS
@@ -54,7 +54,7 @@ content_sha256: 155ceb1fa79c2e2f92adc39b2358178220f94a8b40cabc2c2895bcd17ab7ece2
 
 #### Definition 1 {#ens-iii-s3-def-1 .statement tag=03QU}
 
-A set $X$ is *said to be equipotent to a set $Y$ if there exists a bijection of $X$ onto $Y$. The relation “$X$ is equipotent to $Y$” is denoted by $\operatorname{Eq}(X,Y)$.
+A set $X$ is said to be equipotent to a set $Y$ if there exists a bijection of $X$ onto $Y$. The relation “$X$ is equipotent to $Y$” is denoted by $\operatorname{Eq}(X,Y)$.
 
 The relations $\operatorname{Eq}(X,Y)$ and $\operatorname{Eq}(Y,X)$ are clearly equivalent, so that the relation $\operatorname{Eq}(X,Y)$ is *symmetric*; when it is true, we say that $X$ and $Y$ are *equipotent*. Next, $\operatorname{Eq}(X,X)$ is true. Finally, the relation $\operatorname{Eq}(X,Y)$ is *transitive* since the composition of two bijections is a bijection (Chapter II, § 3, no. 8, Theorem 1); it is therefore an *equivalence relation*, reflexive on every set.
 
@@ -67,7 +67,7 @@ $$
 is true. Now the axiom scheme S7 (Chapter I, § 5, no. 1) gives us the following axiom :
 
 $$
-((\forall Z)(\operatorname{Eq}(X,Z)\Longleftrightarrow\operatorname{Eq}(Y,Z))\Longrightarrow(\tau_Z(\operatorname{Eq}(X,Z))=\tau_Z(\operatorname{Eq}(Y,Z))).
+((\forall Z)(\operatorname{Eq}(X,Z)\Longleftrightarrow\operatorname{Eq}(Y,Z))\Rightarrow(\tau_Z(\operatorname{Eq}(X,Z))=\tau_Z(\operatorname{Eq}(Y,Z)))).
 $$
 
 Hence, if X and Y are equipotent, we have
@@ -112,9 +112,9 @@ The relation "X is equipotent to a subset of Y" is equivalent to "there exists a
 
 *The relation $R\{\xi,\eta\}$: “$\xi$ and $\eta$ are cardinals and $\xi$ is equipotent to a subset of $\eta$” is a well-ordering relation (§ 2, no. 1).*
 
-Since $R\{\xi,\xi\}$ is true for every cardinal $\xi$, what must be proved is that, for every set E of cardinals the relation “$\xi\in E$ and $\eta\in E$ and $R\{\xi,\eta\}$” is a well-ordering relation on E. Consider the set $A=\bigcup_{\xi\in E}\xi$.
+Since $R\{\xi,\xi\}$ is true for every cardinal $\xi$, what must be proved is that, for every set $E$ of cardinals the relation “$\xi\in E$ and $\eta\in E$ and $R\{\xi,\eta\}$” is a well-ordering relation on $E$. Consider the set $A=\bigcup_{\xi\in E}\xi$.
 
-Every cardinal $\xi\in E$ is then a subset of A. By § 2, Theorem 1 there exists a well-ordering relation on A, which we shall denote by $\xi\leq\eta$, and every subset of A is equipotent to a segment of A (§ 2, no. 5, Theorem 3, Corollary x). For every cardinal $\xi\in E$ consider the set of segments of A which are equipotent to $\xi$; this set of segments is not empty and therefore has a least element (§ 2, no. 1, Proposition 2); let $\varphi(\xi)$ denote this least element. The relation
+Every cardinal $\xi\in E$ is then a subset of $A$. By § 2, Theorem 1 there exists a well-ordering relation on $A$, which we shall denote by $\xi\leq\eta$, and every subset of $A$ is equipotent to a segment of $A$ (§ 2, no. 5, Theorem 3, Corollary x). For every cardinal $\xi\in E$ consider the set of segments of $A$ which are equipotent to $\xi$; this set of segments is not empty and therefore has a least element (§ 2, no. 1, Proposition 2); let $\varphi(\xi)$ denote this least element. The relation
 
 “$\xi\in E$ and $\eta\in E$ and $\xi$ is equipotent to a subset of $\eta$”
 
@@ -122,9 +122,9 @@ is then *equivalent* to
 
 “$\xi\in E$ and $\eta\in E$ and $\varphi(\xi)\subset\varphi(\eta)$”.
 
-For clearly the second relation implies the first. Conversely, if $\xi$ is equipotent to a subset of $\varphi(\eta)$, we cannot have $\varphi(\eta)\subset\varphi(\xi)$ and $\varphi(\eta)\neq\varphi(\xi)$; otherwise there would exist a segment of $\varphi(\eta)$ equipotent to $\xi$ (§ 2, no. 5, Theorem 3, Corollary 3), contrary to the definition of $\varphi(\xi)$. Since the set of segments of A is well-ordered by inclusion (§ 2, no. 1, Proposition 2), the theorem follows.
+For clearly the second relation implies the first. Conversely, if $\xi$ is equipotent to a subset of $\varphi(\eta)$, we cannot have $\varphi(\eta)\subset\varphi(\xi)$ and $\varphi(\eta)\neq\varphi(\xi)$; otherwise there would exist a segment of $\varphi(\eta)$ equipotent to $\xi$ (§ 2, no. 5, Theorem 3, Corollary 3), contrary to the definition of $\varphi(\xi)$. Since the set of segments of $A$ is well-ordered by inclusion (§ 2, no. 1, Proposition 2), the theorem follows.
 
-¶ We shall denote the relation $R\{\xi,\eta\}$ by $\xi\leq\eta$. A set X is equipotent to a subset of a set Y if and only if $\operatorname{Card}(X)\leq\operatorname{Card}(Y)$.
+¶ We shall denote the relation $R\{\xi,\eta\}$ by $\xi\leq\eta$. A set $X$ is equipotent to a subset of a set $Y$ if and only if $\operatorname{Card}(X)\leq\operatorname{Card}(Y)$.
 
 Clearly we have $0\leq\xi$ for every cardinal $\xi$, and $1\leq\xi$ for every cardinal $\xi\neq0$.
 
@@ -138,7 +138,7 @@ Clearly we have $0\leq\xi$ for every cardinal $\xi$, and $1\leq\xi$ for every ca
 
 #### Remark {#ens-iii-s3-n2-rem-1 .statement tag=03R0}
 
-Given any set A, there exists a set whose elements are the cardinals $\operatorname{Card}(X)$ for all the subsets X of A, namely, the set of objects of the form $\operatorname{Card}(X)$ for $X\in\mathfrak{P}(A)$ (Chapter II, § 1, no. 6). For every cardinal $\alpha$ the relation “$\xi$ is a cardinal and $\xi\leq\alpha$” is therefore collectivizing in $\xi$ (Chapter II, § 1, no. 4), because it is equivalent to the
+Given any set $A$, there exists a set whose elements are the cardinals $\operatorname{Card}(X)$ for all the subsets $X$ of $A$, namely, the set of objects of the form $\operatorname{Card}(X)$ for $X\in\mathfrak{P}(A)$ (Chapter II, § 1, no. 6). For every cardinal $\alpha$ the relation “$\xi$ is a cardinal and $\xi\leq\alpha$” is therefore collectivizing in $\alpha$ (Chapter II, § 1, no. 4), because it is equivalent to the
 
 relation "$\mathfrak{x}$ is of the form Card (X) for $X \subset \mathfrak{a}$"; the set of all $\mathfrak{x}$ satisfying this relation is called the *set of cardinals* $\leqslant \mathfrak{a}$.
 

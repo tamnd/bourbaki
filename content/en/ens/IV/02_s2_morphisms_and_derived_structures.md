@@ -38,7 +38,7 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: 53e40c1cbd4a981d6d8f26773b3ae20ef14918c26abafd8f761cbe647e256330
+content_sha256: 1df0116fa77b9eebc1d44429db56bb11c1cc04c82010063f9e8691600a51190e
 ---
 
 ## 2. MORPHISMS AND DERIVED STRUCTURES
@@ -313,11 +313,11 @@ Let $\varphi$ (resp. $\varphi'$) be the canonical mapping of A onto $\mathrm{A}/
 
 CST21. *Let* A *be a set endowed with a structure* $\mathscr{S}$ *of species* $\Sigma$, *and let* R *be an equivalence relation on* A *such that there exists on* $\mathrm{A}/\mathrm{R}$ *a quotient structure* $\mathscr{S}'$ *of* $\mathscr{S}$ *by* R. *Let* S *be an equivalence relation on* A *which is coarser than* R, *and let* $\mathrm{S}/\mathrm{R}$ *denote the equivalence relation on* $\mathrm{A}/\mathrm{R}$ *which is the quotient of* S *by* R (Chapter II, § 6, no. 7). *Then there exists on* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$ *a quotient structure* $\mathscr{S}''$ *of* $\mathscr{S}'$ *by* $\mathrm{S}/\mathrm{R}$ *if and only if there exists on* $\mathrm{A}/\mathrm{S}$ *a quotient structure* $\mathscr{S}_0$ *of* $\mathscr{S}$ *by* S, *and the canonical mapping of* $\mathrm{A}/\mathrm{S}$ (*endowed with* $\mathscr{S}_0$) *onto* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$ (*endowed with* $\mathscr{S}''$) *is an isomorphism.*
 
-Let $\varphi$ be the canonical mapping of A onto A/R, and let $\psi$ be that of A/R onto $(A/R)/(S/R)$. By virtue of CST19, $\mathscr{G}^{\prime\prime}$ is the quotient of $\mathscr{G}^{\prime}$ by S/R if and only if $\mathscr{G}^{\prime\prime}$ is the final structure with respect to $(A,\mathscr{G},\psi\circ\varphi)$. The criterion then follows from the fact that the relation $\psi(\varphi(x))=\psi(\varphi(y))$ is equivalent to S.
+Let $\varphi$ be the canonical mapping of A onto $A/R$, and let $\psi$ be that of $A/R$ onto $(A/R)/(S/R)$. By virtue of CST19, $\mathscr{G}''$ is the quotient of $\mathscr{G}'$ by $S/R$ if and only if $\mathscr{G}''$ is the final structure with respect to $(A,\mathscr{G},\psi\circ\varphi)$. The criterion then follows from the fact that the relation $\psi(\varphi(x))=\psi(\varphi(y))$ is equivalent to S.
 
 #### Remark {#ens-iv-s2-n6-rem-1 .statement tag=03VW}
 
-Let A be a set endowed with a structure $\mathscr{G}$ of species $\Sigma$, and let R be an equivalence relation on A such that there exists on E = A/R a quotient structure $\mathscr{G}^{\prime}$ of $\mathscr{G}$ by R. Let $\varphi$ be the canonical mapping of A onto E. In general, there exists no *section* $s$ of $\varphi$ (Chapter II, § 3, no. 8) which is a *morphism* of E into A. Let us suppose that such a section $s$ exists, and moreover that there exists a structure $\mathscr{G}^{\prime\prime}$ induced by $\mathscr{G}$ on $s(E)$. Then, if $j$ denotes the canonical injection of $s(E)$ into A and if $s=j\circ f$, the bijection $f$ is an *isomorphism* of E onto $s(E)$. For $f$ is a morphism by the definition of induced structure, and $g=\varphi\circ j$ is a morphism of $s(E)$ onto E by reason of (MO$_{\mathrm{II}}$). Since $g\circ f$ and $f\circ g$ are the identity mappings of E and $s(E)$, respectively, the assertion is a consequence of CST8.
+Let A be a set endowed with a structure $\mathscr{G}$ of species $\Sigma$, and let R be an equivalence relation on A such that there exists on $E=A/R$ a quotient structure $\mathscr{G}'$ of $\mathscr{G}$ by R. Let $\varphi$ be the canonical mapping of A onto E. In general, there exists no *section* $s$ of $\varphi$ (Chapter II, § 3, no. 8) which is a *morphism* of E into A. Let us suppose that such a section $s$ exists, and moreover that there exists a structure $\mathscr{G}''$ induced by $\mathscr{G}$ on $s(E)$. Then, if $j$ denotes the canonical injection of $s(E)$ into A and if $s=j\circ f$, the bijection $f$ is an *isomorphism* of E onto $s(E)$. For $f$ is a morphism by the definition of induced structure, and $g=\varphi\circ j$ is a morphism of $s(E)$ onto E by reason of (MO$_{\mathrm{II}}$). Since $g\circ f$ and $f\circ g$ are the identity mappings of E and $s(E)$, respectively, the assertion is a consequence of CST8.
 
 ### Exercises {#ens-iv-s2-exercises}
 
