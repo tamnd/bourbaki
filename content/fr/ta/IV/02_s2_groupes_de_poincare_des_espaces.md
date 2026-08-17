@@ -7,7 +7,7 @@ section: 2
 section_title: Groupes de Poincaré des espaces délaçables
 lang: fr
 source: ta-i-iv-fr
-book_pages: A IV.351-A IV.368, A IV.457-A IV.458
+book_pages: TA IV.351-TA IV.368, TA IV.457-TA IV.458
 pdf_pages: 0367-0384, 0473-0474
 extraction: native
 subsections:
@@ -37,7 +37,7 @@ subsections:
       pdf_page: 381
 statements: 30
 exercises: 5
-content_sha256: 4b2f1984b8356a27ffeca9c22d8e6d8f692e5409c1a78d01dd49846ada5cd4dc
+content_sha256: 9772e1f4e76b3b582778d0dcf1d6374675f46c35d8aede4730b0332b38d763c7
 ---
 
 ## § 2. GROUPES DE POINCARÉ DES ESPACES DÉLAÇABLES
@@ -228,9 +228,9 @@ de $\overset{-1}{f}(V)$ est trivialisable ; il existe ainsi un espace discret $F
 
 isomorphisme de revêtements $g_V:\overset{-1}{f}(V)\times_XZ\rightarrow \overset{-1}{f}(V)\times F_V$. Pour tout
 
-couple $(V,V')$ d’ouverts appartenant à $\mathscr{U}$, l’application $f_{V\cap V'}:\overset{-1}{f}(V\cap$ $V')\rightarrow V\cap V'$ est relativement connexe. D’après la proposition 5 de IV, p. 356, il existe un unique isomorphisme de revêtements de $V\cap V'$, $h_{V',V}: (V\cap V')\times F_V\rightarrow (V\cap V')\times F_{V'}$, tel que l’on ait $f^*(h_{V',V})(x, t) =$ $g_{V'}(g_V^{-1}(x, t))$ pour tout $x\in V\cap V'$ et tout $t\in F_V$. Si V, $V',V''$ sont des éléments de $\mathscr{U}$, on a $h_{V'',V}(x, t) =h_{V'',V'}(h_{V',V}(x, t))$ pour tout $x\in V\cap V'\cap V''$ et tout $t\in F_V$. Il existe alors un unique Y-espace T et, pour tout $V\in \mathscr{U}$, un isomorphisme $h_V: T_V\rightarrow V\times F_V$, tel que l’on ait $h_{V',V}(x, t) =h_{V'}\circ h^-_V^1(x, t)$ pour tout couple $(V,V')$ d’ouverts appartenant à $\mathscr{U}$, tout $x\in V\cap V'$ et tout $t\in F_V($cf. TG, I, p. 16). L’espace T est en particulier un revêtement de Y. Il existe en outre une
+couple $(V,V')$ d’ouverts appartenant à $\mathscr{U}$, l’application $f_{V\cap V'}:\overset{-1}{f}(V\cap$ $V')\rightarrow V\cap V'$ est relativement connexe. D’après la proposition 5 de IV, p. 356, il existe un unique isomorphisme de revêtements de $V\cap V'$, $h_{V',V}: (V\cap V')\times F_V\rightarrow (V\cap V')\times F_{V'}$, tel que l’on ait $f^*(h_{V',V})(x, t) =$ $g_{V'}(g_V^{-1}(x, t))$ pour tout $x\in V\cap V'$ et tout $t\in F_V$. Si V, $V',V''$ sont des éléments de $\mathscr{U}$, on a $h_{V'',V}(x, t) =h_{V'',V'}(h_{V',V}(x, t))$ pour tout $x\in V\cap V'\cap V''$ et tout $t\in F_V$. Il existe alors un unique Y-espace T et, pour tout $V\in \mathscr{U}$, un isomorphisme $h_V: T_V\rightarrow V\times F_V$, tel que l’on ait $h_{V',V}(x, t) =h_{V'}\circ h^{-1}_V(x, t)$ pour tout couple $(V,V')$ d’ouverts appartenant à $\mathscr{U}$, tout $x\in V\cap V'$ et tout $t\in F_V($cf. TG, I, p. 16). L’espace T est en particulier un revêtement de Y. Il existe en outre une
 
-unique application de $X\times_YT$ sur Z dont la restriction à $\overset{-1}{f}(V)\times_YT$ est donnée par $g^-_V^1\circ f^*(h_V)$ et c’est un isomorphisme de X-espaces, d’où la proposition.
+unique application de $X\times_YT$ sur Z dont la restriction à $\overset{-1}{f}(V)\times_YT$ est donnée par $g^{-1}_V\circ f^*(h_V)$ et c’est un isomorphisme de X-espaces, d’où la proposition.
 
 #### Corollaire {#ta-iv-s2-n2-cor-1 .statement tag=0217}
 

@@ -7,7 +7,7 @@ section: 2
 section_title: Classification
 lang: fr
 source: ts-i-ii-fr
-book_pages: A II.244-A II.250, A II.304-A II.308
+book_pages: TS II.244-TS II.250, TS II.304-TS II.308
 pdf_pages: 0256-0262, 0316-0320
 extraction: native
 subsections:

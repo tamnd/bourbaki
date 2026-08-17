@@ -7,7 +7,7 @@ section: 4
 section_title: Perturbations dans les espaces de Banach
 lang: fr
 source: ts-iii-v-fr
-book_pages: A III.55-A III.70, A III.123-A III.124
+book_pages: TS III.55-TS III.70, TS III.123-TS III.124
 pdf_pages: 0069-0084, 0137-0138
 extraction: native
 subsections:

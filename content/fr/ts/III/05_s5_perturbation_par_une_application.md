@@ -7,7 +7,7 @@ section: 5
 section_title: Perturbation par une application linéaire compacte
 lang: fr
 source: ts-iii-v-fr
-book_pages: A III.71-A III.82, A III.125-A III.128
+book_pages: TS III.71-TS III.82, TS III.125-TS III.128
 pdf_pages: 0085-0096, 0139-0142
 extraction: native
 subsections:
@@ -16,7 +16,7 @@ subsections:
       page: 71
       pdf_page: 85
     - "no": 2
-      title: Perturbation des applications linéaires injectives ou surjec- tives
+      title: Perturbation des applications linéaires injectives ou surjectives
       page: 72
       pdf_page: 86
     - "no": 3
@@ -37,7 +37,7 @@ subsections:
       pdf_page: 93
 statements: 19
 exercises: 11
-content_sha256: b05606f49debbb248d625f36e9a2584118931c90fd9b5963eaeb0d0682c56fcb
+content_sha256: 7b6f43887a77e9b42c8333784ae0263347c65c3e329a3d71dc8aa12d7293d0e1
 ---
 
 ## § 5. PERTURBATION PAR UNE APPLICATION LINÉAIRE COMPACTE
@@ -64,7 +64,7 @@ Soient E un espace localement convexe séparé, F un espace localement convexe e
 
 (ii) $=\Rightarrow$ (i) : Soit V un voisinage fermé de 0 dans E tel que la restriction $v$ de $u$ à V soit propre. L’ensemble $V\cap$ Ker($u$) $=\overset{-1}{v}(\{0\})$ est alors compact (TG, I, p. 75, th. 1) ; par suite, l’espace vectoriel Ker($u$) est localement compact, donc de dimension finie (EVT, I, p. 15, th. 3). Soit $E_1$ un supplémentaire topologique de Ker($u$) dans E (prop. 1 de III, p. 55) ; posons $V_1= E_1\cap V$. L’ensemble $V_1$ est fermé dans V. L’application $u|V_1$ est propre (TG, I, p. 74, cor. 1) et injective, donc est un homéomorphisme de $V_1$ sur une partie fermée de F (TG, I, p. 72, prop. 2). D’après le lemme 1, la restriction de $u$ à $E_1$ est un homéomorphisme de $E_1$ sur un sous-espace fermé de F, donc $u$ est un morphisme strict d’image fermée.
 
-### 2. Perturbation des applications linéaires injectives ou surjec- tives
+### 2. Perturbation des applications linéaires injectives ou surjectives
 
 #### Théorème 1 {#ts-iii-s5-thm-1 .statement tag=02TM}
 

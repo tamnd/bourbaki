@@ -7,7 +7,7 @@ section: 4
 section_title: Représentations des groupes compacts
 lang: fr
 source: ts-iii-v-fr
-book_pages: A V.456-A V.482, A V.504-A V.516
+book_pages: TS V.456-TS V.482, TS V.504-TS V.516
 pdf_pages: 0469-0495, 0517-0529
 extraction: native
 subsections:

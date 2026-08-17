@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: 3655ec1a7e9ab9c1debbe633a62ac5a368014e0e83eb7540aeff3779ef6d5e9f
+content_sha256: da9501ed099d6bc51fb4aa8a7418a423c3b712c29d73420785f4a0228fb130ed
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -350,7 +350,7 @@ We denote the mapping $\varepsilon : B_0\rightarrow A$ by $d_0=d^0_0$.
 Let $n$ be an integer $\geqslant 1$. For $0\leqslant i < j\leqslant n$, we have
 
 $$
-d_{n-1}^i\circ d_n^j=d_n^{j-}_-^1_1\circ d_n^i \tag{6}
+d_{n-1}^i\circ d_n^j=d_{n-1}^{j-1}\circ d_n^i \tag{6}
 $$
 
 and from this we deduce
@@ -360,7 +360,7 @@ d_{n-1}\circ d_n=\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_{n-1}^i\circ d_n^j+
 $$
 
 $$
-=\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_n^{j-}_-^1_1\circ d_n^i+\sum_{0\leqslant j\leqslant i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
+=\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_{n-1}^{j-1}\circ d_n^i+\sum_{0\leqslant j\leqslant i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
 $$
 
 and consequently

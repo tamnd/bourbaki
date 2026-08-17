@@ -7,7 +7,7 @@ section: 4
 section_title: Homotopies
 lang: fr
 source: ta-i-iv-fr
-book_pages: A II.180-A II.196
+book_pages: TA II.180-TA II.196
 pdf_pages: 0196-0212
 extraction: native
 subsections:

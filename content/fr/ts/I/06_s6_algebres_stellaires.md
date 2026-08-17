@@ -7,7 +7,7 @@ section: 6
 section_title: Algèbres stellaires
 lang: fr
 source: ts-i-ii-fr
-book_pages: A I.95-A I.127, A I.180-A I.187
+book_pages: TS I.95-TS I.127, TS I.180-TS I.187
 pdf_pages: 0108-0140, 0193-0200
 extraction: native
 subsections:
@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: d5f7022988bd6fff865e8014ac7aec2c89bcd4133c067065e099369def1ce4e4
+content_sha256: d55083c241f4ca758dd6515a40723b704b63198caffb074084201f9875adfbb7
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -884,7 +884,7 @@ lim$_{f,\mathfrak{F}}f x=$ lim$_{f,\mathfrak{F}}xf=x$.
 
 Si A est une algèbre stellaire, une unité approchée $\mathfrak{F}$ est dite croissante si $\mathfrak{F}$ est une base de filtre sur $A_+$.
 
-Soit A une algèbre stellaire. On note $A^{\leqslant 1}_+$ (resp. $A^<_+^1)$ l’ensemble des éléments positifs de A de norme $\leqslant 1$ (resp. de norme $<1$) ; ce sont les éléments hermitiens de A dont le spectre est contenu dans $[0,1]$ (resp. dans $[0,1[$).
+Soit A une algèbre stellaire. On note $A^{\leqslant 1}_+$ (resp. $A^{<1}_+)$ l’ensemble des éléments positifs de A de norme $\leqslant 1$ (resp. de norme $<1$) ; ce sont les éléments hermitiens de A dont le spectre est contenu dans $[0,1]$ (resp. dans $[0,1[$).
 
 #### Proposition 17 {#ts-i-s6-prop-17 .statement tag=02EQ}
 
@@ -926,19 +926,19 @@ La proposition en résulte.
 
 #### Proposition 18 {#ts-i-s6-prop-18 .statement tag=02ER}
 
-Soit A une algèbre stellaire. L’ensemble ordonné $A^<_+^1$ est filtrant à droite (E, III, p. 12, déf. 7) et le filtre de ses sections (TG, I, p. 38, exemple 2) est une unité approchée croissante de A.
+Soit A une algèbre stellaire. L’ensemble ordonné $A^{<1}_+$ est filtrant à droite (E, III, p. 12, déf. 7) et le filtre de ses sections (TG, I, p. 38, exemple 2) est une unité approchée croissante de A.
 
 Soit $\widetilde{A}$ l’algèbre stellaire déduite de A par adjonction d’un élément unité noté 1 (déf. 4 de I, p. 106).
 
 Soit $g$ la fonction de $[0,1[$ dans $\mathbf{R}_+$ définie par $g(t) =t(1-t)^{-1}$. C’est une bijection continue croissante, sa bijection réciproque étant donnée par $t\mapsto 1-(1 +t)^{-1}$.
 
-Démontrons que l’ensemble ordonné $A^<_+^1$ est filtrant à droite. Soient $x$ et $y$ des éléments de $A^<_+^1$. Puisque $g(0) = 0$ et puisque Sp$'_A(x)$ et Sp$'_A(y)$ sont contenus dans $[0,1[$, les éléments $g(x)$ et $g(y)$ sont définis ; ils sont positifs, de sorte que $g(x) +g(y)\geqslant 0$. On peut donc former l’élément $z=g^{-1}(g(x) +g(y))$ de A. On a Sp$'_A(z)\subset [0,1[$, et donc $z\in A^<_+^1$.
+Démontrons que l’ensemble ordonné $A^{<1}_+$ est filtrant à droite. Soient $x$ et $y$ des éléments de $A^{<1}_+$. Puisque $g(0) = 0$ et puisque Sp$'_A(x)$ et Sp$'_A(y)$ sont contenus dans $[0,1[$, les éléments $g(x)$ et $g(y)$ sont définis ; ils sont positifs, de sorte que $g(x) +g(y)\geqslant 0$. On peut donc former l’élément $z=g^{-1}(g(x) +g(y))$ de A. On a Sp$'_A(z)\subset [0,1[$, et donc $z\in A^{<1}_+$.
 
-On a $0\leqslant g(x)\leqslant g(z)$, d’où $1\leqslant 1+g(x)\leqslant 1+g(z)$. L’assertion b) du lemme 14 de I, p. 119 implique que $1 +g(x)$ et $1 +g(z)$ sont inversibles et que $(1 +g(z))^{-1}\leqslant (1 +g(x))^{-1}$. Par suite, $z= 1-(1 +g(z))^{-1}\geqslant$ $1-(1 +g(x))^{-1}=x$. De même, on a $z\geqslant y$. En conséquence, $z$ majore $x$ et $y$ dans $A^<_+^1$. L’ensemble ordonné $A^<_+^1$ est donc filtrant à droite. Notons $\mathfrak{F}$ le filtre de ses sections
+On a $0\leqslant g(x)\leqslant g(z)$, d’où $1\leqslant 1+g(x)\leqslant 1+g(z)$. L’assertion b) du lemme 14 de I, p. 119 implique que $1 +g(x)$ et $1 +g(z)$ sont inversibles et que $(1 +g(z))^{-1}\leqslant (1 +g(x))^{-1}$. Par suite, $z= 1-(1 +g(z))^{-1}\geqslant$ $1-(1 +g(x))^{-1}=x$. De même, on a $z\geqslant y$. En conséquence, $z$ majore $x$ et $y$ dans $A^{<1}_+$. L’ensemble ordonné $A^{<1}_+$ est donc filtrant à droite. Notons $\mathfrak{F}$ le filtre de ses sections
 
-Soit $x$ un élément positif de A. Pour tout entier $n\geqslant 1$, soit $e_n=$ $g^{-1}(nx)$ ; on a $e_n\in A^<_+^1$. Soit $h_n$ la fonction continue sur $\mathbf{R}_+$ définie pour tout $t\in \mathbf{R}_+$ par $h_n(t) =t^2(1-g^{-1}(nt)) =t^2/(1 +nt)$. On a $|h_n(t)|\leqslant t/n$ pour tout $t\geqslant 0$, et donc $\|x(1-e_n)x\|=\|h_n(x)\|\leqslant$ $\|x\|/n$. En particulier, $x(1-e_n)x$ tend vers 0 quand $n$ tend vers l’infini.
+Soit $x$ un élément positif de A. Pour tout entier $n\geqslant 1$, soit $e_n=$ $g^{-1}(nx)$ ; on a $e_n\in A^{<1}_+$. Soit $h_n$ la fonction continue sur $\mathbf{R}_+$ définie pour tout $t\in \mathbf{R}_+$ par $h_n(t) =t^2(1-g^{-1}(nt)) =t^2/(1 +nt)$. On a $|h_n(t)|\leqslant t/n$ pour tout $t\geqslant 0$, et donc $\|x(1-e_n)x\|=\|h_n(x)\|\leqslant$ $\|x\|/n$. En particulier, $x(1-e_n)x$ tend vers 0 quand $n$ tend vers l’infini.
 
-Soit $\varepsilon  >0$ un nombre réel. Soit $n$ un entier tel que $\|x(1-e_n)x\|< \varepsilon$. Pour tout $f\in A^<_+^1$ tel que $f\geqslant e_n$, on a alors
+Soit $\varepsilon  >0$ un nombre réel. Soit $n$ un entier tel que $\|x(1-e_n)x\|< \varepsilon$. Pour tout $f\in A^{<1}_+$ tel que $f\geqslant e_n$, on a alors
 
 $$
 \|x-f x\|^2=\|(1-f)x\|^2=\|((1-f)x)^*(1-f)x\|=\|x^*(1-f)^2x\|

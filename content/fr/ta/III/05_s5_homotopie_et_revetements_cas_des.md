@@ -7,7 +7,7 @@ section: 5
 section_title: Homotopie et revêtements (cas des espaces localement connexes par arcs)
 lang: fr
 source: ta-i-iv-fr
-book_pages: A III.308-A III.320, A III.334-A III.338
+book_pages: TA III.308-TA III.320, TA III.334-TA III.338
 pdf_pages: 0324-0336, 0350-0354
 extraction: native
 subsections:

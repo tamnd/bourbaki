@@ -7,7 +7,7 @@ section: 3
 section_title: Groupoïde de Poincaré
 lang: fr
 source: ta-i-iv-fr
-book_pages: A III.289-A III.300, A III.334
+book_pages: TA III.289-TA III.300, TA III.334
 pdf_pages: 0305-0316, 0350-0350
 extraction: native
 subsections:

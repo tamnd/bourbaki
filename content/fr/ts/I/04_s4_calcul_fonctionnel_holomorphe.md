@@ -7,7 +7,7 @@ section: 4
 section_title: Calcul fonctionnel holomorphe
 lang: fr
 source: ts-i-ii-fr
-book_pages: A I.49-A I.88, A I.172-A I.177
+book_pages: TS I.49-TS I.88, TS I.172-TS I.177
 pdf_pages: 0062-0101, 0185-0190
 extraction: native
 subsections:
@@ -60,7 +60,7 @@ subsections:
       page: 81
       pdf_page: 94
     - "no": 13
-      title: Calcul fonctionnel holomorphe dans une algèbre nor- mable complète réelle ou complexe
+      title: Calcul fonctionnel holomorphe dans une algèbre normable complète réelle ou complexe
       page: 85
       pdf_page: 98
     - "no": 14
@@ -69,7 +69,7 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: 33dcf620be1bbbf74fc41dd412fda77f90cad3658fbe14fc00a18ce4253618bf
+content_sha256: 01f7d92569861302816b91ad977439840048381ad2f72762735ba146e3c5ff15
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -1568,7 +1568,7 @@ $$
 
 d’après la prop. 9 de I, p. 75 appliquée à $A_{\{\mu\}}$ et à la fonction constante 1 au voisinage de $\Delta \cup \Gamma$. Le corollaire en résulte.
 
-### 13. Calcul fonctionnel holomorphe dans une algèbre nor- mable complète réelle ou complexe
+### 13. Calcul fonctionnel holomorphe dans une algèbre normable complète réelle ou complexe
 
 Soit E un espace vectoriel topologique réel. L’espace vectoriel topologique $\mathbf{C}\otimes E$ complexifié de E (EVT, II, p. 65) est noté $E_{(\mathbf{C})}$ et E est identifié à un sous-espace vectoriel topologique réel de $E_{(\mathbf{C})}$ par l’application $x\mapsto 1\otimes x$.
 

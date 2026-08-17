@@ -7,7 +7,7 @@ section: 6
 section_title: Espaces classifiants
 lang: fr
 source: ta-i-iv-fr
-book_pages: A IV.437-A IV.454, A IV.477-A IV.480
+book_pages: TA IV.437-TA IV.454, TA IV.477-TA IV.480
 pdf_pages: 0453-0470, 0493-0496
 extraction: native
 subsections:

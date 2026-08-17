@@ -7,7 +7,7 @@ section: 2
 section_title: Homotopie et chemins
 lang: fr
 source: ta-i-iv-fr
-book_pages: A III.256-A III.289, A III.330-A III.333
+book_pages: TA III.256-TA III.289, TA III.330-TA III.333
 pdf_pages: 0272-0305, 0346-0349
 extraction: native
 subsections:

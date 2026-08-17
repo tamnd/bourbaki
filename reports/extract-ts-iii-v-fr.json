@@ -13,6 +13,7 @@
   "flagged_pages": [
     {
       "pdf_page": 64,
+      "page_label": "TS III.50",
       "flags": [
         "dropped-glyph"
       ]
@@ -25,18 +26,21 @@
     },
     {
       "pdf_page": 127,
+      "page_label": "TS III.113",
       "flags": [
         "tall-delimiter"
       ]
     },
     {
       "pdf_page": 133,
+      "page_label": "TS III.119",
       "flags": [
         "tall-delimiter"
       ]
     },
     {
       "pdf_page": 149,
+      "page_label": "TS III.135",
       "flags": [
         "tall-delimiter",
         "stacked-rows"
@@ -44,36 +48,42 @@
     },
     {
       "pdf_page": 209,
+      "page_label": "TS IV.196",
       "flags": [
         "dropped-glyph"
       ]
     },
     {
       "pdf_page": 210,
+      "page_label": "TS IV.197",
       "flags": [
         "dropped-glyph"
       ]
     },
     {
       "pdf_page": 216,
+      "page_label": "TS IV.203",
       "flags": [
         "dropped-glyph"
       ]
     },
     {
       "pdf_page": 222,
+      "page_label": "TS IV.209",
       "flags": [
         "dropped-glyph"
       ]
     },
     {
       "pdf_page": 223,
+      "page_label": "TS IV.210",
       "flags": [
         "dropped-glyph"
       ]
     },
     {
       "pdf_page": 227,
+      "page_label": "TS IV.214",
       "flags": [
         "dropped-glyph"
       ]
@@ -86,54 +96,63 @@
     },
     {
       "pdf_page": 362,
+      "page_label": "TS IV.349",
       "flags": [
         "dropped-glyph"
       ]
     },
     {
       "pdf_page": 382,
+      "page_label": "TS IV.369",
       "flags": [
         "tall-delimiter"
       ]
     },
     {
       "pdf_page": 383,
+      "page_label": "TS IV.370",
       "flags": [
         "tall-delimiter"
       ]
     },
     {
       "pdf_page": 425,
+      "page_label": "TS V.412",
       "flags": [
         "tall-delimiter"
       ]
     },
     {
       "pdf_page": 448,
+      "page_label": "TS V.435",
       "flags": [
         "dropped-glyph"
       ]
     },
     {
       "pdf_page": 473,
+      "page_label": "TS V.460",
       "flags": [
         "tall-delimiter"
       ]
     },
     {
       "pdf_page": 489,
+      "page_label": "TS V.476",
       "flags": [
         "tall-delimiter"
       ]
     },
     {
       "pdf_page": 498,
+      "page_label": "TS V.485",
       "flags": [
         "tall-delimiter"
       ]
     },
     {
       "pdf_page": 521,
+      "page_label": "TS V.508",
       "flags": [
         "tall-delimiter"
       ]

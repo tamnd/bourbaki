@@ -7,7 +7,7 @@ section: 1
 section_title: Spectres et caractères
 lang: fr
 source: ts-i-ii-fr
-book_pages: A I.1-A I.15, A I.153-A I.154
+book_pages: TS I.1-TS I.15, TS I.153-TS I.154
 pdf_pages: 0014-0028, 0166-0167
 extraction: native
 subsections:

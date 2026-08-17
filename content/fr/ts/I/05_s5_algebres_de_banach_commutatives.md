@@ -7,7 +7,7 @@ section: 5
 section_title: Algèbres de Banach commutatives régulières
 lang: fr
 source: ts-i-ii-fr
-book_pages: A I.88-A I.95, A I.178-A I.180
+book_pages: TS I.88-TS I.95, TS I.178-TS I.180
 pdf_pages: 0101-0108, 0191-0193
 extraction: native
 subsections:

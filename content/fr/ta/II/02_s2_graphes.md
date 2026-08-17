@@ -7,7 +7,7 @@ section: 2
 section_title: Graphes
 lang: fr
 source: ta-i-iv-fr
-book_pages: A II.155-A II.159, A II.219-A II.223
+book_pages: TA II.155-TA II.159, TA II.219-TA II.223
 pdf_pages: 0171-0175, 0235-0239
 extraction: native
 subsections:

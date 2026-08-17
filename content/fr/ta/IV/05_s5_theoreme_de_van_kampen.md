@@ -7,7 +7,7 @@ section: 5
 section_title: Théorème de van Kampen
 lang: fr
 source: ta-i-iv-fr
-book_pages: A IV.405-A IV.436, A IV.463-A IV.477
+book_pages: TA IV.405-TA IV.436, TA IV.463-TA IV.477
 pdf_pages: 0421-0452, 0479-0493
 extraction: native
 subsections:

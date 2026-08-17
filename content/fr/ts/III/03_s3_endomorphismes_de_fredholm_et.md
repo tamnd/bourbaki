@@ -7,7 +7,7 @@ section: 3
 section_title: Endomorphismes de Fredholm et endomorphismes de Riesz
 lang: fr
 source: ts-iii-v-fr
-book_pages: A III.39-A III.55, A III.120-A III.122
+book_pages: TS III.39-TS III.55, TS III.120-TS III.122
 pdf_pages: 0053-0069, 0134-0136
 extraction: native
 subsections:

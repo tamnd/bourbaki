@@ -8,7 +8,7 @@ section_title: ALGÈBRES NORMÉES
 kind: front
 lang: fr
 source: ts-i-ii-fr
-book_pages: A I.1
+book_pages: TS I.1
 pdf_pages: 0014-0014
 extraction: native
 statements: 0

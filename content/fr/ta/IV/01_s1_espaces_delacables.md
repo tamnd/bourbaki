@@ -7,7 +7,7 @@ section: 1
 section_title: Espaces délaçables
 lang: fr
 source: ta-i-iv-fr
-book_pages: A IV.340-A IV.351, A IV.455-A IV.457
+book_pages: TA IV.340-TA IV.351, TA IV.455-TA IV.457
 pdf_pages: 0356-0367, 0471-0473
 extraction: native
 subsections:

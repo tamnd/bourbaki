@@ -7,7 +7,7 @@ section: 4
 section_title: Homotopie et revêtements
 lang: fr
 source: ta-i-iv-fr
-book_pages: A III.300-A III.307, A III.334
+book_pages: TA III.300-TA III.307, TA III.334
 pdf_pages: 0316-0323, 0350-0350
 extraction: native
 subsections:

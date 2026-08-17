@@ -8,7 +8,7 @@ section_title: HOMOTOPIE ET GROUPOÏDE DE POINCARÉ
 kind: front
 lang: fr
 source: ta-i-iv-fr
-book_pages: A III.229
+book_pages: TA III.229
 pdf_pages: 0245-0245
 extraction: native
 statements: 0

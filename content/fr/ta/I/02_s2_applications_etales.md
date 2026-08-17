@@ -7,7 +7,7 @@ section: 2
 section_title: Applications étales
 lang: fr
 source: ta-i-iv-fr
-book_pages: A I.25-A I.42, A I.140-A I.141
+book_pages: TA I.25-TA I.42, TA I.140-TA I.141
 pdf_pages: 0041-0058, 0156-0157
 extraction: native
 subsections:

@@ -12,12 +12,14 @@
   "flagged_pages": [
     {
       "pdf_page": 31,
+      "page_label": "TS I.18",
       "flags": [
         "dropped-glyph"
       ]
     },
     {
       "pdf_page": 75,
+      "page_label": "TS I.62",
       "flags": [
         "dropped-glyph"
       ]
@@ -30,24 +32,28 @@
     },
     {
       "pdf_page": 192,
+      "page_label": "TS I.179",
       "flags": [
         "dropped-glyph"
       ]
     },
     {
       "pdf_page": 219,
+      "page_label": "TS II.207",
       "flags": [
         "tall-delimiter"
       ]
     },
     {
       "pdf_page": 220,
+      "page_label": "TS II.208",
       "flags": [
         "tall-delimiter"
       ]
     },
     {
       "pdf_page": 245,
+      "page_label": "TS II.233",
       "flags": [
         "tall-delimiter"
       ]
@@ -60,12 +66,14 @@
     },
     {
       "pdf_page": 322,
+      "page_label": "TS II.310",
       "flags": [
         "tall-delimiter"
       ]
     },
     {
       "pdf_page": 324,
+      "page_label": "TS II.312",
       "flags": [
         "tall-delimiter"
       ]
