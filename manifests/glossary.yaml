@@ -1,4 +1,4 @@
-version: 27
+version: 29
 terms:
     - en: ring
       vi: vành
@@ -387,16 +387,14 @@ terms:
       vi: cấp
       zh: 阶
       ja: 位数
-      note: the order of a group or of an element, a cardinal. The ordering sense
-        belongs to Theory of Sets and has its own row.
+      note: the order of a group or of an element, a cardinal. The ordering sense belongs to Theory of Sets and has its own row.
     - en: order
       vi: thứ tự
       zh: 序
       ja: 順序
+      note: an ordering, as in order relation and order-type. Theory of Sets never uses the word for the order of a group.
       books:
         - ens
-      note: an ordering, as in order relation and order-type. Theory of Sets never
-        uses the word for the order of a group.
     - en: order-type
       vi: kiểu thứ tự
       zh: 序型
@@ -610,10 +608,6 @@ terms:
       vi: chọn
       zh: 选择
       ja: 選ぶ
-    - en: identity
-      vi: đơn vị
-      zh: 单位元
-      ja: 単位元
     - en: rank
       vi: hạng
       zh: 秩
@@ -3766,7 +3760,7 @@ terms:
       vi: đối ngẫu của một $\mathfrak{g}$-môđun
       zh: $\mathfrak{g}$-模的对偶
     - en: echelons
-      vi: các tầng
+      vi: các thang
       zh: 阶梯
     - en: Hilbert’s Nullstellensatz
       vi: Định lý không điểm của Hilbert
