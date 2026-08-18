@@ -75,6 +75,8 @@ Bourbaki cross-references are page based, as in `VIII, p. 3, Proposition 3`, so 
 
 A tag is never reused and never edited. If a label has to change, the tag follows the statement and the old label goes to `tags/aliases`. Every edition uses the same tag for the same statement, the French original included, so a tag is the one identifier that works across all of them and is what lets a translation be checked against the French rather than only against the English it was made from.
 
+`tags/runs` says where one assignment stopped and the next began, one line per merge. Tags are handed out in reading order, so the tags of a file climb on the run that assigned them, and they do not climb across runs: a statement added to the middle of a § a month later takes a tag above everything under it. The boundaries are what let the audit tell that correct edit from a heading somebody pasted the wrong tag on to.
+
 ## Layout
 
 ```
