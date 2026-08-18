@@ -1,0 +1,235 @@
+{
+  "book": "lie-iv-vi",
+  "grammar": "head-number",
+  "pagination": "continuous",
+  "pdf_pages": 314,
+  "body_pages": 301,
+  "front_matter_pages": 13,
+  "counts": {
+    "head": 231,
+    "interpolated": 70,
+    "none": 13
+  },
+  "printed_pct_of_body": 76.74418604651163,
+  "chapters": [
+    {
+      "chapter": "IV",
+      "first_pdf_page": 14,
+      "last_pdf_page": 73,
+      "first_page": 1,
+      "last_page": 60
+    },
+    {
+      "chapter": "V",
+      "first_pdf_page": 74,
+      "last_pdf_page": 167,
+      "first_page": 61,
+      "last_page": 154
+    },
+    {
+      "chapter": "VI",
+      "first_pdf_page": 168,
+      "last_pdf_page": 314,
+      "first_page": 155,
+      "last_page": 301
+    }
+  ],
+  "steps": [],
+  "conflicts": [
+    {
+      "pdf_page": 236,
+      "read": 3,
+      "chapter": "VI",
+      "fitted": 223,
+      "raw": "3 4.                     CLASSIFICATION OF' ROOT SYSTE'.\\IS                          223"
+    }
+  ],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 13,
+      "pages": 13,
+      "confidence": "none"
+    },
+    {
+      "from": 14,
+      "to": 14,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 40,
+      "to": 40,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 44,
+      "to": 44,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 73,
+      "to": 74,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 132,
+      "to": 132,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 141,
+      "to": 142,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 145,
+      "to": 146,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 163,
+      "to": 163,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 167,
+      "to": 168,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 216,
+      "to": 216,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 219,
+      "to": 219,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 232,
+      "to": 232,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 236,
+      "to": 236,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 240,
+      "to": 240,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 243,
+      "to": 243,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 245,
+      "to": 252,
+      "pages": 8,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 257,
+      "to": 257,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 259,
+      "to": 260,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 262,
+      "to": 262,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 264,
+      "to": 264,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 266,
+      "to": 266,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 268,
+      "to": 269,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 271,
+      "to": 280,
+      "pages": 10,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 282,
+      "to": 282,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 284,
+      "to": 289,
+      "pages": 6,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 291,
+      "to": 292,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 295,
+      "to": 300,
+      "pages": 6,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 302,
+      "to": 304,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 306,
+      "to": 307,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 310,
+      "to": 314,
+      "pages": 5,
+      "confidence": "interpolated"
+    }
+  ]
+}

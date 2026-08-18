@@ -140,6 +140,22 @@ errata:
 # These are errors of the Acrobat text layer and of the printing itself, not of the
 # reading of the pages.
 contents:
+    - book: top-i-iv
+      errata:
+        - says: '§ I. Definition of real numbers .......................... .'
+          read: '§ 1. Definition of real numbers .......................... 329'
+          why: The text layer of the printed contents, pdf page 13, ends the line for
+            § 1 of chapter IV with a stray period where the page prints the number, so
+            the § was dropped and every § of the chapter after it was reported as the
+            wrong one. The page is 329. The page map runs chapter IV from printed 329,
+            pdf 335 opens the chapter with the heading DEFINITION OF REAL NUMBERS, and
+            the contents puts no. 1 of the § on 329.
+        - says: 'Exercises for § 4                                                                                lWg'
+          read: 'Exercises for § 4                                                                                209'
+          why: The text layer of the printed contents, pdf page 11, reads the page of
+            the exercises of chapter II § 4 as lWg. The run before it is on 208 and
+            chapter II ends at 218, and pdf 215, which the page map puts at printed 209,
+            is where the § 4 run starts.
     - book: ens-i-iv
       errata:
         - says: '3. Met?ods .of proof.'
