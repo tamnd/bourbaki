@@ -14,15 +14,15 @@ Audited: 8 chapters, 90 sections, 878 exercises, 3253 extracted pages, 5252 tags
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (236) |
-| mathematics | 6 | 2 | 1 | M06 (1), M09 (50) |
+| mathematics | 6 | 2 | 1 | M06 (1), M09 (48) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
 | translation | 11 | 3 | 1 | L06 (66), L08 (4), L15 (2) |
 | solutions | 0 | 5 | 0 | X05 (3) |
-| publication | 0 | 1 | 0 | P04 (48) |
+| publication | 0 | 1 | 0 | P04 (46) |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 410 soft, over 61 rules that ran and 3 that could not.
+0 hard findings and 406 soft, over 61 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -41,7 +41,7 @@ Soft, mathematics.
 
 - `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.47 displays a page over 17 pages, against a mean of 1.27 and a sigma of 1.24
 
-## M09 no base carries two superscripts or two subscripts (50)
+## M09 no base carries two superscripts or two subscripts (48)
 
 Soft, mathematics.
 
@@ -61,8 +61,6 @@ Soft, mathematics.
 - `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x}}}
 - `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:152` two of one script against one base, which TeX will not set: _n^-_i
 - `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:408` two of one script against one base, which TeX will not set: ^{I_n}_{0^{-2}U}^0
-- `content/fr/alg/VIII/exercises/s11/08.md:19` two of one script against one base, which TeX will not set: ^X_0^0_Y
-- `content/fr/alg/VIII/exercises/s11/10.md:17` two of one script against one base, which TeX will not set: ^X_0^0_I
 - `content/fr/alg/VIII/exercises/s14/18.md:15` two of one script against one base, which TeX will not set: ^z_{0\sigma(}^0_{z)}
 - `content/fr/alg/VIII/exercises/s19/06.md:21` two of one script against one base, which TeX will not set: ^2_{h^r=0}^{-1}
 - `content/fr/ta/I/03_s3_faisceaux.md:485` two of one script against one base, which TeX will not set: _v^{u_*}_{\mathscr{G}}
@@ -70,10 +68,12 @@ Soft, mathematics.
 - `content/fr/ta/II/04_s4_homotopies.md:309` two of one script against one base, which TeX will not set: ^v_{v\circ}^{\circ\varphi}_{\psi}
 - `content/fr/ta/II/05_s5_coegalisateur.md:323` two of one script against one base, which TeX will not set: _{\varphi}^{-_01}_{(j_k)}
 - `content/fr/ta/II/05_s5_coegalisateur.md:327` two of one script against one base, which TeX will not set: _{\psi}^{-_01}_{(j_k)}
+- `content/fr/ta/II/05_s5_coegalisateur.md:341` two of one script against one base, which TeX will not set: _{\varphi}^{-_01}_{(j_k)}
+- `content/fr/ta/II/05_s5_coegalisateur.md:411` two of one script against one base, which TeX will not set: _{\psi}^{-_01}_{(j)}
 
-and 25 more, which `bourbaki audit -only M09` prints in full.
+and 23 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (48)
+## P04 every math span parses under KaTeX (46)
 
 Soft, publication.
 
@@ -94,16 +94,16 @@ Soft, publication.
 - `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` KaTeX will not set it: Double superscript at position 6: (^X_-^̲-_y^x_X^-_-^{\g…: (^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{…
 - `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:152` KaTeX will not set it: Double subscript at position 18: …_i=\pi (-1)_n^-_̲i\pi (\mu_i)^-_…: t_i=\pi (-1)_n^-_i\pi (\mu_i)^-_1\varphi (p(v_1), …
 - `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:408` KaTeX will not set it: Double superscript at position 29: …{I_n}_{0^{-2}U}^̲0: U\rightarrow^{I_n}_{0^{-2}U}^0
-- `content/fr/alg/VIII/exercises/s11/08.md:19` KaTeX will not set it: Double superscript at position 6: (^X_0^̲0_Y): (^X_0^0_Y)
-- `content/fr/alg/VIII/exercises/s11/10.md:17` KaTeX will not set it: Double superscript at position 6: (^X_0^̲0_I): (^X_0^0_I)
 - `content/fr/alg/VIII/exercises/s14/18.md:15` KaTeX will not set it: Double superscript at position 15: (^z_{0\sigma(}^̲0_{z)}): (^z_{0\sigma(}^0_{z)})
 - `content/fr/alg/VIII/exercises/s19/06.md:21` KaTeX will not set it: Double superscript at position 15: \sum^2_{h^r=0}^̲{-1}T^h): \sum^2_{h^r=0}^{-1}T^h)
 - `content/fr/ta/I/03_s3_faisceaux.md:485` KaTeX will not set it: Double subscript at position 18: …*(\beta_v^{u_*}_̲{\mathscr{G}})(…: v_*(\beta_v^{u_*}_{\mathscr{G}})(\beta^v_{\mathscr…
 - `content/fr/ta/I/03_s3_faisceaux.md:487` KaTeX will not set it: Double subscript at position 40: …*(\beta_v^{u_*}_̲{\mathscr{G}})\…: \beta_{\mathscr{G}}^w=v_*(\beta_v^{u_*}_{\mathscr{…
 - `content/fr/ta/II/04_s4_homotopies.md:309` KaTeX will not set it: Double superscript at position 12: ^v_{v\circ}^̲{\circ\varphi}_…: ^v_{v\circ}^{\circ\varphi}_{\psi}G'{H'}^{\varphi}_…
 - `content/fr/ta/II/05_s5_coegalisateur.md:323` KaTeX will not set it: Double subscript at position 90: …\varphi}^{-_01}_̲{(j_k)}\cdot : = (\alpha \circ \varphi )(f_k)\cdot (\alpha \circ …
+- `content/fr/ta/II/05_s5_coegalisateur.md:327` KaTeX will not set it: Double subscript at position 74: …a_{\psi}^{-_01}_̲{(j_k)}\cdot : \cdot \delta_{\varphi_0(j_k)}\cdot \tau_0(j_k)\cdo…
+- `content/fr/ta/II/05_s5_coegalisateur.md:341` KaTeX will not set it: Double subscript at position 64: …\varphi}^{-_01}_̲{(j_k)}: u_k=\alpha (\varphi (f_k)c_1(j_k))\cdot \delta_{\v…
 
-and 23 more, which `bourbaki audit -only P04` prints in full.
+and 21 more, which `bourbaki audit -only P04` prints in full.
 
 ## X05 a solution writes its mathematics in TeX (3)
 
