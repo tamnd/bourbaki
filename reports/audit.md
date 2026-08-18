@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 8 chapters, 90 sections, 878 exercises, 3253 extracted pages, 5252 tags, 4947 references, 1437 translated files, 32 solutions. Languages: en, fr, vi.
+Audited: 8 chapters, 90 sections, 878 exercises, 3281 extracted pages, 5252 tags, 4947 references, 1437 translated files, 37 solutions. Languages: en, fr, vi.
 
 ## Summary
 
@@ -14,16 +14,15 @@ Audited: 8 chapters, 90 sections, 878 exercises, 3253 extracted pages, 5252 tags
 | --- | ---: | ---: | ---: | --- |
 | structure | 9 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (236) |
-| mathematics | 6 | 2 | 1 | M06 (1), M09 (48) |
+| mathematics | 6 | 2 | 1 | M06 (1), M09 (27) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
-| translation | 11 | 3 | 1 | L06 (66), L08 (4), L15 (2) |
-| solutions | 0 | 5 | 0 | X05 (3) |
-| publication | 0 | 1 | 0 | P04 (46) |
-| hygiene | 7 | 0 | 0 | none |
+| translation | 11 | 3 | 1 | L06 (66), L08 (21), L15 (2) |
+| solutions | 0 | 5 | 0 | X05 (5) |
+| publication | 0 | 1 | 0 | P04 (29) |
+| hygiene | 7 | 0 | 0 | H06 (1) |
 
-0 hard findings and 406 soft, over 61 rules that ran and 3 that could not.
-Every hard rule passes.
+1 hard findings and 387 soft, over 61 rules that ran and 3 that could not.
 
 ## Rules that did not run
 
@@ -35,34 +34,34 @@ should trust.
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
 
+## H06 the README coverage table is the one the corpus has (1)
+
+Hard, hygiene.
+
+- `README.md` the coverage table is not the one the corpus has, run bourbaki report coverage -write-readme
+
 ## M06 displays per page within three sigma of the book mean (1)
 
 Soft, mathematics.
 
 - `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.47 displays a page over 17 pages, against a mean of 1.27 and a sigma of 1.24
 
-## M09 no base carries two superscripts or two subscripts (48)
+## M09 no base carries two superscripts or two subscripts (27)
 
 Soft, mathematics.
 
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:692` two of one script against one base, which TeX will not set: ^-_1^1
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x}}}
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:474` two of one script against one base, which TeX will not set: _g'_{_{-1}}
-- `content/en/alg/VIII/exercises/s19/06.md:25` two of one script against one base, which TeX will not set: ^2_{h^r=0}^{-1}
 - `content/en/lie/IX/08_s8_fourier_transform.md:71` two of one script against one base, which TeX will not set: _u^2_2
 - `content/en/lie/IX/08_s8_fourier_transform.md:75` two of one script against one base, which TeX will not set: _u^2_2
-- `content/en/lie/IX/A1_a1_structure_of_compact_groups.md:102` two of one script against one base, which TeX will not set: ^l_{\beta^{\beta \alpha}}^{(\lambda)}
 - `content/en/lie/IX/exercises/s6/02.md:27` two of one script against one base, which TeX will not set: ^1_{\overline{2}i=1}^n
 - `content/en/lie/IX/exercises/s7/04.md:23` two of one script against one base, which TeX will not set: ^n_{\partial x}^{\partial^2}_{\partial y}^P
-- `content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md:181` two of one script against one base, which TeX will not set: ^m_{i^i}^{n_i}
 - `content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md:415` two of one script against one base, which TeX will not set: _{\alpha}'_{\alpha}
 - `content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md:499` two of one script against one base, which TeX will not set: ^r''
-- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:681` two of one script against one base, which TeX will not set: ^-_1^1
 - `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x}}}
 - `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:152` two of one script against one base, which TeX will not set: _n^-_i
 - `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:408` two of one script against one base, which TeX will not set: ^{I_n}_{0^{-2}U}^0
 - `content/fr/alg/VIII/exercises/s14/18.md:15` two of one script against one base, which TeX will not set: ^z_{0\sigma(}^0_{z)}
-- `content/fr/alg/VIII/exercises/s19/06.md:21` two of one script against one base, which TeX will not set: ^2_{h^r=0}^{-1}
 - `content/fr/ta/I/03_s3_faisceaux.md:485` two of one script against one base, which TeX will not set: _v^{u_*}_{\mathscr{G}}
 - `content/fr/ta/I/03_s3_faisceaux.md:487` two of one script against one base, which TeX will not set: _v^{u_*}_{\mathscr{G}}
 - `content/fr/ta/II/04_s4_homotopies.md:309` two of one script against one base, which TeX will not set: ^v_{v\circ}^{\circ\varphi}_{\psi}
@@ -70,46 +69,54 @@ Soft, mathematics.
 - `content/fr/ta/II/05_s5_coegalisateur.md:327` two of one script against one base, which TeX will not set: _{\psi}^{-_01}_{(j_k)}
 - `content/fr/ta/II/05_s5_coegalisateur.md:341` two of one script against one base, which TeX will not set: _{\varphi}^{-_01}_{(j_k)}
 - `content/fr/ta/II/05_s5_coegalisateur.md:411` two of one script against one base, which TeX will not set: _{\psi}^{-_01}_{(j)}
+- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:459` two of one script against one base, which TeX will not set: ^2'
+- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:461` two of one script against one base, which TeX will not set: ^2'
+- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:463` two of one script against one base, which TeX will not set: ^2'
+- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:465` two of one script against one base, which TeX will not set: ^2'
+- `content/fr/ts/I/02_s2_algebres_normees.md:263` two of one script against one base, which TeX will not set: _n^{\rightarrow}_+^{\infty}
+- `content/fr/ts/III/02_s2_exemples_d_applications_lineaires.md:277` two of one script against one base, which TeX will not set: _L^{q'_{p'}}_{(X)}
 
-and 23 more, which `bourbaki audit -only M09` prints in full.
+and 2 more, which `bourbaki audit -only M09` prints in full.
 
-## P04 every math span parses under KaTeX (46)
+## P04 every math span parses under KaTeX (29)
 
 Soft, publication.
 
-- `content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md:692` KaTeX will not set it: Double superscript at position 70: …_1(x\cdot g^-_1^̲1)}c(h_2(x\cdot…: =\prod_{x\in H\backslash G}^{s(x\cdot g_1^{-1})^{-…
 - `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\g…: ^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x…
 - `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:474` KaTeX will not set it: Double subscript at position 54: …_{\in G}f_gf_g'_̲{_{-1}} \tag{28…: \langle f, f'\rangle_G=|G|^{-1}_g\sum_{\in G}f_gf_…
-- `content/en/alg/VIII/exercises/s19/06.md:25` KaTeX will not set it: Double superscript at position 47: …=\sum^2_{h^r=0}^̲{-1}T^h): \prod^{r-1}_{j=0}(1 + T^{2^j}) =\sum^2_{h^r=0}^{-1…
 - `content/en/lie/IX/08_s8_fourier_transform.md:71` KaTeX will not set it: Double subscript at position 12: \sum_uA_u^2_̲2<\infty: \sum_uA_u^2_2<\infty
 - `content/en/lie/IX/08_s8_fourier_transform.md:75` KaTeX will not set it: Double subscript at position 34: …idehat{G}}A_u^2_̲2: A^2_2=\sum_{u\in\widehat{G}}A_u^2_2
-- `content/en/lie/IX/A1_a1_structure_of_compact_groups.md:102` KaTeX will not set it: Double superscript at position 44: …{\beta \alpha}}^̲{(\lambda)}) = …: f_{\alpha \beta}(S^l_{\beta^{\beta \alpha}}^{(\lam…
 - `content/en/lie/IX/exercises/s6/02.md:27` KaTeX will not set it: Double superscript at position 37: …overline{2}i=1}^̲n\frac{\partial…: \Delta (P) =\sum^1_{\overline{2}i=1}^n\frac{\parti…
 - `content/en/lie/IX/exercises/s7/04.md:23` KaTeX will not set it: Double superscript at position 20: …^n_{\partial x}^̲{\partial^2}_{\…: \sum^n_{\partial x}^{\partial^2}_{\partial y}^P
-- `content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md:181` KaTeX will not set it: Double superscript at position 32: …a_i) =t^m_{i^i}^̲{n_i}=t^m_i= (\…: \chi (n_i\lambda_i) =t^m_{i^i}^{n_i}=t^m_i= (\psi^…
 - `content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md:415` KaTeX will not set it: Double subscript at position 17: …sum m_{\alpha}'_̲{\alpha}: \sum m_{\alpha}'_{\alpha}
 - `content/en/lie/VIII/08_s8_symmetric_invariants.md:266` KaTeX will not set it: Expected group after '_' at position 28: …_++\mathfrak{n}_̲: \mathfrak{n}_++\mathfrak{n}_
 - `content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md:499` KaTeX will not set it: Double superscript at position 9: 1\sum^r'̲' : 1\sum^r''
-- `content/fr/alg/VIII/16_s16_autres_descriptions_du_groupe_de_brauer.md:681` KaTeX will not set it: Double superscript at position 60: …{-1}h_1(x.g^-_1^̲1)}c(h_2(x.g_1^…: =\prod_{x\in H\backslash G}^{s(x.g_1^{-1})^{-1}h_1…
 - `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` KaTeX will not set it: Double superscript at position 6: (^X_-^̲-_y^x_X^-_-^{\g…: (^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{…
 - `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:152` KaTeX will not set it: Double subscript at position 18: …_i=\pi (-1)_n^-_̲i\pi (\mu_i)^-_…: t_i=\pi (-1)_n^-_i\pi (\mu_i)^-_1\varphi (p(v_1), …
 - `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:408` KaTeX will not set it: Double superscript at position 29: …{I_n}_{0^{-2}U}^̲0: U\rightarrow^{I_n}_{0^{-2}U}^0
 - `content/fr/alg/VIII/exercises/s14/18.md:15` KaTeX will not set it: Double superscript at position 15: (^z_{0\sigma(}^̲0_{z)}): (^z_{0\sigma(}^0_{z)})
-- `content/fr/alg/VIII/exercises/s19/06.md:21` KaTeX will not set it: Double superscript at position 15: \sum^2_{h^r=0}^̲{-1}T^h): \sum^2_{h^r=0}^{-1}T^h)
 - `content/fr/ta/I/03_s3_faisceaux.md:485` KaTeX will not set it: Double subscript at position 18: …*(\beta_v^{u_*}_̲{\mathscr{G}})(…: v_*(\beta_v^{u_*}_{\mathscr{G}})(\beta^v_{\mathscr…
 - `content/fr/ta/I/03_s3_faisceaux.md:487` KaTeX will not set it: Double subscript at position 40: …*(\beta_v^{u_*}_̲{\mathscr{G}})\…: \beta_{\mathscr{G}}^w=v_*(\beta_v^{u_*}_{\mathscr{…
 - `content/fr/ta/II/04_s4_homotopies.md:309` KaTeX will not set it: Double superscript at position 12: ^v_{v\circ}^̲{\circ\varphi}_…: ^v_{v\circ}^{\circ\varphi}_{\psi}G'{H'}^{\varphi}_…
 - `content/fr/ta/II/05_s5_coegalisateur.md:323` KaTeX will not set it: Double subscript at position 90: …\varphi}^{-_01}_̲{(j_k)}\cdot : = (\alpha \circ \varphi )(f_k)\cdot (\alpha \circ …
 - `content/fr/ta/II/05_s5_coegalisateur.md:327` KaTeX will not set it: Double subscript at position 74: …a_{\psi}^{-_01}_̲{(j_k)}\cdot : \cdot \delta_{\varphi_0(j_k)}\cdot \tau_0(j_k)\cdo…
 - `content/fr/ta/II/05_s5_coegalisateur.md:341` KaTeX will not set it: Double subscript at position 64: …\varphi}^{-_01}_̲{(j_k)}: u_k=\alpha (\varphi (f_k)c_1(j_k))\cdot \delta_{\v…
+- `content/fr/ta/II/05_s5_coegalisateur.md:411` KaTeX will not set it: Double subscript at position 63: …a_{\psi}^{-_01}_̲{(j)}: \lambda (j) =\delta_{\varphi_0(j)}\tau (j)\delta_{…
+- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:459` KaTeX will not set it: Double superscript at position 4: V^2'̲\subset V: V^2'\subset V
+- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:461` KaTeX will not set it: Double superscript at position 4: U^2'̲\subset U: U^2'\subset U
+- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:463` KaTeX will not set it: Double superscript at position 9: z\in U^2'̲(x): z\in U^2'(x)
+- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:465` KaTeX will not set it: Double superscript at position 12: f(y)\in V^2'̲(f(x)): f(y)\in V^2'(f(x))
+- `content/fr/ts/I/02_s2_algebres_normees.md:263` KaTeX will not set it: Double subscript at position 57: …n^{\rightarrow}_̲+^{\infty}n : _{n\rightarrow+\infty}n_{m\geqslant 1}m_n^{\righta…
 
-and 21 more, which `bourbaki audit -only P04` prints in full.
+and 4 more, which `bourbaki audit -only P04` prints in full.
 
-## X05 a solution writes its mathematics in TeX (3)
+## X05 a solution writes its mathematics in TeX (5)
 
 Soft, solutions.
 
 - `content/solutions/en/ens/III/s1/01.md:15` 31 characters of mathematics stand outside any math span, as ⇒∈∧≠≤, so the solution was written in symbols rather than in TeX
+- `content/solutions/en/ens/III/s1/03.md:50` 1 characters of mathematics stand outside any math span, as ←, so the solution was written in symbols rather than in TeX
+- `content/solutions/en/ens/III/s1/04.md:26` 75 characters of mathematics stand outside any math span, as ικ∈≠≤≰, so the solution was written in symbols rather than in TeX
 - `content/solutions/en/ens/III/s2/01.md:17` 181 characters of mathematics stand outside any math span, as ΓΣφ→⇔∀∈∉∏≠≤⊂⊃⋂⋃, so the solution was written in symbols rather than in TeX
 - `content/solutions/en/ens/IV/s1/01.md:53` 90 characters of mathematics stand outside any math span, as τϬϭϰϲ≠≤≥, so the solution was written in symbols rather than in TeX
 
@@ -167,24 +174,41 @@ Soft, translation.
 - `content/vi/ens/II/06_s6_equivalence_relations.md:1` the English mentions 109 glossary terms and 2 are not in this file as the glossary writes them: constant (hằng số), proved (đã chứng minh)
 - `content/vi/ens/II/exercises/s6/01.md:1` the English mentions 4 glossary terms and 1 are not in this file as the glossary writes them: necessary (cần thiết)
 - `content/vi/ens/II/exercises/s6/07.md:1` the English mentions 11 glossary terms and 1 are not in this file as the glossary writes them: correspondence (sự tương ứng)
-- `content/vi/ens/III/01_s1_order_relations_ordered_sets.md:1` the English mentions 159 glossary terms and 6 are not in this file as the glossary writes them: The set of natural integers (Tập hợp các số tự nhiên), addition (phép cộng), section (tiết diện), similar (đồng dạng), stated (đã phát biểu), lower (thấp hơn)
+- `content/vi/ens/III/01_s1_order_relations_ordered_sets.md:1` the English mentions 160 glossary terms and 6 are not in this file as the glossary writes them: The set of natural integers (Tập hợp các số tự nhiên), unique minimal (duy nhất tối tiểu), necessary (cần thiết), addition (phép cộng), section (tiết diện), stated (đã phát biểu)
 - `content/vi/ens/III/02_s2_well_ordered_sets.md:1` the English mentions 117 glossary terms and 4 are not in this file as the glossary writes them: increasing mappings (các ánh xạ tăng), ordered subset (tập con sắp thứ tự), complete (đầy đủ), proved (đã chứng minh)
 - `content/vi/ens/III/03_s3_equipotent_sets_cardinals.md:1` the English mentions 98 glossary terms and 3 are not in this file as the glossary writes them: relation implies (quan hệ suy ra), possible (có thể), reason (lý do)
-- `content/vi/ens/III/04_s4_natural_integers_finite_sets.md:1` the English mentions 86 glossary terms and 6 are not in this file as the glossary writes them: totally ordered set (tập sắp thứ tự toàn phần), empty set (tập rỗng), necessary (cần thiết), criteria (các tiêu chuẩn), similar (đồng dạng), form (dạng)
+- `content/vi/ens/III/04_s4_natural_integers_finite_sets.md:1` the English mentions 87 glossary terms and 6 are not in this file as the glossary writes them: empty set (tập rỗng), necessary (cần thiết), criteria (các tiêu chuẩn), similar (đồng dạng), proved (đã chứng minh), form (dạng)
 - `content/vi/ens/III/05_s5_properties_of_integers.md:1` the English mentions 127 glossary terms and 5 are not in this file as the glossary writes them: characteristic (đặc số), empty set (tập rỗng), constant (hằng số), proved (đã chứng minh), series (chuỗi)
 - `content/vi/ens/III/06_s6_infinite_sets.md:1` the English mentions 120 glossary terms and 5 are not in this file as the glossary writes them: totally ordered set (tập sắp thứ tự toàn phần), introduce (giới thiệu), complete (đầy đủ), nothing (không có gì), stated (đã phát biểu)
 - `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` the English mentions 156 glossary terms and 4 are not in this file as the glossary writes them: double inverse (nghịch đảo kép), necessary (cần thiết), complete (đầy đủ), similar (đồng dạng)
 
 and 41 more, which `bourbaki audit -only L06` prints in full.
 
-## L08 no translation was written by a small model (4)
+## L08 no translation was written by a small model (21)
 
 Soft, translation.
 
 - `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/III/exercises/s4/07.md:1` was translated by gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/ens/III/exercises/s4/08.md:1` was translated by gpt-5-6, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/01_s1_order_relations_ordered_sets.md:1` was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/04_s4_natural_integers_finite_sets.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s1/03.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s1/06.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s1/09.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s1/11.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s1/12.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s1/13.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s1/15.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s1/16.md:1` was translated by gpt-5-6-mini, copied, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s1/17.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s1/18.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s1/22.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s2/07.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s4/07.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s4/08.md:1` was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s4/09.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s5/05.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s6/29.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/ens/III/exercises/s6/30.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 
 ## L15 no translation was written on the free gateway (2)
 
