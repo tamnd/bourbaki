@@ -53,7 +53,7 @@ subsections:
       pdf_page: 105
 statements: 50
 exercises: 9
-content_sha256: 916341507886c94d44e3a85c81ae652384d3301dd530bc5695ec9d9236e91c39
+content_sha256: 544b9dc32e29beaffc8ff3020a9bebce7af61cdcffad170400d51a07f6dbb4e8
 ---
 
 ## § 4. REVÊTEMENTS
@@ -576,7 +576,7 @@ Les assertions relatives au faisceau $\mathscr{I}$ se démontrent de même.
 
 Soient B un espace topologique et A un sous-espace de B. On suppose que les espaces A et B sont localement connexes. Soient E et $E'$ des revêtements de B. Alors les morphismes canoniques $\psi :\mathscr{M}$or$_B(E; E')_A\rightarrow \mathscr{M}$or$_A(E_A; E'_A)$ et $\psi ':\mathscr{I}$som$_B(E; E')_A\rightarrow$ $\mathscr{I}$som$_A(E_A; E'_A)$ (I, p. 45, exemple 4) sont des isomorphismes.
 
-Pour tout point $a\in A$, il résulte de la proposition précédente et de l’exemple 2 de I, p. 63, appliqué aux espaces $\{a\}$, A, B et aux injections canoniques, que le morphisme canonique $\psi$ induit par passage aux tiges l’identité de $E^E_{a'^a}$. C’est donc un isomorphisme. Le fait que $\psi '$ soit un isomorphisme se démontre de manière analogue.
+Pour tout point $a\in A$, il résulte de la proposition précédente et de l’exemple 2 de I, p. 63, appliqué aux espaces $\{a\}$, A, B et aux injections canoniques, que le morphisme canonique $\psi$ induit par passage aux tiges l’identité de $E^{E'_a}_a$. C’est donc un isomorphisme. Le fait que $\psi '$ soit un isomorphisme se démontre de manière analogue.
 
 #### Corollaire 2 {#ta-i-s4-prop-12-cor-2 .statement tag=01Q4}
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 51
 statements: 26
 exercises: 4
-content_sha256: a5cb4660dca5afd014a904f44c7e598569df691d30c59b7c5edebbbdc4432fef
+content_sha256: 97926c95619f498fc20f6ec981d0cf3d7d901a10f19a60147377dd81bf1de25e
 ---
 
 ## § 2. EXEMPLES D’APPLICATIONS LINÉAIRES COMPACTES
@@ -269,10 +269,10 @@ Pour tout $k\in \mathscr{L}^{p'}(X\times Y)$, on a $N_{p', p'}(k) =\|k\|_{p'}$.
 Soit $k\in \mathscr{L}^{p'}(X\times Y)$. D’après INT, V, p. 96, § 8, n$^o4$, th. 1, a), l’ensemble $Y'$ des éléments $y\in Y$ tels que la fonction $|k_y|^{p'}$ ne soit pas $\mu$-intégrable est $\nu$-négligeable ; de plus, la fonction définie par $y\mapsto \mu(|k_y|^{p'})$ sur Y - $Y'$ et nulle sur $Y'$ est $\nu$-intégrable et vérifie
 
 $$
-\|k\|^p_{p''}=\int_{X\times Y}|k(x, y)|^{p'}d(\mu\otimes \nu )(x, y) =\int_Y\mu(|k_y|^{p'})d\nu = N_{p', p'}(k)^{p'}
+\|k\|^{p'}_{p'}=\int_{X\times Y}|k(x, y)|^{p'}d(\mu\otimes \nu )(x, y) =\int_Y\mu(|k_y|^{p'})d\nu = N_{p', p'}(k)^{p'}
 $$
 
-On note $\mathscr{L}^{p',q'}(X,Y, \mu, \nu )$, ou simplement $\mathscr{L}^{p',q'}(X,Y)$, l’espace vectoriel complexe des fonctions $(\mu\otimes \nu$)-mesurables $k$ de $X\times Y$ dans $\mathbf{C}$ telles que, pour $\nu$-presque tout $y\in Y$, l’application $k_y$ appartient à $\mathscr{L}^{p'}$(X), et telles que l’application $k_{\circ}$ appartient à $\mathscr{L}_L^{q'_{p'}}_{(X)}(Y, \nu )$ (INT, IV, p. 129, § 3, n$^o4$, déf. 2). On munit $\mathscr{L}^{p',q'}(X,Y)$ de la semi-norme $k\mapsto N_{p',q'}(k)$; notons que celle-ci vérifie alors $N_{p',q'}(k) =\|k_{\circ}\|_{q'}$, où $k_{\circ}$ est vue comme application à valeurs dans l’espace de Banach $L^{p'}(X)$.
+On note $\mathscr{L}^{p',q'}(X,Y, \mu, \nu )$, ou simplement $\mathscr{L}^{p',q'}(X,Y)$, l’espace vectoriel complexe des fonctions $(\mu\otimes \nu$)-mesurables $k$ de $X\times Y$ dans $\mathbf{C}$ telles que, pour $\nu$-presque tout $y\in Y$, l’application $k_y$ appartient à $\mathscr{L}^{p'}$(X), et telles que l’application $k_{\circ}$ appartient à $\mathscr{L}_{L^{p'}(X)}^{q'}(Y, \nu )$ (INT, IV, p. 129, § 3, n$^o4$, déf. 2). On munit $\mathscr{L}^{p',q'}(X,Y)$ de la semi-norme $k\mapsto N_{p',q'}(k)$; notons que celle-ci vérifie alors $N_{p',q'}(k) =\|k_{\circ}\|_{q'}$, où $k_{\circ}$ est vue comme application à valeurs dans l’espace de Banach $L^{p'}(X)$.
 
 #### Proposition 6 {#ts-iii-s2-prop-6 .statement tag=02QW}
 
@@ -288,7 +288,7 @@ $$
 \|k_{\circ}-h_{\circ}\|_{p'}= N_{p',p'}(k-h) =\|k-h\|_{p'}< \varepsilon
 $$
 
-d’après le lemme 2. Il en résulte que $k_{\circ}$ appartient à $\mathscr{L}_L^{p'_{p'}}_{(X)}(Y, \nu )$, c’est-à-dire que $k$ appartient à $\mathscr{L}^{p',p}(X,Y)$. Le lemme 2 démontre alors que $N_{p', p'}(k) =\|k\|_{p'}$.
+d’après le lemme 2. Il en résulte que $k_{\circ}$ appartient à $\mathscr{L}_{L^{p'}(X)}^{p'}(Y, \nu )$, c’est-à-dire que $k$ appartient à $\mathscr{L}^{p',p}(X,Y)$. Le lemme 2 démontre alors que $N_{p', p'}(k) =\|k\|_{p'}$.
 
 Démontrons l’assertion b). Soit $k\in \mathscr{L}^{p',q'}(X,Y)$ et soit $f\in \mathscr{L}^p(X)$. Pour tout $y\in Y$, l’inégalité de Hölder (INT, IV, p. 208, § 6, n$^o4$, th. 2) appliquée à $k_y$ implique
 
@@ -345,7 +345,7 @@ Puisque $u_{k_{\varepsilon}}$ est compacte d’après ce qui précède, l’appl
 Posons $p= 1$ et supposons $q >1$. Il peut exister des applications $k: X\times Y\rightarrow \mathbf{C}$ telles que $k_y\in \mathscr{L}^{\infty}(X)$ pour tout $y\in Y$, et telles que l’intégrale
 
 $$
-\int_Y^*\|k_y\|^q_{\infty'}d\nu (y)
+\int_Y^*\|k_y\|^{q'}_{\infty}d\nu (y)
 $$
 
 soit finie (en particulier, la condition (2) de III, p. 27 est valide), mais telles que l’application linéaire $u_k$ de $L^1(X)$ dans $L^{q'}(X)$ ne soit pas compacte (exercice 2 de III, p. 119).

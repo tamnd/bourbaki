@@ -33,7 +33,7 @@ subsections:
       pdf_page: 226
 statements: 22
 exercises: 3
-content_sha256: 4c7139c74bd316bb578998218cff570e16b782d3a06c0a047cef2419d39beb3c
+content_sha256: 62a1280c0f8661af50804fe7723ac83fde8a5d9cf95c7e5d0212e8dcfa971196
 ---
 
 ## § 5. COÉGALISATEUR
@@ -321,11 +321,11 @@ $$
 $$
 
 $$
-= (\alpha \circ \varphi )(f_k)\cdot (\alpha \circ c_1)(j_k)\cdot \delta_{\varphi}^{-_01}_{(j_k)}\cdot
+= (\alpha \circ \varphi )(f_k)\cdot (\alpha \circ c_1)(j_k)\cdot \delta_{\varphi_0(j_k)}^{-1}\cdot
 $$
 
 $$
-\cdot \delta_{\varphi_0(j_k)}\cdot \tau_0(j_k)\cdot \delta_{\psi}^{-_01}_{(j_k)}\cdot
+\cdot \delta_{\varphi_0(j_k)}\cdot \tau_0(j_k)\cdot \delta_{\psi_0(j_k)}^{-1}\cdot
 $$
 
 $$
@@ -338,7 +338,7 @@ $$
 
 où l’on a posé
 
-$u_k=\alpha (\varphi (f_k)c_1(j_k))\cdot \delta_{\varphi}^{-_01}_{(j_k)}$ et $v_k=\delta_{\psi_0(j_k)}\cdot \alpha (\psi (f_k)c_2(j_k))^{-1}$. Pour tout élément $k\in \mathbf{Z}/n\mathbf{Z}$, définissons des flèches $\widetilde{u}_k,\widetilde{v}_k$ dans G par
+$u_k=\alpha (\varphi (f_k)c_1(j_k))\cdot \delta_{\varphi_0(j_k)}^{-1}$ et $v_k=\delta_{\psi_0(j_k)}\cdot \alpha (\psi (f_k)c_2(j_k))^{-1}$. Pour tout élément $k\in \mathbf{Z}/n\mathbf{Z}$, définissons des flèches $\widetilde{u}_k,\widetilde{v}_k$ dans G par
 
 $$
 h(y_k)^{\varepsilon_k}=\widetilde{u}_k\Lambda (j_k)^{\varepsilon_k}\widetilde{v}_k
@@ -408,7 +408,7 @@ tel que
 
 $\lambda (f) =\delta_i\gamma_{a(i)}(f)\delta_i^{-1}$ pour $i\in$ Orb(G) et $f\in G_{a(i)}$,
 
-$\lambda (j) =\delta_{\varphi_0(j)}\tau (j)\delta_{\psi}^{-_01}_{(j)}$ pour $j\in$ Orb(H).
+$\lambda (j) =\delta_{\varphi_0(j)}\tau (j)\delta_{\psi_0(j)}^{-1}$ pour $j\in$ Orb(H).
 
 L’homomorphisme $\lambda$ est surjectif ; son noyau est le plus petit sous-groupe distingué contenant les éléments suivants :
 

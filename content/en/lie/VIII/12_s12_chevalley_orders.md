@@ -45,7 +45,7 @@ subsections:
       pdf_page: 195
 statements: 34
 exercises: 0
-content_sha256: d9a956959901e6124b9a02e8f633dd7aa117e225b0ffb320146cecb212df5b97
+content_sha256: 44fa76978f21bb0e2e8febac96cb15c55fe3c653094a4d033a1188816fb10787
 ---
 
 ## § 12. CHEVALLEY ORDERS
@@ -882,7 +882,7 @@ $$
 \mathscr{U}= (\mathscr{U}\cap U(\mathfrak{n}_-)).(\mathscr{U}\cap U(\mathfrak{h})).(\mathscr{U}\cap U(\mathfrak{n}_+))
 $$
 
-Let $(h_i)_{i\in I}$ be a basis of $\mathscr{H}$. For all $\alpha \in R$, let $X_{\alpha}$ be a basis of $\mathscr{G}^{\alpha}$. Give the set $I\cup R$ a total order (we assume that $I\cap R =\emptyset )$. For $\lambda \in I\cup R$ and $n\in \mathbf{N}$, put $e^{\langle n\rangle}_{\lambda}=(^h_{n^{\lambda}})$ if $\lambda \in I,e^{\langle n\rangle}_{\lambda}=X_{\lambda}^{(n)}$ if $\lambda \in R$. Then the products $\prod_{\lambda\in I\cup R}e^{\langle n_{\lambda}\rangle}_{\lambda}$, where $(n_{\lambda})$ belongs to $\mathbf{N}^{I\cup R}$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}$. The
+Let $(h_i)_{i\in I}$ be a basis of $\mathscr{H}$. For all $\alpha \in R$, let $X_{\alpha}$ be a basis of $\mathscr{G}^{\alpha}$. Give the set $I\cup R$ a total order (we assume that $I\cap R =\emptyset )$. For $\lambda \in I\cup R$ and $n\in \mathbf{N}$, put $e^{\langle n\rangle}_{\lambda}=(^{h_{\lambda}}_n)$ if $\lambda \in I,e^{\langle n\rangle}_{\lambda}=X_{\lambda}^{(n)}$ if $\lambda \in R$. Then the products $\prod_{\lambda\in I\cup R}e^{\langle n_{\lambda}\rangle}_{\lambda}$, where $(n_{\lambda})$ belongs to $\mathbf{N}^{I\cup R}$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}$. The
 
 products $\prod_{\lambda\in I}(^{h_{\lambda}}_{n_{\lambda}})$, where $(n_{\lambda})$ belongs to $\mathbf{N}^I$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}\cap U(\mathfrak{h})$. The products $\prod_{\lambda\in R_+}X_{\lambda}^{(n_{\lambda})}$, where $(n_{\lambda})$ belongs to $\mathbf{N}^{R_+}$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}\cap U(\mathfrak{n}_+)$.
 

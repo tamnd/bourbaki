@@ -33,7 +33,7 @@ subsections:
       pdf_page: 84
 statements: 23
 exercises: 18
-content_sha256: 9271798472575d16cf263fc38524faad143eab7127adbafed388378239520236
+content_sha256: daa50455ddb57b7b511f699841ef4c35f182426075c83d18663feaed075055ee
 ---
 
 ## § 1. THE LIE ALGEBRA $\mathfrak{s}\mathfrak{l}$(2$\boldsymbol{, k}$) AND ITS REPRESENTATIONS
@@ -280,7 +280,7 @@ Hence, $(e_0^{(m)}, e_1^{(m)}, . . . , e_m^{(m)})$ is the basis of $V(m)$ associ
 
 Let $\Phi$ be the bilinear form on $V(m)$ such that
 
-$\Phi (e^{(m)}_n, e^{(m')}_n) = 0$ if $n+n'\not=m$
+$\Phi (e^{(m)}_n, e^{(m)}_{n'}) = 0$ if $n+n'\not=m$
 
 $$
 \Phi (e^{(m)}_n, e^{(m)}_{m-n}) = (-1)^n(m)

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 44
 statements: 18
 exercises: 4
-content_sha256: 426cd8bc5c4247aa68e2e65051c35dbbd392429d869dbcad0cb8d00a37bd2e97
+content_sha256: 9d1010f2a4312da7eb256b0b49777e2e7c13fd2cda13efe8e747d4ded4fee400
 ---
 
 ## § 4. REGULAR ELEMENTS OF A LIE GROUP
@@ -88,7 +88,7 @@ $$
 0\rightarrow (V')^1(\rho '(g))\rightarrow V^1(\rho (g))\rightarrow (V'')^1(\rho ''(g))\rightarrow 0
 $$
 
-which proves the first assertion. The second follows from it since, by Lemma 1 (iv), $r^0_{\rho}=r_{\rho}, r^0_{\rho'}=r_{\rho'}$ and $r_{\rho}^{0''}=r_{\rho''}$ on a dense open subset of G.
+which proves the first assertion. The second follows from it since, by Lemma 1 (iv), $r^0_{\rho}=r_{\rho}, r^0_{\rho'}=r_{\rho'}$ and $r_{\rho''}^0=r_{\rho''}$ on a dense open subset of G.
 
 #### Definition 1 {#lie-vii-s4-def-1 .statement tag=00VW}
 
