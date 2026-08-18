@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 35d56114e0fabe41b176effe1b7eb5d9f04ee76a40ddc6f97077b41aaefa51e8
+content_sha256: b13b9ed9613c7bd66a8b27991afc9484e741ec478bff10547efbaab20cbb58f3
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -57,7 +57,7 @@ $\|A\|_2=\langle A|A\rangle^{1/2}= (d(u$)Tr(A$^*A))^{1/2}$. (2)
 We have
 
 $$
-(\overline{d(u)}\|A\|_{\infty}\leq  \|A\|_2\leq d(u)\|A\|_{\infty} \tag{3}
+\surd\overline{d(u)}\|A\|_{\infty}\leq  \|A\|_2\leq d(u)\|A\|_{\infty} \tag{3}
 $$
 
 so
@@ -122,7 +122,7 @@ $$
 
 $=d(u)\int_Gf(g$)Tr($u(gh^{-1})$)$dg=d(u)\int_Gf(gh$)Tr($u(g)$)$dg$. (10)
 
-For all $u\in \widehat{G}$ choose an orthonormal basis $Bu$ of $E_u$, and denote by $(u_{ij}(g))$ the matrix of $u(g)$ in this basis. Prop. 1 also means that the family of functions $(\overline{d(u)}u_{ij}$, for $u$ in $\widehat{G}$ and $i, j$ in $B_u$, is an orthonormal basis of the space $L^2(G)$.
+For all $u\in \widehat{G}$ choose an orthonormal basis $Bu$ of $E_u$, and denote by $(u_{ij}(g))$ the matrix of $u(g)$ in this basis. Prop. 1 also means that the family of functions $\surd\overline{d(u)}u_{ij}$, for $u$ in $\widehat{G}$ and $i, j$ in $B_u$, is an orthonormal basis of the space $L^2(G)$.
 
 If $f$ is an integrable function on G such that the family $(f_u)$ is uniformly summable, then the sum of this family is a continuous function which coincides almost everywhere with $f$; in other words, if we assume in addition that $f$ is continuous, then for all $h\in G$,
 
@@ -184,7 +184,7 @@ For all $u\in \widehat{G}$, denote by $\lambda (u)$ the highest weight of $u($§
 
 Let $\Gamma \in U(G)$ be a Casimir element of G (§7, no. 6); for all $u\in \widehat{G}$, the endomorphism $u(\Gamma )$ of $E_u$ is a homothety, whose ratio we denote by $\widetilde{\Gamma}(u)$, so we have a map $u \rightarrow \widetilde{\Gamma}(u)$ from $\widehat{G}$ to $\mathbf{C}$.
 
-If $\varphi$ and $\psi$ are two functions on $\widehat{G}$ with positive real values, denote by “$\varphi \psi$” or “$\varphi (u)\psi (u$)” the relation “there exists $M>0$ such that $\varphi (u)\leq M\psi (u)$ for all $u\in \widehat{G}$”; this is a pre-order relation on the set of functions on $\widehat{G}$ with positive real values.
+If $\varphi$ and $\psi$ are two functions on $\widehat{G}$ with positive real values, denote by “$\varphi \preccurlyeq \psi$” or “$\varphi (u)\preccurlyeq \psi (u$)” the relation “there exists $M>0$ such that $\varphi (u)\leq M\psi (u)$ for all $u\in \widehat{G}$”; this is a pre-order relation on the set of functions on $\widehat{G}$ with positive real values.
 
 #### Proposition 2 {#lie-ix-s8-prop-2 .statement tag=01H0}
 
@@ -192,13 +192,13 @@ Let $m \rightarrow  \|m\|$ be a norm on the $\mathbf{R}$-vector space $\mathbf{R
 
 a) The following conditions are equivalent:
 
-(i) There exists an integer $n >0$ such that $\varphi (u)(\|\lambda (u)\|+ 1)^n$ (resp. for every integer $n >0$, we have $\varphi (u)(\|\lambda (u)\|+ 1)^{-n})$.
+(i) There exists an integer $n >0$ such that $\varphi (u)\preccurlyeq (\|\lambda (u)\|+ 1)^n$ (resp. for every integer $n >0$, we have $\varphi (u)\preccurlyeq (\|\lambda (u)\|+ 1)^{-n})$.
 
-(ii) There exists an integer $n >0$ such that $\varphi (u)( \widetilde{\Gamma}(u) + 1)^n$ (resp. for every integer $n >0$, we have $\varphi (u)( \widetilde{\Gamma}(u) + 1)^{-n})$.
+(ii) There exists an integer $n >0$ such that $\varphi (u)\preccurlyeq ( \widetilde{\Gamma}(u) + 1)^n$ (resp. for every integer $n >0$, we have $\varphi (u)\preccurlyeq ( \widetilde{\Gamma}(u) + 1)^{-n})$.
 
 b) If G is semi-simple, conditions (i) and (ii) are also equivalent to:
 
-(iii) There exists an integer $n >0$ such that $\varphi (u)d(u)^n$ (resp. for every integer $n >0$, we have $\varphi (u)d(u)^{-n})$.
+(iii) There exists an integer $n >0$ such that $\varphi (u)\preccurlyeq d(u)^n$ (resp. for every integer $n >0$, we have $\varphi (u)\preccurlyeq d(u)^{-n})$.
 
 Note first of all that condition (i) is clearly independent of the choice of norm. Thus we can use the norm defined by the quadratic form $Q_{\Gamma}$ associated to $\Gamma ($§7, no. 6, Prop. 4). Then
 
@@ -206,13 +206,13 @@ $$
 0\leq \widetilde{\Gamma}(u) =\|\lambda (u) +\rho \|^2- \|\rho \|^2
 $$
 
-so $\widetilde{\Gamma}(u) + 1(\|\lambda (u)\|+ 1)^2\widetilde{\Gamma}(u) + 1$, hence $a)$.
+so $\widetilde{\Gamma}(u) + 1\preccurlyeq (\|\lambda (u)\|+ 1)^2\preccurlyeq \widetilde{\Gamma}(u) + 1$, hence $a)$.
 
 Further, if G is semi-simple,
 
-$\|\lambda (u) +\rho \|d(u)\|\lambda (u) +\rho \|^N$, where $N = 1/$2(dim $G-$ dim T)
+$\|\lambda (u) +\rho \|\preccurlyeq d(u)\preccurlyeq \|\lambda (u) +\rho \|^N$, where $N = 1/$2(dim $G-$ dim T)
 
-(§7, no. 5, Cor. 1 of Th. 3), so $\|\lambda (u)\|+ 1d(u)(\|\lambda (u)\|+ 1)^N$, hence $b)$.
+(§7, no. 5, Cor. 1 of Th. 3), so $\|\lambda (u)\|+ 1\preccurlyeq d(u)\preccurlyeq (\|\lambda (u)\|+ 1)^N$, hence $b)$.
 
 It follows from Prop. 2 that condition (i) is independent of the choice of maximal torus, chamber, and norm, and that condition (ii) is independent of the choice of Casimir element. A function $\varphi$ satisfying conditions (i) and (ii) is said to be moderately increasing (resp. rapidly decreasing). The product of two moderately increasing functions is moderately increasing; the product of a moderately increasing function and a rapidly decreasing function is rapidly decreasing. If $\varphi$ is rapidly decreasing, the family $(\varphi (u))_{u\in\widehat{G}}$ is summable.
 

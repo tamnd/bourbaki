@@ -1,19 +1,17 @@
 {
   "book": "lie-vii-ix",
   "pages": 439,
-  "clean": 412,
-  "flagged": 27,
+  "clean": 421,
+  "flagged": 18,
   "empty": 0,
   "reasons": {
     "diagram": 12,
-    "dropped-glyph": 12,
-    "stacked-rows": 6
+    "stacked-rows": 8
   },
   "flagged_pages": [
     {
       "pdf_page": 119,
       "flags": [
-        "dropped-glyph",
         "diagram"
       ]
     },
@@ -78,12 +76,6 @@
       ]
     },
     {
-      "pdf_page": 314,
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 319,
       "flags": [
         "stacked-rows"
@@ -96,33 +88,9 @@
       ]
     },
     {
-      "pdf_page": 343,
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 347,
       "flags": [
         "diagram"
-      ]
-    },
-    {
-      "pdf_page": 350,
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 351,
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 352,
-      "flags": [
-        "dropped-glyph"
       ]
     },
     {
@@ -138,41 +106,17 @@
       ]
     },
     {
-      "pdf_page": 370,
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 375,
       "flags": [
-        "dropped-glyph",
-        "diagram"
+        "diagram",
+        "stacked-rows"
       ]
     },
     {
       "pdf_page": 376,
       "flags": [
-        "dropped-glyph",
-        "diagram"
-      ]
-    },
-    {
-      "pdf_page": 382,
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 433,
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 435,
-      "flags": [
-        "dropped-glyph"
+        "diagram",
+        "stacked-rows"
       ]
     }
   ],

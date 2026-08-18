@@ -53,7 +53,7 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: 8095037f0fc69959fa97c330cc51d60fb542113b965393547cea450926de23a1
+content_sha256: ec2a38bf9633e4be46d718caa56b42c74c8f921f50be17807451f3feee428993
 ---
 
 ## § 4. ROOT SYSTEM ASSOCIATED TO A COMPACT GROUP
@@ -196,10 +196,10 @@ $$
 v:\mathbf{C}\otimes \Gamma (S)\rightarrow L(S)_{(\mathbf{C})}
 $$
 
-which we shall call canonical in the sequel. Note that, if we extend the pairing between X(S) and $\Gamma (S)$ by $\mathbf{C}$-linearity to a bilinear form, on $(\mathbf{C}\otimes X(S))\times (\mathbf{C}\otimes \Gamma$(S)), then
+which we shall call canonical in the sequel. Note that, if we extend the pairing between X(S) and $\Gamma (S)$ by $\mathbf{C}$-linearity to a bilinear form $\ll ,\gg$ on $(\mathbf{C}\otimes X(S))\times (\mathbf{C}\otimes \Gamma$(S)), then
 
 $$
-\langle u(a), v(b)\rangle = 2\pi ia, b
+\langle u(a), v(b)\rangle = 2\pi i\ll a, b\gg
 $$
 
 ### 3. WEIGHTS OF A LINEAR REPRESENTATION
@@ -484,7 +484,7 @@ $c)$ General case. There exists a surjective morphism $p: G'\rightarrow G$ with 
 
 $f(G',T')f(G,T)$ Id$_N$
 
-0 $\longrightarrow \pi_1(G)')\longrightarrow \pi_1)(G)\longrightarrow N)\longrightarrow 0$.
+0 $\longrightarrow \pi_1(G')\longrightarrow \pi_1(G)\longrightarrow$ N $\longrightarrow 0$.
 
 It follows immediately from the snake diagram (Algebra, Chap. X, p. 4, Prop. 2) that $A(G',T')$ implies $A(G,T)$, hence the proposition, in view of $b)$.
 
@@ -504,7 +504,7 @@ This follows from Algebra, Chap. X, p. 4, Prop. 2 (snake diagram), applied to th
 
 0 $\longrightarrow N(H,T)\longrightarrow \Gamma (T)\longrightarrow \pi_1(H)\longrightarrow$ 0
 
-0 $\longrightarrow N(G),T)\longrightarrow \Gamma (T))\longrightarrow \pi_1)(G)\longrightarrow 0$.
+0 $\longrightarrow N(G,T)\longrightarrow \Gamma (T)\longrightarrow \pi_1(G)\longrightarrow 0$.
 
 #### Remark {#lie-ix-s4-n6-rem-1 .statement tag=01CB}
 

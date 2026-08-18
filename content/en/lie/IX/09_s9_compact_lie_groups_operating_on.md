@@ -33,7 +33,7 @@ errata:
     - says: §5, no. 2, Cor. of Prop. 2
       read: §5, no. 2, Cor. 1 of Prop. 2
       why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and the reference does not say which. The sentence citing it has G simply-connected and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected group. Corollary 2 is the same statement for the Lie algebra, over a chamber rather than an alcove, and Corollary 3 is about existence and uniqueness and names no map at all.
-content_sha256: 6234cfed8ed6554903391b363a72721e23d4521f9ccabbbe187215fb9caf4d72
+content_sha256: 7ef5422f2fc0529eaf1d610840a453b894cb409325d8afd38e150f442aa04b4e
 ---
 
 ## § 9. COMPACT LIE GROUPS OPERATING ON MANIFOLDS
@@ -194,11 +194,11 @@ Let H be a compact Lie group, $(h, x) \rightarrow hx$ a law of left operation of
 
 Let $(U, \psi ,E)$ be a chart of X at $x$, such that U is stable under H (no. 2, Lemma 3) and such that $\psi (x) = 0$. Identify E with T by means of $T_x(\psi )$, and put
 
-$\psi (y) =\int_Hh.\psi (h^{-1}y)dh$ for $y\in U$,
+$\psi^{\sharp}(y) =\int_Hh.\psi (h^{-1}y)dh$ for $y\in U$,
 
 where $dh$ is the Haar measure on H of total mass 1.
 
-Then (§6, no. 4, Cor. $1)\psi$ is a morphism of class $C^r$ from U to T, compatible with the operations of H, such that $\psi (x) = 0$ and $d_x\psi$ = Id$_T$. Hence, there exists an open set $U'\subset U$ containing $x$, and an open neighbourhood V of 0 in T, such that $\psi$ induces an isomorphism $\theta : U'\rightarrow V$. Restricting $U'$ and V if necessary, we can assume that they are stable under H and that there exists an isomorphism $u: T\rightarrow V$ compatible with the operations of H (Lemma 4). It now suffices to take $\varphi =\theta^{-1}\circ u$.
+Then (§6, no. 4, Cor. $1)\psi^{\sharp}$ is a morphism of class $C^r$ from U to T, compatible with the operations of H, such that $\psi^{\sharp}(x) = 0$ and $d_x\psi^{\sharp}=$ Id$_T$. Hence, there exists an open set $U'\subset U$ containing $x$, and an open neighbourhood V of 0 in T, such that $\psi^{\sharp}$ induces an isomorphism $\theta : U'\rightarrow V$. Restricting $U'$ and V if necessary, we can assume that they are stable under H and that there exists an isomorphism $u: T\rightarrow V$ compatible with the operations of H (Lemma 4). It now suffices to take $\varphi =\theta^{-1}\circ u$.
 
 Recall (Differentiable and Analytic Manifolds, Results, 6.5.1) that if G is a Lie group, H a Lie subgroup of G and Y a manifold on which H operates on the left, we denote by $G\times^HY$ the quotient of the product manifold $G\times Y$ by the right operation $((g, y), h) \rightarrow (gh, h^{-1}y)$ of H; this is a manifold on which the Lie group G operates naturally on the left; the projection $G\times^HY\rightarrow G/H$ is a bundle with fibre Y. Further, if Y is a finite dimensional vector space on which H operates linearly, $G\times^HY$ has a natural structure of vector G-bundle with base $G/H ($Differentiable and Analytic Manifolds, Results, 7.10.2).
 
