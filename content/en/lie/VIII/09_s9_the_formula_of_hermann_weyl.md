@@ -29,7 +29,7 @@ subsections:
       pdf_page: 165
 statements: 12
 exercises: 16
-content_sha256: cdad9e1b17a7fa46e0e0d73c966a5d1a4baf0cc9382da9b4942edcce24aca728
+content_sha256: c276a003cb69216738766ef1990dd4f7ce5bf1ce6fc9fdd497f15f28df9dc539
 ---
 
 ## § 9. THE FORMULA OF HERMANN WEYL
@@ -248,35 +248,43 @@ which we knew in §1.
 
 #### Example 2 {#lie-viii-s9-n2-exa-2 .statement tag=0160}
 
-Take $\mathfrak{g}$ to be the splittable simple Lie algebra of type $G_2$ and adopt the notations of Chap. VI, Plate IX. Give $\mathfrak{h}^*_{\mathbf{R}}$ the W-invariant positive symmetric form $(\cdot  | \cdot )$ such that $(\alpha_1|\alpha_1) = 1$. Then $\rho =_1+_2$ and
+Take $\mathfrak{g}$ to be the splittable simple Lie algebra of type $G_2$ and adopt the notations of Chap. VI, Plate IX. Give $\mathfrak{h}^*_{\mathbf{R}}$ the W-invariant positive symmetric form $(\cdot  | \cdot )$ such that $(\alpha_1|\alpha_1) = 1$. Then $\rho =\varpi_1+\varpi_2$ and
 
 1 1
 
-( $_1|\alpha_1) =$, ( $_1|\alpha_2) = 0$, ( $_1|\alpha_2+\alpha_1) =$,
+$$
+(\varpi_1|\alpha_1) =,(\varpi_1|\alpha_2) = 0,(\varpi_1|\alpha_2+\alpha_1) =
+$$
 
 2 2
 
 3 3
 
-( $_1|\alpha_2+ 2\alpha_1) = 1$, ( $_1|\alpha_2+ 3\alpha_1) =$, ( $_1|2\alpha_2+ 3\alpha_1) =$,
+$$
+(\varpi_1|\alpha_2+ 2\alpha_1) = 1,(\varpi_1|\alpha_2+ 3\alpha_1) =,(\varpi_1|2\alpha_2+ 3\alpha_1) =
+$$
 
 2 2
 
 3 3
 
-( $_2|\alpha_1) = 0$, ( $_2|\alpha_2) =$, ( $_2|\alpha_2+\alpha_1) =$,
+$$
+(\varpi_2|\alpha_1) = 0,(\varpi_2|\alpha_2) =,(\varpi_2|\alpha_2+\alpha_1) =
+$$
 
 2 2
 
 3 3
 
-( $_2|\alpha_2+ 2\alpha_1) =$, ( $_2|\alpha_2+ 3\alpha_1) =$, ( $_2|2\alpha_2+ 3\alpha_1) = 3$.
+$$
+(\varpi_2|\alpha_2+ 2\alpha_1) =,(\varpi_2|\alpha_2+ 3\alpha_1) =,(\varpi_2|2\alpha_2+ 3\alpha_1) = 3
+$$
 
 2 2
 
 Thus, if $n_1, n_2$ are integers $\geq 0$, the dimension of the simple representation
 
-of highest weight $n_{11}+n_{22}$ is
+of highest weight $n_1\varpi_1+n_2\varpi_2$ is
 
 $$
 (n_1/2)((3n_2/2)((n_1/2 + 3n_2/2)((n_1+ 3n_2/2)
@@ -320,7 +328,7 @@ $$
 
 5!
 
-In particular, the fundamental representation of highest weight $_1$ (resp. $_2)$ is of dimension 7 (resp. 14).
+In particular, the fundamental representation of highest weight $\varpi_1$ (resp. $\varpi_2)$ is of dimension 7 (resp. 14).
 
 ### 3. MULTIPLICITIES OF WEIGHTS OF SIMPLE $\mathfrak{g}$-MODULES
 

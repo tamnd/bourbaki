@@ -41,7 +41,7 @@ subsections:
       pdf_page: 147
 statements: 46
 exercises: 27
-content_sha256: 373094899a42a9ee7668fe8b6fc892ffbcc2dc272b6bd645e1900eefba1aaec5
+content_sha256: 9fc7eadee7d7d6a015e81d1c2574c9eb56c81a6d634db9f39a749fbfe8ff51a4
 ---
 
 ## § 7. FINITE DIMENSIONAL MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -336,15 +336,15 @@ Conversely, assume that (iv) is satisfied. Let $\alpha \in R$, and give V the $\
 
 #### Proposition 8 {#lie-viii-s7-prop-8 .statement tag=013T}
 
-Assume that $\mathfrak{g}$ is simple. Denote by $\alpha_1, . . . , \alpha_l$ the elements of B. Let $_1, . . . ,_l$ be the corresponding fundamental weights. Let $H$ = $n_1H_{\alpha_1}+\cdots +n_lH_{\alpha_l}$ be the highest root of $R^{\vee}$, and J the set of $i\in  \{1, . . . , l\}$ such that $n_i= 1$. Let $\lambda \in P_{++}$ **--** $\{0\}$. Then conditions (i), (ii) and (iii) of Prop. 6 are equivalent to each of the following conditions:
+Assume that $\mathfrak{g}$ is simple. Denote by $\alpha_1, . . . , \alpha_l$ the elements of B. Let $\varpi_1, . . . , \varpi_l$ be the corresponding fundamental weights. Let $H$ = $n_1H_{\alpha_1}+\cdots +n_lH_{\alpha_l}$ be the highest root of $R^{\vee}$, and J the set of $i\in  \{1, . . . , l\}$ such that $n_i= 1$. Let $\lambda \in P_{++}$ **--** $\{0\}$. Then conditions (i), (ii) and (iii) of Prop. 6 are equivalent to each of the following conditions:
 
 (v) $\lambda (H) = 1$;
 
-(vi) there exists $i\in J$ such that $\lambda =_i$.
+(vi) there exists $i\in J$ such that $\lambda =\varpi_i$.
 
-The $_i$, for $i\in J$, form a system of representatives in P(R) of the non-zero elements of $P(R)/Q(R)$.
+The $\varpi_i$, for $i\in J$, form a system of representatives in P(R) of the non-zero elements of $P(R)/Q(R)$.
 
-Let $\lambda =u_{11}+\cdots +u_{ll}$, where $u_1, . . . , u_l$ are integers $\geq 0$ and not all zero. Then $\lambda (H) =u_1n_1+\cdots +u_ln_l$ and $n_1\geq 1, . . . , n_l\geq 1$, which gives the equivalence of (v) and (vi) immediately. On the other hand, $\lambda (H) =$ sup$_{\alpha\in R_+}\lambda (H_{\alpha})$, and $\lambda (H)>0$ since $\lambda$ is a non-zero element of $P_{++}$. Hence
+Let $\lambda =u_1\varpi_1+\cdots +u_l\varpi_l$, where $u_1, . . . , u_l$ are integers $\geq 0$ and not all zero. Then $\lambda (H) =u_1n_1+\cdots +u_ln_l$ and $n_1\geq 1, . . . , n_l\geq 1$, which gives the equivalence of (v) and (vi) immediately. On the other hand, $\lambda (H) =$ sup$_{\alpha\in R_+}\lambda (H_{\alpha})$, and $\lambda (H)>0$ since $\lambda$ is a non-zero element of $P_{++}$. Hence
 
 condition (v) is equivalent to the condition $\lambda (H_{\alpha})\in  \{0,1\}$ for all $\alpha \in R$, in other words to condition (iii) of Prop. 6.
 
@@ -356,21 +356,21 @@ Assume that $\mathfrak{g}$ is simple. A minuscule weight of $(\mathfrak{g},\math
 
 #### Remark {#lie-viii-s7-n3-rem-1 .statement tag=013V}
 
-Assume that $\mathfrak{g}$ is simple. Let $\Sigma^{'\vee}$ be the Coxeter graph of the affine Weyl group $W_a(R^{\vee})$. Recall that the vertices of $\Sigma^{'\vee}$ are the vertices of the Coxeter graph $\Sigma^{\vee}$ of $W(R^{\vee})$, together with a supplementary vertex 0. The group $A(R^{\vee})$ operates on $\Sigma^{'\vee}$ leaving 0 fixed. The group Aut($\Sigma^{'\vee}$) is canonically isomorphic to the semi-direct product of $A(R^{\vee})/W(R^{\vee})$ with a group $\Gamma_C$ (cf. Chap. VI, §2, no. 3, and Chap. VI, §4, no. 3); clearly (Aut $\Sigma^{'\vee})(0) =\Gamma_C(0)$; and $\Gamma_C(0)$ consists of 0 and the vertices of $\Sigma^{\vee}$ corresponding to the $_i$ for $i\in J$ (cf. Chap. VI, §2, Prop. 5 and Remark 1 of no. 3). In summary, the minuscule weights are the fundamental weights corresponding to the vertices of $\Sigma^{\vee}$ which can be obtained from 0 by the operation of an element of Aut($\Sigma^{'\vee}$).
+Assume that $\mathfrak{g}$ is simple. Let $\Sigma^{'\vee}$ be the Coxeter graph of the affine Weyl group $W_a(R^{\vee})$. Recall that the vertices of $\Sigma^{'\vee}$ are the vertices of the Coxeter graph $\Sigma^{\vee}$ of $W(R^{\vee})$, together with a supplementary vertex 0. The group $A(R^{\vee})$ operates on $\Sigma^{'\vee}$ leaving 0 fixed. The group Aut($\Sigma^{'\vee}$) is canonically isomorphic to the semi-direct product of $A(R^{\vee})/W(R^{\vee})$ with a group $\Gamma_C$ (cf. Chap. VI, §2, no. 3, and Chap. VI, §4, no. 3); clearly (Aut $\Sigma^{'\vee})(0) =\Gamma_C(0)$; and $\Gamma_C(0)$ consists of 0 and the vertices of $\Sigma^{\vee}$ corresponding to the $\varpi_i$ for $i\in J$ (cf. Chap. VI, §2, Prop. 5 and Remark 1 of no. 3). In summary, the minuscule weights are the fundamental weights corresponding to the vertices of $\Sigma^{\vee}$ which can be obtained from 0 by the operation of an element of Aut($\Sigma^{'\vee}$).
 
 With the notations of Chap. VI, Plates I to IX, we deduce from the preceding that the minuscule weights are the following:
 
-For type $A_l(l\geq 1):_1, . . . ,_l$.
+For type $A_l(l\geq 1):\varpi_1, . . . , \varpi_l$.
 
-For type $B_l(l\geq 2):_l$.
+For type $B_l(l\geq 2):\varpi_l$.
 
-For type $C_l(l\geq 2):_1$.
+For type $C_l(l\geq 2):\varpi_1$.
 
-For type $D_l(l\geq 3):_1,_{l-1},_l$.
+For type $D_l(l\geq 3):\varpi_1, \varpi_{l-1}, \varpi_l$.
 
-For type $E_6:_1,_6$.
+For type $E_6:\varpi_1, \varpi_6$.
 
-For type $E_7:_7$.
+For type $E_7:\varpi_7$.
 
 For types $E_8,F_4,G_2$ there are no minuscule weights.
 
@@ -402,7 +402,7 @@ Retain the notations of Prop. 9. Let C be the isotypical component of $E\otimes 
 
 #### Corollary 1 {#lie-viii-s7-prop-9-cor-1 .statement tag=01J5}
 
-Let ( $_{\alpha})_{\alpha\in B}$ be the family of fundamental weights relative to B. Let $\lambda =\sum_{\alpha\in B}m_{\alpha\alpha}\in P_{++}$. For all $\alpha \in B$, let $E_{\alpha}$ be a simple $\mathfrak{g}$-module of highest weight $_{\alpha}$. In the $\mathfrak{g}$-module $\bigotimes_{\alpha\in B}(\bigotimes^{m_{\alpha}}E_{\alpha})$, the isotypical component of highest weight $\lambda$ is of length 1.
+Let $(\varpi_{\alpha})_{\alpha\in B}$ be the family of fundamental weights relative to B. Let $\lambda =\sum_{\alpha\in B}m_{\alpha}\varpi_{\alpha}\in P_{++}$. For all $\alpha \in B$, let $E_{\alpha}$ be a simple $\mathfrak{g}$-module of highest weight $\varpi_{\alpha}$. In the $\mathfrak{g}$-module $\bigotimes_{\alpha\in B}(\bigotimes^{m_{\alpha}}E_{\alpha})$, the isotypical component of highest weight $\lambda$ is of length 1.
 
 This follows from Prop. 9 by induction on $\sum_{\alpha\in B}m_{\alpha}$.
 
@@ -410,7 +410,7 @@ This follows from Prop. 9 by induction on $\sum_{\alpha\in B}m_{\alpha}$.
 
 Assume that $k$ is $\mathbf{R}$ or $\mathbf{C}$ or a non-discrete complete ultrametric field. Let G be a Lie group with Lie algebra $\mathfrak{g}$. Assume that, for any fundamental representation $\rho$ of $\mathfrak{g}$, there exists an analytic linear representation $\rho '$ of G such that $\rho = L(\rho ')$. Then, for any finite dimensional linear representation $\pi$ of $\mathfrak{g}$, there exists an analytic linear representation $\pi '$ of G such that $\pi = L(\pi ')$.
 
-We use the notations of Cor. 1. There exists a representation $\sigma$ of G on $X =\bigotimes_{\alpha\in B}(\bigotimes^{m_{\alpha}}E_{\alpha})$ such that $L(\sigma )$ corresponds to the $\mathfrak{g}$-module structure of X (Chap. III, §3, no. 11, Cor. 3 of Prop. 41). Let C be the isotypical component of X of highest weight $\lambda$. In view of Chap. III, §3, no. 11, Prop. 40, it suffices to prove that C is stable under $\sigma (G)$. Let $g\in G$ and $\varphi =$ Ad($g$). Then $\sigma (g)a_X\sigma (g)^{-1}= (\varphi (a))_X$ for all $a\in \mathfrak{g}$. On the other hand, $\varphi$ is an automorphism of $\mathfrak{g}$ that takes $\mathfrak{h}$ to $\mathfrak{h}', R$ to $R'= R(\mathfrak{g},\mathfrak{h}'), B$ to a basis $B'$ of $R'$, and $_{\alpha}$ to the highest weight $'_{\alpha}$ of $E_{\alpha}$ relative to $\mathfrak{h}'$ and $B'$ (since $\varphi$ transforms $E_{\alpha}$ into a $\mathfrak{g}$-module isomorphic to $E_{\alpha})$. Hence $\varphi$ takes $\lambda$ to $\sum m_{\alpha}'_{\alpha}$. By the Remark above, $\sigma (g)(C) = C$.
+We use the notations of Cor. 1. There exists a representation $\sigma$ of G on $X =\bigotimes_{\alpha\in B}(\bigotimes^{m_{\alpha}}E_{\alpha})$ such that $L(\sigma )$ corresponds to the $\mathfrak{g}$-module structure of X (Chap. III, §3, no. 11, Cor. 3 of Prop. 41). Let C be the isotypical component of X of highest weight $\lambda$. In view of Chap. III, §3, no. 11, Prop. 40, it suffices to prove that C is stable under $\sigma (G)$. Let $g\in G$ and $\varphi =$ Ad($g$). Then $\sigma (g)a_X\sigma (g)^{-1}= (\varphi (a))_X$ for all $a\in \mathfrak{g}$. On the other hand, $\varphi$ is an automorphism of $\mathfrak{g}$ that takes $\mathfrak{h}$ to $\mathfrak{h}', R$ to $R'= R(\mathfrak{g},\mathfrak{h}'), B$ to a basis $B'$ of $R'$, and $\varpi_{\alpha}$ to the highest weight $\varpi '_{\alpha}$ of $E_{\alpha}$ relative to $\mathfrak{h}'$ and $B'$ (since $\varphi$ transforms $E_{\alpha}$ into a $\mathfrak{g}$-module isomorphic to $E_{\alpha})$. Hence $\varphi$ takes $\lambda$ to $\sum m_{\alpha}\varpi '_{\alpha}$. By the Remark above, $\sigma (g)(C) = C$.
 
 #### Proposition 10 {#lie-viii-s7-prop-10 .statement tag=013Z}
 
@@ -662,7 +662,7 @@ The first assertion follows from no. 1, Cor. 2 of Prop. 2, and the second from �
 
 #### Theorem 2 {#lie-viii-s7-thm-2 .statement tag=014B}
 
-(i) Let ( $_{\alpha})_{\alpha\in B}$ be the family of fundamental weights relative to B. Let $(T_{\alpha})_{\alpha\in B}$ be a family of indeterminates. The map $f \rightarrow f(([_{\alpha}])_{\alpha\in B})$ from $\mathbf{Z}[(T_{\alpha})_{\alpha\in B}]$ to $\mathscr{R}(\mathfrak{g})$ is an isomorphism of rings.
+(i) Let $(\varpi_{\alpha})_{\alpha\in B}$ be the family of fundamental weights relative to B. Let $(T_{\alpha})_{\alpha\in B}$ be a family of indeterminates. The map $f \rightarrow f(([\varpi_{\alpha}])_{\alpha\in B})$ from $\mathbf{Z}[(T_{\alpha})_{\alpha\in B}]$ to $\mathscr{R}(\mathfrak{g})$ is an isomorphism of rings.
 
 (ii) The homomorphism ch from $\mathscr{R}(\mathfrak{g})$ to $\mathbf{Z}[P]$ induces an isomorphism from the ring $\mathscr{R}(\mathfrak{g})$ to the ring $\mathbf{Z}[P]^W$.
 

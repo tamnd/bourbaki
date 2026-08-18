@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: 7813497304c352b75cf4c0641dfb463226d33dfbfddd31375b2e00a0f3b19f41
+content_sha256: 3416fc2a1d54905e08c083968982a8bb4374a8d8465567cf14eee5863c99ae0d
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
@@ -350,17 +350,17 @@ $p\geq 0$
 
 Let $x, x_1, . . . , x_m$ be elements of $\mathfrak{h}$. We have
 
-(exp$^*\omega_H)_x(x_1, . . . , x_m) = (\omega_H$(exp $x))(T_x$(exp)($x_1$)$, . . . ,T_x$(exp)($x_m$)). Denote by $(x) :\mathfrak{h}\rightarrow \mathfrak{h}$ the right differential of the exponential at $x$ (Chap. III, §3, no. 17, Def. 8); by definition,
+(exp$^*\omega_H)_x(x_1, . . . , x_m) = (\omega_H$(exp $x))(T_x$(exp)($x_1$)$, . . . ,T_x$(exp)($x_m$)). Denote by $\varpi (x) :\mathfrak{h}\rightarrow \mathfrak{h}$ the right differential of the exponential at $x$ (Chap. III, §3, no. 17, Def. 8); by definition,
 
-$T_x$(exp)($y$).(exp $x)^{-1}=(x).y$ for all $y\in \mathfrak{h}$.
+$T_x$(exp)($y$).(exp $x)^{-1}=\varpi (x).y$ for all $y\in \mathfrak{h}$.
 
 The form $\omega_H$ being right invariant, we obtain
 
 $(\omega_H$(exp $x))(T_x$(exp)($x_1$)$, . . . ,T_x$(exp)($x_m$))
 
-$=\omega_H(e)((x).x_1, . . . , (x).x_m) =$ (det $(x))\omega_{\mathfrak{h}}(x_1, . . . , x_m)$;
+$=\omega_H(e)(\varpi (x).x_1, . . . , \varpi (x).x_m) =$ (det $\varpi (x))\omega_{\mathfrak{h}}(x_1, . . . , x_m)$;
 
-thus, exp$^*\omega_H=\lambda_{\mathfrak{h}}\omega_{\mathfrak{h}}$, with $\lambda_{\mathfrak{h}}(x) =$ det $(x) =$ det$\frac{exp ad x-1}{ad x}$ (Chap. III, §6, no. 4, Prop. 12).
+thus, exp$^*\omega_H=\lambda_{\mathfrak{h}}\omega_{\mathfrak{h}}$, with $\lambda_{\mathfrak{h}}(x) =$ det $\varpi (x) =$ det$\frac{exp ad x-1}{ad x}$ (Chap. III, §6, no. 4, Prop. 12).
 
 Let $h\in H$; since Ad $h$ is an automorphism of $\mathfrak{h}$, we have
 

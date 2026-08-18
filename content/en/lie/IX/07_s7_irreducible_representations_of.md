@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: e4e42f6d2376efb5f3a62e9ffe8d13ff66d26a9533d3d42bd28eae3c03b11ea1
+content_sha256: b06c4302c25e46e29d7e23689452be5af0c50d6b88977427f4496a47a23586ae
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -68,9 +68,7 @@ The equivalence if (iii) and (iv) is immediate. Since the set of the $K_{\alpha}
 
 Denote by $X_{++}$ the set of elements of X(T) such that $\langle \lambda , K_{\alpha}\rangle  \geq 0$ for every positive root $\alpha$. The elements of $X_{++}$ are said to be dominant. They form a fundamental domain for the operation of W on X(T) (Chap. VI, §1, no. 10). We have $X_{++}\subset X_+$.
 
-If G is simply-connected, for each simple root $\alpha$ there exists an element $_{\alpha}$ of X(T) such that $\langle_{\beta}, K_{\alpha}\rangle =\delta_{\alpha \beta}$ for every simple root $\beta$, that is, $s_{\alpha}(_{\alpha}) =$
-
-$_{\alpha}-\alpha ,s_{\beta}(_{\alpha}) =_{\alpha}$ for every simple root $\beta \not=\alpha$; the $_{\alpha}$ are called the fundamental dominant weights; they form a basis of the commutative group X(T) and of the commutative monoid $X_{++}$; more precisely, every element $\lambda$ of X(T) can be written in the form $\lambda =\sum_{\alpha}\langle \lambda , K_{\alpha}\rangle_{\alpha}$.
+If G is simply-connected, for each simple root $\alpha$ there exists an element $\varpi_{\alpha}$ of X(T) such that $\langle \varpi_{\beta}, K_{\alpha}\rangle =\delta_{\alpha \beta}$ for every simple root $\beta$, that is, $s_{\alpha}(\varpi_{\alpha}) =$ $\varpi_{\alpha}-\alpha ,s_{\beta}(\varpi_{\alpha}) =\varpi_{\alpha}$ for every simple root $\beta \not=\alpha$; the $\varpi_{\alpha}$ are called the fundamental dominant weights; they form a basis of the commutative group X(T) and of the commutative monoid $X_{++}$; more precisely, every element $\lambda$ of X(T) can be written in the form $\lambda =\sum_{\alpha}\langle \lambda , K_{\alpha}\rangle \varpi_{\alpha}$.
 
 Denote by $\rho$ the element of $X(T)\otimes \mathbf{Q}$ such that
 
@@ -108,7 +106,7 @@ We conclude that the $\mathfrak{g}$-module $\mathbf{C}(\nu )\otimes E(\mu)$ is f
 
 The group G has a (finite dimensional) faithful linear representation.
 
-Observe first that every element of X(T) is equal to the difference of two dominant weights: more precisely, let be an element of $X_{++}$ such that $\langle , K_{\alpha}\rangle >0$ for every simple root $\alpha$; for all $\lambda \in X(T)$ there exists a positive integer $n$ such that $\langle \lambda +n, K_{\alpha}\rangle  \geq 0$ for every simple root $\alpha$, that is (no. 1, Lemma $1)\lambda +n\in X_{++}$.
+Observe first that every element of X(T) is equal to the difference of two dominant weights: more precisely, let $\varpi$ be an element of $X_{++}$ such that $\langle \varpi , K_{\alpha}\rangle >0$ for every simple root $\alpha$; for all $\lambda \in X(T)$ there exists a positive integer $n$ such that $\langle \lambda +n\varpi , K_{\alpha}\rangle  \geq 0$ for every simple root $\alpha$, that is (no. 1, Lemma $1)\lambda +n\varpi \in X_{++}$.
 
 Consequently, there exists a finite family $(\lambda_i)_{i\in I}$ of elements of $X_{++}$ generating the $\mathbf{Z}$-module X(T). For $i\in I$, let $\tau_i$ be an irreducible representation of G of highest weight $\lambda_i$ (Th. 1); let the representation $\tau$ be the direct sum of the $\tau_i$. By construction the set $P(\tau ,T)$ of weights of $\tau$ (relative to T) generates the $\mathbf{Z}$-module X(T). It now follows from Prop. 6 of §4, no. 3 that the homomorphism $\tau$ is injective, hence the corollary.
 
