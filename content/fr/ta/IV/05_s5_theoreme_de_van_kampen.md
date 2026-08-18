@@ -37,7 +37,7 @@ subsections:
       pdf_page: 445
 statements: 31
 exercises: 34
-content_sha256: 6026ee50fceac7e3065076f60de5b4626a6a2f85f6aad77dfbf4d57890272153
+content_sha256: a239c877d71cc57ffa8ad7b91544b7f9369dedf30376afca4843d62d6e970a21
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -658,7 +658,7 @@ Soit X un espace topologique connexe par arcs, délaçable et séparé, et soit 
 
 #### Corollaire 2 {#ta-iv-s5-prop-3-cor-2 .statement tag=023M}
 
-Supposons que X soit délaçable et que le groupe G opère librement dans X. Il existe un unique homomorphisme de groupes $p:\pi_1(Y, f(o))\rightarrow G$ dont le noyau contient l’image de $\pi_1(X, o)$ et tel que $p(\mathsf{N}(g)) =g$ pour tout $g\in G$. De plus, $\pi_1(X, o)\rightarrow \pi_1(Y, f(o))-\rightarrow^p$ G est une extension de G par $\pi_1(X, o)$.
+Supposons que X soit délaçable et que le groupe G opère librement dans X. Il existe un unique homomorphisme de groupes $p:\pi_1(Y, f(o))\rightarrow G$ dont le noyau contient l’image de $\pi_1(X, o)$ et tel que $p(\mathsf{N}(g)) =g$ pour tout $g\in G$. De plus, $\pi_1(X, o)\rightarrow \pi_1(Y, f(o))-\overset{p}{\rightarrow}G$ est une extension de G par $\pi_1(X, o)$.
 
 #### Corollaire 3 {#ta-iv-s5-prop-3-cor-3 .statement tag=023N}
 

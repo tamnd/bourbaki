@@ -93,7 +93,7 @@ books:
               statements: 41
               exercises: 8
               extraction: native
-              content_sha256: 979adbb97ccde5c60105f84fb1e0b54beccc02cbb9a45ff56c704e7319b7a3ea
+              content_sha256: ac8d53dd4bd6f0c79d7549548b53858c1079ad220eaeb1d9b413ef824e0be7fd
             - kind: section
               section: 7
               title: Simple Rings
@@ -158,7 +158,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native
-              content_sha256: 2ae7a00ffb8a34198f5c55c4ce6e3ca804cb8c3dac776290a78c350dfc20f6d2
+              content_sha256: 7a5f9f7f9332f76f1c0143d89f88998a0c931d7e240d1da44a27f8bd5201a27f
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -510,7 +510,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native
-              content_sha256: 79fe3c28336919ab713148be4f1136ffdccc37e8c79f9d1e0413f968620889ff
+              content_sha256: ec1b8726f1f1554b0f863f9fcfac81c448c1fc83ecadab5444d97b49495b80e0
             - kind: section
               section: 12
               title: Produit tensoriel de modules semi-simples
@@ -1176,7 +1176,7 @@ books:
               statements: 44
               exercises: 2
               extraction: native
-              content_sha256: f7607b900f6d7a7d54112c51721b34753c2587caaddf4850576a54a796ba67ac
+              content_sha256: 9369a1be57079860cd666452e762fce3732ab1a103d0fb2c62cfa0bc33588550
             - kind: section
               section: 2
               title: Applications étales
@@ -1360,7 +1360,7 @@ books:
               statements: 63
               exercises: 14
               extraction: native
-              content_sha256: cab0ef567104d438de0b1165e1e3c0a0932ea212c1f76e83c6bb59b3ffdb4612
+              content_sha256: 7cd85effc05cceb599f6fbd00c47f8adf6d1b44ae268c4c9331ea9ff51987a57
             - kind: section
               section: 3
               title: Groupoïde de Poincaré
@@ -1478,7 +1478,7 @@ books:
               statements: 31
               exercises: 34
               extraction: native
-              content_sha256: 6026ee50fceac7e3065076f60de5b4626a6a2f85f6aad77dfbf4d57890272153
+              content_sha256: a239c877d71cc57ffa8ad7b91544b7f9369dedf30376afca4843d62d6e970a21
             - kind: section
               section: 6
               title: Espaces classifiants
@@ -1638,7 +1638,7 @@ books:
               statements: 95
               exercises: 68
               extraction: native
-              content_sha256: db52f8d9c2ae3778d944a4ca14401424ac543623bfd078ce6ab37529d79b3716
+              content_sha256: fd4e798c29f9b2364d7fd2b81bf137b8708e53947055ae6d646c84232b8b5d06
             - kind: section
               section: 2
               title: Classification
@@ -1732,7 +1732,7 @@ books:
               statements: 30
               exercises: 9
               extraction: native
-              content_sha256: 3bd2655538ea0fd366c1d478fd837c60b555fbf6a5cdd661a93717b8f558115d
+              content_sha256: 723b09cba0e2dc3f909012fc4bb01716a063448fe9f841ad8188c3d93704cdbe
             - kind: section
               section: 5
               title: Perturbation par une application linéaire compacte
@@ -1824,7 +1824,7 @@ books:
               statements: 74
               exercises: 24
               extraction: native
-              content_sha256: 43f0deb8e4c2a87cb8588dff7de081c714d1e24f816f317f9ac28c6e1d44ac90
+              content_sha256: 0cddd7aa9f7cd15fe7bc433a72acbbcc6663e450dfb3f086bd19f4bceac63a77
             - kind: section
               section: 5
               title: Opérateurs partiels normaux et théorème spectral

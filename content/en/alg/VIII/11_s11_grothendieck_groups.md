@@ -62,7 +62,7 @@ subsections:
       pdf_page: 221
 statements: 38
 exercises: 14
-content_sha256: 2ae7a00ffb8a34198f5c55c4ce6e3ca804cb8c3dac776290a78c350dfc20f6d2
+content_sha256: 7a5f9f7f9332f76f1c0143d89f88998a0c931d7e240d1da44a27f8bd5201a27f
 ---
 
 ## § 11. GROTHENDIECK GROUPS
@@ -152,7 +152,7 @@ $$
 Let us prove the corollary by induction on $n$; the cases $n= 0$ and $n= 1$ are trivial. So let $n\geqslant 1$, and let
 
 $$
-0\longrightarrow E_0\longrightarrow^{u_0}E_1\longrightarrow  \cdots  \longrightarrow^{u_1}E_{n-1}\longrightarrow^{u_{n-1}}E_n-^u-\rightarrow^{^n}E_{n+1}\longrightarrow 0
+0\longrightarrow E_0\longrightarrow^{u_0}E_1\longrightarrow  \cdots  \longrightarrow^{u_1}E_{n-1}\longrightarrow^{u_{n-1}}E_n\overset{u}{-}-\rightarrow^{^n}E_{n+1}\longrightarrow 0
 $$
 
 be an exact sequence of modules of type $\mathscr{C}$. By Proposition 1, the kernel F of $u_n$ is a module of type $\mathscr{C}$, and we have
