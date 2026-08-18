@@ -34,7 +34,7 @@ subsections:
       pdf_page: 384
 statements: 16
 exercises: 8
-content_sha256: 71e4f4f70eb40d09b1a16d408794c159eca92de0aa89ccbf3b967f67df1d0b5d
+content_sha256: d3a5ed1774276469b1a131659370d43aa9fa0055a81a499b1a1c5d6e455377f4
 ---
 
 ## § 19. QUATERNION ALGEBRAS
@@ -67,7 +67,7 @@ $$
 
 The characteristic polynomial of an element $q$ of F is equal to $X^2-T_F(q)X + N_F(q)^2$.
 
-By the above, the algebra F is a free right E-module with basis $(1, j)$. Consequently, F[X] is a free right E[X]-module with basis $(1, j)$. We denote by $u$ the endomorphism of the right E[X]-module F[X] defined by $u(P) =$ $(X-q)P$ for $P\in F[X]$. The characteristic polynomial of $q$ is the determinant of $u$ viewed as an endomorphism of the K[X]-module F[X]. By Proposition 6 of III, §9, No. 4, p. 546, it is equal to N(det $u)$, where N denotes the norm from E[X] to K[X]. Let us write $q$ as $x+jy$ with $x, y\in E$. The matrix of $u$ with respect to the basis $(1, j)$ is $^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x}}}$ ; its determinant is equal to $D = (X-x)(X-\overline{x})-\gamma yy= X^2-T_F(q)X + N_F(q)$ (cf. formula (3)). Since D belongs to K[X], we have $N(D) = D^2$; Proposition 1 follows.
+By the above, the algebra F is a free right E-module with basis $(1, j)$. Consequently, F[X] is a free right E[X]-module with basis $(1, j)$. We denote by $u$ the endomorphism of the right E[X]-module F[X] defined by $u(P) =$ $(X-q)P$ for $P\in F[X]$. The characteristic polynomial of $q$ is the determinant of $u$ viewed as an endomorphism of the K[X]-module F[X]. By Proposition 6 of III, §9, No. 4, p. 546, it is equal to N(det $u)$, where N denotes the norm from E[X] to K[X]. Let us write $q$ as $x+jy$ with $x, y\in E$. The matrix of $u$ with respect to the basis $(1, j)$ is $\begin{pmatrix} X-x & -\gamma y \\ -y & X-\overline{x} \end{pmatrix}$ ; its determinant is equal to $D = (X-x)(X-\overline{x})-\gamma yy= X^2-T_F(q)X + N_F(q)$ (cf. formula (3)). Since D belongs to K[X], we have $N(D) = D^2$; Proposition 1 follows.
 
 #### Remark 1 {#alg-viii-s19-n1-rem-1 .statement tag=00LR}
 

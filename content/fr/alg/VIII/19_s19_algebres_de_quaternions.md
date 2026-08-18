@@ -33,7 +33,7 @@ subsections:
       pdf_page: 362
 statements: 16
 exercises: 8
-content_sha256: 62cad8b639e315c68a6fa0aa144ca51b748c10af120937c1403f01c5ab861a7f
+content_sha256: 12e9ff113bc1b56aeedcf3396c46d6190e1738a3b99b7a453f398acc5e854e4d
 ---
 
 ## § 19. ALGÈBRES DE QUATERNIONS
@@ -66,7 +66,7 @@ $$
 
 Le polynôme caractéristique d’un élément $q$ de F est égal à $(X^2-T_F(q)X + N_F(q))^2$.
 
-D’après ce qui précède, l’algèbre F est un E-module à droite libre de base $(1, j)$. Par conséquent, F[X] est un E[X]-module à droite libre de base $(1, j)$. Notons $u$ l’endomorphisme du E[X]-module à droite F[X] défini par $u(P) = (X-q)P$ pour tout $P\in F[X]$. Le polynôme caractéristique de $q$ est le déterminant de $u$ considéré comme endomorphisme du K[X]-module F[X]. D’après la prop. 6 de III, p. 112, il est égal à N(det $u)$, où N désigne la norme de E[X] à K[X]. Écrivons $q$ sous la forme $x+jy$, avec $x, y\in E$. La matrice de $u$ par rapport à la base $(1, j)$ est $(^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x}}})$; son déterminant est égal à $D = (X-x)(X-\overline{x})-\gamma yy= X^2-T_F(q)X + N_F(q) ($cf. formule (3)). Comme D appartient à K[X], on a $N(D) = D^2$, d’où la prop. 1.
+D’après ce qui précède, l’algèbre F est un E-module à droite libre de base $(1, j)$. Par conséquent, F[X] est un E[X]-module à droite libre de base $(1, j)$. Notons $u$ l’endomorphisme du E[X]-module à droite F[X] défini par $u(P) = (X-q)P$ pour tout $P\in F[X]$. Le polynôme caractéristique de $q$ est le déterminant de $u$ considéré comme endomorphisme du K[X]-module F[X]. D’après la prop. 6 de III, p. 112, il est égal à N(det $u)$, où N désigne la norme de E[X] à K[X]. Écrivons $q$ sous la forme $x+jy$, avec $x, y\in E$. La matrice de $u$ par rapport à la base $(1, j)$ est $\begin{pmatrix} X-x & -\gamma y \\ -y & X-\overline{x} \end{pmatrix}$ ; son déterminant est égal à $D = (X-x)(X-\overline{x})-\gamma yy= X^2-T_F(q)X + N_F(q) ($cf. formule (3)). Comme D appartient à K[X], on a $N(D) = D^2$, d’où la prop. 1.
 
 #### Remarque 1 {#alg-viii-s19-n1-rem-1 .statement tag=00LR}
 
