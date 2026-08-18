@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: 25162170ccb7ee335ac10c1d276bbc192338f064720e37af09626328d4b4a1b5
+content_sha256: 878133f336c87e3b75fde4a4414f755340a33aa83fc58b44e2a4777dd8d471f7
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -748,7 +748,7 @@ $$
 
 Soient $f$ et $g$ dans $L^1(G)\cap L^2(G)$ et $h=f*\widetilde{g}\in A(G)$. Puisque la transformation de Fourier est un morphisme involutif, la formule (27) est l’assertion (25) pour la fonction $h$ au point $x=e$. Par linéarité, on en déduit que la formule (25) est valide au point $x=e$ pour toute fonction $h\in A(G)$.
 
-Soient $x\in G$ et $h\in A(G)$. Soit $h_1=\varepsilon_{x^{-1}}*h$. Alors $h_1\in A(G)$ et $h_1(e) =h(x)$. Comme de plus $\mathscr{F}(h_1)(\chi ) =\langle \chi , x\rangle \mathscr{F}(f)(\chi )$ pour tout $\chi \in \widehat{G}($cf. formule (11) de II, p. 208), la formule (25) pour la fonction $h_1$ au point $e$ implique la formule (25) pour $h$ au point $x$.
+Soient $x\in G$ et $h\in A(G)$. Soit $h_1=\varepsilon_{x^{-1}}*h$. Alors $h_1\in A(G)$ et $h_1(e) =h(x)$. Comme de plus $\mathscr{F}(h_1)(\chi ) =\overline{\langle\chi , x\rangle}\mathscr{F}(f)(\chi )$ pour tout $\chi \in \widehat{G}($cf. formule (11) de II, p. 208), la formule (25) pour la fonction $h_1$ au point $e$ implique la formule (25) pour $h$ au point $x$.
 
 #### Lemme 6 {#ts-ii-s1-lem-6 .statement tag=02IO}
 
@@ -926,7 +926,7 @@ Il existe des espaces fonctionnels sur G et $\widehat{G}$, autres que $L^2(G)$ e
 
 La restriction de la transformation de Fourier à B(G) induit un isomorphisme d’espaces vectoriels de B(G) sur $B(\widehat{G})$, dont la réciproque est induite par la restriction à $B(\widehat{G})$ de la cotransformation de Fourier.
 
-Soit $f\in B(G)$. Notons $g=\mathscr{F}_G(f)$. On a $g\in L^1(\widehat{G})\cap \mathscr{C}_0(\widehat{G})\subset$ $L^1(\widehat{G})\cap L^2(\widehat{G})$. Posons $f_1=\mathscr{F}_{\widehat{G}}(g)\in L^2(G)$. Pour toute fonction continue à support compact $h\in \mathscr{K}(\widehat{G})$, on a $h\in L^1(\widehat{G})\cap L^2(\widehat{G})$ et
+Soit $f\in B(G)$. Notons $g=\mathscr{F}_G(f)$. On a $g\in L^1(\widehat{G})\cap \mathscr{C}_0(\widehat{G})\subset$ $L^1(\widehat{G})\cap L^2(\widehat{G})$. Posons $f_1=\overline{\mathscr{F}}_{\widehat{G}}(g)\in L^2(G)$. Pour toute fonction continue à support compact $h\in \mathscr{K}(\widehat{G})$, on a $h\in L^1(\widehat{G})\cap L^2(\widehat{G})$ et
 
 $$
 \int_Gf_1(x)\mathscr{F}_{\widehat{G}}(h)(x)dx=\int_G\overline{\mathscr{F}}_{\widehat{G}}(g)(x)\overline{\overline{\mathscr{F}}_{\widehat{G}}(\overline{h})(x)}dx
@@ -1210,7 +1210,7 @@ $$
 =\int_G\overline{\langle\chi , x\rangle}f(x)d\beta (x) =\mathscr{F}_G(f)(\chi )
 $$
 
-d’après la formule (33), appliquée à la fonction intégrable $x\mapsto$ $\langle \chi , x\rangle f(x)$. Par hypothèse, la fonction $\mathscr{F}(f)|H^{\bot}=\mathscr{F}_{G/H}(f^{\flat})$ appartient à $L^1(H^{\bot})$, et donc la fonction $f^{\flat}$ appartient à l’espace $B(G/H)$. Il en résulte (th. 3 de II, p. 222) que $f^{\flat}$ coïncide presque partout avec $\overline{\mathscr{F}}_{\widehat{G}/H}(\mathscr{F}_{G/H}(f^{\flat}))$. Pour presque tout $\dot{x}\in G/H$, on a donc
+d’après la formule (33), appliquée à la fonction intégrable $x\mapsto$ $\overline{\langle\chi , x\rangle}f(x)$. Par hypothèse, la fonction $\mathscr{F}(f)|H^{\bot}=\mathscr{F}_{G/H}(f^{\flat})$ appartient à $L^1(H^{\bot})$, et donc la fonction $f^{\flat}$ appartient à l’espace $B(G/H)$. Il en résulte (th. 3 de II, p. 222) que $f^{\flat}$ coïncide presque partout avec $\overline{\mathscr{F}}_{\widehat{G}/H}(\mathscr{F}_{G/H}(f^{\flat}))$. Pour presque tout $\dot{x}\in G/H$, on a donc
 
 $$
 f^{\flat}( \dot{x}) =\int_{H^{\bot}}\langle \chi , x\rangle \mathscr{F}_{G/H}(f^{\flat})(\chi )d\widehat{\gamma}(\chi ) =\int_{H^{\bot}}\langle \chi , x\rangle \mathscr{F}_G(f)(\chi )d\widehat{\gamma}(\chi )
@@ -1448,9 +1448,7 @@ $$
 
 est bornée sur $\mathbf{R}^n$. On munit $\mathscr{S}(\mathbf{R}^n)$ de la topologie localement convexe définie par les semi-normes
 
-$p_{k,\alpha}:\varphi \mapsto$ sup $\|x\|^k|\partial^{\alpha}\varphi (x)|$.
-
-$x\in \mathbf{R}^n$
+$p_{k,\alpha}:\varphi \mapsto$ sup$_{x\in\mathbf{R}^n}\|x\|^k|\partial^{\alpha}\varphi (x)|$.
 
 On dit que $\mathscr{S}(\mathbf{R}^n)$ est l’espace des fonctions de Schwartz sur $\mathbf{R}^n$.
 
@@ -1672,7 +1670,7 @@ $$
 
 Démontrons la proposition. On a $f*F_N=f_N$ pour $N\geqslant 1$. La représentation régulière $\boldsymbol{\gamma }$ de $\mathbf{T}^n$ dans $\mathscr{C}(\mathbf{T}^n)$ (INT, VIII, §2, n$^o3)$ est continue et vérifie $f*F_N=\boldsymbol{\gamma }(\mu_N)f$ (INT, VIII, §4, n$^o5$, prop. 5 (iv)). L’application $\mu\mapsto \boldsymbol{\gamma }(\mu)f$ est continue de $\mathscr{M}^1(\mathbf{T}^n)$ dans $\mathscr{C}(\mathbf{T}^n)$ (INT, VI, §1, n$^o6$, prop. 14). D’après le lemme, on a donc
 
-$_{N\rightarrow}$lim$_{+\infty}f_N=_{N\rightarrow}$lim$_{+\infty}f*F_N=_{N\rightarrow}$lim$_{+\infty}\boldsymbol{\gamma }(\mu_N)f=\boldsymbol{\gamma }(\varepsilon_0)(f) =f$
+lim$_{N\rightarrow+\infty}f_N=$ lim$_{N\rightarrow+\infty}f*F_N=$ lim$_{N\rightarrow+\infty}\boldsymbol{\gamma }(\mu_N)f=\boldsymbol{\gamma }(\varepsilon_0)(f) =f$
 
 dans $\mathscr{C}(\mathbf{T}^n)$.
 

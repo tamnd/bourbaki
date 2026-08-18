@@ -53,7 +53,7 @@ subsections:
       pdf_page: 268
 statements: 74
 exercises: 24
-content_sha256: 0cddd7aa9f7cd15fe7bc433a72acbbcc6663e450dfb3f086bd19f4bceac63a77
+content_sha256: dbd74866036b545c5c8a81ab2219bcf090af64a55385298e5b46804a2285b0f7
 ---
 
 ## § 4. OPÉRATEURS PARTIELS
@@ -146,7 +146,7 @@ Soient E et F des espaces vectoriels topologiques sur K.
 
 #### Proposition 1 {#ts-iv-s4-prop-1 .statement tag=032M}
 
-Soient E et F des espaces vectoriels topologiques sur K. Un opérateur partiel $u$ de E dans F est fermable si et seulement si l’adhérence du graphe $\Gamma_u$ de $u$ dans $E\times F$ est un graphe fonctionnel. Il existe alors un unique opérateur partiel $v$ de E dans F dont le graphe est $\Gamma_u$, et c’est la plus petite extension fermée de $u$.
+Soient E et F des espaces vectoriels topologiques sur K. Un opérateur partiel $u$ de E dans F est fermable si et seulement si l’adhérence du graphe $\Gamma_u$ de $u$ dans $E\times F$ est un graphe fonctionnel. Il existe alors un unique opérateur partiel $v$ de E dans F dont le graphe est $\overline{\Gamma}_u$, et c’est la plus petite extension fermée de $u$.
 
 Si l’adhérence du graphe de $u$ dans $E\times F$ est un graphe fonctionnel, c’est le graphe d’un opérateur partiel, et celui-ci est une extension fermée de $u$, qui est donc fermable. Réciproquement, supposons que $u\subset w$ avec $w$ fermé. L’adhérence $\Gamma_u$ du graphe de $u$ dans $E\times F$ est contenue dans $\Gamma_w$, donc $\Gamma_u$ est un graphe fonctionnel.
 
@@ -908,9 +908,7 @@ donc $\lambda  /\in$ Sp($u$) $($loc. cit.), ce qui démontre b).
 
 Démontrons enfin c). D’après la prop. 16, la résolvante $R(u, \lambda )$ est un endomorphisme normal de E. Sa norme est donc égale à son rayon spectral (cor. 1 de I, p. 108), d’où
 
-$\|R(u, \lambda )\|=$ sup $|\mu|$
-
-$\mu\in$Sp(R($u,\lambda$ ))
+$\|R(u, \lambda )\|=$ sup$_{\mu\in Sp(R(u,\lambda))}|\mu|$
 
 (th. 1 de I, p. 24). Le spectre de $R(u, \lambda )$ ne peut être réduit à $\{0\}$, car dans ce cas on aurait $\|R(u, \lambda )\|= 0$, donc l’image dom($u$) de $R(u, \lambda )$ serait nulle, et E également. La prop. 15 implique donc que
 

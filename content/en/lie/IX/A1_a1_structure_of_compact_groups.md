@@ -26,7 +26,7 @@ subsections:
       pdf_page: 391
 statements: 9
 exercises: 1
-content_sha256: 22c59858b77a46c828405331f7fdca7c63d6707ea39fff850fbb3ddfdca3e6ba
+content_sha256: de4bab2eb576d2786af8e9184bd93ea9655d5554cf144c1824c2ea4a76f92e3d
 ---
 
 ## APPENDIX I
@@ -71,9 +71,7 @@ Let $(G_{\alpha}, f_{\alpha \beta})$ be a projective system of topological group
 
 a) The subgroups $D(G_{\alpha})$ (resp. $C(G_{\alpha})$, resp. $C(G_{\alpha})_0)$ form a projective system of subsets of $G_{\alpha}$.
 
-b) We have D(G) = lim$_{_{\leftarrow -}}\overline{D(G_{\alpha})}$ and C(G) = lim$_{_{\leftarrow -}}C(G_{\alpha})$.
-
-$\alpha \alpha$
+b) We have D(G) = lim$_{_{\leftarrow -}\alpha}\overline{D(G_{\alpha})}$ and C(G) = lim$_{_{\leftarrow -}\alpha}C(G_{\alpha})$.
 
 c) If $G_{\alpha}$ is compact for all $\alpha \in I$, then $C(G)_0=$ lim$_{_{\leftarrow -}\alpha}C(G_{\alpha})_0$.
 
@@ -131,7 +129,7 @@ c) There exists a family $(S_{\lambda})_{\lambda\in L}$ of almost simple compact
 
 totally discontinuous, compact, central subgroup.
 
-Let $(G_{\alpha}, f_{\alpha \beta})$ be a projective system of compact Lie groups, relative to a filtered set I, such that G is isomorphic to lim $G_{\alpha}$ and such that the canonical maps $f_{\alpha}: G\rightarrow G_{\alpha}$ are surjective (Cor. 2 of Prop. 1). For$^{\leftarrow -}\alpha \in I$, let $\pi_{\alpha}: \widetilde{D}(G_{\alpha})\rightarrow D(G_{\alpha})$ be a universal covering of the group $D(G_{\alpha})$. The $f_{\alpha \beta}$ induce morphisms $\widetilde{f}_{\alpha \beta}: \widetilde{D}(G_{\beta})\rightarrow \widetilde{D}(G_{\alpha})$, and $( \widetilde{D}(G_{\alpha}),\widetilde{f}_{\alpha \beta})$ is a projective system of topological groups satisfying the hypotheses of Lemma 3.
+Let $(G_{\alpha}, f_{\alpha \beta})$ be a projective system of compact Lie groups, relative to a filtered set I, such that G is isomorphic to lim$_{\leftarrow -}G_{\alpha}$ and such that the canonical maps $f_{\alpha}: G\rightarrow G_{\alpha}$ are surjective (Cor. 2 of Prop. 1). For $\alpha \in I$, let $\pi_{\alpha}: \widetilde{D}(G_{\alpha})\rightarrow D(G_{\alpha})$ be a universal covering of the group $D(G_{\alpha})$. The $f_{\alpha \beta}$ induce morphisms $\widetilde{f}_{\alpha \beta}: \widetilde{D}(G_{\beta})\rightarrow \widetilde{D}(G_{\alpha})$, and $( \widetilde{D}(G_{\alpha}),\widetilde{f}_{\alpha \beta})$ is a projective system of topological groups satisfying the hypotheses of Lemma 3.
 
 It follows from this lemma that the topological group lim$_{\leftarrow -}\widetilde{D}(G_{\alpha})$ is isomorphic to the product of a family $(S_{\lambda})_{\lambda\in L}$ of almost simple compact Lie groups. By Lemma 1, the limit of the projective system of homomorphisms $(\pi_{\alpha})$ can be identified with a continuous homomorphism $\pi :\prod_{\lambda\in L}S_{\lambda}\rightarrow D(G)$,
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: edfea0057110aa9a9db8e3f776a7e0c233f1cbf817d78946a764a8f6e710798b
+content_sha256: 7813497304c352b75cf4c0641dfb463226d33dfbfddd31375b2e00a0f3b19f41
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
@@ -270,7 +270,7 @@ Denote by $p: G/T\times T\rightarrow T$ the second projection. We have $\varphi 
 
 #### Corollary 3 {#lie-ix-s6-thm-1-cor-3 .statement tag=01F4}
 
-Let H be a connected closed subgroup of G containing T, $\mathfrak{h}$ its Lie algebra, and $dh$ the Haar measure on H of total mass 1. Let $\varphi$ be an integrable central function on G, with values in a Banach space or in $\mathbf{R}$. Then the function $h \rightarrow \varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1)$ is integrable and central on H and we have
+Let H be a connected closed subgroup of G containing T, $\mathfrak{h}$ its Lie algebra, and $dh$ the Haar measure on H of total mass 1. Let $\varphi$ be an integrable central function on G, with values in a Banach space or in $\overline{\mathbf{R}}$. Then the function $h \rightarrow \varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1)$ is integrable and central on H and we have
 
 $$
 \int w(H)\int
@@ -430,7 +430,7 @@ Choose invariant differential forms $\omega_G$ on G and $\omega_T$ on T, of maxi
 
 The measure $dz$ on $\mathfrak{g}$ is the image under the proper map $(g, x) \rightarrow$ (Ad $g)(x)$ from $G\times \mathfrak{t}$ to $\mathfrak{g}$ of the measure $dg\otimes \frac{1}{w(G)}\pi_{\mathfrak{g}}dx$.
 
-We leave to the reader the statement and proof of the analogues of Cor. 1 to 3 and Remarks 1 to 3 of no. 2. For example, let $\varphi$ be an integrable function on $\mathfrak{g}$ (with values in a Banach space or $\mathbf{R})$; then
+We leave to the reader the statement and proof of the analogues of Cor. 1 to 3 and Remarks 1 to 3 of no. 2. For example, let $\varphi$ be an integrable function on $\mathfrak{g}$ (with values in a Banach space or $\overline{\mathbf{R}})$; then
 
 $\int$ 1 $\int(\int)$
 

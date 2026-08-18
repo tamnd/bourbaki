@@ -25,7 +25,7 @@ subsections:
       pdf_page: 315
 statements: 27
 exercises: 2
-content_sha256: 7f6e95725b6bd44931cf0ad6c60fdb1ae0b277f4ca895550da3b0115d568d793
+content_sha256: 496c61d02e65e02e931a99db0e92ba22dd6ffb33d7da8b8a85e183d7967bd773
 ---
 
 ## § 3. GROUPOÏDE DE POINCARÉ
@@ -310,9 +310,7 @@ Munissons les ensembles $\pi_1(X, x)$ et $\pi_1(X_j, x_j)$ de la topologie quoti
 
 Soit X un espace topologique et soit $(A_i)_{i\in I}$ une famille croissante de parties de X, indexée par un ensemble ordonné filtrant I, telle que toute partie quasi-compacte de X soit contenue dans l’un des $A_i$. Le morphisme de groupoïdes canonique
 
-$\rho :$ lim$\longrightarrow \varpi (A_i)\rightarrow \varpi (X)$,
-
-$i\in I$
+$\rho :$ lim$\longrightarrow_{i\in I}\varpi (A_i)\rightarrow \varpi (X)$,
 
 déduit des injections canoniques de $A_i$ dans X, est un isomorphisme.
 
@@ -326,9 +324,7 @@ Soit $i\in I$, soient $a$ et $b$ des points de $A_i$, soient $c,c'$ des chemins 
 
 Soit $a$ un point de X et soit J l’ensemble des $i\in I$ tels que $a\in A_i$. L’homomorphisme canonique
 
-lim$\longrightarrow \pi_1(A_i, a)\rightarrow \pi_1(X, a)$
-
-$i\in J$
+lim$\longrightarrow_{i\in J}\pi_1(A_i, a)\rightarrow \pi_1(X, a)$
 
 est bijectif.
 

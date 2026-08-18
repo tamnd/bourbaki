@@ -41,7 +41,7 @@ subsections:
       pdf_page: 51
 statements: 26
 exercises: 4
-content_sha256: 03cdb2dcf9cb606ba017e7ae3d2b733dadf992090530afbe1973dfe75bef96a7
+content_sha256: a5cb4660dca5afd014a904f44c7e598569df691d30c59b7c5edebbbdc4432fef
 ---
 
 ## § 2. EXEMPLES D’APPLICATIONS LINÉAIRES COMPACTES
@@ -448,9 +448,7 @@ Dans le cas général, soit $\mathscr{U}$ un recouvrement ouvert de X par des do
 
 Soit $\mathscr{U}$ un recouvrement ouvert de X par des domaines de cartes $c_U= (U, \varphi_U,\mathbf{R}^{n_U})$ tel que pour tout $U\in \mathscr{U}$, la restriction de E à U est trivialisable de type $F_U$, où $F_U$ est un espace de Banach. Pour tout $U\in \mathscr{U}$, on identifie une section $f$ de E sur U à une application $f_U$ de $\varphi_U(U)$ dans $F_U$. Il résulte de la preuve de la prop. 9 que la topologie de l’espace $\mathscr{S}^r(X; E)$ est définie par la famille des semi-normes $p_{U,C,\alpha}$ telles que
 
-$p_{U,C,\alpha}(f) =$ sup $\|(\partial^{\alpha}f_U)(x)\|$,
-
-$x\in C$ où U parcourt $\mathscr{U}, C$ parcourt l’ensemble des parties compactes de $\varphi_U(U)$ et $\alpha \in \mathbf{N}^{n_U}$ l’ensemble des multi-indices tels que $|\alpha |\leqslant r$.
+$p_{U,C,\alpha}(f) =$ sup$_{x\in C}\|(\partial^{\alpha}f_U)(x)\|$, où U parcourt $\mathscr{U}, C$ parcourt l’ensemble des parties compactes de $\varphi_U(U)$ et $\alpha \in \mathbf{N}^{n_U}$ l’ensemble des multi-indices tels que $|\alpha |\leqslant r$.
 
 #### Proposition 10 {#ts-iii-s2-prop-10 .statement tag=02R6}
 

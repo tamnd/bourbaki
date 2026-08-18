@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: dd51693509eee7991f41c5b8f616a98acc66808424b5a3dd016645c17d6a86fb
+content_sha256: 10653b6246a96b52e6bd66aab35f9ba7226bd5f78d6b12a19035ae0458ed822c
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -496,11 +496,9 @@ we deduce the stated formula.
 
 Let be a norm on $X(T)\otimes \mathbf{R}$. For all $\lambda \in X_{++}$, let $d(\lambda )$ be the dimension of the space of an irreducible representation of G of highest weight $\lambda$.
 
-a$)_{\lambda\in}$sup$_{X_{++}}d(\lambda )/\lambda +\rho^N<\infty$, where $N = 1/$2(dim $G-$ dim T).
+a) sup$_{\lambda\in X_{++}}d(\lambda )/\lambda +\rho^N<\infty$, where $N = 1/$2(dim $G-$ dim T).
 
-b) If G is semi-simple, inf $d(\lambda )/\lambda +\rho >0$.
-
-$\lambda \in X_{++}$
+b) If G is semi-simple, inf$_{\lambda\in X_{++}}d(\lambda )/\lambda +\rho >0$.
 
 $a)$ For all $\alpha \in R_+$, there exists $A_{\alpha}>0$ with $|\langle \lambda +\rho , K_{\alpha}\rangle | \leq A_{\alpha}\lambda +\rho$ , hence $d(\lambda )/\lambda +\rho^N\leq \prod_{\alpha >0}A_{\alpha}/\langle \rho , K_{\alpha}\rangle$.
 

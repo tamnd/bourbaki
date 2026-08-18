@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: 6f8ce344ef5642517e1cb7726558e8469f3dc08355415499505a62c8c2c45569
+content_sha256: 7d6473c5fab25793c991e8f498611b09a1cdbac3350b438f1c42db04f097ce97
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -162,7 +162,7 @@ Soient A une algèbre involutive et B une sous-algèbre involutive commutative m
 
 En effet, soit $x\in A$ un élément permutable à B. Alors $x^*$ est permutable à B. Écrivons $x=x_1+ix_2$ avec $x_1$ et $x_2$ hermitiens ; les éléments $x_1$ et $x_2$ sont permutables à B (lemme 2). La sous-algèbre de A engendrée par B et $x_1$ est donc commutative et involutive. Par conséquent, elle est égale à B, de sorte que $x_1\in B$. De même, on a $x_2\in B$, et donc finalement $x\in B$.
 
-Soit A une algèbre involutive. Si $f$ est une forme linéaire sur A, l’application $x\mapsto f(x^*)$ sur A est une forme linéaire sur A, que l’on note $f^*$. L’application $f\mapsto f^*$ est une involution semi-linéaire sur $A'$. On dit que $f$ est hermitienne si $f=f^*$. D’après le lemme 1 de I, p. 95, toute forme linéaire $f$ sur A a une unique représentation $f=f_1+if_2$ où $f_1$ et $f_2$ sont hermitiennes, à savoir $f_1=\frac{1}{2}(f+f^*)$ et $f_2=\frac{1}{2i}(f-f^*)$.
+Soit A une algèbre involutive. Si $f$ est une forme linéaire sur A, l’application $x\mapsto \overline{f(x^*)}$ sur A est une forme linéaire sur A, que l’on note $f^*$. L’application $f\mapsto f^*$ est une involution semi-linéaire sur $A'$. On dit que $f$ est hermitienne si $f=f^*$. D’après le lemme 1 de I, p. 95, toute forme linéaire $f$ sur A a une unique représentation $f=f_1+if_2$ où $f_1$ et $f_2$ sont hermitiennes, à savoir $f_1=\frac{1}{2}(f+f^*)$ et $f_2=\frac{1}{2i}(f-f^*)$.
 
 Pour qu’une forme linéaire $f$ soit hermitienne, il faut et il suffit que la restriction de $f$ à $A_h$ soit à valeurs réelles (proposition 1 de I, p. 95). L’application $f\mapsto f|A_h$ est un isomorphisme de l’espace vectoriel réel des formes hermitiennes sur l’espace vectoriel dual de l’espace vectoriel réel $A_h$.
 
@@ -220,19 +220,17 @@ On appelle algèbre normée involutive une algèbre normée A munie d’une invo
 
 #### Exemple 1 {#ts-i-s6-n3-exa-1 .statement tag=02CU}
 
-Soit X un espace topologique localement compact. L’algèbre de Banach $\mathscr{C}_b(X)$ des fonctions complexes continues et bornées sur X, munie de la norme $\|f\|$ = sup$|f(x)|$ et de l’involution $f\mapsto \overline{f}$, est une algèbre de Banach involutive. La sous-algèbre$^{x\in X}\mathscr{C}_0(X)$ des fonctions continues tendant vers 0 à l’infini est une sous-algèbre involutive fermée de $\mathscr{C}_b(X)$.
+Soit X un espace topologique localement compact. L’algèbre de Banach $\mathscr{C}_b(X)$ des fonctions complexes continues et bornées sur X, munie de la norme $\|f\|$ = sup$_{x\in X}|f(x)|$ et de l’involution $f\mapsto \overline{f}$, est une algèbre de Banach involutive. La sous-algèbre $\mathscr{C}_0(X)$ des fonctions continues tendant vers 0 à l’infini est une sous-algèbre involutive fermée de $\mathscr{C}_b(X)$.
 
 #### Exemple 2 {#ts-i-s6-n3-exa-2 .statement tag=02CV}
 
-Soient X un espace topologique localement compact et $\mu$ une mesure positive sur X. L’algèbre involutive $L^{\infty}(X, \mu)$ (exemple 2 de I, p. 99) est une algèbre de Banach involutive, puisque $|f|=|f|$ pour tout élément $f\in L^{\infty}(X, \mu)$.
+Soient X un espace topologique localement compact et $\mu$ une mesure positive sur X. L’algèbre involutive $L^{\infty}(X, \mu)$ (exemple 2 de I, p. 99) est une algèbre de Banach involutive, puisque $|f|=|\overline{f}|$ pour tout élément $f\in L^{\infty}(X, \mu)$.
 
 #### Exemple 3 {#ts-i-s6-n3-exa-3 .statement tag=02CW}
 
 L’algèbre involutive $\mathscr{L}(E)$ des endomorphismes continus d’un espace hilbertien complexe E (I, p. 99, exemple 3), munie de la norme
 
-$\|u\|=$ sup $\|u(x)\|$
-
-$x\in E$ $\|x\|\leqslant 1$
+$\|u\|=$ sup$_{\|xx\in\|\leqslant E1}\|u(x)\|$
 
 (EVT, III, p. 14) est une algèbre de Banach involutive (EVT, V, p. 37, prop. 1).
 
@@ -362,9 +360,7 @@ Soit A une algèbre stellaire.
 
 a) La représentation regulière $\boldsymbol{\gamma }$ de A (déf. 1 de I, p. 16) est isométrique, c’est-à-dire
 
-$\|x\|=$ sup $\|xy\|$,
-
-$\|y\|\leqslant 1$
+$\|x\|=$ sup$_{\|y\|\leqslant 1}\|xy\|$,
 
 pour tout $x\in A$ ;
 
@@ -800,7 +796,7 @@ $$
 \surd_/
 $$
 
-On écrira aussi $x=x^{12}$.
+On écrira aussi $\overline{x}=x^{12}$.
 
 #### Proposition 16 {#ts-i-s6-prop-16 .statement tag=02EJ}
 
@@ -814,7 +810,7 @@ Soit A une algèbre stellaire unifère. Tout élément de A est somme d’élém
 
 Soit $x$ un élément hermitien de A. Supposons d’abord que $\|x\|\leqslant 2$. D’après le lemme 12, c), on a $1-\frac{1}{4}x^2\in A_+$. Soit $y=\frac{1}{2}x+i1-\frac{1}{4}x^2$.
 
-On a $y^*=\frac{1}{2}x-i1-\frac{1}{4}x^2$, donc $yy^*= 1$ et $x=y+y^*$ est somme de deux éléments unitaires. Dans le cas général, soit $k$ un entier tel que $\|\frac{1}{k}x\|\leqslant 2$ ; l’élément $x$ est alors somme de $2k$ éléments unitaires. D’après le lemme 2 de I, p. 96, le lemme en résulte.
+On a $y^*=\frac{1}{2}x-i\overline{1 -\frac{1}{4}x^2}$, donc $yy^*= 1$ et $x=y+y^*$ est somme de deux éléments unitaires. Dans le cas général, soit $k$ un entier tel que $\|\frac{1}{k}x\|\leqslant 2$ ; l’élément $x$ est alors somme de $2k$ éléments unitaires. D’après le lemme 2 de I, p. 96, le lemme en résulte.
 
 #### Théorème 2 {#ts-i-s6-thm-2 .statement tag=02EL}
 
@@ -1024,9 +1020,7 @@ Les implications (i)$=\Rightarrow$ (ii)$=\Rightarrow$ (iii)$=\Rightarrow$ (i) so
 
 Une semi-norme satisfaisant aux conditions du lemme 16 sera appelée une semi-norme stellaire sur l’algèbre involutive A.
 
-Soit A une algèbre normée involutive et soit S l’ensemble des semi-normes stellaires sur A. On a $p(x)\leqslant \|x\|$ pour tout $x\in A$ et tout $p\in S$ (I, p. 104, prop. 2). L’application $x\mapsto  \|x\|_*=$ sup $p(x)$ est une
-
-$p\in S$
+Soit A une algèbre normée involutive et soit S l’ensemble des semi-normes stellaires sur A. On a $p(x)\leqslant \|x\|$ pour tout $x\in A$ et tout $p\in S$ (I, p. 104, prop. 2). L’application $x\mapsto  \|x\|_*=$ sup$_{p\in S}p(x)$ est une
 
 semi-norme stellaire sur A. C’est la plus grande semi-norme stellaire sur A.
 

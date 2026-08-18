@@ -41,7 +41,7 @@ subsections:
       pdf_page: 147
 statements: 46
 exercises: 27
-content_sha256: 5cf2b89307d842682809234269b9961cffdf062c2efa655f3f69a1f02cf39050
+content_sha256: 87b39c9bfe478d342de38ffe999cbb4683ff60ad0e7df4e7c4af7866d6794b71
 ---
 
 ## § 7. FINITE DIMENSIONAL MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -272,7 +272,7 @@ $$
 
 Now $\omega -\mu=\sum_{\alpha\in B}n_{\alpha}\alpha$ with integers $n_{\alpha}\geq 0$ not all zero, so $(\omega -\mu|\rho )>0$ since $(\rho |\alpha )>0$ for all $\alpha \in B$ (Chap. VI, §1, no. 10, Prop. 29 (iii)). If $\mu$ is not R-extremal in $\mathscr{X}$, there exists $\alpha \in R$ such that $\mu+\alpha \in \mathscr{X}$ and $\mu-\alpha \in \mathscr{X}$; then
 
-$\mu<$ sup( $\mu+\alpha ,\mu-\alpha )\leq_{\lambda}$sup$_{\in\mathscr{X}}\lambda$
+$\mu<$ sup( $\mu+\alpha ,\mu-\alpha )\leq$ sup$_{\lambda\in\mathscr{X}}\lambda$
 
 and this last upper bound is $\omega$ by the preceding.
 
@@ -346,9 +346,9 @@ Assume that $\mathfrak{g}$ is simple. Denote by $\alpha_1, . . . , \alpha_l$ the
 
 The $_i$, for $i\in J$, form a system of representatives in P(R) of the non-zero elements of $P(R)/Q(R)$.
 
-Let $\lambda =u_{11}+\cdots +u_{ll}$, where $u_1, . . . , u_l$ are integers $\geq 0$ and not all zero. Then $\lambda (H) =u_1n_1+\cdots +u_ln_l$ and $n_1\geq 1, . . . , n_l\geq 1$, which gives the equivalence of (v) and (vi) immediately. On the other hand, $\lambda (H) =$ sup $\lambda (H_{\alpha})$, and $\lambda (H)>0$ since $\lambda$ is a non-zero element of $P_{++}$. Hence
+Let $\lambda =u_{11}+\cdots +u_{ll}$, where $u_1, . . . , u_l$ are integers $\geq 0$ and not all zero. Then $\lambda (H) =u_1n_1+\cdots +u_ln_l$ and $n_1\geq 1, . . . , n_l\geq 1$, which gives the equivalence of (v) and (vi) immediately. On the other hand, $\lambda (H) =$ sup$_{\alpha\in R_+}\lambda (H_{\alpha})$, and $\lambda (H)>0$ since $\lambda$ is a non-zero element of $P_{++}$. Hence
 
-condition (v) is equivalent to the condition$^{\alpha\in R_+}\lambda (H_{\alpha})\in  \{0,1\}$ for all $\alpha \in R$, in other words to condition (iii) of Prop. 6.
+condition (v) is equivalent to the condition $\lambda (H_{\alpha})\in  \{0,1\}$ for all $\alpha \in R$, in other words to condition (iii) of Prop. 6.
 
 The last assertion of the proposition follows from Chap. VI, §2, no. 3, Cor. of Prop. 6.
 

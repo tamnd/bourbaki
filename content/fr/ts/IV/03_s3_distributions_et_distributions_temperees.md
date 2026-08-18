@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: 35e850fce35144b4aa7619a80277adfefd0ed2277bbce570b8013312c51df017
+content_sha256: e0232bd4e9d4faec675a0d9064884947524a3aa2acb384a095da7d4beee875b1
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -198,7 +198,7 @@ Soit $k$ un entier naturel. Soient $f\in \mathscr{L}^1(\mathbf{R}^n, \mu)$ et $g
 
 On peut appliquer le corollaire 1 à l’espace $X =\mathbf{R}^n$, à la mesure de Lebesgue et à l’application $h$ définie par $(x, t)\mapsto f(x)g(t-x)$ de $\mathbf{R}^n\times \mathbf{R}^n$ dans $\mathbf{C}$; en effet, pour tout $\alpha \in \mathbf{N}^n$ tel que $|\alpha |\leqslant k$, on a l’inégalité
 
-$|\partial^{\alpha}h(x, t)|\leqslant_|$sup$_{\beta|\leqslant ky}$sup$_{\in\mathbf{R}^n}|\partial^{\beta}g(y)||f(x)|$
+$|\partial^{\alpha}h(x, t)|\leqslant$ sup$_{|\beta|\leqslant k}$ sup$_{y\in\mathbf{R}^n}|\partial^{\beta}g(y)||f(x)|$
 
 dont le second membre est une fonction intégrable sur $\mathbf{R}^n$.
 
@@ -254,9 +254,7 @@ Dans ce numéro, U désigne un ouvert de $\mathbf{R}^n$. Pour $p\in [1,+\infty ]
 
 Munissons l’espace $\mathscr{C}^{\infty}(U)$ des fonctions indéfiniment dérivables dans U à valeurs complexes de la topologie définie par la famille de semi-normes $p_{\alpha ,K}$ définies pour $\alpha \in \mathbf{N}^n$ et $K\subset U$ par
 
-$p_{\alpha ,K}(\varphi ) =$ sup$|\partial^{\alpha}\varphi (x)|$.
-
-$x\in K$
+$p_{\alpha ,K}(\varphi ) =$ sup$_{x\in K}|\partial^{\alpha}\varphi (x)|$.
 
 Cet espace est complet (cf. EVT, III, p. 9, exemple b)).
 
@@ -612,15 +610,11 @@ valide pour $\varphi \in \mathscr{D}(U)$.
 
 On note $\mathscr{S}(\mathbf{R}^n)$ l’espace des fonctions indéfiniment dérivables $\varphi$ sur $\mathbf{R}^n$, à valeurs complexes, telles que, pour tous $\alpha$ et $\beta$ dans $\mathbf{N}^n$, la fonction $X^{\beta}\partial^{\alpha}\varphi$ est bornée sur $\mathbf{R}^n$. On munit $\mathscr{S}(\mathbf{R}^n)$ de la topologie localement convexe définie par la famille dénombrable de semi-normes $(q_{\alpha ,\beta})_{(\alpha ,\beta)\in\mathbf{N}^n\times\mathbf{N}^n}$, où $q_{\alpha ,\beta}$ est définie par
 
-$q_{\alpha ,\beta}(\varphi ) =$ sup $|x^{\beta}\partial^{\alpha}\varphi (x)|=\|X^{\beta}\partial^{\alpha}\varphi \|_{\infty}$
-
-$x\in \mathbf{R}^n$
+$q_{\alpha ,\beta}(\varphi ) =$ sup$_{x\in\mathbf{R}^n}|x^{\beta}\partial^{\alpha}\varphi (x)|=\|X^{\beta}\partial^{\alpha}\varphi \|_{\infty}$
 
 pour $\varphi \in \mathscr{S}(\mathbf{R}^n)$. Cette topologie est séparée. Elle est également définie par les semi-normes $\widetilde{q}_{\alpha ,k}$ définies par
 
-$\widetilde{q}_{\alpha ,k}(\varphi ) =$ sup $\|x\|^k|(\partial^{\alpha}\varphi )(x)|$.
-
-$x\in \mathbf{R}^n$
+$\widetilde{q}_{\alpha ,k}(\varphi ) =$ sup$_{x\in\mathbf{R}^n}\|x\|^k|(\partial^{\alpha}\varphi )(x)|$.
 
 pour tout $\varphi \in \mathscr{S}(\mathbf{R}^n)$, où $k\in \mathbf{N}$ et $\alpha \in \mathbf{N}^n$.
 
@@ -630,9 +624,7 @@ On dit que $\mathscr{S}(\mathbf{R}^n)$ est l’espace de Schwartz ou l’espace 
 
 Soit $\varphi \in \mathscr{S}(\mathbf{R}^n)$. Pour tout $k\in \mathbf{N}$, on a
 
-lim $\|x\|^k\varphi (x) = 0$,
-
-$\|x\|\rightarrow +\infty$
+lim$_{\|x\|\rightarrow+\infty}\|x\|^k\varphi (x) = 0$,
 
 puisque la fonction $x\mapsto  \|x\|^{k+1}\varphi (x)$ est bornée.
 
@@ -682,11 +674,11 @@ $_k\alpha$ 1
 
 (3) $\widetilde{q}_{\alpha ,k}(\varphi )\leqslant T$ sup $|\partial \varphi (x)|+\widetilde{q}_{\alpha ,k+1}(\varphi )$.
 
-$\|x\|\leqslant T$ T En effet, on a
+$\|x\|\leqslant T$ T
 
-$\widetilde{q}_{\alpha ,k}(\varphi )\leqslant$ sup $\|x\|^k|\partial^{\alpha}\varphi (x)|+$ sup $\|x\|^k|\partial^{\alpha}\varphi (x)|$
+En effet, on a
 
-$\|x\|\leqslant T\|x\|>T$
+$\widetilde{q}_{\alpha ,k}(\varphi )\leqslant$ sup$_{\|x\|\leqslant T}\|x\|^k|\partial^{\alpha}\varphi (x)|+$ sup$_{\|x\|>T}\|x\|^k|\partial^{\alpha}\varphi (x)|$
 
 $k\alpha$ 1 $k+1\alpha$
 
@@ -708,7 +700,7 @@ sup$_{i\in I}\widetilde{q}_{\alpha_i,k_i}(\varphi -\varphi_0)\leqslant \varepsil
 
 Puisque B est bornée dans $\mathscr{S}(\mathbf{R}^n)$, il existe $M>0$ tel que les semi-normes $\widetilde{q}_{\alpha_i,k_i+1}$ pour $i\in I$ sont bornées par M sur B. Soient $\delta  >0$ et $T>0$ des nombres réels. D’après l’inégalité (3), dès lors que $\varphi \in B$ vérifie la majoration
 
-(4) sup$_{i\in I\|x}$sup$_{\|\leqslant T}|\partial^{\alpha_i}(\varphi -\varphi_0)|\leqslant \delta$,
+(4) sup$_{i\in I}$ sup$_{\|x\|\leqslant T}|\partial^{\alpha_i}(\varphi -\varphi_0)|\leqslant \delta$,
 
 on a
 
@@ -838,15 +830,9 @@ $0\leqslant \beta \leqslant \alpha$
 
 Soit $\beta \in \mathbf{N}^n$ tel que $0\leqslant \beta \leqslant \alpha$. Pour tout $x\in \mathbf{R}^n$, on a
 
-$\|x\|^k(1 +\|x\|)^{k_{\beta}}|\partial^{\alpha-\beta}\varphi (x)|\leqslant$ sup $2^{k_{\beta}}|\partial^{\alpha-\beta}\varphi (x)|$
+$\|x\|^k(1 +\|x\|)^{k_{\beta}}|\partial^{\alpha-\beta}\varphi (x)|\leqslant$ sup$_{\|x\|\leqslant 1}2^{k_{\beta}}|\partial^{\alpha-\beta}\varphi (x)|$
 
-$\|x\|\leqslant 1$
-
-+ sup $2^{k_{\beta}}\|x\|^{k+k_{\beta}}|\partial^{\alpha-\beta}\varphi (x)|$
-
-$x\in \mathbf{R}^n$
-
-d’où finalement
++ sup$_{x\in\mathbf{R}^n}2^{k_{\beta}}\|x\|^{k+k_{\beta}}|\partial^{\alpha-\beta}\varphi (x)|$ d’où finalement
 
 $$
 (\alpha )_k
@@ -1126,7 +1112,7 @@ $$
 \langle \partial^{\alpha}f, \varphi \rangle = (-1)^{|\alpha|}\langle f, \partial^{\alpha}\varphi \rangle
 $$
 
-$=_{n\rightarrow}$lim$_{+\infty}(-1)^{|\alpha|}\langle f_n, \partial^{\alpha}\varphi \rangle =_{n\rightarrow}$lim$_{+\infty}\langle \partial^{\alpha}f_n, \varphi \rangle =\langle g_{\alpha}, \varphi \rangle$.
+= lim$_{n\rightarrow+\infty}(-1)^{|\alpha|}\langle f_n, \partial^{\alpha}\varphi \rangle =$ lim$_{n\rightarrow+\infty}\langle \partial^{\alpha}f_n, \varphi \rangle =\langle g_{\alpha}, \varphi \rangle$.
 
 Cela démontre que $g_{\alpha}=\partial^{\alpha}f$ pour tout $\alpha \in I$, donc $(g_{\alpha})_{\alpha\in I}=u(f)$ appartient à l’image de $u$.
 

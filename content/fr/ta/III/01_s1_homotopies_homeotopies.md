@@ -53,7 +53,7 @@ subsections:
       pdf_page: 269
 statements: 55
 exercises: 32
-content_sha256: f4971769765862da61194450af840c5907877f45a78a17ce62acf26323b8b595
+content_sha256: b453c408e1566ffbdf09d7e4ee4b66bd3c9cc844cc3b5021c7fd52dd24450767
 ---
 
 ## § 1. HOMOTOPIES, HOMÉOTOPIES
@@ -440,9 +440,7 @@ Soit X un espace topologique séparé et soit A une partie de X telle que le cou
 
 #### Lemme 3 {#ta-iii-s1-lem-3 .statement tag=01VY}
 
-Soient X et Y des espaces topologiques, soit $p: X\rightarrow Y$ une application continue propre et ouverte, et soit $f: X\rightarrow \mathbf{R}$ une application continue. L’application $g: Y\rightarrow \overline{\mathbf{R}}$ donnée par $y\mapsto$ sup $f(x)$ est continue.
-
-$x\in \overset{-1}{p}(y)$
+Soient X et Y des espaces topologiques, soit $p: X\rightarrow Y$ une application continue propre et ouverte, et soit $f: X\rightarrow \mathbf{R}$ une application continue. L’application $g: Y\rightarrow \overline{\mathbf{R}}$ donnée par $y\mapsto$ sup$_{x\in\overset{-1}{p}(y)}f(x)$ est continue.
 
 Soit $b\in Y$. Comme $p$ est propre, sa fibre $\overset{-1}{p}(b)$ est un espace quasi-compact ; on a donc $g(b)\in \mathbf{R}\cup  \{-\infty \}$.
 

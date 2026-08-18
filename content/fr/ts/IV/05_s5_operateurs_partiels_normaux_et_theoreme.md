@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: 6bc1adaefbeb6af5fbf21475ca1408f45da4a887dd5168d56fcb58b036d50d09
+content_sha256: 13d09bb9a584c78bb6cb361de8716c465037d18e6939a71fa1722cb31207d1ae
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -346,7 +346,7 @@ Soit X un espace topologique localement compact, soit $\mu$ une mesure positive 
 
 a) L’application $f\mapsto f(m_g)$ de $\mathscr{K}$ (Sp($m_g$)) dans $\mathscr{L}(L^2(X, \mu))$ est donnée par $f\mapsto m_{f\circ g}$;
 
-b) Pour $f_1$ et $f_2$ dans $\mathscr{L}^2(X, \mu)$ de classes $\widetilde{f}_1$ et $\widetilde{f}_2$ dans $L^2(X, \mu)$, la mesure spectrale de $(\widetilde{f}_1,\widetilde{f}_2)$ relative à $m_g$ est la restriction à Sp($m_g$) de la mesure image $g(f_1f_2\cdot \mu)$.
+b) Pour $f_1$ et $f_2$ dans $\mathscr{L}^2(X, \mu)$ de classes $\widetilde{f}_1$ et $\widetilde{f}_2$ dans $L^2(X, \mu)$, la mesure spectrale de $(\widetilde{f}_1,\widetilde{f}_2)$ relative à $m_g$ est la restriction à Sp($m_g$) de la mesure image $g(\overline{f}_1f_2\cdot \mu)$.
 
 L’opérateur partiel $m_g$ est normal et $b(m_g) =m_{\beta\circ g}=m_{g(1+|g|^2)^{-1/2}}$ (lemme 2). De plus $\beta (g(x))$ appartient à Sp($m_{\beta\circ g}$) pour tout $x$ en dehors d’un ensemble localement $\mu$-négligeable $Y\subset X$ (proposition 22 de IV, p. 252 et lemme 1 de IV, p. 181). Comme $f_{\beta}(\beta (g(x))) =f(g(x))$ pour tout $x\in X$ - Y, on en déduit que $f(m_g) =m_{f\circ g}$ d’après la définition 3 et le cor. de la prop. 6 de IV, p. 187.
 
@@ -528,7 +528,7 @@ Finalement, l’assertion c) résulte de b) et de la définition de PSp$_{\varep
 
 Soit $u$ un opérateur partiel normal sur un espace hilbertien E. Soit $f\in \mathscr{L}_u$(Sp($u$)). Pour tous $x$ et $y$ dans E, la mesure spectrale de $(x, y)$ relative à $f(u)$ est la mesure image $f(\mu)$, où $\mu$ est la mesure spectrale de $(x, y)$ relative à $u$.
 
-Au vu du théorème spectral (th. 1 de IV, p. 266), on peut supposer que $u$ est l’opérateur de multiplication $m_g$ sur $L^2(X, \mu)$, où X est un espace topologique localement compact, $\mu$ une mesure positive sur X et $g\in \mathscr{C}(X)$. Soient $f_1$ et $f_2$ dans $\mathscr{L}^2(X, \mu)$ de classes $\widetilde{f}_1$ et $\widetilde{f}_2$ dans $L^2(X, \mu)$. Comme $f(m_g) =m_{f\circ g}$ (prop. 4, c)), la mesure spectrale de $(\widetilde{f}_1,\widetilde{f}_2)$ relative à $f(m_g)$ est la mesure image $(f\circ g)(f_1f_2\cdot \mu)$ (lemme 4, b) de IV, p. 269). Cette mesure est égale à la mesure image $f(g(f_1f_2\cdot \mu))$ (INT, V, p. 72, § 6, n$^o4$, prop. 4, a)), d’où l’assertion (lemme 4, b) de IV, p. 269).
+Au vu du théorème spectral (th. 1 de IV, p. 266), on peut supposer que $u$ est l’opérateur de multiplication $m_g$ sur $L^2(X, \mu)$, où X est un espace topologique localement compact, $\mu$ une mesure positive sur X et $g\in \mathscr{C}(X)$. Soient $f_1$ et $f_2$ dans $\mathscr{L}^2(X, \mu)$ de classes $\widetilde{f}_1$ et $\widetilde{f}_2$ dans $L^2(X, \mu)$. Comme $f(m_g) =m_{f\circ g}$ (prop. 4, c)), la mesure spectrale de $(\widetilde{f}_1,\widetilde{f}_2)$ relative à $f(m_g)$ est la mesure image $(f\circ g)(\overline{f}_1f_2\cdot \mu)$ (lemme 4, b) de IV, p. 269). Cette mesure est égale à la mesure image $f(g(f_1f_2\cdot \mu))$ (INT, V, p. 72, § 6, n$^o4$, prop. 4, a)), d’où l’assertion (lemme 4, b) de IV, p. 269).
 
 #### Corollaire 4 {#ts-iv-s5-def-5-cor-4 .statement tag=035X}
 
@@ -562,7 +562,7 @@ d) Si $u\in \mathscr{L}(E)$, alors pour tout $f\in \mathscr{L}_u^{\infty}$(Sp($u
 
 Soit $f\in \mathscr{L}_u^{\infty}$(Sp($u$)). On a $D_f= E$ et $f(u)$ est un endomorphisme continu de E d’après la formule (8), p. 272, d’où l’assertion a).
 
-Soit $g\in \mathscr{L}_u$(Sp($u$)). Soit $y\in D_g$. On a $y\in D_{f g}$ et, pour tout $x\in E$, il vient $\langle f(u)x|g(u)y\rangle =\langle x|(f g)(u)y\rangle$ par la formule (7), p. 271, d’où $f(u)(g(u)y) = (f g)(u)(y)$, ce qui démontre b).
+Soit $g\in \mathscr{L}_u$(Sp($u$)). Soit $y\in D_g$. On a $y\in D_{f g}$ et, pour tout $x\in E$, il vient $\langle \overline{f}(u)x|g(u)y\rangle =\langle x|(f g)(u)y\rangle$ par la formule (7), p. 271, d’où $f(u)(g(u)y) = (f g)(u)(y)$, ce qui démontre b).
 
 D’après a) et b), l’application $f\mapsto f(u)$ de $\mathscr{L}_u^{\infty}$(Sp($u$)) dans $\mathscr{L}(E)$ est un morphisme unifère d’algèbres involutives ; par conséquent, c’est un morphisme continu de norme $\leqslant 1$(I, p. 104, prop. 2), d’où l’assertion c).
 
@@ -596,7 +596,7 @@ Sp($u$)
 
 Soit $u$ un opérateur partiel normal sur un espace hilbertien E. Soit $(f_n)_{n\in\mathbf{N}}$ une suite dans $\mathscr{L}_u$(Sp($u$)) qui converge simplement vers $f\in \mathscr{L}_u$(Sp($u$)) et telle qu’il existe $g\in \mathscr{L}_u$(Sp($u$)) vérifiant $|f_n|\leqslant g$ pour tout $n\in \mathbf{N}$. On a alors dom($g(u)$)$\subset$ dom($f_n(u)$) pour tout $n\in \mathbf{N}$ et dom($g(u)$)$\subset$ dom($f(u)$). De plus, pour tout élément $y$ du domaine de $g(u)$, on a
 
-$f(u)(y) =_{n\rightarrow}$lim$_{+\infty}f_n(u)(y)$.
+$f(u)(y) =$ lim$_{n\rightarrow+\infty}f_n(u)(y)$.
 
 En particulier, si $f_n\in \mathscr{L}_u^{\infty}$(Sp($u$)) pour tout $n\in \mathbf{N}$ et si les fonctions $f_n$ sont uniformément bornées, alors $f_n(u)$ converge vers $f(u)$ dans l’espace $\mathscr{L}(E)$ muni de la topologie de la convergence simple.
 
@@ -1488,13 +1488,13 @@ pour $x$ et $y$ dans dom($u$). Soit $E_q$ l’espace préhilbertien séparé de 
 
 Démontrons que l’application linéaire $\widetilde{\iota}$ est injective. Soit $x\in$ Ker($\widetilde{\iota}$). Considérons une suite $(x_n)_{n\in\mathbf{N}}$ dans $E_q$ qui converge vers $x$ dans $\widetilde{E}_q$. On a alors
 
-$_{n\rightarrow}$lim$_{+\infty}\iota (x_n) =\widetilde{\iota}(x) = 0$,
+lim$_{n\rightarrow+\infty}\iota (x_n) =\widetilde{\iota}(x) = 0$,
 
 donc la suite $(x_n)_{n\in\mathbf{N}}$ converge vers 0 dans E. Soit $y\in E_q$. Puisque $\widetilde{q}$ est continue sur $\widetilde{E}_q$, il vient
 
-$(x|y)_q=_{n\rightarrow}$lim$_{+\infty}(x_n|y)_q=_{n\rightarrow}$lim$_{+\infty}\langle x_n|y\rangle +q(x_n, y)$
+$(x|y)_q=$ lim$_{n\rightarrow+\infty}(x_n|y)_q=$ lim$_{n\rightarrow+\infty}\langle x_n|y\rangle +q(x_n, y)$
 
-$=_{n\rightarrow}$lim$_{+\infty}\langle x_n|y\rangle +\langle x_n|u(y)\rangle = 0$.
+= lim$_{n\rightarrow+\infty}\langle x_n|y\rangle +\langle x_n|u(y)\rangle = 0$.
 
 Comme l’espace $E_q$ est dense dans $\widetilde{E}_q$, on en déduit que $x= 0$, comme désiré.
 
@@ -1604,7 +1604,7 @@ Notons T = Sp$_b(u)\cap [0, \varrho_e[$. C’est une partie fermée et discrète
 
 Cela conclut la preuve si Sp$_b(u)$ est fini. Si Sp$_b(u)$ est infini, on conclut en appliquant le lemme 2 de III, p. 90 à l’image S de T par l’application $\lambda \mapsto \varrho_e-\lambda$.
 
-Pour tout entier $k$ tel que $0\leqslant k <$ Card(Sp$_b(u))$, on note $n_k\geqslant 1$ la multiplicité de la valeur propre $\nu_k$ de $u$. On note $\mathbf{N}=\mathbf{N}\cup  \{+\infty \} \subset \mathbf{R}$. Notons $M\in \mathbf{N}$ la somme des multiplicités $n_k$. C’est la dimension hilbertienne de $E_b$, si l’on convient de dire qu’un espace de dimension hilbertienne infinie est de dimension $+\infty  \in \mathbf{N}$.
+Pour tout entier $k$ tel que $0\leqslant k <$ Card(Sp$_b(u))$, on note $n_k\geqslant 1$ la multiplicité de la valeur propre $\nu_k$ de $u$. On note $\mathbf{N}=\mathbf{N}\cup  \{+\infty \} \subset \mathbf{R}$. Notons $M\in \overline{\mathbf{N}}$ la somme des multiplicités $n_k$. C’est la dimension hilbertienne de $E_b$, si l’on convient de dire qu’un espace de dimension hilbertienne infinie est de dimension $+\infty  \in \overline{\mathbf{N}}$.
 
 Pour tout entier $n$ tel que $0\leqslant n <M$, on définit $\lambda_n(u) =\nu_k$, où $k\geqslant 0$ est l’unique entier tel que
 
@@ -1660,7 +1660,7 @@ $x\not =0$
 
 a) Pour tout entier $n\in \mathbf{N}$, on a
 
-$\lambda_n(u) =$ sup$_{F\in\mathscr{F}_n}\widetilde{r}_F(u) =_{F\in}$inf$_{\mathscr{F}_{n+1}^u}\widetilde{R}_F(u)$;
+$\lambda_n(u) =$ sup$_{F\in\mathscr{F}_n}\widetilde{r}_F(u) =$ inf$_{F\in\mathscr{F}_{n+1}^u}\widetilde{R}_F(u)$;
 
 b) Pour tout entier $n <M$ et pour tout sous-espace $F\in \mathscr{F}_n^u$ adapté à $u$, on a $\lambda_n(u) =\widetilde{r}_F(u)$;
 
@@ -1696,7 +1696,7 @@ par définition. Comme $\varepsilon  >0$ est arbitraire, on a donc $\widetilde{r
 
 Soient $n\in \mathbf{N}$ et $F\in \mathscr{F}_{n+1}^u$. Démontrons que $\widetilde{R}_F(u)\geqslant \lambda_n(u)$ et, par conséquent, que
 
-(20) $F_{\in}$inf$_{\mathscr{F}_{n+1}^u}\widetilde{R}_F(u)\geqslant \lambda_n(u)$.
+(20) Finf$_{\in\mathscr{F}_{n+1}^u}\widetilde{R}_F(u)\geqslant \lambda_n(u)$.
 
 Si $0\leqslant n <M$, observons que la restriction à F de l’orthoprojecteur sur $F_n$ n’est pas injective, donc qu’il existe un vecteur $x\not = 0$ dans F orthogonal à $F_n$. Posons $x_b=p_{Sp_b(u)}(x)$ et $x_h=p_{Sp_h(u)}(x)$. On a donc $x=x_b+x_h$. Les éléments $x_b$ et $x_h$ appartiennent au domaine de $u$ (prop. 9, c) de IV, p. 278) et sont orthogonaux à $F_n$. On a la minoration
 
@@ -1768,13 +1768,11 @@ $$
 
 (formule (18)), donc $\widetilde{r}_F(u)\geqslant \varrho_e=\lambda_n(u)$, et par conséquent
 
-$_F$sup$_{\in\mathscr{F}_n}\widetilde{r}_F(u)\geqslant \lambda_n(u)$.
+sup$_{F\in\mathscr{F}_n}\widetilde{r}_F(u)\geqslant \lambda_n(u)$.
 
 Soit $\varepsilon  >0$. Puisque $E_b$ est de dimension finie, il existe d’après le lemme 11 une famille orthonormale $(x_i)_{i\in I}$ d’éléments de E telle que le sous-espace F engendré par $E_b$ et $(x_i)_{i\in I}$ est de dimension $n+ 1$ et est contenu dans dom($u$), et telle que $\langle x_i|u(x_i)\rangle \leqslant \varrho_e+\varepsilon$ pour tout $i\in I$. On a alors $\widetilde{R}_F(u)\leqslant \varrho_e+\varepsilon$. Comme $\varepsilon  >0$ est arbitraire, on conclut que
 
-inf $\widetilde{R}_F(u)\leqslant \varrho_e=\lambda_n(u)$.
-
-$F\in \mathscr{F}_{n+1}^u$
+inf$_{F\in\mathscr{F}_{n+1}^u}\widetilde{R}_F(u)\leqslant \varrho_e=\lambda_n(u)$.
 
 La proposition est démontrée.
 

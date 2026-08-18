@@ -29,7 +29,7 @@ subsections:
       pdf_page: 91
 statements: 28
 exercises: 11
-content_sha256: 76903e64a7bed03cf3d69b67d5aabf44c01f8897393cfc4484d11de5199bd2ab
+content_sha256: b6b010a3443e56802bde6d1dd708cdbb81daed274c9f82045c9d4ac2461324f5
 ---
 
 ## § 2. ROOT SYSTEM OF A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -441,7 +441,7 @@ N_{\alpha ,\beta}N_{-\alpha ,-\beta}=-N_{\alpha ,\beta}N_{-\alpha ,\alpha+\beta}
 $$
 
 $$
-\langle H_{\alpha+\beta}, H_{\alpha+\beta}\rangle
+\overline{\langle H_{\alpha+\beta}, H_{\alpha+\beta}\rangle}
 $$
 
 $$

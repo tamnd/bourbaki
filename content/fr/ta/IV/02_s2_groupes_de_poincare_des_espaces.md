@@ -37,7 +37,7 @@ subsections:
       pdf_page: 381
 statements: 30
 exercises: 5
-content_sha256: 9772e1f4e76b3b582778d0dcf1d6374675f46c35d8aede4730b0332b38d763c7
+content_sha256: 73be7faacaad596224ce51c812b7b813c35e21521a9b0c6735de21f9cd9783bf
 ---
 
 ## § 2. GROUPES DE POINCARÉ DES ESPACES DÉLAÇABLES
@@ -352,7 +352,7 @@ Pour tout $c\in C_n,F^*_n(c)$ est approchable (IV, p. 361, lemme 2, c)). Comme $
 
 Soit $c_0\in C_0$ et soit $x$ un élément de $F^*_0(c_0)\cap \complement G$ ; démontrons que $x\in F_0(c_0)$. Puisque $x\notin G_0(c_0)$ et que $x\in F^*_0(c_0)$, il existe $c_1\in \overset{-1}{p_{0}}(c_0)$ tel que $x\in F^*_1(c_1)$, d’après la relation (1). Par récurrence, il existe un élément $c= (c_n)_n$ de $\prod_nC_n$ tel que, pour tout entier $n\in \mathbf{N}$, on ait $x\in F^*_n(c_n)$ et $p_n(c_{n+1}) =c_n$.
 
-Les parties $\varphi_n(c_n)$ forment une base d’un filtre de Cauchy dans P; ce filtre converge vers un point $p$ de P, puisque P est complet. L’image de ce filtre par $g$ est un filtre F sur X, de base l’ensemble des $F_n(c_n)$ pour $n\in \mathbf{N}$, qui converge vers $g(p)$. Comme $F^*_n(c_n)$ est contenu dans $F_n(c_n)$ et que $x$ appartient à chacun des $F_n(c_n),x$ est un point adhérent à F, donc $x=g(p)$ car l’espace X est séparé (TG, I, p. 52, prop. 1). Le point $p$ appartient à $\varphi_1(c_1)$, donc à $\varphi_0(c_0)$. Par suite, $x\in F_0(c_0)$.
+Les parties $\varphi_n(c_n)$ forment une base d’un filtre de Cauchy dans P; ce filtre converge vers un point $p$ de P, puisque P est complet. L’image de ce filtre par $g$ est un filtre F sur X, de base l’ensemble des $F_n(c_n)$ pour $n\in \mathbf{N}$, qui converge vers $g(p)$. Comme $F^*_n(c_n)$ est contenu dans $\overline{F_n(c_n)}$ et que $x$ appartient à chacun des $F_n(c_n),x$ est un point adhérent à F, donc $x=g(p)$ car l’espace X est séparé (TG, I, p. 52, prop. 1). Le point $p$ appartient à $\overline{\varphi_1(c_1)}$, donc à $\varphi_0(c_0)$. Par suite, $x\in F_0(c_0)$.
 
 Par conséquent, l’ensemble $F^*_0(c_0)$ - $F_0(c_0)$ est contenu dans G. C’est ainsi une partie maigre de X, donc aussi une partie approchable. Puisque $F_0(c_0) = F^*_0(c_0)$ - $(F^*_0(c_0)$ - $F_0(c_0))$ et que $F^*_0(c_0)$ est approchable, $F_0(c_0)$ est approchable, car les parties approchables de X forment une tribu. Comme $C_0$ est dénombrable, l’ensemble S qui est la réunion des $F_0(c_0)$, pour $c_0\in C_0$, est encore approchable.
 

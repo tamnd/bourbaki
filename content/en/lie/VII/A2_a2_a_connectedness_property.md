@@ -13,7 +13,7 @@ pdf_pages: 0058-0059, 0076-0076
 extraction: native
 statements: 3
 exercises: 2
-content_sha256: ffaf56e9c1944e0bbcecbf623479502c717683b83fb96d7dea3d76415a97a8f1
+content_sha256: 6815acf2afc501a143a6b3e3cf8be4ea737f53892b4f2aaf449f276606a30fa7
 ---
 
 ## APPENDIX II A CONNECTEDNESS PROPERTY
@@ -22,7 +22,7 @@ content_sha256: ffaf56e9c1944e0bbcecbf623479502c717683b83fb96d7dea3d76415a97a8f1
 
 Let X be a connected topological space and $\Omega$ a dense open subset of X. If, for any $x\in X$, there exists a neighbourhood V of $x$ such that $V\cap \Omega$ is connected, then $\Omega$ is connected.
 
-Indeed, let $\Omega_0$ be a non-empty open and closed subset of $\Omega$. Let $x\in X$ and let V be a neighbourhood of $x$ such that $V\cap \Omega$ is connected. If $x\in \Omega_0$,
+Indeed, let $\Omega_0$ be a non-empty open and closed subset of $\Omega$. Let $x\in X$ and let V be a neighbourhood of $x$ such that $V\cap \Omega$ is connected. If $x\in \overline{\Omega}_0$,
 
 $$
 (V\cap \Omega )\cap \Omega_0= V\cap \Omega_0\not=\emptyset

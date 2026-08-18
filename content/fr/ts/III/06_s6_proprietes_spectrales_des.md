@@ -41,7 +41,7 @@ subsections:
       pdf_page: 107
 statements: 36
 exercises: 30
-content_sha256: a9d8fdf3b8fc2586e56d218165fd8291cc71db692acf62f555fad9fa5835dfe5
+content_sha256: 1254de9e20bc3f47179361612b60b096a00305a91520ed54373230a25129f63d
 ---
 
 ## § 6. PROPRIÉTÉS SPECTRALES DES ENDOMORPHISMES DES ESPACES DE BANACH
@@ -134,7 +134,7 @@ ind($u$) $=$ dim Coker($u$)$-$ dim Ker($u$)
 
 #### Définition 3 {#ts-iii-s6-def-3 .statement tag=02UM}
 
-Soient E un espace normable complet et $u$ un endomorphisme de E. Pour tout $n\in \mathbf{Z}$, on note Sp$_n(u)$ l’ensemble des nombres complexes $\lambda \in$ Sp$_e(u)$ tels que $u-\lambda 1_E$ soit un morphisme strict, dont le noyau ou le conoyau est de dimension finie, et dont l’indice est $n$. On note Sp$_{\omega}(u)$ le complémentaire dans Sp$_e(u)$ de l’union des sous-ensembles Sp$_n(u)$ pour $n\in \mathbf{Z}$.
+Soient E un espace normable complet et $u$ un endomorphisme de E. Pour tout $n\in \overline{\mathbf{Z}}$, on note Sp$_n(u)$ l’ensemble des nombres complexes $\lambda \in$ Sp$_e(u)$ tels que $u-\lambda 1_E$ soit un morphisme strict, dont le noyau ou le conoyau est de dimension finie, et dont l’indice est $n$. On note Sp$_{\omega}(u)$ le complémentaire dans Sp$_e(u)$ de l’union des sous-ensembles Sp$_n(u)$ pour $n\in \mathbf{Z}$.
 
 Les ensembles Sp$_s(u)$, Sp$_n(u)$ pour $n\in \overline{\mathbf{Z}}$ et Sp$_{\omega}(u)$ forment une partition du spectre de $u$.
 
@@ -180,9 +180,9 @@ b) Soit $n\in \overline{\mathbf{Z}}$. L’ensemble Sp$_n(u)$ est réunion d’un
 
 L’ensemble $\mathbf{C}-$ Sp$_{\omega}(u)$ se compose des nombres complexes $\lambda \in \mathbf{C}$ tels que $u-\lambda 1_E$ soit un morphisme strict, dont le noyau ou le conoyau est de dimension finie. D’après les prop. 11 de III, p. 67 et 13 de III, p. 70, il est ouvert. L’ensemble Sp$_{\omega}(u)$ est donc fermé. Comme il est borné, il est compact.
 
-Démontrons b). Soit $n\in \overline{\mathbf{Z}}$. L’ensemble Sp$_n(u)$ est contenu dans $\mathbf{C}-$Sp$_{\omega}(u)$. Soit U une composante connexe de $\mathbf{C}-$ Sp$_{\omega}(u)$ qui rencontre Sp$_n(u)$. L’application $\lambda \mapsto$ ind($u-\lambda 1_E$) de $\mathbf{C}-$ Sp$_{\omega}(u)$ dans $\mathbf{Z}$ étant localement constante (cor. 1 de la prop. 12 de III, p. 68 et cor. 1 de la prop. 13 de III, p. 70), l’indice de $u-\lambda 1_E$ est égal à $n$ pour tout $\lambda \in U$. Si $n\not = 0$, cela implique que U est contenu dans Sp$_n(u)$. Si $n= 0$, remarquons que l’ensemble U est une composante connexe de $\mathbf{C}-$ (Sp$_{\omega}(u)\cup$ Sp$_{-\infty}(u)\cup$ Sp$_{+\infty}(u))$. Puisque U rencontre Sp$_0(u)$ et donc Sp$_e(u)$, il résulte alors de la remarque 2 que l’ensemble U est contenu dans Sp$_e(u)$, et par suite dans Sp$_0(u)$. On conclut dans tous les cas que Sp$_n(u)$ est la réunion des composantes connexes de $\mathbf{C}-$ Sp$_{\omega}(u)$ qui rencontrent Sp$_n(u)$. Celles-ci sont nécessairement bornées puisque l’ensemble Sp($u$) est borné. Par suite, Sp$_n(u)$ est ouvert dans $\mathbf{C}$ et sa frontière est contenue dans Sp$_{\omega}(u)$. Cela démontre b).
+Démontrons b). Soit $n\in \overline{\mathbf{Z}}$. L’ensemble Sp$_n(u)$ est contenu dans $\mathbf{C}-$Sp$_{\omega}(u)$. Soit U une composante connexe de $\mathbf{C}-$ Sp$_{\omega}(u)$ qui rencontre Sp$_n(u)$. L’application $\lambda \mapsto$ ind($u-\lambda 1_E$) de $\mathbf{C}-$ Sp$_{\omega}(u)$ dans $\overline{\mathbf{Z}}$ étant localement constante (cor. 1 de la prop. 12 de III, p. 68 et cor. 1 de la prop. 13 de III, p. 70), l’indice de $u-\lambda 1_E$ est égal à $n$ pour tout $\lambda \in U$. Si $n\not = 0$, cela implique que U est contenu dans Sp$_n(u)$. Si $n= 0$, remarquons que l’ensemble U est une composante connexe de $\mathbf{C}-$ (Sp$_{\omega}(u)\cup$ Sp$_{-\infty}(u)\cup$ Sp$_{+\infty}(u))$. Puisque U rencontre Sp$_0(u)$ et donc Sp$_e(u)$, il résulte alors de la remarque 2 que l’ensemble U est contenu dans Sp$_e(u)$, et par suite dans Sp$_0(u)$. On conclut dans tous les cas que Sp$_n(u)$ est la réunion des composantes connexes de $\mathbf{C}-$ Sp$_{\omega}(u)$ qui rencontrent Sp$_n(u)$. Celles-ci sont nécessairement bornées puisque l’ensemble Sp($u$) est borné. Par suite, Sp$_n(u)$ est ouvert dans $\mathbf{C}$ et sa frontière est contenue dans Sp$_{\omega}(u)$. Cela démontre b).
 
-Supposons finalement que l’ensemble Sp$_{\omega}(u)$ est vide. D’après b), chacun des ensembles Sp$_n(u)$, pour $n\in \mathbf{Z}$, est alors vide. On a donc Sp($u$) $=$ Sp$_s(u)$. Le spectre de $u$ est par conséquent discret et compact, donc fini, et comme tous ses points sont de multiplicité spectrale finie, l’espace vectoriel E est de dimension finie (III, p. 83, prop. 2). Cela termine la démonstration de a).
+Supposons finalement que l’ensemble Sp$_{\omega}(u)$ est vide. D’après b), chacun des ensembles Sp$_n(u)$, pour $n\in \overline{\mathbf{Z}}$, est alors vide. On a donc Sp($u$) $=$ Sp$_s(u)$. Le spectre de $u$ est par conséquent discret et compact, donc fini, et comme tous ses points sont de multiplicité spectrale finie, l’espace vectoriel E est de dimension finie (III, p. 83, prop. 2). Cela termine la démonstration de a).
 
 #### Corollaire {#ts-iii-s6-n2-cor-1 .statement tag=02UP}
 
@@ -458,9 +458,7 @@ $e=$ lim$_{z\rightarrow\varrho}(z-\varrho )^dR(u_{(\mathbf{C})}, z)$.
 
 Il est non nul et permutable à $u_{(\mathbf{C})}$, et son image est contenue dans l’espace propre de $u_{(\mathbf{C})}$ relatif à $\varrho ($cf. n$^o3$ de I, p. 131). Soit maintenant $\ell$ un élément de $C^{\circ}$ et $x$ un élément de C. D’après le théorème 1 de I, p. 24, d), on a
 
-$\langle e(x), \ell \rangle =$ lim$_{z\rightarrow\varrho}(z-\varrho )^d\sum\langle u^n(x), \ell \rangle z^{-n-1}\geqslant 0$.
-
-$z>\varrho n\geqslant 0$
+$\langle e(x), \ell \rangle =$ lim$_{zz>\varrho\rightarrow\varrho}(z-\varrho )^d\sum_{n\geqslant 0}\langle u^n(x), \ell \rangle z^{-n-1}\geqslant 0$.
 
 Le théorème des bipolaires (EVT, II, p 48, th. 1) implique que $e(x)\in C$ pour tout $x\in C$. Puisque C est total, il existe $x\in C$ tel que $e(x)\not = 0$ (lemme 4), et alors $e(x)$ appartient à C et est un vecteur propre de $u$ pour la valeur propre $\varrho$, comme désiré.
 

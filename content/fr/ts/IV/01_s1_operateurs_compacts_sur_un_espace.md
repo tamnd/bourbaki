@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: 4db5f659f6f30649155bfba69f064247a3715361301acd1965247c33dfa2869f
+content_sha256: 02268fb46c98da7a41f0f6c8e34ccdf3ad784c00e6cf9dbaab20b2e253c1802d
 ---
 
 ## § 1. OPÉRATEURS COMPACTS SUR UN ESPACE HILBERTIEN
@@ -170,7 +170,7 @@ Si $K =\mathbf{C}$, cela résulte aussitôt du théorème. Supposons $K =\mathbf
 
 Soit F un espace hilbertien et soit $u$ une application linéaire continue compacte de E dans F. Il existe un ensemble dénombrable I, une base orthonormale $(e_i)_{i\in I}$ de l’espace initial Ker($u$)$^{\circ}$ de $u$, une famille orthonormale $(f_i)_{i\in I}$ de F et une famille $(\alpha_i)_{i\in I}\in (\mathbf{R}^*_+)^I$ telles que $u(e_i) =\alpha_if_i$ pour tout $i\in I$.
 
-Soit $v=u^*\circ u$. C’est un endomorphisme compact (III, p. 5, prop. 3) et positif, donc hermitien, de E. D’après le corollaire 1, il existe une base orthonormale $(e_j)_{j\in J}$ de E telle que $v$ est diagonal dans cette base. La famille $(\lambda_j)_{j\in J}$ de ses valeurs propres est contenue dans $\mathbf{R}_+^J$. Posons $\alpha_j=\lambda_j$ pour tout $j\in J$. Soit I l’ensemble des $j\in J$ tels que $\alpha_j\not = 0$. C’est un ensemble dénombrable puisque $v$ est compact. La famille $(e_i)_{i\in I}$ est une base orthonormale de l’espace initial de $v$, qui est l’espace initial Ker($u$)$^{\circ}$ de $u$ (EVT, V, p. 43, prop. 8). Posons $f_i=\frac{1}{\alpha_i}u(e_i)$ pour $i\in I$. Quels que soient $i$ et $j$ dans I, on a
+Soit $v=u^*\circ u$. C’est un endomorphisme compact (III, p. 5, prop. 3) et positif, donc hermitien, de E. D’après le corollaire 1, il existe une base orthonormale $(e_j)_{j\in J}$ de E telle que $v$ est diagonal dans cette base. La famille $(\lambda_j)_{j\in J}$ de ses valeurs propres est contenue dans $\mathbf{R}_+^J$. Posons $\alpha_j=\overline{\lambda_j}$ pour tout $j\in J$. Soit I l’ensemble des $j\in J$ tels que $\alpha_j\not = 0$. C’est un ensemble dénombrable puisque $v$ est compact. La famille $(e_i)_{i\in I}$ est une base orthonormale de l’espace initial de $v$, qui est l’espace initial Ker($u$)$^{\circ}$ de $u$ (EVT, V, p. 43, prop. 8). Posons $f_i=\frac{1}{\alpha_i}u(e_i)$ pour $i\in I$. Quels que soient $i$ et $j$ dans I, on a
 
 1 1 $\lambda_i$
 
@@ -308,7 +308,7 @@ Par ailleurs, on a par définition $R_F(u) = R_{\{0\}}(\widetilde{u})$, et final
 
 Pour tout $n\in I$, on a
 
-$\lambda_n(u) =_{F\in}$sup$_{\mathscr{F}_{n+1}}r_F(u) =$ inf$_{F\in\mathscr{F}_n}R_F(u)$.
+$\lambda_n(u) =$ sup$_{F\in\mathscr{F}_{n+1}}r_F(u) =$ inf$_{F\in\mathscr{F}_n}R_F(u)$.
 
 Soit $(e_n)_{n\in I}$ une famille orthonormale ayant la propriété de la prop. 3 de IV, p. 152. Pour tout entier tel que $1\leqslant n <M + 1$, soit $F_n\in \mathscr{F}_n$ le sous-espace de dimension $n$ de E engendré par $(e_0, . . . , e_{n-1})$; par construction, l’espace $F_n$ est adapté à $u$. D’après la prop. 5, on a donc
 
@@ -330,7 +330,7 @@ $$
 
 Cela démontre que $r_F(u)\leqslant \lambda_n(u)$, d’où en particulier l’inégalité
 
-(3) $F_{\in}$sup$_{\mathscr{F}_{n+1}}r_F(u)\leqslant \lambda_n(u)$.
+(3) Fsup$_{\in\mathscr{F}_{n+1}}r_F(u)\leqslant \lambda_n(u)$.
 
 Soit $F\in \mathscr{F}_n$. La restriction à $F_{n+1}$ de l’orthoprojecteur sur F n’est pas injective, donc il existe un vecteur $x\not = 0$ dans $F_{n+1}$ orthogonal à F. Comme $x\in F_{n+1}$, on a (loc. cit.)
 
@@ -554,9 +554,7 @@ $$
 
 Il vient $\widehat{\wedge}^{n+1}ue_{\iota}=\lambda_{\iota}e_{\iota}$, donc $\widehat{\wedge}^{n+1}u$ est diagonal dans la base $B_n$. Par conséquent, on a
 
-$\|\widehat{\wedge}^{n+1}u\|=$ sup $\lambda_{\iota}$
-
-$\iota \in I_n$
+$\|\widehat{\wedge}^{n+1}u\|=$ sup$_{\iota\in I_n}\lambda_{\iota}$
 
 (lemme 1 de IV, p. 147), qui est égal au produit $\lambda_0(u)\cdots \lambda_n(u)$ des $n+ 1$ plus grandes valeurs propres de $u$. La formule désirée en résulte puisque $\lambda_i(u) =\alpha_i(u)$ pour tout $i\in I_E$ lorsque $u$ est positif (remarque 5 de IV, p. 157, (3)).
 
@@ -874,7 +872,7 @@ Si $\|u\|_1$ est fini, alors $u$ est une application de Hilbert–Schmidt et $\|
 
 Soit $u\in \mathscr{L}_2(E; F)$. On a
 
-$\|u\|_1=_{v\in\mathscr{L}}$sup$_{_2(E;F)}|\langle v|u\rangle |$,
+$\|u\|_1=$ sup$_{v\in\mathscr{L}_2(E;F)}|\langle v|u\rangle |$,
 
 $\|v\|\leqslant 1$
 
@@ -894,9 +892,7 @@ $|\langle v_L|u\rangle |=|$Tr($v^*_Lu$)$|=\sum_{j\in J}\langle v_L(e_j)|u(e_j)\r
 
 D’après loc. cit., on en déduit que
 
-(10) $\|u\|_1=$ sup$_L\sum_{j\in L}\alpha_j\leqslant_{v\in\mathscr{L}}$sup$_{_2(E;F)}|\langle v|u\rangle |$
-
-$\|v\|\leqslant 1$
+(10) $\|u\|_1=$ sup$_L\sum_{j\in L}\alpha_j\leqslant$ sup$_{v\in\|\mathscr{L}v^2\|(E;F)\leqslant 1}|\langle v|u\rangle |$
 
 dans $\mathbf{R}_+\cup  \{+\infty \}$.
 
@@ -922,13 +918,7 @@ $=\sum_{i\in I}\alpha_i|\langle v(e_i)|f_i\rangle |\leqslant \sum_{i\in I}\alpha
 
 d’où l’inégalité
 
-sup $|\langle v|u\rangle |\leqslant \|u\|_1$,
-
-$v\in \mathscr{L}_2(E;F)$
-
-$$
-\|v\|\leqslant 1
-$$
+sup$_{v\in\|\mathscr{L}v^2\|(E;F)\leqslant 1}|\langle v|u\rangle |\leqslant \|u\|_1$,
 
 ce qui, combiné avec la formule (10), conclut la preuve de la proposition.
 
@@ -1010,19 +1000,13 @@ Les propositions 17 et 16 démontrent que l’application $b$ de $\mathscr{L}_1(
 
 Soit $u\in \mathscr{L}_1(E; F)$. On a
 
-$\|u\|_1=$ sup $|b(u, v)|$.
+$\|u\|_1=$ sup$_{v\in\mathscr{L}_c(F;E)}|b(u, v)|$.
 
-$v\in \mathscr{L}^c(F;E)$
-
-$$
-\|v\|\leqslant 1
-$$
+$\|v\|\leqslant 1$
 
 Puisque toute application de Hilbert–Schmidt est compacte (cor. 2 de IV, p. 165), on a
 
-$\|u\|_1\leqslant_{v\in\mathscr{L}}$sup$_{_c(E;F)}|$Tr($vu$)$|=_{v\in\mathscr{L}}$sup$_{_c(F;E)}|b(u, v)|$
-
-$\|v\|\leqslant 1\|v\|\leqslant 1$
+$\|u\|_1\leqslant$ sup$_{v\in\|\mathscr{L}v\|^c(E;F)\leqslant 1}|$Tr($vu$)$|=$ sup$_{v\in\mathscr{L}\|v^c\|(F;E)\leqslant 1}|b(u, v)|$
 
 d’après la prop. 14.
 
@@ -1076,7 +1060,7 @@ La première assertion est élémentaire. Démontrons la seconde.
 
 Soient $(f_i)_{i\in I}$ et $(g_j)_{j\in J}$ des bases orthonormales de $L^2(X)$ et $L^2$(Y), respectivement. La famille $(f_i\otimes g_j)_{(i,j)\in I\times J}$ est une base orthonormale de $L^2(X)\widehat{\otimes}_2L^2(Y)$ (EVT, V, p. 29, cor. 1) et la famille $(\widetilde{\theta}(\overline{f}_i\otimes g_j))_{(i,j)\in I\times J}$ est orthonormale dans $L^2(X\times Y)$ (INT, V, p. 95, § 8, n$^o3$, cor. 2). L’application $\widetilde{\theta}$ s’étend donc par continuité en une application linéaire isométrique de $L^2(X)\widehat{\otimes}_2L^2(Y)$ dans $L^2(X\times Y)$. Il reste à démontrer que cette extension est surjective.
 
-Pour cela il suffit de prouver que l’image de $\widetilde{\theta}$ est dense dans $L^2(X\times Y)$. Soit N un élément de $L^2(X\times Y)$ orthogonal à l’image de $\widetilde{\theta}$. Pour tous $i\in I$ et $j\in J$, on a $\langle g_j|u_N(f_i)\rangle =\langle \widetilde{\theta}(f_i\otimes g_j)|N\rangle = 0$ (formule (12)), d’où $u_N= 0$, et donc N = 0.
+Pour cela il suffit de prouver que l’image de $\widetilde{\theta}$ est dense dans $L^2(X\times Y)$. Soit N un élément de $L^2(X\times Y)$ orthogonal à l’image de $\widetilde{\theta}$. Pour tous $i\in I$ et $j\in J$, on a $\langle g_j|u_N(f_i)\rangle =\langle \widetilde{\theta}(\overline{f}_i\otimes g_j)|N\rangle = 0$ (formule (12)), d’où $u_N= 0$, et donc N = 0.
 
 Le lemme précédent établit l’assertion énoncée dans EVT, V, p. 29, exemple 2.
 
@@ -1132,7 +1116,7 @@ $$
 
 dans $L^2(X\times Y)$.
 
-En effet, soient $(f_j)_{j\in J}$ et $(g_k)_{k\in K}$ des bases orthonormales de $L^2(X)$ et $L^2$(Y), respectivement, prolongeant les familles $(f_i)_{i\in I}$ et $(g_i)_{i\in I}$. Posons $h_{j,k}=f_j\otimes g_k$ pour tout $(j, k)\in J\times K$. D’après le lemme 10, la famille $(h_{j,k})_{(j,k)\in J\times K}$ est une base orthonormale de $L^2(X\times Y)$. On a $\langle h_{j,k}|N\rangle =\langle g_k|u_N(f_j)\rangle$ pour tout $(j, k)\in J\times K$. Si $j /\in I$, cette quantité est nulle. Si $j\in I$, elle est égale à $\alpha_j\langle g_k|g_j\rangle$, donc est nulle sauf si $k=j$, auquel cas $\langle h_{j,j}|N\rangle =\alpha_j$. Par conséquent
+En effet, soient $(f_j)_{j\in J}$ et $(g_k)_{k\in K}$ des bases orthonormales de $L^2(X)$ et $L^2$(Y), respectivement, prolongeant les familles $(f_i)_{i\in I}$ et $(g_i)_{i\in I}$. Posons $h_{j,k}=\overline{f}_j\otimes g_k$ pour tout $(j, k)\in J\times K$. D’après le lemme 10, la famille $(h_{j,k})_{(j,k)\in J\times K}$ est une base orthonormale de $L^2(X\times Y)$. On a $\langle h_{j,k}|N\rangle =\langle g_k|u_N(f_j)\rangle$ pour tout $(j, k)\in J\times K$. Si $j /\in I$, cette quantité est nulle. Si $j\in I$, elle est égale à $\alpha_j\langle g_k|g_j\rangle$, donc est nulle sauf si $k=j$, auquel cas $\langle h_{j,j}|N\rangle =\alpha_j$. Par conséquent
 
 $$
 N =\sum_{(j,k)\in J\times K}\langle h_{j,k}|N\rangle h_{j,k}=\sum_{i\in I}\alpha_ih_{i,i}

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: 47baaeb753724744015282f3a1fbf63b56671be0a71d63144dc77e42a5ca4265
+content_sha256: 6dbfad8065b8b554d4227d9bade09fd98220ccdf752f84685f4561b0cd7d148f
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -414,7 +414,7 @@ $$
 
 $H\cap (y^{-1}C\cup x^{-1}C)$
 
-$\leqslant \beta (H\cap U^{-1}C)_{h\in}$sup$_{U^{-1}C}\|f(yh)-f(xh)\|$,
+$\leqslant \beta (H\cap U^{-1}C)$ sup$_{h\in U^{-1}C}\|f(yh)-f(xh)\|$,
 
 et la continuité de $f^{\pi}$ résulte alors de la continuité uniforme de $f$ sur G.
 
@@ -428,7 +428,7 @@ $$
 
 pour tout $x\in G$; avec les notations précédentes, on a $v=u^1$, correspondant à la représentation triviale de dimension 1 de H. La fonction $v$ est continue et positive ; elle appartient à $\mathscr{F}_1$(G), son support est contenu dans Supp($u$)$\cdot H$ et on a
 
-(5) $x_{\in}$inf$_{C\cdot H}v(x)>0$
+(5) $x$inf$_{\in C\cdot H}v(x)>0$
 
 (INT, VII, p. 39–40, § 2, n$^o1$, prop. 1 et lemme 1, a)).
 
