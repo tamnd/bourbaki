@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: 4c54cb470e9b86a3e67588c6d240754f91e28ba38961ae2dcd82544725dc11f3
+content_sha256: 35e850fce35144b4aa7619a80277adfefd0ed2277bbce570b8013312c51df017
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -198,9 +198,7 @@ Soit $k$ un entier naturel. Soient $f\in \mathscr{L}^1(\mathbf{R}^n, \mu)$ et $g
 
 On peut appliquer le corollaire 1 à l’espace $X =\mathbf{R}^n$, à la mesure de Lebesgue et à l’application $h$ définie par $(x, t)\mapsto f(x)g(t-x)$ de $\mathbf{R}^n\times \mathbf{R}^n$ dans $\mathbf{C}$; en effet, pour tout $\alpha \in \mathbf{N}^n$ tel que $|\alpha |\leqslant k$, on a l’inégalité
 
-$|\partial^{\alpha}h(x, t)|\leqslant$ sup sup $|\partial^{\beta}g(y)||f(x)|$
-
-$|\beta |\leqslant ky\in \mathbf{R}^n$
+$|\partial^{\alpha}h(x, t)|\leqslant_|$sup$_{\beta|\leqslant ky}$sup$_{\in\mathbf{R}^n}|\partial^{\beta}g(y)||f(x)|$
 
 dont le second membre est une fonction intégrable sur $\mathbf{R}^n$.
 
@@ -360,9 +358,7 @@ Puisque $\mathscr{D}(U)$ est bornologique, l’espace $\mathscr{D}'(U)$ est comp
 
 Soit $f$ une application linéaire de $\mathscr{D}(U)$ dans $\mathbf{C}$. Alors $f$ est une distribution si et seulement si, pour toute partie compacte K de U et pour toute famille $(M_{\alpha})_{\alpha\in\mathbf{N}^n}$ dans $\mathbf{R}_+$, la forme linéaire $f$ est bornée sur l’ensemble des fonctions $\varphi \in \mathscr{C}_K^{\infty}(U)$ telles que, pour tout $\alpha \in \mathbf{N}^n$, on a
 
-sup$|\partial^{\alpha}\varphi (x)|\leqslant M_{\alpha}$.
-
-$x\in K$
+sup$_{x\in K}|\partial^{\alpha}\varphi (x)|\leqslant M_{\alpha}$.
 
 En effet, l’espace $\mathscr{D}(U)$ est bornologique et toute partie bornée de $\mathscr{D}(U)$ est contenue dans l’un des ensembles bornés décrits dans l’énoncé.
 
@@ -674,9 +670,7 @@ pour tous $\alpha$ et $\beta \in \mathbf{N}^n$ (prop. 1 de IV, p. 196).
 
 L’inclusion canonique de $\mathscr{S}(\mathbf{R}^n)$ dans l’espace $\mathscr{C}^{\infty}(\mathbf{R}^n)$, muni de la topologie décrite dans le n$^o3$ de IV, p. 200, est continue, puisque
 
-sup $|\partial^{\alpha}\varphi (x)|\leqslant q_{\alpha ,0}(\varphi )$
-
-$x\in K$
+sup$_{x\in K}|\partial^{\alpha}\varphi (x)|\leqslant q_{\alpha ,0}(\varphi )$
 
 pour toute partie compacte K de $\mathbf{R}^n$, tout $\alpha \in \mathbf{N}^n$ et toute fonction de Schwartz $\varphi$.
 
@@ -714,9 +708,7 @@ sup$_{i\in I}\widetilde{q}_{\alpha_i,k_i}(\varphi -\varphi_0)\leqslant \varepsil
 
 Puisque B est bornée dans $\mathscr{S}(\mathbf{R}^n)$, il existe $M>0$ tel que les semi-normes $\widetilde{q}_{\alpha_i,k_i+1}$ pour $i\in I$ sont bornées par M sur B. Soient $\delta  >0$ et $T>0$ des nombres réels. D’après l’inégalité (3), dès lors que $\varphi \in B$ vérifie la majoration
 
-(4) sup sup $|\partial^{\alpha_i}(\varphi -\varphi_0)|\leqslant \delta$,
-
-$i\in I\|x\|\leqslant T$
+(4) sup$_{i\in I\|x}$sup$_{\|\leqslant T}|\partial^{\alpha_i}(\varphi -\varphi_0)|\leqslant \delta$,
 
 on a
 
@@ -758,9 +750,7 @@ L’espace $\mathscr{D}(\mathbf{R}^n)$ est contenu dans $\mathscr{S}(\mathbf{R}^
 
 Soit $B\subset \mathscr{D}(\mathbf{R}^n)$ une partie bornée, et soit K une partie compacte de $\mathbf{R}^n$ telle que $B\subset \mathscr{C}_K^{\infty}(\mathbf{R}^n)$. Soient $\alpha \in \mathbf{N}^n$ et $k\in \mathbf{N}$. Pour toute fonction $\varphi \in B$, il vient
 
-$\widetilde{q}_{\alpha ,k}(\varphi )\leqslant$ sup$\|x\|^kp_{\alpha ,K}(\varphi )$,
-
-$x\in K$
+$\widetilde{q}_{\alpha ,k}(\varphi )\leqslant$ sup$_{x\in K}\|x\|^kp_{\alpha ,K}(\varphi )$,
 
 donc B est borné dans $\mathscr{S}(\mathbf{R}^n)$. La continuité de l’inclusion résulte alors du fait que les espaces $\mathscr{S}(\mathbf{R}^n)$ et $\mathscr{D}(\mathbf{R}^n)$ sont bornologiques.
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 81
 statements: 30
 exercises: 9
-content_sha256: 723b09cba0e2dc3f909012fc4bb01716a063448fe9f841ad8188c3d93704cdbe
+content_sha256: ff0e92a20a2a5e0b5f5ba284cffcad385294068275e580b55871bfb20e8b5ca8
 ---
 
 ## § 4. PERTURBATIONS DANS LES ESPACES DE BANACH
@@ -304,9 +304,9 @@ $$
 
 puisque l’application $v$ est injective. En d’autres termes, P se compose des éléments de F de la forme $v(y)$ avec $y\in E/N$ et $\|y\|\geqslant 1$. Notons $d_P$ la distance de 0 à P dans F. On a
 
-$d_P=$ inf $\|v(y)\|=$ inf $\|v(y)\|= ((u))$
+$d_P=$ inf$_{y\in E/N}\|v(y)\|=$ inf$_{y\in E/N}\|v(y)\|= ((u))$
 
-$y\in E/Ny\in E/N$ $\|y\|\geqslant 1\|y\|=1$ d’après (6).
+$\|y\|\geqslant 1\|y\|=1$ d’après (6).
 
 Supposons que $u$ soit un morphisme strict. Soit $\varepsilon  >0$. L’ensemble $\varepsilon u(B)$ est un voisinage de 0 dans $u(E)$. L’adhérence de $u(B)$ dans $u(E)$ est égale à $u(B)\cap u(E)$. Elle est contenue dans l’ensemble $u(B) +\varepsilon u(B)$ qui est égal à $(1 +\varepsilon )u(B)$ puisque $u(B)$ est convexe. On a par suite $(1 +\varepsilon )P\subset Q\subset P$ et la distance $d_Q$ de 0 à Q dans F satisfait aux inégalités $d_P\leqslant d_Q\leqslant (1 +\varepsilon )d_P$. Puisque ceci a lieu pour tout $\varepsilon  >0$, on a $d_Q=d_P= ((u))$.
 

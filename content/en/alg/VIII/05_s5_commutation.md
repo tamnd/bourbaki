@@ -38,7 +38,7 @@ subsections:
       pdf_page: 106
 statements: 37
 exercises: 19
-content_sha256: 25121e32634b054eaf79d53f1341199f32f6263588efec8ec6255fe5f2ad73a9
+content_sha256: deb4c36d59329e35f14821c7b815577279a3f27d7dae68551bcfe0e3c74c764b
 ---
 
 ## § 5. COMMUTATION
@@ -84,14 +84,8 @@ For $i\in I$, we denote the projection homomorphism from $M^{(I)}$ to M by $\pi_
 Let $u$ be an element of End$_A(M^{(I)})$. For all $i, j\in I$, the composition $u_{i,j}=\pi_j\circ u\circ \iota_i$ belongs to the commutant $A'_M$ of M. For every element $b$ of $A''_M$ and every $(x_i)\in M^{(I)}$, we have the relations
 
 $$
-bu(x_i)_{i\in I}=b\sum u_{i,j}(x_i)=\sum u_{i,j}(bx_i)=u b(x_i)_{i\in I}
+bu(x_i)_{i\in I}=b\sum_{i\in I}u_{i,j}(x_i)_{j\in I}=\sum_{i\in I}u_{i,j}(bx_i)_{j\in I}=u b(x_i)_{i\in I}
 $$
-
-$$
-j\in Ij\in I
-$$
-
-$i\in Ii\in I$
 
 The homothety $b_{M^{(I)}}$ therefore belongs to the bicommutant of the A-module $M^{(I)}$.
 
@@ -305,11 +299,7 @@ e) For $s\in S$, denote the mapping $\varphi \mapsto \varphi (s)$ from $V_{\lamb
 
 Let $\lambda \in \mathscr{S}_M$. Denote the ring End$_{D_{\lambda}}(V_{\lambda})$ by $E_{\lambda}$; since $V_{\lambda}$ is a nonzero $D_{\lambda}$-vector space, it is a simple $E_{\lambda}$-module, (VIII, p. 45, Example 3), and its commutant is equal to $(D_{\lambda})_{V_{\lambda}}$ (VIII, p. 82, Corollary 1 of Theorem 2). Since $E_{\lambda}$ is the ring of homotheties of the B-module $V_{\lambda}$ (VIII, p. 71, Corollary of Proposition 9), this proves b).
 
-The canonical description $\alpha_M$ of M defines an isomorphism $\alpha_{\lambda}$ from $V_{\lambda}\otimes_{D^o}S_{\lambda}$ to $M_{\lambda}$. Since $V_{\lambda}$ is a simple B-module, the B-module $V_{\lambda}\otimes_{D^o}S_{\lambda}$
-
-$\lambda \lambda$
-
-is isotypical of type $V_{\lambda}$ (VIII, p. 61, Proposition 1); the same therefore holds for the B-module $M_{\lambda}$, which proves a).
+The canonical description $\alpha_M$ of M defines an isomorphism $\alpha_{\lambda}$ from $V_{\lambda}\otimes_{D^o_{\lambda}}S_{\lambda}$ to $M_{\lambda}$. Since $V_{\lambda}$ is a simple B-module, the B-module $V_{\lambda}\otimes_{D^o_{\lambda}}S_{\lambda}$ is isotypical of type $V_{\lambda}$ (VIII, p. 61, Proposition 1); the same therefore holds for the B-module $M_{\lambda}$, which proves a).
 
 By Remark 1 above, there exist elements $e_{\lambda}$ of B, for $\lambda$ running through $\mathscr{S}_M$, such that $(e_{\lambda})_{V_{\lambda}}= 1_{V_{\lambda}}$ and $(e_{\lambda})_{V_\mu}$ = 0 for $\mu\in \mathscr{S}_M$ with $\mu\not=\lambda$. The simple B-modules $V_{\lambda}$ are therefore pairwise nonisomorphic, which proves c) and the first assertion of d). The B-module $M_{\lambda}$ is isomorphic to $V_{\lambda}\otimes_{D^o_{\lambda}}S_{\lambda}$, so dim$_{D_{\lambda}}(S_{\lambda})$ is the multiplicity of $V_{\lambda}$ in M (II, §3, No. 7, p. 255, Corollary 1).
 
@@ -320,12 +310,8 @@ The mapping $\sum_{\lambda\in\mathscr{S}_M}\alpha_{\lambda}$ from $\bigoplus_{\l
 It follows from the proof that the mapping
 
 $$
-\sum V_{\lambda}\otimes_{D^o}S_{\lambda}\longrightarrow M
+\sum_{\lambda\in\mathscr{S}_M}V_{\lambda}\otimes_{D^o_{\lambda}}S_{\lambda}\longrightarrow M
 $$
-
-$\lambda$
-
-$\lambda \in \mathscr{S}_M$
 
 induced by the canonical description of M is a description of the countermodule of M.
 

@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: fd4e798c29f9b2364d7fd2b81bf137b8708e53947055ae6d646c84232b8b5d06
+content_sha256: 25162170ccb7ee335ac10c1d276bbc192338f064720e37af09626328d4b4a1b5
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -146,21 +146,15 @@ $$
 
 Soit maintenant $\mathfrak{B}$ une base du filtre des voisinages de $e$ formée de voisinages compacts. Pour tout $V\in \mathfrak{B}$, soit $g_V$ une fonction continue positive, nulle en dehors de V et d’intégrale égale à 1 (lemme 1 de II, p. 200). Pour toute fonction $h\in L^1(G)$, on a alors
 
-$\varepsilon_x*h=$ lim$(\varepsilon_x*h)*g_V=$ lim$(\varepsilon_x*g_V*h)$,
-
-$V,\mathfrak{B}V,\mathfrak{B}$
+$\varepsilon_x*h=$ lim$_{V,\mathfrak{B}}(\varepsilon_x*h)*g_V=$ lim$_{V,\mathfrak{B}}(\varepsilon_x*g_V*h)$,
 
 dans $L^1(G)$, la limite étant prise suivant le filtre des sections de $\mathfrak{B}$ (INT, VIII, §4, n$^o7$, prop. 20). En particulier, comme $\zeta (\varepsilon_x*g_V*f) =$ $\zeta (\varepsilon_x*g_V)\zeta (f)$, on en déduit que
 
-$\chi (x) =$ lim $\zeta (\varepsilon_x*g_V)$.
-
-$V,\mathfrak{B}$
+$\chi (x) =$ lim$_{V,\mathfrak{B}}\zeta (\varepsilon_x*g_V)$.
 
 Pour tout $h\in L^1(G)$, on obtient
 
-$\zeta (\varepsilon_x*h) =$ lim $\zeta (\varepsilon_x*g_V*h) =\zeta (h)$ lim $\zeta (\varepsilon_x*g_V) =\chi (x)\zeta (h)$.
-
-$V,\mathfrak{B}V,\mathfrak{B}$
+$\zeta (\varepsilon_x*h) =$ lim$_{V,\mathfrak{B}}\zeta (\varepsilon_x*g_V*h) =\zeta (h)$ lim$_{V,\mathfrak{B}}\zeta (\varepsilon_x*g_V) =\chi (x)\zeta (h)$.
 
 Par suite, on a pour $x, y\in G$ :
 
@@ -204,9 +198,7 @@ $$
 
 Soit $\mathfrak{F}$ un filtre sur $W\subset \mathsf{X}(L^1(G))$ convergeant vers $\zeta$. Puisque l’ensemble $\mathsf{X}(L^1(G))$ est borné, donc équicontinu, dans $L^{\infty}(G)$, la structure uniforme de la convergence simple coïncide avec la structure uniforme de la convergence compacte (TG, X, p. 16, th. 1). Soit K une partie compacte de G. L’ensemble des $\varepsilon_x*f$ pour $x\in K$ est compact dans $L^1(G)$ (INT, VIII, §2, n$^o5$, prop. 8). On a donc
 
-lim $\xi (\varepsilon_x*f) =\zeta (\varepsilon_x*f)$
-
-$\xi ,\mathfrak{F}$
+lim$_{\xi ,\mathfrak{F}}\xi (\varepsilon_x*f) =\zeta (\varepsilon_x*f)$
 
 uniformément pour $x\in K$. On en déduit que
 
@@ -476,9 +468,7 @@ Il existe une base de filtre $\mathfrak{B}$ sur $A(G)\cap \mathscr{K}_+(G)$ tell
 
 (ii) On a
 
-lim $\varphi \cdot dx=\varepsilon_e$
-
-$\varphi ,\mathfrak{B}$
+lim$_{\varphi ,\mathfrak{B}}\varphi \cdot dx=\varepsilon_e$
 
 dans l’espace $\mathscr{C}'(G)$ des mesures à support compact sur G muni de la topologie de la convergence uniforme sur les parties compactes de $\mathscr{C}(G)$ ;
 
@@ -490,9 +480,7 @@ pour la topologie de la convergence compacte sur $\widehat{G}$;
 
 (iv) Pour $p= 1$ ou $p= 2$, et pour tout $f\in L^p(G)$, on a $\varphi *f\in$ A(G) pour tout $\varphi$ appartenant à un ensemble de $\mathfrak{B}$ et
 
-lim $\varphi *f=f$
-
-$\varphi ,\mathfrak{B}$
+lim$_{\varphi ,\mathfrak{B}}\varphi *f=f$
 
 dans $L^p(G)$.
 
@@ -1374,11 +1362,7 @@ Soit K un corps localement compact non discret, non nécessairement commutatif, 
 
 Pour $y\in G$, soit $\chi_y$ l’application de G dans $\mathbf{U}$ telle que $\chi_y(x) =$ $\chi (xy)$. On a $\chi_y\in \widehat{G}$, et il faut démontrer que $\beta :y\mapsto \chi_y$ est un isomorphisme de groupes topologiques de G dans $\widehat{G}$.
 
-L’application $\beta$ est un homomorphisme injectif de G dans $\widehat{G}$; elle est continue (TG, X, p. 28, th. 3 appliqué à l’application continue $\theta$ de $G\times G$ dans $\mathbf{C})$. Démontrons que $\theta$ est un homéomorphisme sur son image. Il suffit (lemme 2 de II, p. 200) de démontrer que pour tout voisinage U de 0 dans K, il existe un voisinage V de $e$ dans $\widehat{G}$
-
-$-1$
-
-tel que $\beta (V)\subset U$. Soit $x\mapsto  |x|$ une valeur absolue sur K définissant la topologie de K (AC, VI, §9, n$^o1$, prop. 1), et soit $x_0\in K$ tel que $\chi (x_0)\not= 1$ ; notons $\eta =|\chi (x_0)-1|>0$. Soit U un voisinage de 0 dans K. Il existe $\delta  >0$ tel que U contienne l’ensemble des $y\in K$ tels que $|y|< \delta$. Soit V l’ensemble des caractères $\xi \in \widehat{G}$ tels que $|\langle \xi , x\rangle  -1|< \eta$ pour tout élément $x\in K$ vérifiant $|x|\leqslant |x_0|/\delta$. C’est un voisinage de $e$ dans $\widehat{G}$. Si $y\not= 0$ est tel que $\beta (y)$ appartient à V, on a donc $|\chi (xy)-1|<|\chi (x_0)-1|$ pour tout $x$ tel que $|x|\leqslant |x_0|/\delta$. Par conséquent, on a $|x_0y^{-1}|>|x_0|/\delta$, et donc $|y|< \delta$, de sorte que $y\in U$.
+L’application $\beta$ est un homomorphisme injectif de G dans $\widehat{G}$; elle est continue (TG, X, p. 28, th. 3 appliqué à l’application continue $\theta$ de $G\times G$ dans $\mathbf{C})$. Démontrons que $\theta$ est un homéomorphisme sur son image. Il suffit (lemme 2 de II, p. 200) de démontrer que pour tout voisinage U de 0 dans K, il existe un voisinage V de $e$ dans $\widehat{G}$ tel que $\overset{-1}{\beta}(V)\subset U$. Soit $x\mapsto  |x|$ une valeur absolue sur K définissant la topologie de K (AC, VI, §9, n$^o1$, prop. 1), et soit $x_0\in K$ tel que $\chi (x_0)\not= 1$ ; notons $\eta =|\chi (x_0)-1|>0$. Soit U un voisinage de 0 dans K. Il existe $\delta  >0$ tel que U contienne l’ensemble des $y\in K$ tels que $|y|< \delta$. Soit V l’ensemble des caractères $\xi \in \widehat{G}$ tels que $|\langle \xi , x\rangle  -1|< \eta$ pour tout élément $x\in K$ vérifiant $|x|\leqslant |x_0|/\delta$. C’est un voisinage de $e$ dans $\widehat{G}$. Si $y\not= 0$ est tel que $\beta (y)$ appartient à V, on a donc $|\chi (xy)-1|<|\chi (x_0)-1|$ pour tout $x$ tel que $|x|\leqslant |x_0|/\delta$. Par conséquent, on a $|x_0y^{-1}|>|x_0|/\delta$, et donc $|y|< \delta$, de sorte que $y\in U$.
 
 Puisque $\beta$ est un homéomorphisme sur son image, celle-ci est fermée dans $\widehat{G}$ (TG, III, p. 22, cor. 2). Mais par ailleurs l’orthogonal de l’image de $\beta$ est l’ensemble des éléments $x$ de G tel que $\chi (xy) = 1$ pour tout $y\in G$, et est donc réduit à $\{0\}$. L’image de $\beta$ est donc dense dans $\widehat{G}$ (corollaire 3 de II, p. 228). On conclut que $\beta$ est surjective.
 

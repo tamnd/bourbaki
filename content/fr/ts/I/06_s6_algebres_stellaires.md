@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: b89b39a138ebf59e40a3239c55844cc3c855cb684499c91a404eb9fa936d21f3
+content_sha256: 6f8ce344ef5642517e1cb7726558e8469f3dc08355415499505a62c8c2c45569
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -220,11 +220,7 @@ On appelle algèbre normée involutive une algèbre normée A munie d’une invo
 
 #### Exemple 1 {#ts-i-s6-n3-exa-1 .statement tag=02CU}
 
-Soit X un espace topologique localement compact. L’algèbre de Banach $\mathscr{C}_b(X)$ des fonctions complexes continues et bornées sur X, munie de la norme $\|f\|$ = sup$|f(x)|$ et de l’involution
-
-$x\in X$
-
-$f\mapsto \overline{f}$, est une algèbre de Banach involutive. La sous-algèbre $\mathscr{C}_0(X)$ des fonctions continues tendant vers 0 à l’infini est une sous-algèbre involutive fermée de $\mathscr{C}_b(X)$.
+Soit X un espace topologique localement compact. L’algèbre de Banach $\mathscr{C}_b(X)$ des fonctions complexes continues et bornées sur X, munie de la norme $\|f\|$ = sup$|f(x)|$ et de l’involution $f\mapsto \overline{f}$, est une algèbre de Banach involutive. La sous-algèbre$^{x\in X}\mathscr{C}_0(X)$ des fonctions continues tendant vers 0 à l’infini est une sous-algèbre involutive fermée de $\mathscr{C}_b(X)$.
 
 #### Exemple 2 {#ts-i-s6-n3-exa-2 .statement tag=02CV}
 
@@ -906,13 +902,9 @@ $$
 
 car $\|f-1\|\leqslant 1$ (lemme 12, c) de I, p. 116). On a donc
 
-lim sup$\|f x-x\|^2\leqslant$ lim sup$\|f xx^*-xx^*\|$.
+lim sup$_{f,\mathfrak{F}}\|f x-x\|^2\leqslant$ lim sup$_{f,\mathfrak{F}}\|f xx^*-xx^*\|$. Comme $xx^*$ est positif (th. 2 de I, p. 118), l’hypothèse implique que
 
-$f,\mathfrak{F}f,\mathfrak{F}$ Comme $xx^*$ est positif (th. 2 de I, p. 118), l’hypothèse implique que
-
-lim sup$\|f x-x\|^2\leqslant \|xx^*-xx^*\|= 0$,
-
-$f,\mathfrak{F}$
+lim sup$_{f,\mathfrak{F}}\|f x-x\|^2\leqslant \|xx^*-xx^*\|= 0$,
 
 de sorte que
 
@@ -974,9 +966,7 @@ $$
 
 Comme $x^*x\in J$, on a donc
 
-lim$\|xf-x\|^2= 0$.
-
-$f,\mathfrak{F}$
+lim$_{f,\mathfrak{F}}\|xf-x\|^2= 0$.
 
 Comme $xf\in J$ pour tout $f\in J^{\leqslant 1}_+$ et comme J est fermé, cela implique que $x\in J$. Donc I = J, et l’idéal I est auto-adjoint.
 
@@ -988,9 +978,7 @@ L’idéal I est auto-adjoint (lemme 15). On considère l’algèbre stellaire $
 
 L’algèbre de Banach $A/I$ est involutive. Soit $\pi : A\rightarrow A/I$ la projection canonique. L’idéal bilatère auto-adjoint I est une sous-algèbre stellaire de A. Soit $\mathfrak{F}$ une unité approchée croissante de I (prop. 18 de I, p. 121). Montrons d’abord que pour tout $x\in A$, on a
 
-(6) $\|\pi (x)\|_{A/I}=$ lim$\|x-xf\|$.
-
-$f,\mathfrak{F}$
+(6) $\|\pi (x)\|_{A/I}=$ lim$_{f,\mathfrak{F}}\|x-xf\|$.
 
 D’une part, comme $xf\in I$ pour tout $f\in I^{\leqslant 1}_+$, on a
 
@@ -1008,17 +996,13 @@ $$
 
 et donc, puisque $\|1-f\|\leqslant 1$ (lemme 12 de I, p. 116) et $a\in I$, on en déduit
 
-lim sup$\|x-xf\|\leqslant \|x-a\|$.
-
-$f,\mathfrak{F}$
+lim sup$_{f,\mathfrak{F}}\|x-xf\|\leqslant \|x-a\|$.
 
 Ainsi, il vient lim sup$_{f,\mathfrak{F}}\|x-xf\|\leqslant \|\pi (x)\|_{A/I}$ puisque $a$ est arbitraire dans I. La formule (6) est donc démontrée.
 
 Soit maintenant $x$ un élément de A. D’après la formule (6), on a
 
-$\|\pi (x)\|^2_{A/I}=$ lim$\|x-xf\|^2=$ lim$\|x(1-f)\|^2$
-
-$f,\mathfrak{F}f,\mathfrak{F}$
+$\|\pi (x)\|^2_{A/I}=$ lim$_{f,\mathfrak{F}}\|x-xf\|^2=$ lim$_{f,\mathfrak{F}}\|x(1-f)\|^2$
 
 = lim$_{f,\mathfrak{F}}\|(1-f)x^*x(1-f)\|\leqslant$ lim$_{f,\mathfrak{F}}\|x^*x(1-f)\|=\|\pi (x^*x)\|_{A/I}$.
 

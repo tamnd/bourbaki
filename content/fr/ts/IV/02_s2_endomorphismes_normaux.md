@@ -45,7 +45,7 @@ subsections:
       pdf_page: 207
 statements: 32
 exercises: 28
-content_sha256: 165363ebfb20ce8155dd3b050619ce5cedef07b4b1c442c9a028bba02ac122b4
+content_sha256: 7dbd6f8bc5fe632828e0833ac67f435669dc92eb05dfb8227ef011b2be6962a9
 ---
 
 ## § 2. ENDOMORPHISMES NORMAUX
@@ -194,10 +194,8 @@ Notons $\widetilde{g}$ la classe de $g$ dans $L^{\infty}(X, \mu)$ et S l’image
 
 Réciproquement, soit $z\in \mathbf{C}-$ Sp($\widetilde{g}$). Soit $h\in \mathscr{L}^{\infty}(X, \mu)$ une fonction dont la classe est l’inverse de $\widetilde{g}-z$ dans $L^{\infty}(X, \mu)$. Il existe un nombre réel $M>0$ tel que $|h(x)|\leqslant M$ localement $\mu$-presque partout, et de plus on a $(g(x)-z)h(x) = 1$ localement $\mu$-presque partout. Soit U la boule ouverte de centre $z$ et de rayon $M^{-1}$ dans $\mathbf{C}$; alors $\overset{-1}{g}(U)$ est contenu dans l’ensemble localement $\mu$-négligeable
 
-$-1$
-
 $$
-h(]M,+\infty [)\cup  \{x\in X|(g(x)-z)h(x)\not = 1\}
+\overset{-1}{h}(]M,+\infty [)\cup  \{x\in X|(g(x)-z)h(x)\not = 1\}
 $$
 
 donc $z\in \mathbf{C}-$ S. On a démontré le lemme.
@@ -244,9 +242,9 @@ Soient $g\in \mathscr{L}^{\infty}(X, \mu)$ et $\widetilde{g}$ sa classe dans $L^
 
 $\int 1/p\int 1/p$
 
-$\|\widetilde{m}_g(\varphi )\|_p=|\varphi g|^pd\mu\geqslant |\varphi g|^pd\mu$
-
-X Y
+$$
+\|\widetilde{m}_{\widetilde{g}}(\varphi )\|_p=_X|\varphi g|^pd\mu\geqslant_Y|\varphi g|^pd\mu
+$$
 
 $$
 \geqslant (\|\widetilde{g}\|_{\infty}-\varepsilon )\mu(Y\cap C)^{1/p}= (\|\widetilde{g}\|_{\infty}-\varepsilon )\|\varphi \|_p

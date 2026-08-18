@@ -37,7 +37,7 @@ subsections:
       pdf_page: 41
 statements: 28
 exercises: 37
-content_sha256: 015c9053b44cbf4ed498e124264f53c7733518249f85e8b9f95aff2a1903796f
+content_sha256: 7d57a2c0bc2e11f856c189b38405a434eda5b18d670b09934c9bee403c10bcf5
 ---
 
 ## § 2. ALGÈBRES NORMÉES
@@ -270,9 +270,7 @@ Ces inégalités démontrent la convergence de la suite $(a_n/n)_{n\geqslant 1}$
 
 Soit A une algèbre normée. Pour tout $x\in A$, la suite $(\|x^n\|^{1/n})_{n\geqslant 1}$ est convergente et sa limite $\varrho (x)$ est égale à inf$_{n\geqslant 1}\|x^n\|^{1/n}$. De plus, pour toute norme $x\mapsto  \|x\|_1$ définissant la topologie de A, on a également
 
-$\varrho (x) =$ lim $\|x^n\|^{1/n}_1=$ inf $\|x^n\|^{1/n}_1$.
-
-$n\rightarrow +\infty n\geqslant 1$
+$\varrho (x) =_{n\rightarrow}$lim$_{+\infty}\|x^n\|^{1/n}_1=$ inf$_{n\geqslant 1}\|x^n\|^{1/n}_1$.
 
 Si $x$ est nilpotent, on a $\|x^n\|^{1/n}_1= 0$ pour tout entier $n$ suffisamment grand et toute norme $x\mapsto  \|x\|_1$ définissant la topologie de A.
 

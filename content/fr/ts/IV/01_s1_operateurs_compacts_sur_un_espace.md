@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: 849cf771bc81ec33c4d8e0c7fbe660b9d967209de35f48dd3588c02c78b001b3
+content_sha256: 4db5f659f6f30649155bfba69f064247a3715361301acd1965247c33dfa2869f
 ---
 
 ## § 1. OPÉRATEURS COMPACTS SUR UN ESPACE HILBERTIEN
@@ -104,9 +104,7 @@ Soit $\lambda = (\lambda_i)_{i\in I}\in \mathscr{B}(I)$. Pour tout $x\in E$, la 
 
 $\sum_{i\in J}\lambda_ip_i(x)^2=\sum_{i\in J}|\lambda_i|^2|\langle e_i|x\rangle |^2\leqslant$ sup$_{i\in I}|\lambda_i|^2(\sum_{j\in J}|\langle e_i|x\rangle |^2$
 
-2
-
-$\leqslant$ sup$_{i\in I}|\lambda_i|\|x\|^2$.
+$\leqslant$ sup$_{i\in I}|\lambda_i|^2\|x\|^2$.
 
 Par conséquent, la famille $(\lambda_ip_i)$ est sommable dans $\mathscr{L}(E)$ muni de la topologie de la convergence simple. Sa somme $u_{\lambda}$ vérifie $u_{\lambda}(e_i) =\lambda_ie_i$; c’est donc un endomorphisme diagonal dans la base B, de valeurs propres $\lambda$. L’assertion b) en résulte.
 
@@ -876,13 +874,9 @@ Si $\|u\|_1$ est fini, alors $u$ est une application de Hilbert–Schmidt et $\|
 
 Soit $u\in \mathscr{L}_2(E; F)$. On a
 
-$\|u\|_1=$ sup $|\langle v|u\rangle |$,
+$\|u\|_1=_{v\in\mathscr{L}}$sup$_{_2(E;F)}|\langle v|u\rangle |$,
 
-$v\in \mathscr{L}_2(E;F)$
-
-$$
-\|v\|\leqslant 1
-$$
+$\|v\|\leqslant 1$
 
 la borne supérieure étant calculée dans $\mathbf{R}_+\cup  \{+\infty \}$.
 
