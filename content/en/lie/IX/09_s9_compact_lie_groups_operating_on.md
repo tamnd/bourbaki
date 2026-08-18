@@ -33,7 +33,7 @@ errata:
     - says: §5, no. 2, Cor. of Prop. 2
       read: §5, no. 2, Cor. 1 of Prop. 2
       why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and the reference does not say which. The sentence citing it has G simply-connected and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected group. Corollary 2 is the same statement for the Lie algebra, over a chamber rather than an alcove, and Corollary 3 is about existence and uniqueness and names no map at all.
-content_sha256: 8c2073b5f29f23a876cc3f565466e0e0b86becb2682461c1b7eb9510b56be041
+content_sha256: 6234cfed8ed6554903391b363a72721e23d4521f9ccabbbe187215fb9caf4d72
 ---
 
 ## § 9. COMPACT LIE GROUPS OPERATING ON MANIFOLDS
@@ -100,10 +100,10 @@ Let $x$ be a point of X$,\varphi : X\rightarrow Y$ a morphism of class $C^1$ tha
 
 Let U be a relatively compact open neighbourhood of $x$ isomorphic to a finite dimensional vector space, and such that $\varphi (U)$ is contained in the domain V of a chart. The set $\Omega_0$ of $\psi \in \mathscr{C}^1(X;Y)$ such that $\psi (U)\subset V$ is open in $\mathscr{C}^1$(X;Y), and the restriction map $\Omega_0\rightarrow \mathscr{C}^1(U;V)$ is continuous; we are thus reduced to proving the lemma when X = U and Y = V, in other words, we can assume that X is a finite dimensional vector space and Y is a Banach space. Choose norms on X and Y.
 
-The linear map $D\varphi (x) : X\rightarrow$ Y is injective; denote its conorm by $q($Spectral Theory, Chap. III, §2, no. 6), so that, by definition, we have $D\varphi (x).t \geq qt$ for all $t\in X$. Let $\varepsilon \in \mathbf{R}$ be such that $0< \varepsilon  < q/2$, and let B be a closed ball with centre $x$ such that $D\varphi (u)-D\varphi (x) \leq \varepsilon$ for all $u\in B$. Denote by $\Omega$ the subset of $\mathscr{C}^1(X;Y)$ consisting of the morphisms $\psi$ such that $D\psi (u)-D\varphi (u) \leq \varepsilon$ for all $u\in B$; it is open by definition of the topology of $\mathscr{C}^1(X;Y)$. For $\psi \in \Omega$, put $\psi_0=\psi -D\varphi (x)$. We have $D\psi_0(u) \leq 2\varepsilon$ for all $u\in B$, and consequently $\psi_0(u)-\psi_0(v) \leq 2\varepsilon u-v$ for all $u$ and $v$ in B (Differentiable and Analytic Manifolds, Results, 2.2.3). It follows that
+The linear map $D\varphi (x) : X\rightarrow$ Y is injective; denote its conorm by $q($Spectral Theory, Chap. III, §2, no. 6), so that, by definition, we have $\|D\varphi (x).t\| \geq q\|t\|$ for all $t\in X$. Let $\varepsilon \in \mathbf{R}$ be such that $0< \varepsilon  < q/2$, and let B be a closed ball with centre $x$ such that $\|D\varphi (u)-D\varphi (x)\| \leq \varepsilon$ for all $u\in B$. Denote by $\Omega$ the subset of $\mathscr{C}^1(X;Y)$ consisting of the morphisms $\psi$ such that $\|D\psi (u)-D\varphi (u)\| \leq \varepsilon$ for all $u\in B$; it is open by definition of the topology of $\mathscr{C}^1(X;Y)$. For $\psi \in \Omega$, put $\psi_0=\psi -D\varphi (x)$. We have $\|D\psi_0(u)\| \leq 2\varepsilon$ for all $u\in B$, and consequently $\|\psi_0(u)-\psi_0(v)\| \leq 2\varepsilon \|u-v\|$ for all $u$ and $v$ in B (Differentiable and Analytic Manifolds, Results, 2.2.3). It follows that
 
 $$
-\psi (u)-\psi (v) \geq  D\varphi (x).(u-v) - \psi_0(u)-\psi_0(v) \geq (q-2\varepsilon )u-v
+\|\psi (u)-\psi (v)\| \geq  \|D\varphi (x).(u-v)\| - \|\psi_0(u)-\psi_0(v)\| \geq (q-2\varepsilon )\|u-v\|
 $$
 
 Consequently, the restriction of $\psi$ to B is injective, hence the lemma.
@@ -186,7 +186,7 @@ $$
 
 Let H be a compact Lie group, $\rho : H\rightarrow \mathbf{G}\mathbf{L}(V)$ a continuous (hence analytic) representation of H on a finite dimensional real vector space, and W a neighbourhood of the origin in V. There exists an open neighbourhood B of the origin, contained in W and stable under H, and an analytic isomorphism $u: V\rightarrow B$, compatible with the operations of H, such that $u(0) = 0$ and $Du(0) =$ Id$_V$.
 
-Choose a scalar product on V invariant under H (§1, no. 1). There exists a real number $r >0$ such that the open ball B of radius $r$ is contained in W; it is clearly stable under H. Put $u(v) =r(r^2+v^2)^{-1/2}v$ for all $v\in V$; then $u$ is a bijective analytic map from V to B, compatible with the operations of H, and its inverse map $w \rightarrow r(r^2- w^2)^{-1/2}w$ is analytic. Moreover, $u(0) = 0$ and $Du(0) =$ Id$_V$.
+Choose a scalar product on V invariant under H (§1, no. 1). There exists a real number $r >0$ such that the open ball B of radius $r$ is contained in W; it is clearly stable under H. Put $u(v) =r(r^2+\|v\|^2)^{-1/2}v$ for all $v\in V$; then $u$ is a bijective analytic map from V to B, compatible with the operations of H, and its inverse map $w \rightarrow r(r^2- \|w\|^2)^{-1/2}w$ is analytic. Moreover, $u(0) = 0$ and $Du(0) =$ Id$_V$.
 
 #### Proposition 5 {#lie-ix-s9-prop-5 .statement tag=01HQ}
 
