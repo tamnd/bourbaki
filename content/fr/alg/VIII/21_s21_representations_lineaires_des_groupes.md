@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: 4688ff565ca0892c40105efdc12811ab01ef97037389da651995d0923aab11c2
+content_sha256: a2d21ba2b6a1c7e9e641334ca53849f76330cc96bdc516b0bcb2d9699f59eec4
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -928,7 +928,7 @@ $$
 \pi^{\lambda}_{ij}(g) =\langle e_{\lambda ,i}|\pi_{\lambda}(g)e_{\lambda ,j}\rangle_{\lambda} \tag{59}
 $$
 
-Comme l’endomorphisme $\pi_{\lambda}(g)$ est unitaire, son inverse est égal à $\pi_{\lambda}(g)^*$, d’où (60) $\pi^{\lambda}_{ij}(g) =\pi_{ji}^{\lambda}(g^{-1})$.
+(60) Comme l’endomorphisme $\pi_{\lambda}(\pi g_{\lambda ij})$ est unitaire, son inverse est égal à$(g) =\pi_{ji\lambda}(g_{-1}).\pi_{\lambda}(g)^*$, d’où
 
 Il résulte alors des formules (22) de VIII, p. 399 et (25) p. 399, que les fonctions $(d_{\lambda})^{1/2}\pi_{ij}^{\lambda}$, pour $\lambda \in \widehat{G}, 1\leqslant i\leqslant d_{\lambda}, 1\leqslant j\leqslant d_{\lambda}$, forment une base orthonormale de l’espace hilbertien $\mathbf{C}[G].*$
 

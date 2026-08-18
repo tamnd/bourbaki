@@ -37,7 +37,7 @@ subsections:
       pdf_page: 445
 statements: 31
 exercises: 34
-content_sha256: 4dcea141368ebc9803471ed7ae6c2bc022513f3614dcf50b293cadf066aabf75
+content_sha256: 33d8e3d3f896507e9f4ad56afa068d2ab5c5b0ad62de16239fee73cca722508f
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -202,7 +202,9 @@ Les composantes connexes par arcs de X sont les $A_i$, pour $i\in I$. Les compos
 
 Pour tout élément $i$ de I, choisissons un point $a(i)$ de $A_i$.
 
-Pour tout élément $j= (i, i',V)$ de J, choisissons un point $b(j)$ dans V, un chemin $B_1(j)$ reliant $b(j)$ à $a(i)$ dans $A_i$ et un chemin $B_2(j)$ reliant $b(j)$ à $a(i')$ dans $A_{i'}$. Soit $j= (i, i',V)$ un élément de $\overline{J}$; alors $\overline{j}= (i', i,V)$ appartient à J et l’on pose $b(\overline{j}) =b(j)$, $B_1(j) = B_2(\overline{j})$ et $B_2(j) = B_1(\overline{j})$. Pour $j\in J'\cup \overline{J'}$, les chemins $\overline{B_1(j)}$ et $B_2(j)$ dans Y sont juxtaposables. Posons
+Pour tout élément $j= (i, i',V)$ de J, choisissons un point $b(j)$ dans V, un chemin $B_1(j)$ reliant $b(j)$ à $a(i)$ dans $A_i$ et un chemin $B_2(j)$
+
+reliant$\overline{j}= (i', i,b(jV)$) àappartient à$a(i')$ dans A$J^{i'}$. Soitet l’on pose$j= (i, ib(',\overline{j}V)$) =un élément de$b(j)$, $B_1(j) = B\overline{J}_2$; alors$(\overline{j})$ et $B_2(j) = B_1(\overline{j})$. Pour $j\in J'\cup \overline{J'}$, les chemins $\overline{B_1(j)}$ et $B_2(j)$ dans Y sont juxtaposables. Posons
 
 $$
 B(j) = B_1(j)*B_2(j) \tag{3}
@@ -262,13 +264,7 @@ $$
 L_1(k) = B_1(j_{13}(k))*\overline{C_{13}(k)}*C_{12}(k)*B_1(j_{12}(k))
 $$
 
-$$
-L_2(k) = B_2(j_{12}(k))*\overline{C_{12}(k)}*C_{23}(k)*B_1(j_{23}(k)) \tag{4}
-$$
-
-$$
-L_3(k) = B_2(j_{23}(k))*\overline{C_{23}(k)}*C_{13}(k)*B_2(j_{13}(k))
-$$
+(4) L$L_{23}((kk) = B) = B_{22}((jj_{1223}((kk))))**\overline{CC^{1223}((kk))}**CC_{2313}((kk))**BB_{12}((jj_{2313}((kk))))$,.
 
 Pour $s\in  \{1,2,3\}$, on note $\lambda_s(k)$ la classe dans $\pi_1(A_{i_s}, a(i_s))$ du lacet $L_s(k)$.
 
@@ -354,13 +350,7 @@ $$
 \rho (\mathsf{r}_2(j, v)) =\rho (\varphi_j(v)j\psi_j(v)^{-1}j^{-1})
 $$
 
-$$
-= [B_1(j)]^{-1}v[B_1(j)]\rho (j)[B_2(j)]^{-1}v^{-1}[B_2(j)]\rho (j)^{-1}
-$$
-
-$$
-= [B_2(\overline{j})]^{-1}v[B_2(\overline{j})]\overline{j}^{-1}[B_1(\overline{j})]^{-1}v^{-1}[B_1(\overline{j})]\overline{j}
-$$
+= [B$= [B_{12}((\frac{j}{j})])]^-_-^1_1vv[B[B_{12}((\frac{j}{j})])]\rho \overline{j}_-(j_1)[B[B_{12}(\frac{(}{j}j)])]_-^-_1^1vv_-^-_1^1[B[B_{12}(\frac{(}{j}j)])]\overline{j}\rho (j)^{-1}$
 
 entraîne que $\rho (\mathsf{r}_2(j, v))$ est conjugué à $\rho (\mathsf{r}_2(j, v^{-1}))$.
 

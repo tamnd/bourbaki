@@ -67,9 +67,9 @@ subsections:
       title: Cas d’une algèbre sans élément unité
       page: 88
       pdf_page: 101
-statements: 55
+statements: 54
 exercises: 18
-content_sha256: c44317eaaa570db1578f5cecf838d42c582adc0ccd7b7715130826c7c58c811f
+content_sha256: 151915a3b6c977f6ed4831cf61a0f863e1351b9737c88ed1701625263679fe19
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -547,15 +547,7 @@ $$
 Soit $f\in \mathscr{O}(U; A)$. L’application $f$ étant holomorphe, on a
 
 $$
-^n\partial f
-$$
-
-$$
-df=\sum dz_i
-$$
-
-$$
-\partial z_i
+df=\sum^n\frac{\partial f}{\partial z_i}dz_i
 $$
 
 $i=1$
@@ -584,11 +576,7 @@ ce qui achève la démonstration.
 
 Ce lemme démontre qu’il existe une unique application A-linéaire $\Theta_{\boldsymbol{a}}$ de $\mathscr{O}$(Sp$^n(\boldsymbol{a}); A)$ dans A telle que
 
-$n$! $\int$
-
-$$
-\Theta_{\boldsymbol{a}}(f) =_n\widetilde{f \omega} \tag{5}
-$$
+(5) $\Theta_{\boldsymbol{a}}(f) =n$! $_n\int\widetilde{f \omega}$
 
 $$
 (2i\pi )_U
@@ -606,14 +594,8 @@ Soit $a$ un élément de A, soit U un voisinage ouvert de Sp($a$), et soit $f\in
 
 Alors $z\mapsto f(z)(z-a)^{-1}$ est continue sur $\partial V$, la forme différentielle $f(z)(z-a)^{-1}dz$ est intégrable sur $\partial V$ et on a
 
-1 $\int_{-1}$
-
 $$
-\Theta_a(f) =f(z)(z-a)dz
-$$
-
-$$
-2i\pi_{\partial V}
+\Theta_a(f) =\frac{1}{2i\pi}\int_{\partial V}f(z)(z-a)^{-1}dz
 $$
 
 Soit $h$ une application de $\mathbf{C}$ dans $\mathbf{C}$, indéfiniment dérivable, égale à 1 au voisinage de Sp($a$) et à support compact contenu dans l’intérieur de V (lemme 1 de I, p. 52). Soit $u$ une application de $\mathbf{C}$ dans A telle que $(h, u)$ est adaptée à $a($cf. exemple 3 de I, p. 53). La forme différentielle associée est $\omega =du\wedge dz$. Il vient $f \omega =f du\wedge dz=d(f u dz)$ puisque $f$ est holomorphe. De plus, $u(z) = (z-a)^{-1}$ sur le bord de V. Par ailleurs, la forme différentielle $f u dz$ est de classe $C^1$ sur U. Donc
@@ -628,18 +610,10 @@ d’après la formule (5) et la formule de Stokes pour la pièce V (VAR, R2, p. 
 
 Soit $a\in A$. On a $\Theta_a(1) = 1$.
 
-Soit $R> \varrho (a)$ un nombre réel. Soit V le disque fermé de centre 0 et de rayon R, de sorte que Sp($a$)$\subset \mathring{V}$. C’est une pièce de $\mathbf{C}$ dont le bord $\partial V$ est le cercle de centre 0 et de rayon R. Pour $z\in \mathbf{C}-\mathring{V}$, on a la formule $(z-a)^{-1}=z^{-1}(1-z^{-1}a)^{-1}=\sum^{+\infty}_{j=1}z^{-j}a^{j-1}$. La série converge
-
-uniformément pour $z\in \partial V$. On a donc
-
-1 $+\infty j-1\int-j$
+Soit $R> \varrho (a)$ un nombre réel. Soit V le disque fermé de centre 0 et de rayon R, de sorte que Sp($a$)$\subset \mathring{V}$. C’est une pièce de $\mathbf{C}$ dont le bord $\partial V$ est le cercle de centre 0 et de rayon R. Pour $z\in \mathbf{C}-\mathring{V}$, on a la formule $(z-a)^{-1}=z^{-1}(1-z^{-1}a)^{-1}=\sum^{+\infty}_{j=1}z^{-j}a^{j-1}$. La série converge uniformément pour $z\in \partial V$. On a donc
 
 $$
-\Theta_a(1) =\sum azdz= 1
-$$
-
-$$
-2i\pi_{j=1\partial V}
+\Theta_a(1) =\frac{1}{2i\pi}\sum^{+\infty}_{j=1}a^{j-1}\int_{\partial V}z^{-j}dz= 1
 $$
 
 puisque
@@ -720,15 +694,7 @@ $$
 
 Comme $g=f\circ \pi$, la formule (5) et le lemme 8 impliquent
 
-$(n+$ 1)! $\int(n+$ 1)! $(\int)$
-
-$$
-\Theta_{\boldsymbol{a},\boldsymbol{a}'}(g) =g\omega =du_{n+1}\wedge dz_{n+1}
-$$
-
-$$
-(2i\pi )^{n+1}_{U\times\mathbf{C}}(2i\pi )^{n+1}_{\mathbf{C}}
-$$
+$\Theta_{\boldsymbol{a},\boldsymbol{a}'}(g) =$ (2$(ni\pi +$ 1)!$)_{n+1}\int_{U\times\mathbf{C}}g\omega =$ (2$(ni\pi +$ 1)!$)_{n+1}(\int_{\mathbf{C}}du_{n+1}\wedge dz_{n+1})$
 
 $$
 \times (\int_Uf h du_1\wedge dz_1\wedge  \cdots  \wedge du_n\wedge dz_n)
@@ -746,25 +712,11 @@ $$
 (n+ 1)\int_Uf hdu_1\wedge dz_1\wedge  \cdots  \wedge du_n\wedge dz_n=
 $$
 
-$$
-\int(2i\pi )^n
-$$
-
-$$
-f du_1\wedge dz_1\wedge  \cdots  \wedge du_n\wedge dz_n=\Theta_{\boldsymbol{a}}(f)
-$$
-
-$_Un$!
+$\int_Uf du_1\wedge dz_1\wedge  \cdots  \wedge du_n\wedge dz_n=(2i\pi n$!$)^n\Theta_{\boldsymbol{a}}(f)$.
 
 Ainsi on obtient
 
-$(n+$ 1)! $(2i\pi )^n$
-
-$$
-\Theta_{\boldsymbol{a},\boldsymbol{a}'}(g) =\times \Theta_{\boldsymbol{a}}(f)\times 2i\pi = \Theta_{\boldsymbol{a}}(f)
-$$
-
-$(2i\pi )^{n+1}(n+$ 1)!
+$\Theta_{\boldsymbol{a},\boldsymbol{a}'}(g) =$ (2$(ni\pi +$ 1)!$)_{n+1}\times ((2ni\pi +$ 1)!$)^n\Theta_{\boldsymbol{a}}(f)\times 2i\pi = \Theta_{\boldsymbol{a}}(f)$.
 
 Finalement, la formule $\Theta_{\boldsymbol{a}}(1) = 1$ résulte de ce qui précède et du corollaire de la prop. 1.
 
@@ -790,15 +742,7 @@ $$
 
 puisque $f$ est holomorphe, de sorte que $df\wedge dz_1\wedge  \cdots  \wedge dz_n= 0$. Appliquant la formule de Stokes (VAR, R2, p. 48, 11.2.4), on obtient $\int_U(z_i-a_i)f \omega = 0$, d’où
 
-$n$! $\int n$! $\int$
-
-$$
-\Theta_{\boldsymbol{a}}(z_if) =z_if \omega =a_if \omega =a_i\Theta_{\boldsymbol{a}}(f)
-$$
-
-$$
-(2i\pi )^n_U(2i\pi )^n_U
-$$
+$\Theta_{\boldsymbol{a}}(z_if) =(2i\pi n$!$)_n\int_Uz_if \omega =(2ni\pi$!$)_n\int_Ua_if \omega =a_i\Theta_{\boldsymbol{a}}(f)$
 
 d’après la formule (5). Le résultat en découle.
 
@@ -862,15 +806,7 @@ $$
 
 est égale à $(\varphi \circ \psi )\cdot \mu$. Donc, d’après la formule (5), et INT, VI, §2, n$^o2$, prop. 2, on a
 
-$n$! $\int n$! $(\int)$
-
-$$
-\Theta_{\boldsymbol{b}}(\varphi \circ f) =(\varphi \circ f)\mu=\varphi \psi  \mu=\varphi (\Theta_{\boldsymbol{a}}(f))
-$$
-
-$$
-(2i\pi )^n_U(2i\pi )^n_U
-$$
+$\Theta_{\boldsymbol{b}}(\varphi \circ f) =(2i\pi n$!$)_n\int_U(\varphi \circ f)\mu=(2ni\pi$!$)_n\varphi (\int_U\psi  \mu)=\varphi (\Theta_{\boldsymbol{a}}(f))$,
 
 comme il était demandé.
 
@@ -1112,15 +1048,7 @@ Soient A une algèbre de Banach unifère et $a\in A$. Soient U un voisinage ouve
 
 Pour tout entier $n\geqslant 0$, l’application $z\mapsto f(z)(z-a)^{-n-1}$ est continue sur $\partial V$, la forme différentielle $z\mapsto f(z)(z-a)^{-n-1}dz$ est intégrable sur $\partial V$ et on a
 
-$_{(n)}n$! $\int_{-n-1}$
-
-$$
-f(a) =f(z)(z-a)dz \tag{7}
-$$
-
-$$
-2i\pi_{\partial V}
-$$
+(7) $f^{(n)}(a) =2ni\pi$! $\int_{\partial V}f(z)(z-a)^{-n-1}dz$
 
 où $f^{(n)}\in \mathscr{O}(U)$ est la $n$-ème dérivée de $f$.
 
@@ -1138,15 +1066,7 @@ $$
 
 En appliquant l’hypothèse de récurrence à $f'$, on obtient donc
 
-$$
-2i\pi_{(n+1)}\int_{-n-2}
-$$
-
-$$
-f(a) = (n+ 1)f(z)(z-a)dz
-$$
-
-$n$! $\partial_V$
+$2ni\pi$! $f^{(n+1)}(a) = (n+ 1)\int_{\partial V}f(z)(z-a)^{-n-2}dz$,
 
 ce qui est l’assertion de la proposition pour l’entier $n+ 1$. Cela conclut la preuve.
 
@@ -1176,14 +1096,8 @@ avec $\|(h(z-a)^{-1})^n\|\leqslant 2^{-n}$ (prop. 2 de I, p. 22). Ainsi, Sp$_A(a
 
 Soit $f\in \mathscr{O}(U)$. Notons $m$ la borne supérieure de $|f(z)|$ pour $z\in \partial V$. Soit $a\in A$. Pour tout $h\in A$ tel que $\|h\|\leqslant (2M)^{-1}$, on a
 
-1 $\int_{-1}$
-
 $$
-f(a+h) =f(z)(z-(a+h))dz
-$$
-
-$$
-2i\pi_{\partial V}
+f(a+h) =\frac{1}{2i\pi}\int_{\partial V}f(z)(z-(a+h))^{-1}dz
 $$
 
 (prop. 9). La série (8) converge uniformément sur le bord de V, donc
@@ -1194,24 +1108,14 @@ $$
 
 où l’application $f_{a,n}$ de A dans A est définie par
 
-1 $\int-1-1n$
-
-$f_{a,n}(h) =f(z)(z-a)(h(z-a)$ ) $dz$.
-
 $$
-2i\pi_{\partial V}
+f_{a,n}(h) =\frac{1}{2i\pi}\int_{\partial V}f(z)(z-a)^{-1}(h(z-a)^{-1})^ndz
 $$
 
 Pour tout $n\in \mathbf{N}$, la fonction $f_{a,n}$ est une fonction polynomiale homogène continue de degré $n$. De plus, il vient
 
 $$
-mM(\int)_{-(n+1)}
-$$
-
-$\|f_{a,n}(h)\|\leqslant \|dz\|$ 2
-
-$$
-\pi_{\partial V}
+\|f_{a,n}(h)\|\leqslant \frac{mM}{\pi}(\int_{\partial V}\|dz\|)2^{-(n+1)}
 $$
 
 (INT, VI, §2, n$^o3$, prop. 5). La série $\sum_nf_{a,n}(h)$ est donc absolument convergente pour $\|h\|\leqslant (2M)^{-1}$. Cela démontre que l’application qui à $a$ associe $f(a)$ est holomorphe sur Ω (VAR, R1, p. 26, 3.2.1).
@@ -1226,13 +1130,7 @@ b) Si $b\in A$ est permutable à $a$ et si $\varrho (b)< \delta$, on a Sp$_A(a+b
 
 $\infty (n)$
 
-$$
-f(a)_n
-$$
-
-$f(a+b) =\sum b$,
-
-$n$!
+$f(a+b) =\sum fn$!$(a)b^n$,
 
 $n=0$
 
@@ -1240,11 +1138,7 @@ où la série converge absolument.
 
 Soit $\eta$ un nombre réel tel que $0< \eta  < \delta$. Notons $\varepsilon =\delta -\eta  >0$. Soit K le voisinage compact de Sp$_A(a)$ formé des points de $\mathbf{C}$ dont la distance à Sp$_A(a)$ est $\leqslant \varepsilon /2$. Comme $f$ est holomorphe dans tout disque ouvert de rayon $\eta +\varepsilon /2$ dont le centre appartient à K, il existe, d’après les inégalités de Cauchy (VAR, R1, p. 29, 3.3.4), un nombre réel $C\geqslant 0$ tel que
 
-$|f^{(n)}(z)|$ C
-
-sup $\leqslant_n$
-
-$_{z\in K}n$! $\eta$
+sup$_{z\in K}|f^(\overset{n)}{n}$!$(z)|\leqslant \frac{C}{\eta^n}$
 
 pour tout entier $n\geqslant 0$. Alors l’assertion a) résulte de la prop. 1 de I, p. 61 appliquée à $f^{(n)}$ et à une pièce V contenue dans K.
 
@@ -1252,27 +1146,11 @@ Soit $b$ un élément de A permutable à $a$ tel que $\varrho (b)< \delta$. En r
 
 Puisque $\varrho (b)< \delta$, on peut choisir $\eta$ tel que $\varrho (b)< \eta  < \delta$. Soient $V_1$ l’ensemble des points de $\mathbf{C}$ dont la distance à Sp$_A(a)$ est $< \delta -\eta$, et $V_2$ le disque ouvert de centre 0 et de rayon $\eta$ dans $\mathbf{C}$. Soit $g$ l’application $(z_1, z_2)\mapsto z_1+z_2$ de $V_1\times V_2$ dans U. Alors $h=f\circ g$ est l’application $(z_1, z_2)\mapsto f(z_1+z_2)$ de $V_1\times V_2$ dans $\mathbf{C}$. On a Sp$^2_A(a, b)\subset V_1\times V_2$, donc Sp$_A(a+b)\subset U$ (cf. cor. 2 de I, p. 67), et de plus $f(a+b) =h(a, b)$ d’après le th. 4 de I, p. 72. Or, dans l’espace $\mathscr{O}(V_1\times V_2)$, on a
 
-$$
-f^{(n)}(z_1)_n
-$$
-
-$$
-h(z_1, z_2) =\sum z_2
-$$
-
-$_{n\geqslant 0}n$!
+$h(z_1, z_2) =\sum_{n\geqslant 0}f^{(n}\overset{)}{n}($!$z^1)z_2^n$,
 
 (VAR, R1, p. 29, 3.3.4) donc la série
 
-$$
-f^{(n)}(a)_n
-$$
-
-$$
-\sum b
-$$
-
-$n$!
+$\sum f^(\overset{n)}{n}$!$(a)b_n$
 
 $n\geqslant 0$ converge dans A et sa somme est $h(a, b) =f(a+b)$. En outre, cette série est absolument convergente d’après l’assertion a).
 
@@ -1282,13 +1160,7 @@ On note exp la fonction exponentielle complexe de $\mathbf{C}$ dans $\mathbf{C}$
 
 $\infty n$
 
-$$
-a
-$$
-
-(9) exp($a$) $=\sum$.
-
-$n$!
+(9) exp($a$) $=\sum an$!.
 
 $n=0$
 
@@ -1298,13 +1170,7 @@ Lorsque $a$ est un endomorphisme d’un espace de Banach E, l’exponentielle ex
 
 Pour tout élément $b$ de A qui est permutable à $a$, on a aussi
 
-$$
-^{\infty}b^n
-$$
-
-exp($a+b$) $=\sum$ exp($a$),
-
-$n$!
+exp($a+b$) $=\sum^{\infty}bn^n$! exp($a$),
 
 $n=0$
 
@@ -1328,29 +1194,13 @@ Si $a\in A$ est tel que Sp$_A(a)\subset F$, on peut former l’élément log($a$
 
 En particulier, si $a\in A$ est tel que $\varrho (a)<1$, on a Sp$_A(1-a)\subset F$ et on peut former log(1 $-a)$. Pour $n\geqslant 1$, la $n$-ème dérivée de $z\mapsto$ log(1$-z)$ est $z\mapsto  -(n-$1)!(1$-z)^{-n}$ Le développement en série entière de $z\mapsto$ log(1 $-z)$ au point 0 est donc
 
-$$
-^{\infty}z^n
-$$
-
-log(1 $-z) =-\sum$,
-
-$$
-n
-$$
+log(1 $-z) =-\sum^{\infty}\frac{z^n}{n}$,
 
 $n=1$
 
 valide pour $|z|<1$ (VAR, R1, p. 30, 3.3.9). D’après la prop. 2 de I, p. 65, il vient
 
-$$
-^{\infty}a^n
-$$
-
-(14) log(1 $-a) =-\sum$.
-
-$$
-_{n=1}n
-$$
+(14) log(1 $-a) =-\sum_{n=1}^{\infty}\frac{a^n}{n}$.
 
 #### Proposition 12 {#ts-i-s4-prop-12 .statement tag=02AY}
 
@@ -1532,14 +1382,8 @@ Sp$_A(x)\cap (\Gamma \cup \Delta ) =\{\mu\}$.
 
 Alors l’idempotent $j_{\{\mu\}}$ associé à $x$ et $\{\mu\}$ est donné par
 
-1 $\int_{-1}$
-
 $$
-j_{\{\mu\}}=(z-x)dz
-$$
-
-$$
-2i\pi_{\Gamma}
+j_{\{\mu\}}=\frac{1}{2i\pi}\int_{\Gamma}(z-x)^{-1}dz
 $$
 
 *En d’autres termes, l’idempotent $j_{\{\mu\}}$ est le résidu en $\mu$ de la résolvante de $x.*$
@@ -1552,26 +1396,14 @@ $$
 
 où H = Sp$_A(x)-\{\mu\}$ (formule (19)). La fonction $z\mapsto R_H(x, z)$ est holomorphe dans $\mathbf{C}-$ H et au voisinage de $\{\mu\}$ (prop. 17, b)), donc
 
-1 $\int$
-
 $$
-R_H(x, z)dz= 0
-$$
-
-$$
-2i\pi_{\Gamma}
+\frac{1}{2i\pi}\int_{\Gamma}R_H(x, z)dz= 0
 $$
 
 (VAR, R2, p. 48, 11.2.5). La fonction $z\mapsto R_{\{\lambda\}}(x, z)$ est la résolvante de l’élément $j_{\{\mu\}}xj_{\{\mu\}}$ de l’algèbre unifère $A_{\{\mu\}}$. On a alors
 
-1 $\int$
-
 $$
-j_{\{\mu\}}=R_{\{\mu\}}(x, z)dz
-$$
-
-$$
-2i\pi_{\Gamma}
+j_{\{\mu\}}=\frac{1}{2i\pi}\int_{\Gamma}R_{\{\mu\}}(x, z)dz
 $$
 
 d’après la prop. 9 de I, p. 75 appliquée à $A_{\{\mu\}}$ et à la fonction constante 1 au voisinage de $\Delta \cup \Gamma$. Le corollaire en résulte.
@@ -1612,11 +1444,7 @@ On a $z^*=z$, donc $z$ appartient à $\mathscr{O}_{\mathbf{R}}(S)$. Soit B une s
 
 Il existe des polynômes P et Q dans $\mathbf{C}[X]$ tels que Q ne s’annule en aucun point de S et que l’on ait $f=\frac{P(z)}{Q(z)}$. Notons $P^*$ et $Q^*$ les polynômes obtenus en remplaçant les coefficients de P et Q par leurs conjugués. On a alors $P(z)^*= P^*(z)$ et $Q(z)^*= Q^*(z)$. Comme S est stable par la conjugaison complexe, le polynôme $Q^*$ ne s’annule en aucun point de S. Les germes $Q^*(z)$ et (QQ$^*)(z)$ sont donc inversibles dans $\mathscr{O}(S)$, et
 
-$_*P(z)P^*(z)$ (PQ$^*+ P^*Q)(z)$
-
-$f+f$ = + $_*$ = $*$.
-
-$Q(z)$ Q $(z)$ (QQ $)(z)$
+$f+f_*=\frac{P(z)}{Q(z)}+\frac{P^*(z)}{Q^*(z)}=$ (PQ(QQ$^*+ P_*)(^*Q)(z)z)$.
 
 Comme les polynômes PQ$^*+ P^*Q$ et QQ$^*$ sont à coefficients réels et que B est une sous-$\mathbf{R}$-algèbre pleine de $\mathscr{O}(S)$ contenant $z$, l’élément $f+f^*$ appartient à B. Cela conclut la preuve de la proposition.
 
@@ -1630,11 +1458,9 @@ pour toute norme sur A qui définit la topologie de A. En effet, on peut suppose
 
 Notons $u\mapsto \overline{u}$ l’endomorphisme de la $\mathbf{R}$-algèbre $A_{(\mathbf{C})}$ qui applique $\lambda \otimes a$ sur $\overline{\lambda}\otimes a$. Il est continu.
 
-#### Lemme {#ts-i-s4-n13-lem-1 .statement tag=02BB}
+LemmeLes applications. — Pour tout$f\mapsto ff\in (1\mathscr{O}\otimes$(Sp$x)_A$et$^{^{(\mathbf{C})}}f(x\mapsto ))$, on a$f_*(1\otimes f\overset{*}{x}(1$) sont des homomor-$\otimes x) =\overline{f(1 \otimes x)}$.
 
-Pour tout $f\in \mathscr{O}$(Sp$_{A_{(\mathbf{C})}}(x))$, on a $f^*(1\otimes x) =\overline{f(1 \otimes x)}$.
-
-Les applications $f\mapsto f(1\otimes x)$ et $f\mapsto \overline{f^*(1 \otimes x)}$ sont des homomorphismes unifères continus de $\mathbf{C}$-algèbres de $\mathscr{O}$(Sp($x$)) dans $A_{(\mathbf{C})}$ qui appliquent $z$ sur $1\otimes x$; elles sont donc égales (I, p. 74, th. 5).
+phismes unifères continus de $\mathbf{C}$-algèbres de $\mathscr{O}$(Sp($x$)) dans $A_{(\mathbf{C})}$ qui appliquent $z$ sur $1\otimes x$; elles sont donc égales (I, p. 74, th. 5).
 
 #### Proposition 20 {#ts-i-s4-prop-20 .statement tag=02BC}
 

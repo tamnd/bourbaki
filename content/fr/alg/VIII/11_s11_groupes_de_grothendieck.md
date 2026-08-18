@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: ec1b8726f1f1554b0f863f9fcfac81c448c1fc83ecadab5444d97b49495b80e0
+content_sha256: 7ee0cb5e57f28badfa5b525e747005f79eb49994a2101648f3263350c1758957
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -832,28 +832,14 @@ $$
 
 Supposons que A et B soient des algèbres de dimension finie sur un corps commutatif K et que $f$ soit K-linéaire. Comme plus haut, il existe des entiers $m\geqslant 1$ et $n\geqslant 1$, des K-algèbres D et E qui sont de corps et des isomorphismes de K-algèbres de A sur $\mathbf{M}_m(D)$ et de B sur $\mathbf{M}_n(E)$. Posons $d= [D : K]$ et $e= [E : K]$. On a alors les relations
 
-$_2$ 2 $n^2e$
-
 $$
-[A : K] =md,[B : K] =ne,[B : A]_s=
-$$
-
-$$
-m^2d
+[A : K] =m^2d,[B : K] =n^2e,[B : A]_s=\frac{n^2e}{m^2d}
 $$
 
 et, d’après les formules (30) et (32), les relations
 
 $$
-nne
-$$
-
-$$
-i(f) =,h(f) =
-$$
-
-$$
-mmd
+i(f) =\frac{n}{m},h(f) =\frac{ne}{md}
 $$
 
 Lorsque le corps K est algébriquement clos, on a $d=e= 1$, d’où $i(f) =h(f)$ et $[B : A]_s=i(f)^2$.

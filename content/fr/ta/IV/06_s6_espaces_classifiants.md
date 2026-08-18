@@ -33,7 +33,7 @@ subsections:
       pdf_page: 465
 statements: 32
 exercises: 9
-content_sha256: 0bfb5befc714da7783e7e4edb6e619e0e363206ca9322ebb6a3f6a793bb39743
+content_sha256: c70cf62e3ba515286124bcc69bee14c669419fb2993f6c6c72e49f7c8fa06bc7
 ---
 
 ## § 6. ESPACES CLASSIFIANTS
@@ -411,15 +411,7 @@ p_V(h) =\sum_{h(t_ii_-=1_1)\notin V}^n(t_i-t_{i-1})
 $$
 
 $$
-^nd(h(t_{i-1}), e)
-$$
-
-$$
-\leqslant \sum(t_i-t_{i-1})
-$$
-
-$$
-\delta
+\leqslant \sum^n(t_i-t_{i-1})\frac{d(h(t_{i-1}), e)}{\delta}
 $$
 
 $$
@@ -429,15 +421,7 @@ $$
 $d(h(t_{i-1}),e)\geqslant \delta$
 
 $$
-d^*(h, e^*)
-$$
-
-$$
-\leqslant
-$$
-
-$$
-\delta
+\leqslant \frac{d^*(h, e^*)}{\delta}
 $$
 
 Par conséquent, la boule $B(e^*, \varepsilon \delta )$ dans $G^*$ est contenue dans $V_{\varepsilon}^*$.
@@ -456,17 +440,13 @@ $d(h(t_{i-1}),e)\leqslant \delta /2$
 
 $d(h(t_{i-1}),e)>\delta /2$
 
-$\leqslant \delta + \Delta \sum^n(t_i-t_{i-1})$
-
-2 $i_{=1}$
+$\leqslant \frac{\delta}{2}+ \Delta \sum_{i=1}^n(t_i-t_{i-1})$
 
 $h(t_{i-1})\notin V$
 
 $$
-\leqslant \delta + \Delta p_V(h)
+\leqslant \frac{\delta}{2}+ \Delta p_V(h)
 $$
-
-2
 
 L’inégalité précédente entraîne que, pour tout élément $h$ de $V_{\delta /2\Delta}^*$, on a $d^*(h, e^*)\leqslant \delta$. Par conséquent, toute boule de $G^*$ pour la distance $d^*$ contient un voisinage de l’élément neutre.
 

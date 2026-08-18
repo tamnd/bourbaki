@@ -37,7 +37,7 @@ subsections:
       pdf_page: 41
 statements: 28
 exercises: 37
-content_sha256: 79f10eaab7729efb2457c83478ac149ad739b79ce2db530223584b3410ea0e46
+content_sha256: 8c50cb4cbd7b37b862e7a67e2fa016dd006043f8be6636fdc4c038c9f2a0127b
 ---
 
 ## § 2. ALGÈBRES NORMÉES
@@ -138,29 +138,17 @@ Le spectre de $f\in \mathscr{K}(X; K)$ est égal à $f(X)$ (en effet, si X n’e
 
 4) Soit $n\geqslant 0$ un entier. Soit $A_n$ l’algèbre des fonctions $f: [0,1]\rightarrow K$ admettant des dérivées continues dans $[0,1]$ jusqu’à l’ordre $n$, munie de la norme
 
-$^n$ 1 $(_{k)}$
-
-$\|f\|=\sum$ sup $|f(t)|$.
-
-$k$! $_{0\leqslant t\leqslant 1}$
+$\|f\|=\sum^nk1$! sup$_{0\leqslant t\leqslant 1}|f^{(k)}(t)|$.
 
 $k=0$
 
 Si $f, g\in A_n$, on a
 
-$n$ 1 $(k)n$ 1 $|k(k)(s)(k-s)|$
-
-$\|f g\|=\sum$ sup$|(f g)(t)|=\sum$ sup $\sum f(t)g(t)$
-
-$k$! $k$! $s$
+$\|f g\|=\sum^nk1$! sup$|(f g)^{(k)}(t)|=\sum^nk1$! sup$|\sum^k(ks)f^{(s)}(t)g^{(k-s)}(t)|$
 
 $k=0k=0s=0$
 
-$nk$ 1 $(s)(k-s)$
-
-$\leqslant \sum\sum$ sup $|f(t)|$ sup $|g(t)|=\|f\| \|g\|$,
-
-$s$!($k-s$)! $_{0\leqslant t\leqslant 1}0_{\leqslant t\leqslant 1}$
+$\leqslant \sum^n\sum^ks$!($k1-s$)! sup$_{0\leqslant t\leqslant 1}|f^{(s)}(t)|$ sup$_{0\leqslant t\leqslant 1}|g^{(k-s)}(t)|=\|f\| \|g\|$,
 
 $k=0s=0$
 
@@ -200,14 +188,8 @@ $$
 
 il vient
 
-1 $\int 1it-int$
-
 $$
-c_n=\varphi (x)(e)edt
-$$
-
-$$
-2\pi_0
+c_n=\frac{1}{2\pi}\int_0^1\varphi (x)(e^{it})e^{-int}dt
 $$
 
 En particulier, il en découle que le morphisme $\varphi$ est injectif. L’algèbre A, munie de la norme déduite de celle de $L^1_{\mathbf{C}}(\mathbf{Z})$ par $\varphi$, s’appelle l’algèbre de Banach des séries de Fourier absolument convergentes. Elle admet pour élément unité la fonction $1 =\varphi (\varepsilon )$.
@@ -226,39 +208,17 @@ $$
 
 pour tout $n\geqslant 1$ et tout $m\geqslant 1$. Alors la suite $(a_n/n)_{n\geqslant 1}$ converge et vérifie
 
-$$
-a_na_n
-$$
-
-lim = inf.
-
-$$
-^{n\rightarrow+\infty}n_{n\geqslant 1}n
-$$
+lim$_{n\rightarrow+\infty}\frac{a_n}{n}=$ inf$_{n\geqslant 1}\frac{a_n}{n}$.
 
 Posons $a_0= 0$ ; l’inégalité $a_{n+m}\leqslant a_n+a_m$ reste valide pour tout $n\geqslant$ 0 et tout $m\geqslant 0$. Fixons un entier $m\geqslant$ 1. Pour tout entier $n\geqslant 1$, soient $q(n)$ et $r(n)$ les entiers tels que $n=q(n)m+r(n)$ et $0\leqslant r(n)< m$ (E, III, p. 39, th. 1). L’hypothèse implique alors
 
 $$
-a_na_{q(n)m}a_{r(n)}q(n)a_ma_{r(n)}q(n)m
-$$
-
-$\leqslant$ + $\leqslant$ + $\leqslant a_m+$.
-
-$$
-nnnnnnn
+\frac{a_n}{n}\leqslant \frac{a_{q(n)m}}{n}+\frac{a_{r(n)}}{n}\leqslant \frac{q(n)a_m}{n}+\frac{a_{r(n)}}{n}\leqslant \frac{q(n)}{n}a_m+\frac{m}{n}
 $$
 
 Faisant tendre $n$ vers $+\infty$, on en déduit que lim sup$_n(a_n/n)\leqslant a_m/m$ puisque $q(n)/n\rightarrow 1/m$. Puisque cela vaut pour tout $m\geqslant 1$, on a donc
 
-$$
-a_na_ma_n
-$$
-
-lim sup $\leqslant$ inf $\leqslant$ lim inf.
-
-$$
-_{n\rightarrow+\infty}n_{m\geqslant 1}m_n^{\rightarrow}_+^{\infty}n
-$$
+lim sup$_{n\rightarrow+\infty}\frac{a_n}{n}\leqslant$ inf$_{m\geqslant 1}\frac{a_m}{m}\leqslant$ lim inf$_{n\rightarrow+\infty}\frac{a_n}{n}$.
 
 Ces inégalités démontrent la convergence de la suite $(a_n/n)_{n\geqslant 1}$ ainsi que la formule lim $a_n/n=$ inf$_{n\geqslant 1}a_n/n$.
 
@@ -418,13 +378,7 @@ b) Le rayon spectral $\varrho (x)$ est le rayon du plus petit disque fermé de c
 
 c) La résolvante $\lambda \mapsto R(x, \lambda ) = (\lambda -x)^{-1}$ de $x$ est holomorphe dans $\mathbf{C}-$ Sp$_A(x)$ et nulle à l’infini. De plus, pour tout entier $k\geqslant 0$, on a la formule
 
-$\partial kkk+1$
-
-$R(x, \lambda ) = (-1)k$! $R(x, \lambda )$ ;
-
-$$
-\partial \lambda^k
-$$
+$\frac{\partial^k}{\partial \lambda^k}R(x, \lambda ) = (-1)^kk$! $R(x, \lambda )^{k+1}$;
 
 d) Pour tout nombre complexe $\lambda$ tel que $|\lambda |>1/\varrho (x)$, on a
 
@@ -456,13 +410,7 @@ d’après la prop. 2 de I, p. 22. Donc la résolvante de $x$ est définie et ho
 
 La formule (1) de I, p. 4 implique $\frac{\partial}{\partial \lambda}R(x, \lambda ) =-R(x, \lambda )^2$, d’où, par récurrence sur $k$,
 
-$\partial kkk+1$
-
-$R(x, \lambda ) = (-1)k$! $R(x, \lambda )$.
-
-$$
-\partial \lambda^k
-$$
+$\frac{\partial^k}{\partial \lambda^k}R(x, \lambda ) = (-1)^kk$! $R(x, \lambda )^{k+1}$.
 
 Soit $a >0$ un nombre réel tel que Sp$_A(x)$ soit contenu dans le disque fermé $\Delta_a$ de centre 0 et de rayon $a$. La fonction $\lambda \mapsto (\lambda^{-1}-x)^{-1}$ est alors définie et holomorphe pour $0<|\lambda |< a^{-1}$ et tend vers 0 quand $\lambda$ tend vers 0. L’unique fonction continue sur le disque ouvert de centre 0 et de rayon $a^{-1}$ qui prolonge cette fonction holomorphe est alors holomorphe (VAR, R1, 3.3.9), donc le rayon de convergence de la série (5) qui la définit est $\geqslant a^{-1}$ (VAR, R1, 3.2.9). D’après la prop. 2 de I, p. 22, on a donc $a\geqslant \varrho (x)$.
 

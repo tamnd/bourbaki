@@ -41,7 +41,7 @@ subsections:
       pdf_page: 57
 statements: 48
 exercises: 29
-content_sha256: 0e5e8de96f76e5b70079d7546622072d25298940fc05e6d1754bcc994677bc4f
+content_sha256: 1a4d415d86098e172cf6e96efa5c34c2af5226a1c0e680459b4d45fc48b5b9e5
 ---
 
 ## § 3. ALGÈBRES DE BANACH COMMUTATIVES
@@ -133,15 +133,7 @@ $x\in T_{\varepsilon}$
 de $\mathscr{C}_0(X)$ appartient à I, et on a $g_{\varepsilon}\geqslant \varepsilon^{-1}$ sur $C_{\varepsilon}$. La fonction
 
 $$
-f g_{\varepsilon}
-$$
-
-$$
-f_{\varepsilon}=
-$$
-
-$$
-1 +g_{\varepsilon}
+f_{\varepsilon}=\frac{f g_{\varepsilon}}{1 + g_{\varepsilon}}
 $$
 
 appartient à I. Pour $x /\in C_{\varepsilon}$, on a
@@ -153,15 +145,7 @@ $$
 et pour $x\in C_{\varepsilon}$, on a
 
 $$
-|f(x)|
-$$
-
-$$
-|f(x)-f_{\varepsilon}(x)|=\leqslant \varepsilon |f(x)|
-$$
-
-$$
-1 +g_{\varepsilon}(x)
+|f(x)-f_{\varepsilon}(x)|=\frac{|f(x)|}{1 + g_{\varepsilon}(x)}\leqslant \varepsilon |f(x)|
 $$
 
 Ainsi $f_{\varepsilon}$ converge uniformément vers $f$ sur X quand $\varepsilon$ tend vers 0. On a donc $f\in \overline{I}$, d’où $f\in I$ puisque I est fermé.
@@ -284,11 +268,7 @@ Soit X un espace topologique localement compact et considérons l’algèbre de 
 
 Soit $n\geqslant 0$ un entier. Soit $A_n$ l’algèbre des fonctions $f: [0,1]\rightarrow K$ admettant des dérivées continues dans $[0,1]$ jusqu’à l’ordre $n$. Munie de la norme
 
-$^n$ 1 $(_{k)}$
-
-$\|f\|=\sum$ sup $|f(t)|$,
-
-$k$! $_{0\leqslant t\leqslant 1}$
+$\|f\|=\sum^nk1$! sup$_{0\leqslant t\leqslant 1}|f^{(k)}(t)|$,
 
 $k=0$
 

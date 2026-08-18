@@ -1,13 +1,13 @@
 {
   "book": "ta-i-iv-fr",
   "pages": 512,
-  "clean": 489,
-  "flagged": 21,
+  "clean": 478,
+  "flagged": 32,
   "empty": 2,
   "reasons": {
     "drawn-rule": 6,
     "empty": 2,
-    "stacked-rows": 2,
+    "stacked-rows": 14,
     "tall-delimiter": 14
   },
   "flagged_pages": [
@@ -18,10 +18,31 @@
       ]
     },
     {
+      "pdf_page": 61,
+      "page_label": "TA I.45",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 79,
+      "page_label": "TA I.63",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
       "pdf_page": 81,
       "page_label": "TA I.65",
       "flags": [
         "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 106,
+      "page_label": "TA I.90",
+      "flags": [
+        "stacked-rows"
       ]
     },
     {
@@ -42,6 +63,13 @@
       "page_label": "TA I.145",
       "flags": [
         "drawn-rule"
+      ]
+    },
+    {
+      "pdf_page": 166,
+      "page_label": "TA I.150",
+      "flags": [
+        "stacked-rows"
       ]
     },
     {
@@ -66,10 +94,25 @@
       ]
     },
     {
+      "pdf_page": 242,
+      "page_label": "TA II.226",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
       "pdf_page": 246,
       "page_label": "TA III.230",
       "flags": [
-        "tall-delimiter"
+        "tall-delimiter",
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 253,
+      "page_label": "TA III.237",
+      "flags": [
+        "stacked-rows"
       ]
     },
     {
@@ -108,10 +151,38 @@
       ]
     },
     {
+      "pdf_page": 352,
+      "page_label": "TA III.336",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
       "pdf_page": 378,
       "page_label": "TA IV.362",
       "flags": [
         "tall-delimiter",
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 426,
+      "page_label": "TA IV.410",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 427,
+      "page_label": "TA IV.411",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 430,
+      "page_label": "TA IV.414",
+      "flags": [
         "stacked-rows"
       ]
     },
@@ -169,6 +240,12 @@
       "page_label": "TA IV.472",
       "flags": [
         "drawn-rule"
+      ]
+    },
+    {
+      "pdf_page": 497,
+      "flags": [
+        "stacked-rows"
       ]
     }
   ],

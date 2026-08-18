@@ -53,7 +53,7 @@ subsections:
       pdf_page: 105
 statements: 50
 exercises: 9
-content_sha256: b223342ad6235f2feedc9185ea923d98d548abd3077ff7d001d2ae40063239a4
+content_sha256: 1ff6bcb52078d7fd7c560d07482378ae72bb9f109fb25c38d21962617dc2c05d
 ---
 
 ## § 4. REVÊTEMENTS
@@ -196,9 +196,7 @@ $\overset{-1}{p}(U)^j$ E
 
 $p_Up$
 
-U $^iB$.
-
-D’après la proposition 7 de I, p. 15, le carré (2) est cartésien. Le corollaire 2 permet de conclure.
+D’après la proposition 7 de I,Up. $15,^i$ le carré $B$. (2) est cartésien. Le corollaire 2 permet de conclure.
 
 #### Remarque {#ta-i-s4-n3-rem-1 .statement tag=01P4}
 
@@ -574,7 +572,9 @@ Les assertions relatives au faisceau $\mathscr{I}$ se démontrent de même.
 
 #### Corollaire 1 {#ta-i-s4-prop-12-cor-1 .statement tag=01Q3}
 
-Soient B un espace topologique et A un sous-espace de B. On suppose que les espaces A et B sont localement connexes. Soient E et $E'$ des revêtements de B. Alors les morphismes canoniques $\psi :\mathscr{M}$or$_B(E; E')_A\rightarrow \mathscr{M}$or$_A(E_A; E'_A)$ et $\psi ':\mathscr{I}$som$_B(E; E')_A\rightarrow$ $\mathscr{I}$som$_A(E_A; E'_A)$ (I, p. 45, exemple 4) sont des isomorphismes.
+Soient B un espace topologique et A un sous-espace de B. On suppose que les espaces A et B sont localement connexes.
+
+Soientniques$\mathscr{I}$som$_A\psi E$(E$:_A$et$\mathscr{M}; E$or$E''_{AB})$ des revêtements de(E; E(I, p.$')45,_A\rightarrow$exemple$\mathscr{M}$or$_A(E$4$)_AB$sont des isomorphismes.; E. Alors les morphismes cano-$'_A)$ et $\psi ':\mathscr{I}$som$_B(E; E')_A\rightarrow$
 
 Pour tout point $a\in A$, il résulte de la proposition précédente et de l’exemple 2 de I, p. 63, appliqué aux espaces $\{a\}$, A, B et aux injections canoniques, que le morphisme canonique $\psi$ induit par passage aux tiges l’identité de $E^{E'_a}_a$. C’est donc un isomorphisme. Le fait que $\psi '$ soit un isomorphisme se démontre de manière analogue.
 

@@ -51,9 +51,9 @@ subsections:
       title: Cône d’une application
       page: 253
       pdf_page: 269
-statements: 55
+statements: 54
 exercises: 32
-content_sha256: b453c408e1566ffbdf09d7e4ee4b66bd3c9cc844cc3b5021c7fd52dd24450767
+content_sha256: 350aafe01608ebcac8eb8171f54c067e058afb84f3e8726d792c709a6a977ecd
 ---
 
 ## § 1. HOMOTOPIES, HOMÉOTOPIES
@@ -86,7 +86,9 @@ $\tau (x,2t-1)$ pour $1/2\leqslant t\leqslant 1$
 
 est continue (TG, I, p. 19, prop. 4) et est une homotopie reliant l’origine de $\sigma$ au terme de $\tau$. On l’appelle l’homotopie juxtaposée des homotopies $\sigma$ et $\tau$.
 
-Si $\sigma : X\times \mathbf{I}\rightarrow Y$ est une homotopie, l’application $\overline{\sigma}: X\times \mathbf{I}\rightarrow Y$ définie par $(x, t)\mapsto \sigma (x,1-t)$ est une homotopie reliant le terme de $\sigma$ à l’origine de $\sigma$. On a $\overline{\overline{\sigma}}=\sigma$. Si $\sigma$ et $\tau$ sont des homotopies juxtaposables de $X\times \mathbf{I}$ dans Y, les homotopies $\overline{\tau}$ et $\overline{\sigma}$ sont juxtaposables et l’on a $\overline{\sigma*\tau}=\overline{\tau}*\overline{\sigma}$.
+Si $\sigma : X\times \mathbf{I}\rightarrow Y$ est une homotopie, l’application $\overline{\sigma}: X\times \mathbf{I}\rightarrow Y$ définie parl’origine de$(\sigma x, t$. On a$)\mapsto \frac{\sigma}{\sigma}(=x,1\sigma -$. Si$t)\sigma$est une homotopie reliant le terme deet $\tau$ sont des homotopies juxtaposables$\sigma$ à
+
+de $X\times \mathbf{I}$ dans Y, les homotopies $\overline{\tau}$ et $\overline{\sigma}$ sont juxtaposables et l’on a $\overline{\sigma*\tau}=\overline{\tau}*\overline{\sigma}$.
 
 #### Proposition 1 {#ta-iii-s1-prop-1 .statement tag=01V5}
 
@@ -262,9 +264,7 @@ Soit X un espace topologique et soit A une partie de X. Soit $\sigma$ une contra
 
 Avec les notations qui précèdent, on dit que $\sigma$ est une contraction forte si, de plus, on a $r(\sigma (x, t)) =r(x)$ pour tout $x\in X$ et tout $t\in \mathbf{I}$,
 
-#### Exemple {#ta-iii-s1-n5-exa-1 .statement tag=01VL}
-
-Soit X le complémentaire de l’origine dans $\mathbf{B}_n$. L’application de $X\times \mathbf{I}$ dans X donnée par $(x, t)\mapsto ((1-t) +t\frac{1}{\|x\|})x$ est une contraction forte de X sur $\mathbf{S}_{n-1}$. La rétraction de X sur $\mathbf{S}_{n-1}$ qui lui est associée est l’application donnée par $x\mapsto x/\|x\|$.
+Exemplecation de. — Soit$X\times \mathbf{I}$ dansX le complémentaire de l’origine dansX donnée par $(x, t)\mapsto ((1-t) +t\frac{\mathbf{B}_1}{\|x\|}^n)$. L’appli-$x$ est une contraction forte de X sur $\mathbf{S}_{n-1}$. La rétraction de X sur $\mathbf{S}_{n-1}$ qui lui est associée est l’application donnée par $x\mapsto x/\|x\|$.
 
 #### Lemme 2 {#ta-iii-s1-lem-2 .statement tag=01VM}
 

@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: eda96f8a4a7ee0a7b5635072161aa4b57dbfec18bf02b9bf1160504d028dd361
+content_sha256: 5e940fbc8c3e5ef356a38337e27dabf3b613bc4c7f6a5b5188ca811c50cafae6
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -80,25 +80,17 @@ Soit E un espace vectoriel complexe. Une involution semi-linéaire sur E est une
 
 Soient E un espace vectoriel complexe et $u$ une involution semi-linéaire sur E. Soit $x\in E$ ;posons
 
-1 1
-
 $$
-x_1=(x+u(x)),x_2=(x-u(x))
+x_1=\frac{1}{2}(x+u(x)),x_2=\frac{1}{2i}(x-u(x))
 $$
-
-2 $2i$
 
 Le couple $(x_1, x_2)$ est l’unique élément de $E^u\times E^u$ tel que $x=x_1+ix_2$.
 
 Les éléments $x_1$ et $x_2$ vérifient $x_1+ix_2=x$ et appartiennent à $E^u$ puisque $u(u(x)) =x$. Inversement, si $y_1$ et $y_2$ dans $E^u$ vérifient $x=y_1+iy_2$, il vient $u(x) =u(y_1) +u(iy_2) =y_1-iy_2$, donc
 
-1 1
-
 $$
-y_1=(x+u(x)) =x_1,iy_2=(x-u(x)) =ix_2
+y_1=\frac{1}{2}(x+u(x)) =x_1,iy_2=\frac{1}{2}(x-u(x)) =ix_2
 $$
-
-2 2
 
 #### Proposition 1 {#ts-i-s6-prop-1 .statement tag=02CJ}
 
@@ -134,17 +126,15 @@ Si $A =\mathbf{C}$ muni de l’involution $z\mapsto \overline{z}$, on a $A_h=\ma
 
 Soient A une algèbre involutive et $x\in A$. Les éléments
 
-1 $_*$ 1 $*$
-
 $$
-x_1=(x+x),x_2=(x-x)
+x_1=\frac{1}{2}(x+x^*),x_2=\frac{1}{2i}(x-x^*)
 $$
 
-2 $2i$ sont hermitiens et vérifient $x=x_1+ix_2$. Si $x=y_1+iy_2$ avec $y_1$ et $y_2$ hermitiens, alors $x_1=y_1$ et $x_2=y_2$. De plus, l’élément $x$ est normal si et seulement si $x_1$ et $x_2$ sont permutables.
+sont hermitiens et vérifient $x=x_1+ix_2$. Si $x=y_1+iy_2$ avec $y_1$ et $y_2$ hermitiens, alors $x_1=y_1$ et $x_2=y_2$. De plus, l’élément $x$ est normal si et seulement si $x_1$ et $x_2$ sont permutables.
 
 Les deux premières assertions résultent du lemme 1 de I, p. 95. On calcule que $xx^*-x^*x= 2i(x_2x_1-x_1x_2)$, donc $x$ est normal si et seulement si $x_1$ et $x_2$ sont permutables.
 
-Soit A une algèbre unifère involutive. Pour que $x\in A$ soit inversible, il faut et il suffit que $x^*$ le soit, et on a alors $(x^*)^{-1}= (x^{-1})^*$. Comme $(x-\lambda e)^*=x^*-\lambda e$ pour tout $\lambda \in \mathbf{C}$, on en déduit que Sp$_A(x^*) =$ Sp$_A(x)$.
+Soit A une algèbre unifère involutive. Pour que $x\in A$ soit inversible, il faut et il suffit que $x^*$ le soit, et on a alors $(x^*)^{-1}= (x^{-1})^*$. Comme (Sp$x_A-(x\lambda e)$.$)^*=x^*-\lambda e$ pour tout $\lambda \in \mathbf{C}$, on en déduit que Sp$_A(x^*) =$
 
 Soient A une algèbre involutive et $\widetilde{A}$ l’algèbre déduite de A par adjonction d’un élément unité. Il existe dans $\widetilde{A}$ une unique involution prolongeant celle de A, donnée par $(\lambda , x)^*= (\lambda , x^*)$ pour $\lambda \in \mathbf{C}$ et $x\in A$. Si $x\in A$, on a Sp$'_A(x^*) =$ Sp$'_A(x)$.
 
@@ -202,7 +192,7 @@ L’application $x\mapsto x^{-1}$ de G sur G transforme toute mesure $\mu\in$ $\
 
 L’ensemble A des mesures bornées admettant une densité par rapport à une mesure de Haar est une sous-algèbre fermée de $\mathscr{M}^1(G)$ stable par l’involution (cf. INT, VIII, §4, n$^o5)$; elle ne dépend pas du choix d’une mesure de Haar.
 
-Soit $\nu$ une mesure de Haar à gauche sur G et notons Δ le module de G. On munit $L^1(G, \nu )$ du produit $(f, g)\mapsto f*^{\nu}g$ et de l’involution $f\mapsto f^*=\widetilde{f}\cdot \Delta^{-1}$, où $\widetilde{f}(x) =\overline{f(x^{-1})}$ pour tout $x\in G$. Alors l’application $f\mapsto f\cdot \nu$ est un isomorphisme de l’algèbre involutive $L^1(G, \nu )$ sur A. Cet isomorphisme est isométrique. En particulier, $L^1(G, \nu )$ s’identifie à une sous-algèbre involutive de $\mathscr{M}^1(G)$.
+Soit $\nu$ une mesure de Haar à gauche sur G et notons Δ le module devolution$Gf$. On munit$\mapsto f^*=\widetilde{f}L\overset{1}{\cdot}(G\Delta^-, \nu^1$, où) du produit$\widetilde{f}(x) =\frac{(f, g)}{f(x^{-1})}\mapsto$pour tout$f*^{\nu}g$ et de l’in-$x\in G$. Alors l’application $f\mapsto f\cdot \nu$ est un isomorphisme de l’algèbre involutive $L^1(G, \nu )$ sur A. Cet isomorphisme est isométrique. En particulier, $L^1(G, \nu )$ s’identifie à une sous-algèbre involutive de $\mathscr{M}^1(G)$.
 
 #### Exemple 5 {#ts-i-s6-n2-exa-5 .statement tag=02CS}
 
@@ -282,13 +272,7 @@ b) Soit $x\in A_h$ un élément hermitien. Alors exp($ix$) est unitaire.
 
 En effet, puisque l’involution sur A est continue, on a
 
-$$
-_*(^{\infty}x^n)^{*\infty}(x^*)^n*
-$$
-
-exp($x$) = $\sum=\sum$ = exp($x$)
-
-$_{n=0}n$! $_{n=0}n$!
+exp($x$)$^*=(\sum_{n=0}^{\infty}xn^n$! $)^*=\sum_{n=0}^{\infty}(x\overset{*}{n}$!$)^n=$ exp($x^*$)
 
 pour tout $x\in A$ (formule (9) de I, p. 78). Si $x\in A_h$, il vient alors
 
@@ -738,13 +722,9 @@ On a $0\in A_+$. Pour tout $\lambda \in \mathbf{R}_+^*$ et tout $x\in A$, on a S
 
 Pour montrer que $A_+$ est convexe, il suffit de montrer que si $x$ et $y$ sont positifs, alors $x+y\geqslant 0$ (EVT, II, p. 11, prop. 10). Par homothétie, il suffit de démontrer que si $x\geqslant 0$ et $y\geqslant 0$ vérifient de plus $\|x\|\leqslant 1$, $\|y\|\leqslant 1$, alors l’élément $\frac{1}{2}(x+y)$ est positif. Or on a
 
-$\|$ 1 $\|$ 1 1
-
 $$
-1-(x+y)\leqslant \|1-x\|+\|1-y\|\leqslant 1
+\|1-\frac{1}{2}(x+y)\|\leqslant \frac{1}{2}\|1-x\|+\frac{1}{2}\|1-y\|\leqslant 1
 $$
-
-2 2 2
 
 d’après l’assertion b) du lemme 12, et cette même assertion montre alors que $\frac{1}{2}(x+y)$ est positif.
 
@@ -810,9 +790,9 @@ On a vu ci-dessus que $x^{1/\alpha}$ vérifie les propriétés demandées. Inver
 
 Soit A une algèbre stellaire unifère. Tout élément de A est somme d’éléments unitaires.
 
-Soit $x$ un élément hermitien de A. Supposons d’abord que $\|x\|\leqslant 2$. D’après le lemme 12, c), on a $1-\frac{1}{4}x^2\in A_+$. Soit $y=\frac{1}{2}x+i\surd 1-\frac{1}{4}x^2$.
+D’après le lemmeOn aSoit$yx_*=$un élément hermitien de$_{1\overline{2}}x-i12\surd$,1c$-)$, on a$_{1\overline{4}}x_2$, donc$1-\frac{1}{4}Axyy$. Supposons d’abord que$^2_*\in = 1A_+$. Soitet $xy==y\frac{1}{2}+xy+_*i$est somme$\surd\|1x-\|\leqslant^1_{\overline{4}}x2^2$..
 
-On a $y^*=\frac{1}{2}x-i\surd\overline{1 -\frac{1}{4}x^2}$, donc $yy^*= 1$ et $x=y+y^*$ est somme de deux éléments unitaires. Dans le cas général, soit $k$ un entier tel que $\|\frac{1}{k}x\|\leqslant 2$ ; l’élément $x$ est alors somme de $2k$ éléments unitaires. D’après le lemme 2 de I, p. 96, le lemme en résulte.
+de deux éléments unitaires. Dans le cas général, soit $k$ un entier tel que $\|\frac{1}{k}x\|\leqslant 2$ ; l’élément $x$ est alors somme de $2k$ éléments unitaires. D’après le lemme 2 de I, p. 96, le lemme en résulte.
 
 #### Théorème 2 {#ts-i-s6-thm-2 .statement tag=02EL}
 
