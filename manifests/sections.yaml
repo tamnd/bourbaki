@@ -913,7 +913,7 @@ books:
               statements: 46
               exercises: 27
               extraction: native+ocr
-              content_sha256: 373094899a42a9ee7668fe8b6fc892ffbcc2dc272b6bd645e1900eefba1aaec5
+              content_sha256: 9fc7eadee7d7d6a015e81d1c2574c9eb56c81a6d634db9f39a749fbfe8ff51a4
             - kind: section
               section: 8
               title: Symmetric invariants
@@ -939,7 +939,7 @@ books:
               statements: 12
               exercises: 16
               extraction: native
-              content_sha256: cdad9e1b17a7fa46e0e0d73c966a5d1a4baf0cc9382da9b4942edcce24aca728
+              content_sha256: c276a003cb69216738766ef1990dd4f7ce5bf1ce6fc9fdd497f15f28df9dc539
             - kind: section
               section: 10
               title: Maximal subalgebras of semi-simple Lie algebras
@@ -991,7 +991,7 @@ books:
               statements: 2
               exercises: 19
               extraction: native+ocr
-              content_sha256: a6786703c1694e0915a56d95e3d4a29484e07904c8354969f4cfebaf628bde77
+              content_sha256: 64d08fcfceff6ab9f325a6e6e8c09522a7394e2a09cda12d9fe9f67e227ad40a
         - chapter: IX
           title: COMPACT REAL LIE GROUPS
           sections:
@@ -1082,7 +1082,7 @@ books:
               statements: 25
               exercises: 13
               extraction: native
-              content_sha256: 7813497304c352b75cf4c0641dfb463226d33dfbfddd31375b2e00a0f3b19f41
+              content_sha256: 3416fc2a1d54905e08c083968982a8bb4374a8d8465567cf14eee5863c99ae0d
             - kind: section
               section: 7
               title: Irreducible representations of connected compact Lie groups
@@ -1095,7 +1095,7 @@ books:
               statements: 28
               exercises: 8
               extraction: native
-              content_sha256: e4e42f6d2376efb5f3a62e9ffe8d13ff66d26a9533d3d42bd28eae3c03b11ea1
+              content_sha256: b06c4302c25e46e29d7e23689452be5af0c50d6b88977427f4496a47a23586ae
             - kind: section
               section: 8
               title: Fourier transform
