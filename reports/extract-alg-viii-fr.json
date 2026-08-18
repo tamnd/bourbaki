@@ -1,11 +1,12 @@
 {
   "book": "alg-viii-fr",
   "pages": 487,
-  "clean": 457,
-  "flagged": 29,
+  "clean": 456,
+  "flagged": 30,
   "empty": 1,
   "reasons": {
     "diagram": 29,
+    "dropped-glyph": 26,
     "empty": 1
   },
   "flagged_pages": [
@@ -16,9 +17,16 @@
       ]
     },
     {
+      "pdf_page": 5,
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
       "pdf_page": 66,
       "page_label": "A VIII.55",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -26,6 +34,7 @@
       "pdf_page": 67,
       "page_label": "A VIII.56",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -33,6 +42,7 @@
       "pdf_page": 71,
       "page_label": "A VIII.60",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -40,6 +50,7 @@
       "pdf_page": 78,
       "page_label": "A VIII.67",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -47,6 +58,7 @@
       "pdf_page": 106,
       "page_label": "A VIII.97",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -54,6 +66,7 @@
       "pdf_page": 114,
       "page_label": "A VIII.105",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -82,6 +95,7 @@
       "pdf_page": 201,
       "page_label": "A VIII.196",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -89,6 +103,7 @@
       "pdf_page": 239,
       "page_label": "A VIII.235",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -96,6 +111,7 @@
       "pdf_page": 286,
       "page_label": "A VIII.283",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -103,6 +119,7 @@
       "pdf_page": 287,
       "page_label": "A VIII.284",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -110,6 +127,7 @@
       "pdf_page": 289,
       "page_label": "A VIII.286",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -117,6 +135,7 @@
       "pdf_page": 290,
       "page_label": "A VIII.287",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -124,6 +143,7 @@
       "pdf_page": 291,
       "page_label": "A VIII.288",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -131,6 +151,7 @@
       "pdf_page": 292,
       "page_label": "A VIII.289",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -138,6 +159,7 @@
       "pdf_page": 293,
       "page_label": "A VIII.290",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -145,6 +167,7 @@
       "pdf_page": 298,
       "page_label": "A VIII.295",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -152,6 +175,7 @@
       "pdf_page": 319,
       "page_label": "A VIII.316",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -159,6 +183,7 @@
       "pdf_page": 323,
       "page_label": "A VIII.320",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -166,6 +191,7 @@
       "pdf_page": 327,
       "page_label": "A VIII.324",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -173,6 +199,7 @@
       "pdf_page": 379,
       "page_label": "A VIII.377",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -180,6 +207,7 @@
       "pdf_page": 382,
       "page_label": "A VIII.380",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -187,6 +215,7 @@
       "pdf_page": 384,
       "page_label": "A VIII.382",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -201,6 +230,7 @@
       "pdf_page": 398,
       "page_label": "A VIII.396",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -208,6 +238,7 @@
       "pdf_page": 412,
       "page_label": "A VIII.410",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -215,6 +246,7 @@
       "pdf_page": 413,
       "page_label": "A VIII.411",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     }
