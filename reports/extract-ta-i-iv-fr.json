@@ -1,13 +1,13 @@
 {
   "book": "ta-i-iv-fr",
   "pages": 512,
-  "clean": 478,
-  "flagged": 32,
+  "clean": 480,
+  "flagged": 30,
   "empty": 2,
   "reasons": {
     "drawn-rule": 6,
     "empty": 2,
-    "stacked-rows": 14,
+    "stacked-rows": 12,
     "tall-delimiter": 14
   },
   "flagged_pages": [
@@ -109,13 +109,6 @@
       ]
     },
     {
-      "pdf_page": 253,
-      "page_label": "TA III.237",
-      "flags": [
-        "stacked-rows"
-      ]
-    },
-    {
       "pdf_page": 272,
       "page_label": "TA III.256",
       "flags": [
@@ -148,13 +141,6 @@
       "page_label": "TA III.332",
       "flags": [
         "drawn-rule"
-      ]
-    },
-    {
-      "pdf_page": 352,
-      "page_label": "TA III.336",
-      "flags": [
-        "stacked-rows"
       ]
     },
     {

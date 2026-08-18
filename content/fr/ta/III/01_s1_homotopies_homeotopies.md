@@ -51,9 +51,9 @@ subsections:
       title: Cône d’une application
       page: 253
       pdf_page: 269
-statements: 54
+statements: 55
 exercises: 32
-content_sha256: 350aafe01608ebcac8eb8171f54c067e058afb84f3e8726d792c709a6a977ecd
+content_sha256: 8b8b06767e69558ad2b06dda50a57636e0d1396cbf403c697699227c2c2ce636
 ---
 
 ## § 1. HOMOTOPIES, HOMÉOTOPIES
@@ -264,7 +264,9 @@ Soit X un espace topologique et soit A une partie de X. Soit $\sigma$ une contra
 
 Avec les notations qui précèdent, on dit que $\sigma$ est une contraction forte si, de plus, on a $r(\sigma (x, t)) =r(x)$ pour tout $x\in X$ et tout $t\in \mathbf{I}$,
 
-Exemplecation de. — Soit$X\times \mathbf{I}$ dansX le complémentaire de l’origine dansX donnée par $(x, t)\mapsto ((1-t) +t\frac{\mathbf{B}_1}{\|x\|}^n)$. L’appli-$x$ est une contraction forte de X sur $\mathbf{S}_{n-1}$. La rétraction de X sur $\mathbf{S}_{n-1}$ qui lui est associée est l’application donnée par $x\mapsto x/\|x\|$.
+#### Exemple {#ta-iii-s1-n5-exa-1 .statement tag=01VL}
+
+Soit X le complémentaire de l’origine dans $\mathbf{B}_n$. L’application de $X\times \mathbf{I}$ dans X donnée par $(x, t)\mapsto ((1-t) +t\frac{1}{\|x\|})x$ est une contraction forte de X sur $\mathbf{S}_{n-1}$. La rétraction de X sur $\mathbf{S}_{n-1}$ qui lui est associée est l’application donnée par $x\mapsto x/\|x\|$.
 
 #### Lemme 2 {#ta-iii-s1-lem-2 .statement tag=01VM}
 
