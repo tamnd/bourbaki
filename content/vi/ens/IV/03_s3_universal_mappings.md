@@ -26,9 +26,9 @@ subsections:
       pdf_page: 291
 statements: 0
 exercises: 3
-content_sha256: 0fd416ceab93dbea26643542f55d19d41de30d83d29e0dfc23eb8e64107062b8
+content_sha256: be4c0df0a5e0ccf2ad8d8bb9a84b19e134fe4b1de99354e824b4681a18bdc998
 translated_from: content/en/ens/IV/03_s3_universal_mappings.md
-source_content_sha256: 7fd3ffb3e738f589078a0c2c77d2d9195a8172d956b5078d1339b6d8d27f06fc
+source_content_sha256: bd2659e2b95cd99eebbfaaa21b1f48fd4e4c6fe64d1061e7e56e353b9d55545d
 translation_model: gpt-5.4
 translation_run: translate-vi-09555ffd
 glossary_version: 29
@@ -128,4 +128,4 @@ IX. *Đa tạp Albanese*. Cho E là một đa tạp đại số, và lấy $\Sig
 
 Xem [các bài tập của § 3](exercises/s3/).
 
-[^1]: (\*) Xem P. SAMUEL, "Về các ánh xạ phổ quát và các nhóm tôpô tự do", *Bull. Amer. Math. Soc.*, **54** (1948), pp. 591-598.
+[^1]: Xem P. SAMUEL, "Về các ánh xạ phổ quát và các nhóm tôpô tự do", *Bull. Amer. Math. Soc.*, **54** (1948), pp. 591-598.

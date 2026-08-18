@@ -42,9 +42,9 @@ subsections:
       pdf_page: 273
 statements: 16
 exercises: 1
-content_sha256: 96a7ffff0dae91e5c7e04e6a44466d424d9d6ddbf811e7e7c8dd07cd909a7c60
+content_sha256: 66e5edbbcc9a03739e974e175afdf07e7ae6784e9969ab5e9b3af07089f28ec6
 translated_from: content/en/ens/IV/01_s1_structures_and_isomorphisms.md
-source_content_sha256: 72e7a50a926695c09905a33aa4733b05bfba50ebcbc6f53e8ad15ba1695dd9eb
+source_content_sha256: a2b6b1e0980a04a6377f294c5a6ade9f2bf86acc3b4c864aecd5d4b55e557903
 translation_model: gpt-5.4
 translation_run: translate-vi-f5e8ffb2
 glossary_version: 29
@@ -58,7 +58,7 @@ Mục đích của chương này là mô tả một lần cho xong một số ph
 
 ### 1. CÁC THANG
 
-Một *lược đồ phép dựng theo thang* là một dãy $c_1$, $c_2$, ..., $c_m$ các cặp có thứ tự của các số nguyên tự nhiên (*)[^1] $c_i = (a_i,\ b_i)$, thỏa mãn các điều kiện sau:
+Một *lược đồ phép dựng theo thang* là một dãy $c_1$, $c_2$, ..., $c_m$ các cặp có thứ tự của các số nguyên tự nhiên [^1] $c_i = (a_i,\ b_i)$, thỏa mãn các điều kiện sau:
 
 (a)　Nếu $b_i = 0$, thì $1 \leqslant a_i \leqslant i - 1$.
 (b)　Nếu $a_i \neq 0$ và $b_i \neq 0$, thì $1 \leqslant a_i \leqslant i - 1$ và $1 \leqslant b_i \leqslant i - 1$.
@@ -111,7 +111,7 @@ CST2. *Nếu $f_i$ là đơn ánh* (tương ứng *toàn ánh*) *với* $1 \leqs
 
 Tiêu chuẩn này suy ra từ các tính chất tương ứng của phép mở rộng $\hat{g}$ (Chương II, § 5, no. 1, Mệnh đề 1) và của phép mở rộng $g \times h$ (Chương II, § 3, no. 9).
 
-CST3. *Nếu $f_i$ là một song ánh của* $\mathrm{E}_i$ *lên* $\mathrm{E}'_i$, *và nếu $f_i^{-1}$ là song ánh ngược* (\*)[^2], *thì* $\langle f_1, \ldots, f_n \rangle^{\mathrm{S}}$ *là một song ánh và* $\langle f_1^{-1}, \ldots, f_n^{-1} \rangle^{\mathrm{S}}$ *là nghịch đảo của nó; nói cách khác*,
+CST3. *Nếu $f_i$ là một song ánh của* $\mathrm{E}_i$ *lên* $\mathrm{E}'_i$, *và nếu $f_i^{-1}$ là song ánh ngược* [^2], *thì* $\langle f_1, \ldots, f_n \rangle^{\mathrm{S}}$ *là một song ánh và* $\langle f_1^{-1}, \ldots, f_n^{-1} \rangle^{\mathrm{S}}$ *là nghịch đảo của nó; nói cách khác*,
 
 $$(\langle f_1, \ldots, f_n \rangle^{\mathrm{S}})^{-1} = \langle f_1^{-1}, \ldots, f_n^{-1} \rangle^{\mathrm{S}}.$$
 
@@ -403,5 +403,5 @@ Như vậy các từ $\mathrm{P}\{\mathrm{A}, \mathrm{V}\}$ và $\mathrm{Q}\{\ma
 
 Xem [bài tập cho § 1](exercises/s1/).
 
-[^1]: (*) Chúng tôi dùng khái niệm số nguyên theo cùng cách như ở Chương I, nghĩa là theo nghĩa siêu toán học của các dấu được sắp xếp theo một thứ tự nhất định; cách dùng này không có gì liên quan đến lý thuyết toán học về các số nguyên đã được phát triển ở Chương III.
-[^2]: (\*) Vì các lý do trình bày in ấn, ở đây chúng tôi viết $f^{-1}$ thay cho $\overset{-1}{f}$.
+[^1]: Chúng tôi dùng khái niệm số nguyên theo cùng cách như ở Chương I, nghĩa là theo nghĩa siêu toán học của các dấu được sắp xếp theo một thứ tự nhất định; cách dùng này không có gì liên quan đến lý thuyết toán học về các số nguyên đã được phát triển ở Chương III.
+[^2]: Vì các lý do trình bày in ấn, ở đây chúng tôi viết $f^{-1}$ thay cho $\overset{-1}{f}$.

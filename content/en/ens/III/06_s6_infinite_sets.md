@@ -34,7 +34,7 @@ subsections:
       pdf_page: 195
 statements: 26
 exercises: 32
-content_sha256: 223731a1f4d4b294c9f6780fefb0badacba82554ae1c93ebfea1fbb37a2e871a
+content_sha256: 582cf6b72da04a2a5aa39ce3a169ce0e14c682288683b56b10d2a75a9b9e4de7
 ---
 
 ## 6. INFINITE SETS
@@ -113,7 +113,7 @@ of $\mathbf{N}$ into E such that $f(0) = a$ and $f(n + 1) = h(n, f(n))$ for each
 
 #### Example 2 {#ens-iii-s6-n2-exa-2 .statement tag=03TD}
 
-Let X be a set and let E be the set of mappings of X into itself. Let $e$ denote the identity mapping of X into itself, and let $f$ be any element of E. Take $S\{u\}$ to be the term $f \circ u$ (*)[^4]. By applying C63 we see that there exists a unique mapping of $\mathbf{N}$ into E, denoted by $n \to f^n$, such that $f^0 = e$ and $f^{n+1} = f \circ f^n$. The mapping $f^n$ is called the *nth iterate* of the mapping $f$.
+Let X be a set and let E be the set of mappings of X into itself. Let $e$ denote the identity mapping of X into itself, and let $f$ be any element of E. Take $S\{u\}$ to be the term $f \circ u$ [^4]. By applying C63 we see that there exists a unique mapping of $\mathbf{N}$ into E, denoted by $n \to f^n$, such that $f^0 = e$ and $f^{n+1} = f \circ f^n$. The mapping $f^n$ is called the *nth iterate* of the mapping $f$.
 
 #### Example 3 {#ens-iii-s6-n2-exa-3 .statement tag=03TE}
 
@@ -284,7 +284,7 @@ Indeed, suppose E $\neq$ F; then E $-$ F has a maximal element $b$. By definitio
 
 See the [exercises for § 6](exercises/s6/).
 
-[^1]: (*) It is also possible to give a direct proof of C63, analogous to the proof of C60 (§ 2, no. 2).
-[^2]: (†) The definition of the least upper bound (§ 1, nos. 7, 8, and 9) can be formulated in such a way that it has a meaning even for a set which is not bounded above (it denotes a term, in the formalized language, of the form $\tau_x(R\{x\})$, which the reader will have no difficulty in writing down).
-[^3]: (**) If $g = (G, E, E)$, the term $g(u)$ is the term denoted by $\tau_y((u, y) \in G)$.
-[^4]: (*) Here we mean the term denoted by (T, X, X), where T is the term denoted by $\mathfrak{S}_z(z$ is an ordered pair and $(\exists y)((\mathrm{pr}_1 z, y) \in \mathrm{pr}_1(\mathrm{pr}_1(u))$ and $(y, \mathrm{pr}_2 z) \in \mathrm{pr}_1(\mathrm{pr}_1(f)))$.
+[^1]: It is also possible to give a direct proof of C63, analogous to the proof of C60 (§ 2, no. 2).
+[^2]: The definition of the least upper bound (§ 1, nos. 7, 8, and 9) can be formulated in such a way that it has a meaning even for a set which is not bounded above (it denotes a term, in the formalized language, of the form $\tau_x(R\{x\})$, which the reader will have no difficulty in writing down).
+[^3]: If $g = (G, E, E)$, the term $g(u)$ is the term denoted by $\tau_y((u, y) \in G)$.
+[^4]: Here we mean the term denoted by (T, X, X), where T is the term denoted by $\mathfrak{S}_z(z$ is an ordered pair and $(\exists y)((\mathrm{pr}_1 z, y) \in \mathrm{pr}_1(\mathrm{pr}_1(u))$ and $(y, \mathrm{pr}_2 z) \in \mathrm{pr}_1(\mathrm{pr}_1(f)))$.

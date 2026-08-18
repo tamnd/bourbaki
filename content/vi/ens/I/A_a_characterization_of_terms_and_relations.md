@@ -31,9 +31,9 @@ subsections:
       pdf_page: 60
 statements: 7
 exercises: 8
-content_sha256: d5b160d11ed2b4583f1809c6c4b07774a8395eba80d528ae2979046fc852ebcd
+content_sha256: ada19ded1745a7e4ea2f7bbf0edb698ecd7e5df3f973986c589436fed914ee9d
 translated_from: content/en/ens/I/A_a_characterization_of_terms_and_relations.md
-source_content_sha256: df82f63eb14ef58e18c03d3cb3a5081969f0bab7d6da2f050817894fabf24715
+source_content_sha256: edb021fd8f3949693679ebb01f91bf25e20ec7a14a764b2755ff6b36f5e23268
 translation_model: gpt-5.4
 translation_run: translate-vi-f2ab4019
 glossary_version: 29
@@ -233,4 +233,4 @@ trong $\mathscr{T}$ hay không.
 
 Xem [bài tập cho Phụ lục 0](exercises/a0/).
 
-[^1]: (*) Các kết quả được thiết lập trong Phụ lục này sẽ không được dùng ở bất kỳ chỗ nào khác trong bộ sách này.
+[^1]: Các kết quả được thiết lập trong Phụ lục này sẽ không được dùng ở bất kỳ chỗ nào khác trong bộ sách này.

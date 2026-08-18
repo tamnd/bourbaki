@@ -46,7 +46,7 @@ errata:
     - says: no. 2, Proposition 2, Corollary 2
       read: no. 2, Proposition 1, Corollary 2
       why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
-content_sha256: a49555c4f56c60d7aca4de0b044ddea42c75f0dbc65c50f4a3e879299a765497
+content_sha256: 3203bbc4a92310057bd8d756d11de83e7fba92da7a7a4944a0823379e9b3ec20
 ---
 
 ## 7. INVERSE LIMITS AND DIRECT LIMITS
@@ -135,7 +135,7 @@ and therefore follows from (5). The second part of the Proposition follows immed
 
 $$\begin{array}{ccc} E_\beta & \overset{u_\beta}{\longrightarrow} & F_\beta \\ {\scriptstyle f_{\alpha\beta}}\big\downarrow & & \big\downarrow{\scriptstyle g_{\alpha\beta}} \\ E_\alpha & \underset{u_\alpha}{\longrightarrow} & F_\alpha \end{array}$$
 
-*is commutative* (\*)[^1] *whenever* $\alpha \leqslant \beta$. *Then there exists a unique mapping* $u : E \to F$ *such that for each* $\alpha \in I$ *the diagram*
+*is commutative* [^1] *whenever* $\alpha \leqslant \beta$. *Then there exists a unique mapping* $u : E \to F$ *such that for each* $\alpha \in I$ *the diagram*
 
 $$\begin{array}{ccc} E & \overset{u}{\longrightarrow} & F \\ {\scriptstyle f_\alpha}\big\downarrow & & \big\downarrow{\scriptstyle g_\alpha} \\ E_\alpha & \underset{u_\alpha}{\longrightarrow} & F_\alpha \end{array}$$
 
@@ -657,4 +657,4 @@ We leave the verification to the reader.
 
 See the [exercises for § 7](exercises/s7/).
 
-[^1]: (\*) This means that $u_\alpha \circ f_{\alpha\beta} = g_{\alpha\beta} \circ u_\beta$.
+[^1]: This means that $u_\alpha \circ f_{\alpha\beta} = g_{\alpha\beta} \circ u_\beta$.

@@ -34,9 +34,9 @@ subsections:
       pdf_page: 195
 statements: 26
 exercises: 32
-content_sha256: 174ff5ef145893c5bc524865c63e7880d02655b04b84021cbcffda114cbdd7e6
+content_sha256: 7327ba3165721ffd5c5e2e2923a7d83619155ec4fb22be782b447d7bf5da0f9c
 translated_from: content/en/ens/III/06_s6_infinite_sets.md
-source_content_sha256: 223731a1f4d4b294c9f6780fefb0badacba82554ae1c93ebfea1fbb37a2e871a
+source_content_sha256: 582cf6b72da04a2a5aa39ce3a169ce0e14c682288683b56b10d2a75a9b9e4de7
 translation_model: gpt-5.4
 translation_run: translate-vi-5db6ed08
 glossary_version: 29
@@ -120,7 +120,7 @@ từ $\mathbf{N}$ vào E sao cho $f(0) = a$ và $f(n + 1) = h(n, f(n))$ với m�
 
 #### Ví dụ 2 {#ens-iii-s6-n2-exa-2 .statement tag=03TD}
 
-Cho X là một tập hợp và E là tập hợp các ánh xạ từ X vào chính nó. Gọi $e$ là ánh xạ đồng nhất của X vào chính nó, và $f$ là một phần tử bất kỳ của E. Lấy $S\{u\}$ là số hạng $f \circ u$ (*)[^4]. Áp dụng C63, ta thấy rằng tồn tại một ánh xạ duy nhất từ $\mathbf{N}$ vào E, ký hiệu là $n \to f^n$, sao cho $f^0 = e$ và $f^{n+1} = f \circ f^n$. Ánh xạ $f^n$ được gọi là *ánh xạ lặp thứ n* của ánh xạ $f$.
+Cho X là một tập hợp và E là tập hợp các ánh xạ từ X vào chính nó. Gọi $e$ là ánh xạ đồng nhất của X vào chính nó, và $f$ là một phần tử bất kỳ của E. Lấy $S\{u\}$ là số hạng $f \circ u$ [^4]. Áp dụng C63, ta thấy rằng tồn tại một ánh xạ duy nhất từ $\mathbf{N}$ vào E, ký hiệu là $n \to f^n$, sao cho $f^0 = e$ và $f^{n+1} = f \circ f^n$. Ánh xạ $f^n$ được gọi là *ánh xạ lặp thứ n* của ánh xạ $f$.
 
 #### Ví dụ 3 {#ens-iii-s6-n2-exa-3 .statement tag=03TE}
 
@@ -291,7 +291,7 @@ Thật vậy, giả sử E $\neq$ F; khi đó E $-$ F có một phần tử cự
 
 Xem [các bài tập của § 6](exercises/s6/).
 
-[^1]: (*) Cũng có thể cho một chứng minh trực tiếp của C63, tương tự như chứng minh của C60 (§ 2, no. 2).
-[^2]: (†) Định nghĩa của cận trên bé nhất (§ 1, nos. 7, 8, and 9) có thể được phát biểu theo cách sao cho nó có một nghĩa ngay cả đối với một tập hợp không bị chặn trên (nó ký hiệu một số hạng, trong ngôn ngữ hình thức hóa, có dạng $\tau_x(R\{x\})$, mà người đọc sẽ không gặp khó khăn gì khi viết ra).
-[^3]: (**) Nếu $g = (G, E, E)$, số hạng $g(u)$ là số hạng được ký hiệu bởi $\tau_y((u, y) \in G)$.
-[^4]: (*) Ở đây chúng tôi hiểu là số hạng được ký hiệu bởi (T, X, X), trong đó T là số hạng được ký hiệu bởi $\mathfrak{S}_z(z$ là một cặp có thứ tự và $(\exists y)((\mathrm{pr}_1 z, y) \in \mathrm{pr}_1(\mathrm{pr}_1(u))$ và $(y, \mathrm{pr}_2 z) \in \mathrm{pr}_1(\mathrm{pr}_1(f)))$.
+[^1]: Cũng có thể cho một chứng minh trực tiếp của C63, tương tự như chứng minh của C60 (§ 2, no. 2).
+[^2]: Định nghĩa của cận trên bé nhất (§ 1, nos. 7, 8, and 9) có thể được phát biểu theo cách sao cho nó có một nghĩa ngay cả đối với một tập hợp không bị chặn trên (nó ký hiệu một số hạng, trong ngôn ngữ hình thức hóa, có dạng $\tau_x(R\{x\})$, mà người đọc sẽ không gặp khó khăn gì khi viết ra).
+[^3]: Nếu $g = (G, E, E)$, số hạng $g(u)$ là số hạng được ký hiệu bởi $\tau_y((u, y) \in G)$.
+[^4]: Ở đây chúng tôi hiểu là số hạng được ký hiệu bởi (T, X, X), trong đó T là số hạng được ký hiệu bởi $\mathfrak{S}_z(z$ là một cặp có thứ tự và $(\exists y)((\mathrm{pr}_1 z, y) \in \mathrm{pr}_1(\mathrm{pr}_1(u))$ và $(y, \mathrm{pr}_2 z) \in \mathrm{pr}_1(\mathrm{pr}_1(f)))$.

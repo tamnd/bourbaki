@@ -30,16 +30,16 @@ subsections:
       pdf_page: 28
 statements: 5
 exercises: 6
-content_sha256: f1edb54bf5badcc6a09214156341c4f9bad6948839b58b9a54ea7a9fd294886b
+content_sha256: bbd7a5190da4bab5fb7ec796a94619a8dd8c0628947bd1a6aa35eabe2daa40a0
 ---
 
 ## 1. TERMS AND RELATIONS
 
 ### 1. SIGNS AND ASSEMBLIES
 
-The *signs* of a mathematical theory $\mathscr{T}$ (*)[^1] are the following :
+The *signs* of a mathematical theory $\mathscr{T}$ [^1] are the following :
 
-(1) The *logical signs* (†)[^2] : $\square$, $\tau$, $\vee$, $\neg$.
+(1) The *logical signs* [^2] : $\square$, $\tau$, $\vee$, $\neg$.
 (2) The *letters*.
 
 By letters we mean upper and lower case Roman letters, with or without accents. Thus $A$, $A'$, $A''$, $A'''$, ... are letters. At any place in the text it is possible to introduce letters other than those which have appeared in previous arguments.
@@ -148,7 +148,7 @@ We shall make use of the following criteria, called the *criteria of substitutio
 
 CS1. Let $A$ and $B$ be assemblies and let $x$ and $x'$ be letters. If $x'$ does not appear in $A$, then $(B|x)A$ is identical with $(B|x')(x'|x)A$.
 
-CS2. Let $A$, $B$, and $C$ be assemblies and let $x$ and $y$ be distinct letters (*)[^3]. If $y$ does not appear in $B$, then $(B|x)(C|y)A$ is identical with
+CS2. Let $A$, $B$, and $C$ be assemblies and let $x$ and $y$ be distinct letters [^3]. If $y$ does not appear in $B$, then $(B|x)(C|y)A$ is identical with
 
 $$(C'|y)(B|x)A,$$
 
@@ -178,7 +178,7 @@ Some of the specific signs of a theory are called *relational*, and the others a
 
 (d) There is an assembly $B$ of the second species, preceding $A$, and a letter $x$ such that $A$ is $\tau_x(B)$.
 
-(e) There is a specific sign $s$ of weight $n$ (*)[^4] in $\mathscr{T}$, and $n$ assemblies $A_1,A_2,\ldots,A_n$ of the first species, preceding $A$, such that $A$ is $sA_1A_2\ldots A_n$.
+(e) There is a specific sign $s$ of weight $n$ [^4] in $\mathscr{T}$, and $n$ assemblies $A_1,A_2,\ldots,A_n$ of the first species, preceding $A$, such that $A$ is $sA_1A_2\ldots A_n$.
 
 ¶ The assemblies of the first species (resp. of the second species) which appear in the formative constructions of $\mathscr{T}$ are called terms (resp. relations) in $\mathscr{T}$.
 
@@ -278,7 +278,7 @@ Intuitively, if $A$ is a relation in $\mathscr{T}$, which we may regard as expre
 
 See the [exercises for § 1](exercises/s1/).
 
-[^1]: (\*) The meaning of this expression will become clear as the chapter progresses.
-[^2]: (†) For the intuitive meanings of these signs, see no. 3, Remark.
-[^3]: (*) In accordance with what was said in no. 1, the phrase “$x$ and $y$ are distinct letters” is an abuse of language: it means that $x$ and $y$ denote distinct letters in the assemblies under consideration.
-[^4]: (*) As was said above, it would be possible, for the development of present-day mathematical theories, to limit our consideration to specific signs of weight 2, and consequently to avoid using the expression “natural number $n$” in the definition of a formative construction.
+[^1]: The meaning of this expression will become clear as the chapter progresses.
+[^2]: For the intuitive meanings of these signs, see no. 3, Remark.
+[^3]: In accordance with what was said in no. 1, the phrase “$x$ and $y$ are distinct letters” is an abuse of language: it means that $x$ and $y$ denote distinct letters in the assemblies under consideration.
+[^4]: As was said above, it would be possible, for the development of present-day mathematical theories, to limit our consideration to specific signs of weight 2, and consequently to avoid using the expression “natural number $n$” in the definition of a formative construction.

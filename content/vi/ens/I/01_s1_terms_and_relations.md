@@ -30,9 +30,9 @@ subsections:
       pdf_page: 28
 statements: 5
 exercises: 6
-content_sha256: fd9c2c6e958aaf9577850d41e92b562d13b7fdfdfff0c717b16fcbc99078afe2
+content_sha256: 41997a5758c0b01e294df10ba787a999831dda28eff28cfac922faae4a4c4dee
 translated_from: content/en/ens/I/01_s1_terms_and_relations.md
-source_content_sha256: f1edb54bf5badcc6a09214156341c4f9bad6948839b58b9a54ea7a9fd294886b
+source_content_sha256: bbd7a5190da4bab5fb7ec796a94619a8dd8c0628947bd1a6aa35eabe2daa40a0
 translation_model: gpt-5.4
 translation_run: translate-vi-7032b096
 glossary_version: 29
@@ -44,9 +44,9 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC DẤU VÀ CÁC DÃY KÝ HIỆU
 
-Các *dấu* của một lý thuyết toán học $\mathscr{T}$ (*)[^1] là như sau :
+Các *dấu* của một lý thuyết toán học $\mathscr{T}$ [^1] là như sau :
 
-(1) Các *dấu lôgic* (†)[^2] : $\square$, $\tau$, $\vee$, $\neg$.
+(1) Các *dấu lôgic* [^2] : $\square$, $\tau$, $\vee$, $\neg$.
 (2) Các *chữ cái*.
 
 Bởi chữ cái, ta hiểu các chữ cái Latin viết hoa và viết thường, có hoặc không có dấu phụ. Như vậy $A$, $A'$, $A''$, $A'''$, ... là các chữ cái. Ở bất kỳ chỗ nào trong văn bản cũng có thể giới thiệu những chữ cái khác với những chữ cái đã xuất hiện trong các lập luận trước đó.
@@ -155,7 +155,7 @@ Chúng tôi sẽ dùng các tiêu chuẩn sau đây, gọi là *các tiêu chu�
 
 CS1. Cho $A$ và $B$ là các dãy ký hiệu và $x$ và $x'$ là các chữ cái. Nếu $x'$ không xuất hiện trong $A$, thì $(B|x)A$ đồng nhất với $(B|x')(x'|x)A$.
 
-CS2. Cho $A$, $B$ và $C$ là các dãy ký hiệu và cho $x$ và $y$ là các chữ cái phân biệt (*)[^3]. Nếu $y$ không xuất hiện trong $B$, thì $(B|x)(C|y)A$ đồng nhất với
+CS2. Cho $A$, $B$ và $C$ là các dãy ký hiệu và cho $x$ và $y$ là các chữ cái phân biệt [^3]. Nếu $y$ không xuất hiện trong $B$, thì $(B|x)(C|y)A$ đồng nhất với
 
 $$(C'|y)(B|x)A,$$
 
@@ -185,7 +185,7 @@ Một số ký hiệu riêng của một lý thuyết được gọi là *quan h
 
 (d) Có một dãy ký hiệu $B$ thuộc loài thứ hai, đi trước $A$, và một chữ cái $x$ sao cho $A$ là $\tau_x(B)$.
 
-(e) Có một ký hiệu xác định $s$ có trọng số $n$ (*)[^4] trong $\mathscr{T}$, và $n$ dãy ký hiệu $A_1,A_2,\ldots,A_n$ thuộc loài thứ nhất, đi trước $A$, sao cho $A$ là $sA_1A_2\ldots A_n$.
+(e) Có một ký hiệu xác định $s$ có trọng số $n$ [^4] trong $\mathscr{T}$, và $n$ dãy ký hiệu $A_1,A_2,\ldots,A_n$ thuộc loài thứ nhất, đi trước $A$, sao cho $A$ là $sA_1A_2\ldots A_n$.
 
 ¶ Các dãy ký hiệu thuộc loài thứ nhất (tương ứng, thuộc loài thứ hai) xuất hiện trong các phép kiến tạo của $\mathscr{T}$ được gọi là các hạng thức (tương ứng, các quan hệ) trong $\mathscr{T}$.
 
@@ -285,7 +285,7 @@ Một cách trực quan, nếu $A$ là một quan hệ trong $\mathscr{T}$, mà 
 
 Xem [các bài tập cho § 1](exercises/s1/).
 
-[^1]: (\*) Ý nghĩa của biểu thức này sẽ trở nên rõ ràng khi chương tiến triển.
-[^2]: (†) Về ý nghĩa trực giác của các ký hiệu này, xem no. 3, Nhận xét.
-[^3]: (*) Phù hợp với điều đã nói ở no. 1, cụm từ “$x$ và $y$ là những chữ cái phân biệt” là một sự lạm dụng ngôn ngữ: nó có nghĩa là $x$ và $y$ biểu thị những chữ cái phân biệt trong các dãy ký hiệu đang xét.
-[^4]: (*) Như đã nói ở trên, đối với sự phát triển của các lý thuyết toán học ngày nay, có thể giới hạn sự xem xét của ta vào các ký hiệu riêng biệt có trọng số 2, và do đó tránh dùng cụm từ “số tự nhiên $n$” trong định nghĩa của một phép dựng kiến tạo.
+[^1]: Ý nghĩa của biểu thức này sẽ trở nên rõ ràng khi chương tiến triển.
+[^2]: Về ý nghĩa trực giác của các ký hiệu này, xem no. 3, Nhận xét.
+[^3]: Phù hợp với điều đã nói ở no. 1, cụm từ “$x$ và $y$ là những chữ cái phân biệt” là một sự lạm dụng ngôn ngữ: nó có nghĩa là $x$ và $y$ biểu thị những chữ cái phân biệt trong các dãy ký hiệu đang xét.
+[^4]: Như đã nói ở trên, đối với sự phát triển của các lý thuyết toán học ngày nay, có thể giới hạn sự xem xét của ta vào các ký hiệu riêng biệt có trọng số 2, và do đó tránh dùng cụm từ “số tự nhiên $n$” trong định nghĩa của một phép dựng kiến tạo.

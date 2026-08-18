@@ -42,9 +42,9 @@ subsections:
       pdf_page: 78
 statements: 10
 exercises: 6
-content_sha256: 1eaef683997096345c904314f8d9802acd2423cbc0d921eb3e1da818b64f6ec3
+content_sha256: 121f3aa36724a21b9dbd4a8bdf3a8ee3b757490683bae6a1793b862975036f34
 translated_from: content/en/ens/II/01_s1_collectivizing_relations.md
-source_content_sha256: f27c098283cf976dbfe884a6515c10d42a193eed1659b1a36d768d136ab18309
+source_content_sha256: 945734898d276ff327911de96117c25cec8057ca8616474c2a80aaeb17231074
 translation_model: gpt-5.4
 translation_run: translate-vi-f3bb3512
 glossary_version: 29
@@ -284,7 +284,7 @@ $x \in A$. Nói cách khác, $A = \complement_X(\complement_X A)$ là một quan
 
 Đối với quan hệ $(\forall x)(x \notin X)$ kéo theo $(\forall Y)(X \subset Y)$; do Tiên đề ngoại diên, quan hệ $(\forall x)(x \notin X)$ vì thế là đơn trị theo X. Mặt khác, quan hệ $(\forall x)(x \notin \complement_Y Y)$ là đúng, điều này chứng tỏ rằng $(\exists X)(\forall x)(x \notin X)$ là đúng.
 
-¶ Số hạng $\tau_x((\forall x)(x \notin X))$ tương ứng với quan hệ phiếm hàm này được biểu diễn bởi ký hiệu phiếm hàm $\emptyset$, và được gọi là *tập rỗng* (\*)[^1]; quan hệ $(\forall x)(x \notin X)$, tương đương với $X = \emptyset$, được đọc như sau: "*tập hợp* X *là rỗng*". Ta có các định lý $x \notin \emptyset$, $\emptyset \subset X$, $\complement_X X = \emptyset$, $\complement_X \emptyset = X$. Quan hệ $X \subset \emptyset$ tương đương với $X = \emptyset$. Nếu $R\{x\}$ là một quan hệ, thì quan hệ $(\forall x)((x \in \emptyset) \Rightarrow R\{x\})$ là đúng.
+¶ Số hạng $\tau_x((\forall x)(x \notin X))$ tương ứng với quan hệ phiếm hàm này được biểu diễn bởi ký hiệu phiếm hàm $\emptyset$, và được gọi là *tập rỗng* [^1]; quan hệ $(\forall x)(x \notin X)$, tương đương với $X = \emptyset$, được đọc như sau: "*tập hợp* X *là rỗng*". Ta có các định lý $x \notin \emptyset$, $\emptyset \subset X$, $\complement_X X = \emptyset$, $\complement_X \emptyset = X$. Quan hệ $X \subset \emptyset$ tương đương với $X = \emptyset$. Nếu $R\{x\}$ là một quan hệ, thì quan hệ $(\forall x)((x \in \emptyset) \Rightarrow R\{x\})$ là đúng.
 
 #### Nhận xét {#ens-ii-s1-n7-rem-1 .statement tag=03PB}
 
@@ -294,4 +294,4 @@ Không tồn tại tập hợp nào mà mọi đối tượng đều là một p
 
 Xem [các bài tập cho § 1](exercises/s1/).
 
-[^1]: (\*) Số hạng được ký hiệu bởi $\emptyset$ vì thế là $\tau \neg \neg \in \tau \neg \neg \in \square\square\square$.
+[^1]: Số hạng được ký hiệu bởi $\emptyset$ vì thế là $\tau \neg \neg \in \tau \neg \neg \in \square\square\square$.
