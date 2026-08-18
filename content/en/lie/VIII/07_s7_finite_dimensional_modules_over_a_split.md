@@ -41,7 +41,7 @@ subsections:
       pdf_page: 147
 statements: 46
 exercises: 27
-content_sha256: 87b39c9bfe478d342de38ffe999cbb4683ff60ad0e7df4e7c4af7866d6794b71
+content_sha256: 373094899a42a9ee7668fe8b6fc892ffbcc2dc272b6bd645e1900eefba1aaec5
 ---
 
 ## § 7. FINITE DIMENSIONAL MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -238,15 +238,13 @@ This follows immediately from Prop. 3.
 
 #### Proposition 5 {#lie-viii-s7-prop-5 .statement tag=013O}
 
-Let V be a finite dimensional simple $\mathfrak{g}$-module, $\omega$ its highest weight, $\mathscr{X}$ its set of weights. Choose a W-invariant non-degenerate positive symmetric bilinear form $(\cdot |\cdot )$ on $\mathfrak{h}^*_{\mathbf{R}}$, and let $\lambda  \rightarrow  \lambda = (\lambda |\lambda )^{1/2}$be the corresponding norm.
+Let V be a finite dimensional simple $\mathfrak{g}$-module, $\omega$ its highest weight, $\mathscr{X}$ its set of weights. Choose a W-invariant non-degenerate positive symmetric bilinear form $(\cdot |\cdot )$ on $\mathfrak{h}^*_{\mathbf{R}}$, and let $\lambda  \rightarrow  \|\lambda \|= (\lambda |\lambda )^{1/2}$be the corresponding norm.
 
 (i) $\mathscr{X}$ is the smallest R-saturated subset of P containing $\omega$.
 
 (ii) The R-extremal elements of $\mathscr{X}$ are the W-transforms of $\omega$.
 
-(iii) If $\mu\in \mathscr{X}$, we have $\mu \leq  \omega$ . If, in addition, $\mu\not=\omega$, we have
-
-$\mu+\rho <\omega +\rho$ . If $\mu$ is not R-extremal in $\mathscr{X}$, then $\mu<\omega$ .
+(iii) If $\mu\in \mathscr{X}$, we have $\|\mu\| \leq  \|\omega \|$. If, in addition, $\mu\not=\omega$, we have $\|\mu+\rho \|<\|\omega +\rho \|$. If $\mu$ is not R-extremal in $\mathscr{X}$, then $\|\mu\|<\|\omega \|$.
 
 (iv) We have $\mathscr{X}= W.(\mathscr{X}\cap P_{++})$. An element $\lambda$ of $P_{++}$ belongs to $\mathscr{X}\cap P_{++}$ if and only if $\omega -\lambda \in Q_+$.
 
@@ -272,9 +270,9 @@ $$
 
 Now $\omega -\mu=\sum_{\alpha\in B}n_{\alpha}\alpha$ with integers $n_{\alpha}\geq 0$ not all zero, so $(\omega -\mu|\rho )>0$ since $(\rho |\alpha )>0$ for all $\alpha \in B$ (Chap. VI, §1, no. 10, Prop. 29 (iii)). If $\mu$ is not R-extremal in $\mathscr{X}$, there exists $\alpha \in R$ such that $\mu+\alpha \in \mathscr{X}$ and $\mu-\alpha \in \mathscr{X}$; then
 
-$\mu<$ sup( $\mu+\alpha ,\mu-\alpha )\leq$ sup$_{\lambda\in\mathscr{X}}\lambda$
+$\|\mu\|<$ sup($\|\mu+\alpha \|,\|\mu-\alpha \|$)$\leq$ sup$_{\lambda\in\mathscr{X}}\|\lambda \|$
 
-and this last upper bound is $\omega$ by the preceding.
+and this last upper bound is $\|\omega \|$ by the preceding.
 
 (iv) We have $\mathscr{X}= W.(\mathscr{X}\cap P_{++})$ by Chap. VI, §1, no. 10. If $\lambda \in \mathscr{X}$, then $\omega -\lambda \in Q_+($§6, no. 1, Prop. 1). If $\lambda \in P_{++}$ and $\omega -\lambda \in Q_+$, then $\lambda \in \mathscr{X}$ (Cor. 2 of Prop. 3).
 
@@ -292,7 +290,7 @@ Recall (Chap. VI, §1, no. 6, Cor. 3 of Prop. 17) that there exists a unique ele
 
 #### Proposition 6 {#lie-viii-s7-prop-6 .statement tag=013R}
 
-Let $\lambda \in P$, and $\mathscr{X}$ the smallest R-saturated subset of P containing $\lambda$. Choose a norm $\cdot$ as in Prop. 5. The following conditions are equivalent:
+Let $\lambda \in P$, and $\mathscr{X}$ the smallest R-saturated subset of P containing $\lambda$. Choose a norm $\| \cdot  \|$ as in Prop. 5. The following conditions are equivalent:
 
 (i) $\mathscr{X}= W.\lambda$;
 
@@ -307,12 +305,12 @@ Introduce the condition:
 (ii$')$ for all $\alpha \in R$ and for every integer $t$ between 0 and $\lambda (H_{\alpha})$,
 
 $$
-\lambda -t\alpha  \geq  \lambda
+\|\lambda -t\alpha \| \geq  \|\lambda \|
 $$
 
 (i) $=\Rightarrow$ (ii) $=\Rightarrow$ (ii$'):$ This is clear.
 
-(ii$') =\Rightarrow$ (iii): Assume that condition (ii$')$ is satisfied. Let $\alpha \in R$. We have $\lambda$ = $\lambda -\lambda (H_{\alpha})\alpha$, so $\lambda -t\alpha <\lambda$ for every integer $t$ strictly between 0 and $\lambda (H_{\alpha})$; hence, there can be no such integers, so $|\lambda (H_{\alpha})| \leq 1$.
+(ii$') =\Rightarrow$ (iii): Assume that condition (ii$')$ is satisfied. Let $\alpha \in R$. We have $\|\lambda \|=\|\lambda -\lambda (H_{\alpha})\alpha \|$, so $\|\lambda -t\alpha \|<\|\lambda \|$ for every integer $t$ strictly between 0 and $\lambda (H_{\alpha})$; hence, there can be no such integers, so $|\lambda (H_{\alpha})| \leq 1$.
 
 (iii) $=\Rightarrow$ (i): Assume that condition (iii) is satisfied. Let $w\in W$ and $\alpha \in R$. Then $(w\lambda )(H_{\alpha}) =\lambda (H_{w^{-1}\alpha})\in  \{0,1,-1\}$; thus, if $t$ is an integer between 0 and $(w\lambda )(H_{\alpha}),w\lambda -t\alpha$ is equal to $w\lambda$ or $s_{\alpha}(w\lambda )$. This proves that $W.\lambda$ is R-saturated, so $\mathscr{X}= W.\lambda$.
 

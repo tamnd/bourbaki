@@ -913,7 +913,7 @@ books:
               statements: 46
               exercises: 27
               extraction: native+ocr
-              content_sha256: 87b39c9bfe478d342de38ffe999cbb4683ff60ad0e7df4e7c4af7866d6794b71
+              content_sha256: 373094899a42a9ee7668fe8b6fc892ffbcc2dc272b6bd645e1900eefba1aaec5
             - kind: section
               section: 8
               title: Symmetric invariants
@@ -1095,7 +1095,7 @@ books:
               statements: 28
               exercises: 8
               extraction: native
-              content_sha256: 10653b6246a96b52e6bd66aab35f9ba7226bd5f78d6b12a19035ae0458ed822c
+              content_sha256: e4e42f6d2376efb5f3a62e9ffe8d13ff66d26a9533d3d42bd28eae3c03b11ea1
             - kind: section
               section: 8
               title: Fourier transform
@@ -1108,7 +1108,7 @@ books:
               statements: 9
               exercises: 6
               extraction: native
-              content_sha256: 8a3ee642895059a35742987bf3b56b09911f45d68f9c737f090325e6e0723b8e
+              content_sha256: 35d56114e0fabe41b176effe1b7eb5d9f04ee76a40ddc6f97077b41aaefa51e8
             - kind: section
               section: 9
               title: Compact Lie groups operating on manifolds
@@ -1121,7 +1121,7 @@ books:
               statements: 19
               exercises: 21
               extraction: native
-              content_sha256: 8c2073b5f29f23a876cc3f565466e0e0b86becb2682461c1b7eb9510b56be041
+              content_sha256: 6234cfed8ed6554903391b363a72721e23d4521f9ccabbbe187215fb9caf4d72
             - kind: appendix
               section: 1
               title: Structure of compact groups

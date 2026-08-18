@@ -1,12 +1,11 @@
 {
   "book": "lie-vii-ix",
   "pages": 439,
-  "clean": 418,
-  "flagged": 21,
+  "clean": 421,
+  "flagged": 18,
   "empty": 0,
   "reasons": {
     "diagram": 12,
-    "dropped-glyph": 3,
     "stacked-rows": 6
   },
   "flagged_pages": [
@@ -104,24 +103,6 @@
       "pdf_page": 359,
       "flags": [
         "diagram"
-      ]
-    },
-    {
-      "pdf_page": 364,
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 367,
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 371,
-      "flags": [
-        "dropped-glyph"
       ]
     },
     {

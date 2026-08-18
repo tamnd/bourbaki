@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: 10653b6246a96b52e6bd66aab35f9ba7226bd5f78d6b12a19035ae0458ed822c
+content_sha256: e4e42f6d2376efb5f3a62e9ffe8d13ff66d26a9533d3d42bd28eae3c03b11ea1
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -256,7 +256,7 @@ $$
 
 If $\lambda \in X_{++}$, the characters $^w(\lambda \rho )$ are distinct; indeed, it suffices to prove that $^w(\lambda \rho )\not=\lambda \rho$ for all $w\not= 1$; but this follows from Lemma 1 (no. 1) and the fact that $\langle \lambda \rho , K_{\alpha}\rangle =\langle \lambda , K_{\alpha}\rangle + 1>0$ for every positive root $\alpha$. Consequently,
 
-$J(\lambda \rho )^2=$ Card(W) $=w(G)$.
+$\|J(\lambda \rho )\|^2=$ Card(W) $=w(G)$.
 
 An element $f\in L^2(T)$ is said to be anti-invariant if $^wf=\varepsilon (w)f$ for all $w\in W$ (that is, if $^sf=-f$ for every reflection $s)$. We shall show that $\frac{1}{w(G)}J$ is the orthogonal projection of $L^2(T)$ onto the subspace of anti-invariant elements. Indeed, let $f, f'$ be in $L^2$(T), with $f'$ anti-invariant; then $J(f)$ is anti-invariant and
 
@@ -494,13 +494,13 @@ we deduce the stated formula.
 
 #### Corollary 1 {#lie-ix-s7-lem-5-cor-1 .statement tag=01GN}
 
-Let be a norm on $X(T)\otimes \mathbf{R}$. For all $\lambda \in X_{++}$, let $d(\lambda )$ be the dimension of the space of an irreducible representation of G of highest weight $\lambda$.
+Let $\| \|$ be a norm on $X(T)\otimes \mathbf{R}$. For all $\lambda \in X_{++}$, let $d(\lambda )$ be the dimension of the space of an irreducible representation of G of highest weight $\lambda$.
 
-a) sup$_{\lambda\in X_{++}}d(\lambda )/\lambda +\rho^N<\infty$, where $N = 1/$2(dim $G-$ dim T).
+a) sup$_{\lambda\in X_{++}}d(\lambda )/\|\lambda +\rho \|^N<\infty$, where $N = 1/$2(dim $G-$ dim T).
 
-b) If G is semi-simple, inf$_{\lambda\in X_{++}}d(\lambda )/\lambda +\rho >0$.
+b) If G is semi-simple, inf$_{\lambda\in X_{++}}d(\lambda )/\|\lambda +\rho \|>0$.
 
-$a)$ For all $\alpha \in R_+$, there exists $A_{\alpha}>0$ with $|\langle \lambda +\rho , K_{\alpha}\rangle | \leq A_{\alpha}\lambda +\rho$ , hence $d(\lambda )/\lambda +\rho^N\leq \prod_{\alpha >0}A_{\alpha}/\langle \rho , K_{\alpha}\rangle$.
+$a)$ For all $\alpha \in R_+$, there exists $A_{\alpha}>0$ with $|\langle \lambda +\rho , K_{\alpha}\rangle | \leq A_{\alpha}\|\lambda +\rho \|$, hence $d(\lambda )/\|\lambda +\rho \|^N\leq \prod_{\alpha >0}A_{\alpha}/\langle \rho , K_{\alpha}\rangle$.
 
 $b)$ Assume that G is semi-simple, denote by $\beta_1, . . . , \beta_r$ the simple roots and put $N_i=K_{\beta_i}$. Then
 
@@ -585,7 +585,7 @@ Since $X(T)_{++}$ generates the $\mathbf{R}$-vector space $X(T)\otimes \mathbf{R
 Let $x\in \mathfrak{g}$. There exists a strictly positive real number A such that, for every irreducible representation $\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$ and every Hilbert structure on V invariant under G,
 
 $$
-L(\tau )(x)^2\leq A.\widetilde{\Gamma}(\tau )
+\|L(\tau )(x)\|^2\leq A.\widetilde{\Gamma}(\tau )
 $$
 
 Indeed, with the notations in the preceding proof, we can choose the basis $(e_i)$ of $\mathfrak{g}$ so that $x=ae_1,a\in \mathbf{R}$. Then, for $v\in V$, we have

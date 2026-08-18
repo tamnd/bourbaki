@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 8a3ee642895059a35742987bf3b56b09911f45d68f9c737f090325e6e0723b8e
+content_sha256: 35d56114e0fabe41b176effe1b7eb5d9f04ee76a40ddc6f97077b41aaefa51e8
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -44,7 +44,7 @@ is valid without change in the case of split reductive Lie algebras.
 
 In this number, we recall some definitions and results from Spectral Theories$^6$.
 
-Denote by $\widehat{G}$ the set of classes of irreducible representations of G (on finite dimensional complex vector spaces). For all $u\in \widehat{G}$, denote by $Eu$ the space of $u$ and $d(u)$ its dimension. There exist separating positive hermitian forms on $E_u$ invariant under $u$, and any two such forms are proportional. Denote by $A^*$ (resp. A $_{\infty})$ the adjoint (resp. the norm) of an element A of End(E$_u)$ relative to one of these forms; for all $g\in G$, we have $u(g)^*=u(g)^{-1}=u(g^{-1})$ and $u(g)_{\infty}= 1$; for all $x\in \mathfrak{g}$, we have $u(x)^*=-u(x) =u(-x)$.
+Denote by $\widehat{G}$ the set of classes of irreducible representations of G (on finite dimensional complex vector spaces). For all $u\in \widehat{G}$, denote by $Eu$ the space of $u$ and $d(u)$ its dimension. There exist separating positive hermitian forms on $E_u$ invariant under $u$, and any two such forms are proportional. Denote by $A^*$ (resp. $\|A\|_{\infty})$ the adjoint (resp. the norm) of an element A of End(E$_u)$ relative to one of these forms; for all $g\in G$, we have $u(g)^*=u(g)^{-1}=u(g^{-1})$ and $\|u(g)\|_{\infty}= 1$; for all $x\in \mathfrak{g}$, we have $u(x)^*=-u(x) =u(-x)$.
 
 Give End(E$_u)$ the Hilbert space structure for which the scalar product is
 
@@ -52,38 +52,38 @@ $\langle A|B\rangle =d(u$)Tr(A$^*B) =d(u$)Tr(BA$^*)$, (1)
 
 and put
 
-$A_2=\langle A|A\rangle^{1/2}= (d(u$)Tr(A$^*A))^{1/2}$. (2)
+$\|A\|_2=\langle A|A\rangle^{1/2}= (d(u$)Tr(A$^*A))^{1/2}$. (2)
 
 We have
 
 $$
-(\overline{d(u)}A_{\infty}\leq  A_2\leq d(u)A_{\infty} \tag{3}
+(\overline{d(u)}\|A\|_{\infty}\leq  \|A\|_2\leq d(u)\|A\|_{\infty} \tag{3}
 $$
 
 so
 
 $$
-|\langle A|B\rangle | \leq d(u)^2A_{\infty}B_{\infty} \tag{4}
+|\langle A|B\rangle | \leq d(u)^2\|A\|_{\infty}\|B\|_{\infty} \tag{4}
 $$
 
-For all $g\in G$, we have $u(g)_2=d(u)$.
+For all $g\in G$, we have $\|u(g)\|_2=d(u)$.
 
-Denote by $F( \widehat{G})$ the algebra $\prod_{u\in\widehat{G}}$ End(E$_u)$. Denote by $L^2( \widehat{G})$ the Hilbert sum of the Hilbert spaces End(E$_u)$; this is the space of families $A= (A_u)\in F( \widehat{G})$ such that $\sum_uA_u^2_2<\infty$, with the scalar product
+Denote by $F( \widehat{G})$ the algebra $\prod_{u\in\widehat{G}}$ End(E$_u)$. Denote by $L^2( \widehat{G})$ the Hilbert sum of the Hilbert spaces End(E$_u)$; this is the space of families $A= (A_u)\in F( \widehat{G})$ such that $\sum_u\|A_u\|^2_2<\infty$, with the scalar product
 
 $\langle A|B\rangle =\sum_{u\in\widehat{G}}\langle A_u|B_u\rangle =\sum_{u\in\widehat{G}}d(u$)Tr(A$^*_uB_u)$. (5)
 
-Denote the Hilbert norm on $L^2( \widehat{G})$ also by $_2$, so that $A^2_2=\sum_{u\in\widehat{G}}A_u^2_2$ for $A\in L^2( \widehat{G})$.
+Denote the Hilbert norm on $L^2( \widehat{G})$ also by $\| \|_2$, so that $\|A\|^2_2=\sum_{u\in\widehat{G}}\|A_u\|^2_2$ for $A\in L^2( \widehat{G})$.
 
 If $f$ is an integrable complex function on G, put
 
 $u(f) =\int_Gf(g)u(g)dg\in$ End(E$_u)$ (6)
 
-for all $u\in \widehat{G}$. We have $u(f)_{\infty}\leq \int_G|f(g)|dg=f_1$. The Fourier cotransform of $f$, denoted by $\mathscr{F}(f)$, is the family $(u(f))_{u\in\widehat{G}}\in F( \widehat{G})$. If $f\in L^2( \widehat{G})$,
+for all $u\in \widehat{G}$. We have $\|u(f)\|_{\infty}\leq \int_G|f(g)|dg=\|f\|_1$. The Fourier cotransform of $f$, denoted by $\mathscr{F}(f)$, is the family $(u(f))_{u\in\widehat{G}}\in F( \widehat{G})$. If $f\in L^2( \widehat{G})$,
 
 $^6$ See note $^1$, §7, p. 66.
 
 $$
-f^2_2=\sum_{u\in\widehat{G}}\langle u(f)|u(f)\rangle =\overline{\mathscr{F}}(f)^2_2
+\|f\|^2_2=\sum_{u\in\widehat{G}}\langle u(f)|u(f)\rangle =\|\overline{\mathscr{F}}(f)\|^2_2
 $$
 
 so $\overline{\mathscr{F}}$ induces an isometric linear map from the Hilbert space $L^2(G)$ to the Hilbert space $L^2( \widehat{G}):$ in other words, for $f$ and $f'$ in $L^2$(G), we have
@@ -188,11 +188,11 @@ If $\varphi$ and $\psi$ are two functions on $\widehat{G}$ with positive real va
 
 #### Proposition 2 {#lie-ix-s8-prop-2 .statement tag=01H0}
 
-Let $m \rightarrow  m$ be a norm on the $\mathbf{R}$-vector space $\mathbf{R}\otimes X(T)$ and $\Gamma$ a Casimir element of G. Let $\varphi$ be a function on $\widehat{G}$ with positive real values.
+Let $m \rightarrow  \|m\|$ be a norm on the $\mathbf{R}$-vector space $\mathbf{R}\otimes X(T)$ and $\Gamma$ a Casimir element of G. Let $\varphi$ be a function on $\widehat{G}$ with positive real values.
 
 a) The following conditions are equivalent:
 
-(i) There exists an integer $n >0$ such that $\varphi (u)(\lambda (u)+ 1)^n$ (resp. for every integer $n >0$, we have $\varphi (u)(\lambda (u)+ 1)^{-n})$.
+(i) There exists an integer $n >0$ such that $\varphi (u)(\|\lambda (u)\|+ 1)^n$ (resp. for every integer $n >0$, we have $\varphi (u)(\|\lambda (u)\|+ 1)^{-n})$.
 
 (ii) There exists an integer $n >0$ such that $\varphi (u)( \widetilde{\Gamma}(u) + 1)^n$ (resp. for every integer $n >0$, we have $\varphi (u)( \widetilde{\Gamma}(u) + 1)^{-n})$.
 
@@ -203,31 +203,31 @@ b) If G is semi-simple, conditions (i) and (ii) are also equivalent to:
 Note first of all that condition (i) is clearly independent of the choice of norm. Thus we can use the norm defined by the quadratic form $Q_{\Gamma}$ associated to $\Gamma ($§7, no. 6, Prop. 4). Then
 
 $$
-0\leq \widetilde{\Gamma}(u) =\lambda (u) +\rho^2- \rho^2
+0\leq \widetilde{\Gamma}(u) =\|\lambda (u) +\rho \|^2- \|\rho \|^2
 $$
 
-so $\widetilde{\Gamma}(u) + 1(\lambda (u)+ 1)^2\widetilde{\Gamma}(u) + 1$, hence $a)$.
+so $\widetilde{\Gamma}(u) + 1(\|\lambda (u)\|+ 1)^2\widetilde{\Gamma}(u) + 1$, hence $a)$.
 
 Further, if G is semi-simple,
 
-$\lambda (u) +\rho d(u)\lambda (u) +\rho^N$, where $N = 1/$2(dim $G-$ dim T)
+$\|\lambda (u) +\rho \|d(u)\|\lambda (u) +\rho \|^N$, where $N = 1/$2(dim $G-$ dim T)
 
-(§7, no. 5, Cor. 1 of Th. 3), so $\lambda (u)$ + 1 $d(u)(\lambda (u)+ 1)^N$, hence $b)$.
+(§7, no. 5, Cor. 1 of Th. 3), so $\|\lambda (u)\|+ 1d(u)(\|\lambda (u)\|+ 1)^N$, hence $b)$.
 
 It follows from Prop. 2 that condition (i) is independent of the choice of maximal torus, chamber, and norm, and that condition (ii) is independent of the choice of Casimir element. A function $\varphi$ satisfying conditions (i) and (ii) is said to be moderately increasing (resp. rapidly decreasing). The product of two moderately increasing functions is moderately increasing; the product of a moderately increasing function and a rapidly decreasing function is rapidly decreasing. If $\varphi$ is rapidly decreasing, the family $(\varphi (u))_{u\in\widehat{G}}$ is summable.
 
 #### Example {#lie-ix-s8-n2-exa-1 .statement tag=01H1}
 
-The function $u \rightarrow d(u)$ is moderately increasing (§7, no. 5, Cor. 1 of Th. 3); for any norm on $\mathbf{R}\otimes X(T)$, the function $u \rightarrow  \lambda (u)$ is moderately increasing. For any Casimir element $\Gamma$, the function $u \rightarrow \widetilde{\Gamma}(u)$ is moderately increasing; more generally:
+The function $u \rightarrow d(u)$ is moderately increasing (§7, no. 5, Cor. 1 of Th. 3); for any norm $\| \|$ on $\mathbf{R}\otimes X(T)$, the function $u \rightarrow  \|\lambda (u)\|$ is moderately increasing. For any Casimir element $\Gamma$, the function $u \rightarrow \widetilde{\Gamma}(u)$ is moderately increasing; more generally:
 
 #### Proposition 3 {#lie-ix-s8-prop-3 .statement tag=01H2}
 
-For all $t\in$ U(G), the functions $u \rightarrow  u(t)_{\infty}$ and $u \rightarrow  u(t)_2$ on $\widehat{G}$ are moderately increasing.
+For all $t\in$ U(G), the functions $u \rightarrow  \|u(t)\|_{\infty}$ and $u \rightarrow  \|u(t)\|_2$ on $\widehat{G}$ are moderately increasing.
 
 Since the product of two moderately increasing functions is moderately increasing, it suffices to prove this when $t\in \mathfrak{g}:$ in that case the assertion follows from the Remark in §7, no. 6 and the inequality
 
 $$
-u(t)_2\leq d(u)u(t)_{\infty}
+\|u(t)\|_2\leq d(u)\|u(t)\|_{\infty}
 $$
 
 #### Theorem 1 {#lie-ix-s8-thm-1 .statement tag=01H3}
@@ -236,7 +236,7 @@ a) Let $f$ be an infinitely-differentiable complex function on G. Then the famil
 
 $f(h) =\sum_{u\in\widehat{G}}\langle u(h)|u(f)\rangle =\sum_{u\in\widehat{G}}d(u)\int_Gf(g$)Tr($u(gh^{-1})$)$dg$.
 
-b) Let $f$ be an integrable function on G; then $f$ is equal almost everywhere to an infinitely-differentiable function if and only if the function $u \rightarrow  u(f)_{\infty}$ is rapidly decreasing on $\widehat{G}$.
+b) Let $f$ be an integrable function on G; then $f$ is equal almost everywhere to an infinitely-differentiable function if and only if the function $u \rightarrow  \|u(f)\|_{\infty}$ is rapidly decreasing on $\widehat{G}$.
 
 Let $f$ be an infinitely-differentiable function on G, and let $\Gamma$ be a Casimir element for G; by formula (14),
 
@@ -246,11 +246,11 @@ $$
 
 for all $n\geq 0$, and consequently
 
-$\widetilde{\Gamma}(u)^nu(f)_{\infty}\leq  (L_{\Gamma})^nf_1\leq$ sup$_{g\in G}|((L_{\Gamma})^nf)(g)|$; (15)
+$\widetilde{\Gamma}(u)^n\|u(f)\|_{\infty}\leq  \|(L_{\Gamma})^nf\|_1\leq$ sup$_{g\in G}|((L_{\Gamma})^nf)(g)|$; (15)
 
-thus, the function $u \rightarrow  u(f)_{\infty}$ is indeed rapidly decreasing.
+thus, the function $u \rightarrow  \|u(f)\|_{\infty}$ is indeed rapidly decreasing.
 
-Conversely, let $A = (A_u)_{u\in\widehat{G}}$ be an element of $F( \widehat{G})$ such that the function $u \rightarrow  A_{u\infty}$ is rapidly decreasing. Put $f_u(g) =\langle u(g)|A_u\rangle$; the function $g \rightarrow f_u(g)$ is analytic, hence infinitely-differentiable. By Chap. III, §3, no. 7, Prop. 27,
+Conversely, let $A = (A_u)_{u\in\widehat{G}}$ be an element of $F( \widehat{G})$ such that the function $u \rightarrow  \|A_u\|_{\infty}$ is rapidly decreasing. Put $f_u(g) =\langle u(g)|A_u\rangle$; the function $g \rightarrow f_u(g)$ is analytic, hence infinitely-differentiable. By Chap. III, §3, no. 7, Prop. 27,
 
 $$
 (L_xf_u)(g) =\langle u(g)u(x)|A_u\rangle
@@ -265,19 +265,19 @@ $$
 and consequently
 
 $$
-|(L_tf_u)(g)|=|\langle u(g)u(t)|A_u\rangle  \leq d(u)^2u(t)_{\infty}u(g)_{\infty}A_{u\infty}
+|(L_tf_u)(g)|=|\langle u(g)u(t)|A_u\rangle  \leq d(u)^2\|u(t)\|_{\infty}\|u(g)\|_{\infty}\|A_u\|_{\infty}
 $$
 
 $$
-=d(u)^2u(t)_{\infty}A_{u\infty}
+=d(u)^2\|u(t)\|_{\infty}\|A_u\|_{\infty}
 $$
 
-Since $d(u)$ and $u(t)_{\infty}$ are moderately increasing (Prop. 3) and $A_{u\infty}$ is rapidly decreasing, the function $u \rightarrow$ sup$_g|(L_tf_u)(g)|$ is rapidly decreasing; thus, the family $(L_tf_u)_{u\in\widehat{G}}$ is uniformly summable. It follows$^7$ that the sum of the family $(f_u)$ is an infinitely-differentiable function on G, whose Fourier cotransform is $(A_u)$, hence the theorem.
+Since $d(u)$ and $\|u(t)\|_{\infty}$ are moderately increasing (Prop. 3) and $\|A_u\|_{\infty}$ is rapidly decreasing, the function $u \rightarrow$ sup$_g|(L_tf_u)(g)|$ is rapidly decreasing; thus, the family $(L_tf_u)_{u\in\widehat{G}}$ is uniformly summable. It follows$^7$ that the sum of the family $(f_u)$ is an infinitely-differentiable function on G, whose Fourier cotransform is $(A_u)$, hence the theorem.
 
-Denote by $\mathscr{S}( \widehat{G})$ the vector subspace of $L^2( \widehat{G})$ consisting of the families $A = (A_u)_{u\in\widehat{G}}$ such that the function $u \rightarrow  A_{u\infty}$ is rapidly decreasing on $\widehat{G}$. It follows from the theorem that the maps $\mathscr{F}:f \rightarrow (u(f))_{u\in\widehat{G}}$ and $\mathscr{F}: A \rightarrow \sum_{u\in\widehat{G}}\langle u(g)|A_u\rangle$ induce inverse isomorphisms between the complex vector spaces $\mathscr{C}^{\infty}(G;\mathbf{C})$ and $\mathscr{S}( \widehat{G})$. Give the space $\mathscr{C}^{\infty}(G;\mathbf{C})$ the topology of uniform $C^{\infty}$-convergence (§6, no. 4) which can be defined by the family of semi-norms $f \rightarrow$ sup$_{g\in G}|L_tf(g)|$ for $t\in U(G)$, and the space $\mathscr{S}( \widehat{G})$ the topology defined by the sequence of semi-norms $p_n: A \rightarrow$ sup$_{u\in\widehat{G}}( \widetilde{\Gamma}(u) + 1)^nA_{u\infty}$. Formula (15) of the preceding proof shows that $\overline{\mathscr{F}}$ is continuous. Let $t\in U(G)$, and let $A = (A_u)_{u\in\widehat{G}}$ be an element of $\mathscr{S}( \widehat{G})$; put $f_n(g) =\langle u(g)|A_u\rangle$. Let $p$ be an integer such that $\sum_{u\in\widehat{G}}\widetilde{\Gamma}(u)^{-p}= M<\infty$. By the preceding proof, there exists a positive integer $m$ such that, for all $g\in G$,
+Denote by $\mathscr{S}( \widehat{G})$ the vector subspace of $L^2( \widehat{G})$ consisting of the families $A = (A_u)_{u\in\widehat{G}}$ such that the function $u \rightarrow  \|A_u\|_{\infty}$ is rapidly decreasing on $\widehat{G}$. It follows from the theorem that the maps $\mathscr{F}:f \rightarrow (u(f))_{u\in\widehat{G}}$ and $\mathscr{F}: A \rightarrow \sum_{u\in\widehat{G}}\langle u(g)|A_u\rangle$ induce inverse isomorphisms between the complex vector spaces $\mathscr{C}^{\infty}(G;\mathbf{C})$ and $\mathscr{S}( \widehat{G})$. Give the space $\mathscr{C}^{\infty}(G;\mathbf{C})$ the topology of uniform $C^{\infty}$-convergence (§6, no. 4) which can be defined by the family of semi-norms $f \rightarrow$ sup$_{g\in G}|L_tf(g)|$ for $t\in U(G)$, and the space $\mathscr{S}( \widehat{G})$ the topology defined by the sequence of semi-norms $p_n: A \rightarrow$ sup$_{u\in\widehat{G}}( \widetilde{\Gamma}(u) + 1)^n\|A_u\|_{\infty}$. Formula (15) of the preceding proof shows that $\overline{\mathscr{F}}$ is continuous. Let $t\in U(G)$, and let $A = (A_u)_{u\in\widehat{G}}$ be an element of $\mathscr{S}( \widehat{G})$; put $f_n(g) =\langle u(g)|A_u\rangle$. Let $p$ be an integer such that $\sum_{u\in\widehat{G}}\widetilde{\Gamma}(u)^{-p}= M<\infty$. By the preceding proof, there exists a positive integer $m$ such that, for all $g\in G$,
 
 $$
-|(L_tf_u)(g)| \leq d(u)^2u(t)_{\infty}A_{u\infty}\leq m.(1 + \widetilde{\Gamma}(u))^m\widetilde{\Gamma}(u)^{-p}A_{u\infty}
+|(L_tf_u)(g)| \leq d(u)^2\|u(t)\|_{\infty}\|A_u\|_{\infty}\leq m.(1 + \widetilde{\Gamma}(u))^m\widetilde{\Gamma}(u)^{-p}\|A_u\|_{\infty}
 $$
 
 so $|(L_t\mathscr{F}(A))(g)| \leq mMp_m(A)$; this proves that $\mathscr{F}$ is continuous. Consequently:
@@ -375,7 +375,7 @@ _2\varepsilon_{u2}
 $$
 
 $$
-\overline{\mathscr{F}}(f)_2=\sum))))\langle \chi_u|f\rangle ))))_2=\sum|\langle \overline{\chi}_u|f\rangle |^2
+\|\overline{\mathscr{F}}(f)\|_2=\sum))))\langle \chi_u|f\rangle ))))_2=\sum|\langle \overline{\chi}_u|f\rangle |^2
 $$
 
 $$
@@ -438,9 +438,9 @@ $$
 
 for all $g\in G$.
 
-By Th. $1b)$, the function $\overline{f}$ is infinitely-differentiable if and only if the function $u \rightarrow  u(\overline{f})_{\infty}$ is rapidly decreasing; but, by (20),
+By Th. $1b)$, the function $\overline{f}$ is infinitely-differentiable if and only if the function $u \rightarrow  \|u(\overline{f})\|_{\infty}$ is rapidly decreasing; but, by (20),
 
-$u(\overline{f})_{\infty}=$ 1 $|\langle \chi_u|f\rangle |$,
+$\|u(\overline{f})\|_{\infty}=$ 1 $|\langle \chi_u|f\rangle |$,
 
 $$
 d(u)
