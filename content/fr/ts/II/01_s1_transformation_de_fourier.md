@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: db52f8d9c2ae3778d944a4ca14401424ac543623bfd078ce6ab37529d79b3716
+content_sha256: fd4e798c29f9b2364d7fd2b81bf137b8708e53947055ae6d646c84232b8b5d06
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -1009,7 +1009,7 @@ Soient G, H et K des groupes topologiques. Soient $f: H\rightarrow G$ et $g: G\r
 On représentera une suite exacte par le diagramme
 
 $$
-H\longrightarrow^fG\longrightarrow^gK
+H\overset{f}{\longrightarrow}G\overset{g}{\longrightarrow}K
 $$
 
 et on dira qu’un diagramme
@@ -1023,7 +1023,7 @@ est exact si chaque couple $(f_i, f_{i+1})$ pour $1\leqslant i\leqslant n-1$ est
 Une suite
 
 $$
-1\rightarrow H\longrightarrow^fG\longrightarrow^gK\rightarrow 1
+1\rightarrow H\overset{f}{\longrightarrow}G\overset{g}{\longrightarrow}K\rightarrow 1
 $$
 
 est exacte si et seulement si $f$ est un morphisme injectif strict, $g$ est un morphisme surjectif strict, et le noyau de $g$ est égal à l’image de $f$. Si K est séparé, l’image de $f$ est un sous-groupe fermé de G.
@@ -1033,13 +1033,13 @@ est exacte si et seulement si $f$ est un morphisme injectif strict, $g$ est un m
 Soit $f: H\rightarrow$ G un morphisme injectif strict dont l’image est un sous-groupe distingué. La suite
 
 $$
-1\rightarrow H\longrightarrow^fG\longrightarrow^pG/f(H)\rightarrow 1
+1\rightarrow H\overset{f}{\longrightarrow}G\overset{p}{\longrightarrow}G/f(H)\rightarrow 1
 $$
 
 où $p$ est la projection canonique, est exacte. En particulier, si H est un sous-groupe fermé et distingué de G, la suite de groupes topologiques
 
 $$
-1\rightarrow H\longrightarrow^jG\longrightarrow^pG/H\rightarrow 1
+1\rightarrow H\overset{j}{\longrightarrow}G\overset{p}{\longrightarrow}G/H\rightarrow 1
 $$
 
 où $j$ est l’inclusion et $p$ la projection canonique, est exacte.
@@ -1048,7 +1048,7 @@ où $j$ est l’inclusion et $p$ la projection canonique, est exacte.
 
 Soit $g: G\rightarrow K$ un morphisme surjectif strict. La suite
 
-$1\rightarrow$ Ker($g$)$\longrightarrow^jG\longrightarrow^gK\rightarrow 1$,
+$1\rightarrow$ Ker($g$)$\overset{j}{\longrightarrow}G\overset{g}{\longrightarrow}K\rightarrow 1$,
 
 où $j$ est l’inclusion, est exacte
 
@@ -1056,7 +1056,9 @@ où $j$ est l’inclusion, est exacte
 
 Une suite
 
-$H\longrightarrow^fG\longrightarrow^g$ K
+$$
+H\overset{f}{\longrightarrow}G\overset{g}{\longrightarrow}K
+$$
 
 de groupes topologiques localement compacts commutatifs est exacte si, et seulement si, la suite duale
 
@@ -1089,7 +1091,7 @@ On a $q\circ p=\widehat{f}$, d’où $\widehat{p}\circ \widehat{q}=f$. L’image
 Comme $f$ est strict, son image $f(H)$ est un sous-groupe localement compact de G, et est donc fermé (TG, III, p. 22, cor. 2). Soit K = $G/f(H)$ et considérons la suite exacte
 
 $$
-1\rightarrow H\longrightarrow^fG\longrightarrow^gK\rightarrow 1
+1\rightarrow H\overset{f}{\longrightarrow}G\overset{g}{\longrightarrow}K\rightarrow 1
 $$
 
 associée (exemple 1). Par dualité, le morphisme $\widehat{f}\circ \widehat{g}$ est trivial et donc l’image de $\widehat{g}$ est contenue dans Ker($\widehat{f}$) $=$ Ker($p$). Ainsi $p\circ \widehat{g}$ est le morphisme trivial et, à nouveau par dualité, $g\circ \widehat{p}$ est aussi trivial. Il en résulte que l’image de $\widehat{p}$ est contenue dans le noyau de $g$, qui est égal à $f(H)$. On conclut que l’image de $\widehat{p}$ est égale à $f(H)$.
@@ -1100,20 +1102,22 @@ Par ailleurs, puisque $p$ est un morphisme surjectif et strict, le morphisme dua
 
 Soit
 
-$H\longrightarrow^fG\longrightarrow^g$ K
+$$
+H\overset{f}{\longrightarrow}G\overset{g}{\longrightarrow}K
+$$
 
 une suite exacte de groupes localement compacts commutatifs. Le noyau de $\widehat{f}$ est égal à l’image de $\widehat{g}$.
 
 L’homomorphisme $\widehat{f}\circ \widehat{g}$ est trivial par dualité, donc l’image de $\widehat{g}$ est contenue dans le noyau de $\widehat{f}$. Réciproquement, soit $\chi$ dans le noyau de $\widehat{f}$. Cela signifie que Im($f$) $=$ Ker($g$) est contenu dans le noyau de $\chi$, donc qu’il existe un caractère $\eta$ de Im($g$) tel que $\eta \circ g=\chi$. Puisque l’inclusion de Im($g$) dans K est stricte, l’application duale de restriction des caractères de K à Im($g$) est surjective (lemme 9). Il existe donc un caractère $\beta$ de K tel que $\eta$ est la restriction de $\beta$, et il vient $\chi =\beta \circ g=\widehat{g}(\beta )$. On en conclut que le noyau de $\widehat{f}$ est contenu dans l’image de $\widehat{g}$.
 
-Démontrons maintenant le théorème 4. Il suffit par dualité de démontrer que la suite $\widehat{K}\widehat{\longrightarrow}^g\widehat{G}\widehat{\longrightarrow}^f\widehat{H}$ est exacte lorsque la suite $H\longrightarrow^fG\longrightarrow^g$ K l’est. Or, d’après les lemmes 8 et 9, les morphismes $\widehat{f}$ et $\widehat{g}$ sont stricts et d’après le lemme 10, le noyau de $\widehat{f}$ est égal à l’image de $\widehat{g}$.
+Démontrons maintenant le théorème 4. Il suffit par dualité de démontrer que la suite $\widehat{K}\widehat{\longrightarrow}^g\widehat{G}\widehat{\longrightarrow}^f\widehat{H}$ est exacte lorsque la suite $H\overset{f}{\longrightarrow}G\overset{g}{\longrightarrow}K$ l’est. Or, d’après les lemmes 8 et 9, les morphismes $\widehat{f}$ et $\widehat{g}$ sont stricts et d’après le lemme 10, le noyau de $\widehat{f}$ est égal à l’image de $\widehat{g}$.
 
 #### Corollaire 1 {#ts-ii-s1-lem-10-cor-1 .statement tag=02J9}
 
 Soit
 
 $$
-1\rightarrow H\longrightarrow^fG\longrightarrow^gK\rightarrow 1
+1\rightarrow H\overset{f}{\longrightarrow}G\overset{g}{\longrightarrow}K\rightarrow 1
 $$
 
 une suite exacte de groupes topologiques localement compacts commutatifs. Le morphisme $\widehat{g}$ induit un isomorphisme entre $\widehat{K}$ et $f(H)^{\bot}$, et $\widehat{f}$ induit par passage au quotient un isomorphisme entre $\widehat{G}/f(H)^{\bot}$ et $\widehat{H}$.

@@ -57,7 +57,7 @@ subsections:
       pdf_page: 36
 statements: 44
 exercises: 2
-content_sha256: f7607b900f6d7a7d54112c51721b34753c2587caaddf4850576a54a796ba67ac
+content_sha256: 9369a1be57079860cd666452e762fce3732ab1a103d0fb2c62cfa0bc33588550
 ---
 
 ## § 1. PRODUITS FIBRÉS ET CARRÉS CARTÉSIENS
@@ -667,7 +667,7 @@ Avec les notations de la prop. 8, si $p$ est une application fermée, il n’en 
 Soient X et Y des espaces topologiques et $f: X\rightarrow Y$ une application. Soient R la relation d’équivalence associée à $f$ et
 
 $$
-X\rightarrow X/R-\rightarrow^gf(X)\rightarrow Y
+X\rightarrow X/R-\overset{g}{\rightarrow}f(X)\rightarrow Y
 $$
 
 la décomposition canonique de $f$ (E, II, p. 44). On dit que l’application $f$ est stricte si $g$ est un homéomorphisme, lorsqu’on munit $X/R$ de la topologie quotient et $f(X)$ de la topologie induite par celle de Y.

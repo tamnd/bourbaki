@@ -53,7 +53,7 @@ subsections:
       pdf_page: 268
 statements: 74
 exercises: 24
-content_sha256: 43f0deb8e4c2a87cb8588dff7de081c714d1e24f816f317f9ac28c6e1d44ac90
+content_sha256: 0cddd7aa9f7cd15fe7bc433a72acbbcc6663e450dfb3f086bd19f4bceac63a77
 ---
 
 ## § 4. OPÉRATEURS PARTIELS
@@ -98,7 +98,7 @@ L’image de $u$ est le sous-espace vectoriel $u(D)$ de F, noté aussi Im($u$). 
 
 (iii) En particulier, pour tout opérateur partiel $u$ de E dans F et tout $a\in K$, les opérateurs partiels $au= (a1_F)\circ u$ et $ua=u\circ (a1_E)$ sont définis. Ils sont égaux si $a\not = 0$, ou si le domaine de $u$ est égal à E ; on a $u0 = 0_E$ et $0u= 0_{dom(u)}$.
 
-Soit E un espace vectoriel. D’après ce qui précède, l’ensemble $\mathscr{P}$(E), muni de la loi de composition définie par $(u, v)\mapsto u\circ v$, est un magma associatif unifère (A, I, p. 4, déf. 5 et A, I, p. 12, déf. 2) d’élément neutre $1_E$. Pour tout $n\in \mathbf{N}$, on notera $u^n$ le composé $\circ^nu$ (A, I, p. 13).
+Soit E un espace vectoriel. D’après ce qui précède, l’ensemble $\mathscr{P}$(E), muni de la loi de composition définie par $(u, v)\mapsto u\circ v$, est un magma associatif unifère (A, I, p. 4, déf. 5 et A, I, p. 12, déf. 2) d’élément neutre $1_E$. Pour tout $n\in \mathbf{N}$, on notera $u^n$ le composé $\overset{n}{\circ}u$ (A, I, p. 13).
 
 Par ailleurs, on définit les notions suivantes :
 

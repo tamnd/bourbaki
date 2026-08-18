@@ -37,7 +37,7 @@ subsections:
       pdf_page: 81
 statements: 30
 exercises: 9
-content_sha256: 3bd2655538ea0fd366c1d478fd837c60b555fbf6a5cdd661a93717b8f558115d
+content_sha256: 723b09cba0e2dc3f909012fc4bb01716a063448fe9f841ad8188c3d93704cdbe
 ---
 
 ## § 4. PERTURBATIONS DANS LES ESPACES DE BANACH
@@ -339,7 +339,7 @@ Si $u$ est nul, on a $((u)) = ((^tu)) = +\infty$. Si $u$ n’est pas un morphism
 Supposons désormais que $u$ est un morphisme strict non nul. Notons N le noyau de $u$ et I son image, et considérons la décomposition canonique de $u:$
 
 $$
-E\longrightarrow^pE/N\longrightarrow^vI\longrightarrow^iF
+E\overset{p}{\longrightarrow}E/N\longrightarrow^vI\longrightarrow^iF
 $$
 
 Le noyau de $^tu$ est l’orthogonal $I^{\circ}$ de I dans $F'$ (EVT, IV, p. 27, prop. 2), et $^ti$ définit par passage au quotient une isométrie $\iota$ de $F'/I^{\circ}$ sur $I'$ (EVT, IV, p. 9, prop. 10). Par ailleurs, $^tp$ définit une isométrie $\pi$ de $(E/N)'$ sur l’orthogonal $N^{\circ}$ de N dans $E'$ (EVT, IV, p. 8, prop. 9). La décomposition canonique de $^tu$ est donc

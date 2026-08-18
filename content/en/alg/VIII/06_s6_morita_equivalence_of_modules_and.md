@@ -42,7 +42,7 @@ subsections:
       pdf_page: 128
 statements: 41
 exercises: 8
-content_sha256: 979adbb97ccde5c60105f84fb1e0b54beccc02cbb9a45ff56c704e7319b7a3ea
+content_sha256: ac8d53dd4bd6f0c79d7549548b53858c1079ad220eaeb1d9b413ef824e0be7fd
 ---
 
 ## § 6. MORITA EQUIVALENCE OF MODULES AND ALGEBRAS
@@ -558,7 +558,7 @@ Let A and B be Morita equivalent $k$-algebras and P an invertible $(A,B)_k$-bimo
 Let
 
 $$
-(\mathscr{E})V'-\rightarrow^fV-\rightarrow^gV''
+(\mathscr{E})V'-\overset{f}{\rightarrow}V-\overset{g}{\rightarrow}V''
 $$
 
 be a diagram of B-modules and B-linear mappings, and let
@@ -603,7 +603,7 @@ c) The B-module V is faithful if and only if its annihilator is reduced to 0. As
 
 $*$d) Suppose that V is injective. By the remark of VIII, p. 106, the A-module $P\otimes_BV$ is isomorphic to Hom$_B(Q,V)$, where Q is a $(B,A)_k$-bimodule inverse to A. Since the A-module Q is projective, hence flat (X, §1, n$^o3$, p. 9, exemple 1), the A-module Hom$_B(Q,V)$ is injective by X, §1, n$^o8$, p. 18, proposition 11.
 
-e) Suppose that V admits a finite presentation $L_1\rightarrow L_0\rightarrow V\rightarrow 0$ (X, §1, n$^o4$, p. 10). By taking the tensor product with P, we deduce an exact sequence of A-modules $N'_1-\rightarrow^uN'_0\rightarrow P\otimes_BV\rightarrow 0$, where $N'_1$ and $N'_0$ are projective and finitely generated (Proposition 11 and a)). Let $N''_0$ be a finitely generated A-module such that the module $N_0= N'_0\oplus N''_0$ is free and finitely generated, and let $u': N'_1\oplus N''_0\rightarrow N_0$ be the homomorphism $(u,1_{N''})$;
+e) Suppose that V admits a finite presentation $L_1\rightarrow L_0\rightarrow V\rightarrow 0$ (X, §1, n$^o4$, p. 10). By taking the tensor product with P, we deduce an exact sequence of A-modules $N'_1-\overset{u}{\rightarrow}N'_0\rightarrow P\otimes_BV\rightarrow 0$, where $N'_1$ and $N'_0$ are projective and finitely generated (Proposition 11 and a)). Let $N''_0$ be a finitely generated A-module such that the module $N_0= N'_0\oplus N''_0$ is free and finitely generated, and let $u': N'_1\oplus N''_0\rightarrow N_0$ be the homomorphism $(u,1_{N''})$;
 
 0
 

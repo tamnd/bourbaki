@@ -53,7 +53,7 @@ subsections:
       pdf_page: 300
 statements: 63
 exercises: 14
-content_sha256: cab0ef567104d438de0b1165e1e3c0a0932ea212c1f76e83c6bb59b3ffdb4612
+content_sha256: 7cd85effc05cceb599f6fbd00c47f8adf6d1b44ae268c4c9331ea9ff51987a57
 ---
 
 ## § 2. HOMOTOPIE ET CHEMINS
@@ -436,9 +436,9 @@ Tout espace topologique métrisable, compact, non vide, connexe et localement co
 
 Soit K un espace topologique compact et soit $\mathscr{R}$ un ensemble d’ouverts de K recouvrant K. Il existe un entourage V de la structure uniforme de K (TG, II, p. 27, th. 1) tel que, pour tout $x\in K$, $V(x)$ soit contenu dans l’un des ensembles appartenant à $\mathscr{R}$.
 
-Pour tout point $x$ de K, il existe un entourage $W_x$ de la structure uniforme de K tel que $W_x(x)$ soit contenu dans un des ensembles appartenant à $\mathscr{R}$. Soit $V_x$ un entourage de la structure uniforme de K tel que $V^2_x$ soit contenu dans $W_x$. Les intérieurs des $V_x(x)$ recouvrent K ; comme l’espace K est compact, il existe une partie finie F de K telle que la famille $(V_y(y))_{y\in F}$ soit un recouvrement de K (TG, I, p. 59). Notons V l’intersection de la famille $(V_y)_{y\in F}$; l’ensemble V est un entourage de la structure uniforme de K. Pour tout point $x\in K$, il existe un point $y\in F$ tel que $x$ appartienne à $V_y(y)$. Par suite, l’ensemble
+Pour tout point $x$ de K, il existe un entourage $W_x$ de la structure uniforme de K tel que $W_x(x)$ soit contenu dans un des ensembles appartenant à $\mathscr{R}$. Soit $V_x$ un entourage de la structure uniforme de K tel que $\overset{2}{V_{x}}$ soit contenu dans $W_x$. Les intérieurs des $V_x(x)$ recouvrent K ; comme l’espace K est compact, il existe une partie finie F de K telle que la famille $(V_y(y))_{y\in F}$ soit un recouvrement de K (TG, I, p. 59). Notons V l’intersection de la famille $(V_y)_{y\in F}$; l’ensemble V est un entourage de la structure uniforme de K. Pour tout point $x\in K$, il existe un point $y\in F$ tel que $x$ appartienne à $V_y(y)$. Par suite, l’ensemble
 
-$V(x)$ est contenu dans $V^2_y(y)$, donc dans un des ensembles appartenant à $\mathscr{R}$.
+$V(x)$ est contenu dans $\overset{2}{V_{y}}(y)$, donc dans un des ensembles appartenant à $\mathscr{R}$.
 
 #### Lemme 5 {#ta-iii-s2-lem-5 .statement tag=01XV}
 
@@ -456,13 +456,13 @@ Soit $x$ un point de X. Démontrons que $f$ est continue en $x$. Il existe un en
 
 Soit V un entourage de la structure uniforme de Y. Choisissons
 
-un entourage $V'$ de cette même structure uniforme tel que $V^2'\subset V$. Comme la restriction de $f$ à $F_0$ est continue, il existe un entourage U de la structure uniforme de X tel que $f(z)\in V'(f(x))$ pour tout $z\in F_0\cap U(x)$. Soit $U'$ un entourage de la structure uniforme de X
+un entourage $V'$ de cette même structure uniforme tel que $\overset{2}{V'}\subset V$. Comme la restriction de $f$ à $F_0$ est continue, il existe un entourage U de la structure uniforme de X tel que $f(z)\in V'(f(x))$ pour tout $z\in F_0\cap U(x)$. Soit $U'$ un entourage de la structure uniforme de X
 
-tel que $U^2'\subset U$. Notons A la réunion de $F_0$, des ensembles $F\in \mathscr{F}$ qui ne sont pas petits d’ordre $U'$ et de ceux tels que $f(F)$ ne soit pas petit d’ordre $V'$. Par hypothèse, A est la réunion d’un nombre fini d’ensembles appartenant à $\mathscr{F}$, et la restriction de $f$ à A est continue (loc. cit.). Il existe donc un voisinage W de $x$ dans X, contenu dans $U'(x)$, tel que $f(y)\in V(f(x))$ pour $y\in A\cap W$. Pour conclure, il nous suffira de prouver que l’on a aussi $f(y)\in V(f(x))$ pour tout point $y\in (X-A)\cap W$. Soit $y$ un tel point. Soit F un élément de $\mathscr{F}$ tel que $y\in F$. Par définition de A, F est petit d’ordre $U'$ et $f(F)$ est petit d’ordre $V'$. Par hypothèse, F rencontre $F_0$. Soit $z\in F\cap F_0$. On a $z\in U'(y)$ puisque F est petit d’ordre $U'$ et $y\in U'(x)$ puisque W
+tel que $\overset{2}{U'}\subset U$. Notons A la réunion de $F_0$, des ensembles $F\in \mathscr{F}$ qui ne sont pas petits d’ordre $U'$ et de ceux tels que $f(F)$ ne soit pas petit d’ordre $V'$. Par hypothèse, A est la réunion d’un nombre fini d’ensembles appartenant à $\mathscr{F}$, et la restriction de $f$ à A est continue (loc. cit.). Il existe donc un voisinage W de $x$ dans X, contenu dans $U'(x)$, tel que $f(y)\in V(f(x))$ pour $y\in A\cap W$. Pour conclure, il nous suffira de prouver que l’on a aussi $f(y)\in V(f(x))$ pour tout point $y\in (X-A)\cap W$. Soit $y$ un tel point. Soit F un élément de $\mathscr{F}$ tel que $y\in F$. Par définition de A, F est petit d’ordre $U'$ et $f(F)$ est petit d’ordre $V'$. Par hypothèse, F rencontre $F_0$. Soit $z\in F\cap F_0$. On a $z\in U'(y)$ puisque F est petit d’ordre $U'$ et $y\in U'(x)$ puisque W
 
-est contenu dans $U'(x)$, d’où $z\in U^2'(x)$ et a fortiori $z\in U(x)$. Mais alors, comme $z$ appartient à $F_0$, on a $f(z)\in V'(f(x))$. Par ailleurs $f(F)$ est petit d’ordre $V'$, d’où $f(y)\in V'(f(z))$. Il en résulte que l’on a
+est contenu dans $U'(x)$, d’où $z\in \overset{2}{U'}(x)$ et a fortiori $z\in U(x)$. Mais alors, comme $z$ appartient à $F_0$, on a $f(z)\in V'(f(x))$. Par ailleurs $f(F)$ est petit d’ordre $V'$, d’où $f(y)\in V'(f(z))$. Il en résulte que l’on a
 
-$f(y)\in V^2'(f(x))$ et finalement $f(y)\in V(f(x))$. Cela conclut la preuve du lemme 5.
+$f(y)\in \overset{2}{V'}(f(x))$ et finalement $f(y)\in V(f(x))$. Cela conclut la preuve du lemme 5.
 
 Démontrons maintenant le théorème 1. Soit X un espace métrique compact non vide, connexe et localement connexe. Un tel espace est connexe par arcs et localement connexe par arcs (III, p. 267, corollaire 2). D’après le corollaire et l’exemple de III, p. 270, il existe une application continue et surjective $f$ de l’ensemble triadique de Cantor K (TG, IV, p. 9, exemple) dans X. Nous allons construire un prolongement continu $g$ de $f$ à $[0,1]$, ce qui démontrera le théorème 1.
 
