@@ -57,7 +57,7 @@ subsections:
       pdf_page: 407
 statements: 50
 exercises: 7
-content_sha256: ed3d7f352e41bd04dc0b27d64f5189da102b07d59801abcc5ede376aa66204e7
+content_sha256: 63aa057b133f74887ff7815687bc70ad4e8e76f36bfdb6eb8205f5fbaf715e20
 ---
 
 ## § 1. REPRÉSENTATIONS UNITAIRES
@@ -598,9 +598,7 @@ Soit E un espace hilbertien sur K. Soit $F\subset E$ un sous-espace vectoriel de
 
 Si E est de dimension hilbertienne finie, celle-ci est égale à la dimension de E. Supposons que E est de dimension hilbertienne infinie. Le sous-espace F est alors de dimension infinie. Soit B une base orthonormale de E et soit $B'$ une base de F. Pour tout $x\in B$, il existe un élément $f(x)\in B'$ tel que $\langle x|f(x)\rangle  \not = 0$, puisque dans le cas contraire on aurait $x\in F^{\circ}=\{0\}$. On définit ainsi une application $f: B\rightarrow B'$.
 
-$-1$
-
-Pour tout $y\in B'$, l’ensemble $f(y)$ est contenu dans l’ensemble des $x\in B$ tels que $\langle x|y\rangle  \not = 0$, donc est dénombrable (EVT, V, p. 21, prop. 4). Par E, III, p. 50, prop. 4, on obtient Card(B) = Card($f(B)$)$\leqslant$ Card(B$')$.
+Pour tout $y\in B'$, l’ensemble $\overset{-1}{f}(y)$ est contenu dans l’ensemble des $x\in B$ tels que $\langle x|y\rangle  \not = 0$, donc est dénombrable (EVT, V, p. 21, prop. 4). Par E, III, p. 50, prop. 4, on obtient Card(B) = Card($f(B)$)$\leqslant$ Card(B$')$.
 
 Notons $Is_G(\pi_1, \pi_2)$ la relation
 

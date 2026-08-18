@@ -45,7 +45,7 @@ subsections:
       pdf_page: 467
 statements: 39
 exercises: 23
-content_sha256: 5a8aecad360cc9a7e2a1980f62e1976cababa0d76dcc174f7b703a86f4f0e1de
+content_sha256: 1cf7bcc39b701fb3dd4364c348eb75b948d7a3bc186851d7a54c5a8fb83df6c0
 ---
 
 ## § 3. FONCTIONS DE TYPE POSITIF
@@ -810,9 +810,7 @@ $$
 
 d’où
 
-$|\langle \varphi_1-\varphi_2, \psi \rangle |\leqslant$ sup$|\varphi_1(x)-\varphi_2(x)| \|\psi \|_1+ 2M\varepsilon$,
-
-$x\in K$
+$|\langle \varphi_1-\varphi_2, \psi \rangle |\leqslant$ sup$_{x\in K}|\varphi_1(x)-\varphi_2(x)| \|\psi \|_1+ 2M\varepsilon$,
 
 et le lemme en résulte.
 
@@ -964,9 +962,9 @@ $$
 \sum_{i\in I}\sum_{j\in I}\overline{t}_it_j\mathscr{F}(\nu )(x^{-1}_ix_j) =\sum_{i\in I}\sum_{j\in I}\overline{t}_it_j\int_Gx_i\overline{x}_jd\nu
 $$
 
-$\int$ 2
-
-= $\sum_{Gi\in I}t_ix_id\nu \geqslant 0$,
+$$
+=\int_G\sum_{i\in I}\overline{t}_ix_i^2d\nu \geqslant 0
+$$
 
 puisque $\nu$ est une mesure positive. La transformée de Fourier de $\nu$ est donc une fonction de type positif sur $\widehat{G}$ (th. 1 de V, p. 432, (ii)).
 

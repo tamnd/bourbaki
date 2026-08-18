@@ -41,7 +41,7 @@ subsections:
       pdf_page: 57
 statements: 48
 exercises: 29
-content_sha256: 255ce867f2f92aa5a433ad83c31093aad3669f7a2b53ca2d52e3c277250f585e
+content_sha256: dc4bbf882ab4fdf9177f6b1db44fa440c2e1a0ac8cb4aad76e8da93928080d91
 ---
 
 ## § 3. ALGÈBRES DE BANACH COMMUTATIVES
@@ -220,11 +220,7 @@ Soit $f$ une application partielle propre de X dans Y et soit U son domaine. Dé
 
 Inversement, soient $g: X'\rightarrow Y'$ une application continue telle que $g(\omega_X) =\omega_Y$ et $\Gamma_g\subset X'\times Y'$ son graphe. L’ensemble U = X $-\overset{-1}{g}(\omega_Y)$ est ouvert dans X. La correspondance $f= (\Gamma_g\cap (U\times Y),X,Y)$ est une application partielle propre de X dans Y (TG, I, p. 77, prop. 7) telle que $\widetilde{f}=g$, et c’est la seule.
 
-Nous identifierons les applications partielles propres de X dans Y aux applications continues de $X'$ dans $Y'$ qui appliquent $\omega_X$ sur $\omega_Y$. En particulier, les applications propres de X dans Y sont les applications partielles propres de domaine X ; elles s’identifient aux applica-
-
-$-1$
-
-tions continues $f$ de $X'$ dans $Y'$ telles que que $f(\omega_Y) =\{\omega_X\}$. Si X est compact, ce sont tout simplement les applications continues de X dans Y.
+Nous identifierons les applications partielles propres de X dans Y aux applications continues de $X'$ dans $Y'$ qui appliquent $\omega_X$ sur $\omega_Y$. En particulier, les applications propres de X dans Y sont les applications partielles propres de domaine X ; elles s’identifient aux applications continues $f$ de $X'$ dans $Y'$ telles que que $\overset{-1}{f}(\omega_Y) =\{\omega_X\}$. Si X est compact, ce sont tout simplement les applications continues de X dans Y.
 
 Soit A une algèbre de Banach complexe commutative. Rappelons que $\mathsf{X}'(A)$ s’identifie à l’espace compact obtenu à partir de $\mathsf{X}(A)$ par adjonction d’un point à l’infini (I, p. 29, corollaire).
 
@@ -580,9 +576,7 @@ L’enveloppe polynomialement convexe de V est l’ensemble des $c$ appartenant 
 
 Soient Λ un ensemble fini et $V\subset \mathbf{C}^{\Lambda}$ une partie convexe compacte. Alors V est polynomialement convexe. En effet, soit W l’enveloppe polynomialement convexe de V. Démontrons que $W\subset V$, ce qui entraînera l’assertion. Soit $x\in \mathbf{C}^{\Lambda}-$V. Il existe un hyperplan réel H dans $\mathbf{C}^{\Lambda}$ qui sépare strictement $x$ et V (EVT, II, p. 41, prop. 4). Soient $f_{\mathbf{R}}$ une forme $\mathbf{R}$-linéaire sur $\mathbf{C}^{\Lambda}$ et $\alpha \in \mathbf{R}$ tels que H est l’ensemble des $y\in \mathbf{C}^{\Lambda}$ vérifiant $f_{\mathbf{R}}(y) =\alpha$. Soit $f$ une forme linéaire sur $\mathbf{C}^{\Lambda}$ telle que $f_{\mathbf{R}}=\mathscr{R}(f)$. On a donc
 
-$\mathscr{R}(f(x))>$ sup$\mathscr{R}(f(y))$.
-
-$y\in V$
+$\mathscr{R}(f(x))>$ sup$_{y\in V}\mathscr{R}(f(y))$.
 
 Pour tout $t\in \mathbf{R}$ et $y\in V$, posons $f_t(y) =t+f(y)$. On a $|f_t|-\mathscr{R}(f_t)\rightarrow 0$ dans $\mathscr{C}(\mathbf{C}^{\Lambda},\mathbf{R})$ muni de la topologie de la convergence compacte quand $t\rightarrow +\infty$. Pour $t$ suffisamment grand, il vient $|f_t(x)|>$ sup$_{y\in V}|f_t(y)|$ puisque V est compacte. Ainsi $x\in \mathbf{C}^{\Lambda}-$ W puisque $f_t$ est une fonction polynomiale.
 
@@ -636,11 +630,11 @@ Pour toute partie $\Lambda '$ de Λ, on note pr$_{\Lambda'}$ la projection canon
 
 Soient $K\subset \mathbf{C}^{\Lambda}$ une partie compacte polynomialement convexe et U un voisinage de K. Il existe une partie finie $\Lambda_0$ de Λ telle que, pour toute partie $\Lambda '$ de Λ contenant $\Lambda_0$, l’ensemble pr$_{\Lambda'}(U)$ contienne l’enveloppe polynomialement convexe de pr$_{\Lambda'}(K)$.
 
-Puisque K est compact, il existe une famille de disques compacts $D_{\lambda}$ dans $\mathbf{C}$ de centre 0 et de rayons $R_{\lambda}$ tels que K est contenu dans le produit $D =\prod_{\lambda}D_{\lambda}$. Pour tout $P\in \mathbf{C}[(X_{\lambda})]$, soit $K_P$ l’ensemble des $x\in \mathbf{C}^{\Lambda}$ tels que
+Puisque K est compact, il existe une famille de disques compacts $D_{\lambda}$ dans $\mathbf{C}$ de centre 0 et de rayons $R_{\lambda}$ tels que K est contenu dans le produit $D =\prod_{\lambda}D_{\lambda}$. Pour tout $P\in \mathbf{C}[(X_{\lambda})]$, soit $K_P$ l’ensemble des
 
-$|P(x)|\leqslant$ sup$|P(c)|$.
+$x\in \mathbf{C}^{\Lambda}$ tels que
 
-$c\in K$
+$|P(x)|\leqslant$ sup$_{c\in K}|P(c)|$.
 
 On a
 

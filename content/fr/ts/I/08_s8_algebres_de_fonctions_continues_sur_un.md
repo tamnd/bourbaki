@@ -25,7 +25,7 @@ subsections:
       pdf_page: 161
 statements: 11
 exercises: 11
-content_sha256: 1567227f27d09abb3a35f92854c179442efa2e98b0036fe0e16d0817096a3383
+content_sha256: 3f1fd52aa2c76a1599873fb74074632e344dc99525e806056a931e4820fb77ac
 ---
 
 ## § 8. ALGÈBRES DE FONCTIONS CONTINUES SUR UN ESPACE COMPACT
@@ -112,23 +112,17 @@ log($|\chi (f)|$)$\leqslant \int_X$ log($|f|$)$d\mu_{\chi}$; la fonction log$|f|
 
 L’assertion a) résulte de l’identification de X avec un sous-espace fermé de $\mathsf{X}(B)$ et des inégalités
 
-$\|f\|=$ sup$|f(x)|\leqslant$ sup $|\chi (f)|=$ sup$|\mathscr{G}_B(f)|=\varrho_B(f)\leqslant \|f\|$
-
-$x\in X\chi \in \mathsf{X}(B)$
+$\|f\|=$ sup$_{x\in X}|f(x)|\leqslant_{\chi\in}$sup$_{\mathsf{X}(B)}|\chi (f)|=$ sup$|\mathscr{G}_B(f)|=\varrho_B(f)\leqslant \|f\|$
 
 pour tout $f\in B$.
 
 Soient $\chi \in \mathsf{X}(B)$ et $n$ un entier positif. Soient $\lambda_1, . . . , \lambda_n\in \mathbf{R}$ et $f_1, . . . , f_n\in B^*$. On a alors
 
-(1) $\sum^n\lambda_i$ log($|\chi (f_i)|$)$\leqslant$ sup $\sum^n\lambda_i$ log($|f_i(x)|$).
-
-$i=1x\in Xi=1$
+(1) $\sum_{i=1}^n\lambda_i$ log($|\chi (f_i)|$)$\leqslant$ sup$_{x\in X}\sum_{i=1}^n\lambda_i$ log($|f_i(x)|$).
 
 En effet, par continuité, il suffit de prouver cette inégalité quand les nombres réels $\lambda_i$ sont rationnels. Par réduction au même dénominateur, on se ramène au cas où $\lambda_i\in \mathbf{Z}$ pour tout $i$. L’inégalité s’écrit alors
 
-log($|\chi (f_1^{\lambda_1}\cdots f_n^{\lambda_n})|$)$\leqslant$ sup log($|(f_1^{\lambda_1}\cdots f_n^{\lambda_n})(x)|$),
-
-$x\in X$
+log($|\chi (f_1^{\lambda_1}\cdots f_n^{\lambda_n})|$)$\leqslant$ sup$_{x\in X}$ log($|(f_1^{\lambda_1}\cdots f_n^{\lambda_n})(x)|$),
 
 et résulte du fait que $\|\chi \|= 1$ (th. 1 de I, p. 29).
 

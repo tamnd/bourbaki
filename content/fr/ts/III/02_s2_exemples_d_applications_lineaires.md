@@ -41,7 +41,7 @@ subsections:
       pdf_page: 51
 statements: 26
 exercises: 4
-content_sha256: eeceaf124b8ad7a5a37337636b826e56e9b84dee69cfb838fb81dd9021a4c1ed
+content_sha256: 03cdb2dcf9cb606ba017e7ae3d2b733dadf992090530afbe1973dfe75bef96a7
 ---
 
 ## § 2. EXEMPLES D’APPLICATIONS LINÉAIRES COMPACTES
@@ -74,9 +74,7 @@ Démontrons la proposition. Soit C = sup$_i|\lambda_i|$. Soit $x\in E$. On a les
 
 $\sum_{i\in I}|\lambda_ix_i|^p\leqslant C^p\|x\|^p$, si $p\not = +\infty$
 
-sup$|\lambda_ix_i|\leqslant C\|x\|$, si $p= +\infty$.
-
-$i\in I$
+sup$_{i\in I}|\lambda_ix_i|\leqslant C\|x\|$, si $p= +\infty$.
 
 Cela prouve que $\lambda x\in E$. L’application $x\mapsto \lambda x$ est donc un endomorphisme de E, et ces inégalités prouvent qu’il est de norme $\leqslant C$.
 

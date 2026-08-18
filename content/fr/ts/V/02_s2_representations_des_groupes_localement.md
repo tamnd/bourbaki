@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: b1f89af0ce81c994650cd2e912efa689b6f09b789af031768f0e77c23f7dfb84
+content_sha256: 47baaeb753724744015282f3a1fbf63b56671be0a71d63144dc77e42a5ca4265
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -414,9 +414,7 @@ $$
 
 $H\cap (y^{-1}C\cup x^{-1}C)$
 
-$\leqslant \beta (H\cap U^{-1}C)$ sup $\|f(yh)-f(xh)\|$,
-
-$h\in U^{-1}C$
+$\leqslant \beta (H\cap U^{-1}C)_{h\in}$sup$_{U^{-1}C}\|f(yh)-f(xh)\|$,
 
 et la continuité de $f^{\pi}$ résulte alors de la continuité uniforme de $f$ sur G.
 
@@ -732,14 +730,12 @@ pour tout $g\in G$.
 
 Soit $g\in G$. D’après l’inégalité de Cauchy–Schwarz, on a
 
-$\int$ 2
-
 $$
-|f(g)|^2\leqslant |f_1|^{1/2}|f_3| |\boldsymbol{\gamma }_{G,\chi}(g)f_2|d\nu
+|f(g)|^2\leqslant \int_{G/Z}|f_1|^{1/2}|f_3| |\boldsymbol{\gamma }_{G,\chi}(g)f_2|d\nu^2
 $$
 
 $$
-\leqslant \int^G_G^/_/^Z_Z|f_1|d\nu \int_{G/Z}|f_3|^2|\boldsymbol{\gamma }_{G,\chi}(g)f_2|^2d\nu
+\leqslant \int_{G/Z}|f_1|d\nu \int_{G/Z}|f_3|^2|\boldsymbol{\gamma }_{G,\chi}(g)f_2|^2d\nu
 $$
 
 Comme on a $|f_3|^2=|f_1|$ dans $\mathscr{K}(G/Z)$, on en déduit en intégrant sur $G/Z$ que

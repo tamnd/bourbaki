@@ -42,7 +42,7 @@ subsections:
       pdf_page: 128
 statements: 41
 exercises: 8
-content_sha256: ac8d53dd4bd6f0c79d7549548b53858c1079ad220eaeb1d9b413ef824e0be7fd
+content_sha256: b17951ca715c1877f913689b8fb0d82f1d0ebebff411b1d00ea9f26d2f613ff5
 ---
 
 ## § 6. MORITA EQUIVALENCE OF MODULES AND ALGEBRAS
@@ -603,11 +603,7 @@ c) The B-module V is faithful if and only if its annihilator is reduced to 0. As
 
 $*$d) Suppose that V is injective. By the remark of VIII, p. 106, the A-module $P\otimes_BV$ is isomorphic to Hom$_B(Q,V)$, where Q is a $(B,A)_k$-bimodule inverse to A. Since the A-module Q is projective, hence flat (X, §1, n$^o3$, p. 9, exemple 1), the A-module Hom$_B(Q,V)$ is injective by X, §1, n$^o8$, p. 18, proposition 11.
 
-e) Suppose that V admits a finite presentation $L_1\rightarrow L_0\rightarrow V\rightarrow 0$ (X, §1, n$^o4$, p. 10). By taking the tensor product with P, we deduce an exact sequence of A-modules $N'_1-\overset{u}{\rightarrow}N'_0\rightarrow P\otimes_BV\rightarrow 0$, where $N'_1$ and $N'_0$ are projective and finitely generated (Proposition 11 and a)). Let $N''_0$ be a finitely generated A-module such that the module $N_0= N'_0\oplus N''_0$ is free and finitely generated, and let $u': N'_1\oplus N''_0\rightarrow N_0$ be the homomorphism $(u,1_{N''})$;
-
-0
-
-then $P\otimes_BV$ can be identified with the cokernel of $u'$. Let $N_1$ be a finitely generated free A-module and $p: N_1\rightarrow N'_1\oplus N''_0$ a surjective homomorphism; the sequence $N_1\longrightarrow^{u'\circ p}N_0\rightarrow P\otimes_BV\rightarrow 0$ is a finite presentation of the A-module $P\otimes_BV.*$
+e) Suppose that V admits a finite presentation $L_1\rightarrow L_0\rightarrow V\rightarrow 0$ (X, §1, n$^o4$, p. 10). By taking the tensor product with P, we deduce an exact sequence of A-modules $N'_1-\overset{u}{\rightarrow}N'_0\rightarrow P\otimes_BV\rightarrow 0$, where $N'_1$ and $N'_0$ are projective and finitely generated (Proposition 11 and a)). Let $N''_0$ be a finitely generated A-module such that the module $N_0= N'_0\oplus N''_0$ is free and finitely generated, and let $u': N'_1\oplus N''_0\rightarrow N_0$ be the homomorphism $(u,1_{N''_0})$; then $P\otimes_BV$ can be identified with the cokernel of $u'$. Let $N_1$ be a finitely generated free A-module and $p: N_1\rightarrow N'_1\oplus N''_0$ a surjective homomorphism; the sequence $N_1\longrightarrow^{u'\circ p}N_0\rightarrow P\otimes_BV\rightarrow 0$ is a finite presentation of the A-module $P\otimes_BV.*$
 
 f) Suppose that the A-module $P\otimes_BV$ is projective (resp. generating, faithful, $*$injective, finitely presented ). By applying the above (interchanging
 

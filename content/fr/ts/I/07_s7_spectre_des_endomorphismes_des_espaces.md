@@ -45,7 +45,7 @@ subsections:
       pdf_page: 152
 statements: 24
 exercises: 16
-content_sha256: e640f048c43e6160963cc55a660e9e02d632abd72a53614d254e078a3e942768
+content_sha256: d6e8c73902c0023c726a7533fe8a85c34719e4e9d50c3786719021139553e07f
 ---
 
 ## § 7. SPECTRE DES ENDOMORPHISMES DES ESPACES DE BANACH
@@ -356,11 +356,7 @@ $$
 
 $m(u) =$ inf $\langle x|u(x)\rangle =$ inf $\iota (u) =$ inf,
 
-$$
-_{x\in E}x_{\in E-\{0\}}\|x\|^2
-$$
-
-$\|x\|=1$
+$\|xx\in \|=1$E $x\in E-\{0\}\|x\|2$
 
 $$
 \langle x|u(x)\rangle

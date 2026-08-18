@@ -13,7 +13,7 @@ pdf_pages: 0211-0212
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: f0a34bd9c54759663a590c75007545becf8100c62def4810e12d3cafda8a3506
+content_sha256: 5ca30079fca3d18f186c401318d1a8d5f7c6d8011f655ad4be7d731ee2aba72a
 ---
 
 ## CHAPITRE II
@@ -38,10 +38,6 @@ Nous ferons aussi usage des deux lemmes suivants.
 
 Par définition du support d’une mesure (INT, III, §2, n$^o2$, déf. 1), il existe une fonction $g\in \mathscr{K}(X)$ à support contenu dans U telle que $\mu(g)\not= 0$. On a alors $\mu(|g|)>0$ puisque $\mu$ est positive, et la fonction $f=\mu(|g|)^{-1}|g|$ a les propriétés voulues.
 
-**Lemme 2.** — Soient G et H des groupes topologiques d’éléments neutres $e_G$ et $e_H$; supposons que le groupe topologique G est séparé. Soit $f$ un morphisme de groupes topologiques de G dans H. Supposons que pour tout voisinage U de $e_G$ dans G, il existe un voisinage W de
-
-$-1$
-
-$e_H$ dans H tel que $f(W)\subset U$. Alors, le morphisme $f$ est injectif et strict (TG, III, p. 16, déf. 1).
+**Lemme 2.** — Soient G et H des groupes topologiques d’éléments neutres $e_G$ et $e_H$; supposons que le groupe topologique G est séparé. Soit $f$ un morphisme de groupes topologiques de G dans H. Supposons que pour tout voisinage U de $e_G$ dans G, il existe un voisinage W de $e_H$ dans H tel que $\overset{-1}{f}(W)\subset U$. Alors, le morphisme $f$ est injectif et strict (TG, III, p. 16, déf. 1).
 
 Les hypothèses impliquent que Ker($f$) est contenu dans tout voisinage de $e_G$ dans G, donc que Ker($f$) $=\{e_G\}$ puisque G est séparé. L’homomorphisme de G dans $f(G)$ déduit de $f$ par passage aux sous-espaces est alors bijectif ; notons $g:f(G)\rightarrow G$ l’homomorphisme réciproque. Les hypothèses entraînent alors que $g$ est continu en $e_H$, donc continu (TG, III, p. 15, prop. 23).

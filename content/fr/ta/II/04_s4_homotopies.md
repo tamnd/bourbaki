@@ -33,7 +33,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 0
-content_sha256: 45f2eae7094432e600974fc48f370c21ae4505fb8486ef6d8316512e619d2a36
+content_sha256: 4cb5c91ffced512dfc3d782095ff15b5c96341225cf61a487219393134f4260b
 ---
 
 ## § 4. HOMOTOPIES
@@ -235,10 +235,8 @@ u^{\psi}_v \tag{4}
 $$
 
 $$
-{H'}^{\varphi'}G'
+{H'}^{\varphi}_{\psi''}G'
 $$
-
-$\psi '$
 
 où H, $H'$, G, $G'$ sont des groupoïdes et $u,v,\varphi ,\psi ,\varphi ',\psi '$ des morphismes de groupoïdes tels que $v\circ \varphi =\varphi '\circ u$ et $v\circ \psi =\psi '\circ u$.
 
@@ -326,11 +324,7 @@ H $^{\varphi}_{\psi}$ G $^{\alpha}$ Coh($\varphi , \psi$ )
 
 Id$_Hvw$
 
-H $^{\varphi'}{G'}^{\alpha'}$ Coh($\varphi ', \psi '$)
-
-$$
-\psi '
-$$
+H $^{\varphi}_{\psi''}{G'}^{\alpha'}$ Coh($\varphi ', \psi '$)
 
 Id$_Hv'w'$
 

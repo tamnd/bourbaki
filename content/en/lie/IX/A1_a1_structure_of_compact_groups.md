@@ -26,7 +26,7 @@ subsections:
       pdf_page: 391
 statements: 9
 exercises: 1
-content_sha256: 7a8e6eaf7ad5e2aba0afae5b4b0b6a735d96b5b34e0647a35d0ee5f584772f44
+content_sha256: 22c59858b77a46c828405331f7fdca7c63d6707ea39fff850fbb3ddfdca3e6ba
 ---
 
 ## APPENDIX I
@@ -75,9 +75,7 @@ b) We have D(G) = lim$_{_{\leftarrow -}}\overline{D(G_{\alpha})}$ and C(G) = lim
 
 $\alpha \alpha$
 
-c) If $G_{\alpha}$ is compact for all $\alpha \in I$, then $C(G)_0=$ lim$_{_{\leftarrow -}}C(G_{\alpha})_0$.
-
-$\alpha$
+c) If $G_{\alpha}$ is compact for all $\alpha \in I$, then $C(G)_0=$ lim$_{_{\leftarrow -}\alpha}C(G_{\alpha})_0$.
 
 Let $\alpha , \beta$ be two elements of I, with $\alpha \leq \beta$. Then $f_{\alpha \beta}(D(G_{\beta}))\subset D(G_{\alpha})$, and $f_{\alpha \beta}(C(G_{\beta}))\subset C(G_{\alpha})$ since $f_{\alpha \beta}$ is surjective; since $f_{\alpha \beta}$ is continuous, it follows that $f_{\alpha \beta}(D(G_{\beta}))\subset D(G_{\alpha})$ and $f_{\alpha \beta}(C(G_{\beta})_0)\subset C(G_{\alpha})_0$, hence $a)$. Since $f_{\alpha}$ is surjective, $f_{\alpha}(D(G)) = D(G_{\alpha}) ($Algebra, Chap. I, §6, no. 2, Prop. 6), so D(G) = lim$_{\leftarrow -}D(G_{\alpha}) ($General Topology, Chap. I, §4, no. 4, Cor. of Prop. 9). The surjectivity of $f_{\alpha}$ also implies the inclusion $f_{\alpha}(C(G))\subset$ $C(G_{\alpha})$ and hence $C(G)\subset$ lim$_{\leftarrow -}C(G_{\alpha})$; the opposite inclusion is immediate. Finally, assertion $c)$ follows from $b)$ and General Topology, Chap. III, §7, no. 2, Prop. 4).
 
@@ -135,15 +133,19 @@ totally discontinuous, compact, central subgroup.
 
 Let $(G_{\alpha}, f_{\alpha \beta})$ be a projective system of compact Lie groups, relative to a filtered set I, such that G is isomorphic to lim $G_{\alpha}$ and such that the canonical maps $f_{\alpha}: G\rightarrow G_{\alpha}$ are surjective (Cor. 2 of Prop. 1). For$^{\leftarrow -}\alpha \in I$, let $\pi_{\alpha}: \widetilde{D}(G_{\alpha})\rightarrow D(G_{\alpha})$ be a universal covering of the group $D(G_{\alpha})$. The $f_{\alpha \beta}$ induce morphisms $\widetilde{f}_{\alpha \beta}: \widetilde{D}(G_{\beta})\rightarrow \widetilde{D}(G_{\alpha})$, and $( \widetilde{D}(G_{\alpha}),\widetilde{f}_{\alpha \beta})$ is a projective system of topological groups satisfying the hypotheses of Lemma 3.
 
-It follows from this lemma that the topological group lim $\widetilde{D}(G$ ) is iso-
+It follows from this lemma that the topological group lim$_{\leftarrow -}\widetilde{D}(G_{\alpha})$ is isomorphic to the product of a family $(S_{\lambda})_{\lambda\in L}$ of almost simple compact Lie groups. By Lemma 1, the limit of the projective system of homomorphisms $(\pi_{\alpha})$ can be identified with a continuous homomorphism $\pi :\prod_{\lambda\in L}S_{\lambda}\rightarrow D(G)$,
 
-$\leftarrow -\alpha$
+which is surjective (General Topology, Chap. I, §9, no. 6, Cor. 2 of Prop. 8).
 
-morphic to the product of a family $(S_{\lambda})_{\lambda\in L}$ of almost simple compact Lie groups. By Lemma 1, the limit of the projective system of homomorphisms $(\pi_{\alpha})$ can be identified with a continuous homomorphism $\pi :\prod_{\lambda\in L}S_{\lambda}\rightarrow D(G)$, which is surjective (General Topology, Chap. I, §9, no. 6, Cor. 2 of Prop. 8).
+Now observe that the group $\prod_{\lambda\in L}S_{\lambda}$ is equal to its derived group: this
 
-Now observe that the group $\prod_{\lambda\in L}S_{\lambda}$ is equal to its derived group: this follows from §4, no. 5, Cor. of Prop. 10. The same is true for D(G), since $\pi$ is surjective. Consequently, $D(G)\supset D(D(G)) = D(G)$. Thus, the group D(G) is compact and equal to its derived group; this proves $a)$, since the assertions concerning $C(G)_0$ are trivial.
+follows from §4, no. 5, Cor. of Prop. 10. The same is true for D(G), since $\pi$ is surjective. Consequently, $D(G)\supset D(D(G)) = D(G)$. Thus, the group D(G) is compact and equal to its derived group; this proves $a)$, since the assertions concerning $C(G)_0$ are trivial.
 
-On the other hand, the kernel of $\pi :\prod_{\lambda\in L}S_{\lambda}\rightarrow D(G)$ can be identified with lim$_{\leftarrow -}$ Ker($\pi_{\alpha}$) $($Algebra, Chap. II, §6, no. 1, Remark 1), and thus with a compact, totally discontinuous, central subgroup, hence $c)$.
+On the other hand, the kernel of $\pi :\prod_{\lambda\in L}S_{\lambda}\rightarrow D(G)$ can be identified
+
+with lim$_{\leftarrow -}$ Ker($\pi_{\alpha}$) $($Algebra, Chap. II, §6, no. 1, Remark 1), and thus with a
+
+compact, totally discontinuous, central subgroup, hence $c)$.
 
 We prove $b)$. For all $\alpha$ in I, the morphism $s_{\alpha}: C(G_{\alpha})_0\times D(G_{\alpha})\rightarrow G_{\alpha}$ such that $s_{\alpha}(x, y) =xy$ for $x\in C(G_{\alpha})_0, y\in D(G_{\alpha})$, is surjective and its kernel is a finite central subgroup (§1, no. 4, Cor. 1 of Prop. 4). The $s_{\alpha}$ form a projective system of maps, whose limit can, by the preceding, be identified with the homomorphism $(x, y) \rightarrow xy$ from $C(G)_0\times D(G)$ to G. We now see as before that this map is surjective and that its kernel is central and totally discontinuous, hence $b)$.
 
