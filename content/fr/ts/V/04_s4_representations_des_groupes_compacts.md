@@ -49,7 +49,7 @@ subsections:
       pdf_page: 489
 statements: 54
 exercises: 32
-content_sha256: c12dbed9f4544d6541cded491bb802991c2c8ef8752418e2a04e4aad4adfb67f
+content_sha256: 3d32a823b35043adbfe3d0cf3030e1842d27eb81424ff2a1d94857d25e0cf330
 ---
 
 ## § 4. REPRÉSENTATIONS DES GROUPES COMPACTS
@@ -204,7 +204,7 @@ Soient $\pi_1$ et $\pi_2$ des représentations unitaires irréductibles de G. On
 
 Le caractère de $\pi_2$ est une fonction centrale continue sur G donc l’application linéaire $u$ = $\pi_1(\overline{\chi}_{\pi_2})$ est définie et appartient à l’espace Hom$_G(\pi_1, \pi_1)$. C’est une homothétie d’après le lemme de Schur (prop. 6 de V, p. 386) dont la trace est
 
-Tr($u$) $=$ Tr $\int_G\overline{\chi_{\pi_2}(g)}\pi_1(g)d\mu(g)$
+Tr($u$) $=$ Tr$(\int_G\overline{\chi_{\pi_2}(g)}\pi_1(g)d\mu(g))$
 
 $$
 =\int_G\overline{\chi_{\pi_2}(g)}\chi_{\pi_1}(g)d\mu(g)
@@ -380,7 +380,7 @@ dim(E$^G) =\int_G\chi_{\varrho}(g)d\mu(g)$.
 
 La première assertion est le cas particulier du corollaire précédent lorsque $\pi$ est la représentation triviale de dimension 1 de G. La seconde en résulte puisque la dimension de $E^G$ est la trace de l’orthoprojecteur sur $E^G$, c’est-à-dire
 
-dim(E$^G) =$ Tr $\int_G\varrho (g)d\mu(g)=\int_G\chi_{\varrho}(g)d\mu(g)$.
+dim(E$^G) =$ Tr$(\int_G\varrho (g)d\mu(g))=\int_G\chi_{\varrho}(g)d\mu(g)$.
 
 En particulier, lorsque E est de dimension finie, il existe un vecteur $x\not = 0$ dans E tel que $\varrho (g)x=x$ pour tout $g\in G$ si et seulement si
 
@@ -540,7 +540,7 @@ $\langle u_1|u_2\rangle =$ dim($\pi$)Tr($u^*_1u_2$) $=$ dim($\pi$)Tr($u_2u^*_1$)
 
 pour $u_1,u_2$ dans End(E$_{\pi}) ($cf. EVT, V, p. 52, th. 1).
 
-On note $\|u\|_2$ = $\overline{\langle u|u\rangle}$ la norme d’un élément $u$ de End(E$_{\pi})$ pour $\pi \in \widehat{G}$. Pour tout $g\in G$, on a $\|\pi (g)\|_2=$ dim($\pi$ ) puisque $\pi (g)$ est unitaire.
+On note $\|u\|_2$ = $\surd\overline{\langle u|u\rangle}$ la norme d’un élément $u$ de End(E$_{\pi})$ pour $\pi \in \widehat{G}$. Pour tout $g\in G$, on a $\|\pi (g)\|_2=$ dim($\pi$ ) puisque $\pi (g)$ est unitaire.
 
 La norme notée ici $\|u\|_2$ diffère par un facteur dim($\pi$ ) de la norme définie dans EVT, V, p. 52 sur l’espace des applications de Hilbert– Schmidt de $E_{\pi}$.
 
@@ -550,7 +550,7 @@ Soit $\pi$ une représentation irréductible de G. L’application $f\mapsto \pi
 
 Posons $\varepsilon_{\pi}(g, h)u=\pi (g)\circ u\circ \pi (h^{-1})$ pour tout $(g, h)\in G\times G$ et pour tout $u\in$ End(E$_{\pi})$. L’application $\varepsilon_{\pi}$ est une représentation continue de $G\times G$ dans End(E$_{\pi})$. Elle est unitaire. En effet, puisque $\pi$ elle-même est unitaire, il vient
 
-$\|\varepsilon_{\pi}(g, h)u\|^2_2=$ dim($\pi$ ) Tr $(\pi (g)u\pi (h^{-1}))^*\pi (g)u\pi (h^{-1})$
+$\|\varepsilon_{\pi}(g, h)u\|^2_2=$ dim($\pi$ ) Tr$((\pi (g)u\pi (h^{-1}))^*\pi (g)u\pi (h^{-1}))$
 
 = dim($\pi$ ) Tr($\pi (h)u^*u\pi (h)^{-1}$) $=$ dim($\pi$ ) Tr($u^*u$) $=\|u\|^2_2$ pour tout $(g, h)\in G\times G$ et tout $u\in$ End(E$_{\pi})$.
 

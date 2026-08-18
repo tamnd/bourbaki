@@ -34,7 +34,7 @@ subsections:
       pdf_page: 384
 statements: 16
 exercises: 8
-content_sha256: d3a5ed1774276469b1a131659370d43aa9fa0055a81a499b1a1c5d6e455377f4
+content_sha256: e462828d9a85c93f7bfc78fa6d399b2c0761d2f0d9ee389ce0b88c442e6f5a54
 ---
 
 ## § 19. QUATERNION ALGEBRAS
@@ -65,7 +65,7 @@ $$
 
 #### Proposition 1 {#alg-viii-s19-prop-1 .statement tag=00LQ}
 
-The characteristic polynomial of an element $q$ of F is equal to $X^2-T_F(q)X + N_F(q)^2$.
+The characteristic polynomial of an element $q$ of F is equal to $(X^2-T_F(q)X + N_F(q))^2$.
 
 By the above, the algebra F is a free right E-module with basis $(1, j)$. Consequently, F[X] is a free right E[X]-module with basis $(1, j)$. We denote by $u$ the endomorphism of the right E[X]-module F[X] defined by $u(P) =$ $(X-q)P$ for $P\in F[X]$. The characteristic polynomial of $q$ is the determinant of $u$ viewed as an endomorphism of the K[X]-module F[X]. By Proposition 6 of III, §9, No. 4, p. 546, it is equal to N(det $u)$, where N denotes the norm from E[X] to K[X]. Let us write $q$ as $x+jy$ with $x, y\in E$. The matrix of $u$ with respect to the basis $(1, j)$ is $\begin{pmatrix} X-x & -\gamma y \\ -y & X-\overline{x} \end{pmatrix}$ ; its determinant is equal to $D = (X-x)(X-\overline{x})-\gamma yy= X^2-T_F(q)X + N_F(q)$ (cf. formula (3)). Since D belongs to K[X], we have $N(D) = D^2$; Proposition 1 follows.
 
@@ -99,7 +99,9 @@ $$
 (ac)
 $$
 
-$\theta (a, b) + (c, d)j$ =.
+$$
+\theta ((a, b) + (c, d)j)=
+$$
 
 $$
 db
@@ -227,7 +229,7 @@ Suppose that F is not a field. If $\gamma (4\alpha +\beta^2)\not= 0$, then the a
 
 Let $q=x+yi$ be an element of E. We have $N_{E/K}(q) =x^2+\beta xy-\alpha y^2$. Suppose that property (v) holds. We have $N_{E/K}(q)-\gamma \not= 0$ and $N_{E/K}(q)\not= 0$ if $q\not= 0$, and therefore (vi).
 
-Finally, suppose that property (vi) holds. Let $q$ be a nonzero element of F; we write it as $u+vj$ with $u$ and $v$ in E. If $v$ is zero, then $q$ is invertible. If $v$ is not zero, then we have $N_F(q) = N_F(v)N_F(v^{-1}u+j) =$ $N_{E/K}(v) N_{E/K}(v^{-1}u)-\gamma$ by III, §2, No. 5, p. 443, formula (24). Since $\gamma$ is not a norm, $N_F(q)$ is not zero, and $q$ is invertible.
+Finally, suppose that property (vi) holds. Let $q$ be a nonzero element of F; we write it as $u+vj$ with $u$ and $v$ in E. If $v$ is zero, then $q$ is invertible. If $v$ is not zero, then we have $N_F(q) = N_F(v)N_F(v^{-1}u+j) =$ $N_{E/K}(v)(N_{E/K}(v^{-1}u)-\gamma )$ by III, §2, No. 5, p. 443, formula (24). Since $\gamma$ is not a norm, $N_F(q)$ is not zero, and $q$ is invertible.
 
 #### Remark {#alg-viii-s19-n4-rem-1 .statement tag=00RQ}
 

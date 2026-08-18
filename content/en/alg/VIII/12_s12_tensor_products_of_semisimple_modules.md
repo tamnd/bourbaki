@@ -42,7 +42,7 @@ subsections:
       pdf_page: 239
 statements: 26
 exercises: 17
-content_sha256: 077bfa1f67e34e4c6d3aa9e772a723885567e88634fe5a30226a912ff172a3a3
+content_sha256: 3fd3df0c030ccedcadd28aeb4c17e864105704f6d41d322642a13ec4b66b8440
 ---
 
 ## § 12. TENSOR PRODUCTS OF SEMISIMPLE MODULES
@@ -161,10 +161,8 @@ A) Let us first prove that the radical of $L_1\otimes L_2$ is contained in that 
 
 B) Let us prove that the radical of $L_1\otimes \Omega$ consists of nilpotent elements. Denote the characteristic exponent of K by $p$ and the relative $p$-radical (that is, purely inseparable) closure of K in Ω (V, §5, No. 2, p. 25) by P; the field P is perfect. Since P is an algebraic extension of K, we have $L_1(P) = L_1[P]$ (V, §3, No. 2, p. 18, Corollary 1). Let $\mathfrak{b}$ be the kernel of the canonical homomorphism from $L_1\otimes P$ to the field $P_1= L_1[P]$. Let $x\in \mathfrak{b}$; there exist elements $y_1, . . . , y_n$ of $L_1$ and elements $z_1, . . . , z_n$ of P such that $x=\sum^n_{i=1}y_i\otimes z_i$ and $\sum_{i=1}^ny_iz_i= 0$. Since P is $p$-radical over K, there exists a power $q$ of $p$ such that $z^q_1, . . . , z_n^q$ belong to K. We then have
 
-$nnnq$
-
 $$
-x^q=\sum_{i=1}y^q_i\otimes z_i^q=\sum_{i=1}y^q_iz_i^q\otimes 1 =\sum_{i=1}y_iz_i\otimes 1 = 0
+x^q=\sum_{i=1}^ny^q_i\otimes z_i^q=\sum_{i=1}^ny^q_iz_i^q\otimes 1 =(\sum_{i=1}^ny_iz_i)^q\otimes 1 = 0
 $$
 
 So $\mathfrak{b}$ consists of nilpotent elements.

@@ -45,7 +45,7 @@ subsections:
       pdf_page: 24
 statements: 33
 exercises: 8
-content_sha256: e73b371064afd6e8060ad6f064a94108e26a97491fadc62079e9a58c16b79b8d
+content_sha256: 0c27f411f0ce6c8572cd94251b968e53245daa315b0cda2865409924ee87dc09
 ---
 
 ## § 1. SPECTRES ET CARACTÈRES
@@ -397,7 +397,7 @@ V(\emptyset ) = J(A),V(A) =\emptyset \tag{5}
 $$
 
 $$
-V\bigcup_{i\in I}M_i= V\sum_{i\in I}M_i=\bigcap_{i\in I}V(M_i) \tag{6}
+V(\bigcup_{i\in I}M_i)= V(\sum_{i\in I}M_i)=\bigcap_{i\in I}V(M_i) \tag{6}
 $$
 
 pour toute famille $(M_i)_{i\in I}$ de parties de A. D’autre part, d’après le lemme 6,

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 300
 statements: 63
 exercises: 14
-content_sha256: 7cd85effc05cceb599f6fbd00c47f8adf6d1b44ae268c4c9331ea9ff51987a57
+content_sha256: 4629d8bc1f634c1c9d8589147d0df3bc49b3178a7febe37124263ee7538ca447
 ---
 
 ## § 2. HOMOTOPIE ET CHEMINS
@@ -122,7 +122,7 @@ $$
 t1 +t
 $$
 
-$c_g(t) =g$ et $d_g(t) =g$.
+$c_g(t) =g()$ et $d_g(t) =g()$.
 
 2 2
 
@@ -650,9 +650,9 @@ c) Soit $c\in I$ tel que $b\leqslant c$. Si $(y, z)$ appartient à $F_{a,b}$ et 
 
 L’ensemble $\overset{-1}{p}([a, b])$ est compact (TG, I, p. 77, prop. 7). Par suite, pour qu’un couple $(y, z)\in \overset{-1}{p}(a)\times \overset{-1}{p}(b)$ appartienne à $F_{a,b}$, il faut et il suffit que toute partie ouverte et fermée de $\overset{-1}{p}([a, b])$ qui contient $y$ contienne $z$ (TG, II, p. 32, prop. 6).
 
-Posons $Y =\overset{-1}{p}([a, b])$. Pour toute partie ouverte et fermée U de Y, l’ensemble $(U\times U)\cup (Y-U)\times (Y-U)\cap \overset{-1}{p}(a)\times \overset{-1}{p}(b)$ est fermé dans $\overset{-1}{p}(a)\times \overset{-1}{p}(b)$. L’intersection de ces ensembles est égale à $F_{a,b}$, d’où a).
+Posons $Y =\overset{-1}{p}([a, b])$. Pour toute partie ouverte et fermée U de Y, l’ensemble $((U\times U)\cup ((Y-U)\times (Y-U)))\cap (\overset{-1}{p}(a)\times \overset{-1}{p}(b))$ est fermé dans $\overset{-1}{p}(a)\times \overset{-1}{p}(b)$. L’intersection de ces ensembles est égale à $F_{a,b}$, d’où a).
 
-Soit $y\in \overset{-1}{p}(a)$. Notons $\mathscr{U}$ l’ensemble des voisinages ouverts et fermés de $y$ dans Y. L’application de Y dans $[a, b]$ déduite de $p$ par passage aux sous-espaces est ouverte et propre (I, p. 17, prop. 8), donc aussi fermée. Il en résulte que, pour tout ensemble U appartenant à $\mathscr{U},p(U)$ est une partie ouverte et fermée non vide de $[a, b]$; comme l’intervalle $[a, b]$ est connexe, on a $p(U) = [a, b]$ et en particulier $U\cap \overset{-1}{p}(b)=\not\emptyset$. Par suite, $U\cap \overset{-1}{p}(b)_{U\in\mathscr{U}}$ est une famille filtrante décroissante de parties fermées non vides de l’espace compact $\overset{-1}{p}(b)$. L’intersection de cette famille n’est pas vide (TG, I, p. 59) ; soit $z$ un de ses éléments. On a $(y, z)\in F_{a,b}$. Nous avons démontré la relation pr$_1(F_{a,b}) =\overset{-1}{p}(a)$. La relation pr$_2(F_{a,b}) =\overset{-1}{p}(b)$ s’en déduit en remplaçant $p$, I$,a,b$ par $-p$, $-I,-b,-a$.
+Soit $y\in \overset{-1}{p}(a)$. Notons $\mathscr{U}$ l’ensemble des voisinages ouverts et fermés de $y$ dans Y. L’application de Y dans $[a, b]$ déduite de $p$ par passage aux sous-espaces est ouverte et propre (I, p. 17, prop. 8), donc aussi fermée. Il en résulte que, pour tout ensemble U appartenant à $\mathscr{U},p(U)$ est une partie ouverte et fermée non vide de $[a, b]$; comme l’intervalle $[a, b]$ est connexe, on a $p(U) = [a, b]$ et en particulier $U\cap \overset{-1}{p}(b)=\not\emptyset$. Par suite, $(U\cap \overset{-1}{p}(b))_{U\in\mathscr{U}}$ est une famille filtrante décroissante de parties fermées non vides de l’espace compact $\overset{-1}{p}(b)$. L’intersection de cette famille n’est pas vide (TG, I, p. 59) ; soit $z$ un de ses éléments. On a $(y, z)\in F_{a,b}$. Nous avons démontré la relation pr$_1(F_{a,b}) =\overset{-1}{p}(a)$. La relation pr$_2(F_{a,b}) =\overset{-1}{p}(b)$ s’en déduit en remplaçant $p$, I$,a,b$ par $-p$, $-I,-b,-a$.
 
 Sous les hypothèses de c), le couple $(y, t)$ appartient à $\overset{-1}{p}(a)\times \overset{-1}{p}(c)$, l’ensemble $\{y, z\}$ est contenu dans une partie connexe C de $\overset{-1}{p}([a, b])$ et l’ensemble $\{z, t\}$ est contenu dans une partie connexe $C'$ de $\overset{-1}{p}([b, c])$. Alors, $C\cup C'$ est une partie connexe de $\overset{-1}{p}([a, c])$ (TG, I, p. 81, prop. 2) et contient $\{y, t\}$, d’où la relation $(y, t)\in F_{a,c}$.
 

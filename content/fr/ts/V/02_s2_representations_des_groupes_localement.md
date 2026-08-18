@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: 6dbfad8065b8b554d4227d9bade09fd98220ccdf752f84685f4561b0cd7d148f
+content_sha256: 33189df98c4a7fe48564cb2d45ee89e8248ba9554949d3f80196ca5690e6af6e
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -199,7 +199,7 @@ $$
 $$
 
 $$
-=\int_G\varphi (x^{-1}y)f( \dot{y})d\mu(y) =\int_{\Gamma\backslash G}(\sum_{\gamma\in\Gamma}\varphi (x^{-1}\gamma y)f( \dot{y})d\widetilde{\mu}( \dot{y})
+=\int_G\varphi (x^{-1}y)f( \dot{y})d\mu(y) =\int_{\Gamma\backslash G}((\sum_{\gamma\in\Gamma}\varphi (x^{-1}\gamma y))f( \dot{y})d\widetilde{\mu}( \dot{y})
 $$
 
 (INT, VII, p. 46, § 2, n$^o3$, prop. 5). Comme $\widetilde{k}_{\varphi}$ appartient à l’espace $\mathscr{L}^2(X\times X,\widetilde{\mu}\otimes \widetilde{\mu})$, il en résulte que l’endomorphisme $\varrho (\varphi )$ de $L^2(X,\widetilde{\mu})$ coïncide avec l’endomorphisme de Hilbert–Schmidt de noyau $\widetilde{k}_{\varphi}$; cet endomorphisme est donc compact (cor. 1 de III, p. 33)
@@ -238,9 +238,9 @@ $$
 
 Soit $\varrho$ une représentation continue et bornée de G dans un espace de Banach E. Pour tout $f\in L^1(G)$ (resp. $f'\in L^1(G, \mu'))$ et tout $g\in G$, on a
 
-(1) $\varrho (g)\varrho (f\cdot \mu) =\varrho (\varepsilon_g*(f\cdot \mu)) =\varrho \boldsymbol{\gamma }$[^1]$_G(g)f\cdot \mu$,
+(1) $\varrho (g)\varrho (f\cdot \mu) =\varrho (\varepsilon_g*(f\cdot \mu)) =\varrho (\boldsymbol{\gamma }$[^1]$_G(g)f\cdot \mu)$,
 
-(2) $\varrho (f'\cdot \mu')\varrho (g) =\varrho ((f'\cdot \mu')*\varepsilon_g) =\varrho \boldsymbol{\delta }$[^1]$_G(g^{-1})f'\cdot \mu'$
+(2) $\varrho (f'\cdot \mu')\varrho (g) =\varrho ((f'\cdot \mu')*\varepsilon_g) =\varrho (\boldsymbol{\delta }$[^1]$_G(g^{-1})f'\cdot \mu')$
 
 (INT, VIII, p. 144, § 3, n$^o2$, formule (5)).
 
@@ -310,11 +310,9 @@ Un espace analogue à $\mathscr{K}_{\pi}(G)$ a été défini dans INT, VII, p. 3
 
 Soit $p\in [1,+\infty [$. Pour tout $f\in \mathscr{F}_{\pi}$(G), on note
 
-$\int*1/p$
-
-$N_p(f) =\|f\|^pd\nu$.
-
-$G/H$
+$$
+N_p(f) =(\int_{G/H}^*\|f\|^pd\nu )^{1/p}
+$$
 
 C’est un nombre réel ou $+\infty$. On note $\mathscr{F}_{\pi}^p(G, \nu )$, ou simplement $\mathscr{F}_{\pi}^p$(G), le sous-espace des fonctions $f\in \mathscr{F}_{\pi}(G)$ telles que $N_p(f)$ est fini. L’espace $\mathscr{F}_{\pi}^p(G)$ muni de l’application $N_p$ est un espace semi-normé.
 
@@ -343,7 +341,7 @@ Démontrons a). D’après la prop. 6 de INT, IV, p. 128, § 3, n$^o3$, il exist
 L’ensemble $T =\overset{-1}{\varpi}(S)$ est négligeable modulo H. Pour tout $g /\in T$, la série de terme général $f_n(g)$ est absolument convergente dans E. Définissons $f(g) =\sum f_n(g)$ pour $g /\in T$ et $f(g) = 0$ sinon. On a $f\in$ $\mathscr{F}_{\pi}(G)$. Notons que $\|f(gH)\|\leqslant h(gH)$ pour tout $g\in G$, d’où $N_p(f)\leqslant$ $N_p(h)<+\infty$. On a donc $f\in \mathscr{F}_{\pi}^p(G)$. De manière similaire, il vient
 
 $$
-N_pf-\sum_{n=0}^kf_n\leqslant \sum_{n=k+1}^{+\infty}N_p(f_n)
+N_p(f-\sum_{n=0}^kf_n)\leqslant \sum_{n=k+1}^{+\infty}N_p(f_n)
 $$
 
 pour tout $k\in \mathbf{N}$, donc la série $\sum f_n$ converge vers $f$ dans $\mathscr{F}_{\pi}^p(G)$. L’assertion a) est démontrée.
@@ -516,11 +514,9 @@ $$
 
 grâce à l’inégalité de Hölder dans le cas $p >1$. Comme $S_{ug}$ est négligeable modulo H, il vient alors
 
-$\int*\int*\int*p$
-
-$\|f-\widetilde{f}\|^pd\nu \leqslant W^p\|g(xh)-\widetilde{g}(xh)\|d\beta (h)d\nu (xH)$
-
-$G/HG/H$ H
+$$
+\int_{G/H}^*\|f-\widetilde{f}\|^pd\nu \leqslant W^p\int_{G/H}^*(\int_H^*\|g(xh)-\widetilde{g}(xh)\|d\beta (h))^pd\nu (xH)
+$$
 
 $$
 = W^p\int_G^*\|g-\widetilde{g}\|^p\kappa  d\mu\leqslant \varepsilon
@@ -731,17 +727,17 @@ pour tout $g\in G$.
 Soit $g\in G$. D’après l’inégalité de Cauchy–Schwarz, on a
 
 $$
-|f(g)|^2\leqslant \int_{G/Z}|f_1|^{1/2}|f_3| |\boldsymbol{\gamma }_{G,\chi}(g)f_2|d\nu^2
+|f(g)|^2\leqslant (\int_{G/Z}|f_1|^{1/2}|f_3| |\boldsymbol{\gamma }_{G,\chi}(g)f_2|d\nu )^2
 $$
 
 $$
-\leqslant \int_{G/Z}|f_1|d\nu \int_{G/Z}|f_3|^2|\boldsymbol{\gamma }_{G,\chi}(g)f_2|^2d\nu
+\leqslant (\int_{G/Z}|f_1|d\nu )(\int_{G/Z}|f_3|^2|\boldsymbol{\gamma }_{G,\chi}(g)f_2|^2d\nu )
 $$
 
 Comme on a $|f_3|^2=|f_1|$ dans $\mathscr{K}(G/Z)$, on en déduit en intégrant sur $G/Z$ que
 
 $$
-\int_{G/Z}|f(g)|^2d\nu (g)\leqslant N_1(f_1)\int_{G/Z}\int_{G/Z}|f_1(x)| |f_2(g^{-1}x)|^2d\nu (x)d\nu (g)
+\int_{G/Z}|f(g)|^2d\nu (g)\leqslant N_1(f_1)\int_{G/Z}(\int_{G/Z}|f_1(x)| |f_2(g^{-1}x)|^2d\nu (x))d\nu (g)
 $$
 
 La fonction sur $G/Z\times G/Z$ déduite de la fonction
@@ -753,11 +749,11 @@ $$
 par passage aux quotients est $(\nu \otimes \nu$)-mesurable et à support compact, donc elle est $(\nu \otimes \nu$)-modérée (INT, V, p. 4, § 5, n$^o2$, déf. 2). D’après la prop. 7 de INT, V, p. 93, § 8, n$^o3$, il vient
 
 $$
-\int_{G/Z}\int_{G/Z}|f_1(x)| |f_2(g^{-1}x)|^2d\nu (x)d\nu (g)
+\int_{G/Z}(\int_{G/Z}|f_1(x)| |f_2(g^{-1}x)|^2d\nu (x))d\nu (g)
 $$
 
 $$
-=\int_{G/Z}|f_1(x)|\int_{G/Z}|f_2(g^{-1}x)|^2d\nu (g)d\nu (x) = N_1(f_1)N_2(f_2)^2
+=\int_{G/Z}|f_1(x)|(\int_{G/Z}|f_2(g^{-1}x)|^2d\nu (g))d\nu (x) = N_1(f_1)N_2(f_2)^2
 $$
 
 Par conséquent, on a $N_2(f)^2\leqslant N_1(f_1)^2N_2(f_2)^2$, ce qui établit la propriété demandée dans ce cas.
@@ -1073,7 +1069,7 @@ c) L’opérateur partiel $u$ est essentiellement auto-adjoint.
 Pour tout $x\in E$, notons $\psi_x$ l’application de $\mathbf{R}$ dans E définie par $\psi_x(t) =\varrho (t)x$. Pour tout $t\in \mathbf{R}$ et tout $h\in \mathbf{R}$, on a
 
 $$
-\psi_x(t+h)-\psi_x(t) =\varrho (t)\psi_x(h)-\psi_x(0)
+\psi_x(t+h)-\psi_x(t) =\varrho (t)(\psi_x(h)-\psi_x(0))
 $$
 
 ce qui démontre que dom($u$) est l’espace des éléments $x\in E$ tels que $\psi_x$ est dérivable sur $\mathbf{R}$ et établit que $\psi '_x(t) =\varrho (t)\psi '_x(0) =i\varrho (t)(u(x))$ pour tout $t\in \mathbf{R}$.
@@ -1098,7 +1094,7 @@ Soit $u$ un opérateur partiel auto-adjoint sur E et soit $\varrho (t) =e^{itu}$
 
 Soit $x\in$ dom($u$). Posons $\psi_x(t) =\varrho (t)x$ pour tout $t\in \mathbf{R}$. Pour tout nombre réel $h$ non nul, on a
 
-1 1 $_{ihu}itu$ 1 $_{ihu}$
+1 $(1_{ihu})_{itu}(1_{ihu})$
 
 $$
 (\psi_x(t+h)-\psi_x(t)) =(e-1_E)ex=(e-1_E)\varrho (t)x

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 161
 statements: 11
 exercises: 11
-content_sha256: 8fe76be759a77765550c8160871cd94d43c6e6fd43698f94622bb02a9737ec2b
+content_sha256: 6719d8fa02b8619f5a4398d148de092ec4a408ad6829aa3e617eaa85aa532216
 ---
 
 ## § 8. ALGÈBRES DE FONCTIONS CONTINUES SUR UN ESPACE COMPACT
@@ -118,7 +118,7 @@ pour tout $f\in B$.
 
 Soient $\chi \in \mathsf{X}(B)$ et $n$ un entier positif. Soient $\lambda_1, . . . , \lambda_n\in \mathbf{R}$ et $f_1, . . . , f_n\in B^*$. On a alors
 
-(1) $\sum_{i=1}^n\lambda_i$ log($|\chi (f_i)|$)$\leqslant$ sup$_{x\in X}\sum_{i=1}^n\lambda_i$ log($|f_i(x)|$).
+(1) $\sum_{i=1}^n\lambda_i$ log($|\chi (f_i)|$)$\leqslant$ sup$_{x\in X}(\sum_{i=1}^n\lambda_i$ log($|f_i(x)|$)).
 
 En effet, par continuité, il suffit de prouver cette inégalité quand les nombres réels $\lambda_i$ sont rationnels. Par réduction au même dénominateur, on se ramène au cas où $\lambda_i\in \mathbf{Z}$ pour tout $i$. L’inégalité s’écrit alors
 
@@ -245,7 +245,7 @@ Soit E une partie de $\mathbf{C}-$ X. On note $R_E(X)$ l’adhérence dans $\mat
 On a en particulier $R_{\emptyset}(X) = P(X)$. On note $R(X) = R_{\mathbf{C}-X}(X)$. On note I(E) l’ensemble des éléments $i\in I$ tels que $E\cap O_i=\emptyset$, et
 
 $$
-X_E= X\cup \bigcup_{i\in I(E)}O_i
+X_E= X\cup (\bigcup_{i\in I(E)}O_i)
 $$
 
 L’ensemble $X_E$ est compact, car borné et fermé, son complémentaire dans $\mathbf{C}$ étant la réunion de l’ouvert $O_{\infty}$ et des ouverts $O_i$ qui rencontrent E.

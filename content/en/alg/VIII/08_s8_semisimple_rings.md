@@ -30,7 +30,7 @@ subsections:
       pdf_page: 162
 statements: 30
 exercises: 6
-content_sha256: ddbe60c24a0a35af0471e643272aee5f82ebc557f3541f38cbb86f2f793e6b73
+content_sha256: 4557c7218072480fb4ee5214fdb3d546f8e270adf4b705d2bc74360dc4d4330c
 ---
 
 ## § 8. SEMISIMPLE RINGS
@@ -344,7 +344,7 @@ Let $e$ and $f$ be idempotents in A. By Proposition 13, b), we have $Ae= Af$ if 
 We say that idempotents $e$ and $e'$ in the ring A are orthogonal if $ee'=$ $e'e= 0$. Let $(e_i)_{i\in I}$ be a finite family of pairwise orthogonal idempotents in A. Since we have
 
 $$
-\sum_ie_i^2=\sum_ie^2_i+\sum_{i\not=j}e_ie_j=\sum_ie_i
+(\sum_ie_i)^2=\sum_ie^2_i+\sum_{i\not=j}e_ie_j=\sum_ie_i
 $$
 
 the element $\sum_{i\in I}e_i$ of A is idempotent.

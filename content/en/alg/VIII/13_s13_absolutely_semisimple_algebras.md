@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: da9501ed099d6bc51fb4aa8a7418a423c3b712c29d73420785f4a0228fb130ed
+content_sha256: d4a76bd514ba7734399d6bea285afe649ceb189c45513e7d2bdb2c7f9f5e6b00
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -566,11 +566,11 @@ b) Suppose that $\pi$ has a K-linear section and that the radical $\mathfrak{r}$
 Let $S_1$ and $S_2$ be as in a). Let $s_1$ and $s_2$ be the elements of the set Σ corresponding to the subalgebras $S_1$ and $S_2$. Let $\varepsilon$ be the K-linear mapping from $A\otimes_KA$ to A given by $\varepsilon (a\otimes b) =ab$. By Proposition 5 of VIII, p. 236 and Remark 1 of VIII, p. 237, there exists an element $e=\sum^r_{i=1}\alpha_i\otimes \alpha '_i$ of $\overline{A}\otimes_KA$ satisfying $\sum^r_{i=1}\alpha_i\alpha '_i= 1$ and $\sum^r_{i=1}\alpha \alpha_i\otimes \alpha '_i=\sum^r_{i=1}\alpha_i\otimes \alpha '_i\alpha$ for every $\alpha \in A$. Set $x=\sum^r_{i=1}s_1(\alpha_i)s_2(\alpha '_i)$. We have $\pi (x) =\sum^r_{i=1}\alpha_i\alpha '_i= 1$ and therefore $x\in 1 +\mathfrak{r}$. Let $\alpha$ be an element of A. We have
 
 $$
-s_1(\alpha )x=\sum_{i=1}^rs_1(\alpha \alpha_i)s_2(\alpha '_i) = (\varepsilon \circ (s_1\otimes s_2))\sum_{i=1}^r\alpha \alpha_i\otimes \alpha '_i
+s_1(\alpha )x=\sum_{i=1}^rs_1(\alpha \alpha_i)s_2(\alpha '_i) = (\varepsilon \circ (s_1\otimes s_2))(\sum_{i=1}^r\alpha \alpha_i\otimes \alpha '_i)
 $$
 
 $$
-= (\varepsilon \circ (s_1\otimes s_2))\sum_{i=1}^r\alpha_i\otimes \alpha '_i\alpha =\sum_{i=1}^rs_1(\alpha_i)s_2(\alpha '_i\alpha ) =xs_2(\alpha )
+= (\varepsilon \circ (s_1\otimes s_2))(\sum_{i=1}^r\alpha_i\otimes \alpha '_i\alpha )=\sum_{i=1}^rs_1(\alpha_i)s_2(\alpha '_i\alpha ) =xs_2(\alpha )
 $$
 
 The equality $x^{-1}S_1x= S_2$ follows, giving assertion a).

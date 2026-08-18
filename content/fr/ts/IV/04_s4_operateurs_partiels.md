@@ -53,7 +53,7 @@ subsections:
       pdf_page: 268
 statements: 74
 exercises: 24
-content_sha256: dbd74866036b545c5c8a81ab2219bcf090af64a55385298e5b46804a2285b0f7
+content_sha256: 2bb326662123e3ad4dd4353e75514039fb5d2e9e8b28459445a7686f68a77e3d
 ---
 
 ## § 4. OPÉRATEURS PARTIELS
@@ -1148,7 +1148,9 @@ Puisque $u$ est symétrique, on a $u\subset u^*$, donc l’espace dom($u$) est f
 
 Soit $x\in E_+$. On a $u^*(x) =ix$, d’où $\langle x|u(y)\rangle =-i\langle x|y\rangle$ pour tout $y\in$ dom($u$). Par conséquent, pour tout $y\in$ dom($u$), on a
 
-$(x|y)_{u^*}=\langle x|y\rangle +\langle u^*(x)|u^*(y)\rangle =i\langle x|u(y)\rangle  - \langle x|u^*(y)\rangle$ = 0
+$$
+(x|y)_{u^*}=\langle x|y\rangle +\langle u^*(x)|u^*(y)\rangle =i(\langle x|u(y)\rangle  - \langle x|u^*(y)\rangle )= 0
+$$
 
 puisque $u$ est symétrique. Les espaces $E_+$ et dom($u$) sont donc orthogonaux dans $E_{u^*}$. De même, $E_-$ et dom($u$) sont orthogonaux dans $E_{u^*}$.
 
@@ -1221,11 +1223,11 @@ $$
 du graphe $\Gamma_{b|I}$. On calcule
 
 $$
-\langle \gamma |u^*(\eta )\rangle =i\langle b(\gamma_1)|\eta_1\rangle  - \langle \gamma_1|b(\eta_1)\rangle +i\langle \gamma_1|\eta_1\rangle  - \langle b(\gamma_1)|b(\eta_1)\rangle
+\langle \gamma |u^*(\eta )\rangle =i(\langle b(\gamma_1)|\eta_1\rangle  - \langle \gamma_1|b(\eta_1)\rangle )+i(\langle \gamma_1|\eta_1\rangle  - \langle b(\gamma_1)|b(\eta_1)\rangle )
 $$
 
 $$
-=i\langle b(\gamma_1)|\eta_1\rangle  - \langle \gamma_1|b(\eta_1)\rangle
+=i(\langle b(\gamma_1)|\eta_1\rangle  - \langle \gamma_1|b(\eta_1)\rangle )
 $$
 
 puisque $b$ est isométrique sur I. On en déduit qu’on a

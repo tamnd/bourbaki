@@ -53,7 +53,7 @@ subsections:
       pdf_page: 105
 statements: 50
 exercises: 9
-content_sha256: 544b9dc32e29beaffc8ff3020a9bebce7af61cdcffad170400d51a07f6dbb4e8
+content_sha256: b223342ad6235f2feedc9185ea923d98d548abd3077ff7d001d2ae40063239a4
 ---
 
 ## § 4. REVÊTEMENTS
@@ -534,7 +534,7 @@ Soit U un ouvert de B. Il est clair que l’application $\psi_U$ est injective. 
 
 Un produit fini de faisceaux localement constants est localement constant.
 
-Soit $(\mathscr{F}_i)_{i\in I}$ une famille finie de faisceaux localement constants sur B. Tout point $a$ de B possède un voisinage ouvert U dans B tel que, pour tout $i\in I$, le faisceau $\mathscr{F}_i|U$ soit isomorphe à un faisceau constant. Il en est alors de même du faisceau $\prod\mathscr{F}_i|U$, qui est égal à $\prod\mathscr{F}_i|U$ .
+Soit $(\mathscr{F}_i)_{i\in I}$ une famille finie de faisceaux localement constants sur B. Tout point $a$ de B possède un voisinage ouvert U dans B tel que, pour tout $i\in I$, le faisceau $\mathscr{F}_i|U$ soit isomorphe à un faisceau constant. Il en est alors de même du faisceau $((\prod\mathscr{F}_i)|U$, qui est égal à $\prod ((\mathscr{F}_i|U)$.
 
 #### Corollaire 2 {#ta-i-s4-prop-11-cor-2 .statement tag=01PZ}
 

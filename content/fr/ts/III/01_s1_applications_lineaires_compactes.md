@@ -41,7 +41,7 @@ subsections:
       pdf_page: 34
 statements: 57
 exercises: 37
-content_sha256: 093d811134a8b6bd35b6df7266396e4641c8259917cdc3a4213a634199d67858
+content_sha256: 91d8c514dda9fae918e96afa606b092676d2aecc7b83528c9f00a135f8a1ffc0
 ---
 
 ## § 1. APPLICATIONS LINÉAIRES COMPACTES
@@ -410,7 +410,7 @@ Soient E un espace localement convexe, I un ensemble, et pour chaque $i\in I$, s
 
 Soient A une partie précompacte de E et U un voisinage de 0 dans E. Il existe par hypothèse $i\in I$ et une semi-norme continue $p$ sur $F_i$ tels que U contienne $(p\circ v_i)^{-1}([0,1])$. Posons $F = F_i,v=v_i$ et $B =v$(A), et supposons que F soit un espace d’approximation. L’ensemble B est précompact dans F. Il existe donc (lemme 2) un entier $n\geqslant 1$, des éléments $y_1, . . . , y_n$ de F et des formes linéaires continues $f_1, . . . , f_n$ sur F, tels que l’on ait, pour tout $y\in B$,
 
-$^n$ 1
+$(^n)$ 1
 
 $$
 py-\sum f_j(y)y_j\leqslant
@@ -546,7 +546,7 @@ Il existe un projecteur de rang fini $u$ de $L^p_K(X, \mu)$ de norme $\leqslant 
 
 Soit $\mathscr{P}$ l’ensemble des partitions finies $\pi = (K_1, . . . ,K_n,H)$ de X, où $n\geqslant 1$ est un entier et $K_1, . . . ,K_n$ sont des parties intégrables et de mesure non nulle de X. Pour toute partition $\pi = (K_1, . . . ,K_n,H)\in \mathscr{P}$, on définit un endomorphisme $v_{\pi}$ de $\mathscr{L}^p(X, \mu)$ en posant
 
-$^n$ 1 $\int$
+$^n$ 1 $(\int)$
 
 $$
 v_{\pi}(f) =\sum f d\mu\varphi_{K_i}

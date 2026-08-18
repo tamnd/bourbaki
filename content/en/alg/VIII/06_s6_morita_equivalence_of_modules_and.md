@@ -42,7 +42,7 @@ subsections:
       pdf_page: 128
 statements: 41
 exercises: 8
-content_sha256: b17951ca715c1877f913689b8fb0d82f1d0ebebff411b1d00ea9f26d2f613ff5
+content_sha256: 5cca21a7a8479d6cd7d1f6e7bdb33c0ccaf49298521937094efc881ac7c0eaa6
 ---
 
 ## § 6. MORITA EQUIVALENCE OF MODULES AND ALGEBRAS
@@ -428,7 +428,7 @@ a) We have $\varphi (0) = 0$ and $\varphi (V) = M$.
 b) Let $(V_i)_{i\in I}$ be a family of submodules of V. We have
 
 $$
-\varphi \sum_{i\in I}V_i=\sum_{i\in I}\varphi (V_i),\varphi \bigcap_{i\in I}V_i=\bigcap_{i\in I}\varphi (V_i)
+\varphi (\sum_{i\in I}V_i)=\sum_{i\in I}\varphi (V_i),\varphi (\bigcap_{i\in I}V_i)=\bigcap_{i\in I}\varphi (V_i)
 $$
 
 Submodules of M Ordered set D(M)

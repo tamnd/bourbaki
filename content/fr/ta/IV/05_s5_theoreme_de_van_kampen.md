@@ -37,7 +37,7 @@ subsections:
       pdf_page: 445
 statements: 31
 exercises: 34
-content_sha256: e79c8eba611e20041294ae13e15c711e20632163d969c3eeaa3e9a6a32fe8b6e
+content_sha256: 4dcea141368ebc9803471ed7ae6c2bc022513f3614dcf50b293cadf066aabf75
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -163,7 +163,7 @@ Si S est un ensemble, rappelons que F(S) désigne le groupe libre sur S ; l’im
 Supposons que Y soit connexe par arcs et que $f$ vérifie la propriété (VK). Avec les notations précédentes, il existe un unique homomorphisme de groupes
 
 $$
-\mathsf{L}:_i*_{\in\mathsf{I}}\pi_1(X,\mathsf{a}(i))*F(\mathsf{J})\rightarrow \pi_1(Y, f(\mathsf{a}(i_0)))
+\mathsf{L}:(_i*_{\in\mathsf{I}}\pi_1(X,\mathsf{a}(i)))*F(\mathsf{J})\rightarrow \pi_1(Y, f(\mathsf{a}(i_0)))
 $$
 
 tel que
@@ -247,7 +247,7 @@ $$
 pour tout $j\in J$. Il existe un unique homomorphisme de groupes
 
 $$
-\mathsf{M}:_i*_{\in I}\pi_1(A_i, a(i))*F(J)\rightarrow \pi_1(Y, a(i_0))
+\mathsf{M}:(_i*_{\in I}\pi_1(A_i, a(i)))*F(J)\rightarrow \pi_1(Y, a(i_0))
 $$
 
 qui coïncide avec $\mu_i$ dans $\pi_1(A_i, a(i))$, pour tout $i\in$ I, et avec $\mu$ dans F(J).
@@ -327,7 +327,7 @@ Les points $\mathsf{a}(i)$, pour $i\in I$, les point $\mathsf{b}(j)$, pour $j\in
 Notons $\rho$ l’unique homomorphisme de groupes
 
 $$
-\rho :_i*_{\in I}\pi_1(X,\mathsf{a}(i))*F(J')\rightarrow_i*_{\in I}\pi_1(A_i, a(i))*F(J)
+\rho :(_i*_{\in I}\pi_1(X,\mathsf{a}(i)))*F(J')\rightarrow (_i*_{\in I}\pi_1(A_i, a(i)))*F(J)
 $$
 
 qui induit l’isomorphisme de $\pi_1(X,\mathsf{a}(i))$ sur $\pi_1(A_i, a(i))$ déduit de l’identification de $A_i\times  \{i\}$ et $A_i$, pour tout $i\in I$, et tel que l’on ait
@@ -344,7 +344,7 @@ $$
 
 Par conséquent, on a $\mathsf{M}\circ \rho =\mathsf{L}$.
 
-L’homomorphisme $\mathsf{L}$ est surjectif (loc. cit.), donc l’homomorphisme $\mathsf{M}$ l’est aussi. Comme l’homomorphisme $\rho$ est surjectif, le noyau de $\mathsf{M}$ est le plus petit sous-groupe distingué de $_i*_{\in I}\pi_1(A_i, a(i))*F(J_1)$ qui contient les images par $\rho$ des éléments définis par les relations ($R_1$), ($R_2$)$, (R_3)$ du théorème 1 (IV, p. 408). La démonstration sera terminée une fois que nous aurons vérifié que ces images sont, outre les éléments définis par les relations ($R_1$)$, (R_2), (R_3)$ de la prop. 1, des éléments qui leur sont conjugués, ou qui sont conjugués à leurs inverses, ainsi que l’élément neutre.
+L’homomorphisme $\mathsf{L}$ est surjectif (loc. cit.), donc l’homomorphisme $\mathsf{M}$ l’est aussi. Comme l’homomorphisme $\rho$ est surjectif, le noyau de $\mathsf{M}$ est le plus petit sous-groupe distingué de $(_i*_{\in I}\pi_1(A_i, a(i)))*F(J_1)$ qui contient les images par $\rho$ des éléments définis par les relations ($R_1$), ($R_2$)$, (R_3)$ du théorème 1 (IV, p. 408). La démonstration sera terminée une fois que nous aurons vérifié que ces images sont, outre les éléments définis par les relations ($R_1$)$, (R_2), (R_3)$ de la prop. 1, des éléments qui leur sont conjugués, ou qui sont conjugués à leurs inverses, ainsi que l’élément neutre.
 
 Éléments $R_1$. — Une flèche de l’arbre orienté $\mathsf{T}$ est de la forme $Z_j$, avec $j= (i, i',V)\in J$ ; son image est l’élément $j$ de F(J).
 
@@ -432,7 +432,9 @@ $$
 \rho (\mathsf{r}_3(\tau (k))) =\lambda_2(k)^{-1}\rho (j_{21}(k))\lambda_1(k)^{-1}\rho (j_{13}(k))\lambda_3(k)^{-1}\rho (j_{23}(k))^{-1}
 $$
 
-= $\rho (j_{23}(k))\lambda_3(k)\rho (j_{13}(k))^{-1}\lambda_1(k)\rho (j_{12}(k))\lambda_2(k)^{-1}$
+$$
+=(\rho (j_{23}(k))\lambda_3(k)\rho (j_{13}(k))^{-1}\lambda_1(k)\rho (j_{12}(k))\lambda_2(k))^{-1}
+$$
 
 montrent que $\rho (\mathsf{r}_3(\tau (k)))$ est conjugué à l’inverse de
 
@@ -501,7 +503,7 @@ Sous les hypothèses du corollaire, le graphe associé au carquois Γ est un arb
 Soit
 
 $$
-\rho :_i*_{\in I}\pi_1(A_i, a(i))*F(J)\rightarrow_i*_{\in I}\pi_1(A_i, a(i))
+\rho :(_i*_{\in I}\pi_1(A_i, a(i)))*F(J)\rightarrow_i*_{\in I}\pi_1(A_i, a(i))
 $$
 
 l’unique homomorphisme de groupes qui induit l’homomorphisme identique sur $\pi_1(A_i, a(i))$ et dont le noyau contient F(J). On a $\mathsf{M}=\mathsf{N}\circ \rho$. Par conséquent, l’homomorphisme $\mathsf{N}$ est surjectif et son noyau est le plus petit sous-groupe distingué de $_i*_{\in I}\pi_1(A_i, a(i))$ qui
@@ -813,7 +815,7 @@ pour tout $v\in \pi_1(B, b)$. Fixons enfin un élément $\ell_0$ de L tel que $\
 Soit $\mathsf{Q}$ l’unique homomorphisme de groupes
 
 $$
-\mathsf{Q}:_i*_{\in I}\pi_1(C_i, b_{\sigma(i)})*F(L-T)\rightarrow \pi_1(A, b)
+\mathsf{Q}:(_i*_{\in I}\pi_1(C_i, b_{\sigma(i)}))*F(L-T)\rightarrow \pi_1(A, b)
 $$
 
 tel que $\mathsf{Q}(\ell ) =f_*(\beta_{\ell})$ pour tout $\ell \in$ L - T et qui coïncide avec $\pi_1(f, b_{\sigma(i)})$ dans $\pi_1(C_i, b_{\sigma(i)})$ pour tout $i\in I$.
@@ -861,7 +863,7 @@ car $\beta_{\ell}=e$ si $\ell \in T$.
 On a ainsi défini une donnée de van Kampen de l’application $f$. Considérons alors l’unique homomorphisme de groupes
 
 $$
-\mathsf{Q}':_i*_{\in I}\pi_1(C_i, b_{\sigma(i)})*F(J)\rightarrow \pi_1(A, b)
+\mathsf{Q}':(_i*_{\in I}\pi_1(C_i, b_{\sigma(i)}))*F(J)\rightarrow \pi_1(A, b)
 $$
 
 qui coïncide avec $\pi_1(f, b_{\sigma(i)})$ dans $\pi_1(C, b_{\sigma(i)})$ et tel que
@@ -875,7 +877,7 @@ pour $j\in J$. D’après IV, p. 408, th. 1, cet homomorphisme est surjectif et 
 Soit $q'$ l’unique homomorphisme de F(L) dans F(L - T) tel que $q'(\ell ) =\ell$ si $\ell \in L-T$ et $q'(\ell ) =e$ sinon. Soit
 
 $$
-q:_i*_{\in I}\pi_1(C_i, b_{\sigma(i)})*F(J)\rightarrow_i*_{\in I}\pi_1(C_i, b_{\sigma(i)})*F(L-T)
+q:(_i*_{\in I}\pi_1(C_i, b_{\sigma(i)}))*F(J)\rightarrow (_i*_{\in I}\pi_1(C_i, b_{\sigma(i)}))*F(L-T)
 $$
 
 l’unique homomorphisme de groupes qui coïncide avec l’identité sur $\pi_1(C_i, b_{\sigma(i)})$, pour $i\in$ I et tel que l’on ait $q(j) =e$ si $j= \Delta_{C_i}$, $q([\ell , \ell ']) =q'(\ell )^{-1}q'(\ell ')$ si $\ell$ et $\ell '$ sont des éléments de L, distincts. L’homomorphisme $q$ est surjectif.
@@ -890,7 +892,7 @@ $$
 =\mathsf{Q}(q'(\ell )^{-1}q'(\ell ')) =\mathsf{Q}\circ q([\ell , \ell '])
 $$
 
-Par suite, $\mathsf{Q}'$ = $\mathsf{Q}\circ q$. Il en résulte que l’homomorphisme $\mathsf{Q}$ est surjectif et que son noyau est le plus petit sous-groupe distingué de $_i*_{\in I}\pi_1(C_i, b_{\sigma(i)})*F(L-T)$ contenant les images par $q$ des relateurs $\mathsf{r}_1(j)$ (pour $j\in$ Fl($\mathsf{T}$))$,\mathsf{r}_2(j, v)$ (pour $j\in J$ et $v\in \pi_1(C\times_AC,\mathsf{b}(j))$) et $\mathsf{r}_3(k)$ (pour $k\in K$).
+Par suite, $\mathsf{Q}'$ = $\mathsf{Q}\circ q$. Il en résulte que l’homomorphisme $\mathsf{Q}$ est surjectif et que son noyau est le plus petit sous-groupe distingué de $(_i*_{\in I}\pi_1(C_i, b_{\sigma(i)}))*F(L-T)$ contenant les images par $q$ des relateurs $\mathsf{r}_1(j)$ (pour $j\in$ Fl($\mathsf{T}$))$,\mathsf{r}_2(j, v)$ (pour $j\in J$ et $v\in \pi_1(C\times_AC,\mathsf{b}(j))$) et $\mathsf{r}_3(k)$ (pour $k\in K$).
 
 Si $\ell \in T-\{\ell_0\}$ et $j= [\ell_0, \ell ]$, on a $\mathsf{r}_1(j) =j$ et $q(\mathsf{r}_1(j)) =e$.
 
@@ -943,7 +945,7 @@ $$
 Distinguons quatre cas. Si $\ell$ et $\ell '$ appartiennent tous deux à T, on a
 
 $$
-q(\mathsf{r}_2(j, v)) =\vartheta_{\ell_0}(v)\vartheta_{\ell}(v)^{-1-1}\vartheta_{\ell_0}(v)\vartheta_{\ell'}(v)^{-1}
+q(\mathsf{r}_2(j, v)) =(\vartheta_{\ell_0}(v)\vartheta_{\ell}(v)^{-1})^{-1}(\vartheta_{\ell_0}(v)\vartheta_{\ell'}(v)^{-1})
 $$
 
 Lorsque $\ell '=\ell_0$, on obtient l’inverse de l’élément $\vartheta_{\ell_0}(v)\vartheta_{\ell}(v)^{-1}$. Si $\ell \in T$ mais $\ell '\notin T$, on a
@@ -952,7 +954,9 @@ $$
 q(\mathsf{r}_2(j, v)) =\vartheta_{\ell}(v)\ell '\vartheta_{\ell'}(v)^{-1}(\ell ')^{-1}
 $$
 
-= $\vartheta_{\ell_0}(v)\vartheta_{\ell}(v)^{-1-1}\vartheta_{\ell_0}(v)\ell '\vartheta_{\ell'}(v)^{-1}(\ell ')^{-1}$.
+$$
+=(\vartheta_{\ell_0}(v)\vartheta_{\ell}(v)^{-1})^{-1}\vartheta_{\ell_0}(v)\ell '\vartheta_{\ell'}(v)^{-1}(\ell ')^{-1}
+$$
 
 De même, si $\ell \notin T$ et $\ell '\in T$, on a
 
@@ -961,13 +965,13 @@ q(\mathsf{r}_2(j, v)) =\vartheta_{\ell}(v)\ell^{-1}\vartheta_{\ell'}(v)^{-1}\ell
 $$
 
 $$
-=\ell^{-1}\vartheta_{\ell_0}(v)\ell \vartheta_{\ell}(v)^{-1}\ell^{-1-1}\vartheta_{\ell_0}(v)\vartheta_{\ell'}(v)^{-1}\ell
+=\ell^{-1}(\vartheta_{\ell_0}(v)\ell \vartheta_{\ell}(v)^{-1}\ell^{-1})^{-1}(\vartheta_{\ell_0}(v)\vartheta_{\ell'}(v)^{-1})\ell
 $$
 
 En prenant $\ell '=\ell_0$, on obtient un élément conjugué à l’inverse de $\vartheta_{\ell_0}(v)\ell \vartheta_{\ell}(v)^{-1}\ell^{-1}$. Enfin, si ni $\ell$ ni $\ell '$ n’appartiennent à T, on a
 
 $$
-q(\mathsf{r}_2(j, v)) =\vartheta_{\ell}(v)\ell^{-1}\vartheta_{\ell_0}(v)^{-1}\ell \ell^{-1}\vartheta_{\ell_0}(v)\ell '\vartheta_{\ell'}(v)^{-1}(\ell ')^{-1}\ell
+q(\mathsf{r}_2(j, v)) =(\vartheta_{\ell}(v)\ell^{-1}\vartheta_{\ell_0}(v)^{-1}\ell )\ell^{-1}(\vartheta_{\ell_0}(v)\ell '\vartheta_{\ell'}(v)^{-1}(\ell ')^{-1})\ell
 $$
 
 Ces relations démontrent, d’une part, que les éléments annoncés dans la proposition appartiennent au noyau de l’homomorphisme $\mathsf{Q}$, et, d’autre part, que ces éléments $q(\mathsf{r}_2(j, v))$ appartiennent tous au plus petit sous-groupe distingué contenant les éléments annoncés par l’énoncé. La proposition en résulte.

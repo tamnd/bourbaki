@@ -38,7 +38,7 @@ subsections:
       pdf_page: 106
 statements: 37
 exercises: 19
-content_sha256: deb4c36d59329e35f14821c7b815577279a3f27d7dae68551bcfe0e3c74c764b
+content_sha256: 3b4c9089cd46191f09d7e9d0e26444cd112b43560fcd2989819de7558a97409d
 ---
 
 ## § 5. COMMUTATION
@@ -84,7 +84,7 @@ For $i\in I$, we denote the projection homomorphism from $M^{(I)}$ to M by $\pi_
 Let $u$ be an element of End$_A(M^{(I)})$. For all $i, j\in I$, the composition $u_{i,j}=\pi_j\circ u\circ \iota_i$ belongs to the commutant $A'_M$ of M. For every element $b$ of $A''_M$ and every $(x_i)\in M^{(I)}$, we have the relations
 
 $$
-bu(x_i)_{i\in I}=b\sum_{i\in I}u_{i,j}(x_i)_{j\in I}=\sum_{i\in I}u_{i,j}(bx_i)_{j\in I}=u b(x_i)_{i\in I}
+bu((x_i)_{i\in I})=b(\sum_{i\in I}u_{i,j}(x_i))_{j\in I}=(\sum_{i\in I}u_{i,j}(bx_i))_{j\in I}=u(b(x_i)_{i\in I})
 $$
 
 The homothety $b_{M^{(I)}}$ therefore belongs to the bicommutant of the A-module $M^{(I)}$.
@@ -208,11 +208,11 @@ A generating module is balanced.
 Let A be a ring, and let M be a generating A-module; by definition, there exist an integer $n\geqslant 0$, elements $x_1, . . . , x_n$ of M, and elements $x^*_1, . . . , x^*_n$ of the dual $M^*$ of M satisfying $\sum^n_{i=1}\langle x_i, x^*_i\rangle = 1$. Recall (II, §4, No. 2, p. 271) that we define a group homomorphism $\theta : M^*\otimes_AM\rightarrow$ End$_A(M)$ by the formula $\theta (x^*\otimes y)(x) =\langle x, x^*\rangle y$. If $u$ is an element of the bicommutant of M, then it commutes with End$_A(M)$; therefore, for every $y\in M$, we have
 
 $$
-u(y) =u\sum_{i=1}^n\langle x_i, x^*_i\rangle y=\sum_{i=1}^nu(\theta (x^*_i\otimes y)(x_i))
+u(y) =u(\sum_{i=1}^n\langle x_i, x^*_i\rangle y)=\sum_{i=1}^nu(\theta (x^*_i\otimes y)(x_i))
 $$
 
 $$
-=\sum_{i=1}^n\theta (x^*_i\otimes y)(u(x_i)) =\sum_{i=1}^n\langle u(x_i), x^*_i\rangle y
+=\sum_{i=1}^n\theta (x^*_i\otimes y)(u(x_i)) =(\sum_{i=1}^n\langle u(x_i), x^*_i\rangle )y
 $$
 
 Consequently, $u$ belongs to $A_M$, and M is balanced.
@@ -283,7 +283,7 @@ Let M be a semisimple A-module, and let B be the endomorphism ring of M. Denote 
 
 #### Remark 1 {#alg-viii-s5-n4-rem-1 .statement tag=00R4}
 
-The canonical description $\alpha_M$ of the A-module M is an isomorphism of left $(A$, B)-bimodules. By the corollary of Proposition 9, VIII, p. 71, the mapping $f\mapsto$ Hom(1$_{S_{\lambda}}, f)_{\lambda\in\mathscr{S}_M}$ from B to $\prod_{\lambda\in\mathscr{S}_M}$ End$_{D_{\lambda}}(V_{\lambda})$ is a ring isomorphism.
+The canonical description $\alpha_M$ of the A-module M is an isomorphism of left $(A$, B)-bimodules. By the corollary of Proposition 9, VIII, p. 71, the mapping $f\mapsto ($Hom(1$_{S_{\lambda}}, f))_{\lambda\in\mathscr{S}_M}$ from B to $\prod_{\lambda\in\mathscr{S}_M}$ End$_{D_{\lambda}}(V_{\lambda})$ is a ring isomorphism.
 
 #### Proposition 5 {#alg-viii-s5-prop-5 .statement tag=005X}
 

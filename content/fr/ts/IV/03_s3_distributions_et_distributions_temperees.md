@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: 0aa5b86b5561b64cabb0a77c69823cf0e4636a7a5ff3ca782b4131646e339bce
+content_sha256: 273a6b0c67b363bce01e72c27580bd6b534252082e802e75be5e6398236793d8
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -123,7 +123,7 @@ $$
 $$
 
 $$
-\partial h(x) =\sum b \partial f(x), \partial g(x)
+\partial h(x) =\sum b(\partial f(x), \partial g(x))
 $$
 
 $$
@@ -198,7 +198,7 @@ Soit $k$ un entier naturel. Soient $f\in \mathscr{L}^1(\mathbf{R}^n, \mu)$ et $g
 
 On peut appliquer le corollaire 1 à l’espace $X =\mathbf{R}^n$, à la mesure de Lebesgue et à l’application $h$ définie par $(x, t)\mapsto f(x)g(t-x)$ de $\mathbf{R}^n\times \mathbf{R}^n$ dans $\mathbf{C}$; en effet, pour tout $\alpha \in \mathbf{N}^n$ tel que $|\alpha |\leqslant k$, on a l’inégalité
 
-$|\partial^{\alpha}h(x, t)|\leqslant$ sup$_{|\beta|\leqslant k}$ sup$_{y\in\mathbf{R}^n}|\partial^{\beta}g(y)||f(x)|$
+$|\partial^{\alpha}h(x, t)|\leqslant ($sup$_{|\beta|\leqslant k}$ sup$_{y\in\mathbf{R}^n}|\partial^{\beta}g(y)|)|f(x)|$
 
 dont le second membre est une fonction intégrable sur $\mathbf{R}^n$.
 
@@ -561,7 +561,7 @@ Par récurrence sur $k$, il suffit de démontrer cette propriété lorsque $\bet
 Pour toute fonction test $\varphi \in \mathscr{D}$(U), on a par définition
 
 $$
-\langle \partial^{\beta}\lambda , \varphi \rangle =-\int_Uf(x)\partial^{\beta}\varphi (x)dx=-\int_V\int_If(y, t)\partial^{\beta}\varphi (y, t)dtdy
+\langle \partial^{\beta}\lambda , \varphi \rangle =-\int_Uf(x)\partial^{\beta}\varphi (x)dx=-\int_V(\int_If(y, t)\partial^{\beta}\varphi (y, t)dt)dy
 $$
 
 d’après le théorème de Lebesgue–Fubini (INT, V, p. 96, § 8, n$^o4$, th. 1). Par intégration par parties (FVR, II, p. 10), on a
@@ -573,7 +573,7 @@ $$
 puisque $t\mapsto \varphi (y, t)$ est à support compact dans I. On obtient donc
 
 $$
-\langle \partial^{\beta}\lambda , \varphi \rangle =\int_V\int_I\partial^{\beta}f(y, t)\varphi (y, t)dtdy=\langle \partial^{\beta}f, \varphi \rangle
+\langle \partial^{\beta}\lambda , \varphi \rangle =\int_V(\int_I\partial^{\beta}f(y, t)\varphi (y, t)dt)dy=\langle \partial^{\beta}f, \varphi \rangle
 $$
 
 #### Proposition 9 (Formule de Leibniz) {#ts-iv-s3-prop-9 .statement tag=030V}
@@ -742,7 +742,7 @@ L’espace $\mathscr{D}(\mathbf{R}^n)$ est contenu dans $\mathscr{S}(\mathbf{R}^
 
 Soit $B\subset \mathscr{D}(\mathbf{R}^n)$ une partie bornée, et soit K une partie compacte de $\mathbf{R}^n$ telle que $B\subset \mathscr{C}_K^{\infty}(\mathbf{R}^n)$. Soient $\alpha \in \mathbf{N}^n$ et $k\in \mathbf{N}$. Pour toute fonction $\varphi \in B$, il vient
 
-$\widetilde{q}_{\alpha ,k}(\varphi )\leqslant$ sup$_{x\in K}\|x\|^kp_{\alpha ,K}(\varphi )$,
+$\widetilde{q}_{\alpha ,k}(\varphi )\leqslant ($sup$_{x\in K}\|x\|^k)p_{\alpha ,K}(\varphi )$,
 
 donc B est borné dans $\mathscr{S}(\mathbf{R}^n)$. La continuité de l’inclusion résulte alors du fait que les espaces $\mathscr{S}(\mathbf{R}^n)$ et $\mathscr{D}(\mathbf{R}^n)$ sont bornologiques.
 
@@ -835,7 +835,7 @@ $\|x\|^k(1 +\|x\|)^{k_{\beta}}|\partial^{\alpha-\beta}\varphi (x)|\leqslant$ sup
 + sup$_{x\in\mathbf{R}^n}2^{k_{\beta}}\|x\|^{k+k_{\beta}}|\partial^{\alpha-\beta}\varphi (x)|$ d’où finalement
 
 $$
-(\alpha )_k
+(\alpha )_k()
 $$
 
 $$
@@ -895,7 +895,7 @@ Soit $\nu$ une mesure tempérée sur $\mathbf{R}^n$. La restriction de $\nu$ à 
 Puisque $\nu$ est tempérée, il existe un entier positif $k$ tel que l’application $x\mapsto  \|x\|^{-k}$ est $\nu$-intégrable sur le complémentaire de la boule unité dans $\mathbf{R}^n$. Pour toute fonction de Schwartz $\varphi \in \mathscr{S}(\mathbf{R}^n)$, on a
 
 $$
-|\langle \nu , \varphi \rangle |\leqslant \int_{\|x\|\leqslant 1}d\nu \widetilde{q}_{0,0}(\varphi ) +\int_{\|x\|>1}\|x\|^{-k}d\nu \widetilde{q}_{0,k}(\varphi )
+|\langle \nu , \varphi \rangle |\leqslant (\int_{\|x\|\leqslant 1}d\nu )\widetilde{q}_{0,0}(\varphi ) +(\int_{\|x\|>1}\|x\|^{-k}d\nu )\widetilde{q}_{0,k}(\varphi )
 $$
 
 donc la restriction de $\nu$ à $\mathscr{S}(\mathbf{R}^n)$ est une distribution tempérée.
@@ -970,13 +970,13 @@ Démontrons la seconde formule. Par récurrence sur $|\alpha |$, il suffit de le
 
 $\mathscr{F}(\partial_1\varphi )(y) =\int$ exp($-2i\pi  x'\cdot y'$)
 
-$\times \int^{\mathbf{R}^{n-1}}_{\mathbf{R}}(\partial_1\varphi )(x_1, x')$ exp($-2i\pi  x_1y_1$)$d\mu_1(x_1)d\mu'(x')$.
+$\times^{\mathbf{R}^n}(\int^{^{-1}}_{\mathbf{R}}(\partial_1\varphi )(x_1, x')$ exp($-2i\pi  x_1y_1$)$d\mu_1(x_1))d\mu'(x')$.
 
 Pour tout intervalle compact $[a, b]$ dans $\mathbf{R}$ et tout $x'\in \mathbf{R}^{n-1}$, on a
 
 $\int_a^b(\partial_1\varphi )(x_1, x')$ exp($-2i\pi  x_1y_1$)$d\mu_1(x_1) =$
 
-$\varphi (x_1, x')$ exp($-2i\pi  x_1y_1$)$^b_a$
+$[\varphi (x_1, x')$ exp($-2i\pi  x_1y_1$)$]^b_a$
 
 $+ 2i\pi y_1\int_a^b\varphi (x_1, x')$ exp($-2i\pi x_1y_1$)$d\mu_1(x_1)$ par intégration par parties (FVR, II, p. 10, formule (10)). Lorsque $a$ tend vers $-\infty$ et $b$ tend vers $+\infty$, le premier terme du second membre converge vers 0 puisque $\varphi \in \mathscr{S}(\mathbf{R}^n)$. Le second terme converge d’après le théorème de Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6) vers
 
@@ -1022,7 +1022,7 @@ On appelle transformation de Fourier (resp. cotransformation de Fourier) sur $\m
 
 On note encore $\mathscr{F}$ (resp. $\overline{\mathscr{F}})$ la transformation de Fourier (resp. la cotransformation de Fourier) sur $\mathscr{S}'(\mathbf{R}^n)$. La transformation de Fourier sur $\mathscr{S}'(\mathbf{R}^n)$ est donc un automorphisme d’espaces vectoriels topologiques dont l’inverse est la cotransformation de Fourier. Pour tout $f\in \mathscr{S}'(\mathbf{R}^n)$, la distribution tempérée $\mathscr{F}(f)$ (resp. $\overline{\mathscr{F}}(f))$ est définie par la formule
 
-$\langle \mathscr{F}(f), \varphi \rangle =\langle f,\mathscr{F}(\varphi )\rangle$ resp. $\langle \overline{\mathscr{F}}(f), \varphi \rangle =\langle f,\overline{\mathscr{F}}(\varphi )\rangle$
+$\langle \mathscr{F}(f), \varphi \rangle =\langle f,\mathscr{F}(\varphi )\rangle ($resp. $\langle \overline{\mathscr{F}}(f), \varphi \rangle =\langle f,\overline{\mathscr{F}}(\varphi )\rangle )$
 
 pour tout $\varphi \in \mathscr{S}(\mathbf{R}^n)$.
 
@@ -1074,12 +1074,12 @@ L’espace $\mathscr{S}(E)$ est inclus dans $L^1(E)$; la transformation de Fouri
 
 Soit U un ouvert de $\mathbf{R}^n$. Soient $p$ un nombre réel $\geqslant 1$ et $k$ un entier naturel. On note $W^{k,p}(U)$ l’espace des distributions $f\in \mathscr{D}'(U)$ telles que, pour tout $\alpha \in \mathbf{N}^n$ avec $|\alpha |\leqslant k$, la distribution $\partial^{\alpha}f$ est associée à un élément de $L^p(U)$.
 
-En particulier, pour $U =\mathbf{R}^n$, les éléments de $W^{k,p}(U)$ sont des distributions tempérées. L’application de $W^{k,p}(u)$ dans $\mathbf{R}_+$ qui à $f\in W^{k,p}(U)$ associe
+En particulier, pour $U =\mathbf{R}^n$, les éléments de $W^{k,p}(U)$ sont des distributions tempérées.
 
-$1/p$
+L’application de $W^{k,p}(u)$ dans $\mathbf{R}_+$ qui à $f\in W^{k,p}(U)$ associe
 
 $$
-\|f\|_{k,p}=(\sum_{|\alpha|\leqslant k}\|\partial^{\alpha}f\|^p_p
+\|f\|_{k,p}=((\sum_{|\alpha|\leqslant k}\|\partial^{\alpha}f\|^p_p)^{1/p}
 $$
 
 est une norme sur $W^{k,p}(U)$. L’espace $W^{k,p}(U)$ sera toujours muni de cette norme ; cet espace normé est appelé espace de Sobolev d’indice $k$ et d’exposant $p$.

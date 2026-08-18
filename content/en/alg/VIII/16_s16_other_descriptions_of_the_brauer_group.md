@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: 7fe2fc8a18af466be84771e5b055fa96cceb1e125430b92a4febfdee83d77d27
+content_sha256: a0ad6fc1593f4bd4debc43728d1c92bd47a636d7333ca94e9b7839c5757ee9e0
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -571,21 +571,27 @@ $$
 
 for $g\in G$. Using (11), we obtain that $c_{\sigma'}$ is constant with value 1; consequently, $\sigma '$ is a group homomorphism, which proves that the $\tau$-extension $\mathscr{E}$ is semitrivial (I, §6, No. 1, p. 67, Proposition 4).
 
-Let us prove that the mapping Θ is surjective. Let $c$ be an element of $Z^2(G,F)$. We endow the set $\Gamma  = F\times G$ with the following law of composition: (12) $(f_1, g_1)(f_2, g_2) =f_1(^{g_1}f_2)c(g_1, g_2), g_1g_2$
+Let us prove that the mapping Θ is surjective. Let $c$ be an element of $Z^2(G,F)$. We endow the set $\Gamma  = F\times G$ with the following law of composition: (12) $(f_1, g_1)(f_2, g_2) =(f_1(^{g_1}f_2)c(g_1, g_2), g_1g_2)$
 
 for all $f_1, f_2\in F$ and $g_1, g_2\in G$. We have the relations
 
 $$
-(f_1, g_1) ((f_2, g_2)(f_3, g_3)) = (f_1, g_1)f_2(^{g_2}f_3)c(g_2, g_3), g_2g_3
+(f_1, g_1) ((f_2, g_2)(f_3, g_3)) = (f_1, g_1)(f_2(^{g_2}f_3)c(g_2, g_3), g_2g_3)
 $$
 
-= $f_1(^{g_1}f_2)(^{g_1g_2}f_3)(^{g_1}c(g_2, g_3))c(g_1, g_2g_3), g_1g_2g_3$ and
-
 $$
-((f_1, g_1)(f_2, g_2)) (f_3, g_3) =f_1(^{g_1}f_2)c(g_1, g_2), g_1g_2(f_3, g_3)
+=(f_1(^{g_1}f_2)(^{g_1g_2}f_3)(^{g_1}c(g_2, g_3))c(g_1, g_2g_3), g_1g_2g_3)
 $$
 
-= $f_1(^{g_1}f_2)(^{g_1g_2}f_3)c(g_1, g_2)c(g_1g_2, g_3), g_1g_2g_3$
+and
+
+$$
+((f_1, g_1)(f_2, g_2)) (f_3, g_3) =(f_1(^{g_1}f_2)c(g_1, g_2), g_1g_2)(f_3, g_3)
+$$
+
+$$
+=(f_1(^{g_1}f_2)(^{g_1g_2}f_3)c(g_1, g_2)c(g_1g_2, g_3), g_1g_2g_3)
+$$
 
 for all $f_1, f_2, f_3\in F$ and $g_1,g_2, g_3\in G$. It follows that this law is associative because $c$ is a 2-cocycle. For every $(f, g)\in \Gamma$, we have
 
@@ -646,7 +652,7 @@ $H_2(G,F)^{u^*}$ // $H_2(G',F)$.
 Let H be a subgroup of G of finite index. Let $s$ be a section of the canonical surjection from G to $H\backslash G$. We denote by $(g, x)\mapsto x\cdot g$ the right action of G on $H\backslash G$ induced by the right action of G on itself by multiplication. Note that for every $x\in H\backslash G$ and $g\in G$, the element $s(x)gs(x\cdot g)^{-1}$ belongs to H. For any mapping $c: H\times H\rightarrow F$, we can therefore define a mapping $\widetilde{c}_s: G\times G\rightarrow F$ by the relation
 
 $$
-\widetilde{c}_s(g_1, g_2) =\prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}
+\widetilde{c}_s(g_1, g_2) =\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})
 $$
 
 for $g_1,g_2\in G$. The mapping $c\mapsto \widetilde{c}_s$ is a group homomorphism from $F^{H\times H}$ to $F^{G\times G}$.
@@ -678,15 +684,15 @@ $$
 $$
 
 $$
-=\prod_{x\in H\backslash G}^{g_1s(x)^{-1}}c s(x)g_2s(x\cdot g_2)^{-1}, s(x\cdot g_2)g_3s(x\cdot g_2g_3)^{-1}
+=\prod_{x\in H\backslash G}^{g_1s(x)^{-1}}c(s(x)g_2s(x\cdot g_2)^{-1}, s(x\cdot g_2)g_3s(x\cdot g_2g_3)^{-1})
 $$
 
 $$
-\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c(h_1(x)h_2(x), h_3(x))^{-1}
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}(c(h_1(x)h_2(x), h_3(x))^{-1}
 $$
 
 $$
-\times c(h_1(x), h_2(x)h_3(x))c(h_1(x), h_2(x))^{-1}
+\times c(h_1(x), h_2(x)h_3(x))c(h_1(x), h_2(x))^{-1})
 $$
 
 $$
@@ -716,7 +722,7 @@ $$
 for $g\in G$. It suffices to prove that $\widetilde{c}_s=\partial \widetilde{t}_s$, which follows from the relations $\widetilde{c}_s(g_1, g_2) =\prod_{x\in H\backslash G}^{s(x)^{-1}s(x)g_1s(x\cdot g_1)^{-1}}t(s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})$
 
 $$
-\times \prod_{x\in H\backslash G}^{s(x)^{-1}}t(s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}t(s(x)g_1s(x\cdot g_1)^{-1})
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}(t(s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}t(s(x)g_1s(x\cdot g_1)^{-1}))
 $$
 
 $$
@@ -742,55 +748,55 @@ $$
 $$
 
 $$
-=\prod_{x\in H\backslash G}^{s(x)^{-1}h(x)^{-1}}c h(x)s(x)g_1s'(x\cdot g_1)^{-1}, s'(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}
+=\prod_{x\in H\backslash G}^{s(x)^{-1}h(x)^{-1}}c(h(x)s(x)g_1s'(x\cdot g_1)^{-1}, s'(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1})
 $$
 
 $$
-=\prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}h(x\cdot g_1)^{-1}, h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}
+=\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}h(x\cdot g_1)^{-1}, h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1})
 $$
 
-$s(x)_{-1}-1''-1-1$
+$s(x)_{-1}(-1''-1-1$
 
 $$
-\times \prod_{x\in H\backslash G}c h(x), s(x)g_1g_2s(x\cdot g_1g_2)
+\times \prod_{x\in H\backslash G}c(h(x), s(x)g_1g_2s(x\cdot g_1g_2))
 $$
 
 $$
-\times c h(x)^{-1}, s'(x)g_1s'(x\cdot g_1)^{-1}
+\times c(h(x)^{-1}, s'(x)g_1s'(x\cdot g_1)^{-1}))
 $$
 
-$=\prod_{x\in H\backslash G}^{g_1s(x\cdot g_1)^{-1}}c h(x\cdot g_1)^{-1}, h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}$
+$=\prod_{x\in H\backslash G}^{g_1s(x\cdot g_1)^{-1}}c(h(x\cdot g_1)^{-1}, h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1})$
 
 $$
-\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1})
 $$
 
 $s(x)_{-1}-1-1-1$
 
-$\times \prod_{x\in H\backslash G}c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)$
+$\times \prod_{x\in H\backslash G}c(s(x)g_1s(x\cdot g_1), h(x\cdot g_1))$
 
 $$
-\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c h(x)^{-1}, s'(x)g_1g_2s'(x\cdot g_1g_2)^{-1-1}
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}(c(h(x)^{-1}, s'(x)g_1g_2s'(x\cdot g_1g_2)^{-1})^{-1}
 $$
 
 $$
-\times c h(x)^{-1}, s'(x)g_1s'(x\cdot g_1)^{-1}
+\times c(h(x)^{-1}, s'(x)g_1s'(x\cdot g_1)^{-1}))
 $$
 
-$=\prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}$
+$=\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1})$
 
 $s(x)_{-1}-1-1-1$
 
-$\times \prod_{x\in H\backslash G}c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)$ $\times \prod_{x\in H\backslash G}^{g_1s(x)^{-1}}c h(x)^{-1}, h(x)s(x)g_2s'(x\cdot g_2)^{-1}$
+$\times \prod_{x\in H\backslash G}c(s(x)g_1s(x\cdot g_1), h(x\cdot g_1))$ $\times \prod_{x\in H\backslash G}^{g_1s(x)^{-1}}c(h(x)^{-1}, h(x)s(x)g_2s'(x\cdot g_2)^{-1})$
 
-$s(x)^-_1-1''-1-1$
-
-$$
-\times \prod_{x\in H\backslash G}c h(x), s(x)g_1g_2s(x\cdot g_1g_2)
-$$
+$s(x)^-_1(-1''-1-1$
 
 $$
-\times c h(x)^{-1}, s'(x)g_1s'(x\cdot g_1)^{-1}
+\times \prod_{x\in H\backslash G}c(h(x), s(x)g_1g_2s(x\cdot g_1g_2))
+$$
+
+$$
+\times c(h(x)^{-1}, s'(x)g_1s'(x\cdot g_1)^{-1}))
 $$
 
 for all $g_1, g_2\in G$. The first equality comes from the cocycle relation (VIII, p. 295, formula (7)) applied to the elements
@@ -804,41 +810,41 @@ $s(x)g_1s(x\cdot g_1)^{-1},h(x\cdot g_1)^{-1}$, and $h(x\cdot g_1)s(x\cdot g_1)g
 The last two lines of the obtained expression correspond to a 2-coboundary. We find that $\widetilde{c}_{s'}$ has the same class in $H^2(G,F)$ as the cocycle whose value in $(g_1, g_2)\in G^2$ is given by the expression
 
 $$
-\prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}h(x\cdot g_1g_2)^{-1}
+\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}h(x\cdot g_1g_2)^{-1})
 $$
 
 $s(x)_{-1}-1-1-1$
 
 $$
-\times \prod_{x\in H\backslash G}c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)
+\times \prod_{x\in H\backslash G}c(s(x)g_1s(x\cdot g_1), h(x\cdot g_1))
 $$
 
-$=\prod_{x\in H\backslash G}^{g_1s(x\cdot g_1)^{-1}}c s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}, h(x\cdot g_1g_2)^{-1-1}$
+$=\prod_{x\in H\backslash G}^{g_1s(x\cdot g_1)^{-1}}c(s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}, h(x\cdot g_1g_2)^{-1})^{-1}$
 
 $$
-\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})
 $$
 
 $$
-\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1g_2s(x\cdot g_1g_2)^{-1}, h(x\cdot g_1g_2)^{-1}
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}(c(s(x)g_1g_2s(x\cdot g_1g_2)^{-1}, h(x\cdot g_1g_2)^{-1})
 $$
 
-$-1-1-1$
+$-1-1-1)$
 
-$\times c s(x)g_1s(x\cdot g_1), h(x\cdot g_1)$ $=\prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}$
+$\times c(s(x)g_1s(x\cdot g_1), h(x\cdot g_1))$ $=\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})$
 
 $gs(x)_{-1}-1-1-1$
 
 $$
-\times \prod_{x\in H\backslash G^1}c s(x)g_2s(x\cdot g_2), h(x\cdot g_2)
+\times \prod_{x\in H\backslash G^1}c(s(x)g_2s(x\cdot g_2), h(x\cdot g_2))
 $$
 
 $$
-\times \prod_{x\in H\backslash G}^{s(x)^{-1}}c s(x)g_1g_2s(x\cdot g_1g_2)^{-1}, h(x\cdot g_1g_2)^{-1}
+\times \prod_{x\in H\backslash G}^{s(x)^{-1}}(c(s(x)g_1g_2s(x\cdot g_1g_2)^{-1}, h(x\cdot g_1g_2)^{-1})
 $$
 
 $$
-\times c s(x)g_1s(x\cdot g_1)^{-1}, h(x\cdot g_1)^{-1-1}
+\times c(s(x)g_1s(x\cdot g_1)^{-1}, h(x\cdot g_1)^{-1})^{-1})
 $$
 
 where the first equality follows from the cocycle relation applied to the elements
@@ -864,7 +870,7 @@ $$
 $$
 
 $$
-\times \prod_{x\in H\backslash G}c(s(x)^{-1}, s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x\cdot g_1)^{-1})
+\times \prod_{x\in H\backslash G}(c(s(x)^{-1}, s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x\cdot g_1)^{-1}))
 $$
 
 $$
@@ -876,7 +882,7 @@ $$
 $$
 
 $$
-\times \prod_{x\in H\backslash G}c(s(x)^{-1}, s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x\cdot g_1)^{-1})
+\times \prod_{x\in H\backslash G}(c(s(x)^{-1}, s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x\cdot g_1)^{-1}))
 $$
 
 $=\prod_{x\in H\backslash G}c(g_1, g_2s(x\cdot g_1g_2)^{-1})c(g_1, s(x\cdot g_1)^{-1})^{-1}$
@@ -886,7 +892,7 @@ $$
 $$
 
 $$
-\times \prod_{x\in H\backslash G}c(s(x)^{-1}, s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x\cdot g_1)^{-1})
+\times \prod_{x\in H\backslash G}(c(s(x)^{-1}, s(x)g_1g_2s(x\cdot g_1g_2)^{-1})^{-1}c(s(x)^{-1}, s(x)g_1s(x\cdot g_1)^{-1}))
 $$
 
 The first equality comes from the cocycle relation (VIII, p. 295, formula (7)) applied to the elements
@@ -928,7 +934,7 @@ Let K be a commutative field. If E is a K-algebra, then we denote its automorphi
 Let G be a group. $A (K,G)$-algebra is a K-algebra E endowed with a group homomorphism $\lambda : G\rightarrow$ Aut$_K(E)$. The homomorphism $\lambda$ then endows E with the structure of a group with operators in G as well as the structure of a left K[G]-module with external law given by
 
 $$
-(\sum_{g\in G}\mu_ggx=\sum_{g\in G}\mu_g\lambda (g).x \tag{14}
+((\sum_{g\in G}\mu_gg)x=\sum_{g\in G}\mu_g\lambda (g).x \tag{14}
 $$
 
 for every $x\in L$ and every element $(\mu_g)_{g\in G}$ of K[G]. A morphism of $(K,G)$-algebras is a morphism of algebras that is also a morphism of groups with operators.
@@ -1286,7 +1292,7 @@ $$
 for all $g, g'\in G$. Let us, moreover, identify L with a subalgebra of $\mathbf{A}[\mathscr{E}; L]$ via the homomorphism $u$. Then every element of $\mathbf{A}[\mathscr{E}; L]$ can be written uniquely as $\sum_{g\in G}a_g\varepsilon_g$, where $(a_g)$ is a family of elements of L with finite support. The multiplication in $\mathbf{A}[\mathscr{E}; L]$ can be expressed by the formula
 
 $$
-\sum_ga_g\varepsilon_g\sum_gb_g\varepsilon_g=\sum_gd_g\varepsilon_g \tag{33}
+(\sum_ga_g\varepsilon_g)(\sum_gb_g\varepsilon_g)=\sum_gd_g\varepsilon_g \tag{33}
 $$
 
 with

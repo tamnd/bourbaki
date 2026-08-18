@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 44ac507bfbd37db562a1b8650cb5640fcbed01c02c28d768586d32020ca362aa
+content_sha256: 6d8fc11a64ec62b889995ac3982d23ee3b5784a48ee4f49ee591dcdac850668f
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -147,7 +147,7 @@ Given a linear representation $(M, \pi )$ of G, the contragredient or dual repre
 
 #### Example 4 {#alg-viii-s21-n1-exa-4 .statement tag=00NH}
 
-Let $(M, \pi )$ and $(M', \pi ')$ be linear representations of G. In Example 1 of VIII, p. 198, we defined a K[G]-module structure on $M\otimes_KM'$. The corresponding linear representation is called the tensor product of $\pi$ and $\pi '$ and is denoted by $\pi \otimes \pi '$. For $g\in G,x\in M$, and $x'\in M'$, we have $(\pi \otimes \pi ')(g)(x\otimes x') =\pi (g)x\otimes \pi '(g)x'$.
+Let $(M, \pi )$ and $(M', \pi ')$ be linear representations of G. In Example 1 of VIII, p. 198, we defined a K[G]-module structure on $M\otimes_KM'$. The corresponding linear representation is called the tensor product of $\pi$ and $\pi '$ and is denoted by $\pi \otimes \pi '$. For $g\in G,x\in M$, and $x'\in M'$, we have $((\pi \otimes \pi ')(g))(x\otimes x') =\pi (g)x\otimes \pi '(g)x'$.
 
 If M and $M'$ are finite-dimensional free K-modules, then by Proposition 2 of III, §9, No. 2, p. 543, we have
 
@@ -369,7 +369,7 @@ Denote by $\widehat{\tau}$ the trace in the algebra $F(\widehat{G})$. Let $A = (
 
 Since the mapping $\overline{\mathscr{F}}$ is a K-algebra isomorphism, we have $\widehat{\tau}\circ \overline{\mathscr{F}}=\tau$, and therefore
 
-$\tau (a) =\widehat{\tau}(\overline{\mathscr{F}}(a)) =\widehat{\tau}(\pi_{\lambda}(a))_{\lambda\in\widehat{G}}=\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr($\pi_{\lambda}(a)$) $=\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr$_{\lambda}(a)$
+$\tau (a) =\widehat{\tau}(\overline{\mathscr{F}}(a)) =\widehat{\tau}((\pi_{\lambda}(a))_{\lambda\in\widehat{G}})=\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr($\pi_{\lambda}(a)$) $=\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr$_{\lambda}(a)$
 
 for every $a\in K[G]$, that is
 
@@ -689,7 +689,9 @@ Set $\zeta '=\varphi (\zeta )$; it is a primitive $n$-th root of unity in $K'$, 
 
 We identify the algebra $\mathscr{O}[G]$ of the group G over $\mathscr{O}$ with a subring of the algebra K[G] and define a ring homomorphism Φ from $\mathscr{O}[G]$ to $K'[G]$ by the formula
 
-(42) Φ $\sum_{g\in G}a_gg=\sum_{g\in G}\varphi_1(a_g)g$.
+$$
+\Phi (\sum_{g\in G}a_gg)=\sum_{g\in G}\varphi_1(a_g)g \tag{42}
+$$
 
 Denote by $\mathscr{C}$ the set of conjugacy classes of G. For C in $\mathscr{C}$, denote by $u_C$ the element $\sum_{g\in C}g$ of $\mathscr{O}[G]$; the family $(u_C)_{C\in\mathscr{C}}$ is a basis over $\mathscr{O}$ of the center $Z(\mathscr{O}[G])$ of the algebra $\mathscr{O}[G]$ (VIII, p. 398). For any element $\lambda$ of $\mathscr{S}_K$(G), denote by $\chi_{\lambda}$ its character, by $d_{\lambda}$ its dimension, and by $e_{\lambda}$ the element of K[G] defined by
 

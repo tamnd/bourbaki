@@ -46,7 +46,7 @@ subsections:
       pdf_page: 88
 statements: 43
 exercises: 8
-content_sha256: 7dd5ff0136f5e1a5ca6982c00d2923f44f64037dc4be54303f37afa1fa5ceaf0
+content_sha256: 9b923a453915e067d2903a49360b5e74a5374235957494f4fa30b01122328979
 ---
 
 ## § 4. SEMISIMPLE MODULES
@@ -119,7 +119,7 @@ Let K be an algebraically closed commutative field and A a K-algebra. Let M be a
 
 Let A be a ring, M an A-module, and $(N_i)_{i\in I}$ a family of A-modules. With any element $(u_i)$ of $\bigoplus_i$ Hom$_A(M,N_i)$, we associate the element $m\mapsto (u_i(m))$ of Hom$_A(M,\bigoplus_iN_i)$. We thus define a canonical homomorphism
 
-$\varphi :\bigoplus_i$ Hom$_A(M,N_i)\longrightarrow$ Hom$_AM,\bigoplus_iN_i$.
+$\varphi :\bigoplus_i$ Hom$_A(M,N_i)\longrightarrow$ Hom$_A(M,\bigoplus_iN_i)$.
 
 It is clear that $\varphi$ is injective. Let $u$ be an element of Hom$_A(M,\bigoplus_iN_i)$. Then $u$ belongs to the image of $\varphi$ if and only if the set of indices $i$ such that pr$_i\circ u\not= 0$ is finite. This condition is automatically satisfied when the module M is finitely generated.
 
@@ -440,7 +440,7 @@ Suppose that M is semisimple and $f$ surjective. Then $f$ induces an isomorphism
 The mapping considered in b) is clearly a group homomorphism, and it is a ring homomorphism when M is equal to N. Let $(f_{\lambda})_{\lambda\in\mathscr{S}}$ be an element of $\prod_{\lambda\in\mathscr{S}}$ Hom(M$_{\lambda},N_{\lambda})$. The unique element of its inverse image under the mapping in b) is the homomorphism $f: M\rightarrow N$ defined by
 
 $$
-f(\sum_{\lambda\in\mathscr{S}}x_{\lambda}=\sum_{\lambda\in\mathscr{S}}f_{\lambda}(x_{\lambda})
+f((\sum_{\lambda\in\mathscr{S}}x_{\lambda})=\sum_{\lambda\in\mathscr{S}}f_{\lambda}(x_{\lambda})
 $$
 
 for every $(x_{\lambda})_{\lambda\in\mathscr{S}}\in \bigoplus_{\lambda}M_{\lambda}$.
@@ -503,7 +503,7 @@ For the remainder of this section, A is a ring, and $\mathscr{S}$ is the set of 
 
 Let M be an A-module. For every $\lambda \in \mathscr{S}$, Hom$_A(S_{\lambda},M)$ is a left vector space over the field $D_{\lambda}$. By VIII, p. 59, and II, §1, No. 6, p. 202, Proposition 6, there exists a unique A-linear mapping, called canonical,
 
-$\alpha_M:\bigoplus_{\lambda\in\mathscr{S}}S_{\lambda}\otimes_{D_{\lambda}}$ Hom$_A(S_{\lambda},M)\rightarrow M$
+$\alpha_M:\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}$ Hom$_A(S_{\lambda},M))\rightarrow M$
 
 satisfying the relation
 
@@ -635,7 +635,7 @@ Let M be a semisimple A-module. There exists a cardinal $\mathbf{I}$ that has th
 
 The simple A-modules are the semisimple A-modules of length 1, and we have the formula
 
-(13) long$_A\bigoplus_{j\in J}M_j=\sum_{j\in J}$ long$_A(M_j)$
+(13) long$_A(\bigoplus_{j\in J}M_j)=\sum_{j\in J}$ long$_A(M_j)$
 
 for every family $(M_j)_{j\in J}$ of semisimple A-modules. By Proposition 11, we have
 

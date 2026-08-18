@@ -25,7 +25,7 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 19
-content_sha256: e0b4864d9d9360b182bf5c99e1c452c440f41e4a730afa1e81150fb4e45ee16a
+content_sha256: 8e92a31999da37b616249a5f54740eae733b0d539c82ba4f537dfd554d8c9432
 ---
 
 ## § 3. SOUS-ESPACES INVARIANTS
@@ -179,7 +179,7 @@ pour tout $x\in$ K est un voisinage de $e$ dans $\widehat{G}$. Soit U $\subset U
 a) D’après le théorème de Plancherel et la condition $m(V)\geqslant \frac{1}{2}m(U)$, on a
 
 $$
-\|u\|_2\|v\|_2\|\mathscr{F}_G(u)\|_2\|\mathscr{F}_G(v)\|_2\overline{m(U)m(V)}\surd
+\|u\|_2\|v\|_2\|\mathscr{F}_G(u)\|_2\|\mathscr{F}_G(v)\|_2\surd\overline{m(U)m(V)}\surd
 $$
 
 $\|j\|_1\leqslant$ = = $\leqslant 2$.
@@ -219,12 +219,12 @@ puisque V est symétrique.
 c) Si $x\in K$, on a
 
 $$
-\|u-u*\varepsilon_x\|^2_2=\int\mathscr{F}_G(u)(\widehat{x}) 1- \langle x,\widehat{x}\rangle^2dm(\widehat{x})\leqslant m(U)\eta^2
+\|u-u*\varepsilon_x\|^2_2=\int\mathscr{F}_G(u)(\widehat{x})(1- \langle x,\widehat{x}\rangle )^2dm(\widehat{x})\leqslant m(U)(\eta )^2
 $$
 
 $_{\widehat{G}}$ 4
 
-puisque $U\subset U_1$, et de même $\|v-v*\varepsilon_x\|^2_2\leqslant m(V)\frac{\eta}{4}^2$. Donc
+puisque $U\subset U_1$, et de même $\|v-v*\varepsilon_x\|^2_2\leqslant m(V)(\frac{\eta}{4})^2$. Donc
 
 1
 
@@ -237,11 +237,11 @@ m(V)
 $$
 
 $$
-\eta
+\eta \surd\surd
 $$
 
 $$
-\leqslant \|u\|_2m(V) +\|v\|_2m(U)
+\leqslant (\|u\|_2m(V) +\|v\|_2\overline{m(U)})
 $$
 
 $$
@@ -249,7 +249,7 @@ $$
 $$
 
 $$
-\eta \overline{m(U)m(V)}
+\eta \surd\overline{m(U)m(V)}
 $$
 
 = $< \eta$.

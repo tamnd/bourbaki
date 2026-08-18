@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: 02268fb46c98da7a41f0f6c8e34ccdf3ad784c00e6cf9dbaab20b2e253c1802d
+content_sha256: 123e001390ace03276a6b6427b0178c5754477a4d3623d44c9a61b92a321a6ec
 ---
 
 ## § 1. OPÉRATEURS COMPACTS SUR UN ESPACE HILBERTIEN
@@ -82,7 +82,7 @@ Soit $u\in \mathscr{D}_B(E)$ et $\lambda = (\lambda_i)_{i\in I}$ la famille de s
 
 On a $|\lambda_i|\leqslant \|u\|$ pour tout $i$, d’où sup$_{i\in I}|\lambda_i|\leqslant \|u\|$. Comme de plus
 
-$\|u(x)\|^2=\sum_{i\in I}|\lambda_i|^2|\langle e_i|x\rangle |^2\leqslant$ sup$_{i\in I}|\lambda_i|^2\|x\|^2$
+$\|u(x)\|^2=\sum_{i\in I}|\lambda_i|^2|\langle e_i|x\rangle |^2\leqslant ($sup$_{i\in I}|\lambda_i|^2)\|x\|^2$
 
 pour tout $x\in E$ (EVT, V, p. 22, prop. 5), il vient $\|u\|=$ sup$|\lambda_i|$.
 
@@ -102,9 +102,9 @@ Soit $i\in I$. Pour tout $j\in I$, on a $\langle u^*(e_i)|e_j\rangle =\lambda_j\
 
 Soit $\lambda = (\lambda_i)_{i\in I}\in \mathscr{B}(I)$. Pour tout $x\in E$, la famille $(|\langle e_i|x\rangle |^2)_{i\in I}$ est sommable, de somme $\|x\|^2$ (EVT, V, p. 22, prop. 5), d’où, pour tout sous-ensemble fini J de I :
 
-$\sum_{i\in J}\lambda_ip_i(x)^2=\sum_{i\in J}|\lambda_i|^2|\langle e_i|x\rangle |^2\leqslant$ sup$_{i\in I}|\lambda_i|^2(\sum_{j\in J}|\langle e_i|x\rangle |^2$
+$\sum_{i\in J}\lambda_ip_i(x)^2=\sum_{i\in J}|\lambda_i|^2|\langle e_i|x\rangle |^2\leqslant ($sup$_{i\in I}|\lambda_i|^2)(\sum_{j\in J}|\langle e_i|x\rangle |^2$
 
-$\leqslant$ sup$_{i\in I}|\lambda_i|^2\|x\|^2$.
+$\leqslant ($sup$_{i\in I}|\lambda_i|)^2\|x\|^2$.
 
 Par conséquent, la famille $(\lambda_ip_i)$ est sommable dans $\mathscr{L}(E)$ muni de la topologie de la convergence simple. Sa somme $u_{\lambda}$ vérifie $u_{\lambda}(e_i) =\lambda_ie_i$; c’est donc un endomorphisme diagonal dans la base B, de valeurs propres $\lambda$. L’assertion b) en résulte.
 
@@ -170,7 +170,7 @@ Si $K =\mathbf{C}$, cela résulte aussitôt du théorème. Supposons $K =\mathbf
 
 Soit F un espace hilbertien et soit $u$ une application linéaire continue compacte de E dans F. Il existe un ensemble dénombrable I, une base orthonormale $(e_i)_{i\in I}$ de l’espace initial Ker($u$)$^{\circ}$ de $u$, une famille orthonormale $(f_i)_{i\in I}$ de F et une famille $(\alpha_i)_{i\in I}\in (\mathbf{R}^*_+)^I$ telles que $u(e_i) =\alpha_if_i$ pour tout $i\in I$.
 
-Soit $v=u^*\circ u$. C’est un endomorphisme compact (III, p. 5, prop. 3) et positif, donc hermitien, de E. D’après le corollaire 1, il existe une base orthonormale $(e_j)_{j\in J}$ de E telle que $v$ est diagonal dans cette base. La famille $(\lambda_j)_{j\in J}$ de ses valeurs propres est contenue dans $\mathbf{R}_+^J$. Posons $\alpha_j=\overline{\lambda_j}$ pour tout $j\in J$. Soit I l’ensemble des $j\in J$ tels que $\alpha_j\not = 0$. C’est un ensemble dénombrable puisque $v$ est compact. La famille $(e_i)_{i\in I}$ est une base orthonormale de l’espace initial de $v$, qui est l’espace initial Ker($u$)$^{\circ}$ de $u$ (EVT, V, p. 43, prop. 8). Posons $f_i=\frac{1}{\alpha_i}u(e_i)$ pour $i\in I$. Quels que soient $i$ et $j$ dans I, on a
+Soit $v=u^*\circ u$. C’est un endomorphisme compact (III, p. 5, prop. 3) et positif, donc hermitien, de E. D’après le corollaire 1, il existe une base orthonormale $(e_j)_{j\in J}$ de E telle que $v$ est diagonal dans cette base. La famille $(\lambda_j)_{j\in J}$ de ses valeurs propres est contenue dans $\mathbf{R}_+^J$. Posons $\alpha_j=\surd\overline{\lambda_j}$ pour tout $j\in J$. Soit I l’ensemble des $j\in J$ tels que $\alpha_j\not = 0$. C’est un ensemble dénombrable puisque $v$ est compact. La famille $(e_i)_{i\in I}$ est une base orthonormale de l’espace initial de $v$, qui est l’espace initial Ker($u$)$^{\circ}$ de $u$ (EVT, V, p. 43, prop. 8). Posons $f_i=\frac{1}{\alpha_i}u(e_i)$ pour $i\in I$. Quels que soient $i$ et $j$ dans I, on a
 
 1 1 $\lambda_i$
 
@@ -488,7 +488,7 @@ Dans la suite, on identifiera $\widehat{\wedge}^nH$ à un sous-espace fermé de 
 
 Soient F un espace hilbertien et $u\in \mathscr{L}(E; F)$. Soit $n\in \mathbf{N}$.
 
-a) On a $\widehat{\wedge}^nu^*=\widehat{\wedge}^n(u^*)$;
+a) On a $(\widehat{\wedge}^nu)^*=\widehat{\wedge}^n(u^*)$;
 
 b) Si F = E et $u$ est hermitien (resp. positif, normal, unitaire), alors $\widehat{\wedge}^nu$ est hermitien (resp. positif, normal, unitaire) ;
 
@@ -496,18 +496,18 @@ c) On a $|\widehat{\wedge}^nu|=\widehat{\wedge}^n|u|$;
 
 d) Soit H un sous-espace fermé de E. La restriction $(\widehat{\wedge}^nu)|\widehat{\wedge}^nH$ de $\widehat{\wedge}^nu$ à $\widehat{\wedge}^nH$ est égale à $\widehat{\wedge}^n(u|H) ($égalité dans $\mathscr{L}(\widehat{\wedge}^nH;\widehat{\wedge}^nF))$;
 
-e) Supposons F = E. Soit H un sous-espace fermé de E. On a $\widehat{\wedge}^nu_{\widehat{\wedge}^nH}=\widehat{\wedge}^n(u_H)$ dans $\mathscr{L}(\widehat{\wedge}^nH)$.
+e) Supposons F = E. Soit H un sous-espace fermé de E. On a $(\widehat{\wedge}^nu)_{\widehat{\wedge}^nH}=\widehat{\wedge}^n(u_H)$ dans $\mathscr{L}(\widehat{\wedge}^nH)$.
 
-L’assertion a) résulte de EVT, V, p. 39, formule (13). Elle implique aussitôt que $\widehat{\wedge}^nu$ est hermitien (resp. unitaire) lorsque $u$ est hermitien (resp. unitaire). Si $u$ est positif, alors $u^{1/2}$ est hermitien, donc aussi $\widehat{\wedge}^n(u^{1/2})$; la relation $\widehat{\wedge}^nu=\widehat{\wedge}^nu^{1/22}$ implique que $\widehat{\wedge}^nu$ est positif (I, p. 138, prop. 8). Cela démontre b).
+L’assertion a) résulte de EVT, V, p. 39, formule (13). Elle implique aussitôt que $\widehat{\wedge}^nu$ est hermitien (resp. unitaire) lorsque $u$ est hermitien (resp. unitaire). Si $u$ est positif, alors $u^{1/2}$ est hermitien, donc aussi $\widehat{\wedge}^n(u^{1/2})$; la relation $\widehat{\wedge}^nu=(\widehat{\wedge}^nu^{1/2})^2$ implique que $\widehat{\wedge}^nu$ est positif (I, p. 138, prop. 8). Cela démontre b).
 
 Ce qui précède permet de calculer que
 
 $$
-\widehat{\wedge}^n|u|^2=\widehat{\wedge}^n(|u|^2) =\widehat{\wedge}^n(u^*u)
+(\widehat{\wedge}^n|u|)^2=\widehat{\wedge}^n(|u|^2) =\widehat{\wedge}^n(u^*u)
 $$
 
 $$
-=\widehat{\wedge}^nu^*\widehat{\wedge}^nu=\widehat{\wedge}^nu^*(\widehat{\wedge}^nu) =|\widehat{\wedge}^nu|^2
+=\widehat{\wedge}^nu^*\widehat{\wedge}^nu=(\widehat{\wedge}^nu)^*(\widehat{\wedge}^nu) =|\widehat{\wedge}^nu|^2
 $$
 
 Comme $\widehat{\wedge}^n|u|$ est positif d’après b), il résulte de la prop. 16 de I, p. 118 que $\widehat{\wedge}^n|u|=|\widehat{\wedge}^nu|$, d’où c).
@@ -533,7 +533,7 @@ Soit F un espace hilbertien, et soit $u\in \mathscr{L}^c(E; F)$. Comme dans le n
 On a l’égalité
 
 $$
-\prod_{i=0}^n\alpha_i(u) =(\wedge^{n+1}u
+\prod_{i=0}^n\alpha_i(u) =\wedge^{n+1}u
 $$
 
 pour tout $n\in I_E$.
@@ -552,7 +552,7 @@ $$
 \lambda_{\iota}=\prod_{j=0}^n\lambda_{i_j}
 $$
 
-Il vient $\widehat{\wedge}^{n+1}ue_{\iota}=\lambda_{\iota}e_{\iota}$, donc $\widehat{\wedge}^{n+1}u$ est diagonal dans la base $B_n$. Par conséquent, on a
+Il vient $(\widehat{\wedge}^{n+1}u)e_{\iota}=\lambda_{\iota}e_{\iota}$, donc $\widehat{\wedge}^{n+1}u$ est diagonal dans la base $B_n$. Par conséquent, on a
 
 $\|\widehat{\wedge}^{n+1}u\|=$ sup$_{\iota\in I_n}\lambda_{\iota}$
 
@@ -682,7 +682,7 @@ $a_i=$ log($\alpha_i(v\circ u)$)$\in I,b_i=$ log($\alpha_i(v)\alpha_i(u)$)$\in I
 
 et $\varrho_i= 1$ pour $0\leqslant i\leqslant n$, puisque
 
-$\sum_{i=0}^ja_i=$ log $\prod_{i=0}^j\alpha_i(v\circ u)\leqslant$ log $\prod_{i=0}^j\alpha_i(v)\alpha_i(u)=\sum_{i=0}^jb_i$
+$\sum_{i=0}^ja_i=$ log$(\prod_{i=0}^j\alpha_i(v\circ u))\leqslant$ log$(\prod_{i=0}^j\alpha_i(v)\alpha_i(u))=\sum_{i=0}^jb_i$
 
 pour $0\leqslant j\leqslant n$ d’après le cor. de la prop. 10. L’inégalité (6) est alors la conclusion recherchée.
 
@@ -712,18 +712,14 @@ $$
 
 b) Soient $p, q, r\in \mathbf{R}_+^*$ tels que $\frac{1}{p}+\frac{1}{q}=\frac{1}{r}$. Alors
 
-$n1/rn1/pn1/q$
-
 $$
-\sum_{i=0}\alpha_i(v\circ u)^r\leqslant \sum_{i=0}\alpha_i(v)^p\sum_{i=0}\alpha_i(u)^q
+(\sum_{i=0}^n\alpha_i(v\circ u)^r)^{1/r}\leqslant (\sum_{i=0}^n\alpha_i(v)^p)^{1/p}(\sum_{i=0}^n\alpha_i(u)^q)^{1/q}
 $$
 
 c) Supposons que F = E. Pour tout entier $m\geqslant 2$, on a
 
-$nnm/2$
-
 $$
-\sum_{i=0}\alpha_i(u^m)\leqslant \sum_{i=0}\alpha_i(u)^2
+\sum_{i=0}^n\alpha_i(u^m)\leqslant (\sum_{i=0}^n\alpha_i(u)^2)^{m/2}
 $$
 
 Soit $r\in \mathbf{R}^*_+$ et soit $g$ la fonction définie sur $\mathbf{R}_+$ par $g(x) =x^r$. La fonction $g\circ$ exp est convexe (lemme 6), donc l’assertion a) résulte de la prop. 11 appliquée à la fonction $g$.
@@ -732,26 +728,20 @@ L’assertion b) résulte de a) et de l’inégalité de Hölder (INT, I, prop. 
 
 Soit $m\geqslant 2$ un entier. Appliquons b) avec $r= 1,p=q= 2$ et $v=u^{m-1}$. On trouve
 
-$nn1/2n1/2$
-
 $$
-\sum_{i=0}\alpha_i(u^m)\leqslant \sum_{i=0}\alpha_i(u^{m-1})^2\sum_{i=0}\alpha_i(u)^2
+\sum_{i=0}^n\alpha_i(u^m)\leqslant (\sum_{i=0}^n\alpha_i(u^{m-1})^2)^{1/2}(\sum_{i=0}^n\alpha_i(u)^2)^{1/2}
 $$
 
 Démontrons c) par récurrence sur $m\geqslant 2$. L’inégalité précédente établit l’assertion lorsque $m= 2$. Supposons que $m\geqslant 3$ et que l’assertion est valide pour $m-1$; puisque on a
 
-$nm$ 2
-
 $$
-\sum_{i=0}\alpha_i(u^{m-1})^2\leqslant \sum_{i=0}\alpha_i(u^{m-1})
+\sum_{i=0}^n\alpha_i(u^{m-1})^2\leqslant (\sum_{i=0}^m\alpha_i(u^{m-1}))^2
 $$
 
 l’inégalité ci-dessus implique
 
-$nn1/2n1/2nm/2$
-
 $$
-\sum_{i=0}\alpha_i(u^m)\leqslant \sum_{i=0}\alpha_i(u^{m-1})\sum_{i=0}\alpha_i(u)^2\leqslant \sum_{i=0}\alpha_i(u)^2
+\sum_{i=0}^n\alpha_i(u^m)\leqslant (\sum_{i=0}^n\alpha_i(u^{m-1}))^{1/2}(\sum_{i=0}^n\alpha_i(u)^2)^{1/2}\leqslant (\sum_{i=0}^n\alpha_i(u)^2)^{m/2}
 $$
 
 en appliquant l’hypothèse de récurrence.
@@ -1094,7 +1084,7 @@ d’où $\theta_3(N) =u_N$. Puisque $\theta_3$ et $N\mapsto u_N$ sont continues,
 
 Pour tout $N\in L^2(X\times Y)$, l’application linéaire $u_N$ est une application de Hilbert–Schmidt et on a Tr($u^*_Nu_N$) $=\|N\|^2$.
 
-En effet, on a $\|u\|_2=$ Tr($u^*u$) pour tout $u\in \mathscr{L}_2(L^2(X); L^2(Y))$.
+En effet, on a $\|u\|_2=\surd$Tr($u^*u$) pour tout $u\in \mathscr{L}_2(L^2(X); L^2(Y))$.
 
 #### Remarque {#ts-iv-s1-n9-rem-1 .statement tag=02XU}
 
@@ -1166,12 +1156,12 @@ $$
 \sum_{i\in I}\alpha_i|f_i|^2,\sum_{i\in I}\alpha_i|g_i|^2
 $$
 
-convergent donc dans $\mathscr{L}^1(X)$ et par suite $\mu$-presque partout (INT, IV, p. 128, § 3, n$^o3$, prop. 6). Notons F et G, respectivement, les fonctions définies $\mu$-presque partout par la somme de ces séries, en posant $F(x) = 0$ et $G(x) = 0$ pour tout $x$ tel que la série correspondante ne converge pas. Comme F et G appartiennent à $\mathscr{L}^1$(X), la fonction H définie par $H(x, y) =F(x)G(y)$ appartient à $\mathscr{L}^2(X\times X)$ (INT, V, p. 95, § 8, n$^o3$, cor. 2).
+convergent donc dans $\mathscr{L}^1(X)$ et par suite $\mu$-presque partout (INT, IV, p. 128, § 3, n$^o3$, prop. 6). Notons F et G, respectivement, les fonctions définies $\mu$-presque partout par la somme de ces séries, en posant $F(x) = 0$ et $G(x) = 0$ pour tout $x$ tel que la série correspondante ne converge pas. Comme F et G appartiennent à $\mathscr{L}^1$(X), la fonction H définie par $H(x, y) =\surd F(x)G(y)$ appartient à $\mathscr{L}^2(X\times X)$ (INT, V, p. 95, § 8, n$^o3$, cor. 2).
 
 Appliquons la prop. 20 à l’espace X, à $F =\mathbf{C}^2$, et aux applications mesurables
 
 $$
-s_n:x\mapsto \sum_{i\in I}\alpha_i|f_i(x)|^2,\sum_{i\in I}\alpha_i|g_i(x)|^2
+s_n:x\mapsto (\sum_{i\in I}\alpha_i|f_i(x)|^2,\sum_{i\in I}\alpha_i|g_i(x)|^2)
 $$
 
 $i\leqslant ni\leqslant n$
@@ -1190,9 +1180,9 @@ Démontrons que l’ensemble $\widetilde{X}$ et la fonction H vérifient les con
 
 Soit $(x, y)\in \widetilde{X}\times \widetilde{X}$. Pour tout sous-ensemble fini $J\subset I$, on a
 
-$1/21/2$
-
-(15) $\sum_{i\in J}\alpha_i\overline{f_i(x)}g_i(y)\leqslant \sum_{i\in J}\alpha_i|f_i(x)|^2\sum_{i\in J}\alpha_i|g_i(y)|^2$
+$$
+\sum_{i\in J}\alpha_i\overline{f_i(x)}g_i(y)\leqslant (\sum_{i\in J}\alpha_i|f_i(x)|^2)^{1/2}(\sum_{i\in J}\alpha_i|g_i(y)|^2)^{1/2} \tag{15}
+$$
 
 d’où également
 
@@ -1242,7 +1232,7 @@ $$
 \surd
 $$
 
-Finalement, la majoration FG $\leqslant (F + G)/2$ entraîne que la fonction $x\mapsto F(x)G(x) = H(x, x)$ est intégrable sur X, d’où la propriété (iii).
+Finalement, la majoration FG $\leqslant (F + G)/2$ entraîne que la fonction $x\mapsto \surd F(x)G(x) = H(x, x)$ est intégrable sur X, d’où la propriété (iii).
 
 Dans la suite de ce numéro, on garde les notations de la proposition.
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 465
 statements: 32
 exercises: 9
-content_sha256: 7091797ae3a0c29ad97e228ae96a3ad24c8bea218373152d23384bdc7d3b179b
+content_sha256: 0bfb5befc714da7783e7e4edb6e619e0e363206ca9322ebb6a3f6a793bb39743
 ---
 
 ## § 6. ESPACES CLASSIFIANTS
@@ -369,7 +369,7 @@ ce qui contredit le choix de W. Le sous-groupe $\iota (G)$ de $G^*$ est donc fer
 Supposons que G soit un groupe topologique métrisable et soit $d$ une distance sur G qui définit sa topologie. Soient $h$ et $h'\in G^*$ et soit $(t_i)_{0\leqslant i\leqslant n}$ une suite adaptée à $h$ et $h'$. Le nombre réel
 
 $$
-\sum_{i=1}^n(t_i-t_{i-1})d h(t_{i-1}), h'(t_{i-1})
+\sum_{i=1}^n(t_i-t_{i-1})d(h(t_{i-1}), h'(t_{i-1}))
 $$
 
 ne dépend pas de la suite $(t_i)$ choisie ; notons-le $d^*(h, h')$.
@@ -377,17 +377,17 @@ ne dépend pas de la suite $(t_i)$ choisie ; notons-le $d^*(h, h')$.
 Démontrons que $d^*$ est une distance sur $G^*$. On a $d^*(h, h') =$ $d^*(h', h)$ pour $h,h'\in G^*$, et $d^*(h, h) = 0$ pour tout $h\in G^*$. Inversement, soient $h$ et $h'$ des éléments de $G^*$ tels que $d^*(h, h') = 0$. Soit $(t_i)_{0\leqslant i\leqslant n}$ une suite adaptée à $h$ et $h'$. Comme
 
 $$
-0 =d^*(h, h') =\sum_{i=1}^n(t_i-t_{i-1})d h(t_{i-1}), h'(t_{i-1})
+0 =d^*(h, h') =\sum_{i=1}^n(t_i-t_{i-1})d(h(t_{i-1}), h'(t_{i-1}))
 $$
 
 et que tous les termes de cette somme sont positifs ou nuls, on a $d(h(t_{i-1}), h'(t_{i-1})) = 0$ pour tout $i\in  \{1, . . . , n\}$, d’où $h=h'$. Enfin, soient $h,h',h''$ des éléments de $G^*$ et soit $(t_i)_{0\leqslant i\leqslant n}$ une suite adaptée à chacune d’entre elles. Alors,
 
 $$
-d^*(h, h'') =\sum_{i=1}^n(t_i-t_{i-1})d h(t_{i-1}), h''(t_{i-1})
+d^*(h, h'') =\sum_{i=1}^n(t_i-t_{i-1})d(h(t_{i-1}), h''(t_{i-1}))
 $$
 
 $$
-\leqslant \sum_{i=1}^n(t_i-t_{i-1})d h(t_{i-1}), h'(t_{i-1})+d h(t_{i-1}), h''(t_{i-1})
+\leqslant \sum_{i=1}^n(t_i-t_{i-1})(d(h(t_{i-1}), h'(t_{i-1}))+d(h(t_{i-1}), h''(t_{i-1})))
 $$
 
 $$

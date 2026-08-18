@@ -37,7 +37,7 @@ subsections:
       pdf_page: 93
 statements: 19
 exercises: 11
-content_sha256: 7b6f43887a77e9b42c8333784ae0263347c65c3e329a3d71dc8aa12d7293d0e1
+content_sha256: 28ddd48707f484e97f722801b960bbcd7b76249dc2fb72ea9b68d18286894b9e
 ---
 
 ## § 5. PERTURBATION PAR UNE APPLICATION LINÉAIRE COMPACTE
@@ -237,7 +237,7 @@ Soit $\lambda \in K$. Puisque l’indice d’un endomorphisme de Riesz est nul, 
 L’ensemble Σ est fermé dans K puisque l’ensemble des automorphismes de E est ouvert dans $\mathscr{L}(E)$. Soit $\lambda$ un élément de Σ. On a $\lambda \not = 0$. Notons N le nilespace de $h$ et I son conilespace, et notons $h_I$ et $h_N$ les endomorphismes de I et de N que $h$ définit par passage aux sous-espaces. Alors $1_I-\lambda h_I$ est un automorphisme de I, et il existe un voisinage U de $\lambda$ dans K tel que $1_I-\mu h_I$ soit un automorphisme de I pour tout $\mu\in U$. L’endomorphisme $1_N-\lambda h_N$ de N est nilpotent ; pour tout $\mu\not =\lambda$, on a
 
 $$
-\lambda -\mu\mu
+\lambda -\mu(\mu)
 $$
 
 $$
@@ -313,11 +313,11 @@ $$
 $$
 
 $$
-=\int_X\int_XN(x, y)f(y)d\mu(y)dm(x)
+=\int_X(\int_XN(x, y)f(y)d\mu(y))dm(x)
 $$
 
 $$
-=\int_X\int_XN(x, y)dm(x)f(y)d\mu(y) \tag{6}
+=\int_X(\int_XN(x, y)dm(x))f(y)d\mu(y) \tag{6}
 $$
 
 pour $m\in E'$ et $f\in E$ (INT, III, p. 84, § 4, n$^o1$, th. 2).
@@ -331,7 +331,7 @@ Si $g\in G_{\lambda}$ vérifie $g\cdot \mu= 0$, alors la formule (5) implique $g
 Soit $m\in E'$ une mesure appartenant au noyau de $1_{E'}-\lambda^th$. D’après la relation (6), on a
 
 $$
-\int_Xf(x)dm(x) =\lambda \int_X\int_XN(x, y)dm(x)f(y)d\mu(y) \tag{7}
+\int_Xf(x)dm(x) =\lambda \int_X(\int_XN(x, y)dm(x))f(y)d\mu(y) \tag{7}
 $$
 
 pour toute fonction continue $f: X\rightarrow K$. La mesure $m$ est donc égale à la mesure $g\cdot \mu$, où $g$ est la fonction continue de X dans K définie par
@@ -349,7 +349,7 @@ $$
 $$
 
 $$
-=\lambda \int_X\int_XN(x, y)g(x)d\mu(x)f(y)d\mu(y)
+=\lambda \int_X(\int_XN(x, y)g(x)d\mu(x))f(y)d\mu(y)
 $$
 
 $$

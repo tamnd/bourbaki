@@ -45,7 +45,7 @@ subsections:
       pdf_page: 418
 statements: 29
 exercises: 7
-content_sha256: 4a5cbfe9334da77c865281037402a6213d7667e18d84869f2d27e63ca2b01a94
+content_sha256: 14aa1d109bf8c7748b23bc0d729be8c1e1fa7432c51ca4d9739f9dbdd8c5d21f
 ---
 
 ## § 4. THÉORIE DE LA DESCENTE
@@ -443,7 +443,7 @@ Tout chemin $c$ dans X est de la forme $c_1* \cdots  *c_m$, où $c_k$ est le che
 Pour tout couple $(j, k)$ d’entiers de $\{1, . . . , n\}$ et tout couple $(s, t)\in$ $\mathbf{I}\times \mathbf{I}$, posons
 
 $$
-s+j-1t+k-1
+(s+j-1t+k-1)
 $$
 
 $\sigma_{j,k}(s, t) =s_{i(j,k)}\circ \sigma$,.

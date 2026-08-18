@@ -33,7 +33,7 @@ subsections:
       pdf_page: 149
 statements: 37
 exercises: 6
-content_sha256: c6d0993e829a2955b1258653b09c3384e67c4b4997f601243f059e235c149aee
+content_sha256: 2ee0fd0483607b016512b09d794ba4a9525bf13e368c1ebd505f0ca718b30953
 ---
 
 ## § 6. ESPACES SIMPLEMENT CONNEXES
@@ -109,7 +109,7 @@ x+y=p_A(x)x'+p_A(y)y'
 $$
 
 $$
-p_A(x)p_A(y)
+(p_A(x)p_A(y))
 $$
 
 $$

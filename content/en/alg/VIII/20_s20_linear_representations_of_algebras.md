@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: 096f38a0bf1310e2d760b503e1e5c3ddbacbf9fe609328bb5c9fb3181b649a91
+content_sha256: 3847cb4a8a598a1fa96120ece10136f7849047a08e5872bc7fea2fe7f76b322d
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -205,7 +205,7 @@ for $a\in A$ and $h\in E\otimes_KE^*$. This proves that $\Theta_E(A)$ is the set
 
 The mapping $c''_E$ is bijective. If E is finite-dimensional, then so is $c'_E$.
 
-When F is a right A-module and G is a K-vector space, we defined in II, §4, No. 1, p. 268, Proposition 1, a) an isomorphism $\gamma$ of K-vector spaces from Hom$_K(F\otimes_AE,G)$ to Hom$_A(E$, Hom$_K(F,G))$. This isomorphism sends $\varphi : F\otimes_AE\rightarrow G$ to the homomorphism $e\mapsto f\mapsto \varphi (f\otimes e)$ . Through the canonical isomorphism from $A_d\otimes_AE$ to E (II, §3, No. 4, p. $249),\gamma$ can be identified with $c''_E$ when $F = A_d$ and G = K.
+When F is a right A-module and G is a K-vector space, we defined in II, §4, No. 1, p. 268, Proposition 1, a) an isomorphism $\gamma$ of K-vector spaces from Hom$_K(F\otimes_AE,G)$ to Hom$_A(E$, Hom$_K(F,G))$. This isomorphism sends $\varphi : F\otimes_AE\rightarrow G$ to the homomorphism $e\mapsto (f\mapsto \varphi (f\otimes e))$. Through the canonical isomorphism from $A_d\otimes_AE$ to E (II, §3, No. 4, p. $249),\gamma$ can be identified with $c''_E$ when $F = A_d$ and G = K.
 
 Analogously, the isomorphism $\beta$ defined in II, §4, No. 1, p. 268, Proposition 1, b) specializes to an isomorphism $\beta$ from Hom$_K(E^*\otimes_AA_s,K)$ to Hom$_A(E^*$, Hom$_K(A_s,K))$. When E is finite-dimensional, E can be canonically identified with Hom$_K(E^*,K)$ and $E^*$ with $E^*\otimes_AA_s$; the homomorphism $\beta$ is then identified with $c'_E$.
 
@@ -228,7 +228,7 @@ $$
 from $E^n$ to $\Theta_E(A)$ is surjective. By a), every element of $\Theta_E(A)$ is a coefficient of $E^n$. Moreover, the A-linear mapping
 
 $$
-x\mapsto c_E(x, e^*_1), . . . , c_E(x, e^*_n)
+x\mapsto (c_E(x, e^*_1), . . . , c_E(x, e^*_n))
 $$
 
 from E to $\Theta_E(A)^n$ is injective; this gives b).
@@ -339,7 +339,7 @@ Let S be a simple A-module of finite dimension over K, let D be the opposite fie
 
 The right D-vector space S is finite-dimensional. Let $(e_1, . . . , e_n)$ be a basis of S over D, and let $u$ be an element of End$_D(S)$. Let $(d_{ij})$ be the matrix of $u$ with respect to the basis $(e_1, . . . , e_n)$. We have $u(e_j) =\sum^n_{i=1}e_id_{ij}$ for $j\in [1, n]$. Denote by $u_K$ the mapping $u$ viewed as an endomorphism of the K-vector space S and by $(u_{ij})$ the matrix of $u_K$ with respect to the decomposition $(e_iD)$ of the K-vector space S as a direct sum (II, §10, No. 5, p. 346). We have Tr($u_K$) $=\sum_i$ Tr($u_{ii}$). Moreover, $u_{ii}$ is the endomorphism of the K-vector space $e_iD$ defined by $u_{ii}(e_id) =e_id_{ii}d$ for $d\in D$, so its trace is equal to Tr$_{D/K}(d_{ii})$. We have thus proved the equality
 
-(9) Tr($u_K$) $=$ Tr$_{D/K}\sum_id_{ii}$.
+(9) Tr($u_K$) $=$ Tr$_{D/K}(\sum_id_{ii})$.
 
 By Burnside’s theorem (VIII, p. 83, Corollary 1 of Proposition 4), the mapping $a\mapsto a_S$ from A to End$_D(S)$ is surjective. The equivalence of properties (i) and (ii) therefore follows from formula (9).
 
@@ -432,10 +432,10 @@ Let E and F be semisimple A-modules of finite dimension over K, and let $\mathsc
 Let $a$ be an element of $\mathscr{A}$. The characteristic polynomials of $a_E$ and $a_F$ have the same degree, so the dimension of E is equal to that of F; we denote it by $n$. Let Pc$_E(a; T)$ be the characteristic polynomial of $a_E$. In K(T), we have the equalities
 
 $$
-_n-1n-1
+_n(-1)_n(-1)
 $$
 
-$\chi_E(a; T) =$ det $1 +a_ET= (-T)$ det $-a_E= (-T)$ Pc$_Ea$;,
+$\chi_E(a; T) =$ det$(1 +a_ET)= (-T)$ det $-a_E= (-T)$ Pc$_Ea$;,
 
 T T
 
@@ -552,7 +552,7 @@ $$
 By the corollary of VIII, p. 379, there exists a left A-module E of finite dimension over K with $f$ as a coefficient. Let $(e_1, . . . , e_n)$ be a basis of E, $(e^*_1, . . . , e^*_n)$ the dual basis, $x$ an element of E, and $x^*$ an element of $E^*$ such that $f=c_E(x, x^*)$. Set $f'_i=c_E(e_i, x^*)$ and $f''_i=c_E(x, e^*_i)$ for $i\in [1, n]$; for $a, b$ in A, we have
 
 $$
-f(ab) =\langle x^*, abx\rangle =\langle x^*a, bx\rangle =\sum_i\langle x^*a, e_i\rangle e^*_i, bx
+f(ab) =\langle x^*, abx\rangle =\langle x^*a, bx\rangle =\langle\sum_i\langle x^*a, e_i\rangle e^*_i, bx\rangle
 $$
 
 $$
@@ -563,7 +563,7 @@ and therefore (16).
 
 Let us prove the coassociativity of $c$. For this, consider the K-linear mappings
 
-$c'=c\otimes 1_{\Theta (A)}\circ c$ and $c''= 1_{\Theta (A)}\otimes c\circ c$
+$c'=(c\otimes 1_{\Theta (A)})\circ c$ and $c''=(1_{\Theta (A)}\otimes c)\circ c$
 
 from Θ(A) to $\Theta (A)^{\otimes 3}$. We have the relations
 

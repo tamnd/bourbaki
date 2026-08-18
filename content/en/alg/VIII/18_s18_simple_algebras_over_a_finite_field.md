@@ -22,7 +22,7 @@ subsections:
       pdf_page: 374
 statements: 10
 exercises: 7
-content_sha256: d31b4be0a28e051d53e054449fca9f4c3e20f71756a7b6eb4d0636bcb8e68567
+content_sha256: ad2921920aa1c320a4dc7f8575ce717a46afb3d551cdc746cba13cbcdb4764f1
 ---
 
 ## § 18. SIMPLE ALGEBRAS OVER A FINITE FIELD
@@ -72,13 +72,13 @@ $$
 Let us expand the polynomial P as $\sum_{\alpha\in\mathbf{N}^n}c_{\alpha}X^{\alpha}$; by assumption, it has degree $<(q-1)n$. Let $\alpha$ be an element of $\mathbf{N}^n$ such that $c_{\alpha}$ is nonzero. Since we have $\alpha_1+\cdots +\alpha_n<(q-1)n$, there exists an integer $\ell$ such that $1\leqslant \ell \leqslant n$ and $0\leqslant \alpha_{\ell}< q-1$. By Lemma 2, we then have $\sum_{x\in K}x^{\alpha_{\ell}}= 0$, and therefore
 
 $$
-\sum_{\mathbf{x}\in K^n}\mathbf{x}^{\alpha}=\prod_{j=1}^n(\sum_{x\in K}x^{\alpha_j}= 0
+\sum_{\mathbf{x}\in K^n}\mathbf{x}^{\alpha}=\prod_{j=1}^n((\sum_{x\in K}x^{\alpha_j})= 0
 $$
 
 We consequently have
 
 $$
-\sum_{\mathbf{x}\in K^n}P(\mathbf{x}) =\sum_{\alpha\in\mathbf{N}^n}c_{\alpha}(\sum_{\mathbf{x}\in K^n}\mathbf{x}^{\alpha}= 0
+\sum_{\mathbf{x}\in K^n}P(\mathbf{x}) =\sum_{\alpha\in\mathbf{N}^n}c_{\alpha}((\sum_{\mathbf{x}\in K^n}\mathbf{x}^{\alpha})= 0
 $$
 
 Now, by formula (1), we have $\sum_{\mathbf{x}\in K^n}P(\mathbf{x}) =$ Card(Z) $\cdot 1$, and therefore Card(Z) $\cdot 1 = 0$, which means that Card(Z) is divisible by $p$.

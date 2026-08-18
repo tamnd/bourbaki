@@ -30,7 +30,7 @@ subsections:
       pdf_page: 26
 statements: 36
 exercises: 28
-content_sha256: fcba0c65e9200f571f11d216e1445424d50d18dde35e6c5c0d98cf44c45badeb
+content_sha256: 14577a499e58be92d2f2c662203373f41c9d10814e80df72ec764fcb9c784f86
 ---
 
 ## § 1. ARTINIAN MODULES AND NOETHERIAN MODULES
@@ -183,7 +183,7 @@ We will use the following lemma in the proof.
 
 Let A be a ring and $n$ a natural number. An Artinian A-module M that is the sum of a family of submodules of length $\leqslant n$ has finite length.
 
-We use induction on $n$. First, suppose $n= 1$. If M were not of finite length, then we could construct a sequence $(M_m)_{m\in\mathbf{N}}$ of submodules of M of length 1 with $M_m\not\subset \sum_{i<m}M_i$ for every $m\in \mathbf{N}$. We would then have $M_m\cap \sum_{i<m}M_i= 0$ for every $m$, and the sum of the family $(M_m)_{m\in\mathbf{N}}$ would be direct. However, this contradicts the fact that the A-module M is Artinian (VIII, p. 2, Example 2).
+We use induction on $n$. First, suppose $n= 1$. If M were not of finite length, then we could construct a sequence $(M_m)_{m\in\mathbf{N}}$ of submodules of M of length 1 with $M_m\not\subset (\sum_{i<m}M_i)$ for every $m\in \mathbf{N}$. We would then have $M_m\cap \sum_{i<m}M_i= 0$ for every $m$, and the sum of the family $(M_m)_{m\in\mathbf{N}}$ would be direct. However, this contradicts the fact that the A-module M is Artinian (VIII, p. 2, Example 2).
 
 Now, suppose $n\geqslant 2$. Let $(M_i)_{i\in I}$ be a family of submodules of M of length $\leqslant n$ with sum M. For every $i\in I$, choose a submodule $M'_i$ of $M_i$ of length $\leqslant n-1$ such that $M_i/M'_i$ has length $\leqslant 1$. Set $M'=\sum M'_i$, and denote the image of $M_i$ in $M''= M/M'$ by $M''_i$. The modules $M''_i$ are of length $\leqslant 1$, and their sum is $M''$. The modules $M'$ and $M''$ are Artinian (VIII, p. 3, Proposition 3); by the induction hypothesis, they are of finite length. Hence, M has finite length (II, §1, No. 10, p. 212, Proposition 16).
 
@@ -320,7 +320,7 @@ $$
 Consider the mapping $\varphi : A[X]\rightarrow E$ defined by
 
 $$
-\varphi \sum a_nX^n=\sum(a_n)_M(X_M)^n \tag{5}
+\varphi (\sum a_nX^n)=\sum(a_n)_M(X_M)^n \tag{5}
 $$
 
 This is a group homomorphism. An induction argument shows that we have $(X_M)^n(1) = X^n$ for every $n\in \mathbf{N}$. We therefore have $\varphi (P)(1) = P$ for every $P\in A[X]$, which proves that the homomorphism $\varphi$ is injective. We denote its image by B. The set B is a subgroup of E; it contains 1, and it is stable under left multiplication by $a_M$ for $a\in A$ and by $X_M$ (see (4)). It is therefore a subring of E. The unique ring structure on A[X] derived from that on B by transfer of structure via $\varphi$ has the properties of Proposition 7, where property d) results from relation (4).
@@ -336,12 +336,12 @@ The ring $A[X]_{\sigma ,d}$ has the following universal property: given a ring $
 The uniqueness is clear. Let us therefore show that the mapping $g: A[X]_{\sigma ,d}\rightarrow A'$ defined by $g(\sum a_nX^n) =\sum f(a_n)x^n$ has the required properties. It extends $f$, maps X onto $x$, and is a group homomorphism. We have $g(1) = 1$. For $a\in A$ and $Q =\sum a_nX^n$ in $A[X]_{\sigma ,d}$, we have
 
 $$
-g(aQ) =g\sum aa_nX^n=\sum f(aa_n)x^n=f(a)\sum f(a_n)x_n=g(a)g(Q)
+g(aQ) =g(\sum aa_nX^n)=\sum f(aa_n)x^n=f(a)\sum f(a_n)x_n=g(a)g(Q)
 $$
 
 as well as
 
-$g$(XQ) $=g\sum\sigma (a_n)X^{n+1}+d(a_n)X^n$
+$g$(XQ) $=g(\sum (\sigma (a_n)X^{n+1}+d(a_n)X^n))$
 
 $$
 =\sum(f(\sigma (a_n))x^{n+1}+f(d(a_n))x^n) =x\sum f(a_n)x^n=g(X)g(Q)

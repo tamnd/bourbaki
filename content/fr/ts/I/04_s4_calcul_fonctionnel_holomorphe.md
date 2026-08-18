@@ -69,7 +69,7 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: a74ac147099eff6da32ee6e6dcd35fe8a90b8e37e85b35cf9520055608989c00
+content_sha256: 429d9626557a5d846045bad91063a878866fdf9ffcee3d22785905b9f41545ff
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -238,10 +238,8 @@ $$
 
 (I, p. 41, n$^o6$). Il existe un voisinage ouvert $W_{\boldsymbol{w}}$ de $\boldsymbol{w}$ tel que l’élément $(z_1-a_1)b_1+\cdots + (z_n-a_n)b_n$ de A est inversible si $\boldsymbol{z}= (z_1, . . . , z_n)$ appartient à $W_{\boldsymbol{w}}$. Pour tout entier $j$ tel que $1\leqslant j\leqslant n$ et tout $\boldsymbol{z}$ dans $W_{\boldsymbol{w}}$, soit alors
 
-$n-1$
-
 $$
-u_j(\boldsymbol{z}) =b_j\sum_{i=1}(z_i-a_i)b_i
+u_j(\boldsymbol{z}) =b_j(\sum_{i=1}^n(z_i-a_i)b_i)^{-1}
 $$
 
 Les fonctions $u_1, u_2, . . . , u_n$ de $W_{\boldsymbol{w}}$ dans A ainsi définies sont indéfiniment dérivables dans $W_{\boldsymbol{w}}$, et on a
@@ -263,7 +261,7 @@ $$
 $$
 
 $$
-=\sum_{\lambda\in L'}f_{\lambda}(\boldsymbol{z})\sum_{i=1}^n(z_i-a_i)u_{i\lambda}(\boldsymbol{z}) =\sum_{\lambda\in L'}f_{\lambda}(\boldsymbol{z})\cdot 1 = 1
+=\sum_{\lambda\in L'}f_{\lambda}(\boldsymbol{z})\sum_{i=1}^n(z_i-a_i)u_{i\lambda}(\boldsymbol{z}) =(\sum_{\lambda\in L'}f_{\lambda}(\boldsymbol{z}))\cdot 1 = 1
 $$
 
 #### Lemme 3 {#ts-i-s4-lem-3 .statement tag=02A0}
@@ -303,7 +301,7 @@ $$
 Posons $\beta_i=\varepsilon_i\bigwedge_{j\not=i}du_j$, de sorte que le terme de gauche dans cette formule est $\beta_i\wedge dz_1\wedge  \cdots  \wedge dz_n$ et que $d\beta_i= 0$. Ainsi
 
 $$
-d h\beta_i\wedge dz_1\wedge  \cdots  \wedge dz_n=dh\wedge \beta_i\wedge dz_1\wedge  \cdots  \wedge dz_n=
+d(h\beta_i\wedge dz_1\wedge  \cdots  \wedge dz_n)=dh\wedge \beta_i\wedge dz_1\wedge  \cdots  \wedge dz_n=
 $$
 
 $$
@@ -389,27 +387,31 @@ du'_i\wedge du'_j\wedge dz_1\wedge  \cdots  \wedge dz_n=
 $$
 
 $$
-du_i+w dz_j+ (z_j-a_j)dw\wedge du_j-w dz_i-(z_i-a_i)dw\wedge d\boldsymbol{z}
+(du_i+w dz_j+ (z_j-a_j)dw)\wedge (du_j-w dz_i-(z_i-a_i)dw)\wedge d\boldsymbol{z}
 $$
 
-= $du_i\wedge du_j-(z_i-a_i)du_i\wedge dw-(z_j-a_j)du_j\wedge dw\wedge d\boldsymbol{z}$ Il existe donc $\varepsilon \in  \{-1,1\}$ tel que $\varepsilon (\omega -\omega ')$ est égal à
+$$
+=(du_i\wedge du_j-(z_i-a_i)du_i\wedge dw-(z_j-a_j)du_j\wedge dw)\wedge d\boldsymbol{z}
+$$
+
+Il existe donc $\varepsilon \in  \{-1,1\}$ tel que $\varepsilon (\omega -\omega ')$ est égal à
 
 $$
 du'_i\wedge du'_j\wedge \bigwedge_{k\not=i,j}du'_k\wedge d\boldsymbol{z}-du_i\wedge du_j\wedge \bigwedge_{k\not=i,j}du_k\wedge d\boldsymbol{z}
 $$
 
 $$
-=-(z_i-a_i)du_i\wedge dw+ (z_j-a_j)du_j\wedge dw\wedge \bigwedge_{k\not=i,j}du_k\wedge d\boldsymbol{z}
+=-((z_i-a_i)du_i\wedge dw+ (z_j-a_j)du_j\wedge dw)\wedge \bigwedge_{k\not=i,j}du_k\wedge d\boldsymbol{z}
 $$
 
 $$
-=-\sum_{k=1}^n(z_k-a_k)du_k\wedge dw\wedge \bigwedge_{k\not=i,j}du_k\wedge d\boldsymbol{z}
+=-(\sum_{k=1}^n(z_k-a_k)du_k)\wedge dw\wedge \bigwedge_{k\not=i,j}du_k\wedge d\boldsymbol{z}
 $$
 
 et, compte tenu de (2), ceci est égal à
 
 $$
-dh\wedge dw\wedge \bigwedge_{k\not=i,j}du_k\wedge d\boldsymbol{z}=dh dw\wedge \bigwedge_{k\not=i,j}du_k\wedge d\boldsymbol{z}
+dh\wedge dw\wedge \bigwedge_{k\not=i,j}du_k\wedge d\boldsymbol{z}=d(h dw\wedge \bigwedge_{k\not=i,j}du_k\wedge d\boldsymbol{z})
 $$
 
 d’où le résultat.
@@ -510,7 +512,7 @@ $$
 
 Pour toute fonction $f\in \mathscr{O}(U; A)$, l’intégrale $\int_Uf \omega$ est un élément de A qui ne dépend que de $\boldsymbol{a}$ et du germe de $f$ au voisinage de Sp$^n(\boldsymbol{a})$. Il vérifie l’inégalité
 
-(4) $\int f \omega \leqslant \int\|\omega \|$ sup $\|f(z)\|$,
+(4) $\int f \omega \leqslant (\int\|\omega \|)$ sup $\|f(z)\|$,
 
 U U $z\in$Supp($h$)
 
@@ -524,7 +526,7 @@ pour tout $a\in A$.
 
 On a vu ci-dessus que l’intégrale est définie pour $f\in \mathscr{C}(U; A)$ et vérifie
 
-$\int f \omega \leqslant \int\|f\| \|\omega \|\leqslant \int\|\omega \|$ sup $\|f(z)\|$.
+$\int f \omega \leqslant \int\|f\| \|\omega \|\leqslant (\int\|\omega \|)$ sup $\|f(z)\|$.
 
 U U U $z\in$Supp($h$)
 
@@ -659,7 +661,7 @@ $$
 Soit U un ouvert de $\mathbf{C}^n$. Soit $\omega_1$ une forme différentielle continue de degré $n$ dans U à support compact et à valeurs dans A (resp. $\omega_2$ une forme différentielle continue de degré 2 dans $\mathbf{C}$ à support compact et à valeurs dans $\mathbf{C})$. Notons $\pi_1$ et $\pi_2$ les projections canoniques de $U\times \mathbf{C}$ sur U et $\mathbf{C}$. La forme différentielle $\pi_1^*\omega_1\wedge \pi_2^*\omega_2$ sur $U\times \mathbf{C}$ est continue à support compact et à valeurs dans A. On a
 
 $$
-\int_{U\times\mathbf{C}}\pi_1^*\omega_1\wedge \pi^*_2\omega_2=\int_{\mathbf{C}}\omega_2(\int_U\omega_1
+\int_{U\times\mathbf{C}}\pi_1^*\omega_1\wedge \pi^*_2\omega_2=(\int_{\mathbf{C}}\omega_2)((\int_U\omega_1)
 $$
 
 Soient $\mu_n$ la mesure de Lebesgue sur $\mathbf{C}^n$ et $\mu_1$ la mesure de Lebesgue sur $\mathbf{C}$. Il existe $\psi_1\in \mathscr{K}(U; A)$ et $\psi_2\in \mathscr{K}(\mathbf{C})$ tels que la mesure vectorielle associée à $\omega_1$ est égale à $\psi_1\cdot \mu_n$, et la mesure vectorielle associée à $\omega_2$ est égale à $\psi_2\cdot \mu_1$. La mesure vectorielle associée à la forme différentielle $\pi^*_1\omega_1\wedge \pi_2^*\omega_2$ est $(\psi_1\otimes \psi_2)\cdot \mu_n\otimes \mu_1$.
@@ -667,16 +669,22 @@ Soient $\mu_n$ la mesure de Lebesgue sur $\mathbf{C}^n$ et $\mu_1$ la mesure de 
 Soit $\ell$ une forme linéaire continue sur A. D’après INT, VI, §2, n$^o2$, déf. 2 et la définition de la mesure produit (INT, III, §4, n$^o1$, déf. 1), il vient
 
 $$
-\ell \int_{U\times\mathbf{C}}\pi_1^*\omega_1\wedge \pi^*_2\omega_2=\int_{U\times\mathbf{C}}\ell \circ (\psi_1\otimes \psi_2)\mu_n\otimes \mu_1
+\ell (\int_{U\times\mathbf{C}}\pi_1^*\omega_1\wedge \pi^*_2\omega_2)=\int_{U\times\mathbf{C}}\ell \circ (\psi_1\otimes \psi_2)\mu_n\otimes \mu_1
 $$
 
 $$
 =\int\psi_2(z)\ell (\psi_1(x))d\mu_n(x)d\mu_1(z)
 $$
 
-= $\int^{U\times\mathbf{C}}_{\mathbf{C}}\psi_2(z)d\mu_1(z)\int_U\ell (\psi_1(x))d\mu_n(x)$
+$$
+=(\int^{U\times\mathbf{C}}_{\mathbf{C}}\psi_2(z)d\mu_1(z))(\int_U\ell (\psi_1(x))d\mu_n(x))
+$$
 
-= $\int_{\mathbf{C}}\psi_2\mu_1\ell \int_U\psi_1\mu_n$, d’où le résultat (INT VI, loc. cit.).
+$$
+=(\int_{\mathbf{C}}\psi_2\mu_1)\ell (\int_U\psi_1\mu_n)
+$$
+
+d’où le résultat (INT VI, loc. cit.).
 
 #### Lemme 9 {#ts-i-s4-lem-9 .statement tag=02A8}
 
@@ -712,7 +720,7 @@ $$
 
 Comme $g=f\circ \pi$, la formule (5) et le lemme 8 impliquent
 
-$(n+$ 1)! $\int(n+$ 1)! $\int$
+$(n+$ 1)! $\int(n+$ 1)! $(\int)$
 
 $$
 \Theta_{\boldsymbol{a},\boldsymbol{a}'}(g) =g\omega =du_{n+1}\wedge dz_{n+1}
@@ -723,7 +731,7 @@ $$
 $$
 
 $$
-\times \int_Uf h du_1\wedge dz_1\wedge  \cdots  \wedge du_n\wedge dz_n
+\times (\int_Uf h du_1\wedge dz_1\wedge  \cdots  \wedge du_n\wedge dz_n)
 $$
 
 D’une part, on a
@@ -843,7 +851,7 @@ où $\varphi_*(f)$ désigne le germe de $\varphi \circ f$ au voisinage de Sp$^n_
 Il suffit de démontrer que pour tout voisinage ouvert U de Sp$^n_A(\boldsymbol{a})$ et tout $f\in \mathscr{O}(U; A)$, on a $\varphi (\Theta_{\boldsymbol{a}}(f)) = \Theta_{\boldsymbol{b}}(\varphi \circ f)$, où $\varphi \circ f\in \mathscr{O}(U; B)$. Soit $(h, u_1, . . . , u_n)$ une suite adaptée à $\boldsymbol{a}$, où le support de $h$ est contenu dans U (lemme 1 de I, p. 52 et lemme 3 de I, p. 54). Notons $\omega$ la forme différentielle associée. Pour tout $\boldsymbol{z}\in \mathbf{C}^n$, on a
 
 $$
-\sum_{j=1}^n(z_j-b_j)\varphi (u_i(\boldsymbol{z})) =\varphi \sum_{j=1}^n(z_j-a_j)u_j(\boldsymbol{z})= 1-h(\boldsymbol{z})
+\sum_{j=1}^n(z_j-b_j)\varphi (u_i(\boldsymbol{z})) =\varphi (\sum_{j=1}^n(z_j-a_j)u_j(\boldsymbol{z}))= 1-h(\boldsymbol{z})
 $$
 
 de sorte que la suite $(h, \varphi \circ u_1, . . . , \varphi \circ u_n)$ est adaptée à $\boldsymbol{b}$. Soit $\omega '$ la forme différentielle associée. Notons $\mu$ la mesure de Lebesgue sur $\mathbf{C}^n$. Soit $f\in \mathscr{O}(U; A)$. Écrivons $\psi \cdot \mu$ la mesure vectorielle associée à la forme différentielle $f \omega$. La mesure vectorielle associée à la forme différentielle
@@ -854,7 +862,7 @@ $$
 
 est égale à $(\varphi \circ \psi )\cdot \mu$. Donc, d’après la formule (5), et INT, VI, §2, n$^o2$, prop. 2, on a
 
-$n$! $\int n$! $\int$
+$n$! $\int n$! $(\int)$
 
 $$
 \Theta_{\boldsymbol{b}}(\varphi \circ f) =(\varphi \circ f)\mu=\varphi \psi  \mu=\varphi (\Theta_{\boldsymbol{a}}(f))
@@ -1055,7 +1063,7 @@ $$
 et au germe de $\widetilde{g}\circ \pi$, on a
 
 $$
-(g\circ \pi )(f_1\circ \pi ')(\boldsymbol{c}), . . . ,(f_p\circ \pi ')(\boldsymbol{c}), z_{n+1}(\boldsymbol{c}), . . . , z_{n+q}(\boldsymbol{c})= (h\circ \pi ')(\boldsymbol{c})
+(g\circ \pi )((f_1\circ \pi ')(\boldsymbol{c}), . . . ,(f_p\circ \pi ')(\boldsymbol{c}), z_{n+1}(\boldsymbol{c}), . . . , z_{n+q}(\boldsymbol{c}))= (h\circ \pi ')(\boldsymbol{c})
 $$
 
 Comme $\pi '(\boldsymbol{c}) =\boldsymbol{a}$, on a $(h\circ \pi ')(\boldsymbol{c}) =h(\boldsymbol{a})$ et $(f_i\circ \pi ')(\boldsymbol{c}) =f_i(\boldsymbol{a})$ pour $1\leqslant i\leqslant p$ (propriété (CF3) du calcul fonctionnel holomorphe). Comme, de plus, $z_{n+j}(\boldsymbol{c}) =b_{p+j}$ pour $1\leqslant j\leqslant q$ (propriété (CF2)), on a
@@ -1197,7 +1205,7 @@ $$
 Pour tout $n\in \mathbf{N}$, la fonction $f_{a,n}$ est une fonction polynomiale homogène continue de degré $n$. De plus, il vient
 
 $$
-mM\int_{-(n+1)}
+mM(\int)_{-(n+1)}
 $$
 
 $\|f_{a,n}(h)\|\leqslant \|dz\|$ 2

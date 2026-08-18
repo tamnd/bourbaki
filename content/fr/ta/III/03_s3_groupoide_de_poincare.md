@@ -25,7 +25,7 @@ subsections:
       pdf_page: 315
 statements: 27
 exercises: 2
-content_sha256: 496c61d02e65e02e931a99db0e92ba22dd6ffb33d7da8b8a85e183d7967bd773
+content_sha256: fb01183e5c4df52cfbc4ea1f34ecaf5bba60f44dab515f3c28003b9bd3164321
 ---
 
 ## § 3. GROUPOÏDE DE POINCARÉ
@@ -230,7 +230,7 @@ Soient X et Y des espaces topologiques, soient $f_0$ et $f_1$ des applications c
 
 #### Proposition 3 {#ta-iii-s3-prop-3 .statement tag=01YO}
 
-Soient X et Y des espaces topologiques, $f_0$ et $f_1$ des applications continues de X dans Y et soit $\sigma : X\times \mathbf{I}\rightarrow$ Y une homotopie reliant $f_0$ à $f_1$. Soit $x$ un point de X ; posons $y_0=f_0(x)$, $y_1=f_1(x)$ et notons $\delta \in \varpi_{y_0,y_1}(Y)$ la classe du chemin $d$ défini par $d(t) =\sigma (x, t)$ pour $t\in \mathbf{I}$. Pour tout $\gamma \in \pi_1(X, x)$, on a $(f_1)_*(\gamma ) =$ $\delta^{-1}(f_0)_*(\gamma )\delta$.
+Soient X et Y des espaces topologiques, $f_0$ et $f_1$ des applications continues de X dans Y et soit $\sigma : X\times \mathbf{I}\rightarrow$ Y une homotopie reliant $f_0$ à $f_1$. Soit $x$ un point de X ; posons $y_0=f_0(x)$, $y_1=f_1(x)$ et notons $\delta \in \varpi_{y_0,y_1}(Y)$ la classe du chemin $d$ défini par $d(t) =\sigma (x, t)$ pour $t\in \mathbf{I}$. Pour tout $\gamma \in \pi_1(X, x)$, on a $(f_1)_*(\gamma ) =$ $\delta^{-1}((f_0)_*(\gamma ))\delta$.
 
 Soit $c$ un lacet de X en $x$ et soit $\gamma$ sa classe d’homotopie stricte. Posons $\gamma_0= (f_0)_*(\gamma )$ et $\gamma_1= (f_1)_*(\gamma )$ ; ce sont les classes d’homotopie stricte de $f_0\circ c$ et $f_1\circ c$. Pour $(t, s)\in \mathbf{I}\times \mathbf{I}$, posons $\varphi (t, s) =\sigma (c(t), s)$. Pour tout $t\in \mathbf{I}$, on a $\varphi (t,0) = (f_0\circ c)(t),\varphi (t,1) = (f_1\circ c)(t)$ et $\varphi (0, t) =\varphi (1, t) =d(t)$. La relation $\gamma_0\delta =\delta \gamma_1$ résulte donc du lemme suivant.
 
