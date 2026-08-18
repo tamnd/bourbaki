@@ -45,7 +45,7 @@ errata:
     - says: § 6, no. 3, Theorem 3
       read: § 6, no. 3, Theorem 2
       why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma 1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries on page 188. The Corollary 4 this sentence cites with it is the one that puts the product of two cardinals, one of them infinite, at their supremum, which is Corollary 4 of Theorem 2 and is what the sentence is about.
-content_sha256: 10b9449ea9bd34a5afe226531f3f11696bb938442e68e1812cfc379c8696eeac
+content_sha256: da076d38fc218b1d22d88e12e76d715ae2c24eb275d05746754b09a72237c9f5
 ---
 
 ## 3. EQUIPOTENT SETS. CARDINALS
@@ -360,4 +360,4 @@ If U were such a set, there would exist a set S, the sum of the family of sets $
 
 See the [exercises for § 3](exercises/s3/).
 
-[^1]: (*) The mathematical *term denoted* (Chapter I, § 1, no. 1) by the symbol "1" is of course not to be confused with the *word* "one" in ordinary language. The term denoted by "1" is equal, by virtue of the definition above, to the term denoted by the symbol $$\tau_Z((\exists u)(\exists U)(u = (U, \{\emptyset\}, Z) \text{ and } U \subset \{\emptyset\} \times Z$$ $$\text{and } (\forall x)((x \in \{\emptyset\}) \Rightarrow (\exists y)((x, y) \in U))$$ $$\text{and } (\forall x)(\forall y)(\forall y')(((x, y) \in U \text{ and } (x, y') \in U) \Rightarrow (y = y'))$$ $$\text{and } (\forall y)((y \in Z) \Rightarrow (\exists x)((x, y) \in U)))).$$ As a rough estimate, the term so *denoted* is an assembly of several tens of thousands of signs (each of which is one of $\tau$, $\square$, $\vee$, $\neg$, $=$, $\in$, $\supset$).
+[^1]: The mathematical *term denoted* (Chapter I, § 1, no. 1) by the symbol "1" is of course not to be confused with the *word* "one" in ordinary language. The term denoted by "1" is equal, by virtue of the definition above, to the term denoted by the symbol $$\tau_Z((\exists u)(\exists U)(u = (U, \{\emptyset\}, Z) \text{ and } U \subset \{\emptyset\} \times Z$$ $$\text{and } (\forall x)((x \in \{\emptyset\}) \Rightarrow (\exists y)((x, y) \in U))$$ $$\text{and } (\forall x)(\forall y)(\forall y')(((x, y) \in U \text{ and } (x, y') \in U) \Rightarrow (y = y'))$$ $$\text{and } (\forall y)((y \in Z) \Rightarrow (\exists x)((x, y) \in U)))).$$ As a rough estimate, the term so *denoted* is an assembly of several tens of thousands of signs (each of which is one of $\tau$, $\square$, $\vee$, $\neg$, $=$, $\in$, $\supset$).

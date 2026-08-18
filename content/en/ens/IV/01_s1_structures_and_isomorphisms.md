@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 16
 exercises: 1
-content_sha256: 72e7a50a926695c09905a33aa4733b05bfba50ebcbc6f53e8ad15ba1695dd9eb
+content_sha256: a2b6b1e0980a04a6377f294c5a6ade9f2bf86acc3b4c864aecd5d4b55e557903
 ---
 
 ## 1. STRUCTURES AND ISOMORPHISMS
@@ -51,7 +51,7 @@ The purpose of this chapter is to describe once and for all a certain number of 
 
 ### 1. ECHELONS
 
-An *echelon construction scheme* is a sequence $c_1$, $c_2$, ..., $c_m$ of ordered pairs of natural integers (*)[^1] $c_i = (a_i,\ b_i)$, satisfying the following conditions :
+An *echelon construction scheme* is a sequence $c_1$, $c_2$, ..., $c_m$ of ordered pairs of natural integers [^1] $c_i = (a_i,\ b_i)$, satisfying the following conditions :
 
 (a)　If $b_i = 0$, then $1 \leqslant a_i \leqslant i - 1$.
 (b)　If $a_i \neq 0$ and $b_i \neq 0$, then $1 \leqslant a_i \leqslant i - 1$ and $1 \leqslant b_i \leqslant i - 1$.
@@ -104,7 +104,7 @@ CST2. *If $f_i$ is injective* (resp. *surjective*) *for* $1 \leqslant i \leqslan
 
 This criterion follows from the corresponding properties of the extension $\hat{g}$ (Chapter II, § 5, no. 1, Proposition 1) and the extension $g \times h$ (Chapter II, § 3, no. 9).
 
-CST3. *If $f_i$ is a bijection of* $\mathrm{E}_i$ *onto* $\mathrm{E}'_i$, *and if $f_i^{-1}$ is the inverse bijection* (\*)[^2], *then* $\langle f_1, \ldots, f_n \rangle^{\mathrm{S}}$ *is a bijection and* $\langle f_1^{-1}, \ldots, f_n^{-1} \rangle^{\mathrm{S}}$ *is its inverse; in other words*,
+CST3. *If $f_i$ is a bijection of* $\mathrm{E}_i$ *onto* $\mathrm{E}'_i$, *and if $f_i^{-1}$ is the inverse bijection* [^2], *then* $\langle f_1, \ldots, f_n \rangle^{\mathrm{S}}$ *is a bijection and* $\langle f_1^{-1}, \ldots, f_n^{-1} \rangle^{\mathrm{S}}$ *is its inverse; in other words*,
 
 $$(\langle f_1, \ldots, f_n \rangle^{\mathrm{S}})^{-1} = \langle f_1^{-1}, \ldots, f_n^{-1} \rangle^{\mathrm{S}}.$$
 
@@ -396,5 +396,5 @@ Thus the terms $\mathrm{P}\{\mathrm{A}, \mathrm{V}\}$ and $\mathrm{Q}\{\mathrm{A
 
 See the [exercises for § 1](exercises/s1/).
 
-[^1]: (*) We use the notion of integer in the same manner as in Chapter I, that is to say, in the metamathematical sense of marks arranged in a certain order; this use has nothing to do with the mathematical theory of integers which was developed in Chapter III.
-[^2]: (\*) For typographical reasons we write here $f^{-1}$ instead of $\overset{-1}{f}$.
+[^1]: We use the notion of integer in the same manner as in Chapter I, that is to say, in the metamathematical sense of marks arranged in a certain order; this use has nothing to do with the mathematical theory of integers which was developed in Chapter III.
+[^2]: For typographical reasons we write here $f^{-1}$ instead of $\overset{-1}{f}$.

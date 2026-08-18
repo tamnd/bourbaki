@@ -31,7 +31,7 @@ subsections:
       pdf_page: 60
 statements: 7
 exercises: 8
-content_sha256: df82f63eb14ef58e18c03d3cb3a5081969f0bab7d6da2f050817894fabf24715
+content_sha256: edb021fd8f3949693679ebb01f91bf25e20ec7a14a764b2755ff6b36f5e23268
 ---
 
 ## APPENDIX
@@ -215,4 +215,4 @@ Except in certain mathematical theories which are particularly weak in axioms (c
 
 See the [exercises for Appendix 0](exercises/a0/).
 
-[^1]: (*) The results established in this Appendix will not be used anywhere else in this series.
+[^1]: The results established in this Appendix will not be used anywhere else in this series.

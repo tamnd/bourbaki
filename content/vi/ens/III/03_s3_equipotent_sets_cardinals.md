@@ -45,9 +45,9 @@ errata:
     - says: § 6, no. 3, Theorem 3
       read: § 6, no. 3, Theorem 2
       why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma 1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries on page 188. The Corollary 4 this sentence cites with it is the one that puts the product of two cardinals, one of them infinite, at their supremum, which is Corollary 4 of Theorem 2 and is what the sentence is about.
-content_sha256: 6a17c7fbf0a2eabbd98c9f63295cf28690085cc48331309330b6f8d5d4c6f894
+content_sha256: 8d6f8475d642eb868e8cb8cc2a6e14066eb9d133689701d436db130e80551086
 translated_from: content/en/ens/III/03_s3_equipotent_sets_cardinals.md
-source_content_sha256: 10b9449ea9bd34a5afe226531f3f11696bb938442e68e1812cfc379c8696eeac
+source_content_sha256: da076d38fc218b1d22d88e12e76d715ae2c24eb275d05746754b09a72237c9f5
 translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-786fc151
 glossary_version: 29
@@ -367,4 +367,4 @@ Nếu U là một tập hợp như vậy, thì tồn tại một tập hợp S, 
 
 Xem các [bài tập của § 3](exercises/s3/).
 
-[^1]: (*) Số hạng toán học *được ký hiệu bởi* (Chương I, § 1, số 1) ký hiệu "1" dĩ nhiên không được nhầm lẫn với *từ* "một" trong ngôn ngữ thông thường. Số hạng được ký hiệu bởi "1" là bằng, theo định nghĩa ở trên, với số hạng được ký hiệu bởi ký hiệu $$\tau_Z((\exists u)(\exists U)(u = (U, \{\emptyset\}, Z) \text{ và } U \subset \{\emptyset\} \times Z$$ $$\text{và } (\forall x)((x \in \{\emptyset\}) \Rightarrow (\exists y)((x, y) \in U))$$ $$\text{và } (\forall x)(\forall y)(\forall y')(((x, y) \in U \text{ và } (x, y') \in U) \Rightarrow (y = y'))$$ $$\text{và } (\forall y)((y \in Z) \Rightarrow (\exists x)((x, y) \in U)))).$$ Theo một ước lượng sơ bộ, số hạng được *ký hiệu* như vậy là một tập hợp gồm vài chục nghìn dấu (mỗi dấu trong đó là một trong $\tau$, $\square$, $\vee$, $\neg$, $=$, $\in$, $\supset$).
+[^1]: Số hạng toán học *được ký hiệu bởi* (Chương I, § 1, số 1) ký hiệu "1" dĩ nhiên không được nhầm lẫn với *từ* "một" trong ngôn ngữ thông thường. Số hạng được ký hiệu bởi "1" là bằng, theo định nghĩa ở trên, với số hạng được ký hiệu bởi ký hiệu $$\tau_Z((\exists u)(\exists U)(u = (U, \{\emptyset\}, Z) \text{ và } U \subset \{\emptyset\} \times Z$$ $$\text{và } (\forall x)((x \in \{\emptyset\}) \Rightarrow (\exists y)((x, y) \in U))$$ $$\text{và } (\forall x)(\forall y)(\forall y')(((x, y) \in U \text{ và } (x, y') \in U) \Rightarrow (y = y'))$$ $$\text{và } (\forall y)((y \in Z) \Rightarrow (\exists x)((x, y) \in U)))).$$ Theo một ước lượng sơ bộ, số hạng được *ký hiệu* như vậy là một tập hợp gồm vài chục nghìn dấu (mỗi dấu trong đó là một trong $\tau$, $\square$, $\vee$, $\neg$, $=$, $\in$, $\supset$).

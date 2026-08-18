@@ -42,7 +42,7 @@ subsections:
       pdf_page: 78
 statements: 10
 exercises: 6
-content_sha256: f27c098283cf976dbfe884a6515c10d42a193eed1659b1a36d768d136ab18309
+content_sha256: 945734898d276ff327911de96117c25cec8057ca8616474c2a80aaeb17231074
 ---
 
 ## 1. COLLECTIVIZING RELATIONS
@@ -277,7 +277,7 @@ $x \in A$. In other words, $A = \complement_X(\complement_X A)$ is a true relati
 
 For the relation $(\forall x)(x \notin X)$ implies $(\forall Y)(X \subset Y)$; by virtue of the axiom of extent, the relation $(\forall x)(x \notin X)$ is therefore single-valued in X. On the other hand, the relation $(\forall x)(x \notin \complement_Y Y)$ is true, which proves that $(\exists X)(\forall x)(x \notin X)$ is true.
 
-¶ The term $\tau_x((\forall x)(x \notin X))$ corresponding to this functional relation is represented by the functional symbol $\emptyset$, and is called *the empty set* (\*)[^1]; the relation $(\forall x)(x \notin X)$, which is equivalent to $X = \emptyset$, is read as follows: "*the set* X *is empty*". We have the theorems $x \notin \emptyset$, $\emptyset \subset X$, $\complement_X X = \emptyset$, $\complement_X \emptyset = X$. The relation $X \subset \emptyset$ is equivalent to $X = \emptyset$. If $R\{x\}$ is a relation, the relation $(\forall x)((x \in \emptyset) \Rightarrow R\{x\})$ is true.
+¶ The term $\tau_x((\forall x)(x \notin X))$ corresponding to this functional relation is represented by the functional symbol $\emptyset$, and is called *the empty set* [^1]; the relation $(\forall x)(x \notin X)$, which is equivalent to $X = \emptyset$, is read as follows: "*the set* X *is empty*". We have the theorems $x \notin \emptyset$, $\emptyset \subset X$, $\complement_X X = \emptyset$, $\complement_X \emptyset = X$. The relation $X \subset \emptyset$ is equivalent to $X = \emptyset$. If $R\{x\}$ is a relation, the relation $(\forall x)((x \in \emptyset) \Rightarrow R\{x\})$ is true.
 
 #### Remark {#ens-ii-s1-n7-rem-1 .statement tag=03PB}
 
@@ -287,4 +287,4 @@ There exists no set of which every object is an element; in other words, "not $(
 
 See the [exercises for § 1](exercises/s1/).
 
-[^1]: (\*) The term denoted by $\emptyset$ is therefore $\tau \neg \neg \in \tau \neg \neg \in \square\square\square$.
+[^1]: The term denoted by $\emptyset$ is therefore $\tau \neg \neg \in \tau \neg \neg \in \square\square\square$.

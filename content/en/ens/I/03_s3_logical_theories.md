@@ -34,7 +34,7 @@ subsections:
       pdf_page: 41
 statements: 0
 exercises: 5
-content_sha256: b429aa448e801f5e6c98174f23720386650518026195c14d31873c2ba51f7dd2
+content_sha256: d6de402a72ee28dc5802a9428ec42465322992d6b8a4cc132afd20b77a3b44a7
 ---
 
 ## 3. LOGICAL THEORIES
@@ -43,7 +43,7 @@ content_sha256: b429aa448e801f5e6c98174f23720386650518026195c14d31873c2ba51f7dd2
 
 A *logical theory* is any theory $\mathscr{T}$ in which the schemes S1 to S4 below provide implicit axioms.
 
-S1. *If $A$ is a relation in $\mathscr{T}$, the relation $(A$ or $A) \Rightarrow A$ is an axiom of $\mathscr{T}$* (\*)[^1].
+S1. *If $A$ is a relation in $\mathscr{T}$, the relation $(A$ or $A) \Rightarrow A$ is an axiom of $\mathscr{T}$* [^1].
 
 S2. *If $A$ and $B$ are relations in $\mathscr{T}$, the relation $A \Rightarrow (A$ or $B)$ is an axiom of $\mathscr{T}$.*
 
@@ -57,7 +57,7 @@ $$(A \Rightarrow B) \Rightarrow ((C \text{ or } A) \Rightarrow (C \text{ or } B)
 
 These rules are in fact schemes; let us verify this, for example for S2. Let $R$ be a relation obtained by applying S2; then there are relations $A$ and $B$ in $\mathscr{T}$ such that $R$ is the relation $A \Rightarrow (A$ or $B)$. Let $T$ be a term in $\mathscr{T}$, let $x$ be a letter, and let $A'$ and $B'$ be the relations $(T|x)A$ and $(T|x)B$; then $(T|x)R$ is the same as $A' \Rightarrow (A'$ or $B')$, and can therefore be obtained by applying S2.
 
-Intuitively, the rules S1 through S4 merely express the meaning which is attached to the words "or" and "implies" in the usual language of mathematics (†)[^2].
+Intuitively, the rules S1 through S4 merely express the meaning which is attached to the words "or" and "implies" in the usual language of mathematics [^2].
 
 If a logical theory $\mathscr{T}$ is contradictory, *every relation in $\mathscr{T}$ is a theorem in $\mathscr{T}$.* For let $A$ be a relation in $\mathscr{T}$ such that $A$ and "not $A$" are theorems in $\mathscr{T}$, and let $B$ be any relation in $\mathscr{T}$. By S2, (not $A$) $\Rightarrow$ ((not $A$) or $B$) is a theorem in $\mathscr{T}$; therefore, by C1 (§ 2, no. 2), "(not $A$) or $B$", that is to say $A \Rightarrow B$, is a theorem in $\mathscr{T}$. A second application of C1 shows that $B$ is a theorem in $\mathscr{T}$.
 
@@ -297,5 +297,5 @@ $$(A \text{ and } B) \Leftrightarrow B$$
 
 See the [exercises for § 3](exercises/s3/).
 
-[^1]: (\*) This scheme may be expressed without using the letter $A$ or the abbreviating symbol $\Rightarrow$ as follows : *whenever we have a relation, we obtain a theorem by writing, from left to right,* $\vee$, $\neg$, $\vee$, *and then the given relation three times*. The reader may, as an exercise, translate in a similar way the expressions of the other schemes.
-[^2]: (†) In everyday speech, the word "or" has two different meanings, according to the context : when we link two statements by the word "or" we may mean to assert at least one of the two (and possibly both together), or we may mean to assert one to the exclusion of the other.
+[^1]: This scheme may be expressed without using the letter $A$ or the abbreviating symbol $\Rightarrow$ as follows : *whenever we have a relation, we obtain a theorem by writing, from left to right,* $\vee$, $\neg$, $\vee$, *and then the given relation three times*. The reader may, as an exercise, translate in a similar way the expressions of the other schemes.
+[^2]: In everyday speech, the word "or" has two different meanings, according to the context : when we link two statements by the word "or" we may mean to assert at least one of the two (and possibly both together), or we may mean to assert one to the exclusion of the other.

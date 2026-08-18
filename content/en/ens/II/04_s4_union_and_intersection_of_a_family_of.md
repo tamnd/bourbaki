@@ -46,7 +46,7 @@ subsections:
       pdf_page: 107
 statements: 22
 exercises: 8
-content_sha256: b3ef35017b9cb1994bf41f966dc0a0d8b8b12b3f3cc2deb0e9a9c1834fbc92b7
+content_sha256: fa664243f694205d57fee07324e9530b13d7e92d6d61e5dd3cf3c072e6ee2fa0
 ---
 
 ## 4. UNION AND INTERSECTION OF A FAMILY OF SETS
@@ -401,4 +401,4 @@ Note that if $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ is an arbitrary family 
 See the [exercises for § 4](exercises/s4/).
 
 [^1]: The scheme S8 therefore allows us to define the union of a family of sets without supposing *a priori* that these sets are subsets of the same set (which is the assumption made in the definition of union given in *Summary of Results*, §4, no. 2).
-[^2]: (*) A celebrated error arising from the application of this formula is that committed by H. Lebesgue in his attempt to prove that the projection on an axis of a Borel set in the plane is again a Borel set (this statement was subsequently shown to be incorrect, and the discussion it provoked was the origin of the theory of "Souslin" sets) : Lebesgue asserted that the projection of the intersection of a decreasing sequence of sets is equal to the intersection of their projections (*Journal de Mathématiques*, (6) **1** (1905), pp. 191-192).
+[^2]: A celebrated error arising from the application of this formula is that committed by H. Lebesgue in his attempt to prove that the projection on an axis of a Borel set in the plane is again a Borel set (this statement was subsequently shown to be incorrect, and the discussion it provoked was the origin of the theory of "Souslin" sets) : Lebesgue asserted that the projection of the intersection of a decreasing sequence of sets is equal to the intersection of their projections (*Journal de Mathématiques*, (6) **1** (1905), pp. 191-192).

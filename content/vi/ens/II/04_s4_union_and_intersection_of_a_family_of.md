@@ -46,9 +46,9 @@ subsections:
       pdf_page: 107
 statements: 22
 exercises: 8
-content_sha256: 6af493c00dd2718f294f196fd58c0b4cc45be3d9cf8a307fb16822de029766a9
+content_sha256: 7dcec2af1bed3576f4cb9b53fdaf0f90f80920efc4eee9192ec3b571498f5f11
 translated_from: content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md
-source_content_sha256: b3ef35017b9cb1994bf41f966dc0a0d8b8b12b3f3cc2deb0e9a9c1834fbc92b7
+source_content_sha256: fa664243f694205d57fee07324e9530b13d7e92d6d61e5dd3cf3c072e6ee2fa0
 translation_model: gpt-5.4
 translation_run: translate-vi-2bfc6108
 glossary_version: 29
@@ -408,4 +408,4 @@ Chú ý rằng nếu $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ là một họ 
 Xem [bài tập cho § 4](exercises/s4/).
 
 [^1]: Do đó lược đồ S8 cho phép ta định nghĩa hợp của một họ các tập hợp mà không giả thiết *a priori* rằng các tập hợp ấy là các tập hợp con của cùng một tập hợp (đó là giả thiết được đưa ra trong định nghĩa của hợp trong *Tóm tắt các kết quả*, §4, no. 2).
-[^2]: (*) Một sai lầm nổi tiếng nảy sinh từ việc áp dụng công thức này là sai lầm của H. Lebesgue trong cố gắng chứng minh rằng phép chiếu trên một trục của một tập hợp Borel trong mặt phẳng lại là một tập hợp Borel (mệnh đề này về sau được chỉ ra là không đúng, và cuộc thảo luận do đó gợi ra là nguồn gốc của lý thuyết các tập hợp "Souslin") : Lebesgue đã khẳng định rằng phép chiếu của giao của một dãy giảm các tập hợp bằng giao các phép chiếu của chúng (*Journal de Mathématiques*, (6) **1** (1905), pp. 191-192).
+[^2]: Một sai lầm nổi tiếng nảy sinh từ việc áp dụng công thức này là sai lầm của H. Lebesgue trong cố gắng chứng minh rằng phép chiếu trên một trục của một tập hợp Borel trong mặt phẳng lại là một tập hợp Borel (mệnh đề này về sau được chỉ ra là không đúng, và cuộc thảo luận do đó gợi ra là nguồn gốc của lý thuyết các tập hợp "Souslin") : Lebesgue đã khẳng định rằng phép chiếu của giao của một dãy giảm các tập hợp bằng giao các phép chiếu của chúng (*Journal de Mathématiques*, (6) **1** (1905), pp. 191-192).

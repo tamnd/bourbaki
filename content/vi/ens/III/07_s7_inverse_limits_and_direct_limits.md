@@ -46,9 +46,9 @@ errata:
     - says: no. 2, Proposition 2, Corollary 2
       read: no. 2, Proposition 1, Corollary 2
       why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
-content_sha256: 4c0db3e6ebb4a2971ad38f46d82113184c32d5ea9898fc5b435c3757474a501e
+content_sha256: b0dcb6d0fd999b80b69e755f18d0f71d51689a93e5788b57e12892665b5dfdb0
 translated_from: content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md
-source_content_sha256: a49555c4f56c60d7aca4de0b044ddea42c75f0dbc65c50f4a3e879299a765497
+source_content_sha256: 3203bbc4a92310057bd8d756d11de83e7fba92da7a7a4944a0823379e9b3ec20
 translation_model: gpt-5-6, gpt-5.4, nemotron-3-ultra-free
 translation_run: translate-vi-54eda197
 glossary_version: 29
@@ -142,7 +142,7 @@ và do đó suy ra từ (5). Phần thứ hai của Mệnh đề suy ra ngay l�
 
 $$\begin{array}{ccc} E_\beta & \overset{u_\beta}{\longrightarrow} & F_\beta \\ {\scriptstyle f_{\alpha\beta}}\big\downarrow & & \big\downarrow{\scriptstyle g_{\alpha\beta}} \\ E_\alpha & \underset{u_\alpha}{\longrightarrow} & F_\alpha \end{array}$$
 
-*giao hoán* (\*)[^1] *khi* $\alpha \leqslant \beta$. *Khi đó tồn tại một ánh xạ duy nhất* $u : E \to F$ *sao cho với mỗi* $\alpha \in I$ *biểu đồ*
+*giao hoán* [^1] *khi* $\alpha \leqslant \beta$. *Khi đó tồn tại một ánh xạ duy nhất* $u : E \to F$ *sao cho với mỗi* $\alpha \in I$ *biểu đồ*
 
 $$\begin{array}{ccc} E & \overset{u}{\longrightarrow} & F \\ {\scriptstyle f_\alpha}\big\downarrow & & \big\downarrow{\scriptstyle g_\alpha} \\ E_\alpha & \underset{u_\alpha}{\longrightarrow} & F_\alpha \end{array}$$
 
@@ -664,4 +664,4 @@ Chúng tôi để việc kiểm tra lại cho bạn đọc.
 
 Xem [các bài tập của § 7](exercises/s7/).
 
-[^1]: (\*) Điều này có nghĩa là $u_\alpha \circ f_{\alpha\beta} = g_{\alpha\beta} \circ u_\beta$.
+[^1]: Điều này có nghĩa là $u_\alpha \circ f_{\alpha\beta} = g_{\alpha\beta} \circ u_\beta$.

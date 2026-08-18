@@ -34,9 +34,9 @@ subsections:
       pdf_page: 41
 statements: 0
 exercises: 5
-content_sha256: 898a330261649cb8d4f4b7e8b9e78a59ef708baf1ebaf978d5bbaa703df57e1a
+content_sha256: a426cd82f54fc962b0a41289525773f1efafd773bf15005b15d031b3397f82b1
 translated_from: content/en/ens/I/03_s3_logical_theories.md
-source_content_sha256: b429aa448e801f5e6c98174f23720386650518026195c14d31873c2ba51f7dd2
+source_content_sha256: d6de402a72ee28dc5802a9428ec42465322992d6b8a4cc132afd20b77a3b44a7
 translation_model: gpt-5.4
 translation_run: translate-vi-7032b096
 glossary_version: 29
@@ -50,7 +50,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Một *lý thuyết lôgic* là một lý thuyết bất kỳ $\mathscr{T}$ trong đó các lược đồ S1 đến S4 dưới đây cho các tiên đề ẩn.
 
-S1. *Nếu $A$ là một quan hệ trong $\mathscr{T}$, thì quan hệ $(A$ hoặc $A) \Rightarrow A$ là một tiên đề của $\mathscr{T}$* (\*)[^1].
+S1. *Nếu $A$ là một quan hệ trong $\mathscr{T}$, thì quan hệ $(A$ hoặc $A) \Rightarrow A$ là một tiên đề của $\mathscr{T}$* [^1].
 
 S2. *Nếu $A$ và $B$ là các quan hệ trong $\mathscr{T}$, thì quan hệ $A \Rightarrow (A$ hoặc $B)$ là một tiên đề của $\mathscr{T}$.*
 
@@ -64,7 +64,7 @@ $$(A \Rightarrow B) \Rightarrow ((C \text{ hoặc } A) \Rightarrow (C \text{ ho�
 
 Thực vậy, những quy tắc này là các lược đồ; chẳng hạn, hãy kiểm tra điều đó đối với S2. Cho $R$ là một quan hệ thu được bằng cách áp dụng S2; khi đó tồn tại các quan hệ $A$ và $B$ trong $\mathscr{T}$ sao cho $R$ là quan hệ $A \Rightarrow (A$ hoặc $B)$. Cho $T$ là một số hạng trong $\mathscr{T}$, cho $x$ là một chữ cái, và cho $A'$ và $B'$ là các quan hệ $(T|x)A$ và $(T|x)B$; khi đó $(T|x)R$ cũng chính là $A' \Rightarrow (A'$ hoặc $B')$, và vì thế có thể thu được bằng cách áp dụng S2.
 
-Về mặt trực giác, các quy tắc S1 đến S4 chỉ đơn thuần diễn đạt ý nghĩa được gắn cho các từ "hoặc" và "suy ra" trong ngôn ngữ toán học thông thường (†)[^2].
+Về mặt trực giác, các quy tắc S1 đến S4 chỉ đơn thuần diễn đạt ý nghĩa được gắn cho các từ "hoặc" và "suy ra" trong ngôn ngữ toán học thông thường [^2].
 
 Nếu một lý thuyết lôgic $\mathscr{T}$ là mâu thuẫn, *mọi quan hệ trong $\mathscr{T}$ đều là định lý trong $\mathscr{T}$.* Thật vậy, cho $A$ là một quan hệ của $\mathscr{T}$ sao cho $A$ và "không $A$" là các định lý trong $\mathscr{T}$, và cho $B$ là một quan hệ bất kỳ của $\mathscr{T}$. Theo S2, (không $A$) $\Rightarrow$ ((không $A$) hoặc $B$) là một định lý của $\mathscr{T}$; do đó, theo C1 (§ 2, no. 2), "(không $A$) hoặc $B$", tức là $A \Rightarrow B$, là một định lý của $\mathscr{T}$. Áp dụng C1 lần thứ hai cho thấy $B$ là một định lý của $\mathscr{T}$.
 
@@ -304,5 +304,5 @@ $$(A \text{ và } B) \Leftrightarrow B$$
 
 Xem [bài tập của § 3](exercises/s3/).
 
-[^1]: (\*) Lược đồ này có thể được diễn đạt mà không dùng chữ cái $A$ hoặc ký hiệu viết tắt $\Rightarrow$ như sau : *mỗi khi ta có một quan hệ, ta thu được một định lý bằng cách viết, từ trái sang phải,* $\vee$, $\neg$, $\vee$, *rồi sau đó quan hệ đã cho ba lần*. Người đọc có thể, như một bài tập, dịch theo một cách đồng dạng các cách diễn đạt của những lược đồ khác.
-[^2]: (†) Trong lời nói hằng ngày, từ "hoặc" có hai nghĩa khác nhau, tùy theo ngữ cảnh : khi ta nối hai mệnh đề bằng từ "hoặc", ta có thể muốn khẳng định rằng ít nhất một trong hai mệnh đề là đúng (và có thể cả hai cùng đúng), hoặc ta có thể muốn khẳng định một mệnh đề mà loại trừ mệnh đề kia.
+[^1]: Lược đồ này có thể được diễn đạt mà không dùng chữ cái $A$ hoặc ký hiệu viết tắt $\Rightarrow$ như sau : *mỗi khi ta có một quan hệ, ta thu được một định lý bằng cách viết, từ trái sang phải,* $\vee$, $\neg$, $\vee$, *rồi sau đó quan hệ đã cho ba lần*. Người đọc có thể, như một bài tập, dịch theo một cách đồng dạng các cách diễn đạt của những lược đồ khác.
+[^2]: Trong lời nói hằng ngày, từ "hoặc" có hai nghĩa khác nhau, tùy theo ngữ cảnh : khi ta nối hai mệnh đề bằng từ "hoặc", ta có thể muốn khẳng định rằng ít nhất một trong hai mệnh đề là đúng (và có thể cả hai cùng đúng), hoặc ta có thể muốn khẳng định một mệnh đề mà loại trừ mệnh đề kia.

@@ -26,7 +26,7 @@ subsections:
       pdf_page: 291
 statements: 0
 exercises: 3
-content_sha256: 7fd3ffb3e738f589078a0c2c77d2d9195a8172d956b5078d1339b6d8d27f06fc
+content_sha256: bd2659e2b95cd99eebbfaaa21b1f48fd4e4c6fe64d1061e7e56e353b9d55545d
 ---
 
 ## 3. UNIVERSAL MAPPINGS
@@ -121,4 +121,4 @@ IX. *Albanese variety*. Let E be an algebraic variety, let $\Sigma$ be the speci
 
 See the [exercises for § 3](exercises/s3/).
 
-[^1]: (\*) See P. SAMUEL, "On universal mappings and free topological groups", *Bull. Amer. Math. Soc.*, **54** (1948), pp. 591-598.
+[^1]: See P. SAMUEL, "On universal mappings and free topological groups", *Bull. Amer. Math. Soc.*, **54** (1948), pp. 591-598.
