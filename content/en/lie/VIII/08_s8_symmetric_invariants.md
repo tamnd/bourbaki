@@ -33,7 +33,7 @@ subsections:
       pdf_page: 156
 statements: 24
 exercises: 18
-content_sha256: 8859a6b0573d4c210f3a62d9f114b94021ab2d8e4f8b830402b7c871294dce5b
+content_sha256: e1baa6e368cf97222b606dbb6382d0d4846c389a15c711e6c414e14780f7d91e
 ---
 
 ## § 8. SYMMETRIC INVARIANTS
@@ -263,7 +263,7 @@ Let B be a basis of R, $R_+$ (resp. $R_-)$ the set of positive (resp. negative) 
 
 (ii) Let $j$ be the homomorphism from the algebra $\mathbf{S}(\mathfrak{g})$ to the algebra $\mathbf{S}(\mathfrak{h})$ defined by the preceding decomposition of $\mathbf{S}(\mathfrak{g})$. Let $I(\mathfrak{g})$ be the set of invariant elements of $\mathbf{S}(\mathfrak{g})$. Let $\mathbf{S}(\mathfrak{h})^W$ be the set of elements of $\mathbf{S}(\mathfrak{h})$ invariant under the operation of W. Then $j|I(\mathfrak{g})$ is an isomorphism from $I(\mathfrak{g})$ to $\mathbf{S}(\mathfrak{h})^W$.
 
-Assertion (i) is clear. The Killing form defines an isomorphism from the vector space $\mathfrak{g}^*$ to the vector space $\mathfrak{g}$, which extends to an isomorphism $\xi$ from the $\mathfrak{g}$-module $\mathbf{S}(\mathfrak{g}^*)$ to the $\mathfrak{g}$-module $\mathbf{S}(\mathfrak{g})$. We have $\xi (I(\mathfrak{g}^*)) = I(\mathfrak{g})$. The orthogonal complement of $\mathfrak{h}$ with respect to the Killing form is $\mathfrak{n}_++\mathfrak{n}_-($§2, no. 2, Prop. 1). If we identify $\mathfrak{h}^*$ with the orthogonal complement of $\mathfrak{n}_++\mathfrak{n}_$-in $\mathfrak{g}^*$, then $\xi (\mathfrak{h}^*) =\mathfrak{h}$, so $\xi (\mathbf{S}(\mathfrak{h}^*)) =\mathbf{S}(\mathfrak{h})$ and $\xi (\mathbf{S}(\mathfrak{h}^*)^W) =\mathbf{S}(\mathfrak{h})^W$. Finally, $\xi^{-1}(J)$ is the set of polynomial functions on $\mathfrak{g}$ that vanish on $\mathfrak{h}$. This proves that $\xi$ transforms the homomorphism $i$ of Th. 1 into the homomorphism $j$ of Cor. 2. Thus assertion (ii) follows from Th. 1 (i).
+Assertion (i) is clear. The Killing form defines an isomorphism from the vector space $\mathfrak{g}^*$ to the vector space $\mathfrak{g}$, which extends to an isomorphism $\xi$ from the $\mathfrak{g}$-module $\mathbf{S}(\mathfrak{g}^*)$ to the $\mathfrak{g}$-module $\mathbf{S}(\mathfrak{g})$. We have $\xi (I(\mathfrak{g}^*)) = I(\mathfrak{g})$. The orthogonal complement of $\mathfrak{h}$ with respect to the Killing form is $\mathfrak{n}_++\mathfrak{n}_-($§2, no. 2, Prop. 1). If we identify $\mathfrak{h}^*$ with the orthogonal complement of $\mathfrak{n}_++\mathfrak{n}_-$ in $\mathfrak{g}^*$, then $\xi (\mathfrak{h}^*) =\mathfrak{h}$, so $\xi (\mathbf{S}(\mathfrak{h}^*)) =\mathbf{S}(\mathfrak{h})$ and $\xi (\mathbf{S}(\mathfrak{h}^*)^W) =\mathbf{S}(\mathfrak{h})^W$. Finally, $\xi^{-1}(J)$ is the set of polynomial functions on $\mathfrak{g}$ that vanish on $\mathfrak{h}$. This proves that $\xi$ transforms the homomorphism $i$ of Th. 1 into the homomorphism $j$ of Cor. 2. Thus assertion (ii) follows from Th. 1 (i).
 
 #### Proposition 4 {#lie-viii-s8-prop-4 .statement tag=015D}
 
