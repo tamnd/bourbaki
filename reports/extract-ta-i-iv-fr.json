@@ -1,12 +1,11 @@
 {
   "book": "ta-i-iv-fr",
   "pages": 512,
-  "clean": 459,
-  "flagged": 51,
+  "clean": 489,
+  "flagged": 21,
   "empty": 2,
   "reasons": {
     "drawn-rule": 6,
-    "dropped-glyph": 31,
     "empty": 2,
     "stacked-rows": 2,
     "tall-delimiter": 14
@@ -19,38 +18,10 @@
       ]
     },
     {
-      "pdf_page": 22,
-      "page_label": "TA I.6",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 54,
-      "page_label": "TA I.38",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 81,
       "page_label": "TA I.65",
       "flags": [
         "tall-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 104,
-      "page_label": "TA I.88",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 138,
-      "page_label": "TA I.122",
-      "flags": [
-        "dropped-glyph"
       ]
     },
     {
@@ -74,52 +45,10 @@
       ]
     },
     {
-      "pdf_page": 166,
-      "page_label": "TA I.150",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 193,
-      "page_label": "TA II.177",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 204,
       "page_label": "TA II.188",
       "flags": [
         "stacked-rows"
-      ]
-    },
-    {
-      "pdf_page": 209,
-      "page_label": "TA II.193",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 212,
-      "page_label": "TA II.196",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 222,
-      "page_label": "TA II.206",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 223,
-      "page_label": "TA II.207",
-      "flags": [
-        "dropped-glyph"
       ]
     },
     {
@@ -130,38 +59,10 @@
       ]
     },
     {
-      "pdf_page": 225,
-      "page_label": "TA II.209",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 226,
-      "page_label": "TA II.210",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 228,
-      "page_label": "TA II.212",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 235,
       "page_label": "TA II.219",
       "flags": [
         "tall-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 236,
-      "page_label": "TA II.220",
-      "flags": [
-        "dropped-glyph"
       ]
     },
     {
@@ -179,13 +80,6 @@
       ]
     },
     {
-      "pdf_page": 274,
-      "page_label": "TA III.258",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 279,
       "page_label": "TA III.263",
       "flags": [
@@ -200,24 +94,10 @@
       ]
     },
     {
-      "pdf_page": 301,
-      "page_label": "TA III.285",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 307,
       "page_label": "TA III.291",
       "flags": [
         "tall-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 311,
-      "page_label": "TA III.295",
-      "flags": [
-        "dropped-glyph"
       ]
     },
     {
@@ -231,44 +111,8 @@
       "pdf_page": 378,
       "page_label": "TA IV.362",
       "flags": [
-        "dropped-glyph",
         "tall-delimiter",
         "stacked-rows"
-      ]
-    },
-    {
-      "pdf_page": 417,
-      "page_label": "TA IV.401",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 424,
-      "page_label": "TA IV.408",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 427,
-      "page_label": "TA IV.411",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 430,
-      "page_label": "TA IV.414",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 431,
-      "page_label": "TA IV.415",
-      "flags": [
-        "dropped-glyph"
       ]
     },
     {
@@ -276,13 +120,6 @@
       "page_label": "TA IV.417",
       "flags": [
         "tall-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 434,
-      "page_label": "TA IV.418",
-      "flags": [
-        "dropped-glyph"
       ]
     },
     {
@@ -307,34 +144,6 @@
       ]
     },
     {
-      "pdf_page": 447,
-      "page_label": "TA IV.431",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 449,
-      "page_label": "TA IV.433",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 450,
-      "page_label": "TA IV.434",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 451,
-      "page_label": "TA IV.435",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 453,
       "page_label": "TA IV.437",
       "flags": [
@@ -356,31 +165,10 @@
       ]
     },
     {
-      "pdf_page": 467,
-      "page_label": "TA IV.451",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 468,
-      "page_label": "TA IV.452",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 488,
       "page_label": "TA IV.472",
       "flags": [
         "drawn-rule"
-      ]
-    },
-    {
-      "pdf_page": 495,
-      "page_label": "TA IV.479",
-      "flags": [
-        "dropped-glyph"
       ]
     }
   ],

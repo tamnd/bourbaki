@@ -45,7 +45,7 @@ subsections:
       pdf_page: 207
 statements: 32
 exercises: 28
-content_sha256: 07a18526d5a155ecdc84d7c9c9026821ea522d3498352cd029f7fc844e88eb36
+content_sha256: 1d6a75dead753aa9ec86f387e253f7a9842e08641e22485ad075d4c408d233bb
 ---
 
 ## § 2. ENDOMORPHISMES NORMAUX
@@ -240,10 +240,8 @@ La formule (1) ci-dessus démontre que $\widetilde{m}$ est de norme $\leqslant 1
 
 Soient $g\in \mathscr{L}^{\infty}(X, \mu)$ et $\widetilde{g}$ sa classe dans $L^{\infty}(X, \mu)$. Soit $\varepsilon  >$ 0. L’ensemble Y des $x\in X$ tels que $|g(x)|>\|\widetilde{g}\|_{\infty}-\varepsilon$ n’est pas localement $\mu$-négligeable. Il existe donc un sous-ensemble compact C de X tel que $\mu(Y\cap C)>0$. Soit $\varphi$ la fonction caractéristique de $Y\cap C$. Comme
 
-$\int 1/p\int 1/p$
-
 $$
-\|\widetilde{m}_{\widetilde{g}}(\varphi )\|_p=_X|\varphi g|^pd\mu\geqslant_Y|\varphi g|^pd\mu
+\|\widetilde{m}_{\widetilde{g}}(\varphi )\|_p=(\int_X|\varphi g|^pd\mu)^{1/p}\geqslant (\int_Y|\varphi g|^pd\mu)^{1/p}
 $$
 
 $$

@@ -30,7 +30,7 @@ subsections:
       pdf_page: 300
 statements: 12
 exercises: 2
-content_sha256: 48f2f98ed1381dab5940d2d391901ebd0aec80db6eab72396d5784da2a887547
+content_sha256: e771ac6b5941de6c154eb7377d1b2bb683bb846dbd9a3abbb8be9436aeda0d99
 ---
 
 ## § 15. BRAUER GROUPS
@@ -97,7 +97,7 @@ $$
 \varphi :\mathbf{M}_I(A)\otimes_k\mathbf{M}_J(B)\longrightarrow \mathbf{M}_{I\times J}(A\otimes_kB)
 $$
 
-such that $\varphi (a_{ii'})\otimes (b_{jj'})$ is the matrix with entry of index $((i, j),(i', j'))$ equal to $a_{ii'}\otimes b_{jj'}$.
+such that $\varphi ((a_{ii'})\otimes (b_{jj'}))$ is the matrix with entry of index $((i, j),(i', j'))$ equal to $a_{ii'}\otimes b_{jj'}$.
 
 The existence of a $k$-linear bijection $\varphi$ with the property stated in the lemma follows from the compatibility of the tensor product with direct sums (II, §3, No. 7, p. 255, Proposition 7). The fact that $\varphi$ is an algebra homomorphism follows from the definition of a product matrix.
 

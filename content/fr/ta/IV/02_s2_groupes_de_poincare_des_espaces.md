@@ -37,7 +37,7 @@ subsections:
       pdf_page: 381
 statements: 30
 exercises: 5
-content_sha256: 73be7faacaad596224ce51c812b7b813c35e21521a9b0c6735de21f9cd9783bf
+content_sha256: 89ac0cd4bde1a7c257a71e5106f9264dd7fec62a4ce45c60a22966cb87b2c498
 ---
 
 ## § 2. GROUPES DE POINCARÉ DES ESPACES DÉLAÇABLES
@@ -325,7 +325,7 @@ c) On a $D^*(A) = A\cup D(A) = (A\cap U)\cup D(A)$. L’ensemble D(A) est fermé
 d) Soit B une partie approchable de X qui contient A. Son complémentaire $\complement B$ est alors une partie approchable de X (loc. cit.) et il existe donc un ouvert V de X tel que $V\cap B$ et $\complement V\cap \complement B$ soient maigres. Comme $A\subset B$, $V\cap A$ est encore maigre, d’où $V\subset U$. Puisque $\complement U\cap \complement B$ est contenu dans $\complement V\cap \complement B$, c’est aussi une partie maigre de X. Finalement, les inclusions
 
 $$
-D^*(A)\cap \complement B = (A\cap U)\cap \complement B\cup \complement U\cap \complement B\subset (A\cap U)\cup (\complement U\cap \complement B)
+D^*(A)\cap \complement B =((A\cap U)\cap \complement B)\cup (\complement U\cap \complement B)\subset (A\cap U)\cup (\complement U\cap \complement B)
 $$
 
 démontrent que $D^*(A)\cap \complement B$ est une partie maigre de X.

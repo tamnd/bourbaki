@@ -41,7 +41,7 @@ subsections:
       pdf_page: 51
 statements: 26
 exercises: 4
-content_sha256: 97926c95619f498fc20f6ec981d0cf3d7d901a10f19a60147377dd81bf1de25e
+content_sha256: dea2a351ecc1b8e1ffb2d3e7dbfed1b07278596e134ba6797a00a39c3cd7c213
 ---
 
 ## § 2. EXEMPLES D’APPLICATIONS LINÉAIRES COMPACTES
@@ -303,7 +303,7 @@ $$
 $$
 
 $$
-=\int_Y^*|g(y)|\int_X^*|k(x, y)f(x)|d\mu(x)d\nu (y)
+=\int_Y^*|g(y)|(\int_X^*|k(x, y)f(x)|d\mu(x))d\nu (y)
 $$
 
 $$
@@ -321,7 +321,7 @@ Supposons d’abord que $k$ est tel que $k_{\circ}\in \mathscr{K}(Y;\mathscr{L}^
 $\int'1/q'$
 
 $$
-\|u_{m_1}-u_{m_2}\|\leqslant \|m_1-m_2\|_{p',q'}=_Y\|m_{1,y}-m_{2,y}\|^q_{p'}d\nu (y)
+\|u_{m_1}-u_{m_2}\|\leqslant \|m_1-m_2\|_{p',q'}=(_Y\|m_{1,y}-m_{2,y}\|^q_{p'}d\nu (y))
 $$
 
 $\leqslant \nu (A)^{1/q'}$ sup$_{y\in Y}N_{p'}(m_{1,y}-m_{2,y})$.

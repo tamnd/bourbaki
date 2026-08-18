@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: 13d09bb9a584c78bb6cb361de8716c465037d18e6939a71fa1722cb31207d1ae
+content_sha256: cd9f2c4cca3689a0e1eb57176fb35797549b4b4eae82d601f9a240a7f73dff1b
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -244,7 +244,7 @@ Si $u\in \mathscr{L}$ (E), cette définition coïncide avec EVT, V, p. 42, déf.
 
 Si $u$ est un opérateur partiel auto-adjoint sur E, alors $b(u)$ est hermitien (cor. de la prop. 2 de IV, p. 264) donc $u$ est normal.
 
-Soit D le disque unité ouvert dans $\mathbf{C}$. On note $\beta$ la fonction de $\mathbf{C}$ dans D définie par $\beta (z) =z/\overline{1 + |z|^2}$. C’est un homéomorphisme, dont l’inverse vérifie $\beta^{-1}(z) =z/\overline{1 - |z|^2}$ pour $z\in D$.
+Soit D le disque unité ouvert dans $\mathbf{C}$. On note $\beta$ la fonction de $\mathbf{C}$ dans D définie par $\beta (z) =z/\surd\overline{1 + |z|^2}$. C’est un homéomorphisme, dont l’inverse vérifie $\beta^{-1}(z) =z/\surd\overline{1 - |z|^2}$ pour $z\in D$.
 
 Soit $u\in \mathscr{L}(E)$. Il résulte des formules (2) et (3) de la proposition 1 de IV, p. 262 que $u=\beta^{-1}(b(u))$, et donc
 
@@ -641,7 +641,7 @@ $$
 Soient $y$ et $z$ des éléments de E et $\mu$ la mesure spectrale de $(y, z)$ relative à $u$. On a
 
 $$
-\langle y|v(z)\rangle =\int\langle y|g(u, x)z\rangle d\nu (x) =\int\int g(\lambda , x)d\mu(\lambda )d\nu (x)
+\langle y|v(z)\rangle =\int\langle y|g(u, x)z\rangle d\nu (x) =\int(\int g(\lambda , x)d\mu(\lambda ))d\nu (x)
 $$
 
 X X Sp($u$)
@@ -649,7 +649,7 @@ X X Sp($u$)
 (formule (6), p. 271). Puisque $g\in \mathscr{K}(\mathbf{C}\times X)$, il vient
 
 $$
-\langle y|v(z)\rangle =\int_{Sp(u)}\int_Xg(\lambda , x)d\nu (x)d\mu(\lambda ) =\langle y|h(u)z\rangle
+\langle y|v(z)\rangle =\int_{Sp(u)}(\int_Xg(\lambda , x)d\nu (x))d\mu(\lambda ) =\langle y|h(u)z\rangle
 $$
 
 d’après INT, III, p. 84, § 4, n$^o1$, th. 2 et la formule (6), p. 271. Cela démontre que $v=h(u)$, comme désiré.
@@ -760,7 +760,9 @@ On munit $\mathbf{R}$ (resp. $\mathbf{C})$ de la mesure de Lebesgue, notée $\mu
 
 Pour toute fonction $f$ définie et différentiable sur un ouvert U de $\mathbf{R}^2$, identifié à $\mathbf{C}$, avec coordonnées réelles $x$ et $y$, on note
 
-$\partial f$ 1 $\partial f\partial f$
+$$
+\partial f1(\partial f\partial f)
+$$
 
 = $+i$
 
@@ -815,12 +817,14 @@ pour tout $(x, y)\in \mathbf{R}^2$.
 Il existe $\varphi \in \mathscr{D}(\mathbf{R})$ dont le support est contenu dans $[-2,2]$ et qui est égale à 1 sur $[-1,1]$ (lemme 1 de IV, p. 196). Posons
 
 $$
-\widetilde{f}(x, y) =f(x) +iyf'(x)\varphi (y)
+\widetilde{f}(x, y) =(f(x) +iyf'(x))\varphi (y)
 $$
 
 pour $(x, y)\in \mathbf{R}^2$. On a $\widetilde{f}\in \mathscr{D}(\mathbf{C})$ et $\widetilde{f}$ coïncide avec $f$ sur $\mathbf{R}$. De plus, quel que soit $(x, y)\in \mathbf{R}^2$, il vient
 
-$\partial \widetilde{f}$ 1 $''''$
+$$
+\partial \widetilde{f}1('''')
+$$
 
 $$
 (x, y) =(if(x)-yf(x))\varphi (y) +iyf(x)\varphi (y)
@@ -888,7 +892,7 @@ d’où $\overline{\mathscr{F}}(\eta_{\varepsilon}) =\sigma_{\varepsilon}$. Le r
 
 Soit $f\in \mathscr{D}(\mathbf{R})$ et soit $\widetilde{f}\in \mathscr{D}(\mathbf{C})$ une extension presque analytique de $f$. Pour $\varepsilon  >0$, définissons $f_{\varepsilon}$ sur $\mathbf{R}$ par
 
-1 $\int\widetilde{f}(y+i\varepsilon )\widetilde{f}(y-i\varepsilon )$
+1 $\int(\widetilde{f}(y+i\varepsilon )\widetilde{f}(y-i\varepsilon ))$
 
 $$
 f_{\varepsilon}(x) =--dy
@@ -907,7 +911,7 @@ $\int^r$ 1 $4r$
 $|f_{\varepsilon}(x)|\leqslant 2\|\widetilde{f}\|_{\infty}$ 2 $_2dy\leqslant \|\widetilde{f}\|_{\infty}$,
 
 $$
-_{-r}(x-y)+\varepsilon \varepsilon
+_{-r}\surd(x-y)+\varepsilon \varepsilon
 $$
 
 donc $f_{\varepsilon}$ est bornée.
@@ -947,7 +951,7 @@ $$
 $$
 
 $$
-_2\varrho_1(y;\varepsilon )\varrho_1(y;-\varepsilon )
+_2(\varrho_1(y;\varepsilon )\varrho_1(y;-\varepsilon ))
 $$
 
 $$
@@ -961,7 +965,7 @@ $$
 Soient $x\in \mathbf{R}$ et $\varepsilon  >0$. On a
 
 $$
-_2\int\varrho_1(y;\varepsilon )\varrho_1(y;-\varepsilon )2\int^rdy
+_2\int(\varrho_1(y;\varepsilon )\varrho_1(y;-\varepsilon ))_2\int^rdy
 $$
 
 $$
@@ -969,7 +973,7 @@ $$
 $$
 
 $$
-_{\mathbf{R}}y-x+i\varepsilon y-x-i\varepsilon -_r\overline{(x-y)^2 + \varepsilon^2}
+_{\mathbf{R}}y-x+i\varepsilon y-x-i\varepsilon -_r\surd\overline{(x-y)^2 + \varepsilon^2}
 $$
 
 $$
@@ -1052,7 +1056,7 @@ L’application $h$ est mesurable et son support est compact. Comme $u$ est auto
 
 Soit $\varepsilon \in \mathbf{R}^*_+$. On note $F^+_{\varepsilon}$ (resp. $F^-_{\varepsilon})$ l’ensemble fermé dans $\mathbf{C}$ des $\lambda \in \mathbf{C}$ tels que $\mathscr{I}(\lambda )\geqslant \varepsilon$ (resp. $\mathscr{I}(\lambda )\leqslant -\varepsilon )$. On a
 
-$\int_{\mathbf{C}}h(\lambda )d\mu(\lambda ) =$ lim$_{\varepsilon\rightarrow 0}\int_{F^+_{\varepsilon}}h(\lambda )d\mu(\lambda ) +\int_{F^-_{\varepsilon}}h(\lambda )d\mu(\lambda )$.
+$\int_{\mathbf{C}}h(\lambda )d\mu(\lambda ) =$ lim$_{\varepsilon\rightarrow 0}(\int_{F^+_{\varepsilon}}h(\lambda )d\mu(\lambda ) +\int_{F^-_{\varepsilon}}h(\lambda )d\mu(\lambda ))$.
 
 Soit $r >0$ tel que le support de $h$ est contenu dans $C = [-r, r]^2$. Notons $R_{\varepsilon}^+$ le pavé $[-2r,2r]\times [\varepsilon ,2r]$ dans $\mathbf{C}$. C’est une partie localement polyédrale de $\mathbf{C}$ (VAR, R2, 11.3, p. 48). Elle vérifie les conditions suivantes :
 
@@ -1067,7 +1071,7 @@ Soit $r >0$ tel que le support de $h$ est contenu dans $C = [-r, r]^2$. Notons $
 Notons $d\lambda$ (resp. $d\lambda )$ la forme différentielle de degré 1 sur $\mathbf{C}$ différentielle de l’application identité de $\mathbf{C}$ (resp. de la conjugaison complexe). Notons $g$ la fonction sur $\mathbf{C}-\mathbf{R}$ à valeurs dans $\mathscr{L}(E)$ telle que $g(\lambda ) =\widetilde{f}(\lambda )R(u, \lambda )$ pour $\lambda \in \mathbf{C}-\mathbf{R}$. Soit $\omega =g d\lambda$; c’est une forme différentielle de degré 1 sur $\mathbf{C}-\mathbf{R}$, à support compact et à valeurs dans $\mathscr{L}(E)$. Puisque la résolvante de $u$ est holomorphe (prop. 14 de IV, p. 246), on a
 
 $$
-\partial \widetilde{f}\partial
+(\partial \widetilde{f}\partial )
 $$
 
 $$
@@ -1117,7 +1121,7 @@ $_{F^-_{\varepsilon}}$ 2 $_{\mathbf{R}}$
 et on conclut que l’intégrale de $h$ sur $\mathbf{C}$ est la limite quand $\varepsilon \rightarrow 0$ de
 
 $$
-i\int
+i\int()
 $$
 
 $$
@@ -1128,7 +1132,7 @@ $$
 
 D’après la prop. 7, on a $v_{\varepsilon}=\pi f_{\varepsilon}(u)$, où $f_{\varepsilon}$ est la fonction définie sur $\mathbf{R}$ par
 
-1 $\int\widetilde{f}(y+i\varepsilon )\widetilde{f}(y-i\varepsilon )$
+1 $\int(\widetilde{f}(y+i\varepsilon )\widetilde{f}(y-i\varepsilon ))$
 
 $$
 f_{\varepsilon}(x) =--dy
@@ -1492,9 +1496,9 @@ lim$_{n\rightarrow+\infty}\iota (x_n) =\widetilde{\iota}(x) = 0$,
 
 donc la suite $(x_n)_{n\in\mathbf{N}}$ converge vers 0 dans E. Soit $y\in E_q$. Puisque $\widetilde{q}$ est continue sur $\widetilde{E}_q$, il vient
 
-$(x|y)_q=$ lim$_{n\rightarrow+\infty}(x_n|y)_q=$ lim$_{n\rightarrow+\infty}\langle x_n|y\rangle +q(x_n, y)$
+$(x|y)_q=$ lim$_{n\rightarrow+\infty}(x_n|y)_q=$ lim$_{n\rightarrow+\infty}(\langle x_n|y\rangle +q(x_n, y))$
 
-= lim$_{n\rightarrow+\infty}\langle x_n|y\rangle +\langle x_n|u(y)\rangle = 0$.
+= lim$_{n\rightarrow+\infty}(\langle x_n|y\rangle +\langle x_n|u(y)\rangle )= 0$.
 
 Comme l’espace $E_q$ est dense dans $\widetilde{E}_q$, on en déduit que $x= 0$, comme désiré.
 
@@ -2014,11 +2018,11 @@ Soient $q$ une forme partielle positive fermée sur E et $u$ l’opérateur auto
 
 (i) L’opérateur partiel $u$ est à résolvante compacte ;
 
-(ii) L’endomorphisme positif $\overline{(1_E + u)^{-1}}= (1_E+u)^{-1/2}$ de E est compact;
+(ii) L’endomorphisme positif $\surd\overline{(1_E + u)^{-1}}= (1_E+u)^{-1/2}$ de E est compact;
 
 (iii) L’injection canonique $j$ de l’espace hilbertien $E_q$ (déf. 9 de IV, p. 292) dans E est compacte.
 
-Comme $u$ est positif, le nombre réel $-1$ appartient à l’ensemble résolvant de $u$ (prop. 17 de IV, p. 248), donc l’endomorphisme positif $v=\overline{(1_E + u)^{-1}}$ est défini, et on a $v= (1_E+u)^{-1/2}$ d’après le calcul fonctionnel.
+Comme $u$ est positif, le nombre réel $-1$ appartient à l’ensemble résolvant de $u$ (prop. 17 de IV, p. 248), donc l’endomorphisme positif $v=\surd\overline{(1_E + u)^{-1}}$ est défini, et on a $v= (1_E+u)^{-1/2}$ d’après le calcul fonctionnel.
 
 L’endomorphisme $v$ est compact si et seulement si $v^2= (1_E+u)^{-1}$ est compact (prop. 6 de III, p. 91), c’est-à-dire si et seulement si $u$ est à résolvante compacte (prop. 19, (iii)). Cela démontre que les conditions (i) et (ii) sont équivalentes.
 

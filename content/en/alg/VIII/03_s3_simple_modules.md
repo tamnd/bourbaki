@@ -34,7 +34,7 @@ subsections:
       pdf_page: 68
 statements: 23
 exercises: 10
-content_sha256: 0086266c71c0c87c1dba800a7ab95a073135a25e6906f0d4a8a767c2676b5856
+content_sha256: 9e40062ed94f59647e41551dd0cb278c9eed5dbb96dcf569df5e17def2b733c5
 ---
 
 ## § 3. SIMPLE MODULES
@@ -150,11 +150,11 @@ Let K be a commutative field, A a K-algebra, and M an A-module. Suppose that for
 Let I be a set of cardinal strictly greater than the dimension of M over K (for example, the set of subsets of M). Let L be an algebraic closure of the field $K((X_i)_{i\in I})$ (V, §4, No. 3, p. 23, Theorem 2). Choose a K-linear form $\varphi$ on L such that $\varphi (1) = 1$, and let $v: M_{(L)}\rightarrow M$ be the K-linear mapping characterized by $v(\alpha \otimes m) =\varphi (\alpha )m$. Let $u$ be an endomorphism of M. The dimension of $M_{(L)}$ over L is equal to that of M over K and is strictly less than the cardinal of L. By Theorem 1, the endomorphism $1_L\otimes u$ of the $A_{(L)}$-module $M_{(L)}$ is of the form $\lambda \otimes 1_M$ with $\lambda \in L$. For every $x\in M$, we have
 
 $$
-u(x) =v1\otimes u(x)=v(1_L\otimes u)(1\otimes x)
+u(x) =v(1\otimes u(x))=v((1_L\otimes u)(1\otimes x))
 $$
 
 $$
-=v(\lambda \otimes 1_M)(1\otimes x)=v(\lambda \otimes x) =\varphi (\lambda )x
+=v((\lambda \otimes 1_M)(1\otimes x))=v(\lambda \otimes x) =\varphi (\lambda )x
 $$
 
 so that $u$ is the homothety $\varphi (\lambda )_M$.

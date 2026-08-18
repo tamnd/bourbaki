@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: 878133f336c87e3b75fde4a4414f755340a33aa83fc58b44e2a4777dd8d471f7
+content_sha256: e97456b13371135b37b6c25588bca97d3335078de9c5d23f8e23b327887e6a43
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -537,7 +537,7 @@ Puisque les fonctions $f*g$ pour $f$ et $g$ dans $L^1(G)\cap L^2(G)$ engendrent 
 Soient maintenant $f$ et $g$ dans A(G). Pour $\varphi \in L^1(G)$, on a
 
 $$
-\mathscr{F}(f)\cdot \mu_g(\mathscr{F}(\varphi )) =\int_{\widehat{G}}\mathscr{F}(\varphi )\mathscr{F}(f)d\mu_g=\int_{\widehat{G}}\mathscr{F}(\varphi *f)d\mu_g
+(\mathscr{F}(f)\cdot \mu_g)(\mathscr{F}(\varphi )) =\int_{\widehat{G}}\mathscr{F}(\varphi )\mathscr{F}(f)d\mu_g=\int_{\widehat{G}}\mathscr{F}(\varphi *f)d\mu_g
 $$
 
 $$
@@ -757,7 +757,7 @@ Soit $\varphi \in L^1(\widehat{G})\cap L^2(\widehat{G})$. Alors $f=\overline{\ma
 La fonction $f$ est continue et bornée sur G car $\varphi \in L^1(\widehat{G})$. Pour toute fonction $g\in L^1(G)\cap L^2(G)$, on a
 
 $$
-\int_Gg(x)f(x)dx=\int_Gg(x)\int_{\widehat{G}}\langle \chi , x\rangle \varphi (\chi )d\widehat{x}(\chi )dx
+\int_Gg(x)f(x)dx=\int_Gg(x)(\int_{\widehat{G}}\langle \chi , x\rangle \varphi (\chi )d\widehat{x}(\chi ))dx
 $$
 
 $$
@@ -839,7 +839,7 @@ et donc $|g(x)-g(e)|<\frac{1}{2}g(e)$. Cela implique $g(x)\not= 0$ et donc $x\in
 Démontrons que l’application $\eta$ est surjective. Comme cette application est un homéomorphisme sur son image, le groupe $\eta (G)$ est un sous-groupe localement compact de $\widehat{\widehat{G}}$. Il est donc fermé dans $\widehat{\widehat{G}}$ (TG, III, p. 22, cor. 2). Raisonnons par l’absurde et supposons qu’il existe un caractère $\xi \in \widehat{\widehat{G}}$ tel que $\xi \notin \eta (G)$. Il existe alors (corollaire 1 de II, p. 219) un élément $f$ non nul de $L^1(\widehat{G})$ tel que $\mathscr{F}_{\widehat{G}}(f)$ soit nulle sur $\eta (G)$. Soit $g\in L^1(G)$. La fonction $(x, \chi )\mapsto g(x)f(\chi )\langle \chi , x\rangle$ appartient à $L^1(G\times \widehat{G})$. D’après le th. de Lebesgue-Fubini (INT, V, §8, n$^o4$, th. 1, a)), il vient donc
 
 $$
-\int_{\widehat{G}}f(\chi )\mathscr{F}_G(g)(\chi )d\chi =\int_Gg(x)\int_{\widehat{G}}f(\chi )\overline{\langle\chi , x\rangle}d\chi dx
+\int_{\widehat{G}}f(\chi )\mathscr{F}_G(g)(\chi )d\chi =\int_Gg(x)(\int_{\widehat{G}}f(\chi )\overline{\langle\chi , x\rangle}d\chi )dx
 $$
 
 $$
@@ -899,13 +899,13 @@ $$
 $$
 
 $$
-=\int_G\overline{\langle\chi , x\rangle}\int_{\widehat{G}}\langle \xi , x\rangle d\beta (\xi )d\alpha (x)
+=\int_G\overline{\langle\chi , x\rangle}(\int_{\widehat{G}}\langle \xi , x\rangle d\beta (\xi ))d\alpha (x)
 $$
 
 La fonction $(x, \xi )\mapsto  \langle \chi , x\rangle \langle \xi , x\rangle$ est continue et bornée, donc intégrable sur $G\times \widehat{G}$ par rapport à la mesure $\alpha \otimes \beta$. D’après le théorème de Lebesgue-Fubini (INT, V, §8, n$^o4$, th. 1, a)), on obtient
 
 $$
-(\mathscr{F}_G(\overline{\mathscr{F}}_{\widehat{G}}(\beta )\cdot \alpha ))(\chi ) =\int_{\widehat{G}}\int_G\overline{\langle\chi \xi^{-1}, x\rangle}d\alpha (x)d\beta (\xi )
+(\mathscr{F}_G(\overline{\mathscr{F}}_{\widehat{G}}(\beta )\cdot \alpha ))(\chi ) =\int_{\widehat{G}}(\int_G\overline{\langle\chi \xi^{-1}, x\rangle}d\alpha (x))d\beta (\xi )
 $$
 
 $$
@@ -1257,7 +1257,7 @@ $$
 Soit $\chi \in \widehat{G}$. La fonction $\dot{x}\mapsto  \langle \chi , x\rangle \varphi (x, \chi )$ appartient à $\mathscr{K}(G/H)$, donc à $L^1(G/H)$. Sa cotransformée de Fourier est la fonction sur $H^{\bot}$ dont la valeur en $\xi \in H^{\bot}$ est
 
 $$
-\int_{G/H}\langle \xi ,\dot{x}\rangle \langle \chi , x\rangle \varphi (x, \chi )d\gamma ( \dot{x}) =\int_{G/H}\int_H\langle \chi \xi , xy\rangle f(xy)d\alpha (y)d\gamma ( \dot{x})
+\int_{G/H}\langle \xi ,\dot{x}\rangle \langle \chi , x\rangle \varphi (x, \chi )d\gamma ( \dot{x}) =\int_{G/H}(\int_H\langle \chi \xi , xy\rangle f(xy)d\alpha (y))d\gamma ( \dot{x})
 $$
 
 $$

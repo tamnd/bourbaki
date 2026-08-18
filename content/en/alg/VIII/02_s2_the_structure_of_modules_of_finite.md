@@ -34,7 +34,7 @@ subsections:
       pdf_page: 54
 statements: 37
 exercises: 20
-content_sha256: 752206f0383fa9a6f2e94751a61ac0c242d8ef95494dbccc264f8a23ac17591e
+content_sha256: 914e243aae55024b8374f15d6c940a29370810a3872e09be2dd123eef9d21a5a
 ---
 
 ## § 2. THE STRUCTURE OF MODULES OF FINITE LENGTH
@@ -297,7 +297,7 @@ Let $j\in J$. By Lemma 3, there exists an index $i\in I$ such that $p_j$ induces
 
 Card(J) $\leqslant \sum_{i\in I_L}$ Card(J($i$))$\leqslant$ Card(I$_L)$.
 
-Now, suppose that the set J is finite, and let us prove the lemma by induction on the cardinal of J. If J is empty, there is nothing to prove. Therefore, suppose that J is nonempty, and choose an element $j$ of J. By the above, there exists an index $i\in I_L$ such that $p_j$ induces an isomorphism from $M_i$ to $N_j$. Set $I'= I-\{i\}$ and $J'= J-\{j\}$. The module M is the direct sum of $M_i$ and the kernel of $p_j$. It is also the direct sum of $M_i$ and the submodule $M'=\oplus_{i'\in I'}M_{i'}$. Hence, there exists (II, §1, No. 9, p. 210, Corollary of Proposition 13) an isomorphism $\varphi$ from Ker $p_j= N_0\oplus_{j'\in J'}N_{j'}$ to $M'$. Set $N'=\varphi \sum_{j'\in J'}N_{j'}$. The submodule $N'$ of $M'$ is a direct factor and is the direct sum of the family $(\varphi (N_{j'}))_{j'\in J'}$ of primordial submodules isomorphic to L. Let us apply the induction hypothesis to $M'$ and $N':$ we have Card(J$')\leqslant$ Card(I$_L-\{i\})$ and therefore inequality (1).
+Now, suppose that the set J is finite, and let us prove the lemma by induction on the cardinal of J. If J is empty, there is nothing to prove. Therefore, suppose that J is nonempty, and choose an element $j$ of J. By the above, there exists an index $i\in I_L$ such that $p_j$ induces an isomorphism from $M_i$ to $N_j$. Set $I'= I-\{i\}$ and $J'= J-\{j\}$. The module M is the direct sum of $M_i$ and the kernel of $p_j$. It is also the direct sum of $M_i$ and the submodule $M'=\oplus_{i'\in I'}M_{i'}$. Hence, there exists (II, §1, No. 9, p. 210, Corollary of Proposition 13) an isomorphism $\varphi$ from Ker $p_j= N_0\oplus_{j'\in J'}N_{j'}$ to $M'$. Set $N'=\varphi (\sum_{j'\in J'}N_{j'})$. The submodule $N'$ of $M'$ is a direct factor and is the direct sum of the family $(\varphi (N_{j'}))_{j'\in J'}$ of primordial submodules isomorphic to L. Let us apply the induction hypothesis to $M'$ and $N':$ we have Card(J$')\leqslant$ Card(I$_L-\{i\})$ and therefore inequality (1).
 
 Let us prove Theorem 1. Let $(M_i)_{i\in I}$ and $(N_j)_{j\in J}$ be two families of primordial submodules with direct sum M. Let $I_L$ (resp. $J_L)$ be the set of $i\in I$ (resp. $j\in J)$ such that $M_i$ (resp. $N_j)$ is isomorphic to L. We have Card(J$_L)\leqslant$ Card(I$_L)$ by Lemma 4. By interchanging the roles of I and J, we obtain the inverse inequality and thus the theorem.
 

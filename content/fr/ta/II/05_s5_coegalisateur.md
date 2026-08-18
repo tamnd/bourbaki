@@ -33,7 +33,7 @@ subsections:
       pdf_page: 226
 statements: 22
 exercises: 3
-content_sha256: 62a1280c0f8661af50804fe7723ac83fde8a5d9cf95c7e5d0212e8dcfa971196
+content_sha256: 89baa91f784812adef544cd54a8082053b6debf2713f751004f8f2c952fca427
 ---
 
 ## § 5. COÉGALISATEUR
@@ -288,11 +288,11 @@ On définit alors un morphisme de carquois $\tau_0$ de $\Gamma_0$ dans Coh($\var
 
 De ces données, la prop. 6 (II, p. 193) fournit un homomorphisme surjectif
 
-Λ: $_{i\in\pi}*_{_0(G)}G_{a(i)}*$ F(Orb(H)) $\rightarrow$ Coh($\varphi , \psi$ )$_{a(i_0)}$
+$\Lambda :(_{i\in\pi}*_{_0(G)}G_{a(i)})*$ F(Orb(H)) $\rightarrow$ Coh($\varphi , \psi$ )$_{a(i_0)}$
 
 et décrit des générateurs de son noyau, fournissant ainsi une présentation du groupe Coh($\varphi , \psi$ )$_{a_0}$.
 
-L’ensemble des lacets de longueur $\geqslant 1$ dans le graphe $\widetilde{\Gamma}$ associé à Γ est identifié à l’ensemble $\Omega (\widetilde{\Gamma})$ des suites $(z_1, . . . , z_n)$ de flèches de $\widetilde{\Gamma}$, indexées par $\mathbf{Z}/n\mathbf{Z}$, où $n$ parcourt l’ensemble des entiers $\geqslant 1$, telles que pour tout $k\in \mathbf{Z}/n\mathbf{Z}$, le terme de $z_k$ soit l’origine de $z_{k+1}$. Soit Z une partie de $\Omega (\widetilde{\Gamma})$ telle que les classes de conjugaison $c(z)$, pour $z\in Z$, engendrent le noyau de l’homomorphisme surjectif $\beta_{a_0}$. L’homomorphisme $\beta_{a_0}\circ \Lambda$ est surjectif ; pour en déduire son noyau, c’est-à-dire une présentation du groupe Coeg($\varphi , \psi$ )$_{\beta(a_0)}$, il reste à choisir, pour tout $z\in Z$, un élément $C(z)$ dans le groupe $*G_{a(i)}*F(\pi_0(H))$
+L’ensemble des lacets de longueur $\geqslant 1$ dans le graphe $\widetilde{\Gamma}$ associé à Γ est identifié à l’ensemble $\Omega (\widetilde{\Gamma})$ des suites $(z_1, . . . , z_n)$ de flèches de $\widetilde{\Gamma}$, indexées par $\mathbf{Z}/n\mathbf{Z}$, où $n$ parcourt l’ensemble des entiers $\geqslant 1$, telles que pour tout $k\in \mathbf{Z}/n\mathbf{Z}$, le terme de $z_k$ soit l’origine de $z_{k+1}$. Soit Z une partie de $\Omega (\widetilde{\Gamma})$ telle que les classes de conjugaison $c(z)$, pour $z\in Z$, engendrent le noyau de l’homomorphisme surjectif $\beta_{a_0}$. L’homomorphisme $\beta_{a_0}\circ \Lambda$ est surjectif ; pour en déduire son noyau, c’est-à-dire une présentation du groupe Coeg($\varphi , \psi$ )$_{\beta(a_0)}$, il reste à choisir, pour tout $z\in Z$, un élément $C(z)$ dans le groupe $(*G_{a(i)})*F(\pi_0(H))$
 
 $i\in$Orb(G)
 
@@ -400,7 +400,7 @@ Pour $j\in$ Orb(H), soient $\varphi_j: H_{b(j)}\rightarrow G_{a(\varphi_0(j))}$ 
 
 Il existe alors un unique homomorphisme de groupes
 
-$\lambda :*G_{a(i)}*$ F(Orb(H)) $\rightarrow$ Coeg($\varphi , \psi$ )$_{\gamma(a(i_0))}$
+$\lambda :(*G_{a(i)})*$ F(Orb(H)) $\rightarrow$ Coeg($\varphi , \psi$ )$_{\gamma(a(i_0))}$
 
 $i\in$Orb(G)
 
@@ -428,7 +428,7 @@ L’existence et l’unicité d’un tel morphisme résulte de la propriété un
 
 Fl($\tau$ )$(j) =\gamma (c_1(j))^{-1}\gamma (c_2(j)) =\gamma (c_1(j)^{-1})\beta (h(j))\gamma (c_2(j)) =\beta (\tau_0(j))$ dans Coeg($\varphi , \psi$ ), où $\tau_0: \Gamma_0\rightarrow$ Coh($\varphi , \psi$ ) désigne le morphisme de carquois déduit de l’équipement de base $(a, b, c_1, c_2,T, i_0)$. Par suite, l’homomorphisme $\lambda$ est le composé de l’homomorphisme Λ défini dans la prop. 6 (II, p. 193) et de l’homomorphisme surjectif $\beta_{a(i_0)}$. Il est en particulier surjectif.
 
-Soit $z\in Z$ ; par construction, $\Lambda (r_3(z))$ appartient à la classe de conjugaison $c(z)$. Par définition d’un équipement complémentaire, le noyau de l’homomorphisme $\beta_{a(i_0)}$ est donc le plus petit sous-groupe distingué de Coh($\varphi , \psi$ )$_{a(i_0)}$ contenant les éléments $\Lambda (r_3(z))$ pour $z\in Z$. Comme l’homomorphisme Λ est surjectif, le noyau de l’homomorphisme $\lambda =\beta_{a(i_0)}\circ \Lambda$ est donc le plus petit sous-groupe distingué du groupe $*G_{a(i)}*F(\pi_0(H))$ contenant les générateurs du noyau
+Soit $z\in Z$ ; par construction, $\Lambda (r_3(z))$ appartient à la classe de conjugaison $c(z)$. Par définition d’un équipement complémentaire, le noyau de l’homomorphisme $\beta_{a(i_0)}$ est donc le plus petit sous-groupe distingué de Coh($\varphi , \psi$ )$_{a(i_0)}$ contenant les éléments $\Lambda (r_3(z))$ pour $z\in Z$. Comme l’homomorphisme Λ est surjectif, le noyau de l’homomorphisme $\lambda =\beta_{a(i_0)}\circ \Lambda$ est donc le plus petit sous-groupe distingué du groupe $(*G_{a(i)})*F(\pi_0(H))$ contenant les générateurs du noyau
 
 $i\in$Orb(G)
 
@@ -491,7 +491,7 @@ D’après la prop. 4 de II, p. 202, l’ensemble $Z = Z_1\cup Z_2$ et la famill
 Soit $k\in K$ et soit $a\in A_k$. L’élément $C((a, k),1)$ du groupe $G_o*F(K)$ défini par la formule (2) de II, p. 208 est égal à
 
 $$
-c^{-1}_k\psi ((f_{(a,k)}, k))^{-1}\varphi (f_{(a,k)})e_o[k] =c^{-1}_kk^*(f_{(a,k)})^{-1}f_{(a,k)}[k] \tag{4}
+c^{-1}_k\psi ((f_{(a,k)}, k))^{-1}\varphi (f_{(a,k)})e_o[k] =(c^{-1}_kk^*(f_{(a,k)})^{-1}f_{(a,k)})[k] \tag{4}
 $$
 
 Soient $k$ et $h\in K$. On vérifie que l’élément

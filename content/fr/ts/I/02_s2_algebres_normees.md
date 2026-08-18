@@ -37,7 +37,7 @@ subsections:
       pdf_page: 41
 statements: 28
 exercises: 37
-content_sha256: d4796cb2095cdf3c107d06926dfad89601dbdd19700605bcd8ceac9677ee7781
+content_sha256: 1cb61757c0ffa23cd1a84ba2c42167c92c28844b6af03ea3db75c5ea9dfbbd57
 ---
 
 ## § 2. ALGÈBRES NORMÉES
@@ -195,7 +195,7 @@ $$
 On vérifie que $\varphi$ est un morphisme de $L^1_{\mathbf{C}}(\mathbf{Z})$ sur une algèbre A de fonctions continues sur $\mathbf{U}$, la multiplication dans A étant la multiplication usuelle. En intégrant terme à terme l’égalité
 
 $$
-(\sum_{m\in\mathbf{Z}}c_me^{imt}\cdot e^{-int}=\varphi (x)(e^{it})\cdot e^{-int}
+((\sum_{m\in\mathbf{Z}}c_me^{imt})\cdot e^{-int}=\varphi (x)(e^{it})\cdot e^{-int}
 $$
 
 il vient
@@ -334,7 +334,9 @@ La série $\sum^{\infty}_{n=1}\lambda^nx^n$ a pour rayon de convergence
 
 (cf. VAR, R1, p. 23, 3.1.4). Supposons que A admette un élément unité. Si $\varrho (x)<1$, la série $\sum_{n=0}^{\infty}x^n$ est donc absolument convergente. Comme
 
-$(1-x)\sum_{n=0}^kx^n$ = $\sum_{n=0}^kx^n(1-x) = 1-x^{k+1}$
+$$
+(1-x)(\sum_{n=0}^kx^n)=(\sum_{n=0}^kx^n)(1-x) = 1-x^{k+1}
+$$
 
 pour tout entier $k\geqslant 0$, l’élément $1-x$ est inversible et son inverse est égal à $\sum_{n=0}^{\infty}x^n$.
 

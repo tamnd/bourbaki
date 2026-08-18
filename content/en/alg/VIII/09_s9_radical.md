@@ -34,7 +34,7 @@ subsections:
       pdf_page: 178
 statements: 49
 exercises: 31
-content_sha256: ae649296553202d39850f622e767e33f6ce84c3ec494cf77d555591bb7a1bdbb
+content_sha256: 73b86be9349411a8621a98b186fe42414170e8fac3f90f7e91702862e0c453aa
 ---
 
 ## § 9. RADICAL
@@ -55,7 +55,7 @@ Let $\mathfrak{a}$ be a left ideal of A. The radical of the A-module $A_s/\mathf
 
 #### Example 2 {#alg-viii-s9-n1-exa-2 .statement tag=00A3}
 
-Let A be a principal ideal domain that is not a field, and let K be its field of fractions. As a K-module, K is without radical. Let us prove that the radical of K, viewed as an A-module, is equal to K; equivalently, we must prove that every A-linear mapping $f$ from K to a simple A-module S is zero. By VII, §4, No. 8, p. 25, we may assume that S is equal to $A/(\pi )$, where $\pi$ is an irreducible element of A. We have $f(x) =f \pi \frac{x}{\pi}=\pi f\frac{x}{\pi}$ = 0 for every $x\in K$ because $\pi S = 0$.
+Let A be a principal ideal domain that is not a field, and let K be its field of fractions. As a K-module, K is without radical. Let us prove that the radical of K, viewed as an A-module, is equal to K; equivalently, we must prove that every A-linear mapping $f$ from K to a simple A-module S is zero. By VII, §4, No. 8, p. 25, we may assume that S is equal to $A/(\pi )$, where $\pi$ is an irreducible element of A. We have $f(x) =f(\pi \frac{x}{\pi})=\pi f(\frac{x}{\pi})= 0$ for every $x\in K$ because $\pi S = 0$.
 
 #### Proposition 1 {#alg-viii-s9-prop-1 .statement tag=00A4}
 
@@ -239,7 +239,7 @@ For every A-module M, we have $\mathfrak{R}(A)M\subset \mathfrak{R}(M)$. We have
 
 Let P be a maximal submodule of M; the A-module $M/P$ is simple, hence annihilated by $\mathfrak{R}(A)$ by Proposition 5 of VIII, p. 155. We therefore have $\mathfrak{R}(A)M\subset P$ for every maximal submodule P of M, hence $\mathfrak{R}(A)M\subset \mathfrak{R}(M)$.
 
-We clearly have $\mathfrak{R}(A_s) =\mathfrak{R}(A)A_s$. If the A-module M is projective, then there exists an A-module N such that $M\oplus N$ is free, that is, the direct sum of a family $(L_i)_{i\in I}$ of modules isomorphic to $A_s$. By Corollary 2 of VIII, p. 152, we have $\mathfrak{R}(M\oplus N) =\mathfrak{R}(M)\oplus \mathfrak{R}(N)$ and $\mathfrak{R}\bigoplus_{i\in I}L_i=\bigoplus_{i\in I}\mathfrak{R}(L_i)$. We then deduce $\mathfrak{R}(M) =\mathfrak{R}(A)M$ from the equality $\mathfrak{R}(L_i) =\mathfrak{R}(A)L_i$.
+We clearly have $\mathfrak{R}(A_s) =\mathfrak{R}(A)A_s$. If the A-module M is projective, then there exists an A-module N such that $M\oplus N$ is free, that is, the direct sum of a family $(L_i)_{i\in I}$ of modules isomorphic to $A_s$. By Corollary 2 of VIII, p. 152, we have $\mathfrak{R}(M\oplus N) =\mathfrak{R}(M)\oplus \mathfrak{R}(N)$ and $\mathfrak{R}(\bigoplus_{i\in I}L_i)=\bigoplus_{i\in I}\mathfrak{R}(L_i)$. We then deduce $\mathfrak{R}(M) =\mathfrak{R}(A)M$ from the equality $\mathfrak{R}(L_i) =\mathfrak{R}(A)L_i$.
 
 #### Theorem 2 (“Nakayama’s lemma”) {#alg-viii-s9-thm-2 .statement tag=00S6}
 

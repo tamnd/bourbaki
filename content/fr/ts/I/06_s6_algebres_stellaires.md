@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: 7d6473c5fab25793c991e8f498611b09a1cdbac3350b438f1c42db04f097ce97
+content_sha256: 6c8bb348dc538e5b70e61c4a9825afb915dc2f0c303db9896b1a70a54e57df6d
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -260,7 +260,7 @@ Soit A une algèbre normée involutive. Pour toute forme linéaire $f$ continue 
 
 La première assertion découle des définitions. Pour la seconde, notons $g$ la restriction de $f$ à $A_h$. On a $\|f\|\geqslant \|g\|$. Montrons l’inégalité réciproque. Pour tout $\varepsilon  >$ 0, il existe $x\in$ A tel que $\|x\|\leqslant 1$ et $|f(x)|\geqslant \|f\| -\varepsilon$. En multipliant $x$ par un nombre complexe de module 1, on peut supposer $f(x)\geqslant 0$. Alors l’élément $\frac{1}{2}(x+x^*)$ appartient à $A_h$ et est de norme $\leqslant 1$. On a
 
-1 $_*$ 1 $*$
+$(1_*)$ 1 $*$
 
 $g(x+x)$ = $f(x) +f(x)=f(x)\geqslant \|f\| -\varepsilon$
 
@@ -281,7 +281,7 @@ b) Soit $x\in A_h$ un élément hermitien. Alors exp($ix$) est unitaire.
 En effet, puisque l’involution sur A est continue, on a
 
 $$
-_*^{\infty}x^{n*\infty}(x^*)^n*
+_*(^{\infty}x^n)^{*\infty}(x^*)^n*
 $$
 
 exp($x$) = $\sum=\sum$ = exp($x$)
@@ -808,9 +808,9 @@ On a vu ci-dessus que $x^{1/\alpha}$ vérifie les propriétés demandées. Inver
 
 Soit A une algèbre stellaire unifère. Tout élément de A est somme d’éléments unitaires.
 
-Soit $x$ un élément hermitien de A. Supposons d’abord que $\|x\|\leqslant 2$. D’après le lemme 12, c), on a $1-\frac{1}{4}x^2\in A_+$. Soit $y=\frac{1}{2}x+i1-\frac{1}{4}x^2$.
+Soit $x$ un élément hermitien de A. Supposons d’abord que $\|x\|\leqslant 2$. D’après le lemme 12, c), on a $1-\frac{1}{4}x^2\in A_+$. Soit $y=\frac{1}{2}x+i\surd 1-\frac{1}{4}x^2$.
 
-On a $y^*=\frac{1}{2}x-i\overline{1 -\frac{1}{4}x^2}$, donc $yy^*= 1$ et $x=y+y^*$ est somme de deux éléments unitaires. Dans le cas général, soit $k$ un entier tel que $\|\frac{1}{k}x\|\leqslant 2$ ; l’élément $x$ est alors somme de $2k$ éléments unitaires. D’après le lemme 2 de I, p. 96, le lemme en résulte.
+On a $y^*=\frac{1}{2}x-i\surd\overline{1 -\frac{1}{4}x^2}$, donc $yy^*= 1$ et $x=y+y^*$ est somme de deux éléments unitaires. Dans le cas général, soit $k$ un entier tel que $\|\frac{1}{k}x\|\leqslant 2$ ; l’élément $x$ est alors somme de $2k$ éléments unitaires. D’après le lemme 2 de I, p. 96, le lemme en résulte.
 
 #### Théorème 2 {#ts-i-s6-thm-2 .statement tag=02EL}
 

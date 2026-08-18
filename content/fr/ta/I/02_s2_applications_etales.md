@@ -37,7 +37,7 @@ subsections:
       pdf_page: 56
 statements: 47
 exercises: 7
-content_sha256: 13bb04ff1d756d9a447ef3b992b4c1f68bae9a9393a4d5dd579a930d02863bde
+content_sha256: d56d6dec873cc71578a9856bfb9cb08a6786fae65c2f104ad6998c35015db16d
 ---
 
 ## § 2. APPLICATIONS ÉTALES
@@ -438,7 +438,7 @@ $$
 
 Supposons construits $V_0, . . . ,V_{r-1}$ satisfaisant aux conditions ci-dessus pour $0\leqslant i\leqslant r-1$ et construisons $V_r$. Les ensembles K = $A\cap \complement U_r$ et $L = A\cap \complement (V_0\cup \cdots \cup V_{r-1}\cup U_{r+1}\cup \cdots \cup U_n)$ sont fermés dans A, donc compacts. En raison de $(\alpha )$, ils sont disjoints. Par hypothèse, pour tout point $a$ de L et tout point $b$ de K, il existe des voisinages de $a$ et $b$ dans B disjoints. D’après le lemme 2 ci-dessous, il existe des ensembles ouverts $V_r$ et W dans B, disjoints et tels que $L\subset V_r$ et $K\subset W$. Des inclusions $L\subset V_r$ et $A\subset V_0\cup  \cdots  \cup V_{r-1}\cup U_r\cup  \cdots  \cup U_n$ et de la définition de L, on en déduit que l’on a $(\alpha )$ pour $i=r$. D’autre part, on a $\overline{V_r}\cap K =\emptyset$, d’où $\overline{V_r}\cap A\subset U_r$.
 
-L’ensemble $M =\bigcup_{0\leqslant i\leqslant n}(V_i\cap \complement U_i)$ est fermé et ne rencontre pas A d’après $(\beta )$. D’après $(\alpha )$, l’ensemble V = $\bigcup_{0\leqslant i\leqslant n}\overline{V_i}$ - M est un voisinage de A dans B. Pour $i= 0, . . . , n$, posons $F_i= V\cap \overline{V_i}:$ c’est une partie fermée de V, contenue dans $U_i$. La famille $(F_i)_{0\leqslant i\leqslant n}$ est un recouvrement de V, d’où la propriété (PCV).
+L’ensemble $M =\bigcup_{0\leqslant i\leqslant n}(V_i\cap \complement U_i)$ est fermé et ne rencontre pas A d’après $(\beta )$. D’après $(\alpha )$, l’ensemble $V =((\bigcup_{0\leqslant i\leqslant n}\overline{V_i})-$ M est un voisinage de A dans B. Pour $i= 0, . . . , n$, posons $F_i= V\cap \overline{V_i}:$ c’est une partie fermée de V, contenue dans $U_i$. La famille $(F_i)_{0\leqslant i\leqslant n}$ est un recouvrement de V, d’où la propriété (PCV).
 
 #### Lemme 2 {#ta-i-s2-lem-2 .statement tag=01NM}
 

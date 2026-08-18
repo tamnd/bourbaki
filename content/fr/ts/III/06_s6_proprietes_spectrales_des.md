@@ -41,7 +41,7 @@ subsections:
       pdf_page: 107
 statements: 36
 exercises: 30
-content_sha256: 1254de9e20bc3f47179361612b60b096a00305a91520ed54373230a25129f63d
+content_sha256: 9a54c484931db13b2fd0b104bbe5b6990307e9a26712d3f7778e5982ae0887d9
 ---
 
 ## § 6. PROPRIÉTÉS SPECTRALES DES ENDOMORPHISMES DES ESPACES DE BANACH
@@ -383,7 +383,7 @@ $$
 (VAR, R1, p. 28, 3.2.11). Prenons $z$ tel que $0< z < \delta$. Puisque $a_k\geqslant 0$, on a
 
 $$
-^{+\infty+\infty}k(k-1)\cdots (k-n+ 1)_{k-nn}
+^{+\infty}(^{+\infty}k(k-1)\cdots (k-n+ 1)_{k-n})_n
 $$
 
 $$
@@ -394,7 +394,7 @@ $n$!
 
 $n=0k=n$ $+\infty k+\infty$
 
-$k$! $_{k-nn}k$ $=\sum a_k\sum sz=\sum a_k(s+z)$
+$(k$! $_{k-nn})_k$ $=\sum a_k\sum sz=\sum a_k(s+z)$
 
 $n$!($k-n$)!
 
@@ -431,7 +431,7 @@ $$
 pour $z\in \mathbf{C}$ tel que $z^{-1}\in /$ Sp($u_{(\mathbf{C})}$). Cette fonction vérifie
 
 $$
-f(z) =\ell_0\sum^{+\infty}_{n=0}z^{n+1}u^n_{(\mathbf{C})}x_0=\sum_{n=0}^{\infty}\langle u^n(x_0), \ell_0\rangle z^{n+1} \tag{1}
+f(z) =\ell_0((\sum^{+\infty}_{n=0}z^{n+1}u^n_{(\mathbf{C})})x_0)=\sum_{n=0}^{\infty}\langle u^n(x_0), \ell_0\rangle z^{n+1} \tag{1}
 $$
 
 pour $|z|<1/\varrho$ (théorème 1 de I, p. 24, d)) et est donc holomorphe dans le disque de centre 0 et de rayon $1/\varrho$.

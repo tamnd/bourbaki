@@ -57,7 +57,7 @@ subsections:
       pdf_page: 407
 statements: 50
 exercises: 7
-content_sha256: 63aa057b133f74887ff7815687bc70ad4e8e76f36bfdb6eb8205f5fbaf715e20
+content_sha256: de676bd12e93c36a7a43ea62abdb0605fe18579e9cd1c1cbb3777f19712ff59b
 ---
 
 ## § 1. REPRÉSENTATIONS UNITAIRES
@@ -116,9 +116,9 @@ Si les représentations $\varrho_i$ sont égales à une représentation $\varrho
 
 Soient $(\varrho_i)_{i\in I}$ et $(\pi_j)_{j\in J}$ des familles finies de représentations linéaires continues de G dans des K-espaces vectoriels topologiques $(E_i)_{i\in I}$ et $(F_j)_{j\in J}$, respectivement. L’isomorphisme canonique de K-espaces vectoriels
 
-Hom$_K\bigoplus_{i\in I}E_i,\bigoplus_{j\in J}F_j\rightarrow \bigoplus_{(i,j)\in I\times J}$ Hom$_K(E_i,F_j)$ (A, II, p. 13, cor. 1) induit, par passage aux sous-espaces, un isomorphisme
+Hom$_K(\bigoplus_{i\in I}E_i,\bigoplus_{j\in J}F_j)\rightarrow \bigoplus_{(i,j)\in I\times J}$ Hom$_K(E_i,F_j)$ (A, II, p. 13, cor. 1) induit, par passage aux sous-espaces, un isomorphisme
 
-(1) Hom$_G\bigoplus_{i\in I}\varrho_i,\bigoplus_{j\in J}\pi_j\rightarrow \bigoplus_{(i,j)\in I\times J}$ Hom$_G(\varrho_i, \pi_j)$
+(1) Hom$_G(\bigoplus_{i\in I}\varrho_i,\bigoplus_{j\in J}\pi_j)\rightarrow \bigoplus_{(i,j)\in I\times J}$ Hom$_G(\varrho_i, \pi_j)$
 
 qui est également dit canonique.
 
@@ -716,11 +716,11 @@ Soient maintenant $(E_i)_{i\in I}$ et $(F_j)_{j\in J})$ des familles de sous-esp
 
 Si I est fini, alors
 
-dim Hom$_G(\pi ,M_{\pi}(\varrho )) =$ dim Hom$_GE_{\pi},\bigoplus_{i\in I}E_i$ = Card(I)
+dim Hom$_G(\pi ,M_{\pi}(\varrho )) =$ dim Hom$_G(E_{\pi},\bigoplus_{i\in I}E_i)=$ Card(I)
 
 (formule (1) de V, p. 377 et cor. 2 de V, p. 387). Pour tout sous-ensemble fini L de J, on a alors
 
-Card(L) = dim Hom$_GE_{\pi},\bigoplus_{i\in L}F_j$
+Card(L) = dim Hom$_G(E_{\pi},\bigoplus_{i\in L}F_j)$
 
 $\leqslant$ dim Hom$_G(\pi ,M_{\pi}(\varrho )) =$ Card(I)
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 0
-content_sha256: 42b6b15a8d35c52c77c4cdd11ec65007ecd0a759eb51efe44e28c26290c10d75
+content_sha256: caa1a84b6b9dad3fadb5cc235ba1376df57f7782b9ed6414993cb68f9a306f70
 ---
 
 ## § 4. HOMOTOPIES
@@ -446,7 +446,7 @@ Si $(G_i)_{i\in I}$ est une famille de groupes, on note $_i*_{\in I}G_i$ leur pr
 
 Il existe un unique homomorphisme de groupes
 
-Λ: $*G_{a(i)}*$ F(Orb(H)) $\rightarrow$ Coh($\varphi , \psi$ )$_{a(i_0)}$
+$\Lambda :(*G_{a(i)})*$ F(Orb(H)) $\rightarrow$ Coh($\varphi , \psi$ )$_{a(i_0)}$
 
 $i\in$Orb(G)
 
@@ -500,7 +500,7 @@ On a ainsi $\lambda =\lambda '\circ \varepsilon$, où $\lambda '$ désigne l’h
 
 Notons $\pi :$ Grp(G$_1)\rightarrow$ Coh($\varphi , \psi$ ) le morphisme de groupoïdes canonique. D’après II, p. 177, cor. 1 de la prop. 8, le morphisme de groupes $\pi_{a_0}$ de Grp(G$_1)_{a_0}$ dans Coh($\varphi , \psi$ )$_{a_0}$ est surjectif, et son noyau est le plus petit sous-groupe distingué de Grp(G$_1)_{a_0}$ qui contient les lacets Int($\tau_1(d_a)$)$(\alpha_1(f)\alpha_1(g)\alpha_1(f g)^{-1})$, pour $a\in A$ et $f,g\in G_a$, et les lacets Int($\tau_1(d_{\varphi(b)})$)$(\varphi (f)b\psi (f)^{-1}b^{-1})$, pour $b\in B$ et $f\in H_b$.
 
-Si $p: F(\bigcup G_a\cup B)\rightarrow_a*_{\in A}G_a*F(B)$ désigne l’homomorphisme surjectif canonique, on a ainsi $\Lambda \circ p=\pi_{a_0}\circ \lambda$. Cette formule entraîne que l’homomorphisme Λ est surjectif ; il reste à déterminer son noyau.
+Si $p: F(\bigcup G_a\cup B)\rightarrow (_a*_{\in A}G_a)*F(B)$ désigne l’homomorphisme surjectif canonique, on a ainsi $\Lambda \circ p=\pi_{a_0}\circ \lambda$. Cette formule entraîne que l’homomorphisme Λ est surjectif ; il reste à déterminer son noyau.
 
 Pour $a\in A$ et $f\in G_a$, on note $[f]$ l’image de $f\in F(G_a)$ dans le groupe $_a*_{\in A}F(G_a)*F(B)$. Pour $a\in A,f, g\in G_a$, on a alors
 
@@ -511,11 +511,11 @@ De même, pour $b\in B$ et $f\in H_b$, la définition des homomorphismes $\varph
 Int($\tau_1(d_{\varphi(b)})$)$(\varphi (f)h_1(b)\psi (f)^{-1}h_1(b)^{-1})$
 
 $$
-=\tau_1(d_{\varphi(b)})\varphi (f)c_1(b)\tau_1(b)c_2(b)^{-1}\psi (f)^{-1}
+=\tau_1(d_{\varphi(b)})\varphi (f)(c_1(b)\tau_1(b)c_2(b)^{-1})\psi (f)^{-1}
 $$
 
 $$
-c_2(b)\tau_1(b)^{-1}c_1(b)^{-1}\tau_1(d_{\varphi(b)})^{-1}
+(c_2(b)\tau_1(b)^{-1}c_1(b)^{-1})\tau_1(d_{\varphi(b)})^{-1}
 $$
 
 $$

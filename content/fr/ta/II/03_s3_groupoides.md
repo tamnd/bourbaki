@@ -61,7 +61,7 @@ subsections:
       pdf_page: 194
 statements: 40
 exercises: 12
-content_sha256: 4dfe715249b961d96e905eb455b131622f7a232e95b9449e4111e563d625299f
+content_sha256: 66b7decf54cf5af1b45c61f71105be666040afdbfea5b0bfdb8372786b92d0a8
 ---
 
 ## § 3. GROUPOÏDES
@@ -447,7 +447,7 @@ $$
 $$
 
 $$
-=\delta (c)f_{yz}f_{xz}^{-1}f_{xz}\delta (\ell )f_{xz}^{-1}f_{xz}f_{yz}^{-1}\delta (c)^{-1}\delta (c(c')^{-1})
+=\delta (c)f_{yz}f_{xz}^{-1}(f_{xz}\delta (\ell )f_{xz}^{-1})f_{xz}f_{yz}^{-1}\delta (c)^{-1}\delta (c(c')^{-1})
 $$
 
 La flèche $\delta (c(c')^{-1})$ est la classe d’un lacet en $x$ dans le carquois Γ, donc appartient à $N_x$, de même que la flèche $f_{xz}\delta (\ell )f_{xz}^{-1}$. Comme $\delta (c)f_{yz}f_{xz}^{-1}$ appartient à $G_x$ et que $N_x$ est un sous-groupe distingué de $G_x$, il en résulte que $\delta (c)f_{yz}\delta (\ell )f_{yz}^{-1}\delta (c')^{-1}$ appartient à $N_x$. Par conséquent, $\delta (c)N_y\subset N_x\delta (c')$. Par symétrie, on a $\delta (c)N_y= N_x\delta (c')$. Cela entraîne que cet ensemble ne dépend pas des choix de $c$ et $c'$; on le note $N_{x,y}$.

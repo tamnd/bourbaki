@@ -45,7 +45,7 @@ subsections:
       pdf_page: 467
 statements: 39
 exercises: 23
-content_sha256: 1cf7bcc39b701fb3dd4364c348eb75b948d7a3bc186851d7a54c5a8fb83df6c0
+content_sha256: 3c9cb85e21bfcdbaad233c7bf5fd5d8125ae708085b0d35a0968b94fa0fbcfb1
 ---
 
 ## § 3. FONCTIONS DE TYPE POSITIF
@@ -96,7 +96,11 @@ $$
 =\int_{Y\times Y}\overline{h(x)}h(y)\langle g(x)|g(y)\rangle d(\mu\otimes \mu)(x, y)
 $$
 
-= $\int_Yh(x)g(x)d\mu(x)\int_Yh(y)g(y)d\mu(y)\geqslant 0$ d’après INT, V, p. 97, § 8, n$^o4$, prop. 9.
+$$
+=\langle\int_Yh(x)g(x)d\mu(x)\int_Yh(y)g(y)d\mu(y)\rangle\geqslant 0
+$$
+
+d’après INT, V, p. 97, § 8, n$^o4$, prop. 9.
 
 Démontrons enfin que (ii) implique (iii). Soit $\widetilde{E}$ l’espace des mesures complexes à support fini sur X. Pour $\mu_1$ et $\mu_2$ dans $\widetilde{E}$, on pose
 
@@ -293,7 +297,7 @@ donc $\lambda$ est une forme linéaire positive sur A ; elle est continue puisqu
 Démontrons b). La fonction $f$ est continue. Pour tout $n\in \mathbf{N}$, toute famille $(a_i)_{0\leqslant i\leqslant n}$ dans A et toute famille $(t_i)_{0\leqslant i\leqslant n}$ de nombres complexes, on a
 
 $$
-\sum_{i=0}^n\sum_{j=0}^n\overline{t}_it_jf(a_i, a_j) =\lambda \sum_{i=0}^nt_ia_i^*\sum_{j=0}^nt_ja_j\geqslant 0
+\sum_{i=0}^n\sum_{j=0}^n\overline{t}_it_jf(a_i, a_j) =\lambda ((\sum_{i=0}^nt_ia_i)^*(\sum_{j=0}^nt_ja_j))\geqslant 0
 $$
 
 d’où le résultat (déf. 1 de V, p. 433).
@@ -430,7 +434,7 @@ $n=N+1$
 
 N N $+\infty$
 
-1 1 1
+1 1 $($ 1 $)$
 
 $$
 \sum\leqslant \sum_2\lambda (x_n) =\lambda (x)-\lambda \sum_2x_n\leqslant \lambda (x)
@@ -593,7 +597,7 @@ Comme $\varphi_j(e) =\varphi (e) = 1$, on en déduit que $\varphi_j=\varphi$ si 
 Soit $\varphi \in$ Pos(G). La fonction $\varphi$ est bornée sur G et on a $\|\varphi \|_{\infty}=\varphi (e)$. De plus, on a
 
 $$
-|\varphi (g^{-1}h)-\varphi (h)|\leqslant \overline{2\varphi(e)(\varphi(e) -\mathscr{R}(\varphi(g)))} \tag{1}
+|\varphi (g^{-1}h)-\varphi (h)|\leqslant \surd\overline{2\varphi(e)(\varphi(e) -\mathscr{R}(\varphi(g)))} \tag{1}
 $$
 
 pour tout $(g, h)\in G\times G$.
@@ -667,7 +671,7 @@ $$
 $$
 
 $$
-=\int_Gf_1(g)\pi (g)\widetilde{\pi}(f_2)d\mu(g) =\int_Gf_1(g)\pi (g)d\mu(g)\widetilde{\pi}(f_2)
+=\int_Gf_1(g)\pi (g)\widetilde{\pi}(f_2)d\mu(g) =(\int_Gf_1(g)\pi (g)d\mu(g))\widetilde{\pi}(f_2)
 $$
 
 en utilisant INT, VI, p. 9, § 1, n$^o1$, prop. 1. Il en résulte que
@@ -839,7 +843,7 @@ Comme B est bornée et que la représentation régulière gauche de G dans $L^1(
 Soit $\psi \in L^1(G)$ telle que $\psi \geqslant 0$ et $\int\psi = 1$. Notons $p$ la semi-norme sur $\mathscr{C}_b(G)$ définie par $p(\varphi ) =|\langle \varphi , \psi \rangle |$ pour tout $\varphi \in \mathscr{C}_b(G)$. Pour tout $\varphi \in$ Pos$_1(G)$, on a
 
 $$
-\|\psi *\varphi -\varphi \|_{\infty}\leqslant \overline{2p(1 -\varphi)}
+\|\psi *\varphi -\varphi \|_{\infty}\leqslant \surd\overline{2p(1 -\varphi)}
 $$
 
 Soient $\varphi \in$ Pos$_1(G)$ et $x\in G$. D’après INT, VIII, p. 167, § 4, n$^o5$, prop. 14, on obtient
@@ -853,17 +857,19 @@ $$
 $$
 
 $$
-\leqslant \int_G\overline{2(1 -\mathscr{R}\varphi(y))}\psi (y)d\mu(y)
+\leqslant \int_G\surd\overline{2(1 -\mathscr{R}\varphi(y))}\psi (y)d\mu(y)
 $$
 
 en appliquant la majoration (1) de V, p. 446. L’inégalité de CauchySchwarz implique alors
 
 $\surd \int 1/2\int 1/2$
 
-$\|\psi *\varphi -\varphi \|_{\infty}\leqslant$ 2 $_G(1-\mathscr{R}(\varphi ))\psi  d\mu_G\psi  d\mu$
+$$
+\|\psi *\varphi -\varphi \|_{\infty}\leqslant \overline{2}(_G(1-\mathscr{R}(\varphi ))\psi  d\mu)(_G\psi  d\mu)
+$$
 
 $$
-\surd
+\surd \surd
 $$
 
 $\leqslant$ 2 $p(1-\varphi )$,
@@ -909,7 +915,7 @@ Notons $q_V$ la semi-norme $\varphi \mapsto  |\langle \varphi , \psi_V\rangle |$
 Soit $\varphi \in U\cap$ Pos$_1(G)$. D’après le lemme 7, on a
 
 $$
-\|(\iota -u)(\varphi )\|_{\infty}\leqslant \overline{2q_V(1 -\varphi)}\leqslant \varepsilon
+\|(\iota -u)(\varphi )\|_{\infty}\leqslant \surd\overline{2q_V(1 -\varphi)}\leqslant \varepsilon
 $$
 
 donc $(\iota -u)(U)\subset W$. Le théorème est démontré.

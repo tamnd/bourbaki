@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: 999abfe279d40bbd1131c1aa9c7982fd449cbcfc0cbc9fd13bef252208d60fbb
+content_sha256: 25c4d2c2f1b1803712b5b09be7c64674cb1d3bd13a31477e5ee86d3732a12580
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -124,7 +124,7 @@ $$
 where the $u_r$ are endomorphisms of M. By formula (2), relation (10) gives the equality
 
 $$
-\sum^{m-1}_{r=0}(-1)^ru_rX^{m-1-r}(X-u) =\sum_{r=0}^m(-1)^rc_r(u)X^{m-r} \tag{12}
+(\sum^{m-1}_{r=0}(-1)^ru_rX^{m-1-r})(X-u) =\sum_{r=0}^m(-1)^rc_r(u)X^{m-r} \tag{12}
 $$
 
 in the ring End(M)[X]. By identifying the coefficients of the monomials in X on each side, we obtain the relations
@@ -429,7 +429,7 @@ Let $u$ be the element $\sum_{i\in I}T_i\otimes e_i$ of the central simple $K(\m
 
 We choose an extension L of K and an L-algebra isomorphism $\theta$ from $A_{(L)}$ to $\mathbf{M}_n(L)$. We denote by $\overline{\theta}: A_{(L(\mathbf{T}))}\rightarrow \mathbf{M}_n(L(\mathbf{T}))$ the isomorphism of $L(\mathbf{T})$-algebras deduced from $\theta$ by extension of scalars. By Corollary 1 of VIII, p. 342, we have
 
-(47) $P(X) =\chi_{\overline{\theta}(u)}(X) =$ det(X$I_n-\overline{\theta}(u)) =$ det X$I_n-\sum_{i\in I}T_i\theta (1\otimes e_i)$.
+(47) $P(X) =\chi_{\overline{\theta}(u)}(X) =$ det(X$I_n-\overline{\theta}(u)) =$ det$(XI_n-\sum_{i\in I}T_i\theta (1\otimes e_i))$.
 
 Since the matrices $\theta (1\otimes e_i)$ belong to $\mathbf{M}_n$(L), this formula shows that P is a homogeneous polynomial of degree $n$ in $L[\mathbf{T},X]$. It also belongs to $K(\mathbf{T})[X]$ and can be written as $P(X) =\sum_{j\geqslant 0}c_jX^j$, where each $c_j$ belongs to the intersection $K(\mathbf{T})\cap L[\mathbf{T}]$. By Lemma 3, each of the elements $c_j$ belongs to $K[\mathbf{T}]$; Lemma 4 follows.
 
@@ -437,17 +437,17 @@ Since the matrices $\theta (1\otimes e_i)$ belong to $\mathbf{M}_n$(L), this for
 
 For every extension $K'$ of K and every element $(t_i)_{i\in I}$ of ${K'}^I$, we have
 
-(48) Pcrd$_{A_{(K')}/K'}\sum_{i\in I}t_i\otimes e_i= P((t_i)_{i\in I},X)$.
+(48) Pcrd$_{A_{(K')}/K'}(\sum_{i\in I}t_i\otimes e_i)= P((t_i)_{i\in I},X)$.
 
-Let $\varphi : K[\mathbf{T}]\rightarrow K'$ be the unique K-algebra homomorphism that sends $T_i$ to $t_i$ for every $i\in I$; it defines on $K'$ the structure of a $K[\mathbf{T}$]-algebra. The $K'$-algebra $A_{(K[\mathbf{T}])(K')}$ can be identified with $A_{(K')}$ (transitivity of extension of scalars), where the element $1\otimes \sum T_i\otimes e_i$ is identified with the element $\sum t_i\otimes e_i$ of $A_{(K')}$. We denote by $\overline{\varphi}: K[\mathbf{T}][X]\rightarrow K'[X]$ the K-algebra homomorphism deduced from $\varphi$. By formula (21) of III, §9, No. 3, p. 544, the characteristic polynomial of $\sum t_i\otimes e_i$ with respect to the $K'$-algebra $A_{(K')}$ is the image by $\overline{\varphi}$ of the characteristic polynomial of $\sum T_i\otimes e_i$ with respect to the $K[\mathbf{T}$]-algebra $A_{(K[\mathbf{T}])}$, that is, of $P^n$. In other words, we have
+Let $\varphi : K[\mathbf{T}]\rightarrow K'$ be the unique K-algebra homomorphism that sends $T_i$ to $t_i$ for every $i\in I$; it defines on $K'$ the structure of a $K[\mathbf{T}$]-algebra. The $K'$-algebra $A_{(K[\mathbf{T}])(K')}$ can be identified with $A_{(K')}$ (transitivity of extension of scalars), where the element $1\otimes (\sum T_i\otimes e_i)$ is identified with the element $\sum t_i\otimes e_i$ of $A_{(K')}$. We denote by $\overline{\varphi}: K[\mathbf{T}][X]\rightarrow K'[X]$ the K-algebra homomorphism deduced from $\varphi$. By formula (21) of III, §9, No. 3, p. 544, the characteristic polynomial of $\sum t_i\otimes e_i$ with respect to the $K'$-algebra $A_{(K')}$ is the image by $\overline{\varphi}$ of the characteristic polynomial of $\sum T_i\otimes e_i$ with respect to the $K[\mathbf{T}$]-algebra $A_{(K[\mathbf{T}])}$, that is, of $P^n$. In other words, we have
 
-(49) Pc$_{A_{(K')}/K'}\sum_{i\in I}t_i\otimes e_i; X= P((t_i)_{i\in I},X)^n$;
+(49) Pc$_{A_{(K')}/K'}(\sum_{i\in I}t_i\otimes e_i; X)= P((t_i)_{i\in I},X)^n$;
 
 Lemma 5 then follows from Lemma 2 of VIII, p. 339.
 
 Consider the specific case $K'= K$ of Lemma 5. We have
 
-(50) Pcrd$_{A/K}\sum_{i\in I}t_ie_i; X= P((t_i)_{i\in I},X)$
+(50) Pcrd$_{A/K}(\sum_{i\in I}t_ie_i; X)= P((t_i)_{i\in I},X)$
 
 for every element $(t_i)_{i\in I}$ of $K^I$. Since the polynomial P in $K[\mathbf{T},X]$ is homogeneous of degree $n$, it can be expanded uniquely as
 
@@ -458,7 +458,7 @@ $$
 where $B_r$ is a homogeneous polynomial of degree $r$ in $K[\mathbf{T}]$. By formulas (46), (50), and (51), we have
 
 $$
-b_r\sum_{i\in I}t_ie_i= B_r((t_i)_{i\in I})
+b_r(\sum_{i\in I}t_ie_i)= B_r((t_i)_{i\in I})
 $$
 
 for every element $(t_i)_{i\in I}$ of $K^I$. Proposition 6 follows.

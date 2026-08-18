@@ -23,7 +23,7 @@ subsections:
       pdf_page: 481
 statements: 5
 exercises: 2
-content_sha256: ccb72b61fc06161c2d4193fc99cbb21bba636f19ad764e051c807cd276e7fa52
+content_sha256: 6a275f67834f63e59fe4e11e0da0c6b2368eaf17d2d2e94a1d1bcc7eddcbf0d7
 ---
 
 ## APPENDIX 4 TRACE OF AN ENDOMORPHISM OF FINITE RANK
@@ -51,7 +51,7 @@ $$
 for every $x\in E$, and therefore
 
 $$
-u=\theta \sum_{j\in J}^tu(f_j^*)\otimes f_j \tag{2}
+u=\theta (\sum_{j\in J}^tu(f_j^*)\otimes f_j) \tag{2}
 $$
 
 In the general case, there exist a free A-module L and homomorphisms $i: F\rightarrow L$ and $p: L\rightarrow F$ such that $p\circ i= 1_F$. The homomorphism $i\circ u$ belongs to Hom$^f_A(E,L)$. By the above, there exist a finite set J and, for every $j\in J$, elements $x^*_j$ of $E^*$ and $y_j$ of L such that we have
@@ -66,7 +66,7 @@ $$
 u(x) =p(i(u(x))) =\sum_{j\in J}\langle x, x^*_j\rangle p(y_j)
 $$
 
-for every $x\in E$, and therefore $u=\theta \sum_{j\in J}x^*_j\otimes p(y_j)$ .
+for every $x\in E$, and therefore $u=\theta (\sum_{j\in J}x^*_j\otimes p(y_j))$.
 
 ### 2. Trace of an Endomorphism of Finite Rank
 
@@ -128,7 +128,7 @@ det(1$_L+u'+v'+u'\circ v') =$ det(1$_E+u+v+u\circ v)$.
 
 It therefore suffices to prove assertion b) when the A-module E is free. There then exists a finitely generated free submodule F of E that contains the image of $u$ and that of $v$. Set $w=u+v+u\circ v$. The image of $w$ is contained in F, and we have $w_F=u_F+v_F+u_F\circ v_F$. Therefore, by (5), we have det(1$_E+u) =$ det(1$_F+u_F)$, det(1$_E+v) =$ det(1$_F+v_F)$, and
 
-det $(1_E+u)\circ (1_E+v)$
+det$((1_E+u)\circ (1_E+v))$
 
 = det(1$_E+w) =$ det(1$_F+w_F) =$ det((1$_F+u_F)\circ (1_F+v_F))$.
 
