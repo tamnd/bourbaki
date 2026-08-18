@@ -69,7 +69,7 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: 1ac369502f9cd7399820f978d2c714658c3f36eea24d636559d7b9e549c3364b
+content_sha256: a74ac147099eff6da32ee6e6dcd35fe8a90b8e37e85b35cf9520055608989c00
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -1496,7 +1496,7 @@ b) La fonction qui à $\lambda$ associe $R_{Sp_A(x)-\{\mu\}}(x, \lambda )$ est h
 
 c) On a
 
-$_{n\rightarrow}$lim$_{+\infty}\|(x-\mu)^nj_{\{\mu\}}\|^{1/n}= 0$
+lim$_{n\rightarrow+\infty}\|(x-\mu)^nj_{\{\mu\}}\|^{1/n}= 0$
 
 et, pour $\lambda \in \mathbf{C}-\{\mu\}$, la formule
 
@@ -1616,11 +1616,11 @@ Soit A une algèbre unifère normable complète sur $\mathbf{R}$. Soit $x$ un é
 
 Soit $x$ un élément de A. Le rayon spectral de $1\otimes x\in A_{(\mathbf{C})}$ est égal au rayon spectral $\varrho (x)$ de $x$. C’est le plus petit nombre réel $r\geqslant 0$ tel que $|\lambda |\leqslant r$ pour tout $\lambda \in$ Sp$_{A_{(\mathbf{C})}}(x)$. On a
 
-$\varrho (x) =_{n\rightarrow}$lim$_{+\infty}\|x^n\|^{1/n}=$ inf$_{n>0}\|x^n\|^{1/n}$
+$\varrho (x) =$ lim$_{n\rightarrow+\infty}\|x^n\|^{1/n}=$ inf$_{n>0}\|x^n\|^{1/n}$
 
 pour toute norme sur A qui définit la topologie de A. En effet, on peut supposer que la norme sur A est la restriction d’une norme sur $A_{(\mathbf{C})}$ qui définit la topologie de $A_{(\mathbf{C})}$ et appliquer la prop. 1 de I, p. 20.
 
-Notons $u\mapsto \overline{u}$ l’endomorphisme de la $\mathbf{R}$-algèbre $A_{(\mathbf{C})}$ qui applique $\lambda \otimes a$ sur $\lambda \otimes a$. Il est continu.
+Notons $u\mapsto \overline{u}$ l’endomorphisme de la $\mathbf{R}$-algèbre $A_{(\mathbf{C})}$ qui applique $\lambda \otimes a$ sur $\overline{\lambda}\otimes a$. Il est continu.
 
 #### Lemme {#ts-i-s4-n13-lem-1 .statement tag=02BB}
 

@@ -236,7 +236,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native
-              content_sha256: 1b6f872bd56a0a5117fa3b7bd142070fbfa037e56b7d448fe4d87c586c30a6d0
+              content_sha256: 999abfe279d40bbd1131c1aa9c7982fd449cbcfc0cbc9fd13bef252208d60fbb
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -640,7 +640,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: 72f8391c11c1559d61f45db3c4f54e293ab78ed7af7f9bf4a0f8c8128c18fc12
+              content_sha256: 4688ff565ca0892c40105efdc12811ab01ef97037389da651995d0923aab11c2
             - kind: appendix
               section: 1
               title: Algèbres sans élément unité
@@ -809,7 +809,7 @@ books:
               statements: 3
               exercises: 2
               extraction: native
-              content_sha256: ffaf56e9c1944e0bbcecbf623479502c717683b83fb96d7dea3d76415a97a8f1
+              content_sha256: 6815acf2afc501a143a6b3e3cf8be4ea737f53892b4f2aaf449f276606a30fa7
         - chapter: VIII
           title: SPLIT SEMI-SIMPLE LIE ALGEBRAS
           sections:
@@ -848,7 +848,7 @@ books:
               statements: 28
               exercises: 11
               extraction: native
-              content_sha256: 76903e64a7bed03cf3d69b67d5aabf44c01f8897393cfc4484d11de5199bd2ab
+              content_sha256: b6b010a3443e56802bde6d1dd708cdbb81daed274c9f82045c9d4ac2461324f5
             - kind: section
               section: 3
               title: Subalgebras of split semi-simple Lie algebras
@@ -900,7 +900,7 @@ books:
               statements: 17
               exercises: 5
               extraction: native
-              content_sha256: 3a707a40b405a269e1c921c11fec0003f9973d5dcde7d8f2258ba0e253ca3267
+              content_sha256: c211a31d4ec489891d1c7c2e4e1de1aa3996ca03091ecac30b0fd9ff2883ce44
             - kind: section
               section: 7
               title: Finite dimensional modules over a split semi-simple Lie algebra
@@ -913,7 +913,7 @@ books:
               statements: 46
               exercises: 27
               extraction: native+ocr
-              content_sha256: 5cf2b89307d842682809234269b9961cffdf062c2efa655f3f69a1f02cf39050
+              content_sha256: 87b39c9bfe478d342de38ffe999cbb4683ff60ad0e7df4e7c4af7866d6794b71
             - kind: section
               section: 8
               title: Symmetric invariants
@@ -939,7 +939,7 @@ books:
               statements: 12
               exercises: 16
               extraction: native
-              content_sha256: 4d86b04a3d0a3385c9979c7d5a9a83e7e6f7bf558e00dc37fd87a4e49b99ee0b
+              content_sha256: cdad9e1b17a7fa46e0e0d73c966a5d1a4baf0cc9382da9b4942edcce24aca728
             - kind: section
               section: 10
               title: Maximal subalgebras of semi-simple Lie algebras
@@ -991,7 +991,7 @@ books:
               statements: 2
               exercises: 19
               extraction: native+ocr
-              content_sha256: 15adcec79fdbd8d1938feb857e0d74e726a16abb0cc9269ca9e30ca5df8237c4
+              content_sha256: a6786703c1694e0915a56d95e3d4a29484e07904c8354969f4cfebaf628bde77
         - chapter: IX
           title: COMPACT REAL LIE GROUPS
           sections:
@@ -1056,7 +1056,7 @@ books:
               statements: 60
               exercises: 22
               extraction: native+ocr
-              content_sha256: 0b80306211126e0666f9faab3eeafa11cba96b5a32f4c5590939cc24b6c9453d
+              content_sha256: 8095037f0fc69959fa97c330cc51d60fb542113b965393547cea450926de23a1
             - kind: section
               section: 5
               title: Conjugacy classes
@@ -1069,7 +1069,7 @@ books:
               statements: 26
               exercises: 12
               extraction: native
-              content_sha256: 3f426d926882951431d94183bc438fab427a521e6c9e82a63ccbf5726084177e
+              content_sha256: 4fd2c9a8ab7274081449e461404995d5e8b639030d5ada6ef2edfb77c95a678c
             - kind: section
               section: 6
               title: Integration on compact Lie groups
@@ -1082,7 +1082,7 @@ books:
               statements: 25
               exercises: 13
               extraction: native
-              content_sha256: edfea0057110aa9a9db8e3f776a7e0c233f1cbf817d78946a764a8f6e710798b
+              content_sha256: 7813497304c352b75cf4c0641dfb463226d33dfbfddd31375b2e00a0f3b19f41
             - kind: section
               section: 7
               title: Irreducible representations of connected compact Lie groups
@@ -1095,7 +1095,7 @@ books:
               statements: 28
               exercises: 8
               extraction: native
-              content_sha256: dd51693509eee7991f41c5b8f616a98acc66808424b5a3dd016645c17d6a86fb
+              content_sha256: 10653b6246a96b52e6bd66aab35f9ba7226bd5f78d6b12a19035ae0458ed822c
             - kind: section
               section: 8
               title: Fourier transform
@@ -1108,7 +1108,7 @@ books:
               statements: 9
               exercises: 6
               extraction: native
-              content_sha256: e09893f179a0081836009f746d500d6517b0410874ab7dd281c3625db876ecb8
+              content_sha256: 8a3ee642895059a35742987bf3b56b09911f45d68f9c737f090325e6e0723b8e
             - kind: section
               section: 9
               title: Compact Lie groups operating on manifolds
@@ -1121,7 +1121,7 @@ books:
               statements: 19
               exercises: 21
               extraction: native
-              content_sha256: 26df5bed0a544e84f183e2c4af848922ed58cc603a6f4d2d5d7b5ea790567cc3
+              content_sha256: 8c2073b5f29f23a876cc3f565466e0e0b86becb2682461c1b7eb9510b56be041
             - kind: appendix
               section: 1
               title: Structure of compact groups
@@ -1134,7 +1134,7 @@ books:
               statements: 9
               exercises: 1
               extraction: native
-              content_sha256: 22c59858b77a46c828405331f7fdca7c63d6707ea39fff850fbb3ddfdca3e6ba
+              content_sha256: de4bab2eb576d2786af8e9184bd93ea9655d5554cf144c1824c2ea4a76f92e3d
             - kind: appendix
               section: 2
               title: Representations of real, complex or quaternionic type
@@ -1147,7 +1147,7 @@ books:
               statements: 6
               exercises: 0
               extraction: native
-              content_sha256: 9e50cf70232aa333aa71eb3631458b86dd3394addacaf6f3c5c075a6d0b86160
+              content_sha256: 836d477d1d8b566ba9063fca6943272ca1427f4b5d7360fd5470f407be11e5f1
     - id: ta-i-iv-fr
       chapters:
         - chapter: I
@@ -1189,7 +1189,7 @@ books:
               statements: 47
               exercises: 7
               extraction: native
-              content_sha256: 9dad7a878106a2f9eefb64314958fdaba881d0dafe1420cbfcf5a4642fa7150d
+              content_sha256: 13bb04ff1d756d9a447ef3b992b4c1f68bae9a9393a4d5dd579a930d02863bde
             - kind: section
               section: 3
               title: Faisceaux
@@ -1215,7 +1215,7 @@ books:
               statements: 50
               exercises: 9
               extraction: native
-              content_sha256: ca934970917f7acfc2a1a30a448cc17a1363b1b813438b2326705c4c97461c14
+              content_sha256: 916341507886c94d44e3a85c81ae652384d3301dd530bc5695ec9d9236e91c39
             - kind: section
               section: 5
               title: Revêtements principaux
@@ -1241,7 +1241,7 @@ books:
               statements: 37
               exercises: 6
               extraction: native
-              content_sha256: d5a188d8b0d7068e538d2065b1061f61529072b3ee98bb174c1823580c7eb2a4
+              content_sha256: c6d0993e829a2955b1258653b09c3384e67c4b4997f601243f059e235c149aee
         - chapter: II
           title: GROUPOÏDES
           sections:
@@ -1347,7 +1347,7 @@ books:
               statements: 55
               exercises: 32
               extraction: native
-              content_sha256: f4971769765862da61194450af840c5907877f45a78a17ce62acf26323b8b595
+              content_sha256: b453c408e1566ffbdf09d7e4ee4b66bd3c9cc844cc3b5021c7fd52dd24450767
             - kind: section
               section: 2
               title: Homotopie et chemins
@@ -1373,7 +1373,7 @@ books:
               statements: 27
               exercises: 2
               extraction: native
-              content_sha256: 7f6e95725b6bd44931cf0ad6c60fdb1ae0b277f4ca895550da3b0115d568d793
+              content_sha256: 496c61d02e65e02e931a99db0e92ba22dd6ffb33d7da8b8a85e183d7967bd773
             - kind: section
               section: 4
               title: Homotopie et revêtements
@@ -1439,7 +1439,7 @@ books:
               statements: 30
               exercises: 5
               extraction: native
-              content_sha256: 9772e1f4e76b3b582778d0dcf1d6374675f46c35d8aede4730b0332b38d763c7
+              content_sha256: 73be7faacaad596224ce51c812b7b813c35e21521a9b0c6735de21f9cd9783bf
             - kind: section
               section: 3
               title: Groupes de Poincaré des groupes topologiques
@@ -1478,7 +1478,7 @@ books:
               statements: 31
               exercises: 34
               extraction: native
-              content_sha256: a239c877d71cc57ffa8ad7b91544b7f9369dedf30376afca4843d62d6e970a21
+              content_sha256: e79c8eba611e20041294ae13e15c711e20632163d969c3eeaa3e9a6a32fe8b6e
             - kind: section
               section: 6
               title: Espaces classifiants
@@ -1533,7 +1533,7 @@ books:
               statements: 28
               exercises: 37
               extraction: native
-              content_sha256: 7d57a2c0bc2e11f856c189b38405a434eda5b18d670b09934c9bee403c10bcf5
+              content_sha256: d4796cb2095cdf3c107d06926dfad89601dbdd19700605bcd8ceac9677ee7781
             - kind: section
               section: 3
               title: Algèbres de Banach commutatives
@@ -1546,7 +1546,7 @@ books:
               statements: 48
               exercises: 29
               extraction: native
-              content_sha256: dc4bbf882ab4fdf9177f6b1db44fa440c2e1a0ac8cb4aad76e8da93928080d91
+              content_sha256: 22d473e429eed45d33fefe3467706528ddb028e3f35c9415faf56e0b0053f3c6
             - kind: section
               section: 4
               title: Calcul fonctionnel holomorphe
@@ -1559,7 +1559,7 @@ books:
               statements: 55
               exercises: 18
               extraction: native
-              content_sha256: 1ac369502f9cd7399820f978d2c714658c3f36eea24d636559d7b9e549c3364b
+              content_sha256: a74ac147099eff6da32ee6e6dcd35fe8a90b8e37e85b35cf9520055608989c00
             - kind: section
               section: 5
               title: Algèbres de Banach commutatives régulières
@@ -1585,7 +1585,7 @@ books:
               statements: 94
               exercises: 32
               extraction: native
-              content_sha256: 6f8ce344ef5642517e1cb7726558e8469f3dc08355415499505a62c8c2c45569
+              content_sha256: 7d6473c5fab25793c991e8f498611b09a1cdbac3350b438f1c42db04f097ce97
             - kind: section
               section: 7
               title: Spectre des endomorphismes des espaces de Banach
@@ -1611,7 +1611,7 @@ books:
               statements: 11
               exercises: 11
               extraction: native
-              content_sha256: 3f1fd52aa2c76a1599873fb74074632e344dc99525e806056a931e4820fb77ac
+              content_sha256: 8fe76be759a77765550c8160871cd94d43c6e6fd43698f94622bb02a9737ec2b
         - chapter: II
           title: GROUPES LOCALEMENT COMPACTS COMMUTATIFS
           sections:
@@ -1625,7 +1625,7 @@ books:
               statements: 0
               exercises: 0
               extraction: native
-              content_sha256: 5ca30079fca3d18f186c401318d1a8d5f7c6d8011f655ad4be7d731ee2aba72a
+              content_sha256: f3039b6e11d0133e1a74a2104e26c4eb1c0bd24b48732b1255e9aa3b16160b3d
             - kind: section
               section: 1
               title: Transformation de Fourier
@@ -1638,7 +1638,7 @@ books:
               statements: 95
               exercises: 68
               extraction: native
-              content_sha256: 25162170ccb7ee335ac10c1d276bbc192338f064720e37af09626328d4b4a1b5
+              content_sha256: 878133f336c87e3b75fde4a4414f755340a33aa83fc58b44e2a4777dd8d471f7
             - kind: section
               section: 2
               title: Classification
@@ -1664,7 +1664,7 @@ books:
               statements: 12
               exercises: 19
               extraction: native
-              content_sha256: 99dd0d98a1e424221559f5cedef378b06584a4fca7c47aa0cefacbc11693be3d
+              content_sha256: e0b4864d9d9360b182bf5c99e1c452c440f41e4a730afa1e81150fb4e45ee16a
     - id: ts-iii-v-fr
       chapters:
         - chapter: III
@@ -1706,7 +1706,7 @@ books:
               statements: 26
               exercises: 4
               extraction: native
-              content_sha256: 03cdb2dcf9cb606ba017e7ae3d2b733dadf992090530afbe1973dfe75bef96a7
+              content_sha256: a5cb4660dca5afd014a904f44c7e598569df691d30c59b7c5edebbbdc4432fef
             - kind: section
               section: 3
               title: Endomorphismes de Fredholm et endomorphismes de Riesz
@@ -1732,7 +1732,7 @@ books:
               statements: 30
               exercises: 9
               extraction: native
-              content_sha256: ff0e92a20a2a5e0b5f5ba284cffcad385294068275e580b55871bfb20e8b5ca8
+              content_sha256: edf886a429efe9a7bd4fd42ce4d4fec74a1bf8283e1bbb1a9003c9d84c39f157
             - kind: section
               section: 5
               title: Perturbation par une application linéaire compacte
@@ -1758,7 +1758,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native
-              content_sha256: a9d8fdf3b8fc2586e56d218165fd8291cc71db692acf62f555fad9fa5835dfe5
+              content_sha256: 1254de9e20bc3f47179361612b60b096a00305a91520ed54373230a25129f63d
         - chapter: IV
           title: THÉORIE SPECTRALE HILBERTIENNE
           sections:
@@ -1785,7 +1785,7 @@ books:
               statements: 66
               exercises: 22
               extraction: native
-              content_sha256: 4db5f659f6f30649155bfba69f064247a3715361301acd1965247c33dfa2869f
+              content_sha256: 02268fb46c98da7a41f0f6c8e34ccdf3ad784c00e6cf9dbaab20b2e253c1802d
             - kind: section
               section: 2
               title: Endomorphismes normaux
@@ -1798,7 +1798,7 @@ books:
               statements: 32
               exercises: 28
               extraction: native
-              content_sha256: 7dbd6f8bc5fe632828e0833ac67f435669dc92eb05dfb8227ef011b2be6962a9
+              content_sha256: 07a18526d5a155ecdc84d7c9c9026821ea522d3498352cd029f7fc844e88eb36
             - kind: section
               section: 3
               title: Distributions et distributions tempérées
@@ -1811,7 +1811,7 @@ books:
               statements: 46
               exercises: 33
               extraction: native
-              content_sha256: 35e850fce35144b4aa7619a80277adfefd0ed2277bbce570b8013312c51df017
+              content_sha256: e0232bd4e9d4faec675a0d9064884947524a3aa2acb384a095da7d4beee875b1
             - kind: section
               section: 4
               title: Opérateurs partiels
@@ -1824,7 +1824,7 @@ books:
               statements: 74
               exercises: 24
               extraction: native
-              content_sha256: 0cddd7aa9f7cd15fe7bc433a72acbbcc6663e450dfb3f086bd19f4bceac63a77
+              content_sha256: dbd74866036b545c5c8a81ab2219bcf090af64a55385298e5b46804a2285b0f7
             - kind: section
               section: 5
               title: Opérateurs partiels normaux et théorème spectral
@@ -1837,7 +1837,7 @@ books:
               statements: 75
               exercises: 43
               extraction: native
-              content_sha256: 6bc1adaefbeb6af5fbf21475ca1408f45da4a887dd5168d56fcb58b036d50d09
+              content_sha256: 13d09bb9a584c78bb6cb361de8716c465037d18e6939a71fa1722cb31207d1ae
         - chapter: V
           title: REPRÉSENTATIONS UNITAIRES
           sections:
@@ -1877,7 +1877,7 @@ books:
               statements: 45
               exercises: 20
               extraction: native
-              content_sha256: 47baaeb753724744015282f3a1fbf63b56671be0a71d63144dc77e42a5ca4265
+              content_sha256: 6dbfad8065b8b554d4227d9bade09fd98220ccdf752f84685f4561b0cd7d148f
             - kind: section
               section: 3
               title: Fonctions de type positif
@@ -1903,7 +1903,7 @@ books:
               statements: 54
               exercises: 32
               extraction: native
-              content_sha256: de6bb5480b1019f4ef8bd38dc3d7c88a01da27bcb3eba5fe1ff7bae49ed568f1
+              content_sha256: c12dbed9f4544d6541cded491bb802991c2c8ef8752418e2a04e4aad4adfb67f
             - kind: historical
               title: Historical Note
               path: content/fr/ts/V/historical_note.md

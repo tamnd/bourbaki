@@ -33,7 +33,7 @@ errata:
     - says: §5, no. 2, Cor. of Prop. 2
       read: §5, no. 2, Cor. 1 of Prop. 2
       why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and the reference does not say which. The sentence citing it has G simply-connected and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected group. Corollary 2 is the same statement for the Lie algebra, over a chamber rather than an alcove, and Corollary 3 is about existence and uniqueness and names no map at all.
-content_sha256: 26df5bed0a544e84f183e2c4af848922ed58cc603a6f4d2d5d7b5ea790567cc3
+content_sha256: 8c2073b5f29f23a876cc3f565466e0e0b86becb2682461c1b7eb9510b56be041
 ---
 
 ## § 9. COMPACT LIE GROUPS OPERATING ON MANIFOLDS
@@ -296,7 +296,7 @@ To prove $c)$, observe that the assumption that $X/G$ is connected implies that 
 
 We now prove $c)$ by induction on the dimension of X, the assertion being clear for dim X = 0. Let $\tau$ be a maximal element among the orbit types of the points of X (such an element exists by Lemma $6c))$. We shall prove the following:
 
-$c')$ For every subset A of $X_{(t)}$, open and closed in $X_{(\tau)}$ and stable under G, the closure A of A in X is open.
+$c')$ For every subset A of $X_{(t)}$, open and closed in $X_{(\tau)}$ and stable under G, the closure $\overline{A}$ of A in X is open.
 
 This assertion implies $c)$. Indeed, note first that $X_{(\tau)}$ is open in X, by $a)$; assertion $c')$ implies that $X_{(\tau)}$ is open and closed in X, hence equal to X since it is stable under G and $X/G$ is connected. Let A be a non-empty open and closed subset of $X_{(\tau)}$ stable under G; by $c'), A$ is open and closed in X and stable under G, hence equal to X; this implies that A is dense in $X_{(\tau)}$, hence equal to $X_{(\tau)}$. Consequently, every non-empty open and closed subset of $X_{(\tau)}/G$ is equal to $X_{(\tau)}/G$, which proves that $X_{(\tau)}/G$ is connected. Finally, since $X_{(\tau)}$ is dense in X, it follows from $a)$ that every point of X is of type $\leq \tau$; in other words, $\tau$ is the largest element among the orbit types of the points of X.
 

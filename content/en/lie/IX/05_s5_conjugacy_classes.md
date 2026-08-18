@@ -29,7 +29,7 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: 3f426d926882951431d94183bc438fab427a521e6c9e82a63ccbf5726084177e
+content_sha256: 4fd2c9a8ab7274081449e461404995d5e8b639030d5ada6ef2edfb77c95a678c
 ---
 
 ## § 5. CONJUGACY CLASSES
@@ -90,7 +90,7 @@ b) The group W (resp. $W_a)$ operates simply-transitively on the set of chambers
 
 c) Let C be a chamber and A an alcove. Then C (resp. A, resp. A) is a fundamental domain for the operation of W on $\mathfrak{t}$ (resp. of $W_a$ on $\mathfrak{t}$, resp. of $W_a$ on $\mathfrak{t}$**--** $\mathfrak{t}_r)$. If $x\in \mathfrak{t}_r$ and $w\in W_a$ are such that $w(x) =x$, then $w=$ Id.
 
-d) For every chamber C, there exists a unique alcove A such that $A\subset C$ and $0\in A$. For every alcove A, there exists a unique $\gamma \in N(G,T)$ such that $\gamma \in A$.
+d) For every chamber C, there exists a unique alcove A such that $A\subset C$ and $0\in \overline{A}$. For every alcove A, there exists a unique $\gamma \in N(G,T)$ such that $\gamma \in \overline{A}$.
 
 If $w\in W$ and $\gamma \in \Gamma$(T), then $wt_{\gamma}w^{-1}=t_{w(\gamma)}$ and $wt_{\gamma}w^{-1}t^{-1}_{\gamma}=t_{w(\gamma)-\gamma}$, with $w(\gamma )-\gamma \in N(G,T)$; this immediately implies $a)$. The rest of the proposition follows from Chap. VI, §1, no. 5 and §2, nos. 1 and 2.
 
@@ -100,7 +100,7 @@ Let A be an alcove of $\mathfrak{t},\overline{A}$ its closure, and $H_A$ the sta
 
 a) The group $W'_a$ is the semi-direct product of $H_A$ by $W_a$.
 
-b) The exponential map $A\rightarrow T$ and the canonical injection $T\rightarrow G$ induce by passage to the quotients and to subsets homeomorphisms
+b) The exponential map $\overline{A}\rightarrow T$ and the canonical injection $T\rightarrow G$ induce by passage to the quotients and to subsets homeomorphisms
 
 $\overline{A}/H_A\rightarrow T/W\rightarrow G/$Int(G)
 

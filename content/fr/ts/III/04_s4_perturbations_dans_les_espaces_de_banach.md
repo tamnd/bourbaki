@@ -37,7 +37,7 @@ subsections:
       pdf_page: 81
 statements: 30
 exercises: 9
-content_sha256: ff0e92a20a2a5e0b5f5ba284cffcad385294068275e580b55871bfb20e8b5ca8
+content_sha256: edf886a429efe9a7bd4fd42ce4d4fec74a1bf8283e1bbb1a9003c9d84c39f157
 ---
 
 ## § 4. PERTURBATIONS DANS LES ESPACES DE BANACH
@@ -198,9 +198,9 @@ Soit $u\in U$. Puisque $u$ induit un automorphisme de Ker($e_0(u)$), qui est un 
 
 Soient E et F des espaces normés, $u: E\rightarrow F$ une application linéaire continue, N le noyau de $u$ et I son image. Notons $p$ la surjection canonique de E sur $E/N$ et $i$ l’injection canonique de I dans F. Soit $\widetilde{u}$ l’application linéaire bijective de $E/N$ sur I telle que $u=i\circ \widetilde{u}\circ p$. L’espace vectoriel $E/N$ est muni de la norme quotient, c’est-à-dire que
 
-(2) $\|y\|=$ inf $\|x\|$
+(2) $\|y\|=$ inf$_{x\in\overset{-1}{p}(y)}\|x\|$
 
-pour tout $y\in E/N$. L’application$^{x\in}\widetilde{u}^{^-p}$est continue et$^{^1(y)}\|u\|=\|\widetilde{u}\|$, d’où
+pour tout $y\in E/N$. L’application $\widetilde{u}$ est continue et $\|u\|=\|\widetilde{u}\|$, d’où
 
 $$
 \|u(y)\|
@@ -304,11 +304,9 @@ $$
 
 puisque l’application $v$ est injective. En d’autres termes, P se compose des éléments de F de la forme $v(y)$ avec $y\in E/N$ et $\|y\|\geqslant 1$. Notons $d_P$ la distance de 0 à P dans F. On a
 
-$d_P=$ inf$_{y\in E/N}\|v(y)\|=$ inf$_{y\in E/N}\|v(y)\|= ((u))$
+$d_P=$ inf$_{y\|\in yE\|\geqslant/N1}\|v(y)\|=$ inf$_{y\|\in yE\|=1/N}\|v(y)\|= ((u))$ d’après (6).
 
-$\|y\|\geqslant 1\|y\|=1$ d’après (6).
-
-Supposons que $u$ soit un morphisme strict. Soit $\varepsilon  >0$. L’ensemble $\varepsilon u(B)$ est un voisinage de 0 dans $u(E)$. L’adhérence de $u(B)$ dans $u(E)$ est égale à $u(B)\cap u(E)$. Elle est contenue dans l’ensemble $u(B) +\varepsilon u(B)$ qui est égal à $(1 +\varepsilon )u(B)$ puisque $u(B)$ est convexe. On a par suite $(1 +\varepsilon )P\subset Q\subset P$ et la distance $d_Q$ de 0 à Q dans F satisfait aux inégalités $d_P\leqslant d_Q\leqslant (1 +\varepsilon )d_P$. Puisque ceci a lieu pour tout $\varepsilon  >0$, on a $d_Q=d_P= ((u))$.
+Supposons que $u$ soit un morphisme strict. Soit $\varepsilon  >0$. L’ensemble $\varepsilon u(B)$ est un voisinage de 0 dans $u(E)$. L’adhérence de $u(B)$ dans $u(E)$ est égale à $\overline{u(B)}\cap u(E)$. Elle est contenue dans l’ensemble $u(B) +\varepsilon u(B)$ qui est égal à $(1 +\varepsilon )u(B)$ puisque $u(B)$ est convexe. On a par suite $(1 +\varepsilon )P\subset Q\subset P$ et la distance $d_Q$ de 0 à Q dans F satisfait aux inégalités $d_P\leqslant d_Q\leqslant (1 +\varepsilon )d_P$. Puisque ceci a lieu pour tout $\varepsilon  >0$, on a $d_Q=d_P= ((u))$.
 
 Supposons que $u$ ne soit pas un morphisme strict, mais que l’espace normé E soit complet. On a alors $((u)) = 0$ (remarque ci-dessus). L’adhérence de $u(B)$ dans $u$(E), qui est égale à $\overline{u(B)}\cap u$(E), n’est pas un voisinage de 0 dans $u(E)$ (EVT, I, p. 17, th. 1). Il existe alors des points de Q arbitrairement proches de 0, d’où $d_Q= 0 = ((u))$.
 

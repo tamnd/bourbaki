@@ -25,7 +25,7 @@ subsections:
       pdf_page: 161
 statements: 11
 exercises: 11
-content_sha256: 3f1fd52aa2c76a1599873fb74074632e344dc99525e806056a931e4820fb77ac
+content_sha256: 8fe76be759a77765550c8160871cd94d43c6e6fd43698f94622bb02a9737ec2b
 ---
 
 ## § 8. ALGÈBRES DE FONCTIONS CONTINUES SUR UN ESPACE COMPACT
@@ -112,7 +112,7 @@ log($|\chi (f)|$)$\leqslant \int_X$ log($|f|$)$d\mu_{\chi}$; la fonction log$|f|
 
 L’assertion a) résulte de l’identification de X avec un sous-espace fermé de $\mathsf{X}(B)$ et des inégalités
 
-$\|f\|=$ sup$_{x\in X}|f(x)|\leqslant_{\chi\in}$sup$_{\mathsf{X}(B)}|\chi (f)|=$ sup$|\mathscr{G}_B(f)|=\varrho_B(f)\leqslant \|f\|$
+$\|f\|=$ sup$_{x\in X}|f(x)|\leqslant$ sup$_{\chi\in\mathsf{X}(B)}|\chi (f)|=$ sup$|\mathscr{G}_B(f)|=\varrho_B(f)\leqslant \|f\|$
 
 pour tout $f\in B$.
 
@@ -154,7 +154,9 @@ $$
 |h|e^{-\varepsilon}\leqslant |f|+\varepsilon \leqslant |h|e^{\varepsilon} \tag{3}
 $$
 
-La majoration implique $|f h^{-1}|\leqslant e^{\varepsilon}$, d’où $|\chi (f h^{-1})|\leqslant e^{\varepsilon}$, et par suite (4) log($|\chi (f)|$)$\leqslant$ log($|\chi (h)|$) $+\varepsilon =\int_X$ log($|h|$)$d\mu_{\chi}+\varepsilon$.
+La majoration implique $|f h^{-1}|\leqslant e^{\varepsilon}$, d’où $|\chi (f h^{-1})|\leqslant e^{\varepsilon}$, et par suite
+
+(4) log($|\chi (f)|$)$\leqslant$ log($|\chi (h)|$) $+\varepsilon =\int_X$ log($|h|$)$d\mu_{\chi}+\varepsilon$.
 
 La minoration dans (3) implique alors
 
@@ -170,9 +172,7 @@ Ceci finit la démonstration.
 
 Soient Λ un ensemble et X une partie compacte de $\mathbf{C}^{\Lambda}$. On note P(X) la sous-algèbre de Banach unifère de $\mathscr{C}(X)$ formée des fonctions sur X qui sont limites uniformes sur X de fonctions polynômes sur $\mathbf{C}^{\Lambda}$. Les fonctions coordonnées $z_{\lambda}|X$ engendrent topologiquement P(X), et P(X) sépare les points de X. Soit Y l’enveloppe polynomialement convexe de X (déf. 4 de I, p. 45). Comme
 
-sup$|p(z)|=$ sup $|p(z)|$
-
-$z\in Yz\in X$
+sup$_{z\in Y}|p(z)|=$ sup$_{z\in X}|p(z)|$
 
 (cf. n$^o7$ de I, p. 44) pour tout $p\in \mathbf{C}[(X_{\lambda})_{\lambda\in\Lambda}]$, les suites de polynômes uniformément convergentes dans X se prolongent de manière unique en suites de polynômes uniformément convergentes dans Y. Il existe donc un unique isomorphisme isométrique de P(X) sur P(Y) qui, pour toute fonction coordonnée $z_{\lambda}$ sur $\mathbf{C}^{\Lambda}$, transforme $z_{\lambda}|X$ en $z_{\lambda}|Y$. Cet isomorphisme sera dit canonique.
 
@@ -236,7 +236,7 @@ Si X est connexe, les seuls idempotents de $\mathscr{C}(X)$, donc de P(X), sont 
 
 Soit X un sous-ensemble compact du plan et soit O une composante connexe bornée de $\mathbf{C}-$ X. La frontière de O est contenue dans X.
 
-L’adhérence de l’ensemble O dans $\mathbf{C}-$ X est égale à $\overline{O}\cap (\mathbf{C}-$ X) où $\overline{O}$ est son adhérence dans $\mathbf{C}$. Comme O est une composante connexe de $\mathbf{C}-$ X, on a donc $\overline{O}\cap (\mathbf{C}-$ X) = O, ce qui démontre bien que O - $O\subset X$.
+L’adhérence de l’ensemble O dans $\mathbf{C}-$ X est égale à $\overline{O}\cap (\mathbf{C}-$ X) où $\overline{O}$ est son adhérence dans $\mathbf{C}$. Comme O est une composante connexe de $\mathbf{C}-$ X, on a donc $\overline{O}\cap (\mathbf{C}-$ X) = O, ce qui démontre bien que $\overline{O}-O\subset X$.
 
 Soit X une partie compacte de $\mathbf{C}$. Soit $O_{\infty}$ la composante connexe non bornée de $\mathbf{C}-$X, et soit $(O_i)_{i\in I}$ la famille des composantes connexes bornées de $\mathbf{C}-$ X, les parties $O_i$ étant deux à deux distinctes.
 

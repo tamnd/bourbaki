@@ -41,7 +41,7 @@ subsections:
       pdf_page: 57
 statements: 48
 exercises: 29
-content_sha256: dc4bbf882ab4fdf9177f6b1db44fa440c2e1a0ac8cb4aad76e8da93928080d91
+content_sha256: 22d473e429eed45d33fefe3467706528ddb028e3f35c9415faf56e0b0053f3c6
 ---
 
 ## § 3. ALGÈBRES DE BANACH COMMUTATIVES
@@ -96,9 +96,7 @@ Quand on utilisera une notion topologique dans $\mathsf{X}(A)$ sans préciser de
 
 ### 2. Fonctions continues nulles à l’infini sur un espace localement compact
 
-Dans ce numéro, X est un espace localement compact. On note $\mathscr{C}_0(X)$ l’algèbre de Banach commutative des fonctions complexes continues tendant vers 0 à l’infini sur X, munie de la norme $\|f\|=$ sup$|f(x)|$
-
-$x\in X$
+Dans ce numéro, X est un espace localement compact. On note $\mathscr{C}_0(X)$ l’algèbre de Banach commutative des fonctions complexes continues tendant vers 0 à l’infini sur X, munie de la norme $\|f\|=$ sup$_{x\in X}|f(x)|$
 
 (exemple 3 de I, p. 17).
 
@@ -166,7 +164,7 @@ $$
 1 +g_{\varepsilon}(x)
 $$
 
-Ainsi $f_{\varepsilon}$ converge uniformément vers $f$ sur X quand $\varepsilon$ tend vers 0. On a donc $f\in I$, d’où $f\in I$ puisque I est fermé.
+Ainsi $f_{\varepsilon}$ converge uniformément vers $f$ sur X quand $\varepsilon$ tend vers 0. On a donc $f\in \overline{I}$, d’où $f\in I$ puisque I est fermé.
 
 #### Corollaire 1 {#ts-i-s3-prop-1-cor-1 .statement tag=027U}
 
@@ -604,9 +602,9 @@ La seconde partie de la proposition ne s’étend pas au cas $n\geqslant 2$ (cf.
 
 Soit Λ un ensemble. Soient A une algèbre de Banach unifère commutative, $x= (x_{\lambda})_{\lambda\in\Lambda}$ une famille d’éléments de A et $A'$ la sous-algèbre de Banach unifère engendrée par $x$. Alors le spectre simultané Sp$^{\Lambda}_{A'}(x)$ est l’enveloppe polynomialement convexe de Sp$^{\Lambda}_A(x)$.
 
-En effet, la prop. 12 de I, p. 43, b) démontre que Sp$^{\Lambda}_{A'}(x)$ est l’ensemble des $c\in \mathbf{C}^{\Lambda}$ tels que $|P(c)|\leqslant \varrho (P(x))$ pour tout $P\in \mathbf{C}[(X_{\lambda})]$. Or on a $\varrho (P(x)) =$ sup $|\chi (P(x))|=$ sup $|P((\chi (x_{\lambda}))_{\lambda\in\Lambda})|=$ sup $|P(c)|$,
+En effet, la prop. 12 de I, p. 43, b) démontre que Sp$^{\Lambda}_{A'}(x)$ est l’ensemble des $c\in \mathbf{C}^{\Lambda}$ tels que $|P(c)|\leqslant \varrho (P(x))$ pour tout $P\in \mathbf{C}[(X_{\lambda})]$. Or on a
 
-$\chi \in \mathsf{X}(A)\chi \in \mathsf{X}(A)c\in$Sp$^{\Lambda}_A(x)$
+$\varrho (P(x)) =$ sup$_{\chi\in\mathsf{X}(A)}|\chi (P(x))|=$ sup$_{\chi\in\mathsf{X}(A)}|P((\chi (x_{\lambda}))_{\lambda\in\Lambda})|=$ sup$_{c\in Sp_{\Lambda A}(x)}|P(c)|$,
 
 d’après la prop. 7 de I, p. 38, a) et la prop. 12 de I, p. 43, a). Le résultat découle alors du lemme 3.
 

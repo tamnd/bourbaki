@@ -29,7 +29,7 @@ subsections:
       pdf_page: 165
 statements: 12
 exercises: 16
-content_sha256: 4d86b04a3d0a3385c9979c7d5a9a83e7e6f7bf558e00dc37fd87a4e49b99ee0b
+content_sha256: cdad9e1b17a7fa46e0e0d73c966a5d1a4baf0cc9382da9b4942edcce24aca728
 ---
 
 ## § 9. THE FORMULA OF HERMANN WEYL
@@ -185,7 +185,7 @@ $$
 dim E = = 1 +.
 
 $$
-_{\alpha\in R_+}\langle \rho , H_{\alpha}\rangle_{\alpha\in R_+}(\rho |\alpha )
+_{\alpha\in R_+}\langle \rho , H_{\alpha}\rangle_{\alpha\in R_+}\overline{(\rho|\alpha)}
 $$
 
 Let T be an indeterminate. For all $\nu \in P$, denote by $f_{\nu}$ the homomorphism from $\mathbf{Z}[P]$ to $\mathbf{R}[[T]]$ that takes $e^\mu$ to $e^{(\nu|\mu)T}$ for all $\mu\in P$. Then dim E is the constant term of the series $f_{\nu}$(ch E).
@@ -294,7 +294,9 @@ $$
 
 $\times$ 1 + $_{33}$ 1 + $_3$
 
-$_2+_2$ 2 + 3
+$$
+_{\overline{2}}+_{\overline{2}}\overline{2}+ 3
+$$
 
 $$
 (n_1+ 3n_2)((2n_1+ 3n_2)((n_1+n_2)

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 445
 statements: 31
 exercises: 34
-content_sha256: a239c877d71cc57ffa8ad7b91544b7f9369dedf30376afca4843d62d6e970a21
+content_sha256: e79c8eba611e20041294ae13e15c711e20632163d969c3eeaa3e9a6a32fe8b6e
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -202,7 +202,7 @@ Les composantes connexes par arcs de X sont les $A_i$, pour $i\in I$. Les compos
 
 Pour tout élément $i$ de I, choisissons un point $a(i)$ de $A_i$.
 
-Pour tout élément $j= (i, i',V)$ de J, choisissons un point $b(j)$ dans V, un chemin $B_1(j)$ reliant $b(j)$ à $a(i)$ dans $A_i$ et un chemin $B_2(j)$ reliant $b(j)$ à $a(i')$ dans $A_{i'}$. Soit $j= (i, i',V)$ un élément de $\overline{J}$; alors $\overline{j}= (i', i,V)$ appartient à J et l’on pose $b(\overline{j}) =b(j)$, $B_1(j) = B_2(\overline{j})$ et $B_2(j) = B_1(\overline{j})$. Pour $j\in J'\cup \overline{J'}$, les chemins $B_1(j)$ et $B_2(j)$ dans Y sont juxtaposables. Posons
+Pour tout élément $j= (i, i',V)$ de J, choisissons un point $b(j)$ dans V, un chemin $B_1(j)$ reliant $b(j)$ à $a(i)$ dans $A_i$ et un chemin $B_2(j)$ reliant $b(j)$ à $a(i')$ dans $A_{i'}$. Soit $j= (i, i',V)$ un élément de $\overline{J}$; alors $\overline{j}= (i', i,V)$ appartient à J et l’on pose $b(\overline{j}) =b(j)$, $B_1(j) = B_2(\overline{j})$ et $B_2(j) = B_1(\overline{j})$. Pour $j\in J'\cup \overline{J'}$, les chemins $\overline{B_1(j)}$ et $B_2(j)$ dans Y sont juxtaposables. Posons
 
 $$
 B(j) = B_1(j)*B_2(j) \tag{3}

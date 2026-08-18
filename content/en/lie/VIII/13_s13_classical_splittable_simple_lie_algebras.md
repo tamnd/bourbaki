@@ -29,7 +29,7 @@ subsections:
       pdf_page: 219
 statements: 2
 exercises: 19
-content_sha256: 15adcec79fdbd8d1938feb857e0d74e726a16abb0cc9269ca9e30ca5df8237c4
+content_sha256: a6786703c1694e0915a56d95e3d4a29484e07904c8354969f4cfebaf628bde77
 ---
 
 ## § 13. CLASSICAL SPLITTABLE SIMPLE LIE ALGEBRAS
@@ -582,7 +582,7 @@ $$
 
 $\rho (H)(e\wedge  \cdots  \wedge e) =\{-\frac{1}{2}e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}$ if $i\in  \{i_1, . . . , i_k\}$
 
-$^{i-i_1}-^{i_k}1_2e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}$ if $i /\in  \{i_1, . . . i_k\}$
+$^{i-i_1}-^{i_k}\frac{1}{2}e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}$ if $i /\in  \{i_1, . . . i_k\}$
 
 and for $h\in \mathfrak{h}$
 
@@ -665,7 +665,7 @@ Let $\mathbf{O}^+_0(\Psi )$ be the reduced orthogonal group of $\Psi ($Algebra, 
 $\Phi_R(\xi_1\varepsilon_1+\cdots +\xi_l\varepsilon_l, \xi '\varepsilon_1+\cdots +\xi '\varepsilon_l) =$ 1 $(\xi_1\xi '+\cdots +\xi_l\xi ')$
 
 $$
-^1l4l-2^1l
+^1l\overline{4l- 2}^1l
 $$
 
 (Chap. VI, §4, no. 5.V). The isomorphism from $\mathfrak{h}$ to $\mathfrak{h}^*$ defined by $\Phi_R$ takes $H_i$ to $(4l-2).\varepsilon_i$. Thus, the inverse form of $\Phi_R$, that is the restriction to $\mathfrak{h}$ of the Killing form, is
@@ -1187,7 +1187,7 @@ $$
 $$
 
 $$
-4(l-1)^1l
+\overline{4(l- 1)}^1l
 $$
 
 (Chap. VI, §4, no. 8.V). Thus, the restriction of the Killing form to $\mathfrak{h}$ is

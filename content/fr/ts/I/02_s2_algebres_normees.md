@@ -37,7 +37,7 @@ subsections:
       pdf_page: 41
 statements: 28
 exercises: 37
-content_sha256: 7d57a2c0bc2e11f856c189b38405a434eda5b18d670b09934c9bee403c10bcf5
+content_sha256: d4796cb2095cdf3c107d06926dfad89601dbdd19700605bcd8ceac9677ee7781
 ---
 
 ## § 2. ALGÈBRES NORMÉES
@@ -110,17 +110,15 @@ La dernière assertion provient du fait que $\boldsymbol{\gamma }_e=\boldsymbol{
 
 2) Soit X un ensemble. On note $\mathscr{B}(X; K)$ l’algèbre normée des fonctions bornées sur X à valeurs dans K, munie de la norme
 
-$\|f\|=$ sup$|f(x)|$
-
-$x\in X$
+$\|f\|=$ sup$_{x\in X}|f(x)|$
 
 (TG, X, p. 22). C’est une algèbre de Banach unifère sur K (TG, X, p. 21, cor. 1). Elle est commutative. Soit $f$ un élément de $\mathscr{B}(X; K)$. Alors $f$ est inversible dans $\mathscr{B}(X; K)$ si et seulement si on a
 
-$_x$inf$_{\in X}|f(x)|>0$.
+inf$_{x\in X}|f(x)|>0$.
 
 Le spectre de $f$ est donc l’ensemble des $\lambda \in K$ tels que
 
-$_x$inf$_{\in X}|f(x)-\lambda |= 0$,
+inf$_{x\in X}|f(x)-\lambda |= 0$,
 
 c’est-à-dire l’adhérence dans K de l’ensemble $f(X)$ des valeurs de $f$.
 
@@ -170,9 +168,7 @@ d’après la formule de Leibniz (FVR, I, p. 28, prop. 2), donc $A_n$ est une al
 
 5) Soit E un espace de Banach dont on note $p$ la norme. L’algèbre $\mathscr{L}(E)$ des endomorphismes continus de E, munie de la norme
 
-$\|u\|=$ sup $p(u(x))$
-
-$p(x)\leqslant 1$
+$\|u\|=$ sup$_{p(x)\leqslant 1}p(u(x))$
 
 est une algèbre de Banach unifère (EVT, III, p. 14 et p. 24, cor. 2 ; TG, X, p. 23, formule (3)).
 
@@ -270,7 +266,7 @@ Ces inégalités démontrent la convergence de la suite $(a_n/n)_{n\geqslant 1}$
 
 Soit A une algèbre normée. Pour tout $x\in A$, la suite $(\|x^n\|^{1/n})_{n\geqslant 1}$ est convergente et sa limite $\varrho (x)$ est égale à inf$_{n\geqslant 1}\|x^n\|^{1/n}$. De plus, pour toute norme $x\mapsto  \|x\|_1$ définissant la topologie de A, on a également
 
-$\varrho (x) =_{n\rightarrow}$lim$_{+\infty}\|x^n\|^{1/n}_1=$ inf$_{n\geqslant 1}\|x^n\|^{1/n}_1$.
+$\varrho (x) =$ lim$_{n\rightarrow+\infty}\|x^n\|^{1/n}_1=$ inf$_{n\geqslant 1}\|x^n\|^{1/n}_1$.
 
 Si $x$ est nilpotent, on a $\|x^n\|^{1/n}_1= 0$ pour tout entier $n$ suffisamment grand et toute norme $x\mapsto  \|x\|_1$ définissant la topologie de A.
 
@@ -290,7 +286,7 @@ $$
 
 pour tout $n\geqslant 1$, d’où en passant à la limite, ou en prenant la borne inférieure, l’égalité
 
-$\varrho (x) =_{n\rightarrow}$lim$_{+\infty}\|x^n\|^{1/n}_1=$ inf$_{n>0}\|x^n\|^{1/n}_1$.
+$\varrho (x) =$ lim$_{n\rightarrow+\infty}\|x^n\|^{1/n}_1=$ inf$_{n>0}\|x^n\|^{1/n}_1$.
 
 #### Définition 2 {#ts-i-s2-def-2 .statement tag=0260}
 
@@ -334,21 +330,13 @@ Soient A une algèbre de Banach et $x$ un élément de A. La série $\sum_{n=1}^
 
 La série $\sum^{\infty}_{n=1}\lambda^nx^n$ a pour rayon de convergence
 
-(lim sup$\|x^n\|^{1/n})^{-1}=\varrho (x)^{-1}$
+(lim sup$_{n\rightarrow+\infty}\|x^n\|^{1/n})^{-1}=\varrho (x)^{-1}$
 
-$n\rightarrow +\infty$
-
-(cf. VAR, R1, p. 23, 3.1.4). Supposons que A admette un élément
-
-unité. Si $\varrho (x)<1$, la série $\sum_{n=0}^{\infty}x^n$ est donc absolument convergente.
-
-Comme
+(cf. VAR, R1, p. 23, 3.1.4). Supposons que A admette un élément unité. Si $\varrho (x)<1$, la série $\sum_{n=0}^{\infty}x^n$ est donc absolument convergente. Comme
 
 $(1-x)\sum_{n=0}^kx^n$ = $\sum_{n=0}^kx^n(1-x) = 1-x^{k+1}$
 
-pour tout entier $k\geqslant 0$, l’élément $1-x$ est inversible et son inverse est
-
-égal à $\sum_{n=0}^{\infty}x^n$.
+pour tout entier $k\geqslant 0$, l’élément $1-x$ est inversible et son inverse est égal à $\sum_{n=0}^{\infty}x^n$.
 
 #### Corollaire 1 {#ts-i-s2-prop-2-cor-1 .statement tag=0265}
 
@@ -410,7 +398,7 @@ Soit $y_n$ un inverse à gauche de $x_n$. D’après la prop. 3 (ii), $\|y_n\|$ 
 
 Soit A une algèbre de Banach unifère et soit B une sous-algèbre pleine de A. Alors B est une sous-algèbre pleine de A.
 
-En effet, soient $x$ un élément de $\overline{B}$ inversible dans A, et $(x_n)$ une suite d’éléments de B tendant vers $x$. Alors, pour $n$ assez grand, $x_n$ est inversible dans A et $x^{-1}_n$ tend vers $x^{-1}$. Puisque la sous-algèbre B est pleine, on a $x^{-1}_n\in B$, d’où $x^{-1}\in B$.
+En effet, soient $x$ un élément de $\overline{B}$ inversible dans A, et $(x_n)$ une suite d’éléments de B tendant vers $x$. Alors, pour $n$ assez grand, $x_n$ est inversible dans A et $x^{-1}_n$ tend vers $x^{-1}$. Puisque la sous-algèbre B est pleine, on a $x^{-1}_n\in B$, d’où $x^{-1}\in \overline{B}$.
 
 Soit A est une algèbre de Banach unifère et soit $(y_i)_{i\in I}$ une famille d’éléments de A. Soit B la sous-algèbre pleine de A engendrée par les éléments $y_i$. Alors $\overline{B}$ est la plus petite sous-algèbre pleine fermée de A contenant les $y_i$. On l’appelle la sous-algèbre pleine fermée engendrée par les éléments $y_i$.
 

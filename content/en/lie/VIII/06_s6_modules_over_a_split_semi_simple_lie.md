@@ -29,7 +29,7 @@ subsections:
       pdf_page: 130
 statements: 17
 exercises: 5
-content_sha256: 3a707a40b405a269e1c921c11fec0003f9973d5dcde7d8f2258ba0e253ca3267
+content_sha256: c211a31d4ec489891d1c7c2e4e1de1aa3996ca03091ecac30b0fd9ff2883ce44
 ---
 
 ## § 6. MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -367,7 +367,7 @@ We recall the notations of §2, no. 3, Prop. 6. We have
 C = $\sum X_{\alpha}X_{-\alpha}+\sum X_{-\alpha}X_{\alpha}$
 
 $$
-_{\alpha\in R_-}\langle X_{\alpha}, X_{-\alpha}\rangle \alpha_{\in R_+}\langle X_{\alpha}, X_{-\alpha}\rangle
+_{\alpha\in R_-}\overline{\langle X_{\alpha}, X_{-\alpha}\rangle}\alpha_{\in R_+}\overline{\langle X_{\alpha}, X_{-\alpha}\rangle}
 $$
 
 1 $'$
@@ -377,7 +377,7 @@ $$
 $$
 
 $$
-_{\alpha\in R_+}\langle X_{\alpha}, X_{-\alpha}\rangle i_{\in I}^i
+_{\alpha\in R_+}\overline{\langle X_{\alpha}, X_{-\alpha}\rangle}i_{\in I}^i
 $$
 
 so
@@ -401,7 +401,7 @@ $$
 $$
 
 $$
-_{\alpha\in R_+}\langle X_{\alpha}, X_{-\alpha}\rangle i_{\in I}i
+_{\alpha\in R_+}\overline{\langle X_{\alpha}, X_{-\alpha}\rangle}i_{\in I}i
 $$
 
 Let $h_{\lambda}$ be the element of $\mathfrak{h}$ such that $\langle h_{\lambda}, h\rangle =\lambda (h)$ for all $h\in \mathfrak{h}$. By §2, no. 2, Prop. 1,
@@ -411,7 +411,7 @@ $($ 1 $)\langle$ 1 $\rangle$
 $\lambda [X_{\alpha}, X_{-\alpha}]$ = $h_{\lambda},[X_{\alpha}, X_{-\alpha}]=\alpha (h_{\lambda}) =\langle \lambda , \alpha \rangle$.
 
 $$
-\langle X_{\alpha}, X_{-\alpha}\rangle \langle X_{\alpha}, X_{-\alpha}\rangle
+\overline{\langle X_{\alpha}, X_{-\alpha}\rangle}\overline{\langle X_{\alpha}, X_{-\alpha}\rangle}
 $$
 
 Hence

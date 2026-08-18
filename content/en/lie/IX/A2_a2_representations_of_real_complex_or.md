@@ -22,7 +22,7 @@ subsections:
       pdf_page: 394
 statements: 6
 exercises: 0
-content_sha256: 9e50cf70232aa333aa71eb3631458b86dd3394addacaf6f3c5c075a6d0b86160
+content_sha256: 836d477d1d8b566ba9063fca6943272ca1427f4b5d7360fd5470f407be11e5f1
 ---
 
 ## APPENDIX II
@@ -47,7 +47,7 @@ The commutant E of V is a field, a finite extension of $\mathbf{R}($Algebra, Cha
 
 If E is isomorphic to $\mathbf{R}$, the commutant of $V_{(\mathbf{C})}$ is isomorphic to $\mathbf{C}$, and $V_{(\mathbf{C})}$ is a simple $A_{(\mathbf{C})}$-module (Algebra, Chap. VIII, §11, no. 4).
 
-If E is not isomorphic to $\mathbf{R}$, it contains a field isomorphic to $\mathbf{C}$; it follows that V has an $A_{(\mathbf{C})}$-module structure, denoted by $V^c$. Then $V^c$ is a simple $A_{(\mathbf{C})}$-module, and the $\mathbf{C}$-linear map $\psi : V_{(\mathbf{C})}\rightarrow V^c\oplus \overline{V}^c$ such that $\psi (\alpha \otimes v) =$ $(\alpha v,\overline{\alpha v})$ for $\alpha \in \mathbf{C},v\in V$, is an isomorphism (Algebra, Chap. V, §10, no. 4, Prop. 8). Moreover, $\sigma \otimes 1_V$ corresponds under this isomorphism to the $\mathbf{R}$-automorphism $(v, v') \rightarrow (v', v)$ of $V^c\oplus V^c$, and hence interchanges the two $A_{(\mathbf{C})}$-submodules $\psi^{-1}(V^c)$ and $\psi^{-1}(V^c)$.
+If E is not isomorphic to $\mathbf{R}$, it contains a field isomorphic to $\mathbf{C}$; it follows that V has an $A_{(\mathbf{C})}$-module structure, denoted by $V^c$. Then $V^c$ is a simple $A_{(\mathbf{C})}$-module, and the $\mathbf{C}$-linear map $\psi : V_{(\mathbf{C})}\rightarrow V^c\oplus \overline{V}^c$ such that $\psi (\alpha \otimes v) =$ $(\alpha v,\overline{\alpha v})$ for $\alpha \in \mathbf{C},v\in V$, is an isomorphism (Algebra, Chap. V, §10, no. 4, Prop. 8). Moreover, $\sigma \otimes 1_V$ corresponds under this isomorphism to the $\mathbf{R}$-automorphism $(v, v') \rightarrow (v', v)$ of $V^c\oplus \overline{V}^c$, and hence interchanges the two $A_{(\mathbf{C})}$-submodules $\psi^{-1}(V^c)$ and $\psi^{-1}(V^c)$.
 
 The commutant $E_{(\mathbf{C})}$ of $V_{(\mathbf{C})}$ thus contains $\mathbf{C}\times \mathbf{C}$, operating by homotheties on $V^c\oplus \overline{V}^c$. There is no isomorphism of $A_{(\mathbf{C})}$-modules from $V^c$ to $V^c$ if and only if $E_{(\mathbf{C})}$ reduces to $\mathbf{C}\times \mathbf{C}$, that is, if E is isomorphic to $\mathbf{C}$. This completes the proof.
 

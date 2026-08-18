@@ -25,7 +25,7 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 19
-content_sha256: 99dd0d98a1e424221559f5cedef378b06584a4fca7c47aa0cefacbc11693be3d
+content_sha256: e0b4864d9d9360b182bf5c99e1c452c440f41e4a730afa1e81150fb4e45ee16a
 ---
 
 ## § 3. SOUS-ESPACES INVARIANTS
@@ -290,7 +290,7 @@ $$
 n
 $$
 
-(cf. prop. 8 de II, p. 211, (iii)). D’après le lemme$\surd$ 2, il existe une fonction $j_n$ dans $L^1(G)$ telle que $\|j_n\|_1\leqslant$ 2, dont la cotransformée de Fourier vaut 1 au voisinage de $e$, et de plus telle que $\|j_n-j_n*\varepsilon_x\|_1\leqslant n^{-1}$ pour tout $x\in K_n$. On pose
+(cf. prop. 8 de II, p. 211, (iii)). D’après le lemme$\surd$ 2, il existe une fonction $j_n$ dans $L^1(G)$ telle que $\|j_n\|_1\leqslant \overline{2}$, dont la cotransformée de Fourier vaut 1 au voisinage de $e$, et de plus telle que $\|j_n-j_n*\varepsilon_x\|_1\leqslant n^{-1}$ pour tout $x\in K_n$. On pose
 
 $$
 f_n=u_n-j_n*u_n

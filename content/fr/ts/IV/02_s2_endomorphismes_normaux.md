@@ -45,7 +45,7 @@ subsections:
       pdf_page: 207
 statements: 32
 exercises: 28
-content_sha256: 7dbd6f8bc5fe632828e0833ac67f435669dc92eb05dfb8227ef011b2be6962a9
+content_sha256: 07a18526d5a155ecdc84d7c9c9026821ea522d3498352cd029f7fc844e88eb36
 ---
 
 ## § 2. ENDOMORPHISMES NORMAUX
@@ -130,7 +130,7 @@ d’où
 
 = inf $|g(x)|=$ inf $|\lambda |=$ inf $|\lambda |$
 
-$\|\widetilde{h}\|\infty x\in Y\lambda \in g(Y)\lambda \in g(Y)$
+$\|\widetilde{h}\|\infty x\in Y\lambda \in g(Y)\lambda \in \overline{g(Y)}$
 
 qui est égal à $\delta$ d’après le lemme précédent.
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: e09893f179a0081836009f746d500d6517b0410874ab7dd281c3625db876ecb8
+content_sha256: 8a3ee642895059a35742987bf3b56b09911f45d68f9c737f090325e6e0723b8e
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -274,7 +274,7 @@ $$
 
 Since $d(u)$ and $u(t)_{\infty}$ are moderately increasing (Prop. 3) and $A_{u\infty}$ is rapidly decreasing, the function $u \rightarrow$ sup$_g|(L_tf_u)(g)|$ is rapidly decreasing; thus, the family $(L_tf_u)_{u\in\widehat{G}}$ is uniformly summable. It follows$^7$ that the sum of the family $(f_u)$ is an infinitely-differentiable function on G, whose Fourier cotransform is $(A_u)$, hence the theorem.
 
-Denote by $\mathscr{S}( \widehat{G})$ the vector subspace of $L^2( \widehat{G})$ consisting of the families $A = (A_u)_{u\in\widehat{G}}$ such that the function $u \rightarrow  A_{u\infty}$ is rapidly decreasing on $\widehat{G}$. It follows from the theorem that the maps $\mathscr{F}:f \rightarrow (u(f))_{u\in\widehat{G}}$ and $\mathscr{F}: A \rightarrow \sum_{u\in\widehat{G}}\langle u(g)|A_u\rangle$ induce inverse isomorphisms between the complex vector spaces $\mathscr{C}^{\infty}(G;\mathbf{C})$ and $\mathscr{S}( \widehat{G})$. Give the space $\mathscr{C}^{\infty}(G;\mathbf{C})$ the topology of uniform $C^{\infty}$-convergence (§6, no. 4) which can be defined by the family of semi-norms $f \rightarrow_g$sup$_{\in G}|L_tf(g)|$ for $t\in U(G)$, and the space $\mathscr{S}( \widehat{G})$ the topology defined by the sequence of semi-norms $p_n: A \rightarrow_u$sup$_{\in\widehat{G}}( \widetilde{\Gamma}(u) + 1)^nA_{u\infty}$. Formula (15) of the preceding proof shows that $\mathscr{F}$ is continuous. Let $t\in U(G)$, and let $A = (A_u)_{u\in\widehat{G}}$ be an element of $\mathscr{S}( \widehat{G})$; put $f_n(g) =\langle u(g)|A_u\rangle$. Let $p$ be an integer such that $\sum_{u\in\widehat{G}}\widetilde{\Gamma}(u)^{-p}= M<\infty$. By the preceding proof, there exists a positive integer $m$ such that, for all $g\in G$,
+Denote by $\mathscr{S}( \widehat{G})$ the vector subspace of $L^2( \widehat{G})$ consisting of the families $A = (A_u)_{u\in\widehat{G}}$ such that the function $u \rightarrow  A_{u\infty}$ is rapidly decreasing on $\widehat{G}$. It follows from the theorem that the maps $\mathscr{F}:f \rightarrow (u(f))_{u\in\widehat{G}}$ and $\mathscr{F}: A \rightarrow \sum_{u\in\widehat{G}}\langle u(g)|A_u\rangle$ induce inverse isomorphisms between the complex vector spaces $\mathscr{C}^{\infty}(G;\mathbf{C})$ and $\mathscr{S}( \widehat{G})$. Give the space $\mathscr{C}^{\infty}(G;\mathbf{C})$ the topology of uniform $C^{\infty}$-convergence (§6, no. 4) which can be defined by the family of semi-norms $f \rightarrow$ sup$_{g\in G}|L_tf(g)|$ for $t\in U(G)$, and the space $\mathscr{S}( \widehat{G})$ the topology defined by the sequence of semi-norms $p_n: A \rightarrow$ sup$_{u\in\widehat{G}}( \widetilde{\Gamma}(u) + 1)^nA_{u\infty}$. Formula (15) of the preceding proof shows that $\overline{\mathscr{F}}$ is continuous. Let $t\in U(G)$, and let $A = (A_u)_{u\in\widehat{G}}$ be an element of $\mathscr{S}( \widehat{G})$; put $f_n(g) =\langle u(g)|A_u\rangle$. Let $p$ be an integer such that $\sum_{u\in\widehat{G}}\widetilde{\Gamma}(u)^{-p}= M<\infty$. By the preceding proof, there exists a positive integer $m$ such that, for all $g\in G$,
 
 $$
 |(L_tf_u)(g)| \leq d(u)^2u(t)_{\infty}A_{u\infty}\leq m.(1 + \widetilde{\Gamma}(u))^m\widetilde{\Gamma}(u)^{-p}A_{u\infty}
@@ -476,7 +476,7 @@ Indeed, by Cor. 4 of §7, no. 4,
 
 $\langle \chi_u|f\rangle =\int_G\overline{\lambda(u)(t)}\varphi (t)dt$, where $\varphi (t) =\prod_{\alpha >0}(1-\alpha (t)^{-1})f(t)$.
 
-If $f|T$ is infinitely-differentiable, so is $\varphi$; by Prop. 5, applied to the group T, the function $\mu \rightarrow \int_T\mu(t)\varphi (t)dt$ on $\widehat{T} = X(T)$ is then rapidly decreasing, and so is the function $u \rightarrow  \langle \chi_u|f\rangle$; hence the function $f$ is infinitely-differentiable (Prop. 5). The converse is clear.
+If $f|T$ is infinitely-differentiable, so is $\varphi$; by Prop. 5, applied to the group T, the function $\mu \rightarrow \int_T\overline{\mu(t)}\varphi (t)dt$ on $\widehat{T} = X(T)$ is then rapidly decreasing, and so is the function $u \rightarrow  \langle \chi_u|f\rangle$; hence the function $f$ is infinitely-differentiable (Prop. 5). The converse is clear.
 
 ### 4. CENTRAL FUNCTIONS ON G AND FUNCTIONS ON T
 

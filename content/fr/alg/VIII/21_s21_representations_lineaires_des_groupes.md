@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: 72f8391c11c1559d61f45db3c4f54e293ab78ed7af7f9bf4a0f8c8128c18fc12
+content_sha256: 4688ff565ca0892c40105efdc12811ab01ef97037389da651995d0923aab11c2
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -350,7 +350,7 @@ On suppose pour le reste de ce paragraphe que le groupe G est fini, que K est un
 
 L’algèbre K[G] est semi-simple (théorème de Maschke) et de dimension finie. Notons $\widehat{G}$ l’ensemble des classes de K[G]-modules simples. Pour tout $\lambda \in \widehat{G}$, choisissons une représentation linéaire $(V_{\lambda}, \pi_{\lambda})$ de G dont le K[G]-module associé ait pour classe $\lambda$. L’ensemble $\widehat{G}$ est fini et les espaces vectoriels $V_{\lambda}$ sont de dimension finie (VIII, p. 137, exemple). Pour tout $\lambda \in \widehat{G}$, notons $d_{\lambda}$ le degré de la représentation $\pi_{\lambda}$, c’est-à-dire la dimension du K-espace vectoriel $V_{\lambda}$, et $\chi_{\lambda}$ son caractère.
 
-Notons $F(\widehat{G})$ l’algèbre produit $\prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ et $\overline{\mathscr{F}}$ l’application de K[G] dans $F(\widehat{G})$ définie par $\mathscr{F}(a) = (\pi_{\lambda}(a))_{\lambda\in\widehat{G}}$. Comme le corps K est algébriquement clos, l’application $\mathscr{F}$ est un isomorphisme d’algèbres (loc. cit.).
+Notons $F(\widehat{G})$ l’algèbre produit $\prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ et $\overline{\mathscr{F}}$ l’application de K[G] dans $F(\widehat{G})$ définie par $\overline{\mathscr{F}}(a) = (\pi_{\lambda}(a))_{\lambda\in\widehat{G}}$. Comme le corps K est algébriquement clos, l’application $\mathscr{F}$ est un isomorphisme d’algèbres (loc. cit.).
 
 Pour tout $\lambda \in \widehat{G}$, la dimension de l’algèbre End$_K(V_{\lambda})$ est $d^2_{\lambda}$; celle de l’algèbre K[G] est Card(G) ; on a donc la relation
 
@@ -896,7 +896,7 @@ pour $\lambda , \mu \in \widehat{G}$; elle exprime que la famille des caractère
 
 Soient $\pi$ et $\pi '$ des représentations linéaires de G, de dimension finie. On a la relation $\langle \chi_{\pi}|\chi_{\pi'}\rangle_G=$ dim$_{\mathbf{C}}$ Hom$_G(\pi , \pi ')$ (VIII, p. 400, cor.). La représentation $\pi$ est irréductible si et seulement si $\langle \chi_{\pi}|\chi_{\pi}\rangle_G= 1$.
 
-Pour tout élément $\lambda$ de $\widehat{G}$, munissons l’espace vectoriel $V_{\lambda}$ d’une structure d’espace hilbertien pour laquelle les automorphismes $\pi_{\lambda}(g)$ soient unitaires, et notons $\langle v|v'\rangle_{\lambda}$ le produit scalaire de deux éléments $v, v'$ de $V_{\lambda}$ et $u^*$ l’adjoint d’un endomorphisme $u$ de $V_{\lambda}$. Soient $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ et $A'= (A'_{\lambda})_{\lambda\in\widehat{G}}$ des éléments de $F(\widehat{G})$. Notons $A^*= (A^*_{\lambda})_{\lambda\in\widehat{G}}$. On a $\mathscr{F}(a^*) = (\mathscr{F}(a))^*$ pour tout élément $a$ de $\mathbf{C}[G]$. Posons
+Pour tout élément $\lambda$ de $\widehat{G}$, munissons l’espace vectoriel $V_{\lambda}$ d’une structure d’espace hilbertien pour laquelle les automorphismes $\pi_{\lambda}(g)$ soient unitaires, et notons $\langle v|v'\rangle_{\lambda}$ le produit scalaire de deux éléments $v, v'$ de $V_{\lambda}$ et $u^*$ l’adjoint d’un endomorphisme $u$ de $V_{\lambda}$. Soient $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ et $A'= (A'_{\lambda})_{\lambda\in\widehat{G}}$ des éléments de $F(\widehat{G})$. Notons $A^*= (A^*_{\lambda})_{\lambda\in\widehat{G}}$. On a $\mathscr{F}(a^*) = (\overline{\mathscr{F}}(a))^*$ pour tout élément $a$ de $\mathbf{C}[G]$. Posons
 
 $$
 \langle A|A'\rangle_{\widehat{G}}=|G|^{-2}\widehat{\tau}(A^*A') \tag{55}

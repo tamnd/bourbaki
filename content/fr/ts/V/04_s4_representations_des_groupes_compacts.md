@@ -49,7 +49,7 @@ subsections:
       pdf_page: 489
 statements: 54
 exercises: 32
-content_sha256: de6bb5480b1019f4ef8bd38dc3d7c88a01da27bcb3eba5fe1ff7bae49ed568f1
+content_sha256: c12dbed9f4544d6541cded491bb802991c2c8ef8752418e2a04e4aad4adfb67f
 ---
 
 ## § 4. REPRÉSENTATIONS DES GROUPES COMPACTS
@@ -516,9 +516,9 @@ pour toute fonction $f\in \Theta (G^{\sharp})$ par linéarité. Comme l’espace
 
 ### 7. La cotransformation de Fourier
 
-On munit l’ensemble $\widehat{G}$ de la topologie discrète. On note $F(\widehat{G})$ l’algèbre produit des End(E$_{\pi})$ pour $\pi$ appartenant à $\widehat{G}$ et $F_b(\widehat{G})$ l’algèbre stellaire produit des End(E$_{\pi})$ (exemple 5 de I, p. 103) ; c’est l’ensemble des familles $(u_{\pi})_{\pi\in\widehat{G}}$ telles que sup$\|u_{\pi}\|<+\infty$.
+On munit l’ensemble $\widehat{G}$ de la topologie discrète. On note $F(\widehat{G})$ l’algèbre produit des End(E$_{\pi})$ pour $\pi$ appartenant à $\widehat{G}$ et $F_b(\widehat{G})$ l’algèbre stellaire produit des End(E$_{\pi})$ (exemple 5 de I, p. 103) ; c’est l’ensemble des familles $(u_{\pi})_{\pi\in\widehat{G}}$ telles que sup$_{\pi\in\widehat{G}}\|u_{\pi}\|<+\infty$.
 
-On note $F_0(\widehat{G})$ la sous-algèbre stellaire fermée de $F^{\pi\in\widehat{G}}_b(\widehat{G})$ formée des familles $(u_{\pi})_{\pi\in\widehat{G}}$ telles que $\|u_{\pi}\|$ tend vers 0 à l’infini.
+On note $F_0(\widehat{G})$ la sous-algèbre stellaire fermée de $F_b(\widehat{G})$ formée des familles $(u_{\pi})_{\pi\in\widehat{G}}$ telles que $\|u_{\pi}\|$ tend vers 0 à l’infini.
 
 Soit $\nu \in \mathscr{M}^1(G)$. Pour tout $\pi \in \widehat{G}$, on a $\|\pi (\nu )\|\leqslant \|\nu \|$, donc la famille $(\pi (\nu ))_{\pi\in\widehat{G}}$ appartient à $F_b(\widehat{G})$.
 

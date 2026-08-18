@@ -53,7 +53,7 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: 0b80306211126e0666f9faab3eeafa11cba96b5a32f4c5590939cc24b6c9453d
+content_sha256: 8095037f0fc69959fa97c330cc51d60fb542113b965393547cea450926de23a1
 ---
 
 ## § 4. ROOT SYSTEM ASSOCIATED TO A COMPACT GROUP
@@ -326,7 +326,7 @@ By §2, no. 2, Cor. 2 of Th. 2, C(G) is contained in T. Since this is the kernel
 
 Every automorphism of the Lie group G that induces the identity on T is of the form Int $t$, with $t\in T$.
 
-Assume first of all that C(G) reduces to the identity element, in other words that X(T) = Q(R) (Prop. 8). Let $f$ be an automorphism of G inducing the identity on T, and $\varphi = L(f)_{(\mathbf{C})}$; then $\varphi$ is an automorphism of $\mathfrak{g}_{\mathbf{C}}$ inducing the identity on $\mathfrak{t}_{\mathbf{C}}$. By Chap. VIII, §5, no. 2, Prop. 2, there exists a unique homomorphism $\theta : Q(R)\rightarrow \mathbf{C}^*$ such that $\varphi$ induces on each $\mathfrak{g}^{\alpha}$ the homothety with ratio $\theta (\alpha )$. Since $\varphi$ leaves stable the real form $\mathfrak{g}$ of $\mathfrak{g}_{\mathbf{C}}$, it commutes with the conjugation $\sigma$ of $\mathfrak{g}_{\mathbf{C}}$ with respect to $\mathfrak{g}$; but $\sigma (\mathfrak{g}^{\alpha}) =\mathfrak{g}^{-\alpha}$, so $\theta (-\alpha ) =\theta (\alpha )$ for all $\alpha \in R$. This implies that $\theta (\alpha )\theta (\alpha ) =\theta (\alpha )\theta (-\alpha ) = 1$. It follows that $\theta$ takes values in $\mathbf{U}$, and hence corresponds by duality to an element $t$ of T such that (Ad $t)_{(\mathbf{C})}=\varphi$, so Int $t=f$.
+Assume first of all that C(G) reduces to the identity element, in other words that X(T) = Q(R) (Prop. 8). Let $f$ be an automorphism of G inducing the identity on T, and $\varphi = L(f)_{(\mathbf{C})}$; then $\varphi$ is an automorphism of $\mathfrak{g}_{\mathbf{C}}$ inducing the identity on $\mathfrak{t}_{\mathbf{C}}$. By Chap. VIII, §5, no. 2, Prop. 2, there exists a unique homomorphism $\theta : Q(R)\rightarrow \mathbf{C}^*$ such that $\varphi$ induces on each $\mathfrak{g}^{\alpha}$ the homothety with ratio $\theta (\alpha )$. Since $\varphi$ leaves stable the real form $\mathfrak{g}$ of $\mathfrak{g}_{\mathbf{C}}$, it commutes with the conjugation $\sigma$ of $\mathfrak{g}_{\mathbf{C}}$ with respect to $\mathfrak{g}$; but $\sigma (\mathfrak{g}^{\alpha}) =\mathfrak{g}^{-\alpha}$, so $\theta (-\alpha ) =\overline{\theta(\alpha)}$ for all $\alpha \in R$. This implies that $\theta (\alpha )\theta (\alpha ) =\theta (\alpha )\theta (-\alpha ) = 1$. It follows that $\theta$ takes values in $\mathbf{U}$, and hence corresponds by duality to an element $t$ of T such that (Ad $t)_{(\mathbf{C})}=\varphi$, so Int $t=f$.
 
 In the general case, the preceding applies to the group $G/C(G)$, whose centre reduces to the identity element, and to its maximal torus $T/C(G)$. It follows that, if $f$ is an automorphism of G inducing the identity on T, there exists an element $t$ of T such that $f$ and Int $t$ induce by passage to the quotient the same automorphism of $G/C(G)$. But, since the canonical morphism $D(G)\rightarrow G/C(G)$ is a finite covering (§1, no. 4, Cor. 1 of Prop. 4), $f$ and Int $t$ induce the same automorphism of D(G), hence of $D(G)\times C(G)$, and hence also of G (loc. cit.).
 
@@ -432,7 +432,7 @@ In particular:
 
 $\nu (-10)=\nu (-1) =$ exp$(1K)$. (15)
 
-0 $-1$ T 2 $^{\alpha}$
+0 $-1$ T $\overline{2}^{\alpha}$
 
 It follows that $\nu$ is injective if and only if $K_{\alpha}\in /2\Gamma$(T), in other words if there exists $\lambda \in X(T)$ such that $\langle \lambda , K_{\alpha}\rangle \in /2\mathbf{Z}$. When $\mathfrak{g}_{\mathbf{C}}$ is simple, $\nu$ is injective unless $\mathfrak{g}_{\mathbf{C}}$ is of type $B_n, C(G) =\{1\}$ and $\alpha$ is a short root (cf. Chap. VI, Plates).
 
