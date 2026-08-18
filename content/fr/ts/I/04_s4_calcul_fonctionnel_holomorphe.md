@@ -67,9 +67,9 @@ subsections:
       title: Cas d’une algèbre sans élément unité
       page: 88
       pdf_page: 101
-statements: 54
+statements: 55
 exercises: 18
-content_sha256: 151915a3b6c977f6ed4831cf61a0f863e1351b9737c88ed1701625263679fe19
+content_sha256: 09c77c64635ff358a5551b31f7ccca84c5beb603939599cd6125c8aa8acb79fd
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -1458,9 +1458,11 @@ pour toute norme sur A qui définit la topologie de A. En effet, on peut suppose
 
 Notons $u\mapsto \overline{u}$ l’endomorphisme de la $\mathbf{R}$-algèbre $A_{(\mathbf{C})}$ qui applique $\lambda \otimes a$ sur $\overline{\lambda}\otimes a$. Il est continu.
 
-LemmeLes applications. — Pour tout$f\mapsto ff\in (1\mathscr{O}\otimes$(Sp$x)_A$et$^{^{(\mathbf{C})}}f(x\mapsto ))$, on a$f_*(1\otimes f\overset{*}{x}(1$) sont des homomor-$\otimes x) =\overline{f(1 \otimes x)}$.
+#### Lemme {#ts-i-s4-n13-lem-1 .statement tag=02BB}
 
-phismes unifères continus de $\mathbf{C}$-algèbres de $\mathscr{O}$(Sp($x$)) dans $A_{(\mathbf{C})}$ qui appliquent $z$ sur $1\otimes x$; elles sont donc égales (I, p. 74, th. 5).
+Pour tout $f\in \mathscr{O}$(Sp$_{A_{(\mathbf{C})}}(x))$, on a $f^*(1\otimes x) =\overline{f(1 \otimes x)}$.
+
+Les applications $f\mapsto f(1\otimes x)$ et $f\mapsto \overline{f^*(1 \otimes x)}$ sont des homomorphismes unifères continus de $\mathbf{C}$-algèbres de $\mathscr{O}$(Sp($x$)) dans $A_{(\mathbf{C})}$ qui appliquent $z$ sur $1\otimes x$; elles sont donc égales (I, p. 74, th. 5).
 
 #### Proposition 20 {#ts-i-s4-prop-20 .statement tag=02BC}
 

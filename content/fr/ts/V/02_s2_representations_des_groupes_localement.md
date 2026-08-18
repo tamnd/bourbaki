@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: 1246390c78aa05c44183680ca31a95b0a52fb8f8220c86b5e17ebfd02aeba224
+content_sha256: d8bdb87a3a2c0d895e8b8d2cccca07575af0e9d5929e01ec740a9cb480e0c013
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -119,7 +119,11 @@ $$
 $$
 
 $$
-=\int^G_G\langle \varrho (g^{-1})x|y\rangle d\nu =(g\int) =_G\langle y\int|_G\varrho \langle (\varrho g()gx)\rangle xd\nu |y_*(\rangle dg) =\check{\nu}(g)\langle \varrho (\nu_*)x|y\rangle
+=\int^G_G\langle \varrho (g^{-1})x|y\rangle d\nu (g) =\int_G\langle \varrho (g)x|y\rangle d\check{\nu}(g)
+$$
+
+$$
+=\int_G\langle y|\varrho (g)x\rangle d\nu^*(g) =\langle \varrho (\nu^*)x|y\rangle
 $$
 
 pour tous $x$ et $y$ dans E, d’où $\varrho (\nu )^*=\varrho (\nu^*)$.

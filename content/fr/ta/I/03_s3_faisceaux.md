@@ -53,7 +53,7 @@ subsections:
       pdf_page: 82
 statements: 35
 exercises: 8
-content_sha256: b1dbe3984831e516a2148fa2209ce4ed470ed4767346646462742a4b69914881
+content_sha256: 122e5b1fcf1ee71f424c157f6ea3140077cab94ede718b200789b60d5c56a2e0
 ---
 
 ## § 3. FAISCEAUX
@@ -628,9 +628,11 @@ Il résulte alors de la proposition 4 que pour tout morphisme de faisceaux $\psi
 
 Considérons un espace topologique B, un sous-espace A de B, notons $i: A\rightarrow B$ l’injection canonique. Soient $(E, p)$
 
-etp.vert45,(E$V', p$exemplede$')$ Bdeset toutB4-espaces. Prenons pour) et pourV-morphisme$\mathscr{F}$ le faisceau$f: E_V\mathscr{M}\mathscr{G}\rightarrow$orle faisceau${E'}^A_V(E$, posons$^A{; E'}^A\mathscr{M})$. Pour tout ou-$\varphi$or$_V(^Bf(E; E) =f'_V)_{\cap}(_AI$,, où $f_{V\cap A}$ est le $(V\cap A)$-morphisme de $E_{V\cap A}$ dans $E'_{V\cap A}$ induit par $f$. La famille $\varphi = (\varphi_V)$ ainsi définie est un morphisme de faisceaux de $\mathscr{G}$
+etp.vert45,(E$V', p$exemplede$')$ Bdeset toutB4-espaces. Prenons pour) et pourV-morphisme$\mathscr{F}$ le faisceau$f: E_V\mathscr{M}\mathscr{G}\rightarrow$orle faisceau${E'}^A_V(E$, posons$^A{; E'}^A\mathscr{M})$. Pour tout ou-$\varphi$or$_V(^Bf(E; E) =f'_V)_{\cap}(_AI$,, où $f_{V\cap A}$ est le $(V\cap A)$-morphisme de $E_{V\cap A}$ dans $E'_{V\cap A}$ induit par $f$. La famille $\varphi = (\varphi_V)$ ainsi définie est un morphisme de faisceaux de $\mathscr{G}$ dans $i_*\mathscr{F}$. D’après la proposition 4, il existe un unique morphisme de faisceaux $\psi :\mathscr{M}$or$_B(E; E')_A\rightarrow \mathscr{M}$or$_A(E_A; E'_A)$ tel que l’on ait
 
-dansfaisceaux(12) $i^*\mathscr{F}$. D’après la proposition$\psi :\mathscr{M}$or$_B\psi (E; E'_{V\cap A}()\sigma_{A\mathscr{G}}\rightarrow (V\mathscr{M}, f)$or$4|,_AV$il existe un unique morphisme de$(E\cap_AA) =; E'_A)f$tel que l’on ait$_{V\cap A}$
+$$
+\psi_{V\cap A}(\sigma_{\mathscr{G}}(V, f)|V\cap A) =f_{V\cap A} \tag{12}
+$$
 
 pour tout ouvert V de B et tout $f\in \mathscr{C}_V(E_V; E'_V)$. Le morphisme $\psi$ est appelé morphisme canonique de $\mathscr{M}$or$_B(E; E')_A$ dans $\mathscr{M}$or$_A(E_A; E'_A)$.
 

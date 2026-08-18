@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: 8264a6231172d8c4bc4ebac16dd3b0fba110dd5f364cdb534c767c21221c4f56
+content_sha256: 5ec978658075e003d13994379111cc1a486b2bc4beefaa6585b1497f64e802d6
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -287,7 +287,11 @@ $$
 $$
 
 $$
-\|\mathscr{F}(\mu\mathscr{F})\|_{\infty}(\varepsilon_x=)(\|\chi \overline{\mathscr{F}}) =(\mu\langle )\chi , x\|_{\infty}\rangle \leqslant ,\|\mu\|_1 \tag{9}
+\|\mathscr{F}(\mu)\|_{\infty}=\|\overline{\mathscr{F}}(\mu)\|_{\infty}\leqslant \|\mu\|_1 \tag{9}
+$$
+
+$$
+\mathscr{F}(\varepsilon_x)(\chi ) =\overline{\langle\chi , x\rangle}
 $$
 
 (10)
@@ -638,9 +642,11 @@ donc la famille des caractères de G est orthonormale (prop. 6 de II, p. 210). E
 
 #### Remarque 1 {#ts-ii-s1-n3-rem-1 .statement tag=02IK}
 
-Certaines des formules concernant la transformation de Fourier sur $L^1(G)$ s’étendent à la transformation de Fourier
+Certaines des formules concernant la transformation de Fourier sur $L^1(G)$ s’étendent à la transformation de Fourier sur $L^2(G)$. En particulier, pour $f\in L^2(G)$ et $\chi \in \widehat{G}$, on a
 
-sur $L^2(G)$. En particulier, pour$\overline{\mathscr{F}}(f) = (\chi \mapsto \mathscr{F}f\in (fL)(^2\chi (G)^{-1})) =$et $\chi \mathscr{F}\in (\frac{\widehat{G}}{f})$, on a
+$$
+\overline{\mathscr{F}}(f) = (\chi \mapsto \mathscr{F}(f)(\chi^{-1})) =\overline{\mathscr{F}(\overline{f})}
+$$
 
 $$
 \mathscr{F}(\varepsilon_x*f) =\eta (x^{-1})\mathscr{F}(f),\overline{\mathscr{F}}(\varepsilon_x*f) =\eta (x)\mathscr{F}(f)
@@ -800,9 +806,7 @@ $$
 
 et donc $|g(x)-g(e)|<\frac{1}{2}g(e)$. Cela implique $g(x)\not= 0$ et donc $x\in U$, puisque le support de $g$ est contenu dans U. Ainsi $\overset{-1}{\eta}(W)\subset U$.
 
-Démontrons que l’application $\eta$ est surjective. Comme cette application est un homéomorphisme sur son image, le groupe $\eta (G)$ est un sous-groupe localement compact de $\widehat{\widehat{G}}$. Il est donc fermé dans $\widehat{\widehat{G}}$ (TG, III, p. 22, cor. 2). Raisonnons par l’absurde et supposons qu’il existe un caractère $\xi \in \widehat{\widehat{G}}$ tel que $\xi \notin \eta (G)$. Il existe alors (corollaire 1 de
-
-IIsur, p.$\eta (G)$219. Soit) un élément$g\in L^1(G)f$. La fonctionnon nul de L$(^1x, \chi (\widehat{G})$) tel que$\mapsto g(x)f\mathscr{F}(\overset{\widehat{G}}{\chi})(\langle f\chi , x)$ soit nulle$\rangle$ appartient à $L^1(G\times \widehat{G})$. D’après le th. de Lebesgue-Fubini (INT, V, §8, n$^o4$, th. 1, a)), il vient donc
+Démontrons que l’application $\eta$ est surjective. Comme cette application est un homéomorphisme sur son image, le groupe $\eta (G)$ est un sous-groupe localement compact de $\widehat{\widehat{G}}$. Il est donc fermé dans $\widehat{\widehat{G}}$ (TG, III, p. 22, cor. 2). Raisonnons par l’absurde et supposons qu’il existe un caractère $\xi \in \widehat{\widehat{G}}$ tel que $\xi \notin \eta (G)$. Il existe alors (corollaire 1 de II, p. 219) un élément $f$ non nul de $L^1(\widehat{G})$ tel que $\mathscr{F}_{\widehat{G}}(f)$ soit nulle sur $\eta (G)$. Soit $g\in L^1(G)$. La fonction $(x, \chi )\mapsto g(x)f(\chi )\langle \chi , x\rangle$ appartient à $L^1(G\times \widehat{G})$. D’après le th. de Lebesgue-Fubini (INT, V, §8, n$^o4$, th. 1, a)), il vient donc
 
 $$
 \int_{\widehat{G}}f(\chi )\mathscr{F}_G(g)(\chi )d\chi =\int_Gg(x)(\int_{\widehat{G}}f(\chi )\overline{\langle\chi , x\rangle}d\chi )dx

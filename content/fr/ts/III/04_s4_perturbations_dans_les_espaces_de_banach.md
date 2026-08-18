@@ -37,7 +37,7 @@ subsections:
       pdf_page: 81
 statements: 30
 exercises: 9
-content_sha256: b39ca68f6b2574c604abf5e1be7b0ded43fefd7d7dff4d2efa6a6ab37884ec52
+content_sha256: 949b33aae56a5e481a2dd11053eb5b3141ab5db0692e21f967125b622e84ded1
 ---
 
 ## § 4. PERTURBATIONS DANS LES ESPACES DE BANACH
@@ -200,13 +200,7 @@ Soient E et F des espaces normés, $u: E\rightarrow F$ une application linéaire
 
 (2) $\|y\|=$ inf$_{x\in\overset{-1}{p}(y)}\|x\|$
 
-pour tout $y\in E/N$. L’application $\widetilde{u}$ est continue et $\|u\|=\|\widetilde{u}\|$, d’où
-
-$$
-\|u(y)\|
-$$
-
-(3) $\|u\|=$ sup$_{y\in E/N}\|y\|$,
+pour tout $y\in E/N$. L’application $\widetilde{u}$ est continue et $\|u\|=\|\widetilde{u}\|$, d’où (3) $\|u\|=$ sup$_{y\in E/N}\frac{\|\widetilde{u}(y)\|}{\|y\|}$,
 
 $y\not =0$
 
