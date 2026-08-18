@@ -218,3 +218,85 @@ contents:
             4 and then heads DIRECT LIMITS. The running head of 201 is CONDITIONS FOR AN
             INVERSE LIMIT TO BE NON-EMPTY, § 7.4, and the first page whose running head
             reads DIRECT LIMITS is 203.
+    - book: evt-i-v
+      errata:
+        - says: 'direct sums of subs paces'
+          read: 'direct sums of subspaces'
+          why: The text layer of the printed contents, pdf page 363, breaks subspaces
+            in two.
+        - says: 'Locally compacttopological vector spaces'
+          read: 'Locally compact topological vector spaces'
+          why: The text layer of the printed contents, pdf page 363, runs compact and
+            topological together.
+        - says: 'Intersections ofconvex sets'
+          read: 'Intersections of convex sets'
+          why: The text layer of the printed contents, pdf page 364, runs of and convex
+            together.
+        - says: 'Examples oflocally convex spaces'
+          read: 'Examples of locally convex spaces'
+          why: The text layer of the printed contents, pdf page 364, runs of and locally
+            together, as it does three times over on this page and the next.
+        - says: 'family oflocally convex spaces'
+          read: 'family of locally convex spaces'
+          why: The same run of two words into one, on the line for no. 5 of chapter II
+            § 4.
+        - says: 'sequences oflocally convex spaces'
+          read: 'sequences of locally convex spaces'
+          why: The same run of two words into one, on the line for no. 6 of chapter II
+            § 4.
+        - says: 'Equicontinuous subsets ofE'' '
+          read: 'Equicontinuous subsets of E'' '
+          why: The text layer of the printed contents, pdf page 365, runs of and the
+            dual together.
+        - says: 'Convex envelope ofa weakly compact set'
+          read: 'Convex envelope of a weakly compact set'
+          why: The text layer of the printed contents, pdf page 367, runs of and a
+            together.
+        - says: 'Dual of a Fn?chet space'
+          read: 'Dual of a Frechet space'
+          why: The text layer reads Frechet as Fn?chet here and sets it correctly on
+            the four other lines of the contents that name the man, § 4 of the same
+            chapter among them.
+        - says: 'The spaces 26(E; F)'
+          read: 'The spaces $\mathscr{L}_{\mathfrak{S}}(E; F)$'
+          why: The scan reads the script L of this volume as a 2 and the gothic S as a
+            6, so the space of continuous linear mappings under the topology of
+            uniform convergence on the sets of S comes out as a pair of digits. The
+            heading of the no. itself, pdf page 145, reads it as 23 instead, and the
+            page under it works throughout with the S-topology on that space.
+        - says: 'Condition for 26 (E ; F) to be Hausdorff'
+          read: 'Condition for $\mathscr{L}_{\mathfrak{S}}(E; F)$ to be Hausdorff'
+          why: The same two letters, on the line for no. 2 of chapter III § 3.
+        - says: 'Relations between 2 (E; F) and 2 (E ; F)'
+          read: 'Relations between $\mathscr{L}(\hat{E}; F)$ and $\mathscr{L}(E; F)$'
+          why: The no. relates the mappings of a space and the mappings of its
+            completion, and the scan loses the circumflex over the first E as well as
+            reading both script L's as digits. The text of the no., pdf page 147,
+            takes E Hausdorff and F complete, writes the completion of E, and
+            identifies the two spaces by the map that extends a mapping to it.
+        - says: 'Equicontinuous subsets of 2 (E ; F)'
+          read: 'Equicontinuous subsets of $\mathscr{L}(E; F)$'
+          why: The script L read as a digit again, and this one carries no gothic S.
+        - says: '6-bomologies on 2(E; F)'
+          read: '$\mathfrak{S}$-bornologies on $\mathscr{L}(E; F)$'
+          why: The gothic S read as a 6 and the script L as a 2, and bornologies set
+            with an m for the rn. The heading of the no., pdf page 153, spells it the
+            same wrong way and the page under it is about the bornologies on that
+            space.
+        - says: 'Complete subsets of 26 (E ; F) .'
+          read: 'Complete subsets of $\mathscr{L}_{\mathfrak{S}}(E; F)$ .'
+          why: The same two letters as no. 1 of the §, on the line for no. 8.
+        - says: 'Bounded subsets of 2(E; F)(quasi-complete case)'
+          read: 'Bounded subsets of $\mathscr{L}(E; F)$ (quasi-complete case)'
+          why: The script L read as a digit, and the space before the parenthesis
+            lost. There is no gothic S on this one, in the contents or in the heading
+            of the no. on pdf page 157, and the theorem under it names the S-topology
+            in words instead.
+        - says: 'Hypocontinuity of the mapping (u,v) ~ v 0 u'
+          read: 'Hypocontinuity of the mapping $(u, v) \mapsto v \circ u$'
+          why: The scan reads the arrow of a mapping as a tilde and the circle of a
+            composition as a zero.
+        - says: 'Tensor product of hilhertian spaces'
+          read: 'Tensor product of hilbertian spaces'
+          why: The text layer of the printed contents, pdf page 368, reads the b of
+            hilbertian as an h, as it does in the body on pdf page 264.
