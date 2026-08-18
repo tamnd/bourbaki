@@ -329,3 +329,19 @@ contents:
             title. The volume gives it one. Printed page 247 heads APPENDIX and sets
             Hardy Fields. (H) Functions under it, and the six nos the contents lists
             for the appendix are the six nos of that page onwards.
+    - book: int-i-vi
+      errata:
+        - says: 'measures. . . . . . . . . . . .. lIU8'
+          read: 'measures. . . . . . . . . . . .. III.18'
+          why: The text layer of the printed contents, pdf page 482, runs the label of
+            no. 9 of chapter III § 1 into one token and misreads two of its letters. It
+            is III.18. No. 8 of the § is on III.16 and no. 10 is on III.21, and pdf 63,
+            which the page map puts at III.18, heads VAGUE TOPOLOGY ON THE SPACE OF
+            MEASURES with the number 9 in front of it.
+        - says: 'positive measures. V.I2'
+          read: 'positive measures ..... V.12'
+          why: The printed contents, pdf page 484, sets no. 2 of chapter V § 2 with no
+            leaders at all between the title and the label, and the reader takes the
+            leaders for what says that a label is what follows. The page is V.12, as
+            pdf 267 shows, which the page map puts at V.12 and which heads INTEGRATION
+            WITH RESPECT TO A SUM OF POSITIVE MEASURES.
