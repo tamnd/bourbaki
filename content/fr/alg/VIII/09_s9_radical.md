@@ -33,7 +33,7 @@ subsections:
       pdf_page: 162
 statements: 49
 exercises: 31
-content_sha256: 9d663ff53f021d7258c9ce570b3d6f56ca0683dd0e5c6837055519ff50e9de3e
+content_sha256: 7b70111e50630a2123a75689c16aac36f8d9ffcf0bb5bbf2535b5699d6a293a1
 ---
 
 ## § 9. RADICAL
@@ -154,7 +154,7 @@ Si A est un anneau local, il possède un unique idéal à gauche maximal $\mathf
 
 Supposons que A soit un anneau principal et soit P un système représentatif d’éléments extrémaux (VII, p. 3). Si A est un corps, il est sans radical d’après l’exemple 1 ; si l’ensemble P est infini, l’intersection des idéaux maximaux $Ap$ de A est réduite à 0, donc A est sans radical ; mais si P est fini et non vide, et si l’on pose $x=\prod_{p\in P}p$, le radical de A est égal à $\cap_{p\in P}Ap= Ax$ (VII, p. 3, prop. 4), donc n’est pas réduit à zéro.
 
-Soit $y$ un élément non nul de A ; écrivons-le sous la forme $y=up^i_{1^1}. . . p^i_{r^r}$, où $u$ est inversible dans $A,p_1, . . . , p_r$ sont des éléments de P deux à deux distincts et $i_1, . . . , i_r$ des entiers strictement positifs. Les idéaux maximaux de l’anneau $A/Ay$ sont les idéaux $Ap_1/Ay, . . . ,Ap_r/Ay$; le radical de l’anneau $A/Ay$ est donc l’idéal $Ap_1. . . p_r/Ay$. En particulier, l’anneau $A/Ay$ est sans radical si et seulement si l’on a $i_1=\cdots =i_r= 1$; on dit dans ce cas que $y$ est sans facteur multiple.
+Soit $y$ un élément non nul de A ; écrivons-le sous la forme $y=up^{i_1}_1. . . p^{i_r}_r$, où $u$ est inversible dans $A,p_1, . . . , p_r$ sont des éléments de P deux à deux distincts et $i_1, . . . , i_r$ des entiers strictement positifs. Les idéaux maximaux de l’anneau $A/Ay$ sont les idéaux $Ap_1/Ay, . . . ,Ap_r/Ay$; le radical de l’anneau $A/Ay$ est donc l’idéal $Ap_1. . . p_r/Ay$. En particulier, l’anneau $A/Ay$ est sans radical si et seulement si l’on a $i_1=\cdots =i_r= 1$; on dit dans ce cas que $y$ est sans facteur multiple.
 
 #### Proposition 5 {#alg-viii-s9-prop-5 .statement tag=00AF}
 

@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: d55083c241f4ca758dd6515a40723b704b63198caffb074084201f9875adfbb7
+content_sha256: b89b39a138ebf59e40a3239c55844cc3c855cb684499c91a404eb9fa936d21f3
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -102,9 +102,9 @@ $$
 
 #### Proposition 1 {#ts-i-s6-prop-1 .statement tag=02CJ}
 
-Soient $E_1$ et $E_2$ des espaces vectoriels complexes, et soient $u_1$ et $u_2$ des involutions semi-linéaires sur $E_1$ et $E_2$ respectivement. Soit $f$ une application linéaire de $E_1$ dans $E_2$. Alors $f\circ u_1=u_2\circ f$ si et seulement si $f(E^u_{1^1})\subset E^u_{2^2}$.
+Soient $E_1$ et $E_2$ des espaces vectoriels complexes, et soient $u_1$ et $u_2$ des involutions semi-linéaires sur $E_1$ et $E_2$ respectivement. Soit $f$ une application linéaire de $E_1$ dans $E_2$. Alors $f\circ u_1=u_2\circ f$ si et seulement si $f(E^{u_1}_1)\subset E^{u_2}_2$.
 
-Si $f\circ u_1=u_2\circ f$, on obtient aussitôt $f(E^u_{1^1})\subset E^u_{2^2}$. Inversement, supposons que cette condition est satisfaite. Soit $x\in$ E. Écrivons $x=x_1+ix_2$ avec $(x_1, x_2)\in E^u_{1^1}\times E^u_{1^1}$ (lemme ci-dessus). On a alors $f(u_1(x)) =f(x_1)-if(x_2)$ et $u_2(f(x)) =u_2(f(x_1))-iu_2(f(x_2)) =$ $f(x_1)-if(x_2) =f(u_1(x))$.
+Si $f\circ u_1=u_2\circ f$, on obtient aussitôt $f(E^{u_1}_1)\subset E^{u_2}_2$. Inversement, supposons que cette condition est satisfaite. Soit $x\in$ E. Écrivons $x=x_1+ix_2$ avec $(x_1, x_2)\in E^{u_1}_1\times E^{u_1}_1$ (lemme ci-dessus). On a alors $f(u_1(x)) =f(x_1)-if(x_2)$ et $u_2(f(x)) =u_2(f(x_1))-iu_2(f(x_2)) =$ $f(x_1)-if(x_2) =f(u_1(x))$.
 
 ### 2. Algèbres involutives
 

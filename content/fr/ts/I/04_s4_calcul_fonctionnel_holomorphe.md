@@ -69,7 +69,7 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: 01f7d92569861302816b91ad977439840048381ad2f72762735ba146e3c5ff15
+content_sha256: 1ac369502f9cd7399820f978d2c714658c3f36eea24d636559d7b9e549c3364b
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -766,7 +766,7 @@ Soit $\boldsymbol{a}\in A^n$. Soient $g$ une fonction polynomiale sur $\mathbf{C
 
 D’après le lemme 9, il suffit de démontrer la première assertion.
 
-Notons $z_1, . . . , z_n$ les fonctions coordonnées sur $\mathbf{C}^n$. Puisque l’application $\Theta_{\boldsymbol{a}}$ est A-linéaire, il suffit de prouver l’assertion du lemme lorsque $g=z_1^{e_1}\cdots z^e_{n^n}$, où $(e_1, . . . , e_n)\in \mathbf{N}^n$. Procédant par récurrence sur $e_1+\cdots +e_n$, on se ramène au cas où il existe un entier $i$ tel que $1\leqslant i\leqslant n$ et $g=z_i$.
+Notons $z_1, . . . , z_n$ les fonctions coordonnées sur $\mathbf{C}^n$. Puisque l’application $\Theta_{\boldsymbol{a}}$ est A-linéaire, il suffit de prouver l’assertion du lemme lorsque $g=z_1^{e_1}\cdots z^{e_n}_n$, où $(e_1, . . . , e_n)\in \mathbf{N}^n$. Procédant par récurrence sur $e_1+\cdots +e_n$, on se ramène au cas où il existe un entier $i$ tel que $1\leqslant i\leqslant n$ et $g=z_i$.
 
 Soit U un voisinage ouvert de Sp$^n(\boldsymbol{a})$. Soit $(h, u_1, . . . , u_n)$ une suite adaptée à $\boldsymbol{a}$ telle que le support de $h$ est contenu dans U (lemme 1 de I, p. 52 et lemme 3 de I, p. 54), et soit $\omega$ la forme différentielle associée. D’après le lemme 4, a) de I, p. 54, il existe une forme différentielle $\beta$ telle que
 
@@ -799,32 +799,32 @@ d’après la formule (5). Le résultat en découle.
 Soient $\varrho_1, . . . , \varrho_n$ des réels $>0$ et soit $U\subset \mathbf{C}^n$ le polydisque produit des disques ouverts de centre 0 et de rayon $\varrho_i$. Soit
 
 $$
-\sum c(k_1, . . . , k_n)X^k_{1^1}\cdots X^k_{n^n}\in A[[X_1, . . . ,X_n]]
+\sum c(k_1, . . . , k_n)X^{k_1}_1\cdots X^{k_n}_n\in A[[X_1, . . . ,X_n]]
 $$
 
 $(k_1,...,k_n)\in \mathbf{N}^n$
 
 une série formelle à coefficients dans A. Supposons que cette série converge dans U, et notons $f$ la fonction holomorphe dans U qui en est la somme.
 
-Soit $\boldsymbol{a}= (a_1, . . . , a_n)\in A^n$ tel que $\varrho (a_i)< \varrho_i$ pour $1\leqslant i\leqslant n$. Alors Sp$^n(\boldsymbol{a})\subset U$, la famille $(c(k_1, . . . , k_n)a^k_{1^1}\cdots a^k_{n^n})$ d’éléments de A est absolument sommable, et
+Soit $\boldsymbol{a}= (a_1, . . . , a_n)\in A^n$ tel que $\varrho (a_i)< \varrho_i$ pour $1\leqslant i\leqslant n$. Alors Sp$^n(\boldsymbol{a})\subset U$, la famille $(c(k_1, . . . , k_n)a^{k_1}_1\cdots a^{k_n}_n)$ d’éléments de A est absolument sommable, et
 
 $$
-\Theta_{\boldsymbol{a}}(f) =\sum c(k_1, . . . , k_n)a^k_{1^1}\cdots a^k_{n^n}
-$$
-
-$(k_1,...,k_n)\in \mathbf{N}^n$
-
-Pour tout caractère $\chi$ de A et tout entier $i$ tel que $1\leqslant i\leqslant n$, on a $|\chi (a_i)|\leqslant \varrho (a_i)< \varrho_i$, donc Sp$^n(\boldsymbol{a})\subset U$ par définition du spectre simultané. Soient $z_1, . . . , z_n$ les restrictions à U des fonctions coordonnées sur $\mathbf{C}^n$. Alors la famille $(c(k_1, . . . , k_n)z_1^{k_1}\cdots z^k_{n^n})$ est sommable dans $\mathscr{O}(U; A)$ et de somme $f$. Compte tenu du lemme 10 et de la continuité de l’application $\Theta^U_{\boldsymbol{a}}$, la famille $(c(k_1, . . . , k_n)a^k_{1^1}. . . a^k_{n^n})$ est donc sommable dans A et de somme $\Theta_{\boldsymbol{a}}(f)$. Pour $1\leqslant i\leqslant n$, soit $\lambda_i$ un nombre réel tel que $\varrho (a_i)< \lambda_i< \varrho_i$. Il existe $M_i<+\infty$ tel que $\|a^k_i\|\leqslant M_i\lambda^k_i$ pour tout entier $k\geqslant 0$. On a alors
-
-$$
-\sum\|c(k_1, . . . , k_n)\| \|a^k_{1^1}\cdots a^k_{n^n}\|\leqslant
+\Theta_{\boldsymbol{a}}(f) =\sum c(k_1, . . . , k_n)a^{k_1}_1\cdots a^{k_n}_n
 $$
 
 $(k_1,...,k_n)\in \mathbf{N}^n$
 
-$M_1\cdots M_n\sum\|c(k_1, . . . , k_n)\|\lambda^k_{1^1}\cdots \lambda^k_{n^n}$
+Pour tout caractère $\chi$ de A et tout entier $i$ tel que $1\leqslant i\leqslant n$, on a $|\chi (a_i)|\leqslant \varrho (a_i)< \varrho_i$, donc Sp$^n(\boldsymbol{a})\subset U$ par définition du spectre simultané. Soient $z_1, . . . , z_n$ les restrictions à U des fonctions coordonnées sur $\mathbf{C}^n$. Alors la famille $(c(k_1, . . . , k_n)z_1^{k_1}\cdots z^{k_n}_n)$ est sommable dans $\mathscr{O}(U; A)$ et de somme $f$. Compte tenu du lemme 10 et de la continuité de l’application $\Theta^U_{\boldsymbol{a}}$, la famille $(c(k_1, . . . , k_n)a^{k_1}_1. . . a^{k_n}_n)$ est donc sommable dans A et de somme $\Theta_{\boldsymbol{a}}(f)$. Pour $1\leqslant i\leqslant n$, soit $\lambda_i$ un nombre réel tel que $\varrho (a_i)< \lambda_i< \varrho_i$. Il existe $M_i<+\infty$ tel que $\|a^k_i\|\leqslant M_i\lambda^k_i$ pour tout entier $k\geqslant 0$. On a alors
 
-$(k_1,...,k_n)\in \mathbf{N}^n$ qui est fini par hypothèse, donc la famille $(c(k_1, . . . , k_n)a^k_{1^1}\cdots a^k_{n^n})$ est absolument sommable.
+$$
+\sum\|c(k_1, . . . , k_n)\| \|a^{k_1}_1\cdots a^{k_n}_n\|\leqslant
+$$
+
+$(k_1,...,k_n)\in \mathbf{N}^n$
+
+$M_1\cdots M_n\sum\|c(k_1, . . . , k_n)\|\lambda^{k_1}_1\cdots \lambda^{k_n}_n$
+
+$(k_1,...,k_n)\in \mathbf{N}^n$ qui est fini par hypothèse, donc la famille $(c(k_1, . . . , k_n)a^{k_1}_1\cdots a^{k_n}_n)$ est absolument sommable.
 
 #### Corollaire {#ts-i-s4-n5-cor-2 .statement tag=02AB}
 

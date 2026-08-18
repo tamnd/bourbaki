@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: b11bf0a3f827f95e81b5a5281a45d1f07af3ab791dd75785c1072ce93d9cc0fc
+content_sha256: dd51693509eee7991f41c5b8f616a98acc66808424b5a3dd016645c17d6a86fb
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -528,7 +528,7 @@ If G is semi-simple, $x \rightarrow$ sup$|\langle x, N_i\rangle |$ is a norm on 
 
 Assume that G is semi-simple; let $d$ be an integer. The set of classes of representations of G of dimension $\leq d$ is finite.
 
-Cor. $1b)$ implies that the set $X_d$ of elements $\lambda$ of $X_{++}$ such that $d(\lambda )\leq d$ is finite. For all $\lambda$ in $X_d$, let $V_{\lambda}$ be an irreducible representation of highest weight $\lambda$; every representation of dimension $\leq d$ is isomorphic to a direct sum $\bigoplus_{\lambda\in X_d}V^n_{\lambda^{\lambda}}$, with $n_{\lambda}\leq d$, hence the corollary.
+Cor. $1b)$ implies that the set $X_d$ of elements $\lambda$ of $X_{++}$ such that $d(\lambda )\leq d$ is finite. For all $\lambda$ in $X_d$, let $V_{\lambda}$ be an irreducible representation of highest weight $\lambda$; every representation of dimension $\leq d$ is isomorphic to a direct sum $\bigoplus_{\lambda\in X_d}V^{n_{\lambda}}_{\lambda}$, with $n_{\lambda}\leq d$, hence the corollary.
 
 ### 6. CASIMIR ELEMENTS
 

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 268
 statements: 74
 exercises: 24
-content_sha256: aa7bd9d6ea17ccdcc1628de483acbb706e54bcaa40fc4ae4921eb82865ae0758
+content_sha256: 43f0deb8e4c2a87cb8588dff7de081c714d1e24f816f317f9ac28c6e1d44ac90
 ---
 
 ## § 4. OPÉRATEURS PARTIELS
@@ -250,17 +250,17 @@ Soit X un espace topologique localement compact et soit $\mu$ une mesure positiv
 
 Soit $g$ une fonction $\mu$-mesurable sur X à valeurs dans K. Notons D le sous-espace de $\mathscr{L}_K^{p_1}(X, \mu)$ formé des fonctions $f$ dans $\mathscr{L}_K^{p_1}(X, \mu)$ telles que $gf\in \mathscr{L}_K^{p_2}(X, \mu)$. L’application linéaire de D dans $\mathscr{L}_K^{p_2}(X, \mu)$ définie par $f\mapsto gf$ détermine un opérateur partiel de $\mathscr{L}_K^{p_1}(X, \mu)$ dans $\mathscr{L}_K^{p_2}(X, \mu)$, que l’on note $m_g$.
 
-Le sous-espace vectoriel des fonctions $\mu$-négligeables dans $\mathscr{L}_K^{p_1}(X, \mu)$ est contenu dans D, et l’image par $m_g$ d’une fonction $\mu$-négligeable est encore $\mu$-négligeable. On notera $\widetilde{m}_g$ l’opérateur partiel de $L^p_{K^1}(X, \mu)$ dans $L^p_{K^2}(X, \mu)$ déduit de $m_g$ par passage aux quotients. On dit que c’est l’opérateur de multiplication par $g$ de $L^p_{K^1}(X, \mu)$ dans $L^p_{K^2}(X, \mu)$. Des fonctions $g_1$ et $g_2$ localement égales $\mu$-presque partout définissent le même opérateur de multiplication.
+Le sous-espace vectoriel des fonctions $\mu$-négligeables dans $\mathscr{L}_K^{p_1}(X, \mu)$ est contenu dans D, et l’image par $m_g$ d’une fonction $\mu$-négligeable est encore $\mu$-négligeable. On notera $\widetilde{m}_g$ l’opérateur partiel de $L^{p_1}_K(X, \mu)$ dans $L^{p_2}_K(X, \mu)$ déduit de $m_g$ par passage aux quotients. On dit que c’est l’opérateur de multiplication par $g$ de $L^{p_1}_K(X, \mu)$ dans $L^{p_2}_K(X, \mu)$. Des fonctions $g_1$ et $g_2$ localement égales $\mu$-presque partout définissent le même opérateur de multiplication.
 
 #### Proposition 5 {#ts-iv-s4-prop-5 .statement tag=032X}
 
-L’opérateur de multiplication $\widetilde{m}_g$ de $L^p_{K^1}(X, \mu)$ dans $L^p_{K^2}(X, \mu)$ est un opérateur fermé à domaine dense.
+L’opérateur de multiplication $\widetilde{m}_g$ de $L^{p_1}_K(X, \mu)$ dans $L^{p_2}_K(X, \mu)$ est un opérateur fermé à domaine dense.
 
-Démontrons d’abord que l’opérateur partiel $\widetilde{m}_g$ est fermé. Soit $(f_n, h_n)_{n\in\mathbf{N}}$ une suite dans $\mathscr{L}_K^{p_1}(X, \mu)\times \mathscr{L}_K^{p_2}(X, \mu)$ telle que la suite $(f_{\widetilde{n}},\widetilde{h}_n)$ des classes de $f_n$ et $h_n$ appartient au graphe de $\widetilde{m}_g$ et converge dans $L^p_{K^1}(X, \mu)\times L^p_{K^2}(X, \mu)$ quand $n$ tend vers l’infini. Soit $(f, h)$ un couple dans $\mathscr{L}_K^{p_1}(X, \mu)\times \mathscr{L}_K^{p_2}(X, \mu)$ tel que le couple $(\widetilde{f} ,\widetilde{h})$ de leurs classes est la limite de $(\widetilde{f}_n,\widetilde{h}_n)$.
+Démontrons d’abord que l’opérateur partiel $\widetilde{m}_g$ est fermé. Soit $(f_n, h_n)_{n\in\mathbf{N}}$ une suite dans $\mathscr{L}_K^{p_1}(X, \mu)\times \mathscr{L}_K^{p_2}(X, \mu)$ telle que la suite $(f_{\widetilde{n}},\widetilde{h}_n)$ des classes de $f_n$ et $h_n$ appartient au graphe de $\widetilde{m}_g$ et converge dans $L^{p_1}_K(X, \mu)\times L^{p_2}_K(X, \mu)$ quand $n$ tend vers l’infini. Soit $(f, h)$ un couple dans $\mathscr{L}_K^{p_1}(X, \mu)\times \mathscr{L}_K^{p_2}(X, \mu)$ tel que le couple $(\widetilde{f} ,\widetilde{h})$ de leurs classes est la limite de $(\widetilde{f}_n,\widetilde{h}_n)$.
 
 Il existe une suite $(f_{n_k})_{k\in\mathbf{N}}$ extraite de la suite $(f_n)_n$ telle que $f_{n_k}(x)$ converge vers $f(x)$ pour $\mu$-presque tout $x$ (INT, IV, p. 131, § 3, n$^o4$, th. 3). Cela implique que $h_{n_k}(x) =g(x)f_{n_k}(x)$ converge $\mu$-presque partout vers $g(x)f(x)$. Par ailleurs la suite $(h_{n_k})$ converge vers $h$ dans l’espace $\mathscr{L}_K^{p_2}(X, \mu)$. Les fonctions $h$ et $gf$ sont donc égales $\mu$-presque partout (loc. cit.). Ainsi $\widetilde{f}$ appartient au domaine de $\widetilde{m}_g$ et $\widetilde{h}=\widetilde{m}_g(\widetilde{f})$. Cela démontre que $\widetilde{m}_g$ est fermé.
 
-Démontrons que le domaine de $\widetilde{m}_g$ est dense dans $L^p_{K^1}(X, \mu)$. Il suffit de vérifier que les classes de fonctions $f\in \mathscr{K}(X; K)$ appartiennent à l’adhérence du domaine de $\widetilde{m}_g$ dans $L^p_{K^1}(X, \mu)$. Soit $f\in \mathscr{K}(X; K)$ et soit $\widetilde{f}$ sa classe dans $L^p_{K^1}(X, \mu)$. Pour tout entier $n\in \mathbf{N}$, notons $\varphi_n$ la fonction caractéristique de l’ensemble des éléments $x\in X$ tels que $|g(x)|\leqslant n$, et posons $f_n=f \varphi_n$. On a alors $|gf_n|\leqslant n|f|$, qui appartient à $\mathscr{L}_K^{p_2}(X, \mu)$, donc $f_n$ appartient au domaine de $\widetilde{m}_g$. Pour tout élément $x$ de X, la suite $(f_n(x))_{n\in\mathbf{N}}$ converge vers $f(x)$ quand $n\rightarrow +\infty$; de plus, on a $|f_n|\leqslant |f|$, qui appartient à $\mathscr{L}_K^{p_1}(X, \mu)$. D’après le théorème de Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6), la suite des classes de $f_n$ converge vers $\widetilde{f}$ dans $L^p_{K^1}(X, \mu)$. Ainsi, la classe de $f$ appartient à l’adhérence du domaine de $\widetilde{m}_g$.
+Démontrons que le domaine de $\widetilde{m}_g$ est dense dans $L^{p_1}_K(X, \mu)$. Il suffit de vérifier que les classes de fonctions $f\in \mathscr{K}(X; K)$ appartiennent à l’adhérence du domaine de $\widetilde{m}_g$ dans $L^{p_1}_K(X, \mu)$. Soit $f\in \mathscr{K}(X; K)$ et soit $\widetilde{f}$ sa classe dans $L^{p_1}_K(X, \mu)$. Pour tout entier $n\in \mathbf{N}$, notons $\varphi_n$ la fonction caractéristique de l’ensemble des éléments $x\in X$ tels que $|g(x)|\leqslant n$, et posons $f_n=f \varphi_n$. On a alors $|gf_n|\leqslant n|f|$, qui appartient à $\mathscr{L}_K^{p_2}(X, \mu)$, donc $f_n$ appartient au domaine de $\widetilde{m}_g$. Pour tout élément $x$ de X, la suite $(f_n(x))_{n\in\mathbf{N}}$ converge vers $f(x)$ quand $n\rightarrow +\infty$; de plus, on a $|f_n|\leqslant |f|$, qui appartient à $\mathscr{L}_K^{p_1}(X, \mu)$. D’après le théorème de Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6), la suite des classes de $f_n$ converge vers $\widetilde{f}$ dans $L^{p_1}_K(X, \mu)$. Ainsi, la classe de $f$ appartient à l’adhérence du domaine de $\widetilde{m}_g$.
 
 Dans la proposition suivante, on suppose que $p_1=p_2= 2$.
 
@@ -302,7 +302,7 @@ pour tout $h'\in F$ de classe $\widetilde{h}'$. Compte tenu de l’hypothèse su
 
 Soit $p$ un nombre réel $\geqslant 1$. Soit $h$ un élément de $\mathscr{L}_K^{\infty}(X, \mu)$. L’opérateur $\widetilde{m}_h$ de multiplication par $h$ est un endomorphisme de $L^p_K(X, \mu)$(IV, p. 186, n$^o5$). Supposons que l’ensemble Y des $x\in X$ tels que $h(x) = 0$ est localement $\mu$-négligeable. L’endomorphisme $\widetilde{m}_h$ est alors injectif (lemme 7 de IV, p. 186). Notons $h^{-1}$ la fonction sur X égale à 0 sur Y et à $x\mapsto 1/h(x)$ sur X- Y. L’opérateur partiel réciproque $\widetilde{m}^{-1}_h$ est l’opérateur de multiplication par $h^{-1}$ de $L^p_K(X, \mu)$ dans $L^p_K(X, \mu)$, c’est-à-dire que $\widetilde{m}^{-1}_h=\widetilde{m}_{h^{-1}}$. En effet, l’image de $\widetilde{m}_h$ est l’espace des classes des fonctions $g\in \mathscr{L}_K^p(X, \mu)$ de la forme $g=hf$ pour $f\in \mathscr{L}_K^p(X, \mu)$. Cette condition équivaut à $g(x)/h(x) =f(x)$ pour tout $x\in X$- Y et $g(x) = 0$ si $x\in Y$. Cela implique que le domaine de $\widetilde{m}^{-1}_h$ dans $L^p_K(X, \mu)$ est le domaine de $\widetilde{m}_{h^{-1}}$, et que l’égalité $\widetilde{m}^{-1}_h=\widetilde{m}_{h^{-1}}$ est valide.
 
-Dans la suite, on notera parfois simplement $m_h$ l’opérateur partiel de multiplication par $h$ de $L^p_{K^1}(X, \mu)$ dans $L^p_{K^2}(X, \mu)$.
+Dans la suite, on notera parfois simplement $m_h$ l’opérateur partiel de multiplication par $h$ de $L^{p^1}_K(X, \mu)$ dans $L^{p_2}_K(X, \mu)$.
 
 #### Exemple 2 {#ts-iv-s4-n3-exa-2 .statement tag=032Z}
 

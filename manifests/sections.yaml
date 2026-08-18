@@ -132,7 +132,7 @@ books:
               statements: 49
               exercises: 31
               extraction: native
-              content_sha256: dd78c622651e39dc8d8d3c37b521d6a3b422fc68fd595e198522d392192637f6
+              content_sha256: ae649296553202d39850f622e767e33f6ce84c3ec494cf77d555591bb7a1bdbb
             - kind: section
               section: 10
               title: Modules over an Artinian Ring
@@ -223,7 +223,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: a33ae206368ccaddd7f1cce2d6c43be00bdf8ae012b11db09599cee7faf302a3
+              content_sha256: 7fe2fc8a18af466be84771e5b055fa96cceb1e125430b92a4febfdee83d77d27
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -484,7 +484,7 @@ books:
               statements: 49
               exercises: 31
               extraction: native
-              content_sha256: 9d663ff53f021d7258c9ce570b3d6f56ca0683dd0e5c6837055519ff50e9de3e
+              content_sha256: 7b70111e50630a2123a75689c16aac36f8d9ffcf0bb5bbf2535b5699d6a293a1
             - kind: section
               section: 10
               title: Modules sur un anneau artinien
@@ -510,7 +510,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native
-              content_sha256: 74444701bf42664dbffeed208098ca0ae43cd77175c341ba1c7caedca7698a34
+              content_sha256: 79fe3c28336919ab713148be4f1136ffdccc37e8c79f9d1e0413f968620889ff
             - kind: section
               section: 12
               title: Produit tensoriel de modules semi-simples
@@ -575,7 +575,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: b35d192f83465be652ffabed97e16b37139cb15c3f253b92421f67d8a37a66d7
+              content_sha256: 4dc9b2f2c0eaa4190e22973be9ef5f06a8a817602591608387e29593c92a7208
             - kind: section
               section: 17
               title: Normes et traces réduites
@@ -731,7 +731,7 @@ books:
               statements: 25
               exercises: 11
               extraction: native
-              content_sha256: 575b6f0a3f9a3d5aa4cd76cd44622cddd588e8d2cf1d3e2ec7c24cb9b797b8be
+              content_sha256: 5b584839e476edf0035dab9849c9becb4157f0e8dabbf1ed0d66b8cbfe03fa9c
             - kind: section
               section: 2
               title: Cartan subalgebras and regular elements of a Lie algebra
@@ -887,7 +887,7 @@ books:
               statements: 25
               exercises: 13
               extraction: native+ocr
-              content_sha256: 4cb0cd2d76b32556fcf2dcae97fad2bc7fee6d517c3dcfb35b54bd9480118d79
+              content_sha256: 1b4f8a1472586988d2649366ba36ca60a4299f01bc8a8d9b2d46fbf500bf8c70
             - kind: section
               section: 6
               title: Modules over a split semi-simple Lie algebra
@@ -978,7 +978,7 @@ books:
               statements: 34
               exercises: 0
               extraction: native
-              content_sha256: 1642fa4e5c816a65484bf3f50d22b9ef5567f03656090866dfba4af2410ea377
+              content_sha256: d9a956959901e6124b9a02e8f633dd7aa117e225b0ffb320146cecb212df5b97
             - kind: section
               section: 13
               title: Classical splittable simple Lie algebras
@@ -1095,7 +1095,7 @@ books:
               statements: 28
               exercises: 8
               extraction: native
-              content_sha256: b11bf0a3f827f95e81b5a5281a45d1f07af3ab791dd75785c1072ce93d9cc0fc
+              content_sha256: dd51693509eee7991f41c5b8f616a98acc66808424b5a3dd016645c17d6a86fb
             - kind: section
               section: 8
               title: Fourier transform
@@ -1134,7 +1134,7 @@ books:
               statements: 9
               exercises: 1
               extraction: native
-              content_sha256: 41872eb014d688a41d6d3ba05be1302df46947f174e42f3298da768560d2a8da
+              content_sha256: 7a8e6eaf7ad5e2aba0afae5b4b0b6a735d96b5b34e0647a35d0ee5f584772f44
             - kind: appendix
               section: 2
               title: Representations of real, complex or quaternionic type
@@ -1559,7 +1559,7 @@ books:
               statements: 55
               exercises: 18
               extraction: native
-              content_sha256: 01f7d92569861302816b91ad977439840048381ad2f72762735ba146e3c5ff15
+              content_sha256: 1ac369502f9cd7399820f978d2c714658c3f36eea24d636559d7b9e549c3364b
             - kind: section
               section: 5
               title: Algèbres de Banach commutatives régulières
@@ -1585,7 +1585,7 @@ books:
               statements: 94
               exercises: 32
               extraction: native
-              content_sha256: d55083c241f4ca758dd6515a40723b704b63198caffb074084201f9875adfbb7
+              content_sha256: b89b39a138ebf59e40a3239c55844cc3c855cb684499c91a404eb9fa936d21f3
             - kind: section
               section: 7
               title: Spectre des endomorphismes des espaces de Banach
@@ -1638,7 +1638,7 @@ books:
               statements: 95
               exercises: 68
               extraction: native
-              content_sha256: 644df124b55187454086439f9fb7cfd294a47623c22a85e52b3e094bc59bc31a
+              content_sha256: db52f8d9c2ae3778d944a4ca14401424ac543623bfd078ce6ab37529d79b3716
             - kind: section
               section: 2
               title: Classification
@@ -1732,7 +1732,7 @@ books:
               statements: 30
               exercises: 9
               extraction: native
-              content_sha256: 0daa57d63c279cdfc85a2dcec60d7842343ea5bccf4e92e052074a35fcd665f5
+              content_sha256: 3bd2655538ea0fd366c1d478fd837c60b555fbf6a5cdd661a93717b8f558115d
             - kind: section
               section: 5
               title: Perturbation par une application linéaire compacte
@@ -1811,7 +1811,7 @@ books:
               statements: 46
               exercises: 33
               extraction: native
-              content_sha256: dcac57bf93c65d293e09366aee31b158ead43e2a6f8699dd0c84eb3bfacbd7ec
+              content_sha256: 4c54cb470e9b86a3e67588c6d240754f91e28ba38961ae2dcd82544725dc11f3
             - kind: section
               section: 4
               title: Opérateurs partiels
@@ -1824,7 +1824,7 @@ books:
               statements: 74
               exercises: 24
               extraction: native
-              content_sha256: aa7bd9d6ea17ccdcc1628de483acbb706e54bcaa40fc4ae4921eb82865ae0758
+              content_sha256: 43f0deb8e4c2a87cb8588dff7de081c714d1e24f816f317f9ac28c6e1d44ac90
             - kind: section
               section: 5
               title: Opérateurs partiels normaux et théorème spectral
@@ -1837,7 +1837,7 @@ books:
               statements: 75
               exercises: 43
               extraction: native
-              content_sha256: d991f35c8f7c0acffc5b7432b05db05a7ea5b27962d1e1458c8bc3b1169340db
+              content_sha256: 6bc1adaefbeb6af5fbf21475ca1408f45da4a887dd5168d56fcb58b036d50d09
         - chapter: V
           title: REPRÉSENTATIONS UNITAIRES
           sections:
@@ -1903,7 +1903,7 @@ books:
               statements: 54
               exercises: 32
               extraction: native
-              content_sha256: e596c967e84814ccbf6dba26b7868c5e0f72447e01978c68df4b482a1466f4db
+              content_sha256: de6bb5480b1019f4ef8bd38dc3d7c88a01da27bcb3eba5fe1ff7bae49ed568f1
             - kind: historical
               title: Historical Note
               path: content/fr/ts/V/historical_note.md

@@ -34,7 +34,7 @@ subsections:
       pdf_page: 178
 statements: 49
 exercises: 31
-content_sha256: dd78c622651e39dc8d8d3c37b521d6a3b422fc68fd595e198522d392192637f6
+content_sha256: ae649296553202d39850f622e767e33f6ce84c3ec494cf77d555591bb7a1bdbb
 ---
 
 ## § 9. RADICAL
@@ -155,7 +155,7 @@ Let K be a commutative field and E the algebra $K[[X_i]]_{i\in I}$ of formal pow
 
 Suppose that A is a principal ideal domain, and let P be a system of representatives consisting of irreducible elements (VII, §1, No. 3, p. 3). If A is a field, then it is without radical by Example 1. If the set P is infinite, then the intersection of the maximal ideals $Ap$ of A is reduced to 0, so A is without radical. But if P is finite and nonempty, and if we set $x=\prod_{p\in P}p$, then the radical of A is equal to $\cap_{p\in P}Ap= Ax$ (VII, §1, No. 2, p. 3, Proposition 4), hence is not reduced to 0.
 
-Let $y$ be a nonzero element of A; we write it as $y=up^i_{1^1}\cdots p^i_{r^r}$, where $u$ is invertible in $A,p_1, . . . , p_r$ are pairwise distinct elements of P, and $i_1, . . . , i_r$ are strictly positive integers. The maximal ideals of the ring $A/Ay$ are the ideals $Ap_1/Ay, . . . ,Ap_r/Ay$; the radical of the ring $A/Ay$ is therefore the ideal $Ap_1\cdots p_r/Ay$. In particular, the ring $A/Ay$ is without radical if and only if we have $i_1=\cdots =i_r= 1$; in this case, we say that $y$ is without multiple factors.
+Let $y$ be a nonzero element of A; we write it as $y=up^{i_1}_1\cdots p^{i_r}_r$, where $u$ is invertible in $A,p_1, . . . , p_r$ are pairwise distinct elements of P, and $i_1, . . . , i_r$ are strictly positive integers. The maximal ideals of the ring $A/Ay$ are the ideals $Ap_1/Ay, . . . ,Ap_r/Ay$; the radical of the ring $A/Ay$ is therefore the ideal $Ap_1\cdots p_r/Ay$. In particular, the ring $A/Ay$ is without radical if and only if we have $i_1=\cdots =i_r= 1$; in this case, we say that $y$ is without multiple factors.
 
 #### Proposition 5 {#alg-viii-s9-prop-5 .statement tag=00AF}
 

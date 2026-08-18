@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: 644df124b55187454086439f9fb7cfd294a47623c22a85e52b3e094bc59bc31a
+content_sha256: db52f8d9c2ae3778d944a4ca14401424ac543623bfd078ce6ab37529d79b3716
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -1446,7 +1446,7 @@ La démonstration suit pas à pas celle du cor. 2 de la prop. 19.
 
 ### 9. Transformée de Fourier euclidienne et séries de Fourier
 
-$*$ Soit $n\in \mathbf{N}$. On identifie $\mathbf{R}_n$ et son dual comme dans le cor. 3 de II, p. 236. La mesure duale de la mesure de Lebesgue est alors la mesure de Lebesgue. On munit $\mathbf{R}^n$ de la norme euclidienne. Pour tout multi-indice $\alpha \in \mathbf{N}^n$, et tout $x= (x_1, . . . , x_n)\in \mathbf{R}^n$, on notera $x^{\alpha}=x^{\alpha}_{1^1}\cdots x^{\alpha}_{n^n}$, et on note $X^{\alpha}$ la fonction $x\mapsto x^{\alpha}$ sur $\mathbf{R}^n$.
+$*$ Soit $n\in \mathbf{N}$. On identifie $\mathbf{R}_n$ et son dual comme dans le cor. 3 de II, p. 236. La mesure duale de la mesure de Lebesgue est alors la mesure de Lebesgue. On munit $\mathbf{R}^n$ de la norme euclidienne. Pour tout multi-indice $\alpha \in \mathbf{N}^n$, et tout $x= (x_1, . . . , x_n)\in \mathbf{R}^n$, on notera $x^{\alpha}=x^{\alpha_1}_1\cdots x^{\alpha_n}_n$, et on note $X^{\alpha}$ la fonction $x\mapsto x^{\alpha}$ sur $\mathbf{R}^n$.
 
 Soit $m\in \mathbf{R}^m$. Tout morphisme continu de groupes commutatifs de $\mathbf{R}^m$ dans $\mathbf{R}^n$ est une application linéaire $\sigma \in \mathscr{L}(\mathbf{R}^n,\mathbf{R}^m)$ (TG, VII, p. 11, prop. 1). Le morphisme dual $\widehat{\sigma}$ s’identifie à l’application linéaire $^t\sigma$.
 
