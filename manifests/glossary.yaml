@@ -1,4 +1,4 @@
-version: 29
+version: 30
 terms:
     - en: ring
       vi: vành
@@ -4275,3 +4275,6 @@ terms:
     - en: well-ordered
       vi: được sắp tốt
       zh: 良序
+    - en: lattice
+      vi: dàn
+      note: The corpus wrote it two ways, dàn in most places and mạng in eleven, so the row is here to settle it. mạng is a net or a network and is what a reader of a networking paper expects; dàn is the word the Vietnamese algebra literature uses for the order structure this chapter defines.
