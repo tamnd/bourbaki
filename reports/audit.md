@@ -20,9 +20,10 @@ Audited: 8 chapters, 90 sections, 878 exercises, 3281 extracted pages, 5252 tags
 | translation | 11 | 3 | 1 | L06 (66), L08 (21), L15 (2) |
 | solutions | 0 | 5 | 0 | X05 (5) |
 | publication | 0 | 1 | 0 | P04 (29) |
-| hygiene | 7 | 0 | 0 | H06 (1) |
+| hygiene | 7 | 0 | 0 | none |
 
-1 hard findings and 387 soft, over 61 rules that ran and 3 that could not.
+0 hard findings and 387 soft, over 61 rules that ran and 3 that could not.
+Every hard rule passes.
 
 ## Rules that did not run
 
@@ -33,12 +34,6 @@ should trust.
 - **M04** every math span parses: not asked for, run with -validate-tex
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
-
-## H06 the README coverage table is the one the corpus has (1)
-
-Hard, hygiene.
-
-- `README.md` the coverage table is not the one the corpus has, run bourbaki report coverage -write-readme
 
 ## M06 displays per page within three sigma of the book mean (1)
 
