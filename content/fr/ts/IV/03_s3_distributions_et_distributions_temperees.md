@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: e0232bd4e9d4faec675a0d9064884947524a3aa2acb384a095da7d4beee875b1
+content_sha256: 0aa5b86b5561b64cabb0a77c69823cf0e4636a7a5ff3ca782b4131646e339bce
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -264,7 +264,7 @@ On note $\mathscr{D}(U)$ l’espace vectoriel $\mathscr{K}(U)\cap \mathscr{C}^{\
 
 Cet espace est noté $\mathscr{C}_{\circ}^{\infty}(U)$ dans EVT, III, p. 9.
 
-Soit $(K_m)$ une suite croissante de parties compactes de U dont les intérieurs forment un recouvrement de U. L’espace $\mathscr{D}(U)$ est alors la limite inductive stricte des espaces $\mathscr{C}_K^{\infty_m}(U)$ (EVT, III, p. 9). C’est donc un espace complet (EVT, II, p. 35, prop. 9). Toute partie bornée de $\mathscr{D}(U)$ est contenue dans l’un des sous-espaces $\mathscr{C}_K^{\infty_m}(U)$ (EVT, III, p. 5, prop. 6). Cela signifie que $B\subset \mathscr{D}(U)$ est bornée si et seulement si il existe une partie compacte K de U et une famille $(M_{\alpha})_{\alpha\in\mathbf{N}^n}$ dans $\mathbf{R}_+$ telles que B est contenu dans l’ensemble des fonctions $\varphi \in \mathscr{C}_K^{\infty}(U)$ vérifiant
+Soit $(K_m)$ une suite croissante de parties compactes de U dont les intérieurs forment un recouvrement de U. L’espace $\mathscr{D}(U)$ est alors la limite inductive stricte des espaces $\mathscr{C}_{K_m}^{\infty}(U)$ (EVT, III, p. 9). C’est donc un espace complet (EVT, II, p. 35, prop. 9). Toute partie bornée de $\mathscr{D}(U)$ est contenue dans l’un des sous-espaces $\mathscr{C}_{K_m}^{\infty}(U)$ (EVT, III, p. 5, prop. 6). Cela signifie que $B\subset \mathscr{D}(U)$ est bornée si et seulement si il existe une partie compacte K de U et une famille $(M_{\alpha})_{\alpha\in\mathbf{N}^n}$ dans $\mathbf{R}_+$ telles que B est contenu dans l’ensemble des fonctions $\varphi \in \mathscr{C}_K^{\infty}(U)$ vérifiant
 
 $$
 p_{\alpha ,K}(\varphi )\leqslant M_{\alpha}
@@ -911,7 +911,7 @@ Soit $p\in [1,+\infty ]$ et $f\in \mathscr{L}^p(\mathbf{R}^n)$. Alors la mesure 
 Soit $q$ l’exposant conjugué de $p$ et soit $r\geqslant 0$ tel que $rq > n$. Pour tout $x\in \mathbf{R}^n$, notons $g(x) = (1 +\|x\|)^{-r}$. La fonction $g$ appartient à $\mathscr{L}^q(\mathbf{R}^n)$ d’après la prop. 3 de IV, p. 199. D’après l’inégalité de Hölder, on a
 
 $$
-\int_{\mathbf{R}}^{*_n}(1 +\|x\|)^{-r}|f(x)|d\mu(x)\leqslant N_q(g)N_p(f)<+\infty
+\int_{\mathbf{R}^n}^*(1 +\|x\|)^{-r}|f(x)|d\mu(x)\leqslant N_q(g)N_p(f)<+\infty
 $$
 
 donc la mesure $f\cdot \mu$ est tempérée.

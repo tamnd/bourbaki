@@ -53,7 +53,7 @@ subsections:
       pdf_page: 82
 statements: 35
 exercises: 8
-content_sha256: 0e203adc3cc78163425865fb66884c00545efaf7452fc3643dcb5ba991e7f4d7
+content_sha256: 5308905cc195611595fb321bb07ce6a26de8cd04bc295ff38679d8b5ac11956a
 ---
 
 ## § 3. FAISCEAUX
@@ -482,9 +482,9 @@ Soient A et B des espaces topologiques et soit $u: A\rightarrow B$ une applicati
 
 Soient A, B, C des espaces topologiques, soient $u: A\rightarrow B,v: B\rightarrow C$ des applications continues ; posons $w=v\circ u$. Soit $\mathscr{G}$ un préfaisceau sur C.
 
-Soient U un ouvert de C et $s$ une section de $E_{\mathscr{G}}$ au-dessus de U. Alors, $\beta_{\mathscr{G}}^v(s)$ est la section $s\circ v$ de $E_{\mathscr{G}}$ au-dessus de $\overset{-1}{v}(U)$, et $v_*(\beta_v^{u_*}_{\mathscr{G}})(\beta^v_{\mathscr{G}}(s))$ est la section $s\circ v\circ u=s\circ w$ de $E_{\mathscr{G}}$ au-dessus de $\overset{-1}{u}(\overset{-1}{v}(U)) =\overset{-1}{w}(U)$.
+Soient U un ouvert de C et $s$ une section de $E_{\mathscr{G}}$ au-dessus de U. Alors, $\beta_{\mathscr{G}}^v(s)$ est la section $s\circ v$ de $E_{\mathscr{G}}$ au-dessus de $\overset{-1}{v}(U)$, et $v_*(\beta_{v^*\mathscr{G}}^u)(\beta^v_{\mathscr{G}}(s))$ est la section $s\circ v\circ u=s\circ w$ de $E_{\mathscr{G}}$ au-dessus de $\overset{-1}{u}(\overset{-1}{v}(U)) =\overset{-1}{w}(U)$.
 
-Il en résulte l’égalité $\beta_{\mathscr{G}}^w=v_*(\beta_v^{u_*}_{\mathscr{G}})\circ \beta_{\mathscr{G}}^v$.
+Il en résulte l’égalité $\beta_{\mathscr{G}}^w=v_*(\beta_{v^*\mathscr{G}}^u)\circ \beta_{\mathscr{G}}^v$.
 
 #### Remarque 2 {#ta-i-s3-n8-rem-2 .statement tag=01OI}
 

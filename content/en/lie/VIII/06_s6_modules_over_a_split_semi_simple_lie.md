@@ -29,7 +29,7 @@ subsections:
       pdf_page: 130
 statements: 17
 exercises: 5
-content_sha256: c211a31d4ec489891d1c7c2e4e1de1aa3996ca03091ecac30b0fd9ff2883ce44
+content_sha256: 92762a3649cb142dee90dc134615215d75dd8db8706bed1974957e127d464b2e
 ---
 
 ## § 6. MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -315,7 +315,7 @@ Moreover, $\rho (H_{\alpha}) = 1$ (Chap. VI, §1, Prop. 29 (iii)), so $\mu'(H_{\
 Let U be the enveloping algebra of $\mathfrak{g}, V\subset U$ the enveloping algebra of $\mathfrak{h}$. The algebra V can be identified with the symmetric algebra $\mathbf{S}(\mathfrak{h})$ of $\mathfrak{h}$, and also with the algebra of polynomial functions on $\mathfrak{h}^*$. Denote by $\alpha_1, . . . , \alpha_n$ the pairwise distinct positive roots. Let $(H_1, . . . , H_l)$ be a basis of $\mathfrak{h}$. By the Poincaré-Birkhoff-Witt theorem, the elements
 
 $$
-u((q_i),(m_i),(p_i)) =X_{-\alpha_1}^{q_1}. . . X_{-\alpha_n}^{q_n}H_1^{m_1}. . . H_l^{m_l}X_{\alpha}^{p_{11}}. . . X_{\alpha}^{p_{nn}}
+u((q_i),(m_i),(p_i)) =X_{-\alpha_1}^{q_1}. . . X_{-\alpha_n}^{q_n}H_1^{m_1}. . . H_l^{m_l}X_{\alpha_1}^{p_1}. . . X_{\alpha_n}^{p_n}
 $$
 
 $(q_i, m_i, p_i$ integers $\geq 0)$ form a basis of the vector space U. For all $h\in \mathfrak{h}$, we have

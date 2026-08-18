@@ -41,7 +41,7 @@ subsections:
       pdf_page: 57
 statements: 48
 exercises: 29
-content_sha256: 22d473e429eed45d33fefe3467706528ddb028e3f35c9415faf56e0b0053f3c6
+content_sha256: 0e5e8de96f76e5b70079d7546622072d25298940fc05e6d1754bcc994677bc4f
 ---
 
 ## § 3. ALGÈBRES DE BANACH COMMUTATIVES
@@ -462,7 +462,7 @@ L’image de l’application $\mathsf{X}(h)$ est appelée le spectre simultané 
 
 Le spectre simultané de $x$ est une partie compacte de $\mathbf{C}^{\Lambda}$. Un élément $c= (c_{\lambda})\in \mathbf{C}^{\Lambda}$ appartient à Sp$^{\Lambda}_A(x)$ si et seulement si les éléments $x_{\lambda}-c_{\lambda}$ appartiennent à un même idéal maximal de A, autrement dit si la famille $(x_{\lambda}-c_{\lambda})_{\lambda\in\Lambda}$ n’engendre pas l’algèbre A.
 
-Si Λ contient un seul élément, de sorte que la famille $x$ se réduit à un seul élément $x\in A$, on a Sp$^{\Lambda}_A(x) =$ Sp$_A(x)$ (I, p. 37, prop. 6, b)). Si $\Lambda '\subset \Lambda$, alors Sp$^{\Lambda}_{A'}((x_{\lambda})_{\lambda\in\Lambda'})$ est l’image de Sp$^{\Lambda}_A((x_{\lambda})_{\lambda\in\Lambda})$ par l’application canonique de projection de $\mathbf{C}^{\Lambda}$ sur $\mathbf{C}^{\Lambda'}$. En particulier, on a
+Si Λ contient un seul élément, de sorte que la famille $x$ se réduit à un seul élément $x\in A$, on a Sp$^{\Lambda}_A(x) =$ Sp$_A(x)$ (I, p. 37, prop. 6, b)). Si $\Lambda '\subset \Lambda$, alors Sp$^{\Lambda'}_A((x_{\lambda})_{\lambda\in\Lambda'})$ est l’image de Sp$^{\Lambda}_A((x_{\lambda})_{\lambda\in\Lambda})$ par l’application canonique de projection de $\mathbf{C}^{\Lambda}$ sur $\mathbf{C}^{\Lambda'}$. En particulier, on a
 
 Sp$^{\Lambda}_A(x)\subset \prod_{\lambda\in\Lambda}$ Sp$_A(x_{\lambda})$.
 

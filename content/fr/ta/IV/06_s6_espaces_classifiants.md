@@ -33,7 +33,7 @@ subsections:
       pdf_page: 465
 statements: 32
 exercises: 9
-content_sha256: a2870b304efe50fc74eb2f4defc511a3177c203720e574519b617cf05e9df6e3
+content_sha256: 7091797ae3a0c29ad97e228ae96a3ad24c8bea218373152d23384bdc7d3b179b
 ---
 
 ## § 6. ESPACES CLASSIFIANTS
@@ -407,7 +407,7 @@ Soit $d$ une distance sur G qui définit sa topologie. Alors, l’application $d
 Soit V un voisinage de $e$ dans G et soit $\varepsilon$ un nombre réel strictement positif. Soit $\delta$ un nombre réel strictement positif tel que V contienne la boule $B(e, \delta )$. Soit $h\in G^*$ et soit $(t_i)_{0\leqslant i\leqslant n}$ une suite adaptée à $h$. Alors,
 
 $$
-p_V(h) =\sum_{h(t_ii_-=1)\notin V}^{n_1}(t_i-t_{i-1})
+p_V(h) =\sum_{h(t_ii_-=1_1)\notin V}^n(t_i-t_{i-1})
 $$
 
 $$

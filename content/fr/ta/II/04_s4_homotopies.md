@@ -33,7 +33,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 0
-content_sha256: 4cb5c91ffced512dfc3d782095ff15b5c96341225cf61a487219393134f4260b
+content_sha256: 42b6b15a8d35c52c77c4cdd11ec65007ecd0a759eb51efe44e28c26290c10d75
 ---
 
 ## § 4. HOMOTOPIES
@@ -235,7 +235,7 @@ u^{\psi}_v \tag{4}
 $$
 
 $$
-{H'}^{\varphi}_{\psi''}G'
+{H'}^{\varphi'}_{\psi'}G'
 $$
 
 où H, $H'$, G, $G'$ sont des groupoïdes et $u,v,\varphi ,\psi ,\varphi ',\psi '$ des morphismes de groupoïdes tels que $v\circ \varphi =\varphi '\circ u$ et $v\circ \psi =\psi '\circ u$.
@@ -248,7 +248,7 @@ $$
 u^{\psi}_vw \tag{5}
 $$
 
-${H'}^{\varphi}_{\psi''}{G'}^{\alpha'}$ Coh($\varphi ', \psi '$)
+${H'}^{\varphi'}_{\psi'}{G'}^{\alpha'}$ Coh($\varphi ', \psi '$)
 
 dans lequel le second carré est commutatif.
 
@@ -304,7 +304,7 @@ H $^{\varphi}$ G H $^{v\circ\varphi}G'$
 
 Id$_H\psi v$ et $uv\circ \psi$ Id$_{G'}$
 
-H $^v_{v\circ}^{\circ\varphi}_{\psi}G'{H'}^{\varphi}_{\psi''}G'$
+H $^v_{v\circ}^{\circ\varphi}_{\psi}G'{H'}^{\varphi'}_{\psi'}G'$
 
 on est alors ramené à traiter les deux cas suivants : 1) On a $H'= H$ et $u=$ Id$_H; 2)$ On a $G'= G$ et $v=$ Id$_G$.
 
@@ -324,7 +324,7 @@ H $^{\varphi}_{\psi}$ G $^{\alpha}$ Coh($\varphi , \psi$ )
 
 Id$_Hvw$
 
-H $^{\varphi}_{\psi''}{G'}^{\alpha'}$ Coh($\varphi ', \psi '$)
+H $^{\varphi'}_{\psi'}{G'}^{\alpha'}$ Coh($\varphi ', \psi '$)
 
 Id$_Hv'w'$
 
@@ -468,7 +468,7 @@ Soit B l’ensemble des $b(j)$ pour $j\in$ Orb(H), soit $H_B$ le sous-groupoïde
 
 On résume par le diagramme suivant les divers morphismes de groupoïdes introduits :
 
-$H_{B\psi}^{\varphi''''}G_A^{\alpha''}$ Coh($\varphi '', \psi ''$)
+$H_{B\psi''}^{\varphi''}G_A^{\alpha''}$ Coh($\varphi '', \psi ''$)
 
 $w'$
 
