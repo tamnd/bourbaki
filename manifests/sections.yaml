@@ -1056,7 +1056,7 @@ books:
               statements: 60
               exercises: 22
               extraction: native+ocr
-              content_sha256: 8095037f0fc69959fa97c330cc51d60fb542113b965393547cea450926de23a1
+              content_sha256: ec2a38bf9633e4be46d718caa56b42c74c8f921f50be17807451f3feee428993
             - kind: section
               section: 5
               title: Conjugacy classes
@@ -1082,7 +1082,7 @@ books:
               statements: 25
               exercises: 13
               extraction: native
-              content_sha256: 3416fc2a1d54905e08c083968982a8bb4374a8d8465567cf14eee5863c99ae0d
+              content_sha256: f94cd91e0f709152f0e0367a39d754743ea62a32777206c6c0c0c06a03900858
             - kind: section
               section: 7
               title: Irreducible representations of connected compact Lie groups
@@ -1095,7 +1095,7 @@ books:
               statements: 28
               exercises: 8
               extraction: native
-              content_sha256: b06c4302c25e46e29d7e23689452be5af0c50d6b88977427f4496a47a23586ae
+              content_sha256: c4912c08ba266b0181aa125e700420dca988f880d4e705dfe17249b386999fe3
             - kind: section
               section: 8
               title: Fourier transform
@@ -1108,7 +1108,7 @@ books:
               statements: 9
               exercises: 6
               extraction: native
-              content_sha256: 35d56114e0fabe41b176effe1b7eb5d9f04ee76a40ddc6f97077b41aaefa51e8
+              content_sha256: b13b9ed9613c7bd66a8b27991afc9484e741ec478bff10547efbaab20cbb58f3
             - kind: section
               section: 9
               title: Compact Lie groups operating on manifolds
@@ -1121,7 +1121,7 @@ books:
               statements: 19
               exercises: 21
               extraction: native
-              content_sha256: 6234cfed8ed6554903391b363a72721e23d4521f9ccabbbe187215fb9caf4d72
+              content_sha256: 7ef5422f2fc0529eaf1d610840a453b894cb409325d8afd38e150f442aa04b4e
             - kind: appendix
               section: 1
               title: Structure of compact groups

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: b06c4302c25e46e29d7e23689452be5af0c50d6b88977427f4496a47a23586ae
+content_sha256: c4912c08ba266b0181aa125e700420dca988f880d4e705dfe17249b386999fe3
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -191,7 +191,7 @@ _{l\widetilde{\delta}} \tag{1}
 $$
 
 $$
-\mathscr{R}()\mathfrak{g}_{\mathbf{C}})\longrightarrow^{ch}\mathbf{Z})[P]
+\mathscr{R}(\mathfrak{g}_{\mathbf{C}})\longrightarrow^{ch}\mathbf{Z}[P]
 $$
 
 where P denotes the group of weights of $R(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$ and $\widetilde{\delta}$ the homomorphism induced by $\delta$.
@@ -221,7 +221,7 @@ $$
 $$
 
 $$
-)_{Tr})^{\iota} \tag{2}
+_{Tr}^{\iota} \tag{2}
 $$
 
 $$
@@ -268,7 +268,7 @@ $$
 
 #### Proposition 3 {#lie-ix-s7-prop-3 .statement tag=01GB}
 
-The elements $J(\lambda \rho )/(\overline{w(G)}$, for $\lambda \in X_{++}$, form an orthonormal basis of the subspace of anti-invariant elements of $L^2(T)$, and an algebraic basis of the subspace of anti-invariant elements of $\Theta (T)$.
+The elements $J(\lambda \rho )/\surd\overline{w(G)}$, for $\lambda \in X_{++}$, form an orthonormal basis of the subspace of anti-invariant elements of $L^2(T)$, and an algebraic basis of the subspace of anti-invariant elements of $\Theta (T)$.
 
 The proof is identical to that of Chap. VI, §3, no. 3, Prop. 1.
 

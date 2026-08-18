@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: 3416fc2a1d54905e08c083968982a8bb4374a8d8465567cf14eee5863c99ae0d
+content_sha256: f94cd91e0f709152f0e0367a39d754743ea62a32777206c6c0c0c06a03900858
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
@@ -179,7 +179,7 @@ $$
 Denote by $\pi$ the canonical morphism from G to $G/T$. Let $g\in G$, and let $t_1, . . . , t_{n-r}$ be elements of $T_{\pi(g)}(G/T)$. Identify the fibre $\pi^{-1}(\pi (g)) =gT$ with T by the translation $\gamma (g)$. The relation $\omega_G=\omega_{G/T}\cap \omega_T$ now implies the equality (Differentiable and Analytic Manifolds, Results, 11.4.5):
 
 $$
-\omega_G(t_1, . . . , t_{n-r}) = (\omega_{G/T}(t_1, . . . , t_{n-r}))\omega_T
+\omega_G\llcorner (t_1, . . . , t_{n-r}) = (\omega_{G/T}(t_1, . . . , t_{n-r}))\omega_T
 $$
 
 Thus $\int_{\pi}\omega_G=(\int_T\omega_T)\omega_{G/T}($Differentiable and Analytic Manifolds, Results, 11.4.6), and
@@ -406,7 +406,7 @@ $$
 (G/T)\times \mathfrak{t}\longrightarrow^{\psi}\mathfrak{g}
 $$
 
-$)$(Id,exp$_T))$exp$_G$.
+(Id,exp$_T)$ exp$_G$.
 
 $(G/T)\times T\longrightarrow^f$ G
 
@@ -506,39 +506,39 @@ Let $(h_0, x_0)\in H\times X$; we shall prove that $f_1$ is continuous at $(h_0,
 
 #### Proposition 5 {#lie-ix-s6-prop-5 .statement tag=01FE}
 
-Assume that the group H is compact and denote by $dh$ the Haar measure on H of total mass 1. Let $s$ be a section of E of class $C^r$. Denote by $s$ the vector integral $\int_H^hs dh$. Then $s$ is a section of E of class $C^r$, invariant under H; for $x\in X$, we have $s(x) =\int_Hhs(h^{-1}x)dh\in E_x$. The endomorphism $s \rightarrow s$ of $\mathscr{S}^r(X; E)$ is a projection onto the subspace of H-invariant sections.
+Assume that the group H is compact and denote by $dh$ the Haar measure on H of total mass 1. Let $s$ be a section of E of class $C^r$. Denote by $s^{\sharp}$ the vector integral $\int_H^hs dh$. Then $s^{\sharp}$ is a section of E of class $C^r$, invariant under H; for $x\in X$, we have $s^{\sharp}(x) =\int_Hhs(h^{-1}x)dh\in E_x$. The endomorphism $s \rightarrow s^{\sharp}$ of $\mathscr{S}^r(X; E)$ is a projection onto the subspace of H-invariant sections.
 
-Consider the map $h \rightarrow^hs$ from H to $\mathscr{S}^r(X; E)$; it is continuous by Lemma 4. Since the space $\mathscr{S}^r(X; E)$ is separated and complete, the integral $s$ = $\int_H^hs dh$ belongs to $\mathscr{S}^r(X; E) ($Integration, Chap. III, §3, no. 3, Cor. 2). The linear map $s \rightarrow s(x)$ from $\mathscr{S}^r(X; E)$ to $E_x$ being continuous, we have $s(x) =$ $\int_H^hs(x)dh$ for all $x\in X$. It is clear that $s$ is invariant under H; if $s$ is an H-invariant section, we have $s=s$, hence the last assertion.
+Consider the map $h \rightarrow^hs$ from H to $\mathscr{S}^r(X; E)$; it is continuous by Lemma 4. Since the space $\mathscr{S}^r(X; E)$ is separated and complete, the integral $s^{\sharp}=$ $\int_H^hs dh$ belongs to $\mathscr{S}^r(X; E) ($Integration, Chap. III, §3, no. 3, Cor. 2). The linear map $s \rightarrow s(x)$ from $\mathscr{S}^r(X; E)$ to $E_x$ being continuous, we have $s^{\sharp}(x) =$ $\int_H^hs(x)dh$ for all $x\in X$. It is clear that $s^{\sharp}$ is invariant under H; if $s$ is an H-invariant section, we have $s^{\sharp}=s$, hence the last assertion.
 
 #### Corollary 1 {#lie-ix-s6-prop-5-cor-1 .statement tag=01FF}
 
 Let F be a Banach space, $\rho : H\rightarrow \mathbf{G}\mathbf{L}(F)$ an analytic linear representation, $f\in \mathscr{C}^r(X; F)$. For $x\in X$, put
 
 $$
-f(x) =\int_H\rho (h).f(h^{-1}x)dh
+f^{\sharp}(x) =\int_H\rho (h).f(h^{-1}x)dh
 $$
 
-Then $f$ is a morphism of class $C^r$ from X to F, compatible with the operations of H; for $x\in X$, we have (with $\tau_h$ denoting the automorphism $x \rightarrow hx$ of X)
+Then $f^{\sharp}$ is a morphism of class $C^r$ from X to F, compatible with the operations of H; for $x\in X$, we have (with $\tau_h$ denoting the automorphism $x \rightarrow hx$ of X)
 
 $$
-d_xf=\int_H(\rho (h)\circ d_{h^{-1}x}f\circ T_x(\tau_{h^{-1}}))dh\in \mathscr{L}(T_x(X); F) \tag{14}
+d_xf^{\sharp}=\int_H(\rho (h)\circ d_{h^{-1}x}f\circ T_x(\tau_{h^{-1}}))dh\in \mathscr{L}(T_x(X); F) \tag{14}
 $$
 
-The first assertion follows from the proposition applied to the bundle $X\times$ F, equipped with the law of operation $(h; (x, f)) \rightarrow (hx, \rho (h).f)$. The second follows from Integration, Chap. III, §3, no. 2, Prop. 2, by applying to the vector integral $f$ the homomorphism $d_x:\mathscr{C}^r(X; F)\rightarrow \mathscr{L}(T_x(X); F)$ which is continuous by the definition of the topology of compact $C^r$-convergence.
+The first assertion follows from the proposition applied to the bundle $X\times$ F, equipped with the law of operation $(h; (x, f)) \rightarrow (hx, \rho (h).f)$. The second follows from Integration, Chap. III, §3, no. 2, Prop. 2, by applying to the vector integral $f^{\sharp}$ the homomorphism $d_x:\mathscr{C}^r(X; F)\rightarrow \mathscr{L}(T_x(X); F)$ which is continuous by the definition of the topology of compact $C^r$-convergence.
 
 #### Corollary 2 {#lie-ix-s6-prop-5-cor-2 .statement tag=01FG}
 
 Let F be a Banach space, $f\in \mathscr{C}^r(X; F)$; put
 
 $$
-f(x) =\int_Hf(hx)dh
+f^{\sharp}(x) =\int_Hf(hx)dh
 $$
 
-for $x\in X$. The function $f$ is of class $C^r$, and $f(hx) =f(x)$ for $x\in X$, $h\in H$.
+for $x\in X$. The function $f^{\sharp}$ is of class $C^r$, and $f^{\sharp}(hx) =f^{\sharp}(x)$ for $x\in X$, $h\in H$.
 
 #### Corollary 3 {#lie-ix-s6-prop-5-cor-3 .statement tag=01FH}
 
-Let F be a Banach space, $p$ an integer $\geq 0,^k\Omega^p(X; F)$ the space of differential forms of degree $p$ on X, with values in F, and of class $C^k(2\leq k+ 1\leq r)$. For $\omega \in^k\Omega^p(X; F)$, put $\omega =\int_H\tau_h^*\omega  dh$. Then the map $\omega  \rightarrow \omega$ is a projection on $^k\Omega^p(X; F)$ whose image is the subspace of H-invariant forms. We have $d(\omega ) = (d\omega )$ for all $\omega \in^k\Omega^p(X; F)$.
+Let F be a Banach space, $p$ an integer $\geq 0,^k\Omega^p(X; F)$ the space of differential forms of degree $p$ on X, with values in F, and of class $C^k(2\leq k+ 1\leq r)$. For $\omega \in^k\Omega^p(X; F)$, put $\omega^{\sharp}=\int_H\tau_h^*\omega  dh$. Then the map $\omega  \rightarrow \omega^{\sharp}$ is a projection on $^k\Omega^p(X; F)$ whose image is the subspace of H-invariant forms. We have $d(\omega^{\sharp}) = (d\omega )^{\sharp}$ for all $\omega \in^k\Omega^p(X; F)$.
 
 The first assertion follows from the proposition applied to the vector H-bundle Alt$^p(T(X); F)$ (Chap. III, §1, no. 8, Examples). To prove the second assertion, it suffices, in view of Integration, Chap. III, §3, no. 2, Prop. 2, to prove that the map $d:^k\Omega^p(X; F)\rightarrow^{k-1}\Omega^{p+1}(X; F)$ is continuous when the first (resp. second) space is given the topology of compact $C^k$-convergence (resp. $C^{k-1}$-convergence). But this follows immediately from the definition of these topologies by means of semi-norms (Spectral Theories, in preparation) and the fact that $d$ is a differential operator of order $\leq 1 ($Differentiable and Analytic Manifolds, Results, 14.4.2).
 
@@ -568,11 +568,11 @@ A differential form $\omega \in \Omega (X)$ is invariant if $\tau_g^*\omega =\om
 
 #### Theorem 2 {#lie-ix-s6-thm-2 .statement tag=01FI}
 
-The canonical injection $\iota :\Omega (X)^G\rightarrow \Omega (X)$ is a homotopism of complexes (Algèbre, Chap. X, p. 33, déf. 5); the map $\omega  \rightarrow \omega =\int_G\tau_g^*\omega  dg$ is a homotopism, inverse to it up to homotopy. In particular, the map $H(\iota ) : H(\Omega (X)^G)\rightarrow H(\Omega (X))$ is bijective.
+The canonical injection $\iota :\Omega (X)^G\rightarrow \Omega (X)$ is a homotopism of complexes (Algèbre, Chap. X, p. 33, déf. 5); the map $\omega  \rightarrow \omega^{\sharp}=\int_G\tau_g^*\omega  dg$ is a homotopism, inverse to it up to homotopy. In particular, the map $H(\iota ) : H(\Omega (X)^G)\rightarrow H(\Omega (X))$ is bijective.
 
-By Cor. 3 of no. 4, the map $\omega  \rightarrow \omega$ is a morphism of complexes from $\Omega (X)$ to $\Omega (X)^G$ that induces the identity on the subcomplex $\Omega (X)^G$; thus, to prove the theorem it suffices to construct a homomorphism $s:\Omega (X)\rightarrow \Omega$(X), graded of degree $-1$, such that
+By Cor. 3 of no. 4, the map $\omega  \rightarrow \omega^{\sharp}$ is a morphism of complexes from $\Omega (X)$ to $\Omega (X)^G$ that induces the identity on the subcomplex $\Omega (X)^G$; thus, to prove the theorem it suffices to construct a homomorphism $s:\Omega (X)\rightarrow \Omega$(X), graded of degree $-1$, such that
 
-$\omega -\omega = (d\circ s+s\circ d)(\omega )$ for all $\omega \in \Omega (X)$. (17)
+$\omega^{\sharp}-\omega = (d\circ s+s\circ d)(\omega )$ for all $\omega \in \Omega (X)$. (17)
 
 By Lemma 1 of Integration, Chapter IX, §2, no. 4 and Remark 1 of §2, no. 2, there exists a positive measure $d\xi$ on $\mathfrak{g}$ of compact support whose image under the exponential map is equal to $dg$. For $\omega \in \Omega$(X), put
 
@@ -611,7 +611,7 @@ $$
 $$
 
 $$
-=\omega -\omega
+=\omega^{\sharp}-\omega
 $$
 
 hence Th. 2.
@@ -646,9 +646,7 @@ $$
 ^G\Omega (G)^G\longrightarrow \Omega (G)^G\longrightarrow \Omega (G)
 $$
 
-$$
-)) \tag{18}
-$$
+(18)
 
 Alt($\mathfrak{g}$)$^G\longrightarrow$ Alt($\mathfrak{g}$)
 
