@@ -37,7 +37,7 @@ errata:
     - says: Chap. VII, §13, no. 1
       read: Chap. VIII, §13, no. 1
       why: Chapter VII has five sections and no section 13. The sentence says that the groups Aut$_0(\mathfrak{g})$ and Aut$_e(\mathfrak{g})$ can be distinct, and the place that shows it is no. 1 of section 13 of this chapter, on the algebras of type $A_l$, which computes Aut$_0(\mathfrak{g}) =\varphi (\mathbf{G}\mathbf{L}(l+ 1, k))$, identifies the quotient Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$ with $\mathbf{P}\mathbf{G}\mathbf{L}(l+ 1, k)/\mathbf{P}\mathbf{S}\mathbf{L}(l+ 1, k)$, and over the reals finds it isomorphic to $\mathbf{Z}/2\mathbf{Z}$ when $l+1$ is even. Chapter VII names neither group anywhere.
-content_sha256: 4cb0cd2d76b32556fcf2dcae97fad2bc7fee6d517c3dcfb35b54bd9480118d79
+content_sha256: 1b4f8a1472586988d2649366ba36ca60a4299f01bc8a8d9b2d46fbf500bf8c70
 ---
 
 ## § 5. AUTOMORPHISMS OF A SEMI-SIMPLE LIE ALGEBRA
@@ -176,10 +176,10 @@ By extension of $k$, we are reduced to the case where $s\in$ Aut$_e(\mathfrak{g}
 
 (ii) If $k$ is algebraically closed, $q(T_P) = T_Q$.
 
-There exist a basis $(\lambda_1, . . . , \lambda_l)$ of P(R) and integers $n_1\geq 1, . . . , n_l\geq 1$ such that $(n_1\lambda_1, . . . , n_l\lambda_l)$ is a basis of Q(R). We have $m=n_1. . . n_l$. Let $\psi \in T_Q$ and put $\psi (n_1\lambda_1) =t_1, . . . , \psi (n_l\lambda_l) =t_l$. For $i= 1, . . . , l$, put $m_i=$ $\prod_{j\not=i}n_j$. Let $\chi$ be the element of $T_P$ such that $\chi (\lambda_1) =t^m_{1^1}, . . . , \chi (\lambda_l) =t^m_{l^l}$. Then
+There exist a basis $(\lambda_1, . . . , \lambda_l)$ of P(R) and integers $n_1\geq 1, . . . , n_l\geq 1$ such that $(n_1\lambda_1, . . . , n_l\lambda_l)$ is a basis of Q(R). We have $m=n_1. . . n_l$. Let $\psi \in T_Q$ and put $\psi (n_1\lambda_1) =t_1, . . . , \psi (n_l\lambda_l) =t_l$. For $i= 1, . . . , l$, put $m_i=$ $\prod_{j\not=i}n_j$. Let $\chi$ be the element of $T_P$ such that $\chi (\lambda_1) =t^{m_1}_1, . . . , \chi (\lambda_l) =t^{m_l}_l$. Then
 
 $$
-\chi (n_i\lambda_i) =t^m_{i^i}^{n_i}=t^m_i= (\psi^m)(n_i\lambda_i)
+\chi (n_i\lambda_i) =t^{m_in_i}_i=t^m_i= (\psi^m)(n_i\lambda_i)
 $$
 
 so $\chi |Q(R) =\psi^m$. This proves (i). If $k$ is algebraically closed, every element of $k^*$ is the $m$th power of an element of $k^*$, so every element of $T_Q$ is the $m$th power of an element of $T_Q$; hence, (ii) follows from (i).
@@ -337,13 +337,13 @@ Assertion (i) follows from the equality $f(T_Q) =$ Aut($\mathfrak{g},\mathfrak{h
 The set $V'$ of elements of V inducing the identity on $\mathfrak{h}$ and leaving each $\mathfrak{g}^{\alpha}$ stable can be identified with $k^R$. Let $F'$ be the restriction of F to $V'=k^R$; this is a polynomial function. We have $f(T_Q)\subset V'$. Let $B = (\alpha_1, . . . , \alpha_l)$ be a basis of R. For all $t= (t_1, . . . , t_l)\in k^{*B}$, let $\varphi (t)$ be the homomorphism from Q(R) to the group $k^*$ that extends $t$. Then $F'(f(\varphi (t)))$ can be written as a finite sum
 
 $$
-\sum_{n_1,...,n_l\in\mathbf{Z}}c_{n_1,...,n_l}t^n_{1^1}. . . t^n_{l^l}= H(t_1, . . . , t_l)
+\sum_{n_1,...,n_l\in\mathbf{Z}}c_{n_1,...,n_l}t^{n_1}_1. . . t^{n_l}_l= H(t_1, . . . , t_l)
 $$
 
 By assumption,
 
 $$
-0 = H(t^m_1, . . . , t^m_l) =\sum_{n_1,...,n_l\in\mathbf{Z}}c_{n_1,...,n_l}t^{mn}_{1^1}. . . t^{mn}_{l^l}
+0 = H(t^m_1, . . . , t^m_l) =\sum_{n_1,...,n_l\in\mathbf{Z}}c_{n_1,...,n_l}t^{mn_1}_1. . . t^{mn_l}_l
 $$
 
 for all $t_1, . . . , t_l\in k^*$. The $c_{n_1,...,n_l}$ are thus the coefficients of a polynomial in $l$ variables which vanishes on $k^{*l}$; hence they are all zero.

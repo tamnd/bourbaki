@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: dcac57bf93c65d293e09366aee31b158ead43e2a6f8699dd0c84eb3bfacbd7ec
+content_sha256: 4c54cb470e9b86a3e67588c6d240754f91e28ba38961ae2dcd82544725dc11f3
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -86,7 +86,7 @@ le produit scalaire sur l’espace euclidien $\mathbf{R}^n$; la norme euclidienn
 
 Pour tout $\alpha = (\alpha_i)_{1\leqslant i\leqslant n}\in \mathbf{N}^n$, on notera $X^{\alpha}$ la fonction de $\mathbf{R}^n$
 
-dans $\mathbf{R}$ définie par $x= (x_i)_{1\leqslant i\leqslant n}\mapsto x^{\alpha}=\prod_{i=1}^nx^{\alpha}_{i^i}$.
+dans $\mathbf{R}$ définie par $x= (x_i)_{1\leqslant i\leqslant n}\mapsto x^{\alpha}=\prod_{i=1}^nx^{\alpha_i}_i$.
 
 Soient $\alpha$ et $\beta$ des éléments de $\mathbf{N}^n$. On note
 

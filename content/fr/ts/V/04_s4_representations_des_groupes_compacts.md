@@ -49,7 +49,7 @@ subsections:
       pdf_page: 489
 statements: 54
 exercises: 32
-content_sha256: e596c967e84814ccbf6dba26b7868c5e0f72447e01978c68df4b482a1466f4db
+content_sha256: de6bb5480b1019f4ef8bd38dc3d7c88a01da27bcb3eba5fe1ff7bae49ed568f1
 ---
 
 ## § 4. REPRÉSENTATIONS DES GROUPES COMPACTS
@@ -724,7 +724,7 @@ Nous utiliserons dans la démonstration les lemmes suivants.
 
 #### Lemme 5 {#ts-v-s4-lem-5 .statement tag=03EY}
 
-Soit $\pi$ une représentation unitaire de G dans un espace hilbertien E de dimension finie. Soient $(\varrho_i)_{i\in I}$ une famille de représentations unitaires non nulles de G et $(n_i)_{i\in I}$ une famille d’entiers $\geqslant 1$ tels que la représentation $\overline{\pi}\otimes \pi$ de G (resp. la représentation $\pi \otimes \pi )$ soit isomorphe à la somme directe $\bigoplus_{i\in I}\varrho^n_{i^i}$. Alors on a
+Soit $\pi$ une représentation unitaire de G dans un espace hilbertien E de dimension finie. Soient $(\varrho_i)_{i\in I}$ une famille de représentations unitaires non nulles de G et $(n_i)_{i\in I}$ une famille d’entiers $\geqslant 1$ tels que la représentation $\overline{\pi}\otimes \pi$ de G (resp. la représentation $\pi \otimes \pi )$ soit isomorphe à la somme directe $\bigoplus_{i\in I}\varrho^{n_i}_i$. Alors on a
 
 $$
 M_4(\pi )\geqslant \sum_{i\in I}n^2_i

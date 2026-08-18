@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: a33ae206368ccaddd7f1cce2d6c43be00bdf8ae012b11db09599cee7faf302a3
+content_sha256: 7fe2fc8a18af466be84771e5b055fa96cceb1e125430b92a4febfdee83d77d27
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -690,7 +690,7 @@ $$
 $$
 
 $$
-=\prod_{x\in H\backslash G}^{s(x\cdot g_1^{-1})^{-1}h_1(x\cdot g^-_1^1)}c(h_2(x\cdot g_1^{-1}), h_3(x\cdot g_1^{-1}))
+=\prod_{x\in H\backslash G}^{s(x\cdot g_1^{-1})^{-1}h_1(x\cdot g^{-1}_1)}c(h_2(x\cdot g_1^{-1}), h_3(x\cdot g_1^{-1}))
 $$
 
 $$
@@ -1115,7 +1115,7 @@ $$
 
 for $0\leqslant i < n$. The mapping $\lambda :\zeta \mapsto \lambda (\zeta )$ is an injective homomorphism from $\mu_n$ to Aut$_K$(L), and the ring of invariants of the group $\lambda (\mu_n)$ in L is equal to $K\cdot 1$. Since the cardinal of $\mu_n$ is equal to $n= [L : K]$, the algebra L endowed with the action of $\lambda$ is a Galois algebra (VIII, p. 308, Theorem 2, (v)).
 
-Let $r$ be the least strictly positive integer such that $a^r$ belongs to $K^{*n}$; it divides $n$, and there exists an element $b$ of $K^*$ such that $a=b^{n/r}$. Then (V, §11, No. 8, p. 91, Remark) the polynomial $X^r-b$ is irreducible, and we have $X^n-a=\prod_{\zeta\in\mu_{n/r}}(X^r-\zeta b)$. Let E be the field $K[Y]/(Y^r-b)$, and let $y$ be the class of Y in E. There exists an isomorphism $\theta$ from $\mu_{n/r}$ to Gal(E$/K)$, characterized by the relation $\theta (\xi )(y) =\xi y$ (V, §11, No. 8, p. 91, Example 3). We then verify that the Galois algebra L is isomorphic to the $(K, \mu_n$)-algebra Coind$^\mu_{\mu^n_{n/r}}(E)$.
+Let $r$ be the least strictly positive integer such that $a^r$ belongs to $K^{*n}$; it divides $n$, and there exists an element $b$ of $K^*$ such that $a=b^{n/r}$. Then (V, §11, No. 8, p. 91, Remark) the polynomial $X^r-b$ is irreducible, and we have $X^n-a=\prod_{\zeta\in\mu_{n/r}}(X^r-\zeta b)$. Let E be the field $K[Y]/(Y^r-b)$, and let $y$ be the class of Y in E. There exists an isomorphism $\theta$ from $\mu_{n/r}$ to Gal(E$/K)$, characterized by the relation $\theta (\xi )(y) =\xi y$ (V, §11, No. 8, p. 91, Example 3). We then verify that the Galois algebra L is isomorphic to the $(K, \mu_n$)-algebra Coind$^{\mu_n}_{\mu_{n/r}}(E)$.
 
 #### Example 2 {#alg-viii-s16-n7-exa-2 .statement tag=00J9}
 
@@ -1163,7 +1163,7 @@ We reason as before, taking the following into account: If $L_1$ and $L_2$ are �
 
 $[L : K] = [L_1: K][L_2: K]$ and Card(G) = Card(G$_1)$ Card(G$_2)$.
 
-Moreover, if $L^G_{i^i}$ denotes the ring of invariants of $G_i$ in $L_i$, then it follows from Lemma 11 below that $L^G_{1^1}\otimes_KL^G_{2^2}$ is the ring of invariants of $G_1\times G_2$ in $L_1\otimes_KL_2$.
+Moreover, if $L^{G_i}_i$ denotes the ring of invariants of $G_i$ in $L_i$, then it follows from Lemma 11 below that $L^{G_1}_1\otimes_KL^{G_2}_2$ is the ring of invariants of $G_1\times G_2$ in $L_1\otimes_KL_2$.
 
 #### Lemma 11 {#alg-viii-s16-lem-11 .statement tag=00JD}
 
@@ -1171,7 +1171,7 @@ Let $G_1$ and $G_2$ be groups, and let $W_1$ and $W_2$ be K-vector spaces. We en
 
 $\rho_1\otimes \rho_2: G_1\times G_2\longrightarrow$ Aut$_K(W_1\otimes_KW_2)$
 
-defined by the relation $(\rho_1\otimes \rho_2)(g_1, g_2)(w_1\otimes w_2) =\rho_1(g_1)(w_1)\otimes \rho_2(g_2)(w_2)$ for $g_1\in G_1,g_2\in G_2,w_1\in W_1$, and $w_2\in W_2$. Then the linear mapping from $W^G_{1^1}\otimes_KW^G_{2^2}$ to $W_1\otimes_KW_2$ given by the tensor product of the canonical injections induces an isomorphism of K-vector spaces from $W_1^{G_1}\otimes_KW^G_{2^2}$ to $(W_1\otimes_KW_2)^{G_1\times G_2}$.
+defined by the relation $(\rho_1\otimes \rho_2)(g_1, g_2)(w_1\otimes w_2) =\rho_1(g_1)(w_1)\otimes \rho_2(g_2)(w_2)$ for $g_1\in G_1,g_2\in G_2,w_1\in W_1$, and $w_2\in W_2$. Then the linear mapping from $W^{G_1}_1\otimes_KW^{G_2}_2$ to $W_1\otimes_KW_2$ given by the tensor product of the canonical injections induces an isomorphism of K-vector spaces from $W_1^{G_1}\otimes_KW^{G_2}_2$ to $(W_1\otimes_KW_2)^{G_1\times G_2}$.
 
 This follows from Lemma 1 of VIII, p. 213 applied to the K[G]-modules $M_1= M_2= K$ endowed with the trivial action of $G, N_1= W_1$, and $N_2= W_2$.
 

@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: d991f35c8f7c0acffc5b7432b05db05a7ea5b27962d1e1458c8bc3b1169340db
+content_sha256: 6bc1adaefbeb6af5fbf21475ca1408f45da4a887dd5168d56fcb58b036d50d09
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -1660,7 +1660,7 @@ $x\not =0$
 
 a) Pour tout entier $n\in \mathbf{N}$, on a
 
-$\lambda_n(u) =$ sup$_{F\in\mathscr{F}_n}\widetilde{r}_F(u) =_{F\in}$inf$_{\mathscr{F}_n^u_{+1}}\widetilde{R}_F(u)$;
+$\lambda_n(u) =$ sup$_{F\in\mathscr{F}_n}\widetilde{r}_F(u) =_{F\in}$inf$_{\mathscr{F}_{n+1}^u}\widetilde{R}_F(u)$;
 
 b) Pour tout entier $n <M$ et pour tout sous-espace $F\in \mathscr{F}_n^u$ adapté à $u$, on a $\lambda_n(u) =\widetilde{r}_F(u)$;
 
@@ -1696,7 +1696,7 @@ par définition. Comme $\varepsilon  >0$ est arbitraire, on a donc $\widetilde{r
 
 Soient $n\in \mathbf{N}$ et $F\in \mathscr{F}_{n+1}^u$. Démontrons que $\widetilde{R}_F(u)\geqslant \lambda_n(u)$ et, par conséquent, que
 
-(20) $F_{\in}$inf$_{\mathscr{F}_n^u_{+1}}\widetilde{R}_F(u)\geqslant \lambda_n(u)$.
+(20) $F_{\in}$inf$_{\mathscr{F}_{n+1}^u}\widetilde{R}_F(u)\geqslant \lambda_n(u)$.
 
 Si $0\leqslant n <M$, observons que la restriction à F de l’orthoprojecteur sur $F_n$ n’est pas injective, donc qu’il existe un vecteur $x\not = 0$ dans F orthogonal à $F_n$. Posons $x_b=p_{Sp_b(u)}(x)$ et $x_h=p_{Sp_h(u)}(x)$. On a donc $x=x_b+x_h$. Les éléments $x_b$ et $x_h$ appartiennent au domaine de $u$ (prop. 9, c) de IV, p. 278) et sont orthogonaux à $F_n$. On a la minoration
 

@@ -26,7 +26,7 @@ subsections:
       pdf_page: 391
 statements: 9
 exercises: 1
-content_sha256: 41872eb014d688a41d6d3ba05be1302df46947f174e42f3298da768560d2a8da
+content_sha256: 7a8e6eaf7ad5e2aba0afae5b4b0b6a735d96b5b34e0647a35d0ee5f584772f44
 ---
 
 ## APPENDIX I
@@ -99,7 +99,7 @@ $(u_b(s_{l(b)}))_{b\in B}$. By construction, $L(\widetilde{u}) =f= L(u)$, so $\w
 
 Under the hypotheses of Lemma 1, assume that the $G_{\alpha}$ are simply-connected compact Lie groups. Then, the topological group G is isomorphic to the product of a family of almost simple, simply-connected compact Lie groups.
 
-For all $\alpha \in I$, the group $G_{\alpha}$ is the direct product of a finite family of almost simple, simply-connected subgroups $(S^{\lambda}_{\alpha})_{\lambda\in L_{\alpha}}$ (Chap. III, §9, no. 8, Prop. 28). Let $\beta \in I,\beta \geq \alpha$. By Lemma 2, there exists a map $l_{\beta \alpha}: L_{\alpha}\rightarrow L_{\beta}$ such that $f_{\alpha \beta}(S^l_{\beta^{\beta \alpha}}^{(\lambda)}) = S^{\lambda}_{\alpha}$ for $\lambda \in L_{\alpha}$. We have $l_{\gamma \beta}\circ l_{\beta \alpha}=l_{\gamma \alpha}$ for $\alpha \leq \beta \leq \gamma$, so $(L_{\alpha}, l_{\beta \alpha})$ is an inductive system of sets relative to I. Let L be its limit; the maps $l_{\beta \alpha}$ being injective, $L_{\alpha}$ can be identified with a subset of L, so that $L =\bigcup_{\alpha\in I}L_{\alpha}$.
+For all $\alpha \in I$, the group $G_{\alpha}$ is the direct product of a finite family of almost simple, simply-connected subgroups $(S^{\lambda}_{\alpha})_{\lambda\in L_{\alpha}}$ (Chap. III, §9, no. 8, Prop. 28). Let $\beta \in I,\beta \geq \alpha$. By Lemma 2, there exists a map $l_{\beta \alpha}: L_{\alpha}\rightarrow L_{\beta}$ such that $f_{\alpha \beta}(S^{l_{\beta \alpha}(\lambda)}_{\beta}) = S^{\lambda}_{\alpha}$ for $\lambda \in L_{\alpha}$. We have $l_{\gamma \beta}\circ l_{\beta \alpha}=l_{\gamma \alpha}$ for $\alpha \leq \beta \leq \gamma$, so $(L_{\alpha}, l_{\beta \alpha})$ is an inductive system of sets relative to I. Let L be its limit; the maps $l_{\beta \alpha}$ being injective, $L_{\alpha}$ can be identified with a subset of L, so that $L =\bigcup_{\alpha\in I}L_{\alpha}$.
 
 Let $\lambda \in L$. Put $S^{\lambda}_{\alpha}=\{1\}$ when $\lambda  /\in L_{\alpha}$, and denote by $\varphi^{\lambda}_{\alpha \beta}: S^{\lambda}_{\beta}\rightarrow S^{\lambda}_{\alpha}$ the morphism induced by $f_{\alpha \beta}$; this gives a projective system of topological groups $(S^{\lambda}_{\alpha}, \varphi^{\lambda}_{\alpha \beta})$, whose limit is isomorphic to $S_{\lambda}$. The canonical homomorphism of topological groups
 

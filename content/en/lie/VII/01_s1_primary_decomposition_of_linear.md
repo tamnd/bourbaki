@@ -33,7 +33,7 @@ subsections:
       pdf_page: 21
 statements: 25
 exercises: 11
-content_sha256: 575b6f0a3f9a3d5aa4cd76cd44622cddd588e8d2cf1d3e2ec7c24cb9b797b8be
+content_sha256: 5b584839e476edf0035dab9849c9becb4157f0e8dabbf1ed0d66b8cbfe03fa9c
 ---
 
 ## § 1. PRIMARY DECOMPOSITION OF LINEAR REPRESENTATIONS
@@ -334,7 +334,7 @@ $$
 V'{= V'}^0(S')\oplus \sum_{i=1}^m{V'}^{\lambda_i}(S')
 $$
 
-with $\lambda_i\not= 0$ for $1\leq i\leq m$. For $1\leq i\leq m$, there exists a polynomial function $P_i$ non-zero on $S'$ and an integer $q_i$ such that $\lambda^q_{i^i}= P_i$ (Prop. 5). Since $k$ is infinite, there exists $s\in S$ such that $(P_1. . .P_m)(s)\not= 0$, cf. Algebra, Chap. IV, §2, no. 3, Cor. 2 of Prop. 9. Then $\lambda_i(s)\not= 0$ for all $i$, so ${V'}^0(S'{) = V'}^0(s)$ and consequently $V^0(S) = V^0(s)$ (Prop. 6), which shows that $\widetilde{S}\not=\emptyset$. If $s\in \widetilde{S}$, the fact that $V^+(S)$ is stable under $r(s)$ and is a complement of $V^0(s)$ in V implies that $V^+(S) = V^+(s)$ (Cor. 2 of Th. 1).
+with $\lambda_i\not= 0$ for $1\leq i\leq m$. For $1\leq i\leq m$, there exists a polynomial function $P_i$ non-zero on $S'$ and an integer $q_i$ such that $\lambda^{q_i}_i= P_i$ (Prop. 5). Since $k$ is infinite, there exists $s\in S$ such that $(P_1. . .P_m)(s)\not= 0$, cf. Algebra, Chap. IV, §2, no. 3, Cor. 2 of Prop. 9. Then $\lambda_i(s)\not= 0$ for all $i$, so ${V'}^0(S'{) = V'}^0(s)$ and consequently $V^0(S) = V^0(s)$ (Prop. 6), which shows that $\widetilde{S}\not=\emptyset$. If $s\in \widetilde{S}$, the fact that $V^+(S)$ is stable under $r(s)$ and is a complement of $V^0(s)$ in V implies that $V^+(S) = V^+(s)$ (Cor. 2 of Th. 1).
 
 ### 3. DECOMPOSITION OF REPRESENTATIONS OF A NILPOTENT LIE ALGEBRA
 

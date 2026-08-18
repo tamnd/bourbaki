@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: 74444701bf42664dbffeed208098ca0ae43cd77175c341ba1c7caedca7698a34
+content_sha256: 79fe3c28336919ab713148be4f1136ffdccc37e8c79f9d1e0413f968620889ff
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -818,7 +818,7 @@ Soit N un B-module ; notons $\mathfrak{a}$ sa longueur. Alors N est isomorphe à
 
 (31) long$_A(f_*(N)) =h(f)$ long$_B(N)$.
 
-On a vu (VIII, p. 120, prop. 5) que $f$ fait de B un A-module libre et que toutes les bases de ce module ont le même cardinal, noté $[B : A]_s$ et appelé le degré (à gauche) de B sur A. Le A-module $f_*(B_s)$ est isomorphe à $A^{[B:A]}_{s^s}$, donc il est de longueur égale à $[B : A]_s$ long(A). D’après la formule (30), et la formule (31) appliquée au cas particulier $N = B_s$, on a donc
+On a vu (VIII, p. 120, prop. 5) que $f$ fait de B un A-module libre et que toutes les bases de ce module ont le même cardinal, noté $[B : A]_s$ et appelé le degré (à gauche) de B sur A. Le A-module $f_*(B_s)$ est isomorphe à $A^{[B:A]_s}_s$, donc il est de longueur égale à $[B : A]_s$ long(A). D’après la formule (30), et la formule (31) appliquée au cas particulier $N = B_s$, on a donc
 
 $$
 [B : A]_s=i(f)h(f) \tag{32}

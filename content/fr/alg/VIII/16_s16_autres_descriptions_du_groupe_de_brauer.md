@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: b35d192f83465be652ffabed97e16b37139cb15c3f253b92421f67d8a37a66d7
+content_sha256: 4dc9b2f2c0eaa4190e22973be9ef5f06a8a817602591608387e29593c92a7208
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -679,7 +679,7 @@ $$
 $$
 
 $$
-=\prod_{x\in H\backslash G}^{s(x.g_1^{-1})^{-1}h_1(x.g^-_1^1)}c(h_2(x.g_1^{-1}), h_3(x.g_1^{-1}))
+=\prod_{x\in H\backslash G}^{s(x.g_1^{-1})^{-1}h_1(x.g^{-1}_1)}c(h_2(x.g_1^{-1}), h_3(x.g_1^{-1}))
 $$
 
 $$
@@ -1096,7 +1096,7 @@ $$
 
 pour $0\leqslant i < n$. L’application $\lambda :\zeta \rightarrow \lambda (\zeta )$ est un homomorphisme injectif de $\mu_n$ dans Aut$_K(L)$ et l’anneau des invariants du groupe $\lambda (\mu_n)$ dans L est égal à $K.1$. Comme le cardinal de $\mu_n$ est égal à $n= [L : K]$, l’algèbre L munie de l’action $\lambda$ est une algèbre galoisienne (VIII, p. 303, th. 2, (v)).
 
-Soit $r$ le plus petit entier strictement positif tel que $a^r$ appartienne à $K^{*n}$; c’est un diviseur de $n$ et il existe un élément $b$ de $K^*$ tel que $a=b^{n/r}$. Alors (V, p. 87, remarque), le polynôme $X^r-b$ est irréductible et l’on a $X^n-a=\prod_{\zeta\in\mu_{n/r}}(X^r-\zeta b)$. Soit E le corps $K[Y]/(Y^r-b)$ et soit $y$ la classe de Y dans E. Il existe un isomorphisme $\theta$ de $\mu_{n/r}$ sur Gal(E$/K)$, caractérisé par la relation $\theta (\xi )(y) =\xi y$ (V, p. 86, exemple 3). On vérifie alors que l’algèbre galoisienne L est isomorphe à la $(K, \mu_n$)-algèbre Coïnd$^{\mu}_{\mu^n_{n/r}}(E)$.
+Soit $r$ le plus petit entier strictement positif tel que $a^r$ appartienne à $K^{*n}$; c’est un diviseur de $n$ et il existe un élément $b$ de $K^*$ tel que $a=b^{n/r}$. Alors (V, p. 87, remarque), le polynôme $X^r-b$ est irréductible et l’on a $X^n-a=\prod_{\zeta\in\mu_{n/r}}(X^r-\zeta b)$. Soit E le corps $K[Y]/(Y^r-b)$ et soit $y$ la classe de Y dans E. Il existe un isomorphisme $\theta$ de $\mu_{n/r}$ sur Gal(E$/K)$, caractérisé par la relation $\theta (\xi )(y) =\xi y$ (V, p. 86, exemple 3). On vérifie alors que l’algèbre galoisienne L est isomorphe à la $(K, \mu_n$)-algèbre Coïnd$^{\mu_n}_{\mu_{n/r}}(E)$.
 
 #### Exemple 2 {#alg-viii-s16-n7-exa-2 .statement tag=00J9}
 
@@ -1144,7 +1144,7 @@ On raisonne comme précédemment au moyen des remarques suivantes : si $L_1$ et 
 
 $[L : K] = [L_1: K][L_2: K]$ et Card(G) = Card(G$_1)$ Card(G$_2)$.
 
-De plus si $L^G_{i^i}$ désigne l’anneau des invariants de $G_i$ dans $L_i$ alors il résulte du lemme suivant que $L^G_{1^1}\otimes_KL^G_{2^2}$ est l’anneau des invariants de $G_1\times G_2$ dans $L_1\otimes_KL_2$.
+De plus si $L^{G_i}_i$ désigne l’anneau des invariants de $G_i$ dans $L_i$ alors il résulte du lemme suivant que $L^{G_1}_1\otimes_KL^{G_2}_2$ est l’anneau des invariants de $G_1\times G_2$ dans $L_1\otimes_KL_2$.
 
 #### Lemme 11 {#alg-viii-s16-lem-11 .statement tag=00JD}
 
@@ -1152,7 +1152,7 @@ Soient $G_1$ et $G_2$ des groupes et soient $W_1$ et $W_2$ des K-espaces vectori
 
 $\rho_1\otimes \rho_2: G_1\times G_2\longrightarrow$ Aut$_K(W_1\otimes_KW_2)$
 
-défini par la relation $(\rho_1\otimes \rho_2)(g_1, g_2)(w_1\otimes w_2) =\rho_1(g_1)(w_1)\otimes \rho_2(g_2)(w_2)$, pour tout $g_1\in G_1$ tout $g_2\in G_2$, tout $w_1\in W_1$ et tout $w_2\in W_2$. Alors l’application linéaire de $W^G_{1^1}\otimes_KW^G_{2^2}$ dans $W_1\otimes_KW_2$ donnée par le produit tensoriel des injections canoniques induit un isomorphisme de K-espaces vectoriels de $W^G_{1^1}\otimes_KW_2^{G_2}$ sur $(W_1\otimes_KW_2)^{G_1\times G_2}$.
+défini par la relation $(\rho_1\otimes \rho_2)(g_1, g_2)(w_1\otimes w_2) =\rho_1(g_1)(w_1)\otimes \rho_2(g_2)(w_2)$, pour tout $g_1\in G_1$ tout $g_2\in G_2$, tout $w_1\in W_1$ et tout $w_2\in W_2$. Alors l’application linéaire de $W^{G_1}_1\otimes_KW^{G_2}_2$ dans $W_1\otimes_KW_2$ donnée par le produit tensoriel des injections canoniques induit un isomorphisme de K-espaces vectoriels de $W^{G_1}_1\otimes_KW_2^{G_2}$ sur $(W_1\otimes_KW_2)^{G_1\times G_2}$.
 
 Cela résulte du lemme 1 de VIII, p. 209, appliqué aux K[G]-modules $M_1=$ $M_2= K$ munis de l’action triviale de $G, N_1= W_1$ et $N_2= W_2$.
 
