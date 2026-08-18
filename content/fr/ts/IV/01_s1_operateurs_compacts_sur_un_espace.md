@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: a26c685a86ceacece536b7c51995a0d6c1dcec2f24626a86fa1705e52e965eea
+content_sha256: 0844fa8aa1bb479b520ee569a7b123be8a8fcdc70bba7cf29fe2d3931f78741b
 ---
 
 ## § 1. OPÉRATEURS COMPACTS SUR UN ESPACE HILBERTIEN
@@ -172,14 +172,8 @@ Soit F un espace hilbertien et soit $u$ une application linéaire continue compa
 
 Soit $v=u^*\circ u$. C’est un endomorphisme compact (III, p. 5, prop. 3) et positif, donc hermitien, de E. D’après le corollaire 1, il existe une base orthonormale $(e_j)_{j\in J}$ de E telle que $v$ est diagonal dans cette base. La famille $(\lambda_j)_{j\in J}$ de ses valeurs propres est contenue dans $\mathbf{R}_+^J$. Posons $\alpha_j=\surd\overline{\lambda_j}$ pour tout $j\in J$. Soit I l’ensemble des $j\in J$ tels que $\alpha_j\not = 0$. C’est un ensemble dénombrable puisque $v$ est compact. La famille $(e_i)_{i\in I}$ est une base orthonormale de l’espace initial de $v$, qui est l’espace initial Ker($u$)$^{\circ}$ de $u$ (EVT, V, p. 43, prop. 8). Posons $f_i=\frac{1}{\alpha_i}u(e_i)$ pour $i\in I$. Quels que soient $i$ et $j$ dans I, on a
 
-1 1 $\lambda_i$
-
 $$
-\langle f_i|f_j\rangle =\langle u(e_i)|u(e_j)\rangle =\langle v(e_i)|e_j\rangle =\langle e_i|e_j\rangle
-$$
-
-$$
-\alpha_i\alpha_j\alpha_i\alpha_j\alpha_i\alpha_j
+\langle f_i|f_j\rangle =\frac{1}{\alpha_i\alpha_j}\langle u(e_i)|u(e_j)\rangle =\frac{1}{\alpha_i\alpha_j}\langle v(e_i)|e_j\rangle =\frac{\lambda_i}{\alpha_i\alpha_j}\langle e_i|e_j\rangle
 $$
 
 d’où il résulte que la famille $(f_i)_{i\in I}$ est orthonormale dans F. Le corollaire en résulte, puisque $u(e_i) =\alpha_if_i$ pour tout $i\in I$.
@@ -266,11 +260,7 @@ Soient $u$ un endomorphisme compact et positif de E et $(\lambda_n(u))_{n\in I_E
 
 Pour tout sous-espace fermé F de E, on note
 
-$$
-\langle x|u(x)\rangle \langle x|u(x)\rangle
-$$
-
-$r_F(u) =$ inf 2 $,R_F(u) =$ sup 2,
+$r_F(u) =$ inf $\frac{\langle x|u(x)\rangle}{2},R_F(u) =$ sup $\frac{\langle x|u(x)\rangle}{2}$,
 
 $$
 _{x\in F-\{0\}}\|x\|x_{\in F^{\circ-}\{0\}}\|x\|
@@ -390,11 +380,7 @@ Soit $n\in I_H\subset I_E$. Soit F un sous-espace de dimension $n+ 1$ de H adapt
 
 Supposons que H est de codimension $k\in \mathbf{N}$ dans E et que $n\in I_H$. Soit F un sous-espace de H de dimension $n$ adapté à $u_H$. Son orthogonal dans H est égal à $H\cap F^{\circ}$, et c’est l’orthogonal dans E du sous-espace $F + H^{\circ}$ de dimension $n+k$. Donc $n+k\in I_E$ et (prop 5 de IV, p. 153, b))
 
-$$
-\langle x|u_H(x)\rangle
-$$
-
-$\lambda_n(u_H) =$ sup 2 $= R_{F+H^{\circ}}(u)$
+$\lambda_n(u_H) =$ sup $\frac{\langle x|u_H(x)\rangle}{2}= R_{F+H^{\circ}}(u)$
 
 $$
 _{x\in H\cap F^{\circ}}\|x\|
@@ -420,15 +406,7 @@ Soit F un espace hilbertien et soit $u$ une application linéaire compacte de E 
 
 a) Pour $n\in I_E$, on a
 
-$$
-\|u(x)\|\|u(x)\|
-$$
-
-$\alpha_n(u) =$ sup inf = inf sup.
-
-$$
-_{F\in\mathscr{F}_{n+1}x\in F-\{0\}}\|x\|_{F\in\mathscr{F}_nx\in F^{\circ-}\{0\}}\|x\|
-$$
+$\alpha_n(u) =$ sup$_{F\in\mathscr{F}_{n+1}}$ inf$_{x\in F-\{0\}}\frac{\|u(x)\|}{\|x\|}=$ inf$_{F\in\mathscr{F}_n}$ sup$_{x\in F^{\circ-}\{0\}}\frac{\|u(x)\|}{\|x\|}$.
 
 b) Soit J l’ensemble des $n\in I_E$ tels que $\alpha_n(u)\not = 0$. Il existe des familles orthonormales $(e_n)_{n\in J}$ dans E et $(f_n)_{n\in J}$ dans F telles que pour tout $x\in E$, on a
 
@@ -762,9 +740,9 @@ $$
 \sum_{i\in I}\langle e_i|u(e_i)\rangle
 $$
 
-converge pour toute base orthonormale $(e_i)_{i\in I}$ de E et sa somme est indépendante de la base orthonormale ; on dit que c’est la trace Tr($u$) de $u$ (EVT, V, p. 50). Si $K =\mathbf{R}$, on a Tr($u$) $=$ Tr($u_{(\mathbf{C})}$).
+converge pour toute base orthonormale $(e_i)_{i\in I}$ de E et sa somme est indépendante de la base orthonormale ; on dit que c’est la trace Tr($u$)
 
-Soit $u\in \mathscr{L}_1(E)$. On a $u^*\in \mathscr{L}_1(E)$ et Tr($u^*$) $=$ Tr($u$) $($loc. cit.).
+de Soit$u$ (EVT, V, p. 50). Si $K =u\in \mathscr{L}_1(E)$. On a $u^*\in \mathscr{L}\mathbf{R}_1$, on a Tr((E) et Tr($uu$) $=$ Tr($^*$) $=$ Tr($u\overset{(\mathbf{C}}{u}) (^)$).loc. cit.).
 
 #### Proposition 12 {#ts-iv-s1-prop-12 .statement tag=02X7}
 
@@ -846,7 +824,9 @@ Soit $B = (e_i)_{i\in I}$ une base orthonormale de E telle que $u$ soit diagonal
 
 ### 8. Applications nucléaires
 
-Dans ce numéro, F désigne un espace hilbertien sur K. Lorsque $K =\mathbf{C}$, on rappelle (I, p. $139\surd$,déf. 3) que pour $u\in \mathscr{L}(E; F)$, on note $|u|$ l’endomorphisme positif $u^*\circ u$ de E. Lorsque $K =\mathbf{R}$, l’élément $|u_{(\mathbf{C})}|$ de $\mathscr{L}(E_{(\mathbf{C})})$ est de la forme $v_{(\mathbf{C})}$ pour un unique endomorphisme $v\in \mathscr{L}$ (E), qui est encore noté $|u|($cf. I, p. 87).
+Dans ce numéro, F désigne un espace hilbertien sur K. Lorsque $K =|u|$ l’endomorphisme positif$\mathbf{C}$, on rappelle (I, p. $139\surd , u$déf.$_*\circ u3$) de E. Lorsque K =que pour $u\in \mathscr{L}(E; F)$, on note$\mathbf{R}$, l’élément
+
+$|u_{(\mathbf{C})}|$ de $\mathscr{L}(E_{(\mathbf{C})})$ est de la forme $v_{(\mathbf{C})}$ pour un unique endomorphisme $v\in \mathscr{L}$ (E), qui est encore noté $|u|($cf. I, p. 87).
 
 On note $(u, v)\mapsto  \langle u|v\rangle =$ Tr($u^*v$) le produit scalaire dans l’espace hilbertien $\mathscr{L}_2(E; F)$ (EVT, V, p. 53, remarques 1 et 2).
 
@@ -1058,9 +1038,11 @@ On identifiera dans la suite $L^2(X)\widehat{\otimes}_2L^2(Y)$ et $L^2(X\times Y
 
 #### Proposition 19 {#ts-iv-s1-prop-19 .statement tag=02XS}
 
-L’application $N\mapsto u_N$ est un isomorphisme isométrique de $L^2(X\times Y)$ sur l’espace $\mathscr{L}_2(L^2(X); L^2(Y))$ des applications de Hilbert–Schmidt de $L^2(X)$ dans $L^2(Y)$.
+L’application $N\mapsto u_N$ est un isomorphisme isométrique de $L^2(X\times Y)$ sur l’espace $\mathscr{L}_2(L^2(X); L^2(Y))$ des applications
 
-L’application linéaire de $L^2(Y)\otimes L^2(X)$ dans $\mathscr{L}_2(L^2(X); L^2(Y))$ qui associe à $g\otimes f$ l’application de Hilbert–Schmidt $h\mapsto  \langle f|h\rangle g$ se prolonge en un isomorphisme isométrique $\theta_1$ de $L^2(Y)\widehat{\otimes}_2L^2(X)$ sur $\mathscr{L}_2(L^2(X); L^2(Y))$ (EVT, V, p. 52, th. 1).
+de Hilbert–Schmidt deL’application linéaire de L$L^2(X)^2$dans$(Y)\otimes L\overset{2}{L}(Y)^2(X)$ dans. $\mathscr{L}_2(L^2(X); L^2(Y))$ qui associe àprolonge en un isomorphisme isométrique$g\otimes f$ l’application de Hilbert–Schmidt$\theta_1$ de $L_2(Y)h\mapsto  \langle \widehat{\otimes}_2Lf_2|(X)$ sur$h\rangle g$ se
+
+$\mathscr{L}_2(L^2(X); L^2(Y))$ (EVT, V, p. 52, th. 1).
 
 Notons par ailleurs $\theta_2$ l’isomorphisme isométrique de $L^2(X)\widehat{\otimes}_2L^2(Y)$ sur $L^2(Y)\widehat{\otimes}_2L^2(X)$ qui à $f\otimes g$ associe $g\otimes \overline{f}$ pour tout $f\in L^2(X)$ et tout $g\in L^2(Y)$.
 
@@ -1132,7 +1114,7 @@ $$
 
 pour tout $f\in L^2$(X), où la série converge dans $L^2(X)$.
 
-Pour tout $i\in I$, on note $h_i\in \mathscr{L}^2(X\times X)$ la fonction définie par $h_i(x, y) =f_i(x)g_i(y)$, de sorte que $\widetilde{h}_i$ est la classe de $f_i\otimes g_i$. D’après la remarque 9 de IV, p. 173, la série de terme général $\alpha_ih_i$ converge vers N dans $L^2(X\times X)$.
+$h_i($Pour tout$x, y) =\frac{i}{f_i(x)}\in g_i($I, on note$y)$, de sorte que$h^i\in \mathscr{L}\widetilde{h}_i^2(X$est la classe de$\times X)$ la fonction définie par$\overline{f}_i\otimes g_i$. D’après la remarque 9 de IV, p. 173, la série de terme général $\alpha_ih_i$ converge vers N dans $L^2(X\times X)$.
 
 Dans la suite de ce numéro, on suppose que N est une fonction continue.
 

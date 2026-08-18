@@ -46,7 +46,7 @@ subsections:
       pdf_page: 552
 statements: 0
 exercises: 0
-content_sha256: 241791f6ee17d35c60aabea6be516fc7b9f9fe17f455c902efacd40f754d52d6
+content_sha256: e7914044f0d95580265c23e8a6575cdadb08456b028982fcadff8dadc7e8c5e0
 ---
 
 # NOTE HISTORIQUE
@@ -69,13 +69,9 @@ d’inconnue la fonction $u: I\rightarrow \mathbf{C}$, dans le cas où l’inter
 
 Lorsque le noyau K est symétrique, nous avons aussi vu comment Hilbert, dans son premier mémoire sur les équations intégrales [**31**], reconnut la parenté entre le problème de Fredholm et la recherche des « axes principaux » d’une forme quadratique. Partant de cette réduction pour des « sections » (discrétisations) finies du noyau K, il obtenait par passage à la limite la formule
 
-$\int^{\infty}$ 1 $\int$
-
 $$
-K(s, t)x(s)x(t)dt=\sum\varphi_n(s)x(s)ds \tag{2}
+\int_IK(s, t)x(s)x(t)dt=\sum_{n=1}^{\infty}\lambda 1\int_{nI}\varphi_n(s)x(s)ds \tag{2}
 $$
-
-I $n=1\lambda n$ I
 
 où les $\lambda_n$ sont les valeurs propres du noyau K, les $\varphi_n$ forment un système orthonormal de vecteurs propres associé[^2], et où l’égalité est valable dès que $x$ est de carré intégrable sur I (cf. ÉHM, p. 264).
 
@@ -103,14 +99,8 @@ $$
 
 de la forme B, puis de faire tendre $n$ vers l’infini. Pour ce passage à la limite, il tire profit des idées sur l’intégration introduites par T. Stieltjes dans ses travaux sur les fractions continues [**71**]. Il montre que toute forme quadratique bornée peut, après une transformation orthogonale des variables, se mettre sous la forme
 
-1 $_2\int$ 1
-
 $$
-\sum x_p+d\sigma (s, x) \tag{3}
-$$
-
-$$
-_{p\in\mathbf{N}}\lambda_{ps\in\mathbf{R}}s
+\sum_{p\in\mathbf{N}}\frac{1}{\lambda_p}x^2_p+\int_{s\in\mathbf{R}}\frac{1}{s}d\sigma (s, x) \tag{3}
 $$
 
 Dans cette formule, les $\lambda_p$ sont les valeurs propres de B et $x\mapsto \sigma (s, x)$ est (pour $s\in \mathbf{R}$ fixé) une forme quadratique positive séparante sur E, tandis que $s\mapsto \sigma (s, x)$ est[^3] (pour $x\in E$ fixé) une fonction continue croissante qui tend vers 0 en $-\infty$ et vers $\|x\|^2$ en $+\infty ($cf. ÉHM, p. 284, pour les notations de Stieltjes).
@@ -169,13 +159,7 @@ Ici le noyau $K(s, t)$ prend la forme $b(s)$ cot($\frac{t-s}{2}$) $+ A(s, t)$ po
 
 Noether [**53**] observe que contrairement aux équations intégrales vérifiant l’alternative de Fredholm, dans le cas d’un noyau K comme ci-dessus et d’un second membre $f$ non nul, il est possible que (4) admette des familles de solutions non triviales. Il montre que l’espace des solutions est gouverné par l’entier
 
-1 $\int$
-
-(5) $n=d$ (log($a-ib$)).
-
-$$
-2\pi_{\Gamma}
-$$
+(5) $n=\frac{1}{2\pi}\int_{\Gamma}d$ (log($a-ib$)).
 
 Si $n <0$, il n’y a pas de solution non triviale, et si $n\geqslant 0$, l’équation (4) admet une famille à $2n$ paramètres de solutions. Noether utilise le terme « indice » (Index) pour l’entier $n$ et y reconnaît un nombre de tours, notion classique depuis la fin du xix$^e$ siècle dans l’étude des fonctions d’une variable complexe.
 

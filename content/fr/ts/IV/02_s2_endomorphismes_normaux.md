@@ -45,7 +45,7 @@ subsections:
       pdf_page: 207
 statements: 32
 exercises: 28
-content_sha256: 1d6a75dead753aa9ec86f387e253f7a9842e08641e22485ad075d4c408d233bb
+content_sha256: 1a289215a48165b77c548c7f6336d013e15906914cc4233f1c60e146379842d6
 ---
 
 ## § 2. ENDOMORPHISMES NORMAUX
@@ -116,21 +116,11 @@ Posons $h(x) = 1/g(x)$ si $g(x)\not = 0$ et $h(x) = 0$ sinon. La fonction $h$ ap
 
 Soit U un voisinage ouvert de 0 tel que l’ouvert $Z =\overset{-1}{g}(U)$ est localement $\mu$-négligeable, donc négligeable (INT, IV, p. 172, § 5, n$^o2$, cor. 2). Soit Y le support de $\mu$; on a $Y\subset X$ - Z. La restriction de la fonction $h$ à X - Z est continue et bornée, donc $h\in \mathscr{L}^{\infty}(X, \mu)$ et la norme de $\widetilde{h}$ dans $\mathscr{L}^{\infty}(X, \mu)$ est égale à la norme de sa restriction à X - Z. De plus, pour tout $\alpha \in \mathbf{R}_+$, l’ensemble des $x\in X$ - Z tels que $|h(x)|> \alpha$ est un ouvert dans X - Z ; il est donc localement $\mu$-négligeable si et seulement s’il ne rencontre pas Y (INT, IV, loc. cit. et INT, III, p. 66, § 3, n$^o2$, déf. 1). Par conséquent, on a
 
-1
-
-$\|\widetilde{h}\|_{\infty}=$ sup,
-
-$$
-_{x\in Y}|g(x)|
-$$
+$\|\widetilde{h}\|^{\infty}=$ sup$_{x\in Y}\frac{1}{|g(x)|}$,
 
 d’où
 
-1
-
-= inf $|g(x)|=$ inf $|\lambda |=$ inf $|\lambda |$
-
-$\|\widetilde{h}\|\infty x\in Y\lambda \in g(Y)\lambda \in \overline{g(Y)}$
+$\|\widetilde{h}1\|=$ inf$_{\infty x\in Y}|g(x)|=$ inf$_{\lambda\in g(Y)}|\lambda |=$ inf$_{\lambda\in\overline{g(Y)}}|\lambda |$
 
 qui est égal à $\delta$ d’après le lemme précédent.
 
@@ -264,11 +254,9 @@ L’application $m:g\mapsto \widetilde{m}_g$ est un morphisme unifère isométri
 
 En particulier, pour tout $g\in L^{\infty}(X, \mu)$, l’endomorphisme de multiplication $\widetilde{m}_g$ est normal; il est hermitien si et seulement si $g$ est localement $\mu$-presque partout à valeurs réelles.
 
-D’après la prop. 5, l’application $\widetilde{m}$ est un morphisme injectif et isométrique d’algèbres de Banach unifères de $L^{\infty}(X, \mu)$ dans $\mathscr{L}(L^2(X, \mu))$. Soit $g\in \mathscr{L}^{\infty}(X, \mu)$. Pour $f_1$ et $f_2\in \mathscr{L}^2(X, \mu)$, on a
+D’après la prop. 5, l’application $\widetilde{m}$ est un morphisme injectif et isométrique d’algèbres de Banach unifères de $L^{\infty}(X, \mu)$ dans $\mathscr{L}(L^2(X, \mu))$.
 
-$$
-\langle f_1|\widetilde{m}_g(f_2)\rangle =\int_X\overline{f_1(x)}g(x)f_2(x)d\mu(x) =\langle \widetilde{m}_{\overline{g}}(f_1)|f_2\rangle
-$$
+Soit $g\in \langle f\mathscr{L}_1|^{\infty}\widetilde{m}(X_g(, \mu f_2)$. Pour$)\rangle =\int_Xff_1^1($et$x)gf(^2x\in )f\mathscr{L}_2(\overset{2}{x})(Xd\mu, \mu(x)$, on a$) =\langle \widetilde{m}_{\overline{g}}(f_1)|f_2\rangle$,
 
 dont il résulte que $\widetilde{m}^*_g=\widetilde{m}_{\overline{g}}$, ce qui démontre que $m$ est un morphisme involutif. Les dernières assertions en résultent (cf. I, p. 106, prop. 5).
 

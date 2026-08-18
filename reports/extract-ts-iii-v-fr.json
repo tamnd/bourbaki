@@ -1,12 +1,12 @@
 {
   "book": "ts-iii-v-fr",
   "pages": 579,
-  "clean": 567,
-  "flagged": 10,
+  "clean": 557,
+  "flagged": 20,
   "empty": 2,
   "reasons": {
     "empty": 2,
-    "stacked-rows": 1,
+    "stacked-rows": 12,
     "tall-delimiter": 10
   },
   "flagged_pages": [
@@ -39,9 +39,51 @@
       ]
     },
     {
+      "pdf_page": 279,
+      "page_label": "TS IV.266",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 293,
+      "page_label": "TS IV.280",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 294,
+      "page_label": "TS IV.281",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 299,
+      "page_label": "TS IV.286",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
       "pdf_page": 325,
       "flags": [
         "empty"
+      ]
+    },
+    {
+      "pdf_page": 357,
+      "page_label": "TS IV.344",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 366,
+      "page_label": "TS IV.353",
+      "flags": [
+        "stacked-rows"
       ]
     },
     {
@@ -59,6 +101,13 @@
       ]
     },
     {
+      "pdf_page": 399,
+      "page_label": "TS V.386",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
       "pdf_page": 425,
       "page_label": "TS V.412",
       "flags": [
@@ -66,10 +115,25 @@
       ]
     },
     {
+      "pdf_page": 429,
+      "page_label": "TS V.416",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 465,
+      "page_label": "TS V.452",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
       "pdf_page": 473,
       "page_label": "TS V.460",
       "flags": [
-        "tall-delimiter"
+        "tall-delimiter",
+        "stacked-rows"
       ]
     },
     {
@@ -84,6 +148,13 @@
       "page_label": "TS V.485",
       "flags": [
         "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 503,
+      "page_label": "TS V.490",
+      "flags": [
+        "stacked-rows"
       ]
     },
     {

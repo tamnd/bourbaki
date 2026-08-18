@@ -37,7 +37,7 @@ subsections:
       pdf_page: 93
 statements: 19
 exercises: 11
-content_sha256: 28ddd48707f484e97f722801b960bbcd7b76249dc2fb72ea9b68d18286894b9e
+content_sha256: e3e2c993d89b57b33ed2f4e8857a16f2371eac3d7a750395dc60ce3abe6a6efa
 ---
 
 ## § 5. PERTURBATION PAR UNE APPLICATION LINÉAIRE COMPACTE
@@ -192,14 +192,8 @@ Soit E un espace de Banach. Soit $u$ un endomorphisme de E, soit A son commutant
 
 Puisque $\pi (A)$ est une sous-algèbre unifère de $\mathscr{C}$alk(E), son adhérence B est une algèbre de Banach. Si $u$ est un endomorphisme de Riesz de E, l’élément $\pi (u)$ possède un inverse dans $\pi (A)$ (cor. 1), donc dans B. Réciproquement, supposons que $\pi (u)$ ait un inverse $s$ dans B. Par définition de B, il existe un élément $v$ de A tel que
 
-1
-
 $$
-\|s-\pi (v)\|<
-$$
-
-$$
-\|\pi (u)\|
+\|s-\pi (v)\|<\frac{1}{\|\pi(u)\|}
 $$
 
 d’où $\|1_E-\pi (u\circ v)\|<1$. D’après la prop. 2, l’application linéaire $u\circ v$ est un endomorphisme de Riesz de E. Il en est de même de $u$ puisque $u$ et $v$ commutent (III, p. 49, prop. 9).
@@ -237,15 +231,7 @@ Soit $\lambda \in K$. Puisque l’indice d’un endomorphisme de Riesz est nul, 
 L’ensemble Σ est fermé dans K puisque l’ensemble des automorphismes de E est ouvert dans $\mathscr{L}(E)$. Soit $\lambda$ un élément de Σ. On a $\lambda \not = 0$. Notons N le nilespace de $h$ et I son conilespace, et notons $h_I$ et $h_N$ les endomorphismes de I et de N que $h$ définit par passage aux sous-espaces. Alors $1_I-\lambda h_I$ est un automorphisme de I, et il existe un voisinage U de $\lambda$ dans K tel que $1_I-\mu h_I$ soit un automorphisme de I pour tout $\mu\in U$. L’endomorphisme $1_N-\lambda h_N$ de N est nilpotent ; pour tout $\mu\not =\lambda$, on a
 
 $$
-\lambda -\mu(\mu)
-$$
-
-$$
-1_N-\mu h_N=1_N+(1_N-\lambda h_N)
-$$
-
-$$
-\lambda \lambda -\mu
+1_N-\mu h_N=\frac{\lambda-\mu}{\lambda}(1_N+\frac{\mu}{\lambda-\mu}(1_N-\lambda h_N))
 $$
 
 donc $1_N-\mu h_N$ est un automorphisme de N. Par suite, l’ensemble $U\cap \Sigma$ est réduit au seul élément $\lambda$ et l’ensemble Σ est discret. Il est dénombrable d’après le lemme 3.

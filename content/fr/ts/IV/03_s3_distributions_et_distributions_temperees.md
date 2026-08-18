@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: cfeab9bfc6816f62c2c2ab6c5e3a9db37795939c81ac453e94c4313de175e658
+content_sha256: 081b017a1a1d249f0e9edf039900adeb8e9271ccc0002d6059e55832c69784e0
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -680,13 +680,7 @@ En effet, on a
 
 $\widetilde{q}_{\alpha ,k}(\varphi )\leqslant$ sup$_{\|x\|\leqslant T}\|x\|^k|\partial^{\alpha}\varphi (x)|+$ sup$_{\|x\|>T}\|x\|^k|\partial^{\alpha}\varphi (x)|$
 
-$k\alpha$ 1 $k+1\alpha$
-
-$\leqslant T$ sup $|\partial \varphi (x)|+$ sup $\|x\||\partial \varphi (x)|$.
-
-$$
-\|x\|\leqslant TT\|x\|>T
-$$
+$\leqslant T^k$ sup$_{\|x\|\leqslant T}|\partial^{\alpha}\varphi (x)|+\frac{1}{T}$ sup$_{\|x\|>T}\|x\|^{k+1}|\partial^{\alpha}\varphi (x)|$.
 
 #### Proposition 10 {#ts-iv-s3-prop-10 .statement tag=030Z}
 
@@ -776,10 +770,8 @@ $$
 
 où
 
-$\int\int$ 1
-
 $$
-a_n=d\mu(x),b_n=n_{+1}d\mu(x)
+a_n=\int d\mu(x),b_n=\int 1_{n+1}d\mu(x)
 $$
 
 $$

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 34
 statements: 57
 exercises: 37
-content_sha256: 356fe9f57440abd05bdcbbf335b4142c69ee878c3bcc53204d1747f7ba684eb6
+content_sha256: b8cdeaecabfbb6543419f53f92ca3d724ec2830149e855a9c428a3a8e4ef0d6e
 ---
 
 ## § 1. APPLICATIONS LINÉAIRES COMPACTES
@@ -410,13 +410,9 @@ Soient E un espace localement convexe, I un ensemble, et pour chaque $i\in I$, s
 
 Soient A une partie précompacte de E et U un voisinage de 0 dans E. Il existe par hypothèse $i\in I$ et une semi-norme continue $p$ sur $F_i$ tels que U contienne $(p\circ v_i)^{-1}([0,1])$. Posons $F = F_i,v=v_i$ et $B =v$(A), et supposons que F soit un espace d’approximation. L’ensemble B est précompact dans F. Il existe donc (lemme 2) un entier $n\geqslant 1$, des éléments $y_1, . . . , y_n$ de F et des formes linéaires continues $f_1, . . . , f_n$ sur F, tels que l’on ait, pour tout $y\in B$,
 
-$(^n)$ 1
-
 $$
-py-\sum f_j(y)y_j\leqslant
+p(y-\sum^nf_j(y)y_j)\leqslant \frac{1}{2}
 $$
-
-2
 
 $j=1$
 
@@ -487,14 +483,8 @@ $$
 pour $x\in A$ et $1\leqslant i\leqslant n$. L’endomorphisme $u:x\mapsto \sum^n_{i=1}f_i(x)e_i$ de E appartient à $\mathscr{L}^f(E)$ et pour tout $x\in A$, on a
 
 $$
-\varepsilon \varepsilon
+p(x-u(x))\leqslant p(x-v(x)) +p(v(x)-u(x))\leqslant \frac{\varepsilon}{2}+n\times \frac{\varepsilon}{2n}=\varepsilon
 $$
-
-$$
-p(x-u(x))\leqslant p(x-v(x)) +p(v(x)-u(x))\leqslant +n\times =\varepsilon
-$$
-
-2 $2n$
 
 Il résulte de cela que $1_E$ est adhérent à $\mathscr{L}^f(E)$ pour la topologie de la convergence compacte. Or celle-ci coïncide avec la topologie de la convergence précompacte car E est complet. Donc E est un espace d’approximation.
 
@@ -546,14 +536,8 @@ Il existe un projecteur de rang fini $u$ de $L^p_K(X, \mu)$ de norme $\leqslant 
 
 Soit $\mathscr{P}$ l’ensemble des partitions finies $\pi = (K_1, . . . ,K_n,H)$ de X, où $n\geqslant 1$ est un entier et $K_1, . . . ,K_n$ sont des parties intégrables et de mesure non nulle de X. Pour toute partition $\pi = (K_1, . . . ,K_n,H)\in \mathscr{P}$, on définit un endomorphisme $v_{\pi}$ de $\mathscr{L}^p(X, \mu)$ en posant
 
-$^n$ 1 $(\int)$
-
 $$
-v_{\pi}(f) =\sum f d\mu\varphi_{K_i}
-$$
-
-$$
-\mu(K_i)_{K_i}
+v_{\pi}(f) =\sum^n\frac{1}{\mu(K_i)}(\int_{K_i}f d\mu)\varphi_{K_i}
 $$
 
 $i=1$

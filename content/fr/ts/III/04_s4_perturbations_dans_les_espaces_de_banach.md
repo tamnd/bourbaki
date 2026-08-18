@@ -37,7 +37,7 @@ subsections:
       pdf_page: 81
 statements: 30
 exercises: 9
-content_sha256: 4ae99e0d0d6697eac780748b0a380ff0b9846ec8b9d54763970913cf5a633c37
+content_sha256: b39ca68f6b2574c604abf5e1be7b0ded43fefd7d7dff4d2efa6a6ab37884ec52
 ---
 
 ## § 4. PERTURBATIONS DANS LES ESPACES DE BANACH
@@ -206,25 +206,13 @@ $$
 \|u(y)\|
 $$
 
-(3) $\|u\|=$ sup,
-
-$$
-_{y\in E/N}\|y\|
-$$
+(3) $\|u\|=$ sup$_{y\in E/N}\|y\|$,
 
 $y\not =0$
 
 la borne supérieure étant prise dans $\overline{\mathbf{R}}_+$. On appelle conorme de $u$ le nombre
 
-$$
-\|\widetilde{u}(y)\|
-$$
-
-(4) $((u)) =$ inf,
-
-$$
-_{y\in E/N}\|y\|
-$$
+(4) $((u)) =$ inf$_{y\in E/N}\frac{\|\widetilde{u}(y)\|}{\|y\|}$,
 
 $y\not =0$
 
@@ -236,15 +224,7 @@ $$
 
 pour tout élément $y$ de $E/N$. Posons $v=i\circ \widetilde{u}$. On a $u=v\circ p$ et
 
-$$
-\|v(y)\|
-$$
-
-(6) $((u)) =$ inf = inf $\|v(y)\|$.
-
-$$
-_{y\in E/N}\|y\|_{y\in E/N}
-$$
+(6) $((u)) =$ inf$_{y\in E/N}\frac{\|v(y)\|}{\|y\|}=$ inf$_{y\in E/N}\|v(y)\|$.
 
 $y\not =0\|y\|=1$
 
@@ -256,15 +236,7 @@ $$
 
 Lorsque $u$ est injectif, on a
 
-$$
-\|u(x)\|
-$$
-
-(8) $((u)) =$ inf,
-
-$$
-_{xx\in\not=0E}\|x\|
-$$
+(8) $((u)) =$ inf$_{xx\in\not=0E}\frac{\|u(x)\|}{\|x\|}$,
 
 et, pour tout $x\in E$, on a
 
@@ -314,7 +286,9 @@ Supposons que $u$ ne soit pas un morphisme strict, mais que l’espace normé E 
 
 Soient E un espace de Banach et F un espace normé. L’application $u\mapsto ((u))$ de $\mathscr{L}(E; F)$ dans $\overline{\mathbf{R}}$ est semi-continue supérieurement.
 
-Soit $u\in \mathscr{L}(E; F)$. Il s’agit de prouver que pour tout nombre réel $c >((u))$, l’ensemble des éléments $v\in \mathscr{L}(E; F)$ tels que $((v))< c$ est un voisinage de $u$. Notons B l’ensemble des éléments de E de norme $<1$. D’après la prop. 6, il existe $y\in E$ tel que $u(y)\in /u(B)$ et $\|u(y)\|< c$. La distance $d$ de $u(y)$ à l’ensemble fermé $u(B)$ est strictement positive. L’ensemble V des éléments $v$ de $\mathscr{L}(E; F)$ vérifiant les relations $\|v(y)\|< c$ et $\|u-v\|(1 +\|y\|)< d$ est un voisinage de $u$ dans $\mathscr{L}(E; F)$. Soit $v\in V$. Pour tout $x\in B$, on a
+Soit $u\in \mathscr{L}(E; F)$. Il s’agit de prouver que pour tout nombre réel $c >((u))$, l’ensemble des éléments $v\in \mathscr{L}(E; F)$ tels que $((v))< c$ est un voisinage de $u$. Notons B l’ensemble des éléments de E de normeet $\|u(y<)\|1$. D’après la prop.$< c$. La distance $d6$, deil existe$u(y)$ à l’ensemble fermé$y\in E$ tel que $u(y)u(B)$ est$\in /u(B)$
+
+strictement positive. L’ensemble V des éléments $v$ de $\mathscr{L}(E; F)$ vérifiant les relations $\|v(y)\|< c$ et $\|u-v\|(1 +\|y\|)< d$ est un voisinage de $u$ dans $\mathscr{L}(E; F)$. Soit $v\in V$. Pour tout $x\in B$, on a
 
 $$
 d\leqslant \|u(y)-u(x)\|\leqslant \|v(y)-v(x)\|+\|u-v\|(\|y\|+\|x\|)

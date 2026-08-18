@@ -53,7 +53,7 @@ subsections:
       pdf_page: 268
 statements: 74
 exercises: 24
-content_sha256: 2bb326662123e3ad4dd4353e75514039fb5d2e9e8b28459445a7686f68a77e3d
+content_sha256: 30639c5b15c30f3296e1f9f62b297b501d32a4058dcb51269b14cbd69a6cb97a
 ---
 
 ## § 4. OPÉRATEURS PARTIELS
@@ -683,11 +683,7 @@ $$
 où la série est absolument convergente dans $\mathscr{L}(E)$. De plus, on a
 
 $$
-_{-1}\|u^{-1}\|
-$$
-
-$$
-\|(u+v)\|\leqslant -_1
+\|(u+v)^{-1}\|\leqslant \|u^{-1}\|_{-1}
 $$
 
 $$
@@ -696,9 +692,7 @@ $$
 
 Comme $\|v\| \|u^{-1}\|<1$, la série de terme général $(-vu^{-1})^k$ est absolument convergente dans $\mathscr{L}$ (E), et sa somme est l’inverse de l’endomorphisme $1_E+vu^{-1}$ (prop. 2 de I, p. 22). Par conséquent, l’opérateur partiel $(1_E+vu^{-1})\circ u=u+v($IV, p. 226, rem. vi) est injectif et l’opérateur partiel réciproque $(u+v)^{-1}=u^{-1}\circ (1_E+vu^{-1})^{-1}($IV, p. 226, rem. iii) appartient à $\mathscr{L}(E)$. Comme
 
-$-1-1+\infty -1k$ 1
-
-$\|(1_E+vu$ ) $\|\leqslant \sum(\|v\| \|u\|)$ = $-_1$,
+$\|(1_E+vu^{-1})^{-1}\|\leqslant \sum^{+\infty}(\|v\| \|u^{-1}\|)^k=$ 1 $_{-1}$,
 
 $$
 1- \|v\| \|u\|
@@ -792,13 +786,7 @@ c) Supposons que Sp($u$) n’est pas vide. Soit $\lambda \in U$ et notons $\delt
 
 d) L’application $\lambda \mapsto R(u, \lambda )$ est une application holomorphe de U dans $\mathscr{L}(E)$. Pour tout entier $k\in \mathbf{N}$ et tout $\lambda \in U$, on a
 
-$\partial kkk+1$
-
-$R(u, \lambda ) = (-1)k$!R($u, \lambda$ ).
-
-$$
-\partial \lambda^k
-$$
+$\frac{\partial^k}{\partial \lambda^k}R(u, \lambda ) = (-1)^kk$!R($u, \lambda$ )$^{k+1}$.
 
 Soit $\lambda \in U$. Pour tout $\mu\in \mathbf{C}$ tel que $\|(\mu-\lambda )1_E\|<\|R(u, \lambda )\|^{-1}$, le lemme 4 appliqué à l’opérateur partiel injectif $\lambda 1_E-u$ et à $v= (\mu-\lambda )1_E$ implique que l’opérateur partiel $\mu1_E-u=\lambda 1_E-u+v$ est injectif et a un inverse continu. Cela implique a). D’après loc. cit., on a également la formule
 
@@ -836,11 +824,9 @@ Démontrons b). Si $\mu\not =\lambda$ et $x\in$ Ker(($\lambda -\mu$)$^{-1}1_E-R(
 
 Soit $u$ un opérateur fermé à domaine dense sur un espace hilbertien complexe E. Le spectre de $u^*$ est l’image du spectre de $u$ par la conjugaison complexe et, pour tout élément $\lambda$ de l’ensemble résolvant de $u$, on a $R(u, \lambda )^*= R(u^*, \lambda )$. En particulier, si $u$ est auto-adjoint, l’endomorphisme $R(u, \lambda )$ est normal pour tout $\lambda  /\in$ Sp($u$).
 
-Soit $\lambda \in \mathbf{C}-$ Sp($u$) un élément de l’ensemble résolvant de $u$. On a $u=\lambda 1_E-R(u, \lambda )^{-1}$, donc
+Soit $\lambda \in \mathbf{C}-$ Sp($u$) un élément de l’ensemble résolvant de $u$. On a
 
-$$
-u^*=\overline{\lambda}1_E-(R(u, \lambda )^{-1})^*=\overline{\lambda}1_E-(R(u, \lambda )^*)^{-1}
-$$
+$u=\lambda 1^E-R(u^*u, \lambda =\frac{)}{\lambda}\overset{-1}{1}_{E}$, donc$-(R(u, \lambda )^{-1})^*=\overline{\lambda}1_E-(R(u, \lambda )^*)^{-1}$
 
 (IV, p. 236 et prop. 9 de IV, p. 239). D’après la remarque 5, on en déduit que $\overline{\lambda}\in \mathbf{C}-$ Sp($u^*$) et que $R(u, \lambda )^*= R(u^*, \lambda )$. Par conséquent, le spectre de $u^*$ est contenu dans l’image de Sp($u$) par la conjugaison complexe. On obtient l’égalité en appliquant cette propriété à $u^*$, puisque $u^{**}=u$ (cor. de la prop. 8 de IV, p. 237). La dernière assertion résulte alors de la formule (9), p. 245.
 
@@ -912,13 +898,7 @@ $\|R(u, \lambda )\|=$ sup$_{\mu\in Sp(R(u,\lambda))}|\mu|$
 
 (th. 1 de I, p. 24). Le spectre de $R(u, \lambda )$ ne peut être réduit à $\{0\}$, car dans ce cas on aurait $\|R(u, \lambda )\|= 0$, donc l’image dom($u$) de $R(u, \lambda )$ serait nulle, et E également. La prop. 15 implique donc que
 
-1 1
-
-$\|R(u, \lambda )\|=$ sup =.
-
-$$
-_{\mu\in Sp(u)}|\lambda -\mu|\delta
-$$
+$\|R(u, \lambda )\|=$ sup$_{\mu\in Sp(u)}\frac{1}{|\lambda-\mu|}=\frac{1}{\delta}$.
 
 #### Corollaire {#ts-iv-s4-n7-cor-2 .statement tag=033X}
 
