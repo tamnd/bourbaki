@@ -1,30 +1,15 @@
 {
   "book": "ts-iii-v-fr",
   "pages": 579,
-  "clean": 546,
-  "flagged": 31,
+  "clean": 567,
+  "flagged": 10,
   "empty": 2,
   "reasons": {
-    "dropped-glyph": 22,
     "empty": 2,
     "stacked-rows": 1,
     "tall-delimiter": 10
   },
   "flagged_pages": [
-    {
-      "pdf_page": 36,
-      "page_label": "TS III.22",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 79,
-      "page_label": "TS III.65",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
     {
       "pdf_page": 116,
       "flags": [
@@ -35,7 +20,6 @@
       "pdf_page": 127,
       "page_label": "TS III.113",
       "flags": [
-        "dropped-glyph",
         "tall-delimiter"
       ]
     },
@@ -55,114 +39,9 @@
       ]
     },
     {
-      "pdf_page": 161,
-      "page_label": "TS IV.148",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 172,
-      "page_label": "TS IV.159",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 179,
-      "page_label": "TS IV.166",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 181,
-      "page_label": "TS IV.168",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 188,
-      "page_label": "TS IV.175",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 189,
-      "page_label": "TS IV.176",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 190,
-      "page_label": "TS IV.177",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 215,
-      "page_label": "TS IV.202",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 220,
-      "page_label": "TS IV.207",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 230,
-      "page_label": "TS IV.217",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 294,
-      "page_label": "TS IV.281",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 296,
-      "page_label": "TS IV.283",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 299,
-      "page_label": "TS IV.286",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 300,
-      "page_label": "TS IV.287",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 325,
       "flags": [
         "empty"
-      ]
-    },
-    {
-      "pdf_page": 375,
-      "page_label": "TS IV.362",
-      "flags": [
-        "dropped-glyph"
       ]
     },
     {
@@ -184,34 +63,6 @@
       "page_label": "TS V.412",
       "flags": [
         "tall-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 442,
-      "page_label": "TS V.429",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 446,
-      "page_label": "TS V.433",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 465,
-      "page_label": "TS V.452",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 468,
-      "page_label": "TS V.455",
-      "flags": [
-        "dropped-glyph"
       ]
     },
     {

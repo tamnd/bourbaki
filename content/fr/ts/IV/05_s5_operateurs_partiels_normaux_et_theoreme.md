@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: cd9f2c4cca3689a0e1eb57176fb35797549b4b4eae82d601f9a240a7f73dff1b
+content_sha256: 2f7f9cf6fa80b7de735506cbb31887857f32a2629f75d5112061d22ef57bc896
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -801,7 +801,7 @@ $$
 pour tout $x\in \mathbf{R}$ et il existe un nombre réel $C\geqslant 0$ tel que
 
 $$
-\partial \widetilde{f}
+|\partial \widetilde{f}|
 $$
 
 $$
@@ -965,7 +965,7 @@ $$
 Soient $x\in \mathbf{R}$ et $\varepsilon  >0$. On a
 
 $$
-_2\int(\varrho_1(y;\varepsilon )\varrho_1(y;-\varepsilon ))_2\int^rdy
+|_2\int(\varrho_1(y;\varepsilon )\varrho_1(y;-\varepsilon ))|_2\int^rdy
 $$
 
 $$
@@ -1186,7 +1186,7 @@ Soit $\lambda \in \mathbf{C}-\mathbf{R}$. Par hypothèse, la suite des résolvan
 
 Pour tout $n\in \mathbf{N}$, on a
 
-$\partial \widetilde{f}$ 1 $\partial \widetilde{f}$
+$\|\partial \widetilde{f}\||$ 1 $\partial \widetilde{f}|$
 
 $$
 \overline{\partial z}(\lambda )R(u^n, \lambda )\leqslant \overline{\mathscr{I} (\lambda)}\overline{\partial z}(\lambda )
@@ -1194,7 +1194,7 @@ $$
 
 (prop. 17 de IV, p. 248) donc
 
-$\partial \widetilde{f}$ 1 $\partial \widetilde{f}$
+$\|\partial \widetilde{f}\||$ 1 $\partial \widetilde{f}|$
 
 $$
 \overline{\partial z}(\lambda )\varpi (R(u^n, \lambda ))_p\leqslant c\overline{\mathscr{I} (\lambda)}\overline{\partial z}(\lambda )

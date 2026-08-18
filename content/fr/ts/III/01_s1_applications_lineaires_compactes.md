@@ -41,7 +41,7 @@ subsections:
       pdf_page: 34
 statements: 57
 exercises: 37
-content_sha256: 91d8c514dda9fae918e96afa606b092676d2aecc7b83528c9f00a135f8a1ffc0
+content_sha256: 356fe9f57440abd05bdcbbf335b4142c69ee878c3bcc53204d1747f7ba684eb6
 ---
 
 ## § 1. APPLICATIONS LINÉAIRES COMPACTES
@@ -562,19 +562,15 @@ pour $f\in \mathscr{L}_K^p(X, \mu)$, où $\varphi_{K_i}$ est la fonction caract�
 
 Démontrons que $\|u_{\pi}\|\leqslant 1$. Pour $f\in \mathscr{L}_K^p(X, \mu)$, on a
 
-$n\int p$
-
-$\|u_{\pi}(f)\|^p_p=\sum\mu(K_i)^{1-p}f d\mu$.
-
-$i=1K_i$
+$$
+\|u_{\pi}(f)\|^p_p=\sum_{i=1}^n\mu(K_i)^{1-p}|\int_{K_i}f d\mu|^p
+$$
 
 D’après l’inégalité de Hölder (INT, IV, p. 208, § 6, n$^o4$, th. 2), on a pour tout $i$ l’inégalité
 
-$\int p\int$
-
-$f d\mu\leqslant \mu(K_i)^{p-1}|f|^pd\mu$,
-
-$K_iK_i$
+$$
+|\int_{K_i}f d\mu|^p\leqslant \mu(K_i)^{p-1}\int_{K_i}|f|^pd\mu
+$$
 
 d’où $\|u_{\pi}(f)\|_p\leqslant \|f\|_p$.
 

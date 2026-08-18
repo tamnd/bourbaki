@@ -1,43 +1,14 @@
 {
   "book": "ts-i-ii-fr",
   "pages": 346,
-  "clean": 323,
-  "flagged": 21,
+  "clean": 339,
+  "flagged": 5,
   "empty": 2,
   "reasons": {
-    "dropped-glyph": 18,
     "empty": 2,
     "tall-delimiter": 5
   },
   "flagged_pages": [
-    {
-      "pdf_page": 31,
-      "page_label": "TS I.18",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 72,
-      "page_label": "TS I.59",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 115,
-      "page_label": "TS I.102",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 129,
-      "page_label": "TS I.116",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
     {
       "pdf_page": 165,
       "flags": [
@@ -45,17 +16,9 @@
       ]
     },
     {
-      "pdf_page": 181,
-      "page_label": "TS I.168",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 219,
       "page_label": "TS II.207",
       "flags": [
-        "dropped-glyph",
         "tall-delimiter"
       ]
     },
@@ -67,27 +30,6 @@
       ]
     },
     {
-      "pdf_page": 230,
-      "page_label": "TS II.218",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 232,
-      "page_label": "TS II.220",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 233,
-      "page_label": "TS II.221",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 245,
       "page_label": "TS II.233",
       "flags": [
@@ -95,58 +37,9 @@
       ]
     },
     {
-      "pdf_page": 266,
-      "page_label": "TS II.254",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 267,
-      "page_label": "TS II.255",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
       "pdf_page": 272,
       "flags": [
         "empty"
-      ]
-    },
-    {
-      "pdf_page": 289,
-      "page_label": "TS II.277",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 299,
-      "page_label": "TS II.287",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 308,
-      "page_label": "TS II.296",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 313,
-      "page_label": "TS II.301",
-      "flags": [
-        "dropped-glyph"
-      ]
-    },
-    {
-      "pdf_page": 315,
-      "page_label": "TS II.303",
-      "flags": [
-        "dropped-glyph"
       ]
     },
     {
@@ -160,15 +53,7 @@
       "pdf_page": 324,
       "page_label": "TS II.312",
       "flags": [
-        "dropped-glyph",
         "tall-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 327,
-      "page_label": "TS II.315",
-      "flags": [
-        "dropped-glyph"
       ]
     }
   ],

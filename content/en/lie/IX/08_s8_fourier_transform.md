@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: b13b9ed9613c7bd66a8b27991afc9484e741ec478bff10547efbaab20cbb58f3
+content_sha256: 1036c88b1a45c1aa28d7892d52891ca42335972b92615fdb91f4157b4f293e36
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -375,7 +375,7 @@ _2\varepsilon_{u2}
 $$
 
 $$
-\|\overline{\mathscr{F}}(f)\|_2=\sum))))\langle \chi_u|f\rangle ))))_2=\sum|\langle \overline{\chi}_u|f\rangle |^2
+\|\overline{\mathscr{F}}(f)\|_2=\sum||||\langle \chi_u|f\rangle ||||_2=\sum|\langle \overline{\chi}_u|f\rangle |^2
 $$
 
 $$

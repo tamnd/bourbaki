@@ -69,7 +69,7 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: 429d9626557a5d846045bad91063a878866fdf9ffcee3d22785905b9f41545ff
+content_sha256: c44317eaaa570db1578f5cecf838d42c582adc0ccd7b7715130826c7c58c811f
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -503,7 +503,7 @@ $$
 En particulier, l’intégrale de la forme différentielle $f \omega$ sur U vérifie
 
 $$
-\int_Uf \omega \leqslant \int_U\|f\| \|\omega \|
+\|\int_Uf \omega \|\leqslant \int_U\|f\| \|\omega \|
 $$
 
 (INT, VI, §2, n$^o3$, prop. 5).
@@ -512,7 +512,7 @@ $$
 
 Pour toute fonction $f\in \mathscr{O}(U; A)$, l’intégrale $\int_Uf \omega$ est un élément de A qui ne dépend que de $\boldsymbol{a}$ et du germe de $f$ au voisinage de Sp$^n(\boldsymbol{a})$. Il vérifie l’inégalité
 
-(4) $\int f \omega \leqslant (\int\|\omega \|)$ sup $\|f(z)\|$,
+(4) $\|\int f \omega \|\leqslant (\int\|\omega \|)$ sup $\|f(z)\|$,
 
 U U $z\in$Supp($h$)
 
@@ -526,7 +526,7 @@ pour tout $a\in A$.
 
 On a vu ci-dessus que l’intégrale est définie pour $f\in \mathscr{C}(U; A)$ et vérifie
 
-$\int f \omega \leqslant \int\|f\| \|\omega \|\leqslant (\int\|\omega \|)$ sup $\|f(z)\|$.
+$\|\int f \omega \|\leqslant \int\|f\| \|\omega \|\leqslant (\int\|\omega \|)$ sup $\|f(z)\|$.
 
 U U U $z\in$Supp($h$)
 

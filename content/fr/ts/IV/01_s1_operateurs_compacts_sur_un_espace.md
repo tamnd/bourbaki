@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: 123e001390ace03276a6b6427b0178c5754477a4d3623d44c9a61b92a321a6ec
+content_sha256: a26c685a86ceacece536b7c51995a0d6c1dcec2f24626a86fa1705e52e965eea
 ---
 
 ## § 1. OPÉRATEURS COMPACTS SUR UN ESPACE HILBERTIEN
@@ -102,7 +102,7 @@ Soit $i\in I$. Pour tout $j\in I$, on a $\langle u^*(e_i)|e_j\rangle =\lambda_j\
 
 Soit $\lambda = (\lambda_i)_{i\in I}\in \mathscr{B}(I)$. Pour tout $x\in E$, la famille $(|\langle e_i|x\rangle |^2)_{i\in I}$ est sommable, de somme $\|x\|^2$ (EVT, V, p. 22, prop. 5), d’où, pour tout sous-ensemble fini J de I :
 
-$\sum_{i\in J}\lambda_ip_i(x)^2=\sum_{i\in J}|\lambda_i|^2|\langle e_i|x\rangle |^2\leqslant ($sup$_{i\in I}|\lambda_i|^2)(\sum_{j\in J}|\langle e_i|x\rangle |^2$
+$\|\sum_{i\in J}\lambda_ip_i(x)\|^2=\sum_{i\in J}|\lambda_i|^2|\langle e_i|x\rangle |^2\leqslant ($sup$_{i\in I}|\lambda_i|^2)(\sum_{j\in J}|\langle e_i|x\rangle |^2$
 
 $\leqslant ($sup$_{i\in I}|\lambda_i|)^2\|x\|^2$.
 
@@ -533,7 +533,7 @@ Soit F un espace hilbertien, et soit $u\in \mathscr{L}^c(E; F)$. Comme dans le n
 On a l’égalité
 
 $$
-\prod_{i=0}^n\alpha_i(u) =\wedge^{n+1}u
+\prod_{i=0}^n\alpha_i(u) =\|\wedge^{n+1}u\|
 $$
 
 pour tout $n\in I_E$.
@@ -833,7 +833,7 @@ Supposons que la famille $(\lambda_i)_{i\in I}$ est sommable. Pour tout $t\in \m
 Réciproquement, supposons que $n_t$ est fini pour tout $t\in \mathbf{C}^*$ et que la famille $(n_tt)_{t\in\mathbf{C}^*}$ est sommable. Soient J une partie finie de I et Λ l’ensemble des $\lambda_i$ pour $i\in J$. On a
 
 $$
-\sum_{i\in J}\lambda_i\leqslant \sum_{t\in\Lambda-\{0\}}n_t|t|\leqslant \sum_{t\in\mathbf{C}^*}n_t|t|
+|\sum_{i\in J}\lambda_i|\leqslant \sum_{t\in\Lambda-\{0\}}n_t|t|\leqslant \sum_{t\in\mathbf{C}^*}n_t|t|
 $$
 
 donc la famille $(\lambda_i)_{i\in I}$ est sommable (TG, VII, p. 17, corollaire).
@@ -878,7 +878,7 @@ $$
 
 pour tout $x$ dans E. On a $\|v_L\|\leqslant 1$ et $v_L\in \mathscr{L}_2(E; F)$. De plus, pour tout $j\in J$, on a $v_L(e_j) = 0$ si $j /\in L$ et $v_L(e_j) =f_j$ si $j\in L$. Ainsi
 
-$|\langle v_L|u\rangle |=|$Tr($v^*_Lu$)$|=\sum_{j\in J}\langle v_L(e_j)|u(e_j)\rangle =\sum_{j\in L}\alpha_j$.
+$|\langle v_L|u\rangle |=|$Tr($v^*_Lu$)$|=|\sum_{j\in J}\langle v_L(e_j)|u(e_j)\rangle |=\sum_{j\in L}\alpha_j$.
 
 D’après loc. cit., on en déduit que
 
@@ -901,7 +901,7 @@ $\langle v|p_i\rangle =$ Tr($v^*p_i$) $=\sum_{j\in J}\langle v(e_j)|p_i(e_j)\ran
 Si $\|v\|\leqslant 1$, on majore alors
 
 $$
-|\langle v|u\rangle |=\langle v|\sum_{i\in I}\alpha_ip_i\rangle \leqslant \sum_{i\in I}\alpha_i|\langle v|p_i\rangle |
+|\langle v|u\rangle |=|\langle v|\sum_{i\in I}\alpha_ip_i\rangle |\leqslant \sum_{i\in I}\alpha_i|\langle v|p_i\rangle |
 $$
 
 $=\sum_{i\in I}\alpha_i|\langle v(e_i)|f_i\rangle |\leqslant \sum_{i\in I}\alpha_i=$ Tr($|u|$),
@@ -1145,7 +1145,7 @@ Supposons que $u_N$ est de trace finie. Il existe alors un ensemble $\widetilde{
 (ii) Pour toute partie finie J de I et tout $(x, y)\in \widetilde{X}\times \widetilde{X}$, on a
 
 $$
-\sum_{i\in J}\alpha_ih_i(x, y)\leqslant H(x, y) \tag{14}
+|\sum_{i\in J}\alpha_ih_i(x, y)|\leqslant H(x, y) \tag{14}
 $$
 
 (iii) La fonction $x\mapsto H(x, x)$ appartient à $\mathscr{L}^1(X)$.
@@ -1181,13 +1181,13 @@ Démontrons que l’ensemble $\widetilde{X}$ et la fonction H vérifient les con
 Soit $(x, y)\in \widetilde{X}\times \widetilde{X}$. Pour tout sous-ensemble fini $J\subset I$, on a
 
 $$
-\sum_{i\in J}\alpha_i\overline{f_i(x)}g_i(y)\leqslant (\sum_{i\in J}\alpha_i|f_i(x)|^2)^{1/2}(\sum_{i\in J}\alpha_i|g_i(y)|^2)^{1/2} \tag{15}
+|\sum_{i\in J}\alpha_i\overline{f_i(x)}g_i(y)|\leqslant (\sum_{i\in J}\alpha_i|f_i(x)|^2)^{1/2}(\sum_{i\in J}\alpha_i|g_i(y)|^2)^{1/2} \tag{15}
 $$
 
 d’où également
 
 $$
-\sum_{i\in J}\alpha_i\overline{f_i(x)}g_i(y)\leqslant H(x, y) \tag{16}
+|\sum_{i\in J}\alpha_i\overline{f_i(x)}g_i(y)|\leqslant H(x, y) \tag{16}
 $$
 
 ce qui établit dores et déjà la propriété (ii).
@@ -1211,7 +1211,7 @@ $$
 (formule (12) de IV, p. 172). Pour tout $(x, y)\in \widetilde{X}\times \widetilde{X}$ et toute partie finie J de I, on a
 
 $$
-\sum_{i\in J}\alpha_i\overline{f_i(x)}g_i(y)f(x)\overline{g(y)}\leqslant |f(x)g(y)|H(x, y)
+|\sum_{i\in J}\alpha_i\overline{f_i(x)}g_i(y)f(x)\overline{g(y)}|\leqslant |f(x)g(y)|H(x, y)
 $$
 
 par la formule (16). Comme le membre de droite de cette inégalité est intégrable sur $X\times X$ (INT, V, p. 95, § 8, n$^o3$, cor. 2), on peut appliquer le théorème de Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6) et la formule (13) pour en déduire que

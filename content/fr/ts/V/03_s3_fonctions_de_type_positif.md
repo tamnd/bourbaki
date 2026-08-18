@@ -45,7 +45,7 @@ subsections:
       pdf_page: 467
 statements: 39
 exercises: 23
-content_sha256: 3c9cb85e21bfcdbaad233c7bf5fd5d8125ae708085b0d35a0968b94fa0fbcfb1
+content_sha256: 48a0c69783d21dc1e922968c43b164db0afee86ac1eb34810b196637066fb375
 ---
 
 ## § 3. FONCTIONS DE TYPE POSITIF
@@ -97,7 +97,7 @@ $$
 $$
 
 $$
-=\langle\int_Yh(x)g(x)d\mu(x)\int_Yh(y)g(y)d\mu(y)\rangle\geqslant 0
+=\langle\int_Yh(x)g(x)d\mu(x)|\int_Yh(y)g(y)d\mu(y)\rangle\geqslant 0
 $$
 
 d’après INT, V, p. 97, § 8, n$^o4$, prop. 9.
@@ -849,7 +849,7 @@ $$
 Soient $\varphi \in$ Pos$_1(G)$ et $x\in G$. D’après INT, VIII, p. 167, § 4, n$^o5$, prop. 14, on obtient
 
 $$
-|\psi *\varphi (x)-\varphi (x)|=\int_G(\varphi (y^{-1}x)-\varphi (x))\psi (y)d\mu(y)
+|\psi *\varphi (x)-\varphi (x)|=|\int_G(\varphi (y^{-1}x)-\varphi (x))\psi (y)d\mu(y)|
 $$
 
 $$
@@ -969,7 +969,7 @@ $$
 $$
 
 $$
-=\int_G\sum_{i\in I}\overline{t}_ix_i^2d\nu \geqslant 0
+=\int_G|\sum_{i\in I}\overline{t}_ix_i|^2d\nu \geqslant 0
 $$
 
 puisque $\nu$ est une mesure positive. La transformée de Fourier de $\nu$ est donc une fonction de type positif sur $\widehat{G}$ (th. 1 de V, p. 432, (ii)).

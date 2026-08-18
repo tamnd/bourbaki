@@ -1108,7 +1108,7 @@ books:
               statements: 9
               exercises: 6
               extraction: native
-              content_sha256: b13b9ed9613c7bd66a8b27991afc9484e741ec478bff10547efbaab20cbb58f3
+              content_sha256: 1036c88b1a45c1aa28d7892d52891ca42335972b92615fdb91f4157b4f293e36
             - kind: section
               section: 9
               title: Compact Lie groups operating on manifolds
@@ -1533,7 +1533,7 @@ books:
               statements: 28
               exercises: 37
               extraction: native
-              content_sha256: 1cb61757c0ffa23cd1a84ba2c42167c92c28844b6af03ea3db75c5ea9dfbbd57
+              content_sha256: 79f10eaab7729efb2457c83478ac149ad739b79ce2db530223584b3410ea0e46
             - kind: section
               section: 3
               title: Algèbres de Banach commutatives
@@ -1559,7 +1559,7 @@ books:
               statements: 55
               exercises: 18
               extraction: native
-              content_sha256: 429d9626557a5d846045bad91063a878866fdf9ffcee3d22785905b9f41545ff
+              content_sha256: c44317eaaa570db1578f5cecf838d42c582adc0ccd7b7715130826c7c58c811f
             - kind: section
               section: 5
               title: Algèbres de Banach commutatives régulières
@@ -1585,7 +1585,7 @@ books:
               statements: 94
               exercises: 32
               extraction: native
-              content_sha256: 6c8bb348dc538e5b70e61c4a9825afb915dc2f0c303db9896b1a70a54e57df6d
+              content_sha256: eda96f8a4a7ee0a7b5635072161aa4b57dbfec18bf02b9bf1160504d028dd361
             - kind: section
               section: 7
               title: Spectre des endomorphismes des espaces de Banach
@@ -1638,7 +1638,7 @@ books:
               statements: 95
               exercises: 68
               extraction: native
-              content_sha256: e97456b13371135b37b6c25588bca97d3335078de9c5d23f8e23b327887e6a43
+              content_sha256: 7f094078d4ace52e62888c753e42f17b637d10a30474b21c8028e1297eddcfbf
             - kind: section
               section: 2
               title: Classification
@@ -1664,7 +1664,7 @@ books:
               statements: 12
               exercises: 19
               extraction: native
-              content_sha256: 8e92a31999da37b616249a5f54740eae733b0d539c82ba4f537dfd554d8c9432
+              content_sha256: 45b0ebacea4aa7b5f645b3d603a60a7fc85246d9cc534cb5940459e838b9a605
     - id: ts-iii-v-fr
       chapters:
         - chapter: III
@@ -1693,7 +1693,7 @@ books:
               statements: 57
               exercises: 37
               extraction: native
-              content_sha256: 91d8c514dda9fae918e96afa606b092676d2aecc7b83528c9f00a135f8a1ffc0
+              content_sha256: 356fe9f57440abd05bdcbbf335b4142c69ee878c3bcc53204d1747f7ba684eb6
             - kind: section
               section: 2
               title: Exemples d’applications linéaires compactes
@@ -1732,7 +1732,7 @@ books:
               statements: 30
               exercises: 9
               extraction: native
-              content_sha256: edf886a429efe9a7bd4fd42ce4d4fec74a1bf8283e1bbb1a9003c9d84c39f157
+              content_sha256: 4ae99e0d0d6697eac780748b0a380ff0b9846ec8b9d54763970913cf5a633c37
             - kind: section
               section: 5
               title: Perturbation par une application linéaire compacte
@@ -1785,7 +1785,7 @@ books:
               statements: 66
               exercises: 22
               extraction: native
-              content_sha256: 123e001390ace03276a6b6427b0178c5754477a4d3623d44c9a61b92a321a6ec
+              content_sha256: a26c685a86ceacece536b7c51995a0d6c1dcec2f24626a86fa1705e52e965eea
             - kind: section
               section: 2
               title: Endomorphismes normaux
@@ -1811,7 +1811,7 @@ books:
               statements: 46
               exercises: 33
               extraction: native
-              content_sha256: 273a6b0c67b363bce01e72c27580bd6b534252082e802e75be5e6398236793d8
+              content_sha256: cfeab9bfc6816f62c2c2ab6c5e3a9db37795939c81ac453e94c4313de175e658
             - kind: section
               section: 4
               title: Opérateurs partiels
@@ -1837,7 +1837,7 @@ books:
               statements: 75
               exercises: 43
               extraction: native
-              content_sha256: cd9f2c4cca3689a0e1eb57176fb35797549b4b4eae82d601f9a240a7f73dff1b
+              content_sha256: 2f7f9cf6fa80b7de735506cbb31887857f32a2629f75d5112061d22ef57bc896
         - chapter: V
           title: REPRÉSENTATIONS UNITAIRES
           sections:
@@ -1877,7 +1877,7 @@ books:
               statements: 45
               exercises: 20
               extraction: native
-              content_sha256: 33189df98c4a7fe48564cb2d45ee89e8248ba9554949d3f80196ca5690e6af6e
+              content_sha256: cf514d90ec33cb4c1e920218093ef51623372d96cd14b4847e624e5faba258f1
             - kind: section
               section: 3
               title: Fonctions de type positif
@@ -1890,7 +1890,7 @@ books:
               statements: 39
               exercises: 23
               extraction: native
-              content_sha256: 3c9cb85e21bfcdbaad233c7bf5fd5d8125ae708085b0d35a0968b94fa0fbcfb1
+              content_sha256: 48a0c69783d21dc1e922968c43b164db0afee86ac1eb34810b196637066fb375
             - kind: section
               section: 4
               title: Représentations des groupes compacts

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 81
 statements: 30
 exercises: 9
-content_sha256: edf886a429efe9a7bd4fd42ce4d4fec74a1bf8283e1bbb1a9003c9d84c39f157
+content_sha256: 4ae99e0d0d6697eac780748b0a380ff0b9846ec8b9d54763970913cf5a633c37
 ---
 
 ## § 4. PERTURBATIONS DANS LES ESPACES DE BANACH
@@ -375,7 +375,7 @@ $$
 pour tout $z\in S$. Soit $z\in S$. On a $\varphi_x(z)\geqslant 0$ pour tout $x\in S$, et il existe $x\in S$ tel que $\varphi_x(z)>0$, puisque $\sum_{x\in S}\varphi_x(z) = 1$, donc
 
 $$
-\|z-f(z)\|=\sum_{x\in S}\varphi_x(z)(z-y(x))\leqslant \sum_{x\in S}\varphi_x(z)\|z-y(x)\|
+\|z-f(z)\|=\|\sum_{x\in S}\varphi_x(z)(z-y(x))\|\leqslant \sum_{x\in S}\varphi_x(z)\|z-y(x)\|
 $$
 
 $$
