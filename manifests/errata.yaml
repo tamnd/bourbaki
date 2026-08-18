@@ -300,3 +300,32 @@ contents:
           read: 'Tensor product of hilbertian spaces'
           why: The text layer of the printed contents, pdf page 368, reads the b of
             hilbertian as an h, as it does in the body on pdf page 264.
+    - book: lie-iv-vi
+      errata:
+        - says: '   L   Definitions'
+          read: '   1.  Definitions'
+          why: The text layer of the printed contents, pdf page 8, reads the 1 of no.
+            1 of the appendix to chapter IV as an L and swallows the period after it,
+            so the no. was dropped and no. 2 and no. 3 of the appendix were each
+            reported one place too early.
+        - says: 'maximal terms . . . . . . . . . . . . .                                     1%'
+          read: 'maximal terms . . . . . . . . . . . . .                                     195'
+          why: The text layer of the printed contents, pdf page 11, reads the page of
+            no. 2 of chapter VI § 3 as 1%. It is 195. No. 1 of the § is on 194 and no.
+            3 is on 196, and pdf 208, which the page map puts at printed 195, heads
+            CASE OF THE GROUP OF WEIGHTS with the number 2 in front of it.
+    - book: fvr-i-vii
+      errata:
+        - says: 'of Arc sin x .........   1   I   1'
+          read: 'of Arc sin x .........   111'
+          why: The text layer of the printed contents, pdf page 12, sets the page of
+            no. 4 of chapter III § 2 as three figures with two gaps in them, and reads
+            the middle 1 as an I. It is 111. No. 3 of the § is on 107, and pdf 126,
+            which the page map puts at printed 111, heads EXPANSIONS OF log(1 + x), OF
+            Arc tan x AND OF Arc sin x with the number 4 in front of it.
+        - says: 'APPENDIX          ..........'
+          read: 'APPENDIX. Hardy Fields. (H) Functions          ..........'
+          why: The printed contents, pdf page 13, gives the appendix of chapter V no
+            title. The volume gives it one. Printed page 247 heads APPENDIX and sets
+            Hardy Fields. (H) Functions under it, and the six nos the contents lists
+            for the appendix are the six nos of that page onwards.
