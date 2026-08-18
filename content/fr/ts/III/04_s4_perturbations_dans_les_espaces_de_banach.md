@@ -37,7 +37,7 @@ subsections:
       pdf_page: 81
 statements: 30
 exercises: 9
-content_sha256: 0daa57d63c279cdfc85a2dcec60d7842343ea5bccf4e92e052074a35fcd665f5
+content_sha256: 3bd2655538ea0fd366c1d478fd837c60b555fbf6a5cdd661a93717b8f558115d
 ---
 
 ## § 4. PERTURBATIONS DANS LES ESPACES DE BANACH
@@ -64,7 +64,7 @@ Soit F un sous-espace vectoriel de dimension finie de E. Notons S un supplément
 
 Soient E et F des espaces localement convexes et soit $u$ une application linéaire continue de E dans F. On dit que $u$ est un morphisme direct si $u$ est un morphisme strict dont le noyau est un sous-espace vectoriel direct de E et l’image un sous-espace vectoriel direct de F.
 
-Soit $u\in \mathscr{L}(E; F)$. Pour que le noyau et l’image de $u$ soient des sous-espaces vectoriels directs de E et F respectivement, il faut et il suffit qu’il existe des décompositions $E = E_1\oplus E_2$ et $F = F_1\oplus F_2$ en sommes directes topologiques telles que $u$ soit représenté par une matrice $^u_{0 0^1}^0$ où $u_1\in \mathscr{L}(E_1; F_1)$ est bijectif. Comme le noyau de $u$ est alors $E_2$, que l’application linéaire canonique de $E_1$ sur $E/E_2$ est un isomorphisme, et que l’image de $u$ est $F_1$, on voit que $u$ est un morphisme strict si et seulement si $u_1$ est un isomorphisme de $E_1$ sur $F_1$. Notons $v$ l’élément de $\mathscr{L}(F; E)$ représenté par la matrice $^{u^-_1}_{0^1}^0_0$ . Alors l’application linéaire $u\circ v$ est le projecteur dans F de noyau $F_2$ et d’image $F_1$, l’application linéaire $v\circ u$ est le projecteur dans E de noyau $E_2$ et d’image $E_1$, et l’on a $u\circ v\circ u=u$.
+Soit $u\in \mathscr{L}(E; F)$. Pour que le noyau et l’image de $u$ soient des sous-espaces vectoriels directs de E et F respectivement, il faut et il suffit qu’il existe des décompositions $E = E_1\oplus E_2$ et $F = F_1\oplus F_2$ en sommes directes topologiques telles que $u$ soit représenté par une matrice $\begin{pmatrix} u_1 & 0 \\ 0 & 0 \end{pmatrix}$ où $u_1\in \mathscr{L}(E_1; F_1)$ est bijectif. Comme le noyau de $u$ est alors $E_2$, que l’application linéaire canonique de $E_1$ sur $E/E_2$ est un isomorphisme, et que l’image de $u$ est $F_1$, on voit que $u$ est un morphisme strict si et seulement si $u_1$ est un isomorphisme de $E_1$ sur $F_1$. Notons $v$ l’élément de $\mathscr{L}(F; E)$ représenté par la matrice $\begin{pmatrix} u_1^{-1} & 0 \\ 0 & 0 \end{pmatrix}$ . Alors l’application linéaire $u\circ v$ est le projecteur dans F de noyau $F_2$ et d’image $F_1$, l’application linéaire $v\circ u$ est le projecteur dans E de noyau $E_2$ et d’image $E_1$, et l’on a $u\circ v\circ u=u$.
 
 Réciproquement, on a le résultat suivant :
 
@@ -130,18 +130,18 @@ Soient E et F des espaces de Banach, $u_0: E\rightarrow F$ une application de Fr
 
 (iii) Pour tout $u$ dans U, on a ind($u$) $=$ ind($u_0$).
 
-D’après la prop. 2 de III, p. 42, (ii), il existe des décompositions en somme directe topologique $E = E_1\oplus E_2$ et $F = F_1\oplus F_2$, et il existe $\alpha_0\in \mathscr{I}(E_1; F_1)$, tels que $E_2$ et $F_2$ soient de dimension finie et que $u_0$ soit représentée par la matrice $^{\alpha}_{0 0^0}^0$ relativement à ces décompositions.
+D’après la prop. 2 de III, p. 42, (ii), il existe des décompositions en somme directe topologique $E = E_1\oplus E_2$ et $F = F_1\oplus F_2$, et il existe $\alpha_0\in \mathscr{I}(E_1; F_1)$, tels que $E_2$ et $F_2$ soient de dimension finie et que $u_0$ soit représentée par la matrice $\begin{pmatrix} \alpha_0 & 0 \\ 0 & 0 \end{pmatrix}$ relativement à ces décompositions.
 
 Soit U l’ensemble des éléments $u$ de $\mathscr{L}(E; F)$ tels que, dans la représentation matricielle $\begin{pmatrix} \alpha & \beta \\ \gamma & \delta \end{pmatrix}$ de $u$ par rapport à ces décompositions, on a $\alpha \in \mathscr{I}(E_1; F_1)$. Comme $\mathscr{I}(E_1; F_1)$ est ouvert dans $\mathscr{L}(E_1; F_1)$ (prop. 3 de III, p. 57), U est un voisinage ouvert de $u_0$ dans $\mathscr{L}(E; F)$. Pour $u=\begin{pmatrix} \alpha & \beta \\ \gamma & \delta \end{pmatrix}$ dans U, posons
 
 $$
-\varphi (u) =v_0+^{\alpha^{-1}-}_0^{\alpha^-_0^10}_0 \tag{1}
+\varphi (u) =v_0+\begin{pmatrix} \alpha^{-1}-\alpha_0^{-1} & 0 \\ 0 & 0 \end{pmatrix} \tag{1}
 $$
 
 On a $\varphi (u_0) =v_0$ et l’application $\varphi$ est analytique (loc. cit.). Modulo les applications linéaires continues de rang fini, on a les congruences
 
 $$
-u\equiv \begin{pmatrix} \alpha & 0 \\ 0 & 0 \end{pmatrix},v_0\equiv^{\alpha^-_0}_{0^1}^0_0,\varphi (u)\equiv^{\alpha}_{\overset{-1}{0}}^0_0
+u\equiv \begin{pmatrix} \alpha & 0 \\ 0 & 0 \end{pmatrix},v_0\equiv \begin{pmatrix} \alpha_0^{-1} & 0 \\ 0 & 0 \end{pmatrix},\varphi (u)\equiv \begin{pmatrix} \alpha^{-1} & 0 \\ 0 & 0 \end{pmatrix}
 $$
 
 Par suite, $\varphi (u)$ est un quasi-inverse de $u$. Tout élément $u$ de U définit par restriction un isomorphisme de $E_1$ sur un supplémentaire topologique de $F_2$ dans F. D’après la prop. 3 de III, p. 44, on a donc
