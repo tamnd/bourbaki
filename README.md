@@ -112,7 +112,25 @@ imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet che
 | Theory of Sets | I | 6 of 6 | 16 | 35 | 51 | 50 |
 | Theory of Sets | II | 6 of 6 | 109 | 41 | 150 | 65 |
 | Theory of Sets | III | 7 of 7 | 222 | 120 | 342 | 127 |
-| Theory of Sets | IV | 3 of 3 | 28 | 15 | 43 | 119 |
+| Theory of Sets | IV | 3 of 3 | 28 | 15 | 43 | 147 |
+| Topological Vector Spaces | I | 0 of 3 | 0 | 0 | 0 | 0 |
+| Topological Vector Spaces | II | 0 of 8 | 0 | 0 | 0 | 0 |
+| Topological Vector Spaces | III | 0 of 6 | 0 | 0 | 0 | 0 |
+| Topological Vector Spaces | IV | 0 of 6 | 0 | 0 | 0 | 0 |
+| Topological Vector Spaces | V | 0 of 4 | 0 | 0 | 0 | 0 |
+| Functions of a Real Variable | I | 0 of 4 | 0 | 0 | 0 | 0 |
+| Functions of a Real Variable | II | 0 of 3 | 0 | 0 | 0 | 0 |
+| Functions of a Real Variable | III | 0 of 2 | 0 | 0 | 0 | 0 |
+| Functions of a Real Variable | IV | 0 of 2 | 0 | 0 | 0 | 0 |
+| Functions of a Real Variable | V | 0 of 5 | 0 | 0 | 0 | 0 |
+| Functions of a Real Variable | VI | 0 of 3 | 0 | 0 | 0 | 0 |
+| Functions of a Real Variable | VII | 0 of 2 | 0 | 0 | 0 | 0 |
+| Integration | VII | 0 of 5 | 0 | 0 | 0 | 0 |
+| Integration | VIII | 0 of 5 | 0 | 0 | 0 | 0 |
+| Integration | IX | 0 of 7 | 0 | 0 | 0 | 0 |
+| Lie Groups and Lie Algebras | IV | 0 of 3 | 0 | 0 | 0 | 0 |
+| Lie Groups and Lie Algebras | V | 0 of 7 | 0 | 0 | 0 | 0 |
+| Lie Groups and Lie Algebras | VI | 0 of 4 | 0 | 0 | 0 | 0 |
 | Lie Groups and Lie Algebras | VII | 7 of 7 | 139 | 66 | 205 | 66 |
 | Lie Groups and Lie Algebras | VIII | 13 of 13 | 299 | 172 | 471 | 211 |
 | Lie Groups and Lie Algebras | IX | 11 of 11 | 244 | 112 | 356 | 152 |
@@ -120,15 +138,19 @@ imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet che
 | Topologie algébrique | II | 0 of 5 | 0 | 0 | 0 | 78 |
 | Topologie algébrique | III | 0 of 5 | 0 | 0 | 0 | 110 |
 | Topologie algébrique | IV | 0 of 6 | 0 | 0 | 0 | 158 |
+| General Topology | I | 0 of 11 | 0 | 0 | 0 | 0 |
+| General Topology | II | 0 of 4 | 0 | 0 | 0 | 0 |
+| General Topology | III | 0 of 7 | 0 | 0 | 0 | 0 |
+| General Topology | IV | 0 of 8 | 0 | 0 | 0 | 0 |
 | Théories spectrales | I | 0 of 8 | 0 | 0 | 0 | 197 |
 | Théories spectrales | II | 0 of 3 | 0 | 0 | 0 | 136 |
 | Théories spectrales | III | 0 of 6 | 0 | 0 | 0 | 143 |
 | Théories spectrales | IV | 0 of 5 | 0 | 0 | 0 | 228 |
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 
-78 of 190 sections are in the corpus, 41 per cent. 1767 statements and 878 exercises, 2645 of them carrying a permanent tag.
+78 of 299 sections are in the corpus, 26 per cent. 1767 statements and 878 exercises, 2645 of them carrying a permanent tag.
 
-The table is one row per chapter of the volumes that have a table of contents. 34 further volumes and 10509 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
+The table is one row per chapter of the volumes that have a table of contents. 29 further volumes and 8698 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
 <!-- END COVERAGE -->
 
 ## Building it
