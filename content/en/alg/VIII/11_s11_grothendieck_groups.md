@@ -62,7 +62,7 @@ subsections:
       pdf_page: 221
 statements: 38
 exercises: 14
-content_sha256: 7a5f9f7f9332f76f1c0143d89f88998a0c931d7e240d1da44a27f8bd5201a27f
+content_sha256: a34fd860d07a854d2a5516e7603963d0a7bce53c39715e1e511537e9451a1c72
 ---
 
 ## § 11. GROTHENDIECK GROUPS
@@ -849,28 +849,14 @@ $$
 
 Suppose that A and B are finite-dimensional algebras over a commutative field K and that $f$ is K-linear. As before, there exist integers $m\geqslant 1$ and $n\geqslant 1$, K-algebras D and E that are fields, and K-algebra isomorphisms from A to $\mathbf{M}_m(D)$ and from B to $\mathbf{M}_n(E)$. Set $d= [D : K]$ and $e= [E : K]$. We then have the relations
 
-$_2$ 2 $n^2e$
-
 $$
-[A : K] =md ,[B : K] =ne ,[B : A]_s=
-$$
-
-$$
-m^2d
+[A : K] =m^2d ,[B : K] =n^2e ,[B : A]_s=\frac{n^2e}{m^2d}
 $$
 
 and, by formulas (30) and (32), the relations
 
 $$
-nne
-$$
-
-$$
-i(f) =,h(f) =
-$$
-
-$$
-mmd
+i(f) =\frac{n}{m},h(f) =\frac{ne}{md}
 $$
 
 When the field K is algebraically closed, we have $d=e= 1$ and therefore $i(f) =h(f)$ and $[B : A]_s=i(f)^2$.

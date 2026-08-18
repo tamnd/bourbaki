@@ -53,7 +53,7 @@ subsections:
       pdf_page: 300
 statements: 63
 exercises: 14
-content_sha256: 4629d8bc1f634c1c9d8589147d0df3bc49b3178a7febe37124263ee7538ca447
+content_sha256: 9d4ba1caa78b6c3f91fdc814bb4e13612ac3be4bd5c29d0cb0bf80ad8f1cf93a
 ---
 
 ## § 2. HOMOTOPIE ET CHEMINS
@@ -82,7 +82,7 @@ Son origine est l’origine de $c$, son terme celle de $d$.
 
 Soit $c$ un chemin dans X ; on appelle chemin opposé à $c$ et on note $\overline{c}$le chemin défini par $\overline{c}(t) =c(1-t)$ pour $t\in \mathbf{I}$.
 
-Si $c$ et $d$ sont deux chemins juxtaposables dans X$,\overline{d}$ et $\overline{c}$ le sont, et l’on a $\overline{c*d}=\overline{d}*\overline{c}$. Pour tout chemin $c$ dans X, on a $\overline{\overline{c}}=c$.
+l’on aSi $cc$et$*dd=$sont deux chemins juxtaposables dans$\overline{d}*\overline{c}$. Pour tout chemin $c$ dans X, on aX$,\overline{\overline{\overline{c}}d}=$et$c\overline{c.}$ le sont, et
 
 #### Remarque 1 {#ta-iii-s2-n1-rem-1 .statement tag=01WP}
 
@@ -118,13 +118,7 @@ Notons C le produit fibré $(\Lambda (X), e)\times_X(\Lambda (X), o)$. Notons $\
 
 Soit $g$ un chemin dans X ; pour $t\in \mathbf{I}$, posons
 
-$$
-t1 +t
-$$
-
-$c_g(t) =g()$ et $d_g(t) =g()$.
-
-2 2
+$c_g(t) =g(\frac{t}{2})$ et $d_g(t) =g(\frac{1 + t}{2})$.
 
 Les applications $c_g$ et $d_g$ ainsi définies sont des chemins juxtaposables dans X et l’on a $c_g*d_g=g$. En outre, les applications $g\mapsto c_g$ et $g\mapsto d_g$ sont des applications continues de l’espace Λ(X) dans lui-même (prop. 1). Il en résulte que l’application $\gamma$ est un homéomorphisme.
 
@@ -403,11 +397,7 @@ Notons $p_n$ la projection canonique de $C_{n+1}$ sur $C_n$. La suite C = $(C_n,
 Soit K l’ensemble triadique de Cantor (TG, IV, p. 9, exemple). Pour tout $n\geqslant 0$, posons $J_n=\{0,1\}$ et définissons une application $K_n$ de l’ensemble $C_n= J_0\times  \cdots  \times J_n$ dans l’ensemble des intervalles fermés de $[0,1]$ de la manière suivante : on pose $K_0(0) = [0,\frac{1}{3}]$ et $K_0(1) = [\frac{2}{3},1]$; pour tout $n\geqslant 0$ et tout $c\in C_n,K_{n+1}(c,0)$ et $K_{n+1}(c,1)$ sont respectivement le « tiers gauche » et le « tiers droit » de $K_n(c)$. Si $c= (j_0, j_1, . . . , j_n)\in C_n,K_n(c)$ est l’intervalle noté $K_{n,p}$ dans loc. cit., avec $p= 2^nj_0+2^{n-1}j_1+\cdots +j_n+1$, c’est aussi l’intervalle $[a, a+\frac{1}{3^{n+1}}]$, où $a= 2(\frac{j_0}{3}+\frac{j_1}{3^2}+\cdots +\frac{j_n}{3^{n+1}})$. Pour $n\geqslant 0$ et $c\in C_n$, posons $\varphi_n(c) = K_n(c)\cap K$. La famille $(\varphi_n(c))_{c\in C_n}$ est une partition de K formée d’ensembles fermés. Ces ensembles sont donc aussi ouverts dans K; ils sont non vides et de diamètre $\frac{1}{3^{n+1}}$, car les extrémités des intervalles $K_n(c)$ appartiennent à K. La suite $C = (C_n, p_n)_{n\geqslant 0}$, où $p_n: C_{n+1}\rightarrow C_n$ est la projection canonique $(c, j)\mapsto c$, est un crible, et l’espace topologique associé à ce crible s’identifie à $\{0,1\}^{\mathbf{N}}$. Le crible C et la suite d’applications $(\varphi_n)_{n\geqslant 0}$ définissent un criblage strict de l’espace métrique K. L’application $f:\{0,1\}^{\mathbf{N}}\rightarrow K$ déduite de ce criblage est un homéomorphisme, donné par la formule
 
 $$
-f((j_n)_{n\geqslant 0}) = 2\sum^{\infty}j^n
-$$
-
-$$
-n=03n+1
+f((j_n)_{n\geqslant 0}) = 2\sum_{n=0}^{\infty}\frac{j_n}{3^{n+1}}
 $$
 
 #### Corollaire {#ta-iii-s2-n6-cor-1 .statement tag=01XR}

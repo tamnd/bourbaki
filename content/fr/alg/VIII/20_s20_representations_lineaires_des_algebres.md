@@ -45,7 +45,7 @@ subsections:
       pdf_page: 382
 statements: 31
 exercises: 6
-content_sha256: 7a92452973fdef928b4244179907dede740b0805ce3108c8023ba23ebd17bfe1
+content_sha256: b36e4b1410dc3cefb0976e0984c751eb24c365053ff6731287bf26d13ac7434a
 ---
 
 ## § 20. REPRÉSENTATIONS LINÉAIRES DES ALGÈBRES
@@ -424,13 +424,7 @@ Soient E et F des A-modules semi-simples de dimension finie sur K et soit $\math
 
 Soit $a$ un élément de $\mathscr{A}$. Les polynômes caractéristiques de $a_E$ et $a_F$ ont le même degré, donc la dimension de E est égale à celle de F ; notons-la $n$. Soit Pc$_E(a; T)$ le polynôme caractéristique de $a_E$. On a dans K(T) les égalités
 
-$$
-()-_n(-1-)-_n(-1)
-$$
-
-$\chi_E(a; T) =$ det $1 +a_ET$ = ( T) det $a_E$ = ( T) Pc$_Ea$;
-
-T T
+$\chi_E(a; T) =$ det$(1 +a_ET)= (-T)^n$ det$(\frac{-1}{T}-a_E)= (-T)^n$ Pc$_E(a;\frac{-1}{T})$
 
 et $\chi_F(a; T)$ est donné par une formule analogue. Vu les hypothèses faites, on a $\chi_E(a; T) =\chi_F(a; T)$. D’après le th. 2, on a [E] = [F] et cela implique que E et F sont isomorphes (VIII, p. 186, cor. de la prop. 7).
 

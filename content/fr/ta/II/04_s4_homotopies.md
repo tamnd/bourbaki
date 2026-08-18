@@ -33,7 +33,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 0
-content_sha256: caa1a84b6b9dad3fadb5cc235ba1376df57f7782b9ed6414993cb68f9a306f70
+content_sha256: ad2db0ede66b25e39ae9879715c2ffe038c845224791e3501e525cfaa357935d
 ---
 
 ## § 4. HOMOTOPIES
@@ -228,10 +228,8 @@ d) Pour tout $a\in$ Som(H), on a $\eta (h(a))k(\psi (a)) =k(\varphi (a))\eta '(h
 
 Considérons un diagramme
 
-H $^{\varphi}$ G
-
 $$
-u^{\psi}_v \tag{4}
+uH^{\varphi}_{\psi}G_v \tag{4}
 $$
 
 $$
@@ -242,11 +240,7 @@ où H, $H'$, G, $G'$ sont des groupoïdes et $u,v,\varphi ,\psi ,\varphi ',\psi 
 
 Notons $\alpha$ le morphisme canonique de G dans le cohomotopeur Coh($\varphi , \psi$ ) et $h$ l’homotopie canonique reliant $\alpha \circ \varphi$ à $\alpha \circ \psi$; définissons de façon analogue $\alpha '$ et $h'$. Alors, $\alpha '\circ v$ est un morphisme de groupoïdes de G dans Coh($\varphi ', \psi '$) et $h'\circ$ Som($u$) est une homotopie reliant $\alpha '\circ \varphi '\circ u$ à $\alpha '\circ \psi '\circ u$, c’est-à-dire $\alpha '\circ v\circ \varphi$ à $\alpha '\circ v\circ \psi$. D’après la propriété universelle des cohomotopeurs (II, p. 185, prop. 3), il existe un unique morphisme de groupoïdes $w$ de Coh($\varphi , \psi$ ) dans Coh($\varphi ', \psi '$) tel que $w\circ \alpha =\alpha '\circ v$ et Fl($w$)$\circ h=h'\circ$ Som($u$). Nous avons en particulier étendu le diagramme (4) en un diagramme
 
-H $^{\varphi}$ G $^{\alpha}$ Coh($\varphi , \psi$ )
-
-$$
-u^{\psi}_vw \tag{5}
-$$
+(5) $uH^{\varphi}_{\psi}G_v^{\alpha}$ Coh($\varphi , \psi_w$ )
 
 ${H'}^{\varphi'}_{\psi'}{G'}^{\alpha'}$ Coh($\varphi ', \psi '$)
 
@@ -266,9 +260,7 @@ Alors, le morphisme de groupoïdes $w:$ Coh($\varphi , \psi$ )$\rightarrow$ Coh(
 
 Soit $G''$ le groupoïde déduit de $G'$ par contraction des flèches d’une forêt orientée maximale. Le morphisme canonique $v': G'\rightarrow G''$ est un homotopisme (II, p. 184, corollaire 2 de la prop. 1). Les deux diagrammes
 
-H $^{\varphi}$ G ${H'}^{\varphi'}G'$
-
-$u\psi v'\circ v$ et Id$_{H'}\psi 'v'$
+$_uH^{\varphi}_{\psi}G_{v'\circ v}$ et $_{Id_{H'}}{H'}^{\varphi'}_{\psi'}G'_{v'}$
 
 $$
 H'vv''\circ \circ \psi \varphi ''G'H'vv''\circ \circ \psi \varphi ''G''
@@ -300,9 +292,7 @@ Soit $g'\in$ Coh($\varphi ', \psi '$)$_{u(a)}$. Soit $g$ une flèche de Coh($\va
 
 c) Démontrons que, pour tout sommet $a$ de G, l’homomorphisme $w_a$ est injectif. En considérant successivement les diagrammes
 
-H $^{\varphi}$ G H $^{v\circ\varphi}G'$
-
-Id$_H\psi v$ et $uv\circ \psi$ Id$_{G'}$
+$_{Id_H}H^{\varphi}_{\psi}G_v$ et $_uH^v_v^{\circ}_{\circ}^{\varphi}_{\psi}G'_{Id_{G'}}$
 
 H $^v_{v\circ}^{\circ\varphi}_{\psi}G'{H'}^{\varphi'}_{\psi'}G'$
 
@@ -472,13 +462,9 @@ $H_{B\psi''}^{\varphi''}G_A^{\alpha''}$ Coh($\varphi '', \psi ''$)
 
 $w'$
 
-(9) H $^{\varphi'}G_A^{\alpha'}$ Coh($\varphi '', \psi ''$)
+(9) H $^{\varphi'}_{\psi'}G_A^{\alpha'}$ Coh($\varphi '', \psi ''$)
 
-$\psi '$
-
-$$
-vw
-$$
+$vw$
 
 H $^{\varphi}_{\psi}$ G $^{\alpha}$ Coh($\varphi , \psi$ ) .
 

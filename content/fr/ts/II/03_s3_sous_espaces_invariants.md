@@ -25,7 +25,7 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 19
-content_sha256: 45b0ebacea4aa7b5f645b3d603a60a7fc85246d9cc534cb5940459e838b9a605
+content_sha256: fc801fff7d963c5f988c7cc53a7dd425d010b1aa953442dc1ff0f8a2fd806ff4
 ---
 
 ## § 3. SOUS-ESPACES INVARIANTS
@@ -124,28 +124,14 @@ $x\in M$ et $y\in V =\Rightarrow  |g(y^{-1}x)-g(x)|\leqslant \varepsilon$.
 
 Soient $\varphi$ la fonction caractéristique de V et $\mu=\int\varphi (x)dx$. Pour tout $x\in G$, on a
 
-1 $1\int_{-1}1\int_{-1}$
-
 $$
-(\varphi *g)(x) =g(yx)dy=g(x) +(g(yx)-g(x))dy
-$$
-
-$$
-\mu\mu_V\mu_V
+\frac{1}{\mu}(\varphi *g)(x) =\frac{1}{\mu}\int_Vg(y^{-1}x)dy=g(x) +\frac{1}{\mu}\int_V(g(y^{-1}x)-g(x))dy
 $$
 
 Donc pour tout $x\in M$, on a
 
 $$
-|1|
-$$
-
-$$
-(\varphi *g)(x)-g(x)\leqslant \varepsilon
-$$
-
-$$
-\mu
+|\frac{1}{\mu}(\varphi *g)(x)-g(x)|\leqslant \varepsilon
 $$
 
 Comme, d’après a), la limite de $\varphi *g$ selon Φ est nulle, on a lim sup$_{\Phi}|g|\leqslant \varepsilon$. Puisque $\varepsilon$ est arbitraire, on conclut que la limite de $g$ selon Φ est nulle, ce qui prouve b).
@@ -167,53 +153,29 @@ c) pour tout $x\in K$, on a $\|j-j*\varepsilon_x\|_1\leqslant \eta$.
 L’ensemble $U_1$ des éléments $\widehat{x}\in \widehat{G}$ tels que
 
 $$
-\eta
+|\langle \widehat{x}, x\rangle  -1|\leqslant \frac{\eta}{4}
 $$
-
-$$
-|\langle \widehat{x}, x\rangle  -1|\leqslant
-$$
-
-4
 
 pour tout $x\in$ K est un voisinage de $e$ dans $\widehat{G}$. Soit U $\subset U_1$ un voisinage ouvert, symétrique, et intégrable pour la mesure de Haar $m=d\widehat{x}$ de $\widehat{G}$ duale de la mesure $dx$. Soit $V\subset U$ un voisinage compact symétrique de $e$ tel que $m(V)\geqslant \frac{1}{2}m(U)$. Notons $\varphi_U$ (resp. $\varphi_V)$ la fonction caractéristique de U (resp. de V). Puisque $\varphi_U$ appartient à $L^2(G)$, il existe $u\in L^2(G)$ telle que $\varphi_U=\mathscr{F}_G(u)$ (th. 1 de II, p. 215). De même, il existe une fonction $v\in L^2(G)$ telle que $\varphi_V=\mathscr{F}_G(v)$. Nous allons montrer que la fonction $j=\frac{1}{m(V)}uv$ vérifie les propriétés demandées. On a $j\in L^1(G)$.
 
 a) D’après le théorème de Plancherel et la condition $m(V)\geqslant \frac{1}{2}m(U)$, on a
 
 $$
-\|u\|_2\|v\|_2\|\mathscr{F}_G(u)\|_2\|\mathscr{F}_G(v)\|_2\surd\overline{m(U)m(V)}\surd
-$$
-
-$\|j\|_1\leqslant$ = = $\leqslant 2$.
-
-$$
-m(V)m(V)m(V)
+\|j\|_1\leqslant \frac{\|u\|_2\|v\|_2}{m(V)}=\frac{\|\mathscr{F}_G(u)\|_2\|\mathscr{F}_G(v)\|_2}{m(V)}=\surd\overline{mm(U)(V)m(V)}\leqslant \surd \overline{2}
 $$
 
 b) Il existe un voisinage W de $e$ dans $\widehat{G}$ tel que WV $\subset U$ (TG, II, p. 31, prop. 4). Pour tout $\widehat{x}\in W$, on a $\widehat{x}V\subset U$, et la prop. 14 de II, p. 223 implique
 
-$\mathscr{F}_G(j)(\widehat{x}) =$ 1 $(\mathscr{F}_G(u)*\mathscr{F}_G(v))(\widehat{x})$
-
 $$
-m(V)
-$$
-
-1 $\int_{-1}$
-
-= $\varphi_U(\widehat{y})\varphi_V(\widehat{y}\widehat{x})dm(\widehat{y})$
-
-$$
-m(V)_{\widehat{G}}
+\mathscr{F}_G(j)(\widehat{x}) =\frac{1}{m(V)}(\mathscr{F}_G(u)*\mathscr{F}_G(v))(\widehat{x})
 $$
 
 $$
-m(U\cap \widehat{x}V^{-1})m(\widehat{x}V)
+=\frac{1}{m(V)}\int_{\widehat{G}}\varphi_U(\widehat{y})\varphi_V(\widehat{y}^{-1}\widehat{x})dm(\widehat{y})
 $$
 
-= = = 1
-
 $$
-m(V)m(V)
+=\frac{m(U \cap\widehat{x}V^{-1})}{m(V)}=\frac{m(\widehat{x}V)}{m(V)}= 1
 $$
 
 puisque V est symétrique.
@@ -221,43 +183,17 @@ puisque V est symétrique.
 c) Si $x\in K$, on a
 
 $$
-\|u-u*\varepsilon_x\|^2_2=\int|\mathscr{F}_G(u)(\widehat{x})(1- \langle x,\widehat{x}\rangle )||^2dm(\widehat{x})\leqslant m(U)(\eta )^2
+\|u-u*\varepsilon_x\|^2_2=\int_{\widehat{G}}|\mathscr{F}_G(u)(\widehat{x})(1- \langle x,\widehat{x}\rangle )||^2dm(\widehat{x})\leqslant m(U)(\frac{\eta}{4})^2
 $$
-
-$_{\widehat{G}}$ 4
 
 puisque $U\subset U_1$, et de même $\|v-v*\varepsilon_x\|^2_2\leqslant m(V)(\frac{\eta}{4})^2$. Donc
 
-1
-
 $$
-\|j-j*\varepsilon_x\|_1=\|u(v-v*\varepsilon_x) + (v*\varepsilon_x)(u-u*\varepsilon_x)\|_1
+\|j-j*\varepsilon_x\|_1=\frac{1}{m(V)}\|u(v-v*\varepsilon_x) + (v*\varepsilon_x)(u-u*\varepsilon_x)\|_1
 $$
 
 $$
-m(V)
-$$
-
-$$
-\eta \surd\surd
-$$
-
-$$
-\leqslant (\|u\|_2m(V) +\|v\|_2\overline{m(U)})
-$$
-
-$$
-4m(V)
-$$
-
-$$
-\eta \surd\overline{m(U)m(V)}
-$$
-
-= $< \eta$.
-
-$$
-2m(V)
+\leqslant =\frac{\eta}{4\eta m\surd(V)m2}m(U)((V)\|mu\|(V)_2\surd m< \eta .(V) +\|v\|_2\surd\overline{m(U)})
 $$
 
 #### Proposition 3 {#ts-ii-s3-prop-3 .statement tag=02NA}
@@ -270,26 +206,14 @@ Supposons maintenant que $\chi$ est non nul, donc $\chi \in \mathsf{X}(L^1(G)) =
 
 Soit $K_n$ une partie compacte de G telle que
 
-$\int$ 1
-
 $$
-|f(x)|dx\leqslant
-$$
-
-$$
-_{G-K_n}n
+\int_{G-K_n}|f(x)|dx\leqslant \frac{1}{n}
 $$
 
 Soit $u_n\in L^1(G)$ une fonction $\geqslant 0$ telle que $\|u_n\|_1= 1$ et
 
-1
-
 $$
-\|f-f*u_n\|_1\leqslant
-$$
-
-$$
-n
+\|f-f*u_n\|_1\leqslant \frac{1}{n}
 $$
 
 (cf. prop. 8 de II, p. 211, (iii)). D’après le lemme$\surd$ 2, il existe une fonction $j_n$ dans $L^1(G)$ telle que $\|j_n\|_1\leqslant \overline{2}$, dont la cotransformée de Fourier vaut 1 au voisinage de $e$, et de plus telle que $\|j_n-j_n*\varepsilon_x\|_1\leqslant n^{-1}$ pour tout $x\in K_n$. On pose

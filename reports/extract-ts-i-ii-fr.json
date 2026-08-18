@@ -1,18 +1,47 @@
 {
   "book": "ts-i-ii-fr",
   "pages": 346,
-  "clean": 339,
-  "flagged": 5,
+  "clean": 326,
+  "flagged": 18,
   "empty": 2,
   "reasons": {
     "empty": 2,
+    "stacked-rows": 13,
     "tall-delimiter": 5
   },
   "flagged_pages": [
     {
+      "pdf_page": 108,
+      "page_label": "TS I.95",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 129,
+      "page_label": "TS I.116",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 131,
+      "page_label": "TS I.118",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
       "pdf_page": 165,
       "flags": [
         "empty"
+      ]
+    },
+    {
+      "pdf_page": 172,
+      "page_label": "TS I.159",
+      "flags": [
+        "stacked-rows"
       ]
     },
     {
@@ -37,9 +66,72 @@
       ]
     },
     {
+      "pdf_page": 267,
+      "page_label": "TS II.255",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
       "pdf_page": 272,
       "flags": [
         "empty"
+      ]
+    },
+    {
+      "pdf_page": 283,
+      "page_label": "TS II.271",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 291,
+      "page_label": "TS II.279",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 296,
+      "page_label": "TS II.284",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 301,
+      "page_label": "TS II.289",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 306,
+      "page_label": "TS II.294",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 308,
+      "page_label": "TS II.296",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 309,
+      "page_label": "TS II.297",
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 314,
+      "page_label": "TS II.302",
+      "flags": [
+        "stacked-rows"
       ]
     },
     {

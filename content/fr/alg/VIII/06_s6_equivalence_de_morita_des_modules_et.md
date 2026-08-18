@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 41
 exercises: 8
-content_sha256: a3a9d501b7ae8f988d32ae3a5ff923fd2227e02f036ea6afb3af4ae5f3910528
+content_sha256: 0bd934e3e12057b271939ac9530977c7e116ce655a7456f55151acbed2f751f9
 ---
 
 ## § 6. ÉQUIVALENCE DE MORITA DES MODULES ET DES ALGÈBRES
@@ -568,9 +568,7 @@ $Q\otimes_AP\otimes_B{V'}^{1_Q\otimes 1_P\otimes f}/$/ $Q\otimes_AP\otimes_BV^{1
 
 $\theta \otimes 1_{V'}\theta \otimes 1_V\theta \otimes 1_{V''}$
 
-$V'f$ // V $g$ // $V''$
-
-Puisque Q est un A-module projectif et que la suite $(P\otimes \mathscr{E})$ est exacte, la première ligne de ce diagramme est une suite exacte ; comme les flèches verticales sont des isomorphismes, la seconde ligne est également exacte.
+Puisque Q est un A-module projectif et que la suite (P$V'f$ // V $g\otimes \mathscr{E})$ est exacte, la première// $V''$ ligne de ce diagramme est une suite exacte ; comme les flèches verticales sont des isomorphismes, la seconde ligne est également exacte.
 
 #### Corollaire {#alg-viii-s6-n6-cor-1 .statement tag=007J}
 

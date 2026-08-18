@@ -1,14 +1,14 @@
 {
   "book": "alg-viii",
   "pages": 505,
-  "clean": 454,
-  "flagged": 40,
+  "clean": 453,
+  "flagged": 41,
   "empty": 11,
   "reasons": {
     "diagram": 29,
     "dropped-glyph": 27,
     "empty": 11,
-    "stacked-rows": 4,
+    "stacked-rows": 5,
     "tall-delimiter": 9
   },
   "flagged_pages": [
@@ -378,6 +378,13 @@
       "flags": [
         "dropped-glyph",
         "diagram"
+      ]
+    },
+    {
+      "pdf_page": 447,
+      "page_label": "A VIII.430",
+      "flags": [
+        "stacked-rows"
       ]
     },
     {

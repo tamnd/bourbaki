@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: 3847cb4a8a598a1fa96120ece10136f7849047a08e5872bc7fea2fe7f76b322d
+content_sha256: ab1eeb296cdba4d1b5d1004662d942df3022c1945cba00edb9d329ba7f5e562b
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -431,13 +431,7 @@ Let E and F be semisimple A-modules of finite dimension over K, and let $\mathsc
 
 Let $a$ be an element of $\mathscr{A}$. The characteristic polynomials of $a_E$ and $a_F$ have the same degree, so the dimension of E is equal to that of F; we denote it by $n$. Let Pc$_E(a; T)$ be the characteristic polynomial of $a_E$. In K(T), we have the equalities
 
-$$
-_n(-1)_n(-1)
-$$
-
-$\chi_E(a; T) =$ det$(1 +a_ET)= (-T)$ det $-a_E= (-T)$ Pc$_Ea$;,
-
-T T
+$\chi_E(a; T) =$ det$(1 +a_ET)= (-T)^n$ det$(\frac{-1}{T}-a_E)= (-T)^n$ Pc$_E(a;\frac{-1}{T})$,
 
 and $\chi_F(a; T)$ is given by an analogous formula. Because of our assumptions, we have $\chi_E(a; T) =\chi_F(a; T)$. By Theorem 2, we have [E] = [F], which implies that E and F are isomorphic (VIII, p. 190, Corollary of Proposition 7).
 

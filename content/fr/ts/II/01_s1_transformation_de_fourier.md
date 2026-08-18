@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: 7f094078d4ace52e62888c753e42f17b637d10a30474b21c8028e1297eddcfbf
+content_sha256: 8264a6231172d8c4bc4ebac16dd3b0fba110dd5f364cdb534c767c21221c4f56
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -119,27 +119,13 @@ Si $\chi \in \widehat{G}$ et si $f\in L^1(G)$, on a ev$_{\chi}(\varepsilon_x*f) 
 Soit $\zeta \in \mathsf{X}(L^1(G))$ et soit $f\in L^1(G)$ telle que $\zeta (f)\not= 0$. Définissons une application $\chi : G\rightarrow \mathbf{C}$ en posant, pour $x\in G$ :
 
 $$
-\zeta (\varepsilon_x*f)
-$$
-
-$$
-\chi (x) = \tag{3}
-$$
-
-$$
-\zeta (f)
+\chi (x) =\frac{\zeta(\varepsilon_x*f)}{\zeta(f)} \tag{3}
 $$
 
 On a $\chi (e) = 1$. Comme l’application $x\mapsto \varepsilon_x*f=\boldsymbol{\gamma }(x)(f)$ de G dans $L^1(G)$ est continue (INT, VIII, §2, n$^o5$, prop. 8), l’application $\chi$ est continue. Elle est bornée car, pour tout $x\in G$, on a
 
 $$
-\|\varepsilon_x*f\|\|f\|
-$$
-
-$|\chi (x)|\leqslant$ =
-
-$$
-|\zeta (f)||\zeta (f)|
+|\chi (x)|\leqslant \frac{\|\varepsilon_x*f\|}{|\zeta(f)|}=\frac{\|f\|}{|\zeta(f)|}
 $$
 
 (th. 1 de I, p. 29 et INT, VIII, loc. cit.).
@@ -159,13 +145,7 @@ $\zeta (\varepsilon_x*h) =$ lim$_{V,\mathfrak{B}}\zeta (\varepsilon_x*g_V*h) =\z
 Par suite, on a pour $x, y\in G$ :
 
 $$
-\zeta (\varepsilon_x*\varepsilon_y*f)\chi (x)\zeta (\varepsilon_y*f)
-$$
-
-$\chi (xy) =$ = $=\chi (x)\chi (y)$,
-
-$$
-\zeta (f)\zeta (f)
+\chi (xy) =\frac{\zeta(\varepsilon_x*\varepsilon_y*f)}{\zeta(f)}=\frac{\chi(x)\zeta(\varepsilon_y*f)}{\zeta(f)}=\chi (x)\chi (y)
 $$
 
 ce qui démontre que $\chi$ est un homomorphisme de G dans $\mathbf{C}^*$. Comme $\chi$ est borné et continu, c’est un caractère unitaire de G. De plus, si $g\in L^1(G)$, on a
@@ -185,15 +165,7 @@ $=\zeta (f)\int_G\chi (x)g(x)dx=$ ev$_{\chi}(g)\zeta (f)$ (INT, VI, §1, n$^o1$,
 Montrons finalement que l’application réciproque ev$^{-1}$ est continue. Soit $\zeta \in \mathsf{X}(L^1(G))$. Soit $f\in L^1(G)$ une fonction telle que $\zeta (f)\not= 0$. L’ensemble W des $\xi \in \mathsf{X}(L^1(G))$ tels que $\xi (f)\not= 0$ est un voisinage ouvert de $\zeta$ dans $\mathsf{X}(L^1(G))$. Pour tout $\xi \in W$, ce qui précède montre que ev$^{-1}(\xi )$ est le caractère
 
 $$
-\xi (\varepsilon_x*f)
-$$
-
-$$
-x\mapsto
-$$
-
-$$
-\xi (f)
+x\mapsto \frac{\xi(\varepsilon_x*f)}{\xi(f)}
 $$
 
 Soit $\mathfrak{F}$ un filtre sur $W\subset \mathsf{X}(L^1(G))$ convergeant vers $\zeta$. Puisque l’ensemble $\mathsf{X}(L^1(G))$ est borné, donc équicontinu, dans $L^{\infty}(G)$, la structure uniforme de la convergence simple coïncide avec la structure uniforme de la convergence compacte (TG, X, p. 16, th. 1). Soit K une partie compacte de G. L’ensemble des $\varepsilon_x*f$ pour $x\in K$ est compact dans $L^1(G)$ (INT, VIII, §2, n$^o5$, prop. 8). On a donc
@@ -315,11 +287,7 @@ $$
 $$
 
 $$
-\|\mathscr{F}(\mu)\|_{\infty}=\|\overline{\mathscr{F}}(\mu)\|_{\infty}\leqslant \|\mu\|_1 \tag{9}
-$$
-
-$$
-\mathscr{F}(\varepsilon_x)(\chi ) =\overline{\langle\chi , x\rangle}
+\|\mathscr{F}(\mu\mathscr{F})\|_{\infty}(\varepsilon_x=)(\|\chi \overline{\mathscr{F}}) =(\mu\langle )\chi , x\|_{\infty}\rangle \leqslant ,\|\mu\|_1 \tag{9}
 $$
 
 (10)
@@ -670,11 +638,9 @@ donc la famille des caractères de G est orthonormale (prop. 6 de II, p. 210). E
 
 #### Remarque 1 {#ts-ii-s1-n3-rem-1 .statement tag=02IK}
 
-Certaines des formules concernant la transformation de Fourier sur $L^1(G)$ s’étendent à la transformation de Fourier sur $L^2(G)$. En particulier, pour $f\in L^2(G)$ et $\chi \in \widehat{G}$, on a
+Certaines des formules concernant la transformation de Fourier sur $L^1(G)$ s’étendent à la transformation de Fourier
 
-$$
-\overline{\mathscr{F}}(f) = (\chi \mapsto \mathscr{F}(f)(\chi^{-1})) =\overline{\mathscr{F}(\overline{f})}
-$$
+sur $L^2(G)$. En particulier, pour$\overline{\mathscr{F}}(f) = (\chi \mapsto \mathscr{F}f\in (fL)(^2\chi (G)^{-1})) =$et $\chi \mathscr{F}\in (\frac{\widehat{G}}{f})$, on a
 
 $$
 \mathscr{F}(\varepsilon_x*f) =\eta (x^{-1})\mathscr{F}(f),\overline{\mathscr{F}}(\varepsilon_x*f) =\eta (x)\mathscr{F}(f)
@@ -823,10 +789,8 @@ L’application canonique $\eta$ de G dans $\widehat{\widehat{G}}$ est un isomor
 Démontrons d’abord que $\eta$ est injective et stricte. Il suffit pour cela de montrer que pour tout voisinage U de $e$ dans G, il existe un voisinage W de $e$ dans $\widehat{\widehat{G}}$ tel que $\overset{-1}{\eta}(W)\subset U$ (lemme 2 de II, p. 200). Or soit V un voisinage compact symétrique de $e$ dans G tel que $V^2\subset U$, soit $f$ une fonction continue positive sur G, à support contenu dans V, et telle que $f(e)>0$. Soit $g=\widetilde{f}*f$. Alors $g$ appartient à A(G), son support est contenu dans U et $g(e)>0$. De plus, $\mathscr{F}_G(g)\in L^1(\widehat{G})$ d’après la prop. 11 de II, p. 217. L’ensemble W des $\xi$ dans $\widehat{\widehat{G}}$ tels que
 
 $$
-|\overline{\mathscr{F}}_G(\mathscr{F}_G(g))(\xi )-\overline{\mathscr{F}}_G(\mathscr{F}_G(g))(e)|<1g(e)
+|\overline{\mathscr{F}}_{\widehat{G}}(\mathscr{F}_G(g))(\xi )-\overline{\mathscr{F}}_{\widehat{G}}(\mathscr{F}_G(g))(e)|<\frac{1}{2}g(e)
 $$
-
-2
 
 est un voisinage de $e$ dans $\widehat{\widehat{G}}$ puisque la fonction $\overline{\mathscr{F}}_{\widehat{G}}(\mathscr{F}_G(g))$ est continue sur $\widehat{\widehat{G}}$. Soit $x\in \overset{-1}{\eta}(W)$. D’après la formule (26), on a
 
@@ -836,7 +800,9 @@ $$
 
 et donc $|g(x)-g(e)|<\frac{1}{2}g(e)$. Cela implique $g(x)\not= 0$ et donc $x\in U$, puisque le support de $g$ est contenu dans U. Ainsi $\overset{-1}{\eta}(W)\subset U$.
 
-Démontrons que l’application $\eta$ est surjective. Comme cette application est un homéomorphisme sur son image, le groupe $\eta (G)$ est un sous-groupe localement compact de $\widehat{\widehat{G}}$. Il est donc fermé dans $\widehat{\widehat{G}}$ (TG, III, p. 22, cor. 2). Raisonnons par l’absurde et supposons qu’il existe un caractère $\xi \in \widehat{\widehat{G}}$ tel que $\xi \notin \eta (G)$. Il existe alors (corollaire 1 de II, p. 219) un élément $f$ non nul de $L^1(\widehat{G})$ tel que $\mathscr{F}_{\widehat{G}}(f)$ soit nulle sur $\eta (G)$. Soit $g\in L^1(G)$. La fonction $(x, \chi )\mapsto g(x)f(\chi )\langle \chi , x\rangle$ appartient à $L^1(G\times \widehat{G})$. D’après le th. de Lebesgue-Fubini (INT, V, §8, n$^o4$, th. 1, a)), il vient donc
+Démontrons que l’application $\eta$ est surjective. Comme cette application est un homéomorphisme sur son image, le groupe $\eta (G)$ est un sous-groupe localement compact de $\widehat{\widehat{G}}$. Il est donc fermé dans $\widehat{\widehat{G}}$ (TG, III, p. 22, cor. 2). Raisonnons par l’absurde et supposons qu’il existe un caractère $\xi \in \widehat{\widehat{G}}$ tel que $\xi \notin \eta (G)$. Il existe alors (corollaire 1 de
+
+IIsur, p.$\eta (G)$219. Soit) un élément$g\in L^1(G)f$. La fonctionnon nul de L$(^1x, \chi (\widehat{G})$) tel que$\mapsto g(x)f\mathscr{F}(\overset{\widehat{G}}{\chi})(\langle f\chi , x)$ soit nulle$\rangle$ appartient à $L^1(G\times \widehat{G})$. D’après le th. de Lebesgue-Fubini (INT, V, §8, n$^o4$, th. 1, a)), il vient donc
 
 $$
 \int_{\widehat{G}}f(\chi )\mathscr{F}_G(g)(\chi )d\chi =\int_Gg(x)(\int_{\widehat{G}}f(\chi )\overline{\langle\chi , x\rangle}d\chi )dx
@@ -1510,11 +1476,7 @@ Il existe des fonctions $f\in B(\mathbf{R})$ telles que la série $\sum_{n\in\ma
 
 Soit Q une forme quadratique définie positive sur $\mathbf{R}^n$. La fonction définie par $\varphi (x) =$ exp($-\pi Q(x)$) appartient à $\mathscr{S}(\mathbf{R}^n)$. Il existe $\sigma \in$ GL($n,\mathbf{R}$) tel que $Q(x) =\|\sigma (x)\|^2$ pour tout $x\in \mathbf{R}^n$. La transformée de Fourier de $\varphi$ est donnée pour tout $y\in \mathbf{R}^n$ par
 
-1 $*$
-
-$\widehat{\varphi}(y) =$ exp($-\pi Q(y)$)
-
-$|$det($\sigma$ )$|$
+$\widehat{\varphi}(y) =|$det($1\sigma$ )$|$ exp($-\pi Q^*(y)$)
 
 où $Q^*(y) =\|^t\sigma^{-1}(y)\|^2($cf. INT, IX, §6, n$^o$ 4–5 et exercice 1, c) de II, p. 262).
 
@@ -1646,19 +1608,15 @@ Pour cela, notons tout d’abord que $F_N$ est la cotransformée de Fourier de l
 
 Démontrons la condition (ii) de loc. cit. Soit U un voisinage ouvert de 0 dans $\mathbf{T}$. Il suffit de démontrer que $\mu_N(U)\rightarrow 1$ quand $N\rightarrow +\infty$. Soient K un voisinage compact symétrique de 0 tel que $K^2\subset U$ et $\psi$ la fonction caractéristique de K. Posons $\varphi =\psi *\psi$. C’est un élément de $A(\mathbf{T})$ à support contenu dans U. Le nombre réel $m=\varphi (0)$ est la mesure de l’ensemble K et donc $m >0$. De plus, il vient $0\leqslant \varphi \leqslant m$ puisque $\varphi (x)$ est la mesure de l’ensemble $K\cap xK$. On a
 
-$\mu_N(U)\geqslant 1\int\varphi (x)\mu_N(x) =$ 1 $\sum\mathscr{F}(\varphi )(h)\varphi_N(h)$
-
 $$
-m_{\mathbf{T}}m
+\mu_N(U)\geqslant \frac{1}{m}\int_{\mathbf{T}}\varphi (x)\mu_N(x) =\frac{1}{m}\sum\mathscr{F}(\varphi )(h)\varphi_N(h)
 $$
 
 $h\in \mathbf{Z}$
 
 d’après les propriétés de transposition de la transformation de Fourier (prop. 13 de II, p. 221). Puisque $\varphi \in A(\mathbf{T})$, sa transformée de Fourier appartient à $L^1(\mathbf{Z})$ et $\varphi$ vérifie la formule d’inversion de Fourier (prop. 11 de II, p. 217). Comme $\varphi_N(h)\rightarrow 1$ pour tout $h\in \mathbf{Z}$ et $|\varphi_N(h)|\leqslant 1$, le théorème de Lebesgue (INT, IV, §3, n$^o7$, th. 6) et la formule d’inversion de Fourier impliquent que
 
-lim inf $\mu_N(U)\geqslant$ 1 lim $\sum\mathscr{F}(\varphi )(h)\varphi_N(h) =$
-
-$N\rightarrow +\infty mN\rightarrow +\infty h\in \mathbf{Z}$
+lim inf$_{N\rightarrow+\infty}\mu_N(U)\geqslant \frac{1}{m}$ lim$_{N\rightarrow+\infty}\sum_{h\in\mathbf{Z}}\mathscr{F}(\varphi )(h)\varphi_N(h) =$
 
 1 $\sum\mathscr{F}(\varphi )(h) =1\varphi (0) = 1$.
 

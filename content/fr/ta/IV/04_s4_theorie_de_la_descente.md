@@ -45,7 +45,7 @@ subsections:
       pdf_page: 418
 statements: 29
 exercises: 7
-content_sha256: 14aa1d109bf8c7748b23bc0d729be8c1e1fa7432c51ca4d9739f9dbdd8c5d21f
+content_sha256: 7b8174973b979927eac6b8de00578c5d916810368110e1a893df3deaee81a4d5
 ---
 
 ## § 4. THÉORIE DE LA DESCENTE
@@ -443,13 +443,7 @@ Tout chemin $c$ dans X est de la forme $c_1* \cdots  *c_m$, où $c_k$ est le che
 Pour tout couple $(j, k)$ d’entiers de $\{1, . . . , n\}$ et tout couple $(s, t)\in$ $\mathbf{I}\times \mathbf{I}$, posons
 
 $$
-(s+j-1t+k-1)
-$$
-
-$\sigma_{j,k}(s, t) =s_{i(j,k)}\circ \sigma$,.
-
-$$
-nn
+\sigma_{j,k}(s, t) =s_{i(j,k)}\circ \sigma (\frac{s + j- 1}{n},\frac{t + k- 1}{n})
 $$
 
 Pour $t\in \mathbf{I}$, posons aussi $h^0_{j,k}(t) =\sigma_{j,k}(t,0)$, $h^1_{j,k}(t) =\sigma_{j,k}(t,1)$, $v^0_{j,k}(t) =\sigma_{j,k}(0, t)$ et $v_{j,k}^1(t) =\sigma_{j,k}(1, t)$. D’après le lemme 1 de III, p. 295, les chemins $h^0_{j,k}*v_{j,k}^1$ et $v_{j,k}^0*h^1_{j,k}$ sont strictement homotopes, d’où la relation
