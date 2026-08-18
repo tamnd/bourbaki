@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 6d8fc11a64ec62b889995ac3982d23ee3b5784a48ee4f49ee591dcdac850668f
+content_sha256: f34b75b1da5153c3a540b186b99a0291ffc96473ebe702525f9b2da7de82cfeb
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -472,7 +472,7 @@ We keep the notation of Subsections 5 and 6. Recall that Z(K[G]) consists of the
 We define a symmetric bilinear mapping from $K[G]\times K[G]$ to K by the formula
 
 $$
-\langle f, f'\rangle_G=|G|^{-1}_g\sum_{\in G}f_gf_g'_{_{-1}} \tag{28}
+\langle f, f'\rangle_G=|G|^{-1}\sum_{g\in G}f_gf'_{g^{-1}} \tag{28}
 $$
 
 for every $f=\sum f_gg$ and $f'=\sum f_g'g$ belonging to K[G]. We have $\langle f, f'\rangle_G=$ $|G|^{-2}\tau (f f')$.
