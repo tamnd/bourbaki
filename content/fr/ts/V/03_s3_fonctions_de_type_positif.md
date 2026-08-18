@@ -45,7 +45,7 @@ subsections:
       pdf_page: 467
 statements: 39
 exercises: 23
-content_sha256: 01fa632d809be65506a5839035bea51d92c940347140f889b83cf0406d5d628f
+content_sha256: 8f947608d99ac54e80cc4c5fd4f082600da39e3898f055783986ac1426b514c2
 ---
 
 ## § 3. FONCTIONS DE TYPE POSITIF
@@ -831,8 +831,14 @@ en appliquant la majoration (1) de V, p. 446. L’inégalité de CauchySchwarz i
 $\surd \int 1/2\int 1/2$
 
 $$
-\|\psi *\varphi -\varphi \|_{\infty}\leqslant \leqslant \surd \overline{22}(\surd p_G(1(1--\varphi \mathscr{R}),(\varphi ))\psi  d\mu)(_G\psi  d\mu)
+\|\psi *\varphi -\varphi \|_{\infty}\leqslant \overline{2}(_G(1-\mathscr{R}(\varphi ))\psi  d\mu)(_G\psi  d\mu)
 $$
+
+$$
+\surd \surd
+$$
+
+$\leqslant$ 2 $p(1-\varphi )$,
 
 d’où le résultat.
 
@@ -866,7 +872,11 @@ Soit $\varphi_V$ la fonction caractéristique de V, et posons $\psi_V=\mu(V)^{-1
 
 Notons $q_V$ la semi-norme $\varphi \mapsto  |\langle \varphi , \psi_V\rangle |$ sur $\mathscr{C}_b(G)$; elle est continue pour la topologie faible. Puisque $\psi_V$ est nulle en dehors de V, il vient $q_V(1-\varphi_1)\leqslant \varepsilon^2/4$; il existe donc un voisinage U de $\varphi_1$ dans $\mathscr{C}_b(G)_f$ tel que $q_V(1-\varphi )\leqslant \varepsilon^2/2$ pour tout $\varphi \in U$.
 
-Soit $\varphi \in U\cap$ Pos$\|(^1\iota (G)$. D’après le lemme$-u)(\varphi )\|_{\infty}\leqslant \surd 2q_V(1-7, \varphi$on a$)\leqslant \varepsilon$
+Soit $\varphi \in U\cap$ Pos$_1(G)$. D’après le lemme 7, on a
+
+$$
+\|(\iota -u)(\varphi )\|_{\infty}\leqslant \surd\overline{2q_V(1 -\varphi)}\leqslant \varepsilon
+$$
 
 donc $(\iota -u)(U)\subset W$. Le théorème est démontré.
 

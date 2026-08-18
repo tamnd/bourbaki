@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: 0844fa8aa1bb479b520ee569a7b123be8a8fcdc70bba7cf29fe2d3931f78741b
+content_sha256: 980e3754f2e411e660d9e809110abda75b8754a535696002015e271d03b64bce
 ---
 
 ## § 1. OPÉRATEURS COMPACTS SUR UN ESPACE HILBERTIEN
@@ -1114,7 +1114,7 @@ $$
 
 pour tout $f\in L^2$(X), où la série converge dans $L^2(X)$.
 
-$h_i($Pour tout$x, y) =\frac{i}{f_i(x)}\in g_i($I, on note$y)$, de sorte que$h^i\in \mathscr{L}\widetilde{h}_i^2(X$est la classe de$\times X)$ la fonction définie par$\overline{f}_i\otimes g_i$. D’après la remarque 9 de IV, p. 173, la série de terme général $\alpha_ih_i$ converge vers N dans $L^2(X\times X)$.
+Pour tout $i\in I$, on note $h_i\in \mathscr{L}^2(X\times X)$ la fonction définie par $h_i(x, y) =f_i(x)g_i(y)$, de sorte que $\widetilde{h}_i$ est la classe de $f_i\otimes g_i$. D’après la remarque 9 de IV, p. 173, la série de terme général $\alpha_ih_i$ converge vers N dans $L^2(X\times X)$.
 
 Dans la suite de ce numéro, on suppose que N est une fonction continue.
 

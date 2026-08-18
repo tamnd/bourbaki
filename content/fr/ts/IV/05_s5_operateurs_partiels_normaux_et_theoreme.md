@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: 69b5351dd3995650723f0a46ffc36026af290268d5960c976d8a6b31adcc9cf5
+content_sha256: b1fa15e9527227358753a31dd0608043025d2f4324f79795d19b40f21fc871a7
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -1142,9 +1142,7 @@ $$
 
 Par conséquent, les espaces hilbertiens $E_u$ et $E_{|u|}$ sont égaux (lemme 8), donc dom($u$) $=$ dom($|u|$) et $\|u(x)\|$ = $\||u|(x)\|$ pour tout $x\in$ dom($u$).
 
-unique application linéaire isométriqueLa formule (16) implique que Ker($uv$) $=$ Ker(de Im($|u|u|$) sur Im($|$) et qu’il existe une$u)$ qui vérifie
-
-$v(|u|(x)) =u(x)$ pour tout $x\in$ dom($|u|$). Puisque $|u|$ est auto-adjoint, on a Im($|u|$)$^{\circ}=$ Ker($|u|$) (prop. 7, c) de IV, p. 236). Il existe donc une unique isométrie partielle $j$ de E dans F qui prolonge $v$ et s’annule sur Ker($|u|$) $=$ Ker($u$). Comme E = Ker($u$)$\oplus$ Im($|u|$), cette application est l’unique application partiellement isométrique telle que $u=j|u|$ et Ker($j$) $=$ Ker($u$).
+La formule (16) implique que Ker($u$) $=$ Ker($|u|$) et qu’il existe une unique application linéaire isométrique $v$ de Im($|u|$) sur Im($u$) qui vérifie $v(|u|(x)) =u(x)$ pour tout $x\in$ dom($|u|$). Puisque $|u|$ est auto-adjoint, on a Im($|u|$)$^{\circ}=$ Ker($|u|$) (prop. 7, c) de IV, p. 236). Il existe donc une unique isométrie partielle $j$ de E dans F qui prolonge $v$ et s’annule sur Ker($|u|$) $=$ Ker($u$). Comme E = Ker($u$)$\oplus$ Im($|u|$), cette application est l’unique application partiellement isométrique telle que $u=j|u|$ et Ker($j$) $=$ Ker($u$).
 
 Démontrons c). On a $u_1j_1^*j_1u_1\subset (j_1u_1)^*j_1u_1=u^*u$. L’application linéaire $j_1^*j_1$ est l’orthoprojecteur de noyau Ker($j_1$) $=$ Ker($u_1$) (EVT, V, p. 41, prop. 5 (ii)) et donc d’image Ker($u_1$)$^{\circ}=$ Im($u_1$) (prop. 7, c) de IV, p. 236). Par conséquent, $u^2_1\subset u^*u$, d’où $u^2_1=u^*u$ puisque ces deux opérateurs sont auto-adjoints. Ainsi, il vient $u_1= (u^*u)^{1/2}$, et l’assertion d’unicité de b) démontre finalement que $j_1=j$.
 

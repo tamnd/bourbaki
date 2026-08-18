@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: 5e940fbc8c3e5ef356a38337e27dabf3b613bc4c7f6a5b5188ca811c50cafae6
+content_sha256: e6d573a7633e79018da49019c2ec55e17ce6daacfc777ff00341b1afaf23f811
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -790,9 +790,9 @@ On a vu ci-dessus que $x^{1/\alpha}$ vérifie les propriétés demandées. Inver
 
 Soit A une algèbre stellaire unifère. Tout élément de A est somme d’éléments unitaires.
 
-D’après le lemmeOn aSoit$yx_*=$un élément hermitien de$_{1\overline{2}}x-i12\surd$,1c$-)$, on a$_{1\overline{4}}x_2$, donc$1-\frac{1}{4}Axyy$. Supposons d’abord que$^2_*\in = 1A_+$. Soitet $xy==y\frac{1}{2}+xy+_*i$est somme$\surd\|1x-\|\leqslant^1_{\overline{4}}x2^2$..
+D’après le lemmeSoit $x$ un élément hermitien de12, c), on a $1-\frac{1}{4}Ax$. Supposons d’abord que$^2\in A_+$. Soit $y=\frac{1}{2}x+i\surd\|1x-\|\leqslant^1_{\overline{4}}x2^2$..
 
-de deux éléments unitaires. Dans le cas général, soit $k$ un entier tel que $\|\frac{1}{k}x\|\leqslant 2$ ; l’élément $x$ est alors somme de $2k$ éléments unitaires. D’après le lemme 2 de I, p. 96, le lemme en résulte.
+On a $y^*=\frac{1}{2}x-i\surd\overline{1 -\frac{1}{4}x^2}$, donc $yy^*= 1$ et $x=y+y^*$ est somme de deux éléments unitaires. Dans le cas général, soit $k$ un entier tel que $\|\frac{1}{k}x\|\leqslant 2$ ; l’élément $x$ est alors somme de $2k$ éléments unitaires. D’après le lemme 2 de I, p. 96, le lemme en résulte.
 
 #### Théorème 2 {#ts-i-s6-thm-2 .statement tag=02EL}
 

@@ -57,7 +57,7 @@ subsections:
       pdf_page: 407
 statements: 50
 exercises: 7
-content_sha256: 42fcbe16fe2d83e31702164cd15fd35a20dc0e04ac06e8aa0ec2abdd84e27c70
+content_sha256: de676bd12e93c36a7a43ea62abdb0605fe18579e9cd1c1cbb3777f19712ff59b
 ---
 
 ## § 1. REPRÉSENTATIONS UNITAIRES
@@ -416,9 +416,11 @@ Les coefficients matriciels de $\varrho$ sont des fonctions continues et bornée
 
 Soit G un groupe topologique. Les ensembles Θ(G) et Υ(G) sont des sous-algèbres involutives unifères de $\mathscr{C}_b(G)$.
 
-La fonction constante 1 est un coefficient matriciel de la représentation triviale de G sur $\mathbf{C}$. Soit $\varrho$ une représentation unitaire de G et soient $x$ et $y$ des vecteurs de l’espace de $\varrho$. Pour tout $\lambda \in \mathbf{C}$ et
+La fonction constante 1 est un coefficient matriciel de la représentation triviale de G sur $\mathbf{C}$. Soit $\varrho$ une représentation unitaire de G et soient $x$ et $y$ des vecteurs de l’espace de $\varrho$. Pour tout $\lambda \in \mathbf{C}$ et tout $g\in G$, on a $\lambda \langle x|\varrho (g)y\rangle =\langle x|\varrho (g)(\lambda y)\rangle$. De plus, on a
 
-tout $g\in G$, on a$\langle x\lambda |\varrho \langle x(g|)\varrho y(\rangle g=)y\rangle \langle \varrho =(g\langle \overset{-1}{x}|)\varrho x(|gy)(\rangle \lambda y=)\langle \rangle y$. De plus, on a$|\varrho (g^{-1})x\rangle$
+$$
+\langle x|\varrho (g)y\rangle =\langle \varrho (g^{-1})x|y\rangle =\overline{\langle y|\varrho(g^{-1})x\rangle}
+$$
 
 pour tout $g\in G$. Par conséquent, les ensembles Θ(G) et Υ(G) sont stables par multiplication par des scalaires et par conjugaison.
 
