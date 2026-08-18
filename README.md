@@ -125,6 +125,12 @@ imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet che
 | Functions of a Real Variable | V | 0 of 5 | 0 | 0 | 0 | 0 |
 | Functions of a Real Variable | VI | 0 of 3 | 0 | 0 | 0 | 0 |
 | Functions of a Real Variable | VII | 0 of 2 | 0 | 0 | 0 | 0 |
+| Integration | I | 0 of 1 | 0 | 0 | 0 | 0 |
+| Integration | II | 0 of 2 | 0 | 0 | 0 | 0 |
+| Integration | III | 0 of 4 | 0 | 0 | 0 | 0 |
+| Integration | IV | 0 of 7 | 0 | 0 | 0 | 0 |
+| Integration | V | 0 of 8 | 0 | 0 | 0 | 0 |
+| Integration | VI | 0 of 4 | 0 | 0 | 0 | 0 |
 | Integration | VII | 0 of 5 | 0 | 0 | 0 | 0 |
 | Integration | VIII | 0 of 5 | 0 | 0 | 0 | 0 |
 | Integration | IX | 0 of 7 | 0 | 0 | 0 | 0 |
@@ -148,9 +154,9 @@ imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet che
 | Théories spectrales | IV | 0 of 5 | 0 | 0 | 0 | 228 |
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 
-78 of 299 sections are in the corpus, 26 per cent. 1767 statements and 878 exercises, 2645 of them carrying a permanent tag.
+78 of 325 sections are in the corpus, 24 per cent. 1767 statements and 878 exercises, 2645 of them carrying a permanent tag.
 
-The table is one row per chapter of the volumes that have a table of contents. 29 further volumes and 8698 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
+The table is one row per chapter of the volumes that have a table of contents. 28 further volumes and 8211 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
 <!-- END COVERAGE -->
 
 ## Building it
