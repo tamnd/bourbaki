@@ -37,7 +37,7 @@ subsections:
       pdf_page: 81
 statements: 30
 exercises: 9
-content_sha256: 3034914291c3b3e88fbd6d2ddbfafa9c04705aaedafb3bd071cd2af733c2150f
+content_sha256: 0daa57d63c279cdfc85a2dcec60d7842343ea5bccf4e92e052074a35fcd665f5
 ---
 
 ## § 4. PERTURBATIONS DANS LES ESPACES DE BANACH
@@ -132,7 +132,7 @@ Soient E et F des espaces de Banach, $u_0: E\rightarrow F$ une application de Fr
 
 D’après la prop. 2 de III, p. 42, (ii), il existe des décompositions en somme directe topologique $E = E_1\oplus E_2$ et $F = F_1\oplus F_2$, et il existe $\alpha_0\in \mathscr{I}(E_1; F_1)$, tels que $E_2$ et $F_2$ soient de dimension finie et que $u_0$ soit représentée par la matrice $^{\alpha}_{0 0^0}^0$ relativement à ces décompositions.
 
-Soit U l’ensemble des éléments $u$ de $\mathscr{L}(E; F)$ tels que, dans la représentation matricielle $^{\alpha  \beta}_{\gamma  \delta}$ de $u$ par rapport à ces décompositions, on a $\alpha \in \mathscr{I}(E_1; F_1)$. Comme $\mathscr{I}(E_1; F_1)$ est ouvert dans $\mathscr{L}(E_1; F_1)$ (prop. 3 de III, p. 57), U est un voisinage ouvert de $u_0$ dans $\mathscr{L}(E; F)$. Pour $u=^{\alpha  \beta}_{\gamma  \delta}$ dans U, posons
+Soit U l’ensemble des éléments $u$ de $\mathscr{L}(E; F)$ tels que, dans la représentation matricielle $\begin{pmatrix} \alpha & \beta \\ \gamma & \delta \end{pmatrix}$ de $u$ par rapport à ces décompositions, on a $\alpha \in \mathscr{I}(E_1; F_1)$. Comme $\mathscr{I}(E_1; F_1)$ est ouvert dans $\mathscr{L}(E_1; F_1)$ (prop. 3 de III, p. 57), U est un voisinage ouvert de $u_0$ dans $\mathscr{L}(E; F)$. Pour $u=\begin{pmatrix} \alpha & \beta \\ \gamma & \delta \end{pmatrix}$ dans U, posons
 
 $$
 \varphi (u) =v_0+^{\alpha^{-1}-}_0^{\alpha^-_0^10}_0 \tag{1}
@@ -141,7 +141,7 @@ $$
 On a $\varphi (u_0) =v_0$ et l’application $\varphi$ est analytique (loc. cit.). Modulo les applications linéaires continues de rang fini, on a les congruences
 
 $$
-u\equiv (^{\alpha}_{0 0}^0),v_0\equiv^{\alpha^-_0}_{0^1}^0_0,\varphi (u)\equiv^{\alpha}_{\overset{-1}{0}}^0_0
+u\equiv \begin{pmatrix} \alpha & 0 \\ 0 & 0 \end{pmatrix},v_0\equiv^{\alpha^-_0}_{0^1}^0_0,\varphi (u)\equiv^{\alpha}_{\overset{-1}{0}}^0_0
 $$
 
 Par suite, $\varphi (u)$ est un quasi-inverse de $u$. Tout élément $u$ de U définit par restriction un isomorphisme de $E_1$ sur un supplémentaire topologique de $F_2$ dans F. D’après la prop. 3 de III, p. 44, on a donc

@@ -1732,7 +1732,7 @@ books:
               statements: 30
               exercises: 9
               extraction: native
-              content_sha256: 3034914291c3b3e88fbd6d2ddbfafa9c04705aaedafb3bd071cd2af733c2150f
+              content_sha256: 0daa57d63c279cdfc85a2dcec60d7842343ea5bccf4e92e052074a35fcd665f5
             - kind: section
               section: 5
               title: Perturbation par une application linéaire compacte
