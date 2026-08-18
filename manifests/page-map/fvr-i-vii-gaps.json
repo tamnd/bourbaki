@@ -1,0 +1,377 @@
+{
+  "book": "fvr-i-vii",
+  "grammar": "head-number",
+  "pagination": "continuous",
+  "pdf_pages": 354,
+  "body_pages": 339,
+  "front_matter_pages": 15,
+  "counts": {
+    "head": 281,
+    "interpolated": 58,
+    "none": 15
+  },
+  "printed_pct_of_body": 82.89085545722715,
+  "chapters": [
+    {
+      "chapter": "I",
+      "first_pdf_page": 18,
+      "last_pdf_page": 65,
+      "first_page": 3,
+      "last_page": 50
+    },
+    {
+      "chapter": "II",
+      "first_pdf_page": 66,
+      "last_pdf_page": 105,
+      "first_page": 51,
+      "last_page": 90
+    },
+    {
+      "chapter": "III",
+      "first_pdf_page": 106,
+      "last_pdf_page": 177,
+      "first_page": 91,
+      "last_page": 162
+    },
+    {
+      "chapter": "IV",
+      "first_pdf_page": 178,
+      "last_pdf_page": 225,
+      "first_page": 163,
+      "last_page": 210
+    },
+    {
+      "chapter": "V",
+      "first_pdf_page": 226,
+      "last_pdf_page": 283,
+      "first_page": 211,
+      "last_page": 268
+    },
+    {
+      "chapter": "VI",
+      "first_pdf_page": 284,
+      "last_pdf_page": 319,
+      "first_page": 269,
+      "last_page": 304
+    },
+    {
+      "chapter": "VII",
+      "first_pdf_page": 320,
+      "last_pdf_page": 354,
+      "first_page": 305,
+      "last_page": 339
+    }
+  ],
+  "steps": [],
+  "conflicts": [
+    {
+      "pdf_page": 107,
+      "read_chapter": "II",
+      "read": 92,
+      "chapter": "III",
+      "fitted": 92,
+      "raw": "92                               ELEMENTARY FUNCTIONS                                   Ch. II"
+    },
+    {
+      "pdf_page": 149,
+      "read_chapter": "I",
+      "read": 134,
+      "chapter": "III",
+      "fitted": 134,
+      "raw": "134                       FUNCTIONS OF A REAL VARIABLE                         Ch. I-11I"
+    },
+    {
+      "pdf_page": 155,
+      "read_chapter": "I",
+      "read": 140,
+      "chapter": "III",
+      "fitted": 140,
+      "raw": "140                       FUNCTIONS OF A REAL VARIABLE                         Ch. I-III"
+    },
+    {
+      "pdf_page": 167,
+      "read_chapter": "I",
+      "read": 152,
+      "chapter": "III",
+      "fitted": 152,
+      "raw": "152                          FUNCTIONS OF A REAL VARIABLE                                 Ch. I-111"
+    },
+    {
+      "pdf_page": 289,
+      "read_chapter": "VI",
+      "read": 4,
+      "chapter": "VI",
+      "fitted": 274,
+      "raw": "4                      GENERALIZED TAYLOR EXPANSIONS                                  Ch. VI"
+    },
+    {
+      "pdf_page": 295,
+      "read_chapter": "VI",
+      "read": 30,
+      "chapter": "VI",
+      "fitted": 280,
+      "raw": "30                            GENERALIZED TAYLOR EXPANSIONS                                                Ch. VI"
+    },
+    {
+      "pdf_page": 307,
+      "read_chapter": "VI",
+      "read": 2,
+      "chapter": "VI",
+      "fitted": 292,
+      "raw": "2                            BOUNDS FOR THE REMAINDER                                                    Ch. VI"
+    },
+    {
+      "pdf_page": 311,
+      "read_chapter": "VI",
+      "read": 96,
+      "chapter": "VI",
+      "fitted": 296,
+      "raw": "96                                    BOUNDS FOR THE REMAINDER                                                                        Ch. VI"
+    },
+    {
+      "pdf_page": 315,
+      "read_chapter": "V",
+      "read": 300,
+      "chapter": "VI",
+      "fitted": 300,
+      "raw": "300                                   HISTORICAL NOTE                                        Ch. V, VI"
+    },
+    {
+      "pdf_page": 326,
+      "read": 1,
+      "chapter": "VII",
+      "fitted": 311,
+      "raw": "1 .                  THE GAMMA FUNCTION IN THE REAL DOMAIN                         311"
+    }
+  ],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 15,
+      "pages": 15,
+      "confidence": "none"
+    },
+    {
+      "from": 16,
+      "to": 16,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 18,
+      "to": 18,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 49,
+      "to": 50,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 65,
+      "to": 66,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 92,
+      "to": 92,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 94,
+      "to": 94,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 106,
+      "to": 107,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 126,
+      "to": 126,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 129,
+      "to": 130,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 133,
+      "to": 133,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 144,
+      "to": 144,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 149,
+      "to": 149,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 155,
+      "to": 155,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 167,
+      "to": 167,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 174,
+      "to": 174,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 178,
+      "to": 178,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 214,
+      "to": 214,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 222,
+      "to": 222,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 224,
+      "to": 226,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 262,
+      "to": 262,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 274,
+      "to": 275,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 277,
+      "to": 277,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 283,
+      "to": 284,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 289,
+      "to": 289,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 295,
+      "to": 295,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 299,
+      "to": 299,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 301,
+      "to": 301,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 305,
+      "to": 307,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 309,
+      "to": 309,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 311,
+      "to": 311,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 313,
+      "to": 315,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 317,
+      "to": 320,
+      "pages": 4,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 326,
+      "to": 327,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 339,
+      "to": 340,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 344,
+      "to": 344,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 346,
+      "to": 350,
+      "pages": 5,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 354,
+      "to": 354,
+      "pages": 1,
+      "confidence": "interpolated"
+    }
+  ]
+}
