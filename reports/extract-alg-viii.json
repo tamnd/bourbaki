@@ -1,21 +1,49 @@
 {
   "book": "alg-viii",
   "pages": 505,
-  "clean": 449,
-  "flagged": 45,
+  "clean": 401,
+  "flagged": 93,
   "empty": 11,
   "reasons": {
     "diagram": 29,
-    "dropped-glyph": 7,
+    "dropped-glyph": 83,
     "empty": 11,
     "stacked-rows": 4,
     "tall-delimiter": 9
   },
   "flagged_pages": [
     {
+      "pdf_page": 23,
+      "page_label": "A VIII.6",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 27,
+      "page_label": "A VIII.10",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 28,
+      "page_label": "A VIII.11",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
       "pdf_page": 41,
       "flags": [
         "empty"
+      ]
+    },
+    {
+      "pdf_page": 51,
+      "page_label": "A VIII.34",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
@@ -25,9 +53,24 @@
       ]
     },
     {
+      "pdf_page": 65,
+      "page_label": "A VIII.48",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 74,
+      "page_label": "A VIII.57",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
       "pdf_page": 76,
       "page_label": "A VIII.59",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -35,6 +78,7 @@
       "pdf_page": 77,
       "page_label": "A VIII.60",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -42,20 +86,64 @@
       "pdf_page": 81,
       "page_label": "A VIII.64",
       "flags": [
+        "dropped-glyph",
         "diagram"
+      ]
+    },
+    {
+      "pdf_page": 84,
+      "page_label": "A VIII.67",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 86,
+      "page_label": "A VIII.69",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
       "pdf_page": 88,
       "page_label": "A VIII.71",
       "flags": [
+        "dropped-glyph",
         "diagram"
+      ]
+    },
+    {
+      "pdf_page": 90,
+      "page_label": "A VIII.73",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
       "pdf_page": 93,
       "flags": [
         "empty"
+      ]
+    },
+    {
+      "pdf_page": 96,
+      "page_label": "A VIII.79",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 99,
+      "page_label": "A VIII.82",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 102,
+      "page_label": "A VIII.85",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
@@ -70,13 +158,22 @@
       "pdf_page": 118,
       "page_label": "A VIII.101",
       "flags": [
+        "dropped-glyph",
         "diagram"
+      ]
+    },
+    {
+      "pdf_page": 123,
+      "page_label": "A VIII.106",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
       "pdf_page": 127,
       "page_label": "A VIII.110",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -90,6 +187,41 @@
       "pdf_page": 151,
       "flags": [
         "empty"
+      ]
+    },
+    {
+      "pdf_page": 163,
+      "page_label": "A VIII.146",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 169,
+      "page_label": "A VIII.152",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 175,
+      "page_label": "A VIII.158",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 183,
+      "page_label": "A VIII.166",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 196,
+      "page_label": "A VIII.179",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
@@ -123,7 +255,15 @@
       "pdf_page": 218,
       "page_label": "A VIII.201",
       "flags": [
+        "dropped-glyph",
         "diagram"
+      ]
+    },
+    {
+      "pdf_page": 224,
+      "page_label": "A VIII.207",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
@@ -134,10 +274,32 @@
       ]
     },
     {
+      "pdf_page": 233,
+      "page_label": "A VIII.216",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
       "pdf_page": 257,
       "page_label": "A VIII.240",
       "flags": [
+        "dropped-glyph",
         "diagram"
+      ]
+    },
+    {
+      "pdf_page": 261,
+      "page_label": "A VIII.244",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 263,
+      "page_label": "A VIII.246",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
@@ -155,9 +317,24 @@
       ]
     },
     {
+      "pdf_page": 292,
+      "page_label": "A VIII.275",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 296,
+      "page_label": "A VIII.279",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
       "pdf_page": 304,
       "page_label": "A VIII.287",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -165,6 +342,7 @@
       "pdf_page": 305,
       "page_label": "A VIII.288",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -172,6 +350,7 @@
       "pdf_page": 307,
       "page_label": "A VIII.290",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -179,6 +358,7 @@
       "pdf_page": 308,
       "page_label": "A VIII.291",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -186,6 +366,7 @@
       "pdf_page": 310,
       "page_label": "A VIII.293",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -193,6 +374,7 @@
       "pdf_page": 311,
       "page_label": "A VIII.294",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -200,20 +382,79 @@
       "pdf_page": 312,
       "page_label": "A VIII.295",
       "flags": [
+        "dropped-glyph",
         "diagram"
+      ]
+    },
+    {
+      "pdf_page": 315,
+      "page_label": "A VIII.298",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
       "pdf_page": 316,
       "page_label": "A VIII.299",
       "flags": [
+        "dropped-glyph",
         "diagram"
+      ]
+    },
+    {
+      "pdf_page": 317,
+      "page_label": "A VIII.300",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 318,
+      "page_label": "A VIII.301",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 319,
+      "page_label": "A VIII.302",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 320,
+      "page_label": "A VIII.303",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 321,
+      "page_label": "A VIII.304",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 322,
+      "page_label": "A VIII.305",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 333,
+      "page_label": "A VIII.316",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
       "pdf_page": 339,
       "page_label": "A VIII.322",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -221,13 +462,22 @@
       "pdf_page": 342,
       "page_label": "A VIII.325",
       "flags": [
+        "dropped-glyph",
         "diagram"
+      ]
+    },
+    {
+      "pdf_page": 345,
+      "page_label": "A VIII.328",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
       "pdf_page": 346,
       "page_label": "A VIII.329",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -242,6 +492,27 @@
       "page_label": "A VIII.336",
       "flags": [
         "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 354,
+      "page_label": "A VIII.337",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 362,
+      "page_label": "A VIII.345",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 363,
+      "page_label": "A VIII.346",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
@@ -262,7 +533,14 @@
       "pdf_page": 373,
       "page_label": "A VIII.356",
       "flags": [
+        "dropped-glyph",
         "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 378,
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
@@ -281,15 +559,44 @@
       ]
     },
     {
+      "pdf_page": 383,
+      "page_label": "A VIII.366",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
       "pdf_page": 389,
       "flags": [
         "empty"
       ]
     },
     {
+      "pdf_page": 395,
+      "page_label": "A VIII.378",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 396,
+      "page_label": "A VIII.379",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 400,
+      "page_label": "A VIII.383",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
       "pdf_page": 403,
       "page_label": "A VIII.386",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -297,6 +604,7 @@
       "pdf_page": 406,
       "page_label": "A VIII.389",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -304,6 +612,7 @@
       "pdf_page": 407,
       "page_label": "A VIII.390",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -317,7 +626,15 @@
       "pdf_page": 416,
       "page_label": "A VIII.399",
       "flags": [
+        "dropped-glyph",
         "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 417,
+      "page_label": "A VIII.400",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
@@ -338,6 +655,7 @@
       "pdf_page": 423,
       "page_label": "A VIII.406",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -345,13 +663,22 @@
       "pdf_page": 424,
       "page_label": "A VIII.407",
       "flags": [
+        "dropped-glyph",
         "tall-delimiter"
+      ]
+    },
+    {
+      "pdf_page": 434,
+      "page_label": "A VIII.417",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
       "pdf_page": 437,
       "page_label": "A VIII.420",
       "flags": [
+        "dropped-glyph",
         "diagram"
       ]
     },
@@ -359,7 +686,15 @@
       "pdf_page": 438,
       "page_label": "A VIII.421",
       "flags": [
+        "dropped-glyph",
         "diagram"
+      ]
+    },
+    {
+      "pdf_page": 447,
+      "page_label": "A VIII.430",
+      "flags": [
+        "dropped-glyph"
       ]
     },
     {
@@ -393,6 +728,34 @@
     {
       "pdf_page": 477,
       "page_label": "A VIII.460",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 481,
+      "page_label": "A VIII.464",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 482,
+      "page_label": "A VIII.465",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 483,
+      "page_label": "A VIII.466",
+      "flags": [
+        "dropped-glyph"
+      ]
+    },
+    {
+      "pdf_page": 499,
+      "page_label": "A VIII.484",
       "flags": [
         "dropped-glyph"
       ]
