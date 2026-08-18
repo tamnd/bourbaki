@@ -46,7 +46,7 @@ subsections:
       pdf_page: 552
 statements: 0
 exercises: 0
-content_sha256: e7914044f0d95580265c23e8a6575cdadb08456b028982fcadff8dadc7e8c5e0
+content_sha256: e7e785486ed1d63a42ea81c99924dbe4ab6c8b535bbf7ffbba15087c80657189
 ---
 
 # NOTE HISTORIQUE
@@ -70,7 +70,7 @@ d’inconnue la fonction $u: I\rightarrow \mathbf{C}$, dans le cas où l’inter
 Lorsque le noyau K est symétrique, nous avons aussi vu comment Hilbert, dans son premier mémoire sur les équations intégrales [**31**], reconnut la parenté entre le problème de Fredholm et la recherche des « axes principaux » d’une forme quadratique. Partant de cette réduction pour des « sections » (discrétisations) finies du noyau K, il obtenait par passage à la limite la formule
 
 $$
-\int_IK(s, t)x(s)x(t)dt=\sum_{n=1}^{\infty}\lambda 1\int_{nI}\varphi_n(s)x(s)ds \tag{2}
+\int_IK(s, t)x(s)x(t)dt=\sum_{n=1}^{\infty}\frac{1}{\lambda_n}\int_I\varphi_n(s)x(s)ds \tag{2}
 $$
 
 où les $\lambda_n$ sont les valeurs propres du noyau K, les $\varphi_n$ forment un système orthonormal de vecteurs propres associé[^2], et où l’égalité est valable dès que $x$ est de carré intégrable sur I (cf. ÉHM, p. 264).

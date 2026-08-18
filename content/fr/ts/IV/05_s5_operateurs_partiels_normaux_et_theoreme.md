@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: 68fe29137337e39774d2be3663cc48282af1a08598bcef495e53011fa0410713
+content_sha256: 69b5351dd3995650723f0a46ffc36026af290268d5960c976d8a6b31adcc9cf5
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -879,7 +879,7 @@ $$
 Soient $x\in \mathbf{R}$ et $\varepsilon  >0$. On a
 
 $$
-|\varepsilon \int^2_{\mathbf{R}}(\frac{\varrho_1(y;\varepsilon)}{y-x + i\varepsilon}-\frac{\varrho_1(y;-\varepsilon)}{y-x-i\varepsilon})dy|\leqslant 2M\varepsilon \int^2_-^r_r\frac{dy}{\surd(x-y)^2 + \varepsilon^2}
+|\varepsilon^2\int_{\mathbf{R}}(\frac{\varrho_1(y;\varepsilon)}{y-x + i\varepsilon}-\frac{\varrho_1(y;-\varepsilon)}{y-x-i\varepsilon})dy|\leqslant 2M\varepsilon^2\int_{-r}^r\frac{dy}{\surd(x-y)^2 + \varepsilon^2}
 $$
 
 $$
