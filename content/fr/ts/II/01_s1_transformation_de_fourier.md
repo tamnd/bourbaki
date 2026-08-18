@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: e97456b13371135b37b6c25588bca97d3335078de9c5d23f8e23b327887e6a43
+content_sha256: 7f094078d4ace52e62888c753e42f17b637d10a30474b21c8028e1297eddcfbf
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -297,7 +297,7 @@ Pour toute mesure $\mu\in \mathscr{M}^1(G)$, les fonctions $\mathscr{F}_G(\mu)$ 
 Soit $\mu\in \mathscr{M}^1(G)$. Pour tout $\chi \in \widehat{G}$, on a
 
 $$
-|\mathscr{F}(\mu)(\chi )|=\int_G\overline{\langle\chi , x\rangle}d\mu(x)\leqslant \|\mu\|_1 \tag{7}
+|\mathscr{F}(\mu)(\chi )|=|\int_G\overline{\langle\chi , x\rangle}d\mu(x)|\leqslant \|\mu\|_1 \tag{7}
 $$
 
 donc la transformée de Fourier de $\mu$ est bornée. Similairement, on vérifie que $\overline{\mathscr{F}}(\mu)$ est bornée.
@@ -767,7 +767,7 @@ $$
 en appliquant le théorème de Lebesgue-Fubini (INT, V, §8, n$^o4$, th. 1, a)) à la fonction $(x, \chi )\mapsto g(x)\varphi (\chi )\langle \chi , x\rangle$ qui est intégrable sur $G\times \widehat{G}$ par rapport à la mesure produit $dx\otimes d\widehat{x}$. On en déduit que
 
 $$
-\int_Gg(x)f(x)dx\leqslant \|\overline{\mathscr{F}}_G(g)\|_2\|\varphi \|_2=\|g\|_2\|\varphi \|_2
+|\int_Gg(x)f(x)dx|\leqslant \|\overline{\mathscr{F}}_G(g)\|_2\|\varphi \|_2=\|g\|_2\|\varphi \|_2
 $$
 
 d’après la formule de Plancherel. La forme linéaire $g\mapsto \int_Gf g$ est donc continue sur $L^1(G)\cap L^2(G)$, et comme $L^1(G)\cap L^2(G)$ est dense dans l’espace hilbertien $L^2(G)$, on en déduit que $f$ appartient à $L^2(G)$.
@@ -823,7 +823,7 @@ L’application canonique $\eta$ de G dans $\widehat{\widehat{G}}$ est un isomor
 Démontrons d’abord que $\eta$ est injective et stricte. Il suffit pour cela de montrer que pour tout voisinage U de $e$ dans G, il existe un voisinage W de $e$ dans $\widehat{\widehat{G}}$ tel que $\overset{-1}{\eta}(W)\subset U$ (lemme 2 de II, p. 200). Or soit V un voisinage compact symétrique de $e$ dans G tel que $V^2\subset U$, soit $f$ une fonction continue positive sur G, à support contenu dans V, et telle que $f(e)>0$. Soit $g=\widetilde{f}*f$. Alors $g$ appartient à A(G), son support est contenu dans U et $g(e)>0$. De plus, $\mathscr{F}_G(g)\in L^1(\widehat{G})$ d’après la prop. 11 de II, p. 217. L’ensemble W des $\xi$ dans $\widehat{\widehat{G}}$ tels que
 
 $$
-\overline{\mathscr{F}}_G(\mathscr{F}_G(g))(\xi )-\overline{\mathscr{F}}_G(\mathscr{F}_G(g))(e)<1g(e)
+|\overline{\mathscr{F}}_G(\mathscr{F}_G(g))(\xi )-\overline{\mathscr{F}}_G(\mathscr{F}_G(g))(e)|<1g(e)
 $$
 
 2
@@ -850,11 +850,9 @@ Puisque l’image de la transformation de Fourier est dense dans $\mathscr{C}_0(
 
 La mesure image $\eta (dx)$ et la mesure $\nu$ duale de la mesure $d\chi$ sont des mesures de Haar sur $\widehat{\widehat{G}}$. Soit $f$ un élément non nul de A(G) ; en particulier $f\in L^2(G)$. D’après la prop. 12 de II, p. 219$,\mathscr{F}_G(f)\in L^1(\widehat{G})$ et l’on a
 
-$\int$ 2 $\int\int$ 2
-
-$\mathscr{F}_G(\mathscr{F}_G(f))\eta (dx) =|f|^2dx=\mathscr{F}_G(\mathscr{F}_G(f))d\nu$,
-
-$\widehat{\widehat{G}}$ G $\widehat{\widehat{G}}$
+$$
+\int_{\widehat{\widehat{G}}}|\overline{\mathscr{F}}_{\widehat{G}}(\mathscr{F}_G(f))|^2\eta (dx) =\int_G|f|^2dx=\int_{\widehat{\widehat{G}}}|\overline{\mathscr{F}}_{\widehat{G}}(\mathscr{F}_G(f))|^2d\nu
+$$
 
 où la deuxième égalité suit de deux applications de la formule de Plancherel, donc la mesure de Haar duale de $d\chi$ est la mesure $\eta (dx)$.
 

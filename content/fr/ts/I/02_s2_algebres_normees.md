@@ -37,7 +37,7 @@ subsections:
       pdf_page: 41
 statements: 28
 exercises: 37
-content_sha256: 1cb61757c0ffa23cd1a84ba2c42167c92c28844b6af03ea3db75c5ea9dfbbd57
+content_sha256: 79f10eaab7729efb2457c83478ac149ad739b79ce2db530223584b3410ea0e46
 ---
 
 ## § 2. ALGÈBRES NORMÉES
@@ -148,7 +148,7 @@ $k=0$
 
 Si $f, g\in A_n$, on a
 
-$n$ 1 $(k)n$ 1 $k(k)(s)(k-s)$
+$n$ 1 $(k)n$ 1 $|k(k)(s)(k-s)|$
 
 $\|f g\|=\sum$ sup$|(f g)(t)|=\sum$ sup $\sum f(t)g(t)$
 

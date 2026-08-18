@@ -25,7 +25,7 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 19
-content_sha256: 8e92a31999da37b616249a5f54740eae733b0d539c82ba4f537dfd554d8c9432
+content_sha256: 45b0ebacea4aa7b5f645b3d603a60a7fc85246d9cc534cb5940459e838b9a605
 ---
 
 ## § 3. SOUS-ESPACES INVARIANTS
@@ -136,7 +136,9 @@ $$
 
 Donc pour tout $x\in M$, on a
 
-1
+$$
+|1|
+$$
 
 $$
 (\varphi *g)(x)-g(x)\leqslant \varepsilon
@@ -219,7 +221,7 @@ puisque V est symétrique.
 c) Si $x\in K$, on a
 
 $$
-\|u-u*\varepsilon_x\|^2_2=\int\mathscr{F}_G(u)(\widehat{x})(1- \langle x,\widehat{x}\rangle )^2dm(\widehat{x})\leqslant m(U)(\eta )^2
+\|u-u*\varepsilon_x\|^2_2=\int|\mathscr{F}_G(u)(\widehat{x})(1- \langle x,\widehat{x}\rangle )||^2dm(\widehat{x})\leqslant m(U)(\eta )^2
 $$
 
 $_{\widehat{G}}$ 4

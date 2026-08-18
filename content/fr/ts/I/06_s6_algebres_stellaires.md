@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: 6c8bb348dc538e5b70e61c4a9825afb915dc2f0c303db9896b1a70a54e57df6d
+content_sha256: eda96f8a4a7ee0a7b5635072161aa4b57dbfec18bf02b9bf1160504d028dd361
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -260,9 +260,11 @@ Soit A une algèbre normée involutive. Pour toute forme linéaire $f$ continue 
 
 La première assertion découle des définitions. Pour la seconde, notons $g$ la restriction de $f$ à $A_h$. On a $\|f\|\geqslant \|g\|$. Montrons l’inégalité réciproque. Pour tout $\varepsilon  >$ 0, il existe $x\in$ A tel que $\|x\|\leqslant 1$ et $|f(x)|\geqslant \|f\| -\varepsilon$. En multipliant $x$ par un nombre complexe de module 1, on peut supposer $f(x)\geqslant 0$. Alors l’élément $\frac{1}{2}(x+x^*)$ appartient à $A_h$ et est de norme $\leqslant 1$. On a
 
-$(1_*)$ 1 $*$
+$|(1_*)|$ 1 $*$
 
-$g(x+x)$ = $f(x) +f(x)=f(x)\geqslant \|f\| -\varepsilon$
+$$
+g(x+x)|=|f(x) +f(x)|=f(x)\geqslant \|f\| -\varepsilon
+$$
 
 2 2
 
@@ -736,7 +738,7 @@ On a $0\in A_+$. Pour tout $\lambda \in \mathbf{R}_+^*$ et tout $x\in A$, on a S
 
 Pour montrer que $A_+$ est convexe, il suffit de montrer que si $x$ et $y$ sont positifs, alors $x+y\geqslant 0$ (EVT, II, p. 11, prop. 10). Par homothétie, il suffit de démontrer que si $x\geqslant 0$ et $y\geqslant 0$ vérifient de plus $\|x\|\leqslant 1$, $\|y\|\leqslant 1$, alors l’élément $\frac{1}{2}(x+y)$ est positif. Or on a
 
-1 1 1
+$\|$ 1 $\|$ 1 1
 
 $$
 1-(x+y)\leqslant \|1-x\|+\|1-y\|\leqslant 1

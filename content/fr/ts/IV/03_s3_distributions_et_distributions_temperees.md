@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: 273a6b0c67b363bce01e72c27580bd6b534252082e802e75be5e6398236793d8
+content_sha256: cfeab9bfc6816f62c2c2ab6c5e3a9db37795939c81ac453e94c4313de175e658
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -301,7 +301,7 @@ Supposons que $p= +\infty$. Soit $\varepsilon  >0$. La fonction $f$ est uniform�
 Pour tout $m\geqslant m_1$, la fonction $\varphi_m$ est nulle en dehors de $V_m$, positive et d’intégrale 1. On en déduit donc l’inégalité
 
 $$
-|f(x)-f_m(x)|=\int_{\mathbf{R}^n}(f(x)-f(x-y))\varphi_m(y)d\mu(y)\leqslant \varepsilon
+|f(x)-f_m(x)|=|\int_{\mathbf{R}^n}(f(x)-f(x-y))\varphi_m(y)d\mu(y)|\leqslant \varepsilon
 $$
 
 pour tout $x\in \mathbf{R}^n$, d’où le résultat.
@@ -505,7 +505,7 @@ Soit $p\in [1,+\infty ]$. L’injection de $L^p(U)$ dans $\mathscr{D}'(U)$ est c
 Soit $f\in L^p(U)$. Soit K une partie compacte de U, dont on note $\varphi_K$ la fonction caractéristique. Pour toute fonction test $\varphi$ à support contenu dans K, l’inégalité de Hölder implique
 
 $$
-|\langle f, \varphi \rangle |=\int_Uf \varphi  d\mu\leqslant N_p(f)N_q(\varphi )\leqslant N_p(f)N_q(\varphi_K)p_{0,K}(\varphi )
+|\langle f, \varphi \rangle |=|\int_Uf \varphi  d\mu|\leqslant N_p(f)N_q(\varphi )\leqslant N_p(f)N_q(\varphi_K)p_{0,K}(\varphi )
 $$
 
 où $q$ est l’exposant conjugué de $p$.
@@ -919,7 +919,7 @@ donc la mesure $f\cdot \mu$ est tempérée.
 Soit $f\in L^p(\mathbf{R}^n)$ et $\varphi \in \mathscr{S}(\mathbf{R}^n)$. L’inégalité de Hölder implique
 
 $$
-|\langle f\cdot \mu, \varphi \rangle |=\int_{\mathbf{R}^n}f(x)\varphi (x)d\mu(x)\leqslant \|f\|_p\|\varphi \|_q
+|\langle f\cdot \mu, \varphi \rangle |=|\int_{\mathbf{R}^n}f(x)\varphi (x)d\mu(x)|\leqslant \|f\|_p\|\varphi \|_q
 $$
 
 et la continuité de l’application $f\mapsto f\cdot \mu$ résulte alors de la prop. 13 de IV, p. 213.

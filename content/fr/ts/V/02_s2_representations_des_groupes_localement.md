@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: 33189df98c4a7fe48564cb2d45ee89e8248ba9554949d3f80196ca5690e6af6e
+content_sha256: cf514d90ec33cb4c1e920218093ef51623372d96cd14b4847e624e5faba258f1
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -1116,7 +1116,9 @@ $$
 
 pour tout $t\in \mathbf{R}$. De plus,
 
-1 $_{iht}1\int^h_{its}$
+$$
+|1_{iht}||1\int^h_{its}|
+$$
 
 $$
 (e-1)=|t|eds\leqslant |t|
