@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: 2f7f9cf6fa80b7de735506cbb31887857f32a2629f75d5112061d22ef57bc896
+content_sha256: 68fe29137337e39774d2be3663cc48282af1a08598bcef495e53011fa0410713
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -244,7 +244,9 @@ Si $u\in \mathscr{L}$ (E), cette définition coïncide avec EVT, V, p. 42, déf.
 
 Si $u$ est un opérateur partiel auto-adjoint sur E, alors $b(u)$ est hermitien (cor. de la prop. 2 de IV, p. 264) donc $u$ est normal.
 
-Soit D le disque unité ouvert dans $\mathbf{C}$. On note $\beta$ la fonction de $\mathbf{C}$ dans D définie par $\beta (z) =z/\surd\overline{1 + |z|^2}$. C’est un homéomorphisme, dont l’inverse vérifie $\beta^{-1}(z) =z/\surd\overline{1 - |z|^2}$ pour $z\in D$.
+Soit D le disque unité ouvert dans $\mathbf{C}$. On note $\beta$ la fonction de $\mathbf{C}$
+
+dans D définie pardont l’inverse vérifie$\beta \beta (\overset{-1}{z}) =(z) =z/\surd z/\overline{1 +\surd1 - ||z|^2}z$. C’est un homéomorphisme,$|^2$ pour $z\in D$.
 
 Soit $u\in \mathscr{L}(E)$. Il résulte des formules (2) et (3) de la proposition 1 de IV, p. 262 que $u=\beta^{-1}(b(u))$, et donc
 
@@ -346,7 +348,7 @@ Soit X un espace topologique localement compact, soit $\mu$ une mesure positive 
 
 a) L’application $f\mapsto f(m_g)$ de $\mathscr{K}$ (Sp($m_g$)) dans $\mathscr{L}(L^2(X, \mu))$ est donnée par $f\mapsto m_{f\circ g}$;
 
-b) Pour $f_1$ et $f_2$ dans $\mathscr{L}^2(X, \mu)$ de classes $\widetilde{f}_1$ et $\widetilde{f}_2$ dans $L^2(X, \mu)$, la mesure spectrale de $(\widetilde{f}_1,\widetilde{f}_2)$ relative à $m_g$ est la restriction à Sp($m_g$) de la mesure image $g(\overline{f}_1f_2\cdot \mu)$.
+b) Pour $f_1$ et $f_2$ dans $\mathscr{L}^2(X, \mu)$ de classes $\widetilde{f}_1$ et $\widetilde{f}_2$ dans $L^2(X, \mu)$, la mesure spectrale dede la mesure image $g(\frac{(}{f}\widetilde{f}_{11}f,_2\widetilde{f}\cdot_2\mu)$ )relative à. $m_g$ est la restriction à Sp($m_g$)
 
 L’opérateur partiel $m_g$ est normal et $b(m_g) =m_{\beta\circ g}=m_{g(1+|g|^2)^{-1/2}}$ (lemme 2). De plus $\beta (g(x))$ appartient à Sp($m_{\beta\circ g}$) pour tout $x$ en dehors d’un ensemble localement $\mu$-négligeable $Y\subset X$ (proposition 22 de IV, p. 252 et lemme 1 de IV, p. 181). Comme $f_{\beta}(\beta (g(x))) =f(g(x))$ pour tout $x\in X$ - Y, on en déduit que $f(m_g) =m_{f\circ g}$ d’après la définition 3 et le cor. de la prop. 6 de IV, p. 187.
 
@@ -761,55 +763,29 @@ On munit $\mathbf{R}$ (resp. $\mathbf{C})$ de la mesure de Lebesgue, notée $\mu
 Pour toute fonction $f$ définie et différentiable sur un ouvert U de $\mathbf{R}^2$, identifié à $\mathbf{C}$, avec coordonnées réelles $x$ et $y$, on note
 
 $$
-\partial f1(\partial f\partial f)
+\frac{\partial f}{\partial z}=\frac{1}{2}(\frac{\partial f}{\partial x}+i\frac{\partial f}{\partial y})
 $$
 
-= $+i$
-
-$\partial z$ 2 $\partial x\partial y$ (cf. VAR, R2, 8.8.10, p. 24).
+(cf. VAR, R2, 8.8.10, p. 24).
 
 #### Lemme 5 {#ts-iv-s5-lem-5 .statement tag=0367}
 
 Soit $f\in \mathscr{D}(\mathbf{R})$. Il existe une fonction $\widetilde{f}$ dans $\mathscr{D}(\mathbf{C})$ qui coïncide avec $f$ sur $\mathbf{R}$ et vérifie
 
 $$
-\partial \widetilde{f}
-$$
-
-$$
-(x,0) = 0 \tag{11}
-$$
-
-$$
-\partial z
+\frac{\partial\widetilde{f}}{\partial z}(x,0) = 0 \tag{11}
 $$
 
 pour tout $x\in \mathbf{R}$. On a alors
 
 $$
-\partial \widetilde{f}'
-$$
-
-$$
-(x,0) =if(x) \tag{12}
-$$
-
-$$
-\partial y
+\frac{\partial\widetilde{f}}{\partial y}(x,0) =if'(x) \tag{12}
 $$
 
 pour tout $x\in \mathbf{R}$ et il existe un nombre réel $C\geqslant 0$ tel que
 
 $$
-|\partial \widetilde{f}|
-$$
-
-$$
-(x, y)\leqslant C|y| \tag{13}
-$$
-
-$$
-\partial z
+|\frac{\partial\widetilde{f}}{\partial z}(x, y)|\leqslant C|y| \tag{13}
 $$
 
 pour tout $(x, y)\in \mathbf{R}^2$.
@@ -823,14 +799,8 @@ $$
 pour $(x, y)\in \mathbf{R}^2$. On a $\widetilde{f}\in \mathscr{D}(\mathbf{C})$ et $\widetilde{f}$ coïncide avec $f$ sur $\mathbf{R}$. De plus, quel que soit $(x, y)\in \mathbf{R}^2$, il vient
 
 $$
-\partial \widetilde{f}1('''')
+\frac{\partial\widetilde{f}}{\partial z}(x, y) =\frac{1}{2}((if(x)-yf'(x))\varphi '(y) +iyf''(x)\varphi (y))
 $$
-
-$$
-(x, y) =(if(x)-yf(x))\varphi (y) +iyf(x)\varphi (y)
-$$
-
-$\partial z$ 2
 
 Comme la fonction $\varphi$ est égale à 1 au voisinage de 0, on a $\varphi '(0) = 0$, d’où (11).
 
@@ -843,29 +813,13 @@ On dit que $\widetilde{f}$ est une extension presque analytique de $f$.
 Soit $\varepsilon  >0$. La fonction $\sigma_{\varepsilon}$ définie sur $\mathbf{R}$ par
 
 $$
-2i\varepsilon x
-$$
-
-$$
-\sigma_{\varepsilon}(x) =
-$$
-
-$$
-x^2+\varepsilon^2
+\sigma_{\varepsilon}(x) =\frac{2i\varepsilon x}{x^2 + \varepsilon^2}
 $$
 
 appartient à $L^2(\mathbf{R})$. Sa transformée de Fourier est la classe dans $L^2(\mathbf{R})$ de la fonction $\eta_{\varepsilon}$ qui est nulle en 0 et vérifie
 
 $$
-2\pi \varepsilon y_{-2\pi \varepsilon|y|}
-$$
-
-$$
-\eta_{\varepsilon}(y) =e
-$$
-
-$$
-|y|
+\eta_{\varepsilon}(y) =\frac{2\pi \varepsilon y}{|y|}e^{-2\pi \varepsilon|y|}
 $$
 
 pour tout $y\not = 0$.
@@ -877,13 +831,7 @@ $$
 $$
 
 $$
-\varepsilon \varepsilon 2i\varepsilon x
-$$
-
-= $-$ =,
-
-$$
-\varepsilon -ix\varepsilon +ixx^2+\varepsilon^2
+=\frac{\varepsilon}{\varepsilon-ix}-\frac{\varepsilon}{\varepsilon + ix}=\frac{2i\varepsilon x}{x^2 + \varepsilon^2}
 $$
 
 d’où $\overline{\mathscr{F}}(\eta_{\varepsilon}) =\sigma_{\varepsilon}$. Le résultat découle alors de la formule d’inversion de Fourier dans $L^2(\mathbf{R})$ (corollaire du théorème 2 de II, p. 220).
@@ -892,26 +840,16 @@ d’où $\overline{\mathscr{F}}(\eta_{\varepsilon}) =\sigma_{\varepsilon}$. Le r
 
 Soit $f\in \mathscr{D}(\mathbf{R})$ et soit $\widetilde{f}\in \mathscr{D}(\mathbf{C})$ une extension presque analytique de $f$. Pour $\varepsilon  >0$, définissons $f_{\varepsilon}$ sur $\mathbf{R}$ par
 
-1 $\int(\widetilde{f}(y+i\varepsilon )\widetilde{f}(y-i\varepsilon ))$
-
 $$
-f_{\varepsilon}(x) =--dy
-$$
-
-$$
-2i\pi_{\mathbf{R}}y-x+i\varepsilon y-x-i\varepsilon
+f_{\varepsilon}(x) =-\frac{1}{2i\pi}\int_{\mathbf{R}}(\frac{\widetilde{f}(y + i\varepsilon)}{y-x + i\varepsilon}-\frac{\widetilde{f}(y-i\varepsilon)}{y-x-i\varepsilon})dy
 $$
 
 Alors $f_{\varepsilon}$ est continue et bornée, et $f_{\varepsilon}$ converge vers $f$ dans $\mathscr{C}_b(\mathbf{R})$ quand $\varepsilon$ tend vers 0.
 
 La continuité de $f_{\varepsilon}$ est conséquence de INT, IV, p. 144, § 4, n$^o3$, cor. 1, puisque $\widetilde{f}$ est à support compact. De plus, si $r$ est tel que le support de $\widetilde{f}$ est contenu dans $[-r, r]\times \mathbf{R}$, on a
 
-$\int^r$ 1 $4r$
-
-$|f_{\varepsilon}(x)|\leqslant 2\|\widetilde{f}\|_{\infty}$ 2 $_2dy\leqslant \|\widetilde{f}\|_{\infty}$,
-
 $$
-_{-r}\surd(x-y)+\varepsilon \varepsilon
+|f_{\varepsilon}(x)|\leqslant 2\|\widetilde{f}\|_{\infty}\int_{-r}^r\frac{1}{\surd(x-y)^2 + \varepsilon^2}dy\leqslant \frac{4r}{\varepsilon}\|\widetilde{f}\|_{\infty}
 $$
 
 donc $f_{\varepsilon}$ est bornée.
@@ -925,55 +863,23 @@ pour tout $y\in \mathbf{R}$ et $\gamma \in \mathbf{R}$. Comme l’application $y
 Soit $g_{\varepsilon}$ la fonction définie sur $\mathbf{R}^2$ par
 
 $$
-\widetilde{f}(y+i\varepsilon )\widetilde{f}(y-i\varepsilon )
-$$
-
-$$
-g_{\varepsilon}(x, y) =-
-$$
-
-$$
-y-x+i\varepsilon y-x-i\varepsilon
+g_{\varepsilon}(x, y) =\frac{\widetilde{f}(y + i\varepsilon)}{y-x + i\varepsilon}-\frac{\widetilde{f}(y-i\varepsilon)}{y-x-i\varepsilon}
 $$
 
 Pour tout $(x, y)\in \mathbf{R}^2$ et $\varepsilon  >0$, on obtient
 
 $$
-2i\varepsilon 2i\varepsilon (y-x)'
+g^{\varepsilon}(x, y) =-\frac{2i\varepsilon}{(x-y)^2 + \varepsilon^2}f(y) +\frac{2i\varepsilon(y-x)}{(x-y)^2 + \varepsilon^2}f'(y)
 $$
 
 $$
-g_{\varepsilon}(x, y) =-f(y) +f(y)
-$$
-
-$$
-(x-y)^2+\varepsilon^2(x-y)^2+\varepsilon^2
-$$
-
-$$
-_2(\varrho_1(y;\varepsilon )\varrho_1(y;-\varepsilon ))
-$$
-
-$$
-+\varepsilon -
-$$
-
-$$
-y-x+i\varepsilon y-x-i\varepsilon
++\varepsilon_2(\frac{\varrho_1(y; \varepsilon)}{y-x + i\varepsilon}-\frac{\varrho_1(y;-\varepsilon)}{y-x-i\varepsilon})
 $$
 
 Soient $x\in \mathbf{R}$ et $\varepsilon  >0$. On a
 
 $$
-|_2\int(\varrho_1(y;\varepsilon )\varrho_1(y;-\varepsilon ))|_2\int^rdy
-$$
-
-$$
-\varepsilon -dy\leqslant 2M\varepsilon
-$$
-
-$$
-_{\mathbf{R}}y-x+i\varepsilon y-x-i\varepsilon -_r\surd\overline{(x-y)^2 + \varepsilon^2}
+|\varepsilon \int^2_{\mathbf{R}}(\frac{\varrho_1(y;\varepsilon)}{y-x + i\varepsilon}-\frac{\varrho_1(y;-\varepsilon)}{y-x-i\varepsilon})dy|\leqslant 2M\varepsilon \int^2_-^r_r\frac{dy}{\surd(x-y)^2 + \varepsilon^2}
 $$
 
 $$
@@ -982,26 +888,14 @@ $$
 
 Par conséquent, pour tout $x\in \mathbf{R}$, il vient
 
-1 $\int$ 1 $'$
-
 $$
-f_{\varepsilon}(x) =-g_{\varepsilon}(x, y)dy= (f*\delta_{\varepsilon})(x)-(f*\sigma_{\varepsilon})(x) +k_{\varepsilon}(x)
-$$
-
-$$
-2i\pi_{\mathbf{R}}2i\pi
+f_{\varepsilon}(x) =-\frac{1}{2i\pi}\int_{\mathbf{R}}g_{\varepsilon}(x, y)dy= (f*\delta_{\varepsilon})(x)-\frac{1}{2i\pi}(f'*\sigma_{\varepsilon})(x) +k_{\varepsilon}(x)
 $$
 
 où $\delta_{\varepsilon}$ et $\sigma_{\varepsilon}$ sont les fonctions sur $\mathbf{R}$ définies par
 
-1 $\varepsilon 2i\varepsilon x$
-
 $$
-\delta_{\varepsilon}(x) =_{22},\sigma_{\varepsilon}(x) =_{22}
-$$
-
-$$
-\pi x+\varepsilon x+\varepsilon
+\delta_{\varepsilon}(x) =\frac{1}{\pi}\frac{\varepsilon}{x^2 + \varepsilon^2},\sigma_{\varepsilon}(x) =\frac{2i\varepsilon x}{x^2 + \varepsilon^2}
 $$
 
 et $\|k_{\varepsilon}\|_{\infty}\leqslant 2Mr\varepsilon$.
@@ -1027,29 +921,13 @@ On note $\mu$ la mesure de Lebesgue sur $\mathbf{C}$.
 Soit $u$ un opérateur partiel auto-adjoint sur E. Soient $f\in \mathscr{D}(\mathbf{R})$ et $\widetilde{f}\in \mathscr{D}(\mathbf{C})$ une extension presque analytique de $f$. Soit $h$ l’application de $\mathbf{C}$ dans $\mathscr{L}(E)$ définie par
 
 $$
-\partial \widetilde{f}
-$$
-
-$$
-h(\lambda ) =(\lambda )R(u, \lambda )
-$$
-
-$$
-\partial z
+h(\lambda ) =\frac{\partial\widetilde{f}}{\partial z}(\lambda )R(u, \lambda )
 $$
 
 si $\lambda \in \mathbf{C}-\mathbf{R}$ et $h(\lambda ) = 0$ si $\lambda \in \mathbf{R}$. Alors $h$ est $\mu$-intégrable sur $\mathbf{C}$ et
 
 $$
-1\int
-$$
-
-$$
-f(u) =-h(\lambda )d\mu(\lambda )
-$$
-
-$$
-\pi_{\mathbf{C}}
+f(u) =-\frac{1}{\pi}\int_{\mathbf{C}}h(\lambda )d\mu(\lambda )
 $$
 
 L’application $h$ est mesurable et son support est compact. Comme $u$ est auto-adjoint, on a $\|R(u, \lambda )\|\leqslant |\mathscr{I}(\lambda )|^{-1}$ pour tout $\lambda \in \mathbf{C}-\mathbf{R}$ (prop. 17 de IV, p. 248). L’application $h$ est donc bornée d’après la formule (13), et par conséquent elle est intégrable sur $\mathbf{C}$.
@@ -1071,75 +949,37 @@ Soit $r >0$ tel que le support de $h$ est contenu dans $C = [-r, r]^2$. Notons $
 Notons $d\lambda$ (resp. $d\lambda )$ la forme différentielle de degré 1 sur $\mathbf{C}$ différentielle de l’application identité de $\mathbf{C}$ (resp. de la conjugaison complexe). Notons $g$ la fonction sur $\mathbf{C}-\mathbf{R}$ à valeurs dans $\mathscr{L}(E)$ telle que $g(\lambda ) =\widetilde{f}(\lambda )R(u, \lambda )$ pour $\lambda \in \mathbf{C}-\mathbf{R}$. Soit $\omega =g d\lambda$; c’est une forme différentielle de degré 1 sur $\mathbf{C}-\mathbf{R}$, à support compact et à valeurs dans $\mathscr{L}(E)$. Puisque la résolvante de $u$ est holomorphe (prop. 14 de IV, p. 246), on a
 
 $$
-(\partial \widetilde{f}\partial )
-$$
-
-$$
-d\omega =(\lambda )R(u, \lambda ) +\widetilde{f}(\lambda )R(u, \lambda )d\lambda \wedge d\lambda =-h(\lambda )d\lambda \wedge d\lambda
-$$
-
-$$
-\partial z\partial z
+d\omega =(\frac{\partial\widetilde{f}}{\partial z}(\lambda )R(u, \lambda ) +\widetilde{f}(\lambda )\frac{\partial}{\partial z}R(u, \lambda ))d\lambda \wedge d\lambda =-h(\lambda )d\lambda \wedge d\lambda
 $$
 
 La mesure vectorielle associée à $d\omega$ (VAR, R2, 10.4.3, p. 43) est la mesure de densité $-2ih$ par rapport à la mesure de Lebesgue. En appliquant la formule de Stokes à l’ensemble localement polyédral $R_{\varepsilon}^+$ et à la forme différentielle $\omega$ (VAR, R2, 11.3.4, p. 49), on obtient donc
 
 $$
-i\int i\int i\int i\int^r
+\frac{i}{2}\int_{R^+_{\varepsilon}}d\omega =\frac{i}{2}\int_{\partial R^+_{\varepsilon}}\omega =\frac{i}{2}\int_{S_{\varepsilon}}\omega =\frac{i}{2}\int_{-r}^r\widetilde{f}(y+i\varepsilon )R(u, y+i\varepsilon )dy
 $$
-
-$$
-d\omega =\omega =\omega =\widetilde{f}(y+i\varepsilon )R(u, y+i\varepsilon )dy
-$$
-
-2 $_{R^+_{\varepsilon}}$ 2 $_{\partial R^+_{\varepsilon}}$ 2 $_{S_{\varepsilon}}$ 2 $_{-r}$
 
 d’où
 
 $$
-\int i\int
+\int_{F^+_{\varepsilon}}h(\lambda )d\mu(\lambda ) =-\frac{i}{2}\int_{\mathbf{R}}\widetilde{f}(y+i\varepsilon )R(u, y+i\varepsilon )dy
 $$
-
-$$
-h(\lambda )d\mu(\lambda ) =-\widetilde{f}(y+i\varepsilon )R(u, y+i\varepsilon )dy
-$$
-
-$_{F^+_{\varepsilon}}$ 2 $_{\mathbf{R}}$
 
 En raisonnant de même pour $F^-_{\varepsilon}$, on obtient
 
 $$
-\int i\int
+\int_{F^-_{\varepsilon}}h(\lambda )d\mu(\lambda ) =-\frac{i}{2}\int_{\mathbf{R}}\widetilde{f}(y-i\varepsilon )R(u, y-i\varepsilon )dy
 $$
-
-$$
-h(\lambda )d\mu(\lambda ) =-\widetilde{f}(y-i\varepsilon )R(u, y-i\varepsilon )dy
-$$
-
-$_{F^-_{\varepsilon}}$ 2 $_{\mathbf{R}}$
 
 et on conclut que l’intégrale de $h$ sur $\mathbf{C}$ est la limite quand $\varepsilon \rightarrow 0$ de
 
 $$
-i\int()
+v_{\varepsilon}=\frac{i}{2}\int_{\mathbf{R}}(\widetilde{f}(y+i\varepsilon )R(u, y+i\varepsilon )-\widetilde{f}(y-i\varepsilon )R(u, y-i\varepsilon ))dy
 $$
-
-$$
-v_{\varepsilon}=\widetilde{f}(y+i\varepsilon )R(u, y+i\varepsilon )-\widetilde{f}(y-i\varepsilon )R(u, y-i\varepsilon )dy
-$$
-
-2 $_{\mathbf{R}}$
 
 D’après la prop. 7, on a $v_{\varepsilon}=\pi f_{\varepsilon}(u)$, où $f_{\varepsilon}$ est la fonction définie sur $\mathbf{R}$ par
 
-1 $\int(\widetilde{f}(y+i\varepsilon )\widetilde{f}(y-i\varepsilon ))$
-
 $$
-f_{\varepsilon}(x) =--dy
-$$
-
-$$
-2i\pi_{\mathbf{R}}y-x+i\varepsilon y-x-i\varepsilon
+f_{\varepsilon}(x) =-\frac{1}{2i\pi}\int_{\mathbf{R}}(\frac{\widetilde{f}(y + i\varepsilon)}{y-x + i\varepsilon}-\frac{\widetilde{f}(y-i\varepsilon)}{y-x-i\varepsilon})dy
 $$
 
 Comme $f_{\varepsilon}\rightarrow f$ quand $\varepsilon \rightarrow 0$ dans $\mathscr{C}_b(\mathbf{R})$ (lemme 7), l’endomorphisme $v_{\varepsilon}=\pi f_{\varepsilon}(u)$ converge vers $\pi f(u)$ dans $\mathscr{L}(E)$ (prop. 5 de IV, p. 275). Le théorème est démontré.
@@ -1169,15 +1009,7 @@ Comme $\mathscr{T}$ est moins fine que la topologie d’espace de Banach de $\ma
 Supposons d’abord que $f\in \mathscr{D}(\mathbf{R})$. Soit $\widetilde{f}$ une extension presque analytique de $f$. Notons $\mu$ la mesure de Lebesgue sur $\mathbf{C}$. D’après la formule de Helffer–Sjöstrand (th. 2 de IV, p. 284), on a
 
 $$
-1\int\partial \widetilde{f}
-$$
-
-$$
-\varpi (f(u_n)) =-(\lambda )\varpi (R(u_n, \lambda ))d\mu(\lambda ) \tag{14}
-$$
-
-$$
-\pi_{\mathbf{C}}\partial z
+\varpi (f(u_n)) =-\frac{1}{\pi}\int_{\mathbf{C}}\frac{\partial\widetilde{f}}{\partial z}(\lambda )\varpi (R(u_n, \lambda ))d\mu(\lambda ) \tag{14}
 $$
 
 pour tout $n\in \mathbf{N}$.
@@ -1186,18 +1018,14 @@ Soit $\lambda \in \mathbf{C}-\mathbf{R}$. Par hypothèse, la suite des résolvan
 
 Pour tout $n\in \mathbf{N}$, on a
 
-$\|\partial \widetilde{f}\||$ 1 $\partial \widetilde{f}|$
-
 $$
-\overline{\partial z}(\lambda )R(u^n, \lambda )\leqslant \overline{\mathscr{I} (\lambda)}\overline{\partial z}(\lambda )
+\|\frac{\partial\widetilde{f}}{\partial z}(\lambda )R(u^n, \lambda )\|\leqslant |\frac{1}{\mathscr{I} (\lambda)}\frac{\partial\widetilde{f}}{\partial z}(\lambda )|
 $$
 
 (prop. 17 de IV, p. 248) donc
 
-$\|\partial \widetilde{f}\||$ 1 $\partial \widetilde{f}|$
-
 $$
-\overline{\partial z}(\lambda )\varpi (R(u^n, \lambda ))_p\leqslant c\overline{\mathscr{I} (\lambda)}\overline{\partial z}(\lambda )
+\|\frac{\partial\widetilde{f}}{\partial z}(\lambda )\varpi (R(u^n, \lambda ))\|_p\leqslant c|\frac{1}{\mathscr{I} (\lambda)}\frac{\partial\widetilde{f}}{\partial z}(\lambda )|
 $$
 
 La majoration (13) de IV, p. 281 démontre que le membre de droite de cette inégalité est une fonction bornée pour $\lambda \in \mathbf{C}-\mathbf{R}$; elle est intégrable sur $\mathbf{C}$ puisque $\widetilde{f}$ est à support compact. On déduit du théorème de Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6) et de la formule de Helffer–Sjöstrand appliquée à $f$ que $\varpi (f(u_n))$ converge vers $\varpi (f(u))$, donc $p(f(u_n)-f(u))$ tend vers 0.
@@ -1314,7 +1142,9 @@ $$
 
 Par conséquent, les espaces hilbertiens $E_u$ et $E_{|u|}$ sont égaux (lemme 8), donc dom($u$) $=$ dom($|u|$) et $\|u(x)\|$ = $\||u|(x)\|$ pour tout $x\in$ dom($u$).
 
-La formule (16) implique que Ker($u$) $=$ Ker($|u|$) et qu’il existe une unique application linéaire isométrique $v$ de Im($|u|$) sur Im($u$) qui vérifie $v(|u|(x)) =u(x)$ pour tout $x\in$ dom($|u|$). Puisque $|u|$ est auto-adjoint, on a Im($|u|$)$^{\circ}=$ Ker($|u|$) (prop. 7, c) de IV, p. 236). Il existe donc une unique isométrie partielle $j$ de E dans F qui prolonge $v$ et s’annule sur Ker($|u|$) $=$ Ker($u$). Comme E = Ker($u$)$\oplus$ Im($|u|$), cette application est l’unique application partiellement isométrique telle que $u=j|u|$ et Ker($j$) $=$ Ker($u$).
+unique application linéaire isométriqueLa formule (16) implique que Ker($uv$) $=$ Ker(de Im($|u|u|$) sur Im($|$) et qu’il existe une$u)$ qui vérifie
+
+$v(|u|(x)) =u(x)$ pour tout $x\in$ dom($|u|$). Puisque $|u|$ est auto-adjoint, on a Im($|u|$)$^{\circ}=$ Ker($|u|$) (prop. 7, c) de IV, p. 236). Il existe donc une unique isométrie partielle $j$ de E dans F qui prolonge $v$ et s’annule sur Ker($|u|$) $=$ Ker($u$). Comme E = Ker($u$)$\oplus$ Im($|u|$), cette application est l’unique application partiellement isométrique telle que $u=j|u|$ et Ker($j$) $=$ Ker($u$).
 
 Démontrons c). On a $u_1j_1^*j_1u_1\subset (j_1u_1)^*j_1u_1=u^*u$. L’application linéaire $j_1^*j_1$ est l’orthoprojecteur de noyau Ker($j_1$) $=$ Ker($u_1$) (EVT, V, p. 41, prop. 5 (ii)) et donc d’image Ker($u_1$)$^{\circ}=$ Im($u_1$) (prop. 7, c) de IV, p. 236). Par conséquent, $u^2_1\subset u^*u$, d’où $u^2_1=u^*u$ puisque ces deux opérateurs sont auto-adjoints. Ainsi, il vient $u_1= (u^*u)^{1/2}$, et l’assertion d’unicité de b) démontre finalement que $j_1=j$.
 
@@ -1524,13 +1354,7 @@ Dans ce numéro, E est un espace hilbertien complexe non nul.
 
 Soit $u$ un opérateur partiel auto-adjoint sur E. On suppose que $u$ est minoré par $c\in \mathbf{R}$ (déf. 7 de IV, p. 237). On a
 
-$$
-\langle x|u(x)\rangle
-$$
-
-inf(Sp($u$)) $=$ inf $\in [c,+\infty [$.
-
-$x\in$dom($u$)$-\{0\}\|x\|2$
+inf(Sp($u$)) $=$ inf$_{x\in dom(u)-\{0\}}\frac{\langle x|u(x)\rangle}{\|x\|^2}\in [c,+\infty [$.
 
 Soit $m$ le membre de droite de l’égalité à démontrer. Soient $x\in E$ et $\mu_x$ la mesure spectrale de $x$ relative à $u$. On a
 
@@ -1546,13 +1370,7 @@ $\geqslant$ inf(Sp($u$))$\int_{Sp(u)}d\mu_x(t) =$ inf(Sp($u$))$\|x\|^2$,
 
 La prop. 9 de I, p. 139 correspond au cas particulier de cette proposition lorsque $u$ est un élément hermitien de $\mathscr{L}$ (E), qui est alors nécessairement minoré. Dans ce cas, on a également
 
-$$
-\langle x|u(x)\rangle
-$$
-
-sup(Sp($u$)) $=$ sup
-
-$x\in$dom($u$)$-\{0\}\|x\|2$
+sup(Sp($u$)) $=$ sup$_{x\in dom(u)-\{0\}}\frac{\langle x|u(x)\rangle}{\|x\|^2}$
 
 (loc. cit.) ; si $u$ n’appartient pas à $\mathscr{L}$ (E), alors cette borne supérieure est $+\infty$.
 
@@ -1636,23 +1454,11 @@ La condition $k < \ell$ est impossible, car $\nu_k< \nu_{\ell}$, et l’espace F
 
 Pour tout sous-espace F de E, on note
 
-$$
-\langle x|u(x)\rangle
-$$
-
-$\widetilde{r}_F(u) =$ inf,
-
-$$
-_{x\in dom(u)\cap F^{\circ}}\|x\|^2
-$$
+$\widetilde{r}_F(u) =$ inf$_{x\in dom(u)\cap F^{\circ}}\frac{\langle x|u(x)\rangle}{\|x\|^2}$,
 
 $x\not =0$
 
-$$
-\langle x|u(x)\rangle
-$$
-
-$\widetilde{R}_F(u) =$ sup 2.
+$\widetilde{R}_F(u) =$ sup $\frac{\langle x|u(x)\rangle}{2}$.
 
 $$
 _{x\in dom(u)\cap F}\|x\|
@@ -1759,11 +1565,7 @@ Démontrons finalement que (19) et (20) sont des égalités lorsque $n\geqslant 
 Il existe $F\in \mathscr{F}_n$ contenant $E_b$. Tout élément $x\not = 0$ de dom($u$) orthogonal à F est donc orthogonal à $E_b$, et vérifie
 
 $$
-\langle x|u(x)\rangle
-$$
-
-$$
-_2\geqslant \varrho_e
+\frac{\langle x|u(x)\rangle}{2}\geqslant \varrho_e
 $$
 
 $$
@@ -1798,14 +1600,8 @@ Supposons d’abord que $\lambda \in$ Sp$_e(u)$. Si le projecteur spectral de $u
 
 Pour tout $k\in \mathbf{N}$, soit $J_k$ l’ensemble des $t\in [\lambda -1, \lambda + 1]$ tels que
 
-1 1
-
 $$
-<|t-\lambda |\leqslant
-$$
-
-$$
-k+ 2k+ 1
+\frac{1}{k + 2}<|t-\lambda |\leqslant \frac{1}{k + 1}
 $$
 
 Les ensembles $J_k$ sont deux à deux disjoints. De plus, pour tout entier $K\in \mathbf{N}$, les ensembles $(J_k)_{k\geqslant K}$ forment une partition de l’ensemble
@@ -1818,9 +1614,9 @@ Comme le projecteur spectral de $u$ relatif à $I_K\cup  \{0\}$ est de rang infi
 
 Soit $n\in \mathbf{N}$. Notons $\mu_n$ la mesure spectrale de $x_n$ relative à $u$; son support est contenu dans $J_{k_n}$ (prop. 9 de IV, p. 278). Il vient
 
-$_2\int_2$ 1
-
-$\|u(x_n)-\lambda x_n\|$ = $|t-\lambda |d\mu_n(t)\leqslant_2$,
+$$
+\|u(x_n)-\lambda x_n\|^2=\int|t-\lambda |^2d\mu_n(t)\leqslant 1_2
+$$
 
 $$
 _{\mathbf{C}}k_n
@@ -1837,23 +1633,15 @@ $$
 $$
 
 $$
-1\int_2
-$$
-
-$$
-\leqslant \mu_n(I_{\varepsilon}) +_2|t-\lambda |d\mu_n(t)
+\leqslant \mu_n(I_{\varepsilon}) +1_2\int|t-\lambda |^2d\mu_n(t)
 $$
 
 $$
 \varepsilon_{\mathbf{R}-I_{\varepsilon}}
 $$
 
-$_2$ 1 2
-
-$=\|p_{\varepsilon}(x_n)\|$ + $\|u(x_n)-\lambda x_n\|$.
-
 $$
-\varepsilon^2
+=\|p_{\varepsilon}(x_n)\|^2+\frac{1}{\varepsilon^2}\|u(x_n)-\lambda x_n\|^2
 $$
 
 L’hypothèse sur la suite $(x_n)$ implique donc que la norme de $p_{\varepsilon}(x_n)$ ne peut tendre vers 0. Comme la suite orthonormale $(x_n)$ converge faiblement vers 0 dans E (lemme 13), le projecteur $p_{\varepsilon}$ ne peut pas être compact (cor. de la prop. 6 de III, p. 6) et il est par conséquent de rang infini. Comme cela vaut pour tout $\varepsilon  >0$, le lemme 9 de IV, p. 297 permet de conclure que $\lambda \in$ Sp$_e(u)$.
@@ -2055,15 +1843,7 @@ pour tout $(\varphi_1, \varphi_2)\in \mathscr{D}(U)\times \mathscr{D}(U)$. Autre
 *Supposons que U est borné. L’injection canonique de $H^1_0(U)$ dans $L^2(U)$ est compacte ; le laplacien de Dirichlet sur U est donc un opérateur à résolvante compacte (cor. de la prop. 20). Comme l’espace hilbertien $H^1_0(U)$ est de type dénombrable (prop. 20 de IV, p. 222), et comme l’image de $\Delta_D$ est de dimension infinie, il existe une suite croissante $(\lambda_n)_{n\geqslant 0}$ de nombre réels tendant vers $+\infty$ et une base orthonormale $(f_n)_{n\in\mathbf{N}}$ de $L^2$(U), dont les éléments appartiennent au domaine de $\Delta_D$, telle que $\Delta_D(f_n) =\lambda_nf_n$ pour tout $n\in \mathbf{N}$. On peut démontrer (« loi de Weyl ») que lorsque T tend vers $+\infty$, on a
 
 $$
-c_{nn/2}
-$$
-
-$$
-\sum 1\sim mT
-$$
-
-$$
-_{n\in\mathbf{N}}(2\pi )^n
+\sum_{n\in\mathbf{N}}1\sim \frac{c_n}{(2\pi)^n}mT^{n/2}
 $$
 
 $\lambda_n\leqslant T$

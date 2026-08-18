@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: cf514d90ec33cb4c1e920218093ef51623372d96cd14b4847e624e5faba258f1
+content_sha256: 1246390c78aa05c44183680ca31a95b0a52fb8f8220c86b5e17ebfd02aeba224
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -119,11 +119,7 @@ $$
 $$
 
 $$
-=\int^G_G\langle \varrho (g^{-1})x|y\rangle d\nu (g) =\int_G\langle \varrho (g)x|y\rangle d\check{\nu}(g)
-$$
-
-$$
-=\int_G\langle y|\varrho (g)x\rangle d\nu^*(g) =\langle \varrho (\nu^*)x|y\rangle
+=\int^G_G\langle \varrho (g^{-1})x|y\rangle d\nu =(g\int) =_G\langle y\int|_G\varrho \langle (\varrho g()gx)\rangle xd\nu |y_*(\rangle dg) =\check{\nu}(g)\langle \varrho (\nu_*)x|y\rangle
 $$
 
 pour tous $x$ et $y$ dans E, d’où $\varrho (\nu )^*=\varrho (\nu^*)$.
@@ -491,11 +487,7 @@ pour tout $x\in G$. Dans tous les cas, la fonction $w$ est continue et positive 
 Soit $s$ la fonction sur G à valeurs dans E définie par le lemme 5 appliqué à $f$. Posons $g=\varphi s$. La fonction $g$ est $\mu$-mesurable, et vérifie $\|g\|\leqslant \|f\|/$ inf$_{x\in C\cdot H}v(x)$. Puisque $g$ est nulle en dehors du support de $u$ et que $\kappa$ est continue, on a $g\in \mathscr{L}_E^p(G, \kappa \cdot \mu)$. Soit $\widetilde{g}$ une fonction dans $\mathscr{K}_E(G)$ telle que
 
 $$
-\int^*p\varepsilon
-$$
-
-$$
-\|g-\widetilde{g}\|\kappa  d\mu\leqslant_p
+\int^*\|g-\widetilde{g}\|^p\kappa  d\mu\leqslant \varepsilon_p
 $$
 
 $_G$ W
@@ -573,15 +565,7 @@ On garde les notations et conventions du numéro précédent concernant les mesu
 Il existe une fonction continue $\eta$ de $G\times G/H$ dans $\mathbf{R}_+^*$ telle que
 
 $$
-\kappa (xy)
-$$
-
-$$
-\eta (x, yH) =
-$$
-
-$$
-\kappa (x)
+\eta (x, yH) =\frac{\kappa(xy)}{\kappa(x)}
 $$
 
 pour tout $(x, y)\in G\times G$, et $\boldsymbol{\gamma }_{G/H}(x)\nu = (y\mapsto \eta (x^{-1}, y))\cdot \nu$ pour $x\in G$ (INT, VII, p. 56, § 2, n$^o5$, th. 2, c)).
@@ -623,13 +607,7 @@ Soit $\varrho$ une représentation unitaire de H dans un espace hilbertien compl
 Soit $\kappa ': G\rightarrow \mathbf{R}_+^*$ telle que
 
 $$
-\kappa '(xh)\Delta_H(h)\kappa (xh)
-$$
-
-= =
-
-$$
-\kappa '(x)\Delta_G(h)\kappa (x)
+\frac{\kappa'(xh)}{\kappa^'(x)}=\frac{\Delta_H(h)}{\Delta_G(h)}=\frac{\kappa(xh)}{\kappa(x)}
 $$
 
 pour tout $(x, h)\in G\times H$. Soit $\nu '$ la mesure quasi-invariante $(\kappa '\cdot \mu)/\beta$ sur $G/H$. La fonction $\kappa '\kappa^{-1}$ définit par passage aux quotients une fonction continue $\xi : G/H\rightarrow \mathbf{R}_+^*$ telle que $\nu '=\xi \cdot \nu$. L’endomorphisme $\alpha$ de $\mathscr{K}_{\pi}(G)$ défini par $f\mapsto (\kappa '\kappa^{-1})^{1/p}f$ vérifie
@@ -715,11 +693,7 @@ où la fonction $\overline{f_1}\boldsymbol{\gamma }_{G,\chi}(g)f_2$ est identifi
 Définissons une fonction $f_3$ sur G en posant $f_3(g) = 0$ si $f_1(g) = 0$ et $f_3(g) =f_1(g)|f_1(g)|^{-1/2}$ sinon. La fonction $f_3$ appartient à $\mathscr{F}_{\chi}(G)$ et vérifie $f_1=|f_1|^{1/2}f_3$; elle est $\mu$-mesurable et nulle en dehors d’un compact modulo Z, puisque $f_1$ l’est. Comme $|f_1|^{1/2}\in \mathscr{K}_1$(G), il vient
 
 $$
-\overline{f_1}\boldsymbol{\gamma }_{G,\chi}(g)f_2=|f_1|^{1/2}\overline{f_3}\boldsymbol{\gamma }_{G,\chi}(g)f_2
-$$
-
-$$
-|\overline{f_3}\boldsymbol{\gamma }_{G,\chi}(g)f_2|=|f_3| |\boldsymbol{\gamma }_{G,\chi}(g)f_2|
+\overline{f_1}|\frac{\boldsymbol{\gamma }}{f_3}\overset{G,\chi}{\boldsymbol{\gamma }}_{G}(_{,\chi}g)(fg^2)f=_2||f\overset{1}{=}||\overset{1/2}{f_{3}}| |\overline{f\boldsymbol{\gamma }^3}_G\boldsymbol{\gamma }_{,\chi}\overset{G,\chi}{(}g()gf)_2f|^2
 $$
 
 pour tout $g\in G$.
@@ -912,22 +886,12 @@ $$
 
 et d’après loc. cit., il vient
 
-1 $''$
-
 $$
-\langle f_{x,x'}|f_{y,y'}\rangle =\langle w(x\otimes x)|w(y\otimes y)\rangle
+\langle f_{x,x'}|f_{y,y'}\rangle =\frac{1}{c_Z(\pi)}\langle w(x\otimes x')|w(y\otimes y')\rangle
 $$
 
 $$
-c_Z(\pi )
-$$
-
-1 $''$ 1 $''$
-
-= $\langle x\otimes x|y\otimes y\rangle =\langle x|y\rangle \langle x|y\rangle_E$,
-
-$$
-c_Z(\pi )c_Z(\pi )^E
+=\frac{1}{c_Z(\pi)}\langle x\otimes x'|y\otimes y'\rangle =\frac{1}{c_Z(\pi)}\langle x|y\rangle_{\overline{E}}\langle x'|y'\rangle_E
 $$
 
 d’où le résultat.
@@ -1094,13 +1058,9 @@ Soit $u$ un opérateur partiel auto-adjoint sur E et soit $\varrho (t) =e^{itu}$
 
 Soit $x\in$ dom($u$). Posons $\psi_x(t) =\varrho (t)x$ pour tout $t\in \mathbf{R}$. Pour tout nombre réel $h$ non nul, on a
 
-1 $(1_{ihu})_{itu}(1_{ihu})$
-
 $$
-(\psi_x(t+h)-\psi_x(t)) =(e-1_E)ex=(e-1_E)\varrho (t)x
+\frac{1}{h}(\psi_x(t+h)-\psi_x(t)) =(\frac{1}{h}(e^{ihu}-1_E))e^{itu}x=(\frac{1}{h}(e^{ihu}-1_E))\varrho (t)x
 $$
-
-$hhh$
 
 Lorsque $h$ tend vers 0, on a
 
@@ -1117,15 +1077,7 @@ $$
 pour tout $t\in \mathbf{R}$. De plus,
 
 $$
-|1_{iht}||1\int^h_{its}|
-$$
-
-$$
-(e-1)=|t|eds\leqslant |t|
-$$
-
-$$
-hh_0
+|\frac{1}{h}(e^{iht}-1)|=|t||\frac{1}{h}\int_0^he^{its}ds|\leqslant |t|
 $$
 
 Il résulte alors de la prop. 6 de IV, p. 276 que la fonction $\psi_x$ est dérivable sur $\mathbf{R}$ et vérifie $\psi '_x(t) =iu(\varrho (t)x)$ pour tout $t\in \mathbf{R}$. Par conséquent, le domaine de $u$ est inclus dans l’ensemble des $x\in E$ tels que $\psi_x$ est dérivable en 0 et qu’on a alors $\psi '_x(0) =iu(x)$. Cela signifie par définition que le générateur infinitésimal de $\varrho$ est une extension de $u$. Ces deux opérateurs sont donc égaux puisqu’ils sont symétriques et que $u$ est auto-adjoint (IV, p. 238, remarque 5).

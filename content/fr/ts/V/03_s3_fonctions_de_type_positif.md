@@ -45,7 +45,7 @@ subsections:
       pdf_page: 467
 statements: 39
 exercises: 23
-content_sha256: 48a0c69783d21dc1e922968c43b164db0afee86ac1eb34810b196637066fb375
+content_sha256: 01fa632d809be65506a5839035bea51d92c940347140f889b83cf0406d5d628f
 ---
 
 ## § 3. FONCTIONS DE TYPE POSITIF
@@ -160,7 +160,7 @@ D’après le lemme 8 de I, p. 107, l’image de $u$ est fermée dans $E_2$. Si 
 
 L’ensemble Noy$_+(X)$ est un cône auto-adjoint dans l’espace $\mathscr{C}(X\times X)$; il est stable par produit et il est fermé lorsque l’on munit $\mathscr{C}(X\times X)$ de la topologie de la convergence simple.
 
-Il est élémentaire que si $f\in$ Noy$_+$(X), alors $tf\in$ Noy$_+(X)$ pour tout nombre réel $t\geqslant 0$, et que $f\in$ Noy$_+(X)$.
+nombre réelIl est élémentaire que si$t\geqslant 0$, et que $\frac{f}{f}\in \in$ NoyNoy$_{++}(X)$.(X), alors $tf\in$ Noy$_+(X)$ pour tout
 
 Si $(E_1, g_1)$ et $(E_2, g_2)$ sont des réalisations hilbertiennes de noyaux universellement positifs $f_1$ et $f_2$ sur X, alors le couple $(E_1\oplus E_2, g_1+g_2)$ (resp. le couple $(E_1\widehat{\otimes}_2E_2, g_1\otimes g_2))$ est une réalisation hilbertienne de $f_1+f_2$ (resp. de $f_1f_2)$; ce sont donc des noyaux universellement positifs.
 
@@ -418,15 +418,7 @@ Démontrons d’abord que $\lambda$ est bornée sur l’intersection de $A_+$ et
 
 $+\infty$
 
-1
-
-$$
-\sum x_n\in A_+
-$$
-
-$$
-n^2
-$$
+$\sum\frac{1}{n^2}x_n\in A_+$,
 
 $n=N+1$
 
@@ -434,15 +426,7 @@ $n=N+1$
 
 N N $+\infty$
 
-1 1 $($ 1 $)$
-
-$$
-\sum\leqslant \sum_2\lambda (x_n) =\lambda (x)-\lambda \sum_2x_n\leqslant \lambda (x)
-$$
-
-$$
-nnn
-$$
+$\sum\frac{1}{n}\leqslant \sum\frac{1}{n^2}\lambda (x_n) =\lambda (x)-\lambda (\sum\frac{1}{n^2}x_n)\leqslant \lambda (x)$,
 
 $n=1n=1n=N+1$
 
@@ -548,27 +532,17 @@ Soit E l’espace de $\varrho$. Supposons tout d’abord que $\varrho$ n’est p
 
 Pour $j= 1$ et $j= 2$, notons $\varphi_j$ la fonction continue sur G telle que
 
-1
-
 $$
-\varphi_j(g) =\langle x_j|\varrho (g)x_j\rangle
-$$
-
-$$
-\|x_j\|^2
+\varphi_j(g) =\frac{1}{\|x_j\|^2}\langle x_j|\varrho (g)x_j\rangle
 $$
 
 pour tout $g\in G$. On a $\varphi_j\in$ Pos$_1(G)$(V, p. 443, exemple). Comme $\varphi =\|x_1\|^2\varphi_1+\|x_2\|^2\varphi_2$, il suffit de vérifier que $\varphi_1\not =\varphi_2$ pour démontrer que $\varphi$ n’est pas un point extrémal de Pos$_1(G)$; il suffit pour cela de démontrer que $\varphi \not =\varphi_1$.
 
 Raisonnons par l’absurde et supposons que $\varphi =\varphi_1$. Comme on a $\langle x_1|\varrho (g)x_2\rangle = 0$ pour tout $g\in G$, il viendrait
 
-1 1
-
 $$
-\langle x_1|\varrho (g)x\rangle =\langle x_1|\varrho (g)x_1\rangle =\varphi_1(g) =\varphi (g) =\langle x|\varrho (g)x\rangle
+\frac{1}{\|x_1\|^2}\langle x_1|\varrho (g)x\rangle =\frac{1}{\|x_1\|^2}\langle x_1|\varrho (g)x_1\rangle =\varphi_1(g) =\varphi (g) =\langle x|\varrho (g)x\rangle
 $$
-
-$\|x_1\|^2\|x_1\|^2$
 
 pour tout $g\in G$, d’où $\langle x_1|y\rangle =\langle \|x_1\|^2x|y\rangle$ pour tout élément $y$ du sous-espace vectoriel de E engendré par les éléments $\varrho (g)x$ pour $g\in G$, donc pour tout $y\in E$ puisque $x$ est un vecteur cyclique de $\varrho$. Cela impliquerait que $x_1=\|x_1\|^2x$ est aussi un vecteur cyclique de $\varrho$, ce qui est une contradiction, d’où l’assertion.
 
@@ -769,15 +743,7 @@ $$
 où I est un ensemble fini, $\psi_i$ est un point extrémal de Pos$_1(G)$ pour tout $i\in I$, et $t_i\in [0,1]$. On a $\sum_it_i=\psi (e) =\|\psi \|_{\infty}\leqslant 1$ (lemme 4 de V, p. 446). Si $\psi \not = 0$, la fonction
 
 $$
-\psi t_i
-$$
-
-$$
-=\sum\psi_i
-$$
-
-$$
-\|\psi \|_{\infty i\in I}\psi (e)
+\frac{\psi}{\|\psi\|_{\infty}}=\sum_{i\in I}\frac{t_i}{\psi(e)}\psi^i
 $$
 
 appartient donc à l’enveloppe convexe des points extrémaux de Pos$_1(G)$. Comme lim$_{\psi ,\mathfrak{F}}\|\psi \|^{-1}_{\infty}\psi =\varphi$, on conclut que $\varphi$ appartient à l’enveloppe fermée convexe des points extrémaux de Pos$_1(G)$. L’assertion en résulte.
@@ -865,14 +831,8 @@ en appliquant la majoration (1) de V, p. 446. L’inégalité de CauchySchwarz i
 $\surd \int 1/2\int 1/2$
 
 $$
-\|\psi *\varphi -\varphi \|_{\infty}\leqslant \overline{2}(_G(1-\mathscr{R}(\varphi ))\psi  d\mu)(_G\psi  d\mu)
+\|\psi *\varphi -\varphi \|_{\infty}\leqslant \leqslant \surd \overline{22}(\surd p_G(1(1--\varphi \mathscr{R}),(\varphi ))\psi  d\mu)(_G\psi  d\mu)
 $$
-
-$$
-\surd \surd
-$$
-
-$\leqslant$ 2 $p(1-\varphi )$,
 
 d’où le résultat.
 
@@ -900,23 +860,13 @@ Soit $\varphi_1\in$ Pos$_1(G)$. Pour vérifier que $\iota$ est continue en $\var
 
 Il existe $\varepsilon  >0$ tel que W contient l’ensemble des $\varphi \in \mathscr{C}_b(G)$ qui vérifient $\|\varphi \|_{\infty}\leqslant \varepsilon$. Comme $\varphi_1(e) = 1$, il existe un voisinage compact V de $e$ dans G tel que
 
-$$
-\varepsilon^2
-$$
-
-sup $|1-\varphi_1(x)|\leqslant$.
-
-$_{x\in V}$ 4
+sup$_{x\in V}|1-\varphi_1(x)|\leqslant \frac{\varepsilon^2}{4}$.
 
 Soit $\varphi_V$ la fonction caractéristique de V, et posons $\psi_V=\mu(V)^{-1}\varphi_V$. L’application linéaire $u:\varphi \mapsto \psi_V*\varphi$ de Pos$_1(G)_f$ dans $\mathscr{C}_b(G)_c$ est continue (lemme 6).
 
 Notons $q_V$ la semi-norme $\varphi \mapsto  |\langle \varphi , \psi_V\rangle |$ sur $\mathscr{C}_b(G)$; elle est continue pour la topologie faible. Puisque $\psi_V$ est nulle en dehors de V, il vient $q_V(1-\varphi_1)\leqslant \varepsilon^2/4$; il existe donc un voisinage U de $\varphi_1$ dans $\mathscr{C}_b(G)_f$ tel que $q_V(1-\varphi )\leqslant \varepsilon^2/2$ pour tout $\varphi \in U$.
 
-Soit $\varphi \in U\cap$ Pos$_1(G)$. D’après le lemme 7, on a
-
-$$
-\|(\iota -u)(\varphi )\|_{\infty}\leqslant \surd\overline{2q_V(1 -\varphi)}\leqslant \varepsilon
-$$
+Soit $\varphi \in U\cap$ Pos$\|(^1\iota (G)$. D’après le lemme$-u)(\varphi )\|_{\infty}\leqslant \surd 2q_V(1-7, \varphi$on a$)\leqslant \varepsilon$
 
 donc $(\iota -u)(U)\subset W$. Le théorème est démontré.
 

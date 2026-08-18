@@ -49,7 +49,7 @@ subsections:
       pdf_page: 489
 statements: 54
 exercises: 32
-content_sha256: 3d32a823b35043adbfe3d0cf3030e1842d27eb81424ff2a1d94857d25e0cf330
+content_sha256: 167648feee7309860f6f42688ce212c525bee4deb92cb1e56059887b2b79384e
 ---
 
 ## § 4. REPRÉSENTATIONS DES GROUPES COMPACTS
@@ -204,11 +204,7 @@ Soient $\pi_1$ et $\pi_2$ des représentations unitaires irréductibles de G. On
 
 Le caractère de $\pi_2$ est une fonction centrale continue sur G donc l’application linéaire $u$ = $\pi_1(\overline{\chi}_{\pi_2})$ est définie et appartient à l’espace Hom$_G(\pi_1, \pi_1)$. C’est une homothétie d’après le lemme de Schur (prop. 6 de V, p. 386) dont la trace est
 
-Tr($u$) $=$ Tr$(\int_G\overline{\chi_{\pi_2}(g)}\pi_1(g)d\mu(g))$
-
-$$
-=\int_G\overline{\chi_{\pi_2}(g)}\chi_{\pi_1}(g)d\mu(g)
-$$
+Tr($u$) $=$ Tr$=\int_G(\chi \int_{\pi G_2}\overline{(\chi g^{\pi})^{^2}\chi(_{\pi}g_{_1})}(\pi g_1)(d\mu g)(d\mu g)(.g))$
 
 D’après les relations d’orthogonalité, la trace de $u$ est donc nulle si $\pi_1$ n’est pas isomorphe à $\pi_2$, et égale à 1 sinon. L’assertion en résulte.
 
@@ -218,11 +214,7 @@ Lorsque G est fini, la relation d’orthogonalité de Schur (resp. la formule d�
 
 Pour G fini, le cas particulier de la seconde formule d’orthogonalité correspondant à la classe de conjugaison de $e$ est la formule
 
-1 1 si $g=e$
-
-$\sum$ dim($\pi$ )$\chi_{\pi}(g) =$
-
-Card $G_{\pi\in\widehat{G}}$ 0 sinon, qui s’interprète aussi comme le calcul du caractère de la représentation régulière $\boldsymbol{\gamma }_G$ de G, et qui est équivalente à la formule Tr($\boldsymbol{\gamma }_G(f)$) $=f(e)$ pour toute fonction $f$ de G dans $\mathbf{C}$.
+Card G1 $\sum_{\pi\in\widehat{G}}$ dim($\pi$ )$\chi_{\pi}(g) =$ 10 sisinon$g=,e$ qui s’interprète aussi comme le calcul du caractère de la représentation régulière $\boldsymbol{\gamma }_G$ de G, et qui est équivalente à la formule Tr($\boldsymbol{\gamma }_G(f)$) $=f(e)$ pour toute fonction $f$ de G dans $\mathbf{C}$.
 
 Soit G de nouveau un groupe compact quelconque. Pour toute fonction $f\in \mathscr{C}$(G), l’endomorphisme $\boldsymbol{\gamma }_G(f)$ de $L^2(G)$ coïncide avec l’endomorphisme $\varphi \mapsto f*\varphi$, et il est de trace finie (lemme 4 de V, p. 407 et corollaire 2 de III, p. 33). D’après loc. cit. et le th. 2 de IV, p. 177, on a également
 
@@ -412,11 +404,7 @@ On a
 
 (1) $\chi_{\pi}*\chi_{\sigma}= 0$ pour tous $\pi , \sigma$ appartenant à $\widehat{G}, \pi \not =\sigma$,
 
-1
-
-(2) $\chi_{\pi}*\chi_{\pi}=\chi_{\pi}$ pour tout $\pi$ appartenant à $\widehat{G}$.
-
-dim($\pi$ )
+(2) $\chi_{\pi}*\chi_{\pi}=$ dim($1\pi$ )$\chi_{\pi}$ pour tout $\pi$ appartenant à $\widehat{G}$.
 
 Soient $\pi$ et $\sigma$ des représentations irréductibles de G. On a
 
@@ -538,9 +526,7 @@ Soit $\pi \in \widehat{G}$. On munit l’espace vectoriel End(E$_{\pi})$ de la s
 
 $\langle u_1|u_2\rangle =$ dim($\pi$)Tr($u^*_1u_2$) $=$ dim($\pi$)Tr($u_2u^*_1$)
 
-pour $u_1,u_2$ dans End(E$_{\pi}) ($cf. EVT, V, p. 52, th. 1).
-
-On note $\|u\|_2$ = $\surd\overline{\langle u|u\rangle}$ la norme d’un élément $u$ de End(E$_{\pi})$ pour $\pi \in \widehat{G}$. Pour tout $g\in G$, on a $\|\pi (g)\|_2=$ dim($\pi$ ) puisque $\pi (g)$ est unitaire.
+pourOn note$u^1,u^2$ dans End(E$\|u\|_2$ = $\surd\langle^{\pi}u) (|u$cf.$\rangle$ la norme d’un élémentEVT, V, p. 52, th. 1). $u$ de End(E$_{\pi})$ pour $\pi \in \widehat{G}$. Pour tout $g\in G$, on a $\|\pi (g)\|_2=$ dim($\pi$ ) puisque $\pi (g)$ est unitaire.
 
 La norme notée ici $\|u\|_2$ diffère par un facteur dim($\pi$ ) de la norme définie dans EVT, V, p. 52 sur l’espace des applications de Hilbert– Schmidt de $E_{\pi}$.
 
