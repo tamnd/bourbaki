@@ -926,7 +926,7 @@ books:
               statements: 24
               exercises: 18
               extraction: native+ocr
-              content_sha256: 8859a6b0573d4c210f3a62d9f114b94021ab2d8e4f8b830402b7c871294dce5b
+              content_sha256: e1baa6e368cf97222b606dbb6382d0d4846c389a15c711e6c414e14780f7d91e
             - kind: section
               section: 9
               title: The formula of Hermann Weyl
