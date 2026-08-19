@@ -106,8 +106,8 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Book | Chapter | Sections | Statements | Exercises | Tagged | Pages |
 | --- | --- | --- | --- | --- | --- | --- |
 | Algebra | I | 0 of 10 | 0 | 0 | 0 | 3 |
-| Algebra | II | 0 of 12 | 0 | 0 | 0 | 0 |
-| Algebra | III | 0 of 12 | 0 | 0 | 0 | 0 |
+| Algebra | II | 0 of 12 | 0 | 0 | 0 | 1 |
+| Algebra | III | 0 of 12 | 0 | 0 | 0 | 1 |
 | Algebra | IV | 0 of 6 | 0 | 0 | 0 | 0 |
 | Algebra | V | 0 of 17 | 0 | 0 | 0 | 0 |
 | Algebra | VI | 0 of 2 | 0 | 0 | 0 | 1 |
@@ -122,25 +122,25 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Topological Vector Spaces | III | 0 of 6 | 0 | 0 | 0 | 0 |
 | Topological Vector Spaces | IV | 0 of 6 | 0 | 0 | 0 | 0 |
 | Topological Vector Spaces | V | 0 of 4 | 0 | 0 | 0 | 0 |
-| Functions of a Real Variable | I | 0 of 4 | 0 | 0 | 0 | 0 |
+| Functions of a Real Variable | I | 0 of 4 | 0 | 0 | 0 | 2 |
 | Functions of a Real Variable | II | 0 of 3 | 0 | 0 | 0 | 0 |
-| Functions of a Real Variable | III | 0 of 2 | 0 | 0 | 0 | 0 |
-| Functions of a Real Variable | IV | 0 of 2 | 0 | 0 | 0 | 0 |
-| Functions of a Real Variable | V | 0 of 5 | 0 | 0 | 0 | 0 |
-| Functions of a Real Variable | VI | 0 of 3 | 0 | 0 | 0 | 0 |
-| Functions of a Real Variable | VII | 0 of 2 | 0 | 0 | 0 | 0 |
+| Functions of a Real Variable | III | 0 of 2 | 0 | 0 | 0 | 1 |
+| Functions of a Real Variable | IV | 0 of 2 | 0 | 0 | 0 | 1 |
+| Functions of a Real Variable | V | 0 of 5 | 0 | 0 | 0 | 1 |
+| Functions of a Real Variable | VI | 0 of 3 | 0 | 0 | 0 | 2 |
+| Functions of a Real Variable | VII | 0 of 2 | 0 | 0 | 0 | 2 |
 | Integration | I | 0 of 1 | 0 | 0 | 0 | 0 |
 | Integration | II | 0 of 2 | 0 | 0 | 0 | 0 |
-| Integration | III | 0 of 4 | 0 | 0 | 0 | 0 |
+| Integration | III | 0 of 4 | 0 | 0 | 0 | 2 |
 | Integration | IV | 0 of 7 | 0 | 0 | 0 | 0 |
 | Integration | V | 0 of 8 | 0 | 0 | 0 | 0 |
 | Integration | VI | 0 of 4 | 0 | 0 | 0 | 0 |
 | Integration | VII | 0 of 5 | 0 | 0 | 0 | 0 |
 | Integration | VIII | 0 of 5 | 0 | 0 | 0 | 0 |
 | Integration | IX | 0 of 7 | 0 | 0 | 0 | 0 |
-| Lie Groups and Lie Algebras | IV | 0 of 3 | 0 | 0 | 0 | 0 |
-| Lie Groups and Lie Algebras | V | 0 of 7 | 0 | 0 | 0 | 0 |
-| Lie Groups and Lie Algebras | VI | 0 of 4 | 0 | 0 | 0 | 0 |
+| Lie Groups and Lie Algebras | IV | 0 of 3 | 0 | 0 | 0 | 1 |
+| Lie Groups and Lie Algebras | V | 0 of 7 | 0 | 0 | 0 | 3 |
+| Lie Groups and Lie Algebras | VI | 0 of 4 | 0 | 0 | 0 | 7 |
 | Lie Groups and Lie Algebras | VII | 7 of 7 | 139 | 66 | 205 | 66 |
 | Lie Groups and Lie Algebras | VIII | 13 of 13 | 299 | 172 | 471 | 211 |
 | Lie Groups and Lie Algebras | IX | 11 of 11 | 244 | 112 | 356 | 152 |
