@@ -30,7 +30,7 @@ subsections:
       pdf_page: 48
 statements: 0
 exercises: 8
-content_sha256: 390faba94e5344c8331bc40a954a257df6dcfce3814ae7413ab574ac21e02422
+content_sha256: cb6abb308e39323481ab5b736963a71c1fee531b448b0921190b96a62cfa1033
 ---
 
 ## 4. QUANTIFIED THEORIES
@@ -219,7 +219,7 @@ For the relation $(\forall_A x)R$ is identical with
 
 $$\text{"not}(\exists x)(A \text{ and } (\text{not } R))\text{"}.$$
 
-Now, "$A$ and (not $R$)" is equivalent in $\mathscr{T}_0$ to "not $(A \Rightarrow R)$"; therefore "not $(\exists x)(A$ and (not $R))$" is equivalent in $\mathscr{T}_0$ to
+Now, "$A$ and (not $R$)" is equivalent in $\mathscr{T}_0$ to "not $(A \Rightarrow R)$"; therefore "not $(\exists x)(A$ and (not $R$))" is equivalent in $\mathscr{T}_0$ to
 
 $$\text{"not } (\exists x)(\text{not } (A \Rightarrow R))\text{"},$$
 

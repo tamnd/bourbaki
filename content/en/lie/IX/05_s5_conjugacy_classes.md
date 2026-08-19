@@ -29,7 +29,7 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: 2b12cc0208c94d1179a6b936264b2ad9d6050474d213776b1b88391e2e42ec3e
+content_sha256: 5ccf5c9edd26e6c041542a3b7f3699151765c58b6cb7db2c78180e723a3f0822
 ---
 
 ## § 5. CONJUGACY CLASSES
@@ -46,7 +46,7 @@ $b) Z(g)_0$ is a maximal torus of G.
 
 The set of regular elements of G is open and dense in G.
 
-In the remainder of this paragraph, we denote by $G_r$ (resp. $T_r)$ the set of points of G (resp. T) that are regular in G. An element $g$ of G belongs to $T_r$ if and only if $Z(g)_0$ is equal to T; every element of $G_r$ is conjugate to an element of $T_r($§2, no. 2, Th. 2).
+In the remainder of this paragraph, we denote by $G_r$ (resp. $T_r$) the set of points of G (resp. T) that are regular in G. An element $g$ of G belongs to $T_r$ if and only if $Z(g)_0$ is equal to T; every element of $G_r$ is conjugate to an element of $T_r($§2, no. 2, Th. 2).
 
 An element $t$ of T belongs to $T_r$ if and only if $t^{\alpha}\not= 1$ for every root $\alpha \in R(G,T)$; consequently, T **--** $T_r$ is the union of the subtori Ker $\alpha$ for $\alpha$ in $R(G,T)$.
 
@@ -54,13 +54,13 @@ An element $t$ of T belongs to $T_r$ if and only if $t^{\alpha}\not= 1$ for ever
 
 Put $n=$ dim G. There exists a compact real-analytic manifold V of dimension $n-3$ and an analytic map $\varphi : V\rightarrow G$ whose image is G **--** $G_r$.
 
-Let $\alpha \in R(G,T)$; put $V_{\alpha}= (G/$Z(Ker$\alpha ))\times$ (Ker$\alpha )$, and let $\varphi_{\alpha}$ be the morphism from $V_{\alpha}$ to G such that, for all $g\in G$ and all $t\in$ Ker $\alpha$, we have $\varphi_{\alpha}(\overline{g}, t) =gtg^{-1}$ (we denote by $\overline{g}$ the coset of $g$ modulo Z(Ker$\alpha ))$. Then $V_{\alpha}$ is a compact real-analytic manifold of dimension
+Let $\alpha \in R(G,T)$; put $V_{\alpha}= (G/$Z(Ker$\alpha$ ))$\times$ (Ker$\alpha$ ), and let $\varphi_{\alpha}$ be the morphism from $V_{\alpha}$ to G such that, for all $g\in G$ and all $t\in$ Ker $\alpha$, we have $\varphi_{\alpha}(\overline{g}, t) =gtg^{-1}$ (we denote by $\overline{g}$ the coset of $g$ modulo Z(Ker$\alpha$ )). Then $V_{\alpha}$ is a compact real-analytic manifold of dimension
 
-dim $V_{\alpha}=$ dim $G-$ dim Z(Ker $\alpha ) +$ dim Ker$\alpha$
+dim $V_{\alpha}=$ dim $G-$ dim Z(Ker $\alpha$ ) $+$ dim Ker$\alpha$
 
-$=n-$ (dim T + 2) + (dim $T-1) =n-3$
+$=n-$ (dim T + 2) + (dim $T-1$) $=n-3$
 
-(§4, no. 5, Th. $1);\varphi_{\alpha}$ is a morphism of real-analytic manifolds, and the image of $\varphi_{\alpha}$ consists of the elements of G conjugate to an element of Ker $\alpha$. It now suffices to take V to be the sum of the manifolds $V_{\alpha}$, and $\varphi$ to be the morphism inducing $\varphi_{\alpha}$ on each $V_{\alpha}$.
+(§4, no. 5, Th. $1$)$;\varphi_{\alpha}$ is a morphism of real-analytic manifolds, and the image of $\varphi_{\alpha}$ consists of the elements of G conjugate to an element of Ker $\alpha$. It now suffices to take V to be the sum of the manifolds $V_{\alpha}$, and $\varphi$ to be the morphism inducing $\varphi_{\alpha}$ on each $V_{\alpha}$.
 
 #### Remark {#lie-ix-s5-n1-rem-1 .statement tag=01DW}
 
@@ -68,11 +68,11 @@ Call an element $g$ of G very regular if $Z(g)$ is a maximal torus of G. If $g\i
 
 ### 2. CHAMBERS AND ALCOVES
 
-Denote by $\mathfrak{t}_r$ the set of elements $x\in \mathfrak{t}$ such that exp $x$ is regular, in other words belongs to $T_r$. An element $x$ of $\mathfrak{t}$ belongs to $\mathfrak{t}$ **--** $\mathfrak{t}_r$ if and only if there exists a root $\alpha \in R(G,T)$ such that $\delta (\alpha )(x)\in 2\pi i\mathbf{Z}$. For each root $\alpha \in R(G,T)$ and each integer $n$, denote by $H_{\alpha ,n}$ the set of $x\in \mathfrak{t}$ such that $\delta (\alpha )(x) = 2\pi in$. The $H_{\alpha ,n}$ are called the singular hyperplanes of $\mathfrak{t}$, and $\mathfrak{t}$ **--** $\mathfrak{t}_r$ is the union of the singular hyperplanes. The alcoves of $\mathfrak{t}$ are the connected components of $\mathfrak{t}_r$, and the chambers are the connected components of the complement in $\mathfrak{t}$ of the union of those singular hyperplanes that pass through the origin (that is, the $H_{\alpha ,0}=$ Ker$\delta (\alpha ),\alpha \in R(G,T))$.
+Denote by $\mathfrak{t}_r$ the set of elements $x\in \mathfrak{t}$ such that exp $x$ is regular, in other words belongs to $T_r$. An element $x$ of $\mathfrak{t}$ belongs to $\mathfrak{t}$ **--** $\mathfrak{t}_r$ if and only if there exists a root $\alpha \in R(G,T)$ such that $\delta (\alpha )(x)\in 2\pi i\mathbf{Z}$. For each root $\alpha \in R(G,T)$ and each integer $n$, denote by $H_{\alpha ,n}$ the set of $x\in \mathfrak{t}$ such that $\delta (\alpha )(x) = 2\pi in$. The $H_{\alpha ,n}$ are called the singular hyperplanes of $\mathfrak{t}$, and $\mathfrak{t}$ **--** $\mathfrak{t}_r$ is the union of the singular hyperplanes. The alcoves of $\mathfrak{t}$ are the connected components of $\mathfrak{t}_r$, and the chambers are the connected components of the complement in $\mathfrak{t}$ of the union of those singular hyperplanes that pass through the origin (that is, the $H_{\alpha ,0}=$ Ker$\delta (\alpha ),\alpha \in R(G,T)$).
 
 We have $\Gamma (T)\subset \mathfrak{t}$**--** $\mathfrak{t}_r$; denote by $N(G,T)$ the subgroup of $\Gamma (T)$ generated by the nodal vectors (§4, no. 5); by Prop. 11 of §4, no. 6, the quotient $\Gamma (T)/N(G,T)$ can be identified with the fundamental group of G.
 
-Finally, denote by W the Weyl group of G relative to T, considered as a group of automorphisms of T and of $\mathfrak{t}$, and denote by $W_a$ (resp. $W'_a)$ the group of automorphisms of the affine space $\mathfrak{t}$ generated by W and the translations $t_{\gamma}:x \rightarrow x+\gamma$ for $\gamma \in N(G,T)$ (resp. for $\gamma \in \Gamma (T))$.
+Finally, denote by W the Weyl group of G relative to T, considered as a group of automorphisms of T and of $\mathfrak{t}$, and denote by $W_a$ (resp. $W'_a$) the group of automorphisms of the affine space $\mathfrak{t}$ generated by W and the translations $t_{\gamma}:x \rightarrow x+\gamma$ for $\gamma \in N(G,T)$ (resp. for $\gamma \in \Gamma (T)$).
 
 Let $w\in W,\gamma \in \Gamma$ (T), $\alpha \in R(G,T)$ and $n\in \mathbf{Z}$. We have:
 
@@ -84,11 +84,11 @@ It follows that, for all chambers C and all $w\in W,w(C)$ is a chamber and that 
 
 #### Proposition 2 {#lie-ix-s5-prop-2 .statement tag=01DX}
 
-a) The group $W_a$ (resp. $W'_a)$ is the semi-direct product of W by $N(G,T)$ (resp. $\Gamma (T))$; the subgroup $W_a$ of $W'_a$ is normal.
+a) The group $W_a$ (resp. $W'_a$) is the semi-direct product of W by $N(G,T)$ (resp. $\Gamma (T)$); the subgroup $W_a$ of $W'_a$ is normal.
 
-b) The group W (resp. $W_a)$ operates simply-transitively on the set of chambers (resp. alcoves ).
+b) The group W (resp. $W_a$) operates simply-transitively on the set of chambers (resp. alcoves ).
 
-c) Let C be a chamber and A an alcove. Then $\overline{C}$ (resp. A, resp. A) is a fundamental domain for the operation of W on $\mathfrak{t}$ (resp. of $W_a$ on $\mathfrak{t}$, resp. of $W_a$ on $\mathfrak{t}$**--** $\mathfrak{t}_r)$. If $x\in \mathfrak{t}_r$ and $w\in W_a$ are such that $w(x) =x$, then $w=$ Id.
+c) Let C be a chamber and A an alcove. Then $\overline{C}$ (resp. A, resp. A) is a fundamental domain for the operation of W on $\mathfrak{t}$ (resp. of $W_a$ on $\mathfrak{t}$, resp. of $W_a$ on $\mathfrak{t}$**--** $\mathfrak{t}_r$). If $x\in \mathfrak{t}_r$ and $w\in W_a$ are such that $w(x) =x$, then $w=$ Id.
 
 d) For every chamber C, there exists a unique alcove A such that $A\subset C$ and$\gamma \in \frac{0}{A}.\in \overline{A}$. For every alcove A, there exists a unique $\gamma \in N(G,T)$ such that
 
@@ -106,9 +106,9 @@ $\overline{A}/H_A\rightarrow T/W\rightarrow G/$Int(G)
 
 $A/H_A\rightarrow T_r/W\rightarrow G_r/$Int(G).
 
-Let $w'\in W'_a$; then $w'(A)$ is an alcove of $\mathfrak{t}$, and there exists (Prop. $2b))$ a unique element $w$ of $W_a$ such that $w(A) =w'$(A), that is $w^{-1}w'\in H_A$. Since $W_a$ is normal in $W'_a$, this proves $a)$.
+Let $w'\in W'_a$; then $w'(A)$ is an alcove of $\mathfrak{t}$, and there exists (Prop. $2b$)$)$ a unique element $w$ of $W_a$ such that $w(A) =w'$(A), that is $w^{-1}w'\in H_A$. Since $W_a$ is normal in $W'_a$, this proves $a)$.
 
-The canonical injection of $\overline{A}$ into $\mathfrak{t}$ induces a continuous bijection $\theta :\overline{A}\rightarrow$ $\mathfrak{t}/W_a$ (Prop. $2c))$, and this is a homeomorphism since A is compact. Since $W_a$ is normal in $W'_a$, the group $H_A$ operates canonically on $\mathfrak{t}/W_a($Algebra, Chap. I, §5, no. 4) and $\mathfrak{t}/W'_a$ can be identified with the quotient $(\mathfrak{t}/W_a)/H_A$; the map $\theta$ is compatible with the operations of $H_A$, hence induces by passage to the quotient a homeomorphism $A/H_A\rightarrow \mathfrak{t}/W'_a$. Further, exp$_{\Gamma}$ induces a homeomorphism from $\mathfrak{t}/\Gamma (T)$ to T, hence also a homeomorphism from $\mathfrak{t}/W'_a$ to $T/W$. Assertion $b)$ follows from that and Cor. 1 of Prop. 5 of §2, no. 4.
+The canonical injection of $\overline{A}$ into $\mathfrak{t}$ induces a continuous bijection $\theta :\overline{A}\rightarrow$ $\mathfrak{t}/W_a$ (Prop. $2c$)$)$, and this is a homeomorphism since A is compact. Since $W_a$ is normal in $W'_a$, the group $H_A$ operates canonically on $\mathfrak{t}/W_a($Algebra, Chap. I, §5, no. 4) and $\mathfrak{t}/W'_a$ can be identified with the quotient $(\mathfrak{t}/W_a)/H_A$; the map $\theta$ is compatible with the operations of $H_A$, hence induces by passage to the quotient a homeomorphism $A/H_A\rightarrow \mathfrak{t}/W'_a$. Further, exp$_{\Gamma}$ induces a homeomorphism from $\mathfrak{t}/\Gamma (T)$ to T, hence also a homeomorphism from $\mathfrak{t}/W'_a$ to $T/W$. Assertion $b)$ follows from that and Cor. 1 of Prop. 5 of §2, no. 4.
 
 #### Remark 1 {#lie-ix-s5-n2-rem-1 .statement tag=01DZ}
 
@@ -116,7 +116,7 @@ The group $H_A$ can be identified naturally with $\Gamma (T)/N(G,T)$, hence also
 
 #### Remark 2 {#lie-ix-s5-n2-rem-2 .statement tag=01E0}
 
-Let $x\in A$; then exp $x\in T_r$, so Z(exp $x)_0= T$. Further, exp $x$ is very regular (no. 1, Remark) if and only if $w(x)\not=x$ for all $w\in W'_a$ distinct from the identity. By Cor. 1, this also means that $h(x)\not=x$ for all $h\in H_A$ distinct from the identity. In particular, if G is simply-connected, then $Z_G(t) = T$ for all $t\in T_r$, and every regular element of G is very regular.
+Let $x\in A$; then exp $x\in T_r$, so Z(exp $x$)$_0= T$. Further, exp $x$ is very regular (no. 1, Remark) if and only if $w(x)\not=x$ for all $w\in W'_a$ distinct from the identity. By Cor. 1, this also means that $h(x)\not=x$ for all $h\in H_A$ distinct from the identity. In particular, if G is simply-connected, then $Z_G(t) = T$ for all $t\in T_r$, and every regular element of G is very regular.
 
 #### Remark 3 {#lie-ix-s5-n2-rem-3 .statement tag=01E1}
 
@@ -128,15 +128,15 @@ Let C be a chamber of $\mathfrak{t}$ and $\overline{C}$ its closure. The canonic
 
 $\overline{C}\rightarrow \mathfrak{t}/W\rightarrow \mathfrak{g}/$Ad(G).
 
-The canonical maps $\overline{C}\rightarrow \mathfrak{t}$ and $\mathfrak{t}\rightarrow \mathfrak{t}/W$ are proper (General Topology, Chap. III, §4, no. 1, Prop. $2c))$. The map $\overline{C}\rightarrow \mathfrak{t}/W$ is continuous, proper and bijective (Prop. $2c))$; thus, it is a homeomorphism, hence the corollary in view of the Cor. of Prop. 6 of §2, no. 5.
+The canonical maps $\overline{C}\rightarrow \mathfrak{t}$ and $\mathfrak{t}\rightarrow \mathfrak{t}/W$ are proper (General Topology, Chap. III, §4, no. 1, Prop. $2c$)$)$. The map $\overline{C}\rightarrow \mathfrak{t}/W$ is continuous, proper and bijective (Prop. $2c$)$)$; thus, it is a homeomorphism, hence the corollary in view of the Cor. of Prop. 6 of §2, no. 5.
 
 #### Remark 4 {#lie-ix-s5-n2-rem-4 .statement tag=01E3}
 
 Denote by $\mathfrak{g}_{reg}$ the set of regular elements of $\mathfrak{g}$ (Chap. VII, §2, no. 2, Def. 2) and put $\mathfrak{t}_{reg}=\mathfrak{t}\cap \mathfrak{g}_{reg}$. For $x\in \mathfrak{t}$, we have
 
-det(X $-$ ad$_{\mathfrak{g}}x) = X^{dim}\prod_{\alpha\in R(G,T)}^{\mathfrak{t}}(X-\delta (\alpha )(x))$,
+det(X $-$ ad$_{\mathfrak{g}}x$) $= X^{dim}\prod_{\alpha\in R(G,T)}^{\mathfrak{t}}(X-\delta (\alpha )(x))$,
 
-and hence $\mathfrak{t}_{reg}$ is the set of elements $x$ of $\mathfrak{t}$ such that $\delta (\alpha )(x)\not= 0$ for all $\alpha \in R(G,T)$, that is the union of the chambers of $\mathfrak{t}$ (so $\mathfrak{t}_r\subset \mathfrak{t}_{reg})$. Consequently $C\cap \mathfrak{t}_{reg}= C$, so we have homeomorphisms
+and hence $\mathfrak{t}_{reg}$ is the set of elements $x$ of $\mathfrak{t}$ such that $\delta (\alpha )(x)\not= 0$ for all $\alpha \in R(G,T)$, that is the union of the chambers of $\mathfrak{t}$ (so $\mathfrak{t}_r\subset \mathfrak{t}_{reg}$). Consequently $C\cap \mathfrak{t}_{reg}= C$, so we have homeomorphisms
 
 $C\rightarrow \mathfrak{t}_{reg}/W\rightarrow \mathfrak{g}_{reg}/$Ad(G).
 
@@ -156,17 +156,17 @@ a) H is a closed subgroup of G.
 
 b) If $H_0$ is central in G, then G is commutative (so G = T).
 
-Assertion $a)$ is clear. To prove $b)$, we can replace G by D(G) (§1, Cor. 1 of Prop. 4), and hence can assume that G is semi-simple. Then, if $H_0$ is central in G, we have $L(H) =\{0\}$, so the endomorphism $L(u)-$Id of $\mathfrak{g}$ is bijective. Let $f$ be the endomorphism of the manifold G defined by $f(g) =u(g)^{-1}g$ for $g\in G$; it is étale, for if $g\in G$ and $x\in \mathfrak{g}$, we have $T(f)(xg) =u(g)^{-1}(x-L(u)(x))g$, so the tangent map of $f$ at $g$ is bijective. It follows that the image of $f$ is open and compact, hence coincides with G since G is connected. Now let E be a framing of G (§4, no. 10, Def. 3) and $u(E)$ its image under $u$. By Prop. 19 of loc. cit., there exists an element $h$ of G such that (Int $h)(E) =u(E)$. Let $g\in G$ be such that $h=f(g) =u(g)^{-1}g$; then
+Assertion $a)$ is clear. To prove $b)$, we can replace G by D(G) (§1, Cor. 1 of Prop. 4), and hence can assume that G is semi-simple. Then, if $H_0$ is central in G, we have $L(H) =\{0\}$, so the endomorphism $L(u)-$Id of $\mathfrak{g}$ is bijective. Let $f$ be the endomorphism of the manifold G defined by $f(g) =u(g)^{-1}g$ for $g\in G$; it is étale, for if $g\in G$ and $x\in \mathfrak{g}$, we have $T(f)(xg) =u(g)^{-1}(x-L(u)(x))g$, so the tangent map of $f$ at $g$ is bijective. It follows that the image of $f$ is open and compact, hence coincides with G since G is connected. Now let E be a framing of G (§4, no. 10, Def. 3) and $u(E)$ its image under $u$. By Prop. 19 of loc. cit., there exists an element $h$ of G such that (Int $h$)$(E) =u(E)$. Let $g\in G$ be such that $h=f(g) =u(g)^{-1}g$; then
 
-$u\circ$ Int $g=$ (Int $u(g))\circ u=$ Int $g\circ$ (Int $h)^{-1}\circ u$,
+$u\circ$ Int $g=$ (Int $u(g)$)$\circ u=$ Int $g\circ$ (Int $h$)$^{-1}\circ u$,
 
-so the framing (Int $g)(E)$ is stable under $u$. If (Int $g)(E) = (T_1,B,(U_{\alpha})_{\alpha\in B})$, then $\sum U_{\alpha}\in L(H)$; since $L(H) =\{0\}$, this implies that $B =\emptyset$, so $G = T_1$, and G is commutative.
+so the framing (Int $g$)$(E)$ is stable under $u$. If (Int $g$)$(E) = (T_1,B,(U_{\alpha})_{\alpha\in B})$, then $\sum U_{\alpha}\in L(H)$; since $L(H) =\{0\}$, this implies that $B =\emptyset$, so $G = T_1$, and G is commutative.
 
 #### Lemma 2 {#lie-ix-s5-lem-2 .statement tag=01E6}
 
 Let $x$ be an element of T and S a subtorus of T. If the identity component of $Z(x)\cap Z(S)$ reduces to T, there exists an element $s$ of S such that $xs$ is regular.
 
-For all $\alpha \in R(G,T)$, let $S_{\alpha}$ be the submanifold of S consisting of the elements $s$ of S such that $(xs)^{\alpha}= 1$. If there is no element $s$ of S such that $xs$ is regular, S is the union of the submanifolds $S_{\alpha}$, hence is equal to one of them. Hence there exists $\alpha$ in $R(G,T)$ such that $(xs)^{\alpha}= 1$ for all $s\in S$; but this implies that $x^{\alpha}= 1$ and $\alpha |S = 1$, so $Z(x)\cap Z(S)\supset$ Z(Ker $\alpha )$, hence the lemma.
+For all $\alpha \in R(G,T)$, let $S_{\alpha}$ be the submanifold of S consisting of the elements $s$ of S such that $(xs)^{\alpha}= 1$. If there is no element $s$ of S such that $xs$ is regular, S is the union of the submanifolds $S_{\alpha}$, hence is equal to one of them. Hence there exists $\alpha$ in $R(G,T)$ such that $(xs)^{\alpha}= 1$ for all $s\in S$; but this implies that $x^{\alpha}= 1$ and $\alpha |S = 1$, so $Z(x)\cap Z(S)\supset$ Z(Ker $\alpha$ ), hence the lemma.
 
 #### Lemma 3 {#lie-ix-s5-lem-3 .statement tag=01E7}
 
@@ -228,7 +228,7 @@ Let $\Gamma$ be a compact subgroup of Aut(G) with the following property:
 
 Then, there exists a maximal torus of G stable under the operation of $\Gamma$.
 
-We argue by induction on the dimension of G. Clearly, we can assume that $u_1\not=$ Id; then the subgroup H of fixed points of $u_1$ is distinct from G, and is stable under the operation of $\Gamma$. Moreover, since $\Gamma$ is compact, the image of $\Gamma$ in Aut(H$_0)$ is a quotient of $\Gamma$, hence it also satisfies condition (*). By the induction hypothesis, there exists a maximal torus S of H stable under $\Gamma$. The centralizer K of S in G is connected (§2, no. 2, Cor. 5) and stable under $\Gamma$; this is a maximal torus of G, since $H_0$ contains a regular element of G (Th. $1a))$ which is conjugate to an element of S (loc. cit., Cor. 4).
+We argue by induction on the dimension of G. Clearly, we can assume that $u_1\not=$ Id; then the subgroup H of fixed points of $u_1$ is distinct from G, and is stable under the operation of $\Gamma$. Moreover, since $\Gamma$ is compact, the image of $\Gamma$ in Aut(H$_0$) is a quotient of $\Gamma$, hence it also satisfies condition (*). By the induction hypothesis, there exists a maximal torus S of H stable under $\Gamma$. The centralizer K of S in G is connected (§2, no. 2, Cor. 5) and stable under $\Gamma$; this is a maximal torus of G, since $H_0$ contains a regular element of G (Th. $1a$)$)$ which is conjugate to an element of S (loc. cit., Cor. 4).
 
 #### Corollary 3 {#lie-ix-s5-thm-1-cor-3 .statement tag=01ED}
 
@@ -304,17 +304,17 @@ $$
 
 #### Lemma 4 {#lie-ix-s5-lem-4 .statement tag=01EG}
 
-Let $g\in G,t\in T$, and let $\overline{g}$ be the image of $g$ in $G/T$. Identify the tangent space of $G/T$ (resp. T, resp. G) at $\overline{g}$ (resp. $t$, resp. $gtg^{-1})$ with $\mathfrak{g}/\mathfrak{t}$ (resp. $\mathfrak{t}$, resp. $\mathfrak{g})$ by means of the left translation $\gamma (g)$ by $g$ (resp. $t$, resp. $gtg^{-1})$. The tangent linear map of $f$ at $(\overline{g}, t)$ is then identified with the linear map $f': (\mathfrak{g}/\mathfrak{t})\times \mathfrak{t}\rightarrow \mathfrak{g}$ defined as follows: if $z\in \mathfrak{g}, x\in \mathfrak{t}$, and if $\overline{z}$ denotes the image of $z$ in $\mathfrak{g}/\mathfrak{t}$, then
+Let $g\in G,t\in T$, and let $\overline{g}$ be the image of $g$ in $G/T$. Identify the tangent space of $G/T$ (resp. T, resp. G) at $\overline{g}$ (resp. $t$, resp. $gtg^{-1}$) with $\mathfrak{g}/\mathfrak{t}$ (resp. $\mathfrak{t}$, resp. $\mathfrak{g}$) by means of the left translation $\gamma (g)$ by $g$ (resp. $t$, resp. $gtg^{-1}$). The tangent linear map of $f$ at $(\overline{g}, t)$ is then identified with the linear map $f': (\mathfrak{g}/\mathfrak{t})\times \mathfrak{t}\rightarrow \mathfrak{g}$ defined as follows: if $z\in \mathfrak{g}, x\in \mathfrak{t}$, and if $\overline{z}$ denotes the image of $z$ in $\mathfrak{g}/\mathfrak{t}$, then
 
-$f'(\overline{z}, x) =$ (Ad $gt^{-1})(z-$(Ad $t)z+x)$.
+$f'(\overline{z}, x) =$ (Ad $gt^{-1}$)$(z-$(Ad $t$)$z+x)$.
 
-Let F be the map from $G\times T$ to T such that $F(g, t) =gtg^{-1}$. Since $F\circ (\gamma (g)$, Id$_T) =$ Int $g\circ F$, we have $T_{(g,t)}(F)(gz, tx) = T_t$(Int $g)\circ T_{(e,t)}(F)(z, tx)$; by Chap. III, §3, no. 12, Prop. 46,
+Let F be the map from $G\times T$ to T such that $F(g, t) =gtg^{-1}$. Since $F\circ (\gamma (g)$, Id$_T) =$ Int $g\circ F$, we have $T_{(g,t)}(F)(gz, tx) = T_t$(Int $g$)$\circ T_{(e,t)}(F)(z, tx)$; by Chap. III, §3, no. 12, Prop. 46,
 
-$T_{(e,t)}(F)(z, tx) =t$((Ad $t^{-1})z-z) +tx=t$((Ad $t^{-1})(z-$ (Ad $t)z+x))$
+$T_{(e,t)}(F)(z, tx) =t$((Ad $t^{-1}$)$z-z$) $+tx=t$((Ad $t^{-1}$)$(z-$ (Ad $t$)$z+x$))
 
 and consequently
 
-$T_{(g,t)}(F)(gz, tx) =gtg^{-1}$((Ad $gt^{-1})(z-$ (Ad $t)z+x))$.
+$T_{(g,t)}(F)(gz, tx) =gtg^{-1}$((Ad $gt^{-1}$)$(z-$ (Ad $t$)$z+x$)).
 
 The lemma follows immediately from this formula by passage to the quotient.
 
@@ -322,23 +322,23 @@ The lemma follows immediately from this formula by passage to the quotient.
 
 a) Let $g\in G, t\in T, x\in \mathfrak{t}$, and let $\overline{g}$ be the image of $g$ in $G/T$. The following conditions are equivalent:
 
-(i) $t\in T_r$ (resp. $x\in \mathfrak{t}_r)$.
+(i) $t\in T_r$ (resp. $x\in \mathfrak{t}_r$).
 
-(i bis) The element $f(\overline{g}, t)$ (resp. $\varphi (\overline{g}, x))$ is regular in G.
+(i bis) The element $f(\overline{g}, t)$ (resp. $\varphi (\overline{g}, x)$) is regular in G.
 
-(ii) The map $f$ (resp. $\varphi )$ is a submersion at the point $(\overline{g}, t)$ (resp. $(\overline{g}, x))$.
+(ii) The map $f$ (resp. $\varphi$ ) is a submersion at the point $(\overline{g}, t)$ (resp. $(\overline{g}, x)$).
 
-(ii bis) The map $f$ (resp. $\varphi )$ is étale at the point $(\overline{g}, t)$ (resp. $(\overline{g}, x))$.
+(ii bis) The map $f$ (resp. $\varphi$ ) is étale at the point $(\overline{g}, t)$ (resp. $(\overline{g}, x)$).
 
-b) The map $f_r$ (resp. $\varphi_r$, resp. $\varphi_A)$ makes $(G/T)\times T_r$ (resp. $(G/T)\times \mathfrak{t}_r$, resp. $(G/T)\times A)$ a principal covering of $G_r$ with group W (resp. $W'_a$, resp. $H_A)$.
+b) The map $f_r$ (resp. $\varphi_r$, resp. $\varphi_A$) makes $(G/T)\times T_r$ (resp. $(G/T)\times \mathfrak{t}_r$, resp. $(G/T)\times A$) a principal covering of $G_r$ with group W (resp. $W'_a$, resp. $H_A$).
 
-$a)$ The equivalence of (i) and (i bis) is clear; that of (ii) and (ii bis) follows from the relations dim((G$/T)\times T) =$ dim((G$/T)\times \mathfrak{t}) =$ dim(G). By Lemma 4, $f$ is a submersion at the point $(\overline{g}, t)$ if and only if $\mathfrak{g}=\mathfrak{t}+$ Im(Ad $t-$Id), which means that $t$ is regular. Finally, since $\varphi =f\circ$ (Id$_{G/T}\times$ exp$_T),\varphi$ is étale at the point $(\overline{g}, x)$ if and only if $f$ is étale at the point $(\overline{g}$, exp $x)$, which by the preceding means that $x$ belongs to $\mathfrak{t}_r$.
+$a)$ The equivalence of (i) and (i bis) is clear; that of (ii) and (ii bis) follows from the relations dim((G$/T$)$\times T$) $=$ dim((G$/T$)$\times \mathfrak{t}$) $=$ dim(G). By Lemma 4, $f$ is a submersion at the point $(\overline{g}, t)$ if and only if $\mathfrak{g}=\mathfrak{t}+$ Im(Ad $t-$Id), which means that $t$ is regular. Finally, since $\varphi =f\circ$ (Id$_{G/T}\times$ exp$_T$)$,\varphi$ is étale at the point $(\overline{g}, x)$ if and only if $f$ is étale at the point $(\overline{g}$, exp $x$), which by the preceding means that $x$ belongs to $\mathfrak{t}_r$.
 
 b) The morphisms $f_r, \varphi_r, \varphi_A$ are thus étale. On the other hand, W operates freely on $G/T$, and a fortiori on $(G/T)\times T$. Let $g, g'$ in G and $t, t'$ in $T_r$ be such that $f(\overline{g}, t) =f(\overline{g}', t')$; then Int $g^{-1}g'$ maps $t'$ to $t$, and hence normalizes T, since $T = Z(t)_0= Z(t')_0$, and the class $w$ of $g^{-1}g'$ in W maps $(\overline{g}, t)$ to $(\overline{g}', t')$. It follows that $f_r$ is a principal covering with group W; this immediately implies that $\varphi_r$ is a principal covering with group $W'_a$, and hence by restriction to the connected component $(G/T)\times A$ of $(G/T)\times \mathfrak{t}_r$, that $\varphi_A$ is a principal covering with group $H_A$.
 
 #### Remark 1 {#lie-ix-s5-n4-rem-1 .statement tag=01EI}
 
-By Prop. 3 of §2, no. 4, the manifold $(G/T)\times A$ is simply-connected. It follows that $\varphi_A$ is a universal covering of $G_r$; since $\pi_1(G_r)$ is canonically isomorphic to $\pi_1(G)$ (no. 1, Prop. 1 and General Topology, Chap. XI, in preparation), we recover the fact that $\pi_1(G)$ can be identified with $H_A$ (that is with $\Gamma (T)/N(G,T))$.
+By Prop. 3 of §2, no. 4, the manifold $(G/T)\times A$ is simply-connected. It follows that $\varphi_A$ is a universal covering of $G_r$; since $\pi_1(G_r)$ is canonically isomorphic to $\pi_1(G)$ (no. 1, Prop. 1 and General Topology, Chap. XI, in preparation), we recover the fact that $\pi_1(G)$ can be identified with $H_A$ (that is with $\Gamma (T)/N(G,T)$).
 
 #### Remark 2 {#lie-ix-s5-n4-rem-2 .statement tag=01EJ}
 
@@ -346,7 +346,7 @@ The restriction of $\varphi_A$ to $W\times A\subset (G/T)\times A$ makes $W\time
 
 #### Remark 3 {#lie-ix-s5-n4-rem-3 .statement tag=01EK}
 
-Denote by $\mathfrak{g}_r$ the inverse image of $G_r$ under the exponential map and by $\varepsilon :\mathfrak{g}_r\rightarrow G_r$ the map induced by exp$_G$. The map $(g, x) \rightarrow$ (Ad $g)(x)$ from $G\times \mathfrak{t}_r$ to $\mathfrak{g}_r$ defines by passage to the quotient a map $\psi_r: (G/T)\times \mathfrak{t}_r\rightarrow \mathfrak{g}_r$. We have $\varepsilon \circ \psi_r=\varphi_r$. Let $w\in W, \gamma \in \Gamma (T)$ and $\omega \in W'_a$ be such that $\omega (z) =w(z) +\gamma$ for all $z\in \mathfrak{t}$; then $\psi_r((\overline{g}, x)\omega ) =\psi_r(\overline{g}, x)-$ (Ad $g)(\gamma )$ for $g\in G, x\in \mathfrak{t}_r$, so $\psi_r((\overline{g}, x)\omega ) =\psi_r(\overline{g}, x)$ if and only if $\gamma = 0$. It follows (cf. General Topology, Chap. XI, in preparation) that $\psi_r$ is a principal covering of $\mathfrak{g}_r$ with group W, and that $\varepsilon :\mathfrak{g}_r\rightarrow G_r$ is a covering associated to the principal covering $\varphi_r$, with fibre isomorphic to the $W'_a$-set $W'_a/W$.
+Denote by $\mathfrak{g}_r$ the inverse image of $G_r$ under the exponential map and by $\varepsilon :\mathfrak{g}_r\rightarrow G_r$ the map induced by exp$_G$. The map $(g, x) \rightarrow$ (Ad $g$)$(x)$ from $G\times \mathfrak{t}_r$ to $\mathfrak{g}_r$ defines by passage to the quotient a map $\psi_r: (G/T)\times \mathfrak{t}_r\rightarrow \mathfrak{g}_r$. We have $\varepsilon \circ \psi_r=\varphi_r$. Let $w\in W, \gamma \in \Gamma (T)$ and $\omega \in W'_a$ be such that $\omega (z) =w(z) +\gamma$ for all $z\in \mathfrak{t}$; then $\psi_r((\overline{g}, x)\omega ) =\psi_r(\overline{g}, x)-$ (Ad $g$)$(\gamma )$ for $g\in G, x\in \mathfrak{t}_r$, so $\psi_r((\overline{g}, x)\omega ) =\psi_r(\overline{g}, x)$ if and only if $\gamma = 0$. It follows (cf. General Topology, Chap. XI, in preparation) that $\psi_r$ is a principal covering of $\mathfrak{g}_r$ with group W, and that $\varepsilon :\mathfrak{g}_r\rightarrow G_r$ is a covering associated to the principal covering $\varphi_r$, with fibre isomorphic to the $W'_a$-set $W'_a/W$.
 
 ### Exercises {#lie-ix-s5-exercises}
 

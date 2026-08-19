@@ -29,7 +29,7 @@ subsections:
       pdf_page: 130
 statements: 24
 exercises: 16
-content_sha256: 7e79740f063bb1a4fe9a4f31b959fc0ff5c83377f3ff4c798af7d418b70cab6e
+content_sha256: 05e2fea1228720bca7bc8a14f652cff7552bf6da068a53034c14ba9eccd63ae3
 ---
 
 ## § 7. ANNEAUX SIMPLES
@@ -236,7 +236,7 @@ Soit K un corps commutatif. Si A est une sous-algèbre simple d’une algèbre B
 
 ### 4. Idéaux des anneaux simples
 
-Soient D un corps et V un espace vectoriel à droite sur le corps D, de dimension finie $n\geqslant 1$. On considère l’anneau simple A = End$_D(V)$. Pour tout sous-espace vectoriel W de V, on note $\mathfrak{a}(W)$ (resp. $\mathfrak{b}(W))$ l’ensemble des éléments $a$ de A satisfaisant $aW = 0$ (resp. $aV\subset W)$.
+Soient D un corps et V un espace vectoriel à droite sur le corps D, de dimension finie $n\geqslant 1$. On considère l’anneau simple A = End$_D(V)$. Pour tout sous-espace vectoriel W de V, on note $\mathfrak{a}(W)$ (resp. $\mathfrak{b}(W)$) l’ensemble des éléments $a$ de A satisfaisant $aW = 0$ (resp. $aV\subset W$).
 
 #### Proposition 7 {#alg-viii-s7-prop-7 .statement tag=008L}
 

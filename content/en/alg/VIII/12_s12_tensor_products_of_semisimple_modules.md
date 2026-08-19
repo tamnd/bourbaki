@@ -42,7 +42,7 @@ subsections:
       pdf_page: 239
 statements: 26
 exercises: 17
-content_sha256: 3fd3df0c030ccedcadd28aeb4c17e864105704f6d41d322642a13ec4b66b8440
+content_sha256: b311e3c926d1c35b21ba3909e0ec3e0584eb38f0337ee0f5d814716a0a8f67c8
 ---
 
 ## § 12. TENSOR PRODUCTS OF SEMISIMPLE MODULES
@@ -83,11 +83,11 @@ Suppose that the field K is algebraically closed.
 
 a) Let $M_1$ be an $A_1$-module and $M_2$ an $A_2$-module, both simple (resp. semisimple) and finite-dimensional over K. Then $M_1\otimes M_2$ is a simple (resp. semisimple) module over the ring $A_1\otimes A_2$ and is finite-dimensional over K.
 
-b) The mapping from $\mathscr{S}_K(A_1)\times \mathscr{S}_K(A_2)$ to $\mathscr{S}_K(A_1\otimes A_2)$ that sends (cl(S$_1)$, cl(S$_2))$ to cl(S$_1\otimes S_2)$, where $S_1($resp. $S_2)$ is a simple $A_1$-module (resp. $A_2$-module) that is finite-dimensional over K, is bijective.
+b) The mapping from $\mathscr{S}_K(A_1)\times \mathscr{S}_K(A_2)$ to $\mathscr{S}_K(A_1\otimes A_2)$ that sends (cl(S$_1$), cl(S$_2$)) to cl(S$_1\otimes S_2$), where $S_1($resp. $S_2)$ is a simple $A_1$-module (resp. $A_2$-module) that is finite-dimensional over K, is bijective.
 
 To prove part a), it suffices to consider the case when $M_1$ and $M_2$ are simple. Let $M'$ be an A-submodule of $M = M_1\otimes M_2$; it is an $A_1$-submodule of $M_1\otimes M_2$, stable under the set of endomorphisms of the form $1_{M_1}\otimes u$, where $u$ runs through the set of homotheties of the $A_2$-module $M_2$. Since the field K is algebraically closed, Schur’s lemma (VIII, p. 47, Theorem 1) implies that the commutant End$_{A_1}(M_1)$ of $M_1$ is equal to K. By Corollary 2 of VIII, p. 63, the A-submodule $M'$ of $M_1\otimes M_2$ is of the form $M_1\otimes M'_2$, where $M'_2$ is an $A_2$-submodule of $M_2$. We have assumed that $M_2$ is simple; we therefore have $M'_2= 0$ or $M'_2= M_2$, that is, $M'= 0$ or $M'= M$. Consequently, M is simple.
 
-If S is a simple module over $A_1\otimes A_2$ that is finite-dimensional over K, then it follows from Proposition 2 and part a) that S is isomorphic to a module of the form $S_1\otimes S_2$, where $S_1$ (resp. $S_2)$ is a simple $A_1$-module (resp. $A_2$-module). Moreover, as an $A_i$-module, S is isotypical of type $S_i$, so the class of $S_i$ only depends on that of S. This proves part b).
+If S is a simple module over $A_1\otimes A_2$ that is finite-dimensional over K, then it follows from Proposition 2 and part a) that S is isomorphic to a module of the form $S_1\otimes S_2$, where $S_1$ (resp. $S_2$) is a simple $A_1$-module (resp. $A_2$-module). Moreover, as an $A_i$-module, S is isotypical of type $S_i$, so the class of $S_i$ only depends on that of S. This proves part b).
 
 #### Remark 1 {#alg-viii-s12-n1-rem-1 .statement tag=00E9}
 
@@ -117,7 +117,7 @@ then induces an isomorphism of K-vector spaces
 
 $\varphi :$ Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)\longrightarrow$ Hom$_A(M,N)$.
 
-The mapping $\lambda$ is injective (II, §7, No. 7, p. 308, Proposition 16) and sends the linear subspace Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)$ to Hom$_A(M,N)$. It therefore suffices to prove that every A-linear mapping from M to N belongs to the image of Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)$ by $\lambda$. Let $u: M\rightarrow N$ be an A-linear mapping. Let $x\in M_1$. Denote by $u_x$ the $A_2$-linear mapping $y\mapsto u(x\otimes y)$ from $M_2$ to $N_1\otimes N_2$. Set P = Hom$_{A_2}(M_2,N_2)$, and denote by $\nu$ the canonical homomorphism from $N_1\otimes P$ to Hom$_{A_2}(M_2,N_1\otimes N_2)$ (II, §4, No. 2, p. 269). This mapping is injective (II, §4, No. 2, p. 269, Proposition 2, (i) applied to the K-vector space $N_1)$. By assumption (ii), there exists a linear subspace $V_x$ of $N_1$, finite-dimensional over K, such that $u_x$ takes on values in $V_x\otimes N_2$. It follows that $u_x$ is the image by $\nu$ of a unique element $v_x$ of $N_1\otimes P$. The mapping $\widetilde{u}:x\mapsto v_x$ from $M_1$ to $N_1\otimes P$ is $A_1$-linear. By assumption (i), the $A_1$-module $M_1$ is finitely generated. A reasoning analogous to the above shows that $\widetilde{u}$ belongs to the image of Hom$_{A_1}(M_1,N_1)\otimes P$ in Hom$_{A_1}(M_1,N_1\otimes P)$. Lemma 1 follows.
+The mapping $\lambda$ is injective (II, §7, No. 7, p. 308, Proposition 16) and sends the linear subspace Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)$ to Hom$_A(M,N)$. It therefore suffices to prove that every A-linear mapping from M to N belongs to the image of Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)$ by $\lambda$. Let $u: M\rightarrow N$ be an A-linear mapping. Let $x\in M_1$. Denote by $u_x$ the $A_2$-linear mapping $y\mapsto u(x\otimes y)$ from $M_2$ to $N_1\otimes N_2$. Set P = Hom$_{A_2}(M_2,N_2)$, and denote by $\nu$ the canonical homomorphism from $N_1\otimes P$ to Hom$_{A_2}(M_2,N_1\otimes N_2)$ (II, §4, No. 2, p. 269). This mapping is injective (II, §4, No. 2, p. 269, Proposition 2, (i) applied to the K-vector space $N_1$). By assumption (ii), there exists a linear subspace $V_x$ of $N_1$, finite-dimensional over K, such that $u_x$ takes on values in $V_x\otimes N_2$. It follows that $u_x$ is the image by $\nu$ of a unique element $v_x$ of $N_1\otimes P$. The mapping $\widetilde{u}:x\mapsto v_x$ from $M_1$ to $N_1\otimes P$ is $A_1$-linear. By assumption (i), the $A_1$-module $M_1$ is finitely generated. A reasoning analogous to the above shows that $\widetilde{u}$ belongs to the image of Hom$_{A_1}(M_1,N_1)\otimes P$ in Hom$_{A_1}(M_1,N_1\otimes P)$. Lemma 1 follows.
 
 #### Theorem 2 {#alg-viii-s12-thm-2 .statement tag=00EB}
 

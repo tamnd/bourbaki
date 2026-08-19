@@ -22,7 +22,7 @@ subsections:
       pdf_page: 374
 statements: 10
 exercises: 7
-content_sha256: ad2921920aa1c320a4dc7f8575ce717a46afb3d551cdc746cba13cbcdb4764f1
+content_sha256: 2e54129261e2cf9cc0935b1e6d5d3d389efce06f1bc5f48edb1e9227a40ce254
 ---
 
 ## § 18. SIMPLE ALGEBRAS OVER A FINITE FIELD
@@ -133,7 +133,7 @@ By the corollary of VIII, p. 356, every finite field has property $(C_1)$. We ca
 
 – $*$every field endowed with a discrete valuation for which it is complete and
 
-whose residue field is algebraically closed (VIII, p. 332, Exercise 17$).*$
+whose residue field is algebraically closed (VIII, p. 332, Exercise 17)$.*$
 
 #### Remark 3 {#alg-viii-s18-n2-rem-3 .statement tag=00LI}
 

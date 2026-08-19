@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: 16a2ad17a1131cc193ddff872386958e5e59e22e1983db2bc36c53395fb7d832
+content_sha256: 86623d40f53a1a803ced7057e9baf0bc037241a696cea79dcc510f0bbf385654
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -56,13 +56,13 @@ Give X(T) the ordered group structure for which the positive elements are those 
 
 Let $\lambda$ be an element of X(T). The following conditions are equivalent:
 
-(i) $\lambda -w(\lambda )\geq 0$ (resp. $>0)$ for all $w\in W$ such that $w\not= 1$;
+(i) $\lambda -w(\lambda )\geq 0$ (resp. $>0$) for all $w\in W$ such that $w\not= 1$;
 
 (ii) for all $w\in W$ such that $w\not= 1,\lambda -w(\lambda )$ is a linear combination with positive coefficients (resp. positive coefficients not all zero) of simple roots;
 
-(iii) $\langle \lambda , K_{\alpha}\rangle  \geq 0$ (resp. $>0)$ for every positive root $\alpha$;
+(iii) $\langle \lambda , K_{\alpha}\rangle  \geq 0$ (resp. $>0$) for every positive root $\alpha$;
 
-(iv) $\langle \lambda , K_{\alpha}\rangle  \geq 0$ (resp. $>0)$ for every simple root $\alpha$.
+(iv) $\langle \lambda , K_{\alpha}\rangle  \geq 0$ (resp. $>0$) for every simple root $\alpha$.
 
 The equivalence if (iii) and (iv) is immediate. Since the set of the $K_{\alpha}$ can be identified with the inverse root system of $R(G,T) ($§4, no. 5), the equivalence of (i) and (iii) follows from Chap. VI, §1, no. 6, Prop. 18 and Cor. The implication (ii) $\Rightarrow$ (i) is trivial, and the opposite implication follows from loc. cit.
 
@@ -98,7 +98,7 @@ c) For every dominant element $\lambda$ of X(T), there exists an irreducible rep
 
 By Lemma 2, the equivalence classes of irreducible representations of G correspond bijectively to the classes of finite dimensional irreducible representations of $\mathfrak{g}$ whose weights belong to $\delta (X(T))$.
 
-Denote by $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$ the centre and by $\mathscr{D}\mathfrak{g}_{\mathbf{C}}$ the derived Lie algebra of $\mathfrak{g}_{\mathbf{C}}$, so that $\mathfrak{g}_{\mathbf{C}}=\mathscr{C}\mathfrak{g}_{\mathbf{C}}\oplus \mathscr{D}\mathfrak{g}_{\mathbf{C}}$. For every bilinear form $\mu$ on $\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}\mathfrak{g}_{\mathbf{C}}$, denote by $E(\mu)$ the simple $\mathscr{D}\mathfrak{g}_{\mathbf{C}}$-module introduced in Chap. VIII, §6, no. 3; for every linear form $\nu$ on $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$, denote by $\mathbf{C}(\nu )$ the 1-dimensional $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$-module over $\mathbf{C}$ associated to it. Then the $\mathfrak{g}_{\mathbf{C}}$-modules $\mathbf{C}(\nu )\otimes E(\mu)$ are simple, and by Chap. VIII, §7, no. 2, Cor. 2 of Th. 1 and Algebra, Chap. VIII, §11, no. 1, Th. 1, every finite dimensional simple $\mathfrak{g}_{\mathbf{C}}$-module is isomorphic to one of the modules $\mathbf{C}(\nu )\otimes E(\mu)$; moreover (loc. cit.$)\mathbf{C}(\nu )\otimes E(\mu)$ is finite dimensional if and only if $\mu(H_{\alpha})$ is a positive integer for every simple root $\alpha$. If we denote by $\nu +\mu$ the linear form on $\mathfrak{t}_{\mathbf{C}}$ that induces $\nu$ on $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$ and $\mu$ on $\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}\mathfrak{g}_{\mathbf{C}}$, then $(\nu +\mu)(H_{\alpha}) =\mu(H_{\alpha})$; moreover, the weights of $\mathbf{C}(\nu )\otimes E(\mu)$ are the $\nu +\lambda$, where $\lambda$ is any weight of $E(\mu)$, and are thus of the form $\nu +\mu-\theta$, with $\theta \in \delta (X_+)$ (Chap. VIII, §6, no. 2, Lemma 2).
+Denote by $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$ the centre and by $\mathscr{D}\mathfrak{g}_{\mathbf{C}}$ the derived Lie algebra of $\mathfrak{g}_{\mathbf{C}}$, so that $\mathfrak{g}_{\mathbf{C}}=\mathscr{C}\mathfrak{g}_{\mathbf{C}}\oplus \mathscr{D}\mathfrak{g}_{\mathbf{C}}$. For every bilinear form $\mu$ on $\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}\mathfrak{g}_{\mathbf{C}}$, denote by $E(\mu)$ the simple $\mathscr{D}\mathfrak{g}_{\mathbf{C}}$-module introduced in Chap. VIII, §6, no. 3; for every linear form $\nu$ on $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$, denote by $\mathbf{C}(\nu )$ the 1-dimensional $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$-module over $\mathbf{C}$ associated to it. Then the $\mathfrak{g}_{\mathbf{C}}$-modules $\mathbf{C}(\nu )\otimes E(\mu)$ are simple, and by Chap. VIII, §7, no. 2, Cor. 2 of Th. 1 and Algebra, Chap. VIII, §11, no. 1, Th. 1, every finite dimensional simple $\mathfrak{g}_{\mathbf{C}}$-module is isomorphic to one of the modules $\mathbf{C}(\nu )\otimes E(\mu)$; moreover (loc. cit.)$\mathbf{C}(\nu )\otimes E(\mu)$ is finite dimensional if and only if $\mu(H_{\alpha})$ is a positive integer for every simple root $\alpha$. If we denote by $\nu +\mu$ the linear form on $\mathfrak{t}_{\mathbf{C}}$ that induces $\nu$ on $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$ and $\mu$ on $\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}\mathfrak{g}_{\mathbf{C}}$, then $(\nu +\mu)(H_{\alpha}) =\mu(H_{\alpha})$; moreover, the weights of $\mathbf{C}(\nu )\otimes E(\mu)$ are the $\nu +\lambda$, where $\lambda$ is any weight of $E(\mu)$, and are thus of the form $\nu +\mu-\theta$, with $\theta \in \delta (X_+)$ (Chap. VIII, §6, no. 2, Lemma 2).
 
 We conclude that the $\mathfrak{g}$-module $\mathbf{C}(\nu )\otimes E(\mu)$ is finite dimensional if and only if $(\nu +\mu)(H_{\alpha})$ is a positive integer for every simple root $\alpha$, and that its weights belong to $\delta (X(T))$ if and only if $\nu +\mu$ belongs to $\delta (X(T))$. The conjunction of these two conditions means that $\nu +\mu$ belongs to $\delta (X_{++})$; in that case, $\nu +\mu$ is the highest weight of $\mathbf{C}(\nu )\otimes E(\mu)$. Thus, we have constructed for every dominant weight $\lambda$ of X(T) an irreducible representation of G of highest weight $\lambda$, and have thus obtained, up to equivalence, all the irreducible representations of G. Since the vectors of weight $\nu +\mu$ in $\mathbf{C}(\nu )\otimes E(\mu)$ form a subspace of dimension 1, the proof is complete.
 
@@ -106,7 +106,7 @@ We conclude that the $\mathfrak{g}$-module $\mathbf{C}(\nu )\otimes E(\mu)$ is f
 
 The group G has a (finite dimensional) faithful linear representation.
 
-Observe first that every element of X(T) is equal to the difference of two dominant weights: more precisely, let $\varpi$ be an element of $X_{++}$ such that $\langle \varpi , K_{\alpha}\rangle >0$ for every simple root $\alpha$; for all $\lambda \in X(T)$ there exists a positive integer $n$ such that $\langle \lambda +n\varpi , K_{\alpha}\rangle  \geq 0$ for every simple root $\alpha$, that is (no. 1, Lemma $1)\lambda +n\varpi \in X_{++}$.
+Observe first that every element of X(T) is equal to the difference of two dominant weights: more precisely, let $\varpi$ be an element of $X_{++}$ such that $\langle \varpi , K_{\alpha}\rangle >0$ for every simple root $\alpha$; for all $\lambda \in X(T)$ there exists a positive integer $n$ such that $\langle \lambda +n\varpi , K_{\alpha}\rangle  \geq 0$ for every simple root $\alpha$, that is (no. 1, Lemma $1$)$\lambda +n\varpi \in X_{++}$.
 
 Consequently, there exists a finite family $(\lambda_i)_{i\in I}$ of elements of $X_{++}$ generating the $\mathbf{Z}$-module X(T). For $i\in I$, let $\tau_i$ be an irreducible representation of G of highest weight $\lambda_i$ (Th. 1); let the representation $\tau$ be the direct sum of the $\tau_i$. By construction the set $P(\tau ,T)$ of weights of $\tau$ (relative to T) generates the $\mathbf{Z}$-module X(T). It now follows from Prop. 6 of §4, no. 3 that the homomorphism $\tau$ is injective, hence the corollary.
 
@@ -180,7 +180,7 @@ Since every representation of G is semi-simple, the $\mathbf{Z}$-module R(G) is 
 
 Let $\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$ be a representation of G; we consider the gradation $(V_{\lambda}(T))_{\lambda\in X(T)}$ of the $\mathbf{C}$-vector space V. Denote by Ch(V), or by Ch($\tau$ ), the character of the graded vector space V (Chap. VIII, §7, no. 7); if $(e^{\lambda})_{\lambda\in X(T)}$ denotes the canonical basis of the algebra $\mathbf{Z}[X(T)] =\mathbf{Z}^{(X(T))}$, we have, by definition,
 
-Ch($\tau$ ) $=\sum_{\lambda\in X(T)}$(dim $V_{\lambda}(T))e^{\lambda}$.
+Ch($\tau$ ) $=\sum_{\lambda\in X(T)}$(dim $V_{\lambda}(T)$)$e^{\lambda}$.
 
 We define in the same way (loc. cit.) a homomorphism of rings, also denoted by Ch, from R(G) to $\mathbf{Z}[X(T)]$. If G is semi-simple, we have a commutative diagram
 
@@ -204,7 +204,7 @@ The homomorphism Ch induces an isomorphism from R(G) to $Z[X(T)]^W$.
 
 For $\lambda \in X_{++}$, denote by $[\lambda ]$ the class in R(G) of the irreducible representation of highest weight $\lambda$. Since the family $([\lambda ])_{\lambda\in X_{++}}$ is a basis of the $\mathbf{Z}$-module R(G), it suffices to prove the following assertion:
 
-The family (Ch[$\lambda ])_{\lambda\in X_{++}}$ is a basis of the $\mathbf{Z}$-module $\mathbf{Z}[X(T)]^W$.
+The family (Ch[$\lambda ]$)$_{\lambda\in X_{++}}$ is a basis of the $\mathbf{Z}$-module $\mathbf{Z}[X(T)]^W$.
 
 For every element $u=\sum_{\lambda}a_{\lambda}e^{\lambda}$ of $\mathbf{Z}[X(T)]$, a term $a_{\lambda}e^{\lambda}$ in $u$ is called maximal if $\lambda$ is a maximal element of the set of $\mu\in X(T)$ such that $a_\mu\not= 0$. Th. 1 implies that Ch[$\lambda ]$ has a unique maximal term, namely $e^{\lambda}$. Thus, the proposition follows from the following lemma.
 
@@ -214,7 +214,7 @@ For each $\lambda \in X_{++}$, let $C_{\lambda}$ be an element of $\mathbf{Z}[X(
 
 The proof is identical to that of Prop. 3 of Chap. VI, §3, no. 4, replacing A by $\mathbf{Z}, P$ by X(T) and $P\cap \overline{C}$ by $X_{++}$.
 
-Let $\Theta (G)$ (resp. $\Theta (T))$ be the $\mathbf{C}$-algebra of continuous representative functions on G (resp. T), and let $Z\Theta (G)$ (resp. $\Theta (T)^W)$ be the subalgebra consisting of the central (resp. W-invariant) functions. The restriction map $\Theta (G)\rightarrow \Theta (T)$ induces a homomorphism of rings $r: Z\Theta (G)\rightarrow \Theta (T)^W$. On the other hand, the map that associates to a representation $\tau$ its character (that is, the function $g \rightarrow$ Tr $\tau (g))$ extends to a homomorphism of $\mathbf{C}$-algebras Tr$:\mathbf{C}\otimes_{\mathbf{Z}}R(G)\rightarrow Z\Theta (G)$ which, by Spectral Theories, is an isomorphism. Similarly, the canonical injection $X(T)\rightarrow \Theta (T)$ induces an isomorphism of $\mathbf{C}$-algebras $\iota :\mathbf{C}[X(T)]\rightarrow \Theta$(T), which induces an isomorphism $\iota :\mathbf{C}[X(T)]^W\rightarrow \Theta (T)^W$. The diagram
+Let $\Theta (G)$ (resp. $\Theta (T)$) be the $\mathbf{C}$-algebra of continuous representative functions on G (resp. T), and let $Z\Theta (G)$ (resp. $\Theta (T)^W$) be the subalgebra consisting of the central (resp. W-invariant) functions. The restriction map $\Theta (G)\rightarrow \Theta (T)$ induces a homomorphism of rings $r: Z\Theta (G)\rightarrow \Theta (T)^W$. On the other hand, the map that associates to a representation $\tau$ its character (that is, the function $g \rightarrow$ Tr $\tau (g)$) extends to a homomorphism of $\mathbf{C}$-algebras Tr$:\mathbf{C}\otimes_{\mathbf{Z}}R(G)\rightarrow Z\Theta (G)$ which, by Spectral Theories, is an isomorphism. Similarly, the canonical injection $X(T)\rightarrow \Theta (T)$ induces an isomorphism of $\mathbf{C}$-algebras $\iota :\mathbf{C}[X(T)]\rightarrow \Theta$(T), which induces an isomorphism $\iota :\mathbf{C}[X(T)]^W\rightarrow \Theta (T)^W$. The diagram
 
 $$
 \mathbf{C}\otimes_{\mathbf{Z}}R(G)\overset{1\otimes Ch}{\longrightarrow}\mathbf{C}[X(T)]^W
@@ -230,7 +230,7 @@ $$
 
 is commutative: indeed, for every representation $\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$ and all $t\in T$,
 
-Tr $\tau (t) =\sum_{\lambda\in X(T)}$(dim $V_{\lambda}(T))\lambda (t) =\iota$(Ch$\tau )(t)$,
+Tr $\tau (t) =\sum_{\lambda\in X(T)}$(dim $V_{\lambda}(T)$)$\lambda (t) =\iota$(Ch$\tau$ )$(t)$,
 
 that is, $(r\circ$ Tr)[$\tau ] = (\iota \circ$ Ch)[$\tau ]$.
 
@@ -246,7 +246,7 @@ In this number, we write the group X(T) multiplicatively, and regard its element
 
 Denote by $L^2(T)$ the Hilbert space of classes of square-integrable complex functions on T, and by $\Theta (T)$ the subspace consisting of the continuous representative functions. By Spectral Theories, X(T) is an orthonormal basis of $L^2(T)$ and an algebraic basis of $\Theta (T)$.
 
-For $f\in L^2(T)$ and $w\in W$, denote by $^wf$ the element of $L^2(T)$ defined by $^wf(t) =f(w^{-1}(t))$; thus, for $\lambda \in X(T)$ we have $^w\lambda =w(\lambda )$. Denote by $\varepsilon : W\rightarrow  \{1,-1\}$ the signature (the unique homomorphism such that $\varepsilon (s) =$ $-1$ for every reflection $s)$; for $f\in L^2$(T), put
+For $f\in L^2(T)$ and $w\in W$, denote by $^wf$ the element of $L^2(T)$ defined by $^wf(t) =f(w^{-1}(t))$; thus, for $\lambda \in X(T)$ we have $^w\lambda =w(\lambda )$. Denote by $\varepsilon : W\rightarrow  \{1,-1\}$ the signature (the unique homomorphism such that $\varepsilon (s) =$ $-1$ for every reflection $s$); for $f\in L^2$(T), put
 
 $$
 J(f) =\sum_{w\in W}\varepsilon (w)^wf
@@ -256,7 +256,7 @@ If $\lambda \in X_{++}$, the characters $^w(\lambda \rho )$ are distinct; indeed
 
 $\|J(\lambda \rho )\|^2=$ Card(W) $=w(G)$.
 
-An element $f\in L^2(T)$ is said to be anti-invariant if $^wf=\varepsilon (w)f$ for all $w\in W$ (that is, if $^sf=-f$ for every reflection $s)$. We shall show that $\frac{1}{w(G)}J$ is the orthogonal projection of $L^2(T)$ onto the subspace of anti-invariant elements. Indeed, let $f, f'$ be in $L^2$(T), with $f'$ anti-invariant; then $J(f)$ is anti-invariant and
+An element $f\in L^2(T)$ is said to be anti-invariant if $^wf=\varepsilon (w)f$ for all $w\in W$ (that is, if $^sf=-f$ for every reflection $s$). We shall show that $\frac{1}{w(G)}J$ is the orthogonal projection of $L^2(T)$ onto the subspace of anti-invariant elements. Indeed, let $f, f'$ be in $L^2$(T), with $f'$ anti-invariant; then $J(f)$ is anti-invariant and
 
 $$
 \langle f',J(f)\rangle =\sum_{w\in W}\varepsilon (w)\langle f',^wf\rangle =\sum_{w\in W}\langle^wf',^wf\rangle
@@ -424,13 +424,13 @@ hence the theorem in this case.
 
 In the general case, it suffices to remark that, in proving Th. 3, we can always replace G by a suitable connected covering and thus reduce to the preceding case.
 
-We now prove Lemma 5. Let $z\in \mathbf{C}$; denote by $\varphi_z$ the map from $\mathfrak{t}$ to the $\mathbf{C}$-algebra Map(X(T)$,\mathbf{C})$ of maps from X(T) to $\mathbf{C}$ that associates to $H\in \mathfrak{t}$ the map
+We now prove Lemma 5. Let $z\in \mathbf{C}$; denote by $\varphi_z$ the map from $\mathfrak{t}$ to the $\mathbf{C}$-algebra Map(X(T)$,\mathbf{C}$) of maps from X(T) to $\mathbf{C}$ that associates to $H\in \mathfrak{t}$ the map
 
-$\varphi_z(H) :\mu \rightarrow \mu$(exp $zH) =e^{z\delta(\mu)(H)}$.
+$\varphi_z(H) :\mu \rightarrow \mu$(exp $zH$) $=e^{z\delta(\mu)(H)}$.
 
 We have $\varphi_z(H+H') =\varphi_z(H)\varphi_z(H')$, so there exists a homomorphism of rings
 
-$\psi_z:\mathbf{Z}[\mathfrak{t}]\rightarrow$ Map(X(T)$,\mathbf{C})$
+$\psi_z:\mathbf{Z}[\mathfrak{t}]\rightarrow$ Map(X(T)$,\mathbf{C}$)
 
 such that $\psi_z(e^H)(\mu) =e^{z\delta(\mu)(H)}$. On the other hand, by Chap. VI, §3, no. 3, Prop. 2, we have the following relation in $\mathbf{Z}[\mathfrak{t}]:$
 
@@ -514,7 +514,7 @@ $$
 
 We show that the form $Q_{\Gamma}$ is positive. Indeed, if $x\in X(T)\otimes \mathbf{Q}$, the element $\delta (x)$ of $\mathfrak{t}^*_{\mathbf{C}}$ takes purely imaginary values on $\mathfrak{t}$, hence real values on $i\mathfrak{t}$; we conclude by remarking that, for $y\in i\mathfrak{t}$, we have $F(y, y)\geq 0$.
 
-It remains to prove the uniqueness assertion in $b)$. Let Q be a quadratic form on $X(T)\otimes \mathbf{R}$ satisfying the required condition, and let $\Phi$ (resp. $\Phi_{\Gamma})$ be the bilinear form associated to Q (resp. $Q_{\Gamma})$. For $\lambda , \mu\in X_{++}$, we have
+It remains to prove the uniqueness assertion in $b)$. Let Q be a quadratic form on $X(T)\otimes \mathbf{R}$ satisfying the required condition, and let $\Phi$ (resp. $\Phi_{\Gamma}$) be the bilinear form associated to Q (resp. $Q_{\Gamma}$). For $\lambda , \mu\in X_{++}$, we have
 
 $$
 \Phi (\lambda , \mu) = (Q(\lambda +\mu+\rho )-Q(\rho ))-(Q(\lambda +\rho )-Q(\rho ))-(Q(\mu+\rho )-Q(\rho ))

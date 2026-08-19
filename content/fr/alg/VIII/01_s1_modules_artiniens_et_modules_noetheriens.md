@@ -29,7 +29,7 @@ subsections:
       pdf_page: 20
 statements: 36
 exercises: 28
-content_sha256: 2b08bf5d172d32adbe9fb5702b2f948e3152a8025e0501c9e93de6eefe5eac90
+content_sha256: f282c597d828c8cf15bac52d70f6da9b6fe633973ce2468a11bd7fd3058aa31d
 ---
 
 ## § 1. MODULES ARTINIENS ET MODULES NOETHÉRIENS
@@ -50,7 +50,7 @@ Pour qu’un A-module M soit artinien (resp. noethérien), il faut et il suffit 
 
 Soit M un A-module artinien (resp. noethérien). Tout ensemble non vide de sous-modules de M, ordonné par inclusion, qui est filtrant décroissant (resp. filtrant croissant) possède un plus petit élément (resp. un plus grand élément) (E, III, p. 13, prop. 10).
 
-Soient M un A-module artinien (resp. noethérien) et $(M_i)_{i\in I}$ une famille de sous-modules de M. Les intersections (resp. sommes) des sous-familles finies de la famille $(M_i)_{i\in I}$ forment un ensemble non vide filtrant décroissant (resp. filtrant croissant) de sous-modules de M. Il existe donc une partie finie J de I tel que $\bigcap_{i\in I}M_i=\bigcap_{i\in J}M_i$ (resp. $\sum_{i\in I}M_i=\sum_{i\in J}M_i)$.
+Soient M un A-module artinien (resp. noethérien) et $(M_i)_{i\in I}$ une famille de sous-modules de M. Les intersections (resp. sommes) des sous-familles finies de la famille $(M_i)_{i\in I}$ forment un ensemble non vide filtrant décroissant (resp. filtrant croissant) de sous-modules de M. Il existe donc une partie finie J de I tel que $\bigcap_{i\in I}M_i=\bigcap_{i\in J}M_i$ (resp. $\sum_{i\in I}M_i=\sum_{i\in J}M_i$).
 
 #### Exemple 1 {#alg-viii-s1-n1-exa-1 .statement tag=0002}
 
@@ -166,11 +166,11 @@ Soient A un anneau et D un sous-anneau de A. On suppose que D est un corps et qu
 
 #### Exemple 3 {#alg-viii-s1-n2-exa-3 .statement tag=000G}
 
-Un anneau principal (VII, p. 1, déf. 1) est noethérien. Un anneau intègre A qui n’est pas un corps n’est pas un anneau artinien : pour tout élément $a$ de A, non nul et non inversible, la suite des idéaux $a^nA$ (pour $n\in \mathbf{N})$ est strictement décroissante. En particulier, l’anneau $\mathbf{Z}$des entiers rationnels est noethérien, mais n’est pas artinien.
+Un anneau principal (VII, p. 1, déf. 1) est noethérien. Un anneau intègre A qui n’est pas un corps n’est pas un anneau artinien : pour tout élément $a$ de A, non nul et non inversible, la suite des idéaux $a^nA$ (pour $n\in \mathbf{N}$) est strictement décroissante. En particulier, l’anneau $\mathbf{Z}$des entiers rationnels est noethérien, mais n’est pas artinien.
 
 #### Exemple 4 {#alg-viii-s1-n2-exa-4 .statement tag=000H}
 
-Soit M un A-module, somme directe d’une famille infinie $(M_i)_{i\in I}$ de sous-modules non nuls. Soit E l’anneau des endomorphismes de M. Pour tout $i\in I$, soit $\mathfrak{a}_i$ (resp. $\mathfrak{b}_i)$ l’ensemble des éléments de E dont le noyau contient $\sum_{j\not=i}M_j$ (resp. dont l’image est contenue dans $M_i)$. Alors $(\mathfrak{a}_i)$ est une famille infinie d’idéaux à gauche non nuls de E dont la somme est directe, et $(\mathfrak{b}_i)$ est une famille infinie d’idéaux à droite non nuls de E dont la somme est directe. Par suite l’anneau E n’est artinien (resp. noethérien) ni à gauche, ni à droite (VIII, p. 2, exemple 2). En particulier, l’anneau des endomorphismes d’un espace vectoriel de dimension infinie n’est artinien (resp. noethérien) ni à gauche, ni à droite.
+Soit M un A-module, somme directe d’une famille infinie $(M_i)_{i\in I}$ de sous-modules non nuls. Soit E l’anneau des endomorphismes de M. Pour tout $i\in I$, soit $\mathfrak{a}_i$ (resp. $\mathfrak{b}_i$) l’ensemble des éléments de E dont le noyau contient $\sum_{j\not=i}M_j$ (resp. dont l’image est contenue dans $M_i$). Alors $(\mathfrak{a}_i)$ est une famille infinie d’idéaux à gauche non nuls de E dont la somme est directe, et $(\mathfrak{b}_i)$ est une famille infinie d’idéaux à droite non nuls de E dont la somme est directe. Par suite l’anneau E n’est artinien (resp. noethérien) ni à gauche, ni à droite (VIII, p. 2, exemple 2). En particulier, l’anneau des endomorphismes d’un espace vectoriel de dimension infinie n’est artinien (resp. noethérien) ni à gauche, ni à droite.
 
 #### Théorème 1 {#alg-viii-s1-thm-1 .statement tag=00QW}
 
@@ -198,7 +198,7 @@ Tout anneau artinien à gauche est noethérien à gauche.
 
 Soit A un anneau artinien à gauche. Par le théorème 1, le A-module $A_s$ est de longueur finie. On applique alors la prop. 1 de VIII, p. 2.
 
-Soit A un anneau artinien à gauche (resp. à droite) ; la longueur du A-module $A_s$ (resp. $A_d)$ (I, p. 42) est appelée la longueur à gauche (resp. à droite) de l’anneau A. Lorsque A est un anneau commutatif et artinien, ces deux longueurs coïncident et sont appelées simplement la longueur de A. Lorsque A est artinien à droite et à gauche mais n’est pas commutatif, les longueurs à gauche et à droite de A ne sont pas nécessairement égales (VIII, p. 13, exerc. 3).
+Soit A un anneau artinien à gauche (resp. à droite) ; la longueur du A-module $A_s$ (resp. $A_d$) (I, p. 42) est appelée la longueur à gauche (resp. à droite) de l’anneau A. Lorsque A est un anneau commutatif et artinien, ces deux longueurs coïncident et sont appelées simplement la longueur de A. Lorsque A est artinien à droite et à gauche mais n’est pas commutatif, les longueurs à gauche et à droite de A ne sont pas nécessairement égales (VIII, p. 13, exerc. 3).
 
 #### Exemple 5 {#alg-viii-s1-n2-exa-5 .statement tag=000K}
 

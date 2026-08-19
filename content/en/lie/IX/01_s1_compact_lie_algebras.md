@@ -29,7 +29,7 @@ subsections:
       pdf_page: 291
 statements: 13
 exercises: 9
-content_sha256: a0ea6ff66efb6fd732a160af583d309a29e61483daaa1bf8d67281c2bb6279df
+content_sha256: 13b135a405ae8d6c95356fda2234c2df7705d1f5e3890b510da06e823c37411a
 ---
 
 ## § 1. COMPACT LIE ALGEBRAS
@@ -38,7 +38,7 @@ content_sha256: a0ea6ff66efb6fd732a160af583d309a29e61483daaa1bf8d67281c2bb6279df
 
 In this number, the letter $k$ denotes the field $\mathbf{R}$ or $\mathbf{C}$. Let V be a finite dimensional $k$-vector space, $\Phi$ a separating$^2$ positive hermitian form on V, G a group, $\mathfrak{g}$ an $\mathbf{R}$-Lie algebra, $\rho : G\rightarrow \mathbf{G}\mathbf{L}(V)$ a group homomorphism, $\varphi :\mathfrak{g}\rightarrow \mathfrak{g}\mathfrak{l}(V)$ a homomorphism of $\mathbf{R}$-Lie algebras.
 
-$a)$ The form $\Phi$ is invariant under G (resp. $\mathfrak{g})$ if and only if $\rho (g)$ is unitary with respect to $\Phi$ for all $g\in G$ (resp. $\varphi (x)$ is anti-hermitian$^3$ with respect to $\Phi$ for all $x\in \mathfrak{g})$. Indeed, denote by $a^*$ the adjoint of an endomorphism $a$ of V with respect to $\Phi$; for $g$ in $G,x$ in $\mathfrak{g},u$ and $v$ in V, we have
+$a)$ The form $\Phi$ is invariant under G (resp. $\mathfrak{g}$) if and only if $\rho (g)$ is unitary with respect to $\Phi$ for all $g\in G$ (resp. $\varphi (x)$ is anti-hermitian$^3$ with respect to $\Phi$ for all $x\in \mathfrak{g}$). Indeed, denote by $a^*$ the adjoint of an endomorphism $a$ of V with respect to $\Phi$; for $g$ in $G,x$ in $\mathfrak{g},u$ and $v$ in V, we have
 
 $$
 \Phi (\rho (g)u, \rho (g)v) =\Phi (\rho (g)^*\rho (g)u, v)
@@ -60,11 +60,11 @@ exists $v\in V$ such that $H(u, v)\not= 0$.
 
 $^3$ An element $a\in$ End(V) is said to be anti-hermitian with respect to $\Phi$ if the
 
-adjoint $a^*$ of $a$ with respect to $\Phi$ is equal to $-a$. When $k=\mathbf{C}$ (resp. $k=\mathbf{R})$ this
+adjoint $a^*$ of $a$ with respect to $\Phi$ is equal to $-a$. When $k=\mathbf{C}$ (resp. $k=\mathbf{R}$) this
 
-also means that the endomorphism $ia$ of V (resp. of $\mathbf{C}\otimes_{\mathbf{R}}V)$ is hermitian. thus, $\Phi (\rho (g)u, \rho (g)v) =\Phi (u, v)$ for all $u, v$ in V if and only if $\rho (g)^*\rho (g) =$ Id$_V$; similarly, $\Phi (\varphi (x)u, v) +\Phi (u, \varphi (x)v) = 0$ for all $u, v$ in V if and only if $\varphi (x) +\varphi (x)^*= 0$, hence the stated assertion.
+also means that the endomorphism $ia$ of V (resp. of $\mathbf{C}\otimes_{\mathbf{R}}V$) is hermitian. thus, $\Phi (\rho (g)u, \rho (g)v) =\Phi (u, v)$ for all $u, v$ in V if and only if $\rho (g)^*\rho (g) =$ Id$_V$; similarly, $\Phi (\varphi (x)u, v) +\Phi (u, \varphi (x)v) = 0$ for all $u, v$ in V if and only if $\varphi (x) +\varphi (x)^*= 0$, hence the stated assertion.
 
-$b)$ If the form $\Phi$ is invariant under G (resp. $\mathfrak{g})$, the orthogonal complement of a stable subspace of V is stable; in particular, the representation $\rho$ (resp. $\varphi )$ is then semi-simple (cf. Algebra, Chap. IX); moreover, for all $g\in G$ (resp. $x\in \mathfrak{g})$, the endomorphism $\rho (g)$ (resp. $\varphi (x))$ of V is then semi-simple, with eigenvalues of absolute value 1 (resp. with purely imaginary eigenvalues); indeed $\rho (g)$ is unitary (resp. $i\varphi (x)$ is hermitian, cf. Algebra, Chap. IX).
+$b)$ If the form $\Phi$ is invariant under G (resp. $\mathfrak{g}$), the orthogonal complement of a stable subspace of V is stable; in particular, the representation $\rho$ (resp. $\varphi$ ) is then semi-simple (cf. Algebra, Chap. IX); moreover, for all $g\in G$ (resp. $x\in \mathfrak{g}$), the endomorphism $\rho (g)$ (resp. $\varphi (x)$) of V is then semi-simple, with eigenvalues of absolute value 1 (resp. with purely imaginary eigenvalues); indeed $\rho (g)$ is unitary (resp. $i\varphi (x)$ is hermitian, cf. Algebra, Chap. IX).
 
 $c)$ Assume that $k=\mathbf{R}$. If G is a connected Lie group, $\rho$ a morphism of Lie groups, $\mathfrak{g}$ the Lie algebra of G and $\varphi$ the homomorphism induced by $\rho$, then $\Phi$ is invariant under G if and only if it is invariant under $\mathfrak{g}$ (Chap. III, §6, no. 5, Cor. 3).
 
@@ -112,7 +112,7 @@ Let $\mathfrak{g}$ be a (real) Lie algebra. The following conditions are equival
 
 (iii) $=\Rightarrow$ (iv): if (iii) is satisfied, the adjoint representation of $\mathfrak{g}$ is semi-simple (no. 1), hence $\mathfrak{g}$ is reductive; moreover, the endomorphisms ad $x$, for $x\in \mathfrak{g}$, have the indicated properties (no. 1).
 
-(iv) $=\Rightarrow$ (v): for all $x\in \mathfrak{g}, B(x, x) =$ Tr((ad $x)^2)$; consequently, $B(x, x)$ is the sum of the squares of the eigenvalues of ad $x$, and hence is negative if these are purely imaginary.
+(iv) $=\Rightarrow$ (v): for all $x\in \mathfrak{g}, B(x, x) =$ Tr((ad $x$)$^2$); consequently, $B(x, x)$ is the sum of the squares of the eigenvalues of ad $x$, and hence is negative if these are purely imaginary.
 
 (v) $=\Rightarrow$ (i): assume that $\mathfrak{g}$ is reductive, hence the product of a commutative subalgebra $\mathfrak{c}$ and a semi-simple subalgebra $\mathfrak{s}$ (Chap. I, §6, no. 4, Prop. 5). The Killing form of $\mathfrak{s}$ is the restriction of the form B to $\mathfrak{s}$, hence is negative and separating if B is negative. The subgroup Int($\mathfrak{s}$) of $\mathbf{G}\mathbf{L}(\mathfrak{s})$ is closed (it is the identity component of Aut($\mathfrak{s}$), Chap. III, §10, no. 2, Cor. 2) and leaves the separating positive form $-B$ invariant; thus, it is compact, and $\mathfrak{s}$ is isomorphic to the Lie algebra of the compact Lie group Int($\mathfrak{s}$). Further, since $\mathfrak{c}$ is commutative, it is isomorphic to the Lie algebra of a torus T. Thus $\mathfrak{g}$ is isomorphic to the Lie algebra of the compact Lie group Int($\mathfrak{s}$)$\times T$.
 
@@ -146,7 +146,7 @@ Let G be a Lie group of which the group of connected components is finite. The f
 
 $^*$(iv) G has a riemannian metric invariant under left and right translations.$_*$
 
-(i) $=\Rightarrow$ (ii): if L(G) is compact, the group Ad(G$_0) =$ Int(L(G)) is compact; since it has finite index in Ad(G), this latter group is also compact.
+(i) $=\Rightarrow$ (ii): if L(G) is compact, the group Ad(G$_0$) $=$ Int(L(G)) is compact; since it has finite index in Ad(G), this latter group is also compact.
 
 (ii) $=\Rightarrow$ (iii): this follows from no. 1.
 
@@ -210,7 +210,7 @@ This follows from Cor. 1 to 3.
 
 Let G be a connected compact Lie group. Then Int(G) is the identity component of the Lie group Aut(G) (Chap. III, §10, no. 2).
 
-Let $f\in$ Aut(G)$_0$. Then $f$ induces an automorphism $f_1$ of $C(G)_0$ and an automorphism $f_2$ of D(G), and we have $f_1\in$ Aut(C(G)$_0)_0, f_2\in$ Aut(D(G))$_0$. Since Aut(C(G)$_0)$ is discrete (General Topology, Chap. VII, §2, no. 4, Prop. 5), we have $f_1=$ Id; since D(G) is semi-simple, by Chap. III, §10, no. 2, Cor. 2 of Th. 1 there exists an element $g$ of D(G) such that $f_2(x) =gxg^{-1}$ for all $x\in$ D(G). For all $x\in C(G)_0$, we have $gxg^{-1}=x$ = $f_1(x)$; since $G = C(G)_0.D(G)$, it follows that $gxg^{-1}=f(x)$ for all $x\in G$, so $f=$ Int $g$.
+Let $f\in$ Aut(G)$_0$. Then $f$ induces an automorphism $f_1$ of $C(G)_0$ and an automorphism $f_2$ of D(G), and we have $f_1\in$ Aut(C(G)$_0$)$_0, f_2\in$ Aut(D(G))$_0$. Since Aut(C(G)$_0$) is discrete (General Topology, Chap. VII, §2, no. 4, Prop. 5), we have $f_1=$ Id; since D(G) is semi-simple, by Chap. III, §10, no. 2, Cor. 2 of Th. 1 there exists an element $g$ of D(G) such that $f_2(x) =gxg^{-1}$ for all $x\in$ D(G). For all $x\in C(G)_0$, we have $gxg^{-1}=x$ = $f_1(x)$; since $G = C(G)_0.D(G)$, it follows that $gxg^{-1}=f(x)$ for all $x\in G$, so $f=$ Int $g$.
 
 #### Proposition 5 {#lie-ix-s1-prop-5 .statement tag=019O}
 

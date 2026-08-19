@@ -45,7 +45,7 @@ subsections:
       pdf_page: 265
 statements: 36
 exercises: 19
-content_sha256: 8f8e9c457dfcc09dc03137d917314bdc9e4cd27cde5b0df4511935f8a645e749
+content_sha256: 3af507fd6e93061cf8e43de0ae074d085df31f2a4e2fcf94713717812c3d8af3
 ---
 
 ## § 14. ALGÈBRES CENTRALES ET SIMPLES
@@ -142,7 +142,7 @@ Soient $f$ et $g$ des homomorphismes de B dans A. Les conditions suivantes sont 
 
 (i) Les $(B,A)$-bimodules $A^f$ et $A^g$ sont isomorphes ;
 
-(ii) Il existe un automorphisme intérieur (I, p. 97, exemple $2)\theta$ de A tel que $g=\theta \circ f$.
+(ii) Il existe un automorphisme intérieur (I, p. 97, exemple $2$)$\theta$ de A tel que $g=\theta \circ f$.
 
 Les automorphismes du A-module à droite $A_d$ sont les applications $x\rightarrow ax$, où $a$ est un élément inversible de A. Pour qu’un tel automorphisme soit une application B-linéaire de $A^f$ dans $A^g$, il faut et il suffit que l’on ait
 
@@ -156,11 +156,11 @@ pour tout $x$ dans A et tout $b$ dans B. Cette relation équivaut à $g(b) =af(b
 
 Supposons que B soit un anneau semi-simple et un module de type fini sur son centre Z. Soient M et N des $(B,A)$-bimodules. Supposons-les de longueur finie (ce qui a lieu en particulier si ce sont des A-modules à droite de longueur finie). Si M et N sont isomorphes comme $(Z,A)$-bimodules, ils sont isomorphes comme $(B,A)$-bimodules.
 
-A) Considérons d’abord le cas où B est l’anneau des endomorphismes d’un espace vectoriel S de dimension finie $d$ sur un corps commutatif L. On a alors Z = L ; on considère S comme un $(B$, Z)-bimodule. L’anneau B est simple, S est un B-module simple et Z est le commutant de S ; tout B-module est isotypique de type S (VIII, p. 118, prop. 2 a)). Soit $(V, \alpha )$ (resp. $(W, \beta ))$ une description du B-module M (resp. N). L’ensemble V (resp. W) est muni d’une structure de $(Z,A)$-bimodule de sorte que $\alpha$ (resp. $\beta )$ soit un isomorphisme de $(B$, A)-bimodules (VIII, p. 60, remarque 2). Comme $(Z$, A)-bimodule, M est isomorphe à $V^d$ et N à $W^d$, et il existe un isomorphisme de l’ensemble des sous-(Z, A)-bimodules de V, ordonné par inclusion, sur celui des sous-(B, A)-bimodules de M (loc. cit.). Donc V est un $(Z$, A)-bimodule de longueur finie et il en est de même de W. Comme les $(Z,A)$-bimodules $V^d$ et $W^d$ sont isomorphes, les $(Z$, A)-bimodules V et W sont isomorphes d’après le th. 2, d) de VIII, p. 34 appliqué à l’anneau $Z\otimes_{\mathbf{Z}}A^o$. Finalement, les $(B$, A)-bimodules M et N sont isomorphes.
+A) Considérons d’abord le cas où B est l’anneau des endomorphismes d’un espace vectoriel S de dimension finie $d$ sur un corps commutatif L. On a alors Z = L ; on considère S comme un $(B$, Z)-bimodule. L’anneau B est simple, S est un B-module simple et Z est le commutant de S ; tout B-module est isotypique de type S (VIII, p. 118, prop. 2 a)). Soit $(V, \alpha )$ (resp. $(W, \beta )$) une description du B-module M (resp. N). L’ensemble V (resp. W) est muni d’une structure de $(Z,A)$-bimodule de sorte que $\alpha$ (resp. $\beta$ ) soit un isomorphisme de $(B$, A)-bimodules (VIII, p. 60, remarque 2). Comme $(Z$, A)-bimodule, M est isomorphe à $V^d$ et N à $W^d$, et il existe un isomorphisme de l’ensemble des sous-(Z, A)-bimodules de V, ordonné par inclusion, sur celui des sous-(B, A)-bimodules de M (loc. cit.). Donc V est un $(Z$, A)-bimodule de longueur finie et il en est de même de W. Comme les $(Z,A)$-bimodules $V^d$ et $W^d$ sont isomorphes, les $(Z$, A)-bimodules V et W sont isomorphes d’après le th. 2, d) de VIII, p. 34 appliqué à l’anneau $Z\otimes_{\mathbf{Z}}A^o$. Finalement, les $(B$, A)-bimodules M et N sont isomorphes.
 
 B) Considérons maintenant le cas où B est un anneau simple, de type fini en tant que Z-module. Alors Z est un corps et B est une algèbre centrale, simple, et de degré fini sur le corps Z. D’après le th. 1 de VIII, p. 248 il existe une extension $Z'$ de Z, de degré fini sur Z, telle que la $Z'$-algèbre $B'= B_{(Z')}$ soit isomorphe à l’algèbre des endomorphismes d’un espace vectoriel de dimension finie sur $Z'$. Posons $M'= M_{(Z')}$ et $N'= N_{(Z')}$. Alors $M'$ et $N'$ sont des $(B'$, A)-bimodules de longueur finie ; considérés comme $(Z'$, A)-bimodules, $M'$ et $N'$ sont isomorphes. D’après le cas traité en $A), M'$ et $N'$ sont isomorphes comme $(B'$, A)-bimodules et a fortiori comme $(B$, A)-bimodules. Posons $r= [Z': Z]$; le $(B$, A)-bimodule $M'= Z'\otimes_ZM$ est isomorphe à $M^r$ et, de même, le $(B$, A)-bimodule $N'$ est isomorphe à $N^r$; comme M et N sont des $(B$, A)-bimodules de longueur finie, il résulte du th. 2, d) de VIII, p. 34 que les $(B$, A)-bimodules M et N sont isomorphes.
 
-C) Considérons enfin le cas général, où B est un anneau semi-simple, de type fini en tant que Z-module. Soit $\mathscr{S}$ l’ensemble des classes de B-modules simples ; il est fini (VIII, p. 132, prop. 1). Pour tout $\lambda \in \mathscr{S}$, notons $M_{\lambda}$ (resp. $N_{\lambda})$ le composant isotypique de type $\lambda$ du B-module M (resp. N) ; c’est un sous-(B, A)-bimodule de M (resp. N) (remarque, VIII, p. 63). Pour $\lambda \in \mathscr{S}$, notons $\mathfrak{b}_{\lambda}$ l’annulateur du B-module $\lambda$ et posons $B_{\lambda}= B/\mathfrak{b}_{\lambda}$; soit $Z_{\lambda}$ le centre de $B_{\lambda}$. Pour $\lambda \in \mathscr{S}$, les $(B_{\lambda},A)$-bimodules $M_{\lambda}$ et $N_{\lambda}$ sont de longueur finie. On peut alors identifier B au produit des anneaux simples $B_{\lambda}$, et Z au produit des $Z_{\lambda}$ (VIII, p. 137, prop. 8). De plus, on peut identifier M à $\prod_{\lambda\in\mathscr{S}}M_{\lambda}$ et N à $\prod_{\lambda\in\mathscr{S}}N_{\lambda}$,. Par hypothèse, M et N sont isomorphes comme $(Z$, A)-bimodules ; il en résulte que pour $\lambda \in \mathscr{S}, M_{\lambda}$ et $N_{\lambda}$ sont des $(Z_{\lambda}$, A)-bimodules isomorphes. D’après le cas traité en B), les $(B_{\lambda}$, A)-bimodules $M_{\lambda}$ et $N_{\lambda}$ sont isomorphes, donc les $(B$, A)-bimodules M et N sont isomorphes.
+C) Considérons enfin le cas général, où B est un anneau semi-simple, de type fini en tant que Z-module. Soit $\mathscr{S}$ l’ensemble des classes de B-modules simples ; il est fini (VIII, p. 132, prop. 1). Pour tout $\lambda \in \mathscr{S}$, notons $M_{\lambda}$ (resp. $N_{\lambda}$) le composant isotypique de type $\lambda$ du B-module M (resp. N) ; c’est un sous-(B, A)-bimodule de M (resp. N) (remarque, VIII, p. 63). Pour $\lambda \in \mathscr{S}$, notons $\mathfrak{b}_{\lambda}$ l’annulateur du B-module $\lambda$ et posons $B_{\lambda}= B/\mathfrak{b}_{\lambda}$; soit $Z_{\lambda}$ le centre de $B_{\lambda}$. Pour $\lambda \in \mathscr{S}$, les $(B_{\lambda},A)$-bimodules $M_{\lambda}$ et $N_{\lambda}$ sont de longueur finie. On peut alors identifier B au produit des anneaux simples $B_{\lambda}$, et Z au produit des $Z_{\lambda}$ (VIII, p. 137, prop. 8). De plus, on peut identifier M à $\prod_{\lambda\in\mathscr{S}}M_{\lambda}$ et N à $\prod_{\lambda\in\mathscr{S}}N_{\lambda}$,. Par hypothèse, M et N sont isomorphes comme $(Z$, A)-bimodules ; il en résulte que pour $\lambda \in \mathscr{S}, M_{\lambda}$ et $N_{\lambda}$ sont des $(Z_{\lambda}$, A)-bimodules isomorphes. D’après le cas traité en B), les $(B_{\lambda}$, A)-bimodules $M_{\lambda}$ et $N_{\lambda}$ sont isomorphes, donc les $(B$, A)-bimodules M et N sont isomorphes.
 
 #### Remarque {#alg-viii-s14-n2-rem-1 .statement tag=00GP}
 
@@ -234,7 +234,7 @@ Le th. 4 s’applique dans les deux cas particuliers suivants :
 
 b) Soit V un espace vectoriel de dimension finie sur le corps K. Tout automorphisme de la K-algèbre End$_K(V)$ est intérieur ; ce résultat s’étend au cas où l’espace V n’est pas de dimension finie sur K (VIII, p. 268, exerc. 13).
 
-En particulier, tout automorphisme d’une algèbre de matrices $\mathbf{M}_n(K)$ (avec $n\geqslant 1)$ est intérieur. Ce résultat admet la généralisation suivante :
+En particulier, tout automorphisme d’une algèbre de matrices $\mathbf{M}_n(K)$ (avec $n\geqslant 1$) est intérieur. Ce résultat admet la généralisation suivante :
 
 #### Proposition 2 {#alg-viii-s14-prop-2 .statement tag=00GX}
 
@@ -258,13 +258,13 @@ $$
 [A : B']_s= [B : K],[A : B]_s= [B': K],[A : K] = [B : K][B': K]
 $$
 
-(voir VIII, p. 120, déf. 2 pour la définition du degré $[A : B]_s)$.
+(voir VIII, p. 120, déf. 2 pour la définition du degré $[A : B]_s$).
 
 La K-algèbre $A^o$ est centrale et simple et la K-algèbre B est semi-simple et de degré fini. D’après le cor. 1 de VIII, p. 217, l’algèbre $C = B\otimes_KA^o$ est semi-simple. Soit M le C-module ayant même groupe additif que A, avec la loi d’action caractérisée par la formule $(b\otimes a)a'=ba'a$, pour $a, a'$ dans A et $b$ dans B. Soit $u$ un élément de End$_{\mathbf{Z}}(A)$. Alors $u$ appartient au commutant $C'_M$ du C-module M si et seulement si $u$ est A-linéaire à droite et B-linéaire à gauche, ce qui revient à dire que $u$ apprtient au commutant de $B_M$ dans l’anneau des homothéties du A-module $A_s$. On définit donc un isomorphisme $\gamma$ de $B'$ sur $C'_M$ par la relation $\gamma (b')(x) =b'x$ pour $b'$ dans $B'$ et $x$ dans M. Or l’anneau C est semi-simple et le C-module M est engendré par l’élément 1 de A. D’après la prop. 6 de VIII, p. 135 l’anneau $C'_M$ est semi-simple, donc l’algèbre $B'$ est semi-simple.
 
 Soit $\varphi$ l’homomorphisme de K-algèbres de $A\otimes_KA^o$ dans End$_K(M)$ qui associe à $a\otimes a'$ l’application K-linéaire $x\rightarrow axa'$ de M dans M. Comme les K-algèbres A et $A^o$ sont centrales et simples, les seuls idéaux bilatères de $A\otimes_KA^o$ sont 0 et $A\otimes_KA^o$ (VIII, p. 214, cor.). On a $C_M=\varphi (B\otimes A^o)$ et $C'_M=\varphi (B'\otimes K)$. L’homomorphisme $\varphi$ n’est pas nul ; il est donc injectif. L’anneau C étant semi-simple, on a $C''_M= C_M$ d’après la prop 5 de VIII, p. 135. Il en résulte que la sous-algèbre $B\otimes_KA^o$ de $A\otimes_KA^o$ est le commutant de la sous-algèbre $B'\otimes_KK$. Le commutant de $B'\otimes_KK$ dans $A\otimes_KK$ est donc égal à $(B\otimes_KA^o)\cap (A\otimes_KK)$, c’est-à-dire à $B\otimes K$ d’après la prop. 19 de II, p. 113. Donc le commutant de $B'$ dans A est égal à B. L’algèbre $L = B\cap B'$ est le centre de B. Comme B est une algèbre semi-simple de degré fini sur K, l’algèbre L est commutative, semi-simple et de degré fini sur K. Comme B est le commutant de $B'$ dans A, le centre de $B'$ est aussi égal à $L = B\cap B'$ (VIII, p. 73). On a prouvé a).
 
-Supposons maintenant que l’algèbre B soit simple. D’après le cor. 2 de VIII, p. 217, l’anneau C est simple. D’après la prop. 4 de VIII, p. 119 appliquée au C-module M, dont le commutant est isomorphe à $B'$, l’anneau $B'$ est simple et M est un $B'$-module de longueur finie. Autrement dit, $B'$ est un sous-anneau simple de l’anneau simple A et le degré à gauche $[A : B']_s$ est un entier $m\geqslant 1$. Considéré comme $B'$-module à gauche, A possède une base finie $(a_1, . . . , a_m)$. De plus (loc. cit.$),\varphi$ induit par restriction un isomorphisme de C sur $C''_M=$ End$_{B'}$(A), et l’application $c\rightarrow (ca_1, . . . , ca_m)$ de C sur $A^m$ est donc bijective. Par suite, C est un A-module à droite libre de dimension $m$. Or on a $C = B\otimes A^o$, donc C est un A-module à droite libre de dimension [B : K], d’où $[A : B']_s=m= [B : K]$. De la prop. 6 de VIII, p. 121, on déduit
+Supposons maintenant que l’algèbre B soit simple. D’après le cor. 2 de VIII, p. 217, l’anneau C est simple. D’après la prop. 4 de VIII, p. 119 appliquée au C-module M, dont le commutant est isomorphe à $B'$, l’anneau $B'$ est simple et M est un $B'$-module de longueur finie. Autrement dit, $B'$ est un sous-anneau simple de l’anneau simple A et le degré à gauche $[A : B']_s$ est un entier $m\geqslant 1$. Considéré comme $B'$-module à gauche, A possède une base finie $(a_1, . . . , a_m)$. De plus (loc. cit.)$,\varphi$ induit par restriction un isomorphisme de C sur $C''_M=$ End$_{B'}$(A), et l’application $c\rightarrow (ca_1, . . . , ca_m)$ de C sur $A^m$ est donc bijective. Par suite, C est un A-module à droite libre de dimension $m$. Or on a $C = B\otimes A^o$, donc C est un A-module à droite libre de dimension [B : K], d’où $[A : B']_s=m= [B : K]$. De la prop. 6 de VIII, p. 121, on déduit
 
 $$
 [A : K] = [A : B']_s[B': K] = [B : K][B': K]
@@ -352,17 +352,17 @@ Supposons enfin qu’on ait $[A : K] = [L : K]^2$, autrement dit dim$_K(V) = [L 
 
 B) Passons au cas général. D’après le th. 1 de VIII, p. 248, il existe une extension $K'$ de K, séparable et de degré fini, telle que la $K'$-algèbre $A_{(K')}$ soit isomorphe à une algèbre End$_{K'}(V')$, où $V'$ est un espace vectoriel de dimension finie non nulle sur $K'$. Alors la $K'$-algèbre $L_{(K')}$ est commutative et semi-simple (VIII, p. 218, cor. 2). D’après la première partie de la démonstration, les conditions suivantes sont équivalentes :
 
-(i$')$ L’algèbre $L_{(K')}$ est une sous-algèbre commutative maximale de $A_{(K')}$;
+(i$'$) L’algèbre $L_{(K')}$ est une sous-algèbre commutative maximale de $A_{(K')}$;
 
-(ii$')$ Le $L_{(K')}$-module à gauche $A_{(K')}$ est libre, de dimension $[L_{(K')}: K']$;
+(ii$'$) Le $L_{(K')}$-module à gauche $A_{(K')}$ est libre, de dimension $[L_{(K')}: K']$;
 
-(iii$')$ On a $[A_{(K')}: K'] = [L_{(K')}: K']^2$.
+(iii$'$) On a $[A_{(K')}: K'] = [L_{(K')}: K']^2$.
 
 D’après le lemme 3 b), les conditions (i) et (i’) sont équivalentes.
 
-Posons $n= [L : K]$, d’où $n= [L_{(K')}: K']$; la condition (ii) signifie que les L-modules à gauche A et $L^n$ sont isomorphes ; d’après le th. 3 de VIII, p. 34, ceci équivaut à l’isomorphisme des $L_{(K')}$-modules $A_{(K')}$ et $(L_{(K')})^n$, d’où l’équivalence de (ii) et (ii$')$.
+Posons $n= [L : K]$, d’où $n= [L_{(K')}: K']$; la condition (ii) signifie que les L-modules à gauche A et $L^n$ sont isomorphes ; d’après le th. 3 de VIII, p. 34, ceci équivaut à l’isomorphisme des $L_{(K')}$-modules $A_{(K')}$ et $(L_{(K')})^n$, d’où l’équivalence de (ii) et (ii$'$).
 
-Enfin, on a $[A : K] = [A_{(K')}: K']$ et $[L : K] = [L_{(K')}: K']$, d’où l’équivalence des conditions (iii) et (iii$')$.
+Enfin, on a $[A : K] = [A_{(K')}: K']$ et $[L : K] = [L_{(K')}: K']$, d’où l’équivalence des conditions (iii) et (iii$'$).
 
 On a ainsi prouvé l’équivalence des conditions (i), (ii) et (iii).
 
@@ -370,7 +370,7 @@ On a ainsi prouvé l’équivalence des conditions (i), (ii) et (iii).
 
 Soit A une algèbre centrale, simple et de degré fini sur K et soit L une K-algèbre commutative semi-simple telle que [A : K] soit égal à $[L : K]^2$;soient $f$ et $g$ des homomorphismes injectifs de L dans A. Il existe un automorphisme intérieur $\theta$ de A tel que $g=\theta \circ f$.
 
-Posons $n= [L : K]$. Considéré comme un module à gauche sur le sous-anneau $f$(L), A est libre de dimension $n:$ cela résulte de l’équivalence des conditions (ii) et (iii) de la prop. 3. Comme $f$ est un isomorphisme de L sur $f$(L), le L-module à gauche $A^f$ (dont la loi d’action est donnée par $(x, a)\rightarrow f(x)a)$ est libre de dimension $n$. Il en est de même de $A^g$, qui est donc isomorphe à $A^f$. On conclut en utilisant l’équivalence des conditions (i) et (ii) de la prop. 1 (VIII, p. 253).
+Posons $n= [L : K]$. Considéré comme un module à gauche sur le sous-anneau $f$(L), A est libre de dimension $n:$ cela résulte de l’équivalence des conditions (ii) et (iii) de la prop. 3. Comme $f$ est un isomorphisme de L sur $f$(L), le L-module à gauche $A^f$ (dont la loi d’action est donnée par $(x, a)\rightarrow f(x)a$) est libre de dimension $n$. Il en est de même de $A^g$, qui est donc isomorphe à $A^f$. On conclut en utilisant l’équivalence des conditions (i) et (ii) de la prop. 1 (VIII, p. 253).
 
 ☡ Supposons que A soit une algèbre centrale, simple et de degré fini sur K. Il peut exister des sous-algèbres commutatives maximales L de A, non semi-simples, telles que $[A : K]\not= [L : K]^2$ (VIII, p. 266, exerc. 5).
 

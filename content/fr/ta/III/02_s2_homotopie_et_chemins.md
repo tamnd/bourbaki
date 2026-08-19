@@ -53,7 +53,7 @@ subsections:
       pdf_page: 300
 statements: 63
 exercises: 14
-content_sha256: 3ef0af66951a5e6fabfdd7fdaa881d9ea913be623c321526ba7633f6294678a1
+content_sha256: b214ad435328c152b9f50ea162a4637ba5cfe86644f618ffa88c8d9d23c86683
 ---
 
 ## § 2. HOMOTOPIE ET CHEMINS
@@ -162,19 +162,19 @@ La réunion d’une famille d’ensembles connexes par arcs, dont l’intersecti
 
 #### Exemple 3 {#ta-iii-s2-n2-exa-3 .statement tag=01X0}
 
-Une partie d’un espace numérique (ou, plus généralement, un espace vectoriel topologique sur $\mathbf{R})$ qui est étoilée en un de ses points est connexe par arcs.
+Une partie d’un espace numérique (ou, plus généralement, un espace vectoriel topologique sur $\mathbf{R}$) qui est étoilée en un de ses points est connexe par arcs.
 
 Soit X un espace topologique. On désigne par $\pi_0(X)$ l’ensemble des composantes connexes par arcs de X. Soit P un espace topologique réduit à un point. L’application de X dans [P; X] qui, à tout point $x$ de X, associe la classe d’homotopie $\varphi_x$ de l’application $f_x: P\rightarrow X$ d’image $x$, définit par passage au quotient une bijection, dite canonique, de $\pi_0(X)$ sur [P; X]. On a $\pi_0(\emptyset ) =\emptyset$. Pour qu’un espace topologique non vide soit connexe par arcs, il faut et il suffit que $\pi_0(X)$ soit un ensemble à un élément.
 
 Soient X et Y des espaces topologiques et $f: X\rightarrow Y$ une application continue. L’image $f(C)$ de toute composante connexe par arcs C de X est connexe par arcs (III, p. 258, prop. 3), donc contenue dans une composante connexe par arcs de Y. On note $\pi_0(f):\pi_0(X)\rightarrow \pi_0(Y)$ l’application qui, à une composante connexe par arcs C de X, associe l’unique composante connexe par arcs $C'$ de Y telle que $f(C)\subset C'$. Si l’on identifie $\pi_0(X)$ et $\pi_0(Y)$ à [P; X] et [P; Y] respectivement, l’application $\pi_0(f)$ s’identifie à l’application $\chi \mapsto [f]\circ \chi$ de [P; X] dans [P; Y]. En particulier, si $f$ et $g$ sont des applications homotopes de X dans Y, on a $\pi_0(f) =\pi_0(g)$ (III, p. 230, prop. 2).
 
-Soit Z un espace topologique et soit $g: Y\rightarrow$ Z une application continue ; on a $\pi_0(g\circ f) =\pi_0(g)\circ \pi_0(f)$. En particulier, si Z = X et si $f$ et $g$ sont des homéotopies réciproques l’une de l’autre à homotopie près, on a $\pi_0(g)\circ \pi_0(f) =\pi_0$(Id$_X) =$ Id$_{\pi_0(X)}$ et $\pi_0(f)\circ \pi_0(g) =\pi_0$(Id$_Y) =$ Id$_{\pi_0(Y)}$, ce qui prouve que $\pi_0(f)$ et $\pi_0(g)$ sont des bijections réciproques l’une de l’autre. Un espace homéotope à un espace connexe par arcs est donc lui-même connexe par arcs. En particulier, un espace homéotope à un point est connexe par arcs.
+Soit Z un espace topologique et soit $g: Y\rightarrow$ Z une application continue ; on a $\pi_0(g\circ f) =\pi_0(g)\circ \pi_0(f)$. En particulier, si Z = X et si $f$ et $g$ sont des homéotopies réciproques l’une de l’autre à homotopie près, on a $\pi_0(g)\circ \pi_0(f) =\pi_0$(Id$_X$) $=$ Id$_{\pi_0(X)}$ et $\pi_0(f)\circ \pi_0(g) =\pi_0$(Id$_Y$) $=$ Id$_{\pi_0(Y)}$, ce qui prouve que $\pi_0(f)$ et $\pi_0(g)$ sont des bijections réciproques l’une de l’autre. Un espace homéotope à un espace connexe par arcs est donc lui-même connexe par arcs. En particulier, un espace homéotope à un point est connexe par arcs.
 
 #### Proposition 6 {#ta-iii-s2-prop-6 .statement tag=01X1}
 
 Soit $(Y_j)_{j\in J}$ une famille d’espaces topologiques. L’application
 
-$(\pi_0$(pr$_j)):\pi_0(\prod_{j\in J}Y_j)\rightarrow \prod_{j\in J}\pi_0(Y_j)$
+$(\pi_0$(pr$_j$))$:\pi_0(\prod_{j\in J}Y_j)\rightarrow \prod_{j\in J}\pi_0(Y_j)$
 
 est bijective. En particulier, l’espace produit d’une famille d’espaces connexes par arcs est connexe par arcs.
 
@@ -228,7 +228,7 @@ Tout point de $\mathbf{R}$ possède une base de voisinages formée d’intervall
 
 Soit G le sous-groupe de $\mathbf{G}\mathbf{L}(n,\mathbf{R})$ formé des matrices carrées d’ordre $n$ dont le déterminant est strictement positif. Le groupe G est connexe et localement connexe par arcs.
 
-D’après A, III, p. 104, prop. 17, le groupe $\mathbf{S}\mathbf{L}(n,\mathbf{R})$ est engendré par les éléments $B_{ij}(\lambda )$ (pour $1\leqslant i, j\leqslant n$ tels que $i=\not j$ et $\lambda \in \mathbf{R})$. Les applications $\lambda \mapsto B_{ij}(\lambda )$ de $\mathbf{R}$ dans $\mathbf{G}\mathbf{L}(n,\mathbf{R})$ sont continues, leurs images sont des parties connexes de $\mathbf{S}\mathbf{L}(n,\mathbf{R})$ ; comme elles contiennent toutes la matrice identité $I_n$, leur réunion est connexe (TG, I, p. 81, prop. 2). Par suite, le groupe $\mathbf{S}\mathbf{L}(n,\mathbf{R})$ est connexe (TG, III, p. 8, prop. 7). Soit A le sous-groupe de G formé des matrices de la forme diag(1$, . . . ,1, \lambda )$, avec $\lambda \in \mathbf{R}_+^*$; il est connexe et l’on a $\mathbf{G}\mathbf{L}(n,\mathbf{R}) = A\cdot \mathbf{S}\mathbf{L}(n,\mathbf{R})$. Il en résulte que le groupe G est connexe. Comme c’est l’image réciproque de $\mathbf{R}_+^*$ par l’application déterminant de $\mathbf{M}_n(\mathbf{R})$ dans $\mathbf{R}$, c’est un ouvert de $\mathbf{M}_n(\mathbf{R})$ ; il est donc localement connexe par arcs (corollaire ci-dessus), ainsi que connexe par arcs (III, p. 261, corollaire 1).
+D’après A, III, p. 104, prop. 17, le groupe $\mathbf{S}\mathbf{L}(n,\mathbf{R})$ est engendré par les éléments $B_{ij}(\lambda )$ (pour $1\leqslant i, j\leqslant n$ tels que $i=\not j$ et $\lambda \in \mathbf{R}$). Les applications $\lambda \mapsto B_{ij}(\lambda )$ de $\mathbf{R}$ dans $\mathbf{G}\mathbf{L}(n,\mathbf{R})$ sont continues, leurs images sont des parties connexes de $\mathbf{S}\mathbf{L}(n,\mathbf{R})$ ; comme elles contiennent toutes la matrice identité $I_n$, leur réunion est connexe (TG, I, p. 81, prop. 2). Par suite, le groupe $\mathbf{S}\mathbf{L}(n,\mathbf{R})$ est connexe (TG, III, p. 8, prop. 7). Soit A le sous-groupe de G formé des matrices de la forme diag(1$, . . . ,1, \lambda$ ), avec $\lambda \in \mathbf{R}_+^*$; il est connexe et l’on a $\mathbf{G}\mathbf{L}(n,\mathbf{R}) = A\cdot \mathbf{S}\mathbf{L}(n,\mathbf{R})$. Il en résulte que le groupe G est connexe. Comme c’est l’image réciproque de $\mathbf{R}_+^*$ par l’application déterminant de $\mathbf{M}_n(\mathbf{R})$ dans $\mathbf{R}$, c’est un ouvert de $\mathbf{M}_n(\mathbf{R})$ ; il est donc localement connexe par arcs (corollaire ci-dessus), ainsi que connexe par arcs (III, p. 261, corollaire 1).
 
 #### Proposition 10 {#ta-iii-s2-prop-10 .statement tag=01XA}
 
@@ -248,7 +248,7 @@ $c'(t)\in V_1$ pour $1-\varepsilon \leqslant t\leqslant 1$,
 
 appartient à W.
 
-Par définition de la topologie de la convergence compacte (TG, X, p. 26, déf. 1), il existe un ensemble fini J, une famille $(U_j)_{j\in J}$ d’ensembles ouverts dans X et une famille $(K_j)_{j\in J}$ de parties compactes de $\mathbf{I}$ tels que l’ensemble $W'$ des chemins $c'$ vérifiant $c'(K_j)\subset U_j$ pour tout indice $j$ soit un voisinage de $c$ contenu dans W. Notons alors $A_0$ (resp. $A_1)$ l’ensemble des indices $j$ tels que $0\in K_j$ (resp. $1\in K_j)$; posons $V_0=\bigcap_{j\in A_0}U_j$ et $V_1=\bigcap_{j\in A_1}U_j$.
+Par définition de la topologie de la convergence compacte (TG, X, p. 26, déf. 1), il existe un ensemble fini J, une famille $(U_j)_{j\in J}$ d’ensembles ouverts dans X et une famille $(K_j)_{j\in J}$ de parties compactes de $\mathbf{I}$ tels que l’ensemble $W'$ des chemins $c'$ vérifiant $c'(K_j)\subset U_j$ pour tout indice $j$ soit un voisinage de $c$ contenu dans W. Notons alors $A_0$ (resp. $A_1$) l’ensemble des indices $j$ tels que $0\in K_j$ (resp. $1\in K_j$); posons $V_0=\bigcap_{j\in A_0}U_j$ et $V_1=\bigcap_{j\in A_1}U_j$.
 
 Comme l’application $c$ est continue, il existe un nombre réel $\varepsilon \in$ $]0,1/2]$ tel que $c([0, \varepsilon ])\subset V_0,c([1-\varepsilon ,1])\subset V_1,[0, \varepsilon ]\cap K_j=\emptyset$ pour tout $j\notin A_0$ et $[1-\varepsilon ,1]\cap K_j=\emptyset$ pour tout $j\notin A_1$. Soit alors $c'$ un chemin satisfaisant aux conditions (2). Démontrons que $c'\in W'$. Soit $j\in J$ et soit $t\in K_j$. Si $\varepsilon \leqslant t\leqslant 1-\varepsilon ,c'(t) =c(t)$ appartient à $U_j$. Si $0\leqslant t\leqslant \varepsilon ,c'(t)\in V_0$; par le choix de $\varepsilon$, on a $j\in A_0$, donc $c'(t)\in U_j$. De même, si $1-\varepsilon \leqslant t\leqslant 1$, on a $j\in A_1$ et $c'(t)\in V_1\subset U_j$. Ainsi, $c'(K_j)\subset U_j$ et $c'$ appartient à $W'$, donc à W.
 
@@ -384,7 +384,7 @@ Puisque X n’a pas de point isolé, toute partie V ouverte et fermée, non vide
 
 Terminons maintenant la démonstration de la prop. 14. Tout sous-espace ouvert et fermé non vide de X est un espace métrique compact, totalement discontinu et sans point isolé. Le lemme 3 permet donc de construire par récurrence une suite $(J_n)_{n\geqslant 0}$ d’ensembles finis et pour tout $n\geqslant 0$ une application $\varphi_n$ de l’ensemble $C_n= J_0\times  \cdots  \times J_n$ dans l’ensemble des parties ouvertes et fermées non vides de X de diamètre $\leqslant 2^{-n}$, de manière que :
 
-(i) Pour tout $n\geqslant 0$, il existe un entier $m_n\geqslant 1$ tel que Card(J$_n) =$ $2^{m_n}$;
+(i) Pour tout $n\geqslant 0$, il existe un entier $m_n\geqslant 1$ tel que Card(J$_n$) $=$ $2^{m_n}$;
 
 (ii) La famille $(\varphi_0(c))_{c\in C_0}$ soit une partition de X ;
 

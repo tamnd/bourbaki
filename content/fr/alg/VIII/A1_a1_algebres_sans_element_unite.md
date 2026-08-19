@@ -30,7 +30,7 @@ subsections:
       pdf_page: 433
 statements: 20
 exercises: 15
-content_sha256: 737dd3f8a42a9f905011149a420c6322acab9083235b98beb184aa04a02de142
+content_sha256: 6f7ba43c2039e2580c2063c53119be820f0cceb077c4e54c7c2f8169cc11dc74
 ---
 
 ### APPENDICE 1 ALGÈBRES SANS ÉLÉMENT UNITÉ
@@ -77,7 +77,7 @@ des applications continues de T dans $\mathbf{C}$, tendant vers 0 à l’infini 
 
 #### Exemple 3 {#alg-viii-a1-n1-exa-3 .statement tag=00P9}
 
-Soit $L^1(\mathbf{R})$ l’algèbre de convolution du groupe localement compact $\mathbf{R}$. Rappelons (INT, VIII, §4, n$^o5)$ que $L^1(\mathbf{R})$ est l’espace des classes de fonctions sur $\mathbf{R}$ intégrables pour la mesure de Lebesgue ; le produit des classes de deux fonctions $f$ et $g$ est la classe de la fonction $f*g$ définie pour presque tout $s\in \mathbf{R}$par la formule
+Soit $L^1(\mathbf{R})$ l’algèbre de convolution du groupe localement compact $\mathbf{R}$. Rappelons (INT, VIII, §4, n$^o5$) que $L^1(\mathbf{R})$ est l’espace des classes de fonctions sur $\mathbf{R}$ intégrables pour la mesure de Lebesgue ; le produit des classes de deux fonctions $f$ et $g$ est la classe de la fonction $f*g$ définie pour presque tout $s\in \mathbf{R}$par la formule
 
 $$
 (f*g)(s) =\int_{-\infty}^{+\infty}f(t)g(s-t)dt
@@ -125,7 +125,7 @@ a) Soit $\mathfrak{a}$ un idéal à gauche maximal régulier de A. Il existe un 
 
 b) L’application $\widetilde{\mathfrak{a}}\rightarrow \widetilde{\mathfrak{a}}\cap A$est une bijection de l’ensemble des idéaux à gauche maximaux de $\widetilde{A}$ ne contenant pas A sur l’ensemble des idéaux à gauche maximaux réguliers de A.
 
-Soit $\mathfrak{a}$ un idéal à gauche maximal régulier de A. D’après la prop. 3, a), les idéaux à gauche $\mathfrak{b}$ de $\widetilde{A}$ tels que $\mathfrak{b}+ A =\widetilde{A}$ et $\mathfrak{b}\cap A =\mathfrak{a}$ sont les idéaux $\mathfrak{a}+k(u-e)$, où $u$ est une unité à droite modulo $\mathfrak{a}$. Pour démontrer l’unicité de $\widetilde{\mathfrak{a}}$, il suffit donc de prouver que deux unités à droite $u$ et $u'$ de A modulo $\mathfrak{a}$ sont congrues modulo $\mathfrak{a}$. Raisonnons par l’absurde en supposant que $u-u'$ n’appartient pas à $\mathfrak{a}$. La formule $x(u-u') = (xu-x)-(xu'-x)$ montre qu’on a $A(u-u')\subset \mathfrak{a}$; il en résulte que $\mathfrak{a}+k(u-u')$ est un idéal à gauche de A, contenant $\mathfrak{a}$ et distinct de $\mathfrak{a}$. Puisque $\mathfrak{a}$ est maximal, on a donc $\mathfrak{a}+k(u-u') = A$, d’où AA $\subset \mathfrak{a}$. Pour tout $x\in A$, on a $x\equiv xu$ (mod $\mathfrak{a})$, d’où $x\in \mathfrak{a}$ par ce qui précède, ce qui contredit l’hypothèse $\mathfrak{a}\not= A$.
+Soit $\mathfrak{a}$ un idéal à gauche maximal régulier de A. D’après la prop. 3, a), les idéaux à gauche $\mathfrak{b}$ de $\widetilde{A}$ tels que $\mathfrak{b}+ A =\widetilde{A}$ et $\mathfrak{b}\cap A =\mathfrak{a}$ sont les idéaux $\mathfrak{a}+k(u-e)$, où $u$ est une unité à droite modulo $\mathfrak{a}$. Pour démontrer l’unicité de $\widetilde{\mathfrak{a}}$, il suffit donc de prouver que deux unités à droite $u$ et $u'$ de A modulo $\mathfrak{a}$ sont congrues modulo $\mathfrak{a}$. Raisonnons par l’absurde en supposant que $u-u'$ n’appartient pas à $\mathfrak{a}$. La formule $x(u-u') = (xu-x)-(xu'-x)$ montre qu’on a $A(u-u')\subset \mathfrak{a}$; il en résulte que $\mathfrak{a}+k(u-u')$ est un idéal à gauche de A, contenant $\mathfrak{a}$ et distinct de $\mathfrak{a}$. Puisque $\mathfrak{a}$ est maximal, on a donc $\mathfrak{a}+k(u-u') = A$, d’où AA $\subset \mathfrak{a}$. Pour tout $x\in A$, on a $x\equiv xu$ (mod $\mathfrak{a}$), d’où $x\in \mathfrak{a}$ par ce qui précède, ce qui contredit l’hypothèse $\mathfrak{a}\not= A$.
 
 Il existe donc un unique idéal à gauche $\widetilde{\mathfrak{a}}$ de $\widetilde{A}$ tel que $\widetilde{A} =\widetilde{\mathfrak{a}}+ A$ et $\mathfrak{a}=\widetilde{\mathfrak{a}}\cap A$. Soit $\mathfrak{b}$ un idéal à gauche de $\widetilde{A}$ contenant $\widetilde{\mathfrak{a}}$ et distinct de $\widetilde{A}$. Alors $\mathfrak{b}\cap A$ est un idéal à gauche de A, contenant $\mathfrak{a}$, et distinct de A. Il est donc égal à $\mathfrak{a}$ puisque $\mathfrak{a}$ est maximal, ce qui entraîne $\mathfrak{b}=\widetilde{\mathfrak{a}}$ par le lemme 2 de VIII, p. 3. Cela prouve que $\widetilde{\mathfrak{a}}$ est un idéal maximal de $\widetilde{A}$; pour un tel idéal, la condition $\widetilde{A} =\widetilde{\mathfrak{a}}+ A$ signifie que $\widetilde{\mathfrak{a}}$ ne contient pas A.
 
@@ -145,7 +145,7 @@ Inversement, tout $\widetilde{A}$-module à gauche est muni canoniquement, par r
 
 Soit M un pseudomodule à gauche sur A et soit N un sous-$k$-module de M. Pour que N soit un sous-$\widetilde{A}$-module de M, il faut et il suffit qu’il soit stable par l’action de A ; on dit alors que N est un sous-pseudomodule de M.
 
-Comme dans le cas des anneaux, on définit le pseudomodule à gauche $A_s$ sur A, et le pseudomodule à droite $A_d$. Les idéaux à gauche (resp. à droite) de A sont les sous-pseudomodules de $A_s$ (resp. $A_d)$.
+Comme dans le cas des anneaux, on définit le pseudomodule à gauche $A_s$ sur A, et le pseudomodule à droite $A_d$. Les idéaux à gauche (resp. à droite) de A sont les sous-pseudomodules de $A_s$ (resp. $A_d$).
 
 Soient$\mathfrak{a}$ un idéal à gauche régulier de A et $u$ une unité à droite modulo $\mathfrak{a}$. Posons $M = A_s/\mathfrak{a}$ et notons $z$ l’image de $u$ dans M. On a $M = Az$ et $\mathfrak{a}$ est l’annulateur de $z$.
 
@@ -179,7 +179,7 @@ Lorsque A est un anneau, tout idéal à gauche de A est régulier, donc la défi
 
 #### Exemple 1 {#alg-viii-a1-n3-exa-1 .statement tag=00PF}
 
-Le radical de la $k$-algèbre End$^f_k(V)$ est réduit à 0 (VIII, p. 426, exemple 1$).*$Il en est de même pour les algèbres $\mathscr{C}_0(T)$ et $L^1(\mathbf{R}).*$
+Le radical de la $k$-algèbre End$^f_k(V)$ est réduit à 0 (VIII, p. 426, exemple 1)$.*$Il en est de même pour les algèbres $\mathscr{C}_0(T)$ et $L^1(\mathbf{R}).*$
 
 #### Exemple 2 {#alg-viii-a1-n3-exa-2 .statement tag=00PG}
 
@@ -199,7 +199,7 @@ L’égalité $\Re (\widetilde{A})\cap A =\Re (A)$ résulte de la prop. 4 de VII
 
 #### Remarque {#alg-viii-a1-n3-rem-1 .statement tag=00PJ}
 
-Soient $x$ et $y$ des éléments de A ; on dit que $x$ est adverse à gauche de $y$, ou que $y$ est adverse à droite de $x$, si, dans $\widetilde{A},x-e$ est inverse à gauche de $y-e$, autrement dit si l’on a $x+y=xy$. D’après la prop. 7 et le théorème de Jacobson (VIII, p. 151, th. 1), le radical de A se compose des éléments $x$ de A tels que $ux-e$ soit inversible à gauche dans $\widetilde{A}$ pour tout $u$ dans $\widetilde{A}$. Comme on a $(a+\lambda e)x-e=ax+\lambda x-e$ (pour $a\in A,\lambda \in k)$, le radical de A est l’ensemble des éléments $x$ de A tels que $ax+\lambda x$ ait un adverse à gauche dans A quels que soient $a\in A$ et $\lambda \in k$.
+Soient $x$ et $y$ des éléments de A ; on dit que $x$ est adverse à gauche de $y$, ou que $y$ est adverse à droite de $x$, si, dans $\widetilde{A},x-e$ est inverse à gauche de $y-e$, autrement dit si l’on a $x+y=xy$. D’après la prop. 7 et le théorème de Jacobson (VIII, p. 151, th. 1), le radical de A se compose des éléments $x$ de A tels que $ux-e$ soit inversible à gauche dans $\widetilde{A}$ pour tout $u$ dans $\widetilde{A}$. Comme on a $(a+\lambda e)x-e=ax+\lambda x-e$ (pour $a\in A,\lambda \in k$), le radical de A est l’ensemble des éléments $x$ de A tels que $ax+\lambda x$ ait un adverse à gauche dans A quels que soient $a\in A$ et $\lambda \in k$.
 
 ### 4. Théorème de densité
 

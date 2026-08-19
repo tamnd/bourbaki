@@ -53,20 +53,20 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: 80c064f1ebbaaa142217ad6b39ece3af7a110a2a912f4b88969aba236a4b2c84
+content_sha256: 0a882afb0b96a98a8aa7e802d0ebcfa508869ed7dd227466b055a89cde6f86e3
 ---
 
 ## § 4. ROOT SYSTEM ASSOCIATED TO A COMPACT GROUP
 
-In paragraphs 4 to 8, we denote by G a connected compact Lie group and by T a maximal torus of G. We denote by $\mathfrak{g}$ (resp. $\mathfrak{t})$ the Lie algebra of G (resp. T), by $\mathfrak{g}_{\mathbf{C}}$ (resp. $\mathfrak{t}_{\mathbf{C}})$ the complexified Lie algebra of $\mathfrak{g}$ (resp. $\mathfrak{t})$, and by W the Weyl group of G relative to T (§2, no. 5).
+In paragraphs 4 to 8, we denote by G a connected compact Lie group and by T a maximal torus of G. We denote by $\mathfrak{g}$ (resp. $\mathfrak{t}$) the Lie algebra of G (resp. T), by $\mathfrak{g}_{\mathbf{C}}$ (resp. $\mathfrak{t}_{\mathbf{C}}$) the complexified Lie algebra of $\mathfrak{g}$ (resp. $\mathfrak{t}$), and by W the Weyl group of G relative to T (§2, no. 5).
 
 ### 1. THE GROUP X(H)
 
-Let H be a compact Lie group. Denote by X(H) the (commutative) group of continuous homomorphisms from H to the topological group $\mathbf{C}^*$. By Chap. III, §8, no. 1, Th. 1, the elements of X(H) are morphisms of Lie groups; for all $a\in X(H)$, the differential of $a$ is an $\mathbf{R}$-linear map $L(a) : L(H)\rightarrow L(\mathbf{C}^*)$. From now on we identify the Lie algebra of $\mathbf{C}^*$ with $\mathbf{C}$ in such a way that the exponential map of $\mathbf{C}^*$ coincides with the map $z \rightarrow e^z$ from $\mathbf{C}$ to $\mathbf{C}^*$. Then, to any element $a\in X(H)$ is associated an element $L(a)\in$ Hom$_{\mathbf{R}}(L(H),\mathbf{C})$; we denote by $\delta (a)$ the element of Hom$_{\mathbf{C}}(L(H)_{(\mathbf{C})},\mathbf{C})$ that corresponds to it (that is, whose restriction to $L(H)\subset L(H)_{(\mathbf{C})}$ is equal to $L(a))$.
+Let H be a compact Lie group. Denote by X(H) the (commutative) group of continuous homomorphisms from H to the topological group $\mathbf{C}^*$. By Chap. III, §8, no. 1, Th. 1, the elements of X(H) are morphisms of Lie groups; for all $a\in X(H)$, the differential of $a$ is an $\mathbf{R}$-linear map $L(a) : L(H)\rightarrow L(\mathbf{C}^*)$. From now on we identify the Lie algebra of $\mathbf{C}^*$ with $\mathbf{C}$ in such a way that the exponential map of $\mathbf{C}^*$ coincides with the map $z \rightarrow e^z$ from $\mathbf{C}$ to $\mathbf{C}^*$. Then, to any element $a\in X(H)$ is associated an element $L(a)\in$ Hom$_{\mathbf{R}}(L(H),\mathbf{C})$; we denote by $\delta (a)$ the element of Hom$_{\mathbf{C}}(L(H)_{(\mathbf{C})},\mathbf{C})$ that corresponds to it (that is, whose restriction to $L(H)\subset L(H)_{(\mathbf{C})}$ is equal to $L(a)$).
 
 For all $x\in L(H)$ and all $a\in X(H)$, we have
 
-$a$(exp$_Hx) =e^{\delta(a)(x)}$,
+$a$(exp$_Hx$) $=e^{\delta(a)(x)}$,
 
 by functoriality of the exponential map (Chap. III, §6, no. 4, Prop. 10).
 
@@ -78,11 +78,11 @@ $$
 
 and
 
-(exp$_Hx)^a=e^{\delta(a)(x)}, x\in L(H), a\in X(H)$.
+(exp$_Hx$)$^a=e^{\delta(a)(x)}, x\in L(H), a\in X(H)$.
 
 Since H is compact, the elements of X(H) take values in the subgroup $\mathbf{U}=\mathbf{U}(1,\mathbf{C})$ of complex numbers of absolute value 1, so that X(H) can be identified with the group of continuous (or analytic) homomorphisms from H to $\mathbf{U}$. It follows that, for all $a\in L(H)$, the map $L(a)$ takes values in the subspace $\mathbf{R}i$ of $\mathbf{C}$, so $\delta (a)$ maps L(H) to $\mathbf{R}i$.
 
-If H is commutative, X(H) is simply the (discrete) dual group of H (Spectral Theories, Chap. II, §1, no. 1). If H is commutative and finite, X(H) can be identified with the dual finite group D(H) = Hom$_{\mathbf{Z}}(H,\mathbf{Q}/\mathbf{Z})$ (where, as in Algebra, Chap. VII, §4, no. 9, Example 1, we identify $\mathbf{Q}/\mathbf{Z}$ with a subgroup of $\mathbf{C}^*$ by the homomorphism $r \rightarrow$ exp(2$\pi ir))$.
+If H is commutative, X(H) is simply the (discrete) dual group of H (Spectral Theories, Chap. II, §1, no. 1). If H is commutative and finite, X(H) can be identified with the dual finite group D(H) = Hom$_{\mathbf{Z}}(H,\mathbf{Q}/\mathbf{Z})$ (where, as in Algebra, Chap. VII, §4, no. 9, Example 1, we identify $\mathbf{Q}/\mathbf{Z}$ with a subgroup of $\mathbf{C}^*$ by the homomorphism $r \rightarrow$ exp(2$\pi ir$)).
 
 For any morphism $f: H\rightarrow H'$ of compact Lie groups, we denote by $X(f)$ the homomorphism $a \rightarrow a\circ f$ from $X(H')$ to X(H). If K is a closed
 
@@ -150,7 +150,7 @@ $$
 
 Let S and $S'$ be tori. Denote by $M(S,S')$ the group of morphisms of Lie groups from S to $S'$. The maps $f \rightarrow X(f)$ and $f \rightarrow \Gamma (f)$ are isomorphisms of groups from $M(S,S')$ to Hom$_{\mathbf{Z}}(X(S'),X(S))$ and to Hom$_{\mathbf{Z}}(\Gamma (S), \Gamma (S'))$, respectively.
 
-If $f$ is a morphism of Lie groups from S to $S'$, the homomorphism $X(f)$ is simply the dual of $f$ in the sense of Spectral Theories, Chap. II, §1, no. 7. The map $\varphi  \rightarrow \widehat{\varphi}$ from Hom$_{\mathbf{Z}}(X(S'),X(S))$ to $M(S,S')$ defined in loc. cit. is the inverse of the map $f \rightarrow X(f)$ from $M(S,S')$ to Hom$_{\mathbf{Z}}(X(S'),X(S))$; the latter is thus bijective. If we identify $\Gamma (S)$ (resp. $\Gamma (S'))$ with the dual $\mathbf{Z}$-module of X(S) (resp. $X(S'))$ (Prop. $3),\Gamma (f)$ coincides with the transpose of the homomorphism $X(f)$, hence the proposition.
+If $f$ is a morphism of Lie groups from S to $S'$, the homomorphism $X(f)$ is simply the dual of $f$ in the sense of Spectral Theories, Chap. II, §1, no. 7. The map $\varphi  \rightarrow \widehat{\varphi}$ from Hom$_{\mathbf{Z}}(X(S'),X(S))$ to $M(S,S')$ defined in loc. cit. is the inverse of the map $f \rightarrow X(f)$ from $M(S,S')$ to Hom$_{\mathbf{Z}}(X(S'),X(S))$; the latter is thus bijective. If we identify $\Gamma (S)$ (resp. $\Gamma (S')$) with the dual $\mathbf{Z}$-module of X(S) (resp. $X(S')$) (Prop. $3$)$,\Gamma (f)$ coincides with the transpose of the homomorphism $X(f)$, hence the proposition.
 
 #### Remark 1 {#lie-ix-s4-n2-rem-1 .statement tag=01BR}
 
@@ -214,7 +214,7 @@ For all $\lambda \in X(G)$, denote by $\widetilde{V}_{\lambda}(G)$ the vector su
 
 If G is commutative, $\widetilde{V}$ is the direct sum of the $\widetilde{V}_{\lambda}(G)$ for $\lambda \in X(G)$.
 
-Since $\rho$ is semi-simple (§1, no. 1), it suffices to prove the lemma in the case in which $\rho$ is simple. In that case, the commutant Z of $\rho (G)$ in End( $\widetilde{V})$ reduces to homotheties (Algebra, Chap. VIII, §3, no. 2, Th. 1); thus, the image of the homomorphism $\widetilde{\rho}$ is contained in the subgroup $\mathbf{C}^*.1_V$ of GL( $\widetilde{V})$, and there exists $\lambda \in X(G)$ such that $\widetilde{V} = \widetilde{V}_{\lambda}(G)$.
+Since $\rho$ is semi-simple (§1, no. 1), it suffices to prove the lemma in the case in which $\rho$ is simple. In that case, the commutant Z of $\rho (G)$ in End( $\widetilde{V}$) reduces to homotheties (Algebra, Chap. VIII, §3, no. 2, Th. 1); thus, the image of the homomorphism $\widetilde{\rho}$ is contained in the subgroup $\mathbf{C}^*.1_V$ of GL( $\widetilde{V}$), and there exists $\lambda \in X(G)$ such that $\widetilde{V} = \widetilde{V}_{\lambda}(G)$.
 
 #### Definition 1 {#lie-ix-s4-def-1 .statement tag=01BW}
 
@@ -226,13 +226,13 @@ $$
 \widetilde{V} =\bigoplus_{\lambda\in P(\rho ,T)}\widetilde{V}_{\lambda}(T) \tag{7}
 $$
 
-Let $T'$ be another maximal torus of G and $g$ an element of G such that (Int $g)T = T'($§2, no. 2, Th. 2). For all $\lambda \in X(T)$,
+Let $T'$ be another maximal torus of G and $g$ an element of G such that (Int $g$)$T = T'($§2, no. 2, Th. 2). For all $\lambda \in X(T)$,
 
-$\widetilde{\rho}(g)( \widetilde{V}_{\lambda}(T)) = \widetilde{V}_{\lambda'}(T')$, where $\lambda '=$ X(Int $g^{-1})(\lambda )$. (8)
+$\widetilde{\rho}(g)( \widetilde{V}_{\lambda}(T)) = \widetilde{V}_{\lambda'}(T')$, where $\lambda '=$ X(Int $g^{-1}$)$(\lambda )$. (8)
 
 Consequently,
 
-X(Int $g)(P(\rho ,T')) = P(\rho ,T)$. (9)
+X(Int $g$)$(P(\rho ,T')) = P(\rho ,T)$. (9)
 
 The Weyl group $W = W_G(T)$ operates on the left on the $\mathbf{Z}$-module X(T) by $w \rightarrow X(w^{-1})$; thus, for $t\in T, \lambda \in X(T), w\in W$, we have $t^{w\lambda}= (w^{-1}(t))^{\lambda}$.
 
@@ -256,7 +256,7 @@ $$
 
 Moreover, recall (no. 1) that we have associated to every element $\lambda$ of X(T) a linear form $\delta (\lambda )$ on $\mathfrak{t}_{\mathbf{C}}$ such that
 
-(exp$_Tx)^{\lambda}=e^{\delta(\lambda)(x)},x\in \mathfrak{t}$. (10)
+(exp$_Tx$)$^{\lambda}=e^{\delta(\lambda)(x)},x\in \mathfrak{t}$. (10)
 
 Recall finally (Chap. VII, §1, no. 1) that, for any map $\mu:\mathfrak{t}_{\mathbf{C}}\rightarrow \mathbf{C}$, we denote by $\widetilde{V}_\mu(\mathfrak{t}_{\mathbf{C}})$ the vector subspace of $\widetilde{V}$ consisting of the $v$ such that $(\widetilde{L}(\rho )(u))(v) =\mu(u).v$ for all $u\in \mathfrak{t}_{\mathbf{C}}$.
 
@@ -270,7 +270,7 @@ b) The map $\delta : X(T)\rightarrow$ Hom$_{\mathbf{C}}(\mathfrak{t}_{\mathbf{C}
 
 Note first that, if W operates on $\mathfrak{t}_{\mathbf{C}}$ by associating to any element $w$ of W the endomorphism $L(w)_{(\mathbf{C})}$ of $\mathfrak{t}_{\mathbf{C}}$, the map $\delta$ is compatible with the operation of W on X(T) and Hom$_{\mathbf{C}}(\mathfrak{t}_{\mathbf{C}},\mathbf{C})$.
 
-Assume now that $k=\mathbf{R}$. Denote by $\sigma$ the conjugation of $\widetilde{V}$ relative to V, defined by $\sigma (x+iy) =x-iy$ for $x, y$ in V; for every complex vector subspace E of $\widetilde{V}$, the smallest subspace of $\widetilde{V}$ rational over $\mathbf{R}$ and containing E is $E +\sigma (E)$. In particular, for all $\lambda \in X(T)$, there exists a real vector subspace $V(\lambda )$ of V such that the subspace $V(\lambda )_{(\mathbf{C})}$ of $\widetilde{V}$ is $\widetilde{V}_{\lambda}(T) + \widetilde{V}_{-\lambda}(T)$ (note that $\sigma ( \widetilde{V}_{\lambda}(T)) = \widetilde{V}_{-\lambda}(T))$. We have $V(\lambda ) = V(-\lambda )$, and the $V(\lambda )$ are the isotypical components of the representation of T on V induced by $\rho$.
+Assume now that $k=\mathbf{R}$. Denote by $\sigma$ the conjugation of $\widetilde{V}$ relative to V, defined by $\sigma (x+iy) =x-iy$ for $x, y$ in V; for every complex vector subspace E of $\widetilde{V}$, the smallest subspace of $\widetilde{V}$ rational over $\mathbf{R}$ and containing E is $E +\sigma (E)$. In particular, for all $\lambda \in X(T)$, there exists a real vector subspace $V(\lambda )$ of V such that the subspace $V(\lambda )_{(\mathbf{C})}$ of $\widetilde{V}$ is $\widetilde{V}_{\lambda}(T) + \widetilde{V}_{-\lambda}(T)$ (note that $\sigma ( \widetilde{V}_{\lambda}(T)) = \widetilde{V}_{-\lambda}(T)$). We have $V(\lambda ) = V(-\lambda )$, and the $V(\lambda )$ are the isotypical components of the representation of T on V induced by $\rho$.
 
 ### 4. ROOTS
 
@@ -326,7 +326,7 @@ By §2, no. 2, Cor. 2 of Th. 2, C(G) is contained in T. Since this is the kernel
 
 Every automorphism of the Lie group G that induces the identity on T is of the form Int $t$, with $t\in T$.
 
-Assume first of all that C(G) reduces to the identity element, in other words that X(T) = Q(R) (Prop. 8). Let $f$ be an automorphism of G inducing the identity on T, and $\varphi = L(f)_{(\mathbf{C})}$; then $\varphi$ is an automorphism of $\mathfrak{g}_{\mathbf{C}}$ inducing the identity on $\mathfrak{t}_{\mathbf{C}}$. By Chap. VIII, §5, no. 2, Prop. 2, there exists a unique homomorphism $\theta : Q(R)\rightarrow \mathbf{C}^*$ such that $\varphi$ induces on each $\mathfrak{g}^{\alpha}$ the homothety with ratio $\theta (\alpha )$. Since $\varphi$ leaves stable the real form $\mathfrak{g}$ of $\mathfrak{g}_{\mathbf{C}}$, it commutes with the conjugation $\sigma$ of $\mathfrak{g}_{\mathbf{C}}$ with respect to $\mathfrak{g}$; but $\sigma (\mathfrak{g}^{\alpha}) =\mathfrak{g}^{-\alpha}$, so $\theta (-\alpha ) =\overline{\theta(\alpha)}$ for all $\alpha \in R$. This implies that $\theta (\alpha )\theta (\alpha ) =\theta (\alpha )\theta (-\alpha ) = 1$. It follows that $\theta$ takes values in $\mathbf{U}$, and hence corresponds by duality to an element $t$ of T such that (Ad $t)_{(\mathbf{C})}=\varphi$, so Int $t=f$.
+Assume first of all that C(G) reduces to the identity element, in other words that X(T) = Q(R) (Prop. 8). Let $f$ be an automorphism of G inducing the identity on T, and $\varphi = L(f)_{(\mathbf{C})}$; then $\varphi$ is an automorphism of $\mathfrak{g}_{\mathbf{C}}$ inducing the identity on $\mathfrak{t}_{\mathbf{C}}$. By Chap. VIII, §5, no. 2, Prop. 2, there exists a unique homomorphism $\theta : Q(R)\rightarrow \mathbf{C}^*$ such that $\varphi$ induces on each $\mathfrak{g}^{\alpha}$ the homothety with ratio $\theta (\alpha )$. Since $\varphi$ leaves stable the real form $\mathfrak{g}$ of $\mathfrak{g}_{\mathbf{C}}$, it commutes with the conjugation $\sigma$ of $\mathfrak{g}_{\mathbf{C}}$ with respect to $\mathfrak{g}$; but $\sigma (\mathfrak{g}^{\alpha}) =\mathfrak{g}^{-\alpha}$, so $\theta (-\alpha ) =\overline{\theta(\alpha)}$ for all $\alpha \in R$. This implies that $\theta (\alpha )\theta (\alpha ) =\theta (\alpha )\theta (-\alpha ) = 1$. It follows that $\theta$ takes values in $\mathbf{U}$, and hence corresponds by duality to an element $t$ of T such that (Ad $t$)$_{(\mathbf{C})}=\varphi$, so Int $t=f$.
 
 In the general case, the preceding applies to the group $G/C(G)$, whose centre reduces to the identity element, and to its maximal torus $T/C(G)$. It follows that, if $f$ is an automorphism of G inducing the identity on T, there exists an element $t$ of T such that $f$ and Int $t$ induce by passage to the quotient the same automorphism of $G/C(G)$. But, since the canonical morphism $D(G)\rightarrow G/C(G)$ is a finite covering (§1, no. 4, Cor. 1 of Prop. 4), $f$ and Int $t$ induce the same automorphism of D(G), hence of $D(G)\times C(G)$, and hence also of G (loc. cit.).
 
@@ -354,9 +354,9 @@ The Lie algebra $L(Z(S))_{(\mathbf{C})}$ consists of the invariants of S on $\ma
 
 Let $\alpha \in R(G,T)$. The centralizer $Z_{\alpha}$ of the kernel of $\alpha$ is a connected closed subgroup of G; its centre is Ker $\alpha$; its derived group $D(Z_{\alpha}) = S_{\alpha}$ is a connected closed semi-simple subgroup of G of rank 1. We have $R(Z_{\alpha},T) =\{\alpha ,-\alpha \}$ and dim $Z_{\alpha}=$ dim T + 2.
 
-Let $Z'_{\alpha}$ be the centralizer of (Ker $\alpha )_0$. By Lemma 2, this is a connected closed subgroup of G, and $R(Z'_{\alpha},T)$ is the set of $\beta \in R(G,T)$ such that $\beta$((Ker$\alpha )_0) =\{1\}$. Clearly, $\{\alpha ,-\alpha \} \subset R(Z'_{\alpha},T)$. Conversely, let $\beta \in R(Z'_{\alpha},T)$; since (Ker $\alpha )_0$ is of finite index in Ker $\alpha$, there exists an integer $r\not= 0$ such that $t^{r\beta}= 1$ for $t\in$ Ker $\alpha$. From the exactness of the sequence
+Let $Z'_{\alpha}$ be the centralizer of (Ker $\alpha$ )$_0$. By Lemma 2, this is a connected closed subgroup of G, and $R(Z'_{\alpha},T)$ is the set of $\beta \in R(G,T)$ such that $\beta$((Ker$\alpha$ )$_0$) $=\{1\}$. Clearly, $\{\alpha ,-\alpha \} \subset R(Z'_{\alpha},T)$. Conversely, let $\beta \in R(Z'_{\alpha},T)$; since (Ker $\alpha$ )$_0$ is of finite index in Ker $\alpha$, there exists an integer $r\not= 0$ such that $t^{r\beta}= 1$ for $t\in$ Ker $\alpha$. From the exactness of the sequence
 
-$0\longrightarrow \mathbf{Z}\longrightarrow X(T)\longrightarrow$ X(Ker $\alpha )\longrightarrow 0$
+$0\longrightarrow \mathbf{Z}\longrightarrow X(T)\longrightarrow$ X(Ker $\alpha$ )$\longrightarrow 0$
 
 corresponding by duality to the exact sequence
 
@@ -424,7 +424,7 @@ where $H_{\delta(\alpha)}$ is the *inverse root associated to the root* $\delta(
 
 For all $x\in \mathbf{R}$, we have
 
-$($ exp(2$\pi ix)$ 0 $)_{2\pi ix}$
+$($ exp(2$\pi ix$) 0 $)_{2\pi ix}$
 
 $\nu$ 0 exp($-2\pi ix$)$=\nu_T(e$ ) = exp($xK_{\alpha}$). (14)
 
@@ -448,9 +448,9 @@ Let $g\in N_G(T)$. With the notations in Chap. VIII, §5, no. 2, we have Ad $g\i
 
 Let $\alpha \in R(G,T)$, and let $\nu :\mathbf{S}\mathbf{U}(2,\mathbf{C})\rightarrow G$ be a morphism of Lie groups having the properties in the Cor. of Th. 1. The image under $\nu$ of the element $\theta$ of $\mathbf{S}\mathbf{U}(2,\mathbf{C})$ has the following properties (§3, no. 6, formulas (17)):
 
-$a)$ (Int$\nu (\theta ))(t) =t$ if $t\in$ Ker$\alpha$,
+$a)$ (Int$\nu (\theta )$)$(t) =t$ if $t\in$ Ker$\alpha$,
 
-$b)$ (Int$\nu (\theta ))(t) =t^{-1}$ if $t\in T\cap S_{\alpha}$.
+$b)$ (Int$\nu (\theta )$)$(t) =t^{-1}$ if $t\in T\cap S_{\alpha}$.
 
 It follows that Ad $\nu (\theta )$ induces the identity on Ker $\delta (\alpha )\subset \mathfrak{t}_{\mathbf{C}}$, and induces the map $x \rightarrow  -x$ on $[\mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}]$, hence coincides with the reflection $s_{H_{\delta(\alpha)}}$. Thus, the image of W contains all the $s_{H_{\delta(\alpha)}}$, and hence is equal to $W(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$. In particular $W_{Z_{\alpha}}(T)$ is of order 2, and hence consists of the identity and Int $\nu (\theta )$. This completes the proof of the proposition.
 
@@ -458,7 +458,7 @@ It follows that Ad $\nu (\theta )$ induces the identity on Ker $\delta (\alpha )
 
 Assume that G is semi-simple. Then every element of G is the commutator of two elements of G.
 
-Let $c$ be a Coxeter transformation of the Weyl group $W(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$ (Chap. V, §6, no. 1), and let $n$ be an element of $N_G(T)$ whose class in W is identified with $c$ by the isomorphism defined in the proposition. Denote by $f_c$ the morphism $t \rightarrow (n, t)$ from T to T; for $x\in \mathfrak{t}_{\mathbf{C}}$, we have $L(f_c)_{(\mathbf{C})}(x) =$ (Ad $n)(x)-x=$ $c(x)-x$.
+Let $c$ be a Coxeter transformation of the Weyl group $W(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$ (Chap. V, §6, no. 1), and let $n$ be an element of $N_G(T)$ whose class in W is identified with $c$ by the isomorphism defined in the proposition. Denote by $f_c$ the morphism $t \rightarrow (n, t)$ from T to T; for $x\in \mathfrak{t}_{\mathbf{C}}$, we have $L(f_c)_{(\mathbf{C})}(x) =$ (Ad $n$)$(x)-x=$ $c(x)-x$.
 
 By Th. 1 of Chap. V, §6, no. 2, the endomorphism $c$ of $\mathfrak{t}_{\mathbf{C}}$ has no eigenvalue equal to 1. Consequently, $L(f_c)$ is surjective, and hence so is $f_c$. It follows that every element of T is the commutator of two elements of G, which implies the corollary in view of Th. 2, §2, no. 2.
 
@@ -512,7 +512,7 @@ It can be shown (cf. Exercise 2 of §5) that $\pi_2(G/H)$ is zero. The exactness
 
 The homomorphism $\pi_1(D(G))\rightarrow \pi_1(G)$ corresponding to the inclusion of D(G) into G induces an isomorphism from $\pi_1(D(G))$ to the torsion subgroup of $\pi_1(G)$.
 
-Indeed, $T\cap D(G)$ is a maximal torus of D(G) (§2, no. 3, Prop. $1c))$; from the exact sequence
+Indeed, $T\cap D(G)$ is a maximal torus of D(G) (§2, no. 3, Prop. $1c$)$)$; from the exact sequence
 
 $$
 0\longrightarrow \Gamma (T\cap D(G))\longrightarrow \Gamma (T)\longrightarrow \Gamma (T/(T\cap D(G)))\longrightarrow 0
@@ -548,7 +548,7 @@ Let H be such a subgroup; then $H_0\in \mathscr{H}$, and $\mathscr{H}$ is finite
 
 Let H be a connected closed subgroup of G containing T, and let $W^H_G(T)$ be the stabilizer in $W_G(T)$ of the subset $R(H,T)$ of R. The group $N_G(H)/H$ is isomorphic to the quotient group $W^H_G(T)/W_H(T)$.
 
-Indeed, it follows from Prop. 7 of §2, no. 5, applied to $N_G$(H), that $N_G(H)/H$ is isomorphic to $W_{N(H)}(T)/W_H$(T), where $W_{N(H)}(T)$ is the set of elements of $W_G(T)$ whose representatives in $N_G(T)$ normalize H. Let $n\in N_G$(T), and let $w$ be its class in $W_G(T)$. By Chap. III, §9, no. 4, Prop. 11, $n$ normalizes H if and only if (Ad $n)(L(H)) = L(H)$; in view of Prop. 5 of no. 3, this also means that the subset $R(H,T)$ of R is stable under $w$, hence the corollary.
+Indeed, it follows from Prop. 7 of §2, no. 5, applied to $N_G$(H), that $N_G(H)/H$ is isomorphic to $W_{N(H)}(T)/W_H$(T), where $W_{N(H)}(T)$ is the set of elements of $W_G(T)$ whose representatives in $N_G(T)$ normalize H. Let $n\in N_G$(T), and let $w$ be its class in $W_G(T)$. By Chap. III, §9, no. 4, Prop. 11, $n$ normalizes H if and only if (Ad $n$)$(L(H)) = L(H)$; in view of Prop. 5 of no. 3, this also means that the subset $R(H,T)$ of R is stable under $w$, hence the corollary.
 
 #### Remark 1 {#lie-ix-s4-n7-rem-1 .statement tag=01CG}
 
@@ -584,11 +584,11 @@ We shall see below (§5, no. 3, Th. 1) that if G is simply-connected and X reduc
 
 A root diagram (or simply a diagram, if there is no risk of confusion) is a triple $D = (M,M_0,R)$ where:
 
-(RD$_0) M$ is a free $\mathbf{Z}$-module of finite type and the submodule $M_0$ is a direct factor of M;
+(RD$_0$) $M$ is a free $\mathbf{Z}$-module of finite type and the submodule $M_0$ is a direct factor of M;
 
-(RD$_I) R$ is a finite subset of $M; R\cup M_0$ generates the $\mathbf{Q}$-vector space $\mathbf{Q}\otimes M$;
+(RD$_I$) $R$ is a finite subset of $M; R\cup M_0$ generates the $\mathbf{Q}$-vector space $\mathbf{Q}\otimes M$;
 
-(RD$_{II})$ for all $\alpha \in R$, there exists an element $\alpha^{\vee}$ of $M^*=$ Hom$_{\mathbf{Z}}(M,\mathbf{Z})$ such that $\alpha^{\vee}(M_0) = 0,\alpha^{\vee}(\alpha ) = 2$ and the endomorphism $x \rightarrow x-\alpha^{\vee}(x)\alpha$ of M leaves R stable.
+(RD$_{II}$) for all $\alpha \in R$, there exists an element $\alpha^{\vee}$ of $M^*=$ Hom$_{\mathbf{Z}}(M,\mathbf{Z})$ such that $\alpha^{\vee}(M_0) = 0,\alpha^{\vee}(\alpha ) = 2$ and the endomorphism $x \rightarrow x-\alpha^{\vee}(x)\alpha$ of M leaves R stable.
 
 By Chap. VI, §1, no. 1, for all $\alpha \in R$ the element $\alpha^{\vee}$ of $M^*$ is uniquely determined by $\alpha$; we denote by $s_{\alpha}$ the endomorphism $x \rightarrow x-\alpha^{\vee}(x)\alpha$ of M. Moreover (loc. cit.), the $\mathbf{Q}$-vector space $\mathbf{Q}\otimes M$ is the direct sum of $\mathbf{Q}\otimes M_0$ and the vector subspace V(R) generated by R, and R is a root system in V(R) (loc. cit., Def. 1).
 
@@ -610,7 +610,7 @@ Let $(\mathfrak{g},\mathfrak{h})$ be a split reductive $\mathbf{Q}$-Lie algebra,
 
 #### Example 4 {#lie-ix-s4-n8-exa-4 .statement tag=01CP}
 
-Let V be a vector space over $\mathbf{Q}$ and R a root system in V; denote by P(R) the group of weights of R and by Q(R) the group of radical weights of R (Chap. VI, §1, no. 9). Then $(Q(R),0,R)$ and $(P(R),0,R)$ are root diagrams. A root diagram $(M,M_0,S)$ is isomorphic to a diagram of the form $(Q(R),0,R)$ (resp. $(P(R),0,R))$ if and only if M is generated by S (resp. $M^*$ is generated by $S^{\vee})$.
+Let V be a vector space over $\mathbf{Q}$ and R a root system in V; denote by P(R) the group of weights of R and by Q(R) the group of radical weights of R (Chap. VI, §1, no. 9). Then $(Q(R),0,R)$ and $(P(R),0,R)$ are root diagrams. A root diagram $(M,M_0,S)$ is isomorphic to a diagram of the form $(Q(R),0,R)$ (resp. $(P(R),0,R)$) if and only if M is generated by S (resp. $M^*$ is generated by $S^{\vee}$).
 
 For every subgroup X of P(R) containing $Q(R), (X,0,R)$ is a root diagram and, up to isomorphism, every diagram $(M,M_0,S)$ such that $M_0= 0$, in other words such that S generates a subgroup of M of finite index, arises in this way.
 
@@ -632,7 +632,7 @@ Denote by $D^*(G,T)$ the diagram $(X(T),X(T/(T\cap D(G)),R(G,T)))$ and by $D_*(G
 
 #### Example 1 {#lie-ix-s4-n9-exa-1 .statement tag=01CR}
 
-If G is semi-simple of rank 1, then $D^*(G,T)$ and $D_*(G,T)$ are necessarily isomorphic to one of the two diagrams $\Delta_2= (\mathbf{Z},0,\{2,-2\})$, $\Delta_1= (\mathbf{Z},0,\{1,-1\})$. If G is isomorphic to $\mathbf{S}\mathbf{U}(2,\mathbf{C}), D_*(G,T)$ is isomorphic to $\Delta_1$ (since G is simply-connected) so $D^*(G,T)$ is isomorphic to $\Delta_2$. If G is isomorphic to $\mathbf{S}\mathbf{O}(3,\mathbf{R}), D^*(G,T)$ is isomorphic to $\Delta_1$ (since $C(G) =\{1\})$, so $D_*(G,T)$ is isomorphic to $\Delta_2$.
+If G is semi-simple of rank 1, then $D^*(G,T)$ and $D_*(G,T)$ are necessarily isomorphic to one of the two diagrams $\Delta_2= (\mathbf{Z},0,\{2,-2\})$, $\Delta_1= (\mathbf{Z},0,\{1,-1\})$. If G is isomorphic to $\mathbf{S}\mathbf{U}(2,\mathbf{C}), D_*(G,T)$ is isomorphic to $\Delta_1$ (since G is simply-connected) so $D^*(G,T)$ is isomorphic to $\Delta_2$. If G is isomorphic to $\mathbf{S}\mathbf{O}(3,\mathbf{R}), D^*(G,T)$ is isomorphic to $\Delta_1$ (since $C(G) =\{1\}$), so $D_*(G,T)$ is isomorphic to $\Delta_2$.
 
 #### Example 2 {#lie-ix-s4-n9-exa-2 .statement tag=01CS}
 
@@ -656,7 +656,7 @@ $b)$ The canonical isomorphism from $\mathbf{C}\otimes X(T)$ to the dual $\mathf
 
 #### Remark 2 {#lie-ix-s4-n9-rem-2 .statement tag=01CW}
 
-Assume that the group G is semi-simple; denote by R (resp. $R^{\vee})$ the root system $R(G,T)$ (resp. $R^{\vee}(G,T))$, so that we have inclusions
+Assume that the group G is semi-simple; denote by R (resp. $R^{\vee}$) the root system $R(G,T)$ (resp. $R^{\vee}(G,T)$), so that we have inclusions
 
 $$
 Q(R)\subset X(T)\subset P(R)Q(R^{\vee})\subset \Gamma (T)\subset P(R^{\vee})
@@ -674,23 +674,23 @@ $$
 
 In particular, the product of the orders of $\pi_1(G)$ and C(G) is equal to the connection index $f$ of $R(G,T) ($loc. cit.).
 
-Now let $G'$ be another connected compact Lie group, $T'$ a maximal torus of $G'$. Let $f: G\rightarrow G'$ be an isomorphism of Lie groups such that $f(T) = T'$; denote by $f_T$ the isomorphism from T to $T'$ that it defines. Then $X(f_T)$ is an isomorphism from $D^*(G',T')$ to $D^*(G,T)$, denoted by $D^*(f)$, and $\Gamma (f_T)$ is an isomorphism from $D_*(G,T)$ to $D_*(G',T')$, denoted by $D_*(f)$. If $t\in T$, and if we put $g=f\circ$ Int $t=$ (Int $f(t))\circ f$, then $D^*(g) = D^*(f), D_*(g) = D_*(f)$.
+Now let $G'$ be another connected compact Lie group, $T'$ a maximal torus of $G'$. Let $f: G\rightarrow G'$ be an isomorphism of Lie groups such that $f(T) = T'$; denote by $f_T$ the isomorphism from T to $T'$ that it defines. Then $X(f_T)$ is an isomorphism from $D^*(G',T')$ to $D^*(G,T)$, denoted by $D^*(f)$, and $\Gamma (f_T)$ is an isomorphism from $D_*(G,T)$ to $D_*(G',T')$, denoted by $D_*(f)$. If $t\in T$, and if we put $g=f\circ$ Int $t=$ (Int $f(t)$)$\circ f$, then $D^*(g) = D^*(f), D_*(g) = D_*(f)$.
 
 #### Proposition 15 {#lie-ix-s4-prop-15 .statement tag=01CX}
 
-Let $\varphi$ be an isomorphism from $D^*(G',T')$ to $D^*(G,T)$ (resp. from $D_*(G,T)$ to $D_*(G',T'))$. There exists an isomorphism $f: G\rightarrow G'$ such that $f(T) = T'$ and $\varphi = D^*(f)$ (resp. $\varphi = D_*(f))$; if $f_1$ and $f_2$ are two such isomorphisms, there exists an element $t$ of T such that $f_2=f_1\circ$ Int $t$.
+Let $\varphi$ be an isomorphism from $D^*(G',T')$ to $D^*(G,T)$ (resp. from $D_*(G,T)$ to $D_*(G',T')$). There exists an isomorphism $f: G\rightarrow G'$ such that $f(T) = T'$ and $\varphi = D^*(f)$ (resp. $\varphi = D_*(f)$); if $f_1$ and $f_2$ are two such isomorphisms, there exists an element $t$ of T such that $f_2=f_1\circ$ Int $t$.
 
-The second assertion follows immediately from Prop. 9 (no. 4); we prove the first for the covariant diagrams, for example. Denote by $\mathfrak{g}'$ (resp. $\mathfrak{t}')$ the Lie algebra of $G'$ (resp. $T')$, and by $\mathfrak{g}'_{\mathbf{C}}$ (resp. $\mathfrak{t}'_{\mathbf{C}})$ its complexified Lie algebra. By Chap. VIII, §4, no. 4, Th. 2 (i), there exists an isomorphism $\psi :\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}'_{\mathbf{C}}$ that maps $\mathfrak{t}_{\mathbf{C}}$ to $\mathfrak{t}'_{\mathbf{C}}$ and induces on $\Gamma (T)\subset \mathfrak{t}_{\mathbf{C}}$ the given isomorphism $\varphi :\Gamma (T)\rightarrow \Gamma (T')$. Then $\mathfrak{g}$ and $\psi^{-1}(\mathfrak{g}')$ are two compact forms of $\mathfrak{g}_{\mathbf{C}}$ that have the same intersection $\mathfrak{t}$ with $\mathfrak{t}_{\mathbf{C}}$; by §3, no. 2, Prop. 3, there exists an inner automorphism $\theta$ of $\mathfrak{g}_{\mathbf{C}}$ inducing the identity on $\mathfrak{t}_{\mathbf{C}}$ and such that $\theta (\mathfrak{g}) =\psi^{-1}(\mathfrak{g}')$. By replacing $\psi$ by $\psi \circ \theta$, we can assume that $\psi$ maps $\mathfrak{g}$ to $\mathfrak{g}'$. Further, by Prop. 4 of no. 2, there exists a unique morphism $f_T: T\rightarrow T'$ such that $\Gamma (f_T) =\varphi$. Then the restriction of $\psi$ to $\mathfrak{t}$ is $L(f_T)$, and by §2, no. 6, Prop. 8, there exists a unique morphism $f: G\rightarrow G'$ that induces $f_T$ on T and $\psi$ on $\mathfrak{g}_{\mathbf{C}}$. Applying the preceding to $\varphi^{-1}$ and $\psi^{-1}$ we obtain an inverse morphism to $f$, which is therefore an isomorphism. Then $D_*(f) =\Gamma (f_T) =\varphi$, hence the proposition.
+The second assertion follows immediately from Prop. 9 (no. 4); we prove the first for the covariant diagrams, for example. Denote by $\mathfrak{g}'$ (resp. $\mathfrak{t}'$) the Lie algebra of $G'$ (resp. $T'$), and by $\mathfrak{g}'_{\mathbf{C}}$ (resp. $\mathfrak{t}'_{\mathbf{C}}$) its complexified Lie algebra. By Chap. VIII, §4, no. 4, Th. 2 (i), there exists an isomorphism $\psi :\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}'_{\mathbf{C}}$ that maps $\mathfrak{t}_{\mathbf{C}}$ to $\mathfrak{t}'_{\mathbf{C}}$ and induces on $\Gamma (T)\subset \mathfrak{t}_{\mathbf{C}}$ the given isomorphism $\varphi :\Gamma (T)\rightarrow \Gamma (T')$. Then $\mathfrak{g}$ and $\psi^{-1}(\mathfrak{g}')$ are two compact forms of $\mathfrak{g}_{\mathbf{C}}$ that have the same intersection $\mathfrak{t}$ with $\mathfrak{t}_{\mathbf{C}}$; by §3, no. 2, Prop. 3, there exists an inner automorphism $\theta$ of $\mathfrak{g}_{\mathbf{C}}$ inducing the identity on $\mathfrak{t}_{\mathbf{C}}$ and such that $\theta (\mathfrak{g}) =\psi^{-1}(\mathfrak{g}')$. By replacing $\psi$ by $\psi \circ \theta$, we can assume that $\psi$ maps $\mathfrak{g}$ to $\mathfrak{g}'$. Further, by Prop. 4 of no. 2, there exists a unique morphism $f_T: T\rightarrow T'$ such that $\Gamma (f_T) =\varphi$. Then the restriction of $\psi$ to $\mathfrak{t}$ is $L(f_T)$, and by §2, no. 6, Prop. 8, there exists a unique morphism $f: G\rightarrow G'$ that induces $f_T$ on T and $\psi$ on $\mathfrak{g}_{\mathbf{C}}$. Applying the preceding to $\varphi^{-1}$ and $\psi^{-1}$ we obtain an inverse morphism to $f$, which is therefore an isomorphism. Then $D_*(f) =\Gamma (f_T) =\varphi$, hence the proposition.
 
-Note that, if T and $T'$ are two maximal tori of G, the diagrams $D^*(G,T)$ and $D^*(G,T')$ are isomorphic (if $g\in G$ is such that $gTg^{-1}= T'$, then Int $g$ is an isomorphism from G to G that maps T to $T')$. Denote by $D^*(G)$ the isomorphism class of $D^*(G,T)$ (cf. Theory of Sets, Chap. II, §6, no. 2); this is a root diagram that depends only on G and is called the contravariant diagram of G. The covariant diagram $D_*(G)$ of G is defined similarly, and we obtain:
+Note that, if T and $T'$ are two maximal tori of G, the diagrams $D^*(G,T)$ and $D^*(G,T')$ are isomorphic (if $g\in G$ is such that $gTg^{-1}= T'$, then Int $g$ is an isomorphism from G to G that maps T to $T'$). Denote by $D^*(G)$ the isomorphism class of $D^*(G,T)$ (cf. Theory of Sets, Chap. II, §6, no. 2); this is a root diagram that depends only on G and is called the contravariant diagram of G. The covariant diagram $D_*(G)$ of G is defined similarly, and we obtain:
 
 #### Corollary {#lie-ix-s4-n9-cor-1 .statement tag=01CY}
 
-Two connected compact Lie groups G and $G'$ are isomorphic if and only if the diagrams $D^*(G)$ and $D^*(G')$ (resp. $D_*(G)$ and $D_*(G'))$ are equal.
+Two connected compact Lie groups G and $G'$ are isomorphic if and only if the diagrams $D^*(G)$ and $D^*(G')$ (resp. $D_*(G)$ and $D_*(G')$) are equal.
 
 #### Proposition 16 {#lie-ix-s4-prop-16 .statement tag=01CZ}
 
-For every reduced root diagram D, there exists a connected compact Lie group G such that $D^*(G)$ (resp. $D_*(G))$ is isomorphic to D.
+For every reduced root diagram D, there exists a connected compact Lie group G such that $D^*(G)$ (resp. $D_*(G)$) is isomorphic to D.
 
 $a)$ By replacing D, if necessary, by its inverse diagram, we are reduced to constructing G such that $D^*(G)$ is isomorphic to D. Put $D = (M,M_0,R)$; then $\mathbf{Q}\otimes M$ is the direct sum of $\mathbf{Q}\otimes M_0$ and the vector subspace V(R) generated by R. Moreover, since the inverse roots take integer values on M, the projection of M on V(R) parallel to $\mathbf{Q}\otimes M_0$ is contained in the group of weights P(R) of R, so that M is a subgroup of $M_0\oplus P(R)$ of finite index. Denote by $D'$ the diagram $(M_0\oplus P(R),M_0,R)$.
 
@@ -706,23 +706,23 @@ The classification of connected compact Lie groups up to isomorphism is thus red
 
 #### Remark 3 {#lie-ix-s4-n9-rem-3 .statement tag=01D1}
 
-Let $T'$ be another maximal torus of G, B (resp. $B')$ a basis of the root system $R(G,T)$ (resp. $R(G',T'))$ (Chap. VI, §1, no. 5, Def. 2). There exist elements $g\in G$ such that Int $g$ maps T onto $T'$ and B onto $B'$, and these elements form a unique coset modulo Int(T) (since T and $T'$ are conjugate, we can assume that $T = T'$, and it suffices to apply Chap. VI, §1, no. 5, Remark 4 and Prop. 9 of no. 4). It follows that the isomorphism from T to $T'$ induced by Int $g$ is independent of the choice of $g$; consequently the same is true of $D_*$(Int $g)$ and $D^*$(Int $g)$. Paraphrasing Chap. VIII, §5, no. 3, Remark 2, mutatis mutandis, we can now define the canonical maximal torus of G, the canonical covariant and contravariant root diagrams of $G,. .$..
+Let $T'$ be another maximal torus of G, B (resp. $B'$) a basis of the root system $R(G,T)$ (resp. $R(G',T')$) (Chap. VI, §1, no. 5, Def. 2). There exist elements $g\in G$ such that Int $g$ maps T onto $T'$ and B onto $B'$, and these elements form a unique coset modulo Int(T) (since T and $T'$ are conjugate, we can assume that $T = T'$, and it suffices to apply Chap. VI, §1, no. 5, Remark 4 and Prop. 9 of no. 4). It follows that the isomorphism from T to $T'$ induced by Int $g$ is independent of the choice of $g$; consequently the same is true of $D_*$(Int $g$) and $D^*$(Int $g$). Paraphrasing Chap. VIII, §5, no. 3, Remark 2, mutatis mutandis, we can now define the canonical maximal torus of G, the canonical covariant and contravariant root diagrams of $G,. .$..
 
 ### 10. AUTOMORPHISMS OF A CONNECTED COMPACT LIE GROUP
 
-Denote by Aut(G) the Lie group of automorphisms of G (Chap. III, §10, no. 2), and by Aut(G$,T)$ the closed subgroup of Aut(G) consisting of the elements $u$ such that $u(T) = T$. We have seen (§1, no. 4, Cor. 5 of Prop. 4) that the identity component of Aut(G) is the subgroup Int(G) of inner automorphisms; denote by Int$_G(H)$ the image in Int(G) of a subgroup H of G.
+Denote by Aut(G) the Lie group of automorphisms of G (Chap. III, §10, no. 2), and by Aut(G$,T$) the closed subgroup of Aut(G) consisting of the elements $u$ such that $u(T) = T$. We have seen (§1, no. 4, Cor. 5 of Prop. 4) that the identity component of Aut(G) is the subgroup Int(G) of inner automorphisms; denote by Int$_G(H)$ the image in Int(G) of a subgroup H of G.
 
-Let D be the covariant diagram of G relative to T; denote by Aut(D) the group of its automorphisms, and by W(D) its Weyl group. The map $u \rightarrow D_*(u)$ is a homomorphism from Aut(G$,T)$ to Aut(D). Prop. 15 of no. 9 immediately gives:
+Let D be the covariant diagram of G relative to T; denote by Aut(D) the group of its automorphisms, and by W(D) its Weyl group. The map $u \rightarrow D_*(u)$ is a homomorphism from Aut(G$,T$) to Aut(D). Prop. 15 of no. 9 immediately gives:
 
 #### Proposition 17 {#lie-ix-s4-prop-17 .statement tag=01D2}
 
-The homomorphism Aut(G$,T)\rightarrow$ Aut(D) is surjective, with kernel Int$_G(T)$.
+The homomorphism Aut(G$,T$)$\rightarrow$ Aut(D) is surjective, with kernel Int$_G(T)$.
 
-Note that Aut(G$,T)\cap$ Int(G) = Int$_G(N_G(T))$ and that the image of Int$_G(N_G(T))$ in Aut(D) is W(D) (no. 5, Prop. 10). Thus, Proposition 17 gives an isomorphism
+Note that Aut(G$,T$)$\cap$ Int(G) = Int$_G(N_G(T))$ and that the image of Int$_G(N_G(T))$ in Aut(D) is W(D) (no. 5, Prop. 10). Thus, Proposition 17 gives an isomorphism
 
-Aut(G$,T)/$(Aut(G$,T)\cap$ Int(G)) $\rightarrow$ Aut(D)$/W(D)$.
+Aut(G$,T$)$/$(Aut(G$,T$)$\cap$ Int(G)) $\rightarrow$ Aut(D)$/W(D)$.
 
-Further, Aut(G) = Int(G).Aut(G$,T)$. Indeed, if $u$ belongs to Aut(G), $u(T)$ is a maximal torus of T, hence is conjugate to T, and there exists an inner automorphism $v$ of G such that $u(T) =v$(T), in other words $v^{-1}u\in$ Aut(G$,T)$. It follows that Aut(G)$/$Int(G) can be identified with Aut(G$,T)/$(Aut(G$,T)\cap$Int(G)), so in view of the preceding we have an exact sequence
+Further, Aut(G) = Int(G).Aut(G$,T$). Indeed, if $u$ belongs to Aut(G), $u(T)$ is a maximal torus of T, hence is conjugate to T, and there exists an inner automorphism $v$ of G such that $u(T) =v$(T), in other words $v^{-1}u\in$ Aut(G$,T$). It follows that Aut(G)$/$Int(G) can be identified with Aut(G$,T$)$/$(Aut(G$,T$)$\cap$Int(G)), so in view of the preceding we have an exact sequence
 
 $1\rightarrow$ Int(G) $\rightarrow$ Aut(G) $\rightarrow$ Aut(D)$/W(D)\rightarrow 1$. (16)
 
@@ -760,17 +760,17 @@ For all $\alpha \in B_0$, denote by $K(\alpha )$ the restriction of the quadrati
 
 The group Int(G) operates simply-transitively on the set of framings of G.
 
-Let $e= (T,B,(U_{\alpha}))$ and $e'= (T',B',(U'_{\alpha}))$ be two framings of G. There exist elements $g$ in G such that (Int $g)(T) = T'$, and these elements form a single coset modulo $N_G(T)$. Thus, we can assume that $T = T'$, and we must prove that there exists a unique element of Int$_G(N_G(T))$ that transforms $e$ to $e'$. By Chap. VI, §1, no. 5, Remark 4, there exists a unique element $w$ of W(R) such that $w(B) = B'$. Since W(R) can be identified with $N_G(T)/T$, there exists $n\in N_G(T)$ such that $w=$ Int $n$, and $n$ is uniquely determined modulo T. Thus, we can assume that $B = B'$, and we must prove that there exists a unique element of Int$_G(T)$ that transforms $e$ to $e'$, which is simply Lemma 3.
+Let $e= (T,B,(U_{\alpha}))$ and $e'= (T',B',(U'_{\alpha}))$ be two framings of G. There exist elements $g$ in G such that (Int $g$)$(T) = T'$, and these elements form a single coset modulo $N_G(T)$. Thus, we can assume that $T = T'$, and we must prove that there exists a unique element of Int$_G(N_G(T))$ that transforms $e$ to $e'$. By Chap. VI, §1, no. 5, Remark 4, there exists a unique element $w$ of W(R) such that $w(B) = B'$. Since W(R) can be identified with $N_G(T)/T$, there exists $n\in N_G(T)$ such that $w=$ Int $n$, and $n$ is uniquely determined modulo T. Thus, we can assume that $B = B'$, and we must prove that there exists a unique element of Int$_G(T)$ that transforms $e$ to $e'$, which is simply Lemma 3.
 
 #### Corollary {#lie-ix-s4-n10-cor-2 .statement tag=01D7}
 
-Let $e$ be a framing of $(G,T)$ and let E be the group of automorphisms of G that leave $e$ stable. Then Aut(G) is the semi-direct product of E by Int(G), and Aut(G$,T)$ is the semi-direct product of E by Int(G) $\cap$ Aut(G$,T) =$ Int$_G(N_G(T))$.
+Let $e$ be a framing of $(G,T)$ and let E be the group of automorphisms of G that leave $e$ stable. Then Aut(G) is the semi-direct product of E by Int(G), and Aut(G$,T$) is the semi-direct product of E by Int(G) $\cap$ Aut(G$,T$) $=$ Int$_G(N_G(T))$.
 
 Indeed, every element of Aut(G) transforms $e$ into a framing of G. By Prop. 19, every coset of Aut(G) modulo Int(G) meets E in a single point, hence the first assertion. The second is proved in the same way.
 
 #### Remark {#lie-ix-s4-n10-rem-1 .statement tag=01D8}
 
-Let G and $G'$ be two connected compact Lie groups, and let $e=$ $(T,B,(U_{\alpha}))$ and $e'= (T',B',(U'_{\alpha}))$ be framings of G and $G'$, respectively. Let X be the set of isomorphisms from G to $G'$ that take $e$ to $e'$. The map $f \rightarrow D^*(f)$ (resp. $D_*(f))$ is a bijection from X to the set of isomorphisms from $D^*(G',T')$ to $D^*(G,T)$ (resp. $D_*(G,T)$ to $D_*(G',T'))$ that map $B'$ to B (resp. B to $B')$. Indeed, this follows immediately from Prop. 15 and Lemma 3.
+Let G and $G'$ be two connected compact Lie groups, and let $e=$ $(T,B,(U_{\alpha}))$ and $e'= (T',B',(U'_{\alpha}))$ be framings of G and $G'$, respectively. Let X be the set of isomorphisms from G to $G'$ that take $e$ to $e'$. The map $f \rightarrow D^*(f)$ (resp. $D_*(f)$) is a bijection from X to the set of isomorphisms from $D^*(G',T')$ to $D^*(G,T)$ (resp. $D_*(G,T)$ to $D_*(G',T')$) that map $B'$ to B (resp. B to $B'$). Indeed, this follows immediately from Prop. 15 and Lemma 3.
 
 ### Exercises {#lie-ix-s4-exercises}
 

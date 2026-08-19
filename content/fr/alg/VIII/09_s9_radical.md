@@ -33,7 +33,7 @@ subsections:
       pdf_page: 162
 statements: 49
 exercises: 31
-content_sha256: 9e7b98acfc7c7efccbdf4fb3af3f48e0bd687a192830f61cf91abf562645503d
+content_sha256: 569bc8d6a9767fcb6963b1ad3bf3417afecebd2320bc51cbcb320c17eecbc670
 ---
 
 ## § 9. RADICAL
@@ -218,7 +218,7 @@ Soient K un anneau intègre, I un ensemble non vide et A l’anneau de polynôme
 
 #### Exemple 5 {#alg-viii-s9-n2-exa-5 .statement tag=00AL}
 
-Soit $\mathfrak{a}$ un idéal bilatère de A. La topologie sur A, compatible avec la structure d’anneau de A, pour laquelle les idéaux $\mathfrak{a}^n$ (pour $n\geqslant 1)$ forment un système fondamental de voisinages de 0 (TG, III, p. 49, exemple 3) s’appelle la topologie $\mathfrak{a}$-adique. Supposons que l’anneau A soit séparé et complet (TG, III, p. 50) pour cette topologie : c’est le cas par exemple lorsque l’idéal $\mathfrak{a}$ est nilpotent. Pour tout $x\in \mathfrak{a}$, la série $\sum^{\infty}_{n=0}(-x)^n$ est alors convergente (TG, III, p. 44, remarque). Soit $y$ sa somme. On a $y-1 =\sum^{\infty}_{n=1}(-x)^n=-xy$, d’où $(1 +x)y= 1$ et on a de même $y(1 +x) = 1$, de sorte que $1 +x$ est inversible. Il en résulte d’après le th. 1 que l’idéal $\mathfrak{a}$ est contenu dans le radical de A.
+Soit $\mathfrak{a}$ un idéal bilatère de A. La topologie sur A, compatible avec la structure d’anneau de A, pour laquelle les idéaux $\mathfrak{a}^n$ (pour $n\geqslant 1$) forment un système fondamental de voisinages de 0 (TG, III, p. 49, exemple 3) s’appelle la topologie $\mathfrak{a}$-adique. Supposons que l’anneau A soit séparé et complet (TG, III, p. 50) pour cette topologie : c’est le cas par exemple lorsque l’idéal $\mathfrak{a}$ est nilpotent. Pour tout $x\in \mathfrak{a}$, la série $\sum^{\infty}_{n=0}(-x)^n$ est alors convergente (TG, III, p. 44, remarque). Soit $y$ sa somme. On a $y-1 =\sum^{\infty}_{n=1}(-x)^n=-xy$, d’où $(1 +x)y= 1$ et on a de même $y(1 +x) = 1$, de sorte que $1 +x$ est inversible. Il en résulte d’après le th. 1 que l’idéal $\mathfrak{a}$ est contenu dans le radical de A.
 
 #### Remarque 1 {#alg-viii-s9-n2-rem-1 .statement tag=00AM}
 
@@ -230,7 +230,7 @@ D’après le théorème 1, tout nilidéal à gauche d’un anneau A est
 
 Soit A un anneau commutatif. L’ensemble des éléments nilpotents de A est un idéal $\mathfrak{N}(A)$ de A, qu’on appelle le nilradical de A ; c’est l’intersection des idéaux premiers de A (V, p. 113, prop. 2). On a $\mathfrak{N}(A)\subset \mathfrak{R}(A) ;*$il y a égalité
 
-si A est un anneau artinien (VIII, p. 169, cor. 2), ou bien une algèbre commutative de type fini sur un corps commutatif (AC, V, § 3, n$^{\circ}4$, th. $3)*$. On peut fort bien avoir $\mathfrak{N}(A)\not=\mathfrak{R}(A) :$ c’est le cas lorsque A est l’anneau K[[X]], où K est un corps commutatif : on a $\mathfrak{N}(A) = 0$ et $\mathfrak{R}(A) =$ AX (VIII, p. 150, exemple 2).
+si A est un anneau artinien (VIII, p. 169, cor. 2), ou bien une algèbre commutative de type fini sur un corps commutatif (AC, V, § 3, n$^{\circ}4$, th. $3$)$*$. On peut fort bien avoir $\mathfrak{N}(A)\not=\mathfrak{R}(A) :$ c’est le cas lorsque A est l’anneau K[[X]], où K est un corps commutatif : on a $\mathfrak{N}(A) = 0$ et $\mathfrak{R}(A) =$ AX (VIII, p. 150, exemple 2).
 
 ### 3. Lemme de Nakayama
 

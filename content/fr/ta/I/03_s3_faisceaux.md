@@ -53,7 +53,7 @@ subsections:
       pdf_page: 82
 statements: 35
 exercises: 8
-content_sha256: 5308905cc195611595fb321bb07ce6a26de8cd04bc295ff38679d8b5ac11956a
+content_sha256: 2a2b4e862e0b46c186780988a45a46e15762355de71591c7cad0e6b27bacb572
 ---
 
 ## § 3. FAISCEAUX
@@ -68,9 +68,9 @@ Un préfaisceau sur B, relatif à une base $\mathscr{B}$ de la topologie de B, e
 
 Autrement dit (E, III, p. 52), un préfaisceau $\mathscr{F}$ sur B relatif à $\mathscr{B}$ est un couple $((\mathscr{F}(U))_{U\in\mathscr{B}},(f_{UV}))$, que l’on note aussi $(\mathscr{F}(U), f_{UV})$, où $((\mathscr{F}(U))_{U\in\mathscr{B}}$ est une famille d’ensembles ayant $\mathscr{B}$ pour ensemble d’indices et où pour chaque couple $(U,V)$ d’éléments de $\mathscr{B}$ tel que $U\subset V,f_{UV}$ est une application de $\mathscr{F}(V)$ dans $\mathscr{F}(U)$, ces applications vérifiant les conditions suivantes :
 
-(PF$_1)$ Les relations $U\subset V\subset W$ entraînent $f_{UW}=f_{UV}\circ f_{VW}$;
+(PF$_1$) Les relations $U\subset V\subset W$ entraînent $f_{UW}=f_{UV}\circ f_{VW}$;
 
-(PF$_2)$ Pour tout ouvert U $\in \mathscr{B},f_{UU}$ est l’application identique de
+(PF$_2$) Pour tout ouvert U $\in \mathscr{B},f_{UU}$ est l’application identique de
 
 $$
 \mathscr{F}(U)
@@ -178,17 +178,17 @@ Soient B un espace topologique, $\mathscr{B}$ une base de la topologie de B$,\ma
 
 Autrement dit (E, III, p. 54), un morphisme de préfaisceaux de $\mathscr{F}$ dans $\mathscr{G}$ est une famille $(\varphi_U)_{U\in\mathscr{B}}$ telle que :
 
-(MPF$_1)$ Pour tout ouvert U appartenant à $\mathscr{B},\varphi_U$ est une application
+(MPF$_1$) Pour tout ouvert U appartenant à $\mathscr{B},\varphi_U$ est une application
 
 de $\mathscr{F}(U)$ dans $\mathscr{G}(U)$ ;
 
-(MPF$_2)$ Pour tout couple $(U,V)$ d’ouverts appartenant à $\mathscr{B}$ tels que
+(MPF$_2$) Pour tout couple $(U,V)$ d’ouverts appartenant à $\mathscr{B}$ tels que
 
 $U\subset V$, on a $\varphi_U\circ f_{UV}=g_{UV}\circ \varphi_V$.
 
 Lorsque $\mathscr{F}$ et $\mathscr{G}$ sont des faisceaux, un morphisme de préfaisceaux de $\mathscr{F}$ dans $\mathscr{G}$ est aussi appelé un morphisme de faisceaux. Si $\mathscr{F}$ et $\mathscr{G}$ sont des préfaisceaux sur B relatifs à $\mathscr{B}$, les morphismes de préfaisceaux de $\mathscr{F}$ dans $\mathscr{G}$ constituent un ensemble noté Mor($\mathscr{F};\mathscr{G}$). Au lieu de dire : « soit $\varphi$ un morphisme de préfaisceaux de $\mathscr{F}$ dans $\mathscr{G}$ », on dira souvent « soit $\varphi :\mathscr{F}\rightarrow \mathscr{G}$ un morphisme de préfaisceaux ».
 
-Soient $\mathscr{F},\mathscr{G},\mathscr{H}$ des préfaisceaux sur B relatifs à $\mathscr{B}$ et $\varphi :\mathscr{F}\rightarrow \mathscr{G}$, $\psi :\mathscr{G}\rightarrow \mathscr{H}$ des morphismes de préfaisceaux. La famille $(\psi_U\circ \varphi_U)_{U\in\mathscr{B}}$ est un morphisme de préfaisceaux de $\mathscr{F}$ dans $\mathscr{H}$ que l’on note $\psi \circ \varphi$. La famille (Id$_{\mathscr{F}(U)})_{U\in\mathscr{B}}$ est un morphisme de préfaisceaux de $\mathscr{F}$ dans lui-même que l’on note Id$_{\mathscr{F}}$.
+Soient $\mathscr{F},\mathscr{G},\mathscr{H}$ des préfaisceaux sur B relatifs à $\mathscr{B}$ et $\varphi :\mathscr{F}\rightarrow \mathscr{G}$, $\psi :\mathscr{G}\rightarrow \mathscr{H}$ des morphismes de préfaisceaux. La famille $(\psi_U\circ \varphi_U)_{U\in\mathscr{B}}$ est un morphisme de préfaisceaux de $\mathscr{F}$ dans $\mathscr{H}$ que l’on note $\psi \circ \varphi$. La famille (Id$_{\mathscr{F}(U)}$)$_{U\in\mathscr{B}}$ est un morphisme de préfaisceaux de $\mathscr{F}$ dans lui-même que l’on note Id$_{\mathscr{F}}$.
 
 Pour qu’un morphisme de préfaisceaux $\varphi = (\varphi_U):\mathscr{F}\rightarrow \mathscr{G}$ soit un isomorphisme, il faut et il suffit que, pour tout ouvert U de $\mathscr{B},\varphi_U$ soit une bijection de $\mathscr{F}(U)$ sur $\mathscr{G}(U)$. Il est équivalent de dire qu’il existe un morphisme de préfaisceaux $\psi :\mathscr{G}\rightarrow \mathscr{F}$ tel que $\psi \circ \varphi =$ Id$_{\mathscr{F}}$ et $\varphi \circ \psi =$ Id$_{\mathscr{G}}$.
 
@@ -204,7 +204,7 @@ Soient B un espace topologique, $\mathscr{B}$ une base de la topologie de B, $\m
 
 #### Exemple 3 {#ta-i-s3-n4-exa-3 .statement tag=01NY}
 
-Soient B un espace topologique, $\mathscr{B}$ une base de la topologie de B et I un ensemble. Pour tout $i\in I$, soit $\mathscr{F}_i= (\mathscr{F}_i(U), f_{i,UV})$ un préfaisceau sur B relatif à $\mathscr{B}$. Notons $\mathscr{F}$ le préfaisceau produit de la famille $(\mathscr{F}_i)_{i\in I}$. Pour tout ouvert $U\in \mathscr{B}$, on a $\mathscr{F}(U) =\prod_{i\in I}\mathscr{F}_i(U)$; pour tout $i\in I$, notons pr$_{i,U}:\mathscr{F}(U)\rightarrow \mathscr{F}_i(U)$ la projection d’indice $i$. Il résulte immédiatement de la définition du préfaisceau $\mathscr{F}$ que la famille pr$_i$ = (pr$_{i,U})_{U\in\mathscr{B}}$ est un morphisme de préfaisceaux de $\mathscr{F}$ dans $\mathscr{F}_i$. Le morphisme pr$_i$ est appelé le morphisme de projection d’indice $i$. Pour tout préfaisceau $\mathscr{F}'$ sur B relatif à $\mathscr{B}$ et toute famille $(\psi_i)_{i\in I}$, où $\psi_i$ est un morphisme de préfaisceaux de $\mathscr{F}'$ dans $\mathscr{F}_i$, il existe un unique morphisme de préfaisceaux $\psi :\mathscr{F}'\rightarrow \mathscr{F}$ tel que pour tout $i\in I$, pr$_i\circ \psi =\psi_i$.
+Soient B un espace topologique, $\mathscr{B}$ une base de la topologie de B et I un ensemble. Pour tout $i\in I$, soit $\mathscr{F}_i= (\mathscr{F}_i(U), f_{i,UV})$ un préfaisceau sur B relatif à $\mathscr{B}$. Notons $\mathscr{F}$ le préfaisceau produit de la famille $(\mathscr{F}_i)_{i\in I}$. Pour tout ouvert $U\in \mathscr{B}$, on a $\mathscr{F}(U) =\prod_{i\in I}\mathscr{F}_i(U)$; pour tout $i\in I$, notons pr$_{i,U}:\mathscr{F}(U)\rightarrow \mathscr{F}_i(U)$ la projection d’indice $i$. Il résulte immédiatement de la définition du préfaisceau $\mathscr{F}$ que la famille pr$_i$ = (pr$_{i,U}$)$_{U\in\mathscr{B}}$ est un morphisme de préfaisceaux de $\mathscr{F}$ dans $\mathscr{F}_i$. Le morphisme pr$_i$ est appelé le morphisme de projection d’indice $i$. Pour tout préfaisceau $\mathscr{F}'$ sur B relatif à $\mathscr{B}$ et toute famille $(\psi_i)_{i\in I}$, où $\psi_i$ est un morphisme de préfaisceaux de $\mathscr{F}'$ dans $\mathscr{F}_i$, il existe un unique morphisme de préfaisceaux $\psi :\mathscr{F}'\rightarrow \mathscr{F}$ tel que pour tout $i\in I$, pr$_i\circ \psi =\psi_i$.
 
 #### Exemple 4 {#ta-i-s3-n4-exa-4 .statement tag=01NZ}
 
@@ -244,7 +244,7 @@ $$
 
 par suite, l’application $E(\varphi )$ est continue. L’application $E(\varphi )$ est un B-morphisme ; on dit que c’est le B-morphisme de $E_{\mathscr{F}}$ dans $E_{\mathscr{G}}$ associé au morphisme de préfaisceaux $\varphi$. Pour tout $a\in B$, $E(\varphi )$ définit par restrictions aux fibres en $a$ une application de la tige $\mathscr{F}_a$ de $\mathscr{F}$ dans la tige $\mathscr{G}_a$ de $\mathscr{G}$; on la note $\varphi_a$. C’est aussi la limite inductive des applications $\varphi_U$ (E, III, p. 63), où U parcourt l’ensemble $\mathscr{B}(a)$ des ouverts appartenant à la base $\mathscr{B}$ et qui contiennent $a$.
 
-On a E(Id$_{\mathscr{F}}) =$ Id$_{E_{\mathscr{F}}}$.
+On a E(Id$_{\mathscr{F}}$) $=$ Id$_{E_{\mathscr{F}}}$.
 
 Soit $\mathscr{H}$ un préfaisceau sur B relatif à $\mathscr{B}$ et soit $\psi = (\psi_U)$ un morphisme de préfaisceaux de $\mathscr{G}$ dans $\mathscr{H}$. Pour $[U, s, x]\in E_{\mathscr{F}}$, on a
 
@@ -418,11 +418,11 @@ Soit B un espace topologique. À tout faisceau $\mathscr{F}$ sur B, on associe u
 
 Pour tout couple $(\mathscr{F},\mathscr{G})$ de faisceaux sur B, on a défini (I, p. 50) une application $\varphi \mapsto E(\varphi )$ de l’ensemble des morphismes de faisceaux de $\mathscr{F}$ dans $\mathscr{G}$ dans l’ensemble des B-morphismes de $E_{\mathscr{F}}$ dans $E_{\mathscr{G}}$. On a les relations
 
-E(Id$_{\mathscr{F}}) =$ Id$_{E_{\mathscr{F}}},E(\psi \circ \varphi ) = E(\psi )\circ E(\varphi )$.
+E(Id$_{\mathscr{F}}$) $=$ Id$_{E_{\mathscr{F}}},E(\psi \circ \varphi ) = E(\psi )\circ E(\varphi )$.
 
 Pour tout couple $(T,U)$ de B-espaces étalés, on a défini (I, p. 48, exemple 1) une application $f\mapsto \mathscr{S}(f)$ de l’ensemble des B-morphismes de T dans U dans l’ensemble des morphismes de faisceaux de $\mathscr{S}(T)$ dans $\mathscr{S}(U)$. On a les relations
 
-$\mathscr{S}$ (Id$_T) =$ Id$_{\mathscr{S}(T)},\mathscr{S}(g\circ f) =\mathscr{S}(g)\circ \mathscr{S}(f)$.
+$\mathscr{S}$ (Id$_T$) $=$ Id$_{\mathscr{S}(T)},\mathscr{S}(g\circ f) =\mathscr{S}(g)\circ \mathscr{S}(f)$.
 
 Avec les notations précédentes, les diagrammes suivants sont commutatifs :
 

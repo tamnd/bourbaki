@@ -61,7 +61,7 @@ subsections:
       pdf_page: 194
 statements: 40
 exercises: 12
-content_sha256: ad91aeb2e2d1c4e9a2c180504a87816a6c5d30e7d73a906ceb6891dfe2149229
+content_sha256: 2be663e4fa5a1975e93b6923e713d80ef48c42134455ee9a9d72b45e4888dd98
 ---
 
 ## § 3. GROUPOÏDES
@@ -92,17 +92,17 @@ Une catégorie est un carquois muni d’une loi de composition associative pour 
 
 #### Exemple 1 {#ta-ii-s3-n1-exa-1 .statement tag=01T1}
 
-Soit C un carquois. Notons Ch(C) l’ensemble des chemins dans C et $o:$ Ch(C) $\rightarrow$ Som(C)$,t:$ Ch(C) $\rightarrow$ Som(C) les applications qui, à un chemin, associent son origine et son terme. Le quadruplet $\Omega_C=$ (Som(C), Ch(C)$, o, t)$ est un carquois. Munissons-le de la loi de composition définie par la juxtaposition des chemins. Cette loi de composition est associative ; pour tout sommet $a$ de C, le lacet constant $e_a= (a)$ d’origine $a$ est un élément neutre en $a$. Ainsi, $\Omega_C$ est une catégorie. On dit que c’est la catégorie des chemins du carquois C.
+Soit C un carquois. Notons Ch(C) l’ensemble des chemins dans C et $o:$ Ch(C) $\rightarrow$ Som(C)$,t:$ Ch(C) $\rightarrow$ Som(C) les applications qui, à un chemin, associent son origine et son terme. Le quadruplet $\Omega_C=$ (Som(C), Ch(C)$, o, t$) est un carquois. Munissons-le de la loi de composition définie par la juxtaposition des chemins. Cette loi de composition est associative ; pour tout sommet $a$ de C, le lacet constant $e_a= (a)$ d’origine $a$ est un élément neutre en $a$. Ainsi, $\Omega_C$ est une catégorie. On dit que c’est la catégorie des chemins du carquois C.
 
 #### Exemple 2 {#ta-ii-s3-n1-exa-2 .statement tag=01T2}
 
-Soit Σ une espèce de structure dans une théorie $\mathscr{T}$ plus forte que la théorie des ensembles et soit $\sigma (x, y, s, u)$ un terme de $\mathscr{T}$ vérifiant les conditions (MO$_I)$, (MO$_{II})$ et (MO$_{III})$ de E, IV, p. 11. Soit S un ensemble ; on suppose que tout élément de S est un couple $(x, s)$, où $x$ est un ensemble et $s$ une structure d’espèce Σ sur $x$. Soit F l’ensemble des applications $f$ telles qu’il existe $(x, s)$ et $(y, t)$ dans S de sorte que $f$ soit un $\sigma$-morphisme de $x$, muni de la structure $s$, dans $y$, muni de la structure $t$; on pose alors $o(f) = (x, s)$ et $t(f) = (y, t)$. Muni de la loi de composition donnée par $m(f, g) =g\circ f$, le carquois $(S,F, o, t)$ est une catégorie. Dans ce contexte, les éléments de S sont plutôt appelés objets.
+Soit Σ une espèce de structure dans une théorie $\mathscr{T}$ plus forte que la théorie des ensembles et soit $\sigma (x, y, s, u)$ un terme de $\mathscr{T}$ vérifiant les conditions (MO$_I$), (MO$_{II}$) et (MO$_{III}$) de E, IV, p. 11. Soit S un ensemble ; on suppose que tout élément de S est un couple $(x, s)$, où $x$ est un ensemble et $s$ une structure d’espèce Σ sur $x$. Soit F l’ensemble des applications $f$ telles qu’il existe $(x, s)$ et $(y, t)$ dans S de sorte que $f$ soit un $\sigma$-morphisme de $x$, muni de la structure $s$, dans $y$, muni de la structure $t$; on pose alors $o(f) = (x, s)$ et $t(f) = (y, t)$. Muni de la loi de composition donnée par $m(f, g) =g\circ f$, le carquois $(S,F, o, t)$ est une catégorie. Dans ce contexte, les éléments de S sont plutôt appelés objets.
 
 Soit C une catégorie.
 
 Pour tout sommet $a$ de C, l’ensemble $C_{a,a}$, muni de la loi de composition $(f, g)\mapsto f g$, est un monoïde d’élément neutre $e_a$.
 
-On dit qu’une flèche $f$ de C est inversible s’il existe une flèche $g$ de C telle que $o(g) =t(f),t(g) =o(f)$ et telle que $f g$ et $gf$ soient des éléments neutres en $o(f)$ et $t(f)$ respectivement. Une telle flèche $g$ est unique (si $f g=e_{o(f)}$ et $g'f=e_{t(f)}$, on a $g=e_{t(f)}g= (g'f)g=$ $g'(f g) =g'e_{o(f)}=g')$ et est appelée inverse de $f$; l’inverse d’une flèche inversible $f$ est notée $f^{-1}$.
+On dit qu’une flèche $f$ de C est inversible s’il existe une flèche $g$ de C telle que $o(g) =t(f),t(g) =o(f)$ et telle que $f g$ et $gf$ soient des éléments neutres en $o(f)$ et $t(f)$ respectivement. Une telle flèche $g$ est unique (si $f g=e_{o(f)}$ et $g'f=e_{t(f)}$, on a $g=e_{t(f)}g= (g'f)g=$ $g'(f g) =g'e_{o(f)}=g'$) et est appelée inverse de $f$; l’inverse d’une flèche inversible $f$ est notée $f^{-1}$.
 
 ### 2. Foncteurs
 
@@ -134,7 +134,7 @@ Un morphisme de groupoïdes $\varphi : G\rightarrow G'$ est un morphisme de cat�
 
 Soit $\varphi : G\rightarrow G'$ un morphisme de groupoïdes. Pour tout sommet $a$ de G, l’application $f\mapsto \varphi (f)$ de $G_a$ dans $(G')_{\varphi(a)}$ est un homomorphisme de groupes que l’on note $\varphi_a$. On a en particulier $\varphi (e_a) =e_{\varphi(a)}$.
 
-Pour toute flèche $f$ de G$,\varphi (f^{-1})$ est l’inverse de $\varphi (f)$. Si $f$ est une flèche de G reliant un sommet $a$ à un sommet $b$, on a ainsi, pour tout élément $g\in G_b$, la relation Int($\varphi (f)$)$(\varphi (g)) =\varphi$(Int($f$)$(g))$.
+Pour toute flèche $f$ de G$,\varphi (f^{-1})$ est l’inverse de $\varphi (f)$. Si $f$ est une flèche de G reliant un sommet $a$ à un sommet $b$, on a ainsi, pour tout élément $g\in G_b$, la relation Int($\varphi (f)$)$(\varphi (g)) =\varphi$(Int($f$)$(g)$).
 
 ### 4. Orbites d’un groupoïde
 
@@ -160,7 +160,7 @@ Soient $a,b,c$ des sommets de G. On a $e_a\in G_{a,a}$; si $f\in G_{a,b}$, $f^{-
 
 Le carquois G, muni de cette loi de composition, est appelé le groupoïde produit de la famille $(G_i)_{i\in I}$. Il vérifie la propriété universelle suivante : pour tout groupoïde $G'$ et toute famille $(\varphi_i)_{i\in I}$, où $\varphi_i$ est un morphisme de groupoïdes de $G'$ dans $G_i$, il existe un unique morphisme de groupoïdes $\varphi : G'\rightarrow G$ tel que $\varphi_i=$ pr$_i\circ \varphi$ pour tout $i\in I$.
 
-5) Soit $((G_i)_{i\in I},(\varphi_{i,j})_{i\prec j})$ un système inductif de groupoïdes, indexé par un ensemble préordonné filtrant à droite $(I,\prec )$, les $\varphi_{i,j}$ étant des morphismes de groupoïdes. Soit G le carquois dont l’ensemble des sommets est lim$\longrightarrow_i$ Som(G$_i)$, l’ensemble des flèches est lim$\longrightarrow_i$ Fl(G$_i)$, les applications origine et terme étant les applications lim$\longrightarrow_io_{G_i}$ et lim$\longrightarrow_it_{G_i}$ respectivement. Les lois de composition des $G_i$ induisent une loi de composition dans G qui en fait un groupoïde (cf. A, I, p. 114). Les applications canoniques Som(G$_i)\rightarrow$ Som(G) et Fl(G$_i)\rightarrow$ Fl(G) définissent un morphisme de groupoïdes $\varphi_i$ de $G_i$ dans G. Si $i,j$ sont des éléments de I tels que $i\prec j$, on a $\varphi_j\circ \varphi_{i,j}=\varphi_i$. Le groupoïde G est appelé la limite inductive de la famille des groupoïdes $G_i$ et est noté lim$\longrightarrow_iG_i$. Il vérifie la propriété universelle suivante : pour tout groupoïde H et toute famille $(\psi_i)_{i\in I}$, où, pour $i\in I,\psi_i: G_i\rightarrow H$ est un morphisme de groupoïdes, telle que $\psi_j\circ \varphi_{i,j}=\psi_i$ pour tout couple $(i, j)$ d’éléments de I tels que $i\prec j$, il existe un unique morphisme de groupoïdes $\psi : G\rightarrow H$ tel que $\psi_i=\psi \circ \varphi_i$.
+5) Soit $((G_i)_{i\in I},(\varphi_{i,j})_{i\prec j})$ un système inductif de groupoïdes, indexé par un ensemble préordonné filtrant à droite $(I,\prec )$, les $\varphi_{i,j}$ étant des morphismes de groupoïdes. Soit G le carquois dont l’ensemble des sommets est lim$\longrightarrow_i$ Som(G$_i$), l’ensemble des flèches est lim$\longrightarrow_i$ Fl(G$_i$), les applications origine et terme étant les applications lim$\longrightarrow_io_{G_i}$ et lim$\longrightarrow_it_{G_i}$ respectivement. Les lois de composition des $G_i$ induisent une loi de composition dans G qui en fait un groupoïde (cf. A, I, p. 114). Les applications canoniques Som(G$_i$)$\rightarrow$ Som(G) et Fl(G$_i$)$\rightarrow$ Fl(G) définissent un morphisme de groupoïdes $\varphi_i$ de $G_i$ dans G. Si $i,j$ sont des éléments de I tels que $i\prec j$, on a $\varphi_j\circ \varphi_{i,j}=\varphi_i$. Le groupoïde G est appelé la limite inductive de la famille des groupoïdes $G_i$ et est noté lim$\longrightarrow_iG_i$. Il vérifie la propriété universelle suivante : pour tout groupoïde H et toute famille $(\psi_i)_{i\in I}$, où, pour $i\in I,\psi_i: G_i\rightarrow H$ est un morphisme de groupoïdes, telle que $\psi_j\circ \varphi_{i,j}=\psi_i$ pour tout couple $(i, j)$ d’éléments de I tels que $i\prec j$, il existe un unique morphisme de groupoïdes $\psi : G\rightarrow H$ tel que $\psi_i=\psi \circ \varphi_i$.
 
 Pour l’existence d’un groupoïde vérifiant cette propriété universelle lorsque l’on ne suppose pas que l’ensemble I est filtrant à droite, cf. II, p. 228, exerc. 3.
 
@@ -204,11 +204,11 @@ Soient X un ensemble et Γ un groupe. Notons $X\times \Gamma \times X$ le carquo
 
 Soit $m: X\times \Gamma \rightarrow X$ une opération (à droite) du groupe Γ sur X. Le graphe F de l’application $m$, c’est-à-dire l’ensemble des triplets $(x, \gamma , x')\in X\times \Gamma \times X$ tels que $x'=x\gamma$, est l’ensemble des flèches d’un unique sous-groupoïde G de $X\times \Gamma \times X$. Les orbites de ce groupoïde sont les orbites de Γ dans X ; si $x\in X$, le groupe d’isotropie de G en $x$ est l’ensemble des $(x, \gamma , x)$, où $\gamma$ décrit le fixateur de $x$ dans Γ.
 
-Inversement, tout sous-groupoïde G du groupoïde $X\times \Gamma \times X$ tel que l’application (pr$_1$, pr$_2)$ de Fl(G) dans $X\times \Gamma$ soit une bijection est de cette forme.
+Inversement, tout sous-groupoïde G du groupoïde $X\times \Gamma \times X$ tel que l’application (pr$_1$, pr$_2$) de Fl(G) dans $X\times \Gamma$ soit une bijection est de cette forme.
 
 #### Exemple 4 {#ta-ii-s3-n6-exa-4 .statement tag=01TB}
 
-Soit G un groupoïde, soit X un ensemble et soit $\varphi : X\rightarrow$ Som(G) une application. Définissons un carquois $G'$ de la façon suivante. L’ensemble Som(G$')$ est l’ensemble X ; pour tout couple $(x, y)$ d’éléments de X, l’ensemble Fl$_{x,y}(G')$ est l’ensemble des triplets $(x, f, y)\in X\times$ Fl(G) $\times X$, où $f$ est un élément de Fl$_{\varphi(x),\varphi(y)}(G)$. Soient $x,y,z$ des éléments de X$,f\in$ Fl$_{\varphi(x),\varphi(y)}(G)$ et $g\in$ Fl$_{\varphi(y),\varphi(z)}(G)$ des flèches de G, on pose $(x, f, y)\cdot (y, g, z) = (x, f g, z)$. Cela définit une loi de composition dans le carquois $G'$ qui en fait un groupoïde. On l’appelle groupoïde image réciproque du groupoïde G par l’application $\varphi$ et on le note $\varphi^*(G)$.
+Soit G un groupoïde, soit X un ensemble et soit $\varphi : X\rightarrow$ Som(G) une application. Définissons un carquois $G'$ de la façon suivante. L’ensemble Som(G$'$) est l’ensemble X ; pour tout couple $(x, y)$ d’éléments de X, l’ensemble Fl$_{x,y}(G')$ est l’ensemble des triplets $(x, f, y)\in X\times$ Fl(G) $\times X$, où $f$ est un élément de Fl$_{\varphi(x),\varphi(y)}(G)$. Soient $x,y,z$ des éléments de X$,f\in$ Fl$_{\varphi(x),\varphi(y)}(G)$ et $g\in$ Fl$_{\varphi(y),\varphi(z)}(G)$ des flèches de G, on pose $(x, f, y)\cdot (y, g, z) = (x, f g, z)$. Cela définit une loi de composition dans le carquois $G'$ qui en fait un groupoïde. On l’appelle groupoïde image réciproque du groupoïde G par l’application $\varphi$ et on le note $\varphi^*(G)$.
 
 Le couple $(\varphi , \psi )$, où $\psi :$ Fl($\varphi^*(G)$)$\rightarrow$ Fl(G) est l’application définie par $(x, f, y)\mapsto f$ est un morphisme de groupoïdes de $\varphi^*(G)$ dans G, appelé morphisme canonique.
 
@@ -264,7 +264,7 @@ Soit $\varphi : G\rightarrow G'$ un morphisme de groupoïdes. Le noyau de $\varp
 
 Soit G un groupoïde. Le groupoïde G et le sous-groupoïde de G dont l’ensemble des flèches est l’ensemble des éléments neutres de G sont des sous-groupoïdes distingués de G. L’intersection d’une famille de sous-groupoïdes distingués de G est un sous-groupoïde distingué de G. En particulier, pour toute partie $F\subset$ Fl(G), il existe un plus petit sous-groupoïde distingué de G dont l’ensemble des flèches contient F. On l’appelle le sous-groupoïde distingué engendré par F.
 
-Soit H un sous-groupoïde distingué de G. Soit $\mathscr{R}$ la relation d’équivalence dans Fl(G) définie par $\mathscr{R}\{f, g\}$ si et seulement s’il existe des flèches $x$ et $y$ dans Fl(H) telles que $f=xgy$. Si $f$ et $g$ sont des flèches de G équivalentes modulo $\mathscr{R}$, leurs origines (resp. leurs termes) appartiennent à la même orbite de H. Posons $F'=$ Fl(G)$/\mathscr{R}$ et notons $o'$ et $t'$ les applications de $F'$ dans Orb(H) déduites de $o$ et $t$ par passage aux quotients. Notons $G/H$ le carquois (Orb(H)$,F', o', t')$.
+Soit H un sous-groupoïde distingué de G. Soit $\mathscr{R}$ la relation d’équivalence dans Fl(G) définie par $\mathscr{R}\{f, g\}$ si et seulement s’il existe des flèches $x$ et $y$ dans Fl(H) telles que $f=xgy$. Si $f$ et $g$ sont des flèches de G équivalentes modulo $\mathscr{R}$, leurs origines (resp. leurs termes) appartiennent à la même orbite de H. Posons $F'=$ Fl(G)$/\mathscr{R}$ et notons $o'$ et $t'$ les applications de $F'$ dans Orb(H) déduites de $o$ et $t$ par passage aux quotients. Notons $G/H$ le carquois (Orb(H)$,F', o', t'$).
 
 #### Lemme {#ta-ii-s3-n8-lem-1 .statement tag=01TH}
 
@@ -274,7 +274,7 @@ Soient $f$ et $g$ des représentants arbitraires de $u$ et $v$ dans Fl(G). Le te
 
 Soient maintenant $f,g$ d’une part, et $f',g'$ d’autre part, des représentants de $u$ et $v$ qui sont composables dans G. Par hypothèse, il existe des flèches $x,y,z,t$ dans H telles que l’on ait $f'=xf y$ et $g'=zgt$. On a alors $yz\in H_{t(f)}$ et $f'g'=xf yzgt=xf(yz)f^{-1}f gt$. Comme H est un sous-groupoïde distingué de G, la flèche $f(yz)f^{-1}$ est une flèche de H. Il en est donc de même de la flèche $xf(yz)f^{-1}$, ce qui démontre que $f'g'$ et $f g$ sont équivalentes modulo $\mathscr{R}$.
 
-En vertu de ce lemme, il existe une unique loi de composition $m$ dans le carquois $G/H$ telle que, pour tout couple $(u, v)$ de flèches composables, $m(u, v)$ soit la classe modulo $\mathscr{R}$ du produit $f g$, pour tout couple $(f, g)$ de flèches composables de G tel que $u$ soit la classe de $f$ et $v$ celle de $g$. Muni de cette loi de composition, $G/H$ est un groupoïde. Soient $p_1:$ Som(G) $\rightarrow$ Som(G$/H)$ et $p_2:$ Fl(G) $\rightarrow$ Fl(G$/H)$ les surjections canoniques. Le couple $p= (p_1, p_2)$, est un morphisme de groupoïdes de G dans $G/H$ dont le noyau est le sous-groupoïde distingué H.
+En vertu de ce lemme, il existe une unique loi de composition $m$ dans le carquois $G/H$ telle que, pour tout couple $(u, v)$ de flèches composables, $m(u, v)$ soit la classe modulo $\mathscr{R}$ du produit $f g$, pour tout couple $(f, g)$ de flèches composables de G tel que $u$ soit la classe de $f$ et $v$ celle de $g$. Muni de cette loi de composition, $G/H$ est un groupoïde. Soient $p_1:$ Som(G) $\rightarrow$ Som(G$/H$) et $p_2:$ Fl(G) $\rightarrow$ Fl(G$/H$) les surjections canoniques. Le couple $p= (p_1, p_2)$, est un morphisme de groupoïdes de G dans $G/H$ dont le noyau est le sous-groupoïde distingué H.
 
 #### Définition 8 {#ta-ii-s3-def-8 .statement tag=01TI}
 
@@ -302,9 +302,9 @@ On dit que $\overline{\varphi}$ est le morphisme de groupoïdes déduit de $\var
 
 L’unicité d’un tel morphisme est évidente, car les applications Som($p$) et Fl($p$) sont surjectives.
 
-Soient $a$ et $b$ des sommets de G. S’ils sont dans la même orbite de H, il existe une flèche $f$ reliant $a$ à $b$ dans H et l’on a $\varphi (f) =e_{\varphi(a)}$. En particulier, $\varphi (a) =\varphi (b)$. Par suite, l’application Som($\varphi$ ) définit, par passage au quotient, une application $\overline{\varphi}_1:$ Orb(H) $\rightarrow$ Som(G$')$. Soient $f$ et $g$ des flèches dans G. Si $f$ et $g$ sont équivalentes modulo $\mathscr{R}$, il existe des flèches $x$ et $y$ dans H telles que $f$ = $xgy$. Par suite, $\varphi (f) =\varphi (x)\varphi (g)\varphi (y) =\varphi (g)$ puisque $\varphi (x)$ et $\varphi (y)$ sont des éléments neutres. L’application Fl($\varphi$ ) définit donc, par passage au quotient, une application $\overline{\varphi}_2:$ Fl(G)$/\mathscr{R}\rightarrow$ Fl(G$')$.
+Soient $a$ et $b$ des sommets de G. S’ils sont dans la même orbite de H, il existe une flèche $f$ reliant $a$ à $b$ dans H et l’on a $\varphi (f) =e_{\varphi(a)}$. En particulier, $\varphi (a) =\varphi (b)$. Par suite, l’application Som($\varphi$ ) définit, par passage au quotient, une application $\overline{\varphi}_1:$ Orb(H) $\rightarrow$ Som(G$'$). Soient $f$ et $g$ des flèches dans G. Si $f$ et $g$ sont équivalentes modulo $\mathscr{R}$, il existe des flèches $x$ et $y$ dans H telles que $f$ = $xgy$. Par suite, $\varphi (f) =\varphi (x)\varphi (g)\varphi (y) =\varphi (g)$ puisque $\varphi (x)$ et $\varphi (y)$ sont des éléments neutres. L’application Fl($\varphi$ ) définit donc, par passage au quotient, une application $\overline{\varphi}_2:$ Fl(G)$/\mathscr{R}\rightarrow$ Fl(G$'$).
 
-Soient $f$ et $g$ des flèches de G qui sont composables ; notons $u$ et $v$ leurs classes dans Fl(G$/H)$. On a $\overline{\varphi}_2(uv) =\varphi (f g) =\varphi (f)\varphi (g) =$ $\overline{\varphi}_2(u)\overline{\varphi}_2(v)$.
+Soient $f$ et $g$ des flèches de G qui sont composables ; notons $u$ et $v$ leurs classes dans Fl(G$/H$). On a $\overline{\varphi}_2(uv) =\varphi (f g) =\varphi (f)\varphi (g) =$ $\overline{\varphi}_2(u)\overline{\varphi}_2(v)$.
 
 Le couple $\overline{\varphi}= (\overline{\varphi}_1, \varphi_2)$ est un morphisme de groupoïdes de $G/H$ dans $G'$ et l’on a $\overline{\varphi}\circ p=\varphi$.
 
@@ -316,7 +316,7 @@ Soit G un graphe. Notons $\Omega_G$ la catégorie des chemins du carquois sous-j
 
 (ii) Si $(c, d)$ et $(c', d')$ sont des couples de chemins juxtaposables dans G tels que $\mathscr{R}\{c, c'\}$ et $\mathscr{R}\{d, d'\}$, les chemins $c*d$ et $c'*d'$ sont équivalents modulo $\mathscr{R}$.
 
-Deux chemins équivalents modulo $\mathscr{R}$ ont même origine et même terme. Les applications $o$ et $t$ de Ch(G) dans Som(G) définissent, par passage au quotient, des applications $o'$ et $t'$ de Ch(G)$/\mathscr{R}$ dans Som(G). Notons $\varpi_G$ le carquois (Som(G), Ch(G)$/\mathscr{R}, o', t')$. Le couple $\varphi$ formé de l’identité de Som(G) et de la projection canonique de Ch(G) sur Ch(G)$/\mathscr{R}$ est un morphisme de carquois de $\Omega_G$ dans $\varpi_G$. La juxtaposition des chemins dans Ch(G) définit, par passage aux quotients, une loi de composition dans $\varpi_G$.
+Deux chemins équivalents modulo $\mathscr{R}$ ont même origine et même terme. Les applications $o$ et $t$ de Ch(G) dans Som(G) définissent, par passage au quotient, des applications $o'$ et $t'$ de Ch(G)$/\mathscr{R}$ dans Som(G). Notons $\varpi_G$ le carquois (Som(G), Ch(G)$/\mathscr{R}, o', t'$). Le couple $\varphi$ formé de l’identité de Som(G) et de la projection canonique de Ch(G) sur Ch(G)$/\mathscr{R}$ est un morphisme de carquois de $\Omega_G$ dans $\varpi_G$. La juxtaposition des chemins dans Ch(G) définit, par passage aux quotients, une loi de composition dans $\varpi_G$.
 
 #### Proposition 4 {#ta-ii-s3-prop-4 .statement tag=01TN}
 
@@ -338,7 +338,7 @@ En appliquant cette égalité au chemin $\overline{c}$, on voit que $\varphi (\o
 
 Les classes d’équivalence de la relation $\mathscr{R}$ s’appellent les classes de chemins dans le graphe G ; le groupoïde $\varpi_G$ s’appelle le groupoïde des classes de chemins du graphe G. Il a même ensemble de sommets que G et ses orbites sont les composantes connexes du graphe G.
 
-Notons $v$ l’application qui, à une flèche $f$ de G, associe la classe du chemin $(o(f), f, t(f))$ de G. Le couple $j$ = (Id$_{Som(G)}, v)$ est un morphisme, dit canonique, de carquois de G dans $\varpi_G$. Son image engendre $\varpi_G$; pour toute flèche $f$ de G, on a $j(\overline{f}) =j(f)^{-1}$.
+Notons $v$ l’application qui, à une flèche $f$ de G, associe la classe du chemin $(o(f), f, t(f))$ de G. Le couple $j$ = (Id$_{Som(G)}, v$) est un morphisme, dit canonique, de carquois de G dans $\varpi_G$. Son image engendre $\varpi_G$; pour toute flèche $f$ de G, on a $j(\overline{f}) =j(f)^{-1}$.
 
 Soient G et $G'$ des graphes, soit $\varphi : G\rightarrow G'$ un morphisme de graphes. Notons $j: G\rightarrow \varpi_G$ et $j': G'\rightarrow \varpi_{G'}$ les morphismes canoniques. Si $c= (a_0, f_1, a_1, . . . , a_n)$ est un chemin dans G, la classe du chemin $\varphi (c) = (\varphi (a_0), \varphi (f_1), \varphi (a_1), . . . , \varphi (a_n))$ ne dépend que de la classe de $c$. On définit ainsi par passage aux classes d’équivalence un morphisme de carquois $\varpi (\varphi ):\varpi_G\rightarrow \varpi_{G'}$ tel que $\varpi (\varphi )\circ j=j'\circ \varphi$. C’est un morphisme de groupoïdes.
 
@@ -346,7 +346,7 @@ Soient G et $G'$ des graphes, soit $\varphi : G\rightarrow G'$ un morphisme de g
 
 Soit G un graphe ; notons $j$ le morphisme canonique de carquois de G dans $\varpi_G$. Soit $\varphi$ un morphisme de carquois de G dans un groupoïde $G'$ tel que $\varphi (\overline{f}) =\varphi (f)^{-1}$ pour toute flèche $f$ de G. Il existe alors un unique morphisme de groupoïdes $\varphi '$ de $\varpi_G$ dans $G'$ tel que $\varphi '\circ j=\varphi$.
 
-On définit une application $u:$ Ch(G) $\rightarrow$ Fl(G$')$ en posant, pour tout chemin $c= (a_0, f_1, a_1, . . . , f_n, a_n)$ dans G$,u(c) =e_{a_0}\varphi (f_1). . . \varphi (f_n)$. Pour tout couple $(c, c')$ de chemins juxtaposables dans G, on a $u(cc') =$ $u(c)u(c')$. L’application $u$ est compatible avec la relation d’équivalence $\mathscr{R}$ définie ci-dessus, d’où, par passage au quotient, une application $u':$ Ch(G)$/\mathscr{R}\rightarrow$ Fl(G$')$. Posons alors $\varphi '=$ (Som($\varphi$ )$, u')$. C’est un morphisme de groupoïdes de $\varpi_G$ dans $G'$ tel que $\varphi '\circ j=\varphi$.
+On définit une application $u:$ Ch(G) $\rightarrow$ Fl(G$'$) en posant, pour tout chemin $c= (a_0, f_1, a_1, . . . , f_n, a_n)$ dans G$,u(c) =e_{a_0}\varphi (f_1). . . \varphi (f_n)$. Pour tout couple $(c, c')$ de chemins juxtaposables dans G, on a $u(cc') =$ $u(c)u(c')$. L’application $u$ est compatible avec la relation d’équivalence $\mathscr{R}$ définie ci-dessus, d’où, par passage au quotient, une application $u':$ Ch(G)$/\mathscr{R}\rightarrow$ Fl(G$'$). Posons alors $\varphi '=$ (Som($\varphi$ )$, u'$). C’est un morphisme de groupoïdes de $\varpi_G$ dans $G'$ tel que $\varphi '\circ j=\varphi$.
 
 Soit $\psi$ un morphisme de groupoïdes de $\varpi_G$ dans $G'$ tel que $\psi \circ j=\varphi$. L’égalisateur de $\varphi '$ et $\psi$ est un sous-groupoïde de $\varpi_G$ qui contient $j(G)$. Il est donc égal à $\varpi_G$, car $\varpi_G$ est engendré par $j(G)$, et l’on a $\psi =\varphi '$.
 
@@ -398,7 +398,7 @@ Soit C un carquois non vide. D’après le corollaire 4, p. 174, le graphe $\wid
 
 Le composé des morphismes de carquois canoniques $i: C\rightarrow \widetilde{C}$ et $j:\widetilde{C}\rightarrow \varpi_C$ est un morphisme de carquois de C dans Grp(C) qu’on appelle l$\widetilde{e}$ morphisme canonique de C dans Grp(C). Notons-le $\theta$. Pour tout sommet $a$ de C, on a $\theta (a) =a$. Si $f$ est une flèche de C$,\theta (f)$ est la classe du chemin $(o(f),(f,1), t(f))$ de $\widetilde{C}$. Le morphisme $\theta$ est injectif (II, p. 174, cor. 2) et son image engendre le groupoïde Grp(C).
 
-Soit $\varphi : C\rightarrow C'$ un morphisme de carquois. Notons $\theta_C$ (resp. $\theta_{C'})$ le morphisme canonique de C dans Grp(C) (resp. de $C'$ dans Grp(C$')$). Le morphisme $\varpi (\widetilde{\varphi})$ est l’unique morphisme de groupoïdes $\psi$ de Grp(C) dans Grp(C$')$ tel que $\psi \circ \theta_C=\theta_{C'}\circ \varphi$.
+Soit $\varphi : C\rightarrow C'$ un morphisme de carquois. Notons $\theta_C$ (resp. $\theta_{C'}$) le morphisme canonique de C dans Grp(C) (resp. de $C'$ dans Grp(C$'$)). Le morphisme $\varpi (\widetilde{\varphi})$ est l’unique morphisme de groupoïdes $\psi$ de Grp(C) dans Grp(C$'$) tel que $\psi \circ \theta_C=\theta_{C'}\circ \varphi$.
 
 #### Proposition 6 {#ta-ii-s3-prop-6 .statement tag=01TU}
 
@@ -434,7 +434,7 @@ Le but de ce n$^o$ est de calculer les homomorphismes déduits de $p$ par passag
 
 Soit $\delta$ le morphisme canonique du groupoïde libre Grp(Γ) dans G qui prolonge le morphisme injectif canonique de Γ dans G. Soit $a$ un sommet de G et soit A l’orbite de $a$ dans G. Pour tout $b\in A$, soit $f_{ab}$ une flèche de G reliant $a$ à $b$. Le groupe d’isotropie $H_a$ est le sous-groupe distingué de $G_a$ engendré par les éléments Int($f_{ab}$)$(\delta (c))$, où $b$ parcourt l’ensemble A et $c$ parcourt les éléments de Grp(Γ)$_b$.
 
-Si $x$ et $y$ sont des sommets de G appartenant à la même orbite, avec $x=\not a$, fixons en outre une flèche $f_{xy}$ de G qui relie $x$ à $y$. Pour tout point $x$ de G, soit $N_x$ le sous-groupe distingué de $G_x$ engendré par les éléments Int($f_{xy}$)$(\delta (c))$, où $y$ parcourt l’orbite de $x$ dans G et $c$ parcourt le groupe Grp(Γ)$_y$. Pour tout $f\in G_{xy}$ et tout $g\in N_y$, on a $f gf^{-1}\in N_x$. Soit $x\in$ Som(G). On a $\delta$(Grp(Γ)$_x)\subset N_x$, par définition de $N_x$. Par définition du groupoïde H$,\delta (f)$ est une flèche de H pour toute flèche $f$ de Grp(Γ) ; par suite, $\delta$(Grp(Γ)$_x)$ est contenu dans $H_x$. Comme H est un sous-groupoïde distingué de G, on a alors
+Si $x$ et $y$ sont des sommets de G appartenant à la même orbite, avec $x=\not a$, fixons en outre une flèche $f_{xy}$ de G qui relie $x$ à $y$. Pour tout point $x$ de G, soit $N_x$ le sous-groupe distingué de $G_x$ engendré par les éléments Int($f_{xy}$)$(\delta (c))$, où $y$ parcourt l’orbite de $x$ dans G et $c$ parcourt le groupe Grp(Γ)$_y$. Pour tout $f\in G_{xy}$ et tout $g\in N_y$, on a $f gf^{-1}\in N_x$. Soit $x\in$ Som(G). On a $\delta$(Grp(Γ)$_x$)$\subset N_x$, par définition de $N_x$. Par définition du groupoïde H$,\delta (f)$ est une flèche de H pour toute flèche $f$ de Grp(Γ) ; par suite, $\delta$(Grp(Γ)$_x$) est contenu dans $H_x$. Comme H est un sous-groupoïde distingué de G, on a alors
 
 Int($f_{xy}$)$(\delta (c))\in$ Int($f_{xy}$)$(N_y)\subset$ Int($f_{xy}$)$(H_y)\subset H_x$
 

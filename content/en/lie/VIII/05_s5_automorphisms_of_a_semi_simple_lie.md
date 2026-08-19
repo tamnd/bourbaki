@@ -37,7 +37,7 @@ errata:
     - says: Chap. VII, §13, no. 1
       read: Chap. VIII, §13, no. 1
       why: Chapter VII has five sections and no section 13. The sentence says that the groups Aut$_0(\mathfrak{g})$ and Aut$_e(\mathfrak{g})$ can be distinct, and the place that shows it is no. 1 of section 13 of this chapter, on the algebras of type $A_l$, which computes Aut$_0(\mathfrak{g}) =\varphi (\mathbf{G}\mathbf{L}(l+ 1, k))$, identifies the quotient Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$ with $\mathbf{P}\mathbf{G}\mathbf{L}(l+ 1, k)/\mathbf{P}\mathbf{S}\mathbf{L}(l+ 1, k)$, and over the reals finds it isomorphic to $\mathbf{Z}/2\mathbf{Z}$ when $l+1$ is even. Chapter VII names neither group anywhere.
-content_sha256: 1b4f8a1472586988d2649366ba36ca60a4299f01bc8a8d9b2d46fbf500bf8c70
+content_sha256: b133f8ff3b2aa281515dc9b6901dfc5eeb5966a738193ad98daa0fe7b5d371a8
 ---
 
 ## § 5. AUTOMORPHISMS OF A SEMI-SIMPLE LIE ALGEBRA
@@ -52,25 +52,25 @@ $\varepsilon :$ Aut($\mathfrak{g},\mathfrak{h}$)$\rightarrow A(R)$
 
 is a homomorphism of groups.
 
-For any root system R and any basis B of R, we denote by Aut(R$,B)$ the group of automorphisms of R that leave B stable. Recall (Chap. VI, §1, no. 5, Prop. 16 and §4, no. 2, Cor. of Prop. 1) that A(R) is the semi-direct product of Aut(R$,B)$ and W(R), and that $A(R)/W(R)$ is canonically isomorphic to the group of automorphisms of the Dynkin graph of R.
+For any root system R and any basis B of R, we denote by Aut(R$,B$) the group of automorphisms of R that leave B stable. Recall (Chap. VI, §1, no. 5, Prop. 16 and §4, no. 2, Cor. of Prop. 1) that A(R) is the semi-direct product of Aut(R$,B$) and W(R), and that $A(R)/W(R)$ is canonically isomorphic to the group of automorphisms of the Dynkin graph of R.
 
 #### Proposition 1 {#lie-viii-s5-prop-1 .statement tag=011N}
 
-Let $(\mathfrak{g},\mathfrak{h},B,(X_{\alpha})_{\alpha\in B})$ be a framed semi-simple Lie algebra, and R the root system of $(\mathfrak{g},\mathfrak{h})$. Let G be the set of $s\in$ Aut($\mathfrak{g},\mathfrak{h}$) that leave B stable, and such that $s(X_{\alpha}) =X_{\varepsilon(s)\alpha}$ for all $\alpha \in B ($in other words the set of automorphisms of $(\mathfrak{g},\mathfrak{h},B,(X_{\alpha})_{\alpha\in B}))$. Then the restriction of $\varepsilon$ to G is an isomorphism from G to Aut(R$,B)$.
+Let $(\mathfrak{g},\mathfrak{h},B,(X_{\alpha})_{\alpha\in B})$ be a framed semi-simple Lie algebra, and R the root system of $(\mathfrak{g},\mathfrak{h})$. Let G be the set of $s\in$ Aut($\mathfrak{g},\mathfrak{h}$) that leave B stable, and such that $s(X_{\alpha}) =X_{\varepsilon(s)\alpha}$ for all $\alpha \in B ($in other words the set of automorphisms of $(\mathfrak{g},\mathfrak{h},B,(X_{\alpha})_{\alpha\in B}))$. Then the restriction of $\varepsilon$ to G is an isomorphism from G to Aut(R$,B$).
 
-If $s\in G$, it is clear that $\varepsilon (s)\in$ Aut(R$,B)$. On the other hand, the map
+If $s\in G$, it is clear that $\varepsilon (s)\in$ Aut(R$,B$). On the other hand, the map
 
-$\varepsilon |G : G\rightarrow$ Aut(R$,B)$
+$\varepsilon |G : G\rightarrow$ Aut(R$,B$)
 
 is bijective by Th. 2 of §4, no. 4.
 
 ### 2. AUTOMORPHISMS OF A SPLIT SEMI-SIMPLE LIE ALGEBRA
 
-Let E be a commutative group, and $A =\bigoplus_{\gamma\in E}A^{\gamma}$ an E-graded algebra. For any homomorphism $\varphi$ from the group E to the multiplicative group $k^*$, let $f(\varphi )$ be the $k$-linear map from A to A whose restriction to each $A^{\gamma}$ is the homothety with ratio $\varphi (\gamma )$; it is clear that $f(\varphi )$ is an automorphism of the graded algebra A, and that $f$ is a homomorphism from the group Hom(E$, k^*)$ to the group of automorphisms of the graded algebra A.
+Let E be a commutative group, and $A =\bigoplus_{\gamma\in E}A^{\gamma}$ an E-graded algebra. For any homomorphism $\varphi$ from the group E to the multiplicative group $k^*$, let $f(\varphi )$ be the $k$-linear map from A to A whose restriction to each $A^{\gamma}$ is the homothety with ratio $\varphi (\gamma )$; it is clear that $f(\varphi )$ is an automorphism of the graded algebra A, and that $f$ is a homomorphism from the group Hom(E$, k^*$) to the group of automorphisms of the graded algebra A.
 
 Let $\mathfrak{h}$ be a splitting Cartan subalgebra of $\mathfrak{g}$, and R the root system of $(\mathfrak{g},\mathfrak{h})$. Recall that P(R) (resp. Q(R)) denotes the group of weights (resp. radical weights) of R. Put
 
-$T_P=$ Hom(P(R)$, k^*)T_Q=$ Hom(Q(R)$, k^*)$.
+$T_P=$ Hom(P(R)$, k^*$)$T_Q=$ Hom(Q(R)$, k^*$).
 
 We can consider $\mathfrak{g}=\mathfrak{g}^0+\sum_{\alpha\in R}\mathfrak{g}^{\alpha}$ as a Q(R)-graded algebra. The preceding remarks define a canonical homomorphism from $T_Q$ to Aut($\mathfrak{g},\mathfrak{h}$), which will be denoted by $f$ in this paragraph. In the other hand, the canonical injection from Q(R) to P(R) defines a homomorphism from $T_P$ to $T_Q$, which will be denoted by $q:$
 
@@ -110,7 +110,7 @@ $t_{\alpha}t_{\beta}=t_{\alpha+\beta}$ when $\alpha , \beta , \alpha +\beta \in 
 
 Under these conditions, there exists $\varphi \in T_Q$ such that $\varphi (\alpha ) =t_{\alpha}$ for all $\alpha \in R$ (Chap. VI, §1, no. 6, Cor. 2 of Prop. 19). Then $s=f(\varphi )$. Hence, Ker $\varepsilon \subset$ Im $f$.
 
-$d)$ The image of Aut($\mathfrak{g},\mathfrak{h}$) under $\varepsilon$ contains W(R) by §2, no. 2, Cor. of Th. 2, and contains Aut(R$,B)$ by Prop. 1. Hence this image is equal to A(R).
+$d)$ The image of Aut($\mathfrak{g},\mathfrak{h}$) under $\varepsilon$ contains W(R) by §2, no. 2, Cor. of Th. 2, and contains Aut(R$,B$) by Prop. 1. Hence this image is equal to A(R).
 
 #### Corollary 1 {#lie-viii-s5-prop-2-cor-1 .statement tag=011P}
 
@@ -188,7 +188,7 @@ so $\chi |Q(R) =\psi^m$. This proves (i). If $k$ is algebraically closed, every 
 
 We have $f(T_Q)\subset$Aut$_0(\mathfrak{g},\mathfrak{h})$ and $\varepsilon^{-1}(W(R)) =$ Aut$_0(\mathfrak{g},\mathfrak{h})$.
 
-$a)$ Let $\varphi \in T_Q$ and let $\overline{k}$ be an algebraic closure of $k$. By Lemma $3,\varphi$ extends to an element of Hom(P(R)$, k^*)$. By Prop. 3,
+$a)$ Let $\varphi \in T_Q$ and let $\overline{k}$ be an algebraic closure of $k$. By Lemma $3,\varphi$ extends to an element of Hom(P(R)$, k^*$). By Prop. 3,
 
 $f(\varphi )\otimes 1\in$ Aut$_e(\mathfrak{g}\otimes_k\overline{k},\mathfrak{h}\otimes_k\overline{k})$.
 
@@ -196,9 +196,9 @@ Hence $f(\varphi )\in$ Aut$_0(\mathfrak{g},\mathfrak{h})$, and Ker $\varepsilon 
 
 $b)$ The image of Aut$_e(\mathfrak{g},\mathfrak{h})$ under $\varepsilon$ contains W(R) (§2, no. 2, Cor. of Th. 2). In view of $a)$, we see that $\varepsilon^{-1}(W(R))\subset$ Aut$_0(\mathfrak{g},\mathfrak{h})$.
 
-$c)$ It remains to prove that Aut$_0(\mathfrak{g},\mathfrak{h})\subset \varepsilon^{-1}(W(R))$. In view of $b)$, it suffices to prove that $\varepsilon$(Aut$_0(\mathfrak{g},\mathfrak{h}))\cap$ Aut(R$,B)$, where B denotes a basis of R, reduces to $\{1\}$.
+$c)$ It remains to prove that Aut$_0(\mathfrak{g},\mathfrak{h})\subset \varepsilon^{-1}(W(R))$. In view of $b)$, it suffices to prove that $\varepsilon$(Aut$_0(\mathfrak{g},\mathfrak{h})$)$\cap$ Aut(R$,B$), where B denotes a basis of R, reduces to $\{1\}$.
 
-Let $s\in$ Aut$_0(\mathfrak{g},\mathfrak{h})$ be such that $\varepsilon (s)\in$ Aut(R$,B)$. The subgroup of A(R) generated by $\varepsilon (s)$ has a finite number of orbits on R. Let U be such an orbit, of cardinal $r$, and $\mathfrak{g}^U=\sum_{\beta\in U}\mathfrak{g}^{\beta}$. Let $\beta_1\in U$, and put $\beta_i=\varepsilon (s)^{i-1}\beta_1$ for
+Let $s\in$ Aut$_0(\mathfrak{g},\mathfrak{h})$ be such that $\varepsilon (s)\in$ Aut(R$,B$). The subgroup of A(R) generated by $\varepsilon (s)$ has a finite number of orbits on R. Let U be such an orbit, of cardinal $r$, and $\mathfrak{g}^U=\sum_{\beta\in U}\mathfrak{g}^{\beta}$. Let $\beta_1\in U$, and put $\beta_i=\varepsilon (s)^{i-1}\beta_1$ for
 
 $1\leq i\leq r$, so that $U =\{\beta_1, . . . , \beta_r\}$. Let $X_{\beta_1}$ be a non-zero element of $\mathfrak{g}^{\beta_1}$, and put $X_{\beta_i}=s^{i-1}X_{\beta_1}$ for $1\leq i\leq r$. There exists $c_U\in k^*$ such that $s^rX_{\beta_1}=$ $c_UX_{\beta_1}$, hence $s^rX_{\beta_i}=c_UX_{\beta_i}$ for all $i$, and consequently $s^r|\mathfrak{g}^U=c_U.1$. Let $\varphi \in T_Q$, and $s'=s\circ f(\varphi )$, which by $a)$ is an element of Aut$_0(\mathfrak{g},\mathfrak{h})$. We have ${s'}^r|\mathfrak{g}^U=c'_U.1$, where
 
@@ -206,7 +206,7 @@ $$
 c'_U=c_U\prod_{i=1}^r\varphi (\beta_i) =c_U\varphi (\sum_{i=1}^r\beta_i)
 $$
 
-Put $B =\{\alpha_1, . . . , \alpha_l\}$ and $\sum_{i=1}^r\beta_i=\sum_{j=1}^lm^U_j\alpha_j$. Since $\varepsilon (s)\in$ Aut(R$,B)$, the
+Put $B =\{\alpha_1, . . . , \alpha_l\}$ and $\sum_{i=1}^r\beta_i=\sum_{j=1}^lm^U_j\alpha_j$. Since $\varepsilon (s)\in$ Aut(R$,B$), the
 
 $m^U_j$ are integers of the same sign and not all zero. We have
 
@@ -256,7 +256,7 @@ Indeed, every element of $\operatorname{Aut}(\mathfrak g)$ transforms $(\mathfra
 
 \hfill Q.E.D.
 
-It follows from Cor. 1 that the group Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$ can be identified with Aut(R$,B)$, and is isomorphic to the group of automorphisms of the Dynkin graph of R.
+It follows from Cor. 1 that the group Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$ can be identified with Aut(R$,B$), and is isomorphic to the group of automorphisms of the Dynkin graph of R.
 
 #### Corollary 2 {#lie-viii-s5-prop-5-cor-2 .statement tag=01J3}
 
@@ -266,7 +266,7 @@ This follows from Cor. 1 and Chap. VI, Plates I to IX.
 
 #### Remark 1 {#lie-viii-s5-n3-rem-1 .statement tag=011Z}
 
-Let $e_1= (\mathfrak{g},\mathfrak{h}_1,B_1,(X_{\alpha}^1)_{\alpha\in B_1}),e_2= (\mathfrak{g},\mathfrak{h}_2,B_2,(X_{\alpha}^2)_{\alpha\in B_2})$, $e'_2= (\mathfrak{g},\mathfrak{h}_2,B_2,(Y_{\alpha}^2)_{\alpha\in B_2})$ be framings of $\mathfrak{g}$, and $s$ (resp. $s')$ an element of Aut$_0(\mathfrak{g})$ that transforms $e_1$ to $e_2$ (resp. $e'_2)$. Then $s|\mathfrak{h}_1=s'|\mathfrak{h}_1$. Indeed, $s^{'-1}s\in$ Aut$_0(\mathfrak{g},\mathfrak{h}_1)$ and $s^{'-1}s(B_1) = B_1$, so $\varepsilon (s^{'-1}s) = 1$.
+Let $e_1= (\mathfrak{g},\mathfrak{h}_1,B_1,(X_{\alpha}^1)_{\alpha\in B_1}),e_2= (\mathfrak{g},\mathfrak{h}_2,B_2,(X_{\alpha}^2)_{\alpha\in B_2})$, $e'_2= (\mathfrak{g},\mathfrak{h}_2,B_2,(Y_{\alpha}^2)_{\alpha\in B_2})$ be framings of $\mathfrak{g}$, and $s$ (resp. $s'$) an element of Aut$_0(\mathfrak{g})$ that transforms $e_1$ to $e_2$ (resp. $e'_2$). Then $s|\mathfrak{h}_1=s'|\mathfrak{h}_1$. Indeed, $s^{'-1}s\in$ Aut$_0(\mathfrak{g},\mathfrak{h}_1)$ and $s^{'-1}s(B_1) = B_1$, so $\varepsilon (s^{'-1}s) = 1$.
 
 #### Remark 2 {#lie-viii-s5-n3-rem-2 .statement tag=0120}
 
@@ -282,19 +282,19 @@ is in a natural way a vector space $\mathfrak{h}(\mathfrak{g})$ which we sometim
 
 Let $\mathfrak{h}$ be a splitting Cartan subalgebra of $\mathfrak{g}$. We have, with the notations in no. 1, Aut$_0(\mathfrak{g}) =$ Aut$_e(\mathfrak{g})$.Ker $\varepsilon =$ Aut$_e(\mathfrak{g}).f(T_Q)$.
 
-By §3, no. 3, Cor. of Prop. 10, Aut$_0(\mathfrak{g}) =$ Aut$_e(\mathfrak{g})$.Aut$_0(\mathfrak{g},\mathfrak{h})$. On the other hand, $\varepsilon$(Aut$_e(\mathfrak{g},\mathfrak{h}))\supset W(R)$ by §2, no. 2, Cor. of Th. 2, so Aut$_0(\mathfrak{g},\mathfrak{h}) =$ Aut$_e(\mathfrak{g},\mathfrak{h})$.Ker$\varepsilon$.
+By §3, no. 3, Cor. of Prop. 10, Aut$_0(\mathfrak{g}) =$ Aut$_e(\mathfrak{g})$.Aut$_0(\mathfrak{g},\mathfrak{h})$. On the other hand, $\varepsilon$(Aut$_e(\mathfrak{g},\mathfrak{h})$)$\supset W(R)$ by §2, no. 2, Cor. of Th. 2, so Aut$_0(\mathfrak{g},\mathfrak{h}) =$ Aut$_e(\mathfrak{g},\mathfrak{h})$.Ker$\varepsilon$.
 
 #### Remark 3 {#lie-viii-s5-n3-rem-3 .statement tag=0122}
 
 Prop. 6 shows that the canonical homomorphism
 
-$\iota : T_Q/$Im(T$_P)\rightarrow$ Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$,
+$\iota : T_Q/$Im(T$_P$)$\rightarrow$ Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$,
 
 induced by the diagram in no. 2, is surjective. In particular, Aut$_e(\mathfrak{g})$ contains the derived group of Aut$_0(\mathfrak{g})$; we shall see (§11, no. 2, Prop. 3) that they are actually equal. Moreover, it can be shown that $\iota$ is injective, in other words that
 
 $f(T_Q)\cap$ Aut$_e(\mathfrak{g}) =f'(T_P)$,
 
-(cf. §7, Exerc. $26d))$.
+(cf. §7, Exerc. $26d$)$)$.
 
 #### Proposition 7 {#lie-viii-s5-prop-7 .statement tag=0123}
 
@@ -358,7 +358,7 @@ Assume that $\mathfrak{g}$ is splittable.
 
 By Prop. $3,f(q(T_P))\subset$ Aut$_e(\mathfrak{g})$. For all $s\in$ Aut$_e(\mathfrak{g})$, the closure of $s.f(q(T_P))$ in the Zariski topology contains $s.f(T_Q)$ by Prop. 9. Hence the closure of Aut$_e(\mathfrak{g})$ contains Aut$_e(\mathfrak{g}).f(T_Q) =$ Aut$_0(\mathfrak{g})$ (Prop. 6). This proves (i).
 
-Let Aut$_e(\mathfrak{g}) =\Omega \cup \Omega '$ be a partition of Aut$_e(\mathfrak{g})$ formed by relatively open subsets in the Zariski topology, and with $\Omega \not=\emptyset$. If $\omega \in \Omega$ and if $x$ is a nilpotent element of $\mathfrak{g}$, the map $\tau :t \rightarrow \omega$ exp($t$ ad $x)$ from $k$ to Aut$_e(\mathfrak{g})$ is polynomial, hence continuous in the Zariski topology; consequently, $\tau (k)$ is connected; since $\omega \in \tau (k)$, we have $\tau (k)\subset \Omega$. Thus, $\Omega$.(exp ad $kx)\subset \Omega$, so $\Omega$.Aut$_e(\mathfrak{g})\subset \Omega$ and $\Omega =$ Aut$_e(\mathfrak{g})$. This proves that Aut$_e(\mathfrak{g})$ is connected. It follows, by (i), that Aut$_0(\mathfrak{g})$ is connected. Q.E.D.
+Let Aut$_e(\mathfrak{g}) =\Omega \cup \Omega '$ be a partition of Aut$_e(\mathfrak{g})$ formed by relatively open subsets in the Zariski topology, and with $\Omega \not=\emptyset$. If $\omega \in \Omega$ and if $x$ is a nilpotent element of $\mathfrak{g}$, the map $\tau :t \rightarrow \omega$ exp($t$ ad $x$) from $k$ to Aut$_e(\mathfrak{g})$ is polynomial, hence continuous in the Zariski topology; consequently, $\tau (k)$ is connected; since $\omega \in \tau (k)$, we have $\tau (k)\subset \Omega$. Thus, $\Omega$.(exp ad $kx$)$\subset \Omega$, so $\Omega$.Aut$_e(\mathfrak{g})\subset \Omega$ and $\Omega =$ Aut$_e(\mathfrak{g})$. This proves that Aut$_e(\mathfrak{g})$ is connected. It follows, by (i), that Aut$_0(\mathfrak{g})$ is connected. Q.E.D.
 
 We shall see (§8, no. 4, Cor. of Prop. 6) that Aut$_0(\mathfrak{g})$ is closed in V in the Zariski topology, and that it is the connected component of the identity element of Aut($\mathfrak{g}$). On the other hand, Aut$_e(\mathfrak{g})$ is not in general closed in the Zariski topology.
 
@@ -378,7 +378,7 @@ Assume that $k$ is $\mathbf{R},\mathbf{C}$ or a non-discrete complete ultrametri
 
 (iv) If $k=\mathbf{R}$ or $\mathbf{C}$, Aut$_e(\mathfrak{g})$ is the identity component of Aut($\mathfrak{g}$), in other words Int($\mathfrak{g}$).
 
-By Chap. III, §3, no. 8, Cor. 2 of Prop. 29, and no. 10, Prop. 36, Aut($\mathfrak{g},\mathfrak{h}$) is a Lie subgroup of Aut($\mathfrak{g}$) whose Lie algebra is the set of ad $x(x\in \mathfrak{g})$ such that (ad $x)\mathfrak{h}\subset \mathfrak{h}$, in other words ad$\mathfrak{h}$.
+By Chap. III, §3, no. 8, Cor. 2 of Prop. 29, and no. 10, Prop. 36, Aut($\mathfrak{g},\mathfrak{h}$) is a Lie subgroup of Aut($\mathfrak{g}$) whose Lie algebra is the set of ad $x(x\in \mathfrak{g})$ such that (ad $x$)$\mathfrak{h}\subset \mathfrak{h}$, in other words ad$\mathfrak{h}$.
 
 Let $H\in \mathfrak{h}$. There exists $\varepsilon  >0$ with the following properties: for $t\in k$ and $|t|< \varepsilon$, exp($t\gamma (H)$) is defined for all $\gamma \in P(R)$, and the map $\gamma  \rightarrow$ exp($t\gamma (H)$) is a homomorphism $\sigma_t$ from P(R) to $k^*$. For $|t|< \varepsilon$, exp($t$ ad H) is defined, induces the identity on $\mathfrak{h}$ and induces on $\mathfrak{g}^{\alpha}$ the homothety with ratio $\sigma_t(\alpha )$; hence exp $t$ ad $H\in (q\circ f)(T_P)$. This proves, in view of (i), that $(q\circ f)(T_P)$ contains a neighbourhood of 1 in Aut($\mathfrak{g},\mathfrak{h}$), and consequently is an open subgroup of Aut($\mathfrak{g},\mathfrak{h}$). A fortiori$,f(T_Q)$ is an open subgroup of Aut($\mathfrak{g},\mathfrak{h}$).
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 465
 statements: 32
 exercises: 9
-content_sha256: c70cf62e3ba515286124bcc69bee14c669419fb2993f6c6c72e49f7c8fa06bc7
+content_sha256: 07449d365571676c544d1619988ed7e8c13e4b70374afbf038ed0d746cfaa9f5
 ---
 
 ## § 6. ESPACES CLASSIFIANTS
@@ -308,13 +308,13 @@ Soit V un voisinage de $e$ dans G. Soit $h\in G^*$ et soit $(t_i)_{0\leqslant i\
 
 Il existe une unique topologie sur $G^*$ compatible avec sa structure de groupe pour laquelle les ensembles $V^*_{\varepsilon}$ forment une base des voisinages de l’élément neutre.
 
-Vérifions que les ensembles $V_{\varepsilon}^*$ satisfont aux axiomes (GV$'_I)$, (GV$'_{II})$ et (GV$'_{III})$ de TG, III, p. 4.
+Vérifions que les ensembles $V_{\varepsilon}^*$ satisfont aux axiomes (GV$'_I$), (GV$'_{II}$) et (GV$'_{III}$) de TG, III, p. 4.
 
-Soit V un voisinage de $e$ dans G et soit $\varepsilon$ un nombre réel strictement positif. Soit W un voisinage de $e$ dans G tel que $W\cdot W\subset V$. Soient $h$ et $h'$ des éléments de $G^*$. Si $t\in [0,1[$ tel $h(t)h'(t)\notin V$, on a $h(t)\notin W$ ou $h'(t)\notin W$. Il en résulte que $p_V(hh')\leqslant p_W(h)+p_W(h')$. Par conséquent, $W^*_{\varepsilon /2}\cdot W^*_{\varepsilon /2}\subset V^*_{\varepsilon}$, ce qui démontre l’axiome (GV$'_I)$.
+Soit V un voisinage de $e$ dans G et soit $\varepsilon$ un nombre réel strictement positif. Soit W un voisinage de $e$ dans G tel que $W\cdot W\subset V$. Soient $h$ et $h'$ des éléments de $G^*$. Si $t\in [0,1[$ tel $h(t)h'(t)\notin V$, on a $h(t)\notin W$ ou $h'(t)\notin W$. Il en résulte que $p_V(hh')\leqslant p_W(h)+p_W(h')$. Par conséquent, $W^*_{\varepsilon /2}\cdot W^*_{\varepsilon /2}\subset V^*_{\varepsilon}$, ce qui démontre l’axiome (GV$'_I$).
 
-Soit W un voisinage de $e$ dans G tel que $W^{-1}\subset V$. Alors $(W^*_{\varepsilon})^{-1}=$ $(W^{-1})^*_{\varepsilon}\subset V^*_{\varepsilon}$, d’où l’axiome (GV$'_{II})$.
+Soit W un voisinage de $e$ dans G tel que $W^{-1}\subset V$. Alors $(W^*_{\varepsilon})^{-1}=$ $(W^{-1})^*_{\varepsilon}\subset V^*_{\varepsilon}$, d’où l’axiome (GV$'_{II}$).
 
-Soit $k$ un élément de $G^*$; comme la fonction $k$ ne prend qu’un nombre fini de valeurs, il existe un voisinage W de $e$ dans G tel que $k(t)Wk(t)^{-1}\subset V$ pour tout $t\in [0,1[$. Soit alors $h$ un élément de $G^*$. Pour $t\in [0,1[$, si $k(t)h(t)k(t)^{-1}\notin$ V, alors $h(t)\notin W$. Par conséquent, $p_V(khk^{-1})\leqslant p_W(h)$. Cela démontre que $kW^*_{\varepsilon}k^{-1}\subset V^*_{\varepsilon}$, d’où l’axiome (GV$'_{III})$.
+Soit $k$ un élément de $G^*$; comme la fonction $k$ ne prend qu’un nombre fini de valeurs, il existe un voisinage W de $e$ dans G tel que $k(t)Wk(t)^{-1}\subset V$ pour tout $t\in [0,1[$. Soit alors $h$ un élément de $G^*$. Pour $t\in [0,1[$, si $k(t)h(t)k(t)^{-1}\notin$ V, alors $h(t)\notin W$. Par conséquent, $p_V(khk^{-1})\leqslant p_W(h)$. Cela démontre que $kW^*_{\varepsilon}k^{-1}\subset V^*_{\varepsilon}$, d’où l’axiome (GV$'_{III}$).
 
 #### Proposition 6 {#ta-iv-s6-prop-6 .statement tag=024L}
 

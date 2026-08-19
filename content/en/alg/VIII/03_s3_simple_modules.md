@@ -34,7 +34,7 @@ subsections:
       pdf_page: 68
 statements: 23
 exercises: 10
-content_sha256: 9e40062ed94f59647e41551dd0cb278c9eed5dbb96dcf569df5e17def2b733c5
+content_sha256: 0317407d0c3ced7b2648e2b8d2e1ca2a46c305400b4715365d0e28e9e8310de8
 ---
 
 ## § 3. SIMPLE MODULES
@@ -59,7 +59,7 @@ Let A be a principal ideal domain (VII, §1, No. 1, p. 1, Definition 1) that is 
 
 #### Example 3 {#alg-viii-s3-n1-exa-3 .statement tag=0038}
 
-Let K be a field, V a nonzero right vector space over the field K, and A a subring of the ring End$_K(V)$ containing the endomorphisms of V of finite rank (for example, A = End$_K(V))$. Let us prove that V is a simple A-module: let W be a nonzero A-submodule of V and $x$ a nonzero element of W; there exists a linear form $\varphi$ on V such that $\varphi (x)\not= 0$ (II, §7, No. 5, p. 300, Theorem 6). For every $y$ in V, the mapping $z\mapsto y\varphi (z)$, which is linear of rank $\leqslant 1$, belongs to A; we therefore have $Ax= V$, hence a fortiori W = V, which proves that V is a simple A-module.
+Let K be a field, V a nonzero right vector space over the field K, and A a subring of the ring End$_K(V)$ containing the endomorphisms of V of finite rank (for example, A = End$_K(V)$). Let us prove that V is a simple A-module: let W be a nonzero A-submodule of V and $x$ a nonzero element of W; there exists a linear form $\varphi$ on V such that $\varphi (x)\not= 0$ (II, §7, No. 5, p. 300, Theorem 6). For every $y$ in V, the mapping $z\mapsto y\varphi (z)$, which is linear of rank $\leqslant 1$, belongs to A; we therefore have $Ax= V$, hence a fortiori W = V, which proves that V is a simple A-module.
 
 #### Proposition 1 {#alg-viii-s3-prop-1 .statement tag=00QZ}
 
@@ -125,7 +125,7 @@ If M is a simple A-module, then every nonzero element of the nonzero ring End$_A
 
 Let K be an algebraically closed commutative field, A a K-algebra, and M a simple A-module. Suppose that the dimension of M as a vector space over K is finite or, more generally, strictly less than the cardinal of K. Then the endomorphism ring of the A-module M consists of the homotheties $\alpha_M$ with $\alpha \in K$.
 
-Let E be the endomorphism ring of the A-module M; it is a field by the corollary of Proposition 2 and an algebra over the field K. If we view M as a left vector space over the field E, then we have dim$_KM =$ (dim$_EM)[E : K]$ by Proposition 25 of II, §1, No. 13, p. 222, hence dim$_KM\geqslant [E : K]$. Since dim$_KM<$ Card(K) by assumption, the equality $E = K\cdot 1_M$ is then a consequence of the following lemma.
+Let E be the endomorphism ring of the A-module M; it is a field by the corollary of Proposition 2 and an algebra over the field K. If we view M as a left vector space over the field E, then we have dim$_KM =$ (dim$_EM$)$[E : K]$ by Proposition 25 of II, §1, No. 13, p. 222, hence dim$_KM\geqslant [E : K]$. Since dim$_KM<$ Card(K) by assumption, the equality $E = K\cdot 1_M$ is then a consequence of the following lemma.
 
 #### Lemma 1 {#alg-viii-s3-lem-1 .statement tag=003F}
 
@@ -235,7 +235,7 @@ Let A be a ring. The relation
 
 is collectivizing in $\lambda ($Set Theory, II, §1, No. 4, p. 68). Indeed, every finitely generated A-module is isomorphic to an A-module of the form $A^n_s/R$, where $n$ is a natural number and R a submodule of $A^n_s$, so that our assertion follows from Set Theory, II, §6, No. 9, p. 122.
 
-We denote the set of classes of finitely generated A-modules by $\mathscr{F}(A)$. Every simple A-module is monogenous (VIII, p. 46, Proposition 1), and consequently the classes of the simple A-modules form a subset of $\mathscr{F}$ (A), which we from now on denote by $\mathscr{S}(A)$ (or simply $\mathscr{S})$. When the ring A is commutative, the mapping $\mathfrak{m}\mapsto$ cl(A$/\mathfrak{m})$ is a bijection from the set of maximal ideals of A to the set $\mathscr{S}(A)$ (loc. cit. and VIII, p. 46, Remark 1). When A is left Artinian, the set $\mathscr{S}(A)$ is finite (VIII, p. 51, Remark b)).
+We denote the set of classes of finitely generated A-modules by $\mathscr{F}(A)$. Every simple A-module is monogenous (VIII, p. 46, Proposition 1), and consequently the classes of the simple A-modules form a subset of $\mathscr{F}$ (A), which we from now on denote by $\mathscr{S}(A)$ (or simply $\mathscr{S}$). When the ring A is commutative, the mapping $\mathfrak{m}\mapsto$ cl(A$/\mathfrak{m}$) is a bijection from the set of maximal ideals of A to the set $\mathscr{S}(A)$ (loc. cit. and VIII, p. 46, Remark 1). When A is left Artinian, the set $\mathscr{S}(A)$ is finite (VIII, p. 51, Remark b)).
 
 ### Exercises {#alg-viii-s3-exercises}
 

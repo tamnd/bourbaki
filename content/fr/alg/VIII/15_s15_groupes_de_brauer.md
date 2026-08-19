@@ -29,7 +29,7 @@ subsections:
       pdf_page: 282
 statements: 12
 exercises: 2
-content_sha256: 31c7c5c563c0e9fa5d6f809acc1899275f9c821ac5577480e6394ffe2c1f4cef
+content_sha256: e37ff424db338ca66ed8079a9a032b9e99cdc8d7d84ff91c79f2bdf4b454f247
 ---
 
 ## § 15. GROUPES DE BRAUER
@@ -54,9 +54,9 @@ est donc collectivisante en $\alpha$ (E, II, p. 3). On note $\mathscr{C}_K$ l’
 
 L’ensemble $\mathscr{C}_K$, muni de la loi de composition donnée par $(\alpha , \beta )\rightarrow$ cl($\alpha \otimes_K\beta$ ), est un monoïde commutatif. L’élément neutre de $\mathscr{C}_K$ est la classe $\varepsilon$ de la K-algèbre K. De plus, si A et B sont des K-algèbres de degré fini, on a la relation
 
-(1) cl(A $\otimes_KB) =$ cl(A) cl(B).
+(1) cl(A $\otimes_KB$) $=$ cl(A) cl(B).
 
-Soient A, B et C des K-algèbres de degré fini, de classes respectives $\alpha ,\beta$ et $\gamma$. Les K-algèbres A et $\alpha$ sont isomorphes, ainsi que B et $\beta$; donc les K-algèbres $A\otimes_KB$ et $\alpha \otimes_K\beta$ sont isomorphes et l’on a cl(A $\otimes_KB) =$ cl($\alpha \otimes_K\beta$ ), d’où la formule (1). Il en résulte que $(\alpha \beta )\gamma$ est la classe de la K-algèbre $(A\otimes_KB)\otimes_KC$, et $\alpha (\beta \gamma )$ celle de la K-algèbre $A\otimes_K(B\otimes_KC)$. Or ces K-algèbres sont isomorphes (III, p. 34), d’où l’égalité $(\alpha \beta )\gamma =\alpha (\beta \gamma )$. De manière analogue, la relation $\alpha \varepsilon =\varepsilon \alpha =\alpha$ résulte de ce que les K-algèbres $A\otimes_KK, K\otimes_KA$ et A sont isomorphes, et la relation $\alpha \beta =\beta \alpha$ de ce que les algèbres $A\otimes_KB$ et $B\otimes_KA$ sont isomorphes.
+Soient A, B et C des K-algèbres de degré fini, de classes respectives $\alpha ,\beta$ et $\gamma$. Les K-algèbres A et $\alpha$ sont isomorphes, ainsi que B et $\beta$; donc les K-algèbres $A\otimes_KB$ et $\alpha \otimes_K\beta$ sont isomorphes et l’on a cl(A $\otimes_KB$) $=$ cl($\alpha \otimes_K\beta$ ), d’où la formule (1). Il en résulte que $(\alpha \beta )\gamma$ est la classe de la K-algèbre $(A\otimes_KB)\otimes_KC$, et $\alpha (\beta \gamma )$ celle de la K-algèbre $A\otimes_K(B\otimes_KC)$. Or ces K-algèbres sont isomorphes (III, p. 34), d’où l’égalité $(\alpha \beta )\gamma =\alpha (\beta \gamma )$. De manière analogue, la relation $\alpha \varepsilon =\varepsilon \alpha =\alpha$ résulte de ce que les K-algèbres $A\otimes_KK, K\otimes_KA$ et A sont isomorphes, et la relation $\alpha \beta =\beta \alpha$ de ce que les algèbres $A\otimes_KB$ et $B\otimes_KA$ sont isomorphes.
 
 Dans l’ensemble $\mathscr{C}_K$, la relation « $\alpha$ et $\beta$ sont des algèbres équivalentes au sens de Morita » est une relation d’équivalence (VIII, p. 96) ; elle est compatible avec la loi de composition de $\mathscr{C}_K$ d’après la prop. 13, d) de VIII, p. 107. On note $\mathscr{M}_K$ le monoïde quotient de $\mathscr{C}_K$ par cette relation d’équivalence et $\varphi$ l’homomorphisme canonique de $\mathscr{C}_K$ sur $\mathscr{M}_K$. Pour toute K-algèbre A de degré fini, on note [A] l’image de cl(A) par $\varphi$. Si A et B sont des K-algèbres de degré fini, on a [A] = [B] si et seulement si les K-algèbres A et B sont équivalentes au sens de Morita ; de plus, on a la relation
 
@@ -138,7 +138,7 @@ Cela résulte du lemme 1 de VIII, p. 274 et du théorème de Wedderburn (VIII, p
 
 Soit L une extension du corps K. Soient A et B des K-algèbres de degré fini, les L-algèbres $A_{(L)}$ et $B_{(L)}$ sont de degré fini. Les L-algèbres $A_{(L)}\otimes_LB_{(L)}$ et $(A\otimes_KB)_{(L)}$ sont isomorphes (III, p. 35, prop. 3). La L-algèbre $K_{(L)}$ est isomorphe à L. Il existe donc un unique homomorphisme de monoïdes $\rho_{L/K}$ de $\mathscr{C}_K$ dans $\mathscr{C}_L$ tel que
 
-(3) $\rho_{L/K}$(cl(A)) = cl(A$_{(L)})$
+(3) $\rho_{L/K}$(cl(A)) = cl(A$_{(L)}$)
 
 pour toute K-algèbre A de degré fini.
 

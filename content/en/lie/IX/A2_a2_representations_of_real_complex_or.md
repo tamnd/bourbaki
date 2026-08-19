@@ -22,7 +22,7 @@ subsections:
       pdf_page: 394
 statements: 6
 exercises: 0
-content_sha256: 48a84baacd5944a8a386d038e91b68123a985132d64c985ead02071bcae3b3cc
+content_sha256: af5e30a3cd289de60e5262bbbf1ae21395a2a746327f707cf137798ab9a218f3
 ---
 
 ## APPENDIX II
@@ -31,7 +31,7 @@ content_sha256: 48a84baacd5944a8a386d038e91b68123a985132d64c985ead02071bcae3b3cc
 
 ### 1. REPRESENTATIONS OF REAL ALGEBRAS
 
-Denote by $\sigma$ the automorphism $\alpha  \rightarrow \overline{\alpha}$ of $\mathbf{C}$; if W is a complex vector space, denote by W the $\mathbf{C}$-vector space $\sigma_*(W)$ (that is, the group W with the law of operation $(\alpha , w) \rightarrow \overline{\alpha w}$ for $\alpha \in \mathbf{C}, w\in W)$.
+Denote by $\sigma$ the automorphism $\alpha  \rightarrow \overline{\alpha}$ of $\mathbf{C}$; if W is a complex vector space, denote by W the $\mathbf{C}$-vector space $\sigma_*(W)$ (that is, the group W with the law of operation $(\alpha , w) \rightarrow \overline{\alpha w}$ for $\alpha \in \mathbf{C}, w\in W$).
 
 #### Proposition 1 {#lie-ix-a2-prop-1 .statement tag=01IS}
 
@@ -81,7 +81,7 @@ For $K =\mathbf{R}$ or $\mathbf{C}$, denote by $\mathfrak{S}_K(A)$ the set of cl
 
 ### 2. REPRESENTATIONS OF COMPACT GROUPS
 
-Let G be a compact topological group, and let $\rho : G\rightarrow \mathbf{G}\mathbf{L}(W)$ be a continuous representation of G on a finite dimensional complex vector space. We shall say that $\rho$ is irreducible of real, complex or quaternionic type if this is the case for the $\mathbf{C}^{(G)}$-module W (relative to the algebra $A =\mathbf{R}^{(G)})$. Let H be a separating positive hermitian form on W, invariant under G.
+Let G be a compact topological group, and let $\rho : G\rightarrow \mathbf{G}\mathbf{L}(W)$ be a continuous representation of G on a finite dimensional complex vector space. We shall say that $\rho$ is irreducible of real, complex or quaternionic type if this is the case for the $\mathbf{C}^{(G)}$-module W (relative to the algebra $A =\mathbf{R}^{(G)}$). Let H be a separating positive hermitian form on W, invariant under G.
 
 #### Proposition 3 {#lie-ix-a2-prop-3 .statement tag=01IU}
 
@@ -133,9 +133,9 @@ Let $\chi_u(X) =\prod_{i=1}^n(X-\alpha_i)$ be a decomposition of the characteris
 
 #### Proposition 4 {#lie-ix-a2-prop-4 .statement tag=01IX}
 
-Assume that $\rho$ is irreducible. Then, $\rho$ is of real (resp. complex, resp. quaternionic) type if and only if the integral $\int_G$ Tr$\rho (g^2)dg$ is equal to 1 (resp. 0, resp. $-1)$.
+Assume that $\rho$ is irreducible. Then, $\rho$ is of real (resp. complex, resp. quaternionic) type if and only if the integral $\int_G$ Tr$\rho (g^2)dg$ is equal to 1 (resp. 0, resp. $-1$).
 
-Denote by $\check{\rho}$ the contragredient representation of $\rho$ on $W^*$ (defined by $\check{\rho}(g) =^t\rho (g^{-1}))$. Applying Lemma 2 to $\check{\rho}(g)$ and integrating over G gives
+Denote by $\check{\rho}$ the contragredient representation of $\rho$ on $W^*$ (defined by $\check{\rho}(g) =^t\rho (g^{-1})$). Applying Lemma 2 to $\check{\rho}(g)$ and integrating over G gives
 
 $\int_G$ Tr$\rho (g^2)dg=\int_G$ Tr $^t\rho (g^{-2})dg=\int_G$ Tr $\mathbf{S}^2( \check{\rho}(g))dg-\int_G$ Tr $\wedge \wedge^2( \check{\rho}(g))dg$
 
@@ -143,4 +143,4 @@ hence, by Lemma 1,
 
 $\int_G$ Tr $\rho (g^2)dg=$ dim($\mathbf{S}^2W^*$)$^G-$ dim($\wedge \wedge^2W^*$)$^G$.
 
-But $\mathbf{S}^2W^*$ (resp. $\wedge \wedge^2W^*)$ can be identified with the space of symmetric (resp. alternating) bilinear forms on W. Thus, the proposition follows immediately from Prop. 3.
+But $\mathbf{S}^2W^*$ (resp. $\wedge \wedge^2W^*$) can be identified with the space of symmetric (resp. alternating) bilinear forms on W. Thus, the proposition follows immediately from Prop. 3.

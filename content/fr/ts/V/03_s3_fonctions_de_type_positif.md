@@ -45,7 +45,7 @@ subsections:
       pdf_page: 467
 statements: 39
 exercises: 23
-content_sha256: 534ba733b2be9c1da642b39d50f835da9250f38a034e4f1893439d341778e971
+content_sha256: cae424d484ec79cb50886a7a6c8ffab98c2adb1922d5abc7d86afcc90df08f8a
 ---
 
 ## § 3. FONCTIONS DE TYPE POSITIF
@@ -162,7 +162,7 @@ L’ensemble Noy$_+(X)$ est un cône auto-adjoint dans l’espace $\mathscr{C}(X
 
 nombre réelIl est élémentaire que si$t\geqslant 0$, et que $\frac{f}{f}\in \in$ NoyNoy$_{++}(X)$.(X), alors $tf\in$ Noy$_+(X)$ pour tout
 
-Si $(E_1, g_1)$ et $(E_2, g_2)$ sont des réalisations hilbertiennes de noyaux universellement positifs $f_1$ et $f_2$ sur X, alors le couple $(E_1\oplus E_2, g_1+g_2)$ (resp. le couple $(E_1\widehat{\otimes}_2E_2, g_1\otimes g_2))$ est une réalisation hilbertienne de $f_1+f_2$ (resp. de $f_1f_2)$; ce sont donc des noyaux universellement positifs.
+Si $(E_1, g_1)$ et $(E_2, g_2)$ sont des réalisations hilbertiennes de noyaux universellement positifs $f_1$ et $f_2$ sur X, alors le couple $(E_1\oplus E_2, g_1+g_2)$ (resp. le couple $(E_1\widehat{\otimes}_2E_2, g_1\otimes g_2)$) est une réalisation hilbertienne de $f_1+f_2$ (resp. de $f_1f_2$); ce sont donc des noyaux universellement positifs.
 
 La caractérisation (ii) de Noy$_+(X)$ (th. 1) implique que cet ensemble est fermé dans $\mathscr{C}(X\times X)$ muni de la topologie de la convergence simple.
 
@@ -174,9 +174,9 @@ Soit C une partie compacte de $\mathbf{C}$. Les applications $f\mapsto f^*$ de $
 
 #### Proposition 3 {#ts-v-s3-prop-3 .statement tag=03C1}
 
-Soit A une algèbre de Banach unifère involutive. Soit $a\in A$. Le spectre de $a^*$ est l’image Sp$_A(a)^*$ de Sp$_A(a)$ par la conjugaison complexe. Pour tout $f\in \mathscr{O}$(Sp$_A(a))$, on a $f(a)^*=f^*(a^*)$.
+Soit A une algèbre de Banach unifère involutive. Soit $a\in A$. Le spectre de $a^*$ est l’image Sp$_A(a)^*$ de Sp$_A(a)$ par la conjugaison complexe. Pour tout $f\in \mathscr{O}$(Sp$_A(a)$), on a $f(a)^*=f^*(a^*)$.
 
-La première assertion résulte de I, p. 97. D’après ce qui précède, l’application $\varphi$ de $\mathscr{O}$(Sp$_A(a))$ dans A définie par $f\mapsto (f^*(a^*))^*$ est un morphisme unifère continu de $\mathscr{O}$(Sp$_A(a))$ dans A tel que l’image du germe au voisinage de Sp$_A(a)$ de la fonction identique de $\mathbf{C}$ est égal à $a$. Par conséquent, $\varphi$ est l’application $f\mapsto f(a)$ du calcul fonctionnel holomorphe (I, p. 74, th. 5).
+La première assertion résulte de I, p. 97. D’après ce qui précède, l’application $\varphi$ de $\mathscr{O}$(Sp$_A(a)$) dans A définie par $f\mapsto (f^*(a^*))^*$ est un morphisme unifère continu de $\mathscr{O}$(Sp$_A(a)$) dans A tel que l’image du germe au voisinage de Sp$_A(a)$ de la fonction identique de $\mathbf{C}$ est égal à $a$. Par conséquent, $\varphi$ est l’application $f\mapsto f(a)$ du calcul fonctionnel holomorphe (I, p. 74, th. 5).
 
 #### Lemme 1 {#ts-v-s3-lem-1 .statement tag=03C2}
 
@@ -598,11 +598,11 @@ $$
 
 #### Remarque {#ts-v-s3-n5-rem-1 .statement tag=03CM}
 
-Les ensembles Pos(G) (resp. Pos$_1(G)$ et Pos$_{\leqslant 1}(G))$ sont des parties convexes auto-adjointes de l’algèbre stellaire $\mathscr{C}_b(G)$. Ils sont fermés dans l’espace $\mathscr{C}_b(G)$ muni de la topologie de la convergence simple. L’ensemble Pos(G) est un cône convexe de sommet 0 dans l’espace de Banach réel $\mathscr{C}_b(G)$.
+Les ensembles Pos(G) (resp. Pos$_1(G)$ et Pos$_{\leqslant 1}(G)$) sont des parties convexes auto-adjointes de l’algèbre stellaire $\mathscr{C}_b(G)$. Ils sont fermés dans l’espace $\mathscr{C}_b(G)$ muni de la topologie de la convergence simple. L’ensemble Pos(G) est un cône convexe de sommet 0 dans l’espace de Banach réel $\mathscr{C}_b(G)$.
 
 ### 6. Dual unitaire d’un groupe localement compact
 
-Soit G un groupe topologique localement compact. On munit G d’une mesure de Haar à gauche $\mu$. Pour $p\in [1,+\infty ]$, on note $\mathscr{L}^p(G)$ (resp. $L^p(G))$ l’espace $\mathscr{L}_{\mathbf{C}}^p(G, \mu)$ (resp. l’espace $L^p_{\mathbf{C}}(G, \mu))$. On identifie l’espace $\mathscr{C}_b(G)$ à son image dans $L^{\infty}(G)$.
+Soit G un groupe topologique localement compact. On munit G d’une mesure de Haar à gauche $\mu$. Pour $p\in [1,+\infty ]$, on note $\mathscr{L}^p(G)$ (resp. $L^p(G)$) l’espace $\mathscr{L}_{\mathbf{C}}^p(G, \mu)$ (resp. l’espace $L^p_{\mathbf{C}}(G, \mu)$). On identifie l’espace $\mathscr{C}_b(G)$ à son image dans $L^{\infty}(G)$.
 
 Notons Δ le module de G. Rappelons que $L^1(G)$ est une algèbre de Banach involutive dont l’involution est induite, par passage aux quotients, par l’application $f\mapsto f^*$ où $f^*(y) = \Delta^{-1}(y)f(y^{-1})$ pour tous $f\in \mathscr{L}^1(G)$ et $y\in G ($cf. I, p. 99, exemple 4). L’algèbre de Banach $L^1(G)$ admet une unité approchée d’après INT, VIII, p. 172, §4, n$^o7$, prop. 20.
 
@@ -858,7 +858,7 @@ $$
 
 donc $f(y)\in f(x) + W_0$, d’où le résultat.
 
-Démontrons maintenant le théorème 3. Notons Pos$_1(G)_f$ (resp. Pos$_1(G)_c)$ l’ensemble Pos$_1(G)$ muni de la topologie faible (resp. de la topologie de la convergence compacte) ; de même, notons $\mathscr{C}_b(G)_f$ (resp. $\mathscr{C}_b(G)_c)$ l’espace $\mathscr{C}_b(G)$ muni de la topologie faible (resp. de la topologie de la convergence compacte).
+Démontrons maintenant le théorème 3. Notons Pos$_1(G)_f$ (resp. Pos$_1(G)_c$) l’ensemble Pos$_1(G)$ muni de la topologie faible (resp. de la topologie de la convergence compacte) ; de même, notons $\mathscr{C}_b(G)_f$ (resp. $\mathscr{C}_b(G)_c$) l’espace $\mathscr{C}_b(G)$ muni de la topologie faible (resp. de la topologie de la convergence compacte).
 
 L’application identité de Pos$_1(G)_c$ dans Pos$_1(G)_f$ est continue (lemme 5). Réciproquement, notons $\iota$ l’inclusion de Pos$_1(G)_f$ dans $\mathscr{C}_b(G)_c$. Démontrons que $\iota$ est continue pour conclure la démonstration.
 
@@ -936,7 +936,7 @@ puisque $\nu$ est une mesure positive. La transformée de Fourier de $\nu$ est d
 
 Démontrons la réciproque. Munissons l’ensemble Pos$_{\leqslant 1}(\widehat{G})$ de la topologie faible, induite comme précédemment par la topologie faible $\sigma (L^{\infty}(\widehat{G}),L^1(\widehat{G}))$. L’ensemble Pos$_{\leqslant 1}(\widehat{G})$ est compact et convexe (cor. de la prop. 13 de V, p. 448). D’après la prop. 14 de V, p. 450, la prop. 11 de V, p. 444 et le cor. 7 de V, p. 390, les points extrémaux de Pos$_{\leqslant 1}(\widehat{G})$ sont la fonction nulle et les éléments de $\widehat{G}$.
 
-Soit $\mathscr{N}$ l’ensemble des mesures positives bornées de masse $\leqslant 1$ sur G ; il est compact dans $\mathscr{M}^1(G)$ muni de la topologie faible (EVT, III, p. 17, cor. 3). D’après le lemme 9 et la première partie de la preuve, la transformation de Fourier sur G définit par passage aux sous-espaces une application continue de $\mathscr{N}$ dans Pos$_{\leqslant 1}(\widehat{G})$; par homogénéité, il suffit de démontrer que cette application est surjective. L’image $\mathscr{F}(\mathscr{N})$ de $\mathscr{N}$ par la transformation de Fourier est convexe et compacte ; elle contient la fonction nulle et les éléments de $\widehat{G}$ (en effet, ceux-ci sont de la forme ev$_x:\chi \mapsto \chi (x)$ pour un élément $x$ de G d’après le th. 2 de II, p. 220, et on a ev$_x=\mathscr{F}(\varepsilon_{x^{-1}}))$. L’ensemble $\mathscr{F}(\mathscr{N})$ contient donc les points extrémaux de Pos$_{\leqslant 1}$(G), d’où $\mathscr{F}(\mathscr{N}) =$ Pos$_{\leqslant 1}(G)$ d’après le théorème de Krein–Milman (EVT, II, p. 59, th. 1). Cela conclut la démonstration.
+Soit $\mathscr{N}$ l’ensemble des mesures positives bornées de masse $\leqslant 1$ sur G ; il est compact dans $\mathscr{M}^1(G)$ muni de la topologie faible (EVT, III, p. 17, cor. 3). D’après le lemme 9 et la première partie de la preuve, la transformation de Fourier sur G définit par passage aux sous-espaces une application continue de $\mathscr{N}$ dans Pos$_{\leqslant 1}(\widehat{G})$; par homogénéité, il suffit de démontrer que cette application est surjective. L’image $\mathscr{F}(\mathscr{N})$ de $\mathscr{N}$ par la transformation de Fourier est convexe et compacte ; elle contient la fonction nulle et les éléments de $\widehat{G}$ (en effet, ceux-ci sont de la forme ev$_x:\chi \mapsto \chi (x)$ pour un élément $x$ de G d’après le th. 2 de II, p. 220, et on a ev$_x=\mathscr{F}(\varepsilon_{x^{-1}})$). L’ensemble $\mathscr{F}(\mathscr{N})$ contient donc les points extrémaux de Pos$_{\leqslant 1}$(G), d’où $\mathscr{F}(\mathscr{N}) =$ Pos$_{\leqslant 1}(G)$ d’après le théorème de Krein–Milman (EVT, II, p. 59, th. 1). Cela conclut la démonstration.
 
 Lorsque $G =\mathbf{R}^k$ pour un entier $k\in \mathbf{N}$, ce théorème correspond à la prop. 11 de INT, IX, p. 94, § 6, n$^o12$.
 

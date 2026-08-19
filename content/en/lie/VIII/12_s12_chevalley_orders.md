@@ -45,7 +45,7 @@ subsections:
       pdf_page: 195
 statements: 34
 exercises: 0
-content_sha256: 70a1fda9bcbbb0cd2eeac99519c309fa26bdd55024e115fc44209044500844e5
+content_sha256: 885359a9c4e02d6b1527af01d724b4902eb3a452b5e0d78c02818d8657250018
 ---
 
 ## § 12. CHEVALLEY ORDERS
@@ -140,7 +140,7 @@ the product being calculated in $U(\mathfrak{g})$ in accordance with the ordered
 
 Let $\mathscr{U}$ be a biorder in the bigebra $U(\mathfrak{g})$. Let $\mathscr{G}=\mathscr{U}\cap \mathfrak{g}$, which is an order in the Lie algebra $\mathfrak{g}$. Let $(x_i)_{i\in I}$ be a basis of $\mathscr{G}$. Give I a total order, and assume that we are given, for all $\mathbf{n}\in \mathbf{N}^I$, an element $[\mathbf{n}]$ of $\mathscr{U}$ such that $[\mathbf{n}]-\mathbf{x}^{(\mathbf{n})}$ has filtration $<|\mathbf{n}|$ in $U(\mathfrak{g})$. Then, the family of the $[\mathbf{n}]$ for $\mathbf{n}\in \mathbf{N}^I$ is a basis of the $\mathbf{Z}$-module $\mathscr{U}$.
 
-For $p\in \mathbf{N}$, let $U_p(\mathfrak{g})$ be the set of elements of $U(\mathfrak{g})$ of filtration $\leq p$; then the images in $U_p(\mathfrak{g})/U_{p-1}(\mathfrak{g})$ of the $\mathbf{x}^{(\mathbf{n})}$ such that $|\mathbf{n}|=p$ form a basis of this $\mathbf{Q}$-vector space (Chap. I, §2, no. 7, Th. 1); hence the $[\mathbf{n}]$ form a basis of the $\mathbf{Q}$-vector space $U(\mathfrak{g})$. It remains to prove the following assertion (in which we put $M =\mathbf{N}^I):$
+For $p\in \mathbf{N}$, let $U_p(\mathfrak{g})$ be the set of elements of $U(\mathfrak{g})$ of filtration $\leq p$; then the images in $U_p(\mathfrak{g})/U_{p-1}(\mathfrak{g})$ of the $\mathbf{x}^{(\mathbf{n})}$ such that $|\mathbf{n}|=p$ form a basis of this $\mathbf{Q}$-vector space (Chap. I, §2, no. 7, Th. 1); hence the $[\mathbf{n}]$ form a basis of the $\mathbf{Q}$-vector space $U(\mathfrak{g})$. It remains to prove the following assertion (in which we put $M =\mathbf{N}^I$)$:$
 
 (*) if $u\in \mathscr{U}, (a_{\mathbf{n}})\in \mathbf{Z}^{(M)}$, and $d\in$ **N --**$\{0\}$ are such that
 
@@ -156,7 +156,7 @@ $$
 c_i:\mathscr{U}\rightarrow \mathbf{T}^r(\mathscr{U}) =\mathscr{U}\otimes \mathscr{U}\otimes  \cdots  \otimes \mathscr{U}
 $$
 
-by definition, $c_0$ is the counit of $\mathscr{U},c_1=$ Id$_{\mathscr{U}},c_2=c$ (the coproduct of $\mathscr{U})$, and, for $r\geq 2,c_{r+1}$ is defined as the composite $p\circ (c_r\otimes 1)\circ c:$
+by definition, $c_0$ is the counit of $\mathscr{U},c_1=$ Id$_{\mathscr{U}},c_2=c$ (the coproduct of $\mathscr{U}$), and, for $r\geq 2,c_{r+1}$ is defined as the composite $p\circ (c_r\otimes 1)\circ c:$
 
 $$
 \mathscr{U}\longrightarrow^c\mathscr{U}\otimes_{\mathbf{Z}}\mathscr{U}^c\longrightarrow^{^r\otimes 1}\mathbf{T}^r(\mathscr{U})\otimes_{\mathbf{Z}}\mathscr{U}\longrightarrow^p\mathbf{T}^{r+1}(\mathscr{U})
@@ -210,7 +210,7 @@ $$
 e_{\varphi}=x_{\varphi(1)}\otimes  \cdots  \otimes x_{\varphi(r)}
 $$
 
-and $a_{\varphi}=a_{\mathbf{n}}$ where $\mathbf{n}=$ (Card$\varphi^{-1}(i))_{i\in I}$. By Lemma 1, (9) implies that
+and $a_{\varphi}=a_{\mathbf{n}}$ where $\mathbf{n}=$ (Card$\varphi^{-1}(i)$)$_{i\in I}$. By Lemma 1, (9) implies that
 
 $$
 dc^+_r(u') =\sum_{\varphi\in I^r}a_{\varphi}e_{\varphi} \tag{10}
@@ -282,27 +282,27 @@ In this number, A denotes a unital associative algebra. If $x\in A$, we write ad
 
 If $x, y\in A$ and $n\in \mathbf{N}$,
 
-(ad$nx$! $)^ny=\sum(-1)^qxp^p$! $yxq^q$! = $\sum(-1)^qx^{(p)}yx^{(q)}$. (11)
+(ad$nx$! )$^ny=\sum(-1)^qxp^p$! $yxq^q$! = $\sum(-1)^qx^{(p)}yx^{(q)}$. (11)
 
 $p+q=np+q=n$
 
 Indeed, if we denote by $L_x$ and $R_x$ the maps $z \rightarrow xz$ and $z \rightarrow zx$ from A to A, we have, since $L_x$ and $R_x$ commute,
 
-$n1$!(ad $x)^n=n1$!$(L_x-R_x)^n=\sum_{p+q=n}(-1)^qp1$! $L^p_xq1$! $R^q_x$.
+$n1$!(ad $x$)$^n=n1$!$(L_x-R_x)^n=\sum_{p+q=n}(-1)^qp1$! $L^p_xq1$! $R^q_x$.
 
 #### Lemma 3 {#lie-viii-s12-lem-3 .statement tag=0181}
 
-Let $x, h\in A$ and $\lambda \in k$ be such that (ad $h)x=\lambda x$. For all $n\in \mathbf{N}$, and all $P\in k[X]$, we have
+Let $x, h\in A$ and $\lambda \in k$ be such that (ad $h$)$x=\lambda x$. For all $n\in \mathbf{N}$, and all $P\in k[X]$, we have
 
 $$
 P(h)x^{(n)}=x^{(n)}P(h+n\lambda ) \tag{12}
 $$
 
-Since ad $h$ is a derivation of A and since (ad $h)x$ commutes with $x$, we have
+Since ad $h$ is a derivation of A and since (ad $h$)$x$ commutes with $x$, we have
 
-(ad $h)x^n=nx^{n-1}$((ad $h)x) =n\lambda x^n$, (13) so
+(ad $h$)$x^n=nx^{n-1}$((ad $h$)$x$) $=n\lambda x^n$, (13) so
 
-(ad $h)x^{(n)}=n\lambda x^{(n)}$.
+(ad $h$)$x^{(n)}=n\lambda x^{(n)}$.
 
 Thus, formula (12) follows from the special case
 
@@ -348,7 +348,7 @@ $$
 _{(n)(m)}\sum_{(m-p)}(m+n-p-1-h)_{(n-p)}
 $$
 
-(ad $x)y$ = $yx.(17_m)$
+(ad $x$)$y$ = $yx.(17_m)$
 
 $$
 p
@@ -358,7 +358,7 @@ $p\geq 1$
 
 This is trivial for $m= 0$. We argue by induction on $m$. From $(17_m)$, we obtain
 
-$(m+$ 1)(ad $x^{(n)})y^{(m+1)}=$ (ad $x^{(n)})y^{(m)}.y+y^{(m)}$.(ad $x^{(n)})y$ (18)
+$(m+$ 1)(ad $x^{(n)}$)$y^{(m+1)}=$ (ad $x^{(n)}$)$y^{(m)}.y+y^{(m)}$.(ad $x^{(n)}$)$y$ (18)
 
 $$
 _{(m-p)}(m+n-p-1-h)_{(n-p)(m)}-
@@ -424,7 +424,7 @@ $$
 
 Inserting this into (18), we obtain
 
-$(m+$ 1)(ad $x^{(n)})y^{(m+1)}$
+$(m+$ 1)(ad $x^{(n)}$)$y^{(m+1)}$
 
 $$
 _-(m+n-p+ 1-h)_-
@@ -480,7 +480,7 @@ $$
 
 $p\geq 0$ Changing $p$ to $p-1$ in the second sum, and regrouping the terms, we obtain
 
-$(m+$ 1)(ad $x^{(n)})y^{(m+1)}=\sum_{p\geq 1}y^{(m-p+1)}A_px^{(n-p)}$ (19)
+$(m+$ 1)(ad $x^{(n)}$)$y^{(m+1)}=\sum_{p\geq 1}y^{(m-p+1)}A_px^{(n-p)}$ (19)
 
 with
 
@@ -550,7 +550,7 @@ Let $\mathfrak{g}$ be a reductive Lie algebra over $\mathbf{Q},\mathfrak{h}$ a s
 
 #### Definition 1 {#lie-viii-s12-def-1 .statement tag=0183}
 
-A lattice $\mathscr{H}$ in $\mathfrak{h}$ is said to be permissible (relative to $\mathfrak{g})$ if, for all $\alpha \in R$, we have $H_{\alpha}\in \mathscr{H}$ and $\alpha (\mathscr{H})\subset \mathbf{Z}$.
+A lattice $\mathscr{H}$ in $\mathfrak{h}$ is said to be permissible (relative to $\mathfrak{g}$) if, for all $\alpha \in R$, we have $H_{\alpha}\in \mathscr{H}$ and $\alpha (\mathscr{H})\subset \mathbf{Z}$.
 
 #### Remark 1 {#lie-viii-s12-n6-rem-1 .statement tag=0184}
 
@@ -570,7 +570,7 @@ $$
 y_{\alpha}\in \mathfrak{g}^{-\alpha},x_{\alpha}\in \mathfrak{g}^{\alpha},[y_{\alpha}, x_{\alpha}] =H_{\alpha} \tag{20}
 $$
 
-If we denote by $\mathfrak{n}_+$ (resp. $\mathfrak{n}_-)$ the subalgebra of $\mathfrak{g}$ generated by the $x_{\alpha}$ (resp. the $y_{\alpha})$, we know (§3, no. 3, Prop. 9 (iii)) that
+If we denote by $\mathfrak{n}_+$ (resp. $\mathfrak{n}_-$) the subalgebra of $\mathfrak{g}$ generated by the $x_{\alpha}$ (resp. the $y_{\alpha}$), we know (§3, no. 3, Prop. 9 (iii)) that
 
 $$
 \mathfrak{g}=\mathfrak{n}_-\oplus \mathfrak{h}\oplus \mathfrak{n}_+ \tag{21}
@@ -580,7 +580,7 @@ $$
 U(\mathfrak{g}) = U(\mathfrak{n}_-)\otimes_{\mathbf{Q}}U(\mathfrak{h})\otimes_{\mathbf{Q}}U(\mathfrak{n}_+) \tag{22}
 $$
 
-(where $U(\mathfrak{g}), . .$. are the enveloping algebras of $\mathfrak{g}, . . .)$.
+(where $U(\mathfrak{g}), . .$. are the enveloping algebras of $\mathfrak{g}, . . .$).
 
 Denote by $\mathscr{U}_+$ the $\mathbf{Z}$-subalgebra of $U(\mathfrak{n}_+)$ generated by the $x^{(n)}_{\alpha}$ for $\alpha \in B$ and $n\in \mathbf{N}$. Let W be the Weyl group of $R, R_+$ the set of positive roots relative to B.
 
@@ -716,7 +716,7 @@ By Prop. 5 of §4, no. 4, there exists a unique automorphism $\theta$ of $\mathf
 
 #### Corollary 1 {#lie-viii-s12-prop-3-cor-1 .statement tag=018A}
 
-Put $\mathscr{G}=\mathscr{U}\cap \mathfrak{g}$. Then $\mathscr{G}$ is an order in the Lie algebra $\mathfrak{g}$, stable under $\theta$. We have $\mathscr{G}=\mathscr{H}+\sum_{\alpha\in R}(\mathscr{G}\cap \mathfrak{g}^{\alpha})$. For all $\alpha \in B$ and all $n\in \mathbf{N}$, the maps (ad $x_{\alpha})^n/n$!, (ad $y_{\alpha})^n/n$! leave $\mathscr{U}$ and $\mathscr{G}$ stable.
+Put $\mathscr{G}=\mathscr{U}\cap \mathfrak{g}$. Then $\mathscr{G}$ is an order in the Lie algebra $\mathfrak{g}$, stable under $\theta$. We have $\mathscr{G}=\mathscr{H}+\sum_{\alpha\in R}(\mathscr{G}\cap \mathfrak{g}^{\alpha})$. For all $\alpha \in B$ and all $n\in \mathbf{N}$, the maps (ad $x_{\alpha}$)$^n/n$!, (ad $y_{\alpha}$)$^n/n$! leave $\mathscr{U}$ and $\mathscr{G}$ stable.
 
 The first assertion is clear. The second follows by considering the graduation of type Q(R) on $U(\mathfrak{g})$ and $\mathscr{U}$. The third follows from Lemma 2 of no. 5.
 
@@ -724,13 +724,13 @@ The first assertion is clear. The second follows by considering the graduation o
 
 Let $w\in W$. There exists an elementary automorphism $\varphi$ of $\mathfrak{g}$ that commutes with $\theta$, leaves $\mathscr{G}$ and $\mathscr{U}$ stable, and extends $w$.
 
-It suffices to treat the case in which $w$ is of the form $s_{\alpha}(\alpha \in B)$. Note first of all that ad $x_{\alpha}$ and ad $y_{\alpha}$ are locally nilpotent on $U(\mathfrak{g})$, in other words that for all $u\in U(\mathfrak{g})$ there exists an integer $n$ such that (ad $x_{\alpha})^nu=$ (ad $y_{\alpha})^nu= 0$.
+It suffices to treat the case in which $w$ is of the form $s_{\alpha}(\alpha \in B)$. Note first of all that ad $x_{\alpha}$ and ad $y_{\alpha}$ are locally nilpotent on $U(\mathfrak{g})$, in other words that for all $u\in U(\mathfrak{g})$ there exists an integer $n$ such that (ad $x_{\alpha}$)$^nu=$ (ad $y_{\alpha}$)$^nu= 0$.
 
-This enables us to define the automorphisms $e^{adx_{\alpha}}=\sum_{n=0}^{\infty}\frac{1}{n!}$(ad $x_{\alpha})^n$ and $e^{ady_{\alpha}}$ of $U(\mathfrak{g})$; we verify immediately that these automorphisms of $U(\mathfrak{g})$ leave $\mathscr{U}$ stable. Put $\varphi_1=e^{adx_{\alpha}}e^{ady_{\alpha}}e^{adx_{\alpha}},\varphi_2=e^{ady_{\alpha}}e^{adx_{\alpha}}e^{ady_{\alpha}}$. We have $\varphi_1|\mathfrak{g}=$ $\varphi_2|\mathfrak{g}($§2, no. 2, formula (1)), so $\varphi_1=\varphi_2$. Put $\varphi_1=\varphi_2=\varphi$. We have $\theta \varphi \theta^{-1}=\varphi$, so $\theta$ and $\varphi$ commute. On the other hand, $\varphi |\mathfrak{h}=w$ by §2, no. 2, Lemma 1.
+This enables us to define the automorphisms $e^{adx_{\alpha}}=\sum_{n=0}^{\infty}\frac{1}{n!}$(ad $x_{\alpha}$)$^n$ and $e^{ady_{\alpha}}$ of $U(\mathfrak{g})$; we verify immediately that these automorphisms of $U(\mathfrak{g})$ leave $\mathscr{U}$ stable. Put $\varphi_1=e^{adx_{\alpha}}e^{ady_{\alpha}}e^{adx_{\alpha}},\varphi_2=e^{ady_{\alpha}}e^{adx_{\alpha}}e^{ady_{\alpha}}$. We have $\varphi_1|\mathfrak{g}=$ $\varphi_2|\mathfrak{g}($§2, no. 2, formula (1)), so $\varphi_1=\varphi_2$. Put $\varphi_1=\varphi_2=\varphi$. We have $\theta \varphi \theta^{-1}=\varphi$, so $\theta$ and $\varphi$ commute. On the other hand, $\varphi |\mathfrak{h}=w$ by §2, no. 2, Lemma 1.
 
 #### Corollary 3 {#lie-viii-s12-prop-3-cor-3 .statement tag=018C}
 
-Let $\alpha \in R$. If $x\in \mathscr{G}\cap \mathfrak{g}^{\alpha}$ and $n\in \mathbf{N}$, we have $x^{(n)}\in \mathscr{U}$, and (ad $x)^n/n$! leaves $\mathscr{G}$ and $\mathscr{U}$ stable.
+Let $\alpha \in R$. If $x\in \mathscr{G}\cap \mathfrak{g}^{\alpha}$ and $n\in \mathbf{N}$, we have $x^{(n)}\in \mathscr{U}$, and (ad $x$)$^n/n$! leaves $\mathscr{G}$ and $\mathscr{U}$ stable.
 
 This is clear if $\alpha \in B$, by construction of $\mathscr{U}$ and Cor. 1. In the general case, there exists $w\in W$ such that $w(\alpha )\in B$ (Chap. VI, §1, no. 5, Prop. 15). By Cor. 2, there exists an automorphism $\varphi$ of $\mathfrak{g}$ that leaves $\mathscr{G}$ and $\mathscr{U}$ stable and takes $\mathfrak{g}^{\alpha}$ to $\mathfrak{g}^{w(\alpha)}$, hence the corollary by transport of structure.
 
@@ -780,7 +780,7 @@ Put $\mathscr{G}=\mathscr{H}\oplus \sum_{\alpha\in R}\mathscr{G}^{\alpha}$. This
 
 of $U(\mathfrak{g})$ generated by the $(^h_n)(h\in \mathscr{H}, n\in \mathbf{N})$ and the $x^{(n)}(x\in \mathscr{G}^{\alpha}, \alpha \in R$, $n\in \mathbf{N})$. Finally, for $\alpha \in R$ and $x\in \mathfrak{g}^{\alpha}$ **--** $\{0\}$, put
 
-$w_{\alpha}(x) =$ (exp ad $x$)(exp ad $y$)(exp ad $x)$,
+$w_{\alpha}(x) =$ (exp ad $x$)(exp ad $y$)(exp ad $x$),
 
 where $y$ is the unique element of $\mathfrak{g}^{-\alpha}$ such that $[y, x] =H_{\alpha}$. With these notations:
 
@@ -792,7 +792,7 @@ The following conditions are equivalent:
 
 (ii) $\mathscr{U}\cap \mathfrak{g}=\mathscr{G}$ and $[\mathscr{G}^{\alpha},\mathscr{G}^{-\alpha}] =\mathbf{Z}H_{\alpha}$ for all $\alpha \in R$.
 
-(iii) For all $\alpha \in R, x\in \mathscr{G}^{\alpha}, n\in \mathbf{N}$, the endomorphism (ad $x)^n/n$! of $\mathfrak{g}$ maps $\mathscr{G}$ to $\mathscr{G}$, and $[\mathscr{G}^{\alpha},\mathscr{G}^{-\alpha}] =\mathbf{Z}H_{\alpha}$.
+(iii) For all $\alpha \in R, x\in \mathscr{G}^{\alpha}, n\in \mathbf{N}$, the endomorphism (ad $x$)$^n/n$! of $\mathfrak{g}$ maps $\mathscr{G}$ to $\mathscr{G}$, and $[\mathscr{G}^{\alpha},\mathscr{G}^{-\alpha}] =\mathbf{Z}H_{\alpha}$.
 
 (iv) For all $\alpha \in R$ and every basis $x$ of $\mathscr{G}^{\alpha},w_{\alpha}(x)$ maps $\mathscr{G}$ to $\mathscr{G}($that is, maps $\mathscr{G}^{\beta}$ to $\mathscr{G}^{s_{\alpha}(\beta)}$ for all $\beta \in R)$.
 
@@ -802,7 +802,7 @@ The following conditions are equivalent:
 
 (iii) $=\Rightarrow$ (iv): let $\alpha \in R$ and let $x$ be a basis of $\mathscr{G}^{\alpha}$. Since $[\mathscr{G}^{\alpha},\mathscr{G}^{-\alpha}] =\mathbf{Z}H_{\alpha}$, the unique $y\in \mathfrak{g}^{-\alpha}$ such that $[y, x] =H_{\alpha}$ belongs to $\mathscr{G}^{-\alpha}$. Since exp ad $x$ and exp ad $y$ leave $\mathscr{G}$ stable by (iii), so does $w_{\alpha}(x)$.
 
-(iv) $=\Rightarrow$ (i): let B be a basis of R. Choose a basis $x_{\alpha}$ of $\mathscr{G}^{\alpha}$ for all $\alpha \in B$. Let $y_{\alpha}\in \mathscr{G}^{-\alpha}$ be such that $[y_{\alpha}, x_{\alpha}] =H_{\alpha}$. By §1, no. 5, formulas (5), we have $y_{\alpha}=w_{\alpha}(x_{\alpha}).x_{\alpha}$ so $y_{\alpha}$ is a basis of $\mathscr{G}^{-\alpha}$ by (iv). Let $\mathscr{G}'$ be the order in $\mathfrak{g}$ defined by $\mathscr{H}$, the $x_{\alpha}$ and the $y_{\alpha}$ (no. 6, Cor. 1 of Prop. 3). Then $\mathscr{G}'$ is stable under the (ad $x_{\alpha})^n/n$!, (ad $y_{\alpha})^n/n$! (loc. cit.), and hence under the $w_{\alpha}(x_{\alpha})$.
+(iv) $=\Rightarrow$ (i): let B be a basis of R. Choose a basis $x_{\alpha}$ of $\mathscr{G}^{\alpha}$ for all $\alpha \in B$. Let $y_{\alpha}\in \mathscr{G}^{-\alpha}$ be such that $[y_{\alpha}, x_{\alpha}] =H_{\alpha}$. By §1, no. 5, formulas (5), we have $y_{\alpha}=w_{\alpha}(x_{\alpha}).x_{\alpha}$ so $y_{\alpha}$ is a basis of $\mathscr{G}^{-\alpha}$ by (iv). Let $\mathscr{G}'$ be the order in $\mathfrak{g}$ defined by $\mathscr{H}$, the $x_{\alpha}$ and the $y_{\alpha}$ (no. 6, Cor. 1 of Prop. 3). Then $\mathscr{G}'$ is stable under the (ad $x_{\alpha}$)$^n/n$!, (ad $y_{\alpha}$)$^n/n$! (loc. cit.), and hence under the $w_{\alpha}(x_{\alpha})$.
 
 Now let $\beta \in R$. There exist $\alpha_0, \alpha_1, . . . , \alpha_r\in B$ such that
 
@@ -846,7 +846,7 @@ $$
 \mathscr{U}= (\mathscr{U}\cap U(\mathfrak{n}_-)).(\mathscr{U}\cap U(\mathfrak{h})).(\mathscr{U}\cap U(\mathfrak{n}_+))
 $$
 
-Let $(h_i)_{i\in I}$ be a basis of $\mathscr{H}$. For all $\alpha \in R$, let $X_{\alpha}$ be a basis of $\mathscr{G}^{\alpha}$. Give the set $I\cup R$ a total order (we assume that $I\cap R =\emptyset )$. For $\lambda \in I\cup R$ and $n\in \mathbf{N}$, put $e^{\langle n\rangle}_{\lambda}=(^{h_{\lambda}}_n)$ if $\lambda \in I,e^{\langle n\rangle}_{\lambda}=X_{\lambda}^{(n)}$ if $\lambda \in R$. Then the products $\prod_{\lambda\in I\cup R}e^{\langle n_{\lambda}\rangle}_{\lambda}$, where $(n_{\lambda})$ belongs to $\mathbf{N}^{I\cup R}$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}$. The
+Let $(h_i)_{i\in I}$ be a basis of $\mathscr{H}$. For all $\alpha \in R$, let $X_{\alpha}$ be a basis of $\mathscr{G}^{\alpha}$. Give the set $I\cup R$ a total order (we assume that $I\cap R =\emptyset$ ). For $\lambda \in I\cup R$ and $n\in \mathbf{N}$, put $e^{\langle n\rangle}_{\lambda}=(^{h_{\lambda}}_n)$ if $\lambda \in I,e^{\langle n\rangle}_{\lambda}=X_{\lambda}^{(n)}$ if $\lambda \in R$. Then the products $\prod_{\lambda\in I\cup R}e^{\langle n_{\lambda}\rangle}_{\lambda}$, where $(n_{\lambda})$ belongs to $\mathbf{N}^{I\cup R}$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}$. The
 
 products $\prod_{\lambda\in I}(^{h_{\lambda}}_{n_{\lambda}})$, where $(n_{\lambda})$ belongs to $\mathbf{N}^I$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}\cap U(\mathfrak{h})$. The products $\prod_{\lambda\in R_+}X_{\lambda}^{(n_{\lambda})}$, where $(n_{\lambda})$ belongs to $\mathbf{N}^{R_+}$, form a basis of the $\mathbf{Z}$-module $\mathscr{U}\cap U(\mathfrak{n}_+)$.
 
@@ -928,13 +928,13 @@ We have $P(\mathbf{Z})\subset \mathbf{Z},P(\lambda ) = 1,P(\mu) = 0$ for $\mu\in
 
 #### Remark 1 {#lie-viii-s12-n8-rem-1 .statement tag=018L}
 
-If we only assume that $v$ is diagonalizable with integer eigenvalues, $u$ is not necessarily diagonalizable (for example, take $M =\mathbf{Z}^2$ and $u(x, y) =$ $(y, x)$ for all $(x, y)\in M)$.
+If we only assume that $v$ is diagonalizable with integer eigenvalues, $u$ is not necessarily diagonalizable (for example, take $M =\mathbf{Z}^2$ and $u(x, y) =$ $(y, x)$ for all $(x, y)\in M$).
 
 Let $\mathfrak{g},\mathfrak{h},R,\mathscr{H},\mathscr{G}^{\alpha},\mathscr{G},\mathscr{U}$ be as in no. 7, and assume that $\mathscr{G}$ is a Chevalley order in $(\mathfrak{g},\mathfrak{h})$.
 
 #### Definition 3 {#lie-viii-s12-def-3 .statement tag=018M}
 
-Let E be a $\mathfrak{g}$-module. A lattice $\mathscr{E}$ in E is said to be admissible (relative to $\mathscr{G})$ if the following conditions are satisfied:
+Let E be a $\mathfrak{g}$-module. A lattice $\mathscr{E}$ in E is said to be admissible (relative to $\mathscr{G}$) if the following conditions are satisfied:
 
 (i) $\mathscr{U}$ maps $\mathscr{E}$ to $\mathscr{E}$;
 

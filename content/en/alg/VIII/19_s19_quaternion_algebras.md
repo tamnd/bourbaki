@@ -34,7 +34,7 @@ subsections:
       pdf_page: 384
 statements: 16
 exercises: 8
-content_sha256: 553fc76112f8cdd33b8c2aeedb7c0013e2a2ca7e5c68f3674c8d5a480b4bb84e
+content_sha256: ae4aa5e80f128f89e1bfd9c883c6b5e3e27a25658be7e13fea490e2263cc2806
 ---
 
 ## § 19. QUATERNION ALGEBRAS
@@ -67,7 +67,7 @@ $$
 
 The characteristic polynomial of an element $q$ of F is equal to $(X^2-T_F(q)X + N_F(q))^2$.
 
-By the above, the algebra F is a free right E-module with basis $(1, j)$. Consequently, F[X] is a free right E[X]-module with basis $(1, j)$. We denote by $u$ the endomorphism of the right E[X]-module F[X] defined by $u(P) =$ $(X-q)P$ for $P\in F[X]$. The characteristic polynomial of $q$ is the determinant of $u$ viewed as an endomorphism of the K[X]-module F[X]. By Proposition 6 of III, §9, No. 4, p. 546, it is equal to N(det $u)$, where N denotes the norm from E[X] to K[X]. Let us write $q$ as $x+jy$ with $x, y\in E$. The matrix of $u$ with respect to the basis $(1, j)$ is $\begin{pmatrix} X-x & -\gamma y \\ -y & X-\overline{x} \end{pmatrix}$ ; its determinant is equal to $D = (X-x)(X-\overline{x})-\gamma yy= X^2-T_F(q)X + N_F(q)$ (cf. formula (3)). Since D belongs to K[X], we have $N(D) = D^2$; Proposition 1 follows.
+By the above, the algebra F is a free right E-module with basis $(1, j)$. Consequently, F[X] is a free right E[X]-module with basis $(1, j)$. We denote by $u$ the endomorphism of the right E[X]-module F[X] defined by $u(P) =$ $(X-q)P$ for $P\in F[X]$. The characteristic polynomial of $q$ is the determinant of $u$ viewed as an endomorphism of the K[X]-module F[X]. By Proposition 6 of III, §9, No. 4, p. 546, it is equal to N(det $u$), where N denotes the norm from E[X] to K[X]. Let us write $q$ as $x+jy$ with $x, y\in E$. The matrix of $u$ with respect to the basis $(1, j)$ is $\begin{pmatrix} X-x & -\gamma y \\ -y & X-\overline{x} \end{pmatrix}$ ; its determinant is equal to $D = (X-x)(X-\overline{x})-\gamma yy= X^2-T_F(q)X + N_F(q)$ (cf. formula (3)). Since D belongs to K[X], we have $N(D) = D^2$; Proposition 1 follows.
 
 #### Remark 1 {#alg-viii-s19-n1-rem-1 .statement tag=00LR}
 
@@ -83,7 +83,7 @@ Let $q$ be an element of F. Then $q$ is nilpotent if and only if its characteris
 
 #### Example {#alg-viii-s19-n1-exa-1 .statement tag=00LU}
 
-The matrix algebra $\mathbf{M}_2(K)$ is isomorphic to the quaternion algebra of type $(0,1,1)$. Indeed, consider the quadratic algebra $E = K\times K$ (of type $(0,1))$ and the quaternion algebra $F = E + Ej$, which is the Cayley extension of E defined by the element $\gamma = 1$. The mapping $(a, b)\mapsto \begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix}$ is an algebra homomorphism from E to $\mathbf{M}_2(K)$. Since for $a, b$ in K, we have
+The matrix algebra $\mathbf{M}_2(K)$ is isomorphic to the quaternion algebra of type $(0,1,1)$. Indeed, consider the quadratic algebra $E = K\times K$ (of type $(0,1)$) and the quaternion algebra $F = E + Ej$, which is the Cayley extension of E defined by the element $\gamma = 1$. The mapping $(a, b)\mapsto \begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix}$ is an algebra homomorphism from E to $\mathbf{M}_2(K)$. Since for $a, b$ in K, we have
 
 $$
 (01)((01)(10)(01)((a0)(b0)((01)
@@ -273,7 +273,7 @@ The above applies to the field $\mathbf{R}$ of real numbers. Every $\mathbf{R}$-
 
 #### Remark 3 {#alg-viii-s19-n5-rem-3 .statement tag=00M4}
 
-Let A be a normed algebra over the field $\mathbf{R}$. Suppose that A is a field. Then A is isomorphic to $\mathbf{R},\mathbf{C}$, or $\mathbf{H}$ (“Gelfand–Mazur theorem”) (cf. Comm. Alg., VI, §6, No. 4, p. 407, Theorem 1 and TS, I, §2, n$^o5$, p. 26, corollaire $2).*$
+Let A be a normed algebra over the field $\mathbf{R}$. Suppose that A is a field. Then A is isomorphic to $\mathbf{R},\mathbf{C}$, or $\mathbf{H}$ (“Gelfand–Mazur theorem”) (cf. Comm. Alg., VI, §6, No. 4, p. 407, Theorem 1 and TS, I, §2, n$^o5$, p. 26, corollaire $2$)$.*$
 
 ### Exercises {#alg-viii-s19-exercises}
 

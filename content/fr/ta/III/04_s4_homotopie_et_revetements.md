@@ -29,7 +29,7 @@ subsections:
       pdf_page: 321
 statements: 16
 exercises: 1
-content_sha256: a4835c562bb735697c22647f5e61b6f4c0e2644f10f30d7f66520c829e285683
+content_sha256: a750048c9fd54f1eedac19d785b692367add6fdf7ee793afa41d547643b4161e
 ---
 
 ## § 4. HOMOTOPIE ET REVÊTEMENTS
@@ -220,7 +220,7 @@ $$
 \varphi (x, f)\cdot \gamma =\varphi (x\cdot \gamma , f) =\varphi (x\cdot h_{(E,x)}(\gamma )^{-1}, f) =\varphi (x, h_{(E,x)}(\gamma^{-1})\cdot f)
 $$
 
-Si l’on identifie F à $X_b$ par l’application bijective $f\mapsto \varphi (x, f)$, il en résulte que l’opération à droite $\pi_1(B, b)\rightarrow$ Aut(X$_b)^{\circ}$ est la composée de l’homomorphisme $h_{(E,x)}$, de l’antihomomorphisme $g\mapsto g^{-1}$ de G dans lui-même et de l’homomorphisme $G\rightarrow$ Aut(F) déduit de l’opération de G sur F.
+Si l’on identifie F à $X_b$ par l’application bijective $f\mapsto \varphi (x, f)$, il en résulte que l’opération à droite $\pi_1(B, b)\rightarrow$ Aut(X$_b$)$^{\circ}$ est la composée de l’homomorphisme $h_{(E,x)}$, de l’antihomomorphisme $g\mapsto g^{-1}$ de G dans lui-même et de l’homomorphisme $G\rightarrow$ Aut(F) déduit de l’opération de G sur F.
 
 #### Exemple 2 {#ta-iii-s4-n4-exa-2 .statement tag=01ZK}
 

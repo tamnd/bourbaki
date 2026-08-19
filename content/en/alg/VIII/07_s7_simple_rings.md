@@ -30,7 +30,7 @@ subsections:
       pdf_page: 143
 statements: 24
 exercises: 16
-content_sha256: 13a105e1ae4a8f7b21014f593edf1d71da3a94fc4158a3550efe2776d02521b0
+content_sha256: 0477da2a1cd441904c225c6cad3222346fc38778e44066ddeda16e447e7b81dd
 ---
 
 ## § 7. SIMPLE RINGS
@@ -239,7 +239,7 @@ Let K be a commutative field. If A is a simple subalgebra of an algebra B of fin
 
 ### 4. Ideals of Simple Rings
 
-Let D be a field and V a right vector space over D of finite dimension $n\geqslant 1$. Consider the simple ring A = End$_D(V)$. For any linear subspace W of V, we denote the set of elements $a$ of A satisfying $aW = 0$ (resp. $aV\subset W)$ by $\mathfrak{a}(W)$ (resp. $\mathfrak{b}(W))$.
+Let D be a field and V a right vector space over D of finite dimension $n\geqslant 1$. Consider the simple ring A = End$_D(V)$. For any linear subspace W of V, we denote the set of elements $a$ of A satisfying $aW = 0$ (resp. $aV\subset W$) by $\mathfrak{a}(W)$ (resp. $\mathfrak{b}(W)$).
 
 #### Proposition 7 {#alg-viii-s7-prop-7 .statement tag=008L}
 

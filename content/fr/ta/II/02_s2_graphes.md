@@ -29,7 +29,7 @@ subsections:
       pdf_page: 173
 statements: 5
 exercises: 12
-content_sha256: a60160d08f9af19c3b933e3876ff52689f4e02484e1e95a7c8874a255f7cf08c
+content_sha256: d6f6affb4b67a412593d410b6a23b13fedad0ca0e860213e6a9b2b8045d76375
 ---
 
 ## § 2. GRAPHES
@@ -46,7 +46,7 @@ Une paire de flèches opposées du graphe s’appelle une arête du graphe. Chac
 
 Si G et $G'$ sont des graphes, un morphisme de graphes de G dans $G'$ est un morphisme de carquois $\varphi : G\rightarrow G'$ tel que $\varphi (f) =\varphi (\overline{f})$ pour toute flèche $f$ de G.
 
-Soient G et $G'$ des graphes ; on dit que $G'$ est un sous-graphe de G si c’en est un sous-carquois et si l’involution de Fl(G$')$ est la restriction de celle de Fl(G).
+Soient G et $G'$ des graphes ; on dit que $G'$ est un sous-graphe de G si c’en est un sous-carquois et si l’involution de Fl(G$'$) est la restriction de celle de Fl(G).
 
 ### 2. Orientation d’un graphe
 
@@ -54,7 +54,7 @@ Soit G un graphe. Une orientation de G est une partie A de l’ensemble des flè
 
 Un graphe muni d’une orientation est appelé graphe orienté.
 
-Soit G un graphe orienté et soit A son orientation ; un sous-graphe orienté de G est un sous-graphe $G'$ de G muni de l’orientation $A'=$ Fl(G$')\cap A$.
+Soit G un graphe orienté et soit A son orientation ; un sous-graphe orienté de G est un sous-graphe $G'$ de G muni de l’orientation $A'=$ Fl(G$'$)$\cap A$.
 
 Soient $(G,A)$ et $(G',A')$ des graphes orientés. Un morphisme de graphes orientés de $(G,A)$ dans $(G',A')$ est un morphisme de graphes $\varphi : G\rightarrow G'$ tel que Fl($\varphi$ )$(A)\subset A'$.
 
@@ -104,7 +104,7 @@ Le sous-graphe de G dont l’ensemble des sommets est Som(G) et dont l’ensembl
 
 Soit A une forêt maximale de G. Démontrons que A et G ont même ensemble de sommets. Le sous-graphe de G dont l’ensemble des sommets est Som(G) et dont l’ensemble des flèches est Fl(A) est une forêt et A en est un sous-graphe. On a donc Som(A) = Som(G).
 
-Démontrons maintenant que A et G ont mêmes composantes connexes. Comme une flèche de A est une flèche de G, toute composante connexe de A est contenue dans une composante connexe de G. Comme A et G ont même ensemble de sommets, il suffit de démontrer que deux sommets de G qui sont dans une même composante connexe de G sont dans une même composante connexe de A. Si ce n’est pas le cas, la relation $R_A$, « être dans la même composante connexe de A », est strictement plus fine que la relation $R_G$, et il existe deux sommets de G qui ne sont pas dans la même composante connexe de A mais qui sont néanmoins reliés par une flèche $f$ de G. Soit B le sous-graphe orienté de G dont l’ensemble des sommets est Som(G) et dont l’ensemble des flèches est Fl(A) $\cup  \{f, f\}$; démontrons que B est une forêt de G. Soit $c= (a_0, f_1, . . . , f_n, a_n)$ un lacet non constant sans aller-retour dans B de longueur minimale. Comme A est une forêt, le lacet $c$ n’est pas un lacet dans A. Soit $i$ (resp. $j)$ le plus petit (resp. le plus grand) entier de $\{0, . . . , n\}$ tel que $a_0$ et $a_i$ (resp. $a_j$ et $a_n)$ ne soient pas dans la même composante connexe de A. Cela signifie que les flèches $f_i$ et $f_{j+1}$ sont des flèches orientées de B associées à l’arête $\{f, f\}$ et qu’elles sont opposées. Comme le lacet $c$ est sans aller-retour, $f_{i+1}=\not\overline{f_i}$, donc $i=\not j$ et le chemin $(a_i, f_{i+1}, a_{i+1}, . . . , f_j, a_j)$ est un lacet sans aller-retour non constant dans B de longueur $< n$, contrairement à l’hypothèse que $c$ est de longueur minimale. Il en résulte que B est une forêt. Ceci contredit l’hypothèse que A est une forêt maximale de G.
+Démontrons maintenant que A et G ont mêmes composantes connexes. Comme une flèche de A est une flèche de G, toute composante connexe de A est contenue dans une composante connexe de G. Comme A et G ont même ensemble de sommets, il suffit de démontrer que deux sommets de G qui sont dans une même composante connexe de G sont dans une même composante connexe de A. Si ce n’est pas le cas, la relation $R_A$, « être dans la même composante connexe de A », est strictement plus fine que la relation $R_G$, et il existe deux sommets de G qui ne sont pas dans la même composante connexe de A mais qui sont néanmoins reliés par une flèche $f$ de G. Soit B le sous-graphe orienté de G dont l’ensemble des sommets est Som(G) et dont l’ensemble des flèches est Fl(A) $\cup  \{f, f\}$; démontrons que B est une forêt de G. Soit $c= (a_0, f_1, . . . , f_n, a_n)$ un lacet non constant sans aller-retour dans B de longueur minimale. Comme A est une forêt, le lacet $c$ n’est pas un lacet dans A. Soit $i$ (resp. $j$) le plus petit (resp. le plus grand) entier de $\{0, . . . , n\}$ tel que $a_0$ et $a_i$ (resp. $a_j$ et $a_n$) ne soient pas dans la même composante connexe de A. Cela signifie que les flèches $f_i$ et $f_{j+1}$ sont des flèches orientées de B associées à l’arête $\{f, f\}$ et qu’elles sont opposées. Comme le lacet $c$ est sans aller-retour, $f_{i+1}=\not\overline{f_i}$, donc $i=\not j$ et le chemin $(a_i, f_{i+1}, a_{i+1}, . . . , f_j, a_j)$ est un lacet sans aller-retour non constant dans B de longueur $< n$, contrairement à l’hypothèse que $c$ est de longueur minimale. Il en résulte que B est une forêt. Ceci contredit l’hypothèse que A est une forêt maximale de G.
 
 Soit maintenant une forêt A de G telle que Som(A) = Som(G) et $\pi_0(A) =\pi_0(G)$; démontrons que c’est une forêt maximale de G. Il suffit de prouver que, si $f\notin$ Fl(A), le sous-graphe B de G d’ensemble de sommets Som(G) et d’ensemble de flèches Fl(A) $\cup  \{f, f\}$ n’est pas une forêt. Par hypothèse, les points $o(f)$ et $t(f)$ sont dans la même composante connexe de A ; il existe donc un chemin $c$ sans aller-retour dans A qui relie $o(f)$ à $t(f)$. Le chemin $c*\overline{f}$ est alors un lacet sans aller-retour et non constant dans B, ce qui montre que B n’est pas une forêt orientée.
 

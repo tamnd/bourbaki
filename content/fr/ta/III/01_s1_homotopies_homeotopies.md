@@ -53,7 +53,7 @@ subsections:
       pdf_page: 269
 statements: 55
 exercises: 32
-content_sha256: 8b8b06767e69558ad2b06dda50a57636e0d1396cbf403c697699227c2c2ce636
+content_sha256: 7d307de563268aa5114dcb65b0ac06ee2554374e654735a774bec52a11dcbd05
 ---
 
 ## § 1. HOMOTOPIES, HOMÉOTOPIES
@@ -116,7 +116,7 @@ Soient X, Y, Z et T des espaces topologiques, soient $\varphi \in [X; Y]$, $\psi
 
 #### Proposition 3 {#ta-iii-s1-prop-3 .statement tag=01V7}
 
-Soit X un espace topologique et soit $(Y_j)_{j\in J}$ une famille d’espaces topologiques. L’application de $[X;\prod_{j\in J}Y_j]$ dans l’ensemble produit $\prod_{j\in J}[X; Y_j]$ définie par $\varphi \mapsto$ ([pr$_j]\circ \varphi )_{j\in J}$ est bijective.
+Soit X un espace topologique et soit $(Y_j)_{j\in J}$ une famille d’espaces topologiques. L’application de $[X;\prod_{j\in J}Y_j]$ dans l’ensemble produit $\prod_{j\in J}[X; Y_j]$ définie par $\varphi \mapsto$ ([pr$_j]\circ \varphi$ )$_{j\in J}$ est bijective.
 
 La surjectivité résulte immédiatement de I, p. 25, prop. 1. Démontrons l’injectivité. Soient $f$ et $g$ des applications continues de X dans $\prod_{j\in J}Y_j$. Pour tout $j\in J$, posons $f_j=$ pr$_j\circ f$ et $g_j=$ pr$_j\circ g$; supposons $f_j$ homotope à $g_j$ et soit $\sigma_j$ une homotopie reliant $f_j$ à $g_j$. L’application $\sigma = (\sigma_j)$ de $X\times \mathbf{I}$ dans $\prod_{j\in J}Y_j$ est continue (loc. cit.) ; c’est une homotopie reliant $f$ à $g$, d’où la proposition.
 
@@ -184,7 +184,7 @@ On dit qu’un espace topologique pointé $(X, x)$ est contractile, ou que l’e
 
 #### Exemple 4 {#ta-iii-s1-n3-exa-4 .statement tag=01VE}
 
-Soit E l’espace numérique à $n$ dimensions (ou, plus généralement, un espace vectoriel topologique sur $\mathbf{R})$ et soit X un sous-ensemble de E. On dit que l’ensemble X est étoilé en un point $x$ de X si, pour tout $y\in X$ et tout $t\in \mathbf{I}$, le point $tx+ (1-t)y$ appartient à X. Une partie convexe (I, p. 122) de E est étoilée en chacun de ses points.
+Soit E l’espace numérique à $n$ dimensions (ou, plus généralement, un espace vectoriel topologique sur $\mathbf{R}$) et soit X un sous-ensemble de E. On dit que l’ensemble X est étoilé en un point $x$ de X si, pour tout $y\in X$ et tout $t\in \mathbf{I}$, le point $tx+ (1-t)y$ appartient à X. Une partie convexe (I, p. 122) de E est étoilée en chacun de ses points.
 
 Un sous-espace topologique X de E étoilé en un de ses points $x$ est contractile en ce point. En effet, l’application $\sigma : X\times \mathbf{I}\rightarrow X$ définie par $\sigma (y, t) =tx+ (1-t)y$ est une homotopie pointée en $x$ reliant Id$_X$ à l’application constante d’image $\{x\}$.
 
@@ -488,7 +488,7 @@ Démontrons que (iii) entraîne (iv). Soient $\varphi : X\rightarrow \mathbf{R}$
 
 Soit $u_1$ l’application de $B\times \mathbf{I}$ dans X telle que $u_1(x, t) =\sigma (x,1-$ $(1-t)/2\varphi (x))$ si $t+ 2\varphi (x)\geqslant 1$ et $\varphi (x)>0$ et $u_1(x, t) =\sigma (x,0)$ sinon. D’après le lemme 4 ci-dessous, elle est continue.
 
-Soit $u_2$ l’application de $B\times \mathbf{I}$ dans X telle que $u_2(x, t) =$ $\sigma (x$, sup(0$,1-2(1-t)(1-\varphi (x))))$. Elle est continue. Pour $x\in B$ tel que $\varphi (x) = 1/2$ et $t\in \mathbf{I}$, on a $u_1(x, t) =\sigma (x, t) =u_2(x, t)$. Notons $u: B\times \mathbf{I}\rightarrow X$ l’application telle que $u(x, t) =u_1(x, t)$ si $\varphi (x)\leqslant 1/2$ et $u(x, t) =u_2(x, t)$ si $1/2< x\leqslant 1$ ; elle est continue car ses restrictions aux sous-espaces fermés $\overset{-1}{\varphi}([0,1/2])\times \mathbf{I}$ et $\overset{-1}{\varphi}([1/2,1])\times \mathbf{I}$ de $B\times \mathbf{I}$ sont continues (TG, I, p. 19, prop. 4).
+Soit $u_2$ l’application de $B\times \mathbf{I}$ dans X telle que $u_2(x, t) =$ $\sigma (x$, sup(0$,1-2(1-t)(1-\varphi (x))$)). Elle est continue. Pour $x\in B$ tel que $\varphi (x) = 1/2$ et $t\in \mathbf{I}$, on a $u_1(x, t) =\sigma (x, t) =u_2(x, t)$. Notons $u: B\times \mathbf{I}\rightarrow X$ l’application telle que $u(x, t) =u_1(x, t)$ si $\varphi (x)\leqslant 1/2$ et $u(x, t) =u_2(x, t)$ si $1/2< x\leqslant 1$ ; elle est continue car ses restrictions aux sous-espaces fermés $\overset{-1}{\varphi}([0,1/2])\times \mathbf{I}$ et $\overset{-1}{\varphi}([1/2,1])\times \mathbf{I}$ de $B\times \mathbf{I}$ sont continues (TG, I, p. 19, prop. 4).
 
 Pour $x\in X$ tel que $\varphi (x) = 1$ et $t\in \mathbf{I}$, on a $u(x, t) =u_2(x, t) =$ $\sigma (x,1) =x$. Il existe donc une unique application $\tau : X\times \mathbf{I}\rightarrow X$ qui coïncide avec $u$ dans $B\times \mathbf{I}$ et avec l’application pr$_1$ dans $C\times \mathbf{I}$; elle est continue (loc. cit.).
 
@@ -498,7 +498,7 @@ Cela prouve que l’assertion (iv) est vérifiée.
 
 Supposons enfin l’assertion (iv) satisfaite et démontrons que le couple $(X,A)$ possède la propriété d’extension des homotopies.
 
-Notons $C_1$ (resp. $C_2)$ l’ensemble des couples $(x, t)\in X\times \mathbf{I}$ tels que $t+\varphi (x)\leqslant 1$ (resp. $t+\varphi (x)\geqslant$ 1). Ce sont des ensembles fermés. Pour $(x, t)\in C_1$, on a $\sigma (x,1-\varphi (x))\in A$ ; soit alors $\rho_1: C_1\rightarrow$ Cyl($i$) l’application donnée par $(x, t)\mapsto \alpha_i(\sigma (x,1-\varphi (x)), t+\varphi (x))$ ; elle est continue. Soit aussi $\rho_2: C_2\rightarrow$ Cyl($i$) l’application continue donnée par $(x, t)\mapsto \beta_i(\sigma (x, t))$. Pour $(x, t)\in C_1\cap C_2$, on a $t+\varphi (x) = 1$, donc
+Notons $C_1$ (resp. $C_2$) l’ensemble des couples $(x, t)\in X\times \mathbf{I}$ tels que $t+\varphi (x)\leqslant 1$ (resp. $t+\varphi (x)\geqslant$ 1). Ce sont des ensembles fermés. Pour $(x, t)\in C_1$, on a $\sigma (x,1-\varphi (x))\in A$ ; soit alors $\rho_1: C_1\rightarrow$ Cyl($i$) l’application donnée par $(x, t)\mapsto \alpha_i(\sigma (x,1-\varphi (x)), t+\varphi (x))$ ; elle est continue. Soit aussi $\rho_2: C_2\rightarrow$ Cyl($i$) l’application continue donnée par $(x, t)\mapsto \beta_i(\sigma (x, t))$. Pour $(x, t)\in C_1\cap C_2$, on a $t+\varphi (x) = 1$, donc
 
 $$
 \rho_1(x, t) =\alpha_i(\sigma (x,1-\varphi (x)),1) =\beta_i(\sigma (x,1-\varphi (x)) =\rho_2(x, t)
@@ -634,7 +634,7 @@ $$
 \beta_f\circ r_i(\alpha_i(a,0)) =\beta_f(a) =\alpha_f(f_0(\alpha_i(a,0))) =\alpha_f(f(a))
 $$
 
-Soit $\eta : X\cup_{f_0}$ Cyl($i$)$\rightarrow X\cup_fB$ l’unique application continue telle que $\eta \circ \alpha_{f_0}=\alpha_f$ et $\eta \circ \beta_{f_0}=\beta_f\circ r_i$. Supposons que le couple $(B,A)$ possède la propriété d’extension des homotopies. Alors, l’application $r_i$ définit une homéotopie du couple (Cyl($i$)$,A_0)$ sur le couple $(B,A)$ (III, p. 243, th. 1). D’après le corollaire 1, l’application $\eta$ définit alors une homéotopie du couple $(X\cup_{f'}B', \alpha_{f'}(X))$ sur le couple $(X\cup_fB, \alpha_f(X))$. En particulier, $\eta$ est une homéotopie.
+Soit $\eta : X\cup_{f_0}$ Cyl($i$)$\rightarrow X\cup_fB$ l’unique application continue telle que $\eta \circ \alpha_{f_0}=\alpha_f$ et $\eta \circ \beta_{f_0}=\beta_f\circ r_i$. Supposons que le couple $(B,A)$ possède la propriété d’extension des homotopies. Alors, l’application $r_i$ définit une homéotopie du couple (Cyl($i$)$,A_0$) sur le couple $(B,A)$ (III, p. 243, th. 1). D’après le corollaire 1, l’application $\eta$ définit alors une homéotopie du couple $(X\cup_{f'}B', \alpha_{f'}(X))$ sur le couple $(X\cup_fB, \alpha_f(X))$. En particulier, $\eta$ est une homéotopie.
 
 #### Corollaire 2 {#ta-iii-s1-prop-8-cor-2 .statement tag=01WE}
 
@@ -724,7 +724,7 @@ L’application $((x, t), u)\mapsto (x, t(1-u))$ de $(X\times \mathbf{I})\times 
 
 #### Remarque 1 {#ta-iii-s1-n10-rem-1 .statement tag=01WL}
 
-Soit X un espace topologique et soit A un sous-espace de X ; notons $i$ l’injection canonique de A dans X. La rétraction canonique $r_i$ du cylindre Cyl($i$) sur sa base applique le sous-espace $\alpha_i(A\times  \{0\})$ dans A. Soit $\rho :$ Côn$(i)\rightarrow X/A$ l’application continue qui s’en déduit par passage aux quotients. Supposons que le couple $(X,A)$ possède la propriété d’extension des homotopies. D’après III, p. 243, théorème 1, l’application $r_i$ définit une homéotopie du couple (Cyl($i$)$, \alpha_i(A\times  \{0\}))$ sur le couple $(X,A)$. D’après la remarque 4 de III, p. 253, l’application $\rho$ est alors une homéotopie du couple (Côn$(i), s)$ sur le couple $(X, s_{X/A})$. C’est en particulier une homéotopie.
+Soit X un espace topologique et soit A un sous-espace de X ; notons $i$ l’injection canonique de A dans X. La rétraction canonique $r_i$ du cylindre Cyl($i$) sur sa base applique le sous-espace $\alpha_i(A\times  \{0\})$ dans A. Soit $\rho :$ Côn$(i)\rightarrow X/A$ l’application continue qui s’en déduit par passage aux quotients. Supposons que le couple $(X,A)$ possède la propriété d’extension des homotopies. D’après III, p. 243, théorème 1, l’application $r_i$ définit une homéotopie du couple (Cyl($i$)$, \alpha_i(A\times  \{0\})$) sur le couple $(X,A)$. D’après la remarque 4 de III, p. 253, l’application $\rho$ est alors une homéotopie du couple (Côn$(i), s$) sur le couple $(X, s_{X/A})$. C’est en particulier une homéotopie.
 
 #### Remarque 2 {#ta-iii-s1-n10-rem-2 .statement tag=01WM}
 

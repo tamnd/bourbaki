@@ -66,9 +66,9 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: 2adf9f9492f266fbc0334965c0db5028e745d37bdadd5077d30022f76992bbaa
+content_sha256: aa5ace2207cf62758b82e870cbc5366d9427d68347cbbff7134b40282099c688
 translated_from: content/en/ens/III/01_s1_order_relations_ordered_sets.md
-source_content_sha256: 2924f71e77961cc70f637dea1ecb6b31ee1695b61f00448c8aa6677a1bdc9176
+source_content_sha256: 95b4b1f6e727c6c9c77263350b775189fc2be5b0825b34cc82c7de3e44faa7a7
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-6ecd3355
 glossary_version: 30
@@ -597,7 +597,7 @@ sao cho $f(x) \neq f(y)$ trong cả hai trường hợp. Còn phải chứng min
 
 ### 13. KHOẢNG
 
-Cho E là một tập hợp có thứ tự và $a$, $b$ là hai phần tử của E sao cho $a \leqslant b$. Tập con của E gồm các phần tử $x$ sao cho $a \leqslant x \leqslant b$ được gọi là *khoảng đóng với điểm đầu bên trái a và điểm đầu bên phải b*, và được ký hiệu bởi $[a, b]$. Tập hợp tất cả các $x \in \mathrm{E}$ sao cho $a \leqslant x < b$ (resp. $a < x \leqslant b$) được gọi là *khoảng nửa đóng về bên phải* (resp. *về bên trái*) với các đầu mút $a$ và $b$, và được ký hiệu bởi $[a, b[$ (resp. $]a, b])$. Tập hợp tất cả các $x \in \mathrm{E}$ sao cho $a < x < b$ được gọi là *khoảng mở* với các đầu mút $a$ và $b$, và được ký hiệu bởi $]a, b[$.
+Cho E là một tập hợp có thứ tự và $a$, $b$ là hai phần tử của E sao cho $a \leqslant b$. Tập con của E gồm các phần tử $x$ sao cho $a \leqslant x \leqslant b$ được gọi là *khoảng đóng với điểm đầu bên trái a và điểm đầu bên phải b*, và được ký hiệu bởi $[a, b]$. Tập hợp tất cả các $x \in \mathrm{E}$ sao cho $a \leqslant x < b$ (resp. $a < x \leqslant b$) được gọi là *khoảng nửa đóng về bên phải* (resp. *về bên trái*) với các đầu mút $a$ và $b$, và được ký hiệu bởi $[a, b[$ (resp. $]a, b]$). Tập hợp tất cả các $x \in \mathrm{E}$ sao cho $a < x < b$ được gọi là *khoảng mở* với các đầu mút $a$ và $b$, và được ký hiệu bởi $]a, b[$.
 
 Chú ý rằng một khoảng đóng không bao giờ rỗng; khoảng $[a, a]$ là tập hợp $\{a\}$. Mặt khác, các khoảng $[a, a[$, $]a, a]$, $]a, a[$ đều rỗng; và một khoảng mở $]a, b[$ có thể rỗng ngay cả khi $a < b$.
 

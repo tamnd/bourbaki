@@ -33,7 +33,7 @@ subsections:
       pdf_page: 36
 statements: 17
 exercises: 18
-content_sha256: fb727d8b4709728b334e34c95aec5c07c99fa367187604d6dcf7ed6259ee8583
+content_sha256: 101d1c917bccf9d451ef36bc325751d7276a14c534bc85fbe7012cad2e06164a
 ---
 
 ## § 3. CONJUGACY THEOREMS
@@ -56,11 +56,11 @@ $^*$ In the general case, Aut$_e(\mathfrak{g})$ is contained in the identity com
 
 Let V be a finite dimensional vector space, $\mathfrak{n}$ a Lie subalgebra of $\mathfrak{a}=\mathfrak{g}\mathfrak{l}(V)$ consisting of nilpotent elements.
 
-(i) The map $x \rightarrow$ exp $x$ is a bijection from $\mathfrak{n}$ to a subgroup N of $\mathbf{G}\mathbf{L}(V)$ consisting of unipotent elements (Chap. II, §6, no. 1, Remark 4). We have $\mathfrak{n}=$ log(exp$\mathfrak{n})$. The map $f \rightarrow f\circ$ log is an isomorphism from the algebra of polynomial functions on $\mathfrak{n}$ to the algebra of restrictions to N of polynomial functions on End(V).
+(i) The map $x \rightarrow$ exp $x$ is a bijection from $\mathfrak{n}$ to a subgroup N of $\mathbf{G}\mathbf{L}(V)$ consisting of unipotent elements (Chap. II, §6, no. 1, Remark 4). We have $\mathfrak{n}=$ log(exp$\mathfrak{n}$). The map $f \rightarrow f\circ$ log is an isomorphism from the algebra of polynomial functions on $\mathfrak{n}$ to the algebra of restrictions to N of polynomial functions on End(V).
 
 (ii) If $x\in \mathfrak{n}$ and $a\in \mathfrak{a}$,
 
-(exp ad$_{\mathfrak{a}}x).a=$ (exp $x)a$(exp($-x$)).
+(exp ad$_{\mathfrak{a}}x$)$.a=$ (exp $x$)$a$(exp($-x$)).
 
 (iii) Let $V'$ be a finite dimensional vector space, $\mathfrak{n}'$ a Lie subalgebra of $\mathfrak{g}\mathfrak{l}(V')$ consisting of nilpotent elements, $\rho$ a homomorphism from $\mathfrak{n}$ to $\mathfrak{n}'$. Let $\pi$ be the map exp $x \rightarrow$ exp $\rho (x)$ from exp$\mathfrak{n}$ to exp$\mathfrak{n}'$. Then $\pi$ is a group homomorphism.
 
@@ -72,9 +72,9 @@ $$
 
 (Chap. II, §4, no. 6, Remark), and the Hausdorff series defines a polynomial map $(a, b) \rightarrow H(a, b)$ from $\mathfrak{n}(n, k)\times \mathfrak{n}(n, k)$ to $\mathfrak{n}(n, k)$ (Chap. II, §6, no. 5, Remark 3); this map makes $\mathfrak{n}(n, k)$ into a group (Chap. II, §6, no. 5, Prop. 4). By Chap. II, §6, no. 1, Remark 4, the maps $x \rightarrow$ exp $x$ from $\mathfrak{n}(n, k)$ to $1 +\mathfrak{n}(n, k)$ and $y \rightarrow$ log $y$ from $1 +\mathfrak{n}(n, k)$ to $\mathfrak{n}(n, k)$ are inverse bijections and are polynomial; by Chap. II, §6, no. 5, Prop. 3, these maps are isomorphisms of groups if $\mathfrak{n}(n, k)$ is given the group law $(a, b) \rightarrow H(a, b)$ and if $1 +\mathfrak{n}(n, k)$ is considered as a subgroup of $\mathbf{G}\mathbf{L}_n(k)$. Assertions (i) and (iii) of the lemma now follow. Let $x\in \mathfrak{n}$. Denote by $L_x,R_x$ the maps $u \rightarrow xu, u \rightarrow ux$ from $\mathfrak{a}$ to $\mathfrak{a}$, which commute and are nilpotent. We have ad$_{\mathfrak{a}}x= L_x-R_x$, so, for all $a\in \mathfrak{a}$,
 
-(exp ad$_{\mathfrak{a}}x)a=$ (exp(L$_x-R_x))a=$ (exp $L_x$)(exp $R_{-x})a$ (1)
+(exp ad$_{\mathfrak{a}}x$)$a=$ (exp(L$_x-R_x$))$a=$ (exp $L_x$)(exp $R_{-x}$)$a$ (1)
 
-$=\sum Li^{ix}$! $Rj\overset{j-x}{!}a=$ (exp $x)a$(exp($-x$)).
+$=\sum Li^{ix}$! $Rj\overset{j-x}{!}a=$ (exp $x$)$a$(exp($-x$)).
 
 $i,j\geq 0$
 
@@ -122,11 +122,11 @@ $$
 
 Then F is a dominant polynomial map (App. I).
 
-Assertion (i) is clear. We prove (ii). Let $n=$ dim $\mathfrak{g}$. If $\lambda \in R$ and $x\in \mathfrak{g}^{\lambda}(\mathfrak{h})$, we have (ad $x)^n= 0$. It follows that $(y, x) \rightarrow e^{adx}y$ is a polynomial map from $\mathfrak{g}\times \mathfrak{g}^{\lambda}(\mathfrak{h})$ to $\mathfrak{g}$; it follows by induction that F is polynomial. Let $h_0\in \mathfrak{h}_r$ and let DF be the tangent linear map of F at $(h_0,0, . . . ,0)$; we show that DF is surjective. For $h\in \mathfrak{g}^0(\mathfrak{h}), F(h_0+h,0, . . . ,0) =h_0+h$, so DF($h,0, . . . ,0$) $=h$ and Im(DF) $\supset \mathfrak{g}^0(\mathfrak{h})$. On the other hand, for $x\in \mathfrak{g}^{\lambda_1}(\mathfrak{h})$,
+Assertion (i) is clear. We prove (ii). Let $n=$ dim $\mathfrak{g}$. If $\lambda \in R$ and $x\in \mathfrak{g}^{\lambda}(\mathfrak{h})$, we have (ad $x$)$^n= 0$. It follows that $(y, x) \rightarrow e^{adx}y$ is a polynomial map from $\mathfrak{g}\times \mathfrak{g}^{\lambda}(\mathfrak{h})$ to $\mathfrak{g}$; it follows by induction that F is polynomial. Let $h_0\in \mathfrak{h}_r$ and let DF be the tangent linear map of F at $(h_0,0, . . . ,0)$; we show that DF is surjective. For $h\in \mathfrak{g}^0(\mathfrak{h}), F(h_0+h,0, . . . ,0) =h_0+h$, so DF($h,0, . . . ,0$) $=h$ and Im(DF) $\supset \mathfrak{g}^0(\mathfrak{h})$. On the other hand, for $x\in \mathfrak{g}^{\lambda_1}(\mathfrak{h})$,
 
-$F(h_0, x,0, . . . ,0) =e^{adx}h_0=h_0+$ (ad $x).h_0+$ (ad2!$x)^2h_0+\cdots$
+$F(h_0, x,0, . . . ,0) =e^{adx}h_0=h_0+$ (ad $x$)$.h_0+$ (ad2!$x$)$^2h_0+\cdots$
 
-so DF(0$, x,0, . . . ,0) =$ (ad $x).h_0=-$(ad $h_0)x$; since ad $h_0$ induces an automorphism of $\mathfrak{g}^{\lambda_1}(\mathfrak{h})$, Im(DF) $\supset \mathfrak{g}^{\lambda_1}(\mathfrak{h})$. Similarly,
+so DF(0$, x,0, . . . ,0$) $=$ (ad $x$)$.h_0=-$(ad $h_0$)$x$; since ad $h_0$ induces an automorphism of $\mathfrak{g}^{\lambda_1}(\mathfrak{h})$, Im(DF) $\supset \mathfrak{g}^{\lambda_1}(\mathfrak{h})$. Similarly,
 
 Im(DF) $\supset \mathfrak{g}^{\lambda_i}(\mathfrak{h})$
 
@@ -244,7 +244,7 @@ $$
 [x, y]-[x, f(y)]-[f(x), y] = [x-f(x), y-f(y)]\in \mathfrak{h}'
 $$
 
-so $f([x, y]) = [x, f(y)] + [f(x), y]$. By §1, no. 3, Cor. of Prop. 9, there exists $a\in \mathfrak{n}$ such that $f(x) = [x, a]$ for all $x\in \mathfrak{h}$. We have (ad $a)^2(\mathfrak{g})\subset$ (ad $a)(\mathfrak{n}) = 0$, so, for all $x\in \mathfrak{h}$,
+so $f([x, y]) = [x, f(y)] + [f(x), y]$. By §1, no. 3, Cor. of Prop. 9, there exists $a\in \mathfrak{n}$ such that $f(x) = [x, a]$ for all $x\in \mathfrak{h}$. We have (ad $a$)$^2(\mathfrak{g})\subset$ (ad $a$)$(\mathfrak{n}) = 0$, so, for all $x\in \mathfrak{h}$,
 
 $$
 e^{ada}x=x+ [a, x] =x-f(x)
@@ -276,15 +276,15 @@ Let $\mathfrak{g}$ be a Lie algebra, $\mathfrak{r}$ its radical, $\mathfrak{h}$ 
 
 Assume that $k$ is $\mathbf{R},\mathbf{C}$ or a non-discrete complete ultrametric field of characteristic 0. Let $G$ be a finite dimensional Lie group over $k,e$ its identity element, $\mathfrak{g}$ its Lie algebra, $\mathfrak{h}$ a Cartan subalgebra of $\mathfrak{g},\mathfrak{h}_r$ the set of regular elements of $\mathfrak{g}$ belonging to $\mathfrak{h}$.
 
-(i) Let $\mathfrak{s}$ be a vector space complement of $\mathfrak{h}$ in $\mathfrak{g},\mathfrak{s}_0$ a neighbourhood of 0 in $\mathfrak{s}$ on which an exponential map is defined, and $h_0\in \mathfrak{h}_r$. The map $(s, h) \rightarrow F(s, h) =$ (exp ad $s).h$ from $\mathfrak{s}_0\times \mathfrak{h}$ to $\mathfrak{g}$ is étale at $(0, h_0)$.
+(i) Let $\mathfrak{s}$ be a vector space complement of $\mathfrak{h}$ in $\mathfrak{g},\mathfrak{s}_0$ a neighbourhood of 0 in $\mathfrak{s}$ on which an exponential map is defined, and $h_0\in \mathfrak{h}_r$. The map $(s, h) \rightarrow F(s, h) =$ (exp ad $s$)$.h$ from $\mathfrak{s}_0\times \mathfrak{h}$ to $\mathfrak{g}$ is étale at $(0, h_0)$.
 
-(ii) The map $(g, h) \rightarrow F'(g, h) =$ (Ad $g).h$ from $G\times \mathfrak{h}_r$ to $\mathfrak{g}$ is a submersion. In particular, its image $\Omega$ is open. For all $x\in \Omega ,\mathfrak{g}^0(x)$ is a Cartan subalgebra of $\mathfrak{g}$ conjugate to $\mathfrak{h}$ under Ad(G).
+(ii) The map $(g, h) \rightarrow F'(g, h) =$ (Ad $g$)$.h$ from $G\times \mathfrak{h}_r$ to $\mathfrak{g}$ is a submersion. In particular, its image $\Omega$ is open. For all $x\in \Omega ,\mathfrak{g}^0(x)$ is a Cartan subalgebra of $\mathfrak{g}$ conjugate to $\mathfrak{h}$ under Ad(G).
 
-(iii) Let $h_0\in \mathfrak{h}_r$. For any neighbourhood U of $e$ in G, the set $\bigcup_{a\in U}$(Ad $a)(\mathfrak{h}_r)$
+(iii) Let $h_0\in \mathfrak{h}_r$. For any neighbourhood U of $e$ in G, the set $\bigcup_{a\in U}$(Ad $a$)$(\mathfrak{h}_r)$
 
 is a neighbourhood of $h_0$ in $\mathfrak{g}$.
 
-Let $h_0$ and $\mathfrak{s}$ be as in (i). Let T be the tangent linear map of F at $(0, h_0)$. Then $F(0, h) =h$ for all $h\in \mathfrak{h}$, so $T(0, h) =h$ for all $h\in \mathfrak{h}$. On the other hand, for $\mathfrak{s}_0$ sufficiently small, the tangent linear map at 0 of the map $s \rightarrow$ exp ad $s$ from $\mathfrak{s}_0$ to End($\mathfrak{g}$) is the map $s \rightarrow$ ad $s$ from $\mathfrak{s}$ to End($\mathfrak{g}$). Thus $T(s,0) = [s, h_0]$ for all $s\in \mathfrak{s}$. Now the map from $\mathfrak{g}/\mathfrak{h}$ to $\mathfrak{g}/\mathfrak{h}$ induced by ad $h_0$ by passage to the quotient is bijective. It follows that T is bijective, hence (i). Since exp ad $s=$ Ad exp $s$ for all $s\in \mathfrak{s}$ sufficiently close to 0, (iii) and the first assertion of (ii) follow. Every $x\in \Omega$ is of the form (Ad $a)(h)$ with $a\in G$ and $h\in \mathfrak{h}_r$, so $\mathfrak{g}^0(x) =$ (Ad $a)(\mathfrak{g}^0(h)) =$ (Ad $a)(\mathfrak{h})$ is a subalgebra of $\mathfrak{g}$ conjugate to $\mathfrak{h}$ under Ad(G).
+Let $h_0$ and $\mathfrak{s}$ be as in (i). Let T be the tangent linear map of F at $(0, h_0)$. Then $F(0, h) =h$ for all $h\in \mathfrak{h}$, so $T(0, h) =h$ for all $h\in \mathfrak{h}$. On the other hand, for $\mathfrak{s}_0$ sufficiently small, the tangent linear map at 0 of the map $s \rightarrow$ exp ad $s$ from $\mathfrak{s}_0$ to End($\mathfrak{g}$) is the map $s \rightarrow$ ad $s$ from $\mathfrak{s}$ to End($\mathfrak{g}$). Thus $T(s,0) = [s, h_0]$ for all $s\in \mathfrak{s}$. Now the map from $\mathfrak{g}/\mathfrak{h}$ to $\mathfrak{g}/\mathfrak{h}$ induced by ad $h_0$ by passage to the quotient is bijective. It follows that T is bijective, hence (i). Since exp ad $s=$ Ad exp $s$ for all $s\in \mathfrak{s}$ sufficiently close to 0, (iii) and the first assertion of (ii) follow. Every $x\in \Omega$ is of the form (Ad $a$)$(h)$ with $a\in G$ and $h\in \mathfrak{h}_r$, so $\mathfrak{g}^0(x) =$ (Ad $a$)$(\mathfrak{g}^0(h)) =$ (Ad $a$)$(\mathfrak{h})$ is a subalgebra of $\mathfrak{g}$ conjugate to $\mathfrak{h}$ under Ad(G).
 
 ### Exercises {#lie-vii-s3-exercises}
 

@@ -46,7 +46,7 @@ subsections:
       pdf_page: 88
 statements: 43
 exercises: 8
-content_sha256: 9b923a453915e067d2903a49360b5e74a5374235957494f4fa30b01122328979
+content_sha256: 9d4584b8ed5e9b2ea8bfc7a3b377164098496c5ee0e2c21f520fa31ff9205f9d
 ---
 
 ## § 4. SEMISIMPLE MODULES
@@ -173,7 +173,7 @@ for $h\in$ Hom$_A(\mathscr{T}(V),M),v\in V$, and $p\in P$. The isomorphism $\gam
 
 Let M be a left A-module. The A-module $\mathscr{T}(\mathscr{H}(M))$ is simply the A-module $P\otimes_B$ Hom$_A(P,M)$. By applying the above to the B-module $\mathscr{H}$ (M), we see that the mapping
 
-$\alpha_M=\gamma^{-1}$(Id$_{\mathscr{H}(M)}) :\mathscr{T}(\mathscr{H}(M))\longrightarrow M$
+$\alpha_M=\gamma^{-1}$(Id$_{\mathscr{H}(M)}$) $:\mathscr{T}(\mathscr{H}(M))\longrightarrow M$
 
 is the unique mapping satisfying
 
@@ -201,7 +201,7 @@ $$
 
 for all $h\in$ Hom$_B(V,\mathscr{H}$ (M)), $v\in V$, and $p\in P$.
 
-Let V be a B-module. The B-module $\mathscr{H}(\mathscr{T}(V))$ is simply the B-module Hom$_A(P,P\otimes_BV)$. By applying (5) to the A-module $\mathscr{T}$ (V), we see that the B-linear mapping $\beta_V=\gamma$(Id$_{\mathscr{T}(V)})$ from V to $\mathscr{H}(\mathscr{T}(V))$ is characterized by the relation
+Let V be a B-module. The B-module $\mathscr{H}(\mathscr{T}(V))$ is simply the B-module Hom$_A(P,P\otimes_BV)$. By applying (5) to the A-module $\mathscr{T}$ (V), we see that the B-linear mapping $\beta_V=\gamma$(Id$_{\mathscr{T}(V)}$) from V to $\mathscr{H}(\mathscr{T}(V))$ is characterized by the relation
 
 $$
 \beta_V(v)(p) =p\otimes v \tag{8}
@@ -213,7 +213,7 @@ V $^{\beta_V}$ /$/\mathscr{H}(\mathscr{T}(V))$
 
 (II) $g\mathscr{H}_{\mathscr{T}}$
 
-( $(g))$
+( $(g)$)
 
 ${V'}^{\beta_{V'}}$ /$/\mathscr{H}(\mathscr{T}(V'))$.
 
@@ -315,7 +315,7 @@ As in the previous subsection, A denotes a ring, S a simple left A-module, and D
 
 Let M be an isotypical A-module of type S. A description of M with respect to S is a pair $(V, \alpha )$, where V is a left vector space over the field D and $\alpha : S\otimes_DV\rightarrow M$ is an isomorphism of A-modules.
 
-Every isotypical A-module M of type S has a canonical description: it is the pair (Hom$_A(S,M), \alpha_M)$, where $\alpha_M: S\otimes_D$ Hom$_A(S,M)\rightarrow M$ is the isomorphism of A-modules characterized by $\alpha_M(s\otimes f) =f(s)$ (VIII, p. 62, Proposition 3, a)).
+Every isotypical A-module M of type S has a canonical description: it is the pair (Hom$_A(S,M), \alpha_M$), where $\alpha_M: S\otimes_D$ Hom$_A(S,M)\rightarrow M$ is the isomorphism of A-modules characterized by $\alpha_M(s\otimes f) =f(s)$ (VIII, p. 62, Proposition 3, a)).
 
 #### Theorem 2 {#alg-viii-s4-thm-2 .statement tag=004J}
 
@@ -341,7 +341,7 @@ long$_A(M) =$ dim$_D(V)$.
 
 Let M be an isotypical A-module of type S. For every A-submodule N of M, identify Hom$_A(S,N)$ with the linear subspace of Hom$_A(S,M)$ consisting of the mappings with image contained in N.
 
-a) The mapping $N\mapsto$ Hom$_A(S,N)$ is an isomorphism of ordered sets from $\mathscr{D}_A(M)$ to $\mathscr{D}_D$(Hom$_A(S,M))$.
+a) The mapping $N\mapsto$ Hom$_A(S,N)$ is an isomorphism of ordered sets from $\mathscr{D}_A(M)$ to $\mathscr{D}_D$(Hom$_A(S,M)$).
 
 b) The inverse bijection sends a linear subspace W of Hom$_A(S,M)$ to the submodule $\sum_{h\in W}h(S)$ of M.
 
@@ -381,7 +381,7 @@ Let M be an isotypical A-module of type S, and let $(V, \alpha )$ be a descripti
 
 #### Corollary {#alg-viii-s4-n5-cor-1 .statement tag=004P}
 
-Let M and $M'$ be isotypical A-modules of type S. The mapping $u\mapsto$ Hom(1$_S, u)$ from Hom$_A(M,M')$ to Hom$_D$(Hom$_A(S,M)$, Hom$_A(S,M'))$ is a group isomorphism. When M is equal to $M'$, it is a ring isomorphism from End$_A(M)$ to End$_D$(Hom$_A(S,M))$.
+Let M and $M'$ be isotypical A-modules of type S. The mapping $u\mapsto$ Hom(1$_S, u$) from Hom$_A(M,M')$ to Hom$_D$(Hom$_A(S,M)$, Hom$_A(S,M')$) is a group isomorphism. When M is equal to $M'$, it is a ring isomorphism from End$_A(M)$ to End$_D$(Hom$_A(S,M)$).
 
 Because of the commutativity of diagram (I) of VIII, p. 59, this corollary follows from Theorem 3, applied to the canonical descriptions of M and $M'$.
 
@@ -437,7 +437,7 @@ For every $\lambda \in \mathscr{S}$, the submodule $f(M_{\lambda})$ of N is isom
 
 Suppose that M is semisimple and $f$ surjective. Then $f$ induces an isomorphism from $M/$ Ker($f$) to N that sends $(M_{\lambda}$+Ker($f$))$/$ Ker($f$) to $f(M_{\lambda})$. By Proposition 4 of VIII, p. 65, we have $N_{\lambda}=f(M_{\lambda})$, which completes the proof of a).
 
-The mapping considered in b) is clearly a group homomorphism, and it is a ring homomorphism when M is equal to N. Let $(f_{\lambda})_{\lambda\in\mathscr{S}}$ be an element of $\prod_{\lambda\in\mathscr{S}}$ Hom(M$_{\lambda},N_{\lambda})$. The unique element of its inverse image under the mapping in b) is the homomorphism $f: M\rightarrow N$ defined by
+The mapping considered in b) is clearly a group homomorphism, and it is a ring homomorphism when M is equal to N. Let $(f_{\lambda})_{\lambda\in\mathscr{S}}$ be an element of $\prod_{\lambda\in\mathscr{S}}$ Hom(M$_{\lambda},N_{\lambda}$). The unique element of its inverse image under the mapping in b) is the homomorphism $f: M\rightarrow N$ defined by
 
 $$
 f((\sum_{\lambda\in\mathscr{S}}x_{\lambda})=\sum_{\lambda\in\mathscr{S}}f_{\lambda}(x_{\lambda})
@@ -451,7 +451,7 @@ Let A and B be rings. Let M be an $(A$, B)-bimodule. It follows from Proposition
 
 #### Example {#alg-viii-s4-n6-exa-1 .statement tag=004V}
 
-Let us consider the case when the ring A is commutative. The mapping that sends a maximal ideal $\mathfrak{m}$ onto cl(A$/\mathfrak{m})$ is a bijection from the set of maximal ideals of A to the set $\mathscr{S}$ of classes of simple A-modules (VIII, p. 51). The inverse bijection sends $\lambda$ to its annihilator $\mathfrak{m}_{\lambda}$.
+Let us consider the case when the ring A is commutative. The mapping that sends a maximal ideal $\mathfrak{m}$ onto cl(A$/\mathfrak{m}$) is a bijection from the set of maximal ideals of A to the set $\mathscr{S}$ of classes of simple A-modules (VIII, p. 51). The inverse bijection sends $\lambda$ to its annihilator $\mathfrak{m}_{\lambda}$.
 
 Let M be an A-module. For every $\lambda \in \mathscr{S}$, the isotypical component $M_{\lambda}$ of type $\lambda$ of M consists of the elements annihilated by $\mathfrak{m}_{\lambda}$, and we can view $M_{\lambda}$ as a vector space over the field $A/\mathfrak{m}_{\lambda}$. If M is semisimple and N is another A-module, then we can deduce a group isomorphism from Hom$_A(M,N)$ to $\prod_{\lambda\in\mathscr{S}}$ Hom$_{A/\mathfrak{m}_{\lambda}}(M_{\lambda},N_{\lambda})$ from Proposition 5.
 
@@ -495,11 +495,11 @@ $$
 h(ud)(v) =h(d\circ u)(v) =d\circ u\circ v=d\circ (h(u)(v)) =h(u)(v)d
 $$
 
-This proves that the mapping $h$ is D-linear. It is simply the mapping given by $u\mapsto$ Hom(1$_S, u)$ from Hom$_A(M,S)$ to Hom$_D$(Hom$_A(S,M)$, Hom$_A(S,S))$. To prove that it is bijective, by Proposition 5, b) of VIII, p. 66, it suffices to treat the case when M is isotypical of type S; we can then apply the corollary of VIII, p. 65.
+This proves that the mapping $h$ is D-linear. It is simply the mapping given by $u\mapsto$ Hom(1$_S, u$) from Hom$_A(M,S)$ to Hom$_D$(Hom$_A(S,M)$, Hom$_A(S,S)$). To prove that it is bijective, by Proposition 5, b) of VIII, p. 66, it suffices to treat the case when M is isotypical of type S; we can then apply the corollary of VIII, p. 65.
 
 ### 7. Description of a Semisimple Module
 
-For the remainder of this section, A is a ring, and $\mathscr{S}$ is the set of classes of simple A-modules. For every $\lambda \in \mathscr{S}$, we choose a simple module $S_{\lambda}$ of class $\lambda$ (for example, $S_{\lambda}=\lambda )$; we denote the opposite ring of the field of endomorphisms of $S_{\lambda}$ by $D_{\lambda}$. We view $S_{\lambda}$ as an $(A,D_{\lambda}$)-bimodule.
+For the remainder of this section, A is a ring, and $\mathscr{S}$ is the set of classes of simple A-modules. For every $\lambda \in \mathscr{S}$, we choose a simple module $S_{\lambda}$ of class $\lambda$ (for example, $S_{\lambda}=\lambda$ ); we denote the opposite ring of the field of endomorphisms of $S_{\lambda}$ by $D_{\lambda}$. We view $S_{\lambda}$ as an $(A,D_{\lambda}$)-bimodule.
 
 Let M be an A-module. For every $\lambda \in \mathscr{S}$, Hom$_A(S_{\lambda},M)$ is a left vector space over the field $D_{\lambda}$. By VIII, p. 59, and II, §1, No. 6, p. 202, Proposition 6, there exists a unique A-linear mapping, called canonical,
 
@@ -521,9 +521,9 @@ Let $\lambda \in \mathscr{S}$. Denote the isotypical component of M of type $\la
 
 #### Definition 5 {#alg-viii-s4-def-5 .statement tag=004Z}
 
-Let M be a semisimple A-module. A description of M (with respect to the family $(S_{\lambda})_{\lambda\in\mathscr{S}})$ is a pair $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$, where $V_{\lambda}$ is a left vector space over the field $D_{\lambda}$ for each $\lambda \in \mathscr{S}$ and $\alpha :\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})\rightarrow M$ is an isomorphism of A-modules.
+Let M be a semisimple A-module. A description of M (with respect to the family $(S_{\lambda})_{\lambda\in\mathscr{S}}$) is a pair $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$, where $V_{\lambda}$ is a left vector space over the field $D_{\lambda}$ for each $\lambda \in \mathscr{S}$ and $\alpha :\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})\rightarrow M$ is an isomorphism of A-modules.
 
-By Proposition 7, every semisimple A-module M has a canonical description: it is the pair ((Hom$_A(S_{\lambda},M))_{\lambda\in\mathscr{S}}, \alpha_M)$, where $\alpha_M$ is the A-linear mapping defined by formula (10).
+By Proposition 7, every semisimple A-module M has a canonical description: it is the pair ((Hom$_A(S_{\lambda},M)$)$_{\lambda\in\mathscr{S}}, \alpha_M$), where $\alpha_M$ is the A-linear mapping defined by formula (10).
 
 #### Proposition 8 {#alg-viii-s4-prop-8 .statement tag=0050}
 
@@ -551,7 +551,7 @@ Let N be a submodule of M. We have $N =\bigoplus_{\lambda\in\mathscr{S}}(N\cap M
 
 Let M be a semisimple A-module. For every submodule N of M and every element $\lambda$ of $\mathscr{S}$, identify Hom$_A(S_{\lambda},N)$ with the $D_{\lambda}$-linear subspace of Hom$_A(S_{\lambda},M)$ consisting of the mappings with image contained in N.
 
-a) The mapping $N\mapsto$ (Hom$_A(S_{\lambda},N))_{\lambda\in\mathscr{S}}$ is a bijection from the set of A-submodules of M to the set of families $(W_{\lambda})_{\lambda\in\mathscr{S}}$ such that for every $\lambda \in \mathscr{S}$, $W_{\lambda}$ is a $D_{\lambda}$-linear subspace of Hom$_A(S_{\lambda},M)$.
+a) The mapping $N\mapsto$ (Hom$_A(S_{\lambda},N)$)$_{\lambda\in\mathscr{S}}$ is a bijection from the set of A-submodules of M to the set of families $(W_{\lambda})_{\lambda\in\mathscr{S}}$ such that for every $\lambda \in \mathscr{S}$, $W_{\lambda}$ is a $D_{\lambda}$-linear subspace of Hom$_A(S_{\lambda},M)$.
 
 b) The inverse bijection sends a family $(W_{\lambda})_{\lambda\in\mathscr{S}}$ to the A-submodule $\sum_{\lambda\in\mathscr{S}}\sum_{w\in W_{\lambda}}w(S_{\lambda})$ of M.
 
@@ -587,11 +587,11 @@ In view of the description of the isotypical components of M and $M'$ given in P
 
 #### Corollary {#alg-viii-s4-n7-cor-2 .statement tag=0053}
 
-Let M be a semisimple A-module and $M'$ an A-module. The mapping $u\mapsto$ (Hom(1$_{S_{\lambda}}, u))_{\lambda\in\mathscr{S}}$ from Hom$_A(M,M')$ to
+Let M be a semisimple A-module and $M'$ an A-module. The mapping $u\mapsto$ (Hom(1$_{S_{\lambda}}, u$))$_{\lambda\in\mathscr{S}}$ from Hom$_A(M,M')$ to
 
-$\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$, Hom$_A(S_{\lambda},M'))$
+$\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$, Hom$_A(S_{\lambda},M')$)
 
-is a group isomorphism. When $M'$ is equal to M, it is an isomorphism from the ring End$_A(M)$ to the ring $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M))$.
+is a group isomorphism. When $M'$ is equal to M, it is an isomorphism from the ring End$_A(M)$ to the ring $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$).
 
 This is a reformulation of Proposition 9 applied to the canonical descriptions of M and of the socle of $M'$.
 
@@ -613,7 +613,7 @@ Let M be a semisimple A-module. Let $(M_i)_{i\in I}$ be a family of simple submo
 
 If M has these properties, then the length of M is equal to the cardinal of I.
 
-If the set I is finite, then M has properties (i), (ii), (iii), and (iv). Suppose that the set I is infinite. By Example 2 of VIII, p. 2, the module M is neither Artinian nor Noetherian; because every module of finite length is Artinian and Noetherian (VIII, p. 2, Proposition 1), M also does not have finite length. Finally, every element of M belongs to the sum of a finite number of submodules $M_i$, so M is not finitely generated. This proves the equivalence of properties (i) through (v). If these hold, then we have long(M) $=\sum_{i\in I}$ long(M$_i) =$ Card(I) (II, §1, No. 10, p. 213, Corollary 5).
+If the set I is finite, then M has properties (i), (ii), (iii), and (iv). Suppose that the set I is infinite. By Example 2 of VIII, p. 2, the module M is neither Artinian nor Noetherian; because every module of finite length is Artinian and Noetherian (VIII, p. 2, Proposition 1), M also does not have finite length. Finally, every element of M belongs to the sum of a finite number of submodules $M_i$, so M is not finitely generated. This proves the equivalence of properties (i) through (v). If these hold, then we have long(M) $=\sum_{i\in I}$ long(M$_i$) $=$ Card(I) (II, §1, No. 10, p. 213, Corollary 5).
 
 #### Proposition 11 {#alg-viii-s4-prop-11 .statement tag=0055}
 
@@ -623,11 +623,11 @@ The isotypical component of A of type $\lambda$ is isomorphic to $S_{\lambda}^{(
 
 Every simple module is primordial (VIII, p. 45), so every semisimple module is semiprimordial. Let M be a semisimple A-module, and let $\lambda \in \mathscr{S}$. The multiplicity of $\lambda$ in M is the primordial multiplicity $[M :\lambda ]$ of $\lambda$ in M defined in VIII, p. 34. Proposition 11 translates to the equality
 
-(11) $[M :\lambda ] =$ dim$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M))$.
+(11) $[M :\lambda ] =$ dim$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$).
 
 More generally, if $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$ is a description of M, then $[M :\lambda ]$ is equal to dim$_{D_{\lambda}}(V_{\lambda})$. By Proposition 6 of VIII, p. 68, we also have
 
-(12) $[M :\lambda ] =$ dim$_{D_{\lambda}}$(Hom$_A(M,S_{\lambda}))$
+(12) $[M :\lambda ] =$ dim$_{D_{\lambda}}$(Hom$_A(M,S_{\lambda})$)
 
 when the multiplicity $[M :\lambda ]$ is finite. Semisimple A-modules M and $M'$ are isomorphic if and only if we have $[M :\lambda ] = [M':\lambda ]$ for every $\lambda \in \mathscr{S}$.
 

@@ -33,12 +33,12 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: d1ba02db36eff422c3dba2945d9ea59af043066c9d37895a550c9630bc123e1c
+content_sha256: 63a09b9872a4829432cbd1845785e48a1b63dc9dcc93d902232cc84e151f151e
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
 
-We retain the notations of §4; put $w(G) =$ Card(W$_G(T))$. Denote by $dg$ (resp. $dt)$ the Haar measure on G (resp. T) with total mass 1, and by $n$ (resp. $r)$ the dimension of G (resp. T).
+We retain the notations of §4; put $w(G) =$ Card(W$_G(T)$). Denote by $dg$ (resp. $dt$) the Haar measure on G (resp. T) with total mass 1, and by $n$ (resp. $r$) the dimension of G (resp. T).
 
 ### 1. PRODUCT OF ALTERNATING MULTILINEAR FORMS
 
@@ -88,7 +88,7 @@ Alt$^{n-r}(\mathfrak{g}/\mathfrak{t})\times$ Alt$^r(\mathfrak{t})\rightarrow$ Al
 
 defined in number 1.
 
-Recall (Chap. III, §3, no. 13, Prop. 50) that the map $\omega  \rightarrow \omega (e)$ is an isomorphism from the vector space of left-invariant differential forms of degree $n$ (resp. $r)$ on G (resp. T) to the space Alt$^n(\mathfrak{g})$ (resp. Alt$^r(\mathfrak{t}))$. Further, observe that, since every connected compact subgroup of $\mathbf{R}^*$ reduces to the identity element, det Ad $g= 1$ for all $g\in G$, so that the left-invariant differential forms of degree $n$ on G are also right-invariant and invariant under inner automorphisms (Chap. III, §3, no. 16, Cor. of Prop. 54): we shall speak simply of G-invariant differential forms from now on.
+Recall (Chap. III, §3, no. 13, Prop. 50) that the map $\omega  \rightarrow \omega (e)$ is an isomorphism from the vector space of left-invariant differential forms of degree $n$ (resp. $r$) on G (resp. T) to the space Alt$^n(\mathfrak{g})$ (resp. Alt$^r(\mathfrak{t})$). Further, observe that, since every connected compact subgroup of $\mathbf{R}^*$ reduces to the identity element, det Ad $g= 1$ for all $g\in G$, so that the left-invariant differential forms of degree $n$ on G are also right-invariant and invariant under inner automorphisms (Chap. III, §3, no. 16, Cor. of Prop. 54): we shall speak simply of G-invariant differential forms from now on.
 
 Similarly, it follows from Chap. III, §3, no. 16, Prop. 56 and the preceding that the map $\omega  \rightarrow \omega (\overline{e})$ is an isomorphism from the space of G-invariant differential forms of degree $n-r$ on $G/T$ to the space Alt$^{n-r}(\mathfrak{g}/\mathfrak{t})$.
 
@@ -102,15 +102,15 @@ Recall finally that $f: (G/T)\times T\rightarrow G$ denotes the morphism of mani
 
 For $t\in T$, denote by Ad$_{\mathfrak{g}/\mathfrak{t}}(t)$ the endomorphism of $\mathfrak{g}/\mathfrak{t}$ induced by Ad $t$ by passage to the quotient. Put
 
-$\delta_G(t) =$ det(Ad$_{\mathfrak{g}/\mathfrak{t}}(t)-1) =\prod_{\alpha\in R(G,T)}(t^{\alpha}-1)$. (3)
+$\delta_G(t) =$ det(Ad$_{\mathfrak{g}/\mathfrak{t}}(t)-1$) $=\prod_{\alpha\in R(G,T)}(t^{\alpha}-1)$. (3)
 
 Let $x\in \mathfrak{t}$ and $\alpha \in R(G,T)$; denote by $\widehat{\alpha}$ the element $(2\pi i)^{-1}\delta (\alpha )$ of $\mathfrak{t}^*$, so that
 
-((exp $x)^{\alpha}-$ 1)((exp $x)^{-\alpha}-1) = (e^{2\pi i\widehat{\alpha}(x)}-1)(e^{-2\pi i\widehat{\alpha}(x)}-1) = 4$ sin$^2\pi \widehat{\alpha}(x)$.
+((exp $x$)$^{\alpha}-$ 1)((exp $x$)$^{-\alpha}-1$) $= (e^{2\pi i\widehat{\alpha}(x)}-1)(e^{-2\pi i\widehat{\alpha}(x)}-1) = 4$ sin$^2\pi \widehat{\alpha}(x)$.
 
 If $R_+(G,T)$ denotes the set of positive roots of $R(G,T)$ relative to a basis B, we have
 
-$\delta_G$(exp $x) =\prod_{\alpha\in R_+(G,T)}4$ sin$^2\pi \widehat{\alpha}(x)$,
+$\delta_G$(exp $x$) $=\prod_{\alpha\in R_+(G,T)}4$ sin$^2\pi \widehat{\alpha}(x)$,
 
 so, in particular, $\delta_G(t)>0$ for all $t\in T_r$. We remark also that $\delta_G(t) =\delta_G(t^{-1})$ for $t\in T$.
 
@@ -128,11 +128,11 @@ $$
 f^*(\omega_G)(u, t) =\delta (u, t)\omega_{G/T}(u)\wedge \omega_T(t)
 $$
 
-Observe now that, for $h\in G,u\in G/T,t\in$ T, we have $f(h.u, t) =$ (Int $h)f(u, t)$; since $\omega_G$ is invariant under inner automorphisms, it follows immediately that $\delta (h.u, t) =\delta (u, t)$, so $\delta (u, t) =\delta (\overline{e}, t)$.
+Observe now that, for $h\in G,u\in G/T,t\in$ T, we have $f(h.u, t) =$ (Int $h$)$f(u, t)$; since $\omega_G$ is invariant under inner automorphisms, it follows immediately that $\delta (h.u, t) =\delta (u, t)$, so $\delta (u, t) =\delta (\overline{e}, t)$.
 
 Denote by $p:\mathfrak{g}\rightarrow \mathfrak{g}/\mathfrak{t}$ the quotient map and by $\varphi :\mathfrak{g}/\mathfrak{t}\rightarrow \mathfrak{g}$ the map defined by
 
-$\varphi (p(X)) =$ (Ad $t^{-1})X-X$ for $X\in \mathfrak{g}$; recall (§5, no. 4, Lemma 4) that the tangent map
+$\varphi (p(X)) =$ (Ad $t^{-1}$)$X-X$ for $X\in \mathfrak{g}$; recall (§5, no. 4, Lemma 4) that the tangent map
 
 $$
 T_{(e,t)}(f) : T_e(G/T)\times T_t(T)\rightarrow T_t(G)
@@ -194,13 +194,13 @@ $$
 
 The inverse image on $(G/T)\times T_r$ of the measure $dg$ on $G_r$ under the local homeomorphism $f_r($Integration, Chap. V, §6, no. 6) is the measure $\mu\otimes \delta_Gdt$, where $\mu$ is the unique G-invariant measure on $G/T$ of total mass 1.
 
-Choose an invariant differential form $\omega_T$ (resp. $\omega_{G/T})$ on T (resp. $G/T)$ of maximal degree, such that the measure defined by $\omega_T$ (resp. $\omega_{G/T})$ is equal to $dt$ (resp. $\mu)$. Put $\omega_G=\omega_{G/T}\cap \omega_T$. Lemma 2 implies that the measure defined by $\omega_G$ is equal to $dg$. Let U be an open subset of $(G/T)\times T_r$ such that $f_r$ induces an isomorphism from U to an open subset V of $G_r$. Let $\varphi$ be a continuous function with compact support in V; denote also by $\varphi$ the extension of $\varphi$ to $G_r$ which vanishes outside V. We have
+Choose an invariant differential form $\omega_T$ (resp. $\omega_{G/T}$) on T (resp. $G/T$) of maximal degree, such that the measure defined by $\omega_T$ (resp. $\omega_{G/T}$) is equal to $dt$ (resp. $\mu$). Put $\omega_G=\omega_{G/T}\cap \omega_T$. Lemma 2 implies that the measure defined by $\omega_G$ is equal to $dg$. Let U be an open subset of $(G/T)\times T_r$ such that $f_r$ induces an isomorphism from U to an open subset V of $G_r$. Let $\varphi$ be a continuous function with compact support in V; denote also by $\varphi$ the extension of $\varphi$ to $G_r$ which vanishes outside V. We have
 
 $$
 \int_V\varphi  dg=\int_V\varphi  \omega_G=\int_U(\varphi \circ f_r)f_r^*(\omega_G)
 $$
 
-$=\int_U(\varphi \circ f_r)\omega_{G/T}\wedge \delta_G\omega_T$ (Prop$.1)$
+$=\int_U(\varphi \circ f_r)\omega_{G/T}\wedge \delta_G\omega_T$ (Prop$.1$)
 
 $$
 =\int_U(\varphi \circ f_r)d\mu.\delta_Gdt
@@ -212,11 +212,11 @@ hence the lemma.
 
 The measure $dg$ on G is the image under the map $(g, t) \rightarrow gtg^{-1}$ from $G\times T$ to G of the measure $dg\otimes \frac{1}{w(G)}\delta_Gdt$, where
 
-$\delta_G(t) =$ det(Ad$_{\mathfrak{g}/\mathfrak{t}}(t)-1) =\prod_{\alpha\in R(G,T)}(t^{\alpha}-1)$.
+$\delta_G(t) =$ det(Ad$_{\mathfrak{g}/\mathfrak{t}}(t)-1$) $=\prod_{\alpha\in R(G,T)}(t^{\alpha}-1)$.
 
-Equivalently (Integration, Chap. V, §6, no. 3, Prop. $4),dg$ is the image under the map $f: (G/T)\times T\rightarrow G$ of the measure $\mu\otimes \frac{1}{w(G)}\delta_Gdt$.
+Equivalently (Integration, Chap. V, §6, no. 3, Prop. $4$)$,dg$ is the image under the map $f: (G/T)\times T\rightarrow G$ of the measure $\mu\otimes \frac{1}{w(G)}\delta_Gdt$.
 
-We prove the last assertion. It follows from §5, no. 1 and Differentiable and Analytic Manifolds, Results$, 10.1.3c)$ that G**--** $G_r$ is negligible in G and T **--** $T_r$ is negligible in T. Further, the map $f_r$ makes $(G/T)\times T_r$ a principal covering of $G_r$, with group W (§5, no. 4, Prop. $4b))$. The theorem now follows from Lemma 3 and Integration, Chap. V, §6, no. 6, Prop. 11.
+We prove the last assertion. It follows from §5, no. 1 and Differentiable and Analytic Manifolds, Results$, 10.1.3c)$ that G**--** $G_r$ is negligible in G and T **--** $T_r$ is negligible in T. Further, the map $f_r$ makes $(G/T)\times T_r$ a principal covering of $G_r$, with group W (§5, no. 4, Prop. $4b$)$)$. The theorem now follows from Lemma 3 and Integration, Chap. V, §6, no. 6, Prop. 11.
 
 #### Corollary 1 {#lie-ix-s6-thm-1-cor-1 .statement tag=01F2}
 
@@ -252,17 +252,17 @@ Denote by $p: G/T\times T\rightarrow T$ the second projection. We have $\varphi 
 
 #### Corollary 3 {#lie-ix-s6-thm-1-cor-3 .statement tag=01F4}
 
-Let H be a connected closed subgroup of G containing T, $\mathfrak{h}$ its Lie algebra, and $dh$ the Haar measure on H of total mass 1. Let $\varphi$ be an integrable central function on G, with values in a Banach space or in $\overline{\mathbf{R}}$. Then the function $h \rightarrow \varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1)$ is integrable and central on H and we have
+Let H be a connected closed subgroup of G containing T, $\mathfrak{h}$ its Lie algebra, and $dh$ the Haar measure on H of total mass 1. Let $\varphi$ be an integrable central function on G, with values in a Banach space or in $\overline{\mathbf{R}}$. Then the function $h \rightarrow \varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1$) is integrable and central on H and we have
 
-$\int_G\varphi (g)dg=\frac{w(H)}{w(G)}\int_H\varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1)dh$. (7)
+$\int_G\varphi (g)dg=\frac{w(H)}{w(G)}\int_H\varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1$)$dh$. (7)
 
-Indeed, the function $h \rightarrow \varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1)$ is a central function on H whose restriction to T is the function $t \rightarrow \varphi (t)\delta_G(t)\delta_H(t)^{-1}$. Thus, the corollary follows from Cor. 2 applied to G and to H.
+Indeed, the function $h \rightarrow \varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1$) is a central function on H whose restriction to T is the function $t \rightarrow \varphi (t)\delta_G(t)\delta_H(t)^{-1}$. Thus, the corollary follows from Cor. 2 applied to G and to H.
 
 #### Remark 1 {#lie-ix-s6-n2-rem-1 .statement tag=01F5}
 
 If we take $\varphi = 1$ in Cor. 3, we obtain
 
-$\int_H$ det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1)dh=w(G)/w(H)$ (8)
+$\int_H$ det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1$)$dh=w(G)/w(H)$ (8)
 
 and in particular
 
@@ -304,37 +304,37 @@ measure on $0, \pi$; it follows from the preceding that the image on $\overline{
 
 Let H be a (real) Lie group of dimension $m,\mathfrak{h}$ its Lie algebra. Let $\omega_H$ be a right-invariant differential form of degree $m$ on H, and let $\omega_{\mathfrak{h}}$ be the translation-invariant differential form on $\mathfrak{h}$, of degree $m$, that coincides with $\omega_H(e)$ at the origin. We have
 
-(exp$_H)^*\omega_H=\lambda_{\mathfrak{h}}\omega_{\mathfrak{h}}$ (10)
+(exp$_H$)$^*\omega_H=\lambda_{\mathfrak{h}}\omega_{\mathfrak{h}}$ (10)
 
 where $\lambda_{\mathfrak{h}}$ is the Ad(H)-invariant function on $\mathfrak{h}$ such that
 
-$\lambda_{\mathfrak{h}}(x) =$ det $\sum(p+$ 1)!1 (ad $x)^p$ for $x\in \mathfrak{h}$.
+$\lambda_{\mathfrak{h}}(x) =$ det $\sum(p+$ 1)!1 (ad $x$)$^p$ for $x\in \mathfrak{h}$.
 
 $p\geq 0$
 
 Let $x, x_1, . . . , x_m$ be elements of $\mathfrak{h}$. We have
 
-(exp$^*\omega_H)_x(x_1, . . . , x_m) = (\omega_H$(exp $x))(T_x$(exp)($x_1$)$, . . . ,T_x$(exp)($x_m$)). Denote by $\varpi (x) :\mathfrak{h}\rightarrow \mathfrak{h}$ the right differential of the exponential at $x$ (Chap. III, §3, no. 17, Def. 8); by definition,
+(exp$^*\omega_H$)$_x(x_1, . . . , x_m) = (\omega_H$(exp $x$))$(T_x$(exp)($x_1$)$, . . . ,T_x$(exp)($x_m$)). Denote by $\varpi (x) :\mathfrak{h}\rightarrow \mathfrak{h}$ the right differential of the exponential at $x$ (Chap. III, §3, no. 17, Def. 8); by definition,
 
-$T_x$(exp)($y$).(exp $x)^{-1}=\varpi (x).y$ for all $y\in \mathfrak{h}$.
+$T_x$(exp)($y$).(exp $x$)$^{-1}=\varpi (x).y$ for all $y\in \mathfrak{h}$.
 
 The form $\omega_H$ being right invariant, we obtain
 
-$(\omega_H$(exp $x))(T_x$(exp)($x_1$)$, . . . ,T_x$(exp)($x_m$))
+$(\omega_H$(exp $x$))$(T_x$(exp)($x_1$)$, . . . ,T_x$(exp)($x_m$))
 
-$=\omega_H(e)(\varpi (x).x_1, . . . , \varpi (x).x_m) =$ (det $\varpi (x))\omega_{\mathfrak{h}}(x_1, . . . , x_m)$;
+$=\omega_H(e)(\varpi (x).x_1, . . . , \varpi (x).x_m) =$ (det $\varpi (x)$)$\omega_{\mathfrak{h}}(x_1, . . . , x_m)$;
 
 thus, exp$^*\omega_H=\lambda_{\mathfrak{h}}\omega_{\mathfrak{h}}$, with $\lambda_{\mathfrak{h}}(x) =$ det $\varpi (x) =$ det$\frac{exp ad x-1}{ad x}$ (Chap. III, §6, no. 4, Prop. 12).
 
 Let $h\in H$; since Ad $h$ is an automorphism of $\mathfrak{h}$, we have
 
-ad ((Ad $h)(x)) =$ Ad $h\circ$ Ad$x\circ$ (Ad $h)^{-1}$,
+ad ((Ad $h$)$(x)$) $=$ Ad $h\circ$ Ad$x\circ$ (Ad $h$)$^{-1}$,
 
-so $\lambda_{\mathfrak{h}}$((Ad $h)(x)) =\lambda_{\mathfrak{h}}(x)$. Thus, the function $\lambda_{\mathfrak{h}}$ is invariant under Ad(H); this completes the proof of the proposition.
+so $\lambda_{\mathfrak{h}}$((Ad $h$)$(x)$) $=\lambda_{\mathfrak{h}}(x)$. Thus, the function $\lambda_{\mathfrak{h}}$ is invariant under Ad(H); this completes the proof of the proposition.
 
 #### Remark {#lie-ix-s6-n3-rem-1 .statement tag=01FA}
 
-Consider the function $\lambda_{\mathfrak{g}}$ associated to a compact Lie group G; in view of §2, no. 1, Th. 1, to calculate $\lambda_{\mathfrak{g}}$ it suffices to know its values on $\mathfrak{t}$. But, for $x\in \mathfrak{t}$, the endomorphism ad $x$ of $\mathfrak{g}$ is semi-simple, and has eigenvalues 0 (with multiplicity $r)$ and, for all $\alpha \in R(G,T),\delta (\alpha )(x)$ (with multiplicity 1). It follows immediately that
+Consider the function $\lambda_{\mathfrak{g}}$ associated to a compact Lie group G; in view of §2, no. 1, Th. 1, to calculate $\lambda_{\mathfrak{g}}$ it suffices to know its values on $\mathfrak{t}$. But, for $x\in \mathfrak{t}$, the endomorphism ad $x$ of $\mathfrak{g}$ is semi-simple, and has eigenvalues 0 (with multiplicity $r$) and, for all $\alpha \in R(G,T),\delta (\alpha )(x)$ (with multiplicity 1). It follows immediately that
 
 $$
 \lambda_{\mathfrak{g}}(x) =\prod\frac{e^{\delta(\alpha)(x)} - 1}{\delta(\alpha)(x)}=\frac{\delta_{\mathfrak{g}}(x)}{\pi_{\mathfrak{g}}(x)} \tag{11}
@@ -342,11 +342,11 @@ $$
 
 $\alpha \in R(G,T)$
 
-with $\delta_{\mathfrak{g}}(x) =\delta_G$(exp $x)$ and $\pi_{\mathfrak{g}}(x) =\prod_{\alpha\in R(G,T)}\delta (\alpha )(x) =$ det ad$_{\mathfrak{g}/\mathfrak{t}}(x)$.
+with $\delta_{\mathfrak{g}}(x) =\delta_G$(exp $x$) and $\pi_{\mathfrak{g}}(x) =\prod_{\alpha\in R(G,T)}\delta (\alpha )(x) =$ det ad$_{\mathfrak{g}/\mathfrak{t}}(x)$.
 
 Let $\omega_{G/T}$ be an invariant differential form of degree $n-r$ on $G/T$ and $\omega_{\mathfrak{t}}$ a translation-invariant differential form of degree $r$ on $\mathfrak{t}$. With the notation of no. 1, denote by $\omega_{G/T}\cap \omega_{\mathfrak{t}}$ the unique translation-invariant differential form $\omega_{\mathfrak{g}}$ of degree $n$ on $\mathfrak{g}$ such that $\omega_{\mathfrak{g}}(0) =\omega_{G/T}(\overline{e})\cap \omega_{\mathfrak{t}}(0)$.
 
-Finally, denote by $\psi : (G/T)\times \mathfrak{t}\rightarrow \mathfrak{g}$ the morphism of manifolds induced by the map $(g, x) \rightarrow$ (Ad $g)(x)$ from $G\times \mathfrak{t}$ to $\mathfrak{g}$ by passage to the quotient.
+Finally, denote by $\psi : (G/T)\times \mathfrak{t}\rightarrow \mathfrak{g}$ the morphism of manifolds induced by the map $(g, x) \rightarrow$ (Ad $g$)$(x)$ from $G\times \mathfrak{t}$ to $\mathfrak{g}$ by passage to the quotient.
 
 #### Proposition 3 {#lie-ix-s6-prop-3 .statement tag=01FB}
 
@@ -358,13 +358,13 @@ $$
 
 where $\pi_{\mathfrak{g}}$ is the function on $\mathfrak{t}$ defined by $\pi_{\mathfrak{g}}(x) =\prod_{\alpha\in R(G,T)}\delta (\alpha )(x)$.
 
-Denote by $\omega_G$ (resp. $\omega_T)$ the invariant differential form of maximum degree on G (resp. T) that coincides with $\omega_{\mathfrak{g}}$ (resp. $\omega_{\mathfrak{t}})$ at the origin. Consider the commutative diagram
+Denote by $\omega_G$ (resp. $\omega_T$) the invariant differential form of maximum degree on G (resp. T) that coincides with $\omega_{\mathfrak{g}}$ (resp. $\omega_{\mathfrak{t}}$) at the origin. Consider the commutative diagram
 
 $$
 (G/T)\times \mathfrak{t}\longrightarrow^{\psi}\mathfrak{g}
 $$
 
-(Id,exp$_T)$ exp$_G$.
+(Id,exp$_T$) exp$_G$.
 
 $(G/T)\times T\longrightarrow^f$ G
 
@@ -378,15 +378,15 @@ $(\psi^*\lambda_{\mathfrak{g}})(\overline{g}, x) =\lambda_{\mathfrak{g}}(x) =\fr
 
 It follows that the forms $\psi^*\omega_G(\overline{g}, x)$ and $\omega_{G/T}(\overline{g})\wedge \pi_{\mathfrak{g}}(x)\omega_{\mathfrak{t}}(x)$ coincide where $\delta_{\mathfrak{g}}(x)$ is non-zero, that is on the dense open subset $(G/T)\times \mathfrak{t}_r$; thus, they are equal, hence the proposition.
 
-Choose invariant differential forms $\omega_G$ on G and $\omega_T$ on T, of maximum degree, such that $|\omega_G|=dg$ and $|\omega_T|=dt$; denote by $\omega_{\mathfrak{g}}$ (resp. $\omega_{\mathfrak{t}})$ the translation-invariant differential form on $\mathfrak{g}$ (resp. $\mathfrak{t})$ that coincides with $\omega_G(e)$ (resp. $\omega_T(e))$ at the origin, and $dz$ (resp. $dx)$ the Haar measure $|\omega_{\mathfrak{g}}|$ (resp. $|\omega_{\mathfrak{t}}|)$. Reasoning as in no. 2, mutatis mutandis, gives the following proposition:
+Choose invariant differential forms $\omega_G$ on G and $\omega_T$ on T, of maximum degree, such that $|\omega_G|=dg$ and $|\omega_T|=dt$; denote by $\omega_{\mathfrak{g}}$ (resp. $\omega_{\mathfrak{t}}$) the translation-invariant differential form on $\mathfrak{g}$ (resp. $\mathfrak{t}$) that coincides with $\omega_G(e)$ (resp. $\omega_T(e)$) at the origin, and $dz$ (resp. $dx$) the Haar measure $|\omega_{\mathfrak{g}}|$ (resp. $|\omega_{\mathfrak{t}}|$). Reasoning as in no. 2, mutatis mutandis, gives the following proposition:
 
 #### Proposition 4 {#lie-ix-s6-prop-4 .statement tag=01FC}
 
-The measure $dz$ on $\mathfrak{g}$ is the image under the proper map $(g, x) \rightarrow$ (Ad $g)(x)$ from $G\times \mathfrak{t}$ to $\mathfrak{g}$ of the measure $dg\otimes \frac{1}{w(G)}\pi_{\mathfrak{g}}dx$.
+The measure $dz$ on $\mathfrak{g}$ is the image under the proper map $(g, x) \rightarrow$ (Ad $g$)$(x)$ from $G\times \mathfrak{t}$ to $\mathfrak{g}$ of the measure $dg\otimes \frac{1}{w(G)}\pi_{\mathfrak{g}}dx$.
 
-We leave to the reader the statement and proof of the analogues of Cor. 1 to 3 and Remarks 1 to 3 of no. 2. For example, let $\varphi$ be an integrable function on $\mathfrak{g}$ (with values in a Banach space or $\overline{\mathbf{R}})$; then
+We leave to the reader the statement and proof of the analogues of Cor. 1 to 3 and Remarks 1 to 3 of no. 2. For example, let $\varphi$ be an integrable function on $\mathfrak{g}$ (with values in a Banach space or $\overline{\mathbf{R}}$); then
 
-$\int_{\mathfrak{g}}\varphi (z)dz=\frac{1}{w(G)}\int_{\mathfrak{t}}(\int_G\varphi$((Ad $g)x)dg)\pi_{\mathfrak{g}}(x)dx$, (12)
+$\int_{\mathfrak{g}}\varphi (z)dz=\frac{1}{w(G)}\int_{\mathfrak{t}}(\int_G\varphi$((Ad $g$)$x$)$dg)\pi_{\mathfrak{g}}(x)dx$, (12)
 
 and, in particular, if $\varphi$ is invariant under Ad(G),
 
@@ -410,7 +410,7 @@ Now let H be a Lie group, $m: H\times X\rightarrow X$ a law of left operation of
 
 The law of operation $H\times \mathscr{S}^r(X; E)\rightarrow \mathscr{S}^r(X; E)$ is continuous.
 
-In view of the definition of the topology of $\mathscr{S}^r(X; E)$ and General Topology, Chap. X, §3, no. 4, Th. 3, it suffices to prove that for any integers $k\leq r$, the map $f: H\times X\times \mathscr{S}^k(X; E)\rightarrow J^k(X; E)$ such that $f(h, x, s) =j_x^k(^hs)$ is continuous. For $h\in H$, denote by $\tau_h$ (resp. $\theta_h)$ the automorphism $x \rightarrow hx$ of X (resp. of E). Define maps
+In view of the definition of the topology of $\mathscr{S}^r(X; E)$ and General Topology, Chap. X, §3, no. 4, Th. 3, it suffices to prove that for any integers $k\leq r$, the map $f: H\times X\times \mathscr{S}^k(X; E)\rightarrow J^k(X; E)$ such that $f(h, x, s) =j_x^k(^hs)$ is continuous. For $h\in H$, denote by $\tau_h$ (resp. $\theta_h$) the automorphism $x \rightarrow hx$ of X (resp. of E). Define maps
 
 $$
 f_1:H\times X\rightarrow J^k(X,X)
@@ -442,7 +442,7 @@ $$
 -------\longrightarrow^{(Id,j^k)}X\times \mathscr{C}(X; J^k(X,E))\longrightarrow^{\varepsilon}J^k(X,E)
 $$
 
-with $\varepsilon (x, u) =u(x)$; the map $\varepsilon$ being continuous (General Topology, Chap. X, §3, no. 4, Cor. 1 of Th. $3),g$ is continuous.
+with $\varepsilon (x, u) =u(x)$; the map $\varepsilon$ being continuous (General Topology, Chap. X, §3, no. 4, Cor. 1 of Th. $3$)$,g$ is continuous.
 
 Let $(h_0, x_0)\in H\times X$; we shall prove that $f_1$ is continuous at $(h_0, x_0)$. There exist charts $(U, \psi ,F)$ and $(V, \chi ,F')$ of X and an open subset $\Omega$ of H such that $x_0\in U, h_0\in \Omega$ and $m(\Omega \times U)\subset V$. By using the expression for $J^k(X,X)$ in these charts, we are reduced to proving, for $1\leq l\leq k$, the continuity at $(h_0, x_0)$ of the map $(h, x) \rightarrow \Delta^l_x(\tau_h)$ from $\Omega \times U$ to $P_l(F; F')$, with $\Delta^l_x(\tau_h)(v) =$ $\frac{1}{l!}D^l\tau_h(x).v$ for $v\in F ($Differentiable and Analytic Manifolds, Results, 12.2). But $D^l\tau_h(x)$ is simply the $l$th partial derivative of $m(h, x)$ with respect to $x$, which is continuous by hypothesis; consequently, $f_1$ is continuous. The proof that $f_2$ is continuous is similar, hence the lemma.
 
@@ -576,7 +576,7 @@ $$
 
 for $\omega$ in Alt$^p(\mathfrak{g})$ and $a_1, . . . , a_p$ in $\mathfrak{g}$.
 
-The subcomplex $^G\Omega (G)^G$ of biinvariant forms (Chap. III, §3, no. 13) can be identified with the subcomplex Alt($\mathfrak{g}$)$^G$ of alternating multilinear forms on $\mathfrak{g}$ invariant under the adjoint representation (that is, such that $\theta (\xi )\omega = 0$ for all $\xi \in \mathfrak{g})$. Thus, we have a commutative diagram of complexes
+The subcomplex $^G\Omega (G)^G$ of biinvariant forms (Chap. III, §3, no. 13) can be identified with the subcomplex Alt($\mathfrak{g}$)$^G$ of alternating multilinear forms on $\mathfrak{g}$ invariant under the adjoint representation (that is, such that $\theta (\xi )\omega = 0$ for all $\xi \in \mathfrak{g}$). Thus, we have a commutative diagram of complexes
 
 $$
 ^G\Omega (G)^G\longrightarrow \Omega (G)^G\longrightarrow \Omega (G)
@@ -596,7 +596,7 @@ b) Let $\omega \in$ Alt($\mathfrak{g}$). Then $\omega$ belongs to Alt($\mathfrak
 
 c) The graded vector space $H(\Omega (G))$ is isomorphic to Alt($\mathfrak{g}$)$^G$.
 
-The theorem, applied to the action of G on G by left translations (resp. to the action $((g, h);x) \rightarrow gxh^{-1}$ of $G\times G$ on G) implies that the canonical injection $\Omega (G)^G\rightarrow \Omega (G)$ (resp. $^G\Omega (G)^G\rightarrow \Omega (G))$ is a homotopism; in view of Algèbre, Chap. X, p. 34, Cor., assertion $a)$ follows.
+The theorem, applied to the action of G on G by left translations (resp. to the action $((g, h);x) \rightarrow gxh^{-1}$ of $G\times G$ on G) implies that the canonical injection $\Omega (G)^G\rightarrow \Omega (G)$ (resp. $^G\Omega (G)^G\rightarrow \Omega (G)$) is a homotopism; in view of Algèbre, Chap. X, p. 34, Cor., assertion $a)$ follows.
 
 We prove $b)$. By Prop. 51 of Chap. III, §3, no. 14, we have $d\alpha =-d\alpha$, that is $d\alpha = 0$, for every differential form $\alpha$ on G that is left and right invariant. Thus, if $\omega \in$ Alt($\mathfrak{g}$)$^G$, then $d\omega = 0$, and consequently $d(i(\xi )\omega ) =$ $\theta (\xi )\omega -i(\xi )d\omega = 0$. Conversely, if $d\omega = 0$ and $d(i(\xi )d\omega ) = 0$, then $\theta (\xi )\omega = 0$.
 
@@ -606,7 +606,7 @@ Assertion $c)$ follows from $a)$ and $b)$.
 
 Consider the subcomplexes $Z(\Omega (G))$ and $B(\Omega (G))$ of $\Omega (G) ($Algèbre, Chap. X, p. 25). It follows from the formula giving the differential of the product of two forms (Differentiable and Analytic Manifolds, Results, 8.3.5) that $Z(\Omega (G))$ is a subalgebra of $\Omega (G)$ and that $B(\Omega (G))$ is an ideal of $Z(\Omega (G))$; consequently, the exterior product induces a graded algebra structure on $H(\Omega (G))$. The preceding now gives an isomorphism of graded algebras $H(\Omega (G))\rightarrow$ Alt($\mathfrak{g}$)$^G$.
 
-Let H be a closed subgroup of G; we apply Th. 2 to $X = G/H$. By Chap. III, §1, no. 8, Cor. 1 of Prop. 17, the G-invariant differential forms on $G/H$ can be identified with the H-invariant elements of Alt(T$_e(G/H))$, that is with the elements of Alt($\mathfrak{g}$) that are H-invariant and annihilated by the operators $i(\xi )$ for all $\xi \in L(H)$. Consequently:
+Let H be a closed subgroup of G; we apply Th. 2 to $X = G/H$. By Chap. III, §1, no. 8, Cor. 1 of Prop. 17, the G-invariant differential forms on $G/H$ can be identified with the H-invariant elements of Alt(T$_e(G/H)$), that is with the elements of Alt($\mathfrak{g}$) that are H-invariant and annihilated by the operators $i(\xi )$ for all $\xi \in L(H)$. Consequently:
 
 #### Corollary 2 {#lie-ix-s6-thm-2-cor-2 .statement tag=01FL}
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 107
 statements: 36
 exercises: 30
-content_sha256: 6ed30c6b36a2c5b35a51baedab8ab05f47d1fa8b095a2d244f4a6331d8ef5594
+content_sha256: da8e605c858e3fef1f0af0f7c62d13407c5909b3f6dfce32763a544e2a64a7be
 ---
 
 ## § 6. PROPRIÉTÉS SPECTRALES DES ENDOMORPHISMES DES ESPACES DE BANACH
@@ -64,7 +64,7 @@ Comme l’ensemble Sp$_s(u)$ se compose de points isolés de Sp($u$), il est ouv
 
 D’après la prop. 14 de III, p. 54, les points sensibles du spectre de $u$ sont les nombres complexes $\lambda$ tels que $u-\lambda 1_E$ soit un endomorphisme de Riesz de E qui n’est pas un automorphisme de E.
 
-Pour tout nombre complexe $\lambda$, on note $N_{\lambda}(u)$ et $I_{\lambda}(u)$ le nilespace et le conilespace de l’endomorphisme $u-\lambda 1_E$ de E. Puisque E est un espace de Fréchet, $u-\lambda 1_E$ est un endomorphisme de Riesz si et seulement si $N_{\lambda}(u)$ est de dimension finie et $I_{\lambda}(u)$ est de codimension finie (prop. 13 de III, p. 53) ; lorsque c’est le cas, $u-\lambda 1_E$ est inversible si et seulement si $N_{\lambda}(u)$ est réduit à 0 (III, p. 47, prop. 6). Les points sensibles du spectre de $u$ sont donc les nombres complexes $\lambda$ tels que $N_{\lambda}(u)$ soit de dimension finie non nulle et $I_{\lambda}(u)$ soit de codimension finie dans E (III, p. 54, prop. 14). La multiplicité spectrale $m_{\lambda}(u)$ de $\lambda$ est alors la dimension de $N_{\lambda}(u)$, l’endomorphisme $u-\lambda 1_E$ définit par restriction un automorphisme de $I_{\lambda}(u)$ et un endomorphisme nilpotent de $N_{\lambda}(u)$. Comme $N_{\lambda}(u)$ n’est pas réduit à 0, il en découle que $\lambda$ est une valeur propre de $u$. Le plus petit entier $n\geqslant 1$ tel que Ker(($u-\lambda 1_E$)$^n)$ soit égal à $N_{\lambda}(u)$ est l’ordre du pôle de la résolvante de $u$ au point $\lambda$ (n$^o3$ de I, p. 131), qui est majoré par $m_{\lambda}(u)$.
+Pour tout nombre complexe $\lambda$, on note $N_{\lambda}(u)$ et $I_{\lambda}(u)$ le nilespace et le conilespace de l’endomorphisme $u-\lambda 1_E$ de E. Puisque E est un espace de Fréchet, $u-\lambda 1_E$ est un endomorphisme de Riesz si et seulement si $N_{\lambda}(u)$ est de dimension finie et $I_{\lambda}(u)$ est de codimension finie (prop. 13 de III, p. 53) ; lorsque c’est le cas, $u-\lambda 1_E$ est inversible si et seulement si $N_{\lambda}(u)$ est réduit à 0 (III, p. 47, prop. 6). Les points sensibles du spectre de $u$ sont donc les nombres complexes $\lambda$ tels que $N_{\lambda}(u)$ soit de dimension finie non nulle et $I_{\lambda}(u)$ soit de codimension finie dans E (III, p. 54, prop. 14). La multiplicité spectrale $m_{\lambda}(u)$ de $\lambda$ est alors la dimension de $N_{\lambda}(u)$, l’endomorphisme $u-\lambda 1_E$ définit par restriction un automorphisme de $I_{\lambda}(u)$ et un endomorphisme nilpotent de $N_{\lambda}(u)$. Comme $N_{\lambda}(u)$ n’est pas réduit à 0, il en découle que $\lambda$ est une valeur propre de $u$. Le plus petit entier $n\geqslant 1$ tel que Ker(($u-\lambda 1_E$)$^n$) soit égal à $N_{\lambda}(u)$ est l’ordre du pôle de la résolvante de $u$ au point $\lambda$ (n$^o3$ de I, p. 131), qui est majoré par $m_{\lambda}(u)$.
 
 En particulier, on a donc démontré :
 
@@ -92,7 +92,7 @@ Posons H = Sp($u$)$\cap (\mathbf{C}-\mathring{V})$. L’ensemble H est contenu d
 
 Supposons que V n’est pas vide. Soit $\mu\in V$ et notons $v$ l’endomorphisme de E qui coïncide avec l’homothétie de rapport $\mu$ dans F et avec $u$ dans G. Son spectre est contenu dans $\{\mu\} \cup$ (Sp($u$) - H), donc dans V, et $v-u$ est de rang fini puisque F est de dimension finie.
 
-Pour toute partie compacte S de $\mathbf{C}$, on note $\mathscr{O}(S)$ l’algèbre des germes de fonctions holomorphes au voisinage de S et à valeurs dans $\mathbf{C}$ (I, p. 49, §4, n$^o1)$.
+Pour toute partie compacte S de $\mathbf{C}$, on note $\mathscr{O}(S)$ l’algèbre des germes de fonctions holomorphes au voisinage de S et à valeurs dans $\mathbf{C}$ (I, p. 49, §4, n$^o1$).
 
 #### Corollaire 2 {#ts-iii-s6-prop-2-cor-2 .statement tag=02UJ}
 
@@ -180,7 +180,7 @@ b) Soit $n\in \overline{\mathbf{Z}}$. L’ensemble Sp$_n(u)$ est réunion d’un
 
 L’ensemble $\mathbf{C}-$ Sp$_{\omega}(u)$ se compose des nombres complexes $\lambda \in \mathbf{C}$ tels que $u-\lambda 1_E$ soit un morphisme strict, dont le noyau ou le conoyau est de dimension finie. D’après les prop. 11 de III, p. 67 et 13 de III, p. 70, il est ouvert. L’ensemble Sp$_{\omega}(u)$ est donc fermé. Comme il est borné, il est compact.
 
-Démontrons b). Soit $n\in \overline{\mathbf{Z}}$. L’ensemble Sp$_n(u)$ est contenu dans $\mathbf{C}-$Sp$_{\omega}(u)$. Soit U une composante connexe de $\mathbf{C}-$ Sp$_{\omega}(u)$ qui rencontre Sp$_n(u)$. L’application $\lambda \mapsto$ ind($u-\lambda 1_E$) de $\mathbf{C}-$ Sp$_{\omega}(u)$ dans $\overline{\mathbf{Z}}$ étant localement constante (cor. 1 de la prop. 12 de III, p. 68 et cor. 1 de la prop. 13 de III, p. 70), l’indice de $u-\lambda 1_E$ est égal à $n$ pour tout $\lambda \in U$. Si $n\not = 0$, cela implique que U est contenu dans Sp$_n(u)$. Si $n= 0$, remarquons que l’ensemble U est une composante connexe de $\mathbf{C}-$ (Sp$_{\omega}(u)\cup$ Sp$_{-\infty}(u)\cup$ Sp$_{+\infty}(u))$. Puisque U rencontre Sp$_0(u)$ et donc Sp$_e(u)$, il résulte alors de la remarque 2 que l’ensemble U est contenu dans Sp$_e(u)$, et par suite dans Sp$_0(u)$. On conclut dans tous les cas que Sp$_n(u)$ est la réunion des composantes connexes de $\mathbf{C}-$ Sp$_{\omega}(u)$ qui rencontrent Sp$_n(u)$. Celles-ci sont nécessairement bornées puisque l’ensemble Sp($u$) est borné. Par suite, Sp$_n(u)$ est ouvert dans $\mathbf{C}$ et sa frontière est contenue dans Sp$_{\omega}(u)$. Cela démontre b).
+Démontrons b). Soit $n\in \overline{\mathbf{Z}}$. L’ensemble Sp$_n(u)$ est contenu dans $\mathbf{C}-$Sp$_{\omega}(u)$. Soit U une composante connexe de $\mathbf{C}-$ Sp$_{\omega}(u)$ qui rencontre Sp$_n(u)$. L’application $\lambda \mapsto$ ind($u-\lambda 1_E$) de $\mathbf{C}-$ Sp$_{\omega}(u)$ dans $\overline{\mathbf{Z}}$ étant localement constante (cor. 1 de la prop. 12 de III, p. 68 et cor. 1 de la prop. 13 de III, p. 70), l’indice de $u-\lambda 1_E$ est égal à $n$ pour tout $\lambda \in U$. Si $n\not = 0$, cela implique que U est contenu dans Sp$_n(u)$. Si $n= 0$, remarquons que l’ensemble U est une composante connexe de $\mathbf{C}-$ (Sp$_{\omega}(u)\cup$ Sp$_{-\infty}(u)\cup$ Sp$_{+\infty}(u)$). Puisque U rencontre Sp$_0(u)$ et donc Sp$_e(u)$, il résulte alors de la remarque 2 que l’ensemble U est contenu dans Sp$_e(u)$, et par suite dans Sp$_0(u)$. On conclut dans tous les cas que Sp$_n(u)$ est la réunion des composantes connexes de $\mathbf{C}-$ Sp$_{\omega}(u)$ qui rencontrent Sp$_n(u)$. Celles-ci sont nécessairement bornées puisque l’ensemble Sp($u$) est borné. Par suite, Sp$_n(u)$ est ouvert dans $\mathbf{C}$ et sa frontière est contenue dans Sp$_{\omega}(u)$. Cela démontre b).
 
 Supposons finalement que l’ensemble Sp$_{\omega}(u)$ est vide. D’après b), chacun des ensembles Sp$_n(u)$, pour $n\in \overline{\mathbf{Z}}$, est alors vide. On a donc Sp($u$) $=$ Sp$_s(u)$. Le spectre de $u$ est par conséquent discret et compact, donc fini, et comme tous ses points sont de multiplicité spectrale finie, l’espace vectoriel E est de dimension finie (III, p. 83, prop. 2). Cela termine la démonstration de a).
 
@@ -200,11 +200,11 @@ a) Les traces sur $\mathbf{C}-\{0\}$ des ensembles Sp($v\circ u$) et Sp($u\circ 
 
 b) Soit $\lambda$ un élément de Sp$_s(v\circ u)$ distinct de 0. Les multiplicités spectrales de $\lambda$ pour $v\circ u$ et pour $u\circ v$ sont égales.
 
-Soit $\mu$ un nombre complexe non nul et soit $n\in \overline{\mathbf{Z}}$. Pour que $\mu1_E-v\circ u$ soit un automorphisme (resp. un endomorphisme de Riesz, resp. un morphisme strict dont le noyau ou le conoyau est de dimension finie et dont l’indice est $n)$, il faut et il suffit que $\mu1_F-u\circ v$ en soit un (III, p. 49, prop. 10). L’assertion a) résulte alors des définitions.
+Soit $\mu$ un nombre complexe non nul et soit $n\in \overline{\mathbf{Z}}$. Pour que $\mu1_E-v\circ u$ soit un automorphisme (resp. un endomorphisme de Riesz, resp. un morphisme strict dont le noyau ou le conoyau est de dimension finie et dont l’indice est $n$), il faut et il suffit que $\mu1_F-u\circ v$ en soit un (III, p. 49, prop. 10). L’assertion a) résulte alors des définitions.
 
 Soit $\lambda$ un point de Sp$_s(v\circ u)$ distinct de 0. On a
 
-dim Ker(($\lambda 1_E-v\circ u$)$^n) =$ dim Ker(($\lambda 1_F-u\circ v$)$^n)$
+dim Ker(($\lambda 1_E-v\circ u$)$^n$) $=$ dim Ker(($\lambda 1_F-u\circ v$)$^n$)
 
 pour tout $n\geqslant 0 ($loc. cit.), donc les multiplicités spectrales de $\lambda$ pour $v\circ u$ et $u\circ v$ sont égales.
 
@@ -474,7 +474,7 @@ b) Le projecteur spectral de $u$ correspondant à $\varrho (u)$ est de rang 1 ;
 
 c) Pour toute valeur propre $\lambda \not =\varrho (u)$ de $u_{(\mathbf{C})}$, on a $|\lambda |< \varrho (u)$;
 
-d) Soit F un sous-espace de E stable par $u$ tel que (C $-\{0\})\cap F$ est non vide. Alors $x_0\in F$. En particulier, les seuls vecteurs propres de $u$ dans C sont les multiples de $x_0$.
+d) Soit F un sous-espace de E stable par $u$ tel que (C $-\{0\}$)$\cap F$ est non vide. Alors $x_0\in F$. En particulier, les seuls vecteurs propres de $u$ dans C sont les multiples de $x_0$.
 
 Démontrons deux lemmes préliminaires.
 
@@ -500,7 +500,7 @@ En remplaçant B par $B\cap (-B)$, on se ramène au cas où B est équilibré. L
 
 Démontrons maintenant la proposition.
 
-Notons $x\preccurlyeq y$ la relation d’ordre sur E associée au cône convexe C (EVT, II, p. 13, n$^o5)$, c’est-à-dire $x\preccurlyeq y$ si et seulement si $y-x\in C$. On a $u(x)\preccurlyeq u(y)$ si $x\preccurlyeq y$. Puisque $\mathring{C}$ est non vide, l’espace vectoriel $C-C$ engendré par C (EVT, II, p. 12, cor. 1) contient un voisinage de 0, donc le cône C est total.
+Notons $x\preccurlyeq y$ la relation d’ordre sur E associée au cône convexe C (EVT, II, p. 13, n$^o5$), c’est-à-dire $x\preccurlyeq y$ si et seulement si $y-x\in C$. On a $u(x)\preccurlyeq u(y)$ si $x\preccurlyeq y$. Puisque $\mathring{C}$ est non vide, l’espace vectoriel $C-C$ engendré par C (EVT, II, p. 12, cor. 1) contient un voisinage de 0, donc le cône C est total.
 
 Démontrons l’assertion a). Soit $\varrho =\varrho (u)$. Soit $y_0$ un élément de $\mathring{C}$. On a $y_0\not = 0$. Soit $r >0$ tel que la boule fermée de centre $y_0$ et de rayon $r$ est contenue dans C. Pour tout $y\in E-\{0\}$, on a $y_0-r\|y\|^{-1}y\in C$, donc $y\preccurlyeq r^{-1}\|y\|y_0$ pour tout $y\in E$.
 
@@ -518,7 +518,7 @@ Soit K l’intersection du spectre de $u_{(\mathbf{C})}$ et du cercle de centre 
 
 Pour démontrer les assertions b) et c), il suffit de démontrer que F est de dimension 1.
 
-Notons $v$ l’endomorphisme de F déduit de $u$ par passage aux sous-espaces. Soit $C_F= C\cap F$. C’est un cône convexe fermé saillant d’intérieur non vide dans F (puisque $x_0\in \mathring{C}\cap F)$, donc total ; il vérifie $v(C_F-\{0\})\subset \mathring{C}_F$, et en particulier est stable par $v$. Comme $\varrho (v)\leqslant \varrho$ et $x_0\in F$, on a $\varrho (v) =\varrho$. D’après le corollaire du théorème 4, appliqué à $C_F$ et $v$, il existe un vecteur propre $\ell$ de $^tv$ dans $C^{\circ}_F$ pour la valeur propre $\varrho (v) =\varrho  >0$.
+Notons $v$ l’endomorphisme de F déduit de $u$ par passage aux sous-espaces. Soit $C_F= C\cap F$. C’est un cône convexe fermé saillant d’intérieur non vide dans F (puisque $x_0\in \mathring{C}\cap F$), donc total ; il vérifie $v(C_F-\{0\})\subset \mathring{C}_F$, et en particulier est stable par $v$. Comme $\varrho (v)\leqslant \varrho$ et $x_0\in F$, on a $\varrho (v) =\varrho$. D’après le corollaire du théorème 4, appliqué à $C_F$ et $v$, il existe un vecteur propre $\ell$ de $^tv$ dans $C^{\circ}_F$ pour la valeur propre $\varrho (v) =\varrho  >0$.
 
 Le sous-espace Ker($\ell$ ) de F est stable par $v$. Soit $w$ l’endomorphisme de Ker($\ell$ ) déduit de $\varrho^{-1}v$ par passage aux sous-espaces ; son spectre est contenu dans le cercle unité. L’ensemble B des $y\in$ Ker($\ell$ ) tels que $x_0+y\in C_F$ est un voisinage convexe fermé de 0 dans Ker($\ell$ ). Pour tout $y\in B$ et tout $z\in$ Ker($\ell$ ), on a
 
@@ -564,7 +564,7 @@ Soit A $= (a_{i,j})$ une matrice réelle de type $(n, n)$, et $u_A$ l’endomorp
 
 On a $u_A(\mathbf{R}^n_+)\subset \mathbf{R}_+^n$ si et seulement si $a_{i,j}\geqslant 0$ pour tous $i$ et $j$, et $u_A(\mathbf{R}^n_+-\{0\})\subset (\mathbf{R}_+^*)^n$ si et seulement si $a_{i,j}>0$ pour tous $i$ et $j$.
 
-Soit $(e_1, . . . , e_n)$ la base canonique de $\mathbf{R}^n$. Les vecteurs $e_i$ appartiennent à $\mathbf{R}_+^n$ et $u_A(e_i)\in \mathbf{R}_+^n$ pour tout $i$ (resp. $u_A(e_i)\in (\mathbf{R}_+^*)^n$ pour tout $i)$ si et seulement si $a_{i,j}\geqslant 0$ pour tous $i$ et $j$ (resp. $a_{i,j}>0$ pour tous $i$ et $j)$. Le résultat en découle par linéarité.
+Soit $(e_1, . . . , e_n)$ la base canonique de $\mathbf{R}^n$. Les vecteurs $e_i$ appartiennent à $\mathbf{R}_+^n$ et $u_A(e_i)\in \mathbf{R}_+^n$ pour tout $i$ (resp. $u_A(e_i)\in (\mathbf{R}_+^*)^n$ pour tout $i$) si et seulement si $a_{i,j}\geqslant 0$ pour tous $i$ et $j$ (resp. $a_{i,j}>0$ pour tous $i$ et $j$). Le résultat en découle par linéarité.
 
 #### Théorème 5 (Perron–Frobenius) {#ts-iii-s6-thm-5 .statement tag=02VC}
 

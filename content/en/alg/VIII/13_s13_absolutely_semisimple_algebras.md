@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: 775859a36a5ef28b7a28b2543105378c2c79c938429908e15a3791c997e517e0
+content_sha256: 4c6d4e2ca3db7df962893b91ae11c5bedee5ed2c441f889a9973255356caf0c0
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -377,7 +377,7 @@ $$
 
 is an isomorphism of K-modules.
 
-We denote by $\partial^n$ (for $n\geqslant 0)$ the unique K-linear mapping from $C^n(A,P)$ to $C^{n+1}(A,P)$ that makes the following diagram commutative:
+We denote by $\partial^n$ (for $n\geqslant 0$) the unique K-linear mapping from $C^n(A,P)$ to $C^{n+1}(A,P)$ that makes the following diagram commutative:
 
 $C^n(A,P)\partial^{^n}$ // $C^{n+1}(A,P)$
 
@@ -449,7 +449,7 @@ for every integer $n\geqslant 1$ and every $f\in C^n(A,P)$.
 
 #### Remark 1 {#alg-viii-s13-n7-rem-1 .statement tag=00SF}
 
-$*$The morphisms $\partial^n: C^n(A,P)\rightarrow C^{n+1}(A,P)$ define a complex $(C(A,P), \partial )$ of K-modules (X, §2, n$^o1$, p. 24). The mapping $\gamma_n$ therefore defines a homotopy from this complex to itself linking 0 to Id$_{C(A,P)}$ (X, §2, n$^o4$, p. 32, définition $4).*$
+$*$The morphisms $\partial^n: C^n(A,P)\rightarrow C^{n+1}(A,P)$ define a complex $(C(A,P), \partial )$ of K-modules (X, §2, n$^o1$, p. 24). The mapping $\gamma_n$ therefore defines a homotopy from this complex to itself linking 0 to Id$_{C(A,P)}$ (X, §2, n$^o4$, p. 32, définition $4$)$.*$
 
 We keep the notation of No.6. For every integer $n\geqslant 0$, we define a mapping $h_n: B_n\rightarrow B_{n+1}$ by the formula
 
@@ -545,7 +545,7 @@ The assumptions of Theorem 3 are, in particular, satisfied when K is a field and
 
 #### Remark 3 {#alg-viii-s13-n7-rem-3 .statement tag=00FX}
 
-Suppose that the K-module A is projective. Theorem 3 can also be proved as follows. The complex $(\bigoplus_{n\geqslant 0}B_n, d)$ and the homomorphism $\varepsilon : B_0\rightarrow A$ define a projective resolution of the B-module A; therefore, for every $n\geqslant 0$, the K-module $H^n(A,P)$ is isomorphic to Ext$^n_B(A,P)$ (X, §6, n$^o1$, p. 100, théorème 1). If the B-module A is projective, then the K-modules Ext$^n_B(A,P)$ are zero for $n\geqslant 1$ (X, §5, n$^o3$, p. 88, corollaire de la proposition 5), which implies that $H^n(A,P)$ is zero. Conversely, if $H^1(A,P)$ is zero for every $(A$, A)-bimodule P, then the B-module A is projective (X, §5, n$^o5$, p. 93, proposition $10).*$
+Suppose that the K-module A is projective. Theorem 3 can also be proved as follows. The complex $(\bigoplus_{n\geqslant 0}B_n, d)$ and the homomorphism $\varepsilon : B_0\rightarrow A$ define a projective resolution of the B-module A; therefore, for every $n\geqslant 0$, the K-module $H^n(A,P)$ is isomorphic to Ext$^n_B(A,P)$ (X, §6, n$^o1$, p. 100, théorème 1). If the B-module A is projective, then the K-modules Ext$^n_B(A,P)$ are zero for $n\geqslant 1$ (X, §5, n$^o3$, p. 88, corollaire de la proposition 5), which implies that $H^n(A,P)$ is zero. Conversely, if $H^1(A,P)$ is zero for every $(A$, A)-bimodule P, then the B-module A is projective (X, §5, n$^o5$, p. 93, proposition $10$)$.*$
 
 ### 8. The Splitting of Artinian Algebras
 

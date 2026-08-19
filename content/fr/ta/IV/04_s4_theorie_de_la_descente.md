@@ -45,7 +45,7 @@ subsections:
       pdf_page: 418
 statements: 29
 exercises: 7
-content_sha256: 7b8174973b979927eac6b8de00578c5d916810368110e1a893df3deaee81a4d5
+content_sha256: 426b9763b4b18b5eb0a9925025a7e53d8ed98667d5b656984d09078aa3d796af
 ---
 
 ## § 4. THÉORIE DE LA DESCENTE
@@ -184,7 +184,7 @@ Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une applicati
 
 Supposons que l’application $f$ soit stricte et surjective et que T soit un Y-espace étalé. Alors, l’application $f^*:\mathscr{C}_Y(T; T')\rightarrow \mathscr{C}_f(X\times_YT; X\times_YT')$ est bijective.
 
-Notons $\tau$ (resp. $\tau ')$ la relation d’équivalence sur $X\times_YT$ (resp. sur $X\times_YT')$ qui est associée à la donnée de descente canonique. Comme l’application $f$ est surjective, la projection pr$_2: X\times_YT\rightarrow T$ est surjective et l’application canonique $(X\times_YT)/R_{\tau}\rightarrow T$ est bijective. En particulier, l’application $f^*$ est injective. Démontrons qu’elle est surjective. Soit $\varphi : X\times_YT\rightarrow X\times_YT'$ un X-morphisme compatible avec les données de descente canoniques. Pour $(x, t)\in X\times_YT$, on a donc $\varphi (x, t) = (x, \varphi (t))$, où $\overline{\varphi}$ est une application de T dans $T'$.
+Notons $\tau$ (resp. $\tau '$) la relation d’équivalence sur $X\times_YT$ (resp. sur $X\times_YT'$) qui est associée à la donnée de descente canonique. Comme l’application $f$ est surjective, la projection pr$_2: X\times_YT\rightarrow T$ est surjective et l’application canonique $(X\times_YT)/R_{\tau}\rightarrow T$ est bijective. En particulier, l’application $f^*$ est injective. Démontrons qu’elle est surjective. Soit $\varphi : X\times_YT\rightarrow X\times_YT'$ un X-morphisme compatible avec les données de descente canoniques. Pour $(x, t)\in X\times_YT$, on a donc $\varphi (x, t) = (x, \varphi (t))$, où $\overline{\varphi}$ est une application de T dans $T'$.
 
 Par définition de $\overline{\varphi}$, l’application $\overline{\varphi}\circ$ pr$_2: X\times_YT\rightarrow T'$ est égale à pr$_2\circ \varphi$, elle est donc continue. Comme l’application $f$ est surjective et stricte et que T est un Y-espace étalé, la projection pr$_2: X\times_YT\rightarrow T$ est stricte (I, p. 32, remarque 3). D’après la proposition 9 de I, p. 18, l’application $\overline{\varphi}$ est donc continue. C’est un Y-morphisme tel que $f^*(\overline{\varphi}) =\varphi$, ce qui démontre la proposition.
 
@@ -320,7 +320,7 @@ L’ensemble des sommets de Coeg($f$) est l’ensemble quotient de l’ensemble 
 
 Soient X et Y des espaces topologiques non vides et soit $f$ une application continue de X dans Y. On suppose que l’espace X est localement connexe par arcs, que l’espace Y est connexe et que l’application $f$ est stricte et surjective. Alors, le groupoïde Coeg($f$) est transitif.
 
-Soit Γ le carquois dont l’ensemble des sommets est X et dont l’ensemble des flèches est l’ensemble somme de Fl($\varpi (X)$) et de $X\times_YX$, les applications origine et terme étant celles de $\varpi (X)$ dans Fl($\varpi (X)$) et les applications $p_1$ et $p_2$ dans $X\times_YX$. D’après la définition de l’armature du couple $(\varpi$(pr$_1), \varpi$(pr$_2))$ (II, p. 185, déf. 3) et la remarque 2 de II, p. 200, l’ensemble des orbites de Coeg($f$) s’identifie à l’ensemble des composantes connexes du carquois Γ. Comme l’espace X n’est pas vide, il suffit de prouver que le graphe Γ est connexe.
+Soit Γ le carquois dont l’ensemble des sommets est X et dont l’ensemble des flèches est l’ensemble somme de Fl($\varpi (X)$) et de $X\times_YX$, les applications origine et terme étant celles de $\varpi (X)$ dans Fl($\varpi (X)$) et les applications $p_1$ et $p_2$ dans $X\times_YX$. D’après la définition de l’armature du couple $(\varpi$(pr$_1$)$, \varpi$(pr$_2$)) (II, p. 185, déf. 3) et la remarque 2 de II, p. 200, l’ensemble des orbites de Coeg($f$) s’identifie à l’ensemble des composantes connexes du carquois Γ. Comme l’espace X n’est pas vide, il suffit de prouver que le graphe Γ est connexe.
 
 Les composantes connexes de Γ sont saturées pour la relation d’équivalence « il existe un chemin joignant $x$ à $x'$ », donc sont ouvertes dans X, car X est localement connexe par arcs. Elles sont alors également fermées. Elles sont aussi saturées pour la relation d’équivalence R définie par $f$. Par hypothèse, l’application $f$ induit un homéomorphisme de $X/R$ sur Y, si bien que l’image par $f$ de toute composante connexe de Γ est une partie ouverte et fermée de Y, donc est égale à Y puisque l’espace Y est supposé connexe.
 
@@ -526,13 +526,13 @@ Il s’applique aussi lorsque l’espace X est l’espace somme d’une famille 
 
 ### 8. Groupoïde de Poincaré d’un espace quotient
 
-Soit X un espace topologique muni d’une opération continue d’un groupe discret G ; posons $Y = X/G$ et notons $f: X\rightarrow$ Y l’application canonique. Notons $|G|$ le groupoïde $\varpi (G)$; l’ensemble de ses sommets est G; pour $g, g'\in G$, il existe une unique flèche reliant $g$ à $g'$ si $g'=g'$, et aucune sinon. Par passage aux groupoïdes fondamentaux, l’opération $m: G\times X\rightarrow X$ induit un morphisme de groupoïdes $\varpi (m):|G| \times \varpi (X)\rightarrow \varpi (X)$. Soit $\varpi (X)/G$ le coégalisateur des deux morphismes de groupoïdes $\varpi (m)$ et $\varpi$(pr$_2)$ de $|G| \times \varpi (X)$ dans $\varpi (X)$ ; notons $\beta :\varpi (X)\rightarrow \varpi (X)/G$ le morphisme de groupoïdes canonique. On a $f\circ m=f\circ$ pr$_2$, donc $\varpi (f)\circ \varpi (m) =\varpi (f)\circ \varpi$(pr$_2)$. D’après la propriété universelle des coégalisateurs, il existe donc un unique morphisme de groupoïdes $\varpi ''(f):\varpi (X)/G\rightarrow \varpi (Y)$ tel que l’on ait $\varpi (f) =\varpi ''(f)\circ \beta$.
+Soit X un espace topologique muni d’une opération continue d’un groupe discret G ; posons $Y = X/G$ et notons $f: X\rightarrow$ Y l’application canonique. Notons $|G|$ le groupoïde $\varpi (G)$; l’ensemble de ses sommets est G; pour $g, g'\in G$, il existe une unique flèche reliant $g$ à $g'$ si $g'=g'$, et aucune sinon. Par passage aux groupoïdes fondamentaux, l’opération $m: G\times X\rightarrow X$ induit un morphisme de groupoïdes $\varpi (m):|G| \times \varpi (X)\rightarrow \varpi (X)$. Soit $\varpi (X)/G$ le coégalisateur des deux morphismes de groupoïdes $\varpi (m)$ et $\varpi$(pr$_2$) de $|G| \times \varpi (X)$ dans $\varpi (X)$ ; notons $\beta :\varpi (X)\rightarrow \varpi (X)/G$ le morphisme de groupoïdes canonique. On a $f\circ m=f\circ$ pr$_2$, donc $\varpi (f)\circ \varpi (m) =\varpi (f)\circ \varpi$(pr$_2$). D’après la propriété universelle des coégalisateurs, il existe donc un unique morphisme de groupoïdes $\varpi ''(f):\varpi (X)/G\rightarrow \varpi (Y)$ tel que l’on ait $\varpi (f) =\varpi ''(f)\circ \beta$.
 
 #### Théorème 3 {#ta-iv-s4-thm-3 .statement tag=022Y}
 
 Soit X un espace topologique délaçable et soit G un groupe discret opérant proprement dans X ; soit $f: X\rightarrow X/G$ la surjection canonique. Le morphisme de groupoïdes canonique $\varpi ''(f):\varpi (X)/G\rightarrow \varpi (X/G)$ introduit ci-dessus est un isomorphisme.
 
-Notons Coeg($f$) le coégalisateur des deux morphismes de groupoïdes de $\varpi (X\times_YX)$ dans $\varpi (X)$ induits par les projections pr$_1$ et pr$_2$; soit $\gamma :\varpi (X)\rightarrow$ Coeg($f$) le morphisme de groupoïdes canonique. L’image de l’application $(m$, pr$_2): G\times X\rightarrow X\times X$ étant le sous-espace $X\times_YX$ de $X\times X$, les deux morphismes de groupoïdes $\gamma \circ \varpi (m)$ et $\gamma \circ \varpi$(pr$_2)$, de $|G|\times \varpi (X)$ dans Coeg($f$) sont égaux. D’après la propriété universelle de $\varpi (X)/G$, il existe un unique morphisme de groupoïdes $\alpha :\varpi (X)/G\rightarrow$ Coeg($f$) tel que $\gamma =\alpha \circ \beta$.
+Notons Coeg($f$) le coégalisateur des deux morphismes de groupoïdes de $\varpi (X\times_YX)$ dans $\varpi (X)$ induits par les projections pr$_1$ et pr$_2$; soit $\gamma :\varpi (X)\rightarrow$ Coeg($f$) le morphisme de groupoïdes canonique. L’image de l’application $(m$, pr$_2): G\times X\rightarrow X\times X$ étant le sous-espace $X\times_YX$ de $X\times X$, les deux morphismes de groupoïdes $\gamma \circ \varpi (m)$ et $\gamma \circ \varpi$(pr$_2$), de $|G|\times \varpi (X)$ dans Coeg($f$) sont égaux. D’après la propriété universelle de $\varpi (X)/G$, il existe un unique morphisme de groupoïdes $\alpha :\varpi (X)/G\rightarrow$ Coeg($f$) tel que $\gamma =\alpha \circ \beta$.
 
 Notons aussi $\varpi '(f)$ l’unique morphisme de groupoïdes de Coeg($f$) dans $\varpi (Y)$ tel que $\varpi (f) =\varpi '(f)\circ \gamma$. D’après IV, p. 399, exemple 2, les hypothèses du th. 1 de IV, p. 398 sont vérifiées et le morphisme $\varpi '(f)$ est un isomorphisme. Comme
 
@@ -566,7 +566,7 @@ $$
 
 Puisque $\beta ([g\cdot c]) =\beta ([c])$ pour tout élément $g\in G$ et tout chemin $c$ dans X, il en résulte l’égalité $\beta ([c_1]) =\beta ([c_2])$, ainsi qu’il fallait démontrer.
 
-D’après le lemme, les deux morphismes de groupoïdes $\beta \circ \varpi$(pr$_1)$ et $\beta \circ \varpi$(pr$_2)$ de $\varpi (X\times_YX)$ dans Coeg($f$) sont égaux. D’après la propriété universelle du coégalisateur, il existe donc un unique morphisme de groupoïdes $\alpha ':$ Coeg($f$)$\rightarrow \varpi (X)/G$ tel que $\beta =\alpha '\circ \gamma$. Le morphisme $\alpha '\circ \alpha$ est l’unique morphisme de groupoïdes $\varphi$ de $\varpi (X)/G$ dans lui-même tel que $\varphi \circ \beta =\beta$; on a donc $\alpha '\circ \alpha$ = Id$_{\varpi(X)/G}$. De même, $\alpha \circ \alpha '=$ Id$_{Coeg(f)}$. Par suite, $\alpha$ est un isomorphisme.
+D’après le lemme, les deux morphismes de groupoïdes $\beta \circ \varpi$(pr$_1$) et $\beta \circ \varpi$(pr$_2$) de $\varpi (X\times_YX)$ dans Coeg($f$) sont égaux. D’après la propriété universelle du coégalisateur, il existe donc un unique morphisme de groupoïdes $\alpha ':$ Coeg($f$)$\rightarrow \varpi (X)/G$ tel que $\beta =\alpha '\circ \gamma$. Le morphisme $\alpha '\circ \alpha$ est l’unique morphisme de groupoïdes $\varphi$ de $\varpi (X)/G$ dans lui-même tel que $\varphi \circ \beta =\beta$; on a donc $\alpha '\circ \alpha$ = Id$_{\varpi(X)/G}$. De même, $\alpha \circ \alpha '=$ Id$_{Coeg(f)}$. Par suite, $\alpha$ est un isomorphisme.
 
 ## EXERCICES {#ta-iv-s4-exercises}
 

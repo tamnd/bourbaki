@@ -33,7 +33,7 @@ subsections:
       pdf_page: 226
 statements: 22
 exercises: 3
-content_sha256: 14ebc21e81b127b97b80032887e6f70215b9a9d0b24cd10b17e12f2795f3cdc6
+content_sha256: c6621f3052830a86807effbd63135f54125cae6481244086852339122e66081a
 ---
 
 ## § 5. COÉGALISATEUR
@@ -42,7 +42,7 @@ content_sha256: 14ebc21e81b127b97b80032887e6f70215b9a9d0b24cd10b17e12f2795f3cdc6
 
 Soit H un carquois, soit G un groupoïde, soient $\varphi$ et $\psi$ des morphismes de carquois de H dans G, et soit $h:$ Som(H) $\rightarrow$ Fl(G) une homotopie reliant $\varphi$ à $\psi$. Soit $G'$ le groupoïde déduit de G par contraction des flèches de l’image de $h($II, p. 175, n$^o11$) et soit $\beta : G\rightarrow G'$ le morphisme canonique.
 
-Notons Γ le carquois (Som(G), Som(H), Som($\varphi$ ), Som($\psi$ )). Par définition d’une homotopie, le couple (Id$_{Som(G)}, h)$ est un morphisme de carquois de Γ dans G ; il se prolonge en un unique morphisme de groupoïdes $\eta :$ Grp(Γ) $\rightarrow$ G. Par construction, l’ensemble des sommets de $G'$ est l’ensemble des composantes connexes du carquois Γ.
+Notons Γ le carquois (Som(G), Som(H), Som($\varphi$ ), Som($\psi$ )). Par définition d’une homotopie, le couple (Id$_{Som(G)}, h$) est un morphisme de carquois de Γ dans G ; il se prolonge en un unique morphisme de groupoïdes $\eta :$ Grp(Γ) $\rightarrow$ G. Par construction, l’ensemble des sommets de $G'$ est l’ensemble des composantes connexes du carquois Γ.
 
 Dans toute la suite de ce n$^o$, nous supposerons que le groupoïde G est transitif. D’après la remarque 1 de II, p. 170, cela revient à supposer que le groupoïde $G'$ l’est. On fixe aussi un sommet $a_0$ de G.
 
@@ -114,7 +114,7 @@ Soit N le plus petit sous-groupe de $G_{a_0}$ contenant $c(\mathbf{z})$ pour tou
 
 ### 2. Définition du coégalisateur
 
-Soit H un carquois, soit G un groupoïde et soient $\varphi ,\psi$ des morphismes de carquois de H dans G. Notons Coh($\varphi , \psi$ ) le cohomotopeur du couple $(\varphi , \psi )$ (II, p. 185, déf. 3$),\alpha : G\rightarrow$ Coh($\varphi , \psi$ ) le morphisme de groupoïdes canonique et $h$ l’homotopie canonique reliant $\alpha \circ \varphi$ à $\alpha \circ \psi$.
+Soit H un carquois, soit G un groupoïde et soient $\varphi ,\psi$ des morphismes de carquois de H dans G. Notons Coh($\varphi , \psi$ ) le cohomotopeur du couple $(\varphi , \psi )$ (II, p. 185, déf. 3)$,\alpha : G\rightarrow$ Coh($\varphi , \psi$ ) le morphisme de groupoïdes canonique et $h$ l’homotopie canonique reliant $\alpha \circ \varphi$ à $\alpha \circ \psi$.
 
 Soit Coeg($\varphi , \psi$ ) le groupoïde déduit de Coh($\varphi , \psi$ ) par contraction des flèches appartenant à l’image de $h$ (II, p. 196, n$^o$ 1), notons $\beta :$ Coh($\varphi , \psi$ )$\rightarrow$ Coeg($\varphi , \psi$ ) le morphisme canonique et posons $\gamma =\beta \circ \alpha$.
 
@@ -124,7 +124,7 @@ On dit que le groupoïde Coeg($\varphi , \psi$ ) est le coégalisateur du couple
 
 #### Proposition 3 {#ta-ii-s5-prop-3 .statement tag=01UN}
 
-Le couple (Coeg($\varphi , \psi$ )$, \gamma )$ possède la propriété universelle suivante :
+Le couple (Coeg($\varphi , \psi$ )$, \gamma$ ) possède la propriété universelle suivante :
 
 a) On a $\gamma \circ \varphi =\gamma \circ \psi$.
 
@@ -140,7 +140,7 @@ $$
 
 En prenant l’image par $\beta$ des deux membres de cette égalité, on obtient la relation $\gamma (\varphi (f)) =\gamma (\psi (f))$. Cela démontre l’assertion a).
 
-Démontrons b). L’application $\eta :$ Som(H) $\rightarrow$ Fl(G$')$ qui à tout sommet $a$ de H associe la flèche $e_{\theta(\varphi(a))}$ de $G'$ est une homotopie reliant $\theta \circ \varphi$ à $\theta \circ \psi$. D’après la propriété universelle des cohomotopeurs (II, p. 185, prop. 3), il existe un unique morphisme de groupoïdes $\theta_1:$ Coh($\varphi , \psi$ )$\rightarrow G'$ tel que $\theta_1\circ \alpha =\theta$ et $\theta_1(h(a)) =e_{\theta(\varphi(a))}$ pour tout sommet $a$ de H. D’après la prop. 7 de II, p. 176, cette dernière propriété implique l’existence d’un unique morphisme de groupoïdes $\overline{\theta}:$ Coeg($\varphi , \psi$ )$\rightarrow G'$ tel que $\overline{\theta}\circ \beta =\theta_1$. On a alors $\overline{\theta}\circ \gamma =\theta_1\circ \alpha =\theta$.
+Démontrons b). L’application $\eta :$ Som(H) $\rightarrow$ Fl(G$'$) qui à tout sommet $a$ de H associe la flèche $e_{\theta(\varphi(a))}$ de $G'$ est une homotopie reliant $\theta \circ \varphi$ à $\theta \circ \psi$. D’après la propriété universelle des cohomotopeurs (II, p. 185, prop. 3), il existe un unique morphisme de groupoïdes $\theta_1:$ Coh($\varphi , \psi$ )$\rightarrow G'$ tel que $\theta_1\circ \alpha =\theta$ et $\theta_1(h(a)) =e_{\theta(\varphi(a))}$ pour tout sommet $a$ de H. D’après la prop. 7 de II, p. 176, cette dernière propriété implique l’existence d’un unique morphisme de groupoïdes $\overline{\theta}:$ Coeg($\varphi , \psi$ )$\rightarrow G'$ tel que $\overline{\theta}\circ \beta =\theta_1$. On a alors $\overline{\theta}\circ \gamma =\theta_1\circ \alpha =\theta$.
 
 Inversement, si $\overline{\theta}':$ Coeg($\varphi , \psi$ )$\rightarrow G'$ est un morphisme de groupoïdes tel que $\overline{\theta}'\circ \gamma =\theta$, on a $(\overline{\theta}'\circ \beta )\circ \alpha = (\overline{\theta}\circ \beta )\circ \alpha$, d’où $\overline{\theta}'\circ \beta =\overline{\theta}\circ \beta$ d’après II, p. 185, prop. 3, d’où $\overline{\theta}'=\overline{\theta}$ d’après la prop. 7 de II, p. 176. Cela démontre l’unicité de $\overline{\theta}$, d’où l’assertion b).
 
@@ -258,7 +258,7 @@ On a ainsi défini un morphisme de carquois $\mu: H\times_GH\rightarrow H$ tel q
 
 Soit $(a, b)$ un couple de sommets de H tel que $\varphi (a) =\varphi (b)$. On a $R\{\varphi (a), \psi (a)\}$ et $R\{\varphi (b), \psi (b)\}$, donc $R\{\psi (b), \psi (a)\}$. Il existe par suite un unique sommet $c$ de H tel que $\varphi (c) =\psi (b)$ et $\psi (c) =\psi (a)$. Le sommet $\mu(b, c)$ vérifie $\varphi (\mu(b, c)) =\varphi (b) =\varphi (a)$ et $\psi (\mu(b, c)) =$ $\psi (c) =\psi (a)$. On a donc $\mu(b, c) =a$ car l’application (Som($\varphi$ ), Som($\psi$ )) de Som(H) dans Som(G) $\times$ Som(G) est injective.
 
-Soit $A_1$ l’ensemble des sommets de Ker($\varphi , \psi$ ) et soit $Z_1$ l’ensemble des éléments de $\Omega (\widetilde{\Gamma})$ de la forme $((a,1))$, pour $a\in A_1$. Posons $A_2= A$ et soit $Z_2$ l’ensemble des éléments $((a,1),(b,1),(\mu(a, b),-1))$ de $\Omega (\widetilde{\Gamma})$, pour $(a, b)\in A_2$. Notons $\widetilde{Z}$ (resp. $\widetilde{Z}_1$, resp. $\widetilde{Z}_2)$ la plus petite partie distinguée de $\Omega (\widetilde{\Gamma})$ contenant $Z_1\cup Z_2$ (resp. $Z_1$, resp. $Z_2)$.
+Soit $A_1$ l’ensemble des sommets de Ker($\varphi , \psi$ ) et soit $Z_1$ l’ensemble des éléments de $\Omega (\widetilde{\Gamma})$ de la forme $((a,1))$, pour $a\in A_1$. Posons $A_2= A$ et soit $Z_2$ l’ensemble des éléments $((a,1),(b,1),(\mu(a, b),-1))$ de $\Omega (\widetilde{\Gamma})$, pour $(a, b)\in A_2$. Notons $\widetilde{Z}$ (resp. $\widetilde{Z}_1$, resp. $\widetilde{Z}_2$) la plus petite partie distinguée de $\Omega (\widetilde{\Gamma})$ contenant $Z_1\cup Z_2$ (resp. $Z_1$, resp. $Z_2$).
 
 Soit $a\in A_1$; on a $\varphi (a) =\psi (a)$ ; posons $x=\varphi (a)$. Le sommet $a$ est l’unique sommet de H tel que $\varphi (a) =\psi (a) =x$; en particulier, on a $\mu(a, a) =a$. Le triplet $((a,1),(a,1),(a,-1))$ appartient donc à $Z_2$. Il résulte alors des conditions (i) et (iii) dans la définition d’une partie distinguée que $((a,1))$ appartient à $\widetilde{Z}_2$. Par suite, on a $Z_1\subset \widetilde{Z}_2$, d’où $\widetilde{Z} =\widetilde{Z}_2$.
 
@@ -280,7 +280,7 @@ Soient G et H des groupoïdes ; soient $\varphi$ et $\psi$ des morphismes de gro
 
 Notons $\alpha : G\rightarrow$ Coh($\varphi , \psi$ )$,\beta :$ Coh($\varphi , \psi$ )$\rightarrow$ Coeg($\varphi , \psi$ ) et $\gamma =\beta \circ$ $\alpha : G\rightarrow$ Coeg($\varphi , \psi$ ) les morphismes de groupoïdes canoniques. Notons $h:$ Som(H) $\rightarrow$ Fl(Coh($\varphi , \psi$ )) l’homotopie canonique ; rappelons que l’ensemble des sommets de Coh($\varphi , \psi$ ) est égal à Som(G).
 
-Notons Γ le carquois (Som(G), Som(H), Som($\varphi$ ), Som($\psi$ )), notons alors $\varphi_0$ et $\psi_0$ les applications déduites de $\varphi$ et $\psi$ par passage aux orbites et $\Gamma_0$ l’armature (Orb(G), Orb(H)$, \varphi_0, \psi_0)$ du couple $(\varphi , \psi )$. Nous supposerons que le carquois $\Gamma_0$ est connexe et que l’ensemble de ses sommets n’est pas vide, ce qui revient à supposer que les groupoïdes Coh($\varphi , \psi$ ) et Coeg($\varphi , \psi$ ) sont transitifs.
+Notons Γ le carquois (Som(G), Som(H), Som($\varphi$ ), Som($\psi$ )), notons alors $\varphi_0$ et $\psi_0$ les applications déduites de $\varphi$ et $\psi$ par passage aux orbites et $\Gamma_0$ l’armature (Orb(G), Orb(H)$, \varphi_0, \psi_0$) du couple $(\varphi , \psi )$. Nous supposerons que le carquois $\Gamma_0$ est connexe et que l’ensemble de ses sommets n’est pas vide, ce qui revient à supposer que les groupoïdes Coh($\varphi , \psi$ ) et Coeg($\varphi , \psi$ ) sont transitifs.
 
 Rappelons (cf. II, p. 192, définition 4) qu’un équipement de base consiste en la donnée d’une famille $(a, b, c_1, c_2,T, i_0)$ où : pour tout $i\in$ Orb(G)$,a(i)$ est un sommet dans l’orbite $i$ de G; pour tout $j\in$ Orb(H)$,b(j)$ est un sommet dans l’orbite $j$ de H$,c_1(j)$ et $c_2(j)$ sont des flèches de G reliant respectivement $\varphi (b(j))$ à $a(\varphi_0(j))$ et $\psi (b(j))$ à $a(\psi_0(j))$ ; T est un sous-carquois de $\Gamma_0$ dont l’arbre associé est un arbre maximal du graphe $\widetilde{\Gamma}_0$; enfin, $i_0$ est une orbite de G et on pose $a_0=a(i_0)$.
 
@@ -436,7 +436,7 @@ de Λ donnés par les formules ($R_1$)$, (R_2)$, ainsi que les éléments défin
 
 ### 5. Quotient d’un groupoïde par l’action d’un groupe
 
-Soit G un groupoïde transitif, soit K un groupe et soit $\theta : K\rightarrow$ Aut(G)$^{\circ}$ un homomorphisme de groupes de K dans le groupe opposé au groupe des automorphismes du groupoïde G. On dira que le groupe K agit à droite sur G. Si $k\in K$, on notera parfois $k^*x$ (resp. $k^*f)$ l’image d’un sommet $x$ (resp. d’une flèche $f)$ de G par l’automorphisme de groupoïdes $\theta (k)$.
+Soit G un groupoïde transitif, soit K un groupe et soit $\theta : K\rightarrow$ Aut(G)$^{\circ}$ un homomorphisme de groupes de K dans le groupe opposé au groupe des automorphismes du groupoïde G. On dira que le groupe K agit à droite sur G. Si $k\in K$, on notera parfois $k^*x$ (resp. $k^*f$) l’image d’un sommet $x$ (resp. d’une flèche $f$) de G par l’automorphisme de groupoïdes $\theta (k)$.
 
 Soit $|K|$ le groupoïde dont l’ensemble des sommets est K et dont l’ensemble des flèches reliant deux sommets est vide si ces sommets sont distincts, et est réduit à un élément sinon. Soit H le groupoïde produit $G\times  |K|$; un sommet de H est un couple $(a, k)$, où $a$ est un sommet de G et $k$ est un élément de K; si $f$ est une flèche de G reliant un sommet $a$ à un sommet $b$, on notera $(f, k)$ l’unique flèche de H reliant $(a, k)$ à $(b, k)$. Soit $\varphi : H\rightarrow G$ le morphisme de groupoïdes donné par la première projection et soit $\psi : H\rightarrow G$ le morphisme de groupoïdes tel que Som($\psi$ )$((a, k)) =k^*a$ et Fl($\psi$ )$((f, k)) =k^*f$ si $k\in K,a\in$ Som(G) et $f\in$ Fl(G).
 

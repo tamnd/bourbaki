@@ -37,7 +37,7 @@ subsections:
       pdf_page: 67
 statements: 31
 exercises: 8
-content_sha256: 2552816265b5f2f6cff122e098d52baab350efee3b06eb3f3d10c28ad8a64679
+content_sha256: f0bf77fa9308554f60c7f8a07ca6130c6ad5b94df1f911389b5fdb30d78f3161
 ---
 
 ## § 3. ENDOMORPHISMES DE FREDHOLM ET ENDOMORPHISMES DE RIESZ
@@ -50,7 +50,7 @@ Soient E et F des espaces localement convexes, $E_1$ un sous-espace fermé de co
 
 Supposons d’abord que l’application linéaire $u|E_1$ est injective. On a alors $E_1\cap$ Ker($u$) $=\{0\}$, si bien que Ker($u$) est de dimension finie. Soit S un sous-espace vectoriel de E supplémentaire de $E_1+$ Ker($u$). L’espace E est somme directe topologique de $E_1$, Ker($u$) et S (EVT, I, p. 15, cor. 4 et prop. 3). Si $u$ est un morphisme strict d’image fermée, il définit par restriction un isomorphisme de $E_1\oplus S$ sur un sous-espace vectoriel fermé de F, et a fortiori un isomorphisme de $E_1$ sur un sous-espace vectoriel fermé de F. Inversement, supposons que $u$ définisse par restriction un isomorphisme de $E_1$ sur $u(E_1)$ et que $u(E_1)$ soit fermé dans F. On a $u(E) =u(E_1)\oplus u(S)$. Il en résulte que $u(E)$ est somme directe topologique de $u(E_1)$ et $u$(S), et est fermé dans F (loc. cit.). Puisque $u(E_1)$ est fermé et que l’on a $u(E_1)\cap u(S) =\{0\}$, l’espace $u(S)$ est séparé et $u$ définit par restriction un isomorphisme de S sur $u(S)$ (EVT, I, p. 15, cor. de la prop. 3), donc aussi de $E_1\oplus S$ sur $u(E)$. Cela prouve que $u$ est un morphisme strict d’image fermée.
 
-Passons au cas général. Posons $N = E_1\cap$ Ker($u$) et $G = E/N$. L’espace localement convexe $E_1/N$ s’identifie à un sous-espace vectoriel fermé de codimension finie $G_1$ de G. Notons $v: G\rightarrow F$ l’application linéaire continue déduite de $u$ par passage au quotient. Pour que $u$ (resp. $u|E_1)$ soit un morphisme strict d’image fermée, il faut et il suffit que $v$ (resp. $v|G_1)$ en soit un. Cela nous ramène au cas déjà traité.
+Passons au cas général. Posons $N = E_1\cap$ Ker($u$) et $G = E/N$. L’espace localement convexe $E_1/N$ s’identifie à un sous-espace vectoriel fermé de codimension finie $G_1$ de G. Notons $v: G\rightarrow F$ l’application linéaire continue déduite de $u$ par passage au quotient. Pour que $u$ (resp. $u|E_1$) soit un morphisme strict d’image fermée, il faut et il suffit que $v$ (resp. $v|G_1$) en soit un. Cela nous ramène au cas déjà traité.
 
 #### Corollaire 1 {#ts-iii-s3-prop-1-cor-1 .statement tag=02RF}
 
@@ -92,7 +92,7 @@ Soient E, F et G des espaces localement convexes, $u: E\rightarrow F$ et $v: F\r
 
 1) Supposons que $u$ soit une application de Fredholm et notons $u_1$ un quasi-inverse de $u$. Comme $u$ est un quasi-inverse de $u_1$, l’application $u_1$ est une application de Fredholm.
 
-2) Supposons que $u$ et $v$ soient des applications de Fredholm, et soit $u_1$ (resp. $v_1)$ un quasi-inverse de $u$ (resp. $v)$. Alors $v\circ u$ est une application de Fredholm de E dans G et $u_1\circ v_1$ est un quasi-inverse de $v\circ u$. En effet, on calcule
+2) Supposons que $u$ et $v$ soient des applications de Fredholm, et soit $u_1$ (resp. $v_1$) un quasi-inverse de $u$ (resp. $v$). Alors $v\circ u$ est une application de Fredholm de E dans G et $u_1\circ v_1$ est un quasi-inverse de $v\circ u$. En effet, on calcule
 
 $$
 (u_1\circ v_1)\circ (v\circ u) =u_1\circ (v_1\circ v)\circ u\equiv u_1\circ 1_F\circ u=u_1\circ u\equiv 1_E
@@ -134,7 +134,7 @@ $$
 (1_F-u\circ v)(u(x)) =u((1_E-v\circ u)(x)) =u(0) = 0
 $$
 
-d’où $u(x)\in F_1$. On a donc $u(E_1)\subset F_1$; on a de même $v(F_1)\subset E_1$. Les applications linéaires continues $u_1: E_1\rightarrow F_1$ et $v_1: F_1\rightarrow E_1$ déduites de $u$ et $v$ sont alors des isomorphismes réciproques l’un de l’autre, puisque $v\circ u$ et $1_E$ (resp. $u\circ v$ et $1_F)$ coïncident sur $E_1$ (resp. sur $F_1)$.
+d’où $u(x)\in F_1$. On a donc $u(E_1)\subset F_1$; on a de même $v(F_1)\subset E_1$. Les applications linéaires continues $u_1: E_1\rightarrow F_1$ et $v_1: F_1\rightarrow E_1$ déduites de $u$ et $v$ sont alors des isomorphismes réciproques l’un de l’autre, puisque $v\circ u$ et $1_E$ (resp. $u\circ v$ et $1_F$) coïncident sur $E_1$ (resp. sur $F_1$).
 
 (iii) $=\Rightarrow$ (ii) : Soient $E_1$ et $F_1$ vérifiant l’hypothèse de (iii). On a $E_1\cap$ Ker($u$) $=\{0\}$ et $F_1\subset$ Im($u$), donc Ker($u$) est de dimension finie et Im($u$) est fermé et de codimension finie dans F. Il résulte de la prop. 1 de III, p. 39 que l’application $u$ est un morphisme strict.
 
@@ -160,7 +160,7 @@ Si $u: E\rightarrow F$ et $v: F\rightarrow G$ sont des applications de Fredholm,
 
 (2) ind($v\circ u$) $=$ ind($v$) $+$ ind($u$).
 
-Supposons E et F séparés et soit $u: E\rightarrow$ F une application de Fredholm ; adoptons les notations de la condition (iv) de la prop. 2 de III, p. 42. On a alors ind($u$) $=$ dim(F$_2)-$ dim(E$_2)$. Munissons le dual de chacun de ces espaces de la topologie faible (resp. de la topologie compacte, de la convergence bornée). Alors $E'$ s’identifie à la somme directe topologique de $E'_1$ et $E'_2$, et $F'$ à celle de $F'_1$ et $F'_2$, et $^tu$ induit un isomorphisme de $F'_1$ sur $E'_1$ et s’annule sur $F'_2$. Donc la transposée $^tu: F'\rightarrow E'$ est une application de Fredholm (loc. cit.). Le noyau de $^tu$ est $F'_2$, et sa dimension est celle de $F_2$, c’est-à-dire celle du conoyau de $u$. Donc
+Supposons E et F séparés et soit $u: E\rightarrow$ F une application de Fredholm ; adoptons les notations de la condition (iv) de la prop. 2 de III, p. 42. On a alors ind($u$) $=$ dim(F$_2$)$-$ dim(E$_2$). Munissons le dual de chacun de ces espaces de la topologie faible (resp. de la topologie compacte, de la convergence bornée). Alors $E'$ s’identifie à la somme directe topologique de $E'_1$ et $E'_2$, et $F'$ à celle de $F'_1$ et $F'_2$, et $^tu$ induit un isomorphisme de $F'_1$ sur $E'_1$ et s’annule sur $F'_2$. Donc la transposée $^tu: F'\rightarrow E'$ est une application de Fredholm (loc. cit.). Le noyau de $^tu$ est $F'_2$, et sa dimension est celle de $F_2$, c’est-à-dire celle du conoyau de $u$. Donc
 
 (3) ind($u$) $=$ dim Ker($^tu$)$-$ dim Ker($u$). De plus, l’image de $^tu$ est $E'_1$, et la dimension du conoyau de $^tu$ est donc égale à la dimension de $E'_2$, qui est celle du noyau $E_2$ de $u$. On en déduit
 
@@ -188,7 +188,7 @@ d’où la formule (5).
 
 Soient E et F des espaces localement convexes séparés, $u: E\rightarrow F$ une application de Fredholm, et $\widehat{u}:\widehat{E}\rightarrow \widehat{F}$ le prolongement de $u$ aux complétés. Alors $\widehat{u}$ est une application de Fredholm et l’on a Ker($\widehat{u}$) $=$ Ker($u$) et ind($\widehat{u}$) $=$ ind($u$).
 
-Adoptons les notations de la condition (iv) de la prop. 2 de III, p. 42. Comme les espaces vectoriels $E_2$ et $F_2$ sont de dimension finie, ils sont complets. Le complété de $E_1$ (resp. $F_1)$ s’identifie à l’adhérence de $E_1$ dans $\widehat{E}$ (resp. de $F_1$ dans $\widehat{F})$, et $\widehat{E}$ (resp. $\widehat{F})$ est somme directe topologique de $\widehat{E}_1$ et $E_2$ (resp. $\widehat{F}_1$ et $F_2)$. L’application linéaire $\widehat{u}$ définit par restriction un isomorphisme de $\widehat{E}_1$ sur $\widehat{F}_1$ et s’annule sur $E_2$. La proposition résulte alors de l’implication (iv)$\Rightarrow$(i) de loc. cit.
+Adoptons les notations de la condition (iv) de la prop. 2 de III, p. 42. Comme les espaces vectoriels $E_2$ et $F_2$ sont de dimension finie, ils sont complets. Le complété de $E_1$ (resp. $F_1$) s’identifie à l’adhérence de $E_1$ dans $\widehat{E}$ (resp. de $F_1$ dans $\widehat{F}$), et $\widehat{E}$ (resp. $\widehat{F}$) est somme directe topologique de $\widehat{E}_1$ et $E_2$ (resp. $\widehat{F}_1$ et $F_2$). L’application linéaire $\widehat{u}$ définit par restriction un isomorphisme de $\widehat{E}_1$ sur $\widehat{F}_1$ et s’annule sur $E_2$. La proposition résulte alors de l’implication (iv)$\Rightarrow$(i) de loc. cit.
 
 ### 4. Endomorphismes de Riesz
 
@@ -308,7 +308,7 @@ donc la suite (dim Ker($u^n$))$_{n\in\mathbf{N}}$ est bornée si et seulement si
 
 b) D’après la prop. 4 de III, p. 44, pour tout $n\in \mathbf{N}$, l’application $\widehat{u}^n$ est un endomorphisme de Fredholm de $\widehat{E}$ tel que Ker($\widehat{u}^n$) $=$ Ker($u^n$) et ind($\widehat{u}^n$) $=$ ind($u^n$) $=n$ ind($u$). Par suite, $u$ est un endomorphisme de Riesz si et seulement si $\widehat{u}$ est un endomorphisme de Riesz.
 
-c) La transposée $^tu$ est un endomorphisme de Fredholm d’indice 0 de $E'($III, p. 43, n$^o3$). Comme le noyau de $(^tu)^n$ est l’orthogonal de l’image de $u^n$ (EVT, IV, p. 27, prop. 2), la suite (Ker($^tu$)$^n)_n$ est stationnaire. Cela prouve que $^tu$ est un endomorphisme de Riesz de $E'$.
+c) La transposée $^tu$ est un endomorphisme de Fredholm d’indice 0 de $E'($III, p. 43, n$^o3$). Comme le noyau de $(^tu)^n$ est l’orthogonal de l’image de $u^n$ (EVT, IV, p. 27, prop. 2), la suite (Ker($^tu$)$^n$)$_n$ est stationnaire. Cela prouve que $^tu$ est un endomorphisme de Riesz de $E'$.
 
 #### Proposition 8 {#ts-iii-s3-prop-8 .statement tag=02RY}
 

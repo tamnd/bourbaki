@@ -30,9 +30,9 @@ subsections:
       pdf_page: 48
 statements: 0
 exercises: 8
-content_sha256: ea07b879bce83b66714aecc753b08b59ce7263376cecf128aa71ef7b4d391a53
+content_sha256: 6efa23a206fb8fe82e5ae319aa2e1b030da9b5681edd0efa727d86db43267331
 translated_from: content/en/ens/I/04_s4_quantified_theories.md
-source_content_sha256: 390faba94e5344c8331bc40a954a257df6dcfce3814ae7413ab574ac21e02422
+source_content_sha256: cb6abb308e39323481ab5b736963a71c1fee531b448b0921190b96a62cfa1033
 translation_model: gpt-5.4
 translation_run: translate-vi-c460cede
 glossary_version: 29
@@ -226,7 +226,7 @@ Vì quan hệ $(\forall_A x)R$ đồng nhất với
 
 $$\text{"không}(\exists x)(A \text{ và } (\text{không } R))\text{"}.$$
 
-Bây giờ, `"$A$ và (không $R$)"` tương đương trong $\mathscr{T}_0$ với `"không $(A \Rightarrow R)$"`; do đó `"không $(\exists x)(A$ và (không $R))$"` tương đương trong $\mathscr{T}_0$ với
+Bây giờ, `"$A$ và (không $R$)"` tương đương trong $\mathscr{T}_0$ với `"không $(A \Rightarrow R)$"`; do đó `"không $(\exists x)(A$ và (không $R$))"` tương đương trong $\mathscr{T}_0$ với
 
 $$\text{"không } (\exists x)(\text{không } (A \Rightarrow R))\text{"},$$
 

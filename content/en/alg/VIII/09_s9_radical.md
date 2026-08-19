@@ -34,7 +34,7 @@ subsections:
       pdf_page: 178
 statements: 49
 exercises: 31
-content_sha256: 9573c54f81e17b8798f7e1431edaa12cb6694954d7942320be656b08e6242fa3
+content_sha256: 89095724e574bba079cd13ef874a02941adc59513c6a22e5a09bd9f01b4fa6cc
 ---
 
 ## § 9. RADICAL
@@ -219,7 +219,7 @@ Note that when K is a commutative field, the ring $A = K[X_i]_{i\in I}$ is a sub
 
 #### Example 5 {#alg-viii-s9-n2-exa-5 .statement tag=00AL}
 
-Let $\mathfrak{a}$ be a two-sided ideal of A. The $\mathfrak{a}$-adic topology on A is the topology, compatible with the ring structure of A, for which the ideals $\mathfrak{a}^n$ (for $n\geqslant 1)$ form a fundamental system of neighborhoods of 0 (Gen. Top., III, §6, No. 3, p. 275, Example 3). Suppose that the ring A is Hausdorff and complete (Gen. Top., III, §6, No. 5, p. 276) for this topology; this is, for example, the case when the ideal $\mathfrak{a}$ is nilpotent. For every $x\in \mathfrak{a}$, the series $\sum^{\infty}_{n=0}(-x)^n$ is then convergent. Let $y$ be its sum. We have $y-1 =\sum^{\infty}_{n=1}(-x)^n=-xy$, hence $(1 +x)y= 1$. Likewise, we have $y(1 +x) = 1$, so $1 +x$ is invertible. By Theorem 1, it follows that the ideal $\mathfrak{a}$ is contained in the radical of A.
+Let $\mathfrak{a}$ be a two-sided ideal of A. The $\mathfrak{a}$-adic topology on A is the topology, compatible with the ring structure of A, for which the ideals $\mathfrak{a}^n$ (for $n\geqslant 1$) form a fundamental system of neighborhoods of 0 (Gen. Top., III, §6, No. 3, p. 275, Example 3). Suppose that the ring A is Hausdorff and complete (Gen. Top., III, §6, No. 5, p. 276) for this topology; this is, for example, the case when the ideal $\mathfrak{a}$ is nilpotent. For every $x\in \mathfrak{a}$, the series $\sum^{\infty}_{n=0}(-x)^n$ is then convergent. Let $y$ be its sum. We have $y-1 =\sum^{\infty}_{n=1}(-x)^n=-xy$, hence $(1 +x)y= 1$. Likewise, we have $y(1 +x) = 1$, so $1 +x$ is invertible. By Theorem 1, it follows that the ideal $\mathfrak{a}$ is contained in the radical of A.
 
 #### Remark 1 {#alg-viii-s9-n2-rem-1 .statement tag=00AM}
 
@@ -229,7 +229,7 @@ its radical. Let $x$ be a nilpotent and central element of A; then $Ax$ is a nil
 
 #### Remark 2 {#alg-viii-s9-n2-rem-2 .statement tag=00AN}
 
-Let A be a commutative ring. The set of nilpotent elements $a$ of A is an ideal $\mathfrak{N}(A)$ of A, called the nilradical of A; it is the intersection of the prime ideals of A (V, §15, No. 1, p. 118, Proposition 2). We have $\mathfrak{N}(A)\subset \mathfrak{R}(A)$; $*$we have equality if A is an Artinian ring (VIII, p. 173, Corollary 2) or a finitely generated commutative algebra over a commutative field (Comm. Alg., V, § 3, n$^{\circ}4$, Theorem $3)*$. We can certainly have $\mathfrak{N}(A)\not=\mathfrak{R}(A)$. This is the case when A is the ring K[[X]], where K is a commutative field: we then have $\mathfrak{N}(A) = 0$ and $\mathfrak{R}(A) =$ AX (VIII, p. 154, Example 2).
+Let A be a commutative ring. The set of nilpotent elements $a$ of A is an ideal $\mathfrak{N}(A)$ of A, called the nilradical of A; it is the intersection of the prime ideals of A (V, §15, No. 1, p. 118, Proposition 2). We have $\mathfrak{N}(A)\subset \mathfrak{R}(A)$; $*$we have equality if A is an Artinian ring (VIII, p. 173, Corollary 2) or a finitely generated commutative algebra over a commutative field (Comm. Alg., V, § 3, n$^{\circ}4$, Theorem $3$)$*$. We can certainly have $\mathfrak{N}(A)\not=\mathfrak{R}(A)$. This is the case when A is the ring K[[X]], where K is a commutative field: we then have $\mathfrak{N}(A) = 0$ and $\mathfrak{R}(A) =$ AX (VIII, p. 154, Example 2).
 
 ### 3. Nakayama’s Lemma
 

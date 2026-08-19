@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: b7d5cace4eafab0c1d73e3d44892852f0ff763fbd448d693ef74f2bc2c671929
+content_sha256: f990ff0a752d438cad46475a65d284fdc55290161dc20821acd0d3bdf47276cf
 ---
 
 ## § 1. OPÉRATEURS COMPACTS SUR UN ESPACE HILBERTIEN
@@ -208,7 +208,7 @@ On note $\overline{\mathbf{N}}=\mathbf{N}\cup  \{+\infty \} \subset \overline{\m
 
 Soit $I_E\subset \mathbf{N}$ l’ensemble des dimensions des sous-espaces de dimension finie F de E tels que $F\not = E$. On a $I_E=\mathbf{N}$ si E est de dimension infinie, et sinon $I_E=\{0, . . .$, dim(E) $-1\}$. On notera $I = I_E$ lorsqu’aucune confusion ne pourra en résulter.
 
-Soit $u$ un endomorphisme compact et positif (en particulier hermitien) de E. Le spectre sensible de $u$ est l’ensemble des valeurs d’une suite strictement décroissante $(\nu_k)_{0\leqslant k<Card(Sp_s(u))}$ de nombres réels positifs (cf. prop. 5 de III, p. 90). Pour tout entier $k$ tel que $0\leqslant k <$ Card(Sp$_s(u))$, on note $n_k\geqslant 1$ la multiplicité spectrale de $\nu_k$. Soit $M\in \overline{\mathbf{N}}$ la somme des multiplicités spectrales $n_k$; c’est la dimension de l’image de $u$. On a $M\leqslant$ Card(I).
+Soit $u$ un endomorphisme compact et positif (en particulier hermitien) de E. Le spectre sensible de $u$ est l’ensemble des valeurs d’une suite strictement décroissante $(\nu_k)_{0\leqslant k<Card(Sp_s(u))}$ de nombres réels positifs (cf. prop. 5 de III, p. 90). Pour tout entier $k$ tel que $0\leqslant k <$ Card(Sp$_s(u)$), on note $n_k\geqslant 1$ la multiplicité spectrale de $\nu_k$. Soit $M\in \overline{\mathbf{N}}$ la somme des multiplicités spectrales $n_k$; c’est la dimension de l’image de $u$. On a $M\leqslant$ Card(I).
 
 Pour $0\leqslant n <M$, on définit $\lambda_n(u) =\nu_k$, où $k\geqslant 0$ est l’unique entier tel que
 
@@ -458,7 +458,7 @@ Soient H un sous-espace fermé de E et $i_H$ l’injection canonique de H dans E
 
 Soit $n\in \mathbf{N}$. L’application $\widehat{\wedge}^ni_H$ est une application linéaire isométrique de $\widehat{\wedge}^nH$ dans $\widehat{\wedge}^nE$.
 
-Soit $(e_j)_{j\in J}$ une base orthonormée de H et $(e_j)_{j\in J'}$ une base orthonormale de E, où $J\subset J'$. Munissons $J'$ d’une structure d’ordre total. Les éléments $e_{j_1}\wedge  \cdots  \wedge e_{j_n}$ pour $j_1<\cdots < j_n$ dans $J'$ (resp. dans J) forment une base orthonormale de $\widehat{\wedge}^nE$ (resp. de $\widehat{\wedge}^nH)$ d’après la prop. 5 de EVT, V, p. 34, prop. 5. Le lemme en résulte.
+Soit $(e_j)_{j\in J}$ une base orthonormée de H et $(e_j)_{j\in J'}$ une base orthonormale de E, où $J\subset J'$. Munissons $J'$ d’une structure d’ordre total. Les éléments $e_{j_1}\wedge  \cdots  \wedge e_{j_n}$ pour $j_1<\cdots < j_n$ dans $J'$ (resp. dans J) forment une base orthonormale de $\widehat{\wedge}^nE$ (resp. de $\widehat{\wedge}^nH$) d’après la prop. 5 de EVT, V, p. 34, prop. 5. Le lemme en résulte.
 
 Dans la suite, on identifiera $\widehat{\wedge}^nH$ à un sous-espace fermé de $\widehat{\wedge}^nE$ par le truchement de l’application $\widehat{\wedge}^ni_H$.
 
@@ -1094,7 +1094,7 @@ $$
 
 Dans ce numéro, on garde les conventions du numéro précédent avec Y = X et $\nu =\mu$. On suppose que X est un espace topologique localement compact dénombrable à l’infini (TG, I, p. 68, déf. 5).
 
-En particulier, on identifie les espaces $L^2(X\times X)$ et $L^2(X)\widehat{\otimes}_2L^2(X)$ (lemme 10 de IV, p. 172). On notera $\widetilde{f}$ la classe dans $L^2(X)$ (resp. dans $L^2(X\times X))$ d’une fonction $f\in \mathscr{L}^2(X)$ (resp. dans $\mathscr{L}^2(X\times X))$.
+En particulier, on identifie les espaces $L^2(X\times X)$ et $L^2(X)\widehat{\otimes}_2L^2(X)$ (lemme 10 de IV, p. 172). On notera $\widetilde{f}$ la classe dans $L^2(X)$ (resp. dans $L^2(X\times X)$) d’une fonction $f\in \mathscr{L}^2(X)$ (resp. dans $\mathscr{L}^2(X\times X)$).
 
 #### Proposition 20 {#ts-iv-s1-prop-20 .statement tag=02XV}
 
@@ -1204,7 +1204,7 @@ $$
 
 Par conséquent, il vient $u_{\widetilde{N}}=u_N$, d’où $N =\widetilde{N}$ dans $L^2(X\times X)$ (prop. 3 de III, p. 28, b)).
 
-Pour tout $(m, n)\in \mathbf{N}^2$, les fonctions N et $\widetilde{N}$ sont continues dans $K_m\times K_n$ donc sont égales sur $K_m\times K_n$ (prop. 9 de INT, III, p. 69, § 2, n$^o2)$ puisque le support de la mesure induite par $\mu\otimes \mu$ sur $K_m\times K_n$ est égal à $K_m\times K_n$. Donc N coïncide avec $\widetilde{N}$ sur $\widetilde{X}\times \widetilde{X}$.
+Pour tout $(m, n)\in \mathbf{N}^2$, les fonctions N et $\widetilde{N}$ sont continues dans $K_m\times K_n$ donc sont égales sur $K_m\times K_n$ (prop. 9 de INT, III, p. 69, § 2, n$^o2$) puisque le support de la mesure induite par $\mu\otimes \mu$ sur $K_m\times K_n$ est égal à $K_m\times K_n$. Donc N coïncide avec $\widetilde{N}$ sur $\widetilde{X}\times \widetilde{X}$.
 
 $$
 \surd

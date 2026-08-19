@@ -25,7 +25,7 @@ subsections:
       pdf_page: 161
 statements: 11
 exercises: 11
-content_sha256: 6719d8fa02b8619f5a4398d148de092ec4a408ad6829aa3e617eaa85aa532216
+content_sha256: e9e17996911478837e9b2f6d1644e99dff68fcabdb53c7905531cf8a3dcb578a
 ---
 
 ## § 8. ALGÈBRES DE FONCTIONS CONTINUES SUR UN ESPACE COMPACT
@@ -50,9 +50,9 @@ d) Si B sépare les points de X, alors l’application ev est un homéo-morphism
 
 On peut identifier X à $\mathsf{X}(\mathscr{C}(X))$ et $\mathscr{G}_{\mathscr{C}(X)}$ à l’application identique (exemple 1 de I, p. 36). L’application ev s’identifie alors à $\mathsf{X}(j)$, ce qui démontre c).
 
-Pour toute fonction $f\in B$ et tout $x\in X$, on a $\mathscr{G}_B(f$)(ev$_x) =f(x)$, d’où
+Pour toute fonction $f\in B$ et tout $x\in X$, on a $\mathscr{G}_B(f$)(ev$_x$) $=f(x)$, d’où
 
-$\|f\|_{\mathscr{C}(X)}=$ sup$_{x\in X}|\mathscr{G}_B(f$)(ev$_x)|\leqslant \varrho_B(f)\leqslant \|f\|_B$,
+$\|f\|_{\mathscr{C}(X)}=$ sup$_{x\in X}|\mathscr{G}_B(f$)(ev$_x$)$|\leqslant \varrho_B(f)\leqslant \|f\|_B$,
 
 (cf. prop. 7 de I, p. 38, a)) ce qui entraîne a). De plus, ceci montre que la transformation de Gelfand de B est injective, d’où b) (prop. 8 de I, p. 38). Si B sépare les points de X, alors l’application ev est injective, d’où d) puisque X est compact.
 
@@ -70,7 +70,7 @@ c) Si B est une sous-algèbre involutive pleine de $\mathscr{C}(X)$, alors l’a
 
 L’assertion a) résulte de la prop. 10 de I, p. 40, et l’assertion b) de la prop. 11 de I, p. 41, puisque la sous-algèbre pleine de B engendrée par $a$ est l’ensemble des éléments $f(a)$, où $f$ parcourt l’ensemble des fonctions rationnelles sur $\mathbf{C}$ sans pôle sur Sp$_B(a)$ (lemme I, p. 6 et prop. 6 de I, p. 37, b)).
 
-Démontrons c). Supposons donc que B est une sous-algèbre involutive pleine de $\mathscr{C}(X)$. Pour démontrer que ev est surjective, il suffit de démontrer que pour tout $\chi \in \mathsf{X}(B)$, il existe $y\in X$ tel que Ker($\chi$ ) $=$ Ker(ev$_y)$ (th. 2 de I, p. 30). Soit I = Ker($\chi$ ). C’est un idéal maximal de B. Soit Φ l’ensemble des $x\in X$ tels que $f(x) = 0$ pour tout $f\in I$. Montrons que Φ n’est pas vide. Dans le cas contraire, puisque X est compact, il existerait un entier $n\geqslant 1$, un recouvrement ouvert $(V_1, . . . ,V_n)$ de X et, pour tout entier $i$ tel que $1\leqslant i\leqslant n$, une fonction $f_i\in I$ telle que $f_i(x)\not= 0$ pour tout $x\in V_i$. Comme l’algèbre B est une sous-algèbre involutive de $\mathscr{C}(X)$, la fonction
+Démontrons c). Supposons donc que B est une sous-algèbre involutive pleine de $\mathscr{C}(X)$. Pour démontrer que ev est surjective, il suffit de démontrer que pour tout $\chi \in \mathsf{X}(B)$, il existe $y\in X$ tel que Ker($\chi$ ) $=$ Ker(ev$_y$) (th. 2 de I, p. 30). Soit I = Ker($\chi$ ). C’est un idéal maximal de B. Soit Φ l’ensemble des $x\in X$ tels que $f(x) = 0$ pour tout $f\in I$. Montrons que Φ n’est pas vide. Dans le cas contraire, puisque X est compact, il existerait un entier $n\geqslant 1$, un recouvrement ouvert $(V_1, . . . ,V_n)$ de X et, pour tout entier $i$ tel que $1\leqslant i\leqslant n$, une fonction $f_i\in I$ telle que $f_i(x)\not= 0$ pour tout $x\in V_i$. Comme l’algèbre B est une sous-algèbre involutive de $\mathscr{C}(X)$, la fonction
 
 $$
 f=\sum_{i=1}^nf_i\overline{f}_i
@@ -126,7 +126,7 @@ log($|\chi (f_1^{\lambda_1}\cdots f_n^{\lambda_n})|$)$\leqslant$ sup$_{x\in X}$ 
 
 et résulte du fait que $\|\chi \|= 1$ (th. 1 de I, p. 29).
 
-Soit $B'$ le sous-espace vectoriel de $\mathscr{C}_{\mathbf{R}}(X)$ engendré par les fonctions log($|f|$) pour $f\in B^*$. La majoration (1) prouve qu’il existe une forme linéaire $h$ de norme $\leqslant$ 1 sur $B'$ telle que log($|\chi (f)|$) $=h$(log($|f|$)) pour tout $f\in B^*$. D’après le théorème de Hahn–Banach (EVT, II, p. 24, cor. 2), la forme linéaire $h$ se prolonge en une forme linéaire $\mu$ de norme $\leqslant 1$ sur $\mathscr{C}_{\mathbf{R}}(X)$, c’est–à–dire en une mesure réelle $\mu$ sur X telle que $\|\mu\|\leqslant 1$ (INT, III, §1, n$^o5)$. En prenant pour élément $f$ de $B^*$ la constante $e=$ exp(1), on voit que $1 =\mu(1)$. Donc, en écrivant $\mu=\mu^+-\mu^-$ comme la différence de deux mesures positives étrangères (INT, III, §1, n$^o6$, th. 3), il vient
+Soit $B'$ le sous-espace vectoriel de $\mathscr{C}_{\mathbf{R}}(X)$ engendré par les fonctions log($|f|$) pour $f\in B^*$. La majoration (1) prouve qu’il existe une forme linéaire $h$ de norme $\leqslant$ 1 sur $B'$ telle que log($|\chi (f)|$) $=h$(log($|f|$)) pour tout $f\in B^*$. D’après le théorème de Hahn–Banach (EVT, II, p. 24, cor. 2), la forme linéaire $h$ se prolonge en une forme linéaire $\mu$ de norme $\leqslant 1$ sur $\mathscr{C}_{\mathbf{R}}(X)$, c’est–à–dire en une mesure réelle $\mu$ sur X telle que $\|\mu\|\leqslant 1$ (INT, III, §1, n$^o5$). En prenant pour élément $f$ de $B^*$ la constante $e=$ exp(1), on voit que $1 =\mu(1)$. Donc, en écrivant $\mu=\mu^+-\mu^-$ comme la différence de deux mesures positives étrangères (INT, III, §1, n$^o6$, th. 3), il vient
 
 $$
 1 =\mu^+(1)-\mu^-(1)\leqslant \mu^+(1) +\mu^-(1) =\|\mu\|\leqslant 1
@@ -136,9 +136,9 @@ d’où $\mu=\mu^+\geqslant 0$ et $\|\mu\|= 1$.
 
 Pour tout $f\in B$, on a exp($f$)$\in B^*$, donc
 
-$\int_X\mathscr{R}(f)d\mu=\int_X$ log($|$exp($f$)$|)d\mu=$ log($|\chi$(exp($f$))$|)$
+$\int_X\mathscr{R}(f)d\mu=\int_X$ log($|$exp($f$)$|$)$d\mu=$ log($|\chi$(exp($f$))$|$)
 
-= log($|$exp($\chi (f)$)$|) =\mathscr{R}(\chi (f))$,
+= log($|$exp($\chi (f)$)$|$) $=\mathscr{R}(\chi (f))$,
 
 où on a utilisé le cor. 1 de I, p. 66. En appliquant cette égalité à $if$, on en conclut que $\int_Xf d\mu=\chi (f)$. Ceci établit b).
 
@@ -202,11 +202,11 @@ a) Les applications $\varphi$ et $\varphi '$ sont des homéomorphismes ;
 
 b) Le spectre simultané Sp$^{\Lambda}_B((x_{\lambda}))$ est l’enveloppe polynomialement convexe de Sp$^{\Lambda}_{\mathscr{C}(X)}((x_{\lambda}))$ ;
 
-c) L’application $\varphi$ transforme $\mathscr{C}(X)$ en $\mathscr{C}$(Sp$^{\Lambda}_{\mathscr{C}(X)}((x_{\lambda})))$ et B en P(Sp$^{\Lambda}_{\mathscr{C}(X)}((x_{\lambda})))$ ;
+c) L’application $\varphi$ transforme $\mathscr{C}(X)$ en $\mathscr{C}$(Sp$^{\Lambda}_{\mathscr{C}(X)}((x_{\lambda}))$) et B en P(Sp$^{\Lambda}_{\mathscr{C}(X)}((x_{\lambda}))$) ;
 
-d) L’application $\varphi '$ transforme $\mathscr{G}_B(B)$ en P(Sp$^{\Lambda}_B((x_{\lambda})))$ ;
+d) L’application $\varphi '$ transforme $\mathscr{G}_B(B)$ en P(Sp$^{\Lambda}_B((x_{\lambda}))$) ;
 
-e) Les applications $\varphi$ et $\varphi '$ transforment $\mathscr{G}_B$ en l’isomorphisme canonique de P(Sp$^{\Lambda}_{\mathscr{C}(X)}((x_{\lambda})))$ sur P(Sp$^{\Lambda}_B((x_{\lambda})))$.
+e) Les applications $\varphi$ et $\varphi '$ transforment $\mathscr{G}_B$ en l’isomorphisme canonique de P(Sp$^{\Lambda}_{\mathscr{C}(X)}((x_{\lambda}))$) sur P(Sp$^{\Lambda}_B((x_{\lambda}))$).
 
 Les applications $\varphi$ et $\varphi '$ sont continues et surjectives (n$^o6$ de I, p. 41). L’application $\varphi '$ est un homéomorphisme d’après l’assertion a) de la prop. 12 de I, p. 43, et $i$ est injective, donc $\varphi$ est injective. Donc $\varphi$ et $\varphi '$ sont des homéomorphismes.
 

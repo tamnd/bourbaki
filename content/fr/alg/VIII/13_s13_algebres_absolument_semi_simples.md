@@ -45,7 +45,7 @@ subsections:
       pdf_page: 242
 statements: 33
 exercises: 12
-content_sha256: 302ae001b6752eda6b6201d8d66ecae31217180441c71599beddb14c3200eea6
+content_sha256: 9ca7de17dc95eae4833c120fbd1a2011406fa34f5a94098703659dacd4fb63e1
 ---
 
 ## § 13. ALGÈBRES ABSOLUMENT SEMI-SIMPLES
@@ -376,7 +376,7 @@ $$
 
 est un isomorphisme de K-modules.
 
-On note $\partial^n$ (pour $n\geqslant 0)$ l’unique application K-linéaire de $C^n(A,P)$ dans $C^{n+1}(A,P)$ rendant commutatif le diagramme
+On note $\partial^n$ (pour $n\geqslant 0$) l’unique application K-linéaire de $C^n(A,P)$ dans $C^{n+1}(A,P)$ rendant commutatif le diagramme
 
 $C^n(A,P)\partial^{^n}$ // $C^{n+1}(A,P)$
 
@@ -450,7 +450,7 @@ pour tout entier $n\geqslant 1$et tout $f\in C^n(A,P)$.
 
 $*$Les morphismes $\partial_n: C^n(A,P)\rightarrow C^{n+1}(A,P)$ définissent
 
-un complexe $(C(A,P), \partial )$ de K-modules (X, p. 24). L’application $\gamma_n$ définit donc une homotopie reliant 0 à Id$_{C(A,P)}$ de ce complexe dans lui-même (X, p. 32, déf. $4).*$
+un complexe $(C(A,P), \partial )$ de K-modules (X, p. 24). L’application $\gamma_n$ définit donc une homotopie reliant 0 à Id$_{C(A,P)}$ de ce complexe dans lui-même (X, p. 32, déf. $4$)$.*$
 
 Reprenons les notations du n$^o6$. Définissons, pour tout entier $n\geqslant 0$, une application $h_n: B_n\rightarrow B_{n+1}$ par la formule
 
@@ -548,7 +548,7 @@ Les hypothèses du th. 3 sont notamment vérifiées lorsque K est un corps et A 
 
 Supposons que le K-module A soit projectif. Le théorème 3 peut aussi se
 
-démontrer de la façon suivante. Le complexe $(\bigoplus_{n\geqslant 0}B_n, d)$ et l’homomorphisme $\varepsilon : B_0\rightarrow A$ définissent une résolution projective du B-module A ; le K-module $H^n(A,P)$ est donc isomorphe à Ext$^n_B(A,P)$ pour tout $n\geqslant 0$ (X, p. 100, th. 1). Si le B-module A est projectif, les K-modules Ext$^n_B(A,P)$ sont nuls pour $n\geqslant 1$ (X, p. 88, cor. de la prop. 5), ce qui entraîne la nullité de $H^n(A,P)$. Inversement, si $H^1(A,P)$ est nul pour tout $(A$, A)-bimodule P, le B-module A est projectif (X, p. 93, prop. $10).*$
+démontrer de la façon suivante. Le complexe $(\bigoplus_{n\geqslant 0}B_n, d)$ et l’homomorphisme $\varepsilon : B_0\rightarrow A$ définissent une résolution projective du B-module A ; le K-module $H^n(A,P)$ est donc isomorphe à Ext$^n_B(A,P)$ pour tout $n\geqslant 0$ (X, p. 100, th. 1). Si le B-module A est projectif, les K-modules Ext$^n_B(A,P)$ sont nuls pour $n\geqslant 1$ (X, p. 88, cor. de la prop. 5), ce qui entraîne la nullité de $H^n(A,P)$. Inversement, si $H^1(A,P)$ est nul pour tout $(A$, A)-bimodule P, le B-module A est projectif (X, p. 93, prop. $10$)$.*$
 
 ### 8. Scindage des algèbres artiniennes
 

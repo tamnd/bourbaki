@@ -30,9 +30,9 @@ subsections:
       pdf_page: 26
 statements: 36
 exercises: 28
-content_sha256: 485a4bbb4519f2a182be5e68ed6e7c17640618aa4a1f62eeed2ed6396cfef93b
+content_sha256: 462ba13b60b1c7f227a5d1eb06c04cfc95102bc0fe3f654f53c9da5770112831
 translated_from: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md
-source_content_sha256: 14577a499e58be92d2f2c662203373f41c9d10814e80df72ec764fcb9c784f86
+source_content_sha256: d64719b4a6721ac9031c6bccd67b196cb6dafe3fc596f4fdebd425f00893c469
 translation_model: hy3-free, gpt-5-6, nemotron-3-ultra-free, laguna-s-2.1-free, gpt-5-6-mini
 translation_run: translate-vi-033a62f7
 glossary_version: 30
@@ -58,7 +58,7 @@ Một A-môđun M là Artin (resp. Noether) khi và chỉ khi M, được xem nh
 
 Cho M là một A-môđun Artin (resp. Noether). Mọi tập hợp khác rỗng các môđun con của M, được sắp thứ tự bởi sự bao hàm, mà có hướng trái (resp. có hướng phải) thì có một phần tử nhỏ nhất (resp. một phần tử lớn nhất) (Lý thuyết Tập hợp, III, §1, No. 10, p. 145, Mệnh đề 10).
 
-Cho M là một A-môđun Artin (resp. Noether) và $(M_i)_{i\in I}$ một họ các môđun con của M. Các giao (resp. tổng) của các họ con hữu hạn của họ $(M_i)_{i\in I}$ tạo thành một tập hợp khác rỗng có hướng trái (resp. phải) các môđun con của M. Do đó, tồn tại một tập con hữu hạn J của I sao cho $\bigcap_{i\in I}M_i=\bigcap_{i\in J}M_i$ (resp. $\sum_{i\in I}M_i=\sum_{i\in J}M_i)$).
+Cho M là một A-môđun Artin (resp. Noether) và $(M_i)_{i\in I}$ một họ các môđun con của M. Các giao (resp. tổng) của các họ con hữu hạn của họ $(M_i)_{i\in I}$ tạo thành một tập hợp khác rỗng có hướng trái (resp. phải) các môđun con của M. Do đó, tồn tại một tập con hữu hạn J của I sao cho $\bigcap_{i\in I}M_i=\bigcap_{i\in J}M_i$ (resp. $\sum_{i\in I}M_i=\sum_{i\in J}M_i$)).
 
 #### Ví dụ 1 {#alg-viii-s1-n1-exa-1 .statement tag=0002}
 
@@ -72,7 +72,7 @@ Cho M là một A-môđun. Nếu tồn tại một họ vô hạn $(M_i)_{i\in I
 
 Chúng ta sẽ thấy ở phần sau rằng $\mathbf{Z}$-môđun $\mathbf{Z}$ là Noether nhưng không phải là
 
-Artin (VIII, p. 5, Ví dụ 3$).*$
+Artin (VIII, p. 5, Ví dụ 3)$.*$
 
 #### Ví dụ 4 {#alg-viii-s1-n1-exa-4 .statement tag=0005}
 
@@ -174,11 +174,11 @@ Cho A là một vành và D là một vành con của A. Giả sử rằng D là
 
 #### Ví dụ 3 {#alg-viii-s1-n2-exa-3 .statement tag=000G}
 
-Một miền iđêan chính (VII, §1, No. 1, p. 1, Định nghĩa 1) là Noether. Một miền nguyên A không là trường thì không phải là một vành Artin: với mọi phần tử khác không không khả nghịch $a$ của A, dãy các iđêan $a^nA$ (for $n\in \mathbf{N})$ là giảm nghiêm ngặt. Cụ thể, vành $\mathbf{Z}$ các số nguyên là Noether nhưng không phải Artin.
+Một miền iđêan chính (VII, §1, No. 1, p. 1, Định nghĩa 1) là Noether. Một miền nguyên A không là trường thì không phải là một vành Artin: với mọi phần tử khác không không khả nghịch $a$ của A, dãy các iđêan $a^nA$ (for $n\in \mathbf{N}$) là giảm nghiêm ngặt. Cụ thể, vành $\mathbf{Z}$ các số nguyên là Noether nhưng không phải Artin.
 
 #### Ví dụ 4 {#alg-viii-s1-n2-exa-4 .statement tag=000H}
 
-Cho M là một A-môđun là tổng trực tiếp của một họ vô hạn $(M_i)_{i\in I}$ các môđun con khác không. Cho E là vành tự đồng cấu của M. Với mọi $i\in I$, đặt $\mathfrak{a}_i$ (resp. $\mathfrak{b}_i)$ là tập hợp các phần tử của E có hạt nhân chứa $\sum_{j\not=i}M_j$ (resp. có ảnh được chứa trong $M_i)$. Khi đó $(\mathfrak{a}_i)$ là một họ vô hạn các iđêan trái khác không của E có tổng trực tiếp, và $(\mathfrak{b}_i)$ là một họ vô hạn các iđêan phải khác không của E có tổng trực tiếp. Do đó, vành E không là Artin trái cũng như không là Artin phải (resp. Noether) (VIII, p. 2, Ví dụ 2). Cụ thể, vành tự đồng cấu của một không gian vectơ vô hạn chiều không là Artin trái cũng như không là Artin phải (resp. Noether).
+Cho M là một A-môđun là tổng trực tiếp của một họ vô hạn $(M_i)_{i\in I}$ các môđun con khác không. Cho E là vành tự đồng cấu của M. Với mọi $i\in I$, đặt $\mathfrak{a}_i$ (resp. $\mathfrak{b}_i$) là tập hợp các phần tử của E có hạt nhân chứa $\sum_{j\not=i}M_j$ (resp. có ảnh được chứa trong $M_i$). Khi đó $(\mathfrak{a}_i)$ là một họ vô hạn các iđêan trái khác không của E có tổng trực tiếp, và $(\mathfrak{b}_i)$ là một họ vô hạn các iđêan phải khác không của E có tổng trực tiếp. Do đó, vành E không là Artin trái cũng như không là Artin phải (resp. Noether) (VIII, p. 2, Ví dụ 2). Cụ thể, vành tự đồng cấu của một không gian vectơ vô hạn chiều không là Artin trái cũng như không là Artin phải (resp. Noether).
 
 #### Định lý 1 {#alg-viii-s1-thm-1 .statement tag=00QW}
 
@@ -206,7 +206,7 @@ Mọi vành Artin trái đều là Noether trái.
 
 Cho A là một vành Artin trái. Theo Định lý 1, A-môđun $A_s$ có độ dài hữu hạn. Sau đó ta áp dụng Mệnh đề 1 của VIII, p. 2.
 
-Cho A là một vành Artin trái (resp. phải). Độ dài của A-môđun $A_s$ (resp. $A_d)$ (I, §4, No. 7, p. 44) được gọi là độ dài trái (resp. phải) của vành A. Khi A là một vành Artin giao hoán, hai độ dài này trùng nhau và được gọi đơn giản là độ dài của A. Khi A là Artin trái và phải nhưng không giao hoán, các độ dài trái và phải của A không tất yếu bằng nhau (VIII, p. 14, Bài tập 3).
+Cho A là một vành Artin trái (resp. phải). Độ dài của A-môđun $A_s$ (resp. $A_d$) (I, §4, No. 7, p. 44) được gọi là độ dài trái (resp. phải) của vành A. Khi A là một vành Artin giao hoán, hai độ dài này trùng nhau và được gọi đơn giản là độ dài của A. Khi A là Artin trái và phải nhưng không giao hoán, các độ dài trái và phải của A không tất yếu bằng nhau (VIII, p. 14, Bài tập 3).
 
 #### Ví dụ 5 {#alg-viii-s1-n2-exa-5 .statement tag=000K}
 

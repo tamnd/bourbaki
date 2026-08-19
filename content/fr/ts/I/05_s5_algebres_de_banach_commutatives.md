@@ -21,7 +21,7 @@ subsections:
       pdf_page: 104
 statements: 16
 exercises: 7
-content_sha256: eadef7ad755ff416511232799d2fb26d51440ce4f2cff4761f5dc864dea0dc98
+content_sha256: 3b8b45af0b54b3bf0b9093138e784b60c042ad9a881e2bc1d672c05060435ac9
 ---
 
 ## § 5. ALGÈBRES DE BANACH COMMUTATIVES RÉGULIÈRES
@@ -68,7 +68,7 @@ Soit A une algèbre de Banach unifère commutative régulière. Soient $n\geqsla
 
 Démontrons la proposition par récurrence sur $n$. L’assertion est valide si $n= 1$. Supposons que $n\geqslant 2$ et que l’assertion est établie pour $n-1$.
 
-Il existe un recouvrement ouvert $(V_1, . . . ,V_n)$ de $\mathsf{X}(A)$ tel que $\overline{V}_i\subset$ $U_i$ pour tout $i$. D’après l’hypothèse de récurrence, il existe des éléments $x, x_3, . . . , x_n\in A$ tels que $x+x_3+\cdots +x_n= 1$ et Supp($\mathscr{G}(x)$)$\subset V_1\cup V_2$, Supp($\mathscr{G}(x_i)$)$\subset V_i$ pour $i\geqslant 3$. Notons K = Supp($\mathscr{G}(x)$)$\subset V_1\cup V_2$. Soit $K_1$ (resp. $K_2)$ l’ensemble des éléments de K qui n’appartiennent pas à $V_1$ (resp. $V_2)$. Alors $K_1$ et $K_2$ sont des parties compactes disjointes de K. Puisque l’algèbre de Banach A est régulière, il existe donc $y\in A$ tel que $\mathscr{G}(y) = 1$ sur $K_1$ et $\mathscr{G}(y) = 0$ sur $K_2$. Alors $\mathscr{G}(xy)$ est nulle sur $\mathsf{X}(A)-K$ et sur $K_2$, donc Supp $\mathscr{G}(xy)\subset \overline{V}_2\subset U_2$. De même, $\mathscr{G}(x(1-y))$ est nulle sur $\mathsf{X}(A)$ - K et sur $K_1$, donc Supp $\mathscr{G}(x(1-y))\subset \overline{V}_1\subset U_1$. Les éléments $x_1=x(1-y),x_2=xy$, et $x_3, . . . ,x_n$ vérifient alors les propriétés de la proposition.
+Il existe un recouvrement ouvert $(V_1, . . . ,V_n)$ de $\mathsf{X}(A)$ tel que $\overline{V}_i\subset$ $U_i$ pour tout $i$. D’après l’hypothèse de récurrence, il existe des éléments $x, x_3, . . . , x_n\in A$ tels que $x+x_3+\cdots +x_n= 1$ et Supp($\mathscr{G}(x)$)$\subset V_1\cup V_2$, Supp($\mathscr{G}(x_i)$)$\subset V_i$ pour $i\geqslant 3$. Notons K = Supp($\mathscr{G}(x)$)$\subset V_1\cup V_2$. Soit $K_1$ (resp. $K_2$) l’ensemble des éléments de K qui n’appartiennent pas à $V_1$ (resp. $V_2$). Alors $K_1$ et $K_2$ sont des parties compactes disjointes de K. Puisque l’algèbre de Banach A est régulière, il existe donc $y\in A$ tel que $\mathscr{G}(y) = 1$ sur $K_1$ et $\mathscr{G}(y) = 0$ sur $K_2$. Alors $\mathscr{G}(xy)$ est nulle sur $\mathsf{X}(A)-K$ et sur $K_2$, donc Supp $\mathscr{G}(xy)\subset \overline{V}_2\subset U_2$. De même, $\mathscr{G}(x(1-y))$ est nulle sur $\mathsf{X}(A)$ - K et sur $K_1$, donc Supp $\mathscr{G}(x(1-y))\subset \overline{V}_1\subset U_1$. Les éléments $x_1=x(1-y),x_2=xy$, et $x_3, . . . ,x_n$ vérifient alors les propriétés de la proposition.
 
 #### Corollaire 1 {#ts-i-s5-prop-2-cor-1 .statement tag=02C0}
 
@@ -112,7 +112,7 @@ Enfin, soit I un idéal de A tel que V(I) = F. Montrons que $J\subset I$. Soit $
 
 Soit A une algèbre de Banach commutative régulière sans radical. Soit J l’ensemble des $x\in A$ tels que $\mathscr{G}(x)$ soit à support compact. On suppose que J = A. Alors tout idéal fermé de A et distinct de A est contenu dans un idéal maximal régulier.
 
-Si I est un idéal fermé de A qui n’est contenu dans aucun idéal maximal régulier, alors $V(I) =\emptyset$, donc $I\supset J$ (prop. 4 appliquée à F = $\emptyset )$, d’où $I\supset \overline{J}= A$.
+Si I est un idéal fermé de A qui n’est contenu dans aucun idéal maximal régulier, alors $V(I) =\emptyset$, donc $I\supset J$ (prop. 4 appliquée à F = $\emptyset$ ), d’où $I\supset \overline{J}= A$.
 
 #### Corollaire 2 {#ts-i-s5-prop-4-cor-2 .statement tag=02C5}
 

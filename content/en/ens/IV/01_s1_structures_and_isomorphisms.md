@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 16
 exercises: 1
-content_sha256: a2b6b1e0980a04a6377f294c5a6ade9f2bf86acc3b4c864aecd5d4b55e557903
+content_sha256: de7318f61d5fc652f9c0bae9f51aa21b36eb7c5f41b68e31d48196596059814b
 ---
 
 ## 1. STRUCTURES AND ISOMORPHISMS
@@ -301,7 +301,7 @@ The species of vector space structures over $\mathbf{C}$ (resp. $\mathbf{R}$) ha
 
 $$s_1 \in \mathfrak{P}((\mathrm{E} \times \mathrm{E}) \times \mathrm{E}) \quad \text{and} \quad s_2 \in \mathfrak{P}((\mathbf{C} \times \mathrm{E}) \times \mathrm{E})$$
 
-(resp. $\quad s_1 \in \mathfrak{P}((\mathrm{E} \times \mathrm{E}) \times \mathrm{E}) \quad \text{and} \quad s_2 \in \mathfrak{P}((\mathbf{R} \times \mathrm{E}) \times \mathrm{E}))$.
+(resp. $\quad s_1 \in \mathfrak{P}((\mathrm{E} \times \mathrm{E}) \times \mathrm{E}) \quad \text{and} \quad s_2 \in \mathfrak{P}((\mathbf{R} \times \mathrm{E}) \times \mathrm{E})$).
 
 The pair $(s_1, s_2 \cap ((\mathbf{R} \times \mathrm{E}) \times \mathrm{E}))$ is a procedure of deduction of a vector space structure over $\mathbf{R}$ from a vector space structure over $\mathbf{C}$ ("restriction of the field of scalars to $\mathbf{R}$"). ∗
 

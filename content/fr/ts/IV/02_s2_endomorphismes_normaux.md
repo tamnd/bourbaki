@@ -45,7 +45,7 @@ subsections:
       pdf_page: 207
 statements: 32
 exercises: 28
-content_sha256: f90584417fab04af9f0749f166d14facc9a9a4219873317b310e749ae933a0a4
+content_sha256: 6d9641c662161fafe14457c406dbada0311d42da2c0802019f672475bc366285
 ---
 
 ## § 2. ENDOMORPHISMES NORMAUX
@@ -66,7 +66,7 @@ c) La somme des espace $L^p(X_i, \mu_i)$ est totale dans l’espace $L^p(X, \mu)
 
 L’assertion a) est élémentaire. L’assertion b) résulte du scholie de INT, V, p. 84, § 7, n$^o1$.
 
-Soit $q\in ]1,+\infty ]$ l’exposant conjugué de $p$. On identifie le dual de $L^p(X, \mu)$ avec $L^q(X, \mu)$ (INT, V, p. 61, § 5, n$^o8$, th. 4). Soit $f$ une fonction dans $\mathscr{L}^q(X, \mu)$ dont la classe $\widetilde{f}$ dans $L^q(X, \mu)$ vérifie $\langle \widetilde{f} ,\widetilde{p}_i(\varphi )\rangle = 0$ pour tout $i\in I$ et tout $\varphi \in L^p(X, \mu)$. Comme l’image de $p_i$ contient $\mathscr{K}(X_i)$, il en résulte que la mesure $(f|X_i)\cdot \mu_i$ sur $X_i$ est nulle, ce qui signifie que la restriction de $f$ à $X_i$ est localement $\mu_i$-négligeable sur $X_i$ (INT, V, p. 46, § 5, n$^o3$, cor. 2). Puisque le complémentaire dans X de la réunion des $X_i$ est localement $\mu$-négligeable, on en conclut que la fonction $f$ est localement $\mu$-négligeable sur X (INT, IV, p. 190, § 5, n$^o9$ et p. 172, n$^o2$, prop. 5). La classe de $f$ est alors nulle dans $L^q(X, \mu)$ (en utilisant INT, V, p. 8, § 1, n$^o3$, lemme 1 et corollaire de la proposition 9 lorsque $p\not = 1)$. D’après le théorème de Hahn–Banach (EVT, II, p. 46, cor. 1), la première partie de l’assertion c) en résulte.
+Soit $q\in ]1,+\infty ]$ l’exposant conjugué de $p$. On identifie le dual de $L^p(X, \mu)$ avec $L^q(X, \mu)$ (INT, V, p. 61, § 5, n$^o8$, th. 4). Soit $f$ une fonction dans $\mathscr{L}^q(X, \mu)$ dont la classe $\widetilde{f}$ dans $L^q(X, \mu)$ vérifie $\langle \widetilde{f} ,\widetilde{p}_i(\varphi )\rangle = 0$ pour tout $i\in I$ et tout $\varphi \in L^p(X, \mu)$. Comme l’image de $p_i$ contient $\mathscr{K}(X_i)$, il en résulte que la mesure $(f|X_i)\cdot \mu_i$ sur $X_i$ est nulle, ce qui signifie que la restriction de $f$ à $X_i$ est localement $\mu_i$-négligeable sur $X_i$ (INT, V, p. 46, § 5, n$^o3$, cor. 2). Puisque le complémentaire dans X de la réunion des $X_i$ est localement $\mu$-négligeable, on en conclut que la fonction $f$ est localement $\mu$-négligeable sur X (INT, IV, p. 190, § 5, n$^o9$ et p. 172, n$^o2$, prop. 5). La classe de $f$ est alors nulle dans $L^q(X, \mu)$ (en utilisant INT, V, p. 8, § 1, n$^o3$, lemme 1 et corollaire de la proposition 9 lorsque $p\not = 1$). D’après le théorème de Hahn–Banach (EVT, II, p. 46, cor. 1), la première partie de l’assertion c) en résulte.
 
 Si $p= 2$, l’image de $p_i$ est orthogonale à celle $p_j$ pour tous $i\not =j$, puisque $X_i$ et $X_j$ sont alors disjoints, d’où la dernière assertion.
 
@@ -74,7 +74,7 @@ Si $p= 2$, l’image de $p_i$ est orthogonale à celle $p_j$ pour tous $i\not =j
 
 Soit X un espace localement compact dénombrable à l’infini. Soit $\mu$ une mesure positive sur X. Pour tout $p\in [1,+\infty [$, l’espace $L^p(X, \mu)$ est de type dénombrable.
 
-Soit $(U_n)_{n\in\mathbf{N}}$ une suite d’ouverts relativement compacts de X dont la réunion est égale à X et qui vérifient $U_n\subset U_{n+1}$ pour tout $n\in \mathbf{N}$ (TG, I, p. 68, prop. 15). Pour tout $n\in \mathbf{N}$, l’espace $\mathscr{K}(X,\overline{U}_n)$ s’identifie à un sous-espace fermé de l’espace de Banach $\mathscr{C}(U_n)$ (INT, III, p. 40, § 1, n$^o1)$; puisque ce dernier espace est de type dénombrable (TG, X, p. 25, corollaire), il en est de même de $\mathscr{K}(X,\overline{U}_n)$ (TG, IX, p. 19, cor., (i)). Soit $\mathscr{F}_n$ une partie dénombrable dense de $\mathscr{K}(X,\overline{U}_n)$.
+Soit $(U_n)_{n\in\mathbf{N}}$ une suite d’ouverts relativement compacts de X dont la réunion est égale à X et qui vérifient $U_n\subset U_{n+1}$ pour tout $n\in \mathbf{N}$ (TG, I, p. 68, prop. 15). Pour tout $n\in \mathbf{N}$, l’espace $\mathscr{K}(X,\overline{U}_n)$ s’identifie à un sous-espace fermé de l’espace de Banach $\mathscr{C}(U_n)$ (INT, III, p. 40, § 1, n$^o1$); puisque ce dernier espace est de type dénombrable (TG, X, p. 25, corollaire), il en est de même de $\mathscr{K}(X,\overline{U}_n)$ (TG, IX, p. 19, cor., (i)). Soit $\mathscr{F}_n$ une partie dénombrable dense de $\mathscr{K}(X,\overline{U}_n)$.
 
 Soit $f\in \mathscr{L}^p(X, \mu)$ et soit $\varepsilon  >0$. Il existe un entier $n\in \mathbf{N}$ tel que $\int_{X-U_n}|f|^p< \varepsilon /2$, et il existe $g\in \mathscr{F}_n$ telle que $\int_{\overline{U}_n}|f-g|^p< \varepsilon /2$. La réunion des classes dans $L^p(X, \mu)$ des éléments des ensembles $\mathscr{F}_n$ est donc dense dans $L^p(X, \mu)$, ce qui conclut la démonstration (TG, IX, p. 18, prop. 12).
 
@@ -148,7 +148,7 @@ d) Toute fonction borélienne de X dans $\mathbf{C}$ (TG, IX, p. 61, déf. 5) ap
 
 e) Pour toute suite $(f_n)_{n\in\mathbf{N}}$ dans $\mathscr{L}_u(X)$ qui converge simplement vers une fonction $f$ de X dans $\mathbf{C}$, on a $f\in \mathscr{L}_u(X)$.
 
-Les assertions a) et c) résultent des définitions (cf. INT, IV, p. 175, § 5, n$^o3$, cor. 3). L’assertion d) est une conséquence de INT, IV, p. 179, § 5, n$^o5$, th. 4, puisque l’image réciproque par une fonction borélienne de toute partie borélienne de $\mathbf{C}$ est une partie borélienne de X, qui est universellement mesurable (INT, V, p. 28, § 3, n$^o4)$. Enfin, l’assertion e) résulte du théorème d’Egoroff (INT, IV, p. 175, § 5, n$^o4$, th. 2).
+Les assertions a) et c) résultent des définitions (cf. INT, IV, p. 175, § 5, n$^o3$, cor. 3). L’assertion d) est une conséquence de INT, IV, p. 179, § 5, n$^o5$, th. 4, puisque l’image réciproque par une fonction borélienne de toute partie borélienne de $\mathbf{C}$ est une partie borélienne de X, qui est universellement mesurable (INT, V, p. 28, § 3, n$^o4$). Enfin, l’assertion e) résulte du théorème d’Egoroff (INT, IV, p. 175, § 5, n$^o4$, th. 2).
 
 Pour démontrer l’assertion b), il suffit de remarquer que e) implique, a fortiori, qu’une limite uniforme de fonctions universellement mesurables est universellement mesurable.
 
@@ -316,7 +316,7 @@ La fonction $g$ sur X qui coïncide avec $g_i$ sur $X_i$ et qui est nulle sur Z 
 
 Soit $u$ un endomorphisme de l’espace hilbertien $L^2(X, \mu)$ permutable à $\widetilde{m}_g$ pour toute fonction $g\in \mathscr{K}(X)$. Alors il existe un unique élément $f\in L^{\infty}(X, \mu)$ tel que $u=\widetilde{m}_f$.
 
-D’après la prop. 7, il suffit de démontrer que $u$ commute avec $\widetilde{m}_g$ pour tout $g\in \mathscr{L}^{\infty}(X, \mu)$. Soient $h_1$ et $h_2$ des éléments de $\mathscr{L}^2(X, \mu)$ de classes $\widetilde{h}_1$ et $\widetilde{h}_2$ dans $L^2(X, \mu)$. Soit $k_1$ (resp. $k_2)$ une fonction dans $\mathscr{L}^2(X, \mu)$ dont la classe est $u(\widetilde{h}_1)$ (resp. $u^*(\widetilde{h}_2))$.
+D’après la prop. 7, il suffit de démontrer que $u$ commute avec $\widetilde{m}_g$ pour tout $g\in \mathscr{L}^{\infty}(X, \mu)$. Soient $h_1$ et $h_2$ des éléments de $\mathscr{L}^2(X, \mu)$ de classes $\widetilde{h}_1$ et $\widetilde{h}_2$ dans $L^2(X, \mu)$. Soit $k_1$ (resp. $k_2$) une fonction dans $\mathscr{L}^2(X, \mu)$ dont la classe est $u(\widetilde{h}_1)$ (resp. $u^*(\widetilde{h}_2)$).
 
 Notons $h=h_1\overline{k}_2-k_1\overline{h}_2$; on a $h\in \mathscr{L}^1(X, \mu)$. Définissons la mesure $\nu =h\cdot \mu$ sur X ; elle est bornée. Pour tout $g\in \mathscr{L}^{\infty}(X, \mu)$, on a
 
@@ -434,7 +434,7 @@ Il existe un sous-ensemble C de E tel que E est somme hilbertienne des espaces $
 
 Soit $\mathscr{O}$ l’ensemble des parties C de E telles que les sous-espaces $E_x$ pour $x\in C$ soient deux à deux orthogonaux. L’ensemble $\mathscr{O}$, ordonné par l’inclusion, est de caractère fini (E, III, p. 34, déf. 2) puisque C appartient à $\mathscr{O}$ si et seulement si les ensembles formés de deux éléments de C appartiennent à $\mathscr{O}$. D’après E, III, p. 35, th. 1, il existe un élément maximal C de $\mathscr{O}$.
 
-Soit F le sous-espace fermé de E engendré par les sous-espaces $E_x$ pour $x\in C$. Il suffit de démontrer que $F^{\circ}$ est réduit à 0 pour achever la preuve de la proposition. Soit $y$ un élément de $F^{\circ}$. Pour tout $x\in C$ et tous $a$ et $b$ dans A, on a $\langle a(y)|b(x)\rangle =\langle y|a^*b(x)\rangle = 0$ puisque $a^*b(x)$ appartient à $E_x$, donc à F. Comme les éléments $a(y)$ (resp. $b(x))$ engendrent un sous-espace dense de $E_y$ (resp. $E_x)$, on a donc $E_y\subset E^{\circ}_x$. Puisque C est maximal dans $\mathscr{O}$, cela signifie que $E_y$ est réduit à 0, donc que $y= 0$.
+Soit F le sous-espace fermé de E engendré par les sous-espaces $E_x$ pour $x\in C$. Il suffit de démontrer que $F^{\circ}$ est réduit à 0 pour achever la preuve de la proposition. Soit $y$ un élément de $F^{\circ}$. Pour tout $x\in C$ et tous $a$ et $b$ dans A, on a $\langle a(y)|b(x)\rangle =\langle y|a^*b(x)\rangle = 0$ puisque $a^*b(x)$ appartient à $E_x$, donc à F. Comme les éléments $a(y)$ (resp. $b(x)$) engendrent un sous-espace dense de $E_y$ (resp. $E_x$), on a donc $E_y\subset E^{\circ}_x$. Puisque C est maximal dans $\mathscr{O}$, cela signifie que $E_y$ est réduit à 0, donc que $y= 0$.
 
 Supposons que E est de type dénombrable. Comme $E_x$ est non nul pour tout $x\in C$ non nul, tout ensemble C tel que E est somme hilbertienne des espaces $E_x$ pour $x\in C$ est dénombrable.
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 41
 exercises: 8
-content_sha256: 0bd934e3e12057b271939ac9530977c7e116ce655a7456f55151acbed2f751f9
+content_sha256: 581628492e0f29739554405c17ff5c1e810c6f0e6a624af1ca847ee0773060fe
 ---
 
 ## § 6. ÉQUIVALENCE DE MORITA DES MODULES ET DES ALGÈBRES
@@ -380,13 +380,13 @@ Notons que l’anneau A est un corps si et seulement si le B-module P est simple
 
 #### Exemple 2 {#alg-viii-s6-n4-exa-2 .statement tag=0079}
 
-Notons $\mathscr{B}_A,\mathscr{B}_B$ et $\mathscr{B}_P$ les ensembles ordonnés formés des idéaux bilatères de A, des idéaux bilatères de B, et des sous-(A$,B)_k$-bimodules de P respectivement.
+Notons $\mathscr{B}_A,\mathscr{B}_B$ et $\mathscr{B}_P$ les ensembles ordonnés formés des idéaux bilatères de A, des idéaux bilatères de B, et des sous-(A$,B$)$_k$-bimodules de P respectivement.
 
-a) L’application $\mathfrak{b}\rightarrow P\mathfrak{b}$ est un isomorphisme d’ensembles ordonnés de $\mathscr{B}_B$ sur $\mathscr{B}_P$; l’isomorphisme réciproque associe à un sous-(A$,B)_k$-bimodule $P'$ de P l’idéal bilatère de B formé des éléments $b$ tels que $Pb\subset P'$.
+a) L’application $\mathfrak{b}\rightarrow P\mathfrak{b}$ est un isomorphisme d’ensembles ordonnés de $\mathscr{B}_B$ sur $\mathscr{B}_P$; l’isomorphisme réciproque associe à un sous-(A$,B$)$_k$-bimodule $P'$ de P l’idéal bilatère de B formé des éléments $b$ tels que $Pb\subset P'$.
 
-b) L’application $\mathfrak{a}\rightarrow \mathfrak{a}P$ est un isomorphisme d’ensembles ordonnés de $\mathscr{B}_A$ sur $\mathscr{B}_P$; l’isomorphisme réciproque associe à un sous-(A$,B)_k$-bimodule $P'$ de P l’idéal bilatère de A formé des éléments $a$ tels que $aP\subset P'$.
+b) L’application $\mathfrak{a}\rightarrow \mathfrak{a}P$ est un isomorphisme d’ensembles ordonnés de $\mathscr{B}_A$ sur $\mathscr{B}_P$; l’isomorphisme réciproque associe à un sous-(A$,B$)$_k$-bimodule $P'$ de P l’idéal bilatère de A formé des éléments $a$ tels que $aP\subset P'$.
 
-En effet, soient J un idéal à gauche de B et $P'=$ PJ. Alors $P'$ est un sous-A-module de P et, par l’exemple 1, J se compose des éléments $b$ de B tels que $Pb\subset P'$ De plus $P'$ est un sous-(A$,B)_k$-bimodule de P si et seulement si J est un idéal bilatère de B. Ainsi a) résulte de loc. cit.
+En effet, soient J un idéal à gauche de B et $P'=$ PJ. Alors $P'$ est un sous-A-module de P et, par l’exemple 1, J se compose des éléments $b$ de B tels que $Pb\subset P'$ De plus $P'$ est un sous-(A$,B$)$_k$-bimodule de P si et seulement si J est un idéal bilatère de B. Ainsi a) résulte de loc. cit.
 
 L’assertion b) résulte de a) appliquée au $(B^o,A^o)_k$-bimodule inversible P.
 
@@ -434,7 +434,7 @@ $\bigcap_{i\in I}M_i$ Borne inférieure inf$_{i\in I}M_i$
 
 $\sum_{i\in I}M_i$ Borne supérieure sup$_{i\in I}M_i$
 
-Sous-modules supplémentaires inf(M$',M'') = 0$, sup(M$',M'') = M$
+Sous-modules supplémentaires inf(M$',M''$) $= 0$, sup(M$',M''$) $= M$
 
 Sous-module simple de M Élément minimal de D(M) $-\{0\}$
 
@@ -444,7 +444,7 @@ Socle $\mathscr{S}(M)$ de M Borne supérieure dans D(M) de l’ensemble
 
 des éléments minimaux de D(M) $-\{0\}$
 
-$*$ Radical $\mathfrak{R}(M)$ de M (VIII, p. 147$)*$ Borne inférieure dans D(M) de l’ensemble
+$*$ Radical $\mathfrak{R}(M)$ de M (VIII, p. 147)$*$ Borne inférieure dans D(M) de l’ensemble
 
 des éléments maximaux de D(M)$-\{M\}$
 
@@ -462,7 +462,7 @@ M est indécomposable On a $M\not= 0$ et il n’existe pas deux éléments $M'$ 
 
 $M''$ de D(M), distincts de 0, vérifiant
 
-inf(M$',M'') = 0$, sup(M$',M'') = M$.
+inf(M$',M''$) $= 0$, sup(M$',M''$) $= M$.
 
 M est de type fini Pour toute famille $(M_i)_{i\in I}$ dans D(M) de borne
 
@@ -568,7 +568,7 @@ $Q\otimes_AP\otimes_B{V'}^{1_Q\otimes 1_P\otimes f}/$/ $Q\otimes_AP\otimes_BV^{1
 
 $\theta \otimes 1_{V'}\theta \otimes 1_V\theta \otimes 1_{V''}$
 
-Puisque Q est un A-module projectif et que la suite (P$V'f$ // V $g\otimes \mathscr{E})$ est exacte, la première// $V''$ ligne de ce diagramme est une suite exacte ; comme les flèches verticales sont des isomorphismes, la seconde ligne est également exacte.
+Puisque Q est un A-module projectif et que la suite (P$V'f$ // V $g\otimes \mathscr{E}$) est exacte, la première// $V''$ ligne de ce diagramme est une suite exacte ; comme les flèches verticales sont des isomorphismes, la seconde ligne est également exacte.
 
 #### Corollaire {#alg-viii-s6-n6-cor-1 .statement tag=007J}
 
@@ -576,7 +576,7 @@ Soit $f: V\rightarrow W$une application B-linéaire. Pour que $f$ soit injective
 
 #### Proposition 12 {#alg-viii-s6-prop-12 .statement tag=007K}
 
-Soit V un B-module à gauche. Pour que le B-module V soit projectif (resp. générateur, resp. fidèle, $*$resp. injectif, resp. de présentation finie$*)$, il faut et il suffit que le A-module $P\otimes_BV$le soit.
+Soit V un B-module à gauche. Pour que le B-module V soit projectif (resp. générateur, resp. fidèle, $*$resp. injectif, resp. de présentation finie$*$), il faut et il suffit que le A-module $P\otimes_BV$le soit.
 
 a) Supposons V projectif. Il existe un ensemble I tel que V soit isomorphe à un sous-module facteur direct de $B^{(I)}_s$. Le A-module $P\otimes_BV$ est alors isomorphe à un sous-module facteur direct de $P^{(I)}$; comme P est un A-module projectif, il en est de même de $P\otimes_BV$.
 
@@ -650,9 +650,9 @@ Pour qu’un B-module à droite P soit projectif, de type fini et générateur, 
 
 (ii) L’idéal bilatère de B engendré par les éléments $e_{ij}$ est égal à B.
 
-Soit P un B-module à droite. Pour que P soit projectif et de type fini, il faut et il suffit qu’il soit isomorphe à un sous-module facteur direct d’un B-module de la forme $B^n_d$ où $n$ est un entier $\geqslant 0$ (II, p. 40, cor. 1). Si l’on identifie les $k$-algèbres $\mathbf{M}_n(B)$ et End(B$^n_d)$, cela signifie qu’il existe un idempotent $e$ de $\mathbf{M}_n(B)$ tel que P soit isomorphe à $eB^n_d$.
+Soit P un B-module à droite. Pour que P soit projectif et de type fini, il faut et il suffit qu’il soit isomorphe à un sous-module facteur direct d’un B-module de la forme $B^n_d$ où $n$ est un entier $\geqslant 0$ (II, p. 40, cor. 1). Si l’on identifie les $k$-algèbres $\mathbf{M}_n(B)$ et End(B$^n_d$), cela signifie qu’il existe un idempotent $e$ de $\mathbf{M}_n(B)$ tel que P soit isomorphe à $eB^n_d$.
 
-Le B-module P est générateur si et seulement si son idéal trace $\tau (P)$ est égal à B, c’est-à-dire $\tau (eB^n_d) = B$ (VIII, p. 76, th. 1). Soient $x_1, . . . , x_n$ les éléments de $B^n_d$ correspondant aux colonnes de la matrice $e$, et soit $x^*_i$ (pour $1\leqslant i\leqslant n)$ la forme linéaire $(b_1, . . . , b_n)\rightarrow b_i$ sur $eB^n_d$. La famille $(x_1, . . . , x_n)$ engendre le B-module $eB^n_d$ et la famille $(x^*_1, . . . , x^*_n)$ engendre son dual. Or on a $\langle x^*_i, x_j\rangle =e_{ij}$, donc $\tau (eB^n_d)$ est l’idéal bilatère de B engendré par les $e_{ij}$. Cela prouve le lemme 3.
+Le B-module P est générateur si et seulement si son idéal trace $\tau (P)$ est égal à B, c’est-à-dire $\tau (eB^n_d) = B$ (VIII, p. 76, th. 1). Soient $x_1, . . . , x_n$ les éléments de $B^n_d$ correspondant aux colonnes de la matrice $e$, et soit $x^*_i$ (pour $1\leqslant i\leqslant n$) la forme linéaire $(b_1, . . . , b_n)\rightarrow b_i$ sur $eB^n_d$. La famille $(x_1, . . . , x_n)$ engendre le B-module $eB^n_d$ et la famille $(x^*_1, . . . , x^*_n)$ engendre son dual. Or on a $\langle x^*_i, x_j\rangle =e_{ij}$, donc $\tau (eB^n_d)$ est l’idéal bilatère de B engendré par les $e_{ij}$. Cela prouve le lemme 3.
 
 #### Lemme 4 {#alg-viii-s6-lem-4 .statement tag=007P}
 

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: 1cb95c6fd79e8e452619e0b91b35402ae07dca3aeadb60e2e5bb1eb78d8b32b9
+content_sha256: a61ca2464dc9c472ebcf192b2b1834e55411f9bf073d172e7c2bdb5694fe9802
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -64,9 +64,9 @@ Dans ce paragraphe, les espaces vectoriels sont sur le corps $K =\mathbf{R}$ ou 
 
 #### Proposition 1 {#ts-v-s2-prop-1 .statement tag=03A4}
 
-Soit H un groupe localement compact. Soit $\varrho_1$ (resp. $\varrho_2)$ une représentation continue de G (resp. de H) dans un K-espace vectoriel localement convexe séparé $E_1$ (resp. $E_2)$. Notons F l’espace $\mathscr{L}(E_1; E_2)$ muni de la topologie de la convergence compacte. La représentation $\varrho$ de $G\times H$ dans F définie par $\varrho (g, h)u=\varrho_2(h)\circ u\circ \varrho_1(g^{-1})$ pour $(g, h)\in G\times H$ est continue.
+Soit H un groupe localement compact. Soit $\varrho_1$ (resp. $\varrho_2$) une représentation continue de G (resp. de H) dans un K-espace vectoriel localement convexe séparé $E_1$ (resp. $E_2$). Notons F l’espace $\mathscr{L}(E_1; E_2)$ muni de la topologie de la convergence compacte. La représentation $\varrho$ de $G\times H$ dans F définie par $\varrho (g, h)u=\varrho_2(h)\circ u\circ \varrho_1(g^{-1})$ pour $(g, h)\in G\times H$ est continue.
 
-Notons $\mathscr{L}_c(E_1; E_2)$ l’espace $\mathscr{L}(E_1; E_2)$ muni de la topologie de la convergence compacte. Soient $\mathfrak{F}_1$ (resp. $\mathfrak{F}_2,\mathfrak{F}_3)$ un filtre dans G convergeant vers $e$ (resp. un filtre dans $\mathscr{L}_c(E_1; E_2)$ convergeant vers 0, un filtre dans H convergeant vers $e)$. Comme G et H sont localement compacts, il existe des éléments $C\in \mathfrak{F}_1$ et $D\in \mathfrak{F}_3$ qui sont relativement compacts. L’ensemble $\varrho_1(C^{-1})$ est équicontinu dans $\mathscr{L}(E_1) ($cf. INT, VIII, p. 129, § 2, n$^o1$, rem. 2, a$'))$. D’après la prop. 9 de EVT, III, p. 33 et la prop. 4 de EVT, III, p. 31, l’application définie par $(u, v)\mapsto u\circ v$ de $\mathscr{L}_c(E_1; E_2)\times \varrho_1(C^{-1})$ dans $\mathscr{L}_c(E_1; E_2)$ est continue. La base de filtre $\mathfrak{F}_2\circ \varrho_1(\mathfrak{F}^{-1}_1)$ converge donc vers 0 dans $\mathscr{L}_c(E_1; E_2)$. L’ensemble $\varrho_2(D)$ est équicontinu dans $\mathscr{L}(E_2) ($cf. INT, VIII, p. 129, § 2, n$^o1$, rem. 2), et pour tout $x\in E_2$, l’ensemble $\varrho_2(D)x\subset E_2$ est relativement compact. Par conséquent, $\varrho_2(D)$ est relativement compact dans $\mathscr{L}(E_2)$ muni de la topologie de la convergence compacte (TG, X, p. 18, cor. 1). L’application définie par $(u, v)\mapsto u\circ v$ de $\overline{\varrho_2(D)}\times \mathscr{L}_c(E_1; E_2)$ dans $\mathscr{L}_c(E_1; E_2)$ est continue d’après la prop. 9 de EVT, III, p. 33 et la prop. 4 de EVT, III, p. 31. Donc la base de filtre $\varrho (\mathfrak{F}_1\times \mathfrak{F}_3)(\mathfrak{F}_2)$ converge vers 0 dans $\mathscr{L}_c(E_1; E_2)$. Cela entraîne l’assertion.
+Notons $\mathscr{L}_c(E_1; E_2)$ l’espace $\mathscr{L}(E_1; E_2)$ muni de la topologie de la convergence compacte. Soient $\mathfrak{F}_1$ (resp. $\mathfrak{F}_2,\mathfrak{F}_3$) un filtre dans G convergeant vers $e$ (resp. un filtre dans $\mathscr{L}_c(E_1; E_2)$ convergeant vers 0, un filtre dans H convergeant vers $e$). Comme G et H sont localement compacts, il existe des éléments $C\in \mathfrak{F}_1$ et $D\in \mathfrak{F}_3$ qui sont relativement compacts. L’ensemble $\varrho_1(C^{-1})$ est équicontinu dans $\mathscr{L}(E_1) ($cf. INT, VIII, p. 129, § 2, n$^o1$, rem. 2, a$'))$. D’après la prop. 9 de EVT, III, p. 33 et la prop. 4 de EVT, III, p. 31, l’application définie par $(u, v)\mapsto u\circ v$ de $\mathscr{L}_c(E_1; E_2)\times \varrho_1(C^{-1})$ dans $\mathscr{L}_c(E_1; E_2)$ est continue. La base de filtre $\mathfrak{F}_2\circ \varrho_1(\mathfrak{F}^{-1}_1)$ converge donc vers 0 dans $\mathscr{L}_c(E_1; E_2)$. L’ensemble $\varrho_2(D)$ est équicontinu dans $\mathscr{L}(E_2) ($cf. INT, VIII, p. 129, § 2, n$^o1$, rem. 2), et pour tout $x\in E_2$, l’ensemble $\varrho_2(D)x\subset E_2$ est relativement compact. Par conséquent, $\varrho_2(D)$ est relativement compact dans $\mathscr{L}(E_2)$ muni de la topologie de la convergence compacte (TG, X, p. 18, cor. 1). L’application définie par $(u, v)\mapsto u\circ v$ de $\overline{\varrho_2(D)}\times \mathscr{L}_c(E_1; E_2)$ dans $\mathscr{L}_c(E_1; E_2)$ est continue d’après la prop. 9 de EVT, III, p. 33 et la prop. 4 de EVT, III, p. 31. Donc la base de filtre $\varrho (\mathfrak{F}_1\times \mathfrak{F}_3)(\mathfrak{F}_2)$ converge vers 0 dans $\mathscr{L}_c(E_1; E_2)$. Cela entraîne l’assertion.
 
 #### Corollaire {#ts-v-s2-n1-cor-1 .statement tag=03A5}
 
@@ -104,7 +104,7 @@ $$
 
 D’après INT, VIII, loc. cit., l’application $\nu \mapsto \varrho (\nu )$ est un morphisme unifère continu d’algèbres de Banach de l’algèbre $\mathscr{M}^1(G)$ des mesures complexes bornées sur G dans l’algèbre de Banach $\mathscr{L}(E)$.
 
-Soit $\rho$ la fonction $g\mapsto  \|\varrho (g)\|$ sur G ; l’algèbre notée $\mathscr{M}^{\rho}$ dans INT, VIII, p. 145, prop. 11 (dont les éléments sont les mesures $\nu$ telles que $\rho \in \mathscr{L}^1(\nu ))$ coïncide avec l’algèbre de Banach $\mathscr{M}^1(G)$. En effet, posons M = sup $\rho$. On a $M>0$ puisque $\rho (e) = 1$, et $M^{-1}\leqslant \rho \leqslant M$ puisque $\|\varrho (e)\|\leqslant \|\varrho (g)\| \|\varrho (g^{-1})\|$ pour tout $g\in G$; ainsi $\rho \in \mathscr{L}^1(\nu )$ si et seulement si $\nu$ est une mesure bornée.
+Soit $\rho$ la fonction $g\mapsto  \|\varrho (g)\|$ sur G ; l’algèbre notée $\mathscr{M}^{\rho}$ dans INT, VIII, p. 145, prop. 11 (dont les éléments sont les mesures $\nu$ telles que $\rho \in \mathscr{L}^1(\nu )$) coïncide avec l’algèbre de Banach $\mathscr{M}^1(G)$. En effet, posons M = sup $\rho$. On a $M>0$ puisque $\rho (e) = 1$, et $M^{-1}\leqslant \rho \leqslant M$ puisque $\|\varrho (e)\|\leqslant \|\varrho (g)\| \|\varrho (g^{-1})\|$ pour tout $g\in G$; ainsi $\rho \in \mathscr{L}^1(\nu )$ si et seulement si $\nu$ est une mesure bornée.
 
 Si $f\in \mathscr{L}^1$(G), on notera aussi $\varrho^\mu(f)$ ou simplement $\varrho (f)$ l’endomorphisme $\varrho (f\cdot \mu)$, et de même pour la classe $\widetilde{f}$ de $f$ dans $L^1(G)$.
 
@@ -112,7 +112,7 @@ Si $f\in \mathscr{L}^1$(G), on notera aussi $\varrho^\mu(f)$ ou simplement $\var
 
 Soit $\varrho$ une représentation unitaire de G dans un espace hilbertien E. L’application $\nu \mapsto \varrho (\nu )$ de $\mathscr{M}^1(G)$ dans $\mathscr{L}(E)$ est un morphisme unifère d’algèbres de Banach involutives.
 
-D’après ce qui précède, il suffit de démontrer que le morphisme $\nu \mapsto \varrho (\nu )$ est involutif. Soit $\nu \in \mathscr{M}^1(G)$. La mesure $\nu^*$ est la mesure conjuguée de la mesure $\check{\nu}($I, p. 99, exemple 4). D’après la définition de la mesure conjuguée (INT, III, p. 52, § 1, n$^o5)$, on calcule
+D’après ce qui précède, il suffit de démontrer que le morphisme $\nu \mapsto \varrho (\nu )$ est involutif. Soit $\nu \in \mathscr{M}^1(G)$. La mesure $\nu^*$ est la mesure conjuguée de la mesure $\check{\nu}($I, p. 99, exemple 4). D’après la définition de la mesure conjuguée (INT, III, p. 52, § 1, n$^o5$), on calcule
 
 $$
 \langle x|\varrho (\nu )y\rangle =\int\langle x|\varrho (g)y\rangle d\nu (g)
@@ -128,7 +128,7 @@ $$
 
 pour tous $x$ et $y$ dans E, d’où $\varrho (\nu )^*=\varrho (\nu^*)$.
 
-Soit $\varrho$ une représentation linéaire continue (resp. continue et bornée) de G dans un espace localement convexe quasi-complet E (resp. un espace de Banach E). Si F est un sous-espace fermé de E définissant une sous-représentation $\varrho_F$ de $\varrho$, alors pour toute mesure $\nu \in \mathscr{M}_c(G)$ (resp. $\nu \in \mathscr{M}^1(G))$ l’application linéaire $\varrho (\nu )$ laisse stable le sous-espace F et coïncide avec $\varrho_F(\nu )$ sur F.
+Soit $\varrho$ une représentation linéaire continue (resp. continue et bornée) de G dans un espace localement convexe quasi-complet E (resp. un espace de Banach E). Si F est un sous-espace fermé de E définissant une sous-représentation $\varrho_F$ de $\varrho$, alors pour toute mesure $\nu \in \mathscr{M}_c(G)$ (resp. $\nu \in \mathscr{M}^1(G)$) l’application linéaire $\varrho (\nu )$ laisse stable le sous-espace F et coïncide avec $\varrho_F(\nu )$ sur F.
 
 Réciproquement, soit $F\subset E$ un sous-espace fermé, stable par les applications linéaires $\varrho (f)$ pour toute fonction $f\in \mathscr{K}(G)$. Alors F définit une sous-représentation de $\varrho$ (INT, VIII, p. 139, § 2, n$^o7$, prop. 10).
 
@@ -236,7 +236,7 @@ $$
 \langle \varphi ,\boldsymbol{\gamma }^{(p)}_G(g)\varphi \rangle =\int_G\varphi (x)\varphi (g^{-1}x)d\mu(x) = 0
 $$
 
-Soit $\varrho$ une représentation continue et bornée de G dans un espace de Banach E. Pour tout $f\in L^1(G)$ (resp. $f'\in L^1(G, \mu'))$ et tout $g\in G$, on a
+Soit $\varrho$ une représentation continue et bornée de G dans un espace de Banach E. Pour tout $f\in L^1(G)$ (resp. $f'\in L^1(G, \mu')$) et tout $g\in G$, on a
 
 (1) $\varrho (g)\varrho (f\cdot \mu) =\varrho (\varepsilon_g*(f\cdot \mu)) =\varrho (\boldsymbol{\gamma }$[^1]$_G(g)f\cdot \mu)$,
 
@@ -244,7 +244,7 @@ Soit $\varrho$ une représentation continue et bornée de G dans un espace de Ba
 
 (INT, VIII, p. 144, § 3, n$^o2$, formule (5)).
 
-Supposons G unimodulaire, et posons $\mu'=\mu$. La représentation birégulière de G dans $\mathscr{L}^p(G)$ (resp. dans $L^p(G))$ est la représentation $\boldsymbol{\varrho }^{(p)}_G$ de $G\times G$ dans $\mathscr{L}^p(G)$ (resp. dans $L^p(G))$ telle que
+Supposons G unimodulaire, et posons $\mu'=\mu$. La représentation birégulière de G dans $\mathscr{L}^p(G)$ (resp. dans $L^p(G)$) est la représentation $\boldsymbol{\varrho }^{(p)}_G$ de $G\times G$ dans $\mathscr{L}^p(G)$ (resp. dans $L^p(G)$) telle que
 
 $$
 \boldsymbol{\varrho }_G^{(p)}(g_1, g_2) =\boldsymbol{\gamma }_G^{(p)}(g_1)\boldsymbol{\delta }_G^{(p)}(g_2) =\boldsymbol{\delta }_G^{(p)}(g_2)\boldsymbol{\gamma }_G^{(p)}(g_1)
@@ -292,7 +292,7 @@ Dans ce numéro, on fixe un sous-groupe fermé H de G. On note $\varpi$ la proje
 
 En sus de la mesure de Haar $\mu$ sur G, on fixe une mesure de Haar à gauche $\beta$ sur H.
 
-D’après INT, VII, p. 56, § 2, n$^o5$, th. 2, il existe une fonction continue $\kappa : G\rightarrow \mathbf{R}_+^*$ telle que $\kappa (xh) = \Delta_H(h)\Delta_G(h)^{-1}\kappa (x)$ quel que soit $(x, h)\in G\times H$. On fixe une telle fonction $\kappa$. On note $\nu$ la mesure $(\kappa \cdot \mu)/\beta$ sur $G/H$; d’après loc. cit., c’est une mesure positive non nulle quasi-invariante par G. Son support est égal à $G/H$ (INT, VII, p. 10, § 1, n$^o1)$. D’après INT, VII, p. 43, § 2, n$^o2$, prop. 4, la mesure $\nu$ est l’unique mesure sur $G/H$ telle que la mesure $\nu^{\sharp}$ sur G soit égale à $\kappa \cdot \mu$. On munit l’espace $G/H$ de la mesure $\nu$ (de sorte qu’on note, par exemple, $\mathscr{L}^p(G/H) =\mathscr{L}^p(G/H, \nu ))$.
+D’après INT, VII, p. 56, § 2, n$^o5$, th. 2, il existe une fonction continue $\kappa : G\rightarrow \mathbf{R}_+^*$ telle que $\kappa (xh) = \Delta_H(h)\Delta_G(h)^{-1}\kappa (x)$ quel que soit $(x, h)\in G\times H$. On fixe une telle fonction $\kappa$. On note $\nu$ la mesure $(\kappa \cdot \mu)/\beta$ sur $G/H$; d’après loc. cit., c’est une mesure positive non nulle quasi-invariante par G. Son support est égal à $G/H$ (INT, VII, p. 10, § 1, n$^o1)$. D’après INT, VII, p. 43, § 2, n$^o2$, prop. 4, la mesure $\nu$ est l’unique mesure sur $G/H$ telle que la mesure $\nu^{\sharp}$ sur G soit égale à $\kappa \cdot \mu$. On munit l’espace $G/H$ de la mesure $\nu$ (de sorte qu’on note, par exemple, $\mathscr{L}^p(G/H) =\mathscr{L}^p(G/H, \nu )$).
 
 On dira qu’un ensemble $S\subset G$ est négligeable modulo H si $\varpi (S)$ est $\nu$-négligeable. Cette condition ne dépend pas du choix des mesures de Haar sur G et sur H. Elle implique que S est localement $\mu$-négligeable (INT, VII, p. 47, § 2, n$^o3$, prop. 6, a)). On dira qu’une propriété d’un élément de G est vraie presque partout modulo H si l’ensemble des éléments de G pour lesquels cette propriété ne vaut pas est négligeable modulo H.
 
@@ -486,7 +486,7 @@ $$
 w(x)=\left(\int_Hu(xh)^q\,d\beta(h)\right)^{1/q}
 $$
 
-pour tout $x\in G$. Dans tous les cas, la fonction $w$ est continue et positive ; elle appartient à $\mathscr{K}_1(G)$ (prop. 4 appliquée à la représentation triviale de dimension 1 et à la fonction $u^q)$ donc elle est bornée sur G. On pose W = sup$_{x\in G}w(x)$.
+pour tout $x\in G$. Dans tous les cas, la fonction $w$ est continue et positive ; elle appartient à $\mathscr{K}_1(G)$ (prop. 4 appliquée à la représentation triviale de dimension 1 et à la fonction $u^q$) donc elle est bornée sur G. On pose W = sup$_{x\in G}w(x)$.
 
 Soit $s$ la fonction sur G à valeurs dans E définie par le lemme 5 appliqué à $f$. Posons $g=\varphi s$. La fonction $g$ est $\mu$-mesurable, et vérifie $\|g\|\leqslant \|f\|/$ inf$_{x\in C\cdot H}v(x)$. Puisque $g$ est nulle en dehors du support de $u$ et que $\kappa$ est continue, on a $g\in \mathscr{L}_E^p(G, \kappa \cdot \mu)$. Soit $\widetilde{g}$ une fonction dans $\mathscr{K}_E(G)$ telle que
 
@@ -860,7 +860,7 @@ En utilisant EVT, V, p. 29, cor. 1, on en déduit que l’application linéaire 
 
 #### Corollaire {#ts-v-s2-n8-cor-1 .statement tag=03AW}
 
-Soit $\pi$ une représentation unitaire irréductible de G et soit $\chi$ la restriction à Z de son caractère central. La représentation $\pi$ est de carré intégrable modulo le centre si et seulement si elle est isomorphe à une sous-représentation de la représentation $\boldsymbol{\gamma }_{G,\chi}$ de G dans $L^2_{\overline{\chi}}(G)$ (resp. de la représentation $\boldsymbol{\delta }_{G,\chi}$ de G dans $L^2_{\chi}(G))$.
+Soit $\pi$ une représentation unitaire irréductible de G et soit $\chi$ la restriction à Z de son caractère central. La représentation $\pi$ est de carré intégrable modulo le centre si et seulement si elle est isomorphe à une sous-représentation de la représentation $\boldsymbol{\gamma }_{G,\chi}$ de G dans $L^2_{\overline{\chi}}(G)$ (resp. de la représentation $\boldsymbol{\delta }_{G,\chi}$ de G dans $L^2_{\chi}(G)$).
 
 Démontrons l’assertion concernant $\boldsymbol{\gamma }_{G,\chi}$, la seconde étant démontrée de manière similaire.
 
@@ -1096,7 +1096,7 @@ Soit $\varrho$ une représentation unitaire de $\mathbf{R}$ dans E. Alors le gé
 
 D’après le lemme 13, c), l’opérateur partiel $u$ est essentiellement auto-adjoint. Sa fermeture $\overline{u}$ est donc un opérateur auto-adjoint. Notons $\pi$ la représentation unitaire de $\mathbf{R}$ définie par $\pi (t) =e^{itu}$ (lemme 11).
 
-Pour tout $x\in E$, notons $\psi_x$ (resp. $\widetilde{\psi}_x)$ l’application de $\mathbf{R}$ dans E définie par $\psi_x(t) =\varrho (t)x$ (resp. par $\widetilde{\psi}_x(t) =\pi (t)x)$.
+Pour tout $x\in E$, notons $\psi_x$ (resp. $\widetilde{\psi}_x$) l’application de $\mathbf{R}$ dans E définie par $\psi_x(t) =\varrho (t)x$ (resp. par $\widetilde{\psi}_x(t) =\pi (t)x$).
 
 D’après le lemme 13, a) et b), l’espace dom($u$) est le sous-espace de E formé des éléments $x\in E$ tels que l’application $\psi_x$ est dérivable sur $\mathbf{R}$, et pour tout $x\in$ dom($u$) et tout $t\in \mathbf{R}$, on a $\psi '_x(t) =iu(\psi_x(t))$. De même, l’espace dom($\overline{u}$) est le sous-espace de E formé des éléments $x\in E$ tels que l’application $\widetilde{\psi}_x$ est dérivable sur $\mathbf{R}$, et pour tout $x\in$ dom($\overline{u}$) et tout $t\in \mathbf{R}$, on a $\widetilde{\psi}'_x(t) =iu(\widetilde{\psi}_x(t))$.
 

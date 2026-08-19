@@ -26,7 +26,7 @@ subsections:
       pdf_page: 391
 statements: 9
 exercises: 1
-content_sha256: 3bfb6c66637d769fab81a3bafc5ba85e1b52de92184d668145eaab4fab7ebf77
+content_sha256: c652364982900bde8be99a50d135a79a022b0ce1d63664c62cf67a8e4c0c381f
 ---
 
 ## APPENDIX I
@@ -69,7 +69,7 @@ The necessity of this condition has already been proved (Chap. III, §4, no. 2, 
 
 Let $(G_{\alpha}, f_{\alpha \beta})$ be a projective system of topological groups relative to a filtered index set I, and G its limit. Assume that the canonical maps $f_{\alpha}: G\rightarrow G_{\alpha}$ are surjective.
 
-a) The subgroups $D(G_{\alpha})$ (resp. $C(G_{\alpha})$, resp. $C(G_{\alpha})_0)$ form a projective system of subsets of $G_{\alpha}$.
+a) The subgroups $D(G_{\alpha})$ (resp. $C(G_{\alpha})$, resp. $C(G_{\alpha})_0$) form a projective system of subsets of $G_{\alpha}$.
 
 b) We have D(G) = lim$_{_{\leftarrow -}\alpha}\overline{D(G_{\alpha})}$ and C(G) = lim$_{_{\leftarrow -}\alpha}C(G_{\alpha})$.
 
@@ -81,7 +81,7 @@ Let $\alpha , \beta$ be two elements of I, with $\alpha \leq \beta$. Then $f_{\a
 
 Let $(S_a)_{a\in A},(T_b)_{b\in B}$ be two finite families of almost simple, simply-connected Lie groups (Chap. III, § 9, no. 8, Def. 3)$,u:\prod_{a\in A}S_a\rightarrow \prod_{b\in B}T_b$ a surjective morphism. Then there exist an injective map $l: B\rightarrow A$ and isomorphisms $u_b: S_{l(b)}\rightarrow T_b(b\in B)$ such that $u((s_a)_{a\in A}) = (u_b(s_{l(b)}))_{b\in B}$ for every element $(s_a)_{a\in A}$ of $\prod_{a\in A}S_a$.
 
-Denote by $\mathfrak{s}_a$ (resp. $\mathfrak{t}_b)$ the Lie algebra of $S_a$ (resp. $T_b)$ for $a\in A$ (resp. $b\in B)$, and consider the homomorphism $L(u) :\prod_{a\in A}\mathfrak{s}_a\rightarrow \prod_{b\in B}\mathfrak{t}_b$. Its kernel
+Denote by $\mathfrak{s}_a$ (resp. $\mathfrak{t}_b$) the Lie algebra of $S_a$ (resp. $T_b$) for $a\in A$ (resp. $b\in B$), and consider the homomorphism $L(u) :\prod_{a\in A}\mathfrak{s}_a\rightarrow \prod_{b\in B}\mathfrak{t}_b$. Its kernel
 
 is an ideal of the semi-simple Lie algebra $\prod_{a\in A}\mathfrak{s}_a$, and hence is of the form $\prod_{a\in A''}\mathfrak{s}_a$, with $A''\subset A$ (Chap. I, §6, no. 2, Cor. 1). Put $A'= A$**--** $A''$. By
 
@@ -151,7 +151,7 @@ We prove $b)$. For all $\alpha$ in I, the morphism $s_{\alpha}: C(G_{\alpha})_0\
 
 Every solvable connected compact group is commutative.
 
-Indeed, the derived group is then solvable and equal to its derived group (Prop. $2a))$, hence reduced to the identity element.
+Indeed, the derived group is then solvable and equal to its derived group (Prop. $2a$)$)$, hence reduced to the identity element.
 
 ### Exercises {#lie-ix-a1-exercises}
 

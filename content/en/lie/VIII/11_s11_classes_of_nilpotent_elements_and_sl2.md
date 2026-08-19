@@ -29,7 +29,7 @@ subsections:
       pdf_page: 178
 statements: 29
 exercises: 17
-content_sha256: 63d393e6e92aff98668caf225dbc1bd0084b863c04001d835aa65b3a522309db
+content_sha256: c0d8b9889a1fd801f649977579ba93f112fbe7fbc77b9893c748cf4521cf283a
 ---
 
 ## § 11. CLASSES OF NILPOTENT ELEMENTS AND $\mathfrak{s}\mathfrak{l}_{2}$-TRIPLETS
@@ -52,13 +52,13 @@ Let $(x, h, y)$ be an $\mathfrak{s}\mathfrak{l}_2$-triplet in $\mathfrak{g}$. Th
 
 Let $x, h, y, y'\in \mathfrak{g}$. If $(x, h, y)$ and $(x, h, y')$ are $\mathfrak{s}\mathfrak{l}_2$-triplets in $\mathfrak{g}$, then $y=y'$.
 
-Indeed, $y-y'\in$ Ker(ad$_{\mathfrak{g}}x)$ and (ad$_{\mathfrak{g}}h)(y-y') =-2(y-y')$. But ad$_{\mathfrak{g}}x$ is injective on Ker($p+$ ad$_{\mathfrak{g}}h)$ for every integer $p >0 ($§1, no. 2, Cor. of Prop. 2).
+Indeed, $y-y'\in$ Ker(ad$_{\mathfrak{g}}x$) and (ad$_{\mathfrak{g}}h$)$(y-y') =-2(y-y')$. But ad$_{\mathfrak{g}}x$ is injective on Ker($p+$ ad$_{\mathfrak{g}}h$) for every integer $p >0 ($§1, no. 2, Cor. of Prop. 2).
 
 #### Lemma 2 {#lie-viii-s11-lem-2 .statement tag=0172}
 
 Let $\mathfrak{n}$ be a subalgebra of $\mathfrak{g}$ such that, for all $n\in \mathfrak{n}$, ad$_{\mathfrak{g}}(n)$ is nilpotent. Let $h\in \mathfrak{g}$ be such that $[h,\mathfrak{n}] =\mathfrak{n}$. Then $e^{ad_{\mathfrak{g}}\mathfrak{n}}.h=h+\mathfrak{n}$.
 
-It is clear that $e^{ad_{\mathfrak{g}}(\mathfrak{n})}.h\subset h+\mathfrak{n}$. We shall prove that, if $v\in \mathfrak{n}$, then $h+v\in e^{ad_{\mathfrak{g}}(\mathfrak{n})}.h$. It suffices to prove that $h+v\in e^{ad_{\mathfrak{g}}(\mathfrak{n})}.h+\mathscr{C}0\mathfrak{n}$ for all $p\geq 1$ (since $\mathscr{C}^p\mathfrak{n}= 0$ for sufficiently large $p)$. This is clear for $p= 1$ since $\mathscr{C}^1\mathfrak{n}=\mathfrak{n}$. Assume now that we have proved the existence of $y_p\in \mathfrak{n}$ and $z_p\in \mathscr{C}^p\mathfrak{n}$ such that $h+v=e^{ad_{\mathfrak{g}}y_p}.h+z_p$. Since (ad$_{\mathfrak{g}}h)(\mathfrak{n}) =\mathfrak{n}$, (ad$_{\mathfrak{g}}h)|\mathfrak{n}$ is a bijection from $\mathfrak{n}$ to $\mathfrak{n}$, hence its restriction to $\mathscr{C}^p\mathfrak{n}$, which leaves $\mathscr{C}^p\mathfrak{n}$ stable, is also bijective; consequently, there exists $z\in \mathscr{C}^p\mathfrak{n}$ such that $z_p= [z, h]$. Then
+It is clear that $e^{ad_{\mathfrak{g}}(\mathfrak{n})}.h\subset h+\mathfrak{n}$. We shall prove that, if $v\in \mathfrak{n}$, then $h+v\in e^{ad_{\mathfrak{g}}(\mathfrak{n})}.h$. It suffices to prove that $h+v\in e^{ad_{\mathfrak{g}}(\mathfrak{n})}.h+\mathscr{C}0\mathfrak{n}$ for all $p\geq 1$ (since $\mathscr{C}^p\mathfrak{n}= 0$ for sufficiently large $p$). This is clear for $p= 1$ since $\mathscr{C}^1\mathfrak{n}=\mathfrak{n}$. Assume now that we have proved the existence of $y_p\in \mathfrak{n}$ and $z_p\in \mathscr{C}^p\mathfrak{n}$ such that $h+v=e^{ad_{\mathfrak{g}}y_p}.h+z_p$. Since (ad$_{\mathfrak{g}}h$)$(\mathfrak{n}) =\mathfrak{n}$, (ad$_{\mathfrak{g}}h$)$|\mathfrak{n}$ is a bijection from $\mathfrak{n}$ to $\mathfrak{n}$, hence its restriction to $\mathscr{C}^p\mathfrak{n}$, which leaves $\mathscr{C}^p\mathfrak{n}$ stable, is also bijective; consequently, there exists $z\in \mathscr{C}^p\mathfrak{n}$ such that $z_p= [z, h]$. Then
 
 $$
 e^{ad_{\mathfrak{g}}(y_p+z)}h-e^{ad_{\mathfrak{g}}y_p}h\in [z, h] +\mathscr{C}^{p+1}\mathfrak{n}
@@ -74,7 +74,7 @@ which establishes our assertion by induction on $p$.
 
 #### Lemma 3 {#lie-viii-s11-lem-3 .statement tag=0173}
 
-Let $x\in \mathfrak{g},\mathfrak{p}=$ Ker(ad $x),\mathfrak{q}=$ Im(ad $x)$. Then $[\mathfrak{p},\mathfrak{q}]\subset \mathfrak{q}$, and $\mathfrak{p}\cap \mathfrak{q}$ is a subalgebra of $\mathfrak{g}$.
+Let $x\in \mathfrak{g},\mathfrak{p}=$ Ker(ad $x$)$,\mathfrak{q}=$ Im(ad $x$). Then $[\mathfrak{p},\mathfrak{q}]\subset \mathfrak{q}$, and $\mathfrak{p}\cap \mathfrak{q}$ is a subalgebra of $\mathfrak{g}$.
 
 If $u\in \mathfrak{p}$ and $v\in \mathfrak{q}$, there exists $w\in \mathfrak{g}$ such that $v= [x, w]$, so
 
@@ -92,7 +92,7 @@ $$
 e^{ad_{\mathfrak{g}}z}x=x,e^{ad_{\mathfrak{g}}z}h=h',e^{ad_{\mathfrak{g}}z}y=y'
 $$
 
-Let $\mathfrak{n}=$ Ker(ad $x)\cap$ Im(ad $x)$. For all $p\in \mathbf{Z}$, let $\mathfrak{g}_p=$ Ker(ad $h-p)$. By §1, no. 3 (applied to the adjoint representation of $kx+ky+kh$ on $\mathfrak{g})$, we have that $\mathfrak{n}\subset \sum_{p>0}\mathfrak{g}_p$, so ad$_{\mathfrak{g}}n$ is nilpotent for all $n\in \mathfrak{n}$, and $[h,\mathfrak{n}] =\mathfrak{n}$. We have $[x, h'-h] = 0$ and $[x, y-y'] =h'-h$, so $h'-h\in \mathfrak{n}$. By Lemmas 2 and 3, there exists $z\in \mathfrak{n}$ such that $e^{ad_{\mathfrak{g}}z}h=h'$. Since $z\in$ Ker ad$_{\mathfrak{g}}x$, we have $e^{ad_{\mathfrak{g}}z}x=x$. Lemma 1 now proves that $e^{ad_{\mathfrak{g}}z}y=y'$. Q.E.D.
+Let $\mathfrak{n}=$ Ker(ad $x$)$\cap$ Im(ad $x$). For all $p\in \mathbf{Z}$, let $\mathfrak{g}_p=$ Ker(ad $h-p$). By §1, no. 3 (applied to the adjoint representation of $kx+ky+kh$ on $\mathfrak{g}$), we have that $\mathfrak{n}\subset \sum_{p>0}\mathfrak{g}_p$, so ad$_{\mathfrak{g}}n$ is nilpotent for all $n\in \mathfrak{n}$, and $[h,\mathfrak{n}] =\mathfrak{n}$. We have $[x, h'-h] = 0$ and $[x, y-y'] =h'-h$, so $h'-h\in \mathfrak{n}$. By Lemmas 2 and 3, there exists $z\in \mathfrak{n}$ such that $e^{ad_{\mathfrak{g}}z}h=h'$. Since $z\in$ Ker ad$_{\mathfrak{g}}x$, we have $e^{ad_{\mathfrak{g}}z}x=x$. Lemma 1 now proves that $e^{ad_{\mathfrak{g}}z}y=y'$. Q.E.D.
 
 Let G be a group of automorphisms of $\mathfrak{g}$. Then two $\mathfrak{s}\mathfrak{l}_2$-triplets $(x, h, y)$, $(x', h', y')$ are said to be G-conjugate if there exists $g\in G$ such that $gx=x'$, $gh=h', gy=y'$.
 
@@ -134,7 +134,7 @@ Put $C = [A,B]$. Since $[A,C] = 0$,
 
 $[A$, BC$^p] = [A,B]C^p= C^{p+1}$
 
-for every integer $p\geq 0$. Consequently, Tr(C$^p) = 0$ for $p\geq 1$, which proves that C is nilpotent (Algebra, Chap. VII, §3, no. 5, Cor. 4 of Prop. 13). Now let $\overline{k}$ be an algebraic closure of $k$, and let $\lambda \in \overline{k},x\in V\otimes_k\overline{k}$ be such that AB$x=\lambda x$, $x\not= 0$. The relation $[[B,A],A] = 0$ shows that $[B,A^p] =p[B,A]A^{p-1}$ for every integer $p\geq 0$. Let $r$ be the smallest integer such that $A^rx= 0$. Then
+for every integer $p\geq 0$. Consequently, Tr(C$^p$) $= 0$ for $p\geq 1$, which proves that C is nilpotent (Algebra, Chap. VII, §3, no. 5, Cor. 4 of Prop. 13). Now let $\overline{k}$ be an algebraic closure of $k$, and let $\lambda \in \overline{k},x\in V\otimes_k\overline{k}$ be such that AB$x=\lambda x$, $x\not= 0$. The relation $[[B,A],A] = 0$ shows that $[B,A^p] =p[B,A]A^{p-1}$ for every integer $p\geq 0$. Let $r$ be the smallest integer such that $A^rx= 0$. Then
 
 $\lambda A^{r-1}x= A^{r-1}$AB$x= A^rBx=$ BA$^rx-[B,A^r]x=-r[B,A]A^{r-1}x$.
 
@@ -142,19 +142,19 @@ Since $[B,A]$ is nilpotent and since $A^{r-1}x\not= 0$, this proves that $\lambd
 
 #### Lemma 6 {#lie-viii-s11-lem-6 .statement tag=0178}
 
-Let $h, x\in \mathfrak{g}$ be such that $[h, x] = 2x$ and $h\in$ (ad $x)(\mathfrak{g})$. Then there exists $y\in \mathfrak{g}$ such that $(x, h, y)$ is either $(0,0,0)$ or an $\mathfrak{s}\mathfrak{l}_2$-triplet.
+Let $h, x\in \mathfrak{g}$ be such that $[h, x] = 2x$ and $h\in$ (ad $x$)$(\mathfrak{g})$. Then there exists $y\in \mathfrak{g}$ such that $(x, h, y)$ is either $(0,0,0)$ or an $\mathfrak{s}\mathfrak{l}_2$-triplet.
 
-Let $\mathfrak{g}'$ be the solvable Lie algebra $kh+kx$. Since $x\in [\mathfrak{g}',\mathfrak{g}']$, ad$_{\mathfrak{g}}x$ is nilpotent (Chap. I, §5, no. 3, Th. 1); let $\mathfrak{n}$ be its kernel. Since [ad $h$, ad $x] =$ 2 ad $x$, we have (ad $h)\mathfrak{n}\subset \mathfrak{n}$. Let $z\in \mathfrak{g}$ be such that $h=-[x, z]$. For any integer $n\geq 0$, put $M_n=$ (ad $x)^n\mathfrak{g}$. If $n >0$, we have (§1, no. 1, Lemma 1)
+Let $\mathfrak{g}'$ be the solvable Lie algebra $kh+kx$. Since $x\in [\mathfrak{g}',\mathfrak{g}']$, ad$_{\mathfrak{g}}x$ is nilpotent (Chap. I, §5, no. 3, Th. 1); let $\mathfrak{n}$ be its kernel. Since [ad $h$, ad $x] =$ 2 ad $x$, we have (ad $h$)$\mathfrak{n}\subset \mathfrak{n}$. Let $z\in \mathfrak{g}$ be such that $h=-[x, z]$. For any integer $n\geq 0$, put $M_n=$ (ad $x$)$^n\mathfrak{g}$. If $n >0$, we have (§1, no. 1, Lemma 1)
 
-[ad $z$,(ad $x)^n] =n$((ad $h)-n+$ 1)(ad $x)^{n-1}$
+[ad $z$,(ad $x$)$^n] =n$((ad $h$)$-n+$ 1)(ad $x$)$^{n-1}$
 
 so, if $u\in M_{n-1}$,
 
-$n$((ad $h)-n+ 1)u\in$ (ad $z$)(ad $x)u+ M_n$.
+$n$((ad $h$)$-n+ 1$)$u\in$ (ad $z$)(ad $x$)$u+ M_n$.
 
-Since (ad $h)\mathfrak{n}\subset \mathfrak{n}$, it follows that
+Since (ad $h$)$\mathfrak{n}\subset \mathfrak{n}$, it follows that
 
-((ad $h)-n+ 1)(\mathfrak{n}\cap M_{n-1})\subset \mathfrak{n}\cap M_n$.
+((ad $h$)$-n+ 1$)$(\mathfrak{n}\cap M_{n-1})\subset \mathfrak{n}\cap M_n$.
 
 Since ad $x$ is nilpotent, $M_n= 0$ for sufficiently large $n$. Consequently, the eigenvalues of ad $h|\mathfrak{n}$ are integers $\geq 0$. Thus, the restriction of ad $h+ 2$ to $\mathfrak{n}$ is invertible.
 
@@ -174,17 +174,17 @@ Hence there exists $z'\in \mathfrak{n}$ such that $[h, z'] + 2z'= [h, z] + 2z$, 
 
 Assume that $\mathfrak{g}$ is semi-simple. Let $x$ be a non-zero nilpotent element of $\mathfrak{g}$. There exist $h, y\in \mathfrak{g}$ such that $(x, h, y)$ is an $\mathfrak{s}\mathfrak{l}_2$-triplet.
 
-Let $\mathfrak{n}=$ Ker(ad $x)^2$. If $z\in \mathfrak{n}$, then [ad $x$,[ad $x$, ad $z]] =$ ad([$x,[x, z]]) = 0$. By Lemma 5, ad $x\circ$ ad $z$ is nilpotent, so Tr(ad $x\circ$ ad $z) = 0$. This shows that $x$ is orthogonal to $\mathfrak{n}$ with respect to the Killing form $\Phi$ of $\mathfrak{g}$. Since
+Let $\mathfrak{n}=$ Ker(ad $x$)$^2$. If $z\in \mathfrak{n}$, then [ad $x$,[ad $x$, ad $z]] =$ ad([$x,[x, z]]$) $= 0$. By Lemma 5, ad $x\circ$ ad $z$ is nilpotent, so Tr(ad $x\circ$ ad $z$) $= 0$. This shows that $x$ is orthogonal to $\mathfrak{n}$ with respect to the Killing form $\Phi$ of $\mathfrak{g}$. Since
 
-$\Phi$((ad $x)^2y, y') =\Phi (y$, (ad $x)^2y')$
+$\Phi$((ad $x$)$^2y, y'$) $=\Phi (y$, (ad $x$)$^2y')$
 
-for all $y, y'\in \mathfrak{g}$, and since $\Phi$ is non-degenerate, the orthogonal complement of $\mathfrak{n}$ is the image of (ad $x)^2$. Hence there exists $y'\in \mathfrak{g}$ such that $x=$ (ad $x)^2y'$. Put
+for all $y, y'\in \mathfrak{g}$, and since $\Phi$ is non-degenerate, the orthogonal complement of $\mathfrak{n}$ is the image of (ad $x$)$^2$. Hence there exists $y'\in \mathfrak{g}$ such that $x=$ (ad $x$)$^2y'$. Put
 
 $$
 h=-2[x, y']
 $$
 
-we have $[h, x] = 2x$ and $h\in$ (ad $x)(\mathfrak{g})$. It now suffices to apply Lemma 6.
+we have $[h, x] = 2x$ and $h\in$ (ad $x$)$(\mathfrak{g})$. It now suffices to apply Lemma 6.
 
 #### Corollary {#lie-viii-s11-n2-cor-1 .statement tag=017A}
 
@@ -224,7 +224,7 @@ But there exists $\alpha '_0\in K^*$ such that $\alpha '_0\not= 1$ and $\alpha '
 
 Assume that $\mathfrak{g}$ is semi-simple. The group Aut$_e(\mathfrak{g})$ is equal to its derived group. If $\mathfrak{g}$ is splittable, Aut$_e(\mathfrak{g})$ is the derived group of Aut$_0(\mathfrak{g})$.
 
-Let $x$ be a non-zero nilpotent element of $\mathfrak{g}$. Choose $h, y\in \mathfrak{g}$ be such that $(x, h, y)$ is an $\mathfrak{s}\mathfrak{l}_2$-triplet (Prop. 2). The subalgebra $\mathfrak{s}$ of $\mathfrak{g}$ generated by $(x, h, y)$ can be identified with $\mathfrak{s}\mathfrak{l}(2, k)$. Let $\rho$ be the representation $z \rightarrow$ ad$_{\mathfrak{g}}z$ of $\mathfrak{s}=\mathfrak{s}\mathfrak{l}(2, k)$ on $\mathfrak{g}$, and let $\pi$ be the representation of $\mathbf{S}\mathbf{L}(2, k)$ compatible with $\rho ($§1, no. 4). The image of $\pi$ is generated by the exp($t$ ad$_{\mathfrak{g}}x)$ and the exp($t$ ad$_{\mathfrak{g}}y)$ with $t\in k($Algebra, Chap. III, §8, no. 9, Prop. 17), hence is contained in Aut$_e(\mathfrak{g})$. Since $\mathbf{S}\mathbf{L}(2, k)$ is equal to its derived group (Lemma 7 and loc. cit.), exp(ad$_{\mathfrak{g}}x)$ belongs to the derived group G of Aut$_e(\mathfrak{g})$. Hence Aut$_e(\mathfrak{g})$ is equal to G. Assume now that $\mathfrak{g}$ is splittable. Since Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$ is commutative (§5, no. 3, Remark 3), the preceding proves that the derived group of Aut$_0(\mathfrak{g})$ is Aut$_e(\mathfrak{g})$.
+Let $x$ be a non-zero nilpotent element of $\mathfrak{g}$. Choose $h, y\in \mathfrak{g}$ be such that $(x, h, y)$ is an $\mathfrak{s}\mathfrak{l}_2$-triplet (Prop. 2). The subalgebra $\mathfrak{s}$ of $\mathfrak{g}$ generated by $(x, h, y)$ can be identified with $\mathfrak{s}\mathfrak{l}(2, k)$. Let $\rho$ be the representation $z \rightarrow$ ad$_{\mathfrak{g}}z$ of $\mathfrak{s}=\mathfrak{s}\mathfrak{l}(2, k)$ on $\mathfrak{g}$, and let $\pi$ be the representation of $\mathbf{S}\mathbf{L}(2, k)$ compatible with $\rho ($§1, no. 4). The image of $\pi$ is generated by the exp($t$ ad$_{\mathfrak{g}}x$) and the exp($t$ ad$_{\mathfrak{g}}y$) with $t\in k($Algebra, Chap. III, §8, no. 9, Prop. 17), hence is contained in Aut$_e(\mathfrak{g})$. Since $\mathbf{S}\mathbf{L}(2, k)$ is equal to its derived group (Lemma 7 and loc. cit.), exp(ad$_{\mathfrak{g}}x$) belongs to the derived group G of Aut$_e(\mathfrak{g})$. Hence Aut$_e(\mathfrak{g})$ is equal to G. Assume now that $\mathfrak{g}$ is splittable. Since Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$ is commutative (§5, no. 3, Remark 3), the preceding proves that the derived group of Aut$_0(\mathfrak{g})$ is Aut$_e(\mathfrak{g})$.
 
 ### 3. SIMPLE ELEMENTS
 
@@ -236,7 +236,7 @@ We also say that $h$ is the simple element of the $\mathfrak{s}\mathfrak{l}_2$-t
 
 #### Proposition 4 {#lie-viii-s11-prop-4 .statement tag=017E}
 
-Let $h$ be a non-zero element of $\mathfrak{g}$. Then $h$ is simple if and only if there exists $x\in \mathfrak{g}$ such that $[h, x] = 2x$ and $h\in$ (ad $x)(\mathfrak{g})$.
+Let $h$ be a non-zero element of $\mathfrak{g}$. Then $h$ is simple if and only if there exists $x\in \mathfrak{g}$ such that $[h, x] = 2x$ and $h\in$ (ad $x$)$(\mathfrak{g})$.
 
 The condition is clearly necessary. It is sufficient by Lemma 6.
 
@@ -256,7 +256,7 @@ Indeed, every semi-simple element of $\mathfrak{g}$ is conjugate under Aut$_e(\m
 
 #### Lemma 8 {#lie-viii-s11-lem-8 .statement tag=017H}
 
-Assume that $k$ is algebraically closed and that $\mathfrak{g}$ is semi-simple. Let $h$ be a semi-simple element of $\mathfrak{g}$ such that the eigenvalues of ad $h$ are rational. Let $\mathfrak{g}^0=$ Ker(ad $h),\mathfrak{g}^2=$ Ker(ad $h-2)$. Let $G_h$ be the set of elementary automorphisms of $\mathfrak{g}$ leaving $h$ fixed. Let $x\in \mathfrak{g}^2$ be such that $[x,\mathfrak{g}^0] =\mathfrak{g}^2$. Then $G_hx$ contains a subset of $\mathfrak{g}^2$ that is dense and open in the Zariski topology.
+Assume that $k$ is algebraically closed and that $\mathfrak{g}$ is semi-simple. Let $h$ be a semi-simple element of $\mathfrak{g}$ such that the eigenvalues of ad $h$ are rational. Let $\mathfrak{g}^0=$ Ker(ad $h$)$,\mathfrak{g}^2=$ Ker(ad $h-2$). Let $G_h$ be the set of elementary automorphisms of $\mathfrak{g}$ leaving $h$ fixed. Let $x\in \mathfrak{g}^2$ be such that $[x,\mathfrak{g}^0] =\mathfrak{g}^2$. Then $G_hx$ contains a subset of $\mathfrak{g}^2$ that is dense and open in the Zariski topology.
 
 Let $\mathfrak{h}$ be a Cartan subalgebra of $\mathfrak{g}^0$. This is a Cartan subalgebra of $\mathfrak{g}$ containing $h$ (Chap. VII, §2, no. 3, Prop. 10). We have $h\in \mathfrak{h}_{\mathbf{Q}}$. Let R be the root system of $(\mathfrak{g},\mathfrak{h}), Q$ the group of radical weights. There exists a basis B of R such that $\alpha (h)\geq 0$ for all $\alpha \in B$.
 
@@ -272,7 +272,7 @@ $$
 2 =\gamma (h) =\gamma (\sum_{\alpha\in B}\alpha (h)H'_{\alpha})=\sum_{\alpha\in B}\alpha (h)\gamma (H'_{\alpha})
 $$
 
-since $\alpha (h)\geq 0$ for all $\alpha \in B$, and since the $\gamma (H'_{\alpha})$ are integers either all $\geq 0$ or all $\leq 0$, we have $\gamma (H'_{\alpha})\in \mathbf{N}$ for all $\alpha \in B$. Thus, we can consider (for $z\in \mathfrak{h})$ the endomorphism $\psi (z)$ of the vector space $\mathfrak{g}^2$ that induces on $\mathfrak{g}^{\gamma}\cap \mathfrak{g}^2$ the homothety with ratio $\prod_{\alpha\in B}\alpha (z)^{\gamma(H'_{\alpha})}$. The map $z \rightarrow \psi (z)$ from $\mathfrak{h}$ to End($\mathfrak{g}^2$) is polynomial. For $z\in U$, we have $\psi (z) =\varphi (z)|\mathfrak{g}^2$.
+since $\alpha (h)\geq 0$ for all $\alpha \in B$, and since the $\gamma (H'_{\alpha})$ are integers either all $\geq 0$ or all $\leq 0$, we have $\gamma (H'_{\alpha})\in \mathbf{N}$ for all $\alpha \in B$. Thus, we can consider (for $z\in \mathfrak{h}$) the endomorphism $\psi (z)$ of the vector space $\mathfrak{g}^2$ that induces on $\mathfrak{g}^{\gamma}\cap \mathfrak{g}^2$ the homothety with ratio $\prod_{\alpha\in B}\alpha (z)^{\gamma(H'_{\alpha})}$. The map $z \rightarrow \psi (z)$ from $\mathfrak{h}$ to End($\mathfrak{g}^2$) is polynomial. For $z\in U$, we have $\psi (z) =\varphi (z)|\mathfrak{g}^2$.
 
 Let $\gamma_1, . . . , \gamma_r$ be the distinct roots of $(\mathfrak{g},\mathfrak{h})$ vanishing on $h$. If $y_1\in \mathfrak{g}^{\gamma_1}, . . .$, $y_r\in \mathfrak{g}^{\gamma_r}$, we have $e^{ady_1}. . . e^{ady_r}\in G_h$. We can thus define a map $\rho$ from $\mathfrak{h}\times \mathfrak{g}^{\gamma_1}\times  \cdots  \times \mathfrak{g}^{\gamma_r}$ to $\mathfrak{g}^2$ by putting
 
@@ -344,15 +344,15 @@ Assume that $\mathfrak{g}$ is semi-simple. Let $(x, h, y)$ be an $\mathfrak{s}\m
 
 (iii) $(x, h, y)$ is principal.
 
-For $p\in \mathbf{Z}$, let $\mathfrak{g}^p=$ Ker(ad $h-p)$. Let $\mathfrak{g}'=\sum_{p\in\mathbf{Z}}\mathfrak{g}^{2p}$. If $\mathfrak{g}$ is considered as
+For $p\in \mathbf{Z}$, let $\mathfrak{g}^p=$ Ker(ad $h-p$). Let $\mathfrak{g}'=\sum_{p\in\mathbf{Z}}\mathfrak{g}^{2p}$. If $\mathfrak{g}$ is considered as
 
-a module over $\mathfrak{a}=kx+kh+ky,\mathfrak{g}'$ is the sum of the simple submodules of odd dimension (§1, no. 2, Cor. of Prop. 2). Let $l$ (resp. $l')$ be the length of $\mathfrak{g}$ (resp. $\mathfrak{g}')$ considered as an $\mathfrak{a}$-module. By §1, no. 2,
+a module over $\mathfrak{a}=kx+kh+ky,\mathfrak{g}'$ is the sum of the simple submodules of odd dimension (§1, no. 2, Cor. of Prop. 2). Let $l$ (resp. $l'$) be the length of $\mathfrak{g}$ (resp. $\mathfrak{g}'$) considered as an $\mathfrak{a}$-module. By §1, no. 2,
 
-dim(Ker ad $x) =l\geq l'=$ dim(Ker ad $h)\geq$ rk($\mathfrak{g}$).
+dim(Ker ad $x$) $=l\geq l'=$ dim(Ker ad $h$)$\geq$ rk($\mathfrak{g}$).
 
-The equivalence of (i) and (iii) follows immediately. On the other hand, condition (ii) means that dim(Ker ad $h) =$ rk($\mathfrak{g}$) and $\mathfrak{g}'=\mathfrak{g}$, in other words that
+The equivalence of (i) and (iii) follows immediately. On the other hand, condition (ii) means that dim(Ker ad $h$) $=$ rk($\mathfrak{g}$) and $\mathfrak{g}'=\mathfrak{g}$, in other words that
 
-dim(Ker ad $h) =$ rk($\mathfrak{g}$) and $l=l'$. The equivalence of (ii) and the other conditions follows.
+dim(Ker ad $h$) $=$ rk($\mathfrak{g}$) and $l=l'$. The equivalence of (ii) and the other conditions follows.
 
 #### Proposition 8 {#lie-viii-s11-prop-8 .statement tag=017O}
 
@@ -394,7 +394,7 @@ Let $x, x'$ be principal nilpotent elements. There exist $\mathfrak{s}\mathfrak{
 
 #### Lemma 9 {#lie-viii-s11-lem-9 .statement tag=017R}
 
-With the notations of Prop. 8, put $\mathfrak{g}^p=$ Ker(ad $h^0-p)$ for $p\in \mathbf{Z}$. Let $\mathfrak{g}^2_*$ be the set of elements of $\mathfrak{g}^2=\sum_{\alpha\in B}\mathfrak{g}^{\alpha}$ that have a non-zero component
+With the notations of Prop. 8, put $\mathfrak{g}^p=$ Ker(ad $h^0-p$) for $p\in \mathbf{Z}$. Let $\mathfrak{g}^2_*$ be the set of elements of $\mathfrak{g}^2=\sum_{\alpha\in B}\mathfrak{g}^{\alpha}$ that have a non-zero component
 
 in each $\mathfrak{g}^{\alpha}$. Let $R_+$ be the set of positive roots relative to B$,\mathfrak{n}_+=\sum_{\alpha\in R_+}\mathfrak{g}^{\alpha}$, and $x\in \mathfrak{g}^2_*$. Then $e^{ad\mathfrak{n}_+}.x=x+ [\mathfrak{n}_+,\mathfrak{n}_+]$.
 
@@ -416,11 +416,11 @@ So $v+x\in e^{ad(z+z')}.x+\mathfrak{n}^{(p+1)}$, and our assertion is establishe
 
 Assume that $\mathfrak{g}$ is semi-simple. Let $\mathfrak{h}$ be a splitting Cartan subalgebra of $\mathfrak{g}$, R the root system of $(\mathfrak{g},\mathfrak{h})$, B a basis of R, $R_+$ the set of positive roots relative to B, and $\mathfrak{n}_+=\sum_{\alpha\in R_+}\mathfrak{g}^{\alpha}$. The principal nilpotent elements belonging to $\mathfrak{n}_+$ are the elements of $\mathfrak{n}_+$ having a non-zero component in $\mathfrak{g}^{\alpha}$ for all $\alpha \in B$.
 
-Prop. 8 and Lemma 9 prove that such elements are principal nilpotent. We prove the converse. Evidently we can assume that $\mathfrak{g}$ is simple. Let $h^0$ and $\mathfrak{g}^p$ be as in Prop. 8 and Lemma 9. Let $\omega$ be the highest root, and put $\omega (h^0) = 2q$; we have $q=h-1$, where $h$ is the Coxeter number of R, cf. Chap. VI, §1, no. 11, Prop. 31. Then $\mathfrak{g}^{2q}=\mathfrak{g}^{\omega},\mathfrak{g}^{-2q}=\mathfrak{g}^{-\omega}$, and $\mathfrak{g}^{2k}= 0$ for $|k|> q$. There exists a principal $\mathfrak{s}\mathfrak{l}_2$-triplet $(x^0, h^0, y^0)$. By §1, no. 2, Cor. of Prop. 2, (ad $x^0)^{2q}(\mathfrak{g}^{-\omega}) =\mathfrak{g}^{\omega}$, so (ad $x^0)^{2q}\not= 0$. Let $x$ be a principal nilpotent element of $\mathfrak{g}$ belonging to $\mathfrak{n}_+$. If $\overline{k}$ is an algebraic closure of $k,x\otimes 1$ and $x^0\otimes 1$ are conjugate under an automorphism of $\mathfrak{g}\otimes_k\overline{k}$ (Prop. 9), so (ad $x)^{2q}\not= 0$. There exists $\lambda \in R$ such that (ad $x)^{2q}\mathfrak{g}^{\lambda}\not= 0$. Put $x=\sum_{n\geq 1}x_n$, where $x_n\in \mathfrak{g}^{2n}$.
+Prop. 8 and Lemma 9 prove that such elements are principal nilpotent. We prove the converse. Evidently we can assume that $\mathfrak{g}$ is simple. Let $h^0$ and $\mathfrak{g}^p$ be as in Prop. 8 and Lemma 9. Let $\omega$ be the highest root, and put $\omega (h^0) = 2q$; we have $q=h-1$, where $h$ is the Coxeter number of R, cf. Chap. VI, §1, no. 11, Prop. 31. Then $\mathfrak{g}^{2q}=\mathfrak{g}^{\omega},\mathfrak{g}^{-2q}=\mathfrak{g}^{-\omega}$, and $\mathfrak{g}^{2k}= 0$ for $|k|> q$. There exists a principal $\mathfrak{s}\mathfrak{l}_2$-triplet $(x^0, h^0, y^0)$. By §1, no. 2, Cor. of Prop. 2, (ad $x^0$)$^{2q}(\mathfrak{g}^{-\omega}) =\mathfrak{g}^{\omega}$, so (ad $x^0$)$^{2q}\not= 0$. Let $x$ be a principal nilpotent element of $\mathfrak{g}$ belonging to $\mathfrak{n}_+$. If $\overline{k}$ is an algebraic closure of $k,x\otimes 1$ and $x^0\otimes 1$ are conjugate under an automorphism of $\mathfrak{g}\otimes_k\overline{k}$ (Prop. 9), so (ad $x$)$^{2q}\not= 0$. There exists $\lambda \in R$ such that (ad $x$)$^{2q}\mathfrak{g}^{\lambda}\not= 0$. Put $x=\sum_{n\geq 1}x_n$, where $x_n\in \mathfrak{g}^{2n}$.
 
 Then
 
-(ad $x)^{2q}\mathfrak{g}^{\lambda}\subset$ (ad $x_1)^{2q}\mathfrak{g}^{\lambda}+\sum_{k>4q+\lambda(h^0)}\mathfrak{g}^k=$ (ad $x_1)^{2q}\mathfrak{g}^{\lambda}$, since $4q+\lambda (h^0)\geq 4q-2q= 2q$. Now (ad $x_1)^{2q}\mathfrak{g}^{\lambda}\subset \mathfrak{g}^{4q+\lambda(h^0)}$, where $\lambda =-\omega$. Thus, (ad $x_1)^{2q}\mathfrak{g}^{-\omega}=\mathfrak{g}^{\omega}$. We have $\omega =\sum_{\alpha\in B}n_{\alpha}\alpha$ with $n_{\alpha}>0$ for all $\alpha \in$ B (Chap. VI, §1, no. 8, Remark). If there exists $\alpha_0\in B$ such that $x_1\in$
+(ad $x$)$^{2q}\mathfrak{g}^{\lambda}\subset$ (ad $x_1$)$^{2q}\mathfrak{g}^{\lambda}+\sum_{k>4q+\lambda(h^0)}\mathfrak{g}^k=$ (ad $x_1$)$^{2q}\mathfrak{g}^{\lambda}$, since $4q+\lambda (h^0)\geq 4q-2q= 2q$. Now (ad $x_1$)$^{2q}\mathfrak{g}^{\lambda}\subset \mathfrak{g}^{4q+\lambda(h^0)}$, where $\lambda =-\omega$. Thus, (ad $x_1$)$^{2q}\mathfrak{g}^{-\omega}=\mathfrak{g}^{\omega}$. We have $\omega =\sum_{\alpha\in B}n_{\alpha}\alpha$ with $n_{\alpha}>0$ for all $\alpha \in$ B (Chap. VI, §1, no. 8, Remark). If there exists $\alpha_0\in B$ such that $x_1\in$
 
 $\sum\mathfrak{g}^{\alpha}$, the relation
 
@@ -430,7 +430,7 @@ $$
 \omega  /\in  -\omega +\sum_{\alpha\in B,\alpha\not=\alpha_0}k\alpha
 $$
 
-implies that $\mathfrak{g}^{\omega}\subset /$ (ad $x_1)^p\mathfrak{g}^{-\omega}$ for all $p$; this is absurd, so the component of $x_1$ in $\mathfrak{g}^{\alpha}$ is non-zero for all $\alpha \in B$.
+implies that $\mathfrak{g}^{\omega}\subset /$ (ad $x_1$)$^p\mathfrak{g}^{-\omega}$ for all $p$; this is absurd, so the component of $x_1$ in $\mathfrak{g}^{\alpha}$ is non-zero for all $\alpha \in B$.
 
 ### Exercises {#lie-viii-s11-exercises}
 

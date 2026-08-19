@@ -38,9 +38,9 @@ subsections:
       pdf_page: 106
 statements: 37
 exercises: 19
-content_sha256: 57c6b63aa3246e1ce819c721896b87ec1525b2d3e0c475342703f59feb279d1a
+content_sha256: aa6afbd42d8e3d244a3f0dcef9e92f84d6659cffd6ec7d87de8ef3739ab253d3
 translated_from: content/en/alg/VIII/05_s5_commutation.md
-source_content_sha256: 3b4c9089cd46191f09d7e9d0e26444cd112b43560fcd2989819de7558a97409d
+source_content_sha256: 92146afa3071a759dfd60b0a1909d5b82cb570c6ed50a098e57fa1acd8ea9c00
 translation_model: nemotron-3-ultra-free, hy3-free, nemotron-3.5-lightning-free, gpt-5-6, laguna-s-2.1-free
 translation_run: translate-vi-63915f42
 glossary_version: 30
@@ -64,7 +64,7 @@ Nếu A-môđun M cân bằng, thì các vành $A_M$ và $A'_M$ có cùng tâm $
 
 Khi vành A giao hoán, đối giao hoán tử kép $A''_M$ của M là tâm của $A'_M=$ End$_A(M)$; việc M cân bằng có nghĩa là tâm của End$_A(M)$ bị thu hẹp thành các phép vị tự.
 
-Với mọi phần tử $a$ của A, ta gọi $\boldsymbol{\delta }_a$ là phép vị tự phải $x\mapsto xa$ từ A đến A và $\boldsymbol{\gamma }_a$ là phép vị tự trái $x\mapsto ax$ (I, §8, No. 1, p. 97). Ánh xạ $a\mapsto \boldsymbol{\delta }_a$ là một đẳng cấu vành từ $A^o$ đến hoán tập của A-môđun trái $A_s$ (xem II, §10, No. 7, p. 349, áp dụng cho $I =\{1\})$. Ánh xạ $a\mapsto \boldsymbol{\gamma }_a$ là một đẳng cấu vành từ A đến hoán tập của A-môđun phải $A_d$ (loc. cit.). Nếu ta đồng nhất A với hoán tập của $A_d$ qua ánh xạ này, thì môđun đối của $A_d$ được đồng nhất với $A_s$; do đó, A-môđun $A_d$ là cân bằng. Tương tự, A-môđun $A_s$ là cân bằng.
+Với mọi phần tử $a$ của A, ta gọi $\boldsymbol{\delta }_a$ là phép vị tự phải $x\mapsto xa$ từ A đến A và $\boldsymbol{\gamma }_a$ là phép vị tự trái $x\mapsto ax$ (I, §8, No. 1, p. 97). Ánh xạ $a\mapsto \boldsymbol{\delta }_a$ là một đẳng cấu vành từ $A^o$ đến hoán tập của A-môđun trái $A_s$ (xem II, §10, No. 7, p. 349, áp dụng cho $I =\{1\}$). Ánh xạ $a\mapsto \boldsymbol{\gamma }_a$ là một đẳng cấu vành từ A đến hoán tập của A-môđun phải $A_d$ (loc. cit.). Nếu ta đồng nhất A với hoán tập của $A_d$ qua ánh xạ này, thì môđun đối của $A_d$ được đồng nhất với $A_s$; do đó, A-môđun $A_d$ là cân bằng. Tương tự, A-môđun $A_s$ là cân bằng.
 
 Cho $n$ là một số nguyên $\geqslant 1$. Ta xem $A^n$ như một $\mathbf{M}_n$(A)-môđun trái (loc. cit.). Ánh xạ gửi $m\in \mathbf{M}_n(A)$ đến tự đồng cấu $x\mapsto mx$ của A-môđun $A^n_d$ là một đẳng cấu vành từ $\mathbf{M}_n(A)$ đến hoán tập của A-môđun phải $A^n_d$ (loc. cit.).
 
@@ -78,7 +78,7 @@ b) Ánh xạ $(u_i)\mapsto \bigoplus u_i$ từ $\prod$ End$_{\mathbf{Z}}(M_i)$ �
 
 Các đẳng cấu vành được định nghĩa trong Mệnh đề 1 được gọi là chính tắc. Tích $\prod(A_i)_{M_i}$ thường được đồng nhất với $A_M$, và $\prod(A_i)'_{M_i}$ với $A'_M$, v.v., thông qua các đẳng cấu này.
 
-Ánh xạ $\varphi : (u_i)\mapsto \prod u_i$ từ $\prod$ End$_{\mathbf{Z}}(M_i)$ đến End$_{\mathbf{Z}}(M)$ là đồng cấu nhúng đơn ánh. Bằng định nghĩa cấu trúc môđun A lên M, ta có $\varphi (\prod(A_i)_{M_i}) = A_M$. Cho $u\in A'_M$. Với mọi $i\in I$, ký hiệu $h_i$ là phần tử của A có tất cả các thành phần bằng 1 ngoại trừ thành phần theo chỉ số $i$, bằng 0. Nếu $x$ là phần tử của M có thành phần theo chỉ số $i$ bằng 0, thì ta có $x=h_ix$, và nên pr$_i(u(x)) =$ pr$_i(u(h_ix)) =$ pr$_i(h_iu(x)) = 0$. Do đó, tồn tại đồng cấu nhóm duy nhất $u_i: M_i\mapsto M_i$ sao cho pr$_i(u(y)) =u_i$(pr$_i(y))$ với mọi $y\in M$. Ta có $u=\prod u_i$. Vì ánh xạ $u$ là A-tuyến tính, nên ánh xạ $u_i$ là $A_i$-tuyến tính với mọi $i\in I$. Điều này chứng minh rằng ảnh của $\prod(A_i)'_{M_i}$ dưới $\varphi$ chứa $A'_M$; giới hạn ngược là hiển nhiên. Bằng cách áp dụng điều này vào môđun đối của M, ta suy ra rằng $\varphi$ dẫn đến đẳng cấu từ $A''_M$ đến $\prod_i(A_i)''_{M_i}$. Điều này chứng minh mệnh đề a).
+Ánh xạ $\varphi : (u_i)\mapsto \prod u_i$ từ $\prod$ End$_{\mathbf{Z}}(M_i)$ đến End$_{\mathbf{Z}}(M)$ là đồng cấu nhúng đơn ánh. Bằng định nghĩa cấu trúc môđun A lên M, ta có $\varphi (\prod(A_i)_{M_i}) = A_M$. Cho $u\in A'_M$. Với mọi $i\in I$, ký hiệu $h_i$ là phần tử của A có tất cả các thành phần bằng 1 ngoại trừ thành phần theo chỉ số $i$, bằng 0. Nếu $x$ là phần tử của M có thành phần theo chỉ số $i$ bằng 0, thì ta có $x=h_ix$, và nên pr$_i(u(x)) =$ pr$_i(u(h_ix)) =$ pr$_i(h_iu(x)) = 0$. Do đó, tồn tại đồng cấu nhóm duy nhất $u_i: M_i\mapsto M_i$ sao cho pr$_i(u(y)) =u_i$(pr$_i(y)$) với mọi $y\in M$. Ta có $u=\prod u_i$. Vì ánh xạ $u$ là A-tuyến tính, nên ánh xạ $u_i$ là $A_i$-tuyến tính với mọi $i\in I$. Điều này chứng minh rằng ảnh của $\prod(A_i)'_{M_i}$ dưới $\varphi$ chứa $A'_M$; giới hạn ngược là hiển nhiên. Bằng cách áp dụng điều này vào môđun đối của M, ta suy ra rằng $\varphi$ dẫn đến đẳng cấu từ $A''_M$ đến $\prod_i(A_i)''_{M_i}$. Điều này chứng minh mệnh đề a).
 
 Chứng minh của b) giống như chứng minh của a) với những thay đổi tương ứng.
 
@@ -186,7 +186,7 @@ Cho A là một vành giao hoán, M là một A-môđun hữu hạn sinh, và An
 
 (iii) Tồn tại một phần tử $a$ của $\mathfrak{a}$ sao cho $am=m$ với mọi $m\in M$.
 
-(i) $\Rightarrow$ (ii): Cho $(x_1, . . . , x_n)$ là một họ sinh của A-môđun M. Nếu $\mathfrak{a}M = M$, thì mỗi $x_i$ có thể được viết dưới dạng $\sum^n_{j=1}c_{ij}x_j$, trong đó các $c_{ij}$ thuộc $\mathfrak{a}$. Ký hiệu ma trận $(c_{ij})$ là C và ma trận cột có các phần tử $x_1, . . . , x_n$ là X. Ta có ($I_n-C$)X = 0. Gọi $d$ là định thức và V là ma trận phần bù đại số của ma trận $I_n-C$. Theo công thức (26) của III, §8, No. 6, p. 532, ta có $dX=^tV$($I_n-C$)X = 0, do đó $d\in$ Ann(M). Mặt khác, vì các $c_{ij}$ thuộc $\mathfrak{a}$, ta có $d\equiv$ 1(mod $\mathfrak{a})$ (III, §8, No. 5, p. 529, (18)), và do đó $1\in$ Ann(M) $+\mathfrak{a}$.
+(i) $\Rightarrow$ (ii): Cho $(x_1, . . . , x_n)$ là một họ sinh của A-môđun M. Nếu $\mathfrak{a}M = M$, thì mỗi $x_i$ có thể được viết dưới dạng $\sum^n_{j=1}c_{ij}x_j$, trong đó các $c_{ij}$ thuộc $\mathfrak{a}$. Ký hiệu ma trận $(c_{ij})$ là C và ma trận cột có các phần tử $x_1, . . . , x_n$ là X. Ta có ($I_n-C$)X = 0. Gọi $d$ là định thức và V là ma trận phần bù đại số của ma trận $I_n-C$. Theo công thức (26) của III, §8, No. 6, p. 532, ta có $dX=^tV$($I_n-C$)X = 0, do đó $d\in$ Ann(M). Mặt khác, vì các $c_{ij}$ thuộc $\mathfrak{a}$, ta có $d\equiv$ 1(mod $\mathfrak{a}$) (III, §8, No. 5, p. 529, (18)), và do đó $1\in$ Ann(M) $+\mathfrak{a}$.
 
 (ii) $\Rightarrow$ (iii): Giả sử (ii) đúng, tồn tại $a\in \mathfrak{a}$ và $b\in$ Ann(M) sao cho $a+b= 1$. Khi đó ta có $am=m$ với mọi $m\in M$.
 
@@ -290,7 +290,7 @@ Cho M là một A-môđun nửa đơn, và cho B là vành các tự đồng c�
 
 #### Nhận xét 1 {#alg-viii-s5-n4-rem-1 .statement tag=00R4}
 
-Mô tả chính tắc $\alpha_M$ của A-môđun M là một đẳng cấu của các môđun song trái $(A$, B)-song môđun. Theo hệ quả của Mệnh đề 9, VIII, p. 71, ánh xạ $f\mapsto ($Hom(1$_{S_{\lambda}}, f))_{\lambda\in\mathscr{S}_M}$ từ B vào $\prod_{\lambda\in\mathscr{S}_M}$ End$_{D_{\lambda}}(V_{\lambda})$ là một đẳng cấu vành.
+Mô tả chính tắc $\alpha_M$ của A-môđun M là một đẳng cấu của các môđun song trái $(A$, B)-song môđun. Theo hệ quả của Mệnh đề 9, VIII, p. 71, ánh xạ $f\mapsto ($Hom(1$_{S_{\lambda}}, f$))$_{\lambda\in\mathscr{S}_M}$ từ B vào $\prod_{\lambda\in\mathscr{S}_M}$ End$_{D_{\lambda}}(V_{\lambda})$ là một đẳng cấu vành.
 
 #### Mệnh đề 5 {#alg-viii-s5-prop-5 .statement tag=005X}
 
@@ -298,7 +298,7 @@ a) Môđun đối của M là nửa đơn.
 
 b) Với mọi $\lambda \in \mathscr{S}_M$, B-môđun $V_{\lambda}$ là đơn, và hoán tập của nó bằng $(D_{\lambda})_{V_{\lambda}}$.
 
-c) Ánh xạ $\lambda \mapsto$ cl(V$_{\lambda})$ là một song ánh từ hỗ trợ của A-môđun M đến hỗ trợ của môđun đối của nó.
+c) Ánh xạ $\lambda \mapsto$ cl(V$_{\lambda}$) là một song ánh từ hỗ trợ của A-môđun M đến hỗ trợ của môđun đối của nó.
 
 d) Với mọi $\lambda \in \mathscr{S}_M$, B-môđun con $M_{\lambda}$ là thành phần đẳng kiểu của kiểu $V_{\lambda}$ của B-môđun M, và bội số của $V_{\lambda}$ trong M bằng dim$_{D_{\lambda}}(S_{\lambda})$.
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 221
 statements: 26
 exercises: 17
-content_sha256: bbfcf3414ba6d6da444e30b137a119f735d0c535aa99978bd40a706e976de9e1
+content_sha256: dbe02cfaaf918d7f80c6609418c0992f43f3157c08b1a49ffaa311ab762ce457
 ---
 
 ## § 12. PRODUIT TENSORIEL DE MODULES SEMI-SIMPLES
@@ -82,11 +82,11 @@ Supposons le corps K algébriquement clos.
 
 a) Soit $M_1$ un $A_1$-module et $M_2$ un $A_2$-module tous deux simples (resp. semi-simples) et de dimension finie sur K. Alors $M_1\otimes M_2$ est un module simple (resp. semi-simple) sur l’anneau $A_1\otimes A_2$ et de dimension finie sur K.
 
-b) L’application de $\mathscr{S}_K(A_1)\times \mathscr{S}_K(A_2)$sur $\mathscr{S}_K(A_1\otimes A_2)$qui applique (cl(S$_1)$, cl(S$_2))$sur cl(S$_1\otimes S_2)$lorsque $S_1$ (resp. $S_2)$est un $A_1$-module (resp. $A_2$-module) simple de dimension finie sur K est bijective.
+b) L’application de $\mathscr{S}_K(A_1)\times \mathscr{S}_K(A_2)$sur $\mathscr{S}_K(A_1\otimes A_2)$qui applique (cl(S$_1$), cl(S$_2$))sur cl(S$_1\otimes S_2$)lorsque $S_1$ (resp. $S_2$)est un $A_1$-module (resp. $A_2$-module) simple de dimension finie sur K est bijective.
 
 Pour démontrer a), il suffit de considérer le cas où $M_1$ et $M_2$ sont simples. Soit $M'$ un sous-A-module de $M = M_1\otimes M_2$, c’est un sous-A$_1$-module de $M_1\otimes M_2$, stable par l’ensemble des endomorphismes de la forme $1_{M_1}\otimes u$, où $u$ parcourt l’ensemble des homothéties du $A_2$-module $M_2$. Comme le corps K est algébriquement clos, le lemme de Schur (VIII, p. 43, th. 1) entraîne que le commutant End$_{A_1}(M_1)$ de $M_1$ est égal à K. D’après le cor. 2 de VIII, p. 59, le sous-A-module $M'$ de $M_1\otimes M_2$ est de la forme $M_1\otimes M'_2$, où $M'_2$ est un sous-A$_2$-module de $M_2$. On a supposé que $M_2$ est simple ; on a donc $M'_2= 0$ ou $M'_2= M_2$, c’est-à-dire $M'= 0$ ou $M'= M$. Donc M est simple.
 
-Si S est un module simple sur $A_1\otimes A_2$, de dimension finie sur K, il résulte de la prop. 2 et de a) que S est isomorphe à un module de la forme $S_1\otimes S_2$, où $S_1$ (resp. $S_2)$ est un $A_1$-module (resp. $A_2$-module) simple. De plus, en tant que $A_i$-module, S est isotypique de type $S_i$, donc la classe de $S_i$ ne dépend que de celle de S. Cela prouve b).
+Si S est un module simple sur $A_1\otimes A_2$, de dimension finie sur K, il résulte de la prop. 2 et de a) que S est isomorphe à un module de la forme $S_1\otimes S_2$, où $S_1$ (resp. $S_2$) est un $A_1$-module (resp. $A_2$-module) simple. De plus, en tant que $A_i$-module, S est isotypique de type $S_i$, donc la classe de $S_i$ ne dépend que de celle de S. Cela prouve b).
 
 #### Remarque 1 {#alg-viii-s12-n1-rem-1 .statement tag=00E9}
 
@@ -114,7 +114,7 @@ induit alors un isomorphisme de K-espaces vectoriels
 
 $\varphi :$ Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)\longrightarrow$ Hom$_A(M,N)$.
 
-L’application $\lambda$ est injective (II, p. 110, prop. 16) et applique le sous-espace vectoriel Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)$ dans Hom$_A(M,N)$. Il suffit donc de prouver que toute application A-linéaire de M dans N appartient à l’image de Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)$ par $\lambda$. Soit $u: M\rightarrow N$ une application A-linéaire. Soit $x\in M_1$. Notons $u_x$ l’application $A_2$-linéaire $y\rightarrow u(x\otimes y)$ de $M_2$ dans $N_1\otimes N_2$. Posons P = Hom$_{A_2}(M_2,N_2)$. Notons $\nu$ l’homomorphisme canonique de $N_1\otimes P$ dans Hom$_{A_2}(M_2,N_1\otimes N_2)$ (II, p. 75). Cette application est injective, (II, p. 75, prop. 2, (i) appliquée au K-espace vectoriel $N_1)$. D’après l’hypothèse (ii), il existe un sous-espace vectoriel $V_x$ de $N_1$, de dimension finie sur K, tel que $u_x$ prenne ses valeurs dans $V_x\otimes N_2$. Il en résulte que $u_x$ est l’image par $\nu$ d’un unique élément $v_x$ de $N_1\otimes P$. L’application $\widetilde{u}:x\rightarrow v_x$ de $M_1$ dans $N_1\otimes P$ est $A_1$-linéaire. D’après l’hypothèse (i), le $A_1$-module $M_1$ est de type fini et un raisonnement analogue au précédent montre que $\widetilde{u}$ appartient à l’image de Hom$_{A_1}(M_1,N_1)\otimes P$ dans Hom$_{A_1}(M_1,N_1\otimes P)$, d’où le lemme 1.
+L’application $\lambda$ est injective (II, p. 110, prop. 16) et applique le sous-espace vectoriel Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)$ dans Hom$_A(M,N)$. Il suffit donc de prouver que toute application A-linéaire de M dans N appartient à l’image de Hom$_{A_1}(M_1,N_1)\otimes$ Hom$_{A_2}(M_2,N_2)$ par $\lambda$. Soit $u: M\rightarrow N$ une application A-linéaire. Soit $x\in M_1$. Notons $u_x$ l’application $A_2$-linéaire $y\rightarrow u(x\otimes y)$ de $M_2$ dans $N_1\otimes N_2$. Posons P = Hom$_{A_2}(M_2,N_2)$. Notons $\nu$ l’homomorphisme canonique de $N_1\otimes P$ dans Hom$_{A_2}(M_2,N_1\otimes N_2)$ (II, p. 75). Cette application est injective, (II, p. 75, prop. 2, (i) appliquée au K-espace vectoriel $N_1$). D’après l’hypothèse (ii), il existe un sous-espace vectoriel $V_x$ de $N_1$, de dimension finie sur K, tel que $u_x$ prenne ses valeurs dans $V_x\otimes N_2$. Il en résulte que $u_x$ est l’image par $\nu$ d’un unique élément $v_x$ de $N_1\otimes P$. L’application $\widetilde{u}:x\rightarrow v_x$ de $M_1$ dans $N_1\otimes P$ est $A_1$-linéaire. D’après l’hypothèse (i), le $A_1$-module $M_1$ est de type fini et un raisonnement analogue au précédent montre que $\widetilde{u}$ appartient à l’image de Hom$_{A_1}(M_1,N_1)\otimes P$ dans Hom$_{A_1}(M_1,N_1\otimes P)$, d’où le lemme 1.
 
 #### Théorème 2 {#alg-viii-s12-thm-2 .statement tag=00EB}
 

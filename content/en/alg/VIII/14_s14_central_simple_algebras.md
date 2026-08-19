@@ -46,7 +46,7 @@ subsections:
       pdf_page: 283
 statements: 36
 exercises: 19
-content_sha256: 71bd3e725cf0dd55080ebca27c90559e1f515b85cd70ece94a89b411766ca274
+content_sha256: 6b4399d77699c060fb6846778021967e62ae015f18624ee87348066955fdf6f2
 ---
 
 ## § 14. CENTRAL SIMPLE ALGEBRAS
@@ -157,11 +157,11 @@ for every $x$ in A and every $b$ in B. This relation is equivalent to $g(b) =af(
 
 Suppose that B is a semisimple ring that is a finitely generated module over its center Z. Let M and N be $(B,A)$-bimodules. Suppose that they have finite length (which is, in particular, the case when they are right A-modules of finite length). If M and N are isomorphic as $(Z,A)$-bimodules, then they are isomorphic as $(B,A)$-bimodules.
 
-A) First consider the case when B is the endomorphism ring of a vector space S of finite dimension $d$ over a commutative field L. We then have Z = L; we view S as a $(B$, Z)-bimodule. The ring B is simple, S is a simple B-module, and Z is the commutant of S; every B-module is isotypical of type S (VIII, p. 122, Proposition 2 a)). Let $(V, \alpha )$ (resp. $(W, \beta ))$ be a description of the B-module M (resp. N). The set V (resp. W) is endowed with a $(Z$, A)-bimodule structure such that $\alpha$ (resp. $\beta )$ is an isomorphism of $(B$, A)-bimodules (VIII, p. 64, Remark 2). As $(Z$, A)-bimodules, M is isomorphic to $V^d$ and N to $W^d$, and there exists an isomorphism from the set of $(Z$, A)-sub-bimodules of V, ordered by inclusion, to that of the $(B$, A)-sub-bimodules of M (loc. cit.). Hence V is a $(Z$, A)-bimodule of finite length, and so is W. Since the $(Z,A)$-bimodules $V^d$ and $W^d$ are isomorphic, the $(Z$, A)-bimodules V and W are isomorphic by Theorem 2, d) of VIII, p. 37 applied to the ring $Z\otimes_{\mathbf{Z}}A^o$. Finally, the $(B$, A)-bimodules M and N are isomorphic.
+A) First consider the case when B is the endomorphism ring of a vector space S of finite dimension $d$ over a commutative field L. We then have Z = L; we view S as a $(B$, Z)-bimodule. The ring B is simple, S is a simple B-module, and Z is the commutant of S; every B-module is isotypical of type S (VIII, p. 122, Proposition 2 a)). Let $(V, \alpha )$ (resp. $(W, \beta )$) be a description of the B-module M (resp. N). The set V (resp. W) is endowed with a $(Z$, A)-bimodule structure such that $\alpha$ (resp. $\beta$ ) is an isomorphism of $(B$, A)-bimodules (VIII, p. 64, Remark 2). As $(Z$, A)-bimodules, M is isomorphic to $V^d$ and N to $W^d$, and there exists an isomorphism from the set of $(Z$, A)-sub-bimodules of V, ordered by inclusion, to that of the $(B$, A)-sub-bimodules of M (loc. cit.). Hence V is a $(Z$, A)-bimodule of finite length, and so is W. Since the $(Z,A)$-bimodules $V^d$ and $W^d$ are isomorphic, the $(Z$, A)-bimodules V and W are isomorphic by Theorem 2, d) of VIII, p. 37 applied to the ring $Z\otimes_{\mathbf{Z}}A^o$. Finally, the $(B$, A)-bimodules M and N are isomorphic.
 
 B) Now consider the case when B is a simple ring that is finitely generated as a Z-module. Then Z is a field, and B is a central simple algebra of finite degree over the field Z. By Theorem 1 of VIII, p. 252, there exists an extension $Z'$ of Z of finite degree over Z such that the $Z'$-algebra $B'= B_{(Z')}$ is isomorphic to the endomorphism algebra of a finite-dimensional $Z'$-vector space. Set $M'= M_{(Z')}$ and $N'= N_{(Z')}$. Then $M'$ and $N'$ are $(B'$, A)-bimodules of finite length; viewed as $(Z'$, A)-bimodules, $M'$ and $N'$ are isomorphic. By the case treated in $A), M'$ and $N'$ are isomorphic as $(B'$, A)-bimodules and a fortiori as $(B$, A)-bimodules. Set $r= [Z': Z]$. The $(B$, A)-bimodule $M'= Z'\otimes_ZM$ is isomorphic to $M^r$, and, likewise, the $(B$, A)-bimodule $N'$ is isomorphic to $N^r$. Since M and N are $(B$, A)-bimodules of finite length, it follows from Theorem 2, d) of VIII, p. 37 that the $(B$, A)-bimodules M and N are isomorphic.
 
-C) Finally, consider the general case, when B is a semisimple ring that is finitely generated as a Z-module. Let $\mathscr{S}$ be the set of classes of simple B-modules; it is finite (VIII, p. 136, Proposition 1). For any $\lambda \in \mathscr{S}$, denote by $M_{\lambda}$ (resp. $N_{\lambda})$ the isotypical component of type $\lambda$ of the B-module M (resp. N); it is a $(B$, A)-sub-bimodule of M (resp. N) (Remark, VIII, p. 67). For $\lambda \in \mathscr{S}$, denote the annihilator of the B-module $\lambda$ by $\mathfrak{b}_{\lambda}$, and set $B_{\lambda}= B/\mathfrak{b}_{\lambda}$; let $Z_{\lambda}$ be the center of $B_{\lambda}$. For $\lambda \in \mathscr{S}$, the $(B_{\lambda}$, A)-bimodules $M_{\lambda}$ and $N_{\lambda}$ have finite length. We can then identify B with the product of the simple rings $B_{\lambda}$ and Z with the product of the $Z_{\lambda}$ (VIII, p. 141, Proposition 8). Moreover, we can identify M with $\prod_{\lambda\in\mathscr{S}}M_{\lambda}$ and N with $\prod_{\lambda\in\mathscr{S}}N_{\lambda}$. By assumption, M and N are isomorphic as $(Z$, A)-bimodules; it follows that for $\lambda \in \mathscr{S}, M_{\lambda}$ and $N_{\lambda}$ are isomorphic $(Z_{\lambda}$, A)-bimodules. By the case treated in B), the $(B_{\lambda}$, A)-bimodules $M_{\lambda}$ and $N_{\lambda}$ are isomorphic, and so the $(B$, A)-bimodules M and N are isomorphic.
+C) Finally, consider the general case, when B is a semisimple ring that is finitely generated as a Z-module. Let $\mathscr{S}$ be the set of classes of simple B-modules; it is finite (VIII, p. 136, Proposition 1). For any $\lambda \in \mathscr{S}$, denote by $M_{\lambda}$ (resp. $N_{\lambda}$) the isotypical component of type $\lambda$ of the B-module M (resp. N); it is a $(B$, A)-sub-bimodule of M (resp. N) (Remark, VIII, p. 67). For $\lambda \in \mathscr{S}$, denote the annihilator of the B-module $\lambda$ by $\mathfrak{b}_{\lambda}$, and set $B_{\lambda}= B/\mathfrak{b}_{\lambda}$; let $Z_{\lambda}$ be the center of $B_{\lambda}$. For $\lambda \in \mathscr{S}$, the $(B_{\lambda}$, A)-bimodules $M_{\lambda}$ and $N_{\lambda}$ have finite length. We can then identify B with the product of the simple rings $B_{\lambda}$ and Z with the product of the $Z_{\lambda}$ (VIII, p. 141, Proposition 8). Moreover, we can identify M with $\prod_{\lambda\in\mathscr{S}}M_{\lambda}$ and N with $\prod_{\lambda\in\mathscr{S}}N_{\lambda}$. By assumption, M and N are isomorphic as $(Z$, A)-bimodules; it follows that for $\lambda \in \mathscr{S}, M_{\lambda}$ and $N_{\lambda}$ are isomorphic $(Z_{\lambda}$, A)-bimodules. By the case treated in B), the $(B_{\lambda}$, A)-bimodules $M_{\lambda}$ and $N_{\lambda}$ are isomorphic, and so the $(B$, A)-bimodules M and N are isomorphic.
 
 #### Remark {#alg-viii-s14-n2-rem-1 .statement tag=00GP}
 
@@ -259,7 +259,7 @@ $$
 [A : B']_s= [B : K],[A : B]_s= [B': K],[A : K] = [B : K][B': K]
 $$
 
-(See VIII, p. 124, Definition 2 for the definition of the left degree $[A : B]_s.)$
+(See VIII, p. 124, Definition 2 for the definition of the left degree $[A : B]_s.$)
 
 The K-algebra $A^o$ is central simple, and the K-algebra B is semisimple and of finite degree. By Corollary 1 of VIII, p. 221, the algebra $C = B\otimes_KA^o$ is semisimple. Let M be the C-module with the same additive group as A and with external law given by the formula $(b\otimes a)a'=ba'a$ for $a, a'$ in A and $b$ in B. Let $u$ be an element of End$_{\mathbf{Z}}(A)$. Then $u$ belongs to the commutant $C'_M$ of the C-module M if and only if $u$ is right A-linear and left B-linear, in other words, if and only if $u$ belongs to the commutant of $B_M$ in the ring of homotheties of the A-module $A_s$. We consequently define an isomorphism $\gamma$ from $B'$ to $C'_M$ by the relation $\gamma (b')(x) =b'x$ for $b'$ in $B'$ and $x$ in M. Now, the ring C is semisimple, and the C-module M is generated by the element 1 of A. By Proposition 6 of VIII, p. 139, the ring $C'_M$ is semisimple, so the algebra $B'$ is semisimple.
 
@@ -291,7 +291,7 @@ b) Suppose that B is semisimple, and let $L = B\cap B'$. Then $B'$ is a semisimp
 
 Let us prove a). If B is central simple, then $B'$ is central simple by Theorem 5 of VIII, p. 259. Hence the K-algebra $B\otimes_KB'$ is simple (VIII, p. 222, Corollary 2), and the homomorphism $\theta : B\otimes_KB'\rightarrow A$ is injective. Now, by the equality of $[A : B']_s$ and [B : K] (Theorem 5), the left $B'$-modules $B\otimes_KB'$ and A are free of the same finite dimension; they are therefore $B'$-modules of the same finite length. By Corollary 2 of II, §1, No. 10, p. $213,\theta$ is bijective.
 
-Let us prove b). By Theorem 5, the algebra L is commutative, of finite degree over K, and semisimple. By loc. cit. applied to L, its commutant $L'$ in A is a semisimple algebra, and L is the commutant of $L'$ in A, so L is the center of $L'$. Since L is the center of the semisimple rings $L', B$, and $B'$, we can identify $L'$ with a finite product of simple rings $L'_i$ (for $i\in I)$, so that we have
+Let us prove b). By Theorem 5, the algebra L is commutative, of finite degree over K, and semisimple. By loc. cit. applied to L, its commutant $L'$ in A is a semisimple algebra, and L is the commutant of $L'$ in A, so L is the center of $L'$. Since L is the center of the semisimple rings $L', B$, and $B'$, we can identify $L'$ with a finite product of simple rings $L'_i$ (for $i\in I$), so that we have
 
 $$
 L =\prod_{i\in I}L_i,B =\prod_{i\in I}B_i,B'=\prod_{i\in I}B'_i
@@ -353,23 +353,23 @@ Finally, suppose that we have $[A : K] = [L : K]^2$, in other words, dim$_K(V) =
 
 B) Let us continue with the general case. By Theorem 1 of VIII, p. 252, there exists a separable extension $K'$ of K of finite degree such that the $K'$-algebra $A_{(K')}$ is isomorphic to an algebra End$_{K'}(V')$, where $V'$ is a vector space of nonzero finite dimension over $K'$. Then the $K'$-algebra $L_{(K')}$ is commutative and semisimple (VIII, p. 222, Corollary 2). By the first part of the proof, the following properties are equivalent:
 
-(i$')$ The algebra $L_{(K')}$ is a maximal commutative subalgebra of $A_{(K')}$.
+(i$'$) The algebra $L_{(K')}$ is a maximal commutative subalgebra of $A_{(K')}$.
 
-(ii$')$ The left $L_{(K')}$-module $A_{(K')}$ is free, of dimension $[L_{(K')}: K']$.
+(ii$'$) The left $L_{(K')}$-module $A_{(K')}$ is free, of dimension $[L_{(K')}: K']$.
 
-(iii$')$ We have $[A_{(K')}: K'] = [L_{(K')}: K']^2$.
+(iii$'$) We have $[A_{(K')}: K'] = [L_{(K')}: K']^2$.
 
 By Lemma 3, b), properties (i) and (i’) are equivalent.
 
-Set $n= [L : K]$; then $n= [L_{(K')}: K']$. Property (ii) means that the left L-modules A and $L^n$ are isomorphic; by Theorem 3 of VIII, p. 37, this is equivalent to the $L_{(K')}$-modules $A_{(K')}$ and $(L_{(K')})^n$ being isomorphic. The equivalence of (ii) and (ii$')$ follows.
+Set $n= [L : K]$; then $n= [L_{(K')}: K']$. Property (ii) means that the left L-modules A and $L^n$ are isomorphic; by Theorem 3 of VIII, p. 37, this is equivalent to the $L_{(K')}$-modules $A_{(K')}$ and $(L_{(K')})^n$ being isomorphic. The equivalence of (ii) and (ii$'$) follows.
 
-Finally, we have $[A : K] = [A_{(K')}: K']$ and $[L : K] = [L_{(K')}: K']$, which give the equivalence of properties (iii) and (iii$')$. We have thus proved the equivalence of properties (i), (ii), and (iii).
+Finally, we have $[A : K] = [A_{(K')}: K']$ and $[L : K] = [L_{(K')}: K']$, which give the equivalence of properties (iii) and (iii$'$). We have thus proved the equivalence of properties (i), (ii), and (iii).
 
 #### Corollary {#alg-viii-s14-n6-cor-1 .statement tag=00H3}
 
 Let A be a central simple algebra of finite degree over K, and let L be a semisimple commutative K-algebra such that [A : K] is equal to $[L : K]^2$. Let $f$ and $g$ be injective homomorphisms from L to A. There exists an inner automorphism $\theta$ of A such that $g=\theta \circ f$.
 
-Set $n= [L : K]$. Viewed as a left module over the subring $f$(L), A is free of dimension $n$; this follows from the equivalence of properties (ii) and (iii) of Proposition 3. Since $f$ is an isomorphism from L to $f$(L), the left L-module $A^f$ (whose law of action is given by $(x, a)\mapsto f(x)a)$ is free of dimension $n$. The same holds for $A^g$, which is therefore isomorphic to $A^f$. We conclude using the equivalence of properties (i) and (ii) of Proposition 1 (VIII, p. 257).
+Set $n= [L : K]$. Viewed as a left module over the subring $f$(L), A is free of dimension $n$; this follows from the equivalence of properties (ii) and (iii) of Proposition 3. Since $f$ is an isomorphism from L to $f$(L), the left L-module $A^f$ (whose law of action is given by $(x, a)\mapsto f(x)a$) is free of dimension $n$. The same holds for $A^g$, which is therefore isomorphic to $A^f$. We conclude using the equivalence of properties (i) and (ii) of Proposition 1 (VIII, p. 257).
 
 Suppose that A is a central simple algebra of finite degree over K. There can exist maximal commutative subalgebras L of A that are not semisimple and for which $[A : K]\not= [L : K]^2$ (VIII, p. 270, Exercise 5).
 

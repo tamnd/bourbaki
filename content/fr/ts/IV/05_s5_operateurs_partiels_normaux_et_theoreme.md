@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: 9fd85e2696dc2f2c5ac2a1d669eefa783232191206c2a25ed0a605e7d82e53b6
+content_sha256: d4846e16e7ba4b093b85f8576ddb2caea6ce390776d41916548e8538eb2d2add
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -108,7 +108,7 @@ $$
 =\langle y+u^*u(y)|y_1\rangle =\langle x|p_1(y_1, u(y_1))\rangle
 $$
 
-Cela signifie que $p^*_1(x) = (y, u(y))$, d’où $p_1\circ p^*_1(x) =y= W(u)(x)$. Par conséquent, on a $p_1\circ p^*_1= W(u)$, donc $|p^*_1|= W(u)^{1/2}$, c’est-à-dire la formule (1). En particulier, comme Im($p_1$) $=$ Im($|p^*_1|$) d’après le cor. de la prop. 11 de I, p. 140, il vient dom($u$) $=$ Im($p_1$) $=$ Im(W($u$)$^{1/2})$. L’opérateur partiel $u\circ W(u)^{1/2}$ a donc pour domaine l’espace E. La relation $p_1\circ j= (p^*_1)^*\circ j=|p^*_1|= W(u)^{1/2}$ (prop. 11, a) de I, p. 140) implique alors que
+Cela signifie que $p^*_1(x) = (y, u(y))$, d’où $p_1\circ p^*_1(x) =y= W(u)(x)$. Par conséquent, on a $p_1\circ p^*_1= W(u)$, donc $|p^*_1|= W(u)^{1/2}$, c’est-à-dire la formule (1). En particulier, comme Im($p_1$) $=$ Im($|p^*_1|$) d’après le cor. de la prop. 11 de I, p. 140, il vient dom($u$) $=$ Im($p_1$) $=$ Im(W($u$)$^{1/2}$). L’opérateur partiel $u\circ W(u)^{1/2}$ a donc pour domaine l’espace E. La relation $p_1\circ j= (p^*_1)^*\circ j=|p^*_1|= W(u)^{1/2}$ (prop. 11, a) de I, p. 140) implique alors que
 
 $$
 b(u) =p_2\circ j=u\circ p_1\circ j=u\circ W(u)^{1/2}
@@ -174,7 +174,7 @@ Notons que $1_E-v^*v$ est positif si et seulement si $\|v\|\leqslant 1$, puisque
 
 Le sous-ensemble Ω(E) est auto-adjoint dans $\mathscr{L}(E)$.
 
-Soit $v\in \Omega (E)$. On a $\|v^*\|=\|v\|\leqslant 1$ donc l’endomorphisme $1_E-vv^*$ est positif. Il est injectif : si $x\in$ Ker(1$_E-vv^*)$, on a $vv^*(x) =x$, d’où $v^*(v(v^*(x))) =v^*(x)$ puis $v^*(x) = 0$, puisque $1_E-v^*v$ est injectif, et enfin $x=v(v^*(x)) = 0$. Le lemme en résulte.
+Soit $v\in \Omega (E)$. On a $\|v^*\|=\|v\|\leqslant 1$ donc l’endomorphisme $1_E-vv^*$ est positif. Il est injectif : si $x\in$ Ker(1$_E-vv^*$), on a $vv^*(x) =x$, d’où $v^*(v(v^*(x))) =v^*(x)$ puis $v^*(x) = 0$, puisque $1_E-v^*v$ est injectif, et enfin $x=v(v^*(x)) = 0$. Le lemme en résulte.
 
 #### Proposition 2 {#ts-iv-s5-prop-2 .statement tag=035D}
 
@@ -304,7 +304,7 @@ $$
 z-\lambda (1- |z|^2)^{1/2}= 0
 $$
 
-Cette égalité, si elle est valide, implique que $z\in D$, et signifie que que $\lambda =\beta^{-1}(z)$. On conclut que Sp($u$) $=\beta^{-1}$(Sp($b(u)$)$\cap D)$, comme énoncé.
+Cette égalité, si elle est valide, implique que $z\in D$, et signifie que que $\lambda =\beta^{-1}(z)$. On conclut que Sp($u$) $=\beta^{-1}$(Sp($b(u)$)$\cap D$), comme énoncé.
 
 Soit $u$ un opérateur partiel normal sur E. Soit $f\in \mathscr{K}$ (Sp($u$)). L’application $z\mapsto f(\beta^{-1}(z))$ de Sp($b(u)$)$\cap D$ dans $\mathbf{C}$ est continue et à support compact ; l’unique application $f_{\beta}$ de Sp($b(u)$) dans $\mathbf{C}$ qui la prolonge par zéro est donc continue.
 
@@ -324,7 +324,7 @@ $$
 \|f(u)\|\leqslant \|f_{\beta}\|_{\infty}=\|f\|_{\infty}
 $$
 
-de sorte que, pour tous $x$ et $y$ dans E, on obtient la majoration $|\langle x|f(u)y\rangle |\leqslant \|x\| \|y\| \|f\|_{\infty}$. L’application $f\mapsto  \langle x|f(u)y\rangle$ est donc une mesure bornée sur Sp($u$), de masse totale $\leqslant \|x\|\|y\|$ (INT, IV, p. 154, § 4, n$^o7)$. Si $x=y$, c’est une mesure positive, puisque $f(u)$ est positif lorsque $f\geqslant 0$.
+de sorte que, pour tous $x$ et $y$ dans E, on obtient la majoration $|\langle x|f(u)y\rangle |\leqslant \|x\| \|y\| \|f\|_{\infty}$. L’application $f\mapsto  \langle x|f(u)y\rangle$ est donc une mesure bornée sur Sp($u$), de masse totale $\leqslant \|x\|\|y\|$ (INT, IV, p. 154, § 4, n$^o7$). Si $x=y$, c’est une mesure positive, puisque $f(u)$ est positif lorsque $f\geqslant 0$.
 
 #### Définition 4 {#ts-iv-s5-def-4 .statement tag=035L}
 
@@ -376,7 +376,7 @@ D’après la prop. 21 de IV, p. 223, l’espace de Sobolev $H^2(\mathbf{R}^n)$ 
 
 Dans ce numéro les espaces hilbertiens considérés sont complexes.
 
-Soit $u$ un opérateur partiel normal sur un espace hilbertien E. On note $\mu_{x,y}$ (resp. $\mu_y)$ la mesure spectrale de $(x, y)\in E\times E$ (resp. de $y)$ relative à $u$.
+Soit $u$ un opérateur partiel normal sur un espace hilbertien E. On note $\mu_{x,y}$ (resp. $\mu_y$) la mesure spectrale de $(x, y)\in E\times E$ (resp. de $y$) relative à $u$.
 
 Soit $y\in E$. L’application $\mathscr{K}$ (Sp($u$))$\rightarrow E$ définie par $f\mapsto f(u)(y)$ vérifie
 
@@ -386,15 +386,15 @@ $$
 
 Sp($u$)
 
-Il existe donc une unique application linéaire isométrique ev$_y$ de l’espace $L^2$(Sp($u$)$, \mu_y)$ dans E telle que ev$_y(\widetilde{f}) =f(u)(y)$ si $\widetilde{f}$ est la classe d’une fonction $f\in \mathscr{K}$ (Sp($u$)).
+Il existe donc une unique application linéaire isométrique ev$_y$ de l’espace $L^2$(Sp($u$)$, \mu_y$) dans E telle que ev$_y(\widetilde{f}) =f(u)(y)$ si $\widetilde{f}$ est la classe d’une fonction $f\in \mathscr{K}$ (Sp($u$)).
 
-Soit $f$ une fonction universellement mesurable définie sur le spectre de $u$. On note $D_f$ l’ensemble des éléments $y\in E$ tels que $f$ appartient à $\mathscr{L}^2$(Sp($u$)$, \mu_y)$.
+Soit $f$ une fonction universellement mesurable définie sur le spectre de $u$. On note $D_f$ l’ensemble des éléments $y\in E$ tels que $f$ appartient à $\mathscr{L}^2$(Sp($u$)$, \mu_y$).
 
 #### Proposition 3 {#ts-iv-s5-prop-3 .statement tag=035Q}
 
 Soit $f$ une fonction universellement mesurable définie sur le spectre de $u$. L’ensemble $D_f$ est un sous-espace vectoriel dense de E. L’application $y\mapsto$ ev$_y(f)$ est un opérateur partiel normal sur E dont le domaine est $D_f$, et qui est noté $f(u)$.
 
-Pour tout $x\in E$ et tout $y\in D_f$, on a $f\in \mathscr{L}^1$(Sp($u$)$, \mu_{x,y})$ et
+Pour tout $x\in E$ et tout $y\in D_f$, on a $f\in \mathscr{L}^1$(Sp($u$)$, \mu_{x,y}$) et
 
 $$
 \langle x|f(u)y\rangle =\int f \mu_{x,y} \tag{6}
@@ -410,7 +410,7 @@ Soit $f$ une fonction universellement mesurable dans le spectre de $u$.
 
 a) L’ensemble $D_f$ est un sous-espace vectoriel dense de E. L’application $f(u) :y\mapsto$ ev$_y(f)$ de $D_f$ dans E est linéaire et coïncide avec $1_E$ si $f= 1$;
 
-b) Soit $g\in \mathscr{L}_u$(Sp($u$)). Pour tout $y\in D_f$ et tout $x\in D_g$, on a $f g\in \mathscr{L}^1$(Sp($u$)$, \mu_{x,y})$, et
+b) Soit $g\in \mathscr{L}_u$(Sp($u$)). Pour tout $y\in D_f$ et tout $x\in D_g$, on a $f g\in \mathscr{L}^1$(Sp($u$)$, \mu_{x,y}$), et
 
 $$
 \langle g(u)x|f(u)y\rangle =\int gf \mu_{x,y} \tag{7}
@@ -422,7 +422,7 @@ c) Supposons que $E = L^2(X, \mu)$ où X est un espace topologique localement co
 
 D’après le théorème 1 de IV, p. 266, on peut supposer être dans la situation de l’assertion c), c’est-à-dire que $E = L^2(X, \mu)$ et $u=m_h$, où X est un espace topologique localement compact, $\mu$ une mesure positive sur X et $h: X\rightarrow \mathbf{C}$ est $\mu$-mesurable. On notera $\widetilde{\varphi}$ la classe dans $L^2(X, \mu)$ d’une fonction $\varphi \in \mathscr{L}^2(X, \mu)$.
 
-Soit S = Sp($m_h$). On note $\mu_{\widetilde{\varphi}_1,\widetilde{\varphi}_2}$ (resp. $\mu_{\widetilde{\varphi}})$ la mesure spectrale de $(\widetilde{\varphi}_1,\widetilde{\varphi}_2)$ (resp. de $\widetilde{\varphi})$ relative à $m_h$ pour tout $(\varphi_1, \varphi_2)\in \mathscr{L}^2(X, \mu)^2$ (resp. tout $\varphi \in \mathscr{L}^2(X, \mu))$.
+Soit S = Sp($m_h$). On note $\mu_{\widetilde{\varphi}_1,\widetilde{\varphi}_2}$ (resp. $\mu_{\widetilde{\varphi}}$) la mesure spectrale de $(\widetilde{\varphi}_1,\widetilde{\varphi}_2)$ (resp. de $\widetilde{\varphi}$) relative à $m_h$ pour tout $(\varphi_1, \varphi_2)\in \mathscr{L}^2(X, \mu)^2$ (resp. tout $\varphi \in \mathscr{L}^2(X, \mu)$).
 
 Soit $\varphi \in \mathscr{L}^2(X, \mu)$. La mesure spectrale $\mu_{\widetilde{\varphi}}$ est égale à la mesure image $h(|\varphi |^2\cdot \mu)$ sur S (lemme 4 de IV, p. 269). Comme la fonction $f$ est $\mu_{\varphi}$-mesurable, on a $\varphi \in D_f$ si et seulement si les intégrales
 
@@ -504,7 +504,7 @@ e) la prop. 6, b) de IV, p. 232.
 
 #### Remarque {#ts-iv-s5-n3-rem-1 .statement tag=035U}
 
-Pour $f=$ Id$_{Sp(u)}$, on a $f(u) =u$ (assertion b) pour $k= 1)$. Le domaine de $u$ coïncide donc avec l’ensemble des $x\in E$ tels que la fonction identité de Sp($u$) appartient à $\mathscr{L}^2$(Sp($u$)$, \mu_x)$; il contient en particulier les éléments $x\in E$ tels que la mesure $\mu_x$ est à support compact.
+Pour $f=$ Id$_{Sp(u)}$, on a $f(u) =u$ (assertion b) pour $k= 1)$. Le domaine de $u$ coïncide donc avec l’ensemble des $x\in E$ tels que la fonction identité de Sp($u$) appartient à $\mathscr{L}^2$(Sp($u$)$, \mu_x$); il contient en particulier les éléments $x\in E$ tels que la mesure $\mu_x$ est à support compact.
 
 Le corollaire suivant généralise le cor. de la prop. 16 de IV, p. 247 et la prop. 17 de IV, p. 248.
 
@@ -534,7 +534,7 @@ Au vu du théorème spectral (th. 1 de IV, p. 266), on peut supposer que $u$ est
 
 Soit $g\in \mathscr{L}_u$(Sp($f(u)$)). On a $g(f(u)) = (g\circ f)(u)$.
 
-On a $g\circ f\in \mathscr{L}_u$(Sp($u$)) (lemme 5 de IV, p. 184). Pour tous $x$ et $y$ dans E, notons $\mu'_{x,y}$ la mesure spectrale de $(x, y)$ relative à $f(u)$. D’après le corollaire précédent et INT, V, p. 71, § 6, n$^o2$, th. 1, on a $g\in \mathscr{L}^2$(Sp($f(u)$)$, \mu'_{x,y})$ si et seulement si $g\circ f\in \mathscr{L}^2$(Sp($u$)$, \mu_{x,y})$, de sorte que le domaine de $g(f(u))$ est égal au domaine de $(g\circ f)(u)$. Pour tous $x\in E$ et $y\in$ dom($g(f(u))$), on a alors la formule
+On a $g\circ f\in \mathscr{L}_u$(Sp($u$)) (lemme 5 de IV, p. 184). Pour tous $x$ et $y$ dans E, notons $\mu'_{x,y}$ la mesure spectrale de $(x, y)$ relative à $f(u)$. D’après le corollaire précédent et INT, V, p. 71, § 6, n$^o2$, th. 1, on a $g\in \mathscr{L}^2$(Sp($f(u)$)$, \mu'_{x,y}$) si et seulement si $g\circ f\in \mathscr{L}^2$(Sp($u$)$, \mu_{x,y}$), de sorte que le domaine de $g(f(u))$ est égal au domaine de $(g\circ f)(u)$. Pour tous $x\in E$ et $y\in$ dom($g(f(u))$), on a alors la formule
 
 $$
 \langle x|g(f(u))y\rangle =\int g \mu'_{x,y}
@@ -600,13 +600,13 @@ $f(u)(y) =$ lim$_{n\rightarrow+\infty}f_n(u)(y)$.
 
 En particulier, si $f_n\in \mathscr{L}_u^{\infty}$(Sp($u$)) pour tout $n\in \mathbf{N}$ et si les fonctions $f_n$ sont uniformément bornées, alors $f_n(u)$ converge vers $f(u)$ dans l’espace $\mathscr{L}(E)$ muni de la topologie de la convergence simple.
 
-Notons $\mu_{x,y}$ (resp. $\mu_x)$ la mesure spectrale de $(x, y)$ (resp. de $x)$ relative à $u$.
+Notons $\mu_{x,y}$ (resp. $\mu_x$) la mesure spectrale de $(x, y)$ (resp. de $x$) relative à $u$.
 
-Soit $y\in$ dom($g(u)$), de sorte que $g\in \mathscr{L}^2$(Sp($u$)$, \mu_y)$. La condition $|f_n|\leqslant g$ implique que $f_n\in \mathscr{L}^2$(Sp($u$)$, \mu_y)$, donc $y\in$ dom($f_n(u)$).
+Soit $y\in$ dom($g(u)$), de sorte que $g\in \mathscr{L}^2$(Sp($u$)$, \mu_y$). La condition $|f_n|\leqslant g$ implique que $f_n\in \mathscr{L}^2$(Sp($u$)$, \mu_y$), donc $y\in$ dom($f_n(u)$).
 
-Comme $(f_n)$ converge simplement vers $f$ et que $|f_n|\leqslant g$, on a $f\in \mathscr{L}^2$(Sp($u$)$, \mu_y)$ d’après le théorème de Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6), donc $y\in$ dom($f(u)$). De plus, la suite $(f_n)$ converge vers $f$ dans $\mathscr{L}^2$(Sp($u$)$, \mu_y)$, donc la norme de $f_n(u)y$ converge vers la norme de $f(u)y$.
+Comme $(f_n)$ converge simplement vers $f$ et que $|f_n|\leqslant g$, on a $f\in \mathscr{L}^2$(Sp($u$)$, \mu_y$) d’après le théorème de Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6), donc $y\in$ dom($f(u)$). De plus, la suite $(f_n)$ converge vers $f$ dans $\mathscr{L}^2$(Sp($u$)$, \mu_y$), donc la norme de $f_n(u)y$ converge vers la norme de $f(u)y$.
 
-Soit $x\in E$. Les fonctions $f$ et $g$, ainsi que les fonctions $f_n$ pour tout $n\in \mathbf{N}$, appartiennent à $\mathscr{L}^1$(Sp($u$)$, \mu_{x,y})$ (prop. 3). D’après le théorème de Lebesgue (INT, IV, loc. cit.), la suite $(f_n)$ converge vers $f$ dans $\mathscr{L}^1$(Sp($u$)$, \mu_{x,y})$, d’où
+Soit $x\in E$. Les fonctions $f$ et $g$, ainsi que les fonctions $f_n$ pour tout $n\in \mathbf{N}$, appartiennent à $\mathscr{L}^1$(Sp($u$)$, \mu_{x,y}$) (prop. 3). D’après le théorème de Lebesgue (INT, IV, loc. cit.), la suite $(f_n)$ converge vers $f$ dans $\mathscr{L}^1$(Sp($u$)$, \mu_{x,y}$), d’où
 
 $$
 \langle x|f_n(u)y\rangle =\int f_n\mu_{x,y}\rightarrow \int f \mu_{x,y}=\langle x|f(u)y\rangle
@@ -708,7 +708,7 @@ Sp($u$)$\cap A$ Sp($u$)
 
 L’assertion b) résulte de a) et de la remarque de IV, p. 273.
 
-Démontrons c). Le domaine de $u$ est l’ensemble des $x\in E$ tels que la fonction identique de Sp($u$) appartient à $\mathscr{L}^2$(Sp($u$)$, \mu_x) ($loc. cit.). Comme $\mu_{p_A(x)}=\varphi_A\cdot \mu_x$ pour $x\in E$ (cor. de la prop. 5 de IV, p. 275), on a $p_A(x)\in$ dom($u$) si $x\in$ dom($u$).
+Démontrons c). Le domaine de $u$ est l’ensemble des $x\in E$ tels que la fonction identique de Sp($u$) appartient à $\mathscr{L}^2$(Sp($u$)$, \mu_x$) $($loc. cit.). Comme $\mu_{p_A(x)}=\varphi_A\cdot \mu_x$ pour $x\in E$ (cor. de la prop. 5 de IV, p. 275), on a $p_A(x)\in$ dom($u$) si $x\in$ dom($u$).
 
 Soit $x\in$ dom($u$) et $y=p_A(x)$; on a $y\in$ dom($u$)$\cap E_A$ d’après c). La mesure spectrale de $u(y)$ relative à $u$ est $|$Id$_{Sp(u)}|^2\cdot \mu_y($loc. cit.). Puisque $\mu_y$ est à support dans A, il en est de même de $\mu_{u(y)}$, donc $u(y)\in E_A$ d’après a).
 
@@ -716,9 +716,9 @@ Soit $x\in$ dom($u$) et $y=p_A(x)$; on a $y\in$ dom($u$)$\cap E_A$ d’après c)
 
 Soit $\lambda \in$ Sp($u$). L’image de $p_{\{\lambda\}}$ est le sous-espace propre de $u$ relatif à $\lambda$.
 
-Soit $x\in$ dom($u$). Notons $\mu$ (resp. $\nu )$ la mesure spectrale de l’élément $x$ relative à $u$ (resp. la mesure spectrale de $(x, u(x))$ relative à $u)$. On a $\nu =$ Id$_{Sp(u)}\cdot \mu$ (cor. de la prop. 5 de IV, p. 275). Si $u(x) =\lambda x$, on a également $\nu =\lambda \mu$, d’où l’égalité Id$_{Sp(u)}\cdot \mu=\lambda \mu$. Celle-ci implique que le support de $\mu$ est contenu dans $\{\lambda \}($cf. INT, V, p. 46, § 5, n$^o3$, cor. 2) et donc $x$ appartient à l’image de $p_{\{\lambda\}}$ (prop. 9, a)).
+Soit $x\in$ dom($u$). Notons $\mu$ (resp. $\nu$ ) la mesure spectrale de l’élément $x$ relative à $u$ (resp. la mesure spectrale de $(x, u(x))$ relative à $u$). On a $\nu =$ Id$_{Sp(u)}\cdot \mu$ (cor. de la prop. 5 de IV, p. 275). Si $u(x) =\lambda x$, on a également $\nu =\lambda \mu$, d’où l’égalité Id$_{Sp(u)}\cdot \mu=\lambda \mu$. Celle-ci implique que le support de $\mu$ est contenu dans $\{\lambda \}($cf. INT, V, p. 46, § 5, n$^o3$, cor. 2) et donc $x$ appartient à l’image de $p_{\{\lambda\}}$ (prop. 9, a)).
 
-Réciproquement, supposons que $x$ appartient à l’image $E_{\lambda}$ de $p_{\{\lambda\}}$. Alors $x$ appartient à dom($u$) et $u(x)$ appartient aussi à $E_{\lambda}($loc. cit., b)). Puisque $\varphi_{\{\lambda\}}\cdot$ (Id$_{Sp(u)}-\lambda ) = 0$, on a la relation $p_{\{\lambda\}}\circ (u-\lambda 1_E)\subset 0$ (prop. 5 de IV, p. 275, c)), d’où $0 =p_{\{\lambda\}}(u(x))-\lambda p_{\{\lambda\}}(x) =u(x)-\lambda x$.
+Réciproquement, supposons que $x$ appartient à l’image $E_{\lambda}$ de $p_{\{\lambda\}}$. Alors $x$ appartient à dom($u$) et $u(x)$ appartient aussi à $E_{\lambda}($loc. cit., b)). Puisque $\varphi_{\{\lambda\}}\cdot$ (Id$_{Sp(u)}-\lambda$ ) $= 0$, on a la relation $p_{\{\lambda\}}\circ (u-\lambda 1_E)\subset 0$ (prop. 5 de IV, p. 275, c)), d’où $0 =p_{\{\lambda\}}(u(x))-\lambda p_{\{\lambda\}}(x) =u(x)-\lambda x$.
 
 #### Proposition 10 {#ts-iv-s5-prop-10 .statement tag=0365}
 
@@ -756,7 +756,7 @@ Soient $\lambda_1, . . .,\lambda_n$ des éléments distincts du spectre de $u$ a
 
 Dans ce numéro, E désigne un espace hilbertien complexe. Nous allons obtenir une formule pour certains cas du calcul fonctionnel d’un opérateur partiel auto-adjoint qui s’exprime directement en fonction de la résolvante de l’opérateur concerné.
 
-On munit $\mathbf{R}$ (resp. $\mathbf{C})$ de la mesure de Lebesgue, notée $\mu$, et on identifie le groupe $\mathbf{R}$ et son groupe dual par l’application $(x, y)\mapsto$ exp(2$i\pi xy) ($cf. corollaire 3 de II, p. 236).
+On munit $\mathbf{R}$ (resp. $\mathbf{C}$) de la mesure de Lebesgue, notée $\mu$, et on identifie le groupe $\mathbf{R}$ et son groupe dual par l’application $(x, y)\mapsto$ exp(2$i\pi xy$) $($cf. corollaire 3 de II, p. 236).
 
 Pour toute fonction $f$ définie et différentiable sur un ouvert U de $\mathbf{R}^2$, identifié à $\mathbf{C}$, avec coordonnées réelles $x$ et $y$, on note
 
@@ -910,7 +910,7 @@ $$
 
 donc $\mathscr{F}(f')\mathscr{F}(\sigma_{\varepsilon})$ converge vers 0 dans $L^1(\mathbf{R})$ quand $\varepsilon$ tend vers 0. Comme $f'$ et $\sigma_{\varepsilon}$ appartiennent à $L^2(\mathbf{R})$, la prop. 14 de II, p. 223 implique que $f'*\sigma_{\varepsilon}=\overline{\mathscr{F}}(\mathscr{F}(f')\mathscr{F}(\sigma_{\varepsilon}))$ converge vers 0 dans $\mathscr{C}_b(\mathbf{R})$.
 
-Pour tout $\varepsilon  >0$, la mesure positive $\delta_{\varepsilon}\cdot dx$ sur $\mathbf{R}$ est de masse totale 1 (cf. FVR, III, p. 7). L’ensemble des mesures $\delta_{\varepsilon}\cdot dx$ pour $\varepsilon  >0$ et le filtre induit sur cet ensemble par le filtre des voisinages de 0 dans $\mathbf{R}_+^*$ vérifient les hypothèses du lemme 4 de INT, VIII, p. 137, § 2, n$^o7$. Les mesures $\delta_{\varepsilon}\cdot dx$ convergent donc dans $\mathscr{M}^1(\mathbf{R})$ vers la mesure ponctuelle $\varepsilon_0$ quand $\varepsilon$ tend vers 0. Il vient $f*\delta_{\varepsilon}\rightarrow f$ dans $\mathscr{C}_b(\mathbf{R})$ (INT, VIII, p. 163, § 4, n$^o4)$. Le lemme est démontré.
+Pour tout $\varepsilon  >0$, la mesure positive $\delta_{\varepsilon}\cdot dx$ sur $\mathbf{R}$ est de masse totale 1 (cf. FVR, III, p. 7). L’ensemble des mesures $\delta_{\varepsilon}\cdot dx$ pour $\varepsilon  >0$ et le filtre induit sur cet ensemble par le filtre des voisinages de 0 dans $\mathbf{R}_+^*$ vérifient les hypothèses du lemme 4 de INT, VIII, p. 137, § 2, n$^o7$. Les mesures $\delta_{\varepsilon}\cdot dx$ convergent donc dans $\mathscr{M}^1(\mathbf{R})$ vers la mesure ponctuelle $\varepsilon_0$ quand $\varepsilon$ tend vers 0. Il vient $f*\delta_{\varepsilon}\rightarrow f$ dans $\mathscr{C}_b(\mathbf{R})$ (INT, VIII, p. 163, § 4, n$^o4$). Le lemme est démontré.
 
 On note $\mu$ la mesure de Lebesgue sur $\mathbf{C}$.
 
@@ -930,7 +930,7 @@ $$
 
 L’application $h$ est mesurable et son support est compact. Comme $u$ est auto-adjoint, on a $\|R(u, \lambda )\|\leqslant |\mathscr{I}(\lambda )|^{-1}$ pour tout $\lambda \in \mathbf{C}-\mathbf{R}$ (prop. 17 de IV, p. 248). L’application $h$ est donc bornée d’après la formule (13), et par conséquent elle est intégrable sur $\mathbf{C}$.
 
-Soit $\varepsilon \in \mathbf{R}^*_+$. On note $F^+_{\varepsilon}$ (resp. $F^-_{\varepsilon})$ l’ensemble fermé dans $\mathbf{C}$ des $\lambda \in \mathbf{C}$ tels que $\mathscr{I}(\lambda )\geqslant \varepsilon$ (resp. $\mathscr{I}(\lambda )\leqslant -\varepsilon )$. On a
+Soit $\varepsilon \in \mathbf{R}^*_+$. On note $F^+_{\varepsilon}$ (resp. $F^-_{\varepsilon}$) l’ensemble fermé dans $\mathbf{C}$ des $\lambda \in \mathbf{C}$ tels que $\mathscr{I}(\lambda )\geqslant \varepsilon$ (resp. $\mathscr{I}(\lambda )\leqslant -\varepsilon$ ). On a
 
 $\int_{\mathbf{C}}h(\lambda )d\mu(\lambda ) =$ lim$_{\varepsilon\rightarrow 0}(\int_{F^+_{\varepsilon}}h(\lambda )d\mu(\lambda ) +\int_{F^-_{\varepsilon}}h(\lambda )d\mu(\lambda ))$.
 
@@ -944,7 +944,7 @@ Soit $r >0$ tel que le support de $h$ est contenu dans $C = [-r, r]^2$. Notons $
 
 (iv) On a $h(\lambda ) = 0$ si $\lambda \in \partial R_{\varepsilon}^+-S_{\varepsilon}$.
 
-Notons $d\lambda$ (resp. $d\lambda )$ la forme différentielle de degré 1 sur $\mathbf{C}$ différentielle de l’application identité de $\mathbf{C}$ (resp. de la conjugaison complexe). Notons $g$ la fonction sur $\mathbf{C}-\mathbf{R}$ à valeurs dans $\mathscr{L}(E)$ telle que $g(\lambda ) =\widetilde{f}(\lambda )R(u, \lambda )$ pour $\lambda \in \mathbf{C}-\mathbf{R}$. Soit $\omega =g d\lambda$; c’est une forme différentielle de degré 1 sur $\mathbf{C}-\mathbf{R}$, à support compact et à valeurs dans $\mathscr{L}(E)$. Puisque la résolvante de $u$ est holomorphe (prop. 14 de IV, p. 246), on a
+Notons $d\lambda$ (resp. $d\lambda$ ) la forme différentielle de degré 1 sur $\mathbf{C}$ différentielle de l’application identité de $\mathbf{C}$ (resp. de la conjugaison complexe). Notons $g$ la fonction sur $\mathbf{C}-\mathbf{R}$ à valeurs dans $\mathscr{L}(E)$ telle que $g(\lambda ) =\widetilde{f}(\lambda )R(u, \lambda )$ pour $\lambda \in \mathbf{C}-\mathbf{R}$. Soit $\omega =g d\lambda$; c’est une forme différentielle de degré 1 sur $\mathbf{C}-\mathbf{R}$, à support compact et à valeurs dans $\mathscr{L}(E)$. Puisque la résolvante de $u$ est holomorphe (prop. 14 de IV, p. 246), on a
 
 $$
 d\omega =(\frac{\partial\widetilde{f}}{\partial z}(\lambda )R(u, \lambda ) +\widetilde{f}(\lambda )\frac{\partial}{\partial z}R(u, \lambda ))d\lambda \wedge d\lambda =-h(\lambda )d\lambda \wedge d\lambda
@@ -1160,7 +1160,7 @@ Soit D un sous-espace vectoriel de E. Une forme hermitienne partielle sur E de d
 
 On dit que $q$ est une forme partielle positive si la forme hermitienne qu’elle définie est positive.
 
-Soit $u$ un opérateur partiel auto-adjoint sur E. Pour tous les éléments $x$ et $y$ de E, on note $\mu_{x,y}$ (resp. $\mu_x)$ la mesure spectrale de $(x, y)$ (resp. de $x)$ relative à $u$.
+Soit $u$ un opérateur partiel auto-adjoint sur E. Pour tous les éléments $x$ et $y$ de E, on note $\mu_{x,y}$ (resp. $\mu_x$) la mesure spectrale de $(x, y)$ (resp. de $x$) relative à $u$.
 
 Soit $(j,|u|)$ la décomposition polaire de $u$ (déf. 7 de IV, p. 290). Notons $D'$ le domaine de $|u|^{1/2}$. Par définition, c’est l’espace des $x\in E$ tels que la fonction $z\mapsto  |z|$ est intégrable sur Sp($u$) par rapport à la mesure $\mu_x$. Il contient dom($u$).
 
@@ -1264,7 +1264,7 @@ $$
 \langle y|u(x)\rangle =q(y, x) =q(x, y) =\overline{\langle x|u(y)\rangle}=\langle u(y)|x\rangle
 $$
 
-(resp. $\langle x|u(x)\rangle =q(x, x)\geqslant 0)$ de sorte que $u$ est symétrique (resp. positif). Enfin, l’opérateur partiel $u+ 1_E$ est auto-adjoint d’après le corollaire de la proposition 10 de IV, p. 240, et il en est de même de $u$.
+(resp. $\langle x|u(x)\rangle =q(x, x)\geqslant 0$) de sorte que $u$ est symétrique (resp. positif). Enfin, l’opérateur partiel $u+ 1_E$ est auto-adjoint d’après le corollaire de la proposition 10 de IV, p. 240, et il en est de même de $u$.
 
 #### Théorème 3 {#ts-iv-s5-thm-3 .statement tag=036O}
 
@@ -1388,7 +1388,7 @@ Réciproquement, supposons qu’il existe un voisinage ouvert V de $\lambda$ tel
 
 On suppose dans la suite de ce numéro que E est de dimension infinie ; les analogues des résultats ci-dessous lorsque E est de dimension finie se déduisent du n$^o4$ de IV, p. 153.
 
-Soit $u$ un opérateur auto-adjoint minoré sur E. Soit $c$ un minorant de $u$; le spectre de $u$ est contenu dans $[c,+\infty [$ (prop. 15). Supposons que le spectre essentiel de $u$ n’est pas vide. On note alors $\varrho_e$ la borne inférieure du spectre essentiel de $u$, de sorte que $\varrho_e\geqslant c$ et $\varrho_e$ est un élément du spectre de $u$. On note Sp$_h(u) =$ Sp($u$)$\cap [\varrho_e,+\infty [$; c’est une partie fermée de Sp($u$), donc également de $\mathbf{C}$, telle que inf(Sp$_h(u)) =\varrho_e$; on l’appelle partie haute du spectre de $u$. Si le spectre essentiel de $u$ est vide, on note Sp$_h(u) =\emptyset$ et $\varrho_e= +\infty$.
+Soit $u$ un opérateur auto-adjoint minoré sur E. Soit $c$ un minorant de $u$; le spectre de $u$ est contenu dans $[c,+\infty [$ (prop. 15). Supposons que le spectre essentiel de $u$ n’est pas vide. On note alors $\varrho_e$ la borne inférieure du spectre essentiel de $u$, de sorte que $\varrho_e\geqslant c$ et $\varrho_e$ est un élément du spectre de $u$. On note Sp$_h(u) =$ Sp($u$)$\cap [\varrho_e,+\infty [$; c’est une partie fermée de Sp($u$), donc également de $\mathbf{C}$, telle que inf(Sp$_h(u)$) $=\varrho_e$; on l’appelle partie haute du spectre de $u$. Si le spectre essentiel de $u$ est vide, on note Sp$_h(u) =\emptyset$ et $\varrho_e= +\infty$.
 
 L’intersection Sp$_b(u) =$ Sp($u$)$\cap [0, \varrho_e[$ est contenue dans le spectre sensible de $u$, et ses éléments sont donc des valeurs propres isolées de multiplicité finie ; on dit que c’est la partie basse du spectre de $u$. Soit $E_b$ le sous-espace fermé de E engendré par les sous-espaces propres relatifs aux valeurs propres $\lambda \in$ Sp$_b(u)$. D’après le cor. de la prop. 9 de IV, p. 278 et la prop. 8 de IV, p. 278, l’espace $E_b$ est l’image du projecteur spectral $p_{Sp_b(u)}$ défini par Sp$_b(u)$. Comme Sp($u$) est la réunion disjointe de Sp$_b(u)$ et Sp$_h(u)$, l’orthogonal $E_h$ de $E_b$ est l’image du projecteur spectral $p_{Sp_h(u)}$ défini par Sp$_h(u)$. Si Sp$_b(u)$ est fini, alors l’espace $E_b$ est de dimension finie ; l’espace $E_h$ est alors non nul, puisqu’on suppose que E est de dimension infinie.
 
@@ -1422,7 +1422,7 @@ Notons T = Sp$_b(u)\cap [0, \varrho_e[$. C’est une partie fermée et discrète
 
 Cela conclut la preuve si Sp$_b(u)$ est fini. Si Sp$_b(u)$ est infini, on conclut en appliquant le lemme 2 de III, p. 90 à l’image S de T par l’application $\lambda \mapsto \varrho_e-\lambda$.
 
-Pour tout entier $k$ tel que $0\leqslant k <$ Card(Sp$_b(u))$, on note $n_k\geqslant 1$ la multiplicité de la valeur propre $\nu_k$ de $u$. On note $\mathbf{N}=\mathbf{N}\cup  \{+\infty \} \subset \mathbf{R}$. Notons $M\in \overline{\mathbf{N}}$ la somme des multiplicités $n_k$. C’est la dimension hilbertienne de $E_b$, si l’on convient de dire qu’un espace de dimension hilbertienne infinie est de dimension $+\infty  \in \overline{\mathbf{N}}$.
+Pour tout entier $k$ tel que $0\leqslant k <$ Card(Sp$_b(u)$), on note $n_k\geqslant 1$ la multiplicité de la valeur propre $\nu_k$ de $u$. On note $\mathbf{N}=\mathbf{N}\cup  \{+\infty \} \subset \mathbf{R}$. Notons $M\in \overline{\mathbf{N}}$ la somme des multiplicités $n_k$. C’est la dimension hilbertienne de $E_b$, si l’on convient de dire qu’un espace de dimension hilbertienne infinie est de dimension $+\infty  \in \overline{\mathbf{N}}$.
 
 Pour tout entier $n$ tel que $0\leqslant n <M$, on définit $\lambda_n(u) =\nu_k$, où $k\geqslant 0$ est l’unique entier tel que
 
@@ -1434,7 +1434,7 @@ Si $n\in \mathbf{N}$ vérifie $n\geqslant M$, on pose $\lambda_n(u) =\varrho_e$.
 
 Par construction, la suite $(\lambda_n(u))_{n\in\mathbf{N}}$ est croissante et, pour tout élément $\lambda$ de Sp$_b(u)$, le nombre des entiers $n$ tels que $\lambda_n(u) =\lambda$ est égal à la multiplicité de $\lambda$ comme valeur propre de $u$. La suite $(\lambda_n(u))_{n\in\mathbf{N}}$ tend vers $+\infty$ si et seulement si le spectre essentiel de $u$ est vide.
 
-Pour tout $n\in \mathbf{N}$, on note $\mathscr{F}_n$ (resp. $\mathscr{F}_n^u)$ l’ensemble des sous-espaces vectoriels $F\subset E$ de dimension $n$ (resp. l’ensemble des sous-espaces vectoriels $F\subset$ dom($u$) de dimension $n)$.
+Pour tout $n\in \mathbf{N}$, on note $\mathscr{F}_n$ (resp. $\mathscr{F}_n^u$) l’ensemble des sous-espaces vectoriels $F\subset E$ de dimension $n$ (resp. l’ensemble des sous-espaces vectoriels $F\subset$ dom($u$) de dimension $n$).
 
 Soient $n\in \mathbf{N}$ tel que $n <M$ et $F\in \mathscr{F}_n^u$. On dit que F est adapté à $u$ si F admet une base orthonormale $(f_i)_{0\leqslant i\leqslant n-1}$ telle que $u(f_i) =\lambda_i(u)f_i$ pour $0\leqslant i\leqslant n-1$.
 
@@ -1444,7 +1444,7 @@ Soit $F\in \mathscr{F}_n^u$ adapté à $u$. L’espace F est contenu dans $E_b$;
 
 Soit $F\in \mathscr{F}_n^u$ un sous-espace adapté à $u$. Tout vecteur propre de $u$ appartenant à l’espace $F^{\circ}\cap E_b$ a une valeur propre $\geqslant \lambda_n(u)$.
 
-Soit $\ell$ tel que $\lambda_{n-1}(u) =\nu_{\ell}$. Soit $x\in F^{\circ}\cap E_b$ un vecteur propre de $u$ pour une valeur propre $\lambda$, et soit $k <$ Card(Sp$_b(u))$ tel que $\lambda =\nu_k$.
+Soit $\ell$ tel que $\lambda_{n-1}(u) =\nu_{\ell}$. Soit $x\in F^{\circ}\cap E_b$ un vecteur propre de $u$ pour une valeur propre $\lambda$, et soit $k <$ Card(Sp$_b(u)$) tel que $\lambda =\nu_k$.
 
 La condition $k < \ell$ est impossible, car $\nu_k< \nu_{\ell}$, et l’espace F contiendrait alors le sous-espace propre pour la valeur propre $\nu_k$, contredisant le fait que $x$ est orthogonal à F. Si $k=\ell$, alors $x$ est un vecteur propre pour la valeur propre $\lambda_{n-1}(u)$; comme $x\in F^{\circ}$, la multiplicité $n_k$ est strictement supérieure au nombre d’entiers $i < n$ tels que $\lambda_i(u) =\nu_k$, ce qui implique que $\lambda_n(u) =\lambda_{n-1}(u)$. Enfin, si $k > \ell$, on a $\lambda =\nu_k> \nu_{\ell}=\lambda_{n-1}(u)$, donc $\lambda \geqslant \lambda_n(u)$.
 
@@ -1536,7 +1536,7 @@ $F^{\circ}= E_h\oplus \bigoplus_{\lambda\in Sp_b(u)}$ Ker($u-\lambda \cdot 1_E$)
 
 $\lambda >\lambda_{n-1}(u)$
 
-Soit $x\in F^{\circ}-\{0\}$. Écrivons $x=x_h+y+z$, où $x_h\in E_h$ et $y$ (resp. $z)$ appartient au deuxième (resp. troisième) espace de la décomposition ci-dessus. En utilisant de nouveau (18) et le fait que toute valeur propre $\lambda  > \lambda_{n-1}(u)$ de $u$ est $\geqslant \lambda_n(u)$, on obtient
+Soit $x\in F^{\circ}-\{0\}$. Écrivons $x=x_h+y+z$, où $x_h\in E_h$ et $y$ (resp. $z$) appartient au deuxième (resp. troisième) espace de la décomposition ci-dessus. En utilisant de nouveau (18) et le fait que toute valeur propre $\lambda  > \lambda_{n-1}(u)$ de $u$ est $\geqslant \lambda_n(u)$, on obtient
 
 $$
 \langle x|u(x)\rangle =\langle x_h|u(x_h)\rangle +\langle y|u(y)\rangle +\langle z|u(z)\rangle
@@ -1844,7 +1844,7 @@ $$
 
 $\lambda_n\leqslant T$
 
-où $c_n=\pi^{n/2}/\Gamma (1 +n/2)$ est le volume de la boule unité dans $\mathbf{R}^n$ (INT, V, p. 101, § 8, n$^o7)$ et $m >0$ est la mesure de Lebesgue de U.*
+où $c_n=\pi^{n/2}/\Gamma (1 +n/2)$ est le volume de la boule unité dans $\mathbf{R}^n$ (INT, V, p. 101, § 8, n$^o7$) et $m >0$ est la mesure de Lebesgue de U.*
 
 ## EXERCICES {#ts-iv-s5-exercises}
 

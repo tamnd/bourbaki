@@ -22,7 +22,7 @@ subsections:
       pdf_page: 56
 statements: 7
 exercises: 4
-content_sha256: 924d229258599545b2e684cddeddef2bd0e7a75b8d133f6a0fc19c591581eb15
+content_sha256: f8c28e97a6040723ba5666e0a451d578263ebc6107c92854f395b1a1eeecac88
 ---
 
 ## APPENDIX I POLYNOMIAL MAPS AND ZARISKI TOPOLOGY
@@ -57,13 +57,13 @@ $x\in F\Leftarrow \Rightarrow x\in V$ and $f_i(x) = 0$ for all $i\in I$.
 
 It is clear that $\emptyset$ and V are closed, and that any intersection of closed sets is closed. If F is defined by the vanishing of the $f_i$ and $F'$ by that of the $f'_j$, $F\cup F'$ is defined by the vanishing of the $f_if'_j$, and hence is closed. Thus, there exists a topology on V such that the closed sets for this topology are exactly the closed sets in the above sense. This topology is called the Zariski topology on V. For any $f\in A_V$, we denote by $V_f$ the set of $x\in V$ such that $f(x)\not= 0$; this is an open subset of V. It is clear that the $V_f$ form a base of the Zariski topology. (If $k$ is a topological field, the canonical topology of V is finer than the Zariski topology.)
 
-The map $x \rightarrow \mathfrak{m}_x$ of the Cor. of Prop. 1 can be considered as a map $\varepsilon$ from V to the prime spectrum Spec(A$_V)$ of $A_V($Commutative Algebra, Chap. II, §4, no. 3, Def. 4). It is immediate that the Zariski topology is the inverse image under $\varepsilon$ of the topology of Spec(A$_V)$.
+The map $x \rightarrow \mathfrak{m}_x$ of the Cor. of Prop. 1 can be considered as a map $\varepsilon$ from V to the prime spectrum Spec(A$_V$) of $A_V($Commutative Algebra, Chap. II, §4, no. 3, Def. 4). It is immediate that the Zariski topology is the inverse image under $\varepsilon$ of the topology of Spec(A$_V$).
 
 #### Proposition 2 {#lie-vii-a1-prop-2 .statement tag=00XE}
 
 The vector space V, equipped with the Zariski topology, is an irreducible noetherian space. In particular, every non-empty open subset of V is dense.
 
-Since $A_V$ is noetherian, Spec(A$_V)$ is noetherian (Commutative Algebra, Chap. II, §4, no. 3, Cor. 7 of Prop. 11), and every subspace of a noetherian space is noetherian (loc. cit., no. 2, Prop. 8). With the notation of the Cor. of Prop. 1, the intersection of the $\mathfrak{m}_x$ is $\{0\}$, and $\{0\}$ is a prime ideal of $A_V$; thus V is irreducible (loc. cit., no. 3, Prop. 14).
+Since $A_V$ is noetherian, Spec(A$_V$) is noetherian (Commutative Algebra, Chap. II, §4, no. 3, Cor. 7 of Prop. 11), and every subspace of a noetherian space is noetherian (loc. cit., no. 2, Prop. 8). With the notation of the Cor. of Prop. 1, the intersection of the $\mathfrak{m}_x$ is $\{0\}$, and $\{0\}$ is a prime ideal of $A_V$; thus V is irreducible (loc. cit., no. 3, Prop. 14).
 
 ### 2. DOMINANT POLYNOMIAL MAPS
 
@@ -79,7 +79,7 @@ In view of the preceding, $f$ is dominant if and only if $f(V)$ is dense in W in
 
 Assume that $k$ is algebraically closed. Let $f: V\rightarrow W$ be a dominant polynomial map. The image under $f$ of any dense open subset of V contains a dense open subset of W.
 
-It suffices to prove that, for every non-zero element $\varphi$ of $A_V,f(V_{\varphi})$ contains a dense open subset of W. Identify $A_W$ with a subalgebra of $A_V$ by means of the homomorphism associated to $f$. There exists a non-zero element $\psi$ of $A_W$ such that every homomorphism $w: A_W\rightarrow k$ which does not annihilate $\psi$ extends to a homomorphism $v: A_V\rightarrow k$ which does not annihilate $\varphi ($Commutative Algebra, Chap. V, §3, no. 1, Cor. 3 of Th. 1). Now such a $w$ (resp. $v)$ can be identified with an element of $W_{\psi}$ (resp. of $V_{\varphi})$ and to say that $v$ extends $w$ means that $f(v) =w$. Hence, $W_{\psi}\subset f(V_{\varphi})$. Q.E.D.
+It suffices to prove that, for every non-zero element $\varphi$ of $A_V,f(V_{\varphi})$ contains a dense open subset of W. Identify $A_W$ with a subalgebra of $A_V$ by means of the homomorphism associated to $f$. There exists a non-zero element $\psi$ of $A_W$ such that every homomorphism $w: A_W\rightarrow k$ which does not annihilate $\psi$ extends to a homomorphism $v: A_V\rightarrow k$ which does not annihilate $\varphi ($Commutative Algebra, Chap. V, §3, no. 1, Cor. 3 of Th. 1). Now such a $w$ (resp. $v$) can be identified with an element of $W_{\psi}$ (resp. of $V_{\varphi}$) and to say that $v$ extends $w$ means that $f(v) =w$. Hence, $W_{\psi}\subset f(V_{\varphi})$. Q.E.D.
 
 Let $f: V\rightarrow W$ be a polynomial map, and $x_0\in V$. The map $h \rightarrow f(x_0+h)$ from V to W is polynomial. Decompose it into a finite sum of homogeneous polynomial maps:
 

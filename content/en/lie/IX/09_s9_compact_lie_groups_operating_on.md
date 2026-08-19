@@ -33,7 +33,7 @@ errata:
     - says: §5, no. 2, Cor. of Prop. 2
       read: §5, no. 2, Cor. 1 of Prop. 2
       why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and the reference does not say which. The sentence citing it has G simply-connected and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected group. Corollary 2 is the same statement for the Lie algebra, over a chamber rather than an alcove, and Corollary 3 is about existence and uniqueness and names no map at all.
-content_sha256: b8936dcc268d7bea36184c52ccdb7af0532e90195e7dcf0f7b65dfb8f7462b9f
+content_sha256: 80886e7d2a63d111d67d57d99f7984d56211703c5af46f7dcdf84161e9d5912f
 ---
 
 ## § 9. COMPACT LIE GROUPS OPERATING ON MANIFOLDS
@@ -112,7 +112,7 @@ Consequently, the restriction of $\psi$ to B is injective, hence the lemma.
 
 Let A be a compact subset of X. There exist a finite dimensional vector space E and a morphism $\varphi \in \mathscr{C}^r(X;E) (r\not=\omega )$ that is an embedding in the neighbourhood of A.
 
-Let $(U_i, \varphi_i,E_i)_{i\in I}$ be a finite family of charts of X whose domains cover A. We extend $\varphi_i$ to a map from X to $E_i$ (also denoted by $\varphi_i)$ by putting $\varphi_i(x) = 0$ for $x /\in U_i$. Let $(V_i)_{i\in I}$ be a covering of A by open subsets of X such that $\overline{V}_i\subset U_i$ for all $i\in I$ (the existence of such a covering follows from General Topology, Chap. IX, §4, no. 3, Cor. 1 of Th. 3, applied to the compact space $X'$ obtained by adjoining to X a point at infinity and the covering of $X'$ consisting of the open sets $U_i(i\in I)$ and $X'$ **--** A). For all $i\in I$, let $\alpha_i$ be a numerical function of class $C^r$ on X, equal to 1 at every point of $V_i$, and with support contained in $U_i($Differentiable and Analytic Manifolds, Results, 5.3.6).
+Let $(U_i, \varphi_i,E_i)_{i\in I}$ be a finite family of charts of X whose domains cover A. We extend $\varphi_i$ to a map from X to $E_i$ (also denoted by $\varphi_i$) by putting $\varphi_i(x) = 0$ for $x /\in U_i$. Let $(V_i)_{i\in I}$ be a covering of A by open subsets of X such that $\overline{V}_i\subset U_i$ for all $i\in I$ (the existence of such a covering follows from General Topology, Chap. IX, §4, no. 3, Cor. 1 of Th. 3, applied to the compact space $X'$ obtained by adjoining to X a point at infinity and the covering of $X'$ consisting of the open sets $U_i(i\in I)$ and $X'$ **--** A). For all $i\in I$, let $\alpha_i$ be a numerical function of class $C^r$ on X, equal to 1 at every point of $V_i$, and with support contained in $U_i($Differentiable and Analytic Manifolds, Results, 5.3.6).
 
 Consider the map $\varphi : X\rightarrow \bigoplus_{i\in I}(E_i\oplus \mathbf{R})$ defined by
 
@@ -198,7 +198,7 @@ $\psi^{\sharp}(y) =\int_Hh.\psi (h^{-1}y)dh$ for $y\in U$,
 
 where $dh$ is the Haar measure on H of total mass 1.
 
-Then (§6, no. 4, Cor. $1)\psi^{\sharp}$ is a morphism of class $C^r$ from U to T, compatible with the operations of H, such that $\psi^{\sharp}(x) = 0$ and $d_x\psi^{\sharp}=$ Id$_T$. Hence, there exists an open set $U'\subset U$ containing $x$, and an open neighbourhood V of 0 in T, such that $\psi^{\sharp}$ induces an isomorphism $\theta : U'\rightarrow V$. Restricting $U'$ and V if necessary, we can assume that they are stable under H and that there exists an isomorphism $u: T\rightarrow V$ compatible with the operations of H (Lemma 4). It now suffices to take $\varphi =\theta^{-1}\circ u$.
+Then (§6, no. 4, Cor. $1$)$\psi^{\sharp}$ is a morphism of class $C^r$ from U to T, compatible with the operations of H, such that $\psi^{\sharp}(x) = 0$ and $d_x\psi^{\sharp}=$ Id$_T$. Hence, there exists an open set $U'\subset U$ containing $x$, and an open neighbourhood V of 0 in T, such that $\psi^{\sharp}$ induces an isomorphism $\theta : U'\rightarrow V$. Restricting $U'$ and V if necessary, we can assume that they are stable under H and that there exists an isomorphism $u: T\rightarrow V$ compatible with the operations of H (Lemma 4). It now suffices to take $\varphi =\theta^{-1}\circ u$.
 
 Recall (Differentiable and Analytic Manifolds, Results, 6.5.1) that if G is a Lie group, H a Lie subgroup of G and Y a manifold on which H operates on the left, we denote by $G\times^HY$ the quotient of the product manifold $G\times Y$ by the right operation $((g, y), h) \rightarrow (gh, h^{-1}y)$ of H; this is a manifold on which the Lie group G operates naturally on the left; the projection $G\times^HY\rightarrow G/H$ is a bundle with fibre Y. Further, if Y is a finite dimensional vector space on which H operates linearly, $G\times^HY$ has a natural structure of vector G-bundle with base $G/H ($Differentiable and Analytic Manifolds, Results, 7.10.2).
 
@@ -208,13 +208,13 @@ Let G be a Lie group operating properly on the manifold X (General Topology, Cha
 
 Assume that the manifold X is paracompact; let $x$ be a point of X, $G_x$ its fixer. There exists a finite dimensional analytic linear representation $\tau : G_x\rightarrow \mathbf{G}\mathbf{L}(W)$, and an open embedding $\alpha : G\times^{G_x}W\rightarrow X$ of class $C^r$, compatible with the operations of G, that maps the class of $(e,0)\in G\times W$ to $x$.
 
-Put $T = T_x(X)$. Let W be a complementary subspace of $T_x(Gx)$ in T, stable under $G_x$ (for example, the orthogonal complement of $T_x(Gx)$ with respect to a scalar product on T invariant under $G_x)$. On the other hand, let $\varphi : T\rightarrow X$ be a morphism with the properties stated in Prop. 5 (relative to $H = G_x)$. Consider the morphism $\lambda : G\times W\rightarrow X$ defined by $\lambda (g, w) =g\varphi (w)$. It induces by passage to the quotient a morphism $\mu: G\times^{G_x}W\rightarrow X$ of class $C^r$, compatible with the operations of G, that maps the class $z$ of $(e,0)$ to $x$.
+Put $T = T_x(X)$. Let W be a complementary subspace of $T_x(Gx)$ in T, stable under $G_x$ (for example, the orthogonal complement of $T_x(Gx)$ with respect to a scalar product on T invariant under $G_x$). On the other hand, let $\varphi : T\rightarrow X$ be a morphism with the properties stated in Prop. 5 (relative to $H = G_x$). Consider the morphism $\lambda : G\times W\rightarrow X$ defined by $\lambda (g, w) =g\varphi (w)$. It induces by passage to the quotient a morphism $\mu: G\times^{G_x}W\rightarrow X$ of class $C^r$, compatible with the operations of G, that maps the class $z$ of $(e,0)$ to $x$.
 
 We show that $\mu$ is étale at the point $z$. We have
 
-dim(G $\times^{G_x}W) =$ dim(G) + dim(W) $-$ dim(G$_x)$
+dim(G $\times^{G_x}W$) $=$ dim(G) + dim(W) $-$ dim(G$_x$)
 
-= dim(G$x) +$ dim(W) = dim(T),
+= dim(G$x$) $+$ dim(W) = dim(T),
 
 so it suffices to show that $\mu$ is submersive at $z$, or equivalently that $\lambda$ is submersive at $(e,0)$. But, the tangent map $T_{(e,0)}(\lambda ) : T_e(G)\oplus W\rightarrow T$ is equal to $T_e(\rho (x)) +i$, where $\rho (x)$ is the orbital map $g \rightarrow gx$ and $i$ the canonical injection from W to T; since Im $T_e(\rho (x)) = T_x(Gx)$, the map $T_{(e,0)}(\lambda )$ is surjective, and $\mu$ is étale at $z$.
 
@@ -224,7 +224,7 @@ Thus, the proposition is a consequence of the following lemma:
 
 #### Lemma 5 {#lie-ix-s9-lem-5 .statement tag=01HS}
 
-Let Z be a separated manifold of class $C^r$, equipped with a law of left operation $m: G\times Z\rightarrow Z$ of class $C^r$, and $\mu: Z\rightarrow X$ a morphism (of class $C^r)$ compatible with the operations of G. Let $z$ be a point of Z, and $x=\mu(z)$. Assume that $\mu$ is étale at $z$, and that the fixer of $z$ in G is equal to the fixer $G_x$ of $x$. Then, there exists an open neighbourhood $\Omega$ of the orbit $Gz$, stable under G, such that $\mu$ induces an isomorphism from $\Omega$ onto an open subset of X.
+Let Z be a separated manifold of class $C^r$, equipped with a law of left operation $m: G\times Z\rightarrow Z$ of class $C^r$, and $\mu: Z\rightarrow X$ a morphism (of class $C^r$) compatible with the operations of G. Let $z$ be a point of Z, and $x=\mu(z)$. Assume that $\mu$ is étale at $z$, and that the fixer of $z$ in G is equal to the fixer $G_x$ of $x$. Then, there exists an open neighbourhood $\Omega$ of the orbit $Gz$, stable under G, such that $\mu$ induces an isomorphism from $\Omega$ onto an open subset of X.
 
 Since $\mu$ is compatible with the operations of G, it is étale at every point of $Gz$; since the canonical map $G/G_x\rightarrow Gx$ is a homeomorphism, so is the map from $Gz$ to $Gx$ induced by $\mu$. Hence, it follows from Prop. 2 of no. 1 that there exists an open neighbourhood U of $Gz$ in Z such that $\mu$ induces an open embedding of U into X.
 
@@ -266,7 +266,7 @@ b) Let H and $H'$ be two compact subgroups of G such that $H\subset H'$ and such
 
 c) With the relation $t\leq t'$, the set $\mathscr{T}$ is a noetherian ordered set (Theory of Sets, Chap. III, §6, no. 5, text preceding Prop. 7).
 
-$a)$ Let $(H_i)_{i\geq 1}$ be a decreasing sequence of compact subgroups of G; these are Lie subgroups of G (Chap. III, §8, no. 2, Th. 2). The sequence of integers (dim $H_i)_{i\geq 1}$ is decreasing, hence stationary, so there exists an integer N such that the subgroups $H_i$ have the same identity component for $i\geq N$. Then the decreasing sequence of positive integers $(H_i: (H_i)_0)_{i\geq N}$ is stationary, so $H_i= H_{i+1}$ for $i$ sufficiently large.
+$a)$ Let $(H_i)_{i\geq 1}$ be a decreasing sequence of compact subgroups of G; these are Lie subgroups of G (Chap. III, §8, no. 2, Th. 2). The sequence of integers (dim $H_i$)$_{i\geq 1}$ is decreasing, hence stationary, so there exists an integer N such that the subgroups $H_i$ have the same identity component for $i\geq N$. Then the decreasing sequence of positive integers $(H_i: (H_i)_0)_{i\geq N}$ is stationary, so $H_i= H_{i+1}$ for $i$ sufficiently large.
 
 $b)$ Let $f$ be an isomorphism from $H'$ to H. The sequence $(f^n(H))_{n\geq 0}$ is a decreasing sequence of compact subgroups of G, so $f^n(H) =f^{n+1}(H)$ for $n$ sufficiently large, by $a)$. Since $f$ is an isomorphism, this implies that $f(H) = H =f(H')$, so $H = H'$.
 
@@ -294,7 +294,7 @@ Moreover, $u$ is of type $t$ if and only if $G_u$ is conjugate to H in G, or equ
 
 To prove $c)$, observe that the assumption that $X/G$ is connected implies that X is pure of finite dimension: indeed, for all $k\geq 0$, denote by $X_k$ the set of points $x\in X$ such that dim$_xX =k$; then $X_k$ is open and closed in X, and stable under G, so X is equal to one of the $X_k$.
 
-We now prove $c)$ by induction on the dimension of X, the assertion being clear for dim X = 0. Let $\tau$ be a maximal element among the orbit types of the points of X (such an element exists by Lemma $6c))$. We shall prove the following:
+We now prove $c)$ by induction on the dimension of X, the assertion being clear for dim X = 0. Let $\tau$ be a maximal element among the orbit types of the points of X (such an element exists by Lemma $6c$)$)$. We shall prove the following:
 
 $c')$ For every subset A of $X_{(t)}$, open and closed in $X_{(\tau)}$ and stable under G, the closure $\overline{A}$ of A in X is open.
 
@@ -310,7 +310,7 @@ With the notations in Th. $2c)$, the points of $X_{(\tau)}$ are said to be princ
 
 #### Example 1 {#lie-ix-s9-n4-exa-1 .statement tag=01HV}
 
-Let G be a connected compact Lie group, operating on itself by inner automorphisms. The fixer of an element $x$ of G is simply the centralizer $Z(x)$ of $x$ in G; it contains every maximal torus containing $x$. It follows that the largest orbit type $\tau$ is the conjugacy class of the maximal tori of G. The open set $G_{(\tau)}$ is the set of very regular elements of G (§5, no. 1, Remark). Assume that G is simply-connected. Then $G_{(\tau)}$ is equal to the set $G_r$ of regular elements of G (§5, no. 2, Remark 2); if A is an alcove of a Cartan subalgebra $\mathfrak{t}$ of $\mathfrak{g}= L(G)$, the composite map $\pi : A\longrightarrow^{exp}G_r\longrightarrow G_r/$Int(G) is an isomorphism of analytic manifolds. Indeed, this is a homeomorphism (§5, no. 2, Cor. of Prop. 2); let $a\in A$, put $t=$ exp $a$ and identify $T_t(G)$ with $\mathfrak{g}$ by means of the translation $\gamma (t)$. The tangent map $T_a(\pi )$ can then be identified with the composite of the canonical injection $\mathfrak{t}\rightarrow \mathfrak{g}$ and the quotient map $\mathfrak{g}\rightarrow \mathfrak{g}/$Im(Ad $t^{-1}-1)$. Since $t$ is regular, $T_a(\pi )$ is an isomorphism, hence the stated result (Differentiable and Analytic Manifolds, Results, 5.7.8).
+Let G be a connected compact Lie group, operating on itself by inner automorphisms. The fixer of an element $x$ of G is simply the centralizer $Z(x)$ of $x$ in G; it contains every maximal torus containing $x$. It follows that the largest orbit type $\tau$ is the conjugacy class of the maximal tori of G. The open set $G_{(\tau)}$ is the set of very regular elements of G (§5, no. 1, Remark). Assume that G is simply-connected. Then $G_{(\tau)}$ is equal to the set $G_r$ of regular elements of G (§5, no. 2, Remark 2); if A is an alcove of a Cartan subalgebra $\mathfrak{t}$ of $\mathfrak{g}= L(G)$, the composite map $\pi : A\longrightarrow^{exp}G_r\longrightarrow G_r/$Int(G) is an isomorphism of analytic manifolds. Indeed, this is a homeomorphism (§5, no. 2, Cor. of Prop. 2); let $a\in A$, put $t=$ exp $a$ and identify $T_t(G)$ with $\mathfrak{g}$ by means of the translation $\gamma (t)$. The tangent map $T_a(\pi )$ can then be identified with the composite of the canonical injection $\mathfrak{t}\rightarrow \mathfrak{g}$ and the quotient map $\mathfrak{g}\rightarrow \mathfrak{g}/$Im(Ad $t^{-1}-1$). Since $t$ is regular, $T_a(\pi )$ is an isomorphism, hence the stated result (Differentiable and Analytic Manifolds, Results, 5.7.8).
 
 #### Example 2 {#lie-ix-s9-n4-exa-2 .statement tag=01HW}
 

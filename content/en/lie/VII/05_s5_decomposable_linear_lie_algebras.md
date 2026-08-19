@@ -33,7 +33,7 @@ subsections:
       pdf_page: 53
 statements: 29
 exercises: 11
-content_sha256: 7a2b8fd2c87e6ff2d8189963f1e5dd66074d658bc49c392b226ae69eb4f3454e
+content_sha256: f39f78e5e768eaa875cc9e5c66d099af4d6fb213b7eac794d0dda54d2fbca97d
 ---
 
 ## § 5. DECOMPOSABLE LINEAR LIE ALGEBRAS
@@ -94,7 +94,7 @@ Let $\mathfrak{g}$ be a Lie subalgebra of $\mathfrak{g}\mathfrak{l}(V)$ reductiv
 
 (iv) If $\mathfrak{h}'$ is a decomposable subalgebra of $\mathfrak{g}\mathfrak{l}(E),\pi^{-1}(\mathfrak{h}')$ is a decomposable subalgebra of $\mathfrak{g}\mathfrak{l}(V)$.
 
-Let $\mathfrak{s}= [\mathfrak{g},\mathfrak{g}]$ and let $\mathfrak{c}$ be the centre of $\mathfrak{g}$. Then $\mathfrak{g}=\mathfrak{s}\times \mathfrak{c}$, and $\pi (\mathfrak{g}) =$ $\pi (\mathfrak{s})\times \pi (\mathfrak{c})$ by Chap. I, §6, no. 4, Cor. of Prop. 5. Let $y\in \mathfrak{s}, z\in \mathfrak{c}, y_s$ and $y_n$ the semi-simple and nilpotent components of $y$. Then $y_s, y_n\in \mathfrak{s}$ (Chap. I, §6, no. 3, Prop. $3),y_s+z$ is semi-simple (Algebra, Chap. VII, §5, no. 7, Cor. of Prop. 16), and $y_n$ commutes with $y_s+z$. Hence, the semi-simple and nilpotent components of $y+z$ are $y_s+z$ and $y_n$. Thus, $\mathfrak{g}$ is decomposable. Since $\pi (\mathfrak{g})$ is reductive in $\mathfrak{g}\mathfrak{l}$(E), the same argument applies to $\pi (\mathfrak{g})$ and shows that $\pi (\mathfrak{g})$ is decomposable. Moreover, the nilpotent elements of $\mathfrak{g}$ (resp. $\pi (\mathfrak{g}))$ are the nilpotent elements of $\mathfrak{s}$ (resp. $\pi (\mathfrak{s}))$. Hence the nilpotent elements of $\pi (\mathfrak{g})$ are the images under $\pi$ of the nilpotent elements of $\mathfrak{g}$ (Chap. I, §6, no. 3, Prop. 4). The semi-simple elements of $\mathfrak{g}$ (resp. $\pi (\mathfrak{g}))$ are the sums of the semi-simple elements of $\mathfrak{s}$ (resp. $\pi (\mathfrak{s}))$ and the elements of $\mathfrak{c}$ (resp. $\pi (\mathfrak{c}))$. Thus the semi-simple elements of $\pi (\mathfrak{g})$ are the images under $\pi$ of the semi-simple elements of $\mathfrak{g}$ (Chap. I, loc. cit.). Hence (ii).
+Let $\mathfrak{s}= [\mathfrak{g},\mathfrak{g}]$ and let $\mathfrak{c}$ be the centre of $\mathfrak{g}$. Then $\mathfrak{g}=\mathfrak{s}\times \mathfrak{c}$, and $\pi (\mathfrak{g}) =$ $\pi (\mathfrak{s})\times \pi (\mathfrak{c})$ by Chap. I, §6, no. 4, Cor. of Prop. 5. Let $y\in \mathfrak{s}, z\in \mathfrak{c}, y_s$ and $y_n$ the semi-simple and nilpotent components of $y$. Then $y_s, y_n\in \mathfrak{s}$ (Chap. I, §6, no. 3, Prop. $3$)$,y_s+z$ is semi-simple (Algebra, Chap. VII, §5, no. 7, Cor. of Prop. 16), and $y_n$ commutes with $y_s+z$. Hence, the semi-simple and nilpotent components of $y+z$ are $y_s+z$ and $y_n$. Thus, $\mathfrak{g}$ is decomposable. Since $\pi (\mathfrak{g})$ is reductive in $\mathfrak{g}\mathfrak{l}$(E), the same argument applies to $\pi (\mathfrak{g})$ and shows that $\pi (\mathfrak{g})$ is decomposable. Moreover, the nilpotent elements of $\mathfrak{g}$ (resp. $\pi (\mathfrak{g})$) are the nilpotent elements of $\mathfrak{s}$ (resp. $\pi (\mathfrak{s})$). Hence the nilpotent elements of $\pi (\mathfrak{g})$ are the images under $\pi$ of the nilpotent elements of $\mathfrak{g}$ (Chap. I, §6, no. 3, Prop. 4). The semi-simple elements of $\mathfrak{g}$ (resp. $\pi (\mathfrak{g})$) are the sums of the semi-simple elements of $\mathfrak{s}$ (resp. $\pi (\mathfrak{s})$) and the elements of $\mathfrak{c}$ (resp. $\pi (\mathfrak{c})$). Thus the semi-simple elements of $\pi (\mathfrak{g})$ are the images under $\pi$ of the semi-simple elements of $\mathfrak{g}$ (Chap. I, loc. cit.). Hence (ii).
 
 Assertions (iii) and (iv) follow immediately from (i) and (ii).
 
@@ -116,7 +116,7 @@ Put $\mathfrak{g}=\mathfrak{g}\mathfrak{l}(V)$; the subalgebra $\mathfrak{h}'$ o
 
 If $\mathfrak{a}$ is a decomposable Lie subalgebra of $\mathfrak{g}\mathfrak{l}(V)$, and $\mathfrak{n}$ a Lie subalgebra of $\mathfrak{a}$, the normalizer (resp. centralizer) of $\mathfrak{n}$ in $\mathfrak{a}$ is decomposable.
 
-This follows from Prop. 3 by taking $\mathfrak{c}=\mathfrak{n},\mathfrak{b}=\mathfrak{n}$ (resp. $\mathfrak{c}=\mathfrak{n},\mathfrak{b}=\{0\})$.
+This follows from Prop. 3 by taking $\mathfrak{c}=\mathfrak{n},\mathfrak{b}=\mathfrak{n}$ (resp. $\mathfrak{c}=\mathfrak{n},\mathfrak{b}=\{0\}$).
 
 #### Corollary 2 {#lie-vii-s5-prop-3-cor-2 .statement tag=00WP}
 
@@ -218,7 +218,7 @@ Let $\mathfrak{g}$ be a decomposable Lie subalgebra of $\mathfrak{g}\mathfrak{l}
 
 (ii) Any two Lie subalgebras of $\mathfrak{g}$ with the properties in (i) are conjugate under Aut$_e(\mathfrak{g})$.
 
-The radical $\mathfrak{r}$ of $\mathfrak{g}$ is decomposable (no. 2, Cor. 2 of Prop. 4). By Cor. 2 of Prop. 6, there exists a commutative subalgebra $\mathfrak{t}$ of $\mathfrak{r}$, consisting of semi-simple elements, such that $\mathfrak{r}=\mathfrak{t}\oplus \mathfrak{n}_V(\mathfrak{r})$. Since ad$_{\mathfrak{g}}\mathfrak{t}$ consists of semi-simple elements, $\mathfrak{g}$ is the direct sum of $[\mathfrak{t},\mathfrak{g}]$ and the centralizer $\mathfrak{z}$ of $\mathfrak{t}$ (Chap. I, §3, no. 5, Prop. 6). Since $[\mathfrak{t},\mathfrak{g}]\subset \mathfrak{r},\mathfrak{g}=\mathfrak{z}+\mathfrak{r}$. Consequently, if $\mathfrak{s}$ is a Levi subalgebra of $\mathfrak{z}$ (Chap. I, §6, no. $8),\mathfrak{g}=\mathfrak{s}+\mathfrak{r}$, so $\mathfrak{s}$ is a Levi subalgebra of $\mathfrak{g}$. Put $\mathfrak{m}=\mathfrak{s}\oplus \mathfrak{t}$. Since $[\mathfrak{s},\mathfrak{t}] =\{0\},\mathfrak{m}$ is a Lie subalgebra of $\mathfrak{g}$, reductive in $\mathfrak{g}\mathfrak{l}(V)$ by Chap. I, §6, no. 5, Th. 4. Moreover,
+The radical $\mathfrak{r}$ of $\mathfrak{g}$ is decomposable (no. 2, Cor. 2 of Prop. 4). By Cor. 2 of Prop. 6, there exists a commutative subalgebra $\mathfrak{t}$ of $\mathfrak{r}$, consisting of semi-simple elements, such that $\mathfrak{r}=\mathfrak{t}\oplus \mathfrak{n}_V(\mathfrak{r})$. Since ad$_{\mathfrak{g}}\mathfrak{t}$ consists of semi-simple elements, $\mathfrak{g}$ is the direct sum of $[\mathfrak{t},\mathfrak{g}]$ and the centralizer $\mathfrak{z}$ of $\mathfrak{t}$ (Chap. I, §3, no. 5, Prop. 6). Since $[\mathfrak{t},\mathfrak{g}]\subset \mathfrak{r},\mathfrak{g}=\mathfrak{z}+\mathfrak{r}$. Consequently, if $\mathfrak{s}$ is a Levi subalgebra of $\mathfrak{z}$ (Chap. I, §6, no. $8$)$,\mathfrak{g}=\mathfrak{s}+\mathfrak{r}$, so $\mathfrak{s}$ is a Levi subalgebra of $\mathfrak{g}$. Put $\mathfrak{m}=\mathfrak{s}\oplus \mathfrak{t}$. Since $[\mathfrak{s},\mathfrak{t}] =\{0\},\mathfrak{m}$ is a Lie subalgebra of $\mathfrak{g}$, reductive in $\mathfrak{g}\mathfrak{l}(V)$ by Chap. I, §6, no. 5, Th. 4. Moreover,
 
 $$
 \mathfrak{g}=\mathfrak{s}\oplus \mathfrak{r}=\mathfrak{s}\oplus \mathfrak{t}\oplus \mathfrak{n}_V(\mathfrak{r}) =\mathfrak{s}\oplus \mathfrak{t}\oplus \mathfrak{n}_V(\mathfrak{g}) =\mathfrak{m}\oplus \mathfrak{n}_V(\mathfrak{g})
@@ -238,21 +238,21 @@ Let $\mathfrak{n}$ be a Lie subalgebra of $\mathfrak{g}\mathfrak{l}(V)$ consisti
 
 (ii) Let $\rho_1, \rho_2$ be finite dimensional linear representations of $\mathfrak{n}$ such that the elements of $\rho_1(\mathfrak{n})$ and $\rho_2(\mathfrak{n})$ are nilpotent, and $\pi_1, \pi_2$ the representations of N compatible with $\rho_1, \rho_2$. Then $\pi_1\otimes \pi_2$ is the representation of N compatible with $\rho_1\otimes \rho_2$.
 
-(iii) Let $\rho_1, \rho_2$ be finite dimensional linear representations of $\mathfrak{n}$ on vector spaces $V_1,V_2$, such that the elements of $\rho_1(\mathfrak{n})$ and $\rho_2(\mathfrak{n})$ are nilpotent, $\rho$ the representation of $\mathfrak{n}$ on Hom(V$_1,V_2)$ determined by $\rho_1, \rho_2$. Let $\pi_1, \pi_2$ be the representations of N compatible with $\rho_1, \rho_2$, and $\pi$ the representation of N on Hom(V$_1,V_2)$ determined by $\pi_1, \pi_2$. Then $\pi$ is the representation of N compatible with $\rho$.
+(iii) Let $\rho_1, \rho_2$ be finite dimensional linear representations of $\mathfrak{n}$ on vector spaces $V_1,V_2$, such that the elements of $\rho_1(\mathfrak{n})$ and $\rho_2(\mathfrak{n})$ are nilpotent, $\rho$ the representation of $\mathfrak{n}$ on Hom(V$_1,V_2$) determined by $\rho_1, \rho_2$. Let $\pi_1, \pi_2$ be the representations of N compatible with $\rho_1, \rho_2$, and $\pi$ the representation of N on Hom(V$_1,V_2$) determined by $\pi_1, \pi_2$. Then $\pi$ is the representation of N compatible with $\rho$.
 
 Assertion (i) is clear. Let $\rho_1, \rho_2, \pi_1, \pi_2$ be as in (ii). If $x\in \mathfrak{n}$, we have, since $\rho_1(x)\otimes 1$ and $1\otimes \rho_2(x)$ commute,
 
-exp($\rho_1(x)\otimes 1 + 1\otimes \rho_2(x)$) $=$ exp($\rho_1(x)\otimes 1$). exp(1 $\otimes \rho_2(x))$
+exp($\rho_1(x)\otimes 1 + 1\otimes \rho_2(x)$) $=$ exp($\rho_1(x)\otimes 1$). exp(1 $\otimes \rho_2(x)$)
 
-= (exp $\rho_1(x))\otimes 1.1\otimes$ (exp$\rho_2(x))$
+= (exp $\rho_1(x)$)$\otimes 1.1\otimes$ (exp$\rho_2(x)$)
 
-= (exp $\rho_1(x))\otimes$ (exp$\rho_2(x))$
+= (exp $\rho_1(x)$)$\otimes$ (exp$\rho_2(x)$)
 
-$=\pi_1$(exp $x)\otimes \pi_2$(exp $x)$
+$=\pi_1$(exp $x$)$\otimes \pi_2$(exp $x$)
 
-$= (\pi_1\otimes \pi_2$)(exp $x)$,
+$= (\pi_1\otimes \pi_2$)(exp $x$),
 
-hence (ii). Let $\rho_1, \rho_2, \rho , \pi_1, \pi_2, \pi ,V_1,V_2$ be as in (iii). If $v_1\in$ EndV$_1$ and $v_2\in$ EndV$_2$, denote by $R_{v_1}$ and $L_{v_2}$ the maps $u \rightarrow uv_1$ and $u \rightarrow v_2u$ from Hom(V$_1,V_2)$ to itself; these maps commute and $\rho (x)u= (L_{\rho_2(x)}-R_{\rho_1(x)})u$, so
+hence (ii). Let $\rho_1, \rho_2, \rho , \pi_1, \pi_2, \pi ,V_1,V_2$ be as in (iii). If $v_1\in$ EndV$_1$ and $v_2\in$ EndV$_2$, denote by $R_{v_1}$ and $L_{v_2}$ the maps $u \rightarrow uv_1$ and $u \rightarrow v_2u$ from Hom(V$_1,V_2$) to itself; these maps commute and $\rho (x)u= (L_{\rho_2(x)}-R_{\rho_1(x)})u$, so
 
 exp$\rho (x).u=$ exp $L_{\rho_2(x)}$. exp $R_{-\rho_1(x)}.u$
 
@@ -264,7 +264,7 @@ $$
 = L_{\pi_2(expx)}.R_{\pi_1(exp(-x))}.u
 $$
 
-$=\pi$(exp $x).u$,
+$=\pi$(exp $x$)$.u$,
 
 hence (iii).
 
@@ -320,7 +320,7 @@ Let $\mathfrak{n}$ be a Lie subalgebra of $\mathfrak{g}\mathfrak{l}(V)$ consisti
 
 (iii) $\mathfrak{n}$ is the set of $x\in \mathfrak{g}\mathfrak{l}(V)$ such that $\rho (x)(F) = 0$.
 
-Let $n=$ dim V. By Engel’s theorem, V can be identified with $k^n$ in such a way that $\mathfrak{n}\subset \mathfrak{n}(n, k)$. Let P be the algebra of polynomial functions on $\mathfrak{g}\mathfrak{l}(n, k)$. For $i= 0,1, . .$., let $P_i$ be the set of elements of P homogeneous of degree $i$. Let N = exp $\mathfrak{n}$, which is a subgroup of the strictly lower triangular group T. Let J be the set of elements of P that are zero on N; this is an ideal in P. Let $N_J$ be the set of $x\in \mathfrak{g}\mathfrak{l}(n, k)$ such that $p(x) = 0$ for all $p\in J$. Then $N\subset N_J$. Conversely, let $x\in N_J$. Denote by $p_{ij}$ the polynomial functions giving the entries of an element of $\mathfrak{g}\mathfrak{l}(n, k)$. The ideal J contains the $p_{ij}$ (for $i < j)$ and the $p_{ii}-1$; hence $x\in T$. On the other hand, if $u$ is a linear form on $\mathfrak{g}\mathfrak{l}(n, k)$ which is zero on $\mathfrak{n}$, there exists $p_u\in P$ such that $p_u(z) =u$(log $z)$ for all $z\in T ($§3, no. 1, Lemma 1 (i)); we have $p_u\in J$, so $u$(log $x) = 0$. It follows that log $x$ belongs to $\mathfrak{n}$, so $x\in N$, proving that $N = N_J$.
+Let $n=$ dim V. By Engel’s theorem, V can be identified with $k^n$ in such a way that $\mathfrak{n}\subset \mathfrak{n}(n, k)$. Let P be the algebra of polynomial functions on $\mathfrak{g}\mathfrak{l}(n, k)$. For $i= 0,1, . .$., let $P_i$ be the set of elements of P homogeneous of degree $i$. Let N = exp $\mathfrak{n}$, which is a subgroup of the strictly lower triangular group T. Let J be the set of elements of P that are zero on N; this is an ideal in P. Let $N_J$ be the set of $x\in \mathfrak{g}\mathfrak{l}(n, k)$ such that $p(x) = 0$ for all $p\in J$. Then $N\subset N_J$. Conversely, let $x\in N_J$. Denote by $p_{ij}$ the polynomial functions giving the entries of an element of $\mathfrak{g}\mathfrak{l}(n, k)$. The ideal J contains the $p_{ij}$ (for $i < j$) and the $p_{ii}-1$; hence $x\in T$. On the other hand, if $u$ is a linear form on $\mathfrak{g}\mathfrak{l}(n, k)$ which is zero on $\mathfrak{n}$, there exists $p_u\in P$ such that $p_u(z) =u$(log $z$) for all $z\in T ($§3, no. 1, Lemma 1 (i)); we have $p_u\in J$, so $u$(log $x$) $= 0$. It follows that log $x$ belongs to $\mathfrak{n}$, so $x\in N$, proving that $N = N_J$.
 
 For all $p\in P$ and $g\in \mathbf{G}\mathbf{L}_n(k)$, let $\lambda (g)p$ be the function $x \rightarrow p(g^{-1}x)$ on $\mathfrak{g}\mathfrak{l}(n, k)$; then $\lambda (g)p\in P,\lambda (g)$ is an automorphism of the algebra P, and $\lambda$ is a representation of $\mathbf{G}\mathbf{L}_n(k)$ on P which leaves each $P_i$ stable. We show that
 
@@ -330,7 +330,7 @@ $$
 
 If $x\in N, p\in J, y\in N$, then $(\lambda (x)p)(y) =p(x^{-1}y) = 0$ since $x^{-1}y\in N$; thus $\lambda (x)p\in J$, so $\lambda (x)J = J$. Let $x\in \mathbf{G}\mathbf{L}_n(k)$ be such that $\lambda (x)J = J$; let $p\in J$; then $p(x^{-1}) = (\lambda (x)p)(e) = 0$, so $x^{-1}\in N_J= N$ and $x\in N$. This proves (i).
 
-The ideal J is of finite type (Commutative Algebra, Chap. III, §2, no. 10, Cor. 2 of Th. 2). Hence, there exists an integer $q$ such that, if $W = P_0+ P_1+\cdots + P_q$, then $J\cap W$ generates J as an ideal. Denote by $\lambda_j$ (resp. $\lambda ')$ the subrepresentation of $\lambda$ defined by $P_J$ (resp. by W). By (1),
+The ideal J is of finite type (Commutative Algebra, Chap. III, §2, no. 10, Cor. 2 of Th. 2). Hence, there exists an integer $q$ such that, if $W = P_0+ P_1+\cdots + P_q$, then $J\cap W$ generates J as an ideal. Denote by $\lambda_j$ (resp. $\lambda '$) the subrepresentation of $\lambda$ defined by $P_J$ (resp. by W). By (1),
 
 $$
 N =\{x\in \mathbf{G}\mathbf{L}_n(k)|\lambda '(x)(J\cap W) = J\cap W\} \tag{2}
@@ -338,7 +338,7 @@ $$
 
 We show that, for all $j$, there exists a representation $\sigma_j$ of the Lie algebra $\mathfrak{g}\mathfrak{l}(n, k)$ on $P_j$ such that:
 
-$\sigma_j|\mathfrak{n}(n, k)$ is compatible (§$3$, no$.1)$ with $\lambda_j|T$. (3)
+$\sigma_j|\mathfrak{n}(n, k)$ is compatible (§$3$, no$.1$) with $\lambda_j|T$. (3)
 
 For all $x\in k.1_n, \sigma_j(x)$ is a homothety. (4)
 
@@ -366,7 +366,7 @@ $$
 \mathfrak{n}=\{x\in \mathfrak{n}(n, k)|\sigma '(x)(J\cap W)\subset J\cap W\} \tag{5}
 $$
 
-Let $d=$ dim(J $\cap W)$, and let $\tau =\bigwedge^d\sigma '$. Let $D =\bigwedge^d(J\cap W)$. By (5) and Lemma 2 (i),
+Let $d=$ dim(J $\cap W$), and let $\tau =\bigwedge^d\sigma '$. Let $D =\bigwedge^d(J\cap W)$. By (5) and Lemma 2 (i),
 
 $$
 \mathfrak{n}=\{x\in \mathfrak{n}(n, k)|\tau (x)(D)\subset D\} \tag{6}
@@ -400,7 +400,7 @@ Let $\mathfrak{g}$ be a Lie subalgebra of $\mathfrak{g}\mathfrak{l}(V)$ and let 
 
 a$)\mathfrak{g}$ is commutative.
 
-The semi-simple (resp. nilpotent) elements of $\mathfrak{g}$ form a vector subspace $\mathfrak{g}_s$ (resp. $\mathfrak{g}_n)$. The assumption is equivalent to $\mathfrak{g}=\mathfrak{g}_s\oplus \mathfrak{g}_n$, hence the fact that $\mathfrak{g}$ is decomposable.
+The semi-simple (resp. nilpotent) elements of $\mathfrak{g}$ form a vector subspace $\mathfrak{g}_s$ (resp. $\mathfrak{g}_n$). The assumption is equivalent to $\mathfrak{g}=\mathfrak{g}_s\oplus \mathfrak{g}_n$, hence the fact that $\mathfrak{g}$ is decomposable.
 
 b$)\mathfrak{g}$ is reductive.
 
@@ -452,7 +452,7 @@ Let $\widetilde{\mathfrak{g}}$ be the subalgebra of $\mathfrak{g}\mathfrak{l}(V)
 
 Let $\mathfrak{g}$ be a decomposable Lie subalgebra of $\mathfrak{g}\mathfrak{l}(V)$. Let $\mathscr{T}$ be the set of commutative subalgebras of $\mathfrak{g}$ consisting of semi-simple elements (cf. Prop. 6). The maximal elements of $\mathscr{T}$ all have the same dimension.
 
-Let $k'$ be an algebraically closed extension of $k$ and $V'= V\otimes_kk',\mathfrak{g}'=$ $\mathfrak{g}\otimes_kk'$. Let $\mathfrak{t}_1,\mathfrak{t}_2$ be maximal elements of $\mathscr{T},\mathfrak{t}'_i=\mathfrak{t}_i\otimes_kk',\mathfrak{h}_i$ the commutant of $\mathfrak{t}_i$ in $\mathfrak{g},\mathfrak{h}'_i=\mathfrak{h}_i\otimes_kk'$. Then $\mathfrak{h}_i$ is a Cartan subalgebra of $\mathfrak{g}$ (Prop. 6) so $\mathfrak{h}'_i$ is a Cartan subalgebra of $\mathfrak{g}'$. Then $\mathfrak{h}_i=\mathfrak{t}_i\times \mathfrak{n}_V(\mathfrak{h}_i)$, hence $\mathfrak{h}'_i=\mathfrak{t}'_i\times \mathfrak{n}_{V'}(\mathfrak{h}'_i)$, so that $\mathfrak{t}'_i$ is the set of semi-simple elements of $\mathfrak{h}'_i$. Since $\mathfrak{g}'$ is decomposable (Cor. $3),\mathfrak{t}'_1$ and $\mathfrak{t}'_2$ are conjugate under Aut$_e(\mathfrak{g}')$ (Prop. 6), so dim$\mathfrak{t}_1=$ dim$\mathfrak{t}_2$.
+Let $k'$ be an algebraically closed extension of $k$ and $V'= V\otimes_kk',\mathfrak{g}'=$ $\mathfrak{g}\otimes_kk'$. Let $\mathfrak{t}_1,\mathfrak{t}_2$ be maximal elements of $\mathscr{T},\mathfrak{t}'_i=\mathfrak{t}_i\otimes_kk',\mathfrak{h}_i$ the commutant of $\mathfrak{t}_i$ in $\mathfrak{g},\mathfrak{h}'_i=\mathfrak{h}_i\otimes_kk'$. Then $\mathfrak{h}_i$ is a Cartan subalgebra of $\mathfrak{g}$ (Prop. 6) so $\mathfrak{h}'_i$ is a Cartan subalgebra of $\mathfrak{g}'$. Then $\mathfrak{h}_i=\mathfrak{t}_i\times \mathfrak{n}_V(\mathfrak{h}_i)$, hence $\mathfrak{h}'_i=\mathfrak{t}'_i\times \mathfrak{n}_{V'}(\mathfrak{h}'_i)$, so that $\mathfrak{t}'_i$ is the set of semi-simple elements of $\mathfrak{h}'_i$. Since $\mathfrak{g}'$ is decomposable (Cor. $3$)$,\mathfrak{t}'_1$ and $\mathfrak{t}'_2$ are conjugate under Aut$_e(\mathfrak{g}')$ (Prop. 6), so dim$\mathfrak{t}_1=$ dim$\mathfrak{t}_2$.
 
 #### Theorem 2 {#lie-vii-s5-thm-2 .statement tag=00X6}
 

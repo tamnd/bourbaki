@@ -37,7 +37,7 @@ subsections:
       pdf_page: 345
 statements: 31
 exercises: 7
-content_sha256: f3266c68dfb1405a75fcd339eea03443646cac7036648f520b60474aad74cf26
+content_sha256: 7bdaeb3770eb89982e68c43bf2e83fe7fcc909ea7b2bef05fb8cc056d6605c72
 ---
 
 ## § 17. NORMES ET TRACES RÉDUITES
@@ -108,7 +108,7 @@ $$
 
 = det($u$)$x_1\wedge  \cdots  \wedge x_m$.
 
-Par suite, $h_1(\widetilde{u}\circ u(x_1)) =h_1$(det($u$)$x_1)$, d’où la relation $\widetilde{u}\circ u=$ det($u$)$_M$ d’après le lemme 1.
+Par suite, $h_1(\widetilde{u}\circ u(x_1)) =h_1$(det($u$)$x_1$), d’où la relation $\widetilde{u}\circ u=$ det($u$)$_M$ d’après le lemme 1.
 
 Notons U l’endomorphisme $X-\overline{u}$ du L[X]-module M[X] (VIII, p. 329). D’après ce qui précède, appliqué à U, il existe un endomorphisme $\widetilde{U}$ du L[X]-module M[X] qui satisfait aux relations
 
@@ -118,7 +118,7 @@ $$
 
 pour $x_1, . . . , x_m$ dans M et
 
-(10) $\widetilde{U}\circ U =$ det(X $-u)_{M[X]}$.
+(10) $\widetilde{U}\circ U =$ det(X $-u$)$_{M[X]}$.
 
 Considérons $\widetilde{U}$ comme un élément de End(M)[X](VIII, p. 9) ; d’après la formule (9) et le lemme 1, il est de degré $\leqslant m-1$ et on peut donc l’écrire sous la forme
 
@@ -212,7 +212,7 @@ B) Démontrons maintenant l’existence de P.
 
 D’après le th. 1 de VIII, p. 248, il existe une extension L de K, galoisienne et de degré fini, et un isomorphisme de L-algèbres $\theta : A_{(L)}\rightarrow \mathbf{M}_n(L)$. D’après la formule (12) de III, p. 108, le polynôme Pc($a; X$) est aussi le polynôme caractéristique de l’élément $1\otimes a$ de la L-algèbre $A_{(L)}$, donc de l’élément $\theta (1\otimes a)$ de la L-algèbre $\mathbf{M}_n(L)$.
 
-Posons P(X) = det(X$I_n-\theta (1\otimes a))$; c’est un polynôme unitaire de L[X]. D’après l’exemple 3 de III, p. 111, on a
+Posons P(X) = det(X$I_n-\theta (1\otimes a)$); c’est un polynôme unitaire de L[X]. D’après l’exemple 3 de III, p. 111, on a
 
 (19) Pc($a; X$) $= P(X)^n$.
 
@@ -242,7 +242,7 @@ Les formules suivantes résultent des formules (20), (22) et des formules (7) et
 
 (23) Tr$_{A/K}(a) =n$ Trd$_{A/K}(a)$
 
-(24) $N_{A/K}(a) =$ (Nrd$_{A/K}(a))^n$.
+(24) $N_{A/K}(a) =$ (Nrd$_{A/K}(a)$)$^n$.
 
 #### Proposition 3 {#alg-viii-s17-prop-3 .statement tag=00KL}
 
@@ -420,7 +420,7 @@ Soit $u$ l’élément $\sum_{i\in I}T_i\otimes e_i$ de la $K(\mathbf{T})$-algè
 
 Choisissons une extension L de K et un isomorphisme $\theta$ de L-algèbres de $A_{(L)}$ sur $\mathbf{M}_n(L)$. Notons $\overline{\theta}: A_{(L(\mathbf{T}))}\rightarrow \mathbf{M}_n(L(\mathbf{T}))$ l’isomorphisme de $L(\mathbf{T}$)-algèbres déduit de $\theta$ par extension des scalaires. D’après le cor. 1 de VIII, p. 335, on a
 
-(47) $P(X) =\chi_{\overline{\theta}(u)}(X) =$ det(X$I_n-\overline{\theta}(u)) =$ det$(XI_n-\sum_{i\in I}T_i\theta (1\otimes e_i))$.
+(47) $P(X) =\chi_{\overline{\theta}(u)}(X) =$ det(X$I_n-\overline{\theta}(u)$) $=$ det$(XI_n-\sum_{i\in I}T_i\theta (1\otimes e_i))$.
 
 Comme les matrices $\theta (1\otimes e_i)$ appartiennent à $\mathbf{M}_n$(L), cette formule montre que P est un polynôme homogène de degré $n$ dans $L[\mathbf{T},X]$. Il appartient aussi à $K(\mathbf{T})[X]$ et il s’écrit sous la forme $P(X) =\sum_{j\geqslant 0}c_jX^j$, où chaque $c_j$ appartient à $K(\mathbf{T})\cap L[\mathbf{T}]$. D’après le lemme 3, chacun des éléments $c_j$ appartient à $K[\mathbf{T}]$, d’où le lemme 4.
 
@@ -488,11 +488,11 @@ En effet, un sous-corps commutatif maximal L de D est une sous-algèbre semi-sim
 
 Soit B une sous-algèbre simple de A. Notons L le centre de B et $B'$ le commutant de B dans A. Alors $B'$ est une algèbre centrale et simple sur le corps L ; notons $r$ son degré réduit. Pour tout élément $b$ de B, on a les relations
 
-(56) Pcrd$_{A/K}(b; X) = N_{L[X]/K[X]}$(Pcrd$_{B/L}(b; X))^r$
+(56) Pcrd$_{A/K}(b; X) = N_{L[X]/K[X]}$(Pcrd$_{B/L}(b; X)$)$^r$
 
-(57) Trd$_{A/K}(b) =r$ Tr$_{L/K}$(Trd$_{B/K}(b))$
+(57) Trd$_{A/K}(b) =r$ Tr$_{L/K}$(Trd$_{B/K}(b)$)
 
-(58) Nrd$_{A/K}(b) = N_{L/K}$(Nrd$_{B/L}(b))^r$.
+(58) Nrd$_{A/K}(b) = N_{L/K}$(Nrd$_{B/L}(b)$)$^r$.
 
 #### Lemme 6 {#alg-viii-s17-lem-6 .statement tag=00L1}
 
@@ -522,7 +522,7 @@ $$
 
 0 $\cdot . .$. 1 $-a_1$
 
-Le calcul du déterminant de X$I_n-\tau$ se fait par récurrence sur $s$, en développant selon la première ligne. On trouve det(X$I_n-\tau ) = P(X)$. Autrement dit, on a P(X) = Pc$_{K''/K'}(t; X)$. En particulier, Tr$_{K''/K'}(t) =-a_1$ et $N_{K''/K'}(t) = (-1)^sa_s$. Compte tenu de la formule de transitivité (III, p. 114, cor.), on a
+Le calcul du déterminant de X$I_n-\tau$ se fait par récurrence sur $s$, en développant selon la première ligne. On trouve det(X$I_n-\tau$ ) $= P(X)$. Autrement dit, on a P(X) = Pc$_{K''/K'}(t; X)$. En particulier, Tr$_{K''/K'}(t) =-a_1$ et $N_{K''/K'}(t) = (-1)^sa_s$. Compte tenu de la formule de transitivité (III, p. 114, cor.), on a
 
 Tr$_{K''/K}(t) =-$ Tr$_{K'/K}(a_1),N_{K''/K}(t) = (-1)^{sd}N_{K'/K}(a_s)$ et Q(X) = Pc$_{K''/K}(t; X)$.
 
@@ -536,7 +536,7 @@ $$
 
 d’où $n^2=r^2s^2d^2$, c’est-à-dire $n=rsd$.
 
-Soit $b$ un élément de B et soit P(X) son polynôme caractéristique réduit dans la L-algèbre B ; il est unitaire de degré $s$. D’après le lemme 6, le polynôme $Q = N_{L[X]/K[X]}(P)$ est unitaire de degré $sd$. Le polynôme $R = Q^r$ est donc unitaire de degré $rsd=n$. Toujours d’après le lemme 6, le coefficient de $X^{n-1}$ dans R(X) est égal à $-r$ Tr$_{L/K}$(Trd$_{B/L}(b))$ et le terme constant de R(X) est $(N_{L/K}((-1)^s$ Nrd$_{B/L}(b)))^r= (-1)^nN_{L/K}$(Nrd$_{B/L}(b))^r$.
+Soit $b$ un élément de B et soit P(X) son polynôme caractéristique réduit dans la L-algèbre B ; il est unitaire de degré $s$. D’après le lemme 6, le polynôme $Q = N_{L[X]/K[X]}(P)$ est unitaire de degré $sd$. Le polynôme $R = Q^r$ est donc unitaire de degré $rsd=n$. Toujours d’après le lemme 6, le coefficient de $X^{n-1}$ dans R(X) est égal à $-r$ Tr$_{L/K}$(Trd$_{B/L}(b)$) et le terme constant de R(X) est $(N_{L/K}((-1)^s$ Nrd$_{B/L}(b)))^r= (-1)^nN_{L/K}$(Nrd$_{B/L}(b)$)$^r$.
 
 Comme $[A : K] =r^2d[B : K]$, le B-module à gauche A est libre de dimension $r^2d$ (VIII, p. 120, prop. 5). On a donc
 
@@ -544,7 +544,7 @@ Comme $[A : K] =r^2d[B : K]$, le B-module à gauche A est libre de dimension $r^
 
 d’après le corollaire de III, p. 114, on a
 
-(61) Pc$_{B/K}(b; X) = N_{L[X]/K[X]}$(Pc$_{B/L}(b; X))$ et comme P(X) est le polynôme caractéristique réduit de $b$ dans la L-algèbre B, on a
+(61) Pc$_{B/K}(b; X) = N_{L[X]/K[X]}$(Pc$_{B/L}(b; X)$) et comme P(X) est le polynôme caractéristique réduit de $b$ dans la L-algèbre B, on a
 
 (62) Pc$_{B/L}(b; X) = P(X)^s$.
 
@@ -564,9 +564,9 @@ Dans ce numéro, on note D un corps de centre K et de degré fini sur K. On note
 
 Soit V un espace vectoriel à droite sur le corps D, de dimension finie. Soit E l’algèbre End$_D(V)$sur le corps K ; elle est centrale, simple et de degré fini. Pour tout élément inversible $u$ de E, on a
 
-(64) Nrd$_{E/K}(u) =$ Nrd(det $u)$
+(64) Nrd$_{E/K}(u) =$ Nrd(det $u$)
 
-(cf. VIII, p. 442, prop. 2 pour la définition du déterminant det $u$ de $u)$.
+(cf. VIII, p. 442, prop. 2 pour la définition du déterminant det $u$ de $u$).
 
 Notons $n$ la dimension de V sur D et identifions E à l’algèbre de matrices $\mathbf{M}_n(D)$ au moyen d’une base de V sur D. Le groupe multiplicatif GL$_n(D)$ de l’algèbre E est engendré par les matrices diagonales et les matrices $B_{ij}(\lambda )$ (II, p. 162, cor. 1). La prop. 9 résulte donc des deux cas particuliers ci-dessous.
 

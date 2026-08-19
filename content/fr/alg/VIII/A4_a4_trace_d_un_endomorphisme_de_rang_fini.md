@@ -22,7 +22,7 @@ subsections:
       pdf_page: 455
 statements: 5
 exercises: 2
-content_sha256: 9cd2d17e2a2dcae4f31cfa2e66c955f9e87049726f818b929d13ba20dd27e03b
+content_sha256: 2b5bceaf7b92da4608e9005ebff47dee78330e70ac6f1e60a8fc8ef513e6278e
 ---
 
 ### APPENDICE 4 TRACE D’UN ENDOMORPHISME DE RANG FINI
@@ -73,7 +73,7 @@ Dans ce numéro, A désigne un anneau commutatif. Soit E un A-module projectif. 
 
 #### Proposition 1 {#alg-viii-a4-prop-1 .statement tag=00QP}
 
-Soit E un A-module libre. Soit $(e_i)_{i\in I}$ une base de E et soit $(e^*_i)_{i\in I}$ sa base duale. Soit $u\in$ End$^f_A(E)$. La famille $(\langle u(e_i), e^*_i\rangle )_{i\in I}$ est à support fini et sa somme est égale à Tr( $u)$.
+Soit E un A-module libre. Soit $(e_i)_{i\in I}$ une base de E et soit $(e^*_i)_{i\in I}$ sa base duale. Soit $u\in$ End$^f_A(E)$. La famille $(\langle u(e_i), e^*_i\rangle )_{i\in I}$ est à support fini et sa somme est égale à Tr( $u$).
 
 Il suffit de traiter le cas où $u$ est de la forme $\theta_E(x^*\otimes x)$ avec $x\in E$ et $x^*\in E^*$. La famille $(\langle x, e^*_i\rangle )_{i\in I}$ est alors à support fini et l’on a $x=\sum_{i\in I}\langle x, e^*_i\rangle e_i$. Par suite, la famille $(\langle x, e^*_i\rangle \langle e_i, x^*\rangle )_{i\in I}$ est aussi à support fini et l’on a $\langle x, x^*\rangle =\sum_{i\in I}\langle x, e^*_i\rangle \langle e_i, x^*\rangle$. Or on a $\langle u(e_i), e^*_i\rangle =\langle x, e^*_i\rangle \langle e_i, x^*\rangle$ pour tout $i\in I$. Cela démontre la proposition.
 
@@ -99,7 +99,7 @@ Notons $i$ l’injection canonique de F dans E, et $v: E\rightarrow F$ l’homom
 
 Soient E un A-module projectif et $u\in$ End$^f_A(E)$. Pour tout entier naturel $p$, le A-module $\wedge^pE$ est projectif (III, p. 87, cor. 2), l’endomorphisme $\wedge^pu$ appartient à End$^f_A(\wedge^pE)$ (III, p. 80, prop. 6) et il est nul dès que $p$ est assez grand. L’ensemble $1_E+$ End$^f_A(E)$ est stable par composition. On définit une application det de $1_E+$ End$^f_A(E)$ dans A en posant
 
-det(1$_E+u) =\sum_{p\geqslant 0}$ Tr$\wedge^pu$,
+det(1$_E+u$) $=\sum_{p\geqslant 0}$ Tr$\wedge^pu$,
 
 pour tout $u\in$ End$^f_A(E)$.
 
@@ -111,21 +111,21 @@ Soit E un A-module projectif.
 
 a) Soit $u\in$ End$^f_A(E)$. Soit F un sous-A-module projectif de E, contenant Im $u$, et soit $u_F$ l’endomorphisme de F induit par $u$. On a
 
-(5) det(1$_E+u) =$ det(1$_F+u_F)$.
+(5) det(1$_E+u$) $=$ det(1$_F+u_F$).
 
 b) Soient $u, v$ deux éléments de End$^f_A(E)$. On a
 
-(6) det$((1_E+u)\circ (1_E+v))=$ det(1$_E+u)$ det(1$_E+v)$.
+(6) det$((1_E+u)\circ (1_E+v))=$ det(1$_E+u$) det(1$_E+v$).
 
 Prouvons a). Pour tout entier $p\geqslant 0$, le A-module projectif $\wedge^pF$ s’identifie à un sous-module de $\wedge^pE$ (III, p. 88, cor.). L’image de $\wedge^pu$ est contenue dans $\wedge^pF$, et l’endomorphisme de $\wedge^pF$ induit par $\wedge^pu$ est égal à $\wedge^pu_F$. On a donc Tr($\wedge^pu$) $=$ Tr($\wedge^pu_F$) en vertu du cor. de la prop. 2, d’où a).
 
-Prouvons b). Soit G un A-module tel que le A-module $L = E\oplus G$ soit libre. Notons $u', v'$ les endomorphismes $u\oplus 0_G$ et $v\oplus 0_G$ de L. D’après a), on a les relations det(1$_L+u') =$ det(1$_E+u)$, det(1$_L+v') =$ det(1$_E+v)$ et
+Prouvons b). Soit G un A-module tel que le A-module $L = E\oplus G$ soit libre. Notons $u', v'$ les endomorphismes $u\oplus 0_G$ et $v\oplus 0_G$ de L. D’après a), on a les relations det(1$_L+u'$) $=$ det(1$_E+u$), det(1$_L+v'$) $=$ det(1$_E+v$) et
 
-det(1$_L+u'+v'+u'\circ v') =$ det(1$_E+u+v+u\circ v)$; il suffit donc de prouver l’assertion b) lorsque le A-module E est libre. Il existe alors un sous-module libre de type fini F de E qui contient l’image de $u$ et celle de $v$. Posons $w=u+v+u\circ v$. L’image de $w$ est contenue dans F et l’on a $w_F=u_F+v_F+u_F\circ v_F$. On a donc, d’après (5), on a det(1$_E+u) =$ det(1$_F+u_F)$, det(1$_E+v) =$ det(1$_F+v_F)$ et
+det(1$_L+u'+v'+u'\circ v'$) $=$ det(1$_E+u+v+u\circ v$); il suffit donc de prouver l’assertion b) lorsque le A-module E est libre. Il existe alors un sous-module libre de type fini F de E qui contient l’image de $u$ et celle de $v$. Posons $w=u+v+u\circ v$. L’image de $w$ est contenue dans F et l’on a $w_F=u_F+v_F+u_F\circ v_F$. On a donc, d’après (5), on a det(1$_E+u$) $=$ det(1$_F+u_F$), det(1$_E+v$) $=$ det(1$_F+v_F$) et
 
-det$((1_E+u)\circ (1_E+v))=$ det(1$_E+w) =$ det(1$_F+w_F) =$ det((1$_F+u_F)\circ (1_F+v_F))$. Comme F est un A-module libre de type fini, on a
+det$((1_E+u)\circ (1_E+v))=$ det(1$_E+w$) $=$ det(1$_F+w_F$) $=$ det((1$_F+u_F$)$\circ (1_F+v_F)$). Comme F est un A-module libre de type fini, on a
 
-det((1$_F+u_F)\circ (1_F+v_F)) =$ det(1$_F+u_F)$ det(1$_F+v_F) =$ det(1$_E+u)$ det(1$_E+v)$.
+det((1$_F+u_F$)$\circ (1_F+v_F)$) $=$ det(1$_F+u_F$) det(1$_F+v_F$) $=$ det(1$_E+u$) det(1$_E+v$).
 
 ## EXERCICES {#alg-viii-a4-exercises}
 

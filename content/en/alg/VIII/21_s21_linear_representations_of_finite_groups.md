@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: f34b75b1da5153c3a540b186b99a0291ffc96473ebe702525f9b2da7de82cfeb
+content_sha256: 480b305b7736996724df25c215041271f480c71d3548542ade576886319fac43
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -173,7 +173,7 @@ $$
 \rho (g, g')(u) =\pi (g')\circ u\circ \pi (g^{-1})
 $$
 
-The K-module isomorphism $\theta_V: V^*\otimes_KV\rightarrow$ End$_K(V)$ of II, §4, No. 2, p. 271 is an isomorphism of representations from the external tensor product $\pi^{\vee}\pi$ to $\rho$. The mapping $g\mapsto \rho (1, g)$ (resp. $g\mapsto \rho (g,1))$ is a representation of G isomorphic to $\pi^{dim_KV}$ (resp. $(\pi^{\vee})^{dim_KV})$.
+The K-module isomorphism $\theta_V: V^*\otimes_KV\rightarrow$ End$_K(V)$ of II, §4, No. 2, p. 271 is an isomorphism of representations from the external tensor product $\pi^{\vee}\pi$ to $\rho$. The mapping $g\mapsto \rho (1, g)$ (resp. $g\mapsto \rho (g,1)$) is a representation of G isomorphic to $\pi^{dim_KV}$ (resp. $(\pi^{\vee})^{dim_KV}$).
 
 Let L be a commutative K-algebra, and let $(M, \pi )$ be a linear representation of the group G. The group homomorphism $\pi_{(L)}: G\rightarrow \mathbf{G}\mathbf{L}(M_{(L)})$ defined by $g\mapsto$ Id$_L\otimes \pi (g)$ is a linear representation of G in the L-module $M_{(L)}$, called the linear representation of G deduced from the representation $\pi$ by extension of the ring of scalars K to L.
 
@@ -249,11 +249,11 @@ If $(V, \pi )$ is a linear representation of G, then the restriction of $\pi$ to
 
 Let $(M, \sigma )$ be a representation of H.
 
-We view K[G] as a $(K[G]$, K[H])-bimodule and M as a K[H]-module. The K[G]-module $\mathscr{T}(M) = K[G]\otimes_{K[H]}M$ (VIII, p. 58) defines a linear representation of G, denoted by Ind$^G_H(\sigma )$ and called the representation of G induced by $\sigma$. If $(V, \pi )$ is a linear representation of G, then the K[H]-module $\mathscr{H}(V) =$ Hom$_{K[G]}(K[G],V)$ can be identified with the K[H]-module corresponding to the representation Res$^G_H(\pi )$. Consequently, the adjunction morphism (VIII, p. 59) gives a K-module isomorphism, called canonical, from Hom$_H(\sigma$, Res$^G_H(\pi ))$ to Hom$_G$(Ind$^G_H(\sigma ), \pi )$ (“Frobenius reciprocity”).
+We view K[G] as a $(K[G]$, K[H])-bimodule and M as a K[H]-module. The K[G]-module $\mathscr{T}(M) = K[G]\otimes_{K[H]}M$ (VIII, p. 58) defines a linear representation of G, denoted by Ind$^G_H(\sigma )$ and called the representation of G induced by $\sigma$. If $(V, \pi )$ is a linear representation of G, then the K[H]-module $\mathscr{H}(V) =$ Hom$_{K[G]}(K[G],V)$ can be identified with the K[H]-module corresponding to the representation Res$^G_H(\pi )$. Consequently, the adjunction morphism (VIII, p. 59) gives a K-module isomorphism, called canonical, from Hom$_H(\sigma$, Res$^G_H(\pi ))$ to Hom$_G$(Ind$^G_H(\sigma ), \pi$ ) (“Frobenius reciprocity”).
 
-We view K[G] as a $(K[H]$, K[G])-bimodule. The K[G]-module $\mathscr{H}(M) =$ Hom$_{K[H]}(K[G],M)$ defines a representation of G, denoted by Coind$^G_H(\sigma )$ and called the representation of G coinduced by $\sigma$. If $(V, \pi )$ is a linear representation of G, then the K[H]-module $\mathscr{T}(V) = K[G]\otimes_{K[G]}V$ can be identified with the K[H]-module corresponding to the representation Res$^G_H(\pi )$. Consequently, the adjunction morphism (loc. cit.) gives a K-module isomorphism, called canonical, from Hom$_H$(Res$^G_H(\pi ), \sigma )$ to Hom$_G(\pi$, Coind$^G_H(\sigma ))$.
+We view K[G] as a $(K[H]$, K[G])-bimodule. The K[G]-module $\mathscr{H}(M) =$ Hom$_{K[H]}(K[G],M)$ defines a representation of G, denoted by Coind$^G_H(\sigma )$ and called the representation of G coinduced by $\sigma$. If $(V, \pi )$ is a linear representation of G, then the K[H]-module $\mathscr{T}(V) = K[G]\otimes_{K[G]}V$ can be identified with the K[H]-module corresponding to the representation Res$^G_H(\pi )$. Consequently, the adjunction morphism (loc. cit.) gives a K-module isomorphism, called canonical, from Hom$_H$(Res$^G_H(\pi ), \sigma$ ) to Hom$_G(\pi$, Coind$^G_H(\sigma ))$.
 
-Let $\varepsilon : K[G]\rightarrow K[H]$ be the K-module homomorphism characterized by the relations $\varepsilon (h) =h$ if $h\in$ H and $\varepsilon (g) = 0$ if $g\in G$ - H. The mapping $\varepsilon$ is a homomorphism of $(K[H]$, K[H])-bimodules. Let $(M, \sigma )$ be a linear representation of H. The mapping $v\mapsto v\circ \varepsilon$ from Hom$_{K[H]}(K[H],M)$ to Hom$_{K[H]}(K[G],M)$ is a homomorphism of K[H]-modules. By identifying M with Hom$_{K[H]}(K[H],M)$, we obtain a homomorphism of K[H]-modules from M to Res$^G_H$(Coind$^G_H(\sigma ))$. Frobenius reciprocity sends it to a homomorphism $\iota$ of K[G]-modules from Ind$^G_H(\sigma )$ to Coind$^G_H(\sigma )$ characterized by the relation
+Let $\varepsilon : K[G]\rightarrow K[H]$ be the K-module homomorphism characterized by the relations $\varepsilon (h) =h$ if $h\in$ H and $\varepsilon (g) = 0$ if $g\in G$ - H. The mapping $\varepsilon$ is a homomorphism of $(K[H]$, K[H])-bimodules. Let $(M, \sigma )$ be a linear representation of H. The mapping $v\mapsto v\circ \varepsilon$ from Hom$_{K[H]}(K[H],M)$ to Hom$_{K[H]}(K[G],M)$ is a homomorphism of K[H]-modules. By identifying M with Hom$_{K[H]}(K[H],M)$, we obtain a homomorphism of K[H]-modules from M to Res$^G_H$(Coind$^G_H(\sigma )$). Frobenius reciprocity sends it to a homomorphism $\iota$ of K[G]-modules from Ind$^G_H(\sigma )$ to Coind$^G_H(\sigma )$ characterized by the relation
 
 $$
 \iota (g\otimes m)(g') =\varepsilon (g'g)m
@@ -335,7 +335,7 @@ By relations (1) of VIII, p. 399 and (3) of VIII, p. 400 and the universal prope
 
 If H is a subgroup of G, then the homomorphisms $\Theta_G$ and $\Theta_H$ associated with the groups G and H are compatible with the operations Res$^G_H$ and Ind$^G_H$ (VIII, p. 402 and VIII, p. 404, Proposition 3).
 
-Suppose that G is the product $G'\times G''$ of two groups. By VIII, p. 213, Remark 2, there exists a $\mathbf{Z}$-linear mapping $\kappa$ from $R_K(G')\otimes_{\mathbf{Z}}R_K(G'')$ to the group $R_K(G'\times G'')$ characterized by the relation $\kappa ([\pi ']\otimes [\pi '']) = [\pi '\pi '']$ for $\pi '$ (resp. $\pi '')$ a finite-dimensional representation of $G'$ (resp. $G'')$ and $\pi '\pi ''$ the external tensor product (VIII, p. 400, Example 5). It is a ring homomorphism. If the field K is algebraically closed, then the mapping $\kappa$ is an isomorphism (VIII, p. 213, Remark 2).
+Suppose that G is the product $G'\times G''$ of two groups. By VIII, p. 213, Remark 2, there exists a $\mathbf{Z}$-linear mapping $\kappa$ from $R_K(G')\otimes_{\mathbf{Z}}R_K(G'')$ to the group $R_K(G'\times G'')$ characterized by the relation $\kappa ([\pi ']\otimes [\pi '']) = [\pi '\pi '']$ for $\pi '$ (resp. $\pi ''$) a finite-dimensional representation of $G'$ (resp. $G''$) and $\pi '\pi ''$ the external tensor product (VIII, p. 400, Example 5). It is a ring homomorphism. If the field K is algebraically closed, then the mapping $\kappa$ is an isomorphism (VIII, p. 213, Remark 2).
 
 Suppose that G is the product $G'\times G''$ of two groups. Denote by $\psi$ the homomorphism from $\mathscr{Z}_K(G')\otimes_K\mathscr{Z}_K(G'')$ to $\mathscr{Z}_K(G)$ that sends $f'\otimes f''$ to the function $(g', g'')\mapsto f'(g')f''(g'')$. The following diagram commutes:
 
@@ -365,7 +365,7 @@ $$
 
 Denote by $\widehat{\tau}$ the trace in the algebra $F(\widehat{G})$. Let $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ be an element of $F(\widehat{G})$; we have (cf. III, §9, No. 3, p. 545, Example 3)
 
-(10) $\widehat{\tau}(A) =\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda})$.
+(10) $\widehat{\tau}(A) =\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda}$).
 
 Since the mapping $\overline{\mathscr{F}}$ is a K-algebra isomorphism, we have $\widehat{\tau}\circ \overline{\mathscr{F}}=\tau$, and therefore
 
@@ -391,7 +391,7 @@ For $a\in K[G]$, relation $(^{\lambda\in\widehat{G}}$ 9) takes on the following 
 
 it follows that for every element $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ of $F(\widehat{G})$, we have
 
-(14) $\overline{\mathscr{F}}^{-1}(A) =|G|^{-1}\sum_{g\in G}\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda}\pi_{\lambda}(g^{-1}))g$ (“Fourier inversion formula”).
+(14) $\overline{\mathscr{F}}^{-1}(A) =|G|^{-1}\sum_{g\in G}\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda}\pi_{\lambda}(g^{-1})$)$g$ (“Fourier inversion formula”).
 
 For $\mu\in \widehat{G}$, denote by $j_\mu:$ End$_K(V_\mu)\longrightarrow \prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ the mapping such that $j_\mu(u) = (v_{\lambda})$, where $v_{\lambda}= 0$ if $\lambda \not=\mu$ and $v_\mu=u$. By formula (14), we have
 
@@ -487,11 +487,11 @@ This is the specific case of relations (20) and (23) when the endomorphisms $u$ 
 
 Let $\pi$ and $\pi '$ be finite-dimensional linear representations of G. In the field K, we have
 
-(29) $\langle \chi_{\pi}, \chi_{\pi'}\rangle_G=$ (dim$_K$ Hom$_G(\pi , \pi '))\cdot 1$.
+(29) $\langle \chi_{\pi}, \chi_{\pi'}\rangle_G=$ (dim$_K$ Hom$_G(\pi , \pi ')$)$\cdot 1$.
 
 We first suppose that $\pi$ and $\pi '$ are simple representations. The vector space Hom$_G(\pi , \pi ')$ has dimension 1 or 0 according to whether or not $\pi$ and $\pi '$ are isomorphic (Schur’s lemma, VIII, p. 47, Proposition 2). In this case, formula (29) follows from Proposition 4.
 
-In the general case, the representation $\pi$ (resp. $\pi ')$ is the direct sum of simple representations $\pi_1, . . . , \pi_m$ (resp. $\pi '_1, . . . , \pi '_n)$. The space Hom$_G(\pi , \pi ')$ is isomorphic to the direct sum of the spaces Hom$_G(\pi_i, \pi '_j)$ for $1\leqslant i\leqslant m$, $1\leqslant j\leqslant n$, and we have
+In the general case, the representation $\pi$ (resp. $\pi '$) is the direct sum of simple representations $\pi_1, . . . , \pi_m$ (resp. $\pi '_1, . . . , \pi '_n$). The space Hom$_G(\pi , \pi ')$ is isomorphic to the direct sum of the spaces Hom$_G(\pi_i, \pi '_j)$ for $1\leqslant i\leqslant m$, $1\leqslant j\leqslant n$, and we have
 
 $$
 \chi_{\pi}=\chi_{\pi_1}+\cdots +\chi_{\pi_m},\chi_{\pi'}=\chi_{\pi'_1}+\cdots +\chi_{\pi'_n}
@@ -541,11 +541,11 @@ Let $f$ be a central function on G and $u$ be a central function on H. We have
 
 The characters of the simple representations of G form a basis of Z(K[G]) (VIII, p. 411, Proposition 5), and the same holds for H. It therefore suffices to establish (33) in the case when $f$ is the character $\chi_{\pi}$ of a simple representation $\pi$ of G and $u$ is the character $\chi_{\sigma}$ of a simple representation $\sigma$ of H. In this case, Ind$^G_H(u)$ is the character of the representation Ind$^G_H(\sigma )$ of G, and, by VIII, p. 410, Corollary, we have
 
-$\langle$Ind$^G_H(u), f\rangle_G=$ (dim$_K$ Hom$_G$(Ind$^G_H(\sigma ), \pi ))\cdot 1$.
+$\langle$Ind$^G_H(u), f\rangle_G=$ (dim$_K$ Hom$_G$(Ind$^G_H(\sigma ), \pi$ ))$\cdot 1$.
 
 We show the relation
 
-$\langle u$, Res$^G_H(f)\rangle_H=$ (dim$_K$ Hom$_H(\sigma$, Res$^G_H(\pi )))\cdot 1$
+$\langle u$, Res$^G_H(f)\rangle_H=$ (dim$_K$ Hom$_H(\sigma$, Res$^G_H(\pi )$))$\cdot 1$
 
 likewise, and equality (33) follows by Frobenius reciprocity.
 
@@ -567,7 +567,7 @@ $$
 u^{\natural}=|G|^{-1}\sum_{h\in G}\pi_{\lambda}(h)u \pi_{\lambda}(h^{-1}) \tag{35}
 $$
 
-The endomorphism $u^{\natural}$ of $V_{\lambda}$ is K[G]-linear. By Schur’s lemma (VIII, p. 47, Theorem 1$),u^{\natural}$ is a homothety. Since $u$ and $u^{\natural}$ have the same trace, we therefore have
+The endomorphism $u^{\natural}$ of $V_{\lambda}$ is K[G]-linear. By Schur’s lemma (VIII, p. 47, Theorem 1)$,u^{\natural}$ is a homothety. Since $u$ and $u^{\natural}$ have the same trace, we therefore have
 
 $u^{\natural}=d^{-1}_{\lambda}$ Tr($u$) $1_{V_{\lambda}}$.
 
@@ -607,7 +607,7 @@ for $\lambda , \mu\in \widehat{G}$. In particular, $a_{\lambda}a_\mu= 0$ wheneve
 
 In this subsection, we assume that the group G is abelian.
 
-By Schur’s lemma (VIII, p. 48, Corollary 1), every simple representation of G has dimension 1. Let $(M, \pi )$ be such a representation and $\chi$ be its character; for every $g\in G$ and $x\in M$, we have $\pi (g)(x) =\chi (g)x$. Consequently, the character $\chi$ is a homomorphism from G to the multiplicative group $K^*$ of K. Conversely, every homomorphism from G to $K^*$ is the character of a representation of G of degree 1. So the set $\widehat{G}$ of classes of simple K[G]-modules can be identified with the set Hom(G$,K^*)$ of homomorphisms from G to $K^*$. We deduce from this an abelian group structure on $\widehat{G}$; the product in $\widehat{G}$ corresponds to the tensor product of representations. The groups G and $\widehat{G}$ have the same cardinal by Proposition 5 of VIII, p. 411. Every function on G is central, and $\widehat{G}$ is a basis of the vector space of mappings from G to K (loc. cit.). Because of the orthogonality relation for characters, such a mapping $f$ has the following unique decomposition with respect to the basis $\widehat{G}:$
+By Schur’s lemma (VIII, p. 48, Corollary 1), every simple representation of G has dimension 1. Let $(M, \pi )$ be such a representation and $\chi$ be its character; for every $g\in G$ and $x\in M$, we have $\pi (g)(x) =\chi (g)x$. Consequently, the character $\chi$ is a homomorphism from G to the multiplicative group $K^*$ of K. Conversely, every homomorphism from G to $K^*$ is the character of a representation of G of degree 1. So the set $\widehat{G}$ of classes of simple K[G]-modules can be identified with the set Hom(G$,K^*$) of homomorphisms from G to $K^*$. We deduce from this an abelian group structure on $\widehat{G}$; the product in $\widehat{G}$ corresponds to the tensor product of representations. The groups G and $\widehat{G}$ have the same cardinal by Proposition 5 of VIII, p. 411. Every function on G is central, and $\widehat{G}$ is a basis of the vector space of mappings from G to K (loc. cit.). Because of the orthogonality relation for characters, such a mapping $f$ has the following unique decomposition with respect to the basis $\widehat{G}:$
 
 $$
 f=\sum_{\chi\in\widehat{G}}\langle \chi , f\rangle_G\chi \tag{39}
@@ -629,7 +629,7 @@ because of relation (19).
 
 #### Remark {#alg-viii-s21-n9-rem-1 .statement tag=00NX}
 
-Let $n$ be the cardinal of the group G, and let $\mu_n(K)$ be the group of $n$-th roots of unity in K. For every $g\in G$, we have $g^n= 1$; consequently, $\widehat{G}$ can be identified with the group Hom(G$, \mu_n(K))$. The group $\mu_n(K)$ is cyclic of order $n$ (V, §11, No. 2, p. 78, Theorem 1). The group $\widehat{G}$ is therefore isomorphic to the group D(G) = Hom(G$,\mathbf{Q}/\mathbf{Z})$. By VII, §4, No. 9, p. 26, Proposition 10, the group $\widehat{G}$ is isomorphic to the group G, and the mapping that sends an element $g$ of G to the homomorphism $\chi \mapsto \chi (g)$ from $\widehat{G}$ to $K^*$ is an isomorphism from G to $\widehat{\widehat{G}}$.
+Let $n$ be the cardinal of the group G, and let $\mu_n(K)$ be the group of $n$-th roots of unity in K. For every $g\in G$, we have $g^n= 1$; consequently, $\widehat{G}$ can be identified with the group Hom(G$, \mu_n(K)$). The group $\mu_n(K)$ is cyclic of order $n$ (V, §11, No. 2, p. 78, Theorem 1). The group $\widehat{G}$ is therefore isomorphic to the group D(G) = Hom(G$,\mathbf{Q}/\mathbf{Z}$). By VII, §4, No. 9, p. 26, Proposition 10, the group $\widehat{G}$ is isomorphic to the group G, and the mapping that sends an element $g$ of G to the homomorphism $\chi \mapsto \chi (g)$ from $\widehat{G}$ to $K^*$ is an isomorphism from G to $\widehat{\widehat{G}}$.
 
 ### 10. Characters and Grothendieck Groups
 
@@ -651,7 +651,7 @@ Denote the cardinal of the group G by $n$. Let $\pi$ be a linear representation 
 
 Suppose that the field K has characteristic zero. Then the degree of every simple representation of G divides the cardinal of G.
 
-Let $(V, \pi )$ be a simple representation of G and $\chi$ be its character. For every element $a$ of Z(K[G]), the endomorphism $\pi (a)$ of V is a homothety (VIII, p. 47, Theorem 1); denote by $\varphi (a)$ the scalar such that $\pi (a) =\varphi (a)_V$. The resulting mapping $\varphi$ from Z(K[G]) to K is an algebra homomorphism. Let us take $a=\sum_{g\in G}\chi (g^{-1})g$; by the remark of VIII, p. 408, we have $\varphi (a) =$ (dim $V)^{-1}|G|$. On the other hand, $a$ belongs to the subring $\mathscr{O}_n[G]\cap Z(K[G])$ of K[G], which is a finitely generated $\mathbf{Z}$-module (VII, §3, p. 15, Corollary). So the element $\varphi (a) =$ (dim $V)^{-1}|G|$ of K belongs to a subring of K that is a finitely generated $\mathbf{Z}$-module. We conclude using the following lemma.
+Let $(V, \pi )$ be a simple representation of G and $\chi$ be its character. For every element $a$ of Z(K[G]), the endomorphism $\pi (a)$ of V is a homothety (VIII, p. 47, Theorem 1); denote by $\varphi (a)$ the scalar such that $\pi (a) =\varphi (a)_V$. The resulting mapping $\varphi$ from Z(K[G]) to K is an algebra homomorphism. Let us take $a=\sum_{g\in G}\chi (g^{-1})g$; by the remark of VIII, p. 408, we have $\varphi (a) =$ (dim $V$)$^{-1}|G|$. On the other hand, $a$ belongs to the subring $\mathscr{O}_n[G]\cap Z(K[G])$ of K[G], which is a finitely generated $\mathbf{Z}$-module (VII, §3, p. 15, Corollary). So the element $\varphi (a) =$ (dim $V$)$^{-1}|G|$ of K belongs to a subring of K that is a finitely generated $\mathbf{Z}$-module. We conclude using the following lemma.
 
 #### Lemma {#alg-viii-s21-n11-lem-1 .statement tag=00O0}
 
@@ -663,9 +663,9 @@ In the next subsection, we extend Proposition 9 to the case when we only assume 
 
 ### 12. Change of Base Field
 
-We keep the notation of the previous subsection. Let $K'$ be an algebraically closed field such that the element $n\cdot 1$ of $K'$ is not zero. The groups $\mu_n(K)$ and $\mu_n(K')$ are cyclic of order $n$ (V, §11, No. 2, p. 78, Theorem 1). Choose an isomorphism $\varphi$ from $\mu_n(K)$ to $\mu_n(K')$. Let $\pi$ be a linear representation of G in a finite-dimensional K-vector space, and let $\pi '$ be a linear representation of G in a finite-dimensional $K'$-vector space. We say that $\pi$ and $\pi '$ are related (through $\varphi )$ if for every $g\in G$ and $\omega \in \mu_n$(K), the multiplicity of $\omega$ as an eigenvalue of $\pi (g)$ is equal to the multiplicity of $\varphi (\omega )$ as an eigenvalue of $\pi '(g)$. When this is the case, $\pi$ and $\pi '$ have the same dimension, as can be seen by taking $g= 1$.
+We keep the notation of the previous subsection. Let $K'$ be an algebraically closed field such that the element $n\cdot 1$ of $K'$ is not zero. The groups $\mu_n(K)$ and $\mu_n(K')$ are cyclic of order $n$ (V, §11, No. 2, p. 78, Theorem 1). Choose an isomorphism $\varphi$ from $\mu_n(K)$ to $\mu_n(K')$. Let $\pi$ be a linear representation of G in a finite-dimensional K-vector space, and let $\pi '$ be a linear representation of G in a finite-dimensional $K'$-vector space. We say that $\pi$ and $\pi '$ are related (through $\varphi$ ) if for every $g\in G$ and $\omega \in \mu_n$(K), the multiplicity of $\omega$ as an eigenvalue of $\pi (g)$ is equal to the multiplicity of $\varphi (\omega )$ as an eigenvalue of $\pi '(g)$. When this is the case, $\pi$ and $\pi '$ have the same dimension, as can be seen by taking $g= 1$.
 
-Let $\pi_1$ and $\pi_2$ (resp. $\pi '_1$ and $\pi '_2)$ be linear representations of G in finite-dimensional vector spaces over K (resp. $K')$. We have the following properties:
+Let $\pi_1$ and $\pi_2$ (resp. $\pi '_1$ and $\pi '_2$) be linear representations of G in finite-dimensional vector spaces over K (resp. $K'$). We have the following properties:
 
 a) If $\pi_1$ is related to $\pi '_1$ and $\pi '_2$, then $\pi '_1$ and $\pi '_2$ are isomorphic.
 
@@ -683,7 +683,7 @@ The uniqueness of $\varphi_G$ follows from property a) above.
 
 A) Suppose that the field K has characteristic 0.
 
-The group $\mu_n(K)$ is cyclic (V, §11, No. 2, p. 78, Theorem 1); choose a generator $\zeta$ of this group. Consider the ring homomorphism $\rho :\mathbf{Z}[X]\rightarrow \mathscr{O}_n$ that sends X to $\zeta$. It is surjective. The cyclotomic polynomial $\Phi_n(X)$ is irreducible in $\mathbf{Q}[X]$ (V, §11, No. 5, p. 84, Theorem 2); it is therefore the minimal polynomial of $\zeta$ over $\mathbf{Q}$. The polynomial $\Phi_n$ is monic with integer coefficients (V, §11, No. 4, p. 81). Let $P\in \mathbf{Z}[X]$ be a polynomial such that $P(\zeta ) = 0$; by Euclidean division of polynomials (IV, §1, No. 6, p. 10), there exist two polynomial Q and R in $\mathbf{Z}[X]$ such that P = QΦ$_n+ R$ and deg(R) $<$ deg(Φ$_n)$. We have $R(\zeta ) = 0$, and therefore R = 0 because $\Phi_n$ is the minimal polynomial of $\zeta$. Consequently, the kernel of $\rho$ is the ideal $\Phi_n\mathbf{Z}[X]$ of $\mathbf{Z}[X]$, and $\rho$ induces a ring isomorphism from $\mathbf{Z}[X]/\Phi_n\mathbf{Z}[X]$ to $\mathscr{O}_n$.
+The group $\mu_n(K)$ is cyclic (V, §11, No. 2, p. 78, Theorem 1); choose a generator $\zeta$ of this group. Consider the ring homomorphism $\rho :\mathbf{Z}[X]\rightarrow \mathscr{O}_n$ that sends X to $\zeta$. It is surjective. The cyclotomic polynomial $\Phi_n(X)$ is irreducible in $\mathbf{Q}[X]$ (V, §11, No. 5, p. 84, Theorem 2); it is therefore the minimal polynomial of $\zeta$ over $\mathbf{Q}$. The polynomial $\Phi_n$ is monic with integer coefficients (V, §11, No. 4, p. 81). Let $P\in \mathbf{Z}[X]$ be a polynomial such that $P(\zeta ) = 0$; by Euclidean division of polynomials (IV, §1, No. 6, p. 10), there exist two polynomial Q and R in $\mathbf{Z}[X]$ such that P = QΦ$_n+ R$ and deg(R) $<$ deg(Φ$_n$). We have $R(\zeta ) = 0$, and therefore R = 0 because $\Phi_n$ is the minimal polynomial of $\zeta$. Consequently, the kernel of $\rho$ is the ideal $\Phi_n\mathbf{Z}[X]$ of $\mathbf{Z}[X]$, and $\rho$ induces a ring isomorphism from $\mathbf{Z}[X]/\Phi_n\mathbf{Z}[X]$ to $\mathscr{O}_n$.
 
 Set $\zeta '=\varphi (\zeta )$; it is a primitive $n$-th root of unity in $K'$, and we therefore have $\Phi_n(\zeta ') = 0$ (V, §11, No. 5, p. 83, Lemma 3). Consequently, there exists a homomorphism $\varphi_0$ from the ring $\mathscr{O}_n$ to the field $K'$ that transforms $\zeta$ into $\zeta '$; it extends the mapping $\varphi$ from $\mu_n(K)$ to $\mu_n(K')$. Let $\mathscr{O}$ be the subring of K consisting of the elements $\frac{a}{n^r}$ with $a\in \mathscr{O}_n$ and $r\in \mathbf{N}$. Since $n\cdot 1$ is invertible in $K'$, the homomorphism $\varphi_0$ extends to a homomorphism $\varphi_1$ from $\mathscr{O}$ to $K'$.
 
@@ -727,7 +727,7 @@ It follows that the family of the $\Phi (e_{\lambda})$ is a partition of the ide
 
 For $\lambda '$ in $\mathscr{S}_{K'}$(G), define $\chi_{\lambda'},d_{\lambda'}$, and $e_{\lambda'}$ as above. By VIII, p. 408, the elements $e_{\lambda'}$ are the indecomposable idempotents in $Z(K'[G])$. Hence there exists a bijection $\varphi_G$ from $\mathscr{S}_K(G)$ to $\mathscr{S}_{K'}(G)$ such that $\Phi (e_{\lambda}) =e_{\varphi_G(\lambda)}$ for every $\lambda$ in $\mathscr{S}_K(G)$.
 
-Let $\lambda$ in $\mathscr{S}_K(G)$; set $\lambda '=\varphi_G(\lambda )$. Let $(V_{\lambda}, \pi_{\lambda})$ (resp. $(V_{\lambda'}, \pi_{\lambda'}))$ be a linear representation of G whose associated K[G]-module (resp. $K'$[G]-module) has class $\lambda$ (resp. $\lambda ')$. Let us prove that $\lambda$ and $\lambda '$ are related. Let $g$ be an element of G. Let $\delta (T)$ be the determinant of the endomorphism $1 + T\pi_{\lambda}(g)$ of the K[T]-module $K[T]\otimes_KV_{\lambda}$. Let $\omega_1, . . . , \omega_{d_{\lambda}}$ be the eigenvalues of $\pi_{\lambda}(g)$; we have
+Let $\lambda$ in $\mathscr{S}_K(G)$; set $\lambda '=\varphi_G(\lambda )$. Let $(V_{\lambda}, \pi_{\lambda})$ (resp. $(V_{\lambda'}, \pi_{\lambda'})$) be a linear representation of G whose associated K[G]-module (resp. $K'$[G]-module) has class $\lambda$ (resp. $\lambda '$). Let us prove that $\lambda$ and $\lambda '$ are related. Let $g$ be an element of G. Let $\delta (T)$ be the determinant of the endomorphism $1 + T\pi_{\lambda}(g)$ of the K[T]-module $K[T]\otimes_KV_{\lambda}$. Let $\omega_1, . . . , \omega_{d_{\lambda}}$ be the eigenvalues of $\pi_{\lambda}(g)$; we have
 
 $$
 \delta (T) = (1 + T\omega_1)\cdots (1 + T\omega_{d_{\lambda}})
@@ -745,7 +745,7 @@ Since this is true for every element $g$ of G, the representations $\lambda$ and
 
 B) General case.
 
-Let L be an algebraically closed field of characteristic 0 (for example, an algebraic closure of $\mathbf{Q})$. Denote by $\mathscr{S}_L(G)$ the set of classes of simple L[G]-modules. Choose an isomorphism $\eta$ from the group $\mu_n(L)$ to the group $\mu_n$(K), and set $\eta '=\varphi \circ \eta$. By part A) of the proof, there exist bijections
+Let L be an algebraically closed field of characteristic 0 (for example, an algebraic closure of $\mathbf{Q}$). Denote by $\mathscr{S}_L(G)$ the set of classes of simple L[G]-modules. Choose an isomorphism $\eta$ from the group $\mu_n(L)$ to the group $\mu_n$(K), and set $\eta '=\varphi \circ \eta$. By part A) of the proof, there exist bijections
 
 $$
 \eta_G:\mathscr{S}_L(G)\rightarrow \mathscr{S}_K(G),\eta '_G:\mathscr{S}_L(G)\rightarrow \mathscr{S}_{K'}(G)
@@ -773,7 +773,7 @@ This follows from Proposition 10 and Proposition 9 of VIII, p. 415.
 
 #### Remark 2 {#alg-viii-s21-n12-rem-2 .statement tag=00O5}
 
-Suppose that the group G is abelian. We saw in the remark of VIII, p. 414 that $\mathscr{S}_K(G)$ can be identified with the set Hom(G$, \mu_n(K))$. Likewise, $\mathscr{S}_{K'}(G)$ can be identified with Hom(G$, \mu_n(K'))$. With these identifications, the bijection $\varphi_G$ is simply the mapping $\chi \mapsto \varphi \circ \chi$.
+Suppose that the group G is abelian. We saw in the remark of VIII, p. 414 that $\mathscr{S}_K(G)$ can be identified with the set Hom(G$, \mu_n(K)$). Likewise, $\mathscr{S}_{K'}(G)$ can be identified with Hom(G$, \mu_n(K')$). With these identifications, the bijection $\varphi_G$ is simply the mapping $\chi \mapsto \varphi \circ \chi$.
 
 #### Remark 3 {#alg-viii-s21-n12-rem-3 .statement tag=00O6}
 
@@ -781,7 +781,7 @@ Let $\pi_1$ and $\pi_2$ be linear representations of G in finite-dimensional vec
 
 (47) dim$_K$ Hom$_K(\pi_1, \pi_2) =$ dim$_{K'}$ Hom$_{K'}(\pi '_1, \pi '_2)$.
 
-The proof follows that of Corollary VIII, p. 410, by reducing to the case when the $\pi_i$ (and therefore the $\pi '_i)$ are simple.
+The proof follows that of Corollary VIII, p. 410, by reducing to the case when the $\pi_i$ (and therefore the $\pi '_i$) are simple.
 
 #### Remark 4 {#alg-viii-s21-n12-rem-4 .statement tag=00O7}
 
@@ -863,7 +863,7 @@ $$
 \langle f|f'\rangle_G=|G|^{-2}\tau (f^*f') \tag{53}
 $$
 
-Let $(M, \pi )$ be a finite-dimensional linear representation of G. We endow the vector space M with the structure of a Hilbert space for which the endomorphisms $\pi (g)$ are unitary (Proposition 11). If we denote by $A^*$ the adjoint of a endomorphism A of M for this structure, then we have Tr(A$^*) =$ Tr(A). For every $g\in G$, we have $\pi (g^{-1}) =\pi (g)^*$, and therefore $\chi_{\pi}(g^{-1}) =\chi_{\pi}(g)$; in other words, we have $\chi_{\pi}=\chi^*_{\pi}$. The orthogonality relation for characters (VIII, p. 410, Proposition 4) then has the form
+Let $(M, \pi )$ be a finite-dimensional linear representation of G. We endow the vector space M with the structure of a Hilbert space for which the endomorphisms $\pi (g)$ are unitary (Proposition 11). If we denote by $A^*$ the adjoint of a endomorphism A of M for this structure, then we have Tr(A$^*$) $=$ Tr(A). For every $g\in G$, we have $\pi (g^{-1}) =\pi (g)^*$, and therefore $\chi_{\pi}(g^{-1}) =\chi_{\pi}(g)$; in other words, we have $\chi_{\pi}=\chi^*_{\pi}$. The orthogonality relation for characters (VIII, p. 410, Proposition 4) then has the form
 
 $$
 \langle \chi_{\lambda}|\chi_\mu\rangle_G=\delta_{\lambda \mu} \tag{54}

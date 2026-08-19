@@ -21,7 +21,7 @@ subsections:
       pdf_page: 260
 statements: 16
 exercises: 14
-content_sha256: d85cbf22c0db2c51875f7be3d59191d2cccf2b9a7c13aea75ecd2b3ccc64b4b0
+content_sha256: 49e6cebcd4271f7d67448fdcfb55683851ceb9371d889fe6141916db215f1b95
 ---
 
 ## § 2. CLASSIFICATION
@@ -140,7 +140,7 @@ a) Il existe un entier $n\geqslant 0$ et un sous-groupe L tel que G est produit 
 
 b) Le groupe G est réunion d’une famille filtrante croissante de sous-groupes ouverts, chacun étant limite projective de groupes isomorphes à des groupes de la forme $\mathbf{R}^p\times \mathbf{T}^q\times \mathbf{Z}^r\times A$, où A est un groupe fini et $p,q,r$ sont des entiers positifs.
 
-Démontrons b). Pour tout voisinage compact V de $e$, notons $G_V$ le sous-groupe de G engendré par V. Il est ouvert, et d’après le corollaire de la prop. 2, le groupe $G_V$ est limite projective de groupes de la forme $\mathbf{R}^p\times \mathbf{T}^q\times \mathbf{Z}^r\times A$, où A est un groupe compact et $p,q$ et $r$ dans $\mathbf{N}$. Lorsque V parcourt les voisinages compacts de $e$, ces sous-groupes $G_V$ forment une famille filtrante (puisque $G_V$ et $G_W$ sont contenus dans $G_{V\cup W}$ pour tous voisinages compacts V et W de $e)$. Finalement, le groupe G est la réunion des sous-groupes $G_V$.
+Démontrons b). Pour tout voisinage compact V de $e$, notons $G_V$ le sous-groupe de G engendré par V. Il est ouvert, et d’après le corollaire de la prop. 2, le groupe $G_V$ est limite projective de groupes de la forme $\mathbf{R}^p\times \mathbf{T}^q\times \mathbf{Z}^r\times A$, où A est un groupe compact et $p,q$ et $r$ dans $\mathbf{N}$. Lorsque V parcourt les voisinages compacts de $e$, ces sous-groupes $G_V$ forment une famille filtrante (puisque $G_V$ et $G_W$ sont contenus dans $G_{V\cup W}$ pour tous voisinages compacts V et W de $e$). Finalement, le groupe G est la réunion des sous-groupes $G_V$.
 
 Soit H un sous-groupe ouvert de G engendré par un voisinage compact de $e$. Il existe un groupe compact K et des entiers positifs $p$ et $q$ tels que H est isomorphe à $\mathbf{R}^p\times \mathbf{Z}^q\times K$ (prop. 1 de II, p. 246) ; identifions H à ce produit. La surjection canonique de H sur le groupe divisible $\mathbf{R}^p$ se prolonge en un morphisme $\pi$ de G sur $\mathbf{R}^p$ (lemme 3 de II, p. 245). C’est un projecteur $\pi$ de G sur $\mathbf{R}^p$, qui est continu puisque sa restriction au sous-groupe ouvert H est continue. Donc G est produit direct de $\mathbf{R}^p$ et du noyau L de $\pi$ (TG, III, p. 47, cor.). On a $\mathbf{Z}^q\times K = H\cap L$, donc $\mathbf{Z}^q\times K$ est un sous-groupe ouvert de L. Ainsi K est un sous-groupe compact ouvert de L, et par conséquent $L/K$ est discret.
 
@@ -150,7 +150,7 @@ Soit $B_G$ l’ensemble des éléments de G qui engendrent un sous-groupe relati
 
 L’ensemble $B_G$ est un sous-groupe de G puisque le produit de deux parties compactes de G est une partie compacte de G.
 
-Soit H un sous-groupe ouvert de G engendré par un voisinage compact de $e$. Il existe des entiers positifs $p$ et $q$ et un groupe compact K tel que le sous-groupe H soit isomorphe à $\mathbf{R}^p\times \mathbf{Z}^q\times K$ (prop. 1 de II, p. 246). Si l’on identifie ces groupes, on voit que $B_G\cap H = K$ est fermé dans H. Comme la famille des sous-groupes ouverts H engendrés par les voisinages compacts est un recouvrement ouvert de G (par exemple, $x$ appartient au sous-groupe engendré par $U\cap  \{x\}$ pour tout voisinage compact fixé U de $e)$, on en déduit que $B_G$ est fermé.
+Soit H un sous-groupe ouvert de G engendré par un voisinage compact de $e$. Il existe des entiers positifs $p$ et $q$ et un groupe compact K tel que le sous-groupe H soit isomorphe à $\mathbf{R}^p\times \mathbf{Z}^q\times K$ (prop. 1 de II, p. 246). Si l’on identifie ces groupes, on voit que $B_G\cap H = K$ est fermé dans H. Comme la famille des sous-groupes ouverts H engendrés par les voisinages compacts est un recouvrement ouvert de G (par exemple, $x$ appartient au sous-groupe engendré par $U\cap  \{x\}$ pour tout voisinage compact fixé U de $e$), on en déduit que $B_G$ est fermé.
 
 Calculons maintenant $B^{\bot}_G$. Par la prop. 3, a), il existe un entier positif $n\geqslant 0$ et un groupe L admettant un sous-groupe ouvert compact tel que G puisse s’identifier à $\mathbf{R}^n\times L$. Alors $B_G$ s’identifie à $\{0\} \times B_L$, et $B^{\bot}_G$ à $\mathbf{R}^n\times B^{\bot}_L$. On est donc ramené au cas où G = L admet un sous-groupe ouvert compact K.
 

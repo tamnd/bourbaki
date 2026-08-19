@@ -34,9 +34,9 @@ subsections:
       pdf_page: 68
 statements: 23
 exercises: 10
-content_sha256: 02a9cb80ec97bc7a4a83b0a79c4843690e581796d0fc039f79a6449a8b9eb543
+content_sha256: 6f62fd3db867ef29a8079482042c15e5858eb8eb72e65baf1e9358bedfbb69c3
 translated_from: content/en/alg/VIII/03_s3_simple_modules.md
-source_content_sha256: 9e40062ed94f59647e41551dd0cb278c9eed5dbb96dcf569df5e17def2b733c5
+source_content_sha256: 0317407d0c3ced7b2648e2b8d2e1ca2a46c305400b4715365d0e28e9e8310de8
 translation_model: nemotron-3-ultra-free, hy3-free, gpt-5-6, laguna-s-2.1-free
 translation_run: translate-vi-3cd88d6f
 glossary_version: 30
@@ -66,7 +66,7 @@ Cho A là một miền iđêan chính (VII, §1, No. 1, p. 1, Định nghĩa 1) 
 
 #### Ví dụ 3 {#alg-viii-s3-n1-exa-3 .statement tag=0038}
 
-Cho K là một trường, V là một không gian vectơ phải khác không trên trường K, và A là một vành con của vành End$_K(V)$ chứa các đồng cấu của V có hạng hữu hạn (ví dụ, A = End$_K(V))$). Chứng minh rằng V là một A-môđun đơn: cho W là một A-môđun con khác không của V và $x$ một phần tử khác không của W; tồn tại một dạng tuyến tính $\varphi$ trên V sao cho $\varphi (x)\not= 0$ (II, §7, No. 5, p. 300, Định lý 6). Với mọi $y$ trong V, ánh xạ $z\mapsto y\varphi (z)$, là tuyến tính và có hạng $\leqslant 1$, thuộc về A; do đó ta có $Ax= V$, từ đó a fortiori W = V, điều này chứng minh V là một A-môđun đơn.
+Cho K là một trường, V là một không gian vectơ phải khác không trên trường K, và A là một vành con của vành End$_K(V)$ chứa các đồng cấu của V có hạng hữu hạn (ví dụ, A = End$_K(V)$)). Chứng minh rằng V là một A-môđun đơn: cho W là một A-môđun con khác không của V và $x$ một phần tử khác không của W; tồn tại một dạng tuyến tính $\varphi$ trên V sao cho $\varphi (x)\not= 0$ (II, §7, No. 5, p. 300, Định lý 6). Với mọi $y$ trong V, ánh xạ $z\mapsto y\varphi (z)$, là tuyến tính và có hạng $\leqslant 1$, thuộc về A; do đó ta có $Ax= V$, từ đó a fortiori W = V, điều này chứng minh V là một A-môđun đơn.
 
 #### Mệnh đề 1 {#alg-viii-s3-prop-1 .statement tag=00QZ}
 
@@ -132,7 +132,7 @@ Nếu M là một A-môđun đơn, thì mọi phần tử khác không của và
 
 Cho K là một trường giao hoán đóng đại số, A là một đại số trên K, và M là một A-môđun đơn. Giả sử chiều của M như một không gian vectơ trên K là hữu hạn hoặc, nói chung, nhỏ hơn chặt lực lượng của K. Khi đó vành tự đồng cấu của A-môđun M bao gồm các đồng biến $\alpha_M$ với $\alpha \in K$.
 
-Cho E là vành tự đồng cấu của A-môđun M; theo hệ quả của Mệnh đề 2, nó là một trường và là một đại số trên trường K. Nếu xem M như một không gian vectơ trái trên trường E, thì ta có dim$_KM =$ (dim$_EM)[E : K]$ theo Mệnh đề 25 của II, §1, No. 13, p. 222, do đó dim$_KM\geqslant [E : K]$. Vì dim$_KM<$ Card(K) theo giả thiết, đẳng thức $E = K\cdot 1_M$ là hệ quả của bổ đề sau.
+Cho E là vành tự đồng cấu của A-môđun M; theo hệ quả của Mệnh đề 2, nó là một trường và là một đại số trên trường K. Nếu xem M như một không gian vectơ trái trên trường E, thì ta có dim$_KM =$ (dim$_EM$)$[E : K]$ theo Mệnh đề 25 của II, §1, No. 13, p. 222, do đó dim$_KM\geqslant [E : K]$. Vì dim$_KM<$ Card(K) theo giả thiết, đẳng thức $E = K\cdot 1_M$ là hệ quả của bổ đề sau.
 
 #### Bổ đề 1 {#alg-viii-s3-lem-1 .statement tag=003F}
 
@@ -242,7 +242,7 @@ Cho A là một vành. Quan hệ
 
 xác định tập trong $\lambda ($Lý thuyết tập hợp, II, §1, No. 4, p. 68). Thật vậy, mọi A-môđun sinh hữu hạn đều đẳng cấu với một A-môđun có dạng $A^n_s/R$, trong đó $n$ là một số tự nhiên và R là một môđun con của $A^n_s$, do đó mệnh đề của chúng ta suy ra từ Lý thuyết tập hợp, II, §6, No. 9, p. 122.
 
-Ta ký hiệu tập hợp các lớp của các A-môđun sinh hữu hạn bởi $\mathscr{F}(A)$. Mọi A-môđun đơn đều đơn sinh (VIII, p. 46, Mệnh đề 1), và do đó các lớp của các A-môđun đơn tạo thành một tập con của $\mathscr{F}$ (A), mà từ nay về sau ta ký hiệu là $\mathscr{S}(A)$ (hay đơn giản là $\mathscr{S})$. Khi vành A giao hoán, ánh xạ $\mathfrak{m}\mapsto$ cl(A$/\mathfrak{m})$ là một song ánh từ tập hợp các iđêan cực đại của A vào tập hợp $\mathscr{S}(A)$ (loc. cit. và VIII, p. 46, Nhận xét 1). Khi A là Artin trái, tập hợp $\mathscr{S}(A)$ là hữu hạn (VIII, p. 51, Nhận xét b)).
+Ta ký hiệu tập hợp các lớp của các A-môđun sinh hữu hạn bởi $\mathscr{F}(A)$. Mọi A-môđun đơn đều đơn sinh (VIII, p. 46, Mệnh đề 1), và do đó các lớp của các A-môđun đơn tạo thành một tập con của $\mathscr{F}$ (A), mà từ nay về sau ta ký hiệu là $\mathscr{S}(A)$ (hay đơn giản là $\mathscr{S}$). Khi vành A giao hoán, ánh xạ $\mathfrak{m}\mapsto$ cl(A$/\mathfrak{m}$) là một song ánh từ tập hợp các iđêan cực đại của A vào tập hợp $\mathscr{S}(A)$ (loc. cit. và VIII, p. 46, Nhận xét 1). Khi A là Artin trái, tập hợp $\mathscr{S}(A)$ là hữu hạn (VIII, p. 51, Nhận xét b)).
 
 ### Bài tập {#alg-viii-s3-exercises}
 

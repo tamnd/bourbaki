@@ -41,12 +41,12 @@ subsections:
       pdf_page: 147
 statements: 46
 exercises: 27
-content_sha256: 9fc7eadee7d7d6a015e81d1c2574c9eb56c81a6d634db9f39a749fbfe8ff51a4
+content_sha256: cde5da2c7caa4911802e8553bac12b2be83d3aab3d39beb877d9cab906ef4b12
 ---
 
 ## § 7. FINITE DIMENSIONAL MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
 
-In this paragraph, we retain the general notations of §6. We denote by P (resp. Q) the group of weights of R (resp. radical weights of R). We denote by $P_+$ (resp. $Q_+)$ the set of elements of P (resp. Q) that are positive for the order relation defined by B. We denote by $P_{++}$ the set of dominant weights of R relative to B (Chap. VI, §1, no. 10). An element $\lambda$ of $\mathfrak{h}^*$ belongs to P (resp. to $P_{++})$ if and only if all the $\lambda (H_{\alpha}),\alpha \in B$, are integers (resp. integers $\geq 0)$. We have $P_{++}\subset P_+$ (Chap. VI, §1, no. 6). If $w\in W$, we denote by $\varepsilon (w)$ the determinant of $w$, which is equal to 1 or $-1$. We put $\rho =\frac{1}{2}\sum_{\alpha\in R_+}\alpha$.
+In this paragraph, we retain the general notations of §6. We denote by P (resp. Q) the group of weights of R (resp. radical weights of R). We denote by $P_+$ (resp. $Q_+$) the set of elements of P (resp. Q) that are positive for the order relation defined by B. We denote by $P_{++}$ the set of dominant weights of R relative to B (Chap. VI, §1, no. 10). An element $\lambda$ of $\mathfrak{h}^*$ belongs to P (resp. to $P_{++}$) if and only if all the $\lambda (H_{\alpha}),\alpha \in B$, are integers (resp. integers $\geq 0$). We have $P_{++}\subset P_+$ (Chap. VI, §1, no. 6). If $w\in W$, we denote by $\varepsilon (w)$ the determinant of $w$, which is equal to 1 or $-1$. We put $\rho =\frac{1}{2}\sum_{\alpha\in R_+}\alpha$.
 
 ### 1. WEIGHTS OF A FINITE DIMENSIONAL SIMPLE $\mathfrak{g}$-MODULE
 
@@ -86,7 +86,7 @@ for all $b\in \mathfrak{g}$.
 
 (ii) If $\alpha \in R$ and if the images under $\rho$ of the elements of $\mathfrak{g}^{\alpha}$ and $\mathfrak{g}^{-\alpha}$ are locally nilpotent, the set of weights of V is stable under the reflection $s_{\alpha}$.
 
-With the assumptions in (i), we have $\rho$((ad $a)^nb) =$ (ad $\rho (a))^n\rho (b)$ for all $n\geq 0$, so $\rho (e^{ada}b) =e^{ad\rho(a)}\rho (b)$. On the other hand,
+With the assumptions in (i), we have $\rho$((ad $a$)$^nb$) $=$ (ad $\rho (a)$)$^n\rho (b)$ for all $n\geq 0$, so $\rho (e^{ada}b) =e^{ad\rho(a)}\rho (b)$. On the other hand,
 
 $$
 e^{ad\rho(a)}\rho (b) =e^{\rho(a)}\rho (b)e^{-\rho(a)}
@@ -172,13 +172,13 @@ If V is a finite dimensional $\mathfrak{g}$-module and $\lambda \in P_{++}$, the
 
 #### Remark 1 {#lie-viii-s7-n2-rem-1 .statement tag=013J}
 
-Let $\lambda \in P_{++},\rho_{\lambda}$ the representation of $\mathfrak{g}$ on $E(\lambda ),s\in$ Aut($\mathfrak{g}$), and $\sigma$ the canonical image of $s$ in Aut(R$,B) ($§5, no. 3, Cor. 1 of Prop. 5). Then $\rho_{\lambda}\circ s$ is equivalent to $\rho_{\sigma \lambda}$; indeed, if $s\in$ Aut$_0(\mathfrak{g}),\rho_{\lambda}\circ s$ and $\rho_{\sigma \lambda}$ are equivalent to $\rho_{\lambda}$ (Prop. 2); and, if $s$ leaves $\mathfrak{h}$ and B stable, $\rho_{\lambda}\circ s$ is simple of highest weight $\sigma \lambda$.
+Let $\lambda \in P_{++},\rho_{\lambda}$ the representation of $\mathfrak{g}$ on $E(\lambda ),s\in$ Aut($\mathfrak{g}$), and $\sigma$ the canonical image of $s$ in Aut(R$,B$) $($§5, no. 3, Cor. 1 of Prop. 5). Then $\rho_{\lambda}\circ s$ is equivalent to $\rho_{\sigma \lambda}$; indeed, if $s\in$ Aut$_0(\mathfrak{g}),\rho_{\lambda}\circ s$ and $\rho_{\sigma \lambda}$ are equivalent to $\rho_{\lambda}$ (Prop. 2); and, if $s$ leaves $\mathfrak{h}$ and B stable, $\rho_{\lambda}\circ s$ is simple of highest weight $\sigma \lambda$.
 
 In particular, the fundamental representations are permuted by $s$, and this permutation is the identity if and only if $s\in$ Aut$_0(\mathfrak{g})$.
 
 #### Proposition 3 {#lie-viii-s7-prop-3 .statement tag=013K}
 
-Let V be a finite dimensional $\mathfrak{g}$-module and $\mathscr{X}$ its set of weights. Let $\lambda \in \mathscr{X},\alpha \in R$, I the set of $t\in \mathbf{Z}$ such that $\lambda +t\alpha \in \mathscr{X},p$ (resp. $-q)$ the largest (resp. smallest) element of I. Let $m_t$ be the multiplicity of $\lambda +t\alpha$.
+Let V be a finite dimensional $\mathfrak{g}$-module and $\mathscr{X}$ its set of weights. Let $\lambda \in \mathscr{X},\alpha \in R$, I the set of $t\in \mathbf{Z}$ such that $\lambda +t\alpha \in \mathscr{X},p$ (resp. $-q$) the largest (resp. smallest) element of I. Let $m_t$ be the multiplicity of $\lambda +t\alpha$.
 
 (i) I = $-q, p$ and $q-p=\lambda (H_{\alpha})$.
 
@@ -202,7 +202,7 @@ $$
 
 Hence $q-p=\lambda (H_{\alpha})$ and $\lambda +t\alpha \in \mathscr{X}$ for $p\geq t\geq  -q$, which proves (i).
 
-We have $s_{\alpha}(\alpha ) =-\alpha$, and $s_{\alpha}(\mu)\in \mu+k\alpha$ for all $\mu\in \mathfrak{h}^*$. Since W leaves $\mathscr{X}$ stable (Cor. 2 of Prop. $2),s_{\alpha}$ leaves $\{\lambda -q\alpha , \lambda -q\alpha +\alpha , . . . , \lambda +p\alpha \}$ stable and takes $\lambda -q\alpha +u\alpha$ to $\lambda +p\alpha -u\alpha$ for all $u\in k$. Using Cor. 2 of Prop. 2 again, we see that $m_{-q+u}=m_{p-u}$ for every integer $u\in 0, p+q$. This proves (ii).
+We have $s_{\alpha}(\alpha ) =-\alpha$, and $s_{\alpha}(\mu)\in \mu+k\alpha$ for all $\mu\in \mathfrak{h}^*$. Since W leaves $\mathscr{X}$ stable (Cor. 2 of Prop. $2$)$,s_{\alpha}$ leaves $\{\lambda -q\alpha , \lambda -q\alpha +\alpha , . . . , \lambda +p\alpha \}$ stable and takes $\lambda -q\alpha +u\alpha$ to $\lambda +p\alpha -u\alpha$ for all $u\in k$. Using Cor. 2 of Prop. 2 again, we see that $m_{-q+u}=m_{p-u}$ for every integer $u\in 0, p+q$. This proves (ii).
 
 By §1, Cor. of Prop. $2, (X_{\alpha})_V|V^{\lambda+t\alpha}$ is injective for $t <(p-q)/2$. Now $(X_{\alpha})_V$ maps $V^{\lambda+t\alpha}$ to $V^{\lambda+(t+1)\alpha}$. Hence $m_{t+1}\geq m_t$ for $t <(p-q)/2$. Changing $\alpha$ to $-\alpha$, we see that $m_{t+1}\leq m_t$ for $t >(p-q)/2$. This proves (iii) and (iv).
 
@@ -302,19 +302,19 @@ Every non-empty R-saturated subset of P contains an element $\lambda$ satisfying
 
 Introduce the condition:
 
-(ii$')$ for all $\alpha \in R$ and for every integer $t$ between 0 and $\lambda (H_{\alpha})$,
+(ii$'$) for all $\alpha \in R$ and for every integer $t$ between 0 and $\lambda (H_{\alpha})$,
 
 $$
 \|\lambda -t\alpha \| \geq  \|\lambda \|
 $$
 
-(i) $=\Rightarrow$ (ii) $=\Rightarrow$ (ii$'):$ This is clear.
+(i) $=\Rightarrow$ (ii) $=\Rightarrow$ (ii$'$)$:$ This is clear.
 
-(ii$') =\Rightarrow$ (iii): Assume that condition (ii$')$ is satisfied. Let $\alpha \in R$. We have $\|\lambda \|=\|\lambda -\lambda (H_{\alpha})\alpha \|$, so $\|\lambda -t\alpha \|<\|\lambda \|$ for every integer $t$ strictly between 0 and $\lambda (H_{\alpha})$; hence, there can be no such integers, so $|\lambda (H_{\alpha})| \leq 1$.
+(ii$'$) $=\Rightarrow$ (iii): Assume that condition (ii$'$) is satisfied. Let $\alpha \in R$. We have $\|\lambda \|=\|\lambda -\lambda (H_{\alpha})\alpha \|$, so $\|\lambda -t\alpha \|<\|\lambda \|$ for every integer $t$ strictly between 0 and $\lambda (H_{\alpha})$; hence, there can be no such integers, so $|\lambda (H_{\alpha})| \leq 1$.
 
 (iii) $=\Rightarrow$ (i): Assume that condition (iii) is satisfied. Let $w\in W$ and $\alpha \in R$. Then $(w\lambda )(H_{\alpha}) =\lambda (H_{w^{-1}\alpha})\in  \{0,1,-1\}$; thus, if $t$ is an integer between 0 and $(w\lambda )(H_{\alpha}),w\lambda -t\alpha$ is equal to $w\lambda$ or $s_{\alpha}(w\lambda )$. This proves that $W.\lambda$ is R-saturated, so $\mathscr{X}= W.\lambda$.
 
-Let $\mathscr{Y}$ be a non-empty R-saturated subset of P. There exists in $\mathscr{Y}$ an element $\lambda$ of minimum norm. It is clear that $\lambda$ satisfies condition (ii$')$, hence the last assertion of the proposition.
+Let $\mathscr{Y}$ be a non-empty R-saturated subset of P. There exists in $\mathscr{Y}$ an element $\lambda$ of minimum norm. It is clear that $\lambda$ satisfies condition (ii$'$), hence the last assertion of the proposition.
 
 #### Proposition 7 {#lie-viii-s7-prop-7 .statement tag=013S}
 
@@ -356,7 +356,7 @@ Assume that $\mathfrak{g}$ is simple. A minuscule weight of $(\mathfrak{g},\math
 
 #### Remark {#lie-viii-s7-n3-rem-1 .statement tag=013V}
 
-Assume that $\mathfrak{g}$ is simple. Let $\Sigma^{'\vee}$ be the Coxeter graph of the affine Weyl group $W_a(R^{\vee})$. Recall that the vertices of $\Sigma^{'\vee}$ are the vertices of the Coxeter graph $\Sigma^{\vee}$ of $W(R^{\vee})$, together with a supplementary vertex 0. The group $A(R^{\vee})$ operates on $\Sigma^{'\vee}$ leaving 0 fixed. The group Aut($\Sigma^{'\vee}$) is canonically isomorphic to the semi-direct product of $A(R^{\vee})/W(R^{\vee})$ with a group $\Gamma_C$ (cf. Chap. VI, §2, no. 3, and Chap. VI, §4, no. 3); clearly (Aut $\Sigma^{'\vee})(0) =\Gamma_C(0)$; and $\Gamma_C(0)$ consists of 0 and the vertices of $\Sigma^{\vee}$ corresponding to the $\varpi_i$ for $i\in J$ (cf. Chap. VI, §2, Prop. 5 and Remark 1 of no. 3). In summary, the minuscule weights are the fundamental weights corresponding to the vertices of $\Sigma^{\vee}$ which can be obtained from 0 by the operation of an element of Aut($\Sigma^{'\vee}$).
+Assume that $\mathfrak{g}$ is simple. Let $\Sigma^{'\vee}$ be the Coxeter graph of the affine Weyl group $W_a(R^{\vee})$. Recall that the vertices of $\Sigma^{'\vee}$ are the vertices of the Coxeter graph $\Sigma^{\vee}$ of $W(R^{\vee})$, together with a supplementary vertex 0. The group $A(R^{\vee})$ operates on $\Sigma^{'\vee}$ leaving 0 fixed. The group Aut($\Sigma^{'\vee}$) is canonically isomorphic to the semi-direct product of $A(R^{\vee})/W(R^{\vee})$ with a group $\Gamma_C$ (cf. Chap. VI, §2, no. 3, and Chap. VI, §4, no. 3); clearly (Aut $\Sigma^{'\vee}$)$(0) =\Gamma_C(0)$; and $\Gamma_C(0)$ consists of 0 and the vertices of $\Sigma^{\vee}$ corresponding to the $\varpi_i$ for $i\in J$ (cf. Chap. VI, §2, Prop. 5 and Remark 1 of no. 3). In summary, the minuscule weights are the fundamental weights corresponding to the vertices of $\Sigma^{\vee}$ which can be obtained from 0 by the operation of an element of Aut($\Sigma^{'\vee}$).
 
 With the notations of Chap. VI, Plates I to IX, we deduce from the preceding that the minuscule weights are the following:
 
@@ -410,11 +410,11 @@ This follows from Prop. 9 by induction on $\sum_{\alpha\in B}m_{\alpha}$.
 
 Assume that $k$ is $\mathbf{R}$ or $\mathbf{C}$ or a non-discrete complete ultrametric field. Let G be a Lie group with Lie algebra $\mathfrak{g}$. Assume that, for any fundamental representation $\rho$ of $\mathfrak{g}$, there exists an analytic linear representation $\rho '$ of G such that $\rho = L(\rho ')$. Then, for any finite dimensional linear representation $\pi$ of $\mathfrak{g}$, there exists an analytic linear representation $\pi '$ of G such that $\pi = L(\pi ')$.
 
-We use the notations of Cor. 1. There exists a representation $\sigma$ of G on $X =\bigotimes_{\alpha\in B}(\bigotimes^{m_{\alpha}}E_{\alpha})$ such that $L(\sigma )$ corresponds to the $\mathfrak{g}$-module structure of X (Chap. III, §3, no. 11, Cor. 3 of Prop. 41). Let C be the isotypical component of X of highest weight $\lambda$. In view of Chap. III, §3, no. 11, Prop. 40, it suffices to prove that C is stable under $\sigma (G)$. Let $g\in G$ and $\varphi =$ Ad($g$). Then $\sigma (g)a_X\sigma (g)^{-1}= (\varphi (a))_X$ for all $a\in \mathfrak{g}$. On the other hand, $\varphi$ is an automorphism of $\mathfrak{g}$ that takes $\mathfrak{h}$ to $\mathfrak{h}', R$ to $R'= R(\mathfrak{g},\mathfrak{h}'), B$ to a basis $B'$ of $R'$, and $\varpi_{\alpha}$ to the highest weight $\varpi '_{\alpha}$ of $E_{\alpha}$ relative to $\mathfrak{h}'$ and $B'$ (since $\varphi$ transforms $E_{\alpha}$ into a $\mathfrak{g}$-module isomorphic to $E_{\alpha})$. Hence $\varphi$ takes $\lambda$ to $\sum m_{\alpha}\varpi '_{\alpha}$. By the Remark above, $\sigma (g)(C) = C$.
+We use the notations of Cor. 1. There exists a representation $\sigma$ of G on $X =\bigotimes_{\alpha\in B}(\bigotimes^{m_{\alpha}}E_{\alpha})$ such that $L(\sigma )$ corresponds to the $\mathfrak{g}$-module structure of X (Chap. III, §3, no. 11, Cor. 3 of Prop. 41). Let C be the isotypical component of X of highest weight $\lambda$. In view of Chap. III, §3, no. 11, Prop. 40, it suffices to prove that C is stable under $\sigma (G)$. Let $g\in G$ and $\varphi =$ Ad($g$). Then $\sigma (g)a_X\sigma (g)^{-1}= (\varphi (a))_X$ for all $a\in \mathfrak{g}$. On the other hand, $\varphi$ is an automorphism of $\mathfrak{g}$ that takes $\mathfrak{h}$ to $\mathfrak{h}', R$ to $R'= R(\mathfrak{g},\mathfrak{h}'), B$ to a basis $B'$ of $R'$, and $\varpi_{\alpha}$ to the highest weight $\varpi '_{\alpha}$ of $E_{\alpha}$ relative to $\mathfrak{h}'$ and $B'$ (since $\varphi$ transforms $E_{\alpha}$ into a $\mathfrak{g}$-module isomorphic to $E_{\alpha}$). Hence $\varphi$ takes $\lambda$ to $\sum m_{\alpha}\varpi '_{\alpha}$. By the Remark above, $\sigma (g)(C) = C$.
 
 #### Proposition 10 {#lie-viii-s7-prop-10 .statement tag=013Z}
 
-Let $\lambda , \mu\in P_{++}$. Let $E,F,G$ be simple $\mathfrak{g}$-modules with highest weights $\lambda , \mu, \lambda +\mu$. Let $\mathscr{X}$ (resp. $\mathscr{X}',\mathscr{X}'')$ be the set of weights of E (resp. $F,G)$. Then $\mathscr{X}''=\mathscr{X}+\mathscr{X}'$.
+Let $\lambda , \mu\in P_{++}$. Let $E,F,G$ be simple $\mathfrak{g}$-modules with highest weights $\lambda , \mu, \lambda +\mu$. Let $\mathscr{X}$ (resp. $\mathscr{X}',\mathscr{X}''$) be the set of weights of E (resp. $F,G$). Then $\mathscr{X}''=\mathscr{X}+\mathscr{X}'$.
 
 We have $E =\bigoplus_{\nu\in P}E^{\nu},F =\bigoplus_{\sigma\in P}F^{\sigma}$, so $E\otimes F$ is the direct sum of the
 
@@ -422,7 +422,7 @@ $$
 (E\otimes F)^{\tau}=\sum_{\nu+\sigma=\tau}E^{\nu}\otimes F^{\sigma}
 $$
 
-By Prop. 9, G can be identified with a $\mathfrak{g}$-submodule of $E\otimes F$, so $\mathscr{X}''\subset \mathscr{X}+\mathscr{X}'$. We have $G^{\tau}= G\cap (E\otimes F)^{\tau}$, and it is enough to show that, for $\nu \in \mathscr{X}$ and $\sigma \in \mathscr{X}'$, we have $G\cap (E\otimes F)^{\nu+\sigma}\not= 0$. Let $(e_1, . . . , e_n)$ (resp. $(f_1, . . . , f_p))$ be a basis of E (resp. F) consisting of elements each of which belong to some $E^{\nu}$ (resp. $F^{\sigma})$, and such that $e_1\in E^{\lambda}$ (resp. $f_1\in F^\mu)$. The $e_i\otimes f_j$ form a basis of $E\otimes F$. Suppose that the result to be proved is false. Then there exists a pair $(i, j)$ such that the coordinate of index $(i, j)$ of every element of G is zero. Let U be the enveloping algebra of $\mathfrak{g}, U'$ the dual of $U,c$ the coproduct of U. For all $u\in U$, let $x_i(u)$ (resp. $y_j(u))$ be the coordinate of $u(e_1)$ (resp. $u(f_1))$ of index $i$ (resp. $j)$; let $z_{ij}(u)$ be the coordinate of index $(i, j)$ of $u(e_1\otimes f_1)$. Then $x_i, y_j, z_{ij}\in U'$. Now $e_1$ generates the $\mathfrak{g}$-module E, so $x_i\not= 0$, and similarly $y_j\not= 0$. By the definition of the $\mathfrak{g}$-module $E\otimes F$ (Chap. I, §3, no. 2), if $c(u) =\sum u_s\otimes u'_s$, we have
+By Prop. 9, G can be identified with a $\mathfrak{g}$-submodule of $E\otimes F$, so $\mathscr{X}''\subset \mathscr{X}+\mathscr{X}'$. We have $G^{\tau}= G\cap (E\otimes F)^{\tau}$, and it is enough to show that, for $\nu \in \mathscr{X}$ and $\sigma \in \mathscr{X}'$, we have $G\cap (E\otimes F)^{\nu+\sigma}\not= 0$. Let $(e_1, . . . , e_n)$ (resp. $(f_1, . . . , f_p)$) be a basis of E (resp. F) consisting of elements each of which belong to some $E^{\nu}$ (resp. $F^{\sigma}$), and such that $e_1\in E^{\lambda}$ (resp. $f_1\in F^\mu$). The $e_i\otimes f_j$ form a basis of $E\otimes F$. Suppose that the result to be proved is false. Then there exists a pair $(i, j)$ such that the coordinate of index $(i, j)$ of every element of G is zero. Let U be the enveloping algebra of $\mathfrak{g}, U'$ the dual of $U,c$ the coproduct of U. For all $u\in U$, let $x_i(u)$ (resp. $y_j(u)$) be the coordinate of $u(e_1)$ (resp. $u(f_1)$) of index $i$ (resp. $j$); let $z_{ij}(u)$ be the coordinate of index $(i, j)$ of $u(e_1\otimes f_1)$. Then $x_i, y_j, z_{ij}\in U'$. Now $e_1$ generates the $\mathfrak{g}$-module E, so $x_i\not= 0$, and similarly $y_j\not= 0$. By the definition of the $\mathfrak{g}$-module $E\otimes F$ (Chap. I, §3, no. 2), if $c(u) =\sum u_s\otimes u'_s$, we have
 
 $$
 z_{ij}(u) =\sum_sx_i(u_s).y_j(u'_s) =\langle c(u), x_i\otimes y_j\rangle
@@ -668,7 +668,7 @@ The first assertion follows from no. 1, Cor. 2 of Prop. 2, and the second from �
 
 (iii) Let E be a finite dimensional $\mathfrak{g}$-module. If ch $E =\sum_{\lambda\in P_{++}}m_{\lambda}$ch[$\lambda ]$, the isotypical component of E of highest weight $\lambda$ has length $m_{\lambda}$.
 
-The family $([\lambda ])_{\lambda\in P_{++}}$ is a basis of the $\mathbf{Z}$-module $\mathscr{R}(\mathfrak{g})$, and the family (ch[$\lambda ])_{\lambda\in P_{++}}$ is a basis of the $\mathbf{Z}$-module $\mathbf{Z}[P]^W$ (Lemma 6, and Chap. VI, §3, no. 4, Prop. 3). This proves (ii) and (iii). Assertion (i) follows from (ii), Lemma 6 and Chap. VI, §3, no. 4, Th. 1.
+The family $([\lambda ])_{\lambda\in P_{++}}$ is a basis of the $\mathbf{Z}$-module $\mathscr{R}(\mathfrak{g})$, and the family (ch[$\lambda ]$)$_{\lambda\in P_{++}}$ is a basis of the $\mathbf{Z}$-module $\mathbf{Z}[P]^W$ (Lemma 6, and Chap. VI, §3, no. 4, Prop. 3). This proves (ii) and (iii). Assertion (i) follows from (ii), Lemma 6 and Chap. VI, §3, no. 4, Th. 1.
 
 #### Corollary {#lie-viii-s7-n7-cor-1 .statement tag=014C}
 

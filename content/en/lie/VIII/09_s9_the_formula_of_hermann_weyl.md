@@ -29,7 +29,7 @@ subsections:
       pdf_page: 165
 statements: 12
 exercises: 16
-content_sha256: e9aa97c032ab8f28001ee9a63699edd048dc89437c965397b763db3b374ec40e
+content_sha256: f92e31adabd09e50ba9a1e86faebace09716fdabfa21192ff3e1bffeb0544f74
 ---
 
 ## § 9. THE FORMULA OF HERMANN WEYL
@@ -50,7 +50,7 @@ $$
 (\varphi \psi )(\nu ) =\sum_{\mu\in\mathfrak{h}^*}\varphi (\mu)\psi (\nu -\mu)
 $$
 
-(the family $(\varphi (\mu)\psi (\nu -\mu))_{\mu\in\mathfrak{h}^*}$ has finite support, in view of the condition satisfied by the supports of $\varphi$ and $\psi )$. If $\varphi =\sum_{\nu}x_{\nu}e^{\nu}$ and $\psi =\sum_{\nu}y_{\nu}e^{\nu}$, then $\varphi \psi =\sum_{\nu ,\mu}x_{\nu}y_\mu e^{\nu+\mu}$.
+(the family $(\varphi (\mu)\psi (\nu -\mu))_{\mu\in\mathfrak{h}^*}$ has finite support, in view of the condition satisfied by the supports of $\varphi$ and $\psi$ ). If $\varphi =\sum_{\nu}x_{\nu}e^{\nu}$ and $\psi =\sum_{\nu}y_{\nu}e^{\nu}$, then $\varphi \psi =\sum_{\nu ,\mu}x_{\nu}y_\mu e^{\nu+\mu}$.
 
 Let $\nu \in \mathfrak{h}^*$. A partition of $\nu$ into positive roots is a family $(n_{\alpha})_{\alpha\in R_+}$, where the $n_{\alpha}$ are integers $\geq 0$ such that $\nu =\sum_{\alpha\in R_+}n_{\alpha}\alpha$. We denote by $\mathfrak{P}(\nu )$ the number of partitions of $\nu$ into positive roots. We have
 
@@ -116,7 +116,7 @@ It now suffices to apply Lemma 1.
 
 Let M be a $\mathfrak{g}$-module which admits a character ch(M) whose support is contained in a finite union of the sets $\mu-P_+$. Let U be the enveloping algebra of $\mathfrak{g}$, Z the centre of U$,\lambda_0\in \mathfrak{h}^*$, and $\chi_{\lambda_0}$ the corresponding homomorphism from Z to $k($§8, Cor. 1 of Th. 2). Assume that, for all $z\in Z,z_M$ is the homothety with ratio $\chi_{\lambda_0}(z)$. Let $D_M$ be the set of $\lambda \in W(\lambda_0+\rho )-\rho$ such that $\lambda + Q_+$ meets Supp(ch M). Then ch(M) is a $\mathbf{Z}$-linear combination of the ch $Z(\lambda )$ for $\lambda \in D_M$.
 
-If Supp(ch M) is empty, the lemma is clear. Assume that Supp(ch $M)\not=\emptyset$. Let $\lambda$ be a maximal element of this support, and put dim $M^{\lambda}=m$. There exists a $\mathfrak{g}$-homomorphism $\varphi$ from $(Z(\lambda ))^m$ to M which maps $(Z(\lambda )^{\lambda})^m$ bijectively onto $M^{\lambda}($§6, no. 3, Prop. 6 (i)). Thus, the central character of $Z(\lambda )$ is $\chi_{\lambda_0}$, so $\lambda \in W(\lambda_0+\rho )-\rho ($§8, no. 5, Cor. 1 of Th. 2). This proves that $D_M\not=\emptyset$, and allows us to argue by induction on Card $D_M$. Let L and N be the kernel and cokernel of $\varphi$. Then we have an exact sequence of $\mathfrak{g}$-homomorphisms:
+If Supp(ch M) is empty, the lemma is clear. Assume that Supp(ch $M$)$\not=\emptyset$. Let $\lambda$ be a maximal element of this support, and put dim $M^{\lambda}=m$. There exists a $\mathfrak{g}$-homomorphism $\varphi$ from $(Z(\lambda ))^m$ to M which maps $(Z(\lambda )^{\lambda})^m$ bijectively onto $M^{\lambda}($§6, no. 3, Prop. 6 (i)). Thus, the central character of $Z(\lambda )$ is $\chi_{\lambda_0}$, so $\lambda \in W(\lambda_0+\rho )-\rho ($§8, no. 5, Cor. 1 of Th. 2). This proves that $D_M\not=\emptyset$, and allows us to argue by induction on Card $D_M$. Let L and N be the kernel and cokernel of $\varphi$. Then we have an exact sequence of $\mathfrak{g}$-homomorphisms:
 
 $$
 0\rightarrow L\rightarrow (Z(\lambda ))^m\rightarrow M\rightarrow N\rightarrow 0
@@ -126,11 +126,11 @@ so
 
 ch(M) $=-$ch(L) $+m$ ch $Z(\lambda ) +$ ch(N)
 
-(§7, no. 7, formula (6)). The sets Supp(ch L) and Supp(ch N) are contained in a finite union of sets $\mu-P_+$. For $z\in Z,z_L$ and $z_N$ are homotheties with ratio $\chi_{\lambda_0}(z)$. Clearly, $D_N\subset D_M$. On the other hand, $(\lambda + Q_+)\cap$Supp(ch $M) =\{\lambda \}$, and $\lambda  /\in$ Supp(ch N), so $\lambda  /\in D_N$ and
+(§7, no. 7, formula (6)). The sets Supp(ch L) and Supp(ch N) are contained in a finite union of sets $\mu-P_+$. For $z\in Z,z_L$ and $z_N$ are homotheties with ratio $\chi_{\lambda_0}(z)$. Clearly, $D_N\subset D_M$. On the other hand, $(\lambda + Q_+)\cap$Supp(ch $M$) $=\{\lambda \}$, and $\lambda  /\in$ Supp(ch N), so $\lambda  /\in D_N$ and
 
 Card $D_N<$ Card $D_M$.
 
-On the other hand, L is a submodule of $(Z(\lambda ))^m$; if $\lambda '\in D_L$, then $\lambda '+ Q_+$ meets Supp(ch $L)\subset$ Supp ch $Z(\lambda )$, so $\lambda \in \lambda '+ Q_+($§6, no. 1, Prop. 1 (ii)); it follows that $D_L\subset D_M$. Since $L\cap (Z(\lambda )^{\lambda})^m= 0$, we have $\lambda  /\in D_L$, so
+On the other hand, L is a submodule of $(Z(\lambda ))^m$; if $\lambda '\in D_L$, then $\lambda '+ Q_+$ meets Supp(ch $L$)$\subset$ Supp ch $Z(\lambda )$, so $\lambda \in \lambda '+ Q_+($§6, no. 1, Prop. 1 (ii)); it follows that $D_L\subset D_M$. Since $L\cap (Z(\lambda )^{\lambda})^m= 0$, we have $\lambda  /\in D_L$, so
 
 Card $D_L<$ Card $D_M$.
 
@@ -206,13 +206,13 @@ $$
 f_{\rho}(J(e^\mu)) =f_\mu(J(e^{\rho})) =e^{(\mu|\rho)T}\prod_{\alpha\in R_+}(1-e^{-(\mu|\alpha)T})
 $$
 
-Hence, setting Card(R$_+) = N$,
+Hence, setting Card(R$_+$) $= N$,
 
-$f_{\rho}(J(e^\mu))\equiv T^N\prod_{\alpha\in R}(\mu|\alpha )$ (mod $T^{N+1}\mathbf{R}[[T]])$.
+$f_{\rho}(J(e^\mu))\equiv T^N\prod_{\alpha\in R}(\mu|\alpha )$ (mod $T^{N+1}\mathbf{R}[[T]]$).
 
 The equality $J(e^{\lambda+\rho}) =$ ch(E)$.J(e^{\rho})$ (Th. 1) thus implies that
 
-$T^N\prod_{\alpha\in R_+}(\lambda +\rho |\alpha )\equiv f_{\rho}$(ch $E).T^N\prod_{\alpha\in R_+}(\rho |\alpha )$ (mod $T^{N+1}\mathbf{R}[[T]])$
+$T^N\prod_{\alpha\in R_+}(\lambda +\rho |\alpha )\equiv f_{\rho}$(ch $E$)$.T^N\prod_{\alpha\in R_+}(\rho |\alpha )$ (mod $T^{N+1}\mathbf{R}[[T]]$)
 
 so
 
@@ -278,7 +278,7 @@ $$
 
 5!
 
-In particular, the fundamental representation of highest weight $\varpi_1$ (resp. $\varpi_2)$ is of dimension 7 (resp. 14).
+In particular, the fundamental representation of highest weight $\varpi_1$ (resp. $\varpi_2$) is of dimension 7 (resp. 14).
 
 ### 3. MULTIPLICITIES OF WEIGHTS OF SIMPLE $\mathfrak{g}$-MODULES
 
@@ -338,7 +338,7 @@ $$
 m_{\lambda}=-\sum_{w'\in W,w'\not=1}\varepsilon (w')\sum_{w\in W}\varepsilon (w)\mathfrak{P}(w(\omega +\rho )-(\lambda +\rho -w'\rho +\rho ))
 $$
 
-$=-\sum_{w'\in W,w'\not=1}\varepsilon (w')m_{\lambda+\rho-w'\rho}$ (Prop$.1)$.
+$=-\sum_{w'\in W,w'\not=1}\varepsilon (w')m_{\lambda+\rho-w'\rho}$ (Prop$.1$).
 
 ### 4. DECOMPOSITION OF TENSOR PRODUCTS OF SIMPLE $\mathfrak{g}$-MODULES
 
@@ -364,7 +364,7 @@ $$
 
 Put $c_1=$ ch(E) $=\sum_{\sigma\in P}m_{\sigma}e^{\sigma},c_2=$ ch(F), and $d= J(e^{\rho})$, where J is defined as in no. 2. We have
 
-$\sum_{\xi\in P_{++}}l_{\xi}$ch[$\xi ] =$ ch(E $\otimes F) =c_1c_2$
+$\sum_{\xi\in P_{++}}l_{\xi}$ch[$\xi ] =$ ch(E $\otimes F$) $=c_1c_2$
 
 so, after multiplying by $d$ and using Th. 1,
 

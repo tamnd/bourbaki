@@ -37,7 +37,7 @@ subsections:
       pdf_page: 445
 statements: 31
 exercises: 34
-content_sha256: 8d18db04fd0083bcc1bac34c04d9f068d37a7c25c28e9b0accd03edcd945b470
+content_sha256: c9cb3c126ca51430bcfdf8f79aa2c3b874dfc666fe3ef32ccf2a87eeb6f4025f
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -526,7 +526,7 @@ Pour $i\in$ I, notons $g_i:\pi_1(A, a)\rightarrow \pi_1(A_i, a)$ et $f_i:\pi_1(A
 
 éléments $g_i(v)g_{i'}(v)^{-1}$, pour $i, i'\in I$ et $v\in \pi_1(A, a)$.
 
-Les homomorphismes $f_i\circ g_i:\pi_1(A, a)\rightarrow \pi_1(Y, a)$, pour $i\in I$, sont égaux. Il découle donc de la propriété universelle des sommes amalgamées de monoïdes (A, I, p. 80, prop. 4) qu’il existe un unique homomorphisme de groupes $\varphi$ (resp. $f)$ de $*_A\pi_1(A_i, a)$ (resp. de $_i*_{\in I}\pi_1(A_i, a)$) dans $\pi_1(Y, a)$ qui induit l’homomorphisme $f_i$ sur $\pi_1(A_i, a)$. On a $f=$ $\varphi \circ p$.
+Les homomorphismes $f_i\circ g_i:\pi_1(A, a)\rightarrow \pi_1(Y, a)$, pour $i\in I$, sont égaux. Il découle donc de la propriété universelle des sommes amalgamées de monoïdes (A, I, p. 80, prop. 4) qu’il existe un unique homomorphisme de groupes $\varphi$ (resp. $f$) de $*_A\pi_1(A_i, a)$ (resp. de $_i*_{\in I}\pi_1(A_i, a)$) dans $\pi_1(Y, a)$ qui induit l’homomorphisme $f_i$ sur $\pi_1(A_i, a)$. On a $f=$ $\varphi \circ p$.
 
 Pour $i\in$ I, notons $u_i$ l’injection canonique de A dans $A_i$ et $v_i$ l’injection canonique de $A_i$ dans Y. Notons aussi $w$ l’injection canonique de A dans Y. Pour tout $i\in$ I, on a $v_i\circ u_i$ = $w$, donc $\pi_1(v_i, a)\circ \pi_1(u_i, a) =\pi_1(w, a)$. Il découle alors de la propriété universelle des sommes amalgamées de monoïdes (A, I, p. 80, prop. 4) qu’il existe un unique homomorphisme de groupes $\varphi$ de $*_i\pi_1(A_i, a)$ dans $\pi_1(Y, a)$ qui induit l’homomorphisme $\pi_1(v_i, a)$ sur $\pi_1(A_i, a)$. Il s’agit de démontrer que $\varphi$ est un isomorphisme.
 

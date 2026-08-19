@@ -37,7 +37,7 @@ subsections:
       pdf_page: 381
 statements: 30
 exercises: 5
-content_sha256: 89ac0cd4bde1a7c257a71e5106f9264dd7fec62a4ce45c60a22966cb87b2c498
+content_sha256: a5eeffc52f66c26498857170cbe24722714d48e553f2f8cd94068e19621fadad
 ---
 
 ## § 2. GROUPES DE POINCARÉ DES ESPACES DÉLAÇABLES
@@ -80,13 +80,13 @@ $$
 
 est bijective.
 
-Au moyen de l’homomorphisme $\pi_1(f, a)$, tout $\pi_1(B, b)$-ensemble est muni d’une structure de $\pi_1(A, a)$-ensemble. La condition (i) est alors équivalente à la condition (i$')$ suivante :
+Au moyen de l’homomorphisme $\pi_1(f, a)$, tout $\pi_1(B, b)$-ensemble est muni d’une structure de $\pi_1(A, a)$-ensemble. La condition (i) est alors équivalente à la condition (i$'$) suivante :
 
-(i$')$ Pour tout couple $(F,F')$ de $\pi_1(B, b)$-ensembles, tout $\pi_1(A, a)$-morphisme de F dans $F'$ est un $\pi_1(B, b)$-morphisme.
+(i$'$) Pour tout couple $(F,F')$ de $\pi_1(B, b)$-ensembles, tout $\pi_1(A, a)$-morphisme de F dans $F'$ est un $\pi_1(B, b)$-morphisme.
 
 En effet, si l’homomorphisme $\pi_1(f, a)$ est surjectif, tout $\pi_1(A, a)$-morphisme de $\pi_1(B, b)$-ensembles est un $\pi_1(B, b)$-morphisme. Inversement, prenons un $\pi_1(B, b)$-ensemble F réduit à un point et posons $F'=\pi_1(B, b)/f_*(\pi_1(A, a))$. L’application de F dans $F'$ dont l’image est $f_*(\pi_1(A, a))$ est un $\pi_1(A, a)$-morphisme mais n’est pas un $\pi_1(B, b)$-morphisme si $F'$ n’est pas réduit à un point, c’est-à-dire si $\pi_1(f, a)$ n’est pas surjectif.
 
-Comme l’espace B est délaçable, tout $\pi_1(B, b)$-ensemble est isomorphe au $\pi_1(B, b)$-ensemble $E_b$, où E est un revêtement de B (IV, p. 344, remarque 1). L’équivalence de (i$')$ et (ii) résulte donc de la prop. 2 de III, p. 310.
+Comme l’espace B est délaçable, tout $\pi_1(B, b)$-ensemble est isomorphe au $\pi_1(B, b)$-ensemble $E_b$, où E est un revêtement de B (IV, p. 344, remarque 1). L’équivalence de (i$'$) et (ii) résulte donc de la prop. 2 de III, p. 310.
 
 #### Proposition 3 {#ta-iv-s2-prop-3 .statement tag=020U}
 
@@ -196,7 +196,7 @@ Soient $\mathscr{F}$ le faisceau sur X des X-morphismes de $X\times_YT$ dans $X\
 
 $\mathscr{F}(\overset{-1}{f}(U))$. Les applications $\varphi_U$ définissent un morphisme de faisceaux $\varphi :\mathscr{G}\rightarrow \varphi_*(\mathscr{F})$ et il suffit de démontrer que $\varphi$ est un isomorphisme de faisceaux.
 
-Comme Y est localement connexe (IV, p. 354, cor. 2), les ensembles ouverts connexes au-dessus desquels T et $T'$ sont trivialisables forment une base de la topologie de Y. D’après le corollaire 2 de I, p. 55, il suffit de démontrer que pour un tel ouvert U, l’application $\varphi_U$ est bijective, ce qui nous permet de supposer que Y est connexe et que les revêtements T et $T'$ sont les revêtements triviaux $Y\times F$ et $Y\times F'$ où F et $F'$ sont des ensembles munis de la topologie discrète. L’application $(x,(y, t))\mapsto (x, t)$ identifie le X-espace $X\times_Y(Y\times F)$ à $X\times F$ (resp. le X-espace $X\times_Y(Y\times F')$ à $X\times F')$. Comme l’espace X est connexe (IV, p. 354, cor. 2), les ensembles $\mathscr{C}_Y(Y\times F; Y\times F')$ et $\mathscr{C}_X(X\times F; X\times F')$ s’identifient tous deux à l’ensemble $\mathscr{F}(F; F')$ des applications de F dans $F'$, et l’application $f^*$ s’identifie à l’application identique de $\mathscr{F}(F; F')$. Cela conclut la démonstration.
+Comme Y est localement connexe (IV, p. 354, cor. 2), les ensembles ouverts connexes au-dessus desquels T et $T'$ sont trivialisables forment une base de la topologie de Y. D’après le corollaire 2 de I, p. 55, il suffit de démontrer que pour un tel ouvert U, l’application $\varphi_U$ est bijective, ce qui nous permet de supposer que Y est connexe et que les revêtements T et $T'$ sont les revêtements triviaux $Y\times F$ et $Y\times F'$ où F et $F'$ sont des ensembles munis de la topologie discrète. L’application $(x,(y, t))\mapsto (x, t)$ identifie le X-espace $X\times_Y(Y\times F)$ à $X\times F$ (resp. le X-espace $X\times_Y(Y\times F')$ à $X\times F'$). Comme l’espace X est connexe (IV, p. 354, cor. 2), les ensembles $\mathscr{C}_Y(Y\times F; Y\times F')$ et $\mathscr{C}_X(X\times F; X\times F')$ s’identifient tous deux à l’ensemble $\mathscr{F}(F; F')$ des applications de F dans $F'$, et l’application $f^*$ s’identifie à l’application identique de $\mathscr{F}(F; F')$. Cela conclut la démonstration.
 
 #### Corollaire 1 {#ta-iv-s2-prop-5-cor-1 .statement tag=0213}
 
@@ -452,7 +452,7 @@ Pour $m\in \mathbf{N}$, désignons par $\tau_m$ l’élément de G dont tous les
 
 Terminons maintenant la démonstration du théorème 2. D’après la prop. 8, il existe une application continue injective $\gamma$ de $\{0,1\}^{\mathbf{N}}$ dans K dont l’image rencontre toute classe d’équivalence suivant R en au plus un point. Si $k$ et $k'$ sont des éléments distincts de $\{0,1\}^{\mathbf{N}}$, les lacets $c_{\gamma(k)}$ et $c_{\gamma(k')}$ ne sont pas strictement homotopes dans X et l’application $\{0,1\}^{\mathbf{N}}\rightarrow \pi_1(X, a)$ donnée par $k\mapsto [c_{\gamma(k)}]$ est injective. En particulier, Card($\pi_1(X, a)$)$\geqslant$ Card($\{0,1\}^{\mathbf{N}}$) $=$ Card($\mathfrak{P}(\mathbf{N})$). Comme X est un espace topologique métrisable de type dénombrable, il en est de même de $\Omega_a(X)$ (TG, X, p. 24, th. 1). Par suite, $\Omega_a(X)$ est homéomorphe à un sous-espace de $[0,1]^{\mathbf{N}}$ (TG, IX, p. 18, prop. 12) et
 
-Card(Ω$_a(X))\leqslant$ Card([0$,1]^{\mathbf{N}}) =$ Card($\mathfrak{P}(\mathbf{N})^{\mathbf{N}}$)
+Card(Ω$_a(X)$)$\leqslant$ Card([0$,1]^{\mathbf{N}}$) $=$ Card($\mathfrak{P}(\mathbf{N})^{\mathbf{N}}$)
 
 = Card($\mathfrak{P}(\mathbf{N}\times \mathbf{N})$) $=$ Card($\mathfrak{P}(\mathbf{N})$).
 

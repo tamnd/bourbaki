@@ -33,7 +33,7 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 19
-content_sha256: 77a4dafd4c56e0489b6d54d5335d12f5b4e3dcc44318de058d3b2d42f9e61016
+content_sha256: 992283c6c0a6b20fcbe0a2a467ff90ab011986820c16fbbe48fefcb9661aa49e
 ---
 
 ## § 2. STRUCTURE DES MODULES DE LONGUEUR FINIE
@@ -230,7 +230,7 @@ Le $\mathbf{Z}$-module $\mathbf{Z}$est indécomposable, noethérien, mais non ar
 
 $*$ Soit $p$ un nombre premier. L’anneau des endomorphismes du $\mathbf{Z}$-module $\mathbf{Q}_p/\mathbf{Z}_p$ est isomorphe à l’anneau local $\mathbf{Z}_p$ (cf. VII, p. 62, exercice 13) ; c’est donc un $\mathbf{Z}$-module primordial.
 
-Un module injectif est indécomposable si et seulement s’il est primordial (X, p. 21, prop. $14).*$
+Un module injectif est indécomposable si et seulement s’il est primordial (X, p. 21, prop. $14$)$.*$
 
 ### 4. Modules semi-primordiaux
 
@@ -284,17 +284,17 @@ Comme $p$ n’est pas nul, $1_M-p$ n’est pas injectif. D’après le lemme 2, 
 
 Soient M un A-module, somme directe d’une famille $(M_i)_{i\in I}$ de sous-modules primordiaux, L un A-module primordial et N un sous-module facteur direct de M. On suppose que N est somme directe d’une famille $(N_j)_{j\in J}$ de sous-modules isomorphes à L et l’on note $I_L$ l’ensemble des indices $i\in I$tels que $M_i$ soit isomorphe à L. On a alors
 
-(1) Card(J) $\leqslant$ Card(I$_L)$.
+(1) Card(J) $\leqslant$ Card(I$_L$).
 
 Soit $N_0$ un sous-module de M supplémentaire de N. Le module M est somme directe de $N_0$ et de la famille $(N_j)_{j\in J}$. Pour tout $j\in J$, notons $p_j$ le projecteur de M d’image $N_j$ associé à cette décomposition (II, p. 18, prop. 12). Pour tout $i\in I$, notons $J(i)$ l’ensemble des indices $j\in J$ tels que $p_j$ induise un isomorphisme de $M_i$ sur $N_j$. Cet ensemble est fini : en effet, si $x$ est un élément non nul de $M_i$ et K une partie finie de J telle que $x$ appartienne à $N_0+\sum_{k\in K}N_k$, on a $p_j(x) = 0$ pour $j\in J$ - K, de sorte que $J(i)$ est contenu dans K.
 
 Soit $j\in J$. D’après le lemme 3, il existe un indice $i\in I$ tel que $p_j$ induise un isomorphisme de $M_i$ sur un sous-module facteur direct de $N_j$. Comme $M_i$ n’est pas nul et que $N_j$ est primordial, donc indécomposable (VIII, p. 28, prop. 4), on a $p_j(M_i) = N_j$, et $j$ appartient à $J(i)$. Comme le module $M_i$ est isomorphe à $N_j$, donc à L, l’indice $i$ appartient à $I_L$. Cela démontre que J est réunion de la famille d’ensembles finis $(J(i))_{i\in I_L}$. Si l’ensemble J est infini, l’ensemble $I_L$ est infini, et l’on a (E, III, p. 49, cor. 3)
 
-Card(J) $\leqslant \sum_{i\in I_L}$ Card(J($i$))$\leqslant$ Card(I$_L)$.
+Card(J) $\leqslant \sum_{i\in I_L}$ Card(J($i$))$\leqslant$ Card(I$_L$).
 
-Supposons maintenant l’ensemble J fini, et démontrons le lemme par récurrence sur le cardinal de J. Si J est vide, il n’y a rien à prouver. Supposons donc J non vide et choisissons un élément $j$ de J. D’après ce qui précède, il existe un indice $i\in I_L$ tel que $p_j$ induise un isomorphisme de $M_i$ sur $N_j$. Posons $I'= I-\{i\}$ et $J'= J-\{j\}$. Le module M est somme directe de $M_i$ et du noyau de $p_j$. Il est aussi somme directe de $M_i$ et du sous-module $M'=\oplus_{i'\in I'}M_{i'}$. Il existe donc (II, p. 20, cor. de la prop. 13) un isomorphisme $\varphi$ de Ker$p_j= N_0\oplus_{j'\in J'}N_{j'}$ sur $M'$. Posons $N'=\varphi (\sum_{j'\in J'}N_{j'})$. Le sous-module $N'$ est facteur direct de $M'$ et est somme directe de la famille $(\varphi (N_{j'}))_{j'\in J'}$ de sous-modules primordiaux isomorphes à L. Appliquons l’hypothèse de récurrence à $M'$ et $N':$ on a Card(J$')\leqslant$ Card(I$_L-\{i\})$, d’où l’inégalité (1).
+Supposons maintenant l’ensemble J fini, et démontrons le lemme par récurrence sur le cardinal de J. Si J est vide, il n’y a rien à prouver. Supposons donc J non vide et choisissons un élément $j$ de J. D’après ce qui précède, il existe un indice $i\in I_L$ tel que $p_j$ induise un isomorphisme de $M_i$ sur $N_j$. Posons $I'= I-\{i\}$ et $J'= J-\{j\}$. Le module M est somme directe de $M_i$ et du noyau de $p_j$. Il est aussi somme directe de $M_i$ et du sous-module $M'=\oplus_{i'\in I'}M_{i'}$. Il existe donc (II, p. 20, cor. de la prop. 13) un isomorphisme $\varphi$ de Ker$p_j= N_0\oplus_{j'\in J'}N_{j'}$ sur $M'$. Posons $N'=\varphi (\sum_{j'\in J'}N_{j'})$. Le sous-module $N'$ est facteur direct de $M'$ et est somme directe de la famille $(\varphi (N_{j'}))_{j'\in J'}$ de sous-modules primordiaux isomorphes à L. Appliquons l’hypothèse de récurrence à $M'$ et $N':$ on a Card(J$'$)$\leqslant$ Card(I$_L-\{i\}$), d’où l’inégalité (1).
 
-Prouvons le théorème 1. Soient $(M_i)_{i\in I}$ et $(N_j)_{j\in J}$ deux familles de sous-modules primordiaux dont M soit la somme directe. Soit $I_L$ (resp. $J_L)$ l’ensemble des $i\in I$ (resp. $j\in J)$ tels que $M_i$ (resp. $N_j)$ soit isomorphe à L. On a Card(J$_L)\leqslant$ Card(I$_L)$ d’après le lemme 4. En échangeant les rôles de I et J on obtient l’inégalité opposée, d’où le théorème.
+Prouvons le théorème 1. Soient $(M_i)_{i\in I}$ et $(N_j)_{j\in J}$ deux familles de sous-modules primordiaux dont M soit la somme directe. Soit $I_L$ (resp. $J_L$) l’ensemble des $i\in I$ (resp. $j\in J$) tels que $M_i$ (resp. $N_j$) soit isomorphe à L. On a Card(J$_L$)$\leqslant$ Card(I$_L$) d’après le lemme 4. En échangeant les rôles de I et J on obtient l’inégalité opposée, d’où le théorème.
 
 Le cardinal [M : L] défini dans la théorème 1 est appelé multiplicité primordiale de L dans M.
 
@@ -312,9 +312,9 @@ $$
 
 Il existe alors un automorphisme $u$ de M et une bijection $\varphi$ de I sur J tels que l’on ait $u(M_i) = M'_{\varphi(i)}$ pour tout $i\in I$.
 
-Pour tout module primordial L, soit $I_L$ (resp. $J_L)$ l’ensemble des indices $i\in I$ (resp. $j\in J)$ tels que $M_i$ (resp. $M'_j)$ soit isomorphe à L. Les ensembles non vides de la forme $I_L$ (resp. $J_L)$ forment une partition de I (resp. J) et l’on a, pour tout L
+Pour tout module primordial L, soit $I_L$ (resp. $J_L$) l’ensemble des indices $i\in I$ (resp. $j\in J$) tels que $M_i$ (resp. $M'_j$) soit isomorphe à L. Les ensembles non vides de la forme $I_L$ (resp. $J_L$) forment une partition de I (resp. J) et l’on a, pour tout L
 
-Card(I$_L) =$ Card(J$_L) = [M : L]$,
+Card(I$_L$) $=$ Card(J$_L$) $= [M : L]$,
 
 d’où le cor. 2.
 
