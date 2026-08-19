@@ -1,4 +1,4 @@
-version: 30
+version: 31
 terms:
     - en: ring
       vi: vành
@@ -392,11 +392,6 @@ terms:
       zh: 等式
       ja: 等式
       fr: égalité
-    - en: observe
-      vi: nhận thấy
-      zh: 注意到
-      ja: 注意する
-      fr: observer
     - en: left artinian
       vi: Artin trái
       zh: 左阿廷的
@@ -937,11 +932,6 @@ terms:
       zh: 左B-模
       ja: 左B-加群
       fr: module gauche b
-    - en: maximal left
-      vi: tối đại trái
-      zh: 极大左
-      ja: 極大左
-      fr: sous-module maximal gauche
     - en: pair
       vi: cặp
       zh: 对
@@ -952,11 +942,6 @@ terms:
       zh: 约化
       ja: 簡約する
       fr: réduire
-    - en: simply
-      vi: đơn giản
-      zh: 简单地
-      ja: 単に
-      fr: simplement
     - en: balanced
       vi: cân bằng
       zh: 平衡
@@ -967,11 +952,6 @@ terms:
       zh: 有限秩
       ja: 有限階数
       fr: rang fini
-    - en: proved
-      vi: đã chứng minh
-      zh: 证明
-      ja: 証明された
-      fr: démontré
     - en: right vector space
       vi: không gian vectơ phải
       zh: 右向量空间
@@ -1068,11 +1048,6 @@ terms:
       zh: L-模
       ja: L-加群
       fr: l-module
-    - en: necessarily
-      vi: tất yếu
-      zh: 必然地
-      ja: 必然的に
-      fr: nécessairement
     - en: pseudomodule
       vi: giả môđun
       zh: 伪模
@@ -1153,11 +1128,6 @@ terms:
       zh: 概念
       ja: 概念
       fr: notion
-    - en: recall
-      vi: nhắc lại
-      zh: 回顾
-      ja: 想起する
-      fr: rappel
     - en: semisimple algebra
       vi: đại số nửa đơn
       zh: 半单代数
@@ -1382,11 +1352,6 @@ terms:
       zh: 确定的
       ja: 決定された
       fr: déterminé
-    - en: diagram commute
-      vi: sơ đồ giao hoán
-      zh: 图表交换
-      ja: 図式が可換
-      fr: diagramme commutative
     - en: directed
       vi: có hướng
       zh: 有向的
@@ -1442,11 +1407,6 @@ terms:
       zh: 极大双边理想
       ja: 極大両側イデアル
       fr: idéal maximal à deux côtés
-    - en: reason
-      vi: lý do
-      zh: 理由
-      ja: 理由
-      fr: raison
     - en: semilinear
       vi: nửa tuyến tính
       zh: 半线性
@@ -1698,11 +1658,6 @@ terms:
       zh: 半单的
       ja: 半単純それぞれ
       fr: semi-simple
-    - en: similar
-      vi: đồng dạng
-      zh: 相似的
-      ja: 相似
-      fr: semblable
     - en: square zero
       vi: bình phương bằng không
       zh: 平方为零
@@ -1763,11 +1718,6 @@ terms:
       zh: 分次的
       ja: 次数付き
       fr: gradué
-    - en: homomorphism defined
-      vi: đồng cấu được xác định
-      zh: 定义的同态
-      ja: 定義された準同型
-      fr: homomorphisme défini
     - en: identity mapping
       vi: ánh xạ đồng nhất
       zh: 恒等映射
@@ -1934,11 +1884,6 @@ terms:
       zh: 局部地
       ja: 局所的に
       fr: localement
-    - en: mapping defined
-      vi: ánh xạ được xác định
-      zh: 定义的映射
-      ja: 定義された写像
-      fr: application définie
     - en: minimal right ideal
       vi: iđêan phải tối tiểu
       zh: 极小右理想
@@ -1969,11 +1914,6 @@ terms:
       zh: 轨道
       ja: 軌道
       fr: orbite
-    - en: otherwise
-      vi: nếu không
-      zh: 否则
-      ja: その他の場合
-      fr: sinon
     - en: perfect field
       vi: trường hoàn hảo
       zh: 完美域
@@ -2675,11 +2615,6 @@ terms:
       zh: 同型A-模
       ja: 等型A-加群
       fr: module isotypique
-    - en: itself
-      vi: chính nó
-      zh: 本身
-      ja: 自身
-      fr: soi-même
     - en: k-subalgebra
       vi: đại số con trên K
       zh: K-子代数
@@ -2690,11 +2625,6 @@ terms:
       zh: 左诺特环
       ja: 左ネーター環
       fr: anneau noethérien à gauche
-    - en: line
-      vi: dòng
-      zh: 直线
-      ja: 直線
-      fr: droite
     - en: mapping defines
       vi: ánh xạ xác định
       zh: 映射定义
@@ -2857,11 +2787,6 @@ terms:
       zh: 必须证明
       ja: 証明しなければならない
       fr: doit prouver
-    - en: necessary
-      vi: cần thiết
-      zh: 必要
-      ja: 必要な
-      fr: nécessaire
     - en: nonzero nilpotent
       vi: phần tử lũy linh khác không
       zh: 非零幂零元
@@ -3127,11 +3052,6 @@ terms:
       zh: 可解
       ja: 可解
       fr: résoluble
-    - en: stated
-      vi: đã phát biểu
-      zh: 陈述
-      ja: 述べられた
-      fr: mention
     - en: submodules isomorphic
       vi: các môđun con đẳng cấu
       zh: 子模同构
@@ -3279,11 +3199,6 @@ terms:
       zh: 回忆录
       ja: 覚書
       fr: mémoire
-    - en: monogenous left
-      vi: đơn sinh trái
-      zh: 单生成左
-      ja: 単生成左
-      fr: monogène à gauche
     - en: multiplier
       vi: nhân tử
       zh: 乘子
@@ -3348,10 +3263,6 @@ terms:
       zh: 约化迹
       ja: 簡約トレース
       fr: trace réduite
-    - en: relation implies
-      vi: quan hệ suy ra
-      zh: 关系蕴含
-      ja: 関係は意味する
     - en: resp bijective
       vi: tương ứng song ánh
       zh: 分别双射
@@ -3571,11 +3482,6 @@ terms:
       zh: 非零向量
       ja: 非零ベクトル
       fr: vecteur non nul
-    - en: nothing
-      vi: không có gì
-      zh: 无
-      ja: 何もない
-      fr: rien
     - en: observed
       vi: nhận thấy
       zh: 观察到
@@ -3591,11 +3497,6 @@ terms:
       zh: 两两正交
       ja: 互いに直交する
       fr: deux à deux orthogonaux
-    - en: possible
-      vi: có thể
-      zh: 可能的
-      ja: 可能
-      fr: possible
     - en: primary
       vi: nguyên sơ
       zh: 拟素的
@@ -3698,10 +3599,6 @@ terms:
       zh: 方阵
       ja: 正方行列
       fr: matrices carrées
-    - en: structure defined
-      vi: cấu trúc được xác định
-      zh: 定义的结构
-      ja: 定義された構造
     - en: submonoid
       vi: monoid con
       zh: 子幺半群
@@ -3740,10 +3637,6 @@ terms:
       vi: duy nhất cực đại trái
       zh: 唯一极大左
       ja: 一意な極大左
-    - en: unique minimal
-      vi: duy nhất tối tiểu
-      zh: 唯一极小
-      ja: 一意な極小
     - en: unit representation
       vi: biểu diễn đơn vị
       zh: 单位表示
@@ -3758,6 +3651,12 @@ terms:
       zh: 上界
       ja: 上界
       fr: majorant
+    - en: lower bound
+      vi: cận dưới
+      zh: 下界
+      ja: 下界
+      fr: minorant
+      note: The corpus writes it 33 times and the Vietnamese answers with cận dưới 25 times and chặn dưới 14, which is the split a row is for. cận dưới is the one that matches cận trên above, and a reader who has both words in front of them should not have to work out that they are the same idea.
     - en: weakly additive function
       vi: hàm cộng tính yếu
       zh: 弱可加函数
@@ -4166,10 +4065,6 @@ terms:
       zh: 同型模
       ja: 等型加群
       fr: module isotypique
-    - en: lower
-      vi: thấp hơn
-      ja: 下
-      fr: inférieure
     - en: nilpotent lie algebra
       vi: đại số Lie lũy linh
       zh: 幂零李代数
@@ -4371,9 +4266,6 @@ terms:
     - en: LIE GROUP CASE
       vi: trường hợp nhóm Lie
       zh: 李群情形
-    - en: Modules over an Artinian Ring
-      vi: Môđun trên một vành Artin
-      zh: 阿廷环上的模
     - en: nodal group
       vi: nhóm nút
     - en: preorder relation
@@ -4747,9 +4639,6 @@ terms:
     - en: The scheme of selection and union
       vi: Sơ đồ chọn và hợp
       zh: 选择并集方案
-    - en: The set of natural integers
-      vi: Tập hợp các số tự nhiên
-      zh: 自然整数集合
     - en: The theory of sets
       vi: lý thuyết tập hợp
       zh: 集合论
@@ -4828,9 +4717,6 @@ terms:
     - en: compact lie groups operating
       vi: các nhóm Lie compac tác động
       zh: 作用的紧李群
-    - en: comparison
-      vi: sự so sánh
-      zh: 比较
     - en: complex linear
       vi: tuyến tính phức
       zh: 复线性
@@ -4858,9 +4744,6 @@ terms:
     - en: double direct limit product
       vi: tích giới hạn thuận kép
       zh: 双重直极限积
-    - en: double inverse
-      vi: nghịch đảo kép
-      zh: 双逆
     - en: embedding theorem
       vi: định lý nhúng
       zh: 嵌入定理
@@ -4893,9 +4776,6 @@ terms:
     - en: exponentiation
       vi: phép lũy thừa
       zh: 幂运算
-    - en: extent
-      vi: ngoại diên
-      zh: 外延
     - en: field theory
       vi: lý thuyết trường
       zh: 域论
@@ -5012,8 +4892,6 @@ terms:
     - en: semi-simple action
       vi: tác động nửa đơn
       zh: 半单作用
-    - en: significant
-      vi: đáng kể
     - en: simplicity
       vi: tính đơn
       zh: 单纯性
@@ -5043,6 +4921,12 @@ terms:
     - en: well-ordered
       vi: được sắp tốt
       zh: 良序
+    - en: real line
+      vi: đường thẳng thực
+      zh: 实直线
+      ja: 実直線
+      fr: droite réelle
+      note: This replaces a row for line alone, which had dòng in the Vietnamese column and a straight line in the other three. Both senses are in the book and neither of them is what the bare word commits a translation to.
     - en: lattice
       vi: dàn
       note: The corpus wrote it two ways, dàn in most places and mạng in eleven, so the row is here to settle it. mạng is a net or a network and is what a reader of a networking paper expects; dàn is the word the Vietnamese algebra literature uses for the order structure this chapter defines.
