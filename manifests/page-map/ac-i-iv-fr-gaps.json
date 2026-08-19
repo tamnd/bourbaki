@@ -6,10 +6,10 @@
   "body_pages": 361,
   "front_matter_pages": 0,
   "counts": {
-    "head": 251,
-    "interpolated": 110
+    "head": 253,
+    "interpolated": 108
   },
-  "printed_pct_of_body": 69.52908587257618,
+  "printed_pct_of_body": 70.08310249307479,
   "chapters": [
     {
       "chapter": "I",
@@ -471,8 +471,8 @@
     },
     {
       "from": 277,
-      "to": 279,
-      "pages": 3,
+      "to": 278,
+      "pages": 2,
       "confidence": "interpolated"
     },
     {
@@ -580,12 +580,6 @@
     {
       "from": 337,
       "to": 337,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 349,
-      "to": 349,
       "pages": 1,
       "confidence": "interpolated"
     },

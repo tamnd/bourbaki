@@ -6,10 +6,10 @@
   "body_pages": 211,
   "front_matter_pages": 0,
   "counts": {
-    "head": 32,
-    "interpolated": 179
+    "head": 33,
+    "interpolated": 178
   },
-  "printed_pct_of_body": 15.165876777251185,
+  "printed_pct_of_body": 15.639810426540285,
   "chapters": [
     {
       "chapter": "IX",
@@ -78,8 +78,14 @@
     },
     {
       "from": 76,
+      "to": 108,
+      "pages": 33,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 110,
       "to": 130,
-      "pages": 55,
+      "pages": 21,
       "confidence": "interpolated"
     },
     {

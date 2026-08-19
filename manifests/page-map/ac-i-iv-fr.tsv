@@ -279,7 +279,7 @@ pdf_page	chapter	page	confidence
 276	III	278	head
 277	III	279	interpolated
 278	III	280	interpolated
-279	III	281	interpolated
+279	III	281	head
 280	III	282	head
 281	III	283	head
 282	III	284	head
@@ -349,7 +349,7 @@ pdf_page	chapter	page	confidence
 346	IV	348	head
 347	IV	349	head
 348	IV	350	head
-349	IV	351	interpolated
+349	IV	351	head
 350	IV	352	head
 351	IV	353	head
 352	IV	354	head
