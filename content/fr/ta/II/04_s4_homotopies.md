@@ -33,7 +33,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 0
-content_sha256: caa1a84b6b9dad3fadb5cc235ba1376df57f7782b9ed6414993cb68f9a306f70
+content_sha256: 5eafbb553a1b0365719841b825490207f84013ce88dc00d99efffccaa00d50e2
 ---
 
 ## § 4. HOMOTOPIES
@@ -300,11 +300,7 @@ Soit $g'\in$ Coh($\varphi ', \psi '$)$_{u(a)}$. Soit $g$ une flèche de Coh($\va
 
 c) Démontrons que, pour tout sommet $a$ de G, l’homomorphisme $w_a$ est injectif. En considérant successivement les diagrammes
 
-H $^{\varphi}$ G H $^{v\circ\varphi}G'$
-
-Id$_H\psi v$ et $uv\circ \psi$ Id$_{G'}$
-
-H $^v_{v\circ}^{\circ\varphi}_{\psi}G'{H'}^{\varphi'}_{\psi'}G'$
+$$\begin{array}{ccccccc} H & \underset{\psi}{\overset{\varphi}{\rightrightarrows}} & G & & H & \underset{v\circ\psi}{\overset{v\circ\varphi}{\rightrightarrows}} & G' \\ {\scriptstyle \mathrm{Id}_H}\big\downarrow & & \big\downarrow{\scriptstyle v} & \text{et} & {\scriptstyle u}\big\downarrow & & \big\downarrow{\scriptstyle \mathrm{Id}_{G'}} \\ H & \underset{v\circ\psi}{\overset{v\circ\varphi}{\rightrightarrows}} & G' & & H' & \underset{\psi'}{\overset{\varphi'}{\rightrightarrows}} & G' \end{array}$$
 
 on est alors ramené à traiter les deux cas suivants : 1) On a $H'= H$ et $u=$ Id$_H; 2)$ On a $G'= G$ et $v=$ Id$_G$.
 
