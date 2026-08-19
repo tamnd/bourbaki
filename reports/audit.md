@@ -18,11 +18,11 @@ Audited: 8 chapters, 90 sections, 878 exercises, 3398 extracted pages, 5252 tags
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
 | translation | 11 | 3 | 1 | L01 (1), L05 (39), L06 (53), L08 (27), L15 (29) |
-| solutions | 0 | 5 | 0 | X05 (3) |
+| solutions | 0 | 6 | 0 | X05 (3), X06 (39) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-40 hard findings and 116 soft, over 64 rules that ran and 2 that could not.
+40 hard findings and 155 soft, over 65 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -46,6 +46,38 @@ Soft, solutions.
 - `content/solutions/en/ens/III/s1/03.md:54` 1 characters of mathematics stand outside any math span, as ←, so the solution was written in symbols rather than in TeX
 - `content/solutions/en/ens/III/s1/04.md:26` 75 characters of mathematics stand outside any math span, as ικ∈≠≤≰, so the solution was written in symbols rather than in TeX
 - `content/solutions/en/ens/IV/s1/01.md:53` 90 characters of mathematics stand outside any math span, as τϬϭϰϲ≠≤≥, so the solution was written in symbols rather than in TeX
+
+## X06 no solution was written on the free gateway (39)
+
+Soft, solutions.
+
+- `content/solutions/en/ens/I/a0/01.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/I/s1/01.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/I/s1/02.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/I/s1/03.md:1` was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/I/s1/04.md:1` was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/I/s1/05.md:1` was written by hy3-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/I/s1/06.md:1` was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/I/s2/01.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/I/s4/01.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/I/s5/01.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/I/s5/02.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/II/s1/01.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/II/s1/02.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/II/s1/03.md:1` was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/II/s1/04.md:1` was written by hy3-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/II/s1/05.md:1` was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/II/s1/06.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/II/s2/01.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/II/s4/01.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/II/s5/01.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/II/s5/02.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/II/s5/03.md:1` was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/III/s1/01.md:1` was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/III/s1/02.md:1` was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+- `content/solutions/en/ens/III/s1/03.md:1` was written by nemotron-3.5-lightning-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again
+
+and 14 more, which `bourbaki audit -only X06` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (3)
 
