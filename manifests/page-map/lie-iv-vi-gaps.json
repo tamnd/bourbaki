@@ -6,11 +6,11 @@
   "body_pages": 301,
   "front_matter_pages": 13,
   "counts": {
-    "head": 231,
-    "interpolated": 70,
+    "head": 232,
+    "interpolated": 69,
     "none": 13
   },
-  "printed_pct_of_body": 76.74418604651163,
+  "printed_pct_of_body": 77.0764119601329,
   "chapters": [
     {
       "chapter": "IV",
@@ -35,15 +35,7 @@
     }
   ],
   "steps": [],
-  "conflicts": [
-    {
-      "pdf_page": 236,
-      "read": 3,
-      "chapter": "VI",
-      "fitted": 223,
-      "raw": "3 4.                     CLASSIFICATION OF' ROOT SYSTE'.\\IS                          223"
-    }
-  ],
+  "conflicts": [],
   "gaps": [
     {
       "from": 1,
@@ -120,12 +112,6 @@
     {
       "from": 232,
       "to": 232,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 236,
-      "to": 236,
       "pages": 1,
       "confidence": "interpolated"
     },
