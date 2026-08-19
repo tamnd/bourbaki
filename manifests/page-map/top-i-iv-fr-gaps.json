@@ -1,0 +1,540 @@
+{
+  "book": "top-i-iv-fr",
+  "grammar": "head-label",
+  "pagination": "per-chapter",
+  "pdf_pages": 367,
+  "body_pages": 340,
+  "front_matter_pages": 27,
+  "counts": {
+    "head": 158,
+    "interpolated": 182,
+    "none": 27
+  },
+  "printed_pct_of_body": 46.470588235294116,
+  "chapters": [
+    {
+      "chapter": "I",
+      "first_pdf_page": 13,
+      "last_pdf_page": 139,
+      "first_page": 1,
+      "last_page": 127
+    },
+    {
+      "chapter": "II",
+      "first_pdf_page": 140,
+      "last_pdf_page": 183,
+      "first_page": 1,
+      "last_page": 44
+    },
+    {
+      "chapter": "III",
+      "first_pdf_page": 184,
+      "last_pdf_page": 271,
+      "first_page": 1,
+      "last_page": 88
+    },
+    {
+      "chapter": "IV",
+      "first_pdf_page": 272,
+      "last_pdf_page": 352,
+      "first_page": 1,
+      "last_page": 81
+    }
+  ],
+  "steps": [],
+  "conflicts": [],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 12,
+      "pages": 12,
+      "confidence": "none"
+    },
+    {
+      "from": 13,
+      "to": 13,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 15,
+      "to": 15,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 17,
+      "to": 17,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 19,
+      "to": 19,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 22,
+      "to": 22,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 25,
+      "to": 25,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 36,
+      "to": 37,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 39,
+      "to": 39,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 41,
+      "to": 41,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 43,
+      "to": 43,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 45,
+      "to": 45,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 47,
+      "to": 47,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 50,
+      "to": 50,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 58,
+      "to": 58,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 64,
+      "to": 65,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 67,
+      "to": 67,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 69,
+      "to": 69,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 71,
+      "to": 73,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 75,
+      "to": 75,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 77,
+      "to": 77,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 81,
+      "to": 81,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 83,
+      "to": 84,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 89,
+      "to": 89,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 101,
+      "to": 101,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 103,
+      "to": 103,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 105,
+      "to": 105,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 109,
+      "to": 109,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 111,
+      "to": 111,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 113,
+      "to": 113,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 115,
+      "to": 117,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 121,
+      "to": 121,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 125,
+      "to": 125,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 128,
+      "to": 129,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 133,
+      "to": 134,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 139,
+      "to": 140,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 146,
+      "to": 146,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 148,
+      "to": 148,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 150,
+      "to": 150,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 159,
+      "to": 159,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 163,
+      "to": 163,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 166,
+      "to": 166,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 168,
+      "to": 168,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 173,
+      "to": 173,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 176,
+      "to": 176,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 178,
+      "to": 178,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 181,
+      "to": 187,
+      "pages": 7,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 189,
+      "to": 189,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 191,
+      "to": 197,
+      "pages": 7,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 199,
+      "to": 199,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 202,
+      "to": 202,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 204,
+      "to": 210,
+      "pages": 7,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 212,
+      "to": 212,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 214,
+      "to": 216,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 218,
+      "to": 221,
+      "pages": 4,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 226,
+      "to": 226,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 228,
+      "to": 232,
+      "pages": 5,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 234,
+      "to": 234,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 236,
+      "to": 236,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 238,
+      "to": 246,
+      "pages": 9,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 248,
+      "to": 249,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 252,
+      "to": 254,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 258,
+      "to": 258,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 261,
+      "to": 263,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 266,
+      "to": 268,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 271,
+      "to": 281,
+      "pages": 11,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 283,
+      "to": 283,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 285,
+      "to": 288,
+      "pages": 4,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 290,
+      "to": 297,
+      "pages": 8,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 299,
+      "to": 299,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 301,
+      "to": 301,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 303,
+      "to": 323,
+      "pages": 21,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 325,
+      "to": 325,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 327,
+      "to": 327,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 329,
+      "to": 331,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 333,
+      "to": 334,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 336,
+      "to": 337,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 339,
+      "to": 339,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 341,
+      "to": 341,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 343,
+      "to": 343,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 345,
+      "to": 351,
+      "pages": 7,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 353,
+      "to": 367,
+      "pages": 15,
+      "confidence": "none"
+    }
+  ]
+}
