@@ -156,6 +156,16 @@ contents:
             the exercises of chapter II § 4 as lWg. The run before it is on 208 and
             chapter II ends at 218, and pdf 215, which the page map puts at printed 209,
             is where the § 4 run starts.
+        - says: '7. Application: the Poincare-Volterra theorem ... . . . .                                     113'
+          read: '7. Application: the Poincare-Volterra theorem ... . . . .                                     114'
+          why: The printed contents, pdf page 10, puts no. 7 of chapter I § 11 on page
+            113, and the book is wrong about its own page. Pdf 119 is printed 113 and
+            carries the end of no. 6, with a running head reading LOCALLY CONNECTED
+            SPACES § 11.6 and a folio reading 113. The heading of no. 7, APPLICATION
+            THE POINCARE-VOLTERRA THEOREM, is printed on the page after it, pdf 120,
+            which is printed 114. This is not the text layer misreading a digit, it
+            is the contents naming the wrong page, and the correction belongs here
+            rather than in the manifest the build writes.
     - book: ens-i-iv
       errata:
         - says: '3. Met?ods .of proof.'
