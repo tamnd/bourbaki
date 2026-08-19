@@ -163,6 +163,13 @@ books:
       text_layer: ocr
       page_width_pt: 493.228
       page_height_pt: 680.315
+      grammar: head-label
+      pagination: per-chapter
+      transposed:
+        - pages:
+            - 273
+            - 274
+          why: pdf 274 heads A V.169 and ends the exercices of chapter V, and pdf 273 opens the note historique at printed 170 and its last paragraph runs straight into pdf 275, which heads A V.171
     - id: alg-viii-fr
       book: alg
       lang: fr
