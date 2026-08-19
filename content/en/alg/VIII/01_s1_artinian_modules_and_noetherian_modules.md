@@ -30,7 +30,7 @@ subsections:
       pdf_page: 26
 statements: 36
 exercises: 28
-content_sha256: 14577a499e58be92d2f2c662203373f41c9d10814e80df72ec764fcb9c784f86
+content_sha256: d64719b4a6721ac9031c6bccd67b196cb6dafe3fc596f4fdebd425f00893c469
 ---
 
 ## § 1. ARTINIAN MODULES AND NOETHERIAN MODULES
@@ -51,7 +51,7 @@ An A-module M is Artinian (resp. Noetherian) if and only if M, viewed as a modul
 
 Let M be an Artinian (resp. Noetherian) A-module. Every nonempty set of submodules of M, ordered by inclusion, that is left directed (resp. right directed) has a least element (resp. a greatest element) (Set Theory, III, §1, No. 10, p. 145, Proposition 10).
 
-Let M be an Artinian (resp. Noetherian) A-module and $(M_i)_{i\in I}$ a family of submodules of M. The intersections (resp. sums) of finite subfamilies of the family $(M_i)_{i\in I}$ form a nonempty left (resp. right) directed set of submodules of M. Therefore, there exists a finite subset J of I such that $\bigcap_{i\in I}M_i=\bigcap_{i\in J}M_i$ (resp. $\sum_{i\in I}M_i=\sum_{i\in J}M_i)$.
+Let M be an Artinian (resp. Noetherian) A-module and $(M_i)_{i\in I}$ a family of submodules of M. The intersections (resp. sums) of finite subfamilies of the family $(M_i)_{i\in I}$ form a nonempty left (resp. right) directed set of submodules of M. Therefore, there exists a finite subset J of I such that $\bigcap_{i\in I}M_i=\bigcap_{i\in J}M_i$ (resp. $\sum_{i\in I}M_i=\sum_{i\in J}M_i$).
 
 #### Example 1 {#alg-viii-s1-n1-exa-1 .statement tag=0002}
 
@@ -65,7 +65,7 @@ Let M be an A-module. If there exists an infinite family $(M_i)_{i\in I}$ of non
 
 We will see further on that the $\mathbf{Z}$-module $\mathbf{Z}$ is Noetherian but not
 
-Artinian (VIII, p. 5, Example 3$).*$
+Artinian (VIII, p. 5, Example 3)$.*$
 
 #### Example 4 {#alg-viii-s1-n1-exa-4 .statement tag=0005}
 
@@ -167,11 +167,11 @@ Let A be a ring and D a subring of A. Suppose that D is a field and that A is a 
 
 #### Example 3 {#alg-viii-s1-n2-exa-3 .statement tag=000G}
 
-A principal ideal domain (VII, §1, No. 1, p. 1, Definition 1) is Noetherian. An integral domain A that is not a field is not an Artinian ring: for every nonzero noninvertible element $a$ of A, the sequence of ideals $a^nA$ (for $n\in \mathbf{N})$ is strictly decreasing. In particular, the ring $\mathbf{Z}$ of integers is Noetherian but not Artinian.
+A principal ideal domain (VII, §1, No. 1, p. 1, Definition 1) is Noetherian. An integral domain A that is not a field is not an Artinian ring: for every nonzero noninvertible element $a$ of A, the sequence of ideals $a^nA$ (for $n\in \mathbf{N}$) is strictly decreasing. In particular, the ring $\mathbf{Z}$ of integers is Noetherian but not Artinian.
 
 #### Example 4 {#alg-viii-s1-n2-exa-4 .statement tag=000H}
 
-Let M be an A-module that is the direct sum of an infinite family $(M_i)_{i\in I}$ of nonzero submodules. Let E be the endomorphism ring of M. For every $i\in I$, let $\mathfrak{a}_i$ (resp. $\mathfrak{b}_i)$ be the set of elements of E with kernel containing $\sum_{j\not=i}M_j$ (resp. with image contained in $M_i)$. Then $(\mathfrak{a}_i)$ is an infinite family of nonzero left ideals of E whose sum is direct, and $(\mathfrak{b}_i)$ is an infinite family of nonzero right ideals of E whose sum is direct. Consequently, the ring E is neither left nor right Artinian (resp. Noetherian) (VIII, p. 2, Example 2). In particular, the endomorphism ring of an infinite-dimensional vector space is neither left nor right Artinian (resp. Noetherian).
+Let M be an A-module that is the direct sum of an infinite family $(M_i)_{i\in I}$ of nonzero submodules. Let E be the endomorphism ring of M. For every $i\in I$, let $\mathfrak{a}_i$ (resp. $\mathfrak{b}_i$) be the set of elements of E with kernel containing $\sum_{j\not=i}M_j$ (resp. with image contained in $M_i$). Then $(\mathfrak{a}_i)$ is an infinite family of nonzero left ideals of E whose sum is direct, and $(\mathfrak{b}_i)$ is an infinite family of nonzero right ideals of E whose sum is direct. Consequently, the ring E is neither left nor right Artinian (resp. Noetherian) (VIII, p. 2, Example 2). In particular, the endomorphism ring of an infinite-dimensional vector space is neither left nor right Artinian (resp. Noetherian).
 
 #### Theorem 1 {#alg-viii-s1-thm-1 .statement tag=00QW}
 
@@ -199,7 +199,7 @@ Every left Artinian ring is left Noetherian.
 
 Let A be a left Artinian ring. By Theorem 1, the A-module $A_s$ has finite length. We then apply Proposition 1 of VIII, p. 2.
 
-Let A be a left (resp. right) Artinian ring; the length of the A-module $A_s$ (resp. $A_d)$ (I, §4, No. 7, p. 44) is called the left (resp. right) length of the ring A. When A is a commutative Artinian ring, these two lengths coincide and are simply called the length of A. When A is left and right Artinian but is not commutative, the left and right lengths of A are not necessarily equal (VIII, p. 14, Exercise 3).
+Let A be a left (resp. right) Artinian ring; the length of the A-module $A_s$ (resp. $A_d$) (I, §4, No. 7, p. 44) is called the left (resp. right) length of the ring A. When A is a commutative Artinian ring, these two lengths coincide and are simply called the length of A. When A is left and right Artinian but is not commutative, the left and right lengths of A are not necessarily equal (VIII, p. 14, Exercise 3).
 
 #### Example 5 {#alg-viii-s1-n2-exa-5 .statement tag=000K}
 

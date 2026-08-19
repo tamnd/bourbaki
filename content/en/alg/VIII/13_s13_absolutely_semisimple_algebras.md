@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: aaa85e7d6678d29eb6695bf6dc3acccb83dbd37100c1bafd917fcb416627b9d2
+content_sha256: 4c6d4e2ca3db7df962893b91ae11c5bedee5ed2c441f889a9973255356caf0c0
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -377,7 +377,7 @@ $$
 
 is an isomorphism of K-modules.
 
-We denote by $\partial^n$ (for $n\geqslant 0)$ the unique K-linear mapping from $C^n(A,P)$ to $C^{n+1}(A,P)$ that makes the following diagram commutative:
+We denote by $\partial^n$ (for $n\geqslant 0$) the unique K-linear mapping from $C^n(A,P)$ to $C^{n+1}(A,P)$ that makes the following diagram commutative:
 
 $C^n(A,P)\partial^{^n}$ // $C^{n+1}(A,P)$
 
@@ -449,7 +449,7 @@ for every integer $n\geqslant 1$ and every $f\in C^n(A,P)$.
 
 #### Remark 1 {#alg-viii-s13-n7-rem-1 .statement tag=00SF}
 
-$*$The morphisms $\partial^n: C^n(A,P)\rightarrow C^{n+1}(A,P)$ define a complex $(C(A,P), \partial )$ of K-modules (X, §2, n$^o1$, p. 24). The mapping $\gamma_n$ therefore defines a homotopy from this complex to itself linking 0 to Id$_{C(A,P)}$ (X, §2, n$^o4$, p. 32, définition $4).*$
+$*$The morphisms $\partial^n: C^n(A,P)\rightarrow C^{n+1}(A,P)$ define a complex $(C(A,P), \partial )$ of K-modules (X, §2, n$^o1$, p. 24). The mapping $\gamma_n$ therefore defines a homotopy from this complex to itself linking 0 to Id$_{C(A,P)}$ (X, §2, n$^o4$, p. 32, définition $4$)$.*$
 
 We keep the notation of No.6. For every integer $n\geqslant 0$, we define a mapping $h_n: B_n\rightarrow B_{n+1}$ by the formula
 
@@ -545,11 +545,11 @@ The assumptions of Theorem 3 are, in particular, satisfied when K is a field and
 
 #### Remark 3 {#alg-viii-s13-n7-rem-3 .statement tag=00FX}
 
-Suppose that the K-module A is projective. Theorem 3 can also be proved as follows. The complex $(\bigoplus_{n\geqslant 0}B_n, d)$ and the homomorphism $\varepsilon : B_0\rightarrow A$ define a projective resolution of the B-module A; therefore, for every $n\geqslant 0$, the K-module $H^n(A,P)$ is isomorphic to Ext$^n_B(A,P)$ (X, §6, n$^o1$, p. 100, théorème 1). If the B-module A is projective, then the K-modules Ext$^n_B(A,P)$ are zero for $n\geqslant 1$ (X, §5, n$^o3$, p. 88, corollaire de la proposition 5), which implies that $H^n(A,P)$ is zero. Conversely, if $H^1(A,P)$ is zero for every $(A$, A)-bimodule P, then the B-module A is projective (X, §5, n$^o5$, p. 93, proposition $10).*$
+Suppose that the K-module A is projective. Theorem 3 can also be proved as follows. The complex $(\bigoplus_{n\geqslant 0}B_n, d)$ and the homomorphism $\varepsilon : B_0\rightarrow A$ define a projective resolution of the B-module A; therefore, for every $n\geqslant 0$, the K-module $H^n(A,P)$ is isomorphic to Ext$^n_B(A,P)$ (X, §6, n$^o1$, p. 100, théorème 1). If the B-module A is projective, then the K-modules Ext$^n_B(A,P)$ are zero for $n\geqslant 1$ (X, §5, n$^o3$, p. 88, corollaire de la proposition 5), which implies that $H^n(A,P)$ is zero. Conversely, if $H^1(A,P)$ is zero for every $(A$, A)-bimodule P, then the B-module A is projective (X, §5, n$^o5$, p. 93, proposition $10$)$.*$
 
 ### 8. The Splitting of Artinian Algebras
 
-In this subsection, K is a commutative ring and A a K-algebra. Let $\mathfrak{r}$ be the radical of A. We denote the quotient algebra $A/\mathfrak{r}$ by A and the canonical mapping from A to A by $\pi$. We are interested in the subalgebras S of A such that $A = S\oplus \mathfrak{r}$.
+In this subsection, K is a commutative ring and A a K-algebra. Let $\mathfrak{r}$ be the radical of A. We denote the quotient algebra $A/\mathfrak{r}$ by $\overline{A}$ and the canonical mapping from A to $\overline{A}$ by $\pi$. We are interested in the subalgebras S of A such that $A = S\oplus \mathfrak{r}$.
 
 We denote by Σ the set of K-linear sections $s$ of $\pi$ satisfying $s(\alpha \beta ) =$ $s(\alpha )s(\beta )$ for $\alpha , \beta$ in A. Note that such a section necessarily satisfies $s(1) = 1$ (in other words, $s$ is a ring homomorphism): we indeed have $s(1)^2=s$(1), and $s(1)$ is invertible because it belongs to $1 +\mathfrak{r}$ (VIII, p. 156, Theorem 1). If $s$ is an element of Σ, then the image S of $s$ is a subalgebra of A, and we have $A = S\oplus \mathfrak{r}$. Conversely, if S is a subalgebra of A such that $A = S\oplus \mathfrak{r}$, then the restriction of $\pi$ to S is bijective, and the inverse bijection defines an element of Σ with image S.
 
@@ -579,7 +579,7 @@ Under the assumptions of b), suppose furthermore that $\mathfrak{r}^2= 0$. In th
 
 (19) $\alpha x=\sigma (\alpha )x$ and $x\alpha =x\sigma (\alpha )$
 
-for $\alpha \in A$ and $x\in \mathfrak{r}$. Set
+for $\alpha \in \overline{A}$ and $x\in \mathfrak{r}$. Set
 
 $$
 \varphi (\alpha , \beta ) =\sigma (\alpha \beta )-\sigma (\alpha )\sigma (\beta ) \tag{20}
@@ -609,13 +609,13 @@ $$
 
 By Theorem 3 of VIII, p. 242, the K-module $H^2(A,\mathfrak{r})$ is reduced to zero. Hence there exists an element $\psi$ of $C^1(A,\mathfrak{r})$ such that $\partial^1\psi =\varphi$, in other words, such that we have
 
-(21) $\varphi (\alpha , \beta ) =\alpha \psi (\beta )-\psi (\alpha \beta ) +\psi (\alpha )\beta$ for $\alpha , \beta$ in $A$.
+(21) $\varphi (\alpha , \beta ) =\alpha \psi (\beta )-\psi (\alpha \beta ) +\psi (\alpha )\beta$ for $\alpha , \beta$ in $\overline{A}$.
 
 We have $\psi (\alpha )\psi (\beta ) = 0$ because $\mathfrak{r}^2$ is zero; from (19) and (20), we then deduce (22) $(\sigma +\psi )(\alpha \beta ) = (\sigma +\psi )(\alpha )(\sigma +\psi )(\beta )$,
 
 so that the K-linear section $\sigma +\psi$ of $\pi$ belongs to Σ. Its image is a subalgebra S of A such that $A = S +\mathfrak{r}$.
 
-Let us now prove the existence of S in the general case. We reason by induction on the least integer $p\geqslant 1$ such that $\mathfrak{r}^p= 0$; the case $p= 1$ is trivial. Suppose $p\geqslant 2$, and set $A'= A/\mathfrak{r}^{p-1}$. The radical $\mathfrak{r}'$ of $A'$ is equal to $\mathfrak{r}/\mathfrak{r}^{p-1}$ (Proposition 5 of VIII, p. 155), so satisfies ${\mathfrak{r}'}^{p-1}= 0$, and the algebra $A'/\mathfrak{r}'$ is isomorphic to $A = A/\mathfrak{r}$ and is therefore absolutely semisimple. By the induction hypothesis, there exists a subalgebra $S'$ of $A'$ such that $A'= S'\oplus \mathfrak{r}'$. Then $S'$ is of the form $A''/\mathfrak{r}^{p-1}$, where $A''$ is a subalgebra of A containing $\mathfrak{r}^{p-1}$, and we have
+Let us now prove the existence of S in the general case. We reason by induction on the least integer $p\geqslant 1$ such that $\mathfrak{r}^p= 0$; the case $p= 1$ is trivial. Suppose $p\geqslant 2$, and set $A'= A/\mathfrak{r}^{p-1}$. The radical $\mathfrak{r}'$ of $A'$ is equal to $\mathfrak{r}/\mathfrak{r}^{p-1}$ (Proposition 5 of VIII, p. 155), so satisfies ${\mathfrak{r}'}^{p-1}= 0$, and the algebra $A'/\mathfrak{r}'$ is isomorphic to $\overline{A}= A/\mathfrak{r}$ and is therefore absolutely semisimple. By the induction hypothesis, there exists a subalgebra $S'$ of $A'$ such that $A'= S'\oplus \mathfrak{r}'$. Then $S'$ is of the form $A''/\mathfrak{r}^{p-1}$, where $A''$ is a subalgebra of A containing $\mathfrak{r}^{p-1}$, and we have
 
 $$
 A = A''+\mathfrak{r},\mathfrak{r}^{p-1}= A''\cap \mathfrak{r} \tag{23}

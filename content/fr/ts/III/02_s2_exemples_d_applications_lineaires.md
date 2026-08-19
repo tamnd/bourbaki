@@ -41,7 +41,7 @@ subsections:
       pdf_page: 51
 statements: 26
 exercises: 4
-content_sha256: 5c5beb00af00ce1816c9f5596ce40194dce3fb674e5f76f6441e77d8e8e70431
+content_sha256: ce4ce9d83c98563dff461a7865fc78d6acf0d80bc0a904609a959cabb48b3cf0
 ---
 
 ## § 2. EXEMPLES D’APPLICATIONS LINÉAIRES COMPACTES
@@ -130,11 +130,11 @@ Vérifions les conditions (i) et (ii) pour $k$. Pour tout $y\in Y$, l’applicat
 
 ### 4. Applications linéaires entre espaces de Lebesgue définies par un noyau
 
-On prend ici $K =\mathbf{C}$. Soit X un espace topologique localement compact muni d’une mesure positive $\mu$. Pour tout $r\in [1,+\infty ]$, on note $\mathscr{L}^r(X) =\mathscr{L}_{\mathbf{C}}^r(X, \mu)$ et $L^r(X) = L^r_{\mathbf{C}}(X, \mu)$. Lorsque $r\in [1,+\infty [$, on identifie le dual de $L^r(X)$ avec $L^{r'}(X)$ où $r'$ est l’exposant conjugué de $r$, tel que $1/r+ 1/r'= 1$ (INT, V, p. 61, § 5, n$^o8$, th. 4). On note $\|f\|_r$ la norme (ou semi-norme) de $f\in L^r(X)$ (ou $f\in \mathscr{L}^r(X))$.
+On prend ici $K =\mathbf{C}$. Soit X un espace topologique localement compact muni d’une mesure positive $\mu$. Pour tout $r\in [1,+\infty ]$, on note $\mathscr{L}^r(X) =\mathscr{L}_{\mathbf{C}}^r(X, \mu)$ et $L^r(X) = L^r_{\mathbf{C}}(X, \mu)$. Lorsque $r\in [1,+\infty [$, on identifie le dual de $L^r(X)$ avec $L^{r'}(X)$ où $r'$ est l’exposant conjugué de $r$, tel que $1/r+ 1/r'= 1$ (INT, V, p. 61, § 5, n$^o8$, th. 4). On note $\|f\|_r$ la norme (ou semi-norme) de $f\in L^r(X)$ (ou $f\in \mathscr{L}^r(X)$).
 
-On rappelle qu’une partie A de X est dite $\mu$-modérée (INT, V, p. 4, § 1, n$^o2)$ si elle est contenue dans la réunion d’une suite d’ensembles $\mu$-intégrables, et qu’une fonction $f$ définie sur X à valeurs dans un espace vectoriel ou dans $\overline{\mathbf{R}}$ est $\mu$-modérée si elle est nulle dans le complémentaire d’une partie $\mu$-modérée de X. Si 1 $\leqslant p <+\infty$ et $f\in \mathscr{L}^p$(X), alors $f$ est modérée (INT, V, p. 9, § 1, n$^o3$, cor.). Si $f$ est $\mu$-modérée, alors $f g$ est $\mu$-modérée pour toute fonction $g$.
+On rappelle qu’une partie A de X est dite $\mu$-modérée (INT, V, p. 4, § 1, n$^o2$) si elle est contenue dans la réunion d’une suite d’ensembles $\mu$-intégrables, et qu’une fonction $f$ définie sur X à valeurs dans un espace vectoriel ou dans $\overline{\mathbf{R}}$ est $\mu$-modérée si elle est nulle dans le complémentaire d’une partie $\mu$-modérée de X. Si 1 $\leqslant p <+\infty$ et $f\in \mathscr{L}^p$(X), alors $f$ est modérée (INT, V, p. 9, § 1, n$^o3$, cor.). Si $f$ est $\mu$-modérée, alors $f g$ est $\mu$-modérée pour toute fonction $g$.
 
-Soient $p$ et $q$ des éléments de$]1,+\infty [$. Soient X et Y des espaces topologiques localement compacts, munis de mesures positives $\mu$ et $\nu$, respectivement. On munit l’espace $X\times Y$ (resp. $Y\times X)$ de la mesure produit $\mu\otimes \nu$ (resp. $\nu \otimes \mu)$.
+Soient $p$ et $q$ des éléments de$]1,+\infty [$. Soient X et Y des espaces topologiques localement compacts, munis de mesures positives $\mu$ et $\nu$, respectivement. On munit l’espace $X\times Y$ (resp. $Y\times X$) de la mesure produit $\mu\otimes \nu$ (resp. $\nu \otimes \mu$).
 
 On note $\mathscr{N}^{p,q}(X\times Y, \mu\otimes \nu )$, ou simplement $\mathscr{N}^{p,q}(X\times Y)$, l’ensemble des applications $(\mu\otimes \nu$)-mesurables $k$ de $X\times Y$ dans $\mathbf{C}$ telles qu’il existe un nombre réel $C\geqslant 0$ vérifiant
 

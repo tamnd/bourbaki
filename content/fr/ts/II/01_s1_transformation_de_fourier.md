@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: e817211bfc14363b665881849259a8ea407d9344c98b43541e39b9cba7a89a81
+content_sha256: 44d8e1262e651735e5764e1dec2d575d432840d199837a351570f025a680a83d
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -84,7 +84,7 @@ $$
 \chi (\mu) =\int_G\chi (x)d\mu(x) \tag{1}
 $$
 
-(cf. INT, VIII, §2, n$^o6)$.
+(cf. INT, VIII, §2, n$^o6$).
 
 #### Lemme 1 {#ts-ii-s1-lem-1 .statement tag=02HS}
 
@@ -202,7 +202,7 @@ En effet, $\mathsf{X}(L^1(G))$ est localement compact (corollaire du théorème 
 
 Nous identifierons $\widehat{G}$ avec $\mathsf{X}(L^1(G))$ et $\mathsf{X}$(Stell(G)). Pour $x\in G$ et $\chi \in \widehat{G}$, nous noterons $\langle \chi , x\rangle$ le nombre complexe $\chi (x)$, qui appartient à $\mathbf{U}$.
 
-On dit que $x$ et $\chi$ sont orthogonaux si $\langle \chi , x\rangle = 1$. Soit A une partie de G (resp. de $\widehat{G})$; l’ensemble des éléments de $\widehat{G}$ (resp. de G) orthogonaux à A est un sous-groupe fermé de $\widehat{G}$ (resp. de G) qu’on appelle orthogonal de A et qu’on note $A^{\bot}$. L’orthogonal de G est réduit à $e$.
+On dit que $x$ et $\chi$ sont orthogonaux si $\langle \chi , x\rangle = 1$. Soit A une partie de G (resp. de $\widehat{G}$); l’ensemble des éléments de $\widehat{G}$ (resp. de G) orthogonaux à A est un sous-groupe fermé de $\widehat{G}$ (resp. de G) qu’on appelle orthogonal de A et qu’on note $A^{\bot}$. L’orthogonal de G est réduit à $e$.
 
 Pour $x\in G$, notons $\eta (x)$ l’application de $\widehat{G}$ dans $\mathbf{U}$ définie par $\chi \mapsto$ $\langle \chi , x\rangle$. Par définition de la multiplication dans $\widehat{G}$, l’application $\eta (x)$ est un homomorphisme de groupes. Elle est continue puisque l’application $(x, \chi )\mapsto  \langle \chi , x\rangle$ de $G\times \widehat{G}$ dans $\mathbf{U}$ est continue (TG, X, p. 28, th. 3). Nous avons ainsi défini une application $\eta$, dite canonique, de G dans le groupe bidual $\widehat{\widehat{G}}$; c’est un homomorphisme de groupes. De plus, l’application $\eta$ est continue (TG, X, p. 28, th. 3). Nous démontrerons plus loin (II, p. 220, th. 2) que $\eta$ est un isomorphisme de groupes topologiques de G sur $\widehat{\widehat{G}}$.
 
@@ -936,9 +936,9 @@ Voir le n$^o9$ et les exercices 22 de II, p. 270 et 31 de II, p. 275 pour d’au
 
 ### 6. Propriétés fonctorielles de la dualité
 
-Soient G et H des groupes localement compacts commutatifs. Rappelons que si $\varphi : G\rightarrow H$ est un morphisme de groupes topologiques, le morphisme dual $\widehat{\varphi}:\widehat{H}\rightarrow \widehat{G}$ est défini par $\langle \chi , \varphi (x)\rangle =\langle \widehat{\varphi}(\chi ), x\rangle$ quels que soient $\chi \in \widehat{H}$ et $x\in G$. Cette définition montre que $\widehat{\widehat{\varphi}}=\varphi$ avec les identifications de G (resp. H) et $\widehat{\widehat{G}}$ (resp. $\widehat{\widehat{H}})$ du théorème 2 de II, p. 220.
+Soient G et H des groupes localement compacts commutatifs. Rappelons que si $\varphi : G\rightarrow H$ est un morphisme de groupes topologiques, le morphisme dual $\widehat{\varphi}:\widehat{H}\rightarrow \widehat{G}$ est défini par $\langle \chi , \varphi (x)\rangle =\langle \widehat{\varphi}(\chi ), x\rangle$ quels que soient $\chi \in \widehat{H}$ et $x\in G$. Cette définition montre que $\widehat{\widehat{\varphi}}=\varphi$ avec les identifications de G (resp. H) et $\widehat{\widehat{G}}$ (resp. $\widehat{\widehat{H}}$) du théorème 2 de II, p. 220.
 
-Soit $\theta$ une application de $G\times H$ dans $\mathbf{U}$. Pour tout $x\in G$ (resp. tout $y\in H$), soit $\theta_x$ (resp. $\theta^y)$ la fonction de G dans $\mathbf{U}$ définie par $y\mapsto$ $\theta (x, y)$ (resp. la fonction de H dans $\mathbf{U}$ définie par $x\mapsto \theta (x, y)$). Supposons que l’application $\alpha :x\mapsto \theta_x$ soit un isomorphisme du groupe topologique G sur le groupe topologique $\widehat{H}$. Pour tout $y\in H$ et $x\in G$, on a
+Soit $\theta$ une application de $G\times H$ dans $\mathbf{U}$. Pour tout $x\in G$ (resp. tout $y\in H$), soit $\theta_x$ (resp. $\theta^y$) la fonction de G dans $\mathbf{U}$ définie par $y\mapsto$ $\theta (x, y)$ (resp. la fonction de H dans $\mathbf{U}$ définie par $x\mapsto \theta (x, y)$). Supposons que l’application $\alpha :x\mapsto \theta_x$ soit un isomorphisme du groupe topologique G sur le groupe topologique $\widehat{H}$. Pour tout $y\in H$ et $x\in G$, on a
 
 $$
 \theta^y(x) =\theta (x, y) =\langle \alpha (x), y\rangle =\langle x,\widehat{\alpha}(y)\rangle
@@ -1096,9 +1096,9 @@ D’après la décomposition canonique (E, II, p. 44) d’un morphisme strict, c
 
 Soit H un sous-groupe de G. On a $(H^{\bot})^{\bot}= H$.
 
-Puisque $H^{\bot}= H^{\bot}$, on peut supposer que H est fermé. Soit $f: H\rightarrow G$ l’injection canonique et $p: G\rightarrow G/H$ la projection canonique. On a $H^{\bot}=$ Ker($\widehat{f}$) (lemme 10). Soit $k$ l’injection canonique de $H^{\bot}$ dans $\widehat{G}$. D’après le théorème 4, le morphisme $\widehat{p}$ induit un isomorphisme $\widehat{p}_H:\widehat{G}/H\rightarrow H^{\bot}$ de groupes topologiques et on a $k\circ \widehat{p}_H=\widehat{p}$. Par conséquent (corollaire 1), il vient
+Puisque $H^{\bot}$ = $\overline{H}^{\bot}$, on peut supposer que H est fermé. Soit $f: H\rightarrow G$ l’injection canonique et $p: G\rightarrow G/H$ la projection canonique. On a $H^{\bot}=$ Ker($\widehat{f}$) (lemme 10). Soit $k$ l’injection canonique de $H^{\bot}$ dans $\widehat{G}$. D’après le théorème 4, le morphisme $\widehat{p}$ induit un isomorphisme $\widehat{p}_H:\widehat{G}/H\rightarrow H^{\bot}$ de groupes topologiques et on a $k\circ \widehat{p}_H=\widehat{p}$. Par conséquent (corollaire 1), il vient
 
-$(H^{\bot})^{\bot}=$ Ker($\widehat{k}$) $=$ Ker( $\widehat{\widehat{p}}_H\circ \widehat{k}) =$ Ker($p$) $= H$.
+$(H^{\bot})^{\bot}=$ Ker($\widehat{k}$) $=$ Ker( $\widehat{\widehat{p}}_H\circ \widehat{k}$) $=$ Ker($p$) $= H$.
 
 #### Corollaire 4 {#ts-ii-s1-lem-10-cor-4 .statement tag=02JC}
 
@@ -1252,7 +1252,7 @@ $$
 =\int_{\widehat{G}/H^{\bot}}d\widehat{\alpha}( \dot{\chi})\int_{G/H}|\varphi (x, \chi )|^2d\gamma ( \dot{x})
 $$
 
-$=\int_{\widehat{G}/H^{\bot}}d\widehat{\alpha}( \dot{\chi})\int_{H^{\bot}}|\overline{\mathscr{F}}_G(f)(\chi \xi )|^2d\widehat{\gamma}(\xi )$ (par (36)$)$,
+$=\int_{\widehat{G}/H^{\bot}}d\widehat{\alpha}( \dot{\chi})\int_{H^{\bot}}|\overline{\mathscr{F}}_G(f)(\chi \xi )|^2d\widehat{\gamma}(\xi )$ (par (36)),
 
 où on a appliqué INT, V, §8, n$^o3$, prop. 5 à la fonction continue positive $( \dot{x},\dot{\chi})\mapsto  |\varphi (x, \chi )|^2$ sur $G/H\times \widehat{G}/H^{\bot}$.
 
@@ -1330,7 +1330,7 @@ Soit K un corps localement compact non discret, non nécessairement commutatif, 
 
 Pour $y\in G$, soit $\chi_y$ l’application de G dans $\mathbf{U}$ telle que $\chi_y(x) =$ $\chi (xy)$. On a $\chi_y\in \widehat{G}$, et il faut démontrer que $\beta :y\mapsto \chi_y$ est un isomorphisme de groupes topologiques de G dans $\widehat{G}$.
 
-L’application $\beta$ est un homomorphisme injectif de G dans $\widehat{G}$; elle est continue (TG, X, p. 28, th. 3 appliqué à l’application continue $\theta$ de $G\times G$ dans $\mathbf{C})$. Démontrons que $\theta$ est un homéomorphisme sur son image. Il suffit (lemme 2 de II, p. 200) de démontrer que pour tout voisinage U de 0 dans K, il existe un voisinage V de $e$ dans $\widehat{G}$ tel que $\overset{-1}{\beta}(V)\subset U$. Soit $x\mapsto  |x|$ une valeur absolue sur K définissant la topologie de K (AC, VI, §9, n$^o1$, prop. 1), et soit $x_0\in K$ tel que $\chi (x_0)\not= 1$ ; notons $\eta =|\chi (x_0)-1|>0$. Soit U un voisinage de 0 dans K. Il existe $\delta  >0$ tel que U contienne l’ensemble des $y\in K$ tels que $|y|< \delta$. Soit V l’ensemble des caractères $\xi \in \widehat{G}$ tels que $|\langle \xi , x\rangle  -1|< \eta$ pour tout élément $x\in K$ vérifiant $|x|\leqslant |x_0|/\delta$. C’est un voisinage de $e$ dans $\widehat{G}$. Si $y\not= 0$ est tel que $\beta (y)$ appartient à V, on a donc $|\chi (xy)-1|<|\chi (x_0)-1|$ pour tout $x$ tel que $|x|\leqslant |x_0|/\delta$. Par conséquent, on a $|x_0y^{-1}|>|x_0|/\delta$, et donc $|y|< \delta$, de sorte que $y\in U$.
+L’application $\beta$ est un homomorphisme injectif de G dans $\widehat{G}$; elle est continue (TG, X, p. 28, th. 3 appliqué à l’application continue $\theta$ de $G\times G$ dans $\mathbf{C}$). Démontrons que $\theta$ est un homéomorphisme sur son image. Il suffit (lemme 2 de II, p. 200) de démontrer que pour tout voisinage U de 0 dans K, il existe un voisinage V de $e$ dans $\widehat{G}$ tel que $\overset{-1}{\beta}(V)\subset U$. Soit $x\mapsto  |x|$ une valeur absolue sur K définissant la topologie de K (AC, VI, §9, n$^o1$, prop. 1), et soit $x_0\in K$ tel que $\chi (x_0)\not= 1$ ; notons $\eta =|\chi (x_0)-1|>0$. Soit U un voisinage de 0 dans K. Il existe $\delta  >0$ tel que U contienne l’ensemble des $y\in K$ tels que $|y|< \delta$. Soit V l’ensemble des caractères $\xi \in \widehat{G}$ tels que $|\langle \xi , x\rangle  -1|< \eta$ pour tout élément $x\in K$ vérifiant $|x|\leqslant |x_0|/\delta$. C’est un voisinage de $e$ dans $\widehat{G}$. Si $y\not= 0$ est tel que $\beta (y)$ appartient à V, on a donc $|\chi (xy)-1|<|\chi (x_0)-1|$ pour tout $x$ tel que $|x|\leqslant |x_0|/\delta$. Par conséquent, on a $|x_0y^{-1}|>|x_0|/\delta$, et donc $|y|< \delta$, de sorte que $y\in U$.
 
 Puisque $\beta$ est un homéomorphisme sur son image, celle-ci est fermée dans $\widehat{G}$ (TG, III, p. 22, cor. 2). Mais par ailleurs l’orthogonal de l’image de $\beta$ est l’ensemble des éléments $x$ de G tel que $\chi (xy) = 1$ pour tout $y\in G$, et est donc réduit à $\{0\}$. L’image de $\beta$ est donc dense dans $\widehat{G}$ (corollaire 3 de II, p. 228). On conclut que $\beta$ est surjective.
 
@@ -1344,11 +1344,11 @@ On note $\mathbf{T}$ le groupe $\mathbf{R}/\mathbf{Z}$.
 
 #### Corollaire 2 {#ts-ii-s1-prop-19-cor-2 .statement tag=02JU}
 
-a) Le groupe $\mathbf{R}$ est en dualité avec lui-même relativement à l’application $(x, y)\mapsto$ exp(2$i\pi xy)$, et la mesure duale de la mesure de Lebesgue est la mesure de Lebesgue ;
+a) Le groupe $\mathbf{R}$ est en dualité avec lui-même relativement à l’application $(x, y)\mapsto$ exp(2$i\pi xy$), et la mesure duale de la mesure de Lebesgue est la mesure de Lebesgue ;
 
-b) Les groupes $\mathbf{Z}$ et $\mathbf{T}$ sont en dualité relativement à l’application obtenue par passage au quotient à partir de l’application de $\mathbf{Z}\times \mathbf{R}$ dans $\mathbf{U}$ telle que $(n, x)\mapsto$ exp(2$i\pi nx)$. La mesure de Haar duale de la mesure de comptage sur $\mathbf{Z}$ est la mesure de Haar normalisée sur $\mathbf{R}/\mathbf{Z}$.
+b) Les groupes $\mathbf{Z}$ et $\mathbf{T}$ sont en dualité relativement à l’application obtenue par passage au quotient à partir de l’application de $\mathbf{Z}\times \mathbf{R}$ dans $\mathbf{U}$ telle que $(n, x)\mapsto$ exp(2$i\pi nx$). La mesure de Haar duale de la mesure de comptage sur $\mathbf{Z}$ est la mesure de Haar normalisée sur $\mathbf{R}/\mathbf{Z}$.
 
-Le groupe $\mathbf{R}$ est en dualité avec lui-même relativement à l’application $(x, y)\mapsto$ exp(2$i\pi xy)$ d’après la prop. 19. Identifions $\widehat{\mathbf{R}}$ à $\mathbf{R}$. L’orthogonal de $\mathbf{Z}$ dans $\widehat{\mathbf{R}}=\mathbf{R}$ est alors $\mathbf{Z}$, et b) résulte du th. 4 de II, p. 226.
+Le groupe $\mathbf{R}$ est en dualité avec lui-même relativement à l’application $(x, y)\mapsto$ exp(2$i\pi xy$) d’après la prop. 19. Identifions $\widehat{\mathbf{R}}$ à $\mathbf{R}$. L’orthogonal de $\mathbf{Z}$ dans $\widehat{\mathbf{R}}=\mathbf{R}$ est alors $\mathbf{Z}$, et b) résulte du th. 4 de II, p. 226.
 
 Soient $\alpha$ la mesure de comptage sur $\mathbf{Z}$ et $\gamma$ la mesure de Haar normalisée sur $\mathbf{T}$. Si $\beta$ désigne la mesure de Lebesgue sur $\mathbf{R}$, on a $\gamma =\beta /\alpha$, puisque ces deux mesures de Haar sur $\mathbf{R}/\mathbf{Z}$ sont de masse 1. La mesure de Haar $\widehat{\alpha}$ sur $\widehat{\mathbf{Z}}=\mathbf{T}$ est la mesure de Haar normalisée (prop. 18), et la mesure de Haar $\widehat{\gamma}$ est la mesure de comptage sur $\mathbf{Z}($loc. cit.). D’après la prop. 16 de II, p. 231, la mesure duale de $\beta$ est donc la mesure $\beta$.
 
@@ -1364,7 +1364,7 @@ $$
 
 #### Corollaire 3 {#ts-ii-s1-prop-19-cor-3 .statement tag=02JW}
 
-Soit $n\geqslant 1$ un entier. Le groupe $\mathbf{R}^n$ est en dualité avec lui-même relativement à l’application $(x, y)\mapsto$ exp(2$i\pi  x\cdot y)$ et la mesure duale de la mesure de Lebesgue sur $\mathbf{R}^n$ est la mesure de Lebesgue. Les groupes $\mathbf{Z}^n$ et $\mathbf{T}^n=\mathbf{R}^n/\mathbf{Z}^n$ sont en dualité relativement à l’application obtenue par passage au quotient à partir de l’application $(n, x)\mapsto$ exp(2$i\pi  x\cdot y)$, et la mesure de Haar duale de la mesure de comptage sur $\mathbf{Z}^n$ est la mesure de Haar normalisée sur $(\mathbf{R}/\mathbf{Z})^n$.
+Soit $n\geqslant 1$ un entier. Le groupe $\mathbf{R}^n$ est en dualité avec lui-même relativement à l’application $(x, y)\mapsto$ exp(2$i\pi  x\cdot y$) et la mesure duale de la mesure de Lebesgue sur $\mathbf{R}^n$ est la mesure de Lebesgue. Les groupes $\mathbf{Z}^n$ et $\mathbf{T}^n=\mathbf{R}^n/\mathbf{Z}^n$ sont en dualité relativement à l’application obtenue par passage au quotient à partir de l’application $(n, x)\mapsto$ exp(2$i\pi  x\cdot y$), et la mesure de Haar duale de la mesure de comptage sur $\mathbf{Z}^n$ est la mesure de Haar normalisée sur $(\mathbf{R}/\mathbf{Z})^n$.
 
 Ceci résulte du lemme 7 de II, p. 225, de la proposition 10 de II, p. 217 et du corollaire 2.
 
@@ -1372,7 +1372,7 @@ Ceci résulte du lemme 7 de II, p. 225, de la proposition 10 de II, p. 217 et du
 
 Étant donné un sous-groupe H de $\mathbf{R}^n$, il lui correspond donc son orthogonal $H^{\bot}$, un sous-groupe de $\widehat{\mathbf{R}}^n=\mathbf{R}^n$, qui n’est autre que le sous-groupe associé à H défini en TG, VII, p. 6, n$^o3$.
 
-Dans la suite, on identifiera le dual de $\mathbf{R}^n$ (resp. de $\mathbf{T}^n)$ avec $\mathbf{R}^n$ (resp. avec $\mathbf{Z}^n)$ par la dualité du corollaire. En particulier, pour $f\in L^1(\mathbf{R}^n)$, sa transformée de Fourier s’identifie à la fonction de $\mathbf{R}^n$ dans $\mathbf{C}$ qui à $y\in \mathbf{R}^n$ associe
+Dans la suite, on identifiera le dual de $\mathbf{R}^n$ (resp. de $\mathbf{T}^n$) avec $\mathbf{R}^n$ (resp. avec $\mathbf{Z}^n$) par la dualité du corollaire. En particulier, pour $f\in L^1(\mathbf{R}^n)$, sa transformée de Fourier s’identifie à la fonction de $\mathbf{R}^n$ dans $\mathbf{C}$ qui à $y\in \mathbf{R}^n$ associe
 
 $\mathscr{F}(f)(y) =\int_{\mathbf{R}^n}f(x)$ exp($-2i\pi  x\cdot y$)$dx$.
 
@@ -1382,21 +1382,21 @@ Le groupe $\mathbf{R}^*$ est en dualité avec le groupe $\{-1,1\} \times \mathbf
 
 En effet, l’application $x\mapsto (x/|x|$, log($|x|$)) est un isomorphisme de groupes topologiques de $\mathbf{R}^*$ sur $\{-1,1\} \times \mathbf{R}$. L’assertion résulte alors du lemme 7 de II, p. 225, du corollaire 2 et du fait que les caractères unitaires de $\{-1,1\}$ sont 1 et $x\mapsto x$.
 
-Soit $p$ un nombre premier. Le corps $\mathbf{Q}_p$ des nombres $p$-adiques est le complété de $\mathbf{Q}$ pour la valuation $p$-adique (INT, VII, § 1, n$^o6$, exemple, et AC, VI, § 3, n$^o4$, exemple 4). Pour tout $x\in \mathbf{Q}_p$, il existe un unique entier $\nu \geqslant 0$ et un unique entier $q$ vérifiant $0\leqslant q < p^{\nu}$ tels que $qp^{-\nu}-x\in \mathbf{Z}_p$ (A, VII, p. 10, th. 2, appliqué à l’anneau principal $\mathbf{Z}_p$ et à l’ensemble $R_p$ des entiers $j$ tels que $0\leqslant j < p)$. On note $\lambda (x) =qp^{-\nu}$.
+Soit $p$ un nombre premier. Le corps $\mathbf{Q}_p$ des nombres $p$-adiques est le complété de $\mathbf{Q}$ pour la valuation $p$-adique (INT, VII, § 1, n$^o6$, exemple, et AC, VI, § 3, n$^o4$, exemple 4). Pour tout $x\in \mathbf{Q}_p$, il existe un unique entier $\nu \geqslant 0$ et un unique entier $q$ vérifiant $0\leqslant q < p^{\nu}$ tels que $qp^{-\nu}-x\in \mathbf{Z}_p$ (A, VII, p. 10, th. 2, appliqué à l’anneau principal $\mathbf{Z}_p$ et à l’ensemble $R_p$ des entiers $j$ tels que $0\leqslant j < p$). On note $\lambda (x) =qp^{-\nu}$.
 
 #### Proposition 20 {#ts-ii-s1-prop-20 .statement tag=02JZ}
 
-L’application $x\mapsto$ exp(2$i\pi \lambda (x))$ est un caractère unitaire de $\mathbf{Q}_p$ dont le noyau est $\mathbf{Z}_p$.
+L’application $x\mapsto$ exp(2$i\pi \lambda (x)$) est un caractère unitaire de $\mathbf{Q}_p$ dont le noyau est $\mathbf{Z}_p$.
 
-Pour $x_1$ et $x_2$ dans $\mathbf{Q}_p$, on a par définition $\lambda (x_1+x_2)-\lambda (x_1)-\lambda (x_2)\in$ $\mathbf{Z}_p\cap \mathbf{Q}=\mathbf{Z}$. L’application $\lambda$ est de plus localement constante puisque $\lambda (x+y) =\lambda (x)$ si $y\in \mathbf{Z}_p$. Il en découle alors que $x\mapsto$ exp(2$i\pi \lambda (x))$ est un caractère unitaire de $\mathbf{Q}_p$. Comme $\lambda (x)\in \mathbf{Z}$ si et seulement si $x\in \mathbf{Z}_p$, le noyau de ce caractère est $\mathbf{Z}_p$.
+Pour $x_1$ et $x_2$ dans $\mathbf{Q}_p$, on a par définition $\lambda (x_1+x_2)-\lambda (x_1)-\lambda (x_2)\in$ $\mathbf{Z}_p\cap \mathbf{Q}=\mathbf{Z}$. L’application $\lambda$ est de plus localement constante puisque $\lambda (x+y) =\lambda (x)$ si $y\in \mathbf{Z}_p$. Il en découle alors que $x\mapsto$ exp(2$i\pi \lambda (x)$) est un caractère unitaire de $\mathbf{Q}_p$. Comme $\lambda (x)\in \mathbf{Z}$ si et seulement si $x\in \mathbf{Z}_p$, le noyau de ce caractère est $\mathbf{Z}_p$.
 
 On rappelle qu’on appelle mesure de Haar normalisée sur le groupe additif de $\mathbf{Q}_p$ l’unique mesure de Haar $\mu$ telle que $\mu(\mathbf{Z}_p) = 1$ (INT, VII, §1, n$^o6$, exemple).
 
 #### Corollaire {#ts-ii-s1-n8-cor-1 .statement tag=02K0}
 
-a) Le groupe $\mathbf{Q}_p$ est en dualité avec lui-même relativement à l’application $(x, y)\mapsto$ exp(2$i\pi \lambda (xy))$. La mesure de Haar normalisée sur $\mathbf{Q}_p$ est alors sa propre duale ;
+a) Le groupe $\mathbf{Q}_p$ est en dualité avec lui-même relativement à l’application $(x, y)\mapsto$ exp(2$i\pi \lambda (xy)$). La mesure de Haar normalisée sur $\mathbf{Q}_p$ est alors sa propre duale ;
 
-b) Les groupes $\mathbf{Z}_p$ et $\mathbf{Q}_p/\mathbf{Z}_p$ sont en dualité relativement à l’application obtenue par passage au quotient à partir de l’application définie par $(z, x)\mapsto$ exp(2$i\pi \lambda (zx))$, et la mesure duale de la mesure de Haar normalisée sur $\mathbf{Z}_p$ est la mesure de comptage sur $\mathbf{Q}_p/\mathbf{Z}_p$.
+b) Les groupes $\mathbf{Z}_p$ et $\mathbf{Q}_p/\mathbf{Z}_p$ sont en dualité relativement à l’application obtenue par passage au quotient à partir de l’application définie par $(z, x)\mapsto$ exp(2$i\pi \lambda (zx)$), et la mesure duale de la mesure de Haar normalisée sur $\mathbf{Z}_p$ est la mesure de comptage sur $\mathbf{Q}_p/\mathbf{Z}_p$.
 
 La démonstration suit pas à pas celle du cor. 2 de la prop. 19.
 
@@ -1428,7 +1428,7 @@ $y\mapsto \int_{\mathbf{R}^n}\varphi (x)$ exp($-2i\pi  x\cdot y$)$dx$.
 
 La cotransformée de Fourier de $\varphi$ s’identifie, quand à elle, à la fonction continue définie par
 
-$y\mapsto \int_{\mathbf{R}^n}\varphi (x)$ exp(2$i\pi  x\cdot y)dx$.
+$y\mapsto \int_{\mathbf{R}^n}\varphi (x)$ exp(2$i\pi  x\cdot y$)$dx$.
 
 Soit $\varphi \in \mathscr{S}(\mathbf{R}^n)$. Soit $\alpha \in \mathbf{N}^n$ un multi-indice. On a
 
@@ -1450,7 +1450,7 @@ On appelle covolume du réseau Λ, et on note V(Λ), la mesure de $\mathbf{R}^n/
 
 1
 
-$\sum f(x+y) =\sum\widehat{f}(z)$ exp(2$i\pi  y\cdot z)$.
+$\sum f(x+y) =\sum\widehat{f}(z)$ exp(2$i\pi  y\cdot z$).
 
 V(Λ) $_*$
 
@@ -1512,9 +1512,9 @@ Pour tout $p\in [1,+\infty ]$, on peut identifier $L^p(\mathbf{R}^n)$ à un sous
 
 #### Définition 7 {#ts-ii-s1-def-7 .statement tag=02K7}
 
-On appelle transformation de Fourier sur $\mathscr{S}'(\mathbf{R}^n)$, et on note $\mathscr{F}$ (resp. on appelle cotransformation de Fourier, et on note $\overline{\mathscr{F}})$ la transposée de la transformation de Fourier sur $\mathscr{S}(\mathbf{R}^n)$ (resp. de la cotransformation de Fourier).
+On appelle transformation de Fourier sur $\mathscr{S}'(\mathbf{R}^n)$, et on note $\mathscr{F}$ (resp. on appelle cotransformation de Fourier, et on note $\overline{\mathscr{F}}$) la transposée de la transformation de Fourier sur $\mathscr{S}(\mathbf{R}^n)$ (resp. de la cotransformation de Fourier).
 
-Pour $f\in \mathscr{S}'(\mathbf{R}^n)$, la distribution tempérée $\mathscr{F}(f)$ (resp. $\overline{\mathscr{F}}(f)$) est définie par $\varphi \mapsto  \langle f,\mathscr{F}(\varphi )\rangle$ pour $\varphi \in \mathscr{S}(\mathbf{R}^n)$ (resp. par $\varphi \mapsto$ $\langle f,\overline{\mathscr{F}}(\varphi )\rangle )$.
+Pour $f\in \mathscr{S}'(\mathbf{R}^n)$, la distribution tempérée $\mathscr{F}(f)$ (resp. $\overline{\mathscr{F}}(f)$) est définie par $\varphi \mapsto  \langle f,\mathscr{F}(\varphi )\rangle$ pour $\varphi \in \mathscr{S}(\mathbf{R}^n)$ (resp. par $\varphi \mapsto$ $\langle f,\overline{\mathscr{F}}(\varphi )\rangle$ ).
 
 La transformation de Fourier sur $\mathscr{S}'(\mathbf{R}^n)$ est un automorphisme d’espaces vectoriels topologiques dont l’inverse est la cotransformation de Fourier $\overline{\mathscr{F}}$.
 
@@ -1542,7 +1542,7 @@ $$
 \langle \boldsymbol{\gamma }(y)f, \varphi \rangle =\langle f,\boldsymbol{\gamma }(-y)\varphi \rangle
 $$
 
-pour $f\in \mathscr{S}'(\mathbf{R}^n)$ et $\varphi \in \mathscr{S}(\mathbf{R}^n)$. Notons $e_y$ le caractère de $\mathbf{R}^n$ tel que $e_y(x) =$ exp(2$i\pi x\cdot y)$. Alors $e_y\in \mathscr{S}'(\mathbf{R}^n)$. On a $\mathscr{F}(e_y) =\varepsilon_y$, et plus généralement
+pour $f\in \mathscr{S}'(\mathbf{R}^n)$ et $\varphi \in \mathscr{S}(\mathbf{R}^n)$. Notons $e_y$ le caractère de $\mathbf{R}^n$ tel que $e_y(x) =$ exp(2$i\pi x\cdot y$). Alors $e_y\in \mathscr{S}'(\mathbf{R}^n)$. On a $\mathscr{F}(e_y) =\varepsilon_y$, et plus généralement
 
 $$
 \mathscr{F}(e_yf) =\boldsymbol{\gamma }(y)\mathscr{F}(f)
@@ -1550,7 +1550,7 @@ $$
 
 pour tout $f\in \mathscr{S}'(\mathbf{R}^n).*$
 
-Soient $n\geqslant 1$ un entier et $G =\mathbf{T}^n$, muni de la mesure de Haar normalisée. Le groupe dual de G s’identifie à $\mathbf{Z}^n$ par l’application $h\mapsto \chi_h$, où $\chi_h$ est le caractère unitaire de $\mathbf{T}^n$ obtenu par passage au quotient à partir du caractère $x\mapsto$ exp(2$i\pi h\cdot x)$ de $\mathbf{R}^n$ (corollaire 3 de II, p. 236). La transformée de Fourier d’une mesure $\mu$ sur $\mathbf{T}^n$ s’identifie à la famille $(\widehat{\mu}(h))_{h\in\mathbf{Z}^n}$ où
+Soient $n\geqslant 1$ un entier et $G =\mathbf{T}^n$, muni de la mesure de Haar normalisée. Le groupe dual de G s’identifie à $\mathbf{Z}^n$ par l’application $h\mapsto \chi_h$, où $\chi_h$ est le caractère unitaire de $\mathbf{T}^n$ obtenu par passage au quotient à partir du caractère $x\mapsto$ exp(2$i\pi h\cdot x$) de $\mathbf{R}^n$ (corollaire 3 de II, p. 236). La transformée de Fourier d’une mesure $\mu$ sur $\mathbf{T}^n$ s’identifie à la famille $(\widehat{\mu}(h))_{h\in\mathbf{Z}^n}$ où
 
 $$
 \widehat{\mu}(h) =\int_{\mathbf{T}^n}e^{-2i\pi h\cdot x}d\mu(x)
@@ -1628,7 +1628,7 @@ $$
 m_{h\in\mathbf{Z}}m
 $$
 
-Démontrons la proposition. On a $f*F_N=f_N$ pour $N\geqslant 1$. La représentation régulière $\boldsymbol{\gamma }$ de $\mathbf{T}^n$ dans $\mathscr{C}(\mathbf{T}^n)$ (INT, VIII, §2, n$^o3)$ est continue et vérifie $f*F_N=\boldsymbol{\gamma }(\mu_N)f$ (INT, VIII, §4, n$^o5$, prop. 5 (iv)). L’application $\mu\mapsto \boldsymbol{\gamma }(\mu)f$ est continue de $\mathscr{M}^1(\mathbf{T}^n)$ dans $\mathscr{C}(\mathbf{T}^n)$ (INT, VI, §1, n$^o6$, prop. 14). D’après le lemme, on a donc
+Démontrons la proposition. On a $f*F_N=f_N$ pour $N\geqslant 1$. La représentation régulière $\boldsymbol{\gamma }$ de $\mathbf{T}^n$ dans $\mathscr{C}(\mathbf{T}^n)$ (INT, VIII, §2, n$^o3$) est continue et vérifie $f*F_N=\boldsymbol{\gamma }(\mu_N)f$ (INT, VIII, §4, n$^o5$, prop. 5 (iv)). L’application $\mu\mapsto \boldsymbol{\gamma }(\mu)f$ est continue de $\mathscr{M}^1(\mathbf{T}^n)$ dans $\mathscr{C}(\mathbf{T}^n)$ (INT, VI, §1, n$^o6$, prop. 14). D’après le lemme, on a donc
 
 lim$_{N\rightarrow+\infty}f_N=$ lim$_{N\rightarrow+\infty}f*F_N=$ lim$_{N\rightarrow+\infty}\boldsymbol{\gamma }(\mu_N)f=\boldsymbol{\gamma }(\varepsilon_0)(f) =f$
 

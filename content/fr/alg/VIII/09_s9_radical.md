@@ -33,7 +33,7 @@ subsections:
       pdf_page: 162
 statements: 49
 exercises: 31
-content_sha256: 7b70111e50630a2123a75689c16aac36f8d9ffcf0bb5bbf2535b5699d6a293a1
+content_sha256: 569bc8d6a9767fcb6963b1ad3bf3417afecebd2320bc51cbcb320c17eecbc670
 ---
 
 ## § 9. RADICAL
@@ -218,7 +218,7 @@ Soient K un anneau intègre, I un ensemble non vide et A l’anneau de polynôme
 
 #### Exemple 5 {#alg-viii-s9-n2-exa-5 .statement tag=00AL}
 
-Soit $\mathfrak{a}$ un idéal bilatère de A. La topologie sur A, compatible avec la structure d’anneau de A, pour laquelle les idéaux $\mathfrak{a}^n$ (pour $n\geqslant 1)$ forment un système fondamental de voisinages de 0 (TG, III, p. 49, exemple 3) s’appelle la topologie $\mathfrak{a}$-adique. Supposons que l’anneau A soit séparé et complet (TG, III, p. 50) pour cette topologie : c’est le cas par exemple lorsque l’idéal $\mathfrak{a}$ est nilpotent. Pour tout $x\in \mathfrak{a}$, la série $\sum^{\infty}_{n=0}(-x)^n$ est alors convergente (TG, III, p. 44, remarque). Soit $y$ sa somme. On a $y-1 =\sum^{\infty}_{n=1}(-x)^n=-xy$, d’où $(1 +x)y= 1$ et on a de même $y(1 +x) = 1$, de sorte que $1 +x$ est inversible. Il en résulte d’après le th. 1 que l’idéal $\mathfrak{a}$ est contenu dans le radical de A.
+Soit $\mathfrak{a}$ un idéal bilatère de A. La topologie sur A, compatible avec la structure d’anneau de A, pour laquelle les idéaux $\mathfrak{a}^n$ (pour $n\geqslant 1$) forment un système fondamental de voisinages de 0 (TG, III, p. 49, exemple 3) s’appelle la topologie $\mathfrak{a}$-adique. Supposons que l’anneau A soit séparé et complet (TG, III, p. 50) pour cette topologie : c’est le cas par exemple lorsque l’idéal $\mathfrak{a}$ est nilpotent. Pour tout $x\in \mathfrak{a}$, la série $\sum^{\infty}_{n=0}(-x)^n$ est alors convergente (TG, III, p. 44, remarque). Soit $y$ sa somme. On a $y-1 =\sum^{\infty}_{n=1}(-x)^n=-xy$, d’où $(1 +x)y= 1$ et on a de même $y(1 +x) = 1$, de sorte que $1 +x$ est inversible. Il en résulte d’après le th. 1 que l’idéal $\mathfrak{a}$ est contenu dans le radical de A.
 
 #### Remarque 1 {#alg-viii-s9-n2-rem-1 .statement tag=00AM}
 
@@ -230,7 +230,7 @@ D’après le théorème 1, tout nilidéal à gauche d’un anneau A est
 
 Soit A un anneau commutatif. L’ensemble des éléments nilpotents de A est un idéal $\mathfrak{N}(A)$ de A, qu’on appelle le nilradical de A ; c’est l’intersection des idéaux premiers de A (V, p. 113, prop. 2). On a $\mathfrak{N}(A)\subset \mathfrak{R}(A) ;*$il y a égalité
 
-si A est un anneau artinien (VIII, p. 169, cor. 2), ou bien une algèbre commutative de type fini sur un corps commutatif (AC, V, § 3, n$^{\circ}4$, th. $3)*$. On peut fort bien avoir $\mathfrak{N}(A)\not=\mathfrak{R}(A) :$ c’est le cas lorsque A est l’anneau K[[X]], où K est un corps commutatif : on a $\mathfrak{N}(A) = 0$ et $\mathfrak{R}(A) =$ AX (VIII, p. 150, exemple 2).
+si A est un anneau artinien (VIII, p. 169, cor. 2), ou bien une algèbre commutative de type fini sur un corps commutatif (AC, V, § 3, n$^{\circ}4$, th. $3$)$*$. On peut fort bien avoir $\mathfrak{N}(A)\not=\mathfrak{R}(A) :$ c’est le cas lorsque A est l’anneau K[[X]], où K est un corps commutatif : on a $\mathfrak{N}(A) = 0$ et $\mathfrak{R}(A) =$ AX (VIII, p. 150, exemple 2).
 
 ### 3. Lemme de Nakayama
 
@@ -290,7 +290,7 @@ Soit $a$ un représentant quelconque de $\overline{e}$ dans A. L’élément $a-
 
 Soient M et P des A-modules et $u$ une application A-linéaire surjective de P dans M. On suppose que P est projectif et qu’il existe un idéal bilatère nilpotent $\mathfrak{a}$ de A tel que le noyau N de $u$ soit contenu dans $\mathfrak{a}P$. Soient $M'$ et $M''$ des sous-modules de M, tels que M soit somme directe de $M'$ et $M''$. Alors P est somme directe de sous-modules $P'$ et $P''$ tels que $u(P') = M'$ et $u(P'') = M''$.
 
-Notons B le sous-anneau de End$_A(P)$ formé des endomorphismes $f$ de P tels que $f(N)\subset N$. Soit B l’anneau des endomorphismes de M. Pour tout $f\in B$, notons $\overline{f}$ l’unique endomorphisme de M tel que $\overline{f}\circ u=u\circ f$. L’application $f\rightarrow \overline{f}$ est un homomorphisme d’anneaux de B dans B. Comme le module P est projectif, cet homomorphisme est surjectif ; son noyau $\mathfrak{b}$ se compose des endomorphismes $f\in B$ tels que $f(P)\subset N$. Soit $n$ un entier positif tel que $\mathfrak{a}^n= 0$. On a
+Notons B le sous-anneau de End$_A(P)$ formé des endomorphismes $f$ de P tels que $f(N)\subset N$. Soit $\overline{B}$ l’anneau des endomorphismes de M. Pour tout $f\in B$, notons $\overline{f}$ l’unique endomorphisme de M tel que $\overline{f}\circ u=u\circ f$. L’application $f\rightarrow \overline{f}$ est un homomorphisme d’anneaux de B dans B. Comme le module P est projectif, cet homomorphisme est surjectif ; son noyau $\mathfrak{b}$ se compose des endomorphismes $f\in B$ tels que $f(P)\subset N$. Soit $n$ un entier positif tel que $\mathfrak{a}^n= 0$. On a
 
 $$
 P =\mathfrak{a}^0P\supset \mathfrak{a}^1P\supset  \cdots  \supset \mathfrak{a}^{n-1}P\supset \mathfrak{a}^nP = 0
@@ -316,7 +316,7 @@ l’égalité $u(P'') = M''$ se démontre de manière analogue.
 
 Soit A un anneau et soit $\mathfrak{a}$ un idéal bilatère nilpotent de A. Si P est un A-module projectif, alors $P/\mathfrak{a}P$est un module projectif sur $A/\mathfrak{a}$ et pour que le A-module P soit indécomposable il faut et il suffit que le $A/\mathfrak{a}$-module $P/\mathfrak{a}P$le soit.
 
-Soit P un A-module projectif et soit P le $A/\mathfrak{a}$-module $P/\mathfrak{a}P$. Le A-module P est nul si et seulement si P l’est (th. 2 de VIII, p. 154). On suppose maintenant $P\not= 0$. Comme le $A/\mathfrak{a}$-module P est isomorphe à $A\otimes_AP$, il est projectif (II, p. 84, cor.). Si P est indécomposable, il en est de même de P d’après le cor. 1. Inversement, supposons que P soit décomposable et non nul, et soient $P'$ et $P''$ deux sous-modules non nuls de P tels que $P = P'\oplus P''$. D’après le lemme de Nakayama (VIII, p. 154, th. 2), on a $P'+\mathfrak{a}P\not= P$ et $P''+\mathfrak{a}P\not= P$; si $P'$ et $P''$ sont les images canoniques de $P'$ et $P''$ dans P, on a $P'\not= P, P''\not= P$ et $P = P'\oplus \overline{P}''$. Cela prouve que P est décomposable.
+Soit P un A-module projectif et soit $\overline{P}$ le $A/\mathfrak{a}$-module $P/\mathfrak{a}P$. Le A-module P est nul si et seulement si $\overline{P}$ l’est (th. 2 de VIII, p. 154). On suppose maintenant $P\not= 0$. Comme le $A/\mathfrak{a}$-module P est isomorphe à $\overline{A}\otimes_AP$, il est projectif (II, p. 84, cor.). Si P est indécomposable, il en est de même de $\overline{P}$ d’après le cor. 1. Inversement, supposons que P soit décomposable et non nul, et soient $P'$ et $P''$ deux sous-modules non nuls de P tels que $P = P'\oplus P''$. D’après le lemme de Nakayama (VIII, p. 154, th. 2), on a $P'+\mathfrak{a}P\not= P$ et $P''+\mathfrak{a}P\not= P$; si $P'$ et $\overline{P}''$ sont les images canoniques de $P'$ et $P''$ dans P, on a $P'\not= P,\overline{P}''\not= P$ et $P = P'\oplus \overline{P}''$. Cela prouve que $\overline{P}$ est décomposable.
 
 ### 5. Couverture projective d’un module
 

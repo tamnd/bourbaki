@@ -45,7 +45,7 @@ subsections:
       pdf_page: 382
 statements: 31
 exercises: 6
-content_sha256: b36e4b1410dc3cefb0976e0984c751eb24c365053ff6731287bf26d13ac7434a
+content_sha256: 472c003f28e385c317cc1d246e7c20c944aa753a6ecd50322a9ee9f6ca42c2ba
 ---
 
 ## § 20. REPRÉSENTATIONS LINÉAIRES DES ALGÈBRES
@@ -92,7 +92,7 @@ Soit L une K-algèbre commutative et soit $(M, \pi )$ une représentation linéa
 
 Supposons que K soit un corps et que L soit une K-algèbre commutative non nulle. Soient $\pi$ et $\pi '$ des représentations linéaires de l’algèbre A. Il résulte de VIII, p. 34, th. 3 que les représentations $\pi$ et $\pi '$ sont isomorphes si et seulement si $\pi_{(L)}$ et $\pi '_{(L)}$ le sont.
 
-Supposons que K soit un corps. Soit L une extension de K. Considérons le groupe de Grothendieck $R_K(A)$ (resp. $R_L(A_{(L)}))$ des A-modules de dimension finie sur K (resp. des $A_{(L)}$-modules de dimension finie sur L). Nous avons vu que l’homomorphisme de groupes
+Supposons que K soit un corps. Soit L une extension de K. Considérons le groupe de Grothendieck $R_K(A)$ (resp. $R_L(A_{(L)})$) des A-modules de dimension finie sur K (resp. des $A_{(L)}$-modules de dimension finie sur L). Nous avons vu que l’homomorphisme de groupes
 
 $$
 u: R_K(A)\longrightarrow R_L(A_{(L)})
@@ -148,7 +148,7 @@ D’après la prop. 1, on peut donner les caractérisations suivantes de Θ(A) ;
 
 – la réunion des sous-(A, A)-bimodules de $A^*$ de dimension finie sur K.
 
-On a $\Theta (A) = \Theta (A^o)$, et $\Theta (A) = A^*$ si A est de degré fini sur K. Soit $f\in A^*$; pour que $f$ appartienne à Θ(A), il faut et il suffit que $Af$ (resp. $fA$, resp. $AfA)$ soit un sous-espace vectoriel de $A^*$ de dimension finie sur K.
+On a $\Theta (A) = \Theta (A^o)$, et $\Theta (A) = A^*$ si A est de degré fini sur K. Soit $f\in A^*$; pour que $f$ appartienne à Θ(A), il faut et il suffit que $Af$ (resp. $fA$, resp. $AfA$) soit un sous-espace vectoriel de $A^*$ de dimension finie sur K.
 
 La somme de deux sous-(A, A)-bimodules de $A^*$ de dimension finie sur K est de dimension finie sur K. Il en résulte que Θ(A) est un sous-(A, A)-bimodule de $A^*$.
 
@@ -202,7 +202,7 @@ $\langle \gamma_E(h), a\rangle =$ Tr($\theta_E(h)\circ a_E$) pour $a\in A$ et $h
 
 L’application $c''_E$ est bijective. Si E est de dimension finie, il en est de même de $c'_E$.
 
-Si F est un A-module à droite et G un K-espace vectoriel, on a défini en II, p. 74, prop. 1 a), un isomorphisme $\gamma$ de K-espaces vectoriels de Hom$_K(F\otimes_AE,G)$ sur Hom$_A(E$, Hom$_K(F,G))$. Cet isomorphisme associe à $\varphi : F\otimes_AE\rightarrow G$ l’homomorphisme $e\rightarrow (f\rightarrow \varphi (f\otimes e))$. Compte tenu de l’isomorphisme canonique de $A_d\otimes_AE$ avec E (II, p. $56),\gamma$ s’identifie à $c''_E$ dans le cas où $F = A_d, G = K$.
+Si F est un A-module à droite et G un K-espace vectoriel, on a défini en II, p. 74, prop. 1 a), un isomorphisme $\gamma$ de K-espaces vectoriels de Hom$_K(F\otimes_AE,G)$ sur Hom$_A(E$, Hom$_K(F,G))$. Cet isomorphisme associe à $\varphi : F\otimes_AE\rightarrow G$ l’homomorphisme $e\rightarrow (f\rightarrow \varphi (f\otimes e))$. Compte tenu de l’isomorphisme canonique de $A_d\otimes_AE$ avec E (II, p. $56$)$,\gamma$ s’identifie à $c''_E$ dans le cas où $F = A_d, G = K$.
 
 De manière analogue, l’isomorphisme$\beta$ défini en II, p. 74, prop. 1 b) se spécialise en un isomorphisme $\beta$ de Hom$_K(E^*\otimes_AA_s,K)$ sur Hom$_A(E^*$, Hom$_K(A_s,K))$. Lorsque E est de dimension finie, E s’identifie canonique à Hom$_K(E^*,K)$ et $E^*$ à $E^*\otimes_AA_s$, l’homomorphisme $\beta$ s’identifie alors à $c'_E$.
 
@@ -246,7 +246,7 @@ Comme End$_K(V)$ est de dimension finie sur $K,\mathfrak{a}$ est un idéal bilat
 
 Le dual restreint Θ(A) de A est l’ensemble des coefficients des représentations linéaires de dimension finie de A.
 
-Par définition, Θ(A) est la réunion des orthogonaux des idéaux bilatères de codimension finie de A. On a donc $\Theta_{\pi}(A)\subset \Theta (A)$ pour toute représentation linéaire de dimension finie $\pi$ de A. Réciproquement, soit $f$ un élément de Θ(A) et soit $\mathfrak{a}$ un idéal bilatère de codimension finie, contenu dans le noyau de $f$ (VIII, p. 368, déf. 2). Notons $\pi$ la représentation linéaire de A dans $A/\mathfrak{a}$ déduite par passage au quotient de la représentation régulière gauche dans A ; soit $x$ la classe de 1 (mod. $\mathfrak{a})$, et $x^*$ la forme linéaire sur $A/\mathfrak{a}$ déduite de $f$. On a $f=c_{\pi}(x, x^*)$, de sorte que $f$ est un coefficient de $\pi$.
+Par définition, Θ(A) est la réunion des orthogonaux des idéaux bilatères de codimension finie de A. On a donc $\Theta_{\pi}(A)\subset \Theta (A)$ pour toute représentation linéaire de dimension finie $\pi$ de A. Réciproquement, soit $f$ un élément de Θ(A) et soit $\mathfrak{a}$ un idéal bilatère de codimension finie, contenu dans le noyau de $f$ (VIII, p. 368, déf. 2). Notons $\pi$ la représentation linéaire de A dans $A/\mathfrak{a}$ déduite par passage au quotient de la représentation régulière gauche dans A ; soit $x$ la classe de 1 (mod. $\mathfrak{a}$), et $x^*$ la forme linéaire sur $A/\mathfrak{a}$ déduite de $f$. On a $f=c_{\pi}(x, x^*)$, de sorte que $f$ est un coefficient de $\pi$.
 
 ☡ On prendra garde que si $(V, \pi )$ est une représentation linéaire de A qui n’est pas de dimension finie sur K, l’espace $\Theta_{\pi}(A)$ n’est pas nécessairement contenu dans Θ(A).
 
@@ -260,7 +260,7 @@ a) L’ensemble $\Theta^{ss}(A)$se compose des coefficients des représentations
 
 b) Pour tout $S\in \mathscr{S}_K$, le composant isotypique de type S de Θ(A) est égal à $\Theta_S(A)$;le A-module à gauche $\Theta^{ss}(A)$est somme directe des sous-modules $\Theta_S(A)$, où S parcourt $\mathscr{S}_K$.
 
-c) Pour tout S dans $\mathscr{S}_K$, le A-module à droite $S^*$ est simple et $\Theta_S(A)$est le composant isotypique de type $S^*$ du A-module à droite Θ(A). L’application qui à S associe cl(S$^*)$est une bijection de $\mathscr{S}_K$ sur l’ensemble des classes de $A^o$-modules simples de dimension finie sur K.
+c) Pour tout S dans $\mathscr{S}_K$, le A-module à droite $S^*$ est simple et $\Theta_S(A)$est le composant isotypique de type $S^*$ du A-module à droite Θ(A). L’application qui à S associe cl(S$^*$)est une bijection de $\mathscr{S}_K$ sur l’ensemble des classes de $A^o$-modules simples de dimension finie sur K.
 
 d) Considéré comme A-module à droite, Θ(A) a pour socle $\Theta^{ss}(A)$.
 
@@ -270,7 +270,7 @@ Pour tout S dans $\mathscr{S}_K$, le composant isotypique de type S de Θ(A) est
 
 Soit S un A-module simple, de dimension finie sur K. Comme le K-espace vectoriel S n’est pas réduit à 0, il en est de même de $S^*$. Soit E un sous-module du A-module à droite $S^*$; son orthogonal $E'$ dans S est un sous-A-module de S ; comme S est simple, on a ou bien $E'= 0$, d’où $E = S^*$, ou bien $E'= S$, d’où E = 0. Donc $S^*$ est un A-module à droite simple.
 
-On a $\Theta (A^o) = \Theta (A)$ (VIII, p. 368) ; on identifie A-modules à droite et $A^o$-modules à gauche. Comme tout espace vectoriel de dimension finie sur K est isomorphe à son bidual, ce qui précède démontre que l’application $S\rightarrow$ cl(S$^*)$ est une bijection de $\mathscr{S}_K$ sur l’ensemble des classes de $A^o$-modules simples de dimension finie sur K. Or, pour S dans $\mathscr{S}_K$, le composant isotypique de type $S^*$ de $\Theta (A^o)$ est égal à $\Theta_{S^*}(A^o)$ d’après l’assertion b) du th. 1 appliquée à l’algèbre $A^o$, et l’on a $\Theta_{S^*}(A^o) = \Theta_S(A)$. Les assertions c) et d) résultent aussitôt de là.
+On a $\Theta (A^o) = \Theta (A)$ (VIII, p. 368) ; on identifie A-modules à droite et $A^o$-modules à gauche. Comme tout espace vectoriel de dimension finie sur K est isomorphe à son bidual, ce qui précède démontre que l’application $S\rightarrow$ cl(S$^*$) est une bijection de $\mathscr{S}_K$ sur l’ensemble des classes de $A^o$-modules simples de dimension finie sur K. Or, pour S dans $\mathscr{S}_K$, le composant isotypique de type $S^*$ de $\Theta (A^o)$ est égal à $\Theta_{S^*}(A^o)$ d’après l’assertion b) du th. 1 appliquée à l’algèbre $A^o$, et l’on a $\Theta_{S^*}(A^o) = \Theta_S(A)$. Les assertions c) et d) résultent aussitôt de là.
 
 #### Corollaire 1 {#alg-viii-s20-thm-1-cor-1 .statement tag=00MO}
 
@@ -342,9 +342,9 @@ D’après le théorème de Burnside (VIII, p. 79, cor. 1 de la prop. 4), l’ap
 
 Si l’extension Z de K est séparable, il existe un élément $d\in$ Z tel que Tr$_{Z/K}(d)\not= 0$ (V, p. 48, cor. de la prop. 1). De plus, on a Tr$_{D/K}(d) = [D : Z]$ Tr$_{Z/K}(d)$ (III, p. 114, cor.) ; par conséquent, si $p$ ne divise pas [D : Z], on a Tr$_{D/K}(d)\not= 0$. Cela prouve que (iii) entraîne (ii).
 
-Si l’extension Z de K n’est pas séparable, on a Tr$_{Z/K}(x) = 0$ pour tout $x\in Z$, d’où Tr$_{D/K}(d) =$ Tr$_{Z/K}$(Tr$_{D/Z}(d)) = 0$ pour tout $d\in D$.
+Si l’extension Z de K n’est pas séparable, on a Tr$_{Z/K}(x) = 0$ pour tout $x\in Z$, d’où Tr$_{D/K}(d) =$ Tr$_{Z/K}$(Tr$_{D/Z}(d)$) $= 0$ pour tout $d\in D$.
 
-Supposons maintenant que $p$ divise le degré [D : Z]. Il divise alors le degré réduit de D sur Z. Pour tout $d\in D$, on Tr$_{D/Z}(d) = 0$ (VIII, p. 337, remarque), d’où Tr$_{D/K}(d) =$ Tr$_{Z/K}$(Tr$_{D/Z}(d)) = 0$. Cela termine la démonstration de l’implication (ii) $=\Rightarrow$ (iii).
+Supposons maintenant que $p$ divise le degré [D : Z]. Il divise alors le degré réduit de D sur Z. Pour tout $d\in D$, on Tr$_{D/Z}(d) = 0$ (VIII, p. 337, remarque), d’où Tr$_{D/K}(d) =$ Tr$_{Z/K}$(Tr$_{D/Z}(d)$) $= 0$. Cela termine la démonstration de l’implication (ii) $=\Rightarrow$ (iii).
 
 #### Corollaire {#alg-viii-s20-n6-cor-1 .statement tag=00MT}
 
@@ -354,9 +354,9 @@ Le corps étant parfait, l’extension Z de K est séparable (V, p. 119, th. 3).
 
 #### Proposition 6 {#alg-viii-s20-prop-6 .statement tag=00MU}
 
-Soit $\mathscr{S}_0$ l’ensemble des classes de A-modules simples de dimension finie sur K, dont les traces ne sont pas nulles. La famille de formes linéaires (Tr$_S)_{S\in\mathscr{S}_0}$ est libre sur K.
+Soit $\mathscr{S}_0$ l’ensemble des classes de A-modules simples de dimension finie sur K, dont les traces ne sont pas nulles. La famille de formes linéaires (Tr$_S$)$_{S\in\mathscr{S}_0}$ est libre sur K.
 
-Soit F une partie finie de $\mathscr{S}_0$ et soit S un élément de F. Par hypothèse, il existe un élément $a\in A$ tel que Tr$_S(a)\not= 0$. D’après le cor. 1 de la prop. 4 (VIII, p. 79) il existe un élément $b\in A$ tel que $b_S=a_S$ et $b_T= 0$ pour tout $T\in F-\{S\}$. On a Tr$_S(b)\not= 0$ et Tr$_T(b) = 0$ pour $T\in F-\{S\}$. La famille (Tr$_S)_{S\in F}$ est donc libre et la proposition 6 en résulte.
+Soit F une partie finie de $\mathscr{S}_0$ et soit S un élément de F. Par hypothèse, il existe un élément $a\in A$ tel que Tr$_S(a)\not= 0$. D’après le cor. 1 de la prop. 4 (VIII, p. 79) il existe un élément $b\in A$ tel que $b_S=a_S$ et $b_T= 0$ pour tout $T\in F-\{S\}$. On a Tr$_S(b)\not= 0$ et Tr$_T(b) = 0$ pour $T\in F-\{S\}$. La famille (Tr$_S$)$_{S\in F}$ est donc libre et la proposition 6 en résulte.
 
 #### Remarque {#alg-viii-s20-n6-rem-1 .statement tag=00RR}
 
@@ -386,7 +386,7 @@ Plaçons-nous maintenant sous les hypothèses de b), et soit E un A-module semi-
 
 Soit E un A-module de dimension finie sur K. Soit $a\in A$. Notons $\chi_E(a; T)$ le déterminant de l’endomorphisme $1_E+ Ta_E$ du K[T]-module $E[T] = K[T]\otimes_KE$ (III, p. 107). On a la relation
 
-(10) $\chi_E(a; T)\equiv 1 +$ Tr$_E(a)T$ (mod. $T^2K[T])$ (loc. cit., formule (49)). Comme ce polynôme a un terme constant égal à 1, c’est une série formelle inversible (IV, p. 28). De plus, si
+(10) $\chi_E(a; T)\equiv 1 +$ Tr$_E(a)T$ (mod. $T^2K[T]$) (loc. cit., formule (49)). Comme ce polynôme a un terme constant égal à 1, c’est une série formelle inversible (IV, p. 28). De plus, si
 
 $$
 0\longrightarrow E'\longrightarrow E\longrightarrow E''\longrightarrow 0
@@ -394,7 +394,7 @@ $$
 
 est une suite exacte de A-modules, tous de dimension finie sur K, on a $\chi_E(a; T) =$ $\chi_{E'}(a; T)\chi_{E''}(a,T)$ (III, p. 101, formule (31)). D’après la définition du groupe de Grothendieck $R_K(A)$ (VIII, p. 189) et sa propriété universelle (VIII, p. 182, prop. 4), il existe un unique homomorphisme $\chi_a$ du groupe $R_K(A)$ dans le groupe multiplicatif 1 + TK[[T]] tel que $\chi_a([E]) =\chi_E(a; T)$ pour tout A-module E de dimension finie sur K. Il résulte de la formule (10) la relation
 
-(11) $\chi_a(x)\equiv 1 +\theta (x)(a)T$ (mod. $T^2K[[T]])$,
+(11) $\chi_a(x)\equiv 1 +\theta (x)(a)T$ (mod. $T^2K[[T]]$),
 
 tout élément $x\in R_K(A)$ et tout élément $a\in A$.
 
@@ -408,7 +408,7 @@ Soit $x$ un élément de $R_K(A)$ tel que $\chi_{\mathscr{A}}(x) = 1$. D’aprè
 
 Traitons d’abord le cas où K est algébriquement clos. D’après ce qui précède et loc. cit., on a alors $x\in pR_K(A)$. Soit $y\in R_K(A)$ tel que $x=py$. Pour tout élément $a$ de $\mathscr{A}$, on a $\chi_a(y)^p=\chi_a(py) =\chi_a(x) = 1$. On a donc $(\chi_a(y)-1)^p= 0$, d’où $\chi_a(y) = 1$ puisque l’anneau K[[T]] est intègre. Ainsi, $y$ appartient au noyau de l’endomorphisme $\chi_{\mathscr{A}}$. Il en résulte par récurrence que $x$ appartient à $p^nR_K(A)$ pour tout entier $n\geqslant 1$. Comme $R_K(A)$ est un $\mathbf{Z}$-module libre, cela entraîne $x= 0$, d’où l’injectivité de $\chi_{\mathscr{A}}$ dans ce cas.
 
-Si K n’est plus supposé algébriquement clos, on choisit une clôture algébrique K de K et on considère le diagramme de groupes et d’homomorphismes de groupes
+Si K n’est plus supposé algébriquement clos, on choisit une clôture algébrique $\overline{K}$ de K et on considère le diagramme de groupes et d’homomorphismes de groupes
 
 $R_K(A)^{\chi_{\mathscr{A}}}$ // (1 + TK[[T]])$^{\mathscr{A}}$
 
@@ -416,7 +416,7 @@ $$
 ui \tag{12}
 $$
 
-$R_{\overline{K}}(A_{(K)})^{\overline{\chi}_{\mathscr{A}}}/$/ (1 + TK[[T]])$^{\mathscr{A}}$ où $u$ est l’homomorphisme déduit de l’extension des scalaires de K à K (VIII, p. 190), $i$ l’injection canonique et $\overline{\chi}_{\mathscr{A}}$ l’homomorphisme $z\rightarrow (\chi_{1\otimes a}(z))_{a\in\mathscr{A}}$. D’après la formule (12) de III, p. 108, le diagramme (12) est commutatif. D’après ce qui précède, l’homomorphisme $\overline{\chi}_{\mathscr{A}}$ est injectif. Comme $u$ est injectif (VIII, p. 191, th. 1), l’homomorphisme $\chi_{\mathscr{A}}$ est injectif.
+$R_{\overline{K}}(A_{(K)})^{\overline{\chi}_{\mathscr{A}}}/$/ (1 + TK[[T]])$^{\mathscr{A}}$ où $u$ est l’homomorphisme déduit de l’extension des scalaires de K à $\overline{K}$ (VIII, p. 190), $i$ l’injection canonique et $\overline{\chi}_{\mathscr{A}}$ l’homomorphisme $z\rightarrow (\chi_{1\otimes a}(z))_{a\in\mathscr{A}}$. D’après la formule (12) de III, p. 108, le diagramme (12) est commutatif. D’après ce qui précède, l’homomorphisme $\overline{\chi}_{\mathscr{A}}$ est injectif. Comme $u$ est injectif (VIII, p. 191, th. 1), l’homomorphisme $\chi_{\mathscr{A}}$ est injectif.
 
 #### Corollaire 1 {#alg-viii-s20-thm-2-cor-1 .statement tag=00MX}
 
@@ -570,7 +570,7 @@ $$
 =\langle j_2(f\otimes g), a\otimes bc\rangle
 $$
 
-$=\langle^t$(Id$_A\otimes m_A)\circ j_2(f\otimes g), a\otimes b\otimes c\rangle$, pour $f, g\in \Theta (A)$ et $a, b, c\in A$. On en déduit la commutativité du diagramme suivant :
+$=\langle^t$(Id$_A\otimes m_A$)$\circ j_2(f\otimes g), a\otimes b\otimes c\rangle$, pour $f, g\in \Theta (A)$ et $a, b, c\in A$. On en déduit la commutativité du diagramme suivant :
 
 $\Theta (A)\otimes \Theta (A)^{Id_{\Theta (A)}\otimes c}/$/ $\Theta (A)\otimes \Theta (A)\otimes \Theta (A)$
 

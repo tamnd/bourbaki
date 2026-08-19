@@ -25,7 +25,7 @@ subsections:
       pdf_page: 315
 statements: 27
 exercises: 2
-content_sha256: fb01183e5c4df52cfbc4ea1f34ecaf5bba60f44dab515f3c28003b9bd3164321
+content_sha256: 12c1892f9c178bcdfcd252546024bfd78e4e9843611e8f358057b6b5d6375e69
 ---
 
 ## § 3. GROUPOÏDE DE POINCARÉ
@@ -276,7 +276,7 @@ Le cor. 3 s’applique en particulier quand X est l’espace numérique à $n$ d
 
 #### Proposition 4 {#ta-iii-s3-prop-4 .statement tag=01YU}
 
-Soit X l’espace produit d’une famille $(X_j)_{j\in J}$ d’espaces topologiques. Le morphisme du groupoïde $\varpi (X)$ dans le produit des groupoïdes $\varpi (X_j)$, pour $j\in J$, défini par la famille de morphismes $(\varpi$(pr$_j))_{j\in J}$ est un isomorphisme.
+Soit X l’espace produit d’une famille $(X_j)_{j\in J}$ d’espaces topologiques. Le morphisme du groupoïde $\varpi (X)$ dans le produit des groupoïdes $\varpi (X_j)$, pour $j\in J$, défini par la famille de morphismes $(\varpi$(pr$_j$))$_{j\in J}$ est un isomorphisme.
 
 Notons $\varphi$ ce morphisme de groupoïdes. L’application qui s’en déduit par passage aux sommets est l’application identique $X\rightarrow \prod_jX_j$. Soient $x= (x_j)$ et $y= (y_j)$ deux points de X. Notons $\varphi_{x,y}$ l’application de $\varpi_{x,y}(X)$ dans $\prod_j\varpi_{x_j,y_j}(X_j)$ déduite de $\varphi$. Si pour tout $j\in J,c_j:\mathbf{I}\rightarrow$ $X_j$ est un chemin reliant $x_j$ à $y_j$, l’application $t\mapsto (c_j(t))$ est un chemin dans X reliant $x$ à $y$ (TG, I, p. 25, prop. 1). Cela prouve que $\varphi_{x,y}$ est surjective. Soient $c$ et $d$ deux chemins dans X reliant $x$ à $y$. Supposons qu’il existe pour tout $j\in J$ une homotopie stricte $\sigma_j:\mathbf{I}\times \mathbf{I}\rightarrow X_j$ reliant pr$_j\circ c$ à pr$_j\circ d$. Alors, l’application $(t, s)\mapsto (\sigma_j(t, s))$ de $\mathbf{I}\times \mathbf{I}$ dans X est une homotopie stricte reliant $c$ à $d($loc. cit.). Cela prouve que $\varphi_{x,y}$ est injective.
 
@@ -288,7 +288,7 @@ $$
 \pi_1(X, x)\rightarrow \prod_{j\in J}\pi_1(X_j, x_j)
 $$
 
-déduite des applications $\pi_1$(pr$_j, x_j)$ est un isomorphisme de groupes.
+déduite des applications $\pi_1$(pr$_j, x_j$) est un isomorphisme de groupes.
 
 Cet isomorphisme est dit canonique. Dans la suite, nous identifierons souvent $\pi_1(X, x)$ à $\prod_{j\in J}\pi_1(X_j, x_j)$ au moyen de cet isomorphisme.
 
@@ -304,7 +304,7 @@ Supposons que l’ensemble J soit fini et, pour tout $j\in J$, soit $\gamma_j$ u
 
 Soit $(X_j)_{j\in J}$ une famille d’espaces topologiques. Notons X l’espace topologique produit $\prod_{j\in J}X_j$ et soit $x= (x_j)$ un point de X.
 
-Munissons les ensembles $\pi_1(X, x)$ et $\pi_1(X_j, x_j)$ de la topologie quotient de la topologie de la convergence compacte sur les espaces $\Lambda_x(X)$ et $\Lambda_{x_j}(X_j)$. L’isomorphisme $\pi_1(X, x)\rightarrow \prod_{j\in J}\pi_1(X_j, x_j)$ est alors un homéomorphisme. Il est continu (III, p. 294, remarque 1). La topologie de la convergence compacte sur Λ(X) est engendrée par les parties de la forme $\mathbf{T}(K,U)$, où K est une partie compacte de $\mathbf{I}$ et U un ouvert de X. Pour $j\in J$, soit $U_j$ un ouvert de $X_j$, tels que $\prod_{j\in J}U_j\subset U$. Alors (pr$_j)_*(\mathbf{T}(K,U))$ contient $\mathbf{T}(K,U_j)$. Cela montre que les applications (pr$_j)_*: \Lambda_x(X)\rightarrow \Lambda_{x_j}(X_j)$ sont ouvertes, et les applications $\pi_1$(pr$_j, x_j)$ sont aussi ouvertes. Comme elles sont surjectives, l’application $\pi_1(X, x)\rightarrow \prod_{j\in J}\pi_1(X_j, x_j)$ est ouverte (TG, I, p. 34, prop. 8). Étant continue et bijective, c’est un homéomorphisme (TG, I, p. 30, exemple 2).
+Munissons les ensembles $\pi_1(X, x)$ et $\pi_1(X_j, x_j)$ de la topologie quotient de la topologie de la convergence compacte sur les espaces $\Lambda_x(X)$ et $\Lambda_{x_j}(X_j)$. L’isomorphisme $\pi_1(X, x)\rightarrow \prod_{j\in J}\pi_1(X_j, x_j)$ est alors un homéomorphisme. Il est continu (III, p. 294, remarque 1). La topologie de la convergence compacte sur Λ(X) est engendrée par les parties de la forme $\mathbf{T}(K,U)$, où K est une partie compacte de $\mathbf{I}$ et U un ouvert de X. Pour $j\in J$, soit $U_j$ un ouvert de $X_j$, tels que $\prod_{j\in J}U_j\subset U$. Alors (pr$_j$)$_*(\mathbf{T}(K,U))$ contient $\mathbf{T}(K,U_j)$. Cela montre que les applications (pr$_j$)$_*: \Lambda_x(X)\rightarrow \Lambda_{x_j}(X_j)$ sont ouvertes, et les applications $\pi_1$(pr$_j, x_j$) sont aussi ouvertes. Comme elles sont surjectives, l’application $\pi_1(X, x)\rightarrow \prod_{j\in J}\pi_1(X_j, x_j)$ est ouverte (TG, I, p. 34, prop. 8). Étant continue et bijective, c’est un homéomorphisme (TG, I, p. 30, exemple 2).
 
 #### Proposition 5 {#ta-iii-s3-prop-5 .statement tag=01YY}
 

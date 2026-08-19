@@ -13,7 +13,7 @@ pdf_pages: 0452-0453
 extraction: native
 statements: 3
 exercises: 0
-content_sha256: e1e47e8f56708fded9c13b338ea2c9b4a1db3a4f4b74ce13cacbbe020c7db8d6
+content_sha256: 1889e755e7f5bd743772290efae9c860f26228fbb167ab90e8fc93c614e296b5
 ---
 
 ### APPENDICE 3 LE THÉORÈME DES ZÉROS DE HILBERT
@@ -30,7 +30,7 @@ Soit S une partie génératrice de la A-algèbre L. Raisonnons par récurrence s
 
 Supposons d’abord que les éléments de S soient tous algébriques sur K. Le degré de L sur K est alors fini (V, p. 17, th. 2). Soit $(e_i)_{i\in I}$ une base de L sur K. Il existe un élément non nul $a$ de A tel que les coordonnées par rapport à cette base des éléments de S, de l’élément 1 et des éléments $e_ie_j$ pour $i,j$ dans I appartiennent à $A[a^{-1}]$. L’ensemble des combinaisons linéaires $\sum_{i\in I}a_ie_i$, avec $a_i\in A[a^{-1}]$ pour tout $i$, est alors un sous-anneau de L. Il contient A et S par construction, donc est égal à L. Il contient en particulier $Ke_1$, donc K est égal à $A[a^{-1}]$.
 
-Supposons maintenant qu’un élément $s$ de S soit transcendant sur K. Notons E le corps des fractions de l’anneau $A[s]$. La $A[s$]-algèbre L est engendrée par S$-\{s\}$. D’après l’hypothèse de récurrence, il existe un polynôme non nul $P\in A[X]$ tel que E soit égal à $A[s][P(s)^{-1}]$. Soit K une clôture algébrique de K (V, p. 22, th. 2). Comme le corps K est infini (V, p. 20, prop. 3), il existe un élément $x$ de K tel que $P(x)\not= 0$. Soit $\varphi : E\rightarrow K$ l’unique homomorphisme de la K-algèbre $E = A[s][P(s)^{-1}]$ dans la K-algèbre K qui applique $s$ sur $x$. Mais cela est absurde puisque E est une extension transcendante de K et K une extension algébrique de K. Cela termine la démonstration du théorème.
+Supposons maintenant qu’un élément $s$ de S soit transcendant sur K. Notons E le corps des fractions de l’anneau $A[s]$. La $A[s$]-algèbre L est engendrée par S$-\{s\}$. D’après l’hypothèse de récurrence, il existe un polynôme non nul $P\in A[X]$ tel que E soit égal à $A[s][P(s)^{-1}]$. Soit $\overline{K}$ une clôture algébrique de K (V, p. 22, th. 2). Comme le corps $\overline{K}$ est infini (V, p. 20, prop. 3), il existe un élément $x$ de $\overline{K}$ tel que $P(x)\not= 0$. Soit $\varphi : E\rightarrow K$ l’unique homomorphisme de la K-algèbre $E = A[s][P(s)^{-1}]$ dans la K-algèbre K qui applique $s$ sur $x$. Mais cela est absurde puisque E est une extension transcendante de K et $\overline{K}$ une extension algébrique de K. Cela termine la démonstration du théorème.
 
 #### Corollaire 1 {#alg-viii-a3-thm-1-cor-1 .statement tag=00RV}
 

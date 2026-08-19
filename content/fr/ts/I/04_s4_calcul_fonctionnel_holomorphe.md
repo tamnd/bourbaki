@@ -69,7 +69,7 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: 58ba10ab7e5642d83097a4bacd2d2cf58e41c84e8876e133f94ea4a497484735
+content_sha256: 9126a7e6176f88ec8fa1f5ccf9b2319649a556e0f40e83338268640c72311630
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -124,15 +124,15 @@ Soit A une algèbre de Banach unifère complexe. Les espaces $\mathscr{O}(U; A)$
 
 Soit X un ensemble. Si $m\leqslant n$, on notera $\pi_{m,n}$ l’application de $X^n$ dans $X^m$ telle que $\pi_{m,n}(\boldsymbol{x}) = (x_1, . . . , x_m)$ pour tout $\boldsymbol{x}= (x_1, . . . , x_n)\in X^n$.
 
-Soit A une algèbre de Banach unifère sur $\mathbf{C}$. Pour tout entier $n\geqslant 1$ et tout $\boldsymbol{a}\in A^n$, on note Sp$^n(\boldsymbol{a})$ le spectre simultané Sp$^{\{1,...,n\}}_A(\boldsymbol{a})$ (déf. 2 de I, p. 42). C’est une partie compacte de $\mathbf{C}^n$. Pour tout entier $m$ tel que $1\leqslant m\leqslant n$, on a $\pi_{m,n}$(Sp$^n(\boldsymbol{a})) =$ Sp$^m(\pi_{m,n}(\boldsymbol{a}))$ (I, p. 41, n$^o6$). L’application linéaire continue
+Soit A une algèbre de Banach unifère sur $\mathbf{C}$. Pour tout entier $n\geqslant 1$ et tout $\boldsymbol{a}\in A^n$, on note Sp$^n(\boldsymbol{a})$ le spectre simultané Sp$^{\{1,...,n\}}_A(\boldsymbol{a})$ (déf. 2 de I, p. 42). C’est une partie compacte de $\mathbf{C}^n$. Pour tout entier $m$ tel que $1\leqslant m\leqslant n$, on a $\pi_{m,n}$(Sp$^n(\boldsymbol{a})$) $=$ Sp$^m(\pi_{m,n}(\boldsymbol{a}))$ (I, p. 41, n$^o6$). L’application linéaire continue
 
-$\pi_{m,n}^*:\mathscr{O}$(Sp$^m(\pi_{m,n}(\boldsymbol{a})); A)\longrightarrow \mathscr{O}$(Sp$^n(\boldsymbol{a}); A)$
+$\pi_{m,n}^*:\mathscr{O}$(Sp$^m(\pi_{m,n}(\boldsymbol{a})); A$)$\longrightarrow \mathscr{O}$(Sp$^n(\boldsymbol{a}); A$)
 
 est un morphisme d’algèbres unifères.
 
 Soit A une algèbre de Banach unifère commutative sur $\mathbf{C}$. Soit $n\geqslant 1$ un entier. On appelle calcul fonctionnel holomorphe en $n$ variables sur A la donnée, pour tout $\boldsymbol{a}\in A^n$, d’une application
 
-$\Theta_{\boldsymbol{a}}:\mathscr{O}$(Sp$^n(\boldsymbol{a}); A)\longrightarrow A$
+$\Theta_{\boldsymbol{a}}:\mathscr{O}$(Sp$^n(\boldsymbol{a}); A$)$\longrightarrow A$
 
 vérifiant les conditions :
 
@@ -470,7 +470,7 @@ $$
 \xi_{I_1,I_2}=\bigwedge_{i\in I_1}ds_i\wedge \bigwedge_{i\in I_2}du'_i\wedge dz_1\wedge  \cdots  \wedge dz_n
 $$
 
-où $I_1$ (resp. $I_2)$ est une partie non vide (resp. une partie) de $\{1, . . . , n\}$. Chaque forme différentielle $\xi_{I_1,I_2}$ s’écrit aussi sous la forme
+où $I_1$ (resp. $I_2$) est une partie non vide (resp. une partie) de $\{1, . . . , n\}$. Chaque forme différentielle $\xi_{I_1,I_2}$ s’écrit aussi sous la forme
 
 $$
 d(\widetilde{\psi}\wedge dz_1\wedge  \cdots  \wedge dz_n)
@@ -536,7 +536,7 @@ $$
 \int_U(af)\omega =a\int_Uf \omega
 $$
 
-(INT, VI, §2, n$^o2$, prop. 2 appliqué à la multiplication par $a)$.
+(INT, VI, §2, n$^o2$, prop. 2 appliqué à la multiplication par $a$).
 
 Soit $(h', u'_1, . . . , u'_n)$ une suite adaptée à $\boldsymbol{a}$ telle que Supp($h'$)$\subset U$. Soit $\omega '$ la forme différentielle associée. D’après le lemme 6 de I, p. 57, il existe une forme différentielle $\psi$ sur $\mathbf{C}^n$ de degré $n-1$, à coefficients dans A et à support contenu dans Supp($h$)$\cup$ Supp($h'$)$\subset U$, telle que
 
@@ -574,7 +574,7 @@ $$
 
 ce qui achève la démonstration.
 
-Ce lemme démontre qu’il existe une unique application A-linéaire $\Theta_{\boldsymbol{a}}$ de $\mathscr{O}$(Sp$^n(\boldsymbol{a}); A)$ dans A telle que
+Ce lemme démontre qu’il existe une unique application A-linéaire $\Theta_{\boldsymbol{a}}$ de $\mathscr{O}$(Sp$^n(\boldsymbol{a}); A$) dans A telle que
 
 (5) $\Theta_{\boldsymbol{a}}(f) =n$! $_n\int\widetilde{f \omega}$
 
@@ -582,11 +582,11 @@ $$
 (2i\pi )_U
 $$
 
-pour tout ouvert U et tout représentant $\widetilde{f}\in \mathscr{O}(U; A)$ d’un germe $f\in \mathscr{O}$(Sp$^n(\boldsymbol{a}); A)$. L’application linéaire $\Theta_{\boldsymbol{a}}$ est continue d’après l’inégalité (4) et EVT, II, p. 29, prop. 5.
+pour tout ouvert U et tout représentant $\widetilde{f}\in \mathscr{O}(U; A)$ d’un germe $f\in \mathscr{O}$(Sp$^n(\boldsymbol{a}); A$). L’application linéaire $\Theta_{\boldsymbol{a}}$ est continue d’après l’inégalité (4) et EVT, II, p. 29, prop. 5.
 
 ### 5. Propriétés des applications $\Theta_{\boldsymbol{a}}$
 
-On rappelle (VAR, R2, p. 46 et p. 47, 11.1.3, d)) que si K est une partie compacte de $\mathbf{C}$, il existe un système fondamental de voisinages compacts V de K qui sont des pièces de $\mathbf{C}$ (c’est-à-dire, pour tout $x\in V$, il existe une carte $(U, \varphi ,\mathbf{C})$ de $\mathbf{C}$ en $x$ tel que $\varphi (U\cap K)$ est un ouvert d’un demi-espace fermé de $\mathbf{C})$. On note alors $\partial V$ le bord de la pièce V muni de l’orientation déduite de l’orientation de $\mathbf{C}$ (VAR, R2, p. 47) et $dz$ la différentielle de l’injection $\partial V\rightarrow \mathbf{C}$.
+On rappelle (VAR, R2, p. 46 et p. 47, 11.1.3, d)) que si K est une partie compacte de $\mathbf{C}$, il existe un système fondamental de voisinages compacts V de K qui sont des pièces de $\mathbf{C}$ (c’est-à-dire, pour tout $x\in V$, il existe une carte $(U, \varphi ,\mathbf{C})$ de $\mathbf{C}$ en $x$ tel que $\varphi (U\cap K)$ est un ouvert d’un demi-espace fermé de $\mathbf{C}$). On note alors $\partial V$ le bord de la pièce V muni de l’orientation déduite de l’orientation de $\mathbf{C}$ (VAR, R2, p. 47) et $dz$ la différentielle de l’injection $\partial V\rightarrow \mathbf{C}$.
 
 #### Proposition 1 {#ts-i-s4-prop-1 .statement tag=02A5}
 
@@ -632,7 +632,7 @@ $$
 
 #### Lemme 8 {#ts-i-s4-lem-8 .statement tag=02A7}
 
-Soit U un ouvert de $\mathbf{C}^n$. Soit $\omega_1$ une forme différentielle continue de degré $n$ dans U à support compact et à valeurs dans A (resp. $\omega_2$ une forme différentielle continue de degré 2 dans $\mathbf{C}$ à support compact et à valeurs dans $\mathbf{C})$. Notons $\pi_1$ et $\pi_2$ les projections canoniques de $U\times \mathbf{C}$ sur U et $\mathbf{C}$. La forme différentielle $\pi_1^*\omega_1\wedge \pi_2^*\omega_2$ sur $U\times \mathbf{C}$ est continue à support compact et à valeurs dans A. On a
+Soit U un ouvert de $\mathbf{C}^n$. Soit $\omega_1$ une forme différentielle continue de degré $n$ dans U à support compact et à valeurs dans A (resp. $\omega_2$ une forme différentielle continue de degré 2 dans $\mathbf{C}$ à support compact et à valeurs dans $\mathbf{C}$). Notons $\pi_1$ et $\pi_2$ les projections canoniques de $U\times \mathbf{C}$ sur U et $\mathbf{C}$. La forme différentielle $\pi_1^*\omega_1\wedge \pi_2^*\omega_2$ sur $U\times \mathbf{C}$ est continue à support compact et à valeurs dans A. On a
 
 $$
 \int_{U\times\mathbf{C}}\pi_1^*\omega_1\wedge \pi^*_2\omega_2=(\int_{\mathbf{C}}\omega_2)((\int_U\omega_1)
@@ -664,7 +664,7 @@ d’où le résultat (INT VI, loc. cit.).
 
 Soit $\boldsymbol{a}= (a_1, . . . , a_n)\in A^n$. Soient $p\in \mathbf{N}$ et $\boldsymbol{a}'$ = $(a_{n+1}, . . . , a_{n+p})\in A^p$. Alors on a $\Theta_{(\boldsymbol{a},\boldsymbol{a}')}\circ \pi_{n,n+p}^*= \Theta_{\boldsymbol{a}}$. En particulier, on a $\Theta_{\boldsymbol{a}}(1) = 1$.
 
-Comme on a $\pi_{n,n+p}=\pi_{n,n+1}\circ \cdots \circ \pi_{n+p-1,n+p}$, il suffit de démontrer la première assertion lorsque $p= 1$, ce qu’on suppose désormais. On note simplement $\pi =\pi_{n,n+1}$. Il suffit alors de démontrer que, pour tout voisinage ouvert U de Sp$^n(\boldsymbol{a})$, et toute fonction $f\in \mathscr{O}(U; A)$, on a $\Theta_{(\boldsymbol{a},a_{n+1})}(f\circ \pi ) = \Theta_{\boldsymbol{a}}(f)$. Notons $g=f\circ \pi$. Soit $h$ (resp. $h')$ une application de $\mathbf{C}^n$ dans $\mathbf{C}$ (resp. de $\mathbf{C}$ dans $\mathbf{C})$, indéfiniment dérivable, égale à 1 au voisinage de Sp$^n(\boldsymbol{a})$ (resp. de Sp($\boldsymbol{a}'$)), à support compact contenu dans U (resp. dans $\mathbf{C})$. Il existe des applications $(u_1, . . . , u_n)$ de $\mathbf{C}^n$ dans A, indéfiniment dérivables, telles que la suite $(h, u_1, . . . , u_n)$ est adaptée à $\boldsymbol{a}$ (lemme 3 de I, p. 54), et une application indéfiniment dérivable $u_{n+1}$ de $\mathbf{C}$ dans A telle que le couple $(h', u_{n+1})$ est adapté à $a_{n+1}($loc. cit.)
+Comme on a $\pi_{n,n+p}=\pi_{n,n+1}\circ \cdots \circ \pi_{n+p-1,n+p}$, il suffit de démontrer la première assertion lorsque $p= 1$, ce qu’on suppose désormais. On note simplement $\pi =\pi_{n,n+1}$. Il suffit alors de démontrer que, pour tout voisinage ouvert U de Sp$^n(\boldsymbol{a})$, et toute fonction $f\in \mathscr{O}(U; A)$, on a $\Theta_{(\boldsymbol{a},a_{n+1})}(f\circ \pi ) = \Theta_{\boldsymbol{a}}(f)$. Notons $g=f\circ \pi$. Soit $h$ (resp. $h'$) une application de $\mathbf{C}^n$ dans $\mathbf{C}$ (resp. de $\mathbf{C}$ dans $\mathbf{C}$), indéfiniment dérivable, égale à 1 au voisinage de Sp$^n(\boldsymbol{a})$ (resp. de Sp($\boldsymbol{a}'$)), à support compact contenu dans U (resp. dans $\mathbf{C}$). Il existe des applications $(u_1, . . . , u_n)$ de $\mathbf{C}^n$ dans A, indéfiniment dérivables, telles que la suite $(h, u_1, . . . , u_n)$ est adaptée à $\boldsymbol{a}$ (lemme 3 de I, p. 54), et une application indéfiniment dérivable $u_{n+1}$ de $\mathbf{C}$ dans A telle que le couple $(h', u_{n+1})$ est adapté à $a_{n+1}($loc. cit.)
 
 Pour $\boldsymbol{z}\in \mathbf{C}^n$ et $z_{n+1}\in \mathbf{C}$, notons $h''(\boldsymbol{z}, z_{n+1}) =h(\boldsymbol{z})h'(z_{n+1})$ et $u''_{n+1}(\boldsymbol{z}, z_{n+1}) =h(\boldsymbol{z})u_{n+1}(z_{n+1})$. Les fonctions $h''$ et $u''_{n+1}$ sont indéfiniment dérivables dans $\mathbf{C}^{n+1}$. La fonction $h''$ est égale à 1 au voisinage de Sp$^{n+1}(\boldsymbol{a}, a_{n+1})$, et a support compact contenu dans $U\times \mathbf{C}$. Pour tout $\boldsymbol{w}= (\boldsymbol{z}, z_{n+1})\in \mathbf{C}^{n+1}$, on a
 
@@ -722,7 +722,7 @@ Finalement, la formule $\Theta_{\boldsymbol{a}}(1) = 1$ résulte de ce qui préc
 
 #### Lemme 10 {#ts-i-s4-lem-10 .statement tag=02A9}
 
-Soit $\boldsymbol{a}\in A^n$. Soient $g$ une fonction polynomiale sur $\mathbf{C}^n$ à coefficients dans A et $f\in \mathscr{O}$(Sp$^n(\boldsymbol{a}); A)$. On a $\Theta_{\boldsymbol{a}}(gf) =g(\boldsymbol{a})\Theta_{\boldsymbol{a}}(f)$. En particulier, on a $\Theta_{\boldsymbol{a}}(g) =g(\boldsymbol{a})$.
+Soit $\boldsymbol{a}\in A^n$. Soient $g$ une fonction polynomiale sur $\mathbf{C}^n$ à coefficients dans A et $f\in \mathscr{O}$(Sp$^n(\boldsymbol{a}); A$). On a $\Theta_{\boldsymbol{a}}(gf) =g(\boldsymbol{a})\Theta_{\boldsymbol{a}}(f)$. En particulier, on a $\Theta_{\boldsymbol{a}}(g) =g(\boldsymbol{a})$.
 
 D’après le lemme 9, il suffit de démontrer la première assertion.
 
@@ -784,7 +784,7 @@ Supposons A non nulle. Soit $\boldsymbol{a}\in \mathbf{C}^n\subset A^n$. On a Sp
 
 #### Proposition 3 {#ts-i-s4-prop-3 .statement tag=02AC}
 
-Soient B une algèbre de Banach unifère commutative et $\varphi$ un morphisme unifère continu de A dans B. Soit $\boldsymbol{a}= (a_1, . . . , a_n)\in A^n$. Posons $\boldsymbol{b}= (\varphi (a_1), . . . , \varphi (a_n))$, de sorte que Sp$^n_B(\boldsymbol{b})\subset$ Sp$^n_A(\boldsymbol{a})$. Pour tout $f\in \mathscr{O}$(Sp$^n_A(\boldsymbol{a}); A)$, on a
+Soient B une algèbre de Banach unifère commutative et $\varphi$ un morphisme unifère continu de A dans B. Soit $\boldsymbol{a}= (a_1, . . . , a_n)\in A^n$. Posons $\boldsymbol{b}= (\varphi (a_1), . . . , \varphi (a_n))$, de sorte que Sp$^n_B(\boldsymbol{b})\subset$ Sp$^n_A(\boldsymbol{a})$. Pour tout $f\in \mathscr{O}$(Sp$^n_A(\boldsymbol{a}); A$), on a
 
 $$
 \varphi (\Theta_{\boldsymbol{a}}(f)) = \Theta_{\boldsymbol{b}}(\varphi_*(f))
@@ -812,7 +812,7 @@ comme il était demandé.
 
 #### Corollaire 1 {#ts-i-s4-prop-3-cor-1 .statement tag=02AD}
 
-Soient $\chi \in \mathsf{X}(A)$ et $\boldsymbol{a}\in A^n$. Pour tout germe $f\in \mathscr{O}$(Sp$^n(\boldsymbol{a}))$, on a $\chi (\Theta_{\boldsymbol{a}}(f)) =f(\chi (a_1), . . . , \chi (a_n))$.
+Soient $\chi \in \mathsf{X}(A)$ et $\boldsymbol{a}\in A^n$. Pour tout germe $f\in \mathscr{O}$(Sp$^n(\boldsymbol{a})$), on a $\chi (\Theta_{\boldsymbol{a}}(f)) =f(\chi (a_1), . . . , \chi (a_n))$.
 
 C’est une conséquence de la proposition 3, appliquée au morphisme unifère continu $\chi : A\rightarrow \mathbf{C}$ (th. 1 de I, p. 29), et du corollaire de la prop. 2, appliqué à l’algèbre de Banach $\mathbf{C}$.
 
@@ -822,11 +822,11 @@ Supposons que l’algèbre A soit sans radical. Soit $\boldsymbol{a}= (a_1, . . 
 
 #### Corollaire 2 {#ts-i-s4-prop-3-cor-2 .statement tag=02AF}
 
-Soit $p$ un entier $\geqslant$ 1. Pour toute famille $(f_1, . . . , f_p)$ d’éléments de $\mathscr{O}$(Sp$^n(\boldsymbol{a}))$, on a
+Soit $p$ un entier $\geqslant$ 1. Pour toute famille $(f_1, . . . , f_p)$ d’éléments de $\mathscr{O}$(Sp$^n(\boldsymbol{a})$), on a
 
-Sp$^p((\Theta_{\boldsymbol{a}}(f_1), . . . ,\Theta_{\boldsymbol{a}}(f_p))) = (f_1, . . . , f_p$)(Sp$^n(\boldsymbol{a}))$.
+Sp$^p((\Theta_{\boldsymbol{a}}(f_1), . . . ,\Theta_{\boldsymbol{a}}(f_p))) = (f_1, . . . , f_p$)(Sp$^n(\boldsymbol{a})$).
 
-En particulier, pour tout $f\in \mathscr{O}$(Sp$^n(\boldsymbol{a}))$, on a Sp(Θ$_{\boldsymbol{a}}(f)) =f$(Sp$^n(\boldsymbol{a}))$.
+En particulier, pour tout $f\in \mathscr{O}$(Sp$^n(\boldsymbol{a})$), on a Sp(Θ$_{\boldsymbol{a}}(f)$) $=f$(Sp$^n(\boldsymbol{a})$).
 
 Ceci résulte du cor. 1 et de la définition du spectre simultané.
 
@@ -842,7 +842,7 @@ Dans ce numéro, A est une algèbre de Banach unifère commutative complexe.
 
 Soit L une partie compacte polynomialement convexe de $\mathbf{C}^n$ et soit U un voisinage ouvert de L. Pour toute fonction $f\in \mathscr{O}(U; A)$, il existe une suite de fonctions polynomiales sur $\mathbf{C}^n$ à coefficients dans A qui converge vers $f|L$ dans $\mathscr{C}(L; A)$.
 
-On peut supposer que L n’est pas vide et que A n’est pas nulle. Soit P (resp. $P_0)$ l’ensemble des restrictions à L des fonctions polynomiales sur $\mathbf{C}^n$ à coefficients dans A (resp. à coefficients dans $\mathbf{C})$. Soit B (resp. $B_0)$ l’algèbre de Banach adhérence de P (resp. de $P_0)$ dans $\mathscr{C}(L; A)$. Désignons par $\iota$ l’injection de A sur la sous-algèbre normée de B formée des fonctions constantes.
+On peut supposer que L n’est pas vide et que A n’est pas nulle. Soit P (resp. $P_0$) l’ensemble des restrictions à L des fonctions polynomiales sur $\mathbf{C}^n$ à coefficients dans A (resp. à coefficients dans $\mathbf{C}$). Soit B (resp. $B_0$) l’algèbre de Banach adhérence de P (resp. de $P_0$) dans $\mathscr{C}(L; A)$. Désignons par $\iota$ l’injection de A sur la sous-algèbre normée de B formée des fonctions constantes.
 
 Soient $z_1, . . . , z_n$ les restrictions à L des fonctions coordonnées sur $\mathbf{C}^n$; ce sont des éléments de $B_0$, et, en posant $\boldsymbol{z}= (z_1, . . . , z_n)$, il vient Sp$^n_{B_0}(\boldsymbol{z}) = L$ d’après la prop. 15 de I, p. 47.
 
@@ -898,7 +898,7 @@ Soient $n\geqslant 1$ un entier et $\boldsymbol{a}\in A^n$. Soit U un voisinage 
 
 Soit $n\geqslant 1$ un entier. Soit $\boldsymbol{a}\in A^n$. Pour tout voisinage ouvert U de Sp$^n(\boldsymbol{a})$, il existe un enveloppement de $(\boldsymbol{a},U)$.
 
-Soit $(a_{\lambda})_{\lambda\in\Lambda}$ une famille d’éléments de A prolongeant la famille $\boldsymbol{a}$ et engendrant topologiquement l’algèbre de Banach unifère A. Soit $\pi$ la projection canonique de $\mathbf{C}^{\Lambda}$ sur $\mathbf{C}^n$ et soit $U'=\pi^{-1}(U)$. Alors $U'$ est un voisinage de Sp$^{\Lambda}((a_{\lambda}))$, et Sp$^{\Lambda}((a_{\lambda}))$ est polynomialement convexe (I, p. 44, lemme 4). D’après le lemme 6 de I, p. 47, il existe une partie finie $\Lambda_0$ de Λ contenant $\{1,2, . . . , n\}$ telle que pr$_{\Lambda_0}(U')$ contienne l’enveloppe polynomialement convexe S de pr$_{\Lambda_0}$(Sp$^{\Lambda}((a_{\lambda})_{\lambda\in\Lambda})) =$ Sp$^{\Lambda_0}((a_{\lambda})_{\lambda\in\Lambda_0})$. Soit $p\geqslant 0$ l’entier tel que $\Lambda_0$ est de cardinal $n+p$, et soit $j$ une bijection de $\{1, . . . , n+p\}$ dans $\Lambda_0$ qui coïncide avec l’application identique sur $\{1, . . . , n\}$. La projection de S étant contenue dans U, la famille $(a_{j(k)})_{1\leqslant k\leqslant n+p}$ est un enveloppement de $(\boldsymbol{a},U)$.
+Soit $(a_{\lambda})_{\lambda\in\Lambda}$ une famille d’éléments de A prolongeant la famille $\boldsymbol{a}$ et engendrant topologiquement l’algèbre de Banach unifère A. Soit $\pi$ la projection canonique de $\mathbf{C}^{\Lambda}$ sur $\mathbf{C}^n$ et soit $U'=\pi^{-1}(U)$. Alors $U'$ est un voisinage de Sp$^{\Lambda}((a_{\lambda}))$, et Sp$^{\Lambda}((a_{\lambda}))$ est polynomialement convexe (I, p. 44, lemme 4). D’après le lemme 6 de I, p. 47, il existe une partie finie $\Lambda_0$ de Λ contenant $\{1,2, . . . , n\}$ telle que pr$_{\Lambda_0}(U')$ contienne l’enveloppe polynomialement convexe S de pr$_{\Lambda_0}$(Sp$^{\Lambda}((a_{\lambda})_{\lambda\in\Lambda})$) $=$ Sp$^{\Lambda_0}((a_{\lambda})_{\lambda\in\Lambda_0})$. Soit $p\geqslant 0$ l’entier tel que $\Lambda_0$ est de cardinal $n+p$, et soit $j$ une bijection de $\{1, . . . , n+p\}$ dans $\Lambda_0$ qui coïncide avec l’application identique sur $\{1, . . . , n\}$. La projection de S étant contenue dans U, la famille $(a_{j(k)})_{1\leqslant k\leqslant n+p}$ est un enveloppement de $(\boldsymbol{a},U)$.
 
 #### Proposition 5 {#ts-i-s4-prop-5 .statement tag=02AO}
 
@@ -908,7 +908,7 @@ Soient $n\geqslant 1$ un entier et $\boldsymbol{a}= (a_1, . . . , a_n)\in A^n$. 
 
 L’application $\Theta_{\boldsymbol{a}}$ est A-linéaire et continue (I, p. 61, n$^o5$). Elle vérifie $\Theta_{\boldsymbol{a}}(1) = 1$ (lemme 9 de I, p. 63). Pour vérifier la condition (CF1), il reste à établir que $\Theta_{\boldsymbol{a}}$ est un morphisme d’algèbres. Pour cela, on va démontrer que $\Theta^U_{\boldsymbol{a}}$ est un morphisme d’algèbres pour tout voisinage ouvert U de Sp$^n(\boldsymbol{a})$.
 
-Supposons d’abord que U contient l’enveloppe polynomialement convexe K de Sp$^n(\boldsymbol{a})$. Soient $f_1$ et $f_2$ des éléments de $\mathscr{O}(U; A)$. Il existe une suite $(f_{1,k})$ (resp. $(f_{2,k})$) de fonctions polynomiales qui converge vers $f_1$ (resp. vers $f_2)$ dans $\mathscr{O}(K; A)$ (théorème 2 de I, p. 68), donc dans $\mathscr{O}$(Sp$^n(\boldsymbol{a}); A)$. Pour tout entier $k$, on a
+Supposons d’abord que U contient l’enveloppe polynomialement convexe K de Sp$^n(\boldsymbol{a})$. Soient $f_1$ et $f_2$ des éléments de $\mathscr{O}(U; A)$. Il existe une suite $(f_{1,k})$ (resp. $(f_{2,k})$) de fonctions polynomiales qui converge vers $f_1$ (resp. vers $f_2$) dans $\mathscr{O}(K; A)$ (théorème 2 de I, p. 68), donc dans $\mathscr{O}$(Sp$^n(\boldsymbol{a}); A$). Pour tout entier $k$, on a
 
 $$
 \Theta^U_{\boldsymbol{a}}(f_{1,k})\Theta^U_{\boldsymbol{a}}(f_{2,k}) = \Theta^U_{\boldsymbol{a}}(f_{1,k}f_{2,k})
@@ -942,7 +942,7 @@ Remarquons que le th. 2 de I, p. 68 entraîne aussi le résultat d’unicité su
 
 #### Proposition 6 {#ts-i-s4-prop-6 .statement tag=02AP}
 
-Soit $\boldsymbol{a}\in A^n$. On suppose Sp$^n(\boldsymbol{a})$ polynomialement convexe. Soient $z_1, . . . , z_n$ les germes au voisinage de Sp$^n(\boldsymbol{a})$ des fonctions coordonnées sur $\mathbf{C}^n$. Alors l’application $\Theta_{\boldsymbol{a}}$ est l’unique morphisme continu d’algèbres unifères $\varphi$ de $\mathscr{O}$(Sp$^n(\boldsymbol{a}); A)$ dans A tel que $\varphi (z_1) =a_1, . . . , \varphi (z_n) =a_n$.
+Soit $\boldsymbol{a}\in A^n$. On suppose Sp$^n(\boldsymbol{a})$ polynomialement convexe. Soient $z_1, . . . , z_n$ les germes au voisinage de Sp$^n(\boldsymbol{a})$ des fonctions coordonnées sur $\mathbf{C}^n$. Alors l’application $\Theta_{\boldsymbol{a}}$ est l’unique morphisme continu d’algèbres unifères $\varphi$ de $\mathscr{O}$(Sp$^n(\boldsymbol{a}); A$) dans A tel que $\varphi (z_1) =a_1, . . . , \varphi (z_n) =a_n$.
 
 Le lemme 10 de I, p. 64 et le corollaire de la proposition 2 de I, p. 65 justifient les notations suivantes pour le calcul fonctionnel holomorphe. Soient $n\geqslant 1$ et $\boldsymbol{a}\in A^n$. Pour tout germe $f\in \mathscr{O}(K; A)$ (resp. pour toute fonction holomorphe $f\in \mathscr{O}(U; A)$ sur un voisinage ouvert U de Sp$^n(\boldsymbol{a})$), on pose
 
@@ -962,17 +962,17 @@ $$
 
 Avec les notations introduites ci-dessus, les énoncés du cor. 1 de I, p. 66 et du cor. 2 de I, p. 67 deviennent respectivement
 
-$\chi (g(\boldsymbol{a})) =g(\chi (a_1), . . . , \chi (a_n))$, Sp($g(\boldsymbol{a})$) $=g$(Sp$^n(\boldsymbol{a}))$
+$\chi (g(\boldsymbol{a})) =g(\chi (a_1), . . . , \chi (a_n))$, Sp($g(\boldsymbol{a})$) $=g$(Sp$^n(\boldsymbol{a})$)
 
-pour $f\in \mathscr{O}$(Sp$^n(\boldsymbol{a}); A),\chi \in \mathsf{X}(A)$ et $g\in \mathscr{O}$(Sp$^n(\boldsymbol{a}))$.
+pour $f\in \mathscr{O}$(Sp$^n(\boldsymbol{a}); A$)$,\chi \in \mathsf{X}(A)$ et $g\in \mathscr{O}$(Sp$^n(\boldsymbol{a})$).
 
 Nous allons maintenant démontrer une propriété de substitution plus générale.
 
 #### Théorème 4 {#ts-i-s4-thm-4 .statement tag=02AQ}
 
-Soit A une algèbre de Banach unifère commutative complexe, soient $n\geqslant 1$ un entier et $\boldsymbol{a}= (a_1, . . . , a_n)\in A^n$. Soit $\boldsymbol{f}=$ $(f_1, . . . , f_p)$ où $f_1, . . . , f_p$ sont des éléments de $\mathscr{O}$(Sp$^n(\boldsymbol{a}))$. L’image de Sp$^n(\boldsymbol{a})$ par l’application $\boldsymbol{z}\mapsto \boldsymbol{f}(\boldsymbol{z}) = (f_1(\boldsymbol{z}), . . . , f_p(\boldsymbol{z}))$ est égale à Sp$^p(\boldsymbol{f}(\boldsymbol{a}))$.
+Soit A une algèbre de Banach unifère commutative complexe, soient $n\geqslant 1$ un entier et $\boldsymbol{a}= (a_1, . . . , a_n)\in A^n$. Soit $\boldsymbol{f}=$ $(f_1, . . . , f_p)$ où $f_1, . . . , f_p$ sont des éléments de $\mathscr{O}$(Sp$^n(\boldsymbol{a})$). L’image de Sp$^n(\boldsymbol{a})$ par l’application $\boldsymbol{z}\mapsto \boldsymbol{f}(\boldsymbol{z}) = (f_1(\boldsymbol{z}), . . . , f_p(\boldsymbol{z}))$ est égale à Sp$^p(\boldsymbol{f}(\boldsymbol{a}))$.
 
-Pour tout $g\in \mathscr{O}$(Sp$^p(\boldsymbol{f}(\boldsymbol{a})); A)$, le germe composé $g\circ \boldsymbol{f}$ est un élément de $\mathscr{O}$(Sp$^n(\boldsymbol{a}); A)$ et on a $g(\boldsymbol{f}(\boldsymbol{a})) = (g\circ \boldsymbol{f})(\boldsymbol{a})$.
+Pour tout $g\in \mathscr{O}$(Sp$^p(\boldsymbol{f}(\boldsymbol{a})); A$), le germe composé $g\circ \boldsymbol{f}$ est un élément de $\mathscr{O}$(Sp$^n(\boldsymbol{a}); A$) et on a $g(\boldsymbol{f}(\boldsymbol{a})) = (g\circ \boldsymbol{f})(\boldsymbol{a})$.
 
 La première assertion concernant l’image de Sp$^n(\boldsymbol{a})$ résulte du cor. 2 de I, p. 67. Pour démontrer la seconde, nous utiliserons le lemme suivant.
 
@@ -1014,31 +1014,31 @@ dont on déduit $g(f_1(\boldsymbol{a}), . . . , f_p(\boldsymbol{a})) =h(\boldsym
 
 #### Théorème 5 {#ts-i-s4-thm-5 .statement tag=02AS}
 
-Soit A une algèbre de Banach unifère, non nécessairement commutative. Soient $a$ un élément de A et $z$ le germe de la fonction identique de $\mathbf{C}$ au voisinage de Sp$_A(a)$. Il existe un unique morphisme unifère continu $\varphi_a$ de $\mathscr{O}$(Sp$_A(a))$ dans A tel que $\varphi_a(z) =a$.
+Soit A une algèbre de Banach unifère, non nécessairement commutative. Soient $a$ un élément de A et $z$ le germe de la fonction identique de $\mathbf{C}$ au voisinage de Sp$_A(a)$. Il existe un unique morphisme unifère continu $\varphi_a$ de $\mathscr{O}$(Sp$_A(a)$) dans A tel que $\varphi_a(z) =a$.
 
 L’image de $\varphi_a$ est contenue dans la sous-algèbre fermée pleine de A engendrée par $a$. En particulier, elle est contenue dans le bicommutant de $a$.
 
-Démontrons l’existence du morphisme $\varphi_a$. Soit B la sous-algèbre fermée pleine de A engendrée par $a$. Elle est commutative, et on a Sp$_B(a) =$ Sp$_A(a)$ (I, p. 5, n$^o5$). L’application $\Theta_a$ du calcul fonctionnel holomorphe sur B est un morphisme unifère continu de $\mathscr{O}$(Sp$_B(a))$ dans B tel que $\Theta_a(z) =a$ (théorème 1 de I, p. 51). Le morphisme composé de $\Theta_a$ et de l’injection canonique de B dans A est un morphisme unifère continu $\varphi_a$ de $\mathscr{O}$(Sp$_A(a))$ dans A tel que l’image de $z$ est $a$.
+Démontrons l’existence du morphisme $\varphi_a$. Soit B la sous-algèbre fermée pleine de A engendrée par $a$. Elle est commutative, et on a Sp$_B(a) =$ Sp$_A(a)$ (I, p. 5, n$^o5$). L’application $\Theta_a$ du calcul fonctionnel holomorphe sur B est un morphisme unifère continu de $\mathscr{O}$(Sp$_B(a)$) dans B tel que $\Theta_a(z) =a$ (théorème 1 de I, p. 51). Le morphisme composé de $\Theta_a$ et de l’injection canonique de B dans A est un morphisme unifère continu $\varphi_a$ de $\mathscr{O}$(Sp$_A(a)$) dans A tel que l’image de $z$ est $a$.
 
-Démontrons l’unicité. Soit $\varphi '_a$ un morphisme unifère continu de $\mathscr{O}$(Sp$_A(a))$ dans A tel que $\varphi '_a(z) =a$. Alors $\varphi_a$ et $\varphi '_a$ coïncident sur l’ensemble des germes de polynômes au voisinage de Sp$_A(a)$, donc sur l’ensemble des germes de fractions rationnelles holomorphes au voisinage de Sp$_A(a)$. Or ces germes sont denses dans $\mathscr{O}$(Sp$_A(a))$ (I, p. 69, th. 3). Cela implique que $\varphi_a=\varphi '_a$.
+Démontrons l’unicité. Soit $\varphi '_a$ un morphisme unifère continu de $\mathscr{O}$(Sp$_A(a)$) dans A tel que $\varphi '_a(z) =a$. Alors $\varphi_a$ et $\varphi '_a$ coïncident sur l’ensemble des germes de polynômes au voisinage de Sp$_A(a)$, donc sur l’ensemble des germes de fractions rationnelles holomorphes au voisinage de Sp$_A(a)$. Or ces germes sont denses dans $\mathscr{O}$(Sp$_A(a)$) (I, p. 69, th. 3). Cela implique que $\varphi_a=\varphi '_a$.
 
 La construction de $\varphi_a$ démontre que son image est contenue dans la sous-algèbre commutative B, qui est contenue dans le bicommutant de $a($I, p. 6).
 
 Si le radical de l’algèbre A est nul, l’unicité du morphisme $\varphi_a$ est valide sans requérir qu’il soit continu (cf. prop. 9 de I, p. 40). Ce n’est pas le cas en général, cf. G. R. Allan, Embedding the algebra of formal power series in a Banach algebra, Proc. London Math. Soc. (3) 25 (1972), 329–340.
 
-Pour toute algèbre de Banach A, tout élément $a$ de A et tout germe $f\in \mathscr{O}$(Sp$_A(a))$, on note $f(a)$ l’élément $\varphi_a(f)$ du théorème 5. Si A est une algèbre de Banach commutative, cet élément $f(a)$ coïncide avec l’élément $f(a)$ fourni par le calcul fonctionnel holomorphe sur une algèbre de Banach commutative (théorème 1 de I, p. 51).
+Pour toute algèbre de Banach A, tout élément $a$ de A et tout germe $f\in \mathscr{O}$(Sp$_A(a)$), on note $f(a)$ l’élément $\varphi_a(f)$ du théorème 5. Si A est une algèbre de Banach commutative, cet élément $f(a)$ coïncide avec l’élément $f(a)$ fourni par le calcul fonctionnel holomorphe sur une algèbre de Banach commutative (théorème 1 de I, p. 51).
 
 Soit B la sous-algèbre fermée pleine de A engendrée par $a$, de sorte que Sp$_A(a) =$ Sp$_B(a)$. L’élément $f(a)$ de A appartient à B, et coïncide avec l’élément $f(a)$ calculé relativement à l’algèbre B.
 
 #### Proposition 7 {#ts-i-s4-prop-7 .statement tag=02AT}
 
-Soient A et B des algèbres de Banach unifères et $\varphi$ un morphisme unifère continu de A dans B. Soit $a\in$ A. Alors Sp$_B(\varphi (a))\subset$ Sp$_A(a)$ et on a $\varphi (f(a))$ = $f(\varphi (a))$ pour tout $f\in \mathscr{O}$(Sp$_A(a))$. En particulier, pour tout $\chi \in \mathsf{X}(A)$, on a $\chi (f(a)) =f(\chi (a))$.
+Soient A et B des algèbres de Banach unifères et $\varphi$ un morphisme unifère continu de A dans B. Soit $a\in$ A. Alors Sp$_B(\varphi (a))\subset$ Sp$_A(a)$ et on a $\varphi (f(a))$ = $f(\varphi (a))$ pour tout $f\in \mathscr{O}$(Sp$_A(a)$). En particulier, pour tout $\chi \in \mathsf{X}(A)$, on a $\chi (f(a)) =f(\chi (a))$.
 
 Ceci résulte de la prop. 3 de I, p. 66.
 
 #### Proposition 8 {#ts-i-s4-prop-8 .statement tag=02AU}
 
-Soient A une algèbre de Banach unifère et $a\in A$. Soit $f\in \mathscr{O}$(Sp($a$)). On a $f$(Sp$_A(a)) =$ Sp$_A(f(a))$. De plus, pour tout $g\in \mathscr{O}$(Sp$_A(f(a)))$, on a $g\circ f\in \mathscr{O}$(Sp$_A(a))$ et $g(f(a)) = (g\circ f)(a)$.
+Soient A une algèbre de Banach unifère et $a\in A$. Soit $f\in \mathscr{O}$(Sp($a$)). On a $f$(Sp$_A(a)$) $=$ Sp$_A(f(a))$. De plus, pour tout $g\in \mathscr{O}$(Sp$_A(f(a))$), on a $g\circ f\in \mathscr{O}$(Sp$_A(a)$) et $g(f(a)) = (g\circ f)(a)$.
 
 Ceci résulte du th. 4.
 
@@ -1182,7 +1182,7 @@ En particulier, exp($a$) est inversible et
 
 (11) exp($a$)$^{-1}=$ exp($-a$).
 
-Soit B l’ensemble des $z\in \mathbf{C}$ tels que $-\pi  <\mathscr{I}z < \pi$. Soit F le complémentaire dans $\mathbf{C}$ de l’intervalle $\mathbf{R}_-$. La restriction de l’exponentielle à B induit par passage aux sous-espaces une bijection de B sur F (FVR, III, p. 10, n$^o7)$, dont la bijection réciproque sera notée log.
+Soit B l’ensemble des $z\in \mathbf{C}$ tels que $-\pi  <\mathscr{I}z < \pi$. Soit F le complémentaire dans $\mathbf{C}$ de l’intervalle $\mathbf{R}_-$. La restriction de l’exponentielle à B induit par passage aux sous-espaces une bijection de B sur F (FVR, III, p. 10, n$^o7$), dont la bijection réciproque sera notée log.
 
 Si $a\in A$ est tel que Sp$_A(a)\subset F$, on peut former l’élément log($a$) de A. On a Sp$_A$(log($a$))$\subset B$, et
 
@@ -1192,15 +1192,15 @@ Si $a\in A$ est tel que Sp$_A(a)\subset F$, on peut former l’élément log($a$
 
 (loc. cit.).
 
-En particulier, si $a\in A$ est tel que $\varrho (a)<1$, on a Sp$_A(1-a)\subset F$ et on peut former log(1 $-a)$. Pour $n\geqslant 1$, la $n$-ème dérivée de $z\mapsto$ log(1$-z)$ est $z\mapsto  -(n-$1)!(1$-z)^{-n}$ Le développement en série entière de $z\mapsto$ log(1 $-z)$ au point 0 est donc
+En particulier, si $a\in A$ est tel que $\varrho (a)<1$, on a Sp$_A(1-a)\subset F$ et on peut former log(1 $-a$). Pour $n\geqslant 1$, la $n$-ème dérivée de $z\mapsto$ log(1$-z$) est $z\mapsto  -(n-$1)!(1$-z$)$^{-n}$ Le développement en série entière de $z\mapsto$ log(1 $-z$) au point 0 est donc
 
-log(1 $-z) =-\sum^{\infty}\frac{z^n}{n}$,
+log(1 $-z$) $=-\sum^{\infty}\frac{z^n}{n}$,
 
 $n=1$
 
 valide pour $|z|<1$ (VAR, R1, p. 30, 3.3.9). D’après la prop. 2 de I, p. 65, il vient
 
-(14) log(1 $-a) =-\sum_{n=1}^{\infty}\frac{a^n}{n}$.
+(14) log(1 $-a$) $=-\sum_{n=1}^{\infty}\frac{a^n}{n}$.
 
 #### Proposition 12 {#ts-i-s4-prop-12 .statement tag=02AY}
 
@@ -1236,7 +1236,7 @@ b) Il existe un élément idempotent de A différent de 0 et 1 ;
 
 c) L’algèbre A est isomorphe au produit de deux algèbres de Banach non nulles.
 
-La proposition démontre que a) implique b). Si $j$ est un idempotent de A, soient $I_1=jA$ et $I_2= (1-j)A$. Alors $I_1$ et $I_2$ sont des idéaux fermés de A, et $I_1+ I_2= A$. Si $j /\in  \{0,1\}$, les idéaux $I_1$ et $I_2$ sont distincts de A. D’autre part, l’idéal $I_1$ (resp. $I_2)$ est l’ensemble des éléments $x$ de A tels que $jx=x$ (resp. $(1-j)x=x)$, donc $I_1\cap I_2=\{0\}$. L’algèbre A s’identifie alors au produit $A/I_1\times A/I_2$. Ainsi, l’assertion b) implique c). Finalement, si A est isomorphe à $A_1\times A_2$, l’espace $\mathsf{X}(A)$ s’identifie à l’espace somme de $\mathsf{X}(A_1)$ et de $\mathsf{X}(A_2)$ (I, p. 6, n$^o6$), donc c) implique a).
+La proposition démontre que a) implique b). Si $j$ est un idempotent de A, soient $I_1=jA$ et $I_2= (1-j)A$. Alors $I_1$ et $I_2$ sont des idéaux fermés de A, et $I_1+ I_2= A$. Si $j /\in  \{0,1\}$, les idéaux $I_1$ et $I_2$ sont distincts de A. D’autre part, l’idéal $I_1$ (resp. $I_2$) est l’ensemble des éléments $x$ de A tels que $jx=x$ (resp. $(1-j)x=x$), donc $I_1\cap I_2=\{0\}$. L’algèbre A s’identifie alors au produit $A/I_1\times A/I_2$. Ainsi, l’assertion b) implique c). Finalement, si A est isomorphe à $A_1\times A_2$, l’espace $\mathsf{X}(A)$ s’identifie à l’espace somme de $\mathsf{X}(A_1)$ et de $\mathsf{X}(A_2)$ (I, p. 6, n$^o6$), donc c) implique a).
 
 #### Proposition 14 {#ts-i-s4-prop-14 .statement tag=02B1}
 
@@ -1296,7 +1296,7 @@ $$
 
 En particulier, $\lambda \in \mathbf{C}-$ Sp$_{A_H}(x_H)$.
 
-Soit maintenant $\lambda \in H$. Supposons que $\lambda j_H-x_H$ admette un inverse $y$ dans $A_H$. En utilisant les formules $j_Hy=y$ (car $y\in A_H)$ et $j_{K-H}R_{K-H}(x, \lambda ) = R_{K-H}(x, \lambda )$ (car $R_{K-H}(x, \lambda )\in A_{K-H})$, on trouve
+Soit maintenant $\lambda \in H$. Supposons que $\lambda j_H-x_H$ admette un inverse $y$ dans $A_H$. En utilisant les formules $j_Hy=y$ (car $y\in A_H$) et $j_{K-H}R_{K-H}(x, \lambda ) = R_{K-H}(x, \lambda )$ (car $R_{K-H}(x, \lambda )\in A_{K-H}$), on trouve
 
 $$
 (\lambda -x)(y+ R_{K-H}(x, \lambda )) = (\lambda -x)(j_Hy+j_{K-H}R_{K-H}(x, \lambda )) =
@@ -1442,9 +1442,9 @@ Notons $z$ le germe dans $\mathscr{O}(S)$ de l’application identique de $\math
 
 On a $z^*=z$, donc $z$ appartient à $\mathscr{O}_{\mathbf{R}}(S)$. Soit B une sous-$\mathbf{R}$-algèbre fermée pleine de $\mathscr{O}(S)$ contenant $z$. L’application $f\mapsto f+f^*$ de $\mathscr{O}(S)$ dans $\mathscr{O}_{\mathbf{R}}(S)$ est continue et surjective, et l’ensemble des germes de fonctions rationnelles holomorphes au voisinage de S est dense dans $\mathscr{O}(S)$ (th. 3 de I, p. 69). Pour démontrer que B contient $\mathscr{O}_{\mathbf{R}}(S)$, il suffit donc de démontrer que si $f$ est le germe d’une telle fonction rationnelle, on a $f+f^*\in B$.
 
-Il existe des polynômes P et Q dans $\mathbf{C}[X]$ tels que Q ne s’annule en aucun point de S et que l’on ait $f=\frac{P(z)}{Q(z)}$. Notons $P^*$ et $Q^*$ les polynômes obtenus en remplaçant les coefficients de P et Q par leurs conjugués. On a alors $P(z)^*= P^*(z)$ et $Q(z)^*= Q^*(z)$. Comme S est stable par la conjugaison complexe, le polynôme $Q^*$ ne s’annule en aucun point de S. Les germes $Q^*(z)$ et (QQ$^*)(z)$ sont donc inversibles dans $\mathscr{O}(S)$, et
+Il existe des polynômes P et Q dans $\mathbf{C}[X]$ tels que Q ne s’annule en aucun point de S et que l’on ait $f=\frac{P(z)}{Q(z)}$. Notons $P^*$ et $Q^*$ les polynômes obtenus en remplaçant les coefficients de P et Q par leurs conjugués. On a alors $P(z)^*= P^*(z)$ et $Q(z)^*= Q^*(z)$. Comme S est stable par la conjugaison complexe, le polynôme $Q^*$ ne s’annule en aucun point de S. Les germes $Q^*(z)$ et (QQ$^*$)$(z)$ sont donc inversibles dans $\mathscr{O}(S)$, et
 
-$f+f^*=\frac{P(z)}{Q(z)}+\frac{P^*(z)}{Q^*(z)}=$ (PQ(QQ$^*+ P_*)(^*Q)(z)z)$.
+$f+f^*=\frac{P(z)}{Q(z)}+\frac{P^*(z)}{Q^*(z)}=$ (PQ(QQ$^*+ P_*$)$(^*Q)(z)z$).
 
 Comme les polynômes PQ$^*+ P^*Q$ et QQ$^*$ sont à coefficients réels et que B est une sous-$\mathbf{R}$-algèbre pleine de $\mathscr{O}(S)$ contenant $z$, l’élément $f+f^*$ appartient à B. Cela conclut la preuve de la proposition.
 
@@ -1460,27 +1460,27 @@ Notons $u\mapsto \overline{u}$ l’endomorphisme de la $\mathbf{R}$-algèbre $A_
 
 #### Lemme {#ts-i-s4-n13-lem-1 .statement tag=02BB}
 
-Pour tout $f\in \mathscr{O}$(Sp$_{A_{(\mathbf{C})}}(x))$, on a $f^*(1\otimes x) =\overline{f(1 \otimes x)}$.
+Pour tout $f\in \mathscr{O}$(Sp$_{A_{(\mathbf{C})}}(x)$), on a $f^*(1\otimes x) =\overline{f(1 \otimes x)}$.
 
 Les applications $f\mapsto f(1\otimes x)$ et $f\mapsto \overline{f^*(1 \otimes x)}$ sont des homomorphismes unifères continus de $\mathbf{C}$-algèbres de $\mathscr{O}$(Sp($x$)) dans $A_{(\mathbf{C})}$ qui appliquent $z$ sur $1\otimes x$; elles sont donc égales (I, p. 74, th. 5).
 
 #### Proposition 20 {#ts-i-s4-prop-20 .statement tag=02BC}
 
-Pour tout $f\in \mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x))$, il existe un unique élément $f(x)$ de A tel que $f(1\otimes x) = 1\otimes f(x)$ dans $A_{(\mathbf{C})}$. L’application $f\mapsto f(x)$ de $\mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x))$ dans A est l’unique homomorphisme unifère continu de $\mathbf{R}$-algèbres qui applique sur $x$ le germe dans $\mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x))$ de l’application identique de $\mathbf{C}$.
+Pour tout $f\in \mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x)$), il existe un unique élément $f(x)$ de A tel que $f(1\otimes x) = 1\otimes f(x)$ dans $A_{(\mathbf{C})}$. L’application $f\mapsto f(x)$ de $\mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x)$) dans A est l’unique homomorphisme unifère continu de $\mathbf{R}$-algèbres qui applique sur $x$ le germe dans $\mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x)$) de l’application identique de $\mathbf{C}$.
 
 Notons S = Sp$_{A_{(\mathbf{C})}}(x)$. D’après le lemme ci-dessus, pour tout germe $f\in \mathscr{O}_{\mathbf{R}}$(Sp($x$)), on a $f(1\otimes x) =\overline{f(1 \otimes x)}$. La première assertion en résulte. Notons $z$ le germe dans $\mathscr{O}_{\mathbf{R}}(S)$ de l’application identique de $\mathbf{C}$. L’application $f\mapsto f(x)$ est un homomorphisme continu unifère de la $\mathbf{R}$-algèbre $\mathscr{O}_{\mathbf{R}}$(Sp($x$)) dans A, qui applique $z$ sur $x$. C’est le seul d’après la prop. 19, puisque tout morphisme ayant ces propriétés est déterminé de manière unique sur toute sous-$\mathbf{R}$-algèbre fermée pleine de $\mathscr{O}(S)$ contenant $z$.
 
-Soit $f\in \mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x))$. L’élément $f(x)$ appartient à toute sous-algèbre fermée pleine de A contenant $x$ (prop. 19), donc appartient au bicommutant de $x$ dans A. Le spectre complexe de $f(x)$ est égal à $f$(Sp($x$)) (I, p. 75, prop. 8). Pour tout $g\in \mathscr{O}_{\mathbf{R}}(f$(Sp$_{A_{(\mathbf{C})}}(x)))$, on a $g\circ f\in \mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x))$ et (loc. cit.) $(g\circ f)(x) =g(f(x))$.
+Soit $f\in \mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x)$). L’élément $f(x)$ appartient à toute sous-algèbre fermée pleine de A contenant $x$ (prop. 19), donc appartient au bicommutant de $x$ dans A. Le spectre complexe de $f(x)$ est égal à $f$(Sp($x$)) (I, p. 75, prop. 8). Pour tout $g\in \mathscr{O}_{\mathbf{R}}(f$(Sp$_{A_{(\mathbf{C})}}(x)$)), on a $g\circ f\in \mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x)$) et (loc. cit.) $(g\circ f)(x) =g(f(x))$.
 
 Soit U une partie ouverte de $\mathbf{C}$, stable par la conjugaison complexe. L’ensemble Ω des éléments $x$ de A dont le spectre complexe est contenu dans U est ouvert dans A (I, p. 76, prop. 10). Soit $f$ une fonction holomorphe sur U telle que $f^*=f$. L’application $x\mapsto f(x)$ de Ω dans A est analytique (loc. cit.).
 
-Soient A, B des algèbres associatives unifères normables complètes sur $\mathbf{R}$ et $\varphi : A\rightarrow$ B un morphisme d’algèbres unifère continu. Soit $x\in A$. Le spectre complexe de $\varphi (x)$ est contenu dans celui de $x$ et, pour tout $f\in \mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x))$, on a $f(\varphi (x)) =\varphi (f(x))$. Cela résulte aussitôt de l’énoncé analogue dans le cas complexe (I, p. 75, prop. 8).
+Soient A, B des algèbres associatives unifères normables complètes sur $\mathbf{R}$ et $\varphi : A\rightarrow$ B un morphisme d’algèbres unifère continu. Soit $x\in A$. Le spectre complexe de $\varphi (x)$ est contenu dans celui de $x$ et, pour tout $f\in \mathscr{O}_{\mathbf{R}}$(Sp$_{A_{(\mathbf{C})}}(x)$), on a $f(\varphi (x)) =\varphi (f(x))$. Cela résulte aussitôt de l’énoncé analogue dans le cas complexe (I, p. 75, prop. 8).
 
 ### 14. Cas d’une algèbre sans élément unité
 
 Soit A une algèbre normable complète non nécessairement unifère sur $K =\mathbf{R}$ ou $\mathbf{C}$. Notons $(\widetilde{A}, e)$ l’algèbre unifère déduite de A par adjonction d’un élément unité. Elle est normable et complète.
 
-Soit $x$ un élément de A. Si $K =\mathbf{C}$, notons Sp$'(x) =$ Sp$_{\widetilde{A}}(x)$ le spectre de $x$ relativement à $\widetilde{A}$, et considérons un germe $f\in \mathscr{O}$(Sp$'(x))$. Si $K =\mathbf{R}$, notons Sp$'(x)$ le spectre complexe de l’élément $x$ de $\widetilde{A}$, et considérons un germe $f\in \mathscr{O}_{\mathbf{R}}$(Sp$'(x))$. Dans ces deux cas, 0 appartient à Sp$'(x)$, et l’élément $f(x)$ de $\widetilde{A}$ appartient à A si et seulement si $f$ vérifie $f(0) = 0$. En effet, la projection $\pi :\widetilde{A}\rightarrow Ke$ est un morphisme continu dont le noyau est A, et l’on a $\pi (f(x)) =f(\pi (x)) =f(0)$.
+Soit $x$ un élément de A. Si $K =\mathbf{C}$, notons Sp$'(x) =$ Sp$_{\widetilde{A}}(x)$ le spectre de $x$ relativement à $\widetilde{A}$, et considérons un germe $f\in \mathscr{O}$(Sp$'(x)$). Si $K =\mathbf{R}$, notons Sp$'(x)$ le spectre complexe de l’élément $x$ de $\widetilde{A}$, et considérons un germe $f\in \mathscr{O}_{\mathbf{R}}$(Sp$'(x)$). Dans ces deux cas, 0 appartient à Sp$'(x)$, et l’élément $f(x)$ de $\widetilde{A}$ appartient à A si et seulement si $f$ vérifie $f(0) = 0$. En effet, la projection $\pi :\widetilde{A}\rightarrow Ke$ est un morphisme continu dont le noyau est A, et l’on a $\pi (f(x)) =f(\pi (x)) =f(0)$.
 
 ## EXERCICES {#ts-i-s4-exercises}
 

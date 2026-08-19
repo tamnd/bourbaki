@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: 4688ff565ca0892c40105efdc12811ab01ef97037389da651995d0923aab11c2
+content_sha256: fc469a596fe1d09bf5ebf4fa8e0d342aa984f2b391411a2237e7be8ccbf1c3f9
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -172,7 +172,7 @@ $$
 \rho (g, g')(u) =\pi (g')\circ u\circ \pi (g^{-1})
 $$
 
-L’isomorphisme de K-modules $\theta_V: V^*\otimes_KV\rightarrow$ End$_K(V)$ de II, p. 77, est un isomorphime de représentations du produit tensoriel externe $\pi^{\vee}\times \pi$ sur $\rho$. L’application $g\rightarrow \rho (1, g)$ (resp. $g\rightarrow \rho (g,1))$ est une représentation de G isomorphe à $\pi^{dim_KV}$ (resp. $(\pi^{\vee})^{dim_KV})$.
+L’isomorphisme de K-modules $\theta_V: V^*\otimes_KV\rightarrow$ End$_K(V)$ de II, p. 77, est un isomorphime de représentations du produit tensoriel externe $\pi^{\vee}\times \pi$ sur $\rho$. L’application $g\rightarrow \rho (1, g)$ (resp. $g\rightarrow \rho (g,1)$) est une représentation de G isomorphe à $\pi^{dim_KV}$ (resp. $(\pi^{\vee})^{dim_KV}$).
 
 Soit L une K-algèbre commutative et soit $(M, \pi )$ une représentation linéaire du groupe G. L’homomorphisme de groupes $\pi_{(L)}: G\rightarrow \mathbf{G}\mathbf{L}(M_{(L)})$ défini par $g\rightarrow$ Id$_L\otimes \pi (g)$ est une représentation linéaire de G dans le L-module $M_{(L)}$, appelée la représentation linéaire de G déduite de la représentation $\pi$ par extension à L de l’anneau K des scalaires.
 
@@ -248,11 +248,11 @@ Si $(V, \pi )$ est une représentation linéaire de G, la restriction de $\pi$ �
 
 Soit $(M, \sigma )$ une représentation de H.
 
-Considérons K[G] comme un $(K[G]$, K[H])-bimodule et M comme un K[H]module. Le K[G]-module $\mathscr{T}(M) = K[G]\otimes_{K[H]}M$ (VIII, p. 54) définit une représentation linéaire de G, notée Ind$^G_H(\sigma )$ et qu’on appelle la représentation de G induite par $\sigma$. Si $(V, \pi )$ est une représentation linéaire de G, le K[H]-module $\mathscr{H}(V) =$ Hom$_{K[G]}(K[G],V)$ s’identifie au K[H]-module correspondant à la représentation Res$^G_H(\pi )$. Par conséquent, le morphisme d’adjonction (VIII, p. 55) fournit un isomorphisme dit canonique de K-modules de Hom$_H(\sigma$, Res$^G_H(\pi ))$ sur Hom$_G$(Ind$^G_H(\sigma ), \pi )$ (« réciprocité de Frobenius »).
+Considérons K[G] comme un $(K[G]$, K[H])-bimodule et M comme un K[H]module. Le K[G]-module $\mathscr{T}(M) = K[G]\otimes_{K[H]}M$ (VIII, p. 54) définit une représentation linéaire de G, notée Ind$^G_H(\sigma )$ et qu’on appelle la représentation de G induite par $\sigma$. Si $(V, \pi )$ est une représentation linéaire de G, le K[H]-module $\mathscr{H}(V) =$ Hom$_{K[G]}(K[G],V)$ s’identifie au K[H]-module correspondant à la représentation Res$^G_H(\pi )$. Par conséquent, le morphisme d’adjonction (VIII, p. 55) fournit un isomorphisme dit canonique de K-modules de Hom$_H(\sigma$, Res$^G_H(\pi ))$ sur Hom$_G$(Ind$^G_H(\sigma ), \pi$ ) (« réciprocité de Frobenius »).
 
-Considérons K[G] comme un $(K[H]$, K[G])-bimodule. Le K[G]-module $\mathscr{H}(M) =$ Hom$_{K[H]}(K[G],M)$ définit une représentation de G, notée Coïnd$^G_H(\sigma )$ et qu’on appelle la représentation de G coïnduite par $\sigma$. Si $(V, \pi )$ est une représentation linéaire de G, le K[H]-module $\mathscr{T}(V) = K[G]\otimes_{K[G]}V$ s’identifie au K[H]-module correspondant à la représentation Res$^G_H(\pi )$. Par conséquent, le morphisme d’adjonction (loc. cit.) fournit un isomorphisme dit canonique de K-modules de Hom$_H$(Res$^G_H(\pi ), \sigma )$ sur Hom$_G(\pi$, Coïnd$^G_H(\sigma ))$.
+Considérons K[G] comme un $(K[H]$, K[G])-bimodule. Le K[G]-module $\mathscr{H}(M) =$ Hom$_{K[H]}(K[G],M)$ définit une représentation de G, notée Coïnd$^G_H(\sigma )$ et qu’on appelle la représentation de G coïnduite par $\sigma$. Si $(V, \pi )$ est une représentation linéaire de G, le K[H]-module $\mathscr{T}(V) = K[G]\otimes_{K[G]}V$ s’identifie au K[H]-module correspondant à la représentation Res$^G_H(\pi )$. Par conséquent, le morphisme d’adjonction (loc. cit.) fournit un isomorphisme dit canonique de K-modules de Hom$_H$(Res$^G_H(\pi ), \sigma$ ) sur Hom$_G(\pi$, Coïnd$^G_H(\sigma ))$.
 
-Soit $\varepsilon : K[G]\rightarrow K[H]$ l’homomorphisme de K-modules caractérisé par les relations $\varepsilon (h) =h$ si $h\in H$ et $\varepsilon (g) = 0$ si $g\in G$ - H. L’application $\varepsilon$ est un homomorphisme de $(K[H]$, K[H])-bimodules. Soit $(M, \sigma )$ une représentation linéaire de H. L’application $v\rightarrow v\circ \varepsilon$ de Hom$_{K[H]}(K[H],M)$ dans Hom$_{K[H]}(K[G],M)$ est un homomorphisme de K[H]-modules. En identifiant M avec Hom$_{K[H]}(K[H],M)$, on obtient un homomorphisme de K[H]-modules de M dans Res$^G_H$(Coïnd$^G_H(\sigma ))$. La réciprocité de Frobenius lui associe un homomorphisme $\iota$ de K[G]-modules de Ind$^G_H(\sigma )$ dans Coïnd$^G_H(\sigma )$ qui est caractérisé par les relations
+Soit $\varepsilon : K[G]\rightarrow K[H]$ l’homomorphisme de K-modules caractérisé par les relations $\varepsilon (h) =h$ si $h\in H$ et $\varepsilon (g) = 0$ si $g\in G$ - H. L’application $\varepsilon$ est un homomorphisme de $(K[H]$, K[H])-bimodules. Soit $(M, \sigma )$ une représentation linéaire de H. L’application $v\rightarrow v\circ \varepsilon$ de Hom$_{K[H]}(K[H],M)$ dans Hom$_{K[H]}(K[G],M)$ est un homomorphisme de K[H]-modules. En identifiant M avec Hom$_{K[H]}(K[H],M)$, on obtient un homomorphisme de K[H]-modules de M dans Res$^G_H$(Coïnd$^G_H(\sigma )$). La réciprocité de Frobenius lui associe un homomorphisme $\iota$ de K[G]-modules de Ind$^G_H(\sigma )$ dans Coïnd$^G_H(\sigma )$ qui est caractérisé par les relations
 
 $$
 \iota (g\otimes m)(g') =\varepsilon (g'g)m
@@ -334,7 +334,7 @@ D’après les relations (1) de VIII, p. 388 et (3) de VIII, p. 389 et la propri
 
 Si H est un sous-groupe de G, les homomorphismes $\Theta_G$ et $\Theta_H$ relatifs aux groupes G et H sont compatibles avec les opérations Res$^G_H$ et Ind$^G_H$ (VIII, p. 392 et VIII, p. 394, prop. 3).
 
-Supposons que G soit le produit $G'\times G''$ de deux groupes. D’après VIII, p. 209, remarque 2, Il existe une application $\mathbf{Z}$-linéaire $\kappa$ de $R_K(G')\otimes_{\mathbf{Z}}R_K(G'')$ dans le groupe $R_K(G'\times G'')$ caractérisée par les relations $\kappa ([\pi ']\otimes [\pi '']) = [\pi '_{\boxtimes}\pi '']$ pour $\pi '$ (resp. $\pi '')$ une représentation de $G'$ (resp. $G'')$ de dimension finie, $\pi '_{\boxtimes}\pi ''$ désignant leur produit tensoriel externe (VIII, p. 390, exemple 5). C’est un homomorphisme d’anneaux. Si le corps K est algébriquement clos, l’application $\kappa$ est un isomorphisme (VIII, p. 209, remarque 2).
+Supposons que G soit le produit $G'\times G''$ de deux groupes. D’après VIII, p. 209, remarque 2, Il existe une application $\mathbf{Z}$-linéaire $\kappa$ de $R_K(G')\otimes_{\mathbf{Z}}R_K(G'')$ dans le groupe $R_K(G'\times G'')$ caractérisée par les relations $\kappa ([\pi ']\otimes [\pi '']) = [\pi '_{\boxtimes}\pi '']$ pour $\pi '$ (resp. $\pi ''$) une représentation de $G'$ (resp. $G''$) de dimension finie, $\pi '_{\boxtimes}\pi ''$ désignant leur produit tensoriel externe (VIII, p. 390, exemple 5). C’est un homomorphisme d’anneaux. Si le corps K est algébriquement clos, l’application $\kappa$ est un isomorphisme (VIII, p. 209, remarque 2).
 
 Supposons que G soit le produit $G'\times G''$ de deux groupes. Notons $\psi$ l’homomorphisme de $\mathscr{Z}_K(G')\otimes_K\mathscr{Z}_K(G'')$ sur $\mathscr{Z}_K(G)$ qui transforme $f'\otimes f''$ en la fonction $(g', g'')\rightarrow f'(g')f''(g'')$. On a un diagramme commutatif
 
@@ -364,7 +364,7 @@ $$
 
 Notons $\widehat{\tau}$ la trace dans l’algèbre $F(\widehat{G})$. Soit $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ un élément de $F(\widehat{G})$; on a (cf. III, p. 111, exemple 3)
 
-(10) $\widehat{\tau}(A) =\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda})$.
+(10) $\widehat{\tau}(A) =\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda}$).
 
 Comme l’application $\overline{\mathscr{F}}$ est un isomorphisme de K-algèbres, on a $\widehat{\tau}\circ \overline{\mathscr{F}}=\tau$, d’où
 
@@ -390,7 +390,7 @@ Pour $a\in K[G]$, la relation (9) prend la forme suivante :
 
 il en résulte que, pour tout élément $A = (A_{\lambda})_{\lambda\in\widehat{G}}$ de $F(\widehat{G})$, on a
 
-(14) $\overline{\mathscr{F}}^{-1}(A) =|G|^{-1}\sum_{g\in G}\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda}\pi_{\lambda}(g^{-1}))g$.
+(14) $\overline{\mathscr{F}}^{-1}(A) =|G|^{-1}\sum_{g\in G}\sum_{\lambda\in\widehat{G}}d_{\lambda}$ Tr(A$_{\lambda}\pi_{\lambda}(g^{-1})$)$g$.
 
 (« Formule d’inversion de Fourier »).
 
@@ -512,11 +512,11 @@ C’est le cas particulier des relations (20) et (23), où les endomorphismes $u
 
 Soient $\pi$ et $\pi '$ des représentations linéaires de dimension finie de G. On a, dans le corps K,
 
-(29) $\langle \chi_{\pi}, \chi_{\pi'}\rangle_G=$ (dim$_K$ Hom$_G(\pi , \pi ')).1$.
+(29) $\langle \chi_{\pi}, \chi_{\pi'}\rangle_G=$ (dim$_K$ Hom$_G(\pi , \pi ')$)$.1$.
 
 Supposons d’abord que $\pi$ et $\pi '$ soient des représentations simples. L’espace vectoriel Hom$_G(\pi , \pi ')$ est de dimension 1 ou 0 suivant que $\pi$ et $\pi '$ sont isomorphes ou non (lemme de Schur, VIII, p. 43, prop. 2). La formule (29) résulte dans ce cas de la proposition 4.
 
-Dans le cas général, la représentation $\pi$ (resp. $\pi ')$ est somme directe de représentations simples $\pi_1, . . . , \pi_m$ (resp. $\pi '_1, . . . , \pi '_n)$. L’espace Hom$_G(\pi , \pi ')$ est isomorphe à la somme directe des espaces Hom$_G(\pi_i, \pi '_j)$, pour $1\leqslant i\leqslant m, 1\leqslant j\leqslant n$, et l’on a
+Dans le cas général, la représentation $\pi$ (resp. $\pi '$) est somme directe de représentations simples $\pi_1, . . . , \pi_m$ (resp. $\pi '_1, . . . , \pi '_n$). L’espace Hom$_G(\pi , \pi ')$ est isomorphe à la somme directe des espaces Hom$_G(\pi_i, \pi '_j)$, pour $1\leqslant i\leqslant m, 1\leqslant j\leqslant n$, et l’on a
 
 $$
 \chi_{\pi}=\chi_{\pi_1}+\cdots +\chi_{\pi_m},\chi_{\pi'}=\chi_{\pi'_1}+\cdots +\chi_{\pi'_n}
@@ -566,11 +566,11 @@ Soient $f$ une fonction centrale sur G et $u$ une fonction centrale sur H. On a
 
 Les caractères des représentations simples de G forment une base de Z(K[G]) (VIII, p. 401, prop. 5) et il en est de même pour H. Il suffit donc d’établir (33) dans le cas où $f$ est le caractère $\chi_{\pi}$ d’une représentation simple $\pi$ de G et $u$ le caractère $\chi_{\sigma}$ d’une représentation simple $\sigma$ de H. Dans ce cas, Ind$^G_H(u)$ est le caractère de la représentation Ind$^G_H(\sigma )$ de G et, d’après VIII, p. 400, corollaire, on a
 
-$\langle$Ind$^G_H(u), f\rangle_G=$ (dim$_K$ Hom$_G$(Ind$^G_H(\sigma ), \pi )).1$.
+$\langle$Ind$^G_H(u), f\rangle_G=$ (dim$_K$ Hom$_G$(Ind$^G_H(\sigma ), \pi$ ))$.1$.
 
 On établit de même la relation
 
-$\langle u$, Res$^G_H(f)\rangle_H=$ (dim$_K$ Hom$_H(\sigma$, Res$^G_H(\pi ))).1$
+$\langle u$, Res$^G_H(f)\rangle_H=$ (dim$_K$ Hom$_H(\sigma$, Res$^G_H(\pi )$))$.1$
 
 et l’égalité (33) résulte de la réciprocité de Frobenius.
 
@@ -592,7 +592,7 @@ $$
 u^{\natural}=|G|^{-1}\sum_{h\in G}\pi_{\lambda}(h)u \pi_{\lambda}(h^{-1}) \tag{35}
 $$
 
-L’endomorphisme $u^{\natural}$ de $V_{\lambda}$ est K[G]-linéaire ; d’après le lemme de Schur (VIII, p. 43, th. 1$),u^{\natural}$ est une homothétie ; comme $u$ et $u^{\natural}$ ont la même trace, on a donc
+L’endomorphisme $u^{\natural}$ de $V_{\lambda}$ est K[G]-linéaire ; d’après le lemme de Schur (VIII, p. 43, th. 1)$,u^{\natural}$ est une homothétie ; comme $u$ et $u^{\natural}$ ont la même trace, on a donc
 
 $u^{\natural}=d^{-1}_{\lambda}$ Tr($u$) $1_{V_{\lambda}}$.
 
@@ -632,7 +632,7 @@ pour $\lambda , \mu \in \widehat{G}$. En particulier, $a_{\lambda}a_{\mu}= 0$ d�
 
 Dans ce numéro, on suppose que le groupe G est commutatif.
 
-D’après le lemme de Schur (VIII, p. 44, cor. 1), toute représentation simple de G est de dimension 1. Soient $(M, \pi )$ une telle représentation et $\chi$ son caractère ; pour tout $g\in G$ et tout $x\in M$, on a $\pi (g)(x) =\chi (g)x$. Par suite, le caractère $\chi$ est un homomorphisme de G dans le groupe multiplicatif $K^*$ de K. Inversement, tout homomorphisme de G dans $K^*$ est le caractère d’une représentation de degré 1 de G. Ainsi l’ensemble $\widehat{G}$ des classes de K[G]-modules simples s’identifie à l’ensemble Hom(G$,K^*)$ des homomorphismes de G dans $K^*$. On en déduit une structure de groupe commutatif sur $\widehat{G}$; le produit dans $\widehat{G}$ correspond au produit tensoriel des représentations. Les groupes G et $\widehat{G}$ ont même cardinal d’après la prop. 5 de VIII, p. 401. Toute fonction sur G est centrale et $\widehat{G}$ est une base de l’espace vectoriel des applications de G dans K (loc. cit.). En vertu de la relation d’orthogonalité des caractères, une telle application $f$ se décompose sur la base $\widehat{G}$ de la manière suivante :
+D’après le lemme de Schur (VIII, p. 44, cor. 1), toute représentation simple de G est de dimension 1. Soient $(M, \pi )$ une telle représentation et $\chi$ son caractère ; pour tout $g\in G$ et tout $x\in M$, on a $\pi (g)(x) =\chi (g)x$. Par suite, le caractère $\chi$ est un homomorphisme de G dans le groupe multiplicatif $K^*$ de K. Inversement, tout homomorphisme de G dans $K^*$ est le caractère d’une représentation de degré 1 de G. Ainsi l’ensemble $\widehat{G}$ des classes de K[G]-modules simples s’identifie à l’ensemble Hom(G$,K^*$) des homomorphismes de G dans $K^*$. On en déduit une structure de groupe commutatif sur $\widehat{G}$; le produit dans $\widehat{G}$ correspond au produit tensoriel des représentations. Les groupes G et $\widehat{G}$ ont même cardinal d’après la prop. 5 de VIII, p. 401. Toute fonction sur G est centrale et $\widehat{G}$ est une base de l’espace vectoriel des applications de G dans K (loc. cit.). En vertu de la relation d’orthogonalité des caractères, une telle application $f$ se décompose sur la base $\widehat{G}$ de la manière suivante :
 
 $$
 f=\sum_{\chi\in\widehat{G}}\langle \chi , f\rangle_G\chi \tag{39}
@@ -654,7 +654,7 @@ en vertu de la relation (19).
 
 #### Remarque {#alg-viii-s21-n9-rem-1 .statement tag=00NX}
 
-Soit $n$ le cardinal du groupe G et soit $\mu_n(K)$ le groupe des racines $n$-èmes de l’unité dans K. Pour tout $g\in G$, on a $g^n= 1$; par suite, $\widehat{G}$ s’identifie au groupe Hom(G$, \mu_n(K))$. Le groupe $\mu_n(K)$ est cyclique d’ordre $n$ (V, p. 75, th. 1). Le groupe $\widehat{G}$ est donc isomorphe au groupe D(G) = Hom(G$,\mathbf{Q}/\mathbf{Z})$. D’après VII, p. 25, prop. 10, le groupe $\widehat{G}$ est isomorphe au groupe G et l’application qui, à tout élément $g$ de G, associe l’homomorphisme $\chi \rightarrow \chi (g)$ de $\widehat{G}$ dans $K^*$ est un isomorphisme de G sur $\widehat{G}$.
+Soit $n$ le cardinal du groupe G et soit $\mu_n(K)$ le groupe des racines $n$-èmes de l’unité dans K. Pour tout $g\in G$, on a $g^n= 1$; par suite, $\widehat{G}$ s’identifie au groupe Hom(G$, \mu_n(K)$). Le groupe $\mu_n(K)$ est cyclique d’ordre $n$ (V, p. 75, th. 1). Le groupe $\widehat{G}$ est donc isomorphe au groupe D(G) = Hom(G$,\mathbf{Q}/\mathbf{Z}$). D’après VII, p. 25, prop. 10, le groupe $\widehat{G}$ est isomorphe au groupe G et l’application qui, à tout élément $g$ de G, associe l’homomorphisme $\chi \rightarrow \chi (g)$ de $\widehat{G}$ dans $K^*$ est un isomorphisme de G sur $\widehat{G}$.
 
 ### 10. Caractères et groupes de Grothendieck
 
@@ -676,7 +676,7 @@ Notons $n$ le cardinal du groupe G. Soit $\pi$ une représentation linéaire de 
 
 Supposons le corps K de caractéristique nulle. Alors le degré de toute représentation simple de G divise le cardinal de G.
 
-Soient $(V, \pi )$ une représentation simple de G et $\chi$ son caractère. Pour tout élément $a$ de Z(K[G]), l’endomorphisme $\pi (a)$ de V est une homothétie (VIII, p. 43, th. 1) ; notons $\varphi (a)$ le scalaire tel que $\pi (a) =\varphi (a)_V$. L’application $\varphi$ de Z(K[G]) dans K ainsi définie est un homomorphisme d’algèbres. Prenons $a=\sum_{g\in G}\chi (g^{-1})g$; d’après la remarque de VIII, p. 398, on a $\varphi (a) =$ (dim $V)^{-1}|G|$. D’autre part $a$ appartient au sous-anneau $\mathscr{O}_n[G]\cap Z(K[G])$ de K[G], qui est un $\mathbf{Z}$-module de type fini (VII, p. 15, cor.). Ainsi l’élément $\varphi (a) =$ (dim $V)^{-1}|G|$ de K appartient à un sous-anneau de K qui est un $\mathbf{Z}$-module de type fini. On conclut à l’aide du lemme suivant :
+Soient $(V, \pi )$ une représentation simple de G et $\chi$ son caractère. Pour tout élément $a$ de Z(K[G]), l’endomorphisme $\pi (a)$ de V est une homothétie (VIII, p. 43, th. 1) ; notons $\varphi (a)$ le scalaire tel que $\pi (a) =\varphi (a)_V$. L’application $\varphi$ de Z(K[G]) dans K ainsi définie est un homomorphisme d’algèbres. Prenons $a=\sum_{g\in G}\chi (g^{-1})g$; d’après la remarque de VIII, p. 398, on a $\varphi (a) =$ (dim $V$)$^{-1}|G|$. D’autre part $a$ appartient au sous-anneau $\mathscr{O}_n[G]\cap Z(K[G])$ de K[G], qui est un $\mathbf{Z}$-module de type fini (VII, p. 15, cor.). Ainsi l’élément $\varphi (a) =$ (dim $V$)$^{-1}|G|$ de K appartient à un sous-anneau de K qui est un $\mathbf{Z}$-module de type fini. On conclut à l’aide du lemme suivant :
 
 #### Lemme {#alg-viii-s21-n11-lem-1 .statement tag=00O0}
 
@@ -688,9 +688,9 @@ Nous étendrons au numéro suivant la proposition 9 au cas où l’on suppose se
 
 ### 12. Changement de corps de base
 
-Conservons les notations du numéro précédent. Soit $K'$ un corps algébriquement clos tel que l’élément $n.1$ de $K'$ ne soit pas nul. Les groupes $\mu_n(K)$ et $\mu_n(K')$ sont cycliques d’ordre $n$ (V, p. 75, th. 1). Choisissons un isomorphisme $\varphi$ de $\mu_n(K)$ sur $\mu_n(K')$. Soit $\pi$ une représentation linéaire de G dans un K-espace vectoriel de dimension finie et soit $\pi '$ une représentation linéaire de G dans un $K'$-espace vectoriel de dimension finie. On dira que $\pi$ et $\pi '$ sont apparentées (par $\varphi )$ si pour tout $g\in G$ et tout $\omega \in \mu_n$(K), la multiplicité de $\omega$ comme valeur propre de $\pi (g)$ est égale à la multiplicité de $\varphi (\omega )$ comme valeur propre de $\pi '(g)$. S’il en est ainsi, $\pi$ et $\pi '$ ont même dimension, comme on le voit en prenant $g= 1$.
+Conservons les notations du numéro précédent. Soit $K'$ un corps algébriquement clos tel que l’élément $n.1$ de $K'$ ne soit pas nul. Les groupes $\mu_n(K)$ et $\mu_n(K')$ sont cycliques d’ordre $n$ (V, p. 75, th. 1). Choisissons un isomorphisme $\varphi$ de $\mu_n(K)$ sur $\mu_n(K')$. Soit $\pi$ une représentation linéaire de G dans un K-espace vectoriel de dimension finie et soit $\pi '$ une représentation linéaire de G dans un $K'$-espace vectoriel de dimension finie. On dira que $\pi$ et $\pi '$ sont apparentées (par $\varphi$ ) si pour tout $g\in G$ et tout $\omega \in \mu_n$(K), la multiplicité de $\omega$ comme valeur propre de $\pi (g)$ est égale à la multiplicité de $\varphi (\omega )$ comme valeur propre de $\pi '(g)$. S’il en est ainsi, $\pi$ et $\pi '$ ont même dimension, comme on le voit en prenant $g= 1$.
 
-Soient $\pi_1$ et $\pi_2$ (resp. $\pi '_1$ et $\pi '_2)$ des représentations linéaires de G dans des espaces vectoriels de dimension finie sur K (resp. $K')$. On a les propriétés suivantes :
+Soient $\pi_1$ et $\pi_2$ (resp. $\pi '_1$ et $\pi '_2$) des représentations linéaires de G dans des espaces vectoriels de dimension finie sur K (resp. $K'$). On a les propriétés suivantes :
 
 a) Si $\pi_1$ est apparentée à $\pi '_1$ et $\pi '_2$, alors $\pi '_1$ et $\pi '_2$ sont isomorphes ;
 
@@ -708,7 +708,7 @@ L’unicité de $\varphi_G$ résulte de la propriété a) ci-dessus.
 
 A) Supposons le corps K de caractéristique 0.
 
-Le groupe $\mu_n(K)$ est cyclique (V, p. 75, th. 1) ; choisissons un générateur $\zeta$ de ce groupe. Considérons l’homomorphisme d’anneaux $\rho : \mathbf{Z}[X]\rightarrow \mathscr{O}_n$ qui applique X sur $\zeta$. Il est surjectif. Le polynôme cyclotomique $\Phi_n(X)$ est irréductible dans $\mathbf{Q}[X]$ (V, p. 80, th. 2) ; c’est donc le polynôme minimal de $\zeta$ sur $\mathbf{Q}$. Le polynôme $\Phi_n$ est un polynôme unitaire à coefficients entiers (V, p. 78). Soit $P\in \mathbf{Z}[X]$ un polynôme tel que $P(\zeta ) = 0$; d’après la division euclidienne des polynômes (IV, p. 10), il existe deux polynômes Q et R de $\mathbf{Z}[X]$ tels que P = QΦ$_n+ R$ et deg(R) $<$ deg(Φ$_n)$. On a $R(\zeta ) = 0$, donc R = 0 puisque $\Phi_n$ est le polynôme minimal de $\zeta$. Par conséquent, le noyau de $\rho$ est l’idéal $\Phi_n\mathbf{Z}[X]$ de $\mathbf{Z}[X]$ et $\rho$ induit un isomorphisme d’anneaux de $\mathbf{Z}[X]/\Phi_n\mathbf{Z}[X]$ sur $\mathscr{O}_n$.
+Le groupe $\mu_n(K)$ est cyclique (V, p. 75, th. 1) ; choisissons un générateur $\zeta$ de ce groupe. Considérons l’homomorphisme d’anneaux $\rho : \mathbf{Z}[X]\rightarrow \mathscr{O}_n$ qui applique X sur $\zeta$. Il est surjectif. Le polynôme cyclotomique $\Phi_n(X)$ est irréductible dans $\mathbf{Q}[X]$ (V, p. 80, th. 2) ; c’est donc le polynôme minimal de $\zeta$ sur $\mathbf{Q}$. Le polynôme $\Phi_n$ est un polynôme unitaire à coefficients entiers (V, p. 78). Soit $P\in \mathbf{Z}[X]$ un polynôme tel que $P(\zeta ) = 0$; d’après la division euclidienne des polynômes (IV, p. 10), il existe deux polynômes Q et R de $\mathbf{Z}[X]$ tels que P = QΦ$_n+ R$ et deg(R) $<$ deg(Φ$_n$). On a $R(\zeta ) = 0$, donc R = 0 puisque $\Phi_n$ est le polynôme minimal de $\zeta$. Par conséquent, le noyau de $\rho$ est l’idéal $\Phi_n\mathbf{Z}[X]$ de $\mathbf{Z}[X]$ et $\rho$ induit un isomorphisme d’anneaux de $\mathbf{Z}[X]/\Phi_n\mathbf{Z}[X]$ sur $\mathscr{O}_n$.
 
 Posons $\zeta '=\varphi (\zeta )$; c’est une racine primitive $n$-ème de l’unité dans $K'$, et l’on a donc $\Phi_n(\zeta ') = 0$ (V, p. 80, lemme 3). Par suite, il existe un homomorphisme $\varphi_0$ de l’anneau $\mathscr{O}_n$ dans le corps $K'$ qui transforme $\zeta$ en $\zeta '$; il prolonge l’application $\varphi$ de $\mu_n(K)$ dans $\mu_n(K')$. Soit $\mathscr{O}$ le sous-anneau de K formé des éléments $\frac{a}{n^r}$ avec $a\in \mathscr{O}_n$ et $r\in \mathbf{N}$. Comme $n.1$ est inversible dans $K'$, l’homomorphisme $\varphi_0$ se prolonge en un homomorphisme $\varphi_1$ de $\mathscr{O}$ dans $K'$.
 
@@ -752,7 +752,7 @@ Il en résulte que la famille des $\Phi (e_{\lambda})$ est une partition de l’
 
 Pour $\lambda '$ dans $\mathscr{S}_{K'}$(G), définissons comme ci-dessus $\chi_{\lambda'},d_{\lambda'}$ et $e_{\lambda'}$. D’après VIII, p. 398, les éléments $e_{\lambda'}$ sont les idempotents indécomposables de $Z(K'[G])$. Il existe donc une bijection $\varphi_G$ de $\mathscr{S}_K(G)$ sur $\mathscr{S}_{K'}(G)$ telle que $\Phi (e_{\lambda}) =e_{\varphi_G(\lambda)}$ pour tout $\lambda$ dans $\mathscr{S}_K(G)$.
 
-Soit $\lambda$ dans $\mathscr{S}_K(G)$; posons $\lambda '=\varphi_G(\lambda )$. Soit $(V_{\lambda}, \pi_{\lambda})$ (resp. $(V_{\lambda'}, \pi_{\lambda'}))$ une représentation linéaire de G dont le K[G]-module (resp. $K'$[G]-module) associé soit de classe $\lambda$ (resp. $\lambda ')$. Démontrons que $\lambda$ et $\lambda '$ sont apparentées. Soit $g$ un élément de G. Soit $\delta (T)$ le déterminant de l’endomorphisme $1 + T\pi_{\lambda}(g)$ du K[T]-module $K[T]\otimes_KV_{\lambda}$. Soient $\omega_1, . . . , \omega_{d_{\lambda}}$ les valeurs propres de $\pi_{\lambda}(g)$; on a
+Soit $\lambda$ dans $\mathscr{S}_K(G)$; posons $\lambda '=\varphi_G(\lambda )$. Soit $(V_{\lambda}, \pi_{\lambda})$ (resp. $(V_{\lambda'}, \pi_{\lambda'})$) une représentation linéaire de G dont le K[G]-module (resp. $K'$[G]-module) associé soit de classe $\lambda$ (resp. $\lambda '$). Démontrons que $\lambda$ et $\lambda '$ sont apparentées. Soit $g$ un élément de G. Soit $\delta (T)$ le déterminant de l’endomorphisme $1 + T\pi_{\lambda}(g)$ du K[T]-module $K[T]\otimes_KV_{\lambda}$. Soient $\omega_1, . . . , \omega_{d_{\lambda}}$ les valeurs propres de $\pi_{\lambda}(g)$; on a
 
 $$
 \delta (T) = (1 + T\omega_1). . .(1 + T\omega_{d_{\lambda}})
@@ -770,7 +770,7 @@ Ceci étant prouvé pour tout élément $g$ de G, les représentations $\lambda$
 
 B) Cas général.
 
-Soit L un corps algébriquement clos de caractéristique 0 (par exemple, une clôture algébrique de $\mathbf{Q})$. Notons $\mathscr{S}_L(G)$ l’ensemble des classes de L[G]-modules simples. Choisissons un isomorphisme $\eta$ du groupe $\mu_n(L)$ sur le groupe $\mu_n(K)$ et posons $\eta '=\varphi \circ \eta$. D’après la partie A) de la démonstration, il existe des bijections
+Soit L un corps algébriquement clos de caractéristique 0 (par exemple, une clôture algébrique de $\mathbf{Q}$). Notons $\mathscr{S}_L(G)$ l’ensemble des classes de L[G]-modules simples. Choisissons un isomorphisme $\eta$ du groupe $\mu_n(L)$ sur le groupe $\mu_n(K)$ et posons $\eta '=\varphi \circ \eta$. D’après la partie A) de la démonstration, il existe des bijections
 
 $$
 \eta_G:\mathscr{S}_L(G)\rightarrow \mathscr{S}_K(G), \eta '_G:\mathscr{S}_L(G)\rightarrow \mathscr{S}_{K'}(G)
@@ -798,7 +798,7 @@ Cela résulte de la prop. 10 et de la prop. 9 de VIII, p. 405.
 
 #### Remarque 2 {#alg-viii-s21-n12-rem-2 .statement tag=00O5}
 
-Supposons le groupe G commutatif. On a vu dans la remarque de VIII, p. 404 que $\mathscr{S}_K(G)$ s’identifie à l’ensemble Hom(G$, \mu_n(K))$. De manière analogue, $\mathscr{S}_{K'}(G)$ s’identifie à Hom(G$, \mu_n(K'))$. Avec ces identifications, la bijection $\varphi_G$ n’est autre que l’application $\chi \rightarrow \varphi \circ \chi$.
+Supposons le groupe G commutatif. On a vu dans la remarque de VIII, p. 404 que $\mathscr{S}_K(G)$ s’identifie à l’ensemble Hom(G$, \mu_n(K)$). De manière analogue, $\mathscr{S}_{K'}(G)$ s’identifie à Hom(G$, \mu_n(K')$). Avec ces identifications, la bijection $\varphi_G$ n’est autre que l’application $\chi \rightarrow \varphi \circ \chi$.
 
 #### Remarque 3 {#alg-viii-s21-n12-rem-3 .statement tag=00O6}
 
@@ -806,7 +806,7 @@ Soient $\pi_1$ et $\pi_2$ des représentations linéaires de G dans des espaces 
 
 (47) dim$_K$ Hom$_K(\pi_1, \pi_2) =$ dim$_{K'}$ Hom$_{K'}(\pi '_1, \pi '_2)$.
 
-Cela se démontre comme dans le corollaire de VIII, p. 400 par réduction au cas où les $\pi_i$ (et donc les $\pi '_i)$ sont simples.
+Cela se démontre comme dans le corollaire de VIII, p. 400 par réduction au cas où les $\pi_i$ (et donc les $\pi '_i$) sont simples.
 
 #### Remarque 4 {#alg-viii-s21-n12-rem-4 .statement tag=00O7}
 
@@ -886,7 +886,7 @@ $$
 \langle f|f'\rangle_G=|G|^{-2}\tau (f^*f') \tag{53}
 $$
 
-Soit $(M, \pi )$ une représentation linéaire de G, de dimension finie. Munissons l’espace vectoriel M d’une structure d’espace hilbertien pour laquelle les endomorphismes $\pi (g)$ sont unitaires (prop. 11). Si l’on note $A^*$ l’adjoint d’un endomorphisme A de M pour cette structure, on a Tr(A$^*) =$ Tr(A). Pour tout $g\in G$, on a $\pi (g^{-1}) =\pi (g)^*$ d’où $\chi_{\pi}(g^{-1}) =\chi_{\pi}(g)$; autrement dit, on a $\chi_{\pi}=\chi^*_{\pi}$. La relation d’orthogonalité des caractères (VIII, p. 400, prop. 4) prend alors la forme
+Soit $(M, \pi )$ une représentation linéaire de G, de dimension finie. Munissons l’espace vectoriel M d’une structure d’espace hilbertien pour laquelle les endomorphismes $\pi (g)$ sont unitaires (prop. 11). Si l’on note $A^*$ l’adjoint d’un endomorphisme A de M pour cette structure, on a Tr(A$^*$) $=$ Tr(A). Pour tout $g\in G$, on a $\pi (g^{-1}) =\pi (g)^*$ d’où $\chi_{\pi}(g^{-1}) =\chi_{\pi}(g)$; autrement dit, on a $\chi_{\pi}=\chi^*_{\pi}$. La relation d’orthogonalité des caractères (VIII, p. 400, prop. 4) prend alors la forme
 
 $$
 \langle \chi_{\lambda}|\chi_{\mu}\rangle_G=\delta_{\lambda \mu} \tag{54}
@@ -904,7 +904,7 @@ $$
 
 D’après la formule (10) de VIII, p. 397, on a
 
-(56) $\langle A|A'\rangle_{\widehat{G}}=\frac{1}{||^2}\sum d_{\lambda}$ Tr(A$^*_{\lambda}A'_{\lambda})$.
+(56) $\langle A|A'\rangle_{\widehat{G}}=\frac{1}{||^2}\sum d_{\lambda}$ Tr(A$^*_{\lambda}A'_{\lambda}$).
 
 G $_{\lambda\in\widehat{G}}$
 

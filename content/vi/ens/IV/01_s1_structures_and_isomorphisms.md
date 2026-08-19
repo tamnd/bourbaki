@@ -42,9 +42,9 @@ subsections:
       pdf_page: 273
 statements: 16
 exercises: 1
-content_sha256: 66e5edbbcc9a03739e974e175afdf07e7ae6784e9969ab5e9b3af07089f28ec6
+content_sha256: ebf3ec2a495700ac37decd3fc1b917d55359cc43006ffbca5a15cd47dcbe787e
 translated_from: content/en/ens/IV/01_s1_structures_and_isomorphisms.md
-source_content_sha256: a2b6b1e0980a04a6377f294c5a6ade9f2bf86acc3b4c864aecd5d4b55e557903
+source_content_sha256: de7318f61d5fc652f9c0bae9f51aa21b36eb7c5f41b68e31d48196596059814b
 translation_model: gpt-5.4
 translation_run: translate-vi-f5e8ffb2
 glossary_version: 29
@@ -308,7 +308,7 @@ Loài các cấu trúc không gian vectơ trên $\mathbf{C}$ (resp. $\mathbf{R}$
 
 $$s_1 \in \mathfrak{P}((\mathrm{E} \times \mathrm{E}) \times \mathrm{E}) \quad \text{và} \quad s_2 \in \mathfrak{P}((\mathbf{C} \times \mathrm{E}) \times \mathrm{E})$$
 
-(resp. $\quad s_1 \in \mathfrak{P}((\mathrm{E} \times \mathrm{E}) \times \mathrm{E}) \quad \text{và} \quad s_2 \in \mathfrak{P}((\mathbf{R} \times \mathrm{E}) \times \mathrm{E}))$.
+(resp. $\quad s_1 \in \mathfrak{P}((\mathrm{E} \times \mathrm{E}) \times \mathrm{E}) \quad \text{và} \quad s_2 \in \mathfrak{P}((\mathbf{R} \times \mathrm{E}) \times \mathrm{E})$).
 
 Cặp $(s_1, s_2 \cap ((\mathbf{R} \times \mathrm{E}) \times \mathrm{E}))$ là một thủ tục suy diễn một cấu trúc không gian vectơ trên $\mathbf{R}$ từ một cấu trúc không gian vectơ trên $\mathbf{C}$ ("hạn chế trường vô hướng xuống $\mathbf{R}$"). ∗
 

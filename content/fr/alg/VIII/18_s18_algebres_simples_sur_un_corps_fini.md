@@ -21,7 +21,7 @@ subsections:
       pdf_page: 351
 statements: 10
 exercises: 7
-content_sha256: 843a3069858897a275212a1758a95f1eb0f8c287b92443c15f26d765a9bb6652
+content_sha256: 4a3665769341896938cf5ab02cd1625e8f5ca23306ce8b8a01d6b6dd5895335a
 ---
 
 ## § 18. ALGÈBRES SIMPLES SUR UN CORPS FINI
@@ -130,7 +130,7 @@ D’après le cor. de VIII, p. 348 tout corps fini possède la propriété $(C_1
 
 – tout corps de fractions rationnelles en une indéterminée à coefficients dans un corps algébriquement clos (théorème de Tsen). – $*$tout corps muni d’une valuation discrète, pour laquelle il est complet, et dont le
 
-corps résiduel est algébriquement clos (VIII, p. 327, exerc. 17$).*$
+corps résiduel est algébriquement clos (VIII, p. 327, exerc. 17)$.*$
 
 #### Remarque 3 {#alg-viii-s18-n2-rem-3 .statement tag=00LI}
 

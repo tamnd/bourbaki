@@ -33,14 +33,14 @@ subsections:
       pdf_page: 21
 statements: 25
 exercises: 11
-content_sha256: 5b584839e476edf0035dab9849c9becb4157f0e8dabbf1ed0d66b8cbfe03fa9c
+content_sha256: 6b3a7f44b594659cd25df9f6c944977706304b56c54522de1260ddcaf18891f2
 ---
 
 ## § 1. PRIMARY DECOMPOSITION OF LINEAR REPRESENTATIONS
 
 ### 1. DECOMPOSITION OF A FAMILY OF ENDOMORPHISMS
 
-Let V be a vector space, S a set, and $r$ a map from S to End(V). Denote by P the set of maps from S to $k$. If $\lambda \in P$, denote by $V_{\lambda}(S)$ (resp. $V^{\lambda}(S))$ the set of $v\in V$ such that, for all $s\in S,r(s)v=\lambda (s)v$ (resp. $(r(s)-\lambda (s))^nv= 0$ for $n$ sufficiently large). The sets $V_{\lambda}(S)$ and $V^{\lambda}(S)$ are vector subspaces of V, and $V_{\lambda}(S)\subset V^{\lambda}(S)$. We say that $V_{\lambda}(S)$ is the eigenspace of V relative to $\lambda$ (and to $r)$, that $V^{\lambda}(S)$ is the primary subspace of V relative to $\lambda$ (and to $r)$, and that $V^0(S)$ is the nilspace of V (relative to $r)$. We say that $\lambda$ is a weight of S in V if $V^{\lambda}(S)\not= 0$.
+Let V be a vector space, S a set, and $r$ a map from S to End(V). Denote by P the set of maps from S to $k$. If $\lambda \in P$, denote by $V_{\lambda}(S)$ (resp. $V^{\lambda}(S)$) the set of $v\in V$ such that, for all $s\in S,r(s)v=\lambda (s)v$ (resp. $(r(s)-\lambda (s))^nv= 0$ for $n$ sufficiently large). The sets $V_{\lambda}(S)$ and $V^{\lambda}(S)$ are vector subspaces of V, and $V_{\lambda}(S)\subset V^{\lambda}(S)$. We say that $V_{\lambda}(S)$ is the eigenspace of V relative to $\lambda$ (and to $r$), that $V^{\lambda}(S)$ is the primary subspace of V relative to $\lambda$ (and to $r$), and that $V^0(S)$ is the nilspace of V (relative to $r$). We say that $\lambda$ is a weight of S in V if $V^{\lambda}(S)\not= 0$.
 
 In particular, if S reduces to a single element $s, P$ can be identified with $k$; we use the notations $V_{\lambda(s)}(s)$ and $V^{\lambda(s)}(s)$, or $V_{\lambda(s)}(r(s))$ and $V^{\lambda(s)}(r(s))$, instead of $V_{\lambda}(\{s\}), V^{\lambda}(\{s\})$; we speak of eigenspaces, primary subspaces and the nilspace of $r(s)$; an element $v$ of $V_{\lambda(s)}(s)$ is called an eigenvector of $r(s)$, and, if $v\not= 0,\lambda (s)$ is called the corresponding eigenvalue (cf. Algebra, Chap. VII, §5).
 
@@ -78,9 +78,9 @@ which implies the proposition.
 
 #### Proposition 2 {#lie-vii-s1-prop-2 .statement tag=00SK}
 
-Let $V,V',W$ be vector spaces. Let $r$ : S $\rightarrow$ End(V), $r': S\rightarrow$ End(V$')$ and $q: S\rightarrow$ End(W) be maps.
+Let $V,V',W$ be vector spaces. Let $r$ : S $\rightarrow$ End(V), $r': S\rightarrow$ End(V$'$) and $q: S\rightarrow$ End(W) be maps.
 
-(i) Let $f: V\rightarrow W$ be a linear map such that $q(s)f(v) =f(r(s)v)$ for $s\in S$ and $v\in V$. Then, for all $\lambda \in P,f$ maps $V^{\lambda}(S)$ (resp. $V_{\lambda}(S))$ into $W^{\lambda}(S)$ (resp. $W_{\lambda}(S))$.
+(i) Let $f: V\rightarrow W$ be a linear map such that $q(s)f(v) =f(r(s)v)$ for $s\in S$ and $v\in V$. Then, for all $\lambda \in P,f$ maps $V^{\lambda}(S)$ (resp. $V_{\lambda}(S)$) into $W^{\lambda}(S)$ (resp. $W_{\lambda}(S)$).
 
 (ii) Let $B : V\times V'\rightarrow W$ be a bilinear map such that
 
@@ -88,7 +88,7 @@ $$
 q(s)B(v, v') = B(r(s)v, v') + B(v, r'(s)v')
 $$
 
-for $s\in S,v\in V,v'\in V'$. Then, for all $\lambda , \mu\in P$, B maps $V^{\lambda}(S)\times {V'}^\mu(S)$ (resp. $V_{\lambda}(S)\times V'_\mu(S))$ into $W^{\lambda+\mu}(S)$ (resp. $W_{\lambda+\mu}(S))$.
+for $s\in S,v\in V,v'\in V'$. Then, for all $\lambda , \mu\in P$, B maps $V^{\lambda}(S)\times {V'}^\mu(S)$ (resp. $V_{\lambda}(S)\times V'_\mu(S)$) into $W^{\lambda+\mu}(S)$ (resp. $W_{\lambda+\mu}(S)$).
 
 (iii) Let $B : V\times V'\rightarrow W$ be a bilinear map such that
 
@@ -96,7 +96,7 @@ $$
 q(s)B(v, v') = B(r(s)v, r'(s)v')
 $$
 
-for $s\in S,v\in V,v'\in V'$. Then, for all $\lambda , \mu\in P$, B maps $V^{\lambda}(S)\times {V'}^\mu(S)$ (resp. $V_{\lambda}(S)\times V'_\mu(S))$ into $W^{\lambda \mu}(S)$ (resp. $W_{\lambda \mu}(S))$.
+for $s\in S,v\in V,v'\in V'$. Then, for all $\lambda , \mu\in P$, B maps $V^{\lambda}(S)\times {V'}^\mu(S)$ (resp. $V_{\lambda}(S)\times V'_\mu(S)$) into $W^{\lambda \mu}(S)$ (resp. $W_{\lambda \mu}(S)$).
 
 In case (i), $(q(s)-\lambda (s))^nf(v) =f((r(s)-\lambda (s))^nv)$ for $s\in S$ and $v\in V$, hence the conclusion. In case (ii),
 
@@ -160,31 +160,31 @@ Let $x, y\in$ End(V).
 
 (i) Assume that V is finite dimensional. Then $x$ is triangularizable if and only if $V =\sum_{a\in k}V^a(x)$.
 
-(ii) If there exists an integer $n$ such that (ad $x)^ny= 0$, each $V^a(x)$ is stable under $y$.
+(ii) If there exists an integer $n$ such that (ad $x$)$^ny= 0$, each $V^a(x)$ is stable under $y$.
 
 (iii) Assume that V is finite dimensional. If $V =\sum_{a\in k}V^a(x)$ and if each
 
-$V^a(x)$ is stable under $y$, there exists an integer $n$ such that (ad $x)^ny= 0$.
+$V^a(x)$ is stable under $y$, there exists an integer $n$ such that (ad $x$)$^ny= 0$.
 
 Part (i) follows from Algebra, Chap. VII, §5, no. 2, Prop. 3.
 
 Let E = End(V). Let B be the bilinear map $(u, v) \rightarrow u(v)$ from $E\times V$ to V. By the definition of ad $x$,
 
-$x(B(u, v)) =B(u, x(v)) +$ B((ad $x)(u), v)$
+$x(B(u, v)) =B(u, x(v)) +$ B((ad $x$)$(u), v$)
 
-for $x\in E,u\in E,v\in V$. Let $x$ operate on E via ad $x$. By Prop. 2 (ii), $B(E^0(x),V^a(x))\subset V^a(x)$ for all $a\in k$. If (ad $x)^ny= 0$, then $y\in E^0(x)$, so $y(V^a(x))\subset V^a(x)$, which proves (ii).
+for $x\in E,u\in E,v\in V$. Let $x$ operate on E via ad $x$. By Prop. 2 (ii), $B(E^0(x),V^a(x))\subset V^a(x)$ for all $a\in k$. If (ad $x$)$^ny= 0$, then $y\in E^0(x)$, so $y(V^a(x))\subset V^a(x)$, which proves (ii).
 
-To prove (iii), we can replace V by $V^a(x)$ and $x$ (resp. $y)$ by its restriction to $V^a(x)$. Replacing $x$ by $x-a$, we can assume that $x$ is nilpotent. Then, (ad $x)^{2 dim V-1}= 0$ (Chap. I, §4, no. 2), which proves (iii).
+To prove (iii), we can replace V by $V^a(x)$ and $x$ (resp. $y$) by its restriction to $V^a(x)$. Replacing $x$ by $x-a$, we can assume that $x$ is nilpotent. Then, (ad $x$)$^{2 dim V-1}= 0$ (Chap. I, §4, no. 2), which proves (iii).
 
 #### Remark {#lie-vii-s1-n1-rem-1 .statement tag=00SN}
 
-The argument proves that, if V is finite dimensional and if there exists an integer $n$ such that (ad $x)^ny= 0$, then (ad $x)^{2 dim V-1}y= 0$.
+The argument proves that, if V is finite dimensional and if there exists an integer $n$ such that (ad $x$)$^ny= 0$, then (ad $x$)$^{2 dim V-1}y= 0$.
 
 In the sequel, we shall say that the map $r: S\rightarrow$ End(V) satisfies condition (AC) (“almost commutative”) if:
 
 (AC) For every pair $(s, s')$ of elements of S, there exists an integer $n$ such that
 
-(ad $r(s))^nr(s') = 0$.
+(ad $r(s)$)$^nr(s') = 0$.
 
 #### Theorem 1 {#lie-vii-s1-thm-1 .statement tag=00SO}
 
@@ -206,7 +206,7 @@ $b)$ There exists $s\in S$ such that $r(s)$ has at least two distinct eigenvalue
 
 Assume that V is finite dimensional and that condition (AC) is satisfied. Let $k'$ be an extension of $k$. Assume that, for all $s\in S$, the endomorphism $r(s)\otimes 1$ of $V\otimes_kk'$ is triangularizable. Let $P'$ be the set of maps from S to $k'$. Then $V\otimes_kk'=\sum_{\lambda'\in P'}(V\otimes_kk')^{\lambda'}(S)$.
 
-Let $r': S\rightarrow$ End(V$\otimes_kk')$ be the map defined by $r$. If $s_1, s_2\in S$, there exists an integer $n$ such that (ad $r(s_1))^nr(s_2) = 0$, hence (ad $r'(s_1))^nr'(s_2) = 0$. It now suffices to apply Th. 1.
+Let $r': S\rightarrow$ End(V$\otimes_kk'$) be the map defined by $r$. If $s_1, s_2\in S$, there exists an integer $n$ such that (ad $r(s_1)$)$^nr(s_2) = 0$, hence (ad $r'(s_1)$)$^nr'(s_2) = 0$. It now suffices to apply Th. 1.
 
 #### Corollary 2 {#lie-vii-s1-thm-1-cor-2 .statement tag=00SQ}
 
@@ -240,7 +240,7 @@ We sometimes call $(V^0(S),V^+(S))$ the Fitting decomposition of V, or of the ma
 
 #### Corollary 3 {#lie-vii-s1-thm-1-cor-3 .statement tag=00SR}
 
-Let V and $V'$ be finite dimensional vector spaces, and let $r: S\rightarrow$ End(V) and $r': S\rightarrow$ End(V$')$ be maps satisfying condition (AC). Let $f: V\rightarrow V'$ be a surjective linear map such that $f(r(s)v) =r'(s)f(v)$ for $s\in S$ and $v\in V$. Then $f(V^{\lambda}{(S)) = V'}^{\lambda}(S)$ for all $\lambda \in P$.
+Let V and $V'$ be finite dimensional vector spaces, and let $r: S\rightarrow$ End(V) and $r': S\rightarrow$ End(V$'$) be maps satisfying condition (AC). Let $f: V\rightarrow V'$ be a surjective linear map such that $f(r(s)v) =r'(s)f(v)$ for $s\in S$ and $v\in V$. Then $f(V^{\lambda}{(S)) = V'}^{\lambda}(S)$ for all $\lambda \in P$.
 
 In view of Prop. 1, we are reduced to the case in which $k$ is algebraically closed. We have $V =\bigoplus_{\lambda\in P}V^{\lambda}$(S), $V'=\bigoplus_{\lambda\in P}{V'}^{\lambda}(S)$ by Th. 1, and $V'=f(V) =$ $\sum_{\lambda\in P}f(V^{\lambda}(S))$. Finally, $f(V^{\lambda}(S))\subset {V'}^{\lambda}(S)$ by Prop. 2 (i), hence the corollary.
 
@@ -294,17 +294,17 @@ Assume that condition (AC) is satisfied, and let $\lambda : S\rightarrow k$ be s
 
 Since $V^{\lambda}(S)$ is stable under $r(S)$ (Lemma 1 and formula (1) of no. 1), we can assume that $V = V^{\lambda}(S)$. Let $n=$ dim V. Thus, for $s\in S$,
 
-det(X $-r(s)) = (X-\lambda (s))^n$.
+det(X $-r(s)$) $= (X-\lambda (s))^n$.
 
 On the other hand, the expansion of the determinant shows that
 
-det(X $-r(s)) = X^n+a_1(s)X^{n-1}+\cdots +a_i(s)X^{n-i}+\cdots$
+det(X $-r(s)$) $= X^n+a_1(s)X^{n-1}+\cdots +a_i(s)X^{n-i}+\cdots$
 
 where $a_i: S\rightarrow k$ is a homogeneous polynomial function of degree $i$. Write $n=qm$ where $q$ is a power of the characteristic exponent of $k$ and $(q, m) = 1$. Then $(X-\lambda (s))^n= (X^q-\lambda (s)^q)^m$; hence $-m\lambda (s)^q=a_q(s)$, which implies the result.
 
 #### Proposition 6 {#lie-vii-s1-prop-6 .statement tag=00SU}
 
-Assume that $k$ is infinite and that condition (AC) is satisfied. Let $k'$ be an extension of $k$. Put $V'= V\otimes_kk',S'= S\otimes_kk'$. Let $r': S'\rightarrow$ End(V$')$ be the map obtained from $r$ by extension of scalars. Then
+Assume that $k$ is infinite and that condition (AC) is satisfied. Let $k'$ be an extension of $k$. Put $V'= V\otimes_kk',S'= S\otimes_kk'$. Let $r': S'\rightarrow$ End(V$'$) be the map obtained from $r$ by extension of scalars. Then
 
 $$
 V^0(S)\otimes_kk'{= V'}^0{(S) = V'}^0(S')
@@ -328,7 +328,7 @@ Assume that $k$ is infinite and that condition (AC) is satisfied. Let $\widetild
 
 The fact that $s \rightarrow P(s)$ is polynomial follows from the linearity of $r$. If $s\in S, V^0(s)\supset V^0$(S), with equality if and only if $r(s)$ defines an automorphism of $V/V^0$(S), hence (i).
 
-Now let $k'$ be an algebraic closure of $k$, and introduce $V',S', r'$ as in Prop. 6. We remark that $S'$ satisfies condition (AC) by continuation of the polynomial identity (ad $r(s_1))^{2 dim V-1}r(s_2) = 0$ valid for $s_1, s_2\in S$ (no. 1, Remark ). Applying Th.1, we deduce a decomposition
+Now let $k'$ be an algebraic closure of $k$, and introduce $V',S', r'$ as in Prop. 6. We remark that $S'$ satisfies condition (AC) by continuation of the polynomial identity (ad $r(s_1)$)$^{2 dim V-1}r(s_2) = 0$ valid for $s_1, s_2\in S$ (no. 1, Remark ). Applying Th.1, we deduce a decomposition
 
 $$
 V'{= V'}^0(S')\oplus \sum_{i=1}^m{V'}^{\lambda_i}(S')
@@ -372,7 +372,7 @@ Let $\mathfrak{h}$ be a nilpotent Lie algebra and M a finite dimensional $\mathf
 
 (v) If N is a finite dimensional $\mathfrak{h}$-module, and B a bilinear form on $M\times N$ invariant under $\mathfrak{h}$, then $M^{\lambda}(\mathfrak{h})$ and $N^\mu(\mathfrak{h})$ are orthogonal relative to B if $\lambda +\mu\not= 0$. Moreover, if B is non-degenerate then so is its restriction to $M^{\lambda}(\mathfrak{h})\times N^{-\lambda}(\mathfrak{h})$ for all $\lambda \in P$.
 
-Part (i) follows from no. 1, Lemma 1 and Th. 1. Part (ii) follows from no. 2, Prop. 7. Part (iv) follows from no. 1, Cor. 3 of Th. 1. We prove (iii). We can assume that $M = M^{\lambda}(\mathfrak{h})$. Then, for all $x\in \mathfrak{h},\lambda (x) =$ (dim $M)^{-1}$Tr($x_M$); this proves that $\lambda$ is linear (which also follows from Prop. 5) and that $\lambda$ vanishes on $[\mathfrak{h},\mathfrak{h}]$. Consider the map $\rho :\mathfrak{h}\rightarrow$ End$_k(M)$ defined by
+Part (i) follows from no. 1, Lemma 1 and Th. 1. Part (ii) follows from no. 2, Prop. 7. Part (iv) follows from no. 1, Cor. 3 of Th. 1. We prove (iii). We can assume that $M = M^{\lambda}(\mathfrak{h})$. Then, for all $x\in \mathfrak{h},\lambda (x) =$ (dim $M$)$^{-1}$Tr($x_M$); this proves that $\lambda$ is linear (which also follows from Prop. 5) and that $\lambda$ vanishes on $[\mathfrak{h},\mathfrak{h}]$. Consider the map $\rho :\mathfrak{h}\rightarrow$ End$_k(M)$ defined by
 
 $$
 \rho (x) =x_M-\lambda (x)1_M
@@ -390,7 +390,7 @@ $$
 _2(ab)
 $$
 
-let M be the $\mathfrak{h}$-module $k$ (for the identity map of $\mathfrak{h})$. If $x=$ is an
+let M be the $\mathfrak{h}$-module $k$ (for the identity map of $\mathfrak{h}$). If $x=$ is an
 
 $$
 ca
@@ -434,11 +434,11 @@ Let $\mathfrak{g}$ be a Lie algebra, $\mathfrak{h}$ a nilpotent subalgebra of $\
 
 The map $(x, y) \rightarrow [x, y]$ from $\mathfrak{g}\times \mathfrak{g}$ to $\mathfrak{g}$ is $\mathfrak{g}$-invariant by the Jacobi identity, hence $\mathfrak{h}$-invariant. The first part of (i) thus follows from Prop. 2 (ii). Part (ii) is proved similarly.
 
-If $x$ belongs to the normalizer of $\mathfrak{g}^0(\mathfrak{h})$ in $\mathfrak{g}$, (ad $y).x=-[x, y]\in \mathfrak{g}^0(\mathfrak{h})$ for all $y\in \mathfrak{h}$, so (ad $y)^n.x= 0$ for $n$ sufficiently large. This proves that $x\in \mathfrak{g}^0(\mathfrak{h})$. Assertion (i) is now completely proved.
+If $x$ belongs to the normalizer of $\mathfrak{g}^0(\mathfrak{h})$ in $\mathfrak{g}$, (ad $y$)$.x=-[x, y]\in \mathfrak{g}^0(\mathfrak{h})$ for all $y\in \mathfrak{h}$, so (ad $y$)$^n.x= 0$ for $n$ sufficiently large. This proves that $x\in \mathfrak{g}^0(\mathfrak{h})$. Assertion (i) is now completely proved.
 
 Assertion (iii) follows from Prop. 9 (v).
 
-To prove (iv), we can assume that $k$ is algebraically closed. Let $x\in \mathfrak{g}^{\lambda}(\mathfrak{h})$, with $\lambda \not= 0$. For all $\mu\in P$ and any integer $n\geq 0$, (ad $x)^n\mathfrak{g}^\mu(\mathfrak{h})\subset \mathfrak{g}^{\mu+n\lambda}(\mathfrak{h})$; let $P_1$ be the finite set of $\mu\in P$ such that $\mathfrak{g}^\mu(\mathfrak{h})\not= 0$; if $k$ is of characteristic 0 and $\lambda \not= 0, (P_1+n\lambda )\cap P_1=\emptyset$ for $n$ sufficiently large, so (ad $x)^n= 0$.
+To prove (iv), we can assume that $k$ is algebraically closed. Let $x\in \mathfrak{g}^{\lambda}(\mathfrak{h})$, with $\lambda \not= 0$. For all $\mu\in P$ and any integer $n\geq 0$, (ad $x$)$^n\mathfrak{g}^\mu(\mathfrak{h})\subset \mathfrak{g}^{\mu+n\lambda}(\mathfrak{h})$; let $P_1$ be the finite set of $\mu\in P$ such that $\mathfrak{g}^\mu(\mathfrak{h})\not= 0$; if $k$ is of characteristic 0 and $\lambda \not= 0, (P_1+n\lambda )\cap P_1=\emptyset$ for $n$ sufficiently large, so (ad $x$)$^n= 0$.
 
 #### Lemma 2 {#lie-vii-s1-lem-2 .statement tag=00T1}
 
@@ -450,25 +450,25 @@ Assume that $k$ is of characteristic 0. Let $\mathfrak{g}$ be a semi-simple Lie 
 
 Then $\mathfrak{m}$ is reductive in $\mathfrak{g}$ (Chap. I, § 6, no. 6).
 
-By Chap. I, §6, no. 4, Prop. $5d),\mathfrak{m}$ is reductive. Let $\mathfrak{c}$ be the centre of $\mathfrak{m}$. If $x\in \mathfrak{c}$ is nilpotent, then $x= 0$; indeed, for all $y\in \mathfrak{m}$, ad $x$ and ad $y$ commute, their composition ad $x\circ$ ad $y$ is nilpotent, and $B(x, y) = 0$, so $x= 0$. Now let $x$ be an arbitrary element of $\mathfrak{c}$; let $s$ and $n$ be its semi-simple and nilpotent components. We have $n\in \mathfrak{m}$. Since ad $n$ is of the form P(ad $x)$, where P is a polynomial with no constant term, (ad $n).\mathfrak{m}= 0$ and so $n\in \mathfrak{c}$, and then $n= 0$ by the above. Thus ad $x$ is semi-simple. Consequently, the restriction to $\mathfrak{m}$ of the adjoint representation of $\mathfrak{g}$ is semi-simple (Chap. I, §6, no. 5, Th. $4b))$.
+By Chap. I, §6, no. 4, Prop. $5d),\mathfrak{m}$ is reductive. Let $\mathfrak{c}$ be the centre of $\mathfrak{m}$. If $x\in \mathfrak{c}$ is nilpotent, then $x= 0$; indeed, for all $y\in \mathfrak{m}$, ad $x$ and ad $y$ commute, their composition ad $x\circ$ ad $y$ is nilpotent, and $B(x, y) = 0$, so $x= 0$. Now let $x$ be an arbitrary element of $\mathfrak{c}$; let $s$ and $n$ be its semi-simple and nilpotent components. We have $n\in \mathfrak{m}$. Since ad $n$ is of the form P(ad $x$), where P is a polynomial with no constant term, (ad $n$)$.\mathfrak{m}= 0$ and so $n\in \mathfrak{c}$, and then $n= 0$ by the above. Thus ad $x$ is semi-simple. Consequently, the restriction to $\mathfrak{m}$ of the adjoint representation of $\mathfrak{g}$ is semi-simple (Chap. I, §6, no. 5, Th. $4b$)$)$.
 
 #### Proposition 11 {#lie-vii-s1-prop-11 .statement tag=00T2}
 
 Assume that $k$ is of characteristic 0. Let $\mathfrak{g}$ be a semi-simple Lie algebra, $\mathfrak{h}$ a nilpotent subalgebra of $\mathfrak{g}$. The algebra $\mathfrak{g}^0(\mathfrak{h})$ satisfies conditions (1) and (2) of Lemma 2 ; it is reductive in $\mathfrak{g}$.
 
-$^1$ By Chap. I, §6, no. 3, Th. 3, every $x\in \mathfrak{g}$ can be written uniquely as the sum of a semi-simple element $s$ and a nilpotent element $n$ that commute with each other; the element $s$ (resp. $n)$ is called the semi-simple (resp. nilpotent) component of $x$.
+$^1$ By Chap. I, §6, no. 3, Th. 3, every $x\in \mathfrak{g}$ can be written uniquely as the sum of a semi-simple element $s$ and a nilpotent element $n$ that commute with each other; the element $s$ (resp. $n$) is called the semi-simple (resp. nilpotent) component of $x$.
 
 Let $x, x'\in \mathfrak{g},s$ and $s'$ their semi-simple components, $n$ and $n'$ their nilpotent components. We have
 
-$x'\in \mathfrak{g}^0(x)\Leftarrow \Rightarrow$ (ad $s)(x') = 0$ (Prop$.4)$
+$x'\in \mathfrak{g}^0(x)\Leftarrow \Rightarrow$ (ad $s$)$(x') = 0$ (Prop$.4$)
 
-$\Leftarrow \Rightarrow$ (ad $x')(s) = 0$
+$\Leftarrow \Rightarrow$ (ad $x'$)$(s) = 0$
 
-$=\Rightarrow$ (ad $s')(s) = 0$
+$=\Rightarrow$ (ad $s'$)$(s) = 0$
 
-$\Leftarrow \Rightarrow$ (ad $s)(s') = 0$
+$\Leftarrow \Rightarrow$ (ad $s$)$(s') = 0$
 
-$\Leftarrow \Rightarrow s'\in \mathfrak{g}^0(x)$ (Prop$.4)$
+$\Leftarrow \Rightarrow s'\in \mathfrak{g}^0(x)$ (Prop$.4$)
 
 so $x'\in \mathfrak{g}^0(x)\Rightarrow n'\in \mathfrak{g}^0(x)$ and (2) is proved. The Killing form of $\mathfrak{g}$ is non-degenerate, so its restriction to $\mathfrak{g}^0(\mathfrak{h})$ is non-degenerate (Prop. 10 (iii)). The fact that $\mathfrak{g}^0(\mathfrak{h})$ is reductive in $\mathfrak{g}$ thus follows from Lemma 2.
 

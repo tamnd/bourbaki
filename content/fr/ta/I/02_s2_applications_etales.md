@@ -37,7 +37,7 @@ subsections:
       pdf_page: 56
 statements: 47
 exercises: 7
-content_sha256: d56d6dec873cc71578a9856bfb9cb08a6786fae65c2f104ad6998c35015db16d
+content_sha256: fdeb72dfbd6bf4e4d9e524bce744200385f12476c65d18d6e4df15e0dab945b5
 ---
 
 ## § 2. APPLICATIONS ÉTALES
@@ -56,7 +56,7 @@ Soient X et Y des espaces topologiques et soit $f: X\rightarrow$ Y une applicati
 
 (i)$\Rightarrow$(ii) : Soient $g_1,g_2$ des applications continues de W dans X telles que $f\circ g_1=f\circ g_2$, et $g: W\rightarrow X\times_YX$ l’application déduite de $g_1$ et $g_2$. L’ensemble des points $w\in W$ tels que $g_1(w) =g_2(w)$ est $\overset{-1}{g}(\Delta_X)$. Puisque $g$ est continue, il est donc fermé si la diagonale $\Delta_X$ est fermée.
 
-(ii)$\Rightarrow$(i) : La diagonale $\Delta_X$ est l’ensemble des points $z\in X\times_YX$ tels que pr$_1(z) =$ pr$_2(z)$. Il résulte de (ii) appliqué à $W = X\times_YX$ et au couple d’applications (pr$_1$, pr$_2)$ que la diagonale $\Delta_X$ est fermée dans $X\times_YX$.
+(ii)$\Rightarrow$(i) : La diagonale $\Delta_X$ est l’ensemble des points $z\in X\times_YX$ tels que pr$_1(z) =$ pr$_2(z)$. Il résulte de (ii) appliqué à $W = X\times_YX$ et au couple d’applications (pr$_1$, pr$_2$) que la diagonale $\Delta_X$ est fermée dans $X\times_YX$.
 
 (i)$\Leftrightarrow$(iii) : Soit $(x_1, x_2)$ un point de $X\times_YX$ et soient $V_1$ et $V_2$ des voisinages de $x_1$ et $x_2$ respectivement. La condition $V_1\cap V_2=\emptyset$ équivaut à la condition $(V_1\times V_2)\cap \Delta_X=\emptyset$, c’est-à-dire à $(V_1\times V_2)\cap$ $(X\times_YX)\cap \Delta_X=\emptyset$. Puisque les ensembles $(V_1\times V_2)\cap (X\times_YX)$ forment une base de voisinages de $(x_1, x_2)$ dans $X\times_YX$, cela prouve l’équivalence de (i) et (iii).
 
@@ -458,7 +458,7 @@ Il reste à démontrer que W est un voisinage de A dans B. Pour tout couple $(j,
 
 #### Théorème 3 {#ta-i-s2-thm-3 .statement tag=01NO}
 
-Soient E et B des espaces topologiques et $p: E\rightarrow B$ une application étale et séparée. On suppose que E est connexe et que B est localement connexe. Soit $\mathscr{W}$ une base de la topologie de B. Alors, pour tout point $a$ de B, on a Card(E$_a)\leqslant$ sup(Card($\mathscr{W}$), Card($\mathbf{N}$)).
+Soient E et B des espaces topologiques et $p: E\rightarrow B$ une application étale et séparée. On suppose que E est connexe et que B est localement connexe. Soit $\mathscr{W}$ une base de la topologie de B. Alors, pour tout point $a$ de B, on a Card(E$_a$)$\leqslant$ sup(Card($\mathscr{W}$), Card($\mathbf{N}$)).
 
 Comme l’espace B est localement connexe, sa topologie possède une base $\mathscr{W}'$ constituée d’ouverts connexes, par exemple les composantes connexes des ouverts de $\mathscr{W}$ (TG, I, p. 85, prop. 11). En vertu du lemme 4 ci-dessous, il existe une base $\mathscr{V}$ de la topologie de B composée d’ouverts connexes et telle que Card($\mathscr{V}$)$\leqslant$ Card($\mathscr{W}$)$^2$.
 
@@ -492,7 +492,7 @@ Démontrons maintenant le théorème. Soit U un élément de $\mathscr{U}$ et so
 
 L’application de C dans $\mathscr{U}$ qui, à $c= (U_0, . . . ,U_n)\in C$, associe l’ouvert $U_n$ est surjective d’après la deuxième partie du lemme 5, donc (2) Card($\mathscr{U}$)$\leqslant$ Card(C).
 
-Pour tout point $x$ de E, choisissons un ensemble ouvert $U_x$ de $\mathscr{U}$ tel que $x\in U_x$. Si $x$ et $y$ sont des points distincts d’une même fibre $E_a$ de $p$, on a $U_x= U\not_y$ puisque $p|U_x$ est injective. On a donc, pour $a\in B$, (3) Card(E$_a)\leqslant$ Card($\mathscr{U}$).
+Pour tout point $x$ de E, choisissons un ensemble ouvert $U_x$ de $\mathscr{U}$ tel que $x\in U_x$. Si $x$ et $y$ sont des points distincts d’une même fibre $E_a$ de $p$, on a $U_x= U\not_y$ puisque $p|U_x$ est injective. On a donc, pour $a\in B$, (3) Card(E$_a$)$\leqslant$ Card($\mathscr{U}$).
 
 Enfin, si $\mathscr{V}$ est un ensemble fini, l’ensemble S des suites finies d’éléments de $\mathscr{V}$ est dénombrable (E, III, p. 49, prop. 1), donc
 

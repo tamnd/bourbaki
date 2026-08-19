@@ -57,7 +57,7 @@ subsections:
       pdf_page: 407
 statements: 50
 exercises: 7
-content_sha256: de676bd12e93c36a7a43ea62abdb0605fe18579e9cd1c1cbb3777f19712ff59b
+content_sha256: f726e03f3b54fde20fbf232d411e2fb131f747f965d9916e72230a9841b4b611
 ---
 
 ## § 1. REPRÉSENTATIONS UNITAIRES
@@ -124,7 +124,7 @@ qui est également dit canonique.
 
 Soient $\varrho_1$ et $\varrho_2$ des représentations linéaires de G dans des K-espaces vectoriels topologiques $E_1$ et $E_2$. Pour $u\in \mathscr{L}(E_1; E_2)$ et $g\in G$, on pose $\varrho (g)u=\varrho_2(g)\circ u\circ \varrho_1(g^{-1})$. L’application $g\mapsto \varrho (g)$ est une représentation linéaire de G dans $\mathscr{L}(E_1; E_2)$. L’espace des éléments invariants de cette représentation coïncide avec Hom$_G(\varrho_1, \varrho_2)$.
 
-Soit $\varrho$ une représentation linéaire continue de G dans un espace localement convexe E. Rappelons (INT, VIII, p. 131, § 2, n$^o2)$ que la représentation contragrédiente $\breve{\varrho}$ de $\varrho$ est la représentation linéaire de G dans le dual $E'$ de E définie par $\breve{\varrho}(g) =^t\varrho (g^{-1})$.
+Soit $\varrho$ une représentation linéaire continue de G dans un espace localement convexe E. Rappelons (INT, VIII, p. 131, § 2, n$^o2$) que la représentation contragrédiente $\breve{\varrho}$ de $\varrho$ est la représentation linéaire de G dans le dual $E'$ de E définie par $\breve{\varrho}(g) =^t\varrho (g^{-1})$.
 
 ### 2. Un critère de continuité
 
@@ -134,7 +134,7 @@ Le résultat suivant permet de vérifier que certaines représentations linéair
 
 Soient G et H des groupes topologiques et E un espace de Banach. Soient $\varrho$ une représentation bornée de G dans E et $\pi$ une représentation bornée de H dans E. Supposons que $\varrho (g)$ est permutable à $\pi (h)$ pour tout $(g, h)\in G\times H$. L’application $\varpi$ de $G\times H$ dans $\mathbf{G}\mathbf{L}(E)$ définie par $(g, h)\mapsto \varrho (g)\circ \pi (h)$ est une représentation linéaire continue et bornée de $G\times H$ dans E.
 
-L’application $\varpi$ est une représentation linéaire de $G\times H$ dans E ; vérifions qu’elle est continue. Comme $\|\varpi (g, h)\|\leqslant \|\varrho (g)\|\|\pi (h)\|$ pour tout $(g, h)\in G\times H$, la représentation $\varpi$ est bornée, donc son image est équicontinue dans $\mathscr{L}(E)$. Il suffit alors de démontrer que, pour tout $x\in E$, l’application $(g, h)\mapsto \varpi (g, h)x$ est continue (remarque 2 de INT, VIII, p. 129, § 2, n$^o1)$. Soit $(g_0, h_0)\in G\times H$. Posons $y=\pi (h_0)x$. Pour tout $(g, h)\in G\times H$, il vient
+L’application $\varpi$ est une représentation linéaire de $G\times H$ dans E ; vérifions qu’elle est continue. Comme $\|\varpi (g, h)\|\leqslant \|\varrho (g)\|\|\pi (h)\|$ pour tout $(g, h)\in G\times H$, la représentation $\varpi$ est bornée, donc son image est équicontinue dans $\mathscr{L}(E)$. Il suffit alors de démontrer que, pour tout $x\in E$, l’application $(g, h)\mapsto \varpi (g, h)x$ est continue (remarque 2 de INT, VIII, p. 129, § 2, n$^o1$). Soit $(g_0, h_0)\in G\times H$. Posons $y=\pi (h_0)x$. Pour tout $(g, h)\in G\times H$, il vient
 
 $$
 \|\varpi (g, h)x-\varpi (g_0, h_0)x\|\leqslant \|\varrho (g)(\pi (h)x-y)\|+\|\varrho (g)y-\varrho (g_0)y\|
@@ -276,7 +276,7 @@ $$
 
 donc $u=\varrho_2(g)\circ u\circ \varrho_1(g^{-1})$. Par conséquent, $u\in$ Hom$_G(\varrho_2, \varrho_1)$. La proposition en résulte.
 
-Soit $\varrho$ une représentation unitaire d’un groupe topologique G dans un espace hilbertien E. Si $K =\mathbf{C}$, notons E l’espace conjugué de E (EVT, V, p. 6). Si $K =\mathbf{R}$, posons E = E. La représentation conjuguée $\overline{\varrho}$ est la représentation de G dans E définie par $\overline{\varrho}(g) =\varrho (g)$ pour tout $g\in G$. C’est une représentation unitaire de G ; par définition, un sous-espace de E est une sous-représentation de E si et seulement si c’est une sous-représentation de E.
+Soit $\varrho$ une représentation unitaire d’un groupe topologique G dans un espace hilbertien E. Si $K =\mathbf{C}$, notons $\overline{E}$ l’espace conjugué de E (EVT, V, p. 6). Si $K =\mathbf{R}$, posons $\overline{E}= E$. La représentation conjuguée $\overline{\varrho}$ est la représentation de G dans $\overline{E}$ définie par $\overline{\varrho}(g) =\varrho (g)$ pour tout $g\in G$. C’est une représentation unitaire de G ; par définition, un sous-espace de $\overline{E}$ est une sous-représentation de $\overline{E}$ si et seulement si c’est une sous-représentation de E.
 
 #### Proposition 2 {#ts-v-s1-prop-2 .statement tag=038X}
 
@@ -288,7 +288,7 @@ b) Munissons $E'$ de la structure d’espace hilbertien obtenue par transport de
 
 D’après EVT, V, p. 15, th. 3 et remarque suivante, l’application $u$ est un isomorphisme isométrique.
 
-Pour tout $g$ dans G, tout $x$ dans E et tout $y$ dans E, on a
+Pour tout $g$ dans G, tout $x$ dans $\overline{E}$ et tout $y$ dans E, on a
 
 $$
 \langle y,( \breve{\varrho}(g)\circ u)(x)\rangle =\langle \varrho (g^{-1})y, u(x)\rangle
@@ -334,7 +334,7 @@ $$
 
 et comme $\varrho (g)(p(x))$ appartient à F et $\varrho (g)y$ à $F^{\circ}$ (prop. 3), on a $p(\varrho (g)x) =\varrho (g)(p(x))$. Donc $p$ appartient à Hom$_G(\varrho , \varrho )$.
 
-Réciproquement, si $p\in$ Hom$_G(\varrho , \varrho )$ alors $1_E-p$ est un G-morphisme, donc F = Ker(1$_E-p)$ est une sous-représentation de $\varrho$.
+Réciproquement, si $p\in$ Hom$_G(\varrho , \varrho )$ alors $1_E-p$ est un G-morphisme, donc F = Ker(1$_E-p$) est une sous-représentation de $\varrho$.
 
 ### 6. Somme directe hilbertienne et produit tensoriel de représentations unitaires
 
@@ -354,7 +354,7 @@ D’après le lemme 4 de V, p. 380, il suffit de démontrer que pour tout $i$ da
 
 La représentation $\varrho$ est appelée somme hilbertienne des représentations unitaires $(\varrho_i)_{i\in I}$; on la note $\varrho =\bigoplus_{i\in I}\varrho_i$.
 
-Soient G et H des groupes topologiques. Soit $\varrho_1$ (resp. $\varrho_2)$ une représentation unitaire de G (resp. H) dans un espace hilbertien $E_1$ (resp. $E_2)$. Soit $E = E_1\widehat{\otimes}_2E_2$ l’espace hilbertien produit tensoriel de $E_1$ et $E_2$ (EVT, V, p. 28, déf. 1). Pour $(g, h)\in G\times H$, soit $\varrho (g, h)$ l’endomorphisme continu $\varrho_1(g)\widehat{\otimes}_2\varrho_2(h)$ de E (EVT, V, p. 28) ; on le notera simplement $\varrho_1(g)\otimes \varrho_2(h)$ lorsqu’aucune ambiguïté ne sera à craindre.
+Soient G et H des groupes topologiques. Soit $\varrho_1$ (resp. $\varrho_2$) une représentation unitaire de G (resp. H) dans un espace hilbertien $E_1$ (resp. $E_2$). Soit $E = E_1\widehat{\otimes}_2E_2$ l’espace hilbertien produit tensoriel de $E_1$ et $E_2$ (EVT, V, p. 28, déf. 1). Pour $(g, h)\in G\times H$, soit $\varrho (g, h)$ l’endomorphisme continu $\varrho_1(g)\widehat{\otimes}_2\varrho_2(h)$ de E (EVT, V, p. 28) ; on le notera simplement $\varrho_1(g)\otimes \varrho_2(h)$ lorsqu’aucune ambiguïté ne sera à craindre.
 
 #### Lemme 8 {#ts-v-s1-lem-8 .statement tag=0392}
 
@@ -548,7 +548,7 @@ Soit $\pi$ une représentation unitaire irréductible d’un groupe topologique 
 
 #### Remarque {#ts-v-s1-n8-rem-1 .statement tag=039E}
 
-Soit $\pi$ (resp. $\varrho )$ une représentation unitaire irréductible d’un groupe topologique G (resp. H) dans un espace hilbertien E (resp. F). Notons $\chi$ (resp. $\eta )$ le caractère central de $\pi$ (resp. $\varrho )$. Le caractère central de la représentation $\overline{\pi}$ est $\overline{\chi}$, et le caractère central de la représentation unitaire irréductible $\pi \boxtimes \varrho$ de $G\times H$ (cor. 6) est le caractère $\chi \boxtimes \eta : (g, h)\mapsto \chi (g)\eta (h)$ de $G\times H$.
+Soit $\pi$ (resp. $\varrho$ ) une représentation unitaire irréductible d’un groupe topologique G (resp. H) dans un espace hilbertien E (resp. F). Notons $\chi$ (resp. $\eta$ ) le caractère central de $\pi$ (resp. $\varrho$ ). Le caractère central de la représentation $\overline{\pi}$ est $\overline{\chi}$, et le caractère central de la représentation unitaire irréductible $\pi \boxtimes \varrho$ de $G\times H$ (cor. 6) est le caractère $\chi \boxtimes \eta : (g, h)\mapsto \chi (g)\eta (h)$ de $G\times H$.
 
 ### 9. Semi-simplicité
 
@@ -598,7 +598,7 @@ Soit E un espace hilbertien sur K. Soit $F\subset E$ un sous-espace vectoriel de
 
 Si E est de dimension hilbertienne finie, celle-ci est égale à la dimension de E. Supposons que E est de dimension hilbertienne infinie. Le sous-espace F est alors de dimension infinie. Soit B une base orthonormale de E et soit $B'$ une base de F. Pour tout $x\in B$, il existe un élément $f(x)\in B'$ tel que $\langle x|f(x)\rangle  \not = 0$, puisque dans le cas contraire on aurait $x\in F^{\circ}=\{0\}$. On définit ainsi une application $f: B\rightarrow B'$.
 
-Pour tout $y\in B'$, l’ensemble $\overset{-1}{f}(y)$ est contenu dans l’ensemble des $x\in B$ tels que $\langle x|y\rangle  \not = 0$, donc est dénombrable (EVT, V, p. 21, prop. 4). Par E, III, p. 50, prop. 4, on obtient Card(B) = Card($f(B)$)$\leqslant$ Card(B$')$.
+Pour tout $y\in B'$, l’ensemble $\overset{-1}{f}(y)$ est contenu dans l’ensemble des $x\in B$ tels que $\langle x|y\rangle  \not = 0$, donc est dénombrable (EVT, V, p. 21, prop. 4). Par E, III, p. 50, prop. 4, on obtient Card(B) = Card($f(B)$)$\leqslant$ Card(B$'$).
 
 Notons $Is_G(\pi_1, \pi_2)$ la relation
 
@@ -616,7 +616,7 @@ un espace hilbertien complexe de dimension hilbertienne $\leqslant \mathfrak{c}$
 
 est collectivisante en $\lambda$ (E, II, p. 3). En effet, tout espace hilbertien sur K de dimension $\leqslant \mathfrak{c}$ est isométriquement isomorphe à un sous-espace hilbertien de $\ell^2(\mathfrak{c})$ (EVT, V, p. 23, cor. 2), et l’assertion résulte alors de E, II, p. 47.
 
-Soit $\pi$ une représentation unitaire irréductible de G dans un espace hilbertien E. Soit $x$ un élément non nul de E. Puisque $\pi$ est irréductible, le vecteur $x$ est un vecteur cyclique de $\pi$, ce qui implique que la dimension hilbertienne de E est $\leqslant$ Card(G) (lemme 9, appliqué au sous-espace dense engendré par les éléments $\pi (g)x$ pour $g\in G)$. Les classes des représentations unitaires irréductibles de G dans un espace hilbertien sur K appartiennent donc à l’ensemble des classes de représentations unitaires de G dans un espace hilbertien sur K de dimension hilbertienne $\leqslant$ Card(G) ; par conséquent, elles forment un ensemble.
+Soit $\pi$ une représentation unitaire irréductible de G dans un espace hilbertien E. Soit $x$ un élément non nul de E. Puisque $\pi$ est irréductible, le vecteur $x$ est un vecteur cyclique de $\pi$, ce qui implique que la dimension hilbertienne de E est $\leqslant$ Card(G) (lemme 9, appliqué au sous-espace dense engendré par les éléments $\pi (g)x$ pour $g\in G$). Les classes des représentations unitaires irréductibles de G dans un espace hilbertien sur K appartiennent donc à l’ensemble des classes de représentations unitaires de G dans un espace hilbertien sur K de dimension hilbertienne $\leqslant$ Card(G) ; par conséquent, elles forment un ensemble.
 
 #### Définition 8 {#ts-v-s1-def-8 .statement tag=039L}
 
@@ -684,7 +684,7 @@ Pour $i\in J-\{j\}$, notons pr$_i: F'\rightarrow F_i$ la projection et $\iota_i:
 
 Hom$_G(F_j,F')\rightarrow \bigoplus_{i\in J-\{j\}}$ Hom$_G(F_j,F_i)$
 
-(formule (1), p. 377) tel que $u: F_j\rightarrow F'$ a pour image la famille (pr$_i\circ u)_{i\in J-\{j\}}$ (A, II, p. 13, cor. 1). Le corollaire 2 de V, p. 387 implique que $\widetilde{u}_i\circ \widetilde{u}^{-1}_j$, qui est non nul, est une base de l’espace Hom$_G(F_j,F_i)$. Par conséquent, la famille des G-morphismes $(\iota_i\circ \widetilde{u}_i\circ \widetilde{u}^{-1}_j)_{i\in J-\{j\}}$ est une base de Hom$_G(F_j,F')$.
+(formule (1), p. 377) tel que $u: F_j\rightarrow F'$ a pour image la famille (pr$_i\circ u$)$_{i\in J-\{j\}}$ (A, II, p. 13, cor. 1). Le corollaire 2 de V, p. 387 implique que $\widetilde{u}_i\circ \widetilde{u}^{-1}_j$, qui est non nul, est une base de l’espace Hom$_G(F_j,F_i)$. Par conséquent, la famille des G-morphismes $(\iota_i\circ \widetilde{u}_i\circ \widetilde{u}^{-1}_j)_{i\in J-\{j\}}$ est une base de Hom$_G(F_j,F')$.
 
 Notons $\iota$ l’inclusion de $F_j$ dans $F'$; c’est un élément de Hom$_G(F_j,F')$, donc c’est une combinaison linéaire des G-morphismes $\iota_i\circ \widetilde{u}_i\circ \widetilde{u}^{-1}_j$ pour $i\in J-\{j\}$. Il en résulte que $u_j$ est combinaison linéaire des applications $u_i$ pour $i\not =j$, ce qui contredit l’indépendance linéaire de la famille $(u_i)_{i\in I}$. L’assertion est donc démontrée par récurrence.
 
@@ -712,7 +712,7 @@ Démontrons l’existence de familles vérifiant les conditions indiquées. Soit
 
 Par définition, $u(E_{\pi})\subset M_{\pi}(\varrho )$ pour tout $u\in C$, donc F est contenu dans $M_{\pi}(\varrho )$. Pour démontrer l’inclusion réciproque, il suffit de démontrer que si $v$ est un G-morphisme de $\pi$ dans $\varrho$, alors son image est contenue dans F. Soit $p$ l’orthoprojecteur de E d’image $F^{\circ}$; c’est un G-morphisme, puisque F est une sous-représentation de E (prop. 4 de V, p. 383). L’image du G-morphisme $p\circ v$ est orthogonale à F ; elle est donc nulle (sinon $C\cup  \{p\circ v\} \in \mathscr{O}$, ce qui contredit la maximalité de C), et par conséquent l’image de $v$ est contenue dans F.
 
-Soient maintenant $(E_i)_{i\in I}$ et $(F_j)_{j\in J})$ des familles de sous-espaces fermés invariants de E, deux à deux orthogonaux, tels que la sous-représentation de G dans $E_i$ (resp. dans $F_j)$ est isomorphe à $\pi$ pour tout $i\in I$ (resp. pour tout $j\in J)$, et telles que $M_{\pi}(\varrho )$ est somme hilbertienne de la famille $(E_i)_{i\in I}$ et de la famille $(F_j)_{j\in J}$.
+Soient maintenant $(E_i)_{i\in I}$ et $(F_j)_{j\in J})$ des familles de sous-espaces fermés invariants de E, deux à deux orthogonaux, tels que la sous-représentation de G dans $E_i$ (resp. dans $F_j$) est isomorphe à $\pi$ pour tout $i\in I$ (resp. pour tout $j\in J$), et telles que $M_{\pi}(\varrho )$ est somme hilbertienne de la famille $(E_i)_{i\in I}$ et de la famille $(F_j)_{j\in J}$.
 
 Si I est fini, alors
 
@@ -726,9 +726,9 @@ $\leqslant$ dim Hom$_G(\pi ,M_{\pi}(\varrho )) =$ Card(I)
 
 (loc. cit.). Cela démontre que J est alors fini et que Card(I) = Card(J), comme désiré. De même, si J est fini, alors I est fini et a le même cardinal.
 
-Supposons maintenant que I et J sont infinis. Pour $j\in J$, notons $p_j$ l’orthoprojecteur de E d’image $F_j$. Pour $i\in I$, soit $x_i$ un élément non nul de $E_i$; c’est un vecteur cyclique de $E_i$. Observons que puisque $p_j$ induit par passage aux sous-espaces un G-morphisme de $E_i$ dans $F_j$, l’espace $p_j(E_i)$ est nul si et seulement si $p_j(x_i) = 0$ (en effet, l’espace $E_i\cap$Ker($p_j$) est soit nul, soit égal à $E_i)$.
+Supposons maintenant que I et J sont infinis. Pour $j\in J$, notons $p_j$ l’orthoprojecteur de E d’image $F_j$. Pour $i\in I$, soit $x_i$ un élément non nul de $E_i$; c’est un vecteur cyclique de $E_i$. Observons que puisque $p_j$ induit par passage aux sous-espaces un G-morphisme de $E_i$ dans $F_j$, l’espace $p_j(E_i)$ est nul si et seulement si $p_j(x_i) = 0$ (en effet, l’espace $E_i\cap$Ker($p_j$) est soit nul, soit égal à $E_i$).
 
-Pour tout $j\in J$, il existe un élément $f(j)\in I$ tel que $p_j(E_{f(j)})$ ne soit pas réduit à 0 (dans le cas contraire, l’orthoprojecteur $p_j$ serait nul sur $M_{\pi}(\varrho ))$. On a ainsi défini une application $f$ de J dans I. Pour
+Pour tout $j\in J$, il existe un élément $f(j)\in I$ tel que $p_j(E_{f(j)})$ ne soit pas réduit à 0 (dans le cas contraire, l’orthoprojecteur $p_j$ serait nul sur $M_{\pi}(\varrho )$). On a ainsi défini une application $f$ de J dans I. Pour
 
 $-1$
 
@@ -752,7 +752,7 @@ Soit G un groupe topologique. Soient $\varrho$ une représentation unitaire de G
 
 On appelle multiplicité de $\pi$ dans $\varrho$ le cardinal de l’ensemble I pour toute famille $(E_i)_{i\in I}$ de sous-espaces fermés de E stables par G tels que la sous-représentation de $\varrho$ induite dans $E_i$ soit isomorphe à $\pi$ pour tout I et telle que $M_{\pi}(\varrho )$ soit la somme hilbertienne des sous-espaces $E_i$.
 
-Si la multiplicité de $\pi$ dans $\varrho$ est finie, alors elle est égale à la dimension de l’espace Hom$_G(\pi , \varrho )$ (resp. à la dimension de Hom$_G(\varrho , \pi ))$ d’après la formule (1) de V, p. 377 et le corollaire 2 de V, p. 387. Ce n’est pas toujours le cas en général.
+Si la multiplicité de $\pi$ dans $\varrho$ est finie, alors elle est égale à la dimension de l’espace Hom$_G(\pi , \varrho )$ (resp. à la dimension de Hom$_G(\varrho , \pi )$) d’après la formule (1) de V, p. 377 et le corollaire 2 de V, p. 387. Ce n’est pas toujours le cas en général.
 
 #### Remarque {#ts-v-s1-n11-rem-1 .statement tag=039W}
 

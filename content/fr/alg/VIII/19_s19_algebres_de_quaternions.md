@@ -33,7 +33,7 @@ subsections:
       pdf_page: 362
 statements: 16
 exercises: 8
-content_sha256: 12e9ff113bc1b56aeedcf3396c46d6190e1738a3b99b7a453f398acc5e854e4d
+content_sha256: 4d8e0cf5236836667cbbaa2a8cb527fe85f1043aab46f74caa68aaf232b4d638
 ---
 
 ## § 19. ALGÈBRES DE QUATERNIONS
@@ -66,7 +66,7 @@ $$
 
 Le polynôme caractéristique d’un élément $q$ de F est égal à $(X^2-T_F(q)X + N_F(q))^2$.
 
-D’après ce qui précède, l’algèbre F est un E-module à droite libre de base $(1, j)$. Par conséquent, F[X] est un E[X]-module à droite libre de base $(1, j)$. Notons $u$ l’endomorphisme du E[X]-module à droite F[X] défini par $u(P) = (X-q)P$ pour tout $P\in F[X]$. Le polynôme caractéristique de $q$ est le déterminant de $u$ considéré comme endomorphisme du K[X]-module F[X]. D’après la prop. 6 de III, p. 112, il est égal à N(det $u)$, où N désigne la norme de E[X] à K[X]. Écrivons $q$ sous la forme $x+jy$, avec $x, y\in E$. La matrice de $u$ par rapport à la base $(1, j)$ est $\begin{pmatrix} X-x & -\gamma y \\ -y & X-\overline{x} \end{pmatrix}$ ; son déterminant est égal à $D = (X-x)(X-\overline{x})-\gamma yy= X^2-T_F(q)X + N_F(q) ($cf. formule (3)). Comme D appartient à K[X], on a $N(D) = D^2$, d’où la prop. 1.
+D’après ce qui précède, l’algèbre F est un E-module à droite libre de base $(1, j)$. Par conséquent, F[X] est un E[X]-module à droite libre de base $(1, j)$. Notons $u$ l’endomorphisme du E[X]-module à droite F[X] défini par $u(P) = (X-q)P$ pour tout $P\in F[X]$. Le polynôme caractéristique de $q$ est le déterminant de $u$ considéré comme endomorphisme du K[X]-module F[X]. D’après la prop. 6 de III, p. 112, il est égal à N(det $u$), où N désigne la norme de E[X] à K[X]. Écrivons $q$ sous la forme $x+jy$, avec $x, y\in E$. La matrice de $u$ par rapport à la base $(1, j)$ est $\begin{pmatrix} X-x & -\gamma y \\ -y & X-\overline{x} \end{pmatrix}$ ; son déterminant est égal à $D = (X-x)(X-\overline{x})-\gamma yy= X^2-T_F(q)X + N_F(q) ($cf. formule (3)). Comme D appartient à K[X], on a $N(D) = D^2$, d’où la prop. 1.
 
 #### Remarque 1 {#alg-viii-s19-n1-rem-1 .statement tag=00LR}
 
@@ -82,7 +82,7 @@ Soit $q$ un élément de F. Pour que $q$ soit nilpotent, il faut et il suffit qu
 
 #### Exemple {#alg-viii-s19-n1-exa-1 .statement tag=00LU}
 
-L’algèbre de matrices $\mathbf{M}_2(K)$ est isomorphe à l’algèbre de quaternions de type $(0,1,1)$. Considérons en effet l’algèbre quadratique $E = K\times K$ (de type $(0,1))$ et l’algèbre de quaternions $F = E + Ej$, extension cayleyenne de E définie par l’élément $\gamma = 1$. L’application $(a, b)\rightarrow \begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix}$ est un homomorphisme d’algèbres de E dans $\mathbf{M}_2(K)$. Comme l’on a, pour $a, b$ dans K,
+L’algèbre de matrices $\mathbf{M}_2(K)$ est isomorphe à l’algèbre de quaternions de type $(0,1,1)$. Considérons en effet l’algèbre quadratique $E = K\times K$ (de type $(0,1)$) et l’algèbre de quaternions $F = E + Ej$, extension cayleyenne de E définie par l’élément $\gamma = 1$. L’application $(a, b)\rightarrow \begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix}$ est un homomorphisme d’algèbres de E dans $\mathbf{M}_2(K)$. Comme l’on a, pour $a, b$ dans K,
 
 0 1 0 1 1 0 0 1 $a$ 0 $b$ 0 0 1
 
@@ -270,7 +270,7 @@ degré fini qui est un corps est isomorphe à $\mathbf{R}, \mathbf{C}$ou $\mathb
 
 #### Remarque 3 {#alg-viii-s19-n5-rem-3 .statement tag=00M4}
 
-Soit A une algèbre normée sur le corps $\mathbf{R}$. Supposons que A soit un corps. Alors A est isomorphe à $\mathbf{R}, \mathbf{C}$ou $\mathbf{H}$(« théorème de Gelfand-Mazur ») (cf. AC, p. 123, th. 1 et TS, I, §2, n$^o5$, cor. $2).*$
+Soit A une algèbre normée sur le corps $\mathbf{R}$. Supposons que A soit un corps. Alors A est isomorphe à $\mathbf{R}, \mathbf{C}$ou $\mathbf{H}$(« théorème de Gelfand-Mazur ») (cf. AC, p. 123, th. 1 et TS, I, §2, n$^o5$, cor. $2$)$.*$
 
 ## EXERCICES {#alg-viii-s19-exercises}
 

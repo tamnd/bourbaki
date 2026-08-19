@@ -33,7 +33,7 @@ subsections:
       pdf_page: 84
 statements: 23
 exercises: 18
-content_sha256: b250a236646a2094c99621b8d48c76e7dbf544dadaf2900324a770b228b036bf
+content_sha256: ddd67782e479737cd9e6a578dce15e4eb2c5856730a131492492bd97145ecd22
 ---
 
 ## § 1. THE LIE ALGEBRA $\mathfrak{s}\mathfrak{l}$(2$\boldsymbol{, k}$) AND ITS REPRESENTATIONS
@@ -212,7 +212,7 @@ Let E be a finite dimensional $\mathfrak{s}\mathfrak{l}(2, k)$-module.
 
 (iii) The length of E is equal to dim Ker$X_{+E}$ and to dim Ker$X_{-E}$.
 
-(iv) Let $E'$ (resp. $E'')$ be the sum of the $E_p$ for $p$ even (resp. odd). Then $E'$ (resp. $E'')$ is the sum of the simple submodules of E of odd (resp. even) dimension; and $E = E'\oplus E''$. The length of $E'$ is dim $E_0$, and that of $E''$ is dim $E_1$.
+(iv) Let $E'$ (resp. $E''$) be the sum of the $E_p$ for $p$ even (resp. odd). Then $E'$ (resp. $E''$) is the sum of the simple submodules of E of odd (resp. even) dimension; and $E = E'\oplus E''$. The length of $E'$ is dim $E_0$, and that of $E''$ is dim $E_1$.
 
 (v) Ker$X_{+E}\cap$ Im$X_{+E}\subset \sum_{p>0}E_p$ and Ker$X_{-E}\cap$ Im$X_{-E}\subset \sum_{p<0}E_p$.
 
@@ -310,7 +310,7 @@ Recall (Algebra, Chap. III, §8, no. 9) that we denote by $\mathbf{S}\mathbf{L}(
 
 #### Definition 2 {#lie-viii-s1-def-2 .statement tag=00Y8}
 
-Let E be a finite dimensional vector space, and $\rho$ (resp. $\pi )$ a linear representation of $\mathfrak{s}\mathfrak{l}(2, k)$ (resp. $\mathbf{S}\mathbf{L}(2, k))$ on E. Then $\rho$ and $\pi$ are said to be compatible if, for every nilpotent element $x$ of $\mathfrak{s}\mathfrak{l}(2, k),\pi (e^x) =e^{\rho(x)}$.
+Let E be a finite dimensional vector space, and $\rho$ (resp. $\pi$ ) a linear representation of $\mathfrak{s}\mathfrak{l}(2, k)$ (resp. $\mathbf{S}\mathbf{L}(2, k)$) on E. Then $\rho$ and $\pi$ are said to be compatible if, for every nilpotent element $x$ of $\mathfrak{s}\mathfrak{l}(2, k),\pi (e^x) =e^{\rho(x)}$.
 
 In other words, $\rho$ and $\pi$ are compatible if, for every nilpotent element $x$ of $\mathfrak{s}\mathfrak{l}(2, k)$, the restriction of $\rho$ to $kx$ is compatible with the restriction of $\pi$ to the group $1 +kx$ (Chap. VII, §3, no. 1).
 

@@ -30,7 +30,7 @@ subsections:
       pdf_page: 300
 statements: 12
 exercises: 2
-content_sha256: e771ac6b5941de6c154eb7377d1b2bb683bb846dbd9a3abbb8be9436aeda0d99
+content_sha256: de0ee49b9fce0132064e5387825b803ddb4c6aeb3c6c606b44846dc5403449fc
 ---
 
 ## § 15. BRAUER GROUPS
@@ -55,9 +55,9 @@ is therefore collectivizing in $\alpha ($Set Theory, II, §1, No. 4, p. 68). We 
 
 The set $\mathscr{C}_K$, endowed with the law of composition given by $(\alpha , \beta )\mapsto$ cl($\alpha \otimes_K\beta$ ), is a commutative monoid. The identity element of $\mathscr{C}_K$ is the class $\varepsilon$ of the K-algebra K. Moreover, if A and B are K-algebras of finite degree, then we have the relation
 
-(1) cl(A $\otimes_KB) =$ cl(A) cl(B).
+(1) cl(A $\otimes_KB$) $=$ cl(A) cl(B).
 
-Let A, B, and C be K-algebras of finite degree, with respective classes $\alpha$, $\beta$, and $\gamma$. The K-algebras A and $\alpha$ are isomorphic, as are B and $\beta$. Therefore, the K-algebras $A\otimes_KB$ and $\alpha \otimes_K\beta$ are isomorphic, and we have cl(A$\otimes_KB) =$ cl($\alpha \otimes_K\beta$ ), which gives formula (1). It follows that $(\alpha \beta )\gamma$ is the class of the K-algebra $(A\otimes_KB)\otimes_KC$ and $\alpha (\beta \gamma )$ that of the K-algebra $A\otimes_K(B\otimes_KC)$. Now, these K-algebras are isomorphic (III, §4, No. 1, p. 461), so we have the equality $(\alpha \beta )\gamma =\alpha (\beta \gamma )$. Analogously, the relation $\alpha \varepsilon =\varepsilon \alpha =\alpha$ follows from the fact that the K-algebras $A\otimes_KK, K\otimes_KA$, and A are isomorphic, and the relation $\alpha \beta =\beta \alpha$ follows from the fact that the algebras $A\otimes_KB$ and $B\otimes_KA$ are isomorphic.
+Let A, B, and C be K-algebras of finite degree, with respective classes $\alpha$, $\beta$, and $\gamma$. The K-algebras A and $\alpha$ are isomorphic, as are B and $\beta$. Therefore, the K-algebras $A\otimes_KB$ and $\alpha \otimes_K\beta$ are isomorphic, and we have cl(A$\otimes_KB$) $=$ cl($\alpha \otimes_K\beta$ ), which gives formula (1). It follows that $(\alpha \beta )\gamma$ is the class of the K-algebra $(A\otimes_KB)\otimes_KC$ and $\alpha (\beta \gamma )$ that of the K-algebra $A\otimes_K(B\otimes_KC)$. Now, these K-algebras are isomorphic (III, §4, No. 1, p. 461), so we have the equality $(\alpha \beta )\gamma =\alpha (\beta \gamma )$. Analogously, the relation $\alpha \varepsilon =\varepsilon \alpha =\alpha$ follows from the fact that the K-algebras $A\otimes_KK, K\otimes_KA$, and A are isomorphic, and the relation $\alpha \beta =\beta \alpha$ follows from the fact that the algebras $A\otimes_KB$ and $B\otimes_KA$ are isomorphic.
 
 In the set $\mathscr{C}_K$, the relation “$\alpha$ and $\beta$ are Morita equivalent algebras” is an equivalence relation (VIII, p. 100). It is compatible with the law of composition on $\mathscr{C}_K$ by Proposition 13, d) of VIII, p. 111. We denote by $\mathscr{M}_K$ the quotient monoid of $\mathscr{C}_K$ by this equivalence relation and by $\varphi$ the canonical homomorphism from $\mathscr{C}_K$ to $\mathscr{M}_K$. For every K-algebra A of finite degree, we denote by [A] the image of cl(A) by $\varphi$. If A and B are K-algebras of finite degree, then we have [A] = [B] if and only if the K-algebras A and B are Morita equivalent; moreover, we have the relation
 
@@ -143,7 +143,7 @@ This follows from Lemma 1 of VIII, p. 278 and Wedderburn’s theorem (VIII, p. 1
 
 Let L be an extension of the field K. Let A and B be K-algebras of finite degree; then the L-algebras $A_{(L)}$ and $B_{(L)}$ are of finite degree. The L-algebras $A_{(L)}\otimes_LB_{(L)}$ and $(A\otimes_KB)_{(L)}$ are isomorphic (III, §4, No. 1, p. 462, Proposition 3). The L-algebra $K_{(L)}$ is isomorphic to L. Consequently, there exists a unique monoid homomorphism $\rho_{L/K}$ from $\mathscr{C}_K$ to $\mathscr{C}_L$ such that
 
-(3) $\rho_{L/K}$(cl(A)) = cl(A$_{(L)})$
+(3) $\rho_{L/K}$(cl(A)) = cl(A$_{(L)}$)
 
 for every K-algebra A of finite degree.
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 29
 statements: 40
 exercises: 16
-content_sha256: 4c7c3f9cdbe37aff4a59d4c286ec8409b5ba3c0c1a54d4fae5ab04b51ca00829
+content_sha256: 7bef80c640e0b2cea2b578e1af6a1cfce1a10507b2871b5ad422baa9e235589c
 ---
 
 ## § 2. CARTAN SUBALGEBRAS AND REGULAR ELEMENTS OF A LIE ALGEBRA
@@ -122,7 +122,7 @@ Let $\mathfrak{g}$ be a Lie algebra, $\mathfrak{h}$ a Cartan subalgebra of $\mat
 
 (ii) Assume that $k=\mathbf{R}$ or $\mathbf{C}$; let G be a Lie group with Lie algebra $\mathfrak{g}$, A the integral subgroup of G with Lie algebra $\mathfrak{a}$. Then A is a Lie subgroup of G, and it is the identity component of the normalizer of A in G.
 
-Let $\mathfrak{n}$ be the normalizer of $\mathfrak{a}$ in $\mathfrak{g}$. Since $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{n}$ (Example $3),\{0\}$ is a Cartan subalgebra of $\mathfrak{n}/\mathfrak{a}$ (Cor. 2), hence is equal to its normalizer in $\mathfrak{n}/\mathfrak{a}$; in other words, $\mathfrak{n}=\mathfrak{a}$. Assertion (ii) follows from (i) and Chap. III, §9, no. 4, Cor. of Prop. 11.
+Let $\mathfrak{n}$ be the normalizer of $\mathfrak{a}$ in $\mathfrak{g}$. Since $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{n}$ (Example $3$)$,\{0\}$ is a Cartan subalgebra of $\mathfrak{n}/\mathfrak{a}$ (Cor. 2), hence is equal to its normalizer in $\mathfrak{n}/\mathfrak{a}$; in other words, $\mathfrak{n}=\mathfrak{a}$. Assertion (ii) follows from (i) and Chap. III, §9, no. 4, Cor. of Prop. 11.
 
 #### Corollary 5 {#lie-vii-s2-prop-4-cor-5 .statement tag=00TW}
 
@@ -160,17 +160,17 @@ $\mathscr{C}_{\infty}\mathfrak{g}$ is the smallest ideal $\mathfrak{n}$ of $\mat
 
 Let $\mathfrak{g}$ be a Lie algebra of dimension $n$. If $x\in \mathfrak{g}$, write the characteristic polynomial of ad $x$ in the form
 
-det(T $-$ ad $x) =\sum_{i=0}^na_i(x)T^i$, with $a_i(x)\in k$.
+det(T $-$ ad $x$) $=\sum_{i=0}^na_i(x)T^i$, with $a_i(x)\in k$.
 
 We have $a_i(x) = (-1)^{n-i}$Tr $(\bigwedge^{n-i}$ ad $x)$, cf. Algebra, Chap. III, §8, no. 11. This shows that $x \rightarrow a_i(x)$ is a homogeneous polynomial map of degree $n-i$ from $\mathfrak{g}$ to $k($Algebra, Chap. IV, §5, no. 9).
 
 #### Remark 1 {#lie-vii-s2-n2-rem-1 .statement tag=00U1}
 
-If $\mathfrak{g}\not=\{0\},a_0= 0$ since (ad $x)(x) = 0$ for all $x\in \mathfrak{g}$.
+If $\mathfrak{g}\not=\{0\},a_0= 0$ since (ad $x$)$(x) = 0$ for all $x\in \mathfrak{g}$.
 
 #### Remark 2 {#lie-vii-s2-n2-rem-2 .statement tag=00U2}
 
-Let $k'$ be an extension of $k$. Write det(T $-$ ad $x') =\sum_{i=0}^na'_i(x')T^i$ for $x'\in \mathfrak{g}\otimes_kk'$. Then $a'_i|\mathfrak{g}=a_i$ for all $i$.
+Let $k'$ be an extension of $k$. Write det(T $-$ ad $x'$) $=\sum_{i=0}^na'_i(x')T^i$ for $x'\in \mathfrak{g}\otimes_kk'$. Then $a'_i|\mathfrak{g}=a_i$ for all $i$.
 
 #### Definition 2 {#lie-vii-s2-def-2 .statement tag=00U3}
 
@@ -192,7 +192,7 @@ $$
 \beta \gamma
 $$
 
-det(T $-$ ad $x) = T^3-4(\alpha \beta +\gamma^2)T$.
+det(T $-$ ad $x$) $= T^3-4(\alpha \beta +\gamma^2)T$.
 
 If the characteristic of $k$ is $\not= 2$, then rk($\mathfrak{g}$) $= 1$ and the regular elements are those $x$ such that $\alpha \beta +\gamma^2\not= 0$.
 
@@ -252,7 +252,7 @@ Let $\mathscr{C}_n\mathfrak{g}(n\geq 0)$ be a term of the ascending central seri
 
 Let $\mathfrak{g}$ be a Lie algebra, $\mathfrak{g}'$ a subalgebra of $\mathfrak{g}$. Every element of $\mathfrak{g}'$ regular in $\mathfrak{g}$ is regular in $\mathfrak{g}'$.
 
-For $x\in \mathfrak{g}'$, the restriction of ad$_{\mathfrak{g}}x$ to $\mathfrak{g}'$ is ad$_{\mathfrak{g}'}x$, and so defines an endomorphism $u(x)$ of the vector space $\mathfrak{g}/\mathfrak{g}'$ by passage to the quotient. Let $d_0(x)$ (resp. $d_1(x))$ be the dimension of the nilspace of ad$_{\mathfrak{g}'}(x)$ (resp. of $u(x))$, and let $c_0$ (resp. $c_1)$ be the minimum of $d_0(x)$ (resp. $d_1(x))$ when $x$ belongs to $\mathfrak{g}'$. There exist non-zero polynomial maps $p_0, p_1$ from $\mathfrak{g}'$ to $k$ such that
+For $x\in \mathfrak{g}'$, the restriction of ad$_{\mathfrak{g}}x$ to $\mathfrak{g}'$ is ad$_{\mathfrak{g}'}x$, and so defines an endomorphism $u(x)$ of the vector space $\mathfrak{g}/\mathfrak{g}'$ by passage to the quotient. Let $d_0(x)$ (resp. $d_1(x)$) be the dimension of the nilspace of ad$_{\mathfrak{g}'}(x)$ (resp. of $u(x)$), and let $c_0$ (resp. $c_1$) be the minimum of $d_0(x)$ (resp. $d_1(x)$) when $x$ belongs to $\mathfrak{g}'$. There exist non-zero polynomial maps $p_0, p_1$ from $\mathfrak{g}'$ to $k$ such that
 
 $$
 d_0(x) =c_0\Leftarrow \Rightarrow p_0(x)\not= 0,d_1(x) =c_1\Leftarrow \Rightarrow p_1(x)\not= 0
@@ -314,7 +314,7 @@ $$
 
 Since the ad$_{\mathfrak{g}}x,x\in \mathfrak{a}$, are semi-simple and commute with each other, it follows from Algebra, Chap. VIII, §5, no. 1, that there exists a vector subspace $\mathfrak{d}$ of $\mathfrak{n}$ stable under ad$_{\mathfrak{g}}\mathfrak{a}$ and such that $\mathfrak{n}=\mathfrak{h}\oplus \mathfrak{d}$. Then $[\mathfrak{a},\mathfrak{d}]\subset \mathfrak{h}\cap \mathfrak{d}= 0$, so $\mathfrak{d}\subset \mathfrak{c}$. Thus, $\mathfrak{n}$ is the normalizer of $\mathfrak{h}$ in $\mathfrak{c}$, and hence $\mathfrak{n}=\mathfrak{h}$, so $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{g}$ containing $\mathfrak{a}$.
 
-Conversely, let $\mathfrak{h}$ be a Cartan subalgebra of $\mathfrak{g}$ containing $\mathfrak{a}$. Then $\mathfrak{h}=$ $\mathfrak{g}^0(\mathfrak{h})\subset \mathfrak{g}^0(\mathfrak{a})$, and by hypothesis $\mathfrak{g}_0(\mathfrak{a}) =\mathfrak{g}^0(\mathfrak{a}) =\mathfrak{c}$. Hence $\mathfrak{a}\subset \mathfrak{h}\subset \mathfrak{c}$ and $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{c}$ (for it is equal to its own normalizer in $\mathfrak{g}$, and so a fortiori in $\mathfrak{c})$.
+Conversely, let $\mathfrak{h}$ be a Cartan subalgebra of $\mathfrak{g}$ containing $\mathfrak{a}$. Then $\mathfrak{h}=$ $\mathfrak{g}^0(\mathfrak{h})\subset \mathfrak{g}^0(\mathfrak{a})$, and by hypothesis $\mathfrak{g}_0(\mathfrak{a}) =\mathfrak{g}^0(\mathfrak{a}) =\mathfrak{c}$. Hence $\mathfrak{a}\subset \mathfrak{h}\subset \mathfrak{c}$ and $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{c}$ (for it is equal to its own normalizer in $\mathfrak{g}$, and so a fortiori in $\mathfrak{c}$).
 
 #### Proposition 11 {#lie-vii-s2-prop-11 .statement tag=00UH}
 

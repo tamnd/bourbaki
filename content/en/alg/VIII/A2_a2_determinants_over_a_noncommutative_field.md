@@ -35,7 +35,7 @@ subsections:
       pdf_page: 472
 statements: 18
 exercises: 4
-content_sha256: 10d4864a0128a2e574c3645c2e03108244f33f690878140360ba87a13f8d1726
+content_sha256: a1a346c55a436d2ed8247c3e3a5bc5302eaac2c7930a98ff5617acbf65dc1b0e
 ---
 
 ## APPENDIX 2 DETERMINANTS OVER A NONCOMMUTATIVE FIELD
@@ -262,7 +262,7 @@ Suppose that the field D is commutative. By definition, B(V) is a subset of $V^n
 
 We first suppose that the field D is commutative. In view of the remark above, the determinant of an automorphism $u$ of V is the unique element det $u$ of $D^*$ such that we have
 
-(14) $\omega (u(v_1), . . . , u(v_n)) =$ (det $u)\omega (v_1, . . . , v_n)$
+(14) $\omega (u(v_1), . . . , u(v_n)) =$ (det $u$)$\omega (v_1, . . . , v_n)$
 
 for every basis $(v_1, . . . , v_n)$ of V and every element $\omega$ of Ω(V).
 
@@ -272,7 +272,7 @@ Let us return to the case when D is no longer supposed to be commutative.
 
 a) Let $u$ be an automorphism of V. There exists a unique element of $D^*_{ab}$, denoted by det $u$ and called the determinant of $u$, such that we have
 
-(15) $\omega (u(v_1), . . . , u(v_n)) =$ (det $u)\omega (v_1, . . . , v_n)$
+(15) $\omega (u(v_1), . . . , u(v_n)) =$ (det $u$)$\omega (v_1, . . . , v_n)$
 
 for every basis $(v_1, . . . , v_n)$ of V and every $\omega$ in Ω(V).
 
@@ -326,7 +326,7 @@ for $\lambda_1, . . . , \lambda_n\in D^*$
 
 Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$ and $a_1, . . . , a_n$ be its columns. We have
 
-det(A$) =\omega_0(a_1, . . . , a_n)$.
+det(A) $=\omega_0(a_1, . . . , a_n)$.
 
 Now, the columns of the matrix A diag($\lambda_1, . . . , \lambda_n$) are $a_1\lambda_1, . . . , a_n\lambda_n$, and those of the matrix AB$_{ij}(1)$ are therefore $a_1, . . . , a_j+a_i, a_{j+1}, . . . , a_n$. Since $\omega_0$ is the unique element of $\Omega (D^n_d)$ such that $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$, we see that the determinant is the unique mapping $\varphi :\mathbf{G}\mathbf{L}_n(D)\rightarrow D^*_{ab}$ that satisfies the relations
 
@@ -350,17 +350,17 @@ The columns of the matrix $B_{ij}(\lambda )$ are $\varepsilon_1, . . . , \vareps
 
 Let $\sigma$ be a permutation of the interval $[1, n]$ in $\mathbf{N}$, with signature $\varepsilon (\sigma )$. Let M$(\sigma )$ be the matrix of the permutation $\sigma$ (II, §10, No. 7, p. 351). The columns of the matrix M$(\sigma )$ are $\varepsilon_{\sigma(1)}, . . . , \varepsilon_{\sigma(n)}$. Applying formula (4) of VIII, p. 448, we therefore have
 
-(22) det(M$(\sigma )) =\pi (\varepsilon (\sigma ))$.
+(22) det(M$(\sigma )$) $=\pi (\varepsilon (\sigma ))$.
 
 #### Example 3 {#alg-viii-a2-n4-exa-3 .statement tag=00Q9}
 
-Suppose $n\geqslant 1$. For every invertible diagonal matrix of the form Δ = diag($d_1, . . . , d_n$), we have Δ$B_{ij}(\lambda$)Δ$^{-1}=B_{ij}(d_i\lambda d^{-1}_j)$. Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$. By Corollary 1 of II, §10, No. 13, p. 362 and the previous formula, there exist matrices P and Δ in $\mathbf{G}\mathbf{L}_n(D)$ such that A = PΔ, that P is the product of matrices of the form $B_{ij}(\lambda )$, and that Δ is a diagonal matrix of the form diag(1$, . . . ,1, d)$. We have det(P) = 1 by Example 1, and therefore det(A) = det(Δ) $=\pi (d)$ by Proposition 3.
+Suppose $n\geqslant 1$. For every invertible diagonal matrix of the form Δ = diag($d_1, . . . , d_n$), we have Δ$B_{ij}(\lambda$)Δ$^{-1}=B_{ij}(d_i\lambda d^{-1}_j)$. Let A be an element of $\mathbf{G}\mathbf{L}_n(D)$. By Corollary 1 of II, §10, No. 13, p. 362 and the previous formula, there exist matrices P and Δ in $\mathbf{G}\mathbf{L}_n(D)$ such that A = PΔ, that P is the product of matrices of the form $B_{ij}(\lambda )$, and that Δ is a diagonal matrix of the form diag(1$, . . . ,1, d$). We have det(P) = 1 by Example 1, and therefore det(A) = det(Δ) $=\pi (d)$ by Proposition 3.
 
 #### Example 4 {#alg-viii-a2-n4-exa-4 .statement tag=00QA}
 
 Let $D'$ be a field, and let $u$ be a homomorphism from D to $D'$. When passing to the quotients, $u$ defines a group homomorphism $u_{ab}$ from $D^*_{ab}$ to $D^{'*}_{ab}$. Let $u_n$ be the homomorphism from $\mathbf{G}\mathbf{L}_n(D)$ to $\mathbf{G}\mathbf{L}_n(D')$ that transforms a matrix A $= (a_{ij})$ into the matrix $(u(a_{ij}))$. The formula
 
-(23) det($u_n($A$)) =u_{ab}$(det(A))
+(23) det($u_n($A)) $=u_{ab}$(det(A))
 
 for $A\in \mathbf{G}\mathbf{L}_n(D)$ follows immediately from Example 3.
 
@@ -378,7 +378,7 @@ If $a$ is not zero, then we have
 
 Consequently, $ad-aca^{-1}b\not= 0$ and
 
-(25) det(A$) =\pi (ad-aca^{-1}b)$.
+(25) det(A) $=\pi (ad-aca^{-1}b)$.
 
 b) If $a$ is zero, then we have $c\not= 0$ and
 
@@ -386,7 +386,7 @@ b) If $a$ is zero, then we have $c\not= 0$ and
 
 Consequently, by a) and Example 2, we have $cb\not= 0$ and
 
-(27) det(A$) =\pi (-cb)$.
+(27) det(A) $=\pi (-cb)$.
 
 #### Example 7 {#alg-viii-a2-n4-exa-7 .statement tag=00QD}
 
@@ -414,7 +414,7 @@ b) Suppose $n\geqslant 3$ or Card(D) $\geqslant 3$. The derived group of $\mathb
 
 c) Suppose $n\geqslant 3$ or Card(D) $\geqslant 4$. The derived group of $\mathbf{S}\mathbf{L}_n(D)$ is equal to $\mathbf{S}\mathbf{L}_n(D)$.
 
-A) Denote by T the subgroup of $\mathbf{G}\mathbf{L}_n(D)$ generated by the matrices $B_{ij}(\lambda )$. By Example 1 of VIII, p. 454, we have det($B_{ij}(\lambda )$) $= 1$, and therefore $T\subset \mathbf{S}\mathbf{L}_n(D)$. To prove that these two groups are equal, it then suffices, by Example 3 of loc. cit., to prove that every matrix of the form diag(1$, . . . ,1, d)$ with $\pi (d) = 1$ belongs to T. The matrix diag(1$, . . . ,1, d)$ belongs to the image of the homomorphism $U\mapsto \begin{pmatrix} I_{n-2} & 0 \\ 0 & U \end{pmatrix}$ from $\mathbf{G}\mathbf{L}_2(D)$ to $\mathbf{G}\mathbf{L}_n(D)$; it therefore suffices to consider the case $n= 2$. Since the kernel of $\pi$ is the derived group of $D^*$, we may assume $d=uvu^{-1}v^{-1}$ with $u, v$ in $D^*$. Our assertion then follows from the equalities
+A) Denote by T the subgroup of $\mathbf{G}\mathbf{L}_n(D)$ generated by the matrices $B_{ij}(\lambda )$. By Example 1 of VIII, p. 454, we have det($B_{ij}(\lambda )$) $= 1$, and therefore $T\subset \mathbf{S}\mathbf{L}_n(D)$. To prove that these two groups are equal, it then suffices, by Example 3 of loc. cit., to prove that every matrix of the form diag(1$, . . . ,1, d$) with $\pi (d) = 1$ belongs to T. The matrix diag(1$, . . . ,1, d$) belongs to the image of the homomorphism $U\mapsto \begin{pmatrix} I_{n-2} & 0 \\ 0 & U \end{pmatrix}$ from $\mathbf{G}\mathbf{L}_2(D)$ to $\mathbf{G}\mathbf{L}_n(D)$; it therefore suffices to consider the case $n= 2$. Since the kernel of $\pi$ is the derived group of $D^*$, we may assume $d=uvu^{-1}v^{-1}$ with $u, v$ in $D^*$. Our assertion then follows from the equalities
 
 (28) $\begin{pmatrix} 1 & 0 \\ 0 & d \end{pmatrix} = \begin{pmatrix} u^{-1} & 0 \\ 0 & u \end{pmatrix}\begin{pmatrix} v^{-1} & 0 \\ 0 & v \end{pmatrix}\begin{pmatrix} vu & 0 \\ 0 & u^{-1}v^{-1} \end{pmatrix}$
 

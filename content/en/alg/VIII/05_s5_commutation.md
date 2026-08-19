@@ -38,7 +38,7 @@ subsections:
       pdf_page: 106
 statements: 37
 exercises: 19
-content_sha256: 3b4c9089cd46191f09d7e9d0e26444cd112b43560fcd2989819de7558a97409d
+content_sha256: 92146afa3071a759dfd60b0a1909d5b82cb570c6ed50a098e57fa1acd8ea9c00
 ---
 
 ## § 5. COMMUTATION
@@ -57,7 +57,7 @@ If the A-module M is balanced, then the rings $A_M$ and $A'_M$ have the same cen
 
 When the ring A is commutative, the bicommutant $A''_M$ of M is the center of $A'_M=$ End$_A(M)$; that M is balanced means that the center of End$_A(M)$ is reduced to the homotheties.
 
-For any element $a$ of A, denote by $\boldsymbol{\delta }_a$ the right homothety $x\mapsto xa$ from A to A and by $\boldsymbol{\gamma }_a$ the left homothety $x\mapsto ax$ (I, §8, No. 1, p. 97). The map $a\mapsto \boldsymbol{\delta }_a$ is a ring isomorphism from $A^o$ to the commutant of the left A-module $A_s$ (cf. II, §10, No. 7, p. 349, applied to $I =\{1\})$. The map $a\mapsto \boldsymbol{\gamma }_a$ is a ring isomorphism from A to the commutant of the right A-module $A_d$ (loc. cit.). If we identify A with the commutant of $A_d$ through this map, then the countermodule of $A_d$ is identified with $A_s$; consequently, the A-module $A_d$ is balanced. Likewise, the A-module $A_s$ is balanced.
+For any element $a$ of A, denote by $\boldsymbol{\delta }_a$ the right homothety $x\mapsto xa$ from A to A and by $\boldsymbol{\gamma }_a$ the left homothety $x\mapsto ax$ (I, §8, No. 1, p. 97). The map $a\mapsto \boldsymbol{\delta }_a$ is a ring isomorphism from $A^o$ to the commutant of the left A-module $A_s$ (cf. II, §10, No. 7, p. 349, applied to $I =\{1\}$). The map $a\mapsto \boldsymbol{\gamma }_a$ is a ring isomorphism from A to the commutant of the right A-module $A_d$ (loc. cit.). If we identify A with the commutant of $A_d$ through this map, then the countermodule of $A_d$ is identified with $A_s$; consequently, the A-module $A_d$ is balanced. Likewise, the A-module $A_s$ is balanced.
 
 Let $n$ be an integer $\geqslant 1$. We view $A^n$ as a left $\mathbf{M}_n$(A)-module (loc. cit.). The mapping that sends $m\in \mathbf{M}_n(A)$ to the endomorphism $x\mapsto mx$ of the A-module $A^n_d$ is a ring isomorphism from $\mathbf{M}_n(A)$ to the commutant of the right A-module $A^n_d$ (loc. cit.).
 
@@ -71,7 +71,7 @@ b) The mapping $(u_i)\mapsto \bigoplus u_i$ from $\prod$ End$_{\mathbf{Z}}(M_i)$
 
 The ring isomorphisms defined in Proposition 1 are called canonical. The product $\prod(A_i)_{M_i}$ is often identified with $A_M$, and $\prod(A_i)'_{M_i}$ with $A'_M$, etc., through these isomorphisms.
 
-The mapping $\varphi : (u_i)\mapsto \prod u_i$ from $\prod$ End$_{\mathbf{Z}}(M_i)$ to End$_{\mathbf{Z}}(M)$ is an injective ring homomorphism. By the definition of the A-module structure on M, we have $\varphi (\prod(A_i)_{M_i}) = A_M$. Let $u\in A'_M$. For every $i\in I$, denote by $h_i$ the element of A with all components equal to 1 except that of index $i$, which is equal to 0 . If $x$ is an element of M with component of index $i$ equal to 0, then we have $x=h_ix$, and therefore pr$_i(u(x)) =$ pr$_i(u(h_ix)) =$ pr$_i(h_iu(x)) = 0$. Consequently, there exists a unique group homomorphism $u_i: M_i\mapsto M_i$ such that pr$_i(u(y)) =u_i$(pr$_i(y))$ for every $y\in M$. We have $u=\prod u_i$. Since the mapping $u$ is A-linear, the mapping $u_i$ is $A_i$-linear for every $i\in I$. This proves that the image of $\prod(A_i)'_{M_i}$ under $\varphi$ contains $A'_M$; the reverse inclusion is obvious. By applying this to the countermodule of M, we deduce that $\varphi$ induces an isomorphism from $A''_M$ to $\prod_i(A_i)''_{M_i}$. This proves assertion a).
+The mapping $\varphi : (u_i)\mapsto \prod u_i$ from $\prod$ End$_{\mathbf{Z}}(M_i)$ to End$_{\mathbf{Z}}(M)$ is an injective ring homomorphism. By the definition of the A-module structure on M, we have $\varphi (\prod(A_i)_{M_i}) = A_M$. Let $u\in A'_M$. For every $i\in I$, denote by $h_i$ the element of A with all components equal to 1 except that of index $i$, which is equal to 0 . If $x$ is an element of M with component of index $i$ equal to 0, then we have $x=h_ix$, and therefore pr$_i(u(x)) =$ pr$_i(u(h_ix)) =$ pr$_i(h_iu(x)) = 0$. Consequently, there exists a unique group homomorphism $u_i: M_i\mapsto M_i$ such that pr$_i(u(y)) =u_i$(pr$_i(y)$) for every $y\in M$. We have $u=\prod u_i$. Since the mapping $u$ is A-linear, the mapping $u_i$ is $A_i$-linear for every $i\in I$. This proves that the image of $\prod(A_i)'_{M_i}$ under $\varphi$ contains $A'_M$; the reverse inclusion is obvious. By applying this to the countermodule of M, we deduce that $\varphi$ induces an isomorphism from $A''_M$ to $\prod_i(A_i)''_{M_i}$. This proves assertion a).
 
 The proof of b) is the same as that of a) mutatis mutandis.
 
@@ -179,7 +179,7 @@ Let A be a commutative ring, M a finitely generated A-module, and Ann(M) its ann
 
 (iii) There exists an element $a$ of $\mathfrak{a}$ such that $am=m$ for every $m\in M$.
 
-(i) $\Rightarrow$ (ii): Let $(x_1, . . . , x_n)$ be a generating family of the A-module M. If $\mathfrak{a}M = M$, then each $x_i$ can be written as $\sum^n_{j=1}c_{ij}x_j$, where the $c_{ij}$ belong to $\mathfrak{a}$. Denote the matrix $(c_{ij})$ by C and the column matrix with entries $x_1, . . . , x_n$ by X. We have ($I_n-C$)X = 0. Let $d$ be the determinant and V the cofactor matrix of the matrix $I_n-C$. By formula (26) of III, §8, No. 6, p. 532, we have $dX=^tV$($I_n-C$)X = 0, so that $d\in$ Ann(M). On the other hand, since the $c_{ij}$ belong to $\mathfrak{a}$, we have $d\equiv$ 1(mod $\mathfrak{a})$ (III, §8, No. 5, p. 529, (18)), and therefore $1\in$ Ann(M) $+\mathfrak{a}$.
+(i) $\Rightarrow$ (ii): Let $(x_1, . . . , x_n)$ be a generating family of the A-module M. If $\mathfrak{a}M = M$, then each $x_i$ can be written as $\sum^n_{j=1}c_{ij}x_j$, where the $c_{ij}$ belong to $\mathfrak{a}$. Denote the matrix $(c_{ij})$ by C and the column matrix with entries $x_1, . . . , x_n$ by X. We have ($I_n-C$)X = 0. Let $d$ be the determinant and V the cofactor matrix of the matrix $I_n-C$. By formula (26) of III, §8, No. 6, p. 532, we have $dX=^tV$($I_n-C$)X = 0, so that $d\in$ Ann(M). On the other hand, since the $c_{ij}$ belong to $\mathfrak{a}$, we have $d\equiv$ 1(mod $\mathfrak{a}$) (III, §8, No. 5, p. 529, (18)), and therefore $1\in$ Ann(M) $+\mathfrak{a}$.
 
 (ii) $\Rightarrow$ (iii): Assuming that (ii) holds, there exist $a\in \mathfrak{a}$ and $b\in$ Ann(M) such that $a+b= 1$. We then have $am=m$ for every $m\in M$.
 
@@ -283,7 +283,7 @@ Let M be a semisimple A-module, and let B be the endomorphism ring of M. Denote 
 
 #### Remark 1 {#alg-viii-s5-n4-rem-1 .statement tag=00R4}
 
-The canonical description $\alpha_M$ of the A-module M is an isomorphism of left $(A$, B)-bimodules. By the corollary of Proposition 9, VIII, p. 71, the mapping $f\mapsto ($Hom(1$_{S_{\lambda}}, f))_{\lambda\in\mathscr{S}_M}$ from B to $\prod_{\lambda\in\mathscr{S}_M}$ End$_{D_{\lambda}}(V_{\lambda})$ is a ring isomorphism.
+The canonical description $\alpha_M$ of the A-module M is an isomorphism of left $(A$, B)-bimodules. By the corollary of Proposition 9, VIII, p. 71, the mapping $f\mapsto ($Hom(1$_{S_{\lambda}}, f$))$_{\lambda\in\mathscr{S}_M}$ from B to $\prod_{\lambda\in\mathscr{S}_M}$ End$_{D_{\lambda}}(V_{\lambda})$ is a ring isomorphism.
 
 #### Proposition 5 {#alg-viii-s5-prop-5 .statement tag=005X}
 
@@ -291,7 +291,7 @@ a) The countermodule of M is semisimple.
 
 b) For every $\lambda \in \mathscr{S}_M$, the B-module $V_{\lambda}$ is simple, and its commutant is equal to $(D_{\lambda})_{V_{\lambda}}$.
 
-c) The mapping $\lambda \mapsto$ cl(V$_{\lambda})$ is a bijection from the support of the A-module M to the support of its countermodule.
+c) The mapping $\lambda \mapsto$ cl(V$_{\lambda}$) is a bijection from the support of the A-module M to the support of its countermodule.
 
 d) For every $\lambda \in \mathscr{S}_M$, the B-submodule $M_{\lambda}$ is the isotypical component of type $V_{\lambda}$ of the B-module M, and the multiplicity of $V_{\lambda}$ in M is equal to dim$_{D_{\lambda}}(S_{\lambda})$.
 

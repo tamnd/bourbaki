@@ -31,7 +31,7 @@ subsections:
       pdf_page: 459
 statements: 20
 exercises: 15
-content_sha256: bc01a7c8de4d29020aa27c809b1cac71a8e09930d921d035eba6f8cf50ecca9e
+content_sha256: 98c6a5e57906681f8c0a6b353e8a358c25cc514a68622fa99dc2d3817a1b28f4
 ---
 
 ## APPENDIX 1 ALGEBRAS WITHOUT UNIT ELEMENT
@@ -124,7 +124,7 @@ a) Let $\mathfrak{a}$ be a regular maximal left ideal of A. There exists a uniqu
 
 b) The mapping $\widetilde{\mathfrak{a}}\mapsto \widetilde{\mathfrak{a}}\cap A$ is a bijection from the set of maximal left ideals of $\widetilde{A}$ not containing A to the set of regular maximal left ideals of A.
 
-Let $\mathfrak{a}$ be a regular maximal left ideal of A. By Proposition 3, a), the left ideals $\mathfrak{b}$ of $\widetilde{A}$ such that $\mathfrak{b}+ A =\widetilde{A}$ and $\mathfrak{b}\cap A =\mathfrak{a}$ are the ideals $\mathfrak{a}+k(u-e)$, where $u$ is a right unit modulo $\mathfrak{a}$. To prove the uniqueness of $\widetilde{\mathfrak{a}}$, it therefore suffices to prove that two right units $u$ and $u'$ of A modulo $\mathfrak{a}$ are congruent modulo $\mathfrak{a}$. Let us reason by contradiction and suppose that $u-u'$ does not belong to $\mathfrak{a}$. The formula $x(u-u') = (xu-x)-(xu'-x)$ shows that we have $A(u-u')\subset \mathfrak{a}$; it follows that $\mathfrak{a}+k(u-u')$ is a left ideal of A containing $\mathfrak{a}$ and distinct from $\mathfrak{a}$. Since $\mathfrak{a}$ is maximal, we therefore have $\mathfrak{a}+k(u-u') = A$, and so AA $\subset \mathfrak{a}$. For every $x\in A$, we have $x\equiv xu$ (mod $\mathfrak{a})$, and therefore $x\in \mathfrak{a}$ by the above, which contradicts the assumption $\mathfrak{a}\not= A$.
+Let $\mathfrak{a}$ be a regular maximal left ideal of A. By Proposition 3, a), the left ideals $\mathfrak{b}$ of $\widetilde{A}$ such that $\mathfrak{b}+ A =\widetilde{A}$ and $\mathfrak{b}\cap A =\mathfrak{a}$ are the ideals $\mathfrak{a}+k(u-e)$, where $u$ is a right unit modulo $\mathfrak{a}$. To prove the uniqueness of $\widetilde{\mathfrak{a}}$, it therefore suffices to prove that two right units $u$ and $u'$ of A modulo $\mathfrak{a}$ are congruent modulo $\mathfrak{a}$. Let us reason by contradiction and suppose that $u-u'$ does not belong to $\mathfrak{a}$. The formula $x(u-u') = (xu-x)-(xu'-x)$ shows that we have $A(u-u')\subset \mathfrak{a}$; it follows that $\mathfrak{a}+k(u-u')$ is a left ideal of A containing $\mathfrak{a}$ and distinct from $\mathfrak{a}$. Since $\mathfrak{a}$ is maximal, we therefore have $\mathfrak{a}+k(u-u') = A$, and so AA $\subset \mathfrak{a}$. For every $x\in A$, we have $x\equiv xu$ (mod $\mathfrak{a}$), and therefore $x\in \mathfrak{a}$ by the above, which contradicts the assumption $\mathfrak{a}\not= A$.
 
 Hence there exists a unique left ideal $\widetilde{\mathfrak{a}}$ of $\widetilde{A}$ such that $\widetilde{A} =\widetilde{\mathfrak{a}}+ A$ and $\mathfrak{a}=\widetilde{\mathfrak{a}}\cap A$. Let $\mathfrak{b}$ be a proper left ideal of $\widetilde{A}$ containing $\widetilde{\mathfrak{a}}$. Then $\mathfrak{b}\cap A$ is a proper left ideal of A containing $\mathfrak{a}$. It is therefore equal to $\mathfrak{a}$ because $\mathfrak{a}$ is maximal, which implies $\mathfrak{b}=\widetilde{\mathfrak{a}}$ by Lemma 2 of VIII, p. 4. This proves that $\widetilde{\mathfrak{a}}$ is a maximal ideal of $\widetilde{A}$; for such an ideal, the condition $\widetilde{A} =\widetilde{\mathfrak{a}}+ A$ means that $\widetilde{\mathfrak{a}}$ does not contain A.
 
@@ -144,7 +144,7 @@ Conversely, every left $\widetilde{A}$-module is canonically endowed, by restric
 
 Let M be a left pseudomodule over A, and let N be a $k$-submodule of M. Then N is an $\widetilde{A}$-submodule of M if and only if it is stable under the action of A; we then say that N is a sub-pseudomodule of M.
 
-As in the case of rings, we define the left pseudomodule $A_s$ over A and the right pseudomodule $A_d$. The left (resp. right) ideals of A are the sub-pseudomodules of $A_s$ (resp. $A_d)$.
+As in the case of rings, we define the left pseudomodule $A_s$ over A and the right pseudomodule $A_d$. The left (resp. right) ideals of A are the sub-pseudomodules of $A_s$ (resp. $A_d$).
 
 Let $\mathfrak{a}$ be a regular left ideal of A and $u$ a right unit modulo $\mathfrak{a}$. Set $M = A_s/\mathfrak{a}$, and denote the image of $u$ in M by $z$. We have $M = Az$, and $\mathfrak{a}$ is the annihilator of $z$.
 
@@ -178,7 +178,7 @@ When A is a ring, every left ideal of A is regular, so the definition of the rad
 
 #### Example 1 {#alg-viii-a1-n3-exa-1 .statement tag=00PF}
 
-The radical of the $k$-algebra End$^f_k(V)$ is reduced to 0 (VIII, p. 436, Example 1$).*$ The same holds for the algebras $\mathscr{C}_0(T)$ and $L^1(\mathbf{R}).*$
+The radical of the $k$-algebra End$^f_k(V)$ is reduced to 0 (VIII, p. 436, Example 1)$.*$ The same holds for the algebras $\mathscr{C}_0(T)$ and $L^1(\mathbf{R}).*$
 
 #### Example 2 {#alg-viii-a1-n3-exa-2 .statement tag=00PG}
 
@@ -198,7 +198,7 @@ The equality $\Re (\widetilde{A})\cap A =\Re (A)$ follows from Proposition 4 of 
 
 #### Remark {#alg-viii-a1-n3-rem-1 .statement tag=00PJ}
 
-Let $x$ and $y$ be elements of A; we say that $x$ is a left adverse of $y$, or that $y$ is a right adverse of $x$, if, in $\widetilde{A},x-e$ is a left inverse of $y-e$, that is, if we have $x+y=xy$. By Proposition 7 and Jacobson’s theorem (VIII, p. 156, Theorem 1), the radical of A consists of the elements $x$ of A such that $ux-e$ is left invertible in $\widetilde{A}$ for every $u$ in $\widetilde{A}$. Since we have $(a+\lambda e)x-e=ax+\lambda x-e$ (for $a\in A,\lambda \in k)$, the radical of A is the set of elements $x$ of A such that $ax+\lambda x$ has a left adverse in A for every $a\in A$ and $\lambda \in k$.
+Let $x$ and $y$ be elements of A; we say that $x$ is a left adverse of $y$, or that $y$ is a right adverse of $x$, if, in $\widetilde{A},x-e$ is a left inverse of $y-e$, that is, if we have $x+y=xy$. By Proposition 7 and Jacobson’s theorem (VIII, p. 156, Theorem 1), the radical of A consists of the elements $x$ of A such that $ux-e$ is left invertible in $\widetilde{A}$ for every $u$ in $\widetilde{A}$. Since we have $(a+\lambda e)x-e=ax+\lambda x-e$ (for $a\in A,\lambda \in k$), the radical of A is the set of elements $x$ of A such that $ax+\lambda x$ has a left adverse in A for every $a\in A$ and $\lambda \in k$.
 
 ### 4. Density Theorem
 

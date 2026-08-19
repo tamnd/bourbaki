@@ -29,7 +29,7 @@ subsections:
       pdf_page: 331
 statements: 23
 exercises: 10
-content_sha256: 05a8005752a7259f0a3387f624d400f50bd0040446bc44eecabcfbe739d7fa53
+content_sha256: c910e3f65fe77bd1794c50ec83433f962e78c09ae594efb024d605ff42619bb7
 ---
 
 ## § 5. HOMOTOPIE ET REVÊTEMENTS (CAS DES ESPACES LOCALEMENT CONNEXES PAR ARCS)
@@ -186,7 +186,7 @@ b) Un sous-groupe contenant un sous-groupe admissible est admissible ;
 
 c) L’intersection d’une famille finie de sous-groupes admissibles est admissible ;
 
-d) Pour tout sous-groupe admissible H de $\pi_1(B, a)$ l’intersection des sous-groupes $\gamma H\gamma^{-1}$, lorsque $\gamma$ parcourt $\pi_1(B, a)$, est admissible. En particulier, l’ensemble des sous-groupes distingués admissibles est une base de filtre formée de sous-groupes de $\pi_1(B, a)$ vérifiant l’axiome (GV$'_{III})$ de III, p. 4, d’où la première partie de la proposition d’après TG, III, p. 5, exemple. La seconde partie est alors immédiate (cf. TG, III, p. 7, corollaire de la prop. 4).
+d) Pour tout sous-groupe admissible H de $\pi_1(B, a)$ l’intersection des sous-groupes $\gamma H\gamma^{-1}$, lorsque $\gamma$ parcourt $\pi_1(B, a)$, est admissible. En particulier, l’ensemble des sous-groupes distingués admissibles est une base de filtre formée de sous-groupes de $\pi_1(B, a)$ vérifiant l’axiome (GV$'_{III}$) de III, p. 4, d’où la première partie de la proposition d’après TG, III, p. 5, exemple. La seconde partie est alors immédiate (cf. TG, III, p. 7, corollaire de la prop. 4).
 
 La topologie sur le groupe $\pi_1(B, a)$ caractérisée dans la proposition 4 est appelée la topologie admissible.
 

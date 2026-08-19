@@ -23,9 +23,9 @@ subsections:
       pdf_page: 481
 statements: 5
 exercises: 2
-content_sha256: 75236dbb660e69dc21cc2b2c4e83202f2638f90ed3ba175758bc3edcef62cb6c
+content_sha256: 762b1563ef2f43c28aaca2c81d1f4f9779bb4b6e49aaeb8a07d3522e6d1c6e40
 translated_from: content/en/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md
-source_content_sha256: 6a275f67834f63e59fe4e11e0da0c6b2368eaf17d2d2e94a1d1bcc7eddcbf0d7
+source_content_sha256: b21c8fa64810e183438c648b465f555368181eb6b34b8b9afdc829259a3d239d
 translation_model: nemotron-3-ultra-free, laguna-s-2.1-free, hy3-free, nemotron-3.5-lightning-free
 translation_run: translate-vi-ce069b8d
 glossary_version: 30
@@ -109,7 +109,7 @@ Gọi $i$ là đơn ánh chính tắc của F vào E và gọi $v: E\rightarrow 
 
 Cho E là một A-môđun xạ ảnh và $u\in$ End$^f_A(E)$. Với mọi số tự nhiên $p$, A-môđun $\wedge^pE$ là xạ ảnh (III, §7, No. 8, p. 519, Hệ quả 2), và tự đồng cấu $\wedge^pu$ thuộc End$^f_A(\wedge^pE)$ (III, §7, No. 3, p. 511, Mệnh đề 6) và bằng không với $p$ đủ lớn. Tập hợp $1_E+$ End$^f_A(E)$ là ổn định dưới hợp thành. Ta định nghĩa một ánh xạ det từ $1_E+$ End$^f_A(E)$ đến A bằng cách đặt
 
-det(1$_E+u) =\sum_{p\geqslant 0}$ Tr $\wedge^pu$
+det(1$_E+u$) $=\sum_{p\geqslant 0}$ Tr $\wedge^pu$
 
 với $u\in$ End$^f_A(E)$.
 
@@ -121,27 +121,27 @@ Cho E là một A-môđun xạ ảnh.
 
 a) Cho $u\in$ End$^f_A(E)$. Cho F là một xạ ảnh A-môđun con của E chứa Im $u$, và cho $u_F$ là tự đồng cấu của F cảm sinh bởi $u$. Ta có
 
-(5) det(1$_E+u) =$ det(1$_F+u_F)$.
+(5) det(1$_E+u$) $=$ det(1$_F+u_F$).
 
 b) Cho $u$ và $v$ là hai phần tử của End$^f_A(E)$. Ta có
 
-(6) det $(1_E+u)\circ (1_E+v)$ = det(1$_E+u)$ det(1$_E+v)$.
+(6) det $(1_E+u)\circ (1_E+v)$ = det(1$_E+u$) det(1$_E+v$).
 
 Chứng minh a). Với mọi số nguyên $p\geqslant 0$, môđun A xạảnh $\wedge^pF$ được xác định là một môđun con của $\wedge^pE$ (III, §7, No. 9, p. 520, Hệ qua). Hình ảnh của $\wedge^pu$ được chứa trong $\wedge^pF$, và tự đồng cấu của $\wedge^pF$ do $\wedge^pu$ bằng $\wedge^pu_F$. Do đó ta có Tr($\wedge^pu$) $=$ Tr($\wedge^pu_F$) bằng Hệ quả của Mệnh đề 2, và vì vậy a).
 
-Ta chứng minh b). Cho G là một A-môđun sao cho A-môđun $L = E\oplus G$ là tự do. Ký hiệu $u'$ và $v'$ là các tự đồng cấu $u\oplus 0_G$ và $v\oplus 0_G$ của L. Theo a), ta có các hệ thức det(1$_L+u') =$ det(1$_E+u)$, det(1$_L+v') =$ det(1$_E+v)$, và
+Ta chứng minh b). Cho G là một A-môđun sao cho A-môđun $L = E\oplus G$ là tự do. Ký hiệu $u'$ và $v'$ là các tự đồng cấu $u\oplus 0_G$ và $v\oplus 0_G$ của L. Theo a), ta có các hệ thức det(1$_L+u'$) $=$ det(1$_E+u$), det(1$_L+v'$) $=$ det(1$_E+v$), và
 
-det(1$_L+u'+v'+u'\circ v') =$ det(1$_E+u+v+u\circ v)$.
+det(1$_L+u'+v'+u'\circ v'$) $=$ det(1$_E+u+v+u\circ v$).
 
-Do đó, đủ để chứng minh mệnh đề b) khi A-môđun E là tự do. Khi đó tồn tại một môđun con tự do sinh hữu hạn F của E chứa ảnh của $u$ và ảnh của $v$. Đặt $w=u+v+u\circ v$. Ảnh của $w$ được chứa trong F, và ta có $w_F=u_F+v_F+u_F\circ v_F$. Do đó, theo (5), ta có det(1$_E+u) =$ det(1$_F+u_F)$, det(1$_E+v) =$ det(1$_F+v_F)$, và
+Do đó, đủ để chứng minh mệnh đề b) khi A-môđun E là tự do. Khi đó tồn tại một môđun con tự do sinh hữu hạn F của E chứa ảnh của $u$ và ảnh của $v$. Đặt $w=u+v+u\circ v$. Ảnh của $w$ được chứa trong F, và ta có $w_F=u_F+v_F+u_F\circ v_F$. Do đó, theo (5), ta có det(1$_E+u$) $=$ det(1$_F+u_F$), det(1$_E+v$) $=$ det(1$_F+v_F$), và
 
 det$((1_E+u)\circ (1_E+v))$
 
-= det(1$_E+w) =$ det(1$_F+w_F) =$ det((1$_F+u_F)\circ (1_F+v_F))$.
+= det(1$_E+w$) $=$ det(1$_F+w_F$) $=$ det((1$_F+u_F$)$\circ (1_F+v_F)$).
 
 Vì F là một A-môđun tự do sinh hữu hạn, ta có
 
-det((1$_F+u_F)\circ (1_F+v_F)) =$ det(1$_F+u_F)$ det(1$_F+v_F) =$ det(1$_E+u)$ det(1$_E+v)$.
+det((1$_F+u_F$)$\circ (1_F+v_F)$) $=$ det(1$_F+u_F$) det(1$_F+v_F$) $=$ det(1$_E+u$) det(1$_E+v$).
 
 ### Bài tập {#alg-viii-a4-exercises}
 

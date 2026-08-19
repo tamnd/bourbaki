@@ -33,7 +33,7 @@ subsections:
       pdf_page: 395
 statements: 21
 exercises: 10
-content_sha256: 51df0626d16b3013a47fe3c4250f6b85c9b95f0362cf3c12832cd75e24bf6b9e
+content_sha256: 1169515dcc48f21c5184d88c376c4b8aa59faa45c9c75be74a8ecf51424e3584
 ---
 
 ## § 3. GROUPES DE POINCARÉ DES GROUPES TOPOLOGIQUES
@@ -70,15 +70,15 @@ Démontrons maintenant la proposition. Notons $j$ l’application $g\mapsto$ $(g
 
 Soit U un voisinage de $e$ dans G, contenu dans V. Soit $x\in V$ ; d’après le lemme 1, il existe $u_1, . . . , u_n\in U$ tels que $x=u_1. . . u_n$ et tels que $u_1. . . u_k\in V$ pour tout entier $k$ tel que $1\leqslant k\leqslant n$. Par récurrence, on a $f(u_1. . . u_k) =f(u_1). . . f(u_k)$ pour tout entier $k,1\leqslant k\leqslant n$. En particulier, $j(x)$ appartient au sous-groupe engendré par $j(U)$. Il en résulte que H est engendré par $j(U)$.
 
-Soit $\mathscr{B}$ l’ensemble des parties de H de la forme $j(U)$, où U est un voisinage de $e$ dans V. Montrons qu’il existe une unique topologie sur H, compatible avec sa structure de groupe, pour laquelle $\mathscr{B}$ est une base du filtre des voisinages de l’élément neutre. Pour cela, il suffit de démontrer que l’ensemble $\mathscr{B}$ satisfait aux conditions (GV$'_I)$, (GV$'_{II})$ et (GV$'_{III})$ de III, p. 4.
+Soit $\mathscr{B}$ l’ensemble des parties de H de la forme $j(U)$, où U est un voisinage de $e$ dans V. Montrons qu’il existe une unique topologie sur H, compatible avec sa structure de groupe, pour laquelle $\mathscr{B}$ est une base du filtre des voisinages de l’élément neutre. Pour cela, il suffit de démontrer que l’ensemble $\mathscr{B}$ satisfait aux conditions (GV$'_I$), (GV$'_{II}$) et (GV$'_{III}$) de III, p. 4.
 
-Soit donc U un voisinage de $e$ dans G, contenu dans V ; il existe un voisinage $U'$ de $e$ tel que $U'\cdot U'\subset U$. Pour tout couple $x, y$ de points de $U'$, on a $xy\in V$ et $f(xy) =f(x)f(y)$. Par suite, $j(U')\in \mathscr{B}$ et $j(U')\cdot j(U')\subset j(U)$. Cela montre que la condition (GV$'_I)$ est vérifiée.
+Soit donc U un voisinage de $e$ dans G, contenu dans V ; il existe un voisinage $U'$ de $e$ tel que $U'\cdot U'\subset U$. Pour tout couple $x, y$ de points de $U'$, on a $xy\in V$ et $f(xy) =f(x)f(y)$. Par suite, $j(U')\in \mathscr{B}$ et $j(U')\cdot j(U')\subset j(U)$. Cela montre que la condition (GV$'_I$) est vérifiée.
 
-L’ensemble $U''= V\cap U^{-1}$ est alors un voisinage de $e$ dans V et, pour $x\in U''$, on a $x^{-1}\in U$ et $f(x^{-1}) =f(x)^{-1}$. Par suite, $j(U'')^{-1}\subset j(U)$, ce qui montre la condition (GV$'_{II})$.
+L’ensemble $U''= V\cap U^{-1}$ est alors un voisinage de $e$ dans V et, pour $x\in U''$, on a $x^{-1}\in U$ et $f(x^{-1}) =f(x)^{-1}$. Par suite, $j(U'')^{-1}\subset j(U)$, ce qui montre la condition (GV$'_{II}$).
 
 Fixons enfin un voisinage U de $e$ dans V tel que $U = U^{-1}$ et $U^3\subset V$. Soit W un voisinage de $e$ dans U et soit $h= (g, f(g))$ un élément de $j(U)$. Il existe un voisinage $W'$ de $e$ contenu dans W tel que $gW'g^{-1}\subset W$. Alors, $j(W')\in \mathscr{B}$ et $hj(W')h^{-1}\subset j(W)$, car on a $f(gxg^{-1}) =f(g)f(x)f(g^{-1})$, pour $x\in W'$.
 
-Soit $h\in H$. Comme U est un voisinage de $e$ contenu dans V$,j(U)$ engendre H ; puisque U est symétrique, il existe des éléments $u_1, . . . , u_n$ dans U tels que $h=j(u_1). . . j(u_n)$. Par récurrence sur $n$, il existe un voisinage $W'$ de $e$ contenu dans W tel que $hj(W')h^{-1}\subset j(W)$. Par suite, la condition (GV$'_{III})$ est vérifiée.
+Soit $h\in H$. Comme U est un voisinage de $e$ contenu dans V$,j(U)$ engendre H ; puisque U est symétrique, il existe des éléments $u_1, . . . , u_n$ dans U tels que $h=j(u_1). . . j(u_n)$. Par récurrence sur $n$, il existe un voisinage $W'$ de $e$ contenu dans W tel que $hj(W')h^{-1}\subset j(W)$. Par suite, la condition (GV$'_{III}$) est vérifiée.
 
 Munissons alors le groupe G de cette topologie.
 

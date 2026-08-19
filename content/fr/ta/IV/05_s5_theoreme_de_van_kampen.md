@@ -37,7 +37,7 @@ subsections:
       pdf_page: 445
 statements: 31
 exercises: 34
-content_sha256: 4fe57a614337c232274c8b9074327507563f6a356ad3c807af22864d8bd4dde6
+content_sha256: c9cb3c126ca51430bcfdf8f79aa2c3b874dfc666fe3ef32ccf2a87eeb6f4025f
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -526,7 +526,7 @@ Pour $i\in$ I, notons $g_i:\pi_1(A, a)\rightarrow \pi_1(A_i, a)$ et $f_i:\pi_1(A
 
 éléments $g_i(v)g_{i'}(v)^{-1}$, pour $i, i'\in I$ et $v\in \pi_1(A, a)$.
 
-Les homomorphismes $f_i\circ g_i:\pi_1(A, a)\rightarrow \pi_1(Y, a)$, pour $i\in I$, sont égaux. Il découle donc de la propriété universelle des sommes amalgamées de monoïdes (A, I, p. 80, prop. 4) qu’il existe un unique homomorphisme de groupes $\varphi$ (resp. $f)$ de $*_A\pi_1(A_i, a)$ (resp. de $_i*_{\in I}\pi_1(A_i, a)$) dans $\pi_1(Y, a)$ qui induit l’homomorphisme $f_i$ sur $\pi_1(A_i, a)$. On a $f=$ $\varphi \circ p$.
+Les homomorphismes $f_i\circ g_i:\pi_1(A, a)\rightarrow \pi_1(Y, a)$, pour $i\in I$, sont égaux. Il découle donc de la propriété universelle des sommes amalgamées de monoïdes (A, I, p. 80, prop. 4) qu’il existe un unique homomorphisme de groupes $\varphi$ (resp. $f$) de $*_A\pi_1(A_i, a)$ (resp. de $_i*_{\in I}\pi_1(A_i, a)$) dans $\pi_1(Y, a)$ qui induit l’homomorphisme $f_i$ sur $\pi_1(A_i, a)$. On a $f=$ $\varphi \circ p$.
 
 Pour $i\in$ I, notons $u_i$ l’injection canonique de A dans $A_i$ et $v_i$ l’injection canonique de $A_i$ dans Y. Notons aussi $w$ l’injection canonique de A dans Y. Pour tout $i\in$ I, on a $v_i\circ u_i$ = $w$, donc $\pi_1(v_i, a)\circ \pi_1(u_i, a) =\pi_1(w, a)$. Il découle alors de la propriété universelle des sommes amalgamées de monoïdes (A, I, p. 80, prop. 4) qu’il existe un unique homomorphisme de groupes $\varphi$ de $*_i\pi_1(A_i, a)$ dans $\pi_1(Y, a)$ qui induit l’homomorphisme $\pi_1(v_i, a)$ sur $\pi_1(A_i, a)$. Il s’agit de démontrer que $\varphi$ est un isomorphisme.
 
@@ -722,7 +722,7 @@ L’armature Γ du recouvrement considéré a pour sommets l’ensemble $I'$. Se
 
 Pour $i\in I$, on choisit comme point-base $\mathsf{a}(i) =a_i\in U_i$; on pose aussi $\mathsf{a}(s) =s\in C'(X)$.
 
-Pour $j\in$ J, on pose $\mathsf{b}(j) =\alpha '_f(b_j,\frac{1}{2})$. On note $B_1(j)$ le chemin dans $C'(X)$ d’origine $\mathsf{b}(j)$ et de terme $\mathsf{a}(s)$ donné par $t\mapsto \alpha '_f(b_j,(1-t)/2)$. On note $B_2(j)$ le chemin dans $U_{\varphi(j)}$ d’origine $\mathsf{b}(j)$ et de terme $\mathsf{a}(\varphi (j)) =a_{\varphi(j)}$, juxtaposition du chemin $t\mapsto \alpha '_f(b_j,(1 +t)/2)$ et du chemin $B_j$. Alors, la classe du chemin $B(j) = B_1(j)*B_2(j)$ est égale à $\gamma_j\beta_j$.
+Pour $j\in$ J, on pose $\mathsf{b}(j) =\alpha '_f(b_j,\frac{1}{2})$. On note $B_1(j)$ le chemin dans $C'(X)$ d’origine $\mathsf{b}(j)$ et de terme $\mathsf{a}(s)$ donné par $t\mapsto \alpha '_f(b_j,(1-t)/2)$. On note $B_2(j)$ le chemin dans $U_{\varphi(j)}$ d’origine $\mathsf{b}(j)$ et de terme $\mathsf{a}(\varphi (j)) =a_{\varphi(j)}$, juxtaposition du chemin $t\mapsto \alpha '_f(b_j,(1 +t)/2)$ et du chemin $B_j$. Alors, la classe du chemin $B(j) =\overline{B}_1(j)*B_2(j)$ est égale à $\gamma_j\beta_j$.
 
 On choisit $i_0=s$.
 

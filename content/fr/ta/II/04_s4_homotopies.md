@@ -33,7 +33,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 0
-content_sha256: 5eafbb553a1b0365719841b825490207f84013ce88dc00d99efffccaa00d50e2
+content_sha256: 7c34529e46823508056b41a5c7a747e0356444b68c29c0a6cedd12b3172ae48c
 ---
 
 ## § 4. HOMOTOPIES
@@ -108,13 +108,13 @@ En particulier, si deux des morphismes $\varphi ,\varphi ',\varphi '\circ \varph
 
 Soient G, $G'$ des groupoïdes, soit $\varphi$ un morphisme de G dans $G'$, et soit A une partie de l’ensemble des sommets de G qui rencontre chaque orbite de G. Pour que $\varphi$ soit un homotopisme, il faut et il suffit que les conditions suivantes soient satisfaites :
 
-(i) l’application Orb($\varphi$ ) de Orb(G) dans Orb(G$')$, déduite de $\varphi$ par passage aux orbites, est bijective ;
+(i) l’application Orb($\varphi$ ) de Orb(G) dans Orb(G$'$), déduite de $\varphi$ par passage aux orbites, est bijective ;
 
 (ii) pour tout $a\in A$, l’homomorphisme $\varphi_a: G_a\rightarrow G'_{\varphi(a)}$ est bijectif.
 
 Supposons d’abord que $\varphi$ soit un homotopisme et soit $\psi$ un inverse de $\varphi$ à homotopie près. Alors,
 
-Orb($\psi$ )$\circ$ Orb($\varphi$ ) $=$ Orb($\psi \circ \varphi$ ) $=$ Orb(Id$_G) =$ Id$_{Orb(G)}$,
+Orb($\psi$ )$\circ$ Orb($\varphi$ ) $=$ Orb($\psi \circ \varphi$ ) $=$ Orb(Id$_G$) $=$ Id$_{Orb(G)}$,
 
 car deux morphismes de groupoïdes homotopes induisent la même application par passage aux orbites. De même, Orb($\varphi$ )$\circ$ Orb($\psi$ ) $=$ Id$_{Orb(G')}$. L’application Orb($\varphi$ ) est donc bijective, d’où l’assertion (i). On a aussi, pour tout sommet $a$ de G,
 
@@ -154,9 +154,9 @@ Il résulte en effet de la remarque 1 de II, p. 170 et du corollaire 2 de II, p.
 
 Soit H un carquois, soit G un groupoïde et soient $\varphi$ et $\psi$ des morphismes de carquois de H dans G.
 
-Notons $G_1$ le carquois défini de la façon suivante : les sommets de $G_1$ sont ceux de G ; les flèches de $G_1$ sont les éléments de l’ensemble somme des ensembles Fl(G) et Som(H) ; l’application origine de $G_1$ coïncide avec celle de G dans Fl(G) et avec Som($\varphi$ ) dans Som(H) ; l’application terme de $G_1$ coïncide avec celle de G dans Fl(G) et avec Som($\psi$ ) dans Som(H). Notons $\alpha_1$ le morphisme de carquois de G dans $G_1$ défini par l’application identique de Som(G) et par l’injection canonique de Fl(G) dans Fl(G$_1)$. Notons $h_1$ l’injection canonique Som(H) $\rightarrow$ Fl(G$_1)$.
+Notons $G_1$ le carquois défini de la façon suivante : les sommets de $G_1$ sont ceux de G ; les flèches de $G_1$ sont les éléments de l’ensemble somme des ensembles Fl(G) et Som(H) ; l’application origine de $G_1$ coïncide avec celle de G dans Fl(G) et avec Som($\varphi$ ) dans Som(H) ; l’application terme de $G_1$ coïncide avec celle de G dans Fl(G) et avec Som($\psi$ ) dans Som(H). Notons $\alpha_1$ le morphisme de carquois de G dans $G_1$ défini par l’application identique de Som(G) et par l’injection canonique de Fl(G) dans Fl(G$_1$). Notons $h_1$ l’injection canonique Som(H) $\rightarrow$ Fl(G$_1$).
 
-Considérons le groupoïde libre Grp(G$_1)$ construit sur $G_1($II, p. 174, déf. 9) et notons $\theta_1$ le morphisme canonique de carquois de $G_1$ dans Grp(G$_1)$. Désignons enfin par Coh($\varphi , \psi$ ) le groupoïde déduit de Grp(G$_1)$ par contraction des lacets (en l’origine de $x)$
+Considérons le groupoïde libre Grp(G$_1$) construit sur $G_1($II, p. 174, déf. 9) et notons $\theta_1$ le morphisme canonique de carquois de $G_1$ dans Grp(G$_1$). Désignons enfin par Coh($\varphi , \psi$ ) le groupoïde déduit de Grp(G$_1$) par contraction des lacets (en l’origine de $x$)
 
 $$
 \alpha_1(x)\alpha_1(y)\alpha_1(xy)^{-1} \tag{1}
@@ -168,7 +168,7 @@ $$
 \alpha_1(\varphi (f))h_1(b)\alpha_1(\psi (f))^{-1}h_1(a)^{-1} \tag{2}
 $$
 
-pour $a,b$ dans Som(H) et $f\in$ Fl$_{ab}(H)$. Notons $\pi :$ Grp(G$_1)\rightarrow$ Coh($\varphi , \psi$ ) le morphisme canonique ; posons $\alpha$ = $\pi \circ \theta_1\circ \alpha_1$ et $h=$ Fl($\pi \circ \theta_1$)$\circ h_1$.
+pour $a,b$ dans Som(H) et $f\in$ Fl$_{ab}(H)$. Notons $\pi :$ Grp(G$_1$)$\rightarrow$ Coh($\varphi , \psi$ ) le morphisme canonique ; posons $\alpha$ = $\pi \circ \theta_1\circ \alpha_1$ et $h=$ Fl($\pi \circ \theta_1$)$\circ h_1$.
 
 #### Proposition 2 {#ta-ii-s4-prop-2 .statement tag=01UA}
 
@@ -180,13 +180,13 @@ Ce sous-carquois étant l’image du carquois $G_1$ par le morphisme de carquois
 
 Le morphisme de carquois $\alpha$ est un morphisme de groupoïdes de G dans Coh($\varphi , \psi$ ) et l’application $h$ est une homotopie reliant $\alpha \circ \varphi$ à $\alpha \circ \psi$.
 
-Le triplet (Coh($\varphi , \psi$ )$, \alpha , h)$ possède la propriété universelle suivante : si $G'$ est un groupoïde, $\alpha '$ un morphisme de groupoïdes de G dans $G'$ et $h':$ Som(H) $\rightarrow$ Fl(G$')$ une homotopie reliant $\alpha '\circ \varphi$ à $\alpha '\circ \psi$, il existe un unique morphisme de groupoïdes $\eta :$ Coh($\varphi , \psi$ )$\rightarrow G'$ tel que
+Le triplet (Coh($\varphi , \psi$ )$, \alpha , h$) possède la propriété universelle suivante : si $G'$ est un groupoïde, $\alpha '$ un morphisme de groupoïdes de G dans $G'$ et $h':$ Som(H) $\rightarrow$ Fl(G$'$) une homotopie reliant $\alpha '\circ \varphi$ à $\alpha '\circ \psi$, il existe un unique morphisme de groupoïdes $\eta :$ Coh($\varphi , \psi$ )$\rightarrow G'$ tel que
 
 (3) $\alpha '=\eta \circ \alpha$ et $h'=$ Fl($\eta$ )$\circ h$.
 
 Compte tenu de la définition du groupoïde déduit par contraction de flèches, la contraction des lacets (1) entraîne que $\alpha$ est un morphisme de groupoïdes, la contraction des lacets (2) que $h$ est une homotopie reliant $\alpha \circ \varphi$ à $\alpha \circ \psi$.
 
-Soient $G',\alpha ',h'$ comme dans l’énoncé. Soit $\eta_1$ le morphisme de carquois de $G_1$ dans $G'$ tel que Som($\eta_1$) soit égal à Som($\alpha '$) et tel que Fl($\eta_1$) coïncide avec Fl($\alpha '$) dans Fl(G) et avec $h'$ dans Som(H). Il existe un unique morphisme de groupoïdes $\eta_2:$ Grp(G$_1)\rightarrow G'$ tel que $\eta_1=\eta_2\circ \theta_1$. Comme $\alpha '$ est un morphisme de groupoïdes et $h'$ est une homotopie reliant $\alpha '\circ \varphi$ à $\alpha '\circ \psi ,\eta_2$ définit par passage au quotient un morphisme de groupoïdes $\eta$ de Coh($\varphi , \psi$ ) dans $G'($II, p. 170, prop. 3). Ce morphisme satisfait aux relations (3) et c’est le seul (II, p. 185, prop. 2).
+Soient $G',\alpha ',h'$ comme dans l’énoncé. Soit $\eta_1$ le morphisme de carquois de $G_1$ dans $G'$ tel que Som($\eta_1$) soit égal à Som($\alpha '$) et tel que Fl($\eta_1$) coïncide avec Fl($\alpha '$) dans Fl(G) et avec $h'$ dans Som(H). Il existe un unique morphisme de groupoïdes $\eta_2:$ Grp(G$_1$)$\rightarrow G'$ tel que $\eta_1=\eta_2\circ \theta_1$. Comme $\alpha '$ est un morphisme de groupoïdes et $h'$ est une homotopie reliant $\alpha '\circ \varphi$ à $\alpha '\circ \psi ,\eta_2$ définit par passage au quotient un morphisme de groupoïdes $\eta$ de Coh($\varphi , \psi$ ) dans $G'($II, p. 170, prop. 3). Ce morphisme satisfait aux relations (3) et c’est le seul (II, p. 185, prop. 2).
 
 #### Définition 3 {#ta-ii-s4-def-3 .statement tag=01UC}
 
@@ -198,11 +198,11 @@ On appelle armature du couple $(\varphi , \psi )$ le carquois dont l’ensemble 
 
 L’application Orb($\alpha$ )$:$ Orb(G) $\rightarrow$ Orb(Coh($\varphi , \psi$ )) est surjective, ses fibres sont les composantes connexes de l’armature du couple $(\varphi , \psi )$.
 
-Le morphisme $\alpha$ est le composé des morphismes $\alpha_1: G\rightarrow G_1$, $\theta_1: G_1\rightarrow$ Grp(G$_1)$ et $\pi :$ Grp(G$_1)\rightarrow$ Coh($\varphi , \psi$ ). L’application $\theta_1$ induit une bijection de l’ensemble des composantes connexes du carquois $G_1$ sur l’ensemble des orbites de Grp(G$_1)$ et l’application Orb($\pi$ )$:$ Orb(Grp(G$_1))\rightarrow$ Orb(Coh($\varphi , \psi$ )) est bijective (II, p. 170, remarque 1). Il suffit donc de démontrer que l’application de Orb(G) dans $\pi_0(G_1)$ déduite de $\alpha_1$ est surjective et que ses fibres sont les composantes connexes de l’armature du couple $(\varphi , \psi )$. La surjectivité résulte de ce que l’application Som($\alpha_1$) est l’application identique. La relation d’équivalence dans Som(G) donnée par « $a$ et $b$ sont dans la même composante connexe de $G_1$ » est engendrée par les relations « il existe une flèche de G reliant $a$ à $b$ » et « il existe un sommet $h$ de H tel que $\varphi (h) =a$ et $\psi (h) =b$ ». Cette relation d’équivalence est compatible avec l’application de Som(G) dans Orb(G) et la relation qui s’en déduit dans Orb(G) est engendrée par la relation « il existe une orbite $\eta$ de H telle que Orb($\varphi$ )$(\eta ) =\alpha$ et Orb($\psi$ )$(\eta ) =\beta$ ». C’est donc la relation « $\alpha$ et $\beta$ sont dans la même composante connexe de l’armature du couple $(\alpha , \beta )$ ».
+Le morphisme $\alpha$ est le composé des morphismes $\alpha_1: G\rightarrow G_1$, $\theta_1: G_1\rightarrow$ Grp(G$_1$) et $\pi :$ Grp(G$_1$)$\rightarrow$ Coh($\varphi , \psi$ ). L’application $\theta_1$ induit une bijection de l’ensemble des composantes connexes du carquois $G_1$ sur l’ensemble des orbites de Grp(G$_1$) et l’application Orb($\pi$ )$:$ Orb(Grp(G$_1$))$\rightarrow$ Orb(Coh($\varphi , \psi$ )) est bijective (II, p. 170, remarque 1). Il suffit donc de démontrer que l’application de Orb(G) dans $\pi_0(G_1)$ déduite de $\alpha_1$ est surjective et que ses fibres sont les composantes connexes de l’armature du couple $(\varphi , \psi )$. La surjectivité résulte de ce que l’application Som($\alpha_1$) est l’application identique. La relation d’équivalence dans Som(G) donnée par « $a$ et $b$ sont dans la même composante connexe de $G_1$ » est engendrée par les relations « il existe une flèche de G reliant $a$ à $b$ » et « il existe un sommet $h$ de H tel que $\varphi (h) =a$ et $\psi (h) =b$ ». Cette relation d’équivalence est compatible avec l’application de Som(G) dans Orb(G) et la relation qui s’en déduit dans Orb(G) est engendrée par la relation « il existe une orbite $\eta$ de H telle que Orb($\varphi$ )$(\eta ) =\alpha$ et Orb($\psi$ )$(\eta ) =\beta$ ». C’est donc la relation « $\alpha$ et $\beta$ sont dans la même composante connexe de l’armature du couple $(\alpha , \beta )$ ».
 
 #### Proposition 5 {#ta-ii-s4-prop-5 .statement tag=01UE}
 
-Soit $G'$ un groupoïde, soient $\eta ,\eta '$ des morphismes de groupoïdes de Coh($\varphi , \psi$ ) dans $G'$ et soit $k$ une application de Som(G) dans Fl(G$')$. Pour que $k$ soit une homotopie reliant $\eta$ à $\eta '$, il faut et il suffit que les deux conditions suivantes soient satisfaites :
+Soit $G'$ un groupoïde, soient $\eta ,\eta '$ des morphismes de groupoïdes de Coh($\varphi , \psi$ ) dans $G'$ et soit $k$ une application de Som(G) dans Fl(G$'$). Pour que $k$ soit une homotopie reliant $\eta$ à $\eta '$, il faut et il suffit que les deux conditions suivantes soient satisfaites :
 
 (i) L’application $k$ est une homotopie reliant $\eta \circ \alpha$ à $\eta '\circ \alpha$;
 
@@ -258,7 +258,7 @@ Faisons les hypothèses suivantes :
 
 (i) le morphisme de groupoïdes $v$ est un homotopisme ;
 
-(ii) l’application Orb($u$)$:$ Orb(H) $\rightarrow$ Orb(H$')$, déduite de $u$ par passage aux orbites, est bijective ;
+(ii) l’application Orb($u$)$:$ Orb(H) $\rightarrow$ Orb(H$'$), déduite de $u$ par passage aux orbites, est bijective ;
 
 (iii) il existe dans chaque orbite de H un point $a$ tel que l’homomorphisme $u_a: H_a\rightarrow H'_{u(a)}$ soit surjectif.
 
@@ -274,7 +274,7 @@ $$
 H'vv''\circ \circ \psi \varphi ''G'H'vv''\circ \circ \psi \varphi ''G''
 $$
 
-donnent lieu à des morphismes de groupoïdes $w'_1:$ Coh($\varphi , \psi$ )$\rightarrow$ Coh($v'\circ \varphi ', v'\circ \psi '$) et $w'_2:$ Coh($\varphi ', \psi '$)$\rightarrow$ Coh($v'\circ \varphi ', v'\circ \psi '$) ; on a $w'_1=w'_2\circ w$. Il suffit donc de démontrer que $w'_1$ et $w'_2$ sont des homotopismes. Comme les applications Som($v'\circ v$)$:$ Som(G) $\rightarrow$ Som(G$'')$ et Som($v'$)$:$ Som(G$')\rightarrow$ Som(G$'')$ sont surjectives, il suffit par conséquent de démontrer le théorème sous l’hypothèse supplémentaire que l’application Som($v$) est surjective, hypothèse que nous ferons dans toute la suite de la démonstration.
+donnent lieu à des morphismes de groupoïdes $w'_1:$ Coh($\varphi , \psi$ )$\rightarrow$ Coh($v'\circ \varphi ', v'\circ \psi '$) et $w'_2:$ Coh($\varphi ', \psi '$)$\rightarrow$ Coh($v'\circ \varphi ', v'\circ \psi '$) ; on a $w'_1=w'_2\circ w$. Il suffit donc de démontrer que $w'_1$ et $w'_2$ sont des homotopismes. Comme les applications Som($v'\circ v$)$:$ Som(G) $\rightarrow$ Som(G$''$) et Som($v'$)$:$ Som(G$'$)$\rightarrow$ Som(G$''$) sont surjectives, il suffit par conséquent de démontrer le théorème sous l’hypothèse supplémentaire que l’application Som($v$) est surjective, hypothèse que nous ferons dans toute la suite de la démonstration.
 
 Démontrons successivement les assertions suivantes :
 
@@ -296,7 +296,7 @@ $$
 
 car $h'$ est une homotopie reliant $\alpha '\circ \varphi '$ à $\alpha '\circ \psi '$. La flèche $h'(u(a)) =$ $w(h(a))$ appartient à l’image de Fl($w$), de même que les deux flèches $\alpha '(\psi '(f))$ et $\alpha '(\varphi '(f))$ d’après ce qui précède. Il en résulte que la flèche $h'(b)$ appartient à l’image de Fl($w$), ce qui démontre que l’image de Fl($w$) contient celle de $h'$. D’après la prop. 2 de II, p. 185, l’application Fl($w$) est surjective.
 
-Soit $g'\in$ Coh($\varphi ', \psi '$)$_{u(a)}$. Soit $g$ une flèche de Coh($\varphi , \psi$ ) telle que $w(g) =g'$. Notons $x$ et $y$ l’origine et le terme de $g$; on a $u(x) =$ $u(y) =u(a)$. Soit $g_1$ (resp. $g_2)$ une flèche de G reliant $a$ à $x$ (resp. $a$ à $y)$ dont l’image par $v$ est $e_{u(a)}$. Alors, $\alpha (g_1)g\alpha (g_2)^{-1}$ est un élément de Coh($\varphi , \psi$ )$_a$ dont l’image par $w_a$ est $g'$. Par suite, pour tout sommet $a$ de G, l’homomorphisme $w_a$ est surjectif.
+Soit $g'\in$ Coh($\varphi ', \psi '$)$_{u(a)}$. Soit $g$ une flèche de Coh($\varphi , \psi$ ) telle que $w(g) =g'$. Notons $x$ et $y$ l’origine et le terme de $g$; on a $u(x) =$ $u(y) =u(a)$. Soit $g_1$ (resp. $g_2$) une flèche de G reliant $a$ à $x$ (resp. $a$ à $y$) dont l’image par $v$ est $e_{u(a)}$. Alors, $\alpha (g_1)g\alpha (g_2)^{-1}$ est un élément de Coh($\varphi , \psi$ )$_a$ dont l’image par $w_a$ est $g'$. Par suite, pour tout sommet $a$ de G, l’homomorphisme $w_a$ est surjectif.
 
 c) Démontrons que, pour tout sommet $a$ de G, l’homomorphisme $w_a$ est injectif. En considérant successivement les diagrammes
 
@@ -368,7 +368,7 @@ $$
 
 puisque $h$ est une homotopie reliant $\alpha \circ \varphi$ à $\alpha \circ \psi$. Cela démontre l’indépendance annoncée.
 
-Par construction, on a $h_2(u(x)) =h(x)$ pour tout $x\in$ Som(H). Nous avons ainsi défini une application $h_2$ de Som(H$')$ dans Fl(Coh($\varphi , \psi$ )). Soit $c$ une flèche de $H'$, notons $x$ son origine et $y$ son terme. Soit $a$ un sommet de H et $f$ une flèche de $H'$ reliant $u(a)$ à $x$. Alors, $f c$ est une flèche de $H'$ qui relie $u(a)$ à $y$. Par définition de $h_2$, on a ainsi
+Par construction, on a $h_2(u(x)) =h(x)$ pour tout $x\in$ Som(H). Nous avons ainsi défini une application $h_2$ de Som(H$'$) dans Fl(Coh($\varphi , \psi$ )). Soit $c$ une flèche de $H'$, notons $x$ son origine et $y$ son terme. Soit $a$ un sommet de H et $f$ une flèche de $H'$ reliant $u(a)$ à $x$. Alors, $f c$ est une flèche de $H'$ qui relie $u(a)$ à $y$. Par définition de $h_2$, on a ainsi
 
 $$
 h_2(x)\alpha (\psi '(c)) =\alpha (\varphi '(f))^{-1}h(a)\alpha (\psi '(f))\alpha (\psi '(c))
@@ -392,7 +392,7 @@ Il résulte alors de la prop. 1 de II, p. 182 que le morphisme $w$ est un homoto
 
 Soient G et H des groupoïdes et soient $\varphi ,\psi$ des morphismes de groupoïdes de H dans G. Le but de ce n$^o$ est de calculer les groupes d’isotropie du cohomotopeur Coh($\varphi , \psi$ ). On reprend les notations $G_1, h_1, \theta_1, \alpha , h$ du n$^o3$.
 
-Notons $\Gamma_0$ l’armature du couple $(\varphi , \psi )$ ; rappelons (II, p. 185, déf. 3) qu’il s’agit du carquois (Orb(G), Orb(H)$, \varphi_0, \psi_0)$, où $\varphi_0$ et $\psi_0$ sont les applications de Orb(H) dans Orb(G) déduites des applications $\varphi$ et $\psi$ par passage aux orbites.
+Notons $\Gamma_0$ l’armature du couple $(\varphi , \psi )$ ; rappelons (II, p. 185, déf. 3) qu’il s’agit du carquois (Orb(G), Orb(H)$, \varphi_0, \psi_0$), où $\varphi_0$ et $\psi_0$ sont les applications de Orb(H) dans Orb(G) déduites des applications $\varphi$ et $\psi$ par passage aux orbites.
 
 Dans toute la suite de ce n$^o$, nous supposerons en outre que le carquois $\Gamma_0$ est connexe et non vide ; d’après II, p. 185, prop. 4, cela revient à supposer que le groupoïde Coh($\varphi , \psi$ ) est transitif, ou encore que le carquois $G_1$ est connexe et non vide (II, p. 185, prop. 2).
 
@@ -410,13 +410,13 @@ On appelle équipement de base du couple $(\varphi , \psi )$ la donnée :
 
 (v) D’une orbite $i_0$ de G.
 
-Choisissons un équipement de base $(a, b, c_1, c_2,T, i_0)$ du couple $(\varphi , \psi )$. On définit un morphisme de carquois $\tau_1$ de $\Gamma_0$ dans Grp(G$_1)$ en posant $\tau_1(i) =a(i)$ pour $i\in$ Som(Γ$_0) =$ Orb(G) et
+Choisissons un équipement de base $(a, b, c_1, c_2,T, i_0)$ du couple $(\varphi , \psi )$. On définit un morphisme de carquois $\tau_1$ de $\Gamma_0$ dans Grp(G$_1$) en posant $\tau_1(i) =a(i)$ pour $i\in$ Som(Γ$_0$) $=$ Orb(G) et
 
 $$
 \tau_1(j) =c_1(j)^{-1}\cdot h_1(b(j))\cdot c_2(j)
 $$
 
-pour $j\in$ Fl(Γ$_0) =$ Orb(H). Nous noterons $\tau_0$ le composé de $\tau_1$ et du morphisme canonique $\theta_1$ de Grp(G$_1)$ dans Coh($\varphi , \psi$ ) ; c’est un morphisme de carquois de $\Gamma_0$ dans Coh($\varphi , \psi$ ).
+pour $j\in$ Fl(Γ$_0$) $=$ Orb(H). Nous noterons $\tau_0$ le composé de $\tau_1$ et du morphisme canonique $\theta_1$ de Grp(G$_1$) dans Coh($\varphi , \psi$ ) ; c’est un morphisme de carquois de $\Gamma_0$ dans Coh($\varphi , \psi$ ).
 
 Pour $i\in$ Orb(G), notons $\alpha_i: G_{a(i)}\rightarrow$ Coh($\varphi , \psi$ )$_{a(i)}$ l’homomorphisme de groupes déduit du morphisme $\alpha : G\rightarrow$ Coh($\varphi , \psi$ ) par restriction aux groupes d’isotropie en $a(i)$.
 
@@ -432,9 +432,9 @@ de sorte que l’on a, pour tout élément $f$ de $H_{b(j)}$,
 
 (6) $\varphi_j(f) =c_1(j)^{-1}\varphi (f)c_1(j)$ et $\psi_j(f) =c_2(j)^{-1}\psi (f)c_2(j)$.
 
-Pour tout sommet $i$ de $\Gamma_0$, notons encore $d_i$ l’unique classe de chemins reliant $i_0$ à $i$ dans l’arbre $\widetilde{T}$; on la considère comme une flèche de Grp(Γ$_0)$. Notons alors $\delta_i$ la flèche de Coh($\varphi , \psi$ ) image de $d_i$ par le morphisme canonique de Grp(Γ$_0)$ dans Coh($\varphi , \psi$ ) déduit de $\tau_0$; l’origine de $\delta_i$ est $a(i_0)$, son terme est $a(i)$.
+Pour tout sommet $i$ de $\Gamma_0$, notons encore $d_i$ l’unique classe de chemins reliant $i_0$ à $i$ dans l’arbre $\widetilde{T}$; on la considère comme une flèche de Grp(Γ$_0$). Notons alors $\delta_i$ la flèche de Coh($\varphi , \psi$ ) image de $d_i$ par le morphisme canonique de Grp(Γ$_0$) dans Coh($\varphi , \psi$ ) déduit de $\tau_0$; l’origine de $\delta_i$ est $a(i_0)$, son terme est $a(i)$.
 
-Le morphisme de carquois $\tau_0$, les homomorphismes de groupes $\alpha_i$ (pour $i\in$ Orb(G)$),\varphi_j$ et $\psi_j$ (pour $j\in$ Orb(H)), et les flèches $\delta_i$ dans Coh($\varphi , \psi$ ) (pour $i\in$ Orb(G)) seront dits déduits de l’équipement de base.
+Le morphisme de carquois $\tau_0$, les homomorphismes de groupes $\alpha_i$ (pour $i\in$ Orb(G))$,\varphi_j$ et $\psi_j$ (pour $j\in$ Orb(H)), et les flèches $\delta_i$ dans Coh($\varphi , \psi$ ) (pour $i\in$ Orb(G)) seront dits déduits de l’équipement de base.
 
 Si $(G_i)_{i\in I}$ est une famille de groupes, on note $_i*_{\in I}G_i$ leur produit libre ; l’image d’un élément $g\in G_i$ par l’application canonique de $G_i$ dans $_i*_{\in I}G_i$ sera notée $[g]$, voire $g$ s’il n’y a pas de confusion possible. Si S est un ensemble, on note F(S) le groupe libre construit sur S (A, I, p. 84).
 
@@ -458,7 +458,7 @@ L’existence et l’unicité de l’homomorphisme Λ résulte de la propriété
 
 Notons A l’ensemble des $a(i)$ pour $i\in$ Orb(G) et $G_A$ le sous-groupoïde plein de G dont l’ensemble des sommets est A. Pour tout $x\in$ Som(G), notons $\overline{x}$ l’orbite de $x$ dans G et choisissons une flèche $d_x$ de G reliant $x$ à $a(\overline{x})$. Le couple $v$ formé de l’application $x\mapsto a(\overline{x})$ de Som(G) dans A et de l’application qui à $f\in$ Fl$_{x,y}(G)$ associe l’élément $d^{-1}_xf d_y$ de Fl$_{a(\overline{x}),a(\overline{y})}(G_A)$ est un morphisme de groupoïdes. Il résulte de la prop. 1 de II, p. 182 que $v$ est un homotopisme. Notons $\varphi '=v\circ \varphi$ et $\psi '=v\circ \psi$, puis $w$ le morphisme canonique de Coh($\varphi , \psi$ ) dans Coh($\varphi ', \psi '$) ; c’est un homotopisme (II, p. 187, théorème 1).
 
-Les orbites de $G_A$ sont les ensembles $\{a\}$, pour $a\in A$, et l’injection $G_A\rightarrow G$ induit une bijection de Orb(G$_A)$ sur Orb(G) par laquelle nous identifierons ces deux ensembles. On définit un équipement de base $(a', b', \beta '_1, \beta '_2,T', i_0)$ du couple $(\varphi ', \psi ')$ en posant $a'(i) =a(i)$ pour $i\in$ Orb(G)$,b'(j) =b(j),\beta '_1(j) =v(c_1(j)),\beta '_2(j) =v(c_2(j))$ pour $j\in$ Orb(H) et $T'= T$. Les homomorphismes de groupes $\varphi '_j$ et $\psi '_j$ (pour $j\in$ Orb(H)), le morphisme de carquois $\tau '_0$, les flèches $\delta '_i$ (pour $i\in$ Orb(G)), et donc l’homomorphisme de groupes $\Lambda '$, déduits de cet équipement de base sont les composés avec $w$ des homomorphismes correspondants $\varphi_j,\psi_j$, du morphisme de carquois $\tau_0$, des flèches correspondantes $\delta_i$ et de l’homomorphisme Λ.
+Les orbites de $G_A$ sont les ensembles $\{a\}$, pour $a\in A$, et l’injection $G_A\rightarrow G$ induit une bijection de Orb(G$_A$) sur Orb(G) par laquelle nous identifierons ces deux ensembles. On définit un équipement de base $(a', b', \beta '_1, \beta '_2,T', i_0)$ du couple $(\varphi ', \psi ')$ en posant $a'(i) =a(i)$ pour $i\in$ Orb(G)$,b'(j) =b(j),\beta '_1(j) =v(c_1(j)),\beta '_2(j) =v(c_2(j))$ pour $j\in$ Orb(H) et $T'= T$. Les homomorphismes de groupes $\varphi '_j$ et $\psi '_j$ (pour $j\in$ Orb(H)), le morphisme de carquois $\tau '_0$, les flèches $\delta '_i$ (pour $i\in$ Orb(G)), et donc l’homomorphisme de groupes $\Lambda '$, déduits de cet équipement de base sont les composés avec $w$ des homomorphismes correspondants $\varphi_j,\psi_j$, du morphisme de carquois $\tau_0$, des flèches correspondantes $\delta_i$ et de l’homomorphisme Λ.
 
 Soit B l’ensemble des $b(j)$ pour $j\in$ Orb(H), soit $H_B$ le sous-groupoïde plein de H d’ensemble de sommets B ; notons $u: H_B\rightarrow H$ l’injection canonique ; posons $\varphi ''=\varphi '\circ u$ et $\psi ''=\psi '\circ u$. Le morphisme $u$ induit une bijection B $\rightarrow$ Orb(H) par laquelle nous identifierons ces deux ensembles. On déduit encore du théorème 1 de II, p. 187 un homotopisme canonique $w':$ Coh($\varphi '', \psi ''$)$\rightarrow$ Coh($\varphi ', \psi '$). En outre, le couple $(\varphi '', \psi '')$ est muni d’un équipement de base $(a'', b'', \beta ''_1, \beta ''_2,T'', i_0)$, de sorte que $\Lambda ', \varphi '_j, \psi '_j, \tau '_0, \delta '_i(i, i'\in$ Orb(G), $j\in$ Orb(H)) soient les composés avec $w'$ de $\Lambda '', \varphi ''_j, \psi ''_j, \tau ''_0, \delta ''_i$.
 
@@ -480,11 +480,11 @@ H $^{\varphi}_{\psi}$ G $^{\alpha}$ Coh($\varphi , \psi$ ) .
 
 Pour démontrer la proposition, on peut donc supposer que A = Som(G) et B = Som(H), autrement dit que les applications canoniques Som(G) $\rightarrow$ Orb(G) et Som(H) $\rightarrow$ Orb(H) sont bijectives, hypothèses sous lesquelles nous nous placerons dans la suite de la démonstration.
 
-Le carquois $G_1$ a alors pour ensemble de sommets A et pour flèches l’ensemble somme des ensembles $G_a,a\in A$, et de l’ensemble B. Les flèches de $G_a$ sont des lacets en $a$; si $b\in B$, la flèche $b$ relie $\varphi (b)$ à $\psi (b)$, les flèches $c_1(b)$ et $c_2(b)$ sont des lacets respectivement en $\varphi (b)$ et $\psi (b)$. Le carquois T sera identifié à un arbre orienté de $G_1$; c’en est un arbre orienté maximal car l’ensemble de ses sommets est égal à l’ensemble des sommets de $G_1($II, p. 157, prop. 1). On posera $a_0=a(i_0)$. L’ensemble des flèches de l’armature $\Gamma_0$ du couple $(\varphi , \psi )$ étant identifié à B, le morphisme de carquois $\tau_1: \Gamma_0\rightarrow$ Grp(G$_1)$ associe à la flèche $b$ la classe de chemins $c_1(b)^{-1}bc_2(b)$ dans le graphe $\widetilde{G}_1$.
+Le carquois $G_1$ a alors pour ensemble de sommets A et pour flèches l’ensemble somme des ensembles $G_a,a\in A$, et de l’ensemble B. Les flèches de $G_a$ sont des lacets en $a$; si $b\in B$, la flèche $b$ relie $\varphi (b)$ à $\psi (b)$, les flèches $c_1(b)$ et $c_2(b)$ sont des lacets respectivement en $\varphi (b)$ et $\psi (b)$. Le carquois T sera identifié à un arbre orienté de $G_1$; c’en est un arbre orienté maximal car l’ensemble de ses sommets est égal à l’ensemble des sommets de $G_1($II, p. 157, prop. 1). On posera $a_0=a(i_0)$. L’ensemble des flèches de l’armature $\Gamma_0$ du couple $(\varphi , \psi )$ étant identifié à B, le morphisme de carquois $\tau_1: \Gamma_0\rightarrow$ Grp(G$_1$) associe à la flèche $b$ la classe de chemins $c_1(b)^{-1}bc_2(b)$ dans le graphe $\widetilde{G}_1$.
 
-Rappelons que $\theta_1$ désigne le morphisme canonique de carquois de $G_1$ dans Grp(G$_1)$. Notons
+Rappelons que $\theta_1$ désigne le morphisme canonique de carquois de $G_1$ dans Grp(G$_1$). Notons
 
-$\lambda :_a*_{\in A}F(G_a)*F(B)\rightarrow$ Grp(G$_1)_{a_0}$
+$\lambda :_a*_{\in A}F(G_a)*F(B)\rightarrow$ Grp(G$_1$)$_{a_0}$
 
 l’unique homomorphisme de groupes tel que l’on ait
 
@@ -492,9 +492,9 @@ $\lambda (f) =\tau_1(d_a)\theta_1(f)\tau_1(d_a)^{-1}$ si $a\in A$ et $f\in G_a$;
 
 $\lambda (b) =\tau_1(d_{\varphi(b)})\tau_1(b)\tau_1(d_{\psi(b)})^{-1}$ si $b\in B$.
 
-On a ainsi $\lambda =\lambda '\circ \varepsilon$, où $\lambda '$ désigne l’homomorphisme de groupes canonique de $_a*_{\in A}F(G_a)*F(B)$ dans Grp(G$_1)_{a_0}$ défini par l’arbre orienté maximal T (II, p. 179, prop. 9) et où $\varepsilon$ est l’unique automorphisme du groupe $_a*_{\in A}F(G_a)*F(B)$ tel que $\varepsilon (f) =f$ pour $a\in A$ et $f\in G_a$, et $\varepsilon (b) =c_1(b)^{-1}h_1(b)c_2(b)$ pour $b\in B$. D’après la remarque 2 de II, p. 179, l’homomorphisme $\lambda$ est surjectif et que son noyau est le plus petit sous-groupe distingué de $_a*_{\in A}F(G_a)*F(B)$ qui contient les flèches de T.
+On a ainsi $\lambda =\lambda '\circ \varepsilon$, où $\lambda '$ désigne l’homomorphisme de groupes canonique de $_a*_{\in A}F(G_a)*F(B)$ dans Grp(G$_1$)$_{a_0}$ défini par l’arbre orienté maximal T (II, p. 179, prop. 9) et où $\varepsilon$ est l’unique automorphisme du groupe $_a*_{\in A}F(G_a)*F(B)$ tel que $\varepsilon (f) =f$ pour $a\in A$ et $f\in G_a$, et $\varepsilon (b) =c_1(b)^{-1}h_1(b)c_2(b)$ pour $b\in B$. D’après la remarque 2 de II, p. 179, l’homomorphisme $\lambda$ est surjectif et que son noyau est le plus petit sous-groupe distingué de $_a*_{\in A}F(G_a)*F(B)$ qui contient les flèches de T.
 
-Notons $\pi :$ Grp(G$_1)\rightarrow$ Coh($\varphi , \psi$ ) le morphisme de groupoïdes canonique. D’après II, p. 177, cor. 1 de la prop. 8, le morphisme de groupes $\pi_{a_0}$ de Grp(G$_1)_{a_0}$ dans Coh($\varphi , \psi$ )$_{a_0}$ est surjectif, et son noyau est le plus petit sous-groupe distingué de Grp(G$_1)_{a_0}$ qui contient les lacets Int($\tau_1(d_a)$)$(\alpha_1(f)\alpha_1(g)\alpha_1(f g)^{-1})$, pour $a\in A$ et $f,g\in G_a$, et les lacets Int($\tau_1(d_{\varphi(b)})$)$(\varphi (f)b\psi (f)^{-1}b^{-1})$, pour $b\in B$ et $f\in H_b$.
+Notons $\pi :$ Grp(G$_1$)$\rightarrow$ Coh($\varphi , \psi$ ) le morphisme de groupoïdes canonique. D’après II, p. 177, cor. 1 de la prop. 8, le morphisme de groupes $\pi_{a_0}$ de Grp(G$_1$)$_{a_0}$ dans Coh($\varphi , \psi$ )$_{a_0}$ est surjectif, et son noyau est le plus petit sous-groupe distingué de Grp(G$_1$)$_{a_0}$ qui contient les lacets Int($\tau_1(d_a)$)$(\alpha_1(f)\alpha_1(g)\alpha_1(f g)^{-1})$, pour $a\in A$ et $f,g\in G_a$, et les lacets Int($\tau_1(d_{\varphi(b)})$)$(\varphi (f)b\psi (f)^{-1}b^{-1})$, pour $b\in B$ et $f\in H_b$.
 
 Si $p: F(\bigcup G_a\cup B)\rightarrow (_a*_{\in A}G_a)*F(B)$ désigne l’homomorphisme surjectif canonique, on a ainsi $\Lambda \circ p=\pi_{a_0}\circ \lambda$. Cette formule entraîne que l’homomorphisme Λ est surjectif ; il reste à déterminer son noyau.
 

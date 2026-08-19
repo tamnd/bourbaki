@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: 0223e59139cc83c9b959b93f9df43585b0e787a51919b9525bbbfa1144a8747c
+content_sha256: a8bd33d215421a9a30aef31c1c2f59834481f618462b7e071e62b8ff6775f546
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -124,11 +124,11 @@ a) Si E ou F est de type $\mathscr{C}$, il en est de même de l’image de $u$.
 
 b) Si E est de type $\mathscr{C}$, il en est de même du noyau de $u$ et l’on a
 
-(2) $\varphi (E) =\varphi$(Ker $u) +\varphi$(Im $u)$.
+(2) $\varphi (E) =\varphi$(Ker $u$) $+\varphi$(Im $u$).
 
 c) Si F est de type $\mathscr{C}$, il en est de même du conoyau de $u$, et l’on a
 
-(3) $\varphi (F) =\varphi$(Im $u) +\varphi$(Coker $u)$.
+(3) $\varphi (F) =\varphi$(Im $u$) $+\varphi$(Coker $u$).
 
 La proposition résulte de l’existence de suites exactes
 
@@ -220,7 +220,7 @@ $$
 (\mathscr{E})0\longrightarrow E'\longrightarrow E\longrightarrow E''\longrightarrow 0
 $$
 
-de modules de type $\mathscr{C}$, on note $r_{\mathscr{E}}$ l’élément cl(E) $-$ cl(E$')-$ cl(E$'')$ de $\mathbf{Z}^{(\mathscr{C})}$. Soit R le sous-groupe de $\mathbf{Z}^{(\mathscr{C})}$ engendré par les éléments de la forme $r_{\mathscr{E}}$; le groupe quotient $\mathbf{Z}^{(\mathscr{C})}/R$ s’appelle le groupe de Grothendieck de $\mathscr{C}$ et se note $K(\mathscr{C})$. Pour tout module E de type $\mathscr{C}$, on note $[E]_{\mathscr{C}}$ (ou parfois [E] lorsqu’il n’y a pas d’ambiguïté sur $\mathscr{C})$ l’image de cl(E) dans $K(\mathscr{C})$. On a alors la propriété universelle suivante :
+de modules de type $\mathscr{C}$, on note $r_{\mathscr{E}}$ l’élément cl(E) $-$ cl(E$'$)$-$ cl(E$''$) de $\mathbf{Z}^{(\mathscr{C})}$. Soit R le sous-groupe de $\mathbf{Z}^{(\mathscr{C})}$ engendré par les éléments de la forme $r_{\mathscr{E}}$; le groupe quotient $\mathbf{Z}^{(\mathscr{C})}/R$ s’appelle le groupe de Grothendieck de $\mathscr{C}$ et se note $K(\mathscr{C})$. Pour tout module E de type $\mathscr{C}$, on note $[E]_{\mathscr{C}}$ (ou parfois [E] lorsqu’il n’y a pas d’ambiguïté sur $\mathscr{C}$) l’image de cl(E) dans $K(\mathscr{C})$. On a alors la propriété universelle suivante :
 
 #### Proposition 4 {#alg-viii-s11-prop-4 .statement tag=00D2}
 
@@ -242,11 +242,11 @@ $$
 
 On peut démontrer (AC, VIII, p. 13, prop. 10) que dans $K(n,A)$, les éléments $[A/\mathfrak{p}]_{\mathscr{C}_n}$, où $\mathfrak{p}$ parcourt l’ensemble des éléments de Σ de hauteur $n$, forment une base d’un $\mathbf{Z}$-module supplémentaire de l’image de $\gamma_n$. Plus précisément, pour tout module E de type $\mathscr{C}^{\geqslant n}$, on a
 
-$[E]_{\mathscr{C}^{\geqslant n}}\equiv \sum$ long$_{A_{\mathfrak{p}}}(E_{\mathfrak{p}})\cdot [A/\mathfrak{p}]_{\mathscr{C}^{\geqslant n}}$ (mod. Im$\gamma_n).*$
+$[E]_{\mathscr{C}^{\geqslant n}}\equiv \sum$ long$_{A_{\mathfrak{p}}}(E_{\mathfrak{p}})\cdot [A/\mathfrak{p}]_{\mathscr{C}^{\geqslant n}}$ (mod. Im$\gamma_n$)$.*$
 
 $\{\mathfrak{p}\in \Sigma |$ht($\mathfrak{p}$)$=n\}$
 
-Le groupe $K(\mathscr{C})$ est engendré par les éléments de la forme $[E]_{\mathscr{C}}$ (avec $E\in \mathscr{C})$ et l’on a $[E\oplus E']_{\mathscr{C}}= [E]_{\mathscr{C}}+ [E']_{\mathscr{C}}$ d’après la formule (1) (VIII, p. 180) ; tout élément de $K(\mathscr{C})$ est donc de la forme $[E]_{\mathscr{C}}-[F]_{\mathscr{C}}$, où E et F appartiennent à $\mathscr{C}$.
+Le groupe $K(\mathscr{C})$ est engendré par les éléments de la forme $[E]_{\mathscr{C}}$ (avec $E\in \mathscr{C}$) et l’on a $[E\oplus E']_{\mathscr{C}}= [E]_{\mathscr{C}}+ [E']_{\mathscr{C}}$ d’après la formule (1) (VIII, p. 180) ; tout élément de $K(\mathscr{C})$ est donc de la forme $[E]_{\mathscr{C}}-[F]_{\mathscr{C}}$, où E et F appartiennent à $\mathscr{C}$.
 
 Un élément de $K(\mathscr{C})$ est dit effectif s’il est de la forme $[E]_{\mathscr{C}}$ pour un A-module E de type $\mathscr{C}$. L’ensemble des éléments effectifs de $K(\mathscr{C})$ se note $K(\mathscr{C})^+$; c’est un sous-monoïde de $K(\mathscr{C})$ et $K(\mathscr{C})$ s’identifie au groupe des différences de $K(\mathscr{C})^+$ (I, p. 19).
 
@@ -282,9 +282,9 @@ cl(E) $-$ cl(F) $=\sum_{j\in J}r_{\mathscr{H}_j}-\sum_{i\in I}r_{\mathscr{G}_i}$
 
 Plus explicitement, cette relation s’écrit
 
-(7) cl(E) $+\sum_{i\in I}$ cl(G$_i) +\sum_{j\in J}$ cl(H$'_j) +\sum_{j\in J}$ cl(H$''_j)$
+(7) cl(E) $+\sum_{i\in I}$ cl(G$_i$) $+\sum_{j\in J}$ cl(H$'_j$) $+\sum_{j\in J}$ cl(H$''_j$)
 
-= cl(F) $+\sum_{i\in I}$ cl(G$'_i) +\sum_{i\in I}$ cl(G$''_i) +\sum_{j\in J}$ cl(H$_j)$. Posons $G =\bigoplus_{i\in I}G_i, G'=\bigoplus_{i\in I}G'_i$, etc. Par passage aux sommes directes, on construit des suites exactes
+= cl(F) $+\sum_{i\in I}$ cl(G$'_i$) $+\sum_{i\in I}$ cl(G$''_i$) $+\sum_{j\in J}$ cl(H$_j$). Posons $G =\bigoplus_{i\in I}G_i, G'=\bigoplus_{i\in I}G'_i$, etc. Par passage aux sommes directes, on construit des suites exactes
 
 $(\mathscr{G})$ 0 // ${G'}^p$ // G $^q$ // $G''$ // 0
 
@@ -292,7 +292,7 @@ $(\mathscr{H})$ 0 // ${H'}^r$ // H $^s$ // $H''$ // 0
 
 formées de modules de type $\mathscr{C}$.
 
-Par ailleurs, soient $M_1, . . . ,M_m,N_1, . . . ,N_n$ des A-modules de type $\mathscr{C}$. Si l’on a $\sum^m_{i=1}$ cl(M$_i) =\sum^n_{j=1}$ cl(N$_j)$ dans le groupe $\mathbf{Z}^{(\mathscr{C})}$, on a $m=n$ et il existe une permutation $\sigma \in \mathfrak{S}_m$ telle que cl(M$_i) =$ cl(N$_{\sigma(i)})$ pour tout $1\leqslant i\leqslant m$ (I, p. 90, prop. 11) ; par suite, les modules $\oplus^m_{i=1}M_i$ et $\oplus^n_{j=1}N_j$ sont isomorphes. En particulier, on déduit de (7) l’existence d’un isomorphisme de $E\oplus Q$ sur $F\oplus P$, où l’on a posé
+Par ailleurs, soient $M_1, . . . ,M_m,N_1, . . . ,N_n$ des A-modules de type $\mathscr{C}$. Si l’on a $\sum^m_{i=1}$ cl(M$_i$) $=\sum^n_{j=1}$ cl(N$_j$) dans le groupe $\mathbf{Z}^{(\mathscr{C})}$, on a $m=n$ et il existe une permutation $\sigma \in \mathfrak{S}_m$ telle que cl(M$_i$) $=$ cl(N$_{\sigma(i)}$) pour tout $1\leqslant i\leqslant m$ (I, p. 90, prop. 11) ; par suite, les modules $\oplus^m_{i=1}M_i$ et $\oplus^n_{j=1}N_j$ sont isomorphes. En particulier, on déduit de (7) l’existence d’un isomorphisme de $E\oplus Q$ sur $F\oplus P$, où l’on a posé
 
 $$
 P = G'\oplus G''\oplus H,Q = G\oplus H'\oplus H''
@@ -322,7 +322,7 @@ $$
 
 ce qui conclut la démonstration.
 
-Pour la loi de composition $(E,E')\rightarrow$ cl(E $\oplus E')$, l’ensemble $\mathscr{C}$ est un monoïde commutatif. On note parfois $K'(\mathscr{C})$ le groupe des différences du monoïde commutatif $\mathscr{C}$ (I, p. 19), et on l’appelle le groupe de Grothendieck de $\mathscr{C}$ pour les sommes directes. Pour tout module E de type $\mathscr{C}$, on note $[E]'_{\mathscr{C}}$ l’image de cl(E) dans $K'(\mathscr{C})$.
+Pour la loi de composition $(E,E')\rightarrow$ cl(E $\oplus E'$), l’ensemble $\mathscr{C}$ est un monoïde commutatif. On note parfois $K'(\mathscr{C})$ le groupe des différences du monoïde commutatif $\mathscr{C}$ (I, p. 19), et on l’appelle le groupe de Grothendieck de $\mathscr{C}$ pour les sommes directes. Pour tout module E de type $\mathscr{C}$, on note $[E]'_{\mathscr{C}}$ l’image de cl(E) dans $K'(\mathscr{C})$.
 
 #### Proposition 6 {#alg-viii-s11-prop-6 .statement tag=00D5}
 
@@ -336,7 +336,7 @@ L’assertion a) est évidente. L’assertion b) résulte de (I, p. 18, th. 1) e
 
 Comme l’application $E\rightarrow [E]_{\mathscr{C}}$ de $\mathscr{C}$ dans $K(\mathscr{C})$ est une fonction faiblement additive de modules, on en déduit un homomorphisme $u: K'(\mathscr{C})\rightarrow K(\mathscr{C})$. Cet homomorphisme est surjectif mais n’est pas toujours un isomorphisme (VIII, p. 187, remarque 2).
 
-Soit $R'$ le sous-groupe de $\mathbf{Z}^{(\mathscr{C})}$ engendré par les éléments de la forme $r_{\mathscr{E}}$, où $\mathscr{E}$ est une suite exacte scindée de A-modules de type $\mathscr{C}$, c’est-à-dire par les éléments de la forme cl(E$'\oplus E'')-$ cl(E$')-$ cl(E$'')$, où $E'$ et $E''$ sont des modules de type $\mathscr{C}$. L’application canonique de $\mathscr{C}$ dans le groupe quotient $\mathbf{Z}^{(\mathscr{C})}/R'$ se prolonge en un homomorphisme de groupes $v: K'(\mathscr{C})\rightarrow \mathbf{Z}^{(\mathscr{C})}/R'$. C’est un isomorphisme. En effet, l’application canonique de $\mathscr{C}$ dans $K'(\mathscr{C})$ se prolonge en un homomorphisme de groupes de $\mathbf{Z}^{(\mathscr{C})}$ dans $K'(\mathscr{C})$ dont le noyau contient $R'$, d’où par passage au quotient un homomorphisme $v': \mathbf{Z}^{(\mathscr{C})}/R'\rightarrow K'(\mathscr{C})$; il est clair que $v$ et $v'$ sont des bijections réciproques l’une de l’autre.
+Soit $R'$ le sous-groupe de $\mathbf{Z}^{(\mathscr{C})}$ engendré par les éléments de la forme $r_{\mathscr{E}}$, où $\mathscr{E}$ est une suite exacte scindée de A-modules de type $\mathscr{C}$, c’est-à-dire par les éléments de la forme cl(E$'\oplus E''$)$-$ cl(E$'$)$-$ cl(E$''$), où $E'$ et $E''$ sont des modules de type $\mathscr{C}$. L’application canonique de $\mathscr{C}$ dans le groupe quotient $\mathbf{Z}^{(\mathscr{C})}/R'$ se prolonge en un homomorphisme de groupes $v: K'(\mathscr{C})\rightarrow \mathbf{Z}^{(\mathscr{C})}/R'$. C’est un isomorphisme. En effet, l’application canonique de $\mathscr{C}$ dans $K'(\mathscr{C})$ se prolonge en un homomorphisme de groupes de $\mathbf{Z}^{(\mathscr{C})}$ dans $K'(\mathscr{C})$ dont le noyau contient $R'$, d’où par passage au quotient un homomorphisme $v': \mathbf{Z}^{(\mathscr{C})}/R'\rightarrow K'(\mathscr{C})$; il est clair que $v$ et $v'$ sont des bijections réciproques l’une de l’autre.
 
 Un élément de $K'(\mathscr{C})$ est dit effectif s’il est de la forme $[E]'_{\mathscr{C}}$ pour un A-module E de type $\mathscr{C}$. L’ensemble des éléments effectifs de $K'(\mathscr{C})$ se note $K'(\mathscr{C})^+$.
 
@@ -364,7 +364,7 @@ $$
 
 pour tout module E de type $\mathscr{C}$.
 
-La formule (8) résulte de la prop. 3 appliquée à une suite de Jordan-Hölder de E. D’après le lemme 1, il existe pour tout élément S de $\mathscr{S}$ une application $\mathbf{Z}$-linéaire $\varphi_S$ de $K(\mathscr{C})$ dans $\mathbf{Z}$telle que $\varphi_S([E]_{\mathscr{C}}) =\ell_S(E)$ pour tout module E de type $\mathscr{C}$. En particulier, on a $\varphi_S([S]_{\mathscr{C}}) = 1$ et $\varphi_S([S']_{\mathscr{C}}) = 0$ pour tout $S'\not= S$ dans $\mathscr{S}$. Il en résulte que les éléments de la forme $[S]_{\mathscr{C}}$ (pour $S\in \mathscr{S})$ sont linéairement indépendants sur $\mathbf{Z}$; ces éléments engendrent $K(\mathscr{C})$ d’après la formule (8).
+La formule (8) résulte de la prop. 3 appliquée à une suite de Jordan-Hölder de E. D’après le lemme 1, il existe pour tout élément S de $\mathscr{S}$ une application $\mathbf{Z}$-linéaire $\varphi_S$ de $K(\mathscr{C})$ dans $\mathbf{Z}$telle que $\varphi_S([E]_{\mathscr{C}}) =\ell_S(E)$ pour tout module E de type $\mathscr{C}$. En particulier, on a $\varphi_S([S]_{\mathscr{C}}) = 1$ et $\varphi_S([S']_{\mathscr{C}}) = 0$ pour tout $S'\not= S$ dans $\mathscr{S}$. Il en résulte que les éléments de la forme $[S]_{\mathscr{C}}$ (pour $S\in \mathscr{S}$) sont linéairement indépendants sur $\mathbf{Z}$; ces éléments engendrent $K(\mathscr{C})$ d’après la formule (8).
 
 #### Corollaire {#alg-viii-s11-n3-cor-1 .statement tag=00D8}
 
@@ -438,7 +438,7 @@ $$
 
 #### Remarque 5 {#alg-viii-s11-n4-rem-5 .statement tag=00SI}
 
-Soit A un anneau de Dedekind qui n’est pas un corps (AC, VII, § 2, n$^{\circ}1)$.
+Soit A un anneau de Dedekind qui n’est pas un corps (AC, VII, § 2, n$^{\circ}1$).
 
 En raisonnant comme dans la prop. 8, on prouve l’existence d’un isomorphisme $\varphi$ de R(A) sur le groupe des idéaux fractionnaires de A, caractérisé par $\varphi ([A/\mathfrak{a}]) =\mathfrak{a}$ pour tout idéal non nul $\mathfrak{a}$ de $A.*$
 
@@ -486,11 +486,11 @@ $$
 
 soit exacte. C’est en particulier vérifié dans les cas suivants :
 
-a) L’homomorphisme $f$ fait de B un A-module projectif (II, p. 58, prop. 5 et II, p. 63, cor. $6)*$ou, plus généralement, plat (X, p. 8, définition $1)*$;
+a) L’homomorphisme $f$ fait de B un A-module projectif (II, p. 58, prop. 5 et II, p. 63, cor. $6$)$*$ou, plus généralement, plat (X, p. 8, définition $1$)$*$;
 
 b) $*$L’ensemble $\mathscr{C}$ est un ensemble de classes de A-modules projectifs ou, plus
 
-généralement, plats (X, p. 72, cor. $2)*$.
+généralement, plats (X, p. 72, cor. $2$)$*$.
 
 L’application de $\mathscr{C}$ dans $K(\mathscr{D})$ qui à E associe $[f^*(E)]_{\mathscr{D}}$ est alors additive. On en déduit donc un homomorphisme de groupes $f^*: K(\mathscr{C})\rightarrow K(\mathscr{D})$.
 
@@ -558,7 +558,7 @@ $$
 \varphi : (E\otimes F)\otimes G\longrightarrow E\otimes (F\otimes G)
 $$
 
-est A-linéaire, quels que soient les A-modules E, F et G. De même, si la bigèbre A est cocommutative, l’isomorphisme canonique de $E\otimes F$ sur $F\otimes E$ est A-linéaire. Enfin, soit $K_{\gamma}$ le A-module ayant K pour groupe sous-jacent, avec la loi externe $(a, x)\rightarrow \gamma (a)x$; l’isomophisme canonique de $K\otimes E$ (resp. $E\otimes K)$ sur E est un isomorphisme de A-modules de $K_{\gamma}\otimes E$ (resp. $E\otimes K_{\gamma})$ sur E.
+est A-linéaire, quels que soient les A-modules E, F et G. De même, si la bigèbre A est cocommutative, l’isomorphisme canonique de $E\otimes F$ sur $F\otimes E$ est A-linéaire. Enfin, soit $K_{\gamma}$ le A-module ayant K pour groupe sous-jacent, avec la loi externe $(a, x)\rightarrow \gamma (a)x$; l’isomophisme canonique de $K\otimes E$ (resp. $E\otimes K$) sur E est un isomorphisme de A-modules de $K_{\gamma}\otimes E$ (resp. $E\otimes K_{\gamma}$) sur E.
 
 #### Proposition 9 {#alg-viii-s11-prop-9 .statement tag=00DI}
 
@@ -578,9 +578,9 @@ $$
 
 quels que soient les A-modules E et F de type $\mathscr{C}$. L’élément unité de $K(\mathscr{C})$est $[K_{\gamma}]_{\mathscr{C}}$. Si la bigèbre A est cocommutative, l’anneau $K(\mathscr{C})$est commutatif.
 
-Muni de la loi de composition définie par $(E,F)\rightarrow$ cl(E$\otimes F)$, l’ensemble $\mathscr{C}$ est un monoïde admettant cl(K$_{\gamma})$ comme élément unité. Par suite $\mathbf{Z}^{(\mathscr{C})}$ est canoniquement muni d’une structure d’anneau dont la multiplication est caractérisée par la formule (13) cl(E) cl(F) = cl(E$\otimes F)$
+Muni de la loi de composition définie par $(E,F)\rightarrow$ cl(E$\otimes F$), l’ensemble $\mathscr{C}$ est un monoïde admettant cl(K$_{\gamma}$) comme élément unité. Par suite $\mathbf{Z}^{(\mathscr{C})}$ est canoniquement muni d’une structure d’anneau dont la multiplication est caractérisée par la formule (13) cl(E) cl(F) = cl(E$\otimes F$)
 
-et dont l’élément unité est cl(K$_{\gamma})$ (III, p. 19).
+et dont l’élément unité est cl(K$_{\gamma}$) (III, p. 19).
 
 Étant donnés un A-module F de type $\mathscr{C}$ et une suite exacte
 
@@ -602,7 +602,7 @@ Lorsque la bigèbre A est cocommutative, le monoïde $\mathscr{C}$ est commutati
 
 #### Remarque {#alg-viii-s11-n7-rem-1 .statement tag=00DJ}
 
-Sous les seules hypothèses (i) et (ii) de la prop. 9, le groupe de Grothendieck $K'(\mathscr{C})$ pour les sommes directes (VIII, p. 184) possède une unique structure d’anneau dont la multiplication satisfait à $[E]'_{\mathscr{C}}[F]'_{\mathscr{C}}= [E\otimes F]'_{\mathscr{C}}$. Son élément unité est $[K_{\gamma}]'_{\mathscr{C}}$. L’anneau $K'(\mathscr{C})$ est commutatif si la bigèbre A est cocommutative. La démonstration est analogue à celle de la prop. 9, compte tenu du fait que le groupe $K'(\mathscr{C})$ s’identifie à $\mathbf{Z}^{(\mathscr{C})}/R'$, où $R'$ est le sous-groupe de $\mathbf{Z}^{(\mathscr{C})}$ engendré par les éléments de la forme cl(E$'\oplus E'')-$ cl(E$')-$ cl(E$'') ($loc. cit.).
+Sous les seules hypothèses (i) et (ii) de la prop. 9, le groupe de Grothendieck $K'(\mathscr{C})$ pour les sommes directes (VIII, p. 184) possède une unique structure d’anneau dont la multiplication satisfait à $[E]'_{\mathscr{C}}[F]'_{\mathscr{C}}= [E\otimes F]'_{\mathscr{C}}$. Son élément unité est $[K_{\gamma}]'_{\mathscr{C}}$. L’anneau $K'(\mathscr{C})$ est commutatif si la bigèbre A est cocommutative. La démonstration est analogue à celle de la prop. 9, compte tenu du fait que le groupe $K'(\mathscr{C})$ s’identifie à $\mathbf{Z}^{(\mathscr{C})}/R'$, où $R'$ est le sous-groupe de $\mathbf{Z}^{(\mathscr{C})}$ engendré par les éléments de la forme cl(E$'\oplus E''$)$-$ cl(E$'$)$-$ cl(E$''$) $($loc. cit.).
 
 Sous les hypothèses (i), (ii) et (iii) de la prop. 9, l’anneau $K(\mathscr{C})$ est appelé l’anneau de Grothendieck de $\mathscr{C}$. Ces hypothèses sont vérifiées en particulier lorsque K est un corps et $\mathscr{C}$ l’ensemble des classes des A-modules qui sont de dimension finie sur K. Par conséquent :
 
@@ -676,7 +676,7 @@ Il existe alors sur le groupe additif $K(\mathscr{C})$une unique structure d’a
 
 Soit A un anneau. L’ensemble $\mathscr{P}(A)$ des classes de A-modules projectifs de type fini est additif ; on note $K_0(A)$ le groupe de Grothendieck $K(\mathscr{P}(A))$.
 
-Pour la loi de composition $(E,E')\rightarrow$ cl(E$\oplus E')$, l’ensemble $\mathscr{P}(A)$ est un monoïde commutatif. De plus, toute suite exacte de A-modules projectifs
+Pour la loi de composition $(E,E')\rightarrow$ cl(E$\oplus E'$), l’ensemble $\mathscr{P}(A)$ est un monoïde commutatif. De plus, toute suite exacte de A-modules projectifs
 
 $$
 0\longrightarrow E'\longrightarrow E\longrightarrow E''\longrightarrow 0
@@ -696,7 +696,7 @@ $$
 \mathscr{L}\mathscr{F}(A) =\mathscr{S}\mathscr{S}(A) =\mathscr{P}(A)
 $$
 
-(cf. le n$^o4$ pour la définition de $\mathscr{L}\mathscr{F}(A)$ et $\mathscr{S}\mathscr{S}(A))$. On a donc $K_0(A) = R(A)$ d’après la définition de ces groupes de Grothendieck.
+(cf. le n$^o4$ pour la définition de $\mathscr{L}\mathscr{F}(A)$ et $\mathscr{S}\mathscr{S}(A)$). On a donc $K_0(A) = R(A)$ d’après la définition de ces groupes de Grothendieck.
 
 #### Exemple {#alg-viii-s11-n8-exa-1 .statement tag=00DP}
 
@@ -704,7 +704,7 @@ Si tout A-module projectif de type fini est libre, alors le rang définit un iso
 
 ### 9. Le groupe de Grothendieck $K_0(A)$d’un anneau artinien
 
-Soit A un anneau artinien à gauche. Soit $\mathfrak{r}$ son radical ; c’est un idéal bilatère nilpotent de A et l’anneau $A/\mathfrak{r}$ est semi-simple (VIII, p. 169, prop. 1). D’après le corollaire de VIII, p. 172, l’application $P\rightarrow$ cl(P$/\mathfrak{r}P)$ est un isomorphisme du monoïde $\mathscr{P}(A)$ sur le monoïde $\mathscr{P}(A/\mathfrak{r})$; on en déduit un isomorphisme de groupes $\gamma$ de $K_0(A)$ sur $K_0(A/\mathfrak{r})$, caractérisé par la relation $\gamma ([P]_{\mathscr{P}(A)}) = [P/\mathfrak{r}P]_{\mathscr{P}(A/\mathfrak{r})}$ pour tout A-module projectif de type fini P.
+Soit A un anneau artinien à gauche. Soit $\mathfrak{r}$ son radical ; c’est un idéal bilatère nilpotent de A et l’anneau $A/\mathfrak{r}$ est semi-simple (VIII, p. 169, prop. 1). D’après le corollaire de VIII, p. 172, l’application $P\rightarrow$ cl(P$/\mathfrak{r}P$) est un isomorphisme du monoïde $\mathscr{P}(A)$ sur le monoïde $\mathscr{P}(A/\mathfrak{r})$; on en déduit un isomorphisme de groupes $\gamma$ de $K_0(A)$ sur $K_0(A/\mathfrak{r})$, caractérisé par la relation $\gamma ([P]_{\mathscr{P}(A)}) = [P/\mathfrak{r}P]_{\mathscr{P}(A/\mathfrak{r})}$ pour tout A-module projectif de type fini P.
 
 Comme l’anneau $A/\mathfrak{r}$ est semi-simple, la remarque ci-dessus entraîne l’égalité $R(A/\mathfrak{r}) = K_0(A/\mathfrak{r})$. Les modules de longueur finie sur l’anneau $A/\mathfrak{r}$ ne sont autres que les modules semi-simples de longueur finie sur l’anneau A (VIII, p. 170, prop 2) ; par suite, on peut identifier $\mathscr{L}\mathscr{F}(A/\mathfrak{r})$ à $\mathscr{S}\mathscr{S}$ (A), et $R(A/\mathfrak{r})$ à $K(\mathscr{S}\mathscr{S}(A))$. On note $\delta$ l’homomorphisme $\gamma_{\mathscr{L}\mathscr{F}(A),\mathscr{S}\mathscr{S}(A)}$ de $R(A/\mathfrak{r}) = K(\mathscr{S}\mathscr{S}(A))$ sur $R(A) = K(\mathscr{L}\mathscr{F}(A))$ (VIII, p. 187, remarque 1), c’est un isomorphisme. Enfin, on a $\mathscr{P}(A)\subset \mathscr{L}\mathscr{F}(A)$ et l’on pose $\varepsilon =\gamma_{\mathscr{L}\mathscr{F}(A),\mathscr{P}(A)}$. On a donc défini un diagramme
 
@@ -720,11 +720,11 @@ $$
 R(A)
 $$
 
-Notons $\mathscr{S}$ l’ensemble (fini) des classes de A-modules simples ; pour tout $\lambda \in \mathscr{S}$, choisissons un module $S_{\lambda}$ de classe $\lambda$ et une couverture projective $(P_{\lambda}, u_{\lambda})$ de $S_{\lambda}$ (VIII, p. 171, prop. 4). Il résulte de la prop. 6 de VIII, p. 172 que $K_0(A)$ est un $\mathbf{Z}$-module libre ayant pour base la famille $([P_{\lambda}]_{\mathscr{P}(A)})_{\lambda\in\mathscr{S}}$. De plus, comme $S_{\lambda}$ est isomorphe à $P_{\lambda}/\mathfrak{r}P_{\lambda}$ (VIII, p. 172$),\gamma$ transforme la base $([P_{\lambda}]_{\mathscr{P}(A)})_{\lambda\in\mathscr{S}}$ de $K_0(A)$ en la base $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ de $R(A/\mathfrak{r})$. L’isomorphisme $\delta$ transforme la base $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ de $R(A/\mathfrak{r})$ en la base $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ de R(A).
+Notons $\mathscr{S}$ l’ensemble (fini) des classes de A-modules simples ; pour tout $\lambda \in \mathscr{S}$, choisissons un module $S_{\lambda}$ de classe $\lambda$ et une couverture projective $(P_{\lambda}, u_{\lambda})$ de $S_{\lambda}$ (VIII, p. 171, prop. 4). Il résulte de la prop. 6 de VIII, p. 172 que $K_0(A)$ est un $\mathbf{Z}$-module libre ayant pour base la famille $([P_{\lambda}]_{\mathscr{P}(A)})_{\lambda\in\mathscr{S}}$. De plus, comme $S_{\lambda}$ est isomorphe à $P_{\lambda}/\mathfrak{r}P_{\lambda}$ (VIII, p. 172)$,\gamma$ transforme la base $([P_{\lambda}]_{\mathscr{P}(A)})_{\lambda\in\mathscr{S}}$ de $K_0(A)$ en la base $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ de $R(A/\mathfrak{r})$. L’isomorphisme $\delta$ transforme la base $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ de $R(A/\mathfrak{r})$ en la base $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ de R(A).
 
 On appelle matrice de Cartan de A la matrice $(a_{\lambda \mu})$ de l’homomorphisme de $\mathbf{Z}$-modules $\varepsilon : K_0(A)\rightarrow R(A)$ par rapport aux bases $([P_{\lambda}]_{\mathscr{P}(A)})_{\lambda\in\mathscr{S}}$ de $K_0(A)$ et $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ de R(A). Par définition, on a
 
-(19) $[P_{\mu}] =\sum_{\lambda\in\mathscr{S}}a_{\lambda \mu}[S_{\lambda}]$ (pour $\mu \in \mathscr{S})$
+(19) $[P_{\mu}] =\sum_{\lambda\in\mathscr{S}}a_{\lambda \mu}[S_{\lambda}]$ (pour $\mu \in \mathscr{S}$)
 
 dans le groupe R(A). Autrement dit, $a_{\lambda \mu}$ est le nombre de quotients isomorphes à $S_{\lambda}$ dans une suite de Jordan-Hölder du A-module $P_{\mu}$.
 
@@ -738,7 +738,7 @@ Supposons que $f$ fasse de B un A-module à gauche projectif de type fini. Soit 
 
 ### 11. Réciprocité de Frobenius
 
-Soit A un anneau semi-simple. Soit $f$ un homomorphisme de A dans un anneau semi-simple B. Soient S un A-module simple, T un B-module simple, D et E les commutants de S et T respectivement. D’après le lemme de Schur (VIII, p. 43, cor.), D et E sont des corps. Soit H l’ensemble des homomorphismes A-linéaires de S dans $f_*(T)$. On munit H de la structure de $(E$, D)-bimodule dont les lois d’action sont $(e, u)\rightarrow e\circ u$ et $(d, u)\rightarrow u\circ d$ (pour $e\in E,u\in H,d\in D)$.
+Soit A un anneau semi-simple. Soit $f$ un homomorphisme de A dans un anneau semi-simple B. Soient S un A-module simple, T un B-module simple, D et E les commutants de S et T respectivement. D’après le lemme de Schur (VIII, p. 43, cor.), D et E sont des corps. Soit H l’ensemble des homomorphismes A-linéaires de S dans $f_*(T)$. On munit H de la structure de $(E$, D)-bimodule dont les lois d’action sont $(e, u)\rightarrow e\circ u$ et $(d, u)\rightarrow u\circ d$ (pour $e\in E,u\in H,d\in D$).
 
 #### Proposition 11 {#alg-viii-s11-prop-11 .statement tag=00DQ}
 
@@ -862,15 +862,15 @@ $$
 
 D’après la prop. 4 de VIII, p. 119, l’anneau $A'$ est simple, M est un $A'$-module de longueur finie et l’on a
 
-long$_A(M) =$ long(A$')$, long$_{A'}(M) =$ long(A).
+long$_A(M) =$ long(A$'$), long$_{A'}(M) =$ long(A).
 
 Pour les mêmes raisons, l’anneau $B'$ est simple et l’on a
 
-long$_B(M) =$ long(B$')$, long$_{B'}(M) =$ long(B).
+long$_B(M) =$ long(B$'$), long$_{B'}(M) =$ long(B).
 
 D’après les formules (31) et (30), on a donc
 
-$h(B,A) =$ long$_A(M)/$ long$_B(M) =$ long(A$')/$ long(B$') =i(A',B')$,
+$h(B,A) =$ long$_A(M)/$ long$_B(M) =$ long(A$'$)$/$ long(B$'$) $=i(A',B')$,
 
 et la formule $h(A',B') =i(B,A)$ s’établit de manière analogue. De là on déduit
 

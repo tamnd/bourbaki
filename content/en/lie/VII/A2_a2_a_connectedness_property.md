@@ -13,7 +13,7 @@ pdf_pages: 0058-0059, 0076-0076
 extraction: native
 statements: 3
 exercises: 2
-content_sha256: 6815acf2afc501a143a6b3e3cf8be4ea737f53892b4f2aaf449f276606a30fa7
+content_sha256: e52c40721671251b25cbd21bd6c6376bf20e17aa16de77c1b806f74183e1c74a
 ---
 
 ## APPENDIX II A CONNECTEDNESS PROPERTY
@@ -34,7 +34,7 @@ so $V\cap \Omega \subset \Omega_0$. Thus, since $\Omega$ is dense in $X,\overlin
 
 Let U be an open ball in $\mathbf{C}^n$ and $f: U\rightarrow \mathbf{C}$ a holomorphic function, not identically zero. Let A be a subset of U such that $f= 0$ on A. Then U **--** A is dense in U and connected.
 
-The density of U**--** A follows from Differentiable and Analytic Manifolds, Results, 3.2.5. Assume first that $n= 1$. If $a\in A$, the power series expansion of $f$ about $a($Differentiable and Analytic Manifolds, Results, 3.2.1) is not reduced to 0, and it follows that there exists a neighbourhood $V_a$ of $a$ in U such that $f$ does not vanish on $V_a$ **--** $\{a\}$. Thus, $a$ is isolated in A, which proves that A is a discrete subset of U, hence countable since U is countable at infinity. Let $x, y\in U$ **--** A. The union of the real affine lines joining $x$ (resp. $y)$ to a point of A is meagre (General Topology, Chap. IX, §5, no. 2, Def. 2). Hence, there exists $z\in U$ **--** A such that neither of the segments $[x, z]$ and $[y, z]$ meets A. The points $x, y, z$ thus belong to the same connected component of U **--** A, which proves the lemma in the case $n= 1$. We turn to the general case. We can assume that A is the set of zeros of $f($General Topology, Chap. I, §11, no. 1, Prop. 1). Let $x, y\in U$**--** A and let L be an affine line containing $x$ and $y$. The restriction of $f$ to $L\cap U$ is not identically zero since $x\in L\cap U$. By what has already been proved, $x$ and $y$ belong to the same connected component of $(L\cap U)$ **--** $(L\cap A)$ and hence to the same connected component of U **--** A.
+The density of U**--** A follows from Differentiable and Analytic Manifolds, Results, 3.2.5. Assume first that $n= 1$. If $a\in A$, the power series expansion of $f$ about $a($Differentiable and Analytic Manifolds, Results, 3.2.1) is not reduced to 0, and it follows that there exists a neighbourhood $V_a$ of $a$ in U such that $f$ does not vanish on $V_a$ **--** $\{a\}$. Thus, $a$ is isolated in A, which proves that A is a discrete subset of U, hence countable since U is countable at infinity. Let $x, y\in U$ **--** A. The union of the real affine lines joining $x$ (resp. $y$) to a point of A is meagre (General Topology, Chap. IX, §5, no. 2, Def. 2). Hence, there exists $z\in U$ **--** A such that neither of the segments $[x, z]$ and $[y, z]$ meets A. The points $x, y, z$ thus belong to the same connected component of U **--** A, which proves the lemma in the case $n= 1$. We turn to the general case. We can assume that A is the set of zeros of $f($General Topology, Chap. I, §11, no. 1, Prop. 1). Let $x, y\in U$**--** A and let L be an affine line containing $x$ and $y$. The restriction of $f$ to $L\cap U$ is not identically zero since $x\in L\cap U$. By what has already been proved, $x$ and $y$ belong to the same connected component of $(L\cap U)$ **--** $(L\cap A)$ and hence to the same connected component of U **--** A.
 
 #### Lemma 3 {#lie-vii-a2-lem-3 .statement tag=00XP}
 

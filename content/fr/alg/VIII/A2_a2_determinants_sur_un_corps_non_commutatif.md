@@ -34,7 +34,7 @@ subsections:
       pdf_page: 447
 statements: 18
 exercises: 4
-content_sha256: 5162bba364a7b25a3997668dc07a445a5535ba5887bc1ff2709ef1870e280f2a
+content_sha256: 96083576946dee62466370cc661ade233895b968fe9665ced28eaecc1b072423
 ---
 
 ### APPENDICE 2 DÉTERMINANTS SUR UN CORPS NON COMMUTATIF
@@ -257,7 +257,7 @@ Supposons le corps D commutatif. Par définition, B(V) est une partie de $V^n$. 
 
 Supposons d’abord le corps D commutatif. Compte tenu de la remarque ci-dessus, le déterminant d’un automorphisme $u$ de V est l’unique élément det $u$ de $D^*$ tel que l’on ait
 
-(14) $\omega (u(v_1), . . . , u(v_n)) =$ (det $u)\omega (v_1, . . . , v_n)$ pour toute base $(v_1, . . . , v_n)$ de V et tout élément $\omega$ de Ω(V).
+(14) $\omega (u(v_1), . . . , u(v_n)) =$ (det $u$)$\omega (v_1, . . . , v_n)$ pour toute base $(v_1, . . . , v_n)$ de V et tout élément $\omega$ de Ω(V).
 
 Revenons au cas où D n’est plus supposé commutatif.
 
@@ -265,7 +265,7 @@ Revenons au cas où D n’est plus supposé commutatif.
 
 a) Soit $u$ un automorphisme de V. Il existe un unique élément de $D^*_{ab}$ noté det $u$ et appelé le déterminant de $u$, tel que l’on ait
 
-(15) $\omega (u(v_1), . . . , u(v_n)) =$ (det $u)\omega (v_1, . . . , v_n)$
+(15) $\omega (u(v_1), . . . , u(v_n)) =$ (det $u$)$\omega (v_1, . . . , v_n)$
 
 pour toute base $(v_1, . . . , v_n)$de V et tout $\omega$ dans Ω(V).
 
@@ -319,7 +319,7 @@ pour $\lambda_1, . . . , \lambda_n\in D^*$
 
 Soient A un élément de $\mathbf{G}\mathbf{L}_n(D)$ et $a_1, . . . , a_n$ ses colonnes. On a
 
-det(A$) =\omega_0(a_1, . . . , a_n)$.
+det(A) $=\omega_0(a_1, . . . , a_n)$.
 
 Or les colonnes de la matrice A diag($\lambda_1, . . . , \lambda_n$) sont $a_1\lambda_1, . . . , a_n\lambda_n$ et celles de la matrice AB$_{ij}(1)$ dont $a_1, . . . , a_j+a_i, a_{j+1}, . . . , a_n$. Comme $\omega_0$ est l’unique élément de $\Omega (D^n_d)$ tel que $\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$, on voit que le déterminant est l’unique application $\varphi : \mathbf{G}\mathbf{L}_n(D)\rightarrow D^*_{ab}$ qui satisfait aux relations
 
@@ -341,17 +341,17 @@ Les colonnes de la matrice $B_{ij}(\lambda )$ sont $\varepsilon_1, . . . , \vare
 
 #### Exemple 2 {#alg-viii-a2-n4-exa-2 .statement tag=00Q8}
 
-Soit $\sigma$ une permutation de l’intervalle $[1, n]$ de $\mathbf{N}$, de signature $\varepsilon (\sigma )$. Soit M $(\sigma )$ la matrice de la permutation $\sigma$ (II, p. 151). Les colonnes de la matrice M $(\sigma )$ sont $\varepsilon_{\sigma(1)}, . . . , \varepsilon_{\sigma(n)}$. Par application de la formule (4) de VIII, p. 438, on a donc (22) det(M $(\sigma )) =\pi (\varepsilon (\sigma ))$.
+Soit $\sigma$ une permutation de l’intervalle $[1, n]$ de $\mathbf{N}$, de signature $\varepsilon (\sigma )$. Soit M $(\sigma )$ la matrice de la permutation $\sigma$ (II, p. 151). Les colonnes de la matrice M $(\sigma )$ sont $\varepsilon_{\sigma(1)}, . . . , \varepsilon_{\sigma(n)}$. Par application de la formule (4) de VIII, p. 438, on a donc (22) det(M $(\sigma )$) $=\pi (\varepsilon (\sigma ))$.
 
 #### Exemple 3 {#alg-viii-a2-n4-exa-3 .statement tag=00Q9}
 
-Supposons $n\geqslant 1$. Pour toute matrice diagonale inversible de la forme Δ = diag($d_1, . . . , d_n$), on a Δ$B_{ij}(\lambda )\Delta^{-1}= B_{ij}(d_i\lambda d^{-1}_j)$. Soit A un élément de $\mathbf{G}\mathbf{L}_n(D)$. D’après le cor. 1 de II, p. 162 et la formule précédente, il existe des matrices P et Δ dans $\mathbf{G}\mathbf{L}_n(D)$ telles que A = PΔ, que P soit produit de matrices de la forme $B_{ij}(\lambda )$ et que Δ soit une matrice diagonale de la forme diag(1$, . . . ,1, d)$. On a det(P) = 1 d’après l’exemple 1, donc det(A) = det(Δ) $=\pi (d)$ par la prop. 3.
+Supposons $n\geqslant 1$. Pour toute matrice diagonale inversible de la forme Δ = diag($d_1, . . . , d_n$), on a Δ$B_{ij}(\lambda )\Delta^{-1}= B_{ij}(d_i\lambda d^{-1}_j)$. Soit A un élément de $\mathbf{G}\mathbf{L}_n(D)$. D’après le cor. 1 de II, p. 162 et la formule précédente, il existe des matrices P et Δ dans $\mathbf{G}\mathbf{L}_n(D)$ telles que A = PΔ, que P soit produit de matrices de la forme $B_{ij}(\lambda )$ et que Δ soit une matrice diagonale de la forme diag(1$, . . . ,1, d$). On a det(P) = 1 d’après l’exemple 1, donc det(A) = det(Δ) $=\pi (d)$ par la prop. 3.
 
 #### Exemple 4 {#alg-viii-a2-n4-exa-4 .statement tag=00QA}
 
 Soit $D'$ un corps et soit $u$ un homomorphisme de D dans $D'$. Par passage aux quotients, $u$ définit un homomorphisme de groupes $u_{ab}$ de $D^*_{ab}$ dans $D^{'*}_{ab}$. Soit $u_n$ l’homomorphisme de $\mathbf{G}\mathbf{L}_n(D)$ dans $\mathbf{G}\mathbf{L}_n(D')$ qui transforme une matrice A $= (a_{ij})$ en la matrice $(u(a_{ij}))$. La formule
 
-(23) det($u_n($A$)) =u_{ab}$(det(A))
+(23) det($u_n($A)) $=u_{ab}$(det(A))
 
 pour $A\in \mathbf{G}\mathbf{L}_n$(D), résulte aussitôt de l’exemple 3.
 
@@ -369,7 +369,7 @@ a) Si $a$ n’est pas nul, on a
 
 D’où $ad-aca^{-1}b\not= 0$ et
 
-(25) det(A$) =\pi (ad-aca^{-1}b)$.
+(25) det(A) $=\pi (ad-aca^{-1}b)$.
 
 b) Si $a$ est nul, on a $c\not= 0$ et
 
@@ -377,7 +377,7 @@ b) Si $a$ est nul, on a $c\not= 0$ et
 
 d’où d’après a) et l’exemple 2$,cb\not= 0$ et
 
-(27) det(A$) =\pi (-cb)$.
+(27) det(A) $=\pi (-cb)$.
 
 #### Exemple 7 {#alg-viii-a2-n4-exa-7 .statement tag=00QD}
 
@@ -405,7 +405,7 @@ b) Supposons $n\geqslant 3$ou Card(D) $\geqslant 3$. Le groupe dérivé de $\mat
 
 c) Supposons $n\geqslant 3$ou Card(D) $\geqslant 4$. Le groupe dérivé de $\mathbf{S}\mathbf{L}_n(D)$est égal à $\mathbf{S}\mathbf{L}_n(D)$.
 
-A) Notons T le sous-groupe de $\mathbf{G}\mathbf{L}_n(D)$ engendré par les matrices $B_{ij}(\lambda )$. D’après l’exemple 1 de VIII, p. 443, on a det($B_{ij}(\lambda )$) $= 1$, d’où $T\subset \mathbf{S}\mathbf{L}_n(D)$. Pour prouver que ces deux groupes sont égaux, il suffit alors, d’après l’exemple 3 de loc. cit., de prouver que toute matrice de la forme diag(1$, . . . ,1, d)$avec $\pi (d) = 1$appartient à $($ T. La matrice diag(1$), . . . ,1, d)$ appartient à l’image de l’homomorphisme $U\rightarrow \begin{pmatrix} I_{n-2} & 0 \\ 0 & U \end{pmatrix}$ de $\mathbf{G}\mathbf{L}_2(D)$ dans $\mathbf{G}\mathbf{L}_n(D)$; il suffit donc de considérer le cas $n= 2$. Comme le noyau de $\pi$ est le groupe dérivé de $D^*$, on peut supposer $d=uvu^{-1}v^{-1}$ avec $u, v$ dans $D^*$. Notre assertion résulte alors des égalités
+A) Notons T le sous-groupe de $\mathbf{G}\mathbf{L}_n(D)$ engendré par les matrices $B_{ij}(\lambda )$. D’après l’exemple 1 de VIII, p. 443, on a det($B_{ij}(\lambda )$) $= 1$, d’où $T\subset \mathbf{S}\mathbf{L}_n(D)$. Pour prouver que ces deux groupes sont égaux, il suffit alors, d’après l’exemple 3 de loc. cit., de prouver que toute matrice de la forme diag(1$, . . . ,1, d$)avec $\pi (d) = 1$appartient à $($ T. La matrice diag(1)$, . . . ,1, d)$ appartient à l’image de l’homomorphisme $U\rightarrow \begin{pmatrix} I_{n-2} & 0 \\ 0 & U \end{pmatrix}$ de $\mathbf{G}\mathbf{L}_2(D)$ dans $\mathbf{G}\mathbf{L}_n(D)$; il suffit donc de considérer le cas $n= 2$. Comme le noyau de $\pi$ est le groupe dérivé de $D^*$, on peut supposer $d=uvu^{-1}v^{-1}$ avec $u, v$ dans $D^*$. Notre assertion résulte alors des égalités
 
 (28) $\begin{pmatrix} 1 & 0 \\ 0 & d \end{pmatrix} = \begin{pmatrix} u^{-1} & 0 \\ 0 & u \end{pmatrix}\begin{pmatrix} v^{-1} & 0 \\ 0 & v \end{pmatrix}\begin{pmatrix} vu & 0 \\ 0 & u^{-1}v^{-1} \end{pmatrix}$
 

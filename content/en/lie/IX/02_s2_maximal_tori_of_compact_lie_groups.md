@@ -37,7 +37,7 @@ subsections:
       pdf_page: 302
 statements: 32
 exercises: 11
-content_sha256: 5edd1a2afb308bb10243dca55e7e8ef8140709b5e5d43939d1e213579bfe4ca8
+content_sha256: c325701fafe83ff98a87561b934f3da09b5a895b57956ea7453a3b2a69d0d21c
 ---
 
 ## § 2. MAXIMAL TORI OF COMPACT LIE GROUPS
@@ -46,15 +46,15 @@ content_sha256: 5edd1a2afb308bb10243dca55e7e8ef8140709b5e5d43939d1e213579bfe4ca8
 
 #### Lemma 1 {#lie-ix-s2-lem-1 .statement tag=019Z}
 
-Let G be a Lie group, K a compact subgroup of G, and F an invariant bilinear form on L(G). Let $x, y\in L(G)$. There exists an element $k$ of K such that $F(u$,[(Ad $k)(x), y]) = 0$ for all $u\in L(K)$.
+Let G be a Lie group, K a compact subgroup of G, and F an invariant bilinear form on L(G). Let $x, y\in L(G)$. There exists an element $k$ of K such that $F(u$,[(Ad $k$)$(x), y]) = 0$ for all $u\in L(K)$.
 
-The function $v \rightarrow$ F((Ad $v)(x), y)$ from K to $\mathbf{R}$ is continuous, and hence has a minimum at some point $k\in K$. Let $u\in L(K)$ and put
+The function $v \rightarrow$ F((Ad $v$)$(x), y$) from K to $\mathbf{R}$ is continuous, and hence has a minimum at some point $k\in K$. Let $u\in L(K)$ and put
 
-$h(t) =$ F((Ad exp($tu$)$.k)(x), y),t\in \mathbf{R}$.
+$h(t) =$ F((Ad exp($tu$)$.k$)$(x), y$)$,t\in \mathbf{R}$.
 
 We have $h(t)\geq h(0)$ for all $t$; moreover, by Chap. III, §3, no. 12, Prop. 44,
 
-$\frac{dh}{dt}(0) = F([u$,(Ad $k)(x)], y) = F(u$,[(Ad $k)(x), y])$,
+$\frac{dh}{dt}(0) = F([u$,(Ad $k$)$(x)], y) = F(u$,[(Ad $k$)$(x), y])$,
 
 hence the lemma (Functions of a Real Variable, Chap. I, §1, no. 7, Prop. 7).
 
@@ -64,7 +64,7 @@ Let $\mathfrak{g}$ be a compact Lie algebra. The Cartan subalgebras of $\mathfra
 
 Since $\mathfrak{g}$ is reductive, its Cartan subalgebras are commutative (Chap. VII, §2, no. 4, Cor. 3 of Th. 2). Conversely, let $\mathfrak{t}$ be a commutative subalgebra of $\mathfrak{g}$. By §1, no. 3, Prop. 1, ad $x$ is semi-simple for all $x\in \mathfrak{t}$; by Chap. VII, §2, no. 3, Prop. 10, there exists a Cartan subalgebra of $\mathfrak{g}$ containing $\mathfrak{t}$. This proves the first assertion of the theorem.
 
-Now let $\mathfrak{t}$ and $\mathfrak{t}'$ be two Cartan subalgebras of $\mathfrak{g}$. We prove that there exists $u\in$ Int($\mathfrak{g}$) such that $u(\mathfrak{t}) =\mathfrak{t}'$. By Prop. 1 of §1, no. 3, we can assume that $\mathfrak{g}$ is of the form L(G), where G is a connected compact Lie group, and can choose a separating invariant symmetric bilinear form F on $\mathfrak{g}$. Let $x$ (resp. $x')$ be a regular element of $\mathfrak{g}$ such that $\mathfrak{t}=\mathfrak{g}^0(x)$ (resp. $\mathfrak{t}'=\mathfrak{g}^0(x'))$ (Chap. VII, §3, no. 3, Th. 2). Applying Lemma 1 with K = G, we see that there exists $k\in G$ such that [(Ad $k)(x), x']$ is orthogonal to $\mathfrak{g}$ with respect to F, and hence is zero; then (Ad $k)(x)\in \mathfrak{g}^0(x') =\mathfrak{t}'$, so $\mathfrak{g}^0$((Ad $k)(x)) =\mathfrak{t}'$ since (Ad $k)(x)$ is regular. We conclude that (Ad $k)(\mathfrak{t}) =\mathfrak{t}'$, hence the theorem.
+Now let $\mathfrak{t}$ and $\mathfrak{t}'$ be two Cartan subalgebras of $\mathfrak{g}$. We prove that there exists $u\in$ Int($\mathfrak{g}$) such that $u(\mathfrak{t}) =\mathfrak{t}'$. By Prop. 1 of §1, no. 3, we can assume that $\mathfrak{g}$ is of the form L(G), where G is a connected compact Lie group, and can choose a separating invariant symmetric bilinear form F on $\mathfrak{g}$. Let $x$ (resp. $x'$) be a regular element of $\mathfrak{g}$ such that $\mathfrak{t}=\mathfrak{g}^0(x)$ (resp. $\mathfrak{t}'=\mathfrak{g}^0(x')$) (Chap. VII, §3, no. 3, Th. 2). Applying Lemma 1 with K = G, we see that there exists $k\in G$ such that [(Ad $k$)$(x), x']$ is orthogonal to $\mathfrak{g}$ with respect to F, and hence is zero; then (Ad $k$)$(x)\in \mathfrak{g}^0(x') =\mathfrak{t}'$, so $\mathfrak{g}^0$((Ad $k$)$(x)$) $=\mathfrak{t}'$ since (Ad $k$)$(x)$ is regular. We conclude that (Ad $k$)$(\mathfrak{t}) =\mathfrak{t}'$, hence the theorem.
 
 #### Corollary {#lie-ix-s2-n1-cor-1 .statement tag=01A1}
 
@@ -100,11 +100,11 @@ a) The exponential map of G is surjective.
 
 b) For all $n\geq 1$, the map $g \rightarrow g^n$ from G to itself is surjective.
 
-Indeed, exp(L(G)) contains all the maximal tori of G, hence $a)$. Assertion $b)$ follows from the formula (exp $x)^n=$ exp $nx$ for $x$ in L(G).
+Indeed, exp(L(G)) contains all the maximal tori of G, hence $a)$. Assertion $b)$ follows from the formula (exp $x$)$^n=$ exp $nx$ for $x$ in L(G).
 
 #### Remark 1 {#lie-ix-s2-n2-rem-1 .statement tag=01A4}
 
-There exists a compact subset K of L(G) such that exp$_G(K) = G$. Indeed, if T is a maximal torus of G, there exists a compact subset $C\subset L(T)$ such that exp$_T(C) = T$; it suffices to take $K =\bigcup_{g\in G}$(Ad $g)(C)$.
+There exists a compact subset K of L(G) such that exp$_G(K) = G$. Indeed, if T is a maximal torus of G, there exists a compact subset $C\subset L(T)$ such that exp$_T(C) = T$; it suffices to take $K =\bigcup_{g\in G}$(Ad $g$)$(C)$.
 
 #### Corollary 2 {#lie-ix-s2-thm-2-cor-2 .statement tag=01A5}
 
@@ -116,7 +116,7 @@ Let $x$ be an element of the centre of G; by Th. $2c)$, there exists a maximal t
 
 Let $g\in G$, and let C be its centralizer. Then $g$ belongs to $C_0$; the group $C_0$ is the union of the maximal tori of G containing $g$.
 
-There exists a maximal torus T of G containing $g$ (Th. $2c))$, and hence contained in $C_0$. Moreover, the group $C_0$ is a connected compact Lie group, and hence the union of its maximal tori (Th. $2c))$; these all contain $g$ (Cor. 2), hence are exactly the maximal tori of G containing $g$.
+There exists a maximal torus T of G containing $g$ (Th. $2c$)$)$, and hence contained in $C_0$. Moreover, the group $C_0$ is a connected compact Lie group, and hence the union of its maximal tori (Th. $2c$)$)$; these all contain $g$ (Cor. 2), hence are exactly the maximal tori of G containing $g$.
 
 #### Corollary 4 {#lie-ix-s2-thm-2-cor-4 .statement tag=01A7}
 
@@ -144,9 +144,9 @@ Let T be a maximal torus of G and C its centralizer; since L(T) is a Cartan suba
 
 #### Corollary 7 {#lie-ix-s2-thm-2-cor-7 .statement tag=01AB}
 
-Let T and $T'$ be two maximal tori of G, A a subset of T and $s$ an automorphism of G that takes A into $T'$. There exists $g\in G$ such that $s\circ$ (Int $g)$ takes T to $T'$ and coincides with $s$ on A.
+Let T and $T'$ be two maximal tori of G, A a subset of T and $s$ an automorphism of G that takes A into $T'$. There exists $g\in G$ such that $s\circ$ (Int $g$) takes T to $T'$ and coincides with $s$ on A.
 
-Let C be the centralizer of A. Then T and $s^{-1}(T')$ are two maximal tori of $C_0$; every element $g$ of $C_0$ such that (Int $g)(T) =s^{-1}(T')$ has the desired properties.
+Let C be the centralizer of A. Then T and $s^{-1}(T')$ are two maximal tori of $C_0$; every element $g$ of $C_0$ such that (Int $g$)$(T) =s^{-1}(T')$ has the desired properties.
 
 #### Corollary 8 {#lie-ix-s2-thm-2-cor-8 .statement tag=01AC}
 
@@ -172,9 +172,9 @@ b) Let H be a connected closed subgroup of G. Every maximal torus of H is the in
 
 c) Let H be a connected closed normal subgroup of G. The maximal tori of H are the intersections with H of the maximal tori of G.
 
-$a)$ Let T be a maximal torus of G; then L(T) is a Cartan subalgebra of L(G) (no. 2, Th. $2a))$, so $L(f(T))$ is a Cartan subalgebra of $L(G')$ (Chap. VII, §2, no. 1, Cor. 2 of Prop. 4); it follows that $f(T)$ is a maximal torus of $G'$ (no. 2, Th. $2a))$. If Ker $f$ is central in G, it is contained in T (Cor. 2 of Th. 2), so $T =f^{-1}(f(T))$.
+$a)$ Let T be a maximal torus of G; then L(T) is a Cartan subalgebra of L(G) (no. 2, Th. $2a$)$)$, so $L(f(T))$ is a Cartan subalgebra of $L(G')$ (Chap. VII, §2, no. 1, Cor. 2 of Prop. 4); it follows that $f(T)$ is a maximal torus of $G'$ (no. 2, Th. $2a$)$)$. If Ker $f$ is central in G, it is contained in T (Cor. 2 of Th. 2), so $T =f^{-1}(f(T))$.
 
-Conversely, let $T'$ be a maximal torus of $G'$; we show that there exists a maximal torus T of G such that $f(T) = T'$. Let $T_1$ be a maximal torus of G; then $f(T_1)$ is a maximal torus of $G'$ and there exists $g'\in G'$ such that $T'=g'f(T_1)g^{'-1}$ (Th. $2b))$; if $g\in G$ is such that $f(g) =g'$, we have $T'=f(T)$ with $T =gT_1g^{-1}$.
+Conversely, let $T'$ be a maximal torus of $G'$; we show that there exists a maximal torus T of G such that $f(T) = T'$. Let $T_1$ be a maximal torus of G; then $f(T_1)$ is a maximal torus of $G'$ and there exists $g'\in G'$ such that $T'=g'f(T_1)g^{'-1}$ (Th. $2b$)$)$; if $g\in G$ is such that $f(g) =g'$, we have $T'=f(T)$ with $T =gT_1g^{-1}$.
 
 $b)$ Let S be a maximal torus of H; this is a torus of G so there exists a maximal torus T of G containing S. Then $T\cap H$ is a commutative subgroup of H containing S, hence is equal to S (no. 2, Remark 2).
 
@@ -212,7 +212,7 @@ $$
 \pi_1(H)\rightarrow \pi_1(G)\rightarrow \pi_1(G/H,\overline{e})\rightarrow 0
 $$
 
-where $\overline{e}$ is the image in $G/H$ of the identity element of G. Since $G/H$ is connected, this immediately implies the equivalence of assertions $a)$ and $b)$. Moreover, if $f: G'\rightarrow G$ is a surjective morphism of connected compact Lie groups whose kernel is central, proving the proposition (in the form $a))$ for G is the same as proving it for $G'$ (Prop. 2). Thus, we can first of all replace G by Ad(G), then assume that G is semi-simple, and then by replacing G by a universal covering (§1, no. 4, Cor. 2), assume that G is simply-connected. But then assertion $b)$ is trivial.
+where $\overline{e}$ is the image in $G/H$ of the identity element of G. Since $G/H$ is connected, this immediately implies the equivalence of assertions $a)$ and $b)$. Moreover, if $f: G'\rightarrow G$ is a surjective morphism of connected compact Lie groups whose kernel is central, proving the proposition (in the form $a$)$)$ for G is the same as proving it for $G'$ (Prop. 2). Thus, we can first of all replace G by Ad(G), then assume that G is semi-simple, and then by replacing G by a universal covering (§1, no. 4, Cor. 2), assume that G is simply-connected. But then assertion $b)$ is trivial.
 
 #### Proposition 4 {#lie-ix-s2-prop-4 .statement tag=01AJ}
 
@@ -232,7 +232,7 @@ With the notations of Prop. 4, every closed subgroup $H'$ of G containing H and 
 
 Let G be a connected compact Lie group and T a maximal torus of G. Denote by $N_G(T)$ the normalizer of T in G; by Prop. 4 (no. 4), the quotient group $N_G(T)/T$ is finite. We denote it by $W_G$(T), or by W(T), and call it the Weyl group of the maximal torus T of G, or the Weyl group of G relative to T. Since T is commutative, the operation of $N_G(T)$ on T by inner automorphisms of G induces by passage to the quotient an operation, called the canonical operation, of the group $W_G(T)$ on the Lie group T. By Cor. 6 of Th. 2 of no. 2, this operation is faithful: the associated homomorphism $W_G(T)\rightarrow$ Aut T is injective.
 
-If $T'$ is another maximal torus of G and if $g\in G$ is such that Int $g$ maps T to $T'$ (no. 2, Th. $2b))$, then Int $g$ induces an isomorphism $a_g$ from $W_G(T)$ to $W_G(T')$ and $a_g(s)(gtg^{-1}) =gs(t)g^{-1}$ for all $s\in W_G(T)$ and all $t\in T$.
+If $T'$ is another maximal torus of G and if $g\in G$ is such that Int $g$ maps T to $T'$ (no. 2, Th. $2b$)$)$, then Int $g$ induces an isomorphism $a_g$ from $W_G(T)$ to $W_G(T')$ and $a_g(s)(gtg^{-1}) =gs(t)g^{-1}$ for all $s\in W_G(T)$ and all $t\in T$.
 
 #### Proposition 5 {#lie-ix-s2-prop-5 .statement tag=01J9}
 

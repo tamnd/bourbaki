@@ -30,7 +30,7 @@ subsections:
       pdf_page: 162
 statements: 30
 exercises: 6
-content_sha256: 4557c7218072480fb4ee5214fdb3d546f8e270adf4b705d2bc74360dc4d4330c
+content_sha256: c3520cd3a5b6efacdd841870c3c2e342b0341edbd32074687bd212bc32731ee7
 ---
 
 ## § 8. SEMISIMPLE RINGS
@@ -171,7 +171,7 @@ Let M be a finitely generated semisimple A-module. Denote its support (VIII, p. 
 
 a) The ring B is semisimple.
 
-b) The mapping $\lambda \mapsto$ cl(V$_{\lambda})$ is a bijection from the support $\mathscr{S}_M$ of M to the set of classes of simple B-modules.
+b) The mapping $\lambda \mapsto$ cl(V$_{\lambda}$) is a bijection from the support $\mathscr{S}_M$ of M to the set of classes of simple B-modules.
 
 c) For every $\lambda \in \mathscr{S}_M$, the isotypical component of type $\lambda$ of the A-module M is equal to the isotypical component of type $V_{\lambda}$ of the B-module M.
 
@@ -231,7 +231,7 @@ c) We have $\mathfrak{b}_{\lambda}=\mathfrak{a}_{\mathscr{S}-\{\lambda\}}$ for e
 
 d) For every $\lambda \in \mathscr{S}$, the canonical mapping from A to $A/\mathfrak{b}_{\lambda}$ induces an isomorphism of A-modules from $\mathfrak{a}_{\lambda}$ to $A/\mathfrak{b}_{\lambda}$.
 
-Assertion a) follows from Proposition 8, d) of VIII, p. 87 applied to the A-module $A_s$. It follows that the minimal two-sided ideals of A are the $\mathfrak{a}_{\lambda}$ and that the maximal two-sided ideals are the ideals $\mathfrak{c}_{\lambda}=\mathfrak{a}_{\mathscr{S}-\lambda}$ (for $\lambda \in \mathscr{S})$.
+Assertion a) follows from Proposition 8, d) of VIII, p. 87 applied to the A-module $A_s$. It follows that the minimal two-sided ideals of A are the $\mathfrak{a}_{\lambda}$ and that the maximal two-sided ideals are the ideals $\mathfrak{c}_{\lambda}=\mathfrak{a}_{\mathscr{S}-\lambda}$ (for $\lambda \in \mathscr{S}$).
 
 It remains to show the equality of $\mathfrak{b}_{\lambda}$ and $\mathfrak{c}_{\lambda}$ for every $\lambda \in \mathscr{S}$. Let $\lambda$ and $\mu$ be distinct in $\mathscr{S}$. The A-submodule $\mathfrak{a}_\mu S_{\lambda}$ of $S_{\lambda}$ is the union of the images of the linear mappings $a\mapsto ax$ from $\mathfrak{a}_\mu$ to $S_{\lambda}$ for $x\in S_{\lambda}$. Consequently, it is zero, and we have $\mathfrak{a}_\mu\subset \mathfrak{b}_{\lambda}$. We therefore have $\mathfrak{c}_{\lambda}\subset \mathfrak{b}_{\lambda}$, and finally $\mathfrak{c}_{\lambda}=\mathfrak{b}_{\lambda}$ because $\mathfrak{c}_{\lambda}$ is a maximal two-sided ideal of A and $\mathfrak{b}_{\lambda}$ is distinct from A.
 
@@ -271,7 +271,7 @@ Let $\lambda \in \mathscr{S}$. The isotypical component $\mathfrak{a}_{\lambda}$
 
 and
 
-(2) long(A) = long(A$^o) =\sum_{\lambda\in\mathscr{S}}$ dim$_{D_{\lambda}}S_{\lambda}$.
+(2) long(A) = long(A$^o$) $=\sum_{\lambda\in\mathscr{S}}$ dim$_{D_{\lambda}}S_{\lambda}$.
 
 The first assertion is the specific case $M = A_s$ of Proposition 6, c) of VIII, p. 139. The equality $[A_s: S_{\lambda}] = [A_d: S^*_{\lambda}]$ follows from Proposition 7 of VIII, p. 140 because the dual of the left A-module $A_s$ is isomorphic to the right A-module $A_d$. By Propositions 8, a) and 9, c), the mapping $a\mapsto a_{S_{\lambda}}$ defines an isomorphism of left A-modules from $\mathfrak{a}_{\lambda}$ to End$_{D_{\lambda}}(S_{\lambda})$. Since $[A_s: S_{\lambda}]$ is, by definition, the length of the left A-module $\mathfrak{a}_{\lambda}$, the relation $[A_s: S_{\lambda}] =$ dim$_{D_{\lambda}}S_{\lambda}$ follows from Lemma 2 of VIII, p. 121. Finally, relation (2) is obtained from (1) by taking the sum over $\lambda$.
 
@@ -293,13 +293,13 @@ f) The set of minimal ideals of Z
 
 g) The set of maximal ideals of Z.
 
-Thus, to every element $\lambda$ of $\mathscr{S}$ (A), there correspond the class $\lambda^*$ of the simple right A-module $S^*_{\lambda}$, dual of $S_{\lambda}$, the minimal two-sided ideal $\mathfrak{a}_{\lambda}$ of A (isotypical component of $A_s$ of type $\lambda )$, the maximal two-sided ideal $\mathfrak{b}_{\lambda}$ of A (annihilator of the simple module $S_{\lambda})$, the class of the simple Z-module $Z\cap \mathfrak{a}_{\lambda}$, the minimal ideal $Z\cap \mathfrak{a}_{\lambda}$ of Z, and the maximal ideal $Z\cap \mathfrak{b}_{\lambda}$ of Z.
+Thus, to every element $\lambda$ of $\mathscr{S}$ (A), there correspond the class $\lambda^*$ of the simple right A-module $S^*_{\lambda}$, dual of $S_{\lambda}$, the minimal two-sided ideal $\mathfrak{a}_{\lambda}$ of A (isotypical component of $A_s$ of type $\lambda$ ), the maximal two-sided ideal $\mathfrak{b}_{\lambda}$ of A (annihilator of the simple module $S_{\lambda}$), the class of the simple Z-module $Z\cap \mathfrak{a}_{\lambda}$, the minimal ideal $Z\cap \mathfrak{a}_{\lambda}$ of Z, and the maximal ideal $Z\cap \mathfrak{b}_{\lambda}$ of Z.
 
 #### Proposition 12 {#alg-viii-s8-prop-12 .statement tag=009N}
 
 Let M be a module over the semisimple ring A and $\mathscr{S}_M\subset \mathscr{S}$ the support of M. Then the annihilator Ann(M) of M is the two-sided ideal $\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$, and the trace ideal $\tau (M)$ of M is the two-sided ideal $\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$. In particular, A is the direct sum of Ann(M) and $\tau (M)$.
 
-By definition (VIII, p. 84$),\mathscr{S}_M$ consists of the classes of simple submodules of M. Since the module M is semisimple, the annihilator of M is the intersection of the annihilators $\mathfrak{b}_{\lambda}$ of the modules of class $\lambda$, for $\lambda$ running through $\mathscr{S}_M$. Now, we have $\mathfrak{b}_{\lambda}=\sum_{\mu\not=\lambda}\mathfrak{a}_\mu$ for every $\lambda \in \mathscr{S}$ (Proposition 9). Since A is the direct sum of the family $(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$, the annihilator of M is indeed equal to $\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$.
+By definition (VIII, p. 84)$,\mathscr{S}_M$ consists of the classes of simple submodules of M. Since the module M is semisimple, the annihilator of M is the intersection of the annihilators $\mathfrak{b}_{\lambda}$ of the modules of class $\lambda$, for $\lambda$ running through $\mathscr{S}_M$. Now, we have $\mathfrak{b}_{\lambda}=\sum_{\mu\not=\lambda}\mathfrak{a}_\mu$ for every $\lambda \in \mathscr{S}$ (Proposition 9). Since A is the direct sum of the family $(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$, the annihilator of M is indeed equal to $\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$.
 
 By definition (VIII, p. 80), the trace ideal $\tau (M)$ is the A-submodule of $A_s$ generated by the images of the A-linear mappings from M to $A_s$. Because M is semisimple, it amounts to the same to say that $\tau (M)$ is generated by the simple submodules of $A_s$ with class belonging to $\mathscr{S}_M$. We therefore have $\tau (M) =\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$.
 
@@ -373,7 +373,7 @@ $$
 x=xe=\sum_ixe_i=\sum_ip_i(x)
 $$
 
-Consequently (II, §1, No. 8, p. 20, Proposition $12), Ae$ is the direct sum of the images of the $p_i$. Now, we have $ee_i=e_ie=e_i$, so the image of $p_i$ is $Ae_i$. This proves a).
+Consequently (II, §1, No. 8, p. 20, Proposition $12$)$, Ae$ is the direct sum of the images of the $p_i$. Now, we have $ee_i=e_ie=e_i$, so the image of $p_i$ is $Ae_i$. This proves a).
 
 Take the notation and assumptions of b). Let $i\in I$. Since $e_i$ belongs to $Ae$, we have $e_i=e_ie=\sum_je_ie_j$. Since $Ae$ is the direct sum of the $\mathfrak{a}_j$ and $e_ie_j$ belongs to $\mathfrak{a}_j$ for every $j$, we have $e_i=e_ie_i$ and $e_ie_j= 0$ for $i\not=j$. In other words, $(e_i)_{i\in I}$ is a partition of the idempotent $e$. By a), $Ae$ is the direct sum of the $Ae_i$. By assumption, we have $Ae_i\subset \mathfrak{a}_i$, and $Ae$ is the direct sum of the $\mathfrak{a}_i$. We therefore have $Ae_i=\mathfrak{a}_i$ for every $i\in I$. We have proved b).
 

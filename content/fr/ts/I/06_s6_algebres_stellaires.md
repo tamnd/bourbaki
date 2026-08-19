@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: fc4458a1309ea55354ec996d7f7162f3088243ef8c77e961ec1749a6ce19044f
+content_sha256: 17da09a7326bcbfc25b9a06206337ce1110eacbaceefbe881fa374e9211b60aa
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -156,7 +156,7 @@ Soit A une algèbre involutive. Si $f$ est une forme linéaire sur A, l’applic
 
 Pour qu’une forme linéaire $f$ soit hermitienne, il faut et il suffit que la restriction de $f$ à $A_h$ soit à valeurs réelles (proposition 1 de I, p. 95). L’application $f\mapsto f|A_h$ est un isomorphisme de l’espace vectoriel réel des formes hermitiennes sur l’espace vectoriel dual de l’espace vectoriel réel $A_h$.
 
-En particulier, on notera $\mathsf{X}'(A)_h$ (resp. $\mathsf{X}(A)_h)$ l’ensemble des caractères hermitiens de A (resp. l’ensemble des caractères hermitiens non nuls de A). Un caractère est donc hermitien si sa restriction à $A_h$ est à valeurs réelles.
+En particulier, on notera $\mathsf{X}'(A)_h$ (resp. $\mathsf{X}(A)_h$) l’ensemble des caractères hermitiens de A (resp. l’ensemble des caractères hermitiens non nuls de A). Un caractère est donc hermitien si sa restriction à $A_h$ est à valeurs réelles.
 
 Si A est commutative et si $\chi$ est un caractère de A, alors $\chi^*$ est un caractère de A, et l’application $\chi \mapsto \chi^*$ est un homéomorphisme de $\mathsf{X}'(A)$ sur $\mathsf{X}'(A)$.
 
@@ -190,7 +190,7 @@ Soit G un groupe localement compact. Soit $\mathscr{M}^1(G)$ l’algèbre de Ban
 
 L’application $x\mapsto x^{-1}$ de G sur G transforme toute mesure $\mu\in$ $\mathscr{M}^1(G)$ en une mesure $\check{\mu}\in \mathscr{M}^1(G)$ (INT, VII, p. 12, formule (13)). On note $\mu^*$ la mesure complexe conjuguée de $\check{\mu}$. L’application $\mu\mapsto \check{\mu}$ est un isomorphisme isométrique de l’algèbre de Banach $\mathscr{M}^1(G)$ sur l’algèbre de Banach $\mathscr{M}^1(G^{\circ})$ (INT, VIII, §3, n$^o1$, cor. de la prop. 7) donc $\mu\mapsto \mu^*$ est une involution isométrique de l’algèbre de Banach $\mathscr{M}^1(G)$.
 
-L’ensemble A des mesures bornées admettant une densité par rapport à une mesure de Haar est une sous-algèbre fermée de $\mathscr{M}^1(G)$ stable par l’involution (cf. INT, VIII, §4, n$^o5)$; elle ne dépend pas du choix d’une mesure de Haar.
+L’ensemble A des mesures bornées admettant une densité par rapport à une mesure de Haar est une sous-algèbre fermée de $\mathscr{M}^1(G)$ stable par l’involution (cf. INT, VIII, §4, n$^o5$); elle ne dépend pas du choix d’une mesure de Haar.
 
 Soit $\nu$ une mesure de Haar à gauche sur G et notons Δ le module devolution$Gf$. On munit$\mapsto f^*=\widetilde{f}L\overset{1}{\cdot}(G\Delta^-, \nu_1$, où) du produit$\widetilde{f}(x) =\frac{(f, g)}{f(x^{-1})}\mapsto$pour tout$f*^{\nu}g$ et de l’in-$x\in G$. Alors l’application $f\mapsto f\cdot \nu$ est un isomorphisme de l’algèbre involutive $L^1(G, \nu )$ sur A. Cet isomorphisme est isométrique. En particulier, $L^1(G, \nu )$ s’identifie à une sous-algèbre involutive de $\mathscr{M}^1(G)$.
 
@@ -276,7 +276,7 @@ exp($x$)$^*=(\sum_{n=0}^{\infty}xn^n$! $)^*=\sum_{n=0}^{\infty}(x\overset{*}{n}$
 
 pour tout $x\in A$ (formule (9) de I, p. 78). Si $x\in A_h$, il vient alors
 
-exp($ix$)$^*=$ exp(($ix$)$^*) =$ exp($-ix$) $=$ exp($ix$)$^{-1}$
+exp($ix$)$^*=$ exp(($ix$)$^*$) $=$ exp($-ix$) $=$ exp($ix$)$^{-1}$
 
 (formule (11) de I, p. 78).
 
@@ -536,11 +536,11 @@ L’application ev$_x:\chi \mapsto \chi (x)$ induit un homéomorphisme de $\math
 
 L’application $x\mapsto \chi (x)$ de $\mathsf{X}(B)$ dans $\mathbf{C}$ est continue, et son image est égale à Sp$_B(x)$ d’après la prop. 6 de I, p. 37, donc à Sp$_A(x)$. Comme les caractères de B sont hermitiens (lemme 9 de I, p. 107), des caractères de B qui coïncident en $x$ sont également égaux en $x^*$, donc sont égaux sur la sous-algèbre stellaire unifère B engendrée par $x$. Cela prouve que l’application ev$_x$ est injective. Comme $\mathsf{X}(B)$ est compact et $\mathbf{C}$ est séparé, elle induit un homéomorphisme de $\mathsf{X}(B)$ sur son image, d’où le lemme.
 
-On déduit du lemme un isomorphisme d’algèbres stellaires $\varphi_x:\mathscr{C}$(Sp$_A(x))\rightarrow \mathscr{C}(\mathsf{X}(B))$. Il applique une fonction $f\in \mathscr{C}$ (Sp$_A(x))$ sur la fonction $\chi \mapsto f(\chi (x))$. L’application $\mathscr{G}_B^{-1}\circ \varphi_x$ est un isomorphisme de l’algèbre stellaire $\mathscr{C}$(Sp$_A(x))$ sur B.
+On déduit du lemme un isomorphisme d’algèbres stellaires $\varphi_x:\mathscr{C}$(Sp$_A(x)$)$\rightarrow \mathscr{C}(\mathsf{X}(B))$. Il applique une fonction $f\in \mathscr{C}$ (Sp$_A(x)$) sur la fonction $\chi \mapsto f(\chi (x))$. L’application $\mathscr{G}_B^{-1}\circ \varphi_x$ est un isomorphisme de l’algèbre stellaire $\mathscr{C}$(Sp$_A(x)$) sur B.
 
 #### Définition 5 {#ts-i-s6-def-5 .statement tag=02DU}
 
-Le morphisme involutif $f\mapsto (\mathscr{G}_B^{-1}\circ \varphi_x)(f)$ de $\mathscr{C}$(Sp$_A(x))$ dans A est appelé application de calcul fonctionnel continu de $x$ dans A. On le note $f\mapsto f(x)$.
+Le morphisme involutif $f\mapsto (\mathscr{G}_B^{-1}\circ \varphi_x)(f)$ de $\mathscr{C}$(Sp$_A(x)$) dans A est appelé application de calcul fonctionnel continu de $x$ dans A. On le note $f\mapsto f(x)$.
 
 #### Remarque {#ts-i-s6-n6-rem-1 .statement tag=02DV}
 
@@ -558,35 +558,35 @@ Pour que $x$ soit hermitien, il faut et il suffit que Sp$_A(x)$ soit contenu dan
 
 #### Exemple 3 {#ts-i-s6-n6-exa-3 .statement tag=02DY}
 
-Pour que $x$ soit unitaire, il faut et il suffit que son spectre soit contenu dans le cercle unité de $\mathbf{C}$. En effet, soit $f\in \mathscr{C}$ (Sp$_A(x))$ la fonction définie par $f(z) =zz-1$; l’élément $x$ est unitaire si et seulement si $f(x) = 0$, c’est-à-dire si $f$ est nulle.
+Pour que $x$ soit unitaire, il faut et il suffit que son spectre soit contenu dans le cercle unité de $\mathbf{C}$. En effet, soit $f\in \mathscr{C}$ (Sp$_A(x)$) la fonction définie par $f(z) =zz-1$; l’élément $x$ est unitaire si et seulement si $f(x) = 0$, c’est-à-dire si $f$ est nulle.
 
 #### Proposition 7 {#ts-i-s6-prop-7 .statement tag=02DZ}
 
-L’application $f\mapsto f(x)$ est l’unique morphisme unifère d’algèbres involutives de $\mathscr{C}$ (Sp$_A(x))$ dans A tel que l’application identique $z$ de Sp$_A(x)$ ait pour image $x$.
+L’application $f\mapsto f(x)$ est l’unique morphisme unifère d’algèbres involutives de $\mathscr{C}$ (Sp$_A(x)$) dans A tel que l’application identique $z$ de Sp$_A(x)$ ait pour image $x$.
 
-En effet, la sous-algèbre unifère de $\mathscr{C}$ (Sp$_A(x))$ engendrée par les éléments $z$ et $\overline{z}$ de $\mathscr{C}$(Sp$_A(x))$ est dense dans $\mathscr{C}$ (Sp$_A(x))$ (TG, X, p. 40, cor. 1). Puisque tout morphisme d’algèbres involutives de $\mathscr{C}$ (Sp$_A(x))$ dans A est continu (I, p. 104, prop. 2), il existe au plus un morphisme d’algèbres involutives de $\mathscr{C}$(Sp$_A(x))$ dans A qui applique $z$ sur $x$.
+En effet, la sous-algèbre unifère de $\mathscr{C}$ (Sp$_A(x)$) engendrée par les éléments $z$ et $\overline{z}$ de $\mathscr{C}$(Sp$_A(x)$) est dense dans $\mathscr{C}$ (Sp$_A(x)$) (TG, X, p. 40, cor. 1). Puisque tout morphisme d’algèbres involutives de $\mathscr{C}$ (Sp$_A(x)$) dans A est continu (I, p. 104, prop. 2), il existe au plus un morphisme d’algèbres involutives de $\mathscr{C}$(Sp$_A(x)$) dans A qui applique $z$ sur $x$.
 
 Le corollaire suivant montre que lorsque $f$ est la restriction d’une fonction holomorphe au voisinage de Sp$_A(x)$, la définition de $f(x)$ coïn-cide avec celle du calcul fonctionnel holomorphe en une variable du numéro 9 de I, p. 74.
 
 #### Corollaire 1 {#ts-i-s6-prop-7-cor-1 .statement tag=02E0}
 
-Soit $f\in \mathscr{O}$(Sp$_A(x))$ un germe de fonction holomorphe au voisinage de Sp$_A(x)$ et soit $\widetilde{f}\in \mathscr{C}$(Sp$_A(x))$ la fonction continue sur Sp$_A(x)$ associée à $f$. On a $\widetilde{f}(x) =f(x)$, où $f(x)$ est l’élément de A donné par le calcul fonctionnel holomorphe.
+Soit $f\in \mathscr{O}$(Sp$_A(x)$) un germe de fonction holomorphe au voisinage de Sp$_A(x)$ et soit $\widetilde{f}\in \mathscr{C}$(Sp$_A(x)$) la fonction continue sur Sp$_A(x)$ associée à $f$. On a $\widetilde{f}(x) =f(x)$, où $f(x)$ est l’élément de A donné par le calcul fonctionnel holomorphe.
 
-En effet, l’application $f\mapsto \widetilde{f}(x)$ est un morphisme unifère continu de $\mathscr{O}$(Sp$_A(x))$ dans A qui applique le germe de la fonction identique au voisinage de Sp$_A(x)$ sur $x$. Le résultat est alors conséquence du th. 5 de I, p. 74.
+En effet, l’application $f\mapsto \widetilde{f}(x)$ est un morphisme unifère continu de $\mathscr{O}$(Sp$_A(x)$) dans A qui applique le germe de la fonction identique au voisinage de Sp$_A(x)$ sur $x$. Le résultat est alors conséquence du th. 5 de I, p. 74.
 
 #### Corollaire 2 {#ts-i-s6-prop-7-cor-2 .statement tag=02E1}
 
-Soit $f\in \mathscr{C}$ (Sp$_A(x))$.
+Soit $f\in \mathscr{C}$ (Sp$_A(x)$).
 
 a) On a
 
-Sp$_A(f(x)) =f$(Sp$_A(x))$ ;
+Sp$_A(f(x)) =f$(Sp$_A(x)$) ;
 
-b) Pour tout $g\in \mathscr{C}$ (Sp$_A(f(x)))$, on a $(g\circ f)(x) =g(f(x))$.
+b) Pour tout $g\in \mathscr{C}$ (Sp$_A(f(x))$), on a $(g\circ f)(x) =g(f(x))$.
 
-Comme $f(x)$ appartient à la sous-algèbre pleine B de A, on a Sp$_A(f(x)) =$ Sp$_B(f(x))$ (prop. 5 de I, p. 106). L’isomorphisme $f\mapsto f(x)$ de $\mathscr{C}$(Sp$_A(x))$ dans B préserve le spectre ; on a donc Sp$_B(f(x)) =$ Sp$_{\mathscr{C}(Sp_A(x))}(f) =f$(Sp$_A(x))$ (exemple 3 de I, p. 17). Cela démontre l’assertion a).
+Comme $f(x)$ appartient à la sous-algèbre pleine B de A, on a Sp$_A(f(x)) =$ Sp$_B(f(x))$ (prop. 5 de I, p. 106). L’isomorphisme $f\mapsto f(x)$ de $\mathscr{C}$(Sp$_A(x)$) dans B préserve le spectre ; on a donc Sp$_B(f(x)) =$ Sp$_{\mathscr{C}(Sp_A(x))}(f) =f$(Sp$_A(x)$) (exemple 3 de I, p. 17). Cela démontre l’assertion a).
 
-L’application $g\mapsto (g\circ f)(x)$ est un morphisme unifère d’algèbres involutives de $\mathscr{C}$(Sp$_A(f(x)))$ dans A qui transforme la fonction identique de Sp$_A(f(x))$ en $f(x)$. D’après la prop. 7, on a donc $(g\circ f)(x) =g(f(x))$ pour tout $g\in \mathscr{C}$ (Sp$_A(f(x)))$.
+L’application $g\mapsto (g\circ f)(x)$ est un morphisme unifère d’algèbres involutives de $\mathscr{C}$(Sp$_A(f(x))$) dans A qui transforme la fonction identique de Sp$_A(f(x))$ en $f(x)$. D’après la prop. 7, on a donc $(g\circ f)(x) =g(f(x))$ pour tout $g\in \mathscr{C}$ (Sp$_A(f(x))$).
 
 #### Exemple 4 {#ts-i-s6-n6-exa-4 .statement tag=02E2}
 
@@ -598,13 +598,13 @@ Soit $\pi : A\rightarrow A'$ un morphisme unifère d’algèbres stellaires unif
 
 #### Proposition 8 {#ts-i-s6-prop-8 .statement tag=02E3}
 
-Soit $f\in \mathscr{C}$(Sp$_A(x))$. Notant encore $f$ la restriction de $f$ à Sp$_{A'}(\pi (x))$, on a l’égalité $\pi (f(x)) =f(\pi (x))$. En particulier, pour tout $\chi \in \mathsf{X}(A)$, on a $\chi (f(x)) =f(\chi (x))$.
+Soit $f\in \mathscr{C}$(Sp$_A(x)$). Notant encore $f$ la restriction de $f$ à Sp$_{A'}(\pi (x))$, on a l’égalité $\pi (f(x)) =f(\pi (x))$. En particulier, pour tout $\chi \in \mathsf{X}(A)$, on a $\chi (f(x)) =f(\chi (x))$.
 
-Soit $z$ l’application identique de Sp$_A(x)$. Les applications définies par $f\mapsto \pi (f(x))$ et $f\mapsto f(\pi (x))$ sont des morphismes unifères continus d’algèbres involutives de $\mathscr{C}$(Sp$_A(x))$ dans B qui appliquent $z$ sur $\pi (x)$. Ces morphismes coïncident donc sur la sous-algèbre involutive unifère de $\mathscr{C}$ (Sp$_A(x))$ engendrée par $z$. Comme celle-ci est dense dans $\mathscr{C}$(Sp$_A(x))$ (TG, X, p. 40, cor. 1), ces morphismes sont égaux.
+Soit $z$ l’application identique de Sp$_A(x)$. Les applications définies par $f\mapsto \pi (f(x))$ et $f\mapsto f(\pi (x))$ sont des morphismes unifères continus d’algèbres involutives de $\mathscr{C}$(Sp$_A(x)$) dans B qui appliquent $z$ sur $\pi (x)$. Ces morphismes coïncident donc sur la sous-algèbre involutive unifère de $\mathscr{C}$ (Sp$_A(x)$) engendrée par $z$. Comme celle-ci est dense dans $\mathscr{C}$(Sp$_A(x)$) (TG, X, p. 40, cor. 1), ces morphismes sont égaux.
 
 #### Corollaire {#ts-i-s6-n6-cor-1 .statement tag=02E4}
 
-Supposons que A est commutative. Pour tout $f\in$ $\mathscr{C}$(Sp$_A(x))$, on a $\mathscr{G}_A(f(x)) =f\circ \mathscr{G}_A(x)$.
+Supposons que A est commutative. Pour tout $f\in$ $\mathscr{C}$(Sp$_A(x)$), on a $\mathscr{G}_A(f(x)) =f\circ \mathscr{G}_A(x)$.
 
 Il suffit d’appliquer la prop. 8 à la transformation de Gelfand $\mathscr{G}_A$ de A dans $\mathscr{C}(\mathsf{X}(A))$ et de remarquer (exemple ci-dessus) que $f(\mathscr{G}_A(x)) =f\circ \mathscr{G}_A(x)$.
 
@@ -616,7 +616,7 @@ Tout morphisme injectif d’algèbres stellaires est isométrique et, en particu
 
 Soient A et $A'$ des algèbres stellaires et soit $\pi : A\rightarrow A'$ un morphisme d’algèbres involutives de A dans $A'$.
 
-Supposons d’abord que A et $A'$ sont unifères et que $\pi$ est unifère. On a $\|\pi \|\leqslant 1$ (prop. 2). Supposons qu’il existe $x$ dans A tel que $\|\pi (x)\|<\|x\|$. Soit $y=x^*x$; c’est un élément hermitien de A. Puisque A et $A'$ sont des algèbres stellaires, on a $\|\pi (y)\|=\|\pi (x)\|^2<\|x\|^2=$ $\|y\|$, c’est-à-dire $\varrho (\pi (y))< \varrho (y)$ (lemme 7 de I, p. 104). En particulier, Sp$_{A'}(\pi (y))$ est un sous-ensemble fermé de Sp$_A(y)$, distinct de Sp$_A(y)$ (remarque 6 de I, p. 3 et th. 1 de I, p. 24). Il existe alors une fonction non nulle $f\in \mathscr{C}$(Sp$_A(y))$ telle que $f|$ Sp$_{A'}(\pi (y)) = 0$ (TG, IX, p. 13, prop. 3). Soit $w=f(y)\in$ A. On a $w\not= 0$ puisque $f\not= 0$, mais $\pi (w) =\pi (f(y)) =f(\pi (y)) = 0$ puisque $f$ est nulle sur Sp$_{A'}(\pi (y))$ (prop. 8). Donc $\pi$ n’est pas injective.
+Supposons d’abord que A et $A'$ sont unifères et que $\pi$ est unifère. On a $\|\pi \|\leqslant 1$ (prop. 2). Supposons qu’il existe $x$ dans A tel que $\|\pi (x)\|<\|x\|$. Soit $y=x^*x$; c’est un élément hermitien de A. Puisque A et $A'$ sont des algèbres stellaires, on a $\|\pi (y)\|=\|\pi (x)\|^2<\|x\|^2=$ $\|y\|$, c’est-à-dire $\varrho (\pi (y))< \varrho (y)$ (lemme 7 de I, p. 104). En particulier, Sp$_{A'}(\pi (y))$ est un sous-ensemble fermé de Sp$_A(y)$, distinct de Sp$_A(y)$ (remarque 6 de I, p. 3 et th. 1 de I, p. 24). Il existe alors une fonction non nulle $f\in \mathscr{C}$(Sp$_A(y)$) telle que $f|$ Sp$_{A'}(\pi (y)) = 0$ (TG, IX, p. 13, prop. 3). Soit $w=f(y)\in$ A. On a $w\not= 0$ puisque $f\not= 0$, mais $\pi (w) =\pi (f(y)) =f(\pi (y)) = 0$ puisque $f$ est nulle sur Sp$_{A'}(\pi (y))$ (prop. 8). Donc $\pi$ n’est pas injective.
 
 Traitons maintenant le cas général. Soient $\widetilde{A}$ et $\widetilde{A}'$ les algèbres stellaires déduites de A et de $A'$ respectivement par adjonction d’un élément unité (déf. 4 de I, p. 106). Il existe un unique morphisme unifère d’algèbres involutives $\widetilde{\pi}:\widetilde{A}\rightarrow \widetilde{A}'$ prolongeant $\pi$. Ce morphisme est injectif, donc est isométrique d’après ce qui précède. Pour tout $x\in A$, on a alors $\|\pi (x)\|=\|\widetilde{\pi}(x)\|=\|x\|$.
 
@@ -630,11 +630,11 @@ Soient $x\not=y$ des points distincts de X. Soient U et V des voisinages ouverts
 
 Soit A une algèbre stellaire unifère. On suppose que pour tout couple $(x, y)$ d’éléments permutables de A, la condition $xy= 0$ implique que $x= 0$ ou $y= 0$. Alors $A =\mathbf{C}\cdot 1$.
 
-Si A n’est pas égale à $\mathbf{C}\cdot 1$, il existe un élément hermitien $x$ dans A qui n’appartient pas à $\mathbf{C}\cdot 1$ (lemme 2 de I, p. 96). Soit B la sous-algèbre stellaire unifère de A engendrée par $x$. Elle est commutative, et isomorphe à $\mathscr{C}$ (Sp$_A(x))$ (I, p. 110, remarque). Comme $x$ n’est pas scalaire, son spectre dans B n’est pas réduit à un seul élément (exemple 1 de I, p. 110). Il existe donc des fonctions continues et non nulles $f$ et $g$ sur Sp$_A(x)$ telles que $f g= 0$ (lemme 11). Les éléments $f(x)$ et $g(x)$ de A sont non nuls, permutables, et vérifient $f(x)g(x) = 0$ dans A.
+Si A n’est pas égale à $\mathbf{C}\cdot 1$, il existe un élément hermitien $x$ dans A qui n’appartient pas à $\mathbf{C}\cdot 1$ (lemme 2 de I, p. 96). Soit B la sous-algèbre stellaire unifère de A engendrée par $x$. Elle est commutative, et isomorphe à $\mathscr{C}$ (Sp$_A(x)$) (I, p. 110, remarque). Comme $x$ n’est pas scalaire, son spectre dans B n’est pas réduit à un seul élément (exemple 1 de I, p. 110). Il existe donc des fonctions continues et non nulles $f$ et $g$ sur Sp$_A(x)$ telles que $f g= 0$ (lemme 11). Les éléments $f(x)$ et $g(x)$ de A sont non nuls, permutables, et vérifient $f(x)g(x) = 0$ dans A.
 
 #### Proposition 11 {#ts-i-s6-prop-11 .statement tag=02E8}
 
-Soient A une algèbre stellaire unifère, $a,x$ et $y$ des éléments de A. On suppose que $x$ et $y$ sont normaux. Si $xa=$ $ay$, alors on a $f(x)a=af(y)$ pour toute fonction $f$ continue dans la réunion du spectre de $x$ et du spectre de $y$. En particulier, on a $f(aa^*)a=af(a^*a)$ pour toute fonction $f\in \mathscr{C}$ (Sp$'(a^*a))$.
+Soient A une algèbre stellaire unifère, $a,x$ et $y$ des éléments de A. On suppose que $x$ et $y$ sont normaux. Si $xa=$ $ay$, alors on a $f(x)a=af(y)$ pour toute fonction $f$ continue dans la réunion du spectre de $x$ et du spectre de $y$. En particulier, on a $f(aa^*)a=af(a^*a)$ pour toute fonction $f\in \mathscr{C}$ (Sp$'(a^*a)$).
 
 Soit S = Sp($x$)$\cup$ Sp($y$). La proposition 6 de I, p. 106 implique que $x^*a=ay^*$. Par conséquent, il vient $f(x)a=af(y)$ pour toute fonction $f$ qui est de la forme $z\mapsto P(z, z)$, où $P\in \mathbf{C}[X,Y]$ est un polynôme. Puisque l’ensemble des fonctions $f\in \mathscr{C}(S)$ vérifiant $f(x)a=$ $af(y)$ est une sous-algèbre fermée de $\mathscr{C}(S)$, elle coïncide avec $\mathscr{C}(S)$ d’après TG, X, p. 40, cor. 1.
 
@@ -644,15 +644,15 @@ La seconde assertion est une conséquence de la première, appliquée aux élém
 
 Soit A une algèbre stellaire et soit $\widetilde{A}$ l’algèbre stellaire unifère déduite de A par adjonction d’un élément unité $e$. Notons $\pi$ le caractère hermitien $x+\lambda e\mapsto \lambda$ de $\widetilde{A}$ dans $\mathbf{C}$; on a Ker($\pi$ ) $= A$.
 
-Soit $x\in A$ un élément normal. Il est normal dans $\widetilde{A}$ et Sp$_{\widetilde{A}}(x) =$ Sp$'_A(x)$. Notons $\mathscr{C}'$(Sp$'_A(x))$ l’algèbre stellaire des fonctions continues $f$ sur Sp$'_A(x)$ telles que $f(0) = 0$.
+Soit $x\in A$ un élément normal. Il est normal dans $\widetilde{A}$ et Sp$_{\widetilde{A}}(x) =$ Sp$'_A(x)$. Notons $\mathscr{C}'$(Sp$'_A(x)$) l’algèbre stellaire des fonctions continues $f$ sur Sp$'_A(x)$ telles que $f(0) = 0$.
 
-Soit $f\in \mathscr{C}$ (Sp$'_A(x))$. Comme $\pi (f(x)) =f(\pi (x))$ (prop. 8 de I, p. 112), on a $f(x)\in A$ si et seulement si $f(0) = 0$. L’application $f\mapsto f(x)$ définit un morphisme d’algèbres involutives de l’algèbre stellaire $\mathscr{C}'$(Sp$'_A(x))$ dans A pour lequel l’image de l’application identique $z$ de Sp$'_A(x)$ est $x$. Ce morphisme est isométrique et son image est la sous-algèbre stellaire de A engendrée par $x$.
+Soit $f\in \mathscr{C}$ (Sp$'_A(x)$). Comme $\pi (f(x)) =f(\pi (x))$ (prop. 8 de I, p. 112), on a $f(x)\in A$ si et seulement si $f(0) = 0$. L’application $f\mapsto f(x)$ définit un morphisme d’algèbres involutives de l’algèbre stellaire $\mathscr{C}'$(Sp$'_A(x)$) dans A pour lequel l’image de l’application identique $z$ de Sp$'_A(x)$ est $x$. Ce morphisme est isométrique et son image est la sous-algèbre stellaire de A engendrée par $x$.
 
 #### Proposition 12 {#ts-i-s6-prop-12 .statement tag=02E9}
 
-L’application $f\mapsto f(x)$ est l’unique morphisme d’algèbres involutives de l’algèbre stellaire $\mathscr{C}'$(Sp$'_A(x))$ dans A tel que l’application identique $z$ de Sp$'_A(x)$ ait pour image $x$.
+L’application $f\mapsto f(x)$ est l’unique morphisme d’algèbres involutives de l’algèbre stellaire $\mathscr{C}'$(Sp$'_A(x)$) dans A tel que l’application identique $z$ de Sp$'_A(x)$ ait pour image $x$.
 
-Les éléments $z$ et $\overline{z}$ de $\mathscr{C}'$(Sp$'_A(x))$ engendrent une sous-algèbre dense de $\mathscr{C}'$(Sp$'_A(x))$ (cf. TG, X, p. 40, cor. 2). Puisque tout morphisme d’algèbres involutives de l’algèbre stellaire $\mathscr{C}'$(Sp$'_A(x))$ dans l’algèbre stellaire A est continu (I, p. 104, prop. 2), le résultat en découle.
+Les éléments $z$ et $\overline{z}$ de $\mathscr{C}'$(Sp$'_A(x)$) engendrent une sous-algèbre dense de $\mathscr{C}'$(Sp$'_A(x)$) (cf. TG, X, p. 40, cor. 2). Puisque tout morphisme d’algèbres involutives de l’algèbre stellaire $\mathscr{C}'$(Sp$'_A(x)$) dans l’algèbre stellaire A est continu (I, p. 104, prop. 2), le résultat en découle.
 
 Les résultats du numéro précédent concernant le calcul fonctionnel s’étendent au cas général. Nous les énoncerons simplement et laisserons aux lecteurs le soin de compléter les démonstrations, mutatis mutandis.
 
@@ -660,17 +660,17 @@ Les résultats du numéro précédent concernant le calcul fonctionnel s’éten
 
 On a les propriétés suivantes :
 
-a) Pour tout $f\in \mathscr{C}'$(Sp$'_A(x))$, on a Sp$'_A(f(x)) =f$(Sp$'_A(x))$ ;
+a) Pour tout $f\in \mathscr{C}'$(Sp$'_A(x)$), on a Sp$'_A(f(x)) =f$(Sp$'_A(x)$) ;
 
-b) Pour tout $f\in \mathscr{C}'$(Sp$'_A(x))$ et pour tout $g\in \mathscr{C}'$(Sp$'_A(f(x)))$, on a $(g\circ f)(x) =g(f(x))$ ;
+b) Pour tout $f\in \mathscr{C}'$(Sp$'_A(x)$) et pour tout $g\in \mathscr{C}'$(Sp$'_A(f(x))$), on a $(g\circ f)(x) =g(f(x))$ ;
 
-c) Soit $A'$ une algèbre stellaire et soit $\pi$ un morphisme de A dans $A'$; alors $\pi (x)$ est normal dans $A'$, on a Sp$'_{A'}(\pi (x))\subset$ Sp$'_A(x)$ et $\pi (f(x)) =f(\pi (x))$ pour tout $f\in \mathscr{C}'$(Sp$'_A(x))$;
+c) Soit $A'$ une algèbre stellaire et soit $\pi$ un morphisme de A dans $A'$; alors $\pi (x)$ est normal dans $A'$, on a Sp$'_{A'}(\pi (x))\subset$ Sp$'_A(x)$ et $\pi (f(x)) =f(\pi (x))$ pour tout $f\in \mathscr{C}'$(Sp$'_A(x)$);
 
-d) Si A est commutative, et si $f\in \mathscr{C}'$(Sp$'_A(x))$, alors $\mathscr{G}'_A(f(x)) =$ $f\circ \mathscr{G}'_A(x)$.
+d) Si A est commutative, et si $f\in \mathscr{C}'$(Sp$'_A(x)$), alors $\mathscr{G}'_A(f(x)) =$ $f\circ \mathscr{G}'_A(x)$.
 
 #### Remarque {#ts-i-s6-n8-rem-1 .statement tag=02EB}
 
-Soit A une algèbre stellaire unifère et soit $\widetilde{A}$ l’algèbre stellaire unifère déduite de A par adjonction d’un élément unité $e$. Pour tout $x\in A$, on a Sp$'_A(x) =$ Sp$_A(x)\cup  \{0\}$. Soit $x$ un élément normal de A. C’est alors un élément normal de $\widetilde{A}$ et l’on dispose donc de deux applications de calcul fonctionnel dans A, la première définie sur $\mathscr{C}$ (Sp$_A(x))$ et la seconde sur $\mathscr{C}'$(Sp$'_A(x))$. Soit $f'\in \mathscr{C}'$(Sp$'_A(x))$; si l’on note $f$ sa restriction à Sp$_A(x)$, on a alors $f'(x) =f(x)$.
+Soit A une algèbre stellaire unifère et soit $\widetilde{A}$ l’algèbre stellaire unifère déduite de A par adjonction d’un élément unité $e$. Pour tout $x\in A$, on a Sp$'_A(x) =$ Sp$_A(x)\cup  \{0\}$. Soit $x$ un élément normal de A. C’est alors un élément normal de $\widetilde{A}$ et l’on dispose donc de deux applications de calcul fonctionnel dans A, la première définie sur $\mathscr{C}$ (Sp$_A(x)$) et la seconde sur $\mathscr{C}'$(Sp$'_A(x)$). Soit $f'\in \mathscr{C}'$(Sp$'_A(x)$); si l’on note $f$ sa restriction à Sp$_A(x)$, on a alors $f'(x) =f(x)$.
 
 ### 9. Éléments positifs dans les algèbres stellaires
 
@@ -858,7 +858,7 @@ lim$_{f,\mathfrak{F}}f x=$ lim$_{f,\mathfrak{F}}xf=x$.
 
 Si A est une algèbre stellaire, une unité approchée $\mathfrak{F}$ est dite croissante si $\mathfrak{F}$ est une base de filtre sur $A_+$.
 
-Soit A une algèbre stellaire. On note $A^{\leqslant 1}_+$ (resp. $A^{<1}_+)$ l’ensemble des éléments positifs de A de norme $\leqslant 1$ (resp. de norme $<1$) ; ce sont les éléments hermitiens de A dont le spectre est contenu dans $[0,1]$ (resp. dans $[0,1[$).
+Soit A une algèbre stellaire. On note $A^{\leqslant 1}_+$ (resp. $A^{<1}_+$) l’ensemble des éléments positifs de A de norme $\leqslant 1$ (resp. de norme $<1$) ; ce sont les éléments hermitiens de A dont le spectre est contenu dans $[0,1]$ (resp. dans $[0,1[$).
 
 #### Proposition 17 {#ts-i-s6-prop-17 .statement tag=02EQ}
 

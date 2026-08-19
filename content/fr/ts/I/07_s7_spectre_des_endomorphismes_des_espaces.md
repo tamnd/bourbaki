@@ -45,7 +45,7 @@ subsections:
       pdf_page: 152
 statements: 24
 exercises: 16
-content_sha256: 6842160d700ea60a9ee97196d28a9b301aa5f12374dcbd2b5e73e6e767ae8e16
+content_sha256: 90c5ebfb67550b16acbeedb79edf4eb2c5fa302fcbf9b60219e942491284aef8
 ---
 
 ## § 7. SPECTRE DES ENDOMORPHISMES DES ESPACES DE BANACH
@@ -134,13 +134,13 @@ On note aussi $\widetilde{E}_{\lambda}(u) = E_{Sp(u)-\{\lambda\}}(u)$. Le spectr
 
 L’espace $E_{\lambda}(u)$ n’est pas nul. Le spectre de l’endomorphisme de $E_{\lambda}(u)$ déduit de $u$ est réduit à $\lambda$, donc $u-\lambda 1_E$ induit un endomorphisme quasi-nilpotent de $E_{\lambda}(u)$. L’endomorphisme $u-\lambda 1_E$ induit un automorphisme de $\widetilde{E}_{\lambda}(u)$, donc Ker($u-\lambda 1_E$)$^n\subset E_{\lambda}(u)$ pour tout $n\in \mathbf{N}$. En particulier, on a Ker($u-\lambda 1_E$)$\subset E_{\lambda}(u)$.
 
-Pour que $\lambda$ soit pôle d’ordre $p >0$ de la résolvante de $u$, il faut et il suffit que $(u-\lambda 1_E)^{p-1}e_{\lambda}(u)\not= 0$ et $(u-\lambda 1_E)^pe_{\lambda}(u) = 0$ (corollaire de la proposition 17 de I, p. 83). Dans ce cas, on a $E_{\lambda}(u) =$ Ker(($u-\lambda 1_E$)$^p)$ et $\widetilde{E}_{\lambda}(u) =$ Im(($u-\lambda 1_E$)$^p)$, puisque $(u-\lambda 1_E)^p$ induit un automorphisme de $\widetilde{E}_{\lambda}(u)$. On a aussi
+Pour que $\lambda$ soit pôle d’ordre $p >0$ de la résolvante de $u$, il faut et il suffit que $(u-\lambda 1_E)^{p-1}e_{\lambda}(u)\not= 0$ et $(u-\lambda 1_E)^pe_{\lambda}(u) = 0$ (corollaire de la proposition 17 de I, p. 83). Dans ce cas, on a $E_{\lambda}(u) =$ Ker(($u-\lambda 1_E$)$^p$) et $\widetilde{E}_{\lambda}(u) =$ Im(($u-\lambda 1_E$)$^p$), puisque $(u-\lambda 1_E)^p$ induit un automorphisme de $\widetilde{E}_{\lambda}(u)$. On a aussi
 
 $(u-\lambda 1_E)^{p-1}e_{\lambda}(u) =$ lim$_{z\rightarrow\lambda}(z-\lambda 1_E)^pR(u, z)$
 
 d’après la proposition 17 de I, p. 83.
 
-On prendra garde qu’en général $E_{\lambda}(u)$ n’est pas la réunion de la famille (Ker(($u-\lambda 1_E$)$^n))_{n\in\mathbf{N}}$, ni même l’adhérence de cette réunion ; en particulier, un point isolé de Sp($u$) n’est pas nécessairement une valeur propre de $u($I, p. 187, exerc. 1). De même, il peut exister des valeurs propres de $u$ qui ne sont pas des points isolés de Sp($u$) (I, p. 188, exerc. 2).
+On prendra garde qu’en général $E_{\lambda}(u)$ n’est pas la réunion de la famille (Ker(($u-\lambda 1_E$)$^n$))$_{n\in\mathbf{N}}$, ni même l’adhérence de cette réunion ; en particulier, un point isolé de Sp($u$) n’est pas nécessairement une valeur propre de $u($I, p. 187, exerc. 1). De même, il peut exister des valeurs propres de $u$ qui ne sont pas des points isolés de Sp($u$) (I, p. 188, exerc. 2).
 
 ### 4. Spectre de la transposée d’un endomorphisme
 
@@ -178,7 +178,7 @@ $$
 \mu\langle x|y\rangle =\langle x|u(y)\rangle =\langle u^*(x)|y\rangle =\langle \lambda x|y\rangle =\lambda \langle x|y\rangle
 $$
 
-Par suite, $\langle x|y\rangle = 0$ : les espaces propres de $u$ sont deux à deux orthogonaux. De plus, pour tout $\lambda \in \mathbf{C}$, l’espace propre de $u$ relatif à $\lambda$ coïncide avec le sous-espace primaire de $u$ relatif à $\lambda$, c’est-à-dire (LIE, VII, §1, n$^o1)$ la réunion pour $k\in \mathbf{N}$ des noyaux de $(u-\lambda 1_E)^k$ (EVT, V, p. 43, cor. de la prop. 8).
+Par suite, $\langle x|y\rangle = 0$ : les espaces propres de $u$ sont deux à deux orthogonaux. De plus, pour tout $\lambda \in \mathbf{C}$, l’espace propre de $u$ relatif à $\lambda$ coïncide avec le sous-espace primaire de $u$ relatif à $\lambda$, c’est-à-dire (LIE, VII, §1, n$^o1$) la réunion pour $k\in \mathbf{N}$ des noyaux de $(u-\lambda 1_E)^k$ (EVT, V, p. 43, cor. de la prop. 8).
 
 #### Lemme 2 {#ts-i-s7-lem-2 .statement tag=02G6}
 
@@ -212,7 +212,7 @@ Soient E un espace hilbertien et $p\in \mathscr{L}(E)$ un projecteur. Les assert
 
 (vii) On a $\|p\|\leqslant 1$.
 
-Rappelons d’abord que Ker($p^*$) $=$ Im($p$)$^{\circ}$ et Ker($p$) $=$ Im($p^*$)$^{\circ}$ (EVT, V, p. 41, prop. 4). De plus, l’image de $p$ (resp. $p^*)$ est fermée, puisqu’elle coïncide avec le noyau de $1-p$ (resp. $1-p^*)$. Donc on a
+Rappelons d’abord que Ker($p^*$) $=$ Im($p$)$^{\circ}$ et Ker($p$) $=$ Im($p^*$)$^{\circ}$ (EVT, V, p. 41, prop. 4). De plus, l’image de $p$ (resp. $p^*$) est fermée, puisqu’elle coïncide avec le noyau de $1-p$ (resp. $1-p^*$). Donc on a
 
 (1) Im($p$) $=$ Ker($p^*$)$^{\circ}$, Im($p^*$) $=$ Ker($p$)$^{\circ}$.
 
@@ -408,7 +408,7 @@ Cela démontre que Ker($u$) $=$ Ker($|u|$) et $\||u|\|=\|u\|$. Comme $|u|$ est h
 
 La formule (2) implique qu’il existe une application isométrique $v$ de Im($|u|$) sur Im($u$) telle que $v(|u|(x)) =u(x)$ pour tout $x\in E_1$. Soit $j$ l’unique élément de $\mathscr{L}(E_1; E_2)$ qui prolonge $v$ et s’annule dans Im($|u|$)$^{\circ}=$ Ker($|u|$) $=$ Ker($u$). Alors $j$ possède les propriétés de b). L’unicité de $j$ découle de la décomposition E = Ker($u$)$\oplus$ Im($|u|$).
 
-Le sous-espace initial de $j$ est Ker($j$)$^{\circ}=$ Ker($u$)$^{\circ}$, l’espace initial de $u$. Son sous-espace final est $j$(Ker($u$)$^{\circ}) =j$(Im($|u|$)) $=$ Im($u$), le sous-espace final de $u$. Cela démontre c).
+Le sous-espace initial de $j$ est Ker($j$)$^{\circ}=$ Ker($u$)$^{\circ}$, l’espace initial de $u$. Son sous-espace final est $j$(Ker($u$)$^{\circ}$) $=j$(Im($|u|$)) $=$ Im($u$), le sous-espace final de $u$. Cela démontre c).
 
 Soient maintenant $u_1$ et $j_1$ comme dans d). On a $u^*u=u_1j_1^*j_1u_1$. L’application $j_1^*j_1$ est l’orthoprojecteur de noyau Ker($j_1$) $=$ Ker($u_1$) (EVT, V, p. 41, prop. 5 (ii)) et donc d’image Im($u_1$). Donc $u^*u=u^2_1$ et par suite $u_1= (u^*u)^{1/2}=|u|($I, p. 118, prop. 16). L’assertion d’unicité de b) implique finalement que $j_1=j$.
 

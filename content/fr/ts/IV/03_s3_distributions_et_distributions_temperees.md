@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: e75fadd03761deaac3c9b4909775bce272ed0f21f5bcd0e1d7ba38c512975f35
+content_sha256: cb741e61f964fb6a820cb3fd4102c1c5402efb6275d4f24b252e2abd9a91147c
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -82,7 +82,7 @@ $$
 x\cdot y=\sum_{i=1}^nx_iy_i
 $$
 
-le produit scalaire sur l’espace euclidien $\mathbf{R}^n$; la norme euclidienne est notée $x\mapsto  \|x\|$ (TG, VI, p. 7). On rappelle que le groupe $\mathbf{R}^n$ est en dualité avec lui-même relativement à l’application $(x, y)\mapsto$ exp(2$i\pi  x\cdot y)$ et que la mesure duale de la mesure de Lebesgue s’identifie alors avec la mesure de Lebesgue (corollaire 3 de II, p. 236). On note $\mathscr{F}$ (resp. $\overline{\mathscr{F}})$ la transformation de Fourier (resp. la cotransformation de Fourier) de $\mathbf{R}^n$ (cf. n$^o9$ de II, p. 237).
+le produit scalaire sur l’espace euclidien $\mathbf{R}^n$; la norme euclidienne est notée $x\mapsto  \|x\|$ (TG, VI, p. 7). On rappelle que le groupe $\mathbf{R}^n$ est en dualité avec lui-même relativement à l’application $(x, y)\mapsto$ exp(2$i\pi  x\cdot y$) et que la mesure duale de la mesure de Lebesgue s’identifie alors avec la mesure de Lebesgue (corollaire 3 de II, p. 236). On note $\mathscr{F}$ (resp. $\overline{\mathscr{F}}$) la transformation de Fourier (resp. la cotransformation de Fourier) de $\mathbf{R}^n$ (cf. n$^o9$ de II, p. 237).
 
 Pour tout $\alpha = (\alpha_i)_{1\leqslant i\leqslant n}\in \mathbf{N}^n$, on notera $X^{\alpha}$ la fonction de $\mathbf{R}^n$
 
@@ -216,7 +216,7 @@ b) Soit V un voisinage mesurable borné de 0 dans $\mathbf{R}^n$. La fonction $N
 
 En vertu de l’équivalence des normes sur $\mathbf{R}^n$ (EVT I, p. 14, th. 2 et TG, IX, p. 32, prop. 8), on peut supposer que la norme N est donnée par $N(x) =$ sup$|x_i|$ pour $x= (x_i)\in \mathbf{R}^n$. Notons B la boule unité de $\mathbf{R}^n$ pour cette norme.
 
-Soit V un voisinage mesurable borné de 0 dans $\mathbf{R}^n$. La fonction $N^r$ est continue et bornée sur (B- $V)\cup (V$- B), ce qui montre que l’assertion b) est valide si et seulement si elle l’est lorsque V = B, ce qu’on supposera désormais. La fonction $(1 + N)^r$ étant continue et bornée sur B, et vérifiant l’encadrement $N^r\leqslant (1 + N)^r\leqslant 2^rN^r$ sur $\mathbf{R}^n-$ B, on constate que les assertions a) et b) sont équivalentes.
+Soit V un voisinage mesurable borné de 0 dans $\mathbf{R}^n$. La fonction $N^r$ est continue et bornée sur (B- $V$)$\cup (V$- B), ce qui montre que l’assertion b) est valide si et seulement si elle l’est lorsque V = B, ce qu’on supposera désormais. La fonction $(1 + N)^r$ étant continue et bornée sur B, et vérifiant l’encadrement $N^r\leqslant (1 + N)^r\leqslant 2^rN^r$ sur $\mathbf{R}^n-$ B, on constate que les assertions a) et b) sont équivalentes.
 
 Démontrons b) lorsque V = B. On peut supposer que $p= 1$. Le cas où $r >0$ étant élémentaire, supposons que $r\leqslant 0$. Pour tout entier $j\geqslant 1$, l’ensemble intégrable
 
@@ -244,7 +244,7 @@ qui est infini si $r\geqslant -n$.
 
 On démontre a$')$ de manière similaire en considérant les ensembles $C_j\cap \mathbf{Z}^n$ qui recouvrent $\mathbf{Z}^n-\{0\}$ et vérifient
 
-Card(C$_j\cap \mathbf{Z}^n) = (2^{j+1}-1)^n-(2^j-1)^n$,
+Card(C$_j\cap \mathbf{Z}^n$) $= (2^{j+1}-1)^n-(2^j-1)^n$,
 
 qui appartient à l’intervalle $[(1-2^{-n})(2^{j+1}-1)^n,2^{n(j+1)}]$.
 
@@ -932,11 +932,11 @@ pour tout $\psi \in \mathscr{D}(\mathbf{R}^n)$. La mesure $\varphi \cdot \mu$ su
 
 ### 12. Transformation de Fourier des distributions tempérées
 
-Comme toute fonction de Schwartz $\varphi$ est intégrable sur $\mathbf{R}^n$ (prop. 13 de IV, p. 213), elle admet une transformée de Fourier $\mathscr{F}(\varphi )$ (resp. une cotransformée de Fourier $\overline{\mathscr{F}}(\varphi ))$ qui s’identifie à la fonction continue et bornée sur $\mathbf{R}^n$ définie par
+Comme toute fonction de Schwartz $\varphi$ est intégrable sur $\mathbf{R}^n$ (prop. 13 de IV, p. 213), elle admet une transformée de Fourier $\mathscr{F}(\varphi )$ (resp. une cotransformée de Fourier $\overline{\mathscr{F}}(\varphi )$) qui s’identifie à la fonction continue et bornée sur $\mathbf{R}^n$ définie par
 
 $y\mapsto \int\varphi (x)$ exp($-2i\pi  x\cdot y$)$d\mu(x)$
 
-(resp. à la fonction $y\mapsto \int^{\mathbf{R}^n}_{\mathbf{R}^n}\varphi (x)$ exp(2$i\pi  x\cdot y)d\mu(x))$.
+(resp. à la fonction $y\mapsto \int^{\mathbf{R}^n}_{\mathbf{R}^n}\varphi (x)$ exp(2$i\pi  x\cdot y$)$d\mu(x)$).
 
 #### Lemme 11 {#ts-iv-s3-lem-11 .statement tag=031F}
 
@@ -952,13 +952,13 @@ $$
 
 pour tout $\alpha$ dans $\mathbf{N}^n$.
 
-On peut supposer que $n\geqslant 1$. Soit $\varphi \in \mathscr{S}(\mathbf{R}^n)$. La fonction définie par $(x, y)\mapsto \varphi (x)$ exp(2$i\pi x\cdot y)$ de $\mathbf{R}^n\times \mathbf{R}^n$ dans $\mathbf{C}$ vérifie les hypothèses du corollaire 1 de IV, p. 198 pour tout entier $k$. La transformée de Fourier de $\varphi$ est donc indéfiniment dérivable et vérifie
+On peut supposer que $n\geqslant 1$. Soit $\varphi \in \mathscr{S}(\mathbf{R}^n)$. La fonction définie par $(x, y)\mapsto \varphi (x)$ exp(2$i\pi x\cdot y$) de $\mathbf{R}^n\times \mathbf{R}^n$ dans $\mathbf{C}$ vérifie les hypothèses du corollaire 1 de IV, p. 198 pour tout entier $k$. La transformée de Fourier de $\varphi$ est donc indéfiniment dérivable et vérifie
 
 $\partial^{\alpha}(\mathscr{F}\varphi )(y) = (-2i\pi )^{|\alpha|}\int_{\mathbf{R}^n}x^{\alpha}\varphi (x)$ exp($-2i\pi x\cdot y$)$d\mu(x)$
 
 pour tout $y\in \mathbf{R}^n$, ce qui implique la première formule.
 
-Démontrons la seconde formule. Par récurrence sur $|\alpha |$, il suffit de le faire lorsque $|\alpha |= 1$, et on se ramène aisément au cas $\alpha = (1,0, . . . ,0)$. Écrivons tout $x\in \mathbf{R}^n$ sous la forme $x= (x_1, x')$ avec $x'\in \mathbf{R}^{n-1}$, et notons $\mu_1$ (resp. $\mu')$ la mesure de Lebesgue sur $\mathbf{R}^{n-1}$ (resp. $\mathbf{R})$. D’après le théorème de Lebesgue–Fubini (INT, V, p. 96, § 8, n$^o4$, th. 1), pour tout $y= (y_1, y')\in \mathbf{R}\times \mathbf{R}^{n-1}$, il vient
+Démontrons la seconde formule. Par récurrence sur $|\alpha |$, il suffit de le faire lorsque $|\alpha |= 1$, et on se ramène aisément au cas $\alpha = (1,0, . . . ,0)$. Écrivons tout $x\in \mathbf{R}^n$ sous la forme $x= (x_1, x')$ avec $x'\in \mathbf{R}^{n-1}$, et notons $\mu_1$ (resp. $\mu'$) la mesure de Lebesgue sur $\mathbf{R}^{n-1}$ (resp. $\mathbf{R}$). D’après le théorème de Lebesgue–Fubini (INT, V, p. 96, § 8, n$^o4$, th. 1), pour tout $y= (y_1, y')\in \mathbf{R}\times \mathbf{R}^{n-1}$, il vient
 
 $\mathscr{F}(\partial_1\varphi )(y) =\int$ exp($-2i\pi  x'\cdot y'$)
 
@@ -1012,7 +1012,7 @@ Comme l’inclusion de l’espace $\mathscr{S}(\mathbf{R}^n)$ dans $L^1(\mathbf{
 
 On appelle transformation de Fourier (resp. cotransformation de Fourier) sur $\mathscr{S}'(\mathbf{R}^n)$ la transposée de la transformation de Fourier sur $\mathscr{S}(\mathbf{R}^n) ($resp. de la cotransformation de Fourier).
 
-On note encore $\mathscr{F}$ (resp. $\overline{\mathscr{F}})$ la transformation de Fourier (resp. la cotransformation de Fourier) sur $\mathscr{S}'(\mathbf{R}^n)$. La transformation de Fourier sur $\mathscr{S}'(\mathbf{R}^n)$ est donc un automorphisme d’espaces vectoriels topologiques dont l’inverse est la cotransformation de Fourier. Pour tout $f\in \mathscr{S}'(\mathbf{R}^n)$, la distribution tempérée $\mathscr{F}(f)$ (resp. $\overline{\mathscr{F}}(f))$ est définie par la formule
+On note encore $\mathscr{F}$ (resp. $\overline{\mathscr{F}}$) la transformation de Fourier (resp. la cotransformation de Fourier) sur $\mathscr{S}'(\mathbf{R}^n)$. La transformation de Fourier sur $\mathscr{S}'(\mathbf{R}^n)$ est donc un automorphisme d’espaces vectoriels topologiques dont l’inverse est la cotransformation de Fourier. Pour tout $f\in \mathscr{S}'(\mathbf{R}^n)$, la distribution tempérée $\mathscr{F}(f)$ (resp. $\overline{\mathscr{F}}(f)$) est définie par la formule
 
 $\langle \mathscr{F}(f), \varphi \rangle =\langle f,\mathscr{F}(\varphi )\rangle ($resp. $\langle \overline{\mathscr{F}}(f), \varphi \rangle =\langle f,\overline{\mathscr{F}}(\varphi )\rangle )$
 
@@ -1050,13 +1050,13 @@ d’après le lemme 11.
 
 ### 13. Distributions et distributions tempérées sur un espace vectoriel
 
-Soit $u$ une application linéaire bijective de $\mathbf{R}^n$ dans $\mathbf{R}^n$. L’application $\varphi \mapsto \varphi \circ u$ est un automorphisme de $\mathscr{S}(\mathbf{R}^n)$ (resp. de $\mathscr{D}(\mathbf{R}^n))$; sa transposée est un automorphisme de $\mathscr{S}'(\mathbf{R}^n)$ (resp. de $\mathscr{D}'(\mathbf{R}^n))$.
+Soit $u$ une application linéaire bijective de $\mathbf{R}^n$ dans $\mathbf{R}^n$. L’application $\varphi \mapsto \varphi \circ u$ est un automorphisme de $\mathscr{S}(\mathbf{R}^n)$ (resp. de $\mathscr{D}(\mathbf{R}^n)$); sa transposée est un automorphisme de $\mathscr{S}'(\mathbf{R}^n)$ (resp. de $\mathscr{D}'(\mathbf{R}^n)$).
 
-Soit E un espace vectoriel réel de dimension finie $n$. Soit $v:\mathbf{R}^n\rightarrow E$ un isomorphisme d’espaces vectoriels. On note $\mathscr{S}(E)$ (resp. $\mathscr{D}(E))$ l’ensemble des applications $\varphi : E\rightarrow \mathbf{C}$ telles que $\varphi \circ v\in \mathscr{S}(\mathbf{R}^n)$ (resp. telles que $\varphi \circ v\in \mathscr{D}(\mathbf{R}^n))$. D’après la remarque précédente, cet espace ne dépend pas du choix de $v$; il est isomorphe à $\mathscr{S}(\mathbf{R}^n)$ (resp. $\mathscr{D}(\mathbf{R}^n))$. On note $\mathscr{S}'(E)$ (resp. $\mathscr{D}'(E))$ le dual de $\mathscr{S}(E)$ (resp. de $\mathscr{D}(E))$ muni de la topologie de la convergence bornée. C’est un espace vectoriel topologique isomorphe à $\mathscr{S}'(\mathbf{R}^n)$ (resp. à $\mathscr{D}'(\mathbf{R}^n))$.
+Soit E un espace vectoriel réel de dimension finie $n$. Soit $v:\mathbf{R}^n\rightarrow E$ un isomorphisme d’espaces vectoriels. On note $\mathscr{S}(E)$ (resp. $\mathscr{D}(E)$) l’ensemble des applications $\varphi : E\rightarrow \mathbf{C}$ telles que $\varphi \circ v\in \mathscr{S}(\mathbf{R}^n)$ (resp. telles que $\varphi \circ v\in \mathscr{D}(\mathbf{R}^n)$). D’après la remarque précédente, cet espace ne dépend pas du choix de $v$; il est isomorphe à $\mathscr{S}(\mathbf{R}^n)$ (resp. $\mathscr{D}(\mathbf{R}^n)$). On note $\mathscr{S}'(E)$ (resp. $\mathscr{D}'(E)$) le dual de $\mathscr{S}(E)$ (resp. de $\mathscr{D}(E)$) muni de la topologie de la convergence bornée. C’est un espace vectoriel topologique isomorphe à $\mathscr{S}'(\mathbf{R}^n)$ (resp. à $\mathscr{D}'(\mathbf{R}^n)$).
 
 Soient E et F des espaces vectoriels réels de dimension $n$, en dualité relativement à une forme bilinéaire $b: E\times F\rightarrow \mathbf{R}$. Le groupe localement compact commutatif E est en dualité avec F relativement à l’application
 
-$(x, y)\mapsto$ exp(2$i\pi b(x, y))$
+$(x, y)\mapsto$ exp(2$i\pi b(x, y)$)
 
 de $E\times F$ dans $\mathbf{U}($cf. cor. 1 de II, p. 235). On munit E et F de mesures de Haar qui sont duales l’une de l’autre relativement à cette application.
 

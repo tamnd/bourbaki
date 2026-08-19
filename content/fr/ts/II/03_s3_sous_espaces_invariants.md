@@ -25,7 +25,7 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 19
-content_sha256: 76cf7d66a90b3fa6df7ad3cab73003fd116745add7b6f5ef6874ceaeb6cc41a2
+content_sha256: 53b9dd4c4ef649cd2bc5283995540b3c864a2e7f5144d3f97d442f0fa2bfffc2
 ---
 
 ## § 3. SOUS-ESPACES INVARIANTS
@@ -156,7 +156,7 @@ $$
 |\langle \widehat{x}, x\rangle  -1|\leqslant \frac{\eta}{4}
 $$
 
-pour tout $x\in$ K est un voisinage de $e$ dans $\widehat{G}$. Soit U $\subset U_1$ un voisinage ouvert, symétrique, et intégrable pour la mesure de Haar $m=d\widehat{x}$ de $\widehat{G}$ duale de la mesure $dx$. Soit $V\subset U$ un voisinage compact symétrique de $e$ tel que $m(V)\geqslant \frac{1}{2}m(U)$. Notons $\varphi_U$ (resp. $\varphi_V)$ la fonction caractéristique de U (resp. de V). Puisque $\varphi_U$ appartient à $L^2(G)$, il existe $u\in L^2(G)$ telle que $\varphi_U=\mathscr{F}_G(u)$ (th. 1 de II, p. 215). De même, il existe une fonction $v\in L^2(G)$ telle que $\varphi_V=\mathscr{F}_G(v)$. Nous allons montrer que la fonction $j=\frac{1}{m(V)}uv$ vérifie les propriétés demandées. On a $j\in L^1(G)$.
+pour tout $x\in$ K est un voisinage de $e$ dans $\widehat{G}$. Soit U $\subset U_1$ un voisinage ouvert, symétrique, et intégrable pour la mesure de Haar $m=d\widehat{x}$ de $\widehat{G}$ duale de la mesure $dx$. Soit $V\subset U$ un voisinage compact symétrique de $e$ tel que $m(V)\geqslant \frac{1}{2}m(U)$. Notons $\varphi_U$ (resp. $\varphi_V$) la fonction caractéristique de U (resp. de V). Puisque $\varphi_U$ appartient à $L^2(G)$, il existe $u\in L^2(G)$ telle que $\varphi_U=\mathscr{F}_G(u)$ (th. 1 de II, p. 215). De même, il existe une fonction $v\in L^2(G)$ telle que $\varphi_V=\mathscr{F}_G(v)$. Nous allons montrer que la fonction $j=\frac{1}{m(V)}uv$ vérifie les propriétés demandées. On a $j\in L^1(G)$.
 
 a) D’après le théorème de Plancherel et la condition $m(V)\geqslant \frac{1}{2}m(U)$, on a
 
@@ -290,9 +290,9 @@ Dans ce numéro, on identifie $L^{\infty}(G)$ au dual de $L^1(G)$, et on le muni
 
 L’application $W\mapsto W^{\circ}$ est une bijection de l’ensemble des sous-espaces vectoriels faiblement fermés de $L^{\infty}(G)$ sur l’ensemble des sous-espaces vectoriels fermés de $L^1(G)$ (EVT, II, p. 55, prop. 10).
 
-D’autre part, si $f\in L^1(G)$ et $x\in G$, l’endomorphisme $g\mapsto f*g$ (resp. $g\mapsto \varepsilon_x*g)$ de l’espace de Banach $L^1(G)$ a pour transposé l’endomorphisme $h\mapsto \check{f}*h$ (resp. $h\mapsto \varepsilon_{x^{-1}}*h)$ de l’espace de Banach $L^{\infty}(G)$ (INT, VIII, §4, n$^o3$, exemple 6). Pour qu’un sous-espace vectoriel fermé de $L^1(G)$ soit un idéal de $L^1(G)$, il faut et il suffit qu’il soit invariant par les translations de G. Donc, pour qu’un sous-espace vectoriel faiblement fermé de $L^{\infty}(G)$ soit stable par convolution avec les éléments de $L^1(G)$, il faut et il suffit qu’il soit invariant par les translations de G.
+D’autre part, si $f\in L^1(G)$ et $x\in G$, l’endomorphisme $g\mapsto f*g$ (resp. $g\mapsto \varepsilon_x*g$) de l’espace de Banach $L^1(G)$ a pour transposé l’endomorphisme $h\mapsto \check{f}*h$ (resp. $h\mapsto \varepsilon_{x^{-1}}*h$) de l’espace de Banach $L^{\infty}(G)$ (INT, VIII, §4, n$^o3$, exemple 6). Pour qu’un sous-espace vectoriel fermé de $L^1(G)$ soit un idéal de $L^1(G)$, il faut et il suffit qu’il soit invariant par les translations de G. Donc, pour qu’un sous-espace vectoriel faiblement fermé de $L^{\infty}(G)$ soit stable par convolution avec les éléments de $L^1(G)$, il faut et il suffit qu’il soit invariant par les translations de G.
 
-Soit W un sous-espace vectoriel faiblement fermé de $L^{\infty}(G)$. Supposons W (donc aussi $W^{\circ})$ invariant par les translations de G. Soit $f\in$ $L^1(G)$. Pour tout $g\in L^{\infty}(G)$, on a $(\check{f}*g)(x) =\langle \varepsilon_x*f, g\rangle =\langle f, \varepsilon_{x^{-1}}*g\rangle$. Donc, pour que $f$ appartienne à $W^{\circ}$, il faut et il suffit que $\check{f}*g= 0$ pour tout $g\in W$.
+Soit W un sous-espace vectoriel faiblement fermé de $L^{\infty}(G)$. Supposons W (donc aussi $W^{\circ}$) invariant par les translations de G. Soit $f\in$ $L^1(G)$. Pour tout $g\in L^{\infty}(G)$, on a $(\check{f}*g)(x) =\langle \varepsilon_x*f, g\rangle =\langle f, \varepsilon_{x^{-1}}*g\rangle$. Donc, pour que $f$ appartienne à $W^{\circ}$, il faut et il suffit que $\check{f}*g= 0$ pour tout $g\in W$.
 
 Si W est un sous-espace vectoriel de $L^{\infty}(G)$ faiblement fermé et invariant par translation, nous noterons A(W) l’ensemble des caractères $\chi \in \widehat{G}$ qui appartiennent à W. C’est une partie fermée de $\widehat{G}$. Si F est une partie fermée de $\widehat{G}$, nous noterons Y(F) le sous-espace vectoriel faiblement fermé de $L^{\infty}(G)$ engendré par les éléments de F; comme toute translation de G transforme chaque caractère en une fonction proportionnelle à ce caractère, l’espace Y(F) est invariant par translation.
 
@@ -332,7 +332,7 @@ Pour prouver a), il suffit par le théorème des bipolaires de montrer que si $f
 
 # Exercices
 
-Dans tous les exercices du chapitre II, on identifie le dual de $\mathbf{R}^n$ (resp. de $(\mathbf{R}/\mathbf{Z})^n$, de $\mathbf{Z}^n)$ avec $\mathbf{R}^n$ (resp. avec $\mathbf{Z}^n$, avec $(\mathbf{R}/\mathbf{Z})^n)$ suivant le corollaire 3 de II, p. 236. Pour $x$ et $y$ dans $\mathbf{R}^n$, on note $x\cdot y=\sum_ix_iy_i$. On note $\mathbf{T}=\mathbf{R}/\mathbf{Z}$, et on munit $\mathbf{T}$ de sa structure de groupe de Lie réel (LIE, III, p. 105, prop. 11). On notera souvent $\widehat{f}$ la transformée de Fourier d’une fonction $f$.
+Dans tous les exercices du chapitre II, on identifie le dual de $\mathbf{R}^n$ (resp. de $(\mathbf{R}/\mathbf{Z})^n$, de $\mathbf{Z}^n$) avec $\mathbf{R}^n$ (resp. avec $\mathbf{Z}^n$, avec $(\mathbf{R}/\mathbf{Z})^n$) suivant le corollaire 3 de II, p. 236. Pour $x$ et $y$ dans $\mathbf{R}^n$, on note $x\cdot y=\sum_ix_iy_i$. On note $\mathbf{T}=\mathbf{R}/\mathbf{Z}$, et on munit $\mathbf{T}$ de sa structure de groupe de Lie réel (LIE, III, p. 105, prop. 11). On notera souvent $\widehat{f}$ la transformée de Fourier d’une fonction $f$.
 
 Pour tout nombre réel $t$ non nul, on note s($t$) $=t/|t|$, et on pose s(0) = 0 (fonction signe).
 

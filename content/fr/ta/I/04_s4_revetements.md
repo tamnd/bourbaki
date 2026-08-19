@@ -53,7 +53,7 @@ subsections:
       pdf_page: 105
 statements: 50
 exercises: 9
-content_sha256: 675be3b65f444c5d24d4ff838f916b5e18a1bb29a00ee3718bd7381d539b5ffb
+content_sha256: fec85f8311822c8b3f0a7be940cb84e71931964b3bf2f7e600f3761918a89a4e
 ---
 
 ## § 4. REVÊTEMENTS
@@ -206,7 +206,7 @@ Si dans la proposition 3, on affaiblit l’hypothèse sur l’application $f$ en
 
 ### 4. Degré d’un revêtement
 
-Soit B un espace topologique, soit E un revêtement de B, notons $p$ sa projection. Notons C l’ensemble des cardinaux Card($\overset{-1}{p}(b)$), où $b$ parcourt B. L’application $b\mapsto$ Card($\overset{-1}{p}(b)$) est une application localement constante de B dans C. On dit que le revêtement E possède un degré si B n’est pas vide et si l’application $b\mapsto$ Card($\overset{-1}{p}(b)$) est constante. La valeur commune des cardinaux Card($\overset{-1}{p}(b)$), pour $b\in B$, est alors appelée le degré du revêtement E et est notée deg(E$, p)$, voire [E: B] s’il ne peut y avoir d’ambiguïté sur l’application $p$.
+Soit B un espace topologique, soit E un revêtement de B, notons $p$ sa projection. Notons C l’ensemble des cardinaux Card($\overset{-1}{p}(b)$), où $b$ parcourt B. L’application $b\mapsto$ Card($\overset{-1}{p}(b)$) est une application localement constante de B dans C. On dit que le revêtement E possède un degré si B n’est pas vide et si l’application $b\mapsto$ Card($\overset{-1}{p}(b)$) est constante. La valeur commune des cardinaux Card($\overset{-1}{p}(b)$), pour $b\in B$, est alors appelée le degré du revêtement E et est notée deg(E$, p$), voire [E: B] s’il ne peut y avoir d’ambiguïté sur l’application $p$.
 
 Si B n’est pas vide, le revêtement trivial de base B et de fibre-type F possède un degré qui est égal à Card(F).
 
@@ -216,7 +216,7 @@ Si B est connexe, la fonction $b\mapsto$ Card($\overset{-1}{p}(b)$) est constant
 
 Tout revêtement d’un espace connexe non vide possède un degré.
 
-Soit G un espace topologique, soit $(F, g)$ un revêtement de G et soit $(E, f)$ un revêtement de F ; supposons que ces revêtements possèdent un degré. Si le G-espace $(E, g\circ f)$ est un revêtement, il possède alors un degré et l’on a deg(E$, g\circ f) =$ deg(F$, g)$ deg(E$, f)$, ce qu’on peut aussi écrire
+Soit G un espace topologique, soit $(F, g)$ un revêtement de G et soit $(E, f)$ un revêtement de F ; supposons que ces revêtements possèdent un degré. Si le G-espace $(E, g\circ f)$ est un revêtement, il possède alors un degré et l’on a deg(E$, g\circ f$) $=$ deg(F$, g$) deg(E$, f$), ce qu’on peut aussi écrire
 
 $$
 [E : G] = [E : F] [F : G]
@@ -228,11 +228,11 @@ $$
 f_{\overset{-1}{g}(z)}:\overset{-1}{f}(\overset{-1}{g}(z))\rightarrow \overset{-1}{g}(z)
 $$
 
-ont pour cardinal deg(E$, f)$, et $\overset{-1}{g}(z)$ a pour cardinal deg(F$, g)$. L’assertion résulte donc du principe des bergers (E, III, p. 41, prop. 9).
+ont pour cardinal deg(E$, f$), et $\overset{-1}{g}(z)$ a pour cardinal deg(F$, g$). L’assertion résulte donc du principe des bergers (E, III, p. 41, prop. 9).
 
 Soient B et $B'$ des espaces topologiques, soit $(E, p)$ un revêtement de B et soit $(E', p')$ un revêtement de $B'$. Supposons que ces revêtements possèdent un degré ; alors, le revêtement $(E\times E', p\times p')$ de $B\times B'$ (I, p. 71, prop. 2) possède un degré et l’on a :
 
-deg(E $\times E', p\times p') =$ deg(E$, p)$ deg(E$', p')$.
+deg(E $\times E', p\times p'$) $=$ deg(E$, p$) deg(E$', p'$).
 
 En effet, pour tout couple $(b, b')\in B\times B'$, la fibre $(E\times E')_{(b,b')}$ est le produit $E_b\times E'_{b'}$.
 
@@ -276,7 +276,7 @@ Démontrons maintenant le théorème 1. Chacune des trois conditions implique qu
 
 (ii)$\Rightarrow$(iii) : soit $b$ un point de B et, pour tout $x\in \overset{-1}{p}(b)$, soit $W_x$ un voisinage ouvert de $x$ dans E tel que $p|W_x$ soit injectif. L’ensemble $W =\bigcup_{x\in\overset{-1}{p}(b)}W_x$ est un voisinage ouvert de $\overset{-1}{p}(b)$. Comme l’application $p$ est fermée, il existe d’après le lemme ci-dessus un voisinage ouvert U de $b$ tel que $\overset{-1}{p}(U)\subset W$. Pour tout $a\in U$, on a $\overset{-1}{p}(a)\subset W$ ; comme la restriction de $p$ à chaque $W_x$ est injective, il en résulte que Card($\overset{-1}{p}(a)$)$\leqslant$ Card($\overset{-1}{p}(b)$), ce qui prouve la semi-continuité supérieure de l’application $a\mapsto$ Card($\overset{-1}{p}(a)$).
 
-(iii)$\Rightarrow$(i) : soit $b$ un point de B. Comme la fibre $E_b=\overset{-1}{p}(b)$ est finie et l’application $p$ séparée, on peut choisir, pour tout $x\in E_b$, un voisinage ouvert $V'_x$ de $x$ de telle sorte que les $V'_x$ soient deux à deux disjoints (I, p. 26, remarque 4). Comme l’application $p$ est ouverte et l’ensemble $E_b$ fini, l’ensemble $U'=\bigcap_{x\in E_b}p(V'_x)$ est un voisinage ouvert de $b$ dans B. Soit U un voisinage ouvert de $b$ dans B, contenu dans $U'$ et tel que pour tout $a\in U$, Card(E$_a)\leqslant$ Card(E$_b)$. Pour tout $x\in E_b$, posons $V_x= V'_x\cap \overset{-1}{p}(U)$. Soit $a$ un point de U ; les ensembles $E_a\cap V_x$, pour $x\in E_b$, sont non vides et deux à deux disjoints. Ces ensembles contiennent donc chacun un unique élément et forment une partition de $E_a$. Cela démontre que, pour tout $x\in E_b$, l’application $p|V_x$ est injective et que l’on a $\overset{-1}{p}(U) =\bigcup_{x\in E_b}V_x$. Comme l’application $p$ est ouverte, elle induit un homéomorphisme de $V_x$ sur U et par suite, $(E, p)$ est un revêtement de B (I, p. 70, cor. 1 de la prop. 1).
+(iii)$\Rightarrow$(i) : soit $b$ un point de B. Comme la fibre $E_b=\overset{-1}{p}(b)$ est finie et l’application $p$ séparée, on peut choisir, pour tout $x\in E_b$, un voisinage ouvert $V'_x$ de $x$ de telle sorte que les $V'_x$ soient deux à deux disjoints (I, p. 26, remarque 4). Comme l’application $p$ est ouverte et l’ensemble $E_b$ fini, l’ensemble $U'=\bigcap_{x\in E_b}p(V'_x)$ est un voisinage ouvert de $b$ dans B. Soit U un voisinage ouvert de $b$ dans B, contenu dans $U'$ et tel que pour tout $a\in U$, Card(E$_a$)$\leqslant$ Card(E$_b$). Pour tout $x\in E_b$, posons $V_x= V'_x\cap \overset{-1}{p}(U)$. Soit $a$ un point de U ; les ensembles $E_a\cap V_x$, pour $x\in E_b$, sont non vides et deux à deux disjoints. Ces ensembles contiennent donc chacun un unique élément et forment une partition de $E_a$. Cela démontre que, pour tout $x\in E_b$, l’application $p|V_x$ est injective et que l’on a $\overset{-1}{p}(U) =\bigcup_{x\in E_b}V_x$. Comme l’application $p$ est ouverte, elle induit un homéomorphisme de $V_x$ sur U et par suite, $(E, p)$ est un revêtement de B (I, p. 70, cor. 1 de la prop. 1).
 
 #### Remarque {#ta-i-s4-n5-rem-1 .statement tag=01P8}
 
@@ -522,7 +522,7 @@ Si l’ensemble I est fini, le B-morphisme Φ est un isomorphisme.
 
 D’après le corollaire de I, p. 32, le B-espace $E'$ est étalé et il suffit de démontrer que le B-morphisme Φ est bijectif ( I, p. 30, cor. 2). Pour tout point $b$ de B, la restriction $\Phi_b: E_b\rightarrow E'_b$ de Φ aux fibres en $b$ s’identifie à l’application canonique de lim$\longrightarrow \prod^{i\in I}\mathscr{F}_i(U)$ dans $\prod_{i\in I}$ lim$\longrightarrow \mathscr{F}_i(U)$, où U parcourt l’ensemble des ouverts de B qui contiennent $b($cf. I, p. 50). D’après la prop. 10 de E, III, p. 67, cette application est une bijection.
 
-Considérons maintenant le cas des faisceaux localement constants sur un espace topologique B. Soit $(F_i)_{i\in I}$ une famille d’ensembles et posons $F =\prod_{i\in I}F_i$. On définit un morphisme canonique $\psi = (\psi_U)$ du faisceau constant F dans le produit $\prod_{i\in I}F_i$ des faisceaux constants $F_i$ en posant, pour tout ouvert U de B et toute fonction localement constante $f: U\rightarrow F,\psi_U(f) =$ (pr$_i\circ f)_{i\in I}$.
+Considérons maintenant le cas des faisceaux localement constants sur un espace topologique B. Soit $(F_i)_{i\in I}$ une famille d’ensembles et posons $F =\prod_{i\in I}F_i$. On définit un morphisme canonique $\psi = (\psi_U)$ du faisceau constant F dans le produit $\prod_{i\in I}F_i$ des faisceaux constants $F_i$ en posant, pour tout ouvert U de B et toute fonction localement constante $f: U\rightarrow F,\psi_U(f) =$ (pr$_i\circ f$)$_{i\in I}$.
 
 #### Proposition 11 {#ta-i-s4-prop-11 .statement tag=01PX}
 

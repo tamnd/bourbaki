@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: 25c4d2c2f1b1803712b5b09be7c64674cb1d3bd13a31477e5ee86d3732a12580
+content_sha256: 529c839d9d719a0d0fd218d2a76a415c6319f2a161ab9d6029bccf6e39d1b9e2
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -103,7 +103,7 @@ Let $x_1, . . . , x_m$ be elements of M. Let us replace $x$ with $u(x_1)$ and $w
 
 $\widetilde{u}(u(x_1))\wedge x_2\wedge  \cdots  \wedge x_m=u(x_1)\wedge  \cdots  \wedge u(x_m) =$ det($u$)$x_1\wedge  \cdots  \wedge x_m$.
 
-Consequently, $h_1(\widetilde{u}\circ u(x_1)) =h_1$(det($u$)$x_1)$, which gives the relation $\widetilde{u}\circ u=$ det($u$)$_M$ by Lemma 1.
+Consequently, $h_1(\widetilde{u}\circ u(x_1)) =h_1$(det($u$)$x_1$), which gives the relation $\widetilde{u}\circ u=$ det($u$)$_M$ by Lemma 1.
 
 We denote by U the endomorphism $X-\overline{u}$ of the L[X]-module M[X] (VIII, p. 335). By the above applied to U, there exists an endomorphism $\widetilde{U}$ of the L[X]-module M[X] that satisfies the relations
 
@@ -113,7 +113,7 @@ $$
 
 for $x_1, . . . , x_m$ in M and
 
-(10) $\widetilde{U}\circ U =$ det(X $-\overline{u})_{M[X]}$.
+(10) $\widetilde{U}\circ U =$ det(X $-\overline{u}$)$_{M[X]}$.
 
 Let us view $\widetilde{U}$ as an element of End(M)[X] (VIII, p. 9); by formula (9) and Lemma 1, it has degree $\leqslant m-1$, so we can write it as
 
@@ -209,7 +209,7 @@ B) Let us now prove the existence of P.
 
 By Theorem 1 of VIII, p. 252, there exist a Galois extension L of K of finite degree and an isomorphism of L-algebras $\theta : A_{(L)}\rightarrow \mathbf{M}_n(L)$. By formula (12) of III, §9, No. 1, p. 542, the polynomial Pc($a; X$) is also the characteristic polynomial of the element $1\otimes a$ of the L-algebra $A_{(L)}$, hence of the element $\theta (1\otimes a)$ of the L-algebra $\mathbf{M}_n(L)$.
 
-Set P(X) = det(X$I_n-\theta (1\otimes a))$; it is a monic polynomial in L[X]. By Example 3 of III, §9, No. 3, p. 545, we have
+Set P(X) = det(X$I_n-\theta (1\otimes a)$); it is a monic polynomial in L[X]. By Example 3 of III, §9, No. 3, p. 545, we have
 
 (19) Pc($a; X$) $= P(X)^n$.
 
@@ -239,7 +239,7 @@ The following formulas result from formulas (20) and (22) and formulas (7) and (
 
 (23) Tr$_{A/K}(a) =n$ Trd$_{A/K}(a)$,
 
-(24) $N_{A/K}(a) =$ (Nrd$_{A/K}(a))^n$.
+(24) $N_{A/K}(a) =$ (Nrd$_{A/K}(a)$)$^n$.
 
 #### Proposition 3 {#alg-viii-s17-prop-3 .statement tag=00KL}
 
@@ -429,7 +429,7 @@ Let $u$ be the element $\sum_{i\in I}T_i\otimes e_i$ of the central simple $K(\m
 
 We choose an extension L of K and an L-algebra isomorphism $\theta$ from $A_{(L)}$ to $\mathbf{M}_n(L)$. We denote by $\overline{\theta}: A_{(L(\mathbf{T}))}\rightarrow \mathbf{M}_n(L(\mathbf{T}))$ the isomorphism of $L(\mathbf{T})$-algebras deduced from $\theta$ by extension of scalars. By Corollary 1 of VIII, p. 342, we have
 
-(47) $P(X) =\chi_{\overline{\theta}(u)}(X) =$ det(X$I_n-\overline{\theta}(u)) =$ det$(XI_n-\sum_{i\in I}T_i\theta (1\otimes e_i))$.
+(47) $P(X) =\chi_{\overline{\theta}(u)}(X) =$ det(X$I_n-\overline{\theta}(u)$) $=$ det$(XI_n-\sum_{i\in I}T_i\theta (1\otimes e_i))$.
 
 Since the matrices $\theta (1\otimes e_i)$ belong to $\mathbf{M}_n$(L), this formula shows that P is a homogeneous polynomial of degree $n$ in $L[\mathbf{T},X]$. It also belongs to $K(\mathbf{T})[X]$ and can be written as $P(X) =\sum_{j\geqslant 0}c_jX^j$, where each $c_j$ belongs to the intersection $K(\mathbf{T})\cap L[\mathbf{T}]$. By Lemma 3, each of the elements $c_j$ belongs to $K[\mathbf{T}]$; Lemma 4 follows.
 
@@ -501,11 +501,11 @@ Indeed, a maximal commutative subfield L of D is a maximal commutative semisimpl
 
 Let B be a simple subalgebra of A. Denote the center of B by L and the commutant of B in A by $B'$. Then $B'$ is a central simple algebra over the field L; we denote its reduced degree by $r$. For every element $b$ of B, we have the relations
 
-(56) Pcrd$_{A/K}(b; X) = N_{L[X]/K[X]}$(Pcrd$_{B/L}(b; X))^r$,
+(56) Pcrd$_{A/K}(b; X) = N_{L[X]/K[X]}$(Pcrd$_{B/L}(b; X)$)$^r$,
 
-(57) Trd$_{A/K}(b) =r$ Tr$_{L/K}$(Trd$_{B/K}(b))$,
+(57) Trd$_{A/K}(b) =r$ Tr$_{L/K}$(Trd$_{B/K}(b)$),
 
-(58) Nrd$_{A/K}(b) = N_{L/K}$(Nrd$_{B/L}(b))^r$.
+(58) Nrd$_{A/K}(b) = N_{L/K}$(Nrd$_{B/L}(b)$)$^r$.
 
 #### Lemma 6 {#alg-viii-s17-lem-6 .statement tag=00L1}
 
@@ -541,7 +541,7 @@ $$
 
 0 $\cdot \cdots$ 1 $-a_1$
 
-The determinant of X$I_n-\tau$ is calculated by induction on $s$, by expanding along the first row. We obtain det(X$I_n-\tau ) = P(X)$. In other words, we have P(X) = Pc$_{K''/K'}(t; X)$. In particular, Tr$_{K''/K'}(t) =-a_1$ and $N_{K''/K'}(t) =$ $(-1)^sa_s$. By the transitivity formula (III, §9, No. 4, p. 548, Corollary), we have
+The determinant of X$I_n-\tau$ is calculated by induction on $s$, by expanding along the first row. We obtain det(X$I_n-\tau$ ) $= P(X)$. In other words, we have P(X) = Pc$_{K''/K'}(t; X)$. In particular, Tr$_{K''/K'}(t) =-a_1$ and $N_{K''/K'}(t) =$ $(-1)^sa_s$. By the transitivity formula (III, §9, No. 4, p. 548, Corollary), we have
 
 Tr$_{K''/K}(t) =-$ Tr$_{K'/K}(a_1),N_{K''/K}(t) = (-1)^{sd}N_{K'/K}(a_s)$,
 
@@ -557,7 +557,7 @@ $$
 
 and therefore $n^2=r^2s^2d^2$, that is, $n=rsd$.
 
-Let $b$ be an element of B, and let P(X) be its reduced characteristic polynomial over the L-algebra B; it is monic of degree $s$. By Lemma 6, the polynomial $Q = N_{L[X]/K[X]}(P)$ is monic of degree $sd$. The polynomial $R = Q^r$ is therefore monic of degree $rsd=n$. Again by Lemma 6, the coefficient of $X^{n-1}$ in R(X) is equal to $-r$ Tr$_{L/K}$(Trd$_{B/L}(b))$, and the constant term of R(X) is $(N_{L/K}((-1)^s$ Nrd$_{B/L}(b)))^r= (-1)^nN_{L/K}$(Nrd$_{B/L}(b))^r$.
+Let $b$ be an element of B, and let P(X) be its reduced characteristic polynomial over the L-algebra B; it is monic of degree $s$. By Lemma 6, the polynomial $Q = N_{L[X]/K[X]}(P)$ is monic of degree $sd$. The polynomial $R = Q^r$ is therefore monic of degree $rsd=n$. Again by Lemma 6, the coefficient of $X^{n-1}$ in R(X) is equal to $-r$ Tr$_{L/K}$(Trd$_{B/L}(b)$), and the constant term of R(X) is $(N_{L/K}((-1)^s$ Nrd$_{B/L}(b)))^r= (-1)^nN_{L/K}$(Nrd$_{B/L}(b)$)$^r$.
 
 Since $[A : K] =r^2d[B : K]$, the left B-module A is free of rank $r^2d$ (VIII, p. 124, Proposition 5). We therefore have
 
@@ -565,7 +565,7 @@ Since $[A : K] =r^2d[B : K]$, the left B-module A is free of rank $r^2d$ (VIII, 
 
 By the corollary of III, §9, No. 4, p. 548, we have
 
-(61) Pc$_{B/K}(b; X) = N_{L[X]/K[X]}$(Pc$_{B/L}(b; X))$, and since P(X) is the reduced characteristic polynomial of $b$ over the L-algebra B, we have
+(61) Pc$_{B/K}(b; X) = N_{L[X]/K[X]}$(Pc$_{B/L}(b; X)$), and since P(X) is the reduced characteristic polynomial of $b$ over the L-algebra B, we have
 
 (62) Pc$_{B/L}(b; X) = P(X)^s$.
 
@@ -585,9 +585,9 @@ In this subsection, D is a field of finite degree over K with center K. We denot
 
 Let V be a finite-dimensional right vector space over the field D. Let E be the algebra End$_D(V)$ over the field K; it is central simple and of finite degree. For every invertible element $u$ of E, we have
 
-(64) Nrd$_{E/K}(u) =$ Nrd(det $u)$
+(64) Nrd$_{E/K}(u) =$ Nrd(det $u$)
 
-(cf. VIII, p. 452, Proposition 2 for the definition of the determinant det $u$ of $u)$.
+(cf. VIII, p. 452, Proposition 2 for the definition of the determinant det $u$ of $u$).
 
 We denote the dimension of V over D by $n$ and identify E with the matrix algebra $\mathbf{M}_n(D)$ using a basis of V over D. The multiplicative group GL$_n(D)$ of the algebra E is generated by the diagonal matrices and the matrices $B_{ij}(\lambda )$ (II, §10, No. 13, p. 362, Corollary 1). Proposition 9 therefore follows from the two specific cases below.
 

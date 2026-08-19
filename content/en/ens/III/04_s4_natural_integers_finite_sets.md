@@ -34,7 +34,7 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: a6f2479eb99b8adca6c4e3e15057c1b81700e121b4ca8926b4c22732686f3d98
+content_sha256: 1732f68fff64279b29515ae018528520592624e21906373ba7474e14191b2e68
 ---
 
 ## 4. NATURAL INTEGERS. FINITE SETS
@@ -197,7 +197,7 @@ $$(\forall n)((n \text{ is an integer and } a \leqslant n \leqslant b) \Rightarr
 
 is true. For we have the relation
 
-$(n$ is an integer and $a \leqslant n < b$ and (not $\mathrm{R}\{n\})) \Rightarrow$ not $\mathrm{R}\{n+1\}$.
+$(n$ is an integer and $a \leqslant n < b$ and (not $\mathrm{R}\{n\}$)) $\Rightarrow$ not $\mathrm{R}\{n+1\}$.
 
 If for some $n$ such that $a \leqslant n \leqslant b$ we had (not $\mathrm{R}\{n\}$), it would follow from (3) that (not $\mathrm{R}\{b\}$), contrary to the hypothesis, whence the result (*"descending induction"*).
 

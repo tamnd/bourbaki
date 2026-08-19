@@ -33,7 +33,7 @@ subsections:
       pdf_page: 156
 statements: 24
 exercises: 18
-content_sha256: f75c44e6cff014923ccf70d372a229df662ffdcbbc983e89df6463a368eefd5f
+content_sha256: 704a61f43476e5a7b9e4d658db6efed7d1e24f004528a4e668a5984514eee354
 ---
 
 ## § 8. SYMMETRIC INVARIANTS
@@ -58,13 +58,13 @@ $\langle$exp $\lambda , x_1. . . x_n\rangle =n1$!$\langle \lambda^n, x_1. . . x_
 
 by Algebra, Chap. III, §11, no. 5, formula (29). It follows immediately that exp($\lambda$ ) is the unique homomorphism from the algebra $\mathbf{S}(V)$ to $k$ that extends $\lambda$.
 
-We have exp($\lambda +\mu$) $=$ exp($\lambda$ ) exp($\mu$) for all $\lambda , \mu\in V^*$ (Chap. II, §6, no. 1, Remark). Thus, the map exp$: V^*\rightarrow \mathbf{S}(V)^*$ is a homomorphism from the additive group $V^*$ to the multiplicative group of invertible elements of $\mathbf{S}(V)^*$. The family (exp $\lambda )_{\lambda\in V^*}$ is a free family in the vector space $\mathbf{S}(V)^*($Algebra, Chap. V, §7, no. 3, Th. 1).
+We have exp($\lambda +\mu$) $=$ exp($\lambda$ ) exp($\mu$) for all $\lambda , \mu\in V^*$ (Chap. II, §6, no. 1, Remark). Thus, the map exp$: V^*\rightarrow \mathbf{S}(V)^*$ is a homomorphism from the additive group $V^*$ to the multiplicative group of invertible elements of $\mathbf{S}(V)^*$. The family (exp $\lambda$ )$_{\lambda\in V^*}$ is a free family in the vector space $\mathbf{S}(V)^*($Algebra, Chap. V, §7, no. 3, Th. 1).
 
 #### Lemma 1 {#lie-viii-s8-lem-1 .statement tag=0154}
 
-Let $\Pi$ be a subgroup of $V^*$ that generates the vector space $V^*$, and $m$ an integer $\geq 0$. Then pr$_m$(exp $\Pi )$ generates the vector space $\mathbf{S}^m(V^*)$.
+Let $\Pi$ be a subgroup of $V^*$ that generates the vector space $V^*$, and $m$ an integer $\geq 0$. Then pr$_m$(exp $\Pi$ ) generates the vector space $\mathbf{S}^m(V^*)$.
 
-By Algebra, Chap. I, §8, no. 2, Prop. 2, any product of $m$ elements of $V^*$ is a $k$-linear combination of elements of the form $x^m$ where $x\in \Pi$. But $x^m=m$! pr$_m$(exp $x)$. Q.E.D.
+By Algebra, Chap. I, §8, no. 2, Prop. 2, any product of $m$ elements of $V^*$ is a $k$-linear combination of elements of the form $x^m$ where $x\in \Pi$. But $x^m=m$! pr$_m$(exp $x$). Q.E.D.
 
 By transport of structure, every automorphism of V defines automorphisms of the algebras $\mathbf{S}(V)$ and $\mathbf{S}(V)^*$; this gives linear representations of $\mathbf{G}\mathbf{L}(V)$ on $\mathbf{S}(V)$ and $\mathbf{S}(V)^*$.
 
@@ -74,7 +74,7 @@ The map $p \rightarrow$ exp $p$ from P to $\mathbf{S}(\mathfrak{h})^*$ is a homo
 
 $\psi (e^{\lambda}) =$ exp($\lambda$ )$(\lambda \in P)$
 
-(in the notations of §7, no. 7). By no. $1,\psi$ is injective. By transport of structure, $\psi (w(e^{\lambda})) =w(\psi (e^{\lambda}))$ for all $\lambda \in P$ and all $w\in W$. Hence, if $k[P]^W$ (resp. $\mathbf{S}(\mathfrak{h})^{*W})$ denotes the set of elements of $k[P]$ (resp. $\mathbf{S}(\mathfrak{h})^*)$ invariant under W, we have $\psi (k[P]^W)\subset \mathbf{S}(\mathfrak{h})^{*W}$.
+(in the notations of §7, no. 7). By no. $1,\psi$ is injective. By transport of structure, $\psi (w(e^{\lambda})) =w(\psi (e^{\lambda}))$ for all $\lambda \in P$ and all $w\in W$. Hence, if $k[P]^W$ (resp. $\mathbf{S}(\mathfrak{h})^{*W}$) denotes the set of elements of $k[P]$ (resp. $\mathbf{S}(\mathfrak{h})^*$) invariant under W, we have $\psi (k[P]^W)\subset \mathbf{S}(\mathfrak{h})^{*W}$.
 
 #### Proposition 1 {#lie-viii-s8-prop-1 .statement tag=0155}
 
@@ -82,11 +82,11 @@ Let $S^m(\mathfrak{h}^*)^W$ be the set of elements of $S^m(\mathfrak{h}^*)$ inva
 
 It is clear from the preceding that pr$_m(\psi (k[P]^W))\subset \mathbf{S}^m(\mathfrak{h}^*)^W$. Every element of $\mathbf{S}^m(\mathfrak{h}^*)$ is a $k$-linear combination of elements of the form
 
-pr$_m$(exp $\lambda ) =$ (pr$_m\circ \psi )(e^{\lambda})$
+pr$_m$(exp $\lambda$ ) $=$ (pr$_m\circ \psi$ )$(e^{\lambda})$
 
 where $\lambda \in P$ (Lemma 1). Hence every element of $\mathbf{S}^m(\mathfrak{h}^*)^W$ is a linear combination of elements of the form
 
-$\sum_{w\in W}w$((pr$_m\circ \psi )(e^{\lambda})) =$ (pr$_m\circ \psi )(\sum_{w\in W}w(e^{\lambda}))$,
+$\sum_{w\in W}w$((pr$_m\circ \psi$ )$(e^{\lambda})$) $=$ (pr$_m\circ \psi$ )$(\sum_{w\in W}w(e^{\lambda}))$,
 
 each of which belongs to pr$_m(\psi (k[P]^W))$.
 
@@ -94,9 +94,9 @@ each of which belongs to pr$_m(\psi (k[P]^W))$.
 
 Let E be a finite dimensional $\mathfrak{g}$-module. Let $U(\mathfrak{h}) =\mathbf{S}(\mathfrak{h})$ be the enveloping algebra of $\mathfrak{h}$. If $u\in U(\mathfrak{h})$, then
 
-Tr($u_E$) $=\langle \psi$(ch $E), u\rangle$.
+Tr($u_E$) $=\langle \psi$(ch $E$)$, u\rangle$.
 
-It suffices to treat the case in which $u=h_1. . . h_m$ with $h_1, . . . , h_m\in \mathfrak{h}$. For all $\lambda \in P$, let $d_{\lambda}=$ dim $E^{\lambda}$. Then ch $E =\sum_{\lambda}d_{\lambda}e^{\lambda}$, so $\psi$(ch $E) =\sum_{\lambda}d_{\lambda}$ exp($\lambda$ ) and hence
+It suffices to treat the case in which $u=h_1. . . h_m$ with $h_1, . . . , h_m\in \mathfrak{h}$. For all $\lambda \in P$, let $d_{\lambda}=$ dim $E^{\lambda}$. Then ch $E =\sum_{\lambda}d_{\lambda}e^{\lambda}$, so $\psi$(ch $E$) $=\sum_{\lambda}d_{\lambda}$ exp($\lambda$ ) and hence
 
 $$
 \langle \psi(\mathrm{ch}\,E),u\rangle
@@ -155,7 +155,7 @@ f(x_1,\ldots,x_{i-1},[a,x_i],x_{i+1},\ldots,x_n).
 \tag{1}
 $$
 
-We deduce easily from (1) that $\theta^*(a)$ is a derivation of $\mathbf{S}(\mathfrak{a}^*)$. An element of $\mathbf{S}(\mathfrak{a})$ (resp. $\mathbf{S}(\mathfrak{a}^*))$ that is invariant under the representation $\theta$ (resp. $\theta^*)$ of $\mathfrak{a}$ is called an invariant element of $\mathbf{S}(\mathfrak{a})$ (resp. $\mathbf{S}(\mathfrak{a}^*))$.
+We deduce easily from (1) that $\theta^*(a)$ is a derivation of $\mathbf{S}(\mathfrak{a}^*)$. An element of $\mathbf{S}(\mathfrak{a})$ (resp. $\mathbf{S}(\mathfrak{a}^*)$) that is invariant under the representation $\theta$ (resp. $\theta^*$) of $\mathfrak{a}$ is called an invariant element of $\mathbf{S}(\mathfrak{a})$ (resp. $\mathbf{S}(\mathfrak{a}^*)$).
 
 #### Lemma 2 {#lie-viii-s8-lem-2 .statement tag=0157}
 
@@ -181,7 +181,7 @@ For all $x\in \mathfrak{a}$, we have $\theta^*(x)h= 0$ and Tr($\rho (x)^m$) $=h(
 
 #### Lemma 3 {#lie-viii-s8-lem-3 .statement tag=0158}
 
-Let E be a finite dimensional $\mathfrak{g}$-module, and $x\in E$. Then $x$ is an invariant element of the $\mathfrak{g}$-module E if and only if (exp $a_E).x=x$ for every nilpotent element $a$ of $\mathfrak{g}$.
+Let E be a finite dimensional $\mathfrak{g}$-module, and $x\in E$. Then $x$ is an invariant element of the $\mathfrak{g}$-module E if and only if (exp $a_E$)$.x=x$ for every nilpotent element $a$ of $\mathfrak{g}$.
 
 The condition is clearly necessary. Assume now that it is satisfied. Let $a$ be a nilpotent element of $\mathfrak{g}$. There exists an integer $n$ such that $a^n_E= 0$. For all $t\in k$, we have
 
@@ -189,9 +189,9 @@ The condition is clearly necessary. Assume now that it is satisfied. Let $a$ be 
 
 so $a_Ex= 0$. But the Lie algebra $\mathfrak{g}$ is generated by its nilpotent elements (§4, no. 1, Prop. 1). Hence $x$ is an invariant element of the $\mathfrak{g}$-module E. Q.E.D.
 
-For any $\xi \in \mathbf{G}\mathbf{L}(\mathfrak{g})$, let $\mathbf{S}(\xi )$ be the automorphism of $\mathbf{S}(\mathfrak{g})$ that extends $\xi$, and $\mathbf{S}^*(\xi )$ the restriction to $\mathbf{S}(\mathfrak{g}^*)$ of the contragredient automorphism of $\mathbf{S}(\xi )$. Then $\mathbf{S}$ and $\mathbf{S}^*$ are representations of $\mathbf{G}\mathbf{L}(\mathfrak{g})$. If $a$ is a nilpotent element of $\mathfrak{g},\theta (a)$ is locally nilpotent on $\mathbf{S}(\mathfrak{g})$ and $\mathbf{S}$(exp ad $a) =$ exp$\theta (a)$, so
+For any $\xi \in \mathbf{G}\mathbf{L}(\mathfrak{g})$, let $\mathbf{S}(\xi )$ be the automorphism of $\mathbf{S}(\mathfrak{g})$ that extends $\xi$, and $\mathbf{S}^*(\xi )$ the restriction to $\mathbf{S}(\mathfrak{g}^*)$ of the contragredient automorphism of $\mathbf{S}(\xi )$. Then $\mathbf{S}$ and $\mathbf{S}^*$ are representations of $\mathbf{G}\mathbf{L}(\mathfrak{g})$. If $a$ is a nilpotent element of $\mathfrak{g},\theta (a)$ is locally nilpotent on $\mathbf{S}(\mathfrak{g})$ and $\mathbf{S}$(exp ad $a$) $=$ exp$\theta (a)$, so
 
-$\mathbf{S}^*$(exp ad $a) =$ exp$\theta^*(a)$. (2)
+$\mathbf{S}^*$(exp ad $a$) $=$ exp$\theta^*(a)$. (2)
 
 #### Proposition 3 {#lie-viii-s8-prop-3 .statement tag=0159}
 
@@ -217,7 +217,7 @@ Let $I(\mathfrak{g}^*)$ be the algebra of invariant polynomial functions on $\ma
 
 (iii) Let $l=$ rk($\mathfrak{g}$). There exist $l$ algebraically independent homogeneous elements of $I(\mathfrak{g}^*)$ that generate the algebra $I(\mathfrak{g}^*)$.
 
-$a)$ Let $f\in I(\mathfrak{g}^*)$ and $w\in W$. There exists $s\in$ Aut$_e(\mathfrak{g},\mathfrak{h})$ such that $s|\mathfrak{h}=w($§2, no. 2, Cor. of Th. 2). Since $f$ is invariant under $s$ (Prop. $3),i(f)$ is invariant under $w$. Hence $i(I(\mathfrak{g}^*))\subset \mathbf{S}(\mathfrak{h}^*)^W$.
+$a)$ Let $f\in I(\mathfrak{g}^*)$ and $w\in W$. There exists $s\in$ Aut$_e(\mathfrak{g},\mathfrak{h})$ such that $s|\mathfrak{h}=w($§2, no. 2, Cor. of Th. 2). Since $f$ is invariant under $s$ (Prop. $3$)$,i(f)$ is invariant under $w$. Hence $i(I(\mathfrak{g}^*))\subset \mathbf{S}(\mathfrak{h}^*)^W$.
 
 $b)$ We prove that, if $f\in I(\mathfrak{g}^*)$ is such that $i(f) = 0$, then $f= 0$. Extending the base field if necessary, we can assume that $k$ is algebraically closed. By Prop. $3,f$ vanishes on $s(\mathfrak{h})$ for all $s\in$ Aut$_e(\mathfrak{g})$. Hence $f$ vanishes on every Cartan subalgebra of $\mathfrak{g}$ (Chap. VII, §3, no. 2, Th. 1), and in particular on the set of regular elements of $\mathfrak{g}$. But this set is dense in $\mathfrak{g}$ for the Zariski topology (Chap. VII, §2, no. 2).
 
@@ -245,7 +245,7 @@ This follows from Th. 2 (i) and Chap. V, §6, no. 2, Prop. 3.
 
 #### Corollary 2 {#lie-viii-s8-thm-1-cor-2 .statement tag=015C}
 
-Let B be a basis of R, $R_+$ (resp. $R_-)$ the set of positive (resp. negative) roots of $(\mathfrak{g},\mathfrak{h})$ relative to B$,\mathfrak{n}_+=\sum_{\alpha\in R_+}\mathfrak{g}^{\alpha},\mathfrak{n}_-=\sum_{\alpha\in R_-}\mathfrak{g}^{\alpha}$, $\mathbf{S}(\mathfrak{h})$ the symmetric algebra of $\mathfrak{h}$, and J the ideal of $\mathbf{S}(\mathfrak{g})$ generated by $\mathfrak{n}_+\cup \mathfrak{n}_-$.
+Let B be a basis of R, $R_+$ (resp. $R_-$) the set of positive (resp. negative) roots of $(\mathfrak{g},\mathfrak{h})$ relative to B$,\mathfrak{n}_+=\sum_{\alpha\in R_+}\mathfrak{g}^{\alpha},\mathfrak{n}_-=\sum_{\alpha\in R_-}\mathfrak{g}^{\alpha}$, $\mathbf{S}(\mathfrak{h})$ the symmetric algebra of $\mathfrak{h}$, and J the ideal of $\mathbf{S}(\mathfrak{g})$ generated by $\mathfrak{n}_+\cup \mathfrak{n}_-$.
 
 (i) $\mathbf{S}(\mathfrak{g}) =\mathbf{S}(\mathfrak{h})\oplus J$.
 
@@ -255,7 +255,7 @@ Assertion (i) is clear. The Killing form defines an isomorphism from the vector 
 
 #### Proposition 4 {#lie-viii-s8-prop-4 .statement tag=015D}
 
-Let $\mathfrak{a}$ be a semi-simple Lie algebra, $l$ its rank. Let I (resp. $I')$ be the set of elements of $\mathbf{S}(\mathfrak{a}^*)$ (resp. $\mathbf{S}(\mathfrak{a}))$ invariant under the representation induced by the adjoint representation of $\mathfrak{a}$. Let Z be the centre of the enveloping algebra of $\mathfrak{a}$.
+Let $\mathfrak{a}$ be a semi-simple Lie algebra, $l$ its rank. Let I (resp. $I'$) be the set of elements of $\mathbf{S}(\mathfrak{a}^*)$ (resp. $\mathbf{S}(\mathfrak{a})$) invariant under the representation induced by the adjoint representation of $\mathfrak{a}$. Let Z be the centre of the enveloping algebra of $\mathfrak{a}$.
 
 (i) I and $I'$ are graded polynomial algebras (Chap. V, §5, no. 1) of transcendance degree $l$.
 
@@ -285,7 +285,7 @@ Lemma 4 is now immediate. Indeed, Lemma 5, applied to the $k'$-algebra $A'$, sho
 
 We retain the notations of Prop. 4, and denote by $\mathfrak{p}$ the ideal of $\mathbf{S}(\mathfrak{a}^*)$ generated by the homogeneous elements of I of degree $\geq 1$. Let $x\in \mathfrak{a}$. Then $x$ is nilpotent if and only if $f(x) = 0$ for all $x\in \mathfrak{p}.^3$
 
-Extending the base field if necessary, we can assume that $\mathfrak{a}=\mathfrak{g}$ is splittable. Assume that $x$ is nilpotent. For any finite dimensional linear representation $\rho$ of $\mathfrak{g}$, and any integer $n\geq 1$, we have Tr($\rho (x)^n$) $= 0$, so $f(x) = 0$ for all homogeneous $f\in I(\mathfrak{g}^*)$ of degree $\geq 1$ (Th. 1 (ii)), and hence $f(x) = 0$ for all $f\in \mathfrak{p}$. Conversely, if $f(x) = 0$ for all $f\in \mathfrak{p}$, then Tr((ad $x)^n) = 0$ for all $n\geq 1$ (Th. 1 (ii)), so $x$ is nilpotent.
+Extending the base field if necessary, we can assume that $\mathfrak{a}=\mathfrak{g}$ is splittable. Assume that $x$ is nilpotent. For any finite dimensional linear representation $\rho$ of $\mathfrak{g}$, and any integer $n\geq 1$, we have Tr($\rho (x)^n$) $= 0$, so $f(x) = 0$ for all homogeneous $f\in I(\mathfrak{g}^*)$ of degree $\geq 1$ (Th. 1 (ii)), and hence $f(x) = 0$ for all $f\in \mathfrak{p}$. Conversely, if $f(x) = 0$ for all $f\in \mathfrak{p}$, then Tr((ad $x$)$^n$) $= 0$ for all $n\geq 1$ (Th. 1 (ii)), so $x$ is nilpotent.
 
 #### Remark 1 {#lie-viii-s8-n3-rem-1 .statement tag=01L5}
 
@@ -484,11 +484,11 @@ Hence $[U,U]\subset [\mathfrak{g},\sum_{\gamma}U_{\gamma}]=[\mathfrak{g},\sum_{\
 
 Finally, let $E, \lambda$ be as in (iv). Then
 
-Tr($u_E$) $=$ Tr(($u^{\natural}$)$_E)$ since $u-u^{\natural}\in [U,U]$
+Tr($u_E$) $=$ Tr(($u^{\natural}$)$_E$) since $u-u^{\natural}\in [U,U]$
 
-= Tr($\varphi (u^{\natural})(\lambda ).1$) (§$6$, no$.4$, Prop$.7)$
+= Tr($\varphi (u^{\natural})(\lambda ).1$) (§$6$, no$.4$, Prop$.7$)
 
-= (dim $E).\varphi (u^{\natural})(\lambda )$.
+= (dim $E$)$.\varphi (u^{\natural})(\lambda )$.
 
 ### Exercises {#lie-viii-s8-exercises}
 

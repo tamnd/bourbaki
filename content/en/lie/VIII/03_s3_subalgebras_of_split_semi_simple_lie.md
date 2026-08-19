@@ -33,7 +33,7 @@ subsections:
       pdf_page: 102
 statements: 28
 exercises: 14
-content_sha256: 81e6407d59f55c8f629ae6f7e8cd2ff17e6c5dc4b3a709e929bd6191182e2999
+content_sha256: cc57bfea10e6eccd3c039ddaf24171fe4fa436b4d9507648bf0d9b25dbac60c4
 ---
 
 ## § 3. SUBALGEBRAS OF SPLIT SEMI-SIMPLE LIE ALGEBRAS
@@ -178,7 +178,7 @@ By Prop. 1 (i), the subalgebras of $\mathfrak{g}$ containing $\mathfrak{h}$ are 
 
 Let $\mathfrak{a}$ be a subalgebra of $\mathfrak{g}$ containing $\mathfrak{h},x$ an element of $\mathfrak{a},s$ and $n$ its semi-simple and nilpotent components. Then $s\in \mathfrak{a}$ and $n\in \mathfrak{a}$.
 
-We have (ad $x)\mathfrak{a}\subset \mathfrak{a}$, so (ad $s)\mathfrak{a}\subset \mathfrak{a}$ and (ad $n)\mathfrak{a}\subset \mathfrak{a}$. Since $\mathfrak{a}$ is its own normalizer in $\mathfrak{g}$ (Chap. VII, §2, no. 1, Cor. 4 of Prop. $4),s\in \mathfrak{a}$ and $n\in \mathfrak{a}$.
+We have (ad $x$)$\mathfrak{a}\subset \mathfrak{a}$, so (ad $s$)$\mathfrak{a}\subset \mathfrak{a}$ and (ad $n$)$\mathfrak{a}\subset \mathfrak{a}$. Since $\mathfrak{a}$ is its own normalizer in $\mathfrak{g}$ (Chap. VII, §2, no. 1, Cor. 4 of Prop. $4$)$,s\in \mathfrak{a}$ and $n\in \mathfrak{a}$.
 
 #### Proposition 5 {#lie-viii-s3-prop-5 .statement tag=00ZU}
 
@@ -384,7 +384,7 @@ $$
 
 so P(F) = P.
 
-$b)$ Let $F\in \mathscr{F}$. It is clear that $P(F)\in \mathscr{P}$. On the other hand, F is contained in the closure of a chamber relative to $\mathscr{H}$ (Chap. V, §1, no. 3, formulas (6)), and so is a facet relative to the set of walls of this chamber (Chap. V, §1, no. 4, Prop. 9). Consequently, F is of the form $\{v\in V|\alpha (v)\geq 0$ for all $\alpha \in T\}$, where T is a subset of S which we can clearly take to be equal to P(F). Thus, F = F(P(F)). Q.E.D.
+$b)$ Let $F\in \mathscr{F}$. It is clear that $P(F)\in \mathscr{P}$. On the other hand, F is contained in the closure of a chamber relative to $\mathscr{H}$ (Chap. V, §1, no. 3, formulas (6)), and so is a facet relative to the set of walls of this chamber (Chap. V, §1, no. 4, Prop. 9). Consequently, $\overline{F}$ is of the form $\{v\in V|\alpha (v)\geq 0$ for all $\alpha \in T\}$, where T is a subset of S which we can clearly take to be equal to P(F). Thus, $\overline{F}= F(P(F))$. Q.E.D.
 
 If $P\in \mathscr{P}$, the facet F such that P = P(F) is said to be associated to P; we denote it by F(P). We extend these conventions to the case in which $(\mathfrak{g},\mathfrak{h})$ is split reductive.
 
@@ -406,7 +406,7 @@ The facets corresponding to the parabolic subalgebras of $(\mathfrak{g},\mathfra
 
 Let $\mathfrak{p}=\mathfrak{h}+\mathfrak{g}^P$ be a parabolic subalgebra of $(\mathfrak{g},\mathfrak{h})$, Q the set of $\alpha \in P$ such that $-\alpha  /\in P$, and $\mathfrak{s}=\mathfrak{h}+\mathfrak{g}^{P\cap(-P)}$. Then $\mathfrak{p}=\mathfrak{s}\oplus \mathfrak{g}^Q,\mathfrak{s}$ is reductive in $\mathfrak{g}$, and $\mathfrak{g}^Q$ is the largest nilpotent ideal of $\mathfrak{p}$ and the nilpotent radical of $\mathfrak{p}$. The centre of $\mathfrak{p}$ is zero.
 
-By Prop. $2,\mathfrak{s}$ is reductive in $\mathfrak{g}$ and $\mathfrak{g}^Q$ is a nilpotent ideal of $\mathfrak{p}$. If $\mathfrak{n}$ is the largest nilpotent ideal of $\mathfrak{p},\mathfrak{g}^Q\subset \mathfrak{n}\subset \mathfrak{h}+\mathfrak{g}^Q$ (Prop. 2 (i)); if $x\in \mathfrak{n}\cap \mathfrak{h}$, ad$_{\mathfrak{p}}x$ is nilpotent, so $\alpha (x) = 0$ for all $\alpha \in P$, and hence $x= 0$; this proves that $\mathfrak{n}=\mathfrak{g}^Q$. Since $[\mathfrak{h},\mathfrak{g}^Q] =\mathfrak{g}^Q$, the nilpotent radical of $\mathfrak{p}$ contains $\mathfrak{g}^Q$ and consequently is equal to $\mathfrak{g}^Q$. Let $z=h+\sum_{\alpha\in P}u_{\alpha}$ (where $h\in \mathfrak{h}, u_{\alpha}\in \mathfrak{g}^{\alpha})$ be an
+By Prop. $2,\mathfrak{s}$ is reductive in $\mathfrak{g}$ and $\mathfrak{g}^Q$ is a nilpotent ideal of $\mathfrak{p}$. If $\mathfrak{n}$ is the largest nilpotent ideal of $\mathfrak{p},\mathfrak{g}^Q\subset \mathfrak{n}\subset \mathfrak{h}+\mathfrak{g}^Q$ (Prop. 2 (i)); if $x\in \mathfrak{n}\cap \mathfrak{h}$, ad$_{\mathfrak{p}}x$ is nilpotent, so $\alpha (x) = 0$ for all $\alpha \in P$, and hence $x= 0$; this proves that $\mathfrak{n}=\mathfrak{g}^Q$. Since $[\mathfrak{h},\mathfrak{g}^Q] =\mathfrak{g}^Q$, the nilpotent radical of $\mathfrak{p}$ contains $\mathfrak{g}^Q$ and consequently is equal to $\mathfrak{g}^Q$. Let $z=h+\sum_{\alpha\in P}u_{\alpha}$ (where $h\in \mathfrak{h}, u_{\alpha}\in \mathfrak{g}^{\alpha}$) be an
 
 element of the centre of $\mathfrak{p}$. For all $h'\in \mathfrak{h}, 0 = [h', z] =\sum\alpha (h')u_{\alpha}$, so $u_{\alpha}= 0$ for all $\alpha \in P$; it follows that $[h,\mathfrak{g}^{\beta}] = 0$ for all $\beta \in P$, so $h= 0$.
 

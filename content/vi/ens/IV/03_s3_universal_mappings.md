@@ -26,9 +26,9 @@ subsections:
       pdf_page: 291
 statements: 0
 exercises: 3
-content_sha256: be4c0df0a5e0ccf2ad8d8bb9a84b19e134fe4b1de99354e824b4681a18bdc998
+content_sha256: e0d6f1d3ac680784ebbba2ceccdd530739c71ccfe7de1f79dd906f6c3543a4ba
 translated_from: content/en/ens/IV/03_s3_universal_mappings.md
-source_content_sha256: bd2659e2b95cd99eebbfaaa21b1f48fd4e4c6fe64d1061e7e56e353b9d55545d
+source_content_sha256: 98de15070c6122f15d37cc5ed3db1f93782ce63e3a7bbc618529bef0a4082473
 translation_model: gpt-5.4
 translation_run: translate-vi-09555ffd
 glossary_version: 29
@@ -96,7 +96,7 @@ Vì $\varphi_\mathrm{E}$ là một $\alpha$-ánh xạ, tiêu chuẩn này là m�
 
 \* Phần lớn các ví dụ sau đây sẽ được khảo sát chi tiết ở chỗ khác trong chuỗi này.
 
-I. *Các cấu trúc đại số tự do.* Cho E là một tập hợp và cho $\Sigma$ là một loài các cấu trúc đại số, được định nghĩa bởi một hoặc nhiều luật hợp thành. Ta lấy làm cấu xạ các *đồng cấu* đối với loài $\Sigma$ đang xét, và làm các ánh xạ $\alpha$ các ánh xạ *tùy ý* của E vào một $\Sigma$-tập hợp (nói cách khác, $\alpha \{ x,\ s \} = \mathscr{F}(\mathrm{E},\ x))$. Tất cả các loài thông thường của các cấu trúc đại số đều thỏa mãn $(\mathrm{CU_{III}})$; ngoại trừ các cấu trúc vành chia, chúng cũng thỏa mãn $(\mathrm{CU_I})$, và ở đây $(\mathrm{CU_{II}})$ là một hệ quả tầm thường của $(\mathrm{CU_I})$.
+I. *Các cấu trúc đại số tự do.* Cho E là một tập hợp và cho $\Sigma$ là một loài các cấu trúc đại số, được định nghĩa bởi một hoặc nhiều luật hợp thành. Ta lấy làm cấu xạ các *đồng cấu* đối với loài $\Sigma$ đang xét, và làm các ánh xạ $\alpha$ các ánh xạ *tùy ý* của E vào một $\Sigma$-tập hợp (nói cách khác, $\alpha \{ x,\ s \} = \mathscr{F}(\mathrm{E},\ x)$). Tất cả các loài thông thường của các cấu trúc đại số đều thỏa mãn $(\mathrm{CU_{III}})$; ngoại trừ các cấu trúc vành chia, chúng cũng thỏa mãn $(\mathrm{CU_I})$, và ở đây $(\mathrm{CU_{II}})$ là một hệ quả tầm thường của $(\mathrm{CU_I})$.
 
 Vì nói chung tồn tại các cấu trúc thuộc loài $\Sigma$ được định nghĩa trên các tập hợp có ít nhất hai phần tử, các ánh xạ $\alpha$ tách biệt các phần tử của E, và do đó E có thể được xem như được nhúng vào $\mathrm{F_E}$. $\mathrm{F_E}$ được gọi là $\Sigma$-*tập hợp* *tự do sinh bởi* E. Vì vậy trong đại số ta nói đến *nửa nhóm tự do*, *nhóm tự do*, *môđun tự do*, và *đại số tự do*.
 

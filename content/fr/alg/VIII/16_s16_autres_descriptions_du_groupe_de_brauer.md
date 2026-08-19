@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: eaf35b3a8959cc79a7915ddf3417258ff37589eb1a9723b1cf90403bef7f846a
+content_sha256: 0e920a118095efa108afaa1e00e7893e913da4dddf17c85d194b1c7caba769b7
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -76,7 +76,7 @@ $$
 
 pour tout $f\in F$ est un automorphisme de F. Comme F est commutatif, pour tout $f\in F$, l’automorphisme défini par $\iota (f)$ est l’application identique de F. Par passage au quotient, on obtient un homomorphisme Int$_{\mathscr{E}}$ de G dans Aut(F) caractérisé par
 
-$\gamma \iota (f)\gamma^{-1}=\iota$(Int$_{\mathscr{E}}(\pi (\gamma )).f)$
+$\gamma \iota (f)\gamma^{-1}=\iota$(Int$_{\mathscr{E}}(\pi (\gamma )).f$)
 
 pour $\gamma \in \Gamma$ et $f\in F$.
 
@@ -110,7 +110,7 @@ Le produit semi-direct externe $(F\times_{\tau}G, i, p)$ (I, p. 64, prop. 3) est
 
 #### Exemple 2 {#alg-viii-s16-n1-exa-2 .statement tag=00IB}
 
-Pour $i\in  \{1,2\}$, on se donne un groupe $G_i$, un groupe abélien $F_i$ et un homomorphisme de groupes $\tau_i$ de $G_i$ dans le groupe des automorphismes de $F_i$. On note $\tau_1\times \tau_2: G_1\times G_2\rightarrow$ Aut(F$_1\times F_2)$ l’homomorphisme défini par
+Pour $i\in  \{1,2\}$, on se donne un groupe $G_i$, un groupe abélien $F_i$ et un homomorphisme de groupes $\tau_i$ de $G_i$ dans le groupe des automorphismes de $F_i$. On note $\tau_1\times \tau_2: G_1\times G_2\rightarrow$ Aut(F$_1\times F_2$) l’homomorphisme défini par
 
 $$
 (\tau_1\times \tau_2)(g_1, g_2).(f_1, f_2) = (\tau_1(g_1).f_1, \tau_2(g_2).f_2)
@@ -156,7 +156,7 @@ La commutativité du premier diagramme découle de la définition de $\varphi$. 
 
 #### Lemme 2 {#alg-viii-s16-lem-2 .statement tag=00ID}
 
-Soit $F'_1$ un groupe abélien et soient $w: F'_1\rightarrow F$et $\tau_1: G'\rightarrow$ Aut(F$'_1)$ des homomorphismes de groupes tels que
+Soit $F'_1$ un groupe abélien et soient $w: F'_1\rightarrow F$et $\tau_1: G'\rightarrow$ Aut(F$'_1$) des homomorphismes de groupes tels que
 
 $$
 w(\tau_1(g)(f)) =\tau (u(g))(w(f))
@@ -190,7 +190,7 @@ pour tout $\gamma \in \Gamma '_1$. Inversement, l’homomorphisme de groupes de 
 
 #### Corollaire 1 {#alg-viii-s16-lem-2-cor-1 .statement tag=00IE}
 
-Soient $\mathscr{E}_1$ et $\mathscr{E}_2$ des $\tau$-extensions de G par F et soit $\psi$ un morphisme de $\tau$-extensions de $\mathscr{E}_1$ dans $\mathscr{E}_2$. Notons $\varphi_1$ (resp. $\varphi_2)$l’homomorphisme canonique pour $u^*(\mathscr{E}_1)$ (resp. $u^*(\mathscr{E}_2))$. Alors il existe un unique morphisme de $\tau '$-extensions de $u^*(\mathscr{E}_1)$dans $u^*(\mathscr{E}_2)$, noté $u^*(\psi )$, tel que $\varphi_2\circ u^*(\psi ) =\psi \circ \varphi_1$.
+Soient $\mathscr{E}_1$ et $\mathscr{E}_2$ des $\tau$-extensions de G par F et soit $\psi$ un morphisme de $\tau$-extensions de $\mathscr{E}_1$ dans $\mathscr{E}_2$. Notons $\varphi_1$ (resp. $\varphi_2$)l’homomorphisme canonique pour $u^*(\mathscr{E}_1)$ (resp. $u^*(\mathscr{E}_2)$). Alors il existe un unique morphisme de $\tau '$-extensions de $u^*(\mathscr{E}_1)$dans $u^*(\mathscr{E}_2)$, noté $u^*(\psi )$, tel que $\varphi_2\circ u^*(\psi ) =\psi \circ \varphi_1$.
 
 Il suffit d’appliquer la prop. 1 à $\psi \circ \varphi_1$.
 
@@ -198,15 +198,15 @@ La classe de la $\tau '$-extension $u^*(\mathscr{E})$ ne dépend donc que de la 
 
 #### Corollaire 2 {#alg-viii-s16-lem-2-cor-2 .statement tag=00IF}
 
-Soit $u': G''\rightarrow G'$ un homomorphisme de groupes et soit $\mathscr{E}$ une $\tau$-extension de G par F. Posons $\tau ''=\tau '\circ u'$ et notons $\varphi$ (resp. $\varphi ',\varphi '')$l’homomorphisme canonique associé à la $\tau '$-extension $u^*(\mathscr{E})$ (resp. la $\tau ''$-extension $u^{'*}(u^*(\mathscr{E}))$, la $\tau ''$-extension $(u\circ u')^*(\mathscr{E}))$. Alors il existe un unique morphisme $\psi$ de la $\tau ''$-extension $u^{'*}(u^*(\mathscr{E}))$dans la $\tau ''$-extension $(u\circ u')^*(\mathscr{E})$telle que $\varphi ''\circ \psi =\varphi \circ \varphi '$.
+Soit $u': G''\rightarrow G'$ un homomorphisme de groupes et soit $\mathscr{E}$ une $\tau$-extension de G par F. Posons $\tau ''=\tau '\circ u'$ et notons $\varphi$ (resp. $\varphi ',\varphi ''$)l’homomorphisme canonique associé à la $\tau '$-extension $u^*(\mathscr{E})$ (resp. la $\tau ''$-extension $u^{'*}(u^*(\mathscr{E}))$, la $\tau ''$-extension $(u\circ u')^*(\mathscr{E})$). Alors il existe un unique morphisme $\psi$ de la $\tau ''$-extension $u^{'*}(u^*(\mathscr{E}))$dans la $\tau ''$-extension $(u\circ u')^*(\mathscr{E})$telle que $\varphi ''\circ \psi =\varphi \circ \varphi '$.
 
 #### Exemple {#alg-viii-s16-n2-exa-1 .statement tag=00RI}
 
-Soit H un sous-groupe de G et $j: H\rightarrow G$ l’injection canonique. Alors pour toute $\tau$-extension $\mathscr{E}= (\Gamma , \iota , \pi )$, la $\tau \circ j$-extension $j^*(\mathscr{E})$ est isomorphe à $(\overset{-1}{\pi}(H), \iota ', \pi ')$ où $\iota ': F\rightarrow \overset{-1}{\pi}(H)$ (resp. $\pi ':\overset{-1}{\pi}(H)\rightarrow H)$ est l’homomorphisme de groupes $f\rightarrow \iota (f)$ (resp. $\gamma \rightarrow \pi (\gamma ))$. Plus généralement, si l’homomorphisme de groupes $u: G'\rightarrow G$ est injectif, alors l’homomorphisme canonique $\varphi$ est injectif d’image $\overset{-1}{\pi}(u(G'))$.
+Soit H un sous-groupe de G et $j: H\rightarrow G$ l’injection canonique. Alors pour toute $\tau$-extension $\mathscr{E}= (\Gamma , \iota , \pi )$, la $\tau \circ j$-extension $j^*(\mathscr{E})$ est isomorphe à $(\overset{-1}{\pi}(H), \iota ', \pi ')$ où $\iota ': F\rightarrow \overset{-1}{\pi}(H)$ (resp. $\pi ':\overset{-1}{\pi}(H)\rightarrow H$) est l’homomorphisme de groupes $f\rightarrow \iota (f)$ (resp. $\gamma \rightarrow \pi (\gamma )$). Plus généralement, si l’homomorphisme de groupes $u: G'\rightarrow G$ est injectif, alors l’homomorphisme canonique $\varphi$ est injectif d’image $\overset{-1}{\pi}(u(G'))$.
 
 ### 3. Image directe d’une $\tau$-extension
 
-Soit G un groupe, soient F et $F'$ des groupes abéliens, soit $\tau$ (resp. $\tau ')$ un homomorphisme de groupes de G dans le groupe des automorphismes de F (resp. $F')$ et soit $v: F\rightarrow F'$ un homomorphisme de groupes tel que
+Soit G un groupe, soient F et $F'$ des groupes abéliens, soit $\tau$ (resp. $\tau '$) un homomorphisme de groupes de G dans le groupe des automorphismes de F (resp. $F'$) et soit $v: F\rightarrow F'$ un homomorphisme de groupes tel que
 
 $$
 v(\tau (g).f) =\tau '(g).v(f) \tag{3}
@@ -260,7 +260,7 @@ La commutativité du premier diagramme résulte des constructions. L’existence
 
 #### Lemme 3 {#alg-viii-s16-lem-3 .statement tag=00IH}
 
-Soit $G'_1$ un groupe et soient $w: G\rightarrow G'_1$ et $\tau_1: G'_1\rightarrow$ Aut(F$')$des homomorphismes de groupes tels que $\tau '=\tau_1\circ w$. Soit $\mathscr{E}'_1= (\Gamma '_1, \iota '_1, \pi '_1)$une $\tau_1$-extension de $G'_1$ par $F'$ et soit $\varphi_1: \Gamma \rightarrow \Gamma '_1$ un homomorphisme de groupes tel que le diagramme
+Soit $G'_1$ un groupe et soient $w: G\rightarrow G'_1$ et $\tau_1: G'_1\rightarrow$ Aut(F$'$)des homomorphismes de groupes tels que $\tau '=\tau_1\circ w$. Soit $\mathscr{E}'_1= (\Gamma '_1, \iota '_1, \pi '_1)$une $\tau_1$-extension de $G'_1$ par $F'$ et soit $\varphi_1: \Gamma \rightarrow \Gamma '_1$ un homomorphisme de groupes tel que le diagramme
 
 F $^{\iota}$ // Γ $^{\pi}$ // G
 
@@ -306,7 +306,7 @@ commutatif. La prop. 2 exprime que $v_*(\mathscr{E})$ est une solution du probl�
 
 #### Corollaire 1 {#alg-viii-s16-lem-3-cor-1 .statement tag=00IJ}
 
-Soient $\mathscr{E}_1$ et $\mathscr{E}_2$ des $\tau$-extensions de G par F et soit $\psi$ un morphisme de $\tau$-extensions de $\mathscr{E}_1$ dans $\mathscr{E}_2$. Notons $\varphi_1$ (resp. $\varphi_2)$l’homomorphisme canonique pour $v_*(\mathscr{E}_1)$ (resp. $v_*(\mathscr{E}_2))$. Alors il existe un unique morphisme de $\tau '$-extensions de $v_*(\mathscr{E}_1)$dans $v_*(\mathscr{E}_2)$, noté $v_*(\psi )$, tel que $\varphi_2\circ \psi =v_*(\psi )\circ \varphi_1$.
+Soient $\mathscr{E}_1$ et $\mathscr{E}_2$ des $\tau$-extensions de G par F et soit $\psi$ un morphisme de $\tau$-extensions de $\mathscr{E}_1$ dans $\mathscr{E}_2$. Notons $\varphi_1$ (resp. $\varphi_2$)l’homomorphisme canonique pour $v_*(\mathscr{E}_1)$ (resp. $v_*(\mathscr{E}_2)$). Alors il existe un unique morphisme de $\tau '$-extensions de $v_*(\mathscr{E}_1)$dans $v_*(\mathscr{E}_2)$, noté $v_*(\psi )$, tel que $\varphi_2\circ \psi =v_*(\psi )\circ \varphi_1$.
 
 Il suffit d’appliquer la prop. 2 à $\varphi_2\circ \psi$.
 
@@ -314,13 +314,13 @@ La classe de la $\tau '$-extension $v_*(\mathscr{E})$ ne dépend donc que de la 
 
 #### Corollaire 2 {#alg-viii-s16-lem-3-cor-2 .statement tag=00RJ}
 
-On conserve les notations de la proposition. Soit $F''$ un groupe abélien et soient $\tau '': G\rightarrow$ Aut(F$'')$et $v': F'\rightarrow F''$ des homomorphismes de groupes tels que
+On conserve les notations de la proposition. Soit $F''$ un groupe abélien et soient $\tau '': G\rightarrow$ Aut(F$''$)et $v': F'\rightarrow F''$ des homomorphismes de groupes tels que
 
 $$
 \tau ''(g).v'(f) =v'(\tau '(g).f)
 $$
 
-pour $g\in G$et $f\in F'$. Soit $\mathscr{E}$ une $\tau$-extension de G par F et notons $\varphi$ (resp. $\varphi ',\varphi '')$ l’homomorphisme canonique associé à $v_*(\mathscr{E})$ (resp. $v'_*(v_*(\mathscr{E}))$, $(v'\circ v)_*(\mathscr{E}))$. Alors il existe un unique morphisme $\psi$ de la $\tau ''$-extension $v'_*(v_*(\mathscr{E}))$de G par $F''$ dans la $\tau ''$-extension $(v'\circ v)_*(\mathscr{E})$tel que $\varphi ''=\psi \circ \varphi '\circ \varphi$.
+pour $g\in G$et $f\in F'$. Soit $\mathscr{E}$ une $\tau$-extension de G par F et notons $\varphi$ (resp. $\varphi ',\varphi ''$) l’homomorphisme canonique associé à $v_*(\mathscr{E})$ (resp. $v'_*(v_*(\mathscr{E}))$, $(v'\circ v)_*(\mathscr{E})$). Alors il existe un unique morphisme $\psi$ de la $\tau ''$-extension $v'_*(v_*(\mathscr{E}))$de G par $F''$ dans la $\tau ''$-extension $(v'\circ v)_*(\mathscr{E})$tel que $\varphi ''=\psi \circ \varphi '\circ \varphi$.
 
 #### Exemple 1 {#alg-viii-s16-n3-exa-1 .statement tag=00IK}
 
@@ -328,7 +328,7 @@ Soit $j:\{1\} \rightarrow F$ l’injection canonique. L’extension semi-trivial
 
 #### Exemple 2 {#alg-viii-s16-n3-exa-2 .statement tag=00IL}
 
-Soit E un sous-groupe de F stable pour l’action de G. Notons $F'$ le quotient de F par $E,v: F\rightarrow F'$ l’homomorphisme canonique et $\tau ': G\rightarrow$ Aut(F$')$ l’action de G sur $F'$ caractérisée par
+Soit E un sous-groupe de F stable pour l’action de G. Notons $F'$ le quotient de F par $E,v: F\rightarrow F'$ l’homomorphisme canonique et $\tau ': G\rightarrow$ Aut(F$'$) l’action de G sur $F'$ caractérisée par
 
 $$
 \tau '(g).v(f) =v(\tau (g).f)
@@ -338,15 +338,15 @@ pour $g\in G$ et $f\in F$. Soit $\mathscr{E}= (\Gamma , \iota , \pi )$ une $\tau
 
 #### Proposition 3 {#alg-viii-s16-prop-3 .statement tag=00IM}
 
-Soient G et $G'$ des groupes. Soient F et $F'$ des groupes abéliens. Soient $\tau : G\rightarrow$ Aut(F)$,\tau ': G\rightarrow$ Aut(F$'),u: G'\rightarrow G$et $v: F\rightarrow F'$ des homomorphismes de groupes tels que
+Soient G et $G'$ des groupes. Soient F et $F'$ des groupes abéliens. Soient $\tau : G\rightarrow$ Aut(F)$,\tau ': G\rightarrow$ Aut(F$'$)$,u: G'\rightarrow G$et $v: F\rightarrow F'$ des homomorphismes de groupes tels que
 
 $$
 \tau '(g).v(f) =v(\tau (g).f)
 $$
 
-pour $g\in G$et $f\in F$. On note $\tau ''=\tau '\circ u$. Soit $\mathscr{E}$ une $\tau$-extension de G par F. On note $\varphi_u$ (resp. $\varphi_v,\varphi '_u,\varphi '_v)$l’homomorphisme canonique correspondant à la $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. à la $\tau '$-extension $v_*(\mathscr{E})$, aux $\tau ''$-extensions $u^*(v_*(\mathscr{E}))$et $v_*(u^*(\mathscr{E})))$. Alors il existe un unique morphisme $\psi$ de $\tau ''$-extensions de $v_*(u^*(\mathscr{E}))$dans $u^*(v_*(\mathscr{E}))$ tel que $\varphi_v\circ \varphi_u=\varphi '_u\circ \psi \circ \varphi '_v$.
+pour $g\in G$et $f\in F$. On note $\tau ''=\tau '\circ u$. Soit $\mathscr{E}$ une $\tau$-extension de G par F. On note $\varphi_u$ (resp. $\varphi_v,\varphi '_u,\varphi '_v$)l’homomorphisme canonique correspondant à la $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. à la $\tau '$-extension $v_*(\mathscr{E})$, aux $\tau ''$-extensions $u^*(v_*(\mathscr{E}))$et $v_*(u^*(\mathscr{E}))$). Alors il existe un unique morphisme $\psi$ de $\tau ''$-extensions de $v_*(u^*(\mathscr{E}))$dans $u^*(v_*(\mathscr{E}))$ tel que $\varphi_v\circ \varphi_u=\varphi '_u\circ \psi \circ \varphi '_v$.
 
-On note $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma '_u, \iota '_u, \pi '_u))$ la $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. la $\tau ''$-extension $u^*(v_*(\mathscr{E})))$. En appliquant le lemme 2 de VIII, p. 283 à $\varphi_v\circ \varphi_u$, on obtient qu’il existe un homomorphisme de groupes $\psi_1: \Gamma_u\rightarrow \Gamma '_u$ tel que le diagramme
+On note $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma '_u, \iota '_u, \pi '_u)$) la $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. la $\tau ''$-extension $u^*(v_*(\mathscr{E}))$). En appliquant le lemme 2 de VIII, p. 283 à $\varphi_v\circ \varphi_u$, on obtient qu’il existe un homomorphisme de groupes $\psi_1: \Gamma_u\rightarrow \Gamma '_u$ tel que le diagramme
 
 F $^{\iota_u}$ // $\Gamma_u^{\pi_u}$ // $G'$
 
@@ -424,7 +424,7 @@ pour $f\in F$, l’homomorphisme de groupes $\sigma$ induit par passage aux quot
 
 a) Soient G et $G'$ des groupes. Soit F un groupe abélien. Soient $\tau : G\rightarrow$ Aut(F) et $u: G'\rightarrow G$des homomorphismes de groupes. L’application $u^*:$ Ex$_{\tau}(G,F)\rightarrow$ Ex$_{\tau\circ u}(G',F)$est un homomorphisme de groupes.
 
-b) Soit G un groupe. Soient F et $F'$ des groupes abéliens. Soient $\tau : G\rightarrow$ Aut(F), $\tau ': G\rightarrow$ Aut(F$')$et $v: F\rightarrow F'$ des homomorphismes de groupes tels que
+b) Soit G un groupe. Soient F et $F'$ des groupes abéliens. Soient $\tau : G\rightarrow$ Aut(F), $\tau ': G\rightarrow$ Aut(F$'$)et $v: F\rightarrow F'$ des homomorphismes de groupes tels que
 
 $$
 \tau '(g).v(f) =v(\tau (g).f)
@@ -530,7 +530,7 @@ On note $\Theta_{\tau}:$ Ex$_{\tau}(G,F)\rightarrow H^2(G,F)$ ou, plus simplemen
 
 L’application Θ est un isomorphisme de groupes de Ex$_{\tau}(G,F)$sur $H^2(G,F)$.
 
-Démontrons tout d’abord que Θ est un homomorphisme de groupes. Soient $\mathscr{E}= (\Gamma , \iota , \pi )$ et $\mathscr{E}'= (\Gamma ', \iota ', \pi ')$ des $\tau$-extensions et soit $\sigma$ (resp. $\sigma ')$ une section de l’application $\pi$ (resp. $\pi ')$. Notons $\mathscr{E} \mathscr{E}'= (\Gamma '', \iota '', \pi '')$ le produit des $\tau$-extensions $\mathscr{E}$ et $\mathscr{E}'$. On notera $[\gamma , \gamma ']$ l’image dans $\Gamma ''$ d’un élément $(\gamma , \gamma ')$ de $\Gamma \times_G\Gamma '$ par l’homomorphisme surjectif de la remarque de VIII, p. 289. L’application de G dans $\Gamma ''$ qui envoie un élément $g$ sur $[\sigma (g), \sigma '(g)]$ est une section $\sigma ''$ de l’application $\pi ''$. Soient $g_1$ et $g_2$ des éléments de G. On a les relations
+Démontrons tout d’abord que Θ est un homomorphisme de groupes. Soient $\mathscr{E}= (\Gamma , \iota , \pi )$ et $\mathscr{E}'= (\Gamma ', \iota ', \pi ')$ des $\tau$-extensions et soit $\sigma$ (resp. $\sigma '$) une section de l’application $\pi$ (resp. $\pi '$). Notons $\mathscr{E} \mathscr{E}'= (\Gamma '', \iota '', \pi '')$ le produit des $\tau$-extensions $\mathscr{E}$ et $\mathscr{E}'$. On notera $[\gamma , \gamma ']$ l’image dans $\Gamma ''$ d’un élément $(\gamma , \gamma ')$ de $\Gamma \times_G\Gamma '$ par l’homomorphisme surjectif de la remarque de VIII, p. 289. L’application de G dans $\Gamma ''$ qui envoie un élément $g$ sur $[\sigma (g), \sigma '(g)]$ est une section $\sigma ''$ de l’application $\pi ''$. Soient $g_1$ et $g_2$ des éléments de G. On a les relations
 
 $$
 \iota ''(c_{\sigma''}(g_1, g_2)) =\sigma ''(g_1)\sigma ''(g_2)\sigma ''(g_1g_2)^{-1}
@@ -618,7 +618,7 @@ pour $g_1, g_2\in G$.
 
 #### Remarque {#alg-viii-s16-n5-rem-1 .statement tag=00RK}
 
-Soit G un groupe, soient F et $F'$ des groupes abéliens, soit $\tau$ (resp. $\tau ')$ un homomorphisme de groupes de G dans le groupe des automorphismes de F (resp. $F')$ et soit $v: F\rightarrow F'$ un morphisme de groupes tel que
+Soit G un groupe, soient F et $F'$ des groupes abéliens, soit $\tau$ (resp. $\tau '$) un homomorphisme de groupes de G dans le groupe des automorphismes de F (resp. $F'$) et soit $v: F\rightarrow F'$ un morphisme de groupes tel que
 
 $$
 v(\tau (g).f) =\tau '(g).v(f) \tag{13}
@@ -902,7 +902,7 @@ ce qui démontre le résultat.
 
 ### 7. Algèbres galoisiennes
 
-Soit K un corps commutatif. Si E est une K-algèbre, on note Aut$_K(E)$ le groupe de ses automorphismes ; si E est une extension galoisienne du corps K, le groupe Aut$_K(E)$ n’est autre que le groupe de Galois Gal(E$/K)$ (V, p. 56).
+Soit K un corps commutatif. Si E est une K-algèbre, on note Aut$_K(E)$ le groupe de ses automorphismes ; si E est une extension galoisienne du corps K, le groupe Aut$_K(E)$ n’est autre que le groupe de Galois Gal(E$/K$) (V, p. 56).
 
 Soit G un groupe. On appelle $(K,G)$-algèbre une K-algèbre E munie d’un homomorphisme de groupes $\lambda : G\rightarrow$ Aut$_K(E)$. L’homomorphisme $\lambda$ munit alors E d’une structure de groupe à opérateurs dans G ainsi que d’une structure de K[G]-module à gauche dont la loi d’action est donnée par
 
@@ -920,7 +920,7 @@ Soit E une $(K$, G)-algèbre, où G opère par $\lambda : G\rightarrow$ Aut$_K(E
 
 Étant donné un groupe H et des H-ensembles X et Y, on note $\mathscr{F}_H(X,Y)$ l’ensemble des morphismes de H-ensembles de X dans Y. C’est donc l’ensemble des applications $f: X\rightarrow Y$ telles que $f(hx) =hf(x)$ pour tout $h\in H$ et tout $x\in X$.
 
-Soit G un groupe d’élément neutre $e$, soit H un sous-groupe de G et soit E une $(K$, H)-algèbre. On note Coïnd$^G_H(E)$ et on appelle $(K,G)$-algèbre déduite de E par coïnduction de H à G la K-algèbre $\mathscr{F}_H(G,E)$ munie de l’action de G donnée par l’homomorphisme $\lambda$ de G dans Aut$_K$(Coïnd$^G_H(E))$ défini par
+Soit G un groupe d’élément neutre $e$, soit H un sous-groupe de G et soit E une $(K$, H)-algèbre. On note Coïnd$^G_H(E)$ et on appelle $(K,G)$-algèbre déduite de E par coïnduction de H à G la K-algèbre $\mathscr{F}_H(G,E)$ munie de l’action de G donnée par l’homomorphisme $\lambda$ de G dans Aut$_K$(Coïnd$^G_H(E)$) défini par
 
 $$
 (\lambda (g).f)(g') =f(g'g) \tag{15}
@@ -960,7 +960,7 @@ $$
 \psi :\mathscr{F}_H(G,\mathscr{F}_N(H,E))\rightarrow \mathscr{F}_N(G,E)
 $$
 
-définie par la relation $\psi (\alpha )(g) =\alpha (g)(e)$ pour tout élément $\alpha$ de $\mathscr{F}_H(G,\mathscr{F}_N(H,E))$ et tout élément $g$ de G. L’application $\psi$ est un isomorphisme d’algèbres de l’algèbre Coïnd$^G_H$(Coïnd$^H_N(E))$ sur Coïnd$^G_N(E)$ dont la réciproque envoie un élément $\beta$ de $\mathscr{F}_N(G,E)$ sur l’application $\alpha$ définie par la relation $\alpha (g)(h) =\beta (hg)$ pour $g\in G$ et $h\in H$.
+définie par la relation $\psi (\alpha )(g) =\alpha (g)(e)$ pour tout élément $\alpha$ de $\mathscr{F}_H(G,\mathscr{F}_N(H,E))$ et tout élément $g$ de G. L’application $\psi$ est un isomorphisme d’algèbres de l’algèbre Coïnd$^G_H$(Coïnd$^H_N(E)$) sur Coïnd$^G_N(E)$ dont la réciproque envoie un élément $\beta$ de $\mathscr{F}_N(G,E)$ sur l’application $\alpha$ définie par la relation $\alpha (g)(h) =\beta (hg)$ pour $g\in G$ et $h\in H$.
 
 On suppose maintenant donnés un groupe fini G, une K-algèbre L commutative, de degré fini et réduite (V, p. 33), munie en outre d’une action de G donnée par un homomorphisme $\lambda$ de G dans Aut$_K(L)$. Pour $x\in L$ et $g\in G$, on note $g.x$ le transformé de $x$ par l’automorphisme$\lambda (g)$ de L. Soit $\mathscr{S}$ l’ensemble des idéaux maximaux de L ; on note $g.\mathfrak{m}$ le transformé d’un élément $\mathfrak{m}$ de $\mathscr{S}$ par l’automorphisme $\lambda (g)$ de L. C’est un élément de $\mathscr{S}$. Pour tout $\mathfrak{m}$ de $\mathscr{S}$, le corps $L/\mathfrak{m}$ est une extension finie de K. On note $\pi_{\mathfrak{m}}: L\rightarrow L/\mathfrak{m}$ et $G_{\mathfrak{m}}$ le stabilisateur de $\mathfrak{m}$ dans G, c’est-à-dire l’ensemble des $g\in G$ tels que $g\mathfrak{m}=\mathfrak{m}$; la K-algèbre $L/\mathfrak{m}$ est munie d’une action de $G_{\mathfrak{m}}$ via l’homomorphisme $\lambda_{\mathfrak{m}}$ de $G_{\mathfrak{m}}$ dans Aut$_K(L/\mathfrak{m})$ qui, à un élément $h$ de $G_{\mathfrak{m}}$, associe l’automorphisme de $L/\mathfrak{m}$ déduit de $\lambda (h)$ par passage aux quotients.
 
@@ -974,7 +974,7 @@ $[L_{\sigma}: K] =$ Card($\sigma$ )$[L/\mathfrak{m}: K]$.
 
 b) L’application $\pi :x\rightarrow (\pi_{\sigma}(x))_{\sigma\in\mathscr{O}}$ est un isomorphisme de $(K,G)$-algèbres de L sur $\prod_{\sigma\in\mathscr{O}}L_{\sigma}$.
 
-c) Notons $L^G$ (resp. $L^G_{\sigma})$la sous-algèbre de L (resp. $L_{\sigma})$des éléments invariants sous l’action de G dans L (resp. $L_{\sigma})$. Alors $\pi$ induit un isomorphisme de $L^G$ sur $\prod_{\sigma\in\mathscr{O}}L^G_{\sigma}$.
+c) Notons $L^G$ (resp. $L^G_{\sigma}$)la sous-algèbre de L (resp. $L_{\sigma}$)des éléments invariants sous l’action de G dans L (resp. $L_{\sigma}$). Alors $\pi$ induit un isomorphisme de $L^G$ sur $\prod_{\sigma\in\mathscr{O}}L^G_{\sigma}$.
 
 Comme l’algèbre L est réduite et de degré fini, l’intersection des idéaux maximaux de L est réduite à 0 (VIII, p. 169, cor. 2). De plus si $\mathfrak{m}$ et $\mathfrak{m}'$ sont deux idéaux maximaux de L distincts, on a $\mathfrak{m}+\mathfrak{m}'= L$. D’après la prop. 10 de I, p. 105, l’application canonique de L dans $\prod_{\mathfrak{m}\in\mathscr{S}}L/\mathfrak{m}$ est un isomorphisme de même que l’application canonique de $L/\mathfrak{a}_{\sigma}$ dans $\prod_{\mathfrak{m}\in\sigma}L/\mathfrak{m}$, pour tout $\sigma \in \mathscr{O}$. L’assertion a) en résulte. Comme $\mathscr{O}$ est une partition de $\mathscr{S}$, l’assertion b) en découle et c) est une conséquence immédiate de b).
 
@@ -1010,7 +1010,7 @@ est un isomorphisme de $(K,G)$-algèbres.
 
 Comme L est étale, l’application $\psi$ est un isomorphisme de Ω-algèbres (V, p. 29, prop. 2 et V, p. 28, prop. 1, c)). On a les relations
 
-$\psi$((Id $\otimes \lambda (g))(\xi \otimes x)) = (\xi (\chi \circ \lambda (g))(x))_{\chi\in\mathscr{H}}$
+$\psi$((Id $\otimes \lambda (g)$)$(\xi \otimes x)$) $= (\xi (\chi \circ \lambda (g))(x))_{\chi\in\mathscr{H}}$
 
 pour $\xi \in \Omega ,x\in L$ et $g\in G$. Donc $\psi$ est un morphisme de $(\Omega$, G)-algèbres.
 
@@ -1018,7 +1018,7 @@ pour $\xi \in \Omega ,x\in L$ et $g\in G$. Donc $\psi$ est un morphisme de $(\Om
 
 Soit G un groupe fini et soit L une K-algèbre commutative, de degré fini et réduite munie d’une action de G donnée par un homomorphisme injectif $\lambda$ de G dans Aut$_K(L)$. Alors, les conditions suivantes sont équivalentes :
 
-(i) Il existe un sous-groupe H de G, une extension galoisienne E de degré fini de K, un isomorphisme de H sur Gal(E$/K)$et un isomorphisme de $(K,G)$-algèbres de L sur Coïnd$^G_H(E)$;
+(i) Il existe un sous-groupe H de G, une extension galoisienne E de degré fini de K, un isomorphisme de H sur Gal(E$/K$)et un isomorphisme de $(K,G)$-algèbres de L sur Coïnd$^G_H(E)$;
 
 (ii) L’algèbre L est étale et $\mathscr{H}$ est un G-ensemble principal homogène (I, p. 58, déf. 7) ;
 
@@ -1054,11 +1054,11 @@ L’ensemble $\mathscr{K}$ des K-homomorphismes de F dans Ω est de cardinal [F 
 
 L’implication (iv)$\Rightarrow$(v) est immédiate.
 
-Démontrons l’implication (v)$\Rightarrow$(vi). L’algèbre L est réduite. Par le lemme 8, c), G opère transitivement sur l’ensemble $\mathscr{S}$ des idéaux maximaux de L. Soit $\mathfrak{m}$ un élément de $\mathscr{S}$. Par le lemme 9, comme $\bigcap_{\mathfrak{n}\in\mathscr{S}}\mathfrak{n}=\{0\}$, l’algèbre L est isomorphe à l’algèbre Coïnd$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$. L’algèbre des invariants de $G_{\mathfrak{m}}$ dans $L/\mathfrak{m}$ coïncide donc avec K par le lemme 7, c). Donc l’homomorphisme $\lambda_{\mathfrak{m}}$ de $G_{\mathfrak{m}}$ sur Gal((L$/\mathfrak{m})/K)$ est surjectif. Par la lemme 7, on a en outre
+Démontrons l’implication (v)$\Rightarrow$(vi). L’algèbre L est réduite. Par le lemme 8, c), G opère transitivement sur l’ensemble $\mathscr{S}$ des idéaux maximaux de L. Soit $\mathfrak{m}$ un élément de $\mathscr{S}$. Par le lemme 9, comme $\bigcap_{\mathfrak{n}\in\mathscr{S}}\mathfrak{n}=\{0\}$, l’algèbre L est isomorphe à l’algèbre Coïnd$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$. L’algèbre des invariants de $G_{\mathfrak{m}}$ dans $L/\mathfrak{m}$ coïncide donc avec K par le lemme 7, c). Donc l’homomorphisme $\lambda_{\mathfrak{m}}$ de $G_{\mathfrak{m}}$ sur Gal((L$/\mathfrak{m}$)$/K$) est surjectif. Par la lemme 7, on a en outre
 
-Card(G) $= [L : K] = (G : G_{\mathfrak{m}})[L/\mathfrak{m}: K]$ Donc Card(G$_{\mathfrak{m}}) = [L/\mathfrak{m}: K]$ et l’homomorphisme $\lambda_{\mathfrak{m}}$ est injectif.
+Card(G) $= [L : K] = (G : G_{\mathfrak{m}})[L/\mathfrak{m}: K]$ Donc Card(G$_{\mathfrak{m}}$) $= [L/\mathfrak{m}: K]$ et l’homomorphisme $\lambda_{\mathfrak{m}}$ est injectif.
 
-Il reste à démontrer l’implication (vi)$\Rightarrow$(i). Soit $\mathfrak{m}$ un idéal maximal de L. Par le lemme 9, l’algèbre L est isomorphe à l’algèbre Coïnd$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$ en tant que $(K$, G)-algèbre. Comme $G_{\mathfrak{m}}$ agit fidèlement dans $L/\mathfrak{m}$ et admet K comme sous-corps des invariants, l’homomorphisme de groupes $\lambda_{\mathfrak{m}}$ définit un isomorphisme de $G_{\mathfrak{m}}$ sur Gal((L$/\mathfrak{m})/K)$.
+Il reste à démontrer l’implication (vi)$\Rightarrow$(i). Soit $\mathfrak{m}$ un idéal maximal de L. Par le lemme 9, l’algèbre L est isomorphe à l’algèbre Coïnd$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$ en tant que $(K$, G)-algèbre. Comme $G_{\mathfrak{m}}$ agit fidèlement dans $L/\mathfrak{m}$ et admet K comme sous-corps des invariants, l’homomorphisme de groupes $\lambda_{\mathfrak{m}}$ définit un isomorphisme de $G_{\mathfrak{m}}$ sur Gal((L$/\mathfrak{m}$)$/K$).
 
 #### Remarque 2 {#alg-viii-s16-n7-rem-2 .statement tag=00J2}
 
@@ -1096,7 +1096,7 @@ $$
 
 pour $0\leqslant i < n$. L’application $\lambda :\zeta \rightarrow \lambda (\zeta )$ est un homomorphisme injectif de $\mu_n$ dans Aut$_K(L)$ et l’anneau des invariants du groupe $\lambda (\mu_n)$ dans L est égal à $K.1$. Comme le cardinal de $\mu_n$ est égal à $n= [L : K]$, l’algèbre L munie de l’action $\lambda$ est une algèbre galoisienne (VIII, p. 303, th. 2, (v)).
 
-Soit $r$ le plus petit entier strictement positif tel que $a^r$ appartienne à $K^{*n}$; c’est un diviseur de $n$ et il existe un élément $b$ de $K^*$ tel que $a=b^{n/r}$. Alors (V, p. 87, remarque), le polynôme $X^r-b$ est irréductible et l’on a $X^n-a=\prod_{\zeta\in\mu_{n/r}}(X^r-\zeta b)$. Soit E le corps $K[Y]/(Y^r-b)$ et soit $y$ la classe de Y dans E. Il existe un isomorphisme $\theta$ de $\mu_{n/r}$ sur Gal(E$/K)$, caractérisé par la relation $\theta (\xi )(y) =\xi y$ (V, p. 86, exemple 3). On vérifie alors que l’algèbre galoisienne L est isomorphe à la $(K, \mu_n$)-algèbre Coïnd$^{\mu_n}_{\mu_{n/r}}(E)$.
+Soit $r$ le plus petit entier strictement positif tel que $a^r$ appartienne à $K^{*n}$; c’est un diviseur de $n$ et il existe un élément $b$ de $K^*$ tel que $a=b^{n/r}$. Alors (V, p. 87, remarque), le polynôme $X^r-b$ est irréductible et l’on a $X^n-a=\prod_{\zeta\in\mu_{n/r}}(X^r-\zeta b)$. Soit E le corps $K[Y]/(Y^r-b)$ et soit $y$ la classe de Y dans E. Il existe un isomorphisme $\theta$ de $\mu_{n/r}$ sur Gal(E$/K$), caractérisé par la relation $\theta (\xi )(y) =\xi y$ (V, p. 86, exemple 3). On vérifie alors que l’algèbre galoisienne L est isomorphe à la $(K, \mu_n$)-algèbre Coïnd$^{\mu_n}_{\mu_{n/r}}(E)$.
 
 #### Exemple 2 {#alg-viii-s16-n7-exa-2 .statement tag=00J9}
 
@@ -1114,7 +1114,7 @@ d’après V, p. 89, formule (1). Pour tout $j$ dans P, il existe un unique homo
 
 Pour décrire la structure de L on doit distinguer deux cas :
 
-a) On a $\xi \notin K :$ alors le polynôme $f(X)$ est irréductible dans K[X] (V, p. 89, exemple 3). Dans ce cas L est une extension cyclique de degré $p$ de K et $\gamma$ est un isomorphisme de P sur Gal(L$/K)$.
+a) On a $\xi \notin K :$ alors le polynôme $f(X)$ est irréductible dans K[X] (V, p. 89, exemple 3). Dans ce cas L est une extension cyclique de degré $p$ de K et $\gamma$ est un isomorphisme de P sur Gal(L$/K$).
 
 b) On a $\xi \in K :$ alors l’application $\psi :y\rightarrow (\chi_j(y))_{j\in P}$ est un isomorphisme de l’algèbre L sur l’algèbre produit $K^P$; de plus, $\psi \circ \gamma (k)\circ \psi^{-1}$ est l’automorphisme $(x_j)_{j\in P}\rightarrow (x_{j+k})_{j\in P}$ de $K^P$ pour tout $k\in P$.
 
@@ -1142,13 +1142,13 @@ Soient $G_1$ et $G_2$ des groupes. Soient $L_1$ et $L_2$ des algèbres galoisien
 
 On raisonne comme précédemment au moyen des remarques suivantes : si $L_1$ et $L_2$ sont étales, il en est de même de l’algèbre $L = L_1\otimes_KL_2$ (V, p. 31, cor. 1) et l’on a les égalités
 
-$[L : K] = [L_1: K][L_2: K]$ et Card(G) = Card(G$_1)$ Card(G$_2)$.
+$[L : K] = [L_1: K][L_2: K]$ et Card(G) = Card(G$_1$) Card(G$_2$).
 
 De plus si $L^{G_i}_i$ désigne l’anneau des invariants de $G_i$ dans $L_i$ alors il résulte du lemme suivant que $L^{G_1}_1\otimes_KL^{G_2}_2$ est l’anneau des invariants de $G_1\times G_2$ dans $L_1\otimes_KL_2$.
 
 #### Lemme 11 {#alg-viii-s16-lem-11 .statement tag=00JD}
 
-Soient $G_1$ et $G_2$ des groupes et soient $W_1$ et $W_2$ des K-espaces vectoriels. On munit $W_1$ (resp. $W_2)$d’une action de $G_1$ (resp. $G_2)$donnée par un homomorphisme de groupes $\rho_1: G_1\rightarrow$ Aut$_K(W_1)$ (resp. $\rho_2: G_2\rightarrow$ Aut$_K(W_2))$. On considère l’homomorphisme de groupes
+Soient $G_1$ et $G_2$ des groupes et soient $W_1$ et $W_2$ des K-espaces vectoriels. On munit $W_1$ (resp. $W_2$)d’une action de $G_1$ (resp. $G_2$)donnée par un homomorphisme de groupes $\rho_1: G_1\rightarrow$ Aut$_K(W_1)$ (resp. $\rho_2: G_2\rightarrow$ Aut$_K(W_2)$). On considère l’homomorphisme de groupes
 
 $\rho_1\otimes \rho_2: G_1\times G_2\longrightarrow$ Aut$_K(W_1\otimes_KW_2)$
 
@@ -1384,17 +1384,17 @@ les homomorphismes canoniques. D’après la propriété universelle de $\mathbf
 
 Soit $\mathscr{S}$ l’ensemble des idéaux maximaux de L. On définit
 
-Br(L$/K) =\bigcap_{\mathfrak{m}\in\mathscr{S}}$ Ker($r_{(L/\mathfrak{m})/K}$),
+Br(L$/K$) $=\bigcap_{\mathfrak{m}\in\mathscr{S}}$ Ker($r_{(L/\mathfrak{m})/K}$),
 
-où $r_{(L/\mathfrak{m})/K}:$ Br(K) $\rightarrow$ Br(L$/\mathfrak{m})$est l’homomorphisme d’extension des scalaires (VIII, p. 277).
+où $r_{(L/\mathfrak{m})/K}:$ Br(K) $\rightarrow$ Br(L$/\mathfrak{m}$)est l’homomorphisme d’extension des scalaires (VIII, p. 277).
 
 #### Théorème 5 {#alg-viii-s16-thm-5 .statement tag=00JM}
 
 Il existe un isomorphisme de groupes
 
-Ψ : Ex$_{\tau}(G,L^*)\longrightarrow$ Br(L$/K)$
+Ψ : Ex$_{\tau}(G,L^*)\longrightarrow$ Br(L$/K$)
 
-qui à la classe de toute $\tau$-extension $\mathscr{E}$ de G par $L^*$ associe la classe dans Br(L$/K)$ de l’algèbre $\mathbf{A}[\mathscr{E}; L]$.
+qui à la classe de toute $\tau$-extension $\mathscr{E}$ de G par $L^*$ associe la classe dans Br(L$/K$) de l’algèbre $\mathbf{A}[\mathscr{E}; L]$.
 
 Pour définir Ψ et vérifier que c’est une bijection, il s’agit d’établir les points suivants :
 
@@ -1402,7 +1402,7 @@ a) Si $\mathscr{E}$ et $\mathscr{E}'$ sont des $\tau$-extensions isomorphes de G
 
 b) Réciproquement, si les algèbres $\mathbf{A}[\mathscr{E}; L]$ et $\mathbf{A}[\mathscr{E}'; L]$ sont isomorphes, les $\tau$-extensions $\mathscr{E}$ et $\mathscr{E}'$ de G par $L^*$ sont isomorphes ;
 
-c) Dans toute classe appartenant à Br(L$/K)$, il y a une algèbre E contenant L comme sous-algèbre commutative maximale ;
+c) Dans toute classe appartenant à Br(L$/K$), il y a une algèbre E contenant L comme sous-algèbre commutative maximale ;
 
 d) Si E est une algèbre simple et centrale de rang fini sur K et contenant L comme sous-algèbre commutative maximale, alors il existe une $\tau$-extension $\mathscr{E}$ de G par $L^*$ telle que E soit isomorphe à $\mathbf{A}[\mathscr{E}; L]$.
 
@@ -1422,7 +1422,7 @@ pour $\alpha \in L^*,\beta \in L$ et $\gamma \in \Gamma$. La proposition 12 de V
 
 #### Remarque 1 {#alg-viii-s16-n10-rem-1 .statement tag=00JN}
 
-Si L est une algèbre étale sur K et G le groupe des automorphismes de L, il n’est pas toujours vrai que l’algèbre $\mathbf{A}[\mathscr{E}; L]$ soit simple et centrale (par exemple, on peut prendre $L = K^n$ et $G =\mathfrak{S}_n)$.
+Si L est une algèbre étale sur K et G le groupe des automorphismes de L, il n’est pas toujours vrai que l’algèbre $\mathbf{A}[\mathscr{E}; L]$ soit simple et centrale (par exemple, on peut prendre $L = K^n$ et $G =\mathfrak{S}_n$).
 
 #### Remarque 2 {#alg-viii-s16-n10-rem-2 .statement tag=00JO}
 
@@ -1444,11 +1444,11 @@ $$
 \varphi^g(a) =\gamma \varphi (a)\gamma^{-1}
 $$
 
-pour tout $a\in A$. La classe de cette extension est l’image inverse par Ψ de la classe de A dans Br(L$/K)$.
+pour tout $a\in A$. La classe de cette extension est l’image inverse par Ψ de la classe de A dans Br(L$/K$).
 
 #### Corollaire {#alg-viii-s16-n10-cor-1 .statement tag=00JP}
 
-L’application $\Phi_{L/K}= \Theta \circ \Psi^{-1}$ définit un isomorphisme de groupes de Br(L$/K)$sur $H^2(G,L^*)$.
+L’application $\Phi_{L/K}= \Theta \circ \Psi^{-1}$ définit un isomorphisme de groupes de Br(L$/K$)sur $H^2(G,L^*)$.
 
 Soient $K'$ une extension de K et $\varphi : K'\rightarrow L$ un morphisme de K-algèbres. L’ensemble H des éléments $h$ de G tels que $\lambda (h)\circ \varphi =\varphi$ est un sous-groupe de G et la $K'$-algèbre-L munie de la restriction de $\lambda$ à H est une algèbre galoisienne sur $K'$.
 
@@ -1456,11 +1456,11 @@ Soient $K'$ une extension de K et $\varphi : K'\rightarrow L$ un morphisme de K-
 
 Le diagramme
 
-Br(L$/K)^{\Phi_{L/K}}/$/ $H^2(G,L^*)$
+Br(L$/K$)$^{\Phi_{L/K}}/$/ $H^2(G,L^*)$
 
 $r_{K'/K}$ Res$^G_H$
 
-Br(L$/K')^{\Phi_{L/K'}}/$/ $H^2(H,L^*)$
+Br(L$/K'$)$^{\Phi_{L/K'}}/$/ $H^2(H,L^*)$
 
 est commutatif
 
@@ -1472,7 +1472,7 @@ Cela resulte de la prop. 7 de VIII, p. 295 et de la prop. 13 de VIII, p. 311.
 
 Soit K un corps commutatif et soit A une algèbre centrale, simple et de degré fini sur K. Soit L une extension séparable de degré fini de K qui déploie l’algèbre A. Alors [L : K][A] est nul dans Br(K).
 
-Il existe une extension M de L qui est une extension galoisienne de degré fini de K (V, p. 55, prop. 2). La classe [A] de A dans le groupe de Brauer de K appartient au sous-groupe Br(M$/K)$. Soit G le groupe de Galois de M sur K et soit $\alpha$ l’image de [A] dans $H^2(G,M^*)$ (VIII, p. 316, cor.). Soit H le groupe de Galois de M sur L. Alors H est un sous-groupe d’indice [L : K] dans G (V, p. 66, cor. 5). Comme Res$^G_H(\alpha ) = \Phi_{M/L}(A_{(L)})$ (prop. 14), on a Res$^G_H(\alpha ) = 0$. Par la prop. 8 de VIII, p. 298, on en déduit que $[L : K]\alpha = 0$, puis [L : K][A] = 0.
+Il existe une extension M de L qui est une extension galoisienne de degré fini de K (V, p. 55, prop. 2). La classe [A] de A dans le groupe de Brauer de K appartient au sous-groupe Br(M$/K$). Soit G le groupe de Galois de M sur K et soit $\alpha$ l’image de [A] dans $H^2(G,M^*)$ (VIII, p. 316, cor.). Soit H le groupe de Galois de M sur L. Alors H est un sous-groupe d’indice [L : K] dans G (V, p. 66, cor. 5). Comme Res$^G_H(\alpha ) = \Phi_{M/L}(A_{(L)})$ (prop. 14), on a Res$^G_H(\alpha ) = 0$. Par la prop. 8 de VIII, p. 298, on en déduit que $[L : K]\alpha = 0$, puis [L : K][A] = 0.
 
 Soit K un corps commutatif et soit A une algèbre centrale, simple et de degré fini sur K. Alors A est isomorphe à une algèbre de la forme $\mathbf{M}_n$(D), où D est un corps de centre K et [A] = [D] dans Br(K). Le degré réduit de D ne dépend que de A. On appelle indice de A ce degré réduit. L’indice de A divise donc le degré réduit de A. On appelle exposant de A l’ordre de la classe de A dans le groupe de Brauer de K.
 
@@ -1494,7 +1494,7 @@ Soit K un corps parfait de caractéristique $p$ et soit A une algèbre centrale 
 
 Il suffit de traiter le cas où $p$ est strictement positif.
 
-Démontrons dans ce cas que le groupe de Brauer de K ne contient pas d’élément d’ordre $p$. Pour toute extension M galoisienne de degré fini sur K, le corps M est parfait (V, p. 35, prop. 2). Donc l’élévation à la puissance $p$ est un automorphisme du groupe $M^*$. Il en résulte que la multiplication par $p$ est un automorphisme du groupe $H^2$(Gal(M$/K),M^*)$ qui est isomorphe à Br(M$/K)$.
+Démontrons dans ce cas que le groupe de Brauer de K ne contient pas d’élément d’ordre $p$. Pour toute extension M galoisienne de degré fini sur K, le corps M est parfait (V, p. 35, prop. 2). Donc l’élévation à la puissance $p$ est un automorphisme du groupe $M^*$. Il en résulte que la multiplication par $p$ est un automorphisme du groupe $H^2$(Gal(M$/K$)$,M^*$) qui est isomorphe à Br(M$/K$).
 
 Par conséquent, l’ordre de [A] est premier à $p$ et, par le corollaire 2, son indice n’est pas divisible par $p$.
 

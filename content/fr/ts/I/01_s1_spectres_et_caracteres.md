@@ -45,7 +45,7 @@ subsections:
       pdf_page: 24
 statements: 33
 exercises: 8
-content_sha256: 0c27f411f0ce6c8572cd94251b968e53245daa315b0cda2865409924ee87dc09
+content_sha256: 705ff1d1d239ae09b6a762f05fe80c3ebe2750db91e7b18bf20b0b956e8064c8
 ---
 
 ## § 1. SPECTRES ET CARACTÈRES
@@ -236,7 +236,7 @@ Soit A une algèbre unifère commutative sur K. On appelle caractère unifère u
 
 Lorsqu’aucune confusion ne peut en résulter, on dira simplement caractère au lieu de caractère unifère. L’ensemble des caractères unifères de A est noté $\mathsf{X}(A)$. Si A est l’algèbre nulle, alors $\mathsf{X}(A)$ est vide.
 
-Soient A et B des algèbres unifères commutatives sur K et $h$ un morphisme unifère de A dans B. L’application $\chi \mapsto \chi \circ h$ de $\mathsf{X}(B)$ dans $\mathsf{X}(A)$ se note $\mathsf{X}(h)$. Si $k$ est un morphisme de B dans une algèbre unifère commutative, on a $\mathsf{X}(k\circ h) =\mathsf{X}(h)\circ \mathsf{X}(k)$. L’application $\mathsf{X}$(Id$_A)$ est l’application identique de $\mathsf{X}(A)$.
+Soient A et B des algèbres unifères commutatives sur K et $h$ un morphisme unifère de A dans B. L’application $\chi \mapsto \chi \circ h$ de $\mathsf{X}(B)$ dans $\mathsf{X}(A)$ se note $\mathsf{X}(h)$. Si $k$ est un morphisme de B dans une algèbre unifère commutative, on a $\mathsf{X}(k\circ h) =\mathsf{X}(h)\circ \mathsf{X}(k)$. L’application $\mathsf{X}$(Id$_A$) est l’application identique de $\mathsf{X}(A)$.
 
 Si $h$ est surjectif, $\mathsf{X}(h)$ est une bijection de $\mathsf{X}(B)$ sur l’ensemble des caractères de A qui s’annulent sur le noyau de $h$.
 
@@ -360,7 +360,7 @@ Soit $\pi$ une représentation irréductible, non triviale, de A dans E. Pour to
 
 Le sous-espace $\pi (A)\xi$ de E est stable pour $\pi (A)$. Supposons qu’il soit nul. Le sous-espace non nul $K\xi$ de E serait alors stable par $\pi (A)$, et donc égal à E ; mais cela impliquerait que $\pi$ est la représentation nulle. On a donc $\pi (A)\xi = E$.
 
-Soit $\pi$ une représentation irréductible, non triviale, de A dans E. D’après ce lemme, l’annulateur R de $\xi$ dans A est un idéal à gauche régulier (A, VIII, p. 425, n$^o1)$ de A, et la représentation $\pi$ est équivalente à la représentation définie par le A-pseudomodule $A/R$. Comme $\pi$ est irréductible, l’idéal R est un idéal à gauche maximal régulier.
+Soit $\pi$ une représentation irréductible, non triviale, de A dans E. D’après ce lemme, l’annulateur R de $\xi$ dans A est un idéal à gauche régulier (A, VIII, p. 425, n$^o1$) de A, et la représentation $\pi$ est équivalente à la représentation définie par le A-pseudomodule $A/R$. Comme $\pi$ est irréductible, l’idéal R est un idéal à gauche maximal régulier.
 
 #### Définition 7 {#ts-i-s1-def-7 .statement tag=025G}
 

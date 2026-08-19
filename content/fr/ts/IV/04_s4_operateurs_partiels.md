@@ -53,7 +53,7 @@ subsections:
       pdf_page: 268
 statements: 74
 exercises: 24
-content_sha256: 96ef3ac9f30b1f427523f178fdbb0a0651fced8caf903400129f0f1692ac8da2
+content_sha256: 94cea131b830f815670e97134bb35937c5204c12b48bdd755e3a2aaecb223722
 ---
 
 ## § 4. OPÉRATEURS PARTIELS
@@ -106,7 +106,7 @@ Par ailleurs, on définit les notions suivantes :
 
 (ii) Soit $v$ un opérateur partiel injectif de F dans E. La correspondance réciproque $v^{-1}= (\Gamma^{-1},E,F)$ de $v$ est alors un opérateur partiel tel que dom($v^{-1}$) $=$ Im($v$). On dit que $v^{-1}$ est l’opérateur partiel réciproque de $v$. On a les égalités $v\circ v^{-1}= 1_{dom(v^{-1})}$ dans $\mathscr{P}(E)$ et $v^{-1}\circ v= 1_{dom(v)}$ dans $\mathscr{P}(F)$. L’opérateur partiel $v^{-1}$ est injectif et on a $(v^{-1})^{-1}=v$.
 
-(iii) Soient E, F et G des espaces vectoriels. Soit $u$ (resp. $v)$ un opérateur partiel injectif de E dans F (resp. de F dans G). Alors l’opérateur partiel $v\circ u$ est injectif et $(v\circ u)^{-1}=u^{-1}\circ v^{-1}$.
+(iii) Soient E, F et G des espaces vectoriels. Soit $u$ (resp. $v$) un opérateur partiel injectif de E dans F (resp. de F dans G). Alors l’opérateur partiel $v\circ u$ est injectif et $(v\circ u)^{-1}=u^{-1}\circ v^{-1}$.
 
 (iv) Si $u$ et $v$ sont des opérateurs partiels de E dans F, on dit que $v$ est une extension de $u$, et on note $u\subset v$, si le graphe de $u$ est contenu dans le graphe de $v$. Cela implique que dom($u$)$\subset$ dom($v$) et que $u$ est la réduction de $v$ à dom($u$). La relation « $u\subset v$ » est une relation d’ordre dans $\mathscr{P}(E; F)$. On a par exemple $au\subset ua$ pour tout $a\in K$ et tout $u\in \mathscr{P}(E; F)$.
 
@@ -120,7 +120,7 @@ Soit G un espace vectoriel sur K. Pour tous $u$ et $v$ dans $\mathscr{P}(E; F)$ 
 
 Soit $v$ un opérateur partiel de E dans F. On a $u\subset v$ si et seulement si $u_{(L)}\subset v_{(L)}$.
 
-(viii) Soient $E_1, F_1, E_2, F_2$ des K-espaces vectoriels. Soit $u$ (resp. $v)$ un opérateur partiel de $E_1$ dans $F_1$ (resp. de $E_2$ dans $F_2)$. On note $u\otimes v$ l’opérateur partiel de $E_1\otimes F_1$ dans $E_2\otimes F_2$ de domaine dom($u$)$\otimes$dom($v$) tel que $(u\otimes v)(x\otimes y) =u(x)\otimes v(y)$ pour tout $(x, y)\in E_1\times E_2$.
+(viii) Soient $E_1, F_1, E_2, F_2$ des K-espaces vectoriels. Soit $u$ (resp. $v$) un opérateur partiel de $E_1$ dans $F_1$ (resp. de $E_2$ dans $F_2$). On note $u\otimes v$ l’opérateur partiel de $E_1\otimes F_1$ dans $E_2\otimes F_2$ de domaine dom($u$)$\otimes$dom($v$) tel que $(u\otimes v)(x\otimes y) =u(x)\otimes v(y)$ pour tout $(x, y)\in E_1\times E_2$.
 
 ### 2. Opérateurs fermés, fermables et à domaine dense
 
@@ -134,7 +134,7 @@ On dit que $u$ est un opérateur à domaine dense si le domaine de $u$ est dense
 
 On dit que $u$ est fermé si le graphe de $u$ est fermé dans l’espace vectoriel topologique $E\times F$. On dit que $u$ est fermable s’il possède une extension fermée.
 
-Soient E, F et G des espaces vectoriels topologiques sur K. Toute extension d’un opérateur $u\in \mathscr{P}(E; F)$ à domaine dense est à domaine dense. De plus, si $v\in \mathscr{L}(E; F)$, alors $u+v$ est un opérateur à domaine dense. Si $v: F\rightarrow G$ (resp. $w: G\rightarrow E)$ est un isomorphisme d’espaces vectoriels topologiques, alors $v\circ u$ (resp $u\circ w)$ est un opérateur à domaine dense.
+Soient E, F et G des espaces vectoriels topologiques sur K. Toute extension d’un opérateur $u\in \mathscr{P}(E; F)$ à domaine dense est à domaine dense. De plus, si $v\in \mathscr{L}(E; F)$, alors $u+v$ est un opérateur à domaine dense. Si $v: F\rightarrow G$ (resp. $w: G\rightarrow E$) est un isomorphisme d’espaces vectoriels topologiques, alors $v\circ u$ (resp $u\circ w$) est un opérateur à domaine dense.
 
 #### Exemple {#ts-iv-s4-n2-exa-1 .statement tag=032L}
 
@@ -148,9 +148,9 @@ Soient E et F des espaces vectoriels topologiques sur K.
 
 Soient E et F des espaces vectoriels topologiques sur K. Un opérateur partiel $u$ de E dans F est fermable si et seulement si l’adhérence du graphe $\Gamma_u$ de $u$ dans $E\times F$ est un graphe fonctionnel. Il existe alors un unique opérateur partiel $v$ de E dans F dont le graphe est $\overline{\Gamma}_u$, et c’est la plus petite extension fermée de $u$.
 
-Si l’adhérence du graphe de $u$ dans $E\times F$ est un graphe fonctionnel, c’est le graphe d’un opérateur partiel, et celui-ci est une extension fermée de $u$, qui est donc fermable. Réciproquement, supposons que $u\subset w$ avec $w$ fermé. L’adhérence $\Gamma_u$ du graphe de $u$ dans $E\times F$ est contenue dans $\Gamma_w$, donc $\Gamma_u$ est un graphe fonctionnel.
+Si l’adhérence du graphe de $u$ dans $E\times F$ est un graphe fonctionnel, c’est le graphe d’un opérateur partiel, et celui-ci est une extension fermée de $u$, qui est donc fermable. Réciproquement, supposons que $u\subset w$ avec $w$ fermé. L’adhérence $\overline{\Gamma}_u$ du graphe de $u$ dans $E\times F$ est contenue dans $\Gamma_w$, donc $\Gamma_u$ est un graphe fonctionnel.
 
-La dernière assertion résulte du fait que si $w$ est une extension fermée de $u$, alors le graphe de $w$ contient $\Gamma_u$.
+La dernière assertion résulte du fait que si $w$ est une extension fermée de $u$, alors le graphe de $w$ contient $\overline{\Gamma}_u$.
 
 #### Définition 3 {#ts-iv-s4-def-3 .statement tag=032N}
 
@@ -285,7 +285,7 @@ pour toute fonction $h'\in \mathscr{L}_K^2(X, \mu)$ dont la classe $\widetilde{h
 Soit C un sous-ensemble compact de X et soit $\varphi$ sa fonction caractéristique. Soit $n\in \mathbf{N}$. On note $\varphi_n$ la fonction caractéristique de l’ensemble $\mu$-intégrable $C_n$ des $x\in C$ tels que $|h(x)|\leqslant n$ et on pose $h'_n=\varphi_nh$. La classe de $h'_n$ appartient au domaine de $\widetilde{m}_{g'}$ puisque $|g'h'_n|\leqslant n\varphi$; il vient
 
 $$
-0 =\int_Xh h'_n(1 +|g|^2)d\mu=\int_X|h|^2\varphi_n(1 +|g|^2)d\mu
+0 =\int_X\overline{h}h'_n(1 +|g|^2)d\mu=\int_X|h|^2\varphi_n(1 +|g|^2)d\mu
 $$
 
 Cela implique que $h$ est nulle pour $\mu$-presque tout $x\in C_n$ et donc, puisque $n$ est arbitraire, que $h$ est nulle pour $\mu$-presque tout $x\in C$. Il en résulte enfin que $h$ est nulle $\mu$-presque partout, puisque C est quelconque et que $h$ est modérée (INT, V, p. 9, § 1, n$^o3$, cor.).
@@ -295,7 +295,7 @@ Considérons maintenant l’assertion b). Comme $|g|^2$ est localement $\mu$-int
 Soit $h\in \mathscr{L}_K^2(X, \mu)$ dont la classe $\widetilde{h}$ appartient à $E_{m_g}$ et est orthogonal à G. On a alors
 
 $$
-0 = (\widetilde{h}|\widetilde{h}')_{\widetilde{m}_g}=\int_Xh h'(1 +|g|^2)d\mu
+0 = (\widetilde{h}|\widetilde{h}')_{\widetilde{m}_g}=\int_Xh\overline{h}'(1 +|g|^2)d\mu
 $$
 
 pour tout $h'\in F$ de classe $\widetilde{h}'$. Compte tenu de l’hypothèse sur F, cela signifie que la mesure $h(1 +|g|^2)\cdot \mu$ est nulle, donc que $h$ est nulle $\mu$-presque partout puisque $h$ est modérée.
@@ -366,7 +366,7 @@ Soit $v\in \mathscr{P}(E; F)$ tel que $u\subset v$. On a alors $v^*\subset u^*$.
 
 Soit $v\in \mathscr{P}(E; F)$ tel que $u+v$ est à domaine dense. L’opérateur partiel $v$ est alors à domaine dense et on a $u^*+v^*\subset (u+v)^*$. En général, il n’y a pas égalité (exercice 9 de IV, p. 347). Si $v\in \mathscr{L}(E; F)$, alors $u+v$ est à domaine dense et $(u+v)^*=u^*+v^*$. C’est le cas, par exemple, si F = E et si $v=\lambda 1_E$ où $\lambda \in K$.
 
-Soit G un espace hilbertien sur K et soit $v\in \mathscr{P}(F; G)$ un opérateur à domaine dense. Si $v\circ u$ est à domaine dense, alors $u^*\circ v^*\subset (v\circ u)^*$. En général, il n’y a pas égalité (loc. cit.). Si $u$ (resp. $v)$ est un isomorphisme, alors $v\circ u$ est à domaine dense et on a $(v\circ u)^*=u^*\circ v^*$. C’est le cas, par exemple, si E = F (resp. F = G) et $u=\lambda 1_E$ (resp. $v=\lambda 1_F)$ où $\lambda \in K^*$.
+Soit G un espace hilbertien sur K et soit $v\in \mathscr{P}(F; G)$ un opérateur à domaine dense. Si $v\circ u$ est à domaine dense, alors $u^*\circ v^*\subset (v\circ u)^*$. En général, il n’y a pas égalité (loc. cit.). Si $u$ (resp. $v$) est un isomorphisme, alors $v\circ u$ est à domaine dense et on a $(v\circ u)^*=u^*\circ v^*$. C’est le cas, par exemple, si E = F (resp. F = G) et $u=\lambda 1_E$ (resp. $v=\lambda 1_F$) où $\lambda \in K^*$.
 
 On note $s$ l’isomorphisme isométrique d’espaces hilbertiens de $E\oplus F$ dans $F\oplus E$ défini par $s(x, y) = (-y, x)$ pour tout $(x, y)\in E\oplus F$.
 
@@ -406,7 +406,7 @@ Soit $u$ un opérateur à domaine dense de E dans F. Alors $u^*$ est à domaine 
 
 D’après la prop. 7, l’opérateur partiel $u^*$ est fermé. Supposons que le domaine $D^*$ de $u^*$ est dense dans F. Soit $u^{**}$ l’adjoint de $u^*$; c’est un opérateur partiel fermé de E dans F. Démontrons que $u\subset u^{**}$, ce qui impliquera que $u$ est fermable. Soit $x\in$ dom($u$). Par définition de $u^*$, les formes linéaires sur $D^*$ données par $y\mapsto  \langle x|u^*(y)\rangle$ et $y\mapsto  \langle u(x)|y\rangle$ sont égales ; on a donc $x\in$ dom($u^{**}$) et $u^{**}(x) =u(x)$, d’où l’assertion.
 
-Réciproquement, supposons que $u$ est fermable ; on a $\Gamma_{\overline{u}}= \Gamma_u$ (prop. 1 de IV, p. 228). Soit $y\in F$ un vecteur orthogonal à dom($u^*$). L’élément $(y,0)$ de $F\oplus E$ appartient alors à l’orthogonal du graphe de $u^*$. Or, d’après la prop. 7, a), on a
+Réciproquement, supposons que $u$ est fermable ; on a $\Gamma_{\overline{u}}=\overline{\Gamma}_u$ (prop. 1 de IV, p. 228). Soit $y\in F$ un vecteur orthogonal à dom($u^*$). L’élément $(y,0)$ de $F\oplus E$ appartient alors à l’orthogonal du graphe de $u^*$. Or, d’après la prop. 7, a), on a
 
 $$
 \Gamma^{\circ}_{u^*}= (s(\Gamma_u)^{\circ})^{\circ}=s(\Gamma_u) =s(\Gamma_u)
@@ -417,7 +417,7 @@ Il vient donc $(0, y)\in \Gamma_{\overline{u}}$, d’où $y=\overline{u}(0) = 0$
 Finalement, la prop. 7, appliquée à $u^*$, implique que
 
 $$
-\Gamma_{u^{**}}=s^{-1}(\Gamma^{\circ}_{u^*}) =s^{-1}(s(\Gamma^{\circ \circ}_u)) = \Gamma_u
+\Gamma_{u^{**}}=s^{-1}(\Gamma^{\circ}_{u^*}) =s^{-1}(s(\Gamma^{\circ \circ}_u)) =\overline{\Gamma}_u
 $$
 
 donc $u^{**}=\overline{u}$, puis $\overline{u}^*= (u^*)^{**}=\overline{u^*}=u^*$ comme $u^*$ est fermé.
@@ -492,9 +492,9 @@ $$
 -i\langle u(x_2)|y_1\rangle +\langle u(x_2)|y_2\rangle
 $$
 
-Si $y\in$ dom($u^*$)$_{(\mathbf{C})}$, on en déduit que $y\in$ dom(($u_{(\mathbf{C})}$)$^*)$ et que $u^*_{(\mathbf{C})}(y) = (u_{(\mathbf{C})})^*(y)$, donc $u^*_{(\mathbf{C})}\subset (u_{(\mathbf{C})})^*$.
+Si $y\in$ dom($u^*$)$_{(\mathbf{C})}$, on en déduit que $y\in$ dom(($u_{(\mathbf{C})}$)$^*$) et que $u^*_{(\mathbf{C})}(y) = (u_{(\mathbf{C})})^*(y)$, donc $u^*_{(\mathbf{C})}\subset (u_{(\mathbf{C})})^*$.
 
-Réciproquement, supposons que $y$ est dans dom(($u_{(\mathbf{C})}$)$^*)$. Si on prend $x_2= 0$ (resp. $x_1= 0)$ dans la formule ci-dessus, on vérifie que $y_1\in$ dom($u^*$) (resp. que $y_2\in$ dom($u^*$)), d’où $y\in$ dom($u^*$)$_{(\mathbf{C})}$.
+Réciproquement, supposons que $y$ est dans dom(($u_{(\mathbf{C})}$)$^*$). Si on prend $x_2= 0$ (resp. $x_1= 0$) dans la formule ci-dessus, on vérifie que $y_1\in$ dom($u^*$) (resp. que $y_2\in$ dom($u^*$)), d’où $y\in$ dom($u^*$)$_{(\mathbf{C})}$.
 
 L’assertion a) implique que $u_{(\mathbf{C})}$ est symétrique (resp. auto-adjoint) si $u$ l’est.
 
@@ -506,7 +506,7 @@ Réciproquement, supposons que $u_{(\mathbf{C})}$ est symétrique. La relation $
 
 Soit $v\in \mathscr{L}(F; E)$ une application linéaire continue injective de F dans E dont l’image est dense dans E. L’adjoint de $v$ est une application linéaire continue injective de E dans F et on a $(v^*)^{-1}= (v^{-1})^*$. En particulier, si E = F, l’endomorphisme $v$ est hermitien si et seulement si l’opérateur partiel $v^{-1}$ est auto-adjoint.
 
-L’opérateur partiel $v^{-1}$ est un opérateur fermé à domaine dense de E dans F (exemple 2 de IV, p. 228) et l’adjoint $v^*$ de $v$ est une application linéaire continue de E dans F ; elle est injective, puisque l’image de $v$ est dense dans E (EVT, V, p. 41, prop. 4). Soit $s$ (resp. $s')$ l’isomorphisme isométrique $(x, y)\mapsto (-y, x)$ de $E\oplus F$ sur $F\oplus E$ (resp. l’isomorphisme isométrique $(y, x)\mapsto (-x, y)$ de $F\oplus E$ sur $E\oplus F)$ et soit $\iota$ (resp. $\iota ')$ l’isomorphisme isométrique $(y, x)\mapsto (x, y)$ de $F\oplus E$ sur $E\oplus F$ (resp. l’isomorphisme isométrique $(x, y)\mapsto (y, x)$ de $E\oplus F$ sur $F\oplus E)$. On a alors $s\circ \iota =-\iota '\circ s'$, d’où
+L’opérateur partiel $v^{-1}$ est un opérateur fermé à domaine dense de E dans F (exemple 2 de IV, p. 228) et l’adjoint $v^*$ de $v$ est une application linéaire continue de E dans F ; elle est injective, puisque l’image de $v$ est dense dans E (EVT, V, p. 41, prop. 4). Soit $s$ (resp. $s'$) l’isomorphisme isométrique $(x, y)\mapsto (-y, x)$ de $E\oplus F$ sur $F\oplus E$ (resp. l’isomorphisme isométrique $(y, x)\mapsto (-x, y)$ de $F\oplus E$ sur $E\oplus F$) et soit $\iota$ (resp. $\iota '$) l’isomorphisme isométrique $(y, x)\mapsto (x, y)$ de $F\oplus E$ sur $E\oplus F$ (resp. l’isomorphisme isométrique $(x, y)\mapsto (y, x)$ de $E\oplus F$ sur $F\oplus E$). On a alors $s\circ \iota =-\iota '\circ s'$, d’où
 
 $$
 \Gamma_{(v^{-1})^*}=s(\Gamma_{v^{-1}})^{\circ}=s(\iota (\Gamma_v))^{\circ}=-\iota '(s'(\Gamma_v))^{\circ}=-\iota '(\Gamma_{v^*}) = \Gamma_{(v^*)^{-1}}
@@ -808,7 +808,7 @@ a) Le sous-ensemble Sp(R($u, \lambda$ ))$-\{0\}$ de $\mathbf{C}$ est l’image d
 
 b) Pour tout $\mu\not =\lambda$ dans $\mathbf{C}$, on a
 
-Ker($\mu1_E-u$) $=$ Ker(($\lambda -\mu$)$^{-1}1_E-R(u, \lambda ))$.
+Ker($\mu1_E-u$) $=$ Ker(($\lambda -\mu$)$^{-1}1_E-R(u, \lambda )$).
 
 Démontrons l’assertion a). Pour tout $\mu\not =\lambda$, on calcule
 
@@ -818,7 +818,7 @@ $$
 
 Puisque $\lambda  /\in$ Sp($u$) et $\mu\not =\lambda$, l’application linéaire $(\lambda -\mu)(\lambda 1_E-u)$ est une bijection de dom($u$) sur E. Par conséquent, cette formule implique que $\mu1_E-u$ est une bijection de dom($u$) sur E si et seulement si $(\lambda -\mu)^{-1}1_E-R(u, \lambda )$ est une bijection de E sur E, ce qui implique l’assertion.
 
-Démontrons b). Si $\mu\not =\lambda$ et $x\in$ Ker(($\lambda -\mu$)$^{-1}1_E-R(u, \lambda ))$, on a $x\in$ dom($u$) et la formule $1_E= (\lambda 1_E-u)\circ R(u, \lambda )$ implique que $x\in$ Ker($\mu1_E-u$). Réciproquement, si $x\in$ Ker($\mu1_E-u$) et $\mu\not =\lambda$, la formule $1_{dom(u)}= R(u, \lambda )\circ (\lambda 1_E-u)$ implique $R(u, \lambda )(x) = (\lambda -\mu)^{-1}x$.
+Démontrons b). Si $\mu\not =\lambda$ et $x\in$ Ker(($\lambda -\mu$)$^{-1}1_E-R(u, \lambda )$), on a $x\in$ dom($u$) et la formule $1_E= (\lambda 1_E-u)\circ R(u, \lambda )$ implique que $x\in$ Ker($\mu1_E-u$). Réciproquement, si $x\in$ Ker($\mu1_E-u$) et $\mu\not =\lambda$, la formule $1_{dom(u)}= R(u, \lambda )\circ (\lambda 1_E-u)$ implique $R(u, \lambda )(x) = (\lambda -\mu)^{-1}x$.
 
 #### Proposition 16 {#ts-iv-s4-prop-16 .statement tag=033T}
 
@@ -984,9 +984,9 @@ Soient E un espace de Banach complexe et $u$ un opérateur partiel fermé sur E.
 
 Soit U une composante connexe de PSp$_{\varepsilon}(u)$ qui ne rencontre pas Sp($u$). L’ensemble U est ouvert et fermé dans PSp$_{\varepsilon}(u)$, et son adhérence U dans $\mathbf{C}$ vérifie donc $U\cap$ PSp$_{\varepsilon}(u) = U$.
 
-Comme Sp($u$) est contenu dans PSp$_{\varepsilon}(u)$ et U ne rencontre pas Sp($u$), cette égalité démontre que l’ensemble U est disjoint de Sp($u$), donc contenu dans l’ensemble résolvant de $u$. De plus, elle implique que l’ensemble U - U ne rencontre pas PSp$_{\varepsilon}(u)$.
+Comme Sp($u$) est contenu dans PSp$_{\varepsilon}(u)$ et U ne rencontre pas Sp($u$), cette égalité démontre que l’ensemble U est disjoint de Sp($u$), donc contenu dans l’ensemble résolvant de $u$. De plus, elle implique que l’ensemble $\overline{U}-$ U ne rencontre pas PSp$_{\varepsilon}(u)$.
 
-On a donc $\|R(u, \lambda )\|\leqslant \varepsilon^{-1}$ pour tout $\lambda$ dans U - U, tandis que $\|R(u, \lambda )\|> \varepsilon^{-1}$ pour $\lambda \in U$. Si l’ensemble U est borné, son adhérence U est compacte et il existe $\lambda_0\in U$ tel que $\|R(u, \lambda )\|\leqslant \|R(u, \lambda_0)\|$ pour $\lambda \in U$. Ce qui précède implique que $\lambda_0\in U$, ce qui contredit le principe du maximum (VAR, R1, p. 29, 3.3.7) puisque la résolvante de $u$ est holomorphe dans l’ensemble résolvant de $u$ (prop. 14 de IV, p. 246).
+On a donc $\|R(u, \lambda )\|\leqslant \varepsilon^{-1}$ pour tout $\lambda$ dans $\overline{U}-$ U, tandis que $\|R(u, \lambda )\|> \varepsilon^{-1}$ pour $\lambda \in U$. Si l’ensemble U est borné, son adhérence $\overline{U}$ est compacte et il existe $\lambda_0\in \overline{U}$ tel que $\|R(u, \lambda )\|\leqslant \|R(u, \lambda_0)\|$ pour $\lambda \in U$. Ce qui précède implique que $\lambda_0\in U$, ce qui contredit le principe du maximum (VAR, R1, p. 29, 3.3.7) puisque la résolvante de $u$ est holomorphe dans l’ensemble résolvant de $u$ (prop. 14 de IV, p. 246).
 
 ### 9. Opérateurs de multiplication
 
@@ -1037,7 +1037,7 @@ Puisque le domaine de $m_g$ est dense dans $L^2(X, \mu)$, on en déduit que $(f 
 L’adjoint de $m_g$ est donc une extension de $m_{\overline{g}}$. De plus, on a
 
 $$
-\langle f|m_g(h)\rangle =\int_X\overline{f}\cdot (gh)d\mu=\int_Xf g h d\mu
+\langle f|m_g(h)\rangle =\int_X\overline{f}\cdot (gh)d\mu=\int_Xf\overline{g}h d\mu
 $$
 
 pour tout $f\in L^2(X, \mu)$ et $h\in$ dom($m_g$), ce qui démontre que la forme linéaire $h\mapsto  \langle f|m_g(h)\rangle$ est continue lorsque $m_{\overline{g}}(f)g$ appartient à $L^2(X, \mu)$. Par conséquent le domaine de $m_{\overline{g}}$ est contenu dans celui de $m^*_g$, ce qui conclut la preuve.
@@ -1104,7 +1104,7 @@ On note $\|x\|_u$ la norme d’un élément $x$ de l’espace hilbertien $E_u$. 
 
 #### Définition 10 {#ts-iv-s4-def-10 .statement tag=034A}
 
-Soit $u$ un opérateur symétrique fermé sur un espace hilbertien complexe E. Soient $E_+=$ Ker($u^*-i$) et $E_-=$ Ker($u^*+i$). Le couple $(E_+,E_-)$ de sous-espaces de dom($u^*$) est appelé le couple de carence de $u$. Les sous-espaces $E_+$ et $E_-$ sont des sous-espaces fermés de E (prop. 3 de IV, p. 229). Le couple (dim(E$_+)$, dim(E$_-))$ des dimensions hilbertiennes de ces sous-espaces est appelé l’ indice de carence de $u$.
+Soit $u$ un opérateur symétrique fermé sur un espace hilbertien complexe E. Soient $E_+=$ Ker($u^*-i$) et $E_-=$ Ker($u^*+i$). Le couple $(E_+,E_-)$ de sous-espaces de dom($u^*$) est appelé le couple de carence de $u$. Les sous-espaces $E_+$ et $E_-$ sont des sous-espaces fermés de E (prop. 3 de IV, p. 229). Le couple (dim(E$_+$), dim(E$_-$)) des dimensions hilbertiennes de ces sous-espaces est appelé l’ indice de carence de $u$.
 
 #### Proposition 25 {#ts-iv-s4-prop-25 .statement tag=034B}
 
@@ -1114,7 +1114,7 @@ Ker($u^*-i$)$^{\circ}=$ Im($u+i$),
 
 Ker($u^*+i$)$^{\circ}=$ Im($u-i$).
 
-D’après la prop. 7, c) de IV, p. 236, il suffit de démontrer que l’image de $u+i$ (resp. de $u-i)$ est fermée dans E. Puisque $u$ est symétrique, on a $\langle (u+i)(x)|(u+i)(y)\rangle = (x|y)_u$ pour tous $x$ et $y$ dans dom($u$). L’application $x\mapsto u(x) +ix$ de $E_u$ dans E est donc isométrique. Son image est fermée dans E (lemme 8 de I, p. 107). Puisqu’il s’agit aussi de l’image de $u+i$, celle-ci est fermée dans E. De même, l’image de $u-i$ est fermée dans E.
+D’après la prop. 7, c) de IV, p. 236, il suffit de démontrer que l’image de $u+i$ (resp. de $u-i$) est fermée dans E. Puisque $u$ est symétrique, on a $\langle (u+i)(x)|(u+i)(y)\rangle = (x|y)_u$ pour tous $x$ et $y$ dans dom($u$). L’application $x\mapsto u(x) +ix$ de $E_u$ dans E est donc isométrique. Son image est fermée dans E (lemme 8 de I, p. 107). Puisqu’il s’agit aussi de l’image de $u+i$, celle-ci est fermée dans E. De même, l’image de $u-i$ est fermée dans E.
 
 #### Lemme 7 {#ts-iv-s4-lem-7 .statement tag=034C}
 

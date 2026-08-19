@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 1edc0b7f4b4fa4ae2833d34c685680e12892675b02981e5d100e5a20428a92f7
+content_sha256: 8c55487290f8aa87fb5128b3001a0678de3e77fffae5998ca3064c6c7d612dab
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -44,15 +44,15 @@ is valid without change in the case of split reductive Lie algebras.
 
 In this number, we recall some definitions and results from Spectral Theories$^6$.
 
-Denote by $\widehat{G}$ the set of classes of irreducible representations of G (on finite dimensional complex vector spaces). For all $u\in \widehat{G}$, denote by $Eu$ the space of $u$ and $d(u)$ its dimension. There exist separating positive hermitian forms on $E_u$ invariant under $u$, and any two such forms are proportional. Denote by $A^*$ (resp. $\|A\|_{\infty})$ the adjoint (resp. the norm) of an element A of End(E$_u)$ relative to one of these forms; for all $g\in G$, we have $u(g)^*=u(g)^{-1}=u(g^{-1})$ and $\|u(g)\|_{\infty}= 1$; for all $x\in \mathfrak{g}$, we have $u(x)^*=-u(x) =u(-x)$.
+Denote by $\widehat{G}$ the set of classes of irreducible representations of G (on finite dimensional complex vector spaces). For all $u\in \widehat{G}$, denote by $Eu$ the space of $u$ and $d(u)$ its dimension. There exist separating positive hermitian forms on $E_u$ invariant under $u$, and any two such forms are proportional. Denote by $A^*$ (resp. $\|A\|_{\infty}$) the adjoint (resp. the norm) of an element A of End(E$_u$) relative to one of these forms; for all $g\in G$, we have $u(g)^*=u(g)^{-1}=u(g^{-1})$ and $\|u(g)\|_{\infty}= 1$; for all $x\in \mathfrak{g}$, we have $u(x)^*=-u(x) =u(-x)$.
 
-Give End(E$_u)$ the Hilbert space structure for which the scalar product is
+Give End(E$_u$) the Hilbert space structure for which the scalar product is
 
-$\langle A|B\rangle =d(u$)Tr(A$^*B) =d(u$)Tr(BA$^*)$, (1)
+$\langle A|B\rangle =d(u$)Tr(A$^*B$) $=d(u$)Tr(BA$^*$), (1)
 
 and put
 
-$\|A\|_2=\langle A|A\rangle^{1/2}= (d(u$)Tr(A$^*A))^{1/2}$. (2)
+$\|A\|_2=\langle A|A\rangle^{1/2}= (d(u$)Tr(A$^*A$))$^{1/2}$. (2)
 
 We have
 
@@ -68,15 +68,15 @@ $$
 
 For all $g\in G$, we have $\|u(g)\|_2=d(u)$.
 
-Denote by $F( \widehat{G})$ the algebra $\prod_{u\in\widehat{G}}$ End(E$_u)$. Denote by $L^2( \widehat{G})$ the Hilbert sum of the Hilbert spaces End(E$_u)$; this is the space of families $A= (A_u)\in F( \widehat{G})$ such that $\sum_u\|A_u\|^2_2<\infty$, with the scalar product
+Denote by $F( \widehat{G})$ the algebra $\prod_{u\in\widehat{G}}$ End(E$_u$). Denote by $L^2( \widehat{G})$ the Hilbert sum of the Hilbert spaces End(E$_u$); this is the space of families $A= (A_u)\in F( \widehat{G})$ such that $\sum_u\|A_u\|^2_2<\infty$, with the scalar product
 
-$\langle A|B\rangle =\sum_{u\in\widehat{G}}\langle A_u|B_u\rangle =\sum_{u\in\widehat{G}}d(u$)Tr(A$^*_uB_u)$. (5)
+$\langle A|B\rangle =\sum_{u\in\widehat{G}}\langle A_u|B_u\rangle =\sum_{u\in\widehat{G}}d(u$)Tr(A$^*_uB_u$). (5)
 
 Denote the Hilbert norm on $L^2( \widehat{G})$ also by $\| \|_2$, so that $\|A\|^2_2=\sum_{u\in\widehat{G}}\|A_u\|^2_2$ for $A\in L^2( \widehat{G})$.
 
 If $f$ is an integrable complex function on G, put
 
-$u(f) =\int_Gf(g)u(g)dg\in$ End(E$_u)$ (6)
+$u(f) =\int_Gf(g)u(g)dg\in$ End(E$_u$) (6)
 
 for all $u\in \widehat{G}$. We have $\|u(f)\|_{\infty}\leq \int_G|f(g)|dg=\|f\|_1$. The Fourier cotransform of $f$, denoted by $\mathscr{F}(f)$, is the family $(u(f))_{u\in\widehat{G}}\in F( \widehat{G})$. If $f\in L^2( \widehat{G})$,
 
@@ -96,7 +96,7 @@ $$
 (f*f')(h) =\int_Gf(hg^{-1})f'(g)dg=\int_Gf(g)f'(g^{-1}h)dg
 $$
 
-(the integral makes sense for almost all $h\in G)$.
+(the integral makes sense for almost all $h\in G$).
 
 We have $f*f'\in L^1(G)$ and, for all $u\in \widehat{G},u(f*f') =u(f)u(f')$, so
 
@@ -106,7 +106,7 @@ $$
 
 Conversely, let $A = (A_u)_{u\in\widehat{G}}$ be an element of $F( \widehat{G})$; for all $u\in \widehat{G}$, let $\mathscr{F}_uA$ be the (analytic) function on G defined by
 
-$(\mathscr{F}_uA)(g) =\langle u(g)|A_u\rangle =d(u$)Tr(A$_uu(g)^{-1})$. (9)
+$(\mathscr{F}_uA)(g) =\langle u(g)|A_u\rangle =d(u$)Tr(A$_uu(g)^{-1}$). (9)
 
 If $A\in L^2( \widehat{G})$, the family $(\mathscr{F}_uA)_{u\in\widehat{G}}$ is summable in $L^2(G)$; the Fourier transform of A, denoted by $\mathscr{F}$(A), is the sum of this family. The maps $\mathscr{F}$ and $\mathscr{F}$ are inverse isomorphisms between the Hilbert spaces $L^2(G)$ and $L^2( \widehat{G})$.
 
@@ -130,7 +130,7 @@ $f(h) =\sum_{u\in\widehat{G}}d(u)\int_Gf(gh$)Tr($u(g)$)$dg$. (11)
 
 Conversely, let $A\in F( \widehat{G})$; if the family $(\mathscr{F}_uA)_{u\in\widehat{G}}$ is uniformly summable, the function
 
-$g \rightarrow \sum_{u\in\widehat{G}}(\mathscr{F}_uA)(g) =\sum_{u\in\widehat{G}}d(u$)Tr(A$_uu(g)^{-1})$
+$g \rightarrow \sum_{u\in\widehat{G}}(\mathscr{F}_uA)(g) =\sum_{u\in\widehat{G}}d(u$)Tr(A$_uu(g)^{-1}$)
 
 is a continuous function on G whose Fourier cotransform is A.
 
@@ -156,7 +156,7 @@ $$
 u(\delta (s^{-1})f) =u(f)u(s) \tag{13}
 $$
 
-When G is commutative, $\widehat{G}$ is the underlying set of the dual group of G (Spectral Theories, Chap. II, §1, no. $1),d(u) = 1$ for all $u\in \widehat{G}$, and we recover the definitions of the Fourier transform given in Spectral Theories, Chap. II.
+When G is commutative, $\widehat{G}$ is the underlying set of the dual group of G (Spectral Theories, Chap. II, §1, no. $1$)$,d(u) = 1$ for all $u\in \widehat{G}$, and we recover the definitions of the Fourier transform given in Spectral Theories, Chap. II.
 
 ### 2. FOURIER TRANSFORMS OF INFINITELY-DIFFERENTIABLE FUNCTIONS
 
@@ -172,7 +172,7 @@ $$
 L_t\circ \gamma (g) =\gamma (g)\circ L_t,R_t\circ \delta (g) =\delta (g)\circ R_t
 $$
 
-Let $u\in \widehat{G}$; denote by $Eu$ the space of $u$. The morphism of Lie groups $u: G\rightarrow \mathbf{G}\mathbf{L}(E_u)$ gives by differentiation a homomorphism of (real) Lie algebras $\mathfrak{g}\rightarrow$ End(E$_u)$, hence a homomorphism of algebras, also denoted by $u$, from U(G) to End(E$_u)$. If $t\in U(G)$ and if $f$ is an infinitely-differentiable function on G, then
+Let $u\in \widehat{G}$; denote by $Eu$ the space of $u$. The morphism of Lie groups $u: G\rightarrow \mathbf{G}\mathbf{L}(E_u)$ gives by differentiation a homomorphism of (real) Lie algebras $\mathfrak{g}\rightarrow$ End(E$_u$), hence a homomorphism of algebras, also denoted by $u$, from U(G) to End(E$_u$). If $t\in U(G)$ and if $f$ is an infinitely-differentiable function on G, then
 
 $$
 u(L_tf) =u(f)u(t^{\vee}), u(R_tf) =u(t^{\vee})u(f) \tag{14}
@@ -192,13 +192,13 @@ Let $m \rightarrow  \|m\|$ be a norm on the $\mathbf{R}$-vector space $\mathbf{R
 
 a) The following conditions are equivalent:
 
-(i) There exists an integer $n >0$ such that $\varphi (u)\preccurlyeq (\|\lambda (u)\|+ 1)^n$ (resp. for every integer $n >0$, we have $\varphi (u)\preccurlyeq (\|\lambda (u)\|+ 1)^{-n})$.
+(i) There exists an integer $n >0$ such that $\varphi (u)\preccurlyeq (\|\lambda (u)\|+ 1)^n$ (resp. for every integer $n >0$, we have $\varphi (u)\preccurlyeq (\|\lambda (u)\|+ 1)^{-n}$).
 
-(ii) There exists an integer $n >0$ such that $\varphi (u)\preccurlyeq ( \widetilde{\Gamma}(u) + 1)^n$ (resp. for every integer $n >0$, we have $\varphi (u)\preccurlyeq ( \widetilde{\Gamma}(u) + 1)^{-n})$.
+(ii) There exists an integer $n >0$ such that $\varphi (u)\preccurlyeq ( \widetilde{\Gamma}(u) + 1)^n$ (resp. for every integer $n >0$, we have $\varphi (u)\preccurlyeq ( \widetilde{\Gamma}(u) + 1)^{-n}$).
 
 b) If G is semi-simple, conditions (i) and (ii) are also equivalent to:
 
-(iii) There exists an integer $n >0$ such that $\varphi (u)\preccurlyeq d(u)^n$ (resp. for every integer $n >0$, we have $\varphi (u)\preccurlyeq d(u)^{-n})$.
+(iii) There exists an integer $n >0$ such that $\varphi (u)\preccurlyeq d(u)^n$ (resp. for every integer $n >0$, we have $\varphi (u)\preccurlyeq d(u)^{-n}$).
 
 Note first of all that condition (i) is clearly independent of the choice of norm. Thus we can use the norm defined by the quadratic form $Q_{\Gamma}$ associated to $\Gamma ($§7, no. 6, Prop. 4). Then
 
@@ -354,9 +354,9 @@ Note, in particular, that formulas (20) and (21) give, for $u, v$ in $\widehat{G
 
 $u(\overline{\chi}_v) = 0$ if $u\not=v$, (23)
 
-$u(\overline{\chi}_u) =\frac{\varepsilon_u}{d(u)}\in$ End(E$_u)$, (24)
+$u(\overline{\chi}_u) =\frac{\varepsilon_u}{d(u)}\in$ End(E$_u$), (24)
 
-$\overline{\mathscr{F}}(\chi_u) =\frac{\varepsilon_u}{d(u)}\in$ End(E$_u)\subset F( \widehat{G})$. (25)
+$\overline{\mathscr{F}}(\chi_u) =\frac{\varepsilon_u}{d(u)}\in$ End(E$_u$)$\subset F( \widehat{G})$. (25)
 
 #### Proposition 5 {#lie-ix-s8-prop-5 .statement tag=01H6}
 
@@ -384,9 +384,9 @@ $=\langle \overline{\chi}_u|f\rangle$Tr($u(g)^{-1}$) $=\langle \overline{\chi}_u
 
 Hence, $f(g) =\sum_{u\in\widehat{G}}\langle \overline{\chi}_u|f\rangle \overline{\chi}_u(g)$; but, for all $u\in \widehat{G}$, the contragredient representation $u'$ of $u$ satisfies $\overline{\chi}_u=\chi_{u'}$ and the map $u \rightarrow u'$ is a permutation of $\widehat{G}$; so we also have $f(g) =\sum_{u\in\widehat{G}}\langle \chi_u|f\rangle \chi_u(g)$, hence the proposition.
 
-$^8$ We embed End(E$_u)$ in the product $F( \widehat{G}) =\prod_{v\in\widehat{G}}$ End(E$_v)$ by associating to any
+$^8$ We embed End(E$_u$) in the product $F( \widehat{G}) =\prod_{v\in\widehat{G}}$ End(E$_v$) by associating to any
 
-$A\in$ End(E$_u)$ the family $(A_v)_{v\in\widehat{G}}$ such that $A_u= A$ and $A_v= 0$ for $v\not=u$.
+$A\in$ End(E$_u$) the family $(A_v)_{v\in\widehat{G}}$ such that $A_u= A$ and $A_v= 0$ for $v\not=u$.
 
 #### Corollary {#lie-ix-s8-n3-cor-1 .statement tag=01H7}
 
@@ -406,7 +406,7 @@ $$
 \Theta (G)\subset \mathscr{C}^{\infty}(G)\subset \mathscr{C}(G)\subset L^2(G)
 $$
 
-Denote by $Z\Theta (G),Z\mathscr{C}^{\infty}(G),Z\mathscr{C}(G)$, ZL$^2$(G), respectively, the subspaces consisting of the central functions in these various spaces. Introduce similarly the spaces $\Theta (T),\mathscr{C}^{\infty}(T),\mathscr{C}(T),L^2(T)$; for any space E in this list, denote by $E^W$ (resp. $E^{-W})$ the subspace consisting of the invariant (resp. anti-invariant) elements for the operation of the Weyl group W. We have a commutative diagram
+Denote by $Z\Theta (G),Z\mathscr{C}^{\infty}(G),Z\mathscr{C}(G)$, ZL$^2$(G), respectively, the subspaces consisting of the central functions in these various spaces. Introduce similarly the spaces $\Theta (T),\mathscr{C}^{\infty}(T),\mathscr{C}(T),L^2(T)$; for any space E in this list, denote by $E^W$ (resp. $E^{-W}$) the subspace consisting of the invariant (resp. anti-invariant) elements for the operation of the Weyl group W. We have a commutative diagram
 
 $$
 Z\mathscr{C}(G)\longrightarrow^{a_c}\mathscr{C}(T)^W

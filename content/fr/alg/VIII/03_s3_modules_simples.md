@@ -33,7 +33,7 @@ subsections:
       pdf_page: 58
 statements: 23
 exercises: 10
-content_sha256: 878b3b0e4c5d1ebb2849546169639f3a27e5804983082b2065db897a8b3fbaaf
+content_sha256: 1b143686149995b728044c65f5b12d8b5e9cbad1c9d70211250572a43e3fc8dc
 ---
 
 ## § 3. MODULES SIMPLES
@@ -58,7 +58,7 @@ Soit A un anneau principal (VII, p. 1, déf. 1) qui n’est pas un corps. Pour t
 
 #### Exemple 3 {#alg-viii-s3-n1-exa-3 .statement tag=0038}
 
-Soient K un corps, V un espace vectoriel à droite non nul sur le corps K et A un sous-anneau de l’anneau End$_K(V)$ qui contient les endomorphismes de rang fini de V (par exemple A = End$_K(V))$. Démontrons que V est un A-module simple : soient W un sous-A-module non nul de V et $x$ un élément non nul de W ; il existe une forme linéaire $\varphi$ sur V telle que $\varphi (x)\not= 0$ (II, p. 103, th. 6). Pour tout $y$ dans V, l’application $z\rightarrow y\varphi (z)$, linéaire de rang $\leqslant 1$, appartient à A ; on a donc $Ax= V$, d’où a fortiori W = V, ce qui prouve que V est un A-module simple.
+Soient K un corps, V un espace vectoriel à droite non nul sur le corps K et A un sous-anneau de l’anneau End$_K(V)$ qui contient les endomorphismes de rang fini de V (par exemple A = End$_K(V)$). Démontrons que V est un A-module simple : soient W un sous-A-module non nul de V et $x$ un élément non nul de W ; il existe une forme linéaire $\varphi$ sur V telle que $\varphi (x)\not= 0$ (II, p. 103, th. 6). Pour tout $y$ dans V, l’application $z\rightarrow y\varphi (z)$, linéaire de rang $\leqslant 1$, appartient à A ; on a donc $Ax= V$, d’où a fortiori W = V, ce qui prouve que V est un A-module simple.
 
 #### Proposition 1 {#alg-viii-s3-prop-1 .statement tag=00QZ}
 
@@ -124,7 +124,7 @@ Si M est un A-module simple, tout élément non nul de l’anneau non nul End$_A
 
 Soient K un corps commutatif algébriquement clos, A une K-algèbre et M un A-module simple. On suppose que la dimension de M comme espace vectoriel sur K est finie, ou plus généralement strictement inférieure au cardinal de K. Alors l’anneau des endomorphismes du A-module M se compose des homothéties $\alpha_M$ avec $\alpha \in K$.
 
-Soit E l’anneau des endomorphismes du A-module M ; c’est un corps d’après le cor. de la prop. 2, et une algèbre sur le corps K. Si l’on considère M comme un espace vectoriel à gauche sur le corps E, on a dim$_KM =$ (dim$_EM)[E : K]$ d’après la prop. 25 de II, p. 31, donc dim$_KM\geqslant [E : K]$. Comme dim$_KM<$ Card(K) par hypothèse, l’égalité $E = K\cdot 1_M$ résulte alors du lemme suivant :
+Soit E l’anneau des endomorphismes du A-module M ; c’est un corps d’après le cor. de la prop. 2, et une algèbre sur le corps K. Si l’on considère M comme un espace vectoriel à gauche sur le corps E, on a dim$_KM =$ (dim$_EM$)$[E : K]$ d’après la prop. 25 de II, p. 31, donc dim$_KM\geqslant [E : K]$. Comme dim$_KM<$ Card(K) par hypothèse, l’égalité $E = K\cdot 1_M$ résulte alors du lemme suivant :
 
 #### Lemme 1 {#alg-viii-s3-lem-1 .statement tag=003F}
 
@@ -134,7 +134,7 @@ Soient $x$ un élément de E- K et L le sous-corps (commutatif) de E engendré p
 
 #### Exemple {#alg-viii-s3-n2-exa-1 .statement tag=003G}
 
-$*$Soit A une $\mathbf{C}$-algèbre engendrée par une famille dénombrable d’éléments ; elle est de dimension dénombrable sur $\mathbf{C}$. Soit M un A-module simple ; il est monogène, donc admet une base dénombrable sur $\mathbf{C}$. Puisque le corps $\mathbf{C}$n’est pas dénombrable (TG, IV, p. 44), on a $[M : \mathbf{C}]<$ Card($\mathbf{C}$). Donc les endomorphismes du A-module M sont les homothéties $\alpha_M$, avec $\alpha \in \mathbf{C}$. Ceci s’applique en particulier lorsque A est l’algèbre enveloppante d’une algèbre de Lie de dimension finie sur $\mathbf{C}$ (LIE, I, corollaire 3, p. $33).*$
+$*$Soit A une $\mathbf{C}$-algèbre engendrée par une famille dénombrable d’éléments ; elle est de dimension dénombrable sur $\mathbf{C}$. Soit M un A-module simple ; il est monogène, donc admet une base dénombrable sur $\mathbf{C}$. Puisque le corps $\mathbf{C}$n’est pas dénombrable (TG, IV, p. 44), on a $[M : \mathbf{C}]<$ Card($\mathbf{C}$). Donc les endomorphismes du A-module M sont les homothéties $\alpha_M$, avec $\alpha \in \mathbf{C}$. Ceci s’applique en particulier lorsque A est l’algèbre enveloppante d’une algèbre de Lie de dimension finie sur $\mathbf{C}$ (LIE, I, corollaire 3, p. $33$)$.*$
 
 #### Corollaire 1 {#alg-viii-s3-lem-1-cor-1 .statement tag=003H}
 
@@ -234,7 +234,7 @@ Soit A un anneau. La relation
 
 est collectivisante en $\lambda$ (E, II, p. 3). En effet, tout A-module de type fini est isomorphe à un A-module de la forme $A^n_s/R$, où $n$ est un entier naturel et R un sous-module de $A^n_s$, de sorte que notre assertion résulte de E, II, p. 47.
 
-On notera $\mathscr{F}(A)$ l’ensemble des classes de A-modules de type fini. Tout A-module simple est monogène (VIII, p. 42, prop. 1), et par suite les classes des A-modules simples forment un sous-ensemble de $\mathscr{F}$(A), noté dans la suite $\mathscr{S}(A)$ (ou simplement $\mathscr{S})$. Lorsque l’anneau A est commutatif, l’application $\mathfrak{m}\rightarrow$ cl(A$/\mathfrak{m})$ est une bijection de l’ensemble des idéaux maximaux de A sur l’ensemble $\mathscr{S}(A)$ (loc. cit. et VIII, p. 42, remarque 1). Lorsque A est artinien à gauche, l’ensemble $\mathscr{S}(A)$ est fini (VIII, p. 47, remarque b)).
+On notera $\mathscr{F}(A)$ l’ensemble des classes de A-modules de type fini. Tout A-module simple est monogène (VIII, p. 42, prop. 1), et par suite les classes des A-modules simples forment un sous-ensemble de $\mathscr{F}$(A), noté dans la suite $\mathscr{S}(A)$ (ou simplement $\mathscr{S}$). Lorsque l’anneau A est commutatif, l’application $\mathfrak{m}\rightarrow$ cl(A$/\mathfrak{m}$) est une bijection de l’ensemble des idéaux maximaux de A sur l’ensemble $\mathscr{S}(A)$ (loc. cit. et VIII, p. 42, remarque 1). Lorsque A est artinien à gauche, l’ensemble $\mathscr{S}(A)$ est fini (VIII, p. 47, remarque b)).
 
 ## EXERCICES {#alg-viii-s3-exercises}
 

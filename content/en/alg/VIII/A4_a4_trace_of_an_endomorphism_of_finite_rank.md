@@ -23,7 +23,7 @@ subsections:
       pdf_page: 481
 statements: 5
 exercises: 2
-content_sha256: 6a275f67834f63e59fe4e11e0da0c6b2368eaf17d2d2e94a1d1bcc7eddcbf0d7
+content_sha256: b21c8fa64810e183438c648b465f555368181eb6b34b8b9afdc829259a3d239d
 ---
 
 ## APPENDIX 4 TRACE OF AN ENDOMORPHISM OF FINITE RANK
@@ -102,7 +102,7 @@ Denote by $i$ the canonical injection of F into E and by $v: E\rightarrow F$ the
 
 Let E be a projective A-module and $u\in$ End$^f_A(E)$. For every natural number $p$, the A-module $\wedge^pE$ is projective (III, §7, No. 8, p. 519, Corollary 2), and the endomorphism $\wedge^pu$ belongs to End$^f_A(\wedge^pE)$ (III, §7, No. 3, p. 511, Proposition 6) and is zero for $p$ sufficiently large. The set $1_E+$ End$^f_A(E)$ is stable under composition. We define a mapping det from $1_E+$ End$^f_A(E)$ to A by setting
 
-det(1$_E+u) =\sum_{p\geqslant 0}$ Tr $\wedge^pu$
+det(1$_E+u$) $=\sum_{p\geqslant 0}$ Tr $\wedge^pu$
 
 for $u\in$ End$^f_A(E)$.
 
@@ -114,27 +114,27 @@ Let E be a projective A-module.
 
 a) Let $u\in$ End$^f_A(E)$. Let F be a projective A-submodule of E containing Im $u$, and let $u_F$ be the endomorphism of F induced by $u$. We have
 
-(5) det(1$_E+u) =$ det(1$_F+u_F)$.
+(5) det(1$_E+u$) $=$ det(1$_F+u_F$).
 
 b) Let $u$ and $v$ be two elements of End$^f_A(E)$. We have
 
-(6) det $(1_E+u)\circ (1_E+v)$ = det(1$_E+u)$ det(1$_E+v)$.
+(6) det $(1_E+u)\circ (1_E+v)$ = det(1$_E+u$) det(1$_E+v$).
 
 Let us prove a). For every integer $p\geqslant 0$, the projective A-module $\wedge^pF$ can be identified with a submodule of $\wedge^pE$ (III, §7, No. 9, p. 520, Corollary). The image of $\wedge^pu$ is contained in $\wedge^pF$, and the endomorphism of $\wedge^pF$ induced by $\wedge^pu$ is equal to $\wedge^pu_F$. We consequently have Tr($\wedge^pu$) $=$ Tr($\wedge^pu_F$) by the corollary of Proposition 2, and therefore a).
 
-Let us prove b). Let G be an A-module such that the A-module $L = E\oplus G$ is free. Denote by $u'$ and $v'$ the endomorphisms $u\oplus 0_G$ and $v\oplus 0_G$ of L. By a), we have the relations det(1$_L+u') =$ det(1$_E+u)$, det(1$_L+v') =$ det(1$_E+v)$, and
+Let us prove b). Let G be an A-module such that the A-module $L = E\oplus G$ is free. Denote by $u'$ and $v'$ the endomorphisms $u\oplus 0_G$ and $v\oplus 0_G$ of L. By a), we have the relations det(1$_L+u'$) $=$ det(1$_E+u$), det(1$_L+v'$) $=$ det(1$_E+v$), and
 
-det(1$_L+u'+v'+u'\circ v') =$ det(1$_E+u+v+u\circ v)$.
+det(1$_L+u'+v'+u'\circ v'$) $=$ det(1$_E+u+v+u\circ v$).
 
-It therefore suffices to prove assertion b) when the A-module E is free. There then exists a finitely generated free submodule F of E that contains the image of $u$ and that of $v$. Set $w=u+v+u\circ v$. The image of $w$ is contained in F, and we have $w_F=u_F+v_F+u_F\circ v_F$. Therefore, by (5), we have det(1$_E+u) =$ det(1$_F+u_F)$, det(1$_E+v) =$ det(1$_F+v_F)$, and
+It therefore suffices to prove assertion b) when the A-module E is free. There then exists a finitely generated free submodule F of E that contains the image of $u$ and that of $v$. Set $w=u+v+u\circ v$. The image of $w$ is contained in F, and we have $w_F=u_F+v_F+u_F\circ v_F$. Therefore, by (5), we have det(1$_E+u$) $=$ det(1$_F+u_F$), det(1$_E+v$) $=$ det(1$_F+v_F$), and
 
 det$((1_E+u)\circ (1_E+v))$
 
-= det(1$_E+w) =$ det(1$_F+w_F) =$ det((1$_F+u_F)\circ (1_F+v_F))$.
+= det(1$_E+w$) $=$ det(1$_F+w_F$) $=$ det((1$_F+u_F$)$\circ (1_F+v_F)$).
 
 Since F is a finitely generated free A-module, we have
 
-det((1$_F+u_F)\circ (1_F+v_F)) =$ det(1$_F+u_F)$ det(1$_F+v_F) =$ det(1$_E+u)$ det(1$_E+v)$.
+det((1$_F+u_F$)$\circ (1_F+v_F)$) $=$ det(1$_F+u_F$) det(1$_F+v_F$) $=$ det(1$_E+u$) det(1$_E+v$).
 
 ### Exercises {#alg-viii-a4-exercises}
 

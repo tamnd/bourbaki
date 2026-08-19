@@ -41,7 +41,7 @@ subsections:
       pdf_page: 57
 statements: 48
 exercises: 29
-content_sha256: 1a4d415d86098e172cf6e96efa5c34c2af5226a1c0e680459b4d45fc48b5b9e5
+content_sha256: c3ca8a086108a030c217b2722eeb9b37d1649d7749076e685b200d2a7326e196
 ---
 
 ## § 3. ALGÈBRES DE BANACH COMMUTATIVES
@@ -68,7 +68,7 @@ Soit A une algèbre de Banach commutative. L’espace $\mathsf{X}'(A)$ est compa
 
 Soit $A'$ le dual de l’espace de Banach A. Sa boule unité $A'_1$ est faiblement compacte (EVT, III, p. 17, cor. 2). D’après le th. 1, on a $\mathsf{X}'(A)\subset A'_1$. De plus, $\mathsf{X}'(A)$ est fermé dans $A'$ pour la topologie faible, car il est l’intersection des ensembles faiblement fermés
 
-$X_{x,y}=\{f\in A'|f(xy)-f(x)f(y) = 0\}$ (pour $x,y\in A)$.
+$X_{x,y}=\{f\in A'|f(xy)-f(x)f(y) = 0\}$ (pour $x,y\in A$).
 
 Il en résulte que $\mathsf{X}'(A)$ est compact et que $\mathsf{X}(A) =\mathsf{X}'(A)-\{0\}$ est localement compact.
 
@@ -178,7 +178,7 @@ Supposons X compact. Alors l’application $x\mapsto$ ev$_x$ est un homéomorphi
 
 ### 3. Applications partielles propres
 
-Dans ce numéro, X et Y sont des espaces topologiques localement compacts. On note $X'$ (resp. $Y')$ l’espace compact obtenu à partir de X (resp. Y) par adjonction d’un point à l’infini $\omega_X$ (resp. $\omega_Y)$ (TG, I, p. 67–68). On identifie $X'$ et $Y'$ à $\mathsf{X}'(\mathscr{C}_0(X))$ et $\mathsf{X}'(\mathscr{C}_0(Y))$, respectivement (corollaire 2 de I, p. 32).
+Dans ce numéro, X et Y sont des espaces topologiques localement compacts. On note $X'$ (resp. $Y'$) l’espace compact obtenu à partir de X (resp. Y) par adjonction d’un point à l’infini $\omega_X$ (resp. $\omega_Y$) (TG, I, p. 67–68). On identifie $X'$ et $Y'$ à $\mathsf{X}'(\mathscr{C}_0(X))$ et $\mathsf{X}'(\mathscr{C}_0(Y))$, respectivement (corollaire 2 de I, p. 32).
 
 #### Définition 1 {#ts-i-s3-def-1 .statement tag=027X}
 
@@ -190,7 +190,7 @@ Une application partielle propre de X dans Y est une correspondance $f= (\Gamma 
 
 (iii) L’application $x\mapsto f(x)$ de U dans Y est propre.
 
-L’application identique de X est une application partielle propre de X dans X. Soient Z un espace topologique localement compact et $f$ (resp. $g)$ une application partielle propre de X dans Y (resp. de Y dans Z). Alors la correspondance composée $g\circ f$ (E, II, p. 11, déf. 6) est une application partielle propre de X dans Z (TG, I, p. 72, prop. 3, et p. 73, prop. 5).
+L’application identique de X est une application partielle propre de X dans X. Soient Z un espace topologique localement compact et $f$ (resp. $g$) une application partielle propre de X dans Y (resp. de Y dans Z). Alors la correspondance composée $g\circ f$ (E, II, p. 11, déf. 6) est une application partielle propre de X dans Z (TG, I, p. 72, prop. 3, et p. 73, prop. 5).
 
 #### Lemme 1 {#ts-i-s3-lem-1 .statement tag=027Y}
 
@@ -220,15 +220,15 @@ b) L’application $\varphi \mapsto \varphi^*$ est une bijection de l’ensemble
 
 Démontrons a). Soit $\varphi$ une application partielle propre de X dans Y, identifiée à une application continue de $X'$ dans $Y'$ telle que $\varphi (\omega_X) =\omega_Y$. Pour $f\in \mathscr{C}_0(Y)$, on a $(f\circ \varphi )(\omega_X) =f(\omega_Y) = 0$, donc l’application $\varphi^*$ est bien définie. C’est un morphisme d’algèbres.
 
-Démontrons que $\mathsf{X}'(\varphi^*)$ s’identifie à $\varphi$. Soit $x\in X$. Pour toute fonction $f\in \mathscr{C}_0(Y)$, le caractère $\mathsf{X}'(\varphi^*$)(ev$_x)$ associe à $f$ le nombre complexe
+Démontrons que $\mathsf{X}'(\varphi^*)$ s’identifie à $\varphi$. Soit $x\in X$. Pour toute fonction $f\in \mathscr{C}_0(Y)$, le caractère $\mathsf{X}'(\varphi^*$)(ev$_x$) associe à $f$ le nombre complexe
 
-(ev$_x\circ \varphi^*)(f) =$ ev$_x(f\circ \varphi ) =f(\varphi (x))$,
+(ev$_x\circ \varphi^*$)$(f) =$ ev$_x(f\circ \varphi ) =f(\varphi (x))$,
 
-donc $\mathsf{X}'(\varphi^*$)(ev$_x) =$ ev$_{\varphi(x)}$. Cela démontre l’assertion.
+donc $\mathsf{X}'(\varphi^*$)(ev$_x$) $=$ ev$_{\varphi(x)}$. Cela démontre l’assertion.
 
 Inversement, soit $\pi :\mathscr{C}_0(Y)\rightarrow \mathscr{C}_0(X)$ un morphisme d’algèbres. Démontrons que $\mathsf{X}'(\pi )^*=\pi$. Soit $f\in \mathscr{C}_0(Y)$, et notons $g=\mathsf{X}'(\pi )^*(f)\in$ $\mathscr{C}_0(X)$. Pour tout $x\in X$, on a
 
-$g(x) = (f\circ \mathsf{X}'(\pi ))(x) =$ ev$_{\mathsf{X}'(\pi)(x)}(f) =$ (ev$_x\circ \pi )(f) =\pi (f)(x)$,
+$g(x) = (f\circ \mathsf{X}'(\pi ))(x) =$ ev$_{\mathsf{X}'(\pi)(x)}(f) =$ (ev$_x\circ \pi$ )$(f) =\pi (f)(x)$,
 
 puisque $\mathsf{X}'(\pi )$ vérifie ev$_{\mathsf{X}'(\pi)(x)}=$ ev$_x\circ \pi$. On a donc $g=\pi (f)$, ce qui permet de conclure que $\mathsf{X}'(\pi )^*=\pi$.
 

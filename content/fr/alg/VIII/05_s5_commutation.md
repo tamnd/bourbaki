@@ -37,7 +37,7 @@ subsections:
       pdf_page: 94
 statements: 37
 exercises: 19
-content_sha256: 3dc210a10bb179ccf2a23b0b2f6bfe005a1cb81ff19c49b92d1acb8a0478fcbb
+content_sha256: e49193552bd1876b969717dac4ace34a5a6c64ed8b7aa6102587b2d058ceed8b
 ---
 
 ## § 5. COMMUTATION
@@ -68,7 +68,7 @@ a) L’application $(u_i)\rightarrow \prod u_i$ de $\prod$ End$_{\mathbf{Z}}(M_i
 
 b) L’application $(u_i)\rightarrow \bigoplus u_i$ de $\prod$ End$_{\mathbf{Z}}(M_i)$dans End$_{\mathbf{Z}}(N)$ (II, p. 13) définit par passage aux sous-ensembles des isomorphismes d’anneaux de $\prod(A_i)_{M_i},\prod(A_i)'_{M_i}$ et $\prod(A_i)''_{M_i}$ sur $A_N, A'_N$ et $A''_N$ respectivement.
 
-L’application $\varphi : (u_i)\rightarrow \prod u_i$ de $\prod$ End$_{\mathbf{Z}}(M_i)$ dans End$_{\mathbf{Z}}(M)$ est un homomorphisme injectif d’anneaux. Par définition de la structure de A-module de M, on a $\varphi (\prod(A_i)_{M_i}) = A_M$. Soit $u\in A'_M$. Pour tout $i\in I$, notons $h_i$ l’élément de A dont toutes les composantes sont égales à 1 sauf celle d’indice $i$ qui est égale à 0 . Si $x$ est un élément de M dont la composante d’indice $i$ est nulle, on a $x=h_ix$, d’où pr$_i(u(x)) =$ pr$_i(u(h_ix)) =$ pr$_i(h_iu(x)) = 0$. Il existe par suite un unique homomorphisme de groupes $u_i: M_i\rightarrow M_i$ telle que pr$_i(u(y)) =u_i$(pr$_i(y))$ pour tout $y\in M$. On a $u=\prod u_i$. Comme l’application $u$ est A-linéaire, l’application $u_i$ est $A_i$-linéaire pour tout $i\in I$. Cela prouve que $A'_M$ est contenu dans l’image de $\prod(A_i)'_{M_i}$ par $\varphi$; l’inclusion opposée est évidente. En appliquant cela au contremodule de M, on en déduit que $\varphi$ induit un isomorphisme de $A''_M$ sur $\prod_i(A_i)''_{M_i}$. Cela prouve l’assertion a).
+L’application $\varphi : (u_i)\rightarrow \prod u_i$ de $\prod$ End$_{\mathbf{Z}}(M_i)$ dans End$_{\mathbf{Z}}(M)$ est un homomorphisme injectif d’anneaux. Par définition de la structure de A-module de M, on a $\varphi (\prod(A_i)_{M_i}) = A_M$. Soit $u\in A'_M$. Pour tout $i\in I$, notons $h_i$ l’élément de A dont toutes les composantes sont égales à 1 sauf celle d’indice $i$ qui est égale à 0 . Si $x$ est un élément de M dont la composante d’indice $i$ est nulle, on a $x=h_ix$, d’où pr$_i(u(x)) =$ pr$_i(u(h_ix)) =$ pr$_i(h_iu(x)) = 0$. Il existe par suite un unique homomorphisme de groupes $u_i: M_i\rightarrow M_i$ telle que pr$_i(u(y)) =u_i$(pr$_i(y)$) pour tout $y\in M$. On a $u=\prod u_i$. Comme l’application $u$ est A-linéaire, l’application $u_i$ est $A_i$-linéaire pour tout $i\in I$. Cela prouve que $A'_M$ est contenu dans l’image de $\prod(A_i)'_{M_i}$ par $\varphi$; l’inclusion opposée est évidente. En appliquant cela au contremodule de M, on en déduit que $\varphi$ induit un isomorphisme de $A''_M$ sur $\prod_i(A_i)''_{M_i}$. Cela prouve l’assertion a).
 
 La démonstration de b) est la même que celle de a) mutatis mutandis.
 
@@ -178,7 +178,7 @@ Soient A un anneau commutatif, M un A-module de type fini et Ann(M) son annulate
 
 (iii) Il existe un élément $a$ de $\mathfrak{a}$ tel que $am=m$ pour tout $m\in M$.
 
-(i) $=\Rightarrow$ (ii) : Soit $(x_1, . . . , x_n)$ une famille génératrice du A-module M. Si $\mathfrak{a}M = M$, chacun des $x_i$ peut s’écrire sous la forme $\sum^n_{j=1}c_{ij}x_j$, où les $c_{ij}$ appartiennent à $\mathfrak{a}$. Notons C la matrice $(c_{ij})$ et X la matrice colonne de composantes $x_1, . . . , x_n$. On a ($I_n-C$)X = 0. Soient $d$ le déterminant et V la matrice des cofacteurs de la matrice $I_n-C$. D’après la formule (26) de III, p. 99, on a $dX =^tV$($I_n-C$)X = 0, d’où $d\in$ Ann(M). D’autre part comme les $c_{ij}$ appartiennent à $\mathfrak{a}$ on a $d\equiv$ 1(mod $\mathfrak{a})$ (III, p. 96, (18)), d’où $1\in$ Ann(M) $+\mathfrak{a}$.
+(i) $=\Rightarrow$ (ii) : Soit $(x_1, . . . , x_n)$ une famille génératrice du A-module M. Si $\mathfrak{a}M = M$, chacun des $x_i$ peut s’écrire sous la forme $\sum^n_{j=1}c_{ij}x_j$, où les $c_{ij}$ appartiennent à $\mathfrak{a}$. Notons C la matrice $(c_{ij})$ et X la matrice colonne de composantes $x_1, . . . , x_n$. On a ($I_n-C$)X = 0. Soient $d$ le déterminant et V la matrice des cofacteurs de la matrice $I_n-C$. D’après la formule (26) de III, p. 99, on a $dX =^tV$($I_n-C$)X = 0, d’où $d\in$ Ann(M). D’autre part comme les $c_{ij}$ appartiennent à $\mathfrak{a}$ on a $d\equiv$ 1(mod $\mathfrak{a}$) (III, p. 96, (18)), d’où $1\in$ Ann(M) $+\mathfrak{a}$.
 
 (ii) $=\Rightarrow$ (iii) : Sous l’hypothèse (ii), il existe $a\in \mathfrak{a}$ et $b\in$ Ann(M) tels que $a+b= 1$. On a alors $am=m$ pour tout $m\in M$.
 
@@ -280,7 +280,7 @@ Soit M un A-module semi-simple et soit B l’anneau des endomorphismes de M. On 
 
 #### Remarque 1 {#alg-viii-s5-n4-rem-1 .statement tag=00R4}
 
-La description canonique $\alpha_M$ du A-module M est un isomorphisme de $(A$, B)-bimodules à gauche. D’après VIII, p. 67, cor. de la prop. 9, l’application $f\rightarrow ($Hom(1$_{S_{\lambda}}, f))_{\lambda\in\mathscr{S}_M}$ de B dans $\prod_{\lambda\in\mathscr{S}_M}$ End$_{D_{\lambda}}(V_{\lambda})$ est un isomorphisme d’anneaux.
+La description canonique $\alpha_M$ du A-module M est un isomorphisme de $(A$, B)-bimodules à gauche. D’après VIII, p. 67, cor. de la prop. 9, l’application $f\rightarrow ($Hom(1$_{S_{\lambda}}, f$))$_{\lambda\in\mathscr{S}_M}$ de B dans $\prod_{\lambda\in\mathscr{S}_M}$ End$_{D_{\lambda}}(V_{\lambda})$ est un isomorphisme d’anneaux.
 
 #### Proposition 5 {#alg-viii-s5-prop-5 .statement tag=005X}
 
@@ -288,7 +288,7 @@ a) Le contre-module de M est semi-simple.
 
 b) Pour tout $\lambda \in \mathscr{S}_M$, le B-module $V_{\lambda}$ est simple et son commutant est égal à $(D_{\lambda})_{V_{\lambda}}$.
 
-c) L’application $\lambda \rightarrow$ cl(V$_{\lambda})$est une bijection du support du A-module M sur le support de son contremodule.
+c) L’application $\lambda \rightarrow$ cl(V$_{\lambda}$)est une bijection du support du A-module M sur le support de son contremodule.
 
 d) Pour tout $\lambda \in \mathscr{S}_M$, le sous-B-module $M_{\lambda}$ est le composant isotypique de type $V_{\lambda}$ du B-module M et la multiplicité de $V_{\lambda}$ dans M est égale à dim$_{D_{\lambda}}(S_{\lambda})$.
 

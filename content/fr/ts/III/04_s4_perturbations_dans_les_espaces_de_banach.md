@@ -37,7 +37,7 @@ subsections:
       pdf_page: 81
 statements: 30
 exercises: 9
-content_sha256: aa69abfa4de2f2678bac7f76b9aacbc5eb608021d7d462692e3e938b2486222b
+content_sha256: 4351fab2b89a4e21790a9ee0c6195220d71b234eb5121628dd98a3d2f7dbf094
 ---
 
 ## § 4. PERTURBATIONS DANS LES ESPACES DE BANACH
@@ -90,7 +90,7 @@ que l’image de $u$ est $F_1$. Les espaces $E_2$ et $F_1$ sont des sous-espaces
 
 L’espace vectoriel E est somme directe topologique de $E_1$ et $E_2$, et $u$ définit par restriction une application linéaire bijective $u_1$ de $E_1$ sur $F_1$. Pour tout $x\in E_1$, on a $v(u(x)) =p(x) =x$, et l’application $u^{-1}_1$ de $F_1$ sur $E_1$ coïncide avec $v$ sur $F_1$. Par conséquent, $u_1$ est un isomorphisme de $E_1$ sur $F_1$ et $u$ est un morphisme strict de E dans F.
 
-Soient E et F des espaces localement convexes et $u\in \mathscr{L}(E; F)$. Pour que $u$ soit un morphisme direct injectif (resp. surjectif), il faut et il suffit qu’il existe $v$ dans $\mathscr{L}(F; E)$ tel que $v\circ u= 1_E$ (resp. $u\circ v= 1_F)$ (cf. TG, III, p. 47 et 48).
+Soient E et F des espaces localement convexes et $u\in \mathscr{L}(E; F)$. Pour que $u$ soit un morphisme direct injectif (resp. surjectif), il faut et il suffit qu’il existe $v$ dans $\mathscr{L}(F; E)$ tel que $v\circ u= 1_E$ (resp. $u\circ v= 1_F$) (cf. TG, III, p. 47 et 48).
 
 #### Proposition 3 {#ts-iii-s4-prop-3 .statement tag=02SL}
 
@@ -148,7 +148,7 @@ Par suite, $\varphi (u)$ est un quasi-inverse de $u$. Tout élément $u$ de U d�
 
 ind($u$) $=$ codim$_F(u(E_1))-$ codim$_E(E_1)$
 
-= dim(F$_2)-$ dim(E$_2) =$ ind($u_0$),
+= dim(F$_2$)$-$ dim(E$_2$) $=$ ind($u_0$),
 
 ce qui conclut la démonstration.
 
@@ -186,7 +186,7 @@ Soient E un espace de Banach et $u_0$ un endomorphisme de Riesz de E. Soit N (re
 
 (iii) Tout élément de U est un endomorphisme de Riesz dont le nilespace est de dimension $\leqslant d$.
 
-Si K = $\mathbf{C}$, notons Sp($u_0$) le spectre de $u_0$ relativement à l’algèbre $\mathscr{L}(E)$. Lorsque K = $\mathbf{R}$, notons Sp($u_0$) le spectre complexe Sp$_{\mathscr{L}(E_{(\mathbf{C})})}((u_0)_{(\mathbf{C})})$ de $u_0($I, p. 85, n$^o13$). D’après la prop. 14 de III, p. 54, le point 0 est isolé dans $\{0\} \cup$ Sp($u_0$). Soit $r >0$ un nombre réel tel que tout élément de Sp($u_0$)$-\{0\}$ soit de module $> r$. Notons V l’ouvert dans $\mathbf{C}$ formé des nombres complexes de valeur absolue $\not =r$; soit $f$ la fonction holomorphe sur V définie par $f(z) = 0$ si $|z|> r$ et $f(z) = 1$ si $|z|< r$. Si $K =\mathbf{C}$ (resp. $K =\mathbf{R})$, notons $U'$ l’ensemble des éléments $u$ de $\mathscr{L}(E)$ dont le spectre (resp. dont le spectre complexe) est contenu dans V. L’ensemble $U'$ est un voisinage ouvert de $u_0$ dans $\mathscr{L}(E)$ et l’application $u\mapsto f(u)$ de $U'$ dans $\mathscr{L}(E)$ est holomorphe (I, p. 76, prop. 10 et I, p. 85, n$^o13$).
+Si K = $\mathbf{C}$, notons Sp($u_0$) le spectre de $u_0$ relativement à l’algèbre $\mathscr{L}(E)$. Lorsque K = $\mathbf{R}$, notons Sp($u_0$) le spectre complexe Sp$_{\mathscr{L}(E_{(\mathbf{C})})}((u_0)_{(\mathbf{C})})$ de $u_0($I, p. 85, n$^o13$). D’après la prop. 14 de III, p. 54, le point 0 est isolé dans $\{0\} \cup$ Sp($u_0$). Soit $r >0$ un nombre réel tel que tout élément de Sp($u_0$)$-\{0\}$ soit de module $> r$. Notons V l’ouvert dans $\mathbf{C}$ formé des nombres complexes de valeur absolue $\not =r$; soit $f$ la fonction holomorphe sur V définie par $f(z) = 0$ si $|z|> r$ et $f(z) = 1$ si $|z|< r$. Si $K =\mathbf{C}$ (resp. $K =\mathbf{R}$), notons $U'$ l’ensemble des éléments $u$ de $\mathscr{L}(E)$ dont le spectre (resp. dont le spectre complexe) est contenu dans V. L’ensemble $U'$ est un voisinage ouvert de $u_0$ dans $\mathscr{L}(E)$ et l’application $u\mapsto f(u)$ de $U'$ dans $\mathscr{L}(E)$ est holomorphe (I, p. 76, prop. 10 et I, p. 85, n$^o13$).
 
 Soit $u\in U'$. L’endomorphisme $f(u)$ est le projecteur spectral $e_0(u)$; il commute à $u$, et $u$ induit par passage aux sous-espaces un automorphisme de Ker($e_0(u)$) $($cf. III, p. 53, n$^o6$).
 

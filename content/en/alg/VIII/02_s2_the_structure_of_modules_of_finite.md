@@ -34,7 +34,7 @@ subsections:
       pdf_page: 54
 statements: 37
 exercises: 20
-content_sha256: 914e243aae55024b8374f15d6c940a29370810a3872e09be2dd123eef9d21a5a
+content_sha256: 937d6660bbf18635e63c4c1addfaf3e44ee88a5456fdc47cb5c2eacabc9099b5
 ---
 
 ## § 2. THE STRUCTURE OF MODULES OF FINITE LENGTH
@@ -235,7 +235,7 @@ The $\mathbf{Z}$-module $\mathbf{Z}$ is indecomposable, Noetherian, but not Arti
 
 $*$Let $p$ be a prime number. The endomorphism ring of the $\mathbf{Z}$-module $\mathbf{Q}_p/\mathbf{Z}_p$ is isomorphic to the local ring $\mathbf{Z}_p$ (cf. VII, §4, p. 65, Exercise 13); it is therefore a primordial $\mathbf{Z}$-module.
 
-An injective module is indecomposable if and only if it is primordial (X, §1, n$^o9$, p. 21, proposition $14).*$
+An injective module is indecomposable if and only if it is primordial (X, §1, n$^o9$, p. 21, proposition $14$)$.*$
 
 ### 4. Semiprimordial Modules
 
@@ -289,17 +289,17 @@ Since $p$ is nonzero, $1_M-p$ is not injective. By Lemma 2, there exists an inde
 
 Let M be an A-module that is the direct sum of a family $(M_i)_{i\in I}$ of primordial submodules, let L be a primordial A-module, and let N be a direct factor submodule of M. Suppose that N is the direct sum of a family $(N_j)_{j\in J}$ of submodules isomorphic to L, and denote by $I_L$ the set of indices $i\in I$ such that $M_i$ is isomorphic to L. We then have
 
-(1) Card(J) $\leqslant$ Card(I$_L)$.
+(1) Card(J) $\leqslant$ Card(I$_L$).
 
 Let $N_0$ be a submodule of M supplementary to N. The module M is the direct sum of $N_0$ and the family $(N_j)_{j\in J}$. For every $j\in J$, denote by $p_j$ the projector of M with image $N_j$ associated with this decomposition (II, §1, No. 8, p. 209, Proposition 12). For every $i\in I$, denote by $J(i)$ the set of indices $j\in J$ such that $p_j$ induces an isomorphism from $M_i$ to $N_j$. This set is finite: indeed, if $x$ is a nonzero element of $M_i$ and K is a finite subset of J such that $x$ belongs to $N_0+\sum_{k\in K}N_k$, then we have $p_j(x) = 0$ for $j\in J$- K, so that $J(i)$ is contained in K.
 
 Let $j\in J$. By Lemma 3, there exists an index $i\in I$ such that $p_j$ induces an isomorphism from $M_i$ to a direct factor submodule of $N_j$. Since $M_i$ is nonzero and $N_j$ is primordial and therefore indecomposable (VIII, p. 31, Proposition 4), we have $p_j(M_i) = N_j$, and $j$ belongs to $J(i)$. Since the module $M_i$ is isomorphic to $N_j$ and hence to L, the index $i$ belongs to $I_L$. This proves that J is the union of the family of finite sets $(J(i))_{i\in I_L}$. If the set J is infinite, then the set $I_L$ is infinite, and we have (Set Theory, III, §6, No. 3, p. 188, Corollary 3)
 
-Card(J) $\leqslant \sum_{i\in I_L}$ Card(J($i$))$\leqslant$ Card(I$_L)$.
+Card(J) $\leqslant \sum_{i\in I_L}$ Card(J($i$))$\leqslant$ Card(I$_L$).
 
-Now, suppose that the set J is finite, and let us prove the lemma by induction on the cardinal of J. If J is empty, there is nothing to prove. Therefore, suppose that J is nonempty, and choose an element $j$ of J. By the above, there exists an index $i\in I_L$ such that $p_j$ induces an isomorphism from $M_i$ to $N_j$. Set $I'= I-\{i\}$ and $J'= J-\{j\}$. The module M is the direct sum of $M_i$ and the kernel of $p_j$. It is also the direct sum of $M_i$ and the submodule $M'=\oplus_{i'\in I'}M_{i'}$. Hence, there exists (II, §1, No. 9, p. 210, Corollary of Proposition 13) an isomorphism $\varphi$ from Ker $p_j= N_0\oplus_{j'\in J'}N_{j'}$ to $M'$. Set $N'=\varphi (\sum_{j'\in J'}N_{j'})$. The submodule $N'$ of $M'$ is a direct factor and is the direct sum of the family $(\varphi (N_{j'}))_{j'\in J'}$ of primordial submodules isomorphic to L. Let us apply the induction hypothesis to $M'$ and $N':$ we have Card(J$')\leqslant$ Card(I$_L-\{i\})$ and therefore inequality (1).
+Now, suppose that the set J is finite, and let us prove the lemma by induction on the cardinal of J. If J is empty, there is nothing to prove. Therefore, suppose that J is nonempty, and choose an element $j$ of J. By the above, there exists an index $i\in I_L$ such that $p_j$ induces an isomorphism from $M_i$ to $N_j$. Set $I'= I-\{i\}$ and $J'= J-\{j\}$. The module M is the direct sum of $M_i$ and the kernel of $p_j$. It is also the direct sum of $M_i$ and the submodule $M'=\oplus_{i'\in I'}M_{i'}$. Hence, there exists (II, §1, No. 9, p. 210, Corollary of Proposition 13) an isomorphism $\varphi$ from Ker $p_j= N_0\oplus_{j'\in J'}N_{j'}$ to $M'$. Set $N'=\varphi (\sum_{j'\in J'}N_{j'})$. The submodule $N'$ of $M'$ is a direct factor and is the direct sum of the family $(\varphi (N_{j'}))_{j'\in J'}$ of primordial submodules isomorphic to L. Let us apply the induction hypothesis to $M'$ and $N':$ we have Card(J$'$)$\leqslant$ Card(I$_L-\{i\}$) and therefore inequality (1).
 
-Let us prove Theorem 1. Let $(M_i)_{i\in I}$ and $(N_j)_{j\in J}$ be two families of primordial submodules with direct sum M. Let $I_L$ (resp. $J_L)$ be the set of $i\in I$ (resp. $j\in J)$ such that $M_i$ (resp. $N_j)$ is isomorphic to L. We have Card(J$_L)\leqslant$ Card(I$_L)$ by Lemma 4. By interchanging the roles of I and J, we obtain the inverse inequality and thus the theorem.
+Let us prove Theorem 1. Let $(M_i)_{i\in I}$ and $(N_j)_{j\in J}$ be two families of primordial submodules with direct sum M. Let $I_L$ (resp. $J_L$) be the set of $i\in I$ (resp. $j\in J$) such that $M_i$ (resp. $N_j$) is isomorphic to L. We have Card(J$_L$)$\leqslant$ Card(I$_L$) by Lemma 4. By interchanging the roles of I and J, we obtain the inverse inequality and thus the theorem.
 
 The cardinal [M : L] defined in Theorem 1 is called the primordial multiplicity of L in M.
 
@@ -317,9 +317,9 @@ $$
 
 Then there exist an automorphism $u$ of M and a bijection $\varphi$ from I to J such that we have $u(M_i) = M'_{\varphi(i)}$ for every $i\in I$.
 
-For any primordial module L, let $I_L$ (resp. $J_L)$ be the set of indices $i\in I$ (resp. $j\in J)$ such that $M_i$ (resp. $M'_j)$ is isomorphic to L. The nonempty sets of the form $I_L$ (resp. $J_L)$ form a partition of I (resp. J), and for every L, we have
+For any primordial module L, let $I_L$ (resp. $J_L$) be the set of indices $i\in I$ (resp. $j\in J$) such that $M_i$ (resp. $M'_j$) is isomorphic to L. The nonempty sets of the form $I_L$ (resp. $J_L$) form a partition of I (resp. J), and for every L, we have
 
-Card(I$_L) =$ Card(J$_L) = [M : L]$;
+Card(I$_L$) $=$ Card(J$_L$) $= [M : L]$;
 
 the corollary follows.
 
@@ -393,7 +393,7 @@ Let K be a commutative field, A a K-algebra, and M and N modules of finite lengt
 
 a) First, suppose that the algebra $K'$ has finite degree $d$ over K. Then the A-module $M_{(K')}$ is isomorphic to $M^d$ and the A-module $N_{(K')}$ is isomorphic to $N^d$, so that the A-modules $M^d$ and $N^d$ are isomorphic. By Theorem 2, d), the A-modules M and N are isomorphic.
 
-b) Now, suppose that the K-algebra $K'$ is generated by finitely many elements. Choose a maximal ideal $\mathfrak{m}$ of $K'$, and set $K''= K'/\mathfrak{m}$. By Hilbert’s Nullstellensatz (VIII, p. 462, Corollary 1 of Theorem 1$), K''$ is a finite-degree extension of K. By extension of scalars from $K'$ to $K''$, we deduce from the $A_{(K')}$-linear isomorphism $M_{(K')}\rightarrow N_{(K')}$ an $A_{(K'')}$-linear isomorphism $M_{(K'')}\rightarrow N_{(K'')}$. By part a) of the proof, the A-modules M and N are isomorphic.
+b) Now, suppose that the K-algebra $K'$ is generated by finitely many elements. Choose a maximal ideal $\mathfrak{m}$ of $K'$, and set $K''= K'/\mathfrak{m}$. By Hilbert’s Nullstellensatz (VIII, p. 462, Corollary 1 of Theorem 1)$, K''$ is a finite-degree extension of K. By extension of scalars from $K'$ to $K''$, we deduce from the $A_{(K')}$-linear isomorphism $M_{(K')}\rightarrow N_{(K')}$ an $A_{(K'')}$-linear isomorphism $M_{(K'')}\rightarrow N_{(K'')}$. By part a) of the proof, the A-modules M and N are isomorphic.
 
 c) Finally, let us treat the general case. Let $u: M_{(K')}\rightarrow N_{(K')}$ be an isomorphism of $A_{(K')}$-modules and $v: N_{(K')}\rightarrow M_{(K')}$ the inverse isomorphism. Denote by $\mathscr{E}$ the set of K-subalgebras of $K'$ generated by finitely many elements. If E is such a subalgebra, then $A_{(E)}$ is identified with a subring of $A_{(K')}$, and $M_{(E)}$ and $N_{(E)}$ are identified with $A_{(E)}$-submodules of $M_{(K')}$ and $N_{(K')}$, respectively (II, §7, No. 7, p. 306); moreover, $M_{(K')}$ and $N_{(K')}$ are unions of right directed families $(M_{(E)})_{E\in\mathscr{E}}$ and $(N_{(E)})_{E\in\mathscr{E}}$, respectively. The A-modules M and N are of finite length, hence finitely generated; let S be a finite generating subset of the A-module M and T a finite generating subset of the A-module N. There exists a K-algebra $E\in \mathscr{E}$ such that we have $u(1\otimes s)\in N_{(E)}$ for every $s\in S$ and $v(1\otimes t)\in M_{(E)}$ for every $t\in T$. It follows by linearity that we have $u(M_{(E)})\subset N_{(E)}$ and $v(N_{(E)})\subset M_{(E)}$. The maps $u$ and $v$ then induce inverse bijections from $M_{(E)}$ to $N_{(E)}$ and from $N_{(E)}$ to $M_{(E)}$. These bijections are clearly $A_{(E)}$-linear. Thus, the $A_{(E)}$-modules $M_{(E)}$ and $N_{(E)}$ are isomorphic. By part b) of the proof, the A-modules M and N are isomorphic.
 

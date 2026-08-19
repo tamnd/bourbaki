@@ -45,7 +45,7 @@ subsections:
       pdf_page: 78
 statements: 43
 exercises: 8
-content_sha256: 7dd38af5b6337429891d1b1e47a5dee67bdb5257cd7198a36397acb5d36e296f
+content_sha256: dba7f5d7d23471c6c7da147d8c4043b53381b71c9234c6b4851894a662774e1c
 ---
 
 ## § 4. MODULES SEMI-SIMPLES
@@ -170,7 +170,7 @@ pour $h\in$ Hom$_A(\mathscr{T}(V),M),v\in V$ et $p\in P$. L’isomorphisme $\gam
 
 Soit M un A-module à gauche. Le A-module $\mathscr{T}(\mathscr{H}(M))$ n’est autre que le A-module $P\otimes_B$ Hom$_A(P,M)$. En appliquant ce qui précède au B-module $\mathscr{H}$ (M), l’application
 
-$\alpha_M=\gamma^{-1}$(Id$_{\mathscr{H}(M)}) :\mathscr{T}(\mathscr{H}(M))\longrightarrow M$
+$\alpha_M=\gamma^{-1}$(Id$_{\mathscr{H}(M)}$) $:\mathscr{T}(\mathscr{H}(M))\longrightarrow M$
 
 est l’unique application satisfaisant à
 
@@ -198,7 +198,7 @@ $$
 
 pour tous $f\in$ Hom$_B(V,\mathscr{H}$ (M)), $v\in V$ et $p\in P$.
 
-Soit V un B-module. Le B-module $\mathscr{H}(\mathscr{T}(V))$ n’est autre que le B-module Hom$_A(P,P\otimes_BV)$. En appliquant (5) au A-module $\mathscr{T}$ (V), l’application B-linéaire $\beta_V=\gamma$(Id$_{\mathscr{T}(V)})$ de V dans $\mathscr{H}(\mathscr{T}(V))$ est caractérisée par la relation
+Soit V un B-module. Le B-module $\mathscr{H}(\mathscr{T}(V))$ n’est autre que le B-module Hom$_A(P,P\otimes_BV)$. En appliquant (5) au A-module $\mathscr{T}$ (V), l’application B-linéaire $\beta_V=\gamma$(Id$_{\mathscr{T}(V)}$) de V dans $\mathscr{H}(\mathscr{T}(V))$ est caractérisée par la relation
 
 $$
 \beta_V(v)(p) =p\otimes v \tag{8}
@@ -208,7 +208,7 @@ pour $p\in P$ et $v\in V$. Nous dirons que $\beta_V$ est l’application B-liné
 
 V $^{\beta_V}$ /$/\mathscr{H}(\mathscr{T}(V))$ (II) $g\mathscr{H}_{\mathscr{T}}$
 
-( $(g))$
+( $(g)$)
 
 $$
 {V'}^{\beta_{V'}}//\mathscr{H}(\mathscr{T}(V'))
@@ -314,7 +314,7 @@ Comme dans le numéro précédent, A désigne un anneau, S un A-module à gauche
 
 Soit M un A-module isotypique de type S. Une description de M relative à S est un couple $(V, \alpha )$, où V est un espace vectoriel à gauche sur le corps D et $\alpha : S\otimes_DV\rightarrow M$un isomorphisme de A-modules.
 
-Tout A-module M isotypique de type S possède une description canonique : c’est le couple (Hom$_A(S,M), \alpha_M)$ où $\alpha_M: S\otimes_D$ Hom$_A(S,M)\rightarrow M$ est l’isomorphisme de A-modules caractérisée par $\alpha_M(s\otimes f) =f(s)$ (VIII, p. 58, prop. 3 a)).
+Tout A-module M isotypique de type S possède une description canonique : c’est le couple (Hom$_A(S,M), \alpha_M$) où $\alpha_M: S\otimes_D$ Hom$_A(S,M)\rightarrow M$ est l’isomorphisme de A-modules caractérisée par $\alpha_M(s\otimes f) =f(s)$ (VIII, p. 58, prop. 3 a)).
 
 #### Théorème 2 {#alg-viii-s4-thm-2 .statement tag=004J}
 
@@ -340,7 +340,7 @@ long$_A(M) =$ dim$_D(V)$.
 
 Soit M un A-module isotypique de type S. Pour tout sous-A-module N de M, identifions Hom$_A(S,N)$au sous-D-espace vectoriel de Hom$_A(S,M)$ formé des applications dont l’image est contenue dans N.
 
-a) L’application $N\rightarrow$ Hom$_A(S,N)$est un isomorphisme d’ensembles ordonnés de $\mathscr{D}_A(M)$sur $\mathscr{D}_D$(Hom$_A(S,M))$.
+a) L’application $N\rightarrow$ Hom$_A(S,N)$est un isomorphisme d’ensembles ordonnés de $\mathscr{D}_A(M)$sur $\mathscr{D}_D$(Hom$_A(S,M)$).
 
 b) La bijection réciproque associe à tout sous-espace vectoriel W de Hom$_A(S,M)$ le sous-module $\sum_{h\in W}h(S)$de M.
 
@@ -380,7 +380,7 @@ Soit M un A-module isotypique de type S et soit $(V, \alpha )$ une description d
 
 #### Corollaire {#alg-viii-s4-n5-cor-1 .statement tag=004P}
 
-Soient M, $M'$ des A-modules isotypiques de type S. L’application $u\rightarrow$ Hom(1$_S, u)$de Hom$_A(M,M')$dans Hom$_D$(Hom$_A(S,M)$, Hom$_A(S,M'))$est un isomorphisme de groupes. Lorsque M est égal à $M'$, c’est un isomorphisme d’anneaux de End$_A(M)$sur End$_D$(Hom$_A(S,M))$.
+Soient M, $M'$ des A-modules isotypiques de type S. L’application $u\rightarrow$ Hom(1$_S, u$)de Hom$_A(M,M')$dans Hom$_D$(Hom$_A(S,M)$, Hom$_A(S,M')$)est un isomorphisme de groupes. Lorsque M est égal à $M'$, c’est un isomorphisme d’anneaux de End$_A(M)$sur End$_D$(Hom$_A(S,M)$).
 
 Compte tenu de la commutativité du diagramme (I) de VIII, p. 55 ce corollaire résulte du th. 3, appliqué aux descriptions canoniques de M et $M'$.
 
@@ -436,7 +436,7 @@ Pour tout $\lambda \in \mathscr{S}$, le sous-module $f(M_{\lambda})$ de N est is
 
 Supposons que M soit semi-simple et $f$ surjectif. Alors $f$ induit un isomorphisme de $M/$ Ker($f$) sur N qui envoie $(M_{\lambda}+$ Ker($f$))$/$ Ker($f$) sur $f(M_{\lambda})$. D’apres la prop. 4 de VIII, p. 61, $N_{\lambda}=f(M_{\lambda})$ ce qui termine la démonstration de a).
 
-L’application considérée dans b) est clairement un homomorphisme de groupes et c’est un homomorphisme d’anneaux lorsque M est égal à N. Soit $(f_{\lambda})_{\lambda\in\mathscr{S}}$ un élément de $\prod_{\lambda\in\mathscr{S}}$ Hom(M$_{\lambda},N_{\lambda})$. Son unique antécédent par l’application de b) est l’homomorphisme $f: M\rightarrow N$ défini par
+L’application considérée dans b) est clairement un homomorphisme de groupes et c’est un homomorphisme d’anneaux lorsque M est égal à N. Soit $(f_{\lambda})_{\lambda\in\mathscr{S}}$ un élément de $\prod_{\lambda\in\mathscr{S}}$ Hom(M$_{\lambda},N_{\lambda}$). Son unique antécédent par l’application de b) est l’homomorphisme $f: M\rightarrow N$ défini par
 
 $$
 f((\sum_{\lambda\in\mathscr{S}}x_{\lambda})=\sum_{\lambda\in\mathscr{S}}f_{\lambda}(x_{\lambda})
@@ -450,7 +450,7 @@ Soient A et B des anneaux. Soit M un $(A$, B)-bimodule. Il résulte de la prop. 
 
 #### Exemple {#alg-viii-s4-n6-exa-1 .statement tag=004V}
 
-Examinons le cas où l’anneau A est commutatif. L’application qui envoie un idéal maximal $\mathfrak{m}$ sur cl(A$/\mathfrak{m})$ est une bijection de l’ensemble des idéaux maximaux de A sur l’ensemble $\mathscr{S}$ des classes de A-modules simples (VIII, p. 47). La bijection réciproque associe à $\lambda$ son annulateur $\mathfrak{m}_{\lambda}$.
+Examinons le cas où l’anneau A est commutatif. L’application qui envoie un idéal maximal $\mathfrak{m}$ sur cl(A$/\mathfrak{m}$) est une bijection de l’ensemble des idéaux maximaux de A sur l’ensemble $\mathscr{S}$ des classes de A-modules simples (VIII, p. 47). La bijection réciproque associe à $\lambda$ son annulateur $\mathfrak{m}_{\lambda}$.
 
 Soit N un A-module. Pour tout $\lambda \in \mathscr{S}$, le composant isotypique $M_{\lambda}$ de M est formé des éléments annulés par $\mathfrak{m}_{\lambda}$ et l’on peut considérer $M_{\lambda}$ comme un espace vectoriel sur le corps $A/\mathfrak{m}_{\lambda}$. Si M est semi-simple et si N est un autre A-module, on déduit de la prop. 5 un isomorphisme de groupes de Hom$_A(M,N)$ sur $\prod_{\lambda\in\mathscr{S}}$ Hom$_{A/\mathfrak{m}_{\lambda}}(M_{\lambda},N_{\lambda})$.
 
@@ -492,11 +492,11 @@ $$
 h(ud)(v) =h(d\circ u)(v) =d\circ u\circ v=d\circ (h(u)(v)) =h(u)(v)d
 $$
 
-Cela prouve que l’application $h$ est D-linéaire. Elle n’est autre que l’application donnée par $u\rightarrow$ Hom(1$_S, u)$ de Hom$_A(M,S)$ dans Hom$_D$(Hom$_A(S,M)$, Hom$_A(S,S))$. Pour démontrer qu’elle est bijective, il suffit d’après la prop. 5, b) de VIII, p. 62, de traiter le cas où le A-module M est isotypique de type S et on peut alors appliquer le cor. de VIII, p. 60.
+Cela prouve que l’application $h$ est D-linéaire. Elle n’est autre que l’application donnée par $u\rightarrow$ Hom(1$_S, u$) de Hom$_A(M,S)$ dans Hom$_D$(Hom$_A(S,M)$, Hom$_A(S,S)$). Pour démontrer qu’elle est bijective, il suffit d’après la prop. 5, b) de VIII, p. 62, de traiter le cas où le A-module M est isotypique de type S et on peut alors appliquer le cor. de VIII, p. 60.
 
 ### 7. Description d’un module semi-simple
 
-Jusqu’à la fin de ce paragraphe, on note A un anneau et $\mathscr{S}$ l’ensemble des classes de A-modules simples. Pour tout $\lambda \in \mathscr{S}$, on choisit un module simple $S_{\lambda}$ de classe $\lambda$ (par exemple $S_{\lambda}=\lambda )$ et l’on note $D_{\lambda}$ l’anneau opposé du corps des endomorphismes de $S_{\lambda}$; on considère $S_{\lambda}$ comme un $(A,D_{\lambda}$)-bimodule.
+Jusqu’à la fin de ce paragraphe, on note A un anneau et $\mathscr{S}$ l’ensemble des classes de A-modules simples. Pour tout $\lambda \in \mathscr{S}$, on choisit un module simple $S_{\lambda}$ de classe $\lambda$ (par exemple $S_{\lambda}=\lambda$ ) et l’on note $D_{\lambda}$ l’anneau opposé du corps des endomorphismes de $S_{\lambda}$; on considère $S_{\lambda}$ comme un $(A,D_{\lambda}$)-bimodule.
 
 Soit M un A-module. Pour tout $\lambda \in \mathscr{S}$, Hom$_A(S_{\lambda},M)$ est un espace vectoriel à gauche sur le corps $D_{\lambda}$. D’après VIII, p. 55 et II, p. 12, prop. 6, il existe une unique application A-linéaire, dite canonique,
 
@@ -518,9 +518,9 @@ Soit $\lambda \in \mathscr{S}$. Notons $M_{\lambda}$ le composant isotypique de 
 
 #### Définition 5 {#alg-viii-s4-def-5 .statement tag=004Z}
 
-Soit M un A-module semi-simple. Une description de M (relative à la famille $(S_{\lambda})_{\lambda\in\mathscr{S}})$est un couple $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$, où $V_{\lambda}$ est un espace vectoriel à gauche sur le corps $D_{\lambda}$ pour chaque $\lambda \in \mathscr{S}$ et où $\alpha :\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})\rightarrow M$est un isomorphisme de A-modules.
+Soit M un A-module semi-simple. Une description de M (relative à la famille $(S_{\lambda})_{\lambda\in\mathscr{S}}$)est un couple $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$, où $V_{\lambda}$ est un espace vectoriel à gauche sur le corps $D_{\lambda}$ pour chaque $\lambda \in \mathscr{S}$ et où $\alpha :\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})\rightarrow M$est un isomorphisme de A-modules.
 
-Tout A-module semi-simple M possède d’après la prop. 7 une description canonique : c’est le couple ((Hom$_A(S_{\lambda},M))_{\lambda\in\mathscr{S}}, \alpha_M)$ où $\alpha_M$ est l’application A-linéaire définie par la formule (10).
+Tout A-module semi-simple M possède d’après la prop. 7 une description canonique : c’est le couple ((Hom$_A(S_{\lambda},M)$)$_{\lambda\in\mathscr{S}}, \alpha_M$) où $\alpha_M$ est l’application A-linéaire définie par la formule (10).
 
 #### Proposition 8 {#alg-viii-s4-prop-8 .statement tag=0050}
 
@@ -548,7 +548,7 @@ Soit N un sous-module de M. On a $N =\bigoplus_{\lambda\in\mathscr{S}}(N\cap M_{
 
 Soit M un A-module semi-simple. Pour tout sous-module N de M et tout élément $\lambda$ de $\mathscr{S}$, identifions Hom$_A(S_{\lambda},N)$au sous-$D_{\lambda}$-espace vectoriel de Hom$_A(S_{\lambda},M)$formé des applications dont l’image est contenue dans N.
 
-a) L’application $N\rightarrow$ (Hom$_A(S_{\lambda},N))_{\lambda\in\mathscr{S}}$ est une bijection de l’ensemble des sous-A-modules de M sur l’ensemble des familles $(W_{\lambda})_{\lambda\in\mathscr{S}}$ telles que, pour tout $\lambda \in \mathscr{S}, W_{\lambda}$ soit un sous-$D_{\lambda}$-espace vectoriel de Hom$_A(S_{\lambda},M)$.
+a) L’application $N\rightarrow$ (Hom$_A(S_{\lambda},N)$)$_{\lambda\in\mathscr{S}}$ est une bijection de l’ensemble des sous-A-modules de M sur l’ensemble des familles $(W_{\lambda})_{\lambda\in\mathscr{S}}$ telles que, pour tout $\lambda \in \mathscr{S}, W_{\lambda}$ soit un sous-$D_{\lambda}$-espace vectoriel de Hom$_A(S_{\lambda},M)$.
 
 b) La bijection réciproque associe à une famille $(W_{\lambda})_{\lambda\in\mathscr{S}}$ le sous-A-module $\sum_{\lambda\in\mathscr{S}}\sum_{w\in W_{\lambda}}w(S_{\lambda})$de M.
 
@@ -570,11 +570,11 @@ Compte tenu de la description des composants isotypiques de M et $M'$ donnée da
 
 #### Corollaire {#alg-viii-s4-n7-cor-2 .statement tag=0053}
 
-Soient M un A-module semi-simple et $M'$ un A-module. L’application $u\rightarrow$ (Hom(1$_{S_{\lambda}}, u))_{\lambda\in\mathscr{S}}$ de Hom$_A(M,M')$dans
+Soient M un A-module semi-simple et $M'$ un A-module. L’application $u\rightarrow$ (Hom(1$_{S_{\lambda}}, u$))$_{\lambda\in\mathscr{S}}$ de Hom$_A(M,M')$dans
 
-$\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$, Hom$_A(S_{\lambda},M'))$
+$\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$, Hom$_A(S_{\lambda},M')$)
 
-est un isomorphisme de groupes. Lorsque $M'$ est égal à M, c’est un isomorphisme de l’anneau End$_A(M)$sur l’anneau $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M))$.
+est un isomorphisme de groupes. Lorsque $M'$ est égal à M, c’est un isomorphisme de l’anneau End$_A(M)$sur l’anneau $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$).
 
 C’est une traduction de la proposition 9 appliquée aux descriptions canoniques de M et du socle de $M'$.
 
@@ -596,7 +596,7 @@ Soit M un A-module semi-simple. Soit $(M_i)_{i\in I}$ une famille de sous-module
 
 Si M satisfait à ces propriétés, la longueur de M est égale au cardinal de I.
 
-Si l’ensemble I est fini, M possède les propriétés (i) , (ii) , (iii) et (iv). Supposons l’ensemble I infini. D’après l’exemple 2 de VIII, p. 2, le module M n’est ni artinien, ni noethérien ; comme tout module de longueur finie est artinien et noethérien (VIII, p. 2, prop. 1), M n’est pas davantage de longueur finie. Enfin, tout élément de M appartient à la somme d’un nombre fini de sous-modules $M_i$, donc M n’est pas de type fini. Cela prouve l’équivalence des conditions (i) à (v). Si celles-ci sont satisfaites, on a long(M) $=\sum_{i\in I}$ long(M$_i) =$ Card(I) (II, p.23, cor. 5).
+Si l’ensemble I est fini, M possède les propriétés (i) , (ii) , (iii) et (iv). Supposons l’ensemble I infini. D’après l’exemple 2 de VIII, p. 2, le module M n’est ni artinien, ni noethérien ; comme tout module de longueur finie est artinien et noethérien (VIII, p. 2, prop. 1), M n’est pas davantage de longueur finie. Enfin, tout élément de M appartient à la somme d’un nombre fini de sous-modules $M_i$, donc M n’est pas de type fini. Cela prouve l’équivalence des conditions (i) à (v). Si celles-ci sont satisfaites, on a long(M) $=\sum_{i\in I}$ long(M$_i$) $=$ Card(I) (II, p.23, cor. 5).
 
 #### Proposition 11 {#alg-viii-s4-prop-11 .statement tag=0055}
 
@@ -606,11 +606,11 @@ Le composant isotypique de type $\lambda$ de A est isomorphe à $S^{(I(\lambda))
 
 Tout module simple est primordial (VIII, p. 41), donc tout module semi-simple est semi-primordial. Soit M un A-module semi-simple et soit $\lambda \in \mathscr{S}$. On appelle multiplicité de $\lambda$ dans M la multiplicité primordiale $[M :\lambda ]$ de $\lambda$ dans M définie en VIII, p. 32. La prop. 11 se traduit par l’égalité
 
-(11) $[M :\lambda ] =$ dim$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M))$.
+(11) $[M :\lambda ] =$ dim$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$).
 
 Plus généralement, si $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$ est une description de M, alors $[M :\lambda ]$ est égal à dim$_{D_{\lambda}}(V_{\lambda})$. D’après la prop. 6 de VIII, p. 64, on a aussi
 
-(12) $[M :\lambda ] =$ dim$_{D_{\lambda}}$(Hom$_A(M,S_{\lambda}))$
+(12) $[M :\lambda ] =$ dim$_{D_{\lambda}}$(Hom$_A(M,S_{\lambda})$)
 
 lorsque la multiplicité $[M :\lambda ]$ est finie. Pour que des A-modules semi-simples M et $M'$ soient isomorphes, il faut et il suffit qu’on ait $[M :\lambda ] = [M':\lambda ]$ pour tout $\lambda \in \mathscr{S}$.
 

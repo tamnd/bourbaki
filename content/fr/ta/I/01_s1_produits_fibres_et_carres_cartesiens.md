@@ -57,7 +57,7 @@ subsections:
       pdf_page: 36
 statements: 44
 exercises: 2
-content_sha256: e425dea4e2ea63d8faa1a5ae64137218cdc4c8e9ab91d243b60ea3025eed2a50
+content_sha256: 3d812fa4803abbe5bd107374726b69bde6a21ada1b7be0aa98125d4d9ada3bb3
 ---
 
 ## § 1. PRODUITS FIBRÉS ET CARRÉS CARTÉSIENS
@@ -86,7 +86,7 @@ Soient X, $X'$ des B-espaces. On note $\mathscr{C}_B(X; X')$ l’ensemble des B-
 
 Soient X un B-espace et $p$ sa projection. Si l’on munit B de la structure de B-espace dont la projection est Id$_B$, l’ensemble $\mathscr{C}_B(B; X)$ est l’ensemble des sections (E, II, p. 18, déf. 11) continues de $p$.
 
-Soient X un B-espace, $p$ sa projection et $b$ un point de B. Le sous-espace $\overset{-1}{p}(b)$ de X est appelé la fibre de X en $b$ (ou la fibre de $p$ en $b)$ et noté $X_b$. Pour qu’une application continue $f$ de X dans un B-espace $X'$ soit un B-morphisme, il faut et il suffit que $f(X_b)$ soit contenu dans $X'_b$ pour tout $b\in B$.
+Soient X un B-espace, $p$ sa projection et $b$ un point de B. Le sous-espace $\overset{-1}{p}(b)$ de X est appelé la fibre de X en $b$ (ou la fibre de $p$ en $b$) et noté $X_b$. Pour qu’une application continue $f$ de X dans un B-espace $X'$ soit un B-morphisme, il faut et il suffit que $f(X_b)$ soit contenu dans $X'_b$ pour tout $b\in B$.
 
 Soient X un B-espace et $p$ sa projection. Soit $f$ une application continue d’un espace topologique $B'$ dans B. Une application continue $g: B'\rightarrow X$ telle que $p\circ g=f$ est appelée un relèvement continu de $f$ à X. Autrement dit, si l’on munit $B'$ de la structure de B-espace de projection $f$, les relèvements continus de $f$ à X sont les B-morphismes de $B'$ dans X.
 
@@ -96,7 +96,7 @@ Soit B un espace topologique.
 
 Soient X un B-espace et $p$ sa projection. On munit tout sous-espace topologique Y de X de la structure de B-espace dont la projection est $p|Y$. Soit A un sous-espace de B; muni de l’application $p_A:\overset{-1}{p}(A)\rightarrow A$ déduite de $p$ par passage aux sous-ensembles, l’espace topologique $\overset{-1}{p}(A)$, est un A-espace. On l’appelle le A-espace induit par $(X, p)$ au-dessus de A et on le note parfois $X_A$.
 
-Soit $(X_i)_{i\in I}$ une famille de B-espaces, et soit $p_i$ la projection de $X_i$. L’espace somme $X =\coprod_{i\in I}X_i$ (TG, I, p. 15), muni de l’application $p: X\rightarrow$ B définie par $p(i, x) =p_i(x)$ (pour $i\in$ I et $x\in X_i)$, est un B-espace appelé la somme de la famille de B-espaces $(X_i)_{i\in I}$. Les injections canoniques $X_i\rightarrow X$ sont des B-morphismes.
+Soit $(X_i)_{i\in I}$ une famille de B-espaces, et soit $p_i$ la projection de $X_i$. L’espace somme $X =\coprod_{i\in I}X_i$ (TG, I, p. 15), muni de l’application $p: X\rightarrow$ B définie par $p(i, x) =p_i(x)$ (pour $i\in$ I et $x\in X_i$), est un B-espace appelé la somme de la famille de B-espaces $(X_i)_{i\in I}$. Les injections canoniques $X_i\rightarrow X$ sont des B-morphismes.
 
 Soient X un B-espace, $p$ sa projection et soit R une relation d’équivalence sur X. Notons $X/R$ l’espace quotient (TG, I, p. 20, déf. 3). Si l’application $p: X\rightarrow B$ est compatible avec la relation R (E, II, p. 44), l’application $p': X/R\rightarrow B$ déduite de $p$ par passage au quotient est continue (TG, I, p. 21, prop. 6) ; le B-espace obtenu en munissant $X/R$ de la projection $p'$ est alors appelé le B-espace quotient de X par la relation R.
 
@@ -130,7 +130,7 @@ Soient X un B-espace et $p$ sa projection. Le produit fibré $X\times_BX$ de X e
 
 #### Exemple 4 {#ta-i-s1-n3-exa-4 .statement tag=01LE}
 
-Soit $(B_i)_{i\in I}$ une famille d’espaces topologiques et soient, pour tout $i\in I$, $(X_i, p_i)$ et $(Y_i, q_i)$ des $B_i$-espaces. Posons $B =\prod_{i\in I}B_i$, $X =\prod_{i\in I}X_i$ et $Y =\prod_{i\in I}Y_i$. Muni de l’application continue $p=\prod_ip_i$ (resp. $q=\prod_iq_i)$, l’espace topologique X (resp. Y) est un B-espace. Par l’isomorphisme d’associativité des produits topologiques de $\prod_i(X_i\times Y_i)$ sur $(\prod_iX_i)\times (\prod_iY_i) = X\times Y$ (TG, I, p. 25, prop. 2), le sous-espace $\prod_i(X_i\times_{B_i}Y_i)$ de $\prod_i(X_i\times Y_i)$ s’identifie à $X\times_BY$.
+Soit $(B_i)_{i\in I}$ une famille d’espaces topologiques et soient, pour tout $i\in I$, $(X_i, p_i)$ et $(Y_i, q_i)$ des $B_i$-espaces. Posons $B =\prod_{i\in I}B_i$, $X =\prod_{i\in I}X_i$ et $Y =\prod_{i\in I}Y_i$. Muni de l’application continue $p=\prod_ip_i$ (resp. $q=\prod_iq_i$), l’espace topologique X (resp. Y) est un B-espace. Par l’isomorphisme d’associativité des produits topologiques de $\prod_i(X_i\times Y_i)$ sur $(\prod_iX_i)\times (\prod_iY_i) = X\times Y$ (TG, I, p. 25, prop. 2), le sous-espace $\prod_i(X_i\times_{B_i}Y_i)$ de $\prod_i(X_i\times Y_i)$ s’identifie à $X\times_BY$.
 
 #### Exemple 5 {#ta-i-s1-n3-exa-5 .statement tag=01LF}
 
@@ -144,7 +144,7 @@ définie par $h((i, j),(x, y)) = ((i, x),(j, y))$ est un B-isomorphisme.
 
 ### 4. Changement de base
 
-Soient B, $B'$ des espaces topologiques et $f: B'\rightarrow B$ une application continue. Soit X un B-espace. L’application $f$ munit $B'$ d’une structure de B-espace, ce qui permet de définir le produit fibré $B'\times_BX$. Celui-ci, muni de l’application pr$_1: B'\times_BX\rightarrow B'$ est un $B'$-espace appelé le $B'$-espace déduit du B-espace X par le changement de base $f: B'\rightarrow B$ (ou par changement de base de B à $B'$ suivant $f)$. On l’appelle aussi le $B'$-espace image réciproque de X par $f$. On le note $f^*(X)$, ou parfois $X_{B'}$ lorsqu’il n’y a pas de confusion possible sur l’application $f$.
+Soient B, $B'$ des espaces topologiques et $f: B'\rightarrow B$ une application continue. Soit X un B-espace. L’application $f$ munit $B'$ d’une structure de B-espace, ce qui permet de définir le produit fibré $B'\times_BX$. Celui-ci, muni de l’application pr$_1: B'\times_BX\rightarrow B'$ est un $B'$-espace appelé le $B'$-espace déduit du B-espace X par le changement de base $f: B'\rightarrow B$ (ou par changement de base de B à $B'$ suivant $f$). On l’appelle aussi le $B'$-espace image réciproque de X par $f$. On le note $f^*(X)$, ou parfois $X_{B'}$ lorsqu’il n’y a pas de confusion possible sur l’application $f$.
 
 Lorsque $B'$ est un sous-espace de B et que $f: B'\rightarrow B$ est l’injection canonique, l’application $(b', x)\mapsto x$ de $B'\times_BX'$ dans $\overset{-1}{p}(B')$ (où $p$ est la projection de X) est un $B'$-isomorphisme de $f^*(X)$ sur le $B'$-espace induit par X au-dessus de $B'$.
 
@@ -168,7 +168,7 @@ Soient $(X_i)_{i\in I}$ et $(Y_i)_{i\in I}$ des familles de B-espaces et, pour t
 
 #### Exemple 1 {#ta-i-s1-n5-exa-1 .statement tag=01LH}
 
-Lorsque l’ensemble I est vide, l’ensemble $\prod_{i\in I}X_i$ est réduit à un élément et le B-espace $\prod_BX_i$ s’identifie à B (muni de la projection Id$_B)$.
+Lorsque l’ensemble I est vide, l’ensemble $\prod_{i\in I}X_i$ est réduit à un élément et le B-espace $\prod_BX_i$ s’identifie à B (muni de la projection Id$_B$).
 
 #### Exemple 2 {#ta-i-s1-n5-exa-2 .statement tag=01LI}
 
@@ -176,7 +176,7 @@ Lorsque I n’est pas vide, on déduit de l’application $(b, x)\mapsto x$ de $
 
 #### Exemple 3 {#ta-i-s1-n5-exa-3 .statement tag=01LJ}
 
-Lorsque l’ensemble I est un ensemble à un élément $\alpha$ (resp. à deux éléments $\alpha$ et $\beta$; resp. à trois éléments $\alpha ,\beta ,\gamma )$, l’application pr$_{\alpha}$ (resp. (pr$_{\alpha}$, pr$_{\beta})$ ; resp. (pr$_{\alpha}$, pr$_{\beta}$, pr$_{\gamma})$) de $\prod_BX_i$ dans $X_{\alpha}$ (resp. dans $X_{\alpha}\times_BX_{\beta}$; resp. dans $X_{\alpha}\times_BX_{\beta}\times_BX_{\gamma})$ est un B-isomorphisme. Cela nous permettra de déduire les propriétés du produit fibré de deux ou trois B-espaces de celles du produit fibré de familles de B-espaces.
+Lorsque l’ensemble I est un ensemble à un élément $\alpha$ (resp. à deux éléments $\alpha$ et $\beta$; resp. à trois éléments $\alpha ,\beta ,\gamma$ ), l’application pr$_{\alpha}$ (resp. (pr$_{\alpha}$, pr$_{\beta}$) ; resp. (pr$_{\alpha}$, pr$_{\beta}$, pr$_{\gamma}$)) de $\prod_BX_i$ dans $X_{\alpha}$ (resp. dans $X_{\alpha}\times_BX_{\beta}$; resp. dans $X_{\alpha}\times_BX_{\beta}\times_BX_{\gamma}$) est un B-isomorphisme. Cela nous permettra de déduire les propriétés du produit fibré de deux ou trois B-espaces de celles du produit fibré de familles de B-espaces.
 
 Soit $(X_i)_{i\in I}$ une famille de B-espaces et soit J une partie de I. On déduit de l’application Id$_B\times$ pr$_J$ de $B\times \prod_{i\in I}X_i$ dans $B\times \prod_{i\in J}X_i$, par passage aux sous-ensembles, un B-morphisme $\prod_{i\in IB}X_i\rightarrow \prod_{i\in JB}X_i$. On le
 
@@ -184,7 +184,7 @@ note encore pr$_J$ et on l’appelle la projection d’indice J du produit fibr�
 
 Soit $(X_i)_{i\in I}$ une famille de B-espaces. Soit $(J_{\lambda})_{\lambda\in L}$ une partition
 
-de I. L’application (pr$_{J_{\lambda}})_{\lambda\in L}$ de $\prod_{i\in IB}X_i\rightarrow \prod_{\lambda\in LB}(\prod_{i\in J_{\lambda}B}X_i)$ est un
+de I. L’application (pr$_{J_{\lambda}}$)$_{\lambda\in L}$ de $\prod_{i\in IB}X_i\rightarrow \prod_{\lambda\in LB}(\prod_{i\in J_{\lambda}B}X_i)$ est un
 
 B-isomorphisme (« associativité » des produits fibrés de B-espaces).
 
@@ -438,7 +438,7 @@ $$
 (9')
 $$
 
-${B'}^f$ B soit commutatif (cette dernière condition résultant des autres si I $=\not\emptyset ) :$ c’est l’application déduite de l’application
+${B'}^f$ B soit commutatif (cette dernière condition résultant des autres si I $=\not\emptyset$ ) $:$ c’est l’application déduite de l’application
 
 $$
 f\times \prod_{i\in I}f'_i: B'\times \prod_{i\in I}X'_i\rightarrow B\times \prod_{i\in I}X_i
@@ -560,7 +560,7 @@ $$
 j: B''\times_BX\rightarrow B''\times_{B'}(B'\times_BX)
 $$
 
-l’application continue qui à $(b'', x)$ associe $(b'', g(b''), x)$. C’est un homéomorphisme et l’on a $j\circ h''=$ (Id$_{B''}\times_Bh)\circ h'$.
+l’application continue qui à $(b'', x)$ associe $(b'', g(b''), x)$. C’est un homéomorphisme et l’on a $j\circ h''=$ (Id$_{B''}\times_Bh$)$\circ h'$.
 
 Supposons que le carré (13) soit cartésien. Alors, $h$ est un homéo-morphisme (I, p. 8, prop 2), donc l’application Id$_{B''}\times_Bh$ est un homéomorphisme, et $h''$ est un homéomorphisme si et seulement $h'$ en est un. Cela signifie que le carré (12) est cartésien si et seulement si le carré (14) est cartésien (loc. cit.).
 
@@ -608,7 +608,7 @@ $$
 p'p \tag{17}
 $$
 
-$B_1\times_BB_2^f$ B où $f$ (resp. $g)$ est l’application qui définit la structure de B-espace (resp. de X-espace) du produit fibré $B_1\times_BB_2$ (resp. du produit fibré $X_1\times_XX_2)$ et où $p'$ est l’application déduite de $p_1\times p_2$ par passage aux sous-ensembles. Il est cartésien (I, p. 13, cor. 2 de la prop. 5).
+$B_1\times_BB_2^f$ B où $f$ (resp. $g$) est l’application qui définit la structure de B-espace (resp. de X-espace) du produit fibré $B_1\times_BB_2$ (resp. du produit fibré $X_1\times_XX_2$) et où $p'$ est l’application déduite de $p_1\times p_2$ par passage aux sous-ensembles. Il est cartésien (I, p. 13, cor. 2 de la prop. 5).
 
 Considérons alors les deux carrés commutatifs suivants :
 
@@ -832,7 +832,7 @@ sont cartésiens, où $r: X'\times_XY\rightarrow B'\times_BC$ désigne l’appli
 
 Soient B et X des espaces topologiques et soit $p: X\rightarrow B$ une application continue. Soit $(A_i)_{i\in I}$ une famille de parties de B qui est un recouvrement ouvert de B, ou bien un recouvrement fermé localement fini de B. Si pour tout $i\in$ I, l’application $p_{A_i}:\overset{-1}{p}(A_i)\rightarrow A_i$ est stricte ( resp. universellement stricte), l’application $p$ est stricte ( resp. universellement stricte).
 
-Pour tout $i\in I$, posons $Y_i=\overset{-1}{p}(A_i)$ et $p_i=p_{A_i}$. Soient A l’espace somme de la famille $(A_i)_{i\in I}$, Y l’espace somme de la famille $(Y_i)_{i\in I}$; notons $f: A\rightarrow B$ (resp. $g: Y\rightarrow X,q: Y\rightarrow A$) l’application déduite de la famille des injections canoniques $A_i\rightarrow B$ (resp. des injections canoniques $Y_i\rightarrow X$, des applications $p_i)$. Le carré
+Pour tout $i\in I$, posons $Y_i=\overset{-1}{p}(A_i)$ et $p_i=p_{A_i}$. Soient A l’espace somme de la famille $(A_i)_{i\in I}$, Y l’espace somme de la famille $(Y_i)_{i\in I}$; notons $f: A\rightarrow B$ (resp. $g: Y\rightarrow X,q: Y\rightarrow A$) l’application déduite de la famille des injections canoniques $A_i\rightarrow B$ (resp. des injections canoniques $Y_i\rightarrow X$, des applications $p_i$). Le carré
 
 Y $^g$ X
 

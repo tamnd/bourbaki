@@ -33,7 +33,7 @@ subsections:
       pdf_page: 149
 statements: 37
 exercises: 6
-content_sha256: bbeabb3f2a016dd075241ae95350cd8c19a8b30549f1cc5ab94fad7ec0f3f59d
+content_sha256: 55a3d9d969cfe0bffca545e5628334848137b5a6db2aaf667e32616875d4bf8b
 ---
 
 ## § 6. ESPACES SIMPLEMENT CONNEXES
@@ -80,7 +80,7 @@ La propriété (ii) implique évidemment la propriété (i). La réciproque rés
 
 ### 2. Parties convexes d’un espace numérique
 
-Soit E l’espace numérique à $n$ dimensions *(ou, plus généralement, un espace vectoriel topologique sur $\mathbf{R})*$. Pour tout couple $(x, y)$ de points de E, on appelle segment (resp. segment ouvert) d’extrémités $x$ et $y($cf. EVT, II, p. 7) l’ensemble des points de E de la forme $tx+$ $(1-t)y$, pour $t\in [0,1]$ (resp. pour $t\in ]0,1[$). Soit A un sous-ensemble de E. On dit que l’ensemble A est convexe si pour tout couple $(x, y)$ de points de A et tout $t\in \mathbf{I}$, le point $tx+ (1-t)y$ appartient à A.
+Soit E l’espace numérique à $n$ dimensions *(ou, plus généralement, un espace vectoriel topologique sur $\mathbf{R}$)$*$. Pour tout couple $(x, y)$ de points de E, on appelle segment (resp. segment ouvert) d’extrémités $x$ et $y($cf. EVT, II, p. 7) l’ensemble des points de E de la forme $tx+$ $(1-t)y$, pour $t\in [0,1]$ (resp. pour $t\in ]0,1[$). Soit A un sous-ensemble de E. On dit que l’ensemble A est convexe si pour tout couple $(x, y)$ de points de A et tout $t\in \mathbf{I}$, le point $tx+ (1-t)y$ appartient à A.
 
 *Une partie convexe est connexe par arcs.*
 
@@ -218,7 +218,7 @@ Soit $(E, p)$ un revêtement de X et soit $y$ un point de E. Il suffit de démon
 
 Pour $n\geqslant 2$, la sphère $\mathbf{S}_n$ (TG, VI, p. 10) est simplement connexe. En effet, la sphère $\mathbf{S}_n$ est réunion de deux hémisphères fermés homéomorphes à $\mathbf{B}_n$ dont l’intersection est homéomorphe à $\mathbf{S}_{n-1}($cf. TG, VI, p. 12). Pour $n\geqslant 2$, la sphère $\mathbf{S}_{n-1}$ est connexe, d’où l’assertion.
 
-En revanche, le cercle $\mathbf{S}_1$ n’est pas simplement connexe. En effet, l’application continue $p:\mathbf{R}\rightarrow \mathbf{S}_1$ définie par $p(\theta ) =$ (cos $\theta$, sin $\theta )$ fait de $\mathbf{R}$ un revêtement de degré infini de $\mathbf{S}_1$, connexe, donc qui n’est pas trivialisable.
+En revanche, le cercle $\mathbf{S}_1$ n’est pas simplement connexe. En effet, l’application continue $p:\mathbf{R}\rightarrow \mathbf{S}_1$ définie par $p(\theta ) =$ (cos $\theta$, sin $\theta$ ) fait de $\mathbf{R}$ un revêtement de degré infini de $\mathbf{S}_1$, connexe, donc qui n’est pas trivialisable.
 
 #### Exemple 4 {#ta-i-s6-n3-exa-4 .statement tag=01SA}
 
@@ -244,7 +244,7 @@ est un homéomorphisme. Soit Y l’espace obtenu par recollement de $Y_1$ et $Y_
 
 Pour $i\in  \{1,2\}$, l’application canonique $g_i$ de $Y_i$ dans Y est un homéomorphisme de $Y_i$ sur une partie ouverte (resp. fermée) de Y (loc. cit., prop. 9). Pour tout entier $n\in \mathbf{Z}$, les ensembles $g_i(U_i\times  \{n\})$, $i\in  \{1,2\}$, sont connexes ; comme A et B ne sont pas vides, $g_1(U_1\times \{n\})$ rencontre $g_2(U_2\times  \{n\})$ et $g_2(U_2\times  \{n+1\})$. Il en résulte que l’espace Y est connexe (TG, I, p. 81, corollaire).
 
-Pour $x\in U$ et $n\in \mathbf{Z}$, on a (pr$_1\circ h)(x, n) =x=$ pr$_1(x, n)$. Il existe donc une unique application continue $p: Y\rightarrow X$ telle que $p\circ g_i=$ pr$_1$ pour $i\in  \{1,2\}$. Démontrons que le X-espace $(Y, p)$ est un revêtement. Par construction, les fibres de l’application $p$ sont homéomorphes à l’espace discret $\mathbf{Z}$.
+Pour $x\in U$ et $n\in \mathbf{Z}$, on a (pr$_1\circ h$)$(x, n) =x=$ pr$_1(x, n)$. Il existe donc une unique application continue $p: Y\rightarrow X$ telle que $p\circ g_i=$ pr$_1$ pour $i\in  \{1,2\}$. Démontrons que le X-espace $(Y, p)$ est un revêtement. Par construction, les fibres de l’application $p$ sont homéomorphes à l’espace discret $\mathbf{Z}$.
 
 Pour $i\in  \{1,2\}$, l’application $g_i$ définit par passage aux sous-espaces un isomorphisme de $U_i$-espaces de $U_i\times \mathbf{Z}$ sur $\overset{-1}{p}(U_i)$.
 

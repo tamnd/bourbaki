@@ -37,7 +37,7 @@ subsections:
       pdf_page: 93
 statements: 19
 exercises: 11
-content_sha256: e3e2c993d89b57b33ed2f4e8857a16f2371eac3d7a750395dc60ce3abe6a6efa
+content_sha256: b8520dc9762a5d703ee1e574286038de68c8d1f192be8cc257fab0dd44fafa29
 ---
 
 ## § 5. PERTURBATION PAR UNE APPLICATION LINÉAIRE COMPACTE
@@ -138,7 +138,7 @@ Soit $r\geqslant 1$ un entier tel que $\|1_E-\pi (u)\|^r<\frac{1}{2}$. Soit $P\i
 
 Puisque $\|1_E-\pi (v)\|<1/2$, il existe, par définition de la norme quotient dans l’espace $\mathscr{C}$alk(E), un endomorphisme compact $h$ de E et un endomorphisme $w$ de E tels que $v= 1_E+h+w$ et $\|w\|<\frac{1}{2}$. D’après le corollaire 1 de I, p. 22, l’élément $1_E+w$ est un automorphisme de E. Comme $h$ est compact, $v= (1_E+w) +h$ est un endomorphisme de Fredholm de E d’indice 0 (cor. 2 de III, p. 74). Pour tout entier $n\geqslant 0$, notons $N_n$ le noyau de $v^n$. Pour démontrer que $v$ est un endomorphisme de Riesz de E, il suffit de prouver qu’il existe un entier $n\geqslant 0$ tel que $N_n= N_{n+1}($III, p. 46, déf. 2 et III, p. 46, remarque).
 
-Raisonnons par l’absurde en supposant la suite $(N_n)$ strictement croissante. Pour tout $n\in \mathbf{N}$, soit $p_n$ l’application canonique de E sur l’espace normé $E/N_n$. Soit $c$ un nombre réel tel que $2\|w\|< c <1$. Soit $n\in \mathbf{N}$. Puisque $N_{n+1}$ est différent de $N_n$, il existe un élément $x_n\in N_{n+1}$ tel que $\|p_n(x_n)\|=c$ et tel que $\|x_n\|<1$ (en effet, il existe $y\in N_{n+1}/N_n$ de norme $c$ donc, pour tout $\varepsilon  >0$, il existe $x_n\in N_{n+1}$ tel que $p_n(x_n) =y$ et $\|x_n\|\leqslant c+\varepsilon )$.
+Raisonnons par l’absurde en supposant la suite $(N_n)$ strictement croissante. Pour tout $n\in \mathbf{N}$, soit $p_n$ l’application canonique de E sur l’espace normé $E/N_n$. Soit $c$ un nombre réel tel que $2\|w\|< c <1$. Soit $n\in \mathbf{N}$. Puisque $N_{n+1}$ est différent de $N_n$, il existe un élément $x_n\in N_{n+1}$ tel que $\|p_n(x_n)\|=c$ et tel que $\|x_n\|<1$ (en effet, il existe $y\in N_{n+1}/N_n$ de norme $c$ donc, pour tout $\varepsilon  >0$, il existe $x_n\in N_{n+1}$ tel que $p_n(x_n) =y$ et $\|x_n\|\leqslant c+\varepsilon$ ).
 
 Soient $m,n$ deux entiers tels que $m > n\geqslant 0$. On a
 

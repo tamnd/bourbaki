@@ -34,7 +34,7 @@ subsections:
       pdf_page: 178
 statements: 49
 exercises: 31
-content_sha256: 73b86be9349411a8621a98b186fe42414170e8fac3f90f7e91702862e0c453aa
+content_sha256: 89095724e574bba079cd13ef874a02941adc59513c6a22e5a09bd9f01b4fa6cc
 ---
 
 ## § 9. RADICAL
@@ -219,7 +219,7 @@ Note that when K is a commutative field, the ring $A = K[X_i]_{i\in I}$ is a sub
 
 #### Example 5 {#alg-viii-s9-n2-exa-5 .statement tag=00AL}
 
-Let $\mathfrak{a}$ be a two-sided ideal of A. The $\mathfrak{a}$-adic topology on A is the topology, compatible with the ring structure of A, for which the ideals $\mathfrak{a}^n$ (for $n\geqslant 1)$ form a fundamental system of neighborhoods of 0 (Gen. Top., III, §6, No. 3, p. 275, Example 3). Suppose that the ring A is Hausdorff and complete (Gen. Top., III, §6, No. 5, p. 276) for this topology; this is, for example, the case when the ideal $\mathfrak{a}$ is nilpotent. For every $x\in \mathfrak{a}$, the series $\sum^{\infty}_{n=0}(-x)^n$ is then convergent. Let $y$ be its sum. We have $y-1 =\sum^{\infty}_{n=1}(-x)^n=-xy$, hence $(1 +x)y= 1$. Likewise, we have $y(1 +x) = 1$, so $1 +x$ is invertible. By Theorem 1, it follows that the ideal $\mathfrak{a}$ is contained in the radical of A.
+Let $\mathfrak{a}$ be a two-sided ideal of A. The $\mathfrak{a}$-adic topology on A is the topology, compatible with the ring structure of A, for which the ideals $\mathfrak{a}^n$ (for $n\geqslant 1$) form a fundamental system of neighborhoods of 0 (Gen. Top., III, §6, No. 3, p. 275, Example 3). Suppose that the ring A is Hausdorff and complete (Gen. Top., III, §6, No. 5, p. 276) for this topology; this is, for example, the case when the ideal $\mathfrak{a}$ is nilpotent. For every $x\in \mathfrak{a}$, the series $\sum^{\infty}_{n=0}(-x)^n$ is then convergent. Let $y$ be its sum. We have $y-1 =\sum^{\infty}_{n=1}(-x)^n=-xy$, hence $(1 +x)y= 1$. Likewise, we have $y(1 +x) = 1$, so $1 +x$ is invertible. By Theorem 1, it follows that the ideal $\mathfrak{a}$ is contained in the radical of A.
 
 #### Remark 1 {#alg-viii-s9-n2-rem-1 .statement tag=00AM}
 
@@ -229,7 +229,7 @@ its radical. Let $x$ be a nilpotent and central element of A; then $Ax$ is a nil
 
 #### Remark 2 {#alg-viii-s9-n2-rem-2 .statement tag=00AN}
 
-Let A be a commutative ring. The set of nilpotent elements $a$ of A is an ideal $\mathfrak{N}(A)$ of A, called the nilradical of A; it is the intersection of the prime ideals of A (V, §15, No. 1, p. 118, Proposition 2). We have $\mathfrak{N}(A)\subset \mathfrak{R}(A)$; $*$we have equality if A is an Artinian ring (VIII, p. 173, Corollary 2) or a finitely generated commutative algebra over a commutative field (Comm. Alg., V, § 3, n$^{\circ}4$, Theorem $3)*$. We can certainly have $\mathfrak{N}(A)\not=\mathfrak{R}(A)$. This is the case when A is the ring K[[X]], where K is a commutative field: we then have $\mathfrak{N}(A) = 0$ and $\mathfrak{R}(A) =$ AX (VIII, p. 154, Example 2).
+Let A be a commutative ring. The set of nilpotent elements $a$ of A is an ideal $\mathfrak{N}(A)$ of A, called the nilradical of A; it is the intersection of the prime ideals of A (V, §15, No. 1, p. 118, Proposition 2). We have $\mathfrak{N}(A)\subset \mathfrak{R}(A)$; $*$we have equality if A is an Artinian ring (VIII, p. 173, Corollary 2) or a finitely generated commutative algebra over a commutative field (Comm. Alg., V, § 3, n$^{\circ}4$, Theorem $3$)$*$. We can certainly have $\mathfrak{N}(A)\not=\mathfrak{R}(A)$. This is the case when A is the ring K[[X]], where K is a commutative field: we then have $\mathfrak{N}(A) = 0$ and $\mathfrak{R}(A) =$ AX (VIII, p. 154, Example 2).
 
 ### 3. Nakayama’s Lemma
 
@@ -289,7 +289,7 @@ Suppose that $\overline{e}$ belongs to the center of the ring $A/\mathfrak{a}$. 
 
 Let M and P be A-modules and $u$ a surjective A-linear mapping from P to M. Suppose that P is projective and that there exists a nilpotent two-sided ideal $\mathfrak{a}$ of A such that the kernel N of $u$ is contained in $\mathfrak{a}P$. Let $M'$ and $M''$ be submodules of M whose direct sum is M. Then P is the direct sum of submodules $P'$ and $P''$ such that $u(P') = M'$ and $u(P'') = M''$.
 
-Denote by B the subring of End$_A(P)$ consisting of the endomorphisms $f$ of P such that $f(N)\subset N$. Let B be the endomorphism ring of M. For $f\in B$, let $\overline{f}$ be the unique endomorphism of M such that $\overline{f}\circ u=u\circ f$. The mapping $f\mapsto \overline{f}$ is a ring homomorphism from B to B. Since the module P is projective, this homomorphism is surjective; its kernel $\mathfrak{b}$ consists of the endomorphisms $f\in B$ such that $f(P)\subset N$. Let $n$ be a natural number such that $\mathfrak{a}^n= 0$. We have
+Denote by B the subring of End$_A(P)$ consisting of the endomorphisms $f$ of P such that $f(N)\subset N$. Let $\overline{B}$ be the endomorphism ring of M. For $f\in B$, let $\overline{f}$ be the unique endomorphism of M such that $\overline{f}\circ u=u\circ f$. The mapping $f\mapsto \overline{f}$ is a ring homomorphism from B to B. Since the module P is projective, this homomorphism is surjective; its kernel $\mathfrak{b}$ consists of the endomorphisms $f\in B$ such that $f(P)\subset N$. Let $n$ be a natural number such that $\mathfrak{a}^n= 0$. We have
 
 $$
 P =\mathfrak{a}^0P\supset \mathfrak{a}^1P\supset  \cdots  \supset \mathfrak{a}^{n-1}P\supset \mathfrak{a}^nP = 0
@@ -315,7 +315,7 @@ the equality $u(P'') = M''$ is proved analogously.
 
 Let A be a ring, and let $\mathfrak{a}$ be a nilpotent two-sided ideal of A. If P is a projective A-module, then $P/\mathfrak{a}P$ is a projective module over $A/\mathfrak{a}$, and the A-module P is indecomposable if and only if the $A/\mathfrak{a}$-module $P/\mathfrak{a}P$ is indecomposable.
 
-Let P be a projective A-module, and let P be the $A/\mathfrak{a}$-module $P/\mathfrak{a}P$. The A-module P is zero if and only if P is zero (Theorem 2 of VIII, p. 158). Now suppose $P\not= 0$. Since the $A/\mathfrak{a}$-module P is isomorphic to $A\otimes_AP$, it is projective (II, §5, No. 1, p. 279, Corollary of Proposition 4). If P is indecomposable, then so is P by Corollary 1. Conversely, suppose that P is decomposable and nonzero, and let $P'$ and $P''$ be two nonzero submodules of P such that $P = P'\oplus P''$. By Nakayama’s lemma (VIII, p. 158, Theorem 2), we have $P'+\mathfrak{a}P\not= P$ and $P''+\mathfrak{a}P\not= P$; if $P'$ and $P''$ are the canonical images of $P'$ and $P''$ in P, then we have $P'\not= P, P''\not= P$, and $P = P'\oplus \overline{P}''$. This proves that P is decomposable.
+Let P be a projective A-module, and let $\overline{P}$ be the $A/\mathfrak{a}$-module $P/\mathfrak{a}P$. The A-module P is zero if and only if $\overline{P}$ is zero (Theorem 2 of VIII, p. 158). Now suppose $P\not= 0$. Since the $A/\mathfrak{a}$-module P is isomorphic to $\overline{A}\otimes_AP$, it is projective (II, §5, No. 1, p. 279, Corollary of Proposition 4). If P is indecomposable, then so is $\overline{P}$ by Corollary 1. Conversely, suppose that P is decomposable and nonzero, and let $P'$ and $P''$ be two nonzero submodules of P such that $P = P'\oplus P''$. By Nakayama’s lemma (VIII, p. 158, Theorem 2), we have $P'+\mathfrak{a}P\not= P$ and $P''+\mathfrak{a}P\not= P$; if $\overline{P}'$ and $\overline{P}''$ are the canonical images of $P'$ and $P''$ in P, then we have $\overline{P}'\not= P,\overline{P}''\not= P$, and $\overline{P}=\overline{P}'\oplus \overline{P}''$. This proves that $\overline{P}$ is decomposable.
 
 ### 5. Projective Cover of a Module
 

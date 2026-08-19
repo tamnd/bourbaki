@@ -29,7 +29,7 @@ subsections:
       pdf_page: 44
 statements: 18
 exercises: 4
-content_sha256: 9d1010f2a4312da7eb256b0b49777e2e7c13fd2cda13efe8e747d4ded4fee400
+content_sha256: 6ccb9b5f7ffcd786b5afdaf81ccab18f695f9b397ae110709debf0e21b1adfe3
 ---
 
 ## § 4. REGULAR ELEMENTS OF A LIE GROUP
@@ -54,7 +54,7 @@ Let M be an analytic manifold over $k$ and $a= (a_0, . . . , a_{n-1}, a_n= 1)$ a
 
 (ii) If $r^0_a(x) =i$, the functions $a_0, . . . , a_{i-1}$ are zero on a neighbourhood of $x$ and, for any $y$ in this neighbourhood, $r_a(y)\geq i$. Consequently, lim inf$_{y\rightarrow x}r_a(y)\geq i$. Every neighbourhood of $x$ contains a point $y$ such that $a_i(y)\not= 0$ and hence $r_a(y)\leq i$. Thus lim inf$_{y\rightarrow x}r_a(y) =i$.
 
-(iii) Let $i=r_a^0(x)$ and let V be a neighbourhood of $x$ such that $a_j(y) = 0$ for all $y\in V$ and all $j < i$. Then $x\in M$**--** Z, where Z denotes the set of points of M in a neighbourhood of which the function $a_i$ is zero. Since Z is closed in M (Differentiable and Analytic Manifolds, Results$, 5.3.5), V\cap (M$ **--** Z) is a neighbourhood of $x$. For every point $y$ in this neighbourhood, $r_a^0(y) =i$.
+(iii) Let $i=r_a^0(x)$ and let V be a neighbourhood of $x$ such that $a_j(y) = 0$ for all $y\in V$ and all $j < i$. Then $x\in M$**--** Z, where Z denotes the set of points of M in a neighbourhood of which the function $a_i$ is zero. Since Z is closed in M (Differentiable and Analytic Manifolds, Results$, 5.3.5$)$, V\cap (M$ **--** Z) is a neighbourhood of $x$. For every point $y$ in this neighbourhood, $r_a^0(y) =i$.
 
 (iv) The function $r_a-r_a^0$ is upper semi-continuous and its value at any point is $\geq 0$. If $r_a(x) =r^0_a(x),r_a-r^0_a$ is zero on a neighbourhood of $x$, which shows that $r_a$ is constant on a neighbourhood of $x$ by (iii). Conversely, if $r_a$ is constant on a neighbourhood of $x$, then $r_a^0(x) =r_a(x)$ by (ii). The set of points $x\in M$ such that $r_a^0(x) =r_a(x)$ is thus an open subset $\Omega$ of M. If $x\in M$ and if $r^0_a(x)< r_a(x)$, every neighbourhood of $x$ contains a point $y$ such that $r_a(y)< r_a(x)$ and $r^0_a(y) =r_a^0(x)$. Every neighbourhood of $x$ thus contains a point $y$ such that
 
@@ -68,7 +68,7 @@ If M is connected and if $p$ is the value of $r_a^0$ on M, the points of $\Omega
 
 Let $\rho$ be an analytic linear representation of G on a vector space V of finite dimension $n$ over $k$. Put
 
-det(T $-\rho (g) + 1) =a_0(g) +a_1(g)T +\cdots +a_{n-1}(g)T^{n-1}+ T^n$.
+det(T $-\rho (g) + 1$) $=a_0(g) +a_1(g)T +\cdots +a_{n-1}(g)T^{n-1}+ T^n$.
 
 The functions $r_a$ and $r_a^0$ associated to the sequence $(a_0, a_1, . . . , a_{n-1},1)$ will be denoted by $r_{\rho}$ and $r^0_{\rho}$, respectively. Then, for all $g\in G$,
 
@@ -142,17 +142,17 @@ The condition is necessary by Prop. 2. We show that it is sufficient. For all $g
 
 Let $a\in G$ and let $\mathfrak{m}$ be a complement of $\mathfrak{g}^1(a)$ in $\mathfrak{g}$. Let U be a neighbourhood of 0 in $\mathfrak{g}$ and exp an exponential map from U to G. The map
 
-$f: (x, y) \rightarrow$ (exp $y)a$(exp $x$)(exp $y)^{-1}$
+$f: (x, y) \rightarrow$ (exp $y$)$a$(exp $x$)(exp $y$)$^{-1}$
 
 from $(\mathfrak{g}^1(a)\times \mathfrak{m})\cap U$ to G is étale at $(0,0)$.
 
-The tangent linear maps at 0 of the maps $x \rightarrow a$(exp $x)$ and $y \rightarrow$ (exp $y)a$(exp $y)^{-1}$ are the maps $x \rightarrow ax$ and $y \rightarrow ya-ay=a(a^{-1}ya-y)$ from $\mathfrak{g}$ to $T_aG =a\mathfrak{g}$ (Chap. III, §3, no. 12, Prop. 46). Consequently, the tangent map of $f$ at $(0,0)$ is the map $(x, y) \rightarrow ax+a(a^{-1}ya-y) =a(x+a^{-1}ya-y)$ from $\mathfrak{g}^1(a)\times \mathfrak{m}$ to $a\mathfrak{g}$. This map is injective. Indeed, if $x\in \mathfrak{g}^1(a), y\in \mathfrak{m}$ and if $x+a^{-1}ya-y$ = 0, then (Ad($a$)$-1)y$ = Ad($a$)$x\in \mathfrak{g}^1(a)$ since Ad($a$)$\mathfrak{g}^1(a)\subset \mathfrak{g}^1(a)$. This implies that $y\in \mathfrak{g}^1(a)$ and consequently that $y$ = 0. Since Ad($a$) is injective on $\mathfrak{g}^1(a)$, it follows that $x$ = 0. Since dim $\mathfrak{g}=$ dim$\mathfrak{g}^1(a) +$ dim $\mathfrak{m}$, this shows that $f$ is étale at $(0,0)$.
+The tangent linear maps at 0 of the maps $x \rightarrow a$(exp $x$) and $y \rightarrow$ (exp $y$)$a$(exp $y$)$^{-1}$ are the maps $x \rightarrow ax$ and $y \rightarrow ya-ay=a(a^{-1}ya-y)$ from $\mathfrak{g}$ to $T_aG =a\mathfrak{g}$ (Chap. III, §3, no. 12, Prop. 46). Consequently, the tangent map of $f$ at $(0,0)$ is the map $(x, y) \rightarrow ax+a(a^{-1}ya-y) =a(x+a^{-1}ya-y)$ from $\mathfrak{g}^1(a)\times \mathfrak{m}$ to $a\mathfrak{g}$. This map is injective. Indeed, if $x\in \mathfrak{g}^1(a), y\in \mathfrak{m}$ and if $x+a^{-1}ya-y$ = 0, then (Ad($a$)$-1$)$y$ = Ad($a$)$x\in \mathfrak{g}^1(a)$ since Ad($a$)$\mathfrak{g}^1(a)\subset \mathfrak{g}^1(a)$. This implies that $y\in \mathfrak{g}^1(a)$ and consequently that $y$ = 0. Since Ad($a$) is injective on $\mathfrak{g}^1(a)$, it follows that $x$ = 0. Since dim $\mathfrak{g}=$ dim$\mathfrak{g}^1(a) +$ dim $\mathfrak{m}$, this shows that $f$ is étale at $(0,0)$.
 
 #### Proposition 4 {#lie-vii-s4-prop-4 .statement tag=00W3}
 
 Let $a\in G$ and H be a Lie subgroup germ of G with Lie algebra $\mathfrak{g}^1(a)$. The map $(b, c) \rightarrow cabc^{-1}$ from $H\times G$ to G is a submersion at $(e, e)$.
 
-Indeed, let $\mathfrak{m}$ be a complement of $\mathfrak{g}^1(a)$ in $\mathfrak{g}$ and exp an exponential map of G defined on an open neighbourhood U of 0 in $\mathfrak{g}$. We can choose U so that exp(U $\cap \mathfrak{g}^1(a))\subset H$. The map $f: (x, y) \rightarrow$ (exp $x$, exp $y)$ is an analytic map on a neighbourhood of $(0,0)$ in $\mathfrak{g}^1(a)\times \mathfrak{m}$ with values in $H\times G$. By Lemma 3, the composite of $f$ with the map $\varphi : (b, c) \rightarrow cabc^{-1}$ is étale at $(0,0)$. It follows that $\varphi$ is a submersion at $f(0,0) = (e, e)$.
+Indeed, let $\mathfrak{m}$ be a complement of $\mathfrak{g}^1(a)$ in $\mathfrak{g}$ and exp an exponential map of G defined on an open neighbourhood U of 0 in $\mathfrak{g}$. We can choose U so that exp(U $\cap \mathfrak{g}^1(a)$)$\subset H$. The map $f: (x, y) \rightarrow$ (exp $x$, exp $y$) is an analytic map on a neighbourhood of $(0,0)$ in $\mathfrak{g}^1(a)\times \mathfrak{m}$ with values in $H\times G$. By Lemma 3, the composite of $f$ with the map $\varphi : (b, c) \rightarrow cabc^{-1}$ is étale at $(0,0)$. It follows that $\varphi$ is a submersion at $f(0,0) = (e, e)$.
 
 #### Proposition 5 {#lie-vii-s4-prop-5 .statement tag=00W4}
 
@@ -162,7 +162,7 @@ Put $\mathfrak{g}^1=\mathfrak{g}^1(a)$ and let $\mathfrak{g}=\mathfrak{g}^1+\mat
 
 #### Corollary {#lie-vii-s4-n2-cor-1 .statement tag=00W5}
 
-Let $G^*$ be an open subgroup of G. If $a\in G$ is regular, there exists a neighbourhood V of $a$ such that, for all $a'\in V,\mathfrak{g}^1(a')$ is conjugate to $\mathfrak{g}^1(a)$ under Ad(G$^*)$.
+Let $G^*$ be an open subgroup of G. If $a\in G$ is regular, there exists a neighbourhood V of $a$ such that, for all $a'\in V,\mathfrak{g}^1(a')$ is conjugate to $\mathfrak{g}^1(a)$ under Ad(G$^*$).
 
 ### 3. RELATIONS WITH REGULAR ELEMENTS OF THE LIE ALGEBRA
 
@@ -170,29 +170,29 @@ Let $G^*$ be an open subgroup of G. If $a\in G$ is regular, there exists a neigh
 
 Let V be an open subgroup of $\mathfrak{g}$ and let exp$: V\rightarrow G$ be an exponential map defined on V.
 
-(i) There exists a neighbourhood W of 0 in V such that $\mathfrak{g}^1$(exp $x) =\mathfrak{g}^0(x)$ for all $x\in W$.
+(i) There exists a neighbourhood W of 0 in V such that $\mathfrak{g}^1$(exp $x$) $=\mathfrak{g}^0(x)$ for all $x\in W$.
 
-(ii) If $k=\mathbf{R}$ or $\mathbf{C},\mathfrak{g}^1$(exp $x)\supset \mathfrak{g}^0(x)$ for all $x\in \mathfrak{g}$.
+(ii) If $k=\mathbf{R}$ or $\mathbf{C},\mathfrak{g}^1$(exp $x$)$\supset \mathfrak{g}^0(x)$ for all $x\in \mathfrak{g}$.
 
-By Cor. 3 of Prop. 8 of Chap. III, §4, no. 4, there exists a neighbourhood $V'$ of 0 in V such that, for all $x\in V'$, exp(ad($x$)) $=\sum_{n=0}^{\infty}\frac{1}{n!}$ ad($x$)$^n$ is defined and Ad(exp $x) =$ exp(ad($x$)). If $P\in k[X]$ and $\alpha \in$ End($\mathfrak{g}$), it is easy to check that $\mathfrak{g}^{\lambda}(\alpha )\subset \mathfrak{g}^{P(\lambda)}(P(\alpha ))$ for all $\lambda \in k$. Consequently,
+By Cor. 3 of Prop. 8 of Chap. III, §4, no. 4, there exists a neighbourhood $V'$ of 0 in V such that, for all $x\in V'$, exp(ad($x$)) $=\sum_{n=0}^{\infty}\frac{1}{n!}$ ad($x$)$^n$ is defined and Ad(exp $x$) $=$ exp(ad($x$)). If $P\in k[X]$ and $\alpha \in$ End($\mathfrak{g}$), it is easy to check that $\mathfrak{g}^{\lambda}(\alpha )\subset \mathfrak{g}^{P(\lambda)}(P(\alpha ))$ for all $\lambda \in k$. Consequently,
 
-$\mathfrak{g}^0$(ad($x$))$\subset \mathfrak{g}^1$(exp(ad($x$))) $=\mathfrak{g}^1$(Ad(exp $x)) =\mathfrak{g}^1$(exp $x)$
+$\mathfrak{g}^0$(ad($x$))$\subset \mathfrak{g}^1$(exp(ad($x$))) $=\mathfrak{g}^1$(Ad(exp $x$)) $=\mathfrak{g}^1$(exp $x$)
 
-for all $x\in V'$. If $k=\mathbf{R}$ or $\mathbf{C}, V =\mathfrak{g}$ and we can take $V'$ = V, which proves (ii). We prove (i). Let U be a neighbourhood of 0 in End($\mathfrak{g}$) such that Log(1 $+\alpha ) =\sum_{n>0}(-1)^{n+1 1}_{\overline{n}}\alpha^n$ is defined for all $\alpha \in U$. Then Log $\circ$ exp = 1 on a neighbourhood of 0 and $\mathfrak{g}^1(1 +\alpha )\subset \mathfrak{g}^0$(Log(1 $+\alpha ))$ for all $\alpha \in U$. Let W be the neighbourhood of 0 in $\mathfrak{g}$ consisting of those $x\in V'$ such that exp ad $x\in 1 + U$ and
+for all $x\in V'$. If $k=\mathbf{R}$ or $\mathbf{C}, V =\mathfrak{g}$ and we can take $V'$ = V, which proves (ii). We prove (i). Let U be a neighbourhood of 0 in End($\mathfrak{g}$) such that Log(1 $+\alpha$ ) $=\sum_{n>0}(-1)^{n+1 1}_{\overline{n}}\alpha^n$ is defined for all $\alpha \in U$. Then Log $\circ$ exp = 1 on a neighbourhood of 0 and $\mathfrak{g}^1(1 +\alpha )\subset \mathfrak{g}^0$(Log(1 $+\alpha$ )) for all $\alpha \in U$. Let W be the neighbourhood of 0 in $\mathfrak{g}$ consisting of those $x\in V'$ such that exp ad $x\in 1 + U$ and
 
 Log(exp(ad($x$))) $=$ ad($x$).
 
 Then, for all $x\in W$,
 
-$\mathfrak{g}^1$(exp $x) =\mathfrak{g}^1$(Ad(exp $x)) =\mathfrak{g}^1$(exp(ad($x$)))
+$\mathfrak{g}^1$(exp $x$) $=\mathfrak{g}^1$(Ad(exp $x$)) $=\mathfrak{g}^1$(exp(ad($x$)))
 
 $\subset \mathfrak{g}^0$(Log(exp(ad($x$)))) $=\mathfrak{g}^0$(ad($x$)) $=\mathfrak{g}^0(x)$.
 
-This shows that $\mathfrak{g}^1$(exp $x) =\mathfrak{g}^0(x)$ for all $x\in W$.
+This shows that $\mathfrak{g}^1$(exp $x$) $=\mathfrak{g}^0(x)$ for all $x\in W$.
 
 #### Lemma 4 {#lie-vii-s4-lem-4 .statement tag=00W7}
 
-Let U be a neighbourhood of 0 in $\mathfrak{g}$ and exp an exponential map from U to G, étale at every point of U and such that $\mathfrak{g}^1$(exp $x) =\mathfrak{g}^0(x)$ for all $x\in U$.
+Let U be a neighbourhood of 0 in $\mathfrak{g}$ and exp an exponential map from U to G, étale at every point of U and such that $\mathfrak{g}^1$(exp $x$) $=\mathfrak{g}^0(x)$ for all $x\in U$.
 
 (i) The function $r^0_{Ad}$ is constant and equal to the rank of $\mathfrak{g}$ on exp(U).
 
@@ -202,9 +202,9 @@ Let U be a neighbourhood of 0 in $\mathfrak{g}$ and exp an exponential map from 
 
 Let $l=$ rk($\mathfrak{g}$). If $x\in U$ is a regular element of $\mathfrak{g}$,
 
-$r_{Ad}$(exp $x) =$ dim$\mathfrak{g}^1$(exp $x) =$ dim$\mathfrak{g}^0(x) =l$.
+$r_{Ad}$(exp $x$) $=$ dim$\mathfrak{g}^1$(exp $x$) $=$ dim$\mathfrak{g}^0(x) =l$.
 
-Since the regular elements of $\mathfrak{g}$ belonging to U constitute a neighbourhood of $x$ and exp is étale at $x$, this shows that exp $x$ is regular and that $r^0_{Ad}$(exp $x) =l$. The regular elements of $\mathfrak{g}$ belonging to U being dense in U, we have $r^0_{Ad}(a) =$ $l$ for all $a\in$ exp(U). Let $a\in$ exp(U) be a regular element of G and let $x\in U$ be such that $a=$ exp $x$. Since $\mathfrak{g}^0(x) =\mathfrak{g}^1(a)$, dim $\mathfrak{g}^0(x) =r^0_{Ad}(a) =l$. Consequently, $x$ is a regular element of $\mathfrak{g}$ and $\mathfrak{g}^1(a)$ is a Cartan subalgebra of $\mathfrak{g}$. Finally, if $a\in$ exp(U) and $\mathfrak{g}^1(a)$ is a Cartan subalgebra of $\mathfrak{g}$,
+Since the regular elements of $\mathfrak{g}$ belonging to U constitute a neighbourhood of $x$ and exp is étale at $x$, this shows that exp $x$ is regular and that $r^0_{Ad}$(exp $x$) $=l$. The regular elements of $\mathfrak{g}$ belonging to U being dense in U, we have $r^0_{Ad}(a) =$ $l$ for all $a\in$ exp(U). Let $a\in$ exp(U) be a regular element of G and let $x\in U$ be such that $a=$ exp $x$. Since $\mathfrak{g}^0(x) =\mathfrak{g}^1(a)$, dim $\mathfrak{g}^0(x) =r^0_{Ad}(a) =l$. Consequently, $x$ is a regular element of $\mathfrak{g}$ and $\mathfrak{g}^1(a)$ is a Cartan subalgebra of $\mathfrak{g}$. Finally, if $a\in$ exp(U) and $\mathfrak{g}^1(a)$ is a Cartan subalgebra of $\mathfrak{g}$,
 
 $r_{Ad}(a) =$ dim$\mathfrak{g}^1(a) =l=r_{Ad}^0(a)$,
 
@@ -228,7 +228,7 @@ Let $l$ be the rank of $\mathfrak{g}$. There exists an open subgroup $G^*$ of G 
 
 (i) By Prop. 6, there exists an open neighbourhood U of 0 in $\mathfrak{g}$ and an exponential map exp from U to G satisfying the conditions of Lemma 4. In what follows, $G^*$ will denote the identity component of G if $k=\mathbf{R}$ or $\mathbf{C}$ and an open subgroup of G contained in exp(U) if $k$ is ultrametric. Since $r_{Ad}^0$ is locally constant and its value at any point of exp(U) is $l$ (Lemma 4 (i)), it follows that $r_{Ad}^0$ is constant and equal to $l$ on $G^*$.
 
-(ii) Let $R^*$ (resp. $S^*)$ be the set of regular elements of $G^*$ (resp. the set of elements $a\in G^*$ such that $\mathfrak{g}^1(a)$ is a Cartan subalgebra of $\mathfrak{g})$. Then $S^*\subset R^*$. Indeed, if $a\in S^*$, then $r_{Ad}(a) =l=r^0_{Ad}(a)$. We show that $R^*\subset S^*$. If $k$ is ultrametric, this follows from the inclusion $G^*\subset$ exp(U) and Lemma 4 (iii). Assume that $k=\mathbf{C}$. By the Cor. of Prop. 5, if $a\in R^*$, then for every $a'$ belonging to a neighbourhood of $a,\mathfrak{g}^1(a')$ is conjugate to $\mathfrak{g}^1(a)$ by an automorphism of $\mathfrak{g}$. This proves that $S^*$ and $R^*$ **--** $S^*$ are open subsets of $G^*$. We have seen that $S^*$ contains all the regular elements in a neighbourhood of $e$ (Lemma 4 (iii)); consequently, $S^*$ is non-empty. Since $G^*$ is connected, so is $R^*$ (Prop. 1) and consequently $S^*= R^*$.
+(ii) Let $R^*$ (resp. $S^*$) be the set of regular elements of $G^*$ (resp. the set of elements $a\in G^*$ such that $\mathfrak{g}^1(a)$ is a Cartan subalgebra of $\mathfrak{g}$). Then $S^*\subset R^*$. Indeed, if $a\in S^*$, then $r_{Ad}(a) =l=r^0_{Ad}(a)$. We show that $R^*\subset S^*$. If $k$ is ultrametric, this follows from the inclusion $G^*\subset$ exp(U) and Lemma 4 (iii). Assume that $k=\mathbf{C}$. By the Cor. of Prop. 5, if $a\in R^*$, then for every $a'$ belonging to a neighbourhood of $a,\mathfrak{g}^1(a')$ is conjugate to $\mathfrak{g}^1(a)$ by an automorphism of $\mathfrak{g}$. This proves that $S^*$ and $R^*$ **--** $S^*$ are open subsets of $G^*$. We have seen that $S^*$ contains all the regular elements in a neighbourhood of $e$ (Lemma 4 (iii)); consequently, $S^*$ is non-empty. Since $G^*$ is connected, so is $R^*$ (Prop. 1) and consequently $S^*= R^*$.
 
 It remains to study the case $k=\mathbf{R}$. Assume first of all that $G^*$ is an integral subgroup of $\mathbf{G}\mathbf{L}(E)$ where E denotes a finite dimensional real vector space. Let $G^*_c$ be the integral subgroup of $\mathbf{G}\mathbf{L}(E\otimes_{\mathbf{R}}\mathbf{C})$ with Lie algebra $\mathfrak{g}_c=\mathfrak{g}\otimes \mathbf{C}$. There exists an analytic function on $G^*_c$ whose set of zeros is the complement of the open set of regular elements of $G^*_c$. By Differentiable and Analytic Manifolds, Results, 3.2.5, this function cannot vanish at every point of $G^*$. Consequently, $G^*$ contains a regular element of $G^*_c$. Let Ad$_c$ be the adjoint representation of $G^*_c$. For any $a\in G^*,\mathfrak{g}^1_c(a) =\mathfrak{g}^1(a)\otimes \mathbf{C}$, so $r_{Ad_c}(a) =r_{Ad}(a)$. If $a\in G^*$ is a regular element of $G^*_c$, this is a regular element of $G^*$ and $r_{Ad}^0(a) =r_{Ad}^0(a)$. The functions $r^0_{Ad}$ and $r_{Ad}^0$ being constant on $G^*_c$ and on $G^{^c*}$, respectively, it follows that the regular elements$^{^c}$ of $G^*$ are the regular elements of $G^*_c$ belonging to $G^*$. From the above, if $a$ is a regular element of $G^*,\mathfrak{g}^1_c(a) =\mathfrak{g}^1(a)\otimes \mathbf{C}$ is a Cartan subalgebra of $\mathfrak{g}_c$; this implies that $\mathfrak{g}^1(a)$ is a Cartan subalgebra of $\mathfrak{g}($§2, Prop. 3).
 
@@ -240,7 +240,7 @@ We turn finally to the general case $(k=\mathbf{R})$. Let $\widetilde{G}$ be a u
 
 #### Remark {#lie-vii-s4-n3-rem-1 .statement tag=00WA}
 
-If $k=\mathbf{C}$, the subalgebras $\mathfrak{g}^1(a)$, for $a$ regular and belonging to a connected component M of G, are conjugate under Int($\mathfrak{g}$). Indeed, let R be the set of regular elements of G. For all $a\in R\cap M$, let $M_a$ be the set of those $b\in R\cap M$ such that $\mathfrak{g}^1(a)$ is conjugate to $\mathfrak{g}^1(a)$ under Int($\mathfrak{g}$). We have Int($\mathfrak{g}$) $=$ Ad(G$^0)$, where $G^0$ is the identity component of G. By the Corollary to Prop. $5, M_a$ is open in R. It follows that $M_a$ is open and closed in R. Since $k=\mathbf{C}, R\cap M$ is connected (Lemma 1), hence $M_a= R\cap M$.
+If $k=\mathbf{C}$, the subalgebras $\mathfrak{g}^1(a)$, for $a$ regular and belonging to a connected component M of G, are conjugate under Int($\mathfrak{g}$). Indeed, let R be the set of regular elements of G. For all $a\in R\cap M$, let $M_a$ be the set of those $b\in R\cap M$ such that $\mathfrak{g}^1(a)$ is conjugate to $\mathfrak{g}^1(a)$ under Int($\mathfrak{g}$). We have Int($\mathfrak{g}$) $=$ Ad(G$^0$), where $G^0$ is the identity component of G. By the Corollary to Prop. $5, M_a$ is open in R. It follows that $M_a$ is open and closed in R. Since $k=\mathbf{C}, R\cap M$ is connected (Lemma 1), hence $M_a= R\cap M$.
 
 ### 4. APPLICATION TO ELEMENTARY AUTOMORPHISMS
 
@@ -248,7 +248,7 @@ If $k=\mathbf{C}$, the subalgebras $\mathfrak{g}^1(a)$, for $a$ regular and belo
 
 Let $k$ be a field of characteristic 0 and $\mathfrak{g}$ a Lie algebra over $k$. If $a\in$ Aut$_e(\mathfrak{g})$, the dimension of the nilspace of $a-1$ is greater than or equal to the rank of $\mathfrak{g}$.
 
-By the “Lefschetz principle” (Algebra, Chap. V, §14, no. 6, Cor. 2 of Th. $5),k$ is an ascending directed union of subfields $(k_i)_{i\in I}$ which admit $\mathbf{C}$ as extension field. Let $(e_{\alpha})$ be a basis of $\mathfrak{g}$ over $k$ and $x_1, . . . , x_m$ elements of $\mathfrak{g}$ such that ad($x_1$)$, . . .$, ad($x_m$) are nilpotent and $a=e^{ad(x_1)}. . . e^{ad(x_m)}$. Let $c^{\gamma}_{\alpha \beta}$ be the structure constants of $\mathfrak{g}$ with respect to the basis $(e_{\alpha})$ and $(x^{\alpha}_r)$ the components of $x_r$ with respect to this basis $(1\leq r\leq m)$. There exists an index $j\in I$ such that the $c^{\gamma}_{\alpha \beta}$ and the $x^{\alpha}_r$ all belong to $k_j$. Let $\mathfrak{g}_j=\sum_{\alpha}k_je_{\alpha}$;
+By the “Lefschetz principle” (Algebra, Chap. V, §14, no. 6, Cor. 2 of Th. $5$)$,k$ is an ascending directed union of subfields $(k_i)_{i\in I}$ which admit $\mathbf{C}$ as extension field. Let $(e_{\alpha})$ be a basis of $\mathfrak{g}$ over $k$ and $x_1, . . . , x_m$ elements of $\mathfrak{g}$ such that ad($x_1$)$, . . .$, ad($x_m$) are nilpotent and $a=e^{ad(x_1)}. . . e^{ad(x_m)}$. Let $c^{\gamma}_{\alpha \beta}$ be the structure constants of $\mathfrak{g}$ with respect to the basis $(e_{\alpha})$ and $(x^{\alpha}_r)$ the components of $x_r$ with respect to this basis $(1\leq r\leq m)$. There exists an index $j\in I$ such that the $c^{\gamma}_{\alpha \beta}$ and the $x^{\alpha}_r$ all belong to $k_j$. Let $\mathfrak{g}_j=\sum_{\alpha}k_je_{\alpha}$;
 
 this is a Lie algebra over $k_j$ containing $x_1, . . . , x_m$, and the restriction $a_j$ of $a$ to $\mathfrak{g}_j$ is an elementary automorphism of $\mathfrak{g}_j$. The extension of $a_j$ to $\mathfrak{g}_j\otimes_{k_j}\mathbf{C}$ is an elementary automorphism $a_j\otimes 1$ of $\mathfrak{g}_j\otimes \mathbf{C}$. So let $G_j$ be a connected complex Lie group with Lie algebra $\mathfrak{g}_j\otimes \mathbf{C}$, and $s$ an element of $G_j$ such that Ad($s$) $=a_j\otimes 1$. Prop. 8, applied to the pair $(G_j, s)$, shows that the nilspace of $a_j\otimes 1-1$ is of dimension $n$, so
 

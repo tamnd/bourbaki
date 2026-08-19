@@ -37,7 +37,7 @@ subsections:
       pdf_page: 170
 statements: 2
 exercises: 10
-content_sha256: b5945a675f9d2e07ca143e96570aaf025abe6517cdfc0254d8c5e11cc1620c22
+content_sha256: b9239c711495a6203933aa065daeb8861e4db7597cdf677411c7d806e8a8c0fb
 ---
 
 ## § 1. CARQUOIS
@@ -86,19 +86,19 @@ $$
 
 ### 2. Sous-carquois
 
-Soient C et $C'$ des carquois. On dit que $C'$ est un sous-carquois de C si l’on a Som(C$')\subset$ Som(C), Fl(C$')\subset$ Fl(C) et que les applications $o_{C'}$ et $t_{C'}$ coïncident dans Fl(C$')$ avec les applications $o_C$ et $t_C$. Si, de plus, toute flèche de C dont la source et le but appartiennent à Som(C$')$ est une flèche de $C'$, on dit que $C'$ est un sous-carquois plein de C.
+Soient C et $C'$ des carquois. On dit que $C'$ est un sous-carquois de C si l’on a Som(C$'$)$\subset$ Som(C), Fl(C$'$)$\subset$ Fl(C) et que les applications $o_{C'}$ et $t_{C'}$ coïncident dans Fl(C$'$) avec les applications $o_C$ et $t_C$. Si, de plus, toute flèche de C dont la source et le but appartiennent à Som(C$'$) est une flèche de $C'$, on dit que $C'$ est un sous-carquois plein de C.
 
-Soit C un carquois et soit $(C_i)_{i\in I}$ une famille de sous-carquois de C. On appelle intersection de la famille $(C_i)_{i\in I}$ et l’on note $\bigcap_{i\in I}C_i$ le sous-carquois de C dont l’ensemble des sommets est $\bigcap_{i\in I}$ Som(C$_i)$ et dont l’ensemble des flèches est $\bigcap_{i\in I}$ Fl(C$_i)$.
+Soit C un carquois et soit $(C_i)_{i\in I}$ une famille de sous-carquois de C. On appelle intersection de la famille $(C_i)_{i\in I}$ et l’on note $\bigcap_{i\in I}C_i$ le sous-carquois de C dont l’ensemble des sommets est $\bigcap_{i\in I}$ Som(C$_i$) et dont l’ensemble des flèches est $\bigcap_{i\in I}$ Fl(C$_i$).
 
 ### 3. Morphismes de carquois
 
-Soient C et $C'$ des carquois. Un morphisme de carquois de C dans $C'$ est un couple $(u, v)$, où $u:$ Som(C) $\rightarrow$ Som(C$')$ et $v:$ Fl(C) $\rightarrow$ Fl(C$')$ sont des applications telles que $o_{C'}\circ v=u\circ o_C$ et $t_{C'}\circ v=u\circ t_C$.
+Soient C et $C'$ des carquois. Un morphisme de carquois de C dans $C'$ est un couple $(u, v)$, où $u:$ Som(C) $\rightarrow$ Som(C$'$) et $v:$ Fl(C) $\rightarrow$ Fl(C$'$) sont des applications telles que $o_{C'}\circ v=u\circ o_C$ et $t_{C'}\circ v=u\circ t_C$.
 
 Soit $\varphi = (u, v)$ un morphisme de carquois de C dans $C'$. Les applications $u$ et $v$ se notent Som($\varphi$ ) et Fl($\varphi$ ). Si $a$ est un sommet de C, on notera par abus $\varphi (a)$ l’image d’un sommet $a$ de C et on dira que $\varphi (a)$ est l’image de $a$ par $\varphi$. De même, si $f$ est une flèche de C, on notera par abus $\varphi (f)$ la flèche $v(f)$ de $C'$ et on dira qu’elle est l’image de $f$ par $\varphi$.
 
 Soient C, $C',C''$ trois carquois, soit $\varphi = (u, v)$ un morphisme de C dans $C'$ et soit $\varphi '= (u', v')$ un morphisme de $C'$ dans $C''$. Alors $(u'\circ u, v'\circ v)$ est un morphisme de C dans $C''$ que l’on note $\varphi '\circ \varphi$ et que l’on appelle le composé de $\varphi '$ et de $\varphi$.
 
-On note Id$_C$ le morphisme (Id$_{Som(C)}$, Id$_{Fl(C)})$ de C dans lui-même.
+On note Id$_C$ le morphisme (Id$_{Som(C)}$, Id$_{Fl(C)}$) de C dans lui-même.
 
 Soit $\varphi$ un morphisme de carquois de C dans $C'$. Pour que $\varphi$ soit un isomorphisme, il faut et il suffit que les applications Som($\varphi$ ) et Fl($\varphi$ ) soient bijectives (cf. E, IV, p. 6).
 
@@ -110,9 +110,9 @@ Soient $\varphi$ et $\psi$ des morphismes de carquois de C dans $C'$. Il existe 
 
 ### 4. Produits de carquois
 
-Soit $(C_i)_{i\in I}$ une famille de carquois. Posons S = $\prod_{i\in I}$ Som(C$_i)$, $F =\prod_{i\in I}$ Fl(C$_i)$ et soient $o$ et $t$ les applications $\prod_{i\in I}o_{C_i}$ et $\prod_{i\in I}t_{C_i}$ respectivement. Le quadruplet $C = (S,F, o, t)$ est un carquois appelé carquois produit de la famille $(C_i)_{i\in I}$.
+Soit $(C_i)_{i\in I}$ une famille de carquois. Posons S = $\prod_{i\in I}$ Som(C$_i$), $F =\prod_{i\in I}$ Fl(C$_i$) et soient $o$ et $t$ les applications $\prod_{i\in I}o_{C_i}$ et $\prod_{i\in I}t_{C_i}$ respectivement. Le quadruplet $C = (S,F, o, t)$ est un carquois appelé carquois produit de la famille $(C_i)_{i\in I}$.
 
-Il existe un unique morphisme de carquois pr$_i: C\rightarrow C_i$ tel que les applications Som(pr$_i)$ et Fl(pr$_i)$ soient respectivement les projections d’indice $i$ de Som(C) dans Som(C$_i)$ et de Fl(C) dans Fl(C$_i)$.
+Il existe un unique morphisme de carquois pr$_i: C\rightarrow C_i$ tel que les applications Som(pr$_i$) et Fl(pr$_i$) soient respectivement les projections d’indice $i$ de Som(C) dans Som(C$_i$) et de Fl(C) dans Fl(C$_i$).
 
 On a la propriété universelle suivante : Soit $C'$ un carquois ; pour toute famille $(\varphi_i)_{i\in I}$, où, pour tout $i\in I,\varphi_i: C'\rightarrow C_i$ est un morphisme de carquois, il existe un unique morphisme de carquois $\varphi : C'\rightarrow C$ tel que $\varphi_i=$ pr$_i\circ \varphi$ pour tout $i\in I$.
 

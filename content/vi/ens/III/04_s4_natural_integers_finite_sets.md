@@ -34,9 +34,9 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: d33db1ecd820ddc15078f61bf2fab8fc9c74abae46de7429d66605bc6a2c8c28
+content_sha256: 8161491303a7ae9f92d8bfe10d9d50ce978dc5c5d964b1bf251c03a26c66d1d3
 translated_from: content/en/ens/III/04_s4_natural_integers_finite_sets.md
-source_content_sha256: a6f2479eb99b8adca6c4e3e15057c1b81700e121b4ca8926b4c22732686f3d98
+source_content_sha256: 1732f68fff64279b29515ae018528520592624e21906373ba7474e14191b2e68
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-893d8bc2
 glossary_version: 30
@@ -204,7 +204,7 @@ $$(\forall n)((n \text{ là một số nguyên và } a \leqslant n \leqslant b) 
 
 là đúng. Thật vậy, ta có quan hệ
 
-$(n$ là một số nguyên và $a \leqslant n < b$ và (không $\mathrm{R}\{n\})) \Rightarrow$ không $\mathrm{R}\{n+1\}$.
+$(n$ là một số nguyên và $a \leqslant n < b$ và (không $\mathrm{R}\{n\}$)) $\Rightarrow$ không $\mathrm{R}\{n+1\}$.
 
 Nếu với một $n$ nào đó sao cho $a \leqslant n \leqslant b$ ta có (không $\mathrm{R}\{n\}$), thì từ (3) sẽ suy ra rằng (không $\mathrm{R}\{b\}$), trái với giả thiết, do đó có kết quả (*"quy nạp giảm dần"*).
 

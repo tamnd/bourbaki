@@ -37,7 +37,7 @@ subsections:
       pdf_page: 41
 statements: 28
 exercises: 37
-content_sha256: 8c50cb4cbd7b37b862e7a67e2fa016dd006043f8be6636fdc4c038c9f2a0127b
+content_sha256: edfaf76c313fcc84800e243b6514101bd6b8edead024662cc4ef2ee2faf9d2eb
 ---
 
 ## § 2. ALGÈBRES NORMÉES
@@ -124,7 +124,7 @@ c’est-à-dire l’adhérence dans K de l’ensemble $f(X)$ des valeurs de $f$.
 
 3) Soit X un espace topologique. On note $\mathscr{C}_b(X; K)$ la sous-algèbre unifère de $\mathscr{B}(X; K)$ des fonctions continues et bornées sur X à valeurs dans K$,\mathscr{C}_0(X; K)$ la sous-algèbre de $\mathscr{C}_b(X; K)$ constituée des fonctions qui tendent vers 0 à l’infini (cf. INT, III, §1, n$^o2$ et TG, X, p. 40, cor. 2). On rappelle que $\mathscr{K}(X; K)$ désigne la sous-algèbre de $\mathscr{C}_b(X; K)$ des fonctions continues à support compact.
 
-Les algèbres $\mathscr{C}_b(X; K)$ et $\mathscr{C}_0(X; K)$ sont des algèbres de Banach commutatives sur K; en effet, ce sont des sous-espaces fermés de $\mathscr{B}(X; K)$ (TG, X, p. 21, cor. 2 et INT, III, §1, n$^o2)$.
+Les algèbres $\mathscr{C}_b(X; K)$ et $\mathscr{C}_0(X; K)$ sont des algèbres de Banach commutatives sur K; en effet, ce sont des sous-espaces fermés de $\mathscr{B}(X; K)$ (TG, X, p. 21, cor. 2 et INT, III, §1, n$^o2$).
 
 L’inverse d’une fonction continue partout non nulle étant continue, la sous-algèbre $\mathscr{C}_b(X; K)$ est une sous-algèbre pleine de $\mathscr{B}(X; K)$. En particulier, le spectre d’un élément $f$ de $\mathscr{C}_b(X; K)$ est égal à $\overline{f(X)}$.
 
@@ -290,7 +290,7 @@ Soient A une algèbre de Banach et $x$ un élément de A. La série $\sum_{n=1}^
 
 La série $\sum^{\infty}_{n=1}\lambda^nx^n$ a pour rayon de convergence
 
-(lim sup$_{n\rightarrow+\infty}\|x^n\|^{1/n})^{-1}=\varrho (x)^{-1}$
+(lim sup$_{n\rightarrow+\infty}\|x^n\|^{1/n}$)$^{-1}=\varrho (x)^{-1}$
 
 (cf. VAR, R1, p. 23, 3.1.4). Supposons que A admette un élément unité. Si $\varrho (x)<1$, la série $\sum_{n=0}^{\infty}x^n$ est donc absolument convergente. Comme
 
@@ -310,7 +310,7 @@ C’est immédiat puisque $\|x\|<1$ implique $\varrho (x)<1$.
 
 Soient A une algèbre de Banach et I un idéal à gauche (resp. à droite) maximal régulier de A. Alors I est fermé.
 
-Soit $(\widetilde{A}, e)$ l’algèbre de Banach unifère déduite de A par adjonction d’un élément unité. Il existe un idéal à gauche (resp. à droite) maximal J de $\widetilde{A}$ tel que $J\cap A = I$ (A, VIII, p. 428, prop. 4). Alors J est disjoint de la boule ouverte de centre $e$ et de rayon 1 (cor. 1), et donc $\overline{J}\not=\widetilde{A}$. Comme J est un idéal maximal, cela implique que J = J, et par suite que $I = J\cap A = J\cap A$ est fermé dans A.
+Soit $(\widetilde{A}, e)$ l’algèbre de Banach unifère déduite de A par adjonction d’un élément unité. Il existe un idéal à gauche (resp. à droite) maximal J de $\widetilde{A}$ tel que $J\cap A = I$ (A, VIII, p. 428, prop. 4). Alors J est disjoint de la boule ouverte de centre $e$ et de rayon 1 (cor. 1), et donc $\overline{J}\not=\widetilde{A}$. Comme J est un idéal maximal, cela implique que $\overline{J}= J$, et par suite que $I = J\cap A =\overline{J}\cap A$ est fermé dans A.
 
 #### Corollaire 3 {#ts-i-s2-prop-2-cor-3 .statement tag=0267}
 
@@ -326,7 +326,7 @@ a) Si $x\in A$ admet un inverse à gauche (resp. à droite) $y$, tout élément 
 
 b) L’ensemble des éléments de A qui sont inversibles (resp. à gauche, resp. à droite) est ouvert dans A.
 
-c) Soit $(x_n)$ une suite d’éléments de A admettant des inverses à gauche (resp. à droite$)y_n$, et convergeant vers un élément $x\in A$. Si la suite $(y_n)$ est bornée, alors $x$ est inversible à gauche (resp. à droite).
+c) Soit $(x_n)$ une suite d’éléments de A admettant des inverses à gauche (resp. à droite)$y_n$, et convergeant vers un élément $x\in A$. Si la suite $(y_n)$ est bornée, alors $x$ est inversible à gauche (resp. à droite).
 
 Il suffit de traiter le cas des inverses à gauche ; celui des inverses à droite en découle en considérant l’algèbre opposée.
 
@@ -502,7 +502,7 @@ Soit U une composante connexe de $\mathbf{C}-X_2$. Tout point frontière de $X_1
 
 Soient A une algèbre de Banach unifère et B une sous-algèbre unifère fermée de A. Pour tout $x\in B$, on a Sp$_B(x)\supset$ Sp$_A(x)$, et la frontière de Sp$_A(x)$ dans $\mathbf{C}$ contient la frontière de Sp$_B(x)$ dans $\mathbf{C}$. En particulier, si Sp$_B(x)\subset \mathbf{R}$, alors on a Sp$_B(x) =$ Sp$_A(x)$.
 
-On a Sp$_B(x)\supset$ Sp$_A(x)$ (remarque 6 de I, p. 3). Si $\lambda$ est un point de la frontière de Sp$_B(x)$ dans $\mathbf{C}$, il existe une suite $(\lambda_n)$ de points extérieurs à Sp$_B(x)$ tendant vers $\lambda$. Alors $x-\lambda_n$ est inversible dans B et tend vers $x-\lambda$, qui n’est pas inversible dans B; donc $x-\lambda$ est diviseur de zéro topologique à gauche ou à droite dans B (prop. 4 de I, p. 24), donc dans A. Ainsi, $\lambda \in$ Sp$_A(x)$. Mais puisque Sp$_A(x)\subset$ Sp$_B(x)$, le nombre complexe $\lambda \in$ Fr$_{\mathbf{C}}$(Sp$_B(x))$ ne peut être intérieur à Sp$_A(x)$, donc appartient à sa frontière.
+On a Sp$_B(x)\supset$ Sp$_A(x)$ (remarque 6 de I, p. 3). Si $\lambda$ est un point de la frontière de Sp$_B(x)$ dans $\mathbf{C}$, il existe une suite $(\lambda_n)$ de points extérieurs à Sp$_B(x)$ tendant vers $\lambda$. Alors $x-\lambda_n$ est inversible dans B et tend vers $x-\lambda$, qui n’est pas inversible dans B; donc $x-\lambda$ est diviseur de zéro topologique à gauche ou à droite dans B (prop. 4 de I, p. 24), donc dans A. Ainsi, $\lambda \in$ Sp$_A(x)$. Mais puisque Sp$_A(x)\subset$ Sp$_B(x)$, le nombre complexe $\lambda \in$ Fr$_{\mathbf{C}}$(Sp$_B(x)$) ne peut être intérieur à Sp$_A(x)$, donc appartient à sa frontière.
 
 #### Corollaire {#ts-i-s2-n6-cor-1 .statement tag=026N}
 

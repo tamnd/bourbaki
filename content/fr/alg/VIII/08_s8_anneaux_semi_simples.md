@@ -29,7 +29,7 @@ subsections:
       pdf_page: 147
 statements: 30
 exercises: 6
-content_sha256: b8cd5a2eda963f903b7f438a590699901817ce67cce1d1577041c3b3a9600930
+content_sha256: d022b8b7bcc0df4ce265d5b13c85dd980b872df2a090b3cde80e39237c2e7d84
 ---
 
 ## § 8. ANNEAUX SEMI-SIMPLES
@@ -58,7 +58,7 @@ Le A-module $A_s$ est de type fini. S’il est semi-simple, il est artinien à g
 
 Démontrons que (i) entraîne (iii). Supposons que l’anneau A satisfasse à la propriété (i) ; on a déjà remarqué que A est alors artinien à gauche. Or les endomorphismes du A-module à gauche $A_s$ sont les multiplications à droite par les éléments de A. Que le $(A$, A)-bimodule $_sA_d$ soit semi-simple résulte alors de la prop. 6 de VIII, p. 81.
 
-Montrons que (iii) entraîne (iv). Supposons que le $(A$, A)-bimodule $_sA_d$ soit semi-simple. Il est de type fini, donc il existe une famille finie $(\mathfrak{a}_i)_{i\in I}$ de sous-(A$,A)$-bimodules simples, dont $_sA_d$ soit la somme directe. Autrement dit, les $\mathfrak{a}_i$ sont des idéaux bilatères non nuls de A, le groupe additif de A est la somme directe des $\mathfrak{a}_i$ et, pour tout $i\in I$, tout idéal bilatère de A contenu dans $\mathfrak{a}_i$ est égal à 0 ou $\mathfrak{a}_i$. Posons $\mathfrak{b}_i=\sum_{j\not=i}\mathfrak{a}_j$ pour tout $i\in I$; c’est un idéal bilatère de A. L’application $a\rightarrow (a+\mathfrak{b}_i)_{i\in I}$ est un isomorphisme de l’anneau A sur le produit des anneaux $A/\mathfrak{b}_i$. Les $(A$, A)-bimodules $\mathfrak{a}_i$ et $A/\mathfrak{b}_i$ sont isomorphes, donc tout idéal bilatère de $A/\mathfrak{b}_i$ est égal à 0 ou $A/\mathfrak{b}_i$. Si l’anneau A est artinien à gauche, il en est de même des anneaux $A/\mathfrak{b}_i$, qui sont donc simples (VIII, p. 116, déf. 1).
+Montrons que (iii) entraîne (iv). Supposons que le $(A$, A)-bimodule $_sA_d$ soit semi-simple. Il est de type fini, donc il existe une famille finie $(\mathfrak{a}_i)_{i\in I}$ de sous-(A$,A$)-bimodules simples, dont $_sA_d$ soit la somme directe. Autrement dit, les $\mathfrak{a}_i$ sont des idéaux bilatères non nuls de A, le groupe additif de A est la somme directe des $\mathfrak{a}_i$ et, pour tout $i\in I$, tout idéal bilatère de A contenu dans $\mathfrak{a}_i$ est égal à 0 ou $\mathfrak{a}_i$. Posons $\mathfrak{b}_i=\sum_{j\not=i}\mathfrak{a}_j$ pour tout $i\in I$; c’est un idéal bilatère de A. L’application $a\rightarrow (a+\mathfrak{b}_i)_{i\in I}$ est un isomorphisme de l’anneau A sur le produit des anneaux $A/\mathfrak{b}_i$. Les $(A$, A)-bimodules $\mathfrak{a}_i$ et $A/\mathfrak{b}_i$ sont isomorphes, donc tout idéal bilatère de $A/\mathfrak{b}_i$ est égal à 0 ou $A/\mathfrak{b}_i$. Si l’anneau A est artinien à gauche, il en est de même des anneaux $A/\mathfrak{b}_i$, qui sont donc simples (VIII, p. 116, déf. 1).
 
 Démontrons enfin que (iv) entraîne (i). Supposons que A soit le produit d’une famille finie $(A_i)_{i\in I}$ d’anneaux simples ; notons $\pi_i$ la projection d’indice $i$ de A dans $A_i$, et $M_i$ le A-module ayant $A_i$ pour groupe additif sous-jacent et la loi d’action $(a, x)\rightarrow \pi_i(a)x$. Comme l’anneau $A_i$ est simple, le $A_i$-module $(A_i)_s$ est semi-simple, donc le A-module $M_i$ est semi-simple. Comme le A-module $A_s$ n’est autre que le produit $\prod_{i\in I}M_i$, il est semi-simple.
 
@@ -172,7 +172,7 @@ Soit M un A-module semi-simple de type fini. On note $\mathscr{S}_M$ son support
 
 a) L’anneau B est semi-simple.
 
-b) L’application $\lambda \rightarrow$ cl(V$_{\lambda})$est une bijection du support $\mathscr{S}_M$ de M sur l’ensemble des classes de B-modules simples.
+b) L’application $\lambda \rightarrow$ cl(V$_{\lambda}$)est une bijection du support $\mathscr{S}_M$ de M sur l’ensemble des classes de B-modules simples.
 
 c) Pour tout $\lambda \in \mathscr{S}_M$, le composant isotypique de type $\lambda$ du A-module M est égal au composant isotypique de type $V_{\lambda}$ du B-module M.
 
@@ -232,7 +232,7 @@ c) Pour tout $\lambda \in \mathscr{S}$, on a $\mathfrak{b}_{\lambda}=\mathfrak{a
 
 d) Pour tout $\lambda \in \mathscr{S}$, l’application canonique de A sur $A/\mathfrak{b}_{\lambda}$ induit un isomorphisme de A-modules de $\mathfrak{a}_{\lambda}$ sur $A/\mathfrak{b}_{\lambda}$.
 
-L’assertion a) résulte de la prop. 8, d) de VIII, p. 82 appliquée au A-module $A_s$. Il en résulte que les idéaux bilatères minimaux de A sont les $\mathfrak{a}_{\lambda}$ et que les idéaux bilatères maximaux sont les idéaux $\mathfrak{c}_{\lambda}=a_{\mathscr{S}-\lambda}$ (pour $\lambda \in \mathscr{S})$.
+L’assertion a) résulte de la prop. 8, d) de VIII, p. 82 appliquée au A-module $A_s$. Il en résulte que les idéaux bilatères minimaux de A sont les $\mathfrak{a}_{\lambda}$ et que les idéaux bilatères maximaux sont les idéaux $\mathfrak{c}_{\lambda}=a_{\mathscr{S}-\lambda}$ (pour $\lambda \in \mathscr{S}$).
 
 Il reste à établir, pour tout $\lambda \in \mathscr{S}$, l’égalité de $\mathfrak{b}_{\lambda}$ et $\mathfrak{c}_{\lambda}$. Soient $\lambda$ et $\mu$ distincts dans $\mathscr{S}$. Le sous-A-module $\mathfrak{a}_{\mu}S_{\lambda}$ de $S_{\lambda}$ est réunion des images des applications linéaires $a\rightarrow ax$ de $\mathfrak{a}_{\mu}$ dans $S_{\lambda}$, pour $x\in S_{\lambda}$. Par suite il est nul et l’on a $\mathfrak{a}_{\mu}\subset \mathfrak{b}_{\lambda}$. On en déduit $\mathfrak{c}_{\lambda}\subset \mathfrak{b}_{\lambda}$ et finalement $\mathfrak{c}_{\lambda}=\mathfrak{b}_{\lambda}$ puisque $\mathfrak{c}_{\lambda}$ est un idéal bilatère maximal de A et que $\mathfrak{b}_{\lambda}$ est distinct de A.
 
@@ -272,7 +272,7 @@ Soit $\lambda \in \mathscr{S}$. Le composant isotypique $\mathfrak{a}_{\lambda}$
 
 et
 
-(2) long(A) = long(A$^o) =\sum_{\lambda\in\mathscr{S}}$ dim$_{D_{\lambda}}S_{\lambda}$.
+(2) long(A) = long(A$^o$) $=\sum_{\lambda\in\mathscr{S}}$ dim$_{D_{\lambda}}S_{\lambda}$.
 
 La première assertion est le cas particulier $M = A_s$ de la prop. 6, c) de VIII, p. 135. L’égalité $[A_s: S_{\lambda}] = [A_d: S^*_{\lambda}]$ résulte de la prop. 7 de VIII, p. 136, puisque le dual du A-module à gauche $A_s$ est isomorphe au A-module à droite $A_d$. D’après les prop. 8, a) de VIII, p. 137 et 9, c) de VIII, p. 137, l’application $a\rightarrow a_{S_{\lambda}}$ définit un isomorphisme de A-modules à gauche de $\mathfrak{a}_{\lambda}$ sur End$_{D_{\lambda}}(S_{\lambda})$. Comme $[A_s: S_{\lambda}]$ est, par définition, la longueur du A-module à gauche $\mathfrak{a}_{\lambda}$, la relation $[A_s: S_{\lambda}] =$ dim$_{D_{\lambda}}S_{\lambda}$ résulte du lemme 2 de VIII, p. 117. Enfin, la formule (2) s’obtient à partir de (1) par sommation sur $\lambda$.
 
@@ -294,13 +294,13 @@ f) l’ensemble des idéaux minimaux de Z ;
 
 g) l’ensemble des idéaux maximaux de Z.
 
-À tout élément $\lambda$ de $\mathscr{S}(A)$ correspondent ainsi la classe $\lambda^*$ du A-module à droite simple $S^*_{\lambda}$ dual de $S_{\lambda}$, l’idéal bilatère minimal $\mathfrak{a}_{\lambda}$ (composant isotypique de type $\lambda$ de $A_s)$, l’idéal bilatère maximal $\mathfrak{b}_{\lambda}$ de A (annulateur du module simple $S_{\lambda})$, la classe du Z-module simple $Z\cap \mathfrak{a}_{\lambda}$, l’idéal minimal $Z\cap \mathfrak{a}_{\lambda}$ de Z et l’idéal maximal $Z\cap \mathfrak{b}_{\lambda}$ de Z.
+À tout élément $\lambda$ de $\mathscr{S}(A)$ correspondent ainsi la classe $\lambda^*$ du A-module à droite simple $S^*_{\lambda}$ dual de $S_{\lambda}$, l’idéal bilatère minimal $\mathfrak{a}_{\lambda}$ (composant isotypique de type $\lambda$ de $A_s$), l’idéal bilatère maximal $\mathfrak{b}_{\lambda}$ de A (annulateur du module simple $S_{\lambda}$), la classe du Z-module simple $Z\cap \mathfrak{a}_{\lambda}$, l’idéal minimal $Z\cap \mathfrak{a}_{\lambda}$ de Z et l’idéal maximal $Z\cap \mathfrak{b}_{\lambda}$ de Z.
 
 #### Proposition 12 {#alg-viii-s8-prop-12 .statement tag=009N}
 
 Soient M un module sur l’anneau semi-simple A et $\mathscr{S}_M\subset \mathscr{S}$ le support de M. Alors l’annulateur Ann(M) de M est l’idéal bilatère $\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$ et l’idéal trace $\tau (M)$de M est l’idéal bilatère $\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$. En particulier, A est somme directe de Ann(M) et $\tau (M)$.
 
-Par définition (VIII, p. 80$),\mathscr{S}_M$ se compose des classes des sous-modules simples de M. Comme le module M est semi-simple, l’annulateur de M est l’intersection des annulateurs $\mathfrak{b}_{\lambda}$ des modules de classe $\lambda$, pour $\lambda$ parcourant$\mathscr{S}_M$. Or on a $\mathfrak{b}_{\lambda}=\sum_{\mu\not=\lambda}\mathfrak{a}_{\mu}$ pour tout $\lambda \in \mathscr{S}$ (VIII, p. 137, prop. 9). Comme A est somme directe de la famille $(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$, l’annulateur de M est bien égal à $\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$.
+Par définition (VIII, p. 80)$,\mathscr{S}_M$ se compose des classes des sous-modules simples de M. Comme le module M est semi-simple, l’annulateur de M est l’intersection des annulateurs $\mathfrak{b}_{\lambda}$ des modules de classe $\lambda$, pour $\lambda$ parcourant$\mathscr{S}_M$. Or on a $\mathfrak{b}_{\lambda}=\sum_{\mu\not=\lambda}\mathfrak{a}_{\mu}$ pour tout $\lambda \in \mathscr{S}$ (VIII, p. 137, prop. 9). Comme A est somme directe de la famille $(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$, l’annulateur de M est bien égal à $\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$.
 
 Par définition (VIII, p. 75), l’idéal trace $\tau (M)$ est le sous-A-module de $A_s$ engendré par les images des applications A-linéaires de M dans $A_s$. Il revient au même, puisque M est semi-simple, de dire que $\tau (M)$ est engendré par les sous-modules simples de $A_s$ dont la classe appartient à $\mathscr{S}_M$. On a donc $\tau (M) =\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$.
 
@@ -374,7 +374,7 @@ $$
 x=xe=\sum_ixe_i=\sum_ip_i(x)
 $$
 
-Par suite (II, p. 18, prop. $12), Ae$ est somme directe des images des $p_i$. Or on a $ee_i=e_ie=e_i$, donc l’image de $p_i$ est $Ae_i$. Cela prouve a).
+Par suite (II, p. 18, prop. $12$)$, Ae$ est somme directe des images des $p_i$. Or on a $ee_i=e_ie=e_i$, donc l’image de $p_i$ est $Ae_i$. Cela prouve a).
 
 Prenons les notations et hypothèses de b). Soit $i\in I$; comme $e_i$ appartient à $Ae$, on a $e_i=e_ie=\sum_je_ie_j$; comme $Ae$ est somme directe des $\mathfrak{a}_j$ et que $e_ie_j$ appartient à $\mathfrak{a}_j$ pour tout $j$, on a $e_i=e_ie_i$ et $e_ie_j= 0$ pour $i\not=j$. Autrement dit, $(e_i)_{i\in I}$ est une partition de l’élément idempotent $e$. D’après a), $Ae$ est somme directe des $Ae_i$; par hypothèse, on a $Ae_i\subset \mathfrak{a}_i$ et $Ae$ est somme directe des $\mathfrak{a}_i$. On a donc $Ae_i=\mathfrak{a}_i$ pour tout $i\in I$, d’où b).
 
