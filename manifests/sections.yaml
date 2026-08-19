@@ -666,7 +666,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: 798b058f0c87ac190ccb5144caf78049d60b5312dc52ca93266437c9b73c8e14
+              content_sha256: 5162bba364a7b25a3997668dc07a445a5535ba5887bc1ff2709ef1870e280f2a
             - kind: appendix
               section: 3
               title: Le théorème des zéros de Hilbert
@@ -1307,7 +1307,7 @@ books:
               statements: 15
               exercises: 0
               extraction: native
-              content_sha256: caa1a84b6b9dad3fadb5cc235ba1376df57f7782b9ed6414993cb68f9a306f70
+              content_sha256: 5eafbb553a1b0365719841b825490207f84013ce88dc00d99efffccaa00d50e2
             - kind: section
               section: 5
               title: Coégalisateur
@@ -1877,7 +1877,7 @@ books:
               statements: 45
               exercises: 20
               extraction: native
-              content_sha256: eec3a032fa7b5e66f57c287f325099b4c057b4250ccf1d0461cd142a86adfd90
+              content_sha256: c0d7458df7a2c9deec20b0780f83e9dad90f77040b117fc2200b8cc28d477a44
             - kind: section
               section: 3
               title: Fonctions de type positif

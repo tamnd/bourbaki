@@ -34,7 +34,7 @@ subsections:
       pdf_page: 447
 statements: 18
 exercises: 4
-content_sha256: 798b058f0c87ac190ccb5144caf78049d60b5312dc52ca93266437c9b73c8e14
+content_sha256: 5162bba364a7b25a3997668dc07a445a5535ba5887bc1ff2709ef1870e280f2a
 ---
 
 ### APPENDICE 2 DÉTERMINANTS SUR UN CORPS NON COMMUTATIF
@@ -405,7 +405,7 @@ b) Supposons $n\geqslant 3$ou Card(D) $\geqslant 3$. Le groupe dérivé de $\mat
 
 c) Supposons $n\geqslant 3$ou Card(D) $\geqslant 4$. Le groupe dérivé de $\mathbf{S}\mathbf{L}_n(D)$est égal à $\mathbf{S}\mathbf{L}_n(D)$.
 
-A) Notons T le sous-groupe de $\mathbf{G}\mathbf{L}_n(D)$ engendré par les matrices $B_{ij}(\lambda )$. D’après l’exemple 1 de VIII, p. 443, on a det($B_{ij}(\lambda )$) $= 1$, d’où $T\subset \mathbf{S}\mathbf{L}_n(D)$. Pour prouver que ces deux groupes sont égaux, il suffit alors, d’après l’exemple 3 de loc. cit., de prouver que toute matrice de la forme diag(1$, . . . ,1, d)$avec $\pi (d) = 1$appartient à $($ T. La matrice diag(1$), . . . ,1, d)$ appartient à l’image de l’homomorphisme $U\rightarrow^{I_n}_{0^{-2}U}^0$ de $\mathbf{G}\mathbf{L}_2(D)$ dans $\mathbf{G}\mathbf{L}_n(D)$; il suffit donc de considérer le cas $n= 2$. Comme le noyau de $\pi$ est le groupe dérivé de $D^*$, on peut supposer $d=uvu^{-1}v^{-1}$ avec $u, v$ dans $D^*$. Notre assertion résulte alors des égalités
+A) Notons T le sous-groupe de $\mathbf{G}\mathbf{L}_n(D)$ engendré par les matrices $B_{ij}(\lambda )$. D’après l’exemple 1 de VIII, p. 443, on a det($B_{ij}(\lambda )$) $= 1$, d’où $T\subset \mathbf{S}\mathbf{L}_n(D)$. Pour prouver que ces deux groupes sont égaux, il suffit alors, d’après l’exemple 3 de loc. cit., de prouver que toute matrice de la forme diag(1$, . . . ,1, d)$avec $\pi (d) = 1$appartient à $($ T. La matrice diag(1$), . . . ,1, d)$ appartient à l’image de l’homomorphisme $U\rightarrow \begin{pmatrix} I_{n-2} & 0 \\ 0 & U \end{pmatrix}$ de $\mathbf{G}\mathbf{L}_2(D)$ dans $\mathbf{G}\mathbf{L}_n(D)$; il suffit donc de considérer le cas $n= 2$. Comme le noyau de $\pi$ est le groupe dérivé de $D^*$, on peut supposer $d=uvu^{-1}v^{-1}$ avec $u, v$ dans $D^*$. Notre assertion résulte alors des égalités
 
 (28) $\begin{pmatrix} 1 & 0 \\ 0 & d \end{pmatrix} = \begin{pmatrix} u^{-1} & 0 \\ 0 & u \end{pmatrix}\begin{pmatrix} v^{-1} & 0 \\ 0 & v \end{pmatrix}\begin{pmatrix} vu & 0 \\ 0 & u^{-1}v^{-1} \end{pmatrix}$
 

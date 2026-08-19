@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: eec3a032fa7b5e66f57c287f325099b4c057b4250ccf1d0461cd142a86adfd90
+content_sha256: c0d7458df7a2c9deec20b0780f83e9dad90f77040b117fc2200b8cc28d477a44
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -611,7 +611,7 @@ Soit $\varrho$ une représentation unitaire de H dans un espace hilbertien compl
 Soit $\kappa ': G\rightarrow \mathbf{R}_+^*$ telle que
 
 $$
-\frac{\kappa'(xh)}{\kappa^'(x)}=\frac{\Delta_H(h)}{\Delta_G(h)}=\frac{\kappa(xh)}{\kappa(x)}
+\frac{\kappa'(xh)}{\kappa'(x)}=\frac{\Delta_H(h)}{\Delta_G(h)}=\frac{\kappa(xh)}{\kappa(x)}
 $$
 
 pour tout $(x, h)\in G\times H$. Soit $\nu '$ la mesure quasi-invariante $(\kappa '\cdot \mu)/\beta$ sur $G/H$. La fonction $\kappa '\kappa^{-1}$ définit par passage aux quotients une fonction continue $\xi : G/H\rightarrow \mathbf{R}_+^*$ telle que $\nu '=\xi \cdot \nu$. L’endomorphisme $\alpha$ de $\mathscr{K}_{\pi}(G)$ défini par $f\mapsto (\kappa '\kappa^{-1})^{1/p}f$ vérifie
