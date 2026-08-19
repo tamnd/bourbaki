@@ -1,0 +1,40 @@
+# Reviews of imported sections.
+#
+# An import is a transcription somebody made in a chat window. Machine checks
+# can say it is a transcription of the whole section, and `bourbaki share audit`
+# does, but nothing mechanical can say it is a transcription of the right words.
+# A model transcribing mathematics produces fluent wrong statements, and a
+# fluent wrong statement passes every count of labels and every search for runs
+# of prose. So a person reads the section against the printed volume and records
+# it here, and `bourbaki share promote` will not move a file into content/
+# without a record.
+#
+# One entry per section:
+#
+#   reviews:
+#     - import: sets            the tree under imports/
+#       chapter: 1
+#       section: 1
+#       reviewed_by: a name, so the record is signed
+#       reviewed_on: 2026-08-20
+#       printed_edition: 1968 Hermann, or whichever copy was in front of them
+#       body_sha256: the digest of the import body they read, optional
+#       promote: true
+#       findings: what was wrong with it
+#
+# promote and findings are both required, and findings is required even when
+# the answer is nothing. A reader who found nothing should have to write
+# "nothing", which is a different act from leaving the field out, and a record
+# with no verdict is an error rather than a guess.
+#
+# body_sha256 is optional and worth filling in. The review is of a text, not of
+# a filename: with the digest, editing the import afterwards refuses the
+# promotion as stale, and without it the sign-off travels to whatever the file
+# becomes.
+#
+# Nothing has been reviewed yet. Every section under imports/ is refused by
+# share promote today, three of them because content/ already holds a reading
+# of the same § made from the pages, which outranks an import whatever a reader
+# says about it.
+
+reviews: []
