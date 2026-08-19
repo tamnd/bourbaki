@@ -6,23 +6,23 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 8 chapters, 90 sections, 878 exercises, 3281 extracted pages, 5252 tags, 4947 references, 1437 translated files, 37 solutions. Languages: en, fr, vi.
+Audited: 8 chapters, 90 sections, 878 exercises, 3281 extracted pages, 5252 tags, 4950 references, 1463 translated files, 44 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
-| structure | 9 | 0 | 0 | none |
-| tags | 7 | 1 | 1 | T10 (236) |
-| mathematics | 6 | 2 | 1 | M06 (1), M09 (27) |
+| structure | 10 | 0 | 0 | none |
+| tags | 7 | 1 | 1 | T10 (139) |
+| mathematics | 6 | 2 | 1 | M06 (1) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
-| translation | 11 | 3 | 1 | L06 (66), L08 (21), L15 (2) |
-| solutions | 0 | 5 | 0 | X05 (5) |
-| publication | 0 | 1 | 0 | P04 (29) |
+| translation | 11 | 3 | 1 | L06 (72), L08 (24), L15 (27) |
+| solutions | 0 | 5 | 0 | X05 (6) |
+| publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 387 soft, over 61 rules that ran and 3 that could not.
+0 hard findings and 269 soft, over 62 rules that ran and 3 that could not.
 Every hard rule passes.
 
 ## Rules that did not run
@@ -39,120 +39,60 @@ should trust.
 
 Soft, mathematics.
 
-- `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.47 displays a page over 17 pages, against a mean of 1.27 and a sigma of 1.24
+- `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.18 displays a page over 17 pages, against a mean of 1.23 and a sigma of 1.18
 
-## M09 no base carries two superscripts or two subscripts (27)
-
-Soft, mathematics.
-
-- `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x}}}
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:474` two of one script against one base, which TeX will not set: _g'_{_{-1}}
-- `content/en/lie/IX/08_s8_fourier_transform.md:71` two of one script against one base, which TeX will not set: _u^2_2
-- `content/en/lie/IX/08_s8_fourier_transform.md:75` two of one script against one base, which TeX will not set: _u^2_2
-- `content/en/lie/IX/exercises/s6/02.md:27` two of one script against one base, which TeX will not set: ^1_{\overline{2}i=1}^n
-- `content/en/lie/IX/exercises/s7/04.md:23` two of one script against one base, which TeX will not set: ^n_{\partial x}^{\partial^2}_{\partial y}^P
-- `content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md:415` two of one script against one base, which TeX will not set: _{\alpha}'_{\alpha}
-- `content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md:499` two of one script against one base, which TeX will not set: ^r''
-- `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` two of one script against one base, which TeX will not set: ^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x}}}
-- `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:152` two of one script against one base, which TeX will not set: _n^-_i
-- `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:408` two of one script against one base, which TeX will not set: ^{I_n}_{0^{-2}U}^0
-- `content/fr/alg/VIII/exercises/s14/18.md:15` two of one script against one base, which TeX will not set: ^z_{0\sigma(}^0_{z)}
-- `content/fr/ta/I/03_s3_faisceaux.md:485` two of one script against one base, which TeX will not set: _v^{u_*}_{\mathscr{G}}
-- `content/fr/ta/I/03_s3_faisceaux.md:487` two of one script against one base, which TeX will not set: _v^{u_*}_{\mathscr{G}}
-- `content/fr/ta/II/04_s4_homotopies.md:309` two of one script against one base, which TeX will not set: ^v_{v\circ}^{\circ\varphi}_{\psi}
-- `content/fr/ta/II/05_s5_coegalisateur.md:323` two of one script against one base, which TeX will not set: _{\varphi}^{-_01}_{(j_k)}
-- `content/fr/ta/II/05_s5_coegalisateur.md:327` two of one script against one base, which TeX will not set: _{\psi}^{-_01}_{(j_k)}
-- `content/fr/ta/II/05_s5_coegalisateur.md:341` two of one script against one base, which TeX will not set: _{\varphi}^{-_01}_{(j_k)}
-- `content/fr/ta/II/05_s5_coegalisateur.md:411` two of one script against one base, which TeX will not set: _{\psi}^{-_01}_{(j)}
-- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:459` two of one script against one base, which TeX will not set: ^2'
-- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:461` two of one script against one base, which TeX will not set: ^2'
-- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:463` two of one script against one base, which TeX will not set: ^2'
-- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:465` two of one script against one base, which TeX will not set: ^2'
-- `content/fr/ts/I/02_s2_algebres_normees.md:263` two of one script against one base, which TeX will not set: _n^{\rightarrow}_+^{\infty}
-- `content/fr/ts/III/02_s2_exemples_d_applications_lineaires.md:277` two of one script against one base, which TeX will not set: _L^{q'_{p'}}_{(X)}
-
-and 2 more, which `bourbaki audit -only M09` prints in full.
-
-## P04 every math span parses under KaTeX (29)
-
-Soft, publication.
-
-- `content/en/alg/VIII/19_s19_quaternion_algebras.md:70` KaTeX will not set it: Double superscript at position 5: ^X_-^̲-_y^x_X^-_-^{\g…: ^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{x…
-- `content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md:474` KaTeX will not set it: Double subscript at position 54: …_{\in G}f_gf_g'_̲{_{-1}} \tag{28…: \langle f, f'\rangle_G=|G|^{-1}_g\sum_{\in G}f_gf_…
-- `content/en/lie/IX/08_s8_fourier_transform.md:71` KaTeX will not set it: Double subscript at position 12: \sum_uA_u^2_̲2<\infty: \sum_uA_u^2_2<\infty
-- `content/en/lie/IX/08_s8_fourier_transform.md:75` KaTeX will not set it: Double subscript at position 34: …idehat{G}}A_u^2_̲2: A^2_2=\sum_{u\in\widehat{G}}A_u^2_2
-- `content/en/lie/IX/exercises/s6/02.md:27` KaTeX will not set it: Double superscript at position 37: …overline{2}i=1}^̲n\frac{\partial…: \Delta (P) =\sum^1_{\overline{2}i=1}^n\frac{\parti…
-- `content/en/lie/IX/exercises/s7/04.md:23` KaTeX will not set it: Double superscript at position 20: …^n_{\partial x}^̲{\partial^2}_{\…: \sum^n_{\partial x}^{\partial^2}_{\partial y}^P
-- `content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md:415` KaTeX will not set it: Double subscript at position 17: …sum m_{\alpha}'_̲{\alpha}: \sum m_{\alpha}'_{\alpha}
-- `content/en/lie/VIII/08_s8_symmetric_invariants.md:266` KaTeX will not set it: Expected group after '_' at position 28: …_++\mathfrak{n}_̲: \mathfrak{n}_++\mathfrak{n}_
-- `content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md:499` KaTeX will not set it: Double superscript at position 9: 1\sum^r'̲' : 1\sum^r''
-- `content/fr/alg/VIII/19_s19_algebres_de_quaternions.md:69` KaTeX will not set it: Double superscript at position 6: (^X_-^̲-_y^x_X^-_-^{\g…: (^X_-^-_y^x_X^-_-^{\gamma y}_{\overline{\overline{…
-- `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:152` KaTeX will not set it: Double subscript at position 18: …_i=\pi (-1)_n^-_̲i\pi (\mu_i)^-_…: t_i=\pi (-1)_n^-_i\pi (\mu_i)^-_1\varphi (p(v_1), …
-- `content/fr/alg/VIII/A2_a2_determinants_sur_un_corps_non_commutatif.md:408` KaTeX will not set it: Double superscript at position 29: …{I_n}_{0^{-2}U}^̲0: U\rightarrow^{I_n}_{0^{-2}U}^0
-- `content/fr/alg/VIII/exercises/s14/18.md:15` KaTeX will not set it: Double superscript at position 15: (^z_{0\sigma(}^̲0_{z)}): (^z_{0\sigma(}^0_{z)})
-- `content/fr/ta/I/03_s3_faisceaux.md:485` KaTeX will not set it: Double subscript at position 18: …*(\beta_v^{u_*}_̲{\mathscr{G}})(…: v_*(\beta_v^{u_*}_{\mathscr{G}})(\beta^v_{\mathscr…
-- `content/fr/ta/I/03_s3_faisceaux.md:487` KaTeX will not set it: Double subscript at position 40: …*(\beta_v^{u_*}_̲{\mathscr{G}})\…: \beta_{\mathscr{G}}^w=v_*(\beta_v^{u_*}_{\mathscr{…
-- `content/fr/ta/II/04_s4_homotopies.md:309` KaTeX will not set it: Double superscript at position 12: ^v_{v\circ}^̲{\circ\varphi}_…: ^v_{v\circ}^{\circ\varphi}_{\psi}G'{H'}^{\varphi}_…
-- `content/fr/ta/II/05_s5_coegalisateur.md:323` KaTeX will not set it: Double subscript at position 90: …\varphi}^{-_01}_̲{(j_k)}\cdot : = (\alpha \circ \varphi )(f_k)\cdot (\alpha \circ …
-- `content/fr/ta/II/05_s5_coegalisateur.md:327` KaTeX will not set it: Double subscript at position 74: …a_{\psi}^{-_01}_̲{(j_k)}\cdot : \cdot \delta_{\varphi_0(j_k)}\cdot \tau_0(j_k)\cdo…
-- `content/fr/ta/II/05_s5_coegalisateur.md:341` KaTeX will not set it: Double subscript at position 64: …\varphi}^{-_01}_̲{(j_k)}: u_k=\alpha (\varphi (f_k)c_1(j_k))\cdot \delta_{\v…
-- `content/fr/ta/II/05_s5_coegalisateur.md:411` KaTeX will not set it: Double subscript at position 63: …a_{\psi}^{-_01}_̲{(j)}: \lambda (j) =\delta_{\varphi_0(j)}\tau (j)\delta_{…
-- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:459` KaTeX will not set it: Double superscript at position 4: V^2'̲\subset V: V^2'\subset V
-- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:461` KaTeX will not set it: Double superscript at position 4: U^2'̲\subset U: U^2'\subset U
-- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:463` KaTeX will not set it: Double superscript at position 9: z\in U^2'̲(x): z\in U^2'(x)
-- `content/fr/ta/III/02_s2_homotopie_et_chemins.md:465` KaTeX will not set it: Double superscript at position 12: f(y)\in V^2'̲(f(x)): f(y)\in V^2'(f(x))
-- `content/fr/ts/I/02_s2_algebres_normees.md:263` KaTeX will not set it: Double subscript at position 57: …n^{\rightarrow}_̲+^{\infty}n : _{n\rightarrow+\infty}n_{m\geqslant 1}m_n^{\righta…
-
-and 4 more, which `bourbaki audit -only P04` prints in full.
-
-## X05 a solution writes its mathematics in TeX (5)
+## X05 a solution writes its mathematics in TeX (6)
 
 Soft, solutions.
 
 - `content/solutions/en/ens/III/s1/01.md:15` 31 characters of mathematics stand outside any math span, as ⇒∈∧≠≤, so the solution was written in symbols rather than in TeX
 - `content/solutions/en/ens/III/s1/03.md:50` 1 characters of mathematics stand outside any math span, as ←, so the solution was written in symbols rather than in TeX
 - `content/solutions/en/ens/III/s1/04.md:26` 75 characters of mathematics stand outside any math span, as ικ∈≠≤≰, so the solution was written in symbols rather than in TeX
+- `content/solutions/en/ens/III/s1/10.md:20` 32 characters of mathematics stand outside any math span, as ℕ→∈≠≤, so the solution was written in symbols rather than in TeX
 - `content/solutions/en/ens/III/s2/01.md:17` 181 characters of mathematics stand outside any math span, as ΓΣφ→⇔∀∈∉∏≠≤⊂⊃⋂⋃, so the solution was written in symbols rather than in TeX
 - `content/solutions/en/ens/IV/s1/01.md:53` 90 characters of mathematics stand outside any math span, as τϬϭϰϲ≠≤≥, so the solution was written in symbols rather than in TeX
 
-## T10 the tags of a file climb, as they did on the run that assigned them (236)
+## T10 the tags of a file climb, as they did on the run that assigned them (139)
 
 Soft, tags.
 
-- `content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:112` has 000A after 00QV, which was assigned later
-- `content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:182` has 000I after 00QW, which was assigned later
-- `content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:332` has 000T after 00QX, which was assigned later
-- `content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:388` has 000V after 00RW, which was assigned later
-- `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:254` has 00RX after 01L7, which was assigned later
-- `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:262` has 0029 after 00RX, which was assigned later
-- `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:326` has 002E after 00QY, which was assigned later
-- `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:390` has 002J after 00RY, which was assigned later
-- `content/en/alg/VIII/03_s3_simple_modules.md:80` has 0039 after 00QZ, which was assigned later
-- `content/en/alg/VIII/03_s3_simple_modules.md:124` has 003E after 00RZ, which was assigned later
-- `content/en/alg/VIII/04_s4_semisimple_modules.md:488` has 004X after 00R0, which was assigned later
-- `content/en/alg/VIII/05_s5_commutation.md:162` has 005J after 00R1, which was assigned later
-- `content/en/alg/VIII/05_s5_commutation.md:202` has 005O after 00R2, which was assigned later
-- `content/en/alg/VIII/05_s5_commutation.md:238` has 005R after 00R3, which was assigned later
-- `content/en/alg/VIII/05_s5_commutation.md:290` has 00R4 after 00S0, which was assigned later
-- `content/en/alg/VIII/05_s5_commutation.md:294` has 005X after 00R4, which was assigned later
-- `content/en/alg/VIII/05_s5_commutation.md:332` has 005Y after 00R5, which was assigned later
-- `content/en/alg/VIII/05_s5_commutation.md:394` has 0063 after 00S1, which was assigned later
-- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:346` has 00S2 after 00SH, which was assigned later
-- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:358` has 0077 after 00S2, which was assigned later
-- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:538` has 007H after 00R6, which was assigned later
-- `content/en/alg/VIII/07_s7_simple_rings.md:84` has 0085 after 00S3, which was assigned later
-- `content/en/alg/VIII/07_s7_simple_rings.md:98` has 0086 after 00R7, which was assigned later
-- `content/en/alg/VIII/08_s8_semisimple_rings.md:66` has 0093 after 00S4, which was assigned later
-- `content/en/alg/VIII/08_s8_semisimple_rings.md:398` has 009T after 00R8, which was assigned later
+- `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:254` has 00RX after 00SE, which the same run assigned later
+- `content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md:310` has 00QY after 00RX, which the same run assigned later
+- `content/en/alg/VIII/05_s5_commutation.md:284` has 00R4 after 00S0, which the same run assigned later
+- `content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md:532` has 00R6 after 00S2, which the same run assigned later
+- `content/en/alg/VIII/07_s7_simple_rings.md:90` has 00R7 after 00S3, which the same run assigned later
+- `content/en/alg/VIII/08_s8_semisimple_rings.md:382` has 00R8 after 00S4, which the same run assigned later
+- `content/en/alg/VIII/09_s9_radical.md:260` has 00R9 after 00S6, which the same run assigned later
+- `content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md:626` has 00S8 after 00SF, which the same run assigned later
+- `content/en/alg/VIII/14_s14_central_simple_algebras.md:230` has 00RH after 00S9, which the same run assigned later
+- `content/en/ens/I/01_s1_terms_and_relations.md:131` has 03P2 after 03TO, which the same run assigned later
+- `content/en/ens/I/A_a_characterization_of_terms_and_relations.md:126` has 03GT after 03P8, which the same run assigned later
+- `content/en/ens/II/01_s1_collectivizing_relations.md:194` has 03H6 after 03S0, which the same run assigned later
+- `content/en/ens/II/03_s3_correspondences.md:82` has 03HI after 03PG, which the same run assigned later
+- `content/en/ens/II/03_s3_correspondences.md:100` has 03HJ after 03S1, which the same run assigned later
+- `content/en/ens/II/03_s3_correspondences.md:128` has 03PH after 03PI, which the same run assigned later
+- `content/en/ens/II/03_s3_correspondences.md:138` has 03PJ after 03S2, which the same run assigned later
+- `content/en/ens/II/03_s3_correspondences.md:188` has 03HK after 03PN, which the same run assigned later
+- `content/en/ens/II/03_s3_correspondences.md:276` has 03HN after 03PP, which the same run assigned later
+- `content/en/ens/II/03_s3_correspondences.md:350` has 03S3 after 03V2, which the same run assigned later
+- `content/en/ens/II/03_s3_correspondences.md:368` has 03HP after 03S4, which the same run assigned later
+- `content/en/ens/II/03_s3_correspondences.md:412` has 03PQ after 03S9, which the same run assigned later
+- `content/en/ens/II/03_s3_correspondences.md:432` has 03HR after 03PQ, which the same run assigned later
+- `content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md:133` has 03I2 after 03PV, which the same run assigned later
+- `content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md:371` has 03I9 after 03Q2, which the same run assigned later
+- `content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md:389` has 03IA after 03Q4, which the same run assigned later
 
-and 211 more, which `bourbaki audit -only T10` prints in full.
+and 114 more, which `bourbaki audit -only T10` prints in full.
 
-## L06 the glossary is followed (66)
+## L06 the glossary is followed (72)
 
 Soft, translation.
 
 - `content/vi/alg/VIII/00_frontmatter.md:1` the English mentions 38 glossary terms and 2 are not in this file as the glossary writes them: module structure (cấu trúc môđun), l-algebra (đại số trên L)
+- `content/vi/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:1` the English mentions 203 glossary terms and 5 are not in this file as the glossary writes them: noninvertible element (phần tử không khả nghịch), monogenous left (đơn sinh trái), subsection (tiểu mục), additive (cộng tính), recall (nhắc lại)
+- `content/vi/alg/VIII/03_s3_simple_modules.md:1` the English mentions 157 glossary terms and 5 are not in this file as the glossary writes them: Modules over an Artinian Ring (Môđun trên một vành Artin), maximal left (tối đại trái), minimal (cực tiểu), ordered (có thứ tự), remark (chú ý)
 - `content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md:1` the English mentions 58 glossary terms and 2 are not in this file as the glossary writes them: Hilbert’s Nullstellensatz (Định lý không điểm của Hilbert), set (tập hợp)
+- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` the English mentions 67 glossary terms and 1 are not in this file as the glossary writes them: identified (đồng nhất)
 - `content/vi/ens/00_introduction.md:1` the English mentions 98 glossary terms and 6 are not in this file as the glossary writes them: analysis (giải tích), division (phép chia), nothing (không có gì), extent (ngoại diên), proved (đã chứng minh), weight (trọng số)
 - `content/vi/ens/I/01_s1_terms_and_relations.md:1` the English mentions 83 glossary terms and 4 are not in this file as the glossary writes them: substitution (phép thế), defined (được định nghĩa), nothing (không có gì), lower (thấp hơn)
 - `content/vi/ens/I/02_s2_theorems.md:1` the English mentions 56 glossary terms and 3 are not in this file as the glossary writes them: defined (được định nghĩa), reason (lý do), line (dòng)
@@ -173,17 +113,15 @@ Soft, translation.
 - `content/vi/ens/III/02_s2_well_ordered_sets.md:1` the English mentions 117 glossary terms and 4 are not in this file as the glossary writes them: increasing mappings (các ánh xạ tăng), ordered subset (tập con sắp thứ tự), complete (đầy đủ), proved (đã chứng minh)
 - `content/vi/ens/III/03_s3_equipotent_sets_cardinals.md:1` the English mentions 98 glossary terms and 3 are not in this file as the glossary writes them: relation implies (quan hệ suy ra), possible (có thể), reason (lý do)
 - `content/vi/ens/III/04_s4_natural_integers_finite_sets.md:1` the English mentions 87 glossary terms and 6 are not in this file as the glossary writes them: empty set (tập rỗng), necessary (cần thiết), criteria (các tiêu chuẩn), similar (đồng dạng), proved (đã chứng minh), form (dạng)
-- `content/vi/ens/III/05_s5_properties_of_integers.md:1` the English mentions 127 glossary terms and 5 are not in this file as the glossary writes them: characteristic (đặc số), empty set (tập rỗng), constant (hằng số), proved (đã chứng minh), series (chuỗi)
-- `content/vi/ens/III/06_s6_infinite_sets.md:1` the English mentions 120 glossary terms and 5 are not in this file as the glossary writes them: totally ordered set (tập sắp thứ tự toàn phần), introduce (giới thiệu), complete (đầy đủ), nothing (không có gì), stated (đã phát biểu)
-- `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` the English mentions 156 glossary terms and 4 are not in this file as the glossary writes them: double inverse (nghịch đảo kép), necessary (cần thiết), complete (đầy đủ), similar (đồng dạng)
 
-and 41 more, which `bourbaki audit -only L06` prints in full.
+and 47 more, which `bourbaki audit -only L06` prints in full.
 
-## L08 no translation was written by a small model (21)
+## L08 no translation was written by a small model (24)
 
 Soft, translation.
 
-- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again
+- `content/vi/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:1` was translated by hy3-free, gpt-5-6, nemotron-3-ultra-free, laguna-s-2.1-free, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by nemotron-3-ultra-free, laguna-s-2.1-free, hy3-free, nemotron-3.5-lightning-free, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/01_s1_order_relations_ordered_sets.md:1` was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/04_s4_natural_integers_finite_sets.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s1/03.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
@@ -204,10 +142,37 @@ Soft, translation.
 - `content/vi/ens/III/exercises/s5/05.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s6/29.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s6/30.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s2/02.md:1` was translated by nemotron-3.5-lightning-free, which is a cut down model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s9/16.md:1` was translated by nemotron-3-ultra-free, nemotron-3.5-lightning-free, which is a cut down model, so the section is worth doing again
 
-## L15 no translation was written on the free gateway (2)
+## L15 no translation was written on the free gateway (27)
 
 Soft, translation.
 
+- `content/vi/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:1` was translated by hy3-free, gpt-5-6, nemotron-3-ultra-free, laguna-s-2.1-free, gpt-5-6-mini, which is a free gateway model, so the section is worth doing again
+- `content/vi/alg/VIII/03_s3_simple_modules.md:1` was translated by nemotron-3-ultra-free, hy3-free, gpt-5-6, laguna-s-2.1-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by nemotron-3-ultra-free, laguna-s-2.1-free, hy3-free, nemotron-3.5-lightning-free, which is a free gateway model, so the section is worth doing again
 - `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` was translated by gpt-5-6, gpt-5.4, nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
 - `content/vi/ens/IV/historical_note.md:1` was translated by gpt-5.4, gpt-5-6, laguna-s-2.1-free, hy3-free, nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s1/08.md:1` was translated by nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s2/02.md:1` was translated by nemotron-3.5-lightning-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s2/03.md:1` was translated by hy3-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s2/04.md:1` was translated by hy3-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s2/05.md:1` was translated by hy3-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s9/15.md:1` was translated by hy3-free, laguna-s-2.1-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s9/16.md:1` was translated by nemotron-3-ultra-free, nemotron-3.5-lightning-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s9/17.md:1` was translated by hy3-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s9/19.md:1` was translated by nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s9/20.md:1` was translated by laguna-s-2.1-free, hy3-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/IX/exercises/s9/21.md:1` was translated by nemotron-3-ultra-free, hy3-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/VII/00_frontmatter.md:1` was translated by nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/VII/exercises/s1/01.md:1` was translated by nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/VIII/exercises/s11/15.md:1` was translated by hy3-free, laguna-s-2.1-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/VIII/exercises/s11/16.md:1` was translated by nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/VIII/exercises/s13/02.md:1` was translated by hy3-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/VIII/exercises/s13/03.md:1` was translated by laguna-s-2.1-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/VIII/exercises/s13/06.md:1` was translated by laguna-s-2.1-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/VIII/exercises/s13/07.md:1` was translated by hy3-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/lie/VIII/exercises/s9/13.md:1` was translated by hy3-free, which is a free gateway model, so the section is worth doing again
+
+and 2 more, which `bourbaki audit -only L15` prints in full.
