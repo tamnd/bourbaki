@@ -146,13 +146,20 @@ jobs:
       # and fixing one fails the build until the report is regenerated and
       # committed. The report is the list, and this is what keeps the list
       # honest.
+      #
+      # -validate-tex turns on M04, the structural TeX parse, which is off by
+      # default and had therefore never run anywhere. The first run of it over
+      # the whole corpus reported 358 hard findings and every one was a formula
+      # that is right, because it read the control space as a lost command name.
+      # That is fixed in tamnd/bourbaki-solver#299 and the rule is at zero, so
+      # it runs here now: a rule nothing ever runs is a rule that says nothing.
       - name: audit
         id: audit
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: |
-          if go run ./cmd/bourbaki audit -report reports/audit.md \
+          if go run ./cmd/bourbaki audit -validate-tex -report reports/audit.md \
                -json "$RUNNER_TEMP/audit.json"; then
             echo "status=0" >> "$GITHUB_OUTPUT"
           else
