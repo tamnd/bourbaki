@@ -83,9 +83,9 @@ Of 43 volumes, 6 are read through, 14 are begun and 23 have no page file at all.
 | alg-viii-fr | 486 | 0 | 0 | 1 | 32 | 14 |
 | lie-vii-ix | 427 | 12 | 0 | 0 | 17 | 7 |
 | ta-i-iv-fr | 510 | 0 | 0 | 2 | 28 | 4 |
-| ts-i-ii-fr | 344 | 0 | 0 | 2 | 16 | 5 |
+| ts-i-ii-fr | 344 | 0 | 0 | 2 | 16 | 6 |
 | ts-iii-v-fr | 576 | 0 | 0 | 3 | 18 | 1 |
-| **all** | **2837** | **495** | **0** | **66** | **255** | **123** |
+| **all** | **2837** | **495** | **0** | **66** | **255** | **124** |
 
 Volumes with no page file are left out of this table and are in the one above, where the zero is the point. Native is the text layer of a born-digital PDF, ocr is a model reading a page image, ocr-repair is a model putting back a display the text layer lost, and blank is a page with nothing on it. Flagged is the pages the reading was not sure of and by hand is the pages somebody has since repaired themselves, which extraction is forbidden to write over.
 
