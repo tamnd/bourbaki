@@ -1,15 +1,27 @@
 # Assignment runs: FIRST_TAG,DATE,what the run read
-# One line per merge. The run holds every tag from FIRST_TAG up to the
+# One line per reading. The run holds every tag from FIRST_TAG up to the
 # FIRST_TAG of the line under it, which is the block the allocator handed
-# out that day. T10 reads a file's tags against the run that assigned them.
+# out for that reading. T10 reads a file's tags against the run that
+# assigned them.
 #
-# The eight lines below were read back off the history of tags/tags, which
-# is append-only, so the first tag each commit added is where that run began.
+# A reading and a merge are not the same thing. The eight boundaries read
+# back off the history of tags/tags are the eight merges, and five of those
+# merges carried more than one reading: a volume assigned from the top,
+# then gone over again for what the first pass left. The extra lines are
+# where a reading came around again, which is the point at which at least
+# three files each took a tag above one they were already carrying. One or
+# two statements out of order is not a reading and is left where T10 will
+# report it.
 0001,2026-08-11,the English of Algebra chapter VIII
 00QV,2026-08-11,the 57 statements the reference graph found missing
+00RX,2026-08-11,a second pass over those statements
 00SG,2026-08-12,the French printing of Algebra chapter VIII
 00SJ,2026-08-14,Lie Groups and Lie Algebras chapters 7 to 9
+01IY,2026-08-14,Lie chapters 7 to 9 gone over again
+01KQ,2026-08-14,a third pass over Lie chapters 7 and 8
 01L9,2026-08-14,Theories spectrales and Topologie algebrique
 03G1,2026-08-16,Theory of Sets chapters I to III and the contents
+03P6,2026-08-16,Theory of Sets read from the top a second time
+03RY,2026-08-16,a third pass over Theory of Sets
 03V4,2026-08-16,Theory of Sets chapter IV and the references it makes
 03WE,2026-08-18,the exercises of Topologie algebrique I to IV
