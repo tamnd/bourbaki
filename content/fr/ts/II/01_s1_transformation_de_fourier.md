@@ -7,7 +7,7 @@ section: 1
 section_title: Transformation de Fourier
 lang: fr
 source: ts-i-ii-fr
-book_pages: TS II.201-TS II.243, A II.262-TS II.304
+book_pages: TS II.201-TS II.243, TS II.262-TS II.304
 pdf_pages: 0213-0255, 0274-0316
 extraction: native
 subsections:

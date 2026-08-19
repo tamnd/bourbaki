@@ -1633,7 +1633,7 @@ books:
               label: ts-ii-s1
               first_pdf_page: 213
               last_pdf_page: 316
-              book_pages: TS II.201-TS II.243, A II.262-TS II.304
+              book_pages: TS II.201-TS II.243, TS II.262-TS II.304
               subsections: 9
               statements: 95
               exercises: 68
