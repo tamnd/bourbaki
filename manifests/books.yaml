@@ -558,6 +558,8 @@ books:
       text_layer: ocr
       page_width_pt: 439.37
       page_height_pt: 666.142
+      grammar: head-number
+      pagination: continuous
     - id: int-v-fr
       book: int
       lang: fr
@@ -582,6 +584,8 @@ books:
       text_layer: ocr
       page_width_pt: 439.37
       page_height_pt: 666.142
+      grammar: head-number
+      pagination: continuous
     - id: int-vi-fr
       book: int
       lang: fr
@@ -606,6 +610,8 @@ books:
       text_layer: ocr
       page_width_pt: 439.37
       page_height_pt: 666.142
+      grammar: head-number
+      pagination: continuous
     - id: int-vii-viii-fr
       book: int
       lang: fr
@@ -631,6 +637,8 @@ books:
       text_layer: ocr
       page_width_pt: 439.37
       page_height_pt: 666.142
+      grammar: head-number
+      pagination: continuous
     - id: int-ix-fr
       book: int
       lang: fr
@@ -996,6 +1004,8 @@ books:
       text_layer: ocr
       page_width_pt: 439.37
       page_height_pt: 666.142
+      grammar: head-number
+      pagination: continuous
     - id: lie-ix-fr
       book: lie
       lang: fr
@@ -1132,3 +1142,5 @@ books:
       text_layer: ocr
       page_width_pt: 335
       page_height_pt: 509
+      grammar: head-number
+      pagination: continuous

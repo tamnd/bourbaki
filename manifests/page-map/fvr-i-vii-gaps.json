@@ -6,11 +6,11 @@
   "body_pages": 339,
   "front_matter_pages": 15,
   "counts": {
-    "head": 281,
-    "interpolated": 58,
+    "head": 288,
+    "interpolated": 51,
     "none": 15
   },
-  "printed_pct_of_body": 82.89085545722715,
+  "printed_pct_of_body": 84.95575221238938,
   "chapters": [
     {
       "chapter": "I",
@@ -65,38 +65,6 @@
   "steps": [],
   "conflicts": [
     {
-      "pdf_page": 107,
-      "read_chapter": "II",
-      "read": 92,
-      "chapter": "III",
-      "fitted": 92,
-      "raw": "92                               ELEMENTARY FUNCTIONS                                   Ch. II"
-    },
-    {
-      "pdf_page": 149,
-      "read_chapter": "I",
-      "read": 134,
-      "chapter": "III",
-      "fitted": 134,
-      "raw": "134                       FUNCTIONS OF A REAL VARIABLE                         Ch. I-11I"
-    },
-    {
-      "pdf_page": 155,
-      "read_chapter": "I",
-      "read": 140,
-      "chapter": "III",
-      "fitted": 140,
-      "raw": "140                       FUNCTIONS OF A REAL VARIABLE                         Ch. I-III"
-    },
-    {
-      "pdf_page": 167,
-      "read_chapter": "I",
-      "read": 152,
-      "chapter": "III",
-      "fitted": 152,
-      "raw": "152                          FUNCTIONS OF A REAL VARIABLE                                 Ch. I-111"
-    },
-    {
       "pdf_page": 289,
       "read_chapter": "VI",
       "read": 4,
@@ -113,35 +81,12 @@
       "raw": "30                            GENERALIZED TAYLOR EXPANSIONS                                                Ch. VI"
     },
     {
-      "pdf_page": 307,
-      "read_chapter": "VI",
-      "read": 2,
-      "chapter": "VI",
-      "fitted": 292,
-      "raw": "2                            BOUNDS FOR THE REMAINDER                                                    Ch. VI"
-    },
-    {
       "pdf_page": 311,
       "read_chapter": "VI",
       "read": 96,
       "chapter": "VI",
       "fitted": 296,
       "raw": "96                                    BOUNDS FOR THE REMAINDER                                                                        Ch. VI"
-    },
-    {
-      "pdf_page": 315,
-      "read_chapter": "V",
-      "read": 300,
-      "chapter": "VI",
-      "fitted": 300,
-      "raw": "300                                   HISTORICAL NOTE                                        Ch. V, VI"
-    },
-    {
-      "pdf_page": 326,
-      "read": 1,
-      "chapter": "VII",
-      "fitted": 311,
-      "raw": "1 .                  THE GAMMA FUNCTION IN THE REAL DOMAIN                         311"
     }
   ],
   "gaps": [
@@ -189,8 +134,8 @@
     },
     {
       "from": 106,
-      "to": 107,
-      "pages": 2,
+      "to": 106,
+      "pages": 1,
       "confidence": "interpolated"
     },
     {
@@ -214,24 +159,6 @@
     {
       "from": 144,
       "to": 144,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 149,
-      "to": 149,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 155,
-      "to": 155,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 167,
-      "to": 167,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -315,8 +242,8 @@
     },
     {
       "from": 305,
-      "to": 307,
-      "pages": 3,
+      "to": 306,
+      "pages": 2,
       "confidence": "interpolated"
     },
     {
@@ -333,8 +260,8 @@
     },
     {
       "from": 313,
-      "to": 315,
-      "pages": 3,
+      "to": 314,
+      "pages": 2,
       "confidence": "interpolated"
     },
     {
@@ -344,9 +271,9 @@
       "confidence": "interpolated"
     },
     {
-      "from": 326,
+      "from": 327,
       "to": 327,
-      "pages": 2,
+      "pages": 1,
       "confidence": "interpolated"
     },
     {

@@ -107,7 +107,7 @@ pdf_page	chapter	page	confidence
 104	II	89	head
 105	II	90	head
 106	III	91	interpolated
-107	III	92	interpolated
+107	III	92	head
 108	III	93	head
 109	III	94	head
 110	III	95	head
@@ -149,13 +149,13 @@ pdf_page	chapter	page	confidence
 146	III	131	head
 147	III	132	head
 148	III	133	head
-149	III	134	interpolated
+149	III	134	head
 150	III	135	head
 151	III	136	head
 152	III	137	head
 153	III	138	head
 154	III	139	head
-155	III	140	interpolated
+155	III	140	head
 156	III	141	head
 157	III	142	head
 158	III	143	head
@@ -167,7 +167,7 @@ pdf_page	chapter	page	confidence
 164	III	149	head
 165	III	150	head
 166	III	151	head
-167	III	152	interpolated
+167	III	152	head
 168	III	153	head
 169	III	154	head
 170	III	155	head
@@ -307,7 +307,7 @@ pdf_page	chapter	page	confidence
 304	VI	289	head
 305	VI	290	interpolated
 306	VI	291	interpolated
-307	VI	292	interpolated
+307	VI	292	head
 308	VI	293	head
 309	VI	294	interpolated
 310	VI	295	head
@@ -315,7 +315,7 @@ pdf_page	chapter	page	confidence
 312	VI	297	head
 313	VI	298	interpolated
 314	VI	299	interpolated
-315	VI	300	interpolated
+315	VI	300	head
 316	VI	301	head
 317	VI	302	interpolated
 318	VI	303	interpolated
@@ -326,7 +326,7 @@ pdf_page	chapter	page	confidence
 323	VII	308	head
 324	VII	309	head
 325	VII	310	head
-326	VII	311	interpolated
+326	VII	311	head
 327	VII	312	interpolated
 328	VII	313	head
 329	VII	314	head

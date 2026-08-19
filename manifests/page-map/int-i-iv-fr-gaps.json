@@ -1,0 +1,454 @@
+{
+  "book": "int-i-iv-fr",
+  "grammar": "head-number",
+  "pagination": "continuous",
+  "pdf_pages": 293,
+  "body_pages": 289,
+  "front_matter_pages": 4,
+  "counts": {
+    "head": 204,
+    "interpolated": 85,
+    "none": 4
+  },
+  "printed_pct_of_body": 70.58823529411765,
+  "chapters": [
+    {
+      "chapter": "I",
+      "first_pdf_page": 5,
+      "last_pdf_page": 20,
+      "first_page": 1,
+      "last_page": 16
+    },
+    {
+      "chapter": "II",
+      "first_pdf_page": 21,
+      "last_pdf_page": 34,
+      "first_page": 17,
+      "last_page": 30
+    },
+    {
+      "chapter": "III",
+      "first_pdf_page": 35,
+      "last_pdf_page": 106,
+      "first_page": 31,
+      "last_page": 102
+    },
+    {
+      "chapter": "IV",
+      "first_pdf_page": 107,
+      "last_pdf_page": 293,
+      "first_page": 103,
+      "last_page": 289
+    }
+  ],
+  "steps": [],
+  "conflicts": [
+    {
+      "pdf_page": 153,
+      "read": 1,
+      "chapter": "IV",
+      "fitted": 149,
+      "raw": "du no 3. Rkiproquement, supposons que                 1"
+    },
+    {
+      "pdf_page": 249,
+      "read": 55,
+      "chapter": "IV",
+      "fitted": 245,
+      "raw": "55                                 EXERCICES"
+    },
+    {
+      "pdf_page": 257,
+      "read": 56,
+      "chapter": "IV",
+      "fitted": 253,
+      "raw": "56                                  EXERCICES"
+    }
+  ],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 4,
+      "pages": 4,
+      "confidence": "none"
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 19,
+      "to": 19,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 21,
+      "to": 21,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 23,
+      "to": 23,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 25,
+      "to": 25,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 27,
+      "to": 27,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 29,
+      "to": 29,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 31,
+      "to": 31,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 33,
+      "to": 33,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 35,
+      "to": 36,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 44,
+      "to": 45,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 47,
+      "to": 47,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 49,
+      "to": 49,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 53,
+      "to": 53,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 57,
+      "to": 57,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 61,
+      "to": 61,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 63,
+      "to": 63,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 67,
+      "to": 67,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 69,
+      "to": 69,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 73,
+      "to": 73,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 75,
+      "to": 75,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 79,
+      "to": 79,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 81,
+      "to": 81,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 83,
+      "to": 85,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 92,
+      "to": 92,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 104,
+      "to": 104,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 109,
+      "to": 111,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 113,
+      "to": 113,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 115,
+      "to": 117,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 119,
+      "to": 119,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 121,
+      "to": 121,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 123,
+      "to": 123,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 125,
+      "to": 125,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 133,
+      "to": 133,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 145,
+      "to": 145,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 147,
+      "to": 147,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 149,
+      "to": 149,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 151,
+      "to": 151,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 153,
+      "to": 153,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 155,
+      "to": 155,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 157,
+      "to": 157,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 159,
+      "to": 159,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 161,
+      "to": 163,
+      "pages": 3,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 165,
+      "to": 165,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 167,
+      "to": 167,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 169,
+      "to": 169,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 171,
+      "to": 171,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 207,
+      "to": 207,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 209,
+      "to": 209,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 211,
+      "to": 211,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 213,
+      "to": 213,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 215,
+      "to": 215,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 217,
+      "to": 217,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 225,
+      "to": 225,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 243,
+      "to": 243,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 249,
+      "to": 249,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 257,
+      "to": 257,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 260,
+      "to": 260,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 276,
+      "to": 276,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 278,
+      "to": 279,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 281,
+      "to": 285,
+      "pages": 5,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 288,
+      "to": 293,
+      "pages": 6,
+      "confidence": "interpolated"
+    }
+  ]
+}

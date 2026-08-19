@@ -355,3 +355,98 @@ contents:
             leaders for what says that a label is what follows. The page is V.12, as
             pdf 267 shows, which the page map puts at V.12 and which heads INTEGRATION
             WITH RESPECT TO A SUM OF POSITIVE MEASURES.
+heads:
+    - book: ac-v-vii-fr
+      errata:
+        - pdf_page: 343
+          says: '-     1'
+          read: '       '
+          why: The page heads TABLEAU DES STABILITES and the 1 after it is the number
+            of the tableau, not the page. The volume is 346 printed pages and the
+            reader put page 1 directly after page 343.
+    - book: alg-iv-vii-fr
+      errata:
+        - pdf_page: 370
+          says: A V I . 37
+          read: A VII.37
+          why: The scan broke the last stroke of the numeral off the head, so chapter
+            VII reads as chapter VI. The pages either side of it head A VII.36 and
+            A VII.38.
+    - book: fvr-i-vii
+      errata:
+        - pdf_page: 107
+          says: Ch. II
+          read: Ch. III
+          why: Chapter III opens on the page before this one. The head is Ch. III with
+            a stroke lost, as pdf 111 onwards prints it.
+        - pdf_page: 109
+          says: Ch. 11
+          read: Ch. III
+          why: The same head as pdf 107, read as two digits rather than a numeral.
+        - pdf_page: 307
+          says: ' 2   '
+          read: '292  '
+          why: The scan lost the first two digits of the page off the outer edge. The
+            page after it heads 293 and the exercises of chapter VI § 2 start here.
+        - pdf_page: 315
+          says: Ch. V, VI
+          read: Ch. VI
+          why: The historical note covers chapters V and VI and heads both, and the
+            reader takes the first numeral it finds. The note sits after chapter VI
+            and the map files it there.
+    - book: hist-fr
+      errata:
+        - pdf_page: 251
+          says: '400'
+          read: '   '
+          why: The volume is 374 pages and prints nothing at the top of this one. The
+            400 is scanner noise sitting where a head would be, and the page is 253.
+    - book: int-i-iv-fr
+      errata:
+        - pdf_page: 109
+          says: '54  '
+          read: '§ 4 '
+          why: The 5 is the section mark of § 4, not the first digit of a page. The
+            outer edge of this head is where the page would be and the scan did not
+            catch it, as pdf 107 shows, which prints § 4 EXERCICES 103 across the
+            full width.
+    - book: int-v-fr
+      errata:
+        - pdf_page: 77
+          says: '73   '
+          read: '72   '
+          why: The 2 came back as a 3. The odd pdf pages either side of it head 70 and
+            74 and this one is 72.
+    - book: int-vi-fr
+      errata:
+        - pdf_page: 8
+          says: '  1  '
+          read: '     '
+          why: The first page of the chapter prints no head. The 1 is the mark of § 1,
+            whose title runs across the top of the page under the chapter opener.
+        - pdf_page: 45
+          says: '  43'
+          read: '  45'
+          why: The head repeats the number two pages before it. The volume maps one to
+            one onto its printed pages, as pdf 39, 41, 49 and 51 all show, so this is
+            45.
+    - book: int-vii-viii-fr
+      errata:
+        - pdf_page: 83
+          says: chap. VIII,
+          read: 'chap. VII, '
+          why: The head gained a stroke. Chapter VIII starts well after this page and
+            the pages either side of it head chap. VII, § 3.
+        - pdf_page: 94
+          says: ' 05'
+          read: ' 95'
+          why: The 9 came back as a 0. The page before it heads 94 and the appendix
+            starts on the page after it.
+    - book: lie-vii-viii-fr
+      errata:
+        - pdf_page: 53
+          says: '52  '
+          read: '§ 2 '
+          why: The 5 is the section mark of § 2, not the first digit of a page. The
+            page is 59, and pdf 51 and 55 print § 1 EXERCICES 57 and § 3 EXERCICES 61
+            with the page at the outer edge this one lost.
