@@ -1,0 +1,11 @@
+# Where two printings of the same text differ and both are right.
+# Written by hand, read by bourbaki audit. A printing that is wrong goes
+# in errata.yaml instead.
+differences:
+    - book: alg
+      chapter: VIII
+      section: 2
+      exercise: 20
+      in:
+        - en
+      why: The 2023 English printing has twenty exercises in § 2 and the 2012 French has nineteen. The nineteen are the same nineteen in the same order, ending with the one that opens "Soient A un anneau commutatif, M un A-module de type fini, u un automorphisme de M et N un sous-module de M, stable par u" against "Let A be a commutative ring, M a finitely generated A-module, u an automorphism of M, and N a submodule of M that is stable under u". What settles it is pdf page 51 of the French volume, which ends with exercise 19 at book page A VIII.40, and pdf page 52, which opens § 3. MODULES SIMPLES. There is no page between them for a twentieth exercise to have been printed on, so nothing was lost in extraction and the twentieth is one the later printing added.
