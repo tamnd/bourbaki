@@ -86,7 +86,7 @@ content/fr/...                                 same tree, extracted from the Fre
 content/{vi,zh,ja}/...                         same tree, translated
 content/solutions/<lang>/<book>/<CH>/sN/NN.md  verified solutions
 tags/                                          permanent tag index
-manifests/                                     books, TOC, page maps, refs, glossary, errata
+manifests/                                     books, TOC, page maps, refs, glossary, errata, editions
 figures/                                       cropped diagrams, small, committed
 reports/                                       audit, usage, coverage, scorecards
 imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet checked
@@ -94,9 +94,11 @@ imports/<book>/chapter_<n>/<n>.<m>.md          read off share links, not yet che
 
 `content/fr` is not a translation and is never generated from `content/en`. It is what the French volume prints, extracted the same way the English is, which is why it carries no `translated_from` and is exempt from the translation rules.
 
+Because the two printings sit side by side, the places they disagree get noticed, and there are two manifests for what is found. `manifests/errata.yaml` is for a printing that is wrong, and it carries the words the page has and the words to read instead. `manifests/editions.yaml` is for the other case, where the printings differ and both are right: chapter VIII § 2 has twenty exercises in the 2023 English and nineteen in the 2012 French, the nineteen are the same nineteen, and the twentieth is one the later printing added. A difference like that looks exactly like a page nobody read, so the reading that settles it is written down once instead of being done again by whoever counts next.
+
 `pdf/`, `images/` and `work/` are gitignored. Nothing large or copyrighted is committed.
 
-`imports/` is deliberately outside `content/`. It holds sections read off public ChatGPT share links, which cost an HTTP GET rather than 150 seconds of a browser per page, and which nobody has yet held against the printed book. The audit runs over `content/`, so anything dropped in there would pass all 58 rules by default. See [imports/README.md](imports/README.md).
+`imports/` is deliberately outside `content/`. It holds sections read off public ChatGPT share links, which cost an HTTP GET rather than 150 seconds of a browser per page, and which nobody has yet held against the printed book. The audit runs over `content/`, so anything dropped in there would pass all 66 rules by default. See [imports/README.md](imports/README.md).
 
 ## Coverage
 
