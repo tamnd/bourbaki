@@ -22,6 +22,15 @@ set -e
 
 root=$(git rev-parse --show-toplevel)
 
+# The sibling checkout is next to the main checkout and not next to a worktree.
+# A worktree of the corpus lives wherever it was made, /tmp among other places,
+# and $root/../bourbaki-solver is nothing there, so the hook fell through to the
+# installed binary and reported two files as broken front matter because that
+# binary was three days old and predated the fields. The common git directory is
+# inside the main checkout whichever of the two the commit is made from, so this
+# is the one path that answers the same in both.
+main=$(cd "$(git rev-parse --git-common-dir)/.." && pwd)
+
 # A sibling checkout of the solver first, then the installed binary, and
 # otherwise nothing.
 #
@@ -35,9 +44,9 @@ root=$(git rev-parse --show-toplevel)
 # Skipping is right when neither is there. Somebody fixing a typo in the README
 # should not be stopped by a Go toolchain they do not have, and CI runs the same
 # rules on the same commit anyway.
-if [ -d "$root/../bourbaki-solver" ]; then
+if [ -d "$main/../bourbaki-solver" ]; then
 	run="go run ./cmd/bourbaki"
-	cd "$root/../bourbaki-solver"
+	cd "$main/../bourbaki-solver"
 elif command -v bourbaki >/dev/null 2>&1; then
 	run="bourbaki"
 else
