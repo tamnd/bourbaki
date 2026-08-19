@@ -1,0 +1,15 @@
+Let $E$ be a set and let $O$ be the set of graphs of orderings on $E$. For $\Gamma, \Gamma' \in O$, that $\Gamma'$ is coarser than $\Gamma$ means $\Gamma \subset \Gamma'$, and the order relation on $O$ under which the exercise asks for minimal elements is therefore the opposite of inclusion.
+
+**The minimal elements are the total orderings.** Let $\Gamma$ be a total ordering and let $\Gamma' \in O$ with $\Gamma \subset \Gamma'$. If there were a pair $(x,y) \in \Gamma' \setminus \Gamma$ then $x \neq y$, and since $\Gamma$ is total we would have $(y,x) \in \Gamma \subset \Gamma'$. Then $\Gamma'$ would contain $(x,y)$ and $(y,x)$ with $x \neq y$, against antisymmetry. So $\Gamma' = \Gamma$ and $\Gamma$ is minimal.
+
+Conversely let $\Gamma$ be minimal and suppose it is not total, so that some $x$ and $y$ are not comparable under $\Gamma$. Let $\Gamma'$ be the set of pairs $(a,b)$ such that $(a,b) \in \Gamma$, or else $(a,x) \in \Gamma$ and $(y,b) \in \Gamma$. Reflexivity and transitivity are immediate, and antisymmetry holds because $x$ and $y$ are not comparable under $\Gamma$. So $\Gamma' \in O$, and $\Gamma'$ contains $(x,y)$, which $\Gamma$ does not, so the inclusion $\Gamma \subset \Gamma'$ is strict. This contradicts minimality, so $\Gamma$ is total.
+
+**The intersection.** Let $\Gamma$ be any ordering on $E$ and let $T$ be the set of total orderings coarser than $\Gamma$, that is, the total orderings $\Gamma'$ with $\Gamma \subset \Gamma'$. Certainly $\Gamma \subset \bigcap_{\Gamma' \in T} \Gamma'$. For the other inclusion, take a pair $(x,y) \notin \Gamma$; it is enough to produce a member of $T$ that does not contain it.
+
+Let $S$ be the set of orderings $\Sigma$ on $E$ with $\Gamma \subset \Sigma$ and $(x,y) \notin \Sigma$. It contains $\Gamma$, so it is not empty, and it is inductive for inclusion: the union of a totally ordered family of members of $S$ is again an ordering on $E$, it contains $\Gamma$, and it does not contain $(x,y)$, since none of the members of the family does. By Theorem 2 of no. 4, $S$ has a maximal element $\Sigma_0$.
+
+Since $\Sigma_0$ is maximal in $S$, no ordering on $E$ strictly contains it, and an ordering that cannot be enlarged compares every pair of elements of $E$. So $\Sigma_0$ is total. It contains $\Gamma$, hence belongs to $T$, and it does not contain $(x,y)$. Therefore $(x,y) \notin \bigcap_{\Gamma' \in T} \Gamma'$, and the intersection is $\Gamma$.
+
+**The embedding.** Write $\Gamma = \bigcap_{i \in I} \Gamma_i$ with each $\Gamma_i$ a total ordering on $E$ containing $\Gamma$, and let $P$ be the product of the totally ordered sets $(E, \Gamma_i)$ with the product ordering. The diagonal map $\varphi$ sending $x \in E$ to the family all of whose coordinates are $x$ is injective, and
+$$(x,y) \in \Gamma \iff (x,y) \in \Gamma_i \text{ for every } i \iff \varphi(x) \leqslant \varphi(y).$$
+So $\varphi$ is an isomorphism of $E$ onto a subset of $P$, and every ordered set is isomorphic to a subset of a product of totally ordered sets.
