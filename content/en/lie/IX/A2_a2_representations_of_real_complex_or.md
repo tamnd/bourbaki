@@ -22,7 +22,7 @@ subsections:
       pdf_page: 394
 statements: 6
 exercises: 0
-content_sha256: 836d477d1d8b566ba9063fca6943272ca1427f4b5d7360fd5470f407be11e5f1
+content_sha256: 48a84baacd5944a8a386d038e91b68123a985132d64c985ead02071bcae3b3cc
 ---
 
 ## APPENDIX II
@@ -49,7 +49,7 @@ If E is isomorphic to $\mathbf{R}$, the commutant of $V_{(\mathbf{C})}$ is isomo
 
 If E is not isomorphic to $\mathbf{R}$, it contains a field isomorphic to $\mathbf{C}$; it follows that V has an $A_{(\mathbf{C})}$-module structure, denoted by $V^c$. Then $V^c$ is a simple $A_{(\mathbf{C})}$-module, and the $\mathbf{C}$-linear map $\psi : V_{(\mathbf{C})}\rightarrow V^c\oplus \overline{V}^c$ such that $\psi (\alpha \otimes v) =$ $(\alpha v,\overline{\alpha v})$ for $\alpha \in \mathbf{C},v\in V$, is an isomorphism (Algebra, Chap. V, §10, no. 4, Prop. 8). Moreover, $\sigma \otimes 1_V$ corresponds under this isomorphism to the $\mathbf{R}$-automorphism $(v, v') \rightarrow (v', v)$ of $V^c\oplus \overline{V}^c$, and hence interchanges the two $A_{(\mathbf{C})}$-submodules $\psi^{-1}(V^c)$ and $\psi^{-1}(V^c)$.
 
-The commutant $E_{(\mathbf{C})}$ of $V_{(\mathbf{C})}$ thus contains $\mathbf{C}\times \mathbf{C}$, operating by homotheties on $V^c\oplus \overline{V}^c$. There is no isomorphism of $A_{(\mathbf{C})}$-modules from $V^c$ to $V^c$ if and only if $E_{(\mathbf{C})}$ reduces to $\mathbf{C}\times \mathbf{C}$, that is, if E is isomorphic to $\mathbf{C}$. This completes the proof.
+The commutant $E_{(\mathbf{C})}$ of $V_{(\mathbf{C})}$ thus contains $\mathbf{C}\times \mathbf{C}$, operating by homotheties on $V^c\oplus \overline{V}^c$. There is no isomorphism of $A_{(\mathbf{C})}$-modules from $V^c$ to $\overline{V}^c$ if and only if $E_{(\mathbf{C})}$ reduces to $\mathbf{C}\times \mathbf{C}$, that is, if E is isomorphic to $\mathbf{C}$. This completes the proof.
 
 #### Proposition 2 {#lie-ix-a2-prop-2 .statement tag=01IT}
 
@@ -71,7 +71,7 @@ $c)$ There exists $\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$ with $\theta \circ 
 
 In case $a)$, the set V of fixed points of $\theta$ is an $\mathbf{R}$-structure on W (Algebra, Chap. V, p. 61, Prop. 7); since $V_{(\mathbf{C})}$ is isomorphic to W, the A-module V is simple with commutant $\mathbf{R}.1_V$ (Prop. 1), and $W_{[\mathbf{R}]}$ is not simple.
 
-Conversely, if $W_{[\mathbf{R}]}$ is not simple, let V be a simple A-submodule of $W_{[\mathbf{R}]}$; since the $A_{(\mathbf{C})}$-module W is simple, $V +iV = W$ and $V\cap iV =\{0\}$, that is, $W = V\oplus iV$. Thus, V is an $\mathbf{R}$-structure on W, and the isomorphism $\theta$ from W to W such that $\theta (v+iv') =v-iv'$ for $v$ and $v'$ in V satisfies $\theta \circ \theta = 1_W$.
+Conversely, if $W_{[\mathbf{R}]}$ is not simple, let V be a simple A-submodule of $W_{[\mathbf{R}]}$; since the $A_{(\mathbf{C})}$-module W is simple, $V +iV = W$ and $V\cap iV =\{0\}$, that is, $W = V\oplus iV$. Thus, V is an $\mathbf{R}$-structure on W, and the isomorphism $\theta$ from W to $\overline{W}$ such that $\theta (v+iv') =v-iv'$ for $v$ and $v'$ in V satisfies $\theta \circ \theta = 1_W$.
 
 Consequently, in cases $b)$ and $c)$, the A-module $W_{[\mathbf{R}]}$ is simple; by Prop. 1, its commutant E is isomorphic to $\mathbf{C}$ in case $b)$, and to $\mathbf{H}$ in case $c)$. Moreover, it is clear that E contains $\mathbf{C}.1_W$, and $\mathbf{C}.\theta$ in case $c)$, hence the proposition.
 
@@ -95,7 +95,7 @@ c) The representation $\rho$ is of quaternionic type if and only if there exists
 
 For $\theta \in$ Hom$_{\mathbf{C}^{(G)}}(W,W)$ and $x, y\in W$, put $B_{\theta}(x, y) = H(\theta x, y)$. Then $B_{\theta}$ is a bilinear form on W, invariant under G, and separating if $\theta$ is non-zero. Denote by $\mathscr{B}(W)^G$ the space of bilinear forms on W invariant under G; the map $\theta  \rightarrow B_{\theta}$ from Hom$_{\mathbf{C}^{(G)}}(W,W)$ to $\mathscr{B}(W)^G$ is an isomorphism of $\mathbf{C}$-vector spaces. This implies, in particular, assertion $b)$.
 
-Let $\theta$ be a $\mathbf{C}^{(G)}$-isomorphism from W to W such that $\theta \circ \theta =\alpha_W$, with $\alpha \in  \{-1,+1\}$ (Prop. 2); since $\mathscr{B}(W)^G$ is of dimension 1, there exists $\varepsilon \in \mathbf{C}$ such that
+Let $\theta$ be a $\mathbf{C}^{(G)}$-isomorphism from W to $\overline{W}$ such that $\theta \circ \theta =\alpha_W$, with $\alpha \in  \{-1,+1\}$ (Prop. 2); since $\mathscr{B}(W)^G$ is of dimension 1, there exists $\varepsilon \in \mathbf{C}$ such that
 
 $B_{\theta}(y, x) =\varepsilon B_{\theta}(x, y)$ for all $x, y$ in $W$.
 

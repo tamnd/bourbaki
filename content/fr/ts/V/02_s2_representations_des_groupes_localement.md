@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: f7a409ee850c777922fa98d9ef6284a9d5ecbcb0ec1d91df77bda9ddafaf185a
+content_sha256: 1cb95c6fd79e8e452619e0b91b35402ae07dca3aeadb60e2e5bb1eb78d8b32b9
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -818,7 +818,7 @@ Soit $\pi$ une représentation unitaire irréductible de G dans un espace hilber
 
 Il existe un nombre réel $c >0$ et un unique $(G\times G)$-morphisme isométrique $w$ de la représentation unitaire $\overline{\pi}\boxtimes \pi$ dans $L^2_{\chi}(G)$ tels que, pour tout $(x, y)\in \overline{E}\times E$, l’élément $w(x\otimes y)$ est la classe dans $L^2_{\chi}(G)$ de la fonction $c^{1/2}f_{x,y}$.
 
-Pour tout $(x, y)\in E\times E$, on a $f_{x,y}\in \mathscr{L}_{\chi}^2(G)$ (lemme 9). Notons $v$ l’unique application linéaire de $E\otimes E$ dans $L^2_{\chi}(G)$ telle que $v(x\otimes y)$ est la classe de $f_{x,y}$ pour tout $(x, y)\in E\times E$.
+Pour tout $(x, y)\in E\times E$, on a $f_{x,y}\in \mathscr{L}_{\chi}^2(G)$ (lemme 9). Notons $v$ l’unique application linéaire de $\overline{E}\otimes E$ dans $L^2_{\chi}(G)$ telle que $v(x\otimes y)$ est la classe de $f_{x,y}$ pour tout $(x, y)\in E\times E$.
 
 Nous démontrerons ci-dessous le lemme suivant.
 
@@ -832,7 +832,7 @@ $$
 v(\overline{\pi}(g_1)x\otimes \pi (h_1)y) =\boldsymbol{\varrho }_{G,\chi}(g_1, h_1)v(x\otimes y) \tag{11}
 $$
 
-pour tout $(g_1, h_1)\in G\times G$ et tout $(x, y)\in \overline{E}\times E$. L’application linéaire isométrique $w$ de $E\otimes E$ dans $L^2_{\chi}(G)$ admet un prolongement continu, encore noté $w$, à $E\widehat{\otimes}_2E$. Par continuité et linéarité, la formule (11) implique que $w$ est un $(G\times$ G)-morphisme de $\overline{\pi}\boxtimes \pi$ dans $L^2_{\chi}$(G), ce qui conclut la démonstration de la proposition.
+pour tout $(g_1, h_1)\in G\times G$ et tout $(x, y)\in \overline{E}\times E$. L’application linéaire isométrique $w$ de $\overline{E}\otimes E$ dans $L^2_{\chi}(G)$ admet un prolongement continu, encore noté $w$, à $E\widehat{\otimes}_2E$. Par continuité et linéarité, la formule (11) implique que $w$ est un $(G\times$ G)-morphisme de $\overline{\pi}\boxtimes \pi$ dans $L^2_{\chi}$(G), ce qui conclut la démonstration de la proposition.
 
 Démontrons le lemme. Pour tout $x\in E$, on note $u_x$ l’application linéaire $y\mapsto v(x\otimes y) =f_{x,y}$ de E dans $L^2_{\chi}(G)$. On a $u_x\in$ Hom$_G(\pi ,\boldsymbol{\gamma }_{G,\chi})$ (formule (10)). D’après le cor. 5 de V, p. 388, il existe un nombre réel $\lambda_x\geqslant 0$ tel que $\lambda_xu_x$ est isométrique.
 
@@ -856,7 +856,7 @@ $$
 \|v(x\otimes y)\|^2=\|f_{x,y}\|^2=\lambda_x\|y\|^2=c^{-1}\|x\|^2\|y\|^2=c^{-1}\|x\otimes y\|^2
 $$
 
-En utilisant EVT, V, p. 29, cor. 1, on en déduit que l’application linéaire $w=c^{1/2}v$ de $E\widehat{\otimes}_2E$ dans $L^2_{\chi}(G)$ est isométrique, comme désiré.
+En utilisant EVT, V, p. 29, cor. 1, on en déduit que l’application linéaire $w=c^{1/2}v$ de $\overline{E}\widehat{\otimes}_2E$ dans $L^2_{\chi}(G)$ est isométrique, comme désiré.
 
 #### Corollaire {#ts-v-s2-n8-cor-1 .statement tag=03AW}
 

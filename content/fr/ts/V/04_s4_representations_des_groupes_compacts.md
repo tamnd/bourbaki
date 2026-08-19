@@ -49,7 +49,7 @@ subsections:
       pdf_page: 489
 statements: 54
 exercises: 32
-content_sha256: 74b75f629c9f008452cb66003b6d644dd8af84a5c8c384c9a2c9117962c540f5
+content_sha256: 6afd9be6009c3edea94020a6eff6ed72686b9b91edd0ab0d1ce4637b0d382c0b
 ---
 
 ## § 4. REPRÉSENTATIONS DES GROUPES COMPACTS
@@ -256,7 +256,7 @@ Rappelons que la représentation unitaire birégulière de G est la représentat
 
 Soit $\pi \in \widehat{G}$. L’espace $\boldsymbol{\varrho }_G(\pi )$ est une sous-représentation de $\boldsymbol{\varrho }_G$ qui est isomorphe à $\overline{\pi}\boxtimes \pi$. En particulier, c’est une représentation irréductible de $G\times G$.
 
-D’après la prop. 7 de V, p. 422 (appliquée avec $Z =\{e\})$, l’espace $\boldsymbol{\varrho }_G(\pi )$ est une sous-représentation de $\boldsymbol{\varrho }_G$ et l’application linéaire de $E_{\pi}\otimes E_{\pi}$ dans $L^2(G)$ qui associe à $x\otimes y$ le coefficient matriciel $g\mapsto  \langle x|\pi (g)y\rangle$ est un $(G\times$ G)-isomorphisme de $\overline{\pi}\boxtimes \pi$ dans $\boldsymbol{\varrho }_G(\pi )$. La sous-représentation $\boldsymbol{\varrho }_G(\pi )$ est donc irréductible (prop. 3 de V, p. 461).
+D’après la prop. 7 de V, p. 422 (appliquée avec $Z =\{e\})$, l’espace $\boldsymbol{\varrho }_G(\pi )$ est une sous-représentation de $\boldsymbol{\varrho }_G$ et l’application linéaire de $\overline{E}_{\pi}\otimes E_{\pi}$ dans $L^2(G)$ qui associe à $x\otimes y$ le coefficient matriciel $g\mapsto  \langle x|\pi (g)y\rangle$ est un $(G\times$ G)-isomorphisme de $\overline{\pi}\boxtimes \pi$ dans $\boldsymbol{\varrho }_G(\pi )$. La sous-représentation $\boldsymbol{\varrho }_G(\pi )$ est donc irréductible (prop. 3 de V, p. 461).
 
 #### Théorème 1 (Peter–Weyl) {#ts-v-s4-thm-1 .statement tag=03E1}
 

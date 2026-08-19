@@ -34,7 +34,7 @@ subsections:
       pdf_page: 178
 statements: 49
 exercises: 31
-content_sha256: 73b86be9349411a8621a98b186fe42414170e8fac3f90f7e91702862e0c453aa
+content_sha256: 9573c54f81e17b8798f7e1431edaa12cb6694954d7942320be656b08e6242fa3
 ---
 
 ## § 9. RADICAL
@@ -289,7 +289,7 @@ Suppose that $\overline{e}$ belongs to the center of the ring $A/\mathfrak{a}$. 
 
 Let M and P be A-modules and $u$ a surjective A-linear mapping from P to M. Suppose that P is projective and that there exists a nilpotent two-sided ideal $\mathfrak{a}$ of A such that the kernel N of $u$ is contained in $\mathfrak{a}P$. Let $M'$ and $M''$ be submodules of M whose direct sum is M. Then P is the direct sum of submodules $P'$ and $P''$ such that $u(P') = M'$ and $u(P'') = M''$.
 
-Denote by B the subring of End$_A(P)$ consisting of the endomorphisms $f$ of P such that $f(N)\subset N$. Let B be the endomorphism ring of M. For $f\in B$, let $\overline{f}$ be the unique endomorphism of M such that $\overline{f}\circ u=u\circ f$. The mapping $f\mapsto \overline{f}$ is a ring homomorphism from B to B. Since the module P is projective, this homomorphism is surjective; its kernel $\mathfrak{b}$ consists of the endomorphisms $f\in B$ such that $f(P)\subset N$. Let $n$ be a natural number such that $\mathfrak{a}^n= 0$. We have
+Denote by B the subring of End$_A(P)$ consisting of the endomorphisms $f$ of P such that $f(N)\subset N$. Let $\overline{B}$ be the endomorphism ring of M. For $f\in B$, let $\overline{f}$ be the unique endomorphism of M such that $\overline{f}\circ u=u\circ f$. The mapping $f\mapsto \overline{f}$ is a ring homomorphism from B to B. Since the module P is projective, this homomorphism is surjective; its kernel $\mathfrak{b}$ consists of the endomorphisms $f\in B$ such that $f(P)\subset N$. Let $n$ be a natural number such that $\mathfrak{a}^n= 0$. We have
 
 $$
 P =\mathfrak{a}^0P\supset \mathfrak{a}^1P\supset  \cdots  \supset \mathfrak{a}^{n-1}P\supset \mathfrak{a}^nP = 0
@@ -315,7 +315,7 @@ the equality $u(P'') = M''$ is proved analogously.
 
 Let A be a ring, and let $\mathfrak{a}$ be a nilpotent two-sided ideal of A. If P is a projective A-module, then $P/\mathfrak{a}P$ is a projective module over $A/\mathfrak{a}$, and the A-module P is indecomposable if and only if the $A/\mathfrak{a}$-module $P/\mathfrak{a}P$ is indecomposable.
 
-Let P be a projective A-module, and let P be the $A/\mathfrak{a}$-module $P/\mathfrak{a}P$. The A-module P is zero if and only if P is zero (Theorem 2 of VIII, p. 158). Now suppose $P\not= 0$. Since the $A/\mathfrak{a}$-module P is isomorphic to $A\otimes_AP$, it is projective (II, §5, No. 1, p. 279, Corollary of Proposition 4). If P is indecomposable, then so is P by Corollary 1. Conversely, suppose that P is decomposable and nonzero, and let $P'$ and $P''$ be two nonzero submodules of P such that $P = P'\oplus P''$. By Nakayama’s lemma (VIII, p. 158, Theorem 2), we have $P'+\mathfrak{a}P\not= P$ and $P''+\mathfrak{a}P\not= P$; if $P'$ and $P''$ are the canonical images of $P'$ and $P''$ in P, then we have $P'\not= P, P''\not= P$, and $P = P'\oplus \overline{P}''$. This proves that P is decomposable.
+Let P be a projective A-module, and let $\overline{P}$ be the $A/\mathfrak{a}$-module $P/\mathfrak{a}P$. The A-module P is zero if and only if $\overline{P}$ is zero (Theorem 2 of VIII, p. 158). Now suppose $P\not= 0$. Since the $A/\mathfrak{a}$-module P is isomorphic to $\overline{A}\otimes_AP$, it is projective (II, §5, No. 1, p. 279, Corollary of Proposition 4). If P is indecomposable, then so is $\overline{P}$ by Corollary 1. Conversely, suppose that P is decomposable and nonzero, and let $P'$ and $P''$ be two nonzero submodules of P such that $P = P'\oplus P''$. By Nakayama’s lemma (VIII, p. 158, Theorem 2), we have $P'+\mathfrak{a}P\not= P$ and $P''+\mathfrak{a}P\not= P$; if $\overline{P}'$ and $\overline{P}''$ are the canonical images of $P'$ and $P''$ in P, then we have $\overline{P}'\not= P,\overline{P}''\not= P$, and $\overline{P}=\overline{P}'\oplus \overline{P}''$. This proves that $\overline{P}$ is decomposable.
 
 ### 5. Projective Cover of a Module
 

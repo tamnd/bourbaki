@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: e817211bfc14363b665881849259a8ea407d9344c98b43541e39b9cba7a89a81
+content_sha256: 607841b962cb2590ce4aac68c4cab1b38301af1b8432149e904126eafb13d0ea
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -1096,7 +1096,7 @@ D’après la décomposition canonique (E, II, p. 44) d’un morphisme strict, c
 
 Soit H un sous-groupe de G. On a $(H^{\bot})^{\bot}= H$.
 
-Puisque $H^{\bot}= H^{\bot}$, on peut supposer que H est fermé. Soit $f: H\rightarrow G$ l’injection canonique et $p: G\rightarrow G/H$ la projection canonique. On a $H^{\bot}=$ Ker($\widehat{f}$) (lemme 10). Soit $k$ l’injection canonique de $H^{\bot}$ dans $\widehat{G}$. D’après le théorème 4, le morphisme $\widehat{p}$ induit un isomorphisme $\widehat{p}_H:\widehat{G}/H\rightarrow H^{\bot}$ de groupes topologiques et on a $k\circ \widehat{p}_H=\widehat{p}$. Par conséquent (corollaire 1), il vient
+Puisque $H^{\bot}$ = $\overline{H}^{\bot}$, on peut supposer que H est fermé. Soit $f: H\rightarrow G$ l’injection canonique et $p: G\rightarrow G/H$ la projection canonique. On a $H^{\bot}=$ Ker($\widehat{f}$) (lemme 10). Soit $k$ l’injection canonique de $H^{\bot}$ dans $\widehat{G}$. D’après le théorème 4, le morphisme $\widehat{p}$ induit un isomorphisme $\widehat{p}_H:\widehat{G}/H\rightarrow H^{\bot}$ de groupes topologiques et on a $k\circ \widehat{p}_H=\widehat{p}$. Par conséquent (corollaire 1), il vient
 
 $(H^{\bot})^{\bot}=$ Ker($\widehat{k}$) $=$ Ker( $\widehat{\widehat{p}}_H\circ \widehat{k}) =$ Ker($p$) $= H$.
 

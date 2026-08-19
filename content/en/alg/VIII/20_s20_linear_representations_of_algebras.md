@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: 925dc57040cc9a94654c8f8bb807d7825af2f7952087fd309645cc9bab4ff7f8
+content_sha256: bed85c35884f89acef4d6ed7ae935f258548eb0274ab69a4d58c78925efb0b41
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -413,7 +413,7 @@ Let $x$ be an element of $R_K(A)$ such that $\chi_{\mathscr{A}}(x) = 1$. By (11)
 
 Let us first treat the case when K is algebraically closed. By the above and loc. cit., we then have $x\in pR_K(A)$. Let $y\in R_K(A)$ be such that $x=py$. For every element $a$ of $\mathscr{A}$, we have $\chi_a(y)^p=\chi_a(py) =\chi_a(x) = 1$. So we have $(\chi_a(y)-1)^p= 0$, and therefore $\chi_a(y) = 1$ because the ring K[[T]] is an integral domain. So $y$ belongs to the kernel of the endomorphism $\chi_{\mathscr{A}}$. It follows by induction that $x$ belongs to $p^nR_K(A)$ for every integer $n\geqslant 1$. Since $R_K(A)$ is a free $\mathbf{Z}$-module, this implies $x= 0$, and therefore the injectivity of $\chi_{\mathscr{A}}$ in this case.
 
-If K is no longer supposed to be algebraically closed, then we choose an algebraic closure K of K and consider the diagram of groups and group homomorphisms
+If K is no longer supposed to be algebraically closed, then we choose an algebraic closure $\overline{K}$ of K and consider the diagram of groups and group homomorphisms
 
 $R_K(A)^{\chi_{\mathscr{A}}}$ // (1 + TK[[T]])$^{\mathscr{A}}$
 
@@ -423,7 +423,7 @@ $$
 
 $R_{\overline{K}}(A_{(K)})^{\overline{\chi}_{\mathscr{A}}}$ // (1 + TK[[T]])$^{\mathscr{A}}$,
 
-where $u$ is the homomorphism deduced from the extension of scalars from K to K (VIII, p. 195$),i$ is the canonical injection, and $\overline{\chi}_{\mathscr{A}}$ is the homomorphism $z\mapsto (\chi_{1\otimes a}(z))_{a\in\mathscr{A}}$. By formula (12) of III, §9, No. 1, p. 542, diagram (12) is commutative. By the above, the homomorphism $\overline{\chi}_{\mathscr{A}}$ is injective. Since $u$ is injective (VIII, p. 195, Theorem 1), the homomorphism $\chi_{\mathscr{A}}$ is injective.
+where $u$ is the homomorphism deduced from the extension of scalars from K to $\overline{K}$ (VIII, p. 195$),i$ is the canonical injection, and $\overline{\chi}_{\mathscr{A}}$ is the homomorphism $z\mapsto (\chi_{1\otimes a}(z))_{a\in\mathscr{A}}$. By formula (12) of III, §9, No. 1, p. 542, diagram (12) is commutative. By the above, the homomorphism $\overline{\chi}_{\mathscr{A}}$ is injective. Since $u$ is injective (VIII, p. 195, Theorem 1), the homomorphism $\chi_{\mathscr{A}}$ is injective.
 
 #### Corollary 1 {#alg-viii-s20-thm-2-cor-1 .statement tag=00MX}
 

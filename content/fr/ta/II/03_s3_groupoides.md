@@ -61,7 +61,7 @@ subsections:
       pdf_page: 194
 statements: 40
 exercises: 12
-content_sha256: 66b7decf54cf5af1b45c61f71105be666040afdbfea5b0bfdb8372786b92d0a8
+content_sha256: ad91aeb2e2d1c4e9a2c180504a87816a6c5d30e7d73a906ceb6891dfe2149229
 ---
 
 ## § 3. GROUPOÏDES
@@ -312,7 +312,7 @@ Le couple $\overline{\varphi}= (\overline{\varphi}_1, \varphi_2)$ est un morphis
 
 Soit G un graphe. Notons $\Omega_G$ la catégorie des chemins du carquois sous-jacent à G (II, p. 160, exemple 1). Considérons la relation d’équivalence $\mathscr{R}$ la plus fine dans Ch(G) telle que l’on ait :
 
-(i) Pour tout couple $(a, b)$ de sommets de G et toute flèche $f$ dans G reliant $a$ à $b$, les chemins $(a, f, b, f , a)$ et $e_a$ sont équivalents modulo $\mathscr{R}$;
+(i) Pour tout couple $(a, b)$ de sommets de G et toute flèche $f$ dans G reliant $a$ à $b$, les chemins $(a, f, b,\overline{f}, a)$ et $e_a$ sont équivalents modulo $\mathscr{R}$;
 
 (ii) Si $(c, d)$ et $(c', d')$ sont des couples de chemins juxtaposables dans G tels que $\mathscr{R}\{c, c'\}$ et $\mathscr{R}\{d, d'\}$, les chemins $c*d$ et $c'*d'$ sont équivalents modulo $\mathscr{R}$.
 

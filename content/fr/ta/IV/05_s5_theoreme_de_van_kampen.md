@@ -37,7 +37,7 @@ subsections:
       pdf_page: 445
 statements: 31
 exercises: 34
-content_sha256: 4fe57a614337c232274c8b9074327507563f6a356ad3c807af22864d8bd4dde6
+content_sha256: 8d18db04fd0083bcc1bac34c04d9f068d37a7c25c28e9b0accd03edcd945b470
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -722,7 +722,7 @@ L’armature Γ du recouvrement considéré a pour sommets l’ensemble $I'$. Se
 
 Pour $i\in I$, on choisit comme point-base $\mathsf{a}(i) =a_i\in U_i$; on pose aussi $\mathsf{a}(s) =s\in C'(X)$.
 
-Pour $j\in$ J, on pose $\mathsf{b}(j) =\alpha '_f(b_j,\frac{1}{2})$. On note $B_1(j)$ le chemin dans $C'(X)$ d’origine $\mathsf{b}(j)$ et de terme $\mathsf{a}(s)$ donné par $t\mapsto \alpha '_f(b_j,(1-t)/2)$. On note $B_2(j)$ le chemin dans $U_{\varphi(j)}$ d’origine $\mathsf{b}(j)$ et de terme $\mathsf{a}(\varphi (j)) =a_{\varphi(j)}$, juxtaposition du chemin $t\mapsto \alpha '_f(b_j,(1 +t)/2)$ et du chemin $B_j$. Alors, la classe du chemin $B(j) = B_1(j)*B_2(j)$ est égale à $\gamma_j\beta_j$.
+Pour $j\in$ J, on pose $\mathsf{b}(j) =\alpha '_f(b_j,\frac{1}{2})$. On note $B_1(j)$ le chemin dans $C'(X)$ d’origine $\mathsf{b}(j)$ et de terme $\mathsf{a}(s)$ donné par $t\mapsto \alpha '_f(b_j,(1-t)/2)$. On note $B_2(j)$ le chemin dans $U_{\varphi(j)}$ d’origine $\mathsf{b}(j)$ et de terme $\mathsf{a}(\varphi (j)) =a_{\varphi(j)}$, juxtaposition du chemin $t\mapsto \alpha '_f(b_j,(1 +t)/2)$ et du chemin $B_j$. Alors, la classe du chemin $B(j) =\overline{B}_1(j)*B_2(j)$ est égale à $\gamma_j\beta_j$.
 
 On choisit $i_0=s$.
 

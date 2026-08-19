@@ -33,7 +33,7 @@ subsections:
       pdf_page: 226
 statements: 22
 exercises: 3
-content_sha256: 89baa91f784812adef544cd54a8082053b6debf2713f751004f8f2c952fca427
+content_sha256: 14ebc21e81b127b97b80032887e6f70215b9a9d0b24cd10b17e12f2795f3cdc6
 ---
 
 ## § 5. COÉGALISATEUR
@@ -66,7 +66,7 @@ On dit qu’une partie Z de $\Omega (\widetilde{\Gamma})$ est distinguée (relat
 
 (i) Pour toute flèche $z$ de $\widetilde{\Gamma}$, on a $(z, z)\in Z$ ;
 
-(ii) Pour tout $(z_1, . . . , z_n)\in$ Z, on a $(\overline{z}_n, . . . , z_2, z_1)\in$ Z et $(z_n, z_1, . . . , z_{n-1})\in Z$ ;
+(ii) Pour tout $(z_1, . . . , z_n)\in$ Z, on a $(\overline{z}_n, . . . ,\overline{z}_2,\overline{z}_1)\in$ Z et $(z_n, z_1, . . . , z_{n-1})\in Z$ ;
 
 (iii) Soient $\mathbf{z}= (z_1, . . . , z_n)$ et $\mathbf{z}'= (z'_1, . . . , z'_m)$ des éléments de Z tels que $t(z_n) =o(z'_1)$. Posons $\mathbf{z}\mathbf{z}'= (z_1, . . . , z_n, z'_1, . . . , z'_m)$. Si deux éléments parmi $\mathbf{z},\mathbf{z}',\mathbf{z}\mathbf{z}'$ appartiennent à Z, il en est de même du troisième ;
 
@@ -82,7 +82,7 @@ Notons Z l’ensemble des éléments $\mathbf{z}\in \Omega (\widetilde{\Gamma})$
 
 Soit $z\in$ Fl($\widetilde{\Gamma}$). On a $c(z, z) =\{e_a\}$ par définition, d’où $(z, z)\in Z$.
 
-Soit $(z_1, . . . , z_n)\in Z$. Par définition de $c$, la classe de conjugaison $c(z_1, . . . , z_n)$ est égale à $c(z_n, z_1, . . . , z_{n-1})$ et est formée des inverses des éléments de $c(\overline{z}_n, . . . , z_1)$. Cela montre que Z vérifie la condition (ii).
+Soit $(z_1, . . . , z_n)\in Z$. Par définition de $c$, la classe de conjugaison $c(z_1, . . . , z_n)$ est égale à $c(z_n, z_1, . . . , z_{n-1})$ et est formée des inverses des éléments de $c(\overline{z}_n, . . . ,\overline{z}_1)$. Cela montre que Z vérifie la condition (ii).
 
 Avec les notations de la condition (iii), on peut choisir des éléments $u\in c(\mathbf{z}),v\in c(\mathbf{z}')$ et $w\in c(\mathbf{z}\mathbf{z}')$ tels que $uv=w$. Si deux des éléments $u,v$ et $w$ appartiennent à N, il en est de même du troisième, donc N satisfait à (iii).
 

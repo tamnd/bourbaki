@@ -37,7 +37,7 @@ subsections:
       pdf_page: 41
 statements: 28
 exercises: 37
-content_sha256: 8c50cb4cbd7b37b862e7a67e2fa016dd006043f8be6636fdc4c038c9f2a0127b
+content_sha256: 62f1267d0b68327ba59600ca2c802c144e00b1d74102f4d85d18f751501faea6
 ---
 
 ## § 2. ALGÈBRES NORMÉES
@@ -310,7 +310,7 @@ C’est immédiat puisque $\|x\|<1$ implique $\varrho (x)<1$.
 
 Soient A une algèbre de Banach et I un idéal à gauche (resp. à droite) maximal régulier de A. Alors I est fermé.
 
-Soit $(\widetilde{A}, e)$ l’algèbre de Banach unifère déduite de A par adjonction d’un élément unité. Il existe un idéal à gauche (resp. à droite) maximal J de $\widetilde{A}$ tel que $J\cap A = I$ (A, VIII, p. 428, prop. 4). Alors J est disjoint de la boule ouverte de centre $e$ et de rayon 1 (cor. 1), et donc $\overline{J}\not=\widetilde{A}$. Comme J est un idéal maximal, cela implique que J = J, et par suite que $I = J\cap A = J\cap A$ est fermé dans A.
+Soit $(\widetilde{A}, e)$ l’algèbre de Banach unifère déduite de A par adjonction d’un élément unité. Il existe un idéal à gauche (resp. à droite) maximal J de $\widetilde{A}$ tel que $J\cap A = I$ (A, VIII, p. 428, prop. 4). Alors J est disjoint de la boule ouverte de centre $e$ et de rayon 1 (cor. 1), et donc $\overline{J}\not=\widetilde{A}$. Comme J est un idéal maximal, cela implique que $\overline{J}= J$, et par suite que $I = J\cap A =\overline{J}\cap A$ est fermé dans A.
 
 #### Corollaire 3 {#ts-i-s2-prop-2-cor-3 .statement tag=0267}
 

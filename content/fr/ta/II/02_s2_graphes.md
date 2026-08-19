@@ -29,7 +29,7 @@ subsections:
       pdf_page: 173
 statements: 5
 exercises: 12
-content_sha256: 7b11f57105325047d7638e4ccda232addd1076f464d3da18b009dc079cf93bf9
+content_sha256: a60160d08f9af19c3b933e3876ff52689f4e02484e1e95a7c8874a255f7cf08c
 ---
 
 ## § 2. GRAPHES
@@ -50,7 +50,7 @@ Soient G et $G'$ des graphes ; on dit que $G'$ est un sous-graphe de G si c’en
 
 ### 2. Orientation d’un graphe
 
-Soit G un graphe. Une orientation de G est une partie A de l’ensemble des flèches de G telle que $A\cap A =\emptyset$ et $A\cup A =$ Fl(G).
+Soit G un graphe. Une orientation de G est une partie A de l’ensemble des flèches de G telle que $A\cap \overline{A}=\emptyset$ et $A\cup \overline{A}=$ Fl(G).
 
 Un graphe muni d’une orientation est appelé graphe orienté.
 

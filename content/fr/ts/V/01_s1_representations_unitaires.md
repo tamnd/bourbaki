@@ -57,7 +57,7 @@ subsections:
       pdf_page: 407
 statements: 50
 exercises: 7
-content_sha256: de676bd12e93c36a7a43ea62abdb0605fe18579e9cd1c1cbb3777f19712ff59b
+content_sha256: 620c4c8face925980397c6ade3530d63bd083a854b0797f791275154a8842992
 ---
 
 ## § 1. REPRÉSENTATIONS UNITAIRES
@@ -276,7 +276,7 @@ $$
 
 donc $u=\varrho_2(g)\circ u\circ \varrho_1(g^{-1})$. Par conséquent, $u\in$ Hom$_G(\varrho_2, \varrho_1)$. La proposition en résulte.
 
-Soit $\varrho$ une représentation unitaire d’un groupe topologique G dans un espace hilbertien E. Si $K =\mathbf{C}$, notons E l’espace conjugué de E (EVT, V, p. 6). Si $K =\mathbf{R}$, posons E = E. La représentation conjuguée $\overline{\varrho}$ est la représentation de G dans E définie par $\overline{\varrho}(g) =\varrho (g)$ pour tout $g\in G$. C’est une représentation unitaire de G ; par définition, un sous-espace de E est une sous-représentation de E si et seulement si c’est une sous-représentation de E.
+Soit $\varrho$ une représentation unitaire d’un groupe topologique G dans un espace hilbertien E. Si $K =\mathbf{C}$, notons $\overline{E}$ l’espace conjugué de E (EVT, V, p. 6). Si $K =\mathbf{R}$, posons $\overline{E}= E$. La représentation conjuguée $\overline{\varrho}$ est la représentation de G dans $\overline{E}$ définie par $\overline{\varrho}(g) =\varrho (g)$ pour tout $g\in G$. C’est une représentation unitaire de G ; par définition, un sous-espace de $\overline{E}$ est une sous-représentation de $\overline{E}$ si et seulement si c’est une sous-représentation de E.
 
 #### Proposition 2 {#ts-v-s1-prop-2 .statement tag=038X}
 
@@ -288,7 +288,7 @@ b) Munissons $E'$ de la structure d’espace hilbertien obtenue par transport de
 
 D’après EVT, V, p. 15, th. 3 et remarque suivante, l’application $u$ est un isomorphisme isométrique.
 
-Pour tout $g$ dans G, tout $x$ dans E et tout $y$ dans E, on a
+Pour tout $g$ dans G, tout $x$ dans $\overline{E}$ et tout $y$ dans E, on a
 
 $$
 \langle y,( \breve{\varrho}(g)\circ u)(x)\rangle =\langle \varrho (g^{-1})y, u(x)\rangle

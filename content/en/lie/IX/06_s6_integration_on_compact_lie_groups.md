@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: afe819f840f8e5e1444995aa67d7ef06b2cfd1e5633f4a2a01a78a0801c5bdb6
+content_sha256: d1ba02db36eff422c3dba2945d9ea59af043066c9d37895a550c9630bc123e1c
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
@@ -282,9 +282,9 @@ where $\pi$ denotes the canonical projection of T onto $T/W$. Cor. 2 means that 
 
 #### Remark 3 {#lie-ix-s6-n2-rem-3 .statement tag=01F7}
 
-Assume that G is simply-connected. Let A be an alcove of $\mathfrak{t}$, and $dx$ the Haar measure on $\mathfrak{t}$ such that $\int_Adx= 1$. Then the measure $\nu$ can also be obtained by transporting the measure $\frac{1}{w(G)}\prod_{\alpha\in R_+(G,T)}4$ sin$^2\pi \widehat{\alpha}(x)dx$ on A by
+Assume that G is simply-connected. Let A be an alcove of $\mathfrak{t}$, and $dx$ the Haar measure on $\mathfrak{t}$ such that $\int_Adx= 1$. Then the measure $\nu$ can also be obtained by transporting the measure $\frac{1}{w(G)}\prod_{\alpha\in R_+(G,T)}4$ sin$^2\pi \widehat{\alpha}(x)dx$ on $\overline{A}$ by
 
-the homeomorphism $A\rightarrow T/W ($§5, no. 2, Cor. 1 of Prop. 2).
+the homeomorphism $\overline{A}\rightarrow T/W ($§5, no. 2, Cor. 1 of Prop. 2).
 
 #### Example {#lie-ix-s6-n2-exa-1 .statement tag=01F8}
 
@@ -292,11 +292,11 @@ Take G to be the group $\mathbf{S}\mathbf{U}(2,\mathbf{C})$ and T to be the subg
 
 $(e^{i\theta}$ 0 $)$
 
-A corresponding to the conjugacy class of $-_{i\theta}$ . Let $d\theta$ be Lebesgue
+$\overline{A}$ corresponding to the conjugacy class of $-_{i\theta}$ . Let $d\theta$ be Lebesgue
 
 0 $e$
 
-measure on $0, \pi$; it follows from the preceding that the image on A of the Haar measure on G is the measure $\frac{2}{\pi}$ sin$^2\theta  d\theta$.
+measure on $0, \pi$; it follows from the preceding that the image on $\overline{A}$ of the Haar measure on G is the measure $\frac{2}{\pi}$ sin$^2\theta  d\theta$.
 
 ### 3. INTEGRATION ON LIE ALGEBRAS
 

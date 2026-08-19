@@ -45,7 +45,7 @@ subsections:
       pdf_page: 242
 statements: 33
 exercises: 12
-content_sha256: b08de5a708adf0ce908b4806ad390bf492b3902f1eccd0595e5fb4877e96c288
+content_sha256: 302ae001b6752eda6b6201d8d66ecae31217180441c71599beddb14c3200eea6
 ---
 
 ## § 13. ALGÈBRES ABSOLUMENT SEMI-SIMPLES
@@ -552,7 +552,7 @@ démontrer de la façon suivante. Le complexe $(\bigoplus_{n\geqslant 0}B_n, d)$
 
 ### 8. Scindage des algèbres artiniennes
 
-Dans ce numéro, K désigne un anneau commutatif et A une K-algèbre. Soit $\mathfrak{r}$ le radical de A. Notons A l’algèbre quotient $A/\mathfrak{r}$ et $\pi$ l’application canonique de A sur A. On s’intéresse ici aux sous-algèbres S de A telles que $A = S\oplus \mathfrak{r}$.
+Dans ce numéro, K désigne un anneau commutatif et A une K-algèbre. Soit $\mathfrak{r}$ le radical de A. Notons $\overline{A}$ l’algèbre quotient $A/\mathfrak{r}$ et $\pi$ l’application canonique de A sur A. On s’intéresse ici aux sous-algèbres S de A telles que $A = S\oplus \mathfrak{r}$.
 
 Notons Σ l’ensemble des sections K-linéaires $s$ de $\pi$ satisfaisant à $s(\alpha \beta ) =$ $s(\alpha )s(\beta )$ pour $\alpha , \beta$ dans A. Observons qu’une telle section satisfait nécessairement à $s(1) = 1$ (autrement dit, $s$ est un homomorphisme d’anneaux) : on a en effet $s(1)^2=s$(1), et $s(1)$ est inversible puisqu’il appartient à $1 +\mathfrak{r}$ (VIII, p. 151, th. 1). Si $s$ est un élément de Σ, l’image S de $s$ est une sous-algèbre de A et l’on a $A = S\oplus \mathfrak{r}$. Inversement, si S est une sous-algèbre de A telle que $A = S\oplus \mathfrak{r}$, la restriction de $\pi$ à S est bijective, et la bijection réciproque définit un élément de Σ d’image S.
 
@@ -566,7 +566,7 @@ a) Soient $S_1$ et $S_2$ des sous-algèbres de A satisfaisant à $A = S_1\oplus 
 
 b) Supposons que $\pi$ possède une section K-linéaire et que le radical $\mathfrak{r}$ de A soit nilpotent. Il existe alors une sous-algèbre S de A satisfaisant à $A = S\oplus \mathfrak{r}$.
 
-Plaçons-nous sous les hypothèses de a) et notons $s_1$ et $s_2$ les éléments de l’ensemble Σ correspondant aux sous-algèbres $S_1$ et $S_2$. Soit $\varepsilon$ l’application K-linéaire de $A\otimes_KA$ dans A telle que $\varepsilon (a\otimes b) =ab$. D’après la prop. 5 de VIII, p. 232, et la remarque 1 de VIII, p. 232, il existe un élément $e=\sum^r_{i=1}\alpha_i\otimes \alpha '_i$ de $A\otimes_K\overline{A}$ satisfaisant à $\sum^r_{i=1}\alpha_i\alpha '_i= 1$ et $\sum^r_{i=1}\alpha \alpha_i\otimes \alpha '_i=\sum^r_{i=1}\alpha_i\otimes \alpha '_i\alpha$ pour tout $\alpha \in A$. Posons $x=\sum^r_{i=1}s_1(\alpha_i)s_2(\alpha '_i)$. On a $\pi (x) =\sum^r_{i=1}\alpha_i\alpha '_i= 1$, d’où $x\in 1 +\mathfrak{r}$. Soit $\alpha$ un élément de A. On a
+Plaçons-nous sous les hypothèses de a) et notons $s_1$ et $s_2$ les éléments de l’ensemble Σ correspondant aux sous-algèbres $S_1$ et $S_2$. Soit $\varepsilon$ l’application K-linéaire de $A\otimes_KA$ dans A telle que $\varepsilon (a\otimes b) =ab$. D’après la prop. 5 de VIII, p. 232, et la remarque 1 de VIII, p. 232, il existe un élément $e=\sum^r_{i=1}\alpha_i\otimes \alpha '_i$ de $\overline{A}\otimes_K\overline{A}$ satisfaisant à $\sum^r_{i=1}\alpha_i\alpha '_i= 1$ et $\sum^r_{i=1}\alpha \alpha_i\otimes \alpha '_i=\sum^r_{i=1}\alpha_i\otimes \alpha '_i\alpha$ pour tout $\alpha \in A$. Posons $x=\sum^r_{i=1}s_1(\alpha_i)s_2(\alpha '_i)$. On a $\pi (x) =\sum^r_{i=1}\alpha_i\alpha '_i= 1$, d’où $x\in 1 +\mathfrak{r}$. Soit $\alpha$ un élément de A. On a
 
 $$
 s_1(\alpha )x=\sum_{i=1}^rs_1(\alpha \alpha_i)s_2(\alpha '_i) = (\varepsilon \circ (s_1\otimes s_2))(\sum_{i=1}^r\alpha \alpha_i\otimes \alpha '_i)
@@ -582,13 +582,13 @@ Prouvons l’assertion b) sous l’hypothèse $\mathfrak{r}^2= 0$. En ce cas, le
 
 (19) $\alpha x=\sigma (\alpha )x$ et $x\alpha =x\sigma (\alpha )$
 
-pour $\alpha \in A$ et $x\in \mathfrak{r}$. Posons
+pour $\alpha \in \overline{A}$ et $x\in \mathfrak{r}$. Posons
 
 $$
 \varphi (\alpha , \beta ) =\sigma (\alpha \beta )-\sigma (\alpha )\sigma (\beta ) \tag{20}
 $$
 
-pour $\alpha , \beta \in A$. On a la relation $\pi (\varphi (\alpha , \beta )) =\alpha \beta -\alpha \beta = 0$ pour $\alpha , \beta \in A$. Donc $\varphi$ défini un élément de $C^2(A,\mathfrak{r})$. Soient $\alpha , \beta , \gamma$ des éléments de A ; compte tenu de (19), on a
+pour $\alpha , \beta \in A$. On a la relation $\pi (\varphi (\alpha , \beta )) =\alpha \beta -\alpha \beta = 0$ pour $\alpha , \beta \in A$. Donc $\varphi$ défini un élément de $C^2(A,\mathfrak{r})$. Soient $\alpha , \beta , \gamma$ des éléments de $\overline{A}$; compte tenu de(19), on a
 
 $$
 \partial^2\varphi (\alpha , \beta , \gamma ) =\alpha \varphi (\beta , \gamma )-\varphi (\alpha \beta , \gamma ) +\varphi (\alpha , \beta \gamma )-\varphi (\alpha , \beta )\gamma
@@ -622,7 +622,7 @@ $$
 
 de sorte que la section K-linéaire $\sigma +\psi$ de $\pi$ appartient à Σ. Son image est une sous-algèbre S de A telle que $A = S +\mathfrak{r}$.
 
-Démontrons enfin l’existence de S dans le cas général. Raisonnons par récurrence sur le plus petit entier $p\geqslant 1$ tel que $\mathfrak{r}^p= 0$, le cas $p= 1$ étant trivial. Supposons qu’on ait $p\geqslant 2$, et posons $A'= A/\mathfrak{r}^{p-1}$; le radical $\mathfrak{r}'$ de $A'$ est égal à $\mathfrak{r}/\mathfrak{r}^{p-1}$ (prop. 5 de VIII, p. 150), donc satisfait à ${\mathfrak{r}'}^{p-1}= 0$, et l’algèbre $A'/\mathfrak{r}'$ est isomorphe à $A = A/\mathfrak{r}$, donc est absolument semi-simple. D’après l’hypothèse de récurrence, il existe une sous-algèbre $S'$ de $A'$ telle que $A'= S'\oplus \mathfrak{r}'$. Alors $S'$ est de la forme $A''/\mathfrak{r}^{p-1}$, où $A''$ est une sous-algèbre de A contenant $\mathfrak{r}^{p-1}$, et l’on a
+Démontrons enfin l’existence de S dans le cas général. Raisonnons par récurrence sur le plus petit entier $p\geqslant 1$ tel que $\mathfrak{r}^p= 0$, le cas $p= 1$ étant trivial. Supposons qu’on ait $p\geqslant 2$, et posons $A'= A/\mathfrak{r}^{p-1}$; le radical $\mathfrak{r}'$ de $A'$ est égal à $\mathfrak{r}/\mathfrak{r}^{p-1}$ (prop. 5 de VIII, p. 150), donc satisfait à ${\mathfrak{r}'}^{p-1}= 0$, et l’algèbre $A'/\mathfrak{r}'$ est isomorphe à $\overline{A}= A/\mathfrak{r}$, donc est absolument semi-simple. D’après l’hypothèse de récurrence, il existe une sous-algèbre $S'$ de $A'$ telle que $A'= S'\oplus \mathfrak{r}'$. Alors $S'$ est de la forme $A''/\mathfrak{r}^{p-1}$, où $A''$ est une sous-algèbre de A contenant $\mathfrak{r}^{p-1}$, et l’on a
 
 $$
 A = A''+\mathfrak{r},\mathfrak{r}^{p-1}= A''\cap \mathfrak{r} \tag{23}

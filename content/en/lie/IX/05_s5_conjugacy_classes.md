@@ -29,7 +29,7 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: 4375b4421fa859aa7fd6cfbe47e0d46b567ed8c7c77e2fc92f40cf956a3d0fa1
+content_sha256: 2b12cc0208c94d1179a6b936264b2ad9d6050474d213776b1b88391e2e42ec3e
 ---
 
 ## § 5. CONJUGACY CLASSES
@@ -88,7 +88,7 @@ a) The group $W_a$ (resp. $W'_a)$ is the semi-direct product of W by $N(G,T)$ (r
 
 b) The group W (resp. $W_a)$ operates simply-transitively on the set of chambers (resp. alcoves ).
 
-c) Let C be a chamber and A an alcove. Then C (resp. A, resp. A) is a fundamental domain for the operation of W on $\mathfrak{t}$ (resp. of $W_a$ on $\mathfrak{t}$, resp. of $W_a$ on $\mathfrak{t}$**--** $\mathfrak{t}_r)$. If $x\in \mathfrak{t}_r$ and $w\in W_a$ are such that $w(x) =x$, then $w=$ Id.
+c) Let C be a chamber and A an alcove. Then $\overline{C}$ (resp. A, resp. A) is a fundamental domain for the operation of W on $\mathfrak{t}$ (resp. of $W_a$ on $\mathfrak{t}$, resp. of $W_a$ on $\mathfrak{t}$**--** $\mathfrak{t}_r)$. If $x\in \mathfrak{t}_r$ and $w\in W_a$ are such that $w(x) =x$, then $w=$ Id.
 
 d) For every chamber C, there exists a unique alcove A such that $A\subset C$ and$\gamma \in \frac{0}{A}.\in \overline{A}$. For every alcove A, there exists a unique $\gamma \in N(G,T)$ such that
 
@@ -108,7 +108,7 @@ $A/H_A\rightarrow T_r/W\rightarrow G_r/$Int(G).
 
 Let $w'\in W'_a$; then $w'(A)$ is an alcove of $\mathfrak{t}$, and there exists (Prop. $2b))$ a unique element $w$ of $W_a$ such that $w(A) =w'$(A), that is $w^{-1}w'\in H_A$. Since $W_a$ is normal in $W'_a$, this proves $a)$.
 
-The canonical injection of A into $\mathfrak{t}$ induces a continuous bijection $\theta : A\rightarrow$ $\mathfrak{t}/W_a$ (Prop. $2c))$, and this is a homeomorphism since A is compact. Since $W_a$ is normal in $W'_a$, the group $H_A$ operates canonically on $\mathfrak{t}/W_a($Algebra, Chap. I, §5, no. 4) and $\mathfrak{t}/W'_a$ can be identified with the quotient $(\mathfrak{t}/W_a)/H_A$; the map $\theta$ is compatible with the operations of $H_A$, hence induces by passage to the quotient a homeomorphism $A/H_A\rightarrow \mathfrak{t}/W'_a$. Further, exp$_{\Gamma}$ induces a homeomorphism from $\mathfrak{t}/\Gamma (T)$ to T, hence also a homeomorphism from $\mathfrak{t}/W'_a$ to $T/W$. Assertion $b)$ follows from that and Cor. 1 of Prop. 5 of §2, no. 4.
+The canonical injection of $\overline{A}$ into $\mathfrak{t}$ induces a continuous bijection $\theta :\overline{A}\rightarrow$ $\mathfrak{t}/W_a$ (Prop. $2c))$, and this is a homeomorphism since A is compact. Since $W_a$ is normal in $W'_a$, the group $H_A$ operates canonically on $\mathfrak{t}/W_a($Algebra, Chap. I, §5, no. 4) and $\mathfrak{t}/W'_a$ can be identified with the quotient $(\mathfrak{t}/W_a)/H_A$; the map $\theta$ is compatible with the operations of $H_A$, hence induces by passage to the quotient a homeomorphism $A/H_A\rightarrow \mathfrak{t}/W'_a$. Further, exp$_{\Gamma}$ induces a homeomorphism from $\mathfrak{t}/\Gamma (T)$ to T, hence also a homeomorphism from $\mathfrak{t}/W'_a$ to $T/W$. Assertion $b)$ follows from that and Cor. 1 of Prop. 5 of §2, no. 4.
 
 #### Remark 1 {#lie-ix-s5-n2-rem-1 .statement tag=01DZ}
 
@@ -128,7 +128,7 @@ Let C be a chamber of $\mathfrak{t}$ and $\overline{C}$ its closure. The canonic
 
 $\overline{C}\rightarrow \mathfrak{t}/W\rightarrow \mathfrak{g}/$Ad(G).
 
-The canonical maps $C\rightarrow \mathfrak{t}$ and $\mathfrak{t}\rightarrow \mathfrak{t}/W$ are proper (General Topology, Chap. III, §4, no. 1, Prop. $2c))$. The map $C\rightarrow \mathfrak{t}/W$ is continuous, proper and bijective (Prop. $2c))$; thus, it is a homeomorphism, hence the corollary in view of the Cor. of Prop. 6 of §2, no. 5.
+The canonical maps $\overline{C}\rightarrow \mathfrak{t}$ and $\mathfrak{t}\rightarrow \mathfrak{t}/W$ are proper (General Topology, Chap. III, §4, no. 1, Prop. $2c))$. The map $\overline{C}\rightarrow \mathfrak{t}/W$ is continuous, proper and bijective (Prop. $2c))$; thus, it is a homeomorphism, hence the corollary in view of the Cor. of Prop. 6 of §2, no. 5.
 
 #### Remark 4 {#lie-ix-s5-n2-rem-4 .statement tag=01E3}
 

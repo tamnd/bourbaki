@@ -45,7 +45,7 @@ subsections:
       pdf_page: 382
 statements: 31
 exercises: 6
-content_sha256: b36e4b1410dc3cefb0976e0984c751eb24c365053ff6731287bf26d13ac7434a
+content_sha256: 055b925716426ca40d267cb096195b3f346c55dca02389edb0f699587cbcacff
 ---
 
 ## § 20. REPRÉSENTATIONS LINÉAIRES DES ALGÈBRES
@@ -408,7 +408,7 @@ Soit $x$ un élément de $R_K(A)$ tel que $\chi_{\mathscr{A}}(x) = 1$. D’aprè
 
 Traitons d’abord le cas où K est algébriquement clos. D’après ce qui précède et loc. cit., on a alors $x\in pR_K(A)$. Soit $y\in R_K(A)$ tel que $x=py$. Pour tout élément $a$ de $\mathscr{A}$, on a $\chi_a(y)^p=\chi_a(py) =\chi_a(x) = 1$. On a donc $(\chi_a(y)-1)^p= 0$, d’où $\chi_a(y) = 1$ puisque l’anneau K[[T]] est intègre. Ainsi, $y$ appartient au noyau de l’endomorphisme $\chi_{\mathscr{A}}$. Il en résulte par récurrence que $x$ appartient à $p^nR_K(A)$ pour tout entier $n\geqslant 1$. Comme $R_K(A)$ est un $\mathbf{Z}$-module libre, cela entraîne $x= 0$, d’où l’injectivité de $\chi_{\mathscr{A}}$ dans ce cas.
 
-Si K n’est plus supposé algébriquement clos, on choisit une clôture algébrique K de K et on considère le diagramme de groupes et d’homomorphismes de groupes
+Si K n’est plus supposé algébriquement clos, on choisit une clôture algébrique $\overline{K}$ de K et on considère le diagramme de groupes et d’homomorphismes de groupes
 
 $R_K(A)^{\chi_{\mathscr{A}}}$ // (1 + TK[[T]])$^{\mathscr{A}}$
 
@@ -416,7 +416,7 @@ $$
 ui \tag{12}
 $$
 
-$R_{\overline{K}}(A_{(K)})^{\overline{\chi}_{\mathscr{A}}}/$/ (1 + TK[[T]])$^{\mathscr{A}}$ où $u$ est l’homomorphisme déduit de l’extension des scalaires de K à K (VIII, p. 190), $i$ l’injection canonique et $\overline{\chi}_{\mathscr{A}}$ l’homomorphisme $z\rightarrow (\chi_{1\otimes a}(z))_{a\in\mathscr{A}}$. D’après la formule (12) de III, p. 108, le diagramme (12) est commutatif. D’après ce qui précède, l’homomorphisme $\overline{\chi}_{\mathscr{A}}$ est injectif. Comme $u$ est injectif (VIII, p. 191, th. 1), l’homomorphisme $\chi_{\mathscr{A}}$ est injectif.
+$R_{\overline{K}}(A_{(K)})^{\overline{\chi}_{\mathscr{A}}}/$/ (1 + TK[[T]])$^{\mathscr{A}}$ où $u$ est l’homomorphisme déduit de l’extension des scalaires de K à $\overline{K}$ (VIII, p. 190), $i$ l’injection canonique et $\overline{\chi}_{\mathscr{A}}$ l’homomorphisme $z\rightarrow (\chi_{1\otimes a}(z))_{a\in\mathscr{A}}$. D’après la formule (12) de III, p. 108, le diagramme (12) est commutatif. D’après ce qui précède, l’homomorphisme $\overline{\chi}_{\mathscr{A}}$ est injectif. Comme $u$ est injectif (VIII, p. 191, th. 1), l’homomorphisme $\chi_{\mathscr{A}}$ est injectif.
 
 #### Corollaire 1 {#alg-viii-s20-thm-2-cor-1 .statement tag=00MX}
 

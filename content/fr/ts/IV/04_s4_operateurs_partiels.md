@@ -53,7 +53,7 @@ subsections:
       pdf_page: 268
 statements: 74
 exercises: 24
-content_sha256: 96ef3ac9f30b1f427523f178fdbb0a0651fced8caf903400129f0f1692ac8da2
+content_sha256: 7a1879cdb38ba3edbe58035bdb927411940e5d51061ec1842dd83ec41c145e01
 ---
 
 ## § 4. OPÉRATEURS PARTIELS
@@ -148,9 +148,9 @@ Soient E et F des espaces vectoriels topologiques sur K.
 
 Soient E et F des espaces vectoriels topologiques sur K. Un opérateur partiel $u$ de E dans F est fermable si et seulement si l’adhérence du graphe $\Gamma_u$ de $u$ dans $E\times F$ est un graphe fonctionnel. Il existe alors un unique opérateur partiel $v$ de E dans F dont le graphe est $\overline{\Gamma}_u$, et c’est la plus petite extension fermée de $u$.
 
-Si l’adhérence du graphe de $u$ dans $E\times F$ est un graphe fonctionnel, c’est le graphe d’un opérateur partiel, et celui-ci est une extension fermée de $u$, qui est donc fermable. Réciproquement, supposons que $u\subset w$ avec $w$ fermé. L’adhérence $\Gamma_u$ du graphe de $u$ dans $E\times F$ est contenue dans $\Gamma_w$, donc $\Gamma_u$ est un graphe fonctionnel.
+Si l’adhérence du graphe de $u$ dans $E\times F$ est un graphe fonctionnel, c’est le graphe d’un opérateur partiel, et celui-ci est une extension fermée de $u$, qui est donc fermable. Réciproquement, supposons que $u\subset w$ avec $w$ fermé. L’adhérence $\overline{\Gamma}_u$ du graphe de $u$ dans $E\times F$ est contenue dans $\Gamma_w$, donc $\Gamma_u$ est un graphe fonctionnel.
 
-La dernière assertion résulte du fait que si $w$ est une extension fermée de $u$, alors le graphe de $w$ contient $\Gamma_u$.
+La dernière assertion résulte du fait que si $w$ est une extension fermée de $u$, alors le graphe de $w$ contient $\overline{\Gamma}_u$.
 
 #### Définition 3 {#ts-iv-s4-def-3 .statement tag=032N}
 
@@ -285,7 +285,7 @@ pour toute fonction $h'\in \mathscr{L}_K^2(X, \mu)$ dont la classe $\widetilde{h
 Soit C un sous-ensemble compact de X et soit $\varphi$ sa fonction caractéristique. Soit $n\in \mathbf{N}$. On note $\varphi_n$ la fonction caractéristique de l’ensemble $\mu$-intégrable $C_n$ des $x\in C$ tels que $|h(x)|\leqslant n$ et on pose $h'_n=\varphi_nh$. La classe de $h'_n$ appartient au domaine de $\widetilde{m}_{g'}$ puisque $|g'h'_n|\leqslant n\varphi$; il vient
 
 $$
-0 =\int_Xh h'_n(1 +|g|^2)d\mu=\int_X|h|^2\varphi_n(1 +|g|^2)d\mu
+0 =\int_X\overline{h}h'_n(1 +|g|^2)d\mu=\int_X|h|^2\varphi_n(1 +|g|^2)d\mu
 $$
 
 Cela implique que $h$ est nulle pour $\mu$-presque tout $x\in C_n$ et donc, puisque $n$ est arbitraire, que $h$ est nulle pour $\mu$-presque tout $x\in C$. Il en résulte enfin que $h$ est nulle $\mu$-presque partout, puisque C est quelconque et que $h$ est modérée (INT, V, p. 9, § 1, n$^o3$, cor.).
@@ -295,7 +295,7 @@ Considérons maintenant l’assertion b). Comme $|g|^2$ est localement $\mu$-int
 Soit $h\in \mathscr{L}_K^2(X, \mu)$ dont la classe $\widetilde{h}$ appartient à $E_{m_g}$ et est orthogonal à G. On a alors
 
 $$
-0 = (\widetilde{h}|\widetilde{h}')_{\widetilde{m}_g}=\int_Xh h'(1 +|g|^2)d\mu
+0 = (\widetilde{h}|\widetilde{h}')_{\widetilde{m}_g}=\int_Xh\overline{h}'(1 +|g|^2)d\mu
 $$
 
 pour tout $h'\in F$ de classe $\widetilde{h}'$. Compte tenu de l’hypothèse sur F, cela signifie que la mesure $h(1 +|g|^2)\cdot \mu$ est nulle, donc que $h$ est nulle $\mu$-presque partout puisque $h$ est modérée.
@@ -406,7 +406,7 @@ Soit $u$ un opérateur à domaine dense de E dans F. Alors $u^*$ est à domaine 
 
 D’après la prop. 7, l’opérateur partiel $u^*$ est fermé. Supposons que le domaine $D^*$ de $u^*$ est dense dans F. Soit $u^{**}$ l’adjoint de $u^*$; c’est un opérateur partiel fermé de E dans F. Démontrons que $u\subset u^{**}$, ce qui impliquera que $u$ est fermable. Soit $x\in$ dom($u$). Par définition de $u^*$, les formes linéaires sur $D^*$ données par $y\mapsto  \langle x|u^*(y)\rangle$ et $y\mapsto  \langle u(x)|y\rangle$ sont égales ; on a donc $x\in$ dom($u^{**}$) et $u^{**}(x) =u(x)$, d’où l’assertion.
 
-Réciproquement, supposons que $u$ est fermable ; on a $\Gamma_{\overline{u}}= \Gamma_u$ (prop. 1 de IV, p. 228). Soit $y\in F$ un vecteur orthogonal à dom($u^*$). L’élément $(y,0)$ de $F\oplus E$ appartient alors à l’orthogonal du graphe de $u^*$. Or, d’après la prop. 7, a), on a
+Réciproquement, supposons que $u$ est fermable ; on a $\Gamma_{\overline{u}}=\overline{\Gamma}_u$ (prop. 1 de IV, p. 228). Soit $y\in F$ un vecteur orthogonal à dom($u^*$). L’élément $(y,0)$ de $F\oplus E$ appartient alors à l’orthogonal du graphe de $u^*$. Or, d’après la prop. 7, a), on a
 
 $$
 \Gamma^{\circ}_{u^*}= (s(\Gamma_u)^{\circ})^{\circ}=s(\Gamma_u) =s(\Gamma_u)
@@ -417,7 +417,7 @@ Il vient donc $(0, y)\in \Gamma_{\overline{u}}$, d’où $y=\overline{u}(0) = 0$
 Finalement, la prop. 7, appliquée à $u^*$, implique que
 
 $$
-\Gamma_{u^{**}}=s^{-1}(\Gamma^{\circ}_{u^*}) =s^{-1}(s(\Gamma^{\circ \circ}_u)) = \Gamma_u
+\Gamma_{u^{**}}=s^{-1}(\Gamma^{\circ}_{u^*}) =s^{-1}(s(\Gamma^{\circ \circ}_u)) =\overline{\Gamma}_u
 $$
 
 donc $u^{**}=\overline{u}$, puis $\overline{u}^*= (u^*)^{**}=\overline{u^*}=u^*$ comme $u^*$ est fermé.
@@ -984,9 +984,9 @@ Soient E un espace de Banach complexe et $u$ un opérateur partiel fermé sur E.
 
 Soit U une composante connexe de PSp$_{\varepsilon}(u)$ qui ne rencontre pas Sp($u$). L’ensemble U est ouvert et fermé dans PSp$_{\varepsilon}(u)$, et son adhérence U dans $\mathbf{C}$ vérifie donc $U\cap$ PSp$_{\varepsilon}(u) = U$.
 
-Comme Sp($u$) est contenu dans PSp$_{\varepsilon}(u)$ et U ne rencontre pas Sp($u$), cette égalité démontre que l’ensemble U est disjoint de Sp($u$), donc contenu dans l’ensemble résolvant de $u$. De plus, elle implique que l’ensemble U - U ne rencontre pas PSp$_{\varepsilon}(u)$.
+Comme Sp($u$) est contenu dans PSp$_{\varepsilon}(u)$ et U ne rencontre pas Sp($u$), cette égalité démontre que l’ensemble U est disjoint de Sp($u$), donc contenu dans l’ensemble résolvant de $u$. De plus, elle implique que l’ensemble $\overline{U}-$ U ne rencontre pas PSp$_{\varepsilon}(u)$.
 
-On a donc $\|R(u, \lambda )\|\leqslant \varepsilon^{-1}$ pour tout $\lambda$ dans U - U, tandis que $\|R(u, \lambda )\|> \varepsilon^{-1}$ pour $\lambda \in U$. Si l’ensemble U est borné, son adhérence U est compacte et il existe $\lambda_0\in U$ tel que $\|R(u, \lambda )\|\leqslant \|R(u, \lambda_0)\|$ pour $\lambda \in U$. Ce qui précède implique que $\lambda_0\in U$, ce qui contredit le principe du maximum (VAR, R1, p. 29, 3.3.7) puisque la résolvante de $u$ est holomorphe dans l’ensemble résolvant de $u$ (prop. 14 de IV, p. 246).
+On a donc $\|R(u, \lambda )\|\leqslant \varepsilon^{-1}$ pour tout $\lambda$ dans $\overline{U}-$ U, tandis que $\|R(u, \lambda )\|> \varepsilon^{-1}$ pour $\lambda \in U$. Si l’ensemble U est borné, son adhérence $\overline{U}$ est compacte et il existe $\lambda_0\in \overline{U}$ tel que $\|R(u, \lambda )\|\leqslant \|R(u, \lambda_0)\|$ pour $\lambda \in U$. Ce qui précède implique que $\lambda_0\in U$, ce qui contredit le principe du maximum (VAR, R1, p. 29, 3.3.7) puisque la résolvante de $u$ est holomorphe dans l’ensemble résolvant de $u$ (prop. 14 de IV, p. 246).
 
 ### 9. Opérateurs de multiplication
 
@@ -1037,7 +1037,7 @@ Puisque le domaine de $m_g$ est dense dans $L^2(X, \mu)$, on en déduit que $(f 
 L’adjoint de $m_g$ est donc une extension de $m_{\overline{g}}$. De plus, on a
 
 $$
-\langle f|m_g(h)\rangle =\int_X\overline{f}\cdot (gh)d\mu=\int_Xf g h d\mu
+\langle f|m_g(h)\rangle =\int_X\overline{f}\cdot (gh)d\mu=\int_Xf\overline{g}h d\mu
 $$
 
 pour tout $f\in L^2(X, \mu)$ et $h\in$ dom($m_g$), ce qui démontre que la forme linéaire $h\mapsto  \langle f|m_g(h)\rangle$ est continue lorsque $m_{\overline{g}}(f)g$ appartient à $L^2(X, \mu)$. Par conséquent le domaine de $m_{\overline{g}}$ est contenu dans celui de $m^*_g$, ce qui conclut la preuve.

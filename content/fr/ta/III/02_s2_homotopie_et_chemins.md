@@ -53,7 +53,7 @@ subsections:
       pdf_page: 300
 statements: 63
 exercises: 14
-content_sha256: 9d4ba1caa78b6c3f91fdc814bb4e13612ac3be4bd5c29d0cb0bf80ad8f1cf93a
+content_sha256: 3ef0af66951a5e6fabfdd7fdaa881d9ea913be623c321526ba7633f6294678a1
 ---
 
 ## § 2. HOMOTOPIE ET CHEMINS
@@ -530,9 +530,9 @@ b) Soit $a'$ un point de X distinct de $a$, soit $U'$ une partie ouverte et ferm
 
 c) Il existe un point $b$ de U tel que X $-\{b\}$ soit connexe.
 
-Démontrons l’assertion a). Notons V le complémentaire de U dans X $-\{a\}$. Comme U est fermé dans X $-\{a\}$, V est ouvert dans X$-\{a\}$ et a fortiori dans X. On a donc $U\subset \overline{U}\subset X-V = U\cup \{a\}$. De même, U est une partie ouverte de X. Comme X est connexe, U n’est pas fermé dans X, d’où l’égalité $U = U\cup  \{a\}$. On a de même $V = V\cup  \{a\}$.
+Démontrons l’assertion a). Notons V le complémentaire de U dans X $-\{a\}$. Comme U est fermé dans X $-\{a\}$, V est ouvert dans X$-\{a\}$ et a fortiori dans X. On a donc $U\subset \overline{U}\subset X-V = U\cup \{a\}$. De même, U est une partie ouverte de X. Comme X est connexe, U n’est pas fermé dans X, d’où l’égalité $\overline{U}= U\cup  \{a\}$. On a de même $\overline{V}= V\cup  \{a\}$.
 
-Soient F et G des parties fermées disjointes de $\overline{U}$ telles que $U = F\cup G$. Supposons que $a\in G$ et démontrons que F est vide ; on raisonnerait de même si $a\in F$. L’ensemble $G\cup V = G\cup \overline{V}$ est une partie fermée de X, disjointe de F, et l’on a $X = U\cup V = F\cup (G\cup V)$. Comme X est connexe et que G n’est pas vide, F est vide. Cela démontre que $\overline{U}$ est connexe.
+Soient F et G des parties fermées disjointes de $\overline{U}$ telles que $U = F\cup G$. Supposons que $a\in G$ et démontrons que F est vide ; on raisonnerait de même si $a\in F$. L’ensemble $G\cup V = G\cup \overline{V}$ est une partie fermée de X, disjointe de F, et l’on a $X =\overline{U}\cup V = F\cup (G\cup V)$. Comme X est connexe et que G n’est pas vide, F est vide. Cela démontre que $\overline{U}$ est connexe.
 
 Démontrons b). Supposons que $a\notin U'$ et que $\overline{U}\cap \overline{U'}=\not\emptyset$. D’après l’assertion a), on a $U = U\cup  \{a\}$ et $\overline{U'}= U'\cup  \{a'\}$. Comme $a\notin U'$ et $a=\not a'$, les parties U et $\overline{U'}$ ont un point commun. Toujours d’après a), $\overline{U'}$ est une partie connexe de X ; comme elle est contenue dans X$-\{a\}$ et qu’elle en rencontre la partie ouverte et fermée U, on a $\overline{U'}\subset U$, ce qu’il fallait démontrer. La seconde assertion découle de la première en considérant les complémentaires dans X de $\overline{U}$ et $\overline{U'}$ respectivement.
 
@@ -544,7 +544,7 @@ L’ensemble des parties S de U telles que $\bigcap_{x\in S}\overline{U_x}=\not\
 
 Soit X un espace topologique compact connexe, soit N l’ensemble des points de X dont le complémentaire est connexe. L’ensemble X est l’unique partie connexe et compacte de X qui contient N.
 
-Soit S une partie connexe et compacte de X telle que $N\subset S$. Supposons que S $= X\not$ et soit $x\in X-S$. Par hypothèse, X $-\{x\}$ n’est pas connexe ; il existe donc des parties U et V ouvertes et fermées de X $-\{x\}$, disjointes et non vides, telles que X $-\{x\}= U\cup V$. On peut supposer que $S\subset V$. On a $U = U\cup \{x\}$ et $V = V\cup  \{x\}$ et ces espaces sont connexes (III, p. 278, prop. 17, a)). D’après l’assertion c) de cette proposition, il existe $y\in U$ tel que X $-\{y\}$ soit connexe, ce qui contredit les inclusions $N\subset S\subset V$.
+Soit S une partie connexe et compacte de X telle que $N\subset S$. Supposons que S $= X\not$ et soit $x\in X-S$. Par hypothèse, X $-\{x\}$ n’est pas connexe ; il existe donc des parties U et V ouvertes et fermées de X $-\{x\}$, disjointes et non vides, telles que X $-\{x\}= U\cup V$. On peut supposer que $S\subset V$. On a $\overline{U}= U\cup \{x\}$ et $V = V\cup  \{x\}$ et ces espaces sont connexes (III, p. 278, prop. 17, a)). D’après l’assertion c) de cette proposition, il existe $y\in U$ tel que X $-\{y\}$ soit connexe, ce qui contredit les inclusions $N\subset S\subset V$.
 
 #### Lemme 7 {#ta-iii-s2-lem-7 .statement tag=01Y2}
 

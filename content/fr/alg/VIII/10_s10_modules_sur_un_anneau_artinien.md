@@ -25,7 +25,7 @@ subsections:
       pdf_page: 177
 statements: 12
 exercises: 11
-content_sha256: 0b6cc831bac53550643bac155530ac8217b5490c9be459943d55f9f3647b3239
+content_sha256: e2b3b164506b4531da8be07f6800fcb63b389827ba2769c01b48b4ffd061c4f2
 ---
 
 ## § 10. MODULES SUR UN ANNEAU ARTINIEN
@@ -126,9 +126,9 @@ a) Le A-module $P = P/\mathfrak{r}P$est semi-simple et le A-module P est isomorp
 
 b) Soit $(Q_i)_{i\in I}$ une famille de sous-modules projectifs indécomposables de P dont P est la somme directe. Alors pour tout $\lambda \in \mathscr{S}$, le cardinal de l’ensemble $I(\lambda )$des $i\in I$tels que $Q_i$ soit isomorphe à $P_{\lambda}$ est égal à $[P :\lambda ]$.
 
-Le fait que P soit semi-simple résulte de la prop. 2 (VIII, p. 170). Le A-module $Q =\oplus_{\lambda\in\mathscr{S}}P^{([P:\lambda])}_{\lambda}$ est projectif, et comme $P_{\lambda}/\mathfrak{r}P_{\lambda}$ est isomorphe à $S_{\lambda}, Q/\mathfrak{r}Q$ est isomorphe à $\oplus_{\lambda\in\mathscr{S}}S^{([P:\lambda])}_{\lambda}$, c’est-à-dire à $P = P/\mathfrak{r}P$. D’après la prop. 5, les A-modules P et Q sont isomorphes.
+Le fait que $\overline{P}$ soit semi-simple résulte de la prop. 2 (VIII, p. 170). Le A-module $Q =\oplus_{\lambda\in\mathscr{S}}P^{([P:\lambda])}_{\lambda}$ est projectif, et comme $P_{\lambda}/\mathfrak{r}P_{\lambda}$ est isomorphe à $S_{\lambda}, Q/\mathfrak{r}Q$ est isomorphe à $\oplus_{\lambda\in\mathscr{S}}S^{([P:\lambda])}_{\lambda}$, c’est-à-dire à $\overline{P}= P/\mathfrak{r}P$. D’après la prop. 5, les A-modules P et Q sont isomorphes.
 
-Supposons donnée une famille $(Q_i)_{i\in I}$ de sous-modules projectifs et indécomposables, dont P soit somme directe. Pour tout $i\in I$, le A-module $Q_i/\mathfrak{r}Q_i$ est simple d’après la prop. 5. Pour $\lambda \in \mathscr{S}$, notons $I(\lambda )$ l’ensemble des $i\in I$ tels que $Q_i/\mathfrak{r}Q_i$ soit isomorphe à $S_{\lambda}$, donc à $P_{\lambda}/\mathfrak{r}P_{\lambda}$; c’est aussi l’ensemble des $i\in I$ tels que $Q_i$ soit isomorphe à $P_{\lambda}$. Comme $P = P/\mathfrak{r}P$ est somme directe de la famille $(Q_i/\mathfrak{r}Q_i)_{i\in I}$, on a Card(I($\lambda$ )) $= [P :\lambda ]$ d’après le th. 1 de VIII, p. 29.
+Supposons donnée une famille $(Q_i)_{i\in I}$ de sous-modules projectifs et indécomposables, dont P soit somme directe. Pour tout $i\in I$, le A-module $Q_i/\mathfrak{r}Q_i$ est simple d’après la prop. 5. Pour $\lambda \in \mathscr{S}$, notons $I(\lambda )$ l’ensemble des $i\in I$ tels que $Q_i/\mathfrak{r}Q_i$ soit isomorphe à $S_{\lambda}$, donc à $P_{\lambda}/\mathfrak{r}P_{\lambda}$; c’est aussi l’ensemble des $i\in I$ tels que $Q_i$ soit isomorphe à $P_{\lambda}$. Comme $\overline{P}= P/\mathfrak{r}P$ est somme directe de la famille $(Q_i/\mathfrak{r}Q_i)_{i\in I}$, on a Card(I($\lambda$ )) $= [P :\lambda ]$ d’après le th. 1 de VIII, p. 29.
 
 #### Exemple {#alg-viii-s10-n3-exa-1 .statement tag=00CG}
 

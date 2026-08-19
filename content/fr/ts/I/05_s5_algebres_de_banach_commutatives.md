@@ -21,7 +21,7 @@ subsections:
       pdf_page: 104
 statements: 16
 exercises: 7
-content_sha256: ce6925b8bc9e3b4a82d102a35b5207d907a1c2841672baeca2be57fea26008c3
+content_sha256: eadef7ad755ff416511232799d2fb26d51440ce4f2cff4761f5dc864dea0dc98
 ---
 
 ## § 5. ALGÈBRES DE BANACH COMMUTATIVES RÉGULIÈRES
@@ -112,7 +112,7 @@ Enfin, soit I un idéal de A tel que V(I) = F. Montrons que $J\subset I$. Soit $
 
 Soit A une algèbre de Banach commutative régulière sans radical. Soit J l’ensemble des $x\in A$ tels que $\mathscr{G}(x)$ soit à support compact. On suppose que J = A. Alors tout idéal fermé de A et distinct de A est contenu dans un idéal maximal régulier.
 
-Si I est un idéal fermé de A qui n’est contenu dans aucun idéal maximal régulier, alors $V(I) =\emptyset$, donc $I\supset J$ (prop. 4 appliquée à F = $\emptyset )$, d’où $I\supset J = A$.
+Si I est un idéal fermé de A qui n’est contenu dans aucun idéal maximal régulier, alors $V(I) =\emptyset$, donc $I\supset J$ (prop. 4 appliquée à F = $\emptyset )$, d’où $I\supset \overline{J}= A$.
 
 #### Corollaire 2 {#ts-i-s5-prop-4-cor-2 .statement tag=02C5}
 

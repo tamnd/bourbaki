@@ -6,24 +6,23 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 8 chapters, 90 sections, 878 exercises, 3281 extracted pages, 5252 tags, 4950 references, 1463 translated files, 44 solutions. Languages: en, en-mt, fr, vi.
+Audited: 8 chapters, 90 sections, 878 exercises, 3281 extracted pages, 5252 tags, 4950 references, 1465 translated files, 44 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
 | structure | 10 | 0 | 0 | none |
-| tags | 7 | 1 | 1 | T10 (139) |
+| tags | 7 | 1 | 1 | T10 (140) |
 | mathematics | 6 | 2 | 1 | M06 (1) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
-| translation | 11 | 3 | 1 | L06 (72), L08 (24), L15 (27) |
+| translation | 11 | 3 | 1 | L01 (1), L05 (1), L06 (74), L08 (27), L15 (29) |
 | solutions | 0 | 5 | 0 | X05 (6) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-0 hard findings and 269 soft, over 62 rules that ran and 3 that could not.
-Every hard rule passes.
+2 hard findings and 277 soft, over 62 rules that ran and 3 that could not.
 
 ## Rules that did not run
 
@@ -52,7 +51,7 @@ Soft, solutions.
 - `content/solutions/en/ens/III/s2/01.md:17` 181 characters of mathematics stand outside any math span, as ΓΣφ→⇔∀∈∉∏≠≤⊂⊃⋂⋃, so the solution was written in symbols rather than in TeX
 - `content/solutions/en/ens/IV/s1/01.md:53` 90 characters of mathematics stand outside any math span, as τϬϭϰϲ≠≤≥, so the solution was written in symbols rather than in TeX
 
-## T10 the tags of a file climb, as they did on the run that assigned them (139)
+## T10 the tags of a file climb, as they did on the run that assigned them (140)
 
 Soft, tags.
 
@@ -82,15 +81,29 @@ Soft, tags.
 - `content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md:371` has 03I9 after 03Q2, which the same run assigned later
 - `content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md:389` has 03IA after 03Q4, which the same run assigned later
 
-and 114 more, which `bourbaki audit -only T10` prints in full.
+and 115 more, which `bourbaki audit -only T10` prints in full.
 
-## L06 the glossary is followed (72)
+## L01 the math spans are the English ones, in order (1)
+
+Hard, translation.
+
+- `content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md:1` has 45 math spans and the English has 50
+
+## L05 source_content_sha256 is the English hash as it stands (1)
+
+Hard, translation.
+
+- `content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md:1` was translated from 62a239c325be and content/en/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md is now 07f9a0ede5f4, so it is stale
+
+## L06 the glossary is followed (74)
 
 Soft, translation.
 
-- `content/vi/alg/VIII/00_frontmatter.md:1` the English mentions 38 glossary terms and 2 are not in this file as the glossary writes them: module structure (cấu trúc môđun), l-algebra (đại số trên L)
+- `content/vi/alg/VIII/00_frontmatter.md:1` the English mentions 38 glossary terms and 2 are not in this file as the glossary writes them: l-algebra (đại số trên L), otherwise (nếu không)
 - `content/vi/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:1` the English mentions 203 glossary terms and 5 are not in this file as the glossary writes them: noninvertible element (phần tử không khả nghịch), monogenous left (đơn sinh trái), subsection (tiểu mục), additive (cộng tính), recall (nhắc lại)
 - `content/vi/alg/VIII/03_s3_simple_modules.md:1` the English mentions 157 glossary terms and 5 are not in this file as the glossary writes them: Modules over an Artinian Ring (Môđun trên một vành Artin), maximal left (tối đại trái), minimal (cực tiểu), ordered (có thứ tự), remark (chú ý)
+- `content/vi/alg/VIII/04_s4_semisimple_modules.md:1` the English mentions 222 glossary terms and 3 are not in this file as the glossary writes them: homomorphism defined (đồng cấu được xác định), diagram commute (sơ đồ giao hoán), mapping defined (ánh xạ được xác định)
+- `content/vi/alg/VIII/05_s5_commutation.md:1` the English mentions 220 glossary terms and 6 are not in this file as the glossary writes them: structure defined (cấu trúc được xác định), direct factor (nhân tử trực tiếp), additive (cộng tính), pairwise (từng đôi một), reduced (rút gọn), factor (nhân tử)
 - `content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md:1` the English mentions 58 glossary terms and 2 are not in this file as the glossary writes them: Hilbert’s Nullstellensatz (Định lý không điểm của Hilbert), set (tập hợp)
 - `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` the English mentions 67 glossary terms and 1 are not in this file as the glossary writes them: identified (đồng nhất)
 - `content/vi/ens/00_introduction.md:1` the English mentions 98 glossary terms and 6 are not in this file as the glossary writes them: analysis (giải tích), division (phép chia), nothing (không có gì), extent (ngoại diên), proved (đã chứng minh), weight (trọng số)
@@ -111,16 +124,17 @@ Soft, translation.
 - `content/vi/ens/II/exercises/s6/07.md:1` the English mentions 11 glossary terms and 1 are not in this file as the glossary writes them: correspondence (sự tương ứng)
 - `content/vi/ens/III/01_s1_order_relations_ordered_sets.md:1` the English mentions 160 glossary terms and 6 are not in this file as the glossary writes them: The set of natural integers (Tập hợp các số tự nhiên), unique minimal (duy nhất tối tiểu), necessary (cần thiết), addition (phép cộng), section (tiết diện), stated (đã phát biểu)
 - `content/vi/ens/III/02_s2_well_ordered_sets.md:1` the English mentions 117 glossary terms and 4 are not in this file as the glossary writes them: increasing mappings (các ánh xạ tăng), ordered subset (tập con sắp thứ tự), complete (đầy đủ), proved (đã chứng minh)
-- `content/vi/ens/III/03_s3_equipotent_sets_cardinals.md:1` the English mentions 98 glossary terms and 3 are not in this file as the glossary writes them: relation implies (quan hệ suy ra), possible (có thể), reason (lý do)
-- `content/vi/ens/III/04_s4_natural_integers_finite_sets.md:1` the English mentions 87 glossary terms and 6 are not in this file as the glossary writes them: empty set (tập rỗng), necessary (cần thiết), criteria (các tiêu chuẩn), similar (đồng dạng), proved (đã chứng minh), form (dạng)
 
-and 47 more, which `bourbaki audit -only L06` prints in full.
+and 49 more, which `bourbaki audit -only L06` prints in full.
 
-## L08 no translation was written by a small model (24)
+## L08 no translation was written by a small model (27)
 
 Soft, translation.
 
+- `content/vi/alg/VIII/00_frontmatter.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:1` was translated by hy3-free, gpt-5-6, nemotron-3-ultra-free, laguna-s-2.1-free, gpt-5-6-mini, which is a cut down model, so the section is worth doing again
+- `content/vi/alg/VIII/04_s4_semisimple_modules.md:1` was translated by hy3-free, nemotron-3-ultra-free, gpt-5-6-mini, nemotron-3.5-lightning-free, gpt-5-6, laguna-s-2.1-free, which is a cut down model, so the section is worth doing again
+- `content/vi/alg/VIII/05_s5_commutation.md:1` was translated by nemotron-3-ultra-free, hy3-free, nemotron-3.5-lightning-free, gpt-5-6, laguna-s-2.1-free, which is a cut down model, so the section is worth doing again
 - `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by nemotron-3-ultra-free, laguna-s-2.1-free, hy3-free, nemotron-3.5-lightning-free, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/01_s1_order_relations_ordered_sets.md:1` was translated by gpt-5-6-mini, gpt-5-6, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/04_s4_natural_integers_finite_sets.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
@@ -142,15 +156,17 @@ Soft, translation.
 - `content/vi/ens/III/exercises/s5/05.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s6/29.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/vi/ens/III/exercises/s6/30.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
-- `content/vi/lie/IX/exercises/s2/02.md:1` was translated by nemotron-3.5-lightning-free, which is a cut down model, so the section is worth doing again
-- `content/vi/lie/IX/exercises/s9/16.md:1` was translated by nemotron-3-ultra-free, nemotron-3.5-lightning-free, which is a cut down model, so the section is worth doing again
 
-## L15 no translation was written on the free gateway (27)
+and 2 more, which `bourbaki audit -only L08` prints in full.
+
+## L15 no translation was written on the free gateway (29)
 
 Soft, translation.
 
 - `content/vi/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md:1` was translated by hy3-free, gpt-5-6, nemotron-3-ultra-free, laguna-s-2.1-free, gpt-5-6-mini, which is a free gateway model, so the section is worth doing again
 - `content/vi/alg/VIII/03_s3_simple_modules.md:1` was translated by nemotron-3-ultra-free, hy3-free, gpt-5-6, laguna-s-2.1-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/alg/VIII/04_s4_semisimple_modules.md:1` was translated by hy3-free, nemotron-3-ultra-free, gpt-5-6-mini, nemotron-3.5-lightning-free, gpt-5-6, laguna-s-2.1-free, which is a free gateway model, so the section is worth doing again
+- `content/vi/alg/VIII/05_s5_commutation.md:1` was translated by nemotron-3-ultra-free, hy3-free, nemotron-3.5-lightning-free, gpt-5-6, laguna-s-2.1-free, which is a free gateway model, so the section is worth doing again
 - `content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md:1` was translated by nemotron-3-ultra-free, laguna-s-2.1-free, hy3-free, nemotron-3.5-lightning-free, which is a free gateway model, so the section is worth doing again
 - `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` was translated by gpt-5-6, gpt-5.4, nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
 - `content/vi/ens/IV/historical_note.md:1` was translated by gpt-5.4, gpt-5-6, laguna-s-2.1-free, hy3-free, nemotron-3-ultra-free, which is a free gateway model, so the section is worth doing again
@@ -172,7 +188,5 @@ Soft, translation.
 - `content/vi/lie/VIII/exercises/s13/02.md:1` was translated by hy3-free, which is a free gateway model, so the section is worth doing again
 - `content/vi/lie/VIII/exercises/s13/03.md:1` was translated by laguna-s-2.1-free, which is a free gateway model, so the section is worth doing again
 - `content/vi/lie/VIII/exercises/s13/06.md:1` was translated by laguna-s-2.1-free, which is a free gateway model, so the section is worth doing again
-- `content/vi/lie/VIII/exercises/s13/07.md:1` was translated by hy3-free, which is a free gateway model, so the section is worth doing again
-- `content/vi/lie/VIII/exercises/s9/13.md:1` was translated by hy3-free, which is a free gateway model, so the section is worth doing again
 
-and 2 more, which `bourbaki audit -only L15` prints in full.
+and 4 more, which `bourbaki audit -only L15` prints in full.

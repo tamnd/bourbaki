@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: 6241c793b83b1bc75c1fcde6d896cd64c254feadb9672a352887651a52acaced
+content_sha256: 9fd85e2696dc2f2c5ac2a1d669eefa783232191206c2a25ed0a605e7d82e53b6
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -298,7 +298,7 @@ $$
 (u-\lambda 1_E)\circ W(u)^{1/2}=b(u)-\lambda (1_E-b(u)^*b(u))^{1/2}=f_{\lambda}(b(u))
 $$
 
-où $f_{\lambda}$ est la fonction continue définie sur D par $z\mapsto z-\lambda (1- |z|^2)^{1/2}$. L’endomorphisme $f_{\lambda}(b(u))$ est bijectif si et seulement si son spectre ne contient pas 0. Comme Sp($f_{\lambda}(b(u))$) $=f_{\lambda}$(Sp($b(u)$)) (cor. 2 de la prop. 7 de I, p. 111), c’est le cas si et seulement si 0 n’appartient pas à l’ensemble $f_{\lambda}$(Sp($b(u)$)). Ainsi, $\lambda \in$ Sp($u$) si et seulement s’il existe $z\in$ Sp($b(u)$)$\cap D$ tel que
+où $f_{\lambda}$ est la fonction continue définie sur $\overline{D}$ par $z\mapsto z-\lambda (1- |z|^2)^{1/2}$. L’endomorphisme $f_{\lambda}(b(u))$ est bijectif si et seulement si son spectre ne contient pas 0. Comme Sp($f_{\lambda}(b(u))$) $=f_{\lambda}$(Sp($b(u)$)) (cor. 2 de la prop. 7 de I, p. 111), c’est le cas si et seulement si 0 n’appartient pas à l’ensemble $f_{\lambda}$(Sp($b(u)$)). Ainsi, $\lambda \in$ Sp($u$) si et seulement s’il existe $z\in$ Sp($b(u)$)$\cap D$ tel que
 
 $$
 z-\lambda (1- |z|^2)^{1/2}= 0

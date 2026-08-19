@@ -33,7 +33,7 @@ subsections:
       pdf_page: 162
 statements: 49
 exercises: 31
-content_sha256: 7b70111e50630a2123a75689c16aac36f8d9ffcf0bb5bbf2535b5699d6a293a1
+content_sha256: 9e7b98acfc7c7efccbdf4fb3af3f48e0bd687a192830f61cf91abf562645503d
 ---
 
 ## § 9. RADICAL
@@ -290,7 +290,7 @@ Soit $a$ un représentant quelconque de $\overline{e}$ dans A. L’élément $a-
 
 Soient M et P des A-modules et $u$ une application A-linéaire surjective de P dans M. On suppose que P est projectif et qu’il existe un idéal bilatère nilpotent $\mathfrak{a}$ de A tel que le noyau N de $u$ soit contenu dans $\mathfrak{a}P$. Soient $M'$ et $M''$ des sous-modules de M, tels que M soit somme directe de $M'$ et $M''$. Alors P est somme directe de sous-modules $P'$ et $P''$ tels que $u(P') = M'$ et $u(P'') = M''$.
 
-Notons B le sous-anneau de End$_A(P)$ formé des endomorphismes $f$ de P tels que $f(N)\subset N$. Soit B l’anneau des endomorphismes de M. Pour tout $f\in B$, notons $\overline{f}$ l’unique endomorphisme de M tel que $\overline{f}\circ u=u\circ f$. L’application $f\rightarrow \overline{f}$ est un homomorphisme d’anneaux de B dans B. Comme le module P est projectif, cet homomorphisme est surjectif ; son noyau $\mathfrak{b}$ se compose des endomorphismes $f\in B$ tels que $f(P)\subset N$. Soit $n$ un entier positif tel que $\mathfrak{a}^n= 0$. On a
+Notons B le sous-anneau de End$_A(P)$ formé des endomorphismes $f$ de P tels que $f(N)\subset N$. Soit $\overline{B}$ l’anneau des endomorphismes de M. Pour tout $f\in B$, notons $\overline{f}$ l’unique endomorphisme de M tel que $\overline{f}\circ u=u\circ f$. L’application $f\rightarrow \overline{f}$ est un homomorphisme d’anneaux de B dans B. Comme le module P est projectif, cet homomorphisme est surjectif ; son noyau $\mathfrak{b}$ se compose des endomorphismes $f\in B$ tels que $f(P)\subset N$. Soit $n$ un entier positif tel que $\mathfrak{a}^n= 0$. On a
 
 $$
 P =\mathfrak{a}^0P\supset \mathfrak{a}^1P\supset  \cdots  \supset \mathfrak{a}^{n-1}P\supset \mathfrak{a}^nP = 0
@@ -316,7 +316,7 @@ l’égalité $u(P'') = M''$ se démontre de manière analogue.
 
 Soit A un anneau et soit $\mathfrak{a}$ un idéal bilatère nilpotent de A. Si P est un A-module projectif, alors $P/\mathfrak{a}P$est un module projectif sur $A/\mathfrak{a}$ et pour que le A-module P soit indécomposable il faut et il suffit que le $A/\mathfrak{a}$-module $P/\mathfrak{a}P$le soit.
 
-Soit P un A-module projectif et soit P le $A/\mathfrak{a}$-module $P/\mathfrak{a}P$. Le A-module P est nul si et seulement si P l’est (th. 2 de VIII, p. 154). On suppose maintenant $P\not= 0$. Comme le $A/\mathfrak{a}$-module P est isomorphe à $A\otimes_AP$, il est projectif (II, p. 84, cor.). Si P est indécomposable, il en est de même de P d’après le cor. 1. Inversement, supposons que P soit décomposable et non nul, et soient $P'$ et $P''$ deux sous-modules non nuls de P tels que $P = P'\oplus P''$. D’après le lemme de Nakayama (VIII, p. 154, th. 2), on a $P'+\mathfrak{a}P\not= P$ et $P''+\mathfrak{a}P\not= P$; si $P'$ et $P''$ sont les images canoniques de $P'$ et $P''$ dans P, on a $P'\not= P, P''\not= P$ et $P = P'\oplus \overline{P}''$. Cela prouve que P est décomposable.
+Soit P un A-module projectif et soit $\overline{P}$ le $A/\mathfrak{a}$-module $P/\mathfrak{a}P$. Le A-module P est nul si et seulement si $\overline{P}$ l’est (th. 2 de VIII, p. 154). On suppose maintenant $P\not= 0$. Comme le $A/\mathfrak{a}$-module P est isomorphe à $\overline{A}\otimes_AP$, il est projectif (II, p. 84, cor.). Si P est indécomposable, il en est de même de $\overline{P}$ d’après le cor. 1. Inversement, supposons que P soit décomposable et non nul, et soient $P'$ et $P''$ deux sous-modules non nuls de P tels que $P = P'\oplus P''$. D’après le lemme de Nakayama (VIII, p. 154, th. 2), on a $P'+\mathfrak{a}P\not= P$ et $P''+\mathfrak{a}P\not= P$; si $P'$ et $\overline{P}''$ sont les images canoniques de $P'$ et $P''$ dans P, on a $P'\not= P,\overline{P}''\not= P$ et $P = P'\oplus \overline{P}''$. Cela prouve que $\overline{P}$ est décomposable.
 
 ### 5. Couverture projective d’un module
 

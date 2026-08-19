@@ -34,7 +34,7 @@ subsections:
       pdf_page: 384
 statements: 16
 exercises: 8
-content_sha256: e462828d9a85c93f7bfc78fa6d399b2c0761d2f0d9ee389ce0b88c442e6f5a54
+content_sha256: 553fc76112f8cdd33b8c2aeedb7c0013e2a2ca7e5c68f3674c8d5a480b4bb84e
 ---
 
 ## § 19. QUATERNION ALGEBRAS
@@ -60,7 +60,7 @@ Recall that the Cayley trace and norm of F are the mappings $T_F$ and $N_F$ from
 The linear subspace E of F with basis $(1, i)$ is a commutative Cayley subalgebra of F; it is a quadratic algebra of type $(\alpha , \beta )$, and F can be identified with the Cayley extension of E defined by $\gamma$ (III, §2, No. 5, p. 444). For every $z\in E$, we have $zj=jz$. Every element $q$ of F can be written uniquely as $x+jy$ with $x, y\in E$, and we have
 
 $$
-\overline{q}=\overline{x}-jy ,T_F(q) =x+x ,N_F(q) =xx-\gamma yy \tag{3}
+\overline{q}=\overline{x}-jy ,T_F(q) =x+\overline{x},N_F(q) =xx-\gamma yy \tag{3}
 $$
 
 #### Proposition 1 {#alg-viii-s19-prop-1 .statement tag=00LQ}

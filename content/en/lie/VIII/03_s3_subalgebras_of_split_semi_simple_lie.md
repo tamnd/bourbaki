@@ -33,7 +33,7 @@ subsections:
       pdf_page: 102
 statements: 28
 exercises: 14
-content_sha256: 81e6407d59f55c8f629ae6f7e8cd2ff17e6c5dc4b3a709e929bd6191182e2999
+content_sha256: 7c2235583c8cac5c39d9d1d6359e560a827b1518ea0083580f28925cbc7c3aa4
 ---
 
 ## § 3. SUBALGEBRAS OF SPLIT SEMI-SIMPLE LIE ALGEBRAS
@@ -384,7 +384,7 @@ $$
 
 so P(F) = P.
 
-$b)$ Let $F\in \mathscr{F}$. It is clear that $P(F)\in \mathscr{P}$. On the other hand, F is contained in the closure of a chamber relative to $\mathscr{H}$ (Chap. V, §1, no. 3, formulas (6)), and so is a facet relative to the set of walls of this chamber (Chap. V, §1, no. 4, Prop. 9). Consequently, F is of the form $\{v\in V|\alpha (v)\geq 0$ for all $\alpha \in T\}$, where T is a subset of S which we can clearly take to be equal to P(F). Thus, F = F(P(F)). Q.E.D.
+$b)$ Let $F\in \mathscr{F}$. It is clear that $P(F)\in \mathscr{P}$. On the other hand, F is contained in the closure of a chamber relative to $\mathscr{H}$ (Chap. V, §1, no. 3, formulas (6)), and so is a facet relative to the set of walls of this chamber (Chap. V, §1, no. 4, Prop. 9). Consequently, $\overline{F}$ is of the form $\{v\in V|\alpha (v)\geq 0$ for all $\alpha \in T\}$, where T is a subset of S which we can clearly take to be equal to P(F). Thus, $\overline{F}= F(P(F))$. Q.E.D.
 
 If $P\in \mathscr{P}$, the facet F such that P = P(F) is said to be associated to P; we denote it by F(P). We extend these conventions to the case in which $(\mathfrak{g},\mathfrak{h})$ is split reductive.
 

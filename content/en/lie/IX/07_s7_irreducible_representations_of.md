@@ -37,14 +37,14 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: 95629088a438315d1269756152ccc180973d25a89a681e51cce3e91f64ad98d4
+content_sha256: 16a2ad17a1131cc193ddff872386958e5e59e22e1983db2bc36c53395fb7d832
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
 
 We retain the notations of §6. A representation of G is a continuous (hence analytic) homomorphism from G to a group $\mathbf{G}\mathbf{L}(V)$, where V is a finite dimensional complex vector space. Every representation of G is semi-simple (§1, no. 1).
 
-Choose a chamber C of $\mathfrak{t}($§5, no. 2), and put $\Gamma (T)_{++}= C\cap \Gamma (T)$.
+Choose a chamber C of $\mathfrak{t}($§5, no. 2), and put $\Gamma (T)_{++}=\overline{C}\cap \Gamma (T)$.
 
 ### 1. DOMINANT CHARACTERS
 
@@ -212,7 +212,7 @@ For every element $u=\sum_{\lambda}a_{\lambda}e^{\lambda}$ of $\mathbf{Z}[X(T)]$
 
 For each $\lambda \in X_{++}$, let $C_{\lambda}$ be an element of $\mathbf{Z}[X(T)]^W$ having unique maximal term $e^{\lambda}$. Then the family $(C_{\lambda})_{\lambda\in X_{++}}$ is a basis of $\mathbf{Z}[X(T)]^W$.
 
-The proof is identical to that of Prop. 3 of Chap. VI, §3, no. 4, replacing A by $\mathbf{Z}, P$ by X(T) and $P\cap C$ by $X_{++}$.
+The proof is identical to that of Prop. 3 of Chap. VI, §3, no. 4, replacing A by $\mathbf{Z}, P$ by X(T) and $P\cap \overline{C}$ by $X_{++}$.
 
 Let $\Theta (G)$ (resp. $\Theta (T))$ be the $\mathbf{C}$-algebra of continuous representative functions on G (resp. T), and let $Z\Theta (G)$ (resp. $\Theta (T)^W)$ be the subalgebra consisting of the central (resp. W-invariant) functions. The restriction map $\Theta (G)\rightarrow \Theta (T)$ induces a homomorphism of rings $r: Z\Theta (G)\rightarrow \Theta (T)^W$. On the other hand, the map that associates to a representation $\tau$ its character (that is, the function $g \rightarrow$ Tr $\tau (g))$ extends to a homomorphism of $\mathbf{C}$-algebras Tr$:\mathbf{C}\otimes_{\mathbf{Z}}R(G)\rightarrow Z\Theta (G)$ which, by Spectral Theories, is an isomorphism. Similarly, the canonical injection $X(T)\rightarrow \Theta (T)$ induces an isomorphism of $\mathbf{C}$-algebras $\iota :\mathbf{C}[X(T)]\rightarrow \Theta$(T), which induces an isomorphism $\iota :\mathbf{C}[X(T)]^W\rightarrow \Theta (T)^W$. The diagram
 
