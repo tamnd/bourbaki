@@ -653,6 +653,8 @@ books:
       text_layer: ocr
       page_width_pt: 493.228
       page_height_pt: 680.315
+      grammar: head-number
+      pagination: continuous
     - id: ac-i-vii
       book: ac
       lang: en
