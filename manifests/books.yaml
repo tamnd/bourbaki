@@ -750,6 +750,8 @@ books:
       text_layer: ocr
       page_width_pt: 439.37
       page_height_pt: 666.142
+      grammar: head-number
+      pagination: continuous
     - id: ac-viii-ix-fr
       book: ac
       lang: fr
