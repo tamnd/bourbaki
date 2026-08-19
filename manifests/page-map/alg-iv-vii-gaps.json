@@ -2,6 +2,7 @@
   "book": "alg-iv-vii",
   "grammar": "head-label",
   "pagination": "per-chapter",
+  "prefix": "A",
   "pdf_pages": 460,
   "body_pages": 434,
   "front_matter_pages": 26,

@@ -2,6 +2,7 @@
   "book": "int-i-vi",
   "grammar": "head-label",
   "pagination": "per-chapter",
+  "prefix": "INT",
   "pdf_pages": 487,
   "body_pages": 449,
   "front_matter_pages": 38,

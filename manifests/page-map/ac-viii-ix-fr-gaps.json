@@ -2,6 +2,7 @@
   "book": "ac-viii-ix-fr",
   "grammar": "head-label",
   "pagination": "per-chapter",
+  "prefix": "AC",
   "pdf_pages": 204,
   "body_pages": 193,
   "front_matter_pages": 11,
