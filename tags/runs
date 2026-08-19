@@ -4,24 +4,44 @@
 # out for that reading. T10 reads a file's tags against the run that
 # assigned them.
 #
-# A reading and a merge are not the same thing. The eight boundaries read
-# back off the history of tags/tags are the eight merges, and five of those
-# merges carried more than one reading: a volume assigned from the top,
-# then gone over again for what the first pass left. The extra lines are
-# where a reading came around again, which is the point at which at least
-# three files each took a tag above one they were already carrying. One or
-# two statements out of order is not a reading and is left where T10 will
-# report it.
+# A reading and a merge are not the same thing. Eight of the lines below
+# are the eight merges read back off the history of tags/tags, and most of
+# those merges carried more than one reading: a volume assigned from the
+# top, then gone over again for what the first pass left. The rest of the
+# lines are where a reading came around again, and they were found by
+# putting every tag at the place its statement sits in the printing and
+# looking for where the allocator went backwards across files and then
+# climbed again from where it landed. A run that really is one reading has
+# no such jump: the 966 tags of Algebra VIII, the 2404 of Theories
+# spectrales and Topologie algebrique and the 203 of the Topologie
+# algebrique exercises all go forwards from their first tag to their last.
+#
+# Where a reading plainly began before the merge that carried it, the
+# boundary is written at the tag the reading began at and not at the merge,
+# because what this file records is readings. 00RW, 00SE, 01KL and 03P0 are
+# the four that moved, by one tag, two, five and six.
+#
+# One or two statements out of order is not a reading. Those are left where
+# T10 will report them, which is the thing T10 is for.
 0001,2026-08-11,the English of Algebra chapter VIII
 00QV,2026-08-11,the 57 statements the reference graph found missing
-00RX,2026-08-11,a second pass over those statements
-00SG,2026-08-12,the French printing of Algebra chapter VIII
+00RW,2026-08-11,a second pass over those statements
+00SE,2026-08-12,the French printing of Algebra chapter VIII
 00SJ,2026-08-14,Lie Groups and Lie Algebras chapters 7 to 9
 01IY,2026-08-14,Lie chapters 7 to 9 gone over again
-01KQ,2026-08-14,a third pass over Lie chapters 7 and 8
+01JK,2026-08-14,the exercises of Lie chapters 7 and 8
+01JS,2026-08-14,more of those exercises and the statements they lean on
+01KA,2026-08-14,the exercises of Lie chapter 7 sections 2 and 5 and of chapter 8
+01KL,2026-08-14,a third pass over Lie chapters 7 and 8
+01L4,2026-08-14,what the third pass over Lie chapter 8 left
 01L9,2026-08-14,Theories spectrales and Topologie algebrique
 03G1,2026-08-16,Theory of Sets chapters I to III and the contents
-03P6,2026-08-16,Theory of Sets read from the top a second time
+03P0,2026-08-16,Theory of Sets read from the top a second time
 03RY,2026-08-16,a third pass over Theory of Sets
+03TO,2026-08-16,a fourth pass over the examples of Theory of Sets I to III
+03TZ,2026-08-16,the exercises of Theory of Sets chapters II and III
+03UW,2026-08-16,the rest of the exercises of chapter II section 3
+03V1,2026-08-16,the examples of chapter II section 3 those exercises point at
 03V4,2026-08-16,Theory of Sets chapter IV and the references it makes
+03WB,2026-08-16,the examples of chapter III section 1 number 4
 03WE,2026-08-18,the exercises of Topologie algebrique I to IV
