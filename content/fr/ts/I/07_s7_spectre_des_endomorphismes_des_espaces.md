@@ -45,7 +45,7 @@ subsections:
       pdf_page: 152
 statements: 24
 exercises: 16
-content_sha256: 6c94380b983aa365202602c41da7229513eb3dd3476e4372ff9d314558ebef36
+content_sha256: 6842160d700ea60a9ee97196d28a9b301aa5f12374dcbd2b5e73e6e767ae8e16
 ---
 
 ## § 7. SPECTRE DES ENDOMORPHISMES DES ESPACES DE BANACH
@@ -408,7 +408,7 @@ Cela démontre que Ker($u$) $=$ Ker($|u|$) et $\||u|\|=\|u\|$. Comme $|u|$ est h
 
 La formule (2) implique qu’il existe une application isométrique $v$ de Im($|u|$) sur Im($u$) telle que $v(|u|(x)) =u(x)$ pour tout $x\in E_1$. Soit $j$ l’unique élément de $\mathscr{L}(E_1; E_2)$ qui prolonge $v$ et s’annule dans Im($|u|$)$^{\circ}=$ Ker($|u|$) $=$ Ker($u$). Alors $j$ possède les propriétés de b). L’unicité de $j$ découle de la décomposition E = Ker($u$)$\oplus$ Im($|u|$).
 
-de Le sous-espace initial de$u$. Son sous-espace final est$j$ est$j$(Ker(Ker($ju$))$^{\circ\circ}) =$= Ker($j$(Im($u$)$\overset{\circ}{|}u$, l’espace initial$|)) =$ Im($u$), le sous-espace final de $u$. Cela démontre c).
+Le sous-espace initial de $j$ est Ker($j$)$^{\circ}=$ Ker($u$)$^{\circ}$, l’espace initial de $u$. Son sous-espace final est $j$(Ker($u$)$^{\circ}) =j$(Im($|u|$)) $=$ Im($u$), le sous-espace final de $u$. Cela démontre c).
 
 Soient maintenant $u_1$ et $j_1$ comme dans d). On a $u^*u=u_1j_1^*j_1u_1$. L’application $j_1^*j_1$ est l’orthoprojecteur de noyau Ker($j_1$) $=$ Ker($u_1$) (EVT, V, p. 41, prop. 5 (ii)) et donc d’image Im($u_1$). Donc $u^*u=u^2_1$ et par suite $u_1= (u^*u)^{1/2}=|u|($I, p. 118, prop. 16). L’assertion d’unicité de b) implique finalement que $j_1=j$.
 
@@ -424,9 +424,9 @@ a) On a $|u|=j^*u=u^*j$;
 
 b) On a $|u^*|=ju^*=uj^*$;
 
-Notonsc) La décomposition polaire deI = Ker($u$)$^{\circ}$ et F = Im($u\overset{*}{u}$) estle sous-espace initial et le sous-$(j^*,|u^*|)$.
+c) La décomposition polaire de $u^*$ est $(j^*,|u^*|)$.
 
-espace final de $u$; on a de plus I = Ker($|u|$)$^{\circ}=$ Im($|u|$) (prop. 10, a)). L’application $j^*j$ est l’orthoprojecteur de $E_1$ sur I (loc. cit. et EVT, V, p. 41, prop. 5 (ii)). On a donc $j^*u=j^*j|u|=|u|$, puis $u^*j= (j^*u)^*=|u|^*=|u|$, d’où a).
+Notons I = Ker($u$)$^{\circ}$ et F = Im($u$) le sous-espace initial et le sous-espace final de $u$; on a de plus I = Ker($|u|$)$^{\circ}=$ Im($|u|$) (prop. 10, a)). L’application $j^*j$ est l’orthoprojecteur de $E_1$ sur I (loc. cit. et EVT, V, p. 41, prop. 5 (ii)). On a donc $j^*u=j^*j|u|=|u|$, puis $u^*j= (j^*u)^*=|u|^*=|u|$, d’où a).
 
 Similairement, on calcule $u^*$ = $|u|j^*= (j^*j|u|)j^*$ = $j^*(j|u|j^*)$. L’endomorphisme $j|u|j^*$ de $E_2$ est positif. L’application linéaire $j^*$ est partiellement isométrique d’espace initial F et d’espace final I (EVT, V, p. 41, prop. 5) et les applications linéaires de I dans F (resp. de F dans I) déduites de $j$ et $j^*$ par passages aux sous-espaces sont des isomorphismes réciproques l’un de l’autre (loc. cit.). On a donc Ker($j|u|j^*$) $=$ Ker($|u|j^*$) $=$ Ker($j^*$), puisque l’image de $j^*$ est contenue dans Ker($u$)$^{\circ}=$ Ker($|u|$)$^{\circ}$. D’après la prop. 10, d), le couple $(j^*, j|u|j^*)$ est la décomposition polaire de $u^*$. Cela prouve c) et l’assertion b) se déduit alors de l’assertion a) appliquée à $u^*$.
 

@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: 4dc9b2f2c0eaa4190e22973be9ef5f06a8a817602591608387e29593c92a7208
+content_sha256: eaf35b3a8959cc79a7915ddf3417258ff37589eb1a9723b1cf90403bef7f846a
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -436,7 +436,7 @@ Cela résulte de la commutativité des diagrammes
 
 ${G'}^{\delta}$ // $G'\times G'F\times F^m$ // F
 
-$_uu_{\times u}$ et $v_{\times v}v$
+$_uu_{\times u}$ et $v^{\times}_vv$
 
 G $^{\delta}$ // $G\times GF'\times {F'}^m$ // $F'$.
 

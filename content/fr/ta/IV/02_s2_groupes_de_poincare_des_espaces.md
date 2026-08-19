@@ -37,7 +37,7 @@ subsections:
       pdf_page: 381
 statements: 30
 exercises: 5
-content_sha256: 3bd33f38b62f7baa38c2846d60c27ba7f5fb275bc5e02ad5dd08e388ea1e8ac6
+content_sha256: 89ac0cd4bde1a7c257a71e5106f9264dd7fec62a4ce45c60a22966cb87b2c498
 ---
 
 ## § 2. GROUPES DE POINCARÉ DES ESPACES DÉLAÇABLES
@@ -134,9 +134,7 @@ tout voisinage $W'$ de $y$ tel que $\overset{-1}{f}(W')$ soit connexe, $\overset
 
 pas vide, donc $\overset{-1}{f}(W\cup W')$ est connexe (TG, I, p. 81, prop. 2). Par
 
-hypothèse,a fortiori, $W\overset{-1}{f_{'}}(W\cap f\cup (U)W'=\not)$ rencontre$\emptyset$. Cela démontre queU ; on a donc $y\overset{-1}{f}\in (W\overline{f(U)}\cup W$; par suite,$')\subset U$ et,
-
-$V =\overline{f(U)}$. En particulier, l’ensemble $\overline{f(U)}$ est ouvert et fermé dans Y ; la prop. 1 (TG, I, p. 81) entraîne en outre qu’il est connexe.
+hypothèse, $\overset{-1}{f}(W\cup W')$ rencontre U ; on a donc $\overset{-1}{f}(W\cup W')\subset U$ et, a fortiori, $W'\cap f(U)=\not\emptyset$. Cela démontre que $y\in \overline{f(U)}$; par suite, $V =\overline{f(U)}$. En particulier, l’ensemble $\overline{f(U)}$ est ouvert et fermé dans Y ; la prop. 1 (TG, I, p. 81) entraîne en outre qu’il est connexe.
 
 Les arguments qui précèdent montrent de plus que $\overset{-1}{f}(f(U))\subset U$,
 

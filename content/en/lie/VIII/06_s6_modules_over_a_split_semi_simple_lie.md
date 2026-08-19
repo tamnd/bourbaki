@@ -29,7 +29,7 @@ subsections:
       pdf_page: 130
 statements: 17
 exercises: 5
-content_sha256: 187b7a8abc60c9fa14af8686fd1baf954bbe2c9aa4fccac08e94cd853bfb04a4
+content_sha256: 9d01ee12e06683b677b953b49bbabc2b32e3598644e099da37086907aca31d67
 ---
 
 ## § 6. MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -367,7 +367,7 @@ We recall the notations of §2, no. 3, Prop. 6. We have
 C = $\sum X_{\alpha}X_{-\alpha}+\sum X_{-\alpha}X_{\alpha}$
 
 $$
-_{\alpha\in R_-}\overline{\langle X_{\alpha}, X_{-\alpha}\rangle}\alpha_{\in R_+}\overline{\langle X_{\alpha}, X_{-\alpha}\rangle}
+_{\alpha\in R_-}\overline{\langle X_{\alpha}, X_{-\alpha}\rangle}\alpha^{\in}_{R_+}\overline{\langle X_{\alpha}, X_{-\alpha}\rangle}
 $$
 
 1 $'$

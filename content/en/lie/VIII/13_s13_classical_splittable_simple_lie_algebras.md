@@ -29,7 +29,7 @@ subsections:
       pdf_page: 219
 statements: 2
 exercises: 19
-content_sha256: fdba73027753c5fdc9c7bb4777193f451cf8731935b2711e24f79a9bb5854508
+content_sha256: 31bd07e8daf501a5eddba8250a8e39d1ebdb6f86fadf72ba8b019244ddeaa8ae
 ---
 
 ## § 13. CLASSICAL SPLITTABLE SIMPLE LIE ALGEBRAS
@@ -540,7 +540,7 @@ $$
 
 $\rho (H)(e\wedge  \cdots  \wedge e) =\{-\frac{1}{2}e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}$ if $i\in  \{i_1, . . . , i_k\}$
 
-$^{i-i_1}-^{i_k}\frac{1}{2}e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}$ if $i /\in  \{i_1, . . . i_k\}$
+$^{i-i_1}-_{i_k}\frac{1}{2}e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}$ if $i /\in  \{i_1, . . . i_k\}$
 
 and for $h\in \mathfrak{h}$
 

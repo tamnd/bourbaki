@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: 1737c91ad3292e5b1e69204876048b7581a14798cea443ff494a3fab37582ff5
+content_sha256: cb3fc02554a90c5f8a7824cac5deeb0ff4f611ae760c60e1b3537660a86fc920
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -381,7 +381,7 @@ The associativity of the law follows from the commutativity of the diagrams
 
 G $^{\delta}$ // $G\times GF\times F\times F^{m\times Id}/$/ $F\times F$
 
-$_{\delta}$ Id$_{\times\delta}$ and Id$_{\times m}m$
+$_{\delta}$ Id$^{\times}_{\delta}$ and Id$^{\times}_mm$
 
 $G\times G^{\delta\times Id}/$/ $G\times G\times GF\times F^m$ // F
 

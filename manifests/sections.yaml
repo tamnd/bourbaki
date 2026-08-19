@@ -223,7 +223,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: 1737c91ad3292e5b1e69204876048b7581a14798cea443ff494a3fab37582ff5
+              content_sha256: cb3fc02554a90c5f8a7824cac5deeb0ff4f611ae760c60e1b3537660a86fc920
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -575,7 +575,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native
-              content_sha256: 4dc9b2f2c0eaa4190e22973be9ef5f06a8a817602591608387e29593c92a7208
+              content_sha256: eaf35b3a8959cc79a7915ddf3417258ff37589eb1a9723b1cf90403bef7f846a
             - kind: section
               section: 17
               title: Normes et traces réduites
@@ -809,7 +809,7 @@ books:
               statements: 3
               exercises: 2
               extraction: native
-              content_sha256: af9046f3433eaaa4bff5666d9713248802de535a8795dc6232801b2739b75e37
+              content_sha256: 6815acf2afc501a143a6b3e3cf8be4ea737f53892b4f2aaf449f276606a30fa7
         - chapter: VIII
           title: SPLIT SEMI-SIMPLE LIE ALGEBRAS
           sections:
@@ -900,7 +900,7 @@ books:
               statements: 17
               exercises: 5
               extraction: native
-              content_sha256: 187b7a8abc60c9fa14af8686fd1baf954bbe2c9aa4fccac08e94cd853bfb04a4
+              content_sha256: 9d01ee12e06683b677b953b49bbabc2b32e3598644e099da37086907aca31d67
             - kind: section
               section: 7
               title: Finite dimensional modules over a split semi-simple Lie algebra
@@ -991,7 +991,7 @@ books:
               statements: 2
               exercises: 19
               extraction: native+ocr
-              content_sha256: fdba73027753c5fdc9c7bb4777193f451cf8731935b2711e24f79a9bb5854508
+              content_sha256: 31bd07e8daf501a5eddba8250a8e39d1ebdb6f86fadf72ba8b019244ddeaa8ae
         - chapter: IX
           title: COMPACT REAL LIE GROUPS
           sections:
@@ -1056,7 +1056,7 @@ books:
               statements: 60
               exercises: 22
               extraction: native+ocr
-              content_sha256: f46ae132ea6adfb5bdd03153912e687467cd98797c5422fad78954edb0a6c3b8
+              content_sha256: 80c064f1ebbaaa142217ad6b39ece3af7a110a2a912f4b88969aba236a4b2c84
             - kind: section
               section: 5
               title: Conjugacy classes
@@ -1176,7 +1176,7 @@ books:
               statements: 44
               exercises: 2
               extraction: native
-              content_sha256: 9369a1be57079860cd666452e762fce3732ab1a103d0fb2c62cfa0bc33588550
+              content_sha256: e425dea4e2ea63d8faa1a5ae64137218cdc4c8e9ab91d243b60ea3025eed2a50
             - kind: section
               section: 2
               title: Applications étales
@@ -1439,7 +1439,7 @@ books:
               statements: 30
               exercises: 5
               extraction: native
-              content_sha256: 3bd33f38b62f7baa38c2846d60c27ba7f5fb275bc5e02ad5dd08e388ea1e8ac6
+              content_sha256: 89ac0cd4bde1a7c257a71e5106f9264dd7fec62a4ce45c60a22966cb87b2c498
             - kind: section
               section: 3
               title: Groupes de Poincaré des groupes topologiques
@@ -1598,7 +1598,7 @@ books:
               statements: 24
               exercises: 16
               extraction: native
-              content_sha256: 6c94380b983aa365202602c41da7229513eb3dd3476e4372ff9d314558ebef36
+              content_sha256: 6842160d700ea60a9ee97196d28a9b301aa5f12374dcbd2b5e73e6e767ae8e16
             - kind: section
               section: 8
               title: Algèbres de fonctions continues sur un espace compact
@@ -1706,7 +1706,7 @@ books:
               statements: 26
               exercises: 4
               extraction: native
-              content_sha256: add7cdb9a070866f8e9a387042ad390757f1ab2d0793694ddd49c22b5b44710d
+              content_sha256: 5c5beb00af00ce1816c9f5596ce40194dce3fb674e5f76f6441e77d8e8e70431
             - kind: section
               section: 3
               title: Endomorphismes de Fredholm et endomorphismes de Riesz
@@ -1732,7 +1732,7 @@ books:
               statements: 30
               exercises: 9
               extraction: native
-              content_sha256: 949b33aae56a5e481a2dd11053eb5b3141ab5db0692e21f967125b622e84ded1
+              content_sha256: aa69abfa4de2f2678bac7f76b9aacbc5eb608021d7d462692e3e938b2486222b
             - kind: section
               section: 5
               title: Perturbation par une application linéaire compacte
@@ -1785,7 +1785,7 @@ books:
               statements: 66
               exercises: 22
               extraction: native
-              content_sha256: 0118d0e43c427c1d52d1b6814c30f247dd525485743012e936e0e6ec92b507be
+              content_sha256: b7d5cace4eafab0c1d73e3d44892852f0ff763fbd448d693ef74f2bc2c671929
             - kind: section
               section: 2
               title: Endomorphismes normaux
@@ -1837,7 +1837,7 @@ books:
               statements: 75
               exercises: 43
               extraction: native
-              content_sha256: 5d0ca5c4d4f89ff47fb8c79996fccefdf5a3fc4f2121ae3c3f77ba9587e127f4
+              content_sha256: 6241c793b83b1bc75c1fcde6d896cd64c254feadb9672a352887651a52acaced
         - chapter: V
           title: REPRÉSENTATIONS UNITAIRES
           sections:
@@ -1877,7 +1877,7 @@ books:
               statements: 45
               exercises: 20
               extraction: native
-              content_sha256: c0d7458df7a2c9deec20b0780f83e9dad90f77040b117fc2200b8cc28d477a44
+              content_sha256: f7a409ee850c777922fa98d9ef6284a9d5ecbcb0ec1d91df77bda9ddafaf185a
             - kind: section
               section: 3
               title: Fonctions de type positif
@@ -1903,7 +1903,7 @@ books:
               statements: 54
               exercises: 32
               extraction: native
-              content_sha256: f1342a72cdc24be5cab7014eb35318ad21cc7561850c52bb06967610b66c48bb
+              content_sha256: 74b75f629c9f008452cb66003b6d644dd8af84a5c8c384c9a2c9117962c540f5
             - kind: historical
               title: Historical Note
               path: content/fr/ts/V/historical_note.md
