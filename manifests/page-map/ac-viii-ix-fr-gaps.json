@@ -1,16 +1,16 @@
 {
   "book": "ac-viii-ix-fr",
   "grammar": "head-label",
-  "pagination": "continuous",
+  "pagination": "per-chapter",
   "pdf_pages": 204,
-  "body_pages": 200,
-  "front_matter_pages": 4,
+  "body_pages": 193,
+  "front_matter_pages": 11,
   "counts": {
     "head": 102,
-    "interpolated": 98,
-    "none": 4
+    "interpolated": 91,
+    "none": 11
   },
-  "printed_pct_of_body": 51,
+  "printed_pct_of_body": 52.84974093264248,
   "chapters": [
     {
       "chapter": "VIII",
@@ -22,9 +22,9 @@
     {
       "chapter": "IX",
       "first_pdf_page": 113,
-      "last_pdf_page": 204,
+      "last_pdf_page": 197,
       "first_page": 1,
-      "last_page": 92
+      "last_page": 85
     }
   ],
   "steps": [],
@@ -382,7 +382,7 @@
       "from": 198,
       "to": 204,
       "pages": 7,
-      "confidence": "interpolated"
+      "confidence": "none"
     }
   ]
 }
