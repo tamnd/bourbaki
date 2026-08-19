@@ -829,6 +829,10 @@ books:
       text_layer: ocr
       page_width_pt: 439.37
       page_height_pt: 666.142
+      grammar: head-number
+      pagination: continuous
+      restarts:
+        - 96
     - id: lie-i-iii
       book: lie
       lang: en
