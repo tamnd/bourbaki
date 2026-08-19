@@ -209,6 +209,12 @@ bourbaki audit --report reports/audit.md
 
 OCR runs against a small fleet of hosts over SSH. Round trips are slow, roughly 150 seconds a call, so every long stage is resumable and safe to interrupt.
 
+## Where the numbers are
+
+`reports/` is generated and checked by CI, so it is the state of the corpus rather than a snapshot somebody remembered to update. `audit.md` lists every finding by file and line. `extraction-quality.md` says how much of each volume has been read and how much of that passes the rules. `refs-unresolved.md` and `out-of-corpus.md` are the references that resolve to nothing and the ones that point outside the corpus.
+
+`what-it-cost.md` is the one written by hand. It says what the transport cost, which checks caught what, and what is still wrong, including the numbers that do not flatter the project.
+
 ## Licence
 
 Transcriptions, translations and solutions here are derived from copyrighted material and exist for personal study only. *Éléments de mathématique* is copyright N. Bourbaki and its publishers. No source PDF is distributed.

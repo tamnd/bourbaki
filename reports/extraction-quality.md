@@ -8,6 +8,8 @@ Read is how many pages of the PDF have a page file, blanks included, since a bla
 
 Passing the rules is not the same as being right. A page can balance its dollars, carry a plausible running head and still read an interval as a set, which is what `ocr audit` is for. A rejected page is a place to look and most of them are one character.
 
+The acceptance column is not quite reproducible and it is worth knowing why before the numbers are quoted. A render manifest under `images/` is what says a page is blank or nearly blank, and the short rule is relaxed on a page it calls sparse. `images/` is not in git, so a clean checkout has no manifest for any volume and counts a handful of sparse pages as too short where the machine that did the extraction does not. The run that wrote this file had a manifest for 20 of the 20 volumes that have pages on disk. Render the PDFs and the figure goes up by a tenth of a point or so; it does not move any other column.
+
 ## Coverage, worst first
 
 | Volume | Lang | Text layer | PDF pages | Read | Unread | Coverage | Checked | Accepted |
