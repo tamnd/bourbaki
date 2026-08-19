@@ -41,7 +41,7 @@ subsections:
       pdf_page: 51
 statements: 26
 exercises: 4
-content_sha256: add7cdb9a070866f8e9a387042ad390757f1ab2d0793694ddd49c22b5b44710d
+content_sha256: 5c5beb00af00ce1816c9f5596ce40194dce3fb674e5f76f6441e77d8e8e70431
 ---
 
 ## § 2. EXEMPLES D’APPLICATIONS LINÉAIRES COMPACTES
@@ -366,7 +366,7 @@ $$
 \langle g|u_k(f)\rangle =\int_{X\times Y}k(x, y)f(x)\overline{g(y)}d(\mu\otimes \nu )(x, y)
 $$
 
-pour touscation linéaire$f\in L\overset{2}{u_{k}}(X)$ et$_{_*}$, où $kg_*\in \in L\overset{2}{L^{2}}(Y)$. De plus, l’adjoint de$(Y\times X)$ vérifie $k^*(y, x) =u\overset{k}{k}($est l’appli-$x, y)$ pour presque tout $(y, x)\in Y\times X$. En effet, pour tous $f\in L^2(X)$ et $g\in L^2$(Y), on a
+pour tous $f\in L^2(X)$ et $g\in L^2(Y)$. De plus, l’adjoint de $u_k$ est l’application linéaire $u_{k^*}$, où $k^*\in L^2(Y\times X)$ vérifie $k^*(y, x) =k(x, y)$ pour presque tout $(y, x)\in Y\times X$. En effet, pour tous $f\in L^2(X)$ et $g\in L^2$(Y), on a
 
 $$
 \langle g|u_k(f)\rangle =\int_{X\times Y}k(x, y)\overline{g(y)}f(x)d(\mu\otimes \nu )(x, y) =\langle u_{k^*}(g)|f\rangle

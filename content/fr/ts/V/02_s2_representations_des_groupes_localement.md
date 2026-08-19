@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: c0d7458df7a2c9deec20b0780f83e9dad90f77040b117fc2200b8cc28d477a44
+content_sha256: f7a409ee850c777922fa98d9ef6284a9d5ecbcb0ec1d91df77bda9ddafaf185a
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -426,7 +426,7 @@ $$
 
 pour tout $x\in G$; avec les notations précédentes, on a $v=u^1$, correspondant à la représentation triviale de dimension 1 de H. La fonction $v$ est continue et positive ; elle appartient à $\mathscr{F}_1$(G), son support est contenu dans Supp($u$)$\cdot H$ et on a
 
-(5) $x$inf$_{\in C\cdot H}v(x)>0$
+(5) $x$inf$^{\in}_{C\cdot H}v(x)>0$
 
 (INT, VII, p. 39–40, § 2, n$^o1$, prop. 1 et lemme 1, a)).
 

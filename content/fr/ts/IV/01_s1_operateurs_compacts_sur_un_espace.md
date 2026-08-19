@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: 0118d0e43c427c1d52d1b6814c30f247dd525485743012e936e0e6ec92b507be
+content_sha256: b7d5cace4eafab0c1d73e3d44892852f0ff763fbd448d693ef74f2bc2c671929
 ---
 
 ## § 1. OPÉRATEURS COMPACTS SUR UN ESPACE HILBERTIEN
@@ -740,9 +740,9 @@ $$
 \sum_{i\in I}\langle e_i|u(e_i)\rangle
 $$
 
-converge pour toute base orthonormale $(e_i)_{i\in I}$ de E et sa somme est indépendante de la base orthonormale ; on dit que c’est la trace Tr($u$)
+converge pour toute base orthonormale $(e_i)_{i\in I}$ de E et sa somme est indépendante de la base orthonormale ; on dit que c’est la trace Tr($u$) de $u$ (EVT, V, p. 50). Si $K =\mathbf{R}$, on a Tr($u$) $=$ Tr($u_{(\mathbf{C})}$).
 
-de Soit$u$ (EVT, V, p. 50). Si $K =u\in \mathscr{L}_1(E)$. On a $u^*\in \mathscr{L}\mathbf{R}_1$, on a Tr((E) et Tr($uu$) $=$ Tr($_*$) $=$ Tr($u\overset{(\mathbf{C}}{u}) (^)$).loc. cit.).
+Soit $u\in \mathscr{L}_1(E)$. On a $u^*\in \mathscr{L}_1(E)$ et Tr($u^*$) $=$ Tr($u$) $($loc. cit.).
 
 #### Proposition 12 {#ts-iv-s1-prop-12 .statement tag=02X7}
 
@@ -824,9 +824,7 @@ Soit $B = (e_i)_{i\in I}$ une base orthonormale de E telle que $u$ soit diagonal
 
 ### 8. Applications nucléaires
 
-Dans ce numéro, F désigne un espace hilbertien sur K. Lorsque $K =|u|$ l’endomorphisme positif$\mathbf{C}$, on rappelle (I, p. $139\surd , u$déf.$_*\circ u3$) de E. Lorsque K =que pour $u\in \mathscr{L}(E; F)$, on note$\mathbf{R}$, l’élément
-
-$|u_{(\mathbf{C})}|$ de $\mathscr{L}(E_{(\mathbf{C})})$ est de la forme $v_{(\mathbf{C})}$ pour un unique endomorphisme $v\in \mathscr{L}$ (E), qui est encore noté $|u|($cf. I, p. 87).
+Dans ce numéro, F désigne un espace hilbertien sur K. Lorsque $K =\mathbf{C}$, on rappelle (I, p. $139\surd$,déf. 3) que pour $u\in \mathscr{L}(E; F)$, on note $|u|$ l’endomorphisme positif $u^*\circ u$ de E. Lorsque $K =\mathbf{R}$, l’élément $|u_{(\mathbf{C})}|$ de $\mathscr{L}(E_{(\mathbf{C})})$ est de la forme $v_{(\mathbf{C})}$ pour un unique endomorphisme $v\in \mathscr{L}$ (E), qui est encore noté $|u|($cf. I, p. 87).
 
 On note $(u, v)\mapsto  \langle u|v\rangle =$ Tr($u^*v$) le produit scalaire dans l’espace hilbertien $\mathscr{L}_2(E; F)$ (EVT, V, p. 53, remarques 1 et 2).
 
@@ -1040,9 +1038,7 @@ On identifiera dans la suite $L^2(X)\widehat{\otimes}_2L^2(Y)$ et $L^2(X\times Y
 
 L’application $N\mapsto u_N$ est un isomorphisme isométrique de $L^2(X\times Y)$ sur l’espace $\mathscr{L}_2(L^2(X); L^2(Y))$ des applications
 
-de Hilbert–Schmidt deL’application linéaire de L$L^2(X)_2$dans$(Y)\otimes L\overset{2}{L}(Y)_2(X)$ dans. $\mathscr{L}_2(L^2(X); L^2(Y))$ qui associe àprolonge en un isomorphisme isométrique$g\otimes f$ l’application de Hilbert–Schmidt$\theta_1$ de $L^2(Y)h\mapsto  \langle \widehat{\otimes}_2Lf_2|(X)$ sur$h\rangle g$ se
-
-$\mathscr{L}_2(L^2(X); L^2(Y))$ (EVT, V, p. 52, th. 1).
+de Hilbert–Schmidt deL’application linéaire de L$L^2(X)_2$dans$(Y)\otimes L\overset{2}{L}(Y)_2(X)$ dans. $\mathscr{L}_2(L^2(X); L^2(Y))$ qui associe à $g\otimes f$ l’application de Hilbert–Schmidt $h\mapsto  \langle f|h\rangle g$ se prolonge en un isomorphisme isométrique $\theta_1$ de $L^2(Y)\widehat{\otimes}_2L^2(X)$ sur $\mathscr{L}_2(L^2(X); L^2(Y))$ (EVT, V, p. 52, th. 1).
 
 Notons par ailleurs $\theta_2$ l’isomorphisme isométrique de $L^2(X)\widehat{\otimes}_2L^2(Y)$ sur $L^2(Y)\widehat{\otimes}_2L^2(X)$ qui à $f\otimes g$ associe $g\otimes \overline{f}$ pour tout $f\in L^2(X)$ et tout $g\in L^2(Y)$.
 

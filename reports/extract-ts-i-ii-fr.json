@@ -1,12 +1,12 @@
 {
   "book": "ts-i-ii-fr",
   "pages": 346,
-  "clean": 328,
-  "flagged": 16,
+  "clean": 329,
+  "flagged": 15,
   "empty": 2,
   "reasons": {
     "empty": 2,
-    "stacked-rows": 11,
+    "stacked-rows": 10,
     "tall-delimiter": 5
   },
   "flagged_pages": [
@@ -28,13 +28,6 @@
       "pdf_page": 165,
       "flags": [
         "empty"
-      ]
-    },
-    {
-      "pdf_page": 172,
-      "page_label": "TS I.159",
-      "flags": [
-        "stacked-rows"
       ]
     },
     {

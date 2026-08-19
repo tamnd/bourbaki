@@ -57,7 +57,7 @@ subsections:
       pdf_page: 36
 statements: 44
 exercises: 2
-content_sha256: 9369a1be57079860cd666452e762fce3732ab1a103d0fb2c62cfa0bc33588550
+content_sha256: e425dea4e2ea63d8faa1a5ae64137218cdc4c8e9ab91d243b60ea3025eed2a50
 ---
 
 ## § 1. PRODUITS FIBRÉS ET CARRÉS CARTÉSIENS
@@ -406,23 +406,13 @@ Soit Y un espace topologique, soient $u: Y\rightarrow \prod_iB'_i$ et $v: Y\righ
 
 Soit X un B-espace, soit $p$ sa projection et soit F un espace topologique. Le carré
 
-$X\times F^{pr_1}$ X
-
-$$
-p_{\times Id_Fp} \tag{8}
-$$
-
-$B\times F^{pr_1}$ B
+$$\begin{array}{ccc} X\times F & \overset{\mathrm{pr}_1}{\longrightarrow} & X \\ {\scriptstyle p\times \mathrm{Id}_F}\big\downarrow & & \big\downarrow{\scriptstyle p} \\ B\times F & \overset{\mathrm{pr}_1}{\longrightarrow} & B \end{array} \tag{8}$$
 
 est cartésien.
 
 Soit P un espace topologique réduit à un point. Le corollaire 1 résulte de la prop. 5 appliquée aux carrés cartésiens
 
-X $^{Id_X}$ X F P
-
-$_pp$ et Id$_{_FId_P}$
-
-B $^{Id_B}$ B F P .
+$$\begin{array}{ccccccc} X & \overset{\mathrm{Id}_X}{\longrightarrow} & X & & F & \longrightarrow & P \\ {\scriptstyle p}\big\downarrow & & \big\downarrow{\scriptstyle p} & \text{et} & {\scriptstyle \mathrm{Id}_F}\big\downarrow & & \big\downarrow{\scriptstyle \mathrm{Id}_P} \\ B & \overset{\mathrm{Id}_B}{\longrightarrow} & B & & F & \longrightarrow & P \end{array}.$$
 
 Soient B et $B'$ des espaces topologiques et soit $f: B'\rightarrow$ B une application continue. Soit I un ensemble et, pour tout $i\in I$, soient $X_i$ un B-espace, $X'_i$ un $B'$-espace et $f'_i: X'_i\rightarrow X_i$ une application continue telle que le carré
 
@@ -622,15 +612,11 @@ $B_1\times_BB_2^f$ B où $f$ (resp. $g)$ est l’application qui définit la str
 
 Considérons alors les deux carrés commutatifs suivants :
 
-$$
-X_1\times_XX_2^{pr_1}X_1X_1\times_XX_2^{pr_2}X_2
-$$
+$$\begin{array}{ccc} X_1\times_XX_2 & \overset{\mathrm{pr}_1}{\longrightarrow} & X_1 \\ {\scriptstyle p'}\big\downarrow & & \big\downarrow{\scriptstyle p_1} \\ B_1\times_BB_2 & \overset{\mathrm{pr}_1}{\longrightarrow} & B_1 \end{array} \tag{18}$$
 
-(18) $p'p_{_1}$ et (19) $p'p_{_2}$
+et
 
-$$
-B_1\times_BB_2^{pr_1}B_1B_1\times_BB_2^{pr_2}B_2
-$$
+$$\begin{array}{ccc} X_1\times_XX_2 & \overset{\mathrm{pr}_2}{\longrightarrow} & X_2 \\ {\scriptstyle p'}\big\downarrow & & \big\downarrow{\scriptstyle p_2} \\ B_1\times_BB_2 & \overset{\mathrm{pr}_2}{\longrightarrow} & B_2 \end{array}. \tag{19}$$
 
 Le carré (17) est composé des carrés (15) et (18), ainsi que des carrés (16) et (19). D’après la prop. 7, les carrés (18) et (19) sont cartésiens.
 
@@ -640,21 +626,13 @@ Le carré (17) est composé des carrés (15) et (18), ainsi que des carrés (16)
 
 Soit
 
-${X'}^{f'}$ X
-
-$p'p$
-
-${B'}^f$ B
+$$\begin{array}{ccc} X' & \overset{f'}{\longrightarrow} & X \\ {\scriptstyle p'}\big\downarrow & & \big\downarrow{\scriptstyle p} \\ B' & \overset{f}{\longrightarrow} & B \end{array}$$
 
 un carré cartésien. Si l’application $p$ est ouverte ( resp. est propre, resp. possède au voisinage de tout point une section continue), il en est de même de $p'$.
 
 D’après la remarque 2, I, p. 16, il suffit de démontrer la proposition pour les carrés cartésiens du type suivant :
 
-$\overset{-1}{p}(A)^j$ X $X\times F^{pr_1}$ X
-
-$_{p_A}p$ et $p_{\times Id_Fp}$
-
-A $^i$ B $B\times F^{pr_1}B$,
+$$\begin{array}{ccccccc} \overset{-1}{p}(A) & \overset{j}{\longrightarrow} & X & & X\times F & \overset{\mathrm{pr}_1}{\longrightarrow} & X \\ {\scriptstyle p_A}\big\downarrow & & \big\downarrow{\scriptstyle p} & \text{et} & {\scriptstyle p\times \mathrm{Id}_F}\big\downarrow & & \big\downarrow{\scriptstyle p} \\ A & \overset{i}{\longrightarrow} & B & & B\times F & \overset{\mathrm{pr}_1}{\longrightarrow} & B \end{array},$$
 
 où F est un espace topologique, A un sous-espace de B et $i,j$ les injections canoniques. Si l’application $p$ est ouverte, les applications $p_A$ et $p\times$ Id$_F$ sont ouvertes (TG, I, p. 30, prop. 2 et TG, I, p. 34, prop. 8). Si l’application $p$ est propre, les applications $p_A$ et $p\times$ Id$_F$ sont propres (TG, I, p. 72, prop. 3 et TG, I, p. 72, déf. 1). Si U est un ouvert de B et $s: U\rightarrow X$ une section continue de $p$ sur U, l’application $s|(A\cap U)$ est une section continue de $p_A$ sur $A\cap U$ et l’application $s\times$ Id$_F$ est une section continue de $p\times$ Id$_F$ sur $U\times F$.
 

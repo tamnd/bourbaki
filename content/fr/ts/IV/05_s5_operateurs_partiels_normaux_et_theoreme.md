@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: 5d0ca5c4d4f89ff47fb8c79996fccefdf5a3fc4f2121ae3c3f77ba9587e127f4
+content_sha256: 6241c793b83b1bc75c1fcde6d896cd64c254feadb9672a352887651a52acaced
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -244,9 +244,7 @@ Si $u\in \mathscr{L}$ (E), cette définition coïncide avec EVT, V, p. 42, déf.
 
 Si $u$ est un opérateur partiel auto-adjoint sur E, alors $b(u)$ est hermitien (cor. de la prop. 2 de IV, p. 264) donc $u$ est normal.
 
-Soit D le disque unité ouvert dans $\mathbf{C}$. On note $\beta$ la fonction de $\mathbf{C}$
-
-dans D définie pardont l’inverse vérifie$\beta \beta (_-z_1) =(z) =z/\surd z/\overline{1 +\surd1 - ||z|^2}z$. C’est un homéomorphisme,$|^2$ pour $z\in D$.
+Soit D le disque unité ouvert dans $\mathbf{C}$. On note $\beta$ la fonction de $\mathbf{C}$ dans D définie par $\beta (z) =z/\surd\overline{1 + |z|^2}$. C’est un homéomorphisme, dont l’inverse vérifie $\beta^{-1}(z) =z/\surd\overline{1 - |z|^2}$ pour $z\in D$.
 
 Soit $u\in \mathscr{L}(E)$. Il résulte des formules (2) et (3) de la proposition 1 de IV, p. 262 que $u=\beta^{-1}(b(u))$, et donc
 

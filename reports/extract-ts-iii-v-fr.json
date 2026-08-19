@@ -1,12 +1,12 @@
 {
   "book": "ts-iii-v-fr",
   "pages": 579,
-  "clean": 560,
-  "flagged": 17,
+  "clean": 561,
+  "flagged": 16,
   "empty": 2,
   "reasons": {
     "empty": 2,
-    "stacked-rows": 9,
+    "stacked-rows": 8,
     "tall-delimiter": 10
   },
   "flagged_pages": [
@@ -35,13 +35,6 @@
       "page_label": "TS III.135",
       "flags": [
         "tall-delimiter",
-        "stacked-rows"
-      ]
-    },
-    {
-      "pdf_page": 279,
-      "page_label": "TS IV.266",
-      "flags": [
         "stacked-rows"
       ]
     },
