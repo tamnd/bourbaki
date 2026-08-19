@@ -46,7 +46,7 @@ subsections:
       pdf_page: 107
 statements: 22
 exercises: 8
-content_sha256: fa664243f694205d57fee07324e9530b13d7e92d6d61e5dd3cf3c072e6ee2fa0
+content_sha256: 8ab4db7f9a2c0d1786f20c3a5b58b30762f788c0e22d4b5bbb3b149751d0c051
 ---
 
 ## 4. UNION AND INTERSECTION OF A FAMILY OF SETS
@@ -63,9 +63,7 @@ is true. By virtue of the scheme S8 (§1, no. 6) the relation $(\exists \iota)(\
 
 #### Definition 1 {#ens-ii-s4-def-1 .statement tag=03I1}
 
-*Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets* (resp. *a family of subsets of a set* E). *The set $\mathcal{E}_x((\exists \iota)(\iota \in \mathrm{I}$ and $x \in \mathrm{X}_\iota))$, that is to say, the set of all $x$*
-
-*which belong to at least one set of the family $(X_l)_{l\in I}$, is called the union of the family, and is denoted by*
+*Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets* (resp. *a family of subsets of a set* E). *The set $\mathcal{E}_x((\exists \iota)(\iota \in \mathrm{I}$ and $x \in \mathrm{X}_\iota))$, that is to say, the set of all $x$* *which belong to at least one set of the family $(X_l)_{l\in I}$, is called the union of the family, and is denoted by*
 $$\bigcup_{l\in I}X_l,$$ [^1]
 
 If $(X_l)_{l\in I}$ is a family of subsets of a set $E$, then its union is a subset of $E$; notice that it does not depend on $E$, nor on the target $\mathcal{G}$ of the mapping $l\to X_l$.
@@ -122,9 +120,7 @@ $$\bigcup_{\varkappa \in K} X_{f(\varkappa)} = \bigcup_{\iota \in I} X_\iota.$$
 
 $$x \in \bigcap_{\varkappa \in K} X_{f(\varkappa)}.$$
 
-Conversely, let $x$ be an element of $\bigcap\limits_{\varkappa \in K} X_{f(\varkappa)}$. If $\iota$ is any element of I, there exists an element $\varkappa$ of K such that $\iota = f(\varkappa)$, whence $x \in X_\iota$ and
-
-consequently $x \in \bigcap_{\iota \in I} X_\iota$. Hence
+Conversely, let $x$ be an element of $\bigcap\limits_{\varkappa \in K} X_{f(\varkappa)}$. If $\iota$ is any element of I, there exists an element $\varkappa$ of K such that $\iota = f(\varkappa)$, whence $x \in X_\iota$ and consequently $x \in \bigcap_{\iota \in I} X_\iota$. Hence
 
 $$\bigcap_{\varkappa \in K} X_{f(\varkappa)} = \bigcap_{\iota \in I} X_\iota.$$
 
@@ -326,9 +322,7 @@ If $\mathfrak{R}$, $\mathfrak{R}'$, $\mathfrak{R}''$ are three coverings of E su
 
 Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ be a covering of E. If J is a subset of I such that $(\mathrm{X}_\iota)_{\iota \in \mathrm{J}}$ is still a covering of E, then this covering clearly refines $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$.
 
-¶ Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ and $(\mathrm{Y}_\varkappa)_{\varkappa \in \mathrm{K}}$ be coverings of a set E. Then the family of sets $(\mathrm{X}_\iota \cap \mathrm{Y}_\varkappa)_{(\iota, \varkappa) \in \mathrm{I} \times \mathrm{K}}$ is a covering of E. For if $x \in \mathrm{E}$, there exist indices $\iota \in \mathrm{I}$ and $\varkappa \in \mathrm{K}$ such that $x \in \mathrm{X}_\iota$ and $x \in \mathrm{Y}_\varkappa$, so that $x \in \mathrm{X}_\iota \cap \mathrm{Y}_\varkappa$ Moreover, it is clear that the covering $(\mathrm{X}_\iota \cap \mathrm{Y}_\varkappa)_{(\iota, \varkappa) \in \mathrm{I} \times \mathrm{K}}$ refines each o
-
-the coverings $(X_\iota)_{\iota \in I}$, $(Y_\varkappa)_{\varkappa \in K}$. Conversely, let $(Z_\lambda)_{\lambda \in L}$ be a covering of E which refines each of the coverings $(X_\iota)_{\iota \in I}$, $(Y_\varkappa)_{\varkappa \in K}$; if $\lambda \in L$, then there exist indices $\iota \in I$ and $\varkappa \in K$ such that $Z_\lambda \subset X_\iota$ and $Z_\lambda \subset Y_\varkappa$, so that $Z_\lambda \subset X_\iota \cap Y_\varkappa$; hence the covering $(Z_\lambda)_{\lambda \in L}$ is a refinement of
+¶ Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ and $(\mathrm{Y}_\varkappa)_{\varkappa \in \mathrm{K}}$ be coverings of a set E. Then the family of sets $(\mathrm{X}_\iota \cap \mathrm{Y}_\varkappa)_{(\iota, \varkappa) \in \mathrm{I} \times \mathrm{K}}$ is a covering of E. For if $x \in \mathrm{E}$, there exist indices $\iota \in \mathrm{I}$ and $\varkappa \in \mathrm{K}$ such that $x \in \mathrm{X}_\iota$ and $x \in \mathrm{Y}_\varkappa$, so that $x \in \mathrm{X}_\iota \cap \mathrm{Y}_\varkappa$ Moreover, it is clear that the covering $(\mathrm{X}_\iota \cap \mathrm{Y}_\varkappa)_{(\iota, \varkappa) \in \mathrm{I} \times \mathrm{K}}$ refines each o the coverings $(X_\iota)_{\iota \in I}$, $(Y_\varkappa)_{\varkappa \in K}$. Conversely, let $(Z_\lambda)_{\lambda \in L}$ be a covering of E which refines each of the coverings $(X_\iota)_{\iota \in I}$, $(Y_\varkappa)_{\varkappa \in K}$; if $\lambda \in L$, then there exist indices $\iota \in I$ and $\varkappa \in K$ such that $Z_\lambda \subset X_\iota$ and $Z_\lambda \subset Y_\varkappa$, so that $Z_\lambda \subset X_\iota \cap Y_\varkappa$; hence the covering $(Z_\lambda)_{\lambda \in L}$ is a refinement of
 
 $$(X_\iota \cap Y_\varkappa)_{(\iota, \varkappa) \in I \times K}.$$
 
@@ -352,9 +346,7 @@ that is to say, $y = y'$. The graph G has domain $\mathrm{pr}_1 G = \bigcup_{\io
 
 #### Definition 6 {#ens-ii-s4-def-6 .statement tag=03Q0}
 
-*Two sets* A *and* B *are said to be disjoint* (*or not to intersect*) *if* $A \cap B = \emptyset$. *If* $A \cap B \neq \emptyset$, *we say that* A *meets* (*or intersects*) B. *Let*
-
-$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ *be a family of sets. The sets of this family are said to be mutually disjoint if the conditions* $\iota \in \mathrm{I}$, $\varkappa \in \mathrm{I}$, $\iota \neq \varkappa$ *imply* $\mathrm{X}_\iota \cap \mathrm{X}_\varkappa = \emptyset$.
+*Two sets* A *and* B *are said to be disjoint* (*or not to intersect*) *if* $A \cap B = \emptyset$. *If* $A \cap B \neq \emptyset$, *we say that* A *meets* (*or intersects*) B. *Let* $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ *be a family of sets. The sets of this family are said to be mutually disjoint if the conditions* $\iota \in \mathrm{I}$, $\varkappa \in \mathrm{I}$, $\iota \neq \varkappa$ *imply* $\mathrm{X}_\iota \cap \mathrm{X}_\varkappa = \emptyset$.
 
 Let $f$ be a mapping of A into B, and let $(\mathrm{Y}_\iota)_{\iota \in \mathrm{I}}$ be a family of mutually disjoint subsets of B. Proposition 4 then shows that the sets of the family $(\overset{-1}{f}\langle \mathrm{Y}_\iota \rangle)_{\iota \in \mathrm{I}}$ of subsets of A are mutually disjoint. On the other hand, if $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ is a family of mutually disjoint subsets of A, the sets of the family $(f \langle \mathrm{X}_\iota \rangle)_{\iota \in \mathrm{I}}$ are not in general mutually disjoint.
 

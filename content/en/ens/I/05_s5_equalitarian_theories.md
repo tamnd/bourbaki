@@ -26,7 +26,7 @@ subsections:
       pdf_page: 54
 statements: 3
 exercises: 7
-content_sha256: c49154b5d581ddcf39f153a1ef13db9d02c6c523721b4d0e07f23ac5b38a1f91
+content_sha256: 8cbe15ed2020b27b62da706075017d090591d51c972f6b3ce0f6ebf686257ba1
 ---
 
 ## 5. EQUALITARIAN THEORIES
@@ -39,9 +39,7 @@ S6. *Let $x$ be a letter, let $T$ and $U$ be terms in $\mathscr{T}$, and let $R\
 
 S7. *If $R$ and $S$ are relations in $\mathscr{T}$ and if $x$ is a letter, then the relation $((\forall x)(R \Leftrightarrow S)) \Rightarrow (\tau_x(R) = \tau_x(S))$ is an axiom.*
 
-To show that the rule S6 is a scheme, let $A$ be an axiom of $\mathscr{T}$, obtained by applying S6; then there is a relation $R$ in $\mathscr{T}$, terms $T$ and $U$ in $\mathscr{T}$,
-
-and a letter $x$, such that $A$ is $(T = U) \Rightarrow ((T|x)R \Leftrightarrow (U|x)R)$. We shall show that if $y$ is a letter and $V$ a term in $\mathscr{T}$, the relation $(V|x)A$ can be obtained by applying S6. By means of CS1 (§1, no. 2) we may assume that $x$ is distinct from $y$ and does not appear in $V$. Let $T'$, $U'$, $R'$ denote the assemblies $(V|y)T$, $(V|y)U$, $(V|y)R$ respectively. By CS2 and CS5 (§1, no. 2), $(V|y)A$ is identical with
+To show that the rule S6 is a scheme, let $A$ be an axiom of $\mathscr{T}$, obtained by applying S6; then there is a relation $R$ in $\mathscr{T}$, terms $T$ and $U$ in $\mathscr{T}$, and a letter $x$, such that $A$ is $(T = U) \Rightarrow ((T|x)R \Leftrightarrow (U|x)R)$. We shall show that if $y$ is a letter and $V$ a term in $\mathscr{T}$, the relation $(V|x)A$ can be obtained by applying S6. By means of CS1 (§1, no. 2) we may assume that $x$ is distinct from $y$ and does not appear in $V$. Let $T'$, $U'$, $R'$ denote the assemblies $(V|y)T$, $(V|y)U$, $(V|y)R$ respectively. By CS2 and CS5 (§1, no. 2), $(V|y)A$ is identical with
 
 $$(T' = U') \Rightarrow ((T'|x')R' \Leftrightarrow (U'|x')R')$$
 

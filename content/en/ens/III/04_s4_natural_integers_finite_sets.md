@@ -34,7 +34,7 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: 1732f68fff64279b29515ae018528520592624e21906373ba7474e14191b2e68
+content_sha256: 4a072096ffffd9564c385dad351b447db76172ec442dedd3e07d9c5178c5b614
 ---
 
 ## 4. NATURAL INTEGERS. FINITE SETS
@@ -69,9 +69,7 @@ $$
 (\alpha + 1) + \mathfrak{b} \ne \alpha + \mathfrak{b}.
 $$
 
-Hence $\alpha + 1 \ne \alpha$, which means that $\alpha$ is an integer. If $n \ne 0$, we have $n \ge 1$ (§ 3, no. 2), and therefore there exists a unique cardinal $m$ such
-
-that $n = m + 1$ (§ 3, no. 6, Proposition 13 and no. 4, Proposition 8). Since $m \leqslant n$, $m$ is an integer, from what has already been proved. Finally, if an integer $a$ is such that $a < n$, we have $n = a + b$, with $b \neq 0$ (§ 3, no. 6, Proposition 13); since $b$ is an integer, we have $b = c + 1$ and $n = m + 1 = (a + c) + 1$. It follows that $m = a + c$ (§ 3, no. 4, Proposition 8), hence $a \leqslant m$. Conversely, if $a \leqslant m$, we have
+Hence $\alpha + 1 \ne \alpha$, which means that $\alpha$ is an integer. If $n \ne 0$, we have $n \ge 1$ (§ 3, no. 2), and therefore there exists a unique cardinal $m$ such that $n = m + 1$ (§ 3, no. 6, Proposition 13 and no. 4, Proposition 8). Since $m \leqslant n$, $m$ is an integer, from what has already been proved. Finally, if an integer $a$ is such that $a < n$, we have $n = a + b$, with $b \neq 0$ (§ 3, no. 6, Proposition 13); since $b$ is an integer, we have $b = c + 1$ and $n = m + 1 = (a + c) + 1$. It follows that $m = a + c$ (§ 3, no. 4, Proposition 8), hence $a \leqslant m$. Conversely, if $a \leqslant m$, we have
 
 $$a \leqslant m + 1 = n;$$
 

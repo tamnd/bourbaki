@@ -52,7 +52,7 @@ errata:
     - says: Corollary 2 to Proposition 5
       read: Corollary 2 to Proposition 6
       why: The same reference as the two above, written the other way round on page 109, and wrong the same way.
-content_sha256: ab63a5e5cc2acfa6050b72f3f3101a1a02b76af5e7ed1e3ff8a72602c1299fba
+content_sha256: 6393d275988966957f40f77915a91adb15df38100389f3da1b06130ef11ecd50
 ---
 
 ## 5. PRODUCT OF A FAMILY OF SETS
@@ -103,9 +103,7 @@ is injective.
 
 *If $u$ is a bijection of $E'$ onto $E$ and $v$ is a bijection of $F$ onto $F'$, then $f \mapsto v \circ f \circ u$ is bijective.*
 
-Let $A$, $B$, $C$ be three sets and let $f$ be a mapping of $B \times C$ into $A$. For every $y \in C$ let $f(\mathord{\cdot}, y)$ be the partial mapping $x \mapsto f(x,y)$ of $B$ into $A$ (§ 3, no. 9); the function $y \mapsto f(\mathord{\cdot}, y)$ is a mapping of $C$ into $\mathscr{F}(B, A)$
-
-exists a unique mapping $f$ of $\mathrm{B} \times \mathrm{C}$ into A such that $g(y) = f(\bullet, y)$ for each $y \in \mathrm{C}$, namely the mapping $(x, y) \to (g(y))(x)$. Hence :
+Let $A$, $B$, $C$ be three sets and let $f$ be a mapping of $B \times C$ into $A$. For every $y \in C$ let $f(\mathord{\cdot}, y)$ be the partial mapping $x \mapsto f(x,y)$ of $B$ into $A$ (§ 3, no. 9); the function $y \mapsto f(\mathord{\cdot}, y)$ is a mapping of $C$ into $\mathscr{F}(B, A)$ exists a unique mapping $f$ of $\mathrm{B} \times \mathrm{C}$ into A such that $g(y) = f(\bullet, y)$ for each $y \in \mathrm{C}$, namely the mapping $(x, y) \to (g(y))(x)$. Hence :
 
 #### Proposition 3 {#ens-ii-s5-prop-3 .statement tag=03Q7}
 
@@ -209,9 +207,7 @@ $$f \to (\mathrm{pr}_{\mathrm{J}_\lambda} f)_{\lambda \in \mathrm{L}}$$
 
 *of $\prod\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ into the product set $\prod\limits_{\lambda \in \mathrm{L}} \Big(\prod\limits_{\iota \in \mathrm{J}_\lambda} \mathrm{X}_\iota\Big)$ is bijective ("associativity" of products of sets).*
 
-From the interpretation of $\mathrm{pr}_{\mathrm{J}_\lambda} f$ as the graph of the restriction of the function whose graph is $f$ (no. 4), it follows that the statement that the mapping $f \to (\mathrm{pr}_{\mathrm{J}_\lambda} f)_{\lambda \in \mathrm{L}}$ is bijective means that, for each family $(v_\lambda)_{\lambda \in \mathrm{L}}$, where $v_\lambda$ is a mapping of $\mathrm{J}_\lambda$ into $\bigcup\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota$, there exists a unique mapping $u$
-
-of I into $\bigcup_{\iota \in I} X_\iota$ such that $v_\lambda$ is the restriction of $u$ to $J_\lambda$ for each $\lambda \in L$. But this is a consequence of the hypothesis that $(J_\lambda)_{\lambda \in L}$ is a partition of I (§4, Proposition 8).
+From the interpretation of $\mathrm{pr}_{\mathrm{J}_\lambda} f$ as the graph of the restriction of the function whose graph is $f$ (no. 4), it follows that the statement that the mapping $f \to (\mathrm{pr}_{\mathrm{J}_\lambda} f)_{\lambda \in \mathrm{L}}$ is bijective means that, for each family $(v_\lambda)_{\lambda \in \mathrm{L}}$, where $v_\lambda$ is a mapping of $\mathrm{J}_\lambda$ into $\bigcup\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota$, there exists a unique mapping $u$ of I into $\bigcup_{\iota \in I} X_\iota$ such that $v_\lambda$ is the restriction of $u$ to $J_\lambda$ for each $\lambda \in L$. But this is a consequence of the hypothesis that $(J_\lambda)_{\lambda \in L}$ is a partition of I (§4, Proposition 8).
 
 ¶ The bijection defined in Proposition 7, and its inverse bijection are said to be *canonical*.
 
@@ -332,9 +328,7 @@ The proof follows the pattern of the proof of the Corollary to Proposition 8.
 
 $$\bigcap_{\varkappa \in K} \left( \prod_{\iota \in I} X_{\iota, \varkappa} \right) = \prod_{\iota \in I} \left( \bigcap_{K \in \varkappa} X_{\iota, \varkappa} \right).$$
 
-Both sides of the equality to be proved are functional graphs. A graph $f$ belongs to the left-hand side if and only if, for each $\varkappa \in K$, $f \in \prod_{\iota \in I} X_{\iota, \varkappa}$; that is, if and only if $f(\iota) \in X_{\iota, \varkappa}$ for all $(\iota, \varkappa) \in I \times K$. For $f$ to belong
-
-to the right-hand side it is necessary and sufficient that $f(\iota) \in \bigcap_{\varkappa \in K} X_{\iota, \varkappa}$ for each $\iota \in I$, i.e., that $f(\iota) \in X_{\iota, \varkappa}$ for each pair $(\iota, \varkappa) \in I \times K$. This completes the proof.
+Both sides of the equality to be proved are functional graphs. A graph $f$ belongs to the left-hand side if and only if, for each $\varkappa \in K$, $f \in \prod_{\iota \in I} X_{\iota, \varkappa}$; that is, if and only if $f(\iota) \in X_{\iota, \varkappa}$ for all $(\iota, \varkappa) \in I \times K$. For $f$ to belong to the right-hand side it is necessary and sufficient that $f(\iota) \in \bigcap_{\varkappa \in K} X_{\iota, \varkappa}$ for each $\iota \in I$, i.e., that $f(\iota) \in X_{\iota, \varkappa}$ for each pair $(\iota, \varkappa) \in I \times K$. This completes the proof.
 
 #### Corollary {#ens-ii-s5-n6-cor-2 .statement tag=03IR}
 

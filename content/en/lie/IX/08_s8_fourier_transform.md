@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 8c55487290f8aa87fb5128b3001a0678de3e77fffae5998ca3064c6c7d612dab
+content_sha256: 5c04fb9747792c80021adfdf8ba74d886810070b809ae6894a3b9cfbc17ca32c
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -124,9 +124,7 @@ $=d(u)\int_Gf(g$)Tr($u(gh^{-1})$)$dg=d(u)\int_Gf(gh$)Tr($u(g)$)$dg$. (10)
 
 For all $u\in \widehat{G}$ choose an orthonormal basis $Bu$ of $E_u$, and denote by $(u_{ij}(g))$ the matrix of $u(g)$ in this basis. Prop. 1 also means that the family of functions $\surd\overline{d(u)}u_{ij}$, for $u$ in $\widehat{G}$ and $i, j$ in $B_u$, is an orthonormal basis of the space $L^2(G)$.
 
-If $f$ is an integrable function on G such that the family $(f_u)$ is uniformly summable, then the sum of this family is a continuous function which coincides almost everywhere with $f$; in other words, if we assume in addition that $f$ is continuous, then for all $h\in G$,
-
-$f(h) =\sum_{u\in\widehat{G}}d(u)\int_Gf(gh$)Tr($u(g)$)$dg$. (11)
+If $f$ is an integrable function on G such that the family $(f_u)$ is uniformly summable, then the sum of this family is a continuous function which coincides almost everywhere with $f$; in other words, if we assume in addition that $f$ is continuous, then for all $h\in G$, $f(h) =\sum_{u\in\widehat{G}}d(u)\int_Gf(gh$)Tr($u(g)$)$dg$. (11)
 
 Conversely, let $A\in F( \widehat{G})$; if the family $(\mathscr{F}_uA)_{u\in\widehat{G}}$ is uniformly summable, the function
 
@@ -338,9 +336,7 @@ $$
 
 $uu$
 
-Conversely, if $\varphi$ is a square-integrable complex function on $\widehat{G}$, the element $(\frac{\varphi(u)}{d(u)}\varepsilon_u)_{u\in\widehat{G}}$ of $F( \widehat{G})$ belongs to $L^2( \widehat{G})$, and we have (formula (9))
-
-$(\mathscr{F}_u(\frac{\varphi(u)}{d(u)}\varepsilon_u))(g) =d(u$)Tr $(\frac{\varphi(u)}{d(u)}\varepsilon_uu(g)^{-1})=\varphi (u)\overline{\chi}_u(g)$,
+Conversely, if $\varphi$ is a square-integrable complex function on $\widehat{G}$, the element $(\frac{\varphi(u)}{d(u)}\varepsilon_u)_{u\in\widehat{G}}$ of $F( \widehat{G})$ belongs to $L^2( \widehat{G})$, and we have (formula (9)) $(\mathscr{F}_u(\frac{\varphi(u)}{d(u)}\varepsilon_u))(g) =d(u$)Tr $(\frac{\varphi(u)}{d(u)}\varepsilon_uu(g)^{-1})=\varphi (u)\overline{\chi}_u(g)$,
 
 so
 

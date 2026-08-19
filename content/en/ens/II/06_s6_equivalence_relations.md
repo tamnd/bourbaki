@@ -50,7 +50,7 @@ subsections:
       pdf_page: 128
 statements: 12
 exercises: 11
-content_sha256: c6c3e77659f381e6b77f183ba2f44f12d66221c3beccde4dd5c2acdfdb891b2e
+content_sha256: 6bc9ceffca6d2226ba430227dbf5798495a6ee810349140ce93677c7c35070e9
 ---
 
 ## 6. EQUIVALENCE RELATIONS
@@ -150,9 +150,7 @@ Let $\mathrm{R}$ be the equivalence relation "$x \in \mathrm{E}$ and $y \in \mat
 
 Let $\mathrm{E}$, $\mathrm{F}$ be two sets and let $\mathrm{R}$ be the equivalence relation on $\mathrm{E} \times \mathrm{F}$ associated with the mapping $\mathrm{pr}_1$ of $\mathrm{E} \times \mathrm{F}$ onto $\mathrm{E}$. The equivalence classes with respect to $\mathrm{R}$ are the sets of the form $\{x\} \times \mathrm{F}$, where $x \in \mathrm{E}$; the mapping $x \to \{x\} \times \mathrm{F}$ is a bijection of $\mathrm{E}$ onto $(\mathrm{E} \times \mathrm{F})/\mathrm{R}$.
 
-Let $\mathrm{R}$ be an equivalence relation on a set $\mathrm{E}$. The quotient set $\mathrm{E}/\mathrm{R}$ is a subset of $\mathfrak{P}(\mathrm{E})$, and the identity mapping of $\mathrm{E}/\mathrm{R}$ is a *partition* of $\mathrm{E}$ (§ 4, no. 7); for if $\mathrm{G}$ is the graph of $\mathrm{R}$, we have $x \in \mathrm{G}(x)$ for all $x \in \mathrm{E}$,
-
-and if two equivalence classes $\mathrm{G}(x)$ and $\mathrm{G}(y)$ have a common element $z$, then $\mathrm{R}\{x,\ z\}$ and $\mathrm{R}\{y,\ z\}$, so that $\mathrm{G}(x) = \mathrm{G}(y)$. Furthermore, the relation
+Let $\mathrm{R}$ be an equivalence relation on a set $\mathrm{E}$. The quotient set $\mathrm{E}/\mathrm{R}$ is a subset of $\mathfrak{P}(\mathrm{E})$, and the identity mapping of $\mathrm{E}/\mathrm{R}$ is a *partition* of $\mathrm{E}$ (§ 4, no. 7); for if $\mathrm{G}$ is the graph of $\mathrm{R}$, we have $x \in \mathrm{G}(x)$ for all $x \in \mathrm{E}$, and if two equivalence classes $\mathrm{G}(x)$ and $\mathrm{G}(y)$ have a common element $z$, then $\mathrm{R}\{x,\ z\}$ and $\mathrm{R}\{y,\ z\}$, so that $\mathrm{G}(x) = \mathrm{G}(y)$. Furthermore, the relation
 
 $$(\exists \mathrm{X})(\mathrm{X} \in \mathrm{E}/\mathrm{R} \text{ and } x \in \mathrm{X} \text{ and } y \in \mathrm{X})$$
 
@@ -196,9 +194,7 @@ Let $R\{x, y\}$ be an equivalence relation on a set E, and let A be a subset of 
 
 $$A' = \overset{-1}{f}\langle f\langle A'\rangle\rangle \supset \overset{-1}{f}\langle f\langle A\rangle\rangle.$$
 
-Hence we may say that $\overset{-1}{f}\langle f\langle A\rangle\rangle$ is the "smallest" saturated subset of E which contains A (cf. Chapter III); this set is called the *saturation*
-
-of A with respect to the relation R. It is immediately seen that the saturation of A is the union of the equivalence classes of the elements of A. If $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ is a family of subsets of E and if $\mathrm{A}_\iota$ is the saturation of $\mathrm{X}_\iota$ with respect to R, then the saturation of $\bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ is $\bigcup_{\iota \in \mathrm{I}} \mathrm{A}_\iota$ (§4, Proposition 3).
+Hence we may say that $\overset{-1}{f}\langle f\langle A\rangle\rangle$ is the "smallest" saturated subset of E which contains A (cf. Chapter III); this set is called the *saturation* of A with respect to the relation R. It is immediately seen that the saturation of A is the union of the equivalence classes of the elements of A. If $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ is a family of subsets of E and if $\mathrm{A}_\iota$ is the saturation of $\mathrm{X}_\iota$ with respect to R, then the saturation of $\bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ is $\bigcup_{\iota \in \mathrm{I}} \mathrm{A}_\iota$ (§4, Proposition 3).
 
 ### 5. MAPPINGS COMPATIBLE WITH EQUIVALENCE RELATIONS
 
@@ -216,9 +212,7 @@ $$f = j \circ k \circ g.$$
 
 This relation is called the *canonical decomposition of f*.
 
-¶ Let $f$ be a mapping of a set E into a set F, let R be an equivalence relation on E, and let S be an equivalence relation on F. Let $u$ be the canonical mapping of E onto E/R, and let $v$ be the canonical
-
-mapping of $F$ onto $F/S$. The mapping $f$ is said to be *compatible with the equivalence relations* $R$ and $S$ if $v\mathbin{\circ}f$ is compatible with $R$; this means that the relation $x\equiv x'$ (mod $R$) *implies* $f(x)\equiv f(x')$ (mod $S$). The mapping $h$ of $E/R$ into $F/S$ induced by $v\mathbin{\circ}f$ on passing to the quotient with respect to $R$ is then called the *mapping induced by $f$ on passing to the quotients with respect to $R$ and $S$*; it is characterized by the relation $v\mathbin{\circ}f=h\mathbin{\circ}u$.
+¶ Let $f$ be a mapping of a set E into a set F, let R be an equivalence relation on E, and let S be an equivalence relation on F. Let $u$ be the canonical mapping of E onto E/R, and let $v$ be the canonical mapping of $F$ onto $F/S$. The mapping $f$ is said to be *compatible with the equivalence relations* $R$ and $S$ if $v\mathbin{\circ}f$ is compatible with $R$; this means that the relation $x\equiv x'$ (mod $R$) *implies* $f(x)\equiv f(x')$ (mod $S$). The mapping $h$ of $E/R$ into $F/S$ induced by $v\mathbin{\circ}f$ on passing to the quotient with respect to $R$ is then called the *mapping induced by $f$ on passing to the quotients with respect to $R$ and $S$*; it is characterized by the relation $v\mathbin{\circ}f=h\mathbin{\circ}u$.
 
 ### 6. INVERSE IMAGE OF AN EQUIVALENCE RELATION; INDUCED EQUIVALENCE RELATION
 

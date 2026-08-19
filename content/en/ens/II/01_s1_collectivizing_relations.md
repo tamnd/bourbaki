@@ -42,7 +42,7 @@ subsections:
       pdf_page: 78
 statements: 10
 exercises: 6
-content_sha256: 945734898d276ff327911de96117c25cec8057ca8616474c2a80aaeb17231074
+content_sha256: d56a752b9382bcb5c79d67d5985b55c2f3bd6fb3df74a70fba0b4987d204ff5e
 ---
 
 ## 1. COLLECTIVIZING RELATIONS
@@ -207,9 +207,7 @@ The *scheme of selection and union* is the following :
 
 S8. *Let $R$ be a relation, let $x$ and $y$ be distinct letters, and let $X$ and $Y$ be letters distinct from $x$ and $y$ which do not appear in $R$. Then the relation*
 
-(1) $\quad (\forall y)(\exists X)(\forall x)(R \Rightarrow (x \in X)) \Rightarrow (\forall Y)\ \mathrm{Coll}_X((\exists y)((y \in Y) \text{ and } R))$
-
-*is an axiom.*
+(1) $\quad (\forall y)(\exists X)(\forall x)(R \Rightarrow (x \in X)) \Rightarrow (\forall Y)\ \mathrm{Coll}_X((\exists y)((y \in Y) \text{ and } R))$ *is an axiom.*
 
 Let us first show that this rule is indeed a scheme. Let $S$ denote the relation (1), and let us substitute a term $T$ for a letter $z$ in $S$; by CS8 (Chapter I, §4, no. 1) we may suppose that $x$, $y$, $X$, $Y$ are distinct from $z$ and do not appear in $T$. Then $(T|z)S$ is identical with
 
@@ -267,9 +265,7 @@ The relation $(x \notin \mathrm{A}$ and $x \in \mathrm{X})$ is collectivizing in
 
 *Let* $\mathrm{A}$ *be a subset of a set* $\mathrm{X}$. *The set of elements of* $\mathrm{X}$ *which do not belong to* $\mathrm{A}$, *that is to say the set* $\mathscr{E}x$ $(x \notin \mathrm{A}$ *and* $x \in \mathrm{X})$, *is called the complement of* $\mathrm{A}$ *in* $\mathrm{X}$, *and is denoted by* $\complement_{\mathrm{X}}\mathrm{A}$ *or* $\mathrm{X} - \mathrm{A}$ (or by $\complement\mathrm{A}$ if there is no risk of confusion).
 
-Let A be a subset of a set X; the relations "$x \in \mathrm{X}$ and $x \notin \mathrm{A}$" and $x \in \complement_{\mathrm{X}}\mathrm{A}$ are then equivalent. Consequently the relation "$x \in \mathrm{X}$ and $x \notin \complement_{\mathrm{X}}\mathrm{A}$" is equivalent to "$x \in \mathrm{X}$ and $(x \notin \mathrm{X}$ or $x \in \mathrm{A})$", hence to
-
-$x \in A$. In other words, $A = \complement_X(\complement_X A)$ is a true relation. Similarly, one shows that if B is a subset of X, the relations $A \subset B$ and $\complement_X B \subset \complement_X A$ are equivalent.
+Let A be a subset of a set X; the relations "$x \in \mathrm{X}$ and $x \notin \mathrm{A}$" and $x \in \complement_{\mathrm{X}}\mathrm{A}$ are then equivalent. Consequently the relation "$x \in \mathrm{X}$ and $x \notin \complement_{\mathrm{X}}\mathrm{A}$" is equivalent to "$x \in \mathrm{X}$ and $(x \notin \mathrm{X}$ or $x \in \mathrm{A})$", hence to $x \in A$. In other words, $A = \complement_X(\complement_X A)$ is a true relation. Similarly, one shows that if B is a subset of X, the relations $A \subset B$ and $\complement_X B \subset \complement_X A$ are equivalent.
 
 #### Theorem 1 {#ens-ii-s1-thm-1 .statement tag=03H9}
 

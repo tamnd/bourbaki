@@ -29,7 +29,7 @@ subsections:
       pdf_page: 112
 statements: 23
 exercises: 7
-content_sha256: 74abbb6e1b8bf5b2f6147161a14bf1f7930fcdc3c28ddd3d2c6f6736e0242eb5
+content_sha256: a9494c8e88feaa169cddea69844ed1aae9b15c415460415c216ebc68b98b4902
 ---
 
 ## § 4. SPLIT SEMI-SIMPLE LIE ALGEBRA DEFINED BY A REDUCED ROOT SYSTEM
@@ -312,9 +312,7 @@ $=-$(ad $x_{-\alpha}$)$^{1-n(\beta ,\alpha)}h_{\beta}=-n(\alpha , \beta$)(ad $x_
 
 If $n(\beta , \alpha )<0$, this expression is zero since (ad $x_{-\alpha}$)$.x_{-\alpha}= 0$. If $n(\beta , \alpha ) = 0$, then $n(\alpha , \beta ) = 0$. In both cases, $[x_{\gamma}, y_{\alpha \beta}] = 0$.
 
-Case 3$:\gamma =\alpha$. In the algebra of endomorphisms of $\mathfrak{a}$,
-
-$[$-ad $h_{\alpha}$, ad $x_{-\alpha}] = 2$ ad $x_{-\alpha}$
+Case 3$:\gamma =\alpha$. In the algebra of endomorphisms of $\mathfrak{a}$, $[$-ad $h_{\alpha}$, ad $x_{-\alpha}] = 2$ ad $x_{-\alpha}$
 
 and [ad $x_{\alpha}$, ad $x_{-\alpha}] =$-ad $h_{\alpha}$; thus, by §1, Lemma 1,
 

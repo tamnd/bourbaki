@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: 63a09b9872a4829432cbd1845785e48a1b63dc9dcc93d902232cc84e151f151e
+content_sha256: 615a424395d02536abb89648bf8742fcbb947b618f6b73bb94673f242901bf18
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
@@ -372,9 +372,7 @@ In view of Prop. 1 of no. 2 and the relation exp$^*_T\omega_T=\omega_{\mathfrak{
 
 $\psi^*$exp$^*_G\omega_G=\omega_{G/T}\wedge \delta_{\mathfrak{g}}\omega_{\mathfrak{t}}$.
 
-By Prop. $2,\psi^*$exp$^*_G\omega_G= (\psi^*\lambda_{\mathfrak{g}})\psi^*\omega_{\mathfrak{g}}$. Since the function $\lambda_{\mathfrak{g}}$ is invariant under Ad(G), we have
-
-$(\psi^*\lambda_{\mathfrak{g}})(\overline{g}, x) =\lambda_{\mathfrak{g}}(x) =\frac{\delta_{\mathfrak{g}}(x)}{\pi_{\mathfrak{g}}(x)}$ for $\overline{g}\in G/T, x\in \mathfrak{t}$.
+By Prop. $2,\psi^*$exp$^*_G\omega_G= (\psi^*\lambda_{\mathfrak{g}})\psi^*\omega_{\mathfrak{g}}$. Since the function $\lambda_{\mathfrak{g}}$ is invariant under Ad(G), we have $(\psi^*\lambda_{\mathfrak{g}})(\overline{g}, x) =\lambda_{\mathfrak{g}}(x) =\frac{\delta_{\mathfrak{g}}(x)}{\pi_{\mathfrak{g}}(x)}$ for $\overline{g}\in G/T, x\in \mathfrak{t}$.
 
 It follows that the forms $\psi^*\omega_G(\overline{g}, x)$ and $\omega_{G/T}(\overline{g})\wedge \pi_{\mathfrak{g}}(x)\omega_{\mathfrak{t}}(x)$ coincide where $\delta_{\mathfrak{g}}(x)$ is non-zero, that is on the dense open subset $(G/T)\times \mathfrak{t}_r$; thus, they are equal, hence the proposition.
 

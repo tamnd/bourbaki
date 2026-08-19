@@ -22,7 +22,7 @@ subsections:
       pdf_page: 81
 statements: 4
 exercises: 2
-content_sha256: 39df2ab84c1a4cd7487506eb10473433071a3570142a04a0b8feb982b45bc203
+content_sha256: f473daade1409be8bf0f14c3e035373513374f1c79945abe02bfe401f01ae8ce
 ---
 
 ## 2. ORDERED PAIRS
@@ -75,9 +75,7 @@ $$
 (\exists x)(\exists y)(z=(x,y)\text{ and }R\{x,y\});
 $$
 
-this is a relation which contains one letter fewer than $R$, and which is *equivalent* to “$z$ is an ordered pair and $R\{\operatorname{pr}_1z,\operatorname{pr}_2z\}$”, this follows from the fact that $z=(x,y)$ is equivalent to “$z$ is an ordered pair and $x=\operatorname{pr}_1z$ and $y=\operatorname{pr}_2z$”, and from criteria C33 (Chapter I, §4, no. 3)
-
-and C47 (Chapter I, §5, no. 3). It follows immediately that $R\{x, y\}$ is equivalent to $S\{(x, y)\}$, and also to
+this is a relation which contains one letter fewer than $R$, and which is *equivalent* to “$z$ is an ordered pair and $R\{\operatorname{pr}_1z,\operatorname{pr}_2z\}$”, this follows from the fact that $z=(x,y)$ is equivalent to “$z$ is an ordered pair and $x=\operatorname{pr}_1z$ and $y=\operatorname{pr}_2z$”, and from criteria C33 (Chapter I, §4, no. 3) and C47 (Chapter I, §5, no. 3). It follows immediately that $R\{x, y\}$ is equivalent to $S\{(x, y)\}$, and also to
 
 $$(\exists z)(z = (x, y) \text{ and } S\{z\})$$
 

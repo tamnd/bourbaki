@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 16
 exercises: 1
-content_sha256: de7318f61d5fc652f9c0bae9f51aa21b36eb7c5f41b68e31d48196596059814b
+content_sha256: 1e433d5fd275665be4f3b93ebc19ae2c076a41361557d1f4d452ff7c5e127dc5
 ---
 
 ## 1. STRUCTURES AND ISOMORPHISMS
@@ -124,9 +124,7 @@ is called a *typification* of the letters $s_1, \ldots, s_p$.
 
 *implies, in* $\mathscr{T}$, *the relation*
 
-(2)     $\mathrm{R}\{x_1, \ldots, x_n, s_1, \ldots, s_p\} \Leftrightarrow \mathrm{R}\{y_1, \ldots, y_n, s'_1, \ldots, s'_p\}$,
-
-where
+(2)     $\mathrm{R}\{x_1, \ldots, x_n, s_1, \ldots, s_p\} \Leftrightarrow \mathrm{R}\{y_1, \ldots, y_n, s'_1, \ldots, s'_p\}$, where
 
 $$(3) \qquad s'_j = \langle f_1, \ldots, f_n, \mathrm{Id}_1, \ldots, \mathrm{Id}_m \rangle^s{}_j(s_j) \qquad (1 \leqslant j \leqslant p).$$
 
@@ -221,9 +219,7 @@ By abuse of language, in the theory of sets $\mathscr{T}$, the giving of $n$ dis
 
 ### 5. ISOMORPHISMS AND TRANSPORT OF STRUCTURES
 
-Let $\Sigma$ be a species of structures in a theory $\mathscr{T}$, on $n$ principal base sets $x_1, \ldots, x_n$, with $m$ auxiliary base sets $A_1, \ldots, A_m$. Let S be the echelon construction scheme on $n + m$ letters which features in the typical characterization of $\Sigma$, and let R be the axiom of $\Sigma$. In a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$, let U be a structure of species $\Sigma$ on sets $E_1, \ldots, E_n$ (as principal base sets) and let U$'$ be a structure *of the same species* on sets $E'_1, \ldots, E'_n$. Finally, let $f_i$ (in $\mathscr{T}'$) be a *bijection* of $E_i$
-
-onto $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$. Then $(f_1, \ldots, f_n)$ is said to be an *isomorphism* of the sets $\mathrm{E}_1, \ldots, \mathrm{E}_n$, endowed with the structure U, onto the sets $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$, endowed with the structure $\mathrm{U}'$, if we have (in $\mathscr{C}'$)
+Let $\Sigma$ be a species of structures in a theory $\mathscr{T}$, on $n$ principal base sets $x_1, \ldots, x_n$, with $m$ auxiliary base sets $A_1, \ldots, A_m$. Let S be the echelon construction scheme on $n + m$ letters which features in the typical characterization of $\Sigma$, and let R be the axiom of $\Sigma$. In a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$, let U be a structure of species $\Sigma$ on sets $E_1, \ldots, E_n$ (as principal base sets) and let U$'$ be a structure *of the same species* on sets $E'_1, \ldots, E'_n$. Finally, let $f_i$ (in $\mathscr{T}'$) be a *bijection* of $E_i$ onto $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$. Then $(f_1, \ldots, f_n)$ is said to be an *isomorphism* of the sets $\mathrm{E}_1, \ldots, \mathrm{E}_n$, endowed with the structure U, onto the sets $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$, endowed with the structure $\mathrm{U}'$, if we have (in $\mathscr{C}'$)
 
 (4) $$\langle f_1, \ldots, f_n, \mathrm{Id}_1, \ldots, \mathrm{Id}_m \rangle^{\mathrm{S}}(\mathrm{U}) = \mathrm{U}'$$
 
@@ -291,9 +287,7 @@ It is clear that the terms $x_1, \ldots, x_n$ are intrinsic for $s$. In many cas
 
 The species of *topological group* structures has a single principal base set A, no auxiliary base set, and the corresponding generic structure is a pair $(s_1, s_2)$ ($s_1$ being the graph of the law of composition on A, and $s_2$ the set of open sets in the topology of A; cf. *General Topology*, Chapter III, § 1). Each of the terms $s_1$, $s_2$ is a procedure of deduction and provides respectively the *group structure* and the *topology* underlying the topological group structure $(s_1, s_2)$.
 
-Likewise, from a vector space structure can be deduced an underlying commutative group structure. From a ring structure can be deduced an underlying commutative group structure and a (multiplicative) semigroup
-
-structure. From the structure of a differentiable manifold can be deduced an underlying topology, etc.
+Likewise, from a vector space structure can be deduced an underlying commutative group structure. From a ring structure can be deduced an underlying commutative group structure and a (multiplicative) semigroup structure. From the structure of a differentiable manifold can be deduced an underlying topology, etc.
 
 #### Example 2 {#ens-iv-s1-n6-exa-2 .statement tag=03VF}
 
@@ -349,9 +343,7 @@ $$\text{and} \qquad (\forall x)((x \in A) \Rightarrow (M(1,\ x) = x)).$$
 
 ("multiplication of an element of A by an integer").
 
-Consider the species $\Theta$ of $\mathbf{Z}$-*module* structures, which has a single principal base set A, with $\mathbf{Z}$ as auxiliary set, and whose generic struc-
-
-ture contains two letters G, L, with the typical characterization
+Consider the species $\Theta$ of $\mathbf{Z}$-*module* structures, which has a single principal base set A, with $\mathbf{Z}$ as auxiliary set, and whose generic structure contains two letters G, L, with the typical characterization
 
 $$\mathrm{G} \in \mathfrak{P}((\mathrm{A} \times \mathrm{A}) \times \mathrm{A}) \quad \text{and} \quad \mathrm{L} \in \mathfrak{P}((\mathbf{Z} \times \mathrm{A}) \times \mathrm{A})$$
 

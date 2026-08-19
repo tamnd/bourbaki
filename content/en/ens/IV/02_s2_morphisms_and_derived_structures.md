@@ -38,7 +38,7 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: 1df0116fa77b9eebc1d44429db56bb11c1cc04c82010063f9e8691600a51190e
+content_sha256: 508234f6c40b4b87edaab10f0205c3451c459633a2d85802f377e1846ad8f779
 ---
 
 ## 2. MORPHISMS AND DERIVED STRUCTURES
@@ -63,9 +63,7 @@ If $\Sigma$ and $\sigma$ are given, the relation $f \in \sigma\{x, y, s, t\}$ is
 
 #### Example 1 {#ens-iv-s2-n1-exa-1 .statement tag=03VL}
 
-Take $\Sigma$ to be the species of order structures and let $\sigma\{x,\ y,\ s,\ t\}$ denote the set of all mappings $f$ of $x$ into $y$ such that the relation $(u,\ v) \in s$ implies $(f(u), f(v)) \in t$. With the notation of Chapter III, § 1,
-
-this means that $u \leqslant v$ implies $f(u) \leqslant f(v)$, i.e., that $f$ is *increasing*. The verification of axioms $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, and $(\mathrm{MO_{III}})$ is obvious.
+Take $\Sigma$ to be the species of order structures and let $\sigma\{x,\ y,\ s,\ t\}$ denote the set of all mappings $f$ of $x$ into $y$ such that the relation $(u,\ v) \in s$ implies $(f(u), f(v)) \in t$. With the notation of Chapter III, § 1, this means that $u \leqslant v$ implies $f(u) \leqslant f(v)$, i.e., that $f$ is *increasing*. The verification of axioms $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, and $(\mathrm{MO_{III}})$ is obvious.
 
 #### Example 2 {#ens-iv-s2-n1-exa-2 .statement tag=03VM}
 
@@ -165,9 +163,7 @@ is therefore equivalent to the relation
 
 (2)     "for all $\iota \in \mathrm{I}$, $f_\iota \circ u$ is a morphism of F into $\mathrm{A}_\iota$".
 
-Now, to say that $\mathscr{I}'$ is the initial structure with respect to the family $(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$ means that relation (1) is equivalent to the relation "$u$ is a morphism of F into E endowed with $\mathscr{I}'$"; and to say that $\mathscr{I}$ is the
-
-initial structure with respect to the family $(\mathrm{A}_\iota, \mathscr{S}_\iota, f_\iota)_{\iota \in \mathrm{I}}$ means that relation (2) is equivalent to the relation "$u$ is a morphism of F into E endowed with I". Hence the result, in view of the property of uniqueness of initial structure.
+Now, to say that $\mathscr{I}'$ is the initial structure with respect to the family $(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$ means that relation (1) is equivalent to the relation "$u$ is a morphism of F into E endowed with $\mathscr{I}'$"; and to say that $\mathscr{I}$ is the initial structure with respect to the family $(\mathrm{A}_\iota, \mathscr{S}_\iota, f_\iota)_{\iota \in \mathrm{I}}$ means that relation (2) is equivalent to the relation "$u$ is a morphism of F into E endowed with I". Hence the result, in view of the property of uniqueness of initial structure.
 
 ### 4. EXAMPLES OF INITIAL STRUCTURES
 
@@ -185,9 +181,7 @@ CST11. *Let* B *be a subset of* A, *let* C *be a subset of* B, *and let* $\maths
 
 CST12. *Let* A, A$'$ *be two sets endowed with structures* $\mathscr{S}$, $\mathscr{S}'$ *of species* $\Sigma$. *Let* B *be a subset of* A, *and* B$'$ *a subset of* A$'$. *Suppose that* $\mathscr{S}$ (resp. $\mathscr{S}'$) *induces a structure of species* $\Sigma$ *on* B (resp. B$'$). *If $f$ is a morphism of* A *into* A$'$ *such that $f(\mathrm{B}) \subset \mathrm{B}'$, then the mapping $g$ of* B *into* B$'$ *which coincides with $f$ on* B *is a morphism* (*with respect to the structures induced by* $\mathscr{S}$ *and* $\mathscr{S}'$).
 
-Let $j$ (resp. $j'$) be the canonical injection of B (resp. B$'$) into A (resp. A$'$). By definition we have $f \circ j = j' \circ g$. Since $f$ and $j$ are morphisms,
-
-so is $f \circ j$ by $(\mathrm{MO_{II}})$; but then, $j' \circ g$ being a morphism, the mapping $g$ is a morphism by the definition of initial structure.
+Let $j$ (resp. $j'$) be the canonical injection of B (resp. B$'$) into A (resp. A$'$). By definition we have $f \circ j = j' \circ g$. Since $f$ and $j$ are morphisms, so is $f \circ j$ by $(\mathrm{MO_{II}})$; but then, $j' \circ g$ being a morphism, the mapping $g$ is a morphism by the definition of initial structure.
 
 III. *Product structure.* Let $(\mathrm{A}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets, and on each set $\mathrm{A}_\iota$ let $\mathscr{S}_\iota$ be a structure of species $\Sigma$. Let $\mathrm{E} = \prod_{\iota \in \mathrm{I}} \mathrm{A}_\iota$ be the *product* of the family $(\mathrm{A}_\iota)_{\iota \in \mathrm{I}}$ (Chapter II, § 5), and let $\mathrm{pr}_\iota$ denote the projection of $\mathrm{E}$ onto $\mathrm{A}_\iota$. The initial structure (if it exists) with respect to the family $(\mathrm{A}_\iota, \mathscr{S}_\iota, \mathrm{pr}_\iota)_{\iota \in \mathrm{I}}$ is called the *product* of the structures $\mathscr{S}_\iota$.
 
@@ -297,9 +291,7 @@ To say that $\mathscr{S}'$ is the final structure with respect to the family $(\
 
 I. *Direct image of a structure.*   When I is a set consisting of a single element, the final structure with respect to $(\mathrm{A}, \mathscr{S}, f)$ is called the *direct image under* $f$ *of the structure* $\mathscr{S}$ (when it exists).
 
-II. *Quotient structure.*   Let A be a set endowed with a structure $\mathscr{S}$ of species $\Sigma$, let R be an equivalence relation on A, and let $\varphi$ be the
-
-canonical mapping of A onto the quotient set $\mathrm{E} = \mathrm{A}/\mathrm{R}$ (Chapter II, § 6, no. 2). The direct image of the structure $\mathscr{S}$ under the mapping $\varphi$ is called (when it exists) the *quotient* of the structure $\mathscr{S}$ by the relation R.
+II. *Quotient structure.*   Let A be a set endowed with a structure $\mathscr{S}$ of species $\Sigma$, let R be an equivalence relation on A, and let $\varphi$ be the canonical mapping of A onto the quotient set $\mathrm{E} = \mathrm{A}/\mathrm{R}$ (Chapter II, § 6, no. 2). The direct image of the structure $\mathscr{S}$ under the mapping $\varphi$ is called (when it exists) the *quotient* of the structure $\mathscr{S}$ by the relation R.
 
 * In general, an order structure or an algebraic structure does not admit quotient structures with respect to arbitrary equivalence relations (cf. Chapter III, § 1, Exercise 2). On the other hand, a topology always admits a quotient structure with respect to an arbitrary equivalence relation, but this is not necessarily the case for a Hausdorff topology. *
 

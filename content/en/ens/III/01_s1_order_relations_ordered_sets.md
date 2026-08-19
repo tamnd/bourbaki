@@ -66,7 +66,7 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: 95b4b1f6e727c6c9c77263350b775189fc2be5b0825b34cc82c7de3e44faa7a7
+content_sha256: 38894f1ab788b01edc0693d18af32d763fc6ea2801e6da2735d22d3854ee5b19
 ---
 
 ## 1. ORDER RELATIONS. ORDERED SETS
@@ -246,9 +246,7 @@ is an order relation between $x = (x_\iota)$ and $y = (y_\iota)$, as is immediat
 
 It is immediately verified that the graph of the product ordering on F is the image of the product set $\prod_{\iota \in I} G_\iota$ under the canonical mapping of $\prod_{\iota \in I} (E_\iota \times E_\iota)$ onto $F \times F$ (Chapter II, § 5, no. 5).
 
-An important example of a product of ordered sets is the set $F^E$ of graphs of mappings of a set E into an ordered set F. There is a canonical bijection of $F^E$ onto the set $\mathfrak{F}(E, F)$ of mappings of E into F, and this mapping is an isomorphism of the ordered set $F^E$ onto $\mathfrak{F}(E, F)$ endowed
-
-with the ordering defined by the relation "for all $x \in E$, $f(x) \leqslant g(x)$" between two mappings $f$, $g$ of E into F.  This relation is written $f \leqslant g$.
+An important example of a product of ordered sets is the set $F^E$ of graphs of mappings of a set E into an ordered set F. There is a canonical bijection of $F^E$ onto the set $\mathfrak{F}(E, F)$ of mappings of E into F, and this mapping is an isomorphism of the ordered set $F^E$ onto $\mathfrak{F}(E, F)$ endowed with the ordering defined by the relation "for all $x \in E$, $f(x) \leqslant g(x)$" between two mappings $f$, $g$ of E into F.  This relation is written $f \leqslant g$.
 
 ☡
 
@@ -445,9 +443,7 @@ $$a' = \sup_{\iota \in I} x_\iota.$$
 
 #### Corollary {#ens-iii-s1-n9-cor-2 .statement tag=03JP}
 
-*Let* $(x_{\lambda\mu})_{(\lambda,\ \mu) \in L \times M}$ *be a "double" family of elements of an ordered set* $\mathrm{E}$ *such that for each* $\mu \in \mathrm{M}$ *the family* $(x_{\lambda\mu})_{\lambda \in L}$ *has a least upper bound in* $\mathrm{E}$. *For the family* $(x_{\lambda\mu})_{(\lambda,\ \mu) \in L \times M}$ *to have a least upper bound in* $\mathrm{E}$, *it is necessary and sufficient that the family* $\left( \sup\limits_{\lambda \in L} x_{\lambda\mu} \right)_{\mu \in M}$ *should have a least*
-
-*upper bound in* E, *and then we have*
+*Let* $(x_{\lambda\mu})_{(\lambda,\ \mu) \in L \times M}$ *be a "double" family of elements of an ordered set* $\mathrm{E}$ *such that for each* $\mu \in \mathrm{M}$ *the family* $(x_{\lambda\mu})_{\lambda \in L}$ *has a least upper bound in* $\mathrm{E}$. *For the family* $(x_{\lambda\mu})_{(\lambda,\ \mu) \in L \times M}$ *to have a least upper bound in* $\mathrm{E}$, *it is necessary and sufficient that the family* $\left( \sup\limits_{\lambda \in L} x_{\lambda\mu} \right)_{\mu \in M}$ *should have a least* *upper bound in* E, *and then we have*
 
 $$(2) \qquad \sup_{(\lambda,\,\mu)\in L\times M} x_{\lambda\mu} = \sup_{\mu\in M}\left(\sup_{\lambda\in L} x_{\lambda\mu}\right).$$
 
@@ -516,9 +512,7 @@ For every $x \in \mathrm{E}$ there exists by hypothesis $y \in \mathrm{E}$ such 
 
 *An ordered set* E *is said to be a lattice if every subset consisting of two elements of* E *has a least upper bound and a greatest lower bound in* E.
 
-Every product of lattices is a lattice; this follows from the condition for the existence of a least upper bound in a product of ordered sets (no. 9, Proposition 8). The set of subsets of a set A, ordered by inclusion, is a lattice
-
-because the union and intersection of two subsets of A are again subsets of A.
+Every product of lattices is a lattice; this follows from the condition for the existence of a least upper bound in a product of ordered sets (no. 9, Proposition 8). The set of subsets of a set A, ordered by inclusion, is a lattice because the union and intersection of two subsets of A are again subsets of A.
 
 *Examples*
 
@@ -594,9 +588,7 @@ Let E be an ordered set and let $a$, $b$ be two elements of E such that $a \leqs
 
 Note that a closed interval is never empty; the interval $[a, a]$ is the set $\{a\}$. On the other hand, the intervals $[a, a[$, $]a, a]$, $]a, a[$ are all empty; and an open interval $]a, b[$ may be empty even when $a < b$.
 
-Let $a$ be an element of E. The set of all $x \in \mathrm{E}$ such that $x \leqslant a$ (resp. $x < a$) is called the *closed* (resp. *open*) *interval unbounded on the left, with right-hand endpoint a*, and is denoted by $]{\leftarrow}, a]$ (resp. $]{\leftarrow}, a[$); likewise, the set of all $x \in \mathrm{E}$ such that $x \geqslant a$ (resp. $x > a$) is called the *closed* (resp. *open*) *interval with left-hand endpoint a, unbounded on the right*, and is denoted by $[a, {\rightarrow}[$ (resp. $]a, {\rightarrow}[$). Finally, E itself may be
-
-regarded as the *open interval unbounded on the left and on the right*, denoted by $]\leftarrow, \rightarrow[$.
+Let $a$ be an element of E. The set of all $x \in \mathrm{E}$ such that $x \leqslant a$ (resp. $x < a$) is called the *closed* (resp. *open*) *interval unbounded on the left, with right-hand endpoint a*, and is denoted by $]{\leftarrow}, a]$ (resp. $]{\leftarrow}, a[$); likewise, the set of all $x \in \mathrm{E}$ such that $x \geqslant a$ (resp. $x > a$) is called the *closed* (resp. *open*) *interval with left-hand endpoint a, unbounded on the right*, and is denoted by $[a, {\rightarrow}[$ (resp. $]a, {\rightarrow}[$). Finally, E itself may be regarded as the *open interval unbounded on the left and on the right*, denoted by $]\leftarrow, \rightarrow[$.
 
 #### Proposition 13 {#ens-iii-s1-prop-13 .statement tag=03JU}
 

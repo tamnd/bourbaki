@@ -45,7 +45,7 @@ errata:
     - says: § 6, no. 3, Theorem 3
       read: § 6, no. 3, Theorem 2
       why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma 1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries on page 188. The Corollary 4 this sentence cites with it is the one that puts the product of two cardinals, one of them infinite, at their supremum, which is Corollary 4 of Theorem 2 and is what the sentence is about.
-content_sha256: da076d38fc218b1d22d88e12e76d715ae2c24eb275d05746754b09a72237c9f5
+content_sha256: f6c3fa2d1a8c7d26b877594fd50281f9b7654e7deaf8f72093caef9d44d7fafb
 ---
 
 ## 3. EQUIPOTENT SETS. CARDINALS
@@ -138,9 +138,7 @@ Clearly we have $0\leq\xi$ for every cardinal $\xi$, and $1\leq\xi$ for every ca
 
 #### Remark {#ens-iii-s3-n2-rem-1 .statement tag=03R0}
 
-Given any set $A$, there exists a set whose elements are the cardinals $\operatorname{Card}(X)$ for all the subsets $X$ of $A$, namely, the set of objects of the form $\operatorname{Card}(X)$ for $X\in\mathfrak{P}(A)$ (Chapter II, § 1, no. 6). For every cardinal $\alpha$ the relation “$\xi$ is a cardinal and $\xi\leq\alpha$” is therefore collectivizing in $\alpha$ (Chapter II, § 1, no. 4), because it is equivalent to the
-
-relation "$\mathfrak{x}$ is of the form Card (X) for $X \subset \mathfrak{a}$"; the set of all $\mathfrak{x}$ satisfying this relation is called the *set of cardinals* $\leqslant \mathfrak{a}$.
+Given any set $A$, there exists a set whose elements are the cardinals $\operatorname{Card}(X)$ for all the subsets $X$ of $A$, namely, the set of objects of the form $\operatorname{Card}(X)$ for $X\in\mathfrak{P}(A)$ (Chapter II, § 1, no. 6). For every cardinal $\alpha$ the relation “$\xi$ is a cardinal and $\xi\leq\alpha$” is therefore collectivizing in $\alpha$ (Chapter II, § 1, no. 4), because it is equivalent to the relation "$\mathfrak{x}$ is of the form Card (X) for $X \subset \mathfrak{a}$"; the set of all $\mathfrak{x}$ satisfying this relation is called the *set of cardinals* $\leqslant \mathfrak{a}$.
 
 #### Proposition 2 {#ens-iii-s3-prop-2 .statement tag=03KL}
 
@@ -204,9 +202,7 @@ are also mutually disjoint.
 
 ¶ Finally, (c) follows from the distributivity of the product over union and intersection (Chapter II, § 5, no. 6, Proposition 9 and Corollary 1).
 
-¶ Let $\mathfrak{a}$ and $\mathfrak{b}$ be two cardinals. If I is a set consisting of two distinct elements (e.g., the cardinal 2), there exists a mapping $f$ of I onto $\{\mathfrak{a}, \mathfrak{b}\}$ which defines a family of cardinals. The sum and product of this family
-
-depend only on $\mathfrak{a}$ and $\mathfrak{b}$ (by reason of Proposition 5(a)); these cardinals are called respectively the *sum* and the *product* of $\mathfrak{a}$ and $\mathfrak{b}$, and are denoted by $\mathfrak{a} + \mathfrak{b}$ and $\mathfrak{a}\mathfrak{b}$. Similarly for the sum and product of three or more cardinals. Proposition 5 then implies the following corollary :
+¶ Let $\mathfrak{a}$ and $\mathfrak{b}$ be two cardinals. If I is a set consisting of two distinct elements (e.g., the cardinal 2), there exists a mapping $f$ of I onto $\{\mathfrak{a}, \mathfrak{b}\}$ which defines a family of cardinals. The sum and product of this family depend only on $\mathfrak{a}$ and $\mathfrak{b}$ (by reason of Proposition 5(a)); these cardinals are called respectively the *sum* and the *product* of $\mathfrak{a}$ and $\mathfrak{b}$, and are denoted by $\mathfrak{a} + \mathfrak{b}$ and $\mathfrak{a}\mathfrak{b}$. Similarly for the sum and product of three or more cardinals. Proposition 5 then implies the following corollary :
 
 #### Corollary {#ens-iii-s3-n3-cor-2 .statement tag=03R2}
 

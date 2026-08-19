@@ -796,7 +796,7 @@ books:
               statements: 7
               exercises: 4
               extraction: native
-              content_sha256: f8c28e97a6040723ba5666e0a451d578263ebc6107c92854f395b1a1eeecac88
+              content_sha256: 35b05a39838f20b88ddf3fc98b3fdd147867c98e1efaf99bb5c98caf247537a5
             - kind: appendix
               section: 2
               title: A connectedness property
@@ -874,7 +874,7 @@ books:
               statements: 23
               exercises: 7
               extraction: native
-              content_sha256: 74abbb6e1b8bf5b2f6147161a14bf1f7930fcdc3c28ddd3d2c6f6736e0242eb5
+              content_sha256: a9494c8e88feaa169cddea69844ed1aae9b15c415460415c216ebc68b98b4902
             - kind: section
               section: 5
               title: Automorphisms of a semi-simple Lie algebra
@@ -887,7 +887,7 @@ books:
               statements: 25
               exercises: 13
               extraction: native+ocr
-              content_sha256: b133f8ff3b2aa281515dc9b6901dfc5eeb5966a738193ad98daa0fe7b5d371a8
+              content_sha256: a1d0b9433cf5b198abcf0509ba2e9f5eb8b68353a4b2fdd1097f389a9f20c040
             - kind: section
               section: 6
               title: Modules over a split semi-simple Lie algebra
@@ -939,7 +939,7 @@ books:
               statements: 12
               exercises: 16
               extraction: native
-              content_sha256: f92e31adabd09e50ba9a1e86faebace09716fdabfa21192ff3e1bffeb0544f74
+              content_sha256: 6f8271dc9e053ff6f8db999207502272c8b3d682e9b44d1fa439608ca494b092
             - kind: section
               section: 10
               title: Maximal subalgebras of semi-simple Lie algebras
@@ -1082,7 +1082,7 @@ books:
               statements: 25
               exercises: 13
               extraction: native
-              content_sha256: 63a09b9872a4829432cbd1845785e48a1b63dc9dcc93d902232cc84e151f151e
+              content_sha256: 615a424395d02536abb89648bf8742fcbb947b618f6b73bb94673f242901bf18
             - kind: section
               section: 7
               title: Irreducible representations of connected compact Lie groups
@@ -1108,7 +1108,7 @@ books:
               statements: 9
               exercises: 6
               extraction: native
-              content_sha256: 8c55487290f8aa87fb5128b3001a0678de3e77fffae5998ca3064c6c7d612dab
+              content_sha256: 5c04fb9747792c80021adfdf8ba74d886810070b809ae6894a3b9cfbc17ca32c
             - kind: section
               section: 9
               title: Compact Lie groups operating on manifolds
@@ -1147,7 +1147,7 @@ books:
               statements: 6
               exercises: 0
               extraction: native
-              content_sha256: af5e30a3cd289de60e5262bbbf1ae21395a2a746327f707cf137798ab9a218f3
+              content_sha256: b1abe927440628b085d7a372f483b3d90c467463452fcb1aefa24f60c64818f0
     - id: ta-i-iv-fr
       chapters:
         - chapter: I
@@ -1955,7 +1955,7 @@ books:
               statements: 5
               exercises: 6
               extraction: ocr
-              content_sha256: bbd7a5190da4bab5fb7ec796a94619a8dd8c0628947bd1a6aa35eabe2daa40a0
+              content_sha256: 0ee801130c4937b60178227e19ee4a8160108632ae38780ac29f1c6072b194de
             - kind: section
               section: 2
               title: Theorems
@@ -1994,7 +1994,7 @@ books:
               statements: 0
               exercises: 8
               extraction: ocr
-              content_sha256: cb6abb308e39323481ab5b736963a71c1fee531b448b0921190b96a62cfa1033
+              content_sha256: 925e2bcab4be745aed7f8144472e31fbff6ba56d97432fbf6fd6794efb7b351c
             - kind: section
               section: 5
               title: Equalitarian theories
@@ -2007,7 +2007,7 @@ books:
               statements: 3
               exercises: 7
               extraction: ocr
-              content_sha256: c49154b5d581ddcf39f153a1ef13db9d02c6c523721b4d0e07f23ac5b38a1f91
+              content_sha256: 8cbe15ed2020b27b62da706075017d090591d51c972f6b3ce0f6ebf686257ba1
             - kind: appendix
               title: Characterization of terms and relations
               path: content/en/ens/I/A_a_characterization_of_terms_and_relations.md
@@ -2019,7 +2019,7 @@ books:
               statements: 7
               exercises: 8
               extraction: ocr
-              content_sha256: edb021fd8f3949693679ebb01f91bf25e20ec7a14a764b2755ff6b36f5e23268
+              content_sha256: 73604ed21aca07e9d557662fff63bc2ca3aae7ec6cbcfe52b562ef7ab4c6154a
         - chapter: II
           title: THEORY OF SETS
           sections:
@@ -2046,7 +2046,7 @@ books:
               statements: 10
               exercises: 6
               extraction: ocr
-              content_sha256: 945734898d276ff327911de96117c25cec8057ca8616474c2a80aaeb17231074
+              content_sha256: d56a752b9382bcb5c79d67d5985b55c2f3bd6fb3df74a70fba0b4987d204ff5e
             - kind: section
               section: 2
               title: Ordered pairs
@@ -2059,7 +2059,7 @@ books:
               statements: 4
               exercises: 2
               extraction: ocr
-              content_sha256: 39df2ab84c1a4cd7487506eb10473433071a3570142a04a0b8feb982b45bc203
+              content_sha256: f473daade1409be8bf0f14c3e035373513374f1c79945abe02bfe401f01ae8ce
             - kind: section
               section: 3
               title: Correspondences
@@ -2072,7 +2072,7 @@ books:
               statements: 37
               exercises: 11
               extraction: ocr
-              content_sha256: 8a4115cf22d57ea009a5fd57d02c81b51fc1ae5d0adb1e6d32b5c21f6d93004f
+              content_sha256: 60ede35692adda5e352fb5ed4e83104684ee677c270bb26454076325d1e9eca4
             - kind: section
               section: 4
               title: Union and intersection of a family of sets
@@ -2085,7 +2085,7 @@ books:
               statements: 22
               exercises: 8
               extraction: ocr
-              content_sha256: fa664243f694205d57fee07324e9530b13d7e92d6d61e5dd3cf3c072e6ee2fa0
+              content_sha256: 8ab4db7f9a2c0d1786f20c3a5b58b30762f788c0e22d4b5bbb3b149751d0c051
             - kind: section
               section: 5
               title: Product of a family of sets
@@ -2098,7 +2098,7 @@ books:
               statements: 24
               exercises: 3
               extraction: ocr
-              content_sha256: ab63a5e5cc2acfa6050b72f3f3101a1a02b76af5e7ed1e3ff8a72602c1299fba
+              content_sha256: 6393d275988966957f40f77915a91adb15df38100389f3da1b06130ef11ecd50
             - kind: section
               section: 6
               title: Equivalence relations
@@ -2111,7 +2111,7 @@ books:
               statements: 12
               exercises: 11
               extraction: ocr
-              content_sha256: c6c3e77659f381e6b77f183ba2f44f12d66221c3beccde4dd5c2acdfdb891b2e
+              content_sha256: 6bc9ceffca6d2226ba430227dbf5798495a6ee810349140ce93677c7c35070e9
         - chapter: III
           title: ORDERED SETS, CARDINALS, INTEGERS
           sections:
@@ -2138,7 +2138,7 @@ books:
               statements: 52
               exercises: 24
               extraction: ocr
-              content_sha256: 95b4b1f6e727c6c9c77263350b775189fc2be5b0825b34cc82c7de3e44faa7a7
+              content_sha256: 38894f1ab788b01edc0693d18af32d763fc6ea2801e6da2735d22d3854ee5b19
             - kind: section
               section: 2
               title: Well-ordered sets
@@ -2151,7 +2151,7 @@ books:
               statements: 28
               exercises: 20
               extraction: ocr
-              content_sha256: 845dbc1c55782e844864e013a4f025af3a86e8adc2f2ab053394718e2cac3395
+              content_sha256: 99e23b3436ca4b6d843107f58900119e0912e966f7d9b5f9e4cda130442d7adf
             - kind: section
               section: 3
               title: Equipotent sets. Cardinals
@@ -2164,7 +2164,7 @@ books:
               statements: 37
               exercises: 6
               extraction: ocr
-              content_sha256: da076d38fc218b1d22d88e12e76d715ae2c24eb275d05746754b09a72237c9f5
+              content_sha256: f6c3fa2d1a8c7d26b877594fd50281f9b7654e7deaf8f72093caef9d44d7fafb
             - kind: section
               section: 4
               title: Natural integers. Finite sets
@@ -2177,7 +2177,7 @@ books:
               statements: 15
               exercises: 11
               extraction: ocr
-              content_sha256: 1732f68fff64279b29515ae018528520592624e21906373ba7474e14191b2e68
+              content_sha256: 4a072096ffffd9564c385dad351b447db76172ec442dedd3e07d9c5178c5b614
             - kind: section
               section: 5
               title: Properties of integers
@@ -2190,7 +2190,7 @@ books:
               statements: 30
               exercises: 18
               extraction: ocr
-              content_sha256: 539828b0c422fed3a1cc49cb93eb6b9243ff661d733b947ed2c4b6d11d68b451
+              content_sha256: 227995e3e40c42d7aac3c7fee7b0de8741d20ea57828a02e3dc9788ffdb8e502
             - kind: section
               section: 6
               title: Infinite sets
@@ -2203,7 +2203,7 @@ books:
               statements: 26
               exercises: 32
               extraction: ocr
-              content_sha256: 582cf6b72da04a2a5aa39ce3a169ce0e14c682288683b56b10d2a75a9b9e4de7
+              content_sha256: ee86ba0ff12c3ec8fd6f5cd89b21236c8340af4e370be463dc8b042007030243
             - kind: section
               section: 7
               title: Inverse limits and direct limits
@@ -2216,7 +2216,7 @@ books:
               statements: 34
               exercises: 9
               extraction: ocr
-              content_sha256: 3203bbc4a92310057bd8d756d11de83e7fba92da7a7a4944a0823379e9b3ec20
+              content_sha256: bb7a905be6e261263bf397713f2e02a786db093bb92d5bee9bb0125307d41884
             - kind: historical
               title: Historical Note
               path: content/en/ens/III/historical_note.md
@@ -2227,7 +2227,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: e392386e3fdea6fa40644954a9f6261d3e55aa11cd69be63e10a7679af76d092
+              content_sha256: 35c7fafb7fcf59df7cdf3b82fc528a165d03d9d6a7897b9d7068e48d10fcf9a5
         - chapter: IV
           title: STRUCTURES
           sections:
@@ -2254,7 +2254,7 @@ books:
               statements: 16
               exercises: 1
               extraction: ocr
-              content_sha256: de7318f61d5fc652f9c0bae9f51aa21b36eb7c5f41b68e31d48196596059814b
+              content_sha256: 1e433d5fd275665be4f3b93ebc19ae2c076a41361557d1f4d452ff7c5e127dc5
             - kind: section
               section: 2
               title: Morphisms and derived structures
@@ -2267,7 +2267,7 @@ books:
               statements: 12
               exercises: 11
               extraction: ocr
-              content_sha256: 1df0116fa77b9eebc1d44429db56bb11c1cc04c82010063f9e8691600a51190e
+              content_sha256: 508234f6c40b4b87edaab10f0205c3451c459633a2d85802f377e1846ad8f779
             - kind: section
               section: 3
               title: Universal mappings
@@ -2280,7 +2280,7 @@ books:
               statements: 0
               exercises: 3
               extraction: ocr
-              content_sha256: 98de15070c6122f15d37cc5ed3db1f93782ce63e3a7bbc618529bef0a4082473
+              content_sha256: 4c1a7ae05cdd6e8737a76c60f36d0a3b509802787f04a70aadd8f7fc52894d02
             - kind: historical
               title: Historical Note
               path: content/en/ens/IV/historical_note.md
