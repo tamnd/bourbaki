@@ -1134,7 +1134,7 @@ books:
               statements: 9
               exercises: 1
               extraction: native
-              content_sha256: 6de23094d5f6683b17796bc0a65f749a5355b343c504ef5be79ff73b33fdf262
+              content_sha256: 3bfb6c66637d769fab81a3bafc5ba85e1b52de92184d668145eaab4fab7ebf77
             - kind: appendix
               section: 2
               title: Representations of real, complex or quaternionic type

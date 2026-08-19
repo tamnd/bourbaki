@@ -26,7 +26,7 @@ subsections:
       pdf_page: 391
 statements: 9
 exercises: 1
-content_sha256: 6de23094d5f6683b17796bc0a65f749a5355b343c504ef5be79ff73b33fdf262
+content_sha256: 3bfb6c66637d769fab81a3bafc5ba85e1b52de92184d668145eaab4fab7ebf77
 ---
 
 ## APPENDIX I
@@ -75,11 +75,7 @@ b) We have D(G) = lim$_{_{\leftarrow -}\alpha}\overline{D(G_{\alpha})}$ and C(G)
 
 c) If $G_{\alpha}$ is compact for all $\alpha \in I$, then $C(G)_0=$ lim$_{_{\leftarrow -}\alpha}C(G_{\alpha})_0$.
 
-Let $\alpha , \beta$ be two elements of I, with $\alpha \leq \beta$. Then $f_{\alpha \beta}(D(G_{\beta}))\subset D(G_{\alpha})$,
-
-andit follows that$f_{\alpha \beta}(C(G_{\beta}))f_{\alpha \beta}\subset (D(GC(G_{\alpha\beta}))$) since$\subset D(Gf_{\alpha \beta\alpha})$ andis surjective; since$f_{\alpha \beta}(C(G_{\beta})_0)f\subset^{\alpha \beta}C(G$is continuous,$_{\alpha})_0$, hence $a$Prop. 6), so D(G) = lim). Since $f_{\alpha}$ is surjective,$_{\leftarrow -}D(Gf_{\alpha}(D(G)) = D(G_{\alpha}) ($General Topology$^{\alpha}) ($Algebra, Chap. I,, Chap. I,§4, no. 4, Cor.§6, no. 2,
-
-of Prop. 9). The surjectivity of $f_{\alpha}$ also implies the inclusion $f_{\alpha}(C(G))\subset$ $C(G_{\alpha})$ and hence $C(G)\subset$ lim$_{\leftarrow -}C(G_{\alpha})$; the opposite inclusion is immediate. Finally, assertion $c)$ follows from $b)$ and General Topology, Chap. III, §7, no. 2, Prop. 4).
+Let $\alpha , \beta$ be two elements of I, with $\alpha \leq \beta$. Then $f_{\alpha \beta}(D(G_{\beta}))\subset D(G_{\alpha})$, and $f_{\alpha \beta}(C(G_{\beta}))\subset C(G_{\alpha})$ since $f_{\alpha \beta}$ is surjective; since $f_{\alpha \beta}$ is continuous, it follows that $f_{\alpha \beta}(\overline{D(G_{\beta})})\subset \overline{D(G_{\alpha})}$ and $f_{\alpha \beta}(C(G_{\beta})_0)\subset C(G_{\alpha})_0$, hence $a)$. Since $f_{\alpha}$ is surjective, $f_{\alpha}(D(G)) = D(G_{\alpha})$ (Algebra, Chap. I, §6, no. 2, Prop. 6), so $\overline{D(G)}=$ lim$_{\leftarrow -}\overline{D(G_{\alpha})}$ (General Topology, Chap. I, §4, no. 4, Cor. of Prop. 9). The surjectivity of $f_{\alpha}$ also implies the inclusion $f_{\alpha}(C(G))\subset$ $C(G_{\alpha})$ and hence $C(G)\subset$ lim$_{\leftarrow -}C(G_{\alpha})$; the opposite inclusion is immediate. Finally, assertion $c)$ follows from $b)$ and General Topology, Chap. III, §7, no. 2, Prop. 4).
 
 #### Lemma 2 {#lie-ix-a1-lem-2 .statement tag=01IN}
 
