@@ -29,7 +29,7 @@ subsections:
       pdf_page: 331
 statements: 23
 exercises: 10
-content_sha256: 88fae821bb82bd3c568266002f270c1dd6e4c5a61825f6bcd090d1e3b3ca613a
+content_sha256: 05a8005752a7259f0a3387f624d400f50bd0040446bc44eecabcfbe739d7fa53
 ---
 
 ## § 5. HOMOTOPIE ET REVÊTEMENTS (CAS DES ESPACES LOCALEMENT CONNEXES PAR ARCS)
@@ -44,9 +44,7 @@ La condition est nécessaire sans hypothèse sur l’espace Y. En effet, si un t
 
 Démontrons qu’elle est suffisante. Notons $s: \Lambda_b(B)\rightarrow \Lambda_x(E)$ l’homéomorphisme réciproque de l’homéomorphisme $c\mapsto p\circ c($III, p. 302, cor. 2 de la prop. 3) et soit $\varphi : \Lambda_y(Y)\rightarrow \Lambda_x(E)$ l’application $d\mapsto$ $s(f\circ d)$. L’application $\varphi$ est continue (I, p. 132, lemme).
 
-Soient $d$ et $d'\in \Lambda_y(Y)$ des chemins d’origine $y$ ayant le même terme ; démontrons que les chemins $\varphi (d)$ et $\varphi (d')$ ont même terme. Posons $c=f\circ d,c'=f\circ d'$. Comme le chemin $d*\overline{d'}$ est un lacet dans Y en $y$, le chemin $c*\overline{c'}$ est un lacet dans B en $b$ et sa classe appartient à l’image de l’homomorphisme $\pi_1(f, y)$, donc à l’image de l’homomorphisme $\pi_1(p, x)$ par hypothèse. D’après le cor. 2 de la prop. 4 (III,
-
-p.du cheminà $\frac{303),}{s(c*\overline{c'})}$le chemin. On a donc$s(c'*\overline{c})s$qui, par unicité du relèvement des chemins, est égal$(cs*(\overline{cc''})*$est un lacet dans$\overline{c})(\frac{1}{2}) =s(c')(1) =Es$en$(c)(1)x$. Il en est de même, ce qu’on voulait démontrer.
+Soient $d$ et $d'\in \Lambda_y(Y)$ des chemins d’origine $y$ ayant le même terme ; démontrons que les chemins $\varphi (d)$ et $\varphi (d')$ ont même terme. Posons $c=f\circ d,c'=f\circ d'$. Comme le chemin $d*\overline{d'}$ est un lacet dans Y en $y$, le chemin $c*\overline{c'}$ est un lacet dans B en $b$ et sa classe appartient à l’image de l’homomorphisme $\pi_1(f, y)$, donc à l’image de l’homomorphisme $\pi_1(p, x)$ par hypothèse. D’après le cor. 2 de la prop. 4 (III, p. 303), le chemin $s(c*\overline{c'})$ est un lacet dans E en $x$. Il en est de même du chemin $s(c'*\overline{c})$ qui, par unicité du relèvement des chemins, est égal à $s(c*\overline{c'})$. On a donc $s(c'*\overline{c})(\frac{1}{2}) =s(c')(1) =s(c)(1)$, ce qu’on voulait démontrer.
 
 Notons respectivement $e_E: \Lambda_x(E)\rightarrow E$ et $e_Y: \Lambda_y(Y)\rightarrow Y$ les applications terme. Comme l’espace Y est supposé connexe et localement connexe par arcs, l’application $e_Y$ est surjective et ouverte (III, p. 262, prop. 10). D’après l’alinéa précédent, il existe une unique application $g: Y\rightarrow E$ telle que $e_E\circ \varphi =g\circ e_Y$. Elle est continue, car l’application $e_Y$ stricte ( I, p. 18, exemple 2).
 

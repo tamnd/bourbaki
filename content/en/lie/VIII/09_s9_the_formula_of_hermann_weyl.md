@@ -29,7 +29,7 @@ subsections:
       pdf_page: 165
 statements: 12
 exercises: 16
-content_sha256: c276a003cb69216738766ef1990dd4f7ce5bf1ce6fc9fdd497f15f28df9dc539
+content_sha256: e9aa97c032ab8f28001ee9a63699edd048dc89437c965397b763db3b374ec40e
 ---
 
 ## § 9. THE FORMULA OF HERMANN WEYL
@@ -216,15 +216,7 @@ $T^N\prod_{\alpha\in R_+}(\lambda +\rho |\alpha )\equiv f_{\rho}$(ch $E).T^N\pro
 
 so
 
-$$
-((\prod)/((\prod)\prod((\lambda |\alpha ))
-$$
-
-dim E = $(\lambda +\rho |\alpha )(\rho |\alpha )$ = 1 +.
-
-$$
-_{\alpha\in R_+}\alpha_{\in R_+}\alpha_{\in R_+}(\rho |\alpha )
-$$
+dim $E =((\prod_{\alpha\in R_+}(\lambda +\rho |\alpha ))/((\prod_{\alpha\in R_+}(\rho |\alpha ))=\prod_{\alpha\in R_+}(1 +\frac{(\lambda|\alpha)}{(\rho|\alpha)})$.
 
 Now, if $\alpha \in R_+,\alpha$ can be identified with an element of $\mathfrak{h}_{\mathbf{R}}$ proportional to $H_{\alpha}$, so
 
@@ -236,13 +228,7 @@ $$
 
 In the Example of no. 1, we find that
 
-$$
-(m\alpha )\alpha
-$$
-
-dim $V(m) =\alpha +(H_{\alpha})/(H_{\alpha}) =m+ 1$,
-
-2 2 2
+dim $V(m) =(\frac{m}{2}\alpha +\frac{\alpha}{2})(H_{\alpha})/\frac{\alpha}{2}(H_{\alpha}) =m+ 1$,
 
 which we knew in §1.
 
@@ -250,75 +236,39 @@ which we knew in §1.
 
 Take $\mathfrak{g}$ to be the splittable simple Lie algebra of type $G_2$ and adopt the notations of Chap. VI, Plate IX. Give $\mathfrak{h}^*_{\mathbf{R}}$ the W-invariant positive symmetric form $(\cdot  | \cdot )$ such that $(\alpha_1|\alpha_1) = 1$. Then $\rho =\varpi_1+\varpi_2$ and
 
-1 1
-
 $$
-(\varpi_1|\alpha_1) =,(\varpi_1|\alpha_2) = 0,(\varpi_1|\alpha_2+\alpha_1) =
-$$
-
-2 2
-
-3 3
-
-$$
-(\varpi_1|\alpha_2+ 2\alpha_1) = 1,(\varpi_1|\alpha_2+ 3\alpha_1) =,(\varpi_1|2\alpha_2+ 3\alpha_1) =
-$$
-
-2 2
-
-3 3
-
-$$
-(\varpi_2|\alpha_1) = 0,(\varpi_2|\alpha_2) =,(\varpi_2|\alpha_2+\alpha_1) =
-$$
-
-2 2
-
-3 3
-
-$$
-(\varpi_2|\alpha_2+ 2\alpha_1) =,(\varpi_2|\alpha_2+ 3\alpha_1) =,(\varpi_2|2\alpha_2+ 3\alpha_1) = 3
-$$
-
-2 2
-
-Thus, if $n_1, n_2$ are integers $\geq 0$, the dimension of the simple representation
-
-of highest weight $n_1\varpi_1+n_2\varpi_2$ is
-
-$$
-(n_1/2)((3n_2/2)((n_1/2 + 3n_2/2)((n_1+ 3n_2/2)
-$$
-
-1 + 1 + 1 + 1 +
-
-$$
-\frac{1}{2}\frac{3}{2}\frac{1}{2}+\frac{3}{2}1 +\frac{3}{2}
+(\varpi_1|\alpha_1) =\frac{1}{2},(\varpi_1|\alpha_2) = 0,(\varpi_1|\alpha_2+\alpha_1) =\frac{1}{2}
 $$
 
 $$
-(3n_1/2 + 3n_2/2)((3n_1/2 + 3n_2)
-$$
-
-$\times$ 1 + $_{33}$ 1 + $_3$
-
-$$
-_{\overline{2}}+_{\overline{2}}\overline{2}+ 3
+(\varpi_1|\alpha_2+ 2\alpha_1) = 1,(\varpi_1|\alpha_2+ 3\alpha_1) =\frac{3}{2},(\varpi_1|2\alpha_2+ 3\alpha_1) =\frac{3}{2}
 $$
 
 $$
-(n_1+ 3n_2)((2n_1+ 3n_2)((n_1+n_2)
+(\varpi_2|\alpha_1) = 0,(\varpi_2|\alpha_2) =\frac{3}{2},(\varpi_2|\alpha_2+\alpha_1) =\frac{3}{2}
 $$
 
-$= (1 +n_1)(1 +n_2)$ 1 + 1 + 1 +
-
-4 5 2
-
 $$
-\times (1 +n^1+ 2n^2)
+(\varpi_2|\alpha_2+ 2\alpha_1) =\frac{3}{2},(\varpi_2|\alpha_2+ 3\alpha_1) =\frac{3}{2},(\varpi_2|2\alpha_2+ 3\alpha_1) = 3
 $$
 
-3
+Thus, if $n_1, n_2$ are integers $\geq 0$, the dimension of the simple representation of highest weight $n_1\varpi_1+n_2\varpi_2$ is
+
+$$
+(1 +\frac{n_1/2}{1\overline{2}})((1 +\frac{3n_2/2}{3\overline{2}})((1 +\frac{n_1/2 + 3n_2/2}{_{1\overline{2}} + \frac{3}{2}})((1 +\frac{n_1 + 3n_2/2}{1 +^{3\overline{2}}})
+$$
+
+$$
+\times (1 +\frac{3n_1/2 + 3n_2/2}{_{3\overline{2}} + \frac{3}{2}})((1 +3n_1\frac{/_3}{2}2 + 3+ 3n_2)
+$$
+
+$$
+= (1 +n_1)(1 +n_2)(1 +\frac{n_1 + 3n_2}{4})((1 +\frac{2n_1 + 3n_2}{5})((1 +\frac{n_1 + n_2}{2})
+$$
+
+$$
+\times (1 +\frac{n_1 + 2n_2}{3})
+$$
 
 $$
 (1+n_1)(1+n_2)(2+n_1+n_2)(3+n_1+2n_2)(4+n_1+3n_2)(5+2n_1+3n_2)
@@ -445,46 +395,24 @@ which proves (2).
 We return to the Example of no. 1. Let $\lambda = (n/2)\alpha , \mu= (p/2)\alpha$, $\nu = (q/2)\alpha$ with $n\geq p$. We have
 
 $$
-m(\lambda , \mu, \nu ) =\mathfrak{P}(n\alpha +\alpha +p\alpha +\alpha -q\alpha -\alpha )
-$$
-
-2 2 2 2 2
-
-$$
-(n\alpha p\alpha q)
+m(\lambda , \mu, \nu ) =\mathfrak{P}(\frac{n}{2}\alpha +\frac{\alpha}{2}+\frac{p}{2}\alpha +\frac{\alpha}{2}-\frac{q}{2}\alpha -\alpha )
 $$
 
 $$
--\mathfrak{P}\alpha +-\alpha --\alpha -\alpha
-$$
-
-2 2 2 2 2
-
-$$
--\mathfrak{P}(-n\alpha -\alpha +p\alpha +\alpha -q\alpha -\alpha )
-$$
-
-2 2 2 2 2
-
-$$
-(n\alpha p\alpha q)
+-\mathfrak{P}(\frac{n}{2}\alpha +\frac{\alpha}{2}-\frac{p}{2}\alpha -\frac{\alpha}{2}-\frac{q}{2}\alpha -\alpha )
 $$
 
 $$
-+\mathfrak{P}-\alpha --\alpha --\alpha -\alpha
-$$
-
-2 2 2 2 2
-
-$$
-(n+p-q)(n-p-q-2)
+-\mathfrak{P}(-\frac{n}{2}\alpha -\frac{\alpha}{2}+\frac{p}{2}\alpha +\frac{\alpha}{2}-\frac{q}{2}\alpha -\alpha )
 $$
 
 $$
-=\mathfrak{P}\alpha -\mathfrak{P}\alpha
++\mathfrak{P}(-\frac{n}{2}\alpha -\frac{\alpha}{2}-\frac{p}{2}\alpha -\frac{\alpha}{2}-\frac{q}{2}\alpha -\alpha )
 $$
 
-2 2
+$$
+=\mathfrak{P}(\frac{n + p-q}{2}\alpha )-\mathfrak{P}(\frac{n-p-q- 2}{2}\alpha )
+$$
 
 This is zero if $n+p+q$ is not divisible by 2, or if $q\geq n+p$. If
 

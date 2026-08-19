@@ -45,7 +45,7 @@ subsections:
       pdf_page: 207
 statements: 32
 exercises: 28
-content_sha256: 1a289215a48165b77c548c7f6336d013e15906914cc4233f1c60e146379842d6
+content_sha256: 1e53b84320d8b2b65ab460804da85d358e56ade25c347f62ef250825e8239ce0
 ---
 
 ## § 2. ENDOMORPHISMES NORMAUX
@@ -254,9 +254,11 @@ L’application $m:g\mapsto \widetilde{m}_g$ est un morphisme unifère isométri
 
 En particulier, pour tout $g\in L^{\infty}(X, \mu)$, l’endomorphisme de multiplication $\widetilde{m}_g$ est normal; il est hermitien si et seulement si $g$ est localement $\mu$-presque partout à valeurs réelles.
 
-D’après la prop. 5, l’application $\widetilde{m}$ est un morphisme injectif et isométrique d’algèbres de Banach unifères de $L^{\infty}(X, \mu)$ dans $\mathscr{L}(L^2(X, \mu))$.
+D’après la prop. 5, l’application $\widetilde{m}$ est un morphisme injectif et isométrique d’algèbres de Banach unifères de $L^{\infty}(X, \mu)$ dans $\mathscr{L}(L^2(X, \mu))$. Soit $g\in \mathscr{L}^{\infty}(X, \mu)$. Pour $f_1$ et $f_2\in \mathscr{L}^2(X, \mu)$, on a
 
-Soit $g\in \langle f\mathscr{L}_1|^{\infty}\widetilde{m}(X_g(, \mu f_2)$. Pour$)\rangle =\int_Xff_1^1($et$x)gf(^2x\in )f\mathscr{L}_2(\overset{2}{x})(Xd\mu, \mu(x)$, on a$) =\langle \widetilde{m}_{\overline{g}}(f_1)|f_2\rangle$,
+$$
+\langle f_1|\widetilde{m}_g(f_2)\rangle =\int_X\overline{f_1(x)}g(x)f_2(x)d\mu(x) =\langle \widetilde{m}_{\overline{g}}(f_1)|f_2\rangle
+$$
 
 dont il résulte que $\widetilde{m}^*_g=\widetilde{m}_{\overline{g}}$, ce qui démontre que $m$ est un morphisme involutif. Les dernières assertions en résultent (cf. I, p. 106, prop. 5).
 

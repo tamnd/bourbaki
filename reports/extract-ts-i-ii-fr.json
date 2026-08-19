@@ -1,12 +1,12 @@
 {
   "book": "ts-i-ii-fr",
   "pages": 346,
-  "clean": 326,
-  "flagged": 18,
+  "clean": 328,
+  "flagged": 16,
   "empty": 2,
   "reasons": {
     "empty": 2,
-    "stacked-rows": 13,
+    "stacked-rows": 11,
     "tall-delimiter": 5
   },
   "flagged_pages": [
@@ -20,13 +20,6 @@
     {
       "pdf_page": 129,
       "page_label": "TS I.116",
-      "flags": [
-        "stacked-rows"
-      ]
-    },
-    {
-      "pdf_page": 131,
-      "page_label": "TS I.118",
       "flags": [
         "stacked-rows"
       ]
@@ -63,13 +56,6 @@
       "page_label": "TS II.233",
       "flags": [
         "tall-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 267,
-      "page_label": "TS II.255",
-      "flags": [
-        "stacked-rows"
       ]
     },
     {

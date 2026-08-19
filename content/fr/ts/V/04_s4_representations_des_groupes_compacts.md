@@ -49,7 +49,7 @@ subsections:
       pdf_page: 489
 statements: 54
 exercises: 32
-content_sha256: 167648feee7309860f6f42688ce212c525bee4deb92cb1e56059887b2b79384e
+content_sha256: 208cbaf07d70a96730982b988921a2a55405a88dc1b8865e1afee8d27d7441b0
 ---
 
 ## § 4. REPRÉSENTATIONS DES GROUPES COMPACTS
@@ -204,7 +204,11 @@ Soient $\pi_1$ et $\pi_2$ des représentations unitaires irréductibles de G. On
 
 Le caractère de $\pi_2$ est une fonction centrale continue sur G donc l’application linéaire $u$ = $\pi_1(\overline{\chi}_{\pi_2})$ est définie et appartient à l’espace Hom$_G(\pi_1, \pi_1)$. C’est une homothétie d’après le lemme de Schur (prop. 6 de V, p. 386) dont la trace est
 
-Tr($u$) $=$ Tr$=\int_G(\chi \int_{\pi G_2}\overline{(\chi g^{\pi})^{^2}\chi(_{\pi}g_{_1})}(\pi g_1)(d\mu g)(d\mu g)(.g))$
+Tr($u$) $=$ Tr$(\int_G\overline{\chi_{\pi_2}(g)}\pi_1(g)d\mu(g))$
+
+$$
+=\int_G\overline{\chi_{\pi_2}(g)}\chi_{\pi_1}(g)d\mu(g)
+$$
 
 D’après les relations d’orthogonalité, la trace de $u$ est donc nulle si $\pi_1$ n’est pas isomorphe à $\pi_2$, et égale à 1 sinon. L’assertion en résulte.
 

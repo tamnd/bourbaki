@@ -37,7 +37,7 @@ subsections:
       pdf_page: 302
 statements: 32
 exercises: 11
-content_sha256: e5d807ec9f0f7605079b7df9be6766cf748f5524d6c78c8a1ba4445c5d33167b
+content_sha256: 5edd1a2afb308bb10243dca55e7e8ef8140709b5e5d43939d1e213579bfe4ca8
 ---
 
 ## § 2. MAXIMAL TORI OF COMPACT LIE GROUPS
@@ -54,15 +54,7 @@ $h(t) =$ F((Ad exp($tu$)$.k)(x), y),t\in \mathbf{R}$.
 
 We have $h(t)\geq h(0)$ for all $t$; moreover, by Chap. III, §3, no. 12, Prop. 44,
 
-$$
-dh
-$$
-
-$(0) = F([u$,(Ad $k)(x)], y) = F(u$,[(Ad $k)(x), y])$,
-
-$$
-dt
-$$
+$\frac{dh}{dt}(0) = F([u$,(Ad $k)(x)], y) = F(u$,[(Ad $k)(x), y])$,
 
 hence the lemma (Functions of a Real Variable, Chap. I, §1, no. 7, Prop. 7).
 

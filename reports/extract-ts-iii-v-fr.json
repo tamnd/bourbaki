@@ -1,12 +1,12 @@
 {
   "book": "ts-iii-v-fr",
   "pages": 579,
-  "clean": 557,
-  "flagged": 20,
+  "clean": 560,
+  "flagged": 17,
   "empty": 2,
   "reasons": {
     "empty": 2,
-    "stacked-rows": 12,
+    "stacked-rows": 9,
     "tall-delimiter": 10
   },
   "flagged_pages": [
@@ -73,13 +73,6 @@
       ]
     },
     {
-      "pdf_page": 357,
-      "page_label": "TS IV.344",
-      "flags": [
-        "stacked-rows"
-      ]
-    },
-    {
       "pdf_page": 366,
       "page_label": "TS IV.353",
       "flags": [
@@ -101,13 +94,6 @@
       ]
     },
     {
-      "pdf_page": 399,
-      "page_label": "TS V.386",
-      "flags": [
-        "stacked-rows"
-      ]
-    },
-    {
       "pdf_page": 425,
       "page_label": "TS V.412",
       "flags": [
@@ -117,13 +103,6 @@
     {
       "pdf_page": 429,
       "page_label": "TS V.416",
-      "flags": [
-        "stacked-rows"
-      ]
-    },
-    {
-      "pdf_page": 465,
-      "page_label": "TS V.452",
       "flags": [
         "stacked-rows"
       ]

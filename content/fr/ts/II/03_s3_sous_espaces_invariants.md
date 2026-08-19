@@ -25,7 +25,7 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 19
-content_sha256: fc801fff7d963c5f988c7cc53a7dd425d010b1aa953442dc1ff0f8a2fd806ff4
+content_sha256: 76cf7d66a90b3fa6df7ad3cab73003fd116745add7b6f5ef6874ceaeb6cc41a2
 ---
 
 ## § 3. SOUS-ESPACES INVARIANTS
@@ -193,7 +193,11 @@ $$
 $$
 
 $$
-\leqslant =\frac{\eta}{4\eta m\surd(V)m2}m(U)((V)\|mu\|(V)_2\surd m< \eta .(V) +\|v\|_2\surd\overline{m(U)})
+\leqslant \frac{\eta}{4m(V)}(\|u\|_2\surd m(V) +\|v\|_2\surd\overline{m(U)})
+$$
+
+$$
+=\eta \surd\overline{m2m(U)(V)m(V)}< \eta
 $$
 
 #### Proposition 3 {#ts-ii-s3-prop-3 .statement tag=02NA}

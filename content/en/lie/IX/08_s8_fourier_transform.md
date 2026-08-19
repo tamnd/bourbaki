@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 1036c88b1a45c1aa28d7892d52891ca42335972b92615fdb91f4157b4f293e36
+content_sha256: 4ee53984146d3219314f722321170d286fd802de20a8a76fc4dd4a97a73d0e4d
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -294,22 +294,14 @@ $C^{\infty}$-convergence (§6, no. 4), is complete.
 
 For all $u\in \widehat{G}$, denote by $\chi_u$ the character of $u$; thus,
 
-$\chi_u(g) =$ Tr($u(g)$)$,(g\in G)$. (16)
-
-Recall from Spectral Theory the formulas
+$\chi_u(g) =$ Tr($u(g)$)$,(g\in G)$. (16) Recall from Spectral Theory the formulas
 
 $$
 \chi_u*\chi_v= 0(u, v\in \widehat{G}, u\not=v) \tag{17}
 $$
 
-1
-
 $$
-\chi_u*\chi_u=\chi_u(u\in \widehat{G}) \tag{18}
-$$
-
-$$
-d(u)
+\chi_u*\chi_u=\frac{1}{d(u)}\chi_u(u\in \widehat{G}) \tag{18}
 $$
 
 For all $u\in \widehat{G}$, denote by $\varepsilon_u$ the identity map of $E_u$. Recall (§7, no. 4) that ZL$^2(G)$ denotes the subspace of $L^2(G)$ consisting of the classes of the functions $f$ that are central, that is, such that $f\circ$ Int $s=f$ for all $s\in G$, or equivalently that $\gamma (s)f=\delta (s^{-1})f$ for all $s\in G$.
@@ -319,91 +311,41 @@ For all $u\in \widehat{G}$, denote by $\varepsilon_u$ the identity map of $E_u$.
 Let $f\in L^2(G)$. Then $f$ is central if and only if $u(f)$ is a homothety for all $u\in \widehat{G}$. In that case
 
 $$
-\varepsilon_u\int
-$$
-
-$$
-u(f) =f(g)\chi_u(g)dg \tag{19}
-$$
-
-$$
-d(u)_G
+u(f) =\frac{\varepsilon_u}{d(u)}\int_Gf(g)\chi_u(g)dg \tag{19}
 $$
 
 By Prop. 1 (no. 1), to say that $f$ is central means that $u(\gamma (s)f) =$ $u(\delta (s^{-1})f)$ for all $s\in G$ and all $u\in \widehat{G}$; but this can also be written as $u(s)u(f) =u(f)u(s)$ for all $s\in G$ and all $u\in \widehat{G}$ (formulas (12) and (13)), hence the first assertion of Prop. 4 (Schur’s lemma). If $u(f)$ is a homothety, then $u(f) =\lambda_u\varepsilon_u$ with
 
-1 1 $\int$ 1 $\int$
-
-$\lambda_u=$ Tr($u(f)$) $=f(g$)Tr($u(g)$)$dg=f(g)\chi_u(g)dg$.
-
-$$
-d(u)d(u)_Gd(u)_G
-$$
+$\lambda_u=\frac{1}{d(u)}$ Tr($u(f)$) $=\frac{1}{d(u)}\int_Gf(g$)Tr($u(g)$)$dg=\frac{1}{d(u)}\int_Gf(g)\chi_u(g)dg$.
 
 Consequently, for $f\in$ ZL$^2(G)$ we have
 
 $$
-\varepsilon_u
-$$
-
-$$
-u(f) =\langle \overline{\chi}_u|f\rangle \rangle \tag{20}
-$$
-
-$$
-d(u)
+u(f) =\langle \overline{\chi}_u|f\rangle \frac{\varepsilon_u}{d(u)}\rangle \tag{20}
 $$
 
 so
 
 $$
-(\varepsilon_u)
-$$
-
-$$
-\overline{\mathscr{F}}(f) =\langle \chi_u|f\rangle \tag{21}
-$$
-
-$$
-d(u)_{u\in\widehat{G}}
+\overline{\mathscr{F}}(f) =(\langle \overline{\chi}_u|f\rangle \frac{\varepsilon_u}{d(u)})_{u\in\widehat{G}} \tag{21}
 $$
 
 with
 
 $$
-_2\varepsilon_{u2}
-$$
-
-$$
-\|\overline{\mathscr{F}}(f)\|_2=\sum||||\langle \chi_u|f\rangle ||||_2=\sum|\langle \overline{\chi}_u|f\rangle |^2
-$$
-
-$$
-d(u)
+\|\overline{\mathscr{F}}(f)\|^2_2=\sum||||\langle \overline{\chi}_u|f\rangle \frac{\varepsilon_u}{d(u)}||||^2_2=\sum|\langle \overline{\chi}_u|f\rangle |^2
 $$
 
 $uu$
 
 Conversely, if $\varphi$ is a square-integrable complex function on $\widehat{G}$, the element $(\frac{\varphi(u)}{d(u)}\varepsilon_u)_{u\in\widehat{G}}$ of $F( \widehat{G})$ belongs to $L^2( \widehat{G})$, and we have (formula (9))
 
-$$
-((\varphi (u)))(\varphi (u)-)
-$$
-
-$\mathscr{F}_u\varepsilon_u(g) =d(u$)Tr $\varepsilon_uu(g)^1=\varphi (u)\overline{\chi}_u(g)$,
-
-$$
-d(u)d(u)
-$$
+$(\mathscr{F}_u(\frac{\varphi(u)}{d(u)}\varepsilon_u))(g) =d(u$)Tr $(\frac{\varphi(u)}{d(u)}\varepsilon_uu(g)^{-1})=\varphi (u)\overline{\chi}_u(g)$,
 
 so
 
 $$
-\mathscr{F}((\varphi (u)\varepsilon_u))=\sum\varphi (u)\overline{\chi}_u \tag{22}
-$$
-
-$$
-d(u)
+\mathscr{F}((\frac{\varphi(u)}{d(u)}\varepsilon_u))=\sum\varphi (u)\overline{\chi}_u \tag{22}
 $$
 
 $u\in \widehat{G}$
@@ -412,21 +354,9 @@ Note, in particular, that formulas (20) and (21) give, for $u, v$ in $\widehat{G
 
 $u(\overline{\chi}_v) = 0$ if $u\not=v$, (23)
 
-$$
-\varepsilon_u
-$$
+$u(\overline{\chi}_u) =\frac{\varepsilon_u}{d(u)}\in$ End(E$_u)$, (24)
 
-$u(\overline{\chi}_u) =\in$ End(E$_u)$, (24)
-
-$$
-d(u)
-$$
-
-$\overline{\mathscr{F}}(\chi_u) =\varepsilon^u\in$ End(E$_u)\subset F( \widehat{G})$. (25)
-
-$$
-d(u)
-$$
+$\overline{\mathscr{F}}(\chi_u) =\frac{\varepsilon_u}{d(u)}\in$ End(E$_u)\subset F( \widehat{G})$. (25)
 
 #### Proposition 5 {#lie-ix-s8-prop-5 .statement tag=01H6}
 
@@ -440,25 +370,15 @@ for all $g\in G$.
 
 By Th. $1b)$, the function $\overline{f}$ is infinitely-differentiable if and only if the function $u \rightarrow  \|u(\overline{f})\|_{\infty}$ is rapidly decreasing; but, by (20),
 
-$\|u(\overline{f})\|_{\infty}=$ 1 $|\langle \chi_u|f\rangle |$,
-
 $$
-d(u)
+\|u(\overline{f})\|_{\infty}=\frac{1}{d(u)}|\langle \chi_u|f\rangle |
 $$
 
 hence the first assertion, since the functions $d(u)$ and $\frac{1}{d(u)}$ are moderately increasing.
 
 Assume that $f$ is infinitely-differentiable; by Th. $1a),f(g) =\sum_{u\in\widehat{G}}f_u(g)$ for all $g\in G$, so
 
-$$
-_-(_-\varepsilon_u)
-$$
-
-$f_u(g) =\langle u(g)|u(f)\rangle =d(u$)Tr($u(g)^1.u(f)$) $=d(u$)Tr $u(g)^1\langle \chi_u|f\rangle$
-
-$$
-d(u)
-$$
+$f_u(g) =\langle u(g)|u(f)\rangle =d(u$)Tr($u(g)^{-1}.u(f)$) $=d(u$)Tr$(u(g)^{-1}\langle \overline{\chi}_u|f\rangle \frac{\varepsilon_u}{d(u)})$
 
 $=\langle \overline{\chi}_u|f\rangle$Tr($u(g)^{-1}$) $=\langle \overline{\chi}_u|f\rangle \overline{\chi}_u(g)$.
 

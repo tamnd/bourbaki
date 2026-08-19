@@ -33,7 +33,7 @@ subsections:
       pdf_page: 84
 statements: 23
 exercises: 18
-content_sha256: daa50455ddb57b7b511f699841ef4c35f182426075c83d18663feaed075055ee
+content_sha256: 8d25a1a7dcfda90ae5310f20024c7a58698c532ce0a76aaa17c7ccc154003cb6
 ---
 
 ## § 1. THE LIE ALGEBRA $\mathfrak{s}\mathfrak{l}$(2$\boldsymbol{, k}$) AND ITS REPRESENTATIONS
@@ -63,14 +63,8 @@ $$
 $$
 
 $$
-_{n-1}n_{-1}n(n-1)
+=nX_{n-1}H+ 2X_{n-1}\frac{n(n- 1)}{2}
 $$
-
-$$
-=nXH+ 2X
-$$
-
-2
 
 $$
 =nX^{n-1}(H+n-1)

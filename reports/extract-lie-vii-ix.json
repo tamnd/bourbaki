@@ -1,12 +1,12 @@
 {
   "book": "lie-vii-ix",
   "pages": 439,
-  "clean": 421,
-  "flagged": 18,
+  "clean": 412,
+  "flagged": 27,
   "empty": 0,
   "reasons": {
     "diagram": 12,
-    "stacked-rows": 8
+    "stacked-rows": 17
   },
   "flagged_pages": [
     {
@@ -40,13 +40,49 @@
       ]
     },
     {
+      "pdf_page": 163,
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 164,
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 166,
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
       "pdf_page": 189,
       "flags": [
         "stacked-rows"
       ]
     },
     {
+      "pdf_page": 221,
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
       "pdf_page": 229,
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 233,
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 249,
       "flags": [
         "stacked-rows"
       ]
@@ -88,6 +124,18 @@
       ]
     },
     {
+      "pdf_page": 345,
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 346,
+      "flags": [
+        "stacked-rows"
+      ]
+    },
+    {
       "pdf_page": 347,
       "flags": [
         "diagram"
@@ -116,6 +164,12 @@
       "pdf_page": 376,
       "flags": [
         "diagram",
+        "stacked-rows"
+      ]
+    },
+    {
+      "pdf_page": 422,
+      "flags": [
         "stacked-rows"
       ]
     }

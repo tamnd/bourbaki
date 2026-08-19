@@ -37,7 +37,7 @@ subsections:
       pdf_page: 445
 statements: 31
 exercises: 34
-content_sha256: 33d8e3d3f896507e9f4ad56afa068d2ab5c5b0ad62de16239fee73cca722508f
+content_sha256: e8c7792747a803a874ced39621865b75ad201cf1b4d002147b2b30b823f7bc5e
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -350,7 +350,13 @@ $$
 \rho (\mathsf{r}_2(j, v)) =\rho (\varphi_j(v)j\psi_j(v)^{-1}j^{-1})
 $$
 
-= [B$= [B_{12}((\frac{j}{j})])]^-_-^1_1vv[B[B_{12}((\frac{j}{j})])]\rho \overline{j}_-(j_1)[B[B_{12}(\frac{(}{j}j)])]_-^-_1^1vv_-^-_1^1[B[B_{12}(\frac{(}{j}j)])]\overline{j}\rho (j)^{-1}$
+$$
+= [B_1(j)]^{-1}v[B_1(j)]\rho (j)[B_2(j)]^{-1}v^{-1}[B_2(j)]\rho (j)^{-1}
+$$
+
+$$
+= [B_2(\overline{j})]^{-1}v[B_2(\overline{j})]\overline{j}^{-1}[B_1(\overline{j})]^{-1}v^{-1}[B_1(\overline{j})]\overline{j}
+$$
 
 entraîne que $\rho (\mathsf{r}_2(j, v))$ est conjugué à $\rho (\mathsf{r}_2(j, v^{-1}))$.
 
