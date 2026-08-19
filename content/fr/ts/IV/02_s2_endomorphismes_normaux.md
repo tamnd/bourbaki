@@ -45,7 +45,7 @@ subsections:
       pdf_page: 207
 statements: 32
 exercises: 28
-content_sha256: 1e53b84320d8b2b65ab460804da85d358e56ade25c347f62ef250825e8239ce0
+content_sha256: f90584417fab04af9f0749f166d14facc9a9a4219873317b310e749ae933a0a4
 ---
 
 ## § 2. ENDOMORPHISMES NORMAUX
@@ -116,7 +116,7 @@ Posons $h(x) = 1/g(x)$ si $g(x)\not = 0$ et $h(x) = 0$ sinon. La fonction $h$ ap
 
 Soit U un voisinage ouvert de 0 tel que l’ouvert $Z =\overset{-1}{g}(U)$ est localement $\mu$-négligeable, donc négligeable (INT, IV, p. 172, § 5, n$^o2$, cor. 2). Soit Y le support de $\mu$; on a $Y\subset X$ - Z. La restriction de la fonction $h$ à X - Z est continue et bornée, donc $h\in \mathscr{L}^{\infty}(X, \mu)$ et la norme de $\widetilde{h}$ dans $\mathscr{L}^{\infty}(X, \mu)$ est égale à la norme de sa restriction à X - Z. De plus, pour tout $\alpha \in \mathbf{R}_+$, l’ensemble des $x\in X$ - Z tels que $|h(x)|> \alpha$ est un ouvert dans X - Z ; il est donc localement $\mu$-négligeable si et seulement s’il ne rencontre pas Y (INT, IV, loc. cit. et INT, III, p. 66, § 3, n$^o2$, déf. 1). Par conséquent, on a
 
-$\|\widetilde{h}\|^{\infty}=$ sup$_{x\in Y}\frac{1}{|g(x)|}$,
+$\|\widetilde{h}\|_{\infty}=$ sup$_{x\in Y}\frac{1}{|g(x)|}$,
 
 d’où
 

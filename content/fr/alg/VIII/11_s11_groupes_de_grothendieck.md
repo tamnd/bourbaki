@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: 7ee0cb5e57f28badfa5b525e747005f79eb49994a2101648f3263350c1758957
+content_sha256: 0223e59139cc83c9b959b93f9df43585b0e787a51919b9525bbbfa1144a8747c
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -438,7 +438,7 @@ $$
 
 #### Remarque 5 {#alg-viii-s11-n4-rem-5 .statement tag=00SI}
 
-Soit A un anneau de Dedekind qui n’est pas un corps (AC, VII, § 2, n$_{\circ}1)$.
+Soit A un anneau de Dedekind qui n’est pas un corps (AC, VII, § 2, n$^{\circ}1)$.
 
 En raisonnant comme dans la prop. 8, on prouve l’existence d’un isomorphisme $\varphi$ de R(A) sur le groupe des idéaux fractionnaires de A, caractérisé par $\varphi ([A/\mathfrak{a}]) =\mathfrak{a}$ pour tout idéal non nul $\mathfrak{a}$ de $A.*$
 

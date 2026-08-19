@@ -45,7 +45,7 @@ subsections:
       pdf_page: 467
 statements: 39
 exercises: 23
-content_sha256: 8f947608d99ac54e80cc4c5fd4f082600da39e3898f055783986ac1426b514c2
+content_sha256: 534ba733b2be9c1da642b39d50f835da9250f38a034e4f1893439d341778e971
 ---
 
 ## § 3. FONCTIONS DE TYPE POSITIF
@@ -743,7 +743,7 @@ $$
 où I est un ensemble fini, $\psi_i$ est un point extrémal de Pos$_1(G)$ pour tout $i\in I$, et $t_i\in [0,1]$. On a $\sum_it_i=\psi (e) =\|\psi \|_{\infty}\leqslant 1$ (lemme 4 de V, p. 446). Si $\psi \not = 0$, la fonction
 
 $$
-\frac{\psi}{\|\psi\|_{\infty}}=\sum_{i\in I}\frac{t_i}{\psi(e)}\psi^i
+\frac{\psi}{\|\psi\|_{\infty}}=\sum_{i\in I}\frac{t_i}{\psi(e)}\psi_i
 $$
 
 appartient donc à l’enveloppe convexe des points extrémaux de Pos$_1(G)$. Comme lim$_{\psi ,\mathfrak{F}}\|\psi \|^{-1}_{\infty}\psi =\varphi$, on conclut que $\varphi$ appartient à l’enveloppe fermée convexe des points extrémaux de Pos$_1(G)$. L’assertion en résulte.

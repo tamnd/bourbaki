@@ -33,7 +33,7 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 19
-content_sha256: 23686d4376f9a2a20cca7f63d08a555f2e7a78a75c06bfb2b1e0960df63c53d4
+content_sha256: 77a4dafd4c56e0489b6d54d5335d12f5b4e3dcc44318de058d3b2d42f9e61016
 ---
 
 ## § 2. STRUCTURE DES MODULES DE LONGUEUR FINIE
@@ -94,7 +94,7 @@ Soit A un anneau non nul dans lequel tout élément est inversible ou nilpotent.
 
 #### Exemple 3 {#alg-viii-s2-n1-exa-3 .statement tag=001T}
 
-Soient X une variété de classe $C_r$ (VAR, R, 5.1.5) et $x$ un point de X. Soit $\mathscr{O}_x$ l’anneau des germes en $x$ de fonctions de classe $C^r$ à valeurs dans le corps des scalaires K. Alors $\mathscr{O}_x$ est un anneau local commutatif et son idéal maximal se compose des germes des fonctions s’annulant en $x.*$
+Soient X une variété de classe $C^r$ (VAR, R, 5.1.5) et $x$ un point de X. Soit $\mathscr{O}_x$ l’anneau des germes en $x$ de fonctions de classe $C^r$ à valeurs dans le corps des scalaires K. Alors $\mathscr{O}_x$ est un anneau local commutatif et son idéal maximal se compose des germes des fonctions s’annulant en $x.*$
 
 #### Exemple 4 {#alg-viii-s2-n1-exa-4 .statement tag=001U}
 

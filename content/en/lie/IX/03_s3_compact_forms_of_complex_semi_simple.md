@@ -37,7 +37,7 @@ subsections:
       pdf_page: 309
 statements: 17
 exercises: 9
-content_sha256: bca0792a11d3faaed07748452301512dc1150714a083b0d510df4f7906ffd7e2
+content_sha256: 2a2a552f6c0f02b534cfcbf3a48d00cd0e7ceb9804ae48893bb850526e93178a
 ---
 
 ## § 3. COMPACT FORMS OF COMPLEX SEMI-SIMPLE LIE ALGEBRAS
@@ -280,7 +280,7 @@ Recall (Chap. VIII, §1, no. 1) that the canonical basis of $\mathfrak{s}\mathfr
 
 $(01)(00)(1$ 0 $)$
 
-$X^+=$ 0 0 $, X^-=-1$ 0 $, H=$ 0 $-1$.
+$X_+=$ 0 0 $, X_-=-1$ 0 $, H=$ 0 $-1$.
 
 We thus obtain a basis $(U,V,iH)$ of $\mathfrak{su}(2,\mathbf C)$, also called canonical, by putting
 $$

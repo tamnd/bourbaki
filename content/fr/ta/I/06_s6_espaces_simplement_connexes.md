@@ -33,7 +33,7 @@ subsections:
       pdf_page: 149
 statements: 37
 exercises: 6
-content_sha256: e2c2a5358f43c04f1bc41baff24ee630d794f31e59e83a1c2ce046437901a2d4
+content_sha256: bbeabb3f2a016dd075241ae95350cd8c19a8b30549f1cc5ab94fad7ec0f3f59d
 ---
 
 ## § 6. ESPACES SIMPLEMENT CONNEXES
@@ -109,7 +109,7 @@ x+y=p_A(x)x'+p_A(y)y'
 $$
 
 $$
-= (p^A(x) +p^A(y))(\frac{p_A(x)}{p_A(x) + p_A(y)}x'+\frac{p_A(y)}{p_A(x) + p_A(y)}y')
+= (p_A(x) +p_A(y))(\frac{p_A(x)}{p_A(x) + p_A(y)}x'+\frac{p_A(y)}{p_A(x) + p_A(y)}y')
 $$
 
 Comme A est convexe, cela démontre que $x+y$ appartient à $(p_A(x) +$ $p_A(y))A$, d’où $p_A(x+y)\leqslant p_A(x) +p_A(y)$. Si $x=y= 0$, cette inégalité est encore vérifiée, car $p_A(0) = 0$. Cela démontre l’assertion (iii).

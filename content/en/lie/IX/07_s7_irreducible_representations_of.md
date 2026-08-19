@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: 022654ddf2051d6c56ab923eccc440c3ddfed4bc89af4fa0a1ca574e34e42dd3
+content_sha256: 95629088a438315d1269756152ccc180973d25a89a681e51cce3e91f64ad98d4
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -317,7 +317,7 @@ This follows from the theorem and commutative diagram (2) (no. 3).
 For all $\lambda \in X_{++}$ and every regular element $t$ of T,
 
 $$
-\chi_{\lambda}(t) =\sum\sum_w\varepsilon_w(w\varepsilon )(\lambda w()wt\rho ()wt\rho ()wt) \tag{5}
+\chi_{\lambda}(t) =\sum\sum^w\varepsilon_w(w\varepsilon )(\lambda w()wt\rho ()wt\rho ()wt) \tag{5}
 $$
 
 where the two sums are over the elements $w$ of W.
@@ -369,7 +369,7 @@ $$
 If $t$ is a regular element of T, we deduce from (5) that
 
 $$
-\chi_{\lambda}(t) =\sum\sum_w\varepsilon_w(w\varepsilon )(\overset{w}{w}\lambda )\rho (t_w)(\rho t_w)(t)=\sum\prod_{w\alpha >}\varepsilon (_0w(1)\overset{w}{-}\lambda \alpha (t()t\rho )_{w-}(_1t)) \tag{7}
+\chi_{\lambda}(t) =\sum\sum^w\varepsilon_w(w\varepsilon )(\overset{w}{w}\lambda )\rho (t_w)(\rho t^w)(t)=\sum\prod^w_{\alpha >}\varepsilon (_0w(1)\overset{w}{-}\lambda \alpha (t()t\rho )^{w-}(_1t)) \tag{7}
 $$
 
 Note that $\rho_w$ is a linear combination of roots with integer coefficients, and hence belongs to X(T) even if we do not assume that $\rho \in X(T)$. It follows that formula (7) is valid without the assumption that $\rho \in X(T):$ indeed, to prove this we replace G by a suitable connected covering, and are then reduced to Cor. 2.

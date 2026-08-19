@@ -2771,6 +2771,7 @@ terms:
       vi: có thể đồng nhất
       zh: 可以确定
       ja: 同一視できる
+      fr: on peut identifier
     - en: canonical surjection
       vi: toàn cấu chính tắc
       zh: 典范满射
@@ -2845,6 +2846,7 @@ terms:
       vi: ánh xạ
       zh: 映射
       ja: 写像
+      fr: application
     - en: monomial
       vi: đơn thức
       zh: 单项式
@@ -2854,6 +2856,7 @@ terms:
       vi: phải chứng minh
       zh: 必须证明
       ja: 証明しなければならない
+      fr: doit prouver
     - en: necessary
       vi: cần thiết
       zh: 必要
@@ -3043,10 +3046,12 @@ terms:
       vi: vành khác không
       zh: 非零环
       ja: 非零環
+      fr: anneau non réduit à 0
     - en: obviously
       vi: hiển nhiên
       zh: 显然
       ja: 明らかに
+      fr: évidemment
     - en: opposite algebra
       vi: đại số đối
       zh: 反代数
@@ -3094,6 +3099,7 @@ terms:
       vi: môđun thương
       zh: 商模
       ja: 商加群
+      fr: module quotient
     - en: reduced norm
       vi: chuẩn rút gọn
       zh: 约化范数
@@ -3115,6 +3121,7 @@ terms:
       vi: đại số con nửa đơn
       zh: 半单子代数
       ja: 半単純部分代数
+      fr: sous-algèbre semi-simple
     - en: solvable
       vi: giải được
       zh: 可解
@@ -3147,6 +3154,7 @@ terms:
       vi: nhóm duy nhất
       zh: 唯一群
       ja: 一意な群
+      fr: unique homomorphisme de groupe
     - en: unique morphism
       vi: cấu xạ duy nhất
       zh: 唯一态射
@@ -3190,6 +3198,7 @@ terms:
       vi: nghịch đảo song môđun
       zh: 逆双模
       ja: 双加群逆元
+      fr: bimodule inverse
     - en: cannot
       vi: không thể
       zh: 不能
@@ -3303,6 +3312,7 @@ terms:
       vi: hiển nhiên
       zh: 显然
       ja: 明らか
+      fr: évidente
     - en: polynomial ring
       vi: vành đa thức
       zh: 多项式环
@@ -3612,6 +3622,7 @@ terms:
       vi: vành gần đơn
       zh: 拟单环
       ja: 準単純環
+      fr: anneau quasi-simple
     - en: r-algebra
       vi: đại số trên R
       zh: R-代数
@@ -3663,6 +3674,7 @@ terms:
       vi: đại số giao hoán nửa đơn
       zh: 半单交换代数
       ja: 半単純可換代数
+      fr: algèbre commutative semi-simple
     - en: semitrivial
       vi: nửa tầm thường
       zh: 半平凡
@@ -3680,6 +3692,7 @@ terms:
       vi: dãy khớp tách
       zh: 分裂正合序列
       ja: 分裂完全列
+      fr: suite exacte scindée
     - en: square matrices
       vi: ma trận vuông
       zh: 方阵
@@ -3697,6 +3710,7 @@ terms:
       vi: biểu diễn con
       zh: 子表示
       ja: 部分表現
+      fr: sous-représentation
     - en: surjective endomorphism
       vi: tự đồng cấu toàn ánh
       zh: 满射自同态
@@ -3721,6 +3735,7 @@ terms:
       vi: ánh xạ duy nhất
       zh: 唯一映射
       ja: 一意な写像
+      fr: unique application
     - en: unique maximal left
       vi: duy nhất cực đại trái
       zh: 唯一极大左
@@ -3747,6 +3762,7 @@ terms:
       vi: hàm cộng tính yếu
       zh: 弱可加函数
       ja: 弱加法的関数
+      fr: fonction faiblement additive
     - en: absolutely semisimple module
       vi: môđun nửa đơn tuyệt đối
       zh: 绝对半单模
@@ -3765,6 +3781,7 @@ terms:
       vi: định lý mật độ
       zh: 稠密性定理
       ja: 密度定理
+      fr: Théorème de densité
     - en: generalization
       vi: phép tổng quát hóa
       zh: 推广
@@ -3774,6 +3791,7 @@ terms:
       vi: đồng cấu lạm phát
       zh: 膨胀同态
       ja: インフレーション準同型
+      fr: homomorphisme d’inflation
     - en: maximal ordered field
       vi: trường có thứ tự cực đại
       zh: 极大有序域
@@ -3793,6 +3811,7 @@ terms:
       vi: đồng cấu hạn chế
       zh: 限制同态
       ja: 制限準同型
+      fr: homomorphisme de restriction
     - en: separably closed field
       vi: trường đóng khả ly
       zh: 可分闭域
@@ -3826,6 +3845,7 @@ terms:
       vi: đồng cấu đối hạn chế
       zh: 上限制同态
       ja: コアストリクション準同型
+      fr: homomorphisme de corestriction
     - en: correspondence
       vi: sự tương ứng
       zh: 对应
@@ -3843,6 +3863,7 @@ terms:
       vi: étale cực đại
       zh: 极大étale
       ja: 極大エタール
+      fr: étale maximale
     - en: operation
       vi: phép toán
       zh: 运算
@@ -3898,6 +3919,7 @@ terms:
       vi: Nullstellensatz
       zh: 零点定理
       ja: ヌルステレンザッツ
+      fr: théorème des zéros de Hilbert
       note: Added by hand, and the rendering is the German word itself. The appendix heading came back as "ĐỊNH LÝ ZEROS CỦA HILBERT" on one run and "ĐỊNH LÝ NULLSTELLENSATZ CỦA HILBERT" on another, so the term needed pinning rather than leaving to the run. Vietnamese mathematical writing keeps Nullstellensatz as it stands, the way it keeps Nakayama and Noether, and "định lý zeros" is a half translation that names nothing.
     - en: set
       vi: tập hợp
@@ -3932,6 +3954,7 @@ terms:
       vi: bất biến
       zh: 不变量
       ja: 不変量
+      fr: invariant
     - en: connected
       vi: liên thông
       zh: 连通
@@ -3983,6 +4006,7 @@ terms:
       vi: song tuyến tính
       zh: 双线性
       ja: 双線形
+      fr: bilinéaire
     - en: highest weight
       vi: trọng số cao nhất
       zh: 最高权
@@ -4016,6 +4040,7 @@ terms:
       vi: dạng song tuyến tính
       zh: 双线性形式
       ja: 双線形形式
+      fr: forme bilinéaire
     - en: theory
       vi: lý thuyết
       zh: 理论
@@ -4103,6 +4128,7 @@ terms:
       vi: mật độ
       zh: 密度
       ja: 稠密度
+      fr: densité
     - en: directed set
       vi: tập có hướng
       zh: 有向集合
@@ -4139,9 +4165,11 @@ terms:
       vi: môđun đẳng kiểu
       zh: 同型模
       ja: 等型加群
+      fr: module isotypique
     - en: lower
       vi: thấp hơn
       ja: 下
+      fr: inférieure
     - en: nilpotent lie algebra
       vi: đại số Lie lũy linh
       zh: 幂零李代数
@@ -4225,6 +4253,7 @@ terms:
     - en: terminology
       vi: thuật ngữ
       zh: 术语
+      fr: terminologie
     - en: tube
       vi: ống
       zh: 管
@@ -4300,6 +4329,7 @@ terms:
     - en: corestriction
       vi: hạn chế đối
       zh: 余限制
+      fr: corestriction
     - en: dominant polynomial
       vi: đa thức trội
       zh: 首一多项式
@@ -4313,6 +4343,7 @@ terms:
     - en: fourier inversion formula
       vi: công thức đảo Fourier
       zh: 傅里叶反演公式
+      fr: Formule d’inversion de Fourier
     - en: greatest element
       vi: phần tử lớn nhất
       zh: 最大元素
@@ -4320,6 +4351,7 @@ terms:
     - en: greatest lower bound
       vi: cận dưới lớn nhất
       zh: 下确界
+      fr: Borne inférieure
       note: 'Pinned by hand after the two runs disagreed. These are the forms Chinese textbooks use: an ordered set has 下确界 and 上确界 rather than the literal greatest lower bound, a filtered colimit is 直极限, and Maschke is 马施克.'
     - en: historical note
       vi: ghi chú lịch sử
@@ -4494,6 +4526,7 @@ terms:
     - en: Hilbert’s Nullstellensatz
       vi: Định lý không điểm của Hilbert
       zh: 希尔伯特零点定理
+      fr: théorème des zéros de Hilbert
     - en: historical
       vi: lịch sử
       zh: 历史

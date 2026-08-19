@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: 980e3754f2e411e660d9e809110abda75b8754a535696002015e271d03b64bce
+content_sha256: 0118d0e43c427c1d52d1b6814c30f247dd525485743012e936e0e6ec92b507be
 ---
 
 ## § 1. OPÉRATEURS COMPACTS SUR UN ESPACE HILBERTIEN
@@ -742,7 +742,7 @@ $$
 
 converge pour toute base orthonormale $(e_i)_{i\in I}$ de E et sa somme est indépendante de la base orthonormale ; on dit que c’est la trace Tr($u$)
 
-de Soit$u$ (EVT, V, p. 50). Si $K =u\in \mathscr{L}_1(E)$. On a $u^*\in \mathscr{L}\mathbf{R}_1$, on a Tr((E) et Tr($uu$) $=$ Tr($^*$) $=$ Tr($u\overset{(\mathbf{C}}{u}) (^)$).loc. cit.).
+de Soit$u$ (EVT, V, p. 50). Si $K =u\in \mathscr{L}_1(E)$. On a $u^*\in \mathscr{L}\mathbf{R}_1$, on a Tr((E) et Tr($uu$) $=$ Tr($_*$) $=$ Tr($u\overset{(\mathbf{C}}{u}) (^)$).loc. cit.).
 
 #### Proposition 12 {#ts-iv-s1-prop-12 .statement tag=02X7}
 
@@ -1040,7 +1040,7 @@ On identifiera dans la suite $L^2(X)\widehat{\otimes}_2L^2(Y)$ et $L^2(X\times Y
 
 L’application $N\mapsto u_N$ est un isomorphisme isométrique de $L^2(X\times Y)$ sur l’espace $\mathscr{L}_2(L^2(X); L^2(Y))$ des applications
 
-de Hilbert–Schmidt deL’application linéaire de L$L^2(X)^2$dans$(Y)\otimes L\overset{2}{L}(Y)^2(X)$ dans. $\mathscr{L}_2(L^2(X); L^2(Y))$ qui associe àprolonge en un isomorphisme isométrique$g\otimes f$ l’application de Hilbert–Schmidt$\theta_1$ de $L_2(Y)h\mapsto  \langle \widehat{\otimes}_2Lf_2|(X)$ sur$h\rangle g$ se
+de Hilbert–Schmidt deL’application linéaire de L$L^2(X)_2$dans$(Y)\otimes L\overset{2}{L}(Y)_2(X)$ dans. $\mathscr{L}_2(L^2(X); L^2(Y))$ qui associe àprolonge en un isomorphisme isométrique$g\otimes f$ l’application de Hilbert–Schmidt$\theta_1$ de $L^2(Y)h\mapsto  \langle \widehat{\otimes}_2Lf_2|(X)$ sur$h\rangle g$ se
 
 $\mathscr{L}_2(L^2(X); L^2(Y))$ (EVT, V, p. 52, th. 1).
 

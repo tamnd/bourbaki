@@ -53,7 +53,7 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: a122722bb7b0289e77545ffbf23750a26732b62e4ce78c5c05934e4aa94db306
+content_sha256: f46ae132ea6adfb5bdd03153912e687467cd98797c5422fad78954edb0a6c3b8
 ---
 
 ## § 4. ROOT SYSTEM ASSOCIATED TO A COMPACT GROUP
@@ -428,7 +428,7 @@ For all $x\in \mathbf{R}$, we have
 
 $($ exp(2$\pi ix)$ 0 $)_{2\pi ix}$
 
-$\nu$ 0 exp($-2\pi ix$)$=\nu^T(e$ ) = exp($xK^{\alpha}$). (14)
+$\nu$ 0 exp($-2\pi ix$)$=\nu_T(e$ ) = exp($xK_{\alpha}$). (14)
 
 In particular:
 

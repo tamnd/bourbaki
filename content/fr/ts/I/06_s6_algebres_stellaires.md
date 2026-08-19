@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: b7df802697c18e5528ad8725b476166fd48a04528313acc510d9562e252b6665
+content_sha256: fc4458a1309ea55354ec996d7f7162f3088243ef8c77e961ec1749a6ce19044f
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -192,7 +192,7 @@ L’application $x\mapsto x^{-1}$ de G sur G transforme toute mesure $\mu\in$ $\
 
 L’ensemble A des mesures bornées admettant une densité par rapport à une mesure de Haar est une sous-algèbre fermée de $\mathscr{M}^1(G)$ stable par l’involution (cf. INT, VIII, §4, n$^o5)$; elle ne dépend pas du choix d’une mesure de Haar.
 
-Soit $\nu$ une mesure de Haar à gauche sur G et notons Δ le module devolution$Gf$. On munit$\mapsto f^*=\widetilde{f}L\overset{1}{\cdot}(G\Delta^-, \nu^1$, où) du produit$\widetilde{f}(x) =\frac{(f, g)}{f(x^{-1})}\mapsto$pour tout$f*^{\nu}g$ et de l’in-$x\in G$. Alors l’application $f\mapsto f\cdot \nu$ est un isomorphisme de l’algèbre involutive $L^1(G, \nu )$ sur A. Cet isomorphisme est isométrique. En particulier, $L^1(G, \nu )$ s’identifie à une sous-algèbre involutive de $\mathscr{M}^1(G)$.
+Soit $\nu$ une mesure de Haar à gauche sur G et notons Δ le module devolution$Gf$. On munit$\mapsto f^*=\widetilde{f}L\overset{1}{\cdot}(G\Delta^-, \nu_1$, où) du produit$\widetilde{f}(x) =\frac{(f, g)}{f(x^{-1})}\mapsto$pour tout$f*^{\nu}g$ et de l’in-$x\in G$. Alors l’application $f\mapsto f\cdot \nu$ est un isomorphisme de l’algèbre involutive $L^1(G, \nu )$ sur A. Cet isomorphisme est isométrique. En particulier, $L^1(G, \nu )$ s’identifie à une sous-algèbre involutive de $\mathscr{M}^1(G)$.
 
 #### Exemple 5 {#ts-i-s6-n2-exa-5 .statement tag=02CS}
 
@@ -790,7 +790,7 @@ On a vu ci-dessus que $x^{1/\alpha}$ vérifie les propriétés demandées. Inver
 
 Soit A une algèbre stellaire unifère. Tout élément de A est somme d’éléments unitaires.
 
-D’après le lemmeSoit $x$ un élément hermitien de12, c), on a $1-\frac{1}{4}Ax$. Supposons d’abord que$^2\in A_+$. Soit $y=\frac{1}{2}x+i\surd\|1x-\|\leqslant^1_{\overline{4}}x2^2$..
+D’après le lemmeSoit $x$ un élément hermitien de12, c), on a $1-\frac{1}{4}Ax$. Supposons d’abord que$_2\in A_+$. Soit $y=\frac{1}{2}x+i\surd\|1x-\|\leqslant_{1\overline{4}}x2_2$..
 
 On a $y^*=\frac{1}{2}x-i\surd\overline{1 -\frac{1}{4}x^2}$, donc $yy^*= 1$ et $x=y+y^*$ est somme de deux éléments unitaires. Dans le cas général, soit $k$ un entier tel que $\|\frac{1}{k}x\|\leqslant 2$ ; l’élément $x$ est alors somme de $2k$ éléments unitaires. D’après le lemme 2 de I, p. 96, le lemme en résulte.
 

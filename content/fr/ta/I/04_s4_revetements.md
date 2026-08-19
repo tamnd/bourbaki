@@ -53,7 +53,7 @@ subsections:
       pdf_page: 105
 statements: 50
 exercises: 9
-content_sha256: b223342ad6235f2feedc9185ea923d98d548abd3077ff7d001d2ae40063239a4
+content_sha256: 675be3b65f444c5d24d4ff838f916b5e18a1bb29a00ee3718bd7381d539b5ffb
 ---
 
 ## § 4. REVÊTEMENTS
@@ -520,7 +520,7 @@ Soit B un espace topologique et soit $(\mathscr{F}_i)_{i\in I}$ une famille de f
 
 Si l’ensemble I est fini, le B-morphisme Φ est un isomorphisme.
 
-D’après le corollaire de I, p. 32, le B-espace $E'$ est étalé et il suffit de démontrer que le B-morphisme Φ est bijectif ( I, p. 30, cor. 2). Pour tout point $b$ de B, la restriction $\Phi_b: E_b\rightarrow E'_b$ de Φ aux fibres en $b$ s’identifie à l’application canonique de lim$\longrightarrow \prod_{i\in I}\mathscr{F}_i(U)$ dans $\prod_{i\in I}$ lim$\longrightarrow \mathscr{F}_i(U)$, où U parcourt l’ensemble des ouverts de B qui contiennent $b($cf. I, p. 50). D’après la prop. 10 de E, III, p. 67, cette application est une bijection.
+D’après le corollaire de I, p. 32, le B-espace $E'$ est étalé et il suffit de démontrer que le B-morphisme Φ est bijectif ( I, p. 30, cor. 2). Pour tout point $b$ de B, la restriction $\Phi_b: E_b\rightarrow E'_b$ de Φ aux fibres en $b$ s’identifie à l’application canonique de lim$\longrightarrow \prod^{i\in I}\mathscr{F}_i(U)$ dans $\prod_{i\in I}$ lim$\longrightarrow \mathscr{F}_i(U)$, où U parcourt l’ensemble des ouverts de B qui contiennent $b($cf. I, p. 50). D’après la prop. 10 de E, III, p. 67, cette application est une bijection.
 
 Considérons maintenant le cas des faisceaux localement constants sur un espace topologique B. Soit $(F_i)_{i\in I}$ une famille d’ensembles et posons $F =\prod_{i\in I}F_i$. On définit un morphisme canonique $\psi = (\psi_U)$ du faisceau constant F dans le produit $\prod_{i\in I}F_i$ des faisceaux constants $F_i$ en posant, pour tout ouvert U de B et toute fonction localement constante $f: U\rightarrow F,\psi_U(f) =$ (pr$_i\circ f)_{i\in I}$.
 
