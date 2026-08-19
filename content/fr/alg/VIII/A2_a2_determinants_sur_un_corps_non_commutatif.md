@@ -34,7 +34,7 @@ subsections:
       pdf_page: 447
 statements: 18
 exercises: 4
-content_sha256: efe1f50bd88eba1c62294c8c381a57ba38594806de9dae5170c6fe0dd7218357
+content_sha256: 798b058f0c87ac190ccb5144caf78049d60b5312dc52ca93266437c9b73c8e14
 ---
 
 ### APPENDICE 2 DÉTERMINANTS SUR UN CORPS NON COMMUTATIF
@@ -142,7 +142,7 @@ Il résulte des formules (1) et (3) que le premier membre de cet égalité est �
 De tout ceci il résulte que si $\omega$ satisfait à la relation (7), on a
 
 $$
-\omega (v_1, . . . , v_n) =\pi (-1)_{n-i}\pi (\mu_i)_{-1}\varphi (p(v_1), . . . ,p(\widehat{v}_i), . . . , p(v_n)) \tag{9}
+\omega (v_1, . . . , v_n) =\pi (-1)^{n-i}\pi (\mu_i)^{-1}\varphi (p(v_1), . . . ,p(\widehat{v}_i), . . . , p(v_n)) \tag{9}
 $$
 
 pour tout $i$ dans I ce qui prouve l’unicité de $\omega$.
@@ -150,7 +150,7 @@ pour tout $i$ dans I ce qui prouve l’unicité de $\omega$.
 B) Construction de $\omega :$ Soit $(v_1, . . . , v_n)$ une base de V ; on définit $\mu_1, . . . , \mu_n$ et I comme ci-dessus. Pour tout $i$ dans I, l’hypothèse $\mu_i\not= 0$ entraîne que la suite $(v_1, . . . ,\widehat{v}_i, . . . , v_n, e)$ engendre l’espace V, donc la suite $(p(v_1), . . . ,p(\widehat{v}_i), . . . , p(v_n))$ engendre l’espace $W =p(V)$. Autrement dit, cette dernière suite est une base de W, et l’on peut définir l’élément
 
 $$
-t_i=\pi (-1)_n^-_i\pi (\mu_i)^-_1\varphi (p(v_1), . . . ,p(\widehat{v}_i), . . . , p(v_n)) \tag{10}
+t_i=\pi (-1)^{n-i}\pi (\mu_i)^{-1}\varphi (p(v_1), . . . ,p(\widehat{v}_i), . . . , p(v_n)) \tag{10}
 $$
 
 de $D^*_{ab}$.
@@ -168,11 +168,11 @@ $$
 Par application des formules (1) et (3), on en déduit
 
 $$
-\varphi (p(v_1), . . . ,p(\widehat{v}_j), . . . , p(v_n))\pi (\mu_i)\pi (-1)_{n-i-1}
+\varphi (p(v_1), . . . ,p(\widehat{v}_j), . . . , p(v_n))\pi (\mu_i)\pi (-1)^{n-i-1}
 $$
 
 $$
-=\varphi (p(v_1), . . . ,p(\widehat{v}_i), . . . , p(v_n))\pi (-\mu_j)\pi (-1)_{n-j}
+=\varphi (p(v_1), . . . ,p(\widehat{v}_i), . . . , p(v_n))\pi (-\mu_j)\pi (-1)^{n-j}
 $$
 
 d’où $t_i=t_j$.

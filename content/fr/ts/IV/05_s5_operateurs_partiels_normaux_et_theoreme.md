@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: b1fa15e9527227358753a31dd0608043025d2f4324f79795d19b40f21fc871a7
+content_sha256: 5d0ca5c4d4f89ff47fb8c79996fccefdf5a3fc4f2121ae3c3f77ba9587e127f4
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
@@ -246,7 +246,7 @@ Si $u$ est un opérateur partiel auto-adjoint sur E, alors $b(u)$ est hermitien 
 
 Soit D le disque unité ouvert dans $\mathbf{C}$. On note $\beta$ la fonction de $\mathbf{C}$
 
-dans D définie pardont l’inverse vérifie$\beta \beta (\overset{-1}{z}) =(z) =z/\surd z/\overline{1 +\surd1 - ||z|^2}z$. C’est un homéomorphisme,$|^2$ pour $z\in D$.
+dans D définie pardont l’inverse vérifie$\beta \beta (_-z_1) =(z) =z/\surd z/\overline{1 +\surd1 - ||z|^2}z$. C’est un homéomorphisme,$|^2$ pour $z\in D$.
 
 Soit $u\in \mathscr{L}(E)$. Il résulte des formules (2) et (3) de la proposition 1 de IV, p. 262 que $u=\beta^{-1}(b(u))$, et donc
 
@@ -348,7 +348,7 @@ Soit X un espace topologique localement compact, soit $\mu$ une mesure positive 
 
 a) L’application $f\mapsto f(m_g)$ de $\mathscr{K}$ (Sp($m_g$)) dans $\mathscr{L}(L^2(X, \mu))$ est donnée par $f\mapsto m_{f\circ g}$;
 
-b) Pour $f_1$ et $f_2$ dans $\mathscr{L}^2(X, \mu)$ de classes $\widetilde{f}_1$ et $\widetilde{f}_2$ dans $L^2(X, \mu)$, la mesure spectrale dede la mesure image $g(\frac{(}{f}\widetilde{f}_{11}f,_2\widetilde{f}\cdot_2\mu)$ )relative à. $m_g$ est la restriction à Sp($m_g$)
+b) Pour $f_1$ et $f_2$ dans $\mathscr{L}^2(X, \mu)$ de classes $\widetilde{f}_1$ et $\widetilde{f}_2$ dans $L^2(X, \mu)$, la mesure spectrale dede la mesure image $g(\frac{(}{f}\widetilde{f}_{11}f,_2\widetilde{f}\cdot^2\mu)$ )relative à. $m_g$ est la restriction à Sp($m_g$)
 
 L’opérateur partiel $m_g$ est normal et $b(m_g) =m_{\beta\circ g}=m_{g(1+|g|^2)^{-1/2}}$ (lemme 2). De plus $\beta (g(x))$ appartient à Sp($m_{\beta\circ g}$) pour tout $x$ en dehors d’un ensemble localement $\mu$-négligeable $Y\subset X$ (proposition 22 de IV, p. 252 et lemme 1 de IV, p. 181). Comme $f_{\beta}(\beta (g(x))) =f(g(x))$ pour tout $x\in X$ - Y, on en déduit que $f(m_g) =m_{f\circ g}$ d’après la définition 3 et le cor. de la prop. 6 de IV, p. 187.
 
@@ -869,11 +869,11 @@ $$
 Pour tout $(x, y)\in \mathbf{R}^2$ et $\varepsilon  >0$, on obtient
 
 $$
-g^{\varepsilon}(x, y) =-\frac{2i\varepsilon}{(x-y)^2 + \varepsilon^2}f(y) +\frac{2i\varepsilon(y-x)}{(x-y)^2 + \varepsilon^2}f'(y)
+g_{\varepsilon}(x, y) =-\frac{2i\varepsilon}{(x-y)^2 + \varepsilon^2}f(y) +\frac{2i\varepsilon(y-x)}{(x-y)^2 + \varepsilon^2}f'(y)
 $$
 
 $$
-+\varepsilon_2(\frac{\varrho_1(y; \varepsilon)}{y-x + i\varepsilon}-\frac{\varrho_1(y;-\varepsilon)}{y-x-i\varepsilon})
++\varepsilon^2(\frac{\varrho_1(y; \varepsilon)}{y-x + i\varepsilon}-\frac{\varrho_1(y;-\varepsilon)}{y-x-i\varepsilon})
 $$
 
 Soient $x\in \mathbf{R}$ et $\varepsilon  >0$. On a
@@ -1019,13 +1019,13 @@ Soit $\lambda \in \mathbf{C}-\mathbf{R}$. Par hypothèse, la suite des résolvan
 Pour tout $n\in \mathbf{N}$, on a
 
 $$
-\|\frac{\partial\widetilde{f}}{\partial z}(\lambda )R(u^n, \lambda )\|\leqslant |\frac{1}{\mathscr{I} (\lambda)}\frac{\partial\widetilde{f}}{\partial z}(\lambda )|
+\|\frac{\partial\widetilde{f}}{\partial z}(\lambda )R(u_n, \lambda )\|\leqslant |\frac{1}{\mathscr{I} (\lambda)}\frac{\partial\widetilde{f}}{\partial z}(\lambda )|
 $$
 
 (prop. 17 de IV, p. 248) donc
 
 $$
-\|\frac{\partial\widetilde{f}}{\partial z}(\lambda )\varpi (R(u^n, \lambda ))\|_p\leqslant c|\frac{1}{\mathscr{I} (\lambda)}\frac{\partial\widetilde{f}}{\partial z}(\lambda )|
+\|\frac{\partial\widetilde{f}}{\partial z}(\lambda )\varpi (R(u_n, \lambda ))\|_p\leqslant c|\frac{1}{\mathscr{I} (\lambda)}\frac{\partial\widetilde{f}}{\partial z}(\lambda )|
 $$
 
 La majoration (13) de IV, p. 281 démontre que le membre de droite de cette inégalité est une fonction bornée pour $\lambda \in \mathbf{C}-\mathbf{R}$; elle est intégrable sur $\mathbf{C}$ puisque $\widetilde{f}$ est à support compact. On déduit du théorème de Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6) et de la formule de Helffer–Sjöstrand appliquée à $f$ que $\varpi (f(u_n))$ converge vers $\varpi (f(u))$, donc $p(f(u_n)-f(u))$ tend vers 0.

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 107
 statements: 36
 exercises: 30
-content_sha256: 0b4a1f35a2c9ae551613fb1073dcd1d3eca2dfb2aefcf71da2e900fb42943f61
+content_sha256: 6ed30c6b36a2c5b35a51baedab8ab05f47d1fa8b095a2d244f4a6331d8ef5594
 ---
 
 ## § 6. PROPRIÉTÉS SPECTRALES DES ENDOMORPHISMES DES ESPACES DE BANACH
@@ -366,7 +366,7 @@ Supposons qu’il existe une telle fonction holomorphe $\widetilde{f}$ définie 
 
 $+\infty (n)+\infty (n)$
 
-$\widetilde{f}_s(z) =\sum\widetilde{f}n$!$(s)z_n=\sum fn$!$(s)z_n$
+$\widetilde{f}_s(z) =\sum\widetilde{f}n$!$(s)z^n=\sum fn$!$(s)z^n$
 
 $n=0n=0$ (VAR, R1, p. 27, 3.2.4). Comme $s\in D$, on a
 
@@ -376,7 +376,7 @@ $$
 
 (VAR, R1, p. 28, 3.2.11). Prenons $z$ tel que $0< z < \delta$. Puisque $a_k\geqslant 0$, on a
 
-$\widetilde{f}_s(z) =\sum^{+\infty}(\sum^{+\infty}k(k-1)\cdots n($!$k-n+ 1)a_ks_{k-n})z_n$
+$\widetilde{f}_s(z) =\sum^{+\infty}(\sum^{+\infty}k(k-1)\cdots n($!$k-n+ 1)a_ks^{k-n})z^n$
 
 $n=0k=n$ $+\infty k+\infty$
 

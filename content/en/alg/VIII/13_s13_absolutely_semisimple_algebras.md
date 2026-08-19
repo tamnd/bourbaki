@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: d4a76bd514ba7734399d6bea285afe649ceb189c45513e7d2bdb2c7f9f5e6b00
+content_sha256: aaa85e7d6678d29eb6695bf6dc3acccb83dbd37100c1bafd917fcb416627b9d2
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -379,7 +379,7 @@ is an isomorphism of K-modules.
 
 We denote by $\partial^n$ (for $n\geqslant 0)$ the unique K-linear mapping from $C^n(A,P)$ to $C^{n+1}(A,P)$ that makes the following diagram commutative:
 
-$C_n(A,P)\partial^{^n}$ // $C_{n+1}(A,P)$
+$C^n(A,P)\partial^{^n}$ // $C^{n+1}(A,P)$
 
 $\alpha^n\alpha^{n+1}$
 
@@ -449,7 +449,7 @@ for every integer $n\geqslant 1$ and every $f\in C^n(A,P)$.
 
 #### Remark 1 {#alg-viii-s13-n7-rem-1 .statement tag=00SF}
 
-$*$The morphisms $\partial_n: C_n(A,P)\rightarrow C_{n+1}(A,P)$ define a complex $(C(A,P), \partial )$ of K-modules (X, §2, n$^o1$, p. 24). The mapping $\gamma_n$ therefore defines a homotopy from this complex to itself linking 0 to Id$_{C(A,P)}$ (X, §2, n$^o4$, p. 32, définition $4).*$
+$*$The morphisms $\partial^n: C^n(A,P)\rightarrow C^{n+1}(A,P)$ define a complex $(C(A,P), \partial )$ of K-modules (X, §2, n$^o1$, p. 24). The mapping $\gamma_n$ therefore defines a homotopy from this complex to itself linking 0 to Id$_{C(A,P)}$ (X, §2, n$^o4$, p. 32, définition $4).*$
 
 We keep the notation of No.6. For every integer $n\geqslant 0$, we define a mapping $h_n: B_n\rightarrow B_{n+1}$ by the formula
 

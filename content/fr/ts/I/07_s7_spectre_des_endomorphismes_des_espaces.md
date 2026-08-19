@@ -45,7 +45,7 @@ subsections:
       pdf_page: 152
 statements: 24
 exercises: 16
-content_sha256: bcd59f29aa8d914904ff692a5c0bf4c5777ab2e849d8345901baea86bb5c861c
+content_sha256: 6c94380b983aa365202602c41da7229513eb3dd3476e4372ff9d314558ebef36
 ---
 
 ## § 7. SPECTRE DES ENDOMORPHISMES DES ESPACES DE BANACH
@@ -424,7 +424,7 @@ a) On a $|u|=j^*u=u^*j$;
 
 b) On a $|u^*|=ju^*=uj^*$;
 
-Notonsc) La décomposition polaire deI = Ker($u$)$_{\circ}$ et F = Im($u\overset{*}{u}$) estle sous-espace initial et le sous-$(j^*,|u^*|)$.
+Notonsc) La décomposition polaire deI = Ker($u$)$^{\circ}$ et F = Im($u\overset{*}{u}$) estle sous-espace initial et le sous-$(j^*,|u^*|)$.
 
 espace final de $u$; on a de plus I = Ker($|u|$)$^{\circ}=$ Im($|u|$) (prop. 10, a)). L’application $j^*j$ est l’orthoprojecteur de $E_1$ sur I (loc. cit. et EVT, V, p. 41, prop. 5 (ii)). On a donc $j^*u=j^*j|u|=|u|$, puis $u^*j= (j^*u)^*=|u|^*=|u|$, d’où a).
 

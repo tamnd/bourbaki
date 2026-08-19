@@ -26,7 +26,7 @@ subsections:
       pdf_page: 391
 statements: 9
 exercises: 1
-content_sha256: cedbbd8a89fc383b8ed28963195799b4cf350ffc12af31914a90a8c07c32657d
+content_sha256: 6de23094d5f6683b17796bc0a65f749a5355b343c504ef5be79ff73b33fdf262
 ---
 
 ## APPENDIX I
@@ -77,7 +77,7 @@ c) If $G_{\alpha}$ is compact for all $\alpha \in I$, then $C(G)_0=$ lim$_{_{\le
 
 Let $\alpha , \beta$ be two elements of I, with $\alpha \leq \beta$. Then $f_{\alpha \beta}(D(G_{\beta}))\subset D(G_{\alpha})$,
 
-andit follows that$f^{\alpha \beta}(C(G^{\beta}))f_{\alpha \beta}\subset (D(GC(G^{\alpha}_{\beta}))$) since$\subset D(Gf^{\alpha \beta}_{\alpha})$ andis surjective; since$f_{\alpha \beta}(C(G_{\beta})_0)f\subset^{\alpha \beta}C(G$is continuous,$_{\alpha})_0$, hence $a$Prop. 6), so D(G) = lim). Since $f_{\alpha}$ is surjective,$_{\leftarrow -}D(Gf_{\alpha}(D(G)) = D(G_{\alpha}) ($General Topology$_{\alpha}) ($Algebra, Chap. I,, Chap. I,§4, no. 4, Cor.§6, no. 2,
+andit follows that$f_{\alpha \beta}(C(G_{\beta}))f_{\alpha \beta}\subset (D(GC(G_{\alpha\beta}))$) since$\subset D(Gf_{\alpha \beta\alpha})$ andis surjective; since$f_{\alpha \beta}(C(G_{\beta})_0)f\subset^{\alpha \beta}C(G$is continuous,$_{\alpha})_0$, hence $a$Prop. 6), so D(G) = lim). Since $f_{\alpha}$ is surjective,$_{\leftarrow -}D(Gf_{\alpha}(D(G)) = D(G_{\alpha}) ($General Topology$^{\alpha}) ($Algebra, Chap. I,, Chap. I,§4, no. 4, Cor.§6, no. 2,
 
 of Prop. 9). The surjectivity of $f_{\alpha}$ also implies the inclusion $f_{\alpha}(C(G))\subset$ $C(G_{\alpha})$ and hence $C(G)\subset$ lim$_{\leftarrow -}C(G_{\alpha})$; the opposite inclusion is immediate. Finally, assertion $c)$ follows from $b)$ and General Topology, Chap. III, §7, no. 2, Prop. 4).
 

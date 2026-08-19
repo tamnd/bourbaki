@@ -49,7 +49,7 @@ subsections:
       pdf_page: 489
 statements: 54
 exercises: 32
-content_sha256: 208cbaf07d70a96730982b988921a2a55405a88dc1b8865e1afee8d27d7441b0
+content_sha256: f1342a72cdc24be5cab7014eb35318ad21cc7561850c52bb06967610b66c48bb
 ---
 
 ## § 4. REPRÉSENTATIONS DES GROUPES COMPACTS
@@ -530,7 +530,7 @@ Soit $\pi \in \widehat{G}$. On munit l’espace vectoriel End(E$_{\pi})$ de la s
 
 $\langle u_1|u_2\rangle =$ dim($\pi$)Tr($u^*_1u_2$) $=$ dim($\pi$)Tr($u_2u^*_1$)
 
-pourOn note$u^1,u^2$ dans End(E$\|u\|_2$ = $\surd\langle^{\pi}u) (|u$cf.$\rangle$ la norme d’un élémentEVT, V, p. 52, th. 1). $u$ de End(E$_{\pi})$ pour $\pi \in \widehat{G}$. Pour tout $g\in G$, on a $\|\pi (g)\|_2=$ dim($\pi$ ) puisque $\pi (g)$ est unitaire.
+pourOn note$u_1,u_2$ dans End(E$\|u\|_2$ = $\surd\langle^{\pi}u) (|u$cf.$\rangle$ la norme d’un élémentEVT, V, p. 52, th. 1). $u$ de End(E$_{\pi})$ pour $\pi \in \widehat{G}$. Pour tout $g\in G$, on a $\|\pi (g)\|_2=$ dim($\pi$ ) puisque $\pi (g)$ est unitaire.
 
 La norme notée ici $\|u\|_2$ diffère par un facteur dim($\pi$ ) de la norme définie dans EVT, V, p. 52 sur l’espace des applications de Hilbert– Schmidt de $E_{\pi}$.
 

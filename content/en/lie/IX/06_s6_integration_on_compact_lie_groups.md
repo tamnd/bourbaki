@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: 054285de3967ae6c8b8f0d114bc41cd38f167368cb943cf1ab5b4ccda41db2de
+content_sha256: afe819f840f8e5e1444995aa67d7ef06b2cfd1e5633f4a2a01a78a0801c5bdb6
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
@@ -337,7 +337,7 @@ so $\lambda_{\mathfrak{h}}$((Ad $h)(x)) =\lambda_{\mathfrak{h}}(x)$. Thus, the f
 Consider the function $\lambda_{\mathfrak{g}}$ associated to a compact Lie group G; in view of §2, no. 1, Th. 1, to calculate $\lambda_{\mathfrak{g}}$ it suffices to know its values on $\mathfrak{t}$. But, for $x\in \mathfrak{t}$, the endomorphism ad $x$ of $\mathfrak{g}$ is semi-simple, and has eigenvalues 0 (with multiplicity $r)$ and, for all $\alpha \in R(G,T),\delta (\alpha )(x)$ (with multiplicity 1). It follows immediately that
 
 $$
-\lambda^{\mathfrak{g}}(x) =\prod\frac{e^{\delta(\alpha)(x)} - 1}{\delta(\alpha)(x)}=\frac{\delta_{\mathfrak{g}}(x)}{\pi_{\mathfrak{g}}(x)} \tag{11}
+\lambda_{\mathfrak{g}}(x) =\prod\frac{e^{\delta(\alpha)(x)} - 1}{\delta(\alpha)(x)}=\frac{\delta_{\mathfrak{g}}(x)}{\pi_{\mathfrak{g}}(x)} \tag{11}
 $$
 
 $\alpha \in R(G,T)$

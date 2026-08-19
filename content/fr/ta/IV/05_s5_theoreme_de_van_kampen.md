@@ -37,7 +37,7 @@ subsections:
       pdf_page: 445
 statements: 31
 exercises: 34
-content_sha256: e8c7792747a803a874ced39621865b75ad201cf1b4d002147b2b30b823f7bc5e
+content_sha256: 4fe57a614337c232274c8b9074327507563f6a356ad3c807af22864d8bd4dde6
 ---
 
 ## § 5. THÉORÈME DE VAN KAMPEN
@@ -264,7 +264,7 @@ $$
 L_1(k) = B_1(j_{13}(k))*\overline{C_{13}(k)}*C_{12}(k)*B_1(j_{12}(k))
 $$
 
-(4) L$L_{23}((kk) = B) = B_{22}((jj_{1223}((kk))))**\overline{CC^{1223}((kk))}**CC_{2313}((kk))**BB_{12}((jj_{2313}((kk))))$,.
+(4) L$L^2_3((kk) = B) = B^2_2((jj^{12}_{23}((kk))))**\overline{CC^{1223}((kk))}**CC^{23}_{13}((kk))**BB^1_2((jj^{23}_{13}((kk))))$,.
 
 Pour $s\in  \{1,2,3\}$, on note $\lambda_s(k)$ la classe dans $\pi_1(A_{i_s}, a(i_s))$ du lacet $L_s(k)$.
 

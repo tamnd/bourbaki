@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: a0ad6fc1593f4bd4debc43728d1c92bd47a636d7333ca94e9b7839c5757ee9e0
+content_sha256: 1737c91ad3292e5b1e69204876048b7581a14798cea443ff494a3fab37582ff5
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -465,7 +465,7 @@ $$
 
 A simple calculation shows that the mapping $\partial h: G\times G\rightarrow F$ is a 2-cocycle. The mapping $\partial : C^1(G,F)\rightarrow Z^2(G,F)$ is a group homomorphism. For any $h\in C^1(G,F)$, the 2-cocycle $\partial h$ is called a 2-coboundary. The group $Z^2(G,F)/\partial (C^1(G,F))$ is denoted by $H^2(G,F)$ and is called the second cohomology group of G with coefficients in F.
 
-$*$The notation above agrees with that of X, §6, n$_o8$, p. 112 concerning group cohomology.$*$
+$*$The notation above agrees with that of X, §6, n$^o8$, p. 112 concerning group cohomology.$*$
 
 Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension. Let $\sigma$ be a section of the surjective mapping $\pi ($Set Theory, II, §3, No. 8, p. 86), that is, a mapping from G to Γ such that $\pi (\sigma (g)) =g$ for every $g$ in G. For every $g_1, g_2\in G$, $\sigma (g_1)\sigma (g_2)\sigma (g_1g_2)^{-1}$ belongs to Ker($\pi$ ), so that there exists a unique mapping $c_{\sigma}: G\times G\rightarrow F$ such that
 
@@ -755,7 +755,7 @@ $$
 =\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}h(x\cdot g_1)^{-1}, h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1})
 $$
 
-$s(x)_{-1}(-1''-1-1$
+$s(x)^{-1}(-1''-1-1$
 
 $$
 \times \prod_{x\in H\backslash G}c(h(x), s(x)g_1g_2s(x\cdot g_1g_2))
@@ -771,7 +771,7 @@ $$
 \times \prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1})
 $$
 
-$s(x)_{-1}-1-1-1$
+$s(x)^{-1}-1-1-1$
 
 $\times \prod_{x\in H\backslash G}c(s(x)g_1s(x\cdot g_1), h(x\cdot g_1))$
 
@@ -785,11 +785,11 @@ $$
 
 $=\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1})$
 
-$s(x)_{-1}-1-1-1$
+$s(x)^{-1}-1-1-1$
 
 $\times \prod_{x\in H\backslash G}c(s(x)g_1s(x\cdot g_1), h(x\cdot g_1))$ $\times \prod_{x\in H\backslash G}^{g_1s(x)^{-1}}c(h(x)^{-1}, h(x)s(x)g_2s'(x\cdot g_2)^{-1})$
 
-$s(x)^-_1(-1''-1-1$
+$s(x)^{-1}(-1''-1-1$
 
 $$
 \times \prod_{x\in H\backslash G}c(h(x), s(x)g_1g_2s(x\cdot g_1g_2))
@@ -813,7 +813,7 @@ $$
 \prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}h(x\cdot g_1g_2)^{-1})
 $$
 
-$s(x)_{-1}-1-1-1$
+$s(x)^{-1}-1-1-1$
 
 $$
 \times \prod_{x\in H\backslash G}c(s(x)g_1s(x\cdot g_1), h(x\cdot g_1))
@@ -833,7 +833,7 @@ $-1-1-1)$
 
 $\times c(s(x)g_1s(x\cdot g_1), h(x\cdot g_1))$ $=\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})$
 
-$gs(x)_{-1}-1-1-1$
+$gs(x)^{-1}-1-1-1$
 
 $$
 \times \prod_{x\in H\backslash G^1}c(s(x)g_2s(x\cdot g_2), h(x\cdot g_2))

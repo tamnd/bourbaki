@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: 081b017a1a1d249f0e9edf039900adeb8e9271ccc0002d6059e55832c69784e0
+content_sha256: e75fadd03761deaac3c9b4909775bce272ed0f21f5bcd0e1d7ba38c512975f35
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -230,7 +230,7 @@ $$
 \int^*N^rd\mu=\sum\int^*N^rd\mu
 $$
 
-$\mathbf{R}^{n-}Bj\geqslant 1C^j$
+$\mathbf{R}^{n-}Bj\geqslant 1C_j$
 
 $\leqslant \sum_{j\geqslant 1}2^{n+nj}2^{r(j-1)}= 2^{n-r}\sum_{j\geqslant 1}2^{(n+r)j}$ qui est finie si $r <-n$. D’autre part, on a (loc. cit.)
 

@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: ab1eeb296cdba4d1b5d1004662d942df3022c1945cba00edb9d329ba7f5e562b
+content_sha256: 925dc57040cc9a94654c8f8bb807d7825af2f7952087fd309645cc9bab4ff7f8
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -415,13 +415,13 @@ Let us first treat the case when K is algebraically closed. By the above and loc
 
 If K is no longer supposed to be algebraically closed, then we choose an algebraic closure K of K and consider the diagram of groups and group homomorphisms
 
-$R_K(A)^{\chi_{\mathscr{A}}}$ // (1 + TK[[T]])$_{\mathscr{A}}$
+$R_K(A)^{\chi_{\mathscr{A}}}$ // (1 + TK[[T]])$^{\mathscr{A}}$
 
 $$
 ui \tag{12}
 $$
 
-$R_{\overline{K}}(A_{(K)})^{\overline{\chi}_{\mathscr{A}}}$ // (1 + TK[[T]])$_{\mathscr{A}}$,
+$R_{\overline{K}}(A_{(K)})^{\overline{\chi}_{\mathscr{A}}}$ // (1 + TK[[T]])$^{\mathscr{A}}$,
 
 where $u$ is the homomorphism deduced from the extension of scalars from K to K (VIII, p. 195$),i$ is the canonical injection, and $\overline{\chi}_{\mathscr{A}}$ is the homomorphism $z\mapsto (\chi_{1\otimes a}(z))_{a\in\mathscr{A}}$. By formula (12) of III, §9, No. 1, p. 542, diagram (12) is commutative. By the above, the homomorphism $\overline{\chi}_{\mathscr{A}}$ is injective. Since $u$ is injective (VIII, p. 195, Theorem 1), the homomorphism $\chi_{\mathscr{A}}$ is injective.
 
@@ -509,7 +509,7 @@ $$
 j_{_1}j_{_2} \tag{15}
 $$
 
-$A_{*^t}^{m_A}$ // $(A\otimes A)_*$.
+$A^{*^tm_A}$ // $(A\otimes A)^*$.
 
 Indeed, $\eta$ is a homomorphism from A to the dual algebra of the cogebra $(\Theta (A), c)$ if and only if we have $\eta (ab) =m_K\circ (\eta (a)\otimes \eta (b))\circ c$ for all $a, b\in A$, that is
 
@@ -583,7 +583,7 @@ $\Theta (A)\otimes \Theta (A)^{Id_{\Theta (A)}\otimes c}/$/ $\Theta (A)\otimes \
 
 $j_2j_3$
 
-$(A\otimes A)_{*^t}^{(Id_A\otimes m_A)}$ // $(A\otimes A\otimes A)_*$.
+$(A\otimes A)^{*^t(Id_A\otimes m_A)}$ // $(A\otimes A\otimes A)^*$.
 
 Because of the commutativity of this diagram and that of (15), for $f\in \Theta (A)$ and $a,a',a''\in A$, we have
 

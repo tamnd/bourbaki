@@ -41,7 +41,7 @@ subsections:
       pdf_page: 51
 statements: 26
 exercises: 4
-content_sha256: ade9a3d9de66eef09098331402d571dfbff3bd401e79d4763d7ad878d10775f0
+content_sha256: add7cdb9a070866f8e9a387042ad390757f1ab2d0793694ddd49c22b5b44710d
 ---
 
 ## § 2. EXEMPLES D’APPLICATIONS LINÉAIRES COMPACTES
@@ -366,7 +366,7 @@ $$
 \langle g|u_k(f)\rangle =\int_{X\times Y}k(x, y)f(x)\overline{g(y)}d(\mu\otimes \nu )(x, y)
 $$
 
-pour touscation linéaire$f\in L\overset{2}{u_{k}}(X)$ et$_{_*}$, où $kg^*\in \in L\overset{2}{L^{2}}(Y)$. De plus, l’adjoint de$(Y\times X)$ vérifie $k^*(y, x) =u\overset{k}{k}($est l’appli-$x, y)$ pour presque tout $(y, x)\in Y\times X$. En effet, pour tous $f\in L^2(X)$ et $g\in L^2$(Y), on a
+pour touscation linéaire$f\in L\overset{2}{u_{k}}(X)$ et$_{_*}$, où $kg_*\in \in L\overset{2}{L^{2}}(Y)$. De plus, l’adjoint de$(Y\times X)$ vérifie $k^*(y, x) =u\overset{k}{k}($est l’appli-$x, y)$ pour presque tout $(y, x)\in Y\times X$. En effet, pour tous $f\in L^2(X)$ et $g\in L^2$(Y), on a
 
 $$
 \langle g|u_k(f)\rangle =\int_{X\times Y}k(x, y)\overline{g(y)}f(x)d(\mu\otimes \nu )(x, y) =\langle u_{k^*}(g)|f\rangle
@@ -481,7 +481,7 @@ Supposons que le fibré vectoriel E soit localement de rang fini. Soit Y une par
 Avec les notations du lemme 5, on a un diagramme commutatif
 
 $$
-\mathscr{S}^{\omega}(X; E)\leftarrow^i\rightarrow \mathscr{S}^1(X_0; E_0)
+\mathscr{S}^{\omega}(X; E)\leftarrow_i\rightarrow \mathscr{S}^1(X_0; E_0)
 $$
 
 $$
@@ -489,7 +489,7 @@ $$
 $$
 
 $$
-\mathscr{S}^{\omega}(Y; E)\leftarrow^j\rightarrow \mathscr{S}^0(Y_0; E_0)
+\mathscr{S}^{\omega}(Y; E)\leftarrow_j\rightarrow \mathscr{S}^0(Y_0; E_0)
 $$
 
 où $i$ et $j$ sont les injections canoniques et $u,v$ les applications de restriction. L’application $i$ est continue (lemme 5, b)), et l’application $u$ est compacte (prop. 10). Comme l’injection canonique $j$ est continue, stricte et d’image fermée (lemme 5, a)), l’application $u$ est compacte (remarque 5 de III, p. 3).

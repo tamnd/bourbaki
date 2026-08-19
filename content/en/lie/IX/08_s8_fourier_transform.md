@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 4ee53984146d3219314f722321170d286fd802de20a8a76fc4dd4a97a73d0e4d
+content_sha256: 1edc0b7f4b4fa4ae2833d34c685680e12892675b02981e5d100e5a20428a92f7
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -333,7 +333,7 @@ $$
 with
 
 $$
-\|\overline{\mathscr{F}}(f)\|^2_2=\sum||||\langle \overline{\chi}_u|f\rangle \frac{\varepsilon_u}{d(u)}||||^2_2=\sum|\langle \overline{\chi}_u|f\rangle |^2
+\|\overline{\mathscr{F}}(f)\|^2_2=\sum||||\langle \overline{\chi}_u|f\rangle \frac{\varepsilon_u}{d(u)}||||^{22}=\sum|\langle \overline{\chi}_u|f\rangle |^2
 $$
 
 $uu$

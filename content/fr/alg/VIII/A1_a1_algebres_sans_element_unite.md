@@ -30,7 +30,7 @@ subsections:
       pdf_page: 433
 statements: 20
 exercises: 15
-content_sha256: a21defe43482cf661215448bdef1dbbe6cd9a4bde962f38c0cff113ca237959f
+content_sha256: 737dd3f8a42a9f905011149a420c6322acab9083235b98beb184aa04a02de142
 ---
 
 ### APPENDICE 1 ALGÈBRES SANS ÉLÉMENT UNITÉ
@@ -179,7 +179,7 @@ Lorsque A est un anneau, tout idéal à gauche de A est régulier, donc la défi
 
 #### Exemple 1 {#alg-viii-a1-n3-exa-1 .statement tag=00PF}
 
-Le radical de la $k$-algèbre End$^f_k(V)$ est réduit à 0 (VIII, p. 426, exemple 1$).*$Il en est de même pour les algèbres $\mathscr{C}_0(T)$ et $L_1(\mathbf{R}).*$
+Le radical de la $k$-algèbre End$^f_k(V)$ est réduit à 0 (VIII, p. 426, exemple 1$).*$Il en est de même pour les algèbres $\mathscr{C}_0(T)$ et $L^1(\mathbf{R}).*$
 
 #### Exemple 2 {#alg-viii-a1-n3-exa-2 .statement tag=00PG}
 

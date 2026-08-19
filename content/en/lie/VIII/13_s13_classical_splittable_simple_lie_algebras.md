@@ -29,7 +29,7 @@ subsections:
       pdf_page: 219
 statements: 2
 exercises: 19
-content_sha256: e9d4adf0a81ab1c9ccb3b2c2483064045367026e80afc30ffaffce2c5a96d930
+content_sha256: fdba73027753c5fdc9c7bb4777193f451cf8731935b2711e24f79a9bb5854508
 ---
 
 ## § 13. CLASSICAL SPLITTABLE SIMPLE LIE ALGEBRAS
@@ -1082,7 +1082,7 @@ $$
 T^{2l}+f_1(x)T^{2l-1}+\cdots +f_{2l}(x)
 $$
 
-We see as in no. 3 that $f_1=f_3=f_5=\cdots = 0$. By Chap. VI, §4, no. 8.IX and §8, no. 3, Th. 1, there exists a polynomial function $\widetilde{f}$ on $\mathfrak{g}$ such that $f_2, f_4, . . . , f_{2l-2},\widetilde{f}$ generate the algebra $I(\mathfrak{g}_*)$ of invariant polynomial functions on $\mathfrak{g}$, are algebraically independent, and further $\widetilde{f}^2= (-1)^lf_{2l}$.
+We see as in no. 3 that $f_1=f_3=f_5=\cdots = 0$. By Chap. VI, §4, no. 8.IX and §8, no. 3, Th. 1, there exists a polynomial function $\widetilde{f}$ on $\mathfrak{g}$ such that $f_2, f_4, . . . , f_{2l-2},\widetilde{f}$ generate the algebra $I(\mathfrak{g}^*)$ of invariant polynomial functions on $\mathfrak{g}$, are algebraically independent, and further $\widetilde{f}^2= (-1)^lf_{2l}$.
 
 For all $x\in \mathfrak{g}$, we have $^t(Sx) =^txS=-Sx$, so we can consider Pf($Sx$), which is a polynomial function of $x$. Now:
 
@@ -1160,7 +1160,7 @@ $\varpi_r(-1)^r\varpi_r$ 1 $r\not=l-1, l$
 
 $\{0$ if $l$ is odd
 
-$\varpi^l$ and $\varpi^{l-1}(-1)^{l/2}$ if $l$ is even
+$\varpi_l$ and $\varpi_{l-1}(-1)^{l/2}$ if $l$ is even
 
 $$
 E_6E_7E_8F_4G_2

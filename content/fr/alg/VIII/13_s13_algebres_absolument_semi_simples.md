@@ -45,7 +45,7 @@ subsections:
       pdf_page: 242
 statements: 33
 exercises: 12
-content_sha256: 831a16ce90e30e3dbf4b5d0c33294519366cfc0d9a18f2cc68d60a4b057a55b5
+content_sha256: b08de5a708adf0ce908b4806ad390bf492b3902f1eccd0595e5fb4877e96c288
 ---
 
 ## § 13. ALGÈBRES ABSOLUMENT SEMI-SIMPLES
@@ -448,7 +448,7 @@ pour tout entier $n\geqslant 1$et tout $f\in C^n(A,P)$.
 
 #### Remarque 1 {#alg-viii-s13-n7-rem-1 .statement tag=00SF}
 
-$*$Les morphismes $\partial_n: C_n(A,P)\rightarrow C_{n+1}(A,P)$ définissent
+$*$Les morphismes $\partial_n: C^n(A,P)\rightarrow C^{n+1}(A,P)$ définissent
 
 un complexe $(C(A,P), \partial )$ de K-modules (X, p. 24). L’application $\gamma_n$ définit donc une homotopie reliant 0 à Id$_{C(A,P)}$ de ce complexe dans lui-même (X, p. 32, déf. $4).*$
 

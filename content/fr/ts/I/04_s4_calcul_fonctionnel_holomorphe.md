@@ -69,7 +69,7 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: 09c77c64635ff358a5551b31f7ccca84c5beb603939599cd6125c8aa8acb79fd
+content_sha256: 58ba10ab7e5642d83097a4bacd2d2cf58e41c84e8876e133f94ea4a497484735
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -694,7 +694,7 @@ $$
 
 Comme $g=f\circ \pi$, la formule (5) et le lemme 8 impliquent
 
-$\Theta_{\boldsymbol{a},\boldsymbol{a}'}(g) =$ (2$(ni\pi +$ 1)!$)_{n+1}\int_{U\times\mathbf{C}}g\omega =$ (2$(ni\pi +$ 1)!$)_{n+1}(\int_{\mathbf{C}}du_{n+1}\wedge dz_{n+1})$
+$\Theta_{\boldsymbol{a},\boldsymbol{a}'}(g) =$ (2$(ni\pi +$ 1)!$)^{n+1}\int_{U\times\mathbf{C}}g\omega =$ (2$(ni\pi +$ 1)!$)^{n+1}(\int_{\mathbf{C}}du_{n+1}\wedge dz_{n+1})$
 
 $$
 \times (\int_Uf h du_1\wedge dz_1\wedge  \cdots  \wedge du_n\wedge dz_n)
@@ -716,7 +716,7 @@ $\int_Uf du_1\wedge dz_1\wedge  \cdots  \wedge du_n\wedge dz_n=(2i\pi n$!$)^n\Th
 
 Ainsi on obtient
 
-$\Theta_{\boldsymbol{a},\boldsymbol{a}'}(g) =$ (2$(ni\pi +$ 1)!$)_{n+1}\times ((2ni\pi +$ 1)!$)^n\Theta_{\boldsymbol{a}}(f)\times 2i\pi = \Theta_{\boldsymbol{a}}(f)$.
+$\Theta_{\boldsymbol{a},\boldsymbol{a}'}(g) =$ (2$(ni\pi +$ 1)!$)^{n+1}\times ((2ni\pi +$ 1)!$)^n\Theta_{\boldsymbol{a}}(f)\times 2i\pi = \Theta_{\boldsymbol{a}}(f)$.
 
 Finalement, la formule $\Theta_{\boldsymbol{a}}(1) = 1$ résulte de ce qui précède et du corollaire de la prop. 1.
 
@@ -742,7 +742,7 @@ $$
 
 puisque $f$ est holomorphe, de sorte que $df\wedge dz_1\wedge  \cdots  \wedge dz_n= 0$. Appliquant la formule de Stokes (VAR, R2, p. 48, 11.2.4), on obtient $\int_U(z_i-a_i)f \omega = 0$, d’où
 
-$\Theta_{\boldsymbol{a}}(z_if) =(2i\pi n$!$)_n\int_Uz_if \omega =(2ni\pi$!$)_n\int_Ua_if \omega =a_i\Theta_{\boldsymbol{a}}(f)$
+$\Theta_{\boldsymbol{a}}(z_if) =(2i\pi n$!$)^n\int_Uz_if \omega =(2ni\pi$!$)^n\int_Ua_if \omega =a_i\Theta_{\boldsymbol{a}}(f)$
 
 d’après la formule (5). Le résultat en découle.
 
@@ -806,7 +806,7 @@ $$
 
 est égale à $(\varphi \circ \psi )\cdot \mu$. Donc, d’après la formule (5), et INT, VI, §2, n$^o2$, prop. 2, on a
 
-$\Theta_{\boldsymbol{b}}(\varphi \circ f) =(2i\pi n$!$)_n\int_U(\varphi \circ f)\mu=(2ni\pi$!$)_n\varphi (\int_U\psi  \mu)=\varphi (\Theta_{\boldsymbol{a}}(f))$,
+$\Theta_{\boldsymbol{b}}(\varphi \circ f) =(2i\pi n$!$)^n\int_U(\varphi \circ f)\mu=(2ni\pi$!$)^n\varphi (\int_U\psi  \mu)=\varphi (\Theta_{\boldsymbol{a}}(f))$,
 
 comme il était demandé.
 
@@ -1146,11 +1146,11 @@ Soit $b$ un élément de A permutable à $a$ tel que $\varrho (b)< \delta$. En r
 
 Puisque $\varrho (b)< \delta$, on peut choisir $\eta$ tel que $\varrho (b)< \eta  < \delta$. Soient $V_1$ l’ensemble des points de $\mathbf{C}$ dont la distance à Sp$_A(a)$ est $< \delta -\eta$, et $V_2$ le disque ouvert de centre 0 et de rayon $\eta$ dans $\mathbf{C}$. Soit $g$ l’application $(z_1, z_2)\mapsto z_1+z_2$ de $V_1\times V_2$ dans U. Alors $h=f\circ g$ est l’application $(z_1, z_2)\mapsto f(z_1+z_2)$ de $V_1\times V_2$ dans $\mathbf{C}$. On a Sp$^2_A(a, b)\subset V_1\times V_2$, donc Sp$_A(a+b)\subset U$ (cf. cor. 2 de I, p. 67), et de plus $f(a+b) =h(a, b)$ d’après le th. 4 de I, p. 72. Or, dans l’espace $\mathscr{O}(V_1\times V_2)$, on a
 
-$h(z_1, z_2) =\sum_{n\geqslant 0}f^{(n}\overset{)}{n}($!$z^1)z_2^n$,
+$h(z_1, z_2) =\sum_{n\geqslant 0}f^{(n}\overset{)}{n}($!$z_1)z_2^n$,
 
 (VAR, R1, p. 29, 3.3.4) donc la série
 
-$\sum f^(\overset{n)}{n}$!$(a)b_n$
+$\sum f^(\overset{n)}{n}$!$(a)b^n$
 
 $n\geqslant 0$ converge dans A et sa somme est $h(a, b) =f(a+b)$. En outre, cette série est absolument convergente d’après l’assertion a).
 
@@ -1444,7 +1444,7 @@ On a $z^*=z$, donc $z$ appartient à $\mathscr{O}_{\mathbf{R}}(S)$. Soit B une s
 
 Il existe des polynômes P et Q dans $\mathbf{C}[X]$ tels que Q ne s’annule en aucun point de S et que l’on ait $f=\frac{P(z)}{Q(z)}$. Notons $P^*$ et $Q^*$ les polynômes obtenus en remplaçant les coefficients de P et Q par leurs conjugués. On a alors $P(z)^*= P^*(z)$ et $Q(z)^*= Q^*(z)$. Comme S est stable par la conjugaison complexe, le polynôme $Q^*$ ne s’annule en aucun point de S. Les germes $Q^*(z)$ et (QQ$^*)(z)$ sont donc inversibles dans $\mathscr{O}(S)$, et
 
-$f+f_*=\frac{P(z)}{Q(z)}+\frac{P^*(z)}{Q^*(z)}=$ (PQ(QQ$^*+ P_*)(^*Q)(z)z)$.
+$f+f^*=\frac{P(z)}{Q(z)}+\frac{P^*(z)}{Q^*(z)}=$ (PQ(QQ$^*+ P_*)(^*Q)(z)z)$.
 
 Comme les polynômes PQ$^*+ P^*Q$ et QQ$^*$ sont à coefficients réels et que B est une sous-$\mathbf{R}$-algèbre pleine de $\mathscr{O}(S)$ contenant $z$, l’élément $f+f^*$ appartient à B. Cela conclut la preuve de la proposition.
 

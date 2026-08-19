@@ -33,7 +33,7 @@ subsections:
       pdf_page: 84
 statements: 23
 exercises: 18
-content_sha256: 8d25a1a7dcfda90ae5310f20024c7a58698c532ce0a76aaa17c7ccc154003cb6
+content_sha256: b250a236646a2094c99621b8d48c76e7dbf544dadaf2900324a770b228b036bf
 ---
 
 ## § 1. THE LIE ALGEBRA $\mathfrak{s}\mathfrak{l}$(2$\boldsymbol{, k}$) AND ITS REPRESENTATIONS
@@ -63,7 +63,7 @@ $$
 $$
 
 $$
-=nX_{n-1}H+ 2X_{n-1}\frac{n(n- 1)}{2}
+=nX^{n-1}H+ 2X^{n-1}\frac{n(n- 1)}{2}
 $$
 
 $$
@@ -76,7 +76,7 @@ Recall that we denote by $\mathfrak{s}\mathfrak{l}(2, k)$ the Lie algebra consis
 
 $(01)($ 0 $0)(1$ 0 $)$
 
-$X^+=$ 0 0 $X^-=-1$ 0 $H=$ 0 $-1$.
+$X_+=$ 0 0 $X_-=-1$ 0 $H=$ 0 $-1$.
 
 We have
 
@@ -410,7 +410,7 @@ $$
 \theta (t)e^{(m)}_n= (-1)^{m-n}t^{2n-m}e^{(m)}_{m-n} \tag{4}
 $$
 
-Hence, the element $\theta (t)_2=(-1$ 0 $)$ operates by $(-1)_m$ on $V(m)$. If
+Hence, the element $\theta (t)^2=(-1$ 0 $)$ operates by $(-1)^m$ on $V(m)$. If
 
 0 $-1$
 
@@ -425,7 +425,7 @@ so that $\theta (1)_E=\theta (-1)_E$ is the canonical involution of $\mathfrak{s
 For any $t\in k^*$, put
 
 $$
-h(t) =(0tt_-0_1)=\theta (t)\theta (-1)
+h(t) =(0tt^-0_1)=\theta (t)\theta (-1)
 $$
 
 Then $h(t)u=tu,h(t)v=t^{-1}v$, so
