@@ -17,10 +17,10 @@
 {"from":"03S0","from_label":"ens-ii-s1-n4-exa-2","to":"03H5","to_label":"ens-ii-s1-def-1","kind":"cites","raw":"Definition 1","form":"local","resolved_by":"in-section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":186},
 {"from":"03H6","from_label":"ens-ii-s1-def-2","to_label":"ens-i-s4","kind":"cites","raw":"Chapter I, §4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":200},
 {"from":"03H6","from_label":"ens-ii-s1-def-2","to_label":"ens-i-s5","kind":"cites","raw":"Chapter I, §5, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":200},
-{"from":"","from_label":"ens-ii-s1","to_label":"ens-i-s4","kind":"cites","raw":"Chapter I, §4, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":214},
-{"from":"","from_label":"ens-ii-s1","to_label":"ens-i-s4","kind":"cites","raw":"Chapter I, §4, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":228},
-{"from":"","from_label":"ens-ii-s1","to_label":"ens-i-s4","kind":"cites","raw":"Chapter I, §4, nos. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":228},
-{"from":"","from_label":"ens-ii-s1","to_label":"ens-i-s4","kind":"cites","raw":"Chapter I, §4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":228},
-{"from":"","from_label":"ens-ii-s1","to_label":"ens-i-s5","kind":"cites","raw":"Chapter I, §5, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":232},
-{"from":"","from_label":"ens-ii-s1","to_label":"ens-i-s4","kind":"cites","raw":"Chapter I, §4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":236}
+{"from":"","from_label":"ens-ii-s1","to_label":"ens-i-s4","kind":"cites","raw":"Chapter I, §4, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":212},
+{"from":"","from_label":"ens-ii-s1","to_label":"ens-i-s4","kind":"cites","raw":"Chapter I, §4, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":226},
+{"from":"","from_label":"ens-ii-s1","to_label":"ens-i-s4","kind":"cites","raw":"Chapter I, §4, nos. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":226},
+{"from":"","from_label":"ens-ii-s1","to_label":"ens-i-s4","kind":"cites","raw":"Chapter I, §4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":226},
+{"from":"","from_label":"ens-ii-s1","to_label":"ens-i-s5","kind":"cites","raw":"Chapter I, §5, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":230},
+{"from":"","from_label":"ens-ii-s1","to_label":"ens-i-s4","kind":"cites","raw":"Chapter I, §4, no. 3","form":"section","resolved_by":"section","file":"content/en/ens/II/01_s1_collectivizing_relations.md","line":234}
 ]}

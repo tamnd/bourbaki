@@ -62,7 +62,7 @@
 {"from":"01I4","from_label":"lie-ix-s9-ex-8","to":"01HY","to_label":"lie-ix-s9-ex-2","kind":"cites","raw":"Exerc. 2","form":"local","resolved_by":"exercise","file":"content/en/lie/IX/exercises/s9/08.md","line":27},
 {"from":"01I4","from_label":"lie-ix-s9-ex-8","to":"01I3","to_label":"lie-ix-s9-ex-7","kind":"cites","raw":"Exerc. 7","form":"local","resolved_by":"exercise","file":"content/en/lie/IX/exercises/s9/08.md","line":27},
 {"from":"01I5","from_label":"lie-ix-s9-ex-9","to":"01HR","to_label":"lie-ix-s9-prop-6","kind":"cites","raw":"Prop. 6","form":"local","resolved_by":"in-section","file":"content/en/lie/IX/exercises/s9/09.md","line":19},
-{"from":"01I7","from_label":"lie-ix-s9-ex-11","to":"01I5","to_label":"lie-ix-s9-ex-9","kind":"cites","raw":"Exerc. 9","form":"local","resolved_by":"exercise","file":"content/en/lie/IX/exercises/s9/11.md","line":49},
+{"from":"01I7","from_label":"lie-ix-s9-ex-11","to":"01I5","to_label":"lie-ix-s9-ex-9","kind":"cites","raw":"Exerc. 9","form":"local","resolved_by":"exercise","file":"content/en/lie/IX/exercises/s9/11.md","line":45},
 {"from":"01I8","from_label":"lie-ix-s9-ex-12","to":"01I5","to_label":"lie-ix-s9-ex-9","kind":"cites","raw":"Exerc. 9","form":"local","resolved_by":"exercise","file":"content/en/lie/IX/exercises/s9/12.md","line":17},
 {"from":"01I8","from_label":"lie-ix-s9-ex-12","kind":"cites","raw":"Chap. I, §6, Exerc. 7","form":"section","resolved_by":"out-of-corpus","book":"LIE","chapter":"I","file":"content/en/lie/IX/exercises/s9/12.md","line":19},
 {"from":"01I9","from_label":"lie-ix-s9-ex-13","to":"01I1","to_label":"lie-ix-s9-ex-5","kind":"cites","raw":"Exerc. 5","form":"local","resolved_by":"exercise","file":"content/en/lie/IX/exercises/s9/13.md","line":15},
