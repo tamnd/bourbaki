@@ -53,7 +53,7 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: 0a882afb0b96a98a8aa7e802d0ebcfa508869ed7dd227466b055a89cde6f86e3
+content_sha256: 78aa365c4ece2d56abd81140632766ec3df87d38b97b4dc5d6d9fda5d7866513
 ---
 
 ## § 4. ROOT SYSTEM ASSOCIATED TO A COMPACT GROUP
@@ -614,7 +614,7 @@ Let V be a vector space over $\mathbf{Q}$ and R a root system in V; denote by P(
 
 For every subgroup X of P(R) containing $Q(R), (X,0,R)$ is a root diagram and, up to isomorphism, every diagram $(M,M_0,S)$ such that $M_0= 0$, in other words such that S generates a subgroup of M of finite index, arises in this way.
 
-The root diagram $(M,M_0,R)$ is said to be reduced if the root system R is reduced (in other words (Chap. VI, §1, no. 4) if the relations $\alpha , \beta \in R,\lambda \in \mathbf{Z}$, $\beta =\lambda \alpha$ imply that $\lambda = 1$ or $\lambda =-1)$. The diagrams in Examples 1) and 3) are reduced.
+The root diagram $(M,M_0,R)$ is said to be reduced if the root system R is reduced (in other words (Chap. VI, §1, no. 4) if the relations $\alpha , \beta \in R,\lambda \in \mathbf{Z}$, $\beta =\lambda \alpha$ imply that $\lambda = 1$ or $\lambda =-1$). The diagrams in Examples 1) and 3) are reduced.
 
 ### 9. COMPACT LIE GROUPS AND ROOT SYSTEMS
 

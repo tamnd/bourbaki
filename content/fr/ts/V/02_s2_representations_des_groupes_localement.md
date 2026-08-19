@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: a61ca2464dc9c472ebcf192b2b1834e55411f9bf073d172e7c2bdb5694fe9802
+content_sha256: 2431a31ecdfe7960211eff0f1ce23582de56c6a8b9091201fa29f93abdf8e072
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -292,7 +292,7 @@ Dans ce numéro, on fixe un sous-groupe fermé H de G. On note $\varpi$ la proje
 
 En sus de la mesure de Haar $\mu$ sur G, on fixe une mesure de Haar à gauche $\beta$ sur H.
 
-D’après INT, VII, p. 56, § 2, n$^o5$, th. 2, il existe une fonction continue $\kappa : G\rightarrow \mathbf{R}_+^*$ telle que $\kappa (xh) = \Delta_H(h)\Delta_G(h)^{-1}\kappa (x)$ quel que soit $(x, h)\in G\times H$. On fixe une telle fonction $\kappa$. On note $\nu$ la mesure $(\kappa \cdot \mu)/\beta$ sur $G/H$; d’après loc. cit., c’est une mesure positive non nulle quasi-invariante par G. Son support est égal à $G/H$ (INT, VII, p. 10, § 1, n$^o1)$. D’après INT, VII, p. 43, § 2, n$^o2$, prop. 4, la mesure $\nu$ est l’unique mesure sur $G/H$ telle que la mesure $\nu^{\sharp}$ sur G soit égale à $\kappa \cdot \mu$. On munit l’espace $G/H$ de la mesure $\nu$ (de sorte qu’on note, par exemple, $\mathscr{L}^p(G/H) =\mathscr{L}^p(G/H, \nu )$).
+D’après INT, VII, p. 56, § 2, n$^o5$, th. 2, il existe une fonction continue $\kappa : G\rightarrow \mathbf{R}_+^*$ telle que $\kappa (xh) = \Delta_H(h)\Delta_G(h)^{-1}\kappa (x)$ quel que soit $(x, h)\in G\times H$. On fixe une telle fonction $\kappa$. On note $\nu$ la mesure $(\kappa \cdot \mu)/\beta$ sur $G/H$; d’après loc. cit., c’est une mesure positive non nulle quasi-invariante par G. Son support est égal à $G/H$ (INT, VII, p. 10, § 1, n$^o1$). D’après INT, VII, p. 43, § 2, n$^o2$, prop. 4, la mesure $\nu$ est l’unique mesure sur $G/H$ telle que la mesure $\nu^{\sharp}$ sur G soit égale à $\kappa \cdot \mu$. On munit l’espace $G/H$ de la mesure $\nu$ (de sorte qu’on note, par exemple, $\mathscr{L}^p(G/H) =\mathscr{L}^p(G/H, \nu )$).
 
 On dira qu’un ensemble $S\subset G$ est négligeable modulo H si $\varpi (S)$ est $\nu$-négligeable. Cette condition ne dépend pas du choix des mesures de Haar sur G et sur H. Elle implique que S est localement $\mu$-négligeable (INT, VII, p. 47, § 2, n$^o3$, prop. 6, a)). On dira qu’une propriété d’un élément de G est vraie presque partout modulo H si l’ensemble des éléments de G pour lesquels cette propriété ne vaut pas est négligeable modulo H.
 

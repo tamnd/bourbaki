@@ -1056,7 +1056,7 @@ books:
               statements: 60
               exercises: 22
               extraction: native+ocr
-              content_sha256: 0a882afb0b96a98a8aa7e802d0ebcfa508869ed7dd227466b055a89cde6f86e3
+              content_sha256: 78aa365c4ece2d56abd81140632766ec3df87d38b97b4dc5d6d9fda5d7866513
             - kind: section
               section: 5
               title: Conjugacy classes
@@ -1877,7 +1877,7 @@ books:
               statements: 45
               exercises: 20
               extraction: native
-              content_sha256: a61ca2464dc9c472ebcf192b2b1834e55411f9bf073d172e7c2bdb5694fe9802
+              content_sha256: 2431a31ecdfe7960211eff0f1ce23582de56c6a8b9091201fa29f93abdf8e072
             - kind: section
               section: 3
               title: Fonctions de type positif
