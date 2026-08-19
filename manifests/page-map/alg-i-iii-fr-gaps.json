@@ -2,6 +2,7 @@
   "book": "alg-i-iii-fr",
   "grammar": "head-label",
   "pagination": "per-chapter",
+  "prefix": "A",
   "pdf_pages": 645,
   "body_pages": 616,
   "front_matter_pages": 29,

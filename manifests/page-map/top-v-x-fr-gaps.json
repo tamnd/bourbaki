@@ -2,6 +2,7 @@
   "book": "top-v-x-fr",
   "grammar": "head-label",
   "pagination": "per-chapter",
+  "prefix": "TG",
   "pdf_pages": 329,
   "body_pages": 319,
   "front_matter_pages": 10,

@@ -2,6 +2,7 @@
   "book": "ta-i-iv-fr",
   "grammar": "head-label",
   "pagination": "continuous",
+  "prefix": "TA",
   "pdf_pages": 512,
   "body_pages": 496,
   "front_matter_pages": 16,

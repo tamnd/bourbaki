@@ -2,6 +2,7 @@
   "book": "evt-i-v-fr",
   "grammar": "head-label",
   "pagination": "per-chapter",
+  "prefix": "EVT",
   "pdf_pages": 372,
   "body_pages": 346,
   "front_matter_pages": 26,
