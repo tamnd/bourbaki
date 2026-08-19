@@ -37,7 +37,7 @@ subsections:
       pdf_page: 381
 statements: 30
 exercises: 5
-content_sha256: 833e7ee960b5fc6a285f9a83f9e9168b13664c34ba2e8fc2a59b3e4a428493ce
+content_sha256: 3bd33f38b62f7baa38c2846d60c27ba7f5fb275bc5e02ad5dd08e388ea1e8ac6
 ---
 
 ## § 2. GROUPES DE POINCARÉ DES ESPACES DÉLAÇABLES
@@ -116,7 +116,9 @@ Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une applicati
 
 Soient X et Y des espaces topologiques et soit $f: X\rightarrow Y$ une application continue relativement connexe.
 
-connexe, ouverte et fermée dea) Pour toute composante connexeY, et l’on a$U_-$de$f_1(fX$(U)) = U$,\overline{f(U)}$ est une partie.
+a) Pour toute composante connexe U de X$,\overline{f(U)}$ est une partie
+
+connexe, ouverte et fermée de Y, et l’on a $\overset{-1}{f}(f(U)) = U$.
 
 b) Pour toute composante connexe V de Y, il existe une composante connexe U de X telle que $V =f(U)$. L’application de U dans V déduite de $f$ par passage aux sous-ensembles est relativement connexe.
 
@@ -420,7 +422,7 @@ $$
 
 entraînent que $U\cap gU$ est maigre dans X. Comme c’est une partie ouverte et que X est un espace de Baire, elle est vide. On a donc $g\notin V$, d’où le lemme.
 
-#### Théorème 2 (Shelah[^2]) {#ta-iv-s2-thm-2 .statement tag=021J}
+#### Théorème 2 (Shelah[^1]) {#ta-iv-s2-thm-2 .statement tag=021J}
 
 Soit X un espace polonais connexe et localement connexe par arcs et soit $x$ un point de X. Si X n’est pas délaçable, le groupe $\pi_1(X, x)$ a la puissance du continu.
 
@@ -430,9 +432,7 @@ Notons K l’ensemble $\{0,1\}^{\mathbf{N}}$ et munissons-le de la topologie pro
 
 Si $\varepsilon$ et $\varepsilon '$ sont des éléments de K tels que $(\varepsilon_0, . . . , \varepsilon_n) = (\varepsilon '_0, . . . , \varepsilon '_n)$, alors $c_{\varepsilon}(t) =c_{\varepsilon'}(t)$ pour tout $t\in [2^{-n-1},1]$ et $d(c_{\varepsilon}(t), c_{\varepsilon'}(t))\leqslant$ $d(a, c_{\varepsilon}(t)) +d(a, c_{\varepsilon'}(t))\leqslant 2^{-n}$ si $t\in [0,2^{-n-1}]$. Il en résulte que l’application $\varepsilon \mapsto c_{\varepsilon}$ de K dans l’espace $\Omega_a(X)$ est continue, lorsqu’on munit l’espace $\Omega_a(X)$ de la topologie de la convergence compacte.
 
-Notons $\Gamma \subset K\times K$ l’ensemble des couples $(\varepsilon , \varepsilon ')$ tels que $c_{\varepsilon}$ soit strictement homotope à $c_{\varepsilon'}$. C’est le graphe d’une relation d’équivalence R dans$_{(2)}$Voir « Can the fundamental (homotopy) group of a space be the rationals ? »,K.
-
-Proc. Amer. Math. Soc. 103 (1988), no. 2, p. 627–632. La preuve qui suit est basée sur l’article de J. Pawlikowski, « The fundamental group of a compact metric space », Proc. Amer. Math. Soc. 126 (1998), no. 10, p. 3083–3087.
+Notons $\Gamma \subset K\times K$ l’ensemble des couples $(\varepsilon , \varepsilon ')$ tels que $c_{\varepsilon}$ soit strictement homotope à $c_{\varepsilon'}$. C’est le graphe d’une relation d’équivalence R dans K.
 
 #### Lemme 5 {#ta-iv-s2-lem-5 .statement tag=021K}
 
@@ -467,3 +467,5 @@ Soit P l’espace topologique réunion des cercles de centre $(2/n,0)$ passant p
 ## EXERCICES {#ta-iv-s2-exercises}
 
 See the [exercises for § 2](exercises/s2/).
+
+[^1]: Voir « Can the fundamental (homotopy) group of a space be the rationals ? », Proc. Amer. Math. Soc. 103 (1988), no. 2, p. 627–632. La preuve qui suit est basée sur l’article de J. Pawlikowski, « The fundamental group of a compact metric space », Proc. Amer. Math. Soc. 126 (1998), no. 10, p. 3083–3087.

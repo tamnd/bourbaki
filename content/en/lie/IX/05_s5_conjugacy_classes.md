@@ -29,7 +29,7 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: 4fd2c9a8ab7274081449e461404995d5e8b639030d5ada6ef2edfb77c95a678c
+content_sha256: 0b77e0b386dea71866296b89e92c87ad24a6ec6b34df327b3c3c01fecba0f80d
 ---
 
 ## § 5. CONJUGACY CLASSES
@@ -90,7 +90,7 @@ b) The group W (resp. $W_a)$ operates simply-transitively on the set of chambers
 
 c) Let C be a chamber and A an alcove. Then C (resp. A, resp. A) is a fundamental domain for the operation of W on $\mathfrak{t}$ (resp. of $W_a$ on $\mathfrak{t}$, resp. of $W_a$ on $\mathfrak{t}$**--** $\mathfrak{t}_r)$. If $x\in \mathfrak{t}_r$ and $w\in W_a$ are such that $w(x) =x$, then $w=$ Id.
 
-d) For every chamber C, there exists a unique alcove A such that $A\subset C$ and $0\in \overline{A}$. For every alcove A, there exists a unique $\gamma \in N(G,T)$ such that $\gamma \in \overline{A}$.
+d) For every chamber C, there exists a unique alcove A such that $A\subset C$ and$\gamma \in \frac{0}{A}.\in \overline{A}$. For every alcove A, there exists a unique $\gamma \in N(G,T)$ such that
 
 If $w\in W$ and $\gamma \in \Gamma$(T), then $wt_{\gamma}w^{-1}=t_{w(\gamma)}$ and $wt_{\gamma}w^{-1}t^{-1}_{\gamma}=t_{w(\gamma)-\gamma}$, with $w(\gamma )-\gamma \in N(G,T)$; this immediately implies $a)$. The rest of the proposition follows from Chap. VI, §1, no. 5 and §2, nos. 1 and 2.
 

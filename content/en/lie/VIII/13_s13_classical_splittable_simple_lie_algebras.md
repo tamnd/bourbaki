@@ -29,7 +29,7 @@ subsections:
       pdf_page: 219
 statements: 2
 exercises: 19
-content_sha256: 64d08fcfceff6ab9f325a6e6e8c09522a7394e2a09cda12d9fe9f67e227ad40a
+content_sha256: e9d4adf0a81ab1c9ccb3b2c2483064045367026e80afc30ffaffce2c5a96d930
 ---
 
 ## § 13. CLASSICAL SPLITTABLE SIMPLE LIE ALGEBRAS
@@ -162,19 +162,13 @@ $$
 
 (§7, no. 5, Prop. 12). In particular, if $l$ is even, none of the fundamental representations of $\mathfrak{s}\mathfrak{l}(l+ 1, k)$ is orthogonal or symplectic. If $l$ is odd, the representation $\bigwedge^i\sigma$ for $i\not= (l+ 1)/2$ is neither orthogonal nor symplectic; by Chap. VI, §4, no. 7.VI, the sum of the coordinates of $\varpi_{(l+1)/2}$ with respect to $(\alpha_1, . . . , \alpha_l)$ is
 
-1 $[l+ 1(l-1)l+ 1(l+ 1)]$
-
-$1 + 2 +\cdots +$ + $1 + 2 +\cdots +$
-
-$l+ 1$ 2 2 2 2
-
 $$
-l-1l+ 1
+\frac{1}{l + 1}[\frac{l + 1}{2}(1 + 2 +\cdots +\frac{l- 1}{2})+\frac{l + 1}{2}(1 + 2 +\cdots +\frac{l + 1}{2})]
 $$
 
-$= 1 + 2 +\cdots +$ +
-
-2 4
+$$
+= 1 + 2 +\cdots +\frac{l- 1}{2}+\frac{l + 1}{4}
+$$
 
 so $\bigwedge^{(l+1)/2}\sigma$ is orthogonal if $l\equiv  -1$ (mod. 4) and symplectic if $l\equiv 1$ (mod. 4) (§7, no. 5, Prop. 12). This last result can be made more precise as follows. Choose a non-zero element $e$ in $\bigwedge^{l+1}(V)$. The multiplication in the exterior algebra V defines a bilinear map from
 
@@ -316,13 +310,7 @@ $$
 
 where $x$ and $y$ are matrices with 1 row and $l$ columns and $A, B, C, D$ are square matrices of order $l$ such that $B=-s^tBs, C=-s^tCs$, and $D=-s^tAs$. Since the map $A \rightarrow s^tAs$ from $\mathbf{M}_l(k)$ to itself is the symmetry with respect to the second diagonal, it follows that
 
-$$
-_2l(l-1)
-$$
-
-dim$\mathfrak{g}= 2l+l$ + 2 $=l(2l+ 1)$.
-
-2
+dim$\mathfrak{g}= 2l+l^2+ 2\frac{l(l-1)}{2}=l(2l+ 1)$.
 
 Let $\mathfrak{h}$ be the set of diagonal elements of $\mathfrak{g}$. This is a commutative subalgebra of $\mathfrak{g}$, with basis the elements
 
@@ -384,9 +372,9 @@ $$
 \varpi_i=\varepsilon_1+\cdots +\varepsilon_i(1\leq i\leq l-1)
 $$
 
-$\varpi_l=$ 1$(\varepsilon_1+\cdots +\varepsilon_l)$.
-
-2
+$$
+\varpi_l=\frac{1}{2}(\varepsilon_1+\cdots +\varepsilon_l)
+$$
 
 Let $\sigma$ be the identity representation of $\mathfrak{g}$ on V. The exterior power $\bigwedge^r\sigma$ operates on $E =\bigwedge^rV$. If $h\in \mathfrak{h}$,
 
@@ -480,37 +468,15 @@ $r$
 
 which proves (iii). Then
 
-$$
-[1\sum']
-$$
-
-$[f(a), f(b)] =f(a),(be_r)e_r$ by (i)
-
-2
+$[f(a), f(b)] =[f(a),\frac{1}{2}\sum(be_r)e'_r]$ by (i)
 
 $r$
 
-1 $''$
-
-= $\sum([f(a), be_r]e_r+ (be_r)[f(a), e_r])$
-
-2
-
-$$
-1\sum^r''
-$$
-
-= $((abe_r)e_r+ (be_r)(ae_r))$ by (iii)
-
-2
+$=\frac{1}{2}\sum([f(a), be_r]e'_r+ (be_r)[f(a), e'_r])$ $=\frac{1}{2}\sum^r((abe_r)e'_r+ (be_r)(ae'_r))$ by (iii)
 
 $r$
 
-1 $''$
-
-= $\sum((abe_r)e_r-(bae_r)e_r)$ by (ii)
-
-2
+$=\frac{1}{2}\sum((abe_r)e'_r-(bae_r)e'_r)$ by (ii)
 
 $r$
 
@@ -518,13 +484,9 @@ $=f([a, b])$ by (i)
 
 which proves (iv). To prove (v), we can, by extending scalars, assume that $k$ is algebraically closed. Choose then a basis $(e_r)$ of V such that $\Psi (e_r, e_s) =\delta_{rs}$, so $e'_r=e_r$. If $i\not=j$, then $E_{ij}-E_{ji}\in \mathfrak{o}(\Psi )$ and
 
-1
-
 $$
-f(E_{ij}-E_{ji}) =(e_ie_j-e_je_i) =e_ie_j
+f(E_{ij}-E_{ji}) =\frac{1}{2}(e_ie_j-e_je_i) =e_ie_j
 $$
-
-2
 
 but the $e_ie_j$ generate $C^+(Q)$.
 
@@ -562,13 +524,9 @@ we see that $\mu$ is an isomorphism. Consequently, $\lambda \circ \mu^{-1}$ defi
 
 On the other hand, in view of Lemma 1 (i), we have
 
-1
-
 $$
-f(H_i) =(e_ie_{-i}-e_{-i}e_i)
+f(H_i) =\frac{1}{2}(e_ie_{-i}-e_{-i}e_i)
 $$
-
-2
 
 Since $e_ie_{-i}=-e^2_0e_ie_{-i}=e_0e_ie_0e_{-i}$ and $e_ie_{-i}+e_{-i}e_i= 1$, we have
 
@@ -590,9 +548,9 @@ $$
 \rho (h)(e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}) \tag{5}
 $$
 
-= (1$(\varepsilon_1+\cdots +\varepsilon_l)-(\varepsilon_{i_1}+\cdots +\varepsilon_{i_k}))(h)(e_{-i_1}\wedge  \cdots  \wedge e_{-i_k})$.
-
-2
+$$
+= (\frac{1}{2}(\varepsilon_1+\cdots +\varepsilon_l)-(\varepsilon_{i_1}+\cdots +\varepsilon_{i_k}))(h)(e_{-i_1}\wedge  \cdots  \wedge e_{-i_k})
+$$
 
 This shows that the highest weight of $\rho$ is $\varpi_l$. We call $\rho$ the spinor representation of $\mathfrak{g}$. Note that its weights are all simple (moreover, $\varpi_l$ is a minuscule weight).
 
@@ -612,13 +570,9 @@ $$
 
 for $1\leq i\leq l$ and
 
-1
-
 $$
-f(X_{\varepsilon_i-\varepsilon_j}) =(e_ie_{-j}-e_{-j}e_i) =e_ie_{-j}=e_0e_ie_0e_{-j}
+f(X_{\varepsilon_i-\varepsilon_j}) =\frac{1}{2}(e_ie_{-j}-e_{-j}e_i) =e_ie_{-j}=e_0e_ie_0e_{-j}
 $$
-
-2
 
 for $1\leq i < j\leq l$, and similarly
 
@@ -720,13 +674,7 @@ $$
 
 where $A, B, C$ are square matrices of order $l$ such that $B=s^tBs$ and $C=$ $c^tCs$; in other words, $B$ and $C$ are symmetric with respect to the second diagonal. It follows that
 
-$$
-_2l(l+ 1)
-$$
-
-dim$\mathfrak{g}=l$ + 2 $=l(2l+ 1)$.
-
-2
+dim$\mathfrak{g}=l^2+ 2\frac{l(l + 1)}{2}=l(2l+ 1)$.
 
 Let $\mathfrak{h}$ be the set of diagonal matrices in $\mathfrak{g}$. This is a commutative subalgebra of $\mathfrak{g}$, with basis the elements $H_i=E_{i,i}-E_{-i,-i}$ for $1\leq i\leq l$. Let $(\varepsilon_i)_{1\leq i\leq l}$ be the dual basis of $(H_i)$. For $1\leq i < j\leq l$, put
 
@@ -972,14 +920,8 @@ For all $s\in \Sigma$, let $\mu(s)$ be the multiplier of $s$. The map $s \righta
 
 (VIII) The canonical bilinear form $\Phi_R$ on $\mathfrak{h}^*$ is given by
 
-$''$ 1 $''$
-
 $$
-\Phi_R(\xi_1\varepsilon_1+\cdots +\xi_l\varepsilon_l, \xi_1\varepsilon_1+\cdots +\xi_l\varepsilon_l) =(\xi_1\xi_1+\cdots +\xi_l\xi_l)
-$$
-
-$$
-4(l+ 1)
+\Phi_R(\xi_1\varepsilon_1+\cdots +\xi_l\varepsilon_l, \xi '_1\varepsilon_1+\cdots +\xi '_l\varepsilon_l) =\frac{1}{4(l + 1)}(\xi_1\xi '_1+\cdots +\xi_l\xi '_l)
 $$
 
 (Chap. VI, §4, no. 6.V). Thus, the inverse form of $\Phi_R$, that is, the restriction to $\mathfrak{h}$ of the Killing form, is
@@ -1072,21 +1014,13 @@ $$
 \varpi_i=\varepsilon_1+\varepsilon_2+\cdots +\varepsilon_i(1\leq i\leq l-2)
 $$
 
-1
-
 $$
-\varpi_{l-1}=(\varepsilon_1+\varepsilon_2+. . .+\varepsilon_{l-2}+\varepsilon_{l-1}-\varepsilon_l)
+\varpi_{l-1}=\frac{1}{2}(\varepsilon_1+\varepsilon_2+. . .+\varepsilon_{l-2}+\varepsilon_{l-1}-\varepsilon_l)
 $$
 
-2
-
-1
-
 $$
-\varpi_l=(\varepsilon_1+\varepsilon_2+. . .+\varepsilon_{l-2}+\varepsilon_{l-1}+\varepsilon_l)
+\varpi_l=\frac{1}{2}(\varepsilon_1+\varepsilon_2+. . .+\varepsilon_{l-2}+\varepsilon_{l-1}+\varepsilon_l)
 $$
-
-2
 
 Let $\sigma$ be the identity representation of $\mathfrak{g}$ on V. The exterior power $\bigwedge^r\sigma$ operates on $E =\bigwedge^r(V)$. If $h\in \mathfrak{h}$, we have
 
@@ -1102,11 +1036,9 @@ For this, it suffices to show that $\bigwedge^r\sigma$ is irreducible for $1\leq
 
 We are now going to determine the fundamental representations of highest weight $\varpi_{l-1}$ and $\varpi_l$. Let Q be the quadratic form $x \rightarrow \frac{1}{2}\Psi (x, x)$. We have defined in no. 2.IV the spinor representation $\lambda$ of the Clifford algebra C(Q) on $N =\bigwedge F'$. We verify immediately that the subspace $N_+$ (resp. $N_-)$ of N given by the sum of the $\bigwedge^pF'$ for $p$ even (resp. odd) is stable under the restriction of $\lambda$ to $C^+(Q)$. Consequently, the representations $\lambda_+$ and $\lambda_-$ of $C^+(Q)$ on $N_+$ and $N_-$ respectively are the semi-spinor representations of $C^+(Q) ($Algebra, Chap. IX, §9, no. 4); they are irreducible, of dimension $2^{l-1}$ and inequivalent. Let $\rho_+=\lambda_+\circ f$ and $\rho_-=\lambda_-\circ f$ be the corresponding irreducible representations of $\mathfrak{g}$ (no. 2, Lemma 1 (vi)). In view of Lemma 1 (i), we have
 
-1 1 1
-
-$f(H_i) =(e_ie_{-i}-e_{-i}e_i) =e_ie_{-i}-$ = $-e_{-i}e_i$
-
-2 2 2
+$$
+f(H_i) =\frac{1}{2}(e_ie_{-i}-e_{-i}e_i) =e_ie_{-i}-\frac{1}{2}=\frac{1}{2}-e_{-i}e_i
+$$
 
 and we see, as in no. 2.IV, that, for $h\in \mathfrak{h}$ and $1\leq i_1<\cdots < i_k\leq l$,
 
@@ -1114,11 +1046,9 @@ $$
 \lambda \circ f(h)(e_{-i_1}\wedge  \cdots  \wedge e_{-i_k})
 $$
 
-1
-
-= ( $(\varepsilon_1+\cdots +\varepsilon_l)-(\varepsilon_{i_1}+\cdots +\varepsilon_{i_k}))(h)(e_{-i_1}\wedge  \cdots  \wedge e_{-i_k})$.
-
-2
+$$
+= (\frac{1}{2}(\varepsilon_1+\cdots +\varepsilon_l)-(\varepsilon_{i_1}+\cdots +\varepsilon_{i_k}))(h)(e_{-i_1}\wedge  \cdots  \wedge e_{-i_k})
+$$
 
 Consequently, the highest weight of $\rho_+$ (resp. $\rho_-)$ is $\varpi_l$ (resp. $\varpi_{l-1})$.
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 36
 statements: 17
 exercises: 18
-content_sha256: 8062d47373862d84654775f2045e58b48948d626259f15262d5ec18bdd045e13
+content_sha256: fb727d8b4709728b334e34c95aec5c07c99fa367187604d6dcf7ed6259ee8583
 ---
 
 ## § 3. CONJUGACY THEOREMS
@@ -74,13 +74,7 @@ $$
 
 (exp ad$_{\mathfrak{a}}x)a=$ (exp(L$_x-R_x))a=$ (exp $L_x$)(exp $R_{-x})a$ (1)
 
-$$
-L^i_xR^j_{-x}
-$$
-
-$=\sum a=$ (exp $x)a$(exp($-x$)).
-
-$i$! $j$!
+$=\sum Li^{ix}$! $Rj\overset{j-x}{!}a=$ (exp $x)a$(exp($-x$)).
 
 $i,j\geq 0$
 
@@ -130,11 +124,7 @@ Then F is a dominant polynomial map (App. I).
 
 Assertion (i) is clear. We prove (ii). Let $n=$ dim $\mathfrak{g}$. If $\lambda \in R$ and $x\in \mathfrak{g}^{\lambda}(\mathfrak{h})$, we have (ad $x)^n= 0$. It follows that $(y, x) \rightarrow e^{adx}y$ is a polynomial map from $\mathfrak{g}\times \mathfrak{g}^{\lambda}(\mathfrak{h})$ to $\mathfrak{g}$; it follows by induction that F is polynomial. Let $h_0\in \mathfrak{h}_r$ and let DF be the tangent linear map of F at $(h_0,0, . . . ,0)$; we show that DF is surjective. For $h\in \mathfrak{g}^0(\mathfrak{h}), F(h_0+h,0, . . . ,0) =h_0+h$, so DF($h,0, . . . ,0$) $=h$ and Im(DF) $\supset \mathfrak{g}^0(\mathfrak{h})$. On the other hand, for $x\in \mathfrak{g}^{\lambda_1}(\mathfrak{h})$,
 
-$_{adx}$ (ad $x)^2$
-
-$F(h_0, x,0, . . . ,0) =eh_0=h_0+$ (ad $x).h_0+h_0+\cdots$
-
-2!
+$F(h_0, x,0, . . . ,0) =e^{adx}h_0=h_0+$ (ad $x).h_0+$ (ad2!$x)^2h_0+\cdots$
 
 so DF(0$, x,0, . . . ,0) =$ (ad $x).h_0=-$(ad $h_0)x$; since ad $h_0$ induces an automorphism of $\mathfrak{g}^{\lambda_1}(\mathfrak{h})$, Im(DF) $\supset \mathfrak{g}^{\lambda_1}(\mathfrak{h})$. Similarly,
 

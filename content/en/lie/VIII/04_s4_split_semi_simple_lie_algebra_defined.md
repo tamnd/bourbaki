@@ -29,7 +29,7 @@ subsections:
       pdf_page: 112
 statements: 23
 exercises: 7
-content_sha256: 3dc73d621fad1fd1dfe309eea3436db9e6d3404d945c1b4cc1a6ed8aabebc27f
+content_sha256: a84aeaaaecf68e77dfb62377ca8bec59212ba56a2e96324cda6e526b95dc4142
 ---
 
 ## § 4. SPLIT SEMI-SIMPLE LIE ALGEBRA DEFINED BY A REDUCED ROOT SYSTEM
@@ -405,10 +405,8 @@ nilpotent) if, for every $v\in V$, there exists a positive integer $n$ such that
 defined by the formula $e^u(v) =\sum_{n\geq 0}(1/n$!)$u^n(v)$ for all $v\in V$. $\theta_{\alpha}(H_{\alpha}) =e^{adX_{\alpha}}e^{adX_{-\alpha}}(H_{\beta}-n(\alpha , \beta )X_{\alpha})$
 
 $$
-=e^{adX_{\alpha}}(H_{\beta}-n(\alpha , \beta )X_{\alpha}+n(\alpha , \beta )X_{-\alpha}-n(\alpha , \beta )H_{\alpha}-n(\alpha , \beta )2X_{-\alpha})
+=e^{adX_{\alpha}}(H_{\beta}-n(\alpha , \beta )X_{\alpha}+n(\alpha , \beta )X_{-\alpha}-n(\alpha , \beta )H_{\alpha}-\frac{n(\alpha , \beta)}{2}2X_{-\alpha})
 $$
-
-2
 
 $$
 =e^{adX_{\alpha}}(H_{\beta}-n(\alpha , \beta )H_{\alpha}-n(\alpha , \beta )X_{\alpha})

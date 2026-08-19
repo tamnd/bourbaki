@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: c4912c08ba266b0181aa125e700420dca988f880d4e705dfe17249b386999fe3
+content_sha256: 022654ddf2051d6c56ab923eccc440c3ddfed4bc89af4fa0a1ca574e34e42dd3
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -290,14 +290,8 @@ By Cor. 2 of Th. 1 (§6, no. 2), we deduce:
 
 If $\varphi$ and $\psi$ are two continuous central functions on G,
 
-$\int$ 1 $\int$
-
 $$
-\varphi (g)\psi (g)dg=\overline{(\varphi(t)J(\rho)(t))}.(\psi (t)J(\rho )(t))dt
-$$
-
-$$
-_Gw(G)_T
+\int_G\overline{\varphi(g)}\psi (g)dg=\frac{1}{w(G)}\int_T\overline{(\varphi(t)J(\rho)(t))}.(\psi (t)J(\rho )(t))dt
 $$
 
 For all $\lambda \in X_{++}$, denote by $\chi_{\lambda}$ the character of an irreducible representation of G of highest weight $\lambda$.
@@ -323,15 +317,7 @@ This follows from the theorem and commutative diagram (2) (no. 3).
 For all $\lambda \in X_{++}$ and every regular element $t$ of T,
 
 $$
-\sum_w\varepsilon (w)\lambda (wt)\rho (wt)
-$$
-
-$$
-\chi_{\lambda}(t) = \tag{5}
-$$
-
-$$
-\sum_w\varepsilon (w)\rho (wt)
+\chi_{\lambda}(t) =\sum\sum_w\varepsilon_w(w\varepsilon )(\lambda w()wt\rho ()wt\rho ()wt) \tag{5}
 $$
 
 where the two sums are over the elements $w$ of W.
@@ -356,37 +342,21 @@ $$
 
 Indeed, by Lemma 4 and Th. 2,
 
-$\int$ 1 $\int$
-
 $$
-\chi_{\lambda}(g)\varphi (g)dg=\chi_{\lambda}(t)J(\rho )(t)(\varphi (t)J(\rho )(t))dt
+\int_G\overline{\chi_{\lambda}(g)}\varphi (g)dg=\frac{1}{w(G)}\int_T\chi_{\lambda}(t)J(\rho )(t)(\varphi (t)J(\rho )(t))dt
 $$
 
 $$
-_Gw(G)_T
-$$
-
-1 $\int$
-
-= $\overline{J(\lambda \rho)(t)}\varphi (t)J(\rho )(t)dt$.
-
-$$
-w(G)_T
+=\frac{1}{w(G)}\int_T\overline{J(\lambda \rho)(t)}\varphi (t)J(\rho )(t)dt
 $$
 
 But the function $t \rightarrow \varphi (t)J(\rho )(t)$ is anti-invariant and $\frac{1}{w(G)}J(\lambda \rho )$ is the orthogonal projection of $\lambda \rho$ onto the subspace of anti-invariant elements of $L^2$(T), so
 
-1 $\int\int$
-
 $$
-J(\lambda \rho )(t)\varphi (t)J(\rho )(t)dt=\overline{\lambda \rho(t)}\varphi (t)J(\rho )(t)dt
+\frac{1}{w(G)}\int_T\overline{J(\lambda \rho)(t)}\varphi (t)J(\rho )(t)dt=\int_T\overline{\lambda \rho(t)}\varphi (t)J(\rho )(t)dt
 $$
 
-$w(G)_T$ T
-
-finally, by formula (3), we have $\rho (t)J(\rho )(t) =\prod_{\alpha >0}(1-\alpha (t)^{-1})$, hence the
-
-corollary.
+finally, by formula (3), we have $\rho (t)J(\rho )(t) =\prod_{\alpha >0}(1-\alpha (t)^{-1})$, hence the corollary.
 
 #### Remark 1 {#lie-ix-s7-n4-rem-1 .statement tag=01GI}
 
@@ -399,13 +369,7 @@ $$
 If $t$ is a regular element of T, we deduce from (5) that
 
 $$
-\sum_w\varepsilon (w)^w\lambda (t)\rho_w(t)\sum_w\varepsilon (w)^w\lambda (t)\rho_w(t)
-$$
-
-$\chi_{\lambda}(t) =$ =. (7)
-
-$$
-\sum_w\varepsilon (w)\rho_w(t)\prod_{\alpha >0}(1-\alpha (t)^{-1})
+\chi_{\lambda}(t) =\sum\sum_w\varepsilon_w(w\varepsilon )(\overset{w}{w}\lambda )\rho (t_w)(\rho t_w)(t)=\sum\prod_{w\alpha >}\varepsilon (_0w(1)\overset{w}{-}\lambda \alpha (t()t\rho )_{w-}(_1t)) \tag{7}
 $$
 
 Note that $\rho_w$ is a linear combination of roots with integer coefficients, and hence belongs to X(T) even if we do not assume that $\rho \in X(T)$. It follows that formula (7) is valid without the assumption that $\rho \in X(T):$ indeed, to prove this we replace G by a suitable connected covering, and are then reduced to Cor. 2.
@@ -427,15 +391,7 @@ We now return to the additive notation for the group X(T) and we no longer assum
 The dimension of the space of an irreducible representation of G of highest weight $\lambda$ is given by
 
 $$
-\prod\langle \lambda +\rho , K_{\alpha}\rangle
-$$
-
-$$
-\chi_{\lambda}(e) =
-$$
-
-$$
-_{\alpha\in R_+}\langle \rho , K_{\alpha}\rangle
+\chi_{\lambda}(e) =\prod_{\alpha\in R_+}\frac{\langle\lambda + \rho , K_{\alpha}\rangle}{\langle\rho , K_{\alpha}\rangle}
 $$
 
 Put $\gamma =\frac{1}{2}\sum_{\alpha >0}K_{\alpha}$, so $\delta (\alpha )(\gamma ) = 2\pi i$ for every simple root $\alpha$ (Chap. VI, §1, no. 10, Prop. 29). The line $\mathbf{R}\gamma$ is not contained in any of the hyperplanes Ker $\delta (\alpha )$, so exp($z\gamma$ ) is a regular element of G for all sufficiently small $z\in \mathbf{R}^*$; for all $\mu\in X(T)$ and all $z\in \mathbf{R}$, we have
@@ -503,15 +459,7 @@ $a)$ For all $\alpha \in R_+$, there exists $A_{\alpha}>0$ with $|\langle \lambd
 $b)$ Assume that G is semi-simple, denote by $\beta_1, . . . , \beta_r$ the simple roots and put $N_i=K_{\beta_i}$. Then
 
 $$
-^r\langle \lambda +\rho , N_i\rangle^r
-$$
-
-$$
-d(\lambda )\geq \prod=\prod\langle \lambda +\rho , N_i\rangle
-$$
-
-$$
-_{i=1}\langle \rho , N_i\rangle_{i=1}
+d(\lambda )\geq \prod_{i=1}^r\frac{\langle\lambda + \rho , N_i\rangle}{\langle\rho , N_i\rangle}=\prod_{i=1}^r\langle \lambda +\rho , N_i\rangle
 $$
 
 since $\langle \lambda +\rho , N_i\rangle  \geq  \langle \rho , N_i\rangle = 1$, this implies that

@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: e6d573a7633e79018da49019c2ec55e17ce6daacfc777ff00341b1afaf23f811
+content_sha256: b7df802697c18e5528ad8725b476166fd48a04528313acc510d9562e252b6665
 ---
 
 ## § 6. ALGÈBRES STELLAIRES
@@ -134,7 +134,7 @@ sont hermitiens et vérifient $x=x_1+ix_2$. Si $x=y_1+iy_2$ avec $y_1$ et $y_2$ 
 
 Les deux premières assertions résultent du lemme 1 de I, p. 95. On calcule que $xx^*-x^*x= 2i(x_2x_1-x_1x_2)$, donc $x$ est normal si et seulement si $x_1$ et $x_2$ sont permutables.
 
-Soit A une algèbre unifère involutive. Pour que $x\in A$ soit inversible, il faut et il suffit que $x^*$ le soit, et on a alors $(x^*)^{-1}= (x^{-1})^*$. Comme (Sp$x_A-(x\lambda e)$.$)^*=x^*-\lambda e$ pour tout $\lambda \in \mathbf{C}$, on en déduit que Sp$_A(x^*) =$
+Soit A une algèbre unifère involutive. Pour que $x\in A$ soit inversible, il faut et il suffit que $x^*$ le soit, et on a alors $(x^*)^{-1}= (x^{-1})^*$. Comme $(x-\lambda e)^*=x^*-\lambda e$ pour tout $\lambda \in \mathbf{C}$, on en déduit que Sp$_A(x^*) =$ Sp$_A(x)$.
 
 Soient A une algèbre involutive et $\widetilde{A}$ l’algèbre déduite de A par adjonction d’un élément unité. Il existe dans $\widetilde{A}$ une unique involution prolongeant celle de A, donnée par $(\lambda , x)^*= (\lambda , x^*)$ pour $\lambda \in \mathbf{C}$ et $x\in A$. Si $x\in A$, on a Sp$'_A(x^*) =$ Sp$'_A(x)$.
 

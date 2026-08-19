@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: f94cd91e0f709152f0e0367a39d754743ea62a32777206c6c0c0c06a03900858
+content_sha256: 054285de3967ae6c8b8f0d114bc41cd38f167368cb943cf1ab5b4ccda41db2de
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
@@ -222,28 +222,16 @@ We prove the last assertion. It follows from §5, no. 1 and Differentiable and A
 
 (i) Let $\varphi$ be an integrable function on G with values in a Banach space or in $\overline{\mathbf{R}}$. For almost all $t\in T$, the function $g \rightarrow \varphi (gtg^{-1})$ on G is integrable for $dg$. The function $t \rightarrow \delta_G(t)\int_G\varphi (gtg^{-1})dg$ is integrable on T, and we have
 
-$\int$ 1 $\int(\int_{-1})$
-
 $$
-\varphi (g)dg=\varphi (gtg)dg\delta_G(t)dt \tag{4}
-$$
-
-$$
-_Gw(G)_{TG}
+\int_G\varphi (g)dg=\frac{1}{w(G)}\int_T(\int_G\varphi (gtg^{-1})dg)\delta_G(t)dt \tag{4}
 $$
 
 (“Hermann Weyl’s integration formula”).
 
 (ii) Let $\varphi$ be a positive measurable function on G. For almost all $t\in T$, the function $g \rightarrow \varphi (gtg^{-1})$ on G is measurable. The function $t \rightarrow \int_G^*\varphi (gtg^{-1})dg$ on T is measurable, and we have
 
-$\int*$ 1 $\int*(\int*-1)$
-
 $$
-\varphi (g)dg=\varphi (gtg)dg\delta_G(t)dt \tag{5}
-$$
-
-$$
-_Gw(G)_{TG}
+\int_G^*\varphi (g)dg=\frac{1}{w(G)}\int_T^*(\int_G^*\varphi (gtg^{-1})dg)\delta_G(t)dt \tag{5}
 $$
 
 Since the map $f$ is induced by passage to the quotient from the map $(g, t) \rightarrow gtg^{-1}$ from $G\times T\rightarrow G$, it suffices to apply Integration, Chap. V, §5, 6, 8 and Integration, Chap. VII, §2.
@@ -256,14 +244,8 @@ a$)\varphi$ is measurable if and only if its restriction to T is measurable.
 
 b$)\varphi$ is integrable if and only if the function $(\varphi |T)\delta_G$ is integrable on T, and in that case we have
 
-$\int$ 1 $\int$
-
 $$
-\varphi (g)dg=\varphi (t)\delta_G(t)dt \tag{6}
-$$
-
-$$
-_Gw(G)_T
+\int_G\varphi (g)dg=\frac{1}{w(G)}\int_T\varphi (t)\delta_G(t)dt \tag{6}
 $$
 
 Denote by $p: G/T\times T\rightarrow T$ the second projection. We have $\varphi \circ f$ = $(\varphi |T)\circ p$; further, the image under $p$ of the measure $\mu\otimes \frac{1}{w(G)}\delta_Gdt$ is $\frac{1}{w(G)}\delta_Gdt$. The corollary now follows from Th. 1 above and Th. 1 of Integration, Chap. V, §6, no. 2, applied to the two proper maps $f$ and $p$.
@@ -272,15 +254,7 @@ Denote by $p: G/T\times T\rightarrow T$ the second projection. We have $\varphi 
 
 Let H be a connected closed subgroup of G containing T, $\mathfrak{h}$ its Lie algebra, and $dh$ the Haar measure on H of total mass 1. Let $\varphi$ be an integrable central function on G, with values in a Banach space or in $\overline{\mathbf{R}}$. Then the function $h \rightarrow \varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1)$ is integrable and central on H and we have
 
-$$
-\int w(H)\int
-$$
-
-$\varphi (g)dg=\varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1)dh$. (7)
-
-$$
-_Gw(G)_H
-$$
+$\int_G\varphi (g)dg=\frac{w(H)}{w(G)}\int_H\varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1)dh$. (7)
 
 Indeed, the function $h \rightarrow \varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1)$ is a central function on H whose restriction to T is the function $t \rightarrow \varphi (t)\delta_G(t)\delta_H(t)^{-1}$. Thus, the corollary follows from Cor. 2 applied to G and to H.
 
@@ -300,14 +274,8 @@ $$
 
 Let $\nu$ be the measure on the quotient $T/W$ defined by
 
-$\int$ 1 $\int$
-
 $$
-\psi (\tau )d\nu (\tau ) =\psi (\pi (t))\delta_G(t)dt
-$$
-
-$$
-_{T/W}w(G)_T
+\int_{T/W}\psi (\tau )d\nu (\tau ) =\frac{1}{w(G)}\int_T\psi (\pi (t))\delta_G(t)dt
 $$
 
 where $\pi$ denotes the canonical projection of T onto $T/W$. Cor. 2 means that the homeomorphism $T/W\rightarrow G/$Int(G) (§2, no. 5, Cor. 1 of Prop. 5) transports the measure $\nu$ to the image of the measure $dg$ under the canonical projection $G\rightarrow G/$Int(G).
@@ -340,11 +308,7 @@ Let H be a (real) Lie group of dimension $m,\mathfrak{h}$ its Lie algebra. Let $
 
 where $\lambda_{\mathfrak{h}}$ is the Ad(H)-invariant function on $\mathfrak{h}$ such that
 
-1 $p$
-
-$\lambda_{\mathfrak{h}}(x) =$ det $\sum$ (ad $x)$ for $x\in \mathfrak{h}$.
-
-$(p+$ 1)!
+$\lambda_{\mathfrak{h}}(x) =$ det $\sum(p+$ 1)!1 (ad $x)^p$ for $x\in \mathfrak{h}$.
 
 $p\geq 0$
 
@@ -373,13 +337,7 @@ so $\lambda_{\mathfrak{h}}$((Ad $h)(x)) =\lambda_{\mathfrak{h}}(x)$. Thus, the f
 Consider the function $\lambda_{\mathfrak{g}}$ associated to a compact Lie group G; in view of §2, no. 1, Th. 1, to calculate $\lambda_{\mathfrak{g}}$ it suffices to know its values on $\mathfrak{t}$. But, for $x\in \mathfrak{t}$, the endomorphism ad $x$ of $\mathfrak{g}$ is semi-simple, and has eigenvalues 0 (with multiplicity $r)$ and, for all $\alpha \in R(G,T),\delta (\alpha )(x)$ (with multiplicity 1). It follows immediately that
 
 $$
-\prod e^{\delta(\alpha)(x)}-1\delta_{\mathfrak{g}}(x)
-$$
-
-$\lambda_{\mathfrak{g}}(x) =$ = (11)
-
-$$
-\delta (\alpha )(x)\pi_{\mathfrak{g}}(x)
+\lambda^{\mathfrak{g}}(x) =\prod\frac{e^{\delta(\alpha)(x)} - 1}{\delta(\alpha)(x)}=\frac{\delta_{\mathfrak{g}}(x)}{\pi_{\mathfrak{g}}(x)} \tag{11}
 $$
 
 $\alpha \in R(G,T)$
@@ -416,11 +374,7 @@ $\psi^*$exp$^*_G\omega_G=\omega_{G/T}\wedge \delta_{\mathfrak{g}}\omega_{\mathfr
 
 By Prop. $2,\psi^*$exp$^*_G\omega_G= (\psi^*\lambda_{\mathfrak{g}})\psi^*\omega_{\mathfrak{g}}$. Since the function $\lambda_{\mathfrak{g}}$ is invariant under Ad(G), we have
 
-$(\psi^*\lambda_{\mathfrak{g}})(\overline{g}, x) =\lambda_{\mathfrak{g}}(x) =\delta^{\mathfrak{g}}(x)$ for $\overline{g}\in G/T, x\in \mathfrak{t}$.
-
-$$
-\pi_{\mathfrak{g}}(x)
-$$
+$(\psi^*\lambda_{\mathfrak{g}})(\overline{g}, x) =\lambda_{\mathfrak{g}}(x) =\frac{\delta_{\mathfrak{g}}(x)}{\pi_{\mathfrak{g}}(x)}$ for $\overline{g}\in G/T, x\in \mathfrak{t}$.
 
 It follows that the forms $\psi^*\omega_G(\overline{g}, x)$ and $\omega_{G/T}(\overline{g})\wedge \pi_{\mathfrak{g}}(x)\omega_{\mathfrak{t}}(x)$ coincide where $\delta_{\mathfrak{g}}(x)$ is non-zero, that is on the dense open subset $(G/T)\times \mathfrak{t}_r$; thus, they are equal, hence the proposition.
 
@@ -432,24 +386,12 @@ The measure $dz$ on $\mathfrak{g}$ is the image under the proper map $(g, x) \ri
 
 We leave to the reader the statement and proof of the analogues of Cor. 1 to 3 and Remarks 1 to 3 of no. 2. For example, let $\varphi$ be an integrable function on $\mathfrak{g}$ (with values in a Banach space or $\overline{\mathbf{R}})$; then
 
-$\int$ 1 $\int(\int)$
-
-$\varphi (z)dz=\varphi$((Ad $g)x)dg\pi_{\mathfrak{g}}(x)dx$, (12)
-
-$$
-_{\mathfrak{g}}w(G)_{\mathfrak{t}G}
-$$
+$\int_{\mathfrak{g}}\varphi (z)dz=\frac{1}{w(G)}\int_{\mathfrak{t}}(\int_G\varphi$((Ad $g)x)dg)\pi_{\mathfrak{g}}(x)dx$, (12)
 
 and, in particular, if $\varphi$ is invariant under Ad(G),
 
-$\int$ 1 $\int$
-
 $$
-\varphi (z)dz=\varphi (x)\pi_{\mathfrak{g}}(x)dx \tag{13}
-$$
-
-$$
-_{\mathfrak{g}}w(G)_{\mathfrak{t}}
+\int_{\mathfrak{g}}\varphi (z)dz=\frac{1}{w(G)}\int_{\mathfrak{t}}\varphi (x)\pi_{\mathfrak{g}}(x)dx \tag{13}
 $$
 
 ### 4. INTEGRATION OF SECTIONS OF A VECTOR BUNDLE
@@ -597,13 +539,7 @@ $$
 $$
 
 $$
-\int\{\int^1d_*\}
-$$
-
-= $(\tau_{expt\xi}\omega )dtd\xi$
-
-$$
-_{\mathfrak{g}0}dt
+=\int_{\mathfrak{g}}\{\int_0^1\frac{d}{dt}(\tau_{expt\xi}^*\omega )dt\}d\xi
 $$
 
 $$

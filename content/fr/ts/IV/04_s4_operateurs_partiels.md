@@ -53,7 +53,7 @@ subsections:
       pdf_page: 268
 statements: 74
 exercises: 24
-content_sha256: 30639c5b15c30f3296e1f9f62b297b501d32a4058dcb51269b14cbd69a6cb97a
+content_sha256: 96ef3ac9f30b1f427523f178fdbb0a0651fced8caf903400129f0f1692ac8da2
 ---
 
 ## § 4. OPÉRATEURS PARTIELS
@@ -824,9 +824,11 @@ Démontrons b). Si $\mu\not =\lambda$ et $x\in$ Ker(($\lambda -\mu$)$^{-1}1_E-R(
 
 Soit $u$ un opérateur fermé à domaine dense sur un espace hilbertien complexe E. Le spectre de $u^*$ est l’image du spectre de $u$ par la conjugaison complexe et, pour tout élément $\lambda$ de l’ensemble résolvant de $u$, on a $R(u, \lambda )^*= R(u^*, \lambda )$. En particulier, si $u$ est auto-adjoint, l’endomorphisme $R(u, \lambda )$ est normal pour tout $\lambda  /\in$ Sp($u$).
 
-Soit $\lambda \in \mathbf{C}-$ Sp($u$) un élément de l’ensemble résolvant de $u$. On a
+Soit $\lambda \in \mathbf{C}-$ Sp($u$) un élément de l’ensemble résolvant de $u$. On a $u=\lambda 1_E-R(u, \lambda )^{-1}$, donc
 
-$u=\lambda 1^E-R(u^*u, \lambda =\frac{)}{\lambda}\overset{-1}{1}_{E}$, donc$-(R(u, \lambda )^{-1})^*=\overline{\lambda}1_E-(R(u, \lambda )^*)^{-1}$
+$$
+u^*=\overline{\lambda}1_E-(R(u, \lambda )^{-1})^*=\overline{\lambda}1_E-(R(u, \lambda )^*)^{-1}
+$$
 
 (IV, p. 236 et prop. 9 de IV, p. 239). D’après la remarque 5, on en déduit que $\overline{\lambda}\in \mathbf{C}-$ Sp($u^*$) et que $R(u, \lambda )^*= R(u^*, \lambda )$. Par conséquent, le spectre de $u^*$ est contenu dans l’image de Sp($u$) par la conjugaison complexe. On obtient l’égalité en appliquant cette propriété à $u^*$, puisque $u^{**}=u$ (cor. de la prop. 8 de IV, p. 237). La dernière assertion résulte alors de la formule (9), p. 245.
 

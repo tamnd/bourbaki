@@ -53,7 +53,7 @@ subsections:
       pdf_page: 82
 statements: 35
 exercises: 8
-content_sha256: 122e5b1fcf1ee71f424c157f6ea3140077cab94ede718b200789b60d5c56a2e0
+content_sha256: 5308905cc195611595fb321bb07ce6a26de8cd04bc295ff38679d8b5ac11956a
 ---
 
 ## § 3. FAISCEAUX
@@ -132,9 +132,7 @@ Soit X un espace topologique. Pour tout ouvert U de B, soit $\mathscr{C}(U; X)$ 
 
 3) Faisceaux de sections continues
 
-Soit E un espace topologique et soit $p: E\rightarrow B$ une application continue. Pour tout ouvert U de B, on note $\mathscr{S}(U;p)$ (ou $\mathscr{S}(U; E)$ lorsqu’il n’y a pas de confusion possible) l’ensemble des sections continues de $p$ au-dessus de U. La famille $(\mathscr{S}(U;p))$ est un sous-faisceau du faisceau
-
-$\mathscr{C}\mathscr{S}(E$(B; E)$(E), p)$. Nous verrons au net appelé le. Le faisceau ainsi obtenu est notéfaisceau sur$_o6$ ci-dessous que tout faisceau surB des sections continues du$\mathscr{S}(B; E)$ ou simplementBB-espaceest isomorphe au faisceau sur B des sections continues d’un B-espace étalé.
+Soit E un espace topologique et soit $p: E\rightarrow B$ une application continue. Pour tout ouvert U de B, on note $\mathscr{S}(U;p)$ (ou $\mathscr{S}(U; E)$ lorsqu’il n’y a pas de confusion possible) l’ensemble des sections continues de $p$ au-dessus de U. La famille $(\mathscr{S}(U;p))$ est un sous-faisceau du faisceau $\mathscr{C}(B; E)$. Le faisceau ainsi obtenu est noté $\mathscr{S}(B; E)$ ou simplement $\mathscr{S}(E)$ et appelé le faisceau sur B des sections continues du B-espace $(E, p)$. Nous verrons au n$^o6$ ci-dessous que tout faisceau sur B est isomorphe au faisceau sur B des sections continues d’un B-espace étalé.
 
 4) Faisceaux de B-morphismes
 
@@ -626,9 +624,7 @@ Il résulte alors de la proposition 4 que pour tout morphisme de faisceaux $\psi
 
 #### Exemple 1 {#ta-i-s3-n8-exa-1 .statement tag=01OL}
 
-Considérons un espace topologique B, un sous-espace A de B, notons $i: A\rightarrow B$ l’injection canonique. Soient $(E, p)$
-
-etp.vert45,(E$V', p$exemplede$')$ Bdeset toutB4-espaces. Prenons pour) et pourV-morphisme$\mathscr{F}$ le faisceau$f: E_V\mathscr{M}\mathscr{G}\rightarrow$orle faisceau${E'}^A_V(E$, posons$^A{; E'}^A\mathscr{M})$. Pour tout ou-$\varphi$or$_V(^Bf(E; E) =f'_V)_{\cap}(_AI$,, où $f_{V\cap A}$ est le $(V\cap A)$-morphisme de $E_{V\cap A}$ dans $E'_{V\cap A}$ induit par $f$. La famille $\varphi = (\varphi_V)$ ainsi définie est un morphisme de faisceaux de $\mathscr{G}$ dans $i_*\mathscr{F}$. D’après la proposition 4, il existe un unique morphisme de faisceaux $\psi :\mathscr{M}$or$_B(E; E')_A\rightarrow \mathscr{M}$or$_A(E_A; E'_A)$ tel que l’on ait
+Considérons un espace topologique B, un sous-espace A de B, notons $i: A\rightarrow B$ l’injection canonique. Soient $(E, p)$ et $(E', p')$ des B-espaces. Prenons pour $\mathscr{G}$ le faisceau $\mathscr{M}$or$_B(E; E')$ (I, p. 45, exemple 4) et pour $\mathscr{F}$ le faisceau $\mathscr{M}$or$_A(E_A; E'_A)$. Pour tout ouvert V de B et tout V-morphisme $f: E_V\rightarrow E'_V$, posons $\varphi_V(f) =f_{V\cap A}$, où $f_{V\cap A}$ est le $(V\cap A)$-morphisme de $E_{V\cap A}$ dans $E'_{V\cap A}$ induit par $f$. La famille $\varphi = (\varphi_V)$ ainsi définie est un morphisme de faisceaux de $\mathscr{G}$ dans $i_*\mathscr{F}$. D’après la proposition 4, il existe un unique morphisme de faisceaux $\psi :\mathscr{M}$or$_B(E; E')_A\rightarrow \mathscr{M}$or$_A(E_A; E'_A)$ tel que l’on ait
 
 $$
 \psi_{V\cap A}(\sigma_{\mathscr{G}}(V, f)|V\cap A) =f_{V\cap A} \tag{12}
@@ -642,9 +638,7 @@ Par passage aux sous-faisceaux, le morphisme $\psi$ induit un morphisme canoniqu
 
 #### Exemple 2 {#ta-i-s3-n8-exa-2 .statement tag=01OM}
 
-Soient A, B, C des espaces topologiques et soient $u: A\rightarrow B$, $v: B\rightarrow C$ des applications continues ; posons $w=v\circ u$. Soient E et $E'$ des C-espaces. Le morphisme canonique de $\mathscr{M}$or$_C(E; E')_A$
-
-dans$\mathscr{M}$de$\mathscr{M}$oror$\mathscr{M}^C_B$or(E; E$(E\mathscr{M}^C_B$or$(E; E,\overset{A}{E'}){(E'_B}^A)')_A^A\rightarrow^B; E$dansdans${\mathscr{M}'}^A)$or$\mathscr{M}$est le morphisme composé du morphisme$\mathscr{M}^B$or(Eor$_A^{BB}(E$; E${(E'_A}^{BB},)$; E${E^A''_A}^B$déduit du morphisme canonique)). et du morphisme canonique de
+Soient A, B, C des espaces topologiques et soient $u: A\rightarrow B$, $v: B\rightarrow C$ des applications continues ; posons $w=v\circ u$. Soient E et $E'$ des C-espaces. Le morphisme canonique de $\mathscr{M}$or$_C(E; E')_A$ dans $\mathscr{M}$or$_A(E_A; E'_A)$ est le morphisme composé du morphisme $\mathscr{M}$or$_C(E; E')_A\rightarrow \mathscr{M}$or$_B(E_B; E'_B)_A$ déduit du morphisme canonique de $\mathscr{M}$or$_C(E; E')_B$ dans $\mathscr{M}$or$_B(E_B; E'_B)$ et du morphisme canonique de $\mathscr{M}$or$_B(E_B,E'_B)_A$ dans $\mathscr{M}$or$_A(E_A,E'_A)$.
 
 ### 9. Faisceaux mous
 

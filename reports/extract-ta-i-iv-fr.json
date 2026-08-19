@@ -1,13 +1,13 @@
 {
   "book": "ta-i-iv-fr",
   "pages": 512,
-  "clean": 480,
-  "flagged": 30,
+  "clean": 485,
+  "flagged": 25,
   "empty": 2,
   "reasons": {
     "drawn-rule": 6,
     "empty": 2,
-    "stacked-rows": 12,
+    "stacked-rows": 7,
     "tall-delimiter": 14
   },
   "flagged_pages": [
@@ -18,31 +18,10 @@
       ]
     },
     {
-      "pdf_page": 61,
-      "page_label": "TA I.45",
-      "flags": [
-        "stacked-rows"
-      ]
-    },
-    {
-      "pdf_page": 79,
-      "page_label": "TA I.63",
-      "flags": [
-        "stacked-rows"
-      ]
-    },
-    {
       "pdf_page": 81,
       "page_label": "TA I.65",
       "flags": [
         "tall-delimiter"
-      ]
-    },
-    {
-      "pdf_page": 106,
-      "page_label": "TA I.90",
-      "flags": [
-        "stacked-rows"
       ]
     },
     {
@@ -166,13 +145,6 @@
       ]
     },
     {
-      "pdf_page": 430,
-      "page_label": "TA IV.414",
-      "flags": [
-        "stacked-rows"
-      ]
-    },
-    {
       "pdf_page": 433,
       "page_label": "TA IV.417",
       "flags": [
@@ -226,12 +198,6 @@
       "page_label": "TA IV.472",
       "flags": [
         "drawn-rule"
-      ]
-    },
-    {
-      "pdf_page": 497,
-      "flags": [
-        "stacked-rows"
       ]
     }
   ],

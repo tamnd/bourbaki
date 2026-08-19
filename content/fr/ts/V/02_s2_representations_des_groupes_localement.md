@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: d8bdb87a3a2c0d895e8b8d2cccca07575af0e9d5929e01ec740a9cb480e0c013
+content_sha256: eec3a032fa7b5e66f57c287f325099b4c057b4250ccf1d0461cd142a86adfd90
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -697,7 +697,11 @@ où la fonction $\overline{f_1}\boldsymbol{\gamma }_{G,\chi}(g)f_2$ est identifi
 Définissons une fonction $f_3$ sur G en posant $f_3(g) = 0$ si $f_1(g) = 0$ et $f_3(g) =f_1(g)|f_1(g)|^{-1/2}$ sinon. La fonction $f_3$ appartient à $\mathscr{F}_{\chi}(G)$ et vérifie $f_1=|f_1|^{1/2}f_3$; elle est $\mu$-mesurable et nulle en dehors d’un compact modulo Z, puisque $f_1$ l’est. Comme $|f_1|^{1/2}\in \mathscr{K}_1$(G), il vient
 
 $$
-\overline{f_1}|\frac{\boldsymbol{\gamma }}{f_3}\overset{G,\chi}{\boldsymbol{\gamma }}_{G}(_{,\chi}g)(fg^2)f=_2||f\overset{1}{=}||\overset{1/2}{f_{3}}| |\overline{f\boldsymbol{\gamma }^3}_G\boldsymbol{\gamma }_{,\chi}\overset{G,\chi}{(}g()gf)_2f|^2
+\overline{f_1}\boldsymbol{\gamma }_{G,\chi}(g)f_2=|f_1|^{1/2}\overline{f_3}\boldsymbol{\gamma }_{G,\chi}(g)f_2
+$$
+
+$$
+|\overline{f_3}\boldsymbol{\gamma }_{G,\chi}(g)f_2|=|f_3| |\boldsymbol{\gamma }_{G,\chi}(g)f_2|
 $$
 
 pour tout $g\in G$.

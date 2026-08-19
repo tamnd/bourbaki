@@ -29,7 +29,7 @@ subsections:
       pdf_page: 130
 statements: 17
 exercises: 5
-content_sha256: 92762a3649cb142dee90dc134615215d75dd8db8706bed1974957e127d464b2e
+content_sha256: 187b7a8abc60c9fa14af8686fd1baf954bbe2c9aa4fccac08e94cd853bfb04a4
 ---
 
 ## § 6. MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -382,14 +382,8 @@ $$
 
 so
 
-$\sum$ 1 $\sum'$
-
 $$
-\varphi (C) =[X_{\alpha}, X_{-\alpha}] +H_iH
-$$
-
-$$
-_{\alpha\in R_+}\langle X_{\alpha}, X_{-\alpha}\rangle i_{\in I}^i
+\varphi (C) =\sum_{\alpha\in R_+}\frac{1}{\langle X_{\alpha}, X_{-\alpha}\rangle}[X_{\alpha}, X_{-\alpha}] +\sum_{i\in I}H_iH'_i
 $$
 
 By Prop. 7,

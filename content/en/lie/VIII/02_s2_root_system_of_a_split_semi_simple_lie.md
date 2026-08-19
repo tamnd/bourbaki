@@ -29,7 +29,7 @@ subsections:
       pdf_page: 91
 statements: 28
 exercises: 11
-content_sha256: b6b010a3443e56802bde6d1dd708cdbb81daed274c9f82045c9d4ac2461324f5
+content_sha256: 3aa403515052922087f05697ef53161b363e1d6ac668c5005bc15c5577c99dbe
 ---
 
 ## § 2. ROOT SYSTEM OF A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -286,14 +286,8 @@ Let $\alpha \in R$, let $X_{\alpha}$ be a non-zero element of $\mathfrak{g}^{\al
 
 Let $(\mathfrak{g},\mathfrak{h})$ be a split semi-simple Lie algebra, $\Phi$ a non-degenerate invariant symmetric bilinear form on $\mathfrak{g}$. For all $\alpha \in R$, let $X_{\alpha}$ be a non-zero element of $\mathfrak{g}^{\alpha}$. Let $(H_i)_{i\in I}$ be a basis of $\mathfrak{h}$, and $(H'_i)_{i\in I}$ the basis of $\mathfrak{h}$ such that $\Phi (H_i, H'_j) =\delta_{ij}$. The Casimir element associated to $\Phi$ in the enveloping algebra of $\mathfrak{g}$ (Chap. I, §3, no. 7) is then
 
-$\sum$ 1 $\sum'$
-
 $$
-X_{\alpha}X_{-\alpha}+H_iH_i
-$$
-
-$$
-\Phi (X_{\alpha}, X_{-\alpha})
+\sum\frac{1}{\Phi(X_{\alpha}, X_{-\alpha})}X_{\alpha}X_{-\alpha}+\sum H_iH'_i
 $$
 
 $\alpha \in Ri\in I$
@@ -345,10 +339,8 @@ the $N_{\alpha \beta}$ being non-zero elements of $k$.
 For all $\alpha \in R$,
 
 $$
-\langle X_{\alpha}, X_{-\alpha}\rangle =-1\langle H_{\alpha}, H_{\alpha}\rangle
+\langle X_{\alpha}, X_{-\alpha}\rangle =-\frac{1}{2}\langle H_{\alpha}, H_{\alpha}\rangle
 $$
-
-2
 
 Indeed,
 
@@ -378,13 +370,7 @@ $$
 
 Let $\rho$ be the representation of $\mathfrak{s}\mathfrak{l}(2, k)$ on $\mathfrak{g}$ defined by $X_{\alpha}$. The element $e=X_{\beta+p\alpha}$ is primitive of weight $p+q$ (Prop. 4 (i)). Put
 
-$$
-(-1)^nn
-$$
-
-$e_n=\rho (X_-)e$ for $n\geq 0$.
-
-$n$!
+$e_n=(-n1)$! $^n\rho (X_-)^ne$ for $n\geq 0$.
 
 By Prop. 1 of §1,
 
@@ -421,39 +407,17 @@ $$
 Now, by Chap. VI, §1, no. 3, Prop. 10,
 
 $$
-\langle \alpha +\beta , \alpha +\beta \rangle q+ 1
-$$
-
-= (7)
-
-$$
-\langle \beta , \beta \rangle p
+\frac{\langle\alpha + \beta , \alpha + \beta\rangle}{\langle\beta , \beta\rangle}=\frac{q + 1}{p} \tag{7}
 $$
 
 so, by (3), (4), (6), (7),
 
 $$
-\langle H_{\beta}, H_{\beta}\rangle
+N_{\alpha ,\beta}N_{-\alpha ,-\beta}=-N_{\alpha ,\beta}N_{-\alpha ,\alpha+\beta}\frac{\langle H_{\beta}, H_{\beta}\rangle}{\langle H_{\alpha+\beta}, H_{\alpha+\beta}\rangle}
 $$
 
 $$
-N_{\alpha ,\beta}N_{-\alpha ,-\beta}=-N_{\alpha ,\beta}N_{-\alpha ,\alpha+\beta}
-$$
-
-$$
-\overline{\langle H_{\alpha+\beta}, H_{\alpha+\beta}\rangle}
-$$
-
-$$
-q+ 1
-$$
-
-$$
-=-N_{\alpha ,\beta}N_{-\alpha ,\alpha+\beta}= (q+ 1)^2
-$$
-
-$$
-p
+=-N_{\alpha ,\beta}N_{-\alpha ,\alpha+\beta}\frac{q + 1}{p}= (q+ 1)^2
 $$
 
 #### Definition 3 {#lie-viii-s2-def-3 .statement tag=00Z9}
