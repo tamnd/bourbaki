@@ -1,4 +1,4 @@
-version: 31
+version: 34
 terms:
     - en: ring
       vi: vành
@@ -242,11 +242,6 @@ terms:
       zh: 有限长度
       ja: 有限長
       fr: longueur finie
-    - en: reduced
-      vi: rút gọn
-      zh: 约化的
-      ja: 被約
-      fr: réduit
     - en: contain
       vi: chứa
       zh: 包含
@@ -302,11 +297,6 @@ terms:
       zh: 交换子
       ja: 交換子環
       fr: commutant
-    - en: defined
-      vi: được định nghĩa
-      zh: 定义的
-      ja: 定義された
-      fr: défini
     - en: subset
       vi: tập con
       zh: 子集
@@ -418,20 +408,16 @@ terms:
       ja: 部分空間
       fr: sous-espace
     - en: remark
-      vi: chú ý
+      vi: nhận xét
       zh: 注
       ja: 注意
       fr: remarque
+      note: The heading. The corpus writes Nhan xet 46 times over the heading and Chu y 8 times, and Chu y is what a translator writes for "note that" in prose, which is not what Remark is.
     - en: regular
       vi: chính quy
       zh: 正则
       ja: 正則
       fr: régulier
-    - en: long
-      vi: dài
-      zh: 长
-      ja: 長い
-      fr: long
     - en: number
       vi: số
       zh: 数
@@ -1149,10 +1135,11 @@ terms:
       ja: 可換代数
       fr: algèbre commutative
     - en: constant
-      vi: hằng số
+      vi: hằng
       zh: 常数
       ja: 定数
       fr: constante
+      note: Constant, not a constant number. Theory of Sets means a constant of a theory, cac hang cua, and Algebra means a constant mapping, anh xa hang. Hang so is the numeric sense and is a prefix of nothing the other two write.
     - en: generate
       vi: sinh
       zh: 生成
@@ -1864,11 +1851,6 @@ terms:
       zh: 生成子集
       ja: 生成部分集合
       fr: partie engendrante
-    - en: introduce
-      vi: giới thiệu
-      zh: 引入
-      ja: 導入する
-      fr: introduire
     - en: largest
       vi: lớn nhất
       zh: 最大的
@@ -2515,6 +2497,7 @@ terms:
       zh: 完备的
       ja: 完備
       fr: complet
+      note: The lattice and the uniform space. The corpus says complete lattice 15 times and complete ultrametric 7, and it also says "the proof is complete", which is not this word and is what the audit keeps reporting the row for.
     - en: free a-module
       vi: A-môđun tự do
       zh: 自由A-模
@@ -3877,10 +3860,6 @@ terms:
       vi: xuyến
       zh: 环面
       ja: トーラス
-    - en: relative
-      vi: tương đối
-      zh: 相对
-      ja: 相対的
     - en: highest
       vi: cao nhất
       zh: 最高
@@ -4399,10 +4378,6 @@ terms:
     - en: DIVIDED POWERS IN A BIGEBRA
       vi: lũy thừa chia trong một bigebra
       zh: 双代数中的分次幂
-    - en: division
-      vi: phép chia
-      zh: 除法
-      fr: division
     - en: dominant characters
       vi: các đặc trưng trội
       zh: 优势特征
@@ -4892,9 +4867,6 @@ terms:
     - en: semi-simple action
       vi: tác động nửa đơn
       zh: 半单作用
-    - en: simplicity
-      vi: tính đơn
-      zh: 单纯性
     - en: sl triplets
       vi: bộ ba sl
       zh: sl三元组
