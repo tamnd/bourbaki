@@ -50,7 +50,7 @@ subsections:
       pdf_page: 96
 statements: 37
 exercises: 11
-content_sha256: 8a4115cf22d57ea009a5fd57d02c81b51fc1ae5d0adb1e6d32b5c21f6d93004f
+content_sha256: 60ede35692adda5e352fb5ed4e83104684ee677c270bb26454076325d1e9eca4
 ---
 
 ## 3. CORRESPONDENCES
@@ -107,9 +107,7 @@ $$\Gamma = (\mathrm{G},\ \mathrm{A},\ \mathrm{B}),$$
 
 If $(x,\ y) \in \mathrm{G}$, we say that "$y$ corresponds to $x$ in the correspondence $\Gamma$". For each $x \in \mathrm{pr}_1 \mathrm{G}$ the correspondence $\Gamma$ is said to be *defined at* $x$, and $\mathrm{pr}_1 \mathrm{G}$ is called the *domain of* $\Gamma$; each $y \in \mathrm{pr}_2 \mathrm{G}$ is said to be a *value taken by* $\Gamma$, and $\mathrm{pr}_2 \mathrm{G}$ is called the *range of* $\Gamma$.
 
-If $R \{ x, y \}$ is a relation which has a graph $G$ (with respect to the letters $x$, $y$), and if $A$, $B$ are two sets such that $\mathrm{pr}_1 G \subset A$ and $\mathrm{pr}_2 G \subset B$, we
-
-say that $R$ is a *relation between an element of $A$ and an element of $B$* (with respect to the letters $x$, $y$). The correspondence $\Gamma = (G, A, B)$ is said to be the correspondence between $A$ and $B$ *defined by the* relation $R$ (with respect to $x$ and $y$).
+If $R \{ x, y \}$ is a relation which has a graph $G$ (with respect to the letters $x$, $y$), and if $A$, $B$ are two sets such that $\mathrm{pr}_1 G \subset A$ and $\mathrm{pr}_2 G \subset B$, we say that $R$ is a *relation between an element of $A$ and an element of $B$* (with respect to the letters $x$, $y$). The correspondence $\Gamma = (G, A, B)$ is said to be the correspondence between $A$ and $B$ *defined by the* relation $R$ (with respect to $x$ and $y$).
 
 Let G be a graph and let X be a set. The relation
 
@@ -231,9 +229,7 @@ $$(\exists y)((\exists x)(x \in A \text{ and } (x, y) \in G) \text{ and } (y, z)
 
 and is therefore equivalent to $(\exists y)(y \in G\langle A \rangle$ and $(y, z) \in G')$; hence the result.
 
-¶ If G and G′ are two graphs, we have $\mathrm{pr}_1(G' \circ G) = \overset{-1}{G}\langle \mathrm{pr}_1 G'\rangle$, and $\mathrm{pr}_2(G' \circ G) = G'\langle \mathrm{pr}_2 G\rangle$. For example, to prove the second of these
-
-relations it is enough to note that the relation $z \in \mathrm{pr}_2(\mathrm{G}' \circ \mathrm{G})$ is equivalent to $(\exists x)((x, z) \in \mathrm{G}' \circ \mathrm{G})$ and therefore to
+¶ If G and G′ are two graphs, we have $\mathrm{pr}_1(G' \circ G) = \overset{-1}{G}\langle \mathrm{pr}_1 G'\rangle$, and $\mathrm{pr}_2(G' \circ G) = G'\langle \mathrm{pr}_2 G\rangle$. For example, to prove the second of these relations it is enough to note that the relation $z \in \mathrm{pr}_2(\mathrm{G}' \circ \mathrm{G})$ is equivalent to $(\exists x)((x, z) \in \mathrm{G}' \circ \mathrm{G})$ and therefore to
 
 $$(\exists y)((\exists x)((x, y) \in \mathrm{G}) \quad \text{and} \quad (y, z) \in \mathrm{G}');$$
 
@@ -321,9 +317,7 @@ Two functions $f$ and $g$ are said to *agree* (or *coincide*) on a set E if E is
 
 ¶ Let $f=(F,A,B)$ and $g=(G,C,D)$ be two functions. To say that $F\subset G$ is to say that the domain A of $f$ is contained in the domain C of $g$ and that $g$ agrees with $f$ on A. If also $B\subset D$, then $g$ is said to be an *extension* of $f$ (more precisely, an extension of $f$ to C), and $g$ is said to *extend* $f$ (to C). When $g$ is called a *family of elements* of D, $f$ is said to be a *subfamily* of $g$.
 
-¶ Let $f$ be a function and let A be a subset of the domain of $f$. It is immediate that the relation “$x\in A$ and $y=f(x)$” has a graph G with respect to $x$ and $y$, that this graph is functional, and that A is its domain; the function whose graph is G, which has the same target as $f$,
-
-is called the *restriction* of $f$ to $A$, and is sometimes denoted by $f|A$. A function is an extension of any of its restrictions. If two functions $f$, $g$ have the same target and agree on a set $E$, then their restrictions to $E$ are equal.
+¶ Let $f$ be a function and let A be a subset of the domain of $f$. It is immediate that the relation “$x\in A$ and $y=f(x)$” has a graph G with respect to $x$ and $y$, that this graph is functional, and that A is its domain; the function whose graph is G, which has the same target as $f$, is called the *restriction* of $f$ to $A$, and is sometimes denoted by $f|A$. A function is an extension of any of its restrictions. If two functions $f$, $g$ have the same target and agree on a set $E$, then their restrictions to $E$ are equal.
 
 ### 6. DEFINITION OF A FUNCTION BY MEANS OF A TERM
 
@@ -542,9 +536,7 @@ $$\text{(a)} \qquad\qquad\qquad \text{(b)}$$
 
 $$h = h \circ (g \circ s) = f \circ s,$$
 
-which shows that $h$ is uniquely determined by $f$. Conversely, suppose that the relation $g(x) = g(y)$ implies $f(x) = f(y)$; let $s$ be a section
-
-of $g$, and let $h = f \circ s$; then for every $x \in E$ we have $g(s(g(x))) = g(x)$, hence $f(s(g(x))) = f(x)$, that is, $h(g(x)) = f(x)$ and therefore $f = h \circ g$.
+which shows that $h$ is uniquely determined by $f$. Conversely, suppose that the relation $g(x) = g(y)$ implies $f(x) = f(y)$; let $s$ be a section of $g$, and let $h = f \circ s$; then for every $x \in E$ we have $g(s(g(x))) = g(x)$, hence $f(s(g(x))) = f(x)$, that is, $h(g(x)) = f(x)$ and therefore $f = h \circ g$.
 
 (b) If $f = g \circ h$, then clearly $f(G) \subset f(F)$, and for every retraction $r$ of $g$ we have $h = (r \circ g) \circ h = r \circ f$, which shows that $h$ is uniquely determined by $f$. Conversely, suppose that $f(G) \subset f(F)$; let $r$ be a retraction of $g$, and put $h = r \circ f$; for every $x \in G$, there exists $y \in F$ such that $f(x) = g(y)$, so that
 

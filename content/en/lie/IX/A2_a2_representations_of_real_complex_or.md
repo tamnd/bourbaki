@@ -22,7 +22,7 @@ subsections:
       pdf_page: 394
 statements: 6
 exercises: 0
-content_sha256: af5e30a3cd289de60e5262bbbf1ae21395a2a746327f707cf137798ab9a218f3
+content_sha256: b1abe927440628b085d7a372f483b3d90c467463452fcb1aefa24f60c64818f0
 ---
 
 ## APPENDIX II
@@ -111,9 +111,7 @@ Denote by $dg$ the Haar measure of total mass 1 on G.
 
 #### Lemma 1 {#lie-ix-a2-lem-1 .statement tag=01IV}
 
-Let $W^G$ be the subspace of W consisting of the elements invariant under G. The endomorphism $\int_G\rho (g)dg$ of W is a projection with image $W^G$, compatible with the operations of G. In particular,
-
-dim $W^G=\int_G$ Tr $\rho (g)dg$.
+Let $W^G$ be the subspace of W consisting of the elements invariant under G. The endomorphism $\int_G\rho (g)dg$ of W is a projection with image $W^G$, compatible with the operations of G. In particular, dim $W^G=\int_G$ Tr $\rho (g)dg$.
 
 Put $p=\int_G\rho (g)dg$; for $h\in G$,
 

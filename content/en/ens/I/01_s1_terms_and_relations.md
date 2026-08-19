@@ -30,7 +30,7 @@ subsections:
       pdf_page: 28
 statements: 5
 exercises: 6
-content_sha256: bbd7a5190da4bab5fb7ec796a94619a8dd8c0628947bd1a6aa35eabe2daa40a0
+content_sha256: 0ee801130c4937b60178227e19ee4a8160108632ae38780ac29f1c6072b194de
 ---
 
 ## 1. TERMS AND RELATIONS
@@ -98,9 +98,7 @@ represents an assembly in which the letter $x$ (and the letter $d$) do not appea
 
 A *mathematical theory* (or simply a *theory*) contains rules which allow us to assert that certain assemblies of signs are *terms or relations* of the theory, and other rules which allow us to assert that certain assemblies are *theorems* of the theory.
 
-The description of these rules, which will appear in this chapter, *does not belong to formal mathematics*; the rules involve assemblies which are more or less undetermined, for example undetermined letters. To
-
-simplify the exposition it is convenient to denote such assemblies by less cumbersome symbols. We shall use, especially, combinations of signs (of a mathematical theory), bold-face italic letters (with or without indices or accents), and particular symbols, of which some examples will be given. *Since our object is only to avoid circumlocutions* (cf. note (*), § 3, no. 1, p. 28) we shall not enunciate strict general rules for the use of these symbols; the reader will be able to reconstruct without trouble the assembly in question, in each particular case. By abuse of language we shall often say that the symbols *are* assemblies, rather than that they *denote* assemblies : expressions such as “the assembly $A$” or “the letter $x$”, in the statements of the following rules, should therefore be replaced by “the assembly denoted by $A$” or “the letter denoted by $x$”.
+The description of these rules, which will appear in this chapter, *does not belong to formal mathematics*; the rules involve assemblies which are more or less undetermined, for example undetermined letters. To simplify the exposition it is convenient to denote such assemblies by less cumbersome symbols. We shall use, especially, combinations of signs (of a mathematical theory), bold-face italic letters (with or without indices or accents), and particular symbols, of which some examples will be given. *Since our object is only to avoid circumlocutions* (cf. note (*), § 3, no. 1, p. 28) we shall not enunciate strict general rules for the use of these symbols; the reader will be able to reconstruct without trouble the assembly in question, in each particular case. By abuse of language we shall often say that the symbols *are* assemblies, rather than that they *denote* assemblies : expressions such as “the assembly $A$” or “the letter $x$”, in the statements of the following rules, should therefore be replaced by “the assembly denoted by $A$” or “the letter denoted by $x$”.
 
 Let $A$ and $B$ be assemblies. We shall denote by $AB$ the assembly obtained by writing the assembly $B$ on the right of the assembly $A$. We shall denote by $\vee A\neg B$ the assembly obtained by writing, from left to right, the sign $\vee$, the assembly $A$, the sign $\neg$, the assembly $B$. And so on.
 
@@ -202,9 +200,7 @@ Hence the assembly given as an example in no. 1 is a term in the theory of sets.
 
 *Remark.* Intuitively, terms are assemblies which represent objects, and relations are assemblies which represent assertions which can be made about these objects. Condition (a) means that the letters represent objects. Condition (b) means that if $B$ is an assertion, then $\neg B$, called the negation of $B$, is an assertion (which is read : not $B$). Condition (c) means that if $B$ and $C$ are assertions, $\vee BC$, which is called the disjunction of $B$ and $C$, is an assertion (which is read : either $B$ or $C$); thus $\neg\to BC$ is an assertion (in words : “either not $B$, or $C$”, or “$B$ implies $C$”). Condition (d) means that if $B$ is an assertion and $x$ a letter, then $\tau_x(B)$ is an object. Let us consider the assertion $B$ as expressing a property of the object $X$; then, if there exists an object which has the property in question, $\tau_x(B)$ represents a distinguished object which has this property; if not, $\tau_x(B)$ represents an object about which nothing can be said. Finally, condition (e) means that if $A_1,A_2,\ldots,A_n$ are objects, and if $s$ is a relational (resp. substantific) sign of weight $n$, then $sA_1A_2\ldots A_n$ is an assertion about the objects $A_1,\ldots,A_n$ (resp. an object depending on $A_1,\ldots,A_n$).
 
-*Examples.* The symbols $\varnothing$, $\mathbf{N}$, “the real line”, “the $\Gamma$ function”, $f\circ g$ represent terms. The symbols $\pi=\sqrt{2}+\sqrt{3}$, $1\in2$, “every finite
-
-division ring is a field”, “the zeros of $\zeta(s)$ other than $-2$, $-4$, $-6$, ... lie on the line $\mathfrak{R}(s)=1/2$” represent relations. The symbol “3 and 4” represents neither a term nor a relation.
+*Examples.* The symbols $\varnothing$, $\mathbf{N}$, “the real line”, “the $\Gamma$ function”, $f\circ g$ represent terms. The symbols $\pi=\sqrt{2}+\sqrt{3}$, $1\in2$, “every finite division ring is a field”, “the zeros of $\zeta(s)$ other than $-2$, $-4$, $-6$, ... lie on the line $\mathfrak{R}(s)=1/2$” represent relations. The symbol “3 and 4” represents neither a term nor a relation.
 
 The initial sign of a relation is $\vee$, $\neg$, or a relational sign. The initial sign of a term is either $\tau$ or a substantific sign, provided that the term does not consist of a single letter. The latter assertion follows from the fact that a term is an assembly of the first species. If $A$ is a relation, then $A$ features in a formative construction, is not a letter, and does not begin with $\tau$, so that three cases are possible : (1) $A$ is preceded by an assembly $B$ such that $A$ is $\neg B$; (2) $A$ is preceded by two assemblies $B$ and $C$ such that $A$ is $\vee BC$; (3) $A$ is preceded by assemblies $A_1$, $A_2$, ... $A_n$ such that $A$ is $sA_1A_2 ... A_n$, $s$ being a relational sign.
 
@@ -244,9 +240,7 @@ Let $A_1,A_2,\ldots,A_n$ be a formative construction in which $A$ appears. We sh
 
 (b) $z$ is identical with $x$. Then $A_i$ does not contain $x$, therefore $A_i'$ is identical with $A_i$, and consequently is a term.
 
-(c) $z$ is identical with $y$. Then let $u$ be a letter, distinct from both $x$ and $y$, which does not appear in $A_1,A_2,\ldots,A_j$. By CF6, the sequence of assemblies $(u|y)A_1,\ldots,(u|y)A_j$, which we shall denote by $A_1'',\ldots,A_j''$, constitutes a formative construction in $\mathscr{T}$. Since $y$ no longer appears in this new construction, $(y|x)A_1'',\ldots,(y|x)A_j''$ is a formative construction by CF6, so that $(y|x)A_j''$ is a relation in $\mathscr{T}$; consequently $\tau_u((y|x)A_j'')$
-
-is a term of $\mathscr{T}$. But this term is identical with $(y|x)\tau_u(A_j'')$ by CS4, hence with $(y|x)\tau_y(A_j)$ by CS3, hence is identical with $A_i$.
+(c) $z$ is identical with $y$. Then let $u$ be a letter, distinct from both $x$ and $y$, which does not appear in $A_1,A_2,\ldots,A_j$. By CF6, the sequence of assemblies $(u|y)A_1,\ldots,(u|y)A_j$, which we shall denote by $A_1'',\ldots,A_j''$, constitutes a formative construction in $\mathscr{T}$. Since $y$ no longer appears in this new construction, $(y|x)A_1'',\ldots,(y|x)A_j''$ is a formative construction by CF6, so that $(y|x)A_j''$ is a relation in $\mathscr{T}$; consequently $\tau_u((y|x)A_j'')$ is a term of $\mathscr{T}$. But this term is identical with $(y|x)\tau_u(A_j'')$ by CS4, hence with $(y|x)\tau_y(A_j)$ by CS3, hence is identical with $A_i$.
 
 CF8. Let $A$ be a relation (resp. a term) in a theory $\mathscr{T}$, let $x$ be a letter and $T$ a term in $\mathscr{T}$. Then $(T|x)A$ is a relation (resp. a term) in $\mathscr{T}$.
 

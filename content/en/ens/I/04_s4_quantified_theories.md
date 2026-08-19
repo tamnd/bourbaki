@@ -30,7 +30,7 @@ subsections:
       pdf_page: 48
 statements: 0
 exercises: 8
-content_sha256: cb6abb308e39323481ab5b736963a71c1fee531b448b0921190b96a62cfa1033
+content_sha256: 925e2bcab4be745aed7f8144472e31fbff6ba56d97432fbf6fd6794efb7b351c
 ---
 
 ## 4. QUANTIFIED THEORIES
@@ -181,9 +181,7 @@ $$(\exists x)(\forall y)R \implies (\forall y)(\exists x)R$$
 
 *are theorems in $\mathscr{T}$.*
 
-It is sufficient to prove these theorems in $\mathscr{T}_0$, in which $x$ and $y$ are not constants. If $(\forall x)(\forall y)R$ is true, then $(\forall y)R$, and therefore $R$, hence $(\forall x)R$, hence $(\forall y)(\forall x)R$, are true. Likewise, if $(\forall y)(\forall x)R$ is true, then $(\forall x)(\forall y)R$ is true; and the first theorem follows. The second now follows by use of C29. Finally, since $(\forall y)R \Rightarrow R$ is a theorem
-
-in $\mathscr{T}_0$, so is $(\exists x)(\forall y)R \Rightarrow (\exists x)R$ by C31; if $(\exists x)(\forall y)R$ is true, then $(\exists x)R$ is true, and therefore so is $(\forall y)(\exists x)R$. Hence the third theorem.
+It is sufficient to prove these theorems in $\mathscr{T}_0$, in which $x$ and $y$ are not constants. If $(\forall x)(\forall y)R$ is true, then $(\forall y)R$, and therefore $R$, hence $(\forall x)R$, hence $(\forall y)(\forall x)R$, are true. Likewise, if $(\forall y)(\forall x)R$ is true, then $(\forall x)(\forall y)R$ is true; and the first theorem follows. The second now follows by use of C29. Finally, since $(\forall y)R \Rightarrow R$ is a theorem in $\mathscr{T}_0$, so is $(\exists x)(\forall y)R \Rightarrow (\exists x)R$ by C31; if $(\exists x)(\forall y)R$ is true, then $(\exists x)R$ is true, and therefore so is $(\forall y)(\exists x)R$. Hence the third theorem.
 
 On the other hand, if $(\forall y)(\exists x)R$ is a theorem in $\mathscr{T}$, we may not conclude that $(\exists x)(\forall y)R$ is a theorem in $\mathscr{T}$. Intuitively, to say that the relation $(\forall y)(\exists x)R$ is true means that, given any object $y$, there is an object $x$ such that $R$ is a true relation between the objects $x$ and $y$. But in general the object $x$ will depend on the choice of the object $y$, whereas to say that $(\exists x)(\forall y)R$ is true means that there is a *fixed* object $x$ such that $R$ is a true relation between this object and *any* object $y$.
 
@@ -209,9 +207,7 @@ $$(\exists_A x)R \quad \text{and} \quad (\forall_A x)R$$
 
 This follows directly from CF11 (no. 1), CF9 (§ 3, no. 4), and CF2 (§ 1, no. 4).
 
-Intuitively, consider $A$ and $R$ as expressing properties of $x$. It may happen that in a series of proofs, we are concerned only with objects satisfying $A$. To say that there exists an object satisfying $A$ such that $R$ means that there exists an object such that “$A$ and $R$”; whence the
-
-definition of $\exists_A$. To say that all objects which satisfy $A$ have the property $R$ means that there is no object satisfying $A$ such that "not $R$"; whence the definition of $\forall_A$. In practice, these signs are replaced by various phrases, depending on the nature of the relation $A$. \* For example : "for all integers $x$, $R$"; "there exists an element $x$ of the set E such that $R$"; and so on. \*
+Intuitively, consider $A$ and $R$ as expressing properties of $x$. It may happen that in a series of proofs, we are concerned only with objects satisfying $A$. To say that there exists an object satisfying $A$ such that $R$ means that there exists an object such that “$A$ and $R$”; whence the definition of $\exists_A$. To say that all objects which satisfy $A$ have the property $R$ means that there is no object satisfying $A$ such that "not $R$"; whence the definition of $\forall_A$. In practice, these signs are replaced by various phrases, depending on the nature of the relation $A$. \* For example : "for all integers $x$, $R$"; "there exists an element $x$ of the set E such that $R$"; and so on. \*
 
 C35. *Let $A$ and $R$ be relations in $\mathscr{T}$, and let $x$ be a letter. Then the relations $(\forall_A x)R$ and $(\forall x)(A \Rightarrow R)$ are equivalent in $\mathscr{T}$.*
 

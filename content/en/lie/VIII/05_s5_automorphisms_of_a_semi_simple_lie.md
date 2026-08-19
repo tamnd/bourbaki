@@ -37,7 +37,7 @@ errata:
     - says: Chap. VII, §13, no. 1
       read: Chap. VIII, §13, no. 1
       why: Chapter VII has five sections and no section 13. The sentence says that the groups Aut$_0(\mathfrak{g})$ and Aut$_e(\mathfrak{g})$ can be distinct, and the place that shows it is no. 1 of section 13 of this chapter, on the algebras of type $A_l$, which computes Aut$_0(\mathfrak{g}) =\varphi (\mathbf{G}\mathbf{L}(l+ 1, k))$, identifies the quotient Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$ with $\mathbf{P}\mathbf{G}\mathbf{L}(l+ 1, k)/\mathbf{P}\mathbf{S}\mathbf{L}(l+ 1, k)$, and over the reals finds it isomorphic to $\mathbf{Z}/2\mathbf{Z}$ when $l+1$ is even. Chapter VII names neither group anywhere.
-content_sha256: b133f8ff3b2aa281515dc9b6901dfc5eeb5966a738193ad98daa0fe7b5d371a8
+content_sha256: a1d0b9433cf5b198abcf0509ba2e9f5eb8b68353a4b2fdd1097f389a9f20c040
 ---
 
 ## § 5. AUTOMORPHISMS OF A SEMI-SIMPLE LIE ALGEBRA
@@ -290,9 +290,7 @@ Prop. 6 shows that the canonical homomorphism
 
 $\iota : T_Q/$Im(T$_P$)$\rightarrow$ Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$,
 
-induced by the diagram in no. 2, is surjective. In particular, Aut$_e(\mathfrak{g})$ contains the derived group of Aut$_0(\mathfrak{g})$; we shall see (§11, no. 2, Prop. 3) that they are actually equal. Moreover, it can be shown that $\iota$ is injective, in other words that
-
-$f(T_Q)\cap$ Aut$_e(\mathfrak{g}) =f'(T_P)$,
+induced by the diagram in no. 2, is surjective. In particular, Aut$_e(\mathfrak{g})$ contains the derived group of Aut$_0(\mathfrak{g})$; we shall see (§11, no. 2, Prop. 3) that they are actually equal. Moreover, it can be shown that $\iota$ is injective, in other words that $f(T_Q)\cap$ Aut$_e(\mathfrak{g}) =f'(T_P)$,
 
 (cf. §7, Exerc. $26d$)$)$.
 

@@ -46,7 +46,7 @@ subsections:
       pdf_page: 185
 statements: 30
 exercises: 18
-content_sha256: 539828b0c422fed3a1cc49cb93eb6b9243ff661d733b947ed2c4b6d11d68b451
+content_sha256: 227995e3e40c42d7aac3c7fee7b0de8741d20ea57828a02e3dc9788ffdb8e502
 ---
 
 ## 5. PROPERTIES OF INTEGERS
@@ -169,9 +169,7 @@ Clearly the relations $0 \leqslant x \leqslant b$ imply $a \leqslant a + x \leqs
 
 *If $a$ and $b$ are integers such that $a \leqslant b$, then the interval $[a, b]$ is a finite set whose number of elements is $b - a + 1$.*
 
-By Proposition 4 we may restrict ouselves to the case where $a = 0$. The proof is by induction on $b$. If $b = 0$, the result is clear. The relation $0 \leqslant x \leqslant b + 1$ is equivalent to "$0 \leqslant x < b + 1$ or $x = b + 1$", and the relation $0 \leqslant x < b + 1$ is equivalent to $0 \leqslant x \leqslant b$ (§ 4, no. 2, Proposition 2); in other words, the interval $[0, b + 1]$ is the union of $[0, b]$
-
-and $\{b + 1\}$, and these two sets are disjoint. By the inductive hypothesis the number of elements of $[0, b + 1]$ is equal to $(b + 1) + 1$, and the Proposition is proved.
+By Proposition 4 we may restrict ouselves to the case where $a = 0$. The proof is by induction on $b$. If $b = 0$, the result is clear. The relation $0 \leqslant x \leqslant b + 1$ is equivalent to "$0 \leqslant x < b + 1$ or $x = b + 1$", and the relation $0 \leqslant x < b + 1$ is equivalent to $0 \leqslant x \leqslant b$ (§ 4, no. 2, Proposition 2); in other words, the interval $[0, b + 1]$ is the union of $[0, b]$ and $\{b + 1\}$, and these two sets are disjoint. By the inductive hypothesis the number of elements of $[0, b + 1]$ is equal to $(b + 1) + 1$, and the Proposition is proved.
 
 #### Proposition 6 {#ens-iii-s5-prop-6 .statement tag=03M2}
 
@@ -263,9 +261,7 @@ since $r_k\leq b-1$ (no. 2, Proposition 3). If, on the other hand, $\varphi(r)=\
 
 $$f_{k+1}(r)\leq b(b^k-1)+b-1=b^{k+1}-1.$$
 
-It follows that $f_{k+1}$ is an isomorphism of $E_{k+1}$ onto a subset of the interval $[0,b^{k+1}-1]$; but this interval and $E_{k+1}$ have the same number of
-
-elements, namely $b^{k+1}$ (no. 3, Proposition 5); therefore $f_{k+1}$ is a bijection (§ 4, no. 2, Proposition 2, Corollary 4), and the proof is complete.
+It follows that $f_{k+1}$ is an isomorphism of $E_{k+1}$ onto a subset of the interval $[0,b^{k+1}-1]$; but this interval and $E_{k+1}$ have the same number of elements, namely $b^{k+1}$ (no. 3, Proposition 5); therefore $f_{k+1}$ is a bijection (§ 4, no. 2, Proposition 2, Corollary 4), and the proof is complete.
 ¶ We note now that for every integer $a$ we have $a < b^a$. This is proved by induction on $a$; the result is evident for $a = 0$, and the hypothesis $a < b^a$ implies $a + 1 \leqslant b^a < b \cdot b^a = b^{a+1}$ (no. 2, Proposition 3 and § 4, no. 2, Proposition 2). There is therefore a least integer $k$ such that $a < b^k$, and Proposition 8 then shows that there exists a unique finite sequence $(r_h)_{0 \leqslant h \leqslant k-1}$ such that $0 \leqslant r_h \leqslant b - 1$ for $0 \leqslant h \leqslant k - 1$ and
 $$a = \sum_{h=0}^{k-1} r_h b^{k-h-1}.$$
 Furthermore, we must have $r_0 > 0$, for otherwise $a < b^{k-1}$ by virtue of Proposition 8. The expression
@@ -280,9 +276,7 @@ For example, if C, Q, F, D are digits, the numerical symbols CQ, CQF, CQFD are r
 
 It follows from Proposition 8 that the numerical symbol associated with an integer $a$ is unique, and that if $a < b^k$ it contains at most $k$ digits. Notice that the numerical symbol associated with the integer $b^k$ consists of the digit 1 followed by $k$ digits 0.
 
-This system of representation of integers by numerical symbols is called the *system of numeration to base $b$*. In practical numerical computations, the following systems are used : (*a*) the system to base 2, or the *dyadic system*, in which the digits are 0 and 1; (*b*) the *decimal system*, in which the
-
-digits are $0$, $1$, $2$, $3$, $4$, $5 = 4 + 1$, $6 = 5 + 1$, $7 = 6 + 1$, $8 = 7 + 1$, $9 = 8 + 1$, and in which $b$ is the integer $9 + 1$ (whose numerical symbol in this system is therefore 10).
+This system of representation of integers by numerical symbols is called the *system of numeration to base $b$*. In practical numerical computations, the following systems are used : (*a*) the system to base 2, or the *dyadic system*, in which the digits are 0 and 1; (*b*) the *decimal system*, in which the digits are $0$, $1$, $2$, $3$, $4$, $5 = 4 + 1$, $6 = 5 + 1$, $7 = 6 + 1$, $8 = 7 + 1$, $9 = 8 + 1$, and in which $b$ is the integer $9 + 1$ (whose numerical symbol in this system is therefore 10).
 
 Since the Middle Ages the decimal system has been traditionally used in numerical calculations, and we shall use it in this series whenever we have occasion to write down an integer explicitly. We refer the reader to the part of this series devoted to numerical calculation for an account of methods for obtaining the numerical symbols associated with the sum, difference, product, and integral part of the quotient of two integers given by their numerical symbols.
 

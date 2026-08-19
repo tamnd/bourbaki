@@ -29,7 +29,7 @@ subsections:
       pdf_page: 165
 statements: 12
 exercises: 16
-content_sha256: f92e31adabd09e50ba9a1e86faebace09716fdabfa21192ff3e1bffeb0544f74
+content_sha256: 6f8271dc9e053ff6f8db999207502272c8b3d682e9b44d1fa439608ca494b092
 ---
 
 ## § 9. THE FORMULA OF HERMANN WEYL
@@ -362,9 +362,7 @@ $$
 l_{\nu}=\sum_{w,w'\in W}\varepsilon (ww')\mathfrak{P}(w(\lambda +\rho ) +w'(\mu+\rho )-(\nu + 2\rho )) \tag{2}
 $$
 
-Put $c_1=$ ch(E) $=\sum_{\sigma\in P}m_{\sigma}e^{\sigma},c_2=$ ch(F), and $d= J(e^{\rho})$, where J is defined as in no. 2. We have
-
-$\sum_{\xi\in P_{++}}l_{\xi}$ch[$\xi ] =$ ch(E $\otimes F$) $=c_1c_2$
+Put $c_1=$ ch(E) $=\sum_{\sigma\in P}m_{\sigma}e^{\sigma},c_2=$ ch(F), and $d= J(e^{\rho})$, where J is defined as in no. 2. We have $\sum_{\xi\in P_{++}}l_{\xi}$ch[$\xi ] =$ ch(E $\otimes F$) $=c_1c_2$
 
 so, after multiplying by $d$ and using Th. 1,
 

@@ -46,7 +46,7 @@ errata:
     - says: no. 2, Proposition 2, Corollary 2
       read: no. 2, Proposition 1, Corollary 2
       why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
-content_sha256: 3203bbc4a92310057bd8d756d11de83e7fba92da7a7a4944a0823379e9b3ec20
+content_sha256: bb7a905be6e261263bf397713f2e02a786db093bb92d5bee9bb0125307d41884
 ---
 
 ## 7. INVERSE LIMITS AND DIRECT LIMITS
@@ -81,9 +81,7 @@ Suppose that the order relation on $I$ is the relation of *equality*. Then the o
 
 #### Example 2 {#ens-iii-s7-n1-exa-2 .statement tag=03TG}
 
-Suppose that $I$ is *right directed*, that $E_\alpha$ is the same set $F$ for all $\alpha\in I$, and that $f_{\alpha\beta}$ is the identity mapping of $F$ onto itself whenever $\alpha\leq\beta$. Then $E=\underset{\longleftarrow}{\lim}\,E_\alpha$ is the *diagonal* $\Delta$ of the product $\prod_{\alpha\in I}E_\alpha=F^I$. Indeed, it is clear that each $x\in\Delta$ satisfies the relations (1). Conversely, let $x$ be an element of $E$, and let us show that for each pair of indices
-
-$(\alpha, \beta)$ we have $\mathrm{pr}_\alpha x = \mathrm{pr}_\beta x$. By hypothesis, there exists an index $\gamma \in I$ such that $\alpha \leqslant \gamma$ and $\beta \leqslant \gamma$; hence by (1) we have $\mathrm{pr}_\alpha x = f_{\alpha\gamma}(\mathrm{pr}_\gamma x) = \mathrm{pr}_\gamma x$, and similarly $\mathrm{pr}_\beta x = \mathrm{pr}_\gamma x$, which proves our assertion.
+Suppose that $I$ is *right directed*, that $E_\alpha$ is the same set $F$ for all $\alpha\in I$, and that $f_{\alpha\beta}$ is the identity mapping of $F$ onto itself whenever $\alpha\leq\beta$. Then $E=\underset{\longleftarrow}{\lim}\,E_\alpha$ is the *diagonal* $\Delta$ of the product $\prod_{\alpha\in I}E_\alpha=F^I$. Indeed, it is clear that each $x\in\Delta$ satisfies the relations (1). Conversely, let $x$ be an element of $E$, and let us show that for each pair of indices $(\alpha, \beta)$ we have $\mathrm{pr}_\alpha x = \mathrm{pr}_\beta x$. By hypothesis, there exists an index $\gamma \in I$ such that $\alpha \leqslant \gamma$ and $\beta \leqslant \gamma$; hence by (1) we have $\mathrm{pr}_\alpha x = f_{\alpha\gamma}(\mathrm{pr}_\gamma x) = \mathrm{pr}_\gamma x$, and similarly $\mathrm{pr}_\beta x = \mathrm{pr}_\gamma x$, which proves our assertion.
 
 It should be noted that $E = \varprojlim E_\alpha$ can be *empty* even when all the $E_\alpha$ are non-empty and all the mappings $f_{\alpha\beta}$ are *surjective* (Exercise 4; see no. 4).
 
@@ -145,9 +143,7 @@ Put $v_\alpha = u_\alpha \circ f_\alpha$. If $\alpha \leqslant \beta$, we have, 
 
 $$g_{\alpha\beta} \circ v_\beta = g_{\alpha\beta} \circ u_\beta \circ f_\beta = u_\alpha \circ f_{\alpha\beta} \circ f_\beta = u_\alpha \circ f_\alpha = v_\alpha,$$
 
-and we may therefore apply Proposition 1 to the mappings $v_\alpha$; hence the
-
-existence and uniqueness of a mapping $u:E\to F$ such that
+and we may therefore apply Proposition 1 to the mappings $v_\alpha$; hence the existence and uniqueness of a mapping $u:E\to F$ such that
 
 $$
 g_\alpha\circ u=v_\alpha=u_\alpha\circ f_\alpha
@@ -304,9 +300,7 @@ In this subsection we shall give the two most frequently used sufficient conditi
 
 *Let* $(\mathrm{E}_\alpha, f_{\alpha\beta})$ *be an inverse system of sets relative to a* directed *set* I *which has a* countable *cofinal subset, and suppose furthermore that the* $f_{\alpha\beta}$ *are* surjective. *Then, if* $\mathrm{E} = \varprojlim \mathrm{E}_\alpha$, *the canonical mapping* $f_\alpha : \mathrm{E} \to \mathrm{E}_\alpha$ *is surjective for each* $\alpha \in \mathrm{I}$ *(and, a fortiori,* E *is not empty provided that none of the* $\mathrm{E}_\alpha$ *is empty).*
 
-Let $(\alpha_n)$ be a sequence of elements of I which form a cofinal subset of I. Since I is directed, we can define a sequence $(\beta_n)$ of elements of I inductively by the conditions $\beta_0 = \alpha_0, \beta_n \geqslant \beta_i$ for $i < n$ and $\beta_n \geqslant \alpha_n$. Clearly the sequence $(\beta_n)$ is increasing and forms a cofinal subset of I. In view of Proposition 1 of no. 1 and the relations $f_\alpha = f_{\alpha\beta_n} \circ f_{\beta_n}$ for
-
-$\alpha \leqslant \beta_n$, we need only prove the Proposition for the case $\mathrm{I} = \mathbf{N}$. Moreover, it is clear that it suffices to prove that $f_0$ is surjective. Let $x_0 \in \mathrm{E}_0$. Define $x_n \in \mathrm{E}_n$ (for $n \geqslant 1$) inductively to be an element of the set $\overset{-1}{f}_{n-1,n}(x_{n-1})$, which is possible because the latter set is non-empty by hypothesis. We then show by induction on $n - m$ that $x_m = f_{mn}(x_n)$ for $m \leqslant n$, and it follows that $x = (x_n)$ belongs to E.
+Let $(\alpha_n)$ be a sequence of elements of I which form a cofinal subset of I. Since I is directed, we can define a sequence $(\beta_n)$ of elements of I inductively by the conditions $\beta_0 = \alpha_0, \beta_n \geqslant \beta_i$ for $i < n$ and $\beta_n \geqslant \alpha_n$. Clearly the sequence $(\beta_n)$ is increasing and forms a cofinal subset of I. In view of Proposition 1 of no. 1 and the relations $f_\alpha = f_{\alpha\beta_n} \circ f_{\beta_n}$ for $\alpha \leqslant \beta_n$, we need only prove the Proposition for the case $\mathrm{I} = \mathbf{N}$. Moreover, it is clear that it suffices to prove that $f_0$ is surjective. Let $x_0 \in \mathrm{E}_0$. Define $x_n \in \mathrm{E}_n$ (for $n \geqslant 1$) inductively to be an element of the set $\overset{-1}{f}_{n-1,n}(x_{n-1})$, which is possible because the latter set is non-empty by hypothesis. We then show by induction on $n - m$ that $x_m = f_{mn}(x_n)$ for $m \leqslant n$, and it follows that $x = (x_n)$ belongs to E.
 
 The second criterion concerns inverse systems $(\mathrm{E}_\alpha, f_{\alpha\beta})$ relative to an index set I such that for each $\alpha \in \mathrm{I}$ we are given a set $\mathfrak{S}_\alpha$ of subsets of $\mathrm{E}_\alpha$ which satisfy the following conditions :
 
@@ -364,9 +358,7 @@ we have
 
 $$f_{\beta\gamma}(\overset{-1}{f}_{\alpha\gamma}(x_\alpha)) \subset \overset{-1}{f}_{\alpha\beta}(x_\alpha),$$
 
-and since $f_{\beta\gamma}(A_\gamma) \subset A_\beta$, we again have $f_{\beta\gamma}(B_\gamma) \subset B_\beta$, so that the family $\mathfrak{B}$ satisfies (21). Since $A_\alpha = f_{\alpha\beta}(A_\beta)$ whenever $\alpha \leqslant \beta$ by part (2) of the
-
-proof, it is clear that $\mathrm{B}_\beta \neq \emptyset$ for all $\beta \in \mathrm{I}$. Finally, by virtue of (i) and (iii), we have $\mathrm{B}_\beta \in \mathfrak{S}_\beta$ for all $\beta \in \mathrm{I}$, and hence $\mathfrak{B} \in \Sigma$. Since $\mathrm{B}_\beta \subset \mathrm{A}_\beta$ for all $\beta \in \mathrm{I}$, the maximality of $\mathfrak{A}$ implies that $\mathrm{B}_\beta = \mathrm{A}_\beta$ for all $\beta$, and in particular $\mathrm{A}_\alpha = \{x_\alpha\}$.
+and since $f_{\beta\gamma}(A_\gamma) \subset A_\beta$, we again have $f_{\beta\gamma}(B_\gamma) \subset B_\beta$, so that the family $\mathfrak{B}$ satisfies (21). Since $A_\alpha = f_{\alpha\beta}(A_\beta)$ whenever $\alpha \leqslant \beta$ by part (2) of the proof, it is clear that $\mathrm{B}_\beta \neq \emptyset$ for all $\beta \in \mathrm{I}$. Finally, by virtue of (i) and (iii), we have $\mathrm{B}_\beta \in \mathfrak{S}_\beta$ for all $\beta \in \mathrm{I}$, and hence $\mathfrak{B} \in \Sigma$. Since $\mathrm{B}_\beta \subset \mathrm{A}_\beta$ for all $\beta \in \mathrm{I}$, the maximality of $\mathfrak{A}$ implies that $\mathrm{B}_\beta = \mathrm{A}_\beta$ for all $\beta$, and in particular $\mathrm{A}_\alpha = \{x_\alpha\}$.
 
 (4) We are now in a position to prove Theorem 1. Let us start with (a). We have
 
@@ -564,9 +556,7 @@ With the notation of Proposition 7, let $\mathrm{M}_\alpha$ be a subset of $\mat
 
 $$u_\beta(f_{\beta\alpha}(x_\alpha)) = f'_{\beta\alpha}(u_\alpha(x_\alpha) = f'_{\beta\alpha}(a'_\alpha) = a'_\beta;$$
 
-hence $f_{\beta\alpha}(x_\alpha) \in \mathrm{N}_\beta$, and the $\mathrm{N}_\alpha$ therefore form a direct system of subsets of the $\mathrm{E}_\alpha$. With the notation of the proof of Proposition 7, consider an element $x \in \varinjlim \mathrm{N}_\alpha$. There exists $\alpha \in \mathrm{I}$ and $x_\alpha \in \mathrm{N}_\alpha$ such that $x = f_\alpha(x_\alpha)$, so that $u(x) = u(f_\alpha(x_\alpha)) = f'_\alpha(u_\alpha(x_\alpha)) = f'_\alpha(a'_\alpha) = a'$. Conversely, if
-
-$x \in \overset{-1}{u}(a')$ and if $x = f_\alpha(x_\alpha)$ for some $\alpha \in \mathrm{I}$ and some $x_\alpha \in \mathrm{E}_\alpha$, then we have $a' = u(f_\alpha(x_\alpha)) = f'_\alpha(u_\alpha(x_\alpha)) = f'_\alpha(a'_\alpha)$. Hence (no. 5, Lemma 1) there exists $\beta \geqslant \alpha$ such that $f'_{\beta\alpha}(u'_\alpha(x_\alpha)) = f'_{\beta\alpha}(a'_\alpha) = a'_\beta$; i.e., $u_\alpha(f_{\beta\alpha}(x_\alpha)) = a'_\beta$, and therefore $f_{\beta\alpha}(x_\alpha) \in \mathrm{N}_\beta$. Since $x = f_\beta(f_{\beta\alpha}(x_\alpha))$, it follows that $x \in \varinjlim \mathrm{N}_\alpha$.
+hence $f_{\beta\alpha}(x_\alpha) \in \mathrm{N}_\beta$, and the $\mathrm{N}_\alpha$ therefore form a direct system of subsets of the $\mathrm{E}_\alpha$. With the notation of the proof of Proposition 7, consider an element $x \in \varinjlim \mathrm{N}_\alpha$. There exists $\alpha \in \mathrm{I}$ and $x_\alpha \in \mathrm{N}_\alpha$ such that $x = f_\alpha(x_\alpha)$, so that $u(x) = u(f_\alpha(x_\alpha)) = f'_\alpha(u_\alpha(x_\alpha)) = f'_\alpha(a'_\alpha) = a'$. Conversely, if $x \in \overset{-1}{u}(a')$ and if $x = f_\alpha(x_\alpha)$ for some $\alpha \in \mathrm{I}$ and some $x_\alpha \in \mathrm{E}_\alpha$, then we have $a' = u(f_\alpha(x_\alpha)) = f'_\alpha(u_\alpha(x_\alpha)) = f'_\alpha(a'_\alpha)$. Hence (no. 5, Lemma 1) there exists $\beta \geqslant \alpha$ such that $f'_{\beta\alpha}(u'_\alpha(x_\alpha)) = f'_{\beta\alpha}(a'_\alpha) = a'_\beta$; i.e., $u_\alpha(f_{\beta\alpha}(x_\alpha)) = a'_\beta$, and therefore $f_{\beta\alpha}(x_\alpha) \in \mathrm{N}_\beta$. Since $x = f_\beta(f_{\beta\alpha}(x_\alpha))$, it follows that $x \in \varinjlim \mathrm{N}_\alpha$.
 
 #### Remark {#ens-iii-s7-n6-rem-2 .statement tag=03OO}
 
@@ -610,9 +600,7 @@ $$(31) \qquad h^{\nu\lambda} = h^{\nu\mu} \circ h^{\mu\lambda}$$
 
 $$\begin{aligned} u^\mu_\beta \circ f^{\mu\lambda}_{\beta\alpha} &= h^\mu \circ g^\mu_\beta \circ f^{\mu\lambda}_{\beta\alpha} = h^\mu \circ g^\mu_\beta \circ f^{\mu\mu}_{\beta\alpha} \circ f^{\mu\lambda}_{\alpha\alpha} = h^\mu \circ g^\mu_\alpha \circ f^{\mu\lambda}_{\alpha\alpha} \\ &= h^\mu \circ h^{\mu\lambda} \circ g^\lambda_\alpha = h^\lambda \circ g^\lambda_\alpha = u^\lambda_\alpha \end{aligned}$$
 
-from (29) and the definition of the $h^{\mu\lambda}$. Hence the $u^\lambda_\alpha$ form a direct system of mappings relative to $I \times L$. Put $u = \varinjlim_{\alpha,\lambda} u^\lambda_\alpha : E \to F$. We shall show that $u$ is bijective by applying the criteria of no. 6, Proposition 6. In the first place, F is the union of the sets $h^\lambda(F^\lambda)$, and each $F^\lambda$ is the
-
-union of the sets $g_\alpha^\lambda(\mathrm{E}_\alpha^\lambda)$; hence F is the union of the sets
+from (29) and the definition of the $h^{\mu\lambda}$. Hence the $u^\lambda_\alpha$ form a direct system of mappings relative to $I \times L$. Put $u = \varinjlim_{\alpha,\lambda} u^\lambda_\alpha : E \to F$. We shall show that $u$ is bijective by applying the criteria of no. 6, Proposition 6. In the first place, F is the union of the sets $h^\lambda(F^\lambda)$, and each $F^\lambda$ is the union of the sets $g_\alpha^\lambda(\mathrm{E}_\alpha^\lambda)$; hence F is the union of the sets
 
 $$h^\lambda(g_\alpha^\lambda(\mathrm{E}_\alpha^\lambda)) = u_\alpha^\lambda(\mathrm{E}_\alpha^\lambda).$$
 

@@ -38,7 +38,7 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: 845dbc1c55782e844864e013a4f025af3a86e8adc2f2ab053394718e2cac3395
+content_sha256: 99e23b3436ca4b6d843107f58900119e0912e966f7d9b5f9e4cda130442d7adf
 ---
 
 ## 2. WELL-ORDERED SETS
@@ -75,9 +75,7 @@ If $\Gamma$ is a well-ordering on E, the ordering opposite to $\Gamma$ is a well
 
 #### Example 5 {#ens-iii-s2-n1-exa-5 .statement tag=03T1}
 
-Let E be a well-ordered set. The set $\mathrm{E}_1$ obtained by adjoining to E a greatest element $b$ (§ 1, no. 7) is well-ordered, for if H is any
-
-non-empty subset of $\mathrm{E}_1$ other than $\{b\}$, the least element of $\mathrm{H} \cap \mathrm{E}$ is also the least element of H.
+Let E be a well-ordered set. The set $\mathrm{E}_1$ obtained by adjoining to E a greatest element $b$ (§ 1, no. 7) is well-ordered, for if H is any non-empty subset of $\mathrm{E}_1$ other than $\{b\}$, the least element of $\mathrm{H} \cap \mathrm{E}$ is also the least element of H.
 
 #### Remark {#ens-iii-s2-n1-rem-1 .statement tag=03JZ}
 
@@ -109,9 +107,7 @@ It is clear that if $x \in \mathrm{E}$ and $y \in \mathrm{E}$, the relation $x \
 
 #### Proposition 3 {#ens-iii-s2-prop-3 .statement tag=03QQ}
 
-*Let* $(\mathrm{X}_\iota)_{\iota \in \mathbf{I}}$ *be a family of well-ordered sets such that for each pair of indices* $(\iota, \varkappa)$ *one of the sets* $\mathrm{X}_\iota$, $\mathrm{X}_\varkappa$ *is a segment of the other. Then there exists a unique ordering on the set* $\mathrm{E} = \bigcup_{\iota \in \mathbf{I}} \mathrm{X}_\iota$ *which induces the given ordering on each of the* $\mathrm{X}_\iota$. *Endowed with this ordering,* E *is a well-ordered set. Every*
-
-*segment of* $\mathrm{X}_\iota$ *is a segment of* E; *for each* $x \in \mathrm{X}_\iota$, *the segment with endpoint* $x$ *in* $\mathrm{X}_\iota$ *is equal to the segment with endpoint* $x$ *in* E; *and each segment of* E *is either* E *itself or a segment of one of the* $\mathrm{X}_\iota$.
+*Let* $(\mathrm{X}_\iota)_{\iota \in \mathbf{I}}$ *be a family of well-ordered sets such that for each pair of indices* $(\iota, \varkappa)$ *one of the sets* $\mathrm{X}_\iota$, $\mathrm{X}_\varkappa$ *is a segment of the other. Then there exists a unique ordering on the set* $\mathrm{E} = \bigcup_{\iota \in \mathbf{I}} \mathrm{X}_\iota$ *which induces the given ordering on each of the* $\mathrm{X}_\iota$. *Endowed with this ordering,* E *is a well-ordered set. Every* *segment of* $\mathrm{X}_\iota$ *is a segment of* E; *for each* $x \in \mathrm{X}_\iota$, *the segment with endpoint* $x$ *in* $\mathrm{X}_\iota$ *is equal to the segment with endpoint* $x$ *in* E; *and each segment of* E *is either* E *itself or a segment of one of the* $\mathrm{X}_\iota$.
 
 The first assertion is a consequence of the following general lemma :
 
@@ -207,9 +203,7 @@ Note that if $\emptyset \notin \mathfrak{S}$ (and in particular if $\mathfrak{S}
 
 *Every set* E *can be well-ordered.*
 
-Let $\mathfrak{S} = \mathfrak{P}(\mathrm{E}) - \{\mathrm{E}\}$ be the set of all subsets of E other than E itself. For each $\mathrm{X} \in \mathfrak{S}$ let $p(\mathrm{X}) = \tau_x \ (x \in \mathrm{E} - \mathrm{X})$; since the relation $\mathrm{X} \in \mathfrak{S}$
-
-implies $(\exists x)(x \in \mathrm{E} - \mathrm{X})$, we have $p(\mathrm{X}) \in \mathrm{E} - \mathrm{X}$ (Chapter I, § 4, no. 1) and therefore $p(\mathrm{X}) \notin \mathrm{X}$. We may therefore apply Lemma 3, and consequently there exists a well-ordering on a subset M of E such that $\mathrm{M} \notin \mathfrak{S}$; but the only subset of E which does not belong to $\mathfrak{S}$ is E itself, and the theorem is proved.
+Let $\mathfrak{S} = \mathfrak{P}(\mathrm{E}) - \{\mathrm{E}\}$ be the set of all subsets of E other than E itself. For each $\mathrm{X} \in \mathfrak{S}$ let $p(\mathrm{X}) = \tau_x \ (x \in \mathrm{E} - \mathrm{X})$; since the relation $\mathrm{X} \in \mathfrak{S}$ implies $(\exists x)(x \in \mathrm{E} - \mathrm{X})$, we have $p(\mathrm{X}) \in \mathrm{E} - \mathrm{X}$ (Chapter I, § 4, no. 1) and therefore $p(\mathrm{X}) \notin \mathrm{X}$. We may therefore apply Lemma 3, and consequently there exists a well-ordering on a subset M of E such that $\mathrm{M} \notin \mathfrak{S}$; but the only subset of E which does not belong to $\mathfrak{S}$ is E itself, and the theorem is proved.
 
 ### 4. INDUCTIVE SETS
 
@@ -241,9 +235,7 @@ This theorem is a particular case of the following result :
 
 *Let* E *be an ordered set in which every well-ordered subset is bounded above; then* E *has a maximal element.*
 
-We shall say that an element $v \in \mathrm{E}$ is a *strict upper bound* of a subset X of E if $v$ is an upper bound of X and $v \notin \mathrm{X}$. Let $\mathfrak{S}$ be the set of subsets of E which have a strict upper bound in E, and for each $\mathrm{S} \in \mathfrak{S}$ put $p(\mathrm{S}) = \tau_v(v$ is a strict upper bound of S$)$; then $p(\mathrm{S})$ is a strict upper bound of S. Applying Lemma 3 of no. 3 to $\mathfrak{S}$ and $p$, we see that there exists a subset M of E and a well-ordering $\Gamma$ on M which satisfies the
-
-conditions of Lemma 3; in particular, M has no strict upper bound in E. Furthermore, the ordering $\Gamma$ is identical with that induced on M by the ordering on E. For in M the relation “$y\in\Gamma\langle x\rangle$ and $x\ne y$” is equivalent to $x\in S_y$; and since $p(S_y)=y$ is an upper bound of $S_y$ (with respect to the ordering on E), it implies $x<y$ in E. But this means that the injection of M into E is a strictly increasing mapping (M being endowed with the ordering $\Gamma$); and since M is totally ordered, it follows that the relations $y\in\Gamma\langle x\rangle$ and $x\leq y$ are equivalent in M (§ 1, no. 12, Proposition 11). This being so, there exists by hypothesis an upper bound $m$ of M in E; but since M has no strict upper bound, it follows that $m$ is a maximal element of E.
+We shall say that an element $v \in \mathrm{E}$ is a *strict upper bound* of a subset X of E if $v$ is an upper bound of X and $v \notin \mathrm{X}$. Let $\mathfrak{S}$ be the set of subsets of E which have a strict upper bound in E, and for each $\mathrm{S} \in \mathfrak{S}$ put $p(\mathrm{S}) = \tau_v(v$ is a strict upper bound of S$)$; then $p(\mathrm{S})$ is a strict upper bound of S. Applying Lemma 3 of no. 3 to $\mathfrak{S}$ and $p$, we see that there exists a subset M of E and a well-ordering $\Gamma$ on M which satisfies the conditions of Lemma 3; in particular, M has no strict upper bound in E. Furthermore, the ordering $\Gamma$ is identical with that induced on M by the ordering on E. For in M the relation “$y\in\Gamma\langle x\rangle$ and $x\ne y$” is equivalent to $x\in S_y$; and since $p(S_y)=y$ is an upper bound of $S_y$ (with respect to the ordering on E), it implies $x<y$ in E. But this means that the injection of M into E is a strictly increasing mapping (M being endowed with the ordering $\Gamma$); and since M is totally ordered, it follows that the relations $y\in\Gamma\langle x\rangle$ and $x\leq y$ are equivalent in M (§ 1, no. 12, Proposition 11). This being so, there exists by hypothesis an upper bound $m$ of M in E; but since M has no strict upper bound, it follows that $m$ is a maximal element of E.
 
 #### Corollary 1 {#ens-iii-s2-prop-4-cor-1 .statement tag=03K4}
 

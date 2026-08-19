@@ -34,7 +34,7 @@ subsections:
       pdf_page: 195
 statements: 26
 exercises: 32
-content_sha256: 582cf6b72da04a2a5aa39ce3a169ce0e14c682288683b56b10d2a75a9b9e4de7
+content_sha256: ee86ba0ff12c3ec8fd6f5cd89b21236c8340af4e370be463dc8b042007030243
 ---
 
 ## 6. INFINITE SETS
@@ -61,9 +61,7 @@ The preceding remarks then prove the following theorem :
 
 *The relation "$x$ is an integer" is collectivizing.*
 
-We shall denote by $\mathbf{N}$ the set of integers (also called "the set of natural integers" when necessary to avoid ambiguity). The cardinal of $\mathbf{N}$ is
-
-denoted by $\aleph_0$. Whenever $\mathbf{N}$ is considered as an ordered set, it is always the ordering (called the *usual* ordering) defined in § 3, no. 2 that is under consideration, unless the contrary is expressly stated.
+We shall denote by $\mathbf{N}$ the set of integers (also called "the set of natural integers" when necessary to avoid ambiguity). The cardinal of $\mathbf{N}$ is denoted by $\aleph_0$. Whenever $\mathbf{N}$ is considered as an ordered set, it is always the ordering (called the *usual* ordering) defined in § 3, no. 2 that is under consideration, unless the contrary is expressly stated.
 
 #### Definition 2 {#ens-iii-s6-def-2 .statement tag=03MX}
 
@@ -107,9 +105,7 @@ $$T\{f^{(n)}\} = S\{f^{(n)}(n-1)\} = S\{f(n-1)\}.$$
 
 Suppose that $a$ is an element of a set $E$ and that $S\{u\}$ is the term $g(u)$, where $g$ is a mapping of $E$ into itself [^3]. Then it is immediately seen by induction on $n$ that for all $n \in \mathbf{N}$ we have $f(n) \in E$; consequently $f$ is a mapping of $\mathbf{N}$ into $E$ such that $f(0) = a$ and $f(n+1) = g(f(n))$ for all integers $n$.
 
-Likewise, let $h$ be a mapping of $\mathbf{N} \times E$ into $E$, and let $\psi$ be the mapping of $\mathbf{N} \times E$ into itself defined by $\psi(n, x) = (n+1, h(n, x))$. By the preceding discussion there exists a unique mapping $g = (\theta, f)$ of $\mathbf{N}$ into $\mathbf{N} \times E$ such that $g(0) = (0, a)$ and $g(n+1) = \psi(g(n))$ for all $n$, from which follows the existence and uniqueness of a mapping $f$
-
-of $\mathbf{N}$ into E such that $f(0) = a$ and $f(n + 1) = h(n, f(n))$ for each integer $n$.
+Likewise, let $h$ be a mapping of $\mathbf{N} \times E$ into $E$, and let $\psi$ be the mapping of $\mathbf{N} \times E$ into itself defined by $\psi(n, x) = (n+1, h(n, x))$. By the preceding discussion there exists a unique mapping $g = (\theta, f)$ of $\mathbf{N}$ into $\mathbf{N} \times E$ such that $g(0) = (0, a)$ and $g(n+1) = \psi(g(n))$ for all $n$, from which follows the existence and uniqueness of a mapping $f$ of $\mathbf{N}$ into E such that $f(0) = a$ and $f(n + 1) = h(n, f(n))$ for each integer $n$.
 
 #### Example 2 {#ens-iii-s6-n2-exa-2 .statement tag=03TD}
 
@@ -141,9 +137,7 @@ There exists a well-ordering relation on E (§ 2, no. 3, Theorem 1), which we sh
 
 *The set $\mathbf{N} \times \mathbf{N}$ is equipotent to $\mathbf{N}$.*
 
-Since $\mathbf{N} \times \mathbf{N}$ contains the set $\{0\} \times \mathbf{N}$, which is equipotent to $\mathbf{N}$, we have $\mathrm{Card}(\mathbf{N}) \leqslant \mathrm{Card}(\mathbf{N} \times \mathbf{N})$. To complete the proof it is enough to define an injection $f$ of $\mathbf{N} \times \mathbf{N}$ into $\mathbf{N}$. For this purpose we note that
-
-there exists an injection $\varphi$ of $\mathbf{N}$ into the set of mappings of $\mathbf{N}$ into $\mathrm{I} = \{0, 1\}$, obtained as follows : if $r$ is the least integer such that $n > 2^r$, and if $\sum_{k=0}^{r-1} \varepsilon_k 2^{r-k-1}$ is the dyadic expansion of $n$ (§ 5, no. 7), $\varphi(n)$ is defined to be the sequence $(u_m)_{m \in \mathbf{N}}$ such that $u_m = \varepsilon_{r-m-1}$ for $m < r$ and $u_m = 0$ for $m \geqslant r$. Proposition 8 of § 5, no. 7 shows that $\varphi$ is injective. For each pair $(n, n') \in \mathbf{N} \times \mathbf{N}$ we define $f(n, n')$ as follows : if $\varphi(n) = (u_m)$ and $\varphi(n') = (v_m)$, let $f(n, \; n')$ be the integer $s$ such that $\varphi(s) = w_m$, where $w_{2m} = u_m$ and $w_{2m+1} = v_m$ for all $m \in \mathbf{N}$. It is clear that the relation $f(n, \; n') = f(n_1, \; n_1')$ implies $\varphi(n) = \varphi(n_1)$ and $\varphi(n') = \varphi(n_1')$; hence $(n, n') = (n_1, n_1')$, and therefore $f$ is injective.
+Since $\mathbf{N} \times \mathbf{N}$ contains the set $\{0\} \times \mathbf{N}$, which is equipotent to $\mathbf{N}$, we have $\mathrm{Card}(\mathbf{N}) \leqslant \mathrm{Card}(\mathbf{N} \times \mathbf{N})$. To complete the proof it is enough to define an injection $f$ of $\mathbf{N} \times \mathbf{N}$ into $\mathbf{N}$. For this purpose we note that there exists an injection $\varphi$ of $\mathbf{N}$ into the set of mappings of $\mathbf{N}$ into $\mathrm{I} = \{0, 1\}$, obtained as follows : if $r$ is the least integer such that $n > 2^r$, and if $\sum_{k=0}^{r-1} \varepsilon_k 2^{r-k-1}$ is the dyadic expansion of $n$ (§ 5, no. 7), $\varphi(n)$ is defined to be the sequence $(u_m)_{m \in \mathbf{N}}$ such that $u_m = \varepsilon_{r-m-1}$ for $m < r$ and $u_m = 0$ for $m \geqslant r$. Proposition 8 of § 5, no. 7 shows that $\varphi$ is injective. For each pair $(n, n') \in \mathbf{N} \times \mathbf{N}$ we define $f(n, n')$ as follows : if $\varphi(n) = (u_m)$ and $\varphi(n') = (v_m)$, let $f(n, \; n')$ be the integer $s$ such that $\varphi(s) = w_m$, where $w_{2m} = u_m$ and $w_{2m+1} = v_m$ for all $m \in \mathbf{N}$. It is clear that the relation $f(n, \; n') = f(n_1, \; n_1')$ implies $\varphi(n) = \varphi(n_1)$ and $\varphi(n') = \varphi(n_1')$; hence $(n, n') = (n_1, n_1')$, and therefore $f$ is injective.
 
 ¶ We come now to the proof of Theorem 2. Let E be a set such that $\mathrm{Card}(\mathrm{E}) = \mathfrak{a}$. Let D be a subset of E equipotent to $\mathbf{N}$ (Lemma 1). Then there exists a bijection $\psi_0$ of D onto $\mathrm{D} \times \mathrm{D}$ (Lemma 2). Let $\mathfrak{M}$ be the set of pairs $(\mathrm{X}, \psi)$, where X is a subset of E containing D and $\psi$ is a bijection of X onto $\mathrm{X} \times \mathrm{X}$ which extends $\psi_0$. Order the set $\mathfrak{M}$ by means of the relation
 

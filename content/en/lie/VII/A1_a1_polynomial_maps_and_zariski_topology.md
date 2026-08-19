@@ -22,7 +22,7 @@ subsections:
       pdf_page: 56
 statements: 7
 exercises: 4
-content_sha256: f8c28e97a6040723ba5666e0a451d578263ebc6107c92854f395b1a1eeecac88
+content_sha256: 35b05a39838f20b88ddf3fc98b3fdd147867c98e1efaf99bb5c98caf247537a5
 ---
 
 ## APPENDIX I POLYNOMIAL MAPS AND ZARISKI TOPOLOGY
@@ -51,9 +51,7 @@ Indeed, let $H'$ be the set of algebra homomorphisms from $k[X_1, . . . ,X_n]$ t
 
 For any $x\in V$, let $\mathfrak{m}_x=$ Ker($h_x$). Then the map $x \rightarrow \mathfrak{m}_x$ is a bijection from V to the set of ideals $\mathfrak{m}$ of $A_V$ such that $A_V/\mathfrak{m}=k$.
 
-A subset F of V is said to be closed if there exists a family $(f_i)_{i\in I}$ of elements of $A_V$ such that
-
-$x\in F\Leftarrow \Rightarrow x\in V$ and $f_i(x) = 0$ for all $i\in I$.
+A subset F of V is said to be closed if there exists a family $(f_i)_{i\in I}$ of elements of $A_V$ such that $x\in F\Leftarrow \Rightarrow x\in V$ and $f_i(x) = 0$ for all $i\in I$.
 
 It is clear that $\emptyset$ and V are closed, and that any intersection of closed sets is closed. If F is defined by the vanishing of the $f_i$ and $F'$ by that of the $f'_j$, $F\cup F'$ is defined by the vanishing of the $f_if'_j$, and hence is closed. Thus, there exists a topology on V such that the closed sets for this topology are exactly the closed sets in the above sense. This topology is called the Zariski topology on V. For any $f\in A_V$, we denote by $V_f$ the set of $x\in V$ such that $f(x)\not= 0$; this is an open subset of V. It is clear that the $V_f$ form a base of the Zariski topology. (If $k$ is a topological field, the canonical topology of V is finer than the Zariski topology.)
 
