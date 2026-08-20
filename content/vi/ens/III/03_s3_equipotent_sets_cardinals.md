@@ -45,7 +45,7 @@ errata:
     - says: § 6, no. 3, Theorem 3
       read: § 6, no. 3, Theorem 2
       why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma 1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries on page 188. The Corollary 4 this sentence cites with it is the one that puts the product of two cardinals, one of them infinite, at their supremum, which is Corollary 4 of Theorem 2 and is what the sentence is about.
-content_sha256: 8d6f8475d642eb868e8cb8cc2a6e14066eb9d133689701d436db130e80551086
+content_sha256: 384977de7176a8cfd4682e6139eda6057e3fccc7631710d29910fce82d7f02ce
 translated_from: content/en/ens/III/03_s3_equipotent_sets_cardinals.md
 source_content_sha256: da076d38fc218b1d22d88e12e76d715ae2c24eb275d05746754b09a72237c9f5
 translation_model: gpt-5.4, gpt-5-6
@@ -109,7 +109,7 @@ $\mathrm{Card}(\{\emptyset, \{\emptyset\}\})$ được ký hiệu bởi 2; đây
 
 #### Ví dụ 4 {#ens-iii-s3-n1-exa-4 .statement tag=03T8}
 
-Một không gian Hilbert kiểu đếm được đẳng lực với tập hợp các số thực. *
+Một không gian Hilbert kiểu đếm được đẳng lực với tập hợp các số thực. \*
 
 ### 2. QUAN HỆ THỨ TỰ GIỮA CÁC LỰC LƯỢNG
 

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 16
 exercises: 1
-content_sha256: c2689bfc676ff797fadce1c362c9337c142872efdf44c3c9f67ba4eb3cab2ce0
+content_sha256: b1094b5a2252deca203c539c9c491ffa5dd29bc156fe419c48f680ba49540844
 ---
 
 ## 1. STRUCTURES AND ISOMORPHISMS
@@ -195,7 +195,7 @@ $$V \in \mathfrak{P}((E \times E) \times E) \times \mathfrak{P}((K \times E) \ti
 
 #### Example 5 {#ens-iv-s1-n4-exa-5 .statement tag=03V9}
 
-Again let $\mathscr{T}$ be the theory of sets; in this theory, the field $\mathbf{C}$ of complex numbers is a term which contains no letters. The species of structure of a *complex analytic manifold of dimension n* has $\mathbf{C}$ as auxiliary base set, and one principal base set V. We shall not indicate here the typical characterization or the axiom of this species of structure. *
+Again let $\mathscr{T}$ be the theory of sets; in this theory, the field $\mathbf{C}$ of complex numbers is a term which contains no letters. The species of structure of a *complex analytic manifold of dimension n* has $\mathbf{C}$ as auxiliary base set, and one principal base set V. We shall not indicate here the typical characterization or the axiom of this species of structure. \*
 
 *Remarks*
 
@@ -211,7 +211,7 @@ Moreover, the axiom of a species of structures $\Sigma$ is most frequently writt
 
 #### Remark 2 {#ens-iv-s1-n4-rem-2 .statement tag=03VB}
 
-Names are given to the species of structures most frequently used in mathematics, and to sets endowed with structures of these species. Thus an *ordered set* (Chapter III, § 1) is a set endowed with an order structure (Example 1); * in the later Books of this series, we shall define the notions of *group, field, topological space, differentiable manifold*, etc., all of which denote sets endowed with certain structures. *
+Names are given to the species of structures most frequently used in mathematics, and to sets endowed with structures of these species. Thus an *ordered set* (Chapter III, § 1) is a set endowed with an order structure (Example 1); \* in the later Books of this series, we shall define the notions of *group, field, topological space, differentiable manifold*, etc., all of which denote sets endowed with certain structures. \*
 
 #### Remark 3 {#ens-iv-s1-n4-rem-3 .statement tag=03VC}
 

@@ -38,7 +38,7 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: f0f02dccb6be66b188db29031f8ed928681c2f9896f0a2a4187f90c38cbde23c
+content_sha256: 68a8f4bf0f517a7917776dffba6cfe2314663b75042a23ca9f231dcb23e43623
 translated_from: content/en/ens/IV/02_s2_morphisms_and_derived_structures.md
 source_content_sha256: 1df0116fa77b9eebc1d44429db56bb11c1cc04c82010063f9e8691600a51190e
 translation_model: gpt-5.4
@@ -180,11 +180,11 @@ cấu trúc ban đầu đối với họ $(\mathrm{A}_\iota, \mathscr{S}_\iota, 
 
 I. *Ảnh ngược của một cấu trúc*. Khi I là một tập hợp gồm một phần tử duy nhất, cấu trúc ban đầu đối với $(\mathrm{A}, \mathscr{S}, f)$ được gọi là *ảnh ngược theo $f$ của cấu trúc* $\mathscr{S}$ (khi nó tồn tại).
 
-* Một tôpô luôn có ảnh ngược theo mọi ánh xạ $f$; nhưng điều này không đúng đối với một cấu trúc thứ tự hoặc một cấu trúc đại số. *
+\* Một tôpô luôn có ảnh ngược theo mọi ánh xạ $f$; nhưng điều này không đúng đối với một cấu trúc thứ tự hoặc một cấu trúc đại số. \*
 
 II. *Cấu trúc cảm sinh*. Cho A là một tập hợp được trang bị một cấu trúc $\mathscr{S}$ thuộc loài $\Sigma$, cho B là một tập con của A, và cho $j$ là đơn ánh chính tắc của B vào A. Khi đó ảnh ngược theo $j$ của cấu trúc B (nếu nó tồn tại) được gọi là *cấu trúc cảm sinh* bởi $\mathscr{S}$ trên B.
 
-Một cấu trúc thứ tự cảm sinh một cấu trúc cùng loài trên mọi tập con của tập hợp mà trên đó nó được định nghĩa; nhưng điều này không đúng đối với cấu trúc của một tập có hướng. * Một tôpô cảm sinh một tôpô trên mọi tập con của tập hợp mà trên đó nó được định nghĩa, nhưng nói chung một tôpô compắc không cảm sinh một tôpô compắc. Nói chung, một cấu trúc đại số trên một tập hợp A không cảm sinh một cấu trúc cùng loài trên một tập con tùy ý B; nếu cấu trúc đã cho trên A gồm những luật hợp thành được định nghĩa khắp nơi, thì điều kiện cần thiết là B phải ổn định đối với từng luật ấy, nhưng điều kiện cần thiết này không phải lúc nào cũng đủ. *
+Một cấu trúc thứ tự cảm sinh một cấu trúc cùng loài trên mọi tập con của tập hợp mà trên đó nó được định nghĩa; nhưng điều này không đúng đối với cấu trúc của một tập có hướng. \* Một tôpô cảm sinh một tôpô trên mọi tập con của tập hợp mà trên đó nó được định nghĩa, nhưng nói chung một tôpô compắc không cảm sinh một tôpô compắc. Nói chung, một cấu trúc đại số trên một tập hợp A không cảm sinh một cấu trúc cùng loài trên một tập con tùy ý B; nếu cấu trúc đã cho trên A gồm những luật hợp thành được định nghĩa khắp nơi, thì điều kiện cần thiết là B phải ổn định đối với từng luật ấy, nhưng điều kiện cần thiết này không phải lúc nào cũng đủ. \*
 
 Tiêu chuẩn tổng quát CST10 cho ta *tiêu chuẩn bắc cầu* sau đây đối với các cấu trúc cảm sinh :
 
@@ -308,7 +308,7 @@ II. *Cấu trúc thương.*   Cho A là một tập hợp được trang bị m�
 
 chính tắc từ A lên tập thương $\mathrm{E} = \mathrm{A}/\mathrm{R}$ (Chương II, § 6, no. 2). Ảnh trực tiếp của cấu trúc $\mathscr{S}$ qua ánh xạ $\varphi$ được gọi (khi nó tồn tại) là *thương* của cấu trúc $\mathscr{S}$ theo quan hệ R.
 
-* Nói chung, một cấu trúc thứ tự hoặc một cấu trúc đại số không thừa nhận cấu trúc thương đối với các quan hệ tương đương tùy ý (xem Chương III, § 1, Bài tập 2). Mặt khác, một tôpô luôn thừa nhận một cấu trúc thương đối với một quan hệ tương đương tùy ý, nhưng điều đó không tất yếu đúng đối với một tôpô Hausdorff. *
+\* Nói chung, một cấu trúc thứ tự hoặc một cấu trúc đại số không thừa nhận cấu trúc thương đối với các quan hệ tương đương tùy ý (xem Chương III, § 1, Bài tập 2). Mặt khác, một tôpô luôn thừa nhận một cấu trúc thương đối với một quan hệ tương đương tùy ý, nhưng điều đó không tất yếu đúng đối với một tôpô Hausdorff. \*
 
 Cho A, B là hai tập hợp tương ứng được trang bị các cấu trúc $\mathscr{S}$, $\mathscr{S}'$ thuộc loài $\Sigma$, và cho $f$ là một cấu xạ từ A vào B. Gọi R là quan hệ tương đương $f(x) = f(y)$, gọi $\varphi$ là ánh xạ chính tắc từ A lên $\mathrm{A}/\mathrm{R}$, và gọi $j$ là đơn ánh chính tắc từ $f(\mathrm{A})$ vào B. Giả sử rằng $\mathscr{S}$ thừa nhận một cấu trúc thương $\mathscr{S}_0$ đối với R, và rằng $\mathscr{S}'$ cảm sinh một cấu trúc $\mathscr{S}'_0$ trên $f(\mathrm{A})$. Khi đó, trong *phân tích chính tắc* $f = j \circ g \circ \varphi$ của $f$ (Chương II, § 6, số 5), song ánh $g$ từ $\mathrm{A}/\mathrm{R}$ lên $f(\mathrm{A})$ liên kết với $f$ là một *cấu xạ* (nhưng không nhất thiết là một đẳng cấu) khi $\mathrm{A}/\mathrm{R}$ được trang bị $\mathscr{S}_0$ và $f(\mathrm{A})$ được trang bị $\mathscr{S}'_0$. Thật vậy, $j \circ g$ là một cấu xạ từ $\mathrm{A}/\mathrm{R}$ vào B theo định nghĩa của cấu trúc thương, và do đó $g$ là một cấu xạ từ $\mathrm{A}/\mathrm{R}$ lên $f(\mathrm{A})$ theo định nghĩa của cấu trúc cảm sinh.
 

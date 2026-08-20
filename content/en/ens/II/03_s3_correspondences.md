@@ -50,7 +50,7 @@ subsections:
       pdf_page: 96
 statements: 37
 exercises: 11
-content_sha256: 60ede35692adda5e352fb5ed4e83104684ee677c270bb26454076325d1e9eca4
+content_sha256: 49d34236aa907fd60e4d6fb7e5142464802f3f571a834d8849ea8e147f790970
 ---
 
 ## 3. CORRESPONDENCES
@@ -337,7 +337,7 @@ $$
 
 implies $y = y'$, and hence $F$ is a functional graph. The remaining statements are evident.
 
-¶ If $C$ is a set which contains the set $B$ of objects of the form $T$ for $x \in A$ (where $y$ does not appear in $C$), then the function $(F,A,C)$ is also denoted by the notation $x \to T$ ($x \in A$, $T \in C$); the corresponding assembly in formal mathematics contains neither $x$ nor $y$ and does not depend on the choice of the letter $y$ satisfying the above conditions. When the context is sufficiently explicit we shall permit ourselves the notations $x \to T(x \in A)$, $(T)_{x \in A}$, or $x \to T$, and sometimes simply $T$ or $(T)$. *Thus we may speak of “the function $x^3$”, if the context indicates clearly that we mean the mapping $x \to x^3$ of the set of complex numbers into itself. *
+¶ If $C$ is a set which contains the set $B$ of objects of the form $T$ for $x \in A$ (where $y$ does not appear in $C$), then the function $(F,A,C)$ is also denoted by the notation $x \to T$ ($x \in A$, $T \in C$); the corresponding assembly in formal mathematics contains neither $x$ nor $y$ and does not depend on the choice of the letter $y$ satisfying the above conditions. When the context is sufficiently explicit we shall permit ourselves the notations $x \to T(x \in A)$, $(T)_{x \in A}$, or $x \to T$, and sometimes simply $T$ or $(T)$. *Thus we may speak of “the function $x^3$”, if the context indicates clearly that we mean the mapping $x \to x^3$ of the set of complex numbers into itself. \*
 
 *Examples*
 

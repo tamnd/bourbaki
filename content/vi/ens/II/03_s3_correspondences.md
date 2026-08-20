@@ -50,7 +50,7 @@ subsections:
       pdf_page: 96
 statements: 37
 exercises: 11
-content_sha256: 49c7bf745ddb03c6716862af2b940de5f8db698a59154449502616afbf696d1d
+content_sha256: 96015f0da7633665cc4e03047c460a5e75c8eb1520c78851c46d3a3657a8f61d
 translated_from: content/en/ens/II/03_s3_correspondences.md
 source_content_sha256: 8a4115cf22d57ea009a5fd57d02c81b51fc1ae5d0adb1e6d32b5c21f6d93004f
 translation_model: gpt-5.4
@@ -350,7 +350,7 @@ $$
 
 kéo theo $y = y'$, và do đó $F$ là một đồ thị phiếm hàm. Các khẳng định còn lại là hiển nhiên.
 
-¶ Nếu $C$ là một tập hợp chứa tập hợp $B$ các đối tượng có dạng $T$ với $x \in A$ (trong đó $y$ không xuất hiện trong $C$), thì hàm $(F,A,C)$ cũng được ký hiệu là $x \to T$ ($x \in A$, $T \in C$); cấu tạo tương ứng trong toán học hình thức không chứa cả $x$ lẫn $y$ và không phụ thuộc vào lựa chọn chữ cái $y$ thỏa mãn các điều kiện trên. Khi ngữ cảnh đủ tường minh, chúng tôi sẽ cho phép mình dùng các ký hiệu $x \to T(x \in A)$, $(T)_{x \in A}$, hoặc $x \to T$, và đôi khi đơn giản là $T$ hoặc $(T)$. *Vì vậy ta có thể nói về “hàm $x^3$”, nếu ngữ cảnh chỉ ra rõ ràng rằng ta muốn nói đến ánh xạ $x \to x^3$ của tập hợp các số phức vào chính nó. *
+¶ Nếu $C$ là một tập hợp chứa tập hợp $B$ các đối tượng có dạng $T$ với $x \in A$ (trong đó $y$ không xuất hiện trong $C$), thì hàm $(F,A,C)$ cũng được ký hiệu là $x \to T$ ($x \in A$, $T \in C$); cấu tạo tương ứng trong toán học hình thức không chứa cả $x$ lẫn $y$ và không phụ thuộc vào lựa chọn chữ cái $y$ thỏa mãn các điều kiện trên. Khi ngữ cảnh đủ tường minh, chúng tôi sẽ cho phép mình dùng các ký hiệu $x \to T(x \in A)$, $(T)_{x \in A}$, hoặc $x \to T$, và đôi khi đơn giản là $T$ hoặc $(T)$. *Vì vậy ta có thể nói về “hàm $x^3$”, nếu ngữ cảnh chỉ ra rõ ràng rằng ta muốn nói đến ánh xạ $x \to x^3$ của tập hợp các số phức vào chính nó. \*
 
 *Ví dụ*
 

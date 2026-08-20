@@ -31,7 +31,7 @@ subsections:
       pdf_page: 60
 statements: 7
 exercises: 8
-content_sha256: ada19ded1745a7e4ea2f7bbf0edb698ecd7e5df3f973986c589436fed914ee9d
+content_sha256: f255e173a7f5a8c1b2303544254a1cd8cc4b3005e522635f71dd319e7981a63c
 translated_from: content/en/ens/I/A_a_characterization_of_terms_and_relations.md
 source_content_sha256: edb021fd8f3949693679ebb01f91bf25e20ec7a14a764b2755ff6b36f5e23268
 translation_model: gpt-5.4
@@ -49,7 +49,7 @@ Siêu toán học, khi vượt quá trình độ rất sơ cấp của chương 
 
 ### 1. CÁC DẤU VÀ CÁC TỪ
 
-* Cho S là một tập hợp khác rỗng, mà các phần tử của nó sẽ được gọi là *dấu* (thuật ngữ này là thích hợp với ứng dụng siêu toán học mà ta có trong ý định). Gọi $\mathrm{L}_0(\mathrm{S})$ là nửa nhóm tự do sinh bởi S; các phần tử của $\mathrm{L}_0(\mathrm{S})$ được gọi là *từ* và được đồng nhất với các dãy hữu hạn $A = (s_i)_{0 \leqslant i \leqslant n}$ gồm các phần tử của S. Luật hợp thành trong $\mathrm{L}_0(\mathrm{S})$ sẽ được viết theo lối nhân, sao cho $AB$ là dãy thu được bằng cách ghép liền $A$ và $B$. Từ rỗng $\emptyset$ là phần tử đơn vị của $\mathrm{L}_0(\mathrm{S})$. Nhắc lại rằng *độ dài* $l(A)$ của một từ $A \in \mathrm{L}_0(\mathrm{S})$ là số các phần tử trong dãy $A$; do đó $l(AB) = l(A) + l(B)$, và các từ có độ dài 1 là các dấu. Ký hiệu $\mathrm{L}(\mathrm{S})$ là tập hợp các từ khác rỗng trong $\mathrm{L}_0(\mathrm{S})$.
+\* Cho S là một tập hợp khác rỗng, mà các phần tử của nó sẽ được gọi là *dấu* (thuật ngữ này là thích hợp với ứng dụng siêu toán học mà ta có trong ý định). Gọi $\mathrm{L}_0(\mathrm{S})$ là nửa nhóm tự do sinh bởi S; các phần tử của $\mathrm{L}_0(\mathrm{S})$ được gọi là *từ* và được đồng nhất với các dãy hữu hạn $A = (s_i)_{0 \leqslant i \leqslant n}$ gồm các phần tử của S. Luật hợp thành trong $\mathrm{L}_0(\mathrm{S})$ sẽ được viết theo lối nhân, sao cho $AB$ là dãy thu được bằng cách ghép liền $A$ và $B$. Từ rỗng $\emptyset$ là phần tử đơn vị của $\mathrm{L}_0(\mathrm{S})$. Nhắc lại rằng *độ dài* $l(A)$ của một từ $A \in \mathrm{L}_0(\mathrm{S})$ là số các phần tử trong dãy $A$; do đó $l(AB) = l(A) + l(B)$, và các từ có độ dài 1 là các dấu. Ký hiệu $\mathrm{L}(\mathrm{S})$ là tập hợp các từ khác rỗng trong $\mathrm{L}_0(\mathrm{S})$.
 ¶ Hơn nữa, giả sử rằng ta được cho một ánh xạ $s \rightarrow n(s)$ từ S vào
 
 tập hợp $\mathbf{N}$ các số nguyên $\geqslant 0$. Với mỗi từ không rỗng $A = (s_i)_{0 \leqslant i \leqslant k}$ của L(S), ta đặt
