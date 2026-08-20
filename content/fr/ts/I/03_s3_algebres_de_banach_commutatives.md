@@ -41,7 +41,7 @@ subsections:
       pdf_page: 57
 statements: 48
 exercises: 29
-content_sha256: c3ca8a086108a030c217b2722eeb9b37d1649d7749076e685b200d2a7326e196
+content_sha256: 2913fb6990626e703470c0e2c88b7d9e08267f08bea26db0b01c9b7f0e62be03
 ---
 
 ## § 3. ALGÈBRES DE BANACH COMMUTATIVES
@@ -136,7 +136,7 @@ $$
 f_{\varepsilon}=\frac{f g_{\varepsilon}}{1 + g_{\varepsilon}}
 $$
 
-appartient à I. Pour $x /\in C_{\varepsilon}$, on a
+appartient à I. Pour $x \notin C_{\varepsilon}$, on a
 
 $$
 |f(x)-f_{\varepsilon}(x)|\leqslant 2\varepsilon
@@ -194,7 +194,7 @@ L’application identique de X est une application partielle propre de X dans X.
 
 #### Lemme 1 {#ts-i-s3-lem-1 .statement tag=027Y}
 
-Pour toute application partielle propre $f$ de X dans Y, de domaine de définition U, notons $\widetilde{f}$ l’application de $X'$ dans $Y'$ définie par $\widetilde{f}(x) =f(x)$ si $x\in U$ et $\widetilde{f}(x) =\omega_Y$ si $x /\in U$ ; elle est continue.
+Pour toute application partielle propre $f$ de X dans Y, de domaine de définition U, notons $\widetilde{f}$ l’application de $X'$ dans $Y'$ définie par $\widetilde{f}(x) =f(x)$ si $x\in U$ et $\widetilde{f}(x) =\omega_Y$ si $x \notin U$ ; elle est continue.
 
 L’application $f\mapsto \widetilde{f}$ est une bijection entre l’ensemble des applications partielles propres $f$ de X dans Y et l’ensemble des applications continues $g$ de $X'$ dans $Y'$ telles que $g(\omega_X) =\omega_Y$.
 
@@ -366,7 +366,7 @@ Si A possède un élément unité, l’image de la transformation de Gelfand est
 
 Soit A une algèbre de Banach commutative. Soit M une partie de $\mathsf{X}(A)$. Alors M est fermée pour la topologie de Jacobson si et seulement si, pour tout caractère $\chi \in \mathsf{X}(A)$ - M, il existe un élément $x$ de A tel que $\mathscr{G}(x)$ soit nul sur M et non nul en $\chi$.
 
-Soit Υ(M) l’intersection des noyaux des éléments de M. L’ensemble M est fermé pour la topologie de Jacobson si et seulement si M = V(Υ(M)) (cf. I, p. 13 et I, p. 30). Cette condition équivaut à dire que les éléments $\chi$ de M sont précisément les caractères qui s’annulent sur Υ(M). Par conséquent M est fermé si et seulement si pour tout caractère $\chi  /\in M$, il existe $x\in \Upsilon (M)$ tel que $\chi (x)\not= 0$. Cela se traduit en $\mathscr{G}(x)(\chi )\not= 0$ et $\mathscr{G}(x)|M = 0$.
+Soit Υ(M) l’intersection des noyaux des éléments de M. L’ensemble M est fermé pour la topologie de Jacobson si et seulement si M = V(Υ(M)) (cf. I, p. 13 et I, p. 30). Cette condition équivaut à dire que les éléments $\chi$ de M sont précisément les caractères qui s’annulent sur Υ(M). Par conséquent M est fermé si et seulement si pour tout caractère $\chi  \notin M$, il existe $x\in \Upsilon (M)$ tel que $\chi (x)\not= 0$. Cela se traduit en $\mathscr{G}(x)(\chi )\not= 0$ et $\mathscr{G}(x)|M = 0$.
 
 ### 5. Morphismes d’algèbres de Banach commutatives
 

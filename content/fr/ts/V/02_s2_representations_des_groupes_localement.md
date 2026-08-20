@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: 2431a31ecdfe7960211eff0f1ce23582de56c6a8b9091201fa29f93abdf8e072
+content_sha256: f35f594201c7156dde4597f94f43df4226aa2d4af3cf832fbc825c8eb90246ae
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -230,7 +230,7 @@ b) Il existe une fonction $\varphi \in \mathscr{K}(G)$, positive et non nulle da
 
 Considérons le cas de la représentation régulière gauche $\boldsymbol{\gamma }^{(p)}_G$, celui de la représentation régulière droite étant similaire. L’assertion a) implique que $\boldsymbol{\gamma }^{(p)}_G$ est fidèle, car si $g\not =e$ est un élément de G, et si $\varphi$ est comme dans a), on a $\varphi \not =\boldsymbol{\gamma }^{(p)}_G(g)\varphi$ puisque $\langle \varphi , \varphi \rangle =\int_G\varphi^2>0$.
 
-Démontrons donc a). Soit $g\not =e$ dans G. Soit C un voisinage compact symétrique de $e$ tel que $g /\in C^2$ et soit $\varphi \in \mathscr{K}(G)$ une fonction continue positive d’intégrale 1 à support contenu dans C ; la fonction $\varphi$ est non nulle dans $L^p(G, \mu)$. Comme $C\cap g^{-1}C =\emptyset$, on a
+Démontrons donc a). Soit $g\not =e$ dans G. Soit C un voisinage compact symétrique de $e$ tel que $g \notin C^2$ et soit $\varphi \in \mathscr{K}(G)$ une fonction continue positive d’intégrale 1 à support contenu dans C ; la fonction $\varphi$ est non nulle dans $L^p(G, \mu)$. Comme $C\cap g^{-1}C =\emptyset$, on a
 
 $$
 \langle \varphi ,\boldsymbol{\gamma }^{(p)}_G(g)\varphi \rangle =\int_G\varphi (x)\varphi (g^{-1}x)d\mu(x) = 0
@@ -336,9 +336,9 @@ c) Les espaces semi-normés $\mathscr{F}_{\pi}^p(G)$ et $\mathscr{L}_{\pi}^p(G)$
 
 Dans l’assertion a), dire que la série de terme général $f_n$ converge vers $f$ dans l’espace $\mathscr{F}_{\pi}^p(G)$ signifie que la suite des sommes partielles $f_0+\cdots +f_n$ converge vers $f$ dans $\mathscr{F}_{\pi}^p(G)$. On dit alors aussi que $f$ est une somme de cette série.
 
-Démontrons a). D’après la prop. 6 de INT, IV, p. 128, § 3, n$^o3$, il existe un ensemble $\nu$-négligeable $S\subset G/H$ tel que la série de terme général $\|f_n(gH)\|$ converge absolument pour $gH\in /S$. De plus, la fonction $h$ qui est égale à la somme de cette série pour $gH\in /S$ et qui est nulle pour $gH\in S$ vérifie $N_p(h)<+\infty$.
+Démontrons a). D’après la prop. 6 de INT, IV, p. 128, § 3, n$^o3$, il existe un ensemble $\nu$-négligeable $S\subset G/H$ tel que la série de terme général $\|f_n(gH)\|$ converge absolument pour $gH\notin S$. De plus, la fonction $h$ qui est égale à la somme de cette série pour $gH\notin S$ et qui est nulle pour $gH\in S$ vérifie $N_p(h)<+\infty$.
 
-L’ensemble $T =\overset{-1}{\varpi}(S)$ est négligeable modulo H. Pour tout $g /\in T$, la série de terme général $f_n(g)$ est absolument convergente dans E. Définissons $f(g) =\sum f_n(g)$ pour $g /\in T$ et $f(g) = 0$ sinon. On a $f\in$ $\mathscr{F}_{\pi}(G)$. Notons que $\|f(gH)\|\leqslant h(gH)$ pour tout $g\in G$, d’où $N_p(f)\leqslant$ $N_p(h)<+\infty$. On a donc $f\in \mathscr{F}_{\pi}^p(G)$. De manière similaire, il vient
+L’ensemble $T =\overset{-1}{\varpi}(S)$ est négligeable modulo H. Pour tout $g \notin T$, la série de terme général $f_n(g)$ est absolument convergente dans E. Définissons $f(g) =\sum f_n(g)$ pour $g \notin T$ et $f(g) = 0$ sinon. On a $f\in$ $\mathscr{F}_{\pi}(G)$. Notons que $\|f(gH)\|\leqslant h(gH)$ pour tout $g\in G$, d’où $N_p(f)\leqslant$ $N_p(h)<+\infty$. On a donc $f\in \mathscr{F}_{\pi}^p(G)$. De manière similaire, il vient
 
 $$
 N_p(f-\sum_{n=0}^kf_n)\leqslant \sum_{n=k+1}^{+\infty}N_p(f_n)

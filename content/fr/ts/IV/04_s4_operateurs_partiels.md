@@ -53,7 +53,7 @@ subsections:
       pdf_page: 268
 statements: 74
 exercises: 24
-content_sha256: 94cea131b830f815670e97134bb35937c5204c12b48bdd755e3a2aaecb223722
+content_sha256: 3cd17fd996cfdeaafc25ba263abdd60eec21307e4dac7a13cf5fd093c75b9e9d
 ---
 
 ## § 4. OPÉRATEURS PARTIELS
@@ -772,7 +772,7 @@ En particulier, si $v$ est un opérateur fermé à domaine dense sur E, et si $\
 
 Il existe des opérateurs fermés dont le spectre est vide, ou dont le spectre est égal à $\mathbf{C}$ (exercice 12 de IV, p. 347).
 
-Soient E un espace de Banach complexe et $u$ un opérateur fermé à domaine dense sur E. Si F est un espace de Banach complexe et si $v: E\rightarrow F$ est un isomorphisme, alors on a Sp($v\circ u\circ v^{-1}$) $=$ Sp($u$) et $R(v\circ u\circ v^{-1}, \lambda ) =v\circ R(u, \lambda )\circ v^{-1}$ pour tout $\lambda  /\in$ Sp($u$).
+Soient E un espace de Banach complexe et $u$ un opérateur fermé à domaine dense sur E. Si F est un espace de Banach complexe et si $v: E\rightarrow F$ est un isomorphisme, alors on a Sp($v\circ u\circ v^{-1}$) $=$ Sp($u$) et $R(v\circ u\circ v^{-1}, \lambda ) =v\circ R(u, \lambda )\circ v^{-1}$ pour tout $\lambda  \notin$ Sp($u$).
 
 #### Proposition 14 {#ts-iv-s4-prop-14 .statement tag=033R}
 
@@ -816,13 +816,13 @@ $$
 \mu1_E-u= (\lambda -\mu) ((\lambda -\mu)^{-1}1_E-R(u, \lambda )) (\lambda 1_E-u)
 $$
 
-Puisque $\lambda  /\in$ Sp($u$) et $\mu\not =\lambda$, l’application linéaire $(\lambda -\mu)(\lambda 1_E-u)$ est une bijection de dom($u$) sur E. Par conséquent, cette formule implique que $\mu1_E-u$ est une bijection de dom($u$) sur E si et seulement si $(\lambda -\mu)^{-1}1_E-R(u, \lambda )$ est une bijection de E sur E, ce qui implique l’assertion.
+Puisque $\lambda  \notin$ Sp($u$) et $\mu\not =\lambda$, l’application linéaire $(\lambda -\mu)(\lambda 1_E-u)$ est une bijection de dom($u$) sur E. Par conséquent, cette formule implique que $\mu1_E-u$ est une bijection de dom($u$) sur E si et seulement si $(\lambda -\mu)^{-1}1_E-R(u, \lambda )$ est une bijection de E sur E, ce qui implique l’assertion.
 
 Démontrons b). Si $\mu\not =\lambda$ et $x\in$ Ker(($\lambda -\mu$)$^{-1}1_E-R(u, \lambda )$), on a $x\in$ dom($u$) et la formule $1_E= (\lambda 1_E-u)\circ R(u, \lambda )$ implique que $x\in$ Ker($\mu1_E-u$). Réciproquement, si $x\in$ Ker($\mu1_E-u$) et $\mu\not =\lambda$, la formule $1_{dom(u)}= R(u, \lambda )\circ (\lambda 1_E-u)$ implique $R(u, \lambda )(x) = (\lambda -\mu)^{-1}x$.
 
 #### Proposition 16 {#ts-iv-s4-prop-16 .statement tag=033T}
 
-Soit $u$ un opérateur fermé à domaine dense sur un espace hilbertien complexe E. Le spectre de $u^*$ est l’image du spectre de $u$ par la conjugaison complexe et, pour tout élément $\lambda$ de l’ensemble résolvant de $u$, on a $R(u, \lambda )^*= R(u^*, \lambda )$. En particulier, si $u$ est auto-adjoint, l’endomorphisme $R(u, \lambda )$ est normal pour tout $\lambda  /\in$ Sp($u$).
+Soit $u$ un opérateur fermé à domaine dense sur un espace hilbertien complexe E. Le spectre de $u^*$ est l’image du spectre de $u$ par la conjugaison complexe et, pour tout élément $\lambda$ de l’ensemble résolvant de $u$, on a $R(u, \lambda )^*= R(u^*, \lambda )$. En particulier, si $u$ est auto-adjoint, l’endomorphisme $R(u, \lambda )$ est normal pour tout $\lambda  \notin$ Sp($u$).
 
 Soit $\lambda \in \mathbf{C}-$ Sp($u$) un élément de l’ensemble résolvant de $u$. On a $u=\lambda 1_E-R(u, \lambda )^{-1}$, donc
 
@@ -852,7 +852,7 @@ L’hypothèse implique que $u-\lambda 1_E$ et $u^*-\overline{\lambda}1_E$ sont 
 
 Démontrons que l’espace F est fermé. Soit $(x_n)_{n\in\mathbf{N}}$ une suite dans dom($u$) telle que la suite $(u(x_n)-\lambda x_n)_{n\in\mathbf{N}}$ converge vers $y\in F$. L’inégalité (10) implique que la suite $(x_n)_{n\in\mathbf{N}}$ est une suite de Cauchy dans E. Soit $x\in E$ sa limite. La suite $(x_n, u(x_n))$ converge vers $(x, y+\lambda x)$ dans $E\times E$; puisque le graphe de $u$ est fermé, on a donc $x\in$ dom($u$) et $u(x) =y+\lambda x$, ce qui démontre que $y\in F$.
 
-On conclut que F = E. Ainsi, l’opérateur partiel $u-\lambda 1_E$ est bijectif, d’où $\lambda  /\in$ Sp($u$) (remarque 3). L’inégalité (10) implique alors que $\|R(u, \lambda )\|\leqslant c^{-1}$.
+On conclut que F = E. Ainsi, l’opérateur partiel $u-\lambda 1_E$ est bijectif, d’où $\lambda  \notin$ Sp($u$) (remarque 3). L’inégalité (10) implique alors que $\|R(u, \lambda )\|\leqslant c^{-1}$.
 
 #### Proposition 17 {#ts-iv-s4-prop-17 .statement tag=033W}
 
@@ -862,7 +862,7 @@ a) Le spectre de $u$ est contenu dans $\mathbf{R}$;
 
 b) Si $u$ est positif, alors le spectre de $u$ est contenu dans $\mathbf{R}_+$;
 
-c) Supposons que E est non nul. Soient $\lambda  /\in$ Sp($u$) et $\delta  >0$ la distance de $\lambda$ au spectre de $u$. On a $\|R(u, \lambda )\|=\delta^{-1}$.
+c) Supposons que E est non nul. Soient $\lambda  \notin$ Sp($u$) et $\delta  >0$ la distance de $\lambda$ au spectre de $u$. On a $\|R(u, \lambda )\|=\delta^{-1}$.
 
 Soient $(a, b)\in \mathbf{R}\times \mathbf{R}$ et $\lambda =a+ib$. Soit $x\in$ dom($u$). Comme $u$ est auto-adjoint, on a $\langle x|u(x)\rangle  \in \mathbf{R}$, d’où
 
@@ -884,7 +884,7 @@ $$
 \geqslant b^2\|x\|^2
 $$
 
-D’après le lemme 5, on a donc $\lambda  /\in$ Sp($u$), d’où l’assertion a).
+D’après le lemme 5, on a donc $\lambda  \notin$ Sp($u$), d’où l’assertion a).
 
 Supposons que $u$ est également positif. Si $b= 0$ et $a <0$, on obtient de même pour $x\in$ dom($u$) l’inégalité
 
@@ -892,7 +892,7 @@ $$
 \|u(x)-\lambda x\|^2=\|u(x)-\lambda x\|^2\geqslant (\|u(x)\| -a\|x\|)^2\geqslant a^2\|x\|^2
 $$
 
-donc $\lambda  /\in$ Sp($u$) $($loc. cit.), ce qui démontre b).
+donc $\lambda  \notin$ Sp($u$) $($loc. cit.), ce qui démontre b).
 
 Démontrons enfin c). D’après la prop. 16, la résolvante $R(u, \lambda )$ est un endomorphisme normal de E. Sa norme est donc égale à son rayon spectral (cor. 1 de I, p. 108), d’où
 
@@ -946,7 +946,7 @@ Soient E un espace de Banach complexe et $u$ un opérateur partiel fermé sur E.
 
 $\bigcap_{\varepsilon\in\mathbf{R}^*_+}$ PSp$_{\varepsilon}(u) =$ Sp($u$).
 
-La première assertion résulte de la définition. Pour la seconde, le spectre de $u$ est contenu dans PSp$_{\varepsilon}(u)$ pour tout $\varepsilon  >0$ par définition, et si $\lambda  /\in$ Sp($u$), alors $\lambda  /\in$ PSp$_{\varepsilon}(u)$ lorsque $\varepsilon  <\|R(u, \lambda )\|^{-1}$.
+La première assertion résulte de la définition. Pour la seconde, le spectre de $u$ est contenu dans PSp$_{\varepsilon}(u)$ pour tout $\varepsilon  >0$ par définition, et si $\lambda  \notin$ Sp($u$), alors $\lambda  \notin$ PSp$_{\varepsilon}(u)$ lorsque $\varepsilon  <\|R(u, \lambda )\|^{-1}$.
 
 #### Proposition 20 {#ts-iv-s4-prop-20 .statement tag=0342}
 
@@ -962,7 +962,7 @@ On peut supposer que E est non nul. La condition (ii) est une reformulation de l
 
 Supposons que la condition (i) est vérifiée et démontrons (iii). Si $\lambda$ appartient au spectre de $u$, on peut prendre $v= 0$ dans (iii).
 
-Supposons donc que $\lambda  /\in$ Sp($u$). Par définition de PSp$_{\varepsilon}(u)$, il existe $y\in E$ tel que $\|y\|= 1$ et $\|R(u, \lambda )y\|> \varepsilon^{-1}$. Posons $x= R(u, \lambda )y$. On a $x\not = 0$. D’après le théorème de Hahn–Banach (EVT, II, p. 67, cor. 2), la forme linéaire $\ell$ sur $\mathbf{C}x$ telle que $\ell (x) = 1$ admet un prolongement continu $\ell_1\in E'$ tel que $\|\ell_1\|=\|\ell \|$; on a donc $\|\ell_1\|=\|x\|^{-1}< \varepsilon$. Pour tout $e\in E$, posons $v(e) =\ell_1(e)y$. On a $v\in \mathscr{L}(E)$ et $v(x) =y$. Il vient $(u+v)x=u(x) +y=\lambda x$, donc $\lambda \in$ Sp($u+v$). Comme de plus $\|v\|=\|\ell_1\|< \varepsilon$, la condition (iii) est satisfaite.
+Supposons donc que $\lambda  \notin$ Sp($u$). Par définition de PSp$_{\varepsilon}(u)$, il existe $y\in E$ tel que $\|y\|= 1$ et $\|R(u, \lambda )y\|> \varepsilon^{-1}$. Posons $x= R(u, \lambda )y$. On a $x\not = 0$. D’après le théorème de Hahn–Banach (EVT, II, p. 67, cor. 2), la forme linéaire $\ell$ sur $\mathbf{C}x$ telle que $\ell (x) = 1$ admet un prolongement continu $\ell_1\in E'$ tel que $\|\ell_1\|=\|\ell \|$; on a donc $\|\ell_1\|=\|x\|^{-1}< \varepsilon$. Pour tout $e\in E$, posons $v(e) =\ell_1(e)y$. On a $v\in \mathscr{L}(E)$ et $v(x) =y$. Il vient $(u+v)x=u(x) +y=\lambda x$, donc $\lambda \in$ Sp($u+v$). Comme de plus $\|v\|=\|\ell_1\|< \varepsilon$, la condition (iii) est satisfaite.
 
 Réciproquement, soit $v\in \mathscr{L}(E)$ tel que $\|v\|< \varepsilon$ et $\lambda \in$ Sp($u+v$). L’opérateur partiel $\lambda 1_E-(u+v)$ n’est donc pas injectif avec un inverse continu ; d’après le lemme 4 de IV, p. 243, appliqué à l’opérateur partiel injectif $\lambda 1_E-u$ et à $-v$, on a donc $\|v\|\geqslant \|R(u, \lambda )\|^{-1}$. Il en résulte que la condition (iii) implique (i).
 
@@ -1000,7 +1000,7 @@ a) Le spectre de $m_g$ est l’image $\mu$-essentielle S de $g$;
 
 b) Soit $\lambda \in \mathbf{C}-$ Sp($m_g$). La résolvante $R(m_g, \lambda )$ est l’opérateur de multiplication $m_h$, où $h$ est la fonction sur X définie par $h(x) = 0$ si $g(x) =\lambda$ et $h(x) = (\lambda -g(x))^{-1}$ sinon.
 
-Démontrons que $\mathbf{C}-$ S est contenu dans l’ensemble résolvant de $m_g$. Soit $\lambda \in \mathbf{C}-$ S. Il existe un voisinage ouvert U de $\lambda$ tel que le sous-ensemble $Y =\overset{-1}{g}(U)$ de X est localement $\mu$-négligeable. La fonction $k$ définie sur X par $k(x) = (\lambda -g(x))^{-1}$ si $x /\in Y$ et $k(x) = 0$ si $x\in Y$ appartient alors à $\mathscr{L}^{\infty}(X, \mu)$ (lemme 5 de IV, p. 184) ; l’opérateur de multiplication par $k$ est donc un endomorphisme de $L^2(X, \mu)$.
+Démontrons que $\mathbf{C}-$ S est contenu dans l’ensemble résolvant de $m_g$. Soit $\lambda \in \mathbf{C}-$ S. Il existe un voisinage ouvert U de $\lambda$ tel que le sous-ensemble $Y =\overset{-1}{g}(U)$ de X est localement $\mu$-négligeable. La fonction $k$ définie sur X par $k(x) = (\lambda -g(x))^{-1}$ si $x \notin Y$ et $k(x) = 0$ si $x\in Y$ appartient alors à $\mathscr{L}^{\infty}(X, \mu)$ (lemme 5 de IV, p. 184) ; l’opérateur de multiplication par $k$ est donc un endomorphisme de $L^2(X, \mu)$.
 
 Comme $|gk|\leqslant 1 +|\lambda k|$, on a
 

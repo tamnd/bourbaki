@@ -34,7 +34,7 @@ subsections:
       pdf_page: 384
 statements: 16
 exercises: 8
-content_sha256: ae4aa5e80f128f89e1bfd9c883c6b5e3e27a25658be7e13fea490e2263cc2806
+content_sha256: 29c7745ce44d10980513b080b27eb063e43ebe7bda18a9a407a496a816099f84
 ---
 
 ## § 19. QUATERNION ALGEBRAS
@@ -177,7 +177,7 @@ a) If $p\not= 2$, then there exist nonzero elements $\alpha$ and $\gamma$ of K s
 
 b) If $p= 2$, then there exist an element $\alpha$ of K and an element $\gamma$ of $K^*$ such that the algebra A is isomorphic to the quaternion algebra of type $(\alpha ,1, \gamma )$.
 
-By Wedderburn’s theorem (VIII, p. 120, Theorem 1), there exist an integer $r\geqslant 1$ and a field D with center K such that A is isomorphic to $\mathbf{M}_r(D)$. We then have $r^2[D : K] = [A : K] = 4$. If $r= 2$, then A is isomorphic to $\mathbf{M}_2$(K), and Proposition 4 follows from the example of VIII, p. 362. Otherwise, we have $r= 1$, and A is a field with center K. It then has a maximal commutative subfield E that is a separable extension of K; since A has degree 4 over K, the extension E has degree 2 over K (VIII, p. 265, Corollary 2). It is therefore quadratic (III, §2, No. 3, p. 439). Let $s$ be the conjugation of E (III, §2, No. 3, p. 440). By the Skolem–Noether theorem (VIII, p. 256, Corollary 1), there exists an invertible element $j$ of A such that we have $s(x) =jxj^{-1}$ for every $x$ in E. The field E is separable over K, so we have $s\not=$ Id$_E$, so that $j /\in E$. Since A is a vector space of dimension 4 over K, it is a left vector space of dimension 2 over E, so we have $A = E\oplus Ej$. We have $s^2=$ Id$_E$, so the element $j^2$ of A belongs to the center of A; hence there exists an element $\gamma$ of $K^*$ such that $j^2=\gamma$.
+By Wedderburn’s theorem (VIII, p. 120, Theorem 1), there exist an integer $r\geqslant 1$ and a field D with center K such that A is isomorphic to $\mathbf{M}_r(D)$. We then have $r^2[D : K] = [A : K] = 4$. If $r= 2$, then A is isomorphic to $\mathbf{M}_2$(K), and Proposition 4 follows from the example of VIII, p. 362. Otherwise, we have $r= 1$, and A is a field with center K. It then has a maximal commutative subfield E that is a separable extension of K; since A has degree 4 over K, the extension E has degree 2 over K (VIII, p. 265, Corollary 2). It is therefore quadratic (III, §2, No. 3, p. 439). Let $s$ be the conjugation of E (III, §2, No. 3, p. 440). By the Skolem–Noether theorem (VIII, p. 256, Corollary 1), there exists an invertible element $j$ of A such that we have $s(x) =jxj^{-1}$ for every $x$ in E. The field E is separable over K, so we have $s\not=$ Id$_E$, so that $j \notin E$. Since A is a vector space of dimension 4 over K, it is a left vector space of dimension 2 over E, so we have $A = E\oplus Ej$. We have $s^2=$ Id$_E$, so the element $j^2$ of A belongs to the center of A; hence there exists an element $\gamma$ of $K^*$ such that $j^2=\gamma$.
 
 When $p\not= 2$, there exist an element $i$ of E and an element $\alpha \in K^*$ such that $E = K(i)$ and $i^2=\alpha$ (V, §11, No. 9, p. 93, Example 3); in this case, A is isomorphic to the quaternion algebra of type $(\alpha ,0, \gamma )$. When $p= 2$, there exist an element $i$ of E and an element $\alpha$ of K such that $E = K(i)$ and $i^2=i+\alpha$ (V, §11, No. 9, p. 93, Example 2), so that A is isomorphic to the quaternion algebra of type $(\alpha ,1, \gamma )$.
 

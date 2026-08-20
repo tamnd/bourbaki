@@ -33,7 +33,7 @@ subsections:
       pdf_page: 156
 statements: 24
 exercises: 18
-content_sha256: 704a61f43476e5a7b9e4d658db6efed7d1e24f004528a4e668a5984514eee354
+content_sha256: d3c05797fa6759d3e121c8bb13944632a7b77c3923d5c20eb54c878ebde76832
 ---
 
 ## § 8. SYMMETRIC INVARIANTS
@@ -311,7 +311,7 @@ The algebra $\mathbf{S}(\mathfrak{a}^*)$ is a graded free module over I. Indeed,
 
 #### Lemma 6 {#lie-viii-s8-lem-6 .statement tag=015G}
 
-Let V be a finite dimensional vector space, G a finite group of automorphisms of V, and $v$ and $v'$ elements of V such that $v'\in /Gv$. There exists a G-invariant polynomial function $f$ on V such that $f(v')\not=f(v)$.
+Let V be a finite dimensional vector space, G a finite group of automorphisms of V, and $v$ and $v'$ elements of V such that $v'\notin Gv$. There exists a G-invariant polynomial function $f$ on V such that $f(v')\not=f(v)$.
 
 Indeed, for each $s\in G$ there exists a polynomial function $g_s$ on V equal to 1 at $v$ and to 0 at $sv'$. Then the function $g= 1-\prod_{s\in G}g_s$ is equal to 0 at
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 112
 statements: 23
 exercises: 7
-content_sha256: a9494c8e88feaa169cddea69844ed1aae9b15c415460415c216ebc68b98b4902
+content_sha256: d31efd9ddbb6c9db525488b6ea28a82ed909217def1e86239e848957a5f5eb01
 ---
 
 ## § 4. SPLIT SEMI-SIMPLE LIE ALGEBRA DEFINED BY A REDUCED ROOT SYSTEM
@@ -68,7 +68,7 @@ $$
 \{\beta , \beta +\alpha , . . . , \beta -n(\beta , \alpha )\alpha \}
 $$
 
-hence $\beta +(1-n(\beta , \alpha ))\alpha  /\in R$, which proves (5). The equality (6) is established in a similar way. The family $(H_{\alpha})_{\alpha\in B}$ is a basis of $R^{\vee}$, and hence of $\mathfrak{h}$. If $X_{\alpha}\not= 0$ and $X_{-\alpha}\not= 0$ for all $\alpha \in B$, then $[X_{\alpha}, X_{-\alpha}] =\lambda_{\alpha}H_{\alpha}$ with $\lambda_{\alpha}\not= 0$, so the last assertion follows from §3, no. 3, Prop. 9 (iii).
+hence $\beta +(1-n(\beta , \alpha ))\alpha  \notin R$, which proves (5). The equality (6) is established in a similar way. The family $(H_{\alpha})_{\alpha\in B}$ is a basis of $R^{\vee}$, and hence of $\mathfrak{h}$. If $X_{\alpha}\not= 0$ and $X_{-\alpha}\not= 0$ for all $\alpha \in B$, then $[X_{\alpha}, X_{-\alpha}] =\lambda_{\alpha}H_{\alpha}$ with $\lambda_{\alpha}\not= 0$, so the last assertion follows from §3, no. 3, Prop. 9 (iii).
 
 #### Definition 1 {#lie-viii-s4-def-1 .statement tag=010U}
 
@@ -448,9 +448,9 @@ which proves that certain $t_{\alpha}$ are $>0$ and others are $<0$.
 
 #### Lemma 11 {#lie-viii-s4-lem-11 .statement tag=0119}
 
-Let $\mu\in Q$. If $\mu /\in R\cup \{0\}$, then $\mathfrak{g}^\mu= 0$. If $\mu\in R$, then dim$\mathfrak{g}^\mu= 1$.
+Let $\mu\in Q$. If $\mu \notin R\cup \{0\}$, then $\mathfrak{g}^\mu= 0$. If $\mu\in R$, then dim$\mathfrak{g}^\mu= 1$.
 
-1) If $\mu$ is not a multiple of an element of R, there exists $w\in W$ such that $w\mu /\in Q_+\cup Q_-$ (Lemma 10), so $\mathfrak{a}^{w\mu}= 0,\mathfrak{g}^{w\mu}= 0$, and hence $\mathfrak{g}^\mu= 0$ (Lemma 9).
+1) If $\mu$ is not a multiple of an element of R, there exists $w\in W$ such that $w\mu \notin Q_+\cup Q_-$ (Lemma 10), so $\mathfrak{a}^{w\mu}= 0,\mathfrak{g}^{w\mu}= 0$, and hence $\mathfrak{g}^\mu= 0$ (Lemma 9).
 
 2) Let $\alpha \in B$ and let $m$ be an integer. Since $\mathfrak{a}_+$ is a free Lie algebra with basic family $(x_{\alpha})_{\alpha\in B}$, we have dim$\mathfrak{a}^{\alpha}= 1$ and $\mathfrak{a}^{m\alpha}= 0$ for $m >1$ (Chap. II, §2, no. 6, Prop. 4). Hence dim$\mathfrak{g}^{\alpha}\leq 1$ and $\mathfrak{g}^{m\alpha}= 0$ for $m >1$. We cannot have $\mathfrak{g}^{\alpha}= 0$, as this would imply that $x_{\alpha}\in \mathfrak{n}+\theta \mathfrak{n}$, and hence that $\mathfrak{n}+\theta \mathfrak{n}$ contains $h_{\alpha}=-[x_{\alpha}, x_{-\alpha}]$, whereas $\mathfrak{a}^0\cap (\mathfrak{n}+\theta \mathfrak{n}) = 0$. Consequently, dim$\mathfrak{g}^{\alpha}= 1$.
 

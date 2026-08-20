@@ -45,7 +45,7 @@ subsections:
       pdf_page: 207
 statements: 32
 exercises: 28
-content_sha256: 6d9641c662161fafe14457c406dbada0311d42da2c0802019f672475bc366285
+content_sha256: 599ff9259cb84424a17e1f017fdd2fb6a18f4e62275c59892bbbafb68a6beda5
 ---
 
 ## § 2. ENDOMORPHISMES NORMAUX
@@ -110,7 +110,7 @@ Réciproquement, si $z\in \mathbf{C}$ est adhérent à $g$(Y), alors pour tout v
 
 #### Lemme 3 {#ts-iv-s2-lem-3 .statement tag=02YT}
 
-Soient $g$ une fonction continue de X dans $\mathbf{C}$ et S son image $\mu$-essentielle. On suppose que S n’est pas vide et que $0\in /S$ et on note $\delta$ la distance de 0 à S. On a $\delta  >0$.
+Soient $g$ une fonction continue de X dans $\mathbf{C}$ et S son image $\mu$-essentielle. On suppose que S n’est pas vide et que $0\notin S$ et on note $\delta$ la distance de 0 à S. On a $\delta  >0$.
 
 Posons $h(x) = 1/g(x)$ si $g(x)\not = 0$ et $h(x) = 0$ sinon. La fonction $h$ appartient à $\mathscr{L}^{\infty}(X, \mu)$. Soit $\widetilde{h}$ la classe de $h$ dans $L^{\infty}(X, \mu)$. On a alors la formule $\delta^{-1}=\|\widetilde{h}\|_{\infty}$.
 
@@ -156,11 +156,11 @@ Il peut exister des fonctions universellement mesurables sur X qui ne sont pas b
 
 #### Lemme 5 {#ts-iv-s2-lem-5 .statement tag=02YW}
 
-Soit $\mu$ une mesure positive sur X. Soient $g$ une fonction $\mu$-mesurable de X dans $\mathbf{C}$ et S son image $\mu$-essentielle. Pour toute fonction $f\in \mathscr{L}_u(S)$, l’application $h$ de X dans $\mathbf{C}$ telle que $h(x) = 0$ si $g(x)\in /S$ et $h(x) =f(g(x))$ si $g(x)\in S$ est $\mu$-mesurable.
+Soit $\mu$ une mesure positive sur X. Soient $g$ une fonction $\mu$-mesurable de X dans $\mathbf{C}$ et S son image $\mu$-essentielle. Pour toute fonction $f\in \mathscr{L}_u(S)$, l’application $h$ de X dans $\mathbf{C}$ telle que $h(x) = 0$ si $g(x)\notin S$ et $h(x) =f(g(x))$ si $g(x)\in S$ est $\mu$-mesurable.
 
 Soient $x\in X$ et U un voisinage ouvert relativement compact de $x$. L’ensemble N = U - $(U\cap \overset{-1}{g}(S))$ est $(\mu|$U)-négligeable. Pour tout entier $n\geqslant 1$, soit $V_n$ un ouvert tel que $N\subset V_n\subset U$ et $\mu(V_n-N)<1/n$ (INT, IV, p. 116, § 1, n$^o4$, prop. 19).
 
-La restriction $\widetilde{g}$ de $g$ à U- $V_n$ est $\mu|(U$- $V_n$)-propre et son image est contenue dans S. Puisque $f$ est universellement mesurable, l’application $x\mapsto f(g(x))$ de U - $V_n$ dans $\mathbf{C}$ est mesurable par rapport à la mesure $\mu|(U$ - $V_n)$ (INT, V, p. 71, § 6, n$^o2$, prop. 3). L’application $h_n$ de X dans $\mathbf{C}$ telle que $h_n(x) = 0$ si $x /\in U$ - $V_n$ et $h_n(x) =f(g(x))$ si $x\in U$ - $V_n$ est donc $\mu$-mesurable (INT, IV, p. 193, § 5, n$^o10$, prop. 16).
+La restriction $\widetilde{g}$ de $g$ à U- $V_n$ est $\mu|(U$- $V_n$)-propre et son image est contenue dans S. Puisque $f$ est universellement mesurable, l’application $x\mapsto f(g(x))$ de U - $V_n$ dans $\mathbf{C}$ est mesurable par rapport à la mesure $\mu|(U$ - $V_n)$ (INT, V, p. 71, § 6, n$^o2$, prop. 3). L’application $h_n$ de X dans $\mathbf{C}$ telle que $h_n(x) = 0$ si $x \notin U$ - $V_n$ et $h_n(x) =f(g(x))$ si $x\in U$ - $V_n$ est donc $\mu$-mesurable (INT, IV, p. 193, § 5, n$^o10$, prop. 16).
 
 Comme $h_n(x)\rightarrow h(x)$ pour $\mu$-presque tout $x\in U$, la restriction de $h$ à U est $\mu$-mesurable (INT, IV, p. 175, § 5, n$^o4$, th. 2). On conclut que $h$ est $\mu$-mesurable d’après le principe de localisation (INT, IV, p. 171, § 4, n$^o2$, prop. 4).
 
@@ -180,7 +180,7 @@ Soit X un espace topologique localement compact et soit $\mu$ une mesure positiv
 
 Soit $g\in \mathscr{L}^{\infty}(X, \mu)$. Le spectre de la classe de $g$ dans $L^{\infty}(X, \mu)$ est égal à l’image $\mu$-essentielle de $g$.
 
-Notons $\widetilde{g}$ la classe de $g$ dans $L^{\infty}(X, \mu)$ et S l’image $\mu$-essentielle de $g$. Soit $z\in \mathbf{C}-$ S. Par définition, il existe un voisinage ouvert U de $z$ tel que $Y =\overset{-1}{g}(U)$ est localement $\mu$-négligeable. La fonction $h$ définie par $h(x) = (g(x)-z)^{-1}$ si $x /\in Y$, et $h(x) = 0$ si $x\in Y$, appartient alors à $\mathscr{L}^{\infty}(X, \mu)$. Sa classe $\widetilde{h}$ dans $L^{\infty}(X, \mu)$ vérifie $(\widetilde{g}-z)\widetilde{h}= 1$, puisque $(g(x)-z)h(x) = 1$ pour tout $x$ n’appartenant pas à l’ensemble localement $\mu$-négligeable Y. Donc $z\in \mathbf{C}-$ Sp($\widetilde{g}$).
+Notons $\widetilde{g}$ la classe de $g$ dans $L^{\infty}(X, \mu)$ et S l’image $\mu$-essentielle de $g$. Soit $z\in \mathbf{C}-$ S. Par définition, il existe un voisinage ouvert U de $z$ tel que $Y =\overset{-1}{g}(U)$ est localement $\mu$-négligeable. La fonction $h$ définie par $h(x) = (g(x)-z)^{-1}$ si $x \notin Y$, et $h(x) = 0$ si $x\in Y$, appartient alors à $\mathscr{L}^{\infty}(X, \mu)$. Sa classe $\widetilde{h}$ dans $L^{\infty}(X, \mu)$ vérifie $(\widetilde{g}-z)\widetilde{h}= 1$, puisque $(g(x)-z)h(x) = 1$ pour tout $x$ n’appartenant pas à l’ensemble localement $\mu$-négligeable Y. Donc $z\in \mathbf{C}-$ Sp($\widetilde{g}$).
 
 Réciproquement, soit $z\in \mathbf{C}-$ Sp($\widetilde{g}$). Soit $h\in \mathscr{L}^{\infty}(X, \mu)$ une fonction dont la classe est l’inverse de $\widetilde{g}-z$ dans $L^{\infty}(X, \mu)$. Il existe un nombre réel $M>0$ tel que $|h(x)|\leqslant M$ localement $\mu$-presque partout, et de plus on a $(g(x)-z)h(x) = 1$ localement $\mu$-presque partout. Soit U la boule ouverte de centre $z$ et de rayon $M^{-1}$ dans $\mathbf{C}$; alors $\overset{-1}{g}(U)$ est contenu dans l’ensemble localement $\mu$-négligeable
 

@@ -61,14 +61,14 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: d4846e16e7ba4b093b85f8576ddb2caea6ce390776d41916548e8538eb2d2add
+content_sha256: f70f085776eb5d6d046d7d9ac871a7701df94e569116088cb03b244cfa02460d
 ---
 
 ## § 5. OPÉRATEURS PARTIELS NORMAUX ET THÉORÈME SPECTRAL
 
 ### 1. Bornification
 
-Soit E un espace hilbertien complexe. On note $s$ l’application unitaire $(x, y)\mapsto (-y, x)$ sur $E\oplus E$. Soit $u$ un opérateur partiel fermé à domaine dense sur E. L’opérateur partiel $u^*u$ est auto-adjoint et positif (prop. 12 de IV, p. 241), donc $-1\in /$ Sp($u^*u$) (prop. 17 de IV, p. 248). On note $W(u) = (1_E+u^*u)^{-1}=-R(u^*u,-1)$; c’est un endomorphisme positif et injectif de E.
+Soit E un espace hilbertien complexe. On note $s$ l’application unitaire $(x, y)\mapsto (-y, x)$ sur $E\oplus E$. Soit $u$ un opérateur partiel fermé à domaine dense sur E. L’opérateur partiel $u^*u$ est auto-adjoint et positif (prop. 12 de IV, p. 241), donc $-1\notin$ Sp($u^*u$) (prop. 17 de IV, p. 248). On note $W(u) = (1_E+u^*u)^{-1}=-R(u^*u,-1)$; c’est un endomorphisme positif et injectif de E.
 
 Notons $p_1$ et $p_2$ les deux projections canoniques de $\Gamma_u$ dans E. Ce sont des éléments de $\mathscr{L}(\Gamma_u; E)$, et on a l’égalité de correspondances $p_2=u\circ p_1$. Soit $(j,|p^*_1|)$ la décomposition polaire (déf. 4 de I, p. 140) de l’endomorphisme $p^*_1\in \mathscr{L}(E; \Gamma_u)$, de sorte que $p^*_1=|p^*_1| \circ j$. L’application $j$ est une isométrie partielle de E dans $\Gamma_u$.
 
@@ -724,7 +724,7 @@ Réciproquement, supposons que $x$ appartient à l’image $E_{\lambda}$ de $p_{
 
 Soit $\lambda \in \mathbf{C}$. On a $\lambda \in$ Sp($u$) si et seulement si, pour tout voisinage ouvert V de $\lambda$ dans $\mathbf{C}$, le projecteur spectral $p_V$ de $u$ relatif à V est non nul.
 
-Si $\lambda  /\in$ Sp($u$), alors il existe un voisinage ouvert V de $\lambda$ dans $\mathbf{C}$ qui ne rencontre pas Sp($u$), et alors $p_V=p_{\emptyset}= 0$.
+Si $\lambda  \notin$ Sp($u$), alors il existe un voisinage ouvert V de $\lambda$ dans $\mathbf{C}$ qui ne rencontre pas Sp($u$), et alors $p_V=p_{\emptyset}= 0$.
 
 Réciproquement, supposons qu’il existe un voisinage ouvert V de $\lambda$ dans $\mathbf{C}$ tel que $p_V= 0$. Soit $c >0$ tel que le disque de centre $\lambda$ et de rayon $c$ est contenu dans V.
 
@@ -1754,15 +1754,15 @@ Soit $u$ un opérateur partiel auto-adjoint sur E. Les conditions suivantes sont
 
 (iv) Le spectre de $u$ coïncide avec le spectre sensible de $u$.
 
-Supposons que (i) est vérifiée et soit $(\lambda_j)_{j\in J}$ la famille des valeurs propres de $u$. Soit $\mu$ la mesure de comptage sur J. Le spectre de $u$ est l’image $\mu$-essentielle de la famille $(\lambda_j)$ (prop. 22 de IV, p. 252) ; c’est l’ensemble des valeurs de cette famille. Pour tout $\lambda  /\in$ Sp($u$), la résolvante $R(u, \lambda )$ est diagonale dans la base B et la famille de ses valeurs propres est $((\lambda -\lambda_j)^{-1})_{j\in J}($loc. cit.). Puisque cette famille converge vers 0, l’endomorphisme $R(u, \lambda )$ est compact (prop. 2, (iii) de IV, p. 148). Cela démontre que (i) implique (ii).
+Supposons que (i) est vérifiée et soit $(\lambda_j)_{j\in J}$ la famille des valeurs propres de $u$. Soit $\mu$ la mesure de comptage sur J. Le spectre de $u$ est l’image $\mu$-essentielle de la famille $(\lambda_j)$ (prop. 22 de IV, p. 252) ; c’est l’ensemble des valeurs de cette famille. Pour tout $\lambda  \notin$ Sp($u$), la résolvante $R(u, \lambda )$ est diagonale dans la base B et la famille de ses valeurs propres est $((\lambda -\lambda_j)^{-1})_{j\in J}($loc. cit.). Puisque cette famille converge vers 0, l’endomorphisme $R(u, \lambda )$ est compact (prop. 2, (iii) de IV, p. 148). Cela démontre que (i) implique (ii).
 
 Comme l’ensemble résolvant de $u$ est non vide (cf. prop. 17 de IV, p. 248), les propriétés (ii) et (iii) sont équivalentes d’après la formule (8) de IV, p. 245 et la proposition 3 de III, p. 5.
 
-Comme $R(u, \lambda )$ est normal pour $\lambda  /\in$ Sp($u$) (prop. 16 de IV, p. 247), la condition (iii) implique (iv) d’après la prop. 15 de IV, p. 247 et la prop. 5 de III, p. 90.
+Comme $R(u, \lambda )$ est normal pour $\lambda  \notin$ Sp($u$) (prop. 16 de IV, p. 247), la condition (iii) implique (iv) d’après la prop. 15 de IV, p. 247 et la prop. 5 de III, p. 90.
 
 Démontrons finalement que (iv) implique (i). Soit $\mathscr{O}$ l’ensemble des parties orthonormales de E formées de vecteurs propres pour $u$. L’ensemble $\mathscr{O}$, ordonné par l’inclusion, est de caractère fini (E, III, p. 34, déf. 2) puisque O appartient à $\mathscr{O}$ si et seulement si les ensembles formés d’au plus deux éléments de O appartiennent à $\mathscr{O}$. D’après E, III, p. 35, th. 1, il existe un élément maximal O de $\mathscr{O}$. Notons F le sous-espace fermé de E engendré par O. Pour $e\in O$, il existe un unique $\lambda (e)\in \mathbf{R}$ tel que $u(e) =\lambda (e)e$ (prop. 17 de IV, p. 248).
 
-L’ensemble des valeurs de l’application $\lambda$ de O dans $\mathbf{R}$ coïncide avec le spectre de $u$. En effet, d’une part cet ensemble est contenu dans le spectre de $u$ et d’autre part, s’il existe $\lambda_0\in$ Sp($u$) qui ne soit pas une valeur de $\lambda$, alors $\lambda_0$ est une valeur propre de $u$ par hypothèse. Il existe un vecteur $e\in$ dom($u$) de norme 1 tel que $u(e) =\lambda_0e$ et $e /\in O$; le sous-ensemble $O\cup  \{e\}$ est orthonormal (puisque des sous-espaces propres de $u$ relatifs à des valeurs propres distinctes sont orthogonaux d’après l’assertion b) du cor. de la prop. 17 de IV, p. 248) ; il appartient à $\mathscr{O}$, contredisant la maximalité de O.
+L’ensemble des valeurs de l’application $\lambda$ de O dans $\mathbf{R}$ coïncide avec le spectre de $u$. En effet, d’une part cet ensemble est contenu dans le spectre de $u$ et d’autre part, s’il existe $\lambda_0\in$ Sp($u$) qui ne soit pas une valeur de $\lambda$, alors $\lambda_0$ est une valeur propre de $u$ par hypothèse. Il existe un vecteur $e\in$ dom($u$) de norme 1 tel que $u(e) =\lambda_0e$ et $e \notin O$; le sous-ensemble $O\cup  \{e\}$ est orthonormal (puisque des sous-espaces propres de $u$ relatifs à des valeurs propres distinctes sont orthogonaux d’après l’assertion b) du cor. de la prop. 17 de IV, p. 248) ; il appartient à $\mathscr{O}$, contredisant la maximalité de O.
 
 Supposons que $F\not = E$. Alors $F^{\circ}$ est non nul. L’endomorphisme $R(u, i)$ de E est normal (prop. 16 de IV, p. 247). Il laisse stable le sous-espace $F^{\circ}$ de E (lemme 4 de I, p. 135). Soit $v$ l’endomorphisme de $F^{\circ}$ déduit de $R(u, i)$ par passage aux sous-espaces. C’est un endomorphisme continu et normal de $F^{\circ}($loc. cit.) dont le spectre est contenu dans celui de $R(u, i)$. Comme $F^{\circ}$ est non nul, le spectre de $v$ est non vide (cor. 1 de I, p. 26). De plus, le spectre de $v$ n’est pas réduit à 0, puisque l’endomorphisme normal $v$ est non nul (exemple 1 de I, p. 110). Soit $s\in$ Sp($v$)$-\{0\}$. Comme $s$ appartient au spectre de $R(u, i)$, il existe $e\in O$ tel que $s= (i-\lambda (e))^{-1}$, et $s$ est une valeur propre de $R(u, i)$ (prop. 15, a) de IV, p. 247). Comme $s$ est non nul, c’est un point isolé de Sp(R($u, i$)) par hypothèse, donc aussi de Sp($v$). Ainsi, $s$ est une valeur propre de $v$ (prop. 5, c) de I, p. 134). Soit $e\in F^{\circ}$ un vecteur propre de norme 1 de $v$; c’est également un vecteur propre de $u$ (prop. 15, b) de IV, p. 247), et l’ensemble $O\cup  \{e\}$ contredit le fait que O est maximal dans $\mathscr{O}$. On a donc F = E.
 
@@ -1776,7 +1776,7 @@ Soit $u$ un opérateur partiel auto-adjoint sur E. On dit que $u$ est à résolv
 
 Soit $u$ un opérateur partiel auto-adjoint sur E. Alors $u$ est à résolvante compacte si et seulement si l’injection canonique $j$ de l’espace hilbertien $E_u$ dans E est compacte.
 
-Supposons que $u$ est à résolvante compacte. Il existe $\lambda  /\in$ Sp($u$) tel que $R(u, \lambda )$ est compacte (prop. 19, (iii)). Soit B la boule unité de l’espace hilbertien $E_u$. Puisque $u$ est une application linéaire continue de $E_u$ dans E, le sous-ensemble $B'= (\lambda 1_E-u)(B)$ de E est borné. Puisque $R(u, \lambda )$ est compacte, le sous-ensemble $B = R(u, \lambda )(B')$ est relativement compact dans E (remarque 1 de III, p. 2). Cela démontre que $j$ est compacte.
+Supposons que $u$ est à résolvante compacte. Il existe $\lambda  \notin$ Sp($u$) tel que $R(u, \lambda )$ est compacte (prop. 19, (iii)). Soit B la boule unité de l’espace hilbertien $E_u$. Puisque $u$ est une application linéaire continue de $E_u$ dans E, le sous-ensemble $B'= (\lambda 1_E-u)(B)$ de E est borné. Puisque $R(u, \lambda )$ est compacte, le sous-ensemble $B = R(u, \lambda )(B')$ est relativement compact dans E (remarque 1 de III, p. 2). Cela démontre que $j$ est compacte.
 
 Réciproquement, supposons que l’application linéaire $j$ est compacte. Le nombre complexe $i$ appartient à l’ensemble résolvant de $u$ (prop. 17 de IV, p. 248). On a $u\circ R(u, i) =-1_E+iR(u, i)$. Soit B la boule unité de E. Pour tout $x\in B$, on a
 

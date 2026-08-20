@@ -33,7 +33,7 @@ subsections:
       pdf_page: 362
 statements: 16
 exercises: 8
-content_sha256: 4d8e0cf5236836667cbbaa2a8cb527fe85f1043aab46f74caa68aaf232b4d638
+content_sha256: cb1b2249c73e00ba37f14ad5a479b9f302dba814caacbf35f5fe50294424223c
 ---
 
 ## § 19. ALGÈBRES DE QUATERNIONS
@@ -172,7 +172,7 @@ a) Si $p\not= 2$, il existe des éléments non nuls $\alpha$ et $\gamma$ de K te
 
 b) Si $p= 2$, il existe un élément $\alpha$ de K et un élément $\gamma$ de $K^*$ tels que l’algèbre A soit isomorphe à l’algèbre de quaternions de type $(\alpha ,1, \gamma )$.
 
-D’après le théorème de Wedderburn (VIII, p. 116, th. 1), il existe un entier $r\geqslant 1$ et un corps D de centre K tels que A soit isomorphe à $\mathbf{M}_r(D)$. On a alors $r^2[D : K] = [A : K] = 4$. Si $r= 2, A$ est isomorphe à $\mathbf{M}_2(K)$ et la proposition 4 résulte de l’exemple de VIII, p. 354 ; sinon, on a $r= 1$ et A est un corps de centre K. Il possède alors un sous-corps commutatif maximal E qui est une extension séparable de K ; comme A est de degré 4 sur K, l’extension E est de degré 2 sur K (VIII, p. 261, cor. 2). Elle est donc quadratique (III, p. 16). Soit $s$ la conjugaison dans E (III, p. 14). D’après le théorème de Skolem-Noether (VIII, p. 253, cor. 1), il existe un élément inversible $j$ de A tel que l’on ait $s(x) =jxj^{-1}$ pour tout $x$ dans E. Comme E est séparable sur K, on a $s\not=$ Id$_E$, d’où $j /\in E$; comme A est un espace vectoriel de dimension 4 sur K, c’est un espace vectoriel à gauche de dimension 2 sur E, d’où $A = E\oplus Ej$. Comme $s^2=$ Id$_E$, l’élément $j^2$ de A appartient au centre de A ; il existe donc un élément $\gamma$ de $K^*$ tel que $j^2=\gamma$.
+D’après le théorème de Wedderburn (VIII, p. 116, th. 1), il existe un entier $r\geqslant 1$ et un corps D de centre K tels que A soit isomorphe à $\mathbf{M}_r(D)$. On a alors $r^2[D : K] = [A : K] = 4$. Si $r= 2, A$ est isomorphe à $\mathbf{M}_2(K)$ et la proposition 4 résulte de l’exemple de VIII, p. 354 ; sinon, on a $r= 1$ et A est un corps de centre K. Il possède alors un sous-corps commutatif maximal E qui est une extension séparable de K ; comme A est de degré 4 sur K, l’extension E est de degré 2 sur K (VIII, p. 261, cor. 2). Elle est donc quadratique (III, p. 16). Soit $s$ la conjugaison dans E (III, p. 14). D’après le théorème de Skolem-Noether (VIII, p. 253, cor. 1), il existe un élément inversible $j$ de A tel que l’on ait $s(x) =jxj^{-1}$ pour tout $x$ dans E. Comme E est séparable sur K, on a $s\not=$ Id$_E$, d’où $j \notin E$; comme A est un espace vectoriel de dimension 4 sur K, c’est un espace vectoriel à gauche de dimension 2 sur E, d’où $A = E\oplus Ej$. Comme $s^2=$ Id$_E$, l’élément $j^2$ de A appartient au centre de A ; il existe donc un élément $\gamma$ de $K^*$ tel que $j^2=\gamma$.
 
 Lorsque $p\not= 2$, il existe un élément $i$ de E et un élément $\alpha \in K^*$ tels que $E = K(i)$ et $i^2=\alpha$ (V, p. 86, exemple 3) ; dans ce cas, A est isomorphe à l’algèbre de quaternions de type $(\alpha ,0, \gamma )$. Lorsque $p= 2$, il existe un élément $i$ de E et un élément $\alpha$ de K tels que $E = K(i)$ et $i^2=i+\alpha$ (V, p. 89, exemple 2), de sorte que A est isomorphe à l’algèbre de quaternions de type $(\alpha ,1, \gamma )$.
 

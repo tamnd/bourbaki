@@ -53,7 +53,7 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: 78aa365c4ece2d56abd81140632766ec3df87d38b97b4dc5d6d9fda5d7866513
+content_sha256: fbea58f10a6728a76148dca7971a337d3f9c2d87c3edf12d96a91f1434fc25b7
 ---
 
 ## § 4. ROOT SYSTEM ASSOCIATED TO A COMPACT GROUP
@@ -432,7 +432,7 @@ In particular:
 
 $\nu (-0$1 $-01)=\nu_T(-1) =$ exp$(\frac{1}{2}K_{\alpha})$. (15)
 
-It follows that $\nu$ is injective if and only if $K_{\alpha}\in /2\Gamma$(T), in other words if there exists $\lambda \in X(T)$ such that $\langle \lambda , K_{\alpha}\rangle \in /2\mathbf{Z}$. When $\mathfrak{g}_{\mathbf{C}}$ is simple, $\nu$ is injective unless $\mathfrak{g}_{\mathbf{C}}$ is of type $B_n, C(G) =\{1\}$ and $\alpha$ is a short root (cf. Chap. VI, Plates).
+It follows that $\nu$ is injective if and only if $K_{\alpha}\notin2\Gamma$(T), in other words if there exists $\lambda \in X(T)$ such that $\langle \lambda , K_{\alpha}\rangle \notin2\mathbf{Z}$. When $\mathfrak{g}_{\mathbf{C}}$ is simple, $\nu$ is injective unless $\mathfrak{g}_{\mathbf{C}}$ is of type $B_n, C(G) =\{1\}$ and $\alpha$ is a short root (cf. Chap. VI, Plates).
 
 In the remainder of this paragraph we denote by $R^{\vee}(G,T)$ the set of nodal vectors $K_{\alpha}$ for $\alpha \in R(G,T)$. This is a subset of $\Gamma (T)$ that the canonical injection of $\Gamma (T)$ into $\mathfrak{t}_{\mathbf{C}}$ identifies with the homothety with ratio $2\pi i$ of the inverse root system $R^{\vee}(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}}) =\{H_{\delta(\alpha)}\}$ of $\delta (R)$. It follows that $R^{\vee}(G,T)$ generates the $\mathbf{R}$-vector space $L(T\cap D(G))$, and hence that its orthogonal complement in X(T) is $X(T/(T\cap D(G)))$.
 

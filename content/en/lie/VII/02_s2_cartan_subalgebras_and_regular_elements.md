@@ -29,7 +29,7 @@ subsections:
       pdf_page: 29
 statements: 40
 exercises: 16
-content_sha256: 7bef80c640e0b2cea2b578e1af6a1cfce1a10507b2871b5ad422baa9e235589c
+content_sha256: cd216f4473ca42ded2206eb6bb0c4659b8f54dd4567c37dde5e1e1476691ef01
 ---
 
 ## § 2. CARTAN SUBALGEBRAS AND REGULAR ELEMENTS OF A LIE ALGEBRA
@@ -94,7 +94,7 @@ Indeed, $\mathfrak{h}$ is nilpotent if and only if $\mathfrak{h}\otimes_kk'$ is 
 
 Let $\mathfrak{g}$ be a Lie algebra, $\mathfrak{h}$ a nilpotent subalgebra of $\mathfrak{g}$. Then $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{g}$ if and only if $\mathfrak{g}^0(\mathfrak{h}) =\mathfrak{h}$.
 
-If $\mathfrak{g}^0(\mathfrak{h}) =\mathfrak{h},\mathfrak{h}$ is its own normalizer (§1, Prop. 10 (i)), so $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{g}$. Assume that $\mathfrak{g}^0(\mathfrak{h})\not=\mathfrak{h}$. Consider the representation of $\mathfrak{h}$ on $\mathfrak{g}^0(\mathfrak{h})/\mathfrak{h}$ obtained from the adjoint representation by passage to the quotient. By applying Engel’s theorem (Chap. I, §4, no. 2, Th. 1), we see that there exists $x\in \mathfrak{g}^0(\mathfrak{h})$ such that $x /\in \mathfrak{h}$ and $[\mathfrak{h}, x]\subset \mathfrak{h}$; then $x$ belongs to the normalizer of $\mathfrak{h}$ in $\mathfrak{g}$, so $\mathfrak{h}$ is not a Cartan subalgebra of $\mathfrak{g}$.
+If $\mathfrak{g}^0(\mathfrak{h}) =\mathfrak{h},\mathfrak{h}$ is its own normalizer (§1, Prop. 10 (i)), so $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{g}$. Assume that $\mathfrak{g}^0(\mathfrak{h})\not=\mathfrak{h}$. Consider the representation of $\mathfrak{h}$ on $\mathfrak{g}^0(\mathfrak{h})/\mathfrak{h}$ obtained from the adjoint representation by passage to the quotient. By applying Engel’s theorem (Chap. I, §4, no. 2, Th. 1), we see that there exists $x\in \mathfrak{g}^0(\mathfrak{h})$ such that $x \notin \mathfrak{h}$ and $[\mathfrak{h}, x]\subset \mathfrak{h}$; then $x$ belongs to the normalizer of $\mathfrak{h}$ in $\mathfrak{g}$, so $\mathfrak{h}$ is not a Cartan subalgebra of $\mathfrak{g}$.
 
 #### Corollary 1 {#lie-vii-s2-prop-4-cor-1 .statement tag=00TS}
 
