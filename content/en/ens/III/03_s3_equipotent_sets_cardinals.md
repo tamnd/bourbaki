@@ -45,7 +45,7 @@ errata:
     - says: § 6, no. 3, Theorem 3
       read: § 6, no. 3, Theorem 2
       why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma 1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries on page 188. The Corollary 4 this sentence cites with it is the one that puts the product of two cardinals, one of them infinite, at their supremum, which is Corollary 4 of Theorem 2 and is what the sentence is about.
-content_sha256: f6c3fa2d1a8c7d26b877594fd50281f9b7654e7deaf8f72093caef9d44d7fafb
+content_sha256: b10e118edc3d4c8f8b3ba54c4c5c2db278e559b9b62eed130604ab192fa32c31
 ---
 
 ## 3. EQUIPOTENT SETS. CARDINALS
@@ -102,7 +102,7 @@ $\mathrm{Card}(\{\emptyset, \{\emptyset\}\})$ is denoted by 2; this is the cardi
 
 #### Example 4 {#ens-iii-s3-n1-exa-4 .statement tag=03T8}
 
-A Hilbert space of countable type is equipotent to the set of real numbers. *
+A Hilbert space of countable type is equipotent to the set of real numbers. \*
 
 ### 2. ORDER RELATION BETWEEN CARDINALS
 

@@ -46,7 +46,7 @@ subsections:
       pdf_page: 107
 statements: 22
 exercises: 8
-content_sha256: 8ab4db7f9a2c0d1786f20c3a5b58b30762f788c0e22d4b5bbb3b149751d0c051
+content_sha256: 32dab807d5a0ef307546f801f396883f1054bfe9358e046025e46f1ec896838b
 ---
 
 ## 4. UNION AND INTERSECTION OF A FAMILY OF SETS
@@ -200,7 +200,7 @@ $$\Gamma\left\langle \bigcap_{\iota \in I} X_\iota \right\rangle = \bigcap_{\iot
 
 is usually *false*.
 
-* For example, in the plane $\mathbf{R}^2$ the first projections of the lines $y = x$ and $y = x + 1$ are equal to $\mathbf{R}$, but the intersection of these lines is empty, and therefore so is the first projection of this intersection [^2]. *
+\* For example, in the plane $\mathbf{R}^2$ the first projections of the lines $y = x$ and $y = x + 1$ are equal to $\mathbf{R}$, but the intersection of these lines is empty, and therefore so is the first projection of this intersection [^2]. \*
 
 However, we have the following important result :
 

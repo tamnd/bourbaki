@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 16
 exercises: 1
-content_sha256: e2f5567167818817bba2b11ae764f85ace3a6afc56755252a4504b96bce16942
+content_sha256: 5733a5e5be1727f674365307e235a4a4d858970b565509403e768e2a095bada5
 translated_from: content/en/ens/IV/01_s1_structures_and_isomorphisms.md
 source_content_sha256: de7318f61d5fc652f9c0bae9f51aa21b36eb7c5f41b68e31d48196596059814b
 translation_model: gpt-5.4
@@ -204,7 +204,7 @@ $$V \in \mathfrak{P}((E \times E) \times E) \times \mathfrak{P}((K \times E) \ti
 
 #### Ví dụ 5 {#ens-iv-s1-n4-exa-5 .statement tag=03V9}
 
-Lại cho $\mathscr{T}$ là lý thuyết tập hợp; trong lý thuyết này, trường số phức $\mathbf{C}$ là một số hạng không chứa chữ cái nào. Loài cấu trúc của một *đa tạp giải tích phức chiều n* có $\mathbf{C}$ làm tập cơ sở phụ, và một tập cơ sở chính V. Ở đây chúng tôi sẽ không nêu đặc trưng hóa điển hình cũng như tiên đề của loài cấu trúc này. *
+Lại cho $\mathscr{T}$ là lý thuyết tập hợp; trong lý thuyết này, trường số phức $\mathbf{C}$ là một số hạng không chứa chữ cái nào. Loài cấu trúc của một *đa tạp giải tích phức chiều n* có $\mathbf{C}$ làm tập cơ sở phụ, và một tập cơ sở chính V. Ở đây chúng tôi sẽ không nêu đặc trưng hóa điển hình cũng như tiên đề của loài cấu trúc này. \*
 
 *Nhận xét*
 
@@ -220,7 +220,7 @@ Hơn nữa, tiên đề của một loài cấu trúc $\Sigma$ thường đượ
 
 #### Nhận xét 2 {#ens-iv-s1-n4-rem-2 .statement tag=03VB}
 
-Người ta đặt tên cho các loài cấu trúc được dùng thường xuyên nhất trong toán học, và cho các tập hợp được trang bị những cấu trúc thuộc các loài đó. Như vậy, một *tập hợp có thứ tự* (Chương III, § 1) là một tập hợp được trang bị một cấu trúc thứ tự (Ví dụ 1); * trong các Quyển sau của bộ sách này, chúng tôi sẽ định nghĩa các khái niệm *nhóm, trường, không gian tôpô, đa tạp khả vi*, v.v., mà tất cả đều chỉ các tập hợp được trang bị những cấu trúc nào đó. *
+Người ta đặt tên cho các loài cấu trúc được dùng thường xuyên nhất trong toán học, và cho các tập hợp được trang bị những cấu trúc thuộc các loài đó. Như vậy, một *tập hợp có thứ tự* (Chương III, § 1) là một tập hợp được trang bị một cấu trúc thứ tự (Ví dụ 1); \* trong các Quyển sau của bộ sách này, chúng tôi sẽ định nghĩa các khái niệm *nhóm, trường, không gian tôpô, đa tạp khả vi*, v.v., mà tất cả đều chỉ các tập hợp được trang bị những cấu trúc nào đó. \*
 
 #### Nhận xét 3 {#ens-iv-s1-n4-rem-3 .statement tag=03VC}
 

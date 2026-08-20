@@ -66,7 +66,7 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: 38894f1ab788b01edc0693d18af32d763fc6ea2801e6da2735d22d3854ee5b19
+content_sha256: dcf5b22649cb0eac4cf9ac3e2ac260375cc8586fc48653ab2f306ed22a25c53d
 ---
 
 ## 1. ORDER RELATIONS. ORDERED SETS
@@ -530,11 +530,11 @@ The set of topologies on a set A, ordered by the relation “$\mathscr{T}$ is co
 
 #### Example 4 {#ens-iii-s1-n11-exa-4 .statement tag=03TV}
 
-The set $\mathscr{F}(I,\mathbf{R})$ of all real-valued functions defined on an interval I of $\mathbf{R}$ is a lattice with respect to the order relation $f\leqslant g$ (no. 4), and as such is isomorphic to the product $\mathbf{R}^{I}$. *
+The set $\mathscr{F}(I,\mathbf{R})$ of all real-valued functions defined on an interval I of $\mathbf{R}$ is a lattice with respect to the order relation $f\leqslant g$ (no. 4), and as such is isomorphic to the product $\mathbf{R}^{I}$. \*
 
 #### Remark {#ens-iii-s1-n11-rem-1 .statement tag=03JQ}
 
-A lattice is obviously both left and right directed. But an ordered set which is both left and right directed is not necessarily a lattice. * An example of the latter is the set of mappings $x\mapsto p(x)$ of $\mathbf{R}$ into itself, where $p$ is a polynomial in $\mathbf{R}[X]$, this set being ordered by the relation $p\leqslant q$ (no. 4). *
+A lattice is obviously both left and right directed. But an ordered set which is both left and right directed is not necessarily a lattice. \* An example of the latter is the set of mappings $x\mapsto p(x)$ of $\mathbf{R}$ into itself, where $p$ is a polynomial in $\mathbf{R}[X]$, this set being ordered by the relation $p\leqslant q$ (no. 4). \*
 
 ### 12. TOTALLY ORDERED SETS
 
@@ -558,7 +558,7 @@ Let E be an arbitrary ordered set. The empty subset of E is totally ordered, and
 
 #### Example 3 {#ens-iii-s1-n12-exa-3 .statement tag=03TX}
 
-The set $\mathbf{R}$ of real numbers is totally ordered. *
+The set $\mathbf{R}$ of real numbers is totally ordered. \*
 
 #### Example 4 {#ens-iii-s1-n12-exa-4 .statement tag=03TY}
 

@@ -1981,7 +1981,7 @@ books:
               statements: 0
               exercises: 5
               extraction: ocr
-              content_sha256: d6de402a72ee28dc5802a9428ec42465322992d6b8a4cc132afd20b77a3b44a7
+              content_sha256: a310534540adf256129872d501d90fc5778da7cea7f38586a64dd9e2bdb19c94
             - kind: section
               section: 4
               title: Quantified theories
@@ -2019,7 +2019,7 @@ books:
               statements: 7
               exercises: 8
               extraction: ocr
-              content_sha256: 73604ed21aca07e9d557662fff63bc2ca3aae7ec6cbcfe52b562ef7ab4c6154a
+              content_sha256: 13db39e88a8780043e156517521974c8c14af043efeaa643d5625514ba9d1ea2
         - chapter: II
           title: THEORY OF SETS
           sections:
@@ -2072,7 +2072,7 @@ books:
               statements: 37
               exercises: 11
               extraction: ocr
-              content_sha256: 60ede35692adda5e352fb5ed4e83104684ee677c270bb26454076325d1e9eca4
+              content_sha256: 49d34236aa907fd60e4d6fb7e5142464802f3f571a834d8849ea8e147f790970
             - kind: section
               section: 4
               title: Union and intersection of a family of sets
@@ -2085,7 +2085,7 @@ books:
               statements: 22
               exercises: 8
               extraction: ocr
-              content_sha256: 8ab4db7f9a2c0d1786f20c3a5b58b30762f788c0e22d4b5bbb3b149751d0c051
+              content_sha256: 32dab807d5a0ef307546f801f396883f1054bfe9358e046025e46f1ec896838b
             - kind: section
               section: 5
               title: Product of a family of sets
@@ -2138,7 +2138,7 @@ books:
               statements: 52
               exercises: 24
               extraction: ocr
-              content_sha256: 38894f1ab788b01edc0693d18af32d763fc6ea2801e6da2735d22d3854ee5b19
+              content_sha256: dcf5b22649cb0eac4cf9ac3e2ac260375cc8586fc48653ab2f306ed22a25c53d
             - kind: section
               section: 2
               title: Well-ordered sets
@@ -2164,7 +2164,7 @@ books:
               statements: 37
               exercises: 6
               extraction: ocr
-              content_sha256: f6c3fa2d1a8c7d26b877594fd50281f9b7654e7deaf8f72093caef9d44d7fafb
+              content_sha256: b10e118edc3d4c8f8b3ba54c4c5c2db278e559b9b62eed130604ab192fa32c31
             - kind: section
               section: 4
               title: Natural integers. Finite sets
@@ -2254,7 +2254,7 @@ books:
               statements: 16
               exercises: 1
               extraction: ocr
-              content_sha256: c2689bfc676ff797fadce1c362c9337c142872efdf44c3c9f67ba4eb3cab2ce0
+              content_sha256: b1094b5a2252deca203c539c9c491ffa5dd29bc156fe419c48f680ba49540844
             - kind: section
               section: 2
               title: Morphisms and derived structures
@@ -2267,7 +2267,7 @@ books:
               statements: 12
               exercises: 11
               extraction: ocr
-              content_sha256: 508234f6c40b4b87edaab10f0205c3451c459633a2d85802f377e1846ad8f779
+              content_sha256: 91724b37b0d34435db297e6d41161f52780614553dc6392413bffa7094bcbbae
             - kind: section
               section: 3
               title: Universal mappings

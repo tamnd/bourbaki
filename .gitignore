@@ -30,3 +30,8 @@ Thumbs.db
 !reports/*.log
 
 site/
+
+# What one ask run did: which host answered, how long it took. A record of
+# the run and not of the corpus, and it names the fleet, so it stays on the
+# machine that made it.
+/reports/ask-usage.jsonl

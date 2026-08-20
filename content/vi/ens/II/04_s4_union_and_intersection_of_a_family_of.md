@@ -46,7 +46,7 @@ subsections:
       pdf_page: 107
 statements: 22
 exercises: 8
-content_sha256: 7dcec2af1bed3576f4cb9b53fdaf0f90f80920efc4eee9192ec3b571498f5f11
+content_sha256: b5ada03a0f6d1b8274837838265522e7cba7bbe70c20b75fd998e0b025e32044
 translated_from: content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md
 source_content_sha256: fa664243f694205d57fee07324e9530b13d7e92d6d61e5dd3cf3c072e6ee2fa0
 translation_model: gpt-5.4
@@ -211,7 +211,7 @@ $$\Gamma\left\langle \bigcap_{\iota \in I} X_\iota \right\rangle = \bigcap_{\iot
 
 thường là *sai*.
 
-* Ví dụ, trong mặt phẳng $\mathbf{R}^2$, các phép chiếu thứ nhất của các đường thẳng $y = x$ và $y = x + 1$ đều bằng $\mathbf{R}$, nhưng giao của các đường thẳng ấy là rỗng, và do đó phép chiếu thứ nhất của giao này cũng rỗng [^2]. *
+\* Ví dụ, trong mặt phẳng $\mathbf{R}^2$, các phép chiếu thứ nhất của các đường thẳng $y = x$ và $y = x + 1$ đều bằng $\mathbf{R}$, nhưng giao của các đường thẳng ấy là rỗng, và do đó phép chiếu thứ nhất của giao này cũng rỗng [^2]. \*
 
 Tuy nhiên, ta có kết quả quan trọng sau :
 

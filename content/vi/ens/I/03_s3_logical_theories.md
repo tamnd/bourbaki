@@ -34,9 +34,9 @@ subsections:
       pdf_page: 41
 statements: 0
 exercises: 5
-content_sha256: a426cd82f54fc962b0a41289525773f1efafd773bf15005b15d031b3397f82b1
+content_sha256: 62356fd967de0fd6a06adb54fba093bbebb506bbb0b0a065b7b4736c56e32e20
 translated_from: content/en/ens/I/03_s3_logical_theories.md
-source_content_sha256: d6de402a72ee28dc5802a9428ec42465322992d6b8a4cc132afd20b77a3b44a7
+source_content_sha256: a310534540adf256129872d501d90fc5778da7cea7f38586a64dd9e2bdb19c94
 translation_model: gpt-5.4
 translation_run: translate-vi-7032b096
 glossary_version: 29
@@ -187,7 +187,7 @@ C19. *Cho $x$ là một chữ và $A$ và $B$ là các quan hệ trong $\mathscr
 
 Quả thật, $A \Rightarrow B$ là một định lý trong $\mathscr{T}$ (tiêu chuẩn suy diễn). Vì $x$ không phải là một hằng số của $\mathscr{T}$, $(T|x)(A \Rightarrow B)$ là một định lý trong $\mathscr{T}$ theo C3. Vì $x$ không xuất hiện trong $B$, $(T|x)(A \Rightarrow B)$ đồng nhất với $((T|x)A) \Rightarrow B$, theo CS5 (§ 1, no. 2). Sau cùng, $(T|x)A$ là một định lý trong $\mathscr{T}$, và do đó $B$ cũng vậy.
 
-Một cách trực giác, phương pháp này hệ tại việc dùng, để chứng minh $B$, một đối tượng tùy ý $x$ ( *hằng số phụ* ) được giả sử là được trang bị những tính chất nào đó, được ký hiệu bởi $A$. * Ví dụ, trong một chứng minh hình học có liên quan, cùng với những thứ khác, đến một đường thẳng $D$, ta có thể “lấy” một điểm $x$ trên đường thẳng này; khi đó quan hệ $A$ là $x \in D$. * Để có thể dùng một đối tượng được trang bị những tính chất nào đó trong quá trình một chứng minh, rõ ràng điều cần thiết là những đối tượng như vậy phải tồn tại. Định lý $(T|x)A$, được gọi là *định lý hợp thức hóa*, bảo đảm sự tồn tại này.
+Một cách trực giác, phương pháp này hệ tại việc dùng, để chứng minh $B$, một đối tượng tùy ý $x$ ( *hằng số phụ* ) được giả sử là được trang bị những tính chất nào đó, được ký hiệu bởi $A$. \* Ví dụ, trong một chứng minh hình học có liên quan, cùng với những thứ khác, đến một đường thẳng $D$, ta có thể “lấy” một điểm $x$ trên đường thẳng này; khi đó quan hệ $A$ là $x \in D$. \* Để có thể dùng một đối tượng được trang bị những tính chất nào đó trong quá trình một chứng minh, rõ ràng điều cần thiết là những đối tượng như vậy phải tồn tại. Định lý $(T|x)A$, được gọi là *định lý hợp thức hóa*, bảo đảm sự tồn tại này.
 
 Trong thực hành, ta chỉ ra rằng ta sắp dùng phương pháp này bằng một câu như “cho $x$ là một đối tượng sao cho $A$”. Trái với phương pháp của giả thiết phụ, kết luận của lập luận không chứa $x$.
 

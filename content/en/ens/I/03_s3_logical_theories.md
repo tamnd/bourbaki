@@ -34,7 +34,7 @@ subsections:
       pdf_page: 41
 statements: 0
 exercises: 5
-content_sha256: d6de402a72ee28dc5802a9428ec42465322992d6b8a4cc132afd20b77a3b44a7
+content_sha256: a310534540adf256129872d501d90fc5778da7cea7f38586a64dd9e2bdb19c94
 ---
 
 ## 3. LOGICAL THEORIES
@@ -180,7 +180,7 @@ C19. *Let $x$ be a letter and let $A$ and $B$ be relations in $\mathscr{T}$ such
 
 Indeed, $A \Rightarrow B$ is a theorem in $\mathscr{T}$ (criterion of deduction). Since $x$ is not a constant of $\mathscr{T}$, $(T|x)(A \Rightarrow B)$ is a theorem in $\mathscr{T}$ by virtue of C3. Since $x$ does not appear in $B$, $(T|x)(A \Rightarrow B)$ is identical with $((T|x)A) \Rightarrow B$, by CS5 (§ 1, no. 2). Finally, $(T|x)A$ is a theorem in $\mathscr{T}$, and therefore so is $B$.
 
-Intuitively, the method consists in using, in order to prove $B$, an arbitrary object $x$ (the *auxiliary constant*) which is supposed to be endowed with certain properties, denoted by $A$. * For example, in a proof in geometry which involves, among other things, a line $D$, we may “take” a point $x$ on this line; the relation $A$ is then $x \in D$. * In order that one should be able to use an object endowed with certain properties during the course of a proof, it is clearly necessary that such objects should exist. The theorem $(T|x)A$, called the *theorem of legitimation*, guarantees this existence.
+Intuitively, the method consists in using, in order to prove $B$, an arbitrary object $x$ (the *auxiliary constant*) which is supposed to be endowed with certain properties, denoted by $A$. \* For example, in a proof in geometry which involves, among other things, a line $D$, we may “take” a point $x$ on this line; the relation $A$ is then $x \in D$. \* In order that one should be able to use an object endowed with certain properties during the course of a proof, it is clearly necessary that such objects should exist. The theorem $(T|x)A$, called the *theorem of legitimation*, guarantees this existence.
 
 In practice we indicate that we are going to use this method by a phrase such as “let $x$ be an object such that $A$”. By contrast with the method of the auxiliary hypothesis, the conclusion of the argument does not involve $x$.
 

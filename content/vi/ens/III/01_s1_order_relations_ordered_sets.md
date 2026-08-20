@@ -66,7 +66,7 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: aa5ace2207cf62758b82e870cbc5366d9427d68347cbbff7134b40282099c688
+content_sha256: e20d4192b7ef094187a22054b30e07c357ca49bc8ea904635fae2d0a42e1db8a
 translated_from: content/en/ens/III/01_s1_order_relations_ordered_sets.md
 source_content_sha256: 95b4b1f6e727c6c9c77263350b775189fc2be5b0825b34cc82c7de3e44faa7a7
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -543,11 +543,11 @@ Tập hợp các tôpô trên một tập hợp A, có thứ tự bởi quan h�
 
 #### Ví dụ 4 {#ens-iii-s1-n11-exa-4 .statement tag=03TV}
 
-Tập $\mathscr{F}(I,\mathbf{R})$ gồm tất cả các hàm nhận giá trị thực được định nghĩa trên một khoảng I của $\mathbf{R}$ là một dàn đối với quan hệ thứ tự $f\leqslant g$ (số 4), và do đó đẳng cấu với tích $\mathbf{R}^{I}$. *
+Tập $\mathscr{F}(I,\mathbf{R})$ gồm tất cả các hàm nhận giá trị thực được định nghĩa trên một khoảng I của $\mathbf{R}$ là một dàn đối với quan hệ thứ tự $f\leqslant g$ (số 4), và do đó đẳng cấu với tích $\mathbf{R}^{I}$. \*
 
 #### Chú ý {#ens-iii-s1-n11-rem-1 .statement tag=03JQ}
 
-Một dàn hiển nhiên vừa có hướng trái vừa có hướng phải. Nhưng một tập hợp có thứ tự vừa có hướng trái vừa có hướng phải không tất yếu là một dàn. * Một ví dụ về trường hợp sau là tập hợp các ánh xạ $x\mapsto p(x)$ từ $\mathbf{R}$ vào chính nó, trong đó $p$ là một đa thức trong $\mathbf{R}[X]$, tập hợp này được sắp thứ tự bởi quan hệ $p\leqslant q$ (số 4). *
+Một dàn hiển nhiên vừa có hướng trái vừa có hướng phải. Nhưng một tập hợp có thứ tự vừa có hướng trái vừa có hướng phải không tất yếu là một dàn. \* Một ví dụ về trường hợp sau là tập hợp các ánh xạ $x\mapsto p(x)$ từ $\mathbf{R}$ vào chính nó, trong đó $p$ là một đa thức trong $\mathbf{R}[X]$, tập hợp này được sắp thứ tự bởi quan hệ $p\leqslant q$ (số 4). \*
 
 ### 12. TẬP HỢP ĐƯỢC SẮP THỨ TỰ TOÀN PHẦN
 
@@ -571,7 +571,7 @@ Cho E là một tập hợp có thứ tự tùy ý. Tập con rỗng của E đ�
 
 #### Ví dụ 3 {#ens-iii-s1-n12-exa-3 .statement tag=03TX}
 
-Tập hợp $\mathbf{R}$ các số thực được sắp thứ tự toàn phần. *
+Tập hợp $\mathbf{R}$ các số thực được sắp thứ tự toàn phần. \*
 
 #### Ví dụ 4 {#ens-iii-s1-n12-exa-4 .statement tag=03TY}
 

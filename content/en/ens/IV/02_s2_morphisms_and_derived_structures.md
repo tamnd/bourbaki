@@ -38,7 +38,7 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: 508234f6c40b4b87edaab10f0205c3451c459633a2d85802f377e1846ad8f779
+content_sha256: 91724b37b0d34435db297e6d41161f52780614553dc6392413bffa7094bcbbae
 ---
 
 ## 2. MORPHISMS AND DERIVED STRUCTURES
@@ -169,11 +169,11 @@ Now, to say that $\mathscr{I}'$ is the initial structure with respect to the fam
 
 I. *Inverse image of a structure*. When I is a set consisting of a single element, the initial structure with respect to $(\mathrm{A}, \mathscr{S}, f)$ is called the *inverse image under $f$ of the structure* $\mathscr{S}$ (when it exists).
 
-* A topology always has an inverse image under any mapping $f$; but this is not the case for an order structure or an algebraic structure. *
+\* A topology always has an inverse image under any mapping $f$; but this is not the case for an order structure or an algebraic structure. \*
 
 II. *Induced structure*. Let A be a set endowed with a structure $\mathscr{S}$ of species $\Sigma$, let B be a subset of A, and let $j$ be the canonical injection of B into A. Then the inverse image under $j$ of the structure B (if it exists) is called the *structure induced* by $\mathscr{S}$ on B.
 
-An order structure induces a structure of the same species on every subset of the set on which it is defined; but this is not the case for the structure of a directed set. * A topology induces a topology on every subset of the set on which it is defined, but a compact topology does not in general induce a compact topology. An algebraic structure on a set A does not in general induce a structure of the same species on an arbitrary subset B; if the given structure on A consists of laws of composition which are everywhere defined, then it is necessary that B should be stable with respect to each of these laws, but this necessary condition is not always sufficient. *
+An order structure induces a structure of the same species on every subset of the set on which it is defined; but this is not the case for the structure of a directed set. \* A topology induces a topology on every subset of the set on which it is defined, but a compact topology does not in general induce a compact topology. An algebraic structure on a set A does not in general induce a structure of the same species on an arbitrary subset B; if the given structure on A consists of laws of composition which are everywhere defined, then it is necessary that B should be stable with respect to each of these laws, but this necessary condition is not always sufficient. \*
 
 The general criterion CST10 gives us the following *transitivity criterion* for induced structures :
 
@@ -293,7 +293,7 @@ I. *Direct image of a structure.*   When I is a set consisting of a single eleme
 
 II. *Quotient structure.*   Let A be a set endowed with a structure $\mathscr{S}$ of species $\Sigma$, let R be an equivalence relation on A, and let $\varphi$ be the canonical mapping of A onto the quotient set $\mathrm{E} = \mathrm{A}/\mathrm{R}$ (Chapter II, § 6, no. 2). The direct image of the structure $\mathscr{S}$ under the mapping $\varphi$ is called (when it exists) the *quotient* of the structure $\mathscr{S}$ by the relation R.
 
-* In general, an order structure or an algebraic structure does not admit quotient structures with respect to arbitrary equivalence relations (cf. Chapter III, § 1, Exercise 2). On the other hand, a topology always admits a quotient structure with respect to an arbitrary equivalence relation, but this is not necessarily the case for a Hausdorff topology. *
+\* In general, an order structure or an algebraic structure does not admit quotient structures with respect to arbitrary equivalence relations (cf. Chapter III, § 1, Exercise 2). On the other hand, a topology always admits a quotient structure with respect to an arbitrary equivalence relation, but this is not necessarily the case for a Hausdorff topology. \*
 
 Let A, B be two sets endowed respectively with structures $\mathscr{S}$, $\mathscr{S}'$ of species $\Sigma$, and let $f$ be a morphism of A into B. Let R be the equivalence relation $f(x) = f(y)$, let $\varphi$ be the canonical mapping of A onto $\mathrm{A}/\mathrm{R}$, and let $j$ be the canonical injection of $f(\mathrm{A})$ into B. Suppose that $\mathscr{S}$ admits a quotient structure $\mathscr{S}_0$ with respect to R, and that $\mathscr{S}'$ induces a structure $\mathscr{S}'_0$ on $f(\mathrm{A})$. Then, in the *canonical decomposition* $f = j \circ g \circ \varphi$ of $f$ (Chapter II, § 6, no. 5), the bijection $g$ of $\mathrm{A}/\mathrm{R}$ onto $f(\mathrm{A})$ which is associated with $f$ is a *morphism* (but not necessarily an isomorphism) when $\mathrm{A}/\mathrm{R}$ is endowed with $\mathscr{S}_0$ and $f(\mathrm{A})$ with $\mathscr{S}'_0$. For $j \circ g$ is a morphism of $\mathrm{A}/\mathrm{R}$ into B by the definition of quotient structure, and $g$ is therefore a morphism of $\mathrm{A}/\mathrm{R}$ onto $f(\mathrm{A})$ by the definition of induced structure.
 
