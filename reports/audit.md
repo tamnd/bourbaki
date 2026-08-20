@@ -12,17 +12,17 @@ Audited: 8 chapters, 90 sections, 878 exercises, 3398 extracted pages, 5252 tags
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
-| structure | 11 | 0 | 0 | none |
+| structure | 12 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (3) |
-| mathematics | 7 | 2 | 0 | M06 (1) |
+| mathematics | 8 | 2 | 1 | M06 (1) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
-| translation | 11 | 3 | 1 | L01 (1), L05 (39), L06 (53), L08 (27), L15 (29) |
+| translation | 11 | 3 | 1 | L01 (1), L05 (35), L06 (54), L08 (27), L15 (29) |
 | solutions | 0 | 6 | 0 | X05 (3), X06 (39) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-40 hard findings and 155 soft, over 65 rules that ran and 2 that could not.
+36 hard findings and 156 soft, over 67 rules that ran and 3 that could not.
 
 ## Rules that did not run
 
@@ -30,6 +30,7 @@ A rule that has nothing to look at is reported here rather than counted as a
 pass, because a green that comes from an empty corpus is the one kind nobody
 should trust.
 
+- **M04** every math span parses: not asked for, run with -validate-tex
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
 
@@ -93,7 +94,7 @@ Hard, translation.
 
 - `content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md:1` has 45 math spans and the English has 50
 
-## L05 source_content_sha256 is the English hash as it stands (39)
+## L05 source_content_sha256 is the English hash as it stands (35)
 
 Hard, translation.
 
@@ -101,31 +102,31 @@ Hard, translation.
 - `content/vi/ens/I/01_s1_terms_and_relations.md:1` was translated from bbd7a5190da4 and content/en/ens/I/01_s1_terms_and_relations.md is now 0ee801130c49, so it is stale
 - `content/vi/ens/I/04_s4_quantified_theories.md:1` was translated from cb6abb308e39 and content/en/ens/I/04_s4_quantified_theories.md is now 925e2bcab4be, so it is stale
 - `content/vi/ens/I/05_s5_equalitarian_theories.md:1` was translated from c49154b5d581 and content/en/ens/I/05_s5_equalitarian_theories.md is now 8cbe15ed2020, so it is stale
-- `content/vi/ens/I/A_a_characterization_of_terms_and_relations.md:1` was translated from edb021fd8f39 and content/en/ens/I/A_a_characterization_of_terms_and_relations.md is now 73604ed21aca, so it is stale
+- `content/vi/ens/I/A_a_characterization_of_terms_and_relations.md:1` was translated from edb021fd8f39 and content/en/ens/I/A_a_characterization_of_terms_and_relations.md is now 13db39e88a87, so it is stale
 - `content/vi/ens/I/exercises/a0/04.md:1` was translated from 485b5554ee9b and content/en/ens/I/exercises/a0/04.md is now 097ceb5148bb, so it is stale
 - `content/vi/ens/I/exercises/s2/01.md:1` was translated from 80b5dc1c918c and content/en/ens/I/exercises/s2/01.md is now 080818715895, so it is stale
 - `content/vi/ens/II/01_s1_collectivizing_relations.md:1` was translated from 945734898d27 and content/en/ens/II/01_s1_collectivizing_relations.md is now d56a752b9382, so it is stale
 - `content/vi/ens/II/02_s2_ordered_pairs.md:1` was translated from 39df2ab84c1a and content/en/ens/II/02_s2_ordered_pairs.md is now f473daade140, so it is stale
-- `content/vi/ens/II/03_s3_correspondences.md:1` was translated from 8a4115cf22d5 and content/en/ens/II/03_s3_correspondences.md is now 60ede35692ad, so it is stale
-- `content/vi/ens/II/04_s4_union_and_intersection_of_a_family_of.md:1` was translated from fa664243f694 and content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md is now 8ab4db7f9a2c, so it is stale
+- `content/vi/ens/II/03_s3_correspondences.md:1` was translated from 8a4115cf22d5 and content/en/ens/II/03_s3_correspondences.md is now 49d34236aa90, so it is stale
+- `content/vi/ens/II/04_s4_union_and_intersection_of_a_family_of.md:1` was translated from fa664243f694 and content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md is now 32dab807d5a0, so it is stale
 - `content/vi/ens/II/05_s5_product_of_a_family_of_sets.md:1` was translated from ab63a5e5cc2a and content/en/ens/II/05_s5_product_of_a_family_of_sets.md is now 6393d2759889, so it is stale
 - `content/vi/ens/II/06_s6_equivalence_relations.md:1` was translated from c6c3e77659f3 and content/en/ens/II/06_s6_equivalence_relations.md is now 6bc9ceffca6d, so it is stale
-- `content/vi/ens/III/01_s1_order_relations_ordered_sets.md:1` was translated from 95b4b1f6e727 and content/en/ens/III/01_s1_order_relations_ordered_sets.md is now 38894f1ab788, so it is stale
+- `content/vi/ens/III/01_s1_order_relations_ordered_sets.md:1` was translated from 95b4b1f6e727 and content/en/ens/III/01_s1_order_relations_ordered_sets.md is now dcf5b22649cb, so it is stale
 - `content/vi/ens/III/02_s2_well_ordered_sets.md:1` was translated from 845dbc1c5578 and content/en/ens/III/02_s2_well_ordered_sets.md is now 99e23b3436ca, so it is stale
-- `content/vi/ens/III/03_s3_equipotent_sets_cardinals.md:1` was translated from da076d38fc21 and content/en/ens/III/03_s3_equipotent_sets_cardinals.md is now f6c3fa2d1a8c, so it is stale
+- `content/vi/ens/III/03_s3_equipotent_sets_cardinals.md:1` was translated from da076d38fc21 and content/en/ens/III/03_s3_equipotent_sets_cardinals.md is now b10e118edc3d, so it is stale
 - `content/vi/ens/III/04_s4_natural_integers_finite_sets.md:1` was translated from 1732f68fff64 and content/en/ens/III/04_s4_natural_integers_finite_sets.md is now 4a072096ffff, so it is stale
 - `content/vi/ens/III/05_s5_properties_of_integers.md:1` was translated from 539828b0c422 and content/en/ens/III/05_s5_properties_of_integers.md is now 227995e3e40c, so it is stale
-- `content/vi/ens/III/06_s6_infinite_sets.md:1` was translated from 582cf6b72da0 and content/en/ens/III/06_s6_infinite_sets.md is now ee86ba0ff12c, so it is stale
+- `content/vi/ens/III/06_s6_infinite_sets.md:1` was translated from 582cf6b72da0 and content/en/ens/III/06_s6_infinite_sets.md is now 9dad8d983ddd, so it is stale
 - `content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md:1` was translated from 3203bbc4a923 and content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md is now bb7a905be6e2, so it is stale
 - `content/vi/ens/III/exercises/s1/02.md:1` was translated from 09eb32d23dbf and content/en/ens/III/exercises/s1/02.md is now 532f3ac96fc8, so it is stale
 - `content/vi/ens/III/exercises/s1/03.md:1` was translated from 8f5b1b81951f and content/en/ens/III/exercises/s1/03.md is now cd96f85022b1, so it is stale
-- `content/vi/ens/III/exercises/s1/05.md:1` was translated from 3e27dbb3d6af and content/en/ens/III/exercises/s1/05.md is now 86b87db88f8c, so it is stale
-- `content/vi/ens/III/exercises/s1/24.md:1` was translated from 4047b2cb8574 and content/en/ens/III/exercises/s1/24.md is now cb4ec0654c61, so it is stale
-- `content/vi/ens/III/exercises/s2/04.md:1` was translated from 9f68b85acf1b and content/en/ens/III/exercises/s2/04.md is now a6604fa9cc43, so it is stale
+- `content/vi/ens/III/exercises/s1/24.md:1` was translated from 4047b2cb8574 and content/en/ens/III/exercises/s1/24.md is now 125a2ebb3fc7, so it is stale
+- `content/vi/ens/III/exercises/s4/05.md:1` was translated from 1bdf71f2973f and content/en/ens/III/exercises/s4/05.md is now cf1544278047, so it is stale
+- `content/vi/ens/III/exercises/s4/06.md:1` was translated from 4abe824f8dae and content/en/ens/III/exercises/s4/06.md is now 8389276ca97f, so it is stale
 
-and 14 more, which `bourbaki audit -only L05` prints in full.
+and 10 more, which `bourbaki audit -only L05` prints in full.
 
-## L06 the glossary is followed (53)
+## L06 the glossary is followed (54)
 
 Soft, translation.
 
@@ -155,7 +156,7 @@ Soft, translation.
 - `content/vi/ens/III/exercises/s1/02.md:1` the English mentions 26 glossary terms and 1 are not in this file as the glossary writes them: addition (phép cộng)
 - `content/vi/ens/III/exercises/s1/04.md:1` the English mentions 20 glossary terms and 1 are not in this file as the glossary writes them: example (ví dụ)
 
-and 28 more, which `bourbaki audit -only L06` prints in full.
+and 29 more, which `bourbaki audit -only L06` prints in full.
 
 ## L08 no translation was written by a small model (27)
 

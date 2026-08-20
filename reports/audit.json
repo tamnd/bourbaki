@@ -1,6 +1,6 @@
 {
   "version": "dev",
-  "commit": "14df3f57d271d572bce2f40e22dc2cd9404b6b8f",
+  "commit": "e1e5cdd803ccbf2f4fdd84852e9927f816c0d12e",
   "root": "/Users/apple/github/tamnd/bourbaki",
   "langs": [
     "en",
@@ -8,8 +8,8 @@
     "fr",
     "vi"
   ],
-  "hard": 2,
-  "soft": 273,
+  "hard": 36,
+  "soft": 156,
   "checks": [
     {
       "id": "F01",
@@ -167,6 +167,20 @@
       "found": 0
     },
     {
+      "id": "M10",
+      "group": "mathematics",
+      "hard": true,
+      "title": "no relation sign has lost the stroke that negates it",
+      "found": 0
+    },
+    {
+      "id": "M11",
+      "group": "mathematics",
+      "hard": true,
+      "title": "the star on a forward-looking passage is the corpus's star",
+      "found": 0
+    },
+    {
       "id": "P04",
       "group": "publication",
       "hard": false,
@@ -227,7 +241,14 @@
       "group": "solutions",
       "hard": false,
       "title": "a solution writes its mathematics in TeX",
-      "found": 6
+      "found": 3
+    },
+    {
+      "id": "X06",
+      "group": "solutions",
+      "hard": false,
+      "title": "no solution was written on the free gateway",
+      "found": 39
     },
     {
       "id": "S01",
@@ -300,6 +321,20 @@
       "found": 0
     },
     {
+      "id": "S11",
+      "group": "structure",
+      "hard": true,
+      "title": "the printings of a § hold the same exercises",
+      "found": 0
+    },
+    {
+      "id": "S12",
+      "group": "structure",
+      "hard": true,
+      "title": "the sections manifest names every § file and describes it",
+      "found": 0
+    },
+    {
       "id": "T01",
       "group": "tags",
       "hard": true,
@@ -361,7 +396,7 @@
       "group": "tags",
       "hard": false,
       "title": "the tags of a file climb, as they did on the run that assigned them",
-      "found": 139
+      "found": 3
     },
     {
       "id": "L01",
@@ -396,14 +431,14 @@
       "group": "translation",
       "hard": true,
       "title": "source_content_sha256 is the English hash as it stands",
-      "found": 1
+      "found": 35
     },
     {
       "id": "L06",
       "group": "translation",
       "hard": false,
       "title": "the glossary is followed",
-      "found": 73
+      "found": 54
     },
     {
       "id": "L07",
@@ -417,7 +452,7 @@
       "group": "translation",
       "hard": false,
       "title": "no translation was written by a small model",
-      "found": 26
+      "found": 27
     },
     {
       "id": "L09",
@@ -467,7 +502,7 @@
       "group": "translation",
       "hard": false,
       "title": "no translation was written on the free gateway",
-      "found": 28
+      "found": 29
     }
   ],
   "findings": [
@@ -483,16 +518,8 @@
       "check": "X05",
       "group": "solutions",
       "hard": false,
-      "file": "content/solutions/en/ens/III/s1/01.md",
-      "line": 15,
-      "message": "31 characters of mathematics stand outside any math span, as ⇒∈∧≠≤, so the solution was written in symbols rather than in TeX"
-    },
-    {
-      "check": "X05",
-      "group": "solutions",
-      "hard": false,
       "file": "content/solutions/en/ens/III/s1/03.md",
-      "line": 50,
+      "line": 54,
       "message": "1 characters of mathematics stand outside any math span, as ←, so the solution was written in symbols rather than in TeX"
     },
     {
@@ -507,521 +534,329 @@
       "check": "X05",
       "group": "solutions",
       "hard": false,
-      "file": "content/solutions/en/ens/III/s1/10.md",
-      "line": 20,
-      "message": "32 characters of mathematics stand outside any math span, as ℕ→∈≠≤, so the solution was written in symbols rather than in TeX"
-    },
-    {
-      "check": "X05",
-      "group": "solutions",
-      "hard": false,
-      "file": "content/solutions/en/ens/III/s2/01.md",
-      "line": 17,
-      "message": "181 characters of mathematics stand outside any math span, as ΓΣφ→⇔∀∈∉∏≠≤⊂⊃⋂⋃, so the solution was written in symbols rather than in TeX"
-    },
-    {
-      "check": "X05",
-      "group": "solutions",
-      "hard": false,
       "file": "content/solutions/en/ens/IV/s1/01.md",
       "line": 53,
       "message": "90 characters of mathematics stand outside any math span, as τϬϭϰϲ≠≤≥, so the solution was written in symbols rather than in TeX"
     },
     {
-      "check": "T10",
-      "group": "tags",
+      "check": "X06",
+      "group": "solutions",
       "hard": false,
-      "file": "content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md",
-      "line": 254,
-      "message": "has 00RX after 00SE, which the same run assigned later"
+      "file": "content/solutions/en/ens/I/a0/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/I/s1/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/I/s1/02.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/I/s1/03.md",
+      "line": 1,
+      "message": "was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/I/s1/04.md",
+      "line": 1,
+      "message": "was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/I/s1/05.md",
+      "line": 1,
+      "message": "was written by hy3-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/I/s1/06.md",
+      "line": 1,
+      "message": "was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/I/s2/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/I/s4/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/I/s5/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/I/s5/02.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/II/s1/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/II/s1/02.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/II/s1/03.md",
+      "line": 1,
+      "message": "was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/II/s1/04.md",
+      "line": 1,
+      "message": "was written by hy3-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/II/s1/05.md",
+      "line": 1,
+      "message": "was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/II/s1/06.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/II/s2/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/II/s4/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/II/s5/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/II/s5/02.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/II/s5/03.md",
+      "line": 1,
+      "message": "was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s1/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s1/02.md",
+      "line": 1,
+      "message": "was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s1/03.md",
+      "line": 1,
+      "message": "was written by nemotron-3.5-lightning-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s1/04.md",
+      "line": 1,
+      "message": "was written by nemotron-3.5-lightning-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s1/05.md",
+      "line": 1,
+      "message": "was written by hy3-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s1/07.md",
+      "line": 1,
+      "message": "was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s1/08.md",
+      "line": 1,
+      "message": "was written by hy3-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s1/09.md",
+      "line": 1,
+      "message": "was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s1/10.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s2/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s5/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s5/02.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s5/07.md",
+      "line": 1,
+      "message": "was written by laguna-s-2.1-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s7/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s7/02.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/III/s7/03.md",
+      "line": 1,
+      "message": "was written by nemotron-3-ultra-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
+    },
+    {
+      "check": "X06",
+      "group": "solutions",
+      "hard": false,
+      "file": "content/solutions/en/ens/IV/s1/01.md",
+      "line": 1,
+      "message": "was written by nemotron-3.5-lightning-free, which is a free gateway model, and a solution has no printed page behind it, so it is worth asking for again"
     },
     {
       "check": "T10",
       "group": "tags",
       "hard": false,
-      "file": "content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md",
-      "line": 310,
-      "message": "has 00QY after 00RX, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/alg/VIII/05_s5_commutation.md",
-      "line": 284,
-      "message": "has 00R4 after 00S0, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md",
-      "line": 532,
-      "message": "has 00R6 after 00S2, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/alg/VIII/07_s7_simple_rings.md",
-      "line": 90,
-      "message": "has 00R7 after 00S3, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/alg/VIII/08_s8_semisimple_rings.md",
-      "line": 382,
-      "message": "has 00R8 after 00S4, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/alg/VIII/09_s9_radical.md",
-      "line": 260,
-      "message": "has 00R9 after 00S6, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md",
-      "line": 626,
-      "message": "has 00S8 after 00SF, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/alg/VIII/14_s14_central_simple_algebras.md",
-      "line": 230,
-      "message": "has 00RH after 00S9, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/I/01_s1_terms_and_relations.md",
-      "line": 131,
-      "message": "has 03P2 after 03TO, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/I/A_a_characterization_of_terms_and_relations.md",
+      "file": "content/en/ens/II/03_s3_correspondences.md",
       "line": 126,
-      "message": "has 03GT after 03P8, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/01_s1_collectivizing_relations.md",
-      "line": 194,
-      "message": "has 03H6 after 03S0, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/03_s3_correspondences.md",
-      "line": 82,
-      "message": "has 03HI after 03PG, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/03_s3_correspondences.md",
-      "line": 100,
-      "message": "has 03HJ after 03S1, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/03_s3_correspondences.md",
-      "line": 128,
       "message": "has 03PH after 03PI, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/03_s3_correspondences.md",
-      "line": 138,
-      "message": "has 03PJ after 03S2, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/03_s3_correspondences.md",
-      "line": 188,
-      "message": "has 03HK after 03PN, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/03_s3_correspondences.md",
-      "line": 276,
-      "message": "has 03HN after 03PP, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/03_s3_correspondences.md",
-      "line": 350,
-      "message": "has 03S3 after 03V2, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/03_s3_correspondences.md",
-      "line": 368,
-      "message": "has 03HP after 03S4, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/03_s3_correspondences.md",
-      "line": 412,
-      "message": "has 03PQ after 03S9, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/03_s3_correspondences.md",
-      "line": 432,
-      "message": "has 03HR after 03PQ, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md",
-      "line": 133,
-      "message": "has 03I2 after 03PV, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md",
-      "line": 371,
-      "message": "has 03I9 after 03Q2, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md",
-      "line": 389,
-      "message": "has 03IA after 03Q4, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/05_s5_product_of_a_family_of_sets.md",
-      "line": 150,
-      "message": "has 03IK after 03Q8, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/05_s5_product_of_a_family_of_sets.md",
-      "line": 204,
-      "message": "has 03IN after 03QD, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/05_s5_product_of_a_family_of_sets.md",
-      "line": 234,
-      "message": "has 03IO after 03SB, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/05_s5_product_of_a_family_of_sets.md",
-      "line": 339,
-      "message": "has 03IR after 03QG, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/06_s6_equivalence_relations.md",
-      "line": 90,
-      "message": "has 03IX after 03TP, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/06_s6_equivalence_relations.md",
-      "line": 115,
-      "message": "has 03QH after 03TS, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/II/06_s6_equivalence_relations.md",
-      "line": 279,
-      "message": "has 03IY after 03SG, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 114,
-      "message": "has 03JA after 03V3, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 294,
-      "message": "has 03JE after 03SL, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 332,
-      "message": "has 03JG after 03SP, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 350,
-      "message": "has 03JH after 03SR, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 486,
-      "message": "has 03QJ after 03SU, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 541,
-      "message": "has 03JQ after 03TV, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 575,
-      "message": "has 03JS after 03TY, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/02_s2_well_ordered_sets.md",
-      "line": 82,
-      "message": "has 03JZ after 03T1, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/02_s2_well_ordered_sets.md",
-      "line": 130,
-      "message": "has 03K0 after 03QR, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/02_s2_well_ordered_sets.md",
-      "line": 216,
-      "message": "has 03K2 after 03QS, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/02_s2_well_ordered_sets.md",
-      "line": 234,
-      "message": "has 03QT after 03T4, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/02_s2_well_ordered_sets.md",
-      "line": 240,
-      "message": "has 03K3 after 03QT, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/03_s3_equipotent_sets_cardinals.md",
-      "line": 111,
-      "message": "has 03QX after 03T8, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/03_s3_equipotent_sets_cardinals.md",
-      "line": 145,
-      "message": "has 03KL after 03R0, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/03_s3_equipotent_sets_cardinals.md",
-      "line": 259,
-      "message": "has 03KQ after 03R7, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/03_s3_equipotent_sets_cardinals.md",
-      "line": 353,
-      "message": "has 03L2 after 03R8, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/04_s4_natural_integers_finite_sets.md",
-      "line": 206,
-      "message": "has 03L9 after 03RF, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/04_s4_natural_integers_finite_sets.md",
-      "line": 244,
-      "message": "has 03LD after 03TB, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/06_s6_infinite_sets.md",
-      "line": 122,
-      "message": "has 03MY after 03TE, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 100,
-      "message": "has 03OC after 03TG, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 205,
-      "message": "has 03OD after 03RP, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 277,
-      "message": "has 03OF after 03TJ, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 391,
-      "message": "has 03OJ after 03RQ, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 445,
-      "message": "has 03OK after 03TN, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 487,
-      "message": "has 03OL after 03RR, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 547,
-      "message": "has 03ON after 03RU, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 628,
-      "message": "has 03OQ after 03RV, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/IX/02_s2_maximal_tori_of_compact_lie_groups.md",
-      "line": 297,
-      "message": "has 01AO after 01JE, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/IX/03_s3_compact_forms_of_complex_semi_simple.md",
-      "line": 123,
-      "message": "has 01B2 after 01JG, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/IX/04_s4_root_system_associated_to_a_compact.md",
-      "line": 135,
-      "message": "has 01BP after 01JI, which the same run assigned later"
     },
     {
       "check": "T10",
@@ -1035,609 +870,9 @@
       "check": "T10",
       "group": "tags",
       "hard": false,
-      "file": "content/en/lie/IX/04_s4_root_system_associated_to_a_compact.md",
-      "line": 469,
-      "message": "has 01C8 after 01JJ, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/IX/04_s4_root_system_associated_to_a_compact.md",
-      "line": 737,
-      "message": "has 01D3 after 01K9, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VII/02_s2_cartan_subalgebras_and_regular_elements.md",
-      "line": 223,
-      "message": "has 00U8 after 01IY, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VII/05_s5_decomposable_linear_lie_algebras.md",
-      "line": 61,
-      "message": "has 00WJ after 01KQ, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VII/05_s5_decomposable_linear_lie_algebras.md",
-      "line": 313,
-      "message": "has 00X0 after 01JS, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VIII/01_s1_the_lie_algebra_sl_2_k_and_its.md",
-      "line": 447,
-      "message": "has 00YD after 01L4, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VIII/03_s3_subalgebras_of_split_semi_simple_lie.md",
-      "line": 215,
-      "message": "has 00ZW after 01IZ, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md",
-      "line": 229,
-      "message": "has 011X after 01J0, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md",
-      "line": 267,
-      "message": "has 011Z after 01J3, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
-      "line": 139,
-      "message": "has 013F after 01L8, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
-      "line": 225,
-      "message": "has 013M after 01J4, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
-      "line": 409,
-      "message": "has 013Y after 01J5, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
-      "line": 531,
-      "message": "has 0145 after 01J6, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md",
-      "line": 645,
-      "message": "has 0149 after 01JX, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VIII/08_s8_symmetric_invariants.md",
-      "line": 160,
-      "message": "has 0157 after 01J8, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VIII/08_s8_symmetric_invariants.md",
-      "line": 276,
-      "message": "has 015E after 01JY, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/en/lie/VIII/08_s8_symmetric_invariants.md",
-      "line": 312,
-      "message": "has 015G after 01L6, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/fr/alg/VIII/02_s2_structure_des_modules_de_longueur_finie.md",
-      "line": 249,
-      "message": "has 00RX after 00SE, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/fr/alg/VIII/02_s2_structure_des_modules_de_longueur_finie.md",
-      "line": 305,
-      "message": "has 00QY after 00RX, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/fr/alg/VIII/05_s5_commutation.md",
-      "line": 281,
-      "message": "has 00R4 after 00S0, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/fr/alg/VIII/06_s6_equivalence_de_morita_des_modules_et.md",
-      "line": 523,
-      "message": "has 00R6 after 00S2, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/fr/alg/VIII/07_s7_anneaux_simples.md",
-      "line": 89,
-      "message": "has 00R7 after 00S3, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/fr/alg/VIII/08_s8_anneaux_semi_simples.md",
-      "line": 383,
-      "message": "has 00R8 after 00S4, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/fr/alg/VIII/09_s9_radical.md",
-      "line": 261,
-      "message": "has 00R9 after 00S6, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/fr/alg/VIII/13_s13_algebres_absolument_semi_simples.md",
-      "line": 633,
-      "message": "has 00S8 after 00SF, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/fr/alg/VIII/14_s14_algebres_centrales_et_simples.md",
-      "line": 229,
-      "message": "has 00RH after 00S9, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/I/01_s1_terms_and_relations.md",
-      "line": 138,
-      "message": "has 03P2 after 03TO, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/I/A_a_characterization_of_terms_and_relations.md",
-      "line": 133,
-      "message": "has 03GT after 03P8, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/01_s1_collectivizing_relations.md",
-      "line": 201,
-      "message": "has 03H6 after 03S0, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/03_s3_correspondences.md",
-      "line": 89,
-      "message": "has 03HI after 03PG, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/03_s3_correspondences.md",
-      "line": 107,
-      "message": "has 03HJ after 03S1, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
       "file": "content/vi/ens/II/03_s3_correspondences.md",
       "line": 135,
       "message": "has 03PH after 03PI, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/03_s3_correspondences.md",
-      "line": 145,
-      "message": "has 03PJ after 03S2, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/03_s3_correspondences.md",
-      "line": 195,
-      "message": "has 03HK after 03PN, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/03_s3_correspondences.md",
-      "line": 283,
-      "message": "has 03HN after 03PP, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/03_s3_correspondences.md",
-      "line": 357,
-      "message": "has 03S3 after 03V2, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/03_s3_correspondences.md",
-      "line": 375,
-      "message": "has 03HP after 03S4, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/03_s3_correspondences.md",
-      "line": 419,
-      "message": "has 03PQ after 03S9, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/03_s3_correspondences.md",
-      "line": 439,
-      "message": "has 03HR after 03PQ, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/04_s4_union_and_intersection_of_a_family_of.md",
-      "line": 140,
-      "message": "has 03I2 after 03PV, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/04_s4_union_and_intersection_of_a_family_of.md",
-      "line": 378,
-      "message": "has 03I9 after 03Q2, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/04_s4_union_and_intersection_of_a_family_of.md",
-      "line": 396,
-      "message": "has 03IA after 03Q4, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
-      "line": 157,
-      "message": "has 03IK after 03Q8, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
-      "line": 211,
-      "message": "has 03IN after 03QD, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
-      "line": 241,
-      "message": "has 03IO after 03SB, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
-      "line": 346,
-      "message": "has 03IR after 03QG, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/06_s6_equivalence_relations.md",
-      "line": 97,
-      "message": "has 03IX after 03TP, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/06_s6_equivalence_relations.md",
-      "line": 122,
-      "message": "has 03QH after 03TS, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/II/06_s6_equivalence_relations.md",
-      "line": 286,
-      "message": "has 03IY after 03SG, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 121,
-      "message": "has 03JA after 03V3, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 301,
-      "message": "has 03JE after 03SL, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 339,
-      "message": "has 03JG after 03SP, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 357,
-      "message": "has 03JH after 03SR, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 493,
-      "message": "has 03QJ after 03SU, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 548,
-      "message": "has 03JQ after 03TV, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
-      "line": 582,
-      "message": "has 03JS after 03TY, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
-      "line": 89,
-      "message": "has 03JZ after 03T1, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
-      "line": 137,
-      "message": "has 03K0 after 03QR, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
-      "line": 223,
-      "message": "has 03K2 after 03QS, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
-      "line": 241,
-      "message": "has 03QT after 03T4, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
-      "line": 247,
-      "message": "has 03K3 after 03QT, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/03_s3_equipotent_sets_cardinals.md",
-      "line": 118,
-      "message": "has 03QX after 03T8, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/03_s3_equipotent_sets_cardinals.md",
-      "line": 152,
-      "message": "has 03KL after 03R0, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/03_s3_equipotent_sets_cardinals.md",
-      "line": 266,
-      "message": "has 03KQ after 03R7, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/03_s3_equipotent_sets_cardinals.md",
-      "line": 360,
-      "message": "has 03L2 after 03R8, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/04_s4_natural_integers_finite_sets.md",
-      "line": 213,
-      "message": "has 03L9 after 03RF, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/04_s4_natural_integers_finite_sets.md",
-      "line": 251,
-      "message": "has 03LD after 03TB, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/06_s6_infinite_sets.md",
-      "line": 129,
-      "message": "has 03MY after 03TE, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 107,
-      "message": "has 03OC after 03TG, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 212,
-      "message": "has 03OD after 03RP, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 284,
-      "message": "has 03OF after 03TJ, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 398,
-      "message": "has 03OJ after 03RQ, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 452,
-      "message": "has 03OK after 03TN, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 494,
-      "message": "has 03OL after 03RR, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 554,
-      "message": "has 03ON after 03RU, which the same run assigned later"
-    },
-    {
-      "check": "T10",
-      "group": "tags",
-      "hard": false,
-      "file": "content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md",
-      "line": 635,
-      "message": "has 03OQ after 03RV, which the same run assigned later"
     },
     {
       "check": "L01",
@@ -1656,12 +891,284 @@
       "message": "was translated from 62a239c325be and content/en/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md is now 07f9a0ede5f4, so it is stale"
     },
     {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/I/01_s1_terms_and_relations.md",
+      "line": 1,
+      "message": "was translated from bbd7a5190da4 and content/en/ens/I/01_s1_terms_and_relations.md is now 0ee801130c49, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/I/04_s4_quantified_theories.md",
+      "line": 1,
+      "message": "was translated from cb6abb308e39 and content/en/ens/I/04_s4_quantified_theories.md is now 925e2bcab4be, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/I/05_s5_equalitarian_theories.md",
+      "line": 1,
+      "message": "was translated from c49154b5d581 and content/en/ens/I/05_s5_equalitarian_theories.md is now 8cbe15ed2020, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/I/A_a_characterization_of_terms_and_relations.md",
+      "line": 1,
+      "message": "was translated from edb021fd8f39 and content/en/ens/I/A_a_characterization_of_terms_and_relations.md is now 13db39e88a87, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/I/exercises/a0/04.md",
+      "line": 1,
+      "message": "was translated from 485b5554ee9b and content/en/ens/I/exercises/a0/04.md is now 097ceb5148bb, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/I/exercises/s2/01.md",
+      "line": 1,
+      "message": "was translated from 80b5dc1c918c and content/en/ens/I/exercises/s2/01.md is now 080818715895, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/II/01_s1_collectivizing_relations.md",
+      "line": 1,
+      "message": "was translated from 945734898d27 and content/en/ens/II/01_s1_collectivizing_relations.md is now d56a752b9382, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/II/02_s2_ordered_pairs.md",
+      "line": 1,
+      "message": "was translated from 39df2ab84c1a and content/en/ens/II/02_s2_ordered_pairs.md is now f473daade140, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/II/03_s3_correspondences.md",
+      "line": 1,
+      "message": "was translated from 8a4115cf22d5 and content/en/ens/II/03_s3_correspondences.md is now 49d34236aa90, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/II/04_s4_union_and_intersection_of_a_family_of.md",
+      "line": 1,
+      "message": "was translated from fa664243f694 and content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md is now 32dab807d5a0, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
+      "line": 1,
+      "message": "was translated from ab63a5e5cc2a and content/en/ens/II/05_s5_product_of_a_family_of_sets.md is now 6393d2759889, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/II/06_s6_equivalence_relations.md",
+      "line": 1,
+      "message": "was translated from c6c3e77659f3 and content/en/ens/II/06_s6_equivalence_relations.md is now 6bc9ceffca6d, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
+      "line": 1,
+      "message": "was translated from 95b4b1f6e727 and content/en/ens/III/01_s1_order_relations_ordered_sets.md is now dcf5b22649cb, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
+      "line": 1,
+      "message": "was translated from 845dbc1c5578 and content/en/ens/III/02_s2_well_ordered_sets.md is now 99e23b3436ca, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/03_s3_equipotent_sets_cardinals.md",
+      "line": 1,
+      "message": "was translated from da076d38fc21 and content/en/ens/III/03_s3_equipotent_sets_cardinals.md is now b10e118edc3d, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/04_s4_natural_integers_finite_sets.md",
+      "line": 1,
+      "message": "was translated from 1732f68fff64 and content/en/ens/III/04_s4_natural_integers_finite_sets.md is now 4a072096ffff, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/05_s5_properties_of_integers.md",
+      "line": 1,
+      "message": "was translated from 539828b0c422 and content/en/ens/III/05_s5_properties_of_integers.md is now 227995e3e40c, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/06_s6_infinite_sets.md",
+      "line": 1,
+      "message": "was translated from 582cf6b72da0 and content/en/ens/III/06_s6_infinite_sets.md is now 9dad8d983ddd, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md",
+      "line": 1,
+      "message": "was translated from 3203bbc4a923 and content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md is now bb7a905be6e2, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/exercises/s1/02.md",
+      "line": 1,
+      "message": "was translated from 09eb32d23dbf and content/en/ens/III/exercises/s1/02.md is now 532f3ac96fc8, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/exercises/s1/03.md",
+      "line": 1,
+      "message": "was translated from 8f5b1b81951f and content/en/ens/III/exercises/s1/03.md is now cd96f85022b1, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/exercises/s1/24.md",
+      "line": 1,
+      "message": "was translated from 4047b2cb8574 and content/en/ens/III/exercises/s1/24.md is now 125a2ebb3fc7, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/exercises/s4/05.md",
+      "line": 1,
+      "message": "was translated from 1bdf71f2973f and content/en/ens/III/exercises/s4/05.md is now cf1544278047, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/exercises/s4/06.md",
+      "line": 1,
+      "message": "was translated from 4abe824f8dae and content/en/ens/III/exercises/s4/06.md is now 8389276ca97f, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/exercises/s4/10.md",
+      "line": 1,
+      "message": "was translated from 0eb64ad8e203 and content/en/ens/III/exercises/s4/10.md is now 2d34803acbad, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/exercises/s6/16.md",
+      "line": 1,
+      "message": "was translated from 17e6e1327957 and content/en/ens/III/exercises/s6/16.md is now 5f37da4e23ab, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/exercises/s6/19.md",
+      "line": 1,
+      "message": "was translated from 62eb9462a2be and content/en/ens/III/exercises/s6/19.md is now e115cae0010c, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/exercises/s6/23.md",
+      "line": 1,
+      "message": "was translated from 2296f2bcec29 and content/en/ens/III/exercises/s6/23.md is now 3ee6498401e9, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/exercises/s6/29.md",
+      "line": 1,
+      "message": "was translated from 193fdff924cc and content/en/ens/III/exercises/s6/29.md is now 3ed3aaef4c7d, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/III/historical_note.md",
+      "line": 1,
+      "message": "was translated from e392386e3fde and content/en/ens/III/historical_note.md is now 35c7fafb7fcf, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/IV/01_s1_structures_and_isomorphisms.md",
+      "line": 1,
+      "message": "was translated from de7318f61d5f and content/en/ens/IV/01_s1_structures_and_isomorphisms.md is now b1094b5a2252, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/IV/02_s2_morphisms_and_derived_structures.md",
+      "line": 1,
+      "message": "was translated from 1df0116fa77b and content/en/ens/IV/02_s2_morphisms_and_derived_structures.md is now 91724b37b0d3, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/IV/03_s3_universal_mappings.md",
+      "line": 1,
+      "message": "was translated from 98de15070c61 and content/en/ens/IV/03_s3_universal_mappings.md is now c790c457671e, so it is stale"
+    },
+    {
+      "check": "L05",
+      "group": "translation",
+      "hard": true,
+      "file": "content/vi/ens/IV/exercises/s2/07.md",
+      "line": 1,
+      "message": "was translated from 793fdcf4ebf3 and content/en/ens/IV/exercises/s2/07.md is now a51dd82823a6, so it is stale"
+    },
+    {
       "check": "L06",
       "group": "translation",
       "hard": false,
       "file": "content/vi/alg/VIII/00_frontmatter.md",
       "line": 1,
-      "message": "the English mentions 38 glossary terms and 2 are not in this file as the glossary writes them: l-algebra (đại số trên L), otherwise (nếu không)"
+      "message": "the English mentions 35 glossary terms and 1 are not in this file as the glossary writes them: l-algebra (đại số trên L)"
     },
     {
       "check": "L06",
@@ -1669,7 +1176,7 @@
       "hard": false,
       "file": "content/vi/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md",
       "line": 1,
-      "message": "the English mentions 203 glossary terms and 5 are not in this file as the glossary writes them: noninvertible element (phần tử không khả nghịch), monogenous left (đơn sinh trái), subsection (tiểu mục), additive (cộng tính), recall (nhắc lại)"
+      "message": "the English mentions 191 glossary terms and 2 are not in this file as the glossary writes them: noninvertible element (phần tử không khả nghịch), subsection (tiểu mục)"
     },
     {
       "check": "L06",
@@ -1677,15 +1184,15 @@
       "hard": false,
       "file": "content/vi/alg/VIII/03_s3_simple_modules.md",
       "line": 1,
-      "message": "the English mentions 157 glossary terms and 5 are not in this file as the glossary writes them: Modules over an Artinian Ring (Môđun trên một vành Artin), maximal left (tối đại trái), minimal (cực tiểu), ordered (có thứ tự), remark (chú ý)"
+      "message": "the English mentions 144 glossary terms and 2 are not in this file as the glossary writes them: minimal (cực tiểu), ordered (có thứ tự)"
     },
     {
       "check": "L06",
       "group": "translation",
       "hard": false,
-      "file": "content/vi/alg/VIII/04_s4_semisimple_modules.md",
+      "file": "content/vi/alg/VIII/05_s5_commutation.md",
       "line": 1,
-      "message": "the English mentions 222 glossary terms and 3 are not in this file as the glossary writes them: homomorphism defined (đồng cấu được xác định), diagram commute (sơ đồ giao hoán), mapping defined (ánh xạ được xác định)"
+      "message": "the English mentions 195 glossary terms and 1 are not in this file as the glossary writes them: additive (cộng tính)"
     },
     {
       "check": "L06",
@@ -1693,7 +1200,7 @@
       "hard": false,
       "file": "content/vi/alg/VIII/A3_a3_hilbert_s_nullstellensatz.md",
       "line": 1,
-      "message": "the English mentions 58 glossary terms and 2 are not in this file as the glossary writes them: Hilbert’s Nullstellensatz (Định lý không điểm của Hilbert), set (tập hợp)"
+      "message": "the English mentions 56 glossary terms and 2 are not in this file as the glossary writes them: Hilbert’s Nullstellensatz (Định lý không điểm của Hilbert), set (tập hợp)"
     },
     {
       "check": "L06",
@@ -1701,7 +1208,7 @@
       "hard": false,
       "file": "content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md",
       "line": 1,
-      "message": "the English mentions 67 glossary terms and 1 are not in this file as the glossary writes them: identified (đồng nhất)"
+      "message": "the English mentions 63 glossary terms and 1 are not in this file as the glossary writes them: identified (đồng nhất)"
     },
     {
       "check": "L06",
@@ -1709,23 +1216,7 @@
       "hard": false,
       "file": "content/vi/ens/00_introduction.md",
       "line": 1,
-      "message": "the English mentions 98 glossary terms and 6 are not in this file as the glossary writes them: analysis (giải tích), division (phép chia), nothing (không có gì), extent (ngoại diên), proved (đã chứng minh), weight (trọng số)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/I/01_s1_terms_and_relations.md",
-      "line": 1,
-      "message": "the English mentions 83 glossary terms and 4 are not in this file as the glossary writes them: substitution (phép thế), defined (được định nghĩa), nothing (không có gì), lower (thấp hơn)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/I/02_s2_theorems.md",
-      "line": 1,
-      "message": "the English mentions 56 glossary terms and 3 are not in this file as the glossary writes them: defined (được định nghĩa), reason (lý do), line (dòng)"
+      "message": "the English mentions 81 glossary terms and 2 are not in this file as the glossary writes them: analysis (giải tích), weight (trọng số)"
     },
     {
       "check": "L06",
@@ -1733,7 +1224,15 @@
       "hard": false,
       "file": "content/vi/ens/I/03_s3_logical_theories.md",
       "line": 1,
-      "message": "the English mentions 60 glossary terms and 3 are not in this file as the glossary writes them: reason (lý do), order (thứ tự), line (dòng)"
+      "message": "the English mentions 52 glossary terms and 1 are not in this file as the glossary writes them: order (thứ tự)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/ens/I/04_s4_quantified_theories.md",
+      "line": 1,
+      "message": "the English mentions 53 glossary terms and 1 are not in this file as the glossary writes them: remark (nhận xét)"
     },
     {
       "check": "L06",
@@ -1741,7 +1240,7 @@
       "hard": false,
       "file": "content/vi/ens/I/05_s5_equalitarian_theories.md",
       "line": 1,
-      "message": "the English mentions 49 glossary terms and 3 are not in this file as the glossary writes them: example (ví dụ), similar (đồng dạng), proved (đã chứng minh)"
+      "message": "the English mentions 43 glossary terms and 1 are not in this file as the glossary writes them: example (ví dụ)"
     },
     {
       "check": "L06",
@@ -1749,7 +1248,7 @@
       "hard": false,
       "file": "content/vi/ens/I/A_a_characterization_of_terms_and_relations.md",
       "line": 1,
-      "message": "the English mentions 86 glossary terms and 3 are not in this file as the glossary writes them: empty set (tập rỗng), series (chuỗi), left (trái)"
+      "message": "the English mentions 79 glossary terms and 3 are not in this file as the glossary writes them: empty set (tập rỗng), series (chuỗi), left (trái)"
     },
     {
       "check": "L06",
@@ -1757,15 +1256,7 @@
       "hard": false,
       "file": "content/vi/ens/I/exercises/a0/01.md",
       "line": 1,
-      "message": "the English mentions 5 glossary terms and 1 are not in this file as the glossary writes them: segments (các đoạn)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/I/exercises/a0/03.md",
-      "line": 1,
-      "message": "the English mentions 22 glossary terms and 1 are not in this file as the glossary writes them: significant (đáng kể)"
+      "message": "the English mentions 4 glossary terms and 1 are not in this file as the glossary writes them: segments (các đoạn)"
     },
     {
       "check": "L06",
@@ -1781,15 +1272,7 @@
       "hard": false,
       "file": "content/vi/ens/II/01_s1_collectivizing_relations.md",
       "line": 1,
-      "message": "the English mentions 72 glossary terms and 5 are not in this file as the glossary writes them: necessarily (tất yếu), principle (nguyên lý), selection (phép chọn), addition (phép cộng), proved (đã chứng minh)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/II/03_s3_correspondences.md",
-      "line": 1,
-      "message": "the English mentions 108 glossary terms and 2 are not in this file as the glossary writes them: mapping defined (ánh xạ được xác định), reason (lý do)"
+      "message": "the English mentions 65 glossary terms and 3 are not in this file as the glossary writes them: principle (nguyên lý), selection (phép chọn), addition (phép cộng)"
     },
     {
       "check": "L06",
@@ -1797,7 +1280,7 @@
       "hard": false,
       "file": "content/vi/ens/II/04_s4_union_and_intersection_of_a_family_of.md",
       "line": 1,
-      "message": "the English mentions 82 glossary terms and 2 are not in this file as the glossary writes them: empty set (tập rỗng), constant (hằng số)"
+      "message": "the English mentions 79 glossary terms and 2 are not in this file as the glossary writes them: empty set (tập rỗng), remark (nhận xét)"
     },
     {
       "check": "L06",
@@ -1805,23 +1288,7 @@
       "hard": false,
       "file": "content/vi/ens/II/05_s5_product_of_a_family_of_sets.md",
       "line": 1,
-      "message": "the English mentions 103 glossary terms and 3 are not in this file as the glossary writes them: proved (đã chứng minh), reason (lý do), form (dạng)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/II/06_s6_equivalence_relations.md",
-      "line": 1,
-      "message": "the English mentions 109 glossary terms and 2 are not in this file as the glossary writes them: constant (hằng số), proved (đã chứng minh)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/II/exercises/s6/01.md",
-      "line": 1,
-      "message": "the English mentions 4 glossary terms and 1 are not in this file as the glossary writes them: necessary (cần thiết)"
+      "message": "the English mentions 94 glossary terms and 1 are not in this file as the glossary writes them: form (dạng)"
     },
     {
       "check": "L06",
@@ -1829,7 +1296,7 @@
       "hard": false,
       "file": "content/vi/ens/II/exercises/s6/07.md",
       "line": 1,
-      "message": "the English mentions 11 glossary terms and 1 are not in this file as the glossary writes them: correspondence (sự tương ứng)"
+      "message": "the English mentions 10 glossary terms and 1 are not in this file as the glossary writes them: correspondence (sự tương ứng)"
     },
     {
       "check": "L06",
@@ -1837,7 +1304,7 @@
       "hard": false,
       "file": "content/vi/ens/III/01_s1_order_relations_ordered_sets.md",
       "line": 1,
-      "message": "the English mentions 160 glossary terms and 6 are not in this file as the glossary writes them: The set of natural integers (Tập hợp các số tự nhiên), unique minimal (duy nhất tối tiểu), necessary (cần thiết), addition (phép cộng), section (tiết diện), stated (đã phát biểu)"
+      "message": "the English mentions 150 glossary terms and 3 are not in this file as the glossary writes them: addition (phép cộng), section (tiết diện), remark (nhận xét)"
     },
     {
       "check": "L06",
@@ -1845,15 +1312,7 @@
       "hard": false,
       "file": "content/vi/ens/III/02_s2_well_ordered_sets.md",
       "line": 1,
-      "message": "the English mentions 117 glossary terms and 4 are not in this file as the glossary writes them: increasing mappings (các ánh xạ tăng), ordered subset (tập con sắp thứ tự), complete (đầy đủ), proved (đã chứng minh)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/03_s3_equipotent_sets_cardinals.md",
-      "line": 1,
-      "message": "the English mentions 98 glossary terms and 3 are not in this file as the glossary writes them: relation implies (quan hệ suy ra), possible (có thể), reason (lý do)"
+      "message": "the English mentions 107 glossary terms and 3 are not in this file as the glossary writes them: increasing mappings (các ánh xạ tăng), ordered subset (tập con sắp thứ tự), complete (đầy đủ)"
     },
     {
       "check": "L06",
@@ -1861,7 +1320,7 @@
       "hard": false,
       "file": "content/vi/ens/III/04_s4_natural_integers_finite_sets.md",
       "line": 1,
-      "message": "the English mentions 87 glossary terms and 6 are not in this file as the glossary writes them: empty set (tập rỗng), necessary (cần thiết), criteria (các tiêu chuẩn), similar (đồng dạng), proved (đã chứng minh), form (dạng)"
+      "message": "the English mentions 78 glossary terms and 3 are not in this file as the glossary writes them: empty set (tập rỗng), criteria (các tiêu chuẩn), form (dạng)"
     },
     {
       "check": "L06",
@@ -1869,7 +1328,7 @@
       "hard": false,
       "file": "content/vi/ens/III/05_s5_properties_of_integers.md",
       "line": 1,
-      "message": "the English mentions 127 glossary terms and 5 are not in this file as the glossary writes them: characteristic (đặc số), empty set (tập rỗng), constant (hằng số), proved (đã chứng minh), series (chuỗi)"
+      "message": "the English mentions 121 glossary terms and 4 are not in this file as the glossary writes them: characteristic (đặc số), empty set (tập rỗng), remark (nhận xét), series (chuỗi)"
     },
     {
       "check": "L06",
@@ -1877,7 +1336,7 @@
       "hard": false,
       "file": "content/vi/ens/III/06_s6_infinite_sets.md",
       "line": 1,
-      "message": "the English mentions 120 glossary terms and 5 are not in this file as the glossary writes them: totally ordered set (tập sắp thứ tự toàn phần), introduce (giới thiệu), complete (đầy đủ), nothing (không có gì), stated (đã phát biểu)"
+      "message": "the English mentions 107 glossary terms and 2 are not in this file as the glossary writes them: totally ordered set (tập sắp thứ tự toàn phần), complete (đầy đủ)"
     },
     {
       "check": "L06",
@@ -1885,7 +1344,7 @@
       "hard": false,
       "file": "content/vi/ens/III/07_s7_inverse_limits_and_direct_limits.md",
       "line": 1,
-      "message": "the English mentions 156 glossary terms and 4 are not in this file as the glossary writes them: double inverse (nghịch đảo kép), necessary (cần thiết), complete (đầy đủ), similar (đồng dạng)"
+      "message": "the English mentions 140 glossary terms and 1 are not in this file as the glossary writes them: complete (đầy đủ)"
     },
     {
       "check": "L06",
@@ -1893,15 +1352,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s1/02.md",
       "line": 1,
-      "message": "the English mentions 28 glossary terms and 1 are not in this file as the glossary writes them: addition (phép cộng)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/exercises/s1/03.md",
-      "line": 1,
-      "message": "the English mentions 36 glossary terms and 1 are not in this file as the glossary writes them: canonically (một cách chính tắc)"
+      "message": "the English mentions 26 glossary terms and 1 are not in this file as the glossary writes them: addition (phép cộng)"
     },
     {
       "check": "L06",
@@ -1909,15 +1360,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s1/04.md",
       "line": 1,
-      "message": "the English mentions 21 glossary terms and 1 are not in this file as the glossary writes them: example (ví dụ)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/exercises/s1/07.md",
-      "line": 1,
-      "message": "the English mentions 18 glossary terms and 2 are not in this file as the glossary writes them: necessary (cần thiết), constant (hằng số)"
+      "message": "the English mentions 20 glossary terms and 1 are not in this file as the glossary writes them: example (ví dụ)"
     },
     {
       "check": "L06",
@@ -1925,7 +1368,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s1/15.md",
       "line": 1,
-      "message": "the English mentions 19 glossary terms and 1 are not in this file as the glossary writes them: ordered subset (tập con sắp thứ tự)"
+      "message": "the English mentions 17 glossary terms and 1 are not in this file as the glossary writes them: ordered subset (tập con sắp thứ tự)"
     },
     {
       "check": "L06",
@@ -1933,15 +1376,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s1/16.md",
       "line": 1,
-      "message": "the English mentions 9 glossary terms and 2 are not in this file as the glossary writes them: totally ordered set (tập sắp thứ tự toàn phần), example (ví dụ)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/exercises/s1/22.md",
-      "line": 1,
-      "message": "the English mentions 25 glossary terms and 1 are not in this file as the glossary writes them: necessary (cần thiết)"
+      "message": "the English mentions 8 glossary terms and 2 are not in this file as the glossary writes them: totally ordered set (tập sắp thứ tự toàn phần), example (ví dụ)"
     },
     {
       "check": "L06",
@@ -1949,23 +1384,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s2/04.md",
       "line": 1,
-      "message": "the English mentions 11 glossary terms and 1 are not in this file as the glossary writes them: ordered subset (tập con sắp thứ tự)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/exercises/s2/07.md",
-      "line": 1,
-      "message": "the English mentions 20 glossary terms and 1 are not in this file as the glossary writes them: lower (thấp hơn)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/exercises/s2/09.md",
-      "line": 1,
-      "message": "the English mentions 4 glossary terms and 1 are not in this file as the glossary writes them: ordered (có thứ tự)"
+      "message": "the English mentions 9 glossary terms and 1 are not in this file as the glossary writes them: totally ordered (được sắp thứ tự toàn phần)"
     },
     {
       "check": "L06",
@@ -1973,7 +1392,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s2/11.md",
       "line": 1,
-      "message": "the English mentions 13 glossary terms and 1 are not in this file as the glossary writes them: well-ordered (được sắp tốt)"
+      "message": "the English mentions 12 glossary terms and 1 are not in this file as the glossary writes them: well-ordered (được sắp tốt)"
     },
     {
       "check": "L06",
@@ -1981,7 +1400,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s2/14.md",
       "line": 1,
-      "message": "the English mentions 29 glossary terms and 2 are not in this file as the glossary writes them: well-ordered (được sắp tốt), ordered (có thứ tự)"
+      "message": "the English mentions 25 glossary terms and 1 are not in this file as the glossary writes them: ordered (có thứ tự)"
     },
     {
       "check": "L06",
@@ -1989,7 +1408,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s2/17.md",
       "line": 1,
-      "message": "the English mentions 12 glossary terms and 1 are not in this file as the glossary writes them: unique (duy nhất)"
+      "message": "the English mentions 11 glossary terms and 1 are not in this file as the glossary writes them: unique (duy nhất)"
     },
     {
       "check": "L06",
@@ -1997,7 +1416,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s2/19.md",
       "line": 1,
-      "message": "the English mentions 21 glossary terms and 1 are not in this file as the glossary writes them: uniqueness (tính duy nhất)"
+      "message": "the English mentions 20 glossary terms and 1 are not in this file as the glossary writes them: uniqueness (tính duy nhất)"
     },
     {
       "check": "L06",
@@ -2013,23 +1432,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s4/05.md",
       "line": 1,
-      "message": "the English mentions 27 glossary terms and 1 are not in this file as the glossary writes them: form (dạng)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/exercises/s4/09.md",
-      "line": 1,
-      "message": "the English mentions 27 glossary terms and 2 are not in this file as the glossary writes them: ordered sets (tập hợp có thứ tự), ordered (có thứ tự)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/exercises/s4/11.md",
-      "line": 1,
-      "message": "the English mentions 16 glossary terms and 1 are not in this file as the glossary writes them: reduced (rút gọn)"
+      "message": "the English mentions 26 glossary terms and 1 are not in this file as the glossary writes them: form (dạng)"
     },
     {
       "check": "L06",
@@ -2037,7 +1440,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s5/13.md",
       "line": 1,
-      "message": "the English mentions 18 glossary terms and 1 are not in this file as the glossary writes them: example (ví dụ)"
+      "message": "the English mentions 17 glossary terms and 1 are not in this file as the glossary writes them: example (ví dụ)"
     },
     {
       "check": "L06",
@@ -2053,23 +1456,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s6/09.md",
       "line": 1,
-      "message": "the English mentions 10 glossary terms and 1 are not in this file as the glossary writes them: remark (chú ý)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/exercises/s6/10.md",
-      "line": 1,
-      "message": "the English mentions 25 glossary terms and 2 are not in this file as the glossary writes them: well-ordered (được sắp tốt), ordered (có thứ tự)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/exercises/s6/16.md",
-      "line": 1,
-      "message": "the English mentions 19 glossary terms and 3 are not in this file as the glossary writes them: totally ordered (được sắp thứ tự toàn phần), ordered (có thứ tự), set (tập hợp)"
+      "message": "the English mentions 10 glossary terms and 1 are not in this file as the glossary writes them: remark (nhận xét)"
     },
     {
       "check": "L06",
@@ -2077,15 +1464,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s6/20.md",
       "line": 1,
-      "message": "the English mentions 9 glossary terms and 1 are not in this file as the glossary writes them: hypothesis (giả thiết)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/exercises/s6/25.md",
-      "line": 1,
-      "message": "the English mentions 20 glossary terms and 1 are not in this file as the glossary writes them: itself (chính nó)"
+      "message": "the English mentions 8 glossary terms and 1 are not in this file as the glossary writes them: hypothesis (giả thiết)"
     },
     {
       "check": "L06",
@@ -2099,25 +1478,9 @@
       "check": "L06",
       "group": "translation",
       "hard": false,
-      "file": "content/vi/ens/III/exercises/s7/01.md",
-      "line": 1,
-      "message": "the English mentions 19 glossary terms and 1 are not in this file as the glossary writes them: inverse (nghịch đảo)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
       "file": "content/vi/ens/III/exercises/s7/03.md",
       "line": 1,
-      "message": "the English mentions 12 glossary terms and 3 are not in this file as the glossary writes them: relative (tương đối), inverse (nghịch đảo), form (dạng)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/exercises/s7/04.md",
-      "line": 1,
-      "message": "the English mentions 22 glossary terms and 1 are not in this file as the glossary writes them: inverse (nghịch đảo)"
+      "message": "the English mentions 10 glossary terms and 2 are not in this file as the glossary writes them: inverse (nghịch đảo), form (dạng)"
     },
     {
       "check": "L06",
@@ -2125,15 +1488,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s7/05.md",
       "line": 1,
-      "message": "the English mentions 36 glossary terms and 2 are not in this file as the glossary writes them: complete (đầy đủ), inverse (nghịch đảo)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/III/exercises/s7/07.md",
-      "line": 1,
-      "message": "the English mentions 17 glossary terms and 1 are not in this file as the glossary writes them: relative (tương đối)"
+      "message": "the English mentions 31 glossary terms and 1 are not in this file as the glossary writes them: complete (đầy đủ)"
     },
     {
       "check": "L06",
@@ -2141,7 +1496,7 @@
       "hard": false,
       "file": "content/vi/ens/III/exercises/s7/08.md",
       "line": 1,
-      "message": "the English mentions 10 glossary terms and 1 are not in this file as the glossary writes them: form (dạng)"
+      "message": "the English mentions 9 glossary terms and 1 are not in this file as the glossary writes them: form (dạng)"
     },
     {
       "check": "L06",
@@ -2149,7 +1504,7 @@
       "hard": false,
       "file": "content/vi/ens/III/historical_note.md",
       "line": 1,
-      "message": "the English mentions 56 glossary terms and 5 are not in this file as the glossary writes them: example (ví dụ), nothing (không có gì), prime (nguyên tố), long (dài), root (nghiệm)"
+      "message": "the English mentions 49 glossary terms and 3 are not in this file as the glossary writes them: example (ví dụ), prime (nguyên tố), root (nghiệm)"
     },
     {
       "check": "L06",
@@ -2157,7 +1512,7 @@
       "hard": false,
       "file": "content/vi/ens/IV/01_s1_structures_and_isomorphisms.md",
       "line": 1,
-      "message": "the English mentions 136 glossary terms and 4 are not in this file as the glossary writes them: equivalent species (các loại tương đương), necessary (cần thiết), remark (chú ý), form (dạng)"
+      "message": "the English mentions 125 glossary terms and 1 are not in this file as the glossary writes them: form (dạng)"
     },
     {
       "check": "L06",
@@ -2165,7 +1520,7 @@
       "hard": false,
       "file": "content/vi/ens/IV/02_s2_morphisms_and_derived_structures.md",
       "line": 1,
-      "message": "the English mentions 122 glossary terms and 5 are not in this file as the glossary writes them: simplicity (tính đơn), transport (phép chuyển), constant (hằng số), reason (lý do), stated (đã phát biểu)"
+      "message": "the English mentions 108 glossary terms and 1 are not in this file as the glossary writes them: transport (phép chuyển)"
     },
     {
       "check": "L06",
@@ -2173,7 +1528,7 @@
       "hard": false,
       "file": "content/vi/ens/IV/03_s3_universal_mappings.md",
       "line": 1,
-      "message": "the English mentions 115 glossary terms and 3 are not in this file as the glossary writes them: universal sets (tập vũ trụ), simplicity (tính đơn), transport (phép chuyển)"
+      "message": "the English mentions 105 glossary terms and 2 are not in this file as the glossary writes them: universal sets (tập vũ trụ), transport (phép chuyển)"
     },
     {
       "check": "L06",
@@ -2187,17 +1542,9 @@
       "check": "L06",
       "group": "translation",
       "hard": false,
-      "file": "content/vi/ens/IV/exercises/s2/08.md",
+      "file": "content/vi/ens/IV/exercises/s2/10.md",
       "line": 1,
-      "message": "the English mentions 23 glossary terms and 1 are not in this file as the glossary writes them: equivalent species (các loại tương đương)"
-    },
-    {
-      "check": "L06",
-      "group": "translation",
-      "hard": false,
-      "file": "content/vi/ens/IV/exercises/s2/09.md",
-      "line": 1,
-      "message": "the English mentions 17 glossary terms and 2 are not in this file as the glossary writes them: division (phép chia), defined (được định nghĩa)"
+      "message": "the English mentions 12 glossary terms and 1 are not in this file as the glossary writes them: ordered field (trường có thứ tự)"
     },
     {
       "check": "L06",
@@ -2213,7 +1560,7 @@
       "hard": false,
       "file": "content/vi/ens/IV/historical_note.md",
       "line": 1,
-      "message": "the English mentions 283 glossary terms and 6 are not in this file as the glossary writes them: characteristic (đặc số), substitution (phép thế), comparison (sự so sánh), connected (liên thông), directed (có hướng), unity (đơn vị)"
+      "message": "the English mentions 261 glossary terms and 6 are not in this file as the glossary writes them: characteristic (đặc số), substitution (phép thế), connected (liên thông), real line (đường thẳng thực), directed (có hướng), unity (đơn vị)"
     },
     {
       "check": "L06",
@@ -2221,7 +1568,7 @@
       "hard": false,
       "file": "content/vi/lie/IX/exercises/s1/08.md",
       "line": 1,
-      "message": "the English mentions 22 glossary terms and 2 are not in this file as the glossary writes them: simply (đơn giản), set (tập hợp)"
+      "message": "the English mentions 21 glossary terms and 1 are not in this file as the glossary writes them: set (tập hợp)"
     },
     {
       "check": "L06",
@@ -2229,7 +1576,7 @@
       "hard": false,
       "file": "content/vi/lie/IX/exercises/s2/02.md",
       "line": 1,
-      "message": "the English mentions 8 glossary terms and 3 are not in this file as the glossary writes them: compact lie group (nhóm Lie compact), connected (liên thông), observe (nhận thấy)"
+      "message": "the English mentions 7 glossary terms and 2 are not in this file as the glossary writes them: compact lie group (nhóm Lie compact), connected (liên thông)"
     },
     {
       "check": "L06",
@@ -2238,6 +1585,14 @@
       "file": "content/vi/lie/IX/exercises/s9/15.md",
       "line": 1,
       "message": "the English mentions 25 glossary terms and 1 are not in this file as the glossary writes them: addition (phép cộng)"
+    },
+    {
+      "check": "L06",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/lie/VIII/exercises/s13/07.md",
+      "line": 1,
+      "message": "the English mentions 7 glossary terms and 1 are not in this file as the glossary writes them: remark (nhận xét)"
     },
     {
       "check": "L08",
@@ -2262,6 +1617,14 @@
       "file": "content/vi/alg/VIII/04_s4_semisimple_modules.md",
       "line": 1,
       "message": "was translated by hy3-free, nemotron-3-ultra-free, gpt-5-6-mini, nemotron-3.5-lightning-free, gpt-5-6, laguna-s-2.1-free, which is a cut down model, so the section is worth doing again"
+    },
+    {
+      "check": "L08",
+      "group": "translation",
+      "hard": false,
+      "file": "content/vi/alg/VIII/05_s5_commutation.md",
+      "line": 1,
+      "message": "was translated by nemotron-3-ultra-free, hy3-free, nemotron-3.5-lightning-free, gpt-5-6, laguna-s-2.1-free, which is a cut down model, so the section is worth doing again"
     },
     {
       "check": "L08",
@@ -2475,6 +1838,14 @@
       "check": "L15",
       "group": "translation",
       "hard": false,
+      "file": "content/vi/alg/VIII/05_s5_commutation.md",
+      "line": 1,
+      "message": "was translated by nemotron-3-ultra-free, hy3-free, nemotron-3.5-lightning-free, gpt-5-6, laguna-s-2.1-free, which is a free gateway model, so the section is worth doing again"
+    },
+    {
+      "check": "L15",
+      "group": "translation",
+      "hard": false,
       "file": "content/vi/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md",
       "line": 1,
       "message": "was translated by nemotron-3-ultra-free, laguna-s-2.1-free, hy3-free, nemotron-3.5-lightning-free, which is a free gateway model, so the section is worth doing again"
@@ -2674,12 +2045,12 @@
   ],
   "counts": {
     "exercises": 878,
-    "pages": 3281,
+    "pages": 3398,
     "references": 4950,
     "sections": 90,
     "solutions": 44,
     "tags": 5252,
-    "translated": 1464,
+    "translated": 1465,
     "unresolved": 253
   }
 }
