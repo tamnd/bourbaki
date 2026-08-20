@@ -37,7 +37,7 @@ subsections:
       pdf_page: 81
 statements: 30
 exercises: 9
-content_sha256: 4351fab2b89a4e21790a9ee0c6195220d71b234eb5121628dd98a3d2f7dbf094
+content_sha256: 0639defbb25ee13675790dcd9d8ab04b2e73b080a6a0283ed9c065af1acacc79
 ---
 
 ## § 4. PERTURBATIONS DANS LES ESPACES DE BANACH
@@ -280,7 +280,7 @@ Supposons que $u$ ne soit pas un morphisme strict, mais que l’espace normé E 
 
 Soient E un espace de Banach et F un espace normé. L’application $u\mapsto ((u))$ de $\mathscr{L}(E; F)$ dans $\overline{\mathbf{R}}$ est semi-continue supérieurement.
 
-Soit $u\in \mathscr{L}(E; F)$. Il s’agit de prouver que pour tout nombre réel $c >((u))$, l’ensemble des éléments $v\in \mathscr{L}(E; F)$ tels que $((v))< c$ est un voisinage de $u$. Notons B l’ensemble des éléments de E de norme $<1$. D’après la prop. 6, il existe $y\in E$ tel que $u(y)\in /u(B)$ et $\|u(y)\|< c$. La distance $d$ de $u(y)$ à l’ensemble fermé $u(B)$ est strictement positive. L’ensemble V des éléments $v$ de $\mathscr{L}(E; F)$ vérifiant les relations $\|v(y)\|< c$ et $\|u-v\|(1 +\|y\|)< d$ est un voisinage de $u$ dans $\mathscr{L}(E; F)$. Soit $v\in V$. Pour tout $x\in B$, on a
+Soit $u\in \mathscr{L}(E; F)$. Il s’agit de prouver que pour tout nombre réel $c >((u))$, l’ensemble des éléments $v\in \mathscr{L}(E; F)$ tels que $((v))< c$ est un voisinage de $u$. Notons B l’ensemble des éléments de E de norme $<1$. D’après la prop. 6, il existe $y\in E$ tel que $u(y)\notin u(B)$ et $\|u(y)\|< c$. La distance $d$ de $u(y)$ à l’ensemble fermé $u(B)$ est strictement positive. L’ensemble V des éléments $v$ de $\mathscr{L}(E; F)$ vérifiant les relations $\|v(y)\|< c$ et $\|u-v\|(1 +\|y\|)< d$ est un voisinage de $u$ dans $\mathscr{L}(E; F)$. Soit $v\in V$. Pour tout $x\in B$, on a
 
 $$
 d\leqslant \|u(y)-u(x)\|\leqslant \|v(y)-v(x)\|+\|u-v\|(\|y\|+\|x\|)

@@ -12,7 +12,7 @@ pdf_pages: 0167-0171, 0268-0269
 extraction: native
 statements: 8
 exercises: 7
-content_sha256: d70ff4b9187bfb43e0b8de5beae2d0fc8d9a546b21a48ba0de809af1ee89b6d0
+content_sha256: 9dace9f178012ff73003307d704d2657f2f25e4a41acc370d03f1ebf3519a082
 ---
 
 ## § 10. MAXIMAL SUBALGEBRAS OF SEMI-SIMPLE LIE ALGEBRAS
@@ -47,7 +47,7 @@ $d)$ The Cartan subalgebra $\mathfrak{h}$ of $\mathfrak{m}$ is a Cartan subalgeb
 
 $e)\mathfrak{q}$ is a parabolic subalgebra of $\mathfrak{g}:$ by the preceding, $\mathfrak{h}$ is a Cartan subalgebra of $\mathfrak{g},\mathfrak{n}$ consists of nilpotent elements of $\mathfrak{g}$, and $[\mathfrak{h},\mathfrak{n}]\subset \mathfrak{n}$. Let $\overline{k}$ be an algebraic closure of $k$; by definition, $\mathfrak{q}$ is parabolic in $\mathfrak{g}$ if and only if $\overline{k}\otimes_k\mathfrak{q}$ is a parabolic subalgebra of $\overline{k}\otimes_k\mathfrak{g}$. The properties stated above being preserved by extension of scalars, for the proof we can restrict ourselves to the case in which $\mathfrak{h}$ is splitting. Let R be the root system of $(\mathfrak{g},\mathfrak{h})$; by Prop. 2 (v) of §3, no. 1, there exists a subset P of R such that $P\cap (-P) =\emptyset$ and $\mathfrak{n}=\sum_{\alpha\in P}\mathfrak{g}^{\alpha}$.
 
-Let $P'$ be the set of roots $\alpha$ such that $-\alpha  /\in P$; we have $P'\cup (-P') = R$, and the orthogonal complement $\mathfrak{q}$ of $\mathfrak{n}$ in $\mathfrak{g}$ is equal to $\mathfrak{h}+\sum_{\alpha\in P'}\mathfrak{g}^{\alpha}$. We have
+Let $P'$ be the set of roots $\alpha$ such that $-\alpha  \notin P$; we have $P'\cup (-P') = R$, and the orthogonal complement $\mathfrak{q}$ of $\mathfrak{n}$ in $\mathfrak{g}$ is equal to $\mathfrak{h}+\sum_{\alpha\in P'}\mathfrak{g}^{\alpha}$. We have
 
 proved that $\mathfrak{q}$ is parabolic. Q.E.D.
 
@@ -91,7 +91,7 @@ $\mathfrak{c}=\{x\in \mathfrak{h}|[x,\mathfrak{n}]\subset \mathfrak{n}$ and $[x,
 
 By Lemma 1, the restriction of $\Phi$ to $\mathfrak{c}$ is non-degenerate.
 
-Let $\mathfrak{q}^0$ be the orthogonal complement of $\mathfrak{q}$ in $\mathfrak{g}$ relative to $\Phi$. The preceding proves that $\mathfrak{q}\cap \mathfrak{q}^0=\mathfrak{n}$. Assume that $\mathfrak{q}\not=\mathfrak{q}^0$, so $\mathfrak{q}^0\not=\mathfrak{n}$ (and $\mathfrak{q}^0\supset \mathfrak{n}$). Since ad$_{\mathfrak{g}}\mathfrak{n}$ leaves $\mathfrak{q}$ stable, ad$_{\mathfrak{g}}\mathfrak{n}$ leaves $\mathfrak{q}^0$ stable; Engel’s theorem proves that there exists $x\in \mathfrak{q}^0$ such that $x /\in \mathfrak{n}$ and $[x,\mathfrak{n}]\subset \mathfrak{n}$. But then $x\in \mathfrak{q}^0\cap \mathfrak{q}=\mathfrak{n}$, a contradiction. Hence $\mathfrak{q}=\mathfrak{n}^0$.
+Let $\mathfrak{q}^0$ be the orthogonal complement of $\mathfrak{q}$ in $\mathfrak{g}$ relative to $\Phi$. The preceding proves that $\mathfrak{q}\cap \mathfrak{q}^0=\mathfrak{n}$. Assume that $\mathfrak{q}\not=\mathfrak{q}^0$, so $\mathfrak{q}^0\not=\mathfrak{n}$ (and $\mathfrak{q}^0\supset \mathfrak{n}$). Since ad$_{\mathfrak{g}}\mathfrak{n}$ leaves $\mathfrak{q}$ stable, ad$_{\mathfrak{g}}\mathfrak{n}$ leaves $\mathfrak{q}^0$ stable; Engel’s theorem proves that there exists $x\in \mathfrak{q}^0$ such that $x \notin \mathfrak{n}$ and $[x,\mathfrak{n}]\subset \mathfrak{n}$. But then $x\in \mathfrak{q}^0\cap \mathfrak{q}=\mathfrak{n}$, a contradiction. Hence $\mathfrak{q}=\mathfrak{n}^0$.
 
 #### Corollary 1 {#lie-viii-s10-thm-2-cor-1 .statement tag=016P}
 

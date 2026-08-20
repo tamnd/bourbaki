@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: fc469a596fe1d09bf5ebf4fa8e0d342aa984f2b391411a2237e7be8ccbf1c3f9
+content_sha256: ca97989bc24253c2d00b817201cce3f63e04b878fb72e5a69abd03011caf7a01
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -682,7 +682,7 @@ Soient $(V, \pi )$ une représentation simple de G et $\chi$ son caractère. Pou
 
 Soit L une extension de $\mathbf{Q}$. Soit A un sous-anneau de L. On suppose que A est un $\mathbf{Z}$-module de type fini. On a $A\cap \mathbf{Q} = \mathbf{Z}$.
 
-Comme le $\mathbf{Z}$-module $A\cap \mathbf{Q}$est de type fini, il existe un entier N strictement positif tel que $A\cap \mathbf{Q}$soit contenu dans $\frac{1}{N}\mathbf{Z}$. Soit $x$ un élément de $\mathbf{Q}-\mathbf{Z}$; écrivons $x=\frac{p}{q}$, où $p$ et $q$ sont des entiers premiers entre eux et $q\geqslant 2$. On a $q^N\geqslant 2^N>N$ (E, III, p. 30, th. 2), les entiers $p^N$ et $q^N$ sont premiers entre eux et par suite $x^N\in /\frac{1}{N}\mathbf{Z}$. Par conséquent $x$ n’appartient pas à A, d’où le lemme.
+Comme le $\mathbf{Z}$-module $A\cap \mathbf{Q}$est de type fini, il existe un entier N strictement positif tel que $A\cap \mathbf{Q}$soit contenu dans $\frac{1}{N}\mathbf{Z}$. Soit $x$ un élément de $\mathbf{Q}-\mathbf{Z}$; écrivons $x=\frac{p}{q}$, où $p$ et $q$ sont des entiers premiers entre eux et $q\geqslant 2$. On a $q^N\geqslant 2^N>N$ (E, III, p. 30, th. 2), les entiers $p^N$ et $q^N$ sont premiers entre eux et par suite $x^N\notin\frac{1}{N}\mathbf{Z}$. Par conséquent $x$ n’appartient pas à A, d’où le lemme.
 
 Nous étendrons au numéro suivant la proposition 9 au cas où l’on suppose seulement que la caractéristique de K ne divise pas l’ordre de G.
 

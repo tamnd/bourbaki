@@ -29,7 +29,7 @@ subsections:
       pdf_page: 91
 statements: 28
 exercises: 11
-content_sha256: dafa3ff55940f7e27e0bced5825da8a72bf3ab3bf5987108b5d76c1c14890a13
+content_sha256: 2f817ca2f2760b014487000082efaaaf6a394cd0120f4c55517995e3ea6625c4
 ---
 
 ## § 2. ROOT SYSTEM OF A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -194,13 +194,13 @@ so $\theta_{\alpha}(t)x\in \mathfrak{g}^{\beta-\beta(H_{\alpha})\alpha}$. This p
 
 (ii) Let $\alpha \in R$. The map $s_{\alpha ,H_{\alpha}}:\lambda  \rightarrow \lambda -\lambda (H_{\alpha})\alpha$ from $\mathfrak{h}^*$ to $\mathfrak{h}^*$ is the unique reflection $s$ of $\mathfrak{h}^*$ such that $s(\alpha ) =-\alpha$ and $s(R) = R$. For all $t\in k^*$, $s$ is the transpose of $\theta_{\alpha}(t)|\mathfrak{h}$.
 
-First, R generates $\mathfrak{h}^*$, for if $h\in \mathfrak{h}$ is such that $\alpha (h) = 0$ for all $\alpha \in R$, then ad $h= 0$ and hence $h= 0$ since the centre of $\mathfrak{g}$ is zero. By definition, $0\in /R$. Let $\alpha \in R$. Since $\alpha (H_{\alpha}) = 2,s=s_{\alpha ,H_{\alpha}}$ is a reflection such that $s(\alpha ) =-\alpha$. Then $s(R) = R$ by Lemma 1 (iii), and $\beta (H_{\alpha})\in \mathbf{Z}$ for all $\beta \in R$ (Prop. 2 (i)). This shows that R is a root system in $\mathfrak{h}^*$. For all $h\in \mathfrak{h}$ and $\lambda \in \mathfrak{h}^*$,
+First, R generates $\mathfrak{h}^*$, for if $h\in \mathfrak{h}$ is such that $\alpha (h) = 0$ for all $\alpha \in R$, then ad $h= 0$ and hence $h= 0$ since the centre of $\mathfrak{g}$ is zero. By definition, $0\notin R$. Let $\alpha \in R$. Since $\alpha (H_{\alpha}) = 2,s=s_{\alpha ,H_{\alpha}}$ is a reflection such that $s(\alpha ) =-\alpha$. Then $s(R) = R$ by Lemma 1 (iii), and $\beta (H_{\alpha})\in \mathbf{Z}$ for all $\beta \in R$ (Prop. 2 (i)). This shows that R is a root system in $\mathfrak{h}^*$. For all $h\in \mathfrak{h}$ and $\lambda \in \mathfrak{h}^*$,
 
 $$
 \langle s(\lambda ), h\rangle =\langle \lambda -\lambda (H_{\alpha})\alpha , h\rangle =\langle \lambda , h-\alpha (h)H_{\alpha}\rangle =\langle \lambda , \theta_{\alpha}(t)h\rangle
 $$
 
-so $s$ is the transpose of $\theta_{\alpha}(t)|\mathfrak{h}$. Finally, we show that the root system R is reduced. Let $\alpha \in R$ and $y\in \mathfrak{g}^{2\alpha}$. Since $3\alpha  /\in R$ (Chap. VI, §1, no. 3, Prop. $8$)$, [X_{\alpha}, y] = 0$; on the other hand, $[X_{-\alpha}, y]\in \mathfrak{g}^{-\alpha+2\alpha}=\mathfrak{g}^{\alpha}=kX_{\alpha}$, so $[X_{\alpha},[X_{-\alpha}, y]] = 0$; thus
+so $s$ is the transpose of $\theta_{\alpha}(t)|\mathfrak{h}$. Finally, we show that the root system R is reduced. Let $\alpha \in R$ and $y\in \mathfrak{g}^{2\alpha}$. Since $3\alpha  \notin R$ (Chap. VI, §1, no. 3, Prop. $8$)$, [X_{\alpha}, y] = 0$; on the other hand, $[X_{-\alpha}, y]\in \mathfrak{g}^{-\alpha+2\alpha}=\mathfrak{g}^{\alpha}=kX_{\alpha}$, so $[X_{\alpha},[X_{-\alpha}, y]] = 0$; thus
 
 $$
 4y= 2\alpha (H_{\alpha})y= [H_{\alpha}, y] =-[[X_{\alpha}, X_{-\alpha}], y] = 0
@@ -326,7 +326,7 @@ $$
 [h, X_{\alpha}] =\alpha (h)X_{\alpha}
 $$
 
-0 if $\alpha +\beta  /\in R\cup  \{0\}$
+0 if $\alpha +\beta  \notin R\cup  \{0\}$
 
 $[X_{\alpha}, X_{\beta}] =-H_{\alpha}$ if $\alpha +\beta = 0$
 

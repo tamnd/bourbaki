@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: f990ff0a752d438cad46475a65d284fdc55290161dc20821acd0d3bdf47276cf
+content_sha256: b681dd80851bf0f5d53feeeac8bf034e244c262a89a447596400956cd41e3814
 ---
 
 ## § 1. OPÉRATEURS COMPACTS SUR UN ESPACE HILBERTIEN
@@ -854,7 +854,7 @@ $$
 v_L(x) =\sum_{i\in L}\langle e_i|x\rangle f_i
 $$
 
-pour tout $x$ dans E. On a $\|v_L\|\leqslant 1$ et $v_L\in \mathscr{L}_2(E; F)$. De plus, pour tout $j\in J$, on a $v_L(e_j) = 0$ si $j /\in L$ et $v_L(e_j) =f_j$ si $j\in L$. Ainsi
+pour tout $x$ dans E. On a $\|v_L\|\leqslant 1$ et $v_L\in \mathscr{L}_2(E; F)$. De plus, pour tout $j\in J$, on a $v_L(e_j) = 0$ si $j \notin L$ et $v_L(e_j) =f_j$ si $j\in L$. Ainsi
 
 $|\langle v_L|u\rangle |=|$Tr($v^*_Lu$)$|=|\sum_{j\in J}\langle v_L(e_j)|u(e_j)\rangle |=\sum_{j\in L}\alpha_j$.
 
@@ -1084,7 +1084,7 @@ $$
 
 dans $L^2(X\times Y)$.
 
-En effet, soient $(f_j)_{j\in J}$ et $(g_k)_{k\in K}$ des bases orthonormales de $L^2(X)$ et $L^2$(Y), respectivement, prolongeant les familles $(f_i)_{i\in I}$ et $(g_i)_{i\in I}$. Posons $h_{j,k}=\overline{f}_j\otimes g_k$ pour tout $(j, k)\in J\times K$. D’après le lemme 10, la famille $(h_{j,k})_{(j,k)\in J\times K}$ est une base orthonormale de $L^2(X\times Y)$. On a $\langle h_{j,k}|N\rangle =\langle g_k|u_N(f_j)\rangle$ pour tout $(j, k)\in J\times K$. Si $j /\in I$, cette quantité est nulle. Si $j\in I$, elle est égale à $\alpha_j\langle g_k|g_j\rangle$, donc est nulle sauf si $k=j$, auquel cas $\langle h_{j,j}|N\rangle =\alpha_j$. Par conséquent
+En effet, soient $(f_j)_{j\in J}$ et $(g_k)_{k\in K}$ des bases orthonormales de $L^2(X)$ et $L^2$(Y), respectivement, prolongeant les familles $(f_i)_{i\in I}$ et $(g_i)_{i\in I}$. Posons $h_{j,k}=\overline{f}_j\otimes g_k$ pour tout $(j, k)\in J\times K$. D’après le lemme 10, la famille $(h_{j,k})_{(j,k)\in J\times K}$ est une base orthonormale de $L^2(X\times Y)$. On a $\langle h_{j,k}|N\rangle =\langle g_k|u_N(f_j)\rangle$ pour tout $(j, k)\in J\times K$. Si $j \notin I$, cette quantité est nulle. Si $j\in I$, elle est égale à $\alpha_j\langle g_k|g_j\rangle$, donc est nulle sauf si $k=j$, auquel cas $\langle h_{j,j}|N\rangle =\alpha_j$. Par conséquent
 
 $$
 N =\sum_{(j,k)\in J\times K}\langle h_{j,k}|N\rangle h_{j,k}=\sum_{i\in I}\alpha_ih_{i,i}

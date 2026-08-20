@@ -29,7 +29,7 @@ subsections:
       pdf_page: 219
 statements: 2
 exercises: 19
-content_sha256: eb60a127d9531fda66fce14317959f7345b6c64c2a670936c9ffec02266f0b8f
+content_sha256: 6374fb400438df5a36d2c913925fb0624256c5324de93a908a0b9247182f92f3
 ---
 
 ## § 13. CLASSICAL SPLITTABLE SIMPLE LIE ALGEBRAS
@@ -236,7 +236,7 @@ $$
 
 so $\zeta$ extends to a homomorphism from P(R) to $k^*$. This proves that $\zeta \in q(T_P)$, so $\varphi (d)\in f(q(T_P))$.
 
-Recall (§5, no. 3, Cor. 2 of Prop. 5) that Aut($\mathfrak{g}$) $=$ Aut$_0(\mathfrak{g})$ for $l= 1$, and that Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$ is isomorphic to $\mathbf{Z}/2\mathbf{Z}$ for $l\geq 2$. The map $\theta :x \rightarrow  -^tx$ is an automorphism of $\mathfrak{s}\mathfrak{l}(l+ 1, k)$ and $a_0=\theta |\mathfrak{h}\in /W$ if $l\geq 2$ (Chap. VI, §4, no. 7.XI), so the class of $a_0$ in Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$ is the non-trivial element of this group (§5, no. 2, Prop. 4).
+Recall (§5, no. 3, Cor. 2 of Prop. 5) that Aut($\mathfrak{g}$) $=$ Aut$_0(\mathfrak{g})$ for $l= 1$, and that Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$ is isomorphic to $\mathbf{Z}/2\mathbf{Z}$ for $l\geq 2$. The map $\theta :x \rightarrow  -^tx$ is an automorphism of $\mathfrak{s}\mathfrak{l}(l+ 1, k)$ and $a_0=\theta |\mathfrak{h}\notin W$ if $l\geq 2$ (Chap. VI, §4, no. 7.XI), so the class of $a_0$ in Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$ is the non-trivial element of this group (§5, no. 2, Prop. 4).
 
 (VIII) The restriction to $\mathfrak{h}$ of the Killing form is
 
@@ -540,7 +540,7 @@ $$
 
 $\rho (H)(e\wedge  \cdots  \wedge e) =\{-\frac{1}{2}e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}$ if $i\in  \{i_1, . . . , i_k\}$
 
-$^{i-i_1}-_{i_k}\frac{1}{2}e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}$ if $i /\in  \{i_1, . . . i_k\}$
+$^{i-i_1}-_{i_k}\frac{1}{2}e_{-i_1}\wedge  \cdots  \wedge e_{-i_k}$ if $i \notin  \{i_1, . . . i_k\}$
 
 and for $h\in \mathfrak{h}$
 
@@ -756,7 +756,7 @@ $$
 X_-.e_{A,B,C}=\sum e_{A,B,C\cup \{j\}} \tag{8}
 $$
 
-$j\in 1,l ,j /\in A\cup B\cup C$
+$j\in 1,l ,j \notin A\cup B\cup C$
 
 $$
 X_+.e_{A,B,C}=-\sum_{j\in C}e_{A,B,C-\{j\}} \tag{9}

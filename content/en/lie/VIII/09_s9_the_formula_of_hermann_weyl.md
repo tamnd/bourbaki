@@ -29,7 +29,7 @@ subsections:
       pdf_page: 165
 statements: 12
 exercises: 16
-content_sha256: 6f8271dc9e053ff6f8db999207502272c8b3d682e9b44d1fa439608ca494b092
+content_sha256: 16e58934b12a0ac3234fd1dee9446b6558b2edb33a94c1d55bbd2fbd906273b2
 ---
 
 ## § 9. THE FORMULA OF HERMANN WEYL
@@ -126,11 +126,11 @@ so
 
 ch(M) $=-$ch(L) $+m$ ch $Z(\lambda ) +$ ch(N)
 
-(§7, no. 7, formula (6)). The sets Supp(ch L) and Supp(ch N) are contained in a finite union of sets $\mu-P_+$. For $z\in Z,z_L$ and $z_N$ are homotheties with ratio $\chi_{\lambda_0}(z)$. Clearly, $D_N\subset D_M$. On the other hand, $(\lambda + Q_+)\cap$Supp(ch $M$) $=\{\lambda \}$, and $\lambda  /\in$ Supp(ch N), so $\lambda  /\in D_N$ and
+(§7, no. 7, formula (6)). The sets Supp(ch L) and Supp(ch N) are contained in a finite union of sets $\mu-P_+$. For $z\in Z,z_L$ and $z_N$ are homotheties with ratio $\chi_{\lambda_0}(z)$. Clearly, $D_N\subset D_M$. On the other hand, $(\lambda + Q_+)\cap$Supp(ch $M$) $=\{\lambda \}$, and $\lambda  \notin$ Supp(ch N), so $\lambda  \notin D_N$ and
 
 Card $D_N<$ Card $D_M$.
 
-On the other hand, L is a submodule of $(Z(\lambda ))^m$; if $\lambda '\in D_L$, then $\lambda '+ Q_+$ meets Supp(ch $L$)$\subset$ Supp ch $Z(\lambda )$, so $\lambda \in \lambda '+ Q_+($§6, no. 1, Prop. 1 (ii)); it follows that $D_L\subset D_M$. Since $L\cap (Z(\lambda )^{\lambda})^m= 0$, we have $\lambda  /\in D_L$, so
+On the other hand, L is a submodule of $(Z(\lambda ))^m$; if $\lambda '\in D_L$, then $\lambda '+ Q_+$ meets Supp(ch $L$)$\subset$ Supp ch $Z(\lambda )$, so $\lambda \in \lambda '+ Q_+($§6, no. 1, Prop. 1 (ii)); it follows that $D_L\subset D_M$. Since $L\cap (Z(\lambda )^{\lambda})^m= 0$, we have $\lambda  \notin D_L$, so
 
 Card $D_L<$ Card $D_M$.
 
@@ -374,7 +374,7 @@ $$
 =\sum_{\tau\in P}(\sum_{w\in W}\varepsilon (w)m_{\tau+\rho-w(\mu+\rho)})e^{\tau+\rho}
 $$
 
-Now, if $\xi \in P_{++},\xi +\rho$ belongs to the chamber defined by B (Chap. VI, §1, no. 10); thus, for all $w\in W$ distinct from 1, we have $w(\xi +\rho )\in /P_{++}$. Consequently, the coefficient of $e^{\nu+\rho}$ in $\sum_{\xi\in P_{++}}l_{\xi}J(e^{\xi+\rho})$ is equal to $l_{\nu}$. In view of (3), we obtain
+Now, if $\xi \in P_{++},\xi +\rho$ belongs to the chamber defined by B (Chap. VI, §1, no. 10); thus, for all $w\in W$ distinct from 1, we have $w(\xi +\rho )\notin P_{++}$. Consequently, the coefficient of $e^{\nu+\rho}$ in $\sum_{\xi\in P_{++}}l_{\xi}J(e^{\xi+\rho})$ is equal to $l_{\nu}$. In view of (3), we obtain
 
 $$
 l_{\nu}=\sum_{w\in W}\varepsilon (w)m_{\nu+\rho-w(\mu+\rho)}

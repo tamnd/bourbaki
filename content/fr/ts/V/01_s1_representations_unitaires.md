@@ -57,7 +57,7 @@ subsections:
       pdf_page: 407
 statements: 50
 exercises: 7
-content_sha256: f726e03f3b54fde20fbf232d411e2fb131f747f965d9916e72230a9841b4b611
+content_sha256: 0b9d89e50b374d026341ed3020e40b83eb74d40a7f3184e3d685e9d2b6f18a27
 ---
 
 ## § 1. REPRÉSENTATIONS UNITAIRES
@@ -452,7 +452,7 @@ Réciproquement, supposons $\varrho$ irréductible. Soient $u$ et $v$ des élém
 
 Soit $\pi$ une représentation unitaire irréductible d’un groupe topologique G dans un espace hilbertien E. Soit $u$ un opérateur partiel fermé sur E. On suppose que $u$ est à domaine dense, que dom($u$) est stable par $\pi$ et que $u\circ \pi (g) =\pi (g)\circ u$ pour tout $g\in G$. Alors dom($u$) $= E$ et $u$ est une homothétie.
 
-L’opérateur partiel $u^*\circ u$ est un opérateur partiel auto-adjoint positif sur E (prop. 12 de IV, p. 241), il en est de même pour $v= 1_E+u^*\circ u$ et ce dernier est injectif puisque $-1\in /$ Sp($u^*\circ u$) (prop. 17 de IV, p. 248). On a $u^*\circ \pi (g) =\pi (g)\circ u^*$ pour tout $g\in G$ (lemme 6 de V, p. 381), d’où $v\circ \pi (g) =\pi (g)\circ v$ pour tout $g\in G$. Comme $v$ est injectif, il en résulte que $v^{-1}\circ \pi (g) =\pi (g)\circ v^{-1}$ pour tout $g\in G$. Mais $v^{-1}$ appartient à $\mathscr{L}$ (E), donc d’après la prop. 6, il existe $\lambda \in \mathbf{C}$ tel que $v^{-1}=\lambda 1_E$. On a nécessairement $\lambda \not = 0$, ce qui implique que E = Im($v^{-1}$) $=$ dom($v$)$\subset$ dom($u$), d’où dom($u$) $= E$. Comme $u$ est fermé, on a $u\in \mathscr{L}(E)$ (EVT, I, p. 19, cor. 5), donc $u\in$ Hom$_G(\pi , \pi )$ et $u$ est une homothétie d’après la prop. 6.
+L’opérateur partiel $u^*\circ u$ est un opérateur partiel auto-adjoint positif sur E (prop. 12 de IV, p. 241), il en est de même pour $v= 1_E+u^*\circ u$ et ce dernier est injectif puisque $-1\notin$ Sp($u^*\circ u$) (prop. 17 de IV, p. 248). On a $u^*\circ \pi (g) =\pi (g)\circ u^*$ pour tout $g\in G$ (lemme 6 de V, p. 381), d’où $v\circ \pi (g) =\pi (g)\circ v$ pour tout $g\in G$. Comme $v$ est injectif, il en résulte que $v^{-1}\circ \pi (g) =\pi (g)\circ v^{-1}$ pour tout $g\in G$. Mais $v^{-1}$ appartient à $\mathscr{L}$ (E), donc d’après la prop. 6, il existe $\lambda \in \mathbf{C}$ tel que $v^{-1}=\lambda 1_E$. On a nécessairement $\lambda \not = 0$, ce qui implique que E = Im($v^{-1}$) $=$ dom($v$)$\subset$ dom($u$), d’où dom($u$) $= E$. Comme $u$ est fermé, on a $u\in \mathscr{L}(E)$ (EVT, I, p. 19, cor. 5), donc $u\in$ Hom$_G(\pi , \pi )$ et $u$ est une homothétie d’après la prop. 6.
 
 #### Corollaire 2 {#ts-v-s1-prop-6-cor-2 .statement tag=0397}
 

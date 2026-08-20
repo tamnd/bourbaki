@@ -29,7 +29,7 @@ subsections:
       pdf_page: 178
 statements: 29
 exercises: 17
-content_sha256: c0d8b9889a1fd801f649977579ba93f112fbe7fbc77b9893c748cf4521cf283a
+content_sha256: 9fa596e246cac621b5b9e0b269c472085fd46db9e470656f32a0223db1df02b5
 ---
 
 ## § 11. CLASSES OF NILPOTENT ELEMENTS AND $\mathfrak{s}\mathfrak{l}_{2}$-TRIPLETS
@@ -246,7 +246,7 @@ Assume that $\mathfrak{g}$ is splittable semi-simple. Let $\mathfrak{h}$ be a sp
 
 The eigenvalues of ad$_{\mathfrak{g}}h$ belong to $\mathbf{Z}($§1, no. 2, Cor. of Prop. 2). Hence $h\in \mathfrak{h}_{\mathbf{Q}}$. There exists an element $w$ of the Weyl group of $(\mathfrak{g},\mathfrak{h})$ such that $\alpha (wh)\geq 0$ for all $\alpha \in B$ (Chap. VI, §1, no. 5, Th. 2 (i)). In view of §2, no. 2, Cor. of Th. 2, we are reduced to the case in which $\alpha (h)\in \mathbf{N}$ for all $\alpha \in B$. Let $R_+$ be the set of positive roots relative to B, and $R_-=-R_+$. There exists an $\mathfrak{s}\mathfrak{l}_2$-triplet in $\mathfrak{g}$ of the form $(x, h, y)$. Let T be the set of roots $\beta$ such that $\beta (h) =-2$. Then $T\subset R_-$ and $y\in \sum_{\beta\in T}\mathfrak{g}^{\beta}$. Assume that there
 
-exists $\alpha \in B$ such that $\alpha (h)>2$. For all $\beta \in T$, we have $(\alpha +\beta )(h)>0$, so $\alpha +\beta  /\in R_-$ and $\alpha +\beta \not= 0$; on the other hand, since $\beta \in R_-$ and $\alpha \in B$, we have $\alpha +\beta  /\in R_+$; hence $\alpha +\beta  /\in R\cup  \{0\}$, so $[\mathfrak{g}^{\alpha},\mathfrak{g}^{\beta}] = 0$. Thus, $[y,\mathfrak{g}^{\alpha}] = 0$. But ad$_{\mathfrak{g}}y|\mathfrak{g}^{\alpha}$ is injective since $\alpha (h)>0 ($§1, no. 2, Cor. of Prop. 2). This contradiction proves that $\alpha (h)\leq 2$ for all $\alpha \in B$.
+exists $\alpha \in B$ such that $\alpha (h)>2$. For all $\beta \in T$, we have $(\alpha +\beta )(h)>0$, so $\alpha +\beta  \notin R_-$ and $\alpha +\beta \not= 0$; on the other hand, since $\beta \in R_-$ and $\alpha \in B$, we have $\alpha +\beta  \notin R_+$; hence $\alpha +\beta  \notin R\cup  \{0\}$, so $[\mathfrak{g}^{\alpha},\mathfrak{g}^{\beta}] = 0$. Thus, $[y,\mathfrak{g}^{\alpha}] = 0$. But ad$_{\mathfrak{g}}y|\mathfrak{g}^{\alpha}$ is injective since $\alpha (h)>0 ($§1, no. 2, Cor. of Prop. 2). This contradiction proves that $\alpha (h)\leq 2$ for all $\alpha \in B$.
 
 #### Corollary {#lie-viii-s11-n3-cor-1 .statement tag=017G}
 
@@ -427,10 +427,10 @@ $\sum\mathfrak{g}^{\alpha}$, the relation
 $\alpha \in B,\alpha \not=\alpha_0$
 
 $$
-\omega  /\in  -\omega +\sum_{\alpha\in B,\alpha\not=\alpha_0}k\alpha
+\omega  \notin  -\omega +\sum_{\alpha\in B,\alpha\not=\alpha_0}k\alpha
 $$
 
-implies that $\mathfrak{g}^{\omega}\subset /$ (ad $x_1$)$^p\mathfrak{g}^{-\omega}$ for all $p$; this is absurd, so the component of $x_1$ in $\mathfrak{g}^{\alpha}$ is non-zero for all $\alpha \in B$.
+implies that $\mathfrak{g}^{\omega}\not\subset$ (ad $x_1$)$^p\mathfrak{g}^{-\omega}$ for all $p$; this is absurd, so the component of $x_1$ in $\mathfrak{g}^{\alpha}$ is non-zero for all $\alpha \in B$.
 
 ### Exercises {#lie-viii-s11-exercises}
 

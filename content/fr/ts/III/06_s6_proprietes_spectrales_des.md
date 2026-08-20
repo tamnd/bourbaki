@@ -41,7 +41,7 @@ subsections:
       pdf_page: 107
 statements: 36
 exercises: 30
-content_sha256: da8e605c858e3fef1f0af0f7c62d13407c5909b3f6dfce32763a544e2a64a7be
+content_sha256: b0d3fa65dcee06679bd7d8f0d92a22736e960414410b5164bd45681a0831abf7
 ---
 
 ## § 6. PROPRIÉTÉS SPECTRALES DES ENDOMORPHISMES DES ESPACES DE BANACH
@@ -256,9 +256,9 @@ On a Sp$_{\omega}(u+h) =$ Sp$_{\omega}(u)$ (th. 2), donc 0 appartient à la comp
 
 Soit E un espace vectoriel topologique séparé de dimension $\geqslant 2$ sur $\mathbf{R}$ et soit X une partie dénombrable de E. L’ensemble complémentaire E - X est connexe.
 
-Supposons d’abord que E est de dimension 2. On peut supposer que $E =\mathbf{R}^2$ muni de la norme euclidienne (EVT, I, p. 14, th. 2). Puisque X est dénombrable, il existe un nombre réel $r\in \mathbf{R}_+^*$ tel que le cercle C de centre 0 et de rayon $r$ ne rencontre pas X. Soit $x\in E$ - X ; si $x /\in C$, il existe un point $y\in C$ tel que la droite $L_x$ joignant $x$ et $y$ ne rencontre pas X, puisque X est dénombrable. L’ensemble E - X est la réunion de C, qui est connexe, et des ensembles connexes $L_x\cup C$ pour $x\in E$- $(X\cup C)$; ces ensembles contiennent tous C, et donc E- X est connexe (TG, I, p. 81, prop. 2).
+Supposons d’abord que E est de dimension 2. On peut supposer que $E =\mathbf{R}^2$ muni de la norme euclidienne (EVT, I, p. 14, th. 2). Puisque X est dénombrable, il existe un nombre réel $r\in \mathbf{R}_+^*$ tel que le cercle C de centre 0 et de rayon $r$ ne rencontre pas X. Soit $x\in E$ - X ; si $x \notin C$, il existe un point $y\in C$ tel que la droite $L_x$ joignant $x$ et $y$ ne rencontre pas X, puisque X est dénombrable. L’ensemble E - X est la réunion de C, qui est connexe, et des ensembles connexes $L_x\cup C$ pour $x\in E$- $(X\cup C)$; ces ensembles contiennent tous C, et donc E- X est connexe (TG, I, p. 81, prop. 2).
 
-Considérons le cas général. En remplaçant X par $X-x$ pour un élément $x\in E$ - X, on se ramène au cas où $0\in /X$. Comme E - X est la réunion des ensembles F - $(X\cap F)$ lorsque F parcourt l’ensemble des sous-espaces de dimension 2 de E, et que ceux-ci sont connexes d’après le cas précédent et contiennent 0, l’ensemble E - X est connexe (loc. cit.).
+Considérons le cas général. En remplaçant X par $X-x$ pour un élément $x\in E$ - X, on se ramène au cas où $0\notin X$. Comme E - X est la réunion des ensembles F - $(X\cap F)$ lorsque F parcourt l’ensemble des sous-espaces de dimension 2 de E, et que ceux-ci sont connexes d’après le cas précédent et contiennent 0, l’ensemble E - X est connexe (loc. cit.).
 
 #### Lemme 2 {#ts-iii-s6-lem-2 .statement tag=02UV}
 
@@ -346,7 +346,7 @@ Soit $u\in \mathscr{L}(E)$ un endomorphisme normal de $u$. Le spectre essentiel 
 
 Soit $h\in \mathscr{L}^c(E)$. Comme Sp$_0(u)$ est vide (corollaire ci-dessus), le théorème 2 de III, p. 89 implique que Sp$_e(u+h) =$ Sp$_e(u)$. L’intersection des ensembles Sp($u+h$) contient donc Sp$_e(u)$.
 
-Soit $\lambda \in$ Sp$_s(u)$. Notons $E_{\lambda}$ le sous-espace propre de $u$ relatif à $\lambda$, et $F_{\lambda}$ l’image du projecteur spectral associé à $u$ et $\mathbf{C}-\{\lambda \}$. L’espace E est somme directe topologique de $E_{\lambda}$ et $F_{\lambda}$. Soit $h$ l’endomorphisme de rang fini de E qui est nul sur $F_{\lambda}$ et coïncide sur $E_{\lambda}$ avec l’identité. L’endomorphisme $u+h$ est inversible, donc $\lambda  /\in$ Sp($u+h$). Le théorème en résulte.
+Soit $\lambda \in$ Sp$_s(u)$. Notons $E_{\lambda}$ le sous-espace propre de $u$ relatif à $\lambda$, et $F_{\lambda}$ l’image du projecteur spectral associé à $u$ et $\mathbf{C}-\{\lambda \}$. L’espace E est somme directe topologique de $E_{\lambda}$ et $F_{\lambda}$. Soit $h$ l’endomorphisme de rang fini de E qui est nul sur $F_{\lambda}$ et coïncide sur $E_{\lambda}$ avec l’identité. L’endomorphisme $u+h$ est inversible, donc $\lambda  \notin$ Sp($u+h$). Le théorème en résulte.
 
 Ainsi, si $u$ est un endomorphisme normal de E, et si $h\in \mathscr{L}^c$(E), le spectre de $u+h$ ne peut différer du spectre de $u$ que par des points isolés qui sont de multiplicité spectrale finie.
 
@@ -412,7 +412,7 @@ $$
 f(z) =\langle R(u_{(\mathbf{C})}, z^{-1})x_0, \ell_0\rangle
 $$
 
-pour $z\in \mathbf{C}$ tel que $z^{-1}\in /$ Sp($u_{(\mathbf{C})}$). Cette fonction vérifie
+pour $z\in \mathbf{C}$ tel que $z^{-1}\notin$ Sp($u_{(\mathbf{C})}$). Cette fonction vérifie
 
 $$
 f(z) =\ell_0((\sum^{+\infty}_{n=0}z^{n+1}u^n_{(\mathbf{C})})x_0)=\sum_{n=0}^{\infty}\langle u^n(x_0), \ell_0\rangle z^{n+1} \tag{1}
@@ -490,7 +490,7 @@ $$
 
 donc Ker($\ell$ ) est stable par $u$.
 
-Soit $x$ un élément non nul de Ker($\ell$ ). Pour tout élément $y$ de E tel que $\langle y, \ell \rangle <0$, on a $\langle u(x) +y, \ell \rangle <0$, d’où il résulte que $u(x) +$ $y /\in C$ puisque $\ell \in C^{\circ}$. On en déduit que $u(x)$ n’appartient pas à $\mathring{C}$. Comme $u(C-\{0\})\subset \mathring{C}$, cela implique que $x /\in C$.
+Soit $x$ un élément non nul de Ker($\ell$ ). Pour tout élément $y$ de E tel que $\langle y, \ell \rangle <0$, on a $\langle u(x) +y, \ell \rangle <0$, d’où il résulte que $u(x) +$ $y \notin C$ puisque $\ell \in C^{\circ}$. On en déduit que $u(x)$ n’appartient pas à $\mathring{C}$. Comme $u(C-\{0\})\subset \mathring{C}$, cela implique que $x \notin C$.
 
 #### Lemme 6 {#ts-iii-s6-lem-6 .statement tag=02V9}
 
@@ -532,7 +532,7 @@ L’ensemble B est borné : en effet, s’il existait une suite $(y_n)_{n\in\mat
 
 On déduit alors du lemme 6, appliqué à Ker($\ell$ ), à B et à $w$, que le spectre complexe de $w$ ne rencontre pas le cercle de centre 0 et de rayon 1 ; cela entraîne que le spectre de $w$ est vide, ce qui signifie que Ker($\ell$ ) est réduit à $\{0\}$, donc que F est de dimension 1. Les assertions b) et c) sont donc établies.
 
-L’application linéaire $^tu$ est compacte (corollaire 1 de III, p. 9) et $^tu(C^{\circ})\subset C^{\circ}$; de plus $\varrho (^tu) =\varrho  >0$ (prop. 3 de I, p. 131). D’après le corollaire du théorème 4, il existe dans $C^{\circ}$ un vecteur propre $\ell \not = 0$ de $^tu$ pour la valeur propre $\varrho$. Le noyau de $\ell$ est stable par $u$ et ne rencontre pas C $-\{0\}$ (lemme 5). En particulier, on a $x_0\in /$ Ker($\ell$ ).
+L’application linéaire $^tu$ est compacte (corollaire 1 de III, p. 9) et $^tu(C^{\circ})\subset C^{\circ}$; de plus $\varrho (^tu) =\varrho  >0$ (prop. 3 de I, p. 131). D’après le corollaire du théorème 4, il existe dans $C^{\circ}$ un vecteur propre $\ell \not = 0$ de $^tu$ pour la valeur propre $\varrho$. Le noyau de $\ell$ est stable par $u$ et ne rencontre pas C $-\{0\}$ (lemme 5). En particulier, on a $x_0\notin$ Ker($\ell$ ).
 
 Soit F un sous-espace de E stable par $u$. On a la décomposition $F = (F\cap \mathbf{R}x_0)\oplus (F\cap$ Ker($\ell$ )). Si F ne contient pas $x_0$, on a donc $F\subset$ Ker($\ell$ ), donc F ne rencontre pas C$-\{0\}$. Cela établit d) et conclut la preuve de la proposition.
 

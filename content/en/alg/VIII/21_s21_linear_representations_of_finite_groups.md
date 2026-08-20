@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 480b305b7736996724df25c215041271f480c71d3548542ade576886319fac43
+content_sha256: 57b93c57e726f0b46672458d4233fb8efa77dd7ed1544adad7750b082adfbad3
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -657,7 +657,7 @@ Let $(V, \pi )$ be a simple representation of G and $\chi$ be its character. For
 
 Let L be an extension of $\mathbf{Q}$. Let A be a subring of L. Suppose that A is a finitely generated $\mathbf{Z}$-module. We have $A\cap \mathbf{Q}=\mathbf{Z}$.
 
-Since the $\mathbf{Z}$-module $A\cap \mathbf{Q}$ is finitely generated, there exists a strictly positive integer N such that $A\cap \mathbf{Q}$ is contained in $\frac{1}{N}\mathbf{Z}$. Let $x$ be an element of $\mathbf{Q}-\mathbf{Z}$; we write it as $x=\frac{p}{q}$, where $p$ and $q$ are mutually prime integers and $q\geqslant 2$. We have $q^N\geqslant 2^N>N ($Set Theory, III, §3, No. 6, p. 165, Theorem 2), the integers $p^N$ and $q^N$ are mutually prime, and consequently $x^N\in /\frac{1}{N}\mathbf{Z}$. It follows that $x$ does not belong to A. This concludes the proof of the lemma.
+Since the $\mathbf{Z}$-module $A\cap \mathbf{Q}$ is finitely generated, there exists a strictly positive integer N such that $A\cap \mathbf{Q}$ is contained in $\frac{1}{N}\mathbf{Z}$. Let $x$ be an element of $\mathbf{Q}-\mathbf{Z}$; we write it as $x=\frac{p}{q}$, where $p$ and $q$ are mutually prime integers and $q\geqslant 2$. We have $q^N\geqslant 2^N>N ($Set Theory, III, §3, No. 6, p. 165, Theorem 2), the integers $p^N$ and $q^N$ are mutually prime, and consequently $x^N\notin\frac{1}{N}\mathbf{Z}$. It follows that $x$ does not belong to A. This concludes the proof of the lemma.
 
 In the next subsection, we extend Proposition 9 to the case when we only assume that the characteristic of K does not divide the order of G.
 

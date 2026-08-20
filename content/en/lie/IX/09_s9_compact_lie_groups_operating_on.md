@@ -33,7 +33,7 @@ errata:
     - says: §5, no. 2, Cor. of Prop. 2
       read: §5, no. 2, Cor. 1 of Prop. 2
       why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and the reference does not say which. The sentence citing it has G simply-connected and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected group. Corollary 2 is the same statement for the Lie algebra, over a chamber rather than an alcove, and Corollary 3 is about existence and uniqueness and names no map at all.
-content_sha256: 80886e7d2a63d111d67d57d99f7984d56211703c5af46f7dcdf84161e9d5912f
+content_sha256: 2a82e6269703610eb0aec6a364adfc78d840c576702417f4d79de46898d441fb
 ---
 
 ## § 9. COMPACT LIE GROUPS OPERATING ON MANIFOLDS
@@ -112,7 +112,7 @@ Consequently, the restriction of $\psi$ to B is injective, hence the lemma.
 
 Let A be a compact subset of X. There exist a finite dimensional vector space E and a morphism $\varphi \in \mathscr{C}^r(X;E) (r\not=\omega )$ that is an embedding in the neighbourhood of A.
 
-Let $(U_i, \varphi_i,E_i)_{i\in I}$ be a finite family of charts of X whose domains cover A. We extend $\varphi_i$ to a map from X to $E_i$ (also denoted by $\varphi_i$) by putting $\varphi_i(x) = 0$ for $x /\in U_i$. Let $(V_i)_{i\in I}$ be a covering of A by open subsets of X such that $\overline{V}_i\subset U_i$ for all $i\in I$ (the existence of such a covering follows from General Topology, Chap. IX, §4, no. 3, Cor. 1 of Th. 3, applied to the compact space $X'$ obtained by adjoining to X a point at infinity and the covering of $X'$ consisting of the open sets $U_i(i\in I)$ and $X'$ **--** A). For all $i\in I$, let $\alpha_i$ be a numerical function of class $C^r$ on X, equal to 1 at every point of $V_i$, and with support contained in $U_i($Differentiable and Analytic Manifolds, Results, 5.3.6).
+Let $(U_i, \varphi_i,E_i)_{i\in I}$ be a finite family of charts of X whose domains cover A. We extend $\varphi_i$ to a map from X to $E_i$ (also denoted by $\varphi_i$) by putting $\varphi_i(x) = 0$ for $x \notin U_i$. Let $(V_i)_{i\in I}$ be a covering of A by open subsets of X such that $\overline{V}_i\subset U_i$ for all $i\in I$ (the existence of such a covering follows from General Topology, Chap. IX, §4, no. 3, Cor. 1 of Th. 3, applied to the compact space $X'$ obtained by adjoining to X a point at infinity and the covering of $X'$ consisting of the open sets $U_i(i\in I)$ and $X'$ **--** A). For all $i\in I$, let $\alpha_i$ be a numerical function of class $C^r$ on X, equal to 1 at every point of $V_i$, and with support contained in $U_i($Differentiable and Analytic Manifolds, Results, 5.3.6).
 
 Consider the map $\varphi : X\rightarrow \bigoplus_{i\in I}(E_i\oplus \mathbf{R})$ defined by
 
@@ -228,7 +228,7 @@ Let Z be a separated manifold of class $C^r$, equipped with a law of left operat
 
 Since $\mu$ is compatible with the operations of G, it is étale at every point of $Gz$; since the canonical map $G/G_x\rightarrow Gx$ is a homeomorphism, so is the map from $Gz$ to $Gx$ induced by $\mu$. Hence, it follows from Prop. 2 of no. 1 that there exists an open neighbourhood U of $Gz$ in Z such that $\mu$ induces an open embedding of U into X.
 
-Since G operates properly on X, there exists an open neighbourhood V of $x$ and a compact subset K of G such that $gV\cap V =\emptyset$ for $g /\in K ($General Topology, Chap. III, §4, no. 4, Prop. 7); in particular, $e\in K$. The set $W_1$ of points $y\in Z$ such that $Ky\subset U$ is open in Z: indeed, Z**--** $W_1$ is the image of the closed set $(K\times Z)$ **--** $m^{-1}(U)$ under the proper projection pr$_2: K\times Z\rightarrow Z$. Put $W = W_1\cap \mu^{-1}(V)$; this is an open subset of Z, containing $z$, and satisfying the following conditions:
+Since G operates properly on X, there exists an open neighbourhood V of $x$ and a compact subset K of G such that $gV\cap V =\emptyset$ for $g \notin K ($General Topology, Chap. III, §4, no. 4, Prop. 7); in particular, $e\in K$. The set $W_1$ of points $y\in Z$ such that $Ky\subset U$ is open in Z: indeed, Z**--** $W_1$ is the image of the closed set $(K\times Z)$ **--** $m^{-1}(U)$ under the proper projection pr$_2: K\times Z\rightarrow Z$. Put $W = W_1\cap \mu^{-1}(V)$; this is an open subset of Z, containing $z$, and satisfying the following conditions:
 
 (i) KW $\subset U$, and in particular $W\subset U$;
 

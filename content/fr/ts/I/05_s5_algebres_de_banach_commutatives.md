@@ -21,7 +21,7 @@ subsections:
       pdf_page: 104
 statements: 16
 exercises: 7
-content_sha256: 3b8b45af0b54b3bf0b9093138e784b60c042ad9a881e2bc1d672c05060435ac9
+content_sha256: 77bf9552a7e15b5eaff68232b4e04dcbe3abd5be58471a8f420d757b35bd8afa
 ---
 
 ## § 5. ALGÈBRES DE BANACH COMMUTATIVES RÉGULIÈRES
@@ -74,7 +74,7 @@ Il existe un recouvrement ouvert $(V_1, . . . ,V_n)$ de $\mathsf{X}(A)$ tel que 
 
 Soit A une algèbre de Banach unifère commutative régulière, soit I un idéal de A et soit $f:\mathsf{X}(A)\rightarrow \mathbf{C}$ une fonction continue. On suppose que, pour tout $\chi \in \mathsf{X}(A)$, il existe un élément $y_{\chi}\in I$ tel que $f=\mathscr{G}(y_{\chi})$ au voisinage de $\chi$. Alors il existe un élément $y\in I$ tel que $f=\mathscr{G}(y)$.
 
-Comme $\mathsf{X}(A)$ est compact, il existe un recouvrement ouvert fini $(U_1, . . . ,U_n)$ de $\mathsf{X}(A)$, et des éléments $y_1, . . . , y_n$ de I tels que $f=\mathscr{G}(y_i)$ sur $U_i$. D’après la prop. 2, il existe des éléments $x_1, . . . , x_n$ de A de somme 1 tels que Supp($\mathscr{G}(x_i)$)$\subset U_i$ pour tout $i$. Soit $y=x_1y_1+\cdots +$ $x_ny_n$. C’est un élément de I qui a la propriété demandée. En effet, soit $\chi \in \mathsf{X}(A)$. Pour $1\leqslant i\leqslant n$, on a $\mathscr{G}(x_i)(\chi )\mathscr{G}(y_i)(\chi ) =\mathscr{G}(x_i)(\chi )f(\chi )$ puisque $\mathscr{G}(y_i)(\chi ) =f(\chi )$ si $\chi \in U_i$, et $\mathscr{G}(x_i)(\chi ) = 0$ si $\chi  /\in U_i$. Il vient donc
+Comme $\mathsf{X}(A)$ est compact, il existe un recouvrement ouvert fini $(U_1, . . . ,U_n)$ de $\mathsf{X}(A)$, et des éléments $y_1, . . . , y_n$ de I tels que $f=\mathscr{G}(y_i)$ sur $U_i$. D’après la prop. 2, il existe des éléments $x_1, . . . , x_n$ de A de somme 1 tels que Supp($\mathscr{G}(x_i)$)$\subset U_i$ pour tout $i$. Soit $y=x_1y_1+\cdots +$ $x_ny_n$. C’est un élément de I qui a la propriété demandée. En effet, soit $\chi \in \mathsf{X}(A)$. Pour $1\leqslant i\leqslant n$, on a $\mathscr{G}(x_i)(\chi )\mathscr{G}(y_i)(\chi ) =\mathscr{G}(x_i)(\chi )f(\chi )$ puisque $\mathscr{G}(y_i)(\chi ) =f(\chi )$ si $\chi \in U_i$, et $\mathscr{G}(x_i)(\chi ) = 0$ si $\chi  \notin U_i$. Il vient donc
 
 $$
 \mathscr{G}(y)(\chi ) =\sum_{i=1}^n\mathscr{G}(x_i)(\chi )\mathscr{G}(y_i)(\chi ) =f(\chi )\sum_{i=1}^n\mathscr{G}(x_i)(\chi ) =f(\chi )

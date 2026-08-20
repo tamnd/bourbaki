@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: 86623d40f53a1a803ced7057e9baf0bc037241a696cea79dcc510f0bbf385654
+content_sha256: e5d4512731c2c4775f6967a56df8bfea9f2c9f836e9424ff340a85f1fc7ae72d
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -158,7 +158,7 @@ which implies that B = 0, hence the proposition.
 
 Let $\mathfrak{S}_{\mathbf{R}}(G)$ be the set of classes of irreducible continuous representations of G on finite dimensional real vector spaces. Prop. 1 and the results of Appendix II give a bijection $\Phi : X_{++}/\Sigma \rightarrow \mathfrak{S}_{\mathbf{R}}$(G), where $\Sigma$ denotes the subgroup $\{1,-w_0\}$ of Aut(X(T)). More precisely, let $\lambda \in X_{++}$, and let $E_{\lambda}$ be a representation of G of highest weight $\lambda$; then
 
-$\Phi (\{\lambda ,-w_0(\lambda )\}) = E_{\lambda[\mathbf{R}]}$ if $\lambda \not=-w_0(\lambda )$ or if $\sum_{\alpha\in R_+}\langle \lambda , K_{\alpha}\rangle \in /2\mathbf{Z}$
+$\Phi (\{\lambda ,-w_0(\lambda )\}) = E_{\lambda[\mathbf{R}]}$ if $\lambda \not=-w_0(\lambda )$ or if $\sum_{\alpha\in R_+}\langle \lambda , K_{\alpha}\rangle \notin2\mathbf{Z}$
 
 $\Phi (\{\lambda ,-w_0(\lambda )\}) = E'_{\lambda}$ if $\lambda =-w_0(\lambda )$ and $\sum_{\alpha\in R_+}\langle \lambda , K_{\alpha}\rangle  \in 2\mathbf{Z}$
 
