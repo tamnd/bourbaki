@@ -1,6 +1,6 @@
 {
   "version": "dev",
-  "commit": "e1e5cdd803ccbf2f4fdd84852e9927f816c0d12e",
+  "commit": "f4f48bef55ec5061f13a3564b8f1de5a319dd3e3",
   "root": "/Users/apple/github/tamnd/bourbaki",
   "langs": [
     "en",
@@ -178,6 +178,13 @@
       "group": "mathematics",
       "hard": true,
       "title": "the star on a forward-looking passage is the corpus's star",
+      "found": 0
+    },
+    {
+      "id": "M12",
+      "group": "mathematics",
+      "hard": true,
+      "title": "the mathematics is written between dollars",
       "found": 0
     },
     {

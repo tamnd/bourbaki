@@ -14,7 +14,7 @@ Audited: 8 chapters, 90 sections, 878 exercises, 3398 extracted pages, 5252 tags
 | --- | ---: | ---: | ---: | --- |
 | structure | 12 | 0 | 0 | none |
 | tags | 7 | 1 | 1 | T10 (3) |
-| mathematics | 8 | 2 | 1 | M06 (1) |
+| mathematics | 9 | 2 | 1 | M06 (1) |
 | figures | 6 | 0 | 0 | none |
 | references | 3 | 0 | 0 | none |
 | translation | 11 | 3 | 1 | L01 (1), L05 (35), L06 (54), L08 (27), L15 (29) |
@@ -22,7 +22,7 @@ Audited: 8 chapters, 90 sections, 878 exercises, 3398 extracted pages, 5252 tags
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-36 hard findings and 156 soft, over 67 rules that ran and 3 that could not.
+36 hard findings and 156 soft, over 68 rules that ran and 3 that could not.
 
 ## Rules that did not run
 
