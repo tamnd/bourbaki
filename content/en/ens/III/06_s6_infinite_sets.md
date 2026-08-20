@@ -34,7 +34,7 @@ subsections:
       pdf_page: 195
 statements: 26
 exercises: 32
-content_sha256: ee86ba0ff12c3ec8fd6f5cd89b21236c8340af4e370be463dc8b042007030243
+content_sha256: 9dad8d983ddd8f3b0b6298831408a4064ea8b6e7bd8b96cdff8003a923a1c904
 ---
 
 ## 6. INFINITE SETS
@@ -237,7 +237,7 @@ On the other hand, since $x \to \{x\}$ is an injective mapping of E into $\mathf
 
 A set which has the power of the continuum is not countable (§ 3, no. 6, Theorem 2).
 
-\* The name "power of the continuum" arises from the fact that the set of real numbers is equipotent to $\mathfrak{P}(\mathbf{N})$ (*General Topology*, Chapter IV, § 8). ⁎ The *continuum hypothesis* is the assertion that every uncountable set contains a subset which has the power of the continuum; the *generalized continuum hypothesis* is the assertion that, for every infinite cardinal $\mathfrak{a}$, every cardinal $> \mathfrak{a}$ is $\geqslant 2^{\mathfrak{a}}$.
+\* The name "power of the continuum" arises from the fact that the set of real numbers is equipotent to $\mathfrak{P}(\mathbf{N})$ (*General Topology*, Chapter IV, § 8). \* The *continuum hypothesis* is the assertion that every uncountable set contains a subset which has the power of the continuum; the *generalized continuum hypothesis* is the assertion that, for every infinite cardinal $\mathfrak{a}$, every cardinal $> \mathfrak{a}$ is $\geqslant 2^{\mathfrak{a}}$.
 
 ### 5. STATIONARY SEQUENCES
 

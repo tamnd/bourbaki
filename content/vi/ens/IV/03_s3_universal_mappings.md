@@ -26,7 +26,7 @@ subsections:
       pdf_page: 291
 statements: 0
 exercises: 3
-content_sha256: e0d6f1d3ac680784ebbba2ceccdd530739c71ccfe7de1f79dd906f6c3543a4ba
+content_sha256: cebd5b2b2c3092d28ea01839a4c14cc0eff3d8ec484764924fafa513cb7f496f
 translated_from: content/en/ens/IV/03_s3_universal_mappings.md
 source_content_sha256: 98de15070c6122f15d37cc5ed3db1f93782ce63e3a7bbc618529bef0a4082473
 translation_model: gpt-5.4
@@ -122,7 +122,7 @@ Nhóm tôpô Hausdorff $\mathrm{F_E}$ là nghiệm của bài toán ánh xạ ph
 
 VIII. *Các hàm hầu tuần hoàn trên một nhóm tôpô*. Cho E là một nhóm tôpô. Lấy $\Sigma$ là loài các cấu trúc nhóm compact, các cấu xạ là các đồng cấu liên tục, và các $\alpha$-ánh xạ là các đồng cấu liên tục từ E vào một nhóm compact. Các điều kiện $(\mathrm{QM_{II}})$, $(\mathrm{CU_I})$ đến $(\mathrm{CU_{III}})$ được thỏa mãn, với $\mathfrak{a} = 2^{2^{\mathrm{Card\,(E)}}}$. Nhóm compact $\mathrm{F_E}$ là nghiệm của bài toán ánh xạ phổ quát này đối với E được gọi là *nhóm compact liên kết* với E; ánh xạ $\varphi_\mathrm{E}$ không tất yếu đơn ánh. Mọi hàm thực liên tục trên E, có dạng $g \circ \varphi_\mathrm{E}$, trong đó $g$ là một hàm thực liên tục trên E, được gọi là một *hàm hầu tuần hoàn* trên E.
 
-IX. *Đa tạp Albanese*. Cho E là một đa tạp đại số, và lấy $\Sigma$ là loài các cấu trúc của các đa tạp Abel trên cùng trường cơ sở với E (một đa tạp Abel là một đa tạp đại số đầy đủ được trang bị một cấu trúc nhóm đại số; nó tất yếu giao hoán). Các cấu xạ là các ánh xạ hữu tỉ từ một đa tạp Abel vào một đa tạp Abel khác (mỗi cấu xạ tất yếu là hợp thành của một đồng cấu và một phép tịnh tiến). Các $\alpha$-ánh xạ là các ánh xạ hữu tỉ từ E vào một đa tạp Abel. Điều kiện $(\mathrm{CU_I})$ không được thỏa mãn, tuy vậy bài toán ánh xạ phổ quát này đối với E vẫn có một nghiệm $\mathrm{F_E}$, được gọi là *đa tạp Albanese* của E. Nói chung, ánh xạ hữu tỉ $\varphi_\mathrm{E}$ không đơn ánh. ✳
+IX. *Đa tạp Albanese*. Cho E là một đa tạp đại số, và lấy $\Sigma$ là loài các cấu trúc của các đa tạp Abel trên cùng trường cơ sở với E (một đa tạp Abel là một đa tạp đại số đầy đủ được trang bị một cấu trúc nhóm đại số; nó tất yếu giao hoán). Các cấu xạ là các ánh xạ hữu tỉ từ một đa tạp Abel vào một đa tạp Abel khác (mỗi cấu xạ tất yếu là hợp thành của một đồng cấu và một phép tịnh tiến). Các $\alpha$-ánh xạ là các ánh xạ hữu tỉ từ E vào một đa tạp Abel. Điều kiện $(\mathrm{CU_I})$ không được thỏa mãn, tuy vậy bài toán ánh xạ phổ quát này đối với E vẫn có một nghiệm $\mathrm{F_E}$, được gọi là *đa tạp Albanese* của E. Nói chung, ánh xạ hữu tỉ $\varphi_\mathrm{E}$ không đơn ánh. \*
 
 ### Bài tập {#ens-iv-s3-exercises}
 

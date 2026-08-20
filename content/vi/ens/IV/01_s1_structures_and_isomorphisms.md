@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 16
 exercises: 1
-content_sha256: ebf3ec2a495700ac37decd3fc1b917d55359cc43006ffbca5a15cd47dcbe787e
+content_sha256: e2f5567167818817bba2b11ae764f85ace3a6afc56755252a4504b96bce16942
 translated_from: content/en/ens/IV/01_s1_structures_and_isomorphisms.md
 source_content_sha256: de7318f61d5fc652f9c0bae9f51aa21b36eb7c5f41b68e31d48196596059814b
 translation_model: gpt-5.4
@@ -310,13 +310,13 @@ $$s_1 \in \mathfrak{P}((\mathrm{E} \times \mathrm{E}) \times \mathrm{E}) \quad \
 
 (resp. $\quad s_1 \in \mathfrak{P}((\mathrm{E} \times \mathrm{E}) \times \mathrm{E}) \quad \text{và} \quad s_2 \in \mathfrak{P}((\mathbf{R} \times \mathrm{E}) \times \mathrm{E})$).
 
-Cặp $(s_1, s_2 \cap ((\mathbf{R} \times \mathrm{E}) \times \mathrm{E}))$ là một thủ tục suy diễn một cấu trúc không gian vectơ trên $\mathbf{R}$ từ một cấu trúc không gian vectơ trên $\mathbf{C}$ ("hạn chế trường vô hướng xuống $\mathbf{R}$"). ∗
+Cặp $(s_1, s_2 \cap ((\mathbf{R} \times \mathrm{E}) \times \mathrm{E}))$ là một thủ tục suy diễn một cấu trúc không gian vectơ trên $\mathbf{R}$ từ một cấu trúc không gian vectơ trên $\mathbf{C}$ ("hạn chế trường vô hướng xuống $\mathbf{R}$"). \*
 
 #### Ví dụ 3 {#ens-iv-s1-n6-exa-3 .statement tag=03VG}
 
-Giả sử rằng $\Theta$ có các tập cơ sở (chính và phụ) *cùng* với $\Sigma$, và có *cùng* đặc trưng hóa điển hình. Nếu hơn nữa, tiên đề của $\Sigma$ *kéo theo* (trong $\mathscr{T}$) tiên đề của $\Theta$, thì hiển nhiên số hạng $s$ là một thủ tục suy diễn một cấu trúc thuộc loài cấu trúc $\Theta$ từ một cấu trúc thuộc loài cấu trúc $\Sigma$. Khi đó người ta nói $\Theta$ *nghèo hơn* $\Sigma$, và $\Sigma$ *giàu hơn* $\Theta$. Khi ấy, mọi cấu trúc thuộc loài cấu trúc $\Sigma$, trong một lý thuyết $\mathscr{T}'$ mạnh hơn $\mathscr{T}$, cũng là một cấu trúc thuộc loài cấu trúc $\Theta$. Chẳng hạn, loài cấu trúc của các tập hợp *được sắp thứ tự toàn phần* (thu được bằng cách lấy làm tiên đề phép hội của tiên đề về các cấu trúc thứ tự (no. 4, Ví dụ 1) và quan hệ $s \cup \overset{-1}{s} = \mathrm{A} \times \mathrm{A}$) giàu hơn loài các cấu trúc thứ tự. ∗Loài các cấu trúc nhóm giao hoán giàu hơn loài các cấu trúc nhóm. Loài các cấu trúc không gian tôpô compắc giàu hơn loài các cấu trúc tôpô, v.v. ∗
+Giả sử rằng $\Theta$ có các tập cơ sở (chính và phụ) *cùng* với $\Sigma$, và có *cùng* đặc trưng hóa điển hình. Nếu hơn nữa, tiên đề của $\Sigma$ *kéo theo* (trong $\mathscr{T}$) tiên đề của $\Theta$, thì hiển nhiên số hạng $s$ là một thủ tục suy diễn một cấu trúc thuộc loài cấu trúc $\Theta$ từ một cấu trúc thuộc loài cấu trúc $\Sigma$. Khi đó người ta nói $\Theta$ *nghèo hơn* $\Sigma$, và $\Sigma$ *giàu hơn* $\Theta$. Khi ấy, mọi cấu trúc thuộc loài cấu trúc $\Sigma$, trong một lý thuyết $\mathscr{T}'$ mạnh hơn $\mathscr{T}$, cũng là một cấu trúc thuộc loài cấu trúc $\Theta$. Chẳng hạn, loài cấu trúc của các tập hợp *được sắp thứ tự toàn phần* (thu được bằng cách lấy làm tiên đề phép hội của tiên đề về các cấu trúc thứ tự (no. 4, Ví dụ 1) và quan hệ $s \cup \overset{-1}{s} = \mathrm{A} \times \mathrm{A}$) giàu hơn loài các cấu trúc thứ tự. \*Loài các cấu trúc nhóm giao hoán giàu hơn loài các cấu trúc nhóm. Loài các cấu trúc không gian tôpô compắc giàu hơn loài các cấu trúc tôpô, v.v. \*
 
-∗ (4) Khi mỗi $\Sigma$ và $\Theta$ là loài các cấu trúc nhóm (ứng với các cấu trúc vành), thì trong đại số có xác định một thủ tục suy diễn gắn với mỗi cấu trúc nhóm (ứng với cấu trúc vành) cấu trúc nhóm (ứng với cấu trúc vành) trên *tâm* của nó. Khi $\Sigma$ là loài các cấu trúc không gian vectơ trên một trường K, và khi $\Theta$ là loài các cấu trúc đại số trên K, thì có xác định các thủ tục suy diễn gắn với mọi không gian vectơ trên K *đại số tenxơ* hoặc *đại số ngoài* của nó. Về sau trong chuỗi này chúng ta sẽ gặp nhiều ví dụ khác nữa. ∗
+\* (4) Khi mỗi $\Sigma$ và $\Theta$ là loài các cấu trúc nhóm (ứng với các cấu trúc vành), thì trong đại số có xác định một thủ tục suy diễn gắn với mỗi cấu trúc nhóm (ứng với cấu trúc vành) cấu trúc nhóm (ứng với cấu trúc vành) trên *tâm* của nó. Khi $\Sigma$ là loài các cấu trúc không gian vectơ trên một trường K, và khi $\Theta$ là loài các cấu trúc đại số trên K, thì có xác định các thủ tục suy diễn gắn với mọi không gian vectơ trên K *đại số tenxơ* hoặc *đại số ngoài* của nó. Về sau trong chuỗi này chúng ta sẽ gặp nhiều ví dụ khác nữa. \*
 
 #### Nhận xét {#ens-iv-s1-n6-rem-1 .statement tag=03VH}
 
@@ -397,7 +397,7 @@ $$\mathrm{A} \in \mathrm{Q},$$
 $$(\forall \mathrm{M})((\mathrm{M} \subset \mathrm{Q}) \Rightarrow \left(\left(\bigcup_{\mathrm{X} \in \mathrm{M}} \mathrm{X}\right) \in \mathrm{Q}\right),$$
 $$(\forall \mathrm{X})(\forall \mathrm{Y})((\mathrm{X} \in \mathrm{Q} \text{ và } \mathrm{Y} \in \mathrm{Q}) \Rightarrow ((\mathrm{X} \cap \mathrm{Y}) \in \mathrm{Q})).$$
 
-Như vậy các từ $\mathrm{P}\{\mathrm{A}, \mathrm{V}\}$ và $\mathrm{Q}\{\mathrm{A}, \mathrm{W}\}$ thỏa mãn các điều kiện (1) và (2) ở trên, và dễ thấy rằng chúng cũng thỏa mãn điều kiện (3). Do đó các loài cấu trúc $\Sigma$ và $\Theta$ là tương đương, và vì vậy chúng tôi coi mọi cấu trúc thuộc loài $\Theta$ như một tôpô, cụ thể là tôpô tương ứng với nó theo thủ tục suy diễn $\mathrm{Q}\{\mathrm{A}, \mathrm{W}\}$. ∗
+Như vậy các từ $\mathrm{P}\{\mathrm{A}, \mathrm{V}\}$ và $\mathrm{Q}\{\mathrm{A}, \mathrm{W}\}$ thỏa mãn các điều kiện (1) và (2) ở trên, và dễ thấy rằng chúng cũng thỏa mãn điều kiện (3). Do đó các loài cấu trúc $\Sigma$ và $\Theta$ là tương đương, và vì vậy chúng tôi coi mọi cấu trúc thuộc loài $\Theta$ như một tôpô, cụ thể là tôpô tương ứng với nó theo thủ tục suy diễn $\mathrm{Q}\{\mathrm{A}, \mathrm{W}\}$. \*
 
 ### Bài tập {#ens-iv-s1-exercises}
 
