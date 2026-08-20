@@ -7700,15 +7700,15 @@ books:
               pdf_page: 180
               subsections:
                 - "no": 1
-                  title: Unifo~ly contin~ous f~ctions
+                  title: Uniformly continuous functions
                   page: 174
                   pdf_page: 180
                 - "no": 2
-                  title: ~~parlS?n of.u.mformlties
+                  title: Comparison of uniformities
                   page: 175
                   pdf_page: 181
                 - "no": 3
-                  title: Imtlal umformities
+                  title: Initial uniformities
                   page: 176
                   pdf_page: 182
                 - "no": 4
@@ -8246,7 +8246,7 @@ books:
                   page: 373
                   pdf_page: 379
                 - "no": 3
-                  title: Defi~ition of a. real number by means of Its expanslOn
+                  title: Definition of a real number by means of its expansion
                   page: 374
                   pdf_page: 380
                 - "no": 4
