@@ -26,7 +26,7 @@ subsections:
       pdf_page: 291
 statements: 0
 exercises: 3
-content_sha256: 4c1a7ae05cdd6e8737a76c60f36d0a3b509802787f04a70aadd8f7fc52894d02
+content_sha256: c790c457671e2d2f76ae686e3b6a4cda3bed295ef31b76703c72506697a06507
 ---
 
 ## 3. UNIVERSAL MAPPINGS
@@ -109,7 +109,7 @@ The Hausdorff topological group $\mathrm{F_E}$ which is the solution of this uni
 
 VIII. *Almost periodic functions on a topological group*. Let E be a topological group. Take $\Sigma$ to be the species of compact group structures, the morphisms being continuous homomorphisms, and the $\alpha$-mappings being continuous homomorphisms of E into a compact group. Conditions $(\mathrm{QM_{II}})$, $(\mathrm{CU_I})$ through $(\mathrm{CU_{III}})$ are satisfied, with $\mathfrak{a} = 2^{2^{\mathrm{Card\,(E)}}}$. The compact group $\mathrm{F_E}$ which is the solution of this universal mapping problem for E is called the *compact group associated* with E; the mapping $\varphi_\mathrm{E}$ is not necessarily injective. Every continuous real-valued function on E, of the form $g \circ \varphi_\mathrm{E}$, where $g$ is a continuous real-valued function on E, is called an *almost periodic function* on E.
 
-IX. *Albanese variety*. Let E be an algebraic variety, let $\Sigma$ be the species of structures of abelian varieties over the same base field as E (an abelian variety is a complete algebraic variety endowed with an algebraic group structure; it is necessarily commutative). The morphisms are rational mappings of one abelian variety into another (each morphism is necessarily the composition of a homomorphism and a translation). The $\alpha$-mappings are rational mappings of E into an abelian variety. Condition $(\mathrm{CU_I})$ is not satisfied, yet this universal mapping problem for E admits a solution $\mathrm{F_E}$, called the *Albanese variety* of E. In general, the rational mapping $\varphi_\mathrm{E}$ is not injective. ✳
+IX. *Albanese variety*. Let E be an algebraic variety, let $\Sigma$ be the species of structures of abelian varieties over the same base field as E (an abelian variety is a complete algebraic variety endowed with an algebraic group structure; it is necessarily commutative). The morphisms are rational mappings of one abelian variety into another (each morphism is necessarily the composition of a homomorphism and a translation). The $\alpha$-mappings are rational mappings of E into an abelian variety. Condition $(\mathrm{CU_I})$ is not satisfied, yet this universal mapping problem for E admits a solution $\mathrm{F_E}$, called the *Albanese variety* of E. In general, the rational mapping $\varphi_\mathrm{E}$ is not injective. \*
 
 ### Exercises {#ens-iv-s3-exercises}
 

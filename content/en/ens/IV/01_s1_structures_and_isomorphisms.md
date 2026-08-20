@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 16
 exercises: 1
-content_sha256: 1e433d5fd275665be4f3b93ebc19ae2c076a41361557d1f4d452ff7c5e127dc5
+content_sha256: c2689bfc676ff797fadce1c362c9337c142872efdf44c3c9f67ba4eb3cab2ce0
 ---
 
 ## 1. STRUCTURES AND ISOMORPHISMS
@@ -297,13 +297,13 @@ $$s_1 \in \mathfrak{P}((\mathrm{E} \times \mathrm{E}) \times \mathrm{E}) \quad \
 
 (resp. $\quad s_1 \in \mathfrak{P}((\mathrm{E} \times \mathrm{E}) \times \mathrm{E}) \quad \text{and} \quad s_2 \in \mathfrak{P}((\mathbf{R} \times \mathrm{E}) \times \mathrm{E})$).
 
-The pair $(s_1, s_2 \cap ((\mathbf{R} \times \mathrm{E}) \times \mathrm{E}))$ is a procedure of deduction of a vector space structure over $\mathbf{R}$ from a vector space structure over $\mathbf{C}$ ("restriction of the field of scalars to $\mathbf{R}$"). ∗
+The pair $(s_1, s_2 \cap ((\mathbf{R} \times \mathrm{E}) \times \mathrm{E}))$ is a procedure of deduction of a vector space structure over $\mathbf{R}$ from a vector space structure over $\mathbf{C}$ ("restriction of the field of scalars to $\mathbf{R}$"). \*
 
 #### Example 3 {#ens-iv-s1-n6-exa-3 .statement tag=03VG}
 
-Suppose that $\Theta$ has the *same* (principal and auxiliary) base sets as $\Sigma$, and the *same* typical characterization. If, moreover, the axiom of $\Sigma$ *implies* (in $\mathscr{T}$) the axiom of $\Theta$, it is clear that the term $s$ is a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$. $\Theta$ is then said to be *poorer* than $\Sigma$, and $\Sigma$ is *richer* than $\Theta$. Every structure of species $\Sigma$, in a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$, is then also a structure of species $\Theta$. For example, the species of structures of *totally ordered* sets (obtained by taking as axiom the conjunction of the axiom of order structures (no. 4, Example 1) and the relation $s \cup \overset{-1}{s} = \mathrm{A} \times \mathrm{A}$) is richer than the species of order structures. ∗The species of commutative group structures is richer than the species of group structures. The species of compact topological space structures is richer than the species of topological structures, etc. ∗
+Suppose that $\Theta$ has the *same* (principal and auxiliary) base sets as $\Sigma$, and the *same* typical characterization. If, moreover, the axiom of $\Sigma$ *implies* (in $\mathscr{T}$) the axiom of $\Theta$, it is clear that the term $s$ is a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$. $\Theta$ is then said to be *poorer* than $\Sigma$, and $\Sigma$ is *richer* than $\Theta$. Every structure of species $\Sigma$, in a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$, is then also a structure of species $\Theta$. For example, the species of structures of *totally ordered* sets (obtained by taking as axiom the conjunction of the axiom of order structures (no. 4, Example 1) and the relation $s \cup \overset{-1}{s} = \mathrm{A} \times \mathrm{A}$) is richer than the species of order structures. \*The species of commutative group structures is richer than the species of group structures. The species of compact topological space structures is richer than the species of topological structures, etc. \*
 
-∗ (4) When each of $\Sigma$ and $\Theta$ is the species of group structures (resp. ring structures), there is defined in algebra a procedure of deduction which associates with each group structure (resp. ring structure) the group structure (resp. ring structure) on its *centre*. When $\Sigma$ is the species of vector space structures over a field K, and when $\Theta$ is the species of algebraic structures over K, there are defined procedures of deduction which associate with every vector space over K its *tensor algebra* or its *exterior algebra*. We shall meet many other examples later in this series. ∗
+\* (4) When each of $\Sigma$ and $\Theta$ is the species of group structures (resp. ring structures), there is defined in algebra a procedure of deduction which associates with each group structure (resp. ring structure) the group structure (resp. ring structure) on its *centre*. When $\Sigma$ is the species of vector space structures over a field K, and when $\Theta$ is the species of algebraic structures over K, there are defined procedures of deduction which associate with every vector space over K its *tensor algebra* or its *exterior algebra*. We shall meet many other examples later in this series. \*
 
 #### Remark {#ens-iv-s1-n6-rem-1 .statement tag=03VH}
 
@@ -382,7 +382,7 @@ $$\mathrm{A} \in \mathrm{Q},$$
 $$(\forall \mathrm{M})((\mathrm{M} \subset \mathrm{Q}) \Rightarrow \left(\left(\bigcup_{\mathrm{X} \in \mathrm{M}} \mathrm{X}\right) \in \mathrm{Q}\right),$$
 $$(\forall \mathrm{X})(\forall \mathrm{Y})((\mathrm{X} \in \mathrm{Q} \text{ and } \mathrm{Y} \in \mathrm{Q}) \Rightarrow ((\mathrm{X} \cap \mathrm{Y}) \in \mathrm{Q})).$$
 
-Thus the terms $\mathrm{P}\{\mathrm{A}, \mathrm{V}\}$ and $\mathrm{Q}\{\mathrm{A}, \mathrm{W}\}$ satisfy conditions (1) and (2) above, and it is easily seen that they also satisfy condition (3). The species of structures $\Sigma$ and $\Theta$ are therefore equivalent, and we therefore consider every structure of species $\Theta$ as a topology, namely that which corresponds to it under the procedure of deduction $\mathrm{Q}\{\mathrm{A}, \mathrm{W}\}$. ∗
+Thus the terms $\mathrm{P}\{\mathrm{A}, \mathrm{V}\}$ and $\mathrm{Q}\{\mathrm{A}, \mathrm{W}\}$ satisfy conditions (1) and (2) above, and it is easily seen that they also satisfy condition (3). The species of structures $\Sigma$ and $\Theta$ are therefore equivalent, and we therefore consider every structure of species $\Theta$ as a topology, namely that which corresponds to it under the procedure of deduction $\mathrm{Q}\{\mathrm{A}, \mathrm{W}\}$. \*
 
 ### Exercises {#ens-iv-s1-exercises}
 

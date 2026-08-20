@@ -34,7 +34,7 @@ subsections:
       pdf_page: 195
 statements: 26
 exercises: 32
-content_sha256: 7327ba3165721ffd5c5e2e2923a7d83619155ec4fb22be782b447d7bf5da0f9c
+content_sha256: 1c67ed30183912d1209f5f981cea9fbd1d14fd80bc99dd2c5aa17075caa73e9b
 translated_from: content/en/ens/III/06_s6_infinite_sets.md
 source_content_sha256: 582cf6b72da04a2a5aa39ce3a169ce0e14c682288683b56b10d2a75a9b9e4de7
 translation_model: gpt-5.4
@@ -250,7 +250,7 @@ Mặt khác, vì $x \to \{x\}$ là một ánh xạ đơn ánh từ E vào $\math
 
 Một tập hợp có lũy thừa của liên tục thì không đếm được (§ 3, no. 6, Định lý 2).
 
-\* Tên gọi "lực lượng của liên tục thể" xuất phát từ việc tập hợp các số thực là đẳng lực với $\mathfrak{P}(\mathbf{N})$ (*Tôpô đại cương*, Chương IV, § 8). ⁎ *giả thiết liên tục* là mệnh đề rằng mọi tập hợp không đếm được đều chứa một tập con có lực lượng của liên tục thể; *giả thiết liên tục tổng quát* là mệnh đề rằng, với mọi bản số vô hạn $\mathfrak{a}$, mọi lực lượng $> \mathfrak{a}$ đều là $\geqslant 2^{\mathfrak{a}}$.
+\* Tên gọi "lực lượng của liên tục thể" xuất phát từ việc tập hợp các số thực là đẳng lực với $\mathfrak{P}(\mathbf{N})$ (*Tôpô đại cương*, Chương IV, § 8). \* *giả thiết liên tục* là mệnh đề rằng mọi tập hợp không đếm được đều chứa một tập con có lực lượng của liên tục thể; *giả thiết liên tục tổng quát* là mệnh đề rằng, với mọi bản số vô hạn $\mathfrak{a}$, mọi lực lượng $> \mathfrak{a}$ đều là $\geqslant 2^{\mathfrak{a}}$.
 
 ### 5. CÁC DÃY DỪNG
 

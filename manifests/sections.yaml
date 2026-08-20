@@ -2203,7 +2203,7 @@ books:
               statements: 26
               exercises: 32
               extraction: ocr
-              content_sha256: ee86ba0ff12c3ec8fd6f5cd89b21236c8340af4e370be463dc8b042007030243
+              content_sha256: 9dad8d983ddd8f3b0b6298831408a4064ea8b6e7bd8b96cdff8003a923a1c904
             - kind: section
               section: 7
               title: Inverse limits and direct limits
@@ -2254,7 +2254,7 @@ books:
               statements: 16
               exercises: 1
               extraction: ocr
-              content_sha256: 1e433d5fd275665be4f3b93ebc19ae2c076a41361557d1f4d452ff7c5e127dc5
+              content_sha256: c2689bfc676ff797fadce1c362c9337c142872efdf44c3c9f67ba4eb3cab2ce0
             - kind: section
               section: 2
               title: Morphisms and derived structures
@@ -2280,7 +2280,7 @@ books:
               statements: 0
               exercises: 3
               extraction: ocr
-              content_sha256: 4c1a7ae05cdd6e8737a76c60f36d0a3b509802787f04a70aadd8f7fc52894d02
+              content_sha256: c790c457671e2d2f76ae686e3b6a4cda3bed295ef31b76703c72506697a06507
             - kind: historical
               title: Historical Note
               path: content/en/ens/IV/historical_note.md
