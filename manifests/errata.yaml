@@ -166,6 +166,34 @@ contents:
             which is printed 114. This is not the text layer misreading a digit, it
             is the contents naming the wrong page, and the correction belongs here
             rather than in the manifest the build writes.
+        - says: 'I. Unifo~ly contin~ous f~ctions'
+          read: 'I. Uniformly continuous functions'
+          why: The text layer of the printed contents, pdf page 11, drops the letters
+            of three words of the title of no. 1 of chapter II § 2 and sets a tilde
+            where each run of them was. Pdf 180 prints the heading as UNIFORMLY
+            CONTINUOUS FUNCTIONS and heads the page with the same three words.
+        - says: '2. ~~parlS?n of.u.mformlties'
+          read: '2. Comparison of uniformities'
+          why: The text layer of the printed contents, pdf page 11, mangles the title
+            of no. 2 of chapter II § 2 past reading. Pdf 181 heads the page COMPARlSON
+            OF UNIFORMITIES, which is the same two words with the i of the first read
+            as an l, and the volume's own index has Comparison of uniformities.
+        - says: '3. Imtlal umformities'
+          read: '3. Initial uniformities'
+          why: The text layer of the printed contents, pdf page 11, reads the ni of
+            Initial as m and the ni of uniformities as m, which is what this scan does
+            to that pair of letters throughout. Pdf 182, the page the contents names,
+            prints the heading as 3. INITIAL UNIFORMITIES.
+        - says: '3. Defi~ition of a. real number by means'
+          read: '3. Definition of a real number by means'
+          why: The text layer of the printed contents, pdf page 14, sets a tilde in
+            Definition and a full stop after a. Pdf 380 prints the heading as 3.
+            DEFINITION OF A REAL NUMBER BY MEANS OF ITS EXPANSION.
+        - says: 'of Its expanslOn'
+          read: 'of its expansion'
+          why: The second line of the same title, pdf page 14, capitalises the i of its
+            and reads the io of expansion as lO. The heading on pdf 380 ends OF ITS
+            EXPANSION.
     - book: ens-i-iv
       errata:
         - says: '3. Met?ods .of proof.'
