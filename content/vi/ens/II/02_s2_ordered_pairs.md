@@ -22,12 +22,12 @@ subsections:
       pdf_page: 81
 statements: 4
 exercises: 2
-content_sha256: 69edacf791916abc0f4850e775a07ae78849235650d970488e494a3a227a3ad8
+content_sha256: ebb67e23cedc6762eb93416918467199aed752f1a237228a15e8c9cbf03beb8f
 translated_from: content/en/ens/II/02_s2_ordered_pairs.md
-source_content_sha256: 39df2ab84c1a4cd7487506eb10473433071a3570142a04a0b8feb982b45bc203
-translation_model: gpt-5.4
+source_content_sha256: f473daade1409be8bf0f14c3e035373513374f1c79945abe02bfe401f01ae8ce
+translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-4abbdd52
-glossary_version: 29
+glossary_version: 34
 glossary_terms_sha256: df8243a38159a7bd62daf35c2e1df16921609d27da37704f9da5940e44cf92fe
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
@@ -54,7 +54,7 @@ $$
 \tau_x((\exists y)(z=(x,y)))\qquad\text{và}\qquad\tau_y((\exists x)(z=(x,y)))
 $$
 
-được ký hiệu tương ứng bởi $\operatorname{pr}_1z$ và $\operatorname{pr}_2z$, và được gọi là *tọa độ thứ nhất* (hoặc *phép chiếu thứ nhất*) và *tọa độ thứ hai* (hoặc *phép chiếu thứ hai*) của $z$. Nếu $z$ là một cặp có thứ tự, thì quan hệ $(\exists y)(z=(x,y))$ tương đương với $x=\operatorname{pr}_1z$, và quan hệ $(\exists x)(z=(x,y))$ tương đương với $y=\operatorname{pr}_2z$ (Chương I, §5, số 3).
+được ký hiệu bởi $\operatorname{pr}_1z$ và $\operatorname{pr}_2z$, tương ứng, và được gọi là *tọa độ thứ nhất* (hay *phép chiếu thứ nhất*) và *tọa độ thứ hai* (hay *phép chiếu thứ hai*) của $z$. Nếu $z$ là một cặp có thứ tự, quan hệ $(\exists y)(z=(x,y))$ tương đương với $x=\operatorname{pr}_1z$, và quan hệ $(\exists x)(z=(x,y))$ với $y=\operatorname{pr}_2z$ (Chương I, §5, no. 3).
 
 ¶ Quan hệ $z=(x,y)$ tương đương với “$z$ là một cặp có thứ tự, và $x=\operatorname{pr}_1z$ và $y=\operatorname{pr}_2z$”; vì quan hệ sau tương đương với
 
@@ -82,15 +82,13 @@ $$
 (\exists x)(\exists y)(z=(x,y)\text{ và }R\{x,y\});
 $$
 
-đây là một quan hệ chứa ít hơn $R$ một chữ cái, và *tương đương* với “$z$ là một cặp có thứ tự và $R\{\operatorname{pr}_1z,\operatorname{pr}_2z\}$”; điều này suy ra từ sự kiện rằng $z=(x,y)$ tương đương với “$z$ là một cặp có thứ tự và $x=\operatorname{pr}_1z$ và $y=\operatorname{pr}_2z$”, và từ các tiêu chuẩn C33 (Chương I, §4, no. 3)
-
-và C47 (Chương I, §5, no. 3). Ngay lập tức suy ra rằng $R\{x, y\}$ tương đương với $S\{(x, y)\}$, và cũng tương đương với
+đây là một quan hệ chứa ít hơn một chữ cái so với $R$, và *tương đương* với “$z$ là một cặp có thứ tự và $R\{\operatorname{pr}_1z,\operatorname{pr}_2z\}$”, điều này suy ra từ sự kiện rằng $z=(x,y)$ tương đương với “$z$ là một cặp có thứ tự và $x=\operatorname{pr}_1z$ và $y=\operatorname{pr}_2z$”, và từ các tiêu chuẩn C33 (Chương I, §4, no. 3) và C47 (Chương I, §5, no. 3). Suy ra ngay lập tức rằng $R\{x, y\}$ tương đương với $S\{(x, y)\}$, và cũng tương đương với
 
 $$(\exists z)(z = (x, y) \text{ và } S\{z\})$$
 
 theo C47.
 
-Điều đó có nghĩa là ta có thể diễn giải một quan hệ giữa các đối tượng $x$ và $y$ như một tính chất của cặp có thứ tự được tạo thành bởi các đối tượng ấy.
+Điều này có nghĩa là ta có thể hiểu một quan hệ giữa các đối tượng $x$ và $y$ như một tính chất của cặp có thứ tự được tạo thành bởi các đối tượng này.
 
 ### 2. TÍCH CỦA HAI TẬP HỢP
 
