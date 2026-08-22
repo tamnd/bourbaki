@@ -9,7 +9,7 @@ lang: fr
 source: alg-viii-fr
 book_pages: A VIII.365-A VIII.386
 pdf_pages: 0367-0388
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: Représentations linéaires des algèbres
@@ -45,7 +45,7 @@ subsections:
       pdf_page: 382
 statements: 31
 exercises: 6
-content_sha256: 472c003f28e385c317cc1d246e7c20c944aa753a6ecd50322a9ee9f6ca42c2ba
+content_sha256: 069a57168f07eea6470f375f1a3b14c29d0c949e2d3cdf174e1d96f8ff5a08d4
 ---
 
 ## § 20. REPRÉSENTATIONS LINÉAIRES DES ALGÈBRES
@@ -389,34 +389,38 @@ Soit E un A-module de dimension finie sur K. Soit $a\in A$. Notons $\chi_E(a; T)
 (10) $\chi_E(a; T)\equiv 1 +$ Tr$_E(a)T$ (mod. $T^2K[T]$) (loc. cit., formule (49)). Comme ce polynôme a un terme constant égal à 1, c’est une série formelle inversible (IV, p. 28). De plus, si
 
 $$
-0\longrightarrow E'\longrightarrow E\longrightarrow E''\longrightarrow 0
+0 \longrightarrow E' \longrightarrow E \longrightarrow E'' \longrightarrow 0
 $$
 
-est une suite exacte de A-modules, tous de dimension finie sur K, on a $\chi_E(a; T) =$ $\chi_{E'}(a; T)\chi_{E''}(a,T)$ (III, p. 101, formule (31)). D’après la définition du groupe de Grothendieck $R_K(A)$ (VIII, p. 189) et sa propriété universelle (VIII, p. 182, prop. 4), il existe un unique homomorphisme $\chi_a$ du groupe $R_K(A)$ dans le groupe multiplicatif 1 + TK[[T]] tel que $\chi_a([E]) =\chi_E(a; T)$ pour tout A-module E de dimension finie sur K. Il résulte de la formule (10) la relation
+est une suite exacte de A-modules, tous de dimension finie sur K, on a $ \chi_E(a; T) = \chi_{E'}(a; T)\chi_{E''}(a, T) $ (III, p. 101, formule (31)). D’après la définition du groupe de Grothendieck $ R_K(A) $ (VIII, p. 189) et sa propriété universelle (VIII, p. 182, prop. 4), il existe un unique homomorphisme $ \chi_a $ du groupe $ R_K(A) $ dans le groupe multiplicatif $ 1 + TK[[T]] $ tel que $ \chi_a([E]) = \chi_E(a; T) $ pour tout A-module E de dimension finie sur K. Il résulte de la formule (10) la relation
 
-(11) $\chi_a(x)\equiv 1 +\theta (x)(a)T$ (mod. $T^2K[[T]]$),
+$$
+\chi_a(x) \equiv 1 + \theta(x)(a)T \pmod{T^2K[[T]]},
+$$
 
-tout élément $x\in R_K(A)$ et tout élément $a\in A$.
+tout élément $ x \in R_K(A) $ et tout élément $ a \in A $.
 
-Si E et $E'$ sont deux A-modules, de dimension finie sur K, ayant des semisimplifiés isomorphes, on a $\chi_E(a; T) =\chi_{E'}(a; T)$.
+Si E et E’ sont deux A-modules, de dimension finie sur K, ayant des semi-simplifiés isomorphes, on a $ \chi_E(a; T) = \chi_{E'}(a; T) $.
 
 #### Théorème 2 {#alg-viii-s20-thm-2 .statement tag=00MW}
 
-Soit $\mathscr{A}$ une partie génératrice du K-espace vectoriel A. L’homomorphisme $\chi_{\mathscr{A}}: R_K(A)\rightarrow (1 +$ TK[[T]])$^{\mathscr{A}}$ défini par $\chi_{\mathscr{A}}(x) = (\chi_a(x))_{a\in\mathscr{A}}$ est injectif.
+*Soit $ \mathscr{A} $ une partie génératrice du K-espace vectoriel A. L’homomorphisme $ \chi_{\mathscr{A}} : R_K(A) \to (1 + TK[[T]])^{\mathscr{A}} $ défini par $ \chi_{\mathscr{A}}(x) = (\chi_a(x))_{a \in \mathscr{A}} $ est injectif.*
 
-Soit $x$ un élément de $R_K(A)$ tel que $\chi_{\mathscr{A}}(x) = 1$. D’après (11), on a $\theta (x)(a) = 0$ pour tout $a\in \mathscr{A}$, d’où$\theta (x) = 0$ puisque $\theta (x)$ est une forme K-linéaire sur A et que $\mathscr{A}$ engendre le K-espace vectoriel A. Si la caractéristique de K est nulle, cela entraîne $x= 0$ (VIII, p. 376, cor. de la prop. 6), d’où le résultat dans ce cas. Supposons désormais que la caractéristique $p$ de K soit non nulle.
+Soit x un élément de $ R_K(A) $ tel que $ \chi_{\mathscr{A}}(x) = 1 $. D’après (11), on a $ \theta(x)(a) = 0 $ pour tout $ a \in \mathscr{A} $, d’où $ \theta(x) = 0 $ puisque $ \theta(x) $ est une forme K-linéaire sur A et que $ \mathscr{A} $ engendre le K-espace vectoriel A. Si la caractéristique de K est nulle, cela entraîne $ x = 0 $ (VIII, p. 376, cor. de la prop. 6), d’où le résultat dans ce cas. Supposons désormais que la caractéristique $ p $ de K soit non nulle.
 
-Traitons d’abord le cas où K est algébriquement clos. D’après ce qui précède et loc. cit., on a alors $x\in pR_K(A)$. Soit $y\in R_K(A)$ tel que $x=py$. Pour tout élément $a$ de $\mathscr{A}$, on a $\chi_a(y)^p=\chi_a(py) =\chi_a(x) = 1$. On a donc $(\chi_a(y)-1)^p= 0$, d’où $\chi_a(y) = 1$ puisque l’anneau K[[T]] est intègre. Ainsi, $y$ appartient au noyau de l’endomorphisme $\chi_{\mathscr{A}}$. Il en résulte par récurrence que $x$ appartient à $p^nR_K(A)$ pour tout entier $n\geqslant 1$. Comme $R_K(A)$ est un $\mathbf{Z}$-module libre, cela entraîne $x= 0$, d’où l’injectivité de $\chi_{\mathscr{A}}$ dans ce cas.
+Traitons d’abord le cas où K est algébriquement clos. D’après ce qui précède et loc. cit., on a alors $ x \in pR_K(A) $. Soit $ y \in R_K(A) $ tel que $ x = py $. Pour tout élément $ a $ de $ \mathscr{A} $, on a $ \chi_a(y)^p = \chi_a(py) = \chi_a(x) = 1 $. On a donc $ (\chi_a(y) - 1)^p = 0 $, d’où $ \chi_a(y) = 1 $ puisque l’anneau $ K[[T]] $ est intègre. Ainsi, y appartient au noyau de l’endomorphisme $ \chi_{\mathscr{A}} $. Il en résulte par récurrence que x appartient à $ p^n R_K(A) $ pour tout entier $ n \geqslant 1 $. Comme $ R_K(A) $ est un $ \mathbf{Z} $-module libre, cela entraîne $ x = 0 $, d’où l’injectivité de $ \chi_{\mathscr{A}} $ dans ce cas.
 
-Si K n’est plus supposé algébriquement clos, on choisit une clôture algébrique $\overline{K}$ de K et on considère le diagramme de groupes et d’homomorphismes de groupes
-
-$R_K(A)^{\chi_{\mathscr{A}}}$ // (1 + TK[[T]])$^{\mathscr{A}}$
+Si K n’est plus supposé algébriquement clos, on choisit une clôture algébrique $ \overline{K} $ de K et on considère le diagramme de groupes et d’homomorphismes de groupes
 
 $$
-ui \tag{12}
+\begin{array}{ccc}
+R_K(A) & \xrightarrow{\chi_{\mathscr{A}}} & (1 + TK[[T]])^{\mathscr{A}} \\
+\downarrow u & & \downarrow i \\
+R_{\overline{K}}(A_{(\overline{K})}) & \xrightarrow{\overline{\chi}_{\mathscr{A}}} & (1 + T\overline{K}[[T]])^{\mathscr{A}}
+\end{array}
 $$
 
-$R_{\overline{K}}(A_{(K)})^{\overline{\chi}_{\mathscr{A}}}/$/ (1 + TK[[T]])$^{\mathscr{A}}$ où $u$ est l’homomorphisme déduit de l’extension des scalaires de K à $\overline{K}$ (VIII, p. 190), $i$ l’injection canonique et $\overline{\chi}_{\mathscr{A}}$ l’homomorphisme $z\rightarrow (\chi_{1\otimes a}(z))_{a\in\mathscr{A}}$. D’après la formule (12) de III, p. 108, le diagramme (12) est commutatif. D’après ce qui précède, l’homomorphisme $\overline{\chi}_{\mathscr{A}}$ est injectif. Comme $u$ est injectif (VIII, p. 191, th. 1), l’homomorphisme $\chi_{\mathscr{A}}$ est injectif.
+où $u$ est l’homomorphisme déduit de l’extension des scalaires de K à $\overline{K}$ (VIII, p. 190), $i$ l’injection canonique et $\overline{\chi}_{\mathscr{A}}$ l’homomorphisme $z\rightarrow (\chi_{1\otimes a}(z))_{a\in\mathscr{A}}$. D’après la formule (12) de III, p. 108, le diagramme (12) est commutatif. D’après ce qui précède, l’homomorphisme $\overline{\chi}_{\mathscr{A}}$ est injectif. Comme $u$ est injectif (VIII, p. 191, th. 1), l’homomorphisme $\chi_{\mathscr{A}}$ est injectif.
 
 #### Corollaire 1 {#alg-viii-s20-thm-2-cor-1 .statement tag=00MX}
 
@@ -468,50 +472,50 @@ Réciproquement, supposons que $\Theta_{\mathscr{C}}(A)$ contienne $\Theta_E(A)$
 
 ### 8. Structure de cogèbre sur le dual restreint
 
-Pour tout $a$ dans A, on note$\eta (a)$ la forme linéaire $f\rightarrow f(a)$ sur Θ(A) ; on définit ainsi une application K-linéaire $\eta$ de A dans le dual $\Theta (A)^*$ de l’espace vectoriel Θ(A). On pose $\varepsilon =\eta (1)$.
+Pour tout $ a $ dans $ A $, on note $ \eta(a) $ la forme linéaire $ f \mapsto f(a) $ sur $ \Theta(A) $; on définit ainsi une application K-linéaire $ \eta $ de $ A $ dans le dual $ \Theta(A)^* $ de l’espace vectoriel $ \Theta(A) $. On pose $ \varepsilon = \eta(1) $.
 
 #### Proposition 8 {#alg-viii-s20-prop-8 .statement tag=00N1}
 
-Sur l’espace vectoriel Θ(A), il existe une unique structure de cogèbre (III, p. 138) telle que l’application $\eta : A\rightarrow \Theta (A)^*$ soit un homomorphisme de A dans l’algèbre duale (III, p. 143) de Θ(A). La cogèbre Θ(A) est coassociative et admet $\varepsilon$ pour coünité.
+Sur l’espace vectoriel $ \Theta(A) $, il existe une unique structure de cogèbre (III, p. 138) telle que l’application $ \eta : A \to \Theta(A)^* $ soit un homomorphisme de $ A $ dans l’algèbre duale (III, p. 143) de $ \Theta(A) $. La cogèbre $ \Theta(A) $ est coassociative et admet $ \varepsilon $ pour coïunité.
 
-Pour tout entier $n\geqslant 1$, considérons l’application K-linéaire $j_n$ de $\Theta (A)^{\otimes n}$ dans le dual de $A^{\otimes n}$ caractérisée par la formule
-
-$$
-\langle j_n(f_1\otimes  \cdots  \otimes f_n), a_1\otimes  \cdots  \otimes a_n\rangle =\prod_{i=1}^n\langle f_i, a_i\rangle \tag{13}
-$$
-
-pour $(a_i)$ dans $A^n$ et $(f_i)$ dans $\Theta (A)^n$. D’après la prop. 16, (ii) de II, p. 110, l’application $j_n$ est injective. Notons $m_K: K\otimes K\rightarrow K$ et $m_A: A\otimes A\rightarrow A$ les applications déduites de la multiplication de K et A respectivement. Pour $f, g\in \Theta (A)$ et $a, b\in A$, on a
+Pour tout entier $ n \geqslant 1 $, considérons l’application K-linéaire $ j_n $ de $ \Theta(A)^{\otimes n} $ dans le dual de $ A^{\otimes n} $ caractérisée par la formule
 
 $$
-\langle j_2(f\otimes g), a\otimes b\rangle =m_K\circ (\eta (a)\otimes \eta (b))(f\otimes g)
+\langle j_n(f_1 \otimes \cdots \otimes f_n), a_1 \otimes \cdots \otimes a_n \rangle = \prod_{i=1}^n \langle f_i, a_i \rangle
+$$
+
+pour $ (a_i) $ dans $ A^n $ et $ (f_i) $ dans $ \Theta(A)^n $. D’après la prop. 16, (ii) de II, p. 110, l’application $ j_n $ est injective. Notons $ m_K : K \otimes K \to K $ et $ m_A : A \otimes A \to A $ les applications déduites de la multiplication de $ K $ et $ A $ respectivement. Pour $ f, g \in \Theta(A) $ et $ a, b \in A $, on a
+
+$$
+\langle j_2(f \otimes g), a \otimes b \rangle = m_K \circ (\eta(a) \otimes \eta(b))(f \otimes g).
 $$
 
 On a donc
 
 $$
-\langle j_2(t), a\otimes b\rangle =m_K\circ (\eta (a)\otimes \eta (b))(t) \tag{14}
+\langle j_2(t), a \otimes b \rangle = m_K \circ (\eta(a) \otimes \eta(b))(t)
 $$
 
-pour tout $t\in \Theta (A)\otimes \Theta (A)$.
+pour tout $ t \in \Theta(A) \otimes \Theta(A) $.
 
 #### Lemme 2 {#alg-viii-s20-lem-2 .statement tag=00RS}
 
-Soit $c: \Theta (A)\rightarrow \Theta (A)\otimes \Theta (A)$une application K-linéaire. Pour que $\eta$ soit un homomorphisme de A dans l’algèbre duale de la cogèbre $(\Theta (A), c)$, il faut et il suffit que le diagramme
-
-Θ(A) $^c$ // $\Theta (A)\otimes \Theta (A)$
+Soit $ c : \Theta(A) \to \Theta(A) \otimes \Theta(A) $ une application K-linéaire. Pour que $ \eta $ soit un homomorphisme de $ A $ dans l’algèbre duale de la cogèbre $ (\Theta(A), c) $, il faut et il suffit que le diagramme
 
 $$
-j_{_1}j_{_2} \tag{15}
+\begin{array}{ccc}
+\Theta(A) & \xrightarrow{c} & \Theta(A) \otimes \Theta(A) \\
+| & & | \\
+A^* & \xrightarrow{t m_A} & (A \otimes A)^*
+\end{array}
 $$
-
-$A^{*^tm_A}$ // $(A\otimes A)^*$
 
 soit commutatif.
 
-En effet, pour que $\eta$ soit un homomorphisme de A dans l’algèbre duale de la cogèbre $(\Theta (A), c)$, il faut et il suffit que l’on ait $\eta (ab) =m_K\circ (\eta (a)\otimes \eta (b))\circ c$ pour tous $a, b\in A$, c’est-à-dire
+En effet, pour que $ \eta $ soit un homomorphisme de $ A $ dans l’algèbre duale de la cogèbre $ (\Theta(A), c) $, il faut et il suffit que l’on ait $ \eta(ab) = m_K \circ (\eta(a) \otimes \eta(b)) \circ c $ pour tous $ a, b \in A $, c’est-à-dire
 
 $$
-\eta (ab)(f) =m_K\circ (\eta (a)\otimes \eta (b))(c(f))
+\eta(ab)(f) = m_K \circ (\eta(a) \otimes \eta(b))(c(f))
 $$
 
 pour $a, b\in A$ et $f\in \Theta (A)$. Or on a
@@ -570,57 +574,57 @@ $$
 =\langle j_2(f\otimes g), a\otimes bc\rangle
 $$
 
-$=\langle^t$(Id$_A\otimes m_A$)$\circ j_2(f\otimes g), a\otimes b\otimes c\rangle$, pour $f, g\in \Theta (A)$ et $a, b, c\in A$. On en déduit la commutativité du diagramme suivant :
-
-$\Theta (A)\otimes \Theta (A)^{Id_{\Theta (A)}\otimes c}/$/ $\Theta (A)\otimes \Theta (A)\otimes \Theta (A)$
-
-(18)
-
-$j_2j_3$
-
-$(A\otimes A)^{*^t(Id_A\otimes m_A)}$ // $(A\otimes A\otimes A)^*$
-
-Compte tenu de la commutativité de ce diagramme et de celle du diagramme (15) de VIII, p. 380, pour $f\in \Theta (A)$, et $a,a',a''\in A$, on a
+$=\langle^t$(Id$_A\otimes m_A$)$\circ j_2(f\otimes g), a\otimes b\otimes c\rangle$, pour $ f, g \in \Theta(A) $ et $ a, b, c \in A $. On en déduit la commutativité du diagramme suivant :
 
 $$
-\langle j_3\circ c'(f), a\otimes a'\otimes a''\rangle =\langle f,(aa')a''\rangle
+\begin{array}{ccc}
+\Theta(A) \otimes \Theta(A) & \xrightarrow{\operatorname{Id}_{\Theta(A)} \otimes c} & \Theta(A) \otimes \Theta(A) \otimes \Theta(A) \\
+\downarrow j_2 & & \downarrow j_3 \\
+(A \otimes A)^* & \xrightarrow{t(\operatorname{Id}_A \otimes m_A)} & (A \otimes A \otimes A)^*
+\end{array}
+$$
+
+Compte tenu de la commutativité de ce diagramme et de celle du diagramme (15) de VIII, p. 380, pour $ f \in \Theta(A) $, et $ a, a', a'' \in A $, on a
+
+$$
+\langle j_3 \circ c'(f), a \otimes a' \otimes a'' \rangle = \langle f, (aa')a'' \rangle;
 $$
 
 on montre de même la relation
 
 $$
-\langle j_3\circ c''(f), a\otimes a'\otimes a''\rangle =\langle f, a(a'a'')\rangle
+\langle j_3 \circ c''(f), a \otimes a' \otimes a'' \rangle = \langle f, a(a'a'') \rangle.
 $$
 
-Comme la multiplication dans A est associative, on a $j_3\circ c'=j_3\circ c''$, d’où $c'=c''$ puisque $j_3$ est injective.
+Comme la multiplication dans $ A $ est associative, on a $ j_3 \circ c' = j_3 \circ c'' $, d’où $ c' = c'' $ puisque $ j_3 $ est injective.
 
-Enfin, les formules (16) et (17) entraînent que Θ(A) admet $\varepsilon$ comme coünité.
+Enfin, les formules (16) et (17) entraînent que $ \Theta(A) $ admet $ \varepsilon $ comme coïunité.
 
 #### Remarque 1 {#alg-viii-s20-n8-rem-1 .statement tag=00N2}
 
-Soit $(V, \pi )$ une représentation linéaire de dimension finie de l’algèbre A. Introduisons une base $(e_1, . . . , e_n)$ de V et la base duale $(e^*_1, . . . , e^*_n)$ de $V^*$. D’après la démonstration précédente, on a la relation
+Soit $ (V, \pi) $ une représentation linéaire de dimension finie de l’algèbre $ A $. Introduisons une base $ (e_1, \ldots, e_n) $ de $ V $ et la base duale $ (e_1^*, \ldots, e_n^*) $ de $ V^* $. D’après la démonstration précédente, on a la relation
 
 $$
-c(c_{\pi}(x, x^*)) =\sum_{k=1}^nc_{\pi}(e_k, x^*)\otimes c_{\pi}(x, e^*_k) \tag{19}
+c(c_\pi(x, x^*)) = \sum_{k=1}^n c_\pi(e_k, x^*) \otimes c_\pi(x, e_k^*)
 $$
 
-pour $x\in V$ et $x^*\in V^*$. En particulier, posons $\pi_{ij}=c_{\pi}(e_j, e^*_i)$, de sorte que pour tout $a\in A$, la matrice de $\pi (a)$ par rapport à la base $(e_1, . . . , e_n)$ de V est égale à $(\pi_{ij}(a))$. On a alors, pour $1\leqslant i\leqslant n$ et $1\leqslant j\leqslant n$,
+pour $ x \in V $ et $ x^* \in V^* $. En particulier, posons $ \pi_{ij} = c_\pi(e_j, e_i^*) $, de sorte que pour tout $ a \in A $, la matrice de $ \pi(a) $ par rapport à la base $ (e_1, \ldots, e_n) $ de $ V $ est égale à $ (\pi_{ij}(a)) $. On a alors, pour $ 1 \leq i \leq n $ et $ 1 \leq j \leq n $,
 
 $$
-c(\pi_{ij}) =\sum_{k=1}^n\pi_{ik}\otimes \pi_{kj} \tag{20}
+c(\pi_{ij}) = \sum_{k=1}^n \pi_{ik} \otimes \pi_{kj}.
 $$
 
 #### Définition 3 {#alg-viii-s20-def-3 .statement tag=00N3}
 
-Soient C une cogèbre sur le corps K et $c$ son coproduit. On appelle sous-cogèbre de C tout sous-espace vectoriel $C_1$ de C tel que $c(C_1)$soit contenu dans l’image canonique de $C_1\otimes_KC_1$ dans $C\otimes_KC$.
+*Soient $ C $ une cogèbre sur le corps $ K $ et $ c $ son coproduit. On appelle sous-cogèbre de $ C $ tout sous-espace vectoriel $ C_1 $ de $ C $ tel que $ c(C_1) $ soit contenu dans l’image canonique de $ C_1 \otimes_K C_1 $ dans $ C \otimes_K C $.
 
-Soit $j$ l’injection canonique de $C_1$ dans C. D’après cette définition, il existe une unique application linéaire $c_1: C_1\rightarrow C_1\otimes_KC_1$ telle que l’on ait
+Soit $ j $ l’injection canonique de $ C_1 $ dans $ C $. D’après cette définition, il existe une unique application linéaire $ c_1 : C_1 \to C_1 \otimes_K C_1 $ telle que l’on ait
 
 $$
-c\circ j= (j\otimes j)\circ c_1 \tag{21}
+c \circ j = (j \otimes j) \circ c_1 ;
 $$
 
-cette relation signifie que $j$ est un morphisme de cogèbres de $(C_1, c_1)$ dans $(C, c)$ (III, p. 138).
+cette relation signifie que $ j $ est un morphisme de cogèbres de $ (C_1, c_1) $ dans $ (C, c) $ (III, p. 138).
 
 Si C est coassociative, alors $C_1$ est coassociative. Si C est cocommutative, alors il en est de même de $C_1$. Si C a une coünité $\varepsilon$, alors la restriction de $\varepsilon$ à $C_1$ est une coünité de $C_1$.
 

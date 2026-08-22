@@ -9,7 +9,7 @@ lang: fr
 source: alg-viii-fr
 book_pages: A VIII.225-A VIII.245
 pdf_pages: 0229-0249
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: Modules absolument semi-simples
@@ -45,7 +45,7 @@ subsections:
       pdf_page: 242
 statements: 33
 exercises: 12
-content_sha256: 9ca7de17dc95eae4833c120fbd1a2011406fa34f5a94098703659dacd4fb63e1
+content_sha256: 3371ea4fa47ef0e515869cde5b968176aadeaa7bf7a2b12eba398feeb2deef33
 ---
 
 ## § 13. ALGÈBRES ABSOLUMENT SEMI-SIMPLES
@@ -346,68 +346,65 @@ $$
 
 On note $d_0=d^0_0$ l’application $\varepsilon : B_0\rightarrow A$.
 
-Soit $n$ un entier $\geqslant 1$. Pour $0\leqslant i < j\leqslant n$, on a
+Soit $ n $ un entier $ \geqslant 1 $. Pour $ 0 \leqslant i < j \leqslant n $, on a
 
 $$
-d_{n-1}^i\circ d_n^j=d_{n-1}^{j-1}\circ d_n^i \tag{6}
+d_{n-1}^i \circ d_n^j = d_{n-1}^{j-1} \circ d_n^i
 $$
 
 et l’on en déduit
 
 $$
-d_{n-1}\circ d_n=\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_{n-1}^i\circ d_n^j+\sum_{0\leqslant j\leqslant i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
-$$
-
-$$
-=\sum_{0\leqslant i<j\leqslant n}(-1)^{i+j}d_{n-1}^{j-1}\circ d_n^i+\sum_{0\leqslant j\leqslant i\leqslant n-1}(-1)^{i+j}d_{n-1}^i\circ d_n^j
+\begin{align*}
+d_{n-1} \circ d_n &= \sum_{0 \leqslant i < j \leqslant n} (-1)^{i+j} d_{n-1}^i \circ d_n^j + \sum_{0 \leqslant j \leqslant i \leqslant n-1} (-1)^{i+j} d_{n-1}^i \circ d_n^j \\
+&= \sum_{0 \leqslant i < j \leqslant n} (-1)^{i+j} d_{n-1}^{j-1} \circ d_n^i + \sum_{0 \leqslant j \leqslant i \leqslant n-1} (-1)^{i+j} d_{n-1}^i \circ d_n^j,
+\end{align*}
 $$
 
 d’où
 
 $$
-d_{n-1}\circ d_n= 0 \tag{7}
+d_{n-1} \circ d_n = 0.
 $$
 
-Soit P un $(A$, A)-bimodule. Pour tout entier $n\geqslant$ 0, on note $C^n(A,P)$ le K-module des applications K-multilinéaires de $A^n$ dans P. L’application $\alpha^n: C^n(A,P)\rightarrow$ Hom$_B(B_n,P)$ qui à $f\in C^n(A,P)$ associe l’homomorphisme $\alpha^n(f)$ caractérisé par
+Soit $ P $ un $ (A, A) $-bimodule. Pour tout entier $ n \geqslant 0 $, on note $ C^n(A, P) $ le K-module des applications K-multilinéaires de $ A^n $ dans $ P $. L’application $ \alpha^n : C^n(A, P) \to \operatorname{Hom}_B(B_n, P) $ qui à $ f \in C^n(A, P) $ associe l’homomorphisme $ \alpha^n(f) $ caractérisé par
 
 $$
-\alpha^n(f) (x_0\otimes  \cdots  \otimes x_{n+1}) =x_0f(x_1, . . . , x_n)x_{n+1} \tag{8}
+\alpha^n(f)(x_0 \otimes \cdots \otimes x_{n+1}) = x_0 f(x_1, \ldots, x_n)x_{n+1}
 $$
 
 est un isomorphisme de K-modules.
 
-On note $\partial^n$ (pour $n\geqslant 0$) l’unique application K-linéaire de $C^n(A,P)$ dans $C^{n+1}(A,P)$ rendant commutatif le diagramme
+On note $ \partial^n $ (pour $ n \geqslant 0 $) l’unique application K-linéaire de $ C^n(A, P) $ dans $ C^{n+1}(A, P) $ rendant commutatif le diagramme
 
-$C^n(A,P)\partial^{^n}$ // $C^{n+1}(A,P)$
-
-$\alpha^n\alpha^{n+1}$
-
-Hom$_B(B_n,P)^{Hom(d_{n+1},1_P)}/$/ Hom$_B(B_{n+1},P)$;
+$$
+\begin{array}{ccc}
+C^n(A, P) & \xrightarrow{\partial^n} & C^{n+1}(A, P) \\
+\downarrow \alpha^n & & \downarrow \alpha^{n+1} \\
+\operatorname{Hom}_B(B_n, P) & \xrightarrow{\operatorname{Hom}(d_{n+1}, 1_P)} & \operatorname{Hom}_B(B_{n+1}, P);
+\end{array}
+$$
 
 on a donc par définition
 
 $$
-(\alpha^{n+1}\circ \partial^n)(f) =\alpha^n(f)\circ d_{n+1} \tag{9}
+(\alpha^{n+1} \circ \partial^n)(f) = \alpha^n(f) \circ d_{n+1}
 $$
 
-pour tout $f\in C^n(A,P)$. Autrement dit, on a
+pour tout $ f \in C^n(A, P) $. Autrement dit, on a
 
 $$
-\partial^n(f) (x_0, . . . , x_n) =\alpha^n(f) (d_{n+1}(1\otimes x_0\otimes  \cdots  \otimes x_n\otimes 1))
+\partial^n(f)(x_0, \ldots, x_n) = \alpha^n(f)(d_{n+1}(1 \otimes x_0 \otimes \cdots \otimes x_n \otimes 1))
 $$
 
-pour $x_0, . . . , x_n$ dans A et $f$ dans $C^n(A,P)$, c’est-à-dire
+pour $ x_0, \ldots, x_n $ dans $ A $ et $ f $ dans $ C^n(A, P) $, c’est-à-dire
 
 $$
-\partial^n(f)(x_0, . . . , x_n) =x_0f(x_1, . . . , x_n)
-$$
-
-$$
-+\sum^{n-1}_{i=0}(-1)^{i+1}f(x_0, . . . , x_{i-1}, x_ix_{i+1}, x_{i+2}, . . . , x_n) \tag{10}
-$$
-
-$$
-+ (-1)^{n+1}f(x_0, . . . , x_{n-1})x_n
+\begin{align*}
+\partial^n(f)(x_0, \ldots, x_n) = & x_0 f(x_1, \ldots, x_n) \\
+& + \sum_{i=0}^{n-1} (-1)^{i+1} f(x_0, \ldots, x_{i-1}, x_i x_{i+1}, x_{i+2}, \ldots, x_n) \\
+& + (-1)^{n+1} f(x_0, \ldots, x_{n-1}) x_n.
+\end{align*}
 $$
 
 D’après (7) et (9), on a

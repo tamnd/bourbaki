@@ -9,7 +9,7 @@ lang: fr
 source: alg-viii-fr
 book_pages: A VIII.387-A VIII.424
 pdf_pages: 0389-0426
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: Représentations linéaires
@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: ca97989bc24253c2d00b817201cce3f63e04b878fb72e5a69abd03011caf7a01
+content_sha256: dff9089017b540b284918ab5dccce0352cc17f8f50ae03ba3aa2c01d003b7261
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -190,39 +190,41 @@ Cet homomorphisme est injectif et un élément $\xi \in R_K(G)$ est effectif si 
 
 #### Théorème 1 {#alg-viii-s21-thm-1 .statement tag=00NK}
 
-On suppose que le groupe G est fini. Soit M un K[G]-module, soit N un sous-K[G]-module de M. On suppose que N est un facteur direct du K-module M et que $|G|$ est inversible dans K. Alors N est un facteur direct du K[G]module M.
+On suppose que le groupe G est fini. Soit M un K[G]-module, soit N un sous-K[G]-module de M. On suppose que N est un facteur direct du K-module M et que |G| est inversible dans K. Alors N est un facteur direct du K[G]-module M.
 
-Soit $p$ un projecteur K-linéaire dans M, d’image N. On définit un endomorphisme $q$ du K-module M en posant
+Soit p un projecteur K-linéaire dans M, d’image N. On définit un endomorphisme q du K-module M en posant
 
 $$
-q(x) =|G|^{-1}\sum_{g\in G}g p(g^{-1}x)
+q(x) = |G|^{-1} \sum_{g \in G} g \ p(g^{-1}x),
 $$
 
-pour tout $x\in M$. Comme N est stable pour l’action de G et que $p$ induit l’identité sur N, on voit que $q$ applique M dans N et induit l’identité sur N.
+pour tout $ x \in M $. Comme N est stable pour l’action de G et que p induit l’identité sur N, on voit que q applique M dans N et induit l’identité sur N.
 
-Le K-module M est donc somme directe de l’image N de $q$ et du noyau de $q$. On a $g q(x) =q(gx)$ pour tout $x\in M$ et tout $g\in G$, de sorte que le noyau de $q$ est un sous-K[G]-module de M. Cela prouve que N est facteur direct du K[G]-module M.
+Le K-module M est donc somme directe de l’image N de q et du noyau de q. On a $ g \ q(x) = q(gx) $ pour tout $ x \in M $ et tout $ g \in G $, de sorte que le noyau de q est un sous-K[G]-module de M. Cela prouve que N est facteur direct du K[G]-module M.
 
 #### Corollaire 1 (Maschke) {#alg-viii-s21-thm-1-cor-1 .statement tag=00SC}
 
-On suppose que le groupe G est fini et que K est un corps commutatif. L’algèbre K[G] est semi-simple si et seulement si l’élément $|G|$ du corps K n’est pas nul.
+On suppose que le groupe G est fini et que K est un corps commutatif. L’algèbre K[G] est semi-simple si et seulement si l’élément |G| du corps K n’est pas nul.
 
-Supposons $|G| \not= 0$. Par le th. 1, tout sous-K[G]-module de $K[G]_s$ est un facteur direct. Donc K[G] est semi-simple.
+Supposons $ |G| \neq 0 $. Par le th. 1, tout sous-K[G]-module de K[G]_s est un facteur direct. Donc K[G] est semi-simple.
 
-Inversement, supposons $|G|$ nul et notons $\varepsilon$ l’élément $\sum_{g\in G}g$ du centre de K[G]. On a $\varepsilon \not= 0$ mais $\varepsilon^2=|G|\varepsilon = 0$ donc K[G] n’est pas semi-simple (VIII, p. 149, prop. 3 a) et VIII, p. 153, remarque 1).
+Inversement, supposons $ |G| $ nul et notons $ \varepsilon $ l’élément $ \sum_{g \in G} g $ du centre de K[G]. On a $ \varepsilon \neq 0 $ mais $ \varepsilon^2 = |G|\varepsilon = 0 $ donc K[G] n’est pas semi-simple (VIII, p. 149, prop. 3 a) et VIII, p. 153, remarque 1).
 
 #### Corollaire 2 {#alg-viii-s21-thm-1-cor-2 .statement tag=00NL}
 
-On suppose que le groupe G est fini et que $|G|$ est inversible dans K. Une suite exacte de K[G]-modules est scindée si et seulement si elle est scindée en tant que suite exacte de K-modules.
+On suppose que le groupe G est fini et que |G| est inversible dans K. Une suite exacte de K[G]-modules est scindée si et seulement si elle est scindée en tant que suite exacte de K-modules.
 
 Étant donnée une suite exacte de K[G]-modules
 
-0 // ${M'}^f$ // M // $M''$ // $0$,
+$$
+0 \longrightarrow M' \xrightarrow{f} M \longrightarrow M'' \longrightarrow 0,
+$$
 
-il suffit d’appliquer le théorème 1 à l’image du morphisme $f$.
+il suffit d’appliquer le théorème 1 à l’image du morphisme f.
 
 #### Corollaire 3 {#alg-viii-s21-thm-1-cor-3 .statement tag=00NM}
 
-On suppose que le groupe G est fini et que $|G|$ est inversible dans K. Un K[G]-module est projectif si et seulement s’il est projectif en tant que K-module.
+On suppose que le groupe G est fini et que |G| est inversible dans K. Un K[G]-module est projectif si et seulement s’il est projectif en tant que K-module.
 
 Soit P un K[G]-module. Si P est facteur direct d’un K[G]-module libre M, il est a fortiori facteur direct du K-module libre M. La réciproque résulte du corollaire 2, compte tenu de II, p. 39, prop. 4, d).
 
@@ -332,25 +334,27 @@ pour toute représentation linéaire $\sigma$ de H de dimension finie.
 
 D’après les relations (1) de VIII, p. 388 et (3) de VIII, p. 389 et la propriété universelle déjà citée des groupes de Grothendieck, il existe un homomorphisme d’anneaux $\Theta_G$ de $R_K(G)$ dans l’algèbre $\mathscr{Z}_K(G)$ des fonctions centrales sur G, caractérisé par $\Theta_G([\pi ]) =\chi_{\pi}$ pour toute représentation $\pi$ de dimension finie de G.
 
-Si H est un sous-groupe de G, les homomorphismes $\Theta_G$ et $\Theta_H$ relatifs aux groupes G et H sont compatibles avec les opérations Res$^G_H$ et Ind$^G_H$ (VIII, p. 392 et VIII, p. 394, prop. 3).
+Si H est un sous-groupe de G, les homomorphismes $ \Theta_G $ et $ \Theta_H $ relatifs aux groupes G et H sont compatibles avec les opérations $ \operatorname{Res}_H^G $ et $ \operatorname{Ind}_H^G $ (VIII, p. 392 et VIII, p. 394, prop. 3).
 
-Supposons que G soit le produit $G'\times G''$ de deux groupes. D’après VIII, p. 209, remarque 2, Il existe une application $\mathbf{Z}$-linéaire $\kappa$ de $R_K(G')\otimes_{\mathbf{Z}}R_K(G'')$ dans le groupe $R_K(G'\times G'')$ caractérisée par les relations $\kappa ([\pi ']\otimes [\pi '']) = [\pi '_{\boxtimes}\pi '']$ pour $\pi '$ (resp. $\pi ''$) une représentation de $G'$ (resp. $G''$) de dimension finie, $\pi '_{\boxtimes}\pi ''$ désignant leur produit tensoriel externe (VIII, p. 390, exemple 5). C’est un homomorphisme d’anneaux. Si le corps K est algébriquement clos, l’application $\kappa$ est un isomorphisme (VIII, p. 209, remarque 2).
+Supposons que G soit le produit $ G' \times G'' $ de deux groupes. D’après VIII, p. 209, remarque 2, Il existe une application $ \mathbf{Z} $-linéaire $ \kappa $ de $ R_K(G') \otimes_{\mathbf{Z}} R_K(G'') $ dans le groupe $ R_K(G' \times G'') $ caractérisée par les relations $ \kappa([\pi'] \otimes [\pi'']) = [\pi' \otimes \pi''] $ pour $ \pi' $ (resp. $ \pi'' $) une représentation de $ G' $ (resp. $ G'' $) de dimension finie, $ \pi' \otimes \pi'' $ désignant leur produit tensoriel externe (VIII, p. 390, exemple 5). C’est un homomorphisme d’anneaux. Si le corps K est algébriquement clos, l’application $ \kappa $ est un isomorphisme (VIII, p. 209, remarque 2).
 
-Supposons que G soit le produit $G'\times G''$ de deux groupes. Notons $\psi$ l’homomorphisme de $\mathscr{Z}_K(G')\otimes_K\mathscr{Z}_K(G'')$ sur $\mathscr{Z}_K(G)$ qui transforme $f'\otimes f''$ en la fonction $(g', g'')\rightarrow f'(g')f''(g'')$. On a un diagramme commutatif
+Supposons que G soit le produit $ G' \times G'' $ de deux groupes. Notons $ \psi $ l’homomorphisme de $ \mathscr{L}_K(G') \otimes_K \mathscr{L}_K(G'') $ sur $ \mathscr{L}_K(G) $ qui transforme $ f' \otimes f'' $ en la fonction $ (g', g'') \mapsto f'(g')f''(g'') $. On a un diagramme commutatif
 
-$R_K(G')\otimes_{\mathbf{Z}}R_K(G'')^{\kappa}$ // $R_K(G)$
-
-$\Theta_{G'}\otimes \Theta_{G''}\Theta_G$
-
-$\mathscr{Z}_K(G')\otimes_K\mathscr{Z}_K(G'')^{\psi}$ /$/\mathscr{Z}_K(G)$.
+$$
+\begin{array}{ccc}
+R_K(G') \otimes_{\mathbf{Z}} R_K(G'') & \xrightarrow{\kappa} & R_K(G) \\
+\downarrow \Theta_{G'} \otimes \Theta_{G''} & & \downarrow \Theta_G \\
+\mathscr{L}_K(G') \otimes_K \mathscr{L}_K(G'') & \xrightarrow{\psi} & \mathscr{L}_K(G).
+\end{array}
+$$
 
 ### 5. Formule d’inversion de Fourier
 
-On suppose pour le reste de ce paragraphe que le groupe G est fini, que K est un corps algébriquement clos, dont la caractéristique ne divise pas l’ordre de G, de sorte que l’élément $|G|$ de K n’est pas nul.
+On suppose pour le reste de ce paragraphe que le groupe G est fini, que K est un corps algébriquement clos, dont la caractéristique ne divise pas l’ordre de G, de sorte que l’élément $ |G| $ de K n’est pas nul.
 
-L’algèbre K[G] est semi-simple (théorème de Maschke) et de dimension finie. Notons $\widehat{G}$ l’ensemble des classes de K[G]-modules simples. Pour tout $\lambda \in \widehat{G}$, choisissons une représentation linéaire $(V_{\lambda}, \pi_{\lambda})$ de G dont le K[G]-module associé ait pour classe $\lambda$. L’ensemble $\widehat{G}$ est fini et les espaces vectoriels $V_{\lambda}$ sont de dimension finie (VIII, p. 137, exemple). Pour tout $\lambda \in \widehat{G}$, notons $d_{\lambda}$ le degré de la représentation $\pi_{\lambda}$, c’est-à-dire la dimension du K-espace vectoriel $V_{\lambda}$, et $\chi_{\lambda}$ son caractère.
+L’algèbre $ K[G] $ est semi-simple (théorème de Maschke) et de dimension finie. Notons $ \widehat{G} $ l’ensemble des classes de $ K[G] $-modules simples. Pour tout $ \lambda \in \widehat{G} $, choisissons une représentation linéaire $ (V_\lambda, \pi_\lambda) $ de G dont le $ K[G] $-module associé ait pour classe $ \lambda $. L’ensemble $ \widehat{G} $ est fini et les espaces vectoriels $ V_\lambda $ sont de dimension finie (VIII, p. 137, exemple). Pour tout $ \lambda \in \widehat{G} $, notons $ d_\lambda $ le degré de la représentation $ \pi_\lambda $, c’est-à-dire la dimension du K-espace vectoriel $ V_\lambda $, et $ \chi_\lambda $ son caractère.
 
-Notons $F(\widehat{G})$ l’algèbre produit $\prod_{\lambda\in\widehat{G}}$ End$_K(V_{\lambda})$ et $\overline{\mathscr{F}}$ l’application de K[G] dans $F(\widehat{G})$ définie par $\overline{\mathscr{F}}(a) = (\pi_{\lambda}(a))_{\lambda\in\widehat{G}}$. Comme le corps K est algébriquement clos, l’application $\mathscr{F}$ est un isomorphisme d’algèbres (loc. cit.).
+Notons $ F(\widehat{G}) $ l’algèbre produit $ \prod_{\lambda \in \widehat{G}} \operatorname{End}_K(V_\lambda) $ et $ \mathscr{F} $ l’application de $ K[G] $ dans $ F(\widehat{G}) $ définie par $ \mathscr{F}(a) = (\pi_\lambda(a))_{\lambda \in \widehat{G}} $. Comme le corps K est algébriquement clos, l’application $ \mathscr{F} $ est un isomorphisme d’algèbres (loc. cit.).
 
 Pour tout $\lambda \in \widehat{G}$, la dimension de l’algèbre End$_K(V_{\lambda})$ est $d^2_{\lambda}$; celle de l’algèbre K[G] est Card(G) ; on a donc la relation
 
@@ -786,81 +790,92 @@ Supposons que $K'$ soit une extension de K et que l’isomorphisme $\varphi$ soi
 
 #### Corollaire 1 {#alg-viii-s21-prop-10-cor-1 .statement tag=00O3}
 
-L’application $\varphi_G$ est un isomorphisme d’anneaux de $R_K(G)$sur $R_{K'}(G)$. Pour toute représentation $\pi$ de dimension finie de G dans un K-espace vectoriel, on a $\varphi_G([\pi ]) = [\pi ']$, où $\pi '$ est une représentation apparentée à $\pi$ par $\varphi$.
+L’application $ \varphi_G $ est un isomorphisme d’anneaux de $ R_K(G) $ sur $ R_{K'}(G) $. Pour toute représentation $ \pi $ de dimension finie de $ G $ dans un $ K $-espace vectoriel, on a $ \varphi_G([\pi]) = [\pi'] $, où $ \pi' $ est une représentation apparentée à $ \pi $ par $ \varphi $.
 
-Cela résulte de la semi-simplicité des représentations de G et de la propriété b) de VIII, p. 406.
+Cela résulte de la semi-simplicité des représentations de $ G $ et de la propriété b) de VIII, p. 406.
 
 #### Corollaire 2 {#alg-viii-s21-prop-10-cor-2 .statement tag=00O4}
 
-La dimension de toute représentation simple de G divise l’ordre de G.
+La dimension de toute représentation simple de $ G $ divise l’ordre de $ G $.
 
 Cela résulte de la prop. 10 et de la prop. 9 de VIII, p. 405.
 
 #### Remarque 2 {#alg-viii-s21-n12-rem-2 .statement tag=00O5}
 
-Supposons le groupe G commutatif. On a vu dans la remarque de VIII, p. 404 que $\mathscr{S}_K(G)$ s’identifie à l’ensemble Hom(G$, \mu_n(K)$). De manière analogue, $\mathscr{S}_{K'}(G)$ s’identifie à Hom(G$, \mu_n(K')$). Avec ces identifications, la bijection $\varphi_G$ n’est autre que l’application $\chi \rightarrow \varphi \circ \chi$.
+Supposons le groupe $ G $ commutatif. On a vu dans la remarque de VIII, p. 404 que $ \mathscr{I}_K(G) $ s’identifie à l’ensemble $ \operatorname{Hom}(G, \mu_n(K)) $. De manière analogue, $ \mathscr{I}_{K'}(G) $ s’identifie à $ \operatorname{Hom}(G, \mu_n(K')) $. Avec ces identifications, la bijection $ \varphi_G $ n’est autre que l’application $ \chi \mapsto \varphi \circ \chi $.
 
 #### Remarque 3 {#alg-viii-s21-n12-rem-3 .statement tag=00O6}
 
-Soient $\pi_1$ et $\pi_2$ des représentations linéaires de G dans des espaces vectoriels de dimension finie sur K. Pour $i= 1,2$, soit $\pi '_i$ une représentation apparentée à $\pi_i$ par $\varphi$. On a
+Soient $ \pi_1 $ et $ \pi_2 $ des représentations linéaires de $ G $ dans des espaces vectoriels de dimension finie sur $ K $. Pour $ i = 1, 2 $, soit $ \pi'_i $ une représentation apparentée à $ \pi_i $ par $ \varphi $. On a
 
-(47) dim$_K$ Hom$_K(\pi_1, \pi_2) =$ dim$_{K'}$ Hom$_{K'}(\pi '_1, \pi '_2)$.
+$$
+\dim_K \operatorname{Hom}_K(\pi_1, \pi_2) = \dim_{K'} \operatorname{Hom}_{K'}(\pi'_1, \pi'_2).
+$$
 
-Cela se démontre comme dans le corollaire de VIII, p. 400 par réduction au cas où les $\pi_i$ (et donc les $\pi '_i$) sont simples.
+Cela se démontre comme dans le corollaire de VIII, p. 400 par réduction au cas où les $ \pi_i $ (et donc les $ \pi'_i $) sont simples.
 
 #### Remarque 4 {#alg-viii-s21-n12-rem-4 .statement tag=00O7}
 
-Soit H un sous-groupe de G de cardinal $m$. L’isomorphisme $\varphi$ induit par passage aux sous-ensembles un isomorphisme de $\mu_m(K)$ sur $\mu_m(K')$ et, par conséquent, un isomorphisme d’anneaux $\varphi_H$ de $R_K(H)$ sur $R_{K'}(H)$ Les diagrammes suivants sont commutatifs :
+Soit $ H $ un sous-groupe de $ G $ de cardinal $ m $. L’isomorphisme $ \varphi $ induit par passage aux sous-ensembles un isomorphisme de $ \mu_m(K) $ sur $ \mu_m(K') $ et, par conséquent, un isomorphisme d’anneaux $ \varphi_H $ de $ R_K(H) $ sur $ R_{K'}(H) $ Les diagrammes suivants sont commutatifs :
 
-$R_K(G)^{Res^G_H}/$/ $R_K(H)R_K(H)^{Ind^G_H}/$/ $R_K(G)$
-
-$\varphi_G\varphi_H\varphi_H\varphi_G$
-
-$R_{K'}(G)^{Res^G_H}/$/ $R_{K'}(H)R_{K'}(H)^{Ind^G_H}/$/ $R_{K'}(G)$.
+$$
+\begin{array}{ccc}
+R_K(G) & \xrightarrow{\operatorname{Res}_H^G} & R_K(H) \\
+\downarrow \varphi_G & & \downarrow \varphi_H \\
+R_{K'}(G) & \xrightarrow{\operatorname{Res}_H^{G'}} & R_{K'}(H)
+\end{array}
+$$
+$$
+\begin{array}{ccc}
+R_K(H) & \xrightarrow{\operatorname{Ind}_H^G} & R_K(G) \\
+\downarrow \varphi_H & & \downarrow \varphi_G \\
+R_{K'}(H) & \xrightarrow{\operatorname{Ind}_H^{G'}} & R_{K'}(G).
+\end{array}
+$$
 
 La commutativité du premier diagramme est évidente et celle du deuxième s’en déduit à l’aide de la réciprocité de Frobenius et de la formule (47).
 
 #### Remarque 5 {#alg-viii-s21-n12-rem-5 .statement tag=00O8}
 
-Supposons que G soit le produit $G'\times G''$ de deux groupes finis. On définit, comme dans l’exemple précédent des isomorphismes $\varphi_{G'}$ et $\varphi_{G''}$. On a alors un diagramme commutatif
+Supposons que $ G $ soit le produit $ G' \times G'' $ de deux groupes finis. On définit, comme dans l’exemple précédent des isomorphismes $ \varphi_{G'} $ et $ \varphi_{G''} $. On a alors un diagramme commutatif
 
-$R_K(G')\otimes_{\mathbf{Z}}R_K(G'')^{\kappa}$ // $R_K(G)$
+$$
+\begin{array}{ccc}
+R_K(G') \otimes_{\mathbf{Z}} R_K(G'') & \xrightarrow{\kappa} & R_K(G) \\
+\downarrow \varphi_{G'} \otimes \varphi_{G''} & & \downarrow \varphi_G \\
+R_{K'}(G') \otimes_{\mathbf{Z}} R_{K'}(G'') & \xrightarrow{\kappa'} & R_{K'}(G),
+\end{array}
+$$
 
-$\varphi_{G'}\otimes \varphi_{G''}\varphi_G$
-
-$R_{K'}(G')\otimes_{\mathbf{Z}}R_{K'}(G'')^{\kappa'}$ // $R_{K'}(G)$,
-
-où les isomorphismes $\kappa$ et $\kappa '$ sont ceux définis en VIII, p. 396.
+où les isomorphismes $ \kappa $ et $ \kappa' $ sont ceux définis en VIII, p. 396.
 
 ### \*13. Représentations linéaires complexes
 
-Dans ce numéro, on suppose que K est le corps $\mathbf{C}$des nombres complexes.
+Dans ce numéro, on suppose que $ K $ est le corps $ \mathbf{C} $ des nombres complexes.
 
-Soit $(M, \pi )$ une représentation linéaire de G. On dit qu’une forme hermitienne Φ sur M est invariante par G si l’on a
+Soit $ (M, \pi) $ une représentation linéaire de $ G $. On dit qu’une forme hermitienne $ \Phi $ sur $ M $ est *invariante par* $ G $ si l’on a
 
 $$
-\Phi (\pi (g)x, \pi (g)x') = \Phi (x, x') \tag{48}
+\Phi(\pi(g)x, \pi(g)x') = \Phi(x, x')
 $$
 
-pour tous $x, x'\in M$ et tout $g\in G$. Cela signifie aussi que pour tout $g\in G$ l’automorphisme $\pi (g)$ de M est unitaire par rapport à Φ.
+pour tous $ x, x' \in M $ et tout $ g \in G $. Cela signifie aussi que pour tout $ g \in G $ l’automorphisme $ \pi(g) $ de $ M $ est *unitaire* par rapport à $ \Phi $.
 
 #### Proposition 11 {#alg-viii-s21-prop-11 .statement tag=00O9}
 
-Soit $(M, \pi )$une représentation linéaire de G, de dimension finie.
+Soit $ (M, \pi) $ une représentation linéaire de $ G $, de dimension finie.
+a) Il existe sur $ M $ une forme hermitienne, positive, séparante et invariante par $ G $.
+b) Supposons la représentation $ \pi $ simple; si $ \Phi $ et $ \Psi $ sont des formes hermitiennes non nulles sur $ M $, invariantes par $ G $, il existe un nombre réel $ a $ tel que $ \Psi = a \Phi $.
 
-a) Il existe sur M une forme hermitienne, positive, séparante et invariante par G.
-
-b) Supposons la représentation $\pi$ simple ; si Φ et Ψ sont des formes hermitiennes non nulles sur M, invariantes par G, il existe un nombre réel $a$ tel que $\Psi  =a\Phi$.
-
-Sur l’espace vectoriel M, choisissons une forme hermitienne, positive et séparante, notée $\Phi_0$. On définit une forme hermitienne Φ, positive, séparante et invariante par G en posant
+Sur l’espace vectoriel $ M $, choisissons une forme hermitienne, positive et séparante, notée $ \Phi_0 $. On définit une forme hermitienne $ \Phi $, positive, séparante et invariante par $ G $ en posant
 
 $$
-\Phi (x, x') =\sum_{g\in G}\Phi_0(\pi (g)x, \pi (g)x') \tag{49}
+\Phi(x, x') = \sum_{g \in G} \Phi_0(\pi(g)x, \pi(g)x')
 $$
 
-pour $x, x'\in M$.
+pour $ x, x' \in M $.
 
-Soit Ψ une forme hermitienne sur M ; il existe un unique endomorphisme A de M tel que $\Psi (x, x') = \Phi (x,Ax')$ pour $x, x'$ dans M. Si, de plus, Ψ est invariante par G, l’endomorphisme A commute aux automorphismes $\pi (g)$ pour $g\in G$. Si la représentation $\pi$ est simple, d’après le lemme de Schur (VIII, p. 43, th. 1), A est une homothétie et il existe donc un nombre complexe $a$ tel que $\Psi  =a\Phi$. Comme Φ et Ψ sont hermitiennes et Φ non nulle, $a$ est un nombre réel, d’où la proposition.
+Soit $ \Psi $ une forme hermitienne sur $ M $; il existe un unique endomorphisme $ A $ de $ M $ tel que $ \Psi(x, x') = \Phi(x, Ax') $ pour $ x, x' $ dans $ M $. Si, de plus, $ \Psi $ est invariante par $ G $, l’endomorphisme $ A $ commute aux automorphismes $ \pi(g) $ pour $ g \in G $. Si la représentation $ \pi $ est simple, d’après le lemme de Schur (VIII, p. 43, th. 1), $ A $ est une homothétie et il existe donc un nombre complexe $a$ tel que $\Psi  =a\Phi$. Comme Φ et Ψ sont hermitiennes et Φ non nulle, $a$ est un nombre réel, d’où la proposition.
 
 On munit l’espace vectoriel $\mathbf{C}[G]$ des fonctions complexes sur G de la structure d’espace hilbertien dont le produit scalaire est donné par
 

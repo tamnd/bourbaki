@@ -9,7 +9,7 @@ lang: fr
 source: alg-viii-fr
 book_pages: A VIII.51-A VIII.71
 pdf_pages: 0062-0082
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: Modules semi-simples
@@ -45,7 +45,7 @@ subsections:
       pdf_page: 78
 statements: 43
 exercises: 8
-content_sha256: dba7f5d7d23471c6c7da147d8c4043b53381b71c9234c6b4851894a662774e1c
+content_sha256: a0d3722e19f6e8d76a5199d17801f010b5d51c55605ae7f5c68991a91330a6a5
 ---
 
 ## § 4. MODULES SEMI-SIMPLES
@@ -162,105 +162,91 @@ si $M, M', M''$ sont des A-modules à gauche et $g: M\rightarrow M',g': M'\right
 
 (5) $\gamma :$ Hom$_A(\mathscr{T}(V),M)\longrightarrow$ Hom$_B(V,\mathscr{H}(M))$ caractérisé par la relation
 
-$$
-(\gamma (h)(v))(p) =h(p\otimes v) \tag{6}
-$$
+(6)
+$$(\gamma(h)(v))(p) = h(p \otimes v)$$
 
-pour $h\in$ Hom$_A(\mathscr{T}(V),M),v\in V$ et $p\in P$. L’isomorphisme $\gamma$ est appelé isomorphime d’adjonction.
+pour $ h \in \operatorname{Hom}_A(\mathscr{T}(V), M) $, $ v \in V $ et $ p \in P $. L’isomorphisme $ \gamma $ est appelé *isomorphisme d’adjonction*.
 
-Soit M un A-module à gauche. Le A-module $\mathscr{T}(\mathscr{H}(M))$ n’est autre que le A-module $P\otimes_B$ Hom$_A(P,M)$. En appliquant ce qui précède au B-module $\mathscr{H}$ (M), l’application
-
-$\alpha_M=\gamma^{-1}$(Id$_{\mathscr{H}(M)}$) $:\mathscr{T}(\mathscr{H}(M))\longrightarrow M$
-
+Soit $ M $ un A-module à gauche. Le A-module $ \mathscr{T}(\mathscr{H}(M)) $ n’est autre que le A-module $ P \otimes_B \operatorname{Hom}_A(P, M) $. En appliquant ce qui précède au B-module $ \mathscr{H}(M) $, l’application
+$$\alpha_M = \gamma^{-1}(\operatorname{Id}_{\mathscr{H}(M)}) : \mathscr{T}(\mathscr{H}(M)) \longrightarrow M$$
 est l’unique application satisfaisant à
+(7)
+$$\alpha_M(p \otimes f) = f(p)$$
+pour $ p \in P $ et $ f \in \operatorname{Hom}_A(P, M) $. Nous dirons que $ \alpha_M $ est l’application A-linéaire canonique de $ \mathscr{T}(\mathscr{H}(M)) $ dans $ M $. Pour toute application A-linéaire $ g : M \to M' $, on a un diagramme commutatif
 
+(I)
 $$
-\alpha_M(p\otimes f) =f(p) \tag{7}
+\begin{array}{ccc}
+\mathscr{T}(\mathscr{H}(M)) & \xrightarrow{\alpha_M} & M \\
+\downarrow \mathscr{T}(\mathscr{H}(g)) & & \downarrow g \\
+\mathscr{T}(\mathscr{H}(M')) & \xrightarrow{\alpha_{M'}} & M'.
+\end{array}
 $$
-
-pour $p\in P$ et $f\in$ Hom$_A(P,M)$. Nous dirons que $\alpha_M$ est l’application A-linéaire canonique de $\mathscr{T}(\mathscr{H}(M))$ dans M. Pour toute application A-linéaire $g: M\rightarrow M'$, on a un diagramme commutatif
-
-$\mathscr{T}(\mathscr{H}(M))^{\alpha_M}$ // M
-
-(I) $\mathscr{T}_{(\mathscr{H}(g))}g$
-
-$\mathscr{T}(\mathscr{H}(M'))^{\alpha_{M'}}/$/ $M'$.
 
 L’inverse
+$$\gamma^{-1} : \operatorname{Hom}_B(V, \mathscr{H}(M)) \longrightarrow \operatorname{Hom}_A(\mathscr{T}(V), M)$$
+de l’isomorphisme d’adjonction coïncide avec l’application $ f \mapsto \alpha_{M'} \circ \mathscr{T}(f) $. En effet, d’après (6) et (7) on a les relations
+$$\gamma^{-1}(f)(p \otimes v) = (f(v))(p) = \alpha_{M'}(p \otimes f(v)) = \alpha_{M'} \circ \mathscr{T}(f)(p \otimes v)$$
+pour tous $ f \in \operatorname{Hom}_B(V, \mathscr{H}(M)) $, $ v \in V $ et $ p \in P $.
 
-$\gamma^{-1}:$ Hom$_B(V,\mathscr{H}(M))\longrightarrow$ Hom$_A(\mathscr{T}(V),M)$
+Soit $ V $ un B-module. Le B-module $ \mathscr{H}(\mathscr{T}(V)) $ n’est autre que le B-module $ \operatorname{Hom}_A(P, P \otimes_B V) $. En appliquant (5) au A-module $ \mathscr{T}(V) $, l’application B-linéaire $ \beta_V = \gamma(\operatorname{Id}_{\mathscr{T}(V)}) $ de $ V $ dans $ \mathscr{H}(\mathscr{T}(V)) $ est caractérisée par la relation
+(8)
+$$\beta_V(v)(p) = p \otimes v$$
+pour $ p \in P $ et $ v \in V $. Nous dirons que $ \beta_V $ est l’application B-linéaire canonique de $ V $ dans $ \mathscr{H}(\mathscr{T}(V)) $. Pour tout B-module $ V' $ et toute application B-linéaire $ g : V \to V' $, on a un diagramme commutatif
 
-de l’isomorphisme d’adjonction coïncide avec l’application $f\rightarrow \alpha_M\circ \mathscr{T}(f)$. En effet, d’après (6) et (7) on a les relations
-
-$$
-\gamma^{-1}(f)(p\otimes v) = (f(v))(p) =\alpha_{M'}(p\otimes f(v)) =\alpha_{M'}\circ \mathscr{T}(f)(p\otimes v)
-$$
-
-pour tous $f\in$ Hom$_B(V,\mathscr{H}$ (M)), $v\in V$ et $p\in P$.
-
-Soit V un B-module. Le B-module $\mathscr{H}(\mathscr{T}(V))$ n’est autre que le B-module Hom$_A(P,P\otimes_BV)$. En appliquant (5) au A-module $\mathscr{T}$ (V), l’application B-linéaire $\beta_V=\gamma$(Id$_{\mathscr{T}(V)}$) de V dans $\mathscr{H}(\mathscr{T}(V))$ est caractérisée par la relation
-
-$$
-\beta_V(v)(p) =p\otimes v \tag{8}
-$$
-
-pour $p\in P$ et $v\in V$. Nous dirons que $\beta_V$ est l’application B-linéaire canonique de V dans $\mathscr{H}(\mathscr{T}(V))$. Pour tout B-module $V'$ et toute application B-linéaire $g: V\rightarrow V'$, on a un diagramme commutatif
-
-V $^{\beta_V}$ /$/\mathscr{H}(\mathscr{T}(V))$ (II) $g\mathscr{H}_{\mathscr{T}}$
-
-( $(g)$)
+(II)
 
 $$
-{V'}^{\beta_{V'}}//\mathscr{H}(\mathscr{T}(V'))
+\begin{array}{ccc}
+V & \xrightarrow{\beta_V} & \mathcal{H}(\mathcal{T}(V)) \\
+\downarrow g & & \downarrow \mathcal{H}(\mathcal{T}(g)) \\
+V' & \xrightarrow{\beta_{V'}} & \mathcal{H}(\mathcal{T}(V')).
+\end{array}
 $$
 
-Notons que le morphisme d’adjonction (5) coïncide avec l’application qui envoie $u$ sur $\mathscr{H}(u)\circ \beta_V$. En effet, des relations (6) et (8), on déduit les égalités
+Notons que le morphisme d’adjonction (5) coïncide avec l’application qui envoie $ u $ sur $ \mathcal{H}(u) \circ \beta_V $. En effet, des relations (6) et (8), on déduit les égalités
 
-$$
-(\gamma (u)(v))(p) =u(p\otimes v) =u\circ (\beta_V(v))(p)
-$$
+$$(\gamma(u)(v))(p) = u(p \otimes v) = u \circ (\beta_V(v))(p)$$
 
-pour tous $u\in$ Hom$_A(\mathscr{T}(V),M),v\in V$ et $p\in P$.
+pour tous $ u \in \operatorname{Hom}_A(\mathcal{T}(V), M) $, $ v \in V $ et $ p \in P $.
 
 #### Remarque 1 {#alg-viii-s4-n3-rem-1 .statement tag=004A}
 
-Soient V et $V'$ des B-modules. L’isomorphisme d’adjonction
+Soient $ V $ et $ V' $ des $ B $-modules. L’isomorphisme d’adjonction
 
-$\gamma :$ Hom$_A(\mathscr{T}(V),\mathscr{T}(V'))\longrightarrow$ Hom$_B(V,\mathscr{H}(\mathscr{T}(V)))$
+$$\gamma : \operatorname{Hom}_A(\mathcal{T}(V), \mathcal{T}(V')) \longrightarrow \operatorname{Hom}_B(V, \mathcal{H}(\mathcal{T}(V)))$$
 
-vérifie la relation $\gamma (\mathscr{T}(f)) =\beta_{V'}\circ f$ pour tout $f\in$ Hom$_B(V,V')$, puisque
+vérifie la relation $ \gamma(\mathcal{T}(f)) = \beta_{V'} \circ f $ pour tout $ f \in \operatorname{Hom}_B(V, V') $, puisque
 
-$$
-(\gamma (\mathscr{T}(f))(v))(p) =\mathscr{T}(f)(p\otimes v) =p\otimes f(v) = (\beta_{V'}\circ f)(v)(p)
-$$
+$$(\gamma(\mathcal{T}(f))(v))(p) = \mathcal{T}(f)(p \otimes v) = p \otimes f(v) = (\beta_{V'} \circ f)(v)(p).$$
 
-Soient M et $M'$ des A-modules ; l’inverse de l’isomorphisme d’adjonction
+Soient $ M $ et $ M' $ des $ A $-modules ; l’inverse de l’isomorphisme d’adjonction
 
-$\gamma^{-1}:$ Hom$_B(\mathscr{H}(M),\mathscr{H}(M'))\longrightarrow$ Hom$_A(\mathscr{T}(\mathscr{H}(M)),M')$
+$$\gamma^{-1} : \operatorname{Hom}_B(\mathcal{H}(M), \mathcal{H}(M')) \longrightarrow \operatorname{Hom}_A(\mathcal{T}(\mathcal{H}(M)), M')$$
 
-vérifie la relation $\gamma^{-1}(\mathscr{H}(u)) =u\circ \alpha_M$, pour tout $u\in$ Hom$_B(M,M')$. En effet, on a les relations
+vérifie la relation $ \gamma^{-1}(\mathcal{H}(u)) = u \circ \alpha_M $, pour tout $ u \in \operatorname{Hom}_B(M, M') $. En effet, on a les relations
 
-$$
-\gamma^{-1}(\mathscr{H}(u))(p\otimes v) = (\mathscr{H}(u)(v))(p) =u(v(p)) =u\circ \alpha_M(p\otimes v)
-$$
+$$\gamma^{-1}(\mathcal{H}(u))(p \otimes v) = (\mathcal{H}(u)(v))(p) = u(v(p)) = u \circ \alpha_M(p \otimes v)$$
 
-pour tous $u\in$ Hom$_B(M,M'),v\in \mathscr{H}(M)$ et $p\in P$.
+pour tous $ u \in \operatorname{Hom}_B(M, M') $, $ v \in \mathcal{H}(M) $ et $ p \in P $.
 
 #### Remarque 2 {#alg-viii-s4-n3-rem-2 .statement tag=004B}
 
-Soit M un A-module à gauche. Les applications B-linéaires
+Soit $ M $ un $ A $-module à gauche. Les applications $ B $-linéaires
 
-$\beta_{\mathscr{H}(M)}:\mathscr{H}(M)\rightarrow \mathscr{H}(\mathscr{T}(\mathscr{H}(M)))$ et $\mathscr{H}(\alpha_M) :\mathscr{H}(\mathscr{T}(\mathscr{H}(M)))\rightarrow \mathscr{H}(M)$ satisfont la relation $\mathscr{H}(\alpha_M)\circ \beta_{\mathscr{H}(M)}= 1_{\mathscr{H}(M)}$. Elles ne sont pas bijectives en général.
+$$\beta_{\mathcal{H}(M)} : \mathcal{H}(M) \to \mathcal{H}(\mathcal{T}(\mathcal{H}(M))) \quad \text{et} \quad \mathcal{H}(\alpha_M) : \mathcal{H}(\mathcal{T}(\mathcal{H}(M))) \to \mathcal{H}(M)$$
 
-Soit V un B-module à gauche. Les applications A-linéaires
+satisfont la relation $ \mathcal{H}(\alpha_M) \circ \beta_{\mathcal{H}(M)} = 1_{\mathcal{H}(M)} $. Elles ne sont pas bijectives en général.
 
-$\mathscr{T}(\beta_V) :\mathscr{T}(V)\rightarrow \mathscr{T}(\mathscr{H}(\mathscr{T}(V)))$ et $\alpha_{\mathscr{T}(V)}:\mathscr{T}(\mathscr{H}(\mathscr{T}(V)))\rightarrow \mathscr{T}(V)$
+Soit $ V $ un $ B $-module à gauche. Les applications $ A $-linéaires
 
-satisfont la relation $\alpha_{\mathscr{T}(V)}\circ \mathscr{T}(\beta_V) = 1_{\mathscr{T}(V)}$. Elles ne sont pas bijectives en général.
+$$\mathcal{T}(\beta_V) : \mathcal{T}(V) \to \mathcal{T}(\mathcal{H}(\mathcal{T}(V))) \quad \text{et} \quad \alpha_{\mathcal{T}(V)} : \mathcal{T}(\mathcal{H}(\mathcal{T}(V))) \to \mathcal{T}(V)$$
+
+satisfont la relation $ \alpha_{\mathcal{T}(V)} \circ \mathcal{T}(\beta_V) = 1_{\mathcal{T}(V)} $. Elles ne sont pas bijectives en général.
 
 #### Remarque 3 {#alg-viii-s4-n3-rem-3 .statement tag=004C}
 
-Supposons que P soit de type fini en tant que A-module. Soit M la somme directe d’une famille $(M_i)_{i\in I}$ de A-modules. Les A-modules $\mathscr{T}(\mathscr{H}(M))$ et $\bigoplus_i\mathscr{T}(\mathscr{H}(M_i))$ sont canoniquement isomorphes. Lorsqu’on les identifie, $\alpha_M$ s’identifie à $\bigoplus_i\alpha_{M_i}$. De même, soit V la somme directe d’une famille $(V_j)_{j\in J}$ de B-modules. Le B-module $\mathscr{H}(\mathscr{T}(V))$ s’identifie à $\bigoplus_j\mathscr{H}(\mathscr{T}(V_j))$ et l’application linéaire $\beta_V$ à $\bigoplus_j\beta_{V_j}$.
+Supposons que $ P $ soit de type fini en tant que $ A $-module. Soit $ M $ la somme directe d’une famille $ (M_i)_{i \in I} $ de $ A $-modules. Les $ A $-modules $ \mathcal{T}(\mathcal{H}(M)) $ et $ \bigoplus_i \mathcal{T}(\mathcal{H}(M_i)) $ sont canoniquement isomorphes. Lorsqu’on les identifie, $ \alpha_M $ s’identifie à $ \bigoplus_i \alpha_{M_i} $. De même, soit $ V $ la somme directe d’une famille $ (V_j)_{j \in J} $ de $ B $-modules. Le B-module $\mathscr{H}(\mathscr{T}(V))$ s’identifie à $\bigoplus_j\mathscr{H}(\mathscr{T}(V_j))$ et l’application linéaire $\beta_V$ à $\bigoplus_j\beta_{V_j}$.
 
 ### 4. Modules isotypiques
 
@@ -350,37 +336,37 @@ C’est une traduction du th. 2, lorsqu’on prend pour $(V, \alpha )$ la descri
 
 Soient V un espace vectoriel à gauche sur D et $\mathscr{F}$ un ensemble d’endomorphismes de V. Pour qu’un sous-A-module de $S\otimes_DV$soit stable par tous les endomorphismes $1_S\otimes u$, où $u$ parcourt $\mathscr{F}$, il faut et il suffit qu’il soit de la forme $S\otimes_DW$, où W est un sous-espace vectoriel de V stable par tous les endomorphismes appartenant à $\mathscr{F}$.
 
-En effet, d’après le th. 2, tout sous-A-module N de $S\otimes_DV$ est égal à $S\otimes_DW$, où W est le sous-espace vectoriel de V formé des éléments $v$ tels que $s\otimes v$ appartienne à N pour tout $s\in S$.
+En effet, d’après le th. 2, tout sous-A-module N de S $ \otimes_D V $ est égal à S $ \otimes_D W $, où W est le sous-espace vectoriel de V formé des éléments $ v $ tels que $ s \otimes v $ appartienne à N pour tout $ s \in S $.
 
 #### Théorème 3 {#alg-viii-s4-thm-3 .statement tag=004N}
 
-Soient M et $M'$ des A-modules isotypiques de type S. Soient $(V, \alpha )$ et $(V', \alpha ')$des descriptions de M et $M'$ respectivement. Pour toute application D-linéaire $f: V\rightarrow V'$, Notons $\widetilde{f}: M\rightarrow M'$ l’unique application A-linéaire rendant commutatif le diagramme
-
-$S\otimes_DV^{\alpha}$ // M
+Soient M et M' des A-modules isotypiques de type S. Soient (V, $ \alpha $) et (V', $ \alpha' $) des descriptions de M et M' respectivement. Pour toute application D-linéaire $ f : V \to V' $, Notons $ \tilde{f} : M \to M' $ l’unique application A-linéaire rendant commutatif le diagramme
 
 $$
-1_{_S\otimes f}\widetilde{f} \tag{9}
+\begin{array}{ccc}
+S \otimes_D V & \xrightarrow{\alpha} & M \\
+| & & | \\
+S \otimes_D V' & \xrightarrow{\alpha'} & M'.
+\end{array}
 $$
 
-$S\otimes_D{V'}^{\alpha'}$ // $M'$.
+L’application $ f \mapsto \tilde{f} $ de $ \operatorname{Hom}_D(V, V') $ dans $ \operatorname{Hom}_A(M, M') $ est un isomorphisme de groupes.
 
-L’application $f\rightarrow \widetilde{f}$ de Hom$_D(V,V')$dans Hom$_A(M,M')$est un isomorphisme de groupes.
+Il nous suffit de démontrer que l’application $ \mathbf{Z}$-linéaire $ u \mapsto 1_S \otimes u $ de $ \operatorname{Hom}_D(V, V') $ dans $ \operatorname{Hom}_A(S \otimes_D V, S \otimes_D V') $ est bijective. En reprenant les notations du n°3 appliqué au (A, D)-bimodule S, cela revient à montrer que l’application
+$$
+\mathscr{T} : \operatorname{Hom}_D(V, V') \longrightarrow \operatorname{Hom}_A(\mathscr{T}(V), \mathscr{T}(V'))
+$$
+est bijective. Mais d’après la remarque 1 de VIII, p. 56, comme l’isomorphisme d’adjonction (VIII, p. 54) est bijectif, cela revient à montrer que l’application qui envoie $ u $ sur $ \beta_{V'} \circ u $ est bijective, ce qui résulte du fait que l’application D-linéaire $ \beta_{V'} $ est bijective (VIII, p. 58, prop. 3 b)).
 
-Il nous suffit de démontrer que l’application $\mathbf{Z}$-linéaire $u\rightarrow 1_S\otimes u$ de Hom$_D(V,V')$ dans Hom$_A(S\otimes_DV,S\otimes_DV')$ est bijective. En reprenant les notations du n$^o3$ appliqué au $(A$, D)-bimodule S, cela revient à montrer que l’application
-
-$\mathscr{T}:$ Hom$_D(V,V')\longrightarrow$ Hom$_A(\mathscr{T}(V),\mathscr{T}(V'))$
-
-est bijective. Mais d’après la remarque 1 de VIII, p. 56, comme l’isomorphisme d’adjonction (VIII, p. 54) est bijectif, cela revient à montrer que l’application qui envoie $u$ sur $\beta_{V'}\circ u$ est bijective, ce qui résulte du fait que l’application D-linéaire $\beta_{V'}$ est bijective (VIII, p. 58, prop. 3 b)).
-
-Conservons les notations du th. 3. Soit $M''$ un A-module isotypique de type S et soit $(V'', \alpha '')$ une description de $M''$. Pour tout $f\in$ Hom$_D(V,V')$ et tout $g$ appartenant à Hom$_D(V',V'')$, on a $g\widetilde{\circ}f=\widetilde{g}\circ \widetilde{f}$. En particulier, pour $M = M', V = V'$ et $\alpha =\alpha '$, l’application $f\rightarrow \widetilde{f}$ de End$_D(V)$ dans End$_A(M)$ est un isomorphisme d’anneaux.
+Conservons les notations du th. 3. Soit $ M'' $ un A-module isotypique de type S et soit $ (V'', \alpha'') $ une description de $ M'' $. Pour tout $ f \in \operatorname{Hom}_D(V, V') $ et tout $ g $ appartenant à $ \operatorname{Hom}_D(V', V'') $, on a $ \widetilde{g \circ f} = \widetilde{g} \circ \widetilde{f} $. En particulier, pour $ M = M', V = V' $ et $ \alpha = \alpha' $, l’application $ f \mapsto \tilde{f} $ de $ \operatorname{End}_D(V) $ dans $ \operatorname{End}_A(M) $ est un isomorphisme d’anneaux.
 
 #### Remarque 2 {#alg-viii-s4-n5-rem-2 .statement tag=004O}
 
-Soit M un A-module isotypique de type S et soit $(V, \alpha )$ une description de M. Soit B un sous-anneau de l’anneau End$_A(M)^o$. L’isomorphisme d’anneaux de End$_D(V)^o$ sur End$_A(M)^o$ munit V d’une structure de $(D$, B)-bimodule de sorte que $\alpha$ est un isomorphisme de $(A$, B)-bimodules. Il existe un isomorphisme de l’ensemble des sous-(D, B)-bimodules de V, ordonnés par l’inclusion sur celui des sous-(A, B)-bimodules de M (VIII, p. 58, th. 2 et VIII, p. 59, cor. 2).
+Soit M un A-module isotypique de type S et soit $ (V, \alpha) $ une description de M. Soit B un sous-anneau de l’anneau $ \operatorname{End}_A(M)^o $. L’isomorphisme d’anneaux de $ \operatorname{End}_D(V)^o $ sur $ \operatorname{End}_A(M)^o $ munit V d’une structure de (D, B)-bimodule de sorte que $ \alpha $ est un isomorphisme de (A, B)-bimodules. Il existe un isomorphisme de l’ensemble des sous-(D, B)-bimodules de V, ordonnés par l’inclusion sur celui des sous-(A, B)-bimodules de M (VIII, p. 58, th. 2 et VIII, p. 59, cor. 2).
 
 #### Corollaire {#alg-viii-s4-n5-cor-1 .statement tag=004P}
 
-Soient M, $M'$ des A-modules isotypiques de type S. L’application $u\rightarrow$ Hom(1$_S, u$)de Hom$_A(M,M')$dans Hom$_D$(Hom$_A(S,M)$, Hom$_A(S,M')$)est un isomorphisme de groupes. Lorsque M est égal à $M'$, c’est un isomorphisme d’anneaux de End$_A(M)$sur End$_D$(Hom$_A(S,M)$).
+Soient M, M' des A-modules isotypiques de type S. L’application $ u \mapsto \operatorname{Hom}(1_S, u) $ de $ \operatorname{Hom}_A(M, M') $ dans $ \operatorname{Hom}_D(\operatorname{Hom}_A(S, M), \operatorname{Hom}_A(S, M')) $ est un isomorphisme de groupes. Lorsque M est égal à $M'$, c’est un isomorphisme d’anneaux de End$_A(M)$sur End$_D$(Hom$_A(S,M)$).
 
 Compte tenu de la commutativité du diagramme (I) de VIII, p. 55 ce corollaire résulte du th. 3, appliqué aux descriptions canoniques de M et $M'$.
 
@@ -556,47 +542,49 @@ C’est une traduction de la prop. 8 c) appliquée à la description canonique d
 
 #### Proposition 9 {#alg-viii-s4-prop-9 .statement tag=0052}
 
-Soient M et $M'$ des A-modules semi-simples et soient $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$et $((V'_{\lambda})_{\lambda\in\mathscr{S}}, \alpha ')$des descriptions de M et $M'$ respectivement. Pour toute famille $\boldsymbol{f}= (f_{\lambda})_{\lambda\in\mathscr{S}}$ de $\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V'_{\lambda})$, il existe une unique application A-linéaire $\varphi (\boldsymbol{f})\in$ Hom$_A(M,M')$rendant commutatif le diagramme
+Soient M et $M'$ des A-modules semi-simples et soient $((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$et $((V'_{\lambda})_{\lambda\in\mathscr{S}}, \alpha ')$des descriptions de M et $M'$ respectivement. Pour toute famille $\boldsymbol{f}= (f_{\lambda})_{\lambda\in\mathscr{S}}$ de $\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V'_{\lambda})$, il existe une unique application A-linéaire $ \varphi(f) \in \operatorname{Hom}_A(M, M') $ rendant commutatif le diagramme
 
-$\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda})^{\alpha}$ // M
+$$
+\begin{array}{ccc}
+\bigoplus_{\lambda \in \mathscr{I}} (S_\lambda \otimes_{D_\lambda} V_\lambda) & \xrightarrow{\alpha} & M \\
+\downarrow & & \downarrow \varphi(f) \\
+\bigoplus_{\lambda \in \mathscr{I}} (1_{S_\lambda} \otimes f_\lambda) & & \\
+& & \\
+\bigoplus_{\lambda \in \mathscr{I}} (S_\lambda \otimes_{D_\lambda} V'_\lambda) & \xrightarrow{\alpha'} & M'.
+\end{array}
+$$
 
-$\bigoplus_{\lambda\in\mathscr{S}}(1_{S\lambda}\otimes f_{\lambda})\varphi (\boldsymbol{f})$
+L’application $ \varphi : \prod_{\lambda \in \mathscr{I}} \operatorname{Hom}_{D_\lambda}(V_\lambda, V'_\lambda) \to \operatorname{Hom}_A(M, M') $ ainsi définie est un isomorphisme de groupes. Lorsque l’on a $ M = M' $, $ V_\lambda = V'_\lambda $ pour tout $ \lambda \in \mathscr{I} $ et $ \alpha = \alpha' $, l’application $ \varphi $ est un isomorphisme d’anneaux de $ \prod_{\lambda \in \mathscr{I}} \operatorname{End}_{D_\lambda}(V_\lambda) $ sur $ \operatorname{End}_A(M) $.
 
-$\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}V'_{\lambda})^{\alpha'}$ // $M'$.
-
-L’application $\varphi :\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V'_{\lambda})\rightarrow$ Hom$_A(M,M')$ainsi définie est un isomorphisme de groupes. Lorsque l’on a $M = M', V_{\lambda}= V'_{\lambda}$ pour tout $\lambda \in \mathscr{S}$ et $\alpha =\alpha '$, l’application $\varphi$ est un isomorphisme d’anneaux de $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}(V_{\lambda})$sur End$_A(M)$.
-
-Compte tenu de la description des composants isotypiques de M et $M'$ donnée dans la prop. 8 a), cela résulte du th. 3 de VIII, p. 60 et de la prop. 5, b) de VIII, p. 62.
+Compte tenu de la description des composants isotypiques de $ M $ et $ M' $ donnée dans la prop. 8 a), cela résulte du th. 3 de VIII, p. 60 et de la prop. 5, b) de VIII, p. 62.
 
 #### Corollaire {#alg-viii-s4-n7-cor-2 .statement tag=0053}
 
-Soient M un A-module semi-simple et $M'$ un A-module. L’application $u\rightarrow$ (Hom(1$_{S_{\lambda}}, u$))$_{\lambda\in\mathscr{S}}$ de Hom$_A(M,M')$dans
+Soient $ M $ un $ A $-module semi-simple et $ M' $ un $ A $-module. L’application $ u \mapsto (\operatorname{Hom}(1_{S_\lambda}, u))_{\lambda \in \mathscr{I}} $ de $ \operatorname{Hom}_A(M, M') $ dans
 
-$\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$, Hom$_A(S_{\lambda},M')$)
+$$
+\prod_{\lambda \in \mathscr{I}} \operatorname{Hom}_{D_\lambda}(\operatorname{Hom}_A(S_\lambda, M), \operatorname{Hom}_A(S_\lambda, M'))
+$$
 
-est un isomorphisme de groupes. Lorsque $M'$ est égal à M, c’est un isomorphisme de l’anneau End$_A(M)$sur l’anneau $\prod_{\lambda\in\mathscr{S}}$ End$_{D_{\lambda}}$(Hom$_A(S_{\lambda},M)$).
+est un isomorphisme de groupes. Lorsque $ M' $ est égal à $ M $, c’est un isomorphisme de l’anneau $ \operatorname{End}_A(M) $ sur l’anneau $ \prod_{\lambda \in \mathscr{I}} \operatorname{End}_{D_\lambda}(\operatorname{Hom}_A(S_\lambda, M)) $.
 
-C’est une traduction de la proposition 9 appliquée aux descriptions canoniques de M et du socle de $M'$.
+C’est une traduction de la proposition 9 appliquée aux descriptions canoniques de $ M $ et du socle de $ M' $.
 
 ### 8. Multiplicités et longueurs dans les modules semi-simples
 
 #### Proposition 10 {#alg-viii-s4-prop-10 .statement tag=0054}
 
-Soit M un A-module semi-simple. Soit $(M_i)_{i\in I}$ une famille de sous-modules simples dont M est somme directe. Les propriétés suivantes sont équivalentes :
+Soit $ M $ un $ A $-module semi-simple. Soit $ (M_i)_{i \in I} $ une famille de sous-modules simples dont $ M $ est somme directe. Les propriétés suivantes sont équivalentes :
 
-(i) M est de longueur finie ;
+(i) $ M $ est de longueur finie ;
+(ii) $ M $ est artinien ;
+(iii) $ M $ est noethérien ;
+(iv) $ M $ est de type fini ;
+(v) $ I $ est fini.
 
-(ii) M est artinien ;
+Si $ M $ satisfait à ces propriétés, la longueur de $ M $ est égale au cardinal de $ I $.
 
-(iii) M est noethérien ;
-
-(iv) M est de type fini ;
-
-(v) I est fini.
-
-Si M satisfait à ces propriétés, la longueur de M est égale au cardinal de I.
-
-Si l’ensemble I est fini, M possède les propriétés (i) , (ii) , (iii) et (iv). Supposons l’ensemble I infini. D’après l’exemple 2 de VIII, p. 2, le module M n’est ni artinien, ni noethérien ; comme tout module de longueur finie est artinien et noethérien (VIII, p. 2, prop. 1), M n’est pas davantage de longueur finie. Enfin, tout élément de M appartient à la somme d’un nombre fini de sous-modules $M_i$, donc M n’est pas de type fini. Cela prouve l’équivalence des conditions (i) à (v). Si celles-ci sont satisfaites, on a long(M) $=\sum_{i\in I}$ long(M$_i$) $=$ Card(I) (II, p.23, cor. 5).
+Si l’ensemble $ I $ est fini, $ M $ possède les propriétés (i) , (ii) , (iii) et (iv). Supposons l’ensemble $ I $ infini. D’après l’exemple 2 de VIII, p. 2, le module $ M $ n’est ni artinien, ni noethérien ; comme tout module de longueur finie est artinien et noethérien (VIII, p. 2, prop. 1), M n’est pas davantage de longueur finie. Enfin, tout élément de M appartient à la somme d’un nombre fini de sous-modules $M_i$, donc M n’est pas de type fini. Cela prouve l’équivalence des conditions (i) à (v). Si celles-ci sont satisfaites, on a long(M) $=\sum_{i\in I}$ long(M$_i$) $=$ Card(I) (II, p.23, cor. 5).
 
 #### Proposition 11 {#alg-viii-s4-prop-11 .statement tag=0055}
 
