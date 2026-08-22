@@ -1,0 +1,19 @@
+{"edges": [
+{"from":"","from_label":"top-iv-s2-n1-rem-1","to_label":"top-iv-s2-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/top/IV/02_s2_fundamental_topological_properties_of.md","line":56},
+{"from":"","from_label":"top-iv-s2","to_label":"top-iv-s2-thm-4-cor-1","kind":"cites","raw":"Corollary 1","form":"local","resolved_by":"in-section","file":"content/en/top/IV/02_s2_fundamental_topological_properties_of.md","line":66},
+{"from":"","from_label":"top-iv-s2","to_label":"top-iv-s2-thm-4-cor-2","kind":"cites","raw":"Corollary 2","form":"local","resolved_by":"in-section","file":"content/en/top/IV/02_s2_fundamental_topological_properties_of.md","line":68},
+{"from":"","from_label":"top-iv-s2-thm-4","to_label":"top-iv-s2-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/top/IV/02_s2_fundamental_topological_properties_of.md","line":102},
+{"from":"","from_label":"top-iv-s2-thm-4","to_label":"top-ii-s4-prop-6","kind":"cites","raw":"Proposition 6 of Chapter II, § 4, no. 4","form":"section","resolved_by":"section-no","file":"content/en/top/IV/02_s2_fundamental_topological_properties_of.md","line":104},
+{"from":"","from_label":"top-iv-s2-thm-4","to_label":"top-iv-s2-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/top/IV/02_s2_fundamental_topological_properties_of.md","line":104},
+{"from":"","from_label":"top-iv-s2-thm-4-cor-2","to_label":"top-iv-s2-thm-4","kind":"cites","raw":"Theorem 4","form":"local","resolved_by":"in-section","file":"content/en/top/IV/02_s2_fundamental_topological_properties_of.md","line":116},
+{"from":"","from_label":"top-iv-s2-prop-2","to_label":"top-i-s11-prop-11","kind":"cites","raw":"Chapter I, § 11, no. 6, Proposition 11","form":"section","resolved_by":"section-no","file":"content/en/top/IV/02_s2_fundamental_topological_properties_of.md","line":122},
+{"from":"","from_label":"top-iv-s2-prop-2","to_label":"top-iv-s2-thm-4","kind":"cites","raw":"Theorem 4","form":"local","resolved_by":"in-section","file":"content/en/top/IV/02_s2_fundamental_topological_properties_of.md","line":122},
+{"from":"","from_label":"top-iv-s2-ex-2","to_label":"top-iv-s8","kind":"cites","raw":"§ 8, no. 6","form":"section","resolved_by":"section","file":"content/en/top/IV/exercises/s2/02.md","line":13},
+{"from":"","from_label":"top-iv-s2-ex-3","to_label":"top-i-s2","kind":"cites","raw":"Chapter I, § 2, no. 6","form":"section","resolved_by":"section","file":"content/en/top/IV/exercises/s2/03.md","line":13},
+{"from":"","from_label":"top-iv-s2-ex-5","to_label":"top-i-s2-ex-5","kind":"cites","raw":"Chapter I, § 2, Exercise 5","form":"section","resolved_by":"exercise","file":"content/en/top/IV/exercises/s2/05.md","line":15},
+{"from":"","from_label":"top-iv-s2-ex-5","to":"03U7","to_label":"ens-iii-s1-ex-11","kind":"cites","raw":"*Set Theory*, Chapter III, § 1, Exercise 11","form":"section","resolved_by":"exercise","file":"content/en/top/IV/exercises/s2/05.md","line":15},
+{"from":"","from_label":"top-iv-s2-ex-5","to":"03UE","to_label":"ens-iii-s1-ex-18","kind":"cites","raw":"*Set Theory*, Chapter III, § 1, Exercise 18","form":"section","resolved_by":"exercise","file":"content/en/top/IV/exercises/s2/05.md","line":25},
+{"from":"","from_label":"top-iv-s2-ex-5","to_label":"top-iv-s2-thm-4","kind":"cites","raw":"Theorem 4","form":"local","resolved_by":"in-section","file":"content/en/top/IV/exercises/s2/05.md","line":25},
+{"from":"","from_label":"top-iv-s2-ex-5","to_label":"top-i-s11-ex-2","kind":"cites","raw":"Chapter I, § 11, Exercise 2","form":"section","resolved_by":"exercise","file":"content/en/top/IV/exercises/s2/05.md","line":66},
+{"from":"","from_label":"top-iv-s2-ex-5","to_label":"top-i-s8","kind":"cites","raw":"Chapter I, § 8","form":"section","resolved_by":"section","file":"content/en/top/IV/exercises/s2/05.md","line":92}
+]}

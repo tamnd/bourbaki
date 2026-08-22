@@ -1,0 +1,5 @@
+{"edges": [
+{"from":"","from_label":"evt-i-s3","to_label":"evt-i-s2","kind":"cites","raw":"§ 2, No. 1","form":"section","resolved_by":"section","file":"content/en/evt/I/03_s3_metrisable_topological_vector_spaces.md","line":49},
+{"from":"","from_label":"evt-i-s3-lem-2","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 16","form":"page","resolved_by":"section","file":"content/en/evt/I/03_s3_metrisable_topological_vector_spaces.md","line":113},
+{"from":"","from_label":"evt-i-s3-n3-exa-1","kind":"cites","raw":"II, p. 2","form":"page","resolved_by":"out-of-corpus","chapter":"II","file":"content/en/evt/I/03_s3_metrisable_topological_vector_spaces.md","line":149}
+]}

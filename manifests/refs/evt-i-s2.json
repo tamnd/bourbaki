@@ -1,0 +1,21 @@
+{"edges": [
+{"from":"","from_label":"evt-i-s2-n1-rem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 25","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":93},
+{"from":"","from_label":"evt-i-s2-n1-rem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 25","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":93},
+{"from":"","from_label":"evt-i-s2-n1-rem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 25","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":95},
+{"from":"","from_label":"evt-i-s2-n2-rem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 25","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":125},
+{"from":"","from_label":"evt-i-s2-n2-rem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 11","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":125},
+{"from":"","from_label":"evt-i-s2-thm-2","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 13","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":133},
+{"from":"","from_label":"evt-i-s2-thm-2-cor-4","kind":"cites","raw":"IV, p. 64","form":"page","resolved_by":"out-of-corpus","chapter":"IV","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":159},
+{"from":"","from_label":"evt-i-s2-prop-3","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 14","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":165},
+{"from":"","from_label":"evt-i-s2-n3-rem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 27","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":173},
+{"from":"","from_label":"evt-i-s2-thm-3","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 14","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":189},
+{"from":"","from_label":"evt-i-s2-lem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 14","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":195},
+{"from":"","from_label":"evt-i-s2-lem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 12","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":195},
+{"from":"","from_label":"evt-i-s2-lem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 12","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":197},
+{"from":"","from_label":"evt-i-s2-lem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 14","form":"page","resolved_by":"section","file":"content/en/evt/I/02_s2_linear_varieties_in_a_topological.md","line":197},
+{"from":"","from_label":"evt-i-s2-ex-5","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 12","form":"page","resolved_by":"section","file":"content/en/evt/I/exercises/s2/05.md","line":14},
+{"from":"","from_label":"evt-i-s2-ex-5","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 13","form":"page","resolved_by":"section","file":"content/en/evt/I/exercises/s2/05.md","line":14},
+{"from":"","from_label":"evt-i-s2-ex-5","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 13","form":"page","resolved_by":"section","file":"content/en/evt/I/exercises/s2/05.md","line":14},
+{"from":"","from_label":"evt-i-s2-ex-5","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 14","form":"page","resolved_by":"section","file":"content/en/evt/I/exercises/s2/05.md","line":14},
+{"from":"","from_label":"evt-i-s2-ex-12","kind":"cites","raw":"II, p. 2","form":"page","resolved_by":"out-of-corpus","chapter":"II","file":"content/en/evt/I/exercises/s2/12.md","line":14}
+]}

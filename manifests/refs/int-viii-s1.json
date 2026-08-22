@@ -1,0 +1,16 @@
+{"edges": [
+{"from":"","from_label":"int-viii-s1","to_label":"int-viii-s2","kind":"cites","raw":"§2, No. 10","form":"section","resolved_by":"section","file":"content/en/int/VIII/01_s1_convolution.md","line":42},
+{"from":"","from_label":"int-viii-s1-def-1","to_label":"int-viii-s2","kind":"cites","raw":"§2, No. 10","form":"section","resolved_by":"section","file":"content/en/int/VIII/01_s1_convolution.md","line":73},
+{"from":"","from_label":"int-viii-s1-n1-exa-1","to_label":"int-viii-s2","kind":"cites","raw":"§2, No. 6","form":"section","resolved_by":"section","file":"content/en/int/VIII/01_s1_convolution.md","line":93},
+{"from":"","from_label":"int-viii-s1-n1-exa-1","to_label":"int-viii-s2","kind":"cites","raw":"§2, No. 10","form":"section","resolved_by":"section","file":"content/en/int/VIII/01_s1_convolution.md","line":99},
+{"from":"","from_label":"int-viii-s1-lem-1","to_label":"int-viii-s1-prop-4","kind":"cites","raw":"Prop. 4","form":"local","resolved_by":"in-section","file":"content/en/int/VIII/01_s1_convolution.md","line":133},
+{"from":"","from_label":"int-viii-s1-lem-1","to_label":"int-viii-s1-prop-4","kind":"cites","raw":"Prop. 4","form":"local","resolved_by":"in-section","file":"content/en/int/VIII/01_s1_convolution.md","line":133},
+{"from":"","from_label":"int-viii-s1-prop-1","to_label":"int-viii-s1-lem-2","kind":"cites","raw":"Lemma 2","form":"local","resolved_by":"in-section","file":"content/en/int/VIII/01_s1_convolution.md","line":167},
+{"from":"","from_label":"int-viii-s1-prop-1","to_label":"int-viii-s1-lem-1","kind":"cites","raw":"Lemma 1","form":"local","resolved_by":"in-section","file":"content/en/int/VIII/01_s1_convolution.md","line":167},
+{"from":"","from_label":"int-viii-s1-prop-1","to_label":"int-viii-s1-lem-2","kind":"cites","raw":"Lemma 2","form":"local","resolved_by":"in-section","file":"content/en/int/VIII/01_s1_convolution.md","line":171},
+{"from":"","from_label":"int-viii-s1-n2-cor-1","to_label":"int-viii-s1-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/int/VIII/01_s1_convolution.md","line":184},
+{"from":"","from_label":"int-viii-s1-prop-2","to_label":"int-viii-s4","kind":"cites","raw":"§4, Nos. 2","form":"section","resolved_by":"section","file":"content/en/int/VIII/01_s1_convolution.md","line":203},
+{"from":"","from_label":"int-viii-s1-prop-2","to_label":"int-viii-s1-prop-4","kind":"cites","raw":"Prop. 4","form":"local","resolved_by":"in-section","file":"content/en/int/VIII/01_s1_convolution.md","line":207},
+{"from":"","from_label":"int-viii-s1-prop-3","to_label":"int-viii-s1-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/int/VIII/01_s1_convolution.md","line":219},
+{"from":"","from_label":"int-viii-s1-prop-4","to_label":"int-viii-s4-prop-2","kind":"cites","raw":"§4, No. 2, Prop. 2","form":"section","resolved_by":"section-no","file":"content/en/int/VIII/01_s1_convolution.md","line":227}
+]}

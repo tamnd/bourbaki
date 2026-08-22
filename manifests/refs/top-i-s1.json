@@ -1,0 +1,9 @@
+{"edges": [
+{"from":"","from_label":"top-i-s1-prop-2","to_label":"top-i-s1-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/top/I/01_s1_open_sets_neighbourhoods_closed_sets.md","line":122},
+{"from":"","from_label":"top-i-s1-n2-exa-1","to_label":"top-iv-s1","kind":"cites","raw":"Chapter IV, § 1, no. 2","form":"section","resolved_by":"section","file":"content/en/top/I/01_s1_open_sets_neighbourhoods_closed_sets.md","line":126},
+{"from":"","from_label":"top-i-s1-n2-exa-1","to_label":"top-i-s2-ex-5","kind":"cites","raw":"§ 2, Exercise 5","form":"section","resolved_by":"exercise","file":"content/en/top/I/01_s1_open_sets_neighbourhoods_closed_sets.md","line":126},
+{"from":"","from_label":"top-i-s1-n2-exa-1","to_label":"top-iv-s1","kind":"cites","raw":"Chapter IV, § 1, no. 3","form":"section","resolved_by":"section","file":"content/en/top/I/01_s1_open_sets_neighbourhoods_closed_sets.md","line":126},
+{"from":"","from_label":"top-i-s1-n6-exa-1","to_label":"top-iv-s1","kind":"cites","raw":"Chapter IV, § 1","form":"section","resolved_by":"section","file":"content/en/top/I/01_s1_open_sets_neighbourhoods_closed_sets.md","line":273},
+{"from":"","from_label":"top-i-s1-n6-exa-1","to_label":"top-i-s1-prop-3","kind":"cites","raw":"Proposition 3","form":"local","resolved_by":"in-section","file":"content/en/top/I/01_s1_open_sets_neighbourhoods_closed_sets.md","line":278},
+{"from":"","from_label":"top-i-s1-n6-exa-1","to":"03KM","to_label":"ens-iii-s3-prop-3","kind":"cites","raw":"Set Theory, Chapter III, § 3, no. 2, Proposition 3","form":"section","resolved_by":"section-no","file":"content/en/top/I/01_s1_open_sets_neighbourhoods_closed_sets.md","line":278}
+]}

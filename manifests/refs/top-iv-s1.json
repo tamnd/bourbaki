@@ -1,0 +1,22 @@
+{"edges": [
+{"from":"","from_label":"top-iv-s1-def-1","to_label":"top-iv-s1-def-1","kind":"cites","raw":"Definition 1","form":"local","resolved_by":"in-section","file":"content/en/top/IV/01_s1_definition_of_real_numbers.md","line":136},
+{"from":"","from_label":"top-iv-s1-def-1","to_label":"top-i-s1","kind":"cites","raw":"Chapter I, § 1, no. 2","form":"section","resolved_by":"section","file":"content/en/top/IV/01_s1_definition_of_real_numbers.md","line":136},
+{"from":"","from_label":"top-iv-s1","to_label":"top-ii-s3","kind":"cites","raw":"Chapter II, § 3, no. 3","form":"section","resolved_by":"section","file":"content/en/top/IV/01_s1_definition_of_real_numbers.md","line":146},
+{"from":"","from_label":"top-iv-s1","to_label":"top-iv-s3","kind":"cites","raw":"§ 3, no. 3","form":"section","resolved_by":"section","file":"content/en/top/IV/01_s1_definition_of_real_numbers.md","line":146},
+{"from":"","from_label":"top-iv-s1","to_label":"top-iv-s1-ex-2","kind":"cites","raw":"Exercise 2","form":"local","resolved_by":"exercise","file":"content/en/top/IV/01_s1_definition_of_real_numbers.md","line":146},
+{"from":"","from_label":"top-iv-s1","to_label":"top-iii-s2","kind":"cites","raw":"Chapter III, § 2, no. 1","form":"section","resolved_by":"section","file":"content/en/top/IV/01_s1_definition_of_real_numbers.md","line":146},
+{"from":"","from_label":"top-iv-s1","to_label":"top-i-s2-thm-1","kind":"cites","raw":"Chapter I, § 2, no. 1, Theorem 1","form":"section","resolved_by":"section-no","file":"content/en/top/IV/01_s1_definition_of_real_numbers.md","line":152},
+{"from":"","from_label":"top-iv-s1-prop-2","to_label":"top-iii-s1","kind":"cites","raw":"Chapter III, § 1, no. 1","form":"section","resolved_by":"section","file":"content/en/top/IV/01_s1_definition_of_real_numbers.md","line":168},
+{"from":"","from_label":"top-iv-s1-prop-3","to_label":"top-iii-s3-prop-7","kind":"cites","raw":"Proposition 7 of Chapter III, § 3, no. 4","form":"section","resolved_by":"section-no","file":"content/en/top/IV/01_s1_definition_of_real_numbers.md","line":176},
+{"from":"","from_label":"top-iv-s1-prop-3","to_label":"top-iv-s1-prop-3","kind":"cites","raw":"Proposition 3","form":"local","resolved_by":"in-section","file":"content/en/top/IV/01_s1_definition_of_real_numbers.md","line":184},
+{"from":"","from_label":"top-iv-s1-prop-3","to_label":"top-iv-s1-prop-3","kind":"cites","raw":"Proposition 3","form":"local","resolved_by":"in-section","file":"content/en/top/IV/01_s1_definition_of_real_numbers.md","line":188},
+{"from":"","from_label":"top-iv-s1-n4-rem-1","to_label":"top-i-s1","kind":"cites","raw":"Chapter I, § 1, no. 3","form":"section","resolved_by":"section","file":"content/en/top/IV/01_s1_definition_of_real_numbers.md","line":196},
+{"from":"","from_label":"top-iv-s1-ex-1","to_label":"top-i-s2-ex-5","kind":"cites","raw":"Chapter I, § 2, Exercise 5","form":"section","resolved_by":"exercise","file":"content/en/top/IV/exercises/s1/01.md","line":19},
+{"from":"","from_label":"top-iv-s1-ex-2","to_label":"top-i-s2-ex-5","kind":"cites","raw":"Chapter I, § 2, Exercise 5","form":"section","resolved_by":"exercise","file":"content/en/top/IV/exercises/s1/02.md","line":17},
+{"from":"","from_label":"top-iv-s1-ex-2","to_label":"top-iv-s1-ex-2","kind":"cites","raw":"Exercise 2","form":"local","resolved_by":"exercise","file":"content/en/top/IV/exercises/s1/02.md","line":21},
+{"from":"","from_label":"top-iv-s1-ex-2","to_label":"top-iv-s1-ex-2","kind":"cites","raw":"Exercise 2","form":"local","resolved_by":"exercise","file":"content/en/top/IV/exercises/s1/02.md","line":37},
+{"from":"","from_label":"top-iv-s1-ex-2","to_label":"ens-iii-s2","kind":"cites","raw":"Set Theory, Chapter III, § 2, no. 6","form":"section","resolved_by":"section","file":"content/en/top/IV/exercises/s1/02.md","line":39},
+{"from":"","from_label":"top-iv-s1-ex-2","to_label":"top-i-s9-ex-4","kind":"cites","raw":"Chapter I, § 9, Exercise 4","form":"section","resolved_by":"exercise","file":"content/en/top/IV/exercises/s1/02.md","line":43},
+{"from":"","from_label":"top-iv-s1-ex-2","to_label":"top-iii-s4-prop-4","kind":"cites","raw":"Chapter III, § 4, no. 2, Proposition 4","form":"section","resolved_by":"section-no","file":"content/en/top/IV/exercises/s1/02.md","line":45},
+{"from":"","from_label":"top-iv-s1-ex-2","to_label":"top-iii-s4-thm-1","kind":"cites","raw":"Chapter III, § 4, no. 5, Theorem 1","form":"section","resolved_by":"section-no","file":"content/en/top/IV/exercises/s1/02.md","line":45}
+]}

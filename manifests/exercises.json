@@ -1513,6 +1513,48 @@
               "starred": 6
             }
           ]
+        },
+        {
+          "chapter": "III",
+          "title": "MEASURES ON LOCALLY COMPACT SPACES",
+          "total": 35,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-iii-s1",
+              "dir": "s1",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 5
+            },
+            {
+              "section": 2,
+              "label": "int-iii-s2",
+              "dir": "s2",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "int-iii-s3",
+              "dir": "s3",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 4,
+              "label": "int-iii-s4",
+              "dir": "s4",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "starred": 2
+            }
+          ]
         }
       ]
     },
@@ -1794,6 +1836,95 @@
               "count": 3,
               "first": 1,
               "last": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-vii-ix",
+      "chapters": [
+        {
+          "chapter": "VII",
+          "title": "HAAR MEASURE",
+          "total": 48,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-vii-s1",
+              "dir": "s1",
+              "count": 23,
+              "first": 1,
+              "last": 23,
+              "starred": 8
+            },
+            {
+              "section": 2,
+              "label": "int-vii-s2",
+              "dir": "s2",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 3
+            },
+            {
+              "section": 3,
+              "label": "int-vii-s3",
+              "dir": "s3",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 3
+            }
+          ]
+        },
+        {
+          "chapter": "VIII",
+          "title": "CONVOLUTION AND REPRESENTATIONS",
+          "total": 59,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-viii-s1",
+              "dir": "s1",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            },
+            {
+              "section": 2,
+              "label": "int-viii-s2",
+              "dir": "s2",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "int-viii-s3",
+              "dir": "s3",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 2
+            },
+            {
+              "section": 4,
+              "label": "int-viii-s4",
+              "dir": "s4",
+              "count": 28,
+              "first": 1,
+              "last": 28,
+              "starred": 15
+            },
+            {
+              "section": 5,
+              "label": "int-viii-s5",
+              "dir": "s5",
+              "count": 6,
+              "first": 1,
+              "last": 6
             }
           ]
         }

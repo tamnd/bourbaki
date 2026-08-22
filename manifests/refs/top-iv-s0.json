@@ -1,0 +1,8 @@
+{"edges": [
+{"from":"","from_label":"top-iv-s0","kind":"cites","raw":"Chapter V, § 2","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"V","file":"content/en/top/IV/historical_note.md","line":22},
+{"from":"","from_label":"top-iv-s0","kind":"cites","raw":"Chapter V, § 2","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"V","file":"content/en/top/IV/historical_note.md","line":36},
+{"from":"","from_label":"top-iv-s0","kind":"cites","raw":"Chapter V, § 2","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"V","file":"content/en/top/IV/historical_note.md","line":38},
+{"from":"","from_label":"top-iv-s0","kind":"cites","raw":"III, p. 139","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"III","file":"content/en/top/IV/historical_note.md","line":76},
+{"from":"","from_label":"top-iv-s0","kind":"cites","raw":"Chapter V, § 2","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"V","file":"content/en/top/IV/historical_note.md","line":76},
+{"from":"","from_label":"top-iv-s0","to_label":"ens-iii-s4","kind":"cites","raw":"Set Theory, Chapter III, § 4","form":"section","resolved_by":"section","file":"content/en/top/IV/historical_note.md","line":91}
+]}

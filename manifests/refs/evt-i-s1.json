@@ -1,0 +1,8 @@
+{"edges": [
+{"from":"","from_label":"evt-i-s1-n1-exa-1","kind":"cites","raw":"X, p. 4","form":"page","resolved_by":"out-of-corpus","chapter":"X","file":"content/en/evt/I/01_s1_topological_vector_spaces.md","line":66},
+{"from":"","from_label":"evt-i-s1","kind":"cites","raw":"II, p. 29","form":"page","resolved_by":"out-of-corpus","chapter":"II","file":"content/en/evt/I/01_s1_topological_vector_spaces.md","line":134},
+{"from":"","from_label":"evt-i-s1-n3-rem-1","kind":"cites","raw":"IV, p. 55","form":"page","resolved_by":"out-of-corpus","chapter":"IV","file":"content/en/evt/I/01_s1_topological_vector_spaces.md","line":140},
+{"from":"","from_label":"evt-i-s1-n3-rem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 26","form":"page","resolved_by":"section","file":"content/en/evt/I/01_s1_topological_vector_spaces.md","line":140},
+{"from":"","from_label":"evt-i-s1-n3-rem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 14","form":"page","resolved_by":"section","file":"content/en/evt/I/01_s1_topological_vector_spaces.md","line":140},
+{"from":"","from_label":"evt-i-s1-ex-12","kind":"cites","raw":"IV, p. 36","form":"page","resolved_by":"out-of-corpus","chapter":"IV","file":"content/en/evt/I/exercises/s1/12.md","line":14}
+]}

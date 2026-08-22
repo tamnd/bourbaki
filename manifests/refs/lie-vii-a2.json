@@ -1,9 +1,9 @@
 {"edges": [
 {"from":"00XO","from_label":"lie-vii-a2-lem-2","kind":"cites","raw":"General Topology, Chap. IX, §5, no. 2, Def. 2","form":"section","resolved_by":"out-of-corpus","book":"TG","chapter":"IX","file":"content/en/lie/VII/A2_a2_a_connectedness_property.md","line":37},
-{"from":"00XO","from_label":"lie-vii-a2-lem-2","kind":"cites","raw":"General Topology, Chap. I, §11, no. 1, Prop. 1","form":"section","resolved_by":"out-of-corpus","book":"TG","chapter":"I","file":"content/en/lie/VII/A2_a2_a_connectedness_property.md","line":37},
-{"from":"00XP","from_label":"lie-vii-a2-lem-3","kind":"cites","raw":"General Topology, Chap. I, §11, no. 1, Prop. 1","form":"section","resolved_by":"out-of-corpus","book":"TG","chapter":"I","file":"content/en/lie/VII/A2_a2_a_connectedness_property.md","line":51},
+{"from":"00XO","from_label":"lie-vii-a2-lem-2","to_label":"top-i-s11-prop-1","kind":"cites","raw":"General Topology, Chap. I, §11, no. 1, Prop. 1","form":"section","resolved_by":"section-no","file":"content/en/lie/VII/A2_a2_a_connectedness_property.md","line":37},
+{"from":"00XP","from_label":"lie-vii-a2-lem-3","to_label":"top-i-s11-prop-1","kind":"cites","raw":"General Topology, Chap. I, §11, no. 1, Prop. 1","form":"section","resolved_by":"section-no","file":"content/en/lie/VII/A2_a2_a_connectedness_property.md","line":51},
 {"from":"00XP","from_label":"lie-vii-a2-lem-3","to":"00XN","to_label":"lie-vii-a2-lem-1","kind":"cites","raw":"Lemma 1","form":"local","resolved_by":"in-section","file":"content/en/lie/VII/A2_a2_a_connectedness_property.md","line":51},
 {"from":"00XQ","from_label":"lie-vii-a2-ex-1","kind":"cites","raw":"Algebra, Chap. IV, §1, no. 10","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IV","file":"content/en/lie/VII/exercises/a2/01.md","line":26},
-{"from":"00XQ","from_label":"lie-vii-a2-ex-1","kind":"cites","raw":"General Topology, Chap. I, §10","form":"section","resolved_by":"out-of-corpus","book":"TG","chapter":"I","file":"content/en/lie/VII/exercises/a2/01.md","line":30},
+{"from":"00XQ","from_label":"lie-vii-a2-ex-1","to_label":"top-i-s10","kind":"cites","raw":"General Topology, Chap. I, §10","form":"section","resolved_by":"section","file":"content/en/lie/VII/exercises/a2/01.md","line":30},
 {"from":"00XR","from_label":"lie-vii-a2-ex-2","to":"00XQ","to_label":"lie-vii-a2-ex-1","kind":"cites","raw":"Exerc. 1","form":"local","resolved_by":"exercise","file":"content/en/lie/VII/exercises/a2/02.md","line":16}
 ]}
