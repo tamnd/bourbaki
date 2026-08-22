@@ -2408,3 +2408,457 @@ books:
               exercises: 9
               extraction: ocr
               content_sha256: 12327dae1c4f8d987fd53114bcf020e3b0669f8b97383f8b6fcc7dbb27dd726f
+    - id: top-i-iv
+      chapters:
+        - chapter: I
+          title: Topological Structures
+          sections:
+            - kind: front
+              title: Topological Structures
+              path: content/en/top/I/00_frontmatter.md
+              first_pdf_page: 23
+              last_pdf_page: 23
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: c866f36366fc33db406c06ffa5bf2b530007570221ca92f0d9286f1fbb14b8d7
+            - kind: section
+              section: 1
+              title: Open sets, neighbourhoods, closed sets
+              path: content/en/top/I/01_s1_open_sets_neighbourhoods_closed_sets.md
+              label: top-i-s1
+              first_pdf_page: 23
+              last_pdf_page: 125
+              subsections: 6
+              statements: 15
+              exercises: 9
+              extraction: ocr
+              content_sha256: b9cd185029b512b205a3cdf1aae7fc8bf3cfec4bfd257008927924ec4645da1a
+            - kind: section
+              section: 2
+              title: Continuous functions
+              path: content/en/top/I/02_s2_continuous_functions.md
+              label: top-i-s2
+              first_pdf_page: 31
+              last_pdf_page: 128
+              subsections: 5
+              statements: 20
+              exercises: 5
+              extraction: ocr
+              content_sha256: dd22d38e63b7a268d27a4743ba34e73d1f8f834303eaf5b19a151c50c12ee463
+            - kind: section
+              section: 3
+              title: Subspaces, quotient spaces
+              path: content/en/top/I/03_s3_subspaces_quotient_spaces.md
+              label: top-i-s3
+              first_pdf_page: 41
+              last_pdf_page: 131
+              subsections: 6
+              statements: 19
+              exercises: 16
+              extraction: ocr
+              content_sha256: afe41b90d57c698bf6d3e281277520edd96fe1760f97917a467f143739072d0f
+            - kind: section
+              section: 4
+              title: Product of topological spaces
+              path: content/en/top/I/04_s4_product_of_topological_spaces.md
+              label: top-i-s4
+              first_pdf_page: 49
+              last_pdf_page: 133
+              subsections: 4
+              statements: 20
+              exercises: 3
+              extraction: ocr
+              content_sha256: 5a9824061e2ea4fa0827ee0325fdb55d1137322e749811d7d10d0957cc215eeb
+            - kind: section
+              section: 5
+              title: Open mappings and closed mappings
+              path: content/en/top/I/05_s5_open_mappings_and_closed_mappings.md
+              label: top-i-s5
+              first_pdf_page: 56
+              last_pdf_page: 134
+              subsections: 4
+              statements: 19
+              exercises: 7
+              extraction: ocr
+              content_sha256: 9fa5b75c4673ae58e157404744fbb17c781b9eb43dce0e1598506de80dba2b98
+            - kind: section
+              section: 6
+              title: Filters
+              path: content/en/top/I/06_s6_filters.md
+              label: top-i-s6
+              first_pdf_page: 63
+              last_pdf_page: 138
+              subsections: 10
+              statements: 24
+              exercises: 8
+              extraction: ocr
+              content_sha256: 8f62050d10979a0fea8f9c3915a8c4daacba63ab011f3f840e88760f53180fba
+            - kind: section
+              section: 7
+              title: Limits
+              path: content/en/top/I/07_s7_limits.md
+              label: top-i-s7
+              first_pdf_page: 74
+              last_pdf_page: 139
+              subsections: 6
+              statements: 22
+              exercises: 7
+              extraction: ocr
+              content_sha256: 9689a05caa3130f5d0bc74c903574c7dd7d84da94ac182be4da0041638268549
+            - kind: section
+              section: 8
+              title: Hausdorff spaces and regular spaces
+              path: content/en/top/I/08_s8_hausdorff_spaces_and_regular_spaces.md
+              label: top-i-s8
+              first_pdf_page: 81
+              last_pdf_page: 147
+              subsections: 6
+              statements: 23
+              exercises: 12
+              extraction: ocr
+              content_sha256: 17c0b38192fbf4ad9ed8edf50611f439f664df767af8b3f3d67824bec9136b99
+            - kind: section
+              section: 9
+              title: Compact spaces and locally compact spaces
+              path: content/en/top/I/09_s9_compact_spaces_and_locally_compact.md
+              label: top-i-s9
+              first_pdf_page: 89
+              last_pdf_page: 156
+              subsections: 10
+              statements: 41
+              exercises: 4
+              extraction: ocr
+              content_sha256: 2bc6fa8b7c87bcb61c65efb6955c9f4fab4c13949d9fb4b076d3ac79cd0df87d
+            - kind: section
+              section: 10
+              title: Proper mappings
+              path: content/en/top/I/10_s10_proper_mappings.md
+              label: top-i-s10
+              first_pdf_page: 103
+              last_pdf_page: 161
+              subsections: 4
+              statements: 25
+              exercises: 8
+              extraction: ocr
+              content_sha256: a1ec5404bc216e6059c71632bd54b95434a91b8772e2e71228f45d94583c0177
+            - kind: section
+              section: 11
+              title: Connectedness
+              path: content/en/top/I/11_s11_connectedness.md
+              label: top-i-s11
+              first_pdf_page: 113
+              last_pdf_page: 167
+              subsections: 7
+              statements: 23
+              exercises: 3
+              extraction: ocr
+              content_sha256: 215fa81153cfa4584465ab28d6a694e2bc5c0cf7ecc50bd2d83e6de8d246f327
+            - kind: historical
+              title: Historical Note
+              path: content/en/top/I/historical_note.md
+              first_pdf_page: 168
+              last_pdf_page: 174
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 82b592fc82d8c7a7fc0c011c6904442e7075d11e979c859d754d767af127bf42
+        - chapter: II
+          title: Uniform Structures
+          sections:
+            - kind: front
+              title: Uniform Structures
+              path: content/en/top/II/00_frontmatter.md
+              first_pdf_page: 175
+              last_pdf_page: 175
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 34d404831ea9856a027806ef4c9302fb7d2ee3aa7d8631dcddc5ad7b56daf19a
+            - kind: section
+              section: 1
+              title: Uniform spaces
+              path: content/en/top/II/01_s1_uniform_spaces.md
+              label: top-ii-s1
+              first_pdf_page: 175
+              last_pdf_page: 213
+              subsections: 2
+              statements: 12
+              exercises: 4
+              extraction: ocr
+              content_sha256: 30414f7ac83e4f792549b3475521e040386f0105427eada0ac0293018d056ba2
+            - kind: section
+              section: 2
+              title: Uniformly continuous functions
+              path: content/en/top/II/02_s2_uniformly_continuous_functions.md
+              label: top-ii-s2
+              first_pdf_page: 180
+              last_pdf_page: 214
+              subsections: 7
+              statements: 18
+              exercises: 6
+              extraction: ocr
+              content_sha256: 979ebb90d903791c0020301c2619af0cec9cdcfebc8ce3503eb0f69a88d6979e
+            - kind: section
+              section: 3
+              title: Complete spaces
+              path: content/en/top/II/03_s3_complete_spaces.md
+              label: top-ii-s3
+              first_pdf_page: 187
+              last_pdf_page: 215
+              subsections: 9
+              statements: 37
+              exercises: 3
+              extraction: ocr
+              content_sha256: 75bcefd8313784dddee9c3b6ab6545eebfe522fe3308d6ea1b679414d70d6847
+            - kind: section
+              section: 4
+              title: Relations between uniform spaces and compact spaces
+              path: content/en/top/II/04_s4_relations_between_uniform_spaces_and.md
+              label: top-ii-s4
+              first_pdf_page: 204
+              last_pdf_page: 221
+              subsections: 4
+              statements: 24
+              exercises: 8
+              extraction: ocr
+              content_sha256: 0395b428f169afdd5c0767b9b416c4156c96b4b24b7915b202db574b6c779b9a
+            - kind: historical
+              title: Historical Note
+              path: content/en/top/II/historical_note.md
+              first_pdf_page: 222
+              last_pdf_page: 224
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 8c3ca4dab2add2fccabc8970597fa4bc448dcf3aa1dc62d5707962e40af3d092
+        - chapter: III
+          title: Topological Groups
+          sections:
+            - kind: front
+              title: Topological Groups
+              path: content/en/top/III/00_frontmatter.md
+              first_pdf_page: 225
+              last_pdf_page: 225
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 77dc1352d400e2f57c7f9da53fd6515ac8e48463b8af63a5e8ff4c71ea225952
+            - kind: section
+              section: 1
+              title: Topologies on groups
+              path: content/en/top/III/01_s1_topologies_on_groups.md
+              label: top-iii-s1
+              first_pdf_page: 225
+              last_pdf_page: 304
+              subsections: 3
+              statements: 10
+              exercises: 9
+              extraction: ocr
+              content_sha256: f632c89db166983f60576d923190d72c56e653bddaccfa6fce26684e889953b3
+            - kind: section
+              section: 2
+              title: Subgroups, quotient groups, homomorphisms homogeneous spaces, product groups
+              path: content/en/top/III/02_s2_subgroups_quotient_groups_homomorphisms.md
+              label: top-iii-s2
+              first_pdf_page: 231
+              last_pdf_page: 311
+              subsections: 10
+              statements: 42
+              exercises: 3
+              extraction: ocr
+              content_sha256: 5d0b86a12c372cbc4343f0344e004007ca3f8165cb544200b1576e46def099ee
+            - kind: section
+              section: 3
+              title: Uniform structures on groups
+              path: content/en/top/III/03_s3_uniform_structures_on_groups.md
+              label: top-iii-s3
+              first_pdf_page: 248
+              last_pdf_page: 313
+              subsections: 5
+              statements: 17
+              exercises: 6
+              extraction: ocr
+              content_sha256: 8008ce640cebd669d9cf4b61aa73bcb16f18db8f57c6b4daef416edbe820a182
+            - kind: section
+              section: 4
+              title: Groups operating properly on a topological space; compact ness in topological groups and spaces with operators
+              path: content/en/top/III/04_s4_groups_operating_properly_on_a.md
+              label: top-iii-s4
+              first_pdf_page: 256
+              last_pdf_page: 320
+              subsections: 6
+              statements: 25
+              exercises: 8
+              extraction: ocr
+              content_sha256: 8205dec030d94d62235a23e9aa5448975905559290f64fd36d95de58a47fe010
+            - kind: section
+              section: 5
+              title: Infinite sums in commutative groups
+              path: content/en/top/III/05_s5_infinite_sums_in_commutative_groups.md
+              label: top-iii-s5
+              first_pdf_page: 267
+              last_pdf_page: 321
+              subsections: 7
+              statements: 17
+              exercises: 5
+              extraction: ocr
+              content_sha256: 7d42d3f2ab0357b72e1990167e60f8aa3f97048973ac0a84011ec395a58888e8
+            - kind: section
+              section: 6
+              title: Topological groups with operators; topological rings division rings and fields
+              path: content/en/top/III/06_s6_topological_groups_with_operators.md
+              label: top-iii-s6
+              first_pdf_page: 277
+              last_pdf_page: 330
+              subsections: 8
+              statements: 23
+              exercises: 9
+              extraction: ocr
+              content_sha256: b93d2929f1c6cdb5fdcf411e839082929ac52b886df0f057694019b2bfab4594
+            - kind: section
+              section: 7
+              title: Inverse limits of topological groups and rings
+              path: content/en/top/III/07_s7_inverse_limits_of_topological_groups.md
+              label: top-iii-s7
+              first_pdf_page: 290
+              last_pdf_page: 332
+              subsections: 4
+              statements: 8
+              exercises: 2
+              extraction: ocr
+              content_sha256: e678b9a9f1446fd8b42101f405e14fd8292fa6d23948e0517bbee4bc934a0395
+            - kind: historical
+              title: Historical Note
+              path: content/en/top/III/historical_note.md
+              first_pdf_page: 333
+              last_pdf_page: 334
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 23606665f7198391348dd5c1a4148e2070ee5be7cbf19cccdd9ec6f532b4e39d
+        - chapter: IV
+          title: Real Numbers
+          sections:
+            - kind: front
+              title: Real Numbers
+              path: content/en/top/IV/00_frontmatter.md
+              first_pdf_page: 335
+              last_pdf_page: 335
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: fcfe85537a8c95c726444c5a47c2f90d81f32999fda6609bc2b86e9a8dc132d5
+            - kind: section
+              section: 1
+              title: Definition of real numbers
+              path: content/en/top/IV/01_s1_definition_of_real_numbers.md
+              label: top-iv-s1
+              first_pdf_page: 335
+              last_pdf_page: 387
+              subsections: 6
+              statements: 4
+              exercises: 2
+              extraction: ocr
+              content_sha256: 0b360eb18b03400acf59a9763f6cea6113093da880652de5916bf2cc086f7eca
+            - kind: section
+              section: 2
+              title: Fundamental topological properties of the real line
+              path: content/en/top/IV/02_s2_fundamental_topological_properties_of.md
+              label: top-iv-s2
+              first_pdf_page: 340
+              last_pdf_page: 393
+              subsections: 6
+              statements: 10
+              exercises: 5
+              extraction: ocr
+              content_sha256: dca95919ad00007573bfd19893426aad9a8925afb87ee65f63ef2ddd5c547808
+            - kind: section
+              section: 3
+              title: The field of real numbers
+              path: content/en/top/IV/03_s3_the_field_of_real_numbers.md
+              label: top-iv-s3
+              first_pdf_page: 345
+              last_pdf_page: 394
+              subsections: 3
+              statements: 2
+              exercises: 2
+              extraction: ocr
+              content_sha256: 52290856961d6ee2676d76564b706e7d90fbf9d74690431d391e068442bf835b
+            - kind: section
+              section: 4
+              title: The extended real line
+              path: content/en/top/IV/04_s4_the_extended_real_line.md
+              label: top-iv-s4
+              first_pdf_page: 348
+              last_pdf_page: 395
+              subsections: 3
+              statements: 11
+              exercises: 7
+              extraction: ocr
+              content_sha256: bc995b2641a04c224373ec5f7cf9b7c24c9724e3164136708c39ceee25679b9d
+            - kind: section
+              section: 5
+              title: Real-valued functions
+              path: content/en/top/IV/05_s5_real_valued_functions.md
+              label: top-iv-s5
+              first_pdf_page: 353
+              last_pdf_page: 399
+              subsections: 7
+              statements: 28
+              exercises: 6
+              extraction: ocr
+              content_sha256: 133ec9c067d3bb7650d8435fe3cc07cd684221be5e0e1fd9de71ad152d867cce
+            - kind: section
+              section: 6
+              title: Continuous and semi-continuous real-valued functions
+              path: content/en/top/IV/06_s6_continuous_and_semi_continuous_real.md
+              label: top-iv-s6
+              first_pdf_page: 365
+              last_pdf_page: 403
+              subsections: 2
+              statements: 12
+              exercises: 6
+              extraction: ocr
+              content_sha256: 439a2964f38f814abda582bf5eb86f804846ba75587b7877a5ead6e4df08c063
+            - kind: section
+              section: 7
+              title: Infinite sums and products of real numbers
+              path: content/en/top/IV/07_s7_infinite_sums_and_products_of_real.md
+              label: top-iv-s7
+              first_pdf_page: 369
+              last_pdf_page: 407
+              subsections: 6
+              statements: 17
+              exercises: 11
+              extraction: ocr
+              content_sha256: e958c056f0e9d3fd661423e20ee08e6f4fa09d3ff836af7cbb45199211b7979c
+            - kind: section
+              section: 8
+              title: Usual expansions of real numbers; the power of R
+              path: content/en/top/IV/08_s8_usual_expansions_of_real_numbers_the.md
+              label: top-iv-s8
+              first_pdf_page: 379
+              last_pdf_page: 411
+              subsections: 6
+              statements: 2
+              exercises: 3
+              extraction: ocr
+              content_sha256: 914f3a44829462fc66adf76c60db064b9c5883f0d26bf2cfdd49a49ba9f8b612
+            - kind: historical
+              title: Historical Note
+              path: content/en/top/IV/historical_note.md
+              first_pdf_page: 412
+              last_pdf_page: 443
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: f5636d2e203b135e3ffa9361fef01407396942c915fb909a06080b8c0804673d
