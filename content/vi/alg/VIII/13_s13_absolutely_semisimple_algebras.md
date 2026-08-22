@@ -10,7 +10,7 @@ source: alg-viii
 source_edition: 2023, Springer Nature
 book_pages: A VIII.229-A VIII.249
 pdf_pages: 0246-0266
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: Absolutely Semisimple Modules
@@ -46,11 +46,11 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: 30d5171000c7efa2cfb7a1d39040a22b486044a886a38f980db9edf184fe40c3
+content_sha256: 29fa55abe527888d3b73ddd800d870be1905dc2f6b3a929482f99f20b918d038
 translated_from: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md
-source_content_sha256: 4c6d4e2ca3db7df962893b91ae11c5bedee5ed2c441f889a9973255356caf0c0
+source_content_sha256: 57a884e506d7ba3b80df5da8946039a08e199b1e2e794448769cfff9f58df488
 translation_model: gpt-5.4
-translation_run: translate-vi-74c08a00
+translation_run: translate-vi-cd398399
 glossary_version: 34
 glossary_terms_sha256: f2ea25018ffab9f6a17873f325d39a4f13246b1f740fa199c38f9aa492448a54
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
@@ -384,63 +384,63 @@ $$
 
 là một đẳng cấu của các K-môđun.
 
-Ta ký hiệu bởi $\partial^n$ (với $n\geqslant 0$) ánh xạ K-tuyến tính duy nhất từ $C^n(A,P)$ đến $C^{n+1}(A,P)$ sao cho biểu đồ sau là giao hoán:
-
-$C^n(A,P)\partial^{^n}$ // $C^{n+1}(A,P)$
-
-$\alpha^n\alpha^{n+1}$
-
-Hom$_B(B_n,P)^{Hom(d_{n+1},1_P)}/$/ Hom$_B(B_{n+1},P)$.
-
-Theo định nghĩa, do đó ta có
+Ta ký hiệu bởi $ \partial^n $ (với $ n \geq 0 $) ánh xạ K-tuyến tính duy nhất từ $ C^n(A, P) $ tới $ C^{n+1}(A, P) $ làm cho biểu đồ sau giao hoán:
 
 $$
-(\alpha^{n+1}\circ \partial^n)(f) =\alpha^n(f)\circ d_{n+1} \tag{9}
+\begin{array}{ccc}
+C^n(A, P) & \xrightarrow{\partial^n} & C^{n+1}(A, P) \\
+| \downarrow \alpha^n | & & | \downarrow \alpha^{n+1} | \\
+\operatorname{Hom}_B(B_n, P) & \xrightarrow{\operatorname{Hom}(d_{n+1}, 1_P)} & \operatorname{Hom}_B(B_{n+1}, P).
+\end{array}
 $$
 
-với mọi $f\in C^n(A,P)$. Nói cách khác, ta có
+Bởi định nghĩa, do đó ta có
 
 $$
-\partial^n(f) (x_0, . . . , x_n) =\alpha^n(f) (d_{n+1}(1\otimes x_0\otimes  \cdots  \otimes x_n\otimes 1))
+(9) \quad (\alpha^{n+1} \circ \partial^n)(f) = \alpha^n(f) \circ d_{n+1}
 $$
 
-với $x_0, . . . , x_n$ trong A và $f$ trong $C^n(A,P)$, tức là,
+đối với mọi $ f \in C^n(A, P) $. Nói cách khác, ta có
 
 $$
-\partial^n(f)(x_0, . . . , x_n) =x_0f(x_1, . . . , x_n) \tag{10}
+\partial^n(f)(x_0, \ldots, x_n) = \alpha^n(f)(d_{n+1}(1 \otimes x_0 \otimes \cdots \otimes x_n \otimes 1))
 $$
 
-$$
-+\sum^{n-1}_{i=0}(-1)^{i+1}f(x_0, . . . , x_{i-1}, x_ix_{i+1}, x_{i+2}, . . . , x_n)
-$$
+với $ x_0, \ldots, x_n $ trong A và $ f $ trong $ C^n(A, P) $, nghĩa là,
 
 $$
-+ (-1)^{n+1}f(x_0, . . . , x_{n-1})x_n
+\begin{align*}
+(10) \quad \partial^n(f)(x_0, \ldots, x_n) &= x_0 f(x_1, \ldots, x_n) \\
+&+ \sum_{i=0}^{n-1} (-1)^{i+1} f(x_0, \ldots, x_{i-1}, x_i x_{i+1}, x_{i+2}, \ldots, x_n) \\
+&\phantom{=} + (-1)^{n+1} f(x_0, \ldots, x_{n-1}) x_n.
+\end{align*}
 $$
 
 Theo (7) và (9), ta có
 
-(11) $\partial^{n+1}\circ \partial^n= 0$ với mọi $n\geqslant 0$.
-
-Ta ký hiệu K-môđun Ker $\partial^0$ bởi $H^0(A,P)$ và, với $n\geqslant 1$, K-môđun Ker $\partial^n/$ Im $\partial^{n-1}$ bởi $H^n(A,P)$. Ta đồng nhất K-môđun $C^0(A,P)$ với P, và ta có $C^1(A,P) =$ Hom$_K(A,P)$. Các ánh xạ $\partial^n$ với $n\leqslant 2$ được cho bởi các công thức
-
-(12) $\partial^0(p)(a) =ap-pa$ với mọi $p\in P$,
-
-(13) $\partial^1(f)(a, a') =af(a')-f(aa') +f(a)a'$ với $f\in C^1(A,P)$,
-
 $$
-\partial^2(f)(a, a', a'') =af(a', a'')-f(aa', a'') +f(a, a'a'')-f(a, a')a'' \tag{14}
+(11) \quad \partial^{n+1} \circ \partial^n = 0 \qquad \text{với mọi } n \geq 0.
 $$
 
-đối với $f\in C^2(A,P)$.
+Ta ký hiệu K-môđun $ \operatorname{Ker} \partial^0 $ bởi $ H^0(A, P) $ và, với $ n \geq 1 $, ký hiệu K-môđun $ \operatorname{Ker} \partial^n / \operatorname{Im} \partial^{n-1} $ bởi $ H^n(A, P) $. Ta đồng nhất K-môđun $ C^0(A, P) $ với P, và ta có $ C^1(A, P) = \operatorname{Hom}_K(A, P) $. Các ánh xạ $ \partial^n $ với $ n \leq 2 $ được cho bởi các công thức
 
-Vậy $H^0(A,P)$ là K-môđun con của P gồm các phần tử $p$ sao cho $ap=pa$ với mọi $a\in A$, và $H^1(A,P)$ là thương của K-môđun Der$_K(A,P)$ các K-phép đạo hàm từ A vào P (III, §10, No. 2, p. 553) bởi K-môđun con gồm các phép đạo hàm dạng $a\mapsto ap-pa$ với $p\in P$ (gọi là các phép đạo hàm nội).
+$$
+\begin{align*}
+(12) \quad \partial^0(p)(a) &= ap - pa \qquad \text{với mọi } p \in P, \\
+(13) \quad \partial^1(f)(a, a') &= af(a') - f(aa') + f(a)a' \qquad \text{với } f \in C^1(A, P), \\
+(14) \quad \partial^2(f)(a, a', a'') &= af(a', a'') - f(aa', a'') + f(a, a'a'') - f(a, a')a''
+\end{align*}
+$$
+
+với $ f \in C^2(A, P) $.
+
+Vậy $ H^0(A, P) $ là K-môđun con của P gồm các phần tử $ p $ sao cho $ ap = pa $ với mọi $ a \in A $, và $ H^1(A, P) $ là thương của K-môđun $ \operatorname{Der}_K(A, P) $ các K-đạo hàm từ A vào P (III, §10, No. 2, p. 553) bởi K-môđun con gồm các đạo hàm có dạng $ a \mapsto ap - pa $ với $ p \in P $ (gọi là các *đạo hàm nội*).
 
 ### 7. Đối đồng điều của các đại số nửa đơn tuyệt đối
 
 #### Mệnh đề 6 {#alg-viii-s13-prop-6 .statement tag=00FS}
 
-Cho K là một vành giao hoán và A là một đại số trên K. Cho $e=\sum^r_{i=1}a_i\otimes a'_i$ là một phần tử của $B = A\otimes_KA^o$ thỏa mãn các điều kiện trong mục (ii) của Mệnh đề 5 của VIII, p. 236. Với mọi số nguyên $n\geqslant 1$ và mọi phần tử $f$ của $C^n(A,P)$, ta ký hiệu bởi $\gamma^n(f)$ phần tử của $C^{n-1}(A,P)$ được xác định bởi công thức
+Cho K là một vành giao hoán và A là một K-đại số. Cho $e=\sum^r_{i=1}a_i\otimes a'_i$ là một phần tử của $B = A\otimes_KA^o$ thỏa mãn các điều kiện trong mục (ii) của Mệnh đề 5 của VIII, p. 236. Với mọi số nguyên $n\geqslant 1$ và mọi phần tử $f$ của $C^n(A,P)$, ta ký hiệu bởi $\gamma^n(f)$ phần tử của $C^{n-1}(A,P)$ được xác định bởi công thức
 
 $$
 \gamma^n(f)(x_1, . . . , x_{n-1}) =\sum_{i=1}^ra_if(a'_i, x_1. . . , x_{n-1}) \tag{15}
@@ -456,9 +456,9 @@ với mọi số nguyên $n\geqslant 1$ và mọi $f\in C^n(A,P)$.
 
 #### Nhận xét 1 {#alg-viii-s13-n7-rem-1 .statement tag=00SF}
 
-$*$Các đồng cấu $\partial^n: C^n(A,P)\rightarrow C^{n+1}(A,P)$ xác định một phức $(C(A,P), \partial )$ các K-môđun (X, §2, n$^o1$, p. 24). Do đó ánh xạ $\gamma_n$ xác định một đồng luân từ phức này đến chính nó nối 0 với Id$_{C(A,P)}$ (X, §2, n$^o4$, p. 32, định nghĩa $4$)$.*$
+$*$Các đồng cấu $\partial^n: C^n(A,P)\rightarrow C^{n+1}(A,P)$ xác định một phức $(C(A,P), \partial )$ của các K-môđun (X, §2, n$^o1$, p. 24). Do đó ánh xạ $\gamma_n$ xác định một đồng luân từ phức này vào chính nó nối 0 với Id$_{C(A,P)}$ (X, §2, n$^o4$, p. 32, définition $4$)$.*$
 
-Ta giữ ký hiệu của No. 6. Với mọi số nguyên $n\geqslant 0$, ta định nghĩa một ánh xạ $h_n: B_n\rightarrow B_{n+1}$ bởi công thức
+Ta giữ ký hiệu của No.6. Với mỗi số nguyên $n\geqslant 0$, ta định nghĩa một ánh xạ $h_n: B_n\rightarrow B_{n+1}$ bởi công thức
 
 $$
 h_n(x) =d^1_{n+2}(e\otimes x) =\sum_{i=1}^ra_i\otimes a'_ix
@@ -504,13 +504,13 @@ $$
 d^i_{n+2}(e\otimes x) =e\otimes d^{i-2}_n(x)
 $$
 
-từ đó suy ra
+suy ra
 
 $$
 (d_{n+1}\circ h_n)(x) =x-d^1_{n+1}(e\otimes d_n(x)) =x-h_{n-1}\circ d_n(x)
 $$
 
-và do đó công thức (17).
+và do đó có công thức (17).
 
 Ta có thể hoàn tất chứng minh của Mệnh đề 6 bằng cách dùng Bổ đề 5. Cho $n$ là một số nguyên $\geqslant 1$ và $f$ là một phần tử của $C^n(A,P)$. Theo phép dựng, ta có
 
@@ -536,15 +536,15 @@ trong đó đẳng thức cuối cùng suy ra từ (17). Vì $\alpha^n$ là song
 
 #### Định lý 3 {#alg-viii-s13-thm-3 .statement tag=00FU}
 
-Cho K là một vành giao hoán, A một đại số trên K, và P một $(A,A)$-song môđun. Giả sử A-môđun $(A\otimes_KA^o)$ là xạ ảnh. Khi đó ta có $H^n(A,P) = 0$ với mọi số nguyên $n\geqslant 1$.
+Cho K là một vành giao hoán, A là một đại số trên K, và P là một $(A,A)$-song môđun. Giả sử rằng $(A\otimes_KA^o)$-môđun A là xạ ảnh. Khi đó ta có $H^n(A,P) = 0$ với mọi số nguyên $n\geqslant 1$.
 
-Ta phải chứng minh rằng với mọi số nguyên $n\geqslant 1$, mọi phần tử $f$ của $C^n(A,P)$ thỏa $\partial^n(f) = 0$ đều có dạng $\partial^{n-1}(g)$ đối với một phần tử $g$ của $C^{n-1}(A,P)$. Theo Mệnh đề 5, đây là một hệ quả ngay lập tức của Mệnh đề 6.
+Ta phải chứng minh rằng với mọi số nguyên $n\geqslant 1$, mọi phần tử $f$ của $C^n(A,P)$ thỏa mãn $\partial^n(f) = 0$ đều có dạng $\partial^{n-1}(g)$ với một phần tử $g$ của $C^{n-1}(A,P)$. Theo Mệnh đề 5, đây là một hệ quả ngay lập tức của Mệnh đề 6.
 
 #### Hệ quả {#alg-viii-s13-n7-cor-1 .statement tag=00FV}
 
-Mọi đạo hàm K từ A đến P đều là nội.
+Mọi K-đạo hàm từ A vào P đều là nội.
 
-Đây là cách diễn đạt của đẳng thức $H^1(A,P) = 0$.
+Đây là cách phát biểu của đẳng thức $H^1(A,P) = 0$.
 
 #### Nhận xét 2 {#alg-viii-s13-n7-rem-2 .statement tag=00FW}
 
@@ -552,25 +552,25 @@ Các giả thiết của Định lý 3, đặc biệt, được thỏa mãn khi 
 
 #### Nhận xét 3 {#alg-viii-s13-n7-rem-3 .statement tag=00FX}
 
-Giả sử K-môđun A là xạ ảnh. Định lý 3 cũng có thể được chứng minh như sau. Phức $(\bigoplus_{n\geqslant 0}B_n, d)$ và đồng cấu $\varepsilon : B_0\rightarrow A$ xác định một phân giải xạ ảnh của B-môđun A; do đó, với mọi $n\geqslant 0$, K-môđun $H^n(A,P)$ đẳng cấu với Ext$^n_B(A,P)$ (X, §6, n$^o1$, p. 100, định lý 1). Nếu B-môđun A là xạ ảnh, thì các K-môđun Ext$^n_B(A,P)$ bằng không với $n\geqslant 1$ (X, §5, n$^o3$, p. 88, hệ quả của mệnh đề 5), điều đó suy ra rằng $H^n(A,P)$ bằng không. Ngược lại, nếu $H^1(A,P)$ bằng không đối với mọi $(A$, A)-song môđun P, thì B-môđun A là xạ ảnh (X, §5, n$^o5$, p. 93, mệnh đề $10$)$.*$
+Giả sử K-môđun A là xạ ảnh. Định lý 3 cũng có thể được chứng minh như sau. Phức $(\bigoplus_{n\geqslant 0}B_n, d)$ và đồng cấu $\varepsilon : B_0\rightarrow A$ xác định một phân giải xạ ảnh của B-môđun A; do đó, với mọi $n\geqslant 0$, K-môđun $H^n(A,P)$ đẳng cấu với Ext$^n_B(A,P)$ (X, §6, n$^o1$, p. 100, định lý 1). Nếu B-môđun A là xạ ảnh, thì các K-môđun Ext$^n_B(A,P)$ là không với $n\geqslant 1$ (X, §5, n$^o3$, p. 88, hệ quả của mệnh đề 5), điều này kéo theo rằng $H^n(A,P)$ là không. Ngược lại, nếu $H^1(A,P)$ là không với mọi song môđun $(A$, A)-P, thì B-môđun A là xạ ảnh (X, §5, n$^o5$, p. 93, mệnh đề $10$)$.*$
 
 ### 8. Sự Tách của các Đại số Artin
 
-Trong tiểu mục này, K là một vành giao hoán và A là một đại số trên K. Gọi $\mathfrak{r}$ là căn của A. Ta ký hiệu đại số thương $A/\mathfrak{r}$ là $\overline{A}$ và ánh xạ chính tắc từ A vào $\overline{A}$ là $\pi$. Ta quan tâm đến các đại số con S của A sao cho $A = S\oplus \mathfrak{r}$.
+Trong tiểu mục này, K là một vành giao hoán và A là một đại số trên K. Gọi $\mathfrak{r}$ là căn của A. Ta ký hiệu đại số thương $A/\mathfrak{r}$ bởi $\overline{A}$ và ánh xạ chính tắc từ A vào $\overline{A}$ bởi $\pi$. Ta quan tâm đến các đại số con S của A sao cho $A = S\oplus \mathfrak{r}$.
 
-Ta ký hiệu bởi Σ tập hợp các tiết diện K-tuyến tính $s$ của $\pi$ thỏa mãn $s(\alpha \beta ) =$ $s(\alpha )s(\beta )$ với $\alpha , \beta$ trong A. Chú ý rằng một tiết diện như vậy tất yếu thỏa mãn $s(1) = 1$ (nói cách khác, $s$ là một đồng cấu vành): thật vậy, ta có $s(1)^2=s$(1), và $s(1)$ là khả nghịch vì nó thuộc $1 +\mathfrak{r}$ (VIII, p. 156, Định lý 1). Nếu $s$ là một phần tử của Σ, thì ảnh S của $s$ là một đại số con của A, và ta có $A = S\oplus \mathfrak{r}$. Ngược lại, nếu S là một đại số con của A sao cho $A = S\oplus \mathfrak{r}$, thì hạn chế của $\pi$ lên S là song ánh, và song ánh ngược xác định một phần tử của Σ có ảnh là S.
+Ta ký hiệu bởi Σ tập hợp các tiết diện K-tuyến tính $s$ của $\pi$ thỏa mãn $s(\alpha \beta ) =$ $s(\alpha )s(\beta )$ với $\alpha , \beta$ trong A. Chú ý rằng một tiết diện như vậy tất yếu thỏa mãn $s(1) = 1$ (nói cách khác, $s$ là một đồng cấu vành): thật vậy ta có $s(1)^2=s$(1), và $s(1)$ là khả nghịch vì nó thuộc $1 +\mathfrak{r}$ (VIII, p. 156, Định lý 1). Nếu $s$ là một phần tử của Σ, thì ảnh S của $s$ là một đại số con của A, và ta có $A = S\oplus \mathfrak{r}$. Ngược lại, nếu S là một đại số con của A sao cho $A = S\oplus \mathfrak{r}$, thì hạn chế của $\pi$ lên S là song ánh, và song ánh ngược xác định một phần tử của Σ có ảnh là S.
 
-Theo định lý của Jacobson (loc. cit.), mọi phần tử của $1 +\mathfrak{r}$ đều khả nghịch trong A. Ta gọi một tự đẳng cấu trong của A có dạng $a\mapsto xax^{-1}$ với $x\in 1 +\mathfrak{r}$ là một tự đẳng cấu đặc biệt.
+Theo định lý Jacobson (loc. cit.), mọi phần tử của $1 +\mathfrak{r}$ đều khả nghịch trong A. Ta gọi một tự đẳng cấu trong của A có dạng $a\mapsto xax^{-1}$ với $x\in 1 +\mathfrak{r}$ là một tự đẳng cấu đặc biệt.
 
 #### Mệnh đề 7 {#alg-viii-s13-prop-7 .statement tag=00FY}
 
-Giả sử $(A\otimes_K\overline{A}^o)$-môđun $\overline{A}$ là xạ ảnh.
+Giả sử rằng $(A\otimes_K\overline{A}^o)$-môđun $\overline{A}$ là xạ ảnh.
 
 a) Cho $S_1$ và $S_2$ là các đại số con của A thỏa mãn $A = S_1\oplus \mathfrak{r}= S_2\oplus \mathfrak{r}$. Tồn tại một tự đẳng cấu đặc biệt của A biến đổi $S_1$ thành $S_2$.
 
-b) Giả sử $\pi$ có một tiết diện K-tuyến tính và căn $\mathfrak{r}$ của A là lũy linh. Khi đó tồn tại một đại số con S của A thỏa mãn $A = S\oplus \mathfrak{r}$.
+b) Giả sử rằng $\pi$ có một tiết diện K-tuyến tính và căn $\mathfrak{r}$ của A là lũy linh. Khi đó tồn tại một đại số con S của A thỏa mãn $A = S\oplus \mathfrak{r}$.
 
-Cho $S_1$ và $S_2$ như trong a). Gọi $s_1$ và $s_2$ là các phần tử của tập hợp Σ tương ứng với các đại số con $S_1$ và $S_2$. Gọi $\varepsilon$ là ánh xạ K-tuyến tính từ $A\otimes_KA$ vào A được xác định bởi $\varepsilon (a\otimes b) =ab$. Theo Mệnh đề 5 của VIII, p. 236 và Nhận xét 1 của VIII, p. 237, tồn tại một phần tử $e=\sum^r_{i=1}\alpha_i\otimes \alpha '_i$ của $\overline{A}\otimes_KA$ thỏa mãn $\sum^r_{i=1}\alpha_i\alpha '_i= 1$ và $\sum^r_{i=1}\alpha \alpha_i\otimes \alpha '_i=\sum^r_{i=1}\alpha_i\otimes \alpha '_i\alpha$ với mọi $\alpha \in A$. Đặt $x=\sum^r_{i=1}s_1(\alpha_i)s_2(\alpha '_i)$. Ta có $\pi (x) =\sum^r_{i=1}\alpha_i\alpha '_i= 1$ và do đó $x\in 1 +\mathfrak{r}$. Gọi $\alpha$ là một phần tử của A. Ta có
+Cho $S_1$ và $S_2$ như trong a). Cho $s_1$ và $s_2$ là các phần tử của tập hợp Σ tương ứng với các đại số con $S_1$ và $S_2$. Cho $\varepsilon$ là ánh xạ K-tuyến tính từ $A\otimes_KA$ vào A được cho bởi $\varepsilon (a\otimes b) =ab$. Theo Mệnh đề 5 của VIII, p. 236 và Nhận xét 1 của VIII, p. 237, tồn tại một phần tử $e=\sum^r_{i=1}\alpha_i\otimes \alpha '_i$ của $\overline{A}\otimes_KA$ thỏa mãn $\sum^r_{i=1}\alpha_i\alpha '_i= 1$ và $\sum^r_{i=1}\alpha \alpha_i\otimes \alpha '_i=\sum^r_{i=1}\alpha_i\otimes \alpha '_i\alpha$ với mọi $\alpha \in A$. Đặt $x=\sum^r_{i=1}s_1(\alpha_i)s_2(\alpha '_i)$. Ta có $\pi (x) =\sum^r_{i=1}\alpha_i\alpha '_i= 1$ và do đó $x\in 1 +\mathfrak{r}$. Cho $\alpha$ là một phần tử của A. Ta có
 
 $$
 s_1(\alpha )x=\sum_{i=1}^rs_1(\alpha \alpha_i)s_2(\alpha '_i) = (\varepsilon \circ (s_1\otimes s_2))(\sum_{i=1}^r\alpha \alpha_i\otimes \alpha '_i)
@@ -580,9 +580,9 @@ $$
 = (\varepsilon \circ (s_1\otimes s_2))(\sum_{i=1}^r\alpha_i\otimes \alpha '_i\alpha )=\sum_{i=1}^rs_1(\alpha_i)s_2(\alpha '_i\alpha ) =xs_2(\alpha )
 $$
 
-Đẳng thức $x^{-1}S_1x= S_2$ suy ra, do đó cho mệnh đề a).
+Từ đó suy ra đẳng thức $x^{-1}S_1x= S_2$, và do đó có mệnh đề a).
 
-Dưới các giả thiết của b), giả sử thêm rằng $\mathfrak{r}^2= 0$. Trong trường hợp này, $(A$, A)-song môđun $\mathfrak{r}$ bị triệt tiêu bởi $\mathfrak{r}$, và vì thế ta xem nó như một $(A$, A)-song môđun. Chọn một tiết diện K-tuyến tính $\sigma$ của $\pi$. Ta có
+Dưới các giả thiết của b), giả sử thêm rằng $\mathfrak{r}^2= 0$. Trong trường hợp này, $(A$, A)-song môđun $\mathfrak{r}$ bị $\mathfrak{r}$ triệt tiêu, và do đó ta xem nó như một $(A$, A)-song môđun. Chọn một tiết diện K-tuyến tính $\sigma$ của $\pi$. Ta có
 
 (19) $\alpha x=\sigma (\alpha )x$ and $x\alpha =x\sigma (\alpha )$
 
@@ -592,7 +592,7 @@ $$
 \varphi (\alpha , \beta ) =\sigma (\alpha \beta )-\sigma (\alpha )\sigma (\beta ) \tag{20}
 $$
 
-với $\alpha , \beta \in A$. Ta có quan hệ $\pi (\varphi (\alpha , \beta )) =\alpha \beta -\alpha \beta = 0$ với $\alpha , \beta \in A$. Do đó, $\varphi$ xác định một phần tử của $C^2(A,\mathfrak{r})$. Gọi $\alpha , \beta , \gamma$ là các phần tử của A; theo (19), ta có
+đối với $\alpha , \beta \in A$. Ta có quan hệ $\pi (\varphi (\alpha , \beta )) =\alpha \beta -\alpha \beta = 0$ đối với $\alpha , \beta \in A$. Do đó, $\varphi$ xác định một phần tử của $C^2(A,\mathfrak{r})$. Cho $\alpha , \beta , \gamma$ là các phần tử của A; theo (19), ta có
 
 $$
 \partial^2\varphi (\alpha , \beta , \gamma ) =\alpha \varphi (\beta , \gamma )-\varphi (\alpha \beta , \gamma ) +\varphi (\alpha , \beta \gamma )-\varphi (\alpha , \beta )\gamma
@@ -614,46 +614,46 @@ $$
 = 0
 $$
 
-Theo Định lý 3 của VIII, p. 242, K-môđun $H^2(A,\mathfrak{r})$ thu về không. Vậy tồn tại một phần tử $\psi$ của $C^1(A,\mathfrak{r})$ sao cho $\partial^1\psi =\varphi$, nói cách khác, sao cho ta có
+Theo Định lý 3 của VIII, p. 242, K-môđun $H^2(A,\mathfrak{r})$ bằng không. Do đó tồn tại một phần tử $\psi$ của $C^1(A,\mathfrak{r})$ sao cho $\partial^1\psi =\varphi$, nói cách khác, sao cho ta có
 
 (21) $\varphi (\alpha , \beta ) =\alpha \psi (\beta )-\psi (\alpha \beta ) +\psi (\alpha )\beta$ với $\alpha , \beta$ trong $\overline{A}$.
 
 Ta có $\psi (\alpha )\psi (\beta ) = 0$ vì $\mathfrak{r}^2$ bằng không; từ (19) và (20), do đó suy ra (22) $(\sigma +\psi )(\alpha \beta ) = (\sigma +\psi )(\alpha )(\sigma +\psi )(\beta )$,
 
-sao cho tiết diện K-tuyến tính $\sigma +\psi$ của $\pi$ thuộc Σ. Ảnh của nó là một đại số con S của A sao cho $A = S +\mathfrak{r}$.
+nên tiết diện K-tuyến tính $\sigma +\psi$ của $\pi$ thuộc Σ. Ảnh của nó là một đại số con S của A sao cho $A = S +\mathfrak{r}$.
 
-Bây giờ hãy chứng minh sự tồn tại của S trong trường hợp tổng quát. Ta lập luận bằng quy nạp theo số nguyên nhỏ nhất $p\geqslant 1$ sao cho $\mathfrak{r}^p= 0$; trường hợp $p= 1$ là tầm thường. Giả sử $p\geqslant 2$, và đặt $A'= A/\mathfrak{r}^{p-1}$. Căn $\mathfrak{r}'$ của $A'$ bằng $\mathfrak{r}/\mathfrak{r}^{p-1}$ (Mệnh đề 5 của VIII, p. 155), nên thỏa mãn ${\mathfrak{r}'}^{p-1}= 0$, và đại số $A'/\mathfrak{r}'$ đẳng cấu với $\overline{A}= A/\mathfrak{r}$ và do đó là nửa đơn tuyệt đối. Theo giả thiết quy nạp, tồn tại một đại số con $S'$ của $A'$ sao cho $A'= S'\oplus \mathfrak{r}'$. Khi đó $S'$ có dạng $A''/\mathfrak{r}^{p-1}$, trong đó $A''$ là một đại số con của A chứa $\mathfrak{r}^{p-1}$, và ta có
+Bây giờ ta chứng minh sự tồn tại của S trong trường hợp tổng quát. Ta lập luận bằng quy nạp theo số nguyên nhỏ nhất $p\geqslant 1$ sao cho $\mathfrak{r}^p= 0$; trường hợp $p= 1$ là tầm thường. Giả sử $p\geqslant 2$, và đặt $A'= A/\mathfrak{r}^{p-1}$. Căn $\mathfrak{r}'$ của $A'$ bằng $\mathfrak{r}/\mathfrak{r}^{p-1}$ (Mệnh đề 5 của VIII, p. 155), nên thỏa mãn ${\mathfrak{r}'}^{p-1}= 0$, và đại số $A'/\mathfrak{r}'$ đẳng cấu với $\overline{A}= A/\mathfrak{r}$ và do đó nửa đơn tuyệt đối. Theo giả thiết quy nạp, tồn tại một đại số con $S'$ của $A'$ sao cho $A'= S'\oplus \mathfrak{r}'$. Khi đó $S'$ có dạng $A''/\mathfrak{r}^{p-1}$, trong đó $A''$ là một đại số con của A chứa $\mathfrak{r}^{p-1}$, và ta có
 
 $$
 A = A''+\mathfrak{r},\mathfrak{r}^{p-1}= A''\cap \mathfrak{r} \tag{23}
 $$
 
-Đại số $A''/\mathfrak{r}^{p-1}$ đẳng cấu với $A'/\mathfrak{r}'$; ta có $(\mathfrak{r}^{p-1})^2= 0$, nên $\mathfrak{r}^{p-1}$ là căn của $A''$. Theo trường hợp vừa xét, tồn tại một đại số con S của $A''$ sao cho $A''= S\oplus \mathfrak{r}^{p-1}$; từ (23) ta suy ra quan hệ $A = S\oplus \mathfrak{r}$.
+Đại số $A''/\mathfrak{r}^{p-1}$ đẳng cấu với $A'/\mathfrak{r}'$; ta có $(\mathfrak{r}^{p-1})^2= 0$, nên $\mathfrak{r}^{p-1}$ là căn của $A''$. Theo trường hợp vừa xét, tồn tại một đại số con S của $A''$ sao cho $A''= S\oplus \mathfrak{r}^{p-1}$; ta suy ra quan hệ $A = S\oplus \mathfrak{r}$ từ (23).
 
-#### Hệ quả 1 (định lý Wedderburn) {#alg-viii-s13-prop-7-cor-1 .statement tag=00S8}
+#### Hệ quả 1 (định lý của Wedderburn) {#alg-viii-s13-prop-7-cor-1 .statement tag=00S8}
 
-Cho K là một trường giao hoán, A là một đại số trên K, và $\mathfrak{r}$ là căn của A. Giả sử rằng K-đại số $A/\mathfrak{r}$ là nửa đơn tuyệt đối.
+Cho K là một trường giao hoán, A là một K-đại số, và $\mathfrak{r}$ là căn của A. Giả sử rằng K-đại số $A/\mathfrak{r}$ là nửa đơn tuyệt đối.
 
 a) Cho $S_1$ và $S_2$ là các đại số con của A thỏa mãn $A = S_1\oplus \mathfrak{r}= S_2\oplus \mathfrak{r}$. Tồn tại một tự đẳng cấu đặc biệt của A biến $S_1$ thành $S_2$.
 
-b) Nếu $\mathfrak{r}$ lũy linh, thì tồn tại một đại số con S của A thỏa mãn A = $S\oplus \mathfrak{r}$.
+b) Nếu $\mathfrak{r}$ là lũy linh, thì tồn tại một đại số con S của A thỏa mãn A = $S\oplus \mathfrak{r}$.
 
 Điều này suy ra từ Mệnh đề 7 và Định lý 2 của VIII, p. 238.
 
 #### Hệ quả 2 {#alg-viii-s13-prop-7-cor-2 .statement tag=00FZ}
 
-Cho A là một đại số giao hoán bậc hữu hạn trên một trường hoàn hảo K, và cho $\mathfrak{r}$ là căn của nó. Tồn tại một đại số con duy nhất S của A sao cho $A = S\oplus \mathfrak{r}$. Hơn nữa, S đẳng cấu với một tích của hữu hạn nhiều mở rộng của K có bậc hữu hạn.
+Cho A là một đại số giao hoán bậc hữu hạn trên một trường hoàn hảo K, và cho $\mathfrak{r}$ là căn của nó. Tồn tại một đại số con duy nhất S của A sao cho $A = S\oplus \mathfrak{r}$. Hơn nữa, S đẳng cấu với một tích của một số hữu hạn các mở rộng của K có bậc hữu hạn.
 
-Đại số trên K $A/\mathfrak{r}$ là nửa đơn (VIII, p. 173, Mệnh đề 1) và có bậc hữu hạn; nó nửa đơn tuyệt đối vì trường K là hoàn hảo (VIII, p. 232, Định lý 1). Vì iđêan $\mathfrak{r}$ lũy linh và A giao hoán, nên sự tồn tại và tính duy nhất của S suy ra từ Hệ quả 1. Vì S nửa đơn, giao hoán và có bậc hữu hạn, nên khẳng định cuối cùng là hệ quả của Mệnh đề 3 của VIII, p. 137.
+K-đại số $A/\mathfrak{r}$ là nửa đơn (VIII, p. 173, Mệnh đề 1) và có bậc hữu hạn; nó là nửa đơn tuyệt đối vì trường K là hoàn hảo (VIII, p. 232, Định lý 1). Vì iđêan $\mathfrak{r}$ là lũy linh và A là giao hoán, sự tồn tại và tính duy nhất của S khi đó suy ra từ Hệ quả 1. Vì S là nửa đơn và giao hoán và có bậc hữu hạn, khẳng định cuối cùng là một hệ quả của Mệnh đề 3 của VIII, p. 137.
 
 #### Nhận xét 1 {#alg-viii-s13-n8-rem-1 .statement tag=00G0}
 
-Giả thiết rằng $A/\mathfrak{r}$ nửa đơn tuyệt đối là cốt yếu trong Hệ quả 1 (VIII, p. 246, Bài tập 4).
+Giả thiết rằng $A/\mathfrak{r}$ là nửa đơn tuyệt đối là cốt yếu trong Hệ quả 1 (VIII, p. 246, Bài tập 4).
 
 #### Nhận xét 2 {#alg-viii-s13-n8-rem-2 .statement tag=00G1}
 
-Giả sử A là một đại số Artin trên trường K. Nếu A giao hoán, thì ta có thể chứng minh (VIII, p. 180, Bài tập 9) rằng A đẳng cấu với một tích các đại số $A_1\times  \cdots  \times A_n$ sao cho $A_i/\mathfrak{R}(A_i)$ là một trường với mọi $i$. Ngược lại, nếu A không giao hoán, thì A có thể không đẳng cấu với một tích các đại số $A_1\times  \cdots  \times A_n$ sao cho $A_i/\mathfrak{R}(A_i)$ là một vành đơn với mọi $i$ (VIII, p. 247, Bài tập 5).
+Giả sử rằng A là một đại số Artin trên trường K. Nếu A giao hoán, thì ta có thể chứng minh (VIII, p. 180, Bài tập 9) rằng A đẳng cấu với một tích các đại số $A_1\times  \cdots  \times A_n$ sao cho $A_i/\mathfrak{R}(A_i)$ là một trường với mọi $i$. Ngược lại, nếu A không giao hoán, thì A có thể không đẳng cấu với một tích các đại số $A_1\times  \cdots  \times A_n$ sao cho $A_i/\mathfrak{R}(A_i)$ là một vành đơn với mọi $i$ (VIII, p. 247, Bài tập 5).
 
 ### Bài tập {#alg-viii-s13-exercises}
 
-Xem [bài tập của § 13](exercises/s13/).
+Xem [các bài tập cho § 13](exercises/s13/).
