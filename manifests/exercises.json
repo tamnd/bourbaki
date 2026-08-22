@@ -2454,6 +2454,34 @@
           ]
         }
       ]
+    },
+    {
+      "id": "alg-iv-vii",
+      "chapters": [
+        {
+          "chapter": "VI",
+          "title": "ORDERED GROUPS AND FIELDS",
+          "total": 24,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-vi-s1",
+              "dir": "s1",
+              "count": 19,
+              "first": 1,
+              "last": 19
+            },
+            {
+              "section": 2,
+              "label": "alg-vi-s2",
+              "dir": "s2",
+              "count": 5,
+              "first": 1,
+              "last": 5
+            }
+          ]
+        }
+      ]
     }
   ]
 }
