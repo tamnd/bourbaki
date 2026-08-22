@@ -38,16 +38,18 @@ subsections:
       title: ALGEBRAIC OPERATIONS ON REAL-VALUED FUNCTIONS
       page: 0
       pdf_page: 362
-statements: 28
+statements: 30
 exercises: 6
-content_sha256: 133ec9c067d3bb7650d8435fe3cc07cd684221be5e0e1fd9de71ad152d867cce
+content_sha256: 3619523eedec18461c8156e453fc7b714426edb1b942c26194e2855e6d24b459
 ---
 
 ## 5. REAL-VALUED FUNCTIONS
 
 ### 1. REAL-VALUED FUNCTIONS
 
-Definition 1. A mapping of a set $ X $ into the real line is called a real-valued function (or real function) defined on $ X $.
+#### Definition 1 {#top-iv-s5-def-1 .statement}
+
+A mapping of a set $ X $ into the real line is called a real-valued function (or real function) defined on $ X $.
 
 By an abuse of language analogous to that mentioned in § 4, no. 2, mappings of $ X $ into $ \overline{\mathbf{R}} $ will also be called real-valued functions defined on $ X $ in this and the following section. Mappings of $ X $ into $ \mathbf{R} $ will be called finite real-valued functions.
 
@@ -539,7 +541,9 @@ $$
 
 whenever both sides are defined and $ f $ and $ g $ are $ \geqslant 0 $.
 
-Corollary 2. Let $ f $ and $ g $ be two real-valued functions defined on a filtered set $ X $. If $ \lim f = +\infty $ and $ \lim \inf g > -\infty $ and $ f + g $ is defined, then $ \lim (f + g) = +\infty $. If $ \lim f = +\infty $ and $ \lim \inf g > 0 $ and $ fg $ is defined, then $ \lim fg = +\infty $.
+#### Corollary 2 {#top-iv-s5-prop-13-cor-2 .statement}
+
+Let $ f $ and $ g $ be two real-valued functions defined on a filtered set $ X $. If $ \lim f = +\infty $ and $ \lim \inf g > -\infty $ and $ f + g $ is defined, then $ \lim (f + g) = +\infty $. If $ \lim f = +\infty $ and $ \lim \inf g > 0 $ and $ fg $ is defined, then $ \lim fg = +\infty $.
 
 ### Exercises {#top-iv-s5-exercises}
 

@@ -38,9 +38,9 @@ subsections:
       title: 'APPLICATION : THE POINCARÉ-VOLTERRA THEOREM'
       page: 0
       pdf_page: 120
-statements: 23
+statements: 28
 exercises: 3
-content_sha256: 215fa81153cfa4584465ab28d6a694e2bc5c0cf7ecc50bd2d83e6de8d246f327
+content_sha256: 49e623cd592377d1f90b814606ff58adaeff059b1eb51901b6753b81790419ce
 ---
 
 ## 11. CONNECTEDNESS
@@ -94,15 +94,21 @@ is connected. If not, there are two open sets $ B $ and $ C $ such that $ B \cap
 
 By induction on $ n $ we see immediately that the set $ B_n = \bigcup_{i=0}^n A_i $ is connected for all $ n $, by Proposition 2. The sets $ B_n $ have a non-empty intersection; hence their union, equal to $ \bigcup_{n=0}^\infty A_n $, is connected by Proposition 2.
 
-Proposition 3. *Let $ A $ be a subset of a topological space $ X $. If $ B $ is a connected subset of $ X $ which meets both $ A $ and $ \complement A $, then $ B $ meets the frontier of $ A $.*
+#### Proposition 3 {#top-i-s11-prop-3 .statement}
+
+*Let $ A $ be a subset of a topological space $ X $. If $ B $ is a connected subset of $ X $ which meets both $ A $ and $ \complement A $, then $ B $ meets the frontier of $ A $.*
 
 For otherwise the intersections of $ B $ with the interior and exterior of $ A $ would be two open subsets of $ B $ which form a partition of $ B $, and $ B $ would not be connected.
 
-Corollary. *In a connected space $ X $, every non-empty set other than $ X $ itself has at least one frontier point.*
+#### Corollary {#top-i-s11-n1-cor-2 .statement}
+
+*In a connected space $ X $, every non-empty set other than $ X $ itself has at least one frontier point.*
 
 ### 2. IMAGE OF A CONNECTED SET UNDER A CONTINUOUS MAPPING
 
-Proposition 4. *Let $ A $ be a connected subset of a topological space $ X $, and let $ f $ be a continuous mapping of $ X $ into a topological space $ X' $. Then $ f(A) $ is connected.*
+#### Proposition 4 {#top-i-s11-prop-4 .statement}
+
+*Let $ A $ be a connected subset of a topological space $ X $, and let $ f $ be a continuous mapping of $ X $ into a topological space $ X' $. Then $ f(A) $ is connected.*
 
 Suppose $ f(A) $ is not connected. Then there exist two sets $ M', N' $ which are open in $ f^{-1}(A) $ and which form a partition of $ f(A) $; hence $ A \cap f^{-1}(M') $ and $ A \cap f^{-1}(N') $ are open in $ A $ and form a partition of $ A $; this contradicts the hypothesis that $ A $ is connected.
 
@@ -110,7 +116,9 @@ The *inverse image* of a connected set under a continuous mapping need not be co
 
 From Proposition 4 we derive another characterization of *non-connected spaces*:
 
-Proposition 5. *For a topological space $ X $ to be not connected it is necessary and sufficient that there exists a surjective continuous mapping of $ X $ onto a discrete space containing more than one point.*
+#### Proposition 5 {#top-i-s11-prop-5 .statement}
+
+*For a topological space $ X $ to be not connected it is necessary and sufficient that there exists a surjective continuous mapping of $ X $ onto a discrete space containing more than one point.*
 
 The condition is sufficient by Proposition 4. Conversely, if $ X $ is not connected, there exist two non-empty disjoint open subsets $ A, B $ whose union is $ X $, and the mapping $ f $ of $ X $ onto a discrete space of two elements $ \{a, b\} $, defined by $ f(A) = \{a\} $ and $ f(B) = \{b\} $, is continuous.
 
@@ -197,7 +205,9 @@ Let $ X $ be a locally connected space, $ R $ an equivalence relation on $ X $, 
 
 X/R and C a component of A. Then $ \overline{\varphi}^1(C) $ is a union of components of $ \overline{\varphi}^1(A) $; for if $ x \in \overline{\varphi}^1(C) $ and if K is the component of x in $ \overline{\varphi}^1(A) $ then $ \varphi(K) $ is connected (no. 2, Proposition 4), is contained in A, and contains $ \varphi(x) $; hence $ \varphi(K) \subset C $ by the definition of C, and therefore $ K \subset \overline{\varphi}^1(C) $. Since X is locally connected and $ \overline{\varphi}^1(A) $ is open in X, it follows from Proposition 11 that $ \overline{\varphi}^1(C) $ is open in X; consequently C is open in X/R and hence, by Proposition 11 again, X/R is locally connected.
 
-Proposition 13. a) Let $ (X_i)_{i \in I} $ be a family of locally connected spaces such that $ X_i $ is connected for all but a finite number of indices $ i \in I $. Then the product space $ X = \prod_{i \in I} X_i $ is locally connected.
+#### Proposition 13 {#top-i-s11-prop-13 .statement}
+
+a) Let $ (X_i)_{i \in I} $ be a family of locally connected spaces such that $ X_i $ is connected for all but a finite number of indices $ i \in I $. Then the product space $ X = \prod_{i \in I} X_i $ is locally connected.
 
 b) Conversely, if the product of a family $ (X_i) $ of non-empty topological spaces is locally connected, then each $ X_i $ is locally connected, and $ X_i $ is connected for all but a finite number of indices.
 

@@ -34,9 +34,9 @@ subsections:
       title: LOCALLY COMPACT HOMOGENEOUS SPACES
       page: 0
       pdf_page: 265
-statements: 25
+statements: 33
 exercises: 8
-content_sha256: 8205dec030d94d62235a23e9aa5448975905559290f64fd36d95de58a47fe010
+content_sha256: 98bbe11fdf6749e206e1e4299f5988df931a0fc935bdd492e0606a77dcab9459
 ---
 
 ## 4. GROUPS OPERATING PROPERLY ON A TOPOLOGICAL SPACE; COMPACTNESS IN TOPOLOGICAL GROUPS AND SPACES WITH OPERATORS
@@ -76,23 +76,33 @@ Let H be a closed subgroup of a topological group G. If G operates properly on X
 
 If G operates properly on X, then it operates properly on every subspace $ X' $ of X which is a union of orbits of points of X (in other words, $ X' $ is saturated with respect to the equivalence relation defined by G). For the inverse image of $ X' \times X' $ in $ G \times X $ is $ G \times X' $, and we can apply Proposition 3 of Chapter I, § 10, no. 1.
 
-Proposition 1. Let G be a topological group operating continuously on a topological space X, and let K be a quasi-compact subset of G. Then the mapping $ \rho : (s, x) \to s.x $ of $ K \times X $ into X is proper.
+#### Proposition 1 {#top-iii-s4-prop-1 .statement}
+
+Let G be a topological group operating continuously on a topological space X, and let K be a quasi-compact subset of G. Then the mapping $ \rho : (s, x) \to s.x $ of $ K \times X $ into X is proper.
 
 $ \rho $ factorizes into $ K \times X \to K \times X \xrightarrow{\mathrm{pr}_2} X $, where $ \alpha(s, x) = (s, s.x) $. $ \alpha $ is a homeomorphism, for $ \alpha^{-1} : (s, y) \to (s, s^{-1}.y) $ is continuous. Since K is quasi-compact, $ \mathrm{pr}_2 $ is proper (Chapter I, § 10, no. 2, Theorem 1, Corollary 5); hence $ \rho $ is proper (Chapter I, § 10, no. 1, Proposition 5).
 
-Corollary 1. If A is a closed (resp. compact) subset of X, then K.A is closed in X (resp. compact if X is Hausdorff).
+#### Corollary 1 {#top-iii-s4-prop-1-cor-1 .statement}
+
+If A is a closed (resp. compact) subset of X, then K.A is closed in X (resp. compact if X is Hausdorff).
 
 The assertion concerning closed sets follows from Proposition 1 and the fact that a proper mapping is closed (Chapter I, § 10, no. 1, Proposition 1). The assertion concerning compact sets is trivial.
 
 It should be noted that if L is a compact subset of X, and F a closed subset of G, then F.L is not necessarily closed in X ($ \S 2 $, Exercise 29; cf. no. 5, Corollary to Proposition 12).
 
-Corollary 2. If K is a quasi-compact subgroup of a topological group G, then the equivalence relation $ x^{-1}y \in K $ is closed, and the canonical mapping $ \varphi : G \to G/K $ is proper.
+#### Corollary 2 {#top-iii-s4-prop-1-cor-2 .statement}
 
-Corollary 3. Let K be a quasi-compact normal subgroup of a topological group G, and let φ be the canonical mapping G → G/K. Then for each closed subgroup A of G the canonical bijection of A/A ∩ K onto φ(A) is an isomorphism of topological groups.
+If K is a quasi-compact subgroup of a topological group G, then the equivalence relation $ x^{-1}y \in K $ is closed, and the canonical mapping $ \varphi : G \to G/K $ is proper.
+
+#### Corollary 3 {#top-iii-s4-prop-1-cor-3 .statement}
+
+Let K be a quasi-compact normal subgroup of a topological group G, and let φ be the canonical mapping G → G/K. Then for each closed subgroup A of G the canonical bijection of A/A ∩ K onto φ(A) is an isomorphism of topological groups.
 
 Since x⁻¹y ∈ K is a closed equivalence relation (Corollary 2), the Corollary follows from Chapter I, § 5, no. 2, Proposition 4.
 
-Proposition 2. Let K be a compact group operating continuously on a Hausdorff space X. Then:
+#### Proposition 2 {#top-iii-s4-prop-2 .statement}
+
+Let K be a compact group operating continuously on a Hausdorff space X. Then:
 
 a) K operates properly on X.
 b) The mapping (s, x) → s.x of K × X into X is proper.
@@ -100,11 +110,15 @@ c) The canonical mapping of X onto X/K is proper.
 
 b) is a consequence of Proposition 1. As to a), since K is compact, pr₂ : (s, x) → x is proper (Chapter I, § 10, no. 2, Theorem 1, Corollary 5); hence, X being Hausdorff, (s, x) → (x, s.x) is proper (Chapter I, § 10, no. 1, Proposition 5, Corollary 3). It remains to prove c). By Corollary 1 to Proposition 1, the canonical mapping φ : X → X/K is closed. If Z is any topological space and if we make K operate trivially on Z, then K operates continuously on X × Z and hence the canonical mapping X × Z → (X × Z)/K is closed. But (X × Z)/K can be canonically identified with (X/K) × Z (§ 2, no. 4, Lemma 2 and Chapter I, § 5, no. 3, Corollary to Proposition 8); hence the canonical mapping X × Z → (X × Z)/K can be identified with φ × 1, and since it is closed for all Z it follows that φ is proper.
 
-Corollary 1. Under the hypotheses of Proposition 2, X is compact (resp. locally compact) if and only if X/K is compact (resp. locally compact).
+#### Corollary 1 {#top-iii-s4-prop-2-cor-1 .statement}
+
+Under the hypotheses of Proposition 2, X is compact (resp. locally compact) if and only if X/K is compact (resp. locally compact).
 
 This follows from the fact that the canonical mapping X → X/K is proper, in view of Proposition 9 of Chapter I, § 10, no. 4.
 
-Corollary 2. Let G be a Hausdorff topological group and let K be a compact subgroup of G. Then G is compact (resp. locally compact) if and only if G/K is compact (resp. locally compact).
+#### Corollary 2 {#top-iii-s4-prop-2-cor-2 .statement}
+
+Let G be a Hausdorff topological group and let K be a compact subgroup of G. Then G is compact (resp. locally compact) if and only if G/K is compact (resp. locally compact).
 
 Apply Corollary 1 to K operating on G by right translations.
 
@@ -202,7 +216,9 @@ If G is compact, the condition of Proposition 7 is trivially satisfied; we thus 
 
 Proposition 7 shows in particular that a discrete group G, operating continuously on a Hausdorff space X, operates properly on X if and only if, for each pair (x, y) of points of X, there is a neighbourhood V_x of x and a neighbourhood V_y of y such that the set of points s ∈ G for which s · V_x ∩ V_y ≠ ∅ is finite.
 
-Proposition 8. Let G be a discrete group operating properly on a Hausdorff space X. Let x be a point of X and let K_x be the stabilizer of x. Then:
+#### Proposition 8 {#top-iii-s4-prop-8 .statement}
+
+Let G be a discrete group operating properly on a Hausdorff space X. Let x be a point of X and let K_x be the stabilizer of x. Then:
 
 a) The subgroup K_x is finite and there is an open set U ⊂ X, containing x, which is stable under K_x, and on which the equivalence relation induced by the relation defined by G is the equivalence relation defined by K_x.
 

@@ -2701,10 +2701,10 @@ books:
               first_pdf_page: 23
               last_pdf_page: 125
               subsections: 6
-              statements: 15
+              statements: 23
               exercises: 9
               extraction: ocr
-              content_sha256: b9cd185029b512b205a3cdf1aae7fc8bf3cfec4bfd257008927924ec4645da1a
+              content_sha256: 60eb5181ade6fd9120d7cc209b1d41bc49ca6f6965a7520895b890532b63ba38
             - kind: section
               section: 2
               title: Continuous functions
@@ -2713,10 +2713,10 @@ books:
               first_pdf_page: 31
               last_pdf_page: 128
               subsections: 5
-              statements: 20
+              statements: 26
               exercises: 5
               extraction: ocr
-              content_sha256: dd22d38e63b7a268d27a4743ba34e73d1f8f834303eaf5b19a151c50c12ee463
+              content_sha256: a850e329d6d5ae9ce40027bd1275f860692c663d82de376f3f95fd8324105c60
             - kind: section
               section: 3
               title: Subspaces, quotient spaces
@@ -2725,10 +2725,10 @@ books:
               first_pdf_page: 41
               last_pdf_page: 131
               subsections: 6
-              statements: 19
+              statements: 24
               exercises: 16
               extraction: ocr
-              content_sha256: afe41b90d57c698bf6d3e281277520edd96fe1760f97917a467f143739072d0f
+              content_sha256: 2a3d70f53ec163be9e91c23ac7101d34bc71f35b0c638099e7ad4a01ca894dc9
             - kind: section
               section: 4
               title: Product of topological spaces
@@ -2737,10 +2737,10 @@ books:
               first_pdf_page: 49
               last_pdf_page: 133
               subsections: 4
-              statements: 20
+              statements: 21
               exercises: 3
               extraction: ocr
-              content_sha256: 5a9824061e2ea4fa0827ee0325fdb55d1137322e749811d7d10d0957cc215eeb
+              content_sha256: c92011a27ae84f64199bc5c751e4506bd05a79dad58b11cbcf6ac857846cfa96
             - kind: section
               section: 5
               title: Open mappings and closed mappings
@@ -2761,10 +2761,10 @@ books:
               first_pdf_page: 63
               last_pdf_page: 138
               subsections: 10
-              statements: 24
+              statements: 30
               exercises: 8
               extraction: ocr
-              content_sha256: 8f62050d10979a0fea8f9c3915a8c4daacba63ab011f3f840e88760f53180fba
+              content_sha256: b69127ace6a71b69e5bfa60e86cfec121882d7f5cc6deb65e6ca91d61c68a4ae
             - kind: section
               section: 7
               title: Limits
@@ -2773,10 +2773,10 @@ books:
               first_pdf_page: 74
               last_pdf_page: 139
               subsections: 6
-              statements: 22
+              statements: 23
               exercises: 7
               extraction: ocr
-              content_sha256: 9689a05caa3130f5d0bc74c903574c7dd7d84da94ac182be4da0041638268549
+              content_sha256: 314060d15b48a8dfbe40c8619729e0e5b570ecf1a0a1efbdf2de1bbb9664a829
             - kind: section
               section: 8
               title: Hausdorff spaces and regular spaces
@@ -2785,10 +2785,10 @@ books:
               first_pdf_page: 81
               last_pdf_page: 147
               subsections: 6
-              statements: 23
+              statements: 28
               exercises: 12
               extraction: ocr
-              content_sha256: 17c0b38192fbf4ad9ed8edf50611f439f664df767af8b3f3d67824bec9136b99
+              content_sha256: 5be2c158ce26c70a533de7a2831009bf912d2b3aabc5a32fe8dabbb703de423d
             - kind: section
               section: 9
               title: Compact spaces and locally compact spaces
@@ -2797,10 +2797,10 @@ books:
               first_pdf_page: 89
               last_pdf_page: 156
               subsections: 10
-              statements: 41
+              statements: 50
               exercises: 4
               extraction: ocr
-              content_sha256: 2bc6fa8b7c87bcb61c65efb6955c9f4fab4c13949d9fb4b076d3ac79cd0df87d
+              content_sha256: ea4e6b44516b83eeb3c2d7eac50490f302ca8fe98e1658cd11ee7efac69f4df3
             - kind: section
               section: 10
               title: Proper mappings
@@ -2809,10 +2809,10 @@ books:
               first_pdf_page: 103
               last_pdf_page: 161
               subsections: 4
-              statements: 25
+              statements: 30
               exercises: 8
               extraction: ocr
-              content_sha256: a1ec5404bc216e6059c71632bd54b95434a91b8772e2e71228f45d94583c0177
+              content_sha256: dbc7fb11c2caffb7665f50d824927c81bc19d0007face4b58efe12f172f6eb6d
             - kind: section
               section: 11
               title: Connectedness
@@ -2821,10 +2821,10 @@ books:
               first_pdf_page: 113
               last_pdf_page: 167
               subsections: 7
-              statements: 23
+              statements: 28
               exercises: 3
               extraction: ocr
-              content_sha256: 215fa81153cfa4584465ab28d6a694e2bc5c0cf7ecc50bd2d83e6de8d246f327
+              content_sha256: 49e623cd592377d1f90b814606ff58adaeff059b1eb51901b6753b81790419ce
             - kind: historical
               title: Historical Note
               path: content/en/top/I/historical_note.md
@@ -2856,10 +2856,10 @@ books:
               first_pdf_page: 175
               last_pdf_page: 213
               subsections: 2
-              statements: 12
+              statements: 13
               exercises: 4
               extraction: ocr
-              content_sha256: 30414f7ac83e4f792549b3475521e040386f0105427eada0ac0293018d056ba2
+              content_sha256: 836a98a1f448d26c2dd28d696efabd443182ff29cecbdaa1f98458ad64ae6550
             - kind: section
               section: 2
               title: Uniformly continuous functions
@@ -2868,10 +2868,10 @@ books:
               first_pdf_page: 180
               last_pdf_page: 214
               subsections: 7
-              statements: 18
+              statements: 25
               exercises: 6
               extraction: ocr
-              content_sha256: 979ebb90d903791c0020301c2619af0cec9cdcfebc8ce3503eb0f69a88d6979e
+              content_sha256: dfab39c7f29bdf3cc9ab6822358b2235321a2a2e044ac8be660b8a71a747aac7
             - kind: section
               section: 3
               title: Complete spaces
@@ -2880,10 +2880,10 @@ books:
               first_pdf_page: 187
               last_pdf_page: 215
               subsections: 9
-              statements: 37
+              statements: 48
               exercises: 3
               extraction: ocr
-              content_sha256: 75bcefd8313784dddee9c3b6ab6545eebfe522fe3308d6ea1b679414d70d6847
+              content_sha256: daf59b5609a6489a672918c9bebb24140f45498174c58e5b51131f4c3c2181dd
             - kind: section
               section: 4
               title: Relations between uniform spaces and compact spaces
@@ -2927,10 +2927,10 @@ books:
               first_pdf_page: 225
               last_pdf_page: 304
               subsections: 3
-              statements: 10
+              statements: 11
               exercises: 9
               extraction: ocr
-              content_sha256: f632c89db166983f60576d923190d72c56e653bddaccfa6fce26684e889953b3
+              content_sha256: affaabe14a2e0bad085ddd12018576d2fcad7b3610b4c325c8565f53e07ee793
             - kind: section
               section: 2
               title: Subgroups, quotient groups, homomorphisms homogeneous spaces, product groups
@@ -2939,10 +2939,10 @@ books:
               first_pdf_page: 231
               last_pdf_page: 311
               subsections: 10
-              statements: 42
+              statements: 45
               exercises: 3
               extraction: ocr
-              content_sha256: 5d0b86a12c372cbc4343f0344e004007ca3f8165cb544200b1576e46def099ee
+              content_sha256: 47d9658517b4c1e8958f34e74e02f8ba4e12d17566a6a1aa7278c3a125d4cebb
             - kind: section
               section: 3
               title: Uniform structures on groups
@@ -2951,10 +2951,10 @@ books:
               first_pdf_page: 248
               last_pdf_page: 313
               subsections: 5
-              statements: 17
+              statements: 18
               exercises: 6
               extraction: ocr
-              content_sha256: 8008ce640cebd669d9cf4b61aa73bcb16f18db8f57c6b4daef416edbe820a182
+              content_sha256: 4972c9de1d98d922cd654a81053514f5b37a77fff91e301359778a5178c30ef9
             - kind: section
               section: 4
               title: Groups operating properly on a topological space; compact ness in topological groups and spaces with operators
@@ -2963,10 +2963,10 @@ books:
               first_pdf_page: 256
               last_pdf_page: 320
               subsections: 6
-              statements: 25
+              statements: 33
               exercises: 8
               extraction: ocr
-              content_sha256: 8205dec030d94d62235a23e9aa5448975905559290f64fd36d95de58a47fe010
+              content_sha256: 98bbe11fdf6749e206e1e4299f5988df931a0fc935bdd492e0606a77dcab9459
             - kind: section
               section: 5
               title: Infinite sums in commutative groups
@@ -2975,10 +2975,10 @@ books:
               first_pdf_page: 267
               last_pdf_page: 321
               subsections: 7
-              statements: 17
+              statements: 19
               exercises: 5
               extraction: ocr
-              content_sha256: 7d42d3f2ab0357b72e1990167e60f8aa3f97048973ac0a84011ec395a58888e8
+              content_sha256: a04569f1d51737a665ddf223a5887f3c79270fcedf0d0fe1ed5aefa3a1a5df76
             - kind: section
               section: 6
               title: Topological groups with operators; topological rings division rings and fields
@@ -2999,10 +2999,10 @@ books:
               first_pdf_page: 290
               last_pdf_page: 332
               subsections: 4
-              statements: 8
+              statements: 15
               exercises: 2
               extraction: ocr
-              content_sha256: e678b9a9f1446fd8b42101f405e14fd8292fa6d23948e0517bbee4bc934a0395
+              content_sha256: d8ae46ff31970d55849edbf8f1456dea36de8f73d914c85e3eae63c8b2a041e6
             - kind: historical
               title: Historical Note
               path: content/en/top/III/historical_note.md
@@ -3034,10 +3034,10 @@ books:
               first_pdf_page: 335
               last_pdf_page: 387
               subsections: 6
-              statements: 4
+              statements: 10
               exercises: 2
               extraction: ocr
-              content_sha256: 0b360eb18b03400acf59a9763f6cea6113093da880652de5916bf2cc086f7eca
+              content_sha256: c8730b6ed3baf481340205505e89db2058463f5d870ee4ad6c6bb5892ecc991e
             - kind: section
               section: 2
               title: Fundamental topological properties of the real line
@@ -3046,10 +3046,10 @@ books:
               first_pdf_page: 340
               last_pdf_page: 393
               subsections: 6
-              statements: 10
+              statements: 15
               exercises: 5
               extraction: ocr
-              content_sha256: dca95919ad00007573bfd19893426aad9a8925afb87ee65f63ef2ddd5c547808
+              content_sha256: b1e4c9f021ecade2d42724d9ff68e18f4010ecf25a57d805b5f68347b8836f21
             - kind: section
               section: 3
               title: The field of real numbers
@@ -3082,10 +3082,10 @@ books:
               first_pdf_page: 353
               last_pdf_page: 399
               subsections: 7
-              statements: 28
+              statements: 30
               exercises: 6
               extraction: ocr
-              content_sha256: 133ec9c067d3bb7650d8435fe3cc07cd684221be5e0e1fd9de71ad152d867cce
+              content_sha256: 3619523eedec18461c8156e453fc7b714426edb1b942c26194e2855e6d24b459
             - kind: section
               section: 6
               title: Continuous and semi-continuous real-valued functions
@@ -3094,10 +3094,10 @@ books:
               first_pdf_page: 365
               last_pdf_page: 403
               subsections: 2
-              statements: 12
+              statements: 15
               exercises: 6
               extraction: ocr
-              content_sha256: 439a2964f38f814abda582bf5eb86f804846ba75587b7877a5ead6e4df08c063
+              content_sha256: 2d73c4454ab304cb00c9ee269dc0713aebdab5f45aa6bec1c7a8237ee8a3376e
             - kind: section
               section: 7
               title: Infinite sums and products of real numbers
@@ -3106,10 +3106,10 @@ books:
               first_pdf_page: 369
               last_pdf_page: 407
               subsections: 6
-              statements: 17
+              statements: 20
               exercises: 11
               extraction: ocr
-              content_sha256: e958c056f0e9d3fd661423e20ee08e6f4fa09d3ff836af7cbb45199211b7979c
+              content_sha256: 2663d8c219d754cff4afb607087a87f701e934fe8051cc66b900cf47a8e1cea4
             - kind: section
               section: 8
               title: Usual expansions of real numbers; the power of R
@@ -3118,10 +3118,10 @@ books:
               first_pdf_page: 379
               last_pdf_page: 411
               subsections: 6
-              statements: 2
+              statements: 3
               exercises: 3
               extraction: ocr
-              content_sha256: 914f3a44829462fc66adf76c60db064b9c5883f0d26bf2cfdd49a49ba9f8b612
+              content_sha256: b2bfd4fbc49b036cf80faadde5f2068a1c056da3fbc11b10c1b5185ec846e570
             - kind: historical
               title: Historical Note
               path: content/en/top/IV/historical_note.md
@@ -3661,3 +3661,222 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 8bcc1e93fc82a2afdc8177bd0da28b9320120bd88e8fafc4cac629a5b42ba698
+    - id: lie-i-iii
+      chapters:
+        - chapter: I
+          title: Lie Algebras
+          sections:
+            - kind: front
+              title: Lie Algebras
+              path: content/en/lie/I/00_frontmatter.md
+              first_pdf_page: 19
+              last_pdf_page: 19
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 8afe70562513877b368ceba1aaff9785465aafb4a2941ced026865632418cba6
+            - kind: section
+              section: 1
+              title: Definition of Lie algebras
+              path: content/en/lie/I/01_s1_definition_of_lie_algebras.md
+              label: lie-i-s1
+              first_pdf_page: 19
+              last_pdf_page: 101
+              subsections: 9
+              statements: 19
+              exercises: 27
+              extraction: ocr
+              content_sha256: 200645b05e1eae0fe7a82c3040ec8b1112ad78d7aec83b423045d07f022f465a
+            - kind: section
+              section: 2
+              title: Enveloping algebra of a Lie algebra
+              path: content/en/lie/I/02_s2_enveloping_algebra_of_a_lie_algebra.md
+              label: lie-i-s2
+              first_pdf_page: 30
+              last_pdf_page: 103
+              subsections: 9
+              statements: 22
+              exercises: 10
+              extraction: ocr
+              content_sha256: f0bd841efbbac981a876036dbec8110d2b92846d3219b7ed990acbe69caf7041
+            - kind: section
+              section: 3
+              title: Representations
+              path: content/en/lie/I/03_s3_representations.md
+              label: lie-i-s3
+              first_pdf_page: 43
+              last_pdf_page: 109
+              subsections: 8
+              statements: 24
+              exercises: 12
+              extraction: ocr
+              content_sha256: 7ab563cdcad710fd8134e2ea91645a5551789af8574040204b5a97e4361087ae
+            - kind: section
+              section: 4
+              title: Nilpotent Lie algebras
+              path: content/en/lie/I/04_s4_nilpotent_lie_algebras.md
+              label: lie-i-s4
+              first_pdf_page: 56
+              last_pdf_page: 116
+              subsections: 5
+              statements: 18
+              exercises: 27
+              extraction: ocr
+              content_sha256: d87c70e5a42b7b9a17854f1d80bfa5a066b6bff0b576adf302f3fb868a0109c7
+            - kind: section
+              section: 5
+              title: Solvable Lie algebras
+              path: content/en/lie/I/05_s5_solvable_lie_algebras.md
+              label: lie-i-s5
+              first_pdf_page: 61
+              last_pdf_page: 119
+              subsections: 6
+              statements: 27
+              exercises: 17
+              extraction: ocr
+              content_sha256: 8a5f1722668ed0f1d583adf9e15208692fd4cf6dd73a499078943bdc4e608704
+            - kind: section
+              section: 6
+              title: Semi-simple Lie algebras
+              path: content/en/lie/I/06_s6_semi_simple_lie_algebras.md
+              label: lie-i-s6
+              first_pdf_page: 68
+              last_pdf_page: 127
+              subsections: 10
+              statements: 50
+              exercises: 27
+              extraction: ocr
+              content_sha256: ca11fbca171ac7274c26c58ce41a90b0164cd00d1507e007fcd9d059503138a2
+            - kind: section
+              section: 7
+              title: Ado’s Theorem
+              path: content/en/lie/I/07_s7_ado_s_theorem.md
+              label: lie-i-s7
+              first_pdf_page: 86
+              last_pdf_page: 128
+              subsections: 3
+              statements: 6
+              exercises: 5
+              extraction: ocr
+              content_sha256: 4c546b1f017c12f6c6e698c1b3aa6df6b31f82329588587782c17ce7674f0bb0
+        - chapter: II
+          title: FREE LIE ALGEBRAS
+          sections:
+            - kind: front
+              title: FREE LIE ALGEBRAS
+              path: content/en/lie/II/00_frontmatter.md
+              first_pdf_page: 129
+              last_pdf_page: 129
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 67e0a140c7effd9b2fa4e46675caa1cf25bfc90108fb02452349c279bff70305
+            - kind: section
+              section: 1
+              title: Enveloping bigebra of a Lie algebra
+              path: content/en/lie/II/01_s1_enveloping_bigebra_of_a_lie_algebra.md
+              label: lie-ii-s1
+              first_pdf_page: 129
+              last_pdf_page: 199
+              subsections: 6
+              statements: 24
+              exercises: 11
+              extraction: ocr
+              content_sha256: 2809a9ef30dc6d5e712bfdcb8c630966d7bcdf41020c5af1ebbaf978ef021eac
+            - kind: section
+              section: 2
+              title: Free Lie algebras
+              path: content/en/lie/II/02_s2_free_lie_algebras.md
+              label: lie-ii-s2
+              first_pdf_page: 140
+              last_pdf_page: 204
+              subsections: 11
+              statements: 32
+              exercises: 10
+              extraction: ocr
+              content_sha256: dda8db31275d170739c98a44fa1043a46273b08d3739cf5dbbd8aed934998868
+            - kind: section
+              section: 3
+              title: Enveloping algebra of the free Lie algebra
+              path: content/en/lie/II/03_s3_enveloping_algebra_of_the_free_lie.md
+              label: lie-ii-s3
+              first_pdf_page: 154
+              last_pdf_page: 205
+              subsections: 3
+              statements: 11
+              exercises: 4
+              extraction: ocr
+              content_sha256: f4f34ea02bb7115c2f0e770cf16c5748526ead7405459af1213c3959a954e319
+            - kind: section
+              section: 4
+              title: Central filtrations
+              path: content/en/lie/II/04_s4_central_filtrations.md
+              label: lie-ii-s4
+              first_pdf_page: 160
+              last_pdf_page: 211
+              subsections: 6
+              statements: 12
+              exercises: 18
+              extraction: ocr
+              content_sha256: 5e03da9e1230e76177507d2fcb775069fa5151b82031b069b6376a8f9a97c222
+            - kind: section
+              section: 5
+              title: Magnus algebras
+              path: content/en/lie/II/05_s5_magnus_algebras.md
+              label: lie-ii-s5
+              first_pdf_page: 167
+              last_pdf_page: 219
+              subsections: 5
+              statements: 14
+              exercises: 12
+              extraction: ocr
+              content_sha256: bad4e74403951e94fae22d37f0f1addf30ea18902739a7d9f01afac7e6586a5b
+            - kind: section
+              section: 6
+              title: The Hausdorff series
+              path: content/en/lie/II/06_s6_the_hausdorff_series.md
+              label: lie-ii-s6
+              first_pdf_page: 173
+              last_pdf_page: 222
+              subsections: 5
+              statements: 14
+              exercises: 3
+              extraction: ocr
+              content_sha256: 6926a052611075234c6e5314d9785a9e398ec4dae53b45975edfca06966ebc86
+            - kind: section
+              section: 7
+              title: Convergence of the Hausdorff series (real or complex case)
+              path: content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md
+              label: lie-ii-s7
+              first_pdf_page: 182
+              last_pdf_page: 222
+              subsections: 3
+              statements: 4
+              exercises: 1
+              extraction: ocr
+              content_sha256: 5da45aeabf8166b0333b151ccda2df4e0070f0333ee675c1305d7ea8d515cb86
+            - kind: section
+              section: 8
+              title: Convergence of the Hausdorff series (ultrametric case)
+              path: content/en/lie/II/08_s8_convergence_of_the_hausdorff_series.md
+              label: lie-ii-s8
+              first_pdf_page: 188
+              last_pdf_page: 225
+              subsections: 4
+              statements: 9
+              exercises: 4
+              extraction: ocr
+              content_sha256: 01afa8ccecb74d5cf8ffb4c248732a6931320cd4e232fe2e9a2399104a37befa
+            - kind: appendix
+              title: Möbius function
+              path: content/en/lie/II/A_a_mobius_function.md
+              label: lie-ii-a0
+              first_pdf_page: 194
+              last_pdf_page: 225
+              subsections: 0
+              statements: 1
+              exercises: 2
+              extraction: ocr
+              content_sha256: d802f3bf7d9f7f09e088205f36806c5e4782b38de7866dc8943e4c4407e3ee59

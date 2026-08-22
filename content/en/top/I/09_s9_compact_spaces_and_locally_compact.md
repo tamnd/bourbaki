@@ -50,16 +50,18 @@ subsections:
       title: PARACOMPACT SPACES
       page: 0
       pdf_page: 100
-statements: 41
+statements: 50
 exercises: 4
-content_sha256: 2bc6fa8b7c87bcb61c65efb6955c9f4fab4c13949d9fb4b076d3ac79cd0df87d
+content_sha256: ea4e6b44516b83eeb3c2d7eac50490f302ca8fe98e1658cd11ee7efac69f4df3
 ---
 
 ## 9. COMPACT SPACES AND LOCALLY COMPACT SPACES
 
 ### 1. QUASI-COMPACT SPACES AND COMPACT SPACES
 
-Definition 1. *A topological space* $ X $ *is said to be quasi-compact if it satisfies the following axiom*:
+#### Definition 1 {#top-i-s9-def-1 .statement}
+
+*A topological space* $ X $ *is said to be quasi-compact if it satisfies the following axiom*:
 
 (C) *Every filter on* $ X $ *has at least one cluster point*.
 
@@ -218,9 +220,13 @@ This follows immediately from Corollary 1 and Proposition 4 of no. 3.
 
 In particular:
 
-Corollary 3. *A Hausdorff topology which is coarser than the topology of a quasi-compact space must coincide with the latter.*
+#### Corollary 3 {#top-i-s9-thm-2-cor-3 .statement}
 
-Corollary 4. *Let $ X $ be a topological space and $ R $ a Hausdorff equivalence relation on $ X $.*
+*A Hausdorff topology which is coarser than the topology of a quasi-compact space must coincide with the latter.*
+
+#### Corollary 4 {#top-i-s9-thm-2-cor-4 .statement}
+
+*Let $ X $ be a topological space and $ R $ a Hausdorff equivalence relation on $ X $.*
 
 a) *If there is a quasi-compact set $ K $ in $ X $ which meets every equivalence class mod $ R $, then $ X/R $ is compact and the canonical mapping of $ K/R_K $ onto $ X/R $ is a homeomorphism.*
 
@@ -230,11 +236,15 @@ Let $ f $ be the restriction to $ K $ of the canonical mapping $ X \to X/R $. Si
 
 ### 5. PRODUCT OF COMPACT SPACES
 
-Theorem 3 (Tychonoff). *Every product of quasi-compact (resp. compact) spaces is quasi-compact (resp. compact). Conversely, if a product of non-empty spaces is quasi-compact (resp. compact) then each of the factors is quasi-compact (resp. compact).*
+#### Theorem 3 (Tychonoff) {#top-i-s9-thm-3 .statement}
+
+*Every product of quasi-compact (resp. compact) spaces is quasi-compact (resp. compact). Conversely, if a product of non-empty spaces is quasi-compact (resp. compact) then each of the factors is quasi-compact (resp. compact).*
 
 In view of the characterization of Hausdorff product spaces given in \$ 8, no. 2, Proposition 7 it is enough to prove the assertions for quasi-compact spaces. If $ X = \prod_{i \in I} X_i $ is quasi-compact and non-empty, then $ X_i = \operatorname{pr}_i(X) $ is quasi-compact by reason of Theorem 2 of no. 4. Conversely, suppose the $ X_i $ are quasi-compact and let $ \mathcal{U} $ be an ultrafilter on $ X $; then for each $ i \in I $, $ \operatorname{pr}_i(\mathcal{U}) $ is an ultrafilter base on $ X_i $ (\$ 6, no. 6, Proposition 10) which therefore converges by reason of axiom (C'); hence $ \mathcal{U} $ is convergent (\$ 7, no. 6, Corollary 1 of Proposition 10) and therefore $ X $ is quasi-compact.
 
-Corollary. *For a subset of a product of topological spaces to be relatively quasi-compact it is necessary and sufficient that each of its projections should be relatively quasi-compact in the corresponding factor.*
+#### Corollary {#top-i-s9-n5-cor-1 .statement}
+
+*For a subset of a product of topological spaces to be relatively quasi-compact it is necessary and sufficient that each of its projections should be relatively quasi-compact in the corresponding factor.*
 
 Necessity follows from Theorem 2 of \$ 4. To prove sufficiency, let $ A $ be a subset of $ \prod_i X_i $ such that, for each index $ i $, $ \operatorname{pr}_i(A) $ is contained in a quasi-compact subset $ K_i $ of $ X_i $; then $ A $ is contained in the quasi-compact subset $ \prod_i K_i $ of $ \prod_i X_i $.
 
@@ -373,15 +383,21 @@ A discrete space is $ \sigma $-compact if and only if it is countable.
 
 A Hausdorff space can be a countable union of compact subspaces without being locally compact. \* An example is Hilbert space with the weak topology, as we shall show in a later volume.
 
-Proposition 15. *If $ X $ is a locally compact $ \sigma $-compact space, there is a sequence $ (U_n) $ of relatively compact open subsets of $ X $ which cover $ X $, such that $ \overline{U}_n \subset U_{n+1} $ for each $ n $.
+#### Proposition 15 {#top-i-s9-prop-15 .statement}
+
+*If $ X $ is a locally compact $ \sigma $-compact space, there is a sequence $ (U_n) $ of relatively compact open subsets of $ X $ which cover $ X $, such that $ \overline{U}_n \subset U_{n+1} $ for each $ n $.
 
 Let $ X $ be the union of a sequence $ (K_n) $ of compact sets. Let $ U_1 $ be a relatively compact open neighbourhood of $ K_1 $ (no. 7, Proposition 10) and define $ U_n $ inductively for $ n > 1 $ to be a relatively compact open neighbourhood of $ \overline{U}_{n-1} \in K_n $ (no. 3, Proposition 5; no. 7, Proposition 10). The sequence $ (U_n) $ clearly has the required properties.
 
-Corollary 1. *With the notation of Proposition 15, every compact subset $ K $ of $ X $ is contained in some $ U_n $.
+#### Corollary 1 {#top-i-s9-prop-15-cor-1 .statement}
+
+*With the notation of Proposition 15, every compact subset $ K $ of $ X $ is contained in some $ U_n $.
 
 For $ K $ can be covered by a finite number of the $ U_k $, by axiom (C''').
 
-Corollary 2. *Let $ X $ be a locally compact space and let $ X' $ be the compact space obtained by adjoining a point at infinity $ \omega $ to $ X $ (no. 8). Then $ X $ is $ \sigma $-compact if and only if the point $ \omega $ has a countable fundamental system of neighbourhoods in $ X' $.
+#### Corollary 2 {#top-i-s9-prop-15-cor-2 .statement}
+
+*Let $ X $ be a locally compact space and let $ X' $ be the compact space obtained by adjoining a point at infinity $ \omega $ to $ X $ (no. 8). Then $ X $ is $ \sigma $-compact if and only if the point $ \omega $ has a countable fundamental system of neighbourhoods in $ X' $.
 
 If $ X $ is $ \sigma $-compact we can construct a sequence of subsets $ U_n $ of $ X $ as in Proposition 15, and the neighbourhoods $ X' - \overline{U}_n $ of $ \omega $ in $ X' $ form a fundamental system of neighbourhoods of $ \omega $ by reason of Corollary 1. The converse follows from the fact that the complements of open neighbourhoods of $ \omega $ are compact subsets of $ X $.
 
@@ -391,7 +407,9 @@ Notice, however, that an open subspace of a compact space need not be $ \sigma $
 
 ### 10. PARACOMPACT SPACES
 
-Definition 6. *A topological space is said to be paracompact if it is Hausdorff and satisfies the following axiom:
+#### Definition 6 {#top-i-s9-def-6 .statement}
+
+*A topological space is said to be paracompact if it is Hausdorff and satisfies the following axiom:
 
 (PC) *Every open covering $ \mathcal{R} $ of $ X $ has a locally finite open refinement $ \mathcal{R}' $.*
 (Set Theory, Chapter II, § 4, no. 6, Definition 5).

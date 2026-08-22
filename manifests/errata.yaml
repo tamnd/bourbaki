@@ -367,6 +367,25 @@ contents:
           read: 'Tensor product of hilbertian spaces'
           why: The text layer of the printed contents, pdf page 368, reads the b of
             hilbertian as an h, as it does in the body on pdf page 264.
+    - book: lie-i-iii
+      errata:
+        - says: '      5. Application to linear representations ............... 215'
+          read: '      5. Application to linear representations ............... 315'
+          why: The reading of the printed contents, pdf page 16, puts no. 5 of chapter
+            III § 6 on page 215. That page is in chapter III, so nothing downstream
+            rejects it, but it is a hundred pages before the § the no. belongs to. It
+            is 315. No. 4 of the § is on 311 and no. 6 is on 316, and pdf 333, which
+            the page map puts at printed 315, heads APPLICATION TO LINEAR
+            REPRESENTATIONS, carries § 6.5 in its running head and prints the number 5
+            in front of the heading.
+        - says: '      5. Substitutions in the Hausdorff series .......... 171'
+          read: '      5. Substitutions in the Hausdorff series .......... 161'
+          why: The reading of the printed contents, pdf page 14, puts no. 5 of chapter
+            II § 6 on page 171. The § before it ends at 160 and § 7 opens at 164, so
+            171 is four pages past the end of its own §, and 171 is where § 8 no. 1
+            already is. It is 161. Pdf 179, which the page map puts at printed 161,
+            prints the heading 5. SUBSTITUTIONS IN THE HAUSDORFF SERIES and carries
+            the same words in its running head.
     - book: lie-iv-vi
       errata:
         - says: '   L   Definitions'

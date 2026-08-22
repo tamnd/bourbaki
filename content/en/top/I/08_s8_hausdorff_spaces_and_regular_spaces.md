@@ -34,9 +34,9 @@ subsections:
       title: EQUIVALENCE RELATIONS ON A REGULAR SPACE
       page: 0
       pdf_page: 88
-statements: 23
+statements: 28
 exercises: 12
-content_sha256: 17c0b38192fbf4ad9ed8edf50611f439f664df767af8b3f3d67824bec9136b99
+content_sha256: 5be2c158ce26c70a533de7a2831009bf912d2b3aabc5a32fe8dabbb703de423d
 ---
 
 ## 8. HAUSDORFF SPACES AND REGULAR SPACES
@@ -163,11 +163,15 @@ There exist *non-Hausdorff* spaces in which every point has a Hausdorff neighbou
 
 Let $ X = \prod_{i \in I} X_i $ be a product of topological spaces. Then if $ x, y $ are two distinct points of $ X $, we have $ \operatorname{pr}_i x \neq \operatorname{pr}_i y $ for some index $ i $, and Proposition 5 of no. 1 shows that $ X $ is Hausdorff if the $ X_i $ are. Conversely, if $ X $ is Hausdorff and the $ X_i $ are non-empty, then each $ X_i $ is homeomorphic to a subspace of $ X $ (\S 4, no. 2, Proposition 4) and is therefore Hausdorff.
 
-Corollary 1. *Let $ X $ be a set, let $ (Y_i)_{i \in I} $ be a family of Hausdorff topological spaces, and for each $ i \in I $ let $ f_i $ be a mapping of $ X $ into $ Y_i $. Let $ X $ carry the coarsest topology $ \mathcal{T} $ for which the $ f_i $ are continuous. Then a necessary and sufficient condition for $ X $ to be Hausdorff is that for each pair of distinct points $ x, y $ of $ X $ we have $ f_i(x) \neq f_i(y) $ for some index $ i \in I $.*
+#### Corollary 1 {#top-i-s8-prop-7-cor-1 .statement}
+
+*Let $ X $ be a set, let $ (Y_i)_{i \in I} $ be a family of Hausdorff topological spaces, and for each $ i \in I $ let $ f_i $ be a mapping of $ X $ into $ Y_i $. Let $ X $ carry the coarsest topology $ \mathcal{T} $ for which the $ f_i $ are continuous. Then a necessary and sufficient condition for $ X $ to be Hausdorff is that for each pair of distinct points $ x, y $ of $ X $ we have $ f_i(x) \neq f_i(y) $ for some index $ i \in I $.*
 
 The condition is sufficient by reason of Proposition 5 of no. 1. Conversely, suppose $ X $ is Hausdorff; let $ Y = \prod_{i \in I} Y_i $ and let $ f = (f_i)_{i \in I} $ be the mapping $ x \to (f_i(x)) $. By Proposition 7 above $ Y $ is Hausdorff, and by Proposition 3 of \S 4, no. 1, $ \mathcal{T} $ is the inverse image under $ f $ of the topology of $ Y $. If $ f(x) = f(y) $ for two distinct points $ x, y $ of $ X $ it is clear that every open set (in the topology $ \mathcal{T} $) which contains $ x $ also contains $ y $, contrary to the hypothesis that $ X $ is Hausdorff.
 
-Corollary 2. *Let $ (X_\alpha, f_{\alpha \beta}) $ be an inverse system of topological spaces. If the $ X_\alpha $ are Hausdorff, then $ X = \varprojlim X_\alpha $ is Hausdorff and is a closed subspace of $ \prod_\alpha X_\alpha $.
+#### Corollary 2 {#top-i-s8-prop-7-cor-2 .statement}
+
+*Let $ (X_\alpha, f_{\alpha \beta}) $ be an inverse system of topological spaces. If the $ X_\alpha $ are Hausdorff, then $ X = \varprojlim X_\alpha $ is Hausdorff and is a closed subspace of $ \prod_\alpha X_\alpha $.
 
 The first assertion follows from the fact that $ X $ is a subspace of the Hausdorff space $ \prod_\alpha X_\alpha $ (Proposition 7). To show that $ X $ is closed in the product space, let $ F_{\alpha \beta} $ ($ \alpha \leq \beta $) be the subset of $ \prod_\alpha X_\alpha $ consisting of points $ x $ for which $ \operatorname{pr}_\alpha x = f_{\alpha \beta}(\operatorname{pr}_\beta x) $; the $ F_{\alpha \beta} $ are closed in $ \prod_\alpha X_\alpha $ (no. 1, Proposition 2), hence so is their intersection $ X $.
 
@@ -179,7 +183,9 @@ Let us look for conditions under which a quotient space $ X/R $ is *Hausdorff* (
 
 The definition of open sets in $ X/R $ gives rise to the following necessary and sufficient condition: $ X/R $ is Hausdorff if and only if any two distinct equivalence classes in $ X $ are contained in disjoint saturated open subsets of $ X $. We shall give other more usable conditions.
 
-Proposition 8. *A necessary condition for the quotient space $ X/R $ to be Hausdorff is that the graph $ C $ of $ R $ is closed in $ X \times X $. If the equivalence relation $ R $ is open, this condition is also sufficient.*
+#### Proposition 8 {#top-i-s8-prop-8 .statement}
+
+*A necessary condition for the quotient space $ X/R $ to be Hausdorff is that the graph $ C $ of $ R $ is closed in $ X \times X $. If the equivalence relation $ R $ is open, this condition is also sufficient.*
 
 Let $ \varphi : X \to X/R $ be the canonical mapping; then $ C $ is the inverse image under $ \varphi \times \varphi : X \times X \to (X/R) \times (X/R) $ of the diagonal $ \Delta $ of $ (X/R) \times (X/R) $. The first part of the proposition therefore follows from the continuity of $ \varphi \times \varphi $ [Axiom (Hii) and Theorem 1 of § 2, no. 1]. If $ R $ is open then $ (X/R) \times (X/R) $ can be identified with the quotient space $ (X \times X)/(R \times R) $ ($ \S 5 $, no. 3, corollary to Proposition 8), and $ \Delta $ is then identified with the canonical image in $ (X \times X)/(R \times R) $ of the set $ C $, which is saturated with respect to $ R \times R $. Hence $ \Delta $ is closed in $ X \times X $ and therefore $ X $ is Hausdorff.
 
@@ -189,9 +195,13 @@ To show that $ X/R $ is Hausdorff we can also apply Proposition 5 of no. 1: $ M 
 
 In particular:
 
-Proposition 9. *If $ f $ is a continuous mapping of a topological space $ X $ into a Hausdorff space $ X' $, and $ R $ is the equivalence relation $ f(x) = f(y) $, then the quotient space $ X/R $ is Hausdorff.*
+#### Proposition 9 {#top-i-s8-prop-9 .statement}
 
-Proposition 10. *If $ X $ is a Hausdorff space, and if $ X $ has a continuous section $ s $ with respect to the equivalence relation $ R $, then $ X/R $ is Hausdorff and $ s(X/R) $ is closed in $ X $.*
+*If $ f $ is a continuous mapping of a topological space $ X $ into a Hausdorff space $ X' $, and $ R $ is the equivalence relation $ f(x) = f(y) $, then the quotient space $ X/R $ is Hausdorff.*
+
+#### Proposition 10 {#top-i-s8-prop-10 .statement}
+
+*If $ X $ is a Hausdorff space, and if $ X $ has a continuous section $ s $ with respect to the equivalence relation $ R $, then $ X/R $ is Hausdorff and $ s(X/R) $ is closed in $ X $.*
 
 For ($ \S 3 $, no. 5) $ X/R $ is homeomorphic to the subspace $ s(X/R) $ of $ X $, which is Hausdorff. Furthermore $ s(X/R) $ is the set of all $ x \in X $ such that $ s(\varphi(x)) = x $, where $ \varphi : X \to X/R $ is the canonical mapping; hence the second assertion follows from no. 1, Proposition 2.
 

@@ -30,9 +30,9 @@ subsections:
       title: UNIFORMITY AND COMPLETION OF A COMMUTATIVE TOPOLOGICAL GROUP
       page: 0
       pdf_page: 254
-statements: 17
+statements: 18
 exercises: 6
-content_sha256: 8008ce640cebd669d9cf4b61aa73bcb16f18db8f57c6b4daef416edbe820a182
+content_sha256: 4972c9de1d98d922cd654a81053514f5b37a77fff91e301359778a5178c30ef9
 ---
 
 ## 3. UNIFORM STRUCTURES ON GROUPS
@@ -145,7 +145,9 @@ Let $ G $ be a Hausdorff topological group. The uniform space $ G_d $ may be con
 
 1) Extension of $ xy $ and $ x^{-1} $ by continuity. Since the functions $ xy $ and $ x^{-1} $ are not in general uniformly continuous, we cannot apply the theorem of extension of uniformly continuous functions (Chapter II, § 3, no. 6, Theorem 2). Nevertheless, we can extend $ xy $, by virtue of Proposition 11 of Chapter II, § 3, no. 6 and the following Proposition:
 
-Proposition 6. Let $ \mathfrak{F} $ and $ \mathfrak{G} $ be two Cauchy filters on $ G_d $. Then the image of the filter $ \mathfrak{F} \times \mathfrak{G} $ under the mapping $ (x, y) \to xy $ is a Cauchy filter base on $ G_d $.
+#### Proposition 6 {#top-iii-s3-prop-6 .statement}
+
+Let $ \mathfrak{F} $ and $ \mathfrak{G} $ be two Cauchy filters on $ G_d $. Then the image of the filter $ \mathfrak{F} \times \mathfrak{G} $ under the mapping $ (x, y) \to xy $ is a Cauchy filter base on $ G_d $.
 
 Let us evaluate the "proximity" of $ xy $ and $ x'y' $ in $ G_d $; in other words, let us form the product $ (x'y')(xy)^{-1} = x'y'y^{-1}x^{-1} $. For each $ a \in G $, we can also write $ (x'y')(xy)^{-1} = (x'a^{-1})(ay'y^{-1}a^{-1})(ax^{-1}) $. We shall see that by suitable choice of $ a $, each of the three factors of this product is very small whenever the pairs $ (x, y) $ and $ (x', y') $ belong to a sufficiently small set of $ \mathfrak{F} \times \mathfrak{G} $. Let $ V $ be any neighbourhood of $ e $ in $ G $; then there is a $ V_d $-small set $ A \in \mathfrak{F} $. Choose $ a $ in $ A $, then if $ x $ and $ x' $ are any two points of $ A $, we have $ x'a^{-1} \in V $ and $ ax^{-1} \in V $. On the other hand, the relation $ ay'y^{-1}a^{-1} \in V $ is equivalent to
 $$

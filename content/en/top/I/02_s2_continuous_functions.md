@@ -30,30 +30,38 @@ subsections:
       title: PASTING TOGETHER OF TOPOLOGICAL SPACES
       page: 0
       pdf_page: 40
-statements: 20
+statements: 26
 exercises: 5
-content_sha256: dd22d38e63b7a268d27a4743ba34e73d1f8f834303eaf5b19a151c50c12ee463
+content_sha256: a850e329d6d5ae9ce40027bd1275f860692c663d82de376f3f95fd8324105c60
 ---
 
 ## 2. CONTINUOUS FUNCTIONS
 
 ### 1. CONTINUOUS FUNCTIONS
 
-Definition 1. A mapping $ f $ of a topological space $ X $ into a topological space $ X' $ is said to be continuous at a point $ x_0 \in X $ if, given any neighbourhood $ V' $ of $ f(x_0) $ in $ X' $, there is a neighbourhood $ V $ of $ x_0 $ in $ X $ such that the relation $ x \in V $ implies $ f(x) \in V' $.
+#### Definition 1 {#top-i-s2-def-1 .statement}
+
+A mapping $ f $ of a topological space $ X $ into a topological space $ X' $ is said to be continuous at a point $ x_0 \in X $ if, given any neighbourhood $ V' $ of $ f(x_0) $ in $ X' $, there is a neighbourhood $ V $ of $ x_0 $ in $ X $ such that the relation $ x \in V $ implies $ f(x) \in V' $.
 
 Definition 1 may be restated in the following more intuitive form: to say that $ f $ is continuous at the point $ x_0 $ means that $ f(x) $ is as near as we please to $ f(x_0) $ whenever $ x $ is sufficiently near $ x_0 $.
 
 The relation "for each $ x \in V, f(x) \in V' $" is equivalent to $ f(V) \subset V' $ or again to $ V \subset \overline{f}^{-1}(V') $; in view of the neighbourhood axiom ($ V_I $), we see that Definition 1 is equivalent to the following: $ f : X \to X' $ is said to be continuous at the point $ x_0 $ if, for each neighbourhood $ V' $ of $ f(x_0) $ in $ X' $, $ \overline{f}^{-1}(V') $ is a neighbourhood of $ x_0 $ in $ X $. Moreover, it is sufficient that $ \overline{f}^{-1}(V') $ is a neighbourhood of $ x_0 $ for each neighbourhood $ V' $ belonging to a fundamental system of neighbourhoods of $ f(x_0) $ in $ X' $ ($ \S 1 $, no. 3).
 
-Proposition 1. Let $ f $ be a mapping of a topological space $ X $ into a topological space $ X' $. If $ f $ is continuous at $ x $, and if $ x $ lies in the closure of a subset $ A $ of $ X $, then $ f(x) $ lies in the closure of $ f(A) $.
+#### Proposition 1 {#top-i-s2-prop-1 .statement}
+
+Let $ f $ be a mapping of a topological space $ X $ into a topological space $ X' $. If $ f $ is continuous at $ x $, and if $ x $ lies in the closure of a subset $ A $ of $ X $, then $ f(x) $ lies in the closure of $ f(A) $.
 
 Let $ V' $ be a neighbourhood of $ f(x) $ in $ X' $. Since $ f $ is continuous at $ x $, $ \overline{f}^{-1}(V') $ is a neighbourhood of $ x $ in $ X $. Hence $ \overline{f}^{-1}(V') $ meets $ A $, from which it follows that $ V' $ meets $ f(A) $, and therefore $ f(x) $ is in the closure of $ f(A) $.
 
-Proposition 2. Let $ X, X', X'' $ be three topological spaces; let $ f $ be a mapping of $ X $ into $ X' $, continuous at $ x \in X $; let $ g $ be a mapping of $ X' $ into $ X'' $, continuous at $ f(x) $. Then the composition $ h = g \circ f : X \to X'' $ is continuous at $ x $.
+#### Proposition 2 {#top-i-s2-prop-2 .statement}
+
+Let $ X, X', X'' $ be three topological spaces; let $ f $ be a mapping of $ X $ into $ X' $, continuous at $ x \in X $; let $ g $ be a mapping of $ X' $ into $ X'' $, continuous at $ f(x) $. Then the composition $ h = g \circ f : X \to X'' $ is continuous at $ x $.
 
 Let $ V'' $ be a neighbourhood of $ h(x) = g(f(x)) $ in $ X'' $. Since $ g $ is continuous at $ f(x) $ it follows that $ \overline{g}^{-1}(V'') $ is a neighbourhood of $ f(x) $ in $ X' $. But $ f $ is continuous at $ x $, hence $ \overline{f}^{-1}(\overline{g}^{-1}(V'')) = \overline{h}^{-1}(V'') $ is a neighbourhood of $ x $ in $ X $, and therefore $ h $ is continuous at $ x $.
 
-Definition 2. A mapping of a topological space $ X $ into a topological space $ X' $ is said to be continuous on $ X $ (or just continuous) if it is continuous at each point of $ X $.
+#### Definition 2 {#top-i-s2-def-2 .statement}
+
+A mapping of a topological space $ X $ into a topological space $ X' $ is said to be continuous on $ X $ (or just continuous) if it is continuous at each point of $ X $.
 
 #### Example 1 {#top-i-s2-n1-exa-1 .statement}
 
@@ -123,7 +131,9 @@ Let $ X $ be a topological space, and for each $ x \in X $ let $ \mathcal{B}(x) 
 
 Theorem 2 of no. 1 shows that we may take the continuous mappings as morphisms of topological structures (Set Theory, Chapter IV, § 2, no. 1); from now on, we shall assume that we have made this choice of morphisms. In accordance with the general definitions (Set Theory, Chapter IV, § 2, no. 2), this allows us to define an ordering on the set of topologies on a given set $ X $:
 
-Definition 3. Given two topologies $ \mathcal{T}_1, \mathcal{T}_2 $ on the same set $ X $, we say that $ \mathcal{T}_1 $ is finer than $ \mathcal{T}_2 $ (and that $ \mathcal{T}_2 $ is coarser than $ \mathcal{T}_1 $) if, denoting by $ X_i $ the set $ X $ with the topology $ \mathcal{T}_i $ ($ i = 1, 2 $), the identity mapping $ X_1 \to X_2 $ is continuous. If in addition $ \mathcal{T}_1 \neq \mathcal{T}_2 $, we say that $ \mathcal{T}_1 $ is strictly finer than $ \mathcal{T}_2 $ (and that $ \mathcal{T}_2 $ is strictly coarser than $ \mathcal{T}_1 $).
+#### Definition 3 {#top-i-s2-def-3 .statement}
+
+Given two topologies $ \mathcal{T}_1, \mathcal{T}_2 $ on the same set $ X $, we say that $ \mathcal{T}_1 $ is finer than $ \mathcal{T}_2 $ (and that $ \mathcal{T}_2 $ is coarser than $ \mathcal{T}_1 $) if, denoting by $ X_i $ the set $ X $ with the topology $ \mathcal{T}_i $ ($ i = 1, 2 $), the identity mapping $ X_1 \to X_2 $ is continuous. If in addition $ \mathcal{T}_1 \neq \mathcal{T}_2 $, we say that $ \mathcal{T}_1 $ is strictly finer than $ \mathcal{T}_2 $ (and that $ \mathcal{T}_2 $ is strictly coarser than $ \mathcal{T}_1 $).
 
 Two topologies, one of which is finer than the other, are said to be comparable.
 
@@ -222,7 +232,9 @@ Examples
 
 The following proposition generalizes the situation of Example 3:
 
-Proposition 8. Let $ X $ be a set, $ (X_\lambda)_{\lambda \in L} $ a family of subsets of $ X $. Suppose each $ X_\lambda $ carries a topology $ \mathcal{T}_\lambda $ such that, for each pair of indices $ (\lambda, \mu) $:
+#### Proposition 8 {#top-i-s2-prop-8 .statement}
+
+Let $ X $ be a set, $ (X_\lambda)_{\lambda \in L} $ a family of subsets of $ X $. Suppose each $ X_\lambda $ carries a topology $ \mathcal{T}_\lambda $ such that, for each pair of indices $ (\lambda, \mu) $:
 1) $ X_\lambda \cap X_\mu $ is open (resp. closed) in each of the topologies $ \mathcal{T}_\lambda, \mathcal{T}_\mu $.
 2) The topologies induced on $ X_\lambda \cap X_\mu $ by $ \mathcal{T}_\lambda $ and $ \mathcal{T}_\mu $ coincide. Let $ \mathcal{T} $ be the finest topology on $ X $ for which the injections $ j_\lambda : X_\lambda \to X $ are continuous. Then, for each $ \lambda \in L $, $ X_\lambda $ is open (resp. closed) in $ X $ in the topology $ \mathcal{T} $, and the topology induced by $ \mathcal{T} $ on $ X_\lambda $ coincides with $ \mathcal{T}_\lambda $.
 

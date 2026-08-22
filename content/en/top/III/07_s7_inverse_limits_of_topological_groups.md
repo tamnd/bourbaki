@@ -26,9 +26,9 @@ subsections:
       title: APPLICATION TO INVERSE LIMITS
       page: 0
       pdf_page: 299
-statements: 8
+statements: 15
 exercises: 2
-content_sha256: e678b9a9f1446fd8b42101f405e14fd8292fa6d23948e0517bbee4bc934a0395
+content_sha256: d8ae46ff31970d55849edbf8f1456dea36de8f73d914c85e3eae63c8b2a041e6
 ---
 
 ## 7. INVERSE LIMITS OF TOPOLOGICAL GROUPS AND RINGS
@@ -117,15 +117,21 @@ X \xrightarrow{\psi} X/G \xrightarrow{h} \varprojlim X_\alpha / G_\alpha,
 $$
 where $ \psi $ is the canonical mapping, the assertions of b) follow.
 
-Corollary 1. *If the $ G_\alpha $ are compact and the $ X_\alpha $ Hausdorff, then the conclusions of a) and b) are valid.*
+#### Corollary 1 {#top-iii-s7-prop-1-cor-1 .statement}
+
+*If the $ G_\alpha $ are compact and the $ X_\alpha $ Hausdorff, then the conclusions of a) and b) are valid.*
 
 For the hypotheses of a) and b) are satisfied, since every closed subgroup of $ G_\alpha $ is compact and $ u_\alpha : s_\alpha \to s_\alpha \cdot x_\alpha $ is a continuous mapping of a compact space into a Hausdorff space.
 
-Corollary 2. *If, for each $ \alpha \in I $, the group $ G_\alpha $ operates transitively on the space $ X_\alpha $, and if the stabilizer of each point of $ X_\alpha $ is a compact subgroup of $ G_\alpha $, then $ G $ operates transitively on $ X $ and the stabilizer of each point of $ X $ is a compact subgroup of $ G $.*
+#### Corollary 2 {#top-iii-s7-prop-1-cor-2 .statement}
+
+*If, for each $ \alpha \in I $, the group $ G_\alpha $ operates transitively on the space $ X_\alpha $, and if the stabilizer of each point of $ X_\alpha $ is a compact subgroup of $ G_\alpha $, then $ G $ operates transitively on $ X $ and the stabilizer of each point of $ X $ is a compact subgroup of $ G $.*
 
 For hypothesis a) is satisfied, and $ X'_\alpha = X_\alpha $ for each $ \alpha $.
 
-Corollary 3. *Suppose that the $ G_\alpha $ are Hausdorff. For each $ \alpha \in I $, let $ K_\alpha $ be a compact subgroup of $ G_\alpha $, such that $ f_{\alpha \beta} (K_\beta) \subset K_\alpha $ whenever $ \alpha \leq \beta $. Then, if $ K = \varprojlim K_\alpha $, the canonical mapping $ h $ of the homogeneous space $ G/K $ into $ \varprojlim G_\alpha / K_\alpha $ is a homeomorphism.*
+#### Corollary 3 {#top-iii-s7-prop-1-cor-3 .statement}
+
+*Suppose that the $ G_\alpha $ are Hausdorff. For each $ \alpha \in I $, let $ K_\alpha $ be a compact subgroup of $ G_\alpha $, such that $ f_{\alpha \beta} (K_\beta) \subset K_\alpha $ whenever $ \alpha \leq \beta $. Then, if $ K = \varprojlim K_\alpha $, the canonical mapping $ h $ of the homogeneous space $ G/K $ into $ \varprojlim G_\alpha / K_\alpha $ is a homeomorphism.*
 
 The fact that $ h $ is bijective follows from Corollary 1, applied by replacing $ X_\alpha $ by $ G_\alpha $, and $ G_\alpha $ by $ K_\alpha $ operating by *right* translations (\S 2, no. 5). Let $ \varphi $ be the canonical mapping $ G \to G/K $, and for each $ \alpha $ let $ f_\alpha $ be the canonical mapping $ G \to G_\alpha $. If, for each $ \alpha $, $ V_\alpha $ runs through a fundamental system of open neighbourhoods of the identity element $ e_\alpha $ of $ G_\alpha $, then the sets $ V = \overline{f}_\alpha^{-1}(V_\alpha) $ ($ \alpha $ and $ V_\alpha $ variable) form a fundamental system of neighbourhoods of the identity element $ e $ in $ G $ (Chapter I, \S 4, no. 4, Proposition 9), and the sets $ \varphi(V.K) $ form a fundamental system of neighbourhoods of $ \varphi(e) $ in $ G/K $. We have to show that the image of $ \varphi(V.K) $ under $ h $ contains a neighbourhood of $ h(\varphi(e)) $, that is that there exists $ \beta \geq \alpha $ and a neighbourhood $ W_\beta $ of $ e_\beta $ in $ G_\beta $ such that $ \overline{f}_\beta^{-1}(W_\beta . K_\beta) \subset V.K $. Now, the relation $ x \in V.K $ is equivalent to the existence of $ y $ in $ K $ such that $ f_\alpha(xy^{-1}) \in V_\alpha $, i.e. $ f_\alpha(x) \in V_\alpha \cdot f_\alpha(K) $; so that $ V.K = \overline{f}_\alpha^{-1}(V_\alpha \cdot f_\alpha(K)) $. Let $ U_\alpha = V_\alpha \cdot f_\alpha(K) $; we shall see that there exists $ \beta \geq \alpha $ such that if we put $ U_\beta = \overline{f}_{\alpha \beta}^{-1}(U_\alpha) $, we have $ K_\beta \subset U_\beta $; it will then follow that there is a neighbourhood $ W_\beta $ of $ e_\beta $ in $ G_\beta $ such that $ W_\beta . K_\beta \subset U_\beta $ (Chapter II, \S 4, no. 3, Corollary to Proposition 4), and this will establish the desired relation
 $$
@@ -160,11 +166,15 @@ Finally, suppose that there is an index $ \gamma \in I $ such that $ H_\gamma $ 
 
 Q.E.D.
 
-Corollary 1. *If the condition (AP) is satisfied and if in addition the (Hausdorff) groups $ G/H_\alpha $ are complete, then the group $ G $ has a Hausdorff completion which can be identified with $ \tilde{G} $; and the mapping $ i : G \to \tilde{G} $ is then identified with the canonical mapping ($ \S 3 $, no. 3, Proposition 5).*
+#### Corollary 1 {#top-iii-s7-prop-2-cor-1 .statement}
+
+*If the condition (AP) is satisfied and if in addition the (Hausdorff) groups $ G/H_\alpha $ are complete, then the group $ G $ has a Hausdorff completion which can be identified with $ \tilde{G} $; and the mapping $ i : G \to \tilde{G} $ is then identified with the canonical mapping ($ \S 3 $, no. 3, Proposition 5).*
 
 For $ \tilde{G} $ is then complete (no. 2), and Proposition 2 shows that $ i(G) $ is isomorphic with the Hausdorff group associated with $ G $; since it is dense in $ \tilde{G} $, the corollary follows ($ \S 3 $, no. 3, Proposition 5). In particular:
 
-Corollary 2. *Let $ G $ be a group and let $ (H_\alpha) $ be a family of normal subgroups of $ G $, directed with respect to the relation $ H_\alpha \supset H_\beta $. If we endow $ G $ with the group topology for which the $ H_\alpha $ form a fundamental system of neighbourhoods of the identity element $ e $, then the Hausdorff group associated with $ G $ is isomorphic to $ G_1 = G / \left( \bigcap_\alpha H_\alpha \right) $; $ G_1 $ has a completion $ \hat{G}_1 = \tilde{G} $; and the canonical mapping $ G_1 \to \tilde{G} = \varprojlim G/H_\alpha $ extends to an isomorphism of $ \hat{G} = \hat{G}_1 $ onto $ \tilde{G} $.*
+#### Corollary 2 {#top-iii-s7-prop-2-cor-2 .statement}
+
+*Let $ G $ be a group and let $ (H_\alpha) $ be a family of normal subgroups of $ G $, directed with respect to the relation $ H_\alpha \supset H_\beta $. If we endow $ G $ with the group topology for which the $ H_\alpha $ form a fundamental system of neighbourhoods of the identity element $ e $, then the Hausdorff group associated with $ G $ is isomorphic to $ G_1 = G / \left( \bigcap_\alpha H_\alpha \right) $; $ G_1 $ has a completion $ \hat{G}_1 = \tilde{G} $; and the canonical mapping $ G_1 \to \tilde{G} = \varprojlim G/H_\alpha $ extends to an isomorphism of $ \hat{G} = \hat{G}_1 $ onto $ \tilde{G} $.*
 
 The subgroup $ H_\alpha $ of $ G $ is open and therefore also closed ($ \S $ 2, no. 1, Corollary to Proposition 4), and $ G/H_\alpha $ is discrete ($ \S $ 2, no. 6, Proposition 18); hence the conditions of Corollary 1 are satisfied.
 
@@ -236,11 +246,15 @@ this shows that $ f_\alpha(V) $ is a neighbourhood of $ e_\alpha $ in $ G_\alpha
 
 If $ H_\alpha = f_\alpha^{-1}(e_\alpha) $, then each $ H_\alpha $ is a compact normal subgroup of $ G $; the $ H_\alpha $ clearly satisfy the condition (AP) of no. 3; and $ G_\alpha $ can be identified with $ G/H_\alpha $. In particular Propositions 3 and 4 of no. 3 apply to $ G $ and the $ H_\alpha $.
 
-Corollary 1. *Let* $ (G_\alpha, f_{\alpha \beta}) $ *be an inverse system of topological groups which satisfies the hypotheses of Proposition 5; let* $ (G'_\alpha, f'_{\alpha \beta}) $ *be an inverse system of topological groups, and for each* $ \alpha $ *let* $ u_\alpha : G_\alpha \to G'_\alpha $ *be a surjective strict morphism with compact kernel, such that the* $ u_\alpha $ *from an inverse system of mappings. Then* $ u = \varprojlim u_\alpha $ *is a strict morphism of* $ G = \varprojlim G_\alpha $ *onto* $ G' = \varprojlim G'_\alpha $, *and its kernel is compact*.
+#### Corollary 1 {#top-iii-s7-prop-5-cor-1 .statement}
+
+*Let* $ (G_\alpha, f_{\alpha \beta}) $ *be an inverse system of topological groups which satisfies the hypotheses of Proposition 5; let* $ (G'_\alpha, f'_{\alpha \beta}) $ *be an inverse system of topological groups, and for each* $ \alpha $ *let* $ u_\alpha : G_\alpha \to G'_\alpha $ *be a surjective strict morphism with compact kernel, such that the* $ u_\alpha $ *from an inverse system of mappings. Then* $ u = \varprojlim u_\alpha $ *is a strict morphism of* $ G = \varprojlim G_\alpha $ *onto* $ G' = \varprojlim G'_\alpha $, *and its kernel is compact*.
 
 Let $ N_\alpha $ be the kernel of $ u_\alpha $. $ L_\alpha = f_\alpha^{-1}(N_\alpha) $ is then the kernel of the surjective strict morphism $ v_\alpha = u_\alpha \circ f_\alpha : G \to G'_\alpha $; since $ L_\alpha / H_\alpha $ is isomorphic to $ N_\alpha $ (\S 2, no. 7, Proposition 20), $ L_\alpha $ is a *compact* normal subgroup of $ G $ (\S 4, no. 1, Corollary 2 to Proposition 2). The kernel $ L $ of $ u $ is the intersection of the $ L_\alpha $. Let $ \varphi $ denote the canonical mapping $ G \to G/L $; then we can write $ v_\alpha = w_\alpha \circ \varphi $, where $ w_\alpha $ is a strict morphism of $ G/L $ onto $ G'_\alpha $, whose kernel is $ L_\alpha / L $. Since the intersection of the $ L_\alpha / L $ is the identity element of $ G/L $, and since the $ L_\alpha / L $ form a filter base and are compact, this filter base converges to the identity element of $ G/L $ (Chapter I, § 9, no. 1, Corollary to Theorem 1). Proposition 2 of no. 3 then shows that $ w = \varprojlim w_\alpha $ is an *isomorphism* of $ G/L $ onto $ G' $; it follows that $ w \circ \varphi $ is a strict morphism of $ G $ onto $ G' $, with kernel $ L $. But it is clear that $ u = w \circ \varphi $, and thus the corollary is proved.
 
-Corollary 2. *Let* $ (G_\alpha, f_{\alpha \beta}) $ *be an inverse system of topological groups which satisfies the conditions of Proposition 5, and let* $ G' $ *be a topological group in which there is a neighbourhood* $ V' $ *of the identity element* $ e' $ *which contains no subgroup* of $ G' $ other than $ \{ e' \} $. Then if $ v : G \to G' $ is any continuous homomorphism, there is an index $ \alpha \in I $ and a continuous homomorphism $ v_\alpha : G_\alpha \to G' $ such that $ v = v_\alpha \circ f_\alpha $.
+#### Corollary 2 {#top-iii-s7-prop-5-cor-2 .statement}
+
+*Let* $ (G_\alpha, f_{\alpha \beta}) $ *be an inverse system of topological groups which satisfies the conditions of Proposition 5, and let* $ G' $ *be a topological group in which there is a neighbourhood* $ V' $ *of the identity element* $ e' $ *which contains no subgroup* of $ G' $ other than $ \{ e' \} $. Then if $ v : G \to G' $ is any continuous homomorphism, there is an index $ \alpha \in I $ and a continuous homomorphism $ v_\alpha : G_\alpha \to G' $ such that $ v = v_\alpha \circ f_\alpha $.
 
 For since $ \overline{v}^{-1}(V') $ is a neighbourhood of $ e $ in $ G $, there is an index $ \alpha $ and a neighbourhood $ V_\alpha $ of $ e_\alpha $ in $ G_\alpha $ such that $ f_\alpha^{-1}(V_\alpha) \subset \overline{v}^{-1}(V') $. Hence $ v(H_\alpha) \subset V' $, and since $ v(H_\alpha) $ is a subgroup of $ G' $, it follows that $ v(H_\alpha) = \{ e' \} $. Since $ f_\alpha $ may be identified with the canonical mapping $ G \to G/H_\alpha $, the corollary is a consequence of the canonical factorization of a continuous homomorphism (\$ 2, no. 8).
 

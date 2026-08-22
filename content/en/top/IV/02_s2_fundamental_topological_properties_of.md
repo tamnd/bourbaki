@@ -34,9 +34,9 @@ subsections:
       title: HOMEOMORPHISMS OF AN INTERVAL ONTO AN INTERVAL
       page: 0
       pdf_page: 344
-statements: 10
+statements: 15
 exercises: 5
-content_sha256: dca95919ad00007573bfd19893426aad9a8925afb87ee65f63ef2ddd5c547808
+content_sha256: b1e4c9f021ecade2d42724d9ff68e18f4010ecf25a57d805b5f68347b8836f21
 ---
 
 ## 2. FUNDAMENTAL TOPOLOGICAL PROPERTIES OF THE REAL LINE
@@ -57,15 +57,21 @@ An axiomatic construction of the theory of real numbers will be found in Chapter
 
 ### 2. COMPACT SUBSETS OF $ \mathbf{R} $
 
-Theorem 2 (Borel-Lebesgue). For a subset of the real line $ \mathbf{R} $ to be compact it is necessary and sufficient that it be closed and bounded.
+#### Theorem 2 (Borel-Lebesgue) {#top-iv-s2-thm-2 .statement}
+
+For a subset of the real line $ \mathbf{R} $ to be compact it is necessary and sufficient that it be closed and bounded.
 
 1) The condition is necessary. Let $ A $ be a compact subset of $ \mathbf{R} $ and let $ a $ be a real number $ > 0 $. The set $ A $ is closed (Chapter I, $ \S $ 9, no. 3, Proposition 4) and there exists a finite number of points $ x_i $ ($ 1 \leq i \leq n $) of $ \mathbf{R} $ such that $ A $ is contained in the union of the neighbourhoods $[x_i - a, x_i + a]$ (Chapter I, $ \S $ 9, no. 3). Let $ b $ be the maximum of the numbers $ |x_i| $; then we have $ A \subset [-b - a, b + a] $.
 
 2) The condition is sufficient. It is enough to show that every interval $[ -a, +a ]$ ($ a > 0 $) is compact, and since this interval is a closed subset of a complete uniform space, it is enough to show that, for each $ b > 0 $, we can cover $[ -a, +a ]$ by a finite number of intervals of the form $[x - b, x + b]$ (Chapter II, $ \S $ 4, no. 2, Corollary to Theorem 3). Now, let $ n $ be an integer $ > 0 $ such that $ a < nb $; if $ x \in [ -a, +a ] $ and if $ m $ is the largest integer (positive or negative) such that $ mb \leq x $, then we have $ -n \leq m \leq n $ and $ mb \leq x \leq (m + 1)b $. Hence the $ 2n + 1 $ intervals $[ (k - 1)b, (k + 1)b ]$ ($ -n \leq k \leq n $) form a covering of the required type.
 
-Corollary 1. A subset of the real line $ \mathbf{R} $ is relatively compact if and only if it is bounded.
+#### Corollary 1 {#top-iv-s2-thm-2-cor-1 .statement}
 
-Corollary 2. The real line is a locally compact space and is not compact.
+A subset of the real line $ \mathbf{R} $ is relatively compact if and only if it is bounded.
+
+#### Corollary 2 {#top-iv-s2-thm-2-cor-2 .statement}
+
+The real line is a locally compact space and is not compact.
 
 #### Remark {#top-iv-s2-n2-rem-1 .statement}
 
@@ -73,7 +79,9 @@ Theorem 2 is often referred to as the "Heine-Borel Theorem"; see the Historical 
 
 ### 3. LEAST UPPER BOUND OF A SUBSET OF $ \mathbf{R} $
 
-Theorem 3. Every non-empty subset of the real line which is bounded above (resp. bounded below) has a least upper bound (resp. greatest lower bound).
+#### Theorem 3 {#top-iv-s2-thm-3 .statement}
+
+Every non-empty subset of the real line which is bounded above (resp. bounded below) has a least upper bound (resp. greatest lower bound).
 
 Let $ A $ be a non-empty subset of $ \mathbf{R} $, bounded above, and let $ b $ be an upper bound of $ A $, so that $ A \subset ]\leftarrow, b] $. For each $ x \in A $ consider the set $ A_x $ of numbers $ \geqslant x $ which belong to $ A $; the sets $ A_x $ form a filter base $ \mathcal{B} $ on $ \mathbf{R} $, since $ A_y \subset A_x $ if $ y \geqslant x $. Let $ a $ be a point of $ A $. For each $ x \geqslant a $ belonging to $ A $, $ A_x $ is contained in the compact interval $[a, b]$ and thus the filter base $ \mathcal{B} $ has a cluster point $ c $. Since the intervals $[x, \rightarrow[$ are closed, $ c $ belongs to their intersection and therefore $ c $ is an upper bound of $ A $. But, on the other hand, every upper bound $ z $ of $ A $ is $ \geqslant c $, otherwise the neighbourhood $ ]z, \rightarrow[ $ of $ c $ would not contain any point of $ A $. Hence $ c $ is the least upper bound of $ A $.
 
@@ -140,7 +148,9 @@ If $ K' $ is the complement of the union of the $ I_{n,p} $, the closed set $ K 
 
 ### 6. HOMEOMORPHISMS OF AN INTERVAL ONTO AN INTERVAL
 
-Theorem 5. *Let I be an interval in R. Then a mapping f of I into R is a homeomorphism of I onto f(I) if and only if f is strictly monotonic and continuous on I; and f(I) is then an interval in R.*
+#### Theorem 5 {#top-iv-s2-thm-5 .statement}
+
+*Let I be an interval in R. Then a mapping f of I into R is a homeomorphism of I onto f(I) if and only if f is strictly monotonic and continuous on I; and f(I) is then an interval in R.*
 
 1) The condition is necessary. Let $ a $ and $ b $ be two points of I such that $ a < b $, and suppose for example that $ f(a) < f(b) $. Let us show that $ f $ is strictly increasing on I. First, if $ a < c < b $ then we must have $ f(a) < f(c) < f(b) $; if, for example, we had $ f(a) < f(b) < f(c) $
 

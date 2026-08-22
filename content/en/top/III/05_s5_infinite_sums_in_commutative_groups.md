@@ -38,9 +38,9 @@ subsections:
       title: COMMUTATIVELY CONVERGENT SERIES
       page: 0
       pdf_page: 275
-statements: 17
+statements: 19
 exercises: 5
-content_sha256: 7d42d3f2ab0357b72e1990167e60f8aa3f97048973ac0a84011ec395a58888e8
+content_sha256: a04569f1d51737a665ddf223a5887f3c79270fcedf0d0fe1ed5aefa3a1a5df76
 ---
 
 ## 5. INFINITE SUMS IN COMMUTATIVE GROUPS
@@ -103,13 +103,17 @@ When G is written multiplicatively, Cauchy’s criterion takes the following for
 
 ### 3. PARTIAL SUMS ; ASSOCIATIVITY
 
-Proposition 2. In a complete group G, every subfamily of a summable family is summable.
+#### Proposition 2 {#top-iii-s5-prop-2 .statement}
+
+In a complete group G, every subfamily of a summable family is summable.
 
 For if Cauchy’s criterion is satisfied by a family $ (x_i)_{i \in I} $, then it is trivially satisfied by every subfamily.
 
 If $ (x_i)_{i \in I} $ is summable, it follows therefore that the sum $ \sum_{i \in J} x_i $ is defined for every subset J of I, finite or not : it is again called the partial sum of the family $ (x_i) $, corresponding to the subset J of the index set. The set of partial sums of a summable family is evidently contained in the closure of the set of finite partial sums.
 
-Theorem 2 (Associativity of the sum). Let $ (x_i)_{i \in I} $ be a summable family in a complete group G, and let $ (I_\lambda)_{\lambda \in L} $ be any partition of I. If $ s_\lambda $ denotes $ \sum_{i \in I_\lambda} x_i $, then the family $ (s_\lambda)_{\lambda \in L} $ is summable and has the same sum as the family $ (x_i)_{i \in I} $.
+#### Theorem 2 (Associativity of the sum) {#top-iii-s5-thm-2 .statement}
+
+Let $ (x_i)_{i \in I} $ be a summable family in a complete group G, and let $ (I_\lambda)_{\lambda \in L} $ be any partition of I. If $ s_\lambda $ denotes $ \sum_{i \in I_\lambda} x_i $, then the family $ (s_\lambda)_{\lambda \in L} $ is summable and has the same sum as the family $ (x_i)_{i \in I} $.
 
 Thus if we have a summable family in a complete group, we can associate its terms arbitrarily into subfamilies and form the sum of each subfamily thus obtained; the family of these partial sums is again summable and its sum is equal to that of the given family.
 

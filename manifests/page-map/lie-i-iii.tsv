@@ -19,116 +19,116 @@ pdf_page	chapter	page	confidence
 16			none
 17			none
 18			none
-19		1	interpolated
-20		2	foot
-21		3	foot
-22		4	foot
-23		5	interpolated
-24		6	foot
-25		7	interpolated
-26		8	interpolated
-27		9	interpolated
-28		10	interpolated
-29		11	foot
-30		12	foot
-31		13	foot
-32		14	foot
-33		15	foot
-34		16	foot
-35		17	interpolated
-36		18	foot
-37		19	interpolated
-38		20	foot
-39		21	foot
-40		22	foot
-41		23	foot
-42		24	foot
-43		25	foot
-44		26	foot
-45		27	foot
-46		28	foot
-47		29	foot
-48		30	foot
-49		31	foot
-50		32	foot
-51		33	foot
-52		34	interpolated
-53		35	foot
-54		36	foot
-55		37	foot
-56		38	foot
-57		39	foot
-58		40	foot
-59		41	foot
-60		42	foot
-61		43	foot
-62		44	foot
-63		45	foot
-64		46	foot
-65		47	foot
-66		48	foot
-67		49	foot
-68		50	foot
-69		51	foot
-70		52	foot
-71		53	foot
-72		54	foot
-73		55	foot
-74		56	foot
-75		57	foot
-76		58	foot
-77		59	foot
-78		60	foot
-79		61	foot
-80		62	foot
-81		63	foot
-82		64	foot
-83		65	foot
-84		66	foot
-85		67	foot
-86		68	foot
-87		69	foot
-88		70	foot
-89		71	foot
-90		72	foot
-91		73	foot
-92		74	foot
-93		75	foot
-94		76	foot
-95		77	foot
-96		78	foot
-97		79	foot
-98		80	interpolated
-99		81	foot
-100		82	foot
-101		83	foot
-102		84	foot
-103		85	foot
-104		86	foot
-105		87	foot
-106		88	foot
-107		89	foot
-108		90	foot
-109		91	foot
-110		92	foot
-111		93	foot
-112		94	interpolated
-113		95	foot
-114		96	foot
-115		97	foot
-116		98	foot
-117		99	foot
-118		100	foot
-119		101	foot
-120		102	foot
-121		103	foot
-122		104	interpolated
-123		105	foot
-124		106	foot
-125		107	foot
-126		108	foot
-127		109	foot
-128		110	foot
+19	I	1	interpolated
+20	I	2	foot
+21	I	3	foot
+22	I	4	foot
+23	I	5	interpolated
+24	I	6	foot
+25	I	7	interpolated
+26	I	8	interpolated
+27	I	9	interpolated
+28	I	10	interpolated
+29	I	11	foot
+30	I	12	foot
+31	I	13	foot
+32	I	14	foot
+33	I	15	foot
+34	I	16	foot
+35	I	17	interpolated
+36	I	18	foot
+37	I	19	interpolated
+38	I	20	foot
+39	I	21	foot
+40	I	22	foot
+41	I	23	foot
+42	I	24	foot
+43	I	25	foot
+44	I	26	foot
+45	I	27	foot
+46	I	28	foot
+47	I	29	foot
+48	I	30	foot
+49	I	31	foot
+50	I	32	foot
+51	I	33	foot
+52	I	34	interpolated
+53	I	35	foot
+54	I	36	foot
+55	I	37	foot
+56	I	38	foot
+57	I	39	foot
+58	I	40	foot
+59	I	41	foot
+60	I	42	foot
+61	I	43	foot
+62	I	44	foot
+63	I	45	foot
+64	I	46	foot
+65	I	47	foot
+66	I	48	foot
+67	I	49	foot
+68	I	50	foot
+69	I	51	foot
+70	I	52	foot
+71	I	53	foot
+72	I	54	foot
+73	I	55	foot
+74	I	56	foot
+75	I	57	foot
+76	I	58	foot
+77	I	59	foot
+78	I	60	foot
+79	I	61	foot
+80	I	62	foot
+81	I	63	foot
+82	I	64	foot
+83	I	65	foot
+84	I	66	foot
+85	I	67	foot
+86	I	68	foot
+87	I	69	foot
+88	I	70	foot
+89	I	71	foot
+90	I	72	foot
+91	I	73	foot
+92	I	74	foot
+93	I	75	foot
+94	I	76	foot
+95	I	77	foot
+96	I	78	foot
+97	I	79	foot
+98	I	80	interpolated
+99	I	81	foot
+100	I	82	foot
+101	I	83	foot
+102	I	84	foot
+103	I	85	foot
+104	I	86	foot
+105	I	87	foot
+106	I	88	foot
+107	I	89	foot
+108	I	90	foot
+109	I	91	foot
+110	I	92	foot
+111	I	93	foot
+112	I	94	interpolated
+113	I	95	foot
+114	I	96	foot
+115	I	97	foot
+116	I	98	foot
+117	I	99	foot
+118	I	100	foot
+119	I	101	foot
+120	I	102	foot
+121	I	103	foot
+122	I	104	interpolated
+123	I	105	foot
+124	I	106	foot
+125	I	107	foot
+126	I	108	foot
+127	I	109	foot
+128	I	110	foot
 129	II	111	foot
 130	II	112	foot
 131	II	113	foot

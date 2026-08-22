@@ -2296,6 +2296,164 @@
           ]
         }
       ]
+    },
+    {
+      "id": "lie-i-iii",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "Lie Algebras",
+          "total": 125,
+          "sections": [
+            {
+              "section": 1,
+              "label": "lie-i-s1",
+              "dir": "s1",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 6
+            },
+            {
+              "section": 2,
+              "label": "lie-i-s2",
+              "dir": "s2",
+              "count": 10,
+              "first": 1,
+              "last": 10
+            },
+            {
+              "section": 3,
+              "label": "lie-i-s3",
+              "dir": "s3",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 3
+            },
+            {
+              "section": 4,
+              "label": "lie-i-s4",
+              "dir": "s4",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 5
+            },
+            {
+              "section": 5,
+              "label": "lie-i-s5",
+              "dir": "s5",
+              "count": 17,
+              "first": 1,
+              "last": 17
+            },
+            {
+              "section": 6,
+              "label": "lie-i-s6",
+              "dir": "s6",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 6
+            },
+            {
+              "section": 7,
+              "label": "lie-i-s7",
+              "dir": "s7",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 2
+            }
+          ]
+        },
+        {
+          "chapter": "II",
+          "title": "FREE LIE ALGEBRAS",
+          "total": 65,
+          "sections": [
+            {
+              "section": 1,
+              "label": "lie-ii-s1",
+              "dir": "s1",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "lie-ii-s2",
+              "dir": "s2",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "lie-ii-s3",
+              "dir": "s3",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "starred": 1
+            },
+            {
+              "section": 4,
+              "label": "lie-ii-s4",
+              "dir": "s4",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 5
+            },
+            {
+              "section": 5,
+              "label": "lie-ii-s5",
+              "dir": "s5",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 4
+            },
+            {
+              "section": 6,
+              "label": "lie-ii-s6",
+              "dir": "s6",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 7,
+              "label": "lie-ii-s7",
+              "dir": "s7",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 8,
+              "label": "lie-ii-s8",
+              "dir": "s8",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 0,
+              "appendix": true,
+              "label": "lie-ii-a0",
+              "dir": "a0",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            }
+          ]
+        }
+      ]
     }
   ]
 }
