@@ -90,10 +90,10 @@ books:
               last_pdf_page: 134
               book_pages: A VIII.95-A VIII.117
               subsections: 7
-              statements: 41
+              statements: 40
               exercises: 8
-              extraction: native
-              content_sha256: 306fb13bb4f9f5edee08e10f4667abcd3a6b187f92b185c31aa2f13a42d5b584
+              extraction: native+ocr
+              content_sha256: 25fb547cdd0923e402adfb7298b0fc0f1bd6503c596ee2106e24c4da92314558
             - kind: section
               section: 7
               title: Simple Rings
@@ -155,10 +155,10 @@ books:
               last_pdf_page: 227
               book_pages: A VIII.183-A VIII.210
               subsections: 12
-              statements: 38
+              statements: 36
               exercises: 14
-              extraction: native
-              content_sha256: ba29756ebb86dbc277c40e6aee671d71ae38afca5bf3d819d1337afb0b6dd0be
+              extraction: native+ocr
+              content_sha256: 43d596f252fae7049ec8dcabbc9adee53a95a4b7ca0fc1773216251ad22f944a
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -183,8 +183,8 @@ books:
               subsections: 8
               statements: 33
               exercises: 12
-              extraction: native
-              content_sha256: 4c6d4e2ca3db7df962893b91ae11c5bedee5ed2c441f889a9973255356caf0c0
+              extraction: native+ocr
+              content_sha256: 57a884e506d7ba3b80df5da8946039a08e199b1e2e794448769cfff9f58df488
             - kind: section
               section: 14
               title: Central Simple Algebras
@@ -222,8 +222,8 @@ books:
               subsections: 11
               statements: 63
               exercises: 17
-              extraction: native
-              content_sha256: 0bb0a06280c83b15e6ed9f803cc3767f1b9e76fe1a304af1d9729ecfe5b366e4
+              extraction: native+ocr
+              content_sha256: 5bc3325d3592154bfa00069c17896d6ae82d958285347b0aff8f6af8457fc5bf
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -233,10 +233,10 @@ books:
               last_pdf_page: 370
               book_pages: A VIII.335-A VIII.353
               subsections: 6
-              statements: 31
+              statements: 30
               exercises: 7
-              extraction: native
-              content_sha256: 529c839d9d719a0d0fd218d2a76a415c6319f2a161ab9d6029bccf6e39d1b9e2
+              extraction: native+ocr
+              content_sha256: 11f069df657704342996d2122efce87e5dccfa6a1cfa49a5616defd552614a6d
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -246,10 +246,10 @@ books:
               last_pdf_page: 377
               book_pages: A VIII.355-A VIII.360
               subsections: 2
-              statements: 10
+              statements: 9
               exercises: 7
-              extraction: native
-              content_sha256: 2e54129261e2cf9cc0935b1e6d5d3d389efce06f1bc5f48edb1e9227a40ce254
+              extraction: native+ocr
+              content_sha256: 05b7066ed3c39e544b1ceb8f923c3ec7dae8f65d11434bc82da96e56f08de1e2
             - kind: section
               section: 19
               title: Quaternion Algebras
@@ -259,10 +259,10 @@ books:
               last_pdf_page: 388
               book_pages: A VIII.361-A VIII.371
               subsections: 5
-              statements: 16
+              statements: 15
               exercises: 8
-              extraction: native
-              content_sha256: 29c7745ce44d10980513b080b27eb063e43ebe7bda18a9a407a496a816099f84
+              extraction: native+ocr
+              content_sha256: 7d5168aa99b2f2acfbd469aef4e8669772350919e3f7d08311840c372b1c826b
             - kind: section
               section: 20
               title: Linear Representations of Algebras
@@ -272,10 +272,10 @@ books:
               last_pdf_page: 412
               book_pages: A VIII.373-A VIII.395
               subsections: 8
-              statements: 31
+              statements: 29
               exercises: 6
-              extraction: native
-              content_sha256: be139e043474cfd6d1e8cf48b8b13b7d9fe9d44a2d01f49cbb6dd73a1a96a532
+              extraction: native+ocr
+              content_sha256: 56c384ee7eabca9fb2d1784b8312e82747ab0dae7ee44a191911a6aefe487913
             - kind: section
               section: 21
               title: Linear Representations of Finite Groups
@@ -285,10 +285,10 @@ books:
               last_pdf_page: 451
               book_pages: A VIII.397-A VIII.434
               subsections: 13
-              statements: 36
+              statements: 31
               exercises: 30
-              extraction: native
-              content_sha256: 57b93c57e726f0b46672458d4233fb8efa77dd7ed1544adad7750b082adfbad3
+              extraction: native+ocr
+              content_sha256: b38e447deaa35db654dfd692eab5354f9d2d620ba1a54eb7cd8fb0c710c16777
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
