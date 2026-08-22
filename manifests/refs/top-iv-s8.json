@@ -1,0 +1,6 @@
+{"edges": [
+{"from":"","from_label":"top-iv-s8","to_label":"top-iv-s8-thm-1","kind":"cites","raw":"no. 1, Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/top/IV/08_s8_usual_expansions_of_real_numbers_the.md","line":52},
+{"from":"","from_label":"top-iv-s8","to_label":"ens-iii-s5","kind":"cites","raw":"*Set Theory*, Chapter III, § 5, no. 7","form":"section","resolved_by":"section","file":"content/en/top/IV/08_s8_usual_expansions_of_real_numbers_the.md","line":146},
+{"from":"","from_label":"top-iv-s8-n6-cor-1","to_label":"top-iv-s4-prop-1","kind":"cites","raw":"Proposition 1 of § 4, no. 1","form":"section","resolved_by":"section-no","file":"content/en/top/IV/08_s8_usual_expansions_of_real_numbers_the.md","line":168},
+{"from":"","from_label":"top-iv-s8-ex-3","to_label":"top-iv-s8-ex-3","kind":"cites","raw":"Exercise 3","form":"local","resolved_by":"exercise","file":"content/en/top/IV/exercises/s8/03.md","line":33}
+]}

@@ -10260,11 +10260,11 @@ books:
                   page: 27
                   pdf_page: 33
                 - "no": 2
-                  title: The case X = 1
+                  title: The case chi = 1
                   page: 29
                   pdf_page: 35
                 - "no": 3
-                  title: Another interpretation of .x~
+                  title: Another interpretation of lambda sharp
                   page: 32
                   pdf_page: 38
                 - "no": 4
@@ -10580,7 +10580,7 @@ books:
                 page: 108
                 pdf_page: 290
             - section: 3
-              title: Measures and additive set junctions
+              title: Measures and additive set functions
               page: 41
               pdf_page: 223
               subsections:
@@ -10853,7 +10853,7 @@ books:
                   page: 18
                   pdf_page: 63
                 - "no": 10
-                  title: Compact convergence in Al(X; C)
+                  title: Compact convergence in M(X; C)
                   page: 21
                   pdf_page: 66
               exercises:

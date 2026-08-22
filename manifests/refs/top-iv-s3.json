@@ -1,0 +1,8 @@
+{"edges": [
+{"from":"","from_label":"top-iv-s3","to_label":"top-iii-s6","kind":"cites","raw":"Chapter III, § 6, no. 3","form":"section","resolved_by":"section","file":"content/en/top/IV/03_s3_the_field_of_real_numbers.md","line":34},
+{"from":"","from_label":"top-iv-s3","to_label":"top-iii-s6","kind":"cites","raw":"Chapter III, § 6, no. 7","form":"section","resolved_by":"section","file":"content/en/top/IV/03_s3_the_field_of_real_numbers.md","line":50},
+{"from":"","from_label":"top-iv-s3","to_label":"top-i-s9-prop-13","kind":"cites","raw":"Chapter I, § 9, no. 7, Proposition 13","form":"section","resolved_by":"section-no","file":"content/en/top/IV/03_s3_the_field_of_real_numbers.md","line":50},
+{"from":"","from_label":"top-iv-s3","to_label":"top-iii-s3-prop-4-cor-1","kind":"cites","raw":"Chapter III, § 3, no. 3, Corollary 1 to Proposition 4","form":"attached","resolved_by":"parent-label","file":"content/en/top/IV/03_s3_the_field_of_real_numbers.md","line":50},
+{"from":"","from_label":"top-iv-s3","to_label":"top-iii-s6-prop-8","kind":"cites","raw":"Chapter III, § 6, no. 8, Proposition 8","form":"section","resolved_by":"section-no","file":"content/en/top/IV/03_s3_the_field_of_real_numbers.md","line":50},
+{"from":"","from_label":"top-iv-s3","to_label":"top-i-s2-thm-1","kind":"cites","raw":"Chapter I, § 2, no. 1, Theorem 1","form":"section","resolved_by":"section-no","file":"content/en/top/IV/03_s3_the_field_of_real_numbers.md","line":52}
+]}

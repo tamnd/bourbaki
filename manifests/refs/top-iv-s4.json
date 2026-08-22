@@ -1,0 +1,10 @@
+{"edges": [
+{"from":"","from_label":"top-iv-s4","to_label":"top-iv-s4","kind":"cites","raw":"§ 4, no. 5","form":"section","resolved_by":"section","file":"content/en/top/IV/04_s4_the_extended_real_line.md","line":48},
+{"from":"","from_label":"top-iv-s4-prop-2","to_label":"top-iv-s4-def-1","kind":"cites","raw":"Definition 1","form":"local","resolved_by":"in-section","file":"content/en/top/IV/04_s4_the_extended_real_line.md","line":62},
+{"from":"","from_label":"top-iv-s4-prop-3","to_label":"top-ii-s4-thm-1","kind":"cites","raw":"Chapter II, § 4, no. 1, Theorem 1","form":"section","resolved_by":"section-no","file":"content/en/top/IV/04_s4_the_extended_real_line.md","line":72},
+{"from":"","from_label":"top-iv-s4-prop-4","to":"03JK","to_label":"ens-iii-s1-prop-4","kind":"cites","raw":"*Set Theory*, Chapter III, § 1, no. 9, Proposition 4","form":"section","resolved_by":"section-no","file":"content/en/top/IV/04_s4_the_extended_real_line.md","line":85},
+{"from":"","from_label":"top-iv-s4-prop-7","to_label":"top-iv-s1","kind":"cites","raw":"§ 1, no. 1","form":"section","resolved_by":"section","file":"content/en/top/IV/04_s4_the_extended_real_line.md","line":131},
+{"from":"","from_label":"top-iv-s4-prop-7","to_label":"top-iv-s4-prop-7","kind":"cites","raw":"Proposition 7","form":"local","resolved_by":"in-section","file":"content/en/top/IV/04_s4_the_extended_real_line.md","line":133},
+{"from":"","from_label":"top-iv-s4-prop-8","to_label":"top-iv-s4-prop-7","kind":"cites","raw":"Proposition 7","form":"local","resolved_by":"in-section","file":"content/en/top/IV/04_s4_the_extended_real_line.md","line":147},
+{"from":"","from_label":"top-iv-s4-ex-7","to":"03UB","to_label":"ens-iii-s1-ex-15","kind":"cites","raw":"Set Theory, Chapter III, § 1, Exercise 15","form":"section","resolved_by":"exercise","file":"content/en/top/IV/exercises/s4/07.md","line":15}
+]}

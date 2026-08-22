@@ -2408,6 +2408,70 @@ books:
               exercises: 9
               extraction: ocr
               content_sha256: 12327dae1c4f8d987fd53114bcf020e3b0669f8b97383f8b6fcc7dbb27dd726f
+        - chapter: III
+          title: MEASURES ON LOCALLY COMPACT SPACES
+          sections:
+            - kind: front
+              title: MEASURES ON LOCALLY COMPACT SPACES
+              path: content/en/int/III/00_frontmatter.md
+              first_pdf_page: 46
+              last_pdf_page: 46
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 83cca4069eb8f85ea089aaac1a7517f06d90463432ad304910b5db3d05140d53
+            - kind: section
+              section: 1
+              title: Measures on a locally compact space
+              path: content/en/int/III/01_s1_measures_on_a_locally_compact_space.md
+              label: int-iii-s1
+              first_pdf_page: 46
+              last_pdf_page: 104
+              subsections: 10
+              statements: 41
+              exercises: 18
+              extraction: ocr
+              content_sha256: 0229784816d486cd441ecfea4906a857943122072ad3e467a0b7c943c35ea25a
+            - kind: section
+              section: 2
+              title: Support of a measure
+              path: content/en/int/III/02_s2_support_of_a_measure.md
+              label: int-iii-s2
+              first_pdf_page: 68
+              last_pdf_page: 104
+              book_pages: INT III.23-INT III.32, INT III.59
+              subsections: 5
+              statements: 26
+              exercises: 5
+              extraction: ocr
+              content_sha256: a405fc3eb3f902c56aab16a19396db85413e29e4bba5a4ae613dd23e3aa6f424
+            - kind: section
+              section: 3
+              title: Integrals of continuous vector-valued functions
+              path: content/en/int/III/03_s3_integrals_of_continuous_vector_valued.md
+              label: int-iii-s3
+              first_pdf_page: 77
+              last_pdf_page: 105
+              book_pages: INT III.32-INT III.40, INT III.60
+              subsections: 4
+              statements: 16
+              exercises: 4
+              extraction: ocr
+              content_sha256: 19ec3def3746b167ecb2eedaa43c825aad749c933e84bbb7cfc506fe29f914f0
+            - kind: section
+              section: 4
+              title: Products of measures
+              path: content/en/int/III/04_s4_products_of_measures.md
+              label: int-iii-s4
+              first_pdf_page: 85
+              last_pdf_page: 107
+              book_pages: INT III.60-INT III.62
+              subsections: 6
+              statements: 22
+              exercises: 8
+              extraction: ocr
+              content_sha256: cab5149dddbd12aeacdfdad3d50a4e38cf1309160c05a4be01a10914acb111c7
     - id: top-i-iv
       chapters:
         - chapter: I
@@ -2862,3 +2926,165 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: f5636d2e203b135e3ffa9361fef01407396942c915fb909a06080b8c0804673d
+    - id: int-vii-ix
+      chapters:
+        - chapter: VII
+          title: HAAR MEASURE
+          sections:
+            - kind: front
+              title: HAAR MEASURE
+              path: content/en/int/VII/00_frontmatter.md
+              first_pdf_page: 7
+              last_pdf_page: 7
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: fb24a3f290049e3c58c341558c56b4afa47c62200005dec3663babd03910fdba
+            - kind: section
+              section: 1
+              title: Construction of a Haar measure
+              path: content/en/int/VII/01_s1_construction_of_a_haar_measure.md
+              label: int-vii-s1
+              first_pdf_page: 7
+              last_pdf_page: 93
+              subsections: 11
+              statements: 42
+              exercises: 23
+              extraction: ocr
+              content_sha256: 886ac1d6e797652922b7b330bd152e134563bc826596e9125f70fae3e03b6029
+            - kind: section
+              section: 2
+              title: Quotient of a space by a group; homogeneous spaces
+              path: content/en/int/VII/02_s2_quotient_of_a_space_by_a_group.md
+              label: int-vii-s2
+              first_pdf_page: 33
+              last_pdf_page: 97
+              book_pages: INT VII.27-INT VII.53, INT VII.87-INT VII.91
+              subsections: 10
+              statements: 46
+              exercises: 13
+              extraction: ocr
+              content_sha256: 19dadea3bf4cfebfd795b62db8d79dd85d5c9102f5a3b9ac6267e2801beee090
+            - kind: section
+              section: 3
+              title: Applications and examples
+              path: content/en/int/VII/03_s3_applications_and_examples.md
+              label: int-vii-s3
+              first_pdf_page: 59
+              last_pdf_page: 100
+              book_pages: INT VII.53-INT VII.73, INT VII.91-INT VII.94
+              subsections: 3
+              statements: 23
+              exercises: 12
+              extraction: ocr
+              content_sha256: c80f4fa20d0f8831d59b810456079a654391f48938b3eadb13412625fd78ef38
+            - kind: appendix
+              section: 1
+              path: content/en/int/VII/A1_a1_.md
+              label: int-vii-a1
+              first_pdf_page: 80
+              last_pdf_page: 81
+              subsections: 0
+              statements: 1
+              exercises: 0
+              extraction: ocr
+              content_sha256: 1013148f9a54431055223b830e0eae512f525b4aa32384658a07bf32075d824a
+            - kind: appendix
+              section: 2
+              path: content/en/int/VII/A2_a2_.md
+              label: int-vii-a2
+              first_pdf_page: 82
+              last_pdf_page: 84
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: ee0b6f68b25b29c4abd5085d56325f56107886d8994b3256d1e96263714e8358
+        - chapter: VIII
+          title: CONVOLUTION AND REPRESENTATIONS
+          sections:
+            - kind: front
+              title: CONVOLUTION AND REPRESENTATIONS
+              path: content/en/int/VIII/00_frontmatter.md
+              first_pdf_page: 101
+              last_pdf_page: 101
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 918adce1688b16e6c60ac2e0c5a6a341091c2315a01e15e1ea3ac2803d1cde3a
+            - kind: section
+              section: 1
+              title: Convolution
+              path: content/en/int/VIII/01_s1_convolution.md
+              label: int-viii-s1
+              first_pdf_page: 101
+              last_pdf_page: 159
+              subsections: 5
+              statements: 13
+              exercises: 2
+              extraction: ocr
+              content_sha256: e803c545ac460afef1c06c3bc4f37cd652a9801fea2255fac731e774bb6a214c
+            - kind: section
+              section: 2
+              title: Linear representations of groups
+              path: content/en/int/VIII/02_s2_linear_representations_of_groups.md
+              label: int-viii-s2
+              first_pdf_page: 108
+              last_pdf_page: 161
+              book_pages: INT VIII.8-INT VIII.17
+              subsections: 7
+              statements: 17
+              exercises: 10
+              extraction: ocr
+              content_sha256: 78d6021eb56a629e3d0c9daef0d5738461c50995f1aab09eca3c6ee4e316e52c
+            - kind: section
+              section: 3
+              title: Convolution of measures on groups
+              path: content/en/int/VIII/03_s3_convolution_of_measures_on_groups.md
+              label: int-viii-s3
+              first_pdf_page: 118
+              last_pdf_page: 165
+              book_pages: INT VIII.18-INT VIII.24, INT VIII.61-INT VIII.65
+              subsections: 3
+              statements: 16
+              exercises: 13
+              extraction: ocr
+              content_sha256: 770c50427b33153ec02eedab6fb35e27870c859fef0e164830e39a285e132540
+            - kind: section
+              section: 4
+              title: Convolution of measures and functions
+              path: content/en/int/VIII/04_s4_convolution_of_measures_and_functions.md
+              label: int-viii-s4
+              first_pdf_page: 124
+              last_pdf_page: 173
+              book_pages: INT VIII.24-INT VIII.45, INT VIII.65-INT VIII.73
+              subsections: 7
+              statements: 37
+              exercises: 28
+              extraction: ocr
+              content_sha256: 31544aa723f8448edb7c651e7d640fa7c05d1bf3989eae83165b9e324ed2fb7d
+            - kind: section
+              section: 5
+              title: The space of closed subgroups
+              path: content/en/int/VIII/05_s5_the_space_of_closed_subgroups.md
+              label: int-viii-s5
+              first_pdf_page: 146
+              last_pdf_page: 174
+              book_pages: INT VIII.73-INT VIII.74
+              subsections: 6
+              statements: 19
+              exercises: 6
+              extraction: ocr
+              content_sha256: ba5aa02ffe2b45bd97005dd5d5ea4a68aa45fc9a3cd01eeded849e56c401de26
+            - kind: historical
+              title: Historical Note
+              path: content/en/int/VIII/historical_note.md
+              first_pdf_page: 175
+              last_pdf_page: 182
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 478b8567436f2fd93631ecc9a913822bbda646e246782cc45c4d8eff055f9378

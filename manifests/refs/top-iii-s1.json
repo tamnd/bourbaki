@@ -1,0 +1,22 @@
+{"edges": [
+{"from":"","from_label":"top-iii-s1-n1-exa-1","to_label":"top-i-s2","kind":"cites","raw":"Chapter I, § 2, no. 2","form":"section","resolved_by":"section","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":48},
+{"from":"","from_label":"top-iii-s1-n1-exa-3","kind":"cites","raw":"Chapter V, § 1","form":"section","resolved_by":"out-of-corpus","book":"TG","chapter":"V","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":70},
+{"from":"","from_label":"top-iii-s1-n1-exa-3","to_label":"top-i-s2-thm-2","kind":"cites","raw":"Theorem 2 of Chapter I, § 2, no. 1","form":"section","resolved_by":"section-no","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":78},
+{"from":"","from_label":"top-iii-s1-n1-exa-3","to_label":"top-i-s7-prop-9","kind":"cites","raw":"Chapter I, § 7, no. 4, Proposition 9","form":"section","resolved_by":"section-no","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":80},
+{"from":"","from_label":"top-iii-s1-n1-exa-3","to_label":"top-i-s7-prop-9-cor-1","kind":"cites","raw":"Corollary 1","form":"attached","resolved_by":"parent-label","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":80},
+{"from":"","from_label":"top-iii-s1","to_label":"top-i-s2","kind":"cites","raw":"Chapter I, § 2, no. 1","form":"section","resolved_by":"section","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":95},
+{"from":"","from_label":"top-iii-s1","to_label":"top-iii-s2","kind":"cites","raw":"§ 2, nos. 6","form":"section","resolved_by":"section","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":105},
+{"from":"","from_label":"top-iii-s1-prop-1","to_label":"top-iii-s1","kind":"cites","raw":"§ 1, no. 2","form":"section","resolved_by":"section","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":121},
+{"from":"","from_label":"top-iii-s1-n2-rem-1","to_label":"top-iii-s1-ex-5","kind":"cites","raw":"Exercise 5","form":"local","resolved_by":"exercise","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":137},
+{"from":"","from_label":"top-iii-s1-prop-2","to_label":"top-i-s8-prop-1","kind":"cites","raw":"Chapter I, § 8, no. 1, Proposition 1","form":"section","resolved_by":"section-no","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":149},
+{"from":"","from_label":"top-iii-s1-n2-exa-1","to_label":"top-iii-s1-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":159},
+{"from":"","from_label":"top-iii-s1","to_label":"ens-iv-s1","kind":"cites","raw":"*Set Theory*, Chapter IV, § 1, no. 5","form":"section","resolved_by":"section","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":167},
+{"from":"","from_label":"top-iii-s1-def-2","kind":"cites","raw":"Chapter V, § 1","form":"section","resolved_by":"out-of-corpus","book":"TG","chapter":"V","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":188},
+{"from":"","from_label":"top-iii-s1-def-2","to_label":"top-iii-s1-def-2","kind":"cites","raw":"Definition 2","form":"local","resolved_by":"in-section","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":194},
+{"from":"","from_label":"top-iii-s1-def-2","to_label":"top-iii-s1-ex-7","kind":"cites","raw":"Exercise 7","form":"local","resolved_by":"exercise","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":194},
+{"from":"","from_label":"top-iii-s1-prop-3","to_label":"top-iii-s1-def-2","kind":"cites","raw":"Definition 2","form":"local","resolved_by":"in-section","file":"content/en/top/III/01_s1_topologies_on_groups.md","line":198},
+{"from":"","from_label":"top-iii-s1-ex-2","to_label":"top-i-s1","kind":"cites","raw":"Chapter I, § 1, no. 2","form":"section","resolved_by":"section","file":"content/en/top/III/exercises/s1/02.md","line":19},
+{"from":"","from_label":"top-iii-s1-ex-2","kind":"cites","raw":"Chapter X, § 3, Exercise 25","form":"section","resolved_by":"out-of-corpus","book":"TG","chapter":"X","file":"content/en/top/III/exercises/s1/02.md","line":25},
+{"from":"","from_label":"top-iii-s1-ex-5","kind":"cites","raw":"Chapter X, § 3, Exercise 25","form":"section","resolved_by":"out-of-corpus","book":"TG","chapter":"X","file":"content/en/top/III/exercises/s1/05.md","line":23},
+{"from":"","from_label":"top-iii-s1-ex-7","to_label":"top-iii-s1-def-2","kind":"cites","raw":"Definition 2","form":"local","resolved_by":"in-section","file":"content/en/top/III/exercises/s1/07.md","line":14}
+]}

@@ -1,0 +1,13 @@
+{"edges": [
+{"from":"","from_label":"int-ii-s2","to_label":"int-ii-s2","kind":"cites","raw":"§2, No. 5","form":"section","resolved_by":"section","file":"content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md","line":31},
+{"from":"","from_label":"int-ii-s2-n1-exa-1","to_label":"int-ii-s1","kind":"cites","raw":"§1, No. 3","form":"section","resolved_by":"section","file":"content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md","line":41},
+{"from":"","from_label":"int-ii-s2-n1-exa-1","to_label":"int-ii-s2-n1-exa-1","kind":"cites","raw":"Example 1","form":"local","resolved_by":"nearest-above","file":"content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md","line":43},
+{"from":"","from_label":"int-ii-s2","to_label":"int-ii-s2-prop-3","kind":"cites","raw":"No. 1, Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md","line":63},
+{"from":"","from_label":"int-ii-s2-thm-1","to_label":"int-ii-s2-prop-3","kind":"cites","raw":"No. 1, Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md","line":95},
+{"from":"","from_label":"int-ii-s2-prop-5","to_label":"int-ii-s2-thm-1","kind":"cites","raw":"No. 5, Th. 1","form":"local","resolved_by":"in-section","file":"content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md","line":194},
+{"from":"","from_label":"int-ii-s2-prop-5","to_label":"int-ii-s2-prop-4","kind":"cites","raw":"Prop. 4","form":"local","resolved_by":"in-section","file":"content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md","line":194},
+{"from":"","from_label":"int-ii-s2-n2-exa-1","to_label":"int-ii-s2","kind":"cites","raw":"§2, No. 7","form":"section","resolved_by":"section","file":"content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md","line":204},
+{"from":"","from_label":"int-ii-s2-n2-exa-1","to_label":"int-ii-s2-thm-1","kind":"cites","raw":"Th. 1","form":"local","resolved_by":"in-section","file":"content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md","line":204},
+{"from":"","from_label":"int-ii-s2-ex-4","to_label":"int-ii-s2-prop-5","kind":"cites","raw":"Prop. 5","form":"local","resolved_by":"in-section","file":"content/en/int/II/exercises/s2/04.md","line":18},
+{"from":"","from_label":"int-ii-s2-ex-8","to_label":"int-ii-s1","kind":"cites","raw":"§1, No. 2","form":"section","resolved_by":"section","file":"content/en/int/II/exercises/s2/08.md","line":22}
+]}
