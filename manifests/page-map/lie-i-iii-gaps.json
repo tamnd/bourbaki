@@ -13,6 +13,13 @@
   "printed_pct_of_body": 88.12095032397409,
   "chapters": [
     {
+      "chapter": "I",
+      "first_pdf_page": 19,
+      "last_pdf_page": 128,
+      "first_page": 1,
+      "last_page": 110
+    },
+    {
       "chapter": "II",
       "first_pdf_page": 129,
       "last_pdf_page": 226,

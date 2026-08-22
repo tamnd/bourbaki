@@ -12122,3 +12122,894 @@ books:
           historical_note:
             page: 307
             pdf_page: 306
+    - id: lie-i-iii
+      grammar: pilcrow/bare
+      chapters:
+        - book: lie-i-iii
+          chapter: I
+          title: Lie Algebras
+          page: 1
+          pdf_page: 19
+          sections:
+            - section: 1
+              title: Definition of Lie algebras
+              page: 1
+              pdf_page: 19
+              subsections:
+                - "no": 1
+                  title: Algebras
+                  page: 1
+                  pdf_page: 19
+                - "no": 2
+                  title: Lie algebras
+                  page: 3
+                  pdf_page: 21
+                - "no": 3
+                  title: Commutative Lie algebras
+                  page: 5
+                  pdf_page: 23
+                - "no": 4
+                  title: Ideals
+                  page: 5
+                  pdf_page: 23
+                - "no": 5
+                  title: Derived series, lower central series
+                  page: 6
+                  pdf_page: 24
+                - "no": 6
+                  title: Upper central series
+                  page: 6
+                  pdf_page: 24
+                - "no": 7
+                  title: Extensions
+                  page: 7
+                  pdf_page: 25
+                - "no": 8
+                  title: Semi-direct products
+                  page: 8
+                  pdf_page: 26
+                - "no": 9
+                  title: Change of base ring
+                  page: 11
+                  pdf_page: 29
+              exercises:
+                page: 73
+                pdf_page: 91
+            - section: 2
+              title: Enveloping algebra of a Lie algebra
+              page: 12
+              pdf_page: 30
+              subsections:
+                - "no": 1
+                  title: Definition of the enveloping algebra
+                  page: 12
+                  pdf_page: 30
+                - "no": 2
+                  title: Enveloping algebra of a product
+                  page: 13
+                  pdf_page: 31
+                - "no": 3
+                  title: Enveloping algebra of a subalgebra
+                  page: 14
+                  pdf_page: 32
+                - "no": 4
+                  title: Enveloping algebra of the opposite algebra
+                  page: 15
+                  pdf_page: 33
+                - "no": 5
+                  title: Symmetric algebra of a module
+                  page: 16
+                  pdf_page: 34
+                - "no": 6
+                  title: Filtration of the enveloping algebra
+                  page: 17
+                  pdf_page: 35
+                - "no": 7
+                  title: The Poincaré-Birkhoff-Witt Theorem
+                  page: 18
+                  pdf_page: 36
+                - "no": 8
+                  title: Extension of derivations
+                  page: 23
+                  pdf_page: 41
+                - "no": 9
+                  title: Extension of the base ring
+                  page: 25
+                  pdf_page: 43
+              exercises:
+                page: 83
+                pdf_page: 101
+            - section: 3
+              title: Representations
+              page: 25
+              pdf_page: 43
+              subsections:
+                - "no": 1
+                  title: Representations
+                  page: 25
+                  pdf_page: 43
+                - "no": 2
+                  title: Tensor product of representations
+                  page: 28
+                  pdf_page: 46
+                - "no": 3
+                  title: Representations on homomorphism modules
+                  page: 29
+                  pdf_page: 47
+                - "no": 4
+                  title: Examples
+                  page: 31
+                  pdf_page: 49
+                - "no": 5
+                  title: Invariant elements
+                  page: 32
+                  pdf_page: 50
+                - "no": 6
+                  title: Invariant bilinear forms
+                  page: 33
+                  pdf_page: 51
+                - "no": 7
+                  title: Casimir element
+                  page: 35
+                  pdf_page: 53
+                - "no": 8
+                  title: Extension of the base ring
+                  page: 36
+                  pdf_page: 54
+              exercises:
+                page: 85
+                pdf_page: 103
+            - section: 4
+              title: Nilpotent Lie algebras
+              page: 38
+              pdf_page: 56
+              subsections:
+                - "no": 1
+                  title: Definition of nilpotent Lie algebras
+                  page: 38
+                  pdf_page: 56
+                - "no": 2
+                  title: Engel’s Theorem
+                  page: 39
+                  pdf_page: 57
+                - "no": 3
+                  title: The largest nilpotency ideal of a representation
+                  page: 40
+                  pdf_page: 58
+                - "no": 4
+                  title: The largest nilpotent ideal in a Lie algebra
+                  page: 42
+                  pdf_page: 60
+                - "no": 5
+                  title: Extension of the base field
+                  page: 42
+                  pdf_page: 60
+              exercises:
+                page: 91
+                pdf_page: 109
+            - section: 5
+              title: Solvable Lie algebras
+              page: 43
+              pdf_page: 61
+              subsections:
+                - "no": 1
+                  title: Definition of solvable Lie algebras
+                  page: 43
+                  pdf_page: 61
+                - "no": 2
+                  title: Radical of a Lie algebra
+                  page: 44
+                  pdf_page: 62
+                - "no": 3
+                  title: Nilpotent radical of a Lie algebra
+                  page: 44
+                  pdf_page: 62
+                - "no": 4
+                  title: A criterion for solvability
+                  page: 47
+                  pdf_page: 65
+                - "no": 5
+                  title: Further properties of the radical
+                  page: 48
+                  pdf_page: 66
+                - "no": 6
+                  title: Extension of the base field
+                  page: 49
+                  pdf_page: 67
+              exercises:
+                page: 99
+                pdf_page: 117
+            - section: 6
+              title: Semi-simple Lie algebras
+              page: 50
+              pdf_page: 68
+              subsections:
+                - "no": 1
+                  title: Definition of semi-simple Lie algebras
+                  page: 50
+                  pdf_page: 68
+                - "no": 2
+                  title: Semi-simplicity of representations
+                  page: 51
+                  pdf_page: 69
+                - "no": 3
+                  title: Semi-simple elements and nilpotent elements in semi simple Lie algebras
+                  page: 54
+                  pdf_page: 72
+                - "no": 4
+                  title: Reductive Lie algebras
+                  page: 56
+                  pdf_page: 74
+                - "no": 5
+                  title: 'Application: a criterion for semi-simplicity of representa tions'
+                  page: 58
+                  pdf_page: 76
+                - "no": 6
+                  title: Subalgebras reductive in a Lie algebra
+                  page: 59
+                  pdf_page: 77
+                - "no": 7
+                  title: Examples of semi-simple Lie algebras
+                  page: 60
+                  pdf_page: 78
+                - "no": 8
+                  title: The Levi–Malcev Theorem
+                  page: 62
+                  pdf_page: 80
+                - "no": 9
+                  title: The invariants theorem
+                  page: 66
+                  pdf_page: 84
+                - "no": 10
+                  title: Change of base field
+                  page: 68
+                  pdf_page: 86
+              exercises:
+                page: 102
+                pdf_page: 120
+            - section: 7
+              title: Ado’s Theorem
+              page: 68
+              pdf_page: 86
+              subsections:
+                - "no": 1
+                  title: Coefficients of a representation
+                  page: 69
+                  pdf_page: 87
+                - "no": 2
+                  title: The extension theorem
+                  page: 69
+                  pdf_page: 87
+                - "no": 3
+                  title: Ado’s Theorem
+                  page: 71
+                  pdf_page: 89
+              exercises:
+                page: 109
+                pdf_page: 127
+        - book: lie-i-iii
+          chapter: II
+          title: FREE LIE ALGEBRAS
+          page: 111
+          pdf_page: 129
+          sections:
+            - section: 1
+              title: Enveloping bigebra of a Lie algebra
+              page: 111
+              pdf_page: 129
+              subsections:
+                - "no": 1
+                  title: Primitive elements of a cogebra
+                  page: 111
+                  pdf_page: 129
+                - "no": 2
+                  title: Primitive elements of a bigebra
+                  page: 113
+                  pdf_page: 131
+                - "no": 3
+                  title: Filtered bigebras
+                  page: 114
+                  pdf_page: 132
+                - "no": 4
+                  title: Enveloping bigebra of a Lie algebra
+                  page: 115
+                  pdf_page: 133
+                - "no": 5
+                  title: Structure of the cogebra U(g) in characteristic 0
+                  page: 116
+                  pdf_page: 134
+                - "no": 6
+                  title: Structure of filtered bigebras in characteristic 0
+                  page: 119
+                  pdf_page: 137
+              exercises:
+                page: 178
+                pdf_page: 196
+            - section: 2
+              title: Free Lie algebras
+              page: 122
+              pdf_page: 140
+              subsections:
+                - "no": 1
+                  title: Revision of free algebras
+                  page: 122
+                  pdf_page: 140
+                - "no": 2
+                  title: Construction of the free Lie algebra
+                  page: 122
+                  pdf_page: 140
+                - "no": 3
+                  title: Presentation of a Lie algebra
+                  page: 124
+                  pdf_page: 142
+                - "no": 4
+                  title: Lie polynomials and substitutions
+                  page: 124
+                  pdf_page: 142
+                - "no": 5
+                  title: Functorial properties
+                  page: 125
+                  pdf_page: 143
+                - "no": 6
+                  title: Graduations
+                  page: 126
+                  pdf_page: 144
+                - "no": 7
+                  title: Lower central series
+                  page: 128
+                  pdf_page: 146
+                - "no": 8
+                  title: Derivations of free Lie algebras
+                  page: 129
+                  pdf_page: 147
+                - "no": 9
+                  title: Elimination theorem
+                  page: 130
+                  pdf_page: 148
+                - "no": 10
+                  title: Hall sets in a free magma
+                  page: 132
+                  pdf_page: 150
+                - "no": 11
+                  title: Hall bases of a free Lie algebra
+                  page: 134
+                  pdf_page: 152
+              exercises:
+                page: 181
+                pdf_page: 199
+            - section: 3
+              title: Enveloping algebra of the free Lie algebra
+              page: 136
+              pdf_page: 154
+              subsections:
+                - "no": 1
+                  title: Enveloping algebra of L(X)
+                  page: 136
+                  pdf_page: 154
+                - "no": 2
+                  title: Projector of A⁺(X) onto L(X)
+                  page: 138
+                  pdf_page: 156
+                - "no": 3
+                  title: Dimension of the homogeneous components of L(X)
+                  page: 140
+                  pdf_page: 158
+              exercises:
+                page: 186
+                pdf_page: 204
+            - section: 4
+              title: Central filtrations
+              page: 142
+              pdf_page: 160
+              subsections:
+                - "no": 1
+                  title: Real filtrations
+                  page: 142
+                  pdf_page: 160
+                - "no": 2
+                  title: Order function
+                  page: 143
+                  pdf_page: 161
+                - "no": 3
+                  title: Graded algebra associated with a filtered algebra
+                  page: 144
+                  pdf_page: 162
+                - "no": 4
+                  title: Central filtrations on a group
+                  page: 145
+                  pdf_page: 163
+                - "no": 5
+                  title: An example of a central filtration
+                  page: 147
+                  pdf_page: 165
+                - "no": 6
+                  title: Integral central filtrations
+                  page: 148
+                  pdf_page: 166
+              exercises:
+                page: 187
+                pdf_page: 205
+            - section: 5
+              title: Magnus algebras
+              page: 149
+              pdf_page: 167
+              subsections:
+                - "no": 1
+                  title: Magnus algebras
+                  page: 149
+                  pdf_page: 167
+                - "no": 2
+                  title: Magnus group
+                  page: 150
+                  pdf_page: 168
+                - "no": 3
+                  title: Magnus group and free group
+                  page: 151
+                  pdf_page: 169
+                - "no": 4
+                  title: Lower central series of a free group
+                  page: 152
+                  pdf_page: 170
+                - "no": 5
+                  title: p-filtration of free groups
+                  page: 154
+                  pdf_page: 172
+              exercises:
+                page: 193
+                pdf_page: 211
+            - section: 6
+              title: The Hausdorff series
+              page: 155
+              pdf_page: 173
+              subsections:
+                - "no": 1
+                  title: Exponential and logarithm in filtered algebras
+                  page: 155
+                  pdf_page: 173
+                - "no": 2
+                  title: Hausdorff group
+                  page: 157
+                  pdf_page: 175
+                - "no": 3
+                  title: Lie formal power series
+                  page: 158
+                  pdf_page: 176
+                - "no": 4
+                  title: The Hausdorff series
+                  page: 160
+                  pdf_page: 178
+                - "no": 5
+                  title: Substitutions in the Hausdorff series
+                  page: 161
+                  pdf_page: 179
+              exercises:
+                page: 201
+                pdf_page: 219
+            - section: 7
+              title: Convergence of the Hausdorff series (real or complex case)
+              page: 164
+              pdf_page: 182
+              subsections:
+                - "no": 1
+                  title: Continuous-polynomials with values in g
+                  page: 164
+                  pdf_page: 182
+                - "no": 2
+                  title: Group germ defined by a complete normed Lie algebra
+                  page: 165
+                  pdf_page: 183
+                - "no": 3
+                  title: Exponential in complete normed associative algebras
+                  page: 169
+                  pdf_page: 187
+              exercises:
+                page: 204
+                pdf_page: 222
+            - section: 8
+              title: Convergence of the Hausdorff series (ultrametric case)
+              page: 170
+              pdf_page: 188
+              subsections:
+                - "no": 1
+                  title: p-adic upper bounds of the series exp, log and H
+                  page: 171
+                  pdf_page: 189
+                - "no": 2
+                  title: Normed Lie algebras
+                  page: 172
+                  pdf_page: 190
+                - "no": 3
+                  title: Group defined by a complete normed Lie algebra
+                  page: 172
+                  pdf_page: 190
+                - "no": 4
+                  title: Exponential in complete normed associative algebras
+                  page: 174
+                  pdf_page: 192
+              exercises:
+                page: 205
+                pdf_page: 223
+            - section: 0
+              title: Möbius function
+              page: 176
+              pdf_page: 194
+              appendix: true
+              exercises:
+                page: 207
+                pdf_page: 225
+        - book: lie-i-iii
+          chapter: III
+          title: LIE GROUPS
+          page: 209
+          pdf_page: 227
+          sections:
+            - section: 1
+              title: Lie groups
+              page: 209
+              pdf_page: 227
+              subsections:
+                - "no": 1
+                  title: Definition of a Lie group
+                  page: 209
+                  pdf_page: 227
+                - "no": 2
+                  title: Morphisms of Lie groups
+                  page: 213
+                  pdf_page: 231
+                - "no": 3
+                  title: Lie subgroups
+                  page: 214
+                  pdf_page: 232
+                - "no": 4
+                  title: Semi-direct products of Lie groups
+                  page: 215
+                  pdf_page: 233
+                - "no": 5
+                  title: Quotient of a manifold by a Lie group
+                  page: 217
+                  pdf_page: 235
+                - "no": 6
+                  title: Homogeneous spaces and quotient groups
+                  page: 219
+                  pdf_page: 237
+                - "no": 7
+                  title: Orbits
+                  page: 222
+                  pdf_page: 240
+                - "no": 8
+                  title: Vector bundles with operators
+                  page: 223
+                  pdf_page: 241
+                - "no": 9
+                  title: Local definition of a Lie group
+                  page: 226
+                  pdf_page: 244
+                - "no": 10
+                  title: Group germs
+                  page: 228
+                  pdf_page: 246
+                - "no": 11
+                  title: Law chunks of operation
+                  page: 231
+                  pdf_page: 249
+              exercises:
+                page: 370
+                pdf_page: 388
+            - section: 2
+              title: Group of tangent vectors to a Lie group
+              page: 233
+              pdf_page: 251
+              subsections:
+                - "no": 1
+                  title: Tangent laws of composition
+                  page: 233
+                  pdf_page: 251
+                - "no": 2
+                  title: Group of tangent vectors to a Lie group
+                  page: 235
+                  pdf_page: 253
+                - "no": 3
+                  title: Case of group germs
+                  page: 237
+                  pdf_page: 255
+            - section: 3
+              title: Passage from a Lie group to its Lie algebra
+              page: 238
+              pdf_page: 256
+              subsections:
+                - "no": 1
+                  title: Convolution of point distributions on a Lie group
+                  page: 238
+                  pdf_page: 256
+                - "no": 2
+                  title: Functorial properties
+                  page: 241
+                  pdf_page: 259
+                - "no": 3
+                  title: Case of a group operating on a manifold
+                  page: 244
+                  pdf_page: 262
+                - "no": 4
+                  title: Convolution of point distributions and functions
+                  page: 245
+                  pdf_page: 263
+                - "no": 5
+                  title: Fields of point distributions defined by the action of a group on a manifold
+                  page: 248
+                  pdf_page: 266
+                - "no": 6
+                  title: Invariant fields of point distributions on a Lie group
+                  page: 249
+                  pdf_page: 267
+                - "no": 7
+                  title: Lie algebra of a Lie group
+                  page: 251
+                  pdf_page: 269
+                - "no": 8
+                  title: Functorial properties of the Lie algebra
+                  page: 254
+                  pdf_page: 272
+                - "no": 9
+                  title: Lie algebra of the group of invertible elements of an alge bra
+                  page: 257
+                  pdf_page: 275
+                - "no": 10
+                  title: Lie algebras of certain linear groups
+                  page: 258
+                  pdf_page: 276
+                - "no": 11
+                  title: Linear representations
+                  page: 259
+                  pdf_page: 277
+                - "no": 12
+                  title: Adjoint representation
+                  page: 264
+                  pdf_page: 282
+                - "no": 13
+                  title: Tensors and invariant forms
+                  page: 268
+                  pdf_page: 286
+                - "no": 14
+                  title: Maurer–Cartan formulae
+                  page: 269
+                  pdf_page: 287
+                - "no": 15
+                  title: Construction of invariant differential forms
+                  page: 271
+                  pdf_page: 289
+                - "no": 16
+                  title: Haar measure on a Lie group
+                  page: 271
+                  pdf_page: 289
+                - "no": 17
+                  title: Left differential
+                  page: 274
+                  pdf_page: 292
+                - "no": 18
+                  title: Lie algebra of a Lie group germ
+                  page: 276
+                  pdf_page: 294
+              exercises:
+                page: 372
+                pdf_page: 390
+            - section: 4
+              title: Passage from Lie algebras to Lie groups
+              page: 279
+              pdf_page: 297
+              subsections:
+                - "no": 1
+                  title: Passage from Lie algebra morphisms to Lie group mor phisms
+                  page: 279
+                  pdf_page: 297
+                - "no": 2
+                  title: Passage from Lie algebras to Lie groups
+                  page: 281
+                  pdf_page: 299
+                - "no": 3
+                  title: Exponential mappings
+                  page: 284
+                  pdf_page: 302
+                - "no": 4
+                  title: Functoriality of exponential mappings
+                  page: 288
+                  pdf_page: 306
+                - "no": 5
+                  title: Structure induced on a sub-group
+                  page: 289
+                  pdf_page: 307
+                - "no": 6
+                  title: Primitives of differential forms with values in a Lie algebra
+                  page: 291
+                  pdf_page: 309
+                - "no": 7
+                  title: Passage from laws of infinitesimal operation to laws of operation
+                  page: 294
+                  pdf_page: 312
+              exercises:
+                page: 376
+                pdf_page: 394
+            - section: 5
+              title: Formal calculations in Lie groups
+              page: 297
+              pdf_page: 315
+              subsections:
+                - "no": 1
+                  title: The coefficients cαβγ
+                  page: 297
+                  pdf_page: 315
+                - "no": 2
+                  title: Bracket in the Lie algebra
+                  page: 298
+                  pdf_page: 316
+                - "no": 3
+                  title: Powers
+                  page: 300
+                  pdf_page: 318
+                - "no": 4
+                  title: Exponential
+                  page: 303
+                  pdf_page: 321
+              exercises:
+                page: 382
+                pdf_page: 400
+            - section: 6
+              title: Real and complex Lie groups
+              page: 304
+              pdf_page: 322
+              subsections:
+                - "no": 1
+                  title: Passage from Lie algebra morphisms to Lie group mor phisms
+                  page: 304
+                  pdf_page: 322
+                - "no": 2
+                  title: Integral subgroups
+                  page: 306
+                  pdf_page: 324
+                - "no": 3
+                  title: Passage from Lie algebras to Lie groups
+                  page: 310
+                  pdf_page: 328
+                - "no": 4
+                  title: Exponential mapping
+                  page: 311
+                  pdf_page: 329
+                - "no": 5
+                  title: Application to linear representations
+                  page: 315
+                  pdf_page: 333
+                - "no": 6
+                  title: Normal integral subgroups
+                  page: 316
+                  pdf_page: 334
+                - "no": 7
+                  title: Primitives of differential forms with values in a Lie algebra
+                  page: 318
+                  pdf_page: 336
+                - "no": 8
+                  title: Passage from laws of infinitesimal operation to laws of operation
+                  page: 318
+                  pdf_page: 336
+                - "no": 9
+                  title: Exponential mapping in the linear group
+                  page: 320
+                  pdf_page: 338
+                - "no": 10
+                  title: Complexification of a finite-dimensional real Lie group
+                  page: 322
+                  pdf_page: 340
+              exercises:
+                page: 383
+                pdf_page: 401
+            - section: 7
+              title: Lie groups over an ultrametric field
+              page: 326
+              pdf_page: 344
+              subsections:
+                - "no": 1
+                  title: Passage from Lie algebras to Lie groups
+                  page: 327
+                  pdf_page: 345
+                - "no": 2
+                  title: Exponential mappings
+                  page: 328
+                  pdf_page: 346
+                - "no": 3
+                  title: Standard groups
+                  page: 328
+                  pdf_page: 346
+                - "no": 4
+                  title: Filtration of standard groups
+                  page: 330
+                  pdf_page: 348
+                - "no": 5
+                  title: Powers in standard groups
+                  page: 331
+                  pdf_page: 349
+                - "no": 6
+                  title: Logarithmic mapping
+                  page: 333
+                  pdf_page: 351
+              exercises:
+                page: 391
+                pdf_page: 409
+            - section: 8
+              title: Lie groups over R or Qp
+              page: 337
+              pdf_page: 355
+              subsections:
+                - "no": 1
+                  title: Continuous morphisms
+                  page: 337
+                  pdf_page: 355
+                - "no": 2
+                  title: Closed subgroups
+                  page: 340
+                  pdf_page: 358
+              exercises:
+                page: 395
+                pdf_page: 413
+            - section: 9
+              title: Commutators, centralizers and normalizers in a Lie group
+              page: 342
+              pdf_page: 360
+              subsections:
+                - "no": 1
+                  title: Commutators in a topological group
+                  page: 342
+                  pdf_page: 360
+                - "no": 2
+                  title: Commutators in a Lie group
+                  page: 343
+                  pdf_page: 361
+                - "no": 3
+                  title: Centralizers
+                  page: 346
+                  pdf_page: 364
+                - "no": 4
+                  title: Normalizers
+                  page: 347
+                  pdf_page: 365
+                - "no": 5
+                  title: Nilpotent Lie groups
+                  page: 347
+                  pdf_page: 365
+                - "no": 6
+                  title: Solvable Lie groups
+                  page: 352
+                  pdf_page: 370
+                - "no": 7
+                  title: Radical of a Lie group
+                  page: 354
+                  pdf_page: 372
+                - "no": 8
+                  title: Semi-simple Lie groups
+                  page: 355
+                  pdf_page: 373
+              exercises:
+                page: 397
+                pdf_page: 415
+            - section: 10
+              title: The automorphism group of a Lie group
+              page: 359
+              pdf_page: 377
+              subsections:
+                - "no": 1
+                  title: Infinitesimal automorphisms
+                  page: 359
+                  pdf_page: 377
+                - "no": 2
+                  title: The automorphism group of a Lie group (real or complex case
+                  page: 362
+                  pdf_page: 380
+                - "no": 3
+                  title: The automorphism group ofa C group (ultrametric case)
+                  page: 367
+                  pdf_page: 385
+              exercises:
+                page: 409
+                pdf_page: 427
+            - section: 0
+              title: Operations on linear represenmtions
+              page: 368
+              pdf_page: 386
+              appendix: true
