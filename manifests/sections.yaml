@@ -3294,6 +3294,118 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 478b8567436f2fd93631ecc9a913822bbda646e246782cc45c4d8eff055f9378
+        - chapter: IX
+          title: MEASURES ON HAUSDORFF TOPOLOGICAL SPACES
+          sections:
+            - kind: front
+              title: MEASURES ON HAUSDORFF TOPOLOGICAL SPACES
+              path: content/en/int/IX/00_frontmatter.md
+              first_pdf_page: 183
+              last_pdf_page: 183
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 9d87932099f2f7c4d8f501086a254b55492726eb48ef3aa7b914e6dd761af91b
+            - kind: section
+              section: 1
+              title: Premeasures and measures on a topological space
+              path: content/en/int/IX/01_s1_premeasures_and_measures_on_a.md
+              label: int-ix-s1
+              first_pdf_page: 183
+              last_pdf_page: 289
+              subsections: 10
+              statements: 48
+              exercises: 10
+              extraction: ocr
+              content_sha256: ddfcbbe902634948b3701e964bd8fb40a56c4e500a833c42e74c516bfd5f4c7f
+            - kind: section
+              section: 2
+              title: Operations on measures
+              path: content/en/int/IX/02_s2_operations_on_measures.md
+              label: int-ix-s2
+              first_pdf_page: 204
+              last_pdf_page: 290
+              book_pages: INT IX.22-INT IX.41, INT IX.108
+              subsections: 7
+              statements: 31
+              exercises: 3
+              extraction: ocr
+              content_sha256: cd3cf0b3f1eea92c9a6a61e986ee9c551540b9d00e9dcdc8e7f1fc1405279a1d
+            - kind: section
+              section: 3
+              title: Measures and additive set functions
+              path: content/en/int/IX/03_s3_measures_and_additive_set_functions.md
+              label: int-ix-s3
+              first_pdf_page: 223
+              last_pdf_page: 294
+              book_pages: INT IX.41-INT IX.49, INT IX.108-INT IX.112
+              subsections: 3
+              statements: 11
+              exercises: 18
+              extraction: ocr
+              content_sha256: 9f804be3c07f04ffa908e1c9375a7fe2ea3976b356b3a4f02273e2e005639ec8
+            - kind: section
+              section: 4
+              title: Inverse limits of measures
+              path: content/en/int/IX/04_s4_inverse_limits_of_measures.md
+              label: int-ix-s4
+              first_pdf_page: 231
+              last_pdf_page: 295
+              book_pages: INT IX.49-INT IX.55, INT IX.112-INT IX.113
+              subsections: 3
+              statements: 7
+              exercises: 2
+              extraction: ocr
+              content_sha256: 2c043cf6afb0c10e5e1657a870bc88b68a12895e324defeb5637147a18844996
+            - kind: section
+              section: 5
+              title: Measures on completely regular spaces
+              path: content/en/int/IX/05_s5_measures_on_completely_regular_spaces.md
+              label: int-ix-s5
+              first_pdf_page: 238
+              last_pdf_page: 299
+              book_pages: INT IX.56-INT IX.72, INT IX.113-INT IX.117
+              subsections: 7
+              statements: 29
+              exercises: 13
+              extraction: ocr
+              content_sha256: 989f0641e0cf23c88b58517f1238d86804a90234571df1105bb928c7db54e6c9
+            - kind: section
+              section: 6
+              title: Promeasures and measures on a locally convex space
+              path: content/en/int/IX/06_s6_promeasures_and_measures_on_a_locally.md
+              label: int-ix-s6
+              first_pdf_page: 254
+              last_pdf_page: 299
+              book_pages: INT IX.72-INT IX.101, INT IX.117
+              subsections: 11
+              statements: 34
+              exercises: 1
+              extraction: ocr
+              content_sha256: 33aa365d0d0692edecc789e68e81d3cfda0e72333ba0b9cf72d071ba4b4899f0
+            - kind: appendix
+              title: Complements on Hilbert spaces
+              path: content/en/int/IX/A_a_complements_on_hilbert_spaces.md
+              label: int-ix-a0
+              first_pdf_page: 284
+              last_pdf_page: 301
+              book_pages: INT IX.118-INT IX.119
+              subsections: 2
+              statements: 5
+              exercises: 9
+              extraction: ocr
+              content_sha256: 462710a9864d603941056ec30b3bfb5fcea4599870198ce95840d3ff1f342327
+            - kind: historical
+              title: Historical Note
+              path: content/en/int/IX/historical_note.md
+              first_pdf_page: 302
+              last_pdf_page: 332
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 38ba747d643a067f81255f92c8561210d58930cbaa6d4bf4f8d6c66e57118e6f
     - id: ac-v-vii-fr
       chapters:
         - chapter: V
