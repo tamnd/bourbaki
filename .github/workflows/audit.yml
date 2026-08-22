@@ -107,6 +107,16 @@ jobs:
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: go run ./cmd/bourbaki assemble -book ts-iii-v-fr -lang fr -check
+      - name: assemble -check, Integration I to VI
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki assemble -book int-i-vi -partial -check
+      - name: assemble -check, Topological Vector Spaces I to V
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki assemble -book evt-i-v -partial -check
       - name: tags verify
         working-directory: .solver
         env:

@@ -38,32 +38,36 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: 91724b37b0d34435db297e6d41161f52780614553dc6392413bffa7094bcbbae
+content_sha256: 6b9d4a0952309fcd8f936d6e10cc2f7f6ccb93004addab7ca8f265ab930c7cbc
 ---
 
 ## 2. MORPHISMS AND DERIVED STRUCTURES
 
 ### 1. MORPHISMS
 
-In this section and the next we shall assume for the sake of simplicity that the species of structures under consideration has only *one* base set (which is therefore a principal base set). The reader will have no difficulty in extending the definitions and results to the general case.
+In this section and the next we shall assume for the sake of simplicity that the species of structures under consideration has only one base set (which is therefore a principal base set). The reader will have no difficulty in extending the definitions and results to the general case.
 
-Let $\Sigma$ be a species of structures in a theory $\mathscr{T}$ which is stronger than the theory of sets, and let $x$, $y$, $s$, $t$ be four distinct letters which are different from the constants of $\mathscr{T}$. We recall that the notation $\mathscr{F}(x, y)$ denotes the set of mappings of $x$ into $y$ (Chapter II, § 5, no. 2). Suppose that we are given a term $\sigma\{x, y, s, t\}$ in $\mathscr{T}$ which satisfies the following conditions :
+Let $\Sigma$ be a species of structures in a theory $\mathscr{T}$ which is stronger than the theory of sets, and let $x$, $y$, $s$, $t$ be four distinct letters which are different from the constants of $\mathscr{T}$. We recall that the notation $\mathfrak{F}(x,y)$ denotes the set of mappings of $x$ into $y$ (Chapter II, § 5, no. 2). Suppose that we are given a term $\sigma\{x,y,s,t\}$ in $\mathscr{T}$ which satisfies the following conditions :
 
-(MO$_{\mathrm{I}}$) *The relation* "$s$ *is a structure of species* $\Sigma$ *on* $x$, *and* $t$ *is a structure of species* $\Sigma$ *on* $y$" *implies, in* E, *the relation* $\sigma\{x, y, s, t\} \subset \mathscr{F}(x, y)$.
+$(\mathrm{MO}_{\mathrm{I}})$ *The relation “$s$ is a structure of species $\Sigma$ on $x$, and $t$ is a structure of species $\Sigma$ on $y$” implies, in E, the relation $\sigma\{x,y,s,t\}\subset\mathfrak{F}(x,y)$.*
 
-(MO$_{\mathrm{II}}$) *If, in a theory* $\mathscr{T}'$ *stronger than* $\mathscr{T}$, *we have three sets* E, E′, E″ *endowed respectively with structures* $\mathscr{S}$, $\mathscr{S}'$, $\mathscr{S}''$ *of species* $\Sigma$, *then the relations* $f \in \sigma\{\mathrm{E},\ \mathrm{E}',\ \mathscr{S},\ \mathscr{S}'\}$ *and* $g \in \sigma\{\mathrm{E}',\ \mathrm{E}'',\ \mathscr{S}',\ \mathscr{S}''\}$ *imply the relation*
+$(\mathrm{MO}_{\mathrm{II}})$ *If, in a theory $\mathscr{T}'$ stronger than $\mathscr{T}$, we have three sets E, E′, E″ endowed respectively with structures $\mathscr{S}$, $\mathscr{S}'$, $\mathscr{S}''$ of species $\Sigma$, then the relations $f\in\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$ and $g\in\sigma\{E',E'',\mathscr{S}',\mathscr{S}''\}$ imply the relation*
 
-$$g \circ f \in \sigma\{\mathrm{E},\ \mathrm{E}'',\ \mathscr{S},\ \mathscr{S}''\}.$$
+$$
+g\circ f\in\sigma\{E,E'',\mathscr{S},\mathscr{S}''\}.
+$$
 
-(MO$_{\mathrm{III}}$) *If, in a theory* $\mathscr{T}'$ *stronger than* $\mathscr{T}$, *we have two sets* E, E′ *endowed respectively with structures* $\mathscr{S}$, $\mathscr{S}'$ *of species* $\Sigma$, *then a bijection* $f$ *of* E *onto* E′ *is an isomorphism if and only if* $f \in \sigma\{\mathrm{E},\ \mathrm{E}',\ \mathscr{S},\ \mathscr{S}'\}$ *and* $\overset{-1}{f} \in \sigma\{\mathrm{E}',\ \mathrm{E},\ \mathscr{S}',\ \mathscr{S}\}$.
+$(\mathrm{MO}_{\mathrm{III}})$ *If, in a theory $\mathscr{T}'$ stronger than $\mathscr{T}$, we have two sets E, E′ endowed respectively with structures $\mathscr{S}$, $\mathscr{S}'$ of species $\Sigma$, then a bijection $f$ of E onto E′ is an isomorphism if and only if $f\in\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$ and $f^{-1}\in\sigma\{E',E,\mathscr{S}',\mathscr{S}\}$.*
 
-If $\Sigma$ and $\sigma$ are given, the relation $f \in \sigma\{x, y, s, t\}$ is expressed by saying that $f$ is a *morphism* (or a *σ-morphism*) *of* $x$, *endowed with* $s$, *into* $y$, *endowed with* $t$. If (in a theory $\mathscr{T}'$ stronger than $\mathscr{T}$) E and E′ are two sets endowed with structures $\mathscr{S}$, $\mathscr{S}'$ of species $\Sigma$, then the term $\sigma\{\mathrm{E}, \mathrm{E}', \mathscr{S}, \mathscr{S}'\}$ is the *set of σ-morphisms of* E *into* E′.
+If $\Sigma$ and $\sigma$ are given, the relation $f\in\sigma\{x,y,s,t\}$ is expressed by saying that $f$ is a *morphism* (or a $\sigma$-*morphism*) of $x$, endowed with $s$, into $y$, endowed with $t$. If (in a theory $\mathscr{T}'$ stronger than $\mathscr{T}$) E and E′ are two sets endowed with structures $\mathscr{S},\mathscr{S}'$ of species $\Sigma$, then the term $\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$ is the *set of $\sigma$-morphisms of E into E′.*
 
 *Examples*
 
 #### Example 1 {#ens-iv-s2-n1-exa-1 .statement tag=03VL}
 
-Take $\Sigma$ to be the species of order structures and let $\sigma\{x,\ y,\ s,\ t\}$ denote the set of all mappings $f$ of $x$ into $y$ such that the relation $(u,\ v) \in s$ implies $(f(u), f(v)) \in t$. With the notation of Chapter III, § 1, this means that $u \leqslant v$ implies $f(u) \leqslant f(v)$, i.e., that $f$ is *increasing*. The verification of axioms $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, and $(\mathrm{MO_{III}})$ is obvious.
+Take $\Sigma$ to be the species of order structures and let $\sigma\{x,y,s,t\}$ denote the set of all mappings $f$ of $x$ into $y$ such that the relation $(u,v)\in s$ implies $(f(u),f(v))\in t$. With the notation of Chapter III, § 1,
+
+271 this means that $u \leqslant v$ implies $f(u) \leqslant f(v)$, i.e., that $f$ is *increasing*. The verification of axioms $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, and $(\mathrm{MO_{III}})$ is obvious.
 
 #### Example 2 {#ens-iv-s2-n1-exa-2 .statement tag=03VM}
 
@@ -163,43 +167,45 @@ is therefore equivalent to the relation
 
 (2)     "for all $\iota \in \mathrm{I}$, $f_\iota \circ u$ is a morphism of F into $\mathrm{A}_\iota$".
 
-Now, to say that $\mathscr{I}'$ is the initial structure with respect to the family $(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$ means that relation (1) is equivalent to the relation "$u$ is a morphism of F into E endowed with $\mathscr{I}'$"; and to say that $\mathscr{I}$ is the initial structure with respect to the family $(\mathrm{A}_\iota, \mathscr{S}_\iota, f_\iota)_{\iota \in \mathrm{I}}$ means that relation (2) is equivalent to the relation "$u$ is a morphism of F into E endowed with I". Hence the result, in view of the property of uniqueness of initial structure.
+Now, to say that $\mathscr{I}'$ is the initial structure with respect to the family $(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$ means that relation (1) is equivalent to the relation "$u$ is a morphism of F into E endowed with $\mathscr{I}'$"; and to say that $\mathscr{I}$ is the initial structure with respect to the family $(A_i,\,\mathscr{G}_i,\,f_i)_{i\in I}$ means that relation (2) is equivalent to the relation “$u$ is a morphism of F into E endowed with $\Gamma$”. Hence the result, in view of the property of uniqueness of initial structure.
 
 ### 4. EXAMPLES OF INITIAL STRUCTURES
 
-I. *Inverse image of a structure*. When I is a set consisting of a single element, the initial structure with respect to $(\mathrm{A}, \mathscr{S}, f)$ is called the *inverse image under $f$ of the structure* $\mathscr{S}$ (when it exists).
+I. *Inverse image of a structure.* When I is a set consisting of a single element, the initial structure with respect to $(A,\,\mathscr{G},\,f)$ is called the *inverse image under $f$ of the structure $\mathscr{G}$* (when it exists).
 
 \* A topology always has an inverse image under any mapping $f$; but this is not the case for an order structure or an algebraic structure. \*
 
-II. *Induced structure*. Let A be a set endowed with a structure $\mathscr{S}$ of species $\Sigma$, let B be a subset of A, and let $j$ be the canonical injection of B into A. Then the inverse image under $j$ of the structure B (if it exists) is called the *structure induced* by $\mathscr{S}$ on B.
+II. *Induced structure.* Let A be a set endowed with a structure $\mathscr{G}$ of species $\Sigma$, let B be a subset of A, and let $j$ be the canonical injection of B into A. Then the inverse image under $j$ of the structure B (if it exists) is called the *structure induced by $\mathscr{G}$ on B.*
 
 An order structure induces a structure of the same species on every subset of the set on which it is defined; but this is not the case for the structure of a directed set. \* A topology induces a topology on every subset of the set on which it is defined, but a compact topology does not in general induce a compact topology. An algebraic structure on a set A does not in general induce a structure of the same species on an arbitrary subset B; if the given structure on A consists of laws of composition which are everywhere defined, then it is necessary that B should be stable with respect to each of these laws, but this necessary condition is not always sufficient. \*
 
 The general criterion CST10 gives us the following *transitivity criterion* for induced structures :
 
-CST11. *Let* B *be a subset of* A, *let* C *be a subset of* B, *and let* $\mathscr{S}$ *be a structure of species* $\Sigma$ *on* A *which induces a structure* $\mathscr{S}'$ *of the same species on* B. *Then* $\mathscr{S}$ *induces a structure of species* $\Sigma$ *on* C *if and only if* $\mathscr{S}'$ *induces a structure of species* $\Sigma$ *on* C, *and the structures induced on* C *by* $\mathscr{S}$ *and* $\mathscr{S}'$ *are then identical.*
+CST11. *Let B be a subset of A, let C be a subset of B, and let $\mathscr{G}$ be a structure of species $\Sigma$ on A which induces a structure $\mathscr{G}'$ of the same species on B. Then $\mathscr{G}$ induces a structure of species $\Sigma$ on C if and only if $\mathscr{G}'$ induces a structure of species $\Sigma$ on C, and the structures induced on C by $\mathscr{G}$ and $\mathscr{G}'$ are then identical.*
 
-CST12. *Let* A, A$'$ *be two sets endowed with structures* $\mathscr{S}$, $\mathscr{S}'$ *of species* $\Sigma$. *Let* B *be a subset of* A, *and* B$'$ *a subset of* A$'$. *Suppose that* $\mathscr{S}$ (resp. $\mathscr{S}'$) *induces a structure of species* $\Sigma$ *on* B (resp. B$'$). *If $f$ is a morphism of* A *into* A$'$ *such that $f(\mathrm{B}) \subset \mathrm{B}'$, then the mapping $g$ of* B *into* B$'$ *which coincides with $f$ on* B *is a morphism* (*with respect to the structures induced by* $\mathscr{S}$ *and* $\mathscr{S}'$).
+CST12. *Let A, A' be two sets endowed with structures $\mathscr{G}$, $\mathscr{G}'$ of species $\Sigma$. Let B be a subset of A, and B' a subset of A'. Suppose that $\mathscr{G}$ (resp. $\mathscr{G}'$) induces a structure of species $\Sigma$ on B (resp. B'). If $f$ is a morphism of A into A' such that $f(B)\subset B'$, then the mapping of B into B' which coincides with $f$ on B is a morphism (with respect to the structures induced by $\mathscr{G}$ and $\mathscr{G}'$).*
 
-Let $j$ (resp. $j'$) be the canonical injection of B (resp. B$'$) into A (resp. A$'$). By definition we have $f \circ j = j' \circ g$. Since $f$ and $j$ are morphisms, so is $f \circ j$ by $(\mathrm{MO_{II}})$; but then, $j' \circ g$ being a morphism, the mapping $g$ is a morphism by the definition of initial structure.
+Let $j$ (resp. $j'$) be the canonical injection of B (resp. B') into A (resp. A'). By definition we have $f\circ j=j'\circ g$. Since $f$ and $j$ are morphisms,
 
-III. *Product structure.* Let $(\mathrm{A}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets, and on each set $\mathrm{A}_\iota$ let $\mathscr{S}_\iota$ be a structure of species $\Sigma$. Let $\mathrm{E} = \prod_{\iota \in \mathrm{I}} \mathrm{A}_\iota$ be the *product* of the family $(\mathrm{A}_\iota)_{\iota \in \mathrm{I}}$ (Chapter II, § 5), and let $\mathrm{pr}_\iota$ denote the projection of $\mathrm{E}$ onto $\mathrm{A}_\iota$. The initial structure (if it exists) with respect to the family $(\mathrm{A}_\iota, \mathscr{S}_\iota, \mathrm{pr}_\iota)_{\iota \in \mathrm{I}}$ is called the *product* of the structures $\mathscr{S}_\iota$.
+276 so is $f\circ j$ by (MO$_{\mathrm{II}}$); but then, $j'\circ g$ being a morphism, the mapping $g$ is a morphism by the definition of initial structure.
 
-A family of order structures always admits a product structure, but the same is not always true of a family of total order structures. \* A family of group structures always admits a product structure, but the same need not be true of a family of division ring structures. A family of topologies always admits a product structure, but this is not always true of a family of structures of locally compact spaces; in this case, there is a product structure of the same species if the family is *finite*, but there need not be one if the family is *infinite* (cf. *General Topology*, Chapter I, § 9, no. 7, Prop. 14). \*
+III. *Product structure.* Let $(A_i)_{i\in I}$ be a family of sets, and on each set $A_i$ let $\mathscr{S}_i$ be a structure of species $\Sigma$. Let $E=\prod_{i\in I}A_i$ be the *product* of the family $(A_i)_{i\in I}$ (Chapter II, § 5), and let $\operatorname{pr}_i$ denote the projection of $E$ onto $A_i$. The initial structure (if it exists) with respect to the family $(A_i,\mathscr{S}_i,\operatorname{pr}_i)_{i\in I}$ is called the *product* of the structures $\mathscr{S}_i$.
+
+\* A family of order structures always admits a product structure, but the same is not always true of a family of total order structures. A family of group structures always admits a product structure, but the same need not be true of a family of division ring structures. A family of topologies always admits a product structure, but this is not always true of a family of structures of locally compact spaces; in this case, there is a product structure of the same species if the family is *finite*, but there need not be one if the family is *infinite* (cf. *General Topology*, Chapter I, § 9, no. 7, Prop. 14). \*
 
 Criterion CST10 gives rise to the following *associativity criterion* for product structures :
 
-CST13. *Let $(\mathrm{A}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets, and for each index $\iota \in \mathrm{I}$ let $\mathscr{S}_\iota$ be a structure of species $\Sigma$ on $\mathrm{A}_\iota$. Let $(\mathrm{J}_\lambda)_{\lambda \in \mathrm{L}}$ be a partition of $\mathrm{I}$. Suppose that on each partial product $\mathrm{B}_\lambda = \prod_{\iota \in \mathrm{J}_\lambda} \mathrm{A}_\iota$ the family $(\mathscr{S}_\iota)_{\iota \in \mathrm{J}_\lambda}$ admits a product structure $\mathscr{S}'_\lambda$. Then the family $(\mathscr{S}_\iota)_{\iota \in \mathrm{I}}$ admits a product structure $\mathscr{S}$ if and only if the family $(\mathscr{S}'_\lambda)_{\lambda \in \mathrm{L}}$ admits a product structure $\mathscr{S}'$, and the canonical mapping of $\mathrm{E} = \prod_{\iota \in \mathrm{I}} \mathrm{A}_\iota$, endowed with $\mathscr{S}$, onto $\mathrm{F} = \prod_{\lambda \in \mathrm{L}} \mathrm{B}_\lambda$, endowed with $\mathscr{S}'$ (Chapter II, § 5, no. 5), is then an isomorphism.*
+CST13. *Let $(A_i)_{i\in I}$ be a family of sets, and for each index $i\in I$ let $\mathscr{S}_i$ be a structure of species $\Sigma$ on $A_i$. Let $(J_\lambda)_{\lambda\in L}$ be a partition of $I$. Suppose that on each partial product $B_\lambda=\prod_{i\in J_\lambda}A_i$, the family $(\mathscr{S}_i)_{i\in J_\lambda}$ admits a product structure $\mathscr{S}'_\lambda$. Then the family $(\mathscr{S}_i)_{i\in I}$ admits a product structure $\mathscr{S}$ if and only if the family $(\mathscr{S}'_\lambda)_{\lambda\in L}$ admits a product structure $\mathscr{S}'$, and the canonical mapping of $E=\prod_{i\in I}A_i$, endowed with $\mathscr{S}$, onto $F=\prod_{\lambda\in L}B_\lambda$, endowed with $\mathscr{S}'$ (Chapter II, § 5, no. 5), is then an isomorphism.*
 
 Another application of CST10 gives the following criterion concerning structures induced by a product structure :
 
-CST14. *Let $(\mathrm{A}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets, and for each $\iota \in \mathrm{I}$ let $\mathscr{S}_\iota$ be a structure of species $\Sigma$ on $\mathrm{A}_\iota$. For each $\iota \in \mathrm{I}$, let $\mathrm{B}_\iota$ be a subset of $\mathrm{A}_\iota$. Suppose that each $\mathscr{S}_\iota$ induces a structure $\mathscr{S}'_\iota$ on $\mathrm{B}_\iota$, and that on the product $\mathrm{E} = \prod_{\iota \in \mathrm{I}} \mathrm{A}_\iota$ there exists a structure $\mathscr{S}_0$ which is the product of the family $(\mathscr{S}_\iota)$. Then the following statements are equivalent :*
+CST14. *Let $(A_i)_{i\in I}$ be a family of sets, and for each $i\in I$ let $\mathscr{S}_i$ be a structure of species $\Sigma$ on $A_i$. For each $i\in I$, let $B_i$ be a subset of $A_i$. Suppose that each $\mathscr{S}_i$ induces a structure $\mathscr{S}'_i$ on $B_i$, and that on the product $E=\prod_{i\in I}A_i$ there exists a structure $\mathscr{S}_0$ which is the product of the family $(\mathscr{S}_i)$. Then the following statements are equivalent :*
 
-(a) *on the set $\mathrm{B} = \prod_{i \in \mathrm{I}} \mathrm{B}_\iota \subset \mathrm{E}$ there exists a structure $\mathscr{S}$ induced by $\mathscr{S}_0$;*
+(a) on the set $B=\prod_{i\in I}B_i\subset E$ there exists a structure $\mathscr{S}$ induced by $\mathscr{S}_0$;
 
-(b) *on the set $\mathrm{B}$ there exists a structure $\mathscr{S}'$ which is the product of the family of structures $(\mathscr{S}'_\iota)$.*
+(b) on the set $B$ there exists a structure $\mathscr{S}'$ which is the product of the family of structures $(\mathscr{S}'_i)$.
 
-*Furthermore, these statements imply that $\mathscr{S} = \mathscr{S}'$.*
+*Furthermore, these statements imply that $\mathscr{S}=\mathscr{S}'$.*
 
 Let $j_\iota$ be the canonical injection of $\mathrm{B}_\iota$ into $\mathrm{A}_\iota$, let $j$ be the canonical injection of B into E, let $p_\iota$ be the projection of E onto $\mathrm{A}_\iota$, and let $p'_\iota$ be the projection of B onto $\mathrm{B}_\iota$. Then we have $p_\iota \circ j = j_\iota \circ p'_\iota$ for all $\iota \in \mathrm{I}$. By CST10, $\mathscr{S}$ is the initial structure with respect to the family $(\mathrm{A}_\iota, \mathscr{S}_\iota, p_\iota \circ j)_{\iota \in \mathrm{I}}$, and $\mathscr{S}'$ is the initial structure with respect to the family $(\mathrm{A}_\iota, \mathscr{S}_\iota, j_\iota \circ p'_\iota)_{\iota \in \mathrm{I}}$. Hence the result.
 
@@ -219,29 +225,31 @@ CST16. *Let $(\mathrm{A}_\iota)_{\iota \in \mathrm{I}}$, $(\mathrm{B}_\iota)_{\i
 
 Let $p_\iota$ (resp. $q_\iota$) be the projection of A onto $\mathrm{A}_\iota$ (resp. of B onto $\mathrm{B}_\iota$). Then we have $q_\iota \circ f = f_\iota \circ p_\iota$. Since $f_\iota$ and $p_\iota$ are morphisms (criterion
 
-CST9), $f_\iota \circ p_\iota$ is a morphism by $(\mathrm{MO_{II}})$; hence $f$ is a morphism by (IN).
+CST9), $f_i \circ p_i$ is a morphism by (MO$_\Pi$); hence $f$ is a morphism by (IN).
 
 #### Remark {#ens-iv-s2-n4-rem-2 .statement tag=03VV}
 
-For most of the usual structures, the condition given in CST 16 is not only sufficient but also necessary for $f$ to be a morphism (cf. Exercise 7). In particular, this is so in the following circumstances (which occur, for example, if $\Sigma$ is the species of order structures, \* or the species of group structures, or the species of topological structures $_*$, etc.; cf. Exercise 8) :
+For most of the usual structures, the condition given in CST16 is not only sufficient but also necessary for $f$ to be a morphism (cf. Exercise 7). In particular, this is so in the following circumstances (which occur, for example, if $\Sigma$ is the species of order structures, \* or the species of group structures, or the species of topological structures *, etc.; cf. Exercise 8) :
 
-¶ There exists a family $(a_\iota)_{\iota \in \mathrm{I}}$ such that $a_\iota \in \mathrm{A}_\iota$ for all $\iota \in \mathrm{I}$ and such that, if we put $r_\iota(x_\iota) = (y_\varkappa)$, where $y_\iota = x_\iota$ and $y_\varkappa = a_\varkappa$ whenever $\varkappa \neq \iota$, each of the mappings $r_\iota$ is a *morphism* of $\mathrm{A}_\iota$ into A. For if $f = (f_\iota)$ is a morphism of A into B, we may write $f_\iota = q_\iota \circ f \circ r_\iota$ for all $\iota \in \mathrm{I}$, and it is enough to apply $(\mathrm{MO_{II}})$.
+☡
 
-¶ Note that $r_\iota$ is a morphism if the following condition is satisfied :
+¶ There exists a family $(a_i)_{i\in I}$ such that $a_i\in A_i$ for all $i\in I$ and such that, if we put $r_i(x)=(y_\lambda)$, where $y_i=x_i$ and $y_\lambda=a_\lambda$ whenever $\lambda\ne i$, each of the mappings $r_i$ is a morphism of $A_i$ into $A$. For if $f=(f_i)$ is a morphism of $A$ into $B$, we may write $f_i=q_i\circ f\circ r_i$ for all $i\in I$, and it is enough to apply (MO$_\Pi$).
 
-(a) For every set E endowed with a structure of species $\Sigma$, the constant mapping $z \to a_\iota$ is a morphism of E into $\mathrm{A}_\iota$; namely, for each $\varkappa \in \mathrm{I}$, $p_\varkappa \circ r_\iota$ is a morphism of $\mathrm{A}_\iota$ into $\mathrm{A}_\varkappa$, since it is the identity mapping when $\varkappa = \iota$, and a constant mapping $z \to a_\varkappa$ when $\varkappa \neq \iota$; by the definition of product structure, $r_\iota$ is therefore a morphism of $\mathrm{A}_\iota$ into A.
+¶ Note that $r_i$ is a morphism if the following condition is satisfied :
+
+(a) For every set $E$ endowed with a structure of species $\Sigma$, the constant mapping $z\mapsto a_i$ is a morphism of $E$ into $A_i$; namely, for each $x\in I$, $p_x\circ r_i$ is a morphism of $A_i$ into $A_x$, since it is the identity mapping when $x=i$, and a constant mapping $z\mapsto a_x$ when $x\ne i$; by the definition of product structure, $r_i$ is therefore a morphism of $A_i$ into $A$.
 
 ¶ The examples listed above satisfy not only (a), but also the following condition :
 
-(b) On every set $\mathrm{A}'_\iota = \mathrm{A}_\iota \times \prod_{\varkappa \neq \iota} \{a_\varkappa\}$, the structure $\mathscr{S}$ induces a structure of species $\Sigma$.
+(b) On every set $A'_i=A_i\times\prod_{x\ne i}\{a_x\}$, the structure $\mathscr{I}$ induces a structure of species $\Sigma$.
 
-¶ Let $p'_\iota$ denote the restriction of $p_\iota$ to $\mathrm{A}'_\iota$. If both conditions (a) and (b) are satisfied, then $p'_\iota$ is an *isomorphism* of $\mathrm{A}'_\iota$ onto $\mathrm{A}_\iota$. For since $p'_\iota = p_\iota \circ j_\iota$, where $j_\iota$ is the canonical injection of $\mathrm{A}'_\iota$ into A, $p'_\iota$ is a morphism by $(\mathrm{MO_{II}})$. Also we have $r_\iota = j_\iota \circ \overset{-1}{p'_\iota}$; hence $\overset{-1}{p'_\iota}$ is a morphism of $\mathrm{A}_\iota$ into $\mathrm{A}'_\iota$ by virtue of the definition of induced structure.
+¶ Let $p'_i$ denote the restriction of $p_i$ to $A'_i$. If both conditions (a) and (b) are satisfied, then $p'_i$ is an isomorphism of $A'_i$ onto $A_i$. For since $p'_i=p_i\circ j_i$, where $j_i$ is the canonical injection of $A'_i$ into $A$, $p'_i$ is a morphism by (MO$_\Pi$). Also we have $r_i=j_i\circ p_i'^{-1}$; hence $p_i'^{-1}$ is a morphism of $A_i$ into $A'_i$ by virtue of the definition of induced structure.
 
 Finally, we have the following criterion, which characterizes the morphisms in many cases :
 
-CST17. *Let* A *and* B *be two sets, endowed with structures* $\mathscr{S}_\mathrm{A}$, $\mathscr{S}_\mathrm{B}$ *of the same species* $\Sigma$. *Suppose that there exists on* $\mathrm{A} \times \mathrm{B}$ *the structure* $\mathscr{S}_{\mathrm{A} \times \mathrm{B}}$, *the product of* $\mathscr{S}_\mathrm{A}$ *and* $\mathscr{S}_\mathrm{B}$. *Let* $f$ *be a mapping of* A *into* B, *let* F *be its graph, and let* $\pi$ *be the bijection* $x \to (x, f(x))$ *of* A *onto* F. *Then, for* $f$ *to be a morphism of* A *into* B, *it is necessary and sufficient that there should exist on* F *a structure of species* $\Sigma$ *induced by* $\mathscr{S}_{\mathrm{A} \times \mathrm{B}}$ *and that, when* F *is endowed with this structure,* $\pi$ *should be an isomorphism of* A *onto* F.
+**CST17.** — Let $A$ and $B$ be two sets, endowed with structures $\mathscr{S}_A$, $\mathscr{S}_B$ of the same species $\Sigma$. Suppose that there exists on $A\times B$ the structure $\mathscr{S}_{A\times B}$, the product of $\mathscr{S}_A$ and $\mathscr{S}_B$. Let $f$ be a mapping of $A$ into $B$, let $F$ be its graph, and let $\pi$ be the bijection $x\mapsto (x,f(x))$ of $A$ onto $F$. Then, for $f$ to be a morphism of $A$ into $B$, it is necessary and sufficient that there should exist on $F$ a structure of species $\Sigma$ induced by $\mathscr{S}_{A\times B}$ and that, when $F$ is endowed with this structure, $\pi$ should be an isomorphism of $A$ onto $F$.
 
-To prove sufficiency, let $j$ be the canonical injection of F into $\mathrm{A} \times \mathrm{B}$. We may write $f = \mathrm{pr}_2 \circ j \circ \pi$, and $f$ is then by hypothesis the composition of three morphisms.
+To prove sufficiency, let $j$ be the canonical injection of $F$ into $A\times B$. We may write $f=\operatorname{pr}_2\circ j\circ\pi$, and $f$ is then by hypothesis the composition of three morphisms.
 
 ¶ To prove necessity, let $\mathscr{S}_{\mathbf{F}}$ be the structure of species $\Sigma$ obtained by transporting the structure $\mathscr{S}_{\mathbf{A}}$ to F by means of the bijection $\pi$ (§ 1, no. 5). Then we must show that $\mathscr{S}_{\mathbf{F}}$ is induced by $\mathscr{S}_{\mathbf{A} \times \mathbf{B}}$ on F. We remark first that $j$ is a morphism of F into $\mathbf{A} \times \mathbf{B}$; for $j \circ \pi$ is the mapping $x \to (x, f(x))$ of A into $\mathbf{A} \times \mathbf{B}$ and is therefore a morphism by virtue of the hypothesis on $f$ and the definition of the product structure; hence, by the definition of the structure $\mathscr{S}_{\mathbf{F}}$, $j$ is a morphism. It remains to be shown that if E is a set endowed with a structure of species $\Sigma$, and if $g$ is a mapping of E into F such that $j \circ g$ is a morphism of E into $\mathbf{A} \times \mathbf{B}$, then $g$ is a morphism; or, equivalently, that $g_1 = \overset{-1}{\pi} \circ g$ is a morphism of E into A. But since $g_1 = \mathrm{pr}_1 \circ (j \circ g)$, this follows from the hypothesis and the definition of the product structure.
 

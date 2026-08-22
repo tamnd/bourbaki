@@ -1443,6 +1443,78 @@
           ]
         }
       ]
+    },
+    {
+      "id": "evt-i-v",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "TOPOLOGICAL VECTOR SPACES OVER A VALUED DIVISION RING",
+          "total": 35,
+          "sections": [
+            {
+              "section": 1,
+              "label": "evt-i-s1",
+              "dir": "s1",
+              "count": 14,
+              "first": 1,
+              "last": 14
+            },
+            {
+              "section": 2,
+              "label": "evt-i-s2",
+              "dir": "s2",
+              "count": 12,
+              "first": 1,
+              "last": 12
+            },
+            {
+              "section": 3,
+              "label": "evt-i-s3",
+              "dir": "s3",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-i-vi",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "INEQUALITIES OF CONVEXITY",
+          "total": 0,
+          "sections": null
+        },
+        {
+          "chapter": "II",
+          "title": "RIESZ SPACES",
+          "total": 21,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-ii-s1",
+              "dir": "s1",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 3
+            },
+            {
+              "section": 2,
+              "label": "int-ii-s2",
+              "dir": "s2",
+              "count": 9,
+              "first": 1,
+              "last": 9,
+              "starred": 6
+            }
+          ]
+        }
+      ]
     }
   ]
 }

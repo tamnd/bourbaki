@@ -2251,10 +2251,10 @@ books:
               last_pdf_page: 294
               book_pages: 259-271, 289
               subsections: 7
-              statements: 16
+              statements: 11
               exercises: 1
               extraction: ocr
-              content_sha256: b1094b5a2252deca203c539c9c491ffa5dd29bc156fe419c48f680ba49540844
+              content_sha256: bc1d66409698eb85af0a8703ebbb4f2e02ccf95db168e9c8733b781c5739452a
             - kind: section
               section: 2
               title: Morphisms and derived structures
@@ -2267,7 +2267,7 @@ books:
               statements: 12
               exercises: 11
               extraction: ocr
-              content_sha256: 91724b37b0d34435db297e6d41161f52780614553dc6392413bffa7094bcbbae
+              content_sha256: 6b9d4a0952309fcd8f936d6e10cc2f7f6ccb93004addab7ca8f265ab930c7cbc
             - kind: section
               section: 3
               title: Universal mappings
@@ -2292,3 +2292,119 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 017dc72194ab7199a70c98ebaad46bbe5a298e1d67f9319e8388d92396c95255
+    - id: evt-i-v
+      chapters:
+        - chapter: I
+          title: TOPOLOGICAL VECTOR SPACES OVER A VALUED DIVISION RING
+          sections:
+            - kind: front
+              title: TOPOLOGICAL VECTOR SPACES OVER A VALUED DIVISION RING
+              path: content/en/evt/I/00_frontmatter.md
+              first_pdf_page: 9
+              last_pdf_page: 9
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: fb751ec4c726b863342850289ad85c19393f273d58408257f7185af17a1cf471
+            - kind: section
+              section: 1
+              title: Topological vector spaces
+              path: content/en/evt/I/01_s1_topological_vector_spaces.md
+              label: evt-i-s1
+              first_pdf_page: 9
+              last_pdf_page: 33
+              subsections: 7
+              statements: 23
+              exercises: 14
+              extraction: ocr
+              content_sha256: 1fa35c643923023134a74cbf1e3b29360774f343b752ec68611729b926b6618a
+            - kind: section
+              section: 2
+              title: Linear varieties in a topological vector space
+              path: content/en/evt/I/02_s2_linear_varieties_in_a_topological.md
+              label: evt-i-s2
+              first_pdf_page: 19
+              last_pdf_page: 36
+              book_pages: TVS I.11-TVS I.16, TVS I.25-TVS I.28
+              subsections: 4
+              statements: 24
+              exercises: 12
+              extraction: ocr
+              content_sha256: c12495ea5aa70c96ec454e4334e835094b5959ce7044f945255ffd99a6e833e3
+            - kind: section
+              section: 3
+              title: Metrisable topological vector spaces
+              path: content/en/evt/I/03_s3_metrisable_topological_vector_spaces.md
+              label: evt-i-s3
+              first_pdf_page: 24
+              last_pdf_page: 37
+              book_pages: TVS I.28-TVS I.29
+              subsections: 3
+              statements: 11
+              exercises: 9
+              extraction: ocr
+              content_sha256: 3f9d6ffe144af4f7f06621a65e3c7b30c95b9f58e434288523f844d78845614d
+    - id: int-i-vi
+      chapters:
+        - chapter: I
+          title: INEQUALITIES OF CONVEXITY
+          sections:
+            - kind: front
+              title: INEQUALITIES OF CONVEXITY
+              path: content/en/int/I/00_frontmatter.md
+              first_pdf_page: 16
+              last_pdf_page: 22
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: e54d6fbe9e90c62a28ec6f6ba87e334e73d7ce4098ca837039ce5c3f52732531
+            - kind: historical
+              title: Historical Note
+              path: content/en/int/I/historical_note.md
+              first_pdf_page: 23
+              last_pdf_page: 24
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 726e988bfaa2a17e0cc1d4bf8145d9b9fb688951b7385f7ffb97ade8461b8ef8
+        - chapter: II
+          title: RIESZ SPACES
+          sections:
+            - kind: front
+              title: RIESZ SPACES
+              path: content/en/int/II/00_frontmatter.md
+              first_pdf_page: 25
+              last_pdf_page: 25
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 0bd6fd916401e04d4721a6bc0893532cb1bf79037566618d7736fd45f710f48c
+            - kind: section
+              section: 1
+              title: Riesz spaces and fully lattice-ordered spaces
+              path: content/en/int/II/01_s1_riesz_spaces_and_fully_lattice_ordered.md
+              label: int-ii-s1
+              first_pdf_page: 25
+              last_pdf_page: 43
+              subsections: 5
+              statements: 16
+              exercises: 12
+              extraction: ocr
+              content_sha256: 1c5b35994e63e08eefdec012225c55b7a20f08890336b7db13ea7edf2feca562
+            - kind: section
+              section: 2
+              title: Linear forms on a Riesz space
+              path: content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md
+              label: int-ii-s2
+              first_pdf_page: 33
+              last_pdf_page: 45
+              book_pages: INT II.19-INT II.21
+              subsections: 2
+              statements: 8
+              exercises: 9
+              extraction: ocr
+              content_sha256: 12327dae1c4f8d987fd53114bcf020e3b0669f8b97383f8b6fcc7dbb27dd726f
