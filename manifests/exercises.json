@@ -1477,6 +1477,132 @@
               "last": 9
             }
           ]
+        },
+        {
+          "chapter": "II",
+          "title": "CONVEX SETS AND LOCALLY CONVEX SPACES",
+          "total": 137,
+          "sections": [
+            {
+              "section": 2,
+              "label": "evt-ii-s2",
+              "dir": "s2",
+              "count": 43,
+              "first": 1,
+              "last": 43,
+              "starred": 7
+            },
+            {
+              "section": 3,
+              "label": "evt-ii-s3",
+              "dir": "s3",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "supplementary": 1
+            },
+            {
+              "section": 4,
+              "label": "evt-ii-s4",
+              "dir": "s4",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "supplementary": 1
+            },
+            {
+              "section": 5,
+              "label": "evt-ii-s5",
+              "dir": "s5",
+              "count": 5,
+              "first": 1,
+              "last": 5
+            },
+            {
+              "section": 6,
+              "label": "evt-ii-s6",
+              "dir": "s6",
+              "count": 20,
+              "first": 1,
+              "last": 20,
+              "supplementary": 3
+            },
+            {
+              "section": 7,
+              "label": "evt-ii-s7",
+              "dir": "s7",
+              "count": 41,
+              "first": 1,
+              "last": 41,
+              "starred": 5,
+              "supplementary": 3
+            },
+            {
+              "section": 8,
+              "label": "evt-ii-s8",
+              "dir": "s8",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            }
+          ]
+        },
+        {
+          "chapter": "III",
+          "title": "SPACES OF CONTINUOUS LINEAR MAPPINGS",
+          "total": 75,
+          "sections": [
+            {
+              "section": 1,
+              "label": "evt-iii-s1",
+              "dir": "s1",
+              "count": 16,
+              "first": 1,
+              "last": 16
+            },
+            {
+              "section": 2,
+              "label": "evt-iii-s2",
+              "dir": "s2",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 3,
+              "label": "evt-iii-s3",
+              "dir": "s3",
+              "count": 13,
+              "first": 1,
+              "last": 13
+            },
+            {
+              "section": 4,
+              "label": "evt-iii-s4",
+              "dir": "s4",
+              "count": 21,
+              "first": 1,
+              "last": 21,
+              "supplementary": 5
+            },
+            {
+              "section": 5,
+              "label": "evt-iii-s5",
+              "dir": "s5",
+              "count": 15,
+              "first": 1,
+              "last": 15
+            },
+            {
+              "section": 6,
+              "label": "evt-iii-s6",
+              "dir": "s6",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 2
+            }
+          ]
         }
       ]
     },
