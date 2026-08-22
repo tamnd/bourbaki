@@ -2345,6 +2345,212 @@ books:
               exercises: 9
               extraction: ocr
               content_sha256: 3f9d6ffe144af4f7f06621a65e3c7b30c95b9f58e434288523f844d78845614d
+        - chapter: II
+          title: CONVEX SETS AND LOCALLY CONVEX SPACES
+          sections:
+            - kind: front
+              title: CONVEX SETS AND LOCALLY CONVEX SPACES
+              path: content/en/evt/II/00_frontmatter.md
+              first_pdf_page: 38
+              last_pdf_page: 38
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 31b60aaf449b89970aeba480b3cded2f8a6af443d43f6ec87280a03cef7a69f2
+            - kind: section
+              section: 1
+              title: Semi-norms
+              path: content/en/evt/II/01_s1_semi_norms.md
+              label: evt-ii-s1
+              first_pdf_page: 38
+              last_pdf_page: 44
+              subsections: 4
+              statements: 12
+              exercises: 0
+              extraction: ocr
+              content_sha256: 22d965ad6a15e79855ff66d41cce85690ba89e25a41f4cb5222e05fdb5f82d84
+            - kind: section
+              section: 2
+              title: Convex sets
+              path: content/en/evt/II/02_s2_convex_sets.md
+              label: evt-ii-s2
+              first_pdf_page: 44
+              last_pdf_page: 109
+              book_pages: TVS II.7-TVS II.21
+              subsections: 11
+              statements: 44
+              exercises: 43
+              extraction: ocr
+              content_sha256: f65daab6fd5b6593e3990a694a436bbe61925b832fcc06ccbdc14a060e21a5f8
+            - kind: section
+              section: 3
+              title: The Hahn-Banach Theorem (analytic form)
+              path: content/en/evt/II/03_s3_the_hahn_banach_theorem_analytic_form.md
+              label: evt-ii-s3
+              first_pdf_page: 58
+              last_pdf_page: 111
+              book_pages: TVS II.21-TVS II.23, TVS II.72-TVS II.74
+              subsections: 2
+              statements: 5
+              exercises: 8
+              extraction: ocr
+              content_sha256: 48405b8321a23ceb592b30296fd0ca206d837ae8c9aecaebc8880cf13b6d6611
+            - kind: section
+              section: 4
+              title: Locally convex spaces
+              path: content/en/evt/II/04_s4_locally_convex_spaces.md
+              label: evt-ii-s4
+              first_pdf_page: 60
+              last_pdf_page: 113
+              book_pages: TVS II.23-TVS II.36, TVS II.74-TVS II.76
+              subsections: 7
+              statements: 33
+              exercises: 17
+              extraction: ocr
+              content_sha256: e1bb43693581a8af707527021cd7c1fd51a9366f361ba89b7bca0de240534ab7
+            - kind: section
+              section: 5
+              title: Separation of convex sets
+              path: content/en/evt/II/05_s5_separation_of_convex_sets.md
+              label: evt-ii-s5
+              first_pdf_page: 73
+              last_pdf_page: 118
+              book_pages: TVS II.36-TVS II.40, TVS II.76-TVS II.81
+              subsections: 4
+              statements: 21
+              exercises: 5
+              extraction: ocr
+              content_sha256: ef3cb50958a2132d791f050aa2367a3e2957bbc2da2ad66deb90faecf196f50d
+            - kind: section
+              section: 6
+              title: Weak topologies
+              path: content/en/evt/II/06_s6_weak_topologies.md
+              label: evt-ii-s6
+              first_pdf_page: 77
+              last_pdf_page: 123
+              book_pages: TVS II.40-TVS II.53, TVS II.81-TVS II.86
+              subsections: 8
+              statements: 39
+              exercises: 20
+              extraction: ocr
+              content_sha256: c3730578b253f69423b43d409b3b7a826bfbd3013f1a712a11ba2e15c1dbd4ce
+            - kind: section
+              section: 7
+              title: Extremal points and extremal generators
+              path: content/en/evt/II/07_s7_extremal_points_and_extremal_generators.md
+              label: evt-ii-s7
+              first_pdf_page: 91
+              last_pdf_page: 132
+              book_pages: TVS II.54-TVS II.60, TVS II.87-TVS II.95
+              subsections: 3
+              statements: 12
+              exercises: 41
+              extraction: ocr
+              content_sha256: debba20c88331d55b5d9fde0b294021f9389cc1025db7ffbda646200c2d8c538
+            - kind: section
+              section: 8
+              title: Complex locally convex spaces
+              path: content/en/evt/II/08_s8_complex_locally_convex_spaces.md
+              label: evt-ii-s8
+              first_pdf_page: 97
+              last_pdf_page: 132
+              book_pages: TVS II.95
+              subsections: 4
+              statements: 10
+              exercises: 3
+              extraction: ocr
+              content_sha256: f1b6f9a0f20e8a5d426e0afb015b4b18f923029970ed2f6ea81b92b6461e39ff
+        - chapter: III
+          title: SPACES OF CONTINUOUS LINEAR MAPPINGS
+          sections:
+            - kind: front
+              title: SPACES OF CONTINUOUS LINEAR MAPPINGS
+              path: content/en/evt/III/00_frontmatter.md
+              first_pdf_page: 133
+              last_pdf_page: 133
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: c45734404f34dae3791a10dfc4b0f94938473b73259ab4f4c819cf6e5a25776a
+            - kind: section
+              section: 1
+              title: Bornology in a topological vector space
+              path: content/en/evt/III/01_s1_bornology_in_a_topological_vector_space.md
+              label: evt-iii-s1
+              first_pdf_page: 133
+              last_pdf_page: 172
+              subsections: 7
+              statements: 29
+              exercises: 16
+              extraction: ocr
+              content_sha256: ab8beb6357f0f1b2d667e067bef476ff7a003792d23330eeb4ca68b3d0ffa9af
+            - kind: section
+              section: 2
+              title: Bornological spaces
+              path: content/en/evt/III/02_s2_bornological_spaces.md
+              label: evt-iii-s2
+              first_pdf_page: 143
+              last_pdf_page: 173
+              book_pages: TVS III.11-TVS III.13, TVS III.40-TVS III.41
+              subsections: 0
+              statements: 6
+              exercises: 4
+              extraction: ocr
+              content_sha256: bb1d36cab9df89b385af8d7360027293742cb8fa7a2b0d897e890f98dbb2fbda
+            - kind: section
+              section: 3
+              title: Spaces of continuous linear mappings
+              path: content/en/evt/III/03_s3_spaces_of_continuous_linear_mappings.md
+              label: evt-iii-s3
+              first_pdf_page: 145
+              last_pdf_page: 175
+              book_pages: TVS III.13-TVS III.23, TVS III.41-TVS III.43
+              subsections: 8
+              statements: 36
+              exercises: 13
+              extraction: ocr
+              content_sha256: c6cbd2671517b3726a7b5e1152f83a30a0ff2874fa14cebca8df26f711360f95
+            - kind: section
+              section: 4
+              title: The Banach-Steinhaus theorem
+              path: content/en/evt/III/04_s4_the_banach_steinhaus_theorem.md
+              label: evt-iii-s4
+              first_pdf_page: 155
+              last_pdf_page: 178
+              book_pages: TVS III.23-TVS III.28, TVS III.43-TVS III.46
+              subsections: 3
+              statements: 18
+              exercises: 21
+              extraction: ocr
+              content_sha256: ff2f868ada1841e3392167da48fee371699c8ed3d6ed90405e76db6ebf5ffcef
+            - kind: section
+              section: 5
+              title: Hypocontinuous bilinear mappings
+              path: content/en/evt/III/05_s5_hypocontinuous_bilinear_mappings.md
+              label: evt-iii-s5
+              first_pdf_page: 160
+              last_pdf_page: 181
+              book_pages: TVS III.28-TVS III.33, TVS III.46-TVS III.49
+              subsections: 5
+              statements: 11
+              exercises: 15
+              extraction: ocr
+              content_sha256: 4245718f16c815b97502b1ac288429946f7e3f9aa3b5136610d10239abd53e48
+            - kind: section
+              section: 6
+              title: Borel's graph theorem
+              path: content/en/evt/III/06_s6_borel_s_graph_theorem.md
+              label: evt-iii-s6
+              first_pdf_page: 166
+              last_pdf_page: 182
+              book_pages: TVS III.49-TVS III.50
+              subsections: 3
+              statements: 8
+              exercises: 6
+              extraction: ocr
+              content_sha256: e17f21307f796721ccc0bb4982493d69710026c31234fab45b7a949a6c553437
     - id: int-i-vi
       chapters:
         - chapter: I

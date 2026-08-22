@@ -8714,11 +8714,11 @@ books:
                   page: 28
                   pdf_page: 160
                 - "no": 2
-                  title: Separately continuous bilinear mappings on a product of Fre chet spaces
+                  title: Separately continuous bilinear mappings on a product of Fréchet spaces
                   page: 29
                   pdf_page: 161
                 - "no": 3
-                  title: H ypocontinuous bilinear mappings
+                  title: Hypocontinuous bilinear mappings
                   page: 30
                   pdf_page: 162
                 - "no": 4
@@ -8746,7 +8746,7 @@ books:
                   page: 34
                   pdf_page: 166
                 - "no": 3
-                  title: Measurablelinear mappings on a Banach space
+                  title: Measurable linear mappings on a Banach space
                   page: 36
                   pdf_page: 168
               exercises:
