@@ -3088,3 +3088,258 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 478b8567436f2fd93631ecc9a913822bbda646e246782cc45c4d8eff055f9378
+    - id: ac-v-vii-fr
+      chapters:
+        - chapter: V
+          title: Entiers
+          sections:
+            - kind: front
+              title: Entiers
+              path: content/fr/ac/V/00_frontmatter.md
+              first_pdf_page: 5
+              last_pdf_page: 5
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 108a9a5d731f773ea9ec760466e809466bedbb8dfcdbac9e0d18d0d25c2ebb60
+            - kind: section
+              section: 1
+              title: Notion d’élément entier
+              path: content/fr/ac/V/01_s1_notion_d_element_entier.md
+              label: ac-v-s1
+              first_pdf_page: 5
+              last_pdf_page: 73
+              subsections: 9
+              statements: 51
+              exercises: 12
+              extraction: ocr
+              content_sha256: 21feca5b44a18f4455d238751be0eb3a286059b83dcd196e3ef8f3297109515a
+            - kind: section
+              section: 2
+              title: Relèvement des idéaux premiers
+              path: content/fr/ac/V/02_s2_relevement_des_ideaux_premiers.md
+              label: ac-v-s2
+              first_pdf_page: 31
+              last_pdf_page: 80
+              subsections: 4
+              statements: 30
+              exercises: 10
+              extraction: ocr
+              content_sha256: ce0deb87304b6da2ebf54e1fe32ab69d4dc497fec69934f4b07fd5b981c510a0
+            - kind: section
+              section: 3
+              title: Algèbres de type fini sur un corps
+              path: content/fr/ac/V/03_s3_algebres_de_type_fini_sur_un_corps.md
+              label: ac-v-s3
+              first_pdf_page: 54
+              last_pdf_page: 83
+              subsections: 4
+              statements: 11
+              exercises: 6
+              extraction: ocr
+              content_sha256: 0c4075dcd7d328f0f7f05fce1be185e129f678a0ccf3e298c0a3427101c4e74f
+        - chapter: VI
+          title: Valuations
+          sections:
+            - kind: front
+              title: Valuations
+              path: content/fr/ac/VI/00_frontmatter.md
+              first_pdf_page: 84
+              last_pdf_page: 84
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 550814e87dffce4164dad9f862f7f10d566d626efe32bb9e92ec60e8587e9504
+            - kind: section
+              section: 1
+              title: Anneaux de valuation
+              path: content/fr/ac/VI/01_s1_anneaux_de_valuation.md
+              label: ac-vi-s1
+              first_pdf_page: 84
+              last_pdf_page: 167
+              subsections: 4
+              statements: 15
+              exercises: 8
+              extraction: ocr
+              content_sha256: 29cb15898721c3be9bccdf2016512aa6a79e9992ad47c59e809ddc412de5f25c
+            - kind: section
+              section: 2
+              title: Places
+              path: content/fr/ac/VI/02_s2_places.md
+              label: ac-vi-s2
+              first_pdf_page: 91
+              last_pdf_page: 169
+              subsections: 5
+              statements: 9
+              exercises: 6
+              extraction: ocr
+              content_sha256: 02d280eb3943fa669b55c935c9a4d1b14afe89a4d44513d8382adba0f4409922
+            - kind: section
+              section: 3
+              title: Valuations
+              path: content/fr/ac/VI/03_s3_valuations.md
+              label: ac-vi-s3
+              first_pdf_page: 97
+              last_pdf_page: 171
+              subsections: 6
+              statements: 19
+              exercises: 4
+              extraction: ocr
+              content_sha256: f02376a5f32a989361b6fbecd7afd993c6184c42cb6e37fb007d168d0dcf4383
+            - kind: section
+              section: 4
+              title: Hauteur d’une valuation
+              path: content/fr/ac/VI/04_s4_hauteur_d_une_valuation.md
+              label: ac-vi-s4
+              first_pdf_page: 106
+              last_pdf_page: 176
+              subsections: 5
+              statements: 16
+              exercises: 4
+              extraction: ocr
+              content_sha256: 1731a95ac6a5b56434e32abf7de826674c70c237ffdd3bb2cf36694bbb2f3ef0
+            - kind: section
+              section: 5
+              title: Topologie définie par une valuation
+              path: content/fr/ac/VI/05_s5_topologie_definie_par_une_valuation.md
+              label: ac-vi-s5
+              first_pdf_page: 113
+              last_pdf_page: 181
+              subsections: 3
+              statements: 8
+              exercises: 3
+              extraction: ocr
+              content_sha256: a93e437783ad5838788a7ebdcf627496b122cbf5894858ea76a3d0560a9c6375
+            - kind: section
+              section: 6
+              title: Valeurs absolues
+              path: content/fr/ac/VI/06_s6_valeurs_absolues.md
+              label: ac-vi-s6
+              first_pdf_page: 118
+              last_pdf_page: 182
+              subsections: 4
+              statements: 8
+              exercises: 2
+              extraction: ocr
+              content_sha256: 7b868e9ba89851cda6b02c33cb992e3bebd262ce32ed05c1b75ef7b531545b57
+            - kind: section
+              section: 7
+              title: Théorème d’approximation
+              path: content/fr/ac/VI/07_s7_theoreme_d_approximation.md
+              label: ac-vi-s7
+              first_pdf_page: 128
+              last_pdf_page: 183
+              subsections: 3
+              statements: 9
+              exercises: 3
+              extraction: ocr
+              content_sha256: cefe136711a7d3178e24085f9bd62023cc8ec2e766905150b05c1a812713ac96
+            - kind: section
+              section: 8
+              title: Prolongements d’une valuation à une extension algébrique
+              path: content/fr/ac/VI/08_s8_prolongements_d_une_valuation_a_une.md
+              label: ac-vi-s8
+              first_pdf_page: 133
+              last_pdf_page: 191
+              subsections: 7
+              statements: 33
+              exercises: 6
+              extraction: ocr
+              content_sha256: d1da25dda3bf0795992a5c248adf27c390aa205976cfa3e1351166ff1a580165
+            - kind: section
+              section: 9
+              title: 'Application : corps localement compacts'
+              path: content/fr/ac/VI/09_s9_application_corps_localement_compacts.md
+              label: ac-vi-s9
+              first_pdf_page: 151
+              last_pdf_page: 193
+              subsections: 3
+              statements: 10
+              exercises: 5
+              extraction: ocr
+              content_sha256: 4748a58f6d14a5d5a956fa334a920c8e134d55d8ee552daf3f65c675a43632e3
+            - kind: section
+              section: 10
+              title: Prolongements d’une valuation à une extension transcendante
+              path: content/fr/ac/VI/10_s10_prolongements_d_une_valuation_a_une.md
+              label: ac-vi-s10
+              first_pdf_page: 156
+              last_pdf_page: 194
+              subsections: 3
+              statements: 11
+              exercises: 2
+              extraction: ocr
+              content_sha256: 9bc2e5f67f32e7e644149dc3dc04355b9906b397d9a53ce225d606db702985e8
+        - chapter: VII
+          title: Diviseurs
+          sections:
+            - kind: front
+              title: Diviseurs
+              path: content/fr/ac/VII/00_frontmatter.md
+              first_pdf_page: 195
+              last_pdf_page: 195
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 70c1f953517c1131d193a8da44ea91111accc0c839912ce1c38c73d972865810
+            - kind: section
+              section: 1
+              title: Anneaux de Krull
+              path: content/fr/ac/VII/01_s1_anneaux_de_krull.md
+              label: ac-vii-s1
+              first_pdf_page: 195
+              last_pdf_page: 285
+              subsections: 10
+              statements: 16
+              exercises: 32
+              extraction: ocr
+              content_sha256: ffb062991aeed4ba75a8fa72e786c45d0e41ef629ca6e394adae43021aaa504b
+            - kind: section
+              section: 2
+              title: Anneaux de Dedekind
+              path: content/fr/ac/VII/02_s2_anneaux_de_dedekind.md
+              label: ac-vii-s2
+              first_pdf_page: 216
+              last_pdf_page: 291
+              subsections: 5
+              statements: 7
+              exercises: 22
+              extraction: ocr
+              content_sha256: ca07e8b1d8b1b676a1563a0874d08ea738fecb16f6c8961570e03eca10533b66
+            - kind: section
+              section: 3
+              title: Anneaux factoriels
+              path: content/fr/ac/VII/03_s3_anneaux_factoriels.md
+              label: ac-vii-s3
+              first_pdf_page: 226
+              last_pdf_page: 298
+              subsections: 9
+              statements: 13
+              exercises: 27
+              extraction: ocr
+              content_sha256: b6e35b25f37f9e9ae40d6e5ea9c70cfd8fd527e0879017b999a88fc9436f6f1e
+            - kind: section
+              section: 4
+              title: Modules sur les anneaux noethériens intégralement clos
+              path: content/fr/ac/VII/04_s4_modules_sur_les_anneaux_noetheriens.md
+              label: ac-vii-s4
+              first_pdf_page: 237
+              last_pdf_page: 305
+              subsections: 10
+              statements: 57
+              exercises: 26
+              extraction: ocr
+              content_sha256: cf733f50b82b18a2b4f8b0c040ed9232e178ba85eedc3d43688c3b3f2dd5caa1
+            - kind: historical
+              title: Historical Note
+              path: content/fr/ac/VII/historical_note.md
+              first_pdf_page: 306
+              last_pdf_page: 346
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 8bcc1e93fc82a2afdc8177bd0da28b9320120bd88e8fafc4cac629a5b42ba698

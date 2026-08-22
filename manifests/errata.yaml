@@ -415,6 +415,14 @@ contents:
 heads:
     - book: ac-v-vii-fr
       errata:
+        - pdf_page: 195
+          says: C H A P I T R E VI1
+          read: CHAPITRE VII
+          why: The opener of chapter VII is letter spaced across the page and the
+            scan kept the spaces, so the word itself does not match the opener
+            pattern, and the last stroke of the numeral came back as a digit. The
+            other two openers of the volume, pdf 5 and pdf 84, read CHAPITRE V and
+            CHAPITRE VI with no spacing.
         - pdf_page: 343
           says: '-     1'
           read: '       '

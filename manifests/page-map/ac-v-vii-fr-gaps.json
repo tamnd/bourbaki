@@ -21,15 +21,22 @@
     {
       "chapter": "VI",
       "first_pdf_page": 84,
-      "last_pdf_page": 346,
+      "last_pdf_page": 194,
       "first_page": 84,
+      "last_page": 194
+    },
+    {
+      "chapter": "VII",
+      "first_pdf_page": 195,
+      "last_pdf_page": 346,
+      "first_page": 195,
       "last_page": 350
     }
   ],
   "steps": [
     {
       "at_pdf_page": 306,
-      "chapter": "VI",
+      "chapter": "VII",
       "from_offset": 0,
       "to_offset": -1,
       "missing_pages": [
@@ -38,7 +45,7 @@
     },
     {
       "at_pdf_page": 333,
-      "chapter": "VI",
+      "chapter": "VII",
       "from_offset": -1,
       "to_offset": -3,
       "missing_pages": [
@@ -48,7 +55,7 @@
     },
     {
       "at_pdf_page": 338,
-      "chapter": "VI",
+      "chapter": "VII",
       "from_offset": -3,
       "to_offset": -4,
       "missing_pages": [

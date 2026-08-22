@@ -11586,3 +11586,539 @@ books:
           historical_note:
             page: 72
             pdf_page: 463
+    - id: ac-v-vii-fr
+      grammar: pilcrow/bare
+      chapters:
+        - book: ac-v-vii-fr
+          chapter: V
+          title: Entiers
+          page: 5
+          pdf_page: 5
+          sections:
+            - section: 1
+              title: Notion d’élément entier
+              page: 5
+              pdf_page: 5
+              subsections:
+                - "no": 1
+                  title: Éléments entiers sur un anneau
+                  page: 5
+                  pdf_page: 5
+                - "no": 2
+                  title: Fermeture intégrale d’un anneau. Anneaux intégralement clos
+                  page: 11
+                  pdf_page: 11
+                - "no": 3
+                  title: Exemples d’anneaux intégralement clos
+                  page: 13
+                  pdf_page: 13
+                - "no": 4
+                  title: Anneaux complètement intégralement clos
+                  page: 16
+                  pdf_page: 16
+                - "no": 5
+                  title: Fermeture intégrale d’un anneau de fractions
+                  page: 18
+                  pdf_page: 18
+                - "no": 6
+                  title: Normes et traces d’entiers
+                  page: 20
+                  pdf_page: 20
+                - "no": 7
+                  title: Extension des scalaires dans une algèbre intégralement close
+                  page: 23
+                  pdf_page: 23
+                - "no": 8
+                  title: Entiers sur un anneau gradué
+                  page: 25
+                  pdf_page: 25
+                - "no": 9
+                  title: 'Application : invariants d’un groupe d’automorphismes d’une algèbre'
+                  page: 28
+                  pdf_page: 28
+              exercises:
+                page: 66
+                pdf_page: 66
+            - section: 2
+              title: Relèvement des idéaux premiers
+              page: 31
+              pdf_page: 31
+              subsections:
+                - "no": 1
+                  title: Le premier théorème d’existence
+                  page: 31
+                  pdf_page: 31
+                - "no": 2
+                  title: Groupe de décomposition et groupe d’inertie
+                  page: 36
+                  pdf_page: 36
+                - "no": 3
+                  title: Décomposition et inertie pour les anneaux intégralement clos
+                  page: 45
+                  pdf_page: 45
+                - "no": 4
+                  title: Deuxième théorème d’existence
+                  page: 52
+                  pdf_page: 52
+              exercises:
+                page: 73
+                pdf_page: 73
+            - section: 3
+              title: Algèbres de type fini sur un corps
+              page: 54
+              pdf_page: 54
+              subsections:
+                - "no": 1
+                  title: Le lemme de normalisation
+                  page: 54
+                  pdf_page: 54
+                - "no": 2
+                  title: Fermeture intégrale d’une algèbre de type fini sur un corps
+                  page: 59
+                  pdf_page: 59
+                - "no": 3
+                  title: Le théorème des zéros
+                  page: 60
+                  pdf_page: 60
+                - "no": 4
+                  title: Anneaux de Jacobson
+                  page: 62
+                  pdf_page: 62
+              exercises:
+                page: 80
+                pdf_page: 80
+        - book: ac-v-vii-fr
+          chapter: VI
+          title: Valuations
+          page: 84
+          pdf_page: 84
+          sections:
+            - section: 1
+              title: Anneaux de valuation
+              page: 84
+              pdf_page: 84
+              subsections:
+                - "no": 1
+                  title: Relation de domination entre anneaux locaux
+                  page: 84
+                  pdf_page: 84
+                - "no": 2
+                  title: Anneaux de valuation
+                  page: 85
+                  pdf_page: 85
+                - "no": 3
+                  title: Caractérisation des éléments entiers
+                  page: 88
+                  pdf_page: 88
+                - "no": 4
+                  title: Exemples d’anneaux de valuation
+                  page: 89
+                  pdf_page: 89
+              exercises:
+                page: 164
+                pdf_page: 164
+            - section: 2
+              title: Places
+              page: 91
+              pdf_page: 91
+              subsections:
+                - "no": 1
+                  title: Notion de morphisme pour les lois de composition non partout définies
+                  page: 91
+                  pdf_page: 91
+                - "no": 2
+                  title: Places
+                  page: 92
+                  pdf_page: 92
+                - "no": 3
+                  title: Places et anneaux de valuation
+                  page: 93
+                  pdf_page: 93
+                - "no": 4
+                  title: Extension des places
+                  page: 95
+                  pdf_page: 95
+                - "no": 5
+                  title: Caractérisation des éléments entiers au moyen des places
+                  page: 96
+                  pdf_page: 96
+              exercises:
+                page: 167
+                pdf_page: 167
+            - section: 3
+              title: Valuations
+              page: 97
+              pdf_page: 97
+              subsections:
+                - "no": 1
+                  title: Valuations sur un anneau
+                  page: 97
+                  pdf_page: 97
+                - "no": 2
+                  title: Valuations sur un corps
+                  page: 98
+                  pdf_page: 98
+                - "no": 3
+                  title: Traductions
+                  page: 101
+                  pdf_page: 101
+                - "no": 4
+                  title: Exemples de valuations
+                  page: 102
+                  pdf_page: 102
+                - "no": 5
+                  title: Idéaux d’un anneau de valuation
+                  page: 104
+                  pdf_page: 104
+                - "no": 6
+                  title: Valuations discrètes
+                  page: 104
+                  pdf_page: 104
+              exercises:
+                page: 169
+                pdf_page: 169
+            - section: 4
+              title: Hauteur d’une valuation
+              page: 106
+              pdf_page: 106
+              subsections:
+                - "no": 1
+                  title: Inclusion des anneaux de valuation d’un même corps
+                  page: 106
+                  pdf_page: 106
+                - "no": 2
+                  title: Sous-groupes isolés d’un groupe ordonné
+                  page: 108
+                  pdf_page: 108
+                - "no": 3
+                  title: Comparaison des valuations
+                  page: 109
+                  pdf_page: 109
+                - "no": 4
+                  title: Hauteur d’une valuation
+                  page: 110
+                  pdf_page: 110
+                - "no": 5
+                  title: Valuations de hauteur 1
+                  page: 111
+                  pdf_page: 111
+              exercises:
+                page: 171
+                pdf_page: 171
+            - section: 5
+              title: Topologie définie par une valuation
+              page: 113
+              pdf_page: 113
+              subsections:
+                - "no": 1
+                  title: Topologie définie par une valuation
+                  page: 113
+                  pdf_page: 113
+                - "no": 2
+                  title: Espaces vectoriels topologiques sur un corps muni d’une valuation
+                  page: 116
+                  pdf_page: 116
+                - "no": 3
+                  title: Complétion d’un corps muni d’une valuation
+                  page: 117
+                  pdf_page: 117
+              exercises:
+                page: 177
+                pdf_page: 177
+            - section: 6
+              title: Valeurs absolues
+              page: 118
+              pdf_page: 118
+              subsections:
+                - "no": 1
+                  title: Préliminaires sur les valeurs absolues
+                  page: 118
+                  pdf_page: 118
+                - "no": 2
+                  title: Valeurs absolues ultramétriques
+                  page: 120
+                  pdf_page: 120
+                - "no": 3
+                  title: Valeurs absolues sur Q
+                  page: 121
+                  pdf_page: 121
+                - "no": 4
+                  title: Structure des corps munis d’une valeur absolue non ultramé trique
+                  page: 123
+                  pdf_page: 123
+              exercises:
+                page: 181
+                pdf_page: 181
+            - section: 7
+              title: Théorème d’approximation
+              page: 128
+              pdf_page: 128
+              subsections:
+                - "no": 1
+                  title: Intersection d’un nombre fini d’anneaux de valuation
+                  page: 128
+                  pdf_page: 128
+                - "no": 2
+                  title: Valuations indépendantes
+                  page: 130
+                  pdf_page: 130
+                - "no": 3
+                  title: Cas des valeurs absolues
+                  page: 132
+                  pdf_page: 132
+              exercises:
+                page: 182
+                pdf_page: 182
+            - section: 8
+              title: Prolongements d’une valuation à une extension algébrique
+              page: 133
+              pdf_page: 133
+              subsections:
+                - "no": 1
+                  title: Indice de ramification. Degré résiduel
+                  page: 133
+                  pdf_page: 133
+                - "no": 2
+                  title: Prolongement d’une valuation et complétion
+                  page: 136
+                  pdf_page: 136
+                - "no": 3
+                  title: La relation $ \sum e_i f_i \leq n $
+                  page: 138
+                  pdf_page: 138
+                - "no": 4
+                  title: Indice initial de ramification
+                  page: 141
+                  pdf_page: 141
+                - "no": 5
+                  title: La relation $ \sum e_i f_i = n $
+                  page: 142
+                  pdf_page: 142
+                - "no": 6
+                  title: Anneaux de valuation dans une extension algébrique
+                  page: 147
+                  pdf_page: 147
+                - "no": 7
+                  title: Prolongement des valeurs absolues
+                  page: 149
+                  pdf_page: 149
+              exercises:
+                page: 183
+                pdf_page: 183
+            - section: 9
+              title: 'Application : corps localement compacts'
+              page: 151
+              pdf_page: 151
+              subsections:
+                - "no": 1
+                  title: Fonction module sur un corps localement compact
+                  page: 151
+                  pdf_page: 151
+                - "no": 2
+                  title: Existence de représentants
+                  page: 153
+                  pdf_page: 153
+                - "no": 3
+                  title: Structure des corps localement compacts
+                  page: 154
+                  pdf_page: 154
+              exercises:
+                page: 191
+                pdf_page: 191
+            - section: 10
+              title: Prolongements d’une valuation à une extension transcendante
+              page: 156
+              pdf_page: 156
+              subsections:
+                - "no": 1
+                  title: Cas d’une extension transcendante monogène
+                  page: 156
+                  pdf_page: 156
+                - "no": 2
+                  title: Rang rationnel d’un groupe commutatif
+                  page: 159
+                  pdf_page: 159
+                - "no": 3
+                  title: Cas d’une extension transcendante quelconque
+                  page: 161
+                  pdf_page: 161
+              exercises:
+                page: 193
+                pdf_page: 193
+        - book: ac-v-vii-fr
+          chapter: VII
+          title: Diviseurs
+          page: 195
+          pdf_page: 195
+          sections:
+            - section: 1
+              title: Anneaux de Krull
+              page: 195
+              pdf_page: 195
+              subsections:
+                - "no": 1
+                  title: Idéaux divisoriels d’un anneau intègre
+                  page: 195
+                  pdf_page: 195
+                - "no": 2
+                  title: Structure de monoïde sur D(A)
+                  page: 198
+                  pdf_page: 198
+                - "no": 3
+                  title: Anneaux de Krull
+                  page: 200
+                  pdf_page: 200
+                - "no": 4
+                  title: Valuations essentielles d’un anneau de Krull
+                  page: 203
+                  pdf_page: 203
+                - "no": 5
+                  title: Approximation pour les valuations essentielles
+                  page: 206
+                  pdf_page: 206
+                - "no": 6
+                  title: Idéaux premiers de hauteur 1 d’un anneau de Krull
+                  page: 207
+                  pdf_page: 207
+                - "no": 7
+                  title: 'Application : nouvelles caractérisations des anneaux de valuation discrète'
+                  page: 209
+                  pdf_page: 209
+                - "no": 8
+                  title: Fermeture intégrale d’un anneau de Krull dans une extension finie de son corps des fractions
+                  page: 209
+                  pdf_page: 209
+                - "no": 9
+                  title: Anneaux de polynômes sur un anneau de Krull
+                  page: 210
+                  pdf_page: 210
+                - "no": 10
+                  title: Classes de diviseurs dans les anneaux de Krull
+                  page: 212
+                  pdf_page: 212
+              exercises:
+                page: 275
+                pdf_page: 275
+            - section: 2
+              title: Anneaux de Dedekind
+              page: 216
+              pdf_page: 216
+              subsections:
+                - "no": 1
+                  title: Définition des anneaux de Dedekind
+                  page: 216
+                  pdf_page: 216
+                - "no": 2
+                  title: Caractérisations des anneaux de Dedekind
+                  page: 217
+                  pdf_page: 217
+                - "no": 3
+                  title: Décomposition des idéaux en produits d’idéaux premiers
+                  page: 219
+                  pdf_page: 219
+                - "no": 4
+                  title: Théorème d’approximation dans les anneaux de Dedekind
+                  page: 220
+                  pdf_page: 220
+                - "no": 5
+                  title: Le théorème de Krull-Akizuki
+                  page: 223
+                  pdf_page: 223
+              exercises:
+                page: 285
+                pdf_page: 285
+            - section: 3
+              title: Anneaux factoriels
+              page: 226
+              pdf_page: 226
+              subsections:
+                - "no": 1
+                  title: Définition des anneaux factoriels
+                  page: 226
+                  pdf_page: 226
+                - "no": 2
+                  title: Caractérisation des anneaux factoriels
+                  page: 226
+                  pdf_page: 226
+                - "no": 3
+                  title: Décomposition en éléments extrémaux
+                  page: 228
+                  pdf_page: 228
+                - "no": 4
+                  title: Anneaux de fractions d’un anneau factoriel
+                  page: 229
+                  pdf_page: 229
+                - "no": 5
+                  title: Anneaux de polynômes sur un anneau factoriel
+                  page: 229
+                  pdf_page: 229
+                - "no": 6
+                  title: Anneaux factoriels et anneaux de Zariski
+                  page: 231
+                  pdf_page: 231
+                - "no": 7
+                  title: Préliminaires sur les automorphismes des anneaux de séries formelles
+                  page: 231
+                  pdf_page: 231
+                - "no": 8
+                  title: Le théorème de préparation
+                  page: 232
+                  pdf_page: 232
+                - "no": 9
+                  title: Factorialité des anneaux de séries formelles
+                  page: 236
+                  pdf_page: 236
+              exercises:
+                page: 291
+                pdf_page: 291
+            - section: 4
+              title: Modules sur les anneaux noethériens intégralement clos
+              page: 237
+              pdf_page: 237
+              subsections:
+                - "no": 1
+                  title: Réseaux
+                  page: 238
+                  pdf_page: 238
+                - "no": 2
+                  title: Dualité ; modules réflexifs
+                  page: 243
+                  pdf_page: 243
+                - "no": 3
+                  title: Construction locale de modules réflexifs
+                  page: 248
+                  pdf_page: 248
+                - "no": 4
+                  title: Pseudo-isomorphismes
+                  page: 250
+                  pdf_page: 250
+                - "no": 5
+                  title: Diviseurs attachés aux modules de torsion
+                  page: 254
+                  pdf_page: 254
+                - "no": 6
+                  title: Invariant relatif de deux réseaux
+                  page: 257
+                  pdf_page: 257
+                - "no": 7
+                  title: Classes de diviseurs attachées aux modules de type fini
+                  page: 259
+                  pdf_page: 259
+                - "no": 8
+                  title: Propriétés relatives aux extensions finies de l’anneau des scalaires
+                  page: 263
+                  pdf_page: 263
+                - "no": 9
+                  title: Un théorème de réduction
+                  page: 269
+                  pdf_page: 269
+                - "no": 10
+                  title: Modules sur les anneaux de Dedekind
+                  page: 272
+                  pdf_page: 272
+              exercises:
+                page: 299
+                pdf_page: 299
+          historical_note:
+            page: 307
+            pdf_page: 306
