@@ -34,7 +34,7 @@ subsections:
       pdf_page: 447
 statements: 18
 exercises: 4
-content_sha256: 96083576946dee62466370cc661ade233895b968fe9665ced28eaecc1b072423
+content_sha256: 2e9a17642eedfd29ffd4b6e49d97953835e0454690c1333dc79a5f482bd18e7f
 ---
 
 ### APPENDICE 2 DÉTERMINANTS SUR UN CORPS NON COMMUTATIF

@@ -9,14 +9,14 @@ lang: fr
 source: alg-viii-fr
 book_pages: A VIII.281-A VIII.328
 pdf_pages: 0284-0331
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: $\tau$-extensions de groupes
       page: 281
       pdf_page: 284
     - "no": 2
-      title: Image inverse d’une $\tau$-extension
+      title: Image inverse d’une $ \tau $-extension
       page: 283
       pdf_page: 286
     - "no": 3
@@ -24,7 +24,7 @@ subsections:
       page: 285
       pdf_page: 288
     - "no": 4
-      title: Loi de groupe sur les classes de $\tau$-extensions
+      title: Loi de groupe sur les classes de $ \tau $-extensions
       page: 289
       pdf_page: 292
     - "no": 5
@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: 0e920a118095efa108afaa1e00e7893e913da4dddf17c85d194b1c7caba769b7
+content_sha256: 7bef07b603e275b98574558d7e36658d7613d393b13d03f70c23f454fdcd8bb2
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -118,91 +118,92 @@ $$
 
 pour $g_1\in G_1,g_2\in G_2,f_1\in F_1$ et $f_2\in F_2$. Soient $\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ une $\tau_1$-extension de $G_1$ par $F_1$ et $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ une $\tau_2$-extension de $G_2$ par $F_2$. Alors le triplet $(\Gamma_1\times \Gamma_2, \iota_1\times \iota_2, \pi_1\times \pi_2)$ est une $\tau_1\times \tau_2$-extension de $G_1\times G_2$ par $F_1\times F_2$ appelée le produit extérieur des extensions $\mathscr{E}_1$ et $\mathscr{E}_2$ et notée $\mathscr{E}_1\times \mathscr{E}_2$.
 
-### 2. Image inverse d’une $\tau$-extension
+### 2. Image inverse d’une $ \tau $-extension
 
-Soient G et $G'$ des groupes. Soit F un groupe abélien, soit $\tau : G\rightarrow$ Aut(F) un homomorphisme de groupes et soit $u: G'\rightarrow G$ un homomorphisme de groupes. Considérons l’homomorphisme de groupes $\tau '=\tau \circ u: G'\rightarrow$ Aut(F) et notons $\Gamma '$ le produit fibré $\Gamma \times_GG'$ relativement à $\pi$ et $u$ (I, p. 44). C’est le sous-groupe de $\Gamma \times G'$ formé des couples $(\gamma , g')$ tels que $\pi (\gamma ) =u(g')$. Soit $\iota ': F\rightarrow \Gamma '$ l’homomorphisme de groupes donné par $\iota '(\alpha ) = (\iota (\alpha ), e)$ pour $\alpha \in F$ et notons $\pi ': \Gamma '\rightarrow G'$ la seconde projection. Alors le morphisme $\iota '$ est injectif, le morphisme $\pi '$ est surjectif puisque $\pi$ l’est et l’image de $\iota '$ coïncide avec le noyau de $\pi '$. En outre, pour tout $\alpha \in F$ et tout $\gamma '= (\gamma , g)\in \Gamma '$, on a les relations
-
+Soient $ G $ et $ G' $ des groupes. Soit $ F $ un groupe abélien, soit $ \tau : G \to \operatorname{Aut}(F) $ un homomorphisme de groupes et soit $ u : G' \to G $ un homomorphisme de groupes. Considérons l’homomorphisme de groupes $ \tau' = \tau \circ u : G' \to \operatorname{Aut}(F) $ et notons $ \Gamma' $ le produit fibré $ \Gamma \times_G G' $ relativement à $ \pi $ et $ u $ (I, p. 44). C’est le sous-groupe de $ \Gamma \times G' $ formé des couples $ (\gamma, g') $ tels que $ \pi(\gamma) = u(g') $. Soit $ \iota' : F \to \Gamma' $ l’homomorphisme de groupes donné par $ \iota'(\alpha) = (\iota(\alpha), e) $ pour $ \alpha \in F $ et notons $ \pi' : \Gamma' \to G' $ la seconde projection. Alors le morphisme $ \iota' $ est injectif, le morphisme $ \pi' $ est surjectif puisque $ \pi $ l’est et l’image de $ \iota' $ coïncide avec le noyau de $ \pi' $. En outre, pour tout $ \alpha \in F $ et tout $ \gamma' = (\gamma, g) \in \Gamma' $, on a les relations
 $$
-\gamma '\iota '(\alpha )\gamma^{'-1}= (\gamma , g)(\iota (\alpha ), e)(\gamma , g)^{-1}= (\iota (\tau (\pi (\gamma )).\alpha ), e) =\iota '(\tau '(\pi '(\gamma ')).\alpha )
+\gamma' \iota'(\alpha) \gamma'^{-1} = (\gamma, g)(\iota(\alpha), e)(\gamma, g)^{-1} = (\iota(\tau(\pi(\gamma)).\alpha), e) = \iota'(\tau'(\pi'(\gamma')).\alpha).
 $$
-
-Par conséquent, $(\Gamma ', \iota ', \pi ')$ est une $\tau '$-extension de $G'$ par F qu’on appelle l’image inverse par $u$ de $\mathscr{E}$ et qu’on note $u^*(\mathscr{E})$. La première projection est un homomorphisme de groupes $\varphi : \Gamma '\rightarrow \Gamma$ qui sera dit canonique.
+Par conséquent, $ (\Gamma', \iota', \pi') $ est une $ \tau' $-extension de $ G' $ par $ F $ qu’on appelle l’image inverse par $ u $ de $ \mathscr{E} $ et qu’on note $ u^*(\mathscr{E}) $. La première projection est un homomorphisme de groupes $ \varphi : \Gamma' \to \Gamma $ qui sera dit canonique.
 
 #### Proposition 1 {#alg-viii-s16-prop-1 .statement tag=00IC}
 
 Le diagramme
 
-F $^{\iota'}$ // ${\Gamma '}^{\pi'}$ // $G'$
+$$
+\begin{array}{ccc}
+F & \xrightarrow{\iota'} & \Gamma' & \xrightarrow{\pi'} & G' \\
+\| & & \| & & \| \\
+F & \xrightarrow{\iota} & \Gamma & \xrightarrow{\pi} & G
+\end{array}
+$$
+
+est commutatif. En outre, si $ \mathscr{E}'_1 = (\Gamma'_1, \iota'_1, \pi'_1) $ est une $ \tau' $-extension et $ \varphi_1 : \Gamma'_1 \to \Gamma $ est un homomorphisme de groupes tel que le diagramme
 
 $$
-\varphi \tag{2}
+\begin{array}{ccc}
+F & \xrightarrow{\iota'_1} & \Gamma'_1 & \xrightarrow{\pi'_1} & G' \\
+\| & & \| & & \| \\
+F & \xrightarrow{\iota} & \Gamma & \xrightarrow{\pi} & G
+\end{array}
 $$
 
-$u$
+soit commutatif, alors il existe un unique morphisme $ \psi $ de $ \tau' $-extensions de $ \mathscr{E}'_1 $ dans $ u^*(\mathscr{E}) $ tel qu’on ait $ \varphi_1 = \varphi \circ \psi $.
 
-F $^{\iota}$ // Γ $^{\pi}$ // G
-
-est commutatif. En outre, si $\mathscr{E}'_1= (\Gamma '_1, \iota '_1, \pi '_1)$est une $\tau '$-extension et $\varphi_1: \Gamma '_1\rightarrow \Gamma$est un homomorphisme de groupes tel que le diagramme
-
-F $^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}$ // $G'$
-
-$\varphi_1u$
-
-F $^{\iota}$ // Γ $^{\pi}$ // G
-
-soit commutatif, alors il existe un unique morphisme $\psi$ de $\tau '$-extensions de $\mathscr{E}'_1$ dans $u^*(\mathscr{E})$tel qu’on ait $\varphi_1=\varphi \circ \psi$.
-
-La commutativité du premier diagramme découle de la définition de $\varphi$. L’existence et l’unicité de $\psi$ résultent du lemme qui suit.
+La commutativité du premier diagramme découle de la définition de $ \varphi $. L’existence et l’unicité de $ \psi $ résultent du lemme qui suit.
 
 #### Lemme 2 {#alg-viii-s16-lem-2 .statement tag=00ID}
 
-Soit $F'_1$ un groupe abélien et soient $w: F'_1\rightarrow F$et $\tau_1: G'\rightarrow$ Aut(F$'_1$) des homomorphismes de groupes tels que
-
+Soit $ F'_1 $ un groupe abélien et soient $ w : F'_1 \to F $ et $ \tau_1 : G' \to \operatorname{Aut}(F'_1) $ des homomorphismes de groupes tels que
 $$
-w(\tau_1(g)(f)) =\tau (u(g))(w(f))
-$$
-
-pour tout $f\in F'_1$ et tout $g\in G'$. Soit $\mathscr{E}'_1= (\Gamma '_1, \iota '_1, \pi '_1)$une $\tau_1$-extension de $G'$ par $F'_1$ et $\varphi_1: \Gamma '_1\rightarrow \Gamma$un homomorphisme de groupes tel que le diagramme
-
-${F'_1}^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}$ // $G'$
-
-$w\varphi_1u$
-
-F $^{\iota}$ // Γ $^{\pi}$ // G
-
-soit commutatif. Alors il existe un unique homomorphisme de groupes $\psi : \Gamma '_1\rightarrow \Gamma '$ tel que le diagramme
-
-${F'_1}^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}$ // $G'$
-
-$w\psi$
-
-F $^{\iota'}$ // ${\Gamma '}^{\pi'}$ // $G'$
-
-soit commutatif et tel que $\varphi_1=\varphi \circ \psi$.
-
-Si l’homomorphisme de groupes$\psi : \Gamma '_1\rightarrow \Gamma '$ convient, alors il vérifie les relations
-
-$$
-\psi (\gamma ) = (\varphi \circ \psi (\gamma ), \pi '\circ \psi (\gamma )) = (\varphi_1(\gamma ), \pi '_1(\gamma ))
+w(\tau_1(g)(f)) = \tau(u(g))(w(f))
 $$
 
-pour tout $\gamma \in \Gamma '_1$. Inversement, l’homomorphisme de groupes de $\Gamma '_1$ dans $\Gamma \times G'$ défini par $\gamma \rightarrow (\varphi_1(\gamma ), \pi '_1(\gamma ))$ est à valeurs dans le produit fibré $\Gamma \times_GG'$ puisque $\pi \circ \varphi_1(\gamma ) =u\circ \pi '_1(\gamma )$ pour tout $\gamma \in \Gamma '_1$.
+pour tout $ f \in F'_1 $ et tout $ g \in G' $. Soit $ \mathcal{E}'_1 = (\Gamma'_1, \iota'_1, \pi'_1) $ une $ \tau_1 $-extension de $ G' $ par $ F'_1 $ et $ \varphi_1 : \Gamma'_1 \to \Gamma $ un homomorphisme de groupes tel que le diagramme
+
+$$
+\begin{array}{ccc}
+F'_1 & \xrightarrow{\iota'_1} & \Gamma'_1 & \xrightarrow{\pi'_1} & G' \\
+\downarrow w & & \downarrow \varphi_1 & & \downarrow u \\
+F & \xrightarrow{\iota} & \Gamma & \xrightarrow{\pi} & G
+\end{array}
+$$
+
+soit commutatif. Alors il existe un unique homomorphisme de groupes $ \psi : \Gamma'_1 \to \Gamma' $ tel que le diagramme
+
+$$
+\begin{array}{ccc}
+F'_1 & \xrightarrow{\iota'_1} & \Gamma'_1 & \xrightarrow{\pi'_1} & G' \\
+\downarrow w & & \downarrow \psi & & \parallel \\
+F & \xrightarrow{\iota'} & \Gamma' & \xrightarrow{\pi'} & G'
+\end{array}
+$$
+
+soit commutatif et tel que $ \varphi_1 = \varphi \circ \psi $.
+
+Si l’homomorphisme de groupes $ \psi : \Gamma'_1 \to \Gamma' $ convient, alors il vérifie les relations
+
+$$
+\psi(\gamma) = (\varphi \circ \psi(\gamma), \pi' \circ \psi(\gamma)) = (\varphi_1(\gamma), \pi'_1(\gamma))
+$$
+
+pour tout $ \gamma \in \Gamma'_1 $. Inversement, l’homomorphisme de groupes de $ \Gamma'_1 $ dans $ \Gamma \times G' $ défini par $ \gamma \mapsto (\varphi_1(\gamma), \pi'_1(\gamma)) $ est à valeurs dans le produit fibré $ \Gamma \times_G G' $ puisque $ \pi \circ \varphi_1(\gamma) = u \circ \pi'_1(\gamma) $ pour tout $ \gamma \in \Gamma'_1 $.
 
 #### Corollaire 1 {#alg-viii-s16-lem-2-cor-1 .statement tag=00IE}
 
-Soient $\mathscr{E}_1$ et $\mathscr{E}_2$ des $\tau$-extensions de G par F et soit $\psi$ un morphisme de $\tau$-extensions de $\mathscr{E}_1$ dans $\mathscr{E}_2$. Notons $\varphi_1$ (resp. $\varphi_2$)l’homomorphisme canonique pour $u^*(\mathscr{E}_1)$ (resp. $u^*(\mathscr{E}_2)$). Alors il existe un unique morphisme de $\tau '$-extensions de $u^*(\mathscr{E}_1)$dans $u^*(\mathscr{E}_2)$, noté $u^*(\psi )$, tel que $\varphi_2\circ u^*(\psi ) =\psi \circ \varphi_1$.
+Soient $ \mathcal{E}_1 $ et $ \mathcal{E}_2 $ des $ \tau $-extensions de $ G $ par $ F $ et soit $ \psi $ un morphisme de $ \tau $-extensions de $ \mathcal{E}_1 $ dans $ \mathcal{E}_2 $. Notons $ \varphi_1 $ (resp. $ \varphi_2 $) l’homomorphisme canonique pour $ u^*(\mathcal{E}_1) $ (resp. $ u^*(\mathcal{E}_2) $). Alors il existe un unique morphisme de $ \tau' $-extensions de $ u^*(\mathcal{E}_1) $ dans $ u^*(\mathcal{E}_2) $, noté $ u^*(\psi) $, tel que $ \varphi_2 \circ u^*(\psi) = \psi \circ \varphi_1 $.
 
-Il suffit d’appliquer la prop. 1 à $\psi \circ \varphi_1$.
+Il suffit d’appliquer la prop. 1 à $ \psi \circ \varphi_1 $.
 
-La classe de la $\tau '$-extension $u^*(\mathscr{E})$ ne dépend donc que de la classe de $\mathscr{E}$. On note également $u^*:$ Ex$_{\tau}(G,F)\rightarrow$ Ex$_{\tau'}(G',F)$ l’application qui envoie la classe d’une $\tau$-extension $\mathscr{E}$ sur la classe de la $\tau '$-extension $u^*(\mathscr{E})$.
+La classe de la $ \tau' $-extension $ u^*(\mathcal{E}) $ ne dépend donc que de la classe de $ \mathcal{E} $. On note également $ u^* : \mathrm{Ex}_{\tau}(G, F) \to \mathrm{Ex}_{\tau'}(G', F) $ l’application qui envoie la classe d’une $ \tau $-extension $ \mathcal{E} $ sur la classe de la $ \tau' $-extension $ u^*(\mathcal{E}) $.
 
 #### Corollaire 2 {#alg-viii-s16-lem-2-cor-2 .statement tag=00IF}
 
-Soit $u': G''\rightarrow G'$ un homomorphisme de groupes et soit $\mathscr{E}$ une $\tau$-extension de G par F. Posons $\tau ''=\tau '\circ u'$ et notons $\varphi$ (resp. $\varphi ',\varphi ''$)l’homomorphisme canonique associé à la $\tau '$-extension $u^*(\mathscr{E})$ (resp. la $\tau ''$-extension $u^{'*}(u^*(\mathscr{E}))$, la $\tau ''$-extension $(u\circ u')^*(\mathscr{E})$). Alors il existe un unique morphisme $\psi$ de la $\tau ''$-extension $u^{'*}(u^*(\mathscr{E}))$dans la $\tau ''$-extension $(u\circ u')^*(\mathscr{E})$telle que $\varphi ''\circ \psi =\varphi \circ \varphi '$.
+Soit $ u' : G'' \to G' $ un homomorphisme de groupes et soit $ \mathcal{E} $ une $ \tau $-extension de $ G $ par $ F $. Posons $ \tau'' = \tau' \circ u' $ et notons $ \varphi $ (resp. $ \varphi', \varphi'' $) l’homomorphisme canonique associé à la $ \tau' $-extension $ u^*(\mathcal{E}) $ (resp. la $ \tau'' $-extension $ u'^*(u^*(\mathcal{E})) $), la $ \tau'' $-extension $ (u \circ u')^*(\mathcal{E}) $). Alors il existe un unique morphisme $ \psi $ de la $ \tau'' $-extension $ u'^*(u^*(\mathcal{E})) $ dans la $ \tau'' $-extension $ (u \circ u')^*(\mathcal{E}) $ telle que $ \varphi'' \circ \psi = \varphi \circ \varphi' $.
 
 #### Exemple {#alg-viii-s16-n2-exa-1 .statement tag=00RI}
 
-Soit H un sous-groupe de G et $j: H\rightarrow G$ l’injection canonique. Alors pour toute $\tau$-extension $\mathscr{E}= (\Gamma , \iota , \pi )$, la $\tau \circ j$-extension $j^*(\mathscr{E})$ est isomorphe à $(\overset{-1}{\pi}(H), \iota ', \pi ')$ où $\iota ': F\rightarrow \overset{-1}{\pi}(H)$ (resp. $\pi ':\overset{-1}{\pi}(H)\rightarrow H$) est l’homomorphisme de groupes $f\rightarrow \iota (f)$ (resp. $\gamma \rightarrow \pi (\gamma )$). Plus généralement, si l’homomorphisme de groupes $u: G'\rightarrow G$ est injectif, alors l’homomorphisme canonique $\varphi$ est injectif d’image $\overset{-1}{\pi}(u(G'))$.
+Soit $ H $ un sous-groupe de $ G $ et $ j : H \to G $ l’injection canonique. Alors pour toute $ \tau $-extension $ \mathcal{E} = (\Gamma, \iota, \pi) $, la $ \tau \circ j $-extension $ j^*(\mathcal{E}) $ est isomorphe à $ (\bar{\pi}^1(H), \iota', \pi') $ où $ \iota' : F \to \bar{\pi}^1(H) $ (resp. $ \pi' : \bar{\pi}^1(H) \to H $) est l’homomorphisme de groupes $f\rightarrow \iota (f)$ (resp. $\gamma \rightarrow \pi (\gamma )$). Plus généralement, si l’homomorphisme de groupes $u: G'\rightarrow G$ est injectif, alors l’homomorphisme canonique $\varphi$ est injectif d’image $\overset{-1}{\pi}(u(G'))$.
 
 ### 3. Image directe d’une $\tau$-extension
 
@@ -232,213 +233,290 @@ $$
 (f', f)\longrightarrow (f'v(f), \iota (f)^{-1})
 $$
 
-est un isomorphisme de groupes. L’image de $\iota '$ coïncide donc avec le noyau de $\pi '$. Comme $\pi$ et $\widetilde{p}$ sont surjectifs, il en est de même de $\pi '$. Ceci démontre que $\mathscr{E}'=$ $(\Gamma ', \iota , \pi ')$ est une $\tau '$-extension de G par $F'$ qu’on appelle l’image directe de $\mathscr{E}$ par $v$ et qu’on note $v_*(\mathscr{E})$. La composée de la surjection canonique de $\widetilde{\Gamma}$ dans $\Gamma '$ et de l’homomorphisme de groupes de Γ dans $\widetilde{\Gamma}$, donné par $\gamma \rightarrow (1, \gamma )$ est un homomorphisme de groupes $\varphi : \Gamma \rightarrow \Gamma '$ qui est dit canonique.
+est un isomorphisme de groupes. L’image de $\iota '$ coïncide donc avec le noyau de $\pi '$. Comme $\pi$ et $\widetilde{p}$ sont surjectifs, il en est de même de $\pi '$. Ceci démontre que $\mathscr{E}'=$ $(\Gamma ', \iota , \pi ')$ est une $\tau '$-extension de G par $F'$ qu’on appelle l’image directe de $\mathscr{E}$ par $v$ et qu’on note $ v_*(\mathscr{E}) $. La composée de la surjection canonique de $ \tilde{\Gamma} $ dans $ \Gamma' $ et de l’homomorphisme de groupes de $ \Gamma $ dans $ \tilde{\Gamma} $, donné par $ \gamma \mapsto (1, \gamma) $ est un homomorphisme de groupes $ \varphi : \Gamma \to \Gamma' $ qui est dit *canonique*.
 
 #### Proposition 2 {#alg-viii-s16-prop-2 .statement tag=00IG}
 
-Avec les notations qui précèdent, le diagramme
-
-F $^{\iota}$ // Γ $^{\pi}$ // G
+*Avec les notations qui précèdent, le diagramme*
 
 $$
-v\varphi \tag{5}
+\begin{array}{ccc}
+F & \xrightarrow{\iota} & \Gamma \\
+| & & | \\
+F' & \xrightarrow{\iota'} & \Gamma'
+\end{array}
+$$
+$$
+\begin{array}{ccc}
+& \xrightarrow{\pi} & G \\
+& | & | \\
+& \varphi & |
+\end{array}
+$$
+$$
+\begin{array}{ccc}
+G & & \\
+& \parallel & \\
+G' & \xrightarrow{\pi'} & G
+\end{array}
 $$
 
-${F'}^{\iota'}$ // ${\Gamma '}^{\pi'}$ // G
+est commutatif. *Soit $ \mathscr{E}'_1 = (\Gamma'_1, \iota'_1, \pi'_1) $ une $ \tau' $-extension de $ G $ par $ F' $ et soit $ \varphi_1 : \Gamma \to \Gamma'_1 $ un homomorphisme de groupes tel que le diagramme*
 
-est commutatif. Soit $\mathscr{E}'_1= (\Gamma '_1, \iota '_1, \pi '_1)$une $\tau '$-extension de G par $F'$ et soit $\varphi_1: \Gamma \rightarrow \Gamma '_1$ un homomorphisme de groupes tel que le diagramme
+$$
+\begin{array}{ccc}
+F & \xrightarrow{\iota} & \Gamma \\
+| & & | \\
+F' & \xrightarrow{\iota'_1} & \Gamma'_1
+\end{array}
+$$
+$$
+\begin{array}{ccc}
+& \xrightarrow{\pi} & G \\
+& | & | \\
+& \varphi_1 & |
+\end{array}
+$$
+$$
+\begin{array}{ccc}
+G & & \\
+& \parallel & \\
+G' & \xrightarrow{\pi'_1} & G
+\end{array}
+$$
 
-F $^{\iota}$ // Γ $^{\pi}$ // G
+soit commutatif, alors il existe un unique morphisme $ \psi $ de $ \tau' $-extensions de $ v_*(\mathscr{E}) $ dans $ \mathscr{E}'_1 $ tel qu’on ait $ \varphi_1 = \psi \circ \varphi $.
 
-$v\varphi_1$
-
-${F'}^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}$ // G
-
-soit commutatif, alors il existe un unique morphisme $\psi$ de $\tau '$-extensions de $v_*(\mathscr{E})$ dans $\mathscr{E}'_1$ tel qu’on ait $\varphi_1=\psi \circ \varphi$.
-
-La commutativité du premier diagramme résulte des constructions. L’existence et l’unicité de $\psi$ découlent du lemme qui suit.
+La commutativité du premier diagramme résulte des constructions. L’existence et l’unicité de $ \psi $ découlent du lemme qui suit.
 
 #### Lemme 3 {#alg-viii-s16-lem-3 .statement tag=00IH}
 
-Soit $G'_1$ un groupe et soient $w: G\rightarrow G'_1$ et $\tau_1: G'_1\rightarrow$ Aut(F$'$)des homomorphismes de groupes tels que $\tau '=\tau_1\circ w$. Soit $\mathscr{E}'_1= (\Gamma '_1, \iota '_1, \pi '_1)$une $\tau_1$-extension de $G'_1$ par $F'$ et soit $\varphi_1: \Gamma \rightarrow \Gamma '_1$ un homomorphisme de groupes tel que le diagramme
-
-F $^{\iota}$ // Γ $^{\pi}$ // G
-
-$v\varphi_1w$
-
-${F'}^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}/$/ $G'_1$
-
-soit commutatif. Alors il existe un unique homomorphisme de groupes $\psi : \Gamma '\rightarrow \Gamma '_1$ tel que le diagramme
-
-${F'}^{\iota'}$ // ${\Gamma '}^{\pi'}$ // G
-
-$\psi w$
-
-${F'}^{\iota'_1}$ // ${\Gamma '_1}^{\pi'_1}/$/ $G'_1$ soit commutatif et tel que $\varphi_1=\psi \circ \varphi$.
-
-Pour tout $(f, \gamma )\in F'\times \Gamma$, notons $(f, \gamma )$ la classe de $(f, \gamma )$ dans $\Gamma '$. Si l’homomorphisme de groupes $\psi : \Gamma '\rightarrow \Gamma '_1$ convient, il vérifie les relations
+*Soit $ G'_1 $ un groupe et soient $ w : G \to G'_1 $ et $ \tau_1 : G'_1 \to \mathrm{Aut}(F') $ des homomorphismes de groupes tels que $ \tau' = \tau_1 \circ w $. Soit $ \mathscr{E}'_1 = (\Gamma'_1, \iota'_1, \pi'_1) $ une $ \tau_1 $-extension de $ G'_1 $ par $ F' $ et soit $ \varphi_1 : \Gamma \to \Gamma'_1 $ un homomorphisme de groupes tel que le diagramme*
 
 $$
-\psi (\overline{(f', \gamma)})=\psi (\iota '(f')\varphi (\gamma )) =\iota '_1(f')\varphi_1(\gamma )
+\begin{array}{ccc}
+F & \xrightarrow{\iota} & \Gamma \\
+| & & | \\
+F' & \xrightarrow{\iota'_1} & \Gamma'_1
+\end{array}
+$$
+$$
+\begin{array}{ccc}
+& \xrightarrow{\pi} & G \\
+& | & | \\
+& \varphi_1 & |
+\end{array}
+$$
+$$
+\begin{array}{ccc}
+G & & \\
+& \downarrow w & \\
+G'_1 & &
+\end{array}
 $$
 
-pour tout $f'\in F'$ et tout $\gamma \in \Gamma$. Inversement, l’application $\widetilde{\psi}$ de $F'\times_{\tau'\circ\pi}\Gamma$ dans $\Gamma '_1$ donnée par $(f, \gamma )\rightarrow \iota '_1(f)\varphi_1(\gamma )$ est un homomorphisme de groupes. En effet, on a les relations
+soit commutatif. Alors il existe un unique homomorphisme de groupes $ \psi : \Gamma' \to \Gamma'_1 $ tel que le diagramme
 
 $$
-\iota '_1(f)\varphi_1(\gamma )\iota '_1(f')\varphi_1(\gamma ') =\iota '_1(f \tau_1(\pi '_1(\varphi_1(\gamma ))).f')\varphi_1(\gamma \gamma ') =\iota '_1(f \tau '(\pi (\gamma )).f')\varphi_1(\gamma \gamma ')
+\begin{array}{ccc}
+F' & \xrightarrow{\iota'} & \Gamma' \\
+| & & | \\
+F' & \xrightarrow{\iota'_1} & \Gamma'_1
+\end{array}
+$$
+$$
+\begin{array}{ccc}
+& \xrightarrow{\pi'} & G \\
+& | & | \\
+& \psi & |
+\end{array}
+$$
+$$
+\begin{array}{ccc}
+G & & \\
+& \downarrow w & \\
+G'_1 & &
+\end{array}
 $$
 
-pour $f, f'\in F'$ et $\gamma , \gamma '\in \Gamma$. Le noyau de $\widetilde{\psi}$ contient l’image de $j$ puisque $\iota '_1(v(f)) =$ $\varphi_1(\iota (f))$ pour $f\in F$ et le morphisme $\psi$ déduit de $\widetilde{\psi}$ par passage au quotient convient.
+soit commutatif et tel que $ \varphi_1 = \psi \circ \varphi $.
+
+Pour tout $(f, \gamma) \in F' \times \Gamma$, notons $\overline{(f, \gamma)}$ la classe de $(f, \gamma)$ dans $\Gamma'$. Si l’homomorphisme de groupes $\psi : \Gamma' \to \Gamma'_1$ convient, il vérifie les relations
+$$
+\psi\left(\overline{(f', \gamma)}\right) = \psi(\iota'(f')\varphi(\gamma)) = \iota'_1(f')\varphi_1(\gamma)
+$$
+pour tout $f' \in F'$ et tout $\gamma \in \Gamma$. Inversement, l’application $\tilde{\psi}$ de $F' \times_{\tau' \circ \pi} \Gamma$ dans $\Gamma'_1$ donnée par $(f, \gamma) \mapsto \iota'_1(f)\varphi_1(\gamma)$ est un homomorphisme de groupes. En effet, on a les relations
+$$
+\iota'_1(f)\varphi_1(\gamma)\iota'_1(f')\varphi_1(\gamma') = \iota'_1(f\tau_1(\pi'_1(\varphi_1(\gamma))).f')\varphi_1(\gamma\gamma') = \iota'_1(f\tau'(\pi(\gamma)).f')\varphi_1(\gamma\gamma'),
+$$
+pour $f, f' \in F'$ et $\gamma, \gamma' \in \Gamma$. Le noyau de $\tilde{\psi}$ contient l’image de $j$ puisque $\iota'_1(v(f)) = \varphi_1(\iota(f))$ pour $f \in F$ et le morphisme $\psi$ déduit de $\tilde{\psi}$ par passage au quotient convient.
 
 #### Remarque {#alg-viii-s16-n3-rem-1 .statement tag=00II}
 
-Notons Σ l’espèce de structure de $\tau '$-extension et définissons les $\alpha$-applications comme les applications de Γ dans un groupe $\Gamma '$ sous-jacent à une $\tau '$-extension qui sont des homomorphismes de groupes et qui rendent le diagramme
-
-F $^{\iota}$ // Γ $^{\pi}$ // G
+Notons $\Sigma$ l’espèce de structure de $\tau'$-extension et définissons les $\alpha$-applications comme les applications de $\Gamma$ dans un groupe $\Gamma'$ sous-jacent à une $\tau'$-extension qui sont des homomorphismes de groupes et qui rendent le diagramme
 
 $$
-v\varphi \tag{6}
+\begin{array}{ccc}
+F & \xrightarrow{\iota} & \Gamma & \xrightarrow{\pi} & G \\
+\downarrow v & & \downarrow \varphi & & \parallel \\
+F' & \xrightarrow{\iota'} & \Gamma' & \xrightarrow{\pi'} & G
+\end{array}
 $$
-
-${F'}^{\iota'}$ // ${\Gamma '}^{\pi'}$ // G
 
 commutatif. La prop. 2 exprime que $v_*(\mathscr{E})$ est une solution du problème d’application universelle correspondant (E, IV, p. 22).
 
 #### Corollaire 1 {#alg-viii-s16-lem-3-cor-1 .statement tag=00IJ}
 
-Soient $\mathscr{E}_1$ et $\mathscr{E}_2$ des $\tau$-extensions de G par F et soit $\psi$ un morphisme de $\tau$-extensions de $\mathscr{E}_1$ dans $\mathscr{E}_2$. Notons $\varphi_1$ (resp. $\varphi_2$)l’homomorphisme canonique pour $v_*(\mathscr{E}_1)$ (resp. $v_*(\mathscr{E}_2)$). Alors il existe un unique morphisme de $\tau '$-extensions de $v_*(\mathscr{E}_1)$dans $v_*(\mathscr{E}_2)$, noté $v_*(\psi )$, tel que $\varphi_2\circ \psi =v_*(\psi )\circ \varphi_1$.
+*Soient $\mathscr{E}_1$ et $\mathscr{E}_2$ des $\tau$-extensions de $G$ par $F$ et soit $\psi$ un morphisme de $\tau$-extensions de $\mathscr{E}_1$ dans $\mathscr{E}_2$. Notons $\varphi_1$ (resp. $\varphi_2$) l’homomorphisme canonique pour $v_*(\mathscr{E}_1)$ (resp. $v_*(\mathscr{E}_2)$). Alors il existe un unique morphisme de $\tau'$-extensions de $v_*(\mathscr{E}_1)$ dans $v_*(\mathscr{E}_2)$, noté $v_*(\psi)$, tel que $\varphi_2 \circ \psi = v_*(\psi) \circ \varphi_1$.
+Il suffit d’appliquer la prop. 2 à $\varphi_2 \circ \psi$.
 
-Il suffit d’appliquer la prop. 2 à $\varphi_2\circ \psi$.
-
-La classe de la $\tau '$-extension $v_*(\mathscr{E})$ ne dépend donc que de la classe de $\mathscr{E}$. On note également $v_*:$ Ex$_{\tau}(G,F)\rightarrow$ Ex$_{\tau'}(G,F')$ l’application qui envoie la classe d’une $\tau$-extension $\mathscr{E}$ sur la classe de la $\tau '$-extension $v_*(\mathscr{E})$.
+La classe de la $\tau'$-extension $v_*(\mathscr{E})$ ne dépend donc que de la classe de $\mathscr{E}$. On note également $v_* : \mathrm{Ex}_{\tau}(G, F) \to \mathrm{Ex}_{\tau'}(G, F')$ l’application qui envoie la classe d’une $\tau$-extension $\mathscr{E}$ sur la classe de la $\tau'$-extension $v_*(\mathscr{E})$.
 
 #### Corollaire 2 {#alg-viii-s16-lem-3-cor-2 .statement tag=00RJ}
 
-On conserve les notations de la proposition. Soit $F''$ un groupe abélien et soient $\tau '': G\rightarrow$ Aut(F$''$)et $v': F'\rightarrow F''$ des homomorphismes de groupes tels que
-
+*On conserve les notations de la proposition. Soit $F''$ un groupe abélien et soient $\tau'' : G \to \mathrm{Aut}(F'')$ et $v' : F' \to F''$ des homomorphismes de groupes tels que*
 $$
-\tau ''(g).v'(f) =v'(\tau '(g).f)
+\tau''(g).v'(f) = v'(\tau'(g).f)
 $$
-
-pour $g\in G$et $f\in F'$. Soit $\mathscr{E}$ une $\tau$-extension de G par F et notons $\varphi$ (resp. $\varphi ',\varphi ''$) l’homomorphisme canonique associé à $v_*(\mathscr{E})$ (resp. $v'_*(v_*(\mathscr{E}))$, $(v'\circ v)_*(\mathscr{E})$). Alors il existe un unique morphisme $\psi$ de la $\tau ''$-extension $v'_*(v_*(\mathscr{E}))$de G par $F''$ dans la $\tau ''$-extension $(v'\circ v)_*(\mathscr{E})$tel que $\varphi ''=\psi \circ \varphi '\circ \varphi$.
+*pour $g \in G$ et $f \in F'$*. *Soit $\mathscr{E}$ une $\tau$-extension de $G$ par $F$ et notons $\varphi$ (resp. $\varphi', \varphi''$) l’homomorphisme canonique associé à $v_*(\mathscr{E})$ (resp. $v'_*(v_*(\mathscr{E}))$, $(v' \circ v)_*(\mathscr{E})$). Alors* il existe un unique morphisme $ \psi $ de la $ \tau'' $-extension $ v'_*(v_*(\mathcal{E})) $ de $ G $ par $ F'' $ dans la $ \tau'' $-extension $ (v' \circ v)_*(\mathcal{E}) $ tel que $ \varphi'' = \psi \circ \varphi' \circ \varphi $.
 
 #### Exemple 1 {#alg-viii-s16-n3-exa-1 .statement tag=00IK}
 
-Soit $j:\{1\} \rightarrow F$ l’injection canonique. L’extension semi-triviale $\mathscr{I}_{\tau}$ est isomorphe à $j_*((G, i$,Id$_G))$ où $i:\{e\} \rightarrow G$ est l’injection canonique. Soit $c: F\rightarrow F$ l’homomorphisme constant $f\rightarrow 1$ et soit $\mathscr{E}$ une $\tau$-extension. La $\tau$-extension $c_*(\mathscr{E})$ est également isomorphe à $\mathscr{I}_{\tau}$.
+Soit $ j : \{1\} \to F $ l’injection canonique. L’extension semi-triviale $ \mathscr{I}_\tau $ est isomorphe à $ j_*((G, i, \mathrm{Id}_G)) $ où $ i : \{e\} \to G $ est l’injection canonique. Soit $ c : F \to F $ l’homomorphisme constant $ f \mapsto 1 $ et soit $ \mathcal{E} $ une $ \tau $-extension. La $ \tau $-extension $ c_*(\mathcal{E}) $ est également isomorphe à $ \mathscr{I}_\tau $.
 
 #### Exemple 2 {#alg-viii-s16-n3-exa-2 .statement tag=00IL}
 
-Soit E un sous-groupe de F stable pour l’action de G. Notons $F'$ le quotient de F par $E,v: F\rightarrow F'$ l’homomorphisme canonique et $\tau ': G\rightarrow$ Aut(F$'$) l’action de G sur $F'$ caractérisée par
-
+Soit $ E $ un sous-groupe de $ F $ stable pour l’action de $ G $. Notons $ F' $ le quotient de $ F $ par $ E $, $ v : F \to F' $ l’homomorphisme canonique et $ \tau' : G \to \mathrm{Aut}(F') $ l’action de $ G $ sur $ F' $ caractérisée par
 $$
-\tau '(g).v(f) =v(\tau (g).f)
+\tau'(g).v(f) = v(\tau(g).f)
 $$
-
-pour $g\in G$ et $f\in F$. Soit $\mathscr{E}= (\Gamma , \iota , \pi )$ une $\tau$-extension de G par F. Alors $\iota (E)$ est un sous-groupe distingué de Γ et la $\tau '$-extension $v_*(\mathscr{E})$ de G par $F'$ est isomorphe à l’extension $(\Gamma /\iota (E), \iota , \pi )$ où $\overline{\iota}$ et $\overline{\pi}$ sont les homomorphismes de groupes déduits de $\iota$ et $\pi$ par passages aux quotients. L’homomorphisme canonique $\varphi$ associé à $v_*(\mathscr{E})$ correspond par cet isomorphisme à l’homomorphisme canonique de Γ dans $\Gamma /\iota (E)$.
+pour $ g \in G $ et $ f \in F $. Soit $ \mathcal{E} = (\Gamma, \iota, \pi) $ une $ \tau $-extension de $ G $ par $ F $. Alors $ \iota(E) $ est un sous-groupe distingué de $ \Gamma $ et la $ \tau' $-extension $ v_*(\mathcal{E}) $ de $ G $ par $ F' $ est isomorphe à l’extension $ (\Gamma/\iota(E), \bar{\iota}, \bar{\pi}) $ où $ \bar{\iota} $ et $ \bar{\pi} $ sont les homomorphismes de groupes déduits de $ \iota $ et $ \pi $ par passages aux quotients. L’homomorphisme canonique $ \varphi $ associé à $ v_*(\mathcal{E}) $ correspond par cet isomorphisme à l’homomorphisme canonique de $ \Gamma $ dans $ \Gamma/\iota(E) $.
 
 #### Proposition 3 {#alg-viii-s16-prop-3 .statement tag=00IM}
 
-Soient G et $G'$ des groupes. Soient F et $F'$ des groupes abéliens. Soient $\tau : G\rightarrow$ Aut(F)$,\tau ': G\rightarrow$ Aut(F$'$)$,u: G'\rightarrow G$et $v: F\rightarrow F'$ des homomorphismes de groupes tels que
+Soient $ G $ et $ G' $ des groupes. Soient $ F $ et $ F' $ des groupes abéliens. Soient $ \tau : G \to \mathrm{Aut}(F) $, $ \tau' : G \to \mathrm{Aut}(F') $, $ u : G' \to G $ et $ v : F \to F' $ des homomorphismes de groupes tels que
+$$
+\tau'(g).v(f) = v(\tau(g).f)
+$$
+pour $ g \in G $ et $ f \in F $. On note $ \tau'' = \tau' \circ u $. Soit $ \mathcal{E} $ une $ \tau $-extension de $ G $ par $ F $. On note $ \varphi_u $ (resp. $ \varphi_v, \varphi'_u, \varphi'_v $) l’homomorphisme canonique correspondant à la $ \tau \circ u $-extension $ u^*(\mathcal{E}) $ (resp. à la $ \tau' $-extension $ v_*(\mathcal{E}) $, aux $ \tau'' $-extensions $ u^*(v_*(\mathcal{E})) $ et $ v_*(u^*(\mathcal{E})) $). Alors il existe un unique morphisme $ \psi $ de $ \tau'' $-extensions de $ v_*(u^*(\mathcal{E})) $ dans $ u^*(v_*(\mathcal{E})) $ tel que $ \varphi_v \circ \varphi_u = \varphi'_u \circ \psi \circ \varphi'_v $.
+
+On note $ (\Gamma_u, \iota_u, \pi_u) $ (resp. $ (\Gamma'_u, \iota'_u, \pi'_u) $) la $ \tau \circ u $-extension $ u^*(\mathcal{E}) $ (resp. la $ \tau'' $-extension $ u^*(v_*(\mathcal{E})) $). En appliquant le lemme 2 de VIII, p. 283 à $ \varphi_v \circ \varphi_u $, on obtient qu’il existe un homomorphisme de groupes $ \psi_1 : \Gamma_u \to \Gamma'_u $ tel que le diagramme
 
 $$
-\tau '(g).v(f) =v(\tau (g).f)
+\begin{array}{ccc}
+F & \xrightarrow{\iota_u} & \Gamma_u & \xrightarrow{\pi_u} & G' \\
+| & & | & & \| \\
+F' & \xrightarrow{\iota'_u} & \Gamma'_u & \xrightarrow{\pi'_u} & G'
+\end{array}
 $$
 
-pour $g\in G$et $f\in F$. On note $\tau ''=\tau '\circ u$. Soit $\mathscr{E}$ une $\tau$-extension de G par F. On note $\varphi_u$ (resp. $\varphi_v,\varphi '_u,\varphi '_v$)l’homomorphisme canonique correspondant à la $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. à la $\tau '$-extension $v_*(\mathscr{E})$, aux $\tau ''$-extensions $u^*(v_*(\mathscr{E}))$et $v_*(u^*(\mathscr{E}))$). Alors il existe un unique morphisme $\psi$ de $\tau ''$-extensions de $v_*(u^*(\mathscr{E}))$dans $u^*(v_*(\mathscr{E}))$ tel que $\varphi_v\circ \varphi_u=\varphi '_u\circ \psi \circ \varphi '_v$.
+soit commutatif et tel que $ \varphi'_u \circ \psi_1 = \varphi_v \circ \varphi_u $. L’existence de $ \psi $ s’en déduit à l’aide de la proposition 2 appliquée à $ \psi_1 $. Inversement, si $ \psi' $ convient également, on a $ \psi' \circ \varphi'_v = \psi_1 $ par le lemme 2, donc $ \psi' = \psi $ (prop. 2).
 
-On note $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma '_u, \iota '_u, \pi '_u)$) la $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. la $\tau ''$-extension $u^*(v_*(\mathscr{E}))$). En appliquant le lemme 2 de VIII, p. 283 à $\varphi_v\circ \varphi_u$, on obtient qu’il existe un homomorphisme de groupes $\psi_1: \Gamma_u\rightarrow \Gamma '_u$ tel que le diagramme
+### 4. Loi de groupe sur les classes de $ \tau $-extensions
 
-F $^{\iota_u}$ // $\Gamma_u^{\pi_u}$ // $G'$
-
-$v\psi_1$
-
-${F'}^{\iota'_u}$ // ${\Gamma '_u}^{\pi'_u}$ // $G'$
-
-soit commutatif et tel que $\varphi '_u\circ \psi_1=\varphi_v\circ \varphi_u$. L’existence de $\psi$ s’en déduit à l’aide de la proposition 2 appliquée à $\psi_1$. Inversement, si $\psi '$ convient également, on a $\psi '\circ \varphi '_v=\psi_1$ par le lemme 2, donc $\psi '=\psi$ (prop. 2).
-
-### 4. Loi de groupe sur les classes de $\tau$-extensions
-
-Soit G un groupe, soit F un groupe abélien et soit $\tau : G\rightarrow$ Aut(F) un homomorphisme de groupes. On désigne par $\delta : G\rightarrow G\times G$ l’application diagonale $g\rightarrow (g, g)$ et par $m: F\times F\rightarrow F$ l’homomorphisme de multiplication $(f_1, f_2)\rightarrow f_1f_2$. On note $s: F\rightarrow F$ l’homomorphisme de groupes donné par $f\rightarrow f^{-1}$. Soient $\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ et $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ des $\tau$-extensions de G par F. Comme on a la relation
-
+Soit $ G $ un groupe, soit $ F $ un groupe abélien et soit $ \tau : G \to \mathrm{Aut}(F) $ un homomorphisme de groupes. On désigne par $ \delta : G \to G \times G $ l’application diagonale $ g \mapsto (g, g) $ et par $ m : F \times F \to F $ l’homomorphisme de multiplication $ (f_1, f_2) \mapsto f_1 f_2 $. On note $ s : F \to F $ l’homomorphisme de groupes donné par $ f \mapsto f^{-1} $. Soient $ \mathscr{E}_1 = (\Gamma_1, \iota_1, \pi_1) $ et $ \mathscr{E}_2 = (\Gamma_2, \iota_2, \pi_2) $ des $ \tau $-extensions de $ G $ par $ F $. Comme on a la relation
 $$
-m(((\tau \times \tau )\circ \delta )(g).(f_1, f_2)) =\tau (g).m(f_1, f_2)
+m(((\tau \times \tau) \circ \delta)(g).(f_1, f_2)) = \tau(g).m(f_1, f_2),
 $$
-
-pour tout $g\in G$ et tous $f_1, f_2\in F$, l’extension $m_*(\delta^*(\mathscr{E}_1\times \mathscr{E}_2))$ est une $\tau$-extension qu’on appelle le produit des $\tau$-extensions $\mathscr{E}_1$ et $\mathscr{E}_2$ et qu’on note $\mathscr{E}_1\mathscr{E}_2$. La classe de cette extension ne dépend que des classes des extensions $\mathscr{E}_1$ et $\mathscr{E}_2$ (VIII, p. 284, cor. 1 et VIII, p. 287, cor. 1). On en déduit donc une loi de composition sur Ex$_{\tau}(G,F)$.
+pour tout $ g \in G $ et tous $ f_1, f_2 \in F $, l’extension $ m_*(\delta^*(\mathscr{E}_1 \times \mathscr{E}_2)) $ est une $ \tau $-extension qu’on appelle le *produit des $ \tau $-extensions* $ \mathscr{E}_1 $ et $ \mathscr{E}_2 $ et qu’on note $ \mathscr{E}_1 \mathscr{E}_2 $. La classe de cette extension ne dépend que des classes des extensions $ \mathscr{E}_1 $ et $ \mathscr{E}_2 $ (VIII, p. 284, cor. 1 et VIII, p. 287, cor. 1). On en déduit donc une loi de composition sur $ \mathrm{Ex}_\tau(G, F) $.
 
 #### Remarque {#alg-viii-s16-n4-rem-1 .statement tag=00IN}
 
-Soient $\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ et $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ des $\tau$-extensions de G par F. Soit $\mathscr{E}_1\mathscr{E}_2= (\Gamma , \iota , \pi )$ le produit de ces extensions. Compte tenu de l’exemple de VIII, p. 284, la construction fournit un homomorphisme de groupes surjectif du produit fibré $\Gamma_1\times_G\Gamma_2$ dans Γ dont le noyau est l’image de l’homomorphisme de groupes $f\rightarrow (\iota_1(f), \iota_2(f)^{-1})$ de F dans $\Gamma_1\times_G\Gamma_2$.
+Soient $ \mathscr{E}_1 = (\Gamma_1, \iota_1, \pi_1) $ et $ \mathscr{E}_2 = (\Gamma_2, \iota_2, \pi_2) $ des $ \tau $-extensions de $ G $ par $ F $. Soit $ \mathscr{E}_1 \mathscr{E}_2 = (\Gamma, \iota, \pi) $ le produit de ces extensions. Compte tenu de l’exemple de VIII, p. 284, la construction fournit un homomorphisme de groupes surjectif du produit fibré $ \Gamma_1 \times_G \Gamma_2 $ dans $ \Gamma $ dont le noyau est l’image de l’homomorphisme de groupes $ f \mapsto (\iota_1(f), \iota_2(f)^{-1}) $ de $ F $ dans $ \Gamma_1 \times_G \Gamma_2 $.
 
 #### Proposition 4 {#alg-viii-s16-prop-4 .statement tag=00IO}
 
-Le produit des $\tau$-extensions munit l’ensemble Ex$_{\tau}(G,F)$d’une structure de groupe abélien. Son élément neutre est la classe de l’extension semi-triviale $\mathscr{I}_{\tau}$. L’inverse de la classe d’une $\tau$-extension $\mathscr{E}$ est la classe de $s_*(\mathscr{E})$.
+*Le produit des $ \tau $-extensions munit l’ensemble $ \mathrm{Ex}_\tau(G, F) $ d’une structure de groupe abélien. Son élément neutre est la classe de l’extension semi-triviale $ \mathscr{I}_\tau $. L’inverse de la classe d’une $ \tau $-extension $ \mathscr{E} $ est la classe de $ s_*(\mathscr{E}) $.*
 
 L’associativité de la loi résulte de la commutativité des diagrammes
 
-G $^{\delta}$ // $G\times GF\times F\times F^{m\times Id}/$/ $F\times F$
-
-$\delta$ Id$\times \delta$ et Id$\times mm$
-
-$G\times G^{\delta\times Id}/$/ $G\times G\times GF\times F^m$ // $F$,
+$$
+\begin{array}{ccc}
+G & \xrightarrow{\delta} & G \times G \\
+\downarrow \delta & & \downarrow \mathrm{Id} \times \delta \\
+G \times G & \xrightarrow{\delta \times \mathrm{Id}} & G \times G \times G
+\end{array}
+$$
+et
+$$
+\begin{array}{ccc}
+F \times F \times F & \xrightarrow{m \times \mathrm{Id}} & F \times F \\
+\downarrow \mathrm{Id} \times m & & \downarrow m \\
+F \times F & \xrightarrow{m} & F,
+\end{array}
+$$
 
 du cor. 2 de VIII, p. 284, du cor. 2 de VIII, p. 287 et de la prop. 3 de VIII, p. 288.
 
-Soit $\Delta  : F\rightarrow F\times F$ l’application diagonale $f\rightarrow (f, f)$. Soit $\mathscr{E}= (\Gamma , \iota , \pi )$ une $\tau$-extension. Soit $\widetilde{\Delta} : \Gamma \rightarrow \Gamma \times_G\Gamma$ l’homomorphisme de groupes donné par $\gamma \rightarrow (\gamma , \gamma )$. Le diagramme
+Soit $ \Delta : F \to F \times F $ l’application diagonale $ f \mapsto (f, f) $. Soit $ \mathscr{E} = (\Gamma, \iota, \pi) $ une $ \tau $-extension. Soit $ \tilde{\Delta} : \Gamma \to \Gamma \times_G \Gamma $ l’homomorphisme de groupes donné par $ \gamma \mapsto (\gamma, \gamma) $. Le diagramme
 
-F $^{\iota}$ // Γ $^{\pi}$ // G
+$$
+\begin{array}{ccc}
+F & \xrightarrow{\iota} & \Gamma & \xrightarrow{\pi} & G \\
+\downarrow \Delta & & \downarrow \tilde{\Delta} & & \parallel \\
+F \times F & \longrightarrow & \Gamma \times_G \Gamma & \longrightarrow & G
+\end{array}
+$$
 
-Δ $\widetilde{\Delta}$
+est commutatif. D’après la prop. 2 de VIII, p. 286, il en résulte que la $ (\tau \times \tau) \circ \delta $-extension $ \delta^*(\mathscr{E} \times \mathscr{E}) $ est isomorphe à $ \Delta_*(\mathscr{E}) $.
 
-$F\times F$ // $\Gamma \times_G\Gamma$ // G
+Notons $ c : F \to F $ l’homomorphisme constant $ f \mapsto 1 $. Compte tenu de l’exemple 1 de VIII, p. 288, le fait que $ \mathscr{I}_{\tau} $ soit un élément neutre pour cette loi de composition résulte de l’isomorphisme de $ \delta^*(\mathscr{E} \times \mathscr{E}) $ sur $ \Delta_*(\mathscr{E}) $ et du diagramme commutatif
 
-est commutatif. D’après la prop. 2 de VIII, p. 286, il en résulte que la $(\tau \times \tau )\circ \delta$-extension $\delta^*(\mathscr{E}\times \mathscr{E})$ est isomorphe à $\Delta_*(\mathscr{E})$.
-
-Notons $c$ : F $\rightarrow$ F l’homomorphisme constant $f\rightarrow$ 1. Compte tenu de l’exemple 1 de VIII, p. 288, le fait que $\mathscr{I}_{\tau}$ soit un élément neutre pour cette loi de composition résulte de l’isomorphisme de $\delta^*(\mathscr{E}\times \mathscr{E})$ sur $\Delta_*(\mathscr{E})$ et du diagramme commutatif
-
-F $M^{(Id}M$M$M^{^F}M\overset{\times c)\circ\Delta}{M}/$/ $F\times F$
-
-$_{\times\circ}M^{Id}MM^{^F}$ $^{(cId_F)\Delta}$ MMM $^m$
-
-$F\times F^m$ M//&& $F$.
+$$
+\begin{array}{ccc}
+F & \xrightarrow{(\mathrm{Id}_F \times c) \circ \Delta} & F \times F \\
+(c \times \mathrm{Id}_F) \circ \Delta \downarrow & & \downarrow m \\
+F \times F & \xrightarrow{\mathrm{Id}_F} & F.
+\end{array}
+$$
 
 La dernière assertion résulte du diagramme commutatif
 
-F $M^{(Id}M$M$M^{^F}M\overset{\times s)\circ\Delta}{M}/$/ $F\times F$
-
-$_{(s\times Id)\circ\Delta}$ M$M^cM$
-
-$^{^F}$ MMM $^m$
-
-$F\times F^m$ M//&& $F$.
-
-Soient $\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ et $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ des $\tau$-extensions. L’isomorphisme de groupes $\Gamma_1\times \Gamma_2\rightarrow \Gamma_2\times \Gamma_1$ donné par $(\gamma_1, \gamma_2)\rightarrow (\gamma_2, \gamma_1)$ induit par passage aux sous-ensembles un isomorphisme de groupes $\sigma : \Gamma_1\times_G\Gamma_2\rightarrow \Gamma_2\times_G\Gamma_1$. Compte tenu des relations
-
 $$
-\sigma (\iota_1(f), \iota_2(f)^{-1}) = (\iota_2(f^{-1}), \iota_1(f^{-1})^{-1})
+\begin{array}{ccc}
+F & \xrightarrow{(\mathrm{Id}_F \times s) \circ \Delta} & F \times F \\
+(s \times \mathrm{Id}_F) \circ \Delta \downarrow & & \downarrow m \\
+F \times F & \xrightarrow{c} & F.
+\end{array}
 $$
 
-pour $f\in F$, l’homomorphisme de groupes $\sigma$ induit par passage aux quotients un morphisme de $\tau$-extensions de $\mathscr{E}_1\mathscr{E}_2$ sur $\mathscr{E}_2\mathscr{E}_1$. Donc la loi de composition est commutative.
+Soient $ \mathscr{E}_1 = (\Gamma_1, \iota_1, \pi_1) $ et $ \mathscr{E}_2 = (\Gamma_2, \iota_2, \pi_2) $ des $ \tau $-extensions. L’isomorphisme de groupes $ \Gamma_1 \times \Gamma_2 \to \Gamma_2 \times \Gamma_1 $ donné par $ (\gamma_1, \gamma_2) \mapsto (\gamma_2, \gamma_1) $ induit par passage aux sous-ensembles un isomorphisme de groupes $ \sigma : \Gamma_1 \times_G \Gamma_2 \to \Gamma_2 \times_G \Gamma_1 $. Compte tenu des relations
+
+$$
+\sigma(\iota_1(f), \iota_2(f)^{-1}) = (\iota_2(f^{-1}), \iota_1(f^{-1})^{-1})
+$$
+
+pour $ f \in F $, l’homomorphisme de groupes $ \sigma $ induit par passage aux quotients un morphisme de $ \tau $-extensions de $ \mathscr{E}_1 \mathscr{E}_2 $ sur $ \mathscr{E}_2 \mathscr{E}_1 $. Donc la loi de composition est commutative.
 
 #### Proposition 5 {#alg-viii-s16-prop-5 .statement tag=00IP}
 
-a) Soient G et $G'$ des groupes. Soit F un groupe abélien. Soient $\tau : G\rightarrow$ Aut(F) et $u: G'\rightarrow G$des homomorphismes de groupes. L’application $u^*:$ Ex$_{\tau}(G,F)\rightarrow$ Ex$_{\tau\circ u}(G',F)$est un homomorphisme de groupes.
+a) Soient $ G $ et $ G' $ des groupes. Soit $ F $ un groupe abélien. Soient $ \tau : G \to \mathrm{Aut}(F) $ et $ u : G' \to G $ des homomorphismes de groupes. L’application $ u^* : \mathrm{Ex}_{\tau}(G, F) \to \mathrm{Ex}_{\tau ou}(G', F) $ est un homomorphisme de groupes.
 
-b) Soit G un groupe. Soient F et $F'$ des groupes abéliens. Soient $\tau : G\rightarrow$ Aut(F), $\tau ': G\rightarrow$ Aut(F$'$)et $v: F\rightarrow F'$ des homomorphismes de groupes tels que
+b) Soit $ G $ un groupe. Soient $ F $ et $ F' $ des groupes abéliens. Soient $ \tau : G \to \mathrm{Aut}(F) $, $ \tau' : G \to \mathrm{Aut}(F') $ et $ v : F \to F' $ des homomorphismes de groupes tels que
 
 $$
-\tau '(g).v(f) =v(\tau (g).f)
+\tau'(g).v(f) = v(\tau(g).f)
 $$
 
-pour $g\in G$et $f\in F$. L’application $v_*:$ Ex$_{\tau}(G,F)\rightarrow$ Ex$_{\tau'}(G,F')$est un homomorphisme de groupes.
+pour $ g \in G $ et $ f \in F $. L’application $ v_* : \mathrm{Ex}_{\tau}(G, F) \to \mathrm{Ex}_{\tau'}(G, F') $ est un homomorphisme de groupes.
 
 Cela résulte de la commutativité des diagrammes
 
-${G'}^{\delta}$ // $G'\times G'F\times F^m$ // F
-
-$_uu_{\times u}$ et $v^{\times}_vv$
-
-G $^{\delta}$ // $G\times GF'\times {F'}^m$ // $F'$.
+$$
+\begin{array}{ccc}
+G' & \xrightarrow{\delta} & G' \times G' \\
+\downarrow u & & \downarrow u \times u \\
+G & \xrightarrow{\delta} & G \times G
+\end{array}
+$$
+et
+$$
+\begin{array}{ccc}
+F \times F & \xrightarrow{m} & F \\
+\downarrow v \times v & & \downarrow v \\
+F' \times F' & \xrightarrow{m} & F'.
+\end{array}
+$$
 
 ### 5. Description cohomologique
 
@@ -630,41 +708,47 @@ pour $g\in G$ et $f\in F$. Soit $\alpha$ un élément de Ex$_{\tau}(G,F)$. Si le
 
 Soient G et $G'$ des groupes, soit F un groupe abélien et soit $\tau$ un homomorphisme de G dans le groupe des automorphismes du groupe F. Soit $u: G'\rightarrow G$ un homomorphisme de groupes. On note $\tau '=\tau \circ u$.
 
-Si $\psi : G\times G\rightarrow F$ est un 2-cocycle de G à valeurs dans F, alors l’application $\psi \circ (u\times u)$ de $G'\times G'$ dans F donnée par $(g_1, g_2)\rightarrow \psi (u(g_1), u(g_2))$ est un 2cocycle de $G'$ à valeurs dans F et l’application $\psi \rightarrow \psi \circ (u\times u)$ de $Z^2(G,F)$ dans $Z^2(G',F)$ induit un homomorphisme de groupes $u^*: H^2(G,F)\rightarrow H^2(G',F)$. Pour tout $\lambda \in H^2(G,F)$, l’élément $u^*(\lambda )$ est appelé l’image inverse de $\lambda$ par $u$. Lorsque $G'$ est un sous-groupe de G et $u: G'\rightarrow G$ est l’injection canonique, l’homomorphisme $u^*$ est appelée l’homomorphisme de restriction de G à $G'$ et on le note Res$^G_{G'}$. Lorsque G est un quotient de $G'$ et $u: G'\rightarrow G$ est la surjection canonique, l’homomorphisme $u^*$ est appelée l’homomorphisme d’inflation de G à $G'$.
+Si $\psi : G\times G\rightarrow F$ est un 2-cocycle de G à valeurs dans F, alors l’application $\psi \circ (u\times u)$ de $G'\times G'$ dans F donnée par $(g_1, g_2)\rightarrow \psi (u(g_1), u(g_2))$ est un 2cocycle de $G'$ à valeurs dans F et l’application $\psi \rightarrow \psi \circ (u\times u)$ de $Z^2(G,F)$ dans $Z^2(G',F)$ induit un homomorphisme de groupes $u^*: H^2(G,F)\rightarrow H^2(G',F)$. Pour tout $\lambda \in H^2(G,F)$, l’élément $u^*(\lambda )$ est appelé l’image inverse de $\lambda$ par $u$. Lorsque $G'$ est un sous-groupe de G et $u: G'\rightarrow G$ est l’injection canonique, l’homomorphisme $u^*$ est appelée l’homomorphisme de restriction de G à G′ et on le note ResG′G. Lorsque G est un quotient de G′ et u : G′ → G est la surjection canonique, l’homomorphisme u* est appelée l’homomorphisme d’inflation de G à G′.
 
 #### Proposition 7 {#alg-viii-s16-prop-7 .statement tag=00IS}
 
 Avec les notations qui précèdent, le diagramme
 
-Ex$_{\tau}(G,F)^{u^*}/$/ Ex$_{\tau}(G',F)$
-
-$\Theta_{\tau}\Theta_{\tau'}$
-
-$H^2(G,F)^{u^*}$ // $H^2(G',F)$
+$$
+\begin{array}{ccc}
+\operatorname{Ex}_{\tau}(G, F) & \xrightarrow{u^*} & \operatorname{Ex}_{\tau}(G', F) \\
+\downarrow \Theta_{\tau} & & \downarrow \Theta_{\tau'} \\
+H^2(G, F) & \xrightarrow{u^*} & H^2(G', F)
+\end{array}
+$$
 
 est commutatif.
 
-Soit H un sous-groupe d’indice fini de G. Soit $s$ une section de la surjection canonique de G dans $H\backslash G$. On note $(g, x)\rightarrow x.g$ l’action à droite de G sur $H\backslash G$ induite par l’action à droite de G sur lui-même par multiplication. Notons que pour tout $x\in H\backslash G$ et tout $g\in G$, l’élément $s(x)gs(x.g)^{-1}$ appartient à H. Pour toute application $c: H\times H\rightarrow F$, on définit donc une application $\widetilde{c}_s: G\times G\rightarrow F$ par la relation
+Soit H un sous-groupe d’indice fini de G. Soit s une section de la surjection canonique de G dans H\G. On note (g, x) ↦ x.g l’action à droite de G sur H\G induite par l’action à droite de G sur lui-même par multiplication. Notons que pour tout x ∈ H\G et tout g ∈ G, l’élément s(x)gs(x.g)−1 appartient à H. Pour toute application c : H × H → F, on définit donc une application $ \tilde{c}_s : G \times G \to F $ par la relation
 
 $$
-\widetilde{c}_s(g_1, g_2) =\prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x.g_1)^{-1}, s(x.g_1)g_2s(x.g_1g_2)^{-1})
+\tilde{c}_s(g_1, g_2) = \prod_{x \in H\setminus G}^{s(x)^{-1}} c\left(s(x)g_1 s(x.g_1)^{-1}, s(x.g_1)g_2 s(x.g_1g_2)^{-1}\right)
 $$
 
-pour $g_1,g_2\in G$. L’application $c\rightarrow \widetilde{c}_s$ est un homomorphisme de groupes de $F^{H\times H}$ dans $F^{G\times G}$.
+pour $ g_1, g_2 \in G $. L’application $ c \mapsto \tilde{c}_s $ est un homomorphisme de groupes de $ F^{H \times H} $ dans $ F^{G \times G} $.
 
 #### Lemme 4 {#alg-viii-s16-lem-4 .statement tag=00IT}
 
-Si $c: H\times H\rightarrow F$est un 2-cocycle de H à valeurs dans F, alors $\widetilde{c}_s$ est un 2-cocycle de G à valeurs dans F.
+Si $ c : H \times H \to F $ est un 2-cocycle de H à valeurs dans F, alors $ \tilde{c}_s $ est un 2-cocycle de G à valeurs dans F.
 
-Soient $g_1,g_2$ et $g_3$ des éléments de G. Pour tout $i\in  \{1,2,3\}$ on définit une application $h_i: H\backslash G\rightarrow H$ par la relation
+Soient $ g_1, g_2 $ et $ g_3 $ des éléments de G. Pour tout $ i \in \{1, 2, 3\} $ on définit une application $ h_i : H\setminus G \to H $ par la relation
 
 $$
-h_i(x) =s(x.g_1. . . g_{i-1})g_is(x.g_1. . . g_i)^{-1}
+h_i(x) = s(x.g_1 \cdots g_{i-1})g_i s(x.g_1 \cdots g_i)^{-1}
 $$
 
-pour $x\in H\backslash G$. Notons que
+pour $ x \in H\setminus G $. Notons que
 
-$h_1(x)h_2(x) =s(x)g_1g_2s(x.g_1g_2)^{-1}$ et $h_2(x)h_3(x) =s(x.g_1)g_2g_3s(x.g_1g_2g_3)^{-1}$ pour $x\in H\backslash G$. On a alors les relations
+$$
+h_1(x)h_2(x) = s(x)g_1g_2 s(x.g_1g_2)^{-1} \quad \text{et} \quad h_2(x)h_3(x) = s(x.g_1)g_2g_3 s(x.g_1g_2g_3)^{-1}
+$$
+
+pour $x\in H\backslash G$. On a alors les relations
 
 $$
 ^{g_1}\widetilde{c}_s(g_2, g_3)\widetilde{c}_s(g_1g_2, g_3)^{-1}\widetilde{c}_s(g_1, g_2g_3)\widetilde{c}_s(g_1, g_2)^{-1}
@@ -1418,51 +1502,53 @@ pour $x_1\in V_1$ et $x_2\in V_2$. On a $w(\gamma_1, \gamma_2)\in C^*$ et $w$ es
 
 $u(\alpha ) =v(\iota (\alpha ))$ et $u(^{\gamma}\beta ) =v(\gamma )u(\beta )v(\gamma )^{-1}$
 
-pour $\alpha \in L^*,\beta \in L$ et $\gamma \in \Gamma$. La proposition 12 de VIII, p. 310 fournit un homomorphisme $f$ de l’algèbre $\mathbf{A}[\mathscr{E}; L]$ dans C. Comme l’algèbre $\mathbf{A}[\mathscr{E}; L]$ est simple, l’homomorphisme $f$ est injectif. Les algèbres C et $\mathbf{A}[\mathscr{E}; L]$ ayant la même dimension sur $K,f$ est un isomorphisme.
+pour $\alpha \in L^*,\beta \in L$ et $\gamma \in \Gamma$. La proposition 12 de VIII, p. 310 fournit un homomorphisme $f$ de l’algèbre $\mathbf{A}[\mathscr{E}; L]$ dans C. Comme l’algèbre $\mathbf{A}[\mathscr{E}; L]$ est simple, l’homomorphisme $ f $ est injectif. Les algèbres $ C $ et $ \mathbf{A}[\mathscr{E}; L] $ ayant la même dimension sur $ K $, $ f $ est un isomorphisme.
 
 #### Remarque 1 {#alg-viii-s16-n10-rem-1 .statement tag=00JN}
 
-Si L est une algèbre étale sur K et G le groupe des automorphismes de L, il n’est pas toujours vrai que l’algèbre $\mathbf{A}[\mathscr{E}; L]$ soit simple et centrale (par exemple, on peut prendre $L = K^n$ et $G =\mathfrak{S}_n$).
+Si $ L $ est une algèbre étale sur $ K $ et $ G $ le groupe des automorphismes de $ L $, il n’est pas toujours vrai que l’algèbre $ \mathbf{A}[\mathscr{E}; L] $ soit simple et centrale (par exemple, on peut prendre $ L = K^n $ et $ G = \mathfrak{S}_n $).
 
 #### Remarque 2 {#alg-viii-s16-n10-rem-2 .statement tag=00JO}
 
-On peut calculer comme suit un 2-cocycle $c$ associé à une algèbre A déployée par une extension galoisienne finie L de groupe G. Tout d’abord, il existe un K-homomorphisme $\varphi : A\rightarrow \mathbf{M}_m$(L), où $[A : K] =m^2$. Pour $g\in G$, soit $\varphi^g$ l’homomorphisme de A dans $\mathbf{M}_m(L)$ donné par $a\rightarrow \varphi (g^{-1}ag)$. D’après le théorème de Skolem-Noether, il existe, pour tout $g\in G$, un élément $u_g$ de $\mathbf{G}\mathbf{L}_m(L)$ tels que
+On peut calculer comme suit un 2-cocycle $ c $ associé à une algèbre $ A $ déployée par une extension galoisienne finie $ L $ de groupe $ G $. Tout d’abord, il existe un $ K $-homomorphisme $ \varphi : A \to \mathbf{M}_m(L) $, où $[A : K] = m^2$. Pour $ g \in G $, soit $ \varphi^g $ l’homomorphisme de $ A $ dans $ \mathbf{M}_m(L) $ donné par $ a \mapsto \varphi(g^{-1}ag) $. D’après le théorème de Skolem-Noether, il existe, pour tout $ g \in G $, un élément $ u_g $ de $ \mathbf{GL}_m(L) $ tels que
 
 $$
-\varphi^g(a) =u_g\varphi (a)u^{-1}_g
+\varphi^g(a) = u_g \varphi(a) u_g^{-1}
 $$
 
-pour $a\in A$. On pose ensuite
+pour $ a \in A $. On pose ensuite
 
 $$
-c(g, g') =u_gu_{g'}u^{-1}_{gg'}
+c(g, g') = u_g u_{g'} u_{gg'}^{-1}.
 $$
 
-On peut également définir une extension de G par $L^*$ au moyen de $\varphi :$ on considère le groupe $\Gamma \subset \mathbf{G}\mathbf{L}_m(L)$ formé des $\gamma$ pour lesquels il existe $g\in G$ avec
+On peut également définir une extension de $ G $ par $ L^* $ au moyen de $ \varphi $ : on considère le groupe $ \Gamma \subset \mathbf{GL}_m(L) $ formé des $ \gamma $ pour lesquels il existe $ g \in G $ avec
 
 $$
-\varphi^g(a) =\gamma \varphi (a)\gamma^{-1}
+\varphi^g(a) = \gamma \varphi(a) \gamma^{-1}
 $$
 
-pour tout $a\in A$. La classe de cette extension est l’image inverse par Ψ de la classe de A dans Br(L$/K$).
+pour tout $ a \in A $. La classe de cette extension est l’image inverse par $ \Psi $ de la classe de $ A $ dans $ \mathrm{Br}(L/K) $.
 
 #### Corollaire {#alg-viii-s16-n10-cor-1 .statement tag=00JP}
 
-L’application $\Phi_{L/K}= \Theta \circ \Psi^{-1}$ définit un isomorphisme de groupes de Br(L$/K$)sur $H^2(G,L^*)$.
+*L’application* $ \Phi_{L/K} = \Theta \circ \Psi^{-1} $ *définit un isomorphisme de groupes de* $ \mathrm{Br}(L/K) $ *sur* $ H^2(G, L^*) $.
 
-Soient $K'$ une extension de K et $\varphi : K'\rightarrow L$ un morphisme de K-algèbres. L’ensemble H des éléments $h$ de G tels que $\lambda (h)\circ \varphi =\varphi$ est un sous-groupe de G et la $K'$-algèbre-L munie de la restriction de $\lambda$ à H est une algèbre galoisienne sur $K'$.
+Soient $ K' $ une extension de $ K $ et $ \varphi : K' \to L $ un morphisme de $ K $-algèbres. L’ensemble $ H $ des éléments $ h $ de $ G $ tels que $ \lambda(h) \circ \varphi = \varphi $ est un sous-groupe de $ G $ et la $ K' $-algèbre-L munie de la restriction de $ \lambda $ à $ H $ est une algèbre galoisienne sur $ K' $.
 
 #### Proposition 14 {#alg-viii-s16-prop-14 .statement tag=00JQ}
 
-Le diagramme
+*Le diagramme*
 
-Br(L$/K$)$^{\Phi_{L/K}}/$/ $H^2(G,L^*)$
+$$
+\begin{array}{ccc}
+\mathrm{Br}(L/K) & \xrightarrow{\Phi_{L/K}} & H^2(G, L^*) \\
+\downarrow r_{K'/K} & & \downarrow \mathrm{Res}_H^G \\
+\mathrm{Br}(L/K') & \xrightarrow{\Phi_{L/K'}} & H^2(H, L^*)
+\end{array}
+$$
 
-$r_{K'/K}$ Res$^G_H$
-
-Br(L$/K'$)$^{\Phi_{L/K'}}/$/ $H^2(H,L^*)$
-
-est commutatif
+*est commutatif*
 
 Cela resulte de la prop. 7 de VIII, p. 295 et de la prop. 13 de VIII, p. 311.
 

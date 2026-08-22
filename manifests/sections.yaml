@@ -418,8 +418,8 @@ books:
               subsections: 8
               statements: 43
               exercises: 8
-              extraction: native
-              content_sha256: dba7f5d7d23471c6c7da147d8c4043b53381b71c9234c6b4851894a662774e1c
+              extraction: native+ocr
+              content_sha256: a0d3722e19f6e8d76a5199d17801f010b5d51c55605ae7f5c68991a91330a6a5
             - kind: section
               section: 5
               title: Commutation
@@ -444,8 +444,8 @@ books:
               subsections: 7
               statements: 41
               exercises: 8
-              extraction: native
-              content_sha256: 581628492e0f29739554405c17ff5c1e810c6f0e6a624af1ca847ee0773060fe
+              extraction: native+ocr
+              content_sha256: 4a0d490ac71ba13aa7d7e670ecb4d4b3c066e7a65d2da8fe78c3045c1efc39cc
             - kind: section
               section: 7
               title: Anneaux simples
@@ -509,8 +509,8 @@ books:
               subsections: 12
               statements: 38
               exercises: 14
-              extraction: native
-              content_sha256: a8bd33d215421a9a30aef31c1c2f59834481f618462b7e071e62b8ff6775f546
+              extraction: native+ocr
+              content_sha256: d133e481f9f054aabb145b8b7482a5f59023c5d714ecacb9dee3b33c28c75246
             - kind: section
               section: 12
               title: Produit tensoriel de modules semi-simples
@@ -535,8 +535,8 @@ books:
               subsections: 8
               statements: 33
               exercises: 12
-              extraction: native
-              content_sha256: 9ca7de17dc95eae4833c120fbd1a2011406fa34f5a94098703659dacd4fb63e1
+              extraction: native+ocr
+              content_sha256: 3371ea4fa47ef0e515869cde5b968176aadeaa7bf7a2b12eba398feeb2deef33
             - kind: section
               section: 14
               title: Algèbres centrales et simples
@@ -574,8 +574,8 @@ books:
               subsections: 11
               statements: 63
               exercises: 17
-              extraction: native
-              content_sha256: 0e920a118095efa108afaa1e00e7893e913da4dddf17c85d194b1c7caba769b7
+              extraction: native+ocr
+              content_sha256: 7bef07b603e275b98574558d7e36658d7613d393b13d03f70c23f454fdcd8bb2
             - kind: section
               section: 17
               title: Normes et traces réduites
@@ -626,8 +626,8 @@ books:
               subsections: 8
               statements: 31
               exercises: 6
-              extraction: native
-              content_sha256: 472c003f28e385c317cc1d246e7c20c944aa753a6ecd50322a9ee9f6ca42c2ba
+              extraction: native+ocr
+              content_sha256: 069a57168f07eea6470f375f1a3b14c29d0c949e2d3cdf174e1d96f8ff5a08d4
             - kind: section
               section: 21
               title: Représentations linéaires des groupes finis
@@ -639,8 +639,8 @@ books:
               subsections: 13
               statements: 36
               exercises: 30
-              extraction: native
-              content_sha256: ca97989bc24253c2d00b817201cce3f63e04b878fb72e5a69abd03011caf7a01
+              extraction: native+ocr
+              content_sha256: dff9089017b540b284918ab5dccce0352cc17f8f50ae03ba3aa2c01d003b7261
             - kind: appendix
               section: 1
               title: Algèbres sans élément unité
@@ -666,7 +666,7 @@ books:
               statements: 18
               exercises: 4
               extraction: native
-              content_sha256: 96083576946dee62466370cc661ade233895b968fe9665ced28eaecc1b072423
+              content_sha256: 2e9a17642eedfd29ffd4b6e49d97953835e0454690c1333dc79a5f482bd18e7f
             - kind: appendix
               section: 3
               title: Le théorème des zéros de Hilbert
