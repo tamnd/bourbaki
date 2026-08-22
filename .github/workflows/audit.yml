@@ -117,6 +117,19 @@ jobs:
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: go run ./cmd/bourbaki assemble -book evt-i-v -partial -check
+      - name: assemble -check, General Topology I to IV
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki assemble -book top-i-iv -check
+      # Algebre commutative chapitres 5 a 7 is the first French volume of
+      # commutative algebra in content/, and it is checked whole rather than
+      # partial because all three of its chapters read through.
+      - name: assemble -check, Algèbre commutative V to VII
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki assemble -book ac-v-vii-fr -lang fr -check
       - name: tags verify
         working-directory: .solver
         env:

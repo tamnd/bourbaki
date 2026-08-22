@@ -1,0 +1,37 @@
+{
+  "book": "ac-i-vii",
+  "grammar": "foot-number",
+  "pagination": "continuous",
+  "pdf_pages": 642,
+  "body_pages": 622,
+  "front_matter_pages": 20,
+  "counts": {
+    "foot": 1,
+    "interpolated": 621,
+    "none": 20
+  },
+  "printed_pct_of_body": 0.1607717041800643,
+  "chapters": null,
+  "steps": [],
+  "conflicts": [],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 20,
+      "pages": 20,
+      "confidence": "none"
+    },
+    {
+      "from": 21,
+      "to": 151,
+      "pages": 131,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 153,
+      "to": 642,
+      "pages": 490,
+      "confidence": "interpolated"
+    }
+  ]
+}

@@ -1929,6 +1929,179 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ac-v-vii-fr",
+      "chapters": [
+        {
+          "chapter": "V",
+          "title": "Entiers",
+          "total": 28,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ac-v-s1",
+              "dir": "s1",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "supplementary": 1
+            },
+            {
+              "section": 2,
+              "label": "ac-v-s2",
+              "dir": "s2",
+              "count": 10,
+              "first": 1,
+              "last": 10
+            },
+            {
+              "section": 3,
+              "label": "ac-v-s3",
+              "dir": "s3",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 1
+            }
+          ]
+        },
+        {
+          "chapter": "VI",
+          "title": "Valuations",
+          "total": 43,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ac-vi-s1",
+              "dir": "s1",
+              "count": 8,
+              "first": 1,
+              "last": 8
+            },
+            {
+              "section": 2,
+              "label": "ac-vi-s2",
+              "dir": "s2",
+              "count": 6,
+              "first": 1,
+              "last": 6
+            },
+            {
+              "section": 3,
+              "label": "ac-vi-s3",
+              "dir": "s3",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "starred": 2
+            },
+            {
+              "section": 4,
+              "label": "ac-vi-s4",
+              "dir": "s4",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 5,
+              "label": "ac-vi-s5",
+              "dir": "s5",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 6,
+              "label": "ac-vi-s6",
+              "dir": "s6",
+              "count": 2,
+              "first": 1,
+              "last": 2,
+              "starred": 1
+            },
+            {
+              "section": 7,
+              "label": "ac-vi-s7",
+              "dir": "s7",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 8,
+              "label": "ac-vi-s8",
+              "dir": "s8",
+              "count": 6,
+              "first": 1,
+              "last": 6
+            },
+            {
+              "section": 9,
+              "label": "ac-vi-s9",
+              "dir": "s9",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 1
+            },
+            {
+              "section": 10,
+              "label": "ac-vi-s10",
+              "dir": "s10",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            }
+          ]
+        },
+        {
+          "chapter": "VII",
+          "title": "Diviseurs",
+          "total": 107,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ac-vii-s1",
+              "dir": "s1",
+              "count": 32,
+              "first": 1,
+              "last": 32,
+              "starred": 9,
+              "supplementary": 1
+            },
+            {
+              "section": 2,
+              "label": "ac-vii-s2",
+              "dir": "s2",
+              "count": 22,
+              "first": 1,
+              "last": 22,
+              "starred": 8
+            },
+            {
+              "section": 3,
+              "label": "ac-vii-s3",
+              "dir": "s3",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 9
+            },
+            {
+              "section": 4,
+              "label": "ac-vii-s4",
+              "dir": "s4",
+              "count": 26,
+              "first": 1,
+              "last": 26,
+              "starred": 7,
+              "supplementary": 2
+            }
+          ]
+        }
+      ]
     }
   ]
 }
