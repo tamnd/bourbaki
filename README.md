@@ -105,62 +105,68 @@ Because the two printings sit side by side, the places they disagree get noticed
 <!-- BEGIN COVERAGE -->
 | Book | Chapter | Sections | Statements | Exercises | Tagged | Pages |
 | --- | --- | --- | --- | --- | --- | --- |
-| Algebra | I | 0 of 10 | 0 | 0 | 0 | 3 |
-| Algebra | II | 0 of 12 | 0 | 0 | 0 | 1 |
-| Algebra | III | 0 of 12 | 0 | 0 | 0 | 1 |
-| Algebra | IV | 0 of 6 | 0 | 0 | 0 | 0 |
-| Algebra | V | 0 of 17 | 0 | 0 | 0 | 0 |
-| Algebra | VI | 0 of 2 | 0 | 0 | 0 | 1 |
-| Algebra | VII | 0 of 5 | 0 | 0 | 0 | 1 |
-| Algebra | VIII | 25 of 25 | 710 | 317 | 1027 | 964 |
+| Commutative Algebra | V | 0 of 3 | 0 | 0 | 0 | 79 |
+| Commutative Algebra | VI | 0 of 10 | 0 | 0 | 0 | 111 |
+| Commutative Algebra | VII | 0 of 4 | 0 | 0 | 0 | 152 |
+| Algebra | I | 0 of 10 | 0 | 0 | 0 | 253 |
+| Algebra | II | 0 of 12 | 0 | 0 | 0 | 193 |
+| Algebra | III | 0 of 12 | 0 | 0 | 0 | 238 |
+| Algebra | IV | 6 of 6 | 147 | 53 | 0 | 194 |
+| Algebra | V | 17 of 17 | 388 | 156 | 0 | 359 |
+| Algebra | VI | 2 of 2 | 81 | 75 | 0 | 91 |
+| Algebra | VII | 5 of 5 | 136 | 64 | 0 | 161 |
+| Algebra | VIII | 25 of 25 | 697 | 317 | 1010 | 964 |
 | Theory of Sets | I | 6 of 6 | 16 | 35 | 51 | 50 |
 | Theory of Sets | II | 6 of 6 | 109 | 41 | 150 | 65 |
 | Theory of Sets | III | 7 of 7 | 222 | 120 | 342 | 127 |
-| Theory of Sets | IV | 3 of 3 | 28 | 15 | 43 | 147 |
-| Topological Vector Spaces | I | 0 of 3 | 0 | 0 | 0 | 0 |
-| Topological Vector Spaces | II | 0 of 8 | 0 | 0 | 0 | 0 |
-| Topological Vector Spaces | III | 0 of 6 | 0 | 0 | 0 | 0 |
-| Topological Vector Spaces | IV | 0 of 6 | 0 | 0 | 0 | 0 |
-| Topological Vector Spaces | V | 0 of 4 | 0 | 0 | 0 | 0 |
-| Functions of a Real Variable | I | 0 of 4 | 0 | 0 | 0 | 2 |
-| Functions of a Real Variable | II | 0 of 3 | 0 | 0 | 0 | 0 |
-| Functions of a Real Variable | III | 0 of 2 | 0 | 0 | 0 | 1 |
-| Functions of a Real Variable | IV | 0 of 2 | 0 | 0 | 0 | 1 |
-| Functions of a Real Variable | V | 0 of 5 | 0 | 0 | 0 | 1 |
-| Functions of a Real Variable | VI | 0 of 3 | 0 | 0 | 0 | 2 |
-| Functions of a Real Variable | VII | 0 of 2 | 0 | 0 | 0 | 2 |
-| Integration | I | 0 of 1 | 0 | 0 | 0 | 0 |
-| Integration | II | 0 of 2 | 0 | 0 | 0 | 0 |
-| Integration | III | 0 of 4 | 0 | 0 | 0 | 2 |
-| Integration | IV | 0 of 7 | 0 | 0 | 0 | 0 |
-| Integration | V | 0 of 8 | 0 | 0 | 0 | 0 |
+| Theory of Sets | IV | 3 of 3 | 23 | 15 | 38 | 147 |
+| Topological Vector Spaces | I | 3 of 3 | 58 | 35 | 0 | 39 |
+| Topological Vector Spaces | II | 8 of 8 | 176 | 162 | 0 | 192 |
+| Topological Vector Spaces | III | 6 of 6 | 108 | 75 | 0 | 101 |
+| Topological Vector Spaces | IV | 0 of 6 | 0 | 0 | 0 | 130 |
+| Topological Vector Spaces | V | 0 of 4 | 0 | 0 | 0 | 76 |
+| Functions of a Real Variable | I | 0 of 4 | 0 | 0 | 0 | 52 |
+| Functions of a Real Variable | II | 0 of 3 | 0 | 0 | 0 | 38 |
+| Functions of a Real Variable | III | 0 of 2 | 0 | 0 | 0 | 63 |
+| Functions of a Real Variable | IV | 0 of 2 | 0 | 0 | 0 | 42 |
+| Functions of a Real Variable | V | 0 of 5 | 0 | 0 | 0 | 54 |
+| Functions of a Real Variable | VI | 0 of 3 | 0 | 0 | 0 | 32 |
+| Functions of a Real Variable | VII | 0 of 2 | 0 | 0 | 0 | 38 |
+| Integration | I | 0 of 1 | 0 | 0 | 0 | 25 |
+| Integration | II | 2 of 2 | 24 | 21 | 0 | 35 |
+| Integration | III | 4 of 4 | 105 | 35 | 0 | 134 |
+| Integration | IV | 7 of 7 | 279 | 94 | 0 | 278 |
+| Integration | V | 0 of 8 | 0 | 0 | 0 | 154 |
 | Integration | VI | 0 of 4 | 0 | 0 | 0 | 0 |
-| Integration | VII | 0 of 5 | 0 | 0 | 0 | 0 |
-| Integration | VIII | 0 of 5 | 0 | 0 | 0 | 0 |
-| Integration | IX | 0 of 7 | 0 | 0 | 0 | 0 |
-| Lie Groups and Lie Algebras | IV | 0 of 3 | 0 | 0 | 0 | 1 |
-| Lie Groups and Lie Algebras | V | 0 of 7 | 0 | 0 | 0 | 3 |
-| Lie Groups and Lie Algebras | VI | 0 of 4 | 0 | 0 | 0 | 7 |
-| Lie Groups and Lie Algebras | VII | 7 of 7 | 139 | 66 | 205 | 66 |
+| Integration | VII | 5 of 5 | 112 | 48 | 0 | 126 |
+| Integration | VIII | 5 of 5 | 102 | 59 | 0 | 188 |
+| Integration | IX | 7 of 7 | 165 | 56 | 0 | 134 |
+| Lie Groups and Lie Algebras | I | 7 of 7 | 166 | 125 | 0 | 249 |
+| Lie Groups and Lie Algebras | II | 9 of 9 | 121 | 66 | 0 | 185 |
+| Lie Groups and Lie Algebras | III | 0 of 11 | 0 | 0 | 0 | 245 |
+| Lie Groups and Lie Algebras | IV | 0 of 3 | 0 | 0 | 0 | 48 |
+| Lie Groups and Lie Algebras | V | 0 of 7 | 0 | 0 | 0 | 87 |
+| Lie Groups and Lie Algebras | VI | 0 of 4 | 0 | 0 | 0 | 105 |
+| Lie Groups and Lie Algebras | VII | 7 of 7 | 139 | 66 | 205 | 126 |
 | Lie Groups and Lie Algebras | VIII | 13 of 13 | 299 | 172 | 471 | 211 |
-| Lie Groups and Lie Algebras | IX | 11 of 11 | 244 | 112 | 356 | 152 |
+| Lie Groups and Lie Algebras | IX | 11 of 11 | 244 | 112 | 356 | 282 |
 | Topologie algébrique | I | 0 of 6 | 0 | 0 | 0 | 150 |
 | Topologie algébrique | II | 0 of 5 | 0 | 0 | 0 | 78 |
 | Topologie algébrique | III | 0 of 5 | 0 | 0 | 0 | 110 |
 | Topologie algébrique | IV | 0 of 6 | 0 | 0 | 0 | 158 |
-| General Topology | I | 0 of 11 | 0 | 0 | 0 | 0 |
-| General Topology | II | 0 of 4 | 0 | 0 | 0 | 0 |
-| General Topology | III | 0 of 7 | 0 | 0 | 0 | 0 |
-| General Topology | IV | 0 of 8 | 0 | 0 | 0 | 0 |
+| General Topology | I | 11 of 11 | 302 | 82 | 0 | 268 |
+| General Topology | II | 4 of 4 | 110 | 21 | 0 | 93 |
+| General Topology | III | 7 of 7 | 164 | 42 | 0 | 198 |
+| General Topology | IV | 8 of 8 | 106 | 42 | 0 | 190 |
 | Théories spectrales | I | 0 of 8 | 0 | 0 | 0 | 197 |
 | Théories spectrales | II | 0 of 3 | 0 | 0 | 0 | 136 |
 | Théories spectrales | III | 0 of 6 | 0 | 0 | 0 | 143 |
 | Théories spectrales | IV | 0 of 5 | 0 | 0 | 0 | 228 |
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 
-78 of 325 sections are in the corpus, 24 per cent. 1767 statements and 878 exercises, 2645 of them carrying a permanent tag.
+201 of 369 sections are in the corpus, 54 per cent. 4599 statements and 2189 exercises, 2623 of them carrying a permanent tag.
 
-The table is one row per chapter of the volumes that have a table of contents. 28 further volumes and 8211 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
+The table is one row per chapter of the volumes that have a table of contents. 26 further volumes and 7384 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
 <!-- END COVERAGE -->
 
 ## Building it
