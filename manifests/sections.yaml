@@ -3880,3 +3880,43 @@ books:
               exercises: 2
               extraction: ocr
               content_sha256: d802f3bf7d9f7f09e088205f36806c5e4782b38de7866dc8943e4c4407e3ee59
+    - id: alg-iv-vii
+      chapters:
+        - chapter: VI
+          title: ORDERED GROUPS AND FIELDS
+          sections:
+            - kind: front
+              title: ORDERED GROUPS AND FIELDS
+              path: content/en/alg/VI/00_frontmatter.md
+              first_pdf_page: 312
+              last_pdf_page: 312
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: e18b813374d7e841a0a5043544b1c8d3de9e0d28308955c4a396dfa1b2df5259
+            - kind: section
+              section: 1
+              title: Ordered groups. Divisibility
+              path: content/en/alg/VI/01_s1_ordered_groups_divisibility.md
+              label: alg-vi-s1
+              first_pdf_page: 312
+              last_pdf_page: 348
+              subsections: 13
+              statements: 50
+              exercises: 19
+              extraction: ocr
+              content_sha256: 79b6231d70cc40c5ef2514e972d4a80b29e333d1add93c9efbbef113814bc4f8
+            - kind: section
+              section: 2
+              title: Ordered fields
+              path: content/en/alg/VI/02_s2_ordered_fields.md
+              label: alg-vi-s2
+              first_pdf_page: 330
+              last_pdf_page: 358
+              book_pages: A VI.37-A VI.47
+              subsections: 7
+              statements: 31
+              exercises: 5
+              extraction: ocr
+              content_sha256: ae0e8868b0517f7e33dfc87d54d3d4fadd53b812f912cb84df83d7aba498ca86
