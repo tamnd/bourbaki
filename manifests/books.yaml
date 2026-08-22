@@ -239,6 +239,8 @@ books:
       text_layer: none
       page_width_pt: 612
       page_height_pt: 792
+      grammar: head-label
+      pagination: per-chapter
     - id: top-i-iv
       book: top
       lang: en
@@ -297,6 +299,8 @@ books:
       text_layer: none
       page_width_pt: 416.4
       page_height_pt: 648.36
+      grammar: foot-number
+      pagination: continuous
     - id: top-i-iv-fr
       book: top
       lang: fr
@@ -705,6 +709,8 @@ books:
       text_layer: none
       page_width_pt: 363
       page_height_pt: 563
+      grammar: foot-number
+      pagination: continuous
     - id: ac-i-iv-fr
       book: ac
       lang: fr
@@ -813,6 +819,8 @@ books:
       text_layer: ocr
       page_width_pt: 439.37
       page_height_pt: 666.142
+      grammar: head-label
+      pagination: per-chapter
     - id: var-fr
       book: var
       lang: fr
