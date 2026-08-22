@@ -18,9 +18,9 @@ subsections:
       title: SEMI-CONTINUOUS FUNCTIONS
       page: 0
       pdf_page: 366
-statements: 12
+statements: 15
 exercises: 6
-content_sha256: 439a2964f38f814abda582bf5eb86f804846ba75587b7877a5ead6e4df08c063
+content_sha256: 2d73c4454ab304cb00c9ee269dc0713aebdab5f45aa6bec1c7a8237ee8a3376e
 ---
 
 ## 6. CONTINUOUS AND SEMI-CONTINUOUS REAL-VALUED FUNCTIONS
@@ -29,13 +29,19 @@ content_sha256: 439a2964f38f814abda582bf5eb86f804846ba75587b7877a5ead6e4df08c063
 
 Besides the general properties of continuous functions with values in an arbitrary topological space (Chapter I, § 2), continuous real-valued functions have the following two fundamental properties:
 
-Theorem 1 (Weierstrass). Let $ f $ be a continuous real-valued function defined on a non-empty quasi-compact space $ X $. Then there is at least one point $ a \in X $ such that $ f(a) = \sup_{x \in X} (f(x)) $, and at least one point $ b \in X $ such that $ f(b) = \inf_{x \in X} f(x) $. For $ f(X) $ is compact (Chapter I, § 9, no. 4, Theorem 2) and therefore closed in $ \overline{\mathbf{R}} $; hence $ f(X) $ contains its bounds.
+#### Theorem 1 (Weierstrass) {#top-iv-s6-thm-1 .statement}
+
+Let $ f $ be a continuous real-valued function defined on a non-empty quasi-compact space $ X $. Then there is at least one point $ a \in X $ such that $ f(a) = \sup_{x \in X} (f(x)) $, and at least one point $ b \in X $ such that $ f(b) = \inf_{x \in X} f(x) $. For $ f(X) $ is compact (Chapter I, § 9, no. 4, Theorem 2) and therefore closed in $ \overline{\mathbf{R}} $; hence $ f(X) $ contains its bounds.
 
 This theorem is often stated in the form that a continuous real-valued function on a non-empty quasi-compact space attains its bounds.
 
-Corollary. If a real-valued function defined on a non-empty quasi-compact space $ X $ is continuous and finite on $ X $, then it is bounded in $ X $.
+#### Corollary {#top-iv-s6-n1-cor-1 .statement}
 
-Theorem 2 (Bolzano). Let $ f $ be a continuous real-valued function defined on a connected space $ X $. If $ a $ and $ b $ are any two points of $ X $, and if $ \alpha $ is a real number belonging to the closed interval whose end-points are $ f(a) $ and $ f(b) $, then there is at least one point $ x \in X $ such that $ f(x) = \alpha $.
+If a real-valued function defined on a non-empty quasi-compact space $ X $ is continuous and finite on $ X $, then it is bounded in $ X $.
+
+#### Theorem 2 (Bolzano) {#top-iv-s6-thm-2 .statement}
+
+Let $ f $ be a continuous real-valued function defined on a connected space $ X $. If $ a $ and $ b $ are any two points of $ X $, and if $ \alpha $ is a real number belonging to the closed interval whose end-points are $ f(a) $ and $ f(b) $, then there is at least one point $ x \in X $ such that $ f(x) = \alpha $.
 
 For $ f(X) $ is connected (Chapter I, § 11, no. 2, Proposition 4) and is therefore an interval of $ \overline{\mathbf{R}} $ (§ 4, no. 2, Proposition 5); hence it contains the closed interval with end-points $ f(a) $ and $ f(b) $.
 

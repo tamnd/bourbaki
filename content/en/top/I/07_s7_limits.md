@@ -34,16 +34,18 @@ subsections:
       title: LIMITS IN PRODUCT SPACES AND QUOTIENT SPACES
       page: 0
       pdf_page: 80
-statements: 22
+statements: 23
 exercises: 7
-content_sha256: 9689a05caa3130f5d0bc74c903574c7dd7d84da94ac182be4da0041638268549
+content_sha256: 314060d15b48a8dfbe40c8619729e0e5b570ecf1a0a1efbdf2de1bbb9664a829
 ---
 
 ## 7. LIMITS
 
 ### 1. LIMIT OF A FILTER
 
-Definition 1. Let $ X $ be a topological space and $ \mathfrak{F} $ a filter on $ X $. A point $ x \in X $ is said to be a limit point (or simply a limit) of $ \mathfrak{F} $, if $ \mathfrak{F} $ is finer than the neighbourhood filter $ \mathcal{B}(x) $ of $ x $; $ \mathfrak{F} $ is also said to converge (or to be convergent) to $ x $. *The point* $ x $ *is said to be a limit of a filter base* $ \mathcal{B} $ *on* $ X $, *and* $ \mathcal{B} $ *is said to converge to* $ x $, *if the filter whose base is* $ \mathcal{B} $ *converges to* $ x $.
+#### Definition 1 {#top-i-s7-def-1 .statement}
+
+Let $ X $ be a topological space and $ \mathfrak{F} $ a filter on $ X $. A point $ x \in X $ is said to be a limit point (or simply a limit) of $ \mathfrak{F} $, if $ \mathfrak{F} $ is finer than the neighbourhood filter $ \mathcal{B}(x) $ of $ x $; $ \mathfrak{F} $ is also said to converge (or to be convergent) to $ x $. *The point* $ x $ *is said to be a limit of a filter base* $ \mathcal{B} $ *on* $ X $, *and* $ \mathcal{B} $ *is said to converge to* $ x $, *if the filter whose base is* $ \mathcal{B} $ *converges to* $ x $.
 
 This definition, together with Proposition 4 of § 6, no. 3, gives the following criterion:
 

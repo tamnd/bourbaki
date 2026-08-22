@@ -46,9 +46,9 @@ subsections:
       title: COMPLETION OF SUBSPACES AND PRODUCT SPACES
       page: 0
       pdf_page: 203
-statements: 37
+statements: 48
 exercises: 3
-content_sha256: 75bcefd8313784dddee9c3b6ab6545eebfe522fe3308d6ea1b679414d70d6847
+content_sha256: daf59b5609a6489a672918c9bebb24140f45498174c58e5b51131f4c3c2181dd
 ---
 
 ## 3. COMPLETE SPACES
@@ -57,9 +57,13 @@ content_sha256: 75bcefd8313784dddee9c3b6ab6545eebfe522fe3308d6ea1b679414d70d6847
 
 Once a set $X$ has been endowed with a uniform structure we can define what is meant by a "small" subset of $X$ (relative to this structure): a "small" subset of $X$ is one in which all the points are "very close" to each other. Precisely:
 
-Definition 1. If $X$ is a uniform space and if $V$ is an entourage of $X$, a subset $A$ of $X$ is said to be $V$-small if every pair of points of $A$ are $V$-close (in other words, if $A \times A \subset V$).
+#### Definition 1 {#top-ii-s3-def-1 .statement}
 
-Proposition 1. In a uniform space $X$, if two sets $A$ and $B$ are $V$-small and intersect, then their union $A \cup B$ is $\vec{V}$-small.
+If $X$ is a uniform space and if $V$ is an entourage of $X$, a subset $A$ of $X$ is said to be $V$-small if every pair of points of $A$ are $V$-close (in other words, if $A \times A \subset V$).
+
+#### Proposition 1 {#top-ii-s3-prop-1 .statement}
+
+In a uniform space $X$, if two sets $A$ and $B$ are $V$-small and intersect, then their union $A \cup B$ is $\vec{V}$-small.
 
 Let $ x $ and $ y $ be any two points of $ A \cup B $, and let $ Z \in A \cap B $. Then $ (x, z) \in V $ and $ (z, y) \in V $, so that $ (x, y) \in \overline{V} $.
 
@@ -197,7 +201,9 @@ A uniformity which is *finer* than the uniformity of a complete space need not b
 
 The conditions are clearly necessary, because $ \mathcal{T}_2 $ is coarser than $ \mathcal{T}_1 $. Conversely, suppose that the conditions are satisfied, and let $ x $ be a limit point of $ \mathcal{F} $ with respect to $ \mathcal{T}_2 $; we shall show that $ x $ is a limit of $ \mathcal{F} $ with respect to $ \mathcal{T}_1 $. Let $ V $ be a symmetric entourage of $ \mathcal{U}_1 $ which is closed in the topology $ \mathcal{T}_2 \times \mathcal{T}_2 $. By hypothesis, $ \mathcal{F} $ contains a set $ M $ which is V-small; hence if $ x' \in M $ we have $ M \subset V(x') $. But $ V(x') $ is closed in the topology $ \mathcal{T}_2 $; hence $ x $, which lies in the closure of $ M $ with respect to $ \mathcal{T}_2 $, must belong to $ V(x') $. It follows that $ M \subset \hat{V}(x) $, and the proposition is proved.
 
-Corollary. In the conditions of Proposition 7, if $ U_2 $ is a uniformity of a complete space, then so is $ U_1 $.
+#### Corollary {#top-ii-s3-n3-cor-1 .statement}
+
+In the conditions of Proposition 7, if $ U_2 $ is a uniformity of a complete space, then so is $ U_1 $.
 
 For every Cauchy filter with respect to $ U_1 $ is then a Cauchy filter with respect to $ U_2 $ and therefore converges in the topology $ \mathcal{T}_2 $.
 
@@ -205,19 +211,25 @@ Note that the hypotheses of the Corollary to Proposition 7 are satisfied when $ 
 
 ### 4. SUBSPACES OF COMPLETE SPACES
 
-Proposition 8. Every closed subspace of a complete space is complete. Every complete subspace of a Hausdorff uniform space (complete or not) is closed.
+#### Proposition 8 {#top-ii-s3-prop-8 .statement}
+
+Every closed subspace of a complete space is complete. Every complete subspace of a Hausdorff uniform space (complete or not) is closed.
 
 Let $ X $ be a complete space and let $ A $ be a closed subspace of $ X $. If $ \mathfrak{F} $ is a Cauchy filter on $ A $, then it is a Cauchy filter base on $ X $ (no. 1, Proposition 3) and therefore converges to a point $ x \in X $; but since $ A $ is closed we have $ x \in A $, and therefore $ \mathfrak{F} $ converges in the subspace $ A $.
 
 Now let $ \overline{A} $ be a non-closed subset of a Hausdorff uniform space $ X $, and let $ b \in \overline{A} - A $. The trace $ \mathfrak{B}_A $ on $ A $ of the neighbourhood filter $ \mathfrak{B} $ of $ b $ in $ X $ is a Cauchy filter on $ A $; but it cannot converge to a point $ c \in A $, otherwise $ c $ would be a limit point of $ \mathfrak{B} $ (no. 2, Proposition 5, Corollary 3) which is absurd since $ b \neq c $ and $ X $ is Hausdorff.
 
-Proposition 9. Let $ X $ be a uniform space and let $ A $ be a dense subset of $ X $ such that every Cauchy filter base on $ A $ converges in $ X $. Then $ X $ is complete.
+#### Proposition 9 {#top-ii-s3-prop-9 .statement}
+
+Let $ X $ be a uniform space and let $ A $ be a dense subset of $ X $ such that every Cauchy filter base on $ A $ converges in $ X $. Then $ X $ is complete.
 
 It is enough to show that every minimal Cauchy filter $ \mathfrak{F} $ on $ X $ is convergent. Since $ A $ is dense and since every set of $ \mathfrak{F} $ has a non-empty interior (no. 2, Corollary 4 to Proposition 5), the trace $ \mathfrak{F}_A $ of $ \mathfrak{F} $ on $ A $ is a Cauchy filter on $ A $, hence converges to a point $ x_0 \in X $. Since $ \mathfrak{F} $ is coarser than the filter on $ X $ generated by $ \mathfrak{F}_A $, it follows that $ \mathfrak{F} $ converges to $ x_0 $ (no. 2, Corollary 3 to Proposition 5).
 
 ### 5. PRODUCTS AND INVERSE LIMITS OF COMPLETE SPACES
 
-Proposition 10. Every product of complete uniform spaces is complete. Conversely, if a product of non-empty uniform spaces is complete, then each of the factors is a complete uniform space.
+#### Proposition 10 {#top-ii-s3-prop-10 .statement}
+
+Every product of complete uniform spaces is complete. Conversely, if a product of non-empty uniform spaces is complete, then each of the factors is a complete uniform space.
 
 The first assertion is a consequence of the characterization of Cauchy filters and convergent filters on a product space (no. 1, Corollary 2 to Proposition 4 and Chapter I, § 7, no. 6, Corollary 1 to Proposition 10). Conversely, suppose
 
@@ -350,7 +362,9 @@ The existence of $ \overline{f} $ is an immediate consequence of Propositions 3 
 
 Q.E.D.
 
-Corollary. *Let $ X_1, X_2 $ be two complete Hausdorff uniform spaces, and let $ Y_1, Y_2 $ be dense subspaces of $ X_1, X_2 $ respectively. Then every isomorphism $ f $ of $ Y_1 $ onto $ Y_2 $ extends to an isomorphism of $ X_1 $ onto $ X_2 $.*
+#### Corollary {#top-ii-s3-n6-cor-1 .statement}
+
+*Let $ X_1, X_2 $ be two complete Hausdorff uniform spaces, and let $ Y_1, Y_2 $ be dense subspaces of $ X_1, X_2 $ respectively. Then every isomorphism $ f $ of $ Y_1 $ onto $ Y_2 $ extends to an isomorphism of $ X_1 $ onto $ X_2 $.*
 
 $ f $ is uniformly continuous in $ Y_1 $, hence (Theorem 2) extends to a uniformly continuous mapping $ \bar{f} : X_1 \to X_2 $. Likewise the inverse $ g $ of $ f $ extends to a uniformly continuous mapping $ \bar{g} : X_2 \to X_1 $. The function $ \bar{g} \circ \bar{f} $ is therefore a continuous mapping of $ X_1 $ into itself whose restriction to $ Y_1 $ is the identity mapping; by the principle of extension of identities (Chapter I, $ \S $ 8, no. 1, Corollary 1 to Proposition 2) $ \bar{g} \circ \bar{f} $ is therefore the identity mapping of $ X_1 $; similarly $ \bar{f} \circ \bar{g} $ is the identity map of $ X_2 $. Consequently (*Set Theory*, R, $ \S $ 2, no. 12) $ \bar{f}^{-1} $ and $ \bar{g} $ are bijections and are inverses of each other; they are also uniformly continuous and are therefore isomorphisms ($ \S $ 2, no. 1, Proposition 2).
 
@@ -358,7 +372,9 @@ It should be remarked that if $ f $ is a *bijective* uniformly continuous mappin
 
 ### 7. THE COMPLETION OF A UNIFORM SPACE
 
-Theorem 3. *Let $ X $ be a uniform space. Then there exists a complete Hausdorff uniform space $ \hat{X} $ and a uniformly continuous mapping $ i : X \to \hat{X} $ having the following property:*
+#### Theorem 3 {#top-ii-s3-thm-3 .statement}
+
+*Let $ X $ be a uniform space. Then there exists a complete Hausdorff uniform space $ \hat{X} $ and a uniformly continuous mapping $ i : X \to \hat{X} $ having the following property:*
 
 (P) *Given any uniformly continuous mapping $ f $ of $ X $ into a complete Hausdorff uniform space $ Y $, there is a unique uniformly continuous mapping $ g : \hat{X} \to Y $ such that $ f = g \circ i $.*
 
@@ -407,11 +423,15 @@ Let $ g $ be the extension of $ g_0 $ by continuity to $ \hat{X} $ (no. 6, Theor
 
 Q.E.D.
 
-Definition 4. *The complete Hausdorff uniform space* $ \hat{X} $ *defined in the proof of Theorem 3 is called the Hausdorff completion of* $ X $, *and the mapping* $ i : X \to \hat{X} $ *is called the canonical mapping of* $ X $ *into its Hausdorff completion.*
+#### Definition 4 {#top-ii-s3-def-4 .statement}
+
+*The complete Hausdorff uniform space* $ \hat{X} $ *defined in the proof of Theorem 3 is called the Hausdorff completion of* $ X $, *and the mapping* $ i : X \to \hat{X} $ *is called the canonical mapping of* $ X $ *into its Hausdorff completion.*
 
 We note also the following facts:
 
-Proposition 12. (i) *The subspace* $ i(X) $ *is dense in* $ \hat{X} $.
+#### Proposition 12 {#top-ii-s3-prop-12 .statement}
+
+(i) *The subspace* $ i(X) $ *is dense in* $ \hat{X} $.
 (ii) *The graph of the equivalence relation* $ i(x) = i(x') $ *is the intersection of the entourages of* $ X $.
 (iii) *The uniform structure of* $ X $ *is the inverse image under* $ i $ *of that of* $ \hat{X} $ *[or of that of the subspace* $ i(X) $].
 (iv) *The entourages of* $ i(X) $ *are the images under* $ i \times i $ *of the entourages of* $ X $, *and the closures in* $ \hat{X} \times \hat{X} $ *of the entourages of* $ i(X) $ *form a fundamental system of entourages of* $ \hat{X} $.
@@ -422,7 +442,9 @@ i(x) = i(x')
 $$
 means by definition that $ x $ and $ x' $ have the same neighbourhood filter. But this implies, by definition, that $ (x, x') \in V $ for every entourage $ V $ of $ X $, and the converse is obvious.
 
-Corollary. *If* $ X $ *is a Hausdorff uniform space, then the canonical mapping* $ i : X \to \hat{X} $ *is an isomorphism of* $ X $ *onto a dense subspace of* $ \hat{X} $.
+#### Corollary {#top-ii-s3-n7-cor-1 .statement}
+
+*If* $ X $ *is a Hausdorff uniform space, then the canonical mapping* $ i : X \to \hat{X} $ *is an isomorphism of* $ X $ *onto a dense subspace of* $ \hat{X} $.
 
 When $ X $ is Hausdorff, $ \hat{X} $ is said to be the *completion* of $ X $, and we generally *identify* $ X $ with a dense subset of $ \hat{X} $ by means of $ i $.
 
@@ -460,7 +482,7 @@ is commutative (*), where $ i : X \to \hat{X} $ and $ i' : X' \to \hat{X}' $ are
 
 Apply Theorem 3 to the function $ i' \circ f : X \to \hat{X}' $.
 
-#### Corollary {#top-ii-s3-n7-cor-1 .statement}
+#### Corollary {#top-ii-s3-n7-cor-2 .statement}
 
 *If $ f : X \to X' $ and $ g : X' \to X'' $ are two uniformly continuous mappings and $ h = g \circ f $, then $ \hat{h} = \hat{g} \circ \hat{f} $.*
 

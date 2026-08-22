@@ -34,9 +34,9 @@ subsections:
       title: INFINITE SERIES AND INFINITE PRODUCTS OF REAL NUMBERS
       page: 0
       pdf_page: 376
-statements: 17
+statements: 20
 exercises: 11
-content_sha256: e958c056f0e9d3fd661423e20ee08e6f4fa09d3ff836af7cbb45199211b7979c
+content_sha256: 2663d8c219d754cff4afb607087a87f701e934fe8051cc66b900cf47a8e1cea4
 ---
 
 ## 7. INFINITE SUMS AND PRODUCTS OF REAL NUMBERS
@@ -45,7 +45,9 @@ Since every point of $ \mathbf{R} $ has a *countable* fundamental system of neig
 
 ### 1. FAMILIES OF POSITIVE FINITE NUMBERS SUMMABLE IN $ \mathbf{R} $
 
-Theorem 1. *A family* $ (x_i) $ *of finite real numbers* $ \geqslant 0 $ *is summable in* $ \mathbf{R} $ *if and only if the set of partial finite sums of the family is bounded above in* $ \mathbf{R} $. *If so, the least upper bound of this set is the sum of the family* $ (x_i) $.
+#### Theorem 1 {#top-iv-s7-thm-1 .statement}
+
+*A family* $ (x_i) $ *of finite real numbers* $ \geqslant 0 $ *is summable in* $ \mathbf{R} $ *if and only if the set of partial finite sums of the family is bounded above in* $ \mathbf{R} $. *If so, the least upper bound of this set is the sum of the family* $ (x_i) $.
 
 For each finite subset $ H $ of the index set $ I $, let $ s_H = \sum_{i \in H} x_i $; since the $ x_i $ are $ \geqslant 0 $, the relation $ H \subset H' $ implies $ s_H \leqslant s_{H'} $. In other words, the mapping $ H \to s_H $ is an *increasing* function on the directed set $ \mathfrak{F}(I) $ of finite subsets of $ I $; therefore (\$ 5, no. 2, Corollary to Theorem 2) it has a finite limit if and only if it is *bounded above*.
 
@@ -124,7 +126,9 @@ $$
 $$
 and hence the family $ \left( \frac{1}{a^m + b^n} \right) $ is summable in $ \mathbf{R} $.
 
-Corollary. *Let* $ (x_i)_{i \in I} $ *be a summable family of finite numbers* $ \geq 0 $ *in* $ \mathbf{R} $. *If* $ H $ *is any subset of* $ I $, *we have*
+#### Corollary {#top-iv-s7-n1-cor-1 .statement}
+
+*Let* $ (x_i)_{i \in I} $ *be a summable family of finite numbers* $ \geq 0 $ *in* $ \mathbf{R} $. *If* $ H $ *is any subset of* $ I $, *we have*
 $$
 \sum_{i \in H} x_i \leq \sum_{i \in I} x_i,
 $$
@@ -132,7 +136,9 @@ $$
 
 ### 2. FAMILIES OF FINITE NUMBERS OF ARBITRARY SIGN SUMMABLE IN $ \mathbf{R} $
 
-Theorem 3. *Let* $ (x_i)_{i \in I} $ *be a family of finite real numbers; then the following statements are equivalent*:
+#### Theorem 3 {#top-iv-s7-thm-3 .statement}
+
+*Let* $ (x_i)_{i \in I} $ *be a family of finite real numbers; then the following statements are equivalent*:
 
 a) *The family* $ (x_i) $ *is summable in* $ \mathbf{R} $.
 b) *The family* $ (|x_i|) $ *is summable in* $ \mathbf{R} $.

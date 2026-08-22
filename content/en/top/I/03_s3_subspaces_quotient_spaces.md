@@ -34,9 +34,9 @@ subsections:
       title: QUOTIENT SPACE OF A SUBSPACE
       page: 0
       pdf_page: 48
-statements: 19
+statements: 24
 exercises: 16
-content_sha256: afe41b90d57c698bf6d3e281277520edd96fe1760f97917a467f143739072d0f
+content_sha256: 2a3d70f53ec163be9e91c23ac7101d34bc71f35b0c638099e7ad4a01ca894dc9
 ---
 
 ## 3. SUBSPACES; QUOTIENT SPACES
@@ -135,19 +135,25 @@ c) $ L $ is open in its closure $ \overline{L} $ in $ X $.
 
 If $ L $ is locally closed, then, for each $ x \in L $, there is an open neighbourhood $ V_x $ of $ x $ in $ X $ such that $ L \cap V_x $ is closed in $ V_x $; $ U = \bigcup_{x \in L} V_x $ is open in $ X $, and Proposition 3 of no. 1 shows that $ L $ is closed in $ U $; therefore a) implies b). If $ L = U \cap F $, where $ U $ is open and $ F $ closed in $ X $, we have $ L \subset F $; hence $ L \subset U \cap L \subset U \cap F = L $, which shows that $ L = U \cap L $ is open in $ L $, so that b) implies c). Finally, if $ L = U \cap L $, where $ U $ is open in $ X $, $ L $ is closed in $ U $, hence locally closed, and thus c) implies a).
 
-Corollary. *Let $ f : X \to X' $ be a continuous map and $ L' $ a locally closed subset of $ X' $; then $ f^{-1}(L') $ is locally closed in $ X $*.
+#### Corollary {#top-i-s3-n3-cor-1 .statement}
+
+*Let $ f : X \to X' $ be a continuous map and $ L' $ a locally closed subset of $ X' $; then $ f^{-1}(L') $ is locally closed in $ X $*.
 
 This follows immediately from Proposition 5 above and Theorem 1 of § 2, no. 1.
 
 ### 4. QUOTIENT SPACES
 
-Definition 3. *Let $ X $ be a topological space, $ R $ an equivalence relation on $ X $. The quotient space of $ X $ by $ R $ is the quotient set $ X/R $ with the topology which is the quotient of the topology of $ X $ by the relation $ R $ (\S 2, no. 4, Example 1)*.
+#### Definition 3 {#top-i-s3-def-3 .statement}
+
+*Let $ X $ be a topological space, $ R $ an equivalence relation on $ X $. The quotient space of $ X $ by $ R $ is the quotient set $ X/R $ with the topology which is the quotient of the topology of $ X $ by the relation $ R $ (\S 2, no. 4, Example 1)*.
 
 Unless the contrary is expressly stated, whenever we speak of $ X/R $ as a topological space, it is to be understood that we mean the quotient space of $ X $ by $ R $. We shall often say that this topological space is the space obtained by identifying the points of $ X $ which belong to the same equivalence class mod $ R $.
 
 Let $ \varphi $ be the canonical mapping $ X \to X/R $. By definition (\S 2, no. 4, Proposition 6 and its corollary) the open (resp. closed) sets in $ X/R $ are the sets $ A $ such that $ \varphi^{-1}(A) $ is open (resp. closed) in $ X $; in other words, the open (resp. closed) sets in $ X/R $ are in one-to-one correspondence with the open (resp. closed) subsets of $ X $ which are saturated with respect to $ R $ and are the canonical images of these subsets.
 
-Proposition 6. *Let $ X $ be a topological space, $ R $ an equivalence relation on $ X $, $ \varphi $ the canonical mapping of $ X $ onto $ X/R $; then a mapping $ f $ of $ X/R $ into a topological space $ Y $ is continuous if and only if $ f \circ \varphi $ is continuous on $ X $*.
+#### Proposition 6 {#top-i-s3-prop-6 .statement}
+
+*Let $ X $ be a topological space, $ R $ an equivalence relation on $ X $, $ \varphi $ the canonical mapping of $ X $ onto $ X/R $; then a mapping $ f $ of $ X/R $ into a topological space $ Y $ is continuous if and only if $ f \circ \varphi $ is continuous on $ X $*.
 
 This is a particular case of \S 2, no. 4, Proposition 6; it expresses the fact that the quotient topology is the final topology for the mapping $ \varphi $.
 
@@ -245,11 +251,15 @@ The first part of the proposition is immediate (no. 5). The second part follows 
 
 of X, which is saturated with respect to R; and conversely, if B is the intersection with A of an open (resp. closed) subset D which is saturated with respect to R, then $ f(B) $ is the intersection of $ f(A) $ and $ f(D) $, which is open (resp. closed) in $ X/R $.
 
-Corollary 1. *If A is an open (resp. closed) subset of X which is saturated with respect to R, then the canonical mapping $ h : A/R_A \to f(A) $ is a homeomorphism.*
+#### Corollary 1 {#top-i-s3-prop-10-cor-1 .statement}
+
+*If A is an open (resp. closed) subset of X which is saturated with respect to R, then the canonical mapping $ h : A/R_A \to f(A) $ is a homeomorphism.*
 
 For if A is open (resp. closed) in X and saturated with respect to R, and if $ B \subset A $ is open (resp. closed) in A and saturated with respect to $ R_A $, then B is open (resp. closed) in X and saturated with respect to R.
 
-Corollary 2. *If there is a continuous mapping $ u : X \to A $ such that $ u(x) $ is congruent to $ x $ mod R for each $ x \in X $, then $ f(A) = X/R $ and the canonical mapping $ h : A/R_A \to X/R $ is a homeomorphism.*
+#### Corollary 2 {#top-i-s3-prop-10-cor-2 .statement}
+
+*If there is a continuous mapping $ u : X \to A $ such that $ u(x) $ is congruent to $ x $ mod R for each $ x \in X $, then $ f(A) = X/R $ and the canonical mapping $ h : A/R_A \to X/R $ is a homeomorphism.*
 
 Since each equivalence class mod R meets A, the canonical image of $ A/R_A $ in $ X/R $ is the whole of $ X/R $; on the other hand, if U is open in A and is saturated with respect to $ R_A $, it follows from the hypothesis that $ \bar{u}^1(U) $ is the set obtained by saturating U with respect to R; since $ u $ is continuous, $ \bar{u}^1(U) $ is open in X (\S 2, no. 1, Theorem 1). The corollary follows from this fact by virtue of Proposition 10.
 

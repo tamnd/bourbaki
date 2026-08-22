@@ -26,16 +26,18 @@ subsections:
       title: INVERSE LIMITS OF TOPOLOGICAL SPACES
       page: 0
       pdf_page: 54
-statements: 20
+statements: 21
 exercises: 3
-content_sha256: 5a9824061e2ea4fa0827ee0325fdb55d1137322e749811d7d10d0957cc215eeb
+content_sha256: c92011a27ae84f64199bc5c751e4506bd05a79dad58b11cbcf6ac857846cfa96
 ---
 
 ## 4. PRODUCT OF TOPOLOGICAL SPACES
 
 ### 1. PRODUCT SPACES
 
-Definition 1. *Given a family $ (X_i)_{i \in I} $ of topological spaces, the product space of this family is the product set $ X = \prod_{i \in I} X_i $ with the topology which is the product of the topologies of the $ X_i $ (\S 2, no. 3, Example 3). The spaces $ X_i (i \in I) $ are called the factors of X.*
+#### Definition 1 {#top-i-s4-def-1 .statement}
+
+*Given a family $ (X_i)_{i \in I} $ of topological spaces, the product space of this family is the product set $ X = \prod_{i \in I} X_i $ with the topology which is the product of the topologies of the $ X_i $ (\S 2, no. 3, Example 3). The spaces $ X_i (i \in I) $ are called the factors of X.*
 
 By virtue of § 2, no. 3, Proposition 4, the product topology on $ X $ has as a base the set $ \mathcal{B} $ of finite intersections of sets of the form $ \overline{\mathrm{pr}}_i^{-1}(U_i) $, where $ U_i $ is open in $ X_i $; these sets are products $ \prod_{i \in I} A_i $, where $ A_i $ is open in $ X_i $ for each $ i \in I $ and $ A_i = X_i $ for all but a finite number of indices. These sets will be called elementary sets.
 

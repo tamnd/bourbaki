@@ -34,16 +34,18 @@ subsections:
       title: THE POWER OF R
       page: 0
       pdf_page: 383
-statements: 2
+statements: 3
 exercises: 3
-content_sha256: 914f3a44829462fc66adf76c60db064b9c5883f0d26bf2cfdd49a49ba9f8b612
+content_sha256: b2bfd4fbc49b036cf80faadde5f2068a1c056da3fbc11b10c1b5185ec846e570
 ---
 
 ## 8. USUAL EXPANSIONS OF REAL NUMBERS; THE POWER OF R
 
 ### 1. APPROXIMATIONS TO A REAL NUMBER
 
-Definition 1. Given a number $ \varepsilon > 0 $, a real number $ r $ is said to be an approximation to within $ \varepsilon $ to a real number $ x $, if $ |x - r| \leq \varepsilon $; $ r $ is said to be an approximation by defect if $ r \leq x $, by excess if $ r \geq x $.
+#### Definition 1 {#top-iv-s8-def-1 .statement}
+
+Given a number $ \varepsilon > 0 $, a real number $ r $ is said to be an approximation to within $ \varepsilon $ to a real number $ x $, if $ |x - r| \leq \varepsilon $; $ r $ is said to be an approximation by defect if $ r \leq x $, by excess if $ r \geq x $.
 
 Let $ A $ be a dense subset of $ \mathbf{R} $. For each $ x \in \mathbf{R} $ and each $ \varepsilon > 0 $ there is an approximation by defect (resp. excess) to $ x $ to within $ \varepsilon $ belonging to $ A $, since the interval $ ]x - \varepsilon, x[ $ (resp. $ ]x, x + \varepsilon[ $) contains at least one point of $ A $. If we now consider a given strictly decreasing sequence $ (\varepsilon_n) $ of numbers $ > 0 $, tending to 0, and if $ r_n $ is an approximation to $ x $ to within $ \varepsilon_n $, then the sequence $ (r_n) $ has $ x $ as limit as $ n $ tends to infinity.
 

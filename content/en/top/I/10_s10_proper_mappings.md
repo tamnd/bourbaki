@@ -26,9 +26,9 @@ subsections:
       title: QUOTIENT SPACES OF COMPACT SPACES AND LOCALLY COMPACT SPACES
       page: 0
       pdf_page: 111
-statements: 25
+statements: 30
 exercises: 8
-content_sha256: a1ec5404bc216e6059c71632bd54b95434a91b8772e2e71228f45d94583c0177
+content_sha256: dbc7fb11c2caffb7665f50d824927c81bc19d0007face4b58efe12f172f6eb6d
 ---
 
 ## 10. PROPER MAPPINGS
@@ -125,19 +125,27 @@ where $ \varphi(x) = (x, f(x)) $ and $ \psi(x') = (g(x'), x') $. The mapping $ \
 
 If $ X' $ is not Hausdorff it can happen that $ g \circ f $ is proper and $ f $ not; for example, take $ X $ and $ X'' $ to consist of one point and $ X' $ to consist of two points, with the coarsest topology.
 
-Corollary 1. *If $ f : X \to Y $ is a proper mapping, then the restriction of $ f $ to a closed subset $ F $ of $ X $ is a proper mapping of $ F $ into $ Y $.*
+#### Corollary 1 {#top-i-s10-prop-5-cor-1 .statement}
+
+*If $ f : X \to Y $ is a proper mapping, then the restriction of $ f $ to a closed subset $ F $ of $ X $ is a proper mapping of $ F $ into $ Y $.*
 
 For this restriction is the composition $ f \circ j $, where $ j : F \to X $ is the canonical injection, which is proper by Proposition 2.
 
-Corollary 2. *Let $ f : X \to Y $ be a proper mapping, where $ X $ is Hausdorff. Then the subspace $ f(X) $ of $ Y $ is Hausdorff.*
+#### Corollary 2 {#top-i-s10-prop-5-cor-2 .statement}
+
+*Let $ f : X \to Y $ be a proper mapping, where $ X $ is Hausdorff. Then the subspace $ f(X) $ of $ Y $ is Hausdorff.*
 
 By reason of Proposition 5 c) we need only consider the case where $ f(X) = Y $. Then the diagonal of $ Y \times Y $ is the image under $ f \times f $ of the diagonal of $ X $, which is closed (\S 8, no. 1, Proposition 1); $ f \times f $ is proper (Proposition 4); hence the diagonal of $ Y \times Y $ is closed (Proposition 1) and therefore $ Y $ is Hausdorff (\S 8, no. 1, Proposition 1).
 
-Corollary 3. *Let $ I $ be a finite set and for each $ i \in I $, let $ f_i : X \to Y_i $ be a proper mapping. If $ X $ is Hausdorff, then the mapping $ x \mapsto (f_i(x)) $ of $ X $ into $ \prod_{i \in I} Y_i $ is proper.*
+#### Corollary 3 {#top-i-s10-prop-5-cor-3 .statement}
+
+*Let $ I $ be a finite set and for each $ i \in I $, let $ f_i : X \to Y_i $ be a proper mapping. If $ X $ is Hausdorff, then the mapping $ x \mapsto (f_i(x)) $ of $ X $ into $ \prod_{i \in I} Y_i $ is proper.*
 
 This mapping is the composition of the product mapping $ (x_i) \mapsto (f_i(x_i)) $ of $ X^I $ into $ \prod_i Y_i $ and the diagonal mapping of $ X $ into $ X^I $; since the latter is proper (by Proposition 2 and \S 8, no. 1, Proposition 1) the conclusion follows from Proposition 4 and Proposition 5 a).
 
-Corollary 4. *Let $ X $ and $ Y $ be two topological spaces, $ f : X \to Y $ a continuous mapping, $ R $ the equivalence relation $ f(x) = f(y) $ on $ X $, and*
+#### Corollary 4 {#top-i-s10-prop-5-cor-4 .statement}
+
+*Let $ X $ and $ Y $ be two topological spaces, $ f : X \to Y $ a continuous mapping, $ R $ the equivalence relation $ f(x) = f(y) $ on $ X $, and*
 $$
 X \xrightarrow{p} X/R \xrightarrow{h} f(X) \xrightarrow{i} Y
 $$
@@ -310,7 +318,9 @@ Finally we have to prove that $ X/R $ is locally compact. $ X'/R' $ is compact b
 
 Q.E.D.
 
-Corollary. *Let $ X $ be a Hausdorff space, $ Y $ a topological space, $ f : X \to Y $ a proper mapping. Then for $ X $ to be compact (resp. locally compact) it is necessary and sufficient that $ f(X) $ is compact (resp. locally compact), and it is sufficient that $ Y $ is compact (resp. locally compact).*
+#### Corollary {#top-i-s10-n4-cor-1 .statement}
+
+*Let $ X $ be a Hausdorff space, $ Y $ a topological space, $ f : X \to Y $ a proper mapping. Then for $ X $ to be compact (resp. locally compact) it is necessary and sufficient that $ f(X) $ is compact (resp. locally compact), and it is sufficient that $ Y $ is compact (resp. locally compact).*
 
 #### Remark {#top-i-s10-n4-rem-1 .statement}
 

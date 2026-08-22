@@ -34,16 +34,18 @@ subsections:
       title: INTERIOR, CLOSURE, FRONTIER OF A SET; DENSE SETS
       page: 0
       pdf_page: 29
-statements: 15
+statements: 23
 exercises: 9
-content_sha256: b9cd185029b512b205a3cdf1aae7fc8bf3cfec4bfd257008927924ec4645da1a
+content_sha256: 60eb5181ade6fd9120d7cc209b1d41bc49ca6f6965a7520895b890532b63ba38
 ---
 
 ## 1. OPEN SETS, NEIGHBOURHOODS, CLOSED SETS
 
 ### 1. OPEN SETS
 
-Definition 1. *A topological structure* (or, more briefly, *a topology*) *on a set* $ X $ *is a structure given by a set* $ \mathcal{D} $ *of subsets of* $ X $, *having the following properties* (called *axioms of topological structures*):
+#### Definition 1 {#top-i-s1-def-1 .statement}
+
+*A topological structure* (or, more briefly, *a topology*) *on a set* $ X $ *is a structure given by a set* $ \mathcal{D} $ *of subsets of* $ X $, *having the following properties* (called *axioms of topological structures*):
 
 (O_I) *Every union of sets of* $ \mathcal{D} $ *is a set of* $ \mathcal{D} $.
 
@@ -51,7 +53,9 @@ Definition 1. *A topological structure* (or, more briefly, *a topology*) *on a s
 
 *The sets of* $ \mathcal{D} $ *are called open sets of the topological structure defined by* $ \mathcal{D} $ *on* $ X $.
 
-Definition 2. *A topological space is a set endowed with a topological structure*.
+#### Definition 2 {#top-i-s1-def-2 .statement}
+
+*A topological space is a set endowed with a topological structure*.
 
 The elements of a topological space are often called *points*. When a topology has been defined on a set $ X $, this set is said to be the set *underlying* the topological space $ X $.
 
@@ -65,7 +69,9 @@ Examples of topologies. Given any set $ X $, the set of subsets of $ X $ consist
 
 A covering $ (U_i)_{i \in I} $ of a subset $ A $ of a topological space $ X $ is said to be open if all the $ U_i $ are open in $ X $.
 
-Definition 3. *A homeomorphism of a topological space $ X $ onto a topological space $ X' $ is an isomorphism of the topological structure of $ X $ onto that of $ X' $;* that is to say, in accordance with the general definitions *a bijection of $ X $ onto $ X' $ which transforms the set of open subsets of $ X $ into the set of open subsets of $ X' $*.
+#### Definition 3 {#top-i-s1-def-3 .statement}
+
+*A homeomorphism of a topological space $ X $ onto a topological space $ X' $ is an isomorphism of the topological structure of $ X $ onto that of $ X' $;* that is to say, in accordance with the general definitions *a bijection of $ X $ onto $ X' $ which transforms the set of open subsets of $ X $ into the set of open subsets of $ X' $*.
 
 $ X $ and $ X' $ are said to be *homeomorphic* if there is a homeomorphism of $ X $ onto $ X' $.
 
@@ -77,11 +83,15 @@ The following criterion follows immediately from the definition of a homeomorphi
 
 ### 2. NEIGHBOURHOODS
 
-Definition 4. *Let $ X $ be a topological space and $ A $ any subset of $ X $. A neighbourhood of $ A $ is any subset of $ X $ which contains an open set containing $ A $. The neighbourhoods of a subset $ \{ x \} $ consisting of a single point are also called neighbourhoods of the point $ x $*.
+#### Definition 4 {#top-i-s1-def-4 .statement}
+
+*Let $ X $ be a topological space and $ A $ any subset of $ X $. A neighbourhood of $ A $ is any subset of $ X $ which contains an open set containing $ A $. The neighbourhoods of a subset $ \{ x \} $ consisting of a single point are also called neighbourhoods of the point $ x $*.
 
 It is clear that every neighbourhood of a subset $ A $ of $ X $ is also a neighbourhood of each subset $ B \subset A $; in particular, it is a neighbourhood of each point of $ A $. Conversely, suppose $ A $ is a neighbourhood of each of the points of a set $ B $, and let $ U $ be the union of the open sets contained in $ A $; then $ U \subset A $, and since each point of $ B $ belongs to an open set contained in $ A $, we have $ B \subset U $; but $ U $ is open by virtue of $ (O_1) $, hence $ A $ is a neighbourhood of $ B $. In particular:
 
-Proposition 1. *A set is a neighbourhood of each of its points if and only if it is open.*
+#### Proposition 1 {#top-i-s1-prop-1 .statement}
+
+*A set is a neighbourhood of each of its points if and only if it is open.*
 
 The everyday sense of the word "neighbourhood" is such that many of the properties which involve the mathematical idea of neighbourhood appear as the mathematical expression of intuitive properties; the choice of this term thus has the advantage of making the language more expressive. For this purpose it is also permissible to use the expressions "sufficiently near" and "as near as we please" in some statements. For example, Proposition 1 can be stated in the following form: a set $ A $ is open if and only if, for each $ x \in A $, all the points *sufficiently near* $ x $ belong to $ A $. More generally, we shall say that a property holds for all points *sufficiently near* a point $ x $, if it holds at all points of some neighbourhood of $ x $.
 
@@ -262,18 +272,24 @@ A closed set which has no isolated points is called a *perfect* set.
 
 § 2.1
 
-Definition 11. In a topological space $ X $, a point $ x $ is said to be a frontier point of a set $ A $ if $ x $ lies in the closure of $ A $ and in the closure of $ \overline{CA} $. The set of frontier points of $ A $ is called the frontier of $ A $.
+#### Definition 11 {#top-i-s1-def-11 .statement}
+
+In a topological space $ X $, a point $ x $ is said to be a frontier point of a set $ A $ if $ x $ lies in the closure of $ A $ and in the closure of $ \overline{CA} $. The set of frontier points of $ A $ is called the frontier of $ A $.
 
 The frontier of $ A $ is therefore the set $ \overline{A} \cap \overline{\overline{CA}} $, which is closed. A frontier point $ x $ of $ A $ is characterized by the property that every neighbourhood of $ x $ contains at least one point of $ A $ and at least one point of $ \overline{CA} $; $ x $ may or may not belong to $ A $. The frontier of $ A $ is the same as the frontier of $ \overline{CA} $. The interior of $ A $, the exterior of $ A $ and the frontier of $ A $ are mutually disjoint and their union is the whole space $ X $.
 
-Definition 12. A subset $ A $ of a topological space $ X $ is said to be dense in $ X $ (or simply dense, if there is no ambiguity about $ X $) if $ \overline{A} = X $, i.e. if every non-empty open set $ U $ of $ X $ meets $ A $.
+#### Definition 12 {#top-i-s1-def-12 .statement}
+
+A subset $ A $ of a topological space $ X $ is said to be dense in $ X $ (or simply dense, if there is no ambiguity about $ X $) if $ \overline{A} = X $, i.e. if every non-empty open set $ U $ of $ X $ meets $ A $.
 
 #### Example {#top-i-s1-n6-exa-1 .statement}
 
 \* We shall see in Chapter IV, § 1 that the set of rational numbers and its complement are dense on the real line. \*
 In a discrete space $ X $ the only dense subset of $ X $ is $ X $ itself. On the other hand, every non-empty subset of $ X $ is dense in the topology on $ X $ for which the only open sets are $ \varnothing $ and $ X $.
 
-Proposition 6. If $ \mathcal{B} $ is a base of the topology of a topological space $ X $, there is a dense set $ D $ in $ X $ such that $ \mathrm{Card}(D) \leq \mathrm{Card}(\mathcal{B}) $.
+#### Proposition 6 {#top-i-s1-prop-6 .statement}
+
+If $ \mathcal{B} $ is a base of the topology of a topological space $ X $, there is a dense set $ D $ in $ X $ such that $ \mathrm{Card}(D) \leq \mathrm{Card}(\mathcal{B}) $.
 
 We may restrict ourselves to the case in which none of the sets of $ \mathcal{B} $ is empty (the non-empty sets of $ \mathcal{B} $ already form a base of the topology of $ X $). For each $ U \in \mathcal{B} $, let $ x_V $ be a point of $ U $; it follows from Proposition 3 of no. 3 that the set $ D $ of the points $ x_U $ is dense in $ X $, and we have $ \mathrm{Card}(D) \leq \mathrm{Card}(\mathcal{B}) $ (Set Theory, Chapter III, § 3, no. 2, Proposition 3).
 

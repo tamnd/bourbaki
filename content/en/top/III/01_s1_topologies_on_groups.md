@@ -22,9 +22,9 @@ subsections:
       title: ISOMORPHISMS AND LOCAL ISOMORPHISMS
       page: 0
       pdf_page: 230
-statements: 10
+statements: 11
 exercises: 9
-content_sha256: f632c89db166983f60576d923190d72c56e653bddaccfa6fce26684e889953b3
+content_sha256: affaabe14a2e0bad085ddd12018576d2fcad7b3610b4c325c8565f53e07ee793
 ---
 
 ## 1. TOPOLOGIES ON GROUPS
@@ -33,7 +33,9 @@ content_sha256: f632c89db166983f60576d923190d72c56e653bddaccfa6fce26684e889953b3
 
 In the first four sections of this chapter the law of composition of a group will generally be written multiplicatively, and e shall denote the identity element; translation of results into additive notation (which, we recall, is reserved exclusively to commutative groups) is usually left to the reader.
 
-Definition 1. A topological group is a set G which carries a group structure and a topology and satisfies the following two axioms:
+#### Definition 1 {#top-iii-s1-def-1 .statement}
+
+A topological group is a set G which carries a group structure and a topology and satisfies the following two axioms:
 
 (GT_I). The mapping $ (x, y) \to xy $ of $ G \times G $ into $ G $ is continuous.
 

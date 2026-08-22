@@ -38,9 +38,9 @@ subsections:
       title: INVERSE LIMITS OF UNIFORM SPACES
       page: 0
       pdf_page: 186
-statements: 18
+statements: 25
 exercises: 6
-content_sha256: 979ebb90d903791c0020301c2619af0cec9cdcfebc8ce3503eb0f69a88d6979e
+content_sha256: dfab39c7f29bdf3cc9ab6822358b2235321a2a2e044ac8be660b8a71a747aac7
 ---
 
 ## 2. UNIFORMLY CONTINUOUS FUNCTIONS
@@ -119,7 +119,9 @@ If $ f : X \to X' $ is a uniformly continuous mapping, then $ f $ remains unifor
 
 ### 3. INITIAL UNIFORMITIES
 
-Proposition 4. Let $ X $ be a set, let $ (Y_i)_{i \in I} $ be a family of uniform spaces, and for each $ i \in I $ let $ f_i $ be a mapping of $ X $ into $ Y_i $. For each $ i \in I $ let $ g_i $ denote $ f_i \times f_i $. Let $ \mathfrak{S} $ be the set of subsets of $ X \times X $ of the form $ \overline{g_i}(V_i) $, where $ i \in I $ and $ V_i $ is an entourage of $ Y_i $, and let $ \mathcal{B} $ be the set of all finite intersections
+#### Proposition 4 {#top-ii-s2-prop-4 .statement}
+
+Let $ X $ be a set, let $ (Y_i)_{i \in I} $ be a family of uniform spaces, and for each $ i \in I $ let $ f_i $ be a mapping of $ X $ into $ Y_i $. For each $ i \in I $ let $ g_i $ denote $ f_i \times f_i $. Let $ \mathfrak{S} $ be the set of subsets of $ X \times X $ of the form $ \overline{g_i}(V_i) $, where $ i \in I $ and $ V_i $ is an entourage of $ Y_i $, and let $ \mathcal{B} $ be the set of all finite intersections
 
 $$
 \text{(1)} \quad U(V_{i_1}, \ldots, V_{i_n}) = \overline{g_{i_1}}(V_{i_1}) \cap \cdots \cap \overline{g_{i_n}}(V_{i_n})
@@ -157,7 +159,9 @@ A mapping $ f $ of a uniform space $ X $ into a uniform space $ X' $ is uniforml
 
 Let $ A $ be a subset of a uniform space $ X $. The uniformity induced on $ A $ by the uniformity of $ X $ is the inverse image of the latter under the canonical injection $ A \to X $. By Proposition 4 of no. 3, this is equivalent to the following definition:
 
-Definition 3. Let $ A $ be a subset of a uniform space $ X $. The uniformity on $ A $ whose set of entourages is the trace on $ A \times A $ of the set of entourages of $ X $ is called the uniformity induced on $ A $ by the uniformity of $ X $.
+#### Definition 3 {#top-ii-s2-def-3 .statement}
+
+Let $ A $ be a subset of a uniform space $ X $. The uniformity on $ A $ whose set of entourages is the trace on $ A \times A $ of the set of entourages of $ X $ is called the uniformity induced on $ A $ by the uniformity of $ X $.
 
 The topology induced by the uniformity induced on $ A $ is the same as the topology induced on $ A $ by the topology of $ X $; the set $ A $, together with the uniformity and the topology induced by those of $ X $, is called a uniform subspace of $ X $.
 
@@ -165,7 +169,9 @@ If $ A $ is a subset of a uniform space $ X $ and if $ f : X \to X' $ is a unifo
 
 If $ B \subset A \subset X $, then the uniform subspace $ B $ of $ X $ is identical with the uniform subspace $ B $ of the uniform subspace $ A $ of $ X $ (transitivity of induced uniform structures; no. 3, Proposition 5).
 
-Proposition 6. Let $ A $ be a dense subset of a uniform space $ X $. Then the closures, in $ X \times X $, of the entourages of the uniform subspace $ A $ form a fundamental system of entourages of $ X $.
+#### Proposition 6 {#top-ii-s2-prop-6 .statement}
+
+Let $ A $ be a dense subset of a uniform space $ X $. Then the closures, in $ X \times X $, of the entourages of the uniform subspace $ A $ form a fundamental system of entourages of $ X $.
 
 $ A \times A $ is dense in $ X \times X $ (Chapter I, § 4, no. 3, Proposition 7). Let $ V $ be an open entourage of $ A $; it is the intersection of $ A \times A $ with an open entourage $ U $ of $ X $. We have $ U \subset \overline{V} $ (Chapter I, § 1, no. 6, Proposition 5), and this relation together with $ \overline{V} \subset \overline{U} $ establishes the proposition, in view of § 1, no. 2, Corollary 2 of Proposition 2.
 
@@ -185,7 +191,9 @@ A family $ (\mathcal{U}_i) $ of uniformities on $ X $ also has a greatest lower 
 
 ### 6. PRODUCT OF UNIFORM SPACES
 
-Definition 4. *If* $ (X_i)_{i \in I} $ *is a family of uniform spaces, the product uniform space of this family is the product set*
+#### Definition 4 {#top-ii-s2-def-4 .statement}
+
+*If* $ (X_i)_{i \in I} $ *is a family of uniform spaces, the product uniform space of this family is the product set*
 $$
 X = \prod_{i \in I} X_i
 $$
@@ -194,11 +202,15 @@ $$
 
 The topology induced by the product uniformity on $ X $ is same as the product of the topologies of the $ X_i $ (no. 3, Corollary to Proposition 4).
 
-Proposition 7. *Let* $ f = (f_i) $ *be a mapping of a uniform space* $ Y $ *into a product uniform space* $ X = \prod_{i \in I} X_i $. *Then* $ f $ *is uniformly continuous if and only if each* $ f_i $ *is uniformly continuous*.
+#### Proposition 7 {#top-ii-s2-prop-7 .statement}
+
+*Let* $ f = (f_i) $ *be a mapping of a uniform space* $ Y $ *into a product uniform space* $ X = \prod_{i \in I} X_i $. *Then* $ f $ *is uniformly continuous if and only if each* $ f_i $ *is uniformly continuous*.
 
 Since $ f_i = pr_i \circ f $, this is a particular case of Proposition 4 of no. 3.
 
-Corollary. *Let* $ (X_i)_{i \in I}, (Y_i)_{i \in I} $ *be two families of uniform spaces indexed by the same set* $ I $. *For each* $ i \in I $, *let* $ f_i $ *be a mapping of* $ X_i $ *into* $ Y_i $. *If each of the* $ f_i $ *is uniformly continuous, then so is the product mapping*
+#### Corollary {#top-ii-s2-n6-cor-1 .statement}
+
+*Let* $ (X_i)_{i \in I}, (Y_i)_{i \in I} $ *be two families of uniform spaces indexed by the same set* $ I $. *For each* $ i \in I $, *let* $ f_i $ *be a mapping of* $ X_i $ *into* $ Y_i $. *If each of the* $ f_i $ *is uniformly continuous, then so is the product mapping*
 $$
 f : (x_i) \to (f_i(x_i)).
 $$
@@ -210,7 +222,7 @@ The general criterion of transitivity of initial uniformities (no. 3, Propositio
 
 *Let $ X $ be a set, let $ (Y_i)_{i \in I} $ be a family of uniform spaces, and for each $ i \in I $ let $ f_i $ be a mapping of $ X $ into $ Y_i $. Let $ f $ be the mapping $ x \to (f_i(x)) $ of $ X $ into $ Y = \prod_{i \in I} Y_i $, and let $ U $ be the coarsest uniformity on $ X $ for which the $ f_i $ are uniformly continuous. Then $ U $ is the inverse image under $ f $ of the uniformity induced on $ f(X) $ by the product uniformity on $ Y $.*
 
-#### Corollary {#top-ii-s2-n6-cor-1 .statement}
+#### Corollary {#top-ii-s2-n6-cor-2 .statement}
 
 *For each $ i \in I $, let $ A_i $ be a subspace of $ Y_i $. Then the uniformity induced on $ A = \prod_{i \in I} A_i $ by the product uniformity on $ \prod_{i \in I} Y_i $ is the same as the product of the uniformities of the subspaces $ A_i $.*
 
@@ -234,7 +246,9 @@ In other words, a uniformly continuous function of two arguments is uniformly co
 
 Let $ I $ be a partially ordered set in which the partial ordering is written $ \alpha \leq \beta $. For each $ \alpha \in I $ let $ X_\alpha $ be a uniform space, and for each pair of indices $ \alpha, \beta $ such that $ \alpha \leq \beta $ let $ f_{\alpha \beta} $ be a mapping of $ X_\beta $ into $ X_\alpha $.
 
-Proposition 10. Let $I$ be a directed set, let $(X_\alpha, f_{\alpha\beta})$ be an inverse system of uniform spaces indexed by $I$, and let $J$ be a cofinal subset of $I$. For each $\alpha \in I$ let $f_\alpha$ be the canonical mapping of $X = \varprojlim X_\alpha$ into $X_\alpha$, and let $g_\alpha$ denote $f_\alpha \times f_\alpha$. Then the family of sets $\overline{g}_\alpha^{-1}(V_\alpha)$, where $\alpha$ runs through $J$ and where, for each $\alpha \in J$, $V_\alpha$ runs through a fundamental system of entourages of $X_\alpha$, is a fundamental system of entourages of $X$.
+#### Proposition 10 {#top-ii-s2-prop-10 .statement}
+
+Let $I$ be a directed set, let $(X_\alpha, f_{\alpha\beta})$ be an inverse system of uniform spaces indexed by $I$, and let $J$ be a cofinal subset of $I$. For each $\alpha \in I$ let $f_\alpha$ be the canonical mapping of $X = \varprojlim X_\alpha$ into $X_\alpha$, and let $g_\alpha$ denote $f_\alpha \times f_\alpha$. Then the family of sets $\overline{g}_\alpha^{-1}(V_\alpha)$, where $\alpha$ runs through $J$ and where, for each $\alpha \in J$, $V_\alpha$ runs through a fundamental system of entourages of $X_\alpha$, is a fundamental system of entourages of $X$.
 
 We leave the proof to the reader; it is a straightforward adaptation of the proof of Proposition 9 of Chapter I, § 4, no. 4.
 

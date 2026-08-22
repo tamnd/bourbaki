@@ -18,9 +18,9 @@ subsections:
       title: TOPOLOGY OF A UNIFORM SPACE
       page: 0
       pdf_page: 177
-statements: 12
+statements: 13
 exercises: 4
-content_sha256: 30414f7ac83e4f792549b3475521e040386f0105427eada0ac0293018d056ba2
+content_sha256: 836a98a1f448d26c2dd28d696efabd443182ff29cecbdaa1f98458ad64ae6550
 ---
 
 ## 1. UNIFORM SPACES
@@ -63,7 +63,9 @@ Throughout this chapter we shall write $ \overline{V}^2 $ instead of $ V \circ V
 
 If $ X $ is not empty, then axiom (U_I) implies that no set of $ \mathcal{U} $ is empty, and therefore $ \mathcal{U} $ is a filter on $ X \times X $. There is only one uniformity on the empty set, namely $ \mathcal{U} = \{ \emptyset \} $.
 
-Definition 2. A fundamental system of entourages of a uniformity is any set $ \mathcal{B} $ of entourages such that every entourage contains a set belonging to $ \mathcal{B} $.
+#### Definition 2 {#top-ii-s1-def-2 .statement}
+
+A fundamental system of entourages of a uniformity is any set $ \mathcal{B} $ of entourages such that every entourage contains a set belonging to $ \mathcal{B} $.
 
 Axiom (U_{III}) shows that if $ n $ is any integer $ > 0 $ and $ V $ runs through a fundamental system of entourages, then the sets $ \overline{V}^n $ again form a fundamental system of entourages.
 
