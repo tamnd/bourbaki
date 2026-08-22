@@ -166,6 +166,35 @@ contents:
             which is printed 114. This is not the text layer misreading a digit, it
             is the contents naming the wrong page, and the correction belongs here
             rather than in the manifest the build writes.
+        - says: 'with a uniform space ............... " . . . . . . ... .                             195'
+          read: 'with a uniform space ........................................... 196'
+          why: The printed contents, pdf page 11, puts no. 8 of chapter II § 3 on page
+            195, and the book is wrong about its own page. Pdf 201 is printed 195 and
+            carries the end of no. 7, running from Proposition 13 to the Corollary to
+            Proposition 15 and a footnote, with a running head reading THE COMPLETION
+            OF A UNIFORM SPACE § 3.7. The heading of no. 8, THE HAUSDORFF UNIFORM SPACE
+            ASSOCIATED WITH A UNIFORM SPACE, is printed on the page after it, pdf 202,
+            which is printed 196. The title runs to two lines in the contents and the
+            page number sits on the second, which is the line this corrects.
+        - says: '2. Compactness of uniform spaces............ . .......                                     200'
+          read: '2. Compactness of uniform spaces ................................. 201'
+          why: The printed contents, pdf page 11, puts no. 2 of chapter II § 4 on page
+            200, and the book is wrong about its own page. Pdf 206 is printed 200 and
+            carries the end of no. 1, running from the proof of Theorem 1 to Remark 2,
+            with a running head reading II UNIFORM STRUCTURES and no heading on it at
+            all. The heading of no. 2, COMPACTNESS OF UNIFORM SPACES, is printed a
+            little over halfway down the page after it, pdf 207, which is printed 201
+            and which heads itself COMPACTNESS OF UNIFORM SPACES § 4.2.
+        - says: 'Exercises for § 8 ........................................                                            133'
+          read: 'Exercises for § 8 ........................................                                            134'
+          why: The printed contents, pdf page 10, puts the exercises of chapter I § 8
+            on page 133, and the book is wrong about its own page. Pdf 139 is printed
+            133 and heads itself EXERCISES, but every exercise on it belongs to § 7,
+            running from exercise 3 to exercise 7 d) and reaching the foot of the page.
+            The centred § 8 that opens the run is printed on the page after it, pdf 140,
+            which is printed 134, and exercise 1 of § 8 follows it there. The run of § 7
+            is listed on 132 and starts on pdf 138, which is printed 132, so it is this
+            line and not the one before it that names the wrong page.
         - says: 'I. Unifo~ly contin~ous f~ctions'
           read: 'I. Uniformly continuous functions'
           why: The text layer of the printed contents, pdf page 11, drops the letters

@@ -7764,9 +7764,9 @@ books:
                   page: 191
                   pdf_page: 197
                 - "no": 8
-                  title: The Hausdorff uniform space associated with a uniform space "
-                  page: 195
-                  pdf_page: 201
+                  title: The Hausdorff uniform space associated with a uniform space
+                  page: 196
+                  pdf_page: 202
                 - "no": 9
                   title: Completion of subspaces and product spaces
                   page: 197
@@ -7785,8 +7785,8 @@ books:
                   pdf_page: 204
                 - "no": 2
                   title: Compactness of uniform spaces
-                  page: 200
-                  pdf_page: 206
+                  page: 201
+                  pdf_page: 207
                 - "no": 3
                   title: Compact sets in a uniform space
                   page: 203
