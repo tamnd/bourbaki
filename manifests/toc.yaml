@@ -10629,7 +10629,7 @@ books:
                   page: 56
                   pdf_page: 238
                 - "no": 2
-                  title: Bounded measures and linear forms on 'i6'b(T)
+                  title: Bounded measures and linear forms on $ \mathcal{C}^b(T) $
                   page: 59
                   pdf_page: 241
                 - "no": 3
@@ -10637,7 +10637,7 @@ books:
                   page: 60
                   pdf_page: 242
                 - "no": 4
-                  title: 'Application: topological properties of the space .4l~ (T)'
+                  title: 'Application: topological properties of the space $ \mathcal{M}_+^b(T) $'
                   page: 63
                   pdf_page: 245
                 - "no": 5
@@ -10717,7 +10717,7 @@ books:
                   page: 102
                   pdf_page: 284
                 - "no": 2
-                  title: Hilbert-Schmidt mappings
+                  title: Hilbert–Schmidt mappings
                   page: 104
                   pdf_page: 286
               appendix: true
