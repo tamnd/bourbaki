@@ -40,9 +40,9 @@ subsections:
       title: EQUIVALENT SPECIES OF STRUCTURES
       page: 268
       pdf_page: 273
-statements: 16
+statements: 11
 exercises: 1
-content_sha256: b1094b5a2252deca203c539c9c491ffa5dd29bc156fe419c48f680ba49540844
+content_sha256: bc1d66409698eb85af0a8703ebbb4f2e02ccf95db168e9c8733b781c5739452a
 ---
 
 ## 1. STRUCTURES AND ISOMORPHISMS
@@ -269,120 +269,156 @@ is a theorem in $\mathscr{T}'_\Sigma$.
 
 Most of the terms which one is led to define in the theory of a species of structures are intrinsic terms.
 
-Let $\Theta$ be another species of structures in the theory $\mathscr{T}$, on $r$ principal base sets $u_1$, ..., $u_r$, with $p$ auxiliary base sets $\mathrm{B}_1$, ..., $\mathrm{B}_p$, and let $t \in \mathrm{T}(u_1, \ldots, u_r, \mathrm{B}_1, \ldots, \mathrm{B}_p)$ be the typical characterization of $\Theta$ (no. 4). Then a system of $r + 1$ terms $\mathrm{P}, \mathrm{U}_1, \ldots, \mathrm{U}_r$, *intrinsic for* $s$, and such that $\mathrm{P}$ is a structure of species $\Theta$ on $\mathrm{U}_1$, ..., $\mathrm{U}_r$, *in the theory* $\mathscr{T}_\Sigma$, is called a *procedure of deduction of a structure of species* $\Theta$ *from a structure of species* $\Sigma$. By abuse of language, the term $\mathrm{P}$ alone is often called a procedure of deduction.
+¶ Let $\Theta$ be another species of structures in the theory $\mathscr{T}$, on $r$ principal base sets $u_1,\ldots,u_r$, with $p$ auxiliary base sets $B_1,\ldots,B_p$, and let $t\in T(u_1,\ldots,u_r,B_1,\ldots,B_p)$ be the typical characterization of $\Theta$ (no. 4). Then a system of $r+1$ terms $P,U_1,\ldots,U_r$, intrinsic for $s$, and such that $P$ is a structure of species $\Theta$ on $U_1,\ldots,U_r$, in the theory $\mathscr{T}_\Sigma$, is called a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$. By abuse of language, the term $P$ alone is often called a procedure of deduction.
 
-¶ Let $\mathscr{T}'$ be a theory stronger than $\mathscr{T}$. If $\mathscr{S}$ is a structure in $\mathscr{T}'$ of species $\Sigma$ on $\mathrm{E}_1, \ldots, \mathrm{E}_n$, then $\mathrm{P}\{\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathscr{S}\}$ is a structure of species $\Theta$ on the $r$ sets $\mathrm{F}_j = \mathrm{U}_j\{\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathscr{S}\}\,(1 \leqslant j \leqslant r)$, said to be *deduced from* $\mathscr{S}$ *by the procedure* $\mathrm{P}$, *or subordinate to* $\mathscr{S}$. The hypothesis that the terms $\mathrm{P}, \mathrm{U}_1, \ldots, \mathrm{U}_r$ are intrinsic for $s$ moreover implies the following criterion :
+¶ Let $\mathscr{T}'$ be a theory stronger than $\mathscr{T}$. If $\mathscr{G}$ is a structure in $\mathscr{T}'$ of species $\Sigma$ on $E_1,\ldots,E_n$, then $P\{E_1,\ldots,E_n,\mathscr{G}\}$ is a structure of species $\Theta$ on the $r$ sets $F_j=U_j\{E_1,\ldots,E_n,\mathscr{G}\}$ $(1\leq j\leq r)$, said to be deduced from $\mathscr{G}$ by the procedure $P$, or subordinate to $\mathscr{G}$. The hypothesis that the terms $P,U_1,\ldots,U_r$ are intrinsic for $s$ moreover implies the following criterion:
 
-CST6. *Let* $(g_1, \ldots, g_n)$ *be an isomorphism of* $\mathrm{E}_1$, ..., $\mathrm{E}_n$, *endowed with a structure* $\mathscr{S}$ *of species* $\Sigma$, *onto* $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$, *endowed with a structure* $\mathscr{S}'$ *of the same species. If* $\mathrm{U}_j$ *is of type* $\mathfrak{P}(\mathrm{T}_j)$, *put*
+**CST6.** Let $(g_1,\ldots,g_n)$ be an isomorphism of $E_1,\ldots,E_n$, endowed with a structure $\mathscr{G}$ of species $\Sigma$, onto $E'_1,\ldots,E'_n$, endowed with a structure $\mathscr{G}'$ of the same species. If $U_j$ is of type $\mathfrak{P}(T_j)$, put
 
-$$h_j = \langle g_1, \ldots, g_n, \mathrm{Id}_1, \ldots, \mathrm{Id}_m \rangle^{\mathrm{T}_j} \ (1 \leqslant j \leqslant r),$$
+$$
+h_j=\langle g_1,\ldots,g_n,\mathrm{Id}_1,\ldots,\mathrm{Id}_{m}\rangle^{T_j}\quad(1\leq j\leq r),
+$$
 
-*and let* $\mathrm{F}'_j = \mathrm{U}_j\{\mathrm{E}'_1, \ldots, \mathrm{E}'_n, \mathscr{S}'\}\,(1 \leqslant j \leqslant r)$. *Then* $(h_1, \ldots, h_r)$ *is an isomorphism of* $\mathrm{F}_1$, ..., $\mathrm{F}_r$ *onto* $\mathrm{F}'_1$, ..., $\mathrm{F}'_r$ *when these systems of sets are endowed with the structures of species* $\Theta$ *deduced from* $\mathscr{S}$ *and* $\mathscr{S}'$ *respectively by the procedure* $\mathrm{P}$.
+and let $F'_j=U_j\{E'_1,\ldots,E'_n,\mathscr{G}'\}$ $(1\leq j\leq r)$. Then $(h_1,\ldots,h_r)$ is an isomorphism of $F_1,\ldots,F_r$ onto $F'_1,\ldots,F'_r$ when these systems of sets are endowed with the structures of species $\Theta$ deduced from $\mathscr{G}$ and $\mathscr{G}'$ respectively by the procedure $P$.
 
-It is clear that the terms $x_1, \ldots, x_n$ are intrinsic for $s$. In many cases, the terms $\mathrm{U}_1, \ldots, \mathrm{U}_r$ are certain of the letters $x_1, \ldots, x_n$; the structure of species $\Theta$ deduced from $s$ by the procedure $\mathrm{P}$ is then said to be a structure *underlying* $s$.
+It is clear that the terms $x_1,\ldots,x_n$ are intrinsic for $s$. In many cases, the terms $U_1,\ldots,U_r$ are certain of the letters $x_1,\ldots,x_n$; the structure of species $\Theta$ deduced from $s$ by the procedure $P$ is then said to be a structure underlying $s$.
 
-*Examples*
+**Examples**
 
-#### Example 1 {#ens-iv-s1-n6-exa-1 .statement tag=03VE}
+\* (1) The species of topological group structures has a single principal base set $A$, no auxiliary base set, and the corresponding generic structure is a pair $(s_1,s_2)$ ($s_1$ being the graph of the law of composition on $A$, and $s_2$ the set of open sets in the topology of $A$; cf. General Topology, Chapter III, § 1). Each of the terms $s_1,s_2$ is a procedure of deduction and provides respectively the group structure and the topology underlying the topological group structure $(s_1,s_2)$.
 
-The species of *topological group* structures has a single principal base set A, no auxiliary base set, and the corresponding generic structure is a pair $(s_1, s_2)$ ($s_1$ being the graph of the law of composition on A, and $s_2$ the set of open sets in the topology of A; cf. *General Topology*, Chapter III, § 1). Each of the terms $s_1$, $s_2$ is a procedure of deduction and provides respectively the *group structure* and the *topology* underlying the topological group structure $(s_1, s_2)$.
+Likewise, from a vector space structure can be deduced an underlying commutative group structure. From a ring structure can be deduced an underlying commutative group structure and a (multiplicative) semigroup
+267
 
-Likewise, from a vector space structure can be deduced an underlying commutative group structure. From a ring structure can be deduced an underlying commutative group structure and a (multiplicative) semigroup structure. From the structure of a differentiable manifold can be deduced an underlying topology, etc.
+IV
+STRUCTURES
 
-#### Example 2 {#ens-iv-s1-n6-exa-2 .statement tag=03VF}
+structure. From the structure of a differentiable manifold can be deduced an underlying topology, etc.
 
-The species of vector space structures over $\mathbf{C}$ (resp. $\mathbf{R}$) has a principal base set E, an auxiliary base set equal to $\mathbf{C}$ (resp. $\mathbf{R}$), and typical characterization
+(2) The species of vector space structures over $\mathbf{C}$ (resp. $\mathbf{R}$) has a principal base set $E$, an auxiliary base set equal to $\mathbf{C}$ (resp. $\mathbf{R}$), and typical characterization
 
-$$s_1 \in \mathfrak{P}((\mathrm{E} \times \mathrm{E}) \times \mathrm{E}) \quad \text{and} \quad s_2 \in \mathfrak{P}((\mathbf{C} \times \mathrm{E}) \times \mathrm{E})$$
+$$
+s_1\in\mathfrak{P}((E\times E)\times E)\qquad\text{and}\qquad s_2\in\mathfrak{P}((\mathbf{C}\times E)\times E)
+$$
 
-(resp. $\quad s_1 \in \mathfrak{P}((\mathrm{E} \times \mathrm{E}) \times \mathrm{E}) \quad \text{and} \quad s_2 \in \mathfrak{P}((\mathbf{R} \times \mathrm{E}) \times \mathrm{E})$).
+(resp. $s_1\in\mathfrak{P}((E\times E)\times E)$ and $s_2\in\mathfrak{P}((\mathbf{R}\times E)\times E)$).
 
-The pair $(s_1, s_2 \cap ((\mathbf{R} \times \mathrm{E}) \times \mathrm{E}))$ is a procedure of deduction of a vector space structure over $\mathbf{R}$ from a vector space structure over $\mathbf{C}$ ("restriction of the field of scalars to $\mathbf{R}$"). \*
+The pair $(s_1,s_2\cap((\mathbf{R}\times E)\times E))$ is a procedure of deduction of a vector space structure over $\mathbf{R}$ from a vector space structure over $\mathbf{C}$ (“restriction of the field of scalars to $\mathbf{R}$”). \*
 
-#### Example 3 {#ens-iv-s1-n6-exa-3 .statement tag=03VG}
+(3) Suppose that $\Theta$ has the same (principal and auxiliary) base sets as $\Sigma$, and the same typical characterization. If, moreover, the axiom of $\Sigma$ implies (in $\mathscr{T}$) the axiom of $\Theta$, it is clear that the term $s$ is a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$. $\Theta$ is then said to be poorer than $\Sigma$, and $\Sigma$ is richer than $\Theta$. Every structure of species $\Sigma$, in a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$, is then also a structure of species $\Theta$. For example, the species of structures of totally ordered sets (obtained by taking as axiom the conjunction of the axiom of order structures (no. 4, Example 1) and the relation $s\cup s^{-1}=A\times A$) is richer than the species of order structures. \*The species of commutative group structures is richer than the species of group structures. The species of compact topological space structures is richer than the species of topological structures, etc. \*
 
-Suppose that $\Theta$ has the *same* (principal and auxiliary) base sets as $\Sigma$, and the *same* typical characterization. If, moreover, the axiom of $\Sigma$ *implies* (in $\mathscr{T}$) the axiom of $\Theta$, it is clear that the term $s$ is a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$. $\Theta$ is then said to be *poorer* than $\Sigma$, and $\Sigma$ is *richer* than $\Theta$. Every structure of species $\Sigma$, in a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$, is then also a structure of species $\Theta$. For example, the species of structures of *totally ordered* sets (obtained by taking as axiom the conjunction of the axiom of order structures (no. 4, Example 1) and the relation $s \cup \overset{-1}{s} = \mathrm{A} \times \mathrm{A}$) is richer than the species of order structures. \*The species of commutative group structures is richer than the species of group structures. The species of compact topological space structures is richer than the species of topological structures, etc. \*
-
-\* (4) When each of $\Sigma$ and $\Theta$ is the species of group structures (resp. ring structures), there is defined in algebra a procedure of deduction which associates with each group structure (resp. ring structure) the group structure (resp. ring structure) on its *centre*. When $\Sigma$ is the species of vector space structures over a field K, and when $\Theta$ is the species of algebraic structures over K, there are defined procedures of deduction which associate with every vector space over K its *tensor algebra* or its *exterior algebra*. We shall meet many other examples later in this series. \*
+\* (4) When each of $\Sigma$ and $\Theta$ is the species of group structures (resp. ring structures), there is defined in algebra a procedure of deduction which associates with each group structure (resp. ring structure) the group structure (resp. ring structure) on its centre. When $\Sigma$ is the species of vector space structures over a field $K$, and when $\Theta$ is the species of algebraic structures over $K$, there are defined procedures of deduction which associate with every vector space over $K$ its tensor algebra or its exterior algebra. We shall meet many other examples later in this series. \*
 
 #### Remark {#ens-iv-s1-n6-rem-1 .statement tag=03VH}
 
-When P is a "$q$-tuple" $(\mathrm{P}_1, \ldots, \mathrm{P}_q)$, it is also said that the terms $\mathrm{P}_1, \ldots, \mathrm{P}_q$ constitute a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$.
+When $P$ is a “q-tuple” $(P_1,\ldots,P_q)$, it is also said that the terms $P_1,\ldots,P_q$ constitute a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$.
 
 ### 7. EQUIVALENT SPECIES OF STRUCTURES
 
-Let $\Sigma$ and $\Theta$ be two species of structures, in the same theory $\mathscr{T}$, having the *same* principal base sets $x_1, \ldots, x_n$. Let $s, t$ be the generic structures of the species $\Sigma$, $\Theta$ respectively. Suppose that the following conditions are satisfied :
+Let $\Sigma$ and $\Theta$ be two species of structures, in the same theory $\mathscr{T}$, having the same principal base sets $x_1,\ldots,x_n$. Let $s,t$ be the generic structures of the species $\Sigma,\Theta$ respectively. Suppose that the following conditions are satisfied:
 
-(1) We have a procedure of deduction $\mathrm{P}\{x_1, \ldots, x_n, s\}$ of a structure of species $\Theta$ on $x_1, \ldots, x_n$ from a structure of species $\Sigma$ on $x_1, \ldots, x_n$.
+(1) We have a procedure of deduction $P\{x_1,\ldots,x_n,s\}$ of a structure of species $\Theta$ on $x_1,\ldots,x_n$ from a structure of species $\Sigma$ on $x_1,\ldots,x_n$.
 
-(2) We have a procedure of deduction $Q\,\{x_1, \ldots, x_n, t\}$ of a structure of species $\Sigma$ on $x_1, \ldots, x_n$ from a structure of species $\Theta$ on $x_1, \ldots, x_n$.
+268
 
-(3) The relation $Q\,\{x_1, \ldots, x_n, P\{x_1, \ldots, x_n, s\}\} = s$ is a theorem in $\mathscr{T}_\Sigma$, and the relation $P\{x_1, \ldots, x_n, Q\,\{x_1, \ldots, x_n, t\}\} = t$ is a theorem in $\mathscr{T}_\Theta$.
+(2) We have a procedure of deduction $Q\{x_1,\ldots,x_n,t\}$ of a structure of species $\Sigma$ on $x_1,\ldots,x_n$ from a structure of species $\Theta$ on $x_1,\ldots,x_n$.
 
-The species of structures $\Sigma$ and $\Theta$ are then said to be *equivalent by means of the procedures of deduction* P and Q. In this case, for every theorem $B\{x_1, \ldots, x_n, s\}$ in the theory $\mathscr{T}_\Sigma$, the relation $B\{x_1, \ldots, x_n, Q\}$ is a theorem in $\mathscr{T}_\Theta$; and conversely, for every theorem $C\{x_1, \ldots, x_n, t\}$ in the theory $\mathscr{T}_\Theta$, the relation $C\{x_1, \ldots, x_n, P\}$ is a theorem in $\mathscr{T}_\Sigma$.
+(3) The relation $Q\{x_1,\ldots,x_n,P\{x_1,\ldots,x_n,s\}\}=s$ is a theorem in $\mathscr{T}_{\Sigma}$, and the relation $P\{x_1,\ldots,x_n,Q\{x_1,\ldots,x_n,t\}\}=t$ is a theorem in $\mathscr{T}_{\Theta}$.
 
-¶ If U is a structure of species $\Sigma$, the structure deduced from U by the procedure P is said to be *equivalent* to U. Criterion CST6 implies the following :
+The species of structures $\Sigma$ and $\Theta$ are then said to be equivalent by means of the procedures of deduction $P$ and $Q$. In this case, for every theorem $B\{x_1,\ldots,x_n,s\}$ in the theory $\mathscr{T}_{\Sigma}$, the relation $B\{x_1,\ldots,x_n,Q\}$ is a theorem in $\mathscr{T}_{\Theta}$; and conversely, for every theorem $C\{x_1,\ldots,x_n,t\}$ in the theory $\mathscr{T}_{\Theta}$, the relation $C\{x_1,\ldots,x_n,P\}$ is a theorem in $\mathscr{T}_{\Sigma}$.
 
-CST7. *Let $\mathscr{S}$, $\mathscr{S}'$ be two structures of species $\Sigma$ on the principal base sets $(\mathrm{E}_1, \ldots, \mathrm{E}_n)$, $(\mathrm{E}'_1, \ldots, \mathrm{E}'_n)$, respectively. Let $\mathscr{S}_0$, $\mathscr{S}'_0$ be structures of species $\Theta$ which are equivalent respectively to $\mathscr{S}$ and $\mathscr{S}'$. In order that $(g_1, \ldots, g_n)$ should be an isomorphism with respect to the structures $\mathscr{S}_0$ and $\mathscr{S}'_0$, it is necessary and sufficient that $(g_1, \ldots, g_n)$ should be an isomorphism with respect to the structures $\mathscr{S}$ and $\mathscr{S}'$.*
+☡
 
-In practice, we make no distinction between the theories $\mathscr{T}_\Sigma$ and $\mathscr{T}_\Theta$ of two equivalent species of structures.
+If $U$ is a structure of species $\Sigma$, the structure deduced from $U$ by the procedure $P$ is said to be equivalent to $U$. Criterion CST6 implies the following :
 
-*Examples*
+CST7. *Let $\mathscr{Y},\mathscr{Y}'$ be two structures of species $\Sigma$ on the principal base sets $(E_1,\ldots,E_n),(E'_1,\ldots,E'_n)$, respectively. Let $\mathscr{Y}_0,\mathscr{Y}'_0$ be structures of species $\Theta$ which are equivalent respectively to $\mathscr{Y}$ and $\mathscr{Y}'$. In order that $(g_1,\ldots,g_n)$ should be an isomorphism with respect to the structures $\mathscr{Y}_0$ and $\mathscr{Y}'_0$, it is necessary and sufficient that $(g_1,\ldots,g_n)$ should be an isomorphism with respect to the structures $\mathscr{Y}$ and $\mathscr{Y}'$.*
 
-#### Example 1 {#ens-iv-s1-n7-exa-1 .statement tag=03VI}
+In practice, we make no distinction between the theories $\mathscr{T}_{\Sigma}$ and $\mathscr{T}_{\Theta}$ of two equivalent species of structures.
 
-Let $\Sigma$ be the species of commutative group structures; $\Sigma$ has a single (principal) base set A, and its generic structure consists of a single letter F; the typical characterization of $\Sigma$ is $F \in \mathfrak{P}((A \times A) \times A)$, and we denote the axiom of $\Sigma$ by $R\,\{A, F\}$. This axiom implies in particular that F is the graph of a function (the "law of composition" of the group; cf. no. 4, Example 2). In the theory $\mathscr{T}_\Sigma$ (where $\mathscr{T}$ denotes the theory of sets) we define a term $M\{A, F\}$ which is a functional graph in $\mathfrak{P}((\mathbf{Z} \times A) \times A)$ and satisfies the following relation $B\{M, A, F\}$ :
+## Examples
 
-$$(\forall x)(\forall y)(\forall n)((x \in A \text{ and } y \in A \text{ and } n \in \mathbf{Z})$$
-$$\Rightarrow (M(n,\ F(x,\ y)) = F(M(n,\ x),\ M(n,\ y))))$$
-$$\text{and} \quad (\forall x)(\forall m)(\forall n)((x \in A \text{ and } m \in \mathbf{Z} \text{ and } n \in \mathbf{Z})$$
-$$\Rightarrow (M(m + n,\ x) = F(M(m,\ x),\ M(n,\ x))))$$
-$$\text{and} \quad (\forall x)(\forall m)(\forall n)((x \in A \text{ and } m \in \mathbf{Z} \text{ and } n \in \mathbf{Z})$$
-$$\Rightarrow (M(m,\ M(n,\ x)) = M(mn,\ x)))$$
-$$\text{and} \qquad (\forall x)((x \in A) \Rightarrow (M(1,\ x) = x)).$$
+\* (1) Let $\Sigma$ be the species of commutative group structures; $\Sigma$ has a single (principal) base set $A$, and its generic structure consists of a single letter $F$; the typical characterization of $\Sigma$ is $F\in\mathscr{P}((A\times A)\times A)$, and we denote the axiom of $\Sigma$ by $R\{A,F\}$. This axiom implies in particular that $F$ is the graph of a function (the “law of composition” of the group; cf. no. 4, Example 2). In the theory $\mathscr{T}_{\Sigma}$ (where $\mathscr{T}$ denotes the theory of sets) we define a term $M\{A,F\}$ which is a functional graph in $\mathscr{P}((\mathbf{Z}\times A)\times A)$ and satisfies the following relation $B\{M,A,F\}$:
 
-("multiplication of an element of A by an integer").
+$$
+(\forall x)(\forall y)(\forall n)((x\in A\ \text{and}\ y\in A\ \text{and}\ n\in\mathbf{Z})
+\Rightarrow (M(n,F(x,y))=F(M(n,x),M(n,y))))
+$$
 
-Consider the species $\Theta$ of $\mathbf{Z}$-*module* structures, which has a single principal base set A, with $\mathbf{Z}$ as auxiliary set, and whose generic structure contains two letters G, L, with the typical characterization
+and
 
-$$\mathrm{G} \in \mathfrak{P}((\mathrm{A} \times \mathrm{A}) \times \mathrm{A}) \quad \text{and} \quad \mathrm{L} \in \mathfrak{P}((\mathbf{Z} \times \mathrm{A}) \times \mathrm{A})$$
+$$
+(\forall x)(\forall m)(\forall n)((x\in A\ \text{and}\ m\in\mathbf{Z}\ \text{and}\ n\in\mathbf{Z})
+\Rightarrow (M(m+n,x)=F(M(m,x),M(n,x))))
+$$
+
+and
+
+$$
+(\forall x)(\forall m)(\forall n)((x\in A\ \text{and}\ m\in\mathbf{Z}\ \text{and}\ n\in\mathbf{Z})
+\Rightarrow (M(m,M(n,x))=M(mn,x)))
+$$
+
+and
+
+$$
+(\forall x)((x\in A)\Rightarrow (M(1,x)=x)).
+$$
+
+(“multiplication of an element of $A$ by an integer”).
+
+Consider the species $\Theta$ of $\mathbf{Z}$-module structures, which has a single principal base set $A$, with $\mathbf{Z}$ as auxiliary set, and whose generic struc-
+
+269 ture contains two letters G, L, with the typical characterization
+
+$G \in \mathfrak{P}((A \times A) \times A)$ and $L \in \mathfrak{P}((\mathbf{Z} \times A) \times A)$
 
 and the axiom
 
-"$\mathrm{R}\{\mathrm{A},\ \mathrm{G}\}$ and (L is a functional graph) and $\mathrm{B}\{\mathrm{L},\ \mathrm{A},\ \mathrm{G}\}$".
+“$R \mid A, G$ and $(L$ is a functional graph) and $B \mid L, A, G$”.
 
 It is immediately verified that the terms F, M constitute a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$, and that the term G is a procedure of deduction of a structure of species $\Sigma$ from a structure of species $\Theta$. Furthermore, the condition (3) above is trivially satisfied. We may therefore say that the species of commutative group structures and the species of $\mathbf{Z}$-module structures are equivalent.
 
-#### Example 2 {#ens-iv-s1-n7-exa-2 .statement tag=03VJ}
+(2) Let $\Sigma$ be the species of topological structures (no. 4, Example 3), let $A$ be the (principal) base set, and let $V$ be the generic structure of $\Sigma$. Consider the relation
 
-Let $\Sigma$ be the species of topological structures (no. 4, Example 3), let A be the (principal) base set, and let V be the generic structure of $\Sigma$. Consider the relation
+$$x \in A \text{ and } X \subset A \text{ and } (\forall U)((U \in V \text{ and } x \in U) \Rightarrow (X \cap U \neq \varnothing)).$$
 
-$$x \in \mathrm{A} \text{ and } \mathrm{X} \subset \mathrm{A} \text{ and } (\forall \mathrm{U})((\mathrm{U} \in \mathrm{V} \text{ and } x \in \mathrm{U}) \Rightarrow (\mathrm{X} \cap \mathrm{U} \neq \emptyset)).$$
+This relation has a graph $P \subset \mathfrak{P}(A) \times A$ with respect to the pair $(X, x)$; $P \mid A, V$ is a term called “the set of all pairs $(X, x)$ such that $x$ lies in the closure of $X$ with respect to the topology $V$”. We can then prove (cf. General Topology, Chapter I, § 1) that the following relations are theorems in $\mathscr{T}_{\Sigma}$:
 
-This relation has a graph $\mathrm{P} \subset \mathfrak{P}(\mathrm{A}) \times \mathrm{A}$ with respect to the pair $(\mathrm{X},\ x)$; $\mathrm{P}\{\mathrm{A},\ \mathrm{V}\}$ is a term called "the set of all pairs $(\mathrm{X},\ x)$ such that $x$ lies in the *closure* of X with respect to the topology V". We can then prove (cf. *General Topology*, Chapter I, § 1) that the following relations are theorems in $\mathscr{C}_\Sigma$ :
+$$P(\varnothing)=\varnothing,$$
 
-$$\mathrm{P}(\emptyset) = \emptyset,$$
-$$(\forall \mathrm{Y})((\mathrm{Y} \subset \mathrm{A}) \Rightarrow (\mathrm{Y} \subset \mathrm{P}(\mathrm{Y}))),$$
-$$(\forall \mathrm{Y})((\mathrm{Y} \subset \mathrm{A}) \Rightarrow (\mathrm{P}(\mathrm{P}(\mathrm{Y})) = \mathrm{P}(\mathrm{Y}))),$$
-$$(\forall \mathrm{Y})(\forall \mathrm{Z})((\mathrm{Y} \subset \mathrm{A} \text{ and } \mathrm{Z} \subset \mathrm{A}) \Rightarrow (\mathrm{P}(\mathrm{Y} \cup \mathrm{Z}) = \mathrm{P}(\mathrm{Y}) \cup \mathrm{P}(\mathrm{Z}))).$$
+$$(\forall Y)((Y \subset A) \Rightarrow (\forall Y \subset P(Y))),$$
 
-Consider the species of structures $\Theta$, having a single (principal) base set A, whose generic structure consists of a single letter W, which has as typical characterization $\mathrm{W} \in \mathfrak{P}(\mathfrak{P}(\mathrm{A}) \times \mathrm{A})$ and as axiom
+$$(\forall Y)((Y \subset A) \Rightarrow (P(P(Y))=P(Y))),$$
 
-$$\mathrm{W}(\emptyset) = \emptyset \quad \text{and} \quad (\forall \mathrm{Y})((\mathrm{Y} \subset \mathrm{A}) \Rightarrow (\mathrm{Y} \subset \mathrm{W}(\mathrm{Y})))$$
-and $\qquad (\forall \mathrm{Y})((\mathrm{Y} \subset \mathrm{A}) \Rightarrow (\mathrm{W}(\mathrm{W}(\mathrm{Y})) = \mathrm{W}(\mathrm{Y})))$
-and $\quad (\forall \mathrm{Y})(\forall \mathrm{Z})((\mathrm{Y} \subset \mathrm{A} \quad \text{and} \quad \mathrm{Z} \subset \mathrm{A}) \Rightarrow (\mathrm{W}(\mathrm{Y} \cup \mathrm{Z}) = \mathrm{W}(\mathrm{Y}) \cup \mathrm{W}(\mathrm{Z}))).$
+$$(\forall Y)(\forall Z)((Y \subset A \text{ and } Z \subset A) \Rightarrow (P(Y \cup Z)=P(Y)\cup P(Z))).$$
+
+Consider the species of structures $\Theta$, having a single (principal) base set $A$, whose generic structure consists of a single letter $W$, which has as typical characterization $W \in \mathfrak{P}(\mathfrak{P}(A) \times A)$ and as axiom
+
+$$W(\varnothing)=\varnothing \text{ and } (\forall Y)((Y \subset A) \Rightarrow (Y \subset W(Y)))$$
+
+and
+
+$$(\forall Y)((Y \subset A) \Rightarrow (W(W(Y))=W(Y)))$$
+
+and
+
+$$(\forall Y)(\forall Z)((Y \subset A \text{ and } Z \subset A) \Rightarrow (W(Y \cup Z)=W(Y)\cup W(Z))).$$
 
 Consider also the relation
 
-$$\mathrm{U} \subset \mathrm{A} \quad \text{and} \quad (\forall x)((x \in \mathrm{U}) \Rightarrow x \notin \mathrm{W}(\mathrm{A} - \mathrm{U})).$$
+$$U \subset A \text{ and } (\forall x)((x \in U) \Rightarrow x \notin W(A-U)).$$
 
-The set of all $\mathrm{U} \in \mathfrak{P}(\mathrm{A})$ which satisfy this relation is a subset $\mathrm{Q}\{\mathrm{A},\ \mathrm{W}\}$ of $\mathfrak{P}(\mathrm{A})$. We can then prove (*General Topology*, Chapter I, § 1, Exercise 10) that the following relations are theorems in $\mathscr{C}_\Theta$ :
+The set of all $U \in \mathfrak{P}(A)$ which satisfy this relation is a subset $Q \mid A, W$ of $\mathfrak{P}(A)$. We can then prove (General Topology, Chapter I, § 1, Exercise 10) that the following relations are theorems in $\mathscr{T}_{\Theta}$:
 
-$$\mathrm{A} \in \mathrm{Q},$$
-$$(\forall \mathrm{M})((\mathrm{M} \subset \mathrm{Q}) \Rightarrow \left(\left(\bigcup_{\mathrm{X} \in \mathrm{M}} \mathrm{X}\right) \in \mathrm{Q}\right),$$
-$$(\forall \mathrm{X})(\forall \mathrm{Y})((\mathrm{X} \in \mathrm{Q} \text{ and } \mathrm{Y} \in \mathrm{Q}) \Rightarrow ((\mathrm{X} \cap \mathrm{Y}) \in \mathrm{Q})).$$
+$$A \in Q,$$
 
-Thus the terms $\mathrm{P}\{\mathrm{A}, \mathrm{V}\}$ and $\mathrm{Q}\{\mathrm{A}, \mathrm{W}\}$ satisfy conditions (1) and (2) above, and it is easily seen that they also satisfy condition (3). The species of structures $\Sigma$ and $\Theta$ are therefore equivalent, and we therefore consider every structure of species $\Theta$ as a topology, namely that which corresponds to it under the procedure of deduction $\mathrm{Q}\{\mathrm{A}, \mathrm{W}\}$. \*
+$$(\forall M)((M \subset Q) \Rightarrow ((\bigcup_{X \in M} X) \in Q)),$$
+
+$$(\forall X)(\forall Y)((X \in Q \text{ and } Y \in Q) \Rightarrow ((X \cap Y) \in Q)).$$
+
+270
+
+Thus the terms $P\{A,V\}$ and $Q\{A,W\}$ satisfy conditions (1) and (2) above, and it is easily seen that they also satisfy condition (3). The species of structures $\Sigma$ and $\Theta$ are therefore equivalent, and we therefore consider every structure of species $\Theta$ as a topology, namely that which corresponds to it under the procedure of deduction $Q\{A,W\}$. \*
 
 ### Exercises {#ens-iv-s1-exercises}
 
