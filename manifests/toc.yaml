@@ -1689,7 +1689,7 @@ books:
                 page: 150
                 pdf_page: 264
             - section: 6
-              title: Etale algebra
+              title: Etale algebras
               page: 26
               pdf_page: 140
               subsections:
