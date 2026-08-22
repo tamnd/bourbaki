@@ -10,7 +10,7 @@ source: alg-viii
 source_edition: 2023, Springer Nature
 book_pages: A VIII.285-A VIII.333
 pdf_pages: 0302-0350
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: $\tau$-Extensions of Groups
@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: 0bb0a06280c83b15e6ed9f803cc3767f1b9e76fe1a304af1d9729ecfe5b366e4
+content_sha256: 5bc3325d3592154bfa00069c17896d6ae82d958285347b0aff8f6af8457fc5bf
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -379,52 +379,62 @@ The product of $\tau$-extensions endows the set Ex$_{\tau}(G,F)$ with the struct
 
 The associativity of the law follows from the commutativity of the diagrams
 
-G $^{\delta}$ // $G\times GF\times F\times F^{m\times Id}/$/ $F\times F$
-
-$_{\delta}$ Id$^{\times}_{\delta}$ and Id$^{\times}_mm$
-
-$G\times G^{\delta\times Id}/$/ $G\times G\times GF\times F^m$ // F
+$$
+\begin{array}{ccc}
+G & \xrightarrow{\delta} & G \times G \\
+\downarrow \delta & & \downarrow \operatorname{Id} \times \delta \\
+G \times G & \xrightarrow{\delta \times \operatorname{Id}} & G \times G \times G
+\end{array}
+$$
+and
+$$
+\begin{array}{ccc}
+F \times F \times F & \xrightarrow{m \times \operatorname{Id}} & F \times F \\
+\downarrow \operatorname{Id} \times m & & \downarrow m \\
+F \times F & \xrightarrow{m} & F
+\end{array}
+$$
 
 and from Corollary 2 of VIII, p. 288; Corollary 2 of VIII, p. 291; and Proposition 3 of VIII, p. 292.
 
-Let $\Delta  : F\rightarrow F\times F$ be the diagonal mapping $f\mapsto (f, f)$. Let $\mathscr{E}= (\Gamma , \iota , \pi )$ be a $\tau$-extension. Let $\widetilde{\Delta} : \Gamma \rightarrow \Gamma \times_G\Gamma$ be the group homomorphism given by $\gamma \mapsto (\gamma , \gamma )$. The following diagram commutes:
+Let $ \Delta : F \to F \times F $ be the diagonal mapping $ f \mapsto (f, f) $. Let $ \mathcal{E} = (\Gamma, \iota, \pi) $ be a $ \tau $-extension. Let $ \tilde{\Delta} : \Gamma \to \Gamma \times_G \Gamma $ be the group homomorphism given by $ \gamma \mapsto (\gamma, \gamma) $. The following diagram commutes:
 
-F $^{\iota}$ // Γ $^{\pi}$ // G
+$$
+\begin{array}{ccc}
+F & \xrightarrow{\iota} & \Gamma & \xrightarrow{\pi} & G \\
+\downarrow \Delta & & \downarrow \tilde{\Delta} & & \parallel \\
+F \times F & \longrightarrow & \Gamma \times_G \Gamma & \longrightarrow & G.
+\end{array}
+$$
 
-Δ $\widetilde{\Delta}$
+By Proposition 2 of VIII, p. 290, it follows that the $ (\tau \times \tau) \circ \delta $-extension $ \delta^*(\mathcal{E} \times \mathcal{E}) $ is isomorphic to $ \Delta_*(\mathcal{E}) $.
 
-$F\times F$ // $\Gamma \times_G\Gamma$ // G .
+Denote by $ c : F \to F $ the constant homomorphism $ f \mapsto 1 $. by Example 1 of VIII, p. 292, the fact that $ \mathscr{I}_\tau $ is an identity element for this law of composition follows from the isomorphism from $ \delta^*(\mathcal{E} \times \mathcal{E}) $ to $ \Delta_*(\mathcal{E}) $ and the commutative diagram
 
-By Proposition 2 of VIII, p. 290, it follows that the $(\tau \times \tau )\circ \delta$-extension $\delta^*(\mathscr{E}\times \mathscr{E})$ is isomorphic to $\Delta_*(\mathscr{E})$.
-
-Denote by $c: F\rightarrow F$ the constant homomorphism $f\mapsto 1$. by Example 1 of VIII, p. 292, the fact that $\mathscr{I}_{\tau}$ is an identity element for this law of composition follows from the isomorphism from $\delta^*(\mathscr{E}\times \mathscr{E})$ to $\Delta_*(\mathscr{E})$ and the commutative diagram
-
-$F^{(Id_F\times c)\circ\Delta}/$/ $F\times F$
-
-Id$_F$ $(c\times$Id$_F)\circ \Delta m$
-
-$_m$ &&//
-
-$F\times F$ F .
+$$
+\begin{array}{ccc}
+F & \xrightarrow{(\operatorname{Id}_F \times c) \circ \Delta} & F \times F \\
+(c \times \operatorname{Id}_F) \circ \Delta & & \downarrow \operatorname{Id}_F \\
+& & \downarrow m \\
+F \times F & \xrightarrow{m} & F.
+\end{array}
+$$
 
 The last assertion follows from the commutative diagram
 
-$F^{(Id_F\times s)\circ\Delta}/$/ $F\times F$
+$$
+\begin{array}{ccc}
+F & \xrightarrow{(\operatorname{Id}_F \times s) \circ \Delta} & F \times F \\
+(s \times \operatorname{Id}_F) \circ \Delta & & \downarrow c \\
+& & \downarrow m \\
+F \times F & \xrightarrow{m} & F.
+\end{array}
+$$
+
+Let $ \mathcal{E}_1 = (\Gamma_1, \iota_1, \pi_1) $ and $ \mathcal{E}_2 = (\Gamma_2, \iota_2, \pi_2) $ be $ \tau $-extensions. The group isomorphism $ \Gamma_1 \times \Gamma_2 \to \Gamma_2 \times \Gamma_1 $ given by $ (\gamma_1, \gamma_2) \mapsto (\gamma_2, \gamma_1) $ restricts to a group isomorphism $ \sigma : \Gamma_1 \times_G \Gamma_2 \to \Gamma_2 \times_G \Gamma_1 $. Because of the relations
 
 $$
-c
-$$
-
-$(s\times$Id$_F)\circ \Delta m$
-
-$_m$ &&//
-
-$F\times F$ F .
-
-Let $\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ and $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ be $\tau$-extensions. The group isomorphism $\Gamma_1\times \Gamma_2\rightarrow \Gamma_2\times \Gamma_1$ given by $(\gamma_1, \gamma_2)\mapsto (\gamma_2, \gamma_1)$ restricts to a group isomorphism $\sigma : \Gamma_1\times_G\Gamma_2\rightarrow \Gamma_2\times_G\Gamma_1$. Because of the relations
-
-$$
-\sigma (\iota_1(f), \iota_2(f)^{-1}) = (\iota_2(f^{-1}), \iota_1(f^{-1})^{-1})
+\sigma(\iota_1(f), \iota_2(f)^{-1}) = (\iota_2(f^{-1}), \iota_1(f^{-1})^{-1})
 $$
 
 for $f\in F$, the group homomorphism $\sigma$ induces, by passing to the quotients, a morphism of $\tau$-extensions from $\mathscr{E}_1\mathscr{E}_2$ to $\mathscr{E}_2\mathscr{E}_1$. So the law of composition is commutative.

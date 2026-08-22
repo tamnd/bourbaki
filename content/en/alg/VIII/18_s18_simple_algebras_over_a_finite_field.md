@@ -10,7 +10,7 @@ source: alg-viii
 source_edition: 2023, Springer Nature
 book_pages: A VIII.355-A VIII.360
 pdf_pages: 0372-0377
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: Polynomials over a Finite Field
@@ -20,9 +20,9 @@ subsections:
       title: Simple Algebras over Finite Fields
       page: 357
       pdf_page: 374
-statements: 10
+statements: 9
 exercises: 7
-content_sha256: 2e54129261e2cf9cc0935b1e6d5d3d389efce06f1bc5f48edb1e9227a40ce254
+content_sha256: 05b7066ed3c39e544b1ceb8f923c3ec7dae8f65d11434bc82da96e56f08de1e2
 ---
 
 ## § 18. SIMPLE ALGEBRAS OVER A FINITE FIELD
@@ -51,43 +51,32 @@ Let $q$ be the cardinal of K. For any integer $m\geqslant 0$, set $S_m=$ $\sum_{
 
 Recall that $0^0= 1$ (I, §2, No. 1, p. 14). Suppose that $m$ is a multiple of $q-1$. Since the abelian group $K^*$ has order $q-1$, we have $x^m= 1$ for every $x\in K^*$ and $S_m= 0^m+ (q-1)\cdot 1$, which gives the assertion in this case.
 
-Suppose that $m$ is not a multiple of $q-1$. Set $\chi (x) =x^m$ for $x\in K^*$. Since the multiplicative group $K^*$ is cyclic of order $q-1$ (V, §12, No. 1, p. 93, Proposition 1), there exists an element $a$ of $K^*$ such that $\chi (a)\not= 1$. By Lemma 1 applied to $G = K^*$, we have
-
+Suppose that $m$ is not a multiple of $q-1$. Set $\chi (x) =x^m$ for $x\in K^*$. Since the multiplicative group $K^*$ is cyclic of order $q-1$ (V, §12, No. 1, p. 93, Proposition 1), there exists an element $a$ of $K^*$ such that $\chi(a) \neq 1$. By Lemma 1 applied to $G = K^*$, we have
 $$
-S_m= 0^m+\sum_{x\in K^*}\chi (x) = 0
+S_m = 0^m + \sum_{x \in K^*} \chi(x) = 0;
 $$
-
 this gives Lemma 2.
 
-Let us now prove Theorem 1. Let $\mathbf{x}= (x_1, . . . , x_n)$ be an element of $K^n$. We have $1-f_i(\mathbf{x})^{q-1}= 0$ if $f_i(\mathbf{x})\not= 0$ and $1-f_i(\mathbf{x})^{q-1}= 1$ if $f_i(\mathbf{x}) = 0$. Set $P =\prod^r_{i=1}(1-f_i^{q-1})$. We have
-
-1 if $\mathbf{x}\in Z$,
-
+Let us now prove Theorem 1. Let $\mathbf{x} = (x_1, \ldots, x_n)$ be an element of $K^n$. We have $1 - f_i(\mathbf{x})^{q-1} = 0$ if $f_i(\mathbf{x}) \neq 0$ and $1 - f_i(\mathbf{x})^{q-1} = 1$ if $f_i(\mathbf{x}) = 0$. Set $P = \prod_{i=1}^r (1 - f_i^{q-1})$. We have
 $$
-P(\mathbf{x}) = \tag{1}
+P(\mathbf{x}) = \begin{cases}
+1 & \text{if } \mathbf{x} \in \mathbf{Z}, \\
+0 & \text{if } \mathbf{x} \notin \mathbf{Z}.
+\end{cases}
 $$
-
-0 if $\mathbf{x}\notin Z$.
-
-Let us expand the polynomial P as $\sum_{\alpha\in\mathbf{N}^n}c_{\alpha}X^{\alpha}$; by assumption, it has degree $<(q-1)n$. Let $\alpha$ be an element of $\mathbf{N}^n$ such that $c_{\alpha}$ is nonzero. Since we have $\alpha_1+\cdots +\alpha_n<(q-1)n$, there exists an integer $\ell$ such that $1\leqslant \ell \leqslant n$ and $0\leqslant \alpha_{\ell}< q-1$. By Lemma 2, we then have $\sum_{x\in K}x^{\alpha_{\ell}}= 0$, and therefore
-
+Let us expand the polynomial $P$ as $\sum_{\alpha \in \mathbf{N}^n} c_\alpha X^\alpha$; by assumption, it has degree $< (q-1)n$. Let $\alpha$ be an element of $\mathbf{N}^n$ such that $c_\alpha$ is nonzero. Since we have $\alpha_1 + \cdots + \alpha_n < (q-1)n$, there exists an integer $\ell$ such that $1 \leq \ell \leq n$ and $0 \leq \alpha_\ell < q-1$. By Lemma 2, we then have $\sum_{x \in K} x^{\alpha_\ell} = 0$, and therefore
 $$
-\sum_{\mathbf{x}\in K^n}\mathbf{x}^{\alpha}=\prod_{j=1}^n((\sum_{x\in K}x^{\alpha_j})= 0
+\sum_{\mathbf{x} \in K^n} \mathbf{x}^\alpha = \prod_{j=1}^n \left( \sum_{x \in K} x^{\alpha_j} \right) = 0.
 $$
-
 We consequently have
-
 $$
-\sum_{\mathbf{x}\in K^n}P(\mathbf{x}) =\sum_{\alpha\in\mathbf{N}^n}c_{\alpha}((\sum_{\mathbf{x}\in K^n}\mathbf{x}^{\alpha})= 0
+\sum_{\mathbf{x} \in K^n} P(\mathbf{x}) = \sum_{\alpha \in \mathbf{N}^n} c_\alpha \left( \sum_{\mathbf{x} \in K^n} \mathbf{x}^\alpha \right) = 0.
 $$
+Now, by formula (1), we have $\sum_{\mathbf{x} \in K^n} P(\mathbf{x}) = \operatorname{Card}(\mathbf{Z}) \cdot 1$, and therefore $\operatorname{Card}(\mathbf{Z}) \cdot 1 = 0$, which means that $\operatorname{Card}(\mathbf{Z})$ is divisible by $p$.
 
-Now, by formula (1), we have $\sum_{\mathbf{x}\in K^n}P(\mathbf{x}) =$ Card(Z) $\cdot 1$, and therefore Card(Z) $\cdot 1 = 0$, which means that Card(Z) is divisible by $p$.
+Corollary. — *Let $V$ be a vector space of finite dimension $n$ over $K$ and $I$ a finite set, and for each $i \in I$, let $F_i : V \to K$ be a homogeneous polynomial mapping of degree $d_i > 0$. If we have $\sum_{i \in I} d_i < n$, then there exists a nonzero element $x$ of $V$ such that $F_i(x) = 0$ for every $i \in I$.*
 
-#### Corollary {#alg-viii-s18-n1-cor-1 .statement tag=00LD}
-
-Let V be a vector space of finite dimension $n$ over K and I a finite set, and for each $i\in I$, let $F_i: V\rightarrow K$ be a homogeneous polynomial mapping of degree $d_i>0$. If we have $\sum_{i\in I}d_i< n$, then there exists a nonzero element $x$ of V such that $F_i(x) = 0$ for every $i\in I$.
-
-Let $(e_1, . . . , e_n)$ be a basis of V over K. By the definition of homogeneous polynomial mappings (IV, §5, No. 9, p. 55, Definition 3), for every $i\in I$, there exists a homogeneous polynomial $f_i$ in $K[X_1, . . . ,X_n]$ of degree $d_i$ such that we have $F_i(\xi_1e_1, . . . , \xi_ne_n) =f_i(\xi_1, . . . , \xi_n)$. Let Z be the set of elements $x$ of V such that $F_i(x) = 0$ for every $i\in I$. By Theorem 1, the cardinal of Z is divisible by $p$, and since 0 belongs to S, we have Card(Z) $\geqslant p >1$.
+Let $(e_1, \ldots, e_n)$ be a basis of $V$ over $K$. By the definition of homogeneous polynomial mappings (IV, §5, No. 9, p. 55, Definition 3), for every $i \in I$, there exists a homogeneous polynomial $f_i$ in $K[X_1, \ldots, X_n]$ of degree $d_i$ such that we have $F_i(\xi_1 e_1, \ldots, \xi_n e_n) = f_i(\xi_1, \ldots, \xi_n)$. Let $Z$ be the set of elements $x$ of $V$ such that $F_i(x) = 0$ for every $i \in I$. By Theorem 1, the cardinal of $Z$ is divisible by $p$, and since $0$ belongs to $S$, we have $\operatorname{Card}(Z) \geq p > 1$.
 
 ### 2. Simple Algebras over Finite Fields
 

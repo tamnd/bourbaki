@@ -10,7 +10,7 @@ source: alg-viii
 source_edition: 2023, Springer Nature
 book_pages: A VIII.183-A VIII.210
 pdf_pages: 0200-0227
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: Additive Functions of Modules
@@ -49,7 +49,7 @@ subsections:
       page: 200
       pdf_page: 217
     - "no": 10
-      title: Change of Rings for $K_0(A)$
+      title: Change of Rings for $ K_0(A) $
       page: 201
       pdf_page: 218
     - "no": 11
@@ -60,9 +60,9 @@ subsections:
       title: The Case of Simple Rings
       page: 204
       pdf_page: 221
-statements: 38
+statements: 36
 exercises: 14
-content_sha256: ba29756ebb86dbc277c40e6aee671d71ae38afca5bf3d819d1337afb0b6dd0be
+content_sha256: 43d596f252fae7049ec8dcabbc9adee53a95a4b7ca0fc1773216251ad22f944a
 ---
 
 ## § 11. GROTHENDIECK GROUPS
@@ -99,54 +99,61 @@ of modules of type $\mathscr{C}$.
 
 #### Example 4 {#alg-viii-s11-n1-exa-4 .statement tag=00CX}
 
-Let $\mathscr{C}$ be the set of classes of A-modules of finite length. The mapping long$_A:\mathscr{C}\rightarrow \mathbf{Z}$ that sends a class of A-modules of finite length to its length is an additive function of modules (II, §1, No. 10, p. 213, Corollary 3). The results of this subsection are a generalization of the results on modules of finite length established in II, §1, No. 10, p. 212–214.
+— Let $ \mathcal{C} $ be the set of classes of A-modules of finite length. The mapping $ \operatorname{long}_A : \mathcal{C} \to \mathbf{Z} $ that sends a class of A-modules of finite length to its length is an additive function of modules (II, §1, No. 10, p. 213, Corollary 3). The results of this subsection are a generalization of the results on modules of finite length established in II, §1, No. 10, p. 212–214.
 
-In the remainder of this subsection, we consider an additive set $\mathscr{C}$ of A-modules and an additive mapping $\varphi$ from $\mathscr{C}$ to an abelian group G.
+In the remainder of this subsection, we consider an additive set $ \mathcal{C} $ of A-modules and an additive mapping $ \varphi $ from $ \mathcal{C} $ to an abelian group $ G $.
 
-Let E and $E'$ be modules of type $\mathscr{C}$; then $E\oplus E'$ is of type $\mathscr{C}$, and there exists a split exact sequence (II, §1, No. 9, p. 210)
+Let E and $ E' $ be modules of type $ \mathcal{C} $; then $ E \oplus E' $ is of type $ \mathcal{C} $, and there exists a split exact sequence (II, §1, No. 9, p. 210)
 
 $$
-0\longrightarrow E\longrightarrow E\oplus E'\longrightarrow E'\longrightarrow 0
+0 \longrightarrow E \longrightarrow E \oplus E' \longrightarrow E' \longrightarrow 0;
 $$
 
 from this, we deduce
 
+(1)
 $$
-\varphi (E\oplus E') =\varphi (E) +\varphi (E') \tag{1}
+\varphi(E \oplus E') = \varphi(E) + \varphi(E').
 $$
 
-In particular, we have $\varphi (0) = 0$.
+In particular, we have $ \varphi(0) = 0 $.
 
-#### Proposition 1 {#alg-viii-s11-prop-1 .statement tag=00CY}
+Proposition 1. — Suppose that $ \mathcal{C} $ is hereditary. Let E and F be A-modules and $ u : E \to F $ a linear mapping.
+a) If E or F is of type $ \mathcal{C} $, then so is the image of u.
+b) If E is of type $ \mathcal{C} $, then so is the kernel of u, and we have
 
-Suppose that $\mathscr{C}$ is hereditary. Let E and F be A-modules and $u: E\rightarrow F$ a linear mapping.
+(2)
+$$
+\varphi(E) = \varphi(\operatorname{Ker}\,u) + \varphi(\operatorname{Im}\,u).
+$$
 
-a) If E or F is of type $\mathscr{C}$, then so is the image of $u$.
+c) If F is of type $ \mathcal{C} $, then so is the cokernel of u, and we have
 
-b) If E is of type $\mathscr{C}$, then so is the kernel of $u$, and we have
-
-(2) $\varphi (E) =\varphi$(Ker $u$) $+\varphi$(Im $u$).
-
-c) If F is of type $\mathscr{C}$, then so is the cokernel of $u$, and we have
-
-(3) $\varphi (F) =\varphi$(Im $u$) $+\varphi$(Coker $u$).
+(3)
+$$
+\varphi(F) = \varphi(\operatorname{Im}\,u) + \varphi(\operatorname{Coker}\,u).
+$$
 
 The proposition follows from the existence of exact sequences
 
-$0\longrightarrow$ Ker $u\longrightarrow E\longrightarrow$ Im $u\longrightarrow 0$,
+$$
+0 \longrightarrow \operatorname{Ker}\,u \longrightarrow E \longrightarrow \operatorname{Im}\,u \longrightarrow 0,
+$$
+$$
+0 \longrightarrow \operatorname{Im}\,u \longrightarrow F \longrightarrow \operatorname{Coker}\,u \longrightarrow 0.
+$$
 
-$0\longrightarrow$ Im $u\longrightarrow F\longrightarrow$ Coker $u\longrightarrow 0$.
+Corollary. — Let $ (E_i)_{0 \leq i \leq n} $ be a finite sequence of modules of type $ \mathcal{C} $. If there exists an exact sequence
 
-#### Corollary {#alg-viii-s11-n1-cor-1 .statement tag=00CZ}
-
-Let $(E_i)_{0\leqslant i\leqslant n}$ be a finite sequence of modules of type $\mathscr{C}$. If there exists an exact sequence
-
-0 // $E_0^{u_0}$ // $E_1^{u_1}$ /$/\cdots$ // $E_{n-1}^{u_{n-1}}$ // $E_n$ // $0$,
+$$
+0 \longrightarrow E_0 \xrightarrow{u_0} E_1 \xrightarrow{u_1} \cdots \xrightarrow{u_{n-1}} E_{n-1} \xrightarrow{u_n} E_n \longrightarrow 0,
+$$
 
 then we have
 
+(4)
 $$
-\sum_{i=0}^n(-1)^i\varphi (E_i) = 0 \tag{4}
+\sum_{i=0}^n (-1)^i \varphi(E_i) = 0.
 $$
 
 Let us prove the corollary by induction on $n$; the cases $n= 0$ and $n= 1$ are trivial. So let $n\geqslant 1$, and let
@@ -721,29 +728,31 @@ If every finitely generated projective A-module is free, then the rank defines a
 
 Let A be a left Artinian ring. Let $\mathfrak{r}$ be its radical; it is a nilpotent two-sided ideal of A, and the ring $A/\mathfrak{r}$ is semisimple (VIII, p. 173, Proposition 1). By the corollary of VIII, p. 176, the mapping $P\mapsto$ cl(P$/\mathfrak{r}P$) is an isomorphism from the monoid $\mathscr{P}(A)$ to the monoid $\mathscr{P}(A/\mathfrak{r})$. We deduce from it a group isomorphism $\gamma$ from $K_0(A)$ to $K_0(A/\mathfrak{r})$ characterized by the relation $\gamma ([P]_{\mathscr{P}(A)}) = [P/\mathfrak{r}P]_{\mathscr{P}(A/\mathfrak{r})}$ for every finitely generated projective A-module P.
 
-Since the ring $A/\mathfrak{r}$ is semisimple, the remark above implies the equality $R(A/\mathfrak{r}) = K_0(A/\mathfrak{r})$. The modules of finite length over the ring $A/\mathfrak{r}$ are simply the semisimple modules of finite length over the ring A (VIII, p. 174, Proposition 2); consequently, we can identify $\mathscr{L}\mathscr{F}(A/\mathfrak{r})$ with $\mathscr{S}\mathscr{S}(A)$ and $R(A/\mathfrak{r})$ with $K(\mathscr{S}\mathscr{S}(A))$. We denote by $\delta$ the homomorphism $\gamma_{\mathscr{L}\mathscr{F}(A),\mathscr{S}\mathscr{S}(A)}$ from $R(A/\mathfrak{r}) = K(\mathscr{S}\mathscr{S}(A))$ to $R(A) = K(\mathscr{L}\mathscr{F}(A))$ (VIII, p. 191, Remark 1); it is an isomorphism. Finally, we have $\mathscr{P}(A)\subset \mathscr{L}\mathscr{F}$(A), and we set $\varepsilon =$ $\gamma_{\mathscr{L}\mathscr{F}(A),\mathscr{P}(A)}$. We have defined a diagram
-
-$K_0(A)\gamma$ // $K_0(A/\mathfrak{r}) = R(A/\mathfrak{r})$
-
-$^{\varepsilon}$  $^{\delta}$
-
-R(A) .
-
-We denote the (finite) set of classes of simple A-modules by $\mathscr{S}$; for every $\lambda \in \mathscr{S}$, choose a module $S_{\lambda}$ of class $\lambda$ and a projective cover $(P_{\lambda}, u_{\lambda})$ of $S_{\lambda}$ (VIII, p. 175, Proposition 4). It follows from Proposition 6 of VIII, p. 176 that $K_0(A)$ is a free $\mathbf{Z}$-module with basis the family $([P_{\lambda}]_{\mathscr{P}(A)})_{\lambda\in\mathscr{S}}$. Moreover, since $S_{\lambda}$ is isomorphic to $P_{\lambda}/\mathfrak{r}P_{\lambda}$ (VIII, p. 176)$,\gamma$ transforms the basis $([P_{\lambda}]_{\mathscr{P}(A)})_{\lambda\in\mathscr{S}}$ of $K_0(A)$ into the basis $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ of $R(A/\mathfrak{r})$. The isomorphism $\delta$ transforms the basis $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ of $R(A/\mathfrak{r})$ into the basis $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ of R(A).
-
-The Cartan matrix of A is the matrix $(a_{\lambda \mu})$ of the homomorphism of $\mathbf{Z}$-modules $\varepsilon : K_0(A)\rightarrow R(A)$ with respect to bases $([P_{\lambda}]_{\mathscr{P}(A)})_{\lambda\in\mathscr{S}}$ of $K_0(A)$ and $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ of R(A). By definition, we have
+Since the ring $A/\mathfrak{r}$ is semisimple, the remark above implies the equality $R(A/\mathfrak{r}) = K_0(A/\mathfrak{r})$. The modules of finite length over the ring $A/\mathfrak{r}$ are simply the semisimple modules of finite length over the ring A (VIII, p. 174, Proposition 2); consequently, we can identify $\mathscr{L}\mathscr{F}(A/\mathfrak{r})$ with $\mathscr{S}\mathscr{S}(A)$ and $R(A/\mathfrak{r})$ with $K(\mathscr{S}\mathscr{S}(A))$. We denote by $\delta$ the homomorphism $\gamma_{\mathscr{L}\mathscr{F}(A),\mathscr{S}\mathscr{S}(A)}$ from $R(A/\mathfrak{r}) = K(\mathscr{S}\mathscr{S}(A))$ to $R(A) = K(\mathscr{L}\mathscr{F}(A))$ (VIII, p. 191, Remark 1); it is an isomorphism. Finally, we have $\mathscr{P}(A)\subset \mathscr{L}\mathscr{F}$(A), and we set $\varepsilon =$ \gamma_{\mathscr{LF}(A),\mathscr{P}(A)}. We have defined a diagram
 
 $$
-[P_\mu] =\sum_{\lambda\in\mathscr{S}}a_{\lambda \mu}[S_{\lambda}](\mu\in \mathscr{S}) \tag{19}
+\begin{array}{ccc}
+K_0(A) & \xrightarrow{\gamma} & K_0(A/\mathfrak{r}) = R(A/\mathfrak{r}) \\
+& \searrow^{\varepsilon} & \swarrow^{\delta} \\
+& & R(A).
+\end{array}
 $$
 
-in the group R(A). In other words, $a_{\lambda \mu}$ is the number of quotients isomorphic to $S_{\lambda}$ in a Jordan–Hölder series of the A-module $P_\mu$.
+We denote the (finite) set of classes of simple A-modules by $ \mathscr{S} $; for every $ \lambda \in \mathscr{S} $, choose a module $ S_\lambda $ of class $ \lambda $ and a projective cover $ (P_\lambda, u_\lambda) $ of $ S_\lambda $ (VIII, p. 175, Proposition 4). It follows from Proposition 6 of VIII, p. 176 that $ K_0(A) $ is a free $ \mathbf{Z} $-module with basis the family $ ([P_\lambda]_{\mathscr{P}(A)})_{\lambda \in \mathscr{S}} $. Moreover, since $ S_\lambda $ is isomorphic to $ P_\lambda / \mathfrak{r} P_\lambda $ (VIII, p. 176), $ \gamma $ transforms the basis $ ([P_\lambda]_{\mathscr{P}(A)})_{\lambda \in \mathscr{S}} $ of $ K_0(A) $ into the basis $ ([S_\lambda])_{\lambda \in \mathscr{S}} $ of $ R(A/\mathfrak{r}) $. The isomorphism $ \delta $ transforms the basis $ ([S_\lambda])_{\lambda \in \mathscr{S}} $ of $ R(A/\mathfrak{r}) $ into the basis $ ([S_\lambda])_{\lambda \in \mathscr{S}} $ of $ R(A) $.
 
-Set $\pi =\varepsilon \circ \gamma^{-1}\circ \delta^{-1}$; it is an endomorphism of the group R(A). If M is a finitely generated semisimple A-module and $(P, u)$ a projective cover of M, then we have $\pi ([M]) = [P]$. By formula (19), the matrix of $\pi$ with respect to the basis $([S_{\lambda}])_{\lambda\in\mathscr{S}}$ of R(A) is simply the Cartan matrix of A.
+The *Cartan matrix* of $ A $ is the matrix $ (a_{\lambda \mu}) $ of the homomorphism of $ \mathbf{Z} $-modules $ \varepsilon : K_0(A) \to R(A) $ with respect to bases $ ([P_\lambda]_{\mathscr{P}(A)})_{\lambda \in \mathscr{S}} $ of $ K_0(A) $ and $ ([S_\lambda])_{\lambda \in \mathscr{S}} $ of $ R(A) $. By definition, we have
 
-### 10. Change of Rings for $K_0(A)$
+$$
+[P_\mu] = \sum_{\lambda \in \mathscr{S}} a_{\lambda \mu} [S_\lambda] \qquad (\mu \in \mathscr{S})
+$$
 
-Let A and B be rings. Let $f: A\rightarrow B$ be a ring homomorphism. If P is a finitely generated projective A-module, then the B-module $f^*(P) = B\otimes_AP$ is projective and finitely generated (II, §5, No. 2, p. 281, Corollary). The mapping $P\mapsto$ cl($f^*(P)$) is a homomorphism from the monoid $\mathscr{P}(A)$ to the monoid $\mathscr{P}(B)$ and therefore defines a homomorphism $f^*: K_0(A)\rightarrow$ $K_0(B)$ characterized by the relation $f^*([P]_{\mathscr{P}(A)}) = [f^*(P)]_{\mathscr{P}(B)}$ for every finitely generated projective A-module P. If $g: B\rightarrow C$ is a second ring homomorphism, then it follows from the transitivity of the extension of scalars (II, §5, No. 1, p. 278, Proposition 2) that the homomorphisms $(g\circ f)^*$ and $g^*\circ f^*$ from $K_0(A)$ to $K_0(C)$ are equal.
+in the group $ R(A) $. In other words, $ a_{\lambda \mu} $ is the number of quotients isomorphic to $ S_\lambda $ in a Jordan–Hölder series of the A-module $ P_\mu $.
+
+Set $ \pi = \varepsilon \circ \gamma^{-1} \circ \delta^{-1} $; it is an endomorphism of the group $ R(A) $. If M is a finitely generated semisimple A-module and $ (P, u) $ a projective cover of M, then we have $ \pi([M]) = [P] $. By formula (19), the matrix of $ \pi $ with respect to the basis $ ([S_\lambda])_{\lambda \in \mathscr{S}} $ of $ R(A) $ is simply the Cartan matrix of $ A $.
+
+### 10. Change of Rings for $ K_0(A) $
+
+Let A and B be rings. Let $ f : A \to B $ be a ring homomorphism. If P is a finitely generated projective A-module, then the B-module $ f^*(P) = B \otimes_A P $ is projective and finitely generated (II, §5, No. 2, p. 281, Corollary). The mapping $ P \mapsto \operatorname{cl}(f^*(P)) $ is a homomorphism from the monoid $ \mathscr{P}(A) $ to the monoid $ \mathscr{P}(B) $ and therefore defines a homomorphism $ f^* : K_0(A) \to K_0(B) $ characterized by the relation $ f^*([P]_{\mathscr{P}(A)}) = [f^*(P)]_{\mathscr{P}(B)} $ for every finitely generated projective A-module P. If $ g : B \to C $ is a second ring homomorphism, then it follows from the transitivity of the extension of scalars (II, §5, No. 1, p. 278, Proposition 2) that the homomorphisms $(g\circ f)^*$ and $g^*\circ f^*$ from $K_0(A)$ to $K_0(C)$ are equal.
 
 Suppose that $f$ makes B into a finitely generated projective left A-module. Let Q be a finitely generated projective left B-module. Then Q is a direct factor of a finitely generated free B-module that is projective and finitely generated over A. Consequently, the A-module $f_*(Q)$ obtained from Q by restriction of scalars is projective and finitely generated. As above, we deduce a homomorphism $f_*: K_0(B)\rightarrow K_0(A)$ characterized by the relation $f_*([Q]_{\mathscr{P}(B)}) = [f_*(Q)]_{\mathscr{P}(A)}$ for every finitely generated projective B-module Q. If $g: B\rightarrow C$ is a ring homomorphism that makes C into a finitely generated projective B-module, then the homomorphisms $(g\circ f)_*$ and $f_*\circ g_*$ from $K_0(C)$ to $K_0(A)$ are equal.
 

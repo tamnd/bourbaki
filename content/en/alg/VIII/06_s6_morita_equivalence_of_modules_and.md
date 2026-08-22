@@ -10,7 +10,7 @@ source: alg-viii
 source_edition: 2023, Springer Nature
 book_pages: A VIII.95-A VIII.117
 pdf_pages: 0112-0134
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: Commutant and Duality
@@ -40,9 +40,9 @@ subsections:
       title: Morita Equivalence of Algebras
       page: 111
       pdf_page: 128
-statements: 41
+statements: 40
 exercises: 8
-content_sha256: 306fb13bb4f9f5edee08e10f4667abcd3a6b187f92b185c31aa2f13a42d5b584
+content_sha256: 25fb547cdd0923e402adfb7298b0fc0f1bd6503c596ee2106e24c4da92314558
 ---
 
 ## § 6. MORITA EQUIVALENCE OF MODULES AND ALGEBRAS
@@ -267,51 +267,55 @@ Two $k$-algebras A and B are called Morita equivalent if there exists an inverti
 
 Two isomorphic $k$-algebras are Morita equivalent. If two $k$-algebras are Morita equivalent, then their opposite algebras are Morita equivalent.
 
-Let P be an invertible $(A,B)_k$-bimodule and Q an inverse of P. Then Q is an invertible $(B,A)_k$-bimodule, and it has P as inverse. Moreover, viewed as a $(B^o,A^o)_k$-bimodule, P is invertible and has the $(A^o,B^o)_k$-bimodule Q as inverse.
+Let P be an invertible $(A, B)_k$-bimodule and Q an inverse of P. Then Q is an invertible $(B, A)_k$-bimodule, and it has P as inverse. Moreover, viewed as a $(B^\circ, A^\circ)_k$-bimodule, P is invertible and has the $(A^\circ, B^\circ)_k$-bimodule Q as inverse.
 
 #### Lemma 1 {#alg-viii-s6-lem-1 .statement tag=0071}
 
-Let A and B be $k$-algebras, P be an invertible $(A,B)_k$-bimodule, M and N be B-modules, and $u: M\rightarrow N$ be a B-linear mapping. If the mapping $1_P\otimes u: P\otimes_BM\rightarrow P\otimes_BN$ is zero (resp. bijective), then so is $u$.
+— *Let A and B be k-algebras, P be an invertible $(A, B)_k$-bimodule, M and N be B-modules, and $u : M \to N$ be a B-linear mapping. If the mapping $1_P \otimes u : P \otimes_B M \to P \otimes_B N$ is zero (resp. bijective), then so is u.*
 
-Let Q be a bimodule inverse to P and $\theta : Q\otimes_AP\rightarrow_sB_d$ an isomorphism of $(B,B)_k$-bimodules. The lemma follows from the commutativity of the diagram
+Let Q be a bimodule inverse to P and $\theta : Q \otimes_A P \to {}_s B_d$ an isomorphism of $(B, B)_k$-bimodules. The lemma follows from the commutativity of the diagram
 
-$Q\otimes_AP\otimes_BM^{1_Q\otimes 1_P\otimes u}/$/ $Q\otimes_AP\otimes_BN$
+$$
+\begin{array}{ccc}
+Q \otimes_A P \otimes_B M & \xrightarrow{1_Q \otimes 1_P \otimes u} & Q \otimes_A P \otimes_B N \\
+\downarrow \theta \otimes 1_M & & \downarrow \theta \otimes 1_M \\
+M & \xrightarrow{u} & N.
+\end{array}
+$$
 
-$\theta \otimes 1_M\theta \otimes 1_M$
+*Theorem 1.* — *Let A and B be k-algebras and P an $(A, B)_k$-bimodule. Denote the $(B, A)_k$-bimodule $\operatorname{Hom}_A(P, A_s)$ by $P^*$. The following properties are equivalent:
 
-M $u$ // N .
+(i) *The $(A, B)_k$-bimodule P is invertible.*
 
-#### Theorem 1 {#alg-viii-s6-thm-1 .statement tag=0072}
+(ii) *The A-module P is projective, finitely generated, and generating, and the mapping $b \mapsto b_P$ from B to $\operatorname{End}_A(P)^{\circ}$ is a k-algebra isomorphism.*
 
-Let A and B be $k$-algebras and P an $(A,B)_k$-bimodule. Denote the $(B,A)_k$-bimodule Hom$_A(P,A_s)$ by $P^*$. The following properties are equivalent:
+(iii) *The right B-module P is projective, finitely generated, and generating, and the mapping $a \mapsto a_P$ from A to $\operatorname{End}_B(P)$ is a k-algebra isomorphism.*
 
-(i) The $(A,B)_k$-bimodule P is invertible.
+If these properties hold, then the homomorphisms
 
-(ii) The A-module P is projective, finitely generated, and generating, and the mapping $b\mapsto b_P$ from B to End$_A(P)^o$ is a $k$-algebra isomorphism.
+$$
+\Theta : P^* \otimes P \to {}_s B_d \quad \text{and} \quad \Lambda : P \otimes P^* \to {}_s A_d
+$$
 
-(iii) The right B-module P is projective, finitely generated, and generating, and the mapping $a\mapsto a_P$ from A to End$_B(P)$ is a $k$-algebra isomorphism. If these properties hold, then the homomorphisms
+are isomorphisms, so that the $(B, A)_k$-bimodule $P^*$ is an inverse of P.
 
-$\Theta  : P^*\otimes P\rightarrow_sB_d$ and $\Lambda  : P\otimes P^*\rightarrow_sA_d$
+If property (ii) holds, then P is an invertible $(A, B)_k$-bimodule with inverse $P^*$ (VIII, p. 98, Proposition 2 and p. 98, Proposition 3). This proves that (ii) implies (i) and the last assertion.
 
-are isomorphisms, so that the $(B,A)_k$-bimodule $P^*$ is an inverse of P.
+Suppose that the $(A, B)_k$-bimodule P is invertible. Then the A-module P is generating (VIII, p. 98, Proposition 3, (iii) $\Rightarrow$ (i)). It is therefore faithful and balanced (VIII, p. 82, Theorem 2) and, consequently, the mapping $a \mapsto a_p$ from A to $\operatorname{End}_B(P)$ is bijective.
 
-If property (ii) holds, then P is an invertible $(A,B)_k$-bimodule with inverse $P^*$ (VIII, p. 98, Proposition 2 and p. 98, Proposition 3). This proves that (ii) implies (i) and the last assertion.
-
-Suppose that the $(A,B)_k$-bimodule P is invertible. Then the A-module P is generating (VIII, p. 98, Proposition 3, (iii) $\Rightarrow$ (i)). It is therefore faithful and balanced (VIII, p. 82, Theorem 2) and, consequently, the mapping $a\mapsto a_p$ from A to End$_B(P)$ is bijective.
-
-Let us now prove that the mapping $b\mapsto b_P$ from B to End$_A(P)$ is bijective. Let Q be a $(B,A)_k$-bimodule, inverse to P. Let $u\in$ End$_A(P)$; then $1_Q\otimes u$ is an endomorphism of the left B-module $Q\otimes_AP$. Since the $(B,B)_k$-bimodule $Q\otimes_AP$ is isomorphic to $_sB_d$, there exists a unique element $b$ of B such that $1_Q\otimes u$ is the homothety with ratio $b$ of the right B-module $Q\otimes_AP$. Consequently, we have $1_Q\otimes (u-b_P) = 0$. Hence, $u=b_P$ by Lemma 1; this proves that the mapping $b\mapsto b_P$ from B to End$_A(P)$ is bijective.
+Let us now prove that the mapping $b \mapsto b_P$ from B to $\operatorname{End}_A(P)$ is bijective. Let Q be a $(B, A)_k$-bimodule, inverse to P. Let $u \in \operatorname{End}_A(P)$; then $1_Q \otimes u$ is an endomorphism of the left B-module $Q \otimes_A P$. Since the $(B, B)_k$-bimodule $Q \otimes_A P$ is isomorphic to $_s B_d$, there exists a unique element $b$ of B such that $1_Q\otimes u$ is the homothety with ratio $b$ of the right B-module $Q\otimes_AP$. Consequently, we have $1_Q\otimes (u-b_P) = 0$. Hence, $u=b_P$ by Lemma 1; this proves that the mapping $b\mapsto b_P$ from B to End$_A(P)$ is bijective.
 
 By Proposition 2 of VIII, p. 98, the A-module P is then projective and finitely generated. We have therefore proved the equivalence of (i) and (ii).
 
 By interchanging the roles of A and B, we obtain the equivalence of (i) and (iii), which concludes the proof of the proposition.
 
-#### Corollary 1 {#alg-viii-s6-thm-1-cor-1 .statement tag=0073}
+#### Corollary 1 {#alg-viii-s6-lem-1-cor-1 .statement}
 
 Let A and B be Morita equivalent $k$-algebras, and let P be an invertible $(A,B)_k$-bimodule. There exists an isomorphism $\varphi$ from the center Z(A) of A to the center of B determined by the relation $\varphi (z)_P=z_P$ for every $z\in Z(A)$. The automorphisms of the $(A,B)_k$-bimodule P are the homotheties $z_P$ where $z$ is an invertible element of Z(A).
 
 Given Theorem 1, this follows from Remark 2 of VIII, p. 97.
 
-#### Corollary 2 {#alg-viii-s6-thm-1-cor-2 .statement tag=0074}
+#### Corollary 2 {#alg-viii-s6-lem-1-cor-2 .statement}
 
 Let A and B be Morita equivalent $k$-algebras, and let P be an invertible $(A,B)_k$-bimodule. Every $(B,A)_k$-bimodule inverse to P is isomorphic to the dual $P^*=$ Hom$_A(P,A)$ of P. More precisely, let Q be a $(B,A)_k$-bimodule that is an inverse of P, and let $\lambda : P\otimes_BQ\rightarrow_sA_d$ be an isomorphism of $(A,A)_k$-bimodules. There exists a unique mapping $\tau : Q\rightarrow P^*$ determined by the relation $\langle p, \tau (q)\rangle =\lambda (p\otimes q)$ for $p\in P$ and $q\in Q$, and $\tau$ is an isomorphism of $(B,A)_k$-bimodules.
 

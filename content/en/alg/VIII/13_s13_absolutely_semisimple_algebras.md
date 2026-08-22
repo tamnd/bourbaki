@@ -10,7 +10,7 @@ source: alg-viii
 source_edition: 2023, Springer Nature
 book_pages: A VIII.229-A VIII.249
 pdf_pages: 0246-0266
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: Absolutely Semisimple Modules
@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: 4c6d4e2ca3db7df962893b91ae11c5bedee5ed2c441f889a9973255356caf0c0
+content_sha256: 57a884e506d7ba3b80df5da8946039a08e199b1e2e794448769cfff9f58df488
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -377,57 +377,57 @@ $$
 
 is an isomorphism of K-modules.
 
-We denote by $\partial^n$ (for $n\geqslant 0$) the unique K-linear mapping from $C^n(A,P)$ to $C^{n+1}(A,P)$ that makes the following diagram commutative:
+We denote by $ \partial^n $ (for $ n \geq 0 $) the unique K-linear mapping from $ C^n(A, P) $ to $ C^{n+1}(A, P) $ that makes the following diagram commutative:
 
-$C^n(A,P)\partial^{^n}$ // $C^{n+1}(A,P)$
-
-$\alpha^n\alpha^{n+1}$
-
-Hom$_B(B_n,P)^{Hom(d_{n+1},1_P)}/$/ Hom$_B(B_{n+1},P)$.
+$$
+\begin{array}{ccc}
+C^n(A, P) & \xrightarrow{\partial^n} & C^{n+1}(A, P) \\
+| \downarrow \alpha^n | & & | \downarrow \alpha^{n+1} | \\
+\operatorname{Hom}_B(B_n, P) & \xrightarrow{\operatorname{Hom}(d_{n+1}, 1_P)} & \operatorname{Hom}_B(B_{n+1}, P).
+\end{array}
+$$
 
 By definition, we therefore have
 
 $$
-(\alpha^{n+1}\circ \partial^n)(f) =\alpha^n(f)\circ d_{n+1} \tag{9}
+(9) \quad (\alpha^{n+1} \circ \partial^n)(f) = \alpha^n(f) \circ d_{n+1}
 $$
 
-for every $f\in C^n(A,P)$. In other words, we have
+for every $ f \in C^n(A, P) $. In other words, we have
 
 $$
-\partial^n(f) (x_0, . . . , x_n) =\alpha^n(f) (d_{n+1}(1\otimes x_0\otimes  \cdots  \otimes x_n\otimes 1))
+\partial^n(f)(x_0, \ldots, x_n) = \alpha^n(f)(d_{n+1}(1 \otimes x_0 \otimes \cdots \otimes x_n \otimes 1))
 $$
 
-for $x_0, . . . , x_n$ in A and $f$ in $C^n(A,P)$, that is,
+for $ x_0, \ldots, x_n $ in A and $ f $ in $ C^n(A, P) $, that is,
 
 $$
-\partial^n(f)(x_0, . . . , x_n) =x_0f(x_1, . . . , x_n) \tag{10}
-$$
-
-$$
-+\sum^{n-1}_{i=0}(-1)^{i+1}f(x_0, . . . , x_{i-1}, x_ix_{i+1}, x_{i+2}, . . . , x_n)
-$$
-
-$$
-+ (-1)^{n+1}f(x_0, . . . , x_{n-1})x_n
+\begin{align*}
+(10) \quad \partial^n(f)(x_0, \ldots, x_n) &= x_0 f(x_1, \ldots, x_n) \\
+&+ \sum_{i=0}^{n-1} (-1)^{i+1} f(x_0, \ldots, x_{i-1}, x_i x_{i+1}, x_{i+2}, \ldots, x_n) \\
+&\phantom{=} + (-1)^{n+1} f(x_0, \ldots, x_{n-1}) x_n.
+\end{align*}
 $$
 
 By (7) and (9), we have
 
-(11) $\partial^{n+1}\circ \partial^n= 0$ for every $n\geqslant 0$.
-
-We denote the K-module Ker $\partial^0$ by $H^0(A,P)$ and, for $n\geqslant 1$, the K-module Ker $\partial^n/$ Im $\partial^{n-1}$ by $H^n(A,P)$. We identify the K-module $C^0(A,P)$ with P, and we have $C^1(A,P) =$ Hom$_K(A,P)$. The mappings $\partial^n$ for $n\leqslant 2$ are given by the formulas
-
-(12) $\partial^0(p)(a) =ap-pa$ for every $p\in P$,
-
-(13) $\partial^1(f)(a, a') =af(a')-f(aa') +f(a)a'$ for $f\in C^1(A,P)$,
-
 $$
-\partial^2(f)(a, a', a'') =af(a', a'')-f(aa', a'') +f(a, a'a'')-f(a, a')a'' \tag{14}
+(11) \quad \partial^{n+1} \circ \partial^n = 0 \qquad \text{for every } n \geq 0.
 $$
 
-for $f\in C^2(A,P)$.
+We denote the K-module $ \operatorname{Ker} \partial^0 $ by $ H^0(A, P) $ and, for $ n \geq 1 $, the K-module $ \operatorname{Ker} \partial^n / \operatorname{Im} \partial^{n-1} $ by $ H^n(A, P) $. We identify the K-module $ C^0(A, P) $ with P, and we have $ C^1(A, P) = \operatorname{Hom}_K(A, P) $. The mappings $ \partial^n $ for $ n \leq 2 $ are given by the formulas
 
-So $H^0(A,P)$ is the K-submodule of P consisting of the elements $p$ such that $ap=pa$ for every $a\in A$, and $H^1(A,P)$ is the quotient of the K-module Der$_K(A,P)$ of K-derivations from A to P (III, §10, No. 2, p. 553) by the K-submodule consisting of the derivations of the form $a\mapsto ap-pa$ with $p\in P$ (called inner derivations).
+$$
+\begin{align*}
+(12) \quad \partial^0(p)(a) &= ap - pa \qquad \text{for every } p \in P, \\
+(13) \quad \partial^1(f)(a, a') &= af(a') - f(aa') + f(a)a' \qquad \text{for } f \in C^1(A, P), \\
+(14) \quad \partial^2(f)(a, a', a'') &= af(a', a'') - f(aa', a'') + f(a, a'a'') - f(a, a')a''
+\end{align*}
+$$
+
+for $ f \in C^2(A, P) $.
+
+So $ H^0(A, P) $ is the K-submodule of P consisting of the elements $ p $ such that $ ap = pa $ for every $ a \in A $, and $ H^1(A, P) $ is the quotient of the K-module $ \operatorname{Der}_K(A, P) $ of K-derivations from A to P (III, §10, No. 2, p. 553) by the K-submodule consisting of the derivations of the form $ a \mapsto ap - pa $ with $ p \in P $ (called *inner derivations*).
 
 ### 7. Cohomology of Absolutely Semisimple Algebras
 

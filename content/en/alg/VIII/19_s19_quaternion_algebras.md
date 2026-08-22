@@ -10,7 +10,7 @@ source: alg-viii
 source_edition: 2023, Springer Nature
 book_pages: A VIII.361-A VIII.371
 pdf_pages: 0378-0388
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: General Properties of Quaternion Algebras
@@ -32,9 +32,9 @@ subsections:
       title: Algebras over Maximal Ordered Fields
       page: 367
       pdf_page: 384
-statements: 16
+statements: 15
 exercises: 8
-content_sha256: 29c7745ce44d10980513b080b27eb063e43ebe7bda18a9a407a496a816099f84
+content_sha256: 7d5168aa99b2f2acfbd469aef4e8669772350919e3f7d08311840c372b1c826b
 ---
 
 ## § 19. QUATERNION ALGEBRAS
@@ -147,47 +147,44 @@ Let $\alpha ,\beta ,\gamma$ be elements of K, and let $f$ be a quaternion algebr
 
 Suppose that these properties hold. Then for every $x$ in F, the reduced characteristic polynomial of $x$ is $X^2-T_F(x)X + N_F(x)$. In particular, $T_F(x)$ is the reduced trace of $x$, and $N_F(x)$ is its reduced norm.
 
-(i)$\Rightarrow$(ii): If the algebra F is central simple, then it follows from Proposition 1 of VIII, p. 361 and the definition of the reduced trace (VIII, p. 340, Definition 2) that $T_F$ is its reduced trace; assertion (ii) follows (VIII, p. 343, Proposition 5).
+(i)⇒(ii): If the algebra F is central simple, then it follows from Proposition 1 of VIII, p. 361 and the definition of the reduced trace (VIII, p. 340, Definition 2) that $ T_F $ is its reduced trace; assertion (ii) follows (VIII, p. 343, Proposition 5).
 
-(ii)$\Leftrightarrow$(iii): Let $(e_i)_{1\leqslant i\leqslant 4}$ be a basis of F of type $(\alpha , \beta , \gamma )$ (III, §2, No. 5, p. 445). The matrix $(T_F(e_ie_j))$ is equal to
+(ii)⇔(iii): Let $ (e_i)_{1 \leq i \leq 4} $ be a basis of F of type $ (\alpha, \beta, \gamma) $ (III, §2, No. 5, p. 445). The matrix $ (T_F(e_i e_j)) $ is equal to
 
-2 $\beta$ 0 0
+$$
+\begin{pmatrix}
+2 & \beta & 0 & 0 \\
+\beta & 2\alpha + \beta^2 & 0 & 0 \\
+0 & 0 & 2\gamma & \beta\gamma \\
+0 & 0 & \beta\gamma & -2\alpha\gamma
+\end{pmatrix}.
+$$
 
-$\beta 2\alpha +\beta^2$ 0 0
+Its determinant is $ -\gamma^2 (4\alpha + \beta^2)^2 $. The equivalence of properties (ii) and (iii) follows from V, §8, No. 2, p. 49, Lemma 1.
 
-.
-
-0 0 $2\gamma \beta \gamma$
-
-0 0 $\beta \gamma -2\alpha \gamma$
-
-Its determinant is $-\gamma^2(4\alpha +\beta^2)^2$. The equivalence of properties (ii) and (iii) follows from V, §8, No. 2, p. 49, Lemma 1.
-
-(iii)$\Rightarrow$(i): Suppose $(4\alpha +\beta^2)\gamma \not= 0$. We then have $\gamma \not= 0$, and we have $\beta \not= 0$ if K has characteristic 2. By Proposition 2, the algebra F is central. Let $x$ be an element of the Jacobson radical of F. For every $y\in F,xy$ is nilpotent, so $T_F(xy) = 0$ (Remark 3 of VIII, p. 362). Since (ii) is equivalent to (iii), we have $x= 0$. This proves that F is a semisimple K-algebra. Since its center is K, it is simple.
+(iii)⇒(i): Suppose $ (4\alpha + \beta^2)\gamma \neq 0 $. We then have $ \gamma \neq 0 $, and we have $ \beta \neq 0 $ if K has characteristic 2. By Proposition 2, the algebra F is central. Let x be an element of the Jacobson radical of F. For every $ y \in F $, $ xy $ is nilpotent, so $ T_F(xy) = 0 $ (Remark 3 of VIII, p. 362). Since (ii) is equivalent to (iii), we have $ x = 0 $. This proves that F is a semisimple K-algebra. Since its center is K, it is simple.
 
 The last assertion follows from Proposition 1 of VIII, p. 361 and the definition of the reduced characteristic polynomial (VIII, p. 340, Definition 1).
 
-Denote the characteristic of K by $p$. By Proposition 3, if $p\not= 2$, then every quaternion algebra over K of type $(\alpha ,0, \gamma )$ with $\alpha$ and $\gamma$ in $K^*$ is central simple. If $p= 2$, then every quaternion algebra of type $(\alpha ,1, \gamma )$ with $\alpha \in K$ and $\gamma \in K^*$ is central simple. Conversely, we have the following.
+Denote the characteristic of K by p. By Proposition 3, if $ p \neq 2 $, then every quaternion algebra over K of type $ (\alpha, 0, \gamma) $ with $ \alpha $ and $ \gamma $ in $ K^* $ is central simple. If $ p = 2 $, then every quaternion algebra of type $ (\alpha, 1, \gamma) $ with $ \alpha \in K $ and $ \gamma \in K^* $ is central simple. Conversely, we have the following.
 
-#### Proposition 4 {#alg-viii-s19-prop-4 .statement tag=00LX}
+Proposition 4. — *Let A be a central simple algebra of degree 4 over K. Denote the characteristic of K by p.*
 
-Let A be a central simple algebra of degree 4 over K. Denote the characteristic of K by $p$.
+a) *If $ p \neq 2 $, then there exist nonzero elements $ \alpha $ and $ \gamma $ of K such that the algebra A is isomorphic to the quaternion algebra of type $ (\alpha, 0, \gamma) $.*
 
-a) If $p\not= 2$, then there exist nonzero elements $\alpha$ and $\gamma$ of K such that the algebra A is isomorphic to the quaternion algebra of type $(\alpha ,0, \gamma )$.
+b) *If $ p = 2 $, then there exist an element $ \alpha $ of K and an element $ \gamma $ of $ K^* $ such that the algebra A is isomorphic to the quaternion algebra of type $ (\alpha, 1, \gamma) $.*
 
-b) If $p= 2$, then there exist an element $\alpha$ of K and an element $\gamma$ of $K^*$ such that the algebra A is isomorphic to the quaternion algebra of type $(\alpha ,1, \gamma )$.
-
-By Wedderburn’s theorem (VIII, p. 120, Theorem 1), there exist an integer $r\geqslant 1$ and a field D with center K such that A is isomorphic to $\mathbf{M}_r(D)$. We then have $r^2[D : K] = [A : K] = 4$. If $r= 2$, then A is isomorphic to $\mathbf{M}_2$(K), and Proposition 4 follows from the example of VIII, p. 362. Otherwise, we have $r= 1$, and A is a field with center K. It then has a maximal commutative subfield E that is a separable extension of K; since A has degree 4 over K, the extension E has degree 2 over K (VIII, p. 265, Corollary 2). It is therefore quadratic (III, §2, No. 3, p. 439). Let $s$ be the conjugation of E (III, §2, No. 3, p. 440). By the Skolem–Noether theorem (VIII, p. 256, Corollary 1), there exists an invertible element $j$ of A such that we have $s(x) =jxj^{-1}$ for every $x$ in E. The field E is separable over K, so we have $s\not=$ Id$_E$, so that $j \notin E$. Since A is a vector space of dimension 4 over K, it is a left vector space of dimension 2 over E, so we have $A = E\oplus Ej$. We have $s^2=$ Id$_E$, so the element $j^2$ of A belongs to the center of A; hence there exists an element $\gamma$ of $K^*$ such that $j^2=\gamma$.
+By Wedderburn's theorem (VIII, p. 120, Theorem 1), there exist an integer $ r \geq 1 $ and a field D with center K such that A is isomorphic to $ \mathbf{M}_r(D) $. We then have $ r^2[D : K] = [A : K] = 4 $. If $ r = 2 $, then A is isomorphic to $ \mathbf{M}_2(K) $, and Proposition 4 follows from the example of VIII, p. 362. Otherwise, we have $ r = 1 $, and A is a field with center K. It then has a maximal commutative subfield E that is a separable extension of K; since A has degree 4 over K, the extension E has degree 2 over K (VIII, p. 265, Corollary 2). It is therefore quadratic (III, §2, No. 3, p. 439). Let $s$ be the conjugation of E (III, §2, No. 3, p. 440). By the Skolem–Noether theorem (VIII, p. 256, Corollary 1), there exists an invertible element $j$ of A such that we have $s(x) =jxj^{-1}$ for every $x$ in E. The field E is separable over K, so we have $s\not=$ Id$_E$, so that $j \notin E$. Since A is a vector space of dimension 4 over K, it is a left vector space of dimension 2 over E, so we have $A = E\oplus Ej$. We have $s^2=$ Id$_E$, so the element $j^2$ of A belongs to the center of A; hence there exists an element $\gamma$ of $K^*$ such that $j^2=\gamma$.
 
 When $p\not= 2$, there exist an element $i$ of E and an element $\alpha \in K^*$ such that $E = K(i)$ and $i^2=\alpha$ (V, §11, No. 9, p. 93, Example 3); in this case, A is isomorphic to the quaternion algebra of type $(\alpha ,0, \gamma )$. When $p= 2$, there exist an element $i$ of E and an element $\alpha$ of K such that $E = K(i)$ and $i^2=i+\alpha$ (V, §11, No. 9, p. 93, Example 2), so that A is isomorphic to the quaternion algebra of type $(\alpha ,1, \gamma )$.
 
-#### Corollary 1 {#alg-viii-s19-prop-4-cor-1 .statement tag=00LY}
+#### Corollary 1 {#alg-viii-s19-prop-3-cor-1 .statement}
 
 Let A be a central simple K-algebra of finite degree $>1$ whose elements are all algebraic of degree $\leqslant 2$ over K. Then A is isomorphic to a quaternion algebra over K.
 
 If K is finite, then the algebra A is isomorphic to a matrix algebra $\mathbf{M}_n(K)$ (VIII, p. 357, Corollary 2) and therefore contains elements of degree $n$ over K; the assumption implies $n= 2$ and therefore the result in this case (VIII, p. 362, Example). Suppose that the field K is infinite. Let L be a maximal étale subalgebra of A. By V, §7, No. 4, p. 41, Proposition 7, there exists an element $x$ of A such that the K-algebra L is equal to $K[x]$, hence by assumption has degree $\leqslant 2$. Since we have $[A : K] = [L : K]^2$ (VIII, p. 264, Proposition 4 and p. 262, Proposition 3), we conclude that [A : K] = 4. Corollary 1 then follows from Proposition 4.
 
-#### Corollary 2 {#alg-viii-s19-prop-4-cor-2 .statement tag=00LZ}
+#### Corollary 2 {#alg-viii-s19-prop-3-cor-2 .statement}
 
 Let $(E, s)$ be a Cayley algebra over K such that the K-algebra E is central simple of finite degree $>1$ over K. Then E is isomorphic to a quaternion algebra over K.
 
