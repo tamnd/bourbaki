@@ -10,16 +10,25 @@ lang: en
 source: int-i-vi
 pdf_pages: 0016-0022
 extraction: ocr
+subsections:
+    - "no": 1
+      title: The fundamental inequality of convexity
+      page: 0
+      pdf_page: 16
+    - "no": 3
+      title: The semi-norms $ N_p $
+      page: 4
+      pdf_page: 19
 statements: 0
 exercises: 0
-content_sha256: e54d6fbe9e90c62a28ec6f6ba87e334e73d7ce4098ca837039ce5c3f52732531
+content_sha256: e407c91e3e233a6102796d5c1187ea9e7da6245cd223dbaea00ec179c777a7e8
 ---
 
 ## CHAPTER I
 
 # Inequalities of convexity
 
-1. The fundamental inequality of convexity
+### 1. The fundamental inequality of convexity
 
 Let X be a set; in the vector space $ \mathbf{R}^X $ of all finite numerical functions$^1$ defined on X, let P be the set of all positive real-valued functions on X. On the other hand, let $ M $ be a numerical function,$^2$ finite or not, with values $ \geqslant 0 $, defined on P, such that:
 
@@ -129,7 +138,7 @@ $$
 
 for $ 0 < t \leq 1 $, whence the proposition.
 
-3. The semi-norms $ N_p $
+### 3. The semi-norms $ N_p $
 
 Let $ p $ be a real number $ \geq 1 $ and let $ \mathcal{F}^p(X, M) $ be the set of finite numerical functions $ f $ defined on $ X $ such that $ M(|f|^p) $ is *finite*. It is obvious that if $ g $ is a function belonging to $ \mathcal{F}^p(X, M) $ and if $ |f| \leq |g| $, then $ f $ also belongs to $ \mathcal{F}^p(X, M) $; this remark and Minkowski’s inequality show that the sum of two functions in $ \mathcal{F}^p(X, M) $ also belongs to this set; taking into account the fact that $ M $ is positively homogeneous, we thus see that $ \mathcal{F}^p(X, M) $ is a *linear subspace* of the space $ \mathbf{R}^X $ of all finite numerical functions defined on $ X $.
 

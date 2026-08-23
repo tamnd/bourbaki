@@ -2551,6 +2551,157 @@ books:
               exercises: 6
               extraction: ocr
               content_sha256: e17f21307f796721ccc0bb4982493d69710026c31234fab45b7a949a6c553437
+        - chapter: IV
+          title: DUALITY IN TOPOLOGICAL VECTOR SPACES
+          sections:
+            - kind: front
+              title: DUALITY IN TOPOLOGICAL VECTOR SPACES
+              path: content/en/evt/IV/00_frontmatter.md
+              first_pdf_page: 183
+              last_pdf_page: 183
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 6c0af4da14d9d1c8e560c3a71e165bb00e1b7e16f37a044e8fdc77ed58d53386
+            - kind: section
+              section: 1
+              title: Duality
+              path: content/en/evt/IV/01_s1_duality.md
+              label: evt-iv-s1
+              first_pdf_page: 183
+              last_pdf_page: 234
+              subsections: 5
+              statements: 29
+              exercises: 25
+              extraction: ocr
+              content_sha256: 7e120bcdb5cd44a1ac3d543c5ec885c04658de4f0e38545a37847820b469c606
+            - kind: section
+              section: 2
+              title: Bidual. Reflexive spaces
+              path: content/en/evt/IV/02_s2_bidual_reflexive_spaces.md
+              label: evt-iv-s2
+              first_pdf_page: 196
+              last_pdf_page: 239
+              book_pages: TVS IV.14-TVS IV.21, TVS IV.52-TVS IV.57
+              subsections: 5
+              statements: 25
+              exercises: 24
+              extraction: ocr
+              content_sha256: 830f329c51525fb2ab5bdc5f5baefdbfb75afd66607b2504932cf1fb9fafdfb7
+            - kind: section
+              section: 3
+              title: Dual of a Fréchet space
+              path: content/en/evt/IV/03_s3_dual_of_a_frechet_space.md
+              label: evt-iv-s3
+              first_pdf_page: 203
+              last_pdf_page: 243
+              book_pages: TVS IV.21-TVS IV.26, TVS IV.57-TVS IV.61
+              subsections: 6
+              statements: 14
+              exercises: 2
+              extraction: ocr
+              content_sha256: abf07c5659761fffa0f5bf3cd4bc164e1b02bd08595dc6319e5148a7b4c7a8b1
+            - kind: section
+              section: 4
+              title: Strict morphisms of Fréchet spaces
+              path: content/en/evt/IV/04_s4_strict_morphisms_of_frechet_spaces.md
+              label: evt-iv-s4
+              first_pdf_page: 208
+              last_pdf_page: 249
+              book_pages: TVS IV.26-TVS IV.32, TVS IV.62-TVS IV.67
+              subsections: 3
+              statements: 11
+              exercises: 23
+              extraction: ocr
+              content_sha256: 4172f6a84d2ca7073e01bf8876e21035e49efc30aaac18bd4884c0dc7ab18f09
+            - kind: section
+              section: 5
+              title: Compactness criteria
+              path: content/en/evt/IV/05_s5_compactness_criteria.md
+              label: evt-iv-s5
+              first_pdf_page: 214
+              last_pdf_page: 253
+              book_pages: TVS IV.32-TVS IV.38, TVS IV.67-TVS IV.71
+              subsections: 5
+              statements: 6
+              exercises: 18
+              extraction: ocr
+              content_sha256: 4702a615033dfbad2393a5c1455faef75a03a10034ae4dba1ab3b73fab718883
+            - kind: appendix
+              title: Fixed points of groups of affine transformations
+              path: content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md
+              label: evt-iv-a0
+              first_pdf_page: 221
+              last_pdf_page: 258
+              subsections: 4
+              statements: 10
+              exercises: 4
+              extraction: ocr
+              content_sha256: 7eb54e9666dc4f954bc5363b6489301c8e109bec69185ed8316bea9f05a72696
+        - chapter: V
+          title: HILBERTIAN SPACES (ELEMENTARY THEORY)
+          sections:
+            - kind: front
+              title: HILBERTIAN SPACES (ELEMENTARY THEORY)
+              path: content/en/evt/V/00_frontmatter.md
+              first_pdf_page: 259
+              last_pdf_page: 259
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 85485962a9b5c11d078ad8758eec7c6d7c4f98b565fe0d5c97e6b7b6da8cfcae
+            - kind: section
+              section: 1
+              title: Prehilbertian spaces and hilbertian spaces
+              path: content/en/evt/V/01_s1_prehilbertian_spaces_and_hilbertian.md
+              label: evt-v-s1
+              first_pdf_page: 259
+              last_pdf_page: 328
+              subsections: 7
+              statements: 31
+              exercises: 6
+              extraction: ocr
+              content_sha256: 1c8a9e83f26d78057d54106288ce04ce371e3d1cc11610d09b61eca368b647da
+            - kind: section
+              section: 2
+              title: Orthogonal families in a hilbertian space
+              path: content/en/evt/V/02_s2_orthogonal_families_in_a_hilbertian.md
+              label: evt-v-s2
+              first_pdf_page: 275
+              last_pdf_page: 331
+              book_pages: TVS V.17-TVS V.25, TVS V.70-TVS V.73
+              subsections: 4
+              statements: 21
+              exercises: 16
+              extraction: ocr
+              content_sha256: e87f5f8a10c8f7cd86d202982dafb811ff9f6b90d127da16fc34b11f09ba1da9
+            - kind: section
+              section: 3
+              title: Tensor product of hilbertian spaces
+              path: content/en/evt/V/03_s3_tensor_product_of_hilbertian_spaces.md
+              label: evt-v-s3
+              first_pdf_page: 283
+              last_pdf_page: 368
+              book_pages: TVS V.25-TVS V.37
+              subsections: 5
+              statements: 17
+              exercises: 23
+              extraction: ocr
+              content_sha256: c269cc03a771151e06055ba53c27d0b74e268e32f1bad9247f1515512030aca4
+            - kind: section
+              section: 4
+              title: Some classes of operators in hilbertian spaces
+              path: content/en/evt/V/04_s4_some_classes_of_operators_in_hilbertian.md
+              label: evt-v-s4
+              first_pdf_page: 295
+              last_pdf_page: 318
+              subsections: 9
+              statements: 40
+              exercises: 0
+              extraction: ocr
+              content_sha256: 8211b1b7a0f581dbc762b2df2ac5703b0e15fd0db527ff4281a1d2811687ea92
     - id: int-i-vi
       chapters:
         - chapter: I
@@ -2561,11 +2712,11 @@ books:
               path: content/en/int/I/00_frontmatter.md
               first_pdf_page: 16
               last_pdf_page: 22
-              subsections: 0
+              subsections: 2
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: e54d6fbe9e90c62a28ec6f6ba87e334e73d7ce4098ca837039ce5c3f52732531
+              content_sha256: e407c91e3e233a6102796d5c1187ea9e7da6245cd223dbaea00ec179c777a7e8
             - kind: historical
               title: Historical Note
               path: content/en/int/I/historical_note.md
@@ -4443,3 +4594,149 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 5058d5ac2b28ead8636a280462879cbc09e58cf565584c18e65770383dc52022
+    - id: lie-iv-vi
+      chapters:
+        - chapter: IV
+          title: COXETER GROUPS AND TITS SYSTEMS
+          sections:
+            - kind: front
+              title: COXETER GROUPS AND TITS SYSTEMS
+              path: content/en/lie/IV/00_frontmatter.md
+              first_pdf_page: 14
+              last_pdf_page: 14
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 97d4a5ea89c436c1e21a23efd7fe6b8ab13669cda7fad570c6ccebf883892bc8
+            - kind: section
+              section: 1
+              title: Coxeter Groups
+              path: content/en/lie/IV/01_s1_coxeter_groups.md
+              label: lie-iv-s1
+              first_pdf_page: 14
+              last_pdf_page: 56
+              subsections: 9
+              statements: 30
+              exercises: 16
+              extraction: ocr
+              content_sha256: b96bc62cb880396d635d5a3c9da1f4027dae3f82efe0091f4b0e3c088c5bebb3
+            - kind: section
+              section: 2
+              title: Tits Systems
+              path: content/en/lie/IV/02_s2_tits_systems.md
+              label: lie-iv-s2
+              first_pdf_page: 28
+              last_pdf_page: 72
+              subsections: 7
+              statements: 30
+              exercises: 29
+              extraction: ocr
+              content_sha256: 2537428af7aa5f19bb9fe707269964c4bdf4abd3583fe582528135f8880945b9
+            - kind: appendix
+              title: Graphs
+              path: content/en/lie/IV/A_a_graphs.md
+              label: lie-iv-a0
+              first_pdf_page: 40
+              last_pdf_page: 43
+              subsections: 3
+              statements: 6
+              exercises: 0
+              extraction: ocr
+              content_sha256: 75956e07517d9a978adf99740640462cebf2346c6da055217f573ce9bb4e449e
+        - chapter: V
+          title: GROUPS GENERATED BY REFLECTIONS
+          sections:
+            - kind: front
+              title: GROUPS GENERATED BY REFLECTIONS
+              path: content/en/lie/V/00_frontmatter.md
+              first_pdf_page: 74
+              last_pdf_page: 74
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: e7d1d40011f307a238014ab23738afe66be0e7f63ee2dd45c6b90c86de4a376f
+            - kind: section
+              section: 1
+              title: Hyperplanes, chambers and facets
+              path: content/en/lie/V/01_s1_hyperplanes_chambers_and_facets.md
+              label: lie-v-s1
+              first_pdf_page: 74
+              last_pdf_page: 82
+              subsections: 6
+              statements: 18
+              exercises: 0
+              extraction: ocr
+              content_sha256: 72d6faefb7e3e8b12cc05a9a8828d72b1517714178ec328d6f303e5b3902eb88
+            - kind: section
+              section: 2
+              title: Reflections
+              path: content/en/lie/V/02_s2_reflections.md
+              label: lie-v-s2
+              first_pdf_page: 83
+              last_pdf_page: 147
+              subsections: 5
+              statements: 16
+              exercises: 3
+              extraction: ocr
+              content_sha256: c99dd0991d98699e9e5e1e2a98fcd62608778c4ae5442cf858a6391397857d10
+            - kind: section
+              section: 3
+              title: Groups of displacements generated by reflections
+              path: content/en/lie/V/03_s3_groups_of_displacements_generated_by.md
+              label: lie-v-s3
+              first_pdf_page: 89
+              last_pdf_page: 149
+              subsections: 10
+              statements: 37
+              exercises: 8
+              extraction: ocr
+              content_sha256: 2f675082f062552a89194773888f3e2bac4d6d3451633a481ebc1b028518da30
+            - kind: section
+              section: 4
+              title: The geometric representation of a Coxeter group
+              path: content/en/lie/V/04_s4_the_geometric_representation_of_a.md
+              label: lie-v-s4
+              first_pdf_page: 107
+              last_pdf_page: 157
+              subsections: 9
+              statements: 25
+              exercises: 20
+              extraction: ocr
+              content_sha256: 479049511461ab0617c8d4c37790f931efefb75a8fd51fba49f26b1c2f5c591f
+            - kind: section
+              section: 5
+              title: Invariants in the symmetric algebra
+              path: content/en/lie/V/05_s5_invariants_in_the_symmetric_algebra.md
+              label: lie-v-s5
+              first_pdf_page: 121
+              last_pdf_page: 163
+              subsections: 5
+              statements: 24
+              exercises: 9
+              extraction: ocr
+              content_sha256: ebbfb431cf08aeda26842d151e8e9b20f2d8eb6a69e091c0e93e0644be1a4ff0
+            - kind: section
+              section: 6
+              title: The Coxeter transformation
+              path: content/en/lie/V/06_s6_the_coxeter_transformation.md
+              label: lie-v-s6
+              first_pdf_page: 134
+              last_pdf_page: 166
+              subsections: 2
+              statements: 14
+              exercises: 4
+              extraction: ocr
+              content_sha256: bc25f308afcd6beaf3f3c3aeb20a13be152a5424a8f6973de9900fa14be76f75
+            - kind: appendix
+              title: Complements on linear representations
+              path: content/en/lie/V/A_a_complements_on_linear_representations.md
+              label: lie-v-a0
+              first_pdf_page: 142
+              last_pdf_page: 144
+              subsections: 0
+              statements: 5
+              exercises: 0
+              extraction: ocr
+              content_sha256: 025856794b6a2dcba491e70e6da291287582dc4f89b30bd65aa36ddd7adef08a
