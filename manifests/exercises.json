@@ -3691,6 +3691,54 @@
               "starred": 3
             }
           ]
+        },
+        {
+          "chapter": "IX",
+          "title": "ANNEAUX LOCAUX NOETHÉRIENS COMPLETS",
+          "total": 122,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ac-ix-s1",
+              "dir": "s1",
+              "count": 58,
+              "first": 1,
+              "last": 58
+            },
+            {
+              "section": 2,
+              "label": "ac-ix-s2",
+              "dir": "s2",
+              "count": 17,
+              "first": 1,
+              "last": 17
+            },
+            {
+              "section": 3,
+              "label": "ac-ix-s3",
+              "dir": "s3",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 4,
+              "label": "ac-ix-s4",
+              "dir": "s4",
+              "count": 32,
+              "first": 1,
+              "last": 32
+            },
+            {
+              "section": 0,
+              "appendix": true,
+              "label": "ac-ix-a0",
+              "dir": "a0",
+              "count": 6,
+              "first": 1,
+              "last": 6
+            }
+          ]
         }
       ]
     }
