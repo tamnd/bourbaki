@@ -9269,11 +9269,11 @@ books:
                   page: 91
                   pdf_page: 106
                 - "no": 2
-                  title: Derivative of log, x
+                  title: Derivative of $ \log_a x $
                   page: 93
                   pdf_page: 108
                 - "no": 3
-                  title: Derivatives of the circular functions; the number 7r
+                  title: Derivatives of the circular functions; the number $ \pi $
                   page: 94
                   pdf_page: 109
                 - "no": 4
@@ -9285,7 +9285,7 @@ books:
                   page: 97
                   pdf_page: 112
                 - "no": 6
-                  title: Properties of the function e
+                  title: Properties of the function $ e^z $
                   page: 98
                   pdf_page: 113
                 - "no": 7
@@ -9378,7 +9378,7 @@ books:
               pdf_page: 192
               subsections:
                 - "no": 1
-                  title: Existence of integrals of it linear differential equation
+                  title: Existence of integrals of a linear differential equation
                   page: 177
                   pdf_page: 192
                 - "no": 2
@@ -9386,7 +9386,7 @@ books:
                   page: 179
                   pdf_page: 194
                 - "no": 3
-                  title: Integrating the mhomogeneous linear equation
+                  title: Integrating the inhomogeneous linear equation
                   page: 182
                   pdf_page: 197
                 - "no": 4
@@ -9402,7 +9402,7 @@ books:
                   page: 188
                   pdf_page: 203
                 - "no": 7
-                  title: Linear equations of order ii
+                  title: Linear equations of order $ n $
                   page: 192
                   pdf_page: 207
                 - "no": 8
@@ -9431,7 +9431,7 @@ books:
               pdf_page: 226
               subsections:
                 - "no": 1
-                  title: 'Comparison relations: 1. Weak relations'
+                  title: 'Comparison relations: I. Weak relations'
                   page: 211
                   pdf_page: 226
                 - "no": 2
@@ -9492,7 +9492,7 @@ books:
                   page: 229
                   pdf_page: 244
                 - "no": 3
-                  title: 'Integration of comparison relations: . Strong relations'
+                  title: 'Integration of comparison relations: II. Strong relations'
                   page: 230
                   pdf_page: 245
                 - "no": 4
@@ -9615,11 +9615,11 @@ books:
               pdf_page: 298
               subsections:
                 - "no": 1
-                  title: Eulerian expansion of cot z
+                  title: Eulerian expansion of $ \cot z $
                   page: 283
                   pdf_page: 298
                 - "no": 2
-                  title: Eulerian expansion of sin
+                  title: Eulerian expansion of $ \sin z $
                   page: 286
                   pdf_page: 301
                 - "no": 3

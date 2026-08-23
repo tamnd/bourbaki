@@ -4811,3 +4811,387 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: cfcd7c23885e864cad23089b6898de9ae54f937e66b05d757b95a0c404b3ef2b
+    - id: fvr-i-vii
+      chapters:
+        - chapter: I
+          title: DERIVATIVES
+          sections:
+            - kind: front
+              title: DERIVATIVES
+              path: content/en/fvr/I/00_frontmatter.md
+              first_pdf_page: 18
+              last_pdf_page: 18
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 14ebe7909d12fe0f5d565b9dc9fe8d3c120b6fa80fc58a73110fadd73c6427f7
+            - kind: section
+              section: 1
+              title: FIRST DERIVATIVE
+              path: content/en/fvr/I/01_s1_first_derivative.md
+              label: fvr-i-s1
+              first_pdf_page: 18
+              last_pdf_page: 52
+              subsections: 7
+              statements: 31
+              exercises: 9
+              extraction: ocr
+              content_sha256: 9e452a8a87bd744096308ba376bdee0283bca25aeb29ff2316660fa2697ceaa1
+            - kind: section
+              section: 2
+              title: THE MEAN VALUE THEOREM
+              path: content/en/fvr/I/02_s2_the_mean_value_theorem.md
+              label: fvr-i-s2
+              first_pdf_page: 27
+              last_pdf_page: 54
+              subsections: 4
+              statements: 21
+              exercises: 14
+              extraction: ocr
+              content_sha256: a38b0b71726db7638222498a9f8d96ec6066d0c8b8907804d8a53707f2d8e51c
+            - kind: section
+              section: 3
+              title: DERIVATIVES OF HIGHER ORDER
+              path: content/en/fvr/I/03_s3_derivatives_of_higher_order.md
+              label: fvr-i-s3
+              first_pdf_page: 35
+              last_pdf_page: 60
+              subsections: 2
+              statements: 8
+              exercises: 18
+              extraction: ocr
+              content_sha256: b3502042b688c4ca4f6d490cd3c7155785b2edf28d35926fc607be7637b4dc64
+            - kind: section
+              section: 4
+              title: CONVEX FUNCTIONS OF A REAL VARIABLE
+              path: content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md
+              label: fvr-i-s4
+              first_pdf_page: 38
+              last_pdf_page: 64
+              subsections: 4
+              statements: 21
+              exercises: 10
+              extraction: ocr
+              content_sha256: 840a5996ca6488b326d2c85afafa80f6f86040b46b1e162d354a0476ebc158d7
+        - chapter: II
+          title: PRIMITIVES AND INTEGRALS
+          sections:
+            - kind: front
+              title: PRIMITIVES AND INTEGRALS
+              path: content/en/fvr/II/00_frontmatter.md
+              first_pdf_page: 66
+              last_pdf_page: 66
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 1f23a1bfdc035d57684e70e5b8ffa587effe0281b1597e1bc32d8e6decf93655
+            - kind: section
+              section: 1
+              title: PRIMITIVES AND INTEGRALS
+              path: content/en/fvr/II/01_s1_primitives_and_integrals.md
+              label: fvr-ii-s1
+              first_pdf_page: 66
+              last_pdf_page: 99
+              subsections: 6
+              statements: 28
+              exercises: 10
+              extraction: ocr
+              content_sha256: 3c20bf46346bb5aa694dab4ea15e48c9b8ffaefdd1f6f9e0d010bea621d031ed
+            - kind: section
+              section: 2
+              title: INTEGRALS OVER NON-COMPACT INTERVALS
+              path: content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md
+              label: fvr-ii-s2
+              first_pdf_page: 77
+              last_pdf_page: 101
+              subsections: 3
+              statements: 9
+              exercises: 9
+              extraction: ocr
+              content_sha256: 64275a842838d2080c7899bc5b116bdeafc42c93c4e521c8d9b045ecfe092f1d
+            - kind: section
+              section: 3
+              title: DERIVATIVES AND INTEGRALS OF FUNCTIONS DEPENDING ON A PARAMETER
+              path: content/en/fvr/II/03_s3_derivatives_and_integrals_of_functions.md
+              label: fvr-ii-s3
+              first_pdf_page: 83
+              last_pdf_page: 105
+              subsections: 6
+              statements: 17
+              exercises: 10
+              extraction: ocr
+              content_sha256: 5e839f30a244472582e73ba775400c4a72f1966549dd900c7470e38608996108
+        - chapter: III
+          title: ELEMENTARY FUNCTIONS
+          sections:
+            - kind: front
+              title: ELEMENTARY FUNCTIONS
+              path: content/en/fvr/III/00_frontmatter.md
+              first_pdf_page: 106
+              last_pdf_page: 106
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 9c7207fd936fd0767255c738060e1c48e00a11a0a3a5a46d95e6eedcfa237b64
+            - kind: section
+              section: 1
+              title: DERIVATIVES OF THE EXPONENTIAL AND CIRCULAR FUNCTIONS
+              path: content/en/fvr/III/01_s1_derivatives_of_the_exponential_and.md
+              label: fvr-iii-s1
+              first_pdf_page: 106
+              last_pdf_page: 140
+              subsections: 9
+              statements: 9
+              exercises: 30
+              extraction: ocr
+              content_sha256: f6d280b87294e7ccbf5da008fbb8c99fc9b148507e42e21b94db3deb3fbc13f4
+            - kind: section
+              section: 2
+              title: EXPANSIONS OF THE EXPONENTIAL AND CIRCULAR FUNCTIONS AND OF THE FUNCTIONS ASSOCIATED WITH THEM
+              path: content/en/fvr/III/02_s2_expansions_of_the_exponential_and.md
+              label: fvr-iii-s2
+              first_pdf_page: 120
+              last_pdf_page: 143
+              subsections: 4
+              statements: 1
+              exercises: 9
+              extraction: ocr
+              content_sha256: 410a3583c6a8f77a8c05a5977eb588d4c142587944dbb2bd15b1210e8986d65a
+            - kind: historical
+              title: Historical Note
+              path: content/en/fvr/III/historical_note.md
+              first_pdf_page: 144
+              last_pdf_page: 177
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: a77441fb849942abcfa1d49b2b9d408bb001bfeab7f8086596f82d9fcf136798
+        - chapter: IV
+          title: DIFFERENTIAL EQUATIONS
+          sections:
+            - kind: front
+              title: DIFFERENTIAL EQUATIONS
+              path: content/en/fvr/IV/00_frontmatter.md
+              first_pdf_page: 178
+              last_pdf_page: 178
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 258a16cdc7c7ebc9718bf13d3432a97523eba2c1c226257429ec41e23441472f
+            - kind: section
+              section: 1
+              title: EXISTENCE THEOREMS
+              path: content/en/fvr/IV/01_s1_existence_theorems.md
+              label: fvr-iv-s1
+              first_pdf_page: 178
+              last_pdf_page: 219
+              subsections: 7
+              statements: 29
+              exercises: 18
+              extraction: ocr
+              content_sha256: 2a0ebfd7467ee48420642d2462fb0e4209b34c54a99b6fdf811e56e594cacd20
+            - kind: section
+              section: 2
+              title: LINEAR DIFFERENTIAL EQUATIONS
+              path: content/en/fvr/IV/02_s2_linear_differential_equations.md
+              label: fvr-iv-s2
+              first_pdf_page: 192
+              last_pdf_page: 221
+              subsections: 9
+              statements: 25
+              exercises: 10
+              extraction: ocr
+              content_sha256: a735d63ab1725839e7204add16e6722575e56f830f7d184a8d08a34a0ccaf4d1
+            - kind: historical
+              title: Historical Note
+              path: content/en/fvr/IV/historical_note.md
+              first_pdf_page: 222
+              last_pdf_page: 224
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: b48ff33d66b393958cf7f112dac9d68108854bc4282b6b4cb61155b07a6bd5c5
+        - chapter: V
+          title: LOCAL STUDY OF FUNCTIONS
+          sections:
+            - kind: front
+              title: LOCAL STUDY OF FUNCTIONS
+              path: content/en/fvr/V/00_frontmatter.md
+              first_pdf_page: 226
+              last_pdf_page: 226
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: bccb278de3ad47f70714d2c6daa5cf3d0be0a39ba9579d54611c27558e51716f
+            - kind: section
+              section: 1
+              title: COMPARISON OF FUNCTIONS ON A FILTERED SET
+              path: content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md
+              label: fvr-v-s1
+              first_pdf_page: 226
+              last_pdf_page: 274
+              subsections: 5
+              statements: 38
+              exercises: 3
+              extraction: ocr
+              content_sha256: 5938d169f8d414b2f0ad61872c6def1fa9381bea868d63d13fc922fc117ab92f
+            - kind: section
+              section: 2
+              title: ASYMPTOTIC EXPANSIONS
+              path: content/en/fvr/V/02_s2_asymptotic_expansions.md
+              label: fvr-v-s2
+              first_pdf_page: 235
+              last_pdf_page: 242
+              subsections: 5
+              statements: 12
+              exercises: 0
+              extraction: ocr
+              content_sha256: 6dbb80b4d9ced8125da9a25c398bf8dcaeecf4ed6cdb3e6fcc1e622bcbf5063e
+            - kind: section
+              section: 3
+              title: ASYMPTOTIC EXPANSIONS OF FUNCTIONS OF A REAL VARIABLE
+              path: content/en/fvr/V/03_s3_asymptotic_expansions_of_functions_of_a.md
+              label: fvr-v-s3
+              first_pdf_page: 242
+              last_pdf_page: 276
+              subsections: 6
+              statements: 23
+              exercises: 7
+              extraction: ocr
+              content_sha256: 7521ac56cbf35b7f93d6d96d93a265b261fdc758a60860585fe831eb54a11bbe
+            - kind: section
+              section: 4
+              title: APPLICATION TO SERIES WITH POSITIVE TERMS
+              path: content/en/fvr/V/04_s4_application_to_series_with_positive.md
+              label: fvr-v-s4
+              first_pdf_page: 251
+              last_pdf_page: 278
+              subsections: 4
+              statements: 13
+              exercises: 3
+              extraction: ocr
+              content_sha256: 87c97f97a2aa2a2c80dd6cc88cc89ee66ad2600b9dca489982bfd1a6b369472c
+            - kind: appendix
+              title: Hardy Fields. (H) Functions
+              path: content/en/fvr/V/A_a_hardy_fields_h_functions.md
+              label: fvr-v-a0
+              first_pdf_page: 262
+              last_pdf_page: 282
+              subsections: 6
+              statements: 21
+              exercises: 15
+              extraction: ocr
+              content_sha256: 211cef728f92b9ed4d60cc34a4d1f0d68ce047104889cba432f95522f59df089
+        - chapter: VI
+          title: GENERALIZED TAYLOR EXPANSIONS EULER-MACLAURIN SUMMATION FORMULA
+          sections:
+            - kind: front
+              title: GENERALIZED TAYLOR EXPANSIONS EULER-MACLAURIN SUMMATION FORMULA
+              path: content/en/fvr/VI/00_frontmatter.md
+              first_pdf_page: 284
+              last_pdf_page: 284
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 00c68f1d6ec5339e4f004c65b94de061e35de20fe74b1f5daed983bcfb41b88f
+            - kind: section
+              section: 1
+              title: GENERALIZED TAYLOR EXPANSIONS
+              path: content/en/fvr/VI/01_s1_generalized_taylor_expansions.md
+              label: fvr-vi-s1
+              first_pdf_page: 284
+              last_pdf_page: 307
+              subsections: 7
+              statements: 20
+              exercises: 3
+              extraction: ocr
+              content_sha256: 10e15c9646e50c1d73d23a9fc3b9c8986d1a8b5f5e6341a34e91f14267032b2e
+            - kind: section
+              section: 2
+              title: EULERIAN EXPANSIONS OF THE TRIGONOMETRIC FUNCTIONS AND BERNOULLI NUMBERS
+              path: content/en/fvr/VI/02_s2_eulerian_expansions_of_the.md
+              label: fvr-vi-s2
+              first_pdf_page: 298
+              last_pdf_page: 311
+              subsections: 3
+              statements: 5
+              exercises: 1
+              extraction: ocr
+              content_sha256: 0dad261156c428389028cbfb5e9f6e4e1b2a32c74de3d12c098e8bfd126ac99b
+            - kind: section
+              section: 3
+              title: BOUNDS FOR THE REMAINDER IN THE EULER-MACLAURIN SUMMATION FORMULA
+              path: content/en/fvr/VI/03_s3_bounds_for_the_remainder_in_the_euler.md
+              label: fvr-vi-s3
+              first_pdf_page: 303
+              last_pdf_page: 312
+              subsections: 2
+              statements: 0
+              exercises: 3
+              extraction: ocr
+              content_sha256: 103ec5ec6513283f6c6e9909a63a827d7480ecb776856e9ab7fb3eb96b37fc76
+            - kind: historical
+              title: Historical Note
+              path: content/en/fvr/VI/historical_note.md
+              first_pdf_page: 314
+              last_pdf_page: 318
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 91295668aa469b4834bb909286d805d1b399f80d811ee4d29fc512591b50a918
+        - chapter: VII
+          title: THE GAMMA FUNCTION
+          sections:
+            - kind: front
+              title: THE GAMMA FUNCTION
+              path: content/en/fvr/VII/00_frontmatter.md
+              first_pdf_page: 320
+              last_pdf_page: 320
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 613c766a6f3dd4f1def9527e8a71a92fdeb5a3deba447045e6d7a52740f193a9
+            - kind: section
+              section: 1
+              title: THE GAMMA FUNCTION IN THE REAL DOMAIN
+              path: content/en/fvr/VII/01_s1_the_gamma_function_in_the_real_domain.md
+              label: fvr-vii-s1
+              first_pdf_page: 320
+              last_pdf_page: 342
+              subsections: 3
+              statements: 8
+              exercises: 6
+              extraction: ocr
+              content_sha256: ded46e3752172da2c1ee172991783a68eb4527a5a48a05c784d08473c9e2f1e3
+            - kind: section
+              section: 2
+              title: THE GAMMA FUNCTION IN THE COMPLEX DOMAIN
+              path: content/en/fvr/VII/02_s2_the_gamma_function_in_the_complex_domain.md
+              label: fvr-vii-s2
+              first_pdf_page: 330
+              last_pdf_page: 343
+              subsections: 3
+              statements: 6
+              exercises: 6
+              extraction: ocr
+              content_sha256: 6be47bc6aec4e2250251661d315af13917b7991b97da582bdb05fa9da882ba8a
+            - kind: historical
+              title: Historical Note
+              path: content/en/fvr/VII/historical_note.md
+              first_pdf_page: 344
+              last_pdf_page: 353
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 1041088601c93e87563d0f075a725ecae387676a67a10cbf4e0c2ebe1dc7757d

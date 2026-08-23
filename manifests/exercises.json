@@ -3031,6 +3031,235 @@
           ]
         }
       ]
+    },
+    {
+      "id": "fvr-i-vii",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "DERIVATIVES",
+          "total": 51,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-i-s1",
+              "dir": "s1",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 2,
+              "label": "fvr-i-s2",
+              "dir": "s2",
+              "count": 14,
+              "first": 1,
+              "last": 14,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "fvr-i-s3",
+              "dir": "s3",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 5
+            },
+            {
+              "section": 4,
+              "label": "fvr-i-s4",
+              "dir": "s4",
+              "count": 10,
+              "first": 1,
+              "last": 10
+            }
+          ]
+        },
+        {
+          "chapter": "II",
+          "title": "PRIMITIVES AND INTEGRALS",
+          "total": 29,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-ii-s1",
+              "dir": "s1",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "supplementary": 2
+            },
+            {
+              "section": 2,
+              "label": "fvr-ii-s2",
+              "dir": "s2",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 3,
+              "label": "fvr-ii-s3",
+              "dir": "s3",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 1
+            }
+          ]
+        },
+        {
+          "chapter": "III",
+          "title": "ELEMENTARY FUNCTIONS",
+          "total": 39,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-iii-s1",
+              "dir": "s1",
+              "count": 30,
+              "first": 1,
+              "last": 30,
+              "starred": 2,
+              "supplementary": 5
+            },
+            {
+              "section": 2,
+              "label": "fvr-iii-s2",
+              "dir": "s2",
+              "count": 9,
+              "first": 1,
+              "last": 9,
+              "starred": 4
+            }
+          ]
+        },
+        {
+          "chapter": "IV",
+          "title": "DIFFERENTIAL EQUATIONS",
+          "total": 28,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-iv-s1",
+              "dir": "s1",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 4
+            },
+            {
+              "section": 2,
+              "label": "fvr-iv-s2",
+              "dir": "s2",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 1,
+              "supplementary": 1
+            }
+          ]
+        },
+        {
+          "chapter": "V",
+          "title": "LOCAL STUDY OF FUNCTIONS",
+          "total": 28,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-v-s1",
+              "dir": "s1",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 3,
+              "label": "fvr-v-s3",
+              "dir": "s3",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 2
+            },
+            {
+              "section": 4,
+              "label": "fvr-v-s4",
+              "dir": "s4",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 0,
+              "appendix": true,
+              "label": "fvr-v-a0",
+              "dir": "a0",
+              "count": 15,
+              "first": 1,
+              "last": 15,
+              "starred": 2
+            }
+          ]
+        },
+        {
+          "chapter": "VI",
+          "title": "GENERALIZED TAYLOR EXPANSIONS EULER-MACLAURIN SUMMATION FORMULA",
+          "total": 7,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-vi-s1",
+              "dir": "s1",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 2,
+              "label": "fvr-vi-s2",
+              "dir": "s2",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 3,
+              "label": "fvr-vi-s3",
+              "dir": "s3",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            }
+          ]
+        },
+        {
+          "chapter": "VII",
+          "title": "THE GAMMA FUNCTION",
+          "total": 12,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-vii-s1",
+              "dir": "s1",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 2
+            },
+            {
+              "section": 2,
+              "label": "fvr-vii-s2",
+              "dir": "s2",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 1
+            }
+          ]
+        }
+      ]
     }
   ]
 }
