@@ -8481,7 +8481,7 @@ books:
                   page: 31
                   pdf_page: 68
                 - "no": 7
-                  title: Remarks on Frechet spaces
+                  title: Remarks on Fréchet spaces
                   page: 34
                   pdf_page: 71
               exercises:
@@ -8815,7 +8815,7 @@ books:
                 page: 52
                 pdf_page: 234
             - section: 3
-              title: Dual of a Frechet space
+              title: Dual of a Fréchet space
               page: 21
               pdf_page: 203
               subsections:
@@ -8832,11 +8832,11 @@ books:
                   page: 23
                   pdf_page: 205
                 - "no": 4
-                  title: Dual of a reflexive Frechet space
+                  title: Dual of a reflexive Fréchet space
                   page: 23
                   pdf_page: 205
                 - "no": 5
-                  title: The topology of compact convergence on the dual of a Frechet space
+                  title: The topology of compact convergence on the dual of a Fréchet space
                   page: 24
                   pdf_page: 206
                 - "no": 6
@@ -8847,7 +8847,7 @@ books:
                 page: 57
                 pdf_page: 239
             - section: 4
-              title: Strict morphisms of Frechet spaces
+              title: Strict morphisms of Fréchet spaces
               page: 26
               pdf_page: 208
               subsections:
@@ -8856,7 +8856,7 @@ books:
                   page: 27
                   pdf_page: 209
                 - "no": 2
-                  title: Strict morphisms of Frechet spaces
+                  title: Strict morphisms of Fréchet spaces
                   page: 28
                   pdf_page: 210
                 - "no": 3
@@ -9732,7 +9732,7 @@ books:
                   page: 7
                   pdf_page: 20
                 - "no": 6
-                  title: Characterisation of Coxcter groups
+                  title: Characterisation of Coxeter groups
                   page: 10
                   pdf_page: 23
                 - "no": 7
