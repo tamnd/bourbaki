@@ -2434,7 +2434,7 @@ books:
               statements: 39
               exercises: 20
               extraction: ocr
-              content_sha256: c3730578b253f69423b43d409b3b7a826bfbd3013f1a712a11ba2e15c1dbd4ce
+              content_sha256: 1049b16ea7f3d1d52a3697fbbb8908ee491814e70eb0fc2b3e5904bc50517937
             - kind: section
               section: 7
               title: Extremal points and extremal generators
@@ -2485,7 +2485,7 @@ books:
               statements: 29
               exercises: 16
               extraction: ocr
-              content_sha256: ab8beb6357f0f1b2d667e067bef476ff7a003792d23330eeb4ca68b3d0ffa9af
+              content_sha256: b23ac8c0bb6fef3cd9831ce3a19840df9be017a870ed9a5fd47f91a1b3bb950f
             - kind: section
               section: 2
               title: Bornological spaces
@@ -2524,7 +2524,7 @@ books:
               statements: 18
               exercises: 21
               extraction: ocr
-              content_sha256: ff2f868ada1841e3392167da48fee371699c8ed3d6ed90405e76db6ebf5ffcef
+              content_sha256: a2edee71db4e593e68f89a39e51758bcfe1e509cba48f52ecbb2195db6722cea
             - kind: section
               section: 5
               title: Hypocontinuous bilinear mappings
@@ -2601,7 +2601,7 @@ books:
               statements: 14
               exercises: 2
               extraction: ocr
-              content_sha256: abf07c5659761fffa0f5bf3cd4bc164e1b02bd08595dc6319e5148a7b4c7a8b1
+              content_sha256: 4dfddf09c5a6f62b6dc1d25b578ed0c926fd65b6f2666fde1875600c0f5d4498
             - kind: section
               section: 4
               title: Strict morphisms of Fréchet spaces
@@ -2636,7 +2636,7 @@ books:
               last_pdf_page: 258
               subsections: 4
               statements: 10
-              exercises: 4
+              exercises: 8
               extraction: ocr
               content_sha256: 7eb54e9666dc4f954bc5363b6489301c8e109bec69185ed8316bea9f05a72696
         - chapter: V
@@ -2663,7 +2663,7 @@ books:
               statements: 31
               exercises: 6
               extraction: ocr
-              content_sha256: 1c8a9e83f26d78057d54106288ce04ce371e3d1cc11610d09b61eca368b647da
+              content_sha256: 52ef3981439a9aee715cc1e40006201a012b7b2e455fca13073ea20cf4caa176
             - kind: section
               section: 2
               title: Orthogonal families in a hilbertian space
@@ -2673,10 +2673,10 @@ books:
               last_pdf_page: 331
               book_pages: TVS V.17-TVS V.25, TVS V.70-TVS V.73
               subsections: 4
-              statements: 21
+              statements: 20
               exercises: 16
               extraction: ocr
-              content_sha256: e87f5f8a10c8f7cd86d202982dafb811ff9f6b90d127da16fc34b11f09ba1da9
+              content_sha256: f4a91717c4baa7d6d1bb46cb51254aa135c11de193e6beec7afd9f662370894d
             - kind: section
               section: 3
               title: Tensor product of hilbertian spaces
@@ -2689,7 +2689,7 @@ books:
               statements: 17
               exercises: 23
               extraction: ocr
-              content_sha256: c269cc03a771151e06055ba53c27d0b74e268e32f1bad9247f1515512030aca4
+              content_sha256: f70fae0140a5ab3b747a0fa22e36cae210395f965e23a5f5911471c06431fcbc
             - kind: section
               section: 4
               title: Some classes of operators in hilbertian spaces
@@ -2698,10 +2698,10 @@ books:
               first_pdf_page: 295
               last_pdf_page: 318
               subsections: 9
-              statements: 40
+              statements: 41
               exercises: 0
               extraction: ocr
-              content_sha256: 8211b1b7a0f581dbc762b2df2ac5703b0e15fd0db527ff4281a1d2811687ea92
+              content_sha256: 12a07afdbd302b2c3af5d28444e7b827da7815a9358c3e87efd3c0e575daeebb
     - id: int-i-vi
       chapters:
         - chapter: I
@@ -2958,7 +2958,7 @@ books:
               statements: 23
               exercises: 9
               extraction: ocr
-              content_sha256: 60eb5181ade6fd9120d7cc209b1d41bc49ca6f6965a7520895b890532b63ba38
+              content_sha256: caad119969fe95e177cdfb89bfa13ff8d0159e399ab5d7c4149c74762c8819a5
             - kind: section
               section: 2
               title: Continuous functions
@@ -2968,7 +2968,7 @@ books:
               last_pdf_page: 128
               subsections: 5
               statements: 26
-              exercises: 5
+              exercises: 10
               extraction: ocr
               content_sha256: a850e329d6d5ae9ce40027bd1275f860692c663d82de376f3f95fd8324105c60
             - kind: section
@@ -2992,7 +2992,7 @@ books:
               last_pdf_page: 133
               subsections: 4
               statements: 21
-              exercises: 3
+              exercises: 10
               extraction: ocr
               content_sha256: c92011a27ae84f64199bc5c751e4506bd05a79dad58b11cbcf6ac857846cfa96
             - kind: section
@@ -3016,7 +3016,7 @@ books:
               last_pdf_page: 138
               subsections: 10
               statements: 30
-              exercises: 8
+              exercises: 20
               extraction: ocr
               content_sha256: b69127ace6a71b69e5bfa60e86cfec121882d7f5cc6deb65e6ca91d61c68a4ae
             - kind: section
@@ -3040,7 +3040,7 @@ books:
               last_pdf_page: 147
               subsections: 6
               statements: 28
-              exercises: 12
+              exercises: 24
               extraction: ocr
               content_sha256: 5be2c158ce26c70a533de7a2831009bf912d2b3aabc5a32fe8dabbb703de423d
             - kind: section
@@ -3064,7 +3064,7 @@ books:
               last_pdf_page: 161
               subsections: 4
               statements: 30
-              exercises: 8
+              exercises: 20
               extraction: ocr
               content_sha256: dbc7fb11c2caffb7665f50d824927c81bc19d0007face4b58efe12f172f6eb6d
             - kind: section
@@ -3076,7 +3076,7 @@ books:
               last_pdf_page: 167
               subsections: 7
               statements: 28
-              exercises: 3
+              exercises: 25
               extraction: ocr
               content_sha256: 49e623cd592377d1f90b814606ff58adaeff059b1eb51901b6753b81790419ce
             - kind: historical
@@ -3111,7 +3111,7 @@ books:
               last_pdf_page: 213
               subsections: 2
               statements: 13
-              exercises: 4
+              exercises: 5
               extraction: ocr
               content_sha256: 836a98a1f448d26c2dd28d696efabd443182ff29cecbdaa1f98458ad64ae6550
             - kind: section
@@ -3135,7 +3135,7 @@ books:
               last_pdf_page: 215
               subsections: 9
               statements: 48
-              exercises: 3
+              exercises: 7
               extraction: ocr
               content_sha256: daf59b5609a6489a672918c9bebb24140f45498174c58e5b51131f4c3c2181dd
             - kind: section
@@ -3147,7 +3147,7 @@ books:
               last_pdf_page: 221
               subsections: 4
               statements: 24
-              exercises: 8
+              exercises: 23
               extraction: ocr
               content_sha256: 0395b428f169afdd5c0767b9b416c4156c96b4b24b7915b202db574b6c779b9a
             - kind: historical
@@ -3194,7 +3194,7 @@ books:
               last_pdf_page: 311
               subsections: 10
               statements: 45
-              exercises: 3
+              exercises: 31
               extraction: ocr
               content_sha256: 47d9658517b4c1e8958f34e74e02f8ba4e12d17566a6a1aa7278c3a125d4cebb
             - kind: section
@@ -3206,7 +3206,7 @@ books:
               last_pdf_page: 313
               subsections: 5
               statements: 18
-              exercises: 6
+              exercises: 12
               extraction: ocr
               content_sha256: 4972c9de1d98d922cd654a81053514f5b37a77fff91e301359778a5178c30ef9
             - kind: section
@@ -3218,7 +3218,7 @@ books:
               last_pdf_page: 320
               subsections: 6
               statements: 33
-              exercises: 8
+              exercises: 23
               extraction: ocr
               content_sha256: 98bbe11fdf6749e206e1e4299f5988df931a0fc935bdd492e0606a77dcab9459
             - kind: section
@@ -3230,7 +3230,7 @@ books:
               last_pdf_page: 321
               subsections: 7
               statements: 19
-              exercises: 5
+              exercises: 7
               extraction: ocr
               content_sha256: a04569f1d51737a665ddf223a5887f3c79270fcedf0d0fe1ed5aefa3a1a5df76
             - kind: section
@@ -3242,7 +3242,7 @@ books:
               last_pdf_page: 330
               subsections: 8
               statements: 23
-              exercises: 9
+              exercises: 26
               extraction: ocr
               content_sha256: b93d2929f1c6cdb5fdcf411e839082929ac52b886df0f057694019b2bfab4594
             - kind: section
@@ -3254,7 +3254,7 @@ books:
               last_pdf_page: 332
               subsections: 4
               statements: 15
-              exercises: 2
+              exercises: 5
               extraction: ocr
               content_sha256: d8ae46ff31970d55849edbf8f1456dea36de8f73d914c85e3eae63c8b2a041e6
             - kind: historical
@@ -3289,9 +3289,9 @@ books:
               last_pdf_page: 387
               subsections: 6
               statements: 10
-              exercises: 2
+              exercises: 4
               extraction: ocr
-              content_sha256: c8730b6ed3baf481340205505e89db2058463f5d870ee4ad6c6bb5892ecc991e
+              content_sha256: 16d7a53ea0f3096cb945a9d8551d57ceca4daccf221fbac408f85c3cc56d196d
             - kind: section
               section: 2
               title: Fundamental topological properties of the real line
@@ -3301,7 +3301,7 @@ books:
               last_pdf_page: 393
               subsections: 6
               statements: 15
-              exercises: 5
+              exercises: 16
               extraction: ocr
               content_sha256: b1e4c9f021ecade2d42724d9ff68e18f4010ecf25a57d805b5f68347b8836f21
             - kind: section
@@ -3313,7 +3313,7 @@ books:
               last_pdf_page: 394
               subsections: 3
               statements: 2
-              exercises: 2
+              exercises: 3
               extraction: ocr
               content_sha256: 52290856961d6ee2676d76564b706e7d90fbf9d74690431d391e068442bf835b
             - kind: section
@@ -3327,7 +3327,7 @@ books:
               statements: 11
               exercises: 7
               extraction: ocr
-              content_sha256: bc995b2641a04c224373ec5f7cf9b7c24c9724e3164136708c39ceee25679b9d
+              content_sha256: 8896fe25e69f07b614cde7d2b86558a1c5fa38420ee161ac676b8d3b817492cc
             - kind: section
               section: 5
               title: Real-valued functions
@@ -3337,7 +3337,7 @@ books:
               last_pdf_page: 399
               subsections: 7
               statements: 30
-              exercises: 6
+              exercises: 18
               extraction: ocr
               content_sha256: 3619523eedec18461c8156e453fc7b714426edb1b942c26194e2855e6d24b459
             - kind: section
@@ -3349,7 +3349,7 @@ books:
               last_pdf_page: 403
               subsections: 2
               statements: 15
-              exercises: 6
+              exercises: 15
               extraction: ocr
               content_sha256: 2d73c4454ab304cb00c9ee269dc0713aebdab5f45aa6bec1c7a8237ee8a3376e
             - kind: section
@@ -3361,7 +3361,7 @@ books:
               last_pdf_page: 407
               subsections: 6
               statements: 20
-              exercises: 11
+              exercises: 22
               extraction: ocr
               content_sha256: 2663d8c219d754cff4afb607087a87f701e934fe8051cc66b900cf47a8e1cea4
             - kind: section
@@ -3373,7 +3373,7 @@ books:
               last_pdf_page: 411
               subsections: 6
               statements: 3
-              exercises: 3
+              exercises: 6
               extraction: ocr
               content_sha256: b2bfd4fbc49b036cf80faadde5f2068a1c056da3fbc11b10c1b5185ec846e570
             - kind: historical
@@ -3684,7 +3684,7 @@ books:
               last_pdf_page: 73
               subsections: 9
               statements: 51
-              exercises: 12
+              exercises: 19
               extraction: ocr
               content_sha256: 21feca5b44a18f4455d238751be0eb3a286059b83dcd196e3ef8f3297109515a
             - kind: section
@@ -3696,7 +3696,7 @@ books:
               last_pdf_page: 80
               subsections: 4
               statements: 30
-              exercises: 10
+              exercises: 12
               extraction: ocr
               content_sha256: ce0deb87304b6da2ebf54e1fe32ab69d4dc497fec69934f4b07fd5b981c510a0
             - kind: section
@@ -3708,7 +3708,7 @@ books:
               last_pdf_page: 83
               subsections: 4
               statements: 11
-              exercises: 6
+              exercises: 10
               extraction: ocr
               content_sha256: 0c4075dcd7d328f0f7f05fce1be185e129f678a0ccf3e298c0a3427101c4e74f
         - chapter: VI
@@ -3733,7 +3733,7 @@ books:
               last_pdf_page: 167
               subsections: 4
               statements: 15
-              exercises: 8
+              exercises: 9
               extraction: ocr
               content_sha256: 29cb15898721c3be9bccdf2016512aa6a79e9992ad47c59e809ddc412de5f25c
             - kind: section
@@ -3757,7 +3757,7 @@ books:
               last_pdf_page: 171
               subsections: 6
               statements: 19
-              exercises: 4
+              exercises: 8
               extraction: ocr
               content_sha256: f02376a5f32a989361b6fbecd7afd993c6184c42cb6e37fb007d168d0dcf4383
             - kind: section
@@ -3817,7 +3817,7 @@ books:
               last_pdf_page: 191
               subsections: 7
               statements: 33
-              exercises: 6
+              exercises: 22
               extraction: ocr
               content_sha256: d1da25dda3bf0795992a5c248adf27c390aa205976cfa3e1351166ff1a580165
             - kind: section
@@ -4013,7 +4013,7 @@ books:
               statements: 6
               exercises: 5
               extraction: ocr
-              content_sha256: 4c546b1f017c12f6c6e698c1b3aa6df6b31f82329588587782c17ce7674f0bb0
+              content_sha256: ae66f7e4cd6583507e01f9d6338eed8b0ca41572a16bb3da2a80915495213a27
         - chapter: II
           title: FREE LIE ALGEBRAS
           sections:
@@ -4098,7 +4098,7 @@ books:
               statements: 14
               exercises: 3
               extraction: ocr
-              content_sha256: 6926a052611075234c6e5314d9785a9e398ec4dae53b45975edfca06966ebc86
+              content_sha256: a588e29717103254d7272a25b47f928b860d25d73c99158135d8f87332ab07da
             - kind: section
               section: 7
               title: Convergence of the Hausdorff series (real or complex case)
@@ -4328,7 +4328,7 @@ books:
               statements: 38
               exercises: 5
               extraction: ocr
-              content_sha256: 9b3df3fc42e14b699bfbf7d59542706df86837bfb2ef4681ea821a733bad9dec
+              content_sha256: 6a1e194beb6491068e8402aa0b896f006bcab263c6ed8066c487c9e85dadddc0
             - kind: section
               section: 8
               title: Norms and traces
@@ -4458,7 +4458,7 @@ books:
               statements: 20
               exercises: 5
               extraction: ocr
-              content_sha256: 8d4166b55077f1a5a58417c4b2b5e3e9bdc7a636a25f53a43aa5c10858c02843
+              content_sha256: 27af0b065ab527af916c3b0b52a9c833e8ca5e6f72669e7cf1b61054d5af5b39
             - kind: historical
               title: Historical Note
               path: content/en/alg/V/historical_note.md
@@ -4506,7 +4506,7 @@ books:
               statements: 31
               exercises: 41
               extraction: ocr
-              content_sha256: ae0e8868b0517f7e33dfc87d54d3d4fadd53b812f912cb84df83d7aba498ca86
+              content_sha256: 35de4067e084a16e84edef67e2102758ffddde3b4289107c3615dde8486954b7
         - chapter: VII
           title: MODULES OVER PRINCIPAL IDEAL DOMAINS
           sections:
@@ -4583,7 +4583,7 @@ books:
               statements: 63
               exercises: 14
               extraction: ocr
-              content_sha256: ba0e2d8669622429c1f2d930977c5c10b6081cff6153171d88654f4c54a82a7d
+              content_sha256: 940002721e05b365dd59c32a47a412e7016af94833083021fc6c5bcaa7de7d22
             - kind: historical
               title: Historical Note
               path: content/en/alg/VII/historical_note.md

@@ -20,12 +20,12 @@ subsections:
       page: 25
       pdf_page: 157
     - "no": 3
-      title: '**Bounded subsets of $ \mathcal{L}(E; F) $ (quasi-complete case)'
+      title: Bounded subsets of $ \mathcal{L}(E; F) $ (quasi-complete case)
       page: 27
       pdf_page: 159
 statements: 18
 exercises: 21
-content_sha256: ff2f868ada1841e3392167da48fee371699c8ed3d6ed90405e76db6ebf5ffcef
+content_sha256: a2edee71db4e593e68f89a39e51758bcfe1e509cba48f52ecbb2195db6722cea
 ---
 
 ## § 4. THE BANACH-STEINHAUS THEOREM
@@ -146,7 +146,7 @@ In fact, every bounded and closed subset of $ \mathcal{L}_{\mathfrak{S}}(E; F) $
 
 — *The strong dual and the weak dual of a barrelled space are quasi-complete.*
 
-### 3. **Bounded subsets of $ \mathcal{L}(E; F) $ (quasi-complete case)
+### 3. Bounded subsets of $ \mathcal{L}(E; F) $ (quasi-complete case)
 
 #### Theorem 2 {#evt-iii-s4-thm-2 .statement}
 

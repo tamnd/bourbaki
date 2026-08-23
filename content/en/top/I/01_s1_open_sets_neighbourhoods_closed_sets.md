@@ -36,7 +36,7 @@ subsections:
       pdf_page: 29
 statements: 23
 exercises: 9
-content_sha256: 60eb5181ade6fd9120d7cc209b1d41bc49ca6f6965a7520895b890532b63ba38
+content_sha256: caad119969fe95e177cdfb89bfa13ff8d0159e399ab5d7c4149c74762c8819a5
 ---
 
 ## 1. OPEN SETS, NEIGHBOURHOODS, CLOSED SETS
@@ -269,8 +269,6 @@ For suppose $ x \in A \cap \overline{B} $; then if $ V $ is any neighbourhood of
 If $ x $ lies in the closure of $ A $ but not in $ A $, then every neighbourhood of $ x $ contains a point of $ A $ *other than* $ x $; but if $ x \in A $ it can happen that $ x $ has a neighbourhood which contains no point of $ A $ except $ x $. We say then that $ x $ is an *isolated point* of $ A $. In particular, $ x $ is isolated in the whole space $ X $ if and only if $ \{x\} $ is an open set.
 
 A closed set which has no isolated points is called a *perfect* set.
-
-§ 2.1
 
 #### Definition 11 {#top-i-s1-def-11 .statement}
 

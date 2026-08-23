@@ -24,7 +24,7 @@ subsections:
       pdf_page: 351
 statements: 11
 exercises: 7
-content_sha256: bc995b2641a04c224373ec5f7cf9b7c24c9724e3164136708c39ceee25679b9d
+content_sha256: 8896fe25e69f07b614cde7d2b86558a1c5fa38420ee161ac676b8d3b817492cc
 ---
 
 ## 4. THE EXTENDED REAL LINE
@@ -147,8 +147,6 @@ $$
 We leave the proof to the reader; it is analogous to the proof of Proposition 7.
 
 Likewise, we see that $ xy $ has no limit at the points $ (0, +\infty), (+\infty, 0), (0, -\infty), (-\infty, 0) $ of $ \overline{\mathbf{R}} \times \overline{\mathbf{R}} $.
-
-§ 5.1
 
 The function $ xy $ is a law of composition on $ \overline{\mathbf{R}}^* $ which extends the law of multiplication on $ \mathbf{R} $; this law is associative and commutative (principle of extension of identities); it has 1 as identity element; and the non-regular elements in $ \overline{\mathbf{R}}^* $ are $ +\infty $ and $ -\infty $.
 

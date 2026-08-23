@@ -51,7 +51,7 @@ subsections:
       page: 0
       pdf_page: 245
 statements: 45
-exercises: 3
+exercises: 31
 content_sha256: 47d9658517b4c1e8958f34e74e02f8ba4e12d17566a6a1aa7278c3a125d4cebb
 ---
 
