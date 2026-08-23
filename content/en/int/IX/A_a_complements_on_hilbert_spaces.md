@@ -22,7 +22,7 @@ subsections:
       pdf_page: 286
 statements: 5
 exercises: 9
-content_sha256: 462710a9864d603941056ec30b3bfb5fcea4599870198ce95840d3ff1f342327
+content_sha256: d9d69ccd7a20f43bf3d7785d1e48a66da2aa3234256eb69cdd0d1cadac0459f7
 ---
 
 ## ANNEX
@@ -79,7 +79,7 @@ $$
 \operatorname{H}\left( \sum_{i=1}^n t_i e_i \right) = \sum_{i=1}^m t_i^2
 $$
 
-*for* $t_1, \ldots, t_n$ *real. If, moreover, the relation* $\operatorname{H}(x) = 0$ *implies* $\operatorname{Q}(x) = 0$ *for* $x \in E$, *then* $\operatorname{Tr}(Q/H) = \sum_{i=1}^m Q(e_i)$.
+*for* $t_1, \ldots, t_n$ *real. If, moreover, the relation* $\operatorname{H}(x) = 0$ *implies* $Q(x) = 0$ *for* $x \in E$, *then* $\operatorname{Tr}(Q/H) = \sum_{i=1}^m Q(e_i)$.
 
 There exists a basis $(e'_1, \ldots, e'_n)$ of E orthogonal for H. One can assume the basis to be indexed in such a way that $\operatorname{H}(e'_i) > 0$ for $1 \leq i \leq m$ and $\operatorname{H}(e'_i) = 0$ for $m < i \leq n$. Then set $e_i = e'_i / \operatorname{H}(e'_i)^{1/2}$ for $1 \leq i \leq m$ and $e_i = e'_i$ for $m < i \leq n$; the relation (1) is satisfied.
 
@@ -147,7 +147,7 @@ $$
 
 In particular, the number $ \sum_{i \in I} \|u(e_i)\|^2 $ is independent of the orthonormal basis $ (e_i)_{i \in I} $ of $ E_1 $.
 
-Set $ t = \mathrm{Tr}\,(Q|H) $. For every finite subset $ I' $ of $ I $, by definition
+Set $ t = \operatorname{Tr}(Q|H) $. For every finite subset $ I' $ of $ I $, by definition
 
 $$
 \sum_{i \in I'} \|u(e_i)\|^2 = \sum_{i \in I'} Q(e_i) \leq t ,
@@ -163,10 +163,10 @@ and, passing to the supremum over all $ (e'_1, \ldots, e'_p) $, one obtains the 
 
 Q.E.D.
 
-One says that $ u $ is a *Hilbert–Schmidt mapping* of $ E_1 $ into $ E_2 $ if the positive quadratic form $ Q : x \mapsto \|u(x)\|^2 $ on $ E_1 $ is nuclear. When this is so, one has $ Q \leq \mathrm{Tr}\,(Q/H) \cdot H $, therefore $ u $ is continuous and
+One says that $ u $ is a *Hilbert–Schmidt mapping* of $ E_1 $ into $ E_2 $ if the positive quadratic form $ Q : x \mapsto \|u(x)\|^2 $ on $ E_1 $ is nuclear. When this is so, one has $ Q \leq \operatorname{Tr}(Q/H) \cdot H $, therefore $ u $ is continuous and
 
 $$
-\|u\| \leq \mathrm{Tr}\,(Q/H)^{1/2} .
+\|u\| \leq \operatorname{Tr}(Q/H)^{1/2} .
 $$
 
 Let $ u : E_1 \to E_2 $ be a continuous linear mapping. By Prop. 3, $ u $ is a Hilbert–Schmidt mapping if and only if there exists an orthonormal basis $ (e_i)_{i \in I} $ of $ E_1 $ such that $ \sum_{i \in I} \|u(e_i)\|^2 < +\infty $. When this is so, every orthonormal basis of $ E_1 $ has the same property. Moreover, if $ u $ is a Hilbert–Schmidt mapping, then so is its adjoint $ u^* $ by virtue of the formula $ \sum_{i \in I} \|u(e_i)\|^2 = \sum_{j \in J} \|u^*(f_j)\|^2 $ (Prop. 3).

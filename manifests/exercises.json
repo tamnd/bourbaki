@@ -1826,7 +1826,7 @@
               "count": 20,
               "first": 1,
               "last": 20,
-              "starred": 6
+              "starred": 8
             },
             {
               "section": 7,
@@ -1835,8 +1835,7 @@
               "count": 10,
               "first": 1,
               "last": 10,
-              "starred": 7,
-              "supplementary": 1
+              "starred": 8
             }
           ]
         }

@@ -55,9 +55,9 @@ subsections:
       title: Measures on a Hilbert space
       page: 97
       pdf_page: 279
-statements: 34
+statements: 33
 exercises: 1
-content_sha256: 33aa365d0d0692edecc789e68e81d3cfda0e72333ba0b9cf72d071ba4b4899f0
+content_sha256: adf9837bfdc0ac48c7983c9d39c882b0f3d1cb4398a1965c89eedcdf122baca7
 ---
 
 ## § 6. PROMEASURES AND MEASURES ON A LOCALLY CONVEX SPACE
@@ -66,7 +66,7 @@ Throughout this section, only vector spaces over the field of real numbers are c
 
 ### 1. Promeasures on a locally convex space
 
-Let E be a locally convex space. We denote by $ \mathcal{F}(E) $ the set of closed linear subspaces of E of finite codimension, ordered by the relation $ \supset $. For every $ V \in \mathcal{F}(E) $, $ p_V $ denotes the canonical mapping of E onto $ E/V $. Let V and W be two elements of $ \mathcal{F}(E) $ such that $ V \supset W $; we denote by $ p_{VW} $ the mapping of $ E/W $ into $ E/V $ deduced from the identity mapping of E by passage to the quotients. The family $ \mathcal{Q}(E) = (E/V, p_{VW}) $ is an inverse system of locally convex spaces, indexed by $ \mathcal{F}(E) $. It is called the inverse system of finite-dimensional quotients of E.
+Let E be a locally convex space. We denote by $ \mathcal{F}(E) $ the set of closed linear subspaces of E of finite codimension, ordered by the relation $ \supset $. For every $ V \in \mathcal{F}(E) $, $ p_V $ denotes the canonical mapping of E onto $ E/V $. Let V and W be two elements of $ \mathcal{F}(E) $ such that $ V \supset W $; we denote by $ p_{VW} $ the mapping of $ E/W $ into $ E/V $ deduced from the identity mapping of E by passage to the quotients. The family $ \mathcal{Q}(E) = (E/V, p_{VW}) $ is an inverse system of locally convex spaces, indexed by $ \mathcal{F}(E) $. It is called the *inverse system of finite-dimensional quotients of E*.
 
 It can be shown that the inverse limit of the inverse system $ \mathcal{Q}(E) $ is canonically isomorphic to the algebraic dual $ E'{}^* $ of $ E' $, equipped with the weak topology $ \sigma(E'{}^*, E') $.
 
@@ -74,21 +74,21 @@ It can be shown that the inverse limit of the inverse system $ \mathcal{Q}(E) $ 
 
 *Let $ E $ be a locally convex space. One calls promeasure on $ E $ every inverse system$^{(1)}$ of measures (\S 4, No. 2, Def. 1) on the inverse system of finite-dimensional quotients of $ E $.*
 
-In other words, a promeasure $ \mu $ on $ E $ is a family $ (\mu_V)_{V \in \mathcal{F}(E)} $, where $ \mu_V $ is a bounded (positive) measure on the finite-dimensional space $ E/V $, and where $ \mu_V = p_{VW}(\mu_W) $ when $ V \supset W $. All of the measures $ \mu_V $ have the same total mass, which is called the *total mass* of the promeasure $ \mu $.
+In other words, a promeasure $ \mu $ on $ E $ is a family $ (\mu_V)_{V \in \mathscr{F}(E)} $, where $ \mu_V $ is a bounded (positive) measure on the finite-dimensional space $ E/V $, and where $ \mu_V = p_{VW}(\mu_W) $ when $ V \supset W $. All of the measures $ \mu_V $ have the same total mass, which is called the *total mass* of the promeasure $ \mu $.
 
-For a subspace $ V $ of $ E $ to belong to $ \mathcal{F}(E) $, it is necessary and sufficient that there exist a finite number of elements $ x'_1, \ldots, x'_n $ of $ E' $ such that $ V $ consists of the $ x \in E $ satisfying $ \langle x, x'_i \rangle = 0 $ for $ 1 \leq i \leq n $ (TVS, II, \S 6, No. 3, Cor. 2 of Th. 1 and No. 5, Cor. 2 of Prop. 7). Moreover, on a finite-dimensional vector space there exists one and only one Hausdorff topological vector space topology (TVS, I, \S 2, No. 3, Th. 2). Consequently, the concept of promeasure on $ E $ depends only on the dual $ E' $ of $ E $.
+For a subspace $ V $ of $ E $ to belong to $ \mathscr{F}(E) $, it is necessary and sufficient that there exist a finite number of elements $ x'_1, \ldots, x'_n $ of $ E' $ such that $ V $ consists of the $ x \in E $ satisfying $ \langle x, x'_i \rangle = 0 $ for $ 1 \leq i \leq n $ (TVS, II, \S 6, No. 3, Cor. 2 of Th. 1 and No. 5, Cor. 2 of Prop. 7). Moreover, on a finite-dimensional vector space there exists one and only one Hausdorff topological vector space topology (TVS, I, \S 2, No. 3, Th. 2). Consequently, the concept of promeasure on $ E $ depends only on the dual $ E' $ of $ E $.
 
-Let $ \lambda $ be a bounded measure on $ E $. For every $ V \in \mathcal{F}(E) $, let us denote by $ \tilde{\lambda}_V $ the image of $ \lambda $ under the canonical mapping $ p_V $ of $ E $ onto $ E/V $. One has $ p_V = p_{VW} \circ p_W $ for any two elements $ V $ and $ W $ of $ \mathcal{F}(E) $ such that $ V \supset W $; consequently, the family $ \tilde{\lambda} = (\tilde{\lambda}_V)_{V \in \mathcal{F}(E)} $ is a promeasure on $ E $. We shall say that $ \tilde{\lambda} $ is the promeasure *associated* with the measure $ \lambda $. One sees immediately that $ \lambda $ and $ \tilde{\lambda} $ have the same total mass.
+Let $ \lambda $ be a bounded measure on $ E $. For every $ V \in \mathscr{F}(E) $, let us denote by $ \widetilde{\lambda}_V $ the image of $ \lambda $ under the canonical mapping $ p_V $ of $ E $ onto $ E/V $. One has $ p_V = p_{VW} \circ p_W $ for any two elements $ V $ and $ W $ of $ \mathscr{F}(E) $ such that $ V \supset W $; consequently, the family $ \widetilde{\lambda} = (\widetilde{\lambda}_V)_{V \in \mathscr{F}(E)} $ is a promeasure on $ E $. We shall say that $ \widetilde{\lambda} $ is the promeasure *associated* with the measure $ \lambda $. One sees immediately that $ \lambda $ and $ \widetilde{\lambda} $ have the same total mass.
 
 #### Proposition 1 {#int-ix-s6-prop-1 .statement}
 
-*Let $ E $ be a locally convex space. The mapping $ \lambda \mapsto \tilde{\lambda} $ is a bijection of the set of bounded measures on $ E $ onto the set of promeasures $ (\mu_V)_{V \in \mathcal{F}(E)} $ on $ E $ satisfying the following condition:
+*Let $ E $ be a locally convex space. The mapping $ \lambda \mapsto \widetilde{\lambda} $ is a bijection of the set of bounded measures on $ E $ onto the set of promeasures $ (\mu_V)_{V \in \mathscr{F}(E)} $ on $ E $ satisfying the following condition:
 
-For every $ \varepsilon > 0 $, there exists a compact subset $ K $ of $ E $ such that $ \mu_V(E/V - p_V(K)) \leq \varepsilon $ for all $ V \in \mathcal{F}(E) $.*
+For every $ \varepsilon > 0 $, there exists a compact subset $ K $ of $ E $ such that $ \mu_V(E/V - p_V(K)) \leq \varepsilon $ for all $ V \in \mathscr{F}(E) $.*
 
-One knows that the intersection of the kernels of the continuous linear forms on $ E $ is equal to 0 (TVS, II, \S 4, No. 1, Cor. 1 of Prop. 2); consequently $ \bigcap_{V \in \mathcal{F}(E)} V = \{0\} $ and the family $ (p_V)_{V \in \mathcal{F}(E)} $ is coherent and separating. The proposition then follows from Th. 1 of \S 4, No. 2.
+One knows that the intersection of the kernels of the continuous linear forms on $ E $ is equal to 0 (TVS, II, \S 4, No. 1, Cor. 1 of Prop. 2); consequently $ \bigcap_{V \in \mathscr{F}(E)} V = \{0\} $ and the family $ (p_V)_{V \in \mathscr{F}(E)} $ is coherent and separating. The proposition then follows from Th. 1 of \S 4, No. 2.
 
-In particular, the mapping $ \lambda \mapsto \tilde{\lambda} $ is injective. If $ \mu $ is a promeasure on $ E $, and if there exists a bounded measure $ \lambda $ on $ E $ such that $ \mu = \tilde{\lambda} $, we shall say, by an abuse of language, that $ \mu $ is a measure. If $ E $ is finite-dimensional, every promeasure $ \mu = (\mu_V)_{V \in \mathcal{F}(E)} $ is a measure: for, $ \{0\} \in \mathcal{F}(E) $, $ E/\{0\} = E $ and $ p_{V,\{0\}} = p_V $, whence $ \mu_V = p_V(\mu_{\{0\}}) $ for all $ V \in \mathcal{F}(E) $; in other words, $ \mu = \tilde{\lambda} $ with $ \lambda = \mu_{\{0\}} $.
+In particular, the mapping $ \lambda \mapsto \widetilde{\lambda} $ is injective. If $ \mu $ is a promeasure on $ E $, and if there exists a bounded measure $ \lambda $ on $ E $ such that $ \mu = \widetilde{\lambda} $, we shall say, by an abuse of language, that $ \mu $ is a measure. If $ E $ is finite-dimensional, every promeasure $ \mu = (\mu_V)_{V \in \mathscr{F}(E)} $ is a measure: for, $ \{0\} \in \mathscr{F}(E) $, $ E/\{0\} = E $ and $ p_{V,\{0\}} = p_V $, whence $ \mu_V = p_V(\mu_{\{0\}}) $ for all $ V \in \mathscr{F}(E) $; in other words, $ \mu = \widetilde{\lambda} $ with $ \lambda = \mu_{\{0\}} $.
 
 (1) Also called a 'projective system'.
 
@@ -103,7 +103,7 @@ For every $ t \in T $, let $ \varepsilon_t $ be the linear form $ f \mapsto f(t)
 Let E and $ E_1 $ be two locally convex spaces, and $ u $ a continuous linear mapping of E into $ E_1 $. For every $ V_1 \in \mathcal{F}(E_1) $, the subspace $ V = \overline{u}^{-1}(V_1) $ of E belongs to $ \mathcal{F}(E) $, and $ u $ defines, by passage to the quotients, a linear mapping $ u_{V_1} $ of $ E/V $ into $ E_1/V_1 $. Let $ V_1 $ and $ W_1 $ in $ \mathcal{F}(E_1) $ be such that $ V_1 \supset W_1 $; set $ V = \overline{u}^{-1}(V_1) $ and $ W = \overline{u}^{-1}(W_1) $. We have $ V \supset W $, and a commutative diagram
 
 $$
-\begin{array}{ccccccccc}
+\begin{array}{ccc}
 E & \xrightarrow{pw} & E/W & \xrightarrow{pvw} & E/V \\
 \downarrow u & & \downarrow u_{W_1} & & \downarrow u_{V_1} \\
 E_1 & \xrightarrow{pw_1} & E_1/W_1 & \xrightarrow{pv_{1W_1}} & E_1/V_1
@@ -147,10 +147,10 @@ $$
 
 Let $ \mu $ be the promeasure associated with $ \lambda $. For every $ x' \in E' $, the measure $ \mu_{x'} $ on $ \mathbf{R} $ is the image under $ x' : E \to \mathbf{R} $ of the measure $ \lambda $ on $ E $; from the formulas (2) and (3), one immediately deduces $ \mathcal{F}\mu = \mathcal{F}\lambda $.
 
-Let $ \mu $ be any promeasure on $ E $, and $ u $ a continuous linear mapping of $ E $ into a locally convex space $ E_1 $. Denote by $ {}^t u $ the linear mapping of $ E'_1 $ into $ E' $ that is the transpose of $ u $, and by $ \nu $ the promeasure $ u(\mu) $ on $ E_1 $. For every $ x'_1 \in E'_1 $, we have $ {}^t u(x'_1) = x'_1 \circ u $, whence
+Let $ \mu $ be any promeasure on $ E $, and $ u $ a continuous linear mapping of $ E $ into a locally convex space $ E_1 $. Denote by $ ^t u $ the linear mapping of $ E'_1 $ into $ E' $ that is the transpose of $ u $, and by $ \nu $ the promeasure $ u(\mu) $ on $ E_1 $. For every $ x'_1 \in E'_1 $, we have $ ^t u(x'_1) = x'_1 \circ u $, whence
 
 $$
-\nu_{x'_1} = x'_1(\nu) = x'_1(u(\mu)) = (x'_1 \circ u)(\mu) = \mu_{{}^t u(x'_1)}.
+\nu_{x'_1} = x'_1(\nu) = x'_1(u(\mu)) = (x'_1 \circ u)(\mu) = \mu_{^t u(x'_1)}.
 $$
 
 Consequently,
@@ -256,7 +256,7 @@ $$
 The change of variable $ x \mapsto -x $ yields
 
 $$
-(2\pi)^{-1/2} \int_{\mathbf{R}} e^{-x^2/2} e^{i xy} dx = (2\pi)^{-1/2} \int_{\mathbf{R}} e^{-x^2/2} e^{-i xy} dx;
+(2\pi)^{-1/2} \int_{\mathbf{R}} e^{-x^2/2} e^{i xy} dx = (2\pi)^{-1/2} \int_{\mathbf{R}} e^{-x^2/2} e^{-ixy} dx;
 $$
 
 since $ \cos u = \frac{e^{iu} + e^{-iu}}{2} $ for every complex number $ u $, it follows that
@@ -310,13 +310,13 @@ The uniqueness of $ \Gamma_Q $ follows from Prop. 3 of No. 3. The total mass of 
 
 A) E of finite dimension n, and Q nondegenerate.
 
-By Lemma 2 of No. 4, the measure $ \gamma_1 $ on $ \mathbf{R} $ having density $ t \mapsto (2\pi)^{-1/2} e^{-t^2/2} $ is bounded, of total mass 1. Set $ \gamma = \gamma_1 \otimes \cdots \otimes \gamma_1 $ (n factors). From Lemma 2 of No. 4, one deduces
+By Lemma 2 of No. 4, the measure $ \gamma_1 $ on $ \mathbf{R} $ having density $ t \mapsto (2\pi)^{-1/2}e^{-t^2/2} $ is bounded, of total mass 1. Set $ \gamma = \gamma_1 \otimes \cdots \otimes \gamma_1 $ (n factors). From Lemma 2 of No. 4, one deduces
 
 $$
-\int_{\mathbf{R}^n} e^{i(a_1 t_1 + \cdots + a_n t_n)} d\gamma(t_1, \ldots, t_n) = \prod_{j=1}^n \int_{\mathbf{R}} e^{i a_j t} d\gamma_1(t)
+\int_{\mathbf{R}^n} e^{i(a_1 t_1 + \cdots + a_n t_n)} d\gamma(t_1, \ldots, t_n) = \prod_{j=1}^n \int_{\mathbf{R}} e^{ia_j t} d\gamma_1(t)
 $$
 $$
-= \prod_{j=1}^n (2\pi)^{-1/2} \int_{\mathbf{R}} e^{i a_j t} e^{-t^2/2} dt
+= \prod_{j=1}^n (2\pi)^{-1/2} \int_{\mathbf{R}} e^{ia_j t} e^{-t^2/2} dt
 $$
 $$
 = \prod_{j=1}^n e^{-a_j^2/2}
@@ -328,10 +328,10 @@ $$
 Since Q is positive and nondegenerate, there exists a basis $ (e'_1, \ldots, e'_n) $ of E' orthonormal for Q (Alg., Ch. IX, §7, No. 1). Let us denote by f the isomorphism $ x \mapsto (e'_1(x), \ldots, e'_n(x)) $ of E onto $ \mathbf{R}^n $, and by $ \Gamma_Q $ the measure $ f^{-1}(\gamma) $ on E. Let $ x' = a_1 e'_1 + \cdots + a_n e'_n $ be in E'; then $ x'(f^{-1}(t_1, \ldots, t_n)) = \sum_{j=1}^n t_j a_j $ for $ t_1, \ldots, t_n $ real, whence
 
 $$
-\int_E e^{i \langle x, x' \rangle} d\Gamma_Q(x) = \int_{\mathbf{R}^n} e^{i(a_1 t_1 + \cdots + a_n t_n)} d\gamma(t_1, \ldots, t_n)
+\int_E e^{i\langle x, x' \rangle} d\Gamma_Q(x) = \int_{\mathbf{R}^n} e^{i(a_1 t_1 + \cdots + a_n t_n)} d\gamma(t_1, \ldots, t_n)
 $$
 $$
-= \exp \left( -\frac{1}{2}(a_1^2 + \cdots + a_n^2) \right) = \exp \left( -\frac{1}{2} Q(x') \right).
+= \exp \left( -\frac{1}{2}(a_1^2 + \cdots + a_n^2) \right) = \exp \left( -\frac{1}{2}Q(x') \right).
 $$
 
 Consequently, $ \mathcal{F}\Gamma_Q = e^{-Q/2} $.
@@ -341,7 +341,7 @@ B) E finite-dimensional.
 Let N be the linear subspace of E' formed by the $ x' $ such that $ Q(x') = 0 $. Denote by M the orthogonal of N in E, and by j the canonical injection of M into E. The linear mapping $ {}^t j : E' \to M' $ is surjective, with kernel N, therefore there exists on $ M' $ a nondegenerate positive quadratic form q such that $ Q = q \circ {}^t j $. By the foregoing, there exists a bounded measure $ \Gamma $ on M such that $ \mathcal{F}\Gamma = e^{-q/2} $. Setting $ \Gamma_Q = j(\Gamma) $, we have
 
 $$
-\mathcal{F}\Gamma_Q = (\mathcal{F}\Gamma) \circ {}^t j = \exp(-q \circ {}^t j / 2) = e^{-Q/2}
+\mathcal{F}\Gamma_Q = (\mathcal{F}\Gamma) \circ {}^t j = \exp(-q \circ {}^t j/2) = e^{-Q/2}
 $$
 
 by formula (4) of No. 3.
@@ -379,7 +379,7 @@ The image of a Gaussian promeasure under a continuous linear mapping is a Gaussi
 
 #### Proposition 5 {#int-ix-s6-prop-5 .statement}
 
-*Let E and E₁ be two locally convex spaces, and u a continuous linear mapping of E into E₁. Let Q be a positive quadratic form on E', and Q₁ the positive quadratic form Q $ \circ {}^t u $ on E₁'. Then $ u(\Gamma_Q) = \Gamma_{Q_1} $.*
+*Let E and E₁ be two locally convex spaces, and u a continuous linear mapping of E into E₁. Let Q be a positive quadratic form on E', and Q₁ the positive quadratic form Q $ \circ {}^t u $ on E'₁. Then $ u(\Gamma_Q) = \Gamma_{Q_1} $.*
 
 Set $ \mu = u(\Gamma_Q) $. By formula (4) of No. 3,
 
@@ -429,7 +429,7 @@ We can now prove a converse of the Cor. of Prop. 5.
 
 For every $ x' \in E' $, let $ Q(x') $ be the variance of the Gaussian measure $ x'(\mu) $ on $ \mathbf{R} $. One has $ x'(\mu) = \gamma_{Q(x')} $, whence
 $$
-(\mathcal{F}\mu)(x') = \int_{\mathbf{R}} e^{it\cdot 1} d\gamma_{Q(x')}(t) = e^{-Q(x')\cdot 1^2/2}
+(\mathcal{F}\mu)(x') = \int_{\mathbf{R}} e^{it \cdot 1} d\gamma_{Q(x')}(t) = e^{-Q(x') \cdot 1^2 / 2}
 $$
 by the definition of $ \mathcal{F}\mu $ (No. 3, formula (2)). In other words, $ \mathcal{F}\mu = e^{-Q/2} $, and it remains to prove that $ Q $ is a positive quadratic form on $ E' $.
 
@@ -584,7 +584,7 @@ $$
 
 whence finally
 
-(34) $$(\Pi \mu)(x) = \mu([x, 1]) \quad \text{for } x \in \mathbf{T}.$$
+(34) $$ (\Pi \mu)(x) = \mu([x, 1]) \quad \text{for } x \in \mathbf{T}. $$
 
 Let $ \mu, \nu $ be in $ \mathcal{M}^1 $. Then
 
@@ -597,41 +597,38 @@ $$
 
 Now, $ I_t \cdot I_{t'} $ is the characteristic function of the interval $ ]0, t] \cap ]0, t'] $, whence immediately
 
-(35) $$\int_{\mathbf{T}} I_t(x) I_{t'}(x) \, dx = \inf(t, t').$$
+(35) $$ \int_{\mathbf{T}} I_t(x) I_{t'}(x) \, dx = \inf(t, t'). $$
 
 It follows that
 
-(36) $$(\Pi \mu | \Pi \nu) = \int_{\mathbf{T}} \int_{\mathbf{T}} \inf(t, t') \, d\mu(t) \, d\nu(t').$$
+(36) $$ (\Pi \mu | \Pi \nu) = \int_{\mathbf{T}} \int_{\mathbf{T}} \inf(t, t') \, d\mu(t) \, d\nu(t'). $$
 
 By the preceding result, one defines a positive quadratic form $ W $ on $ \mathcal{M}^1 $ by the formula
 
-(37) $$W(\mu) = \int_{\mathbf{T}} \int_{\mathbf{T}} \inf(t, t') \, d\mu(t) \, d\mu(t') = \| \Pi \mu \|_2^2.$$
+(37) $$ W(\mu) = \int_{\mathbf{T}} \int_{\mathbf{T}} \inf(t, t') \, d\mu(t) \, d\mu(t') = \| \Pi \mu \|_2^2. $$
 
-In particular, if $ t_1, \ldots, t_n $ are elements of $ T $, and $ c_1, \ldots, c_n $ are real numbers, then
+In particular, if $ t_1, \ldots, t_n $ are elements of T, and $ c_1, \ldots, c_n $ are real numbers, then
 $$
 W \left( \sum_{j=1}^n c_j \varepsilon_{t_j} \right) = \sum_{j,k=1}^n c_j c_k \inf(t_j, t_k)
 $$
-and since $ W $ is positive, the function $ (t, t') \mapsto \inf(t, t') $ is a kernel of positive type on $ T $.
+and since W is positive, the function $(t, t') \mapsto \inf(t, t')$ is a kernel of positive type on T.
 
-#### Theorem 1 (Wiener) {#int-ix-s6-thm-1 .statement}
+**THEOREM 1 (Wiener).** — *Let w be the image under $ P : \mathcal{H} \to \mathcal{C} $ of the canonical Gaussian promeasure on the Hilbert space $ \mathcal{H} $. Then w is a Gaussian measure on $ \mathcal{C} $ with variance W.*
 
-— *Let w be the image under $ P : \mathcal{H} \to \mathcal{C} $ of the canonical Gaussian promeasure on the Hilbert space $ \mathcal{H} $. Then w is a Gaussian measure on $ \mathcal{C} $ with variance W.*
+By construction, $ W(\mu) = \|^tP(\mu)\|_2^2 $; Prop. 5 of No. 5 shows that w is a Gaussian promeasure with variance W. It remains to prove that w is a measure on $ \mathcal{C} $.
 
-By construction, $ W(\mu) = \| {}^t P(\mu) \|_2^2 $; Prop. 5 of No. 5 shows that $ w $ is a Gaussian promeasure with variance $ W $. It remains to prove that $ w $ is a measure on $ \mathcal{C} $.
+A) *Construction of an auxiliary measured space*^{(2)} $(\Omega, m)$:
+For every integer $ n \geqslant 0 $, denote by $ D_n $ the set of numbers of the form $ k/2^n $ with $ k = 1, 2, 3, \ldots, 2^n $. Set $ D = \bigcup_{n \geqslant 0} D_n $ (the set of dyadic numbers contained in T) and $ \Omega = \mathbf{R}^D $. For every $ t \in D $, denote by $ X(t) $ the linear form $ f \mapsto f(t) $ on $ \Omega $.
 
-A) *Construction of an auxiliary measured space*^{(2)} $ (\Omega, m) $:
-For every integer $ n \geq 0 $, denote by $ D_n $ the set of numbers of the form $ k/2^n $ with $ k = 1, 2, 3, \ldots, 2^n $. Set $ D = \bigcup_{n \geq 0} D_n $ (the set of dyadic numbers contained in $ T $) and $ \Omega = \mathbf{R}^D $. For every $ t \in D $, denote by $ X(t) $ the linear form $ f \mapsto f(t) $ on $ \Omega $.
-
-For $ t, t' $ in $ D $, set $ M(t, t') = \inf(t, t') $; we have seen that $ M $ is a kernel of positive type on $ D $. Since the set $ D $ is countable, one can define the Gaussian *measure* $ m $ on $ \Omega $ with covariance $ M $ (No. 6, *Example 2*).
+For $ t, t' $ in D, set $ M(t, t') = \inf(t, t') $; we have seen that M is a kernel of positive type on D. Since the set D is countable, one can define the Gaussian *measure* m on $ \Omega $ with covariance M (No. 6, *Example 2*).
 
 #### Lemma 3 {#int-ix-s6-lem-3 .statement}
 
-*For any $ t, t' $ in $ D $,*
+*For any $ t, t' $ in D,
 $$
 \int_\Omega \left| X\left( \frac{t + t'}{2} \right) - \frac{X(t) + X(t')}{2} \right|^3 dm = \frac{1}{(8\pi)^{1/2}} |t - t'|^{3/2}.
 $$
-
-Note that $ \frac{t + t'}{2} $ belongs to $ D $. One knows (No. 6, *Example 2*) that the family $ (X(t))_{t \in D} $ is a basis of the topological dual $ \Omega' $ of $ \Omega $; therefore there exists a symmetric bilinear form $ \widehat{M} $ on $ \Omega' \times \Omega' $ characterized by $ \widehat{M}(X(t), X(t')) = \inf(t, t') $. By construction, the variance of the Gaussian measure $ m $ on $ \Omega $ is the quadratic form $ \xi \mapsto \widehat{M}(\xi, \xi) $ on $ \Omega' $. Set, in particular,
+Note that $ \frac{t + t'}{2} $ belongs to D. One knows (No. 6, *Example 2*) that the family $ (X(t))_{t \in D} $ is a basis of the topological dual $ \Omega' $ of $ \Omega $; therefore there exists a symmetric bilinear form $ \widehat{M} $ on $ \Omega' \times \Omega' $ characterized by $ \widehat{M}(X(t), X(t')) = \inf(t, t') $. By construction, the variance of the Gaussian measure m on $ \Omega $ is the quadratic form $ \xi \mapsto \widehat{M}(\xi, \xi) $ on $ \Omega' $. Set, in particular,
 $$
 \xi = X\left( \frac{t + t'}{2} \right) - \frac{X(t) + X(t')}{2};
 $$
@@ -651,40 +648,40 @@ $$
 the lemma follows immediately from formulas (40) and (41).
 
 B) *Construction of a mapping u of $ \Omega $ into $ \mathcal{C} $:*
-For every integer $ n \geq 0 $, denote by $ E_n $ the subspace of $ \mathcal{C} $ formed by the functions that are affine on each of the intervals $ \left[ \frac{k-1}{2^n}, \frac{k}{2^n} \right] $ for $ 1 \leq k \leq 2^n $. An affine function on a compact interval I of $ \mathbf{R} $ attains its bounds at the endpoints of I; consequently,
+For every integer $ n \geqslant 0 $, denote by $ E_n $ the subspace of $ \mathcal{C} $ formed by the functions that are affine on each of the intervals $ \left[ \frac{k-1}{2^n}, \frac{k}{2^n} \right] $ for $ 1 \leqslant k \leqslant 2^n $. An affine function on a compact interval I of $ \mathbf{R} $ attains its bounds at the endpoints of I; consequently,
 
 $$
-\| f \| = \sup_{1 \leq k \leq 2^n} \left| f \left( \frac{k}{2^n} \right) \right|
+\|f\| = \sup_{1 \leqslant k \leqslant 2^n} \left| f\left( \frac{k}{2^n} \right) \right|
 $$
 
 for $ f \in E_n $.
 
-For every function $ g \in \Omega $ and every integer $ n \geq 0 $, there exists one and only one function $ u_n(g) $ that belongs to $ E_n $ and coincides with $ g $ at every point of $ D_n $; we shall write $ T_n g = u_{n+1}(g) - u_n(g) $. Since $ D_n $ is finite, the mapping $ T_n $ of $ \Omega $ into $ \mathcal{C} $ is continuous, hence $ m $-measurable.
+For every function $ g \in \Omega $ and every integer $ n \geqslant 0 $, there exists one and only one function $ u_n(g) $ that belongs to $ E_n $ and coincides with $ g $ at every point of $ D_n $; we shall write $ T_n g = u_{n+1}(g) - u_n(g) $. Since $ D_n $ is finite, the mapping $ T_n $ of $ \Omega $ into $ \mathcal{C} $ is continuous, hence $ m $-measurable.
 
 #### Lemma 4 {#int-ix-s6-lem-4 .statement}
 
-— *For every integer $ n \geq 0 $,*
+— *For every integer $ n \geqslant 0 $,*
 
 $$
-\int_{\Omega} \| T_n g \|^3 \, dm(g) \leq \frac{1}{(8\pi)^{1/2}} 2^{-n/2}.
+\int_{\Omega} \|T_n g\|^3 \, dm(g) \leqslant \frac{1}{(8\pi)^{1/2}} 2^{-n/2}.
 $$
 
 Let $ g \in \Omega $ and $ n \in \mathbf{N} $. One has $ E_n \subset E_{n+1} $; consequently, the function $ T_n g $ belongs to $ E_{n+1} $ and is zero at every point of $ D_n $; therefore, by (42),
 
 $$
-\| T_n g \|^3 = \sup_{1 \leq k \leq 2^n} \left| T_n g \left( \frac{2k-1}{2^{n+1}} \right) \right|^3 \leq \sum_{k=1}^{2^n} \left| T_n g \left( \frac{2k-1}{2^{n+1}} \right) \right|^3.
+\|T_n g\|^3 = \sup_{1 \leqslant k \leqslant 2^n} \left| T_n g\left( \frac{2k-1}{2^{n+1}} \right) \right|^3 \leqslant \sum_{k=1}^{2^n} \left| T_n g\left( \frac{2k-1}{2^{n+1}} \right) \right|^3.
 $$
 
 Let us make the convention $ g(0) = 0 $. The construction of $ u_n(g) $ by linear interpolation of $ g $ implies the relations
 
 $$
-T_n g \left( \frac{2k-1}{2^{n+1}} \right) = g \left( \frac{2k-1}{2^{n+1}} \right) - \frac{1}{2} \left( g \left( \frac{k-1}{2^n} \right) + g \left( \frac{k}{2^n} \right) \right)
+T_n g\left( \frac{2k-1}{2^{n+1}} \right) = g\left( \frac{2k-1}{2^{n+1}} \right) - \frac{1}{2} \left( g\left( \frac{k-1}{2^n} \right) + g\left( \frac{k}{2^n} \right) \right)
 $$
 
-for $ 1 \leq k \leq 2^n $. From this, one deduces, by integration,
+for $ 1 \leqslant k \leqslant 2^n $. From this, one deduces, by integration,
 
 $$
-\int_{\Omega} \left| T_n g \left( \frac{2k-1}{2^{n+1}} \right) \right|^3 \, dm(g) = \int_{\Omega} \left| X \left( \frac{2k-1}{2^{n+1}} \right) - \frac{1}{2} \left( X \left( \frac{k-1}{2^n} \right) + X \left( \frac{k}{2^n} \right) \right) \right|^3 \, dm;
+\int_{\Omega} \left| T_n g\left( \frac{2k-1}{2^{n+1}} \right) \right|^3 \, dm(g) = \int_{\Omega} \left| X\left( \frac{2k-1}{2^{n+1}} \right) - \frac{1}{2} \left( X\left( \frac{k-1}{2^n} \right) + X\left( \frac{k}{2^n} \right) \right) \right|^3 \, dm;
 $$
 
 ![Figure 1](../images/figure_1.png)
@@ -761,7 +758,7 @@ Let $ I = [0, 1] $. The space $ \mathcal{M}^1 $ of bounded measures on $ T = ]0,
 
 (3) That is, the measures on $ I $ that are concentrated on $ T = I - \{0\} $.
 
-$ t \mapsto \varepsilon_t $ of $ I $ into $ \mathcal{M}(I) $ is continuous (Ch. III, §1, No. 9, Prop. 13); since $ D $ is dense in $ I $, the closure $ \overline{D} $ of $ D $ contains all of the point measures. Let $ A $ be the set of measures $ \nu \in \mathcal{D} $ such that $ \| \nu \| \leq \| \mu \| $; the measure $ \mu $ is in the closure of $ A $ (Ch. III, §2, No. 4, Cor. 1 of Th. 1). The set $ A $ is relatively compact in $ \mathcal{M}(I) $ (Ch. III, §1, No. 9, Prop. 15) and the compact subsets of $ \mathcal{M}(I) $ are metrizable (TVS, III, §3, No. 4, Cor. 2 of Prop. 6,(4) and GT, X, §3, No. 3, Th. 1). Therefore there exists a sequence of measures $ \mu_n \in A $ converging to $ \mu $ in $ \mathcal{M}(I) $. Since $ \mathcal{C} $ is identified with the subspace of continuous functions on $ I $ zero at the origin, we have $ \mu(f) = \lim_{n \to \infty} \mu_n(f) $ for all $ f \in \mathcal{C} $. Moreover, since $ \mathcal{C}(I) \otimes \mathcal{C}(I) $ is dense in the normed space $ \mathcal{C}(I \times I) $ (Ch. III, §4, No. 1, Lemma 1), the relations $ \lim_{n \to \infty} \mu_n = \mu $ and $ \| \mu_n \| \leq \| \mu \| $ imply that $ \lim_{n \to \infty} (\mu_n \otimes \mu_n) = \mu \otimes \mu $ (Ch. III, §1, No. 10, Prop. 17); since the measures $ \mu_n $ and $ \mu $ place no weight at 0, we have
+$ t \mapsto \varepsilon_t $ of $ I $ into $ \mathcal{M}(I) $ is continuous (Ch. III, §1, No. 9, Prop. 13); since D is dense in I, the closure $ \overline{\mathcal{D}} $ of $ \mathcal{D} $ contains all of the point measures. Let A be the set of measures $ \nu \in \mathcal{D} $ such that $ \| \nu \| \leq \| \mu \| $; the measure $ \mu $ is in the closure of A (Ch. III, §2, No. 4, Cor. 1 of Th. 1). The set A is relatively compact in $ \mathcal{M}(I) $ (Ch. III, §1, No. 9, Prop. 15) and the compact subsets of $ \mathcal{M}(I) $ are metrizable (TVS, III, §3, No. 4, Cor. 2 of Prop. 6,(4) and GT, X, §3, No. 3, Th. 1). Therefore there exists a sequence of measures $ \mu_n \in A $ converging to $ \mu $ in $ \mathcal{M}(I) $. Since $ \mathcal{C} $ is identified with the subspace of continuous functions on I zero at the origin, we have $ \mu(f) = \lim_{n \to \infty} \mu_n(f) $ for all $ f \in \mathcal{C} $. Moreover, since $ \mathcal{C}(I) \otimes \mathcal{C}(I) $ is dense in the normed space $ \mathcal{C}(I \times I) $ (Ch. III, §4, No. 1, Lemma 1), the relations $ \lim_{n \to \infty} \mu_n = \mu $ and $ \| \mu_n \| \leq \| \mu \| $ imply that $ \lim_{n \to \infty} (\mu_n \otimes \mu_n) = \mu \otimes \mu $ (Ch. III, §1, No. 10, Prop. 17); since the measures $ \mu_n $ and $ \mu $ place no weight at 0, we have
 
 $$
 W(\mu_n) = \int_I \int_I \inf(t, t') d\mu_n(t) d\mu_n(t'),
@@ -785,9 +782,9 @@ The measure $ w $ on $ \mathcal{C} $ whose Fourier transform is equal to $ e^{-W
 
 #### Remark {#int-ix-s6-n7-rem-1 .statement}
 
-— For every semi-open interval $ J = ]a, b] $ contained in $ T $, let us set $ l(J) = b - a $ (the length of $ J $) and denote by $ A_J $ the linear form $ f \mapsto f(b) - f(a) $ on $ \mathcal{C} $. It can be shown that the Wiener measure is characterized by the following property:
+— For every semi-open interval $ J = ]a, b] $ contained in T, let us set $ l(J) = b - a $ (the length of J) and denote by $ A_J $ the linear form $ f \mapsto f(b) - f(a) $ on $ \mathcal{C} $. It can be shown that the Wiener measure is characterized by the following property:
 
-*Let $ J_1, \ldots, J_n $ be semi-open intervals contained in $ T $ and pairwise disjoint. The image of the measure $ w $ under the linear mapping $ f \mapsto (A_{J_1}(f), \ldots, A_{J_n}(f)) $ of $ \mathcal{C} $ into $ \mathbf{R}^n $ is equal to $ \gamma_{a_1} \otimes \cdots \otimes \gamma_{a_n} $ with $ a_i = l(J_i)^{1/2} $ for $ 1 \leq i \leq n $.*
+*Let $ J_1, \ldots, J_n $ be semi-open intervals contained in T and pairwise disjoint. The image of the measure w under the linear mapping $ f \mapsto (A_{J_1}(f), \ldots, A_{J_n}(f)) $ of $ \mathcal{C} $ into $ \mathbf{R}^n $ is equal to $ \gamma_{a_1} \otimes \cdots \otimes \gamma_{a_n} $ with $ a_i = l(J_i)^{1/2} $ for $ 1 \leq i \leq n $.*
 
 ### 8. Continuity of the Fourier transform
 
@@ -796,10 +793,10 @@ The measure $ w $ on $ \mathcal{C} $ whose Fourier transform is equal to $ e^{-W
 — Let E be a locally convex space, $ \mu $ a promeasure on E, and $ \Phi $ the Fourier transform of $ \mu $. One has the inequalities
 
 $$
-| \Phi(x') | \leq \Phi(0)
+|\Phi(x')| \leq \Phi(0)
 $$
 $$
-| \Phi(x') - \Phi(y') |^2 \leq 2 \Phi(0) (\Phi(0) - \Re \Phi(x' - y'))
+|\Phi(x') - \Phi(y')|^2 \leq 2\Phi(0)\left(\Phi(0) - \Re \Phi(x' - y')\right)
 $$
 
 for $ x', y' $ in $ E' $.
@@ -807,28 +804,28 @@ for $ x', y' $ in $ E' $.
 Formula (5) of No. 3 permits reducing to the case that E is finite-dimensional and $ \mu $ is a measure. Then
 
 $$
-| \Phi(x') | = \left| \int_E e^{i \langle x, x' \rangle} d\mu(x) \right| \leq \int_E |e^{i \langle x, x' \rangle}| d\mu(x) = \int_E d\mu(x) = \Phi(0),
+|\Phi(x')| = \left| \int_E e^{i\langle x, x' \rangle} d\mu(x) \right| \leq \int_E |e^{i\langle x, x' \rangle}| d\mu(x) = \int_E d\mu(x) = \Phi(0),
 $$
 
 whence (53). Moreover, if $ a $ and $ b $ are real numbers, then
 
 $$
-|e^{ia} - e^{ib}|^2 = |e^{ib}|^2 |e^{i(a-b)} - 1|^2 = (e^{i(a-b)} - 1)(e^{-i(a-b)} - 1) = 2 - 2 \cos(a - b);
+|e^{ia} - e^{ib}|^2 = |e^{ib}|^2|e^{i(a-b)} - 1|^2 = (e^{i(a-b)} - 1)(e^{-i(a-b)} - 1) = 2 - 2\cos(a - b);
 $$
 
 by the Cauchy–Schwarz inequality, we then have
 
 $$
-| \Phi(x') - \Phi(y') |^2 = \left| \int_E (e^{i \langle x, x' \rangle} - e^{i \langle x, y' \rangle}) d\mu(x) \right|^2
+|\Phi(x') - \Phi(y')|^2 = \left| \int_E (e^{i\langle x, x' \rangle} - e^{i\langle x, y' \rangle}) d\mu(x) \right|^2
 $$
 $$
-\leq \int_E |e^{i \langle x, x' \rangle} - e^{i \langle x, y' \rangle}|^2 d\mu(x) \int_E 1^2 d\mu(x)
+\leq \int_E |e^{i\langle x, x' \rangle} - e^{i\langle x, y' \rangle}|^2 d\mu(x) \int_E 1^2 d\mu(x)
 $$
 $$
-= \int_E (2 - 2 \cos \langle x, x' - y' \rangle)) d\mu(x) \cdot \Phi(0)
+= \int_E (2 - 2\cos\langle x, x' - y' \rangle)) d\mu(x) \cdot \Phi(0)
 $$
 $$
-= 2 \Phi(0) (\Phi(0) - \Re \Phi(x' - y')),
+= 2\Phi(0)\left(\Phi(0) - \Re \Phi(x' - y')\right),
 $$
 
 whence (54).
@@ -839,20 +836,20 @@ whence (54).
 
 This follows from the inequality (54).
 
-Let F be a locally convex space. We equip the dual $ F' $ of F with a topology compatible with the duality between F and $ F' $, and we identify F with the dual of $ F' $. Consequently, the Fourier transform of a bounded measure $ \mu $ on $ F' $ is the function $ \mathcal{F} \mu $ on F defined by
+Let F be a locally convex space. We equip the dual $ F' $ of F with a topology compatible with the duality between F and $ F' $, and we identify F with the dual of $ F' $. Consequently, the Fourier transform of a bounded measure $ \mu $ on $ F' $ is the function $ \mathcal{F}\mu $ on F defined by
 
 $$
-(\mathcal{F} \mu)(x) = \int_{F'} e^{i \langle x, x' \rangle} d\mu(x').
+(\mathcal{F}\mu)(x) = \int_{F'} e^{i\langle x, x' \rangle} d\mu(x').
 $$
 
 #### Proposition 9 {#int-ix-s6-prop-9 .statement}
 
 — *If F is barreled, then the Fourier transform of every bounded measure on F' is a uniformly continuous function on F*.
 
-Let $ \mu $ be a bounded measure on $ F' $ and $ \Phi $ its Fourier transform. Let $ \varepsilon > 0 $. There exists a compact subset K of $ F' $ such that $ \mu(F' - K) \leq \varepsilon $. Now, K is compact for the weak topology $ \sigma(F', F) $, hence is equicontinuous because F is barreled (TVS, III, §4, No. 2, Th. 1). Therefore there exists a symmetric neighborhood U of 0 in F whose polar $ U^\circ $ contains K. Let $ x $ be in $ \varepsilon U $; then
+Let $ \mu $ be a bounded measure on $ F' $ and $ \Phi $ its Fourier transform. Let $ \varepsilon > 0 $. There exists a compact subset K of $ F' $ such that $ \mu(F' - K) \leq \varepsilon $. Now, K is compact for the weak topology $ \sigma(F', F) $, hence is equicontinuous because F is barreled (TVS, III, §4, No. 2, Th. 1). Therefore there exists a symmetric neighborhood U of 0 in F whose polar $ U^\circ $ contains K. Let x be in $ \varepsilon U $; then
 
 $$
-\Phi(0) - \Re \Phi(x) = \int_{F'} (1 - \cos \langle x, x' \rangle) \, d\mu(x').
+\Phi(0) - \Re \Phi(x) = \int_{F'} (1 - \cos \langle x, x' \rangle) d\mu(x').
 $$
 
 Now, $ 0 \leq 1 - \cos \langle x, x' \rangle \leq 2 $ for every $ x' \in F' - K $, and
@@ -908,7 +905,7 @@ for all real $ u $. Consequently,
 $$
 \begin{align*}
 1 - \exp \left(-\frac{1}{2} \sum_{j=1}^n \langle a_j, x' \rangle^2\right) \\
-&= \int \cdots \int \left(1 - e^{i \sum_{j=1}^n \langle a_j, x' \rangle t_j}\right) d\gamma(t_1) \ldots d\gamma(t_n)
+&= \int \cdots \int \left(1 - e^{i \sum_{j=1}^n \langle a_j, x' \rangle t_j}\right) d\gamma(t_1) \cdots d\gamma(t_n)
 \end{align*}
 $$
 
@@ -917,7 +914,7 @@ for all $ x' \in T' $. The function of $ x', t_1, \ldots, t_n $ to be integrated
 $$
 \begin{align*}
 \int_{T'} \left(1 - \exp \left(-\frac{1}{2} \sum_{j=1}^n \langle a_j, x' \rangle^2\right)\right) d\mu(x') \\
-&= \int \cdots \int \left(\Phi(0) - \Phi\left(\sum_{j=1}^n t_j a_j\right)\right) d\gamma(t_1) \ldots d\gamma(t_n).
+&= \int \cdots \int \left(\Phi(0) - \Phi\left(\sum_{j=1}^n t_j a_j\right)\right) d\gamma(t_1) \cdots d\gamma(t_n).
 \end{align*}
 $$
 
@@ -953,22 +950,22 @@ $$
 But by (60),
 
 $$
-\mu(D_l) \leq 3 \left( \varepsilon + \sum_{j=1}^{m} r^{-2} q(e_j) + \sum_{j=m+1}^{n} l^2 q(e_j) \right);
+\mu(D_l) \leq 3 \left( \varepsilon + \sum_{j=1}^m r^{-2} q(e_j) + \sum_{j=m+1}^n l^2 q(e_j) \right);
 $$
 
-for $ j = m+1, \ldots, n $ we have $ h(e_j) = 0 $, therefore $ q(e_j) = 0 $. Moreover, $ \operatorname{Tr}(q/h) = \sum_{j=1}^{m} q(e_j) $ (Annex, No. 1, Prop. 2). The relation (55) then follows from (61) and (62).
+for $ j = m+1, \ldots, n $ we have $ h(e_j) = 0 $, therefore $ q(e_j) = 0 $. Moreover, $ \operatorname{Tr}(q/h) = \sum_{j=1}^m q(e_j) $ (Annex, No. 1, Prop. 2). The relation (55) then follows from (61) and (62).
 
 Q.E.D.
 
 ### 10. Measures on the dual of a nuclear space
 
-Let F be a locally convex space. Let $ \mathcal{T}_s $ be the weak topology $ \sigma(F', F) $ on $ F' $, and $ \mathcal{T}_c $ the topology of uniform convergence on the compact convex subsets of F. By Mackey’s theorem (TVS, IV, §1, No. 1, Th. 1) the topologies $ \mathcal{T}_s $ and $ \mathcal{T}_c $ on $ F' $ are compatible with the duality between F and $ F' $; the same is therefore true of every locally convex topology $ \mathcal{T} $ on $ F' $ intermediate to $ \mathcal{T}_s $ and $ \mathcal{T}_c $. If $ \mathcal{T} $ is such a topology, and $ F'_\mathcal{T} $ denotes the space $ F' $ equipped with $ \mathcal{T} $, we shall identify F with the dual of $ F'_\mathcal{T} $. The promeasures on $ F' $ are therefore the same for all topologies $ \mathcal{T} $ of the preceding type, and if $ \mu $ is such a promeasure then its Fourier transform is a function on F.
+Let F be a locally convex space. Let $ \mathcal{T}_s $ be the weak topology $ \sigma(F', F) $ on $ F' $, and $ \mathcal{T}_c $ the topology of uniform convergence on the compact convex subsets of F. By Mackey’s theorem (TVS, IV, §1, No. 1, Th. 1) the topologies $ \mathcal{T}_s $ and $ \mathcal{T}_c $ on $ F' $ are compatible with the duality between F and $ F' $; the same is therefore true of every locally convex topology $ \mathcal{T} $ on $ F' $ intermediate to $ \mathcal{T}_s $ and $ \mathcal{T}_c $. If $ \mathcal{T} $ is such a topology, and $ F'_{\mathcal{T}} $ denotes the space $ F' $ equipped with $ \mathcal{T} $, we shall identify F with the dual of $ F'_{\mathcal{T}} $. The promeasures on $ F' $ are therefore the same for all topologies $ \mathcal{T} $ of the preceding type, and if $ \mu $ is such a promeasure then its Fourier transform is a function on F.
 
 One calls Sazonov’s topology on F the locally convex topology $ \mathcal{S} $ defined by the continuous seminorms N satisfying the following condition: $ N^2 $ is a positive quadratic form on F and there exists a continuous positive quadratic form H on F such that $ \operatorname{Tr}(N^2/H) < +\infty $. The topology $ \mathcal{S} $ is coarser than the given topology on F; if these topologies are identical, F is said to be nuclear. This class of spaces will be studied in detail later on.
 
 #### Theorem 2 (Minlos) {#int-ix-s6-thm-2 .statement}
 
-— *Let F be a locally convex space, $ \mathcal{T} $ a locally convex topology on $ F' $ intermediate to $ \mathcal{T}_s $ and $ \mathcal{T}_c $, and $ \mu $ a promeasure on $ F'_\mathcal{T} $. Assume that the Fourier transform $ \Phi $ of $ \mu $ is continuous on F for the Sazonov topology. Then $ \mu $ is a measure on $ F'_\mathcal{T} $.*
+— *Let F be a locally convex space, $ \mathcal{T} $ a locally convex topology on $ F' $ intermediate to $ \mathcal{T}_s $ and $ \mathcal{T}_c $, and $ \mu $ a promeasure on $ F'_{\mathcal{T}} $. Assume that the Fourier transform $ \Phi $ of $ \mu $ is continuous on F for the Sazonov topology. Then $ \mu $ is a measure on $ F'_{\mathcal{T}} $.*
 
 Let $ \varepsilon > 0 $. Since $ \Phi $ is continuous for the Sazonov topology on F, there exist two continuous positive quadratic forms Q and H on F such that $ \operatorname{Tr}(Q/H) < +\infty $ and
 
@@ -984,7 +981,7 @@ $$
 
 for all $ x \in F $.
 
-Set $ r = \left(12\Phi(0)\operatorname{Tr}(Q/H)\varepsilon^{-1}\right)^{1/2} $ and denote by K the set of $ x' \in F'_\mathcal{T} $ such that $ \langle x, x' \rangle^2 \leq r^2 H(x) $ for all $ x \in F $. Since $ H^{1/2} $ is a continuous seminorm on $ F $, the set K is equicontinuous and closed in $ F'_\mathcal{T} $; it is therefore compact in $ F'_\mathcal{T} $ by Ascoli’s theorem (GT, X, §2, No. 5, Cor. 1 of Th. 2).
+Set $ r = (12\Phi(0)\operatorname{Tr}(Q/H)\varepsilon^{-1})^{1/2} $ and denote by K the set of $ x' \in F'_\mathcal{T} $ such that $ \langle x, x' \rangle^2 \leq r^2 H(x) $ for all $ x \in F $. Since $ H^{1/2} $ is a continuous seminorm on $ F $, the set K is equicontinuous and closed in $ F'_\mathcal{T} $; it is therefore compact in $ F'_\mathcal{T} $ by Ascoli’s theorem (GT, X, §2, No. 5, Cor. 1 of Th. 2).
 
 Let V be a closed linear subspace of $ F'_\mathcal{T} $ with finite codimension; then, V is the orthogonal of a finite-dimensional linear subspace T of F. Let $ \mu_V $ be the measure on $ T' $ that is the image of the promeasure $ \mu $ on $ F'_\mathcal{T} $ under the mapping $ p_V $ that is the transpose of the canonical injection of T into F; its Fourier transform is the restriction of $ \Phi $ to T. Finally, by the Hahn–Banach theorem (TVS, II, §3, No. 2, Cor. 1 of Th. 1), $ p_V(K) $ is equal to the set $ C_r $ of $ x' \in T' $ such that $ \langle x, x' \rangle^2 \leq r^2 H(x) $ for all $ x \in T $. By the inequality (63), one can apply Prop. 10 of No. 9 to the measure $ \mu_V $ on $ T' $, on taking for q the restriction of $ 2\Phi(0)Q $ to T and for h that of H. Then $ \operatorname{Tr}(q/h) \leq 2\Phi(0)\operatorname{Tr}Q/H) $, whence
 
@@ -1064,11 +1061,11 @@ Q.E.D.
 
 — *Let $ E_1 $ and $ E_2 $ be two Hilbert spaces, $ u $ a Hilbert–Schmidt mapping of $ E_1 $ into $ E_2 $, and $ \mu $ a promeasure on $ E_1 $. Assume that the Fourier transform $ \Phi $ of $ \mu $ is continuous on $ E_1 $. Then the promeasure $ \nu = u(\mu) $ is a measure on $ E_2 $ equipped with the weak topology.*
 
-With the identifications of $ E_1 $ and $ E_2 $ with their duals introduced in this No., the Fourier transform of $ \nu $ is equal to $ \Phi \circ u^* $, where $ u^* $ is the adjoint of $ u $. Now, $ u^* $ is a Hilbert–Schmidt mapping of $ E_2 $ into $ E_1 $ (Annex, No. 2), and the quadratic form $ y \mapsto \|u^*(y)\|^2 $ on $ E_2 $ is therefore nuclear. If $ (E_2)_\mathscr{S} $ denotes $ E_2 $ equipped with the Sazonov topology, $ u^* $ is therefore a continuous linear mapping of $ (E_2)_\mathscr{S} $ into $ E_1 $, and $ \mathscr{F}_V = \Phi \circ u^* $ is continuous on $ (E_2)_\mathscr{S} $; Theorem 3 then shows that $ \nu $ is a measure on the space $ E_2 $ equipped with the weak topology.
+With the identifications of $ E_1 $ and $ E_2 $ with their duals introduced in this No., the Fourier transform of $ \nu $ is equal to $ \Phi \circ u^* $, where $ u^* $ is the adjoint of $ u $. Now, $ u^* $ is a Hilbert–Schmidt mapping of $ E_2 $ into $ E_1 $ (Annex, No. 2), and the quadratic form $ y \mapsto \|u^*(y)\|^2 $ on $ E_2 $ is therefore nuclear. If $ (E_2)_\mathscr{S} $ denotes $ E_2 $ equipped with the Sazonov topology, $ u^* $ is therefore a continuous linear mapping of $ (E_2)_\mathscr{S} $ into $ E_1 $, and $ \mathcal{F}_V = \Phi \circ u^* $ is continuous on $ (E_2)_\mathscr{S} $; Theorem 3 then shows that $ \nu $ is a measure on the space $ E_2 $ equipped with the weak topology.
 
 #### Corollary 2 {#int-ix-s6-thm-2-cor-2 .statement}
 
-— *Let $ Q $ be a nuclear positive quadratic form on the Hilbert space $ E $. The Gaussian promeasure $ \Gamma_Q $ on $ E $ with variance $ Q $ is a measure on $ E_s $.
+— *Let $ Q $ be a nuclear positive quadratic form on the Hilbert space $ E $. The Gaussian promeasure $ \Gamma_Q $ on $ E $ with variance $ Q $ is a measure on $ E_s $.*
 
 The Fourier transform $ \Phi $ of $ \Gamma_Q $ is equal to $ e^{-Q/2} $. Now, $ e^t \geq 1 + t $ for every real number $ t $, whence $ \Phi(0) - \Re \Phi \leq Q/2 $. The condition $ b) $ of Theorem 3 is therefore verified and $ \Gamma_Q $ is a measure on $ E_s $.
 
@@ -1088,7 +1085,7 @@ $$
 \sum_{j,k=1}^p c_j \overline{c_k} \Phi(x_j x_k^{-1}) \geq 0
 $$
 
-*holds for any $ x_1, \ldots, x_p $ in $ G $ and any complex numbers $ c_1, \ldots, c_p $.*
+*holds for any* $ x_1, \ldots, x_p $ *in* $ G $ *and any complex numbers* $ c_1, \ldots, c_p $.
 
 This concept will be studied in detail later on.
 

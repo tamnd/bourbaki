@@ -3624,7 +3624,7 @@ books:
               statements: 29
               exercises: 13
               extraction: ocr
-              content_sha256: 989f0641e0cf23c88b58517f1238d86804a90234571df1105bb928c7db54e6c9
+              content_sha256: bc900b658ea07662051e0b6b5ff795b69ff06ccb122d312d492ffcef7a95f93f
             - kind: section
               section: 6
               title: Promeasures and measures on a locally convex space
@@ -3634,10 +3634,10 @@ books:
               last_pdf_page: 299
               book_pages: INT IX.72-INT IX.101, INT IX.117
               subsections: 11
-              statements: 34
+              statements: 33
               exercises: 1
               extraction: ocr
-              content_sha256: 33aa365d0d0692edecc789e68e81d3cfda0e72333ba0b9cf72d071ba4b4899f0
+              content_sha256: adf9837bfdc0ac48c7983c9d39c882b0f3d1cb4398a1965c89eedcdf122baca7
             - kind: appendix
               title: Complements on Hilbert spaces
               path: content/en/int/IX/A_a_complements_on_hilbert_spaces.md
@@ -3649,7 +3649,7 @@ books:
               statements: 5
               exercises: 9
               extraction: ocr
-              content_sha256: 462710a9864d603941056ec30b3bfb5fcea4599870198ce95840d3ff1f342327
+              content_sha256: d9d69ccd7a20f43bf3d7785d1e48a66da2aa3234256eb69cdd0d1cadac0459f7
             - kind: historical
               title: Historical Note
               path: content/en/int/IX/historical_note.md
@@ -3659,7 +3659,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 38ba747d643a067f81255f92c8561210d58930cbaa6d4bf4f8d6c66e57118e6f
+              content_sha256: 0d9af9f0603f1746397245b5d976264230a5c92e276eafc0019d91c7de3fb8ab
     - id: ac-v-vii-fr
       chapters:
         - chapter: V
