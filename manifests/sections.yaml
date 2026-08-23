@@ -5797,3 +5797,79 @@ books:
               exercises: 25
               extraction: ocr
               content_sha256: 4794bf4ee4b6265162c8cc3eb9ffeac0c403b80501305d4b3cde8113dd388e6d
+        - chapter: IX
+          title: ANNEAUX LOCAUX NOETHÉRIENS COMPLETS
+          sections:
+            - kind: front
+              title: ANNEAUX LOCAUX NOETHÉRIENS COMPLETS
+              path: content/fr/ac/IX/00_frontmatter.md
+              first_pdf_page: 113
+              last_pdf_page: 113
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 10ac0c618e5e8107f8643551f8abc787955c652e384822fb202f6728fc8e3140
+            - kind: section
+              section: 1
+              title: Vecteurs de Witt
+              path: content/fr/ac/IX/01_s1_vecteurs_de_witt.md
+              label: ac-ix-s1
+              first_pdf_page: 113
+              last_pdf_page: 180
+              book_pages: AC IX.42-AC IX.68
+              subsections: 8
+              statements: 29
+              exercises: 58
+              extraction: ocr
+              content_sha256: 30228fbedc4b9186a66d7e0ac8b06f2554f066796e71ebb0c0d8c369484ab3e0
+            - kind: section
+              section: 2
+              title: Anneaux de Cohen
+              path: content/fr/ac/IX/02_s2_anneaux_de_cohen.md
+              label: ac-ix-s2
+              first_pdf_page: 129
+              last_pdf_page: 187
+              book_pages: AC IX.17-AC IX.27, AC IX.68-AC IX.75
+              subsections: 5
+              statements: 30
+              exercises: 17
+              extraction: ocr
+              content_sha256: 400f3f274d99f3248a9381f62b9b4026ef5c39b8e11dc6a1bb667c1a17c72808
+            - kind: section
+              section: 3
+              title: Corps de représentants
+              path: content/fr/ac/IX/03_s3_corps_de_representants.md
+              label: ac-ix-s3
+              first_pdf_page: 140
+              last_pdf_page: 190
+              book_pages: AC IX.28-AC IX.30, AC IX.75-AC IX.78
+              subsections: 3
+              statements: 7
+              exercises: 9
+              extraction: ocr
+              content_sha256: cbaf8843cce087daaa3d3f5c5e6b6092542009e0c34be277f981ba660fa6393d
+            - kind: section
+              section: 4
+              title: Fermeture intégrale d'un anneau local complet
+              path: content/fr/ac/IX/04_s4_fermeture_integrale_d_un_anneau_local.md
+              label: ac-ix-s4
+              first_pdf_page: 142
+              last_pdf_page: 196
+              book_pages: AC IX.78-AC IX.84
+              subsections: 4
+              statements: 25
+              exercises: 32
+              extraction: ocr
+              content_sha256: 5b3bcfa790e4d9001203f379d1dfb9046da6110b6aeca40c02620d05ef1377f1
+            - kind: appendix
+              path: content/fr/ac/IX/A_a_.md
+              label: ac-ix-a0
+              first_pdf_page: 149
+              last_pdf_page: 204
+              book_pages: AC IX.37-AC IX.42
+              subsections: 3
+              statements: 13
+              exercises: 6
+              extraction: ocr
+              content_sha256: 0a6baba275782c88a931fbed48a61915c93a1573ba1b3b1d410a3b72cf130d3b
