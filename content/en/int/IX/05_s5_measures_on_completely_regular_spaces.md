@@ -41,7 +41,7 @@ subsections:
       pdf_page: 250
 statements: 29
 exercises: 13
-content_sha256: 989f0641e0cf23c88b58517f1238d86804a90234571df1105bb928c7db54e6c9
+content_sha256: bc900b658ea07662051e0b6b5ff795b69ff06ccb122d312d492ffcef7a95f93f
 ---
 
 ## § 5. MEASURES ON COMPLETELY REGULAR SPACES
@@ -176,26 +176,26 @@ $$
 
 — Let T be a completely regular space.
 
-a) Let f be a lower semi-continuous numerical function $ \geqslant 0 $ defined on T; then the function $ \mu \mapsto |\mu|^\bullet(f) $ is lower semi-continuous on $ \mathcal{M}^b(T) $.
+a) Let f be a lower semi-continuous numerical function $ \geqslant 0 $ defined on T; then the function $ \mu \mapsto |\mu|^*(f) $ is lower semi-continuous on $ \mathcal{M}^b(T) $.
 
 b) Let f be an upper semi-continuous bounded function defined on T; then the function $ \mu \mapsto \mu(f) $ is upper semi-continuous on $ \mathcal{M}_+^b(T) $.
 
-For, one sees by Prop. 1 b) of No. 1 that $ \mu \mapsto |\mu|^\bullet(f) $ is the upper envelope of a family of functions of the form $ \mu \mapsto |\mu(g)| $ with $ g \in \mathcal{C}^b(T) $, hence continuous for the tight topology. This establishes a). To prove b), it suffices to choose a constant upper bound C for f, and to write $ \mu(f) = \mu(C) - \mu(C - f) $; the function $ \mu \mapsto \mu(C) $ is continuous, and the function $ \mu \mapsto \mu(C - f) $ is lower semi-continuous on $ \mathcal{M}_+^b(T) $ by the foregoing.
+For, one sees by Prop. 1 b) of No. 1 that $ \mu \mapsto |\mu|^*(f) $ is the upper envelope of a family of functions of the form $ \mu \mapsto |\mu(g)| $ with $ g \in \mathcal{C}^b(T) $, hence continuous for the tight topology. This establishes a). To prove b), it suffices to choose a constant upper bound C for f, and to write $ \mu(f) = \mu(C) - \mu(C - f) $; the function $ \mu \mapsto \mu(C) $ is continuous, and the function $ \mu \mapsto \mu(C - f) $ is lower semi-continuous on $ \mathcal{M}_+^b(T) $ by the foregoing.
 
 #### Proposition 7 {#int-ix-s5-prop-7 .statement}
 
-— Let T be a completely regular space. Let $ \mu $ be a bounded positive measure on T, and let f be a bounded positive function on T, such that the set of points of T where f is not continuous is locally $ \mu $-negligible. Then the mapping $ \lambda \mapsto \lambda^\bullet(f) $ of $ \mathcal{M}_+^b(T) $ into $ \mathbf{R} $ is continuous at the point $ \mu $.
+— Let T be a completely regular space. Let $ \mu $ be a bounded positive measure on T, and let f be a bounded positive function on T, such that the set of points of T where f is not continuous is locally $ \mu $-negligible. Then the mapping $ \lambda \mapsto \lambda^*(f) $ of $ \mathcal{M}_+^b(T) $ into $ \mathbf{R} $ is continuous at the point $ \mu $.
 
 For every $ t \in T $, set $ f'(t) = \liminf_{s \to t} f(s) $, $ f''(t) = \limsup_{s \to t} f(s) $. Obviously $ f' \leqslant f \leqslant f'' $, with equality at every point of T where f is continuous (hence $ \mu $-almost everywhere). On the other hand, $ f' $ is lower semi-continuous, $ f'' $ is upper semi-continuous and bounded (GT, IV, §6, No. 2, Prop. 4). We therefore have the following relations by Prop. 6,
 
 $$
-\mu^\bullet(f') \leqslant \liminf_{\lambda \to \mu} \lambda^\bullet(f') \leqslant \liminf_{\lambda \to \mu} \lambda^\bullet(f) \leqslant \mu^\bullet(f) \leqslant \limsup_{\lambda \to \mu} \lambda^\bullet(f)
+\mu^*(f') \leqslant \liminf_{\lambda \to \mu} \lambda^*(f') \leqslant \liminf_{\lambda \to \mu} \lambda^*(f) \leqslant \mu^*(f) \leqslant \limsup_{\lambda \to \mu} \lambda^*(f)
 $$
 $$
-\leqslant \limsup_{\lambda \to \mu} \lambda^\bullet(f'') \leqslant \mu^\bullet(f'').
+\leqslant \limsup_{\lambda \to \mu} \lambda^*(f'') \leqslant \mu^*(f'').
 $$
 
-One concludes by observing that $ \mu^\bullet(f') = \mu^\bullet(f'') $, because $ f' $ and $ f'' $ are equal locally $ \mu $-almost everywhere.
+One concludes by observing that $ \mu^*(f') = \mu^*(f'') $, because $ f' $ and $ f'' $ are equal locally $ \mu $-almost everywhere.
 
 #### Proposition 8 {#int-ix-s5-prop-8 .statement}
 
@@ -323,7 +323,7 @@ Recall that this result is also valid for an arbitrary subset of $ \mathcal{M}_+
 
 We may restrict ourselves to the case that H is closed, hence compact. The total masses of the measures $ \mu \in H $ are obviously bounded, because the mapping $ \mu \mapsto \mu(1) $ is continuous, and everything comes down to proving the assertion b) of Def. 2.
 
-Suppose first that T is locally compact. Let $ \varepsilon $ be a number > 0. Let us associate to every measure $ \mu \in H $ a compact set $ K_\mu $ in T such that $ \mu^\bullet(T - K_\varepsilon) < \varepsilon $, then a relatively compact open neighborhood $ U_\mu $ of $ K_\mu $. The function $ \lambda \mapsto \lambda^\bullet(T - U_\mu) $ being upper semi-continuous on $ \mathcal{M}_+^b(T) $ (No. 3, Prop. 6), the set $ V^\mu $ of measures $ \lambda \in H $ such that $ \lambda^\bullet(T - U_\mu) < \varepsilon $ is a neighborhood of $ \mu $ in H. Therefore there exists a finite subset $ H' $ of H such that the sets $ V^\mu \ (\mu \in H') $ cover H. Denoting by K the compact set $ \bigcup_{\mu \in H'} \overline{U}_\mu $, we have $ \lambda^\bullet(T - K) < \varepsilon $ for all $ \lambda \in H $.
+Suppose first that T is locally compact. Let $ \varepsilon $ be a number > 0. Let us associate to every measure $ \mu \in H $ a compact set $ K_\mu $ in T such that $ \mu^\bullet(T - K_\varepsilon) < \varepsilon $, then a relatively compact open neighborhood $ U_\mu $ of $ K_\mu $. The function $ \lambda \mapsto \lambda^\bullet(T - U_\mu) $ being upper semi-continuous on $ \mathcal{M}_+^b(T) $ (No. 3, Prop. 6), the set $ V^\mu $ of measures $ \lambda \in H $ such that $ \lambda^\bullet(T - U_\mu) < \varepsilon $ is a neighborhood of $ \mu $ in H. Therefore there exists a finite subset $ H' $ of H such that the sets $ V^\mu $ ($ \mu \in H' $) cover H. Denoting by K the compact set $ \bigcup_{\mu \in H'} \overline{U}_\mu $, we have $ \lambda^\bullet(T - K) < \varepsilon $ for all $ \lambda \in H $.
 
 Suppose next that T is Polish. We do not restrict the generality by assuming that T is the intersection of a decreasing sequence $ (T_p)_{p \geq 1} $ of open subsets of a compact space X (GT, IX, §6, No. 1, Cor. 1 of Th. 1). Let $ i_p $ be the injection of T into $ T_p $, and let $ H_p $ be the set of measures of the form $ i_p(\lambda) $ for $ \lambda \in H $; since $ H_p $ is compact in $ \mathcal{M}_+^b(T_p) $, it follows that there exists a compact set $ K_p \subset T_p $ such that $ \nu^\bullet(T_p - K_p) \leq \varepsilon 2^{-p} $ for every measure $ \nu \in H_p $, by the preceding result applied to the locally compact space $ T_p $. Therefore also $ \nu^\bullet(T - (T \cap K_p)) \leq \varepsilon 2^{-p} $, and finally $ \lambda^\bullet(T - (T \cap K_p)) \leq \varepsilon 2^{-p} $ for every measure $ \lambda \in H $. Now set $ K = \bigcap_p K_p $; the set K is compact and is contained in T, and, for every measure $ \lambda \in H $, we have $ \lambda^\bullet(T - K) \leq \sum_p \lambda^\bullet(T - (T \cap K_p)) \leq \sum_p \varepsilon 2^{-p} = \varepsilon $. Prokhorov’s condition is thus verified.
 
@@ -439,27 +439,27 @@ c) *The topology of pointwise convergence and the topology of compact convergenc
 
 The assertions $ a) $ and $ b) $ are immediate consequences of Th. 3; the assertion $ c) $ follows from $ b) $ and Prop. 14, since the topology of compact convergence is finer than that of pointwise convergence.
 
-One must be on guard that L is not closed in the set of all bounded complex functions on S, equipped with the topology of pointwise convergence. Assume for example the notations of Example 2 below (M = \mathbf{R}_+, S identified with \mathbf{R}_+). The Laplace transforms of the measures $ \varepsilon_n $ ($ n \in \mathbf{N} $) are the functions $ t \mapsto e^{-nt} $ on $ \mathbf{R}_+ $; as $ n $ tends to $ +\infty $, these functions converge pointwise to the function equal to 1 for $ t = 0 $ and to 0 for $ t \neq 0 $, which does not belong to L.
+One must be on guard that L is not closed in the set of all bounded complex functions on S, equipped with the topology of pointwise convergence. Assume for example the notations of Example 2 below (M = \mathbf{R}_+, S identified with \mathbf{R}_+). The Laplace transforms of the measures $ \varepsilon_n $ ($ n \in \mathbf{N} $) are the functions $ t \mapsto e^{-nt} $ on $\mathbf{R}_+$; as $ n $ tends to $ +\infty $, these functions converge pointwise to the function equal to 1 for $ t = 0 $ and to 0 for $ t \neq 0 $, which does not belong to L.
 
-Example 1). — Take for M the set N of positive integers, equipped with the law of addition and with the discrete topology. Let D be the unit disc of C (the set of complex numbers of absolute value $ \leq 1 $) equipped with the topology induced by C and with the law induced by multiplication. For every $ z \in D $, let us denote by $ f(z) $ the character $ n \mapsto z^n $ of N. For every character $ \chi $ of N, denote by $ g(\chi) $ the complex number $ \chi(1) \in D $. One verifies immediately that $ f $ and $ g $ are mutually inverse homeomorphisms between D and X, which will permit us, from now on, to identify X and D. The set of characters tending to 0 at infinity may then be identified with the set $ D_0 $ of complex numbers of absolute value < 1. Finally, the interval ]0, 1] of $ \mathbf{R} $ is a full submonoid of D, and 1 is in the closure of $ ]0, 1] \cap D_0 = ]0, 1[ $.
+*Example 1).* — Take for M the set N of positive integers, equipped with the law of addition and with the discrete topology. Let D be the unit disc of \mathbf{C} (the set of complex numbers of absolute value $ \leq 1 $) equipped with the topology induced by \mathbf{C} and with the law induced by multiplication. For every $ z \in D $, let us denote by $ f(z) $ the character $ n \mapsto z^n $ of N. For every character $ \chi $ of N, denote by $ g(\chi) $ the complex number $ \chi(1) \in D $. One verifies immediately that $ f $ and $ g $ are mutually inverse homeomorphisms between D and X, which will permit us, from now on, to *identify* X and D. The set of characters tending to 0 at infinity may then be identified with the set $ D_0 $ of complex numbers of absolute value < 1. Finally, the interval ]0, 1] of \mathbf{R} is a full submonoid of D, and 1 is in the closure of $ ]0, 1[ \cap D_0 = ]0, 1[ $.
 
-Every measure $ \mu $ on N may be written in a unique way in the form $ \mu = \sum_{n \in \mathbf{N}} u_n \cdot \varepsilon^n $, and $ \mu $ is bounded if and only if $ \sum_n |u_n| < +\infty $; one then has $ \mathcal{L}\mu(z) = \sum_{n \in \mathbf{N}} u_n z^n $ for $ z \in D $. This function is continuous on D; it is customary to call it the generating function of the summable sequence $ (u_n)_{n \in \mathbf{N}} $. Transcribed into this language, Th. 3 yields the following result (taking into account Prop. 9 of No. 3):
+Every measure $ \mu $ on N may be written in a unique way in the form $ \mu = \sum_{n \in \mathbf{N}} u_n \cdot \varepsilon^n $, and $ \mu $ is bounded if and only if $ \sum_n |u_n| < +\infty $; one then has $ \mathcal{L}\mu(z) = \sum_{n \in \mathbf{N}} u_n z^n $ for $ z \in D $. This function is continuous on D; it is customary to call it the *generating function* of the summable sequence $ (u_n)_{n \in \mathbf{N}} $. Transcribed into this language, Th. 3 yields the following result (taking into account Prop. 9 of No. 3):
 
 #### Proposition 15 {#int-ix-s5-prop-15 .statement}
 
-— Let A be a set equipped with a filter $ \mathfrak{F} $. For every $ \alpha \in A $, let $ (u_{\alpha,n})_{n \in \mathbf{N}} $ be a summable sequence of positive numbers, and let $ \Phi_\alpha $ be the function defined on the interval ]0, 1] of $ \mathbf{R} $ by $ \Phi_\alpha(x) = \sum_{n \in \mathbf{N}} u_{\alpha,n} x^n $. In order that there exist a summable sequence $ (u_n)_{n \in \mathbf{N}} $ of positive numbers such that
+*Let A be a set equipped with a filter $ \mathfrak{F} $. For every $ \alpha \in A $, let $ (u_{\alpha,n})_{n \in \mathbf{N}} $ be a summable sequence of positive numbers, and let $ \Phi_\alpha $ be the function defined on the interval ]0, 1] of \mathbf{R} by $ \Phi_\alpha(x) = \sum_{n \in \mathbf{N}} u_{\alpha,n} x^n $. In order that there exist a summable sequence $ (u_n)_{n \in \mathbf{N}} $ of positive numbers such that*
 
 $$
-\lim_{\alpha, \mathfrak{F}} u_{\alpha,n} = u_n \text{ for all } n, \quad \lim_{\alpha, \mathfrak{F}} \sum_{n \in \mathbf{N}} u_{\alpha,n} = \sum_{n \in \mathbf{N}} u_n,
+\lim_{\alpha, \mathfrak{F}} u_{\alpha,n} = u_n \quad \text{for all } n , \quad \lim_{\alpha, \mathfrak{F}} \sum_{n \in \mathbf{N}} u_{\alpha,n} = \sum_{n \in \mathbf{N}} u_n ,
 $$
 
-it is necessary and sufficient that $ \Phi_\alpha $ converge pointwise on ]0, 1[, with respect to $ \mathfrak{F} $, to a function $ \Phi $ continuous at the point 1. In this case, $ \Phi(x) = \sum_{n \in \mathbf{N}} u_n x^n $ for all $ x \in ]0, 1[ $.
+*it is necessary and sufficient that $ \Phi_\alpha $ converge pointwise on ]0, 1[, with respect to $ \mathfrak{F} $, to a function $ \Phi $ continuous at the point 1. In this case, $ \Phi(x) = \sum_{n \in \mathbf{N}} u_n x^n $ for all $ x \in ]0, 1[ $.*
 
 Analogous results are obtained by taking M to be the monoid $ \mathbf{N}^n $, where $ n $ denotes an integer > 1; the space X may then be identified with $ D^n $, and one can choose $ ]0, 1[^n $ as the full submonoid. We leave to the reader the task of transcribing Th. 3 in this case.
 
 Example 2). — Let us take for M the set $ \mathbf{R}_+ $, equipped with the law of addition and with the usual topology. Let P be the set of complex numbers z with positive real part, equipped with the topology induced by C, and with the law induced by addition in C. For every $ p \in P $, denote by $ f(p) $ the character $ x \mapsto e^{-px} $ of $ \mathbf{R}_+ $; it is easily verified that $ f $ is an isomorphism of the topological monoid structure of P onto that of X; we shall identify X with P by means of $ f $. It is clear that $ \mathbf{R}_+ $ is a full submonoid of P, and Th. 3 yields the following result:
 
-Proposition 16. — Let A be a set equipped with a filter $ \mathcal{F} $. For every $ \alpha \in A $, let $ \mu_\alpha $ be a bounded positive measure on $ \mathbf{R}_+ $, and let $ \Phi_\alpha $ be the function defined on $ \mathbf{R}_+ $ by $ \Phi_\alpha(p) = \int_0^{+\infty} e^{-px} d\mu_\alpha(x) $. In order that the mapping $ \alpha \mapsto \mu_\alpha $ converge tightly with respect to $ \mathcal{F} $ to a bounded positive measure $ \mu $, it is necessary and sufficient that $ \Phi_\alpha $ converge pointwise on $ \mathbf{R}_+ $, with respect to $ \mathcal{F} $, to a function $ \Phi $ continuous at the point 0. In this case, $ \Phi(p) = \int_0^{+\infty} e^{-px} d\mu(x) $ for all $ p \in \mathbf{R}_+ $.
+Proposition 16. — *Let A be a set equipped with a filter $ \mathcal{F} $. For every $ \alpha \in A $, let $ \mu_\alpha $ be a bounded positive measure on $ \mathbf{R}_+ $, and let $ \Phi_\alpha $ be the function defined on $ \mathbf{R}_+ $ by $ \Phi_\alpha(p) = \int_0^{+\infty} e^{-px} d\mu_\alpha(x) $. In order that the mapping $ \alpha \mapsto \mu_\alpha $ converge tightly with respect to $ \mathcal{F} $ to a bounded positive measure $ \mu $, it is necessary and sufficient that $ \Phi_\alpha $ converge pointwise on $ \mathbf{R}_+ $, with respect to $ \mathcal{F} $, to a function $ \Phi $ continuous at the point 0. In this case, $ \Phi(p) = \int_0^{+\infty} e^{-px} d\mu(x) $ for all $ p \in \mathbf{R}_+ $.*
 
 There are analogous results for the additive monoids $ \mathbf{R}_+^n $ ($ n $ an integer $ > 1 $); we leave to the reader the transcription of Th. 3 in this case.
 
