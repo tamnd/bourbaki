@@ -4740,3 +4740,74 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 025856794b6a2dcba491e70e6da291287582dc4f89b30bd65aa36ddd7adef08a
+        - chapter: VI
+          title: ROOT SYSTEMS
+          sections:
+            - kind: front
+              title: ROOT SYSTEMS
+              path: content/en/lie/VI/00_frontmatter.md
+              first_pdf_page: 168
+              last_pdf_page: 168
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 6c79fa46c18cc4699e88dae041093d90420770527ed87446d7df120e2af504bd
+            - kind: section
+              section: 1
+              title: Root systems
+              path: content/en/lie/VI/01_s1_root_systems.md
+              label: lie-vi-s1
+              first_pdf_page: 168
+              last_pdf_page: 253
+              subsections: 12
+              statements: 79
+              exercises: 24
+              extraction: ocr
+              content_sha256: f753880d60ad21cef598636d93af2d8ef7ec58be0de322efc60936aea545190f
+            - kind: section
+              section: 2
+              title: Affine Weyl group
+              path: content/en/lie/VI/02_s2_affine_weyl_group.md
+              label: lie-vi-s2
+              first_pdf_page: 198
+              last_pdf_page: 254
+              subsections: 5
+              statements: 18
+              exercises: 5
+              extraction: ocr
+              content_sha256: e3de338de0efc17140b61b3ae9d13813f5a3639ac4c11a7e069774eab3c5bff9
+            - kind: section
+              section: 3
+              title: Exponential invariants
+              path: content/en/lie/VI/03_s3_exponential_invariants.md
+              label: lie-vi-s3
+              first_pdf_page: 207
+              last_pdf_page: 254
+              subsections: 4
+              statements: 12
+              exercises: 2
+              extraction: ocr
+              content_sha256: 4b07c63709fd78f0bee9065c8ebbc16a4206e11b63be6995bb3658a9892a9f3b
+            - kind: section
+              section: 4
+              title: Classification of root systems
+              path: content/en/lie/VI/04_s4_classification_of_root_systems.md
+              label: lie-vi-s4
+              first_pdf_page: 214
+              last_pdf_page: 261
+              subsections: 14
+              statements: 19
+              exercises: 16
+              extraction: ocr
+              content_sha256: f7f6bb0ae3c4ec8606b71a95aeb86426d44cf3cb016c26c30c945232aa8fd130
+            - kind: historical
+              title: Historical Note
+              path: content/en/lie/VI/historical_note.md
+              first_pdf_page: 262
+              last_pdf_page: 314
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: cfcd7c23885e864cad23089b6898de9ae54f937e66b05d757b95a0c404b3ef2b
