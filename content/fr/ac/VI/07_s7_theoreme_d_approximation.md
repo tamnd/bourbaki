@@ -22,9 +22,9 @@ subsections:
       title: Cas des valeurs absolues
       page: 0
       pdf_page: 132
-statements: 9
+statements: 15
 exercises: 3
-content_sha256: cefe136711a7d3178e24085f9bd62023cc8ec2e766905150b05c1a812713ac96
+content_sha256: 76ac25c57c34b9b46645bccd76a427b414595fa42265a25561d1082a078d4733
 ---
 
 ## § 7. Théorème d’approximation.
@@ -69,10 +69,14 @@ Si on avait $ p_i \subset p_j $ pour $ i \neq j $, on aurait $ A_i = B_{p_i} \su
 
 *Supposons que $ A_i \not\subset A_j $ pour $ i \neq j $. Pour toute famille d’éléments $ a_i \in A_i \ (1 \leq i \leq n) $, il existe $ x \in B $ tel que $ x \equiv a_i \ (\mathrm{mod.}\ m(A_i)) $ pour $ 1 \leq i \leq n $.*
 
-COROLLAIRE 2. — Supposons que $ A_i \subsetneq A_j $ pour $ i \neq j $. Il existe des éléments $ x_i $ ($ 1 \leq i \leq n $) de $ K $ tels que $ v_i(x_i) = 0 $ et $ v_j(x_i) > 0 $ pour $ i \neq j $.
+#### Corollaire 2 {#ac-vi-s7-prop-2-cor-2 .statement}
+
+Supposons que $ A_i \subsetneq A_j $ pour $ i \neq j $. Il existe des éléments $ x_i $ ($ 1 \leq i \leq n $) de $ K $ tels que $ v_i(x_i) = 0 $ et $ v_j(x_i) > 0 $ pour $ i \neq j $.
 Pour chaque indice $ i $, on applique le cor. 1 à la famille $ (a_j) $ telle que $ a_i = 1 $ et $ a_j = 0 $ pour $ j \neq i $.
 
-COROLLAIRE 3. — Tout anneau de valuation pour $ K $ contenant $ B $ contient l’un des $ A_i $.
+#### Corollaire 3 {#ac-vi-s7-prop-2-cor-3 .statement}
+
+Tout anneau de valuation pour $ K $ contenant $ B $ contient l’un des $ A_i $.
 On peut se borner au cas où $ A_i \subsetneq A_j $ pour $ i \neq j $. Soit $ V $ un anneau de valuation pour $ K $ contenant $ B $. Posons
 $$
 \mathfrak{p} = m(V) \cap B.
@@ -84,7 +88,9 @@ $$
 
 ### 2. Valuations indépendantes
 
-DÉFINITION 1. — Soient $ A $ et $ A' $ deux anneaux de valuation pour un même corps $ K $. On dit que $ A $ et $ A' $ sont indépendants si $ K $ est l’anneau engendré par $ A $ et $ A' $. Deux valuations de $ K $ sont dites indépendantes si leurs anneaux sont indépendants, dépendantes dans le cas contraire.
+#### Définition 1 {#ac-vi-s7-def-1 .statement}
+
+Soient $ A $ et $ A' $ deux anneaux de valuation pour un même corps $ K $. On dit que $ A $ et $ A' $ sont indépendants si $ K $ est l’anneau engendré par $ A $ et $ A' $. Deux valuations de $ K $ sont dites indépendantes si leurs anneaux sont indépendants, dépendantes dans le cas contraire.
 
 Une valuation impropre de $ K $ est indépendante de toute valuation de $ K $. Pour que deux valuations de hauteur 1 de $ K $ soient indépendantes, il faut et il suffit qu’elles soient inéquivalentes ($ § 4, n° 5, $ prop. 6, c)).
 
@@ -113,7 +119,9 @@ On peut supposer $ A_i \neq K $ pour tout $ i $. Alors, il existe pour tout $ i 
 
 Soit $ \mathcal{T}_i $ la topologie définie sur $ K $ par $ \nu_i $; munissons $ K^n $ de la topologie produit des $ \mathcal{T}_i $. Si les $ \nu_i $ sont non impropres, la diagonale de $ K^n $ est dense dans $ K^n $.
 
-PROPOSITION 3. — Soient $ \nu $ et $ \nu' $ deux valuations non impropres d’un même corps K. Pour que $ \nu $ et $ \nu' $ définissent la même topologie sur K, il faut et il suffit qu’elles soient dépendantes.
+#### Proposition 3 {#ac-vi-s7-prop-3 .statement}
+
+Soient $ \nu $ et $ \nu' $ deux valuations non impropres d’un même corps K. Pour que $ \nu $ et $ \nu' $ définissent la même topologie sur K, il faut et il suffit qu’elles soient dépendantes.
 
 Supposons les topologies $ \mathcal{T}_\nu $ et $ \mathcal{T}_{\nu'} $, définies par $ \nu $ et $ \nu' $, identiques. Puisque $ \mathcal{T}_\nu $ est séparée, la diagonale de $ K^2 $ est fermée, donc $ \nu $ et $ \nu' $ sont dépendantes (cor. 2 du th. 1).
 
@@ -127,13 +135,17 @@ La prop. 3 montre que la relation « $ \nu $ et $ \nu' $ sont dépendantes » es
 
 Compte tenu des relations entre valuations de hauteur 1 et valeurs absolues ultramétriques ($ \S 6 $, n° 2), la prop. 3 résulte aussi, dans le cas des valuations de hauteur 1, de la caractérisation des valeurs absolues équivalentes (Top. gén., chap. IX, 2e éd., $ \S 3 $, n° 2, prop. 5).
 
-PROPOSITION 4. — Soient $ \nu_1, \ldots, \nu_n (n \geq 2) $ des valuations deux à deux dépendantes d’un même corps K. Alors les anneaux $ A_1, \ldots, A_n $ de $ \nu_1, \ldots, \nu_n $ engendrent un sous-anneau de K distinct de K.
+#### Proposition 4 {#ac-vi-s7-prop-4 .statement}
+
+Soient $ \nu_1, \ldots, \nu_n (n \geq 2) $ des valuations deux à deux dépendantes d’un même corps K. Alors les anneaux $ A_1, \ldots, A_n $ de $ \nu_1, \ldots, \nu_n $ engendrent un sous-anneau de K distinct de K.
 
 Pour $ n = 2 $, la prop. 4 résulte de la déf. 1. Supposons-la établie pour $ n - 1 $ valuations. Il existe alors un sous-anneau A de K distinct de K et contenant $ A_1, \ldots, A_{n-1} $; il existe aussi un sous-anneau $ B \neq K $ contenant $ A_{n-1} $ et $ A_n $. Comme A et B contiennent $ A_{n-1} $, ils sont comparables pour l’inclusion ($ \S 4 $, n° 1, cor. de la prop. 1). Le plus grand des deux contient donc tous les $ A_i $.
 
 ### 3. Cas des valeurs absolues
 
-THÉORÈME 2 (Théorème d’approximation pour les valeurs absolues). — Soient $ f_i (1 \leq i \leq n) $ des valeurs absolues non impropres et deux à deux inéquivalentes sur un même corps K. Soient $ a_i (1 \leq i \leq n) $ des éléments de K, et $ \varepsilon $ un nombre réel $ > 0 $. Il existe alors $ x \in K $ tel que $ f_i(x - a_i) \leq \varepsilon $ pour tout $ i $.
+#### Théorème 2 (Théorème d’approximation pour les valeurs absolues) {#ac-vi-s7-thm-2 .statement}
+
+Soient $ f_i (1 \leq i \leq n) $ des valeurs absolues non impropres et deux à deux inéquivalentes sur un même corps K. Soient $ a_i (1 \leq i \leq n) $ des éléments de K, et $ \varepsilon $ un nombre réel $ > 0 $. Il existe alors $ x \in K $ tel que $ f_i(x - a_i) \leq \varepsilon $ pour tout $ i $.
 
 Notons $ K_i $ le corps K muni de la topologie définie par $ f_i $. Le résultat à démontrer équivaut au suivant : dans le produit $ P = K_1 \times \cdots \times K_n $, l’adhérence $ \overline{D} $ de la diagonale D est égale à P. Ceci est évident pour $ n = 1 $. Nous supposerons que ce point est établi dans le cas de $ k $ valeurs absolues pour $ k < n $.
 

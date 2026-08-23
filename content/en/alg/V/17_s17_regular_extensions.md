@@ -21,7 +21,7 @@ subsections:
       page: 139
       pdf_page: 253
     - "no": 3
-      title: '**Regular algebras'
+      title: Regular algebras
       page: 140
       pdf_page: 254
     - "no": 4
@@ -38,7 +38,7 @@ subsections:
       pdf_page: 257
 statements: 20
 exercises: 5
-content_sha256: 8d4166b55077f1a5a58417c4b2b5e3e9bdc7a636a25f53a43aa5c10858c02843
+content_sha256: 27af0b065ab527af916c3b0b52a9c833e8ca5e6f72669e7cf1b61054d5af5b39
 ---
 
 ## § 17. REGULAR EXTENSIONS
@@ -120,7 +120,7 @@ and since $ \eta $ is injective we finally have $ a^{p^f} = 0 $. We have thus sh
 
 We may assume that L and M are algebraically disjoint subextensions of an extension $ \Omega $ of K (V, p. 116, Th. 5); then p is a prime ideal by Prop. 1 (V, p. 139). If moreover L or M is separable over K, then $ L \otimes_K M $ is a reduced ring by the definition of separable extension (V, p. 119, Def. 1); so $ p = 0 $ and $ L \otimes_K M $ is an integral domain because p was prime.
 
-### 3. **Regular algebras
+### 3. Regular algebras
 
 #### Definition 1 {#alg-v-s17-def-1 .statement}
 

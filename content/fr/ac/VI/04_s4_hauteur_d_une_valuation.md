@@ -30,9 +30,9 @@ subsections:
       title: Valuations de hauteur 1
       page: 0
       pdf_page: 111
-statements: 16
-exercises: 4
-content_sha256: 1731a95ac6a5b56434e32abf7de826674c70c237ffdd3bb2cf36694bbb2f3ef0
+statements: 21
+exercises: 5
+content_sha256: 2f50f9e6a3a1bcd63eaa8a532544b6204773b696435aa39993f8666750277b56
 ---
 
 ## § 4. Hauteur d’une valuation.
@@ -48,15 +48,21 @@ c) L’application $ \mathfrak{p} \to \mathbf{A}_{\mathfrak{p}} $ est une biject
 
 Si $ \mathbf{B} $ est un anneau tel que $ \mathbf{A} \subset \mathbf{B} \subset \mathbf{K} $, et si $ x \in \mathbf{K} - \mathbf{B} $,
 
-COROLLAIRE. — *L’ensemble des sous-anneaux de* $ K $ *contenant* $ A $ *est totalement ordonné par inclusion*.
+#### Corollaire {#ac-vi-s4-n1-cor-1 .statement}
+
+*L’ensemble des sous-anneaux de* $ K $ *contenant* $ A $ *est totalement ordonné par inclusion*.
 
 En effet, l’ensemble des idéaux premiers de $ A $ est totalement ordonné par inclusion ($ \S 1 $, no 2, th. 1 e)), et l’application $ \mathfrak{p} \to A_{\mathfrak{p}} $ renverse les relations d’inclusion.
 
-PROPOSITION 2. — *Soient* $ K $ *un corps*, $ B $ *un anneau de valuation pour* $ K $, *et* $ h_B $ *la place de* $ K $ *associée à* $ B $ *(à valeurs dans* $ \kappa(B) $). *Alors l’application* $ A \to h_B(A) $ *définit une bijection de l’ensemble* $ \mathcal{A} $ *des anneaux de valuation pour* $ K $ *contenus dans* $ B $, *sur l’ensemble* $ \mathcal{A}' $ *des anneaux de valuation pour* $ \kappa(B) $.
+#### Proposition 2 {#ac-vi-s4-prop-2 .statement}
+
+*Soient* $ K $ *un corps*, $ B $ *un anneau de valuation pour* $ K $, *et* $ h_B $ *la place de* $ K $ *associée à* $ B $ *(à valeurs dans* $ \kappa(B) $). *Alors l’application* $ A \to h_B(A) $ *définit une bijection de l’ensemble* $ \mathcal{A} $ *des anneaux de valuation pour* $ K $ *contenus dans* $ B $, *sur l’ensemble* $ \mathcal{A}' $ *des anneaux de valuation pour* $ \kappa(B) $.
 
 Si $ A \in \mathcal{A} $, on a $ h_B(A) \in \mathcal{A}' $: en effet, si $ x' = h_B(x) $ (où $ x \in B $) est un élément de $ \kappa(B) - h_B(A) $, on a $ x \notin A $, donc $ x^{-1} \in A $ et $ h_B(x)^{-1} \in h_B(A) $. D’autre part, pour $ A \in \mathcal{A} $, on a $ A \supset m(B) $ (prop. 1, $ b$) ), donc l’application $ A \to h_B(A) $ est injective. Enfin, soient $ A' \in \mathcal{A}' $ et $ A = \overline{h_B}(A') \subset B $; on va montrer, ce qui achèvera la démonstration, que $ A \in \mathcal{A} $; en effet, si $ x \in K - A $, on a, soit $ x \notin B $, soit $ x \in B $; si $ x \notin B $, on a $ x^{-1} \in m(B) \subset A $; si $ x \in B $, on a $ h_B(x) \in \kappa(B) $ et $ h_B(x) \notin A' $, donc $ h_B(x^{-1}) \in A' $, et on en conclut encore que $ x^{-1} \in A $; donc $ A \in \mathcal{A} $.
 
-COROLLAIRE. — *Soient* $ A $ *et* $ B $ *deux anneaux de valuation pour* $ K $, *avec* $ A \subset B $; *posons* $ A' = h_B(A) $, *qui est un anneau de valuation pour* $ \kappa(B) $. *Le corps résiduel* $ \kappa(A') $ *de* $ A' $ *est canoniquement isomorphe au corps résiduel* $ \kappa(A) $ *de* $ A $, *et la place* $ h_A $ *associée à* $ A $ *est la composée* $ h_{A'} \circ h_B $ *des places associées à* $ A' $ *et* $ B $.
+#### Corollaire {#ac-vi-s4-n1-cor-2 .statement}
+
+*Soient* $ A $ *et* $ B $ *deux anneaux de valuation pour* $ K $, *avec* $ A \subset B $; *posons* $ A' = h_B(A) $, *qui est un anneau de valuation pour* $ \kappa(B) $. *Le corps résiduel* $ \kappa(A') $ *de* $ A' $ *est canoniquement isomorphe au corps résiduel* $ \kappa(A) $ *de* $ A $, *et la place* $ h_A $ *associée à* $ A $ *est la composée* $ h_{A'} \circ h_B $ *des places associées à* $ A' $ *et* $ B $.
 
 En effet, puisque l’anneau local $ A' $ est un quotient de l’anneau local $ A $, leurs corps résiduels sont canoniquement isomorphes, et l’égalité $ h_A(x) = h_{A'}(h_B(x)) $ est vraie pour $ x \in A $. D’autre part, si $ x \in B - A $, on a $ h_B(x) \notin A' $, et les deux membres de l’égalité sont égaux à $ \infty $; il en est de même si $ x \in K - B $.
 
@@ -222,13 +228,17 @@ $$
 
 pour $ x \in P $ et $ y \in P $; par linéarité $ f $ se prolonge en un isomorphisme de $ G $ sur un sous-groupe de $ \mathbf{R} $, ce qui prouve que $ b) $ implique $ c) $.
 
-PROPOSITION 9. — Soient $ K $ un corps, $ \nu $ une valuation non impropre de $ K $, et $ A $ l’anneau de $ \nu $. Pour que $ A $ soit complètement intégralement clos (chap. V, § 1, n° 4, déf. 5), il faut et il suffit que $ \nu $ soit de hauteur 1.
+#### Proposition 9 {#ac-vi-s4-prop-9 .statement}
+
+Soient $ K $ un corps, $ \nu $ une valuation non impropre de $ K $, et $ A $ l’anneau de $ \nu $. Pour que $ A $ soit complètement intégralement clos (chap. V, § 1, n° 4, déf. 5), il faut et il suffit que $ \nu $ soit de hauteur 1.
 
 Supposons $ \nu $ de hauteur 1. Soit $ x \in K $ tel que les $ x^n (n \geq 0) $ soient tous contenus dans un sous-A-module de type fini de $ K $. Il existe $ d \in A - \{0\} $ tel que $ dx^n \in A $ pour tout $ n \geq 0 $. On a donc $ \nu(d) + n \nu(x) \geq 0 $, c’est-à-dire $ n(-\nu(x)) \leq \nu(d) $ pour tout $ n \geq 0 $, d’où $ -\nu(x) \leq 0 $ (prop. 8, $ b$) ) et $ x \in A $. Ainsi $ A $ est complètement intégralement clos.
 
 Supposons maintenant que $ \nu $ ne soit pas de hauteur 1. Il existe alors $ y \in m(A) $ et $ t \in A $ tels que $ n \nu(y) < \nu(t) $ pour tout $ n \geq 0 $ (prop. 8, $ b$) ). On a donc $ ty^{-n} \in A $ pour tout $ n \geq 0 $, mais $ y^{-1} \notin A $. Donc $ A $ n’est pas complètement intégralement clos.
 
-COROLLAIRE. — Soient $ K $ un corps, $ (\nu_\alpha)_{\alpha \in I} $ une famille de valuations de hauteur 1 de $ K $, et $ A $ l’intersection des anneaux des $ \nu_\alpha $. Alors $ A $ est complètement intégralement clos.
+#### Corollaire {#ac-vi-s4-n5-cor-1 .statement}
+
+Soient $ K $ un corps, $ (\nu_\alpha)_{\alpha \in I} $ une famille de valuations de hauteur 1 de $ K $, et $ A $ l’intersection des anneaux des $ \nu_\alpha $. Alors $ A $ est complètement intégralement clos.
 
 Un anneau complètement intégralement clos n’est pas toujours intersection d’anneaux de valuations de hauteur 1 (exerc. 6).
 

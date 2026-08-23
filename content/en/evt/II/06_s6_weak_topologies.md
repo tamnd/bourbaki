@@ -24,7 +24,7 @@ subsections:
       page: 44
       pdf_page: 81
     - "no": 4
-      title: '**Transposition of a continuous linear mapping'
+      title: Transposition of a continuous linear mapping
       page: 46
       pdf_page: 83
     - "no": 5
@@ -45,7 +45,7 @@ subsections:
       pdf_page: 89
 statements: 39
 exercises: 20
-content_sha256: c3730578b253f69423b43d409b3b7a826bfbd3013f1a712a11ba2e15c1dbd4ce
+content_sha256: 1049b16ea7f3d1d52a3697fbbb8908ee491814e70eb0fc2b3e5904bc50517937
 ---
 
 ## § 6. WEAK TOPOLOGIES
@@ -231,7 +231,7 @@ Thus we can say that (if $ \sigma(F, G) $ is Hausdorff) *the polars of finite di
 
 Clearly, (ii) follows from (i) and th. 1. From the definition of the dual $ E' $, it follows from II, p. 43, prop. 3 that the continuous linear forms on E for the topology $ \mathcal{T} $ are the same as the continuous linear forms for $ \sigma(E, E') $. The closed half-spaces in E are therefore the same for $ \mathcal{T} $ and for $ \sigma(E, E') $ (II, p. 15, prop. 17) and the assertion (i) follows therefore from II, p. 38, cor. 1.
 
-### 4. **Transposition of a continuous linear mapping
+### 4. Transposition of a continuous linear mapping
 
 In this No., we suppose that (F, G) and $ (F_1, G_1) $ are two vector spaces in duality.
 

@@ -34,9 +34,9 @@ subsections:
       title: Valuations discrètes
       page: 0
       pdf_page: 104
-statements: 19
-exercises: 4
-content_sha256: f02376a5f32a989361b6fbecd7afd993c6184c42cb6e37fb007d168d0dcf4383
+statements: 21
+exercises: 8
+content_sha256: 1112ad57b9ea0e28f0dbc9a8eac53df5f7979654fe20d5e8e5c508188e85888c
 ---
 
 ## § 3. Valuations.
@@ -73,7 +73,9 @@ En outre, s’il existe un seul indice $ k $ tel que $ \nu(x_k) = \inf_{1 \leq i
 
 La relation (1) se déduit de l’axiome (VL$_{\text{II}}$) par récurrence sur $ n $. S’il existe un seul indice $ k $ tel que $ \nu(x_k) = \inf_{1 \leq i \leq n} \nu(x_i) $, on a, en posant $ y = \sum_{i \neq k} x_i $ et $ z = \sum_{i=1}^n x_i $, $ \nu(y) > \nu(x_k) $ et $ \nu(z) \geq \nu(x_k) $ d’après (1); si l’on avait $ \nu(z) > \nu(x_k) $, la relation $ x_k = z - y $ donnerait $ \nu(x_k) \geq \inf (\nu(z), \nu(y)) > \nu(x_k) $, ce qui est absurde; d’où $ \nu(z) = \nu(x_k) $, ce qui démontre la seconde assertion.
 
-COROLLAIRE. — Si une suite finie d’éléments $ (x_i)_{1 \leq i \leq n} $ de $ \mathbf{C} $ (pour $ n \geq 2 $) est telle que $ \sum_{i=1}^n x_i = 0 $, il existe au moins deux indices distincts $ j, k $ tels que $ \nu(x_j) = \nu(x_k) = \inf_{1 \leq i \leq n} \nu(x_i) $.
+#### Corollaire {#ac-vi-s3-n1-cor-1 .statement}
+
+Si une suite finie d’éléments $ (x_i)_{1 \leq i \leq n} $ de $ \mathbf{C} $ (pour $ n \geq 2 $) est telle que $ \sum_{i=1}^n x_i = 0 $, il existe au moins deux indices distincts $ j, k $ tels que $ \nu(x_j) = \nu(x_k) = \inf_{1 \leq i \leq n} \nu(x_i) $.
 
 S’il n’y avait qu’un seul indice $ k $ tel que $ \nu(x_k) = \inf_{1 \leq i \leq n} \nu(x_i) $, la prop. 1 montrerait que $ \nu(x_k) = \nu(0) = +\infty $, d’où $ \nu(x_i) = +\infty $ pour tout $ i $, contrairement à la relation $ n \geq 2 $ et à l’hypothèse faite sur $ k $.
 
@@ -87,7 +89,9 @@ Les conditions (VL$_{\text{I}}$) et (VL$_{\text{II}}$) montrent aussitôt que l�
 
 ### 2. Valuations sur un corps
 
-PROPOSITION 2. — Soient $ K $ un corps (non nécessairement commutatif), $ \nu $ une valuation de $ K $, à valeurs dans $ \Gamma $. Alors:
+#### Proposition 2 {#ac-vi-s3-prop-2 .statement}
+
+Soient $ K $ un corps (non nécessairement commutatif), $ \nu $ une valuation de $ K $, à valeurs dans $ \Gamma $. Alors:
 
 (i) Pour $ x \neq 0 $, on a $ \nu(x) \neq +\infty $.
 

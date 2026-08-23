@@ -26,9 +26,9 @@ subsections:
       title: Structure des corps munis d’une valeur absolue non ultramétrique
       page: 0
       pdf_page: 123
-statements: 8
+statements: 13
 exercises: 2
-content_sha256: 7b868e9ba89851cda6b02c33cb992e3bebd262ce32ed05c1b75ef7b531545b57
+content_sha256: ede01fc630b821438fd0a7c0610b01755146d76978f534b716df7851183187a1
 ---
 
 ## § 6. Valeurs absolues.
@@ -82,7 +82,9 @@ $$
 
 Faisant tendre $ r $ vers $ +\infty $, il vient $ f(1 + x) \leq 1 + f(x) $ pour tout $ x \in K $; appliquant cette inégalité en remplaçant $ x $ par $ xy^{-1} $ (pour $ y \neq 0 $) et tenant compte de (VA$_{\text{II}}$), on obtient la relation (VA$_{\text{III}}$), ce qui prouve la proposition.
 
-COROLLAIRE 1. — Pour qu’une application $ f $ de $ K $ dans $ \mathbf{R}_+ $ soit une valeur absolue, il faut et il suffit qu’elle vérifie les conditions (VA$_{\text{I}}$), (VA$_{\text{II}}$) et (U$_2$).
+#### Corollaire 1 {#ac-vi-s6-prop-2-cor-1 .statement}
+
+Pour qu’une application $ f $ de $ K $ dans $ \mathbf{R}_+ $ soit une valeur absolue, il faut et il suffit qu’elle vérifie les conditions (VA$_{\text{I}}$), (VA$_{\text{II}}$) et (U$_2$).
 
 C’est nécessaire, car (VA$_{\text{III}}$) entraîne
 $$
@@ -90,7 +92,9 @@ f(x + y) \leq f(x) + f(y) \leq 2 \sup(f(x), f(y)).
 $$
 Inversement, supposons que $ f $ vérifie (VA$_{\text{I}}$), (VA$_{\text{II}}$) et (U$_2$); pour tout entier $ n > 0 $, soit $ r $ le plus petit entier tel que $ 2^r \geq n $; si dans (1) on remplace $ A $ par 2, les $ x_i $ d’indice $ i \leq n $ par 1 et les $ x_i $ d’indice $ i > n $ par 0, on obtient $ f(n.1) \leq 2^r < 2n $; on peut alors appliquer la prop. 2 avec $ C = 2 $, donc $ f $ est une valeur absolue.
 
-COROLLAIRE 2. — Pour qu’une application $ f $ de $ K $ dans $ \mathbf{R}_+ $ appartienne à $ \mathcal{V}(K) $, il faut et il suffit qu’elle soit de la forme $ g^t $, où $ t > 0 $ et $ g $ est une valeur absolue sur $ K $.
+#### Corollaire 2 {#ac-vi-s6-prop-2-cor-2 .statement}
+
+Pour qu’une application $ f $ de $ K $ dans $ \mathbf{R}_+ $ appartienne à $ \mathcal{V}(K) $, il faut et il suffit qu’elle soit de la forme $ g^t $, où $ t > 0 $ et $ g $ est une valeur absolue sur $ K $.
 
 En effet, dire que $ f $ vérifie (U$_A$) équivaut à dire que $ f^s $ vérifie (U$_{A^s}$); comme il existe $ s > 0 $ tel que $ A^s \leq 2 $, le cor. 1 montre que pour une telle valeur de $ s $, $ f^s $ est une valeur absolue.
 
@@ -98,7 +102,9 @@ En effet, dire que $ f $ vérifie (U$_A$) équivaut à dire que $ f^s $ vérifie
 
 On dit qu’une application $ f $ de $ K $ dans $ \mathbf{R}_+ $ est une valeur absolue ultramétrique si elle vérifie les conditions (VA$_{\text{I}}$), (VA$_{\text{II}}$) et (U$_1$) (ce qui entraîne évidemment que $ f $ est une valeur absolue).
 
-PROPOSITION 3. — Soit $ f $ une application de $ K $ dans $ \mathbf{R}_+ $. Les propriétés suivantes sont équivalentes:
+#### Proposition 3 {#ac-vi-s6-prop-3 .statement}
+
+Soit $ f $ une application de $ K $ dans $ \mathbf{R}_+ $. Les propriétés suivantes sont équivalentes:
 
 a) $ f $ est une valeur absolue ultramétrique.
 
@@ -109,7 +115,9 @@ c) $ f $ appartient à $ \mathcal{V}(K) $ et l’on a $ f(n.1) \leq 1 $ pour tou
 d) Pour tout $ s > 0 $, $ f^s $ est une valeur absolue.
 Pour tout nombre réel $ c $ tel que $ 0 < c < 1 $, l’application $ t \to c^t $ est un isomorphisme du groupe ordonné $ \mathbf{R} $ (muni de l’ordre opposé à l’ordre usuel) sur le groupe ordonné $ \mathbf{R}_+^* $; cela montre l’équivalence de $ a) $ et $ b) $. Il est clair que $ a) $ implique $ c); $ $ c) $ entraîne $ d) $, car on déduit de $ c) $ que $ (f(n.1))^s \leqslant 1 \leqslant n $ pour tout entier $ n > 0 $ et la prop. 2 du no 1 montre que $ f^s $ est une valeur absolue. Enfin $ d) $ entraîne $ a) $: en effet, si $ f^s $ est une valeur absolue, elle vérifie $ (\mathrm{U}_2) $, donc $ f $ vérifie $ \mathrm{U}_{2^{1/s}} $ pour tout $ s > 0 $, et par suite aussi $ (\mathrm{U}_1) $ en faisant tendre $ s $ vers $ + \infty $.
 
-COROLLAIRE. — *Si K est un corps (non nécessairement commutatif) de caractéristique $ p > 0 $, toute fonction de $ \mathcal{V}(K) $ est une valeur absolue ultramétrique.*
+#### Corollaire {#ac-vi-s6-n2-cor-1 .statement}
+
+*Si K est un corps (non nécessairement commutatif) de caractéristique $ p > 0 $, toute fonction de $ \mathcal{V}(K) $ est une valeur absolue ultramétrique.*
 
 En effet, tout élément $ z = n.1 $ (*n* entier $ > 0 $) non nul appartient au sous-corps premier $ \mathbf{F}_p $ de $ K $, donc vérifie la relation $ z^{p-1} = 1 $, ce qui entraîne $ f(z) = 1 $ et l’on peut appliquer la prop. 3, c).
 
@@ -121,7 +129,9 @@ $$
 
 ### 3. *Valeurs absolues sur Q*
 
-PROPOSITION 4. — *Soit $ f $ une application de $ \mathbf{Q} $ dans $ \mathbf{R}_+ $ appartenant à $ \mathcal{V}(\mathbf{Q}) $. Alors*:
+#### Proposition 4 {#ac-vi-s6-prop-4 .statement}
+
+*Soit $ f $ une application de $ \mathbf{Q} $ dans $ \mathbf{R}_+ $ appartenant à $ \mathcal{V}(\mathbf{Q}) $. Alors*:
 
 (i) *Ou bien $ f $ est la valeur absolue impropre sur $ \mathbf{Q} $*.
 

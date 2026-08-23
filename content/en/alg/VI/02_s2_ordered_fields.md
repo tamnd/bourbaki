@@ -21,7 +21,7 @@ subsections:
       page: 20
       pdf_page: 331
     - "no": 3
-      title: '**Extensions of ordered fields'
+      title: Extensions of ordered fields
       page: 21
       pdf_page: 332
     - "no": 4
@@ -42,7 +42,7 @@ subsections:
       pdf_page: 339
 statements: 31
 exercises: 41
-content_sha256: ae0e8868b0517f7e33dfc87d54d3d4fadd53b812f912cb84df83d7aba498ca86
+content_sha256: 35de4067e084a16e84edef67e2102758ffddde3b4289107c3615dde8486954b7
 ---
 
 ## § 2. ORDERED FIELDS
@@ -138,7 +138,7 @@ To show $(\mathrm{AP}_{III})$, consider an identity of the form $ab^{-1} = -cd^{
 
 — Since $Z$ admits only one totally ordered ring structure (*VI*, p. 19, *example*), the field $\mathbf{Q}$ admits only one ordering which makes it an ordered field: this is the usual ordering.
 
-### 3. **Extensions of ordered fields
+### 3. Extensions of ordered fields
 
 #### Definition 3 {#alg-vi-s2-def-3 .statement}
 

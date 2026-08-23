@@ -38,9 +38,9 @@ subsections:
       title: Prolongement des valeurs absolues.
       page: 0
       pdf_page: 149
-statements: 33
-exercises: 6
-content_sha256: d1da25dda3bf0795992a5c248adf27c390aa205976cfa3e1351166ff1a580165
+statements: 42
+exercises: 22
+content_sha256: e0bf0a98bd8a3ceed1d79131f48c30315593cb08305d6b90b4f336f71c050e04
 ---
 
 ## § 8. Prolongements d’une valuation à une extension algébrique.
@@ -123,17 +123,25 @@ Il est clair que $H' \in \mathfrak{S}'$ implique $H' \cap G \in \mathfrak{S}$. S
 
 C.Q.F.D.
 
-COROLLAIRE 2. — Pour que $ \varphi' $ soit impropre (resp. de hauteur 1), il faut et il suffit que $ \varphi $ soit impropre (resp. de hauteur 1).
+#### Corollaire 2 {#ac-vi-s8-lem-3-cor-2 .statement}
 
-COROLLAIRE 3. — Supposons que $ L $ soit une extension de degré fini de $ K $. Pour que $ \varphi' $ soit discrète, il faut et il suffit que $ \varphi $ soit discrète.
+Pour que $ \varphi' $ soit impropre (resp. de hauteur 1), il faut et il suffit que $ \varphi $ soit impropre (resp. de hauteur 1).
+
+#### Corollaire 3 {#ac-vi-s8-lem-3-cor-3 .statement}
+
+Supposons que $ L $ soit une extension de degré fini de $ K $. Pour que $ \varphi' $ soit discrète, il faut et il suffit que $ \varphi $ soit discrète.
 
 Si $ \varphi' $ est discrète, $ \Gamma_v $ est isomorphe à un sous-groupe non nul de $ \mathbf{Z} $ (cor. 2), donc à $ \mathbf{Z} $. Réciproquement, si $ \varphi $ est discrète, $ \Gamma_v $ est isomorphe à $ \mathbf{Z} $, et $ \Gamma_{v'}/\Gamma_v $ est un groupe fini (lemme 2); donc $ \Gamma_{v'} $ est un groupe commutatif de type fini, de rang 1, et sans torsion; par conséquent il est isomorphe à $ \mathbf{Z} $.
 
 ### 2. Prolongement d’une valuation et complétion
 
-DÉFINITION 3. — Soient $ K $ un corps, $ \varphi $ une valuation de $ K $, et $ L $ une extension de $ K $. On appelle système complet de prolongements de $ \varphi $ à $ L $ une famille $ (\varphi'_i)_{i \in I} $ de valuations de $ L $ prolongeant $ \varphi $, telle que toute valuation de $ L $ prolongeant $ \varphi $ soit équivalente à une $ \varphi'_i $ et à une seule.
+#### Définition 3 {#ac-vi-s8-def-3 .statement}
 
-PROPOSITION 2. — Soient $ K $ un corps, $ \varphi $ une valuation de $ K $, $ \hat{K} $ le complété de $ K $ pour $ \varphi $, $ \hat{\varphi} $ le prolongement continu de $ \varphi $ à $ \hat{K} $, et $ L $ une extension de degré fini $ n $ de $ K $.
+Soient $ K $ un corps, $ \varphi $ une valuation de $ K $, et $ L $ une extension de $ K $. On appelle système complet de prolongements de $ \varphi $ à $ L $ une famille $ (\varphi'_i)_{i \in I} $ de valuations de $ L $ prolongeant $ \varphi $, telle que toute valuation de $ L $ prolongeant $ \varphi $ soit équivalente à une $ \varphi'_i $ et à une seule.
+
+#### Proposition 2 {#ac-vi-s8-prop-2 .statement}
+
+Soient $ K $ un corps, $ \varphi $ une valuation de $ K $, $ \hat{K} $ le complété de $ K $ pour $ \varphi $, $ \hat{\varphi} $ le prolongement continu de $ \varphi $ à $ \hat{K} $, et $ L $ une extension de degré fini $ n $ de $ K $.
 
 a) Soit $ \varphi' $ une valuation de $ L $ prolongeant $ \varphi $; notons $ \hat{L}_{v'} $ le complété de $ L $ pour $ \varphi' $ et $ \hat{\varphi}' $ le prolongement continu de $ \varphi' $ à $ \hat{L}_{v'} $; en identifiant $ \hat{K} $ à l’adhérence de $ K $ dans $ \hat{L}_{v'} $, on a
 
@@ -161,11 +169,11 @@ Passons à b). On peut encore supposer $ \nu $ non impropre. Soit $ (\nu'_1, \ld
 
 Prenons maintenant $ (\nu'_1, \ldots, \nu'_s) $ comme dans l’énoncé. La surjectivité de $ \varphi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i $ et la relation (7) ont déjà
 
-#### Corollaire 1 {#ac-vi-s8-lem-3-cor-1 .statement}
+#### Corollaire 1 {#ac-vi-s8-prop-2-cor-1 .statement}
 
 *Si $ K $ est complet pour $ \nu $, et si $ \nu $ est non impropre, deux valuations de $ L $ prolongeant $ \nu $ sont dépendantes.* En effet, on a $ \hat{K} \otimes_K L = L $.
 
-#### Corollaire 2 {#ac-vi-s8-lem-3-cor-2 .statement}
+#### Corollaire 2 {#ac-vi-s8-prop-2-cor-2 .statement}
 
 *Si $ \hat{K} $ ou $ L $ est séparable sur $ K $, l’application canonique $ \varphi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i $ est un isomorphisme.* En effet le radical de $ \hat{K} \otimes_K L $ est alors nul (*Alg.*, chap. VIII, § 7, no 3, th. 1).
 
@@ -288,7 +296,9 @@ $$ [B/mB : A/m] = \sum_{i=1}^s \varepsilon(\nu'_i/\nu)f(\nu'_i/\nu). $$
 
 Soit A_i l’anneau de ν'_i; on a A_i = B_{m_i}, où m_i parcourt la famille des idéaux maximaux de B (n° 3, Remarque). Soit q_i le saturé de mB par rapport à m_i (Chap. II, § 2, n° 4). D’après le Chap. V, cor. 3 de la prop. 1, n° 1, § 2, l’homomorphisme canonique B/mB → $ \prod_{i=1}^s B/q_i $ est un isomorphisme, et m_i est le seul idéal maximal de B contenant q_i. Donc B/q_i est canoniquement isomorphe à (B/q_i)_{m_i} (Chap. II, § 3, n° 3, prop. 8), c’est-à-dire à $ B_{m_i}/mB_{m_i} = A_i/mA_i $. On a donc un isomorphisme canonique $ B/mB \to \prod_{i=1}^s A_i/mA_i $, d’où le résultat en vertu de la prop. 4 du no 4.
 
-COROLLAIRE. — Avec les mêmes hypothèses et notations, on a
+#### Corollaire {#ac-vi-s8-n5-cor-1 .statement}
+
+Avec les mêmes hypothèses et notations, on a
 
 $$
 [B/mB : A/m] = \sum_{i=1}^s \varepsilon(\varphi'_i/\varphi)f(\varphi'_i/\varphi') \leq \sum_{i=1}^s e(\varphi'_i/\varphi)f(\varphi'_i/\varphi) \leq n.
@@ -296,7 +306,9 @@ $$
 
 On sait en effet qu’on a $ \varepsilon(\varphi'_i/\varphi) \leq e(\varphi'_i/\varphi) $ (no 4, cor. de la prop. 3) et $ \sum_{i=1}^s e(\varphi'_i/\varphi)f(\varphi'_i/\varphi) \leq n $ (no 3, th. 1).
 
-THÉORÈME 2. — Les hypothèses et notations étant celles de la prop. 5, les conditions suivantes sont équivalentes:
+#### Théorème 2 {#ac-vi-s8-thm-2 .statement}
+
+Les hypothèses et notations étant celles de la prop. 5, les conditions suivantes sont équivalentes:
 
 a) B est un A-module de type fini;
 b) B est un A-module libre;
@@ -313,7 +325,7 @@ C.Q.F.D.
 
 Lorsque $ \nu $ est discrète, on a $ \varepsilon(\nu_i'/\nu) = e(\nu_i'/\nu) $ (no 4), et la condition $ d) $ se réduit à $ \sum_{i=1}^s e(\nu_i'/\nu)f(\nu_i'/\nu) = n. $
 
-#### Corollaire 1 {#ac-vi-s8-prop-5-cor-1 .statement}
+#### Corollaire 1 {#ac-vi-s8-thm-2-cor-1 .statement}
 
 Avec les mêmes hypothèses et notations, on suppose de plus $ \nu $ discrète et $ \mathbf{L} $ séparable. Alors
 
@@ -323,13 +335,13 @@ $$
 
 En effet la fermeture intégrale $ B $ de $ A $ est alors un $ A $-module libre de rang $ n $, puisque $ A $ est principal (Chap. V, § 1, no 6, cor. 2 de la prop. 18).
 
-#### Corollaire 2 {#ac-vi-s8-prop-5-cor-2 .statement}
+#### Corollaire 2 {#ac-vi-s8-thm-2-cor-2 .statement}
 
 Soient $ K $ un corps, $ \nu $ une valuation discrète de $ K $ pour laquelle $ K $ est complet, et $ \mathbf{L} $ une extension de degré fini $ n $ de $ K $. Alors $ \nu $ admet un prolongement $ \nu' $ et un seul à $ \mathbf{L} $ (à une équivalence près), l’anneau $ A' $ de $ \nu' $ est un module libre de type fini sur l’anneau $ A $ de $ \nu $, et l’on a $ e(\nu'/\nu)f(\nu'/\nu) = n $.
 
 En effet, tous les prolongements de $ \nu $ à $ \mathbf{L} $ sont dépendants (no 2, cor. de la prop. 2); puisqu’ils sont discrets (no 1, cor. 3 de la prop. 1), ils sont par conséquent équivalents ($ \S 4 $, no 5, prop. 6, c)). Ceci démontre l’unicité de $ \nu' $. La fermeture intégrale de $ A $ dans $ \mathbf{L} $ est donc $ A' $ ($ \S 1 $, no 3, cor. 3 du th. 3). Comme $ \nu $ est discrète, la topologie induite sur $ A $ par celle de $ K $ est la topologie $ m $-adique (où $ m = m(A) $); l’anneau $ A $ est complet, car il est fermé dans $ K $. On en conclut que, puisque $ A'/mA' $ est un $ (A/m) $-espace vectoriel de dimension finie (no 4, prop. 4), $ A' $ est un $ A $-module de type fini (chap. III, § 2; no 9, cor. 3 de la prop. 12). Il est donc libre et l’on a $ e(\nu'/\nu)f(\nu'/\nu) = n $ en vertu du th. 2.
 
-#### Corollaire 3 {#ac-vi-s8-prop-5-cor-3 .statement}
+#### Corollaire 3 {#ac-vi-s8-thm-2-cor-3 .statement}
 
 Supposons que $ \nu $ soit de hauteur 1 et que les conditions équivalentes du th. 2 soient vérifiées; si $ \hat{\mathbf{L}}_i $ est le complété de $ \mathbf{L} $ pour $ \nu_i' $, le degré $ n_i = [\hat{\mathbf{L}}_i : \hat{K}] $ est égal à $ e(\nu_i'/\nu)f(\nu_i'/\nu) $ pour tout $ i $ et l’homomorphisme canonique
 
@@ -353,7 +365,9 @@ $$
 
 Comme les $ \varphi_i' $ sont deux à deux inéquivalentes et de hauteur 1, elles sont indépendantes, et la prop. 2 du no 2 montre donc que l’on a $ e(\varphi_i'/\varphi)f(\varphi_i'/\varphi) \leq n_i $ pour tout $ i $, et $ \sum_{i=1}^s n_i \leq n $. La première assertion résulte donc de ces inégalités et de la relation $ \sum_{i=1}^s e(\varphi_i'/\varphi)f(\varphi_i'/\varphi) = n $. Par l’isomorphisme $ \varphi $, l’endomorphisme $ z \to z(1 \otimes x) $ de $ \hat{K} \otimes_K L $ (pour $ x \in L $) se transporte en l’endomorphisme de $ \prod_{i=1}^s \hat{L}_i $ laissant stable chacun des facteurs et se réduisant dans chaque facteur à la multiplication par $ x $ (L étant plongé canoniquement dans son complété $ \hat{L}_i $); d’où l’assertion relative au polynôme caractéristique de $ x $ et les deux premières formules (9). Enfin, soit E une extension quasi-galoisienne de $ \hat{K} $ de degré fini, contenant $ \hat{L}_i $; comme $ \hat{K} $ est complet et $ \hat{\varphi} $ de hauteur 1, il n’existe (à une équivalence près) qu’une seule valuation $ \varphi $ sur E prolongeant $ \hat{\varphi} $ (no 2, cor. 1 de la prop. 2); pour tout $ \hat{K}$-automorphisme $ \sigma $ de E, on a donc $ \varphi(\sigma(x)) = \varphi_i'(x) $. Par suite $ \hat{\varphi}(\mathrm{N}_{\hat{L}_i/\hat{K}}(x)) = n_i \varphi_i'(x) $ (Alg., chap. VIII, § 12, no 2, formule (15)), ce qui prouve la troisième formule (9).
 
-COROLLAIRE 4. — Sous les hypothèses du cor. 3, si L est une extension séparable de K, chacun des $ \hat{L}_i $ est une extension séparable de $ \hat{K} $. Si de plus L est une extension galoisienne de K, de groupe de Galois $ G_f $, et si $ G_i $ désigne le groupe de décomposition de l’idéal de $ \varphi_i' $ dans B (chap. V, § 2, no 2, déf. 2), alors $ \hat{L}_i $ est une extension galoisienne de $ \hat{K} $, dont le groupe de Galois est isomorphe à $ G_i $.
+#### Corollaire 4 {#ac-vi-s8-thm-2-cor-4 .statement}
+
+Sous les hypothèses du cor. 3, si L est une extension séparable de K, chacun des $ \hat{L}_i $ est une extension séparable de $ \hat{K} $. Si de plus L est une extension galoisienne de K, de groupe de Galois $ G_f $, et si $ G_i $ désigne le groupe de décomposition de l’idéal de $ \varphi_i' $ dans B (chap. V, § 2, no 2, déf. 2), alors $ \hat{L}_i $ est une extension galoisienne de $ \hat{K} $, dont le groupe de Galois est isomorphe à $ G_i $.
 
 $$
 \operatorname{Card}(G_i) = n/s \leq n_i,
@@ -425,7 +439,9 @@ Soient K un corps, $f$ une valeur absolue sur K telle que K soit complet et non 
 
 L’existence de $f'$ résulte de la prop. 9, et son unicité (sur toute sous-extension de degré fini de L, donc sur L tout entier) du lemme 2 du \S 6, no 4. Soit $f'$ l’unique prolongement de $f$ à la clôture algébrique de K, et supposons L de degré fini $n$. On sait que $\mathrm{N}_{L/K}(x) = \prod_{i=1}^n x_i$, où chaque $x_i$ est conjugué de $x$ sur K (Alg., chap. VIII, \S 12, no 2, prop. 4). Vu l’unicité de $f'$, on a $f'(x_i) = f'(x)$ pour tout $i$, d’où la formule annoncée.
 
-PROPOSITION 11.—Soient K un corps, f une valeur absolue non ultramétrique sur K, $ \hat{K} $ le complété de K pour f, $ \hat{f} $ le prolongement continu de f à $ \hat{K} $, et L une extension de degré fini n de K.
+#### Proposition 11 {#ac-vi-s8-prop-11 .statement}
+
+Soient K un corps, f une valeur absolue non ultramétrique sur K, $ \hat{K} $ le complété de K pour f, $ \hat{f} $ le prolongement continu de f à $ \hat{K} $, et L une extension de degré fini n de K.
 
 a) Soit $ f' $ une valeur absolue de L prolongeant f; notons $ \hat{L}_{f'} $ le complété de L pour $ f' $, et identifions $ \hat{K} $ à l’adhérence de K dans $ \hat{L}_{f'} $; on a $ [\hat{L}_{f'} : \hat{K}] \leq n $.
 
@@ -457,7 +473,9 @@ $$
 r_1 + 2r_2 = n.
 $$
 
-PROPOSITION 12. — Soient K un corps, f une valeur absolue sur K, L une extension quasi-galoisienne de K, f' et f'' deux prolongements de f à L. Il existe alors un K-automorphisme s de L tel que f'' = f' o s.
+#### Proposition 12 {#ac-vi-s8-prop-12 .statement}
+
+Soient K un corps, f une valeur absolue sur K, L une extension quasi-galoisienne de K, f' et f'' deux prolongements de f à L. Il existe alors un K-automorphisme s de L tel que f'' = f' o s.
 
 Lorsque f est ultramétrique, le cor. 1 de la prop. 7 (n° 6) montre qu’il existe un K-automorphisme s de L tel que f'' et f' o s soient des valeurs absolues équivalentes; il existe alors un nombre réel a > 0 tel que f''(x) = (f'(s(x)))^a pour tout x ∈ L. Si f est non impropre, on prend x ∈ K* tel que f(x) ≠ 1, ce qui montre que a = 1. Si f est impropre, il en est de même de f' et f'' (cor. 2 de la prop. 1, n° 1), et l’on peut prendre pour s l’automorphisme identique.
 

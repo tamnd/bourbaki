@@ -35,8 +35,8 @@ subsections:
       page: 0
       pdf_page: 340
 statements: 10
-exercises: 2
-content_sha256: c8730b6ed3baf481340205505e89db2058463f5d870ee4ad6c6bb5892ecc991e
+exercises: 4
+content_sha256: 16d7a53ea0f3096cb945a9d8551d57ceca4daccf221fbac408f85c3cc56d196d
 ---
 
 ## 1. DEFINITION OF REAL NUMBERS
@@ -128,8 +128,6 @@ The group $ \mathbf{Q} $ is commutative, and axiom $ (\mathrm{GV}'_{\mathrm{II}}
 *The topological group $ \mathbf{Q} $ thus defined is called the additive group of the rational line.*
 
 If $ a $ is any rational number $ > 0 $, there is an integer $ n > 0 $ such that $ 1/n < a $; hence the open intervals $ ]-\frac{1}{n}, +\frac{1}{n}[ $ $ (n = 1, 2, \ldots) $ form a fundamental system of neighbourhoods of $ 0 $ on the rational line.
-
-§ 1.3
 
 We obtain a fundamental system of neighbourhoods of any point $ x \in \mathbf{Q} $ by taking the open intervals $ ]x - a, x + a[ $, where $ a $ runs through the set of rational numbers $ > 0 $ (or the set of numbers $ 1/n $).
 

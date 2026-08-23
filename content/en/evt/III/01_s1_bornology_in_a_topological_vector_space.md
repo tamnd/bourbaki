@@ -15,7 +15,7 @@ subsections:
       page: 0
       pdf_page: 133
     - "no": 2
-      title: '**Bounded subsets of a topological vector space'
+      title: Bounded subsets of a topological vector space
       page: 2
       pdf_page: 134
     - "no": 3
@@ -40,7 +40,7 @@ subsections:
       pdf_page: 141
 statements: 29
 exercises: 16
-content_sha256: ab8beb6357f0f1b2d667e067bef476ff7a003792d23330eeb4ca68b3d0ffa9af
+content_sha256: b23ac8c0bb6fef3cd9831ce3a19840df9be017a870ed9a5fd47f91a1b3bb950f
 ---
 
 ## § 1. BORNOLOGY IN A TOPOLOGICAL VECTOR SPACE
@@ -77,7 +77,7 @@ $$
 
 Consequently, if $ \mathcal{B} $ is a convex bornology on $ E $, if $ A $ is a bounded subset of $ K $ and if $ X, Y $ belong to $ \mathcal{B} $, then $ X + Y \in \mathcal{B} $ and $ A.X \in \mathcal{B} $.
 
-### 2. **Bounded subsets of a topological vector space
+### 2. Bounded subsets of a topological vector space
 
 #### Definition 3 {#evt-iii-s1-def-3 .statement}
 

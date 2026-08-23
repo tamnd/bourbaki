@@ -15,7 +15,7 @@ subsections:
       page: 0
       pdf_page: 259
     - "no": 2
-      title: '**Positive hermitian forms'
+      title: Positive hermitian forms
       page: 2
       pdf_page: 260
     - "no": 3
@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 31
 exercises: 6
-content_sha256: 1c8a9e83f26d78057d54106288ce04ce371e3d1cc11610d09b61eca368b647da
+content_sha256: 52ef3981439a9aee715cc1e40006201a012b7b2e455fca13073ea20cf4caa176
 ---
 
 ## § 1. PREHILBERTIAN SPACES AND HILBERTIAN SPACES
@@ -115,7 +115,7 @@ From the polarisation formulas, we have in particular,
 
 Let $f$ be a hermitian form on $E$; the set $N$ of all $x \in E$ such that $f(x, y) = 0$ for all $y \in E$ is a vector subspace of $E$. It follows from (3) that, if $x_1 \equiv x_2$ (mod. $N$) and $y_1 \equiv y_2$ (mod. $N$), we have $f(x_1, y_1) = f(x_2, y_2)$; hence, on the quotient space $E/N$ we define a sesquilinear form $f$ by putting $f(\dot{x}, \dot{y}) = f(x, y)$ for all $x \in \dot{x}$ and all $y \in \dot{y}$; it is clear that $f$ is hermitian and that the relation «$f(\dot{x}, \dot{y}) = 0$ for all $\dot{y} \in E/N$» implies $\dot{x} = 0$ in $E/N$, in other words (A, IX) $f$ is separating. We say that $f$ is the *separating* hermitian form *associated* with $f$.
 
-### 2. **Positive hermitian forms
+### 2. Positive hermitian forms
 
 #### Definition 2 {#evt-v-s1-def-2 .statement}
 
@@ -233,41 +233,35 @@ f_{(c)}(x_1 + ix_2, y_1 + iy_2) = f(x_1, y_1) + f(x_2, y_2) + i(f(x_1, y_2) - f(
 $$
 
 In particular, we have
-
 $$
 f_{(\mathbf{C})}(x_1 + ix_2, x_1 + ix_2) = f(x_1, x_1) + f(x_2, x_2) \geqslant 0,
 $$
-
 hence $ f_{(\mathbf{C})} $ is positive. We say that $ E_{(\mathbf{C})} $, with $ f_{(\mathbf{C})} $ is the *prehilbertian space complexification* of $ E $.
 
 Whenever only one prehilbertian space structure on a vector space $ E $ is under consideration, the value, for a pair $ (x, y) $ of points of $ E $, of the hermitian form which defines the said structure is denoted by $ \langle x|y \rangle_E $ or simply $ \langle x|y \rangle $, if no confusion is likely to arise. This number is called the *scalar product* $ ^1 $ of $ x $ and $ y $ (*scalar square* of $ x $ if $ y = x $). Two vectors $ x, y $ are said to be *orthogonal* if $ \langle x|y \rangle = 0 $. The function $ x \mapsto \|x\| = \langle x|x \rangle^{1/2} $ is a *semi-norm* on the vector space $ E $ (V, p. 3); a prehilbertian space is always considered with this semi-norm assigned to it (and consequently also with the corresponding topology and uniform structure).
 
 With these notations, in a prehilbertian space $ E $, the Cauchy-Schwarz inequality can be written as
-
 $$
 |\langle x|y \rangle| \leqslant \|x\| \cdot \|y\|.
 $$
 
 Consequently, the scalar product is a *continuous sesquilinear form* on $ E \times E $ (II, p. 5, prop. 4).
 
-In order that $ E $ be Hausdorff, it is necessary and sufficient that $ x \mapsto \|x\| $ is a *norm* on $ E $; in other words, that the hermitian form $ (x, y) \mapsto \langle x|y \rangle $ *is positive and separating*; this is equivalent to saying that $ 0 $ *is the only vector of* $ E $, *which is orthogonal to itself*.
+In order that $ E $ be Hausdorff, it is necessary and sufficient that $ x \mapsto \|x\| $ is a *norm* on $ E $; in other words, that the hermitian form $ (x, y) \mapsto \langle x|y \rangle $ *is positive and separating*; this is equivalent to saying that *$ 0 $ is the only vector of $ E $, which is orthogonal to itself*.
 
 According to general definitions (S, IV, § 1, No. 5), an isomorphism from a prehilbertian space $ E $ onto a prehilbertian space $ F $ is a bijective linear mapping $ u $ from $ E $ onto $ F $ such that
-
 $$
 \langle u(x)|u(y) \rangle = \langle x|y \rangle
 $$
-
 for every $ x $ and $ y $ in $ E $. We deduce from this that $ \|u(x)\| = \|x\| $ for all $ x \in E $, and $ u $ is evidently an isomorphism for the topological vector space structures of $ E $ and of $ F $; if $ E $ and $ F $ are Hausdorff, $ u $ is an *isometry* from $ E $ onto $ F $. Conversely, if $ u $ is a bijective linear mapping from $ E $ onto $ F $, such that $ \|u(x)\| = \|x\| $ for all $ x \in E $, the polarization formulas (V, p. 2) show that $ u $ is a prehilbertian space isomorphism from $ E $ onto $ F $.
 
 Let $ E $ be a *complex* prehilbertian space, and $ \langle x|y \rangle $ the scalar product in $ E $. On the set $ E $, we can define a second vector space structure with respect to $ \mathbf{C} $, taking the same law of the additive group and for the law of external composition $ (\lambda, x) \mapsto \overline{\lambda} x $ (A, II, § 1, No. 13) for this vector space structure, $ (x, y) \mapsto \langle y|x \rangle $ is a *positive hermitian*
 
-$ ^1 $ It may happen sometimes that we write $ (x|y) $ for $ \langle y|x \rangle $. Observe that the formula (4) of V, p. 2, takes the following equivalent forms :
-
+1 It may happen sometimes that we write $ (x|y) $ for $ \langle y|x \rangle $. Observe that the formula (4) of V, p. 2, takes the following equivalent forms:
 $$
 \begin{align*}
-\langle \sum_i \lambda_i x_i | \sum_j \mu_j y_j \rangle &= \sum_{i,j} \overline{\lambda}_i \mu_j \langle x_i|y_j \rangle . \\
-(\sum_i \lambda_i x_i | \sum_j \mu_j y_j ) &= \sum_{i,j} \lambda_i \overline{\mu}_j (x_i|y_j) .
+\langle \sum_i \lambda_i x_i | \sum_j \mu_j y_j \rangle &= \sum_{i,j} \overline{\lambda}_i \mu_j \langle x_i|y_j \rangle. \\
+(\sum_i \lambda_i x_i | \sum_j \mu_j y_j) &= \sum_{i,j} \lambda_i \overline{\mu}_j (x_i|y_j).
 \end{align*}
 $$
 
@@ -277,7 +271,7 @@ If E is a prehilbertian space, M a vector subspace of E, the restriction of the 
 
 ### 4. Hilbertian spaces
 
-Definition 5. — *A hilbertian space* (or *Hilbert space*) *is a prehilbertian space which is Hausdorff and complete. We say that a norm on a vector space E (over $ \mathbf{K} $) is hilbertian if it is prehilbertian, and if the normed space E is complete*.
+Definition 5. — *A hilbertian space* (or *Hilbert space*) *is a prehilbertian space which is Hausdorff and complete*. *We say that a norm on a vector space E (over K) is hilbertian if it is prehilbertian, and if the normed space E is complete*.
 
 If E is a hilbertian space and M a closed vector subspace of E, the prehilbertian space structure induced on M is in fact a hilbertian space structure. In this case we say that M, with the induced structure is a *hilbertian subspace* of E.
 
@@ -309,7 +303,7 @@ Then $ \mathcal{H}^s $ is a complex hilbertian space, called *Sobolev space* of 
 
 In the vector fibre space $ \Lambda^n T(X) $, let L be the complement of the zero section. For every real number $ \lambda \neq 0 $, the mapping $ u \mapsto \lambda u $ from $ \Lambda^n T(X) $ into itself leaves L stable.
 
-Let $ \alpha $ be a complex number. A complex *valued function* $ \omega $ on L such that $ \omega(\lambda u) = |\lambda|^{\alpha} \omega(u) $ for $ u \in L $ and any non-zero real number $ \lambda $ is called a density of order $ \alpha $ on X. We say that a density $ \omega $ of order 1 is *locally integrable* if there exists an open cover $ (U_i)_{i \in I} $ of X, and for every $ i \in I $ a system of coordinates $ \xi_i = (\xi_i^1, ..., \xi_i^n) $ on $ U_i $ and a complex valued function $ f_i $ on $ \xi_i(U_i) $ satisfying the following conditions:
+Let $ \alpha $ be a complex number. A complex valued function $ \omega $ on L such that $ \omega(\lambda u) = |\lambda|^{\alpha} \omega(u) $ for $ u \in L $ and any non-zero real number $ \lambda $ is called a density of order $ \alpha $ on X. We say that a density $ \omega $ of order 1 is locally integrable if there exists an open cover $ (U_i)_{i \in I} $ of X, and for every $ i \in I $ a system of coordinates $ \xi_i = (\xi_i^1, ..., \xi_i^n) $ on $ U_i $ and a complex valued function $ f_i $ on $ \xi_i(U_i) $ satisfying the following conditions:
 
 a) The function $ f_i $ is locally integrable on the open set $ \xi_i(U_i) $ of $ \mathbf{R}^n $ with respect to the Lebesgue measure $ \mu $;
 
@@ -318,9 +312,9 @@ $$
 \omega(\partial_{1,i,x} \wedge ... \wedge \partial_{n,i,x}) = f_i(\xi_i^1(x), ..., \xi_i^n(x)) .
 $$
 
-Then, there exists one and only one measure $ \tilde{\omega} $ on X such that for every $ i \in I $, the image under $ \xi_i $ of the restriction of $ \tilde{\omega} $ to $ U_i $ is equal to the measure $ f_i \cdot \mu $ (*cf.* VAR, R, 10.4.3).
+Then, there exists one and only one measure $ \tilde{\omega} $ on X such that for every $ i \in I $, the image under $ \xi_i $ of the restriction of $ \tilde{\omega} $ to $ U_i $ is equal to the measure $ f_i \cdot \mu $ (cf. VAR, R, 10.4.3).
 
-Let $ \mathcal{V} $ (resp. $ \mathcal{N} $) be the vector space of measurable densities $ \omega $ of order 1/2 such that the measure associated with the density $ |\omega|^2 $ of order 1 is bounded (resp. null). Let $ \omega_1 $ and $ \omega_2 $ be in $ \mathcal{V} $; then $ \omega = \overline{\omega}_1 \omega_2 $ is a density of order 1, and the measure $ \tilde{\omega} $ associated with $ \omega $ is bounded; the number $ \int_X \tilde{\omega} $ depends only on the classes $ \dot{\omega}_1 $ and $ \dot{\omega}_2 $ of $ \omega_1 $ and $ \omega_2 $ modulo $ \mathcal{N} $ and is denoted by $ \langle \omega_1 | \omega_2 \rangle $ or $ \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle $. Then the mapping $ (\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle $ assigns a complex hilbertian space structure to the vector space $ \Omega_{1/2}(X) = \mathcal{V}/\mathcal{N} $.
+Let $ \mathcal{V} $ (resp. $ \mathcal{N} $) be the vector space of measurable densities $ \omega $ of order 1/2 such that the measure associated with the density $ |\omega|^2 $ of order 1 is bounded (resp. null). Let $ \omega_1 $ and $ \omega_2 $ be in $ \mathcal{V} $; then $ \omega = \overline{\omega_1} \omega_2 $ is a density of order 1, and the measure $ \tilde{\omega} $ associated with $ \omega $ is bounded; the number $ \int_X \tilde{\omega} $ depends only on the classes $ \dot{\omega}_1 $ and $ \dot{\omega}_2 $ of $ \omega_1 $ and $ \omega_2 $ modulo $ \mathcal{N} $ and is denoted by $ \langle \omega_1 | \omega_2 \rangle $ or $ \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle $. Then the mapping $ (\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle $ assigns a complex hilbertian space structure to the vector space $ \Omega_{1/2}(X) = \mathcal{V}/\mathcal{N} $.
 
 \* 5) Let D be the open disc with centre 0 and radius 1 in $ \mathbf{C} $. *The Hardy space* $ H^2(D) $ consists of all holomorphic functions $ f : D \to \mathbf{C} $ for which
 $$
@@ -338,11 +332,11 @@ f(z) = \sum_{n=0}^\infty a_n z^n
 $$
 for all $ z \in D $. Then we have $ \|f\|^2 = \sum_{n=0}^\infty |a_n|^2 $ which gives an isomorphism from $ H^2(D) $ onto the hilbertian space $ \ell^2 $ (V, p. 4).
 
-Every Hausdorff prehilbertian space is isomorphic to an *everywhere dense* subspace of a hilbertian space determined up to an isomorphism. Precisely :
+Every Hausdorff prehilbertian space is isomorphic to an everywhere dense subspace of a hilbertian space determined up to an isomorphism. Precisely :
 
 #### Proposition 4 {#evt-v-s1-prop-4 .statement}
 
-*Let E be a Hausdorff prehilbertian space, $ \hat{E} $ the normed space completion of E*(GT, IX, § 3, No. 3). The scalar product* $ (x, y) \mapsto \langle x|y \rangle $ *extends by conti*nuity to a positive and separating hermitian form on* $ \hat{E} $, *and defines a hilbertian space structure on* $ \hat{E} $.
+— *Let E be a Hausdorff prehilbertian space, $ \hat{E} $ the normed space completion of E*(GT, IX, § 3, No. 3). The scalar product* $ (x, y) \mapsto \langle x|y \rangle $ *extends by conti*nuity to a positive and separating hermitian form on* $ \hat{E} $, *and defines a hilbertian space structure on* $ \hat{E} $.
 
 The existence of the extension of $ (x, y) \mapsto \langle x|y \rangle $ to $ \hat{E} \times \hat{E} $ follows from the continuity of this sesquilinear form an $ E \times E $ (GT, III, § 6, No. 5, th. 1). Moreover, this extension, which will also be denoted by $ (x, y) \mapsto \langle x|y \rangle $ is a hermitian form and satisfies the relation $ \langle x|x \rangle = \|x\|^2 $, by virtue of the principle of extension of identities ($ \|x\| $ being the norm on $ \hat{E} $ obtained by extending the norm on E by continuity) ; this proves that the relation $ \langle x|x \rangle = 0 $ implies $ x = 0 $ in $ \hat{E} $, hence that the form $ (x, y) \mapsto \langle x|y \rangle $ is positive and separating, and consequently defines a hilbertian space structure on $ \hat{E} $. Q.E.D.
 
@@ -376,7 +370,7 @@ $$
 
 for all $ x \in G $. Then $ \phi : G \to \mathbf{C} $ is *positive definite*, in other words satisfies the relation :
 
-(PD) *For every* $ \lambda_1, ..., \lambda_n $ *in* $ \mathbf{C} $ *and* $ x_1, ..., x_n $ *in* $ G $, *we have*
+(PD) For every $ \lambda_1, ..., \lambda_n $ in $ \mathbf{C} $ and $ x_1, ..., x_n $ in $ G $, we have
 
 $$
 \sum_{i,j=1}^n \overline{\lambda_i} \lambda_j \phi(x_i^{-1} x_j) \geqslant 0 .
@@ -396,9 +390,9 @@ $$
 \Phi(u, v) = \langle \rho(u)|\rho(v) \rangle \quad \text{for} \quad u, v \quad \text{in} \quad C^{(G)} .
 $$
 
-For every $ x \in G $, let $ \gamma_x $ be the left translation by $ x $ in $ C^{(G)} $ defined by $ \gamma_x u(y) = u(x^{-1} y) $ for $ u \in C^{(G)} $ and $ y \in G $. We have $ \Phi(\gamma_x u, \gamma_x v) = \Phi(u, v) $. Now apply assertion *b)* of the corollary of prop. 4 to $ \rho $ and $ \rho \circ \gamma_x $ : there exists a unique automorphism $ \pi(x) $ of the hilbertian space $ E $ such that $ \rho \circ \gamma_x = \pi(x) \circ \rho $. We see immediately that $ \pi $ is a homomorphism from $ G $ into the group of automorphisms of $ E $.
+For every $ x \in G $, let $ \gamma_x $ be the left translation by $ x $ in $ C^{(G)} $ defined by $ \gamma_x u(y) = u(x^{-1} y) $ for $ u \in C^{(G)} $ and $ y \in G $. We have $ \Phi(\gamma_x u, \gamma_x v) = \Phi(u, v) $. Now apply assertion b) of the corollary of prop. 4 to $ \rho $ and $ \rho \circ \gamma_x $: there exists a unique automorphism $ \pi(x) $ of the hilbertian space $ E $ such that $ \rho \circ \gamma_x = \pi(x) \circ \rho $. We see immediately that $ \pi $ is a homomorphism from $ G $ into the group of automorphisms of $ E $.
 
-Let $ \delta $ be the element of $ C^{(G)} $ defined by $ \delta(1) = 1, \delta(x) = 0 $ for $ x \neq 1 $ in $ G $. We have $ u = \sum_{x \in G} u(x) . \gamma_x \delta $ for all $ u \in C^{(G)} $, and so $ \rho(u) = \sum_{x \in G} u(x) \pi(x) . a $ by putting $ a = \rho(\delta) $.
+Let $ \delta $ be the element of $ C^{(G)} $ defined by $ \delta(1) = 1, \delta(x) = 0 $ for $ x \neq 1 $ in $ G $. We have $ u = \sum_{x \in G} u(x) . \gamma_x \delta $ for all $ u \in C^{(G)} $, and so $ \rho(u) = \sum_{x \in G} u(x) \ \pi(x) . a $ by putting $ a = \rho(\delta) $.
 
 Formulas (12) and (13) imply that $ \phi(x) = \langle a|\pi(x).a \rangle $ for all $ x \in G $. We remark that the set of vectors $ \pi(x).a $ for all $ x \in G $, is total in $ E $.
 
@@ -412,13 +406,13 @@ $$
 
 From this identity we deduce the following proposition :
 
-![Diagram showing two ellipses labeled B and B', with a smaller ellipse labeled A between them, and vectors x and y indicated within A.](https://i.imgur.com/3Q5z5QG.png)
+![Diagram showing sets B', B, and A, with x and y marked within A](https://i.imgur.com/3Q5z5QG.png)
 
 Fig. 1.
 
 #### Proposition 5 {#evt-v-s1-prop-5 .statement}
 
-— *Let* $ E $ *be a prehilbertian space. Let* $ d $ *be a real number* $ > 0 $, $ \delta $ *a real number such that* $ 0 \leqslant \delta \leqslant d $. *Let* $ B $ *and* $ B' $ *be subsets of* $ E $ *defined by* $ \| x \| < d $,
+— Let $ E $ be a prehilbertian space. Let $ d $ be a real number $ > 0 $, $ \delta $ a real number such that $ 0 \leqslant \delta \leqslant d $. Let $ B $ and $ B' $ be subsets of $ E $ defined by $ \| x \| < d $,
 
 $$
 \|x\| \leq d + \delta \text{ respectively, and let } A \text{ be a convex set contained in } B' - B. \text{ Then for every pair of points } x, y \text{ of } A, \text{ we have } \|x - y\| \leq \sqrt{12d\delta} \text{ (fig. 1).}
@@ -443,7 +437,7 @@ Fig. 2.
 
 Put $ d = \inf_{y \in H} \|x - y\| $, and for every integer $ n > 0 $, let $ H_n $ be the set of points $ y $ of H such that $ \|x - y\| \leq d + n^{-1} $. The set $ H_n $ is closed in H, is convex and non-empty, and its diameter is bounded by $ \sqrt{12 \frac{d}{n}} $ for all large enough $ n $, by prop. 5. The sequence $ (H_n)_{n \geq 1} $ being decreasing, and the set H being Hausdorff and complete it follows that the base of the Cauchy filter $ (H_n)_{n \geq 1} $ converges to a point $ p_H(x) $ of H; we have $ \{ p_H(x) \} = \bigcap_{n \geq 1} H_n $, hence $ p_H(x) $ is the unique point $ a $ of H such that $ \|x - a\| = d $.
 
-$ ^1 $ We recall (GT, VIII, § 1, No. 1) that $ \Re(z) $ denotes the real part of the complex number z; we have $ \Re(z) = z $ if z is real.
+1 We recall (GT, VIII, § 1, No. 1) that $ \Re(z) $ denotes the real part of the complex number z; we have $ \Re(z) = z $ if z is real.
 
 Let $ y \in \mathbf{H} $; since $ \mathbf{H} $ is convex, the point $ z(\lambda) = p_{\mathbf{H}}(x) + \lambda(y - p_{\mathbf{H}}(x)) $ of E belongs to $ \mathbf{H} $ for every real number $ \lambda $ such that $ 0 < \lambda < 1 $. Hence we have
 $$
@@ -508,7 +502,7 @@ hence the number $ d = \sup_{H \in \Phi} d(x, H) $ is finite. Let B be the set o
 
 #### Proposition 7 {#evt-v-s1-prop-7 .statement}
 
-— Let E be a Hausdorff prehilbertian space and let $ \Psi $ be a non-empty directed increasing set of non-empty, convex, complete subsets of E. Put $ A = \bigcup_{H \in \Psi} H $ and suppose that the closure N of A is complete. Then N is convex and we have
+*Let E be a Hausdorff prehilbertian space and let $ \Psi $ be a non-empty directed increasing set of non-empty, convex, complete subsets of E. Put $ A = \bigcup_{H \in \Psi} H $ and suppose that the closure N of A is complete. Then N is convex and we have*
 $$
 p_N(x) = \lim_{H \in \Psi} p_H(x) \text{ for all } x \in E.
 $$
@@ -517,11 +511,11 @@ It is clear that A is convex, hence its closure N is convex (II, p. 13). With th
 $$
 \lim_{H \in \Psi} \|x - p_H(x)\| = \lim_{H \in \Psi} d(x, H) = d(x, N),
 $$
-it follows from cor. 1 of V, p. 11 that $ p_H(x) $ tends to the projection $ p_N(x) $ of x onto N with respect to the section filter of $ \Psi $.
+it follows from cor. 1 of V, p. 11 that $ p_H(x) $ tends to the projection $ p_N(x) $ of $ x $ onto N with respect to the section filter of $ \Psi $.
 
 ### 6. Vector subspaces and orthoprojectors
 
-Let E be a prehilbertian space. Recall that two vectors x and y of E are said to be orthogonal if $ \langle x | y \rangle = 0 $; then
+Let E be a prehilbertian space. Recall that two vectors $ x $ and $ y $ of E are said to be *orthogonal* if $ \langle x | y \rangle = 0 $; then
 $$
 \|x + y\|^2 = \|x\|^2 + \|y\|^2
 $$
@@ -535,13 +529,13 @@ Let A and B be two subsets of E. We say that A and B are orthogonal if every vec
 
 *Let E be a prehilbertian space and M a vector subspace of E, which is Hausdorff and complete. Then E is the topological direct sum of M and of $ M^\circ $ the subspace orthogonal to M. The projector from E onto M associated with the decomposition $ E = M \oplus M^\circ $ is the projection $ p_M $ from E onto M defined in th. 1 (V, p. 10).
 
-We first show that $ x - p_M(x) $ belongs to $ M^\circ $ for all $ x \in E $. Let $ y \in M $. For every scalar $ \lambda \in \mathbf{K} $, the vector $ p_M(x) + \lambda y $ belongs to M; hence by formula 15 (V, p. 10) we have,
+We first show that $ x - p_M(x) $ belongs to $ M^\circ $ for all $ x \in E $. Let $ y \in M $. For every scalar $ \lambda \in K $, the vector $ p_M(x) + \lambda y $ belongs to M; hence by formula 15 (V, p. 10) we have,
 
 $$
 \mathcal{R}(\lambda \langle x - p_M(x)|y \rangle) \leq 0
 $$
 
-for all $ \lambda \in \mathbf{K} $. If, in particular we take $ \lambda = \overline{\langle x - p_M(x)|y \rangle} $ we conclude that $ \langle x - p_M(x)|y \rangle = 0 $, hence our assertion.
+for all $ \lambda \in K $. If, in particular we take $ \lambda = \overline{\langle x - p_M(x)|y \rangle} $ we conclude that $ \langle x - p_M(x)|y \rangle = 0 $, hence our assertion.
 
 Since M is Hausdorff, 0 is the only vector of M, orthogonal to itself, hence $ M \cap M^\circ = \{0\} $. For every $ x \in E $, we have $ p_M(x) \in M $ and $ x - p_M(x) \in M^\circ $. Consequently, E is the direct sum of M and $ M^\circ $, and $ p_M $ is the projector from E onto M with kernel $ M^\circ $. Since $ p_M $ is a continuous mapping from E into M (V, p. 11, cor. 2), if follows from GT, III, § 6, No. 2 that E is the topological direct sum of M and $ M^\circ $.
 
@@ -559,10 +553,8 @@ We shall often use the preceding results when E is a hilbertian space and M a cl
 
 #### Proposition 8 {#evt-v-s1-prop-8 .statement}
 
-— Let E be a hilbertian space, M a closed vector subspace of E, I a non-empty ordered directed set and $(M_i)_{i \in I}$ a family of closed vector subspaces of E. We assume that either the mapping $i \mapsto M_i$ is increasing and that M is the closure of $\bigcup_{i \in I} M_i$ or that the mapping $i \mapsto M_i$ is decreasing and that $M = \bigcap_{i \in I} M_i$. Then
-$$
-p_M(x) = \lim_{i \in I} p_{M_i}(x) \text{ for all } x \in E.
-$$
+— Let E be a hilbertian space, M a closed vector subspace of E, I a non-empty ordered directed set and $(M_i)_{i \in I}$ a family of closed vector subspaces of E. We assume that either the mapping $i \mapsto M_i$ is increasing and that M is the closure of $\bigcup_{i \in I} M_i$ or that the mapping $i \mapsto M_i$ is decreasing and that $M = \bigcap_{i \in I} M_i$. Then $p_M(x) = \lim_{i \in I} p_{M_i}(x)$ for all $x \in E$.
+
 Prop. 8 follows immediately from props. 6 (V, p. 11) and 7 (V, p. 12).
 
 #### Proposition 9 {#evt-v-s1-prop-9 .statement}
@@ -601,7 +593,7 @@ We have $ p_M p_N = 0 $ if and only if the image $ N $ of $ p_N $ is contained i
 
 #### Remark {#evt-v-s1-n6-rem-1 .statement}
 
-— Let $ E $ be a hilbertian space and $ M, N $ two closed vector subspaces of $ E $. The relation $ M \subset N $ is equivalent to the orthogonality of $ M $ and $ N^\circ $, that is to say, to the relation $ p_M p_{N^\circ} = 0 $ by prop. 9, *c)*. Since we have $ p_{N^\circ} = 1 - p_N $, we conclude that *the relations* $ M \subset N $ *and* $ p_M = p_M p_N $ *are equivalent* (*«* the three perpendicular theorem *»*, *cf.* fig. 3).
+— Let $ E $ be a hilbertian space and $ M, N $ two closed vector subspaces of $ E $. The relation $ M \subset N $ is equivalent to the orthogonality of $ M $ and $ N^\circ $, that is to say, to the relation $ p_M p_{N^\circ} = 0 $ by prop. 9, $ c) $. Since we have $ p_{N^\circ} = 1 - p_N $, we conclude that *the relations* $ M \subset N $ *and* $ p_M = p_M p_N $ *are equivalent* (« the three perpendicular theorem », *cf.* fig. 3).
 
 ![Diagram showing subspaces M, N, and projections p_M(x), p_N(x)](https://i.imgur.com/3Q5z5QG.png)
 
@@ -680,7 +672,7 @@ As a consequence (IV, p. 17, prop. 6):
 
 *If, in a hilbertian space E, a filter $ \mathfrak{F} $ converges weakly to $ x_0 $, and if moreover $ \lim_{\mathfrak{F}} \|x\| = \|x_0\| $, then $ \mathfrak{F} $ converges to $ x_0 $ for the initial topology of E.*
 
-In fact, $ \|x - x_0\|^2 = \|x\|^2 - 2 \Re \langle x|x_0 \rangle + \|x_0\|^2 $. Since $ \langle x|x_0 \rangle $ tends to $ \|x_0\|^2 $ with respect to $ \mathfrak{F} $ by hypothesis, and $ \|x\| $ tends to $ \|x_0\| $ with respect to $ \mathfrak{F} $, $ \|x - x_0\| $ tends to 0 with respect to $ \mathfrak{F} $, hence the proposition.
+In fact, $ \|x - x_0\|^2 = \|x\|^2 - 2\Re \langle x|x_0 \rangle + \|x_0\|^2 $. Since $ \langle x|x_0 \rangle $ tends to $ \|x_0\|^2 $ with respect to $ \mathfrak{F} $ by hypothesis, and $ \|x\| $ tends to $ \|x_0\| $ with respect to $ \mathfrak{F} $, $ \|x - x_0\| $ tends to 0 with respect to $ \mathfrak{F} $, hence the proposition.
 
 #### Remark {#evt-v-s1-n7-rem-1 .statement}
 

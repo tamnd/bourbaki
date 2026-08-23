@@ -45,12 +45,12 @@ subsections:
       page: 41
       pdf_page: 400
     - "no": 9
-      title: '**Jordan decomposition'
+      title: Jordan decomposition
       page: 43
       pdf_page: 402
 statements: 63
 exercises: 14
-content_sha256: ba0e2d8669622429c1f2d930977c5c10b6081cff6153171d88654f4c54a82a7d
+content_sha256: 940002721e05b365dd59c32a47a412e7016af94833083021fc6c5bcaa7de7d22
 ---
 
 ## § 5. ENDOMORPHISMS OF VECTOR SPACES
@@ -618,7 +618,7 @@ Note first that, for every extension $ L $ of $ K $, the $ L $-algebra generated
 
 — Suppose the conditions of Prop. 16 are satisfied and let $ L $ be an extension of $ K $. By Prop. 13 the set $ \mathfrak{F}_{(L)} $ is diagonalisable if and only if the algebra $ L \otimes_K A $ is diagonalisable. It follows from V, p. 30, Prop. 2 that there exists a finite extension $ L $ of $ K $ such that $ \mathfrak{F}_{(L)} $ is diagonalisable. In fact $ L $ may be taken to be *Galois*; indeed, taking a finite subset $ \mathfrak{F}' $ of $ \mathfrak{F} $ which generates $ A $, we may take $ L $ to be a splitting field for the minimal polynomials of the elements of $ \mathfrak{F}' $ (Prop. 12 and 13).
 
-### 9. **Jordan decomposition
+### 9. Jordan decomposition
 
 #### Definition 8 {#alg-vii-s5-def-8 .statement}
 

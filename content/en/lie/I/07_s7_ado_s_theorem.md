@@ -24,14 +24,12 @@ subsections:
       pdf_page: 89
 statements: 6
 exercises: 5
-content_sha256: 4c546b1f017c12f6c6e698c1b3aa6df6b31f82329588587782c17ce7674f0bb0
+content_sha256: ae66f7e4cd6583507e01f9d6338eed8b0ca41572a16bb3da2a80915495213a27
 ---
 
 ## § 7. ADO'S THEOREM
 
 *Recall that $ K $ denotes a field of characteristic 0 and that all Lie algebras are assumed to be finite-dimensional over $ K $.*
-
-§ 7.2
 
 ### 1. COEFFICIENTS OF A REPRESENTATION
 

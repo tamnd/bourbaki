@@ -46,9 +46,9 @@ subsections:
       title: '*Factorialité des anneaux de séries formelles*'
       page: 0
       pdf_page: 236
-statements: 13
+statements: 22
 exercises: 27
-content_sha256: b6e35b25f37f9e9ae40d6e5ea9c70cfd8fd527e0879017b999a88fc9436f6f1e
+content_sha256: 8a674466bf50cf20056f4c484f07d0824295e734e6459c5d4a315568a22f54f9
 ---
 
 ## § 3. Anneaux factoriels
@@ -113,7 +113,9 @@ Montrons enfin que $ e) $ implique $ a) $. Soit $ a $ un idéal divisoriel de A.
 
 C.Q.F.D.
 
-PROPOSITION 1. — Soit A un anneau de Krull. Si tout idéal divisoriel de A est inversible, alors, pour tout idéal maximal m de A, $ A_m $ est factoriel. La réciproque est vraie si on suppose en outre que tout idéal divisoriel de A est de type fini (en particulier si A est noethérien).
+#### Proposition 1 {#ac-vii-s3-prop-1 .statement}
+
+Soit A un anneau de Krull. Si tout idéal divisoriel de A est inversible, alors, pour tout idéal maximal m de A, $ A_m $ est factoriel. La réciproque est vraie si on suppose en outre que tout idéal divisoriel de A est de type fini (en particulier si A est noethérien).
 
 Supposons que tout idéal divisoriel de A soit inversible; comme $ A_m $ est un anneau de Krull (\S 1, n° 4, prop. 6), tout idéal divisoriel $ \alpha $ de $ A_m $ est intersection de deux idéaux fractionnaires principaux (\S 1, n° 5, cor. 2 de la prop. 9); donc $ \alpha = bA_m $, où b est un idéal divisoriel de A (chap. II, \S 2, n° 4); comme b est inversible par hypothèse, on déduit du chap. II, \S 5, n° 6, th. 4 que $ \alpha $ est principal, donc $ A_m $ est un anneau factoriel (n° .1, déf. 1). Inversement, si tous les $ A_m $ sont factoriels, et si c est un idéal divisoriel de type fini de A, $ cA_m $ est un idéal divisoriel de $ A_m $, comme il résulte du \S 1, n° 5, cor. 2 de la prop. 9 et du chap. II, \S 2, n° 4; par hypothèse $ cA_m $ est principal, donc il résulte du chap. II, \S 5, n° 6, th. 4 que c est inversible.
 
@@ -121,7 +123,9 @@ Supposons que tout idéal divisoriel de A soit inversible; comme $ A_m $ est un 
 
 Soient A un anneau intègre, K son corps des fractions, et U le groupe multiplicatif des éléments inversibles de A. Rappelons (Alg., chap. VI, \S 1, n° 5) qu’on a un isomorphisme canonique de $ K^*/U $ sur le groupe $ \mathcal{P}^* $ des idéaux principaux fractionnaires non nuls de A. La condition b) du th. 1 se traduit alors de la manière suivante:
 
-PROPOSITION 2. — Soit A un anneau intègre. Pour que A soit factoriel, il faut et il suffit qu’il existe une partie P de A telle que tout $ a \in A - \{0\} $ s’écrive de manière unique sous la forme $ a = u \prod_{p \in P} p^{n(p)} $, où $ u \in U $, et où les $ n(p) $ sont des entiers positifs, nuls sauf un nombre fini d’entre eux.
+#### Proposition 2 {#ac-vii-s3-prop-2 .statement}
+
+Soit A un anneau intègre. Pour que A soit factoriel, il faut et il suffit qu’il existe une partie P de A telle que tout $ a \in A - \{0\} $ s’écrive de manière unique sous la forme $ a = u \prod_{p \in P} p^{n(p)} $, où $ u \in U $, et où les $ n(p) $ sont des entiers positifs, nuls sauf un nombre fini d’entre eux.
 
 Si P vérifie cette condition, il est clair que tous ses éléments sont extrémaux, et que tout élément extrémal de A est associé à
 
@@ -137,7 +141,9 @@ Pour tout $ p \in P $, l’application $ a \to n(p) $ est une valuation discrèt
 
 ### 4. Anneaux de fractions d’un anneau factoriel
 
-PROPOSITION 3. — Soient A un anneau de Krull, S une partie multiplicative de A ne contenant pas 0.
+#### Proposition 3 {#ac-vii-s3-prop-3 .statement}
+
+Soient A un anneau de Krull, S une partie multiplicative de A ne contenant pas 0.
 (i) Si A est factoriel, $ S^{-1}A $ est factoriel.
 (ii) Si S est engendrée par une famille d’éléments $ p_i $ telle que les idéaux principaux $ Ap_i $ soient premiers, et si $ S^{-1}A $ est factoriel, alors A est factoriel.
 
@@ -182,7 +188,9 @@ Ce corollaire s’étend au cas d’une famille infinie d’indéterminées (cf.
 
 ### 6. Anneaux factoriels et anneaux de Zariski
 
-PROPOSITION 4. — Soient $ \mathbf{A} $ un anneau de Zariski, $ \hat{\mathbf{A}} $ son complété. Si $ \hat{\mathbf{A}} $ est factoriel, $ \mathbf{A} $ est factoriel.
+#### Proposition 4 {#ac-vii-s3-prop-4 .statement}
+
+Soient $ \mathbf{A} $ un anneau de Zariski, $ \hat{\mathbf{A}} $ son complété. Si $ \hat{\mathbf{A}} $ est factoriel, $ \mathbf{A} $ est factoriel.
 Cela résulte du n° 1, déf. 1, et du § 1, n° 10, prop. 16.
 
 COROLLAIRE . — Si le complété d’un anneau local noethérien $ \mathbf{A} $ est factoriel, $ \mathbf{A} $ est factoriel.
@@ -284,15 +292,21 @@ C.Q.F.D.
 
 On peut aussi utiliser les résultats du chap. III, § 2, pour démontrer la relation $ B = fB + M $ (cf. exerc. 12): La méthode suivie ici a l’avantage de s’appliquer aux séries convergentes.
 
-COROLLAIRE. — Les hypothèses et notations étant celles de la prop. 5, on suppose que $ s \geqslant 1 $, de sorte que $ f \in Bm + BX $. Alors le $ A $-homomorphisme $ h $ de $ B' = A[[T]] $ dans $ B = A[[X]] $ tel que $ h(T) = f $ (chap. III, § 2, n° 9, prop. 11, a) définit sur $ B $ une structure de $ B' $-module libre admettant $ \{1, X, \ldots, X^{s-1}\} $ pour base. En particulier $ h $ est injectif.
+#### Corollaire {#ac-vii-s3-n8-cor-1 .statement}
+
+Les hypothèses et notations étant celles de la prop. 5, on suppose que $ s \geqslant 1 $, de sorte que $ f \in Bm + BX $. Alors le $ A $-homomorphisme $ h $ de $ B' = A[[T]] $ dans $ B = A[[X]] $ tel que $ h(T) = f $ (chap. III, § 2, n° 9, prop. 11, a) définit sur $ B $ une structure de $ B' $-module libre admettant $ \{1, X, \ldots, X^{s-1}\} $ pour base. En particulier $ h $ est injectif.
 
 Munissons en effet le $ B' $-module $ B $ de la filtration (T)-adique, qui est formée des $ f^n B $ pour $ n \geqslant 0 $ (chap. III, § 2, n° 1). Alors $ B/fB $ est un module libre sur l’anneau $ A = B'/TB' $, et les images des $ X^i $ ($ 0 \leqslant i \leqslant s-1 $) dans cet $ A $-module en forment une base (prop. 5); comme en outre $ f $ n’est pas diviseur de zéro dans $ B $ (prop. 5), $ Bf^n/Bf^{n+1} $ est aussi un $ (B'/TB') $-module libre de rang $ s $, de sorte que la condition (GR) du chap. III, § 2, n° 8 est satisfaite (en y remplaçant $ A $ par $ B' $ et $ M $ par $ B $). D’autre part, puisque $ B' $ est séparé et complet pour la filtration (T)-adique, et que $ \mathrm{gr}(B) $ est un $ \mathrm{gr}(B') $-module de type fini en vertu de ce qui précède, on voit d’abord (chap. III, § 2, n° 9, cor. 1 de la prop. 12) que $ B $ est un $ B' $-module de type fini. La première assertion du corollaire résulte alors du chap. III, § 2, n° 9, prop. 13. La seconde s’en déduit aussitôt.
 
-DÉFINITION 2. — On dit qu’un polynôme $ F = A[X] $ est distingué s’il est de la forme $ F = X^s + a_{s-1} X^{s-1} + \cdots + a_0 $, avec $ a_i \in m $ pour $ 0 \leqslant i \leqslant s-1 $.
+#### Définition 2 {#ac-vii-s3-def-2 .statement}
+
+On dit qu’un polynôme $ F = A[X] $ est distingué s’il est de la forme $ F = X^s + a_{s-1} X^{s-1} + \cdots + a_0 $, avec $ a_i \in m $ pour $ 0 \leqslant i \leqslant s-1 $.
 
 Notons que le produit de deux polynômes distingués est un polynôme distingué.
 
-PROPOSITION 6 (Théorème de préparation). — Soient $ f \in \mathbf{B} $ une série dont la série réduite n’est pas nulle, et s son ordre réduit. Il existe alors un couple $(u, F)$ et un seul tel que $u$ soit un élément inversible de $\mathbf{B}$, $F$ un polynôme distingué de degré $s$, et $f = uF$.
+#### Proposition 6 (Théorème de préparation) {#ac-vii-s3-prop-6 .statement}
+
+Soient $ f \in \mathbf{B} $ une série dont la série réduite n’est pas nulle, et s son ordre réduit. Il existe alors un couple $(u, F)$ et un seul tel que $u$ soit un élément inversible de $\mathbf{B}$, $F$ un polynôme distingué de degré $s$, et $f = uF$.
 
 Posons $F = X^s + G$, avec $G = g_0 + \cdots + g_{s-1}X^{s-1}$ ($g_i \in \mathbf{A}$). La relation $f = uF$ équivaut à $F = u^{-1}f$, c’est-à-dire à $X^s = u^{-1}f - G$. Donc la prop. 5 montre l’unicité de $G$ et de $u^{-1}$, et par suite de $F$ et de $u$. Elle montre aussi qu’il existe $v \in \mathbf{B}$, et un polynôme $G = g_0 + \cdots + g_{s-1}X^{s-1}$ ($g_i \in \mathbf{A}$) tels que $X^s = vf - G$; il reste à démontrer que $v$ est inversible dans $\mathbf{B}$, et qu’on a $g_i \in m$ pour tout $i$. Or, en notant $\bar{g}_i$ l’image canonique de $g_i$ dans $k$, et $\bar{f}, \bar{v}$ les séries réduites de $f, g$, on a:
 
@@ -304,11 +318,15 @@ puisque $\bar{f}$ est d’ordre $s$, on a $\bar{g}_i = 0$ pour tout $i$, et $\ba
 
 C.Q.F.D.
 
-PROPOSITION 7. — Soient $F$ un polynôme distingué, et $g, h$ deux séries formelles de $\mathbf{B}$ telles que $F = gh$. Il existe alors un élément inversible $u$ de $\mathbf{B}$ tel que $ug$ et $u^{-1}h$ soient des polynômes distingués, et l’on a $F = (ug)(u^{-1}h)$.
+#### Proposition 7 {#ac-vii-s3-prop-7 .statement}
+
+Soient $F$ un polynôme distingué, et $g, h$ deux séries formelles de $\mathbf{B}$ telles que $F = gh$. Il existe alors un élément inversible $u$ de $\mathbf{B}$ tel que $ug$ et $u^{-1}h$ soient des polynômes distingués, et l’on a $F = (ug)(u^{-1}h)$.
 
 En effet, les séries réduites de $g$ et $h$ sont $\neq 0$; donc, d’après la prop. 6, il existe des éléments inversibles $u, v$ de $\mathbf{B}$ tels que $ug$ et $vh$ soient des polynômes distingués. Alors $uvF = (ug)(vh)$ est un polynôme distingué, et $uv$ est inversible. Par passage aux séries réduites, on voit aussitôt que $F$ et $uvF$ ont même ordre réduit, c’est-à-dire même degré. L’assertion d’unicité dans la prop. 6 montre donc qu’on a $F = uvF$, d’où $uv = 1$.
 
-COROLLAIRE. — Supposons en outre que $\mathbf{A}$ soit intègre, et soit $F$ un polynôme distingué de degré $s$. Pour que $F$ soit extrémal dans $\mathbf{A}[X]$, il faut et il suffit qu’il soit extrémal dans $\mathbf{B} = \mathbf{A}[[X]]$.
+#### Corollaire {#ac-vii-s3-n8-cor-2 .statement}
+
+Supposons en outre que $\mathbf{A}$ soit intègre, et soit $F$ un polynôme distingué de degré $s$. Pour que $F$ soit extrémal dans $\mathbf{A}[X]$, il faut et il suffit qu’il soit extrémal dans $\mathbf{B} = \mathbf{A}[[X]]$.
 
 Supposons que $F$ ne soit pas extrémal dans $\mathbf{A}[X]$, de sorte que l’on a $F = f_1f_2$, où $f_1$ et $f_2$ sont des éléments non inversibles de $\mathbf{A}[X]$; le produit des coefficients dominants de $f_1$ et $f_2$ étant égal à 1, ces coefficients sont inversibles dans $\mathbf{A}$, et l’hypothèse entraîne que $f_1$ et $f_2$ sont de degrés $> 0$ et $< s$; comme les polynômes réduits $\bar{f}_1, \bar{f}_2$ sont tels que $\bar{f}_1\bar{f}_2 = X^s$, ni $\bar{f}_1$ ni $\bar{f}_2$ ne peut être inversible dans $k[[X]]$, car si $\bar{f}_1$ était inversible, $\bar{f}_2$ serait d’ordre $s$, ce qui est absurde. *A fortiori*, ni $ f_1 $ ni $ f_2 $ n’est inversible dans B, et F est non extrémal dans B.
 

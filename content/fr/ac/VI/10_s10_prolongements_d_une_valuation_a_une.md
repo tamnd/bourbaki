@@ -22,9 +22,9 @@ subsections:
       title: '*Cas d’une extension transcendante quelconque.*'
       page: 0
       pdf_page: 161
-statements: 11
+statements: 14
 exercises: 2
-content_sha256: 9bc2e5f67f32e7e644149dc3dc04355b9906b397d9a53ce225d606db702985e8
+content_sha256: 1e08abe9755935c21e2081c7cf50711c0529dda5d21936faec1405ea1bd36b84
 ---
 
 ## § 10. Prolongements d’une valuation à une extension transcendante.
@@ -75,13 +75,17 @@ $$
 $$
 C.Q.F.D.
 
-PROPOSITION 1. — Soient K un corps, $ \nu $ une valuation de K, $ \Gamma $ son groupe des ordres, $ \Gamma' $ un groupe totalement ordonné contenant $ \Gamma $, et $ \xi $ un élément de $ \Gamma' $ tel que les relations $ n\xi \in \Gamma, n \in \mathbf{Z} $, entraînent $ n = 0 $. Il existe alors une valuation $ \omega $ et une seule de K(X) à valeurs dans $ \Gamma' $ et prolongeant $ \nu $, telle que $ \omega(X) = \xi $. Le corps résiduel de $ \omega $ est égal à celui de $ \nu $, et son groupe des ordres est le sous-groupe $ \Gamma + \mathbf{Z}\xi $ de $ \Gamma' $.
+#### Proposition 1 {#ac-vi-s10-prop-1 .statement}
+
+Soient K un corps, $ \nu $ une valuation de K, $ \Gamma $ son groupe des ordres, $ \Gamma' $ un groupe totalement ordonné contenant $ \Gamma $, et $ \xi $ un élément de $ \Gamma' $ tel que les relations $ n\xi \in \Gamma, n \in \mathbf{Z} $, entraînent $ n = 0 $. Il existe alors une valuation $ \omega $ et une seule de K(X) à valeurs dans $ \Gamma' $ et prolongeant $ \nu $, telle que $ \omega(X) = \xi $. Le corps résiduel de $ \omega $ est égal à celui de $ \nu $, et son groupe des ordres est le sous-groupe $ \Gamma + \mathbf{Z}\xi $ de $ \Gamma' $.
 
 Démontrons d’abord l’unicité de $ \omega $. Soit $ P = \sum_j a_j X^j $ un élément de K[X]. On a $ \omega(a_j X^j) = \nu(a_j) + j\xi $, ce qui montre que les monômes $ a_j X^j $ tels que $ a_j \neq 0 $ ont des valeurs distinctes pour $ \omega $. Il s’ensuit que $ \omega(P) = \inf_j (\nu(a_j) + j\xi) $, ce qui montre à la fois l’unicité de $ \omega $ sur K[X] (donc aussi sur K(X)) et le fait que le groupe des ordres de $ \omega $ est $ \Gamma + \mathbf{Z}\xi $. On voit en outre que, si $ P \neq 0 $, on peut écrire $ P = aX^n(1+u) $ avec $ a \in K^*, n \in \mathbf{N}, u \in K(X) $ et $ \omega(u) > 0 $; tout élément $ R \neq 0 $ de K(X) peut donc s’écrire sous la forme $ R = bX^n(1+u') $, avec $ b \in K^*, n \in \mathbf{Z}, u' \in K(X) $ et $ \omega(u') > 0 $; on a $ \omega(R) = \nu(b) + n\xi $, donc $ \omega(R) = 0 $ si et seulement si $ \nu(b) = 0 $ et $ n = 0 $; ainsi, lorsque $ \omega(R) = 0 $, R et b sont congrus modulo l’idéal de $ \omega $, ce qui montre que le corps résiduel de $ \omega $ est égal à celui de $ \nu $.
 
 Enfin l’existence de $ \omega $ résulte du lemme 1.
 
-PROPOSITION 2. — Soient K un corps, $ \nu $ une valuation de K, $ \Gamma $ son groupe des ordres, et k son corps résiduel. Il existe une valuation $ \omega $ et une seule de K(X) prolongeant $ \nu $, telle que $ \omega(X) = 0 $ et que l’image t de X dans le corps résiduel k’ de ω soit transcendante sur k. Le groupe des ordres de ω est égal à celui de v, et son corps résiduel est k(t).
+#### Proposition 2 {#ac-vi-s10-prop-2 .statement}
+
+Soient K un corps, $ \nu $ une valuation de K, $ \Gamma $ son groupe des ordres, et k son corps résiduel. Il existe une valuation $ \omega $ et une seule de K(X) prolongeant $ \nu $, telle que $ \omega(X) = 0 $ et que l’image t de X dans le corps résiduel k’ de ω soit transcendante sur k. Le groupe des ordres de ω est égal à celui de v, et son corps résiduel est k(t).
 
 Pour montrer l’unicité de ω, il nous suffira de montrer que, si P = $ \sum_j a_j X^j $ est un élément non nul de K[X], on a
 $$
@@ -223,7 +227,9 @@ En effet, d’après la prop. 3, on a $ h' \leq r(\nu'/\nu) + h $.
 
 S’il y a égalité dans (10), il y a égalité dans (9), d’où le fait que $ k' $ est une extension de type fini de $ k $, et que $ \Gamma' $ est un $ \mathbf{Z} $-module de type fini. De plus, en comparant (9) et (10), on voit que $ h' - h = r(\Gamma'/\Gamma) $, d’où $ h' = r(\Gamma') $, et la prop. 4 (n° 2) montre alors que $ \Gamma' $ est isomorphe à $ \mathbf{Z}^{h'} $ ordonné lexicographiquement.
 
-COROLLAIRE 4. — Supposons que $ \varphi $ soit impropre (auquel cas $ k = K $). On a alors
+#### Corollaire 4 {#ac-vi-s10-thm-1-cor-4 .statement}
+
+Supposons que $ \varphi $ soit impropre (auquel cas $ k = K $). On a alors
 
 (11) $$ h(\Gamma') + d(k'/K) \leq r(\Gamma') + d(k'/K) \leq d(K'/K). $$
 

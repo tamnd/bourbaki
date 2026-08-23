@@ -33,7 +33,7 @@ subsections:
       page: 41
       pdf_page: 155
     - "no": 6
-      title: '**A separability criterion'
+      title: A separability criterion
       page: 42
       pdf_page: 156
     - "no": 7
@@ -50,7 +50,7 @@ subsections:
       pdf_page: 160
 statements: 38
 exercises: 5
-content_sha256: 9b3df3fc42e14b699bfbf7d59542706df86837bfb2ef4681ea821a733bad9dec
+content_sha256: 6a1e194beb6491068e8402aa0b896f006bcab263c6ed8066c487c9e85dadddc0
 ---
 
 ## § 7. SEPARABLE ALGEBRAIC EXTENSIONS
@@ -261,7 +261,7 @@ Assertion *a)* follows directly from Prop. 6 (V, p. 39).
 
 Under the hypothesis *b)*, let F be a subextension of E of finite degree over K. Then F and K' are linearly disjoint over K, hence the K'-algebra $ F_{(K')} = K' \otimes_K F $ is isomorphic to $ K'(F) $. Since $ K'(F) $ is a subextension of E' of finite degree over K' and E' is algebraic and separable over K', the K'-algebra $ K'(F) $ is etale. In other words, the K'-algebra $ F_{(K')} $ is etale, and now Cor. 2 of Prop. 4 (V, p. 32) shows that F is etale over K. Thus we have shown E to be separable over K.
 
-### 6. **A separability criterion
+### 6. A separability criterion
 
 #### Proposition 11 {#alg-v-s7-prop-11 .statement}
 

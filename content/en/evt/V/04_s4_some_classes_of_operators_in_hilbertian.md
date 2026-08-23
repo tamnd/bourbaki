@@ -46,9 +46,9 @@ subsections:
       title: Trace of a quadratic form with respect to another
       page: 57
       pdf_page: 315
-statements: 40
+statements: 41
 exercises: 0
-content_sha256: 8211b1b7a0f581dbc762b2df2ac5703b0e15fd0db527ff4281a1d2811687ea92
+content_sha256: 12a07afdbd302b2c3af5d28444e7b827da7815a9358c3e87efd3c0e575daeebb
 ---
 
 ## § 4. SOME CLASSES OF OPERATORS IN HILBERTIAN SPACES
@@ -70,19 +70,19 @@ for all $ x \in E $ and all $ y \in F $. The mapping $ u \mapsto u^* $ from $ \m
 Let $ \mathscr{S}(E, F) $ be the space of all continuous sesquilinear forms on $ E \times F $, endowed with the norm
 
 $$
-\|\Phi\| = \sup_{\|x\| \leq 1, \|y\| \leq 1} |\Phi(x, y)| .
+\| \Phi \| = \sup_{\|x\| \leq 1, \|y\| \leq 1} |\Phi(x, y)| .
 $$
 
 We define the space $ \mathscr{S}(F, E) $ similarly. We defined (V, p. 16, cor. 2) a Banach space isomorphism from $ \mathcal{L}(E; F) $ onto $ \mathscr{S}(F, E) $, denoted by $ u \mapsto \Phi_u $ and characterized by
 
 $$
-\Phi_u(y, x) = \langle y|u(x) \rangle_F \quad (x \in E,\ y \in F) .
+\Phi_u(y, x) = \langle y|u(x) \rangle_F \quad (x \in E, \ y \in F) .
 $$
 
 In an analogous way we define an isomorphism from $ \mathcal{L}(F, E) $ onto $ \mathscr{S}(E, F) $. Finally we define a mapping $ \Phi \mapsto \Phi^* $ from $ \mathscr{S}(F, E) $ onto $ \mathscr{S}(E, F) $ by
 
 $$
-\Phi^*(x, y) = \overline{\Phi(y, x)} \quad (x \in E,\ y \in F) .
+\Phi^*(x, y) = \overline{\Phi(y, x)} \quad (x \in E, \ y \in F) .
 $$
 
 This mapping is bijective, semi-linear and isometric. But formula (1) translates as $ \Phi_{u^*} = (\Phi_u)^* $, hence the proposition.
@@ -172,7 +172,7 @@ can be established in the same way as formula (12), on account of the definition
 
 #### Remark 1 {#evt-v-s4-n1-rem-1 .statement}
 
-— Suppose the hilbertian space E does not reduce to 0. We identify $ \mathcal{L}(K; E) $ with E by the mapping $ u \mapsto u(1) $; in other words, the vector x of E is identified with the mapping $ \lambda \mapsto \lambda.x $ from K into E. Then the adjoint of x is the mapping $ x^*: E \to K $ given by $ x^*(y) = \langle x|y \rangle $. In other words, $ x \mapsto x^* $ is the canonical semi-linear mapping from E onto its dual (V, p. 15).
+— Suppose the hilbertian space E does not reduce to 0. We identify $ \mathcal{L}(K;E) $ with E by the mapping $ u \mapsto u(1) $; in other words, the vector x of E is identified with the mapping $ \lambda \mapsto \lambda.x $ from K into E. Then the adjoint of x is the mapping $ x^*:E \to K $ given by $ x^*(y) = \langle x|y \rangle $. In other words, $ x \mapsto x^* $ is the canonical semi-linear mapping from E onto its dual (V, p. 15).
 
 Similarly, we identify the number $ \lambda \in K $ with the endomorphism $ \lambda.1_E $ of E. Then $ \lambda^* $ is precisely the conjugate of $ \lambda $.
 
@@ -197,7 +197,8 @@ Following Dirac $ ^1 $, in most works of Mathematical Physics, the elements of E
 
 #### Proposition 3 {#evt-v-s4-prop-3 .statement}
 
-— Let E and F be two hilbertian spaces and $ u \in \mathcal{L}(E; F) $. The following conditions are equivalent :
+— Let E and F be two hilbertian spaces and $ u \in \mathcal{L}(E;F) $. The following conditions are equivalent :
+
 (i) $ u $ is a topological vector space isomorphism, with an inverse equal to $ u^* $;
 (ii) $ u $ is surjective and $ u^*u = 1_E $;
 (iii) $ u $ is injective and $ uu^* = 1_F $;
@@ -209,7 +210,7 @@ Condition (1) means that we have $ u^*u = 1_E $ and $ uu^* = 1_F $. Hence the eq
 $ ^1 $ See P. A. M. Dirac, Quantum Mechanics, Oxford University Press, New York, 1935.
 
 $
-\langle x|u^*u(y) \rangle = \langle x|y \rangle$, that is, to $ \langle u(x)|u(y) \rangle = \langle x|y \rangle $ for all $ x, y $ in $ E $, and evidently implies that $ u $ is injective; this proves the equivalence of (ii) and (v).
+\langle x|u^*u(y)\rangle = \langle x|y\rangle$, that is, to $ \langle u(x)|u(y)\rangle = \langle x|y\rangle $ for all $ x, y $ in $ E $, and evidently implies that $ u $ is injective; this proves the equivalence of (ii) and (v).
 
 An automorphism of the hilbertian space $ E $ is also called a *unitary operator*, that is, an operator $ u \in \mathcal{L}(E) $ satisfying $ uu^* = u^*u = 1_E $.
 
@@ -221,13 +222,13 @@ An automorphism of the hilbertian space $ E $ is also called a *unitary operator
 
 — The definition (1) of the adjoint $ u^* $ can also be written as
 $$
-\langle y|u(x) \rangle = \langle u^*(y)|x \rangle ,
+\langle y|u(x)\rangle = \langle u^*(y)|x\rangle ,
 $$
 or, by V, p. 15, as
 $$
-\langle u(x), y^* \rangle = \langle x, (u^*(y))^* \rangle .
+\langle u(x), y^*\rangle = \langle x, (u^*(y))^*\rangle .
 $$
-But we also have $ \langle u(x), y^* \rangle = \langle x, {}^t u(y^*) \rangle $, hence we can express the adjoint in terms of the transpose,
+But we also have $ \langle u(x), y^*\rangle = \langle x, {}^t u(y^*)\rangle $, hence we can express the adjoint in terms of the transpose,
 $$
 (u^*(y))^* = {}^t u(y^*) .
 $$
@@ -246,9 +247,9 @@ Let $ P $ be the initial subspace of $ u $. Since $ E $ is the direct sum of $ P
 
 (ii) *Suppose that $ E = F $. Let $ M $ be a closed vector subspace of $ E $ and $ M^\circ $ its orthogonal. The relations $ u(M) \subset M $ and $ u^*(M^\circ) \subset M^\circ $ are equivalent.*
 
-Let $ Q = \overline{u(E)} $ be the final subspace of $ u $. The orthogonal $ Q^\circ $ of $ Q $ in $ F $ consists of all vectors $ y $ such that $ \langle u(x)|y \rangle = 0 $ for all $ x \in E $; this is equivalent to : $ \langle x|u^*(y) \rangle = 0 $ for all $ x \in E $, or to $ u^*(y) = 0 $. Hence we have $ Q^\circ = \mathrm{Ker}\, u^* $, and $ Q $ is the initial subspace of $ u^* $. Since $ u $ is the adjoint of $ u^* $, the final subspace of $ u^* $ is also the initial subspace of $ u $. This proves (i).
+Let $ Q = \overline{u(E)} $ be the final subspace of $ u $. The orthogonal $ Q^\circ $ of $ Q $ in $ F $ consists of all vectors $ y $ such that $ \langle u(x)|y\rangle = 0 $ for all $ x \in E $; this is equivalent to : $ \langle x|u^*(y)\rangle = 0 $ for all $ x \in E $, or to $ u^*(y) = 0 $. Hence we have $ Q^\circ = \mathrm{Ker}\, u^* $, and $ Q $ is the initial subspace of $ u^* $. Since $ u $ is the adjoint of $ u^* $, the final subspace of $ u^* $ is also the initial subspace of $ u $. This proves (i).
 
-The relation $ u(M) \subset M $ implies that $ u(M) $ is orthogonal to $ M^\circ $, and the relation $ u^*(M^\circ) \subset M^\circ $ implies that $ u^*(M^\circ) $ is orthogonal to $ M $. But we have $ \langle u(x)|y \rangle = \langle u^*(y)|x \rangle $ for all $ x \in M $ and $ y \in M^\circ $; hence (ii) follows.
+The relation $ u(M) \subset M $ implies that $ u(M) $ is orthogonal to $ M^\circ $, and the relation $ u^*(M^\circ) \subset M^\circ $ implies that $ u^*(M^\circ) $ is orthogonal to $ M $. But we have $ \langle u(x)|y\rangle = \langle u^*(y)|x\rangle $ for all $ x \in M $ and $ y \in M^\circ $; hence (ii) follows.
 
 We remark that prop. 4 can be deduced from the general properties of the transpose (II, p. 51, cor. 2) in view of remark 3, V, p. 41.
 
@@ -434,7 +435,7 @@ Prop. 12 shows, in particular, that $ vv^* $ is positive for all $ v \in \mathca
 
 #### Remark {#evt-v-s4-n5-rem-1 .statement}
 
-— 1) For every hermitian $ u $ in $ \mathcal{L}(E) $, put $ m(u) = \inf_{\|x\|=1} \langle x|u(x)\rangle $, $ M(u) = \sup_{\|x\|=1} \langle x|u(x)\rangle $. If $ E $ is not just 0, $ m(u) $ and $ M(u) $ are finite; moreover, $ M(u) $ is the smallest real number $ \lambda $ such that $ u \leq \lambda.1_E $ and $ m(u) $ the largest real number $ \mu $ such that $ u \geq \mu.1_E $. Clearly we have $ m(-u) = -M(u) $ and $ M(-u) = -m(u) $. It is clear that
+— 1) For every hermitian $ u $ in $ \mathcal{L}(E) $, put $ m(u) = \inf_{\|x\|=1} \langle x|u(x)\rangle $, $ M(u) = \sup_{\|x\|=1} \langle x|u(x)\rangle $. If $ E $ is not just 0, $ m(u) $ and $ M(u) $ are finite; moreover, $ M(u) $ is the smallest real number $ \lambda $ such that $ u \leq \lambda \cdot 1_E $ and $ m(u) $ the largest real number $ \mu $ such that $ u \geq \mu \cdot 1_E $. Clearly we have $ m(-u) = -M(u) $ and $ M(-u) = -m(u) $. It is clear that
 $$
 \sup(|m(u)|, |M(u)|) = \sup_{\|x\|=1} |\langle x|u(x)\rangle|
 $$
@@ -443,9 +444,9 @@ $$
 \|u\| = \sup(|m(u)|, |M(u)|).
 $$
 \* For another proof of this formula when $ K $ is $ \mathbf{C} $, see prop. 14 of TS, I, § 6, No. 8. \*
-2) Let $ M $ and $ N $ be two closed vector subspaces of $ E $, and $ p_M $ (resp. $ p_N $) the orthoprojector from $ E $ onto $ M $ (resp. $ N $). Then $ M \subset N $ if and only if $ p_M \leq p_N $. For, we have $ p_M^*p_M = p_M $, hence
+2) Let $ M $ and $ N $ be two closed vector subspaces of $ E $, and $ p_M $ (resp. $ p_N $) the orthoprojector from $ E $ onto $ M $ (resp. $ N $). Then $ M \subset N $ if and only if $ p_M \leq p_N $. For, we have $ p_M^* p_M = p_M $, hence
 $$
-\|p_M(x)\|^2 = \langle p_M(x)|p_M(x)\rangle = \langle x|p_M^*p_M(x)\rangle = \langle x|p_M(x)\rangle
+\|p_M(x)\|^2 = \langle p_M(x)|p_M(x)\rangle = \langle x|p_M^* p_M(x)\rangle = \langle x|p_M(x)\rangle
 $$
 for all $ x \in E $. The relation $ p_M \leq p_N $ is therefore equivalent to « $ \|p_M(x)\| \leq \|p_N(x)\| $ for all $ x \in E $ ». If $ M \subset N $, we have $ p_M = p_M p_N $, hence $ \|p_M(x)\| \leq \|p_N(x)\| $ since $ \|p_M\| \leq 1 $. Conversely, if $ \|p_M(x)\| \leq \|p_N(x)\| $ for all $ x \in E $, the kernel of $ p_M $ contains the kernel of $ p_N $, that is, that $ M^\circ \supset N^\circ $, which implies that $ M \subset N $.
 
@@ -480,7 +481,7 @@ For every $ x \in E $, the mapping $ u \mapsto \Psi_u(x) $ from into $ \mathbf{R
 $$
 \lim_{u,\Sigma} \Phi_u(x, y) = \Phi(x, y)
 $$
-exists for every pair $(x, y)$ of elements of $E$. It is clear that $ \Phi $ is a hermitian form on $E$. If $ v_1 \in \mathcal{F} $ and $ v_2 $ is a bound of $ \mathcal{F} $, the hermitian forms $ f_1 = \Phi - \Phi_{v_1} $ and $ f_2 = \Phi_{v_2} - \Phi $ are positive; there exists a real number $ M \geq 0 $ such that
+exists for every pair $ (x, y) $ of elements of $ E $. It is clear that $ \Phi $ is a hermitian form on $ E $. If $ v_1 \in \mathcal{F} $ and $ v_2 $ is a bound of $ \mathcal{F} $, the hermitian forms $ f_1 = \Phi - \Phi_{v_1} $ and $ f_2 = \Phi_{v_2} - \Phi $ are positive; there exists a real number $ M \geq 0 $ such that
 $$
 f_1(x, x) + f_2(x, x) = \Phi_{v_2 - v_1}(x, x) \leq M \|x\|^2,
 $$
@@ -488,29 +489,29 @@ hence
 $$
 f_1(x, x) \leq M \|x\|^2, \quad f_2(x, x) \leq M \|x\|^2 \quad (x \in E);
 $$
-consequently the semi-norms $ x \mapsto f_i(x, x)^{1/2} $ are continuous on $E$. Since
+consequently the semi-norms $ x \mapsto f_i(x, x)^{1/2} $ are continuous on $ E $. Since
 $$
 f_2 - f_1 = \Phi_{v_2} + \Phi_{v_1} - 2\Phi,
 $$
-we conclude that $ x \mapsto \Phi(x, x) $ is a continuous function on $E$, and by formulas (19) and (20), that $ \Phi $ is continuous on $E \times E$. Therefore there exists (V, p. 16, cor. 2) an element $ u_0 $ of $ \mathcal{H}(E) $ such that $ \Phi = \Phi_{u_0} $. Formula (18) is evidently satisfied, hence $ u_0 $ is the upper bound of $ \mathcal{F} $ in $ \mathcal{H}(E) $. This proves (i).
+we conclude that $ x \mapsto \Phi(x, x) $ is a continuous function on $ E $, and by formulas (19) and (20), that $ \Phi $ is continuous on $ E \times E $. Therefore there exists (V, p. 16, cor. 2) an element $ u_0 $ of $ \mathcal{H}(E) $ such that $ \Phi = \Phi_{u_0} $. Formula (18) is evidently satisfied, hence $ u_0 $ is the upper bound of $ \mathcal{F} $ in $ \mathcal{H}(E) $. This proves (i).
 
 We have, by construction
 $$
-\lim_{u,\Sigma} \langle x|(u_0 - u)(x) \rangle = 0 \quad \text{for all } x \in E.
+\lim_{u,\Sigma} \langle x|(u_0 - u)(x)\rangle = 0 \quad \text{for all } x \in E.
 $$
-Let $ v_1 \in \mathcal{F} $; given a $ u \in \mathcal{F} $ such that $ u \geq v_1 $, let $ v = u_0 - u $. If we apply the Cauchy-Schwarz inequality to the positive hermitian form $ \Phi_v $ on $E$, we get
+Let $ v_1 \in \mathcal{F} $; given a $ u \in \mathcal{F} $ such that $ u \geq v_1 $, let $ v = u_0 - u $. If we apply the Cauchy-Schwarz inequality to the positive hermitian form $ \Phi_v $ on $ E $, we get
 $$
 \begin{align*}
 \|v(x)\|^4 &= |\Phi_v(v(x), x)|^2 \leq \Phi_v(v(x), v(x)) \cdot \Phi_v(x, x) \\
-&= \langle v(x)|v^2(x) \rangle \langle x|v(x) \rangle \leq \|v\|^3 \|x\|^2 \langle x|v(x) \rangle \\
-&\leq \|u_0 - v_1\|^3 \|x\|^2 \langle x|v(x) \rangle,
+&= \langle v(x)|v^2(x)\rangle \langle x|v(x)\rangle \leq \|v\|^3 \|x\|^2 \langle x|v(x)\rangle \\
+&\leq \|u_0 - v_1\|^3 \|x\|^2 \langle x|v(x)\rangle,
 \end{align*}
 $$
 since $ \|v\| \leq \|u_0 - v_1\| $ by V, p. 44, prop. 9. Then by (21) we get $ \lim_{u,\Sigma} \|(u_0 - u)(x)\| = 0 $ for all $ x \in E $; which proves assertion (ii).
 
 In particular, prop. 13 can be applied to the case of an increasing and bounded sequence $ (u_n)_{n \in \mathbf{N}} $ of elements of $ \mathcal{H}(E) $. Then there exists an element $ v $ of $ \mathcal{H}(E) $ characterized by
 $$
-\langle x|v(x) \rangle = \lim_{n \to \infty} \langle x|u_n(x) \rangle = \sup_{n \in \mathbf{N}} \langle x|u_n(x) \rangle \quad (x \in E),
+\langle x|v(x)\rangle = \lim_{n \to \infty} \langle x|u_n(x)\rangle = \sup_{n \in \mathbf{N}} \langle x|u_n(x)\rangle \quad (x \in E),
 $$
 and we have $ v(x) = \lim_{n \to \infty} u_n(x) $ for all $ x \in E $. Moreover, $ v $ is the upper bound of the set of the $ u_n $ in $ \mathcal{H}(E) $.
 
@@ -520,7 +521,7 @@ Let E and F be two hilbertian spaces. Conforming to the conventions of V, p. 40,
 
 #### Lemma 1 {#evt-v-s4-lem-1 .statement}
 
-*There exists an isomorphism $ \theta $ from the vector space $ F \otimes E' $ onto the space $ \mathcal{L}_f(E; F) $ of all finite rank continuous linear mappings from E into F, characterized by $ \theta(b \otimes a^*) = ba^* $ for $ a \in E, b \in F $.*
+— *There exists an isomorphism $ \theta $ from the vector space $ F \otimes E' $ onto the space $ \mathcal{L}_f(E; F) $ of all finite rank continuous linear mappings from E into F, characterized by $ \theta(b \otimes a^*) = ba^* $ for $ a \in E, b \in F $.
 
 By A, II, § 4, No. 2, there exists an injective linear mapping $ \theta $ from $ F \otimes E' $ into $ \mathcal{L}(E; F) $ and only one such, which transforms $ b \otimes a' $ into the linear mapping $ x \mapsto ba'(x) $ for $ a' \in E', b \in F $. Evidently $ \theta(b \otimes a^*) = ba^* $, and the image of $ \theta $ is contained in $ \mathcal{L}_f(E; F) $. However, let $ u \in \mathcal{L}_f(E; F) $ and let $ (e_1, ..., e_n) $ be an orthonormal basis of the image of $ u $ in F. Let $ f_i = u^*(e_i) $ for $ 1 \leq i \leq n $. For every $ x \in E $, we have
 
@@ -541,21 +542,26 @@ When E is finite dimensional, we have $ \mathcal{L}_f(E) = \mathcal{L}(E) $ and 
 
 #### Lemma 2 {#evt-v-s4-lem-2 .statement}
 
-*Let $ (e_i)_{i \in I} $ be an orthonormal basis of E. Then*
+— *Let $ (e_i)_{i \in I} $ be an orthonormal basis of E. Then*
+
 $$
 \tau(u) = \sum_{i \in I} \langle e_i|u(e_i) \rangle
 $$
+
 *for all* $ u \in \mathcal{L}_f(E) $.
 
 It is enough to consider the case when $ u = ba^* $ with $ a, b $ in E. Then
+
 $$
 \langle e_i|u(e_i) \rangle = e_i^* b \cdot a^* e_i = \overline{\langle e_i|a \rangle} \langle e_i|b \rangle
 $$
+
 and lemma 2 follows from formula (22) and formula (3) of V, p. 22.
 
 #### Lemma 3 {#evt-v-s4-lem-3 .statement}
 
-*Let $ u $ be a continuous and positive endomorphism of E, and $ \mathcal{F} $ the set of all finite rank orthoprojectors on E. Then for every orthonormal basis $ (e_i)_{i \in I} $ of E, we have (in $ \mathbf{R}_+ $) the equality*
+— *Let u be a continuous and positive endomorphism of E, and $ \mathcal{F} $ the set of all finite rank orthoprojectors on E. Then for every orthonormal basis $ (e_i)_{i \in I} $ of E, we have (in $ \mathbf{R}_+ $) the equality*
+
 $$
 \sum_{i \in I} \langle e_i|u(e_i) \rangle = \sup_{p \in \mathcal{F}} \tau(pup).
 $$
@@ -667,24 +673,22 @@ for $ x_1, y_1 $ in $ E_1 $ and $ x_2, y_2 $ in $ E_2 $. We verify immediately t
 Let $ (e_i)_{i \in I} $ be an orthonormal basis of $ E_1 $ and $ (f_j)_{j \in J} $ an orthonormal basis of $ E_2 $; then the family $ (e_i \otimes f_j)_{i \in I, j \in J} $ is an orthonormal basis of $ E $ and we have
 
 $$
-\begin{align*}
-\operatorname{Tr}(u) &= \sum_{i \in I} \sum_{j \in J} \langle e_i \otimes f_j | u(e_i \otimes f_j) \rangle \\
-&= \sum_{i \in I} \sum_{j \in J} \langle e_i | u_1(e_i) \rangle \cdot \langle f_j | u_2(f_j) \rangle \\
-&= \operatorname{Tr}(u_1) \cdot \operatorname{Tr}(u_2).
-\end{align*}
+\operatorname{Tr}(u) = \sum_{i \in I} \sum_{j \in J} \langle e_i \otimes f_j | u(e_i \otimes f_j) \rangle \\
+= \sum_{i \in I} \sum_{j \in J} \langle e_i | u_1(e_i) \rangle \cdot \langle f_j | u_2(f_j) \rangle \\
+= \operatorname{Tr}(u_1) \cdot \operatorname{Tr}(u_2) .
 $$
 
 In particular, if $ u_1 $ and $ u_2 $ are positive endomorphisms with finite trace, then so is $ u $. By linearity, we deduce that $ u $ belongs to $ \mathcal{L}^1(E) $ when $ K = \mathbf{C} $ and that the $ u_i $ belong to $ \mathcal{L}^1(E_i) $ for $ i = 1, 2 $; formula (31) extends to this case by linearity. Finally, the case when $ K = \mathbf{R} $ and the $ u_i \in \mathcal{L}^1(E_i) $ reduces to the complex case by extension of the scalars.
 
 #### Remark 2 {#evt-v-s4-n6-rem-2 .statement}
 
-— Let $ E $ be a hilbertian space, which is the hilbertian sum of a family $ (E_i)_{i \in I} $ of hilbertian subspaces. Let $ u $ be an element of $ \mathcal{L}(E) $ such that $ u(E_i) \subset E_i $ for all $ i \in I $; let $ u_i $ be the element of $ \mathcal{L}(E_i) $ which coincides with $ u $ on $ E_i $. Then $ \operatorname{Tr}(u) = \sum_{i \in I} \operatorname{Tr}(u_i) $
-
-when $ u $ is positive, or belongs to $ \mathcal{L}^1(E) $; this relation follows from formula (25) of V, p. 50 applied to an orthonormal basis of $ E $ which is the union of orthonormal bases of each of the $ E_i $.
+— Let $ E $ be a hilbertian space, which is the hilbertian sum of a family $ (E_i)_{i \in I} $ of hilbertian subspaces. Let $ u $ be an element of $ \mathcal{L}(E) $ such that $ u(E_i) \subset E_i $ for all $ i \in I $; let $ u_i $ be the element of $ \mathcal{L}(E_i) $ which coincides with $ u $ on $ E_i $. Then $ \operatorname{Tr}(u) = \sum_{i \in I} \operatorname{Tr}(u_i) $ when $ u $ is positive, or belongs to $ \mathcal{L}^1(E) $; this relation follows from formula (25) of V, p. 50 applied to an orthonormal basis of $ E $ which is the union of orthonormal bases of each of the $ E_i $.
 
 ### 7. Hilbert-Schmidt mappings
 
-Definition 9. — *Let $ E $ and $ F $ be two hilbertian spaces. A continuous linear mapping $ u $ from $ E $ into $ F $ is called a Hilbert-Schmidt mapping if the trace of the positive endomorphism $ u^*u $ of $ E $ is finite. The set of all Hilbert-Schmidt mappings from $ E $ into $ F $ is denoted by $ \mathcal{L}^2(E, F) $.*
+#### Definition 9 {#evt-v-s4-def-9 .statement}
+
+*Let $ E $ and $ F $ be two hilbertian spaces. A continuous linear mapping $ u $ from $ E $ into $ F $ is called a Hilbert-Schmidt mapping if the trace of the positive endomorphism $ u^*u $ of $ E $ is finite. The set of all Hilbert-Schmidt mappings from $ E $ into $ F $ is denoted by $ \mathcal{L}^2(E, F) $.*
 
 When $ E = F $, we write $ \mathcal{L}^2(E) $ for $ \mathcal{L}^2(E; E) $.
 
@@ -697,13 +701,13 @@ $$
 where $ (x_1, \ldots, x_m) $ range over the set of finite orthonormal sequences in $ E $. In particular, taking $ m = 1 $ in formula (32), we have
 
 $$
-\|u\| \leq \|u\|_2 \quad (u \in \mathcal{L}(E; F)).
+\|u\| \leq \|u\|_2 \quad (u \in \mathcal{L}(E; F)) .
 $$
 
 Let $ (e_i)_{i \in I} $ be an orthonormal basis of $ E $ and $ (f_j)_{j \in J} $ an orthonormal basis of $ F $. By formula (25) of V, p. 50 and the Parseval’s relation (V, p. 22), we have
 
 $$
-\|u\|_2^2 = \sum_{i \in I} \|u(e_i)\|^2 = \sum_{i,j} |\langle f_j | u(e_i) \rangle|^2.
+\|u\|_2^2 = \sum_{i \in I} \|u(e_i)\|^2 = \sum_{i,j} |\langle f_j | u(e_i) \rangle|^2 .
 $$
 
 Since $ |\langle f_j|u(e_i)\rangle| = |\langle e_i|u^*(f_j)\rangle| $, formula (34) implies that
@@ -764,7 +768,7 @@ $$
 
 — 1) Suppose $ K = \mathbf{C} $. Let $ u $ and $ v $ be in $ \mathcal{L}^2(E; F) $. We have the relation
 $$
-4\ u^* v = \sum_{\varepsilon^4 = 1} \overline{\varepsilon}(u + \varepsilon v)^*(u + \varepsilon v),
+4\, u^* v = \sum_{\varepsilon^4 = 1} \overline{\varepsilon}(u + \varepsilon v)^* (u + \varepsilon v),
 $$
 hence $ u^* v $ belongs to $ \mathcal{L}^1(E) $. The scalar product in the hilbertian space $ \mathcal{L}^2(E; F) $ is given by
 $$
@@ -790,9 +794,9 @@ in other words, $ u \mapsto u^* $ is an isomorphism from the hilbertian space $ 
 
 Theorem 2. — *Let E and F be two hilbertian spaces and u a Hilbert-Schmidt mapping from E into F. There exists an orthonormal basis $ (e_i)_{i \in I} $ of E which is transformed by u into an orthogonal family in F.*
 
-Let B denote the (closed) unit ball of E, with the weakened topology assigned to it; this is a compact space (V, p. 17). We put $ Q(x) = \|u(x)\|^2 $ for all $ x \in B $. Finally let P denote the set of all vectors x in E satisfying the following property;
+Let B denote the (closed) unit ball of E, with the weakened topology assigned to it; this is a compact space (V, p. 17). We put $ Q(x) = \|u(x)\|^2 $ for all $ x \in B $. Finally let P denote the set of all vectors x in E satisfying the following property ;
 
-(H) *For every $ y \in E $ orthogonal to x, the element $ u(y) $ of E is orthogonal to $ u(x) $*.
+(H) *For every $ y \in E $ orthogonal to x, the element $ u(y) $ of E is orthogonal to $ u(x) $.*
 
 #### Lemma 4 {#evt-v-s4-lem-4 .statement}
 
@@ -800,9 +804,9 @@ Let B denote the (closed) unit ball of E, with the weakened topology assigned to
 
 Let $ (f_j)_{j \in J} $ be an orthonormal basis of F. Put $ \lambda_j = \|u^*(f_j)\|^2 $ for all $ j \in J $. Since $ u $ belongs to $ \mathcal{L}^2(E; F) $ we have $ u^* \in \mathcal{L}^2(F; E) $, hence $ \sum_j \lambda_j < +\infty $. Further, we have
 $$
-Q(x) = \|u(x)\|^2 = \sum_j |\langle u^*(f_j)|x\rangle|^2
+Q(x) = \|u(x)\|^2 = \sum_j |\langle u^*(f_j)|x \rangle|^2
 $$
-by Parseval’s formula (V, p. 22) and the definition of the adjoint (V, p. 38). For every $ x \in B $, $ |\langle u^*(f_j)|x\rangle|^2 \leq \lambda_j $ by Cauchy-Schwarz inequality; consequently, the convergence of the sum in formula (43) is uniform on B, hence lemma 4 (GT, X, § 1, No. 6).
+by Parseval’s formula (V, p. 22) and the definition of the adjoint (V, p. 38). For every $ x \in B $, $ |\langle u^*(f_j)|x \rangle|^2 \leq \lambda_j $ by Cauchy-Schwarz inequality; consequently, the convergence of the sum in formula (43) is uniform on B, hence lemma 4 (GT, X, § 1, No. 6).
 
 #### Lemma 5 {#evt-v-s4-lem-5 .statement}
 
@@ -823,11 +827,11 @@ $$
 f(t) = \|u(x_0)\|^2 + 2t \Re \langle u(x_0)|u(y)\rangle + t^2 \|u(y)\|^2 \\
 g(t) = 1 + t^2 \|y\|^2 .
 $$
-In view of the definition of $ x_0 $, we have $ Q(x(0)) \geq Q(x(t)) $ for all real $ t $, hence $ \frac{d}{dt} Q(x(t)) $ is zero for $ t = 0 $. But $ f(0) = \|u(x_0)\|^2, g(0) = 1, f'(0) = 2 \Re \langle u(x_0)|u(y)\rangle, g'(0) = 0 $. Since
+In view of the definition of $ x_0 $, we have $ Q(x(0)) \geq Q(x(t)) $ for all real $ t $, hence $ \frac{d}{dt} Q(x(t)) $ is zero for $ t = 0 $. But $ f(0) = \|u(x_0)\|^2 $, $ g(0) = 1 $, $ f'(0) = 2 \Re \langle u(x_0)|u(y)\rangle $, $ g'(0) = 0 $. Since
 $$
-\frac{d}{dt} Q(x(t)) = \frac{f'(t) g(t) - f(t) g'(t)}{g(t)^2},
+\frac{d}{dt} Q(x(t)) = \frac{f'(t)\,g(t) - f(t)\,g'(t)}{g(t)^2},
 $$
-we conclude that $ f'(0) = 0 $, that is, $ \Re \langle u(x_0)|u(y)\rangle = 0 $. When $ K = \mathbf{R} $, $ u(x_0) $ is orthogonal to $ u(y) $, when $ K = \mathbf{C} $, the vector $ iy $ belongs to $ E_1 $ and is orthogonal to $ x_0 $, hence $ \mathcal{I} \langle u(x_0)|u(y)\rangle = - \Re \langle u(x_0)|u(iy)\rangle = 0 $, and finally $ u(x_0) $ is orthogonal to $ u(y) $. This proves lemma 5.
+we conclude that $ f'(0) = 0 $, that is, $ \Re \langle u(x_0)|u(y)\rangle = 0 $. When $ K = \mathbf{R} $, $ u(x_0) $ is orthogonal to $ u(y) $, when $ K = \mathbf{C} $, the vector $ iy $ belongs to $ E_1 $ and is orthogonal to $ x_0 $, hence $ \mathcal{I} \langle u(x_0)|u(y)\rangle = -\Re \langle u(x_0)|u(iy)\rangle = 0 $, and finally $ u(x_0) $ is orthogonal to $ u(y) $. This proves lemma 5.
 
 Now we prove th. 2. Applying th. 1 of S, III, § 4, No. 5 we see, as in V, p. 23, that there exists a set $ S $ which is maximal among the orthonormal subsets of $ E $ contained in $ P $. Let $ E_1 $ be the set of all vectors orthogonal to $ S $. Let $ y \in E_1 $; if $ x \in S $, the vectors $ x $ and $ y $ are orthogonal, and since $ S \subset P $, we conclude that $ u(x) $ and $ u(y) $ are orthogonal; then
 $$
@@ -870,14 +874,14 @@ With the notations of cor. 1, it is enough to consider the endomorphism w which 
 
 #### Remark {#evt-v-s4-n8-rem-1 .statement}
 
-— With the notations of th. 2, let J be the set of all $ i \in I $ such that $ u(e_i) \neq 0 $. For all $ i \in J $, let $ \lambda_i = \| u(e_i) \| $ and $ f_i = \lambda_i^{-1} u(e_i) $. Then $ (e_i)_{i \in J} $ (resp. $ (f_i)_{i \in J} $) is an orthonormal basis of the initial (resp. final) subspace of $ u $, we have $ u(e_i) = \lambda_i f_i $ for all $ i \in J $ and $ \sum_{i \in J} \lambda_i^2 = \| u \|_2^2 $ is finite.
+— With the notations of th. 2, let J be the set of all $ i \in I $ such that $ u(e_i) \neq 0 $. For all $ i \in J $, let $ \lambda_i = \| u(e_i) \| $ and $ f_i = \lambda_i^{-1} u(e_i) $. Then $ (e_i)_{i \in J} $ (resp. $ (f_i)_{i \in J} $) is an orthonormal basis of the initial (resp. final) subspace of u, we have $ u(e_i) = \lambda_i f_i $ for all $ i \in J $ and $ \sum_{i \in J} \lambda_i^2 = \| u \|_2^2 $ is finite.
 
 ### 9. Trace of a quadratic form with respect to another
 
-In this section, E will denote a real vector space and Q, H two *positive quadratic forms* on E. There exist two symmetric bilinear forms $ (x, y) \mapsto \langle x|y \rangle_Q $ and $ (x, y) \mapsto \langle x|y \rangle_H $ on $ E \times E $, characterized by
+In this section, E will denote a real vector space and Q, H two *positive quadratic forms* on E. There exist two symmetric bilinear forms $ (x, y) \mapsto \langle x | y \rangle_Q $ and $ (x, y) \mapsto \langle x | y \rangle_H $ on $ E \times E $, characterized by
 
 $$
-Q(x) = \langle x|x \rangle_Q , \quad H(x) = \langle x|x \rangle_H
+Q(x) = \langle x | x \rangle_Q , \quad H(x) = \langle x | x \rangle_H
 $$
 
 for all $ x \in E $.
@@ -886,23 +890,23 @@ We call *the trace of Q with respect to H*, and write $ \operatorname{Tr}(Q/H) $
 
 *a)* If there exists $ x \in E $ with $ H(x) = 0 $ and $ Q(x) \neq 0 $, we put $ \operatorname{Tr}(Q/H) = + \infty $.
 
-*b)* Otherwise, $ \operatorname{Tr}(Q/H) $ is the upper bound of the set of all numbers of the form $ \sum_{i=1}^m Q(x_i) $ where $ (x_1, ..., x_m) $ range over the set of finite sequences of elements of E such that $ \langle x_i|x_j \rangle_H = \delta_{ij} $ (Kronecker’s symbol).
+*b)* Otherwise, $ \operatorname{Tr}(Q/H) $ is the upper bound of the set of all numbers of the form $ \sum_{i=1}^m Q(x_i) $ where $ (x_1, ..., x_m) $ range over the set of finite sequences of elements of E such that $ \langle x_i | x_j \rangle_H = \delta_{ij} $ (Kronecker’s symbol).
 
 #### Remark {#evt-v-s4-n9-rem-1 .statement}
 
-— 1) For every subspace F of E, let $ Q_F $ denote the restriction of Q to F and $ H_F $ that of H. We have $ \operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H) $ and $ \operatorname{Tr}(Q/H) $ is the upper bound of the set of all numbers $ \operatorname{Tr}(Q_F/H_F) $ where F ranges over the family of all finite dimensional vector subspaces of E.
+— 1) For every subspace F of E, let $ Q_F $ denote the restriction of Q to F and $ H_F $ that of H. We have $ \operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H) $ and $ \operatorname{Tr}(Q/H) $ is the upper bound of the set of all numbers $ \operatorname{Tr}(Q_F/H_F) $ where $ F $ ranges over the family of all finite dimensional vector subspaces of $ E $.
 
 2) Let $ E_1 $ be a real vector space, $ Q_1 $ and $ H_1 $ two positive quadratic forms on $ E_1 $ and $ \pi : E \to E_1 $ a surjective linear mapping. If $ Q = Q_1 \circ \pi $ and $ H = H_1 \circ \pi $, then $ \operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1) $.
 
 #### Proposition 15 {#evt-v-s4-prop-15 .statement}
 
-*Suppose that there exists a real hilbertian space structure on E such that $ H(x) = \|x\|^2 $ for all $ x \in E $. For $ \operatorname{Tr}(Q/H) $ to be finite, it is necessary and sufficient that there exists a continuous and positive endomorphism u of E with finite trace, such that $ Q(x) = \langle x|u(x)\rangle $ for all $ x \in E $; this endomorphism u is unique, and we have*
+*Suppose that there exists a real hilbertian space structure on $ E $ such that $ H(x) = \|x\|^2 $ for all $ x \in E $. For $ \operatorname{Tr}(Q/H) $ to be finite, it is necessary and sufficient that there exists a continuous and positive endomorphism $ u $ of $ E $ with finite trace, such that $ Q(x) = \langle x|u(x)\rangle $ for all $ x \in E $; this endomorphism $ u $ is unique, and we have*
 
 $$
 \operatorname{Tr}(u) = \operatorname{Tr}(Q/H) = \sum_{i \in I} Q(e_i)
 $$
 
-*for every orthonormal bases $ (e_i)_{i \in I} $ of E.*
+*for every orthonormal bases $ (e_i)_{i \in I} $ of $ E $.*
 
 Suppose that $ \operatorname{Tr}(Q/H) $ is finite. For every $ x \in E $ of norm 1, we have $ H(x) = 1 $, hence $ Q(x) \leq \operatorname{Tr}(Q/H) $. Therefore, $ Q(x) \leq \operatorname{Tr}(Q/H) \cdot \|x\|^2 $ for all $ x \in E $, and
 
@@ -910,9 +914,9 @@ $$
 |\langle x|y\rangle_Q| \leq Q(x)^{1/2} Q(y)^{1/2} \leq \operatorname{Tr}(Q/H) \cdot \|x\| \cdot \|y\|
 $$
 
-by the Cauchy-Schwarz inequality. Consequently, the bilinear form $ (x, y) \mapsto \langle x|y\rangle_Q $ on $ E \times E $ is continuous. There exists (V, p. 16, cor. 2) a mapping $ u \in \mathcal{L}(E) $ such that $ \langle x|y\rangle_Q = \langle x|u(y)\rangle $. We have $ \langle x|y\rangle_Q = \langle y|x\rangle_Q $ for $ x, y $ in E, hence $ u $ is hermitian; and $ \langle x|u(x)\rangle = Q(x) \geq 0 $, hence $ u $ is positive.
+by the Cauchy-Schwarz inequality. Consequently, the bilinear form $ (x, y) \mapsto \langle x|y\rangle_Q $ on $ E \times E $ is continuous. There exists (V, p. 16, cor. 2) a mapping $ u \in \mathcal{L}(E) $ such that $ \langle x|y\rangle_Q = \langle x|u(y)\rangle $. We have $ \langle x|y\rangle_Q = \langle y|x\rangle_Q $ for $ x, y $ in $ E $, hence $ u $ is hermitian; and $ \langle x|u(x)\rangle = Q(x) \geq 0 $, hence $ u $ is positive.
 
-Conversely, let $ u $ be a continuous and positive endomorphism of E such that $ Q(x) = \langle x|u(x)\rangle $ for all $ x \in E $. Then
+Conversely, let $ u $ be a continuous and positive endomorphism of $ E $ such that $ Q(x) = \langle x|u(x)\rangle $ for all $ x \in E $. Then
 
 $$
 \langle x|u(y)\rangle = \frac{1}{2}(Q(x + y) - Q(x) - Q(y)) = \langle x|y\rangle_Q,
@@ -924,24 +928,24 @@ $$
 \operatorname{Tr}(u) = \sup_{x_1, \ldots, x_m} \sum_{i=1}^m \langle x_i|u(x_i)\rangle = \sup_{x_1, \ldots, x_m} \sum_{i=1}^m Q(x_i),
 $$
 
-where $ (x_1, \ldots, x_m) $ range over the set of all finite orthonormal sequences of elements of E. By the definition of $ \operatorname{Tr}(Q/H) $, we get $ \operatorname{Tr}(u) = \operatorname{Tr}(Q/H) $. Finally, for every orthonormal basis $ (e_i)_{i \in I} $ of E, we have $ \operatorname{Tr}(u) = \sum_{i \in I} \langle e_i|u(e_i)\rangle $ by formula (25) of V, p. 50, hence $ \operatorname{Tr}(u) = \sum_{i \in I} Q(e_i) $.
+where $ (x_1, \ldots, x_m) $ range over the set of all finite orthonormal sequences of elements of $ E $. By the definition of $ \operatorname{Tr}(Q/H) $, we get $ \operatorname{Tr}(u) = \operatorname{Tr}(Q/H) $. Finally, for every orthonormal basis $ (e_i)_{i \in I} $ of $ E $, we have $ \operatorname{Tr}(u) = \sum_{i \in I} \langle e_i|u(e_i)\rangle $ by formula (25) of V, p. 50, hence $ \operatorname{Tr}(u) = \sum_{i \in I} Q(e_i) $.
 
 #### Remark 3 {#evt-v-s4-n9-rem-3 .statement}
 
-Let E and F be two hilbertian spaces and $ v $ a linear, not necessarily continuous mapping from E into F. Let $ H(x) = \|x\|^2 $ and $ Q(x) = \|v(x)\|^2 $ for all $ x \in E $. It follows from prop. 15 that $ v $ is a Hilbert-Schmidt mapping if and only if $ \operatorname{Tr}(Q/H) $ is finite, and then $ \operatorname{Tr}(Q/H) = \|v\|_2^2 $.
+Let $ E $ and $ F $ be two hilbertian spaces and $ v $ a linear, not necessarily continuous mapping from $ E $ into $ F $. Let $ H(x) = \|x\|^2 $ and $ Q(x) = \|v(x)\|^2 $ for all $ x \in E $. It follows from prop. 15 that $ v $ is a Hilbert-Schmidt mapping if and only if $ \operatorname{Tr}(Q/H) $ is finite, and then $ \operatorname{Tr}(Q/H) = \|v\|_2^2 $.
 
 #### Remark 4 {#evt-v-s4-n9-rem-4 .statement}
 
-Suppose E is finite dimensional. When the quadratic form H is invertible, prop. 15 applies. Let $ (e_1, \ldots, e_n) $ be a basis of E. Put $ q_{ij} = \langle e_i|e_j\rangle_Q $ and $ h_{ij} = \langle e_i|e_j\rangle_H $ and introduce the matrices $ q = (q_{ij}) $ and $ h = (h_{ij}) $. Let $ u $ be an endomorphism of E such that $ Q(x) = \langle x|u(x)\rangle_H $ for all $ x \in E $. We have
+Suppose $ E $ is finite dimensional. When the quadratic form $ H $ is invertible, prop. 15 applies. Let $ (e_1, \ldots, e_n) $ be a basis of $ E $. Put $ q_{ij} = \langle e_i|e_j\rangle_Q $ and $ h_{ij} = \langle e_i|e_j\rangle_H $ and introduce the matrices $ q = (q_{ij}) $ and $ h = (h_{ij}) $. Let $ u $ be an endomorphism of $ E $ such that $ Q(x) = \langle x|u(x)\rangle_H $ for all $ x \in E $. We have
 
 $$
 \langle x|y\rangle_Q = \langle x|u(y)\rangle_H \quad (x, y \in E),
 $$
 
-and hence the matrix of $ u $ with respect to the basis $(e_1, ..., e_n)$ of E is equal to $ h^{-1}q $. By prop. 15, we have
+and hence the matrix of $ u $ with respect to the basis $(e_1, ..., e_n)$ of E is equal to $ h^{-1} q $. By prop. 15, we have
 
 $$
-\text{Tr}(Q/H) = \text{Tr}(h^{-1}q) = \text{Tr}(qh^{-1}) .
+\text{Tr}(Q/H) = \text{Tr}(h^{-1} q) = \text{Tr}(qh^{-1}) .
 $$
 
 If the basis $(e_1, ..., e_n)$ is orthonormal for H, then $ h $ is the unit matrix of order $ n $, and we get

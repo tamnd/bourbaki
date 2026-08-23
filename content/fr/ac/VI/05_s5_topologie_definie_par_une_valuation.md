@@ -22,9 +22,9 @@ subsections:
       title: Complétion d’un corps muni d’une valuation
       page: 0
       pdf_page: 117
-statements: 8
+statements: 10
 exercises: 3
-content_sha256: a93e437783ad5838788a7ebdcf627496b122cbf5894858ea76a3d0560a9c6375
+content_sha256: 9da475c8328abc8e702dddf5ac788695f90cfd018418adb11c27c75545d4daa4
 ---
 
 ## § 5. Topologie définie par une valuation.
@@ -98,12 +98,16 @@ Compte tenu des prop. 1 et 3, la démonstration est la même que celle d’Esp. 
 
 On suppose $ \nu $ non impropre et K complet. Soit E un espace vectoriel topologique à gauche sur K, séparé et de dimension finie n. Pour toute base $ (e_i)_{1 \leq i \leq n} $ de E sur K, l’application $ (a_i) \to \sum_{i=1}^n a_i e_i $ de $ K_s^n $ sur E est un isomorphisme d’espaces vectoriels topologiques.
 
-COROLLAIRE. — On suppose $ \varphi $ non impropre et K complet. Soient E un espace vectoriel topologique séparé sur K, et F un sous-espace vectoriel de dimension finie de E. Alors F est fermé.
+#### Corollaire {#ac-vi-s5-n2-cor-2 .statement}
+
+On suppose $ \varphi $ non impropre et K complet. Soient E un espace vectoriel topologique séparé sur K, et F un sous-espace vectoriel de dimension finie de E. Alors F est fermé.
 En effet, F est complet.
 
 ### 3. Complétion d’un corps muni d’une valuation
 
-PROPOSITION 5. — Soient K un corps non nécessairement commutatif, $ \varphi $ une valuation de K, et G le groupe $ \varphi(K^*) $ muni de la topologie discrète.
+#### Proposition 5 {#ac-vi-s5-prop-5 .statement}
+
+Soient K un corps non nécessairement commutatif, $ \varphi $ une valuation de K, et G le groupe $ \varphi(K^*) $ muni de la topologie discrète.
 
 a) L’anneau complété $ \hat{K} $ de K (muni de $ \mathcal{T}_\varphi $) est un corps topologique.
 

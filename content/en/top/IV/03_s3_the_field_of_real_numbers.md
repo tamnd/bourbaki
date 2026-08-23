@@ -23,7 +23,7 @@ subsections:
       page: 0
       pdf_page: 347
 statements: 2
-exercises: 2
+exercises: 3
 content_sha256: 52290856961d6ee2676d76564b706e7d90fbf9d74690431d391e068442bf835b
 ---
 

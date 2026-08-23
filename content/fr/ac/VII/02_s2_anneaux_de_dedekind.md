@@ -30,9 +30,9 @@ subsections:
       title: Le théorème de Krull–Akizuki.
       page: 0
       pdf_page: 223
-statements: 7
+statements: 15
 exercises: 22
-content_sha256: ca07e8b1d8b1b676a1563a0874d08ea738fecb16f6c8961570e03eca10533b66
+content_sha256: 1139a8aaba9ed232b61facf30c6d71267be25204c9918538365e1deee49d6977
 ---
 
 ## § 2. Anneaux de Dedekind
@@ -91,7 +91,9 @@ Montrons enfin que $g)$ implique $a)$. Comme $A$ est l’intersection des $A_m$,
 
 C.Q.F.D.
 
-PROPOSITION 1. — *Un anneau de Dedekind semi-local est principal.*
+#### Proposition 1 {#ac-vii-s2-prop-1 .statement}
+
+*Un anneau de Dedekind semi-local est principal.*
 
 Soient $A$ un anneau de Dedekind semi-local, $K$ son corps des fractions, $ p_1, \ldots, p_n $ ses idéaux maximaux, et $ v_1, \ldots, v_n $ les valuations essentielles correspondantes; ce sont les seules valuations essentielles de A. Soit $ \alpha $ un idéal entier non nul de A. Puisqu’il est divisoriel, il existe ($ \S 1 $, no 4, prop. 5) des entiers $ q_1, \ldots, q_n $ tels que $ \alpha $ soit l’ensemble des $ x \in K $ tels que $ v_i(x) \geq q_i $ pour $ 1 \leq i \leq n $. Soit $ x_0 $ un élément de K tel que $ v_i(x_0) = q_i $ pour $ 1 \leq i \leq n $ (chap. VI, $ \S 7 $, no 2, cor. 1 du th. 1). Alors $ \alpha $ est l’ensemble des $ x \in K $ tels que $ v_i(xx_0^{-1}) \geq 0 $ pour $ 1 \leq i \leq n $. Ainsi $ \alpha = Ax_0 $.
 
@@ -143,13 +145,17 @@ Passons au cas général. On peut écrire $ x_i = s^{-1} y_i $ avec s, $ y_i $ d
 
 Pour tout $ x \in K $, soit $ \Delta(x) $ l’élément $ (x_p) \in \prod_{p \in P} \hat{K}_p $ tel que $ x_p = x $ pour tout $ p \in P $; comme $ x_p \in \hat{A}_p $ sauf pour un nombre fini de valeurs de $ p $, on a $ \Delta(x) \in A $; on définit donc ainsi un homomorphisme $ \Delta : K \to A $, qui est injectif si $ P \neq \emptyset $ (c’est-à-dire si $ A $ n’est pas un corps); les éléments de $ \Delta(K) $ sont dits adèles restreints principaux, et il est clair que $ \Delta(A) \subset A_0 $. Dans la suite de ce numéro, nous supposerons que $ A $ n’est pas un corps.
 
-PROPOSITION 3. — L’anneau $ A_0 $ (resp. $ A $) s’identifie au complété de $ A $ (resp. $ K $) pour la topologie d’anneau dont un système fondamental de voisinages de 0 est formé de tous les idéaux entiers $ \neq (0) $ de $ A $.
+#### Proposition 3 {#ac-vii-s2-prop-3 .statement}
+
+L’anneau $ A_0 $ (resp. $ A $) s’identifie au complété de $ A $ (resp. $ K $) pour la topologie d’anneau dont un système fondamental de voisinages de 0 est formé de tous les idéaux entiers $ \neq (0) $ de $ A $.
 
 On pourrait naturellement aussi prouver que $ \Delta(K) $ est dense dans $ A $ en utilisant la prop. 2.
 
 Considérons maintenant le groupe multiplicatif $ SL(n, A) $, formé des matrices $ U \in M_n(A) $ telles que $ \det(U) = 1 $; si on munit $ M_n(A) = A^{n^2} $ de la topologie produit, elle induit sur $ SL(n, A) $ une topologie compatible avec la structure de groupe de $ SL(n, A) $. En effet, il suffit de voir que l’application $ U \to U^{-1} $ est continue dans $ SL(n, A) $; mais comme $ U $ est unimodulaire, on sait (Alg., chap. III, § 6, n° 5, formule (17)) que les éléments de $ U^{-1} $ sont des mineurs de $ U $, donc des polynômes en les éléments de $ U $, ce qui prouve notre assertion. Si on identifie $ K $ à un sous-anneau de $ A $ au moyen de $ \Delta $, le groupe $ SL(n, K) $ est un sous-groupe de $ SL(n, A) $.
 
-PROPOSITION 4. — *Le groupe $ SL(n, K) $ est dense dans $ SL(n, A) $*.
+#### Proposition 4 {#ac-vii-s2-prop-4 .statement}
+
+*Le groupe $ SL(n, K) $ est dense dans $ SL(n, A) $*.
 
 Soit $ G $ l’adhérence de $ SL(n, K) $ dans $ SL(n, A) $; comme $ K $ est dense dans $ A $ (prop. 3), $ G $ contient toutes les matrices de la forme $ I + a . E_{ij} $ pour $ i \neq j $ et $ a \in A $. Pour tout $ p \in P $ et tout $ \lambda \in \hat{K}_p $, soit $ \lambda(p) $ l’adèle restreint $ x = (x_q)_{q \in P} $ tel que $ x_p = \lambda $ et $ x_q = 0 $ pour $ q \neq p $; ce qui précède montre que $ G $ contient les matrices $ I + \lambda(p)E_{ij} $ pour $ i \neq j $. Mais, on sait que les matrices de la forme $ I + \lambda E_{ij} $, pour $ \lambda \in \hat{K}_p $, engendrent le groupe $ SL(n, \hat{K}_p) $ (Alg., chap. III, 3e éd.) Pour toute matrice $ U \in SL(n, A) $, désignons par $ U_p $ l’image canonique de $ U $ dans $ SL(n, \hat{K}_p) $; on voit donc que pour tout $ p \in P $, $ G $ contient les matrices $ U \in SL(n, A) $ telles que $ U_q = I $ pour tout $ q \neq p $. Puisque $ G $ est un groupe, il contient aussi toutes les matrices $ U \in SL(n, A) $ telles que $ U_p = I $ sauf pour un nombre *fini* de $ p \in P $; or, la définition de la topologie de $ A $ montre aussitôt que l’ensemble de ces matrices est dense dans $ SL(n, A) $.
 
@@ -218,7 +224,9 @@ d’après le lemme 2.
 
 C.Q.F.D.
 
-PROPOSITION 5 (Krull-Akizuki). — Soient $ A $ un anneau intègre noethérien dont tout idéal premier non nul est maximal, $ K $ son corps des fractions, $ L $ une extension de degré fini de $ K $, et $ B $ un sous-anneau de $ L $ contenant $ A $. Alors $ B $ est noethérien, et tout idéal premier non nul de $ B $ est maximal. En outre, pour tout idéal $ b \neq (0) $ de $ B $, $ B/b $ est un $ A $-module de type fini.
+#### Proposition 5 (Krull-Akizuki) {#ac-vii-s2-prop-5 .statement}
+
+Soient $ A $ un anneau intègre noethérien dont tout idéal premier non nul est maximal, $ K $ son corps des fractions, $ L $ une extension de degré fini de $ K $, et $ B $ un sous-anneau de $ L $ contenant $ A $. Alors $ B $ est noethérien, et tout idéal premier non nul de $ B $ est maximal. En outre, pour tout idéal $ b \neq (0) $ de $ B $, $ B/b $ est un $ A $-module de type fini.
 
 Soit $ b $ un idéal non nul de $ B $. Nous allons montrer que $ B/b $ est un $ A $-module de longueur finie (donc, $ a $ fortiori, un $ B $-module de longueur finie), et que $ b $ est un $ B $-module de type fini.
 
@@ -234,19 +242,27 @@ Ce qui précède montre d’abord que $ B $ est noethérien. D’autre part, si 
 
 C.Q.F.D.
 
-COROLLAIRE 1. — Pour tout idéal premier $ p $ de $ A $, l’ensemble des idéaux premiers de $ B $ au-dessus de $ p $ est fini.
+#### Corollaire 1 {#ac-vii-s2-prop-5-cor-1 .statement}
+
+Pour tout idéal premier $ p $ de $ A $, l’ensemble des idéaux premiers de $ B $ au-dessus de $ p $ est fini.
 
 Supposons d’abord $ p = (0) $; alors le seul idéal premier $ q $ de $ B $ tel que $ q \cap A = (0) $ est $ (0) $; sinon, en posant $ S = A - \{0\} $, $ S^{-1}q $ serait un idéal premier non nul de $ S^{-1}B $ (chap. II, § 2, no 5, prop. 11), et $ S^{-1}B $ n’est autre que le corps des fractions de $ B $, car c’est un sous-anneau de $ L $ contenant $ K $ (Alg., chap. V, § 3, no 2, prop. 3); d’où une conclusion absurde. Si maintenant $ p \neq (0) $, il résulte de la prop. 5 que $ B/pB $ est un espace vectoriel de dimension finie sur le corps $ A/p $, donc un anneau artinien, et par suite n’a qu’un nombre fini d’idéaux premiers (chap. IV, § 2, no 5, prop. 9), ce qui prouve qu’il n’y a qu’un nombre fini d’idéaux premiers de $ B $ contenant $ p $.
 
-COROLLAIRE 2. — La fermeture intégrale de $ A $ dans $ L $ est un anneau de Dedekind.
+#### Corollaire 2 {#ac-vii-s2-prop-5-cor-2 .statement}
+
+La fermeture intégrale de $ A $ dans $ L $ est un anneau de Dedekind.
 
 Cette fermeture intégrale est, en effet, un anneau noethérien intégralement clos dont les idéaux premiers non nuls sont maximaux ; il suffit donc d’appliquer le th. 1 du no 2.
 
 En particulier :
 
-COROLLAIRE 3. — La fermeture intégrale d’un anneau de Dedekind dans une extension de degré fini de son corps des fractions est un anneau de Dedekind.
+#### Corollaire 3 {#ac-vii-s2-prop-5-cor-3 .statement}
 
-PROPOSITION 6. — Soient $ A $ un anneau de Dedekind, $ K $ son corps des fractions, $ L $ une extension de degré fini de $ K $, et $ B $ la fermeture intégrale de $ A $ dans $ L $. Soient $ p $ un idéal premier non nul de $ A $, $ v $ la valuation essentielle de $ K $ correspondante, et
+La fermeture intégrale d’un anneau de Dedekind dans une extension de degré fini de son corps des fractions est un anneau de Dedekind.
+
+#### Proposition 6 {#ac-vii-s2-prop-6 .statement}
+
+Soient $ A $ un anneau de Dedekind, $ K $ son corps des fractions, $ L $ une extension de degré fini de $ K $, et $ B $ la fermeture intégrale de $ A $ dans $ L $. Soient $ p $ un idéal premier non nul de $ A $, $ v $ la valuation essentielle de $ K $ correspondante, et
 
 $$
 Bp = \prod_i p_i^{e(i)}

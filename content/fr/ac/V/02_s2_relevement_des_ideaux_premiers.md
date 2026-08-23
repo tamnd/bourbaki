@@ -26,9 +26,9 @@ subsections:
       title: Deuxième théorème d’existence
       page: 0
       pdf_page: 52
-statements: 30
-exercises: 10
-content_sha256: ce0deb87304b6da2ebf54e1fe32ab69d4dc497fec69934f4b07fd5b981c510a0
+statements: 46
+exercises: 12
+content_sha256: 625739294eceba5ec4f58481795e89c52180e856a0a1e0ef6e59a1daa88008f8
 ---
 
 ## § 2. Relèvement des idéaux premiers.
@@ -106,11 +106,15 @@ donc $ A $ est bien un corps.
 
 Posons $ S = A - \mathfrak{p} $; alors $ S^{-1}A' $ est entier sur $ S^{-1}A $ ($ \S 1 $, n° 5, prop. 16), $ S^{-1}\mathfrak{p} $ est un idéal maximal de $ S^{-1}A $ (chap. II, $ \S 2 $, n° 5, prop. 11), $ S^{-1}\mathfrak{a}' $ et $ S^{-1}\mathfrak{p}' $ sont des idéaux de $ S^{-1}A' $ au-dessus de $ S^{-1}\mathfrak{p} $ (lemme 1) et l’on a $ S^{-1}\mathfrak{a}' \supset S^{-1}\mathfrak{p}' $. Comme $ S^{-1}\mathfrak{p}' $ est premier, il est maximal en vertu de la prop. 1, donc $ S^{-1}\mathfrak{p}' = S^{-1}\mathfrak{a}' $; par suite $ \mathfrak{a}' $ est contenu dans le saturé de $ \mathfrak{p}' $ pour $ h(S) $, qui est égal à $ \mathfrak{p}' $ (chap. II, $ \S 2 $, n° 5, prop. 11).
 
-COROLLAIRE 2. — Soient $ A' $ un anneau intègre, $ A $ un sous-anneau de $ A' $ tel que $ A' $ soit entier sur $ A $, $ f $ un homomorphisme de $ A' $ dans un anneau $ B $. Si la restriction de $ f $ à $ A $ est injective, $ f $ est injectif.
+#### Corollaire 2 {#ac-v-s2-lem-2-cor-2 .statement}
+
+Soient $ A' $ un anneau intègre, $ A $ un sous-anneau de $ A' $ tel que $ A' $ soit entier sur $ A $, $ f $ un homomorphisme de $ A' $ dans un anneau $ B $. Si la restriction de $ f $ à $ A $ est injective, $ f $ est injectif.
 
 En effet, si $ \mathfrak{a}' $ est le noyau de $ f $, l’hypothèse signifie que $ \mathfrak{a}' \cap A = (0) $; comme $ A' $ est intègre, on peut appliquer le cor. 1 en prenant pour $ \mathfrak{p} $ et $ \mathfrak{p}' $ l’idéal (0) de $ A $ et l’idéal (0) de $ A' $ respectivement, d’où $ \mathfrak{a}' = (0) $.
 
-COROLLAIRE 3. — Soient $ h : A \to A' $ un homomorphisme d’anneaux tel que $ A' $ soit entier sur $ A $, $ m $ un idéal maximal de $ A $, et supposons qu’il n’y ait dans $ A' $ qu’un nombre fini d’idéaux maximaux distincts $ m'_j $ ($ 1 \leq j \leq n $) au-dessus de $ m $. Soit $ q'_j $ le saturé de $ mA' $ pour $ m'_j $ (chap. II, $ \S 2 $, n° 4). Alors :
+#### Corollaire 3 {#ac-v-s2-lem-2-cor-3 .statement}
+
+Soient $ h : A \to A' $ un homomorphisme d’anneaux tel que $ A' $ soit entier sur $ A $, $ m $ un idéal maximal de $ A $, et supposons qu’il n’y ait dans $ A' $ qu’un nombre fini d’idéaux maximaux distincts $ m'_j $ ($ 1 \leq j \leq n $) au-dessus de $ m $. Soit $ q'_j $ le saturé de $ mA' $ pour $ m'_j $ (chap. II, $ \S 2 $, n° 4). Alors :
 
 (i) Dans l’anneau $ A'/q'_j $, les diviseurs de zéro sont les éléments de $ m'_j/q'_j $ et ils sont nilpotents ($ 1 \leq j \leq n $).
 
@@ -144,11 +148,15 @@ Soient $ h : A \to A' $ un homomorphisme d’anneaux tel que $ A' $ soit entier 
 
 Si $ h_1 : A/a \to A'/a' $ est l’homomorphisme déduit de $ h $ par passage aux quotients, $ h_1 $ est injectif par hypothèse et $ A'/a' $ est entier sur $ A/a $ ($ \S 1 $, n° 1, prop. 2); il existe donc un idéal premier $ \mathfrak{p}'/a' $ de $ A'/a' $ ($ \mathfrak{p}' $ premier dans $ A' $) au-dessus de $ \mathfrak{p}/a $ (th. 1), et $ \mathfrak{p}' $ répond à la question.
 
-COROLLAIRE 3. — Soient $ A $ un anneau, $ A' $ un anneau contenant $ A $ et entier sur $ A $. Si $ \mathfrak{R}' $ est le radical de $ A' $, $ \mathfrak{R}' \cap A $ est le radical de $ A $.
+#### Corollaire 3 {#ac-v-s2-thm-1-cor-3 .statement}
+
+Soient $ A $ un anneau, $ A' $ un anneau contenant $ A $ et entier sur $ A $. Si $ \mathfrak{R}' $ est le radical de $ A' $, $ \mathfrak{R}' \cap A $ est le radical de $ A $.
 
 Soit $ \mathfrak{R} $ le radical de $ A $. Pour tout idéal maximal $ m' $ de $ A' $, $ m' \cap A $ est un idéal maximal de $ A $ (prop. 1), donc $ \mathfrak{R} \subset m' \cap A $ et par suite $ \mathfrak{R} \subset \mathfrak{R}' \cap A $ (*Alg.*, chap. VIII, § 5, n° 3, déf. 3). Inversement, soit $ x \in \mathfrak{R}' \cap A $; pour tout idéal maximal $ m $ de $ A $, il existe un idéal premier de $ A' $ au-dessus de $ m $ (th. 1) et cet idéal $ m' $ est nécessairement maximal (prop. 1), donc on a $ x \in m' \cap A = m $ et par suite $ x \in \mathfrak{R} $.
 
-COROLLAIRE 4. — Soient $ A $ un anneau, $ A' $ un anneau contenant $ A $ et entier sur $ A $, et $ f $ un homomorphisme de $ A $ dans un corps algébriquement clos $ L $. Alors $ f $ se prolonge en un homomorphisme de $ A' $ dans $ L $.
+#### Corollaire 4 {#ac-v-s2-thm-1-cor-4 .statement}
+
+Soient $ A $ un anneau, $ A' $ un anneau contenant $ A $ et entier sur $ A $, et $ f $ un homomorphisme de $ A $ dans un corps algébriquement clos $ L $. Alors $ f $ se prolonge en un homomorphisme de $ A' $ dans $ L $.
 
 En effet, soit $ \mathfrak{p} $ le noyau de $ f $, qui est un idéal premier puisque $ f(A) \subset L $ est intègre; soit $ \mathfrak{p}' $ un idéal premier de $ A' $ au-dessus de $ \mathfrak{p} $ (th. 1). Alors $ A/\mathfrak{p} $ s’identifie canoniquement à un sous-anneau de $ A'/\mathfrak{p}' $ et $ A'/\mathfrak{p}' $ est entier sur $ A/\mathfrak{p} $ ($ \S 1 $, n° 1, prop. 2). L’homomorphisme $ f $ définit, par passage au quotient, un isomorphisme de $ A/\mathfrak{p} $ sur le sous-anneau $ f(A) $ de $ L $, qui se prolonge en un isomorphisme $ g $ du corps des fractions $ K $ de $ A/\mathfrak{p} $ sur un sous-corps de $ L $. Comme le corps des fractions $ K' $ de $ A'/\mathfrak{p}' $ est algébrique sur $ K $, $ g $ se prolonge en un isomorphisme $ g' $ de $ K' $ sur un sous-corps de $ L $ (*Alg.*, chap. V, § 4, n° 2, cor. du th. 1); si $ \pi' : A' \to A'/\mathfrak{p}' $ est l’homomorphisme canonique, $ g' \circ \pi' $ est un homomorphisme de $ A' $ dans $ L $ prolongeant $ f $.
 
@@ -231,7 +239,9 @@ u(\pi'(x)) = \pi'(\tau.x);
 $$
 mais on a $ u(\pi'(x)) \neq 0 $ et pour $ \sigma \in \mathcal{G} - \mathcal{G}^z $ on a $ \sigma.x \in \mathfrak{p}' $, donc π′(σ.x) = 0; on en conclut que l’on a nécessairement τ ∈ G_f^z. Mais comme u et τ ont même valeur pour l’élément primitif π′(y) = π′(x) de k_s′, ils coïncident dans k_s′, et comme k′ est une extension radicielle de k_s′, ils coincident dans k′. C.Q.F.D.
 
-COROLLAIRE. — Les hypothèses et les notations étant celles du th. 2, soient f_1, f_2 deux homomorphismes de A′ dans un corps L, ayant même restriction à A. Alors il existe σ ∈ G_f tel que
+#### Corollaire {#ac-v-s2-n2-cor-1 .statement}
+
+Les hypothèses et les notations étant celles du th. 2, soient f_1, f_2 deux homomorphismes de A′ dans un corps L, ayant même restriction à A. Alors il existe σ ∈ G_f tel que
 
 $$ f_2(x) = f_1(σ.x) $$
 
@@ -247,7 +257,9 @@ On notera que sous les hypothèses du th. 2, il se peut que k′ soit de degré 
 
 Il est clair que k′ est une extension galoisienne de k lorsque le corps k est parfait. Elle est alors de degré fini sur k.
 
-PROPOSITION 4. — Soient A′ un anneau, G_f un groupe fini opérant sur A′, H un sous-groupe de G_f, A et B les anneaux d’invariants de G_f et H respectivement, p′ un idéal premier de A′; posons p = A ∩ p′, p(B) = B ∩ p′.
+#### Proposition 4 {#ac-v-s2-prop-4 .statement}
+
+Soient A′ un anneau, G_f un groupe fini opérant sur A′, H un sous-groupe de G_f, A et B les anneaux d’invariants de G_f et H respectivement, p′ un idéal premier de A′; posons p = A ∩ p′, p(B) = B ∩ p′.
 
 (i) Pour que H soit contenu dans le groupe de décomposition G_f^z(p′), il faut et il suffit que p′ soit le seul idéal premier de A au-dessus de p(B).
 
@@ -297,17 +309,25 @@ Si $ A' $ est intègre et noethérien, la condition $ \bigcap_{n \geq 1} \mathfr
 
 Lorsque $ \mathfrak{p} $ n’est pas un idéal maximal de $ A $, on n’a pas nécessairement la relation (3) sous les hypothèses de (ii) et par suite $ A/\mathfrak{p} $ et $ B/\mathfrak{p}(B) $ ne sont pas nécessairement isomorphes, même lorsque l’on prend $ \mathcal{H} = \mathcal{G}^z $, d’où $ B = Az $ (exerc. 10).
 
-COROLLAIRE 1. — Sous les hypothèses du th. 2, les anneaux $ A/\mathfrak{p} $ et $ A^z/(\mathfrak{p}' \cap A^z) $ ont même corps de fractions, et l’idéal maximal de l’anneau local $ (A^z)_{\mathfrak{p}' \cap A^z} $ est engendré par $ \mathfrak{p} $.
+#### Corollaire 1 {#ac-v-s2-prop-4-cor-1 .statement}
 
-COROLLAIRE 2. — Soient $ A' $ un anneau intègre, $ G $ un groupe fini opérant sur $ A' $, $ A $ l’anneau des invariants de $ G $, $ \mathfrak{p}' $ un idéal premier de $ A' $; soient $ K, K^z $ et $ K' $ les corps des fractions de $ A, A^z $ et $ A' $ respectivement. Alors $ K' $ est extension galoisienne de $ K $, et les sous-corps $ L $ de $ K' $ contenant $ K $ et tels que $ \mathfrak{p}' $ soit le seul idéal premier de $ A' $ au-dessus de l’idéal $ \mathfrak{p}' \cap L $ de $ A' \cap L $, ne sont autres que ceux qui contiennent $ K^z $.
+Sous les hypothèses du th. 2, les anneaux $ A/\mathfrak{p} $ et $ A^z/(\mathfrak{p}' \cap A^z) $ ont même corps de fractions, et l’idéal maximal de l’anneau local $ (A^z)_{\mathfrak{p}' \cap A^z} $ est engendré par $ \mathfrak{p} $.
+
+#### Corollaire 2 {#ac-v-s2-prop-4-cor-2 .statement}
+
+Soient $ A' $ un anneau intègre, $ G $ un groupe fini opérant sur $ A' $, $ A $ l’anneau des invariants de $ G $, $ \mathfrak{p}' $ un idéal premier de $ A' $; soient $ K, K^z $ et $ K' $ les corps des fractions de $ A, A^z $ et $ A' $ respectivement. Alors $ K' $ est extension galoisienne de $ K $, et les sous-corps $ L $ de $ K' $ contenant $ K $ et tels que $ \mathfrak{p}' $ soit le seul idéal premier de $ A' $ au-dessus de l’idéal $ \mathfrak{p}' \cap L $ de $ A' \cap L $, ne sont autres que ceux qui contiennent $ K^z $.
 
 En effet, $ G $ opère sur $ K' $ et $ K $ est le corps des invariants de $ G $ dans $ K' $ (\$ 1, no 9, prop. 23 appliquée à $ S = A - \{0\} $), et de même $ K^z $ est le corps des invariants de $ G^z $; par définition $ K' $ est donc extension galoisienne de $ K $. Si $ \mathcal{H} $ est le sous-groupe de $ G $ formé des $ \sigma \in G $ laissant invariants les éléments de $ L $, dire que $ L $ contient $ K^z $ signifie que $ \mathcal{H} $ est contenu dans $ G^z $ (Alg., chap. V, § 10, no 5, th. 3), et comme $ L $ est le corps des invariants de $ \mathcal{H} $ dans $ K' $, $ A' \cap L $ est l’anneau des invariants de $ \mathcal{H} $ dans $ A' $; la seconde assertion résulte donc de la prop. 4, (i).
 
-DÉFINITION 4. — Les hypothèses et notations étant celles du cor. 2 de la prop. 4, on dit qu’un idéal premier $ \mathfrak{p} $ de $ A $ se décompose complètement dans $ K' $ si le nombre des idéaux premiers de $ A' $ au-dessus de $ \mathfrak{p} $ est égal à $ [K':K] $.
+#### Définition 4 {#ac-v-s2-def-4 .statement}
+
+Les hypothèses et notations étant celles du cor. 2 de la prop. 4, on dit qu’un idéal premier $ \mathfrak{p} $ de $ A $ se décompose complètement dans $ K' $ si le nombre des idéaux premiers de $ A' $ au-dessus de $ \mathfrak{p} $ est égal à $ [K':K] $.
 
 Il revient au même de dire que, pour un idéal premier $ \mathfrak{p}' $ de $ A' $ au-dessus de $ \mathfrak{p} $, le sous-groupe $ G^z(\mathfrak{p}') $ est égal au sous-groupe $ \mathcal{H} $ laissant invariants tous les éléments de $ A' $, ou que $ A^z(\mathfrak{p}') = A' $, ou que $ G/\mathcal{H} $ opère fidèlement dans l’ensemble des idéaux premiers de $ A' $ au-dessus de $ \mathfrak{p} $.
 
-COROLLAIRE 3. — Soient $ A' $ un anneau intègre, $ G $ un groupe commutatif fini opérant sur $ A' $, $ A $ l’anneau des invariants de $ G $, $ \mathfrak{p} $ un idéal premier de $ A $, $ K $ et $ K' $ les corps des fractions de $ A $ et $ A' $ respectivement. Alors les idéaux premiers de $ A' $ au-dessus de $ \mathfrak{p} $ ont tous même anneau de décomposition $ A^z $, et le corps des fractions $ K^z $ de $ A^z $ est le plus grand corps intermédiaire entre $ K $ et $ K' $ dans lequel $ \mathfrak{p} $ se décompose complètement.
+#### Corollaire 3 {#ac-v-s2-def-4-cor-3 .statement}
+
+Soient $ A' $ un anneau intègre, $ G $ un groupe commutatif fini opérant sur $ A' $, $ A $ l’anneau des invariants de $ G $, $ \mathfrak{p} $ un idéal premier de $ A $, $ K $ et $ K' $ les corps des fractions de $ A $ et $ A' $ respectivement. Alors les idéaux premiers de $ A' $ au-dessus de $ \mathfrak{p} $ ont tous même anneau de décomposition $ A^z $, et le corps des fractions $ K^z $ de $ A^z $ est le plus grand corps intermédiaire entre $ K $ et $ K' $ dans lequel $ \mathfrak{p} $ se décompose complètement.
 
 Si $ \mathfrak{p}' $ est un idéal premier de $ A' $ au-dessus de $ \mathfrak{p} $, on a $ G^z(\sigma.\mathfrak{p}') = G^z(\mathfrak{p}') $ puisque $ G $ est commutatif (formule (2)), donc (th. 2, (i)) tous les idéaux premiers de $ A' $ au-dessus de $ \mathfrak{p} $ ont même groupe de décomposition $ \mathcal{G}^z $, et par suite même anneau de décomposition $ A^z $; leur nombre est $ (\mathcal{G} : \mathcal{G}^z) $. Soit $ L $ un corps intermédiaire entre $ K $ et $ K' $ et soit $ \mathcal{H} $ le sous-groupe de $ \mathcal{G} $ laissant invariants les éléments de $ L $; le groupe de décomposition de $ \mathfrak{p}' $ par rapport à $ \mathcal{H} $ est $ \mathcal{G}^z \cap \mathcal{H} $; comme $ A' \cap L $ est l’anneau des invariants de $ \mathcal{H} $ dans $ A' $, le nombre d’idéaux premiers de $ A' $ au-dessus de $ \mathfrak{p}' \cap L $ est $ (\mathcal{H} : (\mathcal{G}^z \cap \mathcal{H})) = (\mathcal{H}\mathcal{G}^z : \mathcal{G}^z) $ (puisque $ \mathcal{G} $ est commutatif). Le nombre d’idéaux premiers de $ A' \cap L $ au-dessus de $ \mathfrak{p} $ est donc $ (\mathcal{G} : \mathcal{H}\mathcal{G}^z) $. Pour que $ \mathfrak{p} $ se décompose complètement dans $ L $, il faut et il suffit donc que l’on ait $ (\mathcal{G} : \mathcal{H}\mathcal{G}^z) = [L : K] = (\mathcal{G} : \mathcal{H}) $, et comme $ \mathcal{H} \subset \mathcal{H}\mathcal{G}^z $, cela équivaut à $ \mathcal{H}\mathcal{G}^z = \mathcal{H} $, ou encore à $ \mathcal{G}^z \subset \mathcal{H} $, et finalement à $ L \subset K^z $.
 
@@ -329,7 +349,9 @@ contient $ u^{p^f} $ et par conséquent $ k(u^{p^f}) $. Mais comme u est sépara
 
 C.Q.F.D.
 
-COROLLAIRE. — Si l’ordre du groupe d’inertie $ G^T(p') $ est étranger à l’exposant caractéristique p de k, le corps $ k' $ est une extension galoisienne de k.
+#### Corollaire {#ac-v-s2-n2-cor-2 .statement}
+
+Si l’ordre du groupe d’inertie $ G^T(p') $ est étranger à l’exposant caractéristique p de k, le corps $ k' $ est une extension galoisienne de k.
 
 En effet, avec les notations de la démonstration de la prop. 5, le polynôme $ \pi'(P) $ a ses coefficients dans $ k^T = k'_s $ et toutes ses racines égales à $ \pi'(x) $; on en déduit aussitôt que $ \pi'(P) $ est une puissance du polynôme minimal de $ \pi'(x) $ sur $ k'_s $; mais ce dernier a un degré égal à une puissance de p, donc, comme le degré de $ \pi'(P) $ est égal à l’ordre de $ G^T $, l’hypothèse entraîne que $ \pi'(x) \in k'_s $, autrement dit $ k'_s = k' $.
 
@@ -373,11 +395,15 @@ En outre, l’ensemble des restrictions à $ A' \cap K_\alpha $ des éléments d
 
 Sous les mêmes hypothèses, l’anneau $ A^z(p') $ (resp. $ A^T(p') $) est réunion de la famille filtrante des $ A^z(p' \cap K_\alpha) $ (resp. $ A^T(p' \cap K_\alpha) $) : en effet, tout $ x \in A^z(p') $ (resp. tout $ x \in A^T(p') $) appartient à un des $ K_\alpha $, et d’après ce qui précède, il existe un $ \beta $ tel que $ K_\alpha \subset K_\beta $ et que les restrictions à $ A' \cap K_\alpha $ des éléments de $ G_z(p') $ (resp. $ G_T(p') $) soient les mêmes que les restrictions à $ A' \cap K_\alpha $ des éléments de $ G_z(p' \cap K_\beta) $ (resp. $ G_T(p' \cap K_\beta) $), les groupes $ G_z(p' \cap K_\alpha) $ et $ G_T(p' \cap K_\beta) $ étant finis ; donc $ x $ appartient à $ A^z(p' \cap K_\beta) $ (resp. $ A^T(p' \cap K_\beta) $).
 
-COROLLAIRE 1. — Les hypothèses étant celles de la prop. 6, soient $ f $ un homomorphisme de $ A $ dans un corps $ L $, $ g_1, g_2 $ deux homomorphismes de $ A' $ dans $ L $ qui prolongent $ f $. Il existe alors un K-automorphisme $ \sigma $ de $ K' $ tel que $ g_1 = g_2 \circ \sigma $.
+#### Corollaire 1 {#ac-v-s2-prop-6-cor-1 .statement}
+
+Les hypothèses étant celles de la prop. 6, soient $ f $ un homomorphisme de $ A $ dans un corps $ L $, $ g_1, g_2 $ deux homomorphismes de $ A' $ dans $ L $ qui prolongent $ f $. Il existe alors un K-automorphisme $ \sigma $ de $ K' $ tel que $ g_1 = g_2 \circ \sigma $.
 
 La démonstration à partir de la prop. 6 est la même que celle du cor. du th. 2 à partir de ce dernier.
 
-COROLLAIRE 2. — Soient $ A $ un anneau intégralement clos, $ K $ son corps des fractions, $ K' $ une extension algébrique de degré fini de $ K $, $ A' $ un sous-anneau de $ K' $ contenant $ A $ et entier sur $ A $.
+#### Corollaire 2 {#ac-v-s2-prop-6-cor-2 .statement}
+
+Soient $ A $ un anneau intégralement clos, $ K $ son corps des fractions, $ K' $ une extension algébrique de degré fini de $ K $, $ A' $ un sous-anneau de $ K' $ contenant $ A $ et entier sur $ A $.
 
 (i) Pour tout idéal premier $ p $ de $ A $, l’ensemble des idéaux premiers de $ A' $ au-dessus de $ p $ est fini.
 
@@ -387,11 +413,15 @@ COROLLAIRE 2. — Soient $ A $ un anneau intégralement clos, $ K $ son corps de
 
 (ii) Les coefficients du polynôme minimal (sur $ K $) d’un élément quelconque $ x' \in A' $ appartiennent à $ A $ ($ § 1 $, no 3, cor. de la prop. 10); en appliquant aux coefficients de ce polynôme l’homomorphisme canonique $ \pi': A' \to A'/p' $, on obtient pour la classe mod. $ \mathfrak{p}' $ de $ x $ une équation de dépendance intégrale à coefficients dans $ A/\mathfrak{p} $ et de degré $ \leq [K': K] $; d’où la conclusion.
 
-COROLLAIRE 3. — Les hypothèses et notations étant celles du cor. 2, si $ A $ est semi-local, il en est de même de $ A' $.
+#### Corollaire 3 {#ac-v-s2-prop-6-cor-3 .statement}
+
+Les hypothèses et notations étant celles du cor. 2, si $ A $ est semi-local, il en est de même de $ A' $.
 
 En effet, pour tout idéal maximal $ m' $ de $ A' $, $ m' \cap A $ est un idéal maximal de $ A $ (no 1, prop. 1); le corollaire résulte donc du cor. 2, puisque par hypothèse l’ensemble des idéaux maximaux de $ A $ est fini.
 
-COROLLAIRE 4. — Soient $ A $ un anneau intégralement clos, $ K $ son corps des fractions, $ K' $ une extension galoisienne de $ K $, $ A' $ la fermeture intégrale de $ A $ dans $ K' $, $ \mathfrak{p}' $ un idéal premier de $ A' $, $ \mathfrak{p} = A \cap \mathfrak{p}' $, $ k $ et $ k' $ les corps des fractions de $ A/\mathfrak{p} $ et $ A'/\mathfrak{p}' $ respectivement. Alors :
+#### Corollaire 4 {#ac-v-s2-prop-6-cor-4 .statement}
+
+Soient $ A $ un anneau intégralement clos, $ K $ son corps des fractions, $ K' $ une extension galoisienne de $ K $, $ A' $ la fermeture intégrale de $ A $ dans $ K' $, $ \mathfrak{p}' $ un idéal premier de $ A' $, $ \mathfrak{p} = A \cap \mathfrak{p}' $, $ k $ et $ k' $ les corps des fractions de $ A/\mathfrak{p} $ et $ A'/\mathfrak{p}' $ respectivement. Alors :
 
 (i) Le corps des fractions de $ A^Z/(\mathfrak{p}' \cap A^Z) $ est égal à $ k $, et l’idéal maximal de l’anneau local de $ A^Z $ relatif à $ \mathfrak{p}' \cap A^Z $ est engendré par $ \mathfrak{p} $.
 
@@ -462,7 +492,9 @@ puisque $ A'/m' $ est intègre, la première partie de la démonstration prouve 
 
 C.Q.F.D.
 
-COROLLAIRE. — Les hypothèses sur $ A $ et $ A' $ étant celles du th. 3, soit $ p $ un idéal premier de $ A $. Les idéaux premiers de $ A' $ au-dessus de $ p $ sont les éléments minimaux de l’ensemble $ \mathcal{E} $ des idéaux premiers de $ A' $ contenant $ pA' $.
+#### Corollaire {#ac-v-s2-n4-cor-1 .statement}
+
+Les hypothèses sur $ A $ et $ A' $ étant celles du th. 3, soit $ p $ un idéal premier de $ A $. Les idéaux premiers de $ A' $ au-dessus de $ p $ sont les éléments minimaux de l’ensemble $ \mathcal{E} $ des idéaux premiers de $ A' $ contenant $ pA' $.
 
 En effet, un idéal premier de $ A' $ au-dessus de $ p $ est minimal dans $ \mathcal{E} $, en vertu du no 1, cor. 1 de la prop. 1. Inversement, soit $ q' $ un élément minimal de $ \mathcal{E} $. Comme $ q' \cap A \supset p $, le th. 3 montre qu’il existe un idéal premier $ p' $ de $ A' $ au-dessus de $ p $ tel que $ q' \supset p' $. Comme $ p' $ contient $ pA' $, l’hypothèse faite sur $ q' $ entraîne que $ q' = p' $, donc $ q' $ est au-dessus de $ p $.
 
