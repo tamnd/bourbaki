@@ -14011,6 +14011,9 @@ books:
                   title: Une propriété spéciale à l'intégrale supérieure essentielle
                   page: 11
                   pdf_page: 16
+              exercises:
+                page: 103
+                pdf_page: 108
             - section: 2
               title: Familles sommables de mesures positives
               page: 12
@@ -14028,6 +14031,9 @@ books:
                   title: Décomposition d'une mesure en somme de mesures à supports compacts
                   page: 15
                   pdf_page: 20
+              exercises:
+                page: 104
+                pdf_page: 109
             - section: 3
               title: Intégration de mesures positives
               page: 16
@@ -14057,6 +14063,9 @@ books:
                   title: Composition des diffusions bornées
                   page: 32
                   pdf_page: 37
+              exercises:
+                page: 104
+                pdf_page: 109
             - section: 4
               title: Intégration de mesures positives ponctuelles
               page: 34
@@ -14078,6 +14087,9 @@ books:
                   title: Intégration des fonctions à valeurs dans un espace de Banach, par rapport à une intégrale de mesures ponctuelles
                   page: 40
                   pdf_page: 45
+              exercises:
+                page: 107
+                pdf_page: 112
             - section: 5
               title: Mesures définies par des densités numériques
               page: 41
@@ -14123,6 +14135,9 @@ books:
                   title: Mesures diffuses; mesures atomiques
                   page: 67
                   pdf_page: 72
+              exercises:
+                page: 108
+                pdf_page: 113
             - section: 6
               title: Images d'une mesure
               page: 68
@@ -14152,6 +14167,9 @@ books:
                   title: Décomposition en tranches. Image réciproque d'une mesure par un homéomorphisme local
                   page: 78
                   pdf_page: 83
+              exercises:
+                page: 118
+                pdf_page: 123
             - section: 7
               title: Intégration par rapport à une mesure induite
               page: 81
@@ -14165,6 +14183,48 @@ books:
                   title: Propriétés des mesures induites
                   page: 84
                   pdf_page: 89
+              exercises:
+                page: 124
+                pdf_page: 129
+            - section: 8
+              title: Produits de mesures
+              page: 86
+              pdf_page: 91
+              subsections:
+                - "no": 1
+                  title: Interprétation de la mesure produit comme intégrale de mesures
+                  page: 86
+                  pdf_page: 91
+                - "no": 2
+                  title: Fonctions mesurables par rapport à un produit de deux mesures
+                  page: 89
+                  pdf_page: 94
+                - "no": 3
+                  title: Intégration de fonctions positives
+                  page: 91
+                  pdf_page: 96
+                - "no": 4
+                  title: Intégration de fonctions à valeurs dans un espace de Banach
+                  page: 96
+                  pdf_page: 101
+                - "no": 5
+                  title: Opérations sur le produit de deux mesures
+                  page: 98
+                  pdf_page: 103
+                - "no": 6
+                  title: Intégration par rapport à un produit fini de mesures
+                  page: 100
+                  pdf_page: 105
+                - "no": 7
+                  title: 'Application: Mesure de la boule euclidienne dans R"'
+                  page: 101
+                  pdf_page: 106
+              exercises:
+                page: 126
+                pdf_page: 131
+          historical_note:
+            page: 136
+            pdf_page: 141
     - id: lie-i-fr
       grammar: pilcrow/bare
       chapters:
@@ -14215,6 +14275,9 @@ books:
                   title: Changement de l’anneau de base
                   page: 21
                   pdf_page: 19
+              exercises:
+                page: 101
+                pdf_page: 99
             - section: 2
               title: Algèbre enveloppante d’une algèbre de Lie
               page: 22
@@ -14256,6 +14319,9 @@ books:
                   title: Extension de l’anneau de base
                   page: 38
                   pdf_page: 36
+              exercises:
+                page: 110
+                pdf_page: 108
             - section: 3
               title: Représentations
               page: 38
@@ -14293,6 +14359,9 @@ books:
                   title: Extension de l’anneau de base
                   page: 52
                   pdf_page: 50
+              exercises:
+                page: 113
+                pdf_page: 111
             - section: 4
               title: Algèbres de Lie nilpotentes
               page: 55
@@ -14306,3 +14375,118 @@ books:
                   title: Le théorème d’Engel
                   page: 57
                   pdf_page: 55
+                - "no": 3
+                  title: Le plus grand idéal de nilpotence d'une représentation
+                  page: 58
+                  pdf_page: 56
+                - "no": 4
+                  title: Le plus grand idéal nilpotent d'une algèbre de Lie
+                  page: 60
+                  pdf_page: 58
+                - "no": 5
+                  title: Extension du corps de base
+                  page: 61
+                  pdf_page: 59
+              exercises:
+                page: 118
+                pdf_page: 116
+            - section: 5
+              title: Algèbres de Lie résolubles
+              page: 61
+              pdf_page: 59
+              subsections:
+                - "no": 1
+                  title: Définition des algèbres de Lie résolubles
+                  page: 62
+                  pdf_page: 60
+                - "no": 2
+                  title: Radical d'une algèbre de Lie
+                  page: 63
+                  pdf_page: 61
+                - "no": 3
+                  title: Radical nilpotent d'une algèbre de Lie
+                  page: 64
+                  pdf_page: 62
+                - "no": 4
+                  title: Un critère de résolubilité
+                  page: 67
+                  pdf_page: 65
+                - "no": 5
+                  title: Nouvelles propriétés du radical
+                  page: 69
+                  pdf_page: 67
+                - "no": 6
+                  title: Extension du corps de base
+                  page: 70
+                  pdf_page: 68
+              exercises:
+                page: 125
+                pdf_page: 123
+            - section: 6
+              title: Algèbres de Lie semi-simples
+              page: 71
+              pdf_page: 69
+              subsections:
+                - "no": 1
+                  title: Définition des algèbres de Lie semi-simples
+                  page: 71
+                  pdf_page: 69
+                - "no": 2
+                  title: Semi-simplicité des représentations
+                  page: 72
+                  pdf_page: 70
+                - "no": 3
+                  title: Éléments semi-simples et éléments nilpotents dans les algèbres de Lie semi-simples
+                  page: 76
+                  pdf_page: 74
+                - "no": 4
+                  title: Algèbres de Lie réductives
+                  page: 78
+                  pdf_page: 76
+                - "no": 5
+                  title: 'Application : un critère de semi-simplicité'
+                  page: 81
+                  pdf_page: 79
+                - "no": 6
+                  title: Sous-algèbres réductives dans une algèbre de Lie
+                  page: 83
+                  pdf_page: 81
+                - "no": 7
+                  title: Exemples d'algèbres de Lie semi-simples
+                  page: 84
+                  pdf_page: 82
+                - "no": 8
+                  title: Le théorème de Levi-Malcev
+                  page: 87
+                  pdf_page: 85
+                - "no": 9
+                  title: Le théorème des invariants
+                  page: 92
+                  pdf_page: 90
+                - "no": 10
+                  title: Changement du corps de base
+                  page: 94
+                  pdf_page: 92
+              exercises:
+                page: 128
+                pdf_page: 126
+            - section: 7
+              title: Le théorème d'Ado
+              page: 95
+              pdf_page: 93
+              subsections:
+                - "no": 1
+                  title: Coefficients d'une représentation
+                  page: 96
+                  pdf_page: 94
+                - "no": 2
+                  title: Le théorème d'agrandissement
+                  page: 96
+                  pdf_page: 94
+                - "no": 3
+                  title: Le théorème d'Ado
+                  page: 99
+                  pdf_page: 97
+              exercises:
+                page: 135
+                pdf_page: 133

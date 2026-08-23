@@ -2348,7 +2348,7 @@
         {
           "chapter": "VI",
           "title": "Valuations",
-          "total": 64,
+          "total": 65,
           "sections": [
             {
               "section": 1,
@@ -2380,9 +2380,10 @@
               "section": 4,
               "label": "ac-vi-s4",
               "dir": "s4",
-              "count": 4,
+              "count": 5,
               "first": 1,
-              "last": 4
+              "last": 5,
+              "supplementary": 1
             },
             {
               "section": 5,
@@ -3142,15 +3143,15 @@
         {
           "chapter": "III",
           "title": "ELEMENTARY FUNCTIONS",
-          "total": 39,
+          "total": 48,
           "sections": [
             {
               "section": 1,
               "label": "fvr-iii-s1",
               "dir": "s1",
-              "count": 30,
+              "count": 39,
               "first": 1,
-              "last": 30,
+              "last": 39,
               "starred": 2,
               "supplementary": 5
             },
@@ -3286,6 +3287,408 @@
               "first": 1,
               "last": 6,
               "starred": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lie-ii-iii-fr",
+      "chapters": [
+        {
+          "chapter": "II",
+          "title": "ALGÈBRES DE LIE LIBRES",
+          "total": 62,
+          "sections": [
+            {
+              "section": 1,
+              "label": "lie-ii-s1",
+              "dir": "s1",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 2
+            },
+            {
+              "section": 2,
+              "label": "lie-ii-s2",
+              "dir": "s2",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 6
+            },
+            {
+              "section": 3,
+              "label": "lie-ii-s3",
+              "dir": "s3",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "starred": 1
+            },
+            {
+              "section": 4,
+              "label": "lie-ii-s4",
+              "dir": "s4",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 1
+            },
+            {
+              "section": 5,
+              "label": "lie-ii-s5",
+              "dir": "s5",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 6
+            },
+            {
+              "section": 6,
+              "label": "lie-ii-s6",
+              "dir": "s6",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 2
+            },
+            {
+              "section": 7,
+              "label": "lie-ii-s7",
+              "dir": "s7",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 8,
+              "label": "lie-ii-s8",
+              "dir": "s8",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "starred": 1
+            },
+            {
+              "section": 0,
+              "appendix": true,
+              "label": "lie-ii-a0",
+              "dir": "a0",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            }
+          ]
+        },
+        {
+          "chapter": "III",
+          "title": "GROUPES DE LIE",
+          "total": 101,
+          "sections": [
+            {
+              "section": 1,
+              "label": "lie-iii-s1",
+              "dir": "s1",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 2
+            },
+            {
+              "section": 3,
+              "label": "lie-iii-s3",
+              "dir": "s3",
+              "count": 9,
+              "first": 1,
+              "last": 9,
+              "starred": 1
+            },
+            {
+              "section": 4,
+              "label": "lie-iii-s4",
+              "dir": "s4",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 5
+            },
+            {
+              "section": 5,
+              "label": "lie-iii-s5",
+              "dir": "s5",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            },
+            {
+              "section": 6,
+              "label": "lie-iii-s6",
+              "dir": "s6",
+              "count": 30,
+              "first": 1,
+              "last": 30,
+              "starred": 6
+            },
+            {
+              "section": 7,
+              "label": "lie-iii-s7",
+              "dir": "s7",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 3
+            },
+            {
+              "section": 8,
+              "label": "lie-iii-s8",
+              "dir": "s8",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 3
+            },
+            {
+              "section": 9,
+              "label": "lie-iii-s9",
+              "dir": "s9",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 2
+            },
+            {
+              "section": 10,
+              "label": "lie-iii-s10",
+              "dir": "s10",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-v-fr",
+      "chapters": [
+        {
+          "chapter": "V",
+          "title": "Intégration des mesures",
+          "total": 108,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-v-s1",
+              "dir": "s1",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "int-v-s2",
+              "dir": "s2",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 3,
+              "label": "int-v-s3",
+              "dir": "s3",
+              "count": 11,
+              "first": 1,
+              "last": 11
+            },
+            {
+              "section": 4,
+              "label": "int-v-s4",
+              "dir": "s4",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            },
+            {
+              "section": 5,
+              "label": "int-v-s5",
+              "dir": "s5",
+              "count": 31,
+              "first": 1,
+              "last": 31,
+              "starred": 11
+            },
+            {
+              "section": 6,
+              "label": "int-v-s6",
+              "dir": "s6",
+              "count": 22,
+              "first": 1,
+              "last": 22,
+              "starred": 7
+            },
+            {
+              "section": 7,
+              "label": "int-v-s7",
+              "dir": "s7",
+              "count": 11,
+              "first": 1,
+              "last": 11
+            },
+            {
+              "section": 8,
+              "label": "int-v-s8",
+              "dir": "s8",
+              "count": 21,
+              "first": 1,
+              "last": 21,
+              "starred": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lie-i-fr",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "Algèbres de Lie",
+          "total": 123,
+          "sections": [
+            {
+              "section": 1,
+              "label": "lie-i-s1",
+              "dir": "s1",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 4
+            },
+            {
+              "section": 2,
+              "label": "lie-i-s2",
+              "dir": "s2",
+              "count": 10,
+              "first": 1,
+              "last": 10
+            },
+            {
+              "section": 3,
+              "label": "lie-i-s3",
+              "dir": "s3",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 2
+            },
+            {
+              "section": 4,
+              "label": "lie-i-s4",
+              "dir": "s4",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 5
+            },
+            {
+              "section": 5,
+              "label": "lie-i-s5",
+              "dir": "s5",
+              "count": 17,
+              "first": 1,
+              "last": 17
+            },
+            {
+              "section": 6,
+              "label": "lie-i-s6",
+              "dir": "s6",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 6
+            },
+            {
+              "section": 7,
+              "label": "lie-i-s7",
+              "dir": "s7",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ac-viii-ix-fr",
+      "chapters": [
+        {
+          "chapter": "VIII",
+          "title": "DIMENSION",
+          "total": 122,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ac-viii-s1",
+              "dir": "s1",
+              "count": 17,
+              "first": 1,
+              "last": 17
+            },
+            {
+              "section": 2,
+              "label": "ac-viii-s2",
+              "dir": "s2",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 4,
+              "supplementary": 1
+            },
+            {
+              "section": 3,
+              "label": "ac-viii-s3",
+              "dir": "s3",
+              "count": 7,
+              "first": 1,
+              "last": 7
+            },
+            {
+              "section": 4,
+              "label": "ac-viii-s4",
+              "dir": "s4",
+              "count": 12,
+              "first": 1,
+              "last": 12
+            },
+            {
+              "section": 5,
+              "label": "ac-viii-s5",
+              "dir": "s5",
+              "count": 31,
+              "first": 1,
+              "last": 31
+            },
+            {
+              "section": 6,
+              "label": "ac-viii-s6",
+              "dir": "s6",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 2
+            },
+            {
+              "section": 7,
+              "label": "ac-viii-s7",
+              "dir": "s7",
+              "count": 25,
+              "first": 1,
+              "last": 25,
+              "starred": 3
             }
           ]
         }

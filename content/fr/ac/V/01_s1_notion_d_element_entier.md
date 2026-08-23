@@ -46,9 +46,9 @@ subsections:
       title: 'Application : invariants d’un groupe d’automorphismes d’une algèbre'
       page: 0
       pdf_page: 28
-statements: 51
+statements: 77
 exercises: 19
-content_sha256: 21feca5b44a18f4455d238751be0eb3a286059b83dcd196e3ef8f3297109515a
+content_sha256: 013c82835f945a6bb1ad169b83771574867ee2f2294f173709b4dfe6f043c754
 ---
 
 ## § 1. Notion d’élément entier.
@@ -196,7 +196,9 @@ En effet, si $ x, y $ sont deux éléments de $ R $ entiers sur $ A $, il résul
 
 Dans une algèbre non commutative, la somme et le produit de deux éléments entiers sur $ A $ ne sont pas nécessairement entiers sur $ A $ (exerc. 4).
 
-COROLLAIRE 2. — Soient $ A $ un anneau, $ R $ une $ A $-algèbre (non nécessairement commutative), $ E $ un ensemble d’éléments de $ R $, deux à deux permutables et entiers sur $ A $. Alors la sous-$ A $-algèbre $ B $ de $ R $ engendrée par $ E $ est entière sur $ A $.
+#### Corollaire 2 {#ac-v-s1-prop-4-cor-2 .statement}
+
+Soient $ A $ un anneau, $ R $ une $ A $-algèbre (non nécessairement commutative), $ E $ un ensemble d’éléments de $ R $, deux à deux permutables et entiers sur $ A $. Alors la sous-$ A $-algèbre $ B $ de $ R $ engendrée par $ E $ est entière sur $ A $.
 
 En effet, tout élément de $ B $ appartient à une sous-$ A $-algèbre de $ B $ engendrée par une partie finie de $ E $.
 
@@ -204,19 +206,27 @@ En effet, tout élément de $ B $ appartient à une sous-$ A $-algèbre de $ B $
 
 Il résulte de la prop. 4 que toute $ A $-algèbre commutative entière sur $ A $ est réunion d’une famille filtrante croissante de sous-algèbres finies sur $ A $.
 
-PROPOSITION 5. — Soient $ A $ un anneau, $ A' $ et $ R $ deux $ A $-algèbres (commutatives). Si $ R $ est entière sur $ A $, $ R \otimes_A A' $ est entière sur $ A' $.
+#### Proposition 5 {#ac-v-s1-prop-5 .statement}
+
+Soient $ A $ un anneau, $ A' $ et $ R $ deux $ A $-algèbres (commutatives). Si $ R $ est entière sur $ A $, $ R \otimes_A A' $ est entière sur $ A' $.
 
 Considérons en effet un élément quelconque $ x' = \sum_{i=1}^n x_i \otimes a'_i $ de $ R \otimes_A A' $, où les $ x_i $ appartiennent à $ R $ et les $ a'_i $ à $ A' $; comme $ x_i \otimes a'_i = (x_i \otimes 1)a'_i $, et que les $ x_i \otimes 1 $ sont entiers sur $ A' $ (prop. 2), il en est de même de $ x $.
 
-COROLLAIRE. — Soient $ R $ un anneau, $ A, B, C $ des sous-anneaux de $ R $ tels que $ A \subset B $. Si $ B $ est entier sur $ A $, $ C[B] $ est entier sur $ C[A] $.
+#### Corollaire {#ac-v-s1-n1-cor-2 .statement}
+
+Soient $ R $ un anneau, $ A, B, C $ des sous-anneaux de $ R $ tels que $ A \subset B $. Si $ B $ est entier sur $ A $, $ C[B] $ est entier sur $ C[A] $.
 
 En effet, $ B \otimes_A C[A] $ est entier sur $ C[A] $ en vertu de la prop. 5, donc il en est de même de l’image canonique $ C[B] $ de $ B \otimes_A C[A] $ dans $ R $ (considéré comme $ A $-algèbre) en vertu de la prop. 2.
 
-PROPOSITION 6. — Soient $ A $ un anneau, $ B $ une $ A $-algèbre (commutative), $ C $ une $ B $-algèbre (non nécessairement commutative). Si $ B $ est entière sur $ A $ et si $ C $ est entière sur $ B $, alors $ C $ est entière sur $ A $.
+#### Proposition 6 {#ac-v-s1-prop-6 .statement}
+
+Soient $ A $ un anneau, $ B $ une $ A $-algèbre (commutative), $ C $ une $ B $-algèbre (non nécessairement commutative). Si $ B $ est entière sur $ A $ et si $ C $ est entière sur $ B $, alors $ C $ est entière sur $ A $.
 
 Il suffit de voir que tout $ x \in C $ est entier sur $ A $. Par hypothèse, il existe un polynôme unitaire $ X^n + b_1 X^{n-1} + \cdots + b_n $ à coefficients dans $ B $, ayant $ x $ pour racine; alors $ x $ est entier sur $ B' = A[b_1, \ldots, b_n] $ et $ B'[x] $ est donc un $ B' $-module de type fini. Mais comme $ B $ est entière sur $ A $, $ B' $ est un $ A $-module de type fini (prop. 4); on en conclut que $ B'[x] $ est aussi un $ A $-module de type fini (\emph{Alg.}, chap. II, 3e éd., § 1, no 13, prop. 25), et par suite $ x $ est entier sur $ A $.
 
-COROLLAIRE. — Soient $ A $ un anneau, $ R, R' $ deux $ A $-algèbres (commutatives) entières sur $ A $. Alors $ R \otimes_A R' $ est entière sur $ A $.
+#### Corollaire {#ac-v-s1-n1-cor-3 .statement}
+
+Soient $ A $ un anneau, $ R, R' $ deux $ A $-algèbres (commutatives) entières sur $ A $. Alors $ R \otimes_A R' $ est entière sur $ A $.
 
 En effet, $ R \otimes_A R' $ est entière sur $ R' $ (prop. 5), donc la conclusion résulte de la prop. 6.
 
@@ -300,13 +310,17 @@ Par double application du lemme 2, on voit qu’il existe un anneau R’ contena
 
 Soient A un anneau intègre, K son corps des fractions, K' une K-algèbre (non nécessairement commutative). Étant donné un élément $ x \in K' $ algébrique sur K, les polynômes $ P \in K[X] $ tels que $ P(x) = 0 $ forment un idéal $ a \neq 0 $ de $ K[X] $, nécessairement principal (Alg., chap. IV, § 1, no 5, prop. 7). Il existe un polynôme unitaire et un seul qui engendre a; généralisant la terminologie introduite en Alg., chap. V, § 3, no 1, déf. 3, nous dirons que ce polynôme unitaire est le polynôme minimal de $ x $ sur K.
 
-COROLLAIRE. — Soient A un anneau intègre, K son corps des fractions, x un élément d’une K-algèbre K' (non nécessairement commutative). Si x est entier sur A, les coefficients du polynôme minimal P de x sur K sont entiers sur A (et ils appartiennent donc à A si A est intégralement clos).
+#### Corollaire {#ac-v-s1-n3-cor-1 .statement}
+
+Soient A un anneau intègre, K son corps des fractions, x un élément d’une K-algèbre K' (non nécessairement commutative). Si x est entier sur A, les coefficients du polynôme minimal P de x sur K sont entiers sur A (et ils appartiennent donc à A si A est intégralement clos).
 
 Il existe par hypothèse (no 1, th. 1) un polynôme unitaire $ Q \in A[X] $ tel que $ Q(x) = 0 $. Comme P divise Q dans $ K[X] $, il résulte de la prop. 11 que les coefficients de P sont entiers sur A.
 
 Soient A un anneau, R une A-algèbre (commutative); l’homomorphisme $ \varphi : A \to R $ définissant la structure de A-algèbre de R se prolonge d’une seule manière en un homomorphisme $ A[X] \to R[X] $ des anneaux de polynômes sur A et R, laissant X invariant, donc $ R[X] $ est canoniquement muni d’une structure de $ A[X] $-algèbre.
 
-PROPOSITION 12. — Soient A un anneau, R une A-algèbre, P un polynôme dans $ R[X_1, \ldots, X_n] $. Pour que P soit entier sur $ A[X_1, \ldots, X_n] $, il faut et il suffit que les coefficients de P soient entiers sur A.
+#### Proposition 12 {#ac-v-s1-prop-12 .statement}
+
+Soient A un anneau, R une A-algèbre, P un polynôme dans $ R[X_1, \ldots, X_n] $. Pour que P soit entier sur $ A[X_1, \ldots, X_n] $, il faut et il suffit que les coefficients de P soient entiers sur A.
 
 En considérant les polynômes de $ R[X_1, \ldots, X_n] $ comme des polynômes en $ X_n $, à coefficients dans $ R[X_1, \ldots, X_{n-1}] $, on voit aussitôt qu’on est ramené à démontrer la proposition pour $ n = 1 $. Soit donc P un polynôme de $ R[X] $; il résulte aussitôt du no 1, prop. 5 que si les coefficients de P sont dans la fermeture intégrale B de A dans R, l’élément P, qui appartient à B[X] = B ⊗_A A[X], est entier sur A[X]. Inversement, supposons que P soit entier sur A[X], et soit
 
@@ -352,20 +366,28 @@ Cela résulte de la prop. 12 et de la déf. 3 du no 2.
 
 En raisonnant par récurrence sur $ n $, on est aussitôt ramené au cas $ n = 1 $. Soit K le corps des fractions de A, qui est aussi celui de $ A' $; si un élément P du corps des fractions K(X) de A[X] est entier sur A[X], il appartient à l’anneau de polynômes K[X], car ce dernier est principal (*Alg.*, chap. IV, § 1, no 5, prop. 7), donc intégralement clos (prop. 10); le corollaire résulte donc de la prop. 13 appliquée à $ R = K $.
 
-COROLLAIRE 2. — Soit $ A $ un anneau intègre. Pour que l’anneau de polynômes $ A[X_1, \ldots, X_n] $ soit intégralement clos, il faut et il suffit que $ A $ soit intégralement clos.
+#### Corollaire 2 {#ac-v-s1-prop-13-cor-2 .statement}
 
-COROLLAIRE 3. — Si $ K $ est un corps, toute algèbre de polynômes $ K[X_1, \ldots, X_n] $ est un anneau intégralement clos.
+Soit $ A $ un anneau intègre. Pour que l’anneau de polynômes $ A[X_1, \ldots, X_n] $ soit intégralement clos, il faut et il suffit que $ A $ soit intégralement clos.
+
+#### Corollaire 3 {#ac-v-s1-prop-13-cor-3 .statement}
+
+Si $ K $ est un corps, toute algèbre de polynômes $ K[X_1, \ldots, X_n] $ est un anneau intégralement clos.
 
 ### 4. Anneaux complètement intégralement clos
 
-DÉFINITION 5. — On dit qu’un anneau $ A $ est complètement intégralement clos s’il est intègre, et si la condition suivante est vérifiée : tout élément $ x $ du corps des fractions $ K $ de $ A $ tel que toutes les puissances $ x^n $ ($ n \geqslant 0 $) soient contenues dans un sous-A-module de type fini de $ K $, appartient à $ A $.
+#### Définition 5 {#ac-v-s1-def-5 .statement}
+
+On dit qu’un anneau $ A $ est complètement intégralement clos s’il est intègre, et si la condition suivante est vérifiée : tout élément $ x $ du corps des fractions $ K $ de $ A $ tel que toutes les puissances $ x^n $ ($ n \geqslant 0 $) soient contenues dans un sous-A-module de type fini de $ K $, appartient à $ A $.
 
 On notera que l’hypothèse que les $ x^n $ sont contenus dans un sous-A-module de type fini de $ K $ s’exprime encore en disant qu’il existe un élément non nul $ d \in A $ tel que $ dx^n \in A $ pour tout $ n \geqslant 0 $; en effet, cette dernière condition signifie que $ x^n \in Ad^{-1} $; et inversement, si $ (b_i)_{1 \leqslant i \leqslant m} $ est une suite finie d’éléments de $ K $, il existe $ d \in A $ tel que $ db_i \in A $ pour $ 1 \leqslant i \leqslant m $, d’où $ dM \subset A $ pour le sous-A-module $ M $ de $ K $ engendré par les $ b_i $.
 
 Il est clair qu’un anneau complètement intégralement clos est intégralement clos; inversement, le cor. de la prop. 1 du no 1 montre qu’un anneau noethérien intégralement clos est complètement intégralement clos. *Par contre, un anneau de valuation de hauteur $ \geqslant 2 $ (chap. VI, § 4, no 4) est intégralement clos mais non complètement intégralement clos.* Si $ (A_i) $ est une famille d’anneaux complètement intégralement clos ayant même corps des fractions $ K $, $ A = \bigcap_i A_i $ est complètement intégralement clos.
 En effet, si $ x \in K $ est tel que, pour un $ d $ non nul dans $ A $, $ dx^n $ appartienne à $ A $ pour tout $ n > 0 $, l’hypothèse entraîne que $ x \in A_i $ pour tout $ i $, donc $ x \in A $.
 
-PROPOSITION 14. — Soit $ A $ un anneau complètement intégralement clos. Alors tout anneau de polynômes $ A[X_1, \ldots, X_n] $ (resp. tout anneau de séries formelles $ A[[X_1, \ldots, X_n]] $) est complètement intégralement clos.
+#### Proposition 14 {#ac-v-s1-prop-14 .statement}
+
+Soit $ A $ un anneau complètement intégralement clos. Alors tout anneau de polynômes $ A[X_1, \ldots, X_n] $ (resp. tout anneau de séries formelles $ A[[X_1, \ldots, X_n]] $) est complètement intégralement clos.
 
 Par récurrence sur $ n $, il suffit de prouver que $ A[X] $ (resp. $ A[[X]] $) est complètement intégralement clos. Soit donc $ P $ un élément du corps des fractions de $ A[X] $ (resp. $ A[[X]] $) et supposons
 
@@ -385,7 +407,9 @@ C.Q.F.D.
 
 Soient A un anneau, R une A-algèbre, S une partie multiplicative de A. Rappelons (chap. II, § 2, no 8) que S^{-1}R est canoniquement muni d’une structure de S^{-1}A-algèbre.
 
-PROPOSITION 16. — Soient A un anneau, R une A-algèbre, A' la fermeture intégrale de A dans R, S une partie multiplicative de A. Alors la fermeture intégrale de S^{-1}A dans S^{-1}R est S^{-1}A'.
+#### Proposition 16 {#ac-v-s1-prop-16 .statement}
+
+Soient A un anneau, R une A-algèbre, A' la fermeture intégrale de A dans R, S une partie multiplicative de A. Alors la fermeture intégrale de S^{-1}A dans S^{-1}R est S^{-1}A'.
 
 Soit b/s un élément de S^{-1}A' (s \in S, b \in A'). Puisque le diagramme
 
@@ -409,25 +433,25 @@ $$
 $$
 et par suite il existe $ s' \in S $ tel que $ s'(sr^n + a_1 r^{n-1} + \ldots + a_n) = 0 $; on en déduit que $ (s'sr)^n + s'a_1(s'sr)^{n-1} + \cdots + s'^n s^{n-1} a_n = 0 $. Par définition, on a donc $ s'sr \in A' $, d’où $ r/1 \in S^{-1}A' $ et $ r/t \in S^{-1}A' $.
 
-#### Corollaire 1 {#ac-v-s1-prop-15-cor-1 .statement}
+#### Corollaire 1 {#ac-v-s1-prop-16-cor-1 .statement}
 
 *Soient A un anneau intègre, A' sa clôture intégrale, S une partie multiplicative de A telle que $ 0 \notin S $. Alors la clôture intégrale de $ S^{-1}A $ est $ S^{-1}A' $.*
 
 En effet, le corps des fractions R de A est aussi le corps des fractions de $ S^{-1}A $ puisque $ 0 \notin S $ (chap. II, § 1, no 1, Remarque 7); on applique à R la prop. 16.
 
-#### Corollaire 2 {#ac-v-s1-prop-15-cor-2 .statement}
+#### Corollaire 2 {#ac-v-s1-prop-16-cor-2 .statement}
 
 *Soient A un anneau intègre, K son corps des fractions, R une algèbre sur K, B la fermeture intégrale de A dans R. Les éléments de R algébriques sur K (no 1, Exemple 1) sont les éléments de la forme $ a^{-1} b $ où $ b \in B $ et $ a \in A $, $ a \neq 0 $; si L est la fermeture algébrique de K dans R, il existe une base de L sur K contenue dans B.*
 
 La première assertion résulte de la prop. 16 appliquée au cas où $ S = A - \{0\} $. Si $ (x_i)_{i \in I} $ est une base de L sur K, il existe donc pour tout $ i \in I $ un élément $ a_i \neq 0 $ de A tel que $ a_i x_i \in B $; alors $ (a_i x_i)_{i \in I} $ est aussi une base de L sur K.
 
-#### Corollaire 3 {#ac-v-s1-prop-15-cor-3 .statement}
+#### Corollaire 3 {#ac-v-s1-prop-16-cor-3 .statement}
 
 *Soient A un anneau intègre, $ \Omega $ l’ensemble des idéaux maximaux de A. Pour que A soit intégralement clos, il faut et il suffit que, pour tout $ m \in \Omega $, $ A_m $ soit intégralement clos.*
 
 Il résulte du cor. 1 que la condition est nécessaire. La condition est suffisante, car on a $ A = \bigcap_{m \in \Omega} A_m $ (chap. II, § 3, no 3, formule (2)), et il suffit d’appliquer le cor. de la prop. 8 du no 2.
 
-#### Corollaire 4 {#ac-v-s1-prop-15-cor-4 .statement}
+#### Corollaire 4 {#ac-v-s1-prop-16-cor-4 .statement}
 
 *Soient A un anneau intègre, K son corps des fractions, S une partie multiplicative de A telle que $ 0 \notin S $.*
 (i) *Soient B un sous-anneau de K entier sur A, et soit $ f $ l’annulateur du A-module B/A. Alors $ S^{-1}f $ est contenu dans l’annulateur du $ (S^{-1}A)$-module $ S^{-1}B/S^{-1}A $, et est égal à cet annulateur lorsque B est un A-module de type fini.*
@@ -437,7 +461,9 @@ Il résulte du cor. 1 que la condition est nécessaire. La condition est suffisa
 
 Lorsque $ B $ est un sous-anneau de $ K $ entier sur $ A $, on dit parfois que l’annulateur $ f $ de $ B/A $ (égal par définition au transporteur $ A:B $ (chap. I, § 2, no 10)) est le conducteur de $ B $ dans $ A $.
 
-COROLLAIRE 5. — Soient $ A $ un anneau intègre, $ A' $ sa clôture intégrale, et $ f $ l’annulateur du $ A $-module $ A'/A $. Supposons que $ A' $ soit un $ A $-module de type fini. Les idéaux premiers $ \mathfrak{p} $ de $ A $ tels que $ A_{\mathfrak{p}} $ ne soit pas intégralement clos sont ceux qui contiennent $ f $. Cela résulte aussitôt du cor. 4, (ii) appliqué à $ S = A - \mathfrak{p} $.
+#### Corollaire 5 {#ac-v-s1-prop-16-cor-5 .statement}
+
+Soient $ A $ un anneau intègre, $ A' $ sa clôture intégrale, et $ f $ l’annulateur du $ A $-module $ A'/A $. Supposons que $ A' $ soit un $ A $-module de type fini. Les idéaux premiers $ \mathfrak{p} $ de $ A $ tels que $ A_{\mathfrak{p}} $ ne soit pas intégralement clos sont ceux qui contiennent $ f $. Cela résulte aussitôt du cor. 4, (ii) appliqué à $ S = A - \mathfrak{p} $.
 
 On notera que sous les hypothèses du cor. 5, on a $ f \neq 0 $, puisque $ A' $ est un $ A $-module de type fini et que tout élément de $ K/A $ ($ K $ corps des fractions de $ A $) a un annulateur $ \neq 0 $.
 
@@ -445,7 +471,9 @@ On notera que sous les hypothèses du cor. 5, on a $ f \neq 0 $, puisque $ A' $ 
 
 ### 6. Normes et traces d’entiers
 
-PROPOSITION 17. — Soient $ A $ un anneau, $ B $ une $ A $-algèbre (commutative), $ X $ une matrice carrée d’ordre $ n $ sur $ B $; les propriétés suivantes sont équivalentes:
+#### Proposition 17 {#ac-v-s1-prop-17 .statement}
+
+Soient $ A $ un anneau, $ B $ une $ A $-algèbre (commutative), $ X $ une matrice carrée d’ordre $ n $ sur $ B $; les propriétés suivantes sont équivalentes:
 
 a) $ X $ est entière sur $ A $.
 
@@ -465,15 +493,21 @@ dans $B$ est réduit à 0, la condition $(E_{III})$ du no 1, th. 1 prouve que $d
 
 C.Q.F.D.
 
-COROLLAIRE 1. — Soient $A$ un anneau intègre, $K$ son corps des fractions, $K'$ une $K$-algèbre de dimension finie (non nécessairement commutative). Si $x \in K'$ est entier sur $A$, les coefficients du polynôme caractéristique $Pc_{K'/K}(x;X)$ (Alg., chap. VIII, § 12, no 2) sont entiers sur $A$.
+#### Corollaire 1 {#ac-v-s1-prop-17-cor-1 .statement}
+
+Soient $A$ un anneau intègre, $K$ son corps des fractions, $K'$ une $K$-algèbre de dimension finie (non nécessairement commutative). Si $x \in K'$ est entier sur $A$, les coefficients du polynôme caractéristique $Pc_{K'/K}(x;X)$ (Alg., chap. VIII, § 12, no 2) sont entiers sur $A$.
 
 En effet, si $z \to M(z)$ est la représentation régulière de l’algèbre $K'$ (considérée comme représentation matricielle; cf. Alg., chap. VIII, § 13) $Pc_{K'/K}(x;X)$ est par définition le polynôme caractéristique de la matrice $M(x)$; si $x$ est entier sur $A$, la matrice $M(x)$ est entière sur $A$ (no 1, prop. 2), et il suffit d’appliquer la prop. 17.
 
-COROLLAIRE 2. — Avec les mêmes hypothèses et notations que dans le cor. 1, $Tr_{K'/K}(x)$ et $N_{K'/K}(x)$ sont entiers sur $A$.
+#### Corollaire 2 {#ac-v-s1-prop-17-cor-2 .statement}
+
+Avec les mêmes hypothèses et notations que dans le cor. 1, $Tr_{K'/K}(x)$ et $N_{K'/K}(x)$ sont entiers sur $A$.
 
 En effet, $Tr_{K'/K}(x)$ et $N_{K'/K}(x)$ sont, au signe près, des coefficients de $Pc_{K'/K}(x;X)$ (Alg., chap. VIII, § 12, no 1, formules (4)), donc sont entiers.
 
-PROPOSITION 18. — Soient $ A $ un anneau intégralement clos, $ K $ son corps des fractions, $ K' $ une $ K $-algèbre commutative séparable (A, V, p. 114) de dimension finie, $ A' $ la fermeture intégrale de $ A $ dans $ K' $. Alors $ A' $ est contenu dans un $ A $-module de type fini.
+#### Proposition 18 {#ac-v-s1-prop-18 .statement}
+
+Soient $ A $ un anneau intégralement clos, $ K $ son corps des fractions, $ K' $ une $ K $-algèbre commutative séparable (A, V, p. 114) de dimension finie, $ A' $ la fermeture intégrale de $ A $ dans $ K' $. Alors $ A' $ est contenu dans un $ A $-module de type fini.
 La proposition résultera du lemme plus précis suivant :
 
 #### Lemme 3 {#ac-v-s1-lem-3 .statement}
@@ -494,13 +528,19 @@ sur $ K' $ est donc non dégénérée (loc. cit., prop. 4); ceci démontre l’e
 
 Dans les deux corollaires qui suivent, les hypothèses et notations sont celles de la prop. 18.
 
-COROLLAIRE 1. — Si $ A $ est un anneau noethérien, le $ A $-module $ A' $ est de type fini, et en particulier l’anneau $ A' $ est noethérien.
+#### Corollaire 1 {#ac-v-s1-lem-3-cor-1 .statement}
+
+Si $ A $ est un anneau noethérien, le $ A $-module $ A' $ est de type fini, et en particulier l’anneau $ A' $ est noethérien.
 En effet $ A' $ est un sous-module d’un $ A $-module de type fini.
 
-COROLLAIRE 2. — Si $ A $ est un anneau principal, $ A' $ est un $ A $-module libre de rang $ n $.
+#### Corollaire 2 {#ac-v-s1-lem-3-cor-2 .statement}
+
+Si $ A $ est un anneau principal, $ A' $ est un $ A $-module libre de rang $ n $.
 En effet, tout sous-module d’un $ A $-module libre est alors libre (Alg., chap. VII, § 3, th. 1).
 
-COROLLAIRE 3. — Soit $ E $ une extension de degré $ n $ du corps $ \mathbf{Q} $ des nombres rationnels. Le groupe additif de la fermeture intégrale dans $ E $ de l’anneau $ \mathbf{Z} $ des entiers rationnels est un groupe commutatif libre de rang $ n $.
+#### Corollaire 3 {#ac-v-s1-lem-3-cor-3 .statement}
+
+Soit $ E $ une extension de degré $ n $ du corps $ \mathbf{Q} $ des nombres rationnels. Le groupe additif de la fermeture intégrale dans $ E $ de l’anneau $ \mathbf{Z} $ des entiers rationnels est un groupe commutatif libre de rang $ n $.
 En effet, $ \mathbf{Z} $ est intégralement clos (no 3, prop. 10) et $ E $ est séparable puisque $ \mathbf{Q} $ est de caractéristique 0. On peut donc appliquer le cor. 2 au cas où $ A = \mathbf{Z}, K = \mathbf{Q} $ et $ K' = E $.
 
 #### Remarque 2 {#ac-v-s1-n6-rem-2 .statement}
@@ -509,7 +549,9 @@ Les conclusions du cor. 1 ne sont pas nécessairement vraies si on ne suppose pa
 
 ### 7. Extension des scalaires dans une algèbre intégralement close
 
-PROPOSITION 19. — Soient $ k $ un corps, $ L $ une extension séparable de $ k $, $ R $ une $ k $-algèbre intégralement close. Si l’anneau $ L \otimes_k R $ est intègre, il est intégralement clos.
+#### Proposition 19 {#ac-v-s1-prop-19 .statement}
+
+Soient $ k $ un corps, $ L $ une extension séparable de $ k $, $ R $ une $ k $-algèbre intégralement close. Si l’anneau $ L \otimes_k R $ est intègre, il est intégralement clos.
 Soit $ K $ le corps des fractions de $ R $; comme $ k $ est un corps, $ L \otimes_k R $ s’identifie canoniquement à une sous-$ k $-algèbre de $ L \otimes_k K $ et $ L $ et $ R $ à des sous-$ k $-algèbres de $ L \otimes_k R $. En outre, un élément $ s \neq 0 $ de $ R $ étant non diviseur de 0 dans $ R $, $ 1 \otimes s $ est non diviseur de zéro dans $ L \otimes_k R $ puisque $ L $ est plat sur $ k $ (chap. I,
 
 1° Supposons d’abord que $ L $ soit une extension de degré fini de $ k $; alors $ L \otimes_k K $ est une algèbre de rang fini sur $ K $ et par hypothèse n’a pas de diviseur de 0; donc c’est un corps (Alg., chap. V, § 2, n° 1, prop. 1), et par suite c’est dans ce cas le corps des fractions $ \Omega $ de $ L \otimes_k R $. Soit $ (\omega_1, \ldots, \omega_n) $ une base de $ L $ sur $ k $, qui est donc aussi une base de $ L \otimes_k K $ sur $ K $. Il existe une base $ (\omega_1^*, \ldots, \omega_n^*) $ de $ L $ telle que $ \mathrm{Tr}_{L/k}(\omega_i \omega_j^*) = \delta_{ij} $ (n° 6, lemme 3); tout $ z \in L \otimes_k K $ s’écrit d’une seule manière $ z = \sum_{i=1}^n a_i \omega_i $ avec $ a_i \in K $; on a donc $ \mathrm{Tr}_{(L \otimes K)/K}(z \omega_j^*) = \sum_{i=1}^n a_i \mathrm{Tr}_{(L \otimes K)/K}(\omega_i \omega_j^*) $ et comme dans $ L $ les traces $ \mathrm{Tr}_{(L \otimes K)/K} $ et $ \mathrm{Tr}_{L/k} $ coïncident (Alg., chap. VIII, § 12, n° 2, formule (13)), on a finalement $ \mathrm{Tr}_{(L \otimes K)/K}(z \omega_j^*) = a_j $ pour $ 1 \leq j \leq n $. Notons d’autre part que les éléments de $ L $ sont entiers sur $ k $, donc aussi sur $ R $ (n° 1, cor. 1 de la prop. 2); par suite (n° 1, prop. 5) $ L \otimes_k R $ est entière sur $ R $. Cela étant, supposons $ z \in L \otimes_k K $ entier sur $ L \otimes_k R $; alors $ z $ est aussi entier sur $ R $ (n° 1, prop. 6), donc il en est de même de $ z \omega_j^* $ et par suite aussi de $ a_j = \mathrm{Tr}_{(L \otimes K)/K}(z \omega_j^*) $ pour $ 1 \leq j \leq n $ (n° 6, cor. 2 de la prop. 17). Comme $ R $ est intégralement clos, on a $ a_j \in R $ pour tout $ j $, donc $ z \in L \otimes_k R $, ce qui démontre la proposition dans ce cas.
@@ -527,7 +569,9 @@ C.Q.F.D.
 
 *Soient $ V $ une variété algébrique irréductible affine, $ k $ un corps de définition de $ V $, $ R $ l’anneau des fonctions régulières sur $ V $ définies sur $ k $; lorsque $ R $ est intégralement clos, on dit que $ V $ est *normale sur* $ k $; la prop. 19 montre que si $ V $ est normale sur $ k $, elle reste normale sur toute extension séparable $ L $ de $ k_*$
 
-COROLLAIRE. — *Soient $ k $ un corps, $ R $ et $ S $ deux $ k $-algèbres intégralement closes. On suppose que l’anneau $ R \otimes_k S $ est intègre et que les corps des fractions $ K $ et $ L $ de $ R $ et $ S $ respectivement sont séparables sur $ k $. Alors l’anneau $ R \otimes_k S $ est intégralement clos.*
+#### Corollaire {#ac-v-s1-n7-cor-1 .statement}
+
+*Soient $ k $ un corps, $ R $ et $ S $ deux $ k $-algèbres intégralement closes. On suppose que l’anneau $ R \otimes_k S $ est intègre et que les corps des fractions $ K $ et $ L $ de $ R $ et $ S $ respectivement sont séparables sur $ k $. Alors l’anneau $ R \otimes_k S $ est intégralement clos.*
 
 En effet, comme $ R $ et $ S $ s’identifient à des sous-algèbres de $ R \otimes_k S $, $ K $ et $ L $ s’identifient à des sous-corps du corps des fractions $ \Omega $ de $ R \otimes_k S $, linéairement disjoints sur $ k $ (*Alg.*, chap. V, § 2, no 3, prop. 5). Il résulte alors de la prop. 19 que $ R \otimes_k L $ et $ K \otimes_k S $ sont intégralement clos; comme leur intersection est $ R \otimes_k S $ (chap. I, § 2, no 6, prop. 7), $ R \otimes_k S $ est intégralement clos (no 2, cor. de la prop. 8).
 
@@ -591,19 +635,27 @@ Rappelons (chap. II, § 2, no 9) que si $ A = \bigoplus_{i \in \mathbf{Z}} A_i $
 
 Les assertions de (i) découlent immédiatement des définitions et de l’hypothèse que A est intègre, car si $ a/s $ et $ a'/s' $ sont deux éléments homogènes $ \neq 0 $ de $ S^{-1}A $, de degrés $ i $ et $ i' $, $ aa'/ss' $ est un élément homogène $ \neq 0 $ et de degré $ i + i' $. Pour démontrer (ii), notons que puisque $ t $ est inversible dans $ S^{-1}A $, l’homomorphisme $ f $ se prolonge d’une seule manière en un homomorphisme $ \bar{f} : K_0[X, X^{-1}] \to S^{-1}A $ et l’on a nécessairement $ \bar{f}(X^{-1}) = t^{-1} $. D’autre part, par définition de $ q $, tout élément homogène $ \neq 0 $ de $ S^{-1}A $ est de degré $ qn $ ($ n \in \mathbf{Z} $), donc peut s’écrire d’une seule manière sous la forme $ \lambda t^n $ avec $ \lambda \in K_0 $ (puisque $ S^{-1}A $ est intègre); donc $ \bar{f} $ est bijectif. Enfin, on sait que $ K_0[X] $ est intégralement clos (no 3, prop. 10), donc il en est de même de $ K_0[X, X^{-1}] $ (no 5, cor. 1 de la prop. 16), ce qui achève de prouver le lemme.
 
-PROPOSITION 21. — Soient $ A = \bigoplus_{i \in \mathbf{Z}} A_i $ un anneau gradué intègre, S l’ensemble des éléments homogènes $ \neq 0 $ de A. La clôture intégrale $ A' $ de A est alors un sous-anneau gradué de $ S^{-1}A $. Si en outre $ A_i = 0 $ pour $ i < 0 $, on a $ A'_i = 0 $ pour $ i < 0 $.
+#### Proposition 21 {#ac-v-s1-prop-21 .statement}
+
+Soient $ A = \bigoplus_{i \in \mathbf{Z}} A_i $ un anneau gradué intègre, S l’ensemble des éléments homogènes $ \neq 0 $ de A. La clôture intégrale $ A' $ de A est alors un sous-anneau gradué de $ S^{-1}A $. Si en outre $ A_i = 0 $ pour $ i < 0 $, on a $ A'_i = 0 $ pour $ i < 0 $.
 
 Si $ A = A_0 $, la proposition est triviale. Sinon, on peut appliquer le lemme 4; l’anneau $ S^{-1}A $ est intégralement clos et par suite $ A' \subset S^{-1}A $; comme $ S^{-1}A $ est gradué, il en est de même de $ A' $ en vertu de la prop. 20; la dernière assertion résulte aussi de la prop. 20.
 
-COROLLAIRE 1. — Les hypothèses et notations étant celles de la prop. 21, si tout élément homogène de $ S^{-1}A $ qui est entier sur A appartient à A, alors A est intégralement clos.
+#### Corollaire 1 {#ac-v-s1-prop-21-cor-1 .statement}
+
+Les hypothèses et notations étant celles de la prop. 21, si tout élément homogène de $ S^{-1}A $ qui est entier sur A appartient à A, alors A est intégralement clos.
 
 En effet on a, alors $ A'_i \subset A $ pour tout $ i \in \mathbf{Z} $, donc $ A' = A $.
 
-COROLLAIRE 2. — Si $ A = \bigoplus_{i \in \mathbf{Z}} A_i $ est un anneau gradué intégralement clos, l’anneau $ A_0 $ est intégralement clos.
+#### Corollaire 2 {#ac-v-s1-prop-21-cor-2 .statement}
+
+Si $ A = \bigoplus_{i \in \mathbf{Z}} A_i $ est un anneau gradué intégralement clos, l’anneau $ A_0 $ est intégralement clos.
 
 En effet, le corps des fractions $ K_0 $ de $ A_0 $ s’identifie (avec les notations de la prop. 21) à un sous-anneau de l’anneau des éléments homogènes de degré 0 de $ S^{-1}A $; tout élément de $ K_0 $ entier sur $ A_0 $ (et a fortiori sur A) appartient donc par hypothèse à $ A_0 $.
 
-COROLLAIRE 3. — Soit $ A = \bigoplus_{i \in \mathbf{Z}} A_i $ un anneau gradué intégralement clos. Alors, pour tout entier $ d > 0 $, l’anneau $ A^{(d)} $ (chap. III, § 1, no 3) est intégralement clos.
+#### Corollaire 3 {#ac-v-s1-prop-21-cor-3 .statement}
+
+Soit $ A = \bigoplus_{i \in \mathbf{Z}} A_i $ un anneau gradué intégralement clos. Alors, pour tout entier $ d > 0 $, l’anneau $ A^{(d)} $ (chap. III, § 1, no 3) est intégralement clos.
 
 Soit U l’ensemble des éléments homogènes $ \neq 0 $ de $ A^{(d)} $, et soit x un élément homogène de $ U^{-1}A^{(d)} $ entier sur $ A^{(d)} $, donc sur A; comme $ x \in S^{-1}A $, x appartient à A par hypothèse; comme son degré est divisible par d, il appartient à $ A^{(d)} $, et il résulte donc du cor. 1 que $ A^{(d)} $ est intégralement clos.
 

@@ -26,9 +26,9 @@ subsections:
       title: Anneaux de Jacobson
       page: 0
       pdf_page: 62
-statements: 11
+statements: 19
 exercises: 10
-content_sha256: 0c4075dcd7d328f0f7f05fce1be185e129f678a0ccf3e298c0a3427101c4e74f
+content_sha256: e28d815afb8d71eb42711267ba633a50260e3d9a4e1672ac2fbcfe1d3c21d942
 ---
 
 ## § 3. Algèbres de type fini sur un corps.
@@ -112,11 +112,15 @@ $$
 
 où les $ Q_{hj} $ sont des polynômes en $ y_1, \ldots, y_n $, à coefficients dans $ A $; si on pose $ z'_j = sz_j $, on voit, en multipliant (6) par $ s^{q_j-1} $, que $ z'_j $ est entier sur $ B' = A[y_1, \ldots, y_n] $. Montrons que les $ y_i $ sont algébriquement indépendants sur $ A $; en effet, si on a une relation de la forme $ \sum_p a_p y_1^{p_1} \ldots y_n^{p_n} = 0 $ avec $ a_p \in A $ pour tout $ p $, on en déduit $ \sum_p a'_p x_1^{p_1} \ldots x_n^{p_n} = 0 $ dans $ S^{-1}B $, avec $ a'_p = a_p s^{p_1+\cdots+p_n} $ dans $ k $; par hypothèse, on a donc $ a'_p = 0 $ pour tout $ p $, d’où $ a_p = 0 $ pour tout $ p $. En outre, dans l’anneau $ B[s^{-1}] $, chacun des $ z'_j/1 $ est entier sur $ B'[s^{-1}] $ ($ § 1 $, no 1, prop. 2), et comme $ z_j/1 = (z'_j/1)(1/s) $ dans $ B[s^{-1}] $, on voit que les $ z_j/1 $ sont entiers sur $ B'[s^{-1}] $, ce qui achève la démonstration ($ § 1 $, no 1, prop. 4).
 
-COROLLAIRE 2. — Soient $ K $ un corps, $ A $ un sous-anneau de $ K $ et $ L $ le corps des fractions de $ A $. Si $ K $ est une $ A $-algèbre de type fini, $ [K : L] $ est fini et il existe $ a \neq 0 $ dans $ A $ tel que $ L = A[a^{-1}] $.
+#### Corollaire 2 {#ac-v-s3-thm-1-cor-2 .statement}
+
+Soient $ K $ un corps, $ A $ un sous-anneau de $ K $ et $ L $ le corps des fractions de $ A $. Si $ K $ est une $ A $-algèbre de type fini, $ [K : L] $ est fini et il existe $ a \neq 0 $ dans $ A $ tel que $ L = A[a^{-1}] $.
 
 En effet, il résulte du cor. 1 qu’il existe des éléments $ x_1, \ldots, x_n $ de $ K $ et un élément $ a \neq 0 $ de $ A $ tels que $ x_1, \ldots, x_n $ soient algébriquement indépendants sur $ A $ (et par suite sur $ L $) et que $ K $ soit entier sur le sous-anneau $ A[x_1, \ldots, x_n, a^{-1}] $. Il résulte donc du § 2, no 1, lemme 2 que $ A[x_1, \ldots, x_n, a^{-1}] $ est un corps. Mais les seuls éléments inversibles d’un anneau de polynômes $ C[Y_1, \ldots, Y_n] $ sur un anneau intègre $ C $ sont les éléments inversibles de $ C $; appliquant cette remarque à $ C = A[a^{-1}] $, on voit qu’on a nécessairement $ n = 0 $ et que $ A[a^{-1}] $ est un corps, égal à $ L $ par définition de ce dernier. Comme $ K $ est entier sur $ L $ et est une $ L $-algèbre de type fini, le degré $ [K : L] $ est fini ($ § 1 $, no 1, prop. 4).
 
-COROLLAIRE 3. — Soient $ A $ un anneau intègre, $ B $ une $ A $-algèbre de type fini, $ b $ un élément de $ B $ tel que $ zb^n \neq 0 $ pour tout $ z \neq 0 $ dans $ A $ et tout entier $ n > 0 $. Soit $ \rho : A \to B $ l’homomorphisme canonique; il existe $ a \neq 0 $ dans $ A $ tel que, pour tout homomorphisme $ f $ de $ A $ dans un corps algébriquement clos $ L $, tel que $ f(a) \neq 0 $, il existe un homomorphisme $ g $ de $ B $ dans $ L $ tel que $ g(b) \neq 0 $ et que $ f = g \circ \rho $.
+#### Corollaire 3 {#ac-v-s3-thm-1-cor-3 .statement}
+
+Soient $ A $ un anneau intègre, $ B $ une $ A $-algèbre de type fini, $ b $ un élément de $ B $ tel que $ zb^n \neq 0 $ pour tout $ z \neq 0 $ dans $ A $ et tout entier $ n > 0 $. Soit $ \rho : A \to B $ l’homomorphisme canonique; il existe $ a \neq 0 $ dans $ A $ tel que, pour tout homomorphisme $ f $ de $ A $ dans un corps algébriquement clos $ L $, tel que $ f(a) \neq 0 $, il existe un homomorphisme $ g $ de $ B $ dans $ L $ tel que $ g(b) \neq 0 $ et que $ f = g \circ \rho $.
 
 L’hypothèse faite sur $ b $ entraîne que si $ h $ est l’homomorphisme canonique $ x \to x/1 $ de $ B $ dans $ B[b^{-1}] $, l’homomorphisme $ h \circ \rho $ de $ A $ dans $ B[b^{-1}] $ est injectif. En vertu du cor. 1, il existe donc un élément $ a \neq 0 $ de $ A $ et un sous-anneau $ B' $ de $ B[b^{-1}] $ tel que $ B[b^{-1}, a^{-1}] $ soit entier sur $ B'[a^{-1}] $ et que $ B' $ soit isomorphe à une algèbre de polynômes $ A[Y_1, \ldots, Y_n] $. Soit $ f $ un homomorphisme de $ A $ dans un corps algébriquement clos $ L $, tel que $ f(a) \neq 0 $; il existe un homomorphisme de $ A[Y_1, \ldots, Y_n] $ dans $ L $ prolongeant $ f $, donc il existe un homomorphisme $ f' $ de $ B' $ dans $ L $ prolongeant $ f $. Comme $ f'(a) \neq 0 $ dans $ L $, il existe un homomorphisme $ f'' $ de $ B'[a^{-1}] $ dans $ L $ tel que
 
@@ -178,7 +182,9 @@ Il existe un homomorphisme $ h $ de $ k $-algèbres de $ k[X_1, \ldots, X_n] $ s
 
 Si on applique la prop. 1 à l’algèbre $ A = k[X_1, \ldots, X_n]/r $, où $ r $ est un idéal de $ k[X_1, \ldots, X_n] $ distinct de l’anneau tout entier, on obtient, en vertu du lemme 1, l’énoncé suivant:
 
-PROPOSITION 2 (théorème des zéros de Hilbert). — Soient $ k $ un corps, $ L $ une clôture algébrique de $ k $.
+#### Proposition 2 (théorème des zéros de Hilbert) {#ac-v-s3-prop-2 .statement}
+
+Soient $ k $ un corps, $ L $ une clôture algébrique de $ k $.
 
 (i) Tout idéal $ r $ de $ k[X_1, \ldots, X_n] $ ne contenant pas 1 admet au moins un zéro dans $ L^n $.
 
@@ -212,19 +218,27 @@ Pour qu’un anneau $ A $ soit un anneau de Jacobson, il faut et il suffit que, 
 
 Le radical (resp. nilradical) de $ A/a $ est l’intersection des idéaux maximaux (resp. premiers) de $ A/a $ ($ Alg. $, chap. VIII, § 6, no 3, déf. 3 et $ Alg. comm. $, chap. II, § 2, no 6, prop. 13). La condition énoncée signifie donc que pour tout idéal $ a $ de $ A $, l’intersection des idéaux premiers contenant $ a $ est égale à l’intersection des idéaux maximaux contenant $ a $. Cette condition est évidemment vérifiée pour tout idéal $ a $ de $ A $ si $ A $ est un anneau de Jacobson; réciproquement, si elle est vérifiée pour tout idéal premier de $ A $, $ A $ est un anneau de Jacobson par définition.
 
-COROLLAIRE. — *Soit $ A $ un anneau de Jacobson; pour tout idéal $ a $ de $ A $, la racine de $ a $ est l’intersection des idéaux maximaux de $ A $ contenant $ a $.*
+#### Corollaire {#ac-v-s3-n4-cor-1 .statement}
+
+*Soit $ A $ un anneau de Jacobson; pour tout idéal $ a $ de $ A $, la racine de $ a $ est l’intersection des idéaux maximaux de $ A $ contenant $ a $.*
 
 Il suffit de remarquer que $ A/a $ est un anneau de Jacobson.
 
-PROPOSITION 4. — *Soient $ A $ un anneau principal, $ (p_\lambda)_{\lambda \in L} $ un système représentatif d’éléments extrémaux de $ A $ (Alg., chap. VII, § 1, no 3, déf. 2). Pour que $ A $ soit un anneau de Jacobson, il faut et il suffit que $ L $ soit infini.*
+#### Proposition 4 {#ac-v-s3-prop-4 .statement}
+
+*Soient $ A $ un anneau principal, $ (p_\lambda)_{\lambda \in L} $ un système représentatif d’éléments extrémaux de $ A $ (Alg., chap. VII, § 1, no 3, déf. 2). Pour que $ A $ soit un anneau de Jacobson, il faut et il suffit que $ L $ soit infini.*
 
 En effet, les idéaux maximaux de $ A $ sont les $ Ap_\lambda $ (*loc. cit.*, no 2, prop. 2). Si $ L $ est fini, leur intersection est l’idéal $ Ax $, où $ x = \prod_{\lambda \in L} p_\lambda $ (*ibid.*), donc est différente de $ (0) $; au contraire, si $ L $ est infini, l’intersection des $ Ap_\lambda $ est $ (0) $, tout élément $ \neq 0 $ de $ A $ n’étant divisible que par un nombre fini d’éléments extrémaux (*loc. cit.*, no 3, th. 2). La proposition résulte alors de ce que $ (0) $ est le seul idéal premier non maximal de $ A $ (Alg. chap. VI, § 1, no 13, prop. 14 (DIV)).
 
-PROPOSITION 5. — *Soient $ A $ un anneau, $ B $ une $ A $-algèbre entière sur $ A $. Si $ A $ est un anneau de Jacobson, il en est de même de $ B $.*
+#### Proposition 5 {#ac-v-s3-prop-5 .statement}
+
+*Soient $ A $ un anneau, $ B $ une $ A $-algèbre entière sur $ A $. Si $ A $ est un anneau de Jacobson, il en est de même de $ B $.*
 
 Remplaçant $ A $ par son image canonique dans $ B $, on peut supposer que $ A \subset B $. Soit $ p' $ un idéal premier de $ B $, et soit $ p = A \cap p' $. Il existe par hypothèse une famille $ (m_\lambda)_{\lambda \in L} $ d’idéaux maximaux de $ A $ dont l’intersection est égale à $ p $. Pour tout $ \lambda \in L $, il existe un idéal maximal $ m'_\lambda $ de $ B $ au-dessus de $ m_\lambda $ et contenant $ p' $ ($ § 2 $, no 1, prop. 1 et cor. 2 du th. 1). Si l’on pose $ q' = \bigcap_{\lambda \in L} m'_\lambda $, on a donc $ q' \cap A = \bigcap_{\lambda \in L} m_\lambda = p $, et $ q' \supset p' $, d’où $ q' = p' $ ($ § 2 $, no 1, cor. 1 de la prop. 1).
 
-THÉORÈME 3. — *Soient $ A $ un anneau de Jacobson, $ B $ une $ A $-algèbre de type fini, $ \rho : A \to B $ l’homomorphisme canonique. Alors :
+#### Théorème 3 {#ac-v-s3-thm-3 .statement}
+
+*Soient $ A $ un anneau de Jacobson, $ B $ une $ A $-algèbre de type fini, $ \rho : A \to B $ l’homomorphisme canonique. Alors :
 
 (i) $ B $ est un anneau de Jacobson.
 
@@ -238,19 +252,21 @@ $$
 
 un homomorphisme tel que $ f = g \circ \varphi $ et $ g(\nu) \neq 0 $. On a $ A/m \subset g(B/\mathfrak{p}') \subset L $, donc $ g(B/\mathfrak{p}') $ est un sous-corps de $ L $ ($ Alg. $, chap. V, § 3, no 2, prop. 3), et le noyau de $ g $ est par suite un idéal maximal de $ B/\mathfrak{p}' $ ne contenant pas $ \nu $. On voit ainsi que l’intersection des idéaux maximaux de $ B/\mathfrak{p}' $ est réduite à 0, ce qui prouve que $ B $ est un anneau de Jacobson. En outre, si $ \mathfrak{p}' $ est maximal, $ g $ est nécessairement injectif, donc $ \mathfrak{p} = m $ est maximal; enfin $ B/\mathfrak{p}' $ est alors une algèbre de type fini sur le corps $ A/m $, donc est une extension de degré fini de $ A/m $ (no 1, cor. 2 du th. 1).
 
-#### Corollaire 1 {#ac-v-s3-prop-3-cor-1 .statement}
+#### Corollaire 1 {#ac-v-s3-thm-3-cor-1 .statement}
 
 *Toute algèbre $ A $ de type fini sur $ \mathbf{Z} $ est un anneau de Jacobson; pour qu’un idéal premier $ \mathfrak{p} $ de $ A $ soit maximal, il faut et il suffit que l’anneau $ A/\mathfrak{p} $ soit fini.*
 
 Si l’anneau intègre $ A/\mathfrak{p} $ est fini, c’est un corps, car pour tout $ u \neq 0 $ dans $ A/\mathfrak{p} $, l’application $ \nu \to u\nu $ de $ A/\mathfrak{p} $ dans lui-même est injective, donc bijective puisque $ A/\mathfrak{p} $ est fini. Inversement, pour tout idéal maximal $ m $ de $ A $, l’image réciproque de $ m $ dans $ \mathbf{Z} $ est un idéal maximal ($ p $) et $ A/m $ est de degré fini sur le corps premier $ \mathbf{Z}/(p) = \mathbf{F}_p $, en vertu du th. 3.
 
-#### Corollaire 2 {#ac-v-s3-prop-3-cor-2 .statement}
+#### Corollaire 2 {#ac-v-s3-thm-3-cor-2 .statement}
 
 *Soit $ (P_\lambda)_{\lambda \in L} $ une famille de polynômes de $ \mathbf{Z}[X_1, \ldots, X_n] $, et soit $ Q $ un polynôme de $ \mathbf{Z}[X_1, \ldots, X_n] $ tel que pour tout système d’éléments $ (x_i)_{1 \leq i \leq n} $ appartenant à un corps fini et pour lequel $ P_\lambda(x_1, \ldots, x_n) = 0 $ pour tout $ \lambda $, on ait aussi $ Q(x_1, \ldots, x_n) = 0 $. Alors, si $ a $ est l’idéal de $ \mathbf{Z}[X_1, \ldots, X_n] $ engendré par les $ P_\lambda $, il existe un entier $ m > 0 $ tel que $ Q^m \in a $. En outre, pour tout anneau réduit $ R $ et tout système $ (y_i)_{1 \leq i \leq n} $ d’éléments de $ R $ tel que $ P_\lambda(y_1, \ldots, y_n) = 0 $ pour tout $ \lambda $, on a aussi $ Q(y_1, \ldots, y_n) = 0 $.*
 
 La seconde assertion découle de la première puisque l’idéal de $ \mathbf{Z}[X_1, \ldots, X_n] $ formé des polynômes $ P $ tels que $ P(y_1, \ldots, y_n) = 0 $ contient $ a $. Pour démontrer la première assertion, il suffit de remarquer que pour tout idéal maximal $ m $ de $ A = \mathbf{Z}[X_1, \ldots, X_n] $ contenant $ a $, $ A/m $ est un corps fini (cor. 1), et l’hypothèse entraîne que l’image canonique de $ Q $ dans $ A/m $ est nulle; donc $ Q $ appartient à l’intersection des idéaux maximaux de $ A $ contenant $ a $, qui est la racine de $ a $ (cor. de la prop. 3).
 
-COROLLAIRE 3. — Soit $ A $ un anneau de Jacobson. S’il existe une $ A $-algèbre de type fini $ B $ contenant $ A $, et qui soit un corps, alors $ A $ est un corps et $ B $ est une extension algébrique de $ A $.
+#### Corollaire 3 {#ac-v-s3-thm-3-cor-3 .statement}
+
+Soit $ A $ un anneau de Jacobson. S’il existe une $ A $-algèbre de type fini $ B $ contenant $ A $, et qui soit un corps, alors $ A $ est un corps et $ B $ est une extension algébrique de $ A $.
 En effet, il suffit d’appliquer le th. 3, (ii) avec $ m' = (0) $.
 
 ## EXERCICES {#ac-v-s3-exercises}

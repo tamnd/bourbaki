@@ -1,0 +1,28 @@
+---
+book: ac
+book_title: Commutative Algebra
+chapter: VIII
+chapter_title: DIMENSION
+section: 0
+section_title: DIMENSION
+kind: front
+lang: fr
+source: ac-viii-ix-fr
+pdf_pages: 0005-0005
+extraction: ocr
+statements: 0
+exercises: 0
+content_sha256: c03c760a0128d68873f0d34db41cd1647baa160dc4e03cebf2da52d8b5cbab2c
+---
+
+## CHAPITRE VIII
+
+# Dimension
+
+Dans ce chapitre, tous les anneaux sont supposés commutatifs, les algèbres sont associatives, commutatives et unifères.
+
+Soit $ A $ un anneau. Si $ a $ est un idéal de $ A $ et $ n $ un entier négatif, on pose $ a^n = A $. Pour tout idéal premier $ p $ de $ A $, on note $ \kappa(p) $ le corps résiduel de l’anneau local $ A_p $; il est canoniquement isomorphe au corps des fractions de l’anneau $ A/p $ (II, § 3, no 1, prop. 2). Si $ A $ est local, on note $ m_A $ son idéal maximal et $ \kappa_A = A/m_A = \kappa(m_A) $ son corps résiduel.
+
+Soit $ \rho : A \to B $ un homomorphisme d’anneaux. On note $ ^a\rho $ l’application continue de Spec(B) dans Spec(A) associée à $ \rho $ (II, § 4, no 3). On dit (V, § 2, no 1, déf. 1) qu’un idéal premier $ q $ de $ B $ est au-dessus de l’idéal premier $ p $ de $ A $ si $ p $ est l’image de $ q $ par $ ^a\rho $, c’est-à-dire si $ \rho^{-1}(q) = p $. Soit $ M $ un $ B $-module ; lorsque nous considérerons $ M $ comme $ A $-module, il s’agira toujours de la structure de $ A $-module $ \rho_*(M) $ définie par la loi externe $ (a, m) \mapsto \rho(a).m $ (A, II, p. 30).
+
+Soit $ M $ un $ A $-module. Si $ U $ (resp. $ V $) est un sous-groupe additif de $ A $ (resp. $ M $), on note $ UV $ ou $ U.V $ le sous-groupe additif de $ M $ engendré par les produits $ uv $, pour $ u \in U $ et $ v \in V $. Si $ S $ est une partie de $ A $, on note $ SM $ le sous-module $ \sum_{s \in S} sM $ de $ M $; l’idéal $ \mathfrak{S} $ de $ A $ engendré par $ S $ est égal à $ SA $ et l’on a $ \mathfrak{S}.M = SM $.

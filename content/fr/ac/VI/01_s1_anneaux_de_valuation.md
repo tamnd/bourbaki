@@ -26,9 +26,9 @@ subsections:
       title: Exemples d’anneaux de valuation
       page: 0
       pdf_page: 89
-statements: 15
+statements: 17
 exercises: 9
-content_sha256: 29cb15898721c3be9bccdf2016512aa6a79e9992ad47c59e809ddc412de5f25c
+content_sha256: 3be0207c218375fd4c7a6c7d574600ed1fb2c8529d0ca60d71e0bb1c632b44a9
 ---
 
 ## § 1. Anneaux de valuation.
@@ -141,7 +141,9 @@ Soient $ x $ un élément de $ A' $, et $ V $ un anneau de valuation pour $ K $ 
 
 *Pour qu’un anneau intègre soit intégralement clos, il faut et il suffit qu’il soit l’intersection d’une famille d’anneaux de valuation pour son corps des fractions.*
 
-COROLLAIRE 3. — Soient K un corps, K’ une extension de K, et A un anneau de valuation pour K. La fermeture intégrale de A dans K’ est l’intersection des anneaux de valuation V’ pour K’ tels que V’ ∩ K = A.
+#### Corollaire 3 {#ac-vi-s1-thm-3-cor-3 .statement}
+
+Soient K un corps, K’ une extension de K, et A un anneau de valuation pour K. La fermeture intégrale de A dans K’ est l’intersection des anneaux de valuation V’ pour K’ tels que V’ ∩ K = A.
 
 En effet le th. 1, c) montre que, si V’ est un anneau de valuation pour K’, V’ ∩ K est un anneau de valuation pour K, et V’ domine V’ ∩ K. Pour que V’ domine A, il est nécessaire et suffisant que V’ ∩ K domine A, donc lui soit égal.
 
@@ -153,7 +155,9 @@ En effet le th. 1, c) montre que, si V’ est un anneau de valuation pour K’, 
 
 3) La proposition suivante fournit de nombreux exemples d’anneaux de valuation :
 
-PROPOSITION 2. — Soit A un anneau local dont l’idéal maximal soit un idéal principal Ap. Si $ \bigcap_{n=1}^{\infty} Ap^n = (0) $ (par exemple si A est noethérien, cf. chap. III, § 3, no 2, cor. de la prop. 5), les seuls idéaux de A sont (0) et les Ap^n; alors, ou bien p est nilpotent, ou bien A est un anneau de valuation.
+#### Proposition 2 {#ac-vi-s1-prop-2 .statement}
+
+Soit A un anneau local dont l’idéal maximal soit un idéal principal Ap. Si $ \bigcap_{n=1}^{\infty} Ap^n = (0) $ (par exemple si A est noethérien, cf. chap. III, § 3, no 2, cor. de la prop. 5), les seuls idéaux de A sont (0) et les Ap^n; alors, ou bien p est nilpotent, ou bien A est un anneau de valuation.
 
 Filtrons en effet A par les Ap^n, et notons $ \nu $ la fonction d’ordre correspondante (chap. III, § 2, no 2). Comme
 

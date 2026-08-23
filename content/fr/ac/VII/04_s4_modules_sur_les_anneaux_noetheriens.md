@@ -50,9 +50,9 @@ subsections:
       title: Modules sur les anneaux de Dedekind
       page: 0
       pdf_page: 272
-statements: 57
+statements: 79
 exercises: 26
-content_sha256: cf733f50b82b18a2b4f8b0c040ed9232e178ba85eedc3d43688c3b3f2dd5caa1
+content_sha256: f2a2a4b4cc2c6f4cf91cdf98a9b4a1161c4c5bef6c244fd3c15fa0b6cf3a9365
 ---
 
 ## § 4. Modules sur les anneaux noethériens intégralement clos
@@ -81,17 +81,23 @@ Pour qu’un sous-$ A $-module $ M $ de $ V $ soit un réseau de $ V $, il faut 
 
 Les conditions sont évidemment nécessaires, car un sous-$ A $-module libre de $ V $ ayant même rang que $ V $ engendre $ V $. Inversement, si $ KM = V $, $ M $ contient une base $ (a_i)_{1 \leq i \leq n} $ de $ V $ sur $ K $, donc il contient le sous-$ A $-module libre $ L_1 $ engendré par les $ a_i $; d’autre part, si $ M \subset M_1 $, où $ M_1 $ est un sous-$ A $-module de $ V $ engendré par un nombre fini d’éléments $ b_j $ et si $ (e_i)_{1 \leq i \leq n} $ est une base de $ V $ sur $ K $, il existe un élément $ s \neq 0 $ de $ A $ tel que chacun des $ b_j $ soit combinaison linéaire des $ s^{-1} e_i $ à coefficients *dans* $ A $; si $ L_2 $ est le sous-$ A $-module libre de $ V $ engendré par les $ s^{-1} e_i $, on a donc $ M \subset L_2 $.
 
-COROLLAIRE. — Supposons $ A $ noethérien; pour qu’un sous-A-module $ M $ de $ V $ soit un réseau de $ V $, il faut et il suffit que $ KM = V $ et que $ M $ soit de type fini.
+#### Corollaire {#ac-vii-s4-n1-cor-1 .statement}
+
+Supposons $ A $ noethérien; pour qu’un sous-A-module $ M $ de $ V $ soit un réseau de $ V $, il faut et il suffit que $ KM = V $ et que $ M $ soit de type fini.
 
 #### Remarque 1 {#ac-vii-s4-n1-rem-1 .statement}
 
 Rappelons que pour tout sous-A-module $ M $ de $ V $, l’application canonique $ M \otimes_A K \to V $ est injective et a pour image $ KM $ ($ Alg. $, chap. II, 3e éd., § 7, n° 10, prop. 26); dire que $ KM = V $ signifie donc que cette application est bijective.
 
-PROPOSITION 2. — Soient $ M $ un réseau de $ V $, $ M_1 $ un sous-A-module de $ V $. S’il existe deux éléments $ x, y $ de $ K^* $ tels que $ xM \subset M_1 \subset yM $, $ M_1 $ est un réseau de $ V $; inversement, si $ M_1 $ est un réseau de $ V $, il existe deux éléments $ a, b $ non nuls de $ A $ tels que $ aM \subset M_1 \subset b^{-1}M $.
+#### Proposition 2 {#ac-vii-s4-prop-2 .statement}
+
+Soient $ M $ un réseau de $ V $, $ M_1 $ un sous-A-module de $ V $. S’il existe deux éléments $ x, y $ de $ K^* $ tels que $ xM \subset M_1 \subset yM $, $ M_1 $ est un réseau de $ V $; inversement, si $ M_1 $ est un réseau de $ V $, il existe deux éléments $ a, b $ non nuls de $ A $ tels que $ aM \subset M_1 \subset b^{-1}M $.
 
 En effet, si $ L_1, L_2 $ sont deux réseaux libres de $ V $ tels que $ L_1 \subset M \subset L_2 $, les relations $ xM \subset M_1 \subset yM $ entraînent $ xL_1 \subset M_1 \subset yL_2 $ et $ xL_1 $ et $ yL_2 $ sont des réseaux libres; inversement, si $ M_1 $ est un réseau et $ (e_i)_{1 \leq i \leq n} $ une base de $ L_2 $ sur $ A $, la relation $ KM_1 = V $ entraîne l’existence de $ x = a/s \in K^* $ (où $ a $ et $ s $ sont des éléments non nuls de $ A $) tel que $ xe_i \in M_1 $ pour tout $ i $, d’où $ xM \subset xL_2 \subset M_1 $, et $ a $ fortiori $ aM \subset M_1 $; échangeant les rôles de $ M $ et $ M_1 $, on montre de même l’existence de $ b \neq 0 $ dans $ A $ tel que $ bM_1 \subset M $.
 
-PROPOSITION 3. — (i) Si $ M_1, $ et $ M_2 $ sont des réseaux de $ V $, il en est de même de $ M_1 \cap M_2 $ et de $ M_1 + M_2 $.
+#### Proposition 3 {#ac-vii-s4-prop-3 .statement}
+
+(i) Si $ M_1, $ et $ M_2 $ sont des réseaux de $ V $, il en est de même de $ M_1 \cap M_2 $ et de $ M_1 + M_2 $.
 
 (ii) Si $ W $ est un sous-espace vectoriel de $ V $, et si $ M $ est un réseau de $ V $, $ M \cap W $ est un réseau de $ W $.
 
@@ -117,7 +123,9 @@ Avec les notations de la prop. 3, (iv), l’application canonique N : M → Hom_
 
 En particulier, si l’on prend W = K, N = A, Hom_K(V, W) n’est autre que le K-espace vectoriel dual V* de V, et A : M s’identifie au A-module dual M* de M; nous ferons désormais cette identification et nous dirons que M* est le réseau dual de M: c’est donc l’ensemble des x* ∈ V* tels que ⟨x, x*⟩ ∈ A pour tout x ∈ M.
 
-COROLLAIRE. — Soient U, V, W trois espaces vectoriels de rang fini sur K, f : U × V → W une application K-bilinéaire non dégénérée à gauche (*Alg.*, chap. IX, § 1, n° 1, déf. 3). *Si $ M $ est un réseau de $ V $ et $ N $ un réseau de $ W $, l’ensemble $ N :_f M $ des $ x \in U $ tels que $ f(x, y) \in N $ pour tout $ y \in M $ est un réseau de $ U $.*
+#### Corollaire {#ac-vii-s4-n1-cor-2 .statement}
+
+Soient U, V, W trois espaces vectoriels de rang fini sur K, f : U × V → W une application K-bilinéaire non dégénérée à gauche (*Alg.*, chap. IX, § 1, n° 1, déf. 3). *Si $ M $ est un réseau de $ V $ et $ N $ un réseau de $ W $, l’ensemble $ N :_f M $ des $ x \in U $ tels que $ f(x, y) \in N $ pour tout $ y \in M $ est un réseau de $ U $.*
 
 Soit $ s_f : U \to \operatorname{Hom}_K(V, W) $ l’application $ K $-linéaire associée à gauche à $ f $ (*Alg.*, chap. IX, *loc. cit.*), telle que $ s_f(x) $ soit l’application linéaire $ y \to f(x, y) $; rappelons que dire que $ f $ est non dégénérée à gauche signifie que $ s_f $ est *injective*. En vertu de la prop. 3, (iv), $ N : M $ est un réseau de $ \operatorname{Hom}_K(V, W) $; comme on a $ N :_f M = s_f^{-1}(N : M) $ et que $ s_f $ est injective, le corollaire résulte de la prop. 3, (ii).
 
@@ -129,7 +137,9 @@ Soit $ S $ une $ K $-algèbre de rang fini (non nécessairement associative) aya
 
 Soient $ V $ un espace vectoriel de dimension finie sur $ K $, $ f $ une forme bilinéaire non dégénérée sur $ V $. Si $ M $ est un réseau de $ V $, il résulte du cor. de la prop. 3 que l’ensemble $ M_f^* $ des $ x \in V $ tels que $ f(x, y) \in A $ pour tout $ y \in M $ est encore un réseau de $ V $; si $ s_f : V \to V^* $ est l’application linéaire associée à gauche à $ f $ (qui est bijective), $ s_f(M_f^*) $ n’est autre que le réseau dual $ M^* $ de $ M $.
 
-PROPOSITION 4. — *Soient $ B $ un anneau commutatif intègre, $ A $ un sous-anneau de $ B $, $ K $ et $ L $ les corps des fractions respectifs de $ A $ et de $ B $. Soit $ V $ un espace vectoriel de dimension finie sur $ K $.*
+#### Proposition 4 {#ac-vii-s4-prop-4 .statement}
+
+*Soient $ B $ un anneau commutatif intègre, $ A $ un sous-anneau de $ B $, $ K $ et $ L $ les corps des fractions respectifs de $ A $ et de $ B $. Soit $ V $ un espace vectoriel de dimension finie sur $ K $.*
 
 (i) *Pour tout réseau $ M $ de $ V $ par rapport à $ A $, l’image $ BM $ de $ M_{(B)} = M \otimes_A B $ dans $ V_{(L)} = V \otimes_K L $ est un réseau de $ V_{(L)} $ par rapport à $ B $.*
 
@@ -139,7 +149,9 @@ PROPOSITION 4. — *Soient $ B $ un anneau commutatif intègre, $ A $ un sous-an
 
 (ii) On a $ V_{(L)} = V \otimes_K L = V \otimes_A L $ (chap. II, § 2, n° 7, prop. 18), et comme L est un B-module plat, c’est aussi un A-module plat (chap. I, § 2, n° 7, cor. 3 de la prop. 8). Comme B est un A-module plat, l’application canonique $ M \otimes_A B \to V \otimes_A B $ est injective; d’autre part, V étant un K-module libre et K un A-module plat, V est un A-module plat (chap. I, § 2, n° 7, cor. 3 de la prop. 8), donc l’application canonique $ V \otimes_A B \to V \otimes_A L $ est injective, ce qui établit la première assertion. Pour voir en outre que la relation $ BM_1 = BM_2 $ implique $ M_1 = M_2 $ pour deux réseaux $ M_1, M_2 $ de V par rapport à A lorsque B est un A-module fidèlement plat, notons d’abord que l’on a $ BM_1 \cap BM_2 = B(M_1 \cap M_2) $ (chap. I, § 2, n° 6, prop. 6); on peut donc se borner au cas où $ M_1 \subset M_2 $, et notre assertion résulte alors du chap. I, § 3, n° 1, prop. 3, appliqué à l’injection canonique $ M_1 \to M_2 $.
 
-COROLLAIRE. — Supposons que A soit un anneau de valuation discrète. Soit $ \hat{A} $ son complété, et soit $ \hat{K} $ le corps des fractions de $ \hat{A} $ (chap. VI, § 5, n° 3). L’application $ \varphi $ qui, à tout réseau M de V, fait correspondre le réseau $ \hat{A}M $ de $ \hat{V} = V \otimes_K \hat{K} $ par rapport à $ \hat{A} $, est bijective et son application réciproque fait correspondre à tout réseau $ M' $ de $ \hat{V} $ par rapport à $ \hat{A} $ son intersection $ M' \cap V $ (V étant canoniquement identifié à un sous-K-espace vectoriel de $ \hat{V} $).
+#### Corollaire {#ac-vii-s4-n1-cor-3 .statement}
+
+Supposons que A soit un anneau de valuation discrète. Soit $ \hat{A} $ son complété, et soit $ \hat{K} $ le corps des fractions de $ \hat{A} $ (chap. VI, § 5, n° 3). L’application $ \varphi $ qui, à tout réseau M de V, fait correspondre le réseau $ \hat{A}M $ de $ \hat{V} = V \otimes_K \hat{K} $ par rapport à $ \hat{A} $, est bijective et son application réciproque fait correspondre à tout réseau $ M' $ de $ \hat{V} $ par rapport à $ \hat{A} $ son intersection $ M' \cap V $ (V étant canoniquement identifié à un sous-K-espace vectoriel de $ \hat{V} $).
 
 Si L est un réseau libre de V, les réseaux $ aL $ (pour $ a \in A $, $ a \neq 0 $) forment un système fondamental de voisinages de 0 pour une topologie $ \mathcal{T} $ sur V (compatible avec sa structure de A-module), qui (lorsqu’on prend une base de L sur A) s’identifie à la topologie produit sur $ K^n $; en vertu de la prop. 2, un système fondamental de voisinages de 0 pour $ \mathcal{T} $ est encore formé de tous les réseaux de V par rapport à A ; il est clair que $ \hat{V} $ est le complété de V pour $ \mathcal{T} $. En outre, si m est l’idéal maximal de A, la topologie $ \mathcal{T} $ induit sur tout réseau M de V par rapport à A la topologie m-adique puisque M est un A-module de type fini (chap. III, § 3, n° 2, th. 2), et $ \hat{A}M $ est le complété de $ M $ pour cette topologie (chap. III, § 2, n° 12, prop. 16); d’ailleurs, comme $ M $ est ouvert (et par suite fermé) dans $ V $, on a $ \hat{A}M \cap V = M $, ce qui démontre à nouveau le fait que $ \varphi $ est injective (qui découle directement de la prop. 4, (ii), puisque $ \hat{A} $ est un $ A $-module fidèlement plat). Enfin, si $ M' $ est un réseau de $ \hat{V} $ par rapport à $ \hat{A} $, $ M = M' \cap V $ est un réseau de $ V $ par rapport à $ A $, car tout élément de $ \hat{A} $ est produit d’un élément de $ A $ et d’un élément inversible de $ \hat{A} $, donc il résulte de la prop. 2 qu’il existe $ a, b $ dans $ A - \{0\} $ tels que $ a\hat{A}L \subset M' \subset b\hat{A}L $, d’où $ aL \subset M' \cap V \subset bL $. En outre, $ M' $ est ouvert dans $ V $, et comme $ V $ est dense dans $ \hat{V} $, $ M' $ est la complétion de $ M' \cap V = M $; cela prouve que $ \varphi $ est surjective, d’où le corollaire.
 
@@ -226,7 +238,9 @@ Prenons $V = K$. Pour qu’un idéal fractionnaire $a$ de $K$ soit un réseau r�
 
 Soit $M$ un réseau par rapport à $A$; si $S$ est une partie multiplicative de $A$ ne contenant pas 0, la prop. 5 du n° 1 montre que $S^{-1}(M^*) = (S^{-1}M)^*$; si $M$ est réflexif, $S^{-1}M$ est donc un réseau réflexif par rapport à $S^{-1}A$.
 
-PROPOSITION 6. — (i) Si $ M_1 $ et $ M_2 $ sont des réseaux réflexifs de $ V $, il en est de même de $ M_1 \cap M_2 $.
+#### Proposition 6 {#ac-vii-s4-prop-6 .statement}
+
+(i) Si $ M_1 $ et $ M_2 $ sont des réseaux réflexifs de $ V $, il en est de même de $ M_1 \cap M_2 $.
 
 (ii) Si $ W $ est un sous-espace vectoriel de $ V $ et si $ M $ est un réseau réflexif de $ V $, $ M \cap W $ est un réseau réflexif de $ W $.
 
@@ -252,7 +266,9 @@ Si $ M_1 $ et $ M_2 $ sont des réseaux réflexifs de $ V $, le réseau $ M_1 + 
 
 Si $ M $ est un $ A $-module de type fini, $ T $ son sous-module de torsion, le dual $ M^* $ de $ M $ est le même que le dual de $ M/T $, car pour toute forme linéaire $ f $ sur $ M $, l’image $ f(T) $ est un sous-module de torsion de $ A $, donc est nulle. Comme $ M/T $ est isomorphe à un réseau d’un espace vectoriel sur $ K $, on voit que le dual de tout $ A $-module de type fini est réflexif.
 
-PROPOSITION 7. — Soit $ 0 \to M \to N \to Q \to 0 $ une suite exacte de $ A $-modules. On suppose que $ N $ est de type fini et est sans torsion.
+#### Proposition 7 {#ac-vii-s4-prop-7 .statement}
+
+Soit $ 0 \to M \to N \to Q \to 0 $ une suite exacte de $ A $-modules. On suppose que $ N $ est de type fini et est sans torsion.
 
 (i) Si $ M $ est réflexif, on a $ \mathrm{Ass}(Q) \subset P \cup \{\{0\}\} $ (autrement dit, tout idéal associé à $ Q $ est, soit $ (0) $, soit de hauteur 1).
 
@@ -279,7 +295,9 @@ $$
 $$
 Les hypothèses entraînent donc $ \operatorname{Ass}(V/M) \subset P \cup \{\{0\}\} $. Mais $ V/M $ est un A-module de torsion, donc $ \{0\} \notin \operatorname{Ass}(V/M) $; le th. 2 montre alors que M est réflexif.
 
-PROPOSITION 8. — Soient R et S deux anneaux commutatifs, $ \rho : R \to S $ un homomorphisme d’anneaux, M un R-module de type fini. On suppose que R est noethérien et que S est un R-module plat. Alors, si M est réflexif, il en est de même du S-module $ M_{(S)} = M \otimes_R S $.
+#### Proposition 8 {#ac-vii-s4-prop-8 .statement}
+
+Soient R et S deux anneaux commutatifs, $ \rho : R \to S $ un homomorphisme d’anneaux, M un R-module de type fini. On suppose que R est noethérien et que S est un R-module plat. Alors, si M est réflexif, il en est de même du S-module $ M_{(S)} = M \otimes_R S $.
 
 On sait (chap. I, § 2, n° 10, prop. 11) qu’il existe un isomorphisme canonique $ \omega_M : (M^*)_{(S)} \to (M_{(S)})^* $, tel que
 $$
@@ -506,7 +524,9 @@ C.Q.F.D.
 
 \* On peut, comme au n° 4, considérer la catégorie quotient $ \mathcal{T}/\mathcal{T}' $ de la catégorie $ \mathcal{T} $ des $ A $-modules de torsion de type fini par la sous-catégorie épaisse $ \mathcal{T}' $ des $ A $-modules de torsion de type fini pseudo-nuls. Dans le langage des catégories abéliennes, la prop. 11 exprime alors que le *groupe de Grothendieck* de la catégorie abélienne $ \mathcal{T}/\mathcal{T}' $ est canoniquement isomorphe à $ D(A) $. \*
 
-PROPOSITION 12. — *Si $ \mathfrak{a} $ est un idéal $ \neq 0 $ de $ A $,*
+#### Proposition 12 {#ac-vii-s4-prop-12 .statement}
+
+*Si $ \mathfrak{a} $ est un idéal $ \neq 0 $ de $ A $,*
 
 $$
 \chi(A/\mathfrak{a}) = \chi((A : \mathfrak{a})/A) = \operatorname{div} \mathfrak{a}.
@@ -538,7 +558,9 @@ ce que l’on peut aussi écrire :
 
 en identifiant $ D(A_p) $ au sous-$ \mathbf{Z} $-module de $ D(A) $ engendré par $ p $.
 
-PROPOSITION 13. — Soient M un réseau de V, u un K-auto-morphisme de V. Alors on a :
+#### Proposition 13 {#ac-vii-s4-prop-13 .statement}
+
+Soient M un réseau de V, u un K-auto-morphisme de V. Alors on a :
 
 (6) $ -\chi(M, u(M)) = \operatorname{div}(\det(u)) $.
 
@@ -644,7 +666,9 @@ $$
 
 Lorsque M est un réseau de V par rapport à A, on a $ \chi(M/L) = -\chi(M, L) $ (n° 6, prop. 14); soient $(e_i)_{1 \leq i \leq n}$ une base de L, $e = e_1 \wedge e_2 \wedge \ldots \wedge e_n$ et $M_w = a.e$ (notation du n° 6); on a $ \chi(M, L) = \operatorname{div}(a) $, d’où $ c(M) = c(\operatorname{div}(a)) $, ce qui généralise la prop. 16 (v).
 
-COROLLAIRE 1. — Soit $ 0 \to M_n \xrightarrow{u} M_{n-1} \to \cdots \to M_0 \to 0 $ une suite exacte de A-modules de type fini. On a alors
+#### Corollaire 1 {#ac-vii-s4-prop-16-cor-1 .statement}
+
+Soit $ 0 \to M_n \xrightarrow{u} M_{n-1} \to \cdots \to M_0 \to 0 $ une suite exacte de A-modules de type fini. On a alors
 
 $$
 \sum_{i=0}^n (-1)^i c(M_i) = 0.
@@ -677,7 +701,9 @@ $$
 
 où les $ L_i $ ($ 0 \leq i \leq n $) sont des A-modules libres de type fini.
 
-COROLLAIRE 2.— Si un idéal fractionnaire divisoriel $ a \neq 0 $ de A admet une résolution libre finie, il est principal.
+#### Corollaire 2 {#ac-vii-s4-prop-16-cor-2 .statement}
+
+Si un idéal fractionnaire divisoriel $ a \neq 0 $ de A admet une résolution libre finie, il est principal.
 
 Appliquons en effet le cor. 1 à une résolution libre finie de $ a $:
 
@@ -687,7 +713,9 @@ $$
 
 En vertu de la prop. 16 (v), il vient $ c(a) = 0 $, donc, en vertu de la prop. 16 (iv), $ \operatorname{div}(a) $ est principal; comme $ a $ est supposé être divisoriel, il est principal (§ 1, n° 1).
 
-COROLLAIRE 3. — Si tout idéal divisoriel $ \neq 0 $ de $ A $ admet une résolution libre finie, $ A $ est factoriel.
+#### Corollaire 3 {#ac-vii-s4-prop-16-cor-3 .statement}
+
+Si tout idéal divisoriel $ \neq 0 $ de $ A $ admet une résolution libre finie, $ A $ est factoriel.
 
 C’est une conséquence immédiate du cor. 2 et du § 3, n° 1, déf. 1.
 
@@ -701,7 +729,9 @@ $$
 
 $ \gamma $ vérifie donc la propriété (i) de la prop. 16 et, si $ M $ est pseudo-nul, $ \gamma(M) = 0 $ (puisque $ M $ est de torsion). Il existe une application unique de $ F(A) $ dans $ \mathbf{Z} \times C(A) $ notée encore $ \gamma $, telle que $ \gamma(M) = \gamma(\mathrm{cl}(M)) $ pour tout $ A $-module $ M $ de type fini. Nous allons voir que les propriétés précédentes caractérisent essentiellement $ \gamma $:
 
-PROPOSITION 17. — Soient $ G $ un groupe commutatif, noté additivement, et $ \varphi $ une application de l’ensemble $ F(A) $ des classes de $ A $-modules de type fini dans $ G $; pour tout $ A $-module de type fini $ M $, on pose encore, par abus de langage, $ \varphi(M) = \varphi(\mathrm{cl}(M)) $. On suppose vérifiées les conditions suivantes:
+#### Proposition 17 {#ac-vii-s4-prop-17 .statement}
+
+Soient $ G $ un groupe commutatif, noté additivement, et $ \varphi $ une application de l’ensemble $ F(A) $ des classes de $ A $-modules de type fini dans $ G $; pour tout $ A $-module de type fini $ M $, on pose encore, par abus de langage, $ \varphi(M) = \varphi(\mathrm{cl}(M)) $. On suppose vérifiées les conditions suivantes:
 
 1) Si $ 0 \to M_1 \to M_2 \to M_3 \to 0 $ est une suite exacte de $ A $-modules de type fini, on a $ \varphi(M_2) = \varphi(M_1) + \varphi(M_3) $.
 
@@ -827,7 +857,9 @@ S = A - p, $ \mathfrak{P}. S^{-1}B $ est un idéal maximal de $ S^{-1}B $ et $ (
 
 (iii) Si T est le sous-module de torsion de R, $ T_{[A]} $ est le sous-module de torsion de $ R_{[A]} $, et $ (R/T)_{[A]} = R_{[A]}/T_{[A]} $; pour prouver (21), on peut donc se borner au cas où R est sans torsion. Alors R est identifié à un sous-B-module de $ R_{(L)} $, et contient une base $ (e_i)_{1 \leq i \leq m} $ de $ R_{(L)} $ sur L. Si $ (b_j)_{1 \leq j \leq n} $ est une base de L sur K formée d’éléments de B, les $ b_j e_i $ constituent une base de $ R_{(L)} $ sur K, formée d’éléments de R, d’où (21). Soit d’autre part M un sous-B-module libre de R tel que $ R/M $ soit un B-module de torsion; comme $ M_{[A]} $ est somme directe de $ r_B(R) $ A-modules isomorphes à B, on a (prop. 16, (i)) $ c_A(M_{[A]}) = r_B(R).c_A(B) $. En outre, $ c_A((R/M)_{[A]}) = -c_A(N(\chi_B(R/M))) $ en vertu de (19); mais par définition de l’homomorphisme $ N : C(B) \to C(A) $, on a $ c_A(N(d)) = N(c_B(d)) $ pour tout $ d \in D(B) $, et comme $ c_B(\chi(R/M)) = -c_B(R) $ par définition, on a finalement $ c_A((R/M)_{[A]}) = N(c_B(R)) $; il suffit alors d’appliquer la prop. 16, (i) pour obtenir (20).
 
-PROPOSITION 19. — Soit R un B-module de type fini. Pour que R soit réflexif, il faut et il suffit que $ R_{[A]} $ soit un A-module réflexif.
+#### Proposition 19 {#ac-vii-s4-prop-19 .statement}
+
+Soit R un B-module de type fini. Pour que R soit réflexif, il faut et il suffit que $ R_{[A]} $ soit un A-module réflexif.
 
 On a remarqué dans la démonstration de la prop. 18 que pour que R soit un B-module sans torsion, il faut et il suffit que $ R_{[A]} $ soit un A-module sans torsion. On peut donc supposer que R est un réseau de $ W = R \otimes_B L $ par rapport à B. Nous utiliserons le lemme suivant:
 
@@ -841,9 +873,13 @@ d’après ce qui précède, S^{-1}R est un réseau libre de W par rapport à S^
 
 Revenant à la démonstration de la prop. 19, on a, en vertu du lemme 4, $ \bigcap_{\mathfrak{p} \in P(B)} R_{\mathfrak{p}} = \bigcap_{p \in P(A)} (R_{[A]})_p $, et la conclusion résulte du n° 2, th. 2.
 
-COROLLAIRE. — L’anneau B est un A-module réflexif.
+#### Corollaire {#ac-vii-s4-n8-cor-1 .statement}
 
-PROPOSITION 20. — (i) Pour qu’un A-module de type fini M soit pseudo-nul, il faut et il suffit que M \otimes_A B soit un B-module pseudo-nul.
+L’anneau B est un A-module réflexif.
+
+#### Proposition 20 {#ac-vii-s4-prop-20 .statement}
+
+(i) Pour qu’un A-module de type fini M soit pseudo-nul, il faut et il suffit que M \otimes_A B soit un B-module pseudo-nul.
 
 (ii) Si M est un A-module de torsion de type fini, M \otimes_A B est un B-module de torsion de type fini, et l’on a:
 
@@ -931,7 +967,9 @@ Soient R un anneau commutatif, $ p_i $ (1 $ \leqslant \$$ ) i$  \leqslant \ ) n)
 
 (ii) Comme $ R/p_i $ est intègre, tout idéal $ \neq 0 $ de $ R/p_i $ a un cardinal égal à celui de $ R/p_i $, et il en est de même de tout translaté d’un idéal par un élément de $ R/p_i $, d’où la conclusion.
 
-THÉORÈME 6. — Soit $ M $ un $ A $-module sans torsion de type fini. Il existe un sous-module libre $ L $ de $ M $ tel que $ M/L $ soit isomorphe à un idéal de $ A $.
+#### Théorème 6 {#ac-vii-s4-thm-6 .statement}
+
+Soit $ M $ un $ A $-module sans torsion de type fini. Il existe un sous-module libre $ L $ de $ M $ tel que $ M/L $ soit isomorphe à un idéal de $ A $.
 
 Nous désignerons par $ n $ le rang de $ M $ (rang de $ V = M \otimes_A K $ sur $ K $) et nous considérerons $ M $ comme un réseau de $ V $ par rapport à $ A $. Alors pour tout $ p \in P(A) $, $ M_p $ est un réseau de $ V $ par rapport à $ A_p $ (n° 1, Exemple 6), et comme $ A_p $ est un anneau principal, $ M_p $ est un $ A_p $-module libre de rang $ n $. Nous poserons :
 
@@ -1004,13 +1042,19 @@ c) $ M $ est projectif.
 
 On sait déjà (sans hypothèse sur l’anneau intègre $ A $) que b) implique a) (no 2, Remarque 1) et que c) implique b) (*Alg.*, chap. II, 3e éd., § 2, n° 7, cor. 4 de la prop. 14). Si M est sans torsion, il s’identifie à un réseau de V = M ⊗_A K par rapport à A ; M_p est donc un A_p-module libre pour tout idéal maximal p ∈ P, puisque A_p est principal. La conclusion résulte alors du chap. II, § 5, n° 2, th. 1, b).
 
-COROLLAIRE. — Soit M un A-module de type fini, et soit T son sous-module de torsion. Alors T est facteur direct dans M.
+#### Corollaire {#ac-vii-s4-n10-cor-1 .statement}
+
+Soit M un A-module de type fini, et soit T son sous-module de torsion. Alors T est facteur direct dans M.
 En effet, comme M/T est sans torsion et de type fini, il est projectif en vertu de la prop. 22, et le corollaire résulte donc d’Alg., chap. II, 3e éd., § 2, n° 2, prop. 4.
 
-PROPOSITION 23. — Soient A un anneau de Dedekind, T un A-module de torsion de type fini. Il existe deux familles finies (n_i)_{i∈I} et (p_i)_{i∈I}, où les n_i sont des entiers ≥ 1 et les p_i des éléments de P, telles que T soit isomorphe à la somme directe $ \bigoplus_{i∈I} (A/p_i^{n_i}) $. De plus, les familles (n_i)_{i∈I} et (p_i)_{i∈I} sont uniques à une bijection près de l’ensemble d’indices.
+#### Proposition 23 {#ac-vii-s4-prop-23 .statement}
+
+Soient A un anneau de Dedekind, T un A-module de torsion de type fini. Il existe deux familles finies (n_i)_{i∈I} et (p_i)_{i∈I}, où les n_i sont des entiers ≥ 1 et les p_i des éléments de P, telles que T soit isomorphe à la somme directe $ \bigoplus_{i∈I} (A/p_i^{n_i}) $. De plus, les familles (n_i)_{i∈I} et (p_i)_{i∈I} sont uniques à une bijection près de l’ensemble d’indices.
 Cela résulte du n° 4, th. 5, compte tenu du fait qu’un pseudo-isomorphisme est ici un isomorphisme.
 
-PROPOSITION 24. — Soient A un anneau de Dedekind, M un A-module sans torsion de type fini, de rang n ≥ 1. Il existe alors un idéal 𝔅 ≠ 0 de A tel que M soit isomorphe à la somme directe des modules A^{n−1} et 𝔅. De plus, la classe de l’idéal 𝔅 est déterminée de manière unique par cette condition.
+#### Proposition 24 {#ac-vii-s4-prop-24 .statement}
+
+Soient A un anneau de Dedekind, M un A-module sans torsion de type fini, de rang n ≥ 1. Il existe alors un idéal 𝔅 ≠ 0 de A tel que M soit isomorphe à la somme directe des modules A^{n−1} et 𝔅. De plus, la classe de l’idéal 𝔅 est déterminée de manière unique par cette condition.
 Le th. 6 du n° 9 montre qu’il existe un sous-module libre L de M tel que M/L soit isomorphe à un idéal a de A. Si a = 0, on prend 𝔅 = A. Dans le cas contraire, a est de rang 1, donc L = A^{n−1}, et a est un module projectif (prop. 22); M est par suite isomorphe à la somme directe de L et de a (Alg., chap. II, 3e éd., § 2, n° 2, prop. 4), ce qui prouve la première partie de la proposition. En outre, il résulte du n° 7, prop. 16, (i), (iv) et (v), que l’on a c(M) = c(𝔅), d’où l’unicité de la classe de 𝔅.
 
 #### Remarque 1 {#ac-vii-s4-n10-rem-1 .statement}

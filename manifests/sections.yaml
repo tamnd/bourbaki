@@ -3683,10 +3683,10 @@ books:
               first_pdf_page: 5
               last_pdf_page: 73
               subsections: 9
-              statements: 51
+              statements: 77
               exercises: 19
               extraction: ocr
-              content_sha256: 21feca5b44a18f4455d238751be0eb3a286059b83dcd196e3ef8f3297109515a
+              content_sha256: 013c82835f945a6bb1ad169b83771574867ee2f2294f173709b4dfe6f043c754
             - kind: section
               section: 2
               title: Relèvement des idéaux premiers
@@ -3695,10 +3695,10 @@ books:
               first_pdf_page: 31
               last_pdf_page: 80
               subsections: 4
-              statements: 30
+              statements: 46
               exercises: 12
               extraction: ocr
-              content_sha256: ce0deb87304b6da2ebf54e1fe32ab69d4dc497fec69934f4b07fd5b981c510a0
+              content_sha256: 625739294eceba5ec4f58481795e89c52180e856a0a1e0ef6e59a1daa88008f8
             - kind: section
               section: 3
               title: Algèbres de type fini sur un corps
@@ -3707,10 +3707,10 @@ books:
               first_pdf_page: 54
               last_pdf_page: 83
               subsections: 4
-              statements: 11
+              statements: 19
               exercises: 10
               extraction: ocr
-              content_sha256: 0c4075dcd7d328f0f7f05fce1be185e129f678a0ccf3e298c0a3427101c4e74f
+              content_sha256: e28d815afb8d71eb42711267ba633a50260e3d9a4e1672ac2fbcfe1d3c21d942
         - chapter: VI
           title: Valuations
           sections:
@@ -3732,10 +3732,10 @@ books:
               first_pdf_page: 84
               last_pdf_page: 167
               subsections: 4
-              statements: 15
+              statements: 17
               exercises: 9
               extraction: ocr
-              content_sha256: 29cb15898721c3be9bccdf2016512aa6a79e9992ad47c59e809ddc412de5f25c
+              content_sha256: 3be0207c218375fd4c7a6c7d574600ed1fb2c8529d0ca60d71e0bb1c632b44a9
             - kind: section
               section: 2
               title: Places
@@ -3756,10 +3756,10 @@ books:
               first_pdf_page: 97
               last_pdf_page: 171
               subsections: 6
-              statements: 19
+              statements: 21
               exercises: 8
               extraction: ocr
-              content_sha256: f02376a5f32a989361b6fbecd7afd993c6184c42cb6e37fb007d168d0dcf4383
+              content_sha256: 1112ad57b9ea0e28f0dbc9a8eac53df5f7979654fe20d5e8e5c508188e85888c
             - kind: section
               section: 4
               title: Hauteur d’une valuation
@@ -3768,10 +3768,10 @@ books:
               first_pdf_page: 106
               last_pdf_page: 176
               subsections: 5
-              statements: 16
-              exercises: 4
+              statements: 21
+              exercises: 5
               extraction: ocr
-              content_sha256: 1731a95ac6a5b56434e32abf7de826674c70c237ffdd3bb2cf36694bbb2f3ef0
+              content_sha256: 2f50f9e6a3a1bcd63eaa8a532544b6204773b696435aa39993f8666750277b56
             - kind: section
               section: 5
               title: Topologie définie par une valuation
@@ -3780,10 +3780,10 @@ books:
               first_pdf_page: 113
               last_pdf_page: 181
               subsections: 3
-              statements: 8
+              statements: 10
               exercises: 3
               extraction: ocr
-              content_sha256: a93e437783ad5838788a7ebdcf627496b122cbf5894858ea76a3d0560a9c6375
+              content_sha256: 9da475c8328abc8e702dddf5ac788695f90cfd018418adb11c27c75545d4daa4
             - kind: section
               section: 6
               title: Valeurs absolues
@@ -3792,10 +3792,10 @@ books:
               first_pdf_page: 118
               last_pdf_page: 182
               subsections: 4
-              statements: 8
+              statements: 13
               exercises: 2
               extraction: ocr
-              content_sha256: 7b868e9ba89851cda6b02c33cb992e3bebd262ce32ed05c1b75ef7b531545b57
+              content_sha256: ede01fc630b821438fd0a7c0610b01755146d76978f534b716df7851183187a1
             - kind: section
               section: 7
               title: Théorème d’approximation
@@ -3804,10 +3804,10 @@ books:
               first_pdf_page: 128
               last_pdf_page: 183
               subsections: 3
-              statements: 9
+              statements: 15
               exercises: 3
               extraction: ocr
-              content_sha256: cefe136711a7d3178e24085f9bd62023cc8ec2e766905150b05c1a812713ac96
+              content_sha256: 76ac25c57c34b9b46645bccd76a427b414595fa42265a25561d1082a078d4733
             - kind: section
               section: 8
               title: Prolongements d’une valuation à une extension algébrique
@@ -3816,10 +3816,10 @@ books:
               first_pdf_page: 133
               last_pdf_page: 191
               subsections: 7
-              statements: 33
+              statements: 42
               exercises: 22
               extraction: ocr
-              content_sha256: d1da25dda3bf0795992a5c248adf27c390aa205976cfa3e1351166ff1a580165
+              content_sha256: e0bf0a98bd8a3ceed1d79131f48c30315593cb08305d6b90b4f336f71c050e04
             - kind: section
               section: 9
               title: 'Application : corps localement compacts'
@@ -3840,10 +3840,10 @@ books:
               first_pdf_page: 156
               last_pdf_page: 194
               subsections: 3
-              statements: 11
+              statements: 14
               exercises: 2
               extraction: ocr
-              content_sha256: 9bc2e5f67f32e7e644149dc3dc04355b9906b397d9a53ce225d606db702985e8
+              content_sha256: 1e08abe9755935c21e2081c7cf50711c0529dda5d21936faec1405ea1bd36b84
         - chapter: VII
           title: Diviseurs
           sections:
@@ -3865,10 +3865,10 @@ books:
               first_pdf_page: 195
               last_pdf_page: 285
               subsections: 10
-              statements: 16
+              statements: 44
               exercises: 32
               extraction: ocr
-              content_sha256: ffb062991aeed4ba75a8fa72e786c45d0e41ef629ca6e394adae43021aaa504b
+              content_sha256: c2fbb9b6472cadb4ecad9a1c10511397e20e3bfe2dfef6c268b5fc08e7a6fd8d
             - kind: section
               section: 2
               title: Anneaux de Dedekind
@@ -3877,10 +3877,10 @@ books:
               first_pdf_page: 216
               last_pdf_page: 291
               subsections: 5
-              statements: 7
+              statements: 15
               exercises: 22
               extraction: ocr
-              content_sha256: ca07e8b1d8b1b676a1563a0874d08ea738fecb16f6c8961570e03eca10533b66
+              content_sha256: 1139a8aaba9ed232b61facf30c6d71267be25204c9918538365e1deee49d6977
             - kind: section
               section: 3
               title: Anneaux factoriels
@@ -3889,10 +3889,10 @@ books:
               first_pdf_page: 226
               last_pdf_page: 298
               subsections: 9
-              statements: 13
+              statements: 22
               exercises: 27
               extraction: ocr
-              content_sha256: b6e35b25f37f9e9ae40d6e5ea9c70cfd8fd527e0879017b999a88fc9436f6f1e
+              content_sha256: 8a674466bf50cf20056f4c484f07d0824295e734e6459c5d4a315568a22f54f9
             - kind: section
               section: 4
               title: Modules sur les anneaux noethériens intégralement clos
@@ -3901,10 +3901,10 @@ books:
               first_pdf_page: 237
               last_pdf_page: 305
               subsections: 10
-              statements: 57
+              statements: 79
               exercises: 26
               extraction: ocr
-              content_sha256: cf733f50b82b18a2b4f8b0c040ed9232e178ba85eedc3d43688c3b3f2dd5caa1
+              content_sha256: f2a2a4b4cc2c6f4cf91cdf98a9b4a1161c4c5bef6c244fd3c15fa0b6cf3a9365
             - kind: historical
               title: Historical Note
               path: content/fr/ac/VII/historical_note.md
@@ -4945,7 +4945,7 @@ books:
               last_pdf_page: 140
               subsections: 9
               statements: 9
-              exercises: 30
+              exercises: 39
               extraction: ocr
               content_sha256: f6d280b87294e7ccbf5da008fbb8c99fc9b148507e42e21b94db3deb3fbc13f4
             - kind: section
@@ -5195,3 +5195,605 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 1041088601c93e87563d0f075a725ecae387676a67a10cbf4e0c2ebe1dc7757d
+    - id: lie-ii-iii-fr
+      chapters:
+        - chapter: II
+          title: ALGÈBRES DE LIE LIBRES
+          sections:
+            - kind: front
+              title: ALGÈBRES DE LIE LIBRES
+              path: content/fr/lie/II/00_frontmatter.md
+              first_pdf_page: 5
+              last_pdf_page: 5
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 9da9621c3afc4a4351dbe6c170df5224aa6d69d5446ada1473dc0aa5daaa628d
+            - kind: section
+              section: 1
+              title: Bigèbre enveloppante d'une algèbre de Lie
+              path: content/fr/lie/II/01_s1_bigebre_enveloppante_d_une_algebre_de.md
+              label: lie-ii-s1
+              first_pdf_page: 5
+              last_pdf_page: 73
+              subsections: 6
+              statements: 24
+              exercises: 12
+              extraction: ocr
+              content_sha256: d7624127d6aef2b34628e076661e76ffa0dde96aef7f11c030cb00b55d664ebe
+            - kind: section
+              section: 2
+              title: Algèbres de Lie libres
+              path: content/fr/lie/II/02_s2_algebres_de_lie_libres.md
+              label: lie-ii-s2
+              first_pdf_page: 15
+              last_pdf_page: 76
+              subsections: 11
+              statements: 31
+              exercises: 16
+              extraction: ocr
+              content_sha256: ee60790af4838f7791a04f248934d4827aa44db7cb09352d6210e67f648e4a45
+            - kind: section
+              section: 3
+              title: Algèbre enveloppante de l'algèbre de Lie libre
+              path: content/fr/lie/II/03_s3_algebre_enveloppante_de_l_algebre_de.md
+              label: lie-ii-s3
+              first_pdf_page: 30
+              last_pdf_page: 77
+              subsections: 3
+              statements: 10
+              exercises: 4
+              extraction: ocr
+              content_sha256: bd7d296ae48f30d89ff4d63f68e3e0b474159a90ed6ad35e264c65fd9eee361d
+            - kind: section
+              section: 4
+              title: Filtrations centrales
+              path: content/fr/lie/II/04_s4_filtrations_centrales.md
+              label: lie-ii-s4
+              first_pdf_page: 36
+              last_pdf_page: 82
+              subsections: 6
+              statements: 12
+              exercises: 5
+              extraction: ocr
+              content_sha256: 4f08657b80dc72f28935eee99a6e97f7c4d2cfbc866069b26818db7c420cac9a
+            - kind: section
+              section: 5
+              title: Algèbres de Magnus
+              path: content/fr/lie/II/05_s5_algebres_de_magnus.md
+              label: lie-ii-s5
+              first_pdf_page: 43
+              last_pdf_page: 88
+              subsections: 5
+              statements: 14
+              exercises: 12
+              extraction: ocr
+              content_sha256: e38f4586b2d0f961d431708f1303cf63ee049f7a71880f953070cc8e2d51bb09
+            - kind: section
+              section: 6
+              title: La série de Hausdorff
+              path: content/fr/lie/II/06_s6_la_serie_de_hausdorff.md
+              label: lie-ii-s6
+              first_pdf_page: 49
+              last_pdf_page: 90
+              subsections: 5
+              statements: 20
+              exercises: 6
+              extraction: ocr
+              content_sha256: c6da1159d93ca8b75a340f6bb2a6b001b0ddf9e73fb560c8b494bf40d11853a1
+            - kind: section
+              section: 7
+              title: Convergence de la série de Hausdorff (cas réel ou complexe)
+              path: content/fr/lie/II/07_s7_convergence_de_la_serie_de_hausdorff.md
+              label: lie-ii-s7
+              first_pdf_page: 58
+              last_pdf_page: 90
+              subsections: 3
+              statements: 4
+              exercises: 1
+              extraction: ocr
+              content_sha256: a822cbfc90d15b7ccd28f5b2bab63d965279fe860697979942d2a7c7d2146c47
+            - kind: section
+              section: 8
+              title: Convergence de la série de Hausdorff (cas ultramétrique)
+              path: content/fr/lie/II/08_s8_convergence_de_la_serie_de_hausdorff.md
+              label: lie-ii-s8
+              first_pdf_page: 64
+              last_pdf_page: 92
+              subsections: 4
+              statements: 9
+              exercises: 4
+              extraction: ocr
+              content_sha256: d3bd3f5080f5a761023fe77d33cd5cd81a5f28ede384d5a4918629b6ad89b68f
+            - kind: appendix
+              title: Fonction de Möbius
+              path: content/fr/lie/II/A_a_fonction_de_mobius.md
+              label: lie-ii-a0
+              first_pdf_page: 69
+              last_pdf_page: 92
+              subsections: 0
+              statements: 1
+              exercises: 2
+              extraction: ocr
+              content_sha256: 0a05474bdbc6e27cfe959d33283ee6c57e3aca6c495a3210dd99a8b76271a58c
+        - chapter: III
+          title: GROUPES DE LIE
+          sections:
+            - kind: front
+              title: GROUPES DE LIE
+              path: content/fr/lie/III/00_frontmatter.md
+              first_pdf_page: 93
+              last_pdf_page: 93
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: f05f87507181d4b3c012fbc417df76d2dbbd18a2d7f8918f4065747227d2a884
+            - kind: section
+              section: 1
+              title: Groupes de Lie
+              path: content/fr/lie/III/01_s1_groupes_de_lie.md
+              label: lie-iii-s1
+              first_pdf_page: 93
+              last_pdf_page: 256
+              subsections: 11
+              statements: 57
+              exercises: 10
+              extraction: ocr
+              content_sha256: 82e2642ebc887c71c07cc021225e2a9acaa92e529d1ec887863cc76c41cd1975
+            - kind: section
+              section: 2
+              title: Groupe des vecteurs tangents à un groupe de Lie
+              path: content/fr/lie/III/02_s2_groupe_des_vecteurs_tangents_a_un.md
+              label: lie-iii-s2
+              first_pdf_page: 118
+              last_pdf_page: 122
+              subsections: 3
+              statements: 10
+              exercises: 0
+              extraction: ocr
+              content_sha256: 9d94aa1466a38057a2b7d2bacbfed1953e7c1bfef258be2bc3963c3719a915a4
+            - kind: section
+              section: 3
+              title: Passage d’un groupe de Lie à son algèbre de Lie
+              path: content/fr/lie/III/03_s3_passage_d_un_groupe_de_lie_a_son.md
+              label: lie-iii-s3
+              first_pdf_page: 123
+              last_pdf_page: 259
+              subsections: 18
+              statements: 110
+              exercises: 9
+              extraction: ocr
+              content_sha256: 52cb802ba73092d0e4da07690f896b5a19fdf4607d9cfa1760be6d5e3a764e8c
+            - kind: section
+              section: 4
+              title: Passage des algèbres de Lie aux groupes de Lie
+              path: content/fr/lie/III/04_s4_passage_des_algebres_de_lie_aux_groupes.md
+              label: lie-iii-s4
+              first_pdf_page: 164
+              last_pdf_page: 263
+              subsections: 7
+              statements: 41
+              exercises: 13
+              extraction: ocr
+              content_sha256: 2ce4dc5be28a4010bf77c731683a7b5cdfdc56fcc146df60792b5c36ad197a8c
+            - kind: section
+              section: 5
+              title: Calculs formels dans les groupes de Lie
+              path: content/fr/lie/III/05_s5_calculs_formels_dans_les_groupes_de_lie.md
+              label: lie-iii-s5
+              first_pdf_page: 182
+              last_pdf_page: 264
+              subsections: 4
+              statements: 8
+              exercises: 2
+              extraction: ocr
+              content_sha256: 67f17317228272e71f6688c7f0adb0f0d6549c9dd32b4e6ddc91149394c1a6e1
+            - kind: section
+              section: 6
+              title: Groupes de Lie réels ou complexes
+              path: content/fr/lie/III/06_s6_groupes_de_lie_reels_ou_complexes.md
+              label: lie-iii-s6
+              first_pdf_page: 190
+              last_pdf_page: 270
+              subsections: 10
+              statements: 76
+              exercises: 30
+              extraction: ocr
+              content_sha256: 365c9b9a6573ab8a409c9b072b57ce2387f836cc6ca4d90d6845fe89654606df
+            - kind: section
+              section: 7
+              title: Groupes de Lie sur un corps ultramétrique
+              path: content/fr/lie/III/07_s7_groupes_de_lie_sur_un_corps.md
+              label: lie-iii-s7
+              first_pdf_page: 212
+              last_pdf_page: 272
+              subsections: 6
+              statements: 26
+              exercises: 10
+              extraction: ocr
+              content_sha256: faeebf54e9b687a920a6d55e02cd52a07cc392f97b81f0c93120bae1b4a46ce0
+            - kind: section
+              section: 8
+              title: Groupes de Lie sur R ou Q_p
+              path: content/fr/lie/III/08_s8_groupes_de_lie_sur_r_ou_q_p.md
+              label: lie-iii-s8
+              first_pdf_page: 223
+              last_pdf_page: 274
+              subsections: 2
+              statements: 10
+              exercises: 7
+              extraction: ocr
+              content_sha256: c4d1a12a08d6cd54573df18bddde26d0370506e474455eced706c6906a4d66c4
+            - kind: section
+              section: 9
+              title: Commutateurs, centralisateurs, normalisateurs dans un groupe de Lie
+              path: content/fr/lie/III/09_s9_commutateurs_centralisateurs.md
+              label: lie-iii-s9
+              first_pdf_page: 228
+              last_pdf_page: 282
+              subsections: 8
+              statements: 54
+              exercises: 16
+              extraction: ocr
+              content_sha256: 0938c0f64d47ffc95ca04f30266b2db1657436d28c4635645db4f55b9e51050d
+            - kind: section
+              section: 10
+              title: Le groupe des automorphismes d’un groupe de Lie
+              path: content/fr/lie/III/10_s10_le_groupe_des_automorphismes_d_un.md
+              label: lie-iii-s10
+              first_pdf_page: 245
+              last_pdf_page: 283
+              subsections: 3
+              statements: 13
+              exercises: 4
+              extraction: ocr
+              content_sha256: 7cd78c8628d8f8a92898cb8b718d2a90b708057313175b13995788cfdc395988
+            - kind: appendix
+              title: Opérations sur les représentations linéaires
+              path: content/fr/lie/III/A_a_operations_sur_les_representations.md
+              label: lie-iii-a0
+              first_pdf_page: 254
+              last_pdf_page: 255
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 6a9ca0a7a04dc272b24214ee287f06d75fcb2eabe79e9ac864024ae4baae0d12
+            - kind: historical
+              title: Historical Note
+              path: content/fr/lie/III/historical_note.md
+              first_pdf_page: 284
+              last_pdf_page: 293
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 3ea52a069506bc2f4d227e6bedb50458fd9263744a3903d20e90ff704bef841d
+    - id: int-v-fr
+      chapters:
+        - chapter: V
+          title: Intégration des mesures
+          sections:
+            - kind: front
+              title: Intégration des mesures
+              path: content/fr/int/V/00_frontmatter.md
+              first_pdf_page: 6
+              last_pdf_page: 7
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: ad94368ebf14b833fd3996d5e9f68537c339103197839bb7db7f476bec0f3f62
+            - kind: section
+              section: 1
+              title: Intégrale supérieure essentielle
+              path: content/fr/int/V/01_s1_integrale_superieure_essentielle.md
+              label: int-v-s1
+              first_pdf_page: 7
+              last_pdf_page: 109
+              subsections: 4
+              statements: 25
+              exercises: 6
+              extraction: ocr
+              content_sha256: cf0db1a74d0a3aeb32f25f7fb611a20c09992e1850c84b5f389f93d5d4a5a8cd
+            - kind: section
+              section: 2
+              title: Familles sommables de mesures positives
+              path: content/fr/int/V/02_s2_familles_sommables_de_mesures_positives.md
+              label: int-v-s2
+              first_pdf_page: 17
+              last_pdf_page: 109
+              subsections: 3
+              statements: 12
+              exercises: 4
+              extraction: ocr
+              content_sha256: 3123c168ba8683c6de7ed02528a7b71f5e1ed1df6ba37067ed86a6f8836ebf2b
+            - kind: section
+              section: 3
+              title: Intégration de mesures positives
+              path: content/fr/int/V/03_s3_integration_de_mesures_positives.md
+              label: int-v-s3
+              first_pdf_page: 21
+              last_pdf_page: 112
+              subsections: 6
+              statements: 30
+              exercises: 11
+              extraction: ocr
+              content_sha256: 202326f90fffa51b23c7d93972a9123ba43a5505721e85820845781a1c997c55
+            - kind: section
+              section: 4
+              title: Intégration de mesures positives ponctuelles
+              path: content/fr/int/V/04_s4_integration_de_mesures_positives.md
+              label: int-v-s4
+              first_pdf_page: 39
+              last_pdf_page: 113
+              subsections: 4
+              statements: 10
+              exercises: 2
+              extraction: ocr
+              content_sha256: 145bf4bb56c8594e4618f8b83533f78226708236ef0f6371113e9e752783aebb
+            - kind: section
+              section: 5
+              title: Mesures définies par des densités numériques
+              path: content/fr/int/V/05_s5_mesures_definies_par_des_densites.md
+              label: int-v-s5
+              first_pdf_page: 46
+              last_pdf_page: 123
+              subsections: 10
+              statements: 48
+              exercises: 31
+              extraction: ocr
+              content_sha256: 522b175d15ac0f2a3691d6d651cd40f2cacf0ee33271d2728a33e1eba90b1c70
+            - kind: section
+              section: 6
+              title: Images d'une mesure
+              path: content/fr/int/V/06_s6_images_d_une_mesure.md
+              label: int-v-s6
+              first_pdf_page: 73
+              last_pdf_page: 128
+              subsections: 6
+              statements: 29
+              exercises: 22
+              extraction: ocr
+              content_sha256: 92d55c6670de7c4931ddf7f30552e38f88469ddef3899d41cf081fc4cfdfc927
+            - kind: section
+              section: 7
+              title: Intégration par rapport à une mesure induite
+              path: content/fr/int/V/07_s7_integration_par_rapport_a_une_mesure.md
+              label: int-v-s7
+              first_pdf_page: 86
+              last_pdf_page: 130
+              subsections: 2
+              statements: 20
+              exercises: 11
+              extraction: ocr
+              content_sha256: d84ab1ef16df49f8161c815ab2cebe85a55ecbdee4b03955ed78a0fa77c73263
+            - kind: section
+              section: 8
+              title: Produits de mesures
+              path: content/fr/int/V/08_s8_produits_de_mesures.md
+              label: int-v-s8
+              first_pdf_page: 91
+              last_pdf_page: 140
+              subsections: 7
+              statements: 32
+              exercises: 21
+              extraction: ocr
+              content_sha256: 04f81f048a4bab2c6ab98f2c122d3bd26b92f8b59548eb62bff35f48d6c3cac0
+            - kind: historical
+              title: Historical Note
+              path: content/fr/int/V/historical_note.md
+              first_pdf_page: 141
+              last_pdf_page: 159
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 1d8583c22b821b60231eea98c762933f92086cfa7997f9affce93abd7143a87d
+    - id: lie-i-fr
+      chapters:
+        - chapter: I
+          title: Algèbres de Lie
+          sections:
+            - kind: front
+              title: Algèbres de Lie
+              path: content/fr/lie/I/00_frontmatter.md
+              first_pdf_page: 5
+              last_pdf_page: 5
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: d068b07694db2d16dbe48b0704125f6e5399a43cff2ac452bb53b2a3689c61e6
+            - kind: section
+              section: 1
+              title: Définition des algèbres de Lie
+              path: content/fr/lie/I/01_s1_definition_des_algebres_de_lie.md
+              label: lie-i-s1
+              first_pdf_page: 5
+              last_pdf_page: 108
+              subsections: 9
+              statements: 21
+              exercises: 27
+              extraction: ocr
+              content_sha256: c42a9c8212571cbb51ccb371924069d9bc34e62b6a5bb5f4a54c2683f6fe0e35
+            - kind: section
+              section: 2
+              title: Algèbre enveloppante d’une algèbre de Lie
+              path: content/fr/lie/I/02_s2_algebre_enveloppante_d_une_algebre_de.md
+              label: lie-i-s2
+              first_pdf_page: 20
+              last_pdf_page: 111
+              subsections: 9
+              statements: 22
+              exercises: 10
+              extraction: ocr
+              content_sha256: a316e3d43a7674cb517be6168d3bbf995681fe07aa93bd237fd00558c1d5301e
+            - kind: section
+              section: 3
+              title: Représentations
+              path: content/fr/lie/I/03_s3_representations.md
+              label: lie-i-s3
+              first_pdf_page: 36
+              last_pdf_page: 116
+              subsections: 8
+              statements: 23
+              exercises: 12
+              extraction: ocr
+              content_sha256: 4a2bc3686ddeac9ac51ff5d229aad35352c08baf68da65d756656f944f20a49c
+            - kind: section
+              section: 4
+              title: Algèbres de Lie nilpotentes
+              path: content/fr/lie/I/04_s4_algebres_de_lie_nilpotentes.md
+              label: lie-i-s4
+              first_pdf_page: 53
+              last_pdf_page: 123
+              subsections: 5
+              statements: 18
+              exercises: 27
+              extraction: ocr
+              content_sha256: 944ad1f5841ab1ce2af635628603bbdf5eb7d6d2611c6acac325a3710ca53342
+            - kind: section
+              section: 5
+              title: Algèbres de Lie résolubles
+              path: content/fr/lie/I/05_s5_algebres_de_lie_resolubles.md
+              label: lie-i-s5
+              first_pdf_page: 59
+              last_pdf_page: 126
+              subsections: 6
+              statements: 31
+              exercises: 17
+              extraction: ocr
+              content_sha256: 7850678e5ed0a8ff4c55864d5e37bf098effda2e064e4164f0c3aba9ad9624ee
+            - kind: section
+              section: 6
+              title: Algèbres de Lie semi-simples
+              path: content/fr/lie/I/06_s6_algebres_de_lie_semi_simples.md
+              label: lie-i-s6
+              first_pdf_page: 69
+              last_pdf_page: 133
+              subsections: 10
+              statements: 53
+              exercises: 27
+              extraction: ocr
+              content_sha256: 12a8e1e35979b273b24406deeb948dd75e2fd0c51b842d10a7a205ecfe80871d
+            - kind: section
+              section: 7
+              title: Le théorème d'Ado
+              path: content/fr/lie/I/07_s7_le_theoreme_d_ado.md
+              label: lie-i-s7
+              first_pdf_page: 93
+              last_pdf_page: 144
+              subsections: 3
+              statements: 5
+              exercises: 3
+              extraction: ocr
+              content_sha256: 38b30078430ec8a54302349467beb4b8d4081dbf10846a89184b3e756c9cfbea
+    - id: ac-viii-ix-fr
+      chapters:
+        - chapter: VIII
+          title: DIMENSION
+          sections:
+            - kind: front
+              title: DIMENSION
+              path: content/fr/ac/VIII/00_frontmatter.md
+              first_pdf_page: 5
+              last_pdf_page: 5
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: c03c760a0128d68873f0d34db41cd1647baa160dc4e03cebf2da52d8b5cbab2c
+            - kind: section
+              section: 1
+              title: Dimension de Krull d’un anneau
+              path: content/fr/ac/VIII/01_s1_dimension_de_krull_d_un_anneau.md
+              label: ac-viii-s1
+              first_pdf_page: 5
+              last_pdf_page: 87
+              book_pages: AC VIII.81-AC VIII.83
+              subsections: 5
+              statements: 48
+              exercises: 17
+              extraction: ocr
+              content_sha256: a122898c347ac2c94d8ed5475b416c6b8512da1b9ff8b449d3de15a3b1623dba
+            - kind: section
+              section: 2
+              title: Dimension des algèbres
+              path: content/fr/ac/VIII/02_s2_dimension_des_algebres.md
+              label: ac-viii-s2
+              first_pdf_page: 17
+              last_pdf_page: 90
+              book_pages: AC VIII.13-AC VIII.23
+              subsections: 4
+              statements: 32
+              exercises: 18
+              extraction: ocr
+              content_sha256: f03280dd4dc2bc823dea2ec4a898da6e144bd91a96ed19716e428b3ddb91891f
+            - kind: section
+              section: 3
+              title: Dimension des anneaux noethériens
+              path: content/fr/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md
+              label: ac-viii-s3
+              first_pdf_page: 28
+              last_pdf_page: 91
+              book_pages: AC VIII.86-AC VIII.87
+              subsections: 5
+              statements: 36
+              exercises: 7
+              extraction: ocr
+              content_sha256: a7beb9e0def769b02cc03afdf0d896591c95a346f34961489f8bde1c22d64743
+            - kind: section
+              section: 4
+              title: Séries de Hilbert-Samuel
+              path: content/fr/ac/VIII/04_s4_series_de_hilbert_samuel.md
+              label: ac-viii-s4
+              first_pdf_page: 41
+              last_pdf_page: 98
+              book_pages: AC VIII.87-AC VIII.94
+              subsections: 5
+              statements: 34
+              exercises: 12
+              extraction: ocr
+              content_sha256: e39ce9d40388cf73c095d0920acad7d03688ec0f8dbb184170e4f0e8080d96c5
+            - kind: section
+              section: 5
+              title: Anneaux locaux réguliers
+              path: content/fr/ac/VIII/05_s5_anneaux_locaux_reguliers.md
+              label: ac-viii-s5
+              first_pdf_page: 55
+              last_pdf_page: 103
+              book_pages: AC VIII.51-AC VIII.62, AC VIII.94-AC VIII.99
+              subsections: 4
+              statements: 31
+              exercises: 31
+              extraction: ocr
+              content_sha256: 9cd7832d5b59ca809e9b9f3a8c859e65146a177a5d13d34022c5d74b9974b502
+            - kind: section
+              section: 6
+              title: Dimension des anneaux gradués
+              path: content/fr/ac/VIII/06_s6_dimension_des_anneaux_gradues.md
+              label: ac-viii-s6
+              first_pdf_page: 66
+              last_pdf_page: 107
+              book_pages: AC VIII.62-AC VIII.71, AC VIII.99-AC VIII.103
+              subsections: 5
+              statements: 27
+              exercises: 12
+              extraction: ocr
+              content_sha256: 814eedcbd7305df0657c2887eb5d55a7a04c75964b784dc88fe9f7e6a6047be8
+            - kind: section
+              section: 7
+              title: Multiplicités
+              path: content/fr/ac/VIII/07_s7_multiplicites.md
+              label: ac-viii-s7
+              first_pdf_page: 75
+              last_pdf_page: 112
+              book_pages: AC VIII.71-AC VIII.81, AC VIII.103-AC VIII.108
+              subsections: 5
+              statements: 28
+              exercises: 25
+              extraction: ocr
+              content_sha256: 4794bf4ee4b6265162c8cc3eb9ffeac0c403b80501305d4b3cde8113dd388e6d
