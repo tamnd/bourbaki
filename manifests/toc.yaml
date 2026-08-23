@@ -9780,7 +9780,7 @@ books:
                   page: 22
                   pdf_page: 35
                 - "no": 7
-                  title: The simplicity theorem
+                  title: Simplicity theorems
                   page: 23
                   pdf_page: 36
               exercises:
@@ -13013,3 +13013,1296 @@ books:
               page: 368
               pdf_page: 386
               appendix: true
+    - id: lie-ii-iii-fr
+      grammar: pilcrow/bare
+      chapters:
+        - book: lie-ii-iii-fr
+          chapter: II
+          title: ALGÈBRES DE LIE LIBRES
+          page: 7
+          pdf_page: 5
+          sections:
+            - section: 1
+              title: Bigèbre enveloppante d'une algèbre de Lie
+              page: 7
+              pdf_page: 5
+              subsections:
+                - "no": 1
+                  title: Eléments primitifs d'une cogèbre
+                  page: 7
+                  pdf_page: 5
+                - "no": 2
+                  title: Eléments primitifs d'une bigèbre
+                  page: 9
+                  pdf_page: 7
+                - "no": 3
+                  title: Bigèbres filtrées
+                  page: 10
+                  pdf_page: 8
+                - "no": 4
+                  title: Bigèbre enveloppante d'une algèbre de Lie
+                  page: 10
+                  pdf_page: 8
+                - "no": 5
+                  title: Structure de la cogèbre U(g) en caractéristique 0
+                  page: 12
+                  pdf_page: 10
+                - "no": 6
+                  title: Structure des bigèbres filtrées en caractéristique 0
+                  page: 15
+                  pdf_page: 13
+              exercises:
+                page: 73
+                pdf_page: 71
+            - section: 2
+              title: Algèbres de Lie libres
+              page: 17
+              pdf_page: 15
+              subsections:
+                - "no": 1
+                  title: Rappels sur les algèbres libres
+                  page: 17
+                  pdf_page: 15
+                - "no": 2
+                  title: Construction de l'algèbre de Lie libre
+                  page: 18
+                  pdf_page: 16
+                - "no": 3
+                  title: Présentations d'une algèbre de Lie
+                  page: 19
+                  pdf_page: 17
+                - "no": 4
+                  title: Polynômes de Lie et substitutions
+                  page: 19
+                  pdf_page: 17
+                - "no": 5
+                  title: Propriétés fonctorielles
+                  page: 20
+                  pdf_page: 18
+                - "no": 6
+                  title: Graduations
+                  page: 21
+                  pdf_page: 19
+                - "no": 7
+                  title: Suite centrale descendante
+                  page: 23
+                  pdf_page: 21
+                - "no": 8
+                  title: Dérivations des algèbres de Lie libres
+                  page: 25
+                  pdf_page: 23
+                - "no": 9
+                  title: Théorème d'élimination
+                  page: 25
+                  pdf_page: 23
+                - "no": 10
+                  title: Ensembles de Hall dans un magma libre
+                  page: 27
+                  pdf_page: 25
+                - "no": 11
+                  title: Bases de Hall d'une algèbre de Lie libre
+                  page: 30
+                  pdf_page: 28
+              exercises:
+                page: 75
+                pdf_page: 73
+            - section: 3
+              title: Algèbre enveloppante de l'algèbre de Lie libre
+              page: 32
+              pdf_page: 30
+              subsections:
+                - "no": 1
+                  title: Algèbre enveloppante de L(X)
+                  page: 32
+                  pdf_page: 30
+                - "no": 2
+                  title: Projecteur de A^+(X) sur L(X)
+                  page: 34
+                  pdf_page: 32
+                - "no": 3
+                  title: Dimension des composantes homogènes de L(X)
+                  page: 35
+                  pdf_page: 33
+              exercises:
+                page: 79
+                pdf_page: 77
+            - section: 4
+              title: Filtrations centrales
+              page: 38
+              pdf_page: 36
+              subsections:
+                - "no": 1
+                  title: Filtrations réelles
+                  page: 38
+                  pdf_page: 36
+                - "no": 2
+                  title: Fonction d'ordre
+                  page: 38
+                  pdf_page: 36
+                - "no": 3
+                  title: Algèbre graduée associée à une algèbre filtrée
+                  page: 39
+                  pdf_page: 37
+                - "no": 4
+                  title: Filtrations centrales sur un groupe
+                  page: 40
+                  pdf_page: 38
+                - "no": 5
+                  title: Un exemple de filtration centrale
+                  page: 42
+                  pdf_page: 40
+                - "no": 6
+                  title: Filtrations centrales entières
+                  page: 44
+                  pdf_page: 42
+              exercises:
+                page: 79
+                pdf_page: 77
+            - section: 5
+              title: Algèbres de Magnus
+              page: 45
+              pdf_page: 43
+              subsections:
+                - "no": 1
+                  title: Algèbres de Magnus
+                  page: 45
+                  pdf_page: 43
+                - "no": 2
+                  title: Groupe de Magnus
+                  page: 46
+                  pdf_page: 44
+                - "no": 3
+                  title: Groupe de Magnus et groupe libre
+                  page: 46
+                  pdf_page: 44
+                - "no": 4
+                  title: Suite centrale descendante d’un groupe libre
+                  page: 48
+                  pdf_page: 46
+                - "no": 5
+                  title: $ p $-filtration des groupes libres
+                  page: 50
+                  pdf_page: 48
+              exercises:
+                page: 84
+                pdf_page: 82
+            - section: 6
+              title: La série de Hausdorff
+              page: 51
+              pdf_page: 49
+              subsections:
+                - "no": 1
+                  title: Exponentielle et logarithme dans les algèbres filtrées
+                  page: 51
+                  pdf_page: 49
+                - "no": 2
+                  title: Groupe de Hausdorff
+                  page: 52
+                  pdf_page: 50
+                - "no": 3
+                  title: Séries formelles de Lie
+                  page: 54
+                  pdf_page: 52
+                - "no": 4
+                  title: La série de Hausdorff
+                  page: 55
+                  pdf_page: 53
+                - "no": 5
+                  title: Substitutions dans la série de Hausdorff
+                  page: 57
+                  pdf_page: 55
+              exercises:
+                page: 90
+                pdf_page: 88
+            - section: 7
+              title: Convergence de la série de Hausdorff (cas réel ou complexe)
+              page: 60
+              pdf_page: 58
+              subsections:
+                - "no": 1
+                  title: Polynômes-continus à valeurs dans $ g $
+                  page: 60
+                  pdf_page: 58
+                - "no": 2
+                  title: Groupuscule défini par une algèbre de Lie normée complète
+                  page: 61
+                  pdf_page: 59
+                - "no": 3
+                  title: Exponentielle dans les algèbres associatives normées complètes
+                  page: 64
+                  pdf_page: 62
+              exercises:
+                page: 92
+                pdf_page: 90
+            - section: 8
+              title: Convergence de la série de Hausdorff (cas ultramétrique)
+              page: 66
+              pdf_page: 64
+              subsections:
+                - "no": 1
+                  title: Majoration $ p $-adique des séries exp, log et H
+                  page: 66
+                  pdf_page: 64
+                - "no": 2
+                  title: Algèbres de Lie normées
+                  page: 67
+                  pdf_page: 65
+                - "no": 3
+                  title: Groupe défini par une algèbre de Lie normée complète
+                  page: 68
+                  pdf_page: 66
+                - "no": 4
+                  title: Exponentielle dans les algèbres associatives normées complètes
+                  page: 69
+                  pdf_page: 67
+              exercises:
+                page: 92
+                pdf_page: 90
+            - section: 0
+              title: Fonction de Möbius
+              page: 71
+              pdf_page: 69
+              appendix: true
+              exercises:
+                page: 94
+                pdf_page: 92
+        - book: lie-ii-iii-fr
+          chapter: III
+          title: GROUPES DE LIE
+          page: 95
+          pdf_page: 93
+          sections:
+            - section: 1
+              title: Groupes de Lie
+              page: 95
+              pdf_page: 93
+              subsections:
+                - "no": 1
+                  title: Définition d’un groupe de Lie
+                  page: 95
+                  pdf_page: 93
+                - "no": 2
+                  title: Morphismes de groupes de Lie
+                  page: 99
+                  pdf_page: 97
+                - "no": 3
+                  title: Sous-groupes de Lie
+                  page: 100
+                  pdf_page: 98
+                - "no": 4
+                  title: Produits semi-directs de groupes de Lie
+                  page: 101
+                  pdf_page: 99
+                - "no": 5
+                  title: Quotient d’une variété par un groupe de Lie
+                  page: 103
+                  pdf_page: 101
+                - "no": 6
+                  title: Espaces homogènes et groupes quotients
+                  page: 105
+                  pdf_page: 103
+                - "no": 7
+                  title: Orbites
+                  page: 108
+                  pdf_page: 106
+                - "no": 8
+                  title: Fibrés vectoriels à opérateurs
+                  page: 109
+                  pdf_page: 107
+                - "no": 9
+                  title: Définition locale d’un groupe de Lie
+                  page: 112
+                  pdf_page: 110
+                - "no": 10
+                  title: Groupuscules
+                  page: 114
+                  pdf_page: 112
+                - "no": 11
+                  title: Morceaux de lois d’opération
+                  page: 118
+                  pdf_page: 116
+              exercises:
+                page: 257
+                pdf_page: 255
+            - section: 2
+              title: Groupe des vecteurs tangents à un groupe de Lie
+              page: 120
+              pdf_page: 118
+              subsections:
+                - "no": 1
+                  title: Lois de composition tangentes
+                  page: 120
+                  pdf_page: 118
+                - "no": 2
+                  title: Groupe des vecteurs tangents à un groupe de Lie
+                  page: 122
+                  pdf_page: 120
+                - "no": 3
+                  title: Cas des groupuscules
+                  page: 124
+                  pdf_page: 122
+            - section: 3
+              title: Passage d’un groupe de Lie à son algèbre de Lie
+              page: 125
+              pdf_page: 123
+              subsections:
+                - "no": 1
+                  title: Convolution des distributions ponctuelles sur un groupe de Lie
+                  page: 125
+                  pdf_page: 123
+                - "no": 2
+                  title: Propriétés fonctorielles
+                  page: 127
+                  pdf_page: 125
+                - "no": 3
+                  title: Cas d’un groupe opérant dans une variété
+                  page: 130
+                  pdf_page: 128
+                - "no": 4
+                  title: Convolution des distributions ponctuelles et des fonctions
+                  page: 131
+                  pdf_page: 129
+                - "no": 5
+                  title: Champs de distributions ponctuelles définis par l’action d’un groupe sur une variété
+                  page: 135
+                  pdf_page: 133
+                - "no": 6
+                  title: Champs invariants de distributions ponctuelles sur un groupe de Lie
+                  page: 136
+                  pdf_page: 134
+                - "no": 7
+                  title: Algèbre de Lie d’un groupe de Lie
+                  page: 138
+                  pdf_page: 136
+                - "no": 8
+                  title: Propriétés fonctorielles de l’algèbre de Lie
+                  page: 141
+                  pdf_page: 139
+                - "no": 9
+                  title: Algèbre de Lie du groupe des éléments inversibles d’une algèbre
+                  page: 143
+                  pdf_page: 141
+                - "no": 10
+                  title: Algèbres de Lie de certains groupes linéaires
+                  page: 144
+                  pdf_page: 142
+                - "no": 11
+                  title: Représentations linéaires
+                  page: 147
+                  pdf_page: 145
+                - "no": 12
+                  title: Représentation adjointe
+                  page: 151
+                  pdf_page: 149
+                - "no": 13
+                  title: Tenseurs et formes invariantes
+                  page: 155
+                  pdf_page: 153
+                - "no": 14
+                  title: Formules de Maurer–Cartan
+                  page: 156
+                  pdf_page: 154
+                - "no": 15
+                  title: Construction de formes différentielles invariantes
+                  page: 158
+                  pdf_page: 156
+                - "no": 16
+                  title: Mesure de Haar sur un groupe de Lie
+                  page: 159
+                  pdf_page: 157
+                - "no": 17
+                  title: Différentielle gauche
+                  page: 162
+                  pdf_page: 160
+                - "no": 18
+                  title: Algèbre de Lie d’un groupuscule de Lie
+                  page: 163
+                  pdf_page: 161
+              exercises:
+                page: 258
+                pdf_page: 256
+            - section: 4
+              title: Passage des algèbres de Lie aux groupes de Lie
+              page: 166
+              pdf_page: 164
+              subsections:
+                - "no": 1
+                  title: Passage des morphismes d’algèbres de Lie aux morphismes de groupes de Lie
+                  page: 166
+                  pdf_page: 164
+                - "no": 2
+                  title: Passage des algèbres de Lie aux groupes de Lie
+                  page: 168
+                  pdf_page: 166
+                - "no": 3
+                  title: Applications exponentielles
+                  page: 171
+                  pdf_page: 169
+                - "no": 4
+                  title: Fonctorialité des applications exponentielles
+                  page: 175
+                  pdf_page: 173
+                - "no": 5
+                  title: Structure induite sur un sous-groupe
+                  page: 176
+                  pdf_page: 174
+                - "no": 6
+                  title: Primitives des formes différentielles à valeurs dans une algèbre de Lie
+                  page: 178
+                  pdf_page: 176
+                - "no": 7
+                  title: Passage des lois d’opérations infinitésimales aux lois d’opérations
+                  page: 182
+                  pdf_page: 180
+              exercises:
+                page: 261
+                pdf_page: 259
+            - section: 5
+              title: Calculs formels dans les groupes de Lie
+              page: 184
+              pdf_page: 182
+              subsections:
+                - "no": 1
+                  title: Les coefficients c_{αβγ}
+                  page: 185
+                  pdf_page: 183
+                - "no": 2
+                  title: Crochet dans l’algèbre de Lie
+                  page: 186
+                  pdf_page: 184
+                - "no": 3
+                  title: Puissances
+                  page: 187
+                  pdf_page: 185
+                - "no": 4
+                  title: Exponentielle
+                  page: 190
+                  pdf_page: 188
+              exercises:
+                page: 265
+                pdf_page: 263
+            - section: 6
+              title: Groupes de Lie réels ou complexes
+              page: 192
+              pdf_page: 190
+              subsections:
+                - "no": 1
+                  title: Passage de morphismes d’algèbres de Lie aux morphismes de groupes de Lie
+                  page: 192
+                  pdf_page: 190
+                - "no": 2
+                  title: Sous-groupes intégraux
+                  page: 193
+                  pdf_page: 191
+                - "no": 3
+                  title: Passage des algèbres de Lie aux groupes de Lie
+                  page: 198
+                  pdf_page: 196
+                - "no": 4
+                  title: Application exponentielle
+                  page: 199
+                  pdf_page: 197
+                - "no": 5
+                  title: Application aux représentations linéaires
+                  page: 203
+                  pdf_page: 201
+                - "no": 6
+                  title: Sous-groupes intégraux distingués
+                  page: 204
+                  pdf_page: 202
+                - "no": 7
+                  title: Primitives des formes différentielles à valeurs dans une algèbre de Lie
+                  page: 206
+                  pdf_page: 204
+                - "no": 8
+                  title: Passage des lois d’opérations infinitésimales aux lois d’opérations
+                  page: 206
+                  pdf_page: 204
+                - "no": 9
+                  title: Application exponentielle dans le groupe linéaire
+                  page: 208
+                  pdf_page: 206
+                - "no": 10
+                  title: Complexification d’un groupe de Lie réel de dimension finie
+                  page: 210
+                  pdf_page: 208
+              exercises:
+                page: 266
+                pdf_page: 264
+            - section: 7
+              title: Groupes de Lie sur un corps ultramétrique
+              page: 214
+              pdf_page: 212
+              subsections:
+                - "no": 1
+                  title: Passage des algèbres de Lie aux groupes de Lie
+                  page: 214
+                  pdf_page: 212
+                - "no": 2
+                  title: Applications exponentielles
+                  page: 216
+                  pdf_page: 214
+                - "no": 3
+                  title: Groupes standard
+                  page: 216
+                  pdf_page: 214
+                - "no": 4
+                  title: Filtration des groupes standard
+                  page: 218
+                  pdf_page: 216
+                - "no": 5
+                  title: Puissances dans les groupes standard
+                  page: 219
+                  pdf_page: 217
+                - "no": 6
+                  title: Application logarithme
+                  page: 221
+                  pdf_page: 219
+              exercises:
+                page: 272
+                pdf_page: 270
+            - section: 8
+              title: Groupes de Lie sur R ou Q_p
+              page: 225
+              pdf_page: 223
+              subsections:
+                - "no": 1
+                  title: Morphismes continus
+                  page: 225
+                  pdf_page: 223
+                - "no": 2
+                  title: Sous-groupes fermés
+                  page: 227
+                  pdf_page: 225
+              exercises:
+                page: 275
+                pdf_page: 273
+            - section: 9
+              title: Commutateurs, centralisateurs, normalisateurs dans un groupe de Lie
+              page: 230
+              pdf_page: 228
+              subsections:
+                - "no": 1
+                  title: Commutateurs dans un groupe topologique
+                  page: 230
+                  pdf_page: 228
+                - "no": 2
+                  title: Commutateurs dans un groupe de Lie
+                  page: 231
+                  pdf_page: 229
+                - "no": 3
+                  title: Centralisateurs
+                  page: 233
+                  pdf_page: 231
+                - "no": 4
+                  title: Normalisateurs
+                  page: 234
+                  pdf_page: 232
+                - "no": 5
+                  title: Groupes de Lie nilpotents
+                  page: 235
+                  pdf_page: 233
+                - "no": 6
+                  title: Groupes de Lie résolubles
+                  page: 240
+                  pdf_page: 238
+                - "no": 7
+                  title: Radical d’un groupe de Lie
+                  page: 241
+                  pdf_page: 239
+                - "no": 8
+                  title: Groupes de Lie semi-simples
+                  page: 242
+                  pdf_page: 240
+              exercises:
+                page: 276
+                pdf_page: 274
+            - section: 10
+              title: Le groupe des automorphismes d’un groupe de Lie
+              page: 247
+              pdf_page: 245
+              subsections:
+                - "no": 1
+                  title: Automorphismes infinitésimaux
+                  page: 247
+                  pdf_page: 245
+                - "no": 2
+                  title: Le groupe des automorphismes d’un groupe de Lie (cas réel ou complexe)
+                  page: 250
+                  pdf_page: 248
+                - "no": 3
+                  title: Le groupe des automorphismes d’un groupe de Lie (cas ultramétrique)
+                  page: 255
+                  pdf_page: 253
+              exercises:
+                page: 284
+                pdf_page: 282
+            - section: 0
+              title: Opérations sur les représentations linéaires
+              page: 256
+              pdf_page: 254
+              appendix: true
+          historical_note:
+            page: 286
+            pdf_page: 284
+    - id: ac-viii-ix-fr
+      grammar: pilcrow/label
+      chapters:
+        - book: ac-viii-ix-fr
+          chapter: VIII
+          title: DIMENSION
+          page: 1
+          pdf_page: 5
+          sections:
+            - section: 1
+              title: Dimension de Krull d’un anneau
+              page: 1
+              pdf_page: 5
+              subsections:
+                - "no": 1
+                  title: Dimension de Krull d’un espace topologique
+                  page: 1
+                  pdf_page: 5
+                - "no": 2
+                  title: Codimension d’une partie fermée
+                  page: 4
+                  pdf_page: 8
+                - "no": 3
+                  title: Dimension d’un anneau, hauteur d’un idéal
+                  page: 6
+                  pdf_page: 10
+                - "no": 4
+                  title: Dimension d’un module de type fini
+                  page: 10
+                  pdf_page: 14
+                - "no": 5
+                  title: Cycles associés à un module
+                  page: 11
+                  pdf_page: 15
+              exercises:
+                page: 81
+                pdf_page: 85
+            - section: 2
+              title: Dimension des algèbres
+              page: 13
+              pdf_page: 17
+              subsections:
+                - "no": 1
+                  title: Dimension et platitude
+                  page: 13
+                  pdf_page: 17
+                - "no": 2
+                  title: Dimension d’une algèbre de type fini
+                  page: 16
+                  pdf_page: 20
+                - "no": 3
+                  title: Dimension d’une algèbre entière
+                  page: 17
+                  pdf_page: 21
+                - "no": 4
+                  title: Algèbres de type fini sur un corps
+                  page: 19
+                  pdf_page: 23
+              exercises:
+                page: 84
+                pdf_page: 88
+            - section: 3
+              title: Dimension des anneaux noethériens
+              page: 24
+              pdf_page: 28
+              subsections:
+                - "no": 1
+                  title: Dimension d’un anneau quotient
+                  page: 24
+                  pdf_page: 28
+                - "no": 2
+                  title: Dimension et suite sécantes
+                  page: 26
+                  pdf_page: 30
+                - "no": 3
+                  title: Premières applications
+                  page: 29
+                  pdf_page: 33
+                - "no": 4
+                  title: Changements d’anneaux
+                  page: 32
+                  pdf_page: 36
+                - "no": 5
+                  title: Construction de suites sécantes
+                  page: 36
+                  pdf_page: 40
+              exercises:
+                page: 86
+                pdf_page: 90
+            - section: 4
+              title: Séries de Hilbert-Samuel
+              page: 37
+              pdf_page: 41
+              subsections:
+                - "no": 1
+                  title: L’anneau Z((T))
+                  page: 37
+                  pdf_page: 41
+                - "no": 2
+                  title: Série de Poincaré d’un module gradué sur un anneau de polynômes
+                  page: 39
+                  pdf_page: 43
+                - "no": 3
+                  title: Série de Hilbert-Samuel d’un module bien filtré
+                  page: 43
+                  pdf_page: 47
+                - "no": 4
+                  title: Degré de la fonction de Hilbert-Samuel
+                  page: 47
+                  pdf_page: 51
+                - "no": 5
+                  title: Série de Hilbert-Samuel d’un module quotient
+                  page: 48
+                  pdf_page: 52
+              exercises:
+                page: 87
+                pdf_page: 91
+            - section: 5
+              title: Anneaux locaux réguliers
+              page: 51
+              pdf_page: 55
+              subsections:
+                - "no": 1
+                  title: Définition des anneaux locaux réguliers
+                  page: 51
+                  pdf_page: 55
+                - "no": 2
+                  title: Anneau gradué associé à un anneau local régulier
+                  page: 53
+                  pdf_page: 57
+                - "no": 3
+                  title: Quotients d’anneaux locaux réguliers
+                  page: 55
+                  pdf_page: 59
+                - "no": 4
+                  title: Polynômes d’Eisenstein
+                  page: 56
+                  pdf_page: 60
+              exercises:
+                page: 94
+                pdf_page: 98
+            - section: 6
+              title: Dimension des anneaux gradués
+              page: 62
+              pdf_page: 66
+              subsections:
+                - "no": 1
+                  title: Anneau filtré associé à un anneau gradué
+                  page: 62
+                  pdf_page: 66
+                - "no": 2
+                  title: Dimension et chaînes d'idéaux gradués
+                  page: 63
+                  pdf_page: 67
+                - "no": 3
+                  title: Dimension des modules gradués
+                  page: 65
+                  pdf_page: 69
+                - "no": 4
+                  title: Semi-continuité de la dimension
+                  page: 69
+                  pdf_page: 73
+                - "no": 5
+                  title: Algèbres graduées régulières
+                  page: 70
+                  pdf_page: 74
+              exercises:
+                page: 99
+                pdf_page: 103
+            - section: 7
+              title: Multiplicités
+              page: 71
+              pdf_page: 75
+              subsections:
+                - "no": 1
+                  title: Multiplicité d'un module relativement à un idéal
+                  page: 71
+                  pdf_page: 75
+                - "no": 2
+                  title: Multiplicités et extensions plates
+                  page: 73
+                  pdf_page: 77
+                - "no": 3
+                  title: Multiplicités et extensions finies
+                  page: 74
+                  pdf_page: 78
+                - "no": 4
+                  title: Multiplicités et suites sécantes
+                  page: 76
+                  pdf_page: 80
+                - "no": 5
+                  title: Eléments superficiels
+                  page: 77
+                  pdf_page: 81
+              exercises:
+                page: 103
+                pdf_page: 107
+        - book: ac-viii-ix-fr
+          chapter: IX
+          title: ANNEAUX LOCAUX NOETHÉRIENS COMPLETS
+          page: 1
+          pdf_page: 113
+          sections:
+            - section: 1
+              title: Vecteurs de Witt
+              page: 1
+              pdf_page: 113
+              subsections:
+                - "no": 1
+                  title: Polynômes de Witt
+                  page: 1
+                  pdf_page: 113
+                - "no": 2
+                  title: Les applications f, v et Φ
+                  page: 2
+                  pdf_page: 114
+                - "no": 3
+                  title: Construction de polynômes
+                  page: 4
+                  pdf_page: 116
+                - "no": 4
+                  title: L'anneau W(A) des vecteurs de Witt
+                  page: 6
+                  pdf_page: 118
+                - "no": 5
+                  title: L'homomorphisme F et le décalage V
+                  page: 7
+                  pdf_page: 119
+                - "no": 6
+                  title: Filtration et topologie de l'anneau W(A)
+                  page: 10
+                  pdf_page: 122
+                - "no": 7
+                  title: Les anneaux W_n(A) des vecteurs de Witt de longueur finie
+                  page: 12
+                  pdf_page: 124
+                - "no": 8
+                  title: L'anneau des vecteurs de Witt à coefficients dans un anneau de caractéristique p
+                  page: 15
+                  pdf_page: 127
+              exercises:
+                page: 42
+                pdf_page: 154
+            - section: 2
+              title: Anneaux de Cohen
+              page: 17
+              pdf_page: 129
+              subsections:
+                - "no": 1
+                  title: p-anneaux
+                  page: 17
+                  pdf_page: 129
+                - "no": 2
+                  title: Anneaux de Cohen
+                  page: 20
+                  pdf_page: 132
+                - "no": 3
+                  title: Existence et unicité des p-anneaux
+                  page: 22
+                  pdf_page: 134
+                - "no": 4
+                  title: Représentants multiplicatifs
+                  page: 24
+                  pdf_page: 136
+                - "no": 5
+                  title: Structure des anneaux locaux noethériens et complets
+                  page: 26
+                  pdf_page: 138
+              exercises:
+                page: 68
+                pdf_page: 180
+            - section: 3
+              title: Corps de représentants
+              page: 28
+              pdf_page: 140
+              subsections:
+                - "no": 1
+                  title: Anneaux locaux d'égales caractéristiques
+                  page: 28
+                  pdf_page: 140
+                - "no": 2
+                  title: Un théorème de relèvement
+                  page: 28
+                  pdf_page: 140
+                - "no": 3
+                  title: Corps de représentants
+                  page: 29
+                  pdf_page: 141
+              exercises:
+                page: 75
+                pdf_page: 187
+            - section: 4
+              title: Fermeture intégrale d'un anneau local complet
+              page: 30
+              pdf_page: 142
+              subsections:
+                - "no": 1
+                  title: Anneaux japonais
+                  page: 30
+                  pdf_page: 142
+                - "no": 2
+                  title: Théorème de Nagata
+                  page: 31
+                  pdf_page: 143
+                - "no": 3
+                  title: Quelques lemmes
+                  page: 33
+                  pdf_page: 145
+                - "no": 4
+                  title: Anneaux de Nagata
+                  page: 34
+                  pdf_page: 146
+              exercises:
+                page: 78
+                pdf_page: 190
+            - section: 0
+              title: ""
+              page: 37
+              pdf_page: 149
+              subsections:
+                - "no": 1
+                  title: Limite inductive d'anneaux locaux
+                  page: 37
+                  pdf_page: 149
+                - "no": 2
+                  title: Gonflement d'un anneau local
+                  page: 37
+                  pdf_page: 149
+                - "no": 3
+                  title: Existence des p-anneaux
+                  page: 41
+                  pdf_page: 153
+              appendix: true
+              exercises:
+                page: 84
+                pdf_page: 196
+    - id: int-v-fr
+      grammar: pilcrow/bare
+      chapters:
+        - book: int-v-fr
+          chapter: V
+          title: Intégration des mesures
+          page: 1
+          pdf_page: 6
+          sections:
+            - section: 1
+              title: Intégrale supérieure essentielle
+              page: 2
+              pdf_page: 7
+              subsections:
+                - "no": 1
+                  title: Définition de l'intégrale supérieure essentielle
+                  page: 2
+                  pdf_page: 7
+                - "no": 2
+                  title: Fonctions et mesures modérées
+                  page: 4
+                  pdf_page: 9
+                - "no": 3
+                  title: Fonctions essentiellement intégrables
+                  page: 7
+                  pdf_page: 12
+                - "no": 4
+                  title: Une propriété spéciale à l'intégrale supérieure essentielle
+                  page: 11
+                  pdf_page: 16
+            - section: 2
+              title: Familles sommables de mesures positives
+              page: 12
+              pdf_page: 17
+              subsections:
+                - "no": 1
+                  title: Définition des familles sommables de mesures
+                  page: 12
+                  pdf_page: 17
+                - "no": 2
+                  title: Intégration par rapport à une somme de mesures positives
+                  page: 13
+                  pdf_page: 18
+                - "no": 3
+                  title: Décomposition d'une mesure en somme de mesures à supports compacts
+                  page: 15
+                  pdf_page: 20
+            - section: 3
+              title: Intégration de mesures positives
+              page: 16
+              pdf_page: 21
+              subsections:
+                - "no": 1
+                  title: Fonctions à valeurs dans un espace de mesures
+                  page: 16
+                  pdf_page: 21
+                - "no": 2
+                  title: Intégrales superposées de fonctions positives
+                  page: 21
+                  pdf_page: 26
+                - "no": 3
+                  title: Intégrales superposées de fonctions à valeurs dans un espace de Banach
+                  page: 25
+                  pdf_page: 30
+                - "no": 4
+                  title: Fonctions universellement mesurables
+                  page: 28
+                  pdf_page: 33
+                - "no": 5
+                  title: Diffusions
+                  page: 29
+                  pdf_page: 34
+                - "no": 6
+                  title: Composition des diffusions bornées
+                  page: 32
+                  pdf_page: 37
+            - section: 4
+              title: Intégration de mesures positives ponctuelles
+              page: 34
+              pdf_page: 39
+              subsections:
+                - "no": 1
+                  title: Familles de mesures ponctuelles
+                  page: 34
+                  pdf_page: 39
+                - "no": 2
+                  title: Intégrales supérieures de fonctions positives par rapport à une intégrale de mesures ponctuelles
+                  page: 36
+                  pdf_page: 41
+                - "no": 3
+                  title: Mesurabilité par rapport à une intégrale de mesures ponctuelles
+                  page: 39
+                  pdf_page: 44
+                - "no": 4
+                  title: Intégration des fonctions à valeurs dans un espace de Banach, par rapport à une intégrale de mesures ponctuelles
+                  page: 40
+                  pdf_page: 45
+            - section: 5
+              title: Mesures définies par des densités numériques
+              page: 41
+              pdf_page: 46
+              subsections:
+                - "no": 1
+                  title: Fonctions localement intégrables
+                  page: 41
+                  pdf_page: 46
+                - "no": 2
+                  title: Mesures définies par des densités numériques
+                  page: 43
+                  pdf_page: 48
+                - "no": 3
+                  title: Intégration par rapport à une mesure définie par une densité
+                  page: 46
+                  pdf_page: 51
+                - "no": 4
+                  title: Comportement du produit par rapport aux opérations usuelles
+                  page: 49
+                  pdf_page: 54
+                - "no": 5
+                  title: Caractérisation des mesures de base $ \mu $
+                  page: 52
+                  pdf_page: 57
+                - "no": 6
+                  title: Mesures équivalentes
+                  page: 57
+                  pdf_page: 62
+                - "no": 7
+                  title: Mesures étrangères
+                  page: 59
+                  pdf_page: 64
+                - "no": 8
+                  title: 'Applications: I. Dualité des espaces $ L^p $'
+                  page: 61
+                  pdf_page: 66
+                - "no": 9
+                  title: 'Applications: II. Fonctions de mesures'
+                  page: 65
+                  pdf_page: 70
+                - "no": 10
+                  title: Mesures diffuses; mesures atomiques
+                  page: 67
+                  pdf_page: 72
+            - section: 6
+              title: Images d'une mesure
+              page: 68
+              pdf_page: 73
+              subsections:
+                - "no": 1
+                  title: Image d'une mesure positive
+                  page: 68
+                  pdf_page: 73
+                - "no": 2
+                  title: Intégration par rapport à l'image d'une mesure positive
+                  page: 70
+                  pdf_page: 75
+                - "no": 3
+                  title: Propriétés de l'image d'une mesure positive
+                  page: 72
+                  pdf_page: 77
+                - "no": 4
+                  title: Image d'une mesure complexe
+                  page: 74
+                  pdf_page: 79
+                - "no": 5
+                  title: 'Application: changement de variable dans l''intégrale de Lebesgue'
+                  page: 75
+                  pdf_page: 80
+                - "no": 6
+                  title: Décomposition en tranches. Image réciproque d'une mesure par un homéomorphisme local
+                  page: 78
+                  pdf_page: 83
+            - section: 7
+              title: Intégration par rapport à une mesure induite
+              page: 81
+              pdf_page: 86
+              subsections:
+                - "no": 1
+                  title: Intégration par rapport à une mesure induite
+                  page: 81
+                  pdf_page: 86
+                - "no": 2
+                  title: Propriétés des mesures induites
+                  page: 84
+                  pdf_page: 89
+    - id: lie-i-fr
+      grammar: pilcrow/bare
+      chapters:
+        - book: lie-i-fr
+          chapter: I
+          title: Algèbres de Lie
+          page: 7
+          pdf_page: 5
+          sections:
+            - section: 1
+              title: Définition des algèbres de Lie
+              page: 7
+              pdf_page: 5
+              subsections:
+                - "no": 1
+                  title: Algèbres
+                  page: 7
+                  pdf_page: 5
+                - "no": 2
+                  title: Algèbres de Lie
+                  page: 9
+                  pdf_page: 7
+                - "no": 3
+                  title: Algèbres de Lie commutatives
+                  page: 12
+                  pdf_page: 10
+                - "no": 4
+                  title: Idéaux
+                  page: 12
+                  pdf_page: 10
+                - "no": 5
+                  title: Série dérivée, série centrale descendante
+                  page: 13
+                  pdf_page: 11
+                - "no": 6
+                  title: Série centrale ascendante
+                  page: 14
+                  pdf_page: 12
+                - "no": 7
+                  title: Extensions
+                  page: 15
+                  pdf_page: 13
+                - "no": 8
+                  title: Produits semi-directs
+                  page: 17
+                  pdf_page: 15
+                - "no": 9
+                  title: Changement de l’anneau de base
+                  page: 21
+                  pdf_page: 19
+            - section: 2
+              title: Algèbre enveloppante d’une algèbre de Lie
+              page: 22
+              pdf_page: 20
+              subsections:
+                - "no": 1
+                  title: Définition de l’algèbre enveloppante
+                  page: 22
+                  pdf_page: 20
+                - "no": 2
+                  title: Algèbre enveloppante d’un produit
+                  page: 23
+                  pdf_page: 21
+                - "no": 3
+                  title: Algèbre enveloppante d’une sous-algèbre
+                  page: 24
+                  pdf_page: 22
+                - "no": 4
+                  title: Algèbre enveloppante de l’algèbre opposée
+                  page: 26
+                  pdf_page: 24
+                - "no": 5
+                  title: Algèbre symétrique d’un module
+                  page: 26
+                  pdf_page: 24
+                - "no": 6
+                  title: Filtration de l’algèbre enveloppante
+                  page: 27
+                  pdf_page: 25
+                - "no": 7
+                  title: Le théorème de Poincaré-Birkhoff-Witt
+                  page: 30
+                  pdf_page: 28
+                - "no": 8
+                  title: Prolongement des dérivations
+                  page: 35
+                  pdf_page: 33
+                - "no": 9
+                  title: Extension de l’anneau de base
+                  page: 38
+                  pdf_page: 36
+            - section: 3
+              title: Représentations
+              page: 38
+              pdf_page: 36
+              subsections:
+                - "no": 1
+                  title: Représentations
+                  page: 38
+                  pdf_page: 36
+                - "no": 2
+                  title: Produit tensoriel de représentations
+                  page: 42
+                  pdf_page: 40
+                - "no": 3
+                  title: Représentations dans des modules d’homomorphismes
+                  page: 43
+                  pdf_page: 41
+                - "no": 4
+                  title: Exemples
+                  page: 46
+                  pdf_page: 44
+                - "no": 5
+                  title: Éléments invariants
+                  page: 47
+                  pdf_page: 45
+                - "no": 6
+                  title: Formes bilinéaires invariantes
+                  page: 49
+                  pdf_page: 47
+                - "no": 7
+                  title: Élément de Casimir
+                  page: 51
+                  pdf_page: 49
+                - "no": 8
+                  title: Extension de l’anneau de base
+                  page: 52
+                  pdf_page: 50
+            - section: 4
+              title: Algèbres de Lie nilpotentes
+              page: 55
+              pdf_page: 53
+              subsections:
+                - "no": 1
+                  title: Définition des algèbres de Lie nilpotentes
+                  page: 55
+                  pdf_page: 53
+                - "no": 2
+                  title: Le théorème d’Engel
+                  page: 57
+                  pdf_page: 55
