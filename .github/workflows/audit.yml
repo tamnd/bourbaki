@@ -34,7 +34,7 @@ jobs:
             exit 1
           fi
 
-  # Assembly is a pure function of pages/ and manifests/toc.yaml. That is the
+  # Assembly is a pure function of pages/ and manifests/toc/. That is the
   # contract that lets it run here at all, where the PDFs are not and cannot be,
   # and this is what holds it: the sections are assembled again from the pages
   # and compared with the ones committed. A parser that gives a different answer

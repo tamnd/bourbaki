@@ -431,6 +431,18 @@ contents:
             leaders for what says that a label is what follows. The page is V.12, as
             pdf 267 shows, which the page map puts at V.12 and which heads INTEGRATION
             WITH RESPECT TO A SUM OF POSITIVE MEASURES.
+    - book: alg-ix-fr
+      errata:
+        - says: 'CHAPITRE IX. — Formes sesquilinéaires et formes quadratiques ............ 3'
+          read: 'CHAPITRE IX. — Formes sesquilinéaires et formes quadratiques ............ 7'
+          why: The printed contents, pdf page 208, puts the chapter on page 3, which is
+            the divisional title of the 1959 fascicule, and the Springer reprint the
+            corpus works from does not carry it. Pdf 1 to 4 are the reprint's own cover,
+            series page, title page and copyright notice, and the volume opens at pdf 5
+            with the chapter title, the preamble about rings with a unit, and § 1
+            straight after it. The page map runs on a constant offset of two from head
+            to head, 33 of them, so pdf 5 is printed 7, and the contents puts § 1 and
+            no. 1 of § 1 on 7 as well. The chapter starts where the reprint starts it.
 heads:
     - book: ac-v-vii-fr
       errata:
