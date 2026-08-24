@@ -6540,3 +6540,160 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 5af65f5b13b8975b7fe850a1f1e5ddf05b39234af5824438937534fd1b3b408e
+    - id: lie-ix-fr
+      chapters:
+        - chapter: IX
+          title: GROUPES DE LIE RÉELS COMPACTS
+          sections:
+            - kind: front
+              title: GROUPES DE LIE RÉELS COMPACTS
+              path: content/fr/lie/IX/00_frontmatter.md
+              first_pdf_page: 4
+              last_pdf_page: 4
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 997969a752365b66c7234e20f0ae8247ba1fe60742992c769a6f537209c22549
+            - kind: section
+              section: 1
+              title: Algèbres de Lie compactes
+              path: content/fr/lie/IX/01_s1_algebres_de_lie_compactes.md
+              label: lie-ix-s1
+              first_pdf_page: 4
+              last_pdf_page: 111
+              book_pages: LIE IX.107-LIE IX.108
+              subsections: 4
+              statements: 13
+              exercises: 9
+              extraction: ocr
+              content_sha256: 28814b2f9ef89c002eca86bb338e1398ea1db61d56170a1ec72f8d2821e2714d
+            - kind: section
+              section: 2
+              title: Tores maximaux des groupes de Lie compacts
+              path: content/fr/lie/IX/02_s2_tores_maximaux_des_groupes_de_lie.md
+              label: lie-ix-s2
+              first_pdf_page: 10
+              last_pdf_page: 113
+              book_pages: LIE IX.7-LIE IX.15, LIE IX.108-LIE IX.110
+              subsections: 6
+              statements: 33
+              exercises: 11
+              extraction: ocr
+              content_sha256: ef057f431c155e938d9528c69196e9b9c97f384cb444dfa0a7f697ce7909d41a
+            - kind: section
+              section: 3
+              title: Formes compactes des algèbres de Lie semi-simples complexes
+              path: content/fr/lie/IX/03_s3_formes_compactes_des_algebres_de_lie.md
+              label: lie-ix-s3
+              first_pdf_page: 19
+              last_pdf_page: 115
+              book_pages: LIE IX.16-LIE IX.23, LIE IX.110-LIE IX.112
+              subsections: 6
+              statements: 16
+              exercises: 9
+              extraction: ocr
+              content_sha256: 64b5c76d6679b691529d93721ebb40f250965fa6ed75738daa41d189b2dcdf1a
+            - kind: section
+              section: 4
+              title: Système de racines associé à un groupe compact
+              path: content/fr/lie/IX/04_s4_systeme_de_racines_associe_a_un_groupe.md
+              label: lie-ix-s4
+              first_pdf_page: 27
+              last_pdf_page: 121
+              book_pages: LIE IX.24-LIE IX.43, LIE IX.112-LIE IX.118
+              subsections: 10
+              statements: 56
+              exercises: 22
+              extraction: ocr
+              content_sha256: 6c66b846d1cd9230ffc8f9f5a1d3df37c0c2c2f73054c06e498052d9018260d1
+            - kind: section
+              section: 5
+              title: Classes de conjugaison
+              path: content/fr/lie/IX/05_s5_classes_de_conjugaison.md
+              label: lie-ix-s5
+              first_pdf_page: 46
+              last_pdf_page: 124
+              book_pages: LIE IX.43-LIE IX.51, LIE IX.118-LIE IX.121
+              subsections: 4
+              statements: 26
+              exercises: 5
+              extraction: ocr
+              content_sha256: 76b42663ee733234859ae3e9f19b2a08d52acf3e964743780050d8239520ffc5
+            - kind: section
+              section: 6
+              title: Intégration dans les groupes de Lie compacts
+              path: content/fr/lie/IX/06_s6_integration_dans_les_groupes_de_lie.md
+              label: lie-ix-s6
+              first_pdf_page: 55
+              last_pdf_page: 128
+              book_pages: LIE IX.52-LIE IX.65, LIE IX.121-LIE IX.125
+              subsections: 5
+              statements: 22
+              exercises: 13
+              extraction: ocr
+              content_sha256: 826aad46bffd3653db8f84279b0732b0ca87b3a9c46c1e556d9dcd9f502c62ab
+            - kind: section
+              section: 7
+              title: Représentations irréductibles des groupes de Lie compacts connexes
+              path: content/fr/lie/IX/07_s7_representations_irreductibles_des.md
+              label: lie-ix-s7
+              first_pdf_page: 69
+              last_pdf_page: 129
+              book_pages: LIE IX.66-LIE IX.78, LIE IX.125-LIE IX.126
+              subsections: 6
+              statements: 27
+              exercises: 8
+              extraction: ocr
+              content_sha256: ecedfaa1603602d269c0413714cb91fd7b839d33dca2edc704c3c4e8c62be209
+            - kind: section
+              section: 8
+              title: Transformation de Fourier
+              path: content/fr/lie/IX/08_s8_transformation_de_fourier.md
+              label: lie-ix-s8
+              first_pdf_page: 81
+              last_pdf_page: 131
+              book_pages: LIE IX.78-LIE IX.87, LIE IX.127-LIE IX.128
+              subsections: 4
+              statements: 9
+              exercises: 6
+              extraction: ocr
+              content_sha256: d0265b4788235766af102893705b0c165e3e11646e7de504a0891a78f8058d69
+            - kind: section
+              section: 9
+              title: Opérations des groupes de Lie compacts sur les variétés
+              path: content/fr/lie/IX/09_s9_operations_des_groupes_de_lie_compacts.md
+              label: lie-ix-s9
+              first_pdf_page: 91
+              last_pdf_page: 135
+              book_pages: LIE IX.88-LIE IX.99, LIE IX.128-LIE IX.132
+              subsections: 4
+              statements: 19
+              exercises: 3
+              extraction: ocr
+              content_sha256: 70d93ab46fdc58bf4c0149033f4d42956c87e2023b8ea5e3e78532beccd7da57
+            - kind: appendix
+              section: 1
+              title: STRUCTURE DES GROUPES COMPACTS
+              path: content/fr/lie/IX/A1_a1_structure_des_groupes_compacts.md
+              label: lie-ix-a1
+              first_pdf_page: 102
+              last_pdf_page: 141
+              book_pages: LIE IX.99-LIE IX.102
+              subsections: 3
+              statements: 9
+              exercises: 1
+              extraction: ocr
+              content_sha256: f71cc519d454262675e06cb126581e6921af9721c539a8f1f4140ff9aa98693f
+            - kind: appendix
+              section: 2
+              title: REPRÉSENTATIONS DE TYPE RÉEL, COMPLEXE OU QUATERNIONIEN
+              path: content/fr/lie/IX/A2_a2_representations_de_type_reel_complexe.md
+              label: lie-ix-a2
+              first_pdf_page: 106
+              last_pdf_page: 110
+              subsections: 2
+              statements: 6
+              exercises: 0
+              extraction: ocr
+              content_sha256: e8fe2400380e01aae21e250bd12e6307ba3b554a99c3b99bed8349f28369dfdb
