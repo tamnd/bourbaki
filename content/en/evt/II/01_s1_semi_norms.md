@@ -26,9 +26,9 @@ subsections:
       title: Equicontinuity criteria of multilinear mappings for topologies defined by semi-norms
       page: 5
       pdf_page: 42
-statements: 12
+statements: 15
 exercises: 0
-content_sha256: 22d965ad6a15e79855ff66d41cce85690ba89e25a41f4cb5222e05fdb5f82d84
+content_sha256: 91c4d031e3ebb3825cc2f99598c1def259a421c106f44ab8650a4d069bf4464d
 ---
 
 ## § 1. SEMI-NORMS
@@ -37,7 +37,9 @@ Throughout this paragraph, $ \mathbf{K} $ denotes a non-discrete valued division
 
 ### 1. Definition of semi-norms
 
-Definition 1. — Let E be a left vector space over $ \mathbf{K} $. A mapping $ p $ of E in $ \mathbf{R}_+ = \{ 0, + \infty \} $, is called a semi-norm on E if it satisfies the following axioms :
+#### Definition 1 {#evt-ii-s1-def-1 .statement}
+
+Let E be a left vector space over $ \mathbf{K} $. A mapping $ p $ of E in $ \mathbf{R}_+ = \{ 0, + \infty \} $, is called a semi-norm on E if it satisfies the following axioms :
 (SN_I) If $ x \in \mathrm{E} $ and $ \lambda \in \mathbf{K} $ then $ p(\lambda x) = |\lambda| \, p(x) $.
 (SN_II) If $ x \in \mathrm{E} $ and $ y \in \mathrm{E} $ then $ p(x + y) \leq p(x) + p(y) $.
 
@@ -46,13 +48,17 @@ $$
 |p(x) - p(y)| \leq p(x - y) .
 $$
 
-#### Example {#evt-ii-s1-n1-exa-1 .statement}
+#### Example 1 {#evt-ii-s1-n1-exa-1 .statement}
 
-— 1) A norm on E is a semi-norm $ p $ such that the relation $ p(x) = 0 $ implies that $ x = 0 $ (I, p. 3).
+A norm on E is a semi-norm $ p $ such that the relation $ p(x) = 0 $ implies that $ x = 0 $ (I, p. 3).
 
-2) For every linear form $ f $ on E, the function $ x \mapsto |f(x)| $ is a semi-norm on E.
+#### Example 2 {#evt-ii-s1-n1-exa-2 .statement}
 
-3) If $ p_i (1 \leq i \leq n) $ is a finite set of semi-norms on E, then clearly $ p'(x) = \sup_{1 \leq i \leq n} p_i(x) $
+For every linear form $ f $ on E, the function $ x \mapsto |f(x)| $ is a semi-norm on E.
+
+#### Example 3 {#evt-ii-s1-n1-exa-3 .statement}
+
+If $ p_i (1 \leq i \leq n) $ is a finite set of semi-norms on E, then clearly $ p'(x) = \sup_{1 \leq i \leq n} p_i(x) $
 and $ p''(x) = \sum_{i=1}^n \alpha_i p_i(x) $ (where the $ \alpha_i $ are $ \geq 0 $) are both semi-norms on E.
 
 A mapping $ p $ of E in $ \mathbf{R}_+ $ is called an *ultra-semi-norm* if it satisfies (SN$_I$) and the following axiom :

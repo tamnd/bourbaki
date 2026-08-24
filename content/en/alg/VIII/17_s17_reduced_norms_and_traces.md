@@ -36,9 +36,9 @@ subsections:
       title: Reduced Norms and Determinants
       page: 349
       pdf_page: 366
-statements: 30
+statements: 31
 exercises: 7
-content_sha256: 11f069df657704342996d2122efce87e5dccfa6a1cfa49a5616defd552614a6d
+content_sha256: bde84f6dbcf91d0bcdf72573c6bb387df3d76d5b15c56546c1f7ee2706920cee
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -59,7 +59,9 @@ $$
 \chi_u(X) =\sum_{r=0}^m(-1)^rc_r(u) X^{m-r} \tag{2}
 $$
 
-Proposition 1. — Let L be a commutative ring, M a free L-module of finite rank m $ \geqslant 1 $, and u an endomorphism of M. There exists a unique endomorphism $ \tilde{u} $ of M satisfying the relation
+#### Proposition 1 {#alg-viii-s17-prop-1 .statement tag=00KD}
+
+Let L be a commutative ring, M a free L-module of finite rank m $ \geqslant 1 $, and u an endomorphism of M. There exists a unique endomorphism $ \tilde{u} $ of M satisfying the relation
 
 $$
 \tilde{u}(x) \wedge w = x \wedge \wedge^{m-1}(u)(w)
@@ -79,7 +81,7 @@ $$
 
 #### Lemma 1 {#alg-viii-s17-lem-1 .statement tag=00KE}
 
-— Let p be an integer such that $ 0 \leqslant p \leqslant m $. For any w in $ \wedge^p(M) $, let $ h_p(w) $ be the linear mapping $ w' \mapsto w \wedge w' $ from $ \wedge^{m-p}(M) $ to $ \wedge^m(M) $. The linear mapping $ h_p : w \mapsto h_p(w) $ from $ \wedge^p(M) $ to $ \operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M)) $ is an isomorphism.
+Let p be an integer such that $ 0 \leqslant p \leqslant m $. For any w in $ \wedge^p(M) $, let $ h_p(w) $ be the linear mapping $ w' \mapsto w \wedge w' $ from $ \wedge^{m-p}(M) $ to $ \wedge^m(M) $. The linear mapping $ h_p : w \mapsto h_p(w) $ from $ \wedge^p(M) $ to $ \operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M)) $ is an isomorphism.
 
 Let $ (e_i)_{i \in I} $ be a basis of M; we endow the set I with a total order. For any subset J of I, set $ e_J = e_{i_1} \wedge \cdots \wedge e_{i_r} $, where $ (i_1, \ldots, i_r) $ is the sequence of elements of J in increasing order. The L-module $ \wedge^{m-p}(M) $ admits as a basis the elements $ e_S $, where S runs through the set of subsets of I with $ m - p $ elements; $ \wedge^m(M) $ has $ \{e_I\} $ as a basis. Consequently, there exists a basis of $ \operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M)) $ consisting of linear mappings $ e_J^* $ characterized by the formula
 

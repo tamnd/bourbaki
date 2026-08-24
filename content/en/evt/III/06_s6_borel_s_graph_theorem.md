@@ -25,7 +25,7 @@ subsections:
       pdf_page: 168
 statements: 8
 exercises: 6
-content_sha256: e17f21307f796721ccc0bb4982493d69710026c31234fab45b7a949a6c553437
+content_sha256: 53f87ac0d15b6797265ed0b88534f5dac4bfdaa5de968f2dd03c9521532bc8c9
 ---
 
 ## § 6. BOREL’S GRAPH THEOREM
@@ -40,7 +40,7 @@ Let E_i be a family of Banach spaces, and (u_i) a family of continuous linear ma
 
 #### Remark {#evt-iii-s6-n1-rem-1 .statement}
 
-— Recall (III, p. 12) that every homological Hausdorff and semi-complete space, for example every Fréchet space, is the inductive limit of Banach spaces. \* This is also true for the strong dual of a reflexive Fréchet space (IV, p. 23, prop. 4). \*
+Recall (III, p. 12) that every homological Hausdorff and semi-complete space, for example every Fréchet space, is the inductive limit of Banach spaces. \* This is also true for the strong dual of a reflexive Fréchet space (IV, p. 23, prop. 4). \*
 
 ### 2. Locally convex Lusin spaces
 
@@ -52,7 +52,7 @@ Let P_n be the kernel of u_n; then u_n defines a bijective continuous mapping fr
 
 #### Example 1 {#evt-iii-s6-n2-exa-1 .statement}
 
-— Every Fréchet space satisfying the first axiom of countability is a polish space, hence a Lusin space. Consequently, so are the spaces $ \mathcal{C}(X) $, where X is locally compact and has a countable base (the topology of $ \mathcal{C}(X) $ being that of compact convergence, cf. GT, X, § 3, No. 3, corollary and § 1, No. 6, cor. 3); \* the spaces $ \mathcal{C}_0^\infty(U) $, where U is an open subset of $ \mathbf{R}^n $ (III, p. 9) and $ \mathcal{H}(U) $, where U is an open subset of $ \mathbf{C}^n $ (III, p. 10).
+Every Fréchet space satisfying the first axiom of countability is a polish space, hence a Lusin space. Consequently, so are the spaces $ \mathcal{C}(X) $, where X is locally compact and has a countable base (the topology of $ \mathcal{C}(X) $ being that of compact convergence, cf. GT, X, § 3, No. 3, corollary and § 1, No. 6, cor. 3); \* the spaces $ \mathcal{C}_0^\infty(U) $, where U is an open subset of $ \mathbf{R}^n $ (III, p. 9) and $ \mathcal{H}(U) $, where U is an open subset of $ \mathbf{C}^n $ (III, p. 10).
 
 Prop. 1 shows that the spaces $ \mathcal{C}_0^\infty(U) $, where U is an open set in $ \mathbf{R}^n $, $ \mathcal{G}_s(I) $, where I is a compact interval in $ \mathbf{R} $ and $ s \geq 1 $, and $ \mathcal{H}(K) $, where K is a compact subset of $ \mathbf{C}^n $ are all Lusin spaces (III, p. 10). \*
 

@@ -46,9 +46,9 @@ subsections:
       title: Trace of a quadratic form with respect to another
       page: 57
       pdf_page: 315
-statements: 41
+statements: 48
 exercises: 0
-content_sha256: 12a07afdbd302b2c3af5d28444e7b827da7815a9358c3e87efd3c0e575daeebb
+content_sha256: 0aba0900e3e33e2e640cc39686547d1c9701a06db6a67d3006d215416088f3b9
 ---
 
 ## § 4. SOME CLASSES OF OPERATORS IN HILBERTIAN SPACES
@@ -172,7 +172,7 @@ can be established in the same way as formula (12), on account of the definition
 
 #### Remark 1 {#evt-v-s4-n1-rem-1 .statement}
 
-— Suppose the hilbertian space E does not reduce to 0. We identify $ \mathcal{L}(K;E) $ with E by the mapping $ u \mapsto u(1) $; in other words, the vector x of E is identified with the mapping $ \lambda \mapsto \lambda.x $ from K into E. Then the adjoint of x is the mapping $ x^*:E \to K $ given by $ x^*(y) = \langle x|y \rangle $. In other words, $ x \mapsto x^* $ is the canonical semi-linear mapping from E onto its dual (V, p. 15).
+Suppose the hilbertian space E does not reduce to 0. We identify $ \mathcal{L}(K;E) $ with E by the mapping $ u \mapsto u(1) $; in other words, the vector x of E is identified with the mapping $ \lambda \mapsto \lambda.x $ from K into E. Then the adjoint of x is the mapping $ x^*:E \to K $ given by $ x^*(y) = \langle x|y \rangle $. In other words, $ x \mapsto x^* $ is the canonical semi-linear mapping from E onto its dual (V, p. 15).
 
 Similarly, we identify the number $ \lambda \in K $ with the endomorphism $ \lambda.1_E $ of E. Then $ \lambda^* $ is precisely the conjugate of $ \lambda $.
 
@@ -306,11 +306,15 @@ We have proved the equivalence of (i), (iii) and (v). Replacing $ u $ by $ u^* $
 
 ### 3. Normal endomorphisms
 
-Definition 4. — Let $ E $ be a hilbertian space and $ u \in \mathcal{L}(E) $. We say that $ u $ is normal if it commutes with its adjoint $ u^* $.
+#### Definition 4 {#evt-v-s4-def-4 .statement}
+
+Let $ E $ be a hilbertian space and $ u \in \mathcal{L}(E) $. We say that $ u $ is normal if it commutes with its adjoint $ u^* $.
 
 For example, every automorphism $ u $ of the hilbertian space $ E $ is normal since we have $ uu^* = u^*u = 1_E $.
 
-Proposition 7. — For $ u \in \mathcal{L}(E) $ to be normal, it is necessary and sufficient that $ \|u(x)\| = \|u^*(x)\| $ for all $ x \in E $.
+#### Proposition 7 {#evt-v-s4-prop-7 .statement}
+
+For $ u \in \mathcal{L}(E) $ to be normal, it is necessary and sufficient that $ \|u(x)\| = \|u^*(x)\| $ for all $ x \in E $.
 
 We define a hermitian form $ \Phi $ on $ E $ by
 $$
@@ -321,11 +325,15 @@ $$
 \Phi(x, x) = \|u^*(x)\|^2 - \|u(x)\|^2 .
 $$
 
-Proposition 8. — Suppose that $ u \in \mathcal{L}(E) $ is normal. Let $ N $ be the kernel of $ u $ and $ M $ the orthogonal of $ N $ in $ E $; let $ m $ and $ n $ be two positive integers such that $ m + n \geq 1 $. Then $ N $ is the kernel of $ u^m(u^*)^n $ and $ M $ is both the initial and the final subspace of $ u^m(u^*)^n $. In particular, $ M $ is both the initial and the final subspace of $ u $ and of $ u^* $, and is stable under $ u $ and $ u^* $.
+#### Proposition 8 {#evt-v-s4-prop-8 .statement}
+
+Suppose that $ u \in \mathcal{L}(E) $ is normal. Let $ N $ be the kernel of $ u $ and $ M $ the orthogonal of $ N $ in $ E $; let $ m $ and $ n $ be two positive integers such that $ m + n \geq 1 $. Then $ N $ is the kernel of $ u^m(u^*)^n $ and $ M $ is both the initial and the final subspace of $ u^m(u^*)^n $. In particular, $ M $ is both the initial and the final subspace of $ u $ and of $ u^* $, and is stable under $ u $ and $ u^* $.
 
 Prop. 7 shows that $ u $ and $ u^* $ have the same kernel $ N $. By prop. 4, (ii) of V, p. 41, the subspace $ M $ of $ E $ is stable under $ u $ and $ u^* $ since this is so for $ N = M^\circ $, since $ M \cap N = \{0\} $, the endomorphisms of $ M $ induced by $ u $ and $ u^* $ are injective. Let $ v = u^m(u^*)^n $; the preceding argument shows that the restriction of $ v $ to $ M $ (resp. $ N $) is injective (resp. null), hence $ N $ is the kernel of $ v $. Consequently, $ M = N^\circ $ is the initial subspace of $ v $. By prop. 4, (i) of V, p. 41, the final subspace of $ v $ is equal to the initial subspace of $ v^* $. But $ v^* = u^n(u^*)^m $ and so the initial subspace of $ v^* $ is equal to $ M $ by the preceding.
 
-Corollary. — Let $ \lambda \in K $. The following subspaces of $ E $ are equal :
+#### Corollary {#evt-v-s4-n3-cor-1 .statement}
+
+Let $ \lambda \in K $. The following subspaces of $ E $ are equal :
 a) the eigen subspace of $ u $ relative to $ \lambda $;
 b) the eigen subspace of $ u^* $ relative to $ \overline{\lambda} $;
 
@@ -433,9 +441,9 @@ for all $ y \in F $, hence $ vuv^* \geq 0 $.
 
 Prop. 12 shows, in particular, that $ vv^* $ is positive for all $ v \in \mathcal{L}(E; F) $. Since, in particular, an orthoprojector $ p $ satisfies $ p = p^2 = pp^* $, it is positive.
 
-#### Remark {#evt-v-s4-n5-rem-1 .statement}
+#### Remark 1 {#evt-v-s4-n5-rem-1 .statement}
 
-— 1) For every hermitian $ u $ in $ \mathcal{L}(E) $, put $ m(u) = \inf_{\|x\|=1} \langle x|u(x)\rangle $, $ M(u) = \sup_{\|x\|=1} \langle x|u(x)\rangle $. If $ E $ is not just 0, $ m(u) $ and $ M(u) $ are finite; moreover, $ M(u) $ is the smallest real number $ \lambda $ such that $ u \leq \lambda \cdot 1_E $ and $ m(u) $ the largest real number $ \mu $ such that $ u \geq \mu \cdot 1_E $. Clearly we have $ m(-u) = -M(u) $ and $ M(-u) = -m(u) $. It is clear that
+For every hermitian $ u $ in $ \mathcal{L}(E) $, put $ m(u) = \inf_{\|x\|=1} \langle x|u(x)\rangle $, $ M(u) = \sup_{\|x\|=1} \langle x|u(x)\rangle $. If $ E $ is not just 0, $ m(u) $ and $ M(u) $ are finite; moreover, $ M(u) $ is the smallest real number $ \lambda $ such that $ u \leq \lambda \cdot 1_E $ and $ m(u) $ the largest real number $ \mu $ such that $ u \geq \mu \cdot 1_E $. Clearly we have $ m(-u) = -M(u) $ and $ M(-u) = -m(u) $. It is clear that
 $$
 \sup(|m(u)|, |M(u)|) = \sup_{\|x\|=1} |\langle x|u(x)\rangle|
 $$
@@ -521,7 +529,7 @@ Let E and F be two hilbertian spaces. Conforming to the conventions of V, p. 40,
 
 #### Lemma 1 {#evt-v-s4-lem-1 .statement}
 
-— *There exists an isomorphism $ \theta $ from the vector space $ F \otimes E' $ onto the space $ \mathcal{L}_f(E; F) $ of all finite rank continuous linear mappings from E into F, characterized by $ \theta(b \otimes a^*) = ba^* $ for $ a \in E, b \in F $.
+*There exists an isomorphism $ \theta $ from the vector space $ F \otimes E' $ onto the space $ \mathcal{L}_f(E; F) $ of all finite rank continuous linear mappings from E into F, characterized by $ \theta(b \otimes a^*) = ba^* $ for $ a \in E, b \in F $.
 
 By A, II, § 4, No. 2, there exists an injective linear mapping $ \theta $ from $ F \otimes E' $ into $ \mathcal{L}(E; F) $ and only one such, which transforms $ b \otimes a' $ into the linear mapping $ x \mapsto ba'(x) $ for $ a' \in E', b \in F $. Evidently $ \theta(b \otimes a^*) = ba^* $, and the image of $ \theta $ is contained in $ \mathcal{L}_f(E; F) $. However, let $ u \in \mathcal{L}_f(E; F) $ and let $ (e_1, ..., e_n) $ be an orthonormal basis of the image of $ u $ in F. Let $ f_i = u^*(e_i) $ for $ 1 \leq i \leq n $. For every $ x \in E $, we have
 
@@ -542,7 +550,7 @@ When E is finite dimensional, we have $ \mathcal{L}_f(E) = \mathcal{L}(E) $ and 
 
 #### Lemma 2 {#evt-v-s4-lem-2 .statement}
 
-— *Let $ (e_i)_{i \in I} $ be an orthonormal basis of E. Then*
+*Let $ (e_i)_{i \in I} $ be an orthonormal basis of E. Then*
 
 $$
 \tau(u) = \sum_{i \in I} \langle e_i|u(e_i) \rangle
@@ -560,7 +568,7 @@ and lemma 2 follows from formula (22) and formula (3) of V, p. 22.
 
 #### Lemma 3 {#evt-v-s4-lem-3 .statement}
 
-— *Let u be a continuous and positive endomorphism of E, and $ \mathcal{F} $ the set of all finite rank orthoprojectors on E. Then for every orthonormal basis $ (e_i)_{i \in I} $ of E, we have (in $ \mathbf{R}_+ $) the equality*
+*Let u be a continuous and positive endomorphism of E, and $ \mathcal{F} $ the set of all finite rank orthoprojectors on E. Then for every orthonormal basis $ (e_i)_{i \in I} $ of E, we have (in $ \mathbf{R}_+ $) the equality*
 
 $$
 \sum_{i \in I} \langle e_i|u(e_i) \rangle = \sup_{p \in \mathcal{F}} \tau(pup).
@@ -751,11 +759,13 @@ $$
 $$
 hence $ \hat{\theta}(y \otimes x^*) = y x^* $. This proves (ii). Q.E.D.
 
-#### Example {#evt-v-s4-n7-exa-1 .statement}
+#### Example 1 {#evt-v-s4-n7-exa-1 .statement}
 
-— 1) Let I and J be two sets. By the proof given above, in order that a mapping $ u $ from $ \ell^2(I) $ into $ \ell^2(J) $ be a Hilbert-Schmidt mapping, it is necessary and sufficient that there exists a matrix $ (a_{ji}) $ in $ \ell^2(J \times I) $ such that $ u(\xi)_j = \sum_{i \in I} a_{ji} \xi_i $ for all $ \xi = (\xi_i) $ in $ \ell^2(I) $.
+Let I and J be two sets. By the proof given above, in order that a mapping $ u $ from $ \ell^2(I) $ into $ \ell^2(J) $ be a Hilbert-Schmidt mapping, it is necessary and sufficient that there exists a matrix $ (a_{ji}) $ in $ \ell^2(J \times I) $ such that $ u(\xi)_j = \sum_{i \in I} a_{ji} \xi_i $ for all $ \xi = (\xi_i) $ in $ \ell^2(I) $.
 
-\* 2) Let X and Y be two Hausdorff topological spaces, endowed respectively with positive measures $ \mu $ and $ \nu $. We can show that the Hilbert-Schmidt mappings from $ \mathcal{L}^2(X) $ into $ \mathcal{L}^2(Y) $ correspond bijectively to classes of square integrable functions on $ Y \times X $; to the class of a function $ N \in \mathcal{L}^2(Y \times X, \nu \otimes \mu) $ corresponds the mapping $ u_N $ given by
+#### Example 2 {#evt-v-s4-n7-exa-2 .statement}
+
+Let X and Y be two Hausdorff topological spaces, endowed respectively with positive measures $ \mu $ and $ \nu $. We can show that the Hilbert-Schmidt mappings from $ \mathcal{L}^2(X) $ into $ \mathcal{L}^2(Y) $ correspond bijectively to classes of square integrable functions on $ Y \times X $; to the class of a function $ N \in \mathcal{L}^2(Y \times X, \nu \otimes \mu) $ corresponds the mapping $ u_N $ given by
 $$
 (u_N f)(y) = \int_X N(y, x) f(x) \, d\mu(x)
 $$
@@ -764,9 +774,9 @@ $$
 \| u_N \|_2^2 = \int_X \int_Y |N(y, x)|^2 \, d\mu(x) \, d\nu(y) .
 $$
 
-#### Remark {#evt-v-s4-n7-rem-1 .statement}
+#### Remark 1 {#evt-v-s4-n7-rem-1 .statement}
 
-— 1) Suppose $ K = \mathbf{C} $. Let $ u $ and $ v $ be in $ \mathcal{L}^2(E; F) $. We have the relation
+Suppose $ K = \mathbf{C} $. Let $ u $ and $ v $ be in $ \mathcal{L}^2(E; F) $. We have the relation
 $$
 4\, u^* v = \sum_{\varepsilon^4 = 1} \overline{\varepsilon}(u + \varepsilon v)^* (u + \varepsilon v),
 $$
@@ -788,11 +798,15 @@ $$
 $$
 in other words, $ u \mapsto u^* $ is an isomorphism from the hilbertian space $ \mathcal{L}^2(E; F) $ onto the conjugate (V, p. 6) of the hilbertian space $ \mathcal{L}^2(F; E) $. If we identify this conjugate with the dual of $ \mathcal{L}^2(F; E) $ (V, p. 15), we see that $ \mathcal{L}^2(E; F) $ can be identified with the dual of $ \mathcal{L}^2(F; E) $, the canonical bilinear form $ (v, u) \mapsto \langle v, u \rangle $ being identified with $ (v, u) \mapsto \operatorname{Tr}(vu) $.
 
-2) Suppose $ K = \mathbf{R} $. We leave it to the reader to verify that formulas (40) and (41) are again valid, and to show that $ \mathcal{L}^2(E; F) $ can be identified with the dual of $ \mathcal{L}^2(F; E) $ by means of the bilinear form $ (u, v) \mapsto \operatorname{Tr}(uv) $.
+#### Remark 2 {#evt-v-s4-n7-rem-2 .statement}
+
+Suppose $ K = \mathbf{R} $. We leave it to the reader to verify that formulas (40) and (41) are again valid, and to show that $ \mathcal{L}^2(E; F) $ can be identified with the dual of $ \mathcal{L}^2(F; E) $ by means of the bilinear form $ (u, v) \mapsto \operatorname{Tr}(uv) $.
 
 ### 8. Diagonalization of Hilbert-Schmidt mappings
 
-Theorem 2. — *Let E and F be two hilbertian spaces and u a Hilbert-Schmidt mapping from E into F. There exists an orthonormal basis $ (e_i)_{i \in I} $ of E which is transformed by u into an orthogonal family in F.*
+#### Theorem 2 {#evt-v-s4-thm-2 .statement}
+
+*Let E and F be two hilbertian spaces and u a Hilbert-Schmidt mapping from E into F. There exists an orthonormal basis $ (e_i)_{i \in I} $ of E which is transformed by u into an orthogonal family in F.*
 
 Let B denote the (closed) unit ball of E, with the weakened topology assigned to it; this is a compact space (V, p. 17). We put $ Q(x) = \|u(x)\|^2 $ for all $ x \in B $. Finally let P denote the set of all vectors x in E satisfying the following property ;
 
@@ -800,7 +814,7 @@ Let B denote the (closed) unit ball of E, with the weakened topology assigned to
 
 #### Lemma 4 {#evt-v-s4-lem-4 .statement}
 
-— *The function $ Q : B \to \mathbf{R} $ is continuous.*
+*The function $ Q : B \to \mathbf{R} $ is continuous.*
 
 Let $ (f_j)_{j \in J} $ be an orthonormal basis of F. Put $ \lambda_j = \|u^*(f_j)\|^2 $ for all $ j \in J $. Since $ u $ belongs to $ \mathcal{L}^2(E; F) $ we have $ u^* \in \mathcal{L}^2(F; E) $, hence $ \sum_j \lambda_j < +\infty $. Further, we have
 $$
@@ -810,7 +824,7 @@ by Parseval’s formula (V, p. 22) and the definition of the adjoint (V, p. 38).
 
 #### Lemma 5 {#evt-v-s4-lem-5 .statement}
 
-— *Let $ E_1 $ be a closed vector subspace of E, stable under $ u^*u $. If $ E_1 \neq \{0\} $, then there exists a vector of norm 1 in $ E_1 \cap P $.*
+*Let $ E_1 $ be a closed vector subspace of E, stable under $ u^*u $. If $ E_1 \neq \{0\} $, then there exists a vector of norm 1 in $ E_1 \cap P $.*
 
 Since B is weakly compact, so is the weakly closed subspace $ B \cap E_1 $ of B. Hence there exists (GT, IV, § 6, No. 1, th. 1) a point $ x_0 $ in $ B \cap E_1 $ such that $ Q(x_0) \geq Q(x) $ for all $ x \in B \cap E_1 $. If $ Q(x_0) = 0 $, we have $ Q(x) = 0 $ and so $ u(x) = 0 $ for all $ x \in B \cap E_1 $. Thus $ E_1 \subset P $ and lemma 5 follows in this case.
 

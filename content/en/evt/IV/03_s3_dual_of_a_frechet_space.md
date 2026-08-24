@@ -35,9 +35,9 @@ subsections:
       title: Separately continuous bilinear mappings
       page: 26
       pdf_page: 208
-statements: 14
+statements: 15
 exercises: 2
-content_sha256: 4dfddf09c5a6f62b6dc1d25b578ed0c926fd65b6f2666fde1875600c0f5d4498
+content_sha256: be2c9d5870241e48524053599faec0c93fddd45f62251d871b82a0ef18c286d3
 ---
 
 ## § 3. DUAL OF A FRÉCHET SPACE
@@ -192,7 +192,7 @@ Recall (I, p. 13) that the hyperplanes of $ E' $ which are closed for $ \sigma(E
 
 #### Lemma 1 {#evt-iv-s3-lem-1 .statement}
 
-— Let E and F be two locally convex metrizable spaces, and u be a continuous linear mapping from $ E'_b $ into F. Then there exists a neighbourhood U of 0 in $ E'_b $ whose image under u is bounded in F.
+Let E and F be two locally convex metrizable spaces, and u be a continuous linear mapping from $ E'_b $ into F. Then there exists a neighbourhood U of 0 in $ E'_b $ whose image under u is bounded in F.
 
 Let $ (U_n)_{n \in \mathbf{N}} $ (resp. $ (V_n)_{n \in \mathbf{N}} $) be a fundamental system of neighbourhoods of 0 in E (resp. F). We assume that the sets $ U_n $ are balanced and form a decreasing sequence. Since u is continuous, for every $ n \in \mathbf{N} $, there exists a bounded set $ B_n $ in E such that $ u(B_n^\circ) \subset V_n $. Since $ B_n $ is bounded, there exists a real number $ \lambda_n > 0 $ such that $ \lambda_n B_n \subset U_n $. Put $ B = \bigcup_{n \in \mathbf{N}} \lambda_n B_n $.
 
@@ -200,7 +200,9 @@ We shall prove that the set B is bounded in E, in other words that for every int
 
 Let U be the polar of B in $ E'_b $. This is a neighbourhood of 0 in $ E'_b $ and we have $ \lambda_n B^\circ \subset B_n^\circ $, hence $ \lambda_n u(U) \subset V_n $ for all $ n \in \mathbf{N} $. Consequently $ u(U) $ is bounded in F.
 
-Theorem 2. — Let $ E_1 $ and $ E_2 $ be two reflexive Fréchet spaces, and G a locally convex Hausdorff space. For $ i = 1, 2 $, let $ F_i $ be the strong dual of $ E_i $. Then every separately continuous bilinear mapping $ u : F_1 \times F_2 \to G $ is continuous.
+#### Theorem 2 {#evt-iv-s3-thm-2 .statement}
+
+Let $ E_1 $ and $ E_2 $ be two reflexive Fréchet spaces, and G a locally convex Hausdorff space. For $ i = 1, 2 $, let $ F_i $ be the strong dual of $ E_i $. Then every separately continuous bilinear mapping $ u : F_1 \times F_2 \to G $ is continuous.
 
 The space G is isomorphic to a subspace of a product of Banach spaces (II, p. 5, prop. 3). Therefore it is enough to prove the theorem under the additional hypothesis that G is a Banach space. But $ F_1 $ is barrelled and $ F_2 $ bornological (IV, p. 24, corollary), and $ \mathscr{L}_b(F_2 ; G) $ is a Fréchet space (IV, p. 23, prop. 3). Let v denote the linear mapping from $ F_1 $ into $ \mathscr{L}_b(F_2 , G) $ associated with u by the relation
 

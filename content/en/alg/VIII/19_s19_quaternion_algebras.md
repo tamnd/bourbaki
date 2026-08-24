@@ -32,9 +32,9 @@ subsections:
       title: Algebras over Maximal Ordered Fields
       page: 367
       pdf_page: 384
-statements: 15
+statements: 16
 exercises: 8
-content_sha256: 7d5168aa99b2f2acfbd469aef4e8669772350919e3f7d08311840c372b1c826b
+content_sha256: 3a386d6bf9977c3b77d595a905a52232bbb912152085c1a821b5980f70fe6905
 ---
 
 ## § 19. QUATERNION ALGEBRAS
@@ -168,7 +168,9 @@ The last assertion follows from Proposition 1 of VIII, p. 361 and the definition
 
 Denote the characteristic of K by p. By Proposition 3, if $ p \neq 2 $, then every quaternion algebra over K of type $ (\alpha, 0, \gamma) $ with $ \alpha $ and $ \gamma $ in $ K^* $ is central simple. If $ p = 2 $, then every quaternion algebra of type $ (\alpha, 1, \gamma) $ with $ \alpha \in K $ and $ \gamma \in K^* $ is central simple. Conversely, we have the following.
 
-Proposition 4. — *Let A be a central simple algebra of degree 4 over K. Denote the characteristic of K by p.*
+#### Proposition 4 {#alg-viii-s19-prop-4 .statement tag=00LX}
+
+*Let A be a central simple algebra of degree 4 over K. Denote the characteristic of K by p.*
 
 a) *If $ p \neq 2 $, then there exist nonzero elements $ \alpha $ and $ \gamma $ of K such that the algebra A is isomorphic to the quaternion algebra of type $ (\alpha, 0, \gamma) $.*
 
@@ -178,13 +180,13 @@ By Wedderburn's theorem (VIII, p. 120, Theorem 1), there exist an integer $ r \g
 
 When $p\not= 2$, there exist an element $i$ of E and an element $\alpha \in K^*$ such that $E = K(i)$ and $i^2=\alpha$ (V, §11, No. 9, p. 93, Example 3); in this case, A is isomorphic to the quaternion algebra of type $(\alpha ,0, \gamma )$. When $p= 2$, there exist an element $i$ of E and an element $\alpha$ of K such that $E = K(i)$ and $i^2=i+\alpha$ (V, §11, No. 9, p. 93, Example 2), so that A is isomorphic to the quaternion algebra of type $(\alpha ,1, \gamma )$.
 
-#### Corollary 1 {#alg-viii-s19-prop-3-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s19-prop-4-cor-1 .statement tag=00LY}
 
 Let A be a central simple K-algebra of finite degree $>1$ whose elements are all algebraic of degree $\leqslant 2$ over K. Then A is isomorphic to a quaternion algebra over K.
 
 If K is finite, then the algebra A is isomorphic to a matrix algebra $\mathbf{M}_n(K)$ (VIII, p. 357, Corollary 2) and therefore contains elements of degree $n$ over K; the assumption implies $n= 2$ and therefore the result in this case (VIII, p. 362, Example). Suppose that the field K is infinite. Let L be a maximal étale subalgebra of A. By V, §7, No. 4, p. 41, Proposition 7, there exists an element $x$ of A such that the K-algebra L is equal to $K[x]$, hence by assumption has degree $\leqslant 2$. Since we have $[A : K] = [L : K]^2$ (VIII, p. 264, Proposition 4 and p. 262, Proposition 3), we conclude that [A : K] = 4. Corollary 1 then follows from Proposition 4.
 
-#### Corollary 2 {#alg-viii-s19-prop-3-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s19-prop-4-cor-2 .statement tag=00LZ}
 
 Let $(E, s)$ be a Cayley algebra over K such that the K-algebra E is central simple of finite degree $>1$ over K. Then E is isomorphic to a quaternion algebra over K.
 

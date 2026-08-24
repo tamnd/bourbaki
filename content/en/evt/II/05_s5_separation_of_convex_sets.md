@@ -27,9 +27,9 @@ subsections:
       title: Approximation to convex functions
       page: 39
       pdf_page: 76
-statements: 21
+statements: 24
 exercises: 30
-content_sha256: ef3cb50958a2132d791f050aa2367a3e2957bbc2da2ad66deb90faecf196f50d
+content_sha256: 8980b7d757e96a97ee6883201d0701256ff95f0727965a176942f2daab25fe89
 ---
 
 ## § 5. SEPARATION OF CONVEX SETS
@@ -44,11 +44,13 @@ By translation the problem can be reduced to the case $ 0 \in A $, so that $ A $
 
 Q.E.D.
 
-#### Remark {#evt-ii-s5-n1-rem-1 .statement}
+#### Remark 1 {#evt-ii-s5-n1-rem-1 .statement}
 
-— 1) When $ 0 \in M $, th. 1 can be stated as follows : there exists a *continuous linear form in E*, *such that* $ g(x) = 0 $ *in* $ M $ *and* $ g(x) > 0 $ *in* $ A $ (II, p. 8, prop. 4).
+When $ 0 \in M $, th. 1 can be stated as follows : there exists a *continuous linear form in E*, *such that* $ g(x) = 0 $ *in* $ M $ *and* $ g(x) > 0 $ *in* $ A $ (II, p. 8, prop. 4).
 
-2) If we apply theorem 1 to the case where $ E $ carries the finest locally convex topology (II, p. 25, *Example* 2), and if, for the sake of simplicity, we suppose that $ 0 \in A $, then we get the following result (that superficially does not involve topology) : if $ A $ is an *absorbent* convex set in the real vector space $ E $ and if $ M $ is a non-empty linear variety that does not meet $ A $, then there exists a hyperplane $ H $ containing $ M $ and such that $ A $ lies on one side of $ H $. This result is not valid for every convex set $ A $ (II, p. 65, exerc. 5).
+#### Remark 2 {#evt-ii-s5-n1-rem-2 .statement}
+
+If we apply theorem 1 to the case where $ E $ carries the finest locally convex topology (II, p. 25, *Example* 2), and if, for the sake of simplicity, we suppose that $ 0 \in A $, then we get the following result (that superficially does not involve topology) : if $ A $ is an *absorbent* convex set in the real vector space $ E $ and if $ M $ is a non-empty linear variety that does not meet $ A $, then there exists a hyperplane $ H $ containing $ M $ and such that $ A $ lies on one side of $ H $. This result is not valid for every convex set $ A $ (II, p. 65, exerc. 5).
 
 ### 2. Separation of convex sets in a topological vector space
 
@@ -101,7 +103,7 @@ For there exists an open convex neighbourhood $ V $ of 0 in $ E $ such that $ A 
 
 #### Remark {#evt-ii-s5-n3-rem-1 .statement}
 
-— In a Hausdorff locally convex space $ E $, let $ A $ and $ B $ be two closed non-empty convex sets that are disjoint, if $ E $ is finite dimensional then there exists a closed hyperplane that separates $ A $ from (II, p. 78, exerc. 13); but this conclusion is not necessarily true when $ E $ is of infinite dimension (II, p. 78, exerc. 10 and 11).
+In a Hausdorff locally convex space $ E $, let $ A $ and $ B $ be two closed non-empty convex sets that are disjoint, if $ E $ is finite dimensional then there exists a closed hyperplane that separates $ A $ from (II, p. 78, exerc. 13); but this conclusion is not necessarily true when $ E $ is of infinite dimension (II, p. 78, exerc. 10 and 11).
 
 #### Corollary 1 {#evt-ii-s5-prop-4-cor-1 .statement}
 
@@ -157,17 +159,21 @@ $$
 
 where $ \lambda \in \mathbf{R} $ and $ u $ is a continuous linear form on $ E $, it follows that $ H $ has an equation of the form $ u(z) + \lambda t = \alpha $, and as $ H $ contains $ (x, a) $ we have $ \alpha = u(x) + \lambda a $. Now the point $ (x, f(x)) \in A $ does not belong to $ H $ and therefore $ \lambda \neq 0 $. Dividing by $ -\lambda $, if necessary, we can write the equation of $ H $ as $ t - a = u(z - x) $. As $ f(x) - a > 0 $, we have, therefore, $ f(z) > u(z - x) + a $ for all $ z \in X $ and this proves the proposition.
 
-#### Remark {#evt-ii-s5-n4-rem-1 .statement}
+#### Remark 1 {#evt-ii-s5-n4-rem-1 .statement}
 
-— 1) It follows from prop. 5 that $ f $ is the upper envelope of a directed *increasing* family of functions that are the restrictions to $ X $ of functions which are continuous and convex in $ E $.
+It follows from prop. 5 that $ f $ is the upper envelope of a directed *increasing* family of functions that are the restrictions to $ X $ of functions which are continuous and convex in $ E $.
 
-2) Suppose further that $ X $ is a closed convex cone with vertex 0 and that $ f $ is *positively homogeneous*. Then $ f $ is the upper envelope of a family of functions which are the restrictions to $ X $ of *continuous linear forms* in $ E $. For, let $ (u_\alpha) $ be a family of continuous affine linear functions in $ E $ of which the restrictions to $ X $ have $ f $ as their upper envelope. Put $ u_\alpha = v_\alpha + \lambda_\alpha $, where $ \lambda_\alpha \in \mathbf{R} $, and where $ v_\alpha $ is a continuous linear form in $ E $. We have $ \lambda_\alpha = u_\alpha(0) \leq f(0) = 0 $. On the other hand, if $ x \in X $, we have for every $ \mu > 0 $,
+#### Remark 2 {#evt-ii-s5-n4-rem-2 .statement}
+
+Suppose further that $ X $ is a closed convex cone with vertex 0 and that $ f $ is *positively homogeneous*. Then $ f $ is the upper envelope of a family of functions which are the restrictions to $ X $ of *continuous linear forms* in $ E $. For, let $ (u_\alpha) $ be a family of continuous affine linear functions in $ E $ of which the restrictions to $ X $ have $ f $ as their upper envelope. Put $ u_\alpha = v_\alpha + \lambda_\alpha $, where $ \lambda_\alpha \in \mathbf{R} $, and where $ v_\alpha $ is a continuous linear form in $ E $. We have $ \lambda_\alpha = u_\alpha(0) \leq f(0) = 0 $. On the other hand, if $ x \in X $, we have for every $ \mu > 0 $,
 $$
 \mu^{-1} \lambda_\alpha + v_\alpha(x) = \mu^{-1} (\lambda_\alpha + v_\alpha(\mu x)) = \mu^{-1} u_\alpha(\mu x) \leq \mu^{-1} f(\mu x) = f(x)
 $$
 therefore $ u_\alpha \leq v_\alpha \leq f $ in $ X $ so that $ f $ is the upper envelope of the $ v_\alpha $.
 
-3) The restriction to $ X $ of a continuous affine function in $ E $ is a function that is affine in $ X $ (i.e. both concave and convex II, p. 17); but it may be the case that there exist continuous affine functions in a compact convex set $ X \subset E $, that are not the restrictions to $ X $ of continuous affine functions *in* $ E $ (II, p. 78, exerc. II, c)). However :
+#### Remark 3 {#evt-ii-s5-n4-rem-3 .statement}
+
+The restriction to $ X $ of a continuous affine function in $ E $ is a function that is affine in $ X $ (i.e. both concave and convex II, p. 17); but it may be the case that there exist continuous affine functions in a compact convex set $ X \subset E $, that are not the restrictions to $ X $ of continuous affine functions *in* $ E $ (II, p. 78, exerc. II, c)). However :
 
 #### Proposition 6 {#evt-ii-s5-prop-6 .statement}
 

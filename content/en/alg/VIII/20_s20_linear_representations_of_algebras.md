@@ -44,9 +44,9 @@ subsections:
       title: Cogebra Structure on the Restricted Dual
       page: 388
       pdf_page: 405
-statements: 29
+statements: 31
 exercises: 6
-content_sha256: 56c384ee7eabca9fb2d1784b8312e82747ab0dae7ee44a191911a6aefe487913
+content_sha256: 5ff83d16e3a49fa515ef33dc4d59f5844d64a112e8716f6ee4b4cde01df7b682
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -425,7 +425,9 @@ $$
 
 where $ u $ is the homomorphism deduced from the extension of scalars from $ K $ to $ \overline{K} $ (VIII, p. 195), $ i $ is the canonical injection, and $ \overline{\chi}_{\mathscr{A}} $ is the homomorphism $ z \mapsto (\chi_{1 \otimes a}(z))_{a \in \mathscr{A}} $. By formula (12) of III, §9, No. 1, p. 542, diagram (12) is commutative. By the above, the homomorphism $ \overline{\chi}_{\mathscr{A}} $ is injective. Since $ u $ is injective (VIII, p. 195, Theorem 1), the homomorphism $ \chi_{\mathscr{A}} $ is injective.
 
-Corollary 1. — *Let E and F be semisimple A-modules of finite dimension over K, and let $ \mathscr{A} $ be a generating subset of the K-vector space A. Suppose that for every $ a \in \mathscr{A} $, the characteristic polynomials of the endomorphisms $ a_E $ and $ a_F $ of the K-vector spaces E and F are equal. Then the A-modules E and F are isomorphic.*
+#### Corollary 1 {#alg-viii-s20-thm-2-cor-1 .statement tag=00MX}
+
+*Let E and F be semisimple A-modules of finite dimension over K, and let $ \mathscr{A} $ be a generating subset of the K-vector space A. Suppose that for every $ a \in \mathscr{A} $, the characteristic polynomials of the endomorphisms $ a_E $ and $ a_F $ of the K-vector spaces E and F are equal. Then the A-modules E and F are isomorphic.*
 
 Let $ a $ be an element of $ \mathscr{A} $. The characteristic polynomials of $ a_E $ and $ a_F $ have the same degree, so the dimension of E is equal to that of F; we denote it by $ n $. Let $ \mathrm{Pc}_E(a; T) $ be the characteristic polynomial of $ a_E $. In $ K(T) $, we have the equalities
 
@@ -435,7 +437,9 @@ $$
 
 and $ \chi_F(a; T) $ is given by an analogous formula. Because of our assumptions, we have $ \chi_E(a; T) = \chi_F(a; T) $. By Theorem 2, we have [E] = [F], which implies that E and F are isomorphic (VIII, p. 190, Corollary of Proposition 7).
 
-Corollary 2. — *Let A be a central simple algebra of finite degree over K. Let B be a semisimple K-algebra, let f and g be algebra homomorphisms from B to A, and let $ \mathscr{B} $ be a generating subset of the K-vector space B. The following properties are equivalent:
+#### Corollary 2 {#alg-viii-s20-thm-2-cor-2 .statement tag=00MY}
+
+*Let A be a central simple algebra of finite degree over K. Let B be a semisimple K-algebra, let f and g be algebra homomorphisms from B to A, and let $ \mathscr{B} $ be a generating subset of the K-vector space B. The following properties are equivalent:
 
 (i) There exists an inner automorphism $ \theta $ of A such that $ g = \theta \circ f $.
 (ii) For every $ b \in \mathscr{B} $, we have $ \mathrm{Pc}_{A/K}(f(b); X) = \mathrm{Pc}_{A/K}(g(b); X) $.* When K has characteristic zero, these properties are equivalent to the following:
@@ -498,7 +502,7 @@ for every $t\in \Theta (A)\otimes \Theta (A)$.
 
 #### Lemma 2 {#alg-viii-s20-lem-2 .statement tag=00RS}
 
-— Let $ c : \Theta(A) \to \Theta(A) \otimes \Theta(A) $ be a K-linear mapping. Then $ \eta $ is a homomorphism from $ A $ to the dual algebra of the cogebra $ (\Theta(A), c) $ if and only if the following diagram commutes:
+Let $ c : \Theta(A) \to \Theta(A) \otimes \Theta(A) $ be a K-linear mapping. Then $ \eta $ is a homomorphism from $ A $ to the dual algebra of the cogebra $ (\Theta(A), c) $ if and only if the following diagram commutes:
 
 $$
 \begin{array}{ccc}
@@ -591,7 +595,7 @@ Finally, formulas (16) and (17) imply that $ \Theta(A) $ admits $ \varepsilon $ 
 
 #### Remark 1 {#alg-viii-s20-n8-rem-1 .statement tag=00N2}
 
-— Let $ (\mathbf{V}, \pi) $ be a finite-dimensional linear representation of the algebra A. Let us introduce a basis $ (e_1, \ldots, e_n) $ of V and the dual basis $ (e_1^*, \ldots, e_n^*) $ of $ \mathbf{V}^* $. By the proof of Lemma 2, we have the relation
+Let $ (\mathbf{V}, \pi) $ be a finite-dimensional linear representation of the algebra A. Let us introduce a basis $ (e_1, \ldots, e_n) $ of V and the dual basis $ (e_1^*, \ldots, e_n^*) $ of $ \mathbf{V}^* $. By the proof of Lemma 2, we have the relation
 $$
 c(c_\pi(x, x^*)) = \sum_{k=1}^n c_\pi(e_k, x^*) \otimes c_\pi(x, e_k^*)
 $$

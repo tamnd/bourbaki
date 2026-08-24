@@ -38,9 +38,9 @@ subsections:
       title: Dual of a hilbertian space
       page: 15
       pdf_page: 273
-statements: 31
+statements: 41
 exercises: 6
-content_sha256: 52ef3981439a9aee715cc1e40006201a012b7b2e455fca13073ea20cf4caa176
+content_sha256: c1cbfd2db9d90c7c1f0729e652bbdde9279f45fee5604ccb95d52002880bc6c2
 ---
 
 ## § 1. PREHILBERTIAN SPACES AND HILBERTIAN SPACES
@@ -49,7 +49,9 @@ content_sha256: 52ef3981439a9aee715cc1e40006201a012b7b2e455fca13073ea20cf4caa176
 
 We recall the following definition given in Algebra (A, IX, § 3, No. 1):
 
-Definition 1. — Let E be a vector space over the field K. A hermitian form (on the left) on E is a map f from E × E into K satisfying the following conditions (for $ x_1, x_2, x, y_1, y_2, y $ in E and $ \lambda, \mu $ in K):
+#### Definition 1 {#evt-v-s1-def-1 .statement}
+
+Let E be a vector space over the field K. A hermitian form (on the left) on E is a map f from E × E into K satisfying the following conditions (for $ x_1, x_2, x, y_1, y_2, y $ in E and $ \lambda, \mu $ in K):
 
 (1)
 $$
@@ -210,13 +212,17 @@ Observe that for a semi-norm $ p $ on $ E $, there exists at most one positive h
 
 *A prehilbertian space is a set $ E $ with the structure of a vector space over $ K $ and with a positive hermitian form. We say that $ E $ is a real (resp. complex) prehilbertian space when $ K $ is $ \mathbf{R} $ (resp. $ K $ is $ \mathbf{C} $).
 
-#### Example {#evt-v-s1-n3-exa-1 .statement}
+#### Example 1 {#evt-v-s1-n3-exa-1 .statement}
 
-— 1) The form $ (\lambda, \mu) \mapsto \overline{\lambda} \mu $ defines a prehilbertian structure on $ K $, said to be *canonical*. When $ K $ is considered as a prehilbertian space, we shall always mean, unless otherwise mentioned that it has this structure.
+The form $ (\lambda, \mu) \mapsto \overline{\lambda} \mu $ defines a prehilbertian structure on $ K $, said to be *canonical*. When $ K $ is considered as a prehilbertian space, we shall always mean, unless otherwise mentioned that it has this structure.
 
-2) Let $ I $ be an interval (bounded or not) in $ \mathbf{R} $, and let $ E $ be the set of regulated functions (FVR, II, p. 4) defined on $ I $ with values in $ \mathbf{C} $, having compact support. It is clear that $ E $ is a vector space over $ \mathbf{C} $; let $ f $ be the sesquilinear form $ (x, y) \mapsto \int_1^1 \overline{x(t)}\ y(t)\ dt $; it is immediate that $ f $ is a positive hermitian form on $ E $, and hence defines a prehilbertian structure on this space.
+#### Example 2 {#evt-v-s1-n3-exa-2 .statement}
 
-3) Let $ n \geqslant 0 $ be an integer. We define a prehilbertian space structure on the space $ K^n $, by means of the hermitian form
+Let $ I $ be an interval (bounded or not) in $ \mathbf{R} $, and let $ E $ be the set of regulated functions (FVR, II, p. 4) defined on $ I $ with values in $ \mathbf{C} $, having compact support. It is clear that $ E $ is a vector space over $ \mathbf{C} $; let $ f $ be the sesquilinear form $ (x, y) \mapsto \int_1^1 \overline{x(t)}\ y(t)\ dt $; it is immediate that $ f $ is a positive hermitian form on $ E $, and hence defines a prehilbertian structure on this space.
+
+#### Example 3 {#evt-v-s1-n3-exa-3 .statement}
+
+Let $ n \geqslant 0 $ be an integer. We define a prehilbertian space structure on the space $ K^n $, by means of the hermitian form
 
 $$
 (x, y) \mapsto \sum_{j=1}^n \overline{x_j} y_j
@@ -224,9 +230,13 @@ $$
 
 (for $ x = (x_1, ..., x_n) $ and $ y = (y_1, ..., y_n) $). When $ K $ is $ \mathbf{R} $, we see that this is just the scalar product of two vectors of $ \mathbf{R}^n $ (GT, VI, § 2, No. 2).
 
-*4) Let $ \ell^2 $ (or $ \ell^2(\mathbf{N}) $) be the set of sequences $ x = (x_n)_{n \in \mathbf{N}} $ of elements of $ K $ such that $ \sum_{n=0}^\infty |x_n|^2 $ is finite. One can show that $ \ell^2 $ is a vector subspace of $ K^\mathbf{N} $ and define a prehilbertian space structure on $ \ell^2 $ by means of the hermitian form $ (x, y) \mapsto \sum_{n=0}^\infty \overline{x_n} y_n $ (cf. V, p. 18).
+#### Example 4 {#evt-v-s1-n3-exa-4 .statement}
 
-5) Let $ E $ be a real prehilbertian space, $ f $ the corresponding symmetric bilinear form on $ E $. Let $ E_{(c)} $ be the vector space complexification of $ E $; we identify $ E $ with a subset of $ E_{(c)} $ by the map $ x \mapsto 1 \otimes x $, in such a way that every element of $ E_{(c)} $ can be written uniquely as $ x_1 + ix_2 $ with $ x_1, x_2 $ in $ E $. The map $ f $ extends uniquely to a hermitian form $ f_{(c)} $ on $ E_{(c)} $; we have,
+Let $ \ell^2 $ (or $ \ell^2(\mathbf{N}) $) be the set of sequences $ x = (x_n)_{n \in \mathbf{N}} $ of elements of $ K $ such that $ \sum_{n=0}^\infty |x_n|^2 $ is finite. One can show that $ \ell^2 $ is a vector subspace of $ K^\mathbf{N} $ and define a prehilbertian space structure on $ \ell^2 $ by means of the hermitian form $ (x, y) \mapsto \sum_{n=0}^\infty \overline{x_n} y_n $ (cf. V, p. 18).
+
+#### Example 5 {#evt-v-s1-n3-exa-5 .statement}
+
+Let $ E $ be a real prehilbertian space, $ f $ the corresponding symmetric bilinear form on $ E $. Let $ E_{(c)} $ be the vector space complexification of $ E $; we identify $ E $ with a subset of $ E_{(c)} $ by the map $ x \mapsto 1 \otimes x $, in such a way that every element of $ E_{(c)} $ can be written uniquely as $ x_1 + ix_2 $ with $ x_1, x_2 $ in $ E $. The map $ f $ extends uniquely to a hermitian form $ f_{(c)} $ on $ E_{(c)} $; we have,
 
 $$
 f_{(c)}(x_1 + ix_2, y_1 + iy_2) = f(x_1, y_1) + f(x_2, y_2) + i(f(x_1, y_2) - f(x_2, y_1)) .
@@ -271,21 +281,27 @@ If E is a prehilbertian space, M a vector subspace of E, the restriction of the 
 
 ### 4. Hilbertian spaces
 
-Definition 5. — *A hilbertian space* (or *Hilbert space*) *is a prehilbertian space which is Hausdorff and complete*. *We say that a norm on a vector space E (over K) is hilbertian if it is prehilbertian, and if the normed space E is complete*.
+#### Definition 5 {#evt-v-s1-def-5 .statement}
+
+*A hilbertian space* (or *Hilbert space*) *is a prehilbertian space which is Hausdorff and complete*. *We say that a norm on a vector space E (over K) is hilbertian if it is prehilbertian, and if the normed space E is complete*.
 
 If E is a hilbertian space and M a closed vector subspace of E, the prehilbertian space structure induced on M is in fact a hilbertian space structure. In this case we say that M, with the induced structure is a *hilbertian subspace* of E.
 
-#### Example {#evt-v-s1-n4-exa-1 .statement}
+#### Example 1 {#evt-v-s1-n4-exa-1 .statement}
 
-— 1) The prehilbertian spaces defined in examples 1, 3, 4 of V, p. 4, are hilbertian spaces. On the other hand, the prehilbertian space defined in example 2 is neither Hausdorff, nor complete. The *complexification* of a hilbertian space is a hilbertian space.
+The prehilbertian spaces defined in examples 1, 3, 4 of V, p. 4, are hilbertian spaces. On the other hand, the prehilbertian space defined in example 2 is neither Hausdorff, nor complete. The *complexification* of a hilbertian space is a hilbertian space.
 
-\* 2) Let X be a Hausdorff topological space and let $ \mu $ be a positive measure on X. Let $ L^2(X, \mu) $ be the space consisting of equivalence classes, for $ \mu $, of all square $ \mu $-integrable functions on X with values in $ \mathbf{C} $. This is a complex hilbertian space, whose scalar product is given by
+#### Example 2 {#evt-v-s1-n4-exa-2 .statement}
+
+Let X be a Hausdorff topological space and let $ \mu $ be a positive measure on X. Let $ L^2(X, \mu) $ be the space consisting of equivalence classes, for $ \mu $, of all square $ \mu $-integrable functions on X with values in $ \mathbf{C} $. This is a complex hilbertian space, whose scalar product is given by
 
 $$
 \langle f|g \rangle = \int_X \overline{f(x)}\ g(x)\ d\mu(x) .
 $$
 
-\* 3) Let $ n \geqslant 1 $ be an integer and let U be an open set in $ \mathbf{R}^n $. Let $ \mu $ be the measure on U induced by the Lebesgue measure on $ \mathbf{R}^n $, and put $ \mathcal{H}^0 = L^2(U, \mu) $. Let $ \mathcal{H}^1 $ denote the space of all functions $ f \in \mathcal{H}^0 $ with the following property; for $ 1 \leqslant i \leqslant n $, there exists a function $ g_i \in \mathcal{H}^\circ $ such that
+#### Example 3 {#evt-v-s1-n4-exa-3 .statement}
+
+Let $ n \geqslant 1 $ be an integer and let U be an open set in $ \mathbf{R}^n $. Let $ \mu $ be the measure on U induced by the Lebesgue measure on $ \mathbf{R}^n $, and put $ \mathcal{H}^0 = L^2(U, \mu) $. Let $ \mathcal{H}^1 $ denote the space of all functions $ f \in \mathcal{H}^0 $ with the following property; for $ 1 \leqslant i \leqslant n $, there exists a function $ g_i \in \mathcal{H}^\circ $ such that
 
 $$
 \int_U g_i(x)\ h(x)\ d\mu(x) = - \int_U f(x)\ D_i h(x)\ d\mu(x)
@@ -299,7 +315,9 @@ $$
 
 Then $ \mathcal{H}^s $ is a complex hilbertian space, called *Sobolev space* of index s.
 
-\* 4) Let X be a differential variety of class $ C^r $ (with $ r \geqslant 1 $) pure of finite dimension $ n $.
+#### Example 4 {#evt-v-s1-n4-exa-4 .statement}
+
+Let X be a differential variety of class $ C^r $ (with $ r \geqslant 1 $) pure of finite dimension $ n $.
 
 In the vector fibre space $ \Lambda^n T(X) $, let L be the complement of the zero section. For every real number $ \lambda \neq 0 $, the mapping $ u \mapsto \lambda u $ from $ \Lambda^n T(X) $ into itself leaves L stable.
 
@@ -316,7 +334,9 @@ Then, there exists one and only one measure $ \tilde{\omega} $ on X such that fo
 
 Let $ \mathcal{V} $ (resp. $ \mathcal{N} $) be the vector space of measurable densities $ \omega $ of order 1/2 such that the measure associated with the density $ |\omega|^2 $ of order 1 is bounded (resp. null). Let $ \omega_1 $ and $ \omega_2 $ be in $ \mathcal{V} $; then $ \omega = \overline{\omega_1} \omega_2 $ is a density of order 1, and the measure $ \tilde{\omega} $ associated with $ \omega $ is bounded; the number $ \int_X \tilde{\omega} $ depends only on the classes $ \dot{\omega}_1 $ and $ \dot{\omega}_2 $ of $ \omega_1 $ and $ \omega_2 $ modulo $ \mathcal{N} $ and is denoted by $ \langle \omega_1 | \omega_2 \rangle $ or $ \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle $. Then the mapping $ (\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle $ assigns a complex hilbertian space structure to the vector space $ \Omega_{1/2}(X) = \mathcal{V}/\mathcal{N} $.
 
-\* 5) Let D be the open disc with centre 0 and radius 1 in $ \mathbf{C} $. *The Hardy space* $ H^2(D) $ consists of all holomorphic functions $ f : D \to \mathbf{C} $ for which
+#### Example 5 {#evt-v-s1-n4-exa-5 .statement}
+
+Let D be the open disc with centre 0 and radius 1 in $ \mathbf{C} $. *The Hardy space* $ H^2(D) $ consists of all holomorphic functions $ f : D \to \mathbf{C} $ for which
 $$
 \sup_{0 < R < 1} \int_0^1 |f(R \cdot e(\theta))|^2 d\theta < + \infty .
 $$

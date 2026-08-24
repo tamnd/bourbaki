@@ -31,9 +31,9 @@ subsections:
       title: Exterior multiplication
       page: 35
       pdf_page: 293
-statements: 17
+statements: 20
 exercises: 23
-content_sha256: f70fae0140a5ab3b747a0fa22e36cae210395f965e23a5f5911471c06431fcbc
+content_sha256: c097511d44f50c645d7fcf09bcd4d4b22d00be91e561c77b8ca07d794d412668
 ---
 
 ## § 3. TENSOR PRODUCT OF HILBERTIAN SPACES
@@ -161,7 +161,9 @@ The canonical isomorphism from $ F_1 \otimes ... \otimes F_m $ onto $ E_1 \otime
 
 ### 2. Hilbertian tensor product of hilbertian spaces
 
-Definition 1. — Let $ E_1, ..., E_n $ be hilbertian spaces. *The completion of the Hausdorff prehilbertian space* $ E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n $ *is called* the hilbertian tensor product of the $ E_i $ and is denoted by $ E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n $ (or $ \hat{\otimes}_{2 \atop 1 \leq i \leq n} E_i $).
+#### Definition 1 {#evt-v-s3-def-1 .statement}
+
+Let $ E_1, ..., E_n $ be hilbertian spaces. *The completion of the Hausdorff prehilbertian space* $ E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n $ *is called* the hilbertian tensor product of the $ E_i $ and is denoted by $ E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n $ (or $ \hat{\otimes}_{2 \atop 1 \leq i \leq n} E_i $).
 
 Let $ F_1, ..., F_n $ be hilbertian spaces and $ u_i \in \mathcal{L}(E_i, F_i) $ for $ 1 \leq i \leq n $. The continuous linear mapping $ u_1 \otimes ... \otimes u_n $ then extends to a continuous linear mapping $ u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n $ from $ E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n $ into $ F_1 \hat{\otimes}_2 ... \hat{\otimes}_2 F_n $. We have
 
@@ -185,29 +187,33 @@ We leave to the reader the task of formulating the « commutativity » and the �
 
 #### Remark {#evt-v-s3-n2-rem-1 .statement}
 
-— Let $ E_1, ..., E_n $ be Hausdorff prehilbertian spaces, and $ \hat{E}_1, ..., \hat{E}_n $ their respective completions. Then $ E_1 \otimes_2 ... \otimes_2 E_n $ is a prehilbertian subspace of $ \hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n $. Since the mapping $ (x_1, ..., x_n) \mapsto x_1 \otimes ... \otimes x_n $ from $ \hat{E}_1 \times ... \times \hat{E}_n $ into $ \hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n $ is continuous, $ E_1 \otimes_2 ... \otimes_2 E_n $ is dense in $ \hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n $. *A fortiori* the completion of $ E_1 \otimes_2 ... \otimes_2 E_n $ is precisely the hilbertian space $ \hat{E}_1 \hat{\otimes}_2 ... \hat{\otimes}_2 \hat{E}_n $. This completion is sometimes simply written as $ E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n $ (or $ \hat{\otimes}_{2 \atop 1 \leq i \leq n} E_i $).
+Let $ E_1, ..., E_n $ be Hausdorff prehilbertian spaces, and $ \hat{E}_1, ..., \hat{E}_n $ their respective completions. Then $ E_1 \otimes_2 ... \otimes_2 E_n $ is a prehilbertian subspace of $ \hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n $. Since the mapping $ (x_1, ..., x_n) \mapsto x_1 \otimes ... \otimes x_n $ from $ \hat{E}_1 \times ... \times \hat{E}_n $ into $ \hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n $ is continuous, $ E_1 \otimes_2 ... \otimes_2 E_n $ is dense in $ \hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n $. *A fortiori* the completion of $ E_1 \otimes_2 ... \otimes_2 E_n $ is precisely the hilbertian space $ \hat{E}_1 \hat{\otimes}_2 ... \hat{\otimes}_2 \hat{E}_n $. This completion is sometimes simply written as $ E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n $ (or $ \hat{\otimes}_{2 \atop 1 \leq i \leq n} E_i $).
 
-Proposition 3. — Let $ E_1, ..., E_n $ be hilbertian spaces. Suppose that for $ 1 \leq i \leq n $ the space $ E_i $ is a hilbertian sum of a family $ (E_{i,\alpha})_{\alpha \in A(i)} $ of closed vector subspaces. Then $ E_1 \otimes_2 ... \otimes_2 E_n $ is a hilbertian sum of the family of subspaces $ E_{1,\alpha_1} \hat{\otimes}_2 ... \hat{\otimes}_2 E_{n,\alpha_n} $ with $ (\alpha_1, ..., \alpha_n) $ ranging over $ A(1) \times ... \times A(n) $.
+#### Proposition 3 {#evt-v-s3-prop-3 .statement}
+
+Let $ E_1, ..., E_n $ be hilbertian spaces. Suppose that for $ 1 \leq i \leq n $ the space $ E_i $ is a hilbertian sum of a family $ (E_{i,\alpha})_{\alpha \in A(i)} $ of closed vector subspaces. Then $ E_1 \otimes_2 ... \otimes_2 E_n $ is a hilbertian sum of the family of subspaces $ E_{1,\alpha_1} \hat{\otimes}_2 ... \hat{\otimes}_2 E_{n,\alpha_n} $ with $ (\alpha_1, ..., \alpha_n) $ ranging over $ A(1) \times ... \times A(n) $.
 
 By formula (6) of V, p. 27, the subspaces $ E_{1,\alpha_1} \hat{\otimes}_2 ... \hat{\otimes}_2 E_{n,\alpha_n} $ of $ E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n $ are mutually orthogonal. For every integer $ i $ between 1 and $ n $, the set $ \bigcup_{\alpha \in A(i)} E_{i,\alpha} $ is total in $ E_i $, and the multilinear mapping $ (x_1, ..., x_n) \mapsto x_1 \otimes ... \otimes x_n $ is continuous.
 
 It follows that the union of the subspaces $ E_{1,\alpha_1} \hat{\otimes}_2 ... \hat{\otimes}_2 E_{n,\alpha_n} $ is total, hence prop. 3.
 
-#### Corollary 1 {#evt-v-s3-prop-2-cor-1 .statement}
+#### Corollary 1 {#evt-v-s3-prop-3-cor-1 .statement}
 
 — For $ 1 \leq i \leq n $, let $ (e_{i,\alpha})_{\alpha \in A(i)} $ be an orthonormal basis of $ E_i $. Then the family of vectors $ e_{1,\alpha_1} \otimes \ldots \otimes e_{n,\alpha_n} $ as $ (\alpha_1, \ldots, \alpha_n) $ ranges over $ A(1) \times \cdots \times A(n) $ is an orthonormal basis of $ E_1 \hat{\otimes}_2 \ldots \hat{\otimes}_2 E_n $.
 
-#### Corollary 2 {#evt-v-s3-prop-2-cor-2 .statement}
+#### Corollary 2 {#evt-v-s3-prop-3-cor-2 .statement}
 
 — Let $ E_1 $ and $ E_2 $ be two hilbertian spaces, and $ (e_i)_{i \in I} $ an orthonormal basis of $ E_1 $. Let $ (y_i)_{i \in I} $ be a family of elements of $ E_2 $, such that $ \sum_{i \in I} \| y_i \| ^2 < + \infty $. Then the family $ (e_i \otimes y_i)_{i \in I} $ is summable in $ E_1 \hat{\otimes}_2 E_2 $; moreover, every element of $ E_1 \otimes E_2 $ can be written uniquely in the form $ \sum_{i \in I} e_i \otimes y_i $ with $ \sum_{i \in I} \| y_i \| ^2 < + \infty $.
 
 Let $ F_i $ be the line in $ E_1 $ generated by the $ e_i $ ($ i \in I $). Then $ E_1 $ is the hilbertian sum of the family of subspaces $ (F_i)_{i \in I} $. By prop. 3, the space $ E_1 \hat{\otimes}_2 E_2 $ is the hilbertian sum of the family of subspaces $ (F_i \hat{\otimes}_2 E_2)_{i \in I} $, hence cor. 2 follows.
 
-#### Example {#evt-v-s3-n2-exa-1 .statement}
+#### Example 1 {#evt-v-s3-n2-exa-1 .statement}
 
-— 1) By cor. 1, the space $ \ell^2(I) \hat{\otimes}_2 \ell^2(J) $ is canonically isomorphic to $ \ell^2(I \times J) $, the tensor product $ x \otimes y $ of $ x = (x_i)_{i \in I} $ and $ y = (y_j)_{j \in J} $ can be identified with the family $ (x_i y_j)_{i \in I, j \in J} $. Similarly, by cor. 2, $ \ell^2(I) \hat{\otimes}_2 E $ can be identified with $ \ell^2_E(I) $, in such a way that we have $ (x_i)_{i \in I} \otimes y = (x_i y)_{i \in I} $ for every $ y $ in the hilbertian space $ E $.
+By cor. 1, the space $ \ell^2(I) \hat{\otimes}_2 \ell^2(J) $ is canonically isomorphic to $ \ell^2(I \times J) $, the tensor product $ x \otimes y $ of $ x = (x_i)_{i \in I} $ and $ y = (y_j)_{j \in J} $ can be identified with the family $ (x_i y_j)_{i \in I, j \in J} $. Similarly, by cor. 2, $ \ell^2(I) \hat{\otimes}_2 E $ can be identified with $ \ell^2_E(I) $, in such a way that we have $ (x_i)_{i \in I} \otimes y = (x_i y)_{i \in I} $ for every $ y $ in the hilbertian space $ E $.
 
-\* 2) Let $ X $ be a Hausdorff topological space, and $ \mu $ a positive measure on $ X $. Let $ E $ be a hilbertian space. We can identify $ L^2(X, \mu) \hat{\otimes}_2 E $ with $ L^2_E(X, \mu) $ in a canonical way : if $ f $ is the class of the square integrable scalar function $ f $ on $ X $, and if $ a $ belongs to $ E $, then $ f \otimes a $ is the class of the function $ x \mapsto f(x).a $ with values in $ E $.
+#### Example 2 {#evt-v-s3-n2-exa-2 .statement}
+
+Let $ X $ be a Hausdorff topological space, and $ \mu $ a positive measure on $ X $. Let $ E $ be a hilbertian space. We can identify $ L^2(X, \mu) \hat{\otimes}_2 E $ with $ L^2_E(X, \mu) $ in a canonical way : if $ f $ is the class of the square integrable scalar function $ f $ on $ X $, and if $ a $ belongs to $ E $, then $ f \otimes a $ is the class of the function $ x \mapsto f(x).a $ with values in $ E $.
 
 Let $ Y $ be a Hausdorff topological space and $ \nu $ a positive measure on $ Y $. In an analogous manner, we can identify the hilbertian spaces $ L^2(X, \mu) \hat{\otimes}_2 L^2(Y, \nu) $ and $ L^2(X \times Y, \mu \otimes \nu) $; then $ f \otimes g $ can be identified with the class of the function $ (x, y) \mapsto f(x)g(y) $ on $ X \times Y $. \*
 

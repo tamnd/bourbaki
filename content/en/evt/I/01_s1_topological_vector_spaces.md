@@ -38,9 +38,9 @@ subsections:
       title: Initial topologies of vector spaces
       page: 9
       pdf_page: 17
-statements: 23
+statements: 27
 exercises: 14
-content_sha256: 1fa35c643923023134a74cbf1e3b29360774f343b752ec68611729b926b6618a
+content_sha256: f0fe7522d5d70ea7ec263b1a50c064ff88e7fa4c451682bf647a4d2358aa9dc4
 ---
 
 ## § 1. TOPOLOGICAL VECTOR SPACES
@@ -121,7 +121,7 @@ It is known (GT, IX, § 3.3) that two distinct norms on $ E $ can define the sam
 
 #### Example {#evt-i-s1-n2-exa-1 .statement}
 
-— Let I be an arbitrary set of indices; it is known (GT, X, § 3.2) that a norm $ \|x\| $ can be defined, on the set of bounded mappings $ x = (\xi_i) $ of I in K, $ \mathcal{B}(I; K) $ (also written $ \mathcal{B}_K(I) $ or $ \ell_K^\infty(I) $), by $ \|x\| = \sup_{i \in I} |\xi_i| $. When I is a topological space, the set of bounded, continuous mappings of I in K is a closed subspace of the space $ \mathcal{B}(I; K) $ (GT, X, § 3.1, cor. 2). Another subspace of $ \mathcal{B}(I; K) $ is the set $ \ell_K^1(I) $ of absolutely summable families $ x = (\xi_i) $ (GT, X, § 3.6); we can define on this subspace another norm $ \|x\|_1 = \sum_{i \in I} |\xi_i| $, that in general is not equivalent to the norm $ \|x\| = \sup_{i \in I} |\xi_i| $ (I, p. 23, exerc. 6); when considering $ \ell_K^1(I) $ as a normed space, without specifying its norm, it is always the norm $ \|x\| $, that is meant. We write $ \mathcal{B}(I) $ and $ \ell^1(I) $ in place of $ \mathcal{B}(I; \mathbf{R}) $ and $ \ell_R^1(I) $.
+Let I be an arbitrary set of indices; it is known (GT, X, § 3.2) that a norm $ \|x\| $ can be defined, on the set of bounded mappings $ x = (\xi_i) $ of I in K, $ \mathcal{B}(I; K) $ (also written $ \mathcal{B}_K(I) $ or $ \ell_K^\infty(I) $), by $ \|x\| = \sup_{i \in I} |\xi_i| $. When I is a topological space, the set of bounded, continuous mappings of I in K is a closed subspace of the space $ \mathcal{B}(I; K) $ (GT, X, § 3.1, cor. 2). Another subspace of $ \mathcal{B}(I; K) $ is the set $ \ell_K^1(I) $ of absolutely summable families $ x = (\xi_i) $ (GT, X, § 3.6); we can define on this subspace another norm $ \|x\|_1 = \sum_{i \in I} |\xi_i| $, that in general is not equivalent to the norm $ \|x\| = \sup_{i \in I} |\xi_i| $ (I, p. 23, exerc. 6); when considering $ \ell_K^1(I) $ as a normed space, without specifying its norm, it is always the norm $ \|x\| $, that is meant. We write $ \mathcal{B}(I) $ and $ \ell^1(I) $ in place of $ \mathcal{B}(I; \mathbf{R}) $ and $ \ell_R^1(I) $.
 
 ### 3. Vector subspaces and quotient spaces of a topological vector space; products of topological vector spaces; topological direct sums of subspaces
 
@@ -137,25 +137,29 @@ Everything that has been said on the finite direct sums of stable subgroups of t
 
 #### Remark {#evt-i-s1-n3-rem-1 .statement}
 
-— Given a closed vector subspace M of a Hausdorff topological vector space E, it is not necessarily the case that there exists an (algebraic) complementary vector subspace to M that is closed in E (even if E is a normed space; cf. IV, p. 55, exerc. 16 (c)); a fortiori there does not necessarily exist a topological complement of M in E (cf. I, p. 26, exerc. 8). However we shall see in § 2 that when K is a non-discrete valued division ring, then every closed subspace M of E, with finite codimension, does have a topological complement in E (I, p. 14, prop. 3).
+Given a closed vector subspace M of a Hausdorff topological vector space E, it is not necessarily the case that there exists an (algebraic) complementary vector subspace to M that is closed in E (even if E is a normed space; cf. IV, p. 55, exerc. 16 (c)); a fortiori there does not necessarily exist a topological complement of M in E (cf. I, p. 26, exerc. 8). However we shall see in § 2 that when K is a non-discrete valued division ring, then every closed subspace M of E, with finite codimension, does have a topological complement in E (I, p. 14, prop. 3).
 
 ### 4. Uniform structure and completion of a topological vector space
 
 Since the topology of the topological vector space E is compatible with the additive group structure on E, it defines a uniform structure on E (GT, III, § 3); when we speak of the uniform structure of a topological vector space we always mean this structure unless the contrary is expressly stated. Every continuous linear mapping of a topological vector space E in a topological vector space F is uniformly continuous (GT, III, § 3.1, prop. 3); every mapping of E in itself of the form $ x \mapsto \alpha x + b $ is uniformly continuous. An equicontinuous set of linear mappings of E in F is uniformly equicontinuous (GT, X, § 2.2, prop. 5).
 
-#### Remark {#evt-i-s1-n4-rem-1 .statement}
+#### Remark 1 {#evt-i-s1-n4-rem-1 .statement}
 
-— 1) If B is a precompact set of K, then for every neighbourhood V of 0 in E, there is a neighbourhood U of 0 in E such that BU $ \subset $ V. For, if W is a neighbourhood of 0 in E such that W + W $ \subset $ V; then from (EVT$_{\text{III}}$) there is a neighbourhood T$_0$ of 0 in K and a neighbourhood U$_0$ of 0 in E such that T$_0$U$_0$ $ \subset $ W. As B is precompact, there are finitely many points $ \lambda_i \in B $ ($ 1 \leq i \leq n $) such that the $ \lambda_i + T_0 $ cover B; from (EVT$_{\text{II}}$) it follows that there is a neighbourhood U $ \subset $ U$_0$ of 0 in E, such that $ \lambda_i U \subset W $ for all $ i $; clearly U has the required properties. In a similar manner (using (EVT$_{\text{I}}$) instead of (EVT$_{\text{II}}$)) it can be shown that if H is a precompact set of E, then for every neighbourhood V of 0 in E, there exists a neighbourhood T of 0 in K such that TH $ \subset $ V.
+If B is a precompact set of K, then for every neighbourhood V of 0 in E, there is a neighbourhood U of 0 in E such that BU $ \subset $ V. For, if W is a neighbourhood of 0 in E such that W + W $ \subset $ V; then from (EVT$_{\text{III}}$) there is a neighbourhood T$_0$ of 0 in K and a neighbourhood U$_0$ of 0 in E such that T$_0$U$_0$ $ \subset $ W. As B is precompact, there are finitely many points $ \lambda_i \in B $ ($ 1 \leq i \leq n $) such that the $ \lambda_i + T_0 $ cover B; from (EVT$_{\text{II}}$) it follows that there is a neighbourhood U $ \subset $ U$_0$ of 0 in E, such that $ \lambda_i U \subset W $ for all $ i $; clearly U has the required properties. In a similar manner (using (EVT$_{\text{I}}$) instead of (EVT$_{\text{II}}$)) it can be shown that if H is a precompact set of E, then for every neighbourhood V of 0 in E, there exists a neighbourhood T of 0 in K such that TH $ \subset $ V.
 
-2) From 1) it follows that, if B is a precompact set of K and H is a precompact set of E, then the mapping $ (\lambda, x) \mapsto \lambda x $ restricted to B $ \times $ H is uniformly continuous. For, if V is a neighbourhood of 0 in E then there are neighbourhoods T of 0 in K, and U of 0 in E such that TH + BU $ \subset $ V. Since we can write $ \lambda x - \lambda' x' = (\lambda - \lambda') x + \lambda'(x - x') $, we see that for $ \lambda, \lambda' $ in B, x, x' in H, $ \lambda - \lambda' \in T $ and $ x - x' \in U $, we have $ \lambda x - \lambda' x' \in V $, which proves our assertion.
+#### Remark 2 {#evt-i-s1-n4-rem-2 .statement}
+
+From 1) it follows that, if B is a precompact set of K and H is a precompact set of E, then the mapping $ (\lambda, x) \mapsto \lambda x $ restricted to B $ \times $ H is uniformly continuous. For, if V is a neighbourhood of 0 in E then there are neighbourhoods T of 0 in K, and U of 0 in E such that TH + BU $ \subset $ V. Since we can write $ \lambda x - \lambda' x' = (\lambda - \lambda') x + \lambda'(x - x') $, we see that for $ \lambda, \lambda' $ in B, x, x' in H, $ \lambda - \lambda' \in T $ and $ x - x' \in U $, we have $ \lambda x - \lambda' x' \in V $, which proves our assertion.
 
 A topological vector space is called complete if, considering its uniform structure, it is a complete uniform space.
 
-Definition 2. — *A complete normed space on a non-discrete valued division ring is called a Banach space.*
+#### Definition 2 {#evt-i-s1-def-2 .statement}
+
+*A complete normed space on a non-discrete valued division ring is called a Banach space.*
 
 #### Example {#evt-i-s1-n4-exa-1 .statement}
 
-— If K is a non-discrete valued division ring then the space $ \mathscr{B}(I ; K) $ (I, p. 4, Example) is complete (GT, X, § 3.1, cor. 1). This is also true for the space $ \ell_K^1(I) $ (I, p. 4, Example) with the norm $ \|x\|_1 = \sum_{i \in I} |\xi_i| $: for, if $ x_n $ is a Cauchy sequence in this space and $ x_n = (\xi_{m_i})_{i \in I} $, then for all $ i \in I $
+If K is a non-discrete valued division ring then the space $ \mathscr{B}(I ; K) $ (I, p. 4, Example) is complete (GT, X, § 3.1, cor. 1). This is also true for the space $ \ell_K^1(I) $ (I, p. 4, Example) with the norm $ \|x\|_1 = \sum_{i \in I} |\xi_i| $: for, if $ x_n $ is a Cauchy sequence in this space and $ x_n = (\xi_{m_i})_{i \in I} $, then for all $ i \in I $
 
 $$
 |\xi_{m_i} - \xi_{n_i}| \leq \|x_m - x_n\|_1;
@@ -214,15 +218,19 @@ By axiom (EVT'₃) we show firstly that the *balanced core*, V₁, of V, a neigh
 
 Now let E be a vector space over K, and $ \mathfrak{B} $ be a filter base on E satisfying (EV₁), (EV₂) and (EV₃). The axiom (EV₁) shows firstly that for all V ∈ $ \mathfrak{B} $, we have −V = V and 0 ∈ V; these relations and the axiom (EV₃) show that $ \mathfrak{B} $ is a fundamental system of neighbourhoods of 0, for a topology on E compatible with the *additive group* structure of E (GT, III, § 1.2). On the other hand the axioms (EVT'_I), (EVT'_II) and (EVT'_III) are immediate consequences of (EV_I) and (EV_II), thus the topology defined above satisfies the axiom (EVT), and the proposition is proved.
 
-#### Remark {#evt-i-s1-n5-rem-1 .statement}
+#### Remark 1 {#evt-i-s1-n5-rem-1 .statement}
 
-— 1) In a normed space on a non-discrete valued division ring the set of open balls (resp. closed balls) with centre 0 is a fundamental system of neighbourhoods of 0 which satisfy the conditions (EV_I), (EV_II) and (EV_III).
+In a normed space on a non-discrete valued division ring the set of open balls (resp. closed balls) with centre 0 is a fundamental system of neighbourhoods of 0 which satisfy the conditions (EV_I), (EV_II) and (EV_III).
 
-2) When the division ring of scalars K is the field \mathbf{R} or the field \mathbf{C}, every filter base \mathfrak{B} on E which satisfies just the two axioms (EV_I) and (EV_III) is a fundamental system of neighbourhoods of 0 for a topology compatible with the vector space structure of E. In fact, we need only prove that, in these conditions, for every $ \lambda \neq 0 $ in K and every $ V \in \mathfrak{B} $ there exists $ W \in \mathfrak{B} $ such that $ \lambda W \subset V $. Now from (EV_III) there exists $ W_1 \in \mathfrak{B} $ with $ 2\,W_1 \subset V $, and we deduce, inductively, that for every positive integer $ n $, there exists $ W_n \in \mathfrak{B} $ such that $ 2^n W_n \subset V $. As V is balanced, if we take $ n $ so large that $ 2^n = |2^n| > |\lambda| $, then $ W = W_n $ satisfies the condition, as required.
+#### Remark 2 {#evt-i-s1-n5-rem-2 .statement}
+
+When the division ring of scalars K is the field \mathbf{R} or the field \mathbf{C}, every filter base \mathfrak{B} on E which satisfies just the two axioms (EV_I) and (EV_III) is a fundamental system of neighbourhoods of 0 for a topology compatible with the vector space structure of E. In fact, we need only prove that, in these conditions, for every $ \lambda \neq 0 $ in K and every $ V \in \mathfrak{B} $ there exists $ W \in \mathfrak{B} $ such that $ \lambda W \subset V $. Now from (EV_III) there exists $ W_1 \in \mathfrak{B} $ with $ 2\,W_1 \subset V $, and we deduce, inductively, that for every positive integer $ n $, there exists $ W_n \in \mathfrak{B} $ such that $ 2^n W_n \subset V $. As V is balanced, if we take $ n $ so large that $ 2^n = |2^n| > |\lambda| $, then $ W = W_n $ satisfies the condition, as required.
 
 This result does not hold for every non-discrete valued division ring K, for in such a division ring it is no longer necessarily true that $ |m\varepsilon| = m $ for every positive integer $ m $ ($ \varepsilon $ indicates the unit element of the division ring ; cf. I, p. 22, exerc. 1).
 
-3) If K is a discrete division ring, conditions (EVT'_I) and (EVT'_III) are true for any topology on E. Arguing as in prop. 4, one easily sees that if E is a topological vector space on K, then there exists $ \mathfrak{B} $, a fundamental system of closed neighbourhoods of 0 in E satisfying conditions (EV_II) and (EV_III). Conversely, if a filter base $ \mathfrak{B} $ on a vector space E over K is such that 0 belongs to all the sets of $ \mathfrak{B} $ and (EV_II), (EV_III) are true, then $ \mathfrak{B} $ is a fundamental system of neighbourhoods of 0 in a topology compatible with the vector space structure of E.
+#### Remark 3 {#evt-i-s1-n5-rem-3 .statement}
+
+If K is a discrete division ring, conditions (EVT'_I) and (EVT'_III) are true for any topology on E. Arguing as in prop. 4, one easily sees that if E is a topological vector space on K, then there exists $ \mathfrak{B} $, a fundamental system of closed neighbourhoods of 0 in E satisfying conditions (EV_II) and (EV_III). Conversely, if a filter base $ \mathfrak{B} $ on a vector space E over K is such that 0 belongs to all the sets of $ \mathfrak{B} $ and (EV_II), (EV_III) are true, then $ \mathfrak{B} $ is a fundamental system of neighbourhoods of 0 in a topology compatible with the vector space structure of E.
 
 ### 6. Criteria of continuity and equicontinuity
 

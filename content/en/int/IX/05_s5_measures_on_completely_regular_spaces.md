@@ -39,9 +39,9 @@ subsections:
       title: 'Application: the Laplace transformation'
       page: 68
       pdf_page: 250
-statements: 29
+statements: 33
 exercises: 13
-content_sha256: bc900b658ea07662051e0b6b5ff795b69ff06ccb122d312d492ffcef7a95f93f
+content_sha256: e7428a2c4e5b97261bf02d4e7d8f574c6abca5e32bb7242acb3e1a781bb4d783
 ---
 
 ## § 5. MEASURES ON COMPLETELY REGULAR SPACES
@@ -54,7 +54,7 @@ Recall (GT, IX, §1, No. 5, Def. 4) that a topological space T is said to be com
 
 #### Lemma {#int-ix-s5-n1-lem-1 .statement}
 
-— Let T be a completely regular space, K a compact subset of T, and U an open subset of T containing K.
+Let T be a completely regular space, K a compact subset of T, and U an open subset of T containing K.
 a) There exists an open subset U' of T such that $ K \subset U' \subset \overline{U'} \subset U $.
 b) Let f be a continuous function defined on K with values in an interval I of $ \mathbf{R} $ (resp. in $ \mathbf{C} $). There exists a bounded continuous function $ f' $ on T, with values in I (resp. in $ \mathbf{C} $), that extends f and is zero on $ T - U $.
 
@@ -93,11 +93,13 @@ Clearly $ |g| \leq h \leq f $, and $ g = j $ on $ K $, therefore $ ||\theta_K(j)
 
 since $ a $ is subject to the sole condition $ a < |\theta|^*(f) $, this will imply that the second member of (2) is $ \geqslant $ the first, whence the proposition. Now, let F (resp. $ F' $) be the set of $ t \in T $ such that $ |k(t)| \leq h(t) $ (resp. $ |k(t)| \geq h(t) $). These sets being closed, and their union being T, it will suffice to show that $ g_F $ and $ g_{F'} $ are continuous: now, this property is obvious for $ g_F = k_F $, and it is so for $ g_{F'} $ at the points where $ k(t) \neq 0 $; on the other hand, if $ t \in F' $ is such that $ k(t) = 0 $, then also $ h(t) = 0 $, and the inequality $ |g| \leq h $ implies that $ g $ is continuous at the point $ t $.
 
-#### Remark {#int-ix-s5-n1-rem-1 .statement}
+#### Remark 1 {#int-ix-s5-n1-rem-1 .statement}
 
-— 1) Let $ f $ be a positive lower semi-continuous function, and let $ J_f $ be the set of positive bounded continuous functions zero outside a $ \mu $-integrable open set and bounded above by $ f $. One can show that $ f $ is the upper envelope of $ J_f $ and that $ \mu^*(f) = \sup_{g \in J_f} \mu(g) $.
+Let $ f $ be a positive lower semi-continuous function, and let $ J_f $ be the set of positive bounded continuous functions zero outside a $ \mu $-integrable open set and bounded above by $ f $. One can show that $ f $ is the upper envelope of $ J_f $ and that $ \mu^*(f) = \sup_{g \in J_f} \mu(g) $.
 
-2) If the measure $ \mu $ is bounded, the formula $ \mu^*(f) = \inf_{g \in S_f} \mu(g) $ is obviously valid for every function $ f $ that is upper semi-continuous, positive and bounded.
+#### Remark 2 {#int-ix-s5-n1-rem-2 .statement}
+
+If the measure $ \mu $ is bounded, the formula $ \mu^*(f) = \inf_{g \in S_f} \mu(g) $ is obviously valid for every function $ f $ that is upper semi-continuous, positive and bounded.
 
 #### Proposition 2 {#int-ix-s5-prop-2 .statement}
 
@@ -162,15 +164,19 @@ $$
 \lim_{\mu} \mu(f) = \lambda(f) \quad \text{with respect to } \mathfrak{F} \text{ for every } f \in \mathcal{C}_+^b(T).
 $$
 
-#### Remark {#int-ix-s5-n3-rem-1 .statement}
+#### Remark 1 {#int-ix-s5-n3-rem-1 .statement}
 
-— 1) If $ T $ is locally compact, the tight topology is finer than the topology induced on $ \mathcal{M}^b(T) $ by the vague topology, and these two topologies coincide only when $ T $ is compact. For, if $ T $ is not compact, the mapping $ t \mapsto \varepsilon_t $ converges vaguely to 0 with respect to the filter of complements of relatively compact subsets of $ T $, but does not converge tightly to 0, because the function 1 belongs to $ \mathcal{C}^b(T) $ (for the relations between vague convergence and tight convergence, see Prop. 9).
+If $ T $ is locally compact, the tight topology is finer than the topology induced on $ \mathcal{M}^b(T) $ by the vague topology, and these two topologies coincide only when $ T $ is compact. For, if $ T $ is not compact, the mapping $ t \mapsto \varepsilon_t $ converges vaguely to 0 with respect to the filter of complements of relatively compact subsets of $ T $, but does not converge tightly to 0, because the function 1 belongs to $ \mathcal{C}^b(T) $ (for the relations between vague convergence and tight convergence, see Prop. 9).
 
 (1) This relation was only established above (\S 2, No. 1, Prop. 1) in the case that $ f $ and $ \nu $ are positive. The extension to the present situation, where $ f $ and $ \nu $ are complex and bounded, is immediate by linearity.
 
-2) It follows at once from Prop. 4 that $ \mathcal{M}_+^b(T) $ is closed in $ \mathcal{M}^b(T) $.
+#### Remark 2 {#int-ix-s5-n3-rem-2 .statement}
 
-3) If T is completely regular, the mapping $ t \mapsto \varepsilon_t $ of T into $ \mathcal{M}^b(T) $ is a homeomorphism (GT, IX, §1, No. 5).
+It follows at once from Prop. 4 that $ \mathcal{M}_+^b(T) $ is closed in $ \mathcal{M}^b(T) $.
+
+#### Remark 3 {#int-ix-s5-n3-rem-3 .statement}
+
+If T is completely regular, the mapping $ t \mapsto \varepsilon_t $ of T into $ \mathcal{M}^b(T) $ is a homeomorphism (GT, IX, §1, No. 5).
 
 #### Proposition 6 {#int-ix-s5-prop-6 .statement}
 
@@ -459,7 +465,9 @@ Analogous results are obtained by taking M to be the monoid $ \mathbf{N}^n $, wh
 
 Example 2). — Let us take for M the set $ \mathbf{R}_+ $, equipped with the law of addition and with the usual topology. Let P be the set of complex numbers z with positive real part, equipped with the topology induced by C, and with the law induced by addition in C. For every $ p \in P $, denote by $ f(p) $ the character $ x \mapsto e^{-px} $ of $ \mathbf{R}_+ $; it is easily verified that $ f $ is an isomorphism of the topological monoid structure of P onto that of X; we shall identify X with P by means of $ f $. It is clear that $ \mathbf{R}_+ $ is a full submonoid of P, and Th. 3 yields the following result:
 
-Proposition 16. — *Let A be a set equipped with a filter $ \mathcal{F} $. For every $ \alpha \in A $, let $ \mu_\alpha $ be a bounded positive measure on $ \mathbf{R}_+ $, and let $ \Phi_\alpha $ be the function defined on $ \mathbf{R}_+ $ by $ \Phi_\alpha(p) = \int_0^{+\infty} e^{-px} d\mu_\alpha(x) $. In order that the mapping $ \alpha \mapsto \mu_\alpha $ converge tightly with respect to $ \mathcal{F} $ to a bounded positive measure $ \mu $, it is necessary and sufficient that $ \Phi_\alpha $ converge pointwise on $ \mathbf{R}_+ $, with respect to $ \mathcal{F} $, to a function $ \Phi $ continuous at the point 0. In this case, $ \Phi(p) = \int_0^{+\infty} e^{-px} d\mu(x) $ for all $ p \in \mathbf{R}_+ $.*
+#### Proposition 16 {#int-ix-s5-prop-16 .statement}
+
+*Let A be a set equipped with a filter $ \mathcal{F} $. For every $ \alpha \in A $, let $ \mu_\alpha $ be a bounded positive measure on $ \mathbf{R}_+ $, and let $ \Phi_\alpha $ be the function defined on $ \mathbf{R}_+ $ by $ \Phi_\alpha(p) = \int_0^{+\infty} e^{-px} d\mu_\alpha(x) $. In order that the mapping $ \alpha \mapsto \mu_\alpha $ converge tightly with respect to $ \mathcal{F} $ to a bounded positive measure $ \mu $, it is necessary and sufficient that $ \Phi_\alpha $ converge pointwise on $ \mathbf{R}_+ $, with respect to $ \mathcal{F} $, to a function $ \Phi $ continuous at the point 0. In this case, $ \Phi(p) = \int_0^{+\infty} e^{-px} d\mu(x) $ for all $ p \in \mathbf{R}_+ $.*
 
 There are analogous results for the additive monoids $ \mathbf{R}_+^n $ ($ n $ an integer $ > 1 $); we leave to the reader the transcription of Th. 3 in this case.
 

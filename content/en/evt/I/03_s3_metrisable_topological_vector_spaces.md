@@ -25,7 +25,7 @@ subsections:
       pdf_page: 25
 statements: 11
 exercises: 9
-content_sha256: 3f9d6ffe144af4f7f06621a65e3c7b30c95b9f58e434288523f844d78845614d
+content_sha256: 184c133d6175f986f7939f6da88ce54db00e8a895f550755698af591ddbd4947
 ---
 
 ## § 3. METRISABLE TOPOLOGICAL VECTOR SPACES
@@ -42,7 +42,7 @@ We saw (GT, IX.§ 3.1, prop. 2) how such a distance d could be defined using a d
 
 #### Remark {#evt-i-s3-n1-rem-1 .statement}
 
-— One of the most important classes of metrisable vector spaces are the normed spaces (I, p. 3). But it must be noted that there exist metrisable vector spaces whose topology cannot be defined by a norm (I, § 3, exerc. 1); we shall study important examples later.
+One of the most important classes of metrisable vector spaces are the normed spaces (I, p. 3). But it must be noted that there exist metrisable vector spaces whose topology cannot be defined by a norm (I, § 3, exerc. 1); we shall study important examples later.
 
 ### 2. Properties of metrisable vector spaces
 
@@ -66,7 +66,7 @@ The following lemma shows that (iii) implies (iv).
 
 #### Lemma 1 {#evt-i-s3-lem-1 .statement}
 
-— Let E and F be two topological vector spaces over a non-discrete valued division ring K, and let u be a continuous linear mapping of E in F such that the image of E is not meagre. Then, for every neighbourhood V of 0 in E, the set $ \overline{u(V)} $ is a neighbourhood of 0 in F.
+Let E and F be two topological vector spaces over a non-discrete valued division ring K, and let u be a continuous linear mapping of E in F such that the image of E is not meagre. Then, for every neighbourhood V of 0 in E, the set $ \overline{u(V)} $ is a neighbourhood of 0 in F.
 
 Let W be a balanced neighbourhood of 0 in E such that W + W ⊂ V (I, § 1.5, prop. 4). Let α be an element of K such that |α| > 1; then E is the union of the sets $ \alpha^n W $ where n varies in $ \mathbf{N} $; in fact, for all x ∈ E, there exists β ∈ K such that x ∈ βW (I, p. 7, prop. 4) and there exists an integer n ≥ 0 such that |β| < |α|^n, then x ∈ $ \alpha^n W $ since W is balanced. Hence, u(E) is the union of the sequence of sets $ u(\alpha^n W) = \alpha^n u(W) $, and as u(E) is not meagre in F, one at least of the sets $ \alpha^n \overline{u(W)} $ possesses an interior point (GT, IX, § 5.3, def. 2) and therefore $ \overline{u(W)} $ has an interior point.
 

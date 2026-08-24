@@ -43,9 +43,9 @@ subsections:
       title: Complete subsets of $ \mathcal{L}_{\mathcal{S}}(E; F) $
       page: 22
       pdf_page: 154
-statements: 36
+statements: 39
 exercises: 13
-content_sha256: c6cbd2671517b3726a7b5e1152f83a30a0ff2874fa14cebca8df26f711360f95
+content_sha256: aeea6217ee0e16e1a568bfe18558a479b66f5f96008067b42ed34a7e73ebf8f7
 ---
 
 ## § 3. SPACES OF CONTINUOUS LINEAR MAPPINGS
@@ -74,15 +74,21 @@ It is enough to remark that if $ u $ is a continuous linear mapping from E into 
 
 Given two locally convex vector spaces E and F, and a family $ \mathfrak{S} $ of bounded subsets of E, let $ \mathcal{L}_\mathfrak{S}(E; F) $ denote the locally convex space obtained by assigning the $ \mathfrak{S} $*-topology* to $ \mathcal{L}(E; F) $.
 
-#### Example {#evt-iii-s3-n1-exa-1 .statement}
+#### Example 1 {#evt-iii-s3-n1-exa-1 .statement}
 
-— 1) If $ \mathfrak{S} $ is the set of all finite subsets of E, then the $ \mathfrak{S} $-topology is the topology of *simple convergence* and the space $ \mathcal{L}_{\mathfrak{S}}(E; F) $ is also denoted by $ \mathcal{L}_s(E; F) $. A bounded subset of $ \mathcal{L}_s(E; F) $ is called a simply bounded subset of $ \mathcal{L}(E; F) $.
+If $ \mathfrak{S} $ is the set of all finite subsets of E, then the $ \mathfrak{S} $-topology is the topology of *simple convergence* and the space $ \mathcal{L}_{\mathfrak{S}}(E; F) $ is also denoted by $ \mathcal{L}_s(E; F) $. A bounded subset of $ \mathcal{L}_s(E; F) $ is called a simply bounded subset of $ \mathcal{L}(E; F) $.
 
-2) If $ \mathfrak{S} $ is the set of *compact* (resp. *precompact*, *compact convex*) subsets, then the $ \mathfrak{S} $-topology is called the topology of *compact* (resp. *precompact*, *compact convex*) convergence and the space $ \mathcal{L}_{\mathfrak{S}}(E; F) $ is also denoted by $ \mathcal{L}_c(E; F) $ (resp. $ \mathcal{L}_{pc}(E; F) $, $ \mathcal{L}_{cc}(E; F) $). (*Cf.* IV, p. 48, exerc. 7.)
+#### Example 2 {#evt-iii-s3-n1-exa-2 .statement}
 
-3) If $ \mathfrak{S} $ is the set of all *bounded* subsets of E, we say that the $ \mathfrak{S} $-topology is the topology of *bounded convergence* and the space $ \mathcal{L}_{\mathfrak{S}}(E; F) $ is denoted by $ \mathcal{L}_b(E; F) $.
+If $ \mathfrak{S} $ is the set of *compact* (resp. *precompact*, *compact convex*) subsets, then the $ \mathfrak{S} $-topology is called the topology of *compact* (resp. *precompact*, *compact convex*) convergence and the space $ \mathcal{L}_{\mathfrak{S}}(E; F) $ is also denoted by $ \mathcal{L}_c(E; F) $ (resp. $ \mathcal{L}_{pc}(E; F) $, $ \mathcal{L}_{cc}(E; F) $). (*Cf.* IV, p. 48, exerc. 7.)
 
-4) When $ F = \mathbf{K} $, the space $ \mathcal{L}(E; F) $ is the *dual* $ E' $ of E. We denote by $ E'_\mathfrak{S} $, $ E'_s $ etc. the space $ \mathcal{L}_{\mathfrak{S}}(E; \mathbf{K}) $, $ \mathcal{L}_s(E; \mathbf{K}) $ etc. The space $ E'_s $ (resp. $ E'_b $) is called the weak dual (resp. strong dual) of E. A bounded subset of $ E'_s $ (resp. $ E'_b $) is said to be weakly (resp. strongly) bounded. We observe that the weak topology on $ E' $ is none other than $ \sigma(E', E) $ (II, p. 42).
+#### Example 3 {#evt-iii-s3-n1-exa-3 .statement}
+
+If $ \mathfrak{S} $ is the set of all *bounded* subsets of E, we say that the $ \mathfrak{S} $-topology is the topology of *bounded convergence* and the space $ \mathcal{L}_{\mathfrak{S}}(E; F) $ is denoted by $ \mathcal{L}_b(E; F) $.
+
+#### Example 4 {#evt-iii-s3-n1-exa-4 .statement}
+
+When $ F = \mathbf{K} $, the space $ \mathcal{L}(E; F) $ is the *dual* $ E' $ of E. We denote by $ E'_\mathfrak{S} $, $ E'_s $ etc. the space $ \mathcal{L}_{\mathfrak{S}}(E; \mathbf{K}) $, $ \mathcal{L}_s(E; \mathbf{K}) $ etc. The space $ E'_s $ (resp. $ E'_b $) is called the weak dual (resp. strong dual) of E. A bounded subset of $ E'_s $ (resp. $ E'_b $) is said to be weakly (resp. strongly) bounded. We observe that the weak topology on $ E' $ is none other than $ \sigma(E', E) $ (II, p. 42).
 
 When $ E = F $, we denote by $ \mathcal{L}(E) $, $ \mathcal{L}_{\mathfrak{S}}(E) $ etc. the space $ \mathcal{L}(E; F) $, $ \mathcal{L}_{\mathfrak{S}}(E; F) $ etc.
 
@@ -300,7 +306,7 @@ Since every simple limit of linear forms on E is a linear form (III, p. 16, prop
 
 #### Lemma 1 {#evt-iii-s3-lem-1 .statement}
 
-— Let A be a closed convex balanced subset of E and let u be a linear form on E whose restriction to A is continuous. Then for every \varepsilon > 0, there exists an x' \in E' such that
+Let A be a closed convex balanced subset of E and let u be a linear form on E whose restriction to A is continuous. Then for every \varepsilon > 0, there exists an x' \in E' such that
 
 $$ |u(x) - \langle x, x' \rangle| \leq \varepsilon \quad \text{for every} \quad x \in A . $$
 
@@ -378,7 +384,7 @@ For, by virtue of prop. 5 (III, p. 17) $ \Phi $ is a Cauchy filter for the unifo
 
 #### Remark 2 {#evt-iii-s3-n8-rem-2 .statement}
 
-— Let $ (u_n) $ be a sequence of continuous linear mappings from a Banach space E into a Banach space F; it may happen that $ (u_n(x)) $ has a limit at every point of an everywhere dense vector subspace T of E, without the sequence $ (u_n) $ being bounded in the normed space $ \mathcal{L}(E; F) $. For example, take E to be the space of all continuous numerical functions on $ \mathbf{R} $, tending to zero at infinity, with the norm $ \|f\| = \sup_{x \in \mathbf{R}} |f(x)| $ and let T be the subspace of continuous numerical functions with compact support. The sequence of continuous linear mappings $ f \mapsto nf(n) $ from E into $ \mathbf{R} $ converges to 0 for all $ f \in T $, but is not bounded in $ \mathcal{L}_b(E; \mathbf{R}) $. The same example shows that in the space $ \mathcal{L}(T; \mathbf{R}) $, a sequence $ (v_n) $ may be simply convergent and non-bounded for the topology of bounded convergence.
+Let $ (u_n) $ be a sequence of continuous linear mappings from a Banach space E into a Banach space F; it may happen that $ (u_n(x)) $ has a limit at every point of an everywhere dense vector subspace T of E, without the sequence $ (u_n) $ being bounded in the normed space $ \mathcal{L}(E; F) $. For example, take E to be the space of all continuous numerical functions on $ \mathbf{R} $, tending to zero at infinity, with the norm $ \|f\| = \sup_{x \in \mathbf{R}} |f(x)| $ and let T be the subspace of continuous numerical functions with compact support. The sequence of continuous linear mappings $ f \mapsto nf(n) $ from E into $ \mathbf{R} $ converges to 0 for all $ f \in T $, but is not bounded in $ \mathcal{L}_b(E; \mathbf{R}) $. The same example shows that in the space $ \mathcal{L}(T; \mathbf{R}) $, a sequence $ (v_n) $ may be simply convergent and non-bounded for the topology of bounded convergence.
 
 On the other hand, the sequence of continuous linear mappings $ f \mapsto \sum_{k=1}^n f(k) $ is a Cauchy sequence in $ \mathcal{L}(T; \mathbf{R}) $ for the topology of simple convergence, but does not tend to a limit in $ \mathcal{L}(T; \mathbf{R}) $ for this topology.
 

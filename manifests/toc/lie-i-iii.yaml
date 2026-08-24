@@ -886,7 +886,7 @@ chapters:
             page: 409
             pdf_page: 427
         - section: 0
-          title: Operations on linear represenmtions
+          title: Operations on linear representations
           page: 368
           pdf_page: 386
           appendix: true

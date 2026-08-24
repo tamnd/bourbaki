@@ -43,9 +43,9 @@ subsections:
       title: Complete convex cones in weak spaces
       page: 52
       pdf_page: 89
-statements: 39
+statements: 41
 exercises: 20
-content_sha256: 1049b16ea7f3d1d52a3697fbbb8908ee491814e70eb0fc2b3e5904bc50517937
+content_sha256: 109eceeeb99cc76649276c19786c2e09a70e1491d491d1e3c49c950e18545c64
 ---
 
 ## § 6. WEAK TOPOLOGIES
@@ -159,7 +159,9 @@ This follows from cor. 1.
 
 ### 3. Polar sets and orthogonal subspaces
 
-Definition 2. — Let F and G be two (real) vector spaces in duality. For every set M of F we call the polar of M, the set of those y ∈ G for which $ \langle x, y \rangle \geq -1 $ for all $ x \in M $. (For complex vector spaces, cf. II, p. 64.)
+#### Definition 2 {#evt-ii-s6-def-2-bis .statement}
+
+Let F and G be two (real) vector spaces in duality. For every set M of F we call the polar of M, the set of those y ∈ G for which $ \langle x, y \rangle \geq -1 $ for all $ x \in M $. (For complex vector spaces, cf. II, p. 64.)
 
 If $ G_1, G_2 $ are two subspaces of $ F^* $ such that $ G_1 \subset G_2 $, then the polar of M in $ G_1 $ is the intersection of $ G_1 $ with the polar of M in $ G_2 $.
 
@@ -175,7 +177,9 @@ i.e. $ M^{\circ \circ \circ} = M^\circ $ (cf. S, III, § 1.5, prop. 2).
 
 If M is a symmetric subset of F, $ M^\circ $ is a symmetric subset of G; $ M^\circ $ is also in this case the set of $ y \in G $ such that $ |\langle x, y \rangle| \leq 1 $ for all $ x \in M $.
 
-Proposition 4. — (i) For any set M of F, the polar set $ M^\circ $ is a convex set that contains 0 and is closed in G for the topology $ \sigma(G, F) $.
+#### Proposition 4 {#evt-ii-s6-prop-4 .statement}
+
+(i) For any set M of F, the polar set $ M^\circ $ is a convex set that contains 0 and is closed in G for the topology $ \sigma(G, F) $.
 
 (ii) If M is a cone of vertex 0, then $ M^\circ $ is a cone of vertex 0 and it is also the set of $ y \in G $ such that $ \langle x, y \rangle \geq 0 $ for all $ x \in M $.
 

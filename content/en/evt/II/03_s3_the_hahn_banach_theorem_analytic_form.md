@@ -19,9 +19,9 @@ subsections:
       title: The Hahn-Banach theorem (analytic form)
       page: 22
       pdf_page: 59
-statements: 5
+statements: 6
 exercises: 8
-content_sha256: 48405b8321a23ceb592b30296fd0ca206d837ae8c9aecaebc8880cf13b6d6611
+content_sha256: 0aea7a7a7c11a906853b8b153e32f9152738a2304edacc86af18cebd51c10233
 ---
 
 ## § 3. THE HAHN-BANACH THEOREM (ANALYTIC FORM)
@@ -62,7 +62,9 @@ II. General case.
 
 Let $ \mathfrak{F} $ be the set of pairs $(W, g)$ where $W$ is a vector subspace of $E$ containing $V$ and $g$ is a positive linear form on $W$ which is an extension of $f$. We order $ \mathfrak{F} $ putting $(W, g) \leq (W', g')$ if $W \subset W'$ and if $g'$ is an extension of $g$. Clearly $ \mathfrak{F} $ is inductive and by th. 2 of S, III, § 2.4, there is a maximal element $(W_0, g_0)$. Suppose $W_0 \neq E$. Then there exists a vector $b \notin W_0$, and, if $W_1 = W_0 + \mathbf{R}b$, the special case above shows that there exists a positive linear form on $W_1$ which is an extension of $g_0$; this contradicts the hypothesis that $(W_0, g_0)$ is maximal. Thus $W_0 = E$, and the first part of the proposition is proved. When $a \in V$, the second assertion is obviously true with $\alpha' = \alpha'' = f(a)$; if, on the contrary, $a \notin V$ and one puts $V_1 = V + \mathbf{R}a$, the second assertion follows from the special case I of the proof.
 
-Corollary. — In a topological vector space $E$ with a compatible preorder structure, let $P$ be the set of elements $\geq 0$ in $E$. Let $V$ be a vector subspace of $E$ containing at least one interior point $x_0$ of $P$. Then every positive linear form on $V$ can be extended to a positive linear form on $E$.
+#### Corollary {#evt-ii-s3-n1-cor-1 .statement}
+
+In a topological vector space $E$ with a compatible preorder structure, let $P$ be the set of elements $\geq 0$ in $E$. Let $V$ be a vector subspace of $E$ containing at least one interior point $x_0$ of $P$. Then every positive linear form on $V$ can be extended to a positive linear form on $E$.
 
 By prop. 1 it is sufficient to show that for every $x \in E$, there exists $x' \in V$ such that $x' - x \in P$. Now let $U$ be a neighbourhood of $0$ in $E$ such that $x_0 + U \subset P$. Then $x + x_0 + U \subset x + P$, and, hence there exists $\varepsilon$ such that $0 < \varepsilon < 1$ and the point $y = x_0 + (1 - \varepsilon)x$ belongs to $x + P$; then every point of the form $x + \lambda(y - x)$ belongs to $x + P$ for $\lambda > 0$. If we take $\lambda = 1/\varepsilon$, then $x + \lambda(y - x) = \lambda x_0 \in V$, from which the conclusion follows.
 

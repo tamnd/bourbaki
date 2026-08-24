@@ -23,24 +23,26 @@ subsections:
       title: Convex cones with compact sole
       page: 59
       pdf_page: 96
-statements: 12
+statements: 25
 exercises: 41
-content_sha256: debba20c88331d55b5d9fde0b294021f9389cc1025db7ffbda646200c2d8c538
+content_sha256: 6e34cfcc639246b55db7a1ac0a776cdec42ff9ade32cd31bb6cbd67b27fab837
 ---
 
 ## § 7. EXTREMAL POINTS AND EXTREMAL GENERATORS
 
 ### 1. Extremal points of compact convex sets
 
-Definition 1. — Let $ A $ be a convex set in an affine space $ E $. Then we say that a point $ x \in A $ is an extremal point of $ A $ if there does not exist an open segment that is contained in $ A $ and contains $ x $.
+#### Definition 1 {#evt-ii-s7-def-1 .statement}
+
+Let $ A $ be a convex set in an affine space $ E $. Then we say that a point $ x \in A $ is an extremal point of $ A $ if there does not exist an open segment that is contained in $ A $ and contains $ x $.
 
 In other words, the relations $ x = \lambda y + (1 - \lambda)z,\ y \in A,\ z \in A,\ y \neq z $ and $ 0 \leq \lambda \leq 1 $ imply $ \lambda = 0 $ or $ \lambda = 1 $ (thus $ x = y $ or $ x = z $). This implies that $ x $ cannot be the barycentre of a set of $ n $ points $ x_i $ of $ A $ carrying positive masses unless $ x $ is one of the $ x_i $; for this is just the definition when $ n = 2 $; for arbitrary $ n $ argue by induction on $ n $, as $ x $ is the barycentre of $ x_1 $ and of the barycentre $ y_1 $ of the $ x_i $ with $ 2 \leq i \leq n $, therefore $ x $ is identical with $ x_1 $ or $ y_1 $, and in the second case it is sufficient to apply the induction hypothesis.
 
 To say that $ x $ is an extremal point of $ A $ also means that $ A - \{x\} $ is convex.
 
-#### Example {#evt-ii-s7-n1-exa-1 .statement}
+#### Example 1 {#evt-ii-s7-n1-exa-1 .statement}
 
-— 1) In the space $ \mathbf{R}^n $, all the points of the sphere $ S_{n-1} $ are extremal points of the closed ball $ B_n $. For, if $ \sum_i y_i^2 \leq 1,\ \sum_i z_i^2 \leq 1 $ and $ 0 < \lambda < 1 $, the relation
+In the space $ \mathbf{R}^n $, all the points of the sphere $ S_{n-1} $ are extremal points of the closed ball $ B_n $. For, if $ \sum_i y_i^2 \leq 1,\ \sum_i z_i^2 \leq 1 $ and $ 0 < \lambda < 1 $, the relation
 $$
 \lambda^2 \sum_i y_i^2 + (1 - \lambda)^2 \sum_i z_i^2 + 2\lambda(1 - \lambda) \sum_i y_i z_i = 1 = (\lambda + (1 - \lambda))^2
 $$
@@ -50,15 +52,21 @@ $$
 $$
 But this implies $ \sum_i (y_i - z_i)^2 = 0 $, thus $ y_i = z_i $ for all $ i $, which proves our assertion.
 
-2) In the normed space $ \mathcal{B}(\mathbf{N}) $ of bounded sequences of real numbers (I, p. 4) the extremal points of the unit ball are the points $ x = (\xi_n) $ such that $ |\xi_n| = 1 $ for all $ n $. For, suppose that we had $ |\xi_n| \leq 1 $ for all $ n $ and $ |\xi_p| < 1 $ for one index $ p $. We can then write
+#### Example 2 {#evt-ii-s7-n1-exa-2 .statement}
+
+In the normed space $ \mathcal{B}(\mathbf{N}) $ of bounded sequences of real numbers (I, p. 4) the extremal points of the unit ball are the points $ x = (\xi_n) $ such that $ |\xi_n| = 1 $ for all $ n $. For, suppose that we had $ |\xi_n| \leq 1 $ for all $ n $ and $ |\xi_p| < 1 $ for one index $ p $. We can then write
 $$
 x = \frac{1 + \xi_p}{2} y + \frac{1 - \xi_p}{2} z
 $$
 where $ y $ (resp. $ z $) is the point all of whose coordinates are equal to the coordinate of $ x $ with the same index, except in the case of index $ p $ where the coordinate is equal to 1 (resp. $ -1 $). This shows that $ x $ is not extremal, since we have $ \|y\| \leq 1 $ and $ \|z\| \leq 1 $. Conversely, if $ |\xi_n| = 1 $ for all $ n $, then $ x $ is extremal, for the relation $ \xi_n = \lambda \eta_n + (1 - \lambda) \zeta_n $ with $ |\eta_n| \leq 1,\ |\zeta_n| \leq 1 $ and $ 0 < \lambda < 1 $ implies $ \xi_n = \eta_n = \zeta_n $.
 
-3) Let $ u : E \to E' $ be an affine mapping of an affine space $ E $ in an affine space $ E' $; let $ C \subset E,\ C' \subset E' $ be two convex sets such that $ u(C) \subset C' $. If $ x' $ is an extremal point of $ C' $ and $ x $ is an extremal point of $ u^{-1}(x') \cap C $, then $ x $ is an extremal point of $ C $, as it follows from def. 1.
+#### Example 3 {#evt-ii-s7-n1-exa-3 .statement}
 
-Proposition 1. — Let $ B $ be the set of extremal points of $ A $, a non-empty compact convex set in a Hausdorff locally convex space $ E $, and let $ f $ be a convex function defined in $ A $ and upper semi-continuous. Then $ f $ attains its upper bound in $ A $ at one point (at least) of $ B $.
+Let $ u : E \to E' $ be an affine mapping of an affine space $ E $ in an affine space $ E' $; let $ C \subset E,\ C' \subset E' $ be two convex sets such that $ u(C) \subset C' $. If $ x' $ is an extremal point of $ C' $ and $ x $ is an extremal point of $ u^{-1}(x') \cap C $, then $ x $ is an extremal point of $ C $, as it follows from def. 1.
+
+#### Proposition 1 {#evt-ii-s7-prop-1 .statement}
+
+Let $ B $ be the set of extremal points of $ A $, a non-empty compact convex set in a Hausdorff locally convex space $ E $, and let $ f $ be a convex function defined in $ A $ and upper semi-continuous. Then $ f $ attains its upper bound in $ A $ at one point (at least) of $ B $.
 
 Use $ \mathcal{F} $ to denote the family of subsets X of A that are *non-empty, closed, and such that every open segment that is contained in A and meets X necessarily lies in X*. It has the following properties;
 (i) A belongs to $ \mathcal{F} $.
@@ -119,33 +127,45 @@ b) $ \Rightarrow $ c). Suppose that an extremal point x of A does not belong to 
 
 c) $ \Rightarrow $ a). This is an obvious consequence of the Krein-Milman theorem.
 
-#### Remark {#evt-ii-s7-n1-rem-1 .statement}
+#### Remark 1 {#evt-ii-s7-n1-rem-1 .statement}
 
-— 1) Even if the vector space E is finite dimensional the set of extremal points of a compact convex set is not necessarily closed (II, p. 89, exerc. 11).
+Even if the vector space E is finite dimensional the set of extremal points of a compact convex set is not necessarily closed (II, p. 89, exerc. 11).
 
-2) If K is a compact set in a non complete Hausdorff locally convex space, and A, the closed convex envelope of K is not compact, there can be extremal points of A that do not belong to K (II, p. 87, exerc. 2).
+#### Remark 2 {#evt-ii-s7-n1-rem-2 .statement}
 
-3) In a Banach space E of infinite dimension, it may happen that the closed ball of centre 0 and radius 1 does not possess any extremal point (II, p. 89, exerc. 14).
+If K is a compact set in a non complete Hausdorff locally convex space, and A, the closed convex envelope of K is not compact, there can be extremal points of A that do not belong to K (II, p. 87, exerc. 2).
 
-4) If A is a compact convex set in a Hausdorff locally convex space, it may happen that an extremal point of A does not belong to any support hyperplane of A (II, p. 78, exerc. 11). The proof of theorem 1 (II, p. 56) shows that in any case A is the convex closed envelope of the set of extremal points of A which belong to a support hyperplane.
+#### Remark 3 {#evt-ii-s7-n1-rem-3 .statement}
+
+In a Banach space E of infinite dimension, it may happen that the closed ball of centre 0 and radius 1 does not possess any extremal point (II, p. 89, exerc. 14).
+
+#### Remark 4 {#evt-ii-s7-n1-rem-4 .statement}
+
+If A is a compact convex set in a Hausdorff locally convex space, it may happen that an extremal point of A does not belong to any support hyperplane of A (II, p. 78, exerc. 11). The proof of theorem 1 (II, p. 56) shows that in any case A is the convex closed envelope of the set of extremal points of A which belong to a support hyperplane.
 
 ### 2. Extremal generators of convex cones
 
 Let C be a convex cone with vertex 0 in a vector space E; clearly no other point of C than the vertex can be an extremal point; the vertex is an extremal point of C if and only if C is pointed and proper.
 
-Definition 2. — Let C be a convex cone of vertex 0 in a vector space E. We say that a half-line D ⊂ C originating at 0 is an extremal generator of C, if every open segment contained in C, not containing 0 and meeting D is contained in D.
+#### Definition 2 {#evt-ii-s7-def-2 .statement}
+
+Let C be a convex cone of vertex 0 in a vector space E. We say that a half-line D ⊂ C originating at 0 is an extremal generator of C, if every open segment contained in C, not containing 0 and meeting D is contained in D.
 
 It comes to the same thing to say that for all x ∈ D such that x ≠ 0, if y ≠ 0, y' ≠ 0 are two points of C such that x = y + y', then, it is necessarily the case that y ∈ D and y' ∈ D.
 
 #### Remark 1 {#evt-ii-s7-n2-rem-1 .statement}
 
-— Let C be a pointed proper convex cone in E, and consider on E the order structure for which C is the set of elements ≥ 0 (II, p. 12, prop. 13); in order that an element of E, say x > 0, belongs to an extremal generator of C, it is necessary and sufficient that every element y ≥ 0, that is bounded above by x, is of the form λx with 0 ≤ λ ≤ 1 : in fact, to say that y is bounded above by x means that x = y + y' where y' ∈ C, whence the conclusion follows.
+Let C be a pointed proper convex cone in E, and consider on E the order structure for which C is the set of elements ≥ 0 (II, p. 12, prop. 13); in order that an element of E, say x > 0, belongs to an extremal generator of C, it is necessary and sufficient that every element y ≥ 0, that is bounded above by x, is of the form λx with 0 ≤ λ ≤ 1 : in fact, to say that y is bounded above by x means that x = y + y' where y' ∈ C, whence the conclusion follows.
 
-Proposition 3. — In a vector space E, let C be a convex cone with vertex 0, and let x₀ ≠ 0 be a point of C, and D a half-line that is contained in C, originating from 0 and containing x₀. Let H be a hyperplane containing x₀ and not passing through 0. Then D is an extremal generator of C if and only if x₀ is an extremal point of H ∩ C.
+#### Proposition 3 {#evt-ii-s7-prop-3 .statement}
+
+In a vector space E, let C be a convex cone with vertex 0, and let x₀ ≠ 0 be a point of C, and D a half-line that is contained in C, originating from 0 and containing x₀. Let H be a hyperplane containing x₀ and not passing through 0. Then D is an extremal generator of C if and only if x₀ is an extremal point of H ∩ C.
 
 The condition is clearly necessary. Conversely, suppose that it is satisfied; suppose that there is a line D' not containing D, passing through x₀ and such that D' ∩ C contains an open segment to which x₀ belongs. Let y ≠ 0 be a direction vector of D'; the hypotheses imply that the point (1 + λ)x₀ + μy belongs to C for |λ| and |μ| sufficiently small. But then, in the plane P determined by D and D' and carrying the canonical topology, x₀ is an interior point of P ∩ C, and it follows that the line P ∩ H contains an open segment contained in H ∩ C and to which x₀ belongs. This contradicts the hypothesis.
 
-Definition 3. — Let C be a convex set in a Hausdorff topological vector space E. A compact convex non-empty set A of C is called a cap of C if the complement C − A of A in C is convex.
+#### Definition 3 {#evt-ii-s7-def-3 .statement}
+
+Let C be a convex set in a Hausdorff topological vector space E. A compact convex non-empty set A of C is called a cap of C if the complement C − A of A in C is convex.
 
 Let C be a pointed convex cone with vertex 0 in E and let A be a cap of C. Write B = C − A. For every closed half-line L ⊂ C originating at 0, the sets L ∩ A and L ∩ B are convex sets that are complements in L, whose union is L, and such that L ∩ A is compact. As L ∩ A is non-empty for at least one half-line L, we see that 0 ∈ A, thus L ∩ A is a closed segment with an end point at 0. If A exists then C is proper.
 
@@ -188,27 +208,33 @@ This follows immediately from cor. 1 and the Krein-Milman theorem (II, p. 55, th
 
 For every measure $ v \in C $, put $ p(v) = \sum_n \alpha_n v(X_n) \in [0, +\infty] $. The function p on C satisfies conditions (i) and (ii) of prop. 4. It is lower semi-continuous for the vague topology (INT, IV, 2nd ed., § 1, No. 1, prop. 4). The set A of the $ \gamma \in C $ such that $ p(\gamma) \leq 1 $ is therefore closed and non-empty. On the other hand, every compact set of X is contained in one of the $ X_n $, thus A being vaguely bounded is also vaguely compact (INT, III, 2nd ed., § 1, No. 9, prop. 15). The set A is therefore a cap of C containing μ. \*
 
-Proposition 5. — Let C be a proper convex cone with vertex 0 in E, a Hausdorff weak space; suppose that C is complete for the uniform structure induced by that of E, and that there is an enumerable fundamental system of neighbourhoods of 0 in C. Then C is the union of its caps and is the closed convex envelope of the union of its extremal generators.
+#### Proposition 5 {#evt-ii-s7-prop-5 .statement}
+
+Let C be a proper convex cone with vertex 0 in E, a Hausdorff weak space; suppose that C is complete for the uniform structure induced by that of E, and that there is an enumerable fundamental system of neighbourhoods of 0 in C. Then C is the union of its caps and is the closed convex envelope of the union of its extremal generators.
 
 The second statement follows from the first and from cor. 2 above. Using prop. 11 of II, p. 52 reduces the proposition to the case when $ E = \mathbf{R}^l $ and $ C \subset \mathbf{R}_+^l $. For all $ \alpha \in I $, denote the projection $ pr_\alpha $ in E by $ f_\alpha $; then $ f_\alpha $ is a continuous linear form. On the other hand let $ (V_n)_{n \in \mathbf{N}} $ be an enumerable fundamental system of neighbourhoods of 0 in C. By the definition of the topology of E, for each $ n \in \mathbf{N} $, there exists a finite subset $ J_n $ of I and a number $ \varepsilon_n > 0 $ such that $ V_n $ contains the set $ W_n $ of the $ x \in C $ such that $ f_\alpha(x) \leq \varepsilon_n $ for all $ \alpha \in J_n $; put $ J = \bigcup_{n \in \mathbf{N}} J_n $. Let $ y \neq 0 $ be a point of C, and p be the function $ \sum_{\alpha \in J} \lambda_\alpha (f_\alpha|C) $ where the $ \lambda_\alpha > 0 $ are chosen so that $ p(y) = 1 $; this is possible, since if $ f_\alpha(y) = 0 $ for all $ \alpha \in J $, then $ y \in V_n $ for all $ n $, which implies that $ y = 0 $, and this is contrary to hypothesis. Now we remark that for all $ \alpha \in I $, the function $ f_\alpha|C $ is continuous at the point 0, therefore there is an $ n \in \mathbf{N} $, such that $ f_\alpha $ is bounded in a $ W_n $, therefore bounded above in C by a linear combination of a finite number of functions $ f_\beta|C $, where $ \beta \in J $. It follows that if A in the set of $ x \in C $ such that $ p(x) \leq 1 $, then $ f_\alpha $ is bounded in A for all $ \alpha \in I $. As p is lower semi-continuous in C, it follows that A is closed and non-empty in C and therefore is compact. Since it is clear that p verifies the conditions (i) and (ii) of prop. 4 of II, p. 58, we see that A is a cap in C and contains y.
 
 #### Remark 2 {#evt-ii-s7-n2-rem-2 .statement}
 
-— There exist proper convex cones that are weakly complete and which have no extremal generator (II, p. 92, exerc. 31).
+There exist proper convex cones that are weakly complete and which have no extremal generator (II, p. 92, exerc. 31).
 
 ### 3. Convex cones with compact sole
 
-Proposition 6. — Let E be a Hausdorff locally convex space and K a convex compact set in E which does not contain 0. Then the smallest pointed cone C of vertex 0 which contains $ K $ is a proper convex cone in $ E $ and is a locally compact and complete subspace of $ E $; also, there exists a closed hyperplane $ H $ in $ E $ that does not contain 0 and is such that $ H $ meets all the half-lines originating at 0 contained in $ C $ and such that $ H \cap C $ is compact. Further, if $ D $ is the half-space containing 0 determined by $ H $, a closed hyperplane with these properties, then $ C \cap D $ is a cap of $ C $ and $ C $ is the union of the $ \lambda(C \cap D) $ for $ \lambda > 0 $.
+#### Proposition 6 {#evt-ii-s7-prop-6 .statement}
+
+Let E be a Hausdorff locally convex space and K a convex compact set in E which does not contain 0. Then the smallest pointed cone C of vertex 0 which contains $ K $ is a proper convex cone in $ E $ and is a locally compact and complete subspace of $ E $; also, there exists a closed hyperplane $ H $ in $ E $ that does not contain 0 and is such that $ H $ meets all the half-lines originating at 0 contained in $ C $ and such that $ H \cap C $ is compact. Further, if $ D $ is the half-space containing 0 determined by $ H $, a closed hyperplane with these properties, then $ C \cap D $ is a cap of $ C $ and $ C $ is the union of the $ \lambda(C \cap D) $ for $ \lambda > 0 $.
 
 By prop. 4 of II, p. 38, there exists a closed hyperplane $ H $ which separates 0 strictly from $ K $. Now, the convex envelope $ A $ of the union of $ \{0\} $ and of $ K $ is compact (II, p. 14, prop. 15) and is the union of the $ \lambda K $ with $ 0 \leq \lambda \leq 1 $. As 0 and $ K $ are strictly on opposite sides of $ H $, for every $ x \in K $ there exists $ \lambda $ such that $ 0 < \lambda < 1 $ and $ \lambda x \in H $. As $ C $ is the union of the $ \lambda A $ for $ \lambda \geq 1 $, we see that $ H $ meets every half-line originating at 0 contained in $ C $ and that $ H \cap A = H \cap C $ is compact. Further, $ C $ is also the union of the $ \lambda(H \cap C) $ for $ \lambda \geq 0 $; let $ C_n $ be the union of the $ \lambda(H \cap C) $ for $ 0 \leq \lambda \leq n $. Clearly $ C_n $ is the convex envelope of the union of $ \{0\} $ and of $ n(H \cap C) $, therefore it is compact. Also, for all $ x \in E $, there is a closed neighbourhood $ V $ of $ x $ in $ E $ and an integer $ n $ such that $ V \cap C \subset C_n $; in fact, if $ H $ is defined by the equation $ f(z) = \alpha $, where $ \alpha > 0 $, it is sufficient to take for $ V $ the closed half-space determined by $ nH $ and containing 0, where $ n $ is so large that $ n\alpha > f(x) $. This shows that $ C $ is locally compact (taking $ x \in C $), and that it is closed in $ E $. We can also consider $ K $ as a subset of the completion $ \hat{E} $, therefore $ C $ is also closed in $ \hat{E} $ and therefore complete.
 
 Given a cone $ C $ and a closed hyperplane $ H $ in a Hausdorff topological vector space $ E $, such that $ H $ does not contain the vertex $ s $ of $ C $ and $ C $ is the smallest cone with vertex $ s $ containing $ H \cap C $, then we call the intersection $ H \cap C $ a « sole » of the cone $ C $. Prop. 6 shows that in a Hausdorff locally convex space $ E $, the smallest cone of vertex 0, containing a compact convex set $ K $ to which 0 does not belong, is a cone of compact sole, and that every convex cone having a compact sole $ S $, is locally compact and complete.
 
-#### Example {#evt-ii-s7-n3-exa-1 .statement}
+#### Example 1 {#evt-ii-s7-n3-exa-1 .statement}
 
-— 1) Every proper closed convex cone in $ E $, a vector space of finite dimension, has a compact sole. In fact, by II, p. 52, prop. 11 we need only consider the case where $ E = \mathbf{R}^n $ and $ C = \mathbf{R}_+^n $. If $ (e_i)_{1 \leq i \leq n} $ is the canonical basis of $ \mathbf{R}^n $, it is clear that the compact convex set which is the convex envelope of the $ e_i $ ($ 1 \leq i \leq n $) is a compact sole for $ \mathbf{R}_+^n $.
+Every proper closed convex cone in $ E $, a vector space of finite dimension, has a compact sole. In fact, by II, p. 52, prop. 11 we need only consider the case where $ E = \mathbf{R}^n $ and $ C = \mathbf{R}_+^n $. If $ (e_i)_{1 \leq i \leq n} $ is the canonical basis of $ \mathbf{R}^n $, it is clear that the compact convex set which is the convex envelope of the $ e_i $ ($ 1 \leq i \leq n $) is a compact sole for $ \mathbf{R}_+^n $.
 
-\* 2) If $ X $ is a compact space, then the cone $ \mathcal{M}_+(X) $ of positive measures on $ X $, with the vague topology, is a cone with a compact sole (INT, III, 2nd ed., § 1, No. 9, cor. 3 of prop. 15). \*
+#### Example 2 {#evt-ii-s7-n3-exa-2 .statement}
+
+If $ X $ is a compact space, then the cone $ \mathcal{M}_+(X) $ of positive measures on $ X $, with the vague topology, is a cone with a compact sole (INT, III, 2nd ed., § 1, No. 9, cor. 3 of prop. 15). \*
 
 ### Exercises {#evt-ii-s7-exercises}
 
