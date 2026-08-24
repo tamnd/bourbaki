@@ -49,7 +49,7 @@ subsections:
       pdf_page: 283
 statements: 30
 exercises: 4
-content_sha256: c95abed89ad770f91be8994d10a596fbd1ea182df289c5cae2966be8914d8a90
+content_sha256: 221f676618cbb299fc184263a293a1650de6a90d7ef3b28b9051718bcc8e0780
 ---
 
 ## § 3. TENSOR PRODUCTS
@@ -615,7 +615,7 @@ This follows immediately from Corollary 5 and the fact that the tensor product o
 
 #### Remark 2 {#alg-ii-s3-n7-rem-2 .statement}
 
-Under the hypotheses of Proposition 7, let $E'_\lambda$ be a submodule of $E_\lambda$, $F'_\mu$ a submodule of $F_\mu$ and let $E' = \bigoplus_{\lambda \in L} E'_\lambda$, $F' = \bigoplus_{\mu \in M} F'_\mu$. Let Im$(E' \otimes_A F')$ (resp. Im(E'_λ ⊗_A F'_μ)) denote the image of E' ⊗_A F' (resp. E'_λ ⊗_A F'_μ) in E ⊗_A F (resp. E_λ ⊗_A F_μ) under the canonical mapping; then the isomorphism (23) identifies the sub-\mathbf{Z}-modules
+Under the hypotheses of Proposition 7, let $E'_\lambda$ be a submodule of $E_\lambda$, $F'_\mu$ a submodule of $F_\mu$ and let $E' = \bigoplus_{\lambda \in L} E'_\lambda$, $F' = \bigoplus_{\mu \in M} F'_\mu$. Let Im$(E' \otimes_A F')$ (resp. Im(E'_λ ⊗_A F'_μ)) denote the image of E' ⊗_A F' (resp. E'_λ ⊗_A F'_μ) in E ⊗_A F (resp. E_λ ⊗_A F_μ) under the canonical mapping; then the isomorphism (23) identifies the sub-$ \mathbf{Z} $-modules
 
 $$
 \operatorname{Im}(E' \otimes_A F') \quad \text{and} \quad \bigoplus_{(\lambda, \mu) \in I \times M} \operatorname{Im}(E'_\lambda \otimes_A F'_\mu);
@@ -637,15 +637,15 @@ where the vertical arrows are the canonical isomorphisms.
 
 #### Proposition 8 {#alg-ii-s3-prop-8 .statement}
 
-*Let A, B be two rings, E a right A-module, F an (A, B)-bimodule and G a left B-module. Then E ⊗_A F is a right B-module, F ⊗_B G a left A-module and there exists one and only one \mathbf{Z}-linear mapping*
+*Let A, B be two rings, E a right A-module, F an (A, B)-bimodule and G a left B-module. Then E ⊗_A F is a right B-module, F ⊗_B G a left A-module and there exists one and only one $ \mathbf{Z} $-linear mapping*
 
 $$
 \phi : (E \otimes_A F) \otimes_B G \to E \otimes_A (F \otimes_B G)
 $$
 
-*such that* $ \phi((x \otimes y) \otimes z) = x \otimes (y \otimes z) $ *for* $ x \in E,\ y \in F,\ z \in G;\ ) moreover *this \mathbf{Z}-linear mapping is bijective* ("associativity" of the tensor product).
+*such that* $ \phi((x \otimes y) \otimes z) = x \otimes (y \otimes z) $ *for* $ x \in E,\ y \in F,\ z \in G; $ moreover *this $ \mathbf{Z} $-linear mapping is bijective* ("associativity" of the tensor product).
 
-The right B-module structure on E ⊗_A F and left A-module structure on F ⊗_B G have been defined in no. 4. The uniqueness of $ \phi $ is obvious since the elements $ (x \otimes y) \otimes z $ generate the \mathbf{Z}-module $ (E \otimes_A F) \otimes_B G $. To show the existence of $ \phi $, we note that, for all $ z \in G,\ h_z : y \mapsto y \otimes z $ is an A-linear mapping of the left A-module F into the left A-module F ⊗_B G. We write $ g_z = 1_E \otimes h_z $, which is therefore a \mathbf{Z}-linear mapping of E ⊗_A F into E ⊗_A (F ⊗_B G) and consider the mapping $ (t, z) \mapsto g_z(t) $ from $ (E \otimes_A F \times G $ into $ E \otimes_A (F \otimes_B G) $; as $ h_{z + z'} = h_z + h_{z'} $ for $ z \in G,\ z' \in G $, it is immediate that the above mapping is \mathbf{Z}-bilinear. Further, we show that for all $ \mu \in B,\ g_{\mu z}(t) = g_z(t \mu) $; it is obviously sufficient to do this for $ t = x \otimes y $ where $ x \in E $ and $ y \in F $; now and
+The right B-module structure on E ⊗_A F and left A-module structure on F ⊗_B G have been defined in no. 4. The uniqueness of $ \phi $ is obvious since the elements $ (x \otimes y) \otimes z $ generate the $ \mathbf{Z} $-module $ (E \otimes_A F) \otimes_B G $. To show the existence of $ \phi $, we note that, for all $ z \in G,\ h_z : y \mapsto y \otimes z $ is an A-linear mapping of the left A-module F into the left A-module F ⊗_B G. We write $ g_z = 1_E \otimes h_z $, which is therefore a $ \mathbf{Z} $-linear mapping of E ⊗_A F into E ⊗_A (F ⊗_B G) and consider the mapping $ (t, z) \mapsto g_z(t) $ from $ (E \otimes_A F \times G $ into $ E \otimes_A (F \otimes_B G) $; as $ h_{z + z'} = h_z + h_{z'} $ for $ z \in G,\ z' \in G $, it is immediate that the above mapping is $ \mathbf{Z} $-bilinear. Further, we show that for all $ \mu \in B,\ g_{\mu z}(t) = g_z(t \mu) $; it is obviously sufficient to do this for $ t = x \otimes y $ where $ x \in E $ and $ y \in F $; now and
 
 $$
 g_{\mu z}(x \otimes y) = x \otimes (y \otimes \mu z)
@@ -654,13 +654,13 @@ $$
 g_z((x \otimes y)\mu) = g_z(x \otimes y\mu) = x \otimes (y\mu \otimes z).
 $$
 
-Proposition 1 (no. 1) then proves the existence of a \mathbf{Z}-linear mapping
+Proposition 1 (no. 1) then proves the existence of a $ \mathbf{Z} $-linear mapping
 
 $$
 \phi : (E \otimes_A F) \otimes_B G \to E \otimes_A (F \otimes_B G)
 $$
 
-such that $ \phi(t \otimes z) = g_z(t) $, hence $ \phi((x \otimes y) \otimes z) = x \otimes (y \otimes z) $. Similarly a \mathbf{Z}-linear mapping
+such that $ \phi(t \otimes z) = g_z(t) $, hence $ \phi((x \otimes y) \otimes z) = x \otimes (y \otimes z) $. Similarly a $ \mathbf{Z} $-linear mapping
 
 $$
 \psi : E \otimes_A (F \otimes_B G) \to (E \otimes_A F) \otimes_B G

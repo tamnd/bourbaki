@@ -4103,7 +4103,7 @@ books:
               statements: 79
               exercises: 26
               extraction: ocr
-              content_sha256: f2a2a4b4cc2c6f4cf91cdf98a9b4a1161c4c5bef6c244fd3c15fa0b6cf3a9365
+              content_sha256: a5c81fa43477099b7a49cb289b7fa4365d1cc787c8a011959ee1f26f50877dd0
             - kind: historical
               title: Historical Note
               path: content/fr/ac/VII/historical_note.md
@@ -6410,7 +6410,7 @@ books:
               statements: 30
               exercises: 4
               extraction: ocr
-              content_sha256: c95abed89ad770f91be8994d10a596fbd1ea182df289c5cae2966be8914d8a90
+              content_sha256: 221f676618cbb299fc184263a293a1650de6a90d7ef3b28b9051718bcc8e0780
             - kind: section
               section: 4
               title: Relations between tensor products and homomorphism modules
@@ -6578,7 +6578,7 @@ books:
               statements: 43
               exercises: 2
               extraction: ocr
-              content_sha256: 698ce7c081b137b4c8eccf97af5af33634fbb1419f71498bb4aa7352627f00e8
+              content_sha256: e2b0067020818d84b0b33e5febea1d4a9107e190bf3bc4bf6ffb9ec89a7d669b
             - kind: section
               section: 5
               title: Tensor algebra. Tensors
@@ -6763,7 +6763,7 @@ books:
               statements: 26
               exercises: 5
               extraction: ocr
-              content_sha256: 76b42663ee733234859ae3e9f19b2a08d52acf3e964743780050d8239520ffc5
+              content_sha256: d3c1884d6c875d139b3210957ad4440ffbb101f41be472e1c3137e5f936242e6
             - kind: section
               section: 6
               title: Intégration dans les groupes de Lie compacts
@@ -7383,7 +7383,7 @@ books:
               last_pdf_page: 138
               subsections: 5
               statements: 23
-              exercises: 7
+              exercises: 9
               extraction: ocr
               content_sha256: f520106d6dad9ccf5e1823170909e9f7735d0ab0bad2ac11aae118378739b749
             - kind: section
@@ -7397,7 +7397,7 @@ books:
               statements: 14
               exercises: 4
               extraction: ocr
-              content_sha256: d5dfb4f65374593cb60ee96f94d750deef22c742a46e220f42da8c8bc1b6dc81
+              content_sha256: 3c0ff8d8b044b0a2722c002185bb5d7d425d69ec45c2776500dd4d0d2dfb7efd
             - kind: appendix
               title: Compléments sur les représentations linéaires
               path: content/fr/lie/V/A_a_complements_sur_les_representations.md
@@ -7750,7 +7750,7 @@ books:
               statements: 39
               exercises: 7
               extraction: ocr
-              content_sha256: 5f968128393f2baa95e82a9f3f77afad466e29c809161778d1f17ad89824ddfb
+              content_sha256: 21c04462f397ec6ad082022f7e8dd9d795493bae6d6090dbd2af1c5e60b3f9d1
             - kind: section
               section: 4
               title: Lifting in complete rings
@@ -7869,7 +7869,7 @@ books:
               statements: 36
               exercises: 22
               extraction: ocr
-              content_sha256: d157e2bfc950d54a72b70c4a4be49d1b03edc664351a5d26a3954bd3c0266228
+              content_sha256: 86235dd5ec3d88b934f7f029dfd5b78900dea39f26eade302498afa6d245956b
             - kind: section
               section: 3
               title: Finitely generated algebras over a field
@@ -7948,7 +7948,7 @@ books:
               statements: 18
               exercises: 11
               extraction: ocr
-              content_sha256: a7861f18cdcfa4b3a1626bb127728ace1408f702d73998a97ff73f72410e7ff1
+              content_sha256: 29c3d0903071c3014fa5b0f61c3fbf39b7f94b6799e802e8c42d5a4f4f7df12c
             - kind: section
               section: 5
               title: The topology defined by a valuation
@@ -7974,7 +7974,7 @@ books:
               statements: 10
               exercises: 2
               extraction: ocr
-              content_sha256: 59c08004982aa798c1694b7b8d6686260ff4a02d8fd745b2175bd7383071f13f
+              content_sha256: 84ea41de6c7aeea65bdece24ac3107510a7c64b5dab8cd4fa19788c769a000f2
             - kind: section
               section: 7
               title: Approximation theorem
@@ -8092,7 +8092,7 @@ books:
               statements: 56
               exercises: 26
               extraction: ocr
-              content_sha256: d27797e07384cc4e73ff77d731a75955d28a18bae083d088802937fb4cc90951
+              content_sha256: 1c3c08e80d34cf142faa671748cae972ec5de3c65a42b19ada624f3444dcc678
             - kind: historical
               title: Historical Note
               path: content/en/ac/VII/historical_note.md
@@ -8103,4 +8103,4 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 082c27eafa4c00fe6c91aee41d24dbe19d43efd6d6ed2ce7d5ee88fea788d78b
+              content_sha256: 6fe30fa113320dea7aa9cf73f37bd3f0528fa3c110e395a6a19904949ca75830

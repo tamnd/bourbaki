@@ -20,7 +20,7 @@ subsections:
       pdf_page: 116
 statements: 14
 exercises: 4
-content_sha256: d5dfb4f65374593cb60ee96f94d750deef22c742a46e220f42da8c8bc1b6dc81
+content_sha256: 3c0ff8d8b044b0a2722c002185bb5d7d425d69ec45c2776500dd4d0d2dfb7efd
 ---
 
 ## § 6. Transformation de Coxeter
@@ -242,7 +242,7 @@ Compte tenu de la formule (3) et du th. 1 (ii), on obtient $h \sum_{j=1}^l \mu_j
 
 #### Corollaire 1 {#lie-v-s6-prop-3-cor-1 .statement}
 
-*Si* $(m_i)_{1 \leq i \leq l}$ *est la suite croissante des exposants de* $W$, *l’ordre de* $W$ *est égal à* $(m_1 + 1)(m_2 + 1) \ldots (m_l + 1)*.
+*Si* $(m_i)_{1 \leq i \leq l}$ *est la suite croissante des exposants de* $W$, *l’ordre de* $W$ *est égal à* $(m_1 + 1)(m_2 + 1) \ldots (m_l + 1)$.
 Ceci résulte des relations $m_j + 1 = p_j$ et du \S 5, n° 3, cor. du th. 3.
 
 #### Corollaire 2 {#lie-v-s6-prop-3-cor-2 .statement}

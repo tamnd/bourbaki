@@ -4664,7 +4664,7 @@
         {
           "chapter": "V",
           "title": "Groupes engendrés par des réflexions",
-          "total": 42,
+          "total": 44,
           "sections": [
             {
               "section": 2,
@@ -4696,10 +4696,10 @@
               "section": 5,
               "label": "lie-v-s5",
               "dir": "s5",
-              "count": 7,
+              "count": 9,
               "first": 1,
-              "last": 7,
-              "starred": 2
+              "last": 9,
+              "starred": 3
             },
             {
               "section": 6,
@@ -4708,7 +4708,7 @@
               "count": 4,
               "first": 1,
               "last": 4,
-              "starred": 1
+              "starred": 2
             }
           ]
         },

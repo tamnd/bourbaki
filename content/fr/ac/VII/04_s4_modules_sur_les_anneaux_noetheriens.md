@@ -52,7 +52,7 @@ subsections:
       pdf_page: 272
 statements: 79
 exercises: 26
-content_sha256: f2a2a4b4cc2c6f4cf91cdf98a9b4a1161c4c5bef6c244fd3c15fa0b6cf3a9365
+content_sha256: a5c81fa43477099b7a49cb289b7fa4365d1cc787c8a011959ee1f26f50877dd0
 ---
 
 ## § 4. Modules sur les anneaux noethériens intégralement clos
@@ -753,7 +753,7 @@ où $ h_x $ est la multiplication par $ x $, il vient $ \varphi(A/xA) = 0 $, d�
 
 Dans ce n°, A et B désignent deux anneaux noethériens intégralement clos tels que $ A \subset B $ et que B soit un A-module de type fini, K et L les corps des fractions de A et B respectivement. On écrira div_A, $ \chi_A $, c_A, $ \gamma_A $, r_A au lieu de div, $ \chi $, c, $ \gamma $, r respectivement lorsqu’il s’agira de A-modules, et on utilisera des notations analogues pour les B-modules.
 
-On sait (\$ 1, n° 10) que pour qu’un idéal premier $ \mathfrak{P} $ de B soit de hauteur 1, il faut et il suffit que $ p = \mathfrak{P} \cap A $ soit de hauteur 1; en outre (loc. cit., prop 14) pour $ p \in P(A) $, il n’y a qu’un nombre fini d’idéaux premiers $ \mathfrak{P} \in P(B) $ au-dessus de p. Pour abréger, nous noterons $ \mathfrak{P}|p $ la relation « $ \mathfrak{P} $ est au-dessus de $ p $ » (c’est-à-dire $ p = \mathfrak{P} \cap A $); nous noterons alors $ e_{\mathfrak{P}/p} $ ou $ e(\mathfrak{P}/p) $ l’indice de ramification $ e(v_{\mathfrak{P}}/v_p) $ de la valuation $ v_{\mathfrak{P}} $ par rapport à la valuation $ v_p $ (chap. VI, § 8, n° 1) et $ f_{\mathfrak{P}/p} $ ou $ f(\mathfrak{P}/p) $ le degré résiduel $ f(v_{\mathfrak{P}}/v_p) $ (loc. cit.); rappelons que les valuations discrètes $ v_p $ et $ v_{\mathfrak{P}} $ sont normées, et que $ f_{\mathfrak{P}/p} $ est le degré du corps des fractions de $ B/\mathfrak{P} $ sur le corps des fractions de $ A/p $. Posons $ n = r_A(B) $, où B est considéré comme A-module; on a donc par définition $ n = [L : K] $, et, pour tout $ p \in P(A) $, n est aussi le rang du $ A_p $-module libre $ B_{\mathfrak{P}} $ pour tout $ \mathfrak{P}|p $. Il résulte donc du chap. VI,
+On sait (\S 1, n° 10) que pour qu’un idéal premier $ \mathfrak{P} $ de B soit de hauteur 1, il faut et il suffit que $ p = \mathfrak{P} \cap A $ soit de hauteur 1; en outre (loc. cit., prop 14) pour $ p \in P(A) $, il n’y a qu’un nombre fini d’idéaux premiers $ \mathfrak{P} \in P(B) $ au-dessus de p. Pour abréger, nous noterons $ \mathfrak{P}|p $ la relation « $ \mathfrak{P} $ est au-dessus de $ p $ » (c’est-à-dire $ p = \mathfrak{P} \cap A $); nous noterons alors $ e_{\mathfrak{P}/p} $ ou $ e(\mathfrak{P}/p) $ l’indice de ramification $ e(v_{\mathfrak{P}}/v_p) $ de la valuation $ v_{\mathfrak{P}} $ par rapport à la valuation $ v_p $ (chap. VI, § 8, n° 1) et $ f_{\mathfrak{P}/p} $ ou $ f(\mathfrak{P}/p) $ le degré résiduel $ f(v_{\mathfrak{P}}/v_p) $ (loc. cit.); rappelons que les valuations discrètes $ v_p $ et $ v_{\mathfrak{P}} $ sont normées, et que $ f_{\mathfrak{P}/p} $ est le degré du corps des fractions de $ B/\mathfrak{P} $ sur le corps des fractions de $ A/p $. Posons $ n = r_A(B) $, où B est considéré comme A-module; on a donc par définition $ n = [L : K] $, et, pour tout $ p \in P(A) $, n est aussi le rang du $ A_p $-module libre $ B_{\mathfrak{P}} $ pour tout $ \mathfrak{P}|p $. Il résulte donc du chap. VI,
 
 (9)
 $$
@@ -957,7 +957,7 @@ Les notations et hypothèses sont de nouveau celles des n°s 2 à 7.
 
 #### Lemme 6 {#ac-vii-s4-lem-6 .statement}
 
-Soient R un anneau commutatif, $ p_i $ (1 $ \leqslant \$$ ) i$  \leqslant \ ) n) des idéaux premiers de R, deux à deux distincts.
+Soient R un anneau commutatif, $ p_i $ ($ 1 \leqslant i \leqslant n $) des idéaux premiers de R, deux à deux distincts.
 
 (i) Pour 1 $ \leqslant \ ) i $ \leqslant \ ) n, soit $ H_i $ une partie de $ R/p_i $ vérifiant la condition suivante: il n’existe aucun élément $ \alpha_i \in R/p_i $ tel que $ \alpha_i + H_i $ contienne un idéal $ \neq 0 $ de $ R/p_i $. Alors il existe $ a \in R $ tel que, pour 1 $ \leqslant \ ) i $ \leqslant \ ) n, l’image canonique de a dans $ R/p_i $ n’appartienne pas à $ H_i $.
 

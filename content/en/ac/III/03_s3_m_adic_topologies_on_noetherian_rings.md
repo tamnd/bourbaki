@@ -33,7 +33,7 @@ subsections:
       pdf_page: 226
 statements: 39
 exercises: 7
-content_sha256: 5f968128393f2baa95e82a9f3f77afad466e29c809161778d1f17ad89824ddfb
+content_sha256: 21c04462f397ec6ad082022f7e8dd9d795493bae6d6090dbd2af1c5e60b3f9d1
 ---
 
 ## 3. $ \mathfrak{m} $-adic topologies on Noetherian rings
@@ -277,10 +277,10 @@ $$
 \alpha_E : \hat{A} \otimes_A E \to \hat{E},
 $$
 
-called *canonical*. Let $ u : E \to F $ be an $ A $-module homomorphism and let \uhat: E \to \hat{F} be the mapping obtained by passing to the Hausdorff completions; for $a \in \hat{A}$, $x \in E$,
+called *canonical*. Let $ u : E \to F $ be an $ A $-module homomorphism and let $ \hat{u} : E \to \hat{F} $ be the mapping obtained by passing to the Hausdorff completions; for $a \in \hat{A}$, $x \in E$,
 
 $$
-\alpha_F(a \otimes u(x)) = aj_F(u(x)) = a\uhat(j_E(x)) = \uhat(\alpha_E(a \otimes x)),
+\alpha_F(a \otimes u(x)) = aj_F(u(x)) = a\hat{u}(j_E(x)) = \hat{u}(\alpha_E(a \otimes x)),
 $$
 
 in other words, the diagram
@@ -289,7 +289,7 @@ $$
 \begin{array}{ccc}
 \hat{A} \otimes_A E & \xrightarrow{1 \otimes u} & \hat{A} \otimes_A F \\
 \downarrow \alpha_E & & \downarrow \alpha_F \\
-\hat{E} & \xrightarrow{\uhat} & \hat{F}
+\hat{E} & \xrightarrow{\hat{u}} & \hat{F}
 \end{array}
 $$
 
@@ -299,7 +299,7 @@ is commutative. Finally, it follows from § 2, no. 12, Proposition 16 that, if E
 
 *Let A be a commutative Noetherian ring, m an ideal of A and E, F, G threefinitely generated A-modules. Then:*
 
-(i) *If* $E \xrightarrow{u} F \xrightarrow{v} G$ *is an exact sequence of A-linear mappings, the sequence* $\hat{E} \xrightarrow{\uhat} \hat{F} \xrightarrow{\hat{v}} \hat{G}$ *obtained by passing to the Hausdorff completions (with respect to the m-adic topologies) is exact.*
+(i) *If* $E \xrightarrow{u} F \xrightarrow{v} G$ *is an exact sequence of A-linear mappings, the sequence* $\hat{E} \xrightarrow{\hat{u}} \hat{F} \xrightarrow{\hat{v}} \hat{G}$ *obtained by passing to the Hausdorff completions (with respect to the m-adic topologies) is exact.*
 
 (ii) *The canonical A-linear mapping* $\alpha_E : \hat{A} \otimes_A E \to \hat{E}$ *is bijective.*
 

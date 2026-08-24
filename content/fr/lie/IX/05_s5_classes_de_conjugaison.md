@@ -29,7 +29,7 @@ subsections:
       pdf_page: 52
 statements: 26
 exercises: 5
-content_sha256: 76b42663ee733234859ae3e9f19b2a08d52acf3e964743780050d8239520ffc5
+content_sha256: d3c1884d6c875d139b3210957ad4440ffbb101f41be472e1c3137e5f936242e6
 ---
 
 ## § 5. CLASSES DE CONJUGAISON
@@ -300,7 +300,7 @@ Le lemme résulte aussitôt de cette formule par passage au quotient.
 
 #### Proposition 4 {#lie-ix-s5-prop-4 .statement tag=01EH}
 
-a) Soient $ g \in G,\ t \in T,\ x \in t,\ et\ soit\ \overline{g}\ l'image\ de\ g\ dans\ G/T.\ Les\ conditions\ suivantes\ sont\ équivalentes:
+a) Soient $ g \in G $, $ t \in T $, $ x \in t $, et soit $ \overline{g} $ l'image de $ g $ dans $ G/T $. Les conditions suivantes sont équivalentes:
 (i) On a $ t \in T_r $ (resp. $ x \in t_r $).
 (i bis) L'élément $ f(\overline{g}, t) $ (resp. $ \varphi(\overline{g}, x) $) est régulier dans $ G $.
 (ii) L'application $ f $ (resp. $ \varphi $) est une submersion au point $ (\overline{g}, t) $ (resp. $ (\overline{g}, x) $).
