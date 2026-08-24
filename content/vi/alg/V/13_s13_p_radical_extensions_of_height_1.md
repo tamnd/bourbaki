@@ -26,10 +26,10 @@ subsections:
       pdf_page: 218
 statements: 21
 exercises: 6
-content_sha256: 930ae0ce568ae030f18a7f2494ceb0adbe95de34e0a17dad337c4119f6ff31b3
+content_sha256: 7885820d9be314e63df2bfd66fad78282fed8a7552ba254add76860c264573fe
 translated_from: content/en/alg/V/13_s13_p_radical_extensions_of_height_1.md
-source_content_sha256: 946678166d2e063f40ad4c589140b81bf1376d31fa63f1b22ff453591cd2a672
-translation_model: gpt-5.4, copied
+source_content_sha256: ea1922d9b090562a960823c783889969946827bc39b5551a52700d5ebe93e171
+translation_model: gpt-5.4, gpt-5-6-mini, copied
 translation_run: translate-vi-d004b81c
 glossary_version: 34
 glossary_terms_sha256: 090fbc15138f46a7b8eb22c24f1f9bb9f05e4f8187caa8374ceed9ffbfbb2499
@@ -60,7 +60,7 @@ Ta có $ L'^p \subset K \subset K' $ và $ L' = K'(L) $, do đó $ L'^p = K'^p(L
 
 #### Nhận xét {#alg-v-s13-n1-rem-1 .statement}
 
-— Cho K là một trường, L là một mở rộng căn p có chiều cao $ \leq 1 $ của K và $ (x_i)_i $ là một họ các phần tử của L. Gọi A là đại số đa thức $ K[(X_i)_{i \in I}] $, a là iđêan của A sinh bởi các đa thức $ X_i^p - x_i^p $ và $ \varphi : A \to L $ là đồng cấu đại số trên K sao cho $ \varphi(X_i) = x_i $ với mọi $ i \in I $. Họ $ (x_i)_i $ là p-tự do khi và chỉ khi hạt nhân của $ \varphi $ bằng a. Thật vậy, $ K[(X_i)]/a $ có thể được đồng nhất với đại số $ \bigotimes_{i \in I} K[X_i]/(X_i^p - x_i^p) $.
+Cho K là một trường, L là một mở rộng căn p có chiều cao $ \leq 1 $ của K và $ (x_i)_i $, một họ các phần tử của L. Cho A là đại số đa thức $ K[(X_i)_{i \in I}] $, a là iđêan của A sinh bởi các đa thức $ X_i^p - x_i^p $ và $ \varphi : A \to L $ là đồng cấu đại số trên K sao cho $ \varphi(X_i) = x_i $ với mỗi $ i \in I $. Họ $ (x_i)_i $, là p-tự do khi và chỉ khi hạt nhân của $ \varphi $ bằng a. Vì $ K[(X_i)]/a $ có thể được đồng nhất với đại số $ \bigotimes_{i \in I} K[X_i]/(X_i^p - x_i^p) $.
 
 Cho L là một mở rộng căn p có chiều cao $ \leq 1 $ của trường K. Một tập con S của $ L $ được gọi là p-tự do (tương ứng, là một cơ sở p) nếu họ được xác định bởi ánh xạ đồng nhất của S lên chính nó là p-tự do (tương ứng, là một cơ sở p). Để một họ $ (x_i)_i $, gồm các phần tử của $ L $, là p-tự do (tương ứng, là một cơ sở p), điều kiện cần và đủ là ánh xạ $ i \mapsto x_i $ là một song ánh từ I lên một tập con p-tự do (tương ứng, một cơ sở p) của L. Theo Mệnh đề 1, mọi tập con của một tập hợp p-tự do đều là p-tự do; ngược lại, nếu S là một tập con của L mà mọi tập con hữu hạn của nó đều p-tự do, thì S là p-tự do. Cuối cùng, một cơ sở p của L trên K là một tập con p-tự do B sao cho $ L = K(B) $.
 

@@ -4176,6 +4176,99 @@
           ]
         }
       ]
+    },
+    {
+      "id": "lie-ix-fr",
+      "chapters": [
+        {
+          "chapter": "IX",
+          "title": "GROUPES DE LIE RÉELS COMPACTS",
+          "total": 87,
+          "sections": [
+            {
+              "section": 1,
+              "label": "lie-ix-s1",
+              "dir": "s1",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 2,
+              "label": "lie-ix-s2",
+              "dir": "s2",
+              "count": 11,
+              "first": 1,
+              "last": 11
+            },
+            {
+              "section": 3,
+              "label": "lie-ix-s3",
+              "dir": "s3",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 4,
+              "label": "lie-ix-s4",
+              "dir": "s4",
+              "count": 22,
+              "first": 1,
+              "last": 22
+            },
+            {
+              "section": 5,
+              "label": "lie-ix-s5",
+              "dir": "s5",
+              "count": 5,
+              "first": 1,
+              "last": 5
+            },
+            {
+              "section": 6,
+              "label": "lie-ix-s6",
+              "dir": "s6",
+              "count": 13,
+              "first": 1,
+              "last": 13
+            },
+            {
+              "section": 7,
+              "label": "lie-ix-s7",
+              "dir": "s7",
+              "count": 8,
+              "first": 1,
+              "last": 8
+            },
+            {
+              "section": 8,
+              "label": "lie-ix-s8",
+              "dir": "s8",
+              "count": 6,
+              "first": 1,
+              "last": 6
+            },
+            {
+              "section": 9,
+              "label": "lie-ix-s9",
+              "dir": "s9",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 1,
+              "appendix": true,
+              "label": "lie-ix-a1",
+              "dir": "a1",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            }
+          ]
+        }
+      ]
     }
   ]
 }
