@@ -20,7 +20,7 @@ subsections:
       page: 20
       pdf_page: 132
     - "no": 3
-      title: '**Existence et unicité des $ p $-anneaux'
+      title: Existence et unicité des $ p $-anneaux
       page: 22
       pdf_page: 134
     - "no": 4
@@ -33,7 +33,7 @@ subsections:
       pdf_page: 138
 statements: 30
 exercises: 17
-content_sha256: 400f3f274d99f3248a9381f62b9b4026ef5c39b8e11dc6a1bb667c1a17c72808
+content_sha256: 8cccf52b4866f80ab79511d410af2fdde6242374acca31f9afd7c657d720bc30
 ---
 
 ## § 2. ANNEAUX DE COHEN
@@ -200,7 +200,7 @@ Soit $ A' $ un sous-anneau fermé de $ A $, contenant $ S $ et tel que $ A' + m_
 
 Supposons que $ p1_A $ ne soit pas nilpotent (ceci a lieu en particulier lorsque $ A $ est un anneau intègre dont le corps des fractions est de caractéristique 0). Alors $ C $ est un anneau de valuation discrète dont le corps des fractions est de caractéristique 0.
 
-### 3. **Existence et unicité des $ p $-anneaux
+### 3. Existence et unicité des $ p $-anneaux
 
 #### Proposition 4 {#ac-ix-s2-prop-4 .statement}
 

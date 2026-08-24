@@ -5835,7 +5835,7 @@ books:
               statements: 30
               exercises: 17
               extraction: ocr
-              content_sha256: 400f3f274d99f3248a9381f62b9b4026ef5c39b8e11dc6a1bb667c1a17c72808
+              content_sha256: 8cccf52b4866f80ab79511d410af2fdde6242374acca31f9afd7c657d720bc30
             - kind: section
               section: 3
               title: Corps de représentants
