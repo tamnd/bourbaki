@@ -50,10 +50,10 @@ subsections:
       pdf_page: 160
 statements: 38
 exercises: 5
-content_sha256: bc373f082fe4e21c8a775fa42253be35d028ffe70fe1740facb1561ce463240c
+content_sha256: b58c330177fd6569c4392844e95d41f6c614e8bf0d0df2106b74108f8760a8be
 translated_from: content/en/alg/V/07_s7_separable_algebraic_extensions.md
-source_content_sha256: 6a1e194beb6491068e8402aa0b896f006bcab263c6ed8066c487c9e85dadddc0
-translation_model: gpt-5.4
+source_content_sha256: 5aa05da3a383afbbc0ff09ac77e72873f9e34a13a6ee239fe6fd376ee0c0b6b8
+translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-93c80b86
 glossary_version: 34
 glossary_terms_sha256: cfd873d1a31f0683cb9f6ea7934bf0fe690991a8f19cbb546fb1683b75ecbacb
@@ -328,29 +328,29 @@ Cuối cùng c) suy ra từ a), b) và Mệnh đề 12.
 
 — Cho E và K' là hai mở rộng của K được chứa trong cùng một mở rộng của K. Giả sử rằng E là đại số trên K và ký hiệu E, là bao đóng đại số tách được tương đối của K trong E. Khi đó $ K'(E_s) $ là bao đóng đại số tách được tương đối của K' trong $ K'(E) $.
 
-Vì $ K'(E_s) $ là một mở rộng đại số tách được của K' theo Mệnh đề 10 (V, p. 42); vì E là p-căn trên E,, nên mở rộng $ K'(E) $ của $ K'(E_s) $ là p-căn (V, p. 25, Hệ quả). Khi đó chỉ cần áp dụng Mệnh đề 13.
+Vì $ K'(E_s) $ là một mở rộng đại số tách được của K' theo Mệnh đề 10 (V, p. 42); vì E là p-căn trên E,, mở rộng $ K'(E) $ của $ K'(E_s) $ là p-căn (V, p. 25, Hệ quả). Bây giờ chỉ cần áp dụng Mệnh đề 13.
 
 #### Hệ quả 2 {#alg-v-s7-prop-13-cor-2 .statement}
 
 — Nếu E có bậc hữu hạn trên K, thì $ E_s = \bigcap_{n \geq 0} K(E^{p^n}) $.
 
-Với mỗi số nguyên $ n \geq 0 $, ký hiệu bởi F, mở rộng con $ K(E^{p^n}) $ của E. Dãy $ (F_n)_{n \geq 0} $ các không gian vectơ con của E là giảm và E có số chiều hữu hạn trên K. Do đó tồn tại một số nguyên $ m \geq 0 $ sao cho $ F_m = F_n $ với mọi $ n \geq m $. Vì thế ta có $ K(F_m^p) = F_{m+1} = F_m $, nên $ F_m $ là một mở rộng tách được của K (V, p. 42, Mệnh đề 11); hiển nhiên E là p-căn trên F, và do đó Mệnh đề 13 suy ra $ E_s = F_m = \bigcap_{n \geq 0} F_n $.
+Với mỗi số nguyên $ n \geq 0 $ ký hiệu F, là mở rộng con $ K(E^{p^n}) $ của E. Dãy $ (F_n)_{n \geq 0} $ các không gian con vectơ của E là giảm và E có số chiều hữu hạn trên K. Do đó tồn tại một số nguyên $ m \geq 0 $ sao cho $ F_m = F_n $ với mọi $ n \geq m $. Vì vậy ta có $ K(F_m^p) = F_{m+1} = F_m $, do đó $ F_m $ là một mở rộng tách được của K (V, p. 42, Mệnh đề 11); hiển nhiên rằng E là p-căn trên F,, và vì thế Mệnh đề 13 suy ra $ E_s = F_m = \bigcap_{n \geq 0} F_n $.
 
 #### Nhận xét {#alg-v-s7-n7-rem-1 .statement}
 
-— Cho E là một mở rộng đại số của K và E, là bao đóng p-căn tương đối của E trong K (V, p. 25). Khi đó E, là mở rộng con lớn nhất của E mà p-căn trên K (V, p. 25, Mệnh đề 2). Tuy nhiên, nói chung E không tách được trên E, (V, p. 152, Ex. 2); với trường hợp các mở rộng quasi-Galois, xem V, p. 76.
+Cho E là một mở rộng đại số của K và E, là bao đóng p-căn tương đối của E trong K (V, p. 25). Khi đó E, là mở rộng con lớn nhất của E mà p-căn trên K (V, p. 25, Mệnh đề 2). Tuy nhiên, nói chung E không tách được trên E, (V, p. 152, Bài tập 2); về trường hợp các mở rộng quasi-Galois xem V, p. 76.
 
 ### 8. Bao đóng tách được của một trường
 
 #### Định nghĩa 4 {#alg-v-s7-def-4 .statement}
 
-— *Một trường K được gọi là đóng tách được nếu mọi mở rộng đại số tách được của K đều tầm thường.*
+— *Một trường K được gọi là đóng tách được nếu mọi mở rộng đại số tách được của K là tầm thường.*
 
-Một trường đóng đại số là đóng tách được. Ngược lại, nếu một trường hoàn hảo K là đóng tách được thì nó đóng đại số, bởi vì mọi mở rộng đại số của K đều tách được (*V*, p. 3 , Mệnh đề 2).
+Một trường đóng đại số là đóng tách được. Ngược lại, nếu một trường hoàn hảo K là đóng tách được, thì nó là đóng đại số, bởi vì mọi mở rộng đại số của K đều là tách được (*V*, p. 3 , Mệnh đề 2).
 
 #### Định nghĩa 5 {#alg-v-s7-def-5 .statement}
 
-— *Cho K là một trường. Ta hiểu bao đóng đại số tách được, hoặc (do lạm dụng ngôn ngữ) bao đóng tách được của K, là mọi mở rộng E của K mà đại số và tách được trên K, và sao cho trường E là đóng tách được.*
+— *Cho K là một trường. Ta hiểu một bao đóng đại số tách được, hoặc (do lạm dụng ngôn ngữ) bao đóng tách được của K, là mọi mở rộng E của K là đại số và tách được trên K, và sao cho trường E là đóng tách được.*
 
 Khi K là hoàn hảo, có sự đồng nhất hoàn toàn giữa các khái niệm bao đóng tách được và bao đóng đại số của K (*V*, p. 36, Mệnh đề 2 và p. 43, Hệ quả 1).
 
@@ -360,7 +360,7 @@ Khi K là hoàn hảo, có sự đồng nhất hoàn toàn giữa các khái ni�
 
 a) *Bao đóng đại số tách được tương đối Ω_s của K trong Ω là một bao đóng tách được của K.*
 
-b) *Nếu E và E' là hai bao đóng tách được của K, thì tồn tại một K-đẳng cấu từ E lên E'._
+b) *Nếu E và E' là hai bao đóng tách được của K, tồn tại một K-đẳng cấu của E lên E'._*
 
 Cho F là một mở rộng đại số tách được của Ω_s ; vì Ω đóng đại số, tồn tại một 0,-đồng cấu u của F vào Ω (*V*, p. 20, Th. 1). Theo Mệnh đề 9 (V, p. 42), $ u(F) $ tách được trên K, do đó $ u(F) = \Omega_s $. Vậy F là một mở rộng tầm thường của $ \Omega_s $ và do đó $ \Omega_s $ đóng tách được, suy ra *a)*.
 
@@ -370,22 +370,22 @@ Cho E là một bao đóng tách được của K. Vì E là một mở rộng �
 
 — *Cho E là một mở rộng đóng tách được của K và F là một mở rộng đại số tách được của K ; khi đó tồn tại một K-đồng cấu của F vào E.*
 
-Cho Ω là một bao đóng đại số của E ; ta có $ \Omega_s \subset E $ và chỉ cần xét trường hợp $ E = \Omega_s $. Vì F là một mở rộng đại số của K, tồn tại một K-đồng cấu u từ F vào Ω (*V*, p. 20, Th. 1). Vì trường $ u(F) $ là tách được trên K, nên ta có $ u(F) \subset \Omega_s $ và u xác định một K-đồng cấu từ F vào $ \Omega_s = E $.
+Cho Ω là một bao đóng đại số của E ; ta có $ \Omega_s \subset E $ và chỉ cần xét trường hợp $ E = \Omega_s $. Vì F là một mở rộng đại số của K, tồn tại một K-đồng cấu u của F vào Ω (*V*, p. 20, Th. 1). Vì trường $ u(F) $ là tách được trên K, ta có $ u(F) \subset \Omega_s $ và u xác định một K-đồng cấu của F vào $ \Omega_s = E $.
 
-#### Nhận xét {#alg-v-s7-n8-rem-1 .statement}
+#### Nhận xét 1 {#alg-v-s7-n8-rem-1 .statement}
 
-— 1) Cho E và E' là hai bao đóng tách được của K. Nếu K không đóng tách được, thì tồn tại nhiều K-đẳng cấu từ E lên E'. \* Thật vậy khi đó E là một mở rộng Galois không tầm thường của K, và do đó tồn tại các K-tự đồng cấu của E phân biệt với đồng nhất (*V*, p. 56, Th. 1).
-\* 2) Cho E là một mở rộng đại số và tách được của K. Nếu mọi mở rộng đại số và tách được của K đều đẳng cấu với một mở rộng con của E, thì E là một bao đóng tách được của K. Thật vậy, nếu E' là một bao đóng tách được của K, thì mỗi mở rộng E và E' đều đẳng cấu với một mở rộng con của mở rộng kia; bởi vậy E và E' là các mở rộng của K đẳng cấu (V, p. 52, Prop. 1, a)).
+Cho E và E' là hai bao đóng tách được của K. Nếu K không đóng tách được, tồn tại nhiều K-đẳng cấu của E lên E'. \* Vì khi đó E là một mở rộng Galois không tầm thường của K, và do đó tồn tại các K-tự đồng cấu của E phân biệt với đồng nhất (*V*, p. 56, Th. 1).
+\* 2) Cho E là một mở rộng đại số và tách được của K. Nếu mọi mở rộng đại số và tách được của K đều đẳng cấu với một mở rộng con của E, thì E là một bao đóng tách được của K. Thật vậy, nếu E' là một bao đóng tách được của K, thì mỗi một trong các mở rộng E và E' đều đẳng cấu với một mở rộng con của mở rộng kia; do đó E và E' là các mở rộng đẳng cấu của K (V, p. 52, Prop. 1, a)).
 
-### 9. Bậc tách được và bậc không tách được của một mở rộng bậc hữu hạn
+### 9. Bậc tách được và bậc không tách được của một mở rộng có bậc hữu hạn
 
-Cho E là một mở rộng bậc hữu hạn của K và $ \Omega $ là một bao đóng đại số của K. Nhắc lại (V, p. 31) rằng *bậc tách được* của E trên K, ký hiệu là $[E : K]_s$, được hiểu là số các K-đồng cấu từ E vào $ \Omega $.
+Cho E là một mở rộng có bậc hữu hạn của K và $ \Omega $ là một bao đóng đại số của K. Nhắc lại (V, p. 31) rằng theo *bậc tách được* của E trên K, ký hiệu $[E : K]_s$, ta hiểu số các K-đồng cấu của E vào $ \Omega $.
 
 #### Mệnh đề 15 {#alg-v-s7-prop-15 .statement}
 
 *Cho E, là bao đóng tách được tương đối của K trong E; khi đó* $[E : K]_s = [E_s : K]$.
 
-Trường $ \Omega $ là hoàn hảo và E là p-căn trên $ E_s $, theo V, p. 44, Prop. 13; vì thế Mệnh đề 3 (V, p. 26) cho thấy rằng mọi K-đồng cấu từ E, vào $ \Omega $ đều được mở rộng theo một cách duy nhất thành một K-đồng cấu từ E vào $ \Omega $; do đó ta có $[E : K]_s = [E_s : K]$. Vì E, là một mở rộng tách được bậc hữu hạn của K, nên nó là một K-đại số etale; do đó ta có $[E_s : K]_s = [E_s : K]$ theo V, p. 32, Prop. 4, và kết quả suy ra.
+Trường $ \Omega $ là hoàn hảo và E là p-căn trên $ E_s $, theo V, p. 44, Prop. 13; do đó Prop. 3 (V, p. 26) chỉ ra rằng mọi K-đồng cấu của E, vào $ \Omega $ đều mở rộng một cách duy nhất thành một K-đồng cấu của E vào $ \Omega $; vì vậy ta có $[E : K]_s = [E_s : K]$. Vì E, là một mở rộng tách được có bậc hữu hạn của K, nó là một đại số etale trên K; do đó ta có $[E_s : K]_s = [E_s : K]$ theo V, p. 32, Prop. 4, và kết quả được suy ra.
 
 Với ký hiệu trên, bậc của E trên $ E_s $ được gọi là *bậc không khả phân* của E trên K và được ký hiệu bởi $[E : K]_i$. Do đó ta có
 

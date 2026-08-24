@@ -23,39 +23,43 @@ subsections:
       title: Criteria for surjectivity
       page: 31
       pdf_page: 213
-statements: 11
+statements: 13
 exercises: 23
-content_sha256: dbaf098b80ff6cb4bfd70f3e6e66e17d07dc84ba83e3f2b71e09f824ba64c14c
+content_sha256: 2fbb2e5d8931e4f85b7551b5266a2facc6ccc8d93aabc4ac8f01696336aa4176
 translated_from: content/en/evt/IV/04_s4_strict_morphisms_of_frechet_spaces.md
-source_content_sha256: 4172f6a84d2ca7073e01bf8876e21035e49efc30aaac18bd4884c0dc7ab18f09
-translation_model: gpt-5.4
+source_content_sha256: ee7bac2fa753fe7a6791836b1a168ccf5ae5fd35fde5fae49d7437cb6a0f2add
+translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-8fdd1692
 glossary_version: 34
 glossary_terms_sha256: dcf42480b4f4ae03b041048ac327a883649f476545919c46882ece0b74f63708
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## § 4. CẤU XẠ NGẶT CỦA CÁC KHÔNG GIAN FRÉCHET
+## § 4. CÁC CẤU XẠ NGẶT CỦA CÁC KHÔNG GIAN FRÉCHET
 
-Với mọi không gian lồi địa phương E, ký hiệu S(E) là tập hợp tất cả các nửa chuẩn liên tục trên E. Với mọi $ p \in S(E) $, ký hiệu $ H_p $ là tập hợp tất cả các dạng tuyến tính f trên E sao cho $ |f| \leqslant p $. Họ $ (H_p)_{p \in S(E)} $ là một cơ sở của bornology gồm các tập con đồng liên tục của $ E' $.
+Đối với mọi không gian lồi địa phương E, ký hiệu S(E) là tập hợp tất cả các nửa chuẩn liên tục trên E. Đối với mọi $ p \in S(E) $, ký hiệu $ H_p $ là tập hợp tất cả các dạng tuyến tính f trên E sao cho $ |f| \leqslant p $. Họ $ (H_p)_{p \in S(E)} $ là một cơ sở cho bornology gồm các tập con liên tục đều của $ E' $.
 
-### 1. Các đặc trưng của cấu xạ ngặt
+### 1. Các đặc trưng của các cấu xạ ngặt
 
-Mệnh đề 1. — Cho E và F là hai không gian lồi địa phương và u là một ánh xạ tuyến tính liên tục từ E vào F. Để u là một cấu xạ ngặt, điều kiện cần và đủ là điều kiện sau được thỏa mãn:
+#### Mệnh đề 1 {#evt-iv-s4-prop-1 .statement}
 
-(MS) Với mọi nửa chuẩn $ p \in S(E) $, triệt tiêu trên hạt nhân của u, tồn tại q trong S(F) sao cho $ p \leq q \circ u $.
+Cho E và F là hai không gian lồi địa phương và u là một ánh xạ tuyến tính liên tục từ E vào F. Để u là một cấu xạ ngặt, điều kiện cần và đủ là điều kiện sau được thỏa mãn:
 
-Gọi N là hạt nhân và M là ảnh của u; ta xét phân tích chính tắc của u, đặt
+(MS) Đối với mọi nửa chuẩn $ p \in S(E) $, triệt tiêu trên hạt nhân của u, tồn tại q trong S(F) sao cho $ p \leq q \circ u $.
+
+Gọi N là hạt nhân và M là ảnh của u; ta đưa vào phân tích chính tắc của u, đặt
 
 $$
 E \xrightarrow{\pi} E/N \xrightarrow{\tilde{u}} M \xrightarrow{} F .
 $$
 
-Các nửa chuẩn liên tục trên E triệt tiêu trên N là các nửa chuẩn $ p_1 \circ \pi $ khi $ p_1 $ chạy qua S(E/N); tương tự, S(M) gồm các nửa chuẩn $ q_1 $ sao cho tồn tại $ q \in S(F) $ với $ q_1 \leq q/F $. Cuối cùng, u là một cấu xạ ngặt khi và chỉ khi ánh xạ tuyến tính liên tục song ánh $ \tilde{u} $ có ánh xạ nghịch đảo liên tục; điều đó cũng có nghĩa là mọi nửa chuẩn trong S(E/N) đều có dạng $ q_1 \circ \tilde{u} $ với $ q_1 $ thuộc S(M). Mệnh đề 1 suy ra ngay lập tức từ các nhận xét này.
+Các nửa chuẩn liên tục trên E triệt tiêu trên N là các nửa chuẩn $ p_1 \circ \pi $ trong đó $ p_1 $ chạy trên S(E/N); tương tự S(M) gồm các nửa chuẩn $ q_1 $ sao cho tồn tại $ q \in S(F) $ với $ q_1 \leq q/F $. Cuối cùng, u là một cấu xạ ngặt khi và chỉ khi ánh xạ tuyến tính liên tục song ánh $ \tilde{u} $ có ánh xạ nghịch đảo liên tục; điều này cũng có nghĩa là mọi nửa chuẩn trong S(E/N) đều có dạng $ q_1 \circ \tilde{u} $ với $ q_1 $ trong S(M). Mệnh đề 1 suy ra ngay lập tức từ các nhận xét này.
 
-Mệnh đề 2. — Cho E và F là hai không gian lồi địa phương Hausdorff và u là một ánh xạ tuyến tính liên tục từ E vào F. Để u là một cấu xạ ngặt, điều kiện cần và đủ là chuyển vị của nó $ ^t u : F' \to E' $ thỏa mãn các điều kiện sau:
+#### Mệnh đề 2 {#evt-iv-s4-prop-2 .statement}
 
-a) Ảnh của $ ^t u $ đóng trong $ E' $ đối với $ \sigma(E', E) $.
+Cho E và F là hai không gian lồi địa phương Hausdorff và u là một ánh xạ tuyến tính liên tục từ E vào F. Để u là một cấu xạ ngặt, điều kiện cần và đủ là chuyển vị của nó $ ^t u : F' \to E' $ thỏa mãn các điều kiện sau:
+
+a) Ảnh của $ ^t u $ là đóng trong $ E' $ đối với $ \sigma(E', E) $.
 
 b) Mọi tập con đồng liên tục của $ E' $, được chứa trong ảnh của $ ^t u $ đều là ảnh bởi $ ^t u $ của một tập con đồng liên tục của $ F' $.
 
