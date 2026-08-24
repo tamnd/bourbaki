@@ -10,7 +10,7 @@ source: alg-viii
 source_edition: 2023, Springer Nature
 book_pages: A VIII.361-A VIII.371
 pdf_pages: 0378-0388
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: General Properties of Quaternion Algebras
@@ -32,13 +32,13 @@ subsections:
       title: Algebras over Maximal Ordered Fields
       page: 367
       pdf_page: 384
-statements: 16
+statements: 15
 exercises: 8
-content_sha256: 468b416f21fef7c43e44ab86fe6566124db981e0554c7ebe6a7421e86409554a
+content_sha256: d6524737872c1724f283deef2fab5b61f0bc918f9ea29871a28efa0c5b44218e
 translated_from: content/en/alg/VIII/19_s19_quaternion_algebras.md
-source_content_sha256: 29c7745ce44d10980513b080b27eb063e43ebe7bda18a9a407a496a816099f84
+source_content_sha256: 7d5168aa99b2f2acfbd469aef4e8669772350919e3f7d08311840c372b1c826b
 translation_model: gpt-5.4
-translation_run: translate-vi-74c08a00
+translation_run: translate-vi-bb913a9e
 glossary_version: 34
 glossary_terms_sha256: 7a2070c1f12ce35bba4f185e4042235ff114105974985e96a2bdf576c949ebc1
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
@@ -154,55 +154,52 @@ Cho $\alpha ,\beta ,\gamma$ là các phần tử của K, và cho $f$ là một 
 
 Giả sử rằng các tính chất này đúng. Khi đó với mọi $x$ trong F, đa thức đặc trưng rút gọn của $x$ là $X^2-T_F(x)X + N_F(x)$. Đặc biệt, $T_F(x)$ là vết rút gọn của $x$, và $N_F(x)$ là chuẩn rút gọn của nó.
 
-(i)$\Rightarrow$(ii): Nếu đại số F là đơn tâm, thì theo Mệnh đề 1 của VIII, p. 361 và định nghĩa của vết rút gọn (VIII, p. 340, Định nghĩa 2), suy ra $T_F$ là vết rút gọn của nó; mệnh đề (ii) suy ra được (VIII, p. 343, Mệnh đề 5).
+(i)⇒(ii): Nếu đại số F là đơn tâm, thì theo Mệnh đề 1 của VIII, p. 361 và định nghĩa của vết rút gọn (VIII, p. 340, Định nghĩa 2), suy ra rằng $ T_F $ là vết rút gọn của nó; mệnh đề (ii) suy ra được (VIII, p. 343, Mệnh đề 5).
 
-(ii)$\Leftrightarrow$(iii): Cho $(e_i)_{1\leqslant i\leqslant 4}$ là một cơ sở của F kiểu $(\alpha , \beta , \gamma )$ (III, §2, No. 5, p. 445). Ma trận $(T_F(e_ie_j))$ bằng
+(ii)⇔(iii): Cho $ (e_i)_{1 \leq i \leq 4} $ là một cơ sở của F kiểu $ (\alpha, \beta, \gamma) $ (III, §2, No. 5, p. 445). Ma trận $ (T_F(e_i e_j)) $ bằng
 
-2 $\beta$ 0 0
+$$
+\begin{pmatrix}
+2 & \beta & 0 & 0 \\
+\beta & 2\alpha + \beta^2 & 0 & 0 \\
+0 & 0 & 2\gamma & \beta\gamma \\
+0 & 0 & \beta\gamma & -2\alpha\gamma
+\end{pmatrix}.
+$$
 
-$\beta 2\alpha +\beta^2$ 0 0
+Định thức của nó là $ -\gamma^2 (4\alpha + \beta^2)^2 $. Tính tương đương của các tính chất (ii) và (iii) suy ra từ V, §8, No. 2, p. 49, Bổ đề 1.
 
-.
-
-0 0 $2\gamma \beta \gamma$
-
-0 0 $\beta \gamma -2\alpha \gamma$
-
-Định thức của nó là $-\gamma^2(4\alpha +\beta^2)^2$. Sự tương đương của các tính chất (ii) và (iii) suy ra từ V, §8, No. 2, p. 49, Bổ đề 1.
-
-(iii)$\Rightarrow$(i): Giả sử $(4\alpha +\beta^2)\gamma \not= 0$. Khi đó ta có $\gamma \not= 0$, và ta có $\beta \not= 0$ nếu K có đặc số 2. Theo Mệnh đề 2, đại số F là trung tâm. Gọi $x$ là một phần tử của căn Jacobson của F. Với mọi $y\in F,xy$ là lũy linh, nên $T_F(xy) = 0$ (Nhận xét 3 của VIII, p. 362). Vì (ii) tương đương với (iii), suy ra $x= 0$. Điều này chứng tỏ F là một đại số nửa đơn trên K. Vì tâm của nó là K, nó là đơn.
+(iii)⇒(i): Giả sử $ (4\alpha + \beta^2)\gamma \neq 0 $. Khi đó ta có $ \gamma \neq 0 $, và ta có $ \beta \neq 0 $ nếu K có đặc số 2. Theo Mệnh đề 2, đại số F là trung tâm. Gọi x là một phần tử của căn Jacobson của F. Với mọi $ y \in F $, $ xy $ là lũy linh, nên $ T_F(xy) = 0 $ (Nhận xét 3 của VIII, p. 362). Vì (ii) tương đương với (iii), ta có $ x = 0 $. Điều này chứng tỏ rằng F là một đại số trên K nửa đơn. Vì tâm của nó là K, nó là đơn.
 
 Khẳng định cuối cùng suy ra từ Mệnh đề 1 của VIII, p. 361 và định nghĩa của đa thức đặc trưng rút gọn (VIII, p. 340, Định nghĩa 1).
 
-Ký hiệu đặc số của K là $p$. Theo Mệnh đề 3, nếu $p\not= 2$, thì mọi đại số quaternion trên K kiểu $(\alpha ,0, \gamma )$ với $\alpha$ và $\gamma$ thuộc $K^*$ đều là đơn tâm. Nếu $p= 2$, thì mọi đại số quaternion kiểu $(\alpha ,1, \gamma )$ với $\alpha \in K$ và $\gamma \in K^*$ đều là đơn tâm. Ngược lại, ta có điều sau đây.
+Ký hiệu đặc số của K là p. Theo Mệnh đề 3, nếu $ p \neq 2 $, thì mọi đại số quaternion trên K thuộc kiểu $ (\alpha, 0, \gamma) $ với $ \alpha $ và $ \gamma $ trong $ K^* $ đều là đơn tâm. Nếu $ p = 2 $, thì mọi đại số quaternion thuộc kiểu $ (\alpha, 1, \gamma) $ với $ \alpha \in K $ và $ \gamma \in K^* $ đều là đơn tâm. Ngược lại, ta có điều sau đây.
 
-#### Mệnh đề 4 {#alg-viii-s19-prop-4 .statement tag=00LX}
+Mệnh đề 4. — *Cho A là một đại số đơn tâm bậc 4 trên K. Ký hiệu đặc số của K là p.*
 
-Cho A là một đại số đơn tâm bậc 4 trên K. Ký hiệu đặc số của K là $p$.
+a) *Nếu $ p \neq 2 $, thì tồn tại các phần tử khác không $ \alpha $ và $ \gamma $ của K sao cho đại số A đẳng cấu với đại số quaternion thuộc kiểu $ (\alpha, 0, \gamma) $.*
 
-a) Nếu $p\not= 2$, thì tồn tại các phần tử khác không $\alpha$ và $\gamma$ của K sao cho đại số A đẳng cấu với đại số quaternion kiểu $(\alpha ,0, \gamma )$.
+b) *Nếu $ p = 2 $, thì tồn tại một phần tử $ \alpha $ của K và một phần tử $ \gamma $ của $ K^* $ sao cho đại số A đẳng cấu với đại số quaternion kiểu $ (\alpha, 1, \gamma) $.*
 
-b) Nếu $p= 2$, thì tồn tại một phần tử $\alpha$ của K và một phần tử $\gamma$ của $K^*$ sao cho đại số A đẳng cấu với đại số quaternion kiểu $(\alpha ,1, \gamma )$.
-
-Theo định lý của Wedderburn (VIII, p. 120, Định lý 1), tồn tại một số nguyên $r\geqslant 1$ và một trường D có tâm K sao cho A đẳng cấu với $\mathbf{M}_r(D)$. Khi đó ta có $r^2[D : K] = [A : K] = 4$. Nếu $r= 2$, thì A đẳng cấu với $\mathbf{M}_2$(K), và Mệnh đề 4 suy ra từ ví dụ ở VIII, p. 362. Nếu không, ta có $r= 1$, và A là một trường có tâm K. Khi đó nó có một trường con giao hoán cực đại E là một mở rộng tách được của K; vì A có bậc 4 trên K, nên mở rộng E có bậc 2 trên K (VIII, p. 265, Hệ quả 2). Do đó nó là bậc hai (III, §2, No. 3, p. 439). Gọi $s$ là phép liên hợp của E (III, §2, No. 3, p. 440). Theo định lý Skolem–Noether (VIII, p. 256, Hệ quả 1), tồn tại một phần tử khả nghịch $j$ của A sao cho ta có $s(x) =jxj^{-1}$ với mọi $x$ trong E. Trường E là tách được trên K, nên ta có $s\not=$ Id$_E$, do đó $j \notin E$. Vì A là một không gian vectơ chiều 4 trên K, nên nó là một không gian vectơ trái chiều 2 trên E, do đó ta có $A = E\oplus Ej$. Ta có $s^2=$ Id$_E$, nên phần tử $j^2$ của A thuộc tâm của A; do đó tồn tại một phần tử $\gamma$ của $K^*$ sao cho $j^2=\gamma$.
+Theo định lý Wedderburn (VIII, p. 120, Định lý 1), tồn tại một số nguyên $ r \geq 1 $ và một trường D có tâm là K sao cho A đẳng cấu với $ \mathbf{M}_r(D) $. Khi đó ta có $ r^2[D : K] = [A : K] = 4 $. Nếu $ r = 2 $, thì A đẳng cấu với $ \mathbf{M}_2(K) $, và Mệnh đề 4 suy ra từ ví dụ ở VIII, p. 362. Nếu không, ta có $ r = 1 $, và A là một trường có tâm là K. Khi đó nó có một trường con giao hoán cực đại E là một mở rộng tách được của K; vì A có bậc 4 trên K, nên mở rộng E có bậc 2 trên K (VIII, p. 265, Hệ quả 2). Do đó nó là bậc hai (III, §2, No. 3, p. 439). Gọi $s$ là phép liên hợp của E (III, §2, No. 3, p. 440). Theo định lý Skolem–Noether (VIII, p. 256, Hệ quả 1), tồn tại một phần tử khả nghịch $j$ của A sao cho ta có $s(x) =jxj^{-1}$ với mọi $x$ trong E. Trường E là tách được trên K, nên ta có $s\not=$ Id$_E$, do đó $j \notin E$. Vì A là một không gian vectơ chiều 4 trên K, nên nó là một không gian vectơ trái chiều 2 trên E, do đó ta có $A = E\oplus Ej$. Ta có $s^2=$ Id$_E$, nên phần tử $j^2$ của A thuộc tâm của A; vì thế tồn tại một phần tử $\gamma$ của $K^*$ sao cho $j^2=\gamma$.
 
 Khi $p\not= 2$, tồn tại một phần tử $i$ của E và một phần tử $\alpha \in K^*$ sao cho $E = K(i)$ và $i^2=\alpha$ (V, §11, No. 9, p. 93, Ví dụ 3); trong trường hợp này, A đẳng cấu với đại số quaternion kiểu $(\alpha ,0, \gamma )$. Khi $p= 2$, tồn tại một phần tử $i$ của E và một phần tử $\alpha$ của K sao cho $E = K(i)$ và $i^2=i+\alpha$ (V, §11, No. 9, p. 93, Ví dụ 2), do đó A đẳng cấu với đại số quaternion kiểu $(\alpha ,1, \gamma )$.
 
-#### Hệ quả 1 {#alg-viii-s19-prop-4-cor-1 .statement tag=00LY}
+#### Hệ quả 1 {#alg-viii-s19-prop-3-cor-1 .statement}
 
-Cho A là một đại số đơn tâm trên K có bậc hữu hạn $>1$ mà mọi phần tử đều đại số trên K với bậc $\leqslant 2$. Khi đó A đẳng cấu với một đại số quaternion trên K.
+Cho A là một đại số đơn tâm trên K có bậc hữu hạn $>1$ mà mọi phần tử đều đại số bậc $\leqslant 2$ trên K. Khi đó A đẳng cấu với một đại số quaternion trên K.
 
-Nếu K là hữu hạn, thì đại số A đẳng cấu với một đại số ma trận $\mathbf{M}_n(K)$ (VIII, p. 357, Hệ quả 2) và do đó chứa các phần tử bậc $n$ trên K; giả thiết suy ra $n= 2$ và do đó cho kết quả trong trường hợp này (VIII, p. 362, Ví dụ). Giả sử trường K là vô hạn. Gọi L là một dưới đại số étale cực đại của A. Theo V, §7, No. 4, p. 41, Mệnh đề 7, tồn tại một phần tử $x$ của A sao cho đại số trên K L bằng $K[x]$, do đó theo giả thiết có bậc $\leqslant 2$. Vì ta có $[A : K] = [L : K]^2$ (VIII, p. 264, Mệnh đề 4 and p. 262, Mệnh đề 3), ta kết luận rằng [A : K] = 4. Khi đó Hệ quả 1 suy ra từ Mệnh đề 4.
+Nếu K là hữu hạn, thì đại số A đẳng cấu với một đại số ma trận $\mathbf{M}_n(K)$ (VIII, p. 357, Hệ quả 2) và do đó chứa các phần tử có bậc $n$ trên K; giả thiết kéo theo $n= 2$ và do đó cho kết quả trong trường hợp này (VIII, p. 362, Ví dụ). Giả sử trường K là vô hạn. Gọi L là một đại số con étale cực đại của A. Theo V, §7, No. 4, p. 41, Mệnh đề 7, tồn tại một phần tử $x$ của A sao cho đại số trên K L bằng $K[x]$, vì thế theo giả thiết có bậc $\leqslant 2$. Vì ta có $[A : K] = [L : K]^2$ (VIII, p. 264, Mệnh đề 4 và p. 262, Mệnh đề 3), ta kết luận rằng [A : K] = 4. Khi đó Hệ quả 1 suy ra từ Mệnh đề 4.
 
-#### Hệ quả 2 {#alg-viii-s19-prop-4-cor-2 .statement tag=00LZ}
+#### Hệ quả 2 {#alg-viii-s19-prop-3-cor-2 .statement}
 
 Cho $(E, s)$ là một đại số Cayley trên K sao cho đại số trên K E là đơn tâm bậc hữu hạn $>1$ trên K. Khi đó E đẳng cấu với một đại số quaternion trên K.
 
-Mọi phần tử $u$ của E đều thỏa mãn $u^2-T_E(u)u+ N_E(u) = 0$, do đó đại số trên K E đẳng cấu với một đại số quaternion (Hệ quả 1).
+Mọi phần tử $u$ của E đều thỏa mãn $u^2-T_E(u)u+ N_E(u) = 0$, nên đại số trên K E đẳng cấu với một đại số quaternion (Hệ quả 1).
 
-### 4. Các tiêu chuẩn để một Đại số Quaternion là một Trường
+### 4. Các tiêu chuẩn để một đại số quaternion là một trường
 
-Cho $\alpha , \beta , \gamma$ là các phần tử của trường K, và F là đại số quaternion kiểu $(\alpha , \beta , \gamma )$. Như trong No.1, ta ký hiệu cơ sở chính tắc của F là $(1, i, j, k)$ và đại số con $K + Ki$ của F là E.
+Cho $\alpha , \beta , \gamma$ là các phần tử của trường K, và gọi F là đại số quaternion kiểu $(\alpha , \beta , \gamma )$. Như trong No.1, ta ký hiệu cơ sở chính tắc của F là $(1, i, j, k)$ và đại số con $K + Ki$ của F là E.
 
 #### Mệnh đề 5 {#alg-viii-s19-prop-5 .statement tag=00M0}
 
@@ -228,47 +225,47 @@ $$
 
 (vi) Đại số bậc hai E là một trường, và $\gamma$ không phải là chuẩn của một phần tử của E.
 
-Một phần tử $q$ của F là khả nghịch khi và chỉ khi $N_F(q)$ khác 0. Do đó tính tương đương của (i) và (iv) suy ra từ công thức (31) của III, §2, No. 5, p. 445; hiển nhiên là (i) kéo theo (iii) và (iv) kéo theo (v).
+Một phần tử $q$ của F là khả nghịch nếu và chỉ nếu $N_F(q)$ khác 0. Do đó tính tương đương của (i) và (iv) suy ra từ công thức (31) của III, §2, No. 5, p. 445; hiển nhiên là (i) kéo theo (iii) và (iv) kéo theo (v).
 
 Tính tương đương của (ii) và (iii) suy ra từ Nhận xét 3 của VIII, p. 362.
 
-Giả sử F không phải là một trường. Nếu $\gamma (4\alpha +\beta^2)\not= 0$, thì đại số F là đơn tâm bậc 4 trên K; nó đẳng cấu với đại số $\mathbf{M}_2(K)$ (VIII, p. 120, Định lý 1) và do đó chứa một phần tử khác không có bình phương bằng không. Nếu $\gamma = 0$, thì ta có $j^2= 0$. Nếu $4\alpha +\beta^2= 0$, thì ta có $(2i-\beta )^2= 0$ và $2i-\beta \not= 0$ nếu K có đặc số khác 2. Cuối cùng, nếu K có đặc số 2 và $\beta$ bằng không, thì ta có $T_F(q) = 0$ với mọi $q\in F$ (III, §2, No. 5, p. 445, công thức (31)). Vì F không phải là một trường, tồn tại một phần tử khác không $q$ của F sao cho $N_F(q) = 0$; ta có $q^2= 0$. Điều này chứng minh hàm ý (iii)$\Rightarrow$(i).
+Giả sử rằng F không phải là một trường. Nếu $\gamma (4\alpha +\beta^2)\not= 0$, thì đại số F là đơn tâm bậc 4 trên K; nó đẳng cấu với đại số $\mathbf{M}_2(K)$ (VIII, p. 120, Định lý 1) và do đó chứa một phần tử khác không có bình phương bằng không. Nếu $\gamma = 0$, thì ta có $j^2= 0$. Nếu $4\alpha +\beta^2= 0$, thì ta có $(2i-\beta )^2= 0$ và $2i-\beta \not= 0$ nếu K có đặc số khác 2. Cuối cùng, nếu K có đặc số 2 và $\beta$ bằng không, thì ta có $T_F(q) = 0$ với mọi $q\in F$ (III, §2, No. 5, p. 445, công thức (31)). Vì F không phải là một trường, nên tồn tại một phần tử khác không $q$ của F sao cho $N_F(q) = 0$; ta có $q^2= 0$. Điều này chứng minh kéo theo (iii)$\Rightarrow$(i).
 
-Cho $q=x+yi$ là một phần tử của E. Ta có $N_{E/K}(q) =x^2+\beta xy-\alpha y^2$. Giả sử rằng tính chất (v) được thỏa mãn. Ta có $N_{E/K}(q)-\gamma \not= 0$ và $N_{E/K}(q)\not= 0$ nếu $q\not= 0$, và do đó (vi).
+Cho $q=x+yi$ là một phần tử của E. Ta có $N_{E/K}(q) =x^2+\beta xy-\alpha y^2$. Giả sử tính chất (v) đúng. Ta có $N_{E/K}(q)-\gamma \not= 0$ và $N_{E/K}(q)\not= 0$ nếu $q\not= 0$, và do đó (vi).
 
-Cuối cùng, giả sử rằng tính chất (vi) được thỏa mãn. Cho $q$ là một phần tử khác không của F; ta viết nó dưới dạng $u+vj$ với $u$ và $v$ thuộc E. Nếu $v$ bằng không, thì $q$ khả nghịch. Nếu $v$ khác không, thì ta có $N_F(q) = N_F(v)N_F(v^{-1}u+j) =$ $N_{E/K}(v)(N_{E/K}(v^{-1}u)-\gamma )$ theo III, §2, No. 5, p. 443, công thức (24). Vì $\gamma$ không phải là một chuẩn, nên $N_F(q)$ khác không, và $q$ khả nghịch.
+Cuối cùng, giả sử rằng tính chất (vi) đúng. Cho $q$ là một phần tử khác không của F; ta viết nó dưới dạng $u+vj$ với $u$ và $v$ thuộc E. Nếu $v$ bằng không thì $q$ khả nghịch. Nếu $v$ khác không, thì ta có $N_F(q) = N_F(v)N_F(v^{-1}u+j) =$ $N_{E/K}(v)(N_{E/K}(v^{-1}u)-\gamma )$ theo III, §2, No. 5, p. 443, công thức (24). Vì $\gamma$ không phải là một chuẩn, nên $N_F(q)$ khác không, và $q$ khả nghịch.
 
 #### Nhận xét {#alg-viii-s19-n4-rem-1 .statement tag=00RQ}
 
-Giả sử rằng đại số quaternion F là một trường. Từ đẳng thức $j^2=\gamma$ suy ra $\gamma \not= 0$. Theo Mệnh đề 2 của VIII, p. 363, tâm của F bằng K trừ khi K có đặc số 2 và $\beta$ bằng không; trong trường hợp đó đại số F là giao hoán.
+Giả sử rằng đại số quaternion F là một trường. Từ đẳng thức $j^2=\gamma$ suy ra rằng ta có $\gamma \not= 0$. Theo Mệnh đề 2 của VIII, p. 363, tâm của F bằng K trừ khi K có đặc số 2 và $\beta$ bằng không; trong trường hợp đó đại số F là giao hoán.
 
-### 5. Các Đại số trên các Trường Cực đại được Sắp thứ tự
+### 5. Các đại số trên các trường cực đại có thứ tự
 
-Cho R là một trường có thứ tự cực đại (VI, §2, No. 5, p. 25). Cho C là đại số bậc hai trên R kiểu $(-1,0)$; nếu $(1, i)$ là cơ sở chính tắc của nó, thì ta có $i^2=-1$. Hơn nữa, C là một bao đóng đại số của R (VI, §2, No. 6, p. 26, Định lý 3). Cho H là đại số quaternion trên R kiểu $(-1,0,-1)$. Bảng phép nhân của H trong cơ sở chính tắc $(1, i, j, k)$ của nó được cho bởi
+Cho R là một trường có thứ tự cực đại (VI, §2, No. 5, p. 25). Cho C là đại số trên R bậc hai kiểu $(-1,0)$; nếu $(1, i)$ là cơ sở chính tắc của nó, thì ta có $i^2=-1$. Hơn nữa, C là một bao đóng đại số của R (VI, §2, No. 6, p. 26, Định lý 3). Cho H là đại số quaternion trên R kiểu $(-1,0,-1)$. Bảng phép nhân của H theo cơ sở chính tắc $(1, i, j, k)$ là
 
 $$
 i^2=j^2=k^2=-1,ij=-ji=k,-ik=ki=j ,jk=-kj=i
 $$
 
-Ta đồng nhất C với đại số con $R + Ri$ của H. Phần tử liên hợp của một phần tử $q=x+yi+zj+tk$ của H là $\overline{q}=x-yi-zj-tk$. Vết Cayley và chuẩn của $q$ được cho bởi
+Ta đồng nhất C với đại số con $R + Ri$ của H. Liên hợp của một phần tử $q=x+yi+zj+tk$ của H là $\overline{q}=x-yi-zj-tk$. Vết Cayley và chuẩn của $q$ được cho bởi
 
 $$
 T(q) =q+\overline{q}= 2x ,N(q) =qq=x^2+y^2+z^2+t^2
 $$
 
-Vì R là một trường có thứ tự, ta có $N(q)>0$ nếu $q\not= 0$, nên H là một trường, với tâm là R (VIII, p. 363, Mệnh đề 2). Vết rút gọn và chuẩn của một phần tử $q$ của H lần lượt là $T(q)$ và $N(q)$.
+Vì R là một trường có thứ tự, ta có $N(q)>0$ nếu $q\not= 0$, nên H là một trường, có tâm là R (VIII, p. 363, Mệnh đề 2). Vết rút gọn và chuẩn của một phần tử $q$ của H lần lượt là $T(q)$ và $N(q)$.
 
 #### Định lý 1 {#alg-viii-s19-thm-1 .statement tag=00M1}
 
-Cho D là một đại số trên R bậc hữu hạn đồng thời là một trường. Khi đó D đẳng cấu với R, C, hoặc H.
+Cho D là một đại số trên R bậc hữu hạn đồng thời là một trường. Khi đó D đẳng cấu với R, C hoặc H.
 
-Ký hiệu tâm của D là Z, và gọi L là một trường con giao hoán cực đại của D. Ta có $[D : Z] = [L : Z]^2$ theo VIII, p. 265, Hệ quả 2; ta cũng có $[L : R]\leqslant 2$ vì C là một bao đóng đại số của R. Do đó có ba trường hợp có thể xảy ra:
+Ký hiệu tâm của D là Z, và gọi L là một trường con giao hoán cực đại của D. Ta có $[D : Z] = [L : Z]^2$ theo VIII, p. 265, Hệ quả 2; ta cũng có $[L : R]\leqslant 2$ vì C là một bao đóng đại số của R. Do đó có ba trường hợp khả dĩ sau đây:
 
 a) Ta có R = Z = L, nên [D : Z] = 1 và D = R.
 
 b) Ta có $R\not= Z$ và Z = L, nên [D : Z] = 1 và D = L. Trong trường hợp này, D đẳng cấu với C.
 
-c) Ta có R = Z và [L : R] = 2, nên [D : R] = 4. Theo Mệnh đề 4 của VIII, p. 364, đại số trên R D đẳng cấu với một đại số quaternion kiểu $(\alpha ,0, \gamma )$, trong đó $\alpha$ và $\gamma$ là những phần tử khác không của R. Lấy $i\in D$- Z sao cho $i^2=\alpha$. Ta có $\alpha \not= 0$. Nếu $\alpha  >0$, thì tồn tại $a\in R$ sao cho $a^2=\alpha$ (VI, §2, No. 6, p. 26, Định lý 3); khi đó ta có $(a-i)(a+i) = 0$, điều này vô lý vì D là một trường. Vậy ta có $\alpha  <0$. Bất đẳng thức $\gamma  <0$ được chứng minh tương tự. Khi đó tồn tại các phần tử $a$ và $c$ của $R^*$ sao cho $\alpha =-a^2$ và $\gamma =-c^2$ (loc. cit.). Do đó đại số D đẳng cấu với đại số quaternion kiểu $(-1,0,-1)$ (VIII, p. 362, Nhận xét 2), tức là với H.
+c) Ta có R = Z và [L : R] = 2, nên [D : R] = 4. Theo Mệnh đề 4 của VIII, p. 364, đại số trên R D đẳng cấu với một đại số quaternion kiểu $(\alpha ,0, \gamma )$, trong đó $\alpha$ và $\gamma$ là những phần tử khác không của R. Lấy $i\in D$- Z sao cho $i^2=\alpha$. Ta có $\alpha \not= 0$. Nếu $\alpha  >0$, thì tồn tại một $a\in R$ sao cho $a^2=\alpha$ (VI, §2, No. 6, p. 26, Định lý 3); khi đó ta có $(a-i)(a+i) = 0$, điều này phi lý vì D là một trường. Vậy $\alpha  <0$. Bất đẳng thức $\gamma  <0$ được chứng minh tương tự. Khi đó tồn tại các phần tử $a$ và $c$ của $R^*$ sao cho $\alpha =-a^2$ và $\gamma =-c^2$ (loc. cit.). Do đó đại số D đẳng cấu với đại số quaternion kiểu $(-1,0,-1)$ (VIII, p. 362, Nhận xét 2), tức là với H.
 
 #### Nhận xét 1 {#alg-viii-s19-n5-rem-1 .statement tag=00M2}
 
@@ -276,11 +273,11 @@ Cho O là đại số octonion kiểu $(-1,0,-1,-1)$ trên R (III, Phụ lục, 
 
 #### Nhận xét 2 {#alg-viii-s19-n5-rem-2 .statement tag=00M3}
 
-Điều trên áp dụng cho trường $\mathbf{R}$ của các số thực. Mọi $\mathbf{R}$-đại số bậc hữu hạn là một trường đều đẳng cấu với $\mathbf{R},\mathbf{C}$, hoặc $\mathbf{H}$.
+Điều trên áp dụng cho trường $\mathbf{R}$ của các số thực. Mọi $\mathbf{R}$-đại số bậc hữu hạn mà là một trường đều đẳng cấu với $\mathbf{R},\mathbf{C}$, hoặc $\mathbf{H}$.
 
 #### Nhận xét 3 {#alg-viii-s19-n5-rem-3 .statement tag=00M4}
 
-Cho A là một đại số định chuẩn trên trường $\mathbf{R}$. Giả sử rằng A là một trường. Khi đó A đẳng cấu với $\mathbf{R},\mathbf{C}$, hoặc $\mathbf{H}$ (“định lý Gelfand–Mazur”) (xem Comm. Alg., VI, §6, No. 4, p. 407, Định lý 1 và TS, I, §2, n$^o5$, p. 26, hệ quả $2$)$.*$
+Cho A là một đại số định chuẩn trên trường $\mathbf{R}$. Giả sử rằng A là một trường. Khi đó A đẳng cấu với $\mathbf{R},\mathbf{C}$, hoặc $\mathbf{H}$ (“định lý Gelfand–Mazur”) (cf. Comm. Alg., VI, §6, No. 4, p. 407, Định lý 1 và TS, I, §2, n$^o5$, p. 26, hệ quả $2$)$.*$
 
 ### Bài tập {#alg-viii-s19-exercises}
 
