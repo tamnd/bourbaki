@@ -50,7 +50,7 @@ subsections:
       pdf_page: 402
 statements: 63
 exercises: 14
-content_sha256: 940002721e05b365dd59c32a47a412e7016af94833083021fc6c5bcaa7de7d22
+content_sha256: 635a24ee64712856e67649e040727e1324e7905c74a103aed09b4ef59c6e8359
 ---
 
 ## § 5. ENDOMORPHISMS OF VECTOR SPACES
@@ -156,7 +156,7 @@ If we translate the decomposition of a finitely generated torsion module in VII,
 
 #### Remark 1 {#alg-vii-s5-n3-rem-1 .statement}
 
-— Clearly the minimal polynomial of the restriction of $ u $ to $ M_p $ is the greatest power of $ p $ which divides the minimal polynomial of $ u $. Moreover we have $ s_p(u) \cdot x = x $ for $ x \in M_p $, from which it follows immediately that, if $ M_p \neq 0 $, then $ s_p $ is coprime to $ p $.
+Clearly the minimal polynomial of the restriction of $ u $ to $ M_p $ is the greatest power of $ p $ which divides the minimal polynomial of $ u $. Moreover we have $ s_p(u) \cdot x = x $ for $ x \in M_p $, from which it follows immediately that, if $ M_p \neq 0 $, then $ s_p $ is coprime to $ p $.
 
 Similarly, by Th. 2 of VII, p. 19, the module $ E_u $ is isomorphic to a direct sum of cyclic modules $ F_j = K[X]/a_j \ (1 \leq j \leq r) $, where the ideals $ a_j $ are distinct from $ K[X] $ and $ a_j \subset a_{j+1} $; and the $ a_j $ are determined by these conditions. Moreover, since $ E $, is a torsion module, we have $ a_1 \neq (0) $; since $ E $ has dimension $ n $, we have $ r \leq n $. Put $ a_j = (h_j) \ (1 \leq j \leq r) $, with $ h_j $ a monic polynomial, and consider the sequence $ (q_i) \ (1 \leq i \leq n) $ of polynomials defined by:
 
@@ -177,7 +177,7 @@ In other words:
 
 #### Remark 2 {#alg-vii-s5-n3-rem-2 .statement}
 
-— By the above proposition, there exists a basis of E with respect to which the matrix U of u has the form
+By the above proposition, there exists a basis of E with respect to which the matrix U of u has the form
 
 $$
 \begin{pmatrix}
@@ -542,7 +542,7 @@ If $ (e,) $ is a basis of E with respect to which $ \mathcal{S} $ is diagonal, t
 
 #### Lemma 3 {#alg-vii-s5-lem-3 .statement}
 
-— Let g and h be two commuting endomorphisms of a vector space E. Then each eigenspace of g is closed under h.
+Let g and h be two commuting endomorphisms of a vector space E. Then each eigenspace of g is closed under h.
 
 Indeed, if $ W_\lambda $ is the eigenspace of g corresponding to the eigenvalue $ \lambda $, then for all $ x \in W $, we have
 $$
@@ -671,9 +671,9 @@ Part a) follows from Cor. 2. To prove part b) it is enough to notice that $ u_s 
 
 Suppose $ u $ has a Jordan decomposition, and let R be a polynomial in $ \mathbf{K}[X] $. Then the endomorphism $ R(u) $ has a Jordan decomposition with $ R(u)_s = R(u_s) $.
 
-#### Remark {#alg-vii-s5-n9-rem-1 .statement}
+#### Remark 1 {#alg-vii-s5-n9-rem-1 .statement}
 
-— 1) We have $ \det(u_s) = \det(u) $ and $ \operatorname{Tr}(u_s) = \operatorname{Tr}(u) $.
+We have $ \det(u_s) = \det(u) $ and $ \operatorname{Tr}(u_s) = \operatorname{Tr}(u) $.
 2) A necessary and sufficient condition for $ u $ to be triangularisable is that $ u $ have a Jordan decomposition with $ u_s $ diagonalisable. Then there exists a basis of E with respect to which the matrix of $ u $ is lower triangular, and that of $ u_s $ is diagonal, with the same diagonal as the matrix of $ u $ (cf. Lemma 4 and Prop. 19 below).
 Note however that if the matrix of $ u $ with respect to some basis is triangular, it does not in general follow that the matrix of $ u_s $ with respect to the same basis is diagonal.
 

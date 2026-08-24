@@ -56,9 +56,9 @@ subsections:
       title: Relations between $ \mathbf{S}(M^*) $, TS(M)*gr and Pol(M, A)
       page: 59
       pdf_page: 68
-statements: 34
+statements: 36
 exercises: 16
-content_sha256: de97ee6eb0e861338aafbac8ecf0ec1343c813f6cb71d30a1b593b973cd01a84
+content_sha256: 85add3a8a52fcdffdb463a563cbfa00175ca7fcc27ecb6e780e0843025e0b8f6
 ---
 
 ## § 5. SYMMETRIC TENSORS AND POLYNOMIAL MAPPINGS
@@ -276,9 +276,13 @@ x_1 = x_2 = \cdots = x_k = x ,
 $$
 is an element of $ \mathbf{TS}^k(M) $.
 
-Definition 2. — *If* $ x \in M $, *the element* $ x \otimes x \otimes \ldots \otimes x $ *of* $ \mathbf{TS}^k(M) $ *is denoted by* $ \gamma_k(x) $.
+#### Definition 2 {#alg-iv-s5-def-2 .statement}
 
-Proposition 3. — (i) *If* $ x \in M $, *the pth power of* $ x $, *calculated in* $ \mathbf{TS}(M) $, *is equal to* $ p! \; \gamma_p(x) $.
+*If* $ x \in M $, *the element* $ x \otimes x \otimes \ldots \otimes x $ *of* $ \mathbf{TS}^k(M) $ *is denoted by* $ \gamma_k(x) $.
+
+#### Proposition 3 {#alg-iv-s5-prop-3 .statement}
+
+(i) *If* $ x \in M $, *the pth power of* $ x $, *calculated in* $ \mathbf{TS}(M) $, *is equal to* $ p! \; \gamma_p(x) $.
 (ii) *Let* $ x,, \ldots, x, \in M $; *then*
 $$
 \gamma_p(x_1 + x_2 + \cdots + x_n) = \sum_{p_1 + p_2 + \cdots + p_n = p} \gamma_{p_1}(x_1) \; \gamma_{p_2}(x_2) \ldots \gamma_{p_n}(x_n) .
@@ -371,7 +375,7 @@ Let us use the notation of the Remark 2 above. The family $ (e_{\rho(1)} \otimes
 
 #### Lemma 1 {#alg-iv-s5-lem-1 .statement}
 
-— Let $ H $ be a finite group and $ U $ a left $ A[H]$-module. Suppose that the $ A $-module $ U $ has a basis $ B $ which is stable under the operations of $ H $ in $ U $, and put $ \Omega = B/H $. For each $ w \in \Omega $ let $ u_w = \sum_{b \in w} b $; then
+Let $ H $ be a finite group and $ U $ a left $ A[H]$-module. Suppose that the $ A $-module $ U $ has a basis $ B $ which is stable under the operations of $ H $ in $ U $, and put $ \Omega = B/H $. For each $ w \in \Omega $ let $ u_w = \sum_{b \in w} b $; then
 
 (i) $ (u_w)_{w \in \Omega} $ is a basis of the $ A $-module $ U^H $.
 
@@ -717,9 +721,9 @@ $$
 
 These homomorphisms are called canonical. They are surjective.
 
-#### Example {#alg-iv-s5-n9-exa-1 .statement}
+#### Example 1 {#alg-iv-s5-n9-exa-1 .statement}
 
-— 1) The homogeneous polynomial mappings of degree 1 of M into N are the A-linear mappings of M into N.
+The homogeneous polynomial mappings of degree 1 of M into N are the A-linear mappings of M into N.
 2) Let $ (N_i)_{i \in I} $ be a family of A-modules, $ f_i $ a mapping of M into $ N_i, i \in I $, and $ f : M \to \prod_{i \in I} N_i $ the mapping with components $ f_i $. For f to be a homogeneous polynomial mapping of degree q it is necessary and sufficient that each $ f_i $ be a homogeneous polynomial mapping of degree q.
 3) Let $ (M_j)_{j \in J} $ be a finite family of free A-modules and $ u : \prod_{j \in J} M_j \to N $ a multilinear mapping ; then u is polynomial of degree $ \mathrm{Card}(J) $.
 

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 148
 statements: 22
 exercises: 2
-content_sha256: 1e1d8007a12d561b9aab4fe1f0fdc218310c13da2cf43b259e24998de8869633
+content_sha256: 863fd69f4b466e7c901a8b089c5a10ba6ecad623ef3ce2dfc09bc3e6ab33fc75
 ---
 
 ## § 6. ETALE ALGEBRAS
@@ -246,7 +246,7 @@ $ B) $ Suppose that $ A $ is diagonalizable; then ($ V $, p. 29, Prop. 1), the v
 
 #### Lemma 2 {#alg-v-s6-lem-2 .statement}
 
-— Let $ A $ be a commutative algebra over $ K $ and $ e $ an idempotent of $ A $; then we have $ de = 0 $ in $ \Omega_K(A) $.
+Let $ A $ be a commutative algebra over $ K $ and $ e $ an idempotent of $ A $; then we have $ de = 0 $ in $ \Omega_K(A) $.
 
 From the relation $ e = e^2 $ we deduce $ de = 2e \cdot de $; on multiplying by $ e $ we obtain $ e \cdot de = 2e \cdot de $, hence $ e \cdot de = 0 $, and so finally, $ de = 2e \cdot de = 0 $.
 
@@ -254,13 +254,13 @@ $ C) $ We first prove two lemmas:
 
 #### Lemma 3 {#alg-v-s6-lem-3 .statement}
 
-— Let $ A $ be a commutative algebra of finite degree over the algebraically closed field $ K $, such that $ \Omega_K(A) = 0 $. Then we have $ m = m^2 $ for every maximal ideal $ m $ of $ A $.
+Let $ A $ be a commutative algebra of finite degree over the algebraically closed field $ K $, such that $ \Omega_K(A) = 0 $. Then we have $ m = m^2 $ for every maximal ideal $ m $ of $ A $.
 
 The algebra $ A/m $ is an extension of finite degree of the algebraically closed field $ K $, whence $[A/m : K] = 1$. Hence for each $ a \in A $ there exists a unique scalar $ \lambda $ such that $ a - \lambda \cdot 1 \in m $; write $ D(a) $ for the residue class of $ a - \lambda \cdot 1 $ mod $ m^2 $. It is clear that $ D $ is a $ K $-derivation of $ A $ into the $ A $-module $ m/m^2 $. The universal property of $ \Omega_K(A) $ (III, p. 569) and the hypothesis $ \Omega_K(A) = 0 $ now imply that $ D = 0 $, whence $ m/m^2 = 0 $ and so $ m = m^2 $.
 
 #### Lemma 4 {#alg-v-s6-lem-4 .statement}
 
-— Let $ A $ be a commutative ring and let $ a $ be a finitely generated ideal of $ A $ such that $ a = a^2 $. Then there exists an idempotent $ e $ in $ A $ such that $ a = Ae $.
+Let $ A $ be a commutative ring and let $ a $ be a finitely generated ideal of $ A $ such that $ a = a^2 $. Then there exists an idempotent $ e $ in $ A $ such that $ a = Ae $.
 
 Let $ (a,, ..., a,) $ be a generating system of the ideal $ a $; since $ a = a^2 $, there exist elements $ x_{ij} $ in $ a $ such that $ a_i = \sum_{j=1}^r x_{ij} a_j $ for $ 1 \leq i \leq r $. Write $ M $ for the square matrix of order $ r $ whose elements are $ \delta_{ij} - x_{ij} $ and let $ D $ be its determinant. There exists (III, p. 532, Formula (26)) a square matrix $ N $ of order $ r $ with elements in $ A $ such that $ N \cdot M = D \cdot I $, whence immediately $ Da_j = 0 $ for $ 1 \leq j \leq r $ and so finally $ Da = 0 $. Now the matrix $ M $ is congruent to $ I $, mod $ a $, hence $ D \equiv I $ mod $ a $. Put $ e = 1 - D $; then $ e \in a $ and $ ex = x $ for all $ x \in a $. It follows that $ e $ is an idempotent and $ a $ is equal to $ Ae $.
 

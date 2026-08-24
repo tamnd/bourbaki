@@ -63,9 +63,9 @@ subsections:
       title: Irreducible elements
       page: 17
       pdf_page: 328
-statements: 50
+statements: 52
 exercises: 34
-content_sha256: 79b6231d70cc40c5ef2514e972d4a80b29e333d1add93c9efbbef113814bc4f8
+content_sha256: 7807160be0ee4703e84d6ac63919ca0a7e810af32944eb915f0916f77170d87d
 ---
 
 ## § 1. ORDERED GROUPS. DIVISIBILITY
@@ -86,11 +86,13 @@ In an analogous fashion, we can define the notion of a noncommutative ordered mo
 
 If an ordering is compatible with a given monoid structure, then so is the opposite ordering.
 
-#### Example {#alg-vi-s1-n1-exa-1 .statement}
+#### Example 1 {#alg-vi-s1-n1-exa-1 .statement}
 
-— 1) The additive group of the rational integers, and that of the rational numbers, are ordered groups under the ordering defined in I, pp. 21 and 117. *The same is true for the additive group of the real numbers (Gen. Top., IV, p 3). \*
+The additive group of the rational integers, and that of the rational numbers, are ordered groups under the ordering defined in I, pp. 21 and 117. *The same is true for the additive group of the real numbers (Gen. Top., IV, p 3). \*
 
-2) *The additive group of finite numerical functions defined on a set $ E $ is an ordered group under the ordering « $ f(x) \leq g(x) $ for all $ x \in E $ », written $ f \leq g $. This relation says that the graph of the function $ f $ lies below that of the function $ g $. The reader may find it convenient to think in terms of this graphical interpretation occasionally. \*
+#### Example 2 {#alg-vi-s1-n1-exa-2 .statement}
+
+*The additive group of finite numerical functions defined on a set $ E $ is an ordered group under the ordering « $ f(x) \leq g(x) $ for all $ x \in E $ », written $ f \leq g $. This relation says that the graph of the function $ f $ lies below that of the function $ g $. The reader may find it convenient to think in terms of this graphical interpretation occasionally. \*
 
 According to general definitions (Set Theory, IV, p. 264), a bijective map $ f $ from an ordered monoid M onto an ordered monoid M' is called an *isomorphism* of M onto M' if the structure of M' is obtained from that of M by transporting it along $ f $. This is equivalent to saying that $ f $ is a mapping *onto* M' such that
 
@@ -218,11 +220,13 @@ Here we will define certain ordered groups which play an important part in algeb
 
 In the multiplicative group $\mathbf{K}^*$ of nonzero elements of $\mathbf{K}$, the set P of nonzero elements of A is closed under multiplication, since A is a ring. Hence it defines a pre-order relation on $\mathbf{K}^*$ by $x^{-1}y \in P$, that is « there exists $z \in P$ such that $y = zx$ », which makes $\mathbf{K}^*$ *apre-ordered group* (written multiplicatively) (*VI*, p. 3, Prop. 3). Extending the terminology relating to elements of A (I, p. 97) to $\mathbf{K}^*$, the relation $x^{-1}y \in P$ can also be expressed as : *x divides y*, or x is a *divisor of y*, or y is a *multiple of x* (relative to the ring A); and we will call the relation $x^{-1}y \in P$ the *divisibility relation* in $\mathbf{K}^*$ relative to the ring A. The relation « x 'divides y » is denoted $x \mid y$, and its negation $x \nmid y$. The elements of P are none other than the *multiples of 1*.
 
-#### Remark {#alg-vi-s1-n5-rem-1 .statement}
+#### Remark 1 {#alg-vi-s1-n5-rem-1 .statement}
 
-— 1) The divisibility relation in $\mathbf{K}^*$ depends in an essential way on the particular ring A. If $A = K$ we obtain the « trivial » relation, under which $x \mid y$ for every pair $(x, y)$ of elements of $\mathbf{K}^*$. Let p and q be prime numbers; the rational numbers r/s whose denominators are not multiples of $p$ (resp. q) form a subring $\mathbf{Z}_{(p)}$ (resp. $\mathbf{Z}_{(q)}$) of $\mathbf{Q}$; the divisibility relations in $\mathbf{Q}^*$ relative to these two rings are distinct if $p \neq q$, the number $p/q$ being a multiple of 1 under one relation but not under the other.
+The divisibility relation in $\mathbf{K}^*$ depends in an essential way on the particular ring A. If $A = K$ we obtain the « trivial » relation, under which $x \mid y$ for every pair $(x, y)$ of elements of $\mathbf{K}^*$. Let p and q be prime numbers; the rational numbers r/s whose denominators are not multiples of $p$ (resp. q) form a subring $\mathbf{Z}_{(p)}$ (resp. $\mathbf{Z}_{(q)}$) of $\mathbf{Q}$; the divisibility relations in $\mathbf{Q}^*$ relative to these two rings are distinct if $p \neq q$, the number $p/q$ being a multiple of 1 under one relation but not under the other.
 
-2) We will sometimes extend the definition of the relation $x \mid y$ to pairs of elements of $\mathbf{K}$ (rather than only $\mathbf{K}^*$), this relation being taken to mean « there exists $z \in A$ such that $y = zx$ »; hence we will have $x \mid 0$ for all $x \in K$. This allows us to state the following results without restrictions : if $x \mid y$ and $x \mid z$ then $x \mid (y - z)$; if $x \mid y$ and $x \nmid z$ then $x \nmid (y - z)$. In the same way we can extend all the corresponding terminology.
+#### Remark 2 {#alg-vi-s1-n5-rem-2 .statement}
+
+We will sometimes extend the definition of the relation $x \mid y$ to pairs of elements of $\mathbf{K}$ (rather than only $\mathbf{K}^*$), this relation being taken to mean « there exists $z \in A$ such that $y = zx$ »; hence we will have $x \mid 0$ for all $x \in K$. This allows us to state the following results without restrictions : if $x \mid y$ and $x \mid z$ then $x \mid (y - z)$; if $x \mid y$ and $x \nmid z$ then $x \nmid (y - z)$. In the same way we can extend all the corresponding terminology.
 
 To obtain an *order relation* (No. 2) from the divisibility relation we have to pass to the quotient group of $\mathbf{K}^*$ by the subgroup $\mathbf{A}^*$ of elements $x \in \mathbf{K}^*$ such that $x \mid 1$ and $1 \mid x$; these are the elements of P which are *divisors of 1*, that is to say the *invertible* elements of $A$; by abuse of language they are often called the units of the ring A. The quotient group $\mathbf{K}^*/\mathbf{A}^*$ is then an ordered group. Two elements $x$ and $y$ of $\mathbf{K}^*$ which belong to the same coset of $\mathbf{A}^*$ are said to be *associate*; this means that $x \mid y$ and $y \mid x$. If on the other hand x divides y without y dividing x, we say that x strictly divides y, or that x is a strict divisor of y, or that y is a strict multiple of x.
 
@@ -252,9 +256,9 @@ Let (G,) be a family of ordered groups; according to the definition of the produ
 
 Let (G_i)_i, be a family of ordered groups whose index set I is well ordered: recall (Set Theory, III, p. 157) that an order relation, called the lexicographic ordering, is defined on the product set G = $ \prod G_i $, the relation « (x,) < (y,) » between two elements of G being by definition the same as « if β is the smallest of the indices i such that x_i ≠ y_i, then x_β < y_β ». Recall that the product of a well ordered family of totally ordered sets is totally ordered under the lexicographic ordering. In the general case, the lexicographic ordering on G is compatible with its group structure, as is immediately verified; equipped with this ordering, the group G is thus an ordered group, called the lexicographic product of the well ordered family of ordered groups (G,).
 
-#### Remark {#alg-vi-s1-n6-rem-1 .statement}
+#### Remark 1 {#alg-vi-s1-n6-rem-1 .statement}
 
-— 1) In the commonest cases, the well ordered index set I will be a finite interval (1, n) in N.
+In the commonest cases, the well ordered index set I will be a finite interval (1, n) in N.
     2) The set of positive elements of the lexicographic product G consists of 0 and those nonzero elements whose nonzero component of least index is positive.
 
 ### 7. Increasing homomorphisms of ordered groups
@@ -426,7 +430,7 @@ similarly we have $ |y| - |x| \leq |y - x| = |x - y| $; whence the stated result
 
 #### Remark {#alg-vi-s1-n11-rem-1 .statement}
 
-— We deduce from d) that $ |x| = 0 $ implies $ x = 0 $ (for $ x^+ $ and $ x^- $ are positive); thus $ x \neq 0 $ implies $ |x| > 0 $.
+We deduce from d) that $ |x| = 0 $ implies $ x = 0 $ (for $ x^+ $ and $ x^- $ are positive); thus $ x \neq 0 $ implies $ |x| > 0 $.
 
 #### Proposition 9 {#alg-vi-s1-div-prop-9 .statement}
 
@@ -536,7 +540,7 @@ This follows from the formula $ u + v = \sup(u, v) + \inf(u, v) $ (VI, p. 10, Pr
 
 #### Remark {#alg-vi-s1-n12-rem-1 .statement}
 
-— Prop. 7 of VI, p. 10 also shows that a necessary and sufficient condition for $ x $ and $ y $ to be coprime is that $ x + y = \sup(x, y) $.
+Prop. 7 of VI, p. 10 also shows that a necessary and sufficient condition for $ x $ and $ y $ to be coprime is that $ x + y = \sup(x, y) $.
 
 #### Proposition 12 {#alg-vi-s1-div-prop-12 .statement}
 
@@ -569,7 +573,7 @@ This is an immediate consequence of the second formula (4).
 
 #### Remark {#alg-vi-s1-n12-rem-2 .statement}
 
-— Applying the formulae of Prop. 13 to a family of two elements $ (x, y) $, we obtain the following formulae, which express the fact that each of the laws of composition sup, inf in a lattice ordered group is *distributive* with respect to the other :
+Applying the formulae of Prop. 13 to a family of two elements $ (x, y) $, we obtain the following formulae, which express the fact that each of the laws of composition sup, inf in a lattice ordered group is *distributive* with respect to the other :
 
 $$
 \begin{align*}
@@ -609,7 +613,7 @@ If G is lattice ordered and x is irreducible, we have just seen that y is either
 
 #### Remark {#alg-vi-s1-n13-rem-1 .statement}
 
-— Proposition 14 (DIV) can also be expressed as follows: if p is a non zero element of A such that the ideal (p) is *prime* (I, p. 117, Def. 3) then p is irreducible; conversely, if $ \mathcal{P}^* $ is lattice ordered and p is irreducible then the ideal (p) is prime.
+Proposition 14 (DIV) can also be expressed as follows: if p is a non zero element of A such that the ideal (p) is *prime* (I, p. 117, Def. 3) then p is irreducible; conversely, if $ \mathcal{P}^* $ is lattice ordered and p is irreducible then the ideal (p) is prime.
 
 #### Proposition 15 {#alg-vi-s1-prop-15 .statement}
 

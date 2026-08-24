@@ -35,9 +35,9 @@ subsections:
       title: Characterization of polynomials with zero differential
       page: 7
       pdf_page: 121
-statements: 18
+statements: 23
 exercises: 5
-content_sha256: 27bcc1b817cdced12ba77f891cb52e872ad99d790beb9135e01a5e6c88b32450
+content_sha256: 1386d6b11c452c9e28fae816dceda271a73d913c580b11b29f309d049d175b40
 ---
 
 ## § 1. PRIME FIELDS. CHARACTERISTIC
@@ -46,7 +46,9 @@ content_sha256: 27bcc1b817cdced12ba77f891cb52e872ad99d790beb9135e01a5e6c88b32450
 
 The field of fractions of the ring Z of rational integers is called the field of rational numbers and is denoted by Q (I, p. 117). For every prime number p the quotient ring $ \mathbf{Z}/(p) $ is a finite $ ^1 $ field of p elements, denoted by $ \mathbf{F}_p $ in the sequel. The field Q is infinite since it contains Z, and is therefore not isomorphic to any field $ \mathbf{F}_p $. If p and $ p' $ are distinct prime numbers, the fields $ \mathbf{F}_p $ and $ \mathbf{F}_{p'} $ have distinct cardinals and so are not isomorphic.
 
-Definition 1. — A field is said to be prime if it is isomorphic either to Q or to one of the fields $ \mathbf{F}_p $.
+#### Definition 1 {#alg-v-s1-def-1 .statement}
+
+A field is said to be prime if it is isomorphic either to Q or to one of the fields $ \mathbf{F}_p $.
 
 Every subfield of Q contains the ring Z and hence the field of fractions Q of Z; every subring of $ \mathbf{F}_p $ is necessarily equal to $ \mathbf{F}_p $. Therefore every subfield of a prime field is necessarily equal to it (cf. Cor. 2 of Th. 1 below). Let P be a prime field and A a ring; if f and $ f' $ are two homomorphisms of P into A, then the set of $ x \in P $ such that $ f(x) = f'(x) $ is a subfield of P, hence by what has been said we must have $ f = f' $. In particular, the only endomorphism of a prime field is the identity mapping.
 
@@ -87,17 +89,25 @@ Let $ f $ be the unique homomorphism of $ \mathbf{Z} $ into $ A $; we have $ n \
 
 Let us take for $ A $ a not necessarily commutative field. The centre of $ A $ is a (commutative) field; therefore the characteristic and the prime subfield of $ A $ are defined.
 
-#### Remark {#alg-v-s1-n2-rem-1 .statement}
+#### Remark 1 {#alg-v-s1-n2-rem-1 .statement}
 
-— 1) Let $ A $ and $ A' $ be two rings not reduced to 0. Suppose that the characteristic of $ A $ is defined and that there is a homomorphism $ u $ of $ A $ into $ A' $. The image under $ u $ of the prime subfield of $ A $ is a subfield $ P' $ of $ A' $, isomorphic to $ P $, and hence prime. It follows that the characteristic of $ A' $ is defined and is equal to that of $ A $. If $ A $ and $ A' $ are of characteristic 0 (resp. $ p \neq 0 $), the mapping $ u $ is a homomorphism of algebras over $ \mathbf{Q} $ (resp. $ \mathbf{F}_p $).
+Let $ A $ and $ A' $ be two rings not reduced to 0. Suppose that the characteristic of $ A $ is defined and that there is a homomorphism $ u $ of $ A $ into $ A' $. The image under $ u $ of the prime subfield of $ A $ is a subfield $ P' $ of $ A' $, isomorphic to $ P $, and hence prime. It follows that the characteristic of $ A' $ is defined and is equal to that of $ A $. If $ A $ and $ A' $ are of characteristic 0 (resp. $ p \neq 0 $), the mapping $ u $ is a homomorphism of algebras over $ \mathbf{Q} $ (resp. $ \mathbf{F}_p $).
 
-2) Remark 1 shows that if $ A $ is a ring of characteristic 0 (resp. $ p \neq 0 $), the same holds of any ring $ A' $ containing $ A $ as subring, or of any quotient of $ A $ by a two-sided ideal $ a \neq A $. In particular, if $ K $ is a field, every subfield of $ K $ and every extension field of $ K $ have the same characteristic as $ K $.
+#### Remark 2 {#alg-v-s1-n2-rem-2 .statement}
 
-3) Let $ A $ be an algebra not reduced to 0 over a field $ K $. Since the mapping $ \lambda \mapsto \lambda \cdot 1 $ of $ K $ into $ A $ is a ring homomorphism, Remark 1 shows that the characteristic of $ A $ is defined and equal to that of $ K $.
+Remark 1 shows that if $ A $ is a ring of characteristic 0 (resp. $ p \neq 0 $), the same holds of any ring $ A' $ containing $ A $ as subring, or of any quotient of $ A $ by a two-sided ideal $ a \neq A $. In particular, if $ K $ is a field, every subfield of $ K $ and every extension field of $ K $ have the same characteristic as $ K $.
 
-4) Since the field $ \mathbf{Q} $ is infinite, every ring of characteristic 0 is infinite; it follows that every finite field has non-zero characteristic.
+#### Remark 3 {#alg-v-s1-n2-rem-3 .statement}
 
-5) Let $ A $ be a ring not reduced to 0, whose additive group is a torsion-free $ \mathbf{Z} $-module, and put $ B = \mathbf{Q} \otimes_{\mathbf{Z}} A $. The mapping $ x \mapsto 1 \otimes x $ of $ A $ into $ B $ is injective (II, p. 314), hence $ A $ is isomorphic to a subring of a ring of characteristic 0.
+Let $ A $ be an algebra not reduced to 0 over a field $ K $. Since the mapping $ \lambda \mapsto \lambda \cdot 1 $ of $ K $ into $ A $ is a ring homomorphism, Remark 1 shows that the characteristic of $ A $ is defined and equal to that of $ K $.
+
+#### Remark 4 {#alg-v-s1-n2-rem-4 .statement}
+
+Since the field $ \mathbf{Q} $ is infinite, every ring of characteristic 0 is infinite; it follows that every finite field has non-zero characteristic.
+
+#### Remark 5 {#alg-v-s1-n2-rem-5 .statement}
+
+Let $ A $ be a ring not reduced to 0, whose additive group is a torsion-free $ \mathbf{Z} $-module, and put $ B = \mathbf{Q} \otimes_{\mathbf{Z}} A $. The mapping $ x \mapsto 1 \otimes x $ of $ A $ into $ B $ is injective (II, p. 314), hence $ A $ is isomorphic to a subring of a ring of characteristic 0.
 
 ### 3. Commutative rings of characteristic p
 
@@ -116,7 +126,7 @@ Formula (2) follows from the commutativity of $ A $. To prove (1) we use the bin
 
 #### Lemma 1 {#alg-v-s1-lem-1 .statement}
 
-— Let $ p $ be a prime number and $ i $ an integer in the range from 1 to $ p - 1 $, then the binomial coefficient $ \binom{p}{i} $ is an integer divisible by $ p $.
+Let $ p $ be a prime number and $ i $ an integer in the range from 1 to $ p - 1 $, then the binomial coefficient $ \binom{p}{i} $ is an integer divisible by $ p $.
 
 We argue by induction on $ i $, the case $ i = 1 $ being immediate from the formula $ \binom{p}{1} = p $. Suppose that $ 2 \leq i \leq p - 1 $ and that $ \binom{i}{i-1} $ is divisible by $ p $. Then the integer $ i \binom{p}{i} = (p - i + 1) \binom{p}{i-1} $ belongs to the prime ideal $ p\mathbf{Z} $ of $ \mathbf{Z} $; since $ i \notin p\mathbf{Z} $, we have $ \binom{p}{i} \in p\mathbf{Z} $ and the lemma follows.
 

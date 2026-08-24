@@ -31,9 +31,9 @@ subsections:
       title: Construction de suites sécantes
       page: 36
       pdf_page: 40
-statements: 36
+statements: 37
 exercises: 7
-content_sha256: a7beb9e0def769b02cc03afdf0d896591c95a346f34961489f8bde1c22d64743
+content_sha256: e4d0c053766e54711fb64b76f42539f676fb04d6d5c716298b7b2a7c737ceab4
 ---
 
 ## § 3. DIMENSION DES ANNEAUX NOETHÉRIENS
@@ -156,7 +156,10 @@ On dit qu’un élément x de $ m_A $ est sécant pour M si $ \{ x \} $ est une 
 $$
 \dim_A(M/xM) = \dim_A(M) - 1 .
 $$
-Remarques. — 1) Il résulte des formules (6) et (7) que S est sécante pour M si et seulement si elle est sécante pour $ A/\alpha $, où $ \alpha $ est l’annulateur de M.
+
+#### Remarque 1 {#ac-viii-s3-n2-rem-1 .statement}
+
+Il résulte des formules (6) et (7) que S est sécante pour M si et seulement si elle est sécante pour $ A/\alpha $, où $ \alpha $ est l’annulateur de M.
 2) Soient S et S’ deux parties disjointes de $ m_A $. Pour que $ S \cup S' $ soit sécante pour M, il faut et il suffit que S soit sécante pour M et S’ sécante pour $ M' = M/SM $. Cela résulte de l’inégalité (8) et de la formule
 $$
 \text{Card}(S \cup S') + \dim_A(M/(SM + S'M)) - \dim_A(M) =

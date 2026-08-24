@@ -82,9 +82,9 @@ subsections:
       title: Algèbre de Lie d’un groupuscule de Lie
       page: 0
       pdf_page: 161
-statements: 110
+statements: 111
 exercises: 9
-content_sha256: 52cb802ba73092d0e4da07690f896b5a19fdf4607d9cfa1760be6d5e3a764e8c
+content_sha256: 5ae9cd62a4c71a2224c40bff001ca898689d86f34e862e65accce58fb6c8edc1
 ---
 
 ## § 3. Passage d’un groupe de Lie à son algèbre de Lie
@@ -221,7 +221,10 @@ Les groupes de Lie G et $ G^\vee $ ont la même variété sous-jacente, donc les
 $$
 t^\vee = -t \quad (\S 2, \text{prop. } 2).
 $$
-*Exemple.* — Supposons que G soit le groupe de Lie défini par un espace normable complet E. Alors U(G) s’identifie à TS(E) et la restriction de $ \theta_* $ à U(G) s’identifie à TS(T_e(\theta)) (VAR, R, 13.2.4). Par suite, si $ t \in TS^s(E) $, on a $ t^\vee = (-1)^s t $.
+
+#### Exemple {#lie-iii-s3-n2-exa-1 .statement}
+
+Supposons que G soit le groupe de Lie défini par un espace normable complet E. Alors U(G) s’identifie à TS(E) et la restriction de $ \theta_* $ à U(G) s’identifie à TS(T_e(\theta)) (VAR, R, 13.2.4). Par suite, si $ t \in TS^s(E) $, on a $ t^\vee = (-1)^s t $.
 
 #### Proposition 7 {#lie-iii-s3-prop-7 .statement}
 
