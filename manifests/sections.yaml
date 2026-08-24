@@ -5873,3 +5873,149 @@ books:
               exercises: 6
               extraction: ocr
               content_sha256: 0a6baba275782c88a931fbed48a61915c93a1573ba1b3b1d410a3b72cf130d3b
+    - id: alg-i-iii
+      chapters:
+        - chapter: I
+          title: ALGEBRAIC STRUCTURES
+          sections:
+            - kind: front
+              title: ALGEBRAIC STRUCTURES
+              path: content/en/alg/I/00_frontmatter.md
+              first_pdf_page: 25
+              last_pdf_page: 25
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: f66b7037a3e440f4f83e9095158af832aab46fcee7af05b09188eced0ffb9d0f
+            - kind: section
+              section: 1
+              title: Laws of composition; associativity; commutativity
+              path: content/en/alg/I/01_s1_laws_of_composition_associativity.md
+              label: alg-i-s1
+              first_pdf_page: 25
+              last_pdf_page: 150
+              subsections: 6
+              statements: 31
+              exercises: 16
+              extraction: ocr
+              content_sha256: da1b536ca353bfdf834266b2f78c52c922e75cdb895899db8f4683d918fe55ab
+            - kind: section
+              section: 2
+              title: Identity element; cancellable elements; invertible elements
+              path: content/en/alg/I/02_s2_identity_element_cancellable_elements.md
+              label: alg-i-s2
+              first_pdf_page: 36
+              last_pdf_page: 153
+              subsections: 8
+              statements: 25
+              exercises: 17
+              extraction: ocr
+              content_sha256: 595575ac2e34d4640bffa77d9e3406362197bad1b64f62c4b23bf700509a1118
+            - kind: section
+              section: 3
+              title: Actions
+              path: content/en/alg/I/03_s3_actions.md
+              label: alg-i-s3
+              first_pdf_page: 48
+              last_pdf_page: 156
+              subsections: 5
+              statements: 14
+              exercises: 10
+              extraction: ocr
+              content_sha256: d48d339714b4363c7ef630231fb716b1f37eb05a2eed63a58d2f5e403a576337
+            - kind: section
+              section: 4
+              title: Groups and groups with operators
+              path: content/en/alg/I/04_s4_groups_and_groups_with_operators.md
+              label: alg-i-s4
+              first_pdf_page: 54
+              last_pdf_page: 164
+              subsections: 10
+              statements: 62
+              exercises: 26
+              extraction: ocr
+              content_sha256: a50766c7ea0e8e219f8957f7048dd6cedcb552a260a50e8a6c749a7d24a174ce
+            - kind: section
+              section: 5
+              title: Groups operating on a set
+              path: content/en/alg/I/05_s5_groups_operating_on_a_set.md
+              label: alg-i-s5
+              first_pdf_page: 76
+              last_pdf_page: 171
+              subsections: 7
+              statements: 32
+              exercises: 29
+              extraction: ocr
+              content_sha256: a3480f3825c0e6830b80afc2b3a51f3a8a8472ac42cc0ff2c15fa2c4433004d9
+            - kind: section
+              section: 6
+              title: Extensions, solvable groups, nilpotent groups
+              path: content/en/alg/I/06_s6_extensions_solvable_groups_nilpotent.md
+              label: alg-i-s6
+              first_pdf_page: 89
+              last_pdf_page: 183
+              subsections: 7
+              statements: 58
+              exercises: 8
+              extraction: ocr
+              content_sha256: 444ce10c845cf4285699a41f8315e02aaa1384af2372bd4fd0466da5aa4acee7
+            - kind: section
+              section: 7
+              title: Free monoids, free groups
+              path: content/en/alg/I/07_s7_free_monoids_free_groups.md
+              label: alg-i-s7
+              first_pdf_page: 105
+              last_pdf_page: 195
+              subsections: 9
+              statements: 17
+              exercises: 3
+              extraction: ocr
+              content_sha256: d6c7fd2882a44296a4e9b83c268872b327ceb30194985c94a03a463dd6e566f0
+            - kind: section
+              section: 8
+              title: Rings
+              path: content/en/alg/I/08_s8_rings.md
+              label: alg-i-s8
+              first_pdf_page: 120
+              last_pdf_page: 198
+              subsections: 12
+              statements: 29
+              exercises: 16
+              extraction: ocr
+              content_sha256: 258bd0d1fee65e8f7e2abbb8deb7ea22b4f8d09cce4a9f9b38aa5f23eeb3c742
+            - kind: section
+              section: 9
+              title: Fields
+              path: content/en/alg/I/09_s9_fields.md
+              label: alg-i-s9
+              first_pdf_page: 138
+              last_pdf_page: 203
+              subsections: 4
+              statements: 17
+              exercises: 21
+              extraction: ocr
+              content_sha256: fee761e3a01ac2b07d1598dce540a09343de6c16c63a3089ff4316bb4f64f378
+            - kind: section
+              section: 10
+              title: Inverse and direct limits
+              path: content/en/alg/I/10_s10_inverse_and_direct_limits.md
+              label: alg-i-s10
+              first_pdf_page: 142
+              last_pdf_page: 203
+              subsections: 4
+              statements: 5
+              exercises: 2
+              extraction: ocr
+              content_sha256: b08bffa16dc436eeac0e17dcfce948125f5417d3d262e5a26fd8ffccc2df44ff
+            - kind: historical
+              title: Historical Note
+              path: content/en/alg/I/historical_note.md
+              first_pdf_page: 204
+              last_pdf_page: 214
+              book_pages: 180-190
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: e96d82773735dc0097a5b4381cb57dc48cc93217d60b9ecaa5a0dae092865fc0

@@ -3741,6 +3741,105 @@
           ]
         }
       ]
+    },
+    {
+      "id": "alg-i-iii",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "ALGEBRAIC STRUCTURES",
+          "total": 148,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-i-s1",
+              "dir": "s1",
+              "count": 16,
+              "first": 1,
+              "last": 16
+            },
+            {
+              "section": 2,
+              "label": "alg-i-s2",
+              "dir": "s2",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "starred": 5
+            },
+            {
+              "section": 3,
+              "label": "alg-i-s3",
+              "dir": "s3",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 3
+            },
+            {
+              "section": 4,
+              "label": "alg-i-s4",
+              "dir": "s4",
+              "count": 26,
+              "first": 1,
+              "last": 26,
+              "starred": 9
+            },
+            {
+              "section": 5,
+              "label": "alg-i-s5",
+              "dir": "s5",
+              "count": 29,
+              "first": 1,
+              "last": 29,
+              "starred": 8
+            },
+            {
+              "section": 6,
+              "label": "alg-i-s6",
+              "dir": "s6",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "starred": 2
+            },
+            {
+              "section": 7,
+              "label": "alg-i-s7",
+              "dir": "s7",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 8,
+              "label": "alg-i-s8",
+              "dir": "s8",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 2
+            },
+            {
+              "section": 9,
+              "label": "alg-i-s9",
+              "dir": "s9",
+              "count": 21,
+              "first": 1,
+              "last": 21,
+              "starred": 3
+            },
+            {
+              "section": 10,
+              "label": "alg-i-s10",
+              "dir": "s10",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            }
+          ]
+        }
+      ]
     }
   ]
 }
