@@ -28,12 +28,12 @@ subsections:
       title: Cyclotomic polynomials over a finite field
       page: 97
       pdf_page: 211
-statements: 10
+statements: 11
 exercises: 14
-content_sha256: aa597f36c46677ef0d440c78586bb39c2d6e8682502401b06f4523281e5eb8bd
+content_sha256: 0501211c878fc1eaf87afd5a38cdfe27944f3990ac7352b00458f597e468ae8f
 translated_from: content/en/alg/V/12_s12_finite_fields.md
-source_content_sha256: 957cda970806e4eb35e2b9f69932419cecb74d5918267996ef59aaa2179faaa4
-translation_model: gpt-5.4
+source_content_sha256: 1c18272a32e8d3405cf34f07429f1fb5d6f434b6e11f363b5880986e01e49860
+translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-826667eb
 glossary_version: 34
 glossary_terms_sha256: 7dd909fefb5c9d56cb9e506b028e5e4de13a43a739c0c6edbcae6328c8267140
@@ -194,13 +194,15 @@ Vì vậy, có tính đến Mệnh đề 6 của V, p. 84 :
 
 #### Hệ quả {#alg-v-s12-n4-cor-1 .statement}
 
-— Bậc của $ R_n $ trên $ K $ là số nguyên nhỏ nhất $ f \geq 1 $ sao cho $ q^f \equiv 1 \pmod{n} $. Để đa thức cyclotomic $ \Phi_n $ bất khả quy trên $ K $ thì điều kiện cần và đủ là nhóm $(\mathbf{Z}/n\mathbf{Z})^*$ được sinh bởi lớp thặng dư của $q$ modulo $n$.
+— Bậc của $ R_n $ trên $ K $ là số nguyên nhỏ nhất $ f \geq 1 $ sao cho $ q^f \equiv 1 \pmod{n} $. Để đa thức cyclotomic $ \Phi_n $ là bất khả quy trên $ K $ thì điều kiện cần và đủ là nhóm $(\mathbf{Z}/n\mathbf{Z})^*$ phải được sinh bởi lớp thặng dư của $q$ modulo $n$.
 
-#### Ví dụ {#alg-v-s12-n4-exa-1 .statement}
+#### Ví dụ 1 {#alg-v-s12-n4-exa-1 .statement}
 
-— 1) Đa thức $\Phi_3(X) = X^2 + X + 1$ là bất khả quy trong $F_q[X]$ khi và chỉ khi $q \equiv 2 \pmod{3}$. Tương tự, $\Phi_4(X) = X^2 + 1$ là bất khả quy trong $F_q[X]$ khi và chỉ khi $q \equiv 3 \pmod{4}$ và đối với $\Phi_5 = X^4 + X^3 + X^2 + X + 1$, điều kiện bất khả quy được viết là $q \equiv 2,\ 3 \pmod{5}$.
+Đa thức $\Phi_3(X) = X^2 + X + 1$ là bất khả quy trong $F_q[X]$ khi và chỉ khi $q \equiv 2 \pmod{3}$. Tương tự, $\Phi_4(X) = X^2 + 1$ là bất khả quy trong $F_q[X]$ khi và chỉ khi $q \equiv 3 \pmod{4}$ và đối với $\Phi_5 = X^4 + X^3 + X^2 + X + 1$, điều kiện bất khả quy được viết là $q \equiv 2,\ 3 \pmod{5}$.
 
-2) Ta có $5^2 \equiv 1 \pmod{12}$, do đó lớp thặng dư của 5 (mod 12) không sinh ra $(\mathbf{Z}/12\mathbf{Z})^*$. Vậy đa thức $\Phi_{12}(X) = X^4 - X^2 + 1$ không bất khả quy trong $F_5[X]$; thực vậy ta có
+#### Ví dụ 2 {#alg-v-s12-n4-exa-2 .statement}
+
+Ta có $5^2 \equiv 1 \pmod{12}$, do đó lớp thặng dư của 5 (mod 12) không sinh $(\mathbf{Z}/12\mathbf{Z})^*$. Vì vậy đa thức $\Phi_{12}(X) = X^4 - X^2 + 1$ không bất khả quy trong $F_5[X]$; thực ra ta có
 $$
 \Phi_5(X) = (X^2 + 2X - 1)(X^2 - 2X - 1)
 $$
@@ -208,4 +210,4 @@ trong $F_5[X]$.
 
 ### Bài tập {#alg-v-s12-exercises}
 
-Xem [các bài tập của § 12](exercises/s12/).
+Xem [các bài tập cho § 12](exercises/s12/).
