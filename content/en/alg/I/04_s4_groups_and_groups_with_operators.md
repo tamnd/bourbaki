@@ -51,9 +51,9 @@ subsections:
       title: MONOGENOUS GROUPS
       page: 0
       pdf_page: 72
-statements: 62
+statements: 63
 exercises: 26
-content_sha256: a50766c7ea0e8e219f8957f7048dd6cedcb552a260a50e8a6c749a7d24a174ce
+content_sha256: 335993d84faf2b8a46dcdfc6a136fa0e5662783a19c2b83d242352acfe244652
 ---
 
 ## § 4. GROUPS AND GROUPS WITH OPERATORS
@@ -229,7 +229,10 @@ If a subgroup K of G contains H, it is a union of left (or right) cosets of H. S
 $$
 (G:H) = (G:K)(K:H).
 $$
-**Corollary.** *If G is a finite group of order g and H is a subgroup of G of order h, then*
+
+#### Corollary {#alg-i-s4-n4-cor-1 .statement}
+
+*If G is a finite group of order g and H is a subgroup of G of order h, then*
 $$
 h \cdot (G:H) = g
 $$
