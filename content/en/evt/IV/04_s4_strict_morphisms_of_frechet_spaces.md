@@ -23,9 +23,9 @@ subsections:
       title: Criteria for surjectivity
       page: 31
       pdf_page: 213
-statements: 11
+statements: 13
 exercises: 23
-content_sha256: 4172f6a84d2ca7073e01bf8876e21035e49efc30aaac18bd4884c0dc7ab18f09
+content_sha256: ee7bac2fa753fe7a6791836b1a168ccf5ae5fd35fde5fae49d7437cb6a0f2add
 ---
 
 ## § 4. STRICT MORPHISMS OF FRÉCHET SPACES
@@ -34,7 +34,9 @@ For every locally convex space E, let S(E) denote the set of all continuous semi
 
 ### 1. Characterizations of strict morphisms
 
-Proposition 1. — Let E and F be two locally convex spaces and u a continuous linear mapping from E into F. In order that u be a strict morphism, it is necessary and sufficient that the following condition be satisfied:
+#### Proposition 1 {#evt-iv-s4-prop-1 .statement}
+
+Let E and F be two locally convex spaces and u a continuous linear mapping from E into F. In order that u be a strict morphism, it is necessary and sufficient that the following condition be satisfied:
 
 (MS) For every semi-norm $ p \in S(E) $, which is null on the kernel of u, there exists q in S(F) such that $ p \leq q \circ u $.
 
@@ -46,7 +48,9 @@ $$
 
 The continuous semi-norms on E which are null on N, are the semi-norms $ p_1 \circ \pi $ where $ p_1 $ ranges over S(E/N); similarly S(M) consists of the semi-norms $ q_1 $ for which there exists $ q \in S(F) $ with $ q_1 \leq q/F $. Finally, u is a strict morphism if and only if the bijective continuous linear mapping $ \tilde{u} $ has a continuous inverse; this also means that every semi-norm in S(E/N) is of the form $ q_1 \circ \tilde{u} $ with $ q_1 $ in S(M). Prop. 1 follows immediately from these remarks.
 
-Proposition 2. — Let E and F be two Hausdorff locally convex spaces and u a continuous linear mapping from E into F. In order that u be a strict morphism, it is necessary and sufficient that its transpose $ ^t u : F' \to E' $ satisfy the following conditions:
+#### Proposition 2 {#evt-iv-s4-prop-2 .statement}
+
+Let E and F be two Hausdorff locally convex spaces and u a continuous linear mapping from E into F. In order that u be a strict morphism, it is necessary and sufficient that its transpose $ ^t u : F' \to E' $ satisfy the following conditions:
 
 a) The image of $ ^t u $ is closed in $ E' $ for $ \sigma(E', E) $.
 

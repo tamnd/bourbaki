@@ -39,9 +39,9 @@ subsections:
       title: A result on the disintegration of measures
       page: 37
       pdf_page: 219
-statements: 31
+statements: 38
 exercises: 3
-content_sha256: cd3cf0b3f1eea92c9a6a61e986ee9c551540b9d00e9dcdc8e7f1fc1405279a1d
+content_sha256: f05688e7f5e86ff2ea2066658769980a5ad9e44095245e34f9e9d06f1fa0ab07
 ---
 
 ## § 2. OPERATIONS ON MEASURES
@@ -70,11 +70,13 @@ When $ X $ is not $ \mu $-measurable, the encumbrances $ \nu^\bullet $ and $ (\m
 
 Let $ f \in \mathcal{F}_+(X) $ and let $ f^0 $ be the extension by 0 of $ f $ to $ T $. One has $ (\mu^\bullet)_X(f) = \mu^\bullet(f^0) = \sup_L \mu^\bullet(f^0 \varphi_L) $, where $ L $ runs over the set of compact subsets of $ T $ (§1, No. 2, Prop. 2); similarly $ (\mu_X)^\bullet(f) = \sup_K \mu_K^\bullet(f_K) = \sup_K \mu^\bullet(f^0 \varphi_K) $, where $ K $ runs over the set of compact subsets of $ X $. Thus it all comes down to showing that $ \mu^\bullet(f^0 \varphi_L) = \sup_K \mu^\bullet(f^0 \varphi_K) $ for every compact subset $ L $ of $ T $, where $ K $ runs over the set of compact subsets of $ L \cap X $. Now, let $ (K_n) $ be an increasing sequence of compact sets contained in $ L \cap X $, such that $ (L \cap X) - \bigcup_n K_n $ is locally $ \mu $-negligible (§1, No. 8, Prop. 11); $ f^0 $ being zero outside $ X $, $ f^0 \varphi_L $ is zero outside $ L \cap X $ hence is equal locally almost everywhere to the upper envelope of the sequence $ (f^0 \varphi_{K_n}) $. This implies that $ \mu^\bullet(f^0 \varphi_L) = \sup_n \mu^\bullet(f^0 \varphi_{K_n}) $, whence the desired result.*
 
-#### Remark {#int-ix-s2-n1-rem-1 .statement}
+#### Remark 1 {#int-ix-s2-n1-rem-1 .statement}
 
-— 1) The relation $ (\mu_X)^\bullet = (\mu^\bullet)_X $ permits using the notation $ \mu_X^\bullet $ without ambiguity; we shall do so henceforth. The preceding Prop. 1 and Prop. 2 of §1, No. 2 show that the measures denoted $ \mu_K $ until now, for $ K $ compact, are indeed induced measures in the sense of Def. 1. Similarly, if $ T $ is locally compact, and if $ X $ is a locally compact subspace of $ T $, the above Prop. 1 and Prop. 1 of Ch. V, §7, No. 1 show that Def. 1 coincides with the definition of Ch. IV, §5, No. 7.
+The relation $ (\mu_X)^\bullet = (\mu^\bullet)_X $ permits using the notation $ \mu_X^\bullet $ without ambiguity; we shall do so henceforth. The preceding Prop. 1 and Prop. 2 of §1, No. 2 show that the measures denoted $ \mu_K $ until now, for $ K $ compact, are indeed induced measures in the sense of Def. 1. Similarly, if $ T $ is locally compact, and if $ X $ is a locally compact subspace of $ T $, the above Prop. 1 and Prop. 1 of Ch. V, §7, No. 1 show that Def. 1 coincides with the definition of Ch. IV, §5, No. 7.
 
-2) Def. 1 may be extended to the case that $ \mu $ is a complex measure on $ T $. To show in this case that the premeasure $ \mu_X $ is a measure, it suffices to observe that $ |\mu_K| = |\mu|_K $ for every compact subset $ K $ of $ X $ (§1, No. 2).
+#### Remark 2 {#int-ix-s2-n1-rem-2 .statement}
+
+Def. 1 may be extended to the case that $ \mu $ is a complex measure on $ T $. To show in this case that the premeasure $ \mu_X $ is a measure, it suffices to observe that $ |\mu_K| = |\mu|_K $ for every compact subset $ K $ of $ X $ (§1, No. 2).
 
 By Prop. 1, a subset $ Y $ of $ X $ is $ \mu_X $-measurable (resp. locally $ \mu_X $-negligible) if and only if it is $ \mu $-measurable (resp. locally $ \mu $-negligible). If $ Y $ is $ \mu_X $-measurable, hence $ \mu $-measurable, the induced measures $ (\mu_X)_Y $ and $ \mu_Y $ are obviously equal by virtue of Prop. 1 (*transitivity of induced measures*).
 
@@ -82,13 +84,17 @@ Remark 3). — Let X be a $ \mu $-measurable subset of T. By Prop. 10 of §1, No
 
 ### 2. Measures defined by numerical densities
 
-Definition 2. — *A function f defined on T, with values in $ \overline{\mathbf{R}} $ or in a Banach space, is said to be locally $ \mu $-integrable if f is $ \mu $-measurable and every point $ x \in T $ admits a neighborhood V such that $ \mu^\bullet(|f|\varphi_V) < +\infty $.*
+#### Definition 2 {#int-ix-s2-def-2 .statement}
+
+*A function f defined on T, with values in $ \overline{\mathbf{R}} $ or in a Banach space, is said to be locally $ \mu $-integrable if f is $ \mu $-measurable and every point $ x \in T $ admits a neighborhood V such that $ \mu^\bullet(|f|\varphi_V) < +\infty $.*
 
 This definition coincides with the one given in Ch. V, §5, No. 1, in case T is locally compact.
 
 Let $ f $ be a locally $ \mu $-integrable positive function; the mapping $ K \mapsto f_K \cdot \mu_K $ is a premeasure (Ch. V, §7, No. 1, Cor. 2 of Th. 1), which will be denoted $ f \cdot \mu $.
 
-Proposition 2. — *If f is a positive locally $ \mu $-integrable function, then, for every function $ g \in \mathcal{F}_+(T) $, one has the relation*
+#### Proposition 2 {#int-ix-s2-prop-2 .statement}
+
+*If f is a positive locally $ \mu $-integrable function, then, for every function $ g \in \mathcal{F}_+(T) $, one has the relation*
 
 $$
 (f \cdot \mu)^\bullet(g) = \mu^\bullet(fg).
@@ -104,13 +110,17 @@ on using the definition of $ f \cdot \mu $ and Prop. 3 of Ch. V, §5, No. 3. Pro
 
 Now let $ x \in T $ and let V be a neighborhood of x such that $ \mu^\bullet(f \varphi_V) < +\infty $ (Def. 2); then $ (f \cdot \mu)^\bullet(V) = \mu^\bullet(f \varphi_V) < +\infty $, therefore $ f \cdot \mu $ is a measure.
 
-Definition 3. — *Let f be a locally $ \mu $-integrable positive function. The measure $ f \cdot \mu : K \mapsto f_K \cdot \mu_K $ is called the measure with density f with respect* to $ \mu $, or the product measure of $ \mu $ by the function $ f $. Every measure of the form $ f \cdot \mu $, where $ f $ is positive and locally $ \mu $-integrable, is called a measure with base $ \mu $.
+#### Definition 3 {#int-ix-s2-def-3 .statement}
 
-#### Remark {#int-ix-s2-n2-rem-1 .statement}
+*Let f be a locally $ \mu $-integrable positive function. The measure $ f \cdot \mu : K \mapsto f_K \cdot \mu_K $ is called the measure with density f with respect* to $ \mu $, or the product measure of $ \mu $ by the function $ f $. Every measure of the form $ f \cdot \mu $, where $ f $ is positive and locally $ \mu $-integrable, is called a measure with base $ \mu $.
 
-— 1) The definition of $ f \cdot \mu $ extends to the case that $ f $ is a complex locally integrable function; one then has $ |f \cdot \mu| = |f| \cdot \mu $, which implies at once that $ f \cdot \mu $ is a measure, not just a premeasure. We retain the expression 'measures with base $ \mu $' to designate the complex measures so defined.
+#### Remark 1 {#int-ix-s2-n2-rem-1 .statement}
 
-2) Similarly, if $ \theta $ is a complex measure, $ f $ is said to be locally $ \theta $-integrable if it is locally $ |\theta| $-integrable, and one defines the measure $ f \cdot \theta : K \mapsto f_K \cdot \theta_K $. One has $ |f \cdot \theta| = |f| \cdot |\theta| $ (Ch. V, §5, No. 2, Prop. 2). In this No., we shall leave aside everything concerning non-positive measures.
+The definition of $ f \cdot \mu $ extends to the case that $ f $ is a complex locally integrable function; one then has $ |f \cdot \mu| = |f| \cdot \mu $, which implies at once that $ f \cdot \mu $ is a measure, not just a premeasure. We retain the expression 'measures with base $ \mu $' to designate the complex measures so defined.
+
+#### Remark 2 {#int-ix-s2-n2-rem-2 .statement}
+
+Similarly, if $ \theta $ is a complex measure, $ f $ is said to be locally $ \theta $-integrable if it is locally $ |\theta| $-integrable, and one defines the measure $ f \cdot \theta : K \mapsto f_K \cdot \theta_K $. One has $ |f \cdot \theta| = |f| \cdot |\theta| $ (Ch. V, §5, No. 2, Prop. 2). In this No., we shall leave aside everything concerning non-positive measures.
 
 #### Proposition 3 {#int-ix-s2-prop-3 .statement}
 
@@ -134,16 +144,20 @@ Remark 3). — The theory of integration with respect to a measure $ \nu = f \cd
 
 ### 3. Image of a measure
 
-Definition 4. — Let $ \pi $ be a mapping of T into a topological space X. One says that $ \pi $ is $ \mu $-proper if $ \pi $ is $ \mu $-measurable, and if every point x of X admits a neighborhood V such that $ \mu^\bullet(\overline{\pi}(V)) < +\infty $.
+#### Definition 4 {#int-ix-s2-def-4 .statement}
 
-#### Remark {#int-ix-s2-n3-rem-1 .statement}
+Let $ \pi $ be a mapping of T into a topological space X. One says that $ \pi $ is $ \mu $-proper if $ \pi $ is $ \mu $-measurable, and if every point x of X admits a neighborhood V such that $ \mu^\bullet(\overline{\pi}(V)) < +\infty $.
 
-— 1) When T and X are locally compact, this definition is equivalent to that of Ch. V, §6, No. 1.
+#### Remark 1 {#int-ix-s2-n3-rem-1 .statement}
+
+When T and X are locally compact, this definition is equivalent to that of Ch. V, §6, No. 1.
 2) A proper continuous mapping (GT, I, §10, No. 1, Def. 1) of T into X is $ \mu $-proper for every measure $ \mu $. For, let $ x \in X $; since $ \overline{\pi}(x) $ is compact (loc. cit., No. 2, Th. 1), the set $ \overline{\pi}(x) $ has an open neighborhood H such that $ \mu^\bullet(H) < +\infty $. Set $ V = X - \pi(T - H) $; since $ \pi $ is closed, V is open in X, contains x, and satisfies $ \overline{\pi}(V) \subset H $, whence $ \mu^\bullet(\overline{\pi}(V)) \leq \mu^\bullet(H) < +\infty $.
 3) If $ \mu $ is bounded, every $ \mu $-measurable mapping of T into X is $ \mu $-proper.
 4) If $ \theta $ is a complex measure on T, $ \pi $ is said to be $ \theta $-proper if $ \pi $ is proper for the positive measure $ |\theta| $.
 
-Proposition 4. — Let $ \pi $ be a $ \mu $-proper mapping of T into a topological space X. There exists one and only one measure $ \nu $ on X such that $ \nu^\bullet $ is equal to the image encumbrance $ \pi(\mu^\bullet) $ (§1, No. 1), in other words, such that $ \nu^\bullet(g) = \mu^\bullet(g \circ \pi) $ for all $ g \in \mathcal{F}_+(X) $.
+#### Proposition 4 {#int-ix-s2-prop-4 .statement}
+
+Let $ \pi $ be a $ \mu $-proper mapping of T into a topological space X. There exists one and only one measure $ \nu $ on X such that $ \nu^\bullet $ is equal to the image encumbrance $ \pi(\mu^\bullet) $ (§1, No. 1), in other words, such that $ \nu^\bullet(g) = \mu^\bullet(g \circ \pi) $ for all $ g \in \mathcal{F}_+(X) $.
 
 Uniqueness is obvious (§1, No. 2, Cor. of Prop. 2). To establish existence, we shall first treat the case that $ \mu $ is carried by a compact set K, such that the restriction of $ \pi $ to K is continuous. Then $ L = \pi(K) $ is compact; let $ \pi' $ be the continuous mapping of K into L induced by $ \pi $, and let $ \nu' $ be the image measure $ \pi'(\mu_K) $ on L, $ \nu $ the measure on X defined by $ \nu' $ (§1, No. 3, Example 2). For every $ g \in \mathcal{F}_+(X) $,
 
@@ -237,7 +251,7 @@ To show that the condition is sufficient, we first treat a special case.
 
 #### Lemma 1 {#int-ix-s2-lem-1 .statement}
 
-— Let U and V be two compact spaces, h a continuous mapping of U onto V. The mapping $ \lambda \mapsto h(\lambda) $ of $ \mathcal{M}_+(U) $ into $ \mathcal{M}_+(V) $ is then surjective.
+Let U and V be two compact spaces, h a continuous mapping of U onto V. The mapping $ \lambda \mapsto h(\lambda) $ of $ \mathcal{M}_+(U) $ into $ \mathcal{M}_+(V) $ is then surjective.
 
 For, let a be the linear mapping $ f \mapsto f \circ h $ of $ \mathcal{C}(V) $ into $ \mathcal{C}(U) $; since h is surjective, a is an isometry of $ \mathcal{C}(V) $ onto a subspace H of $ \mathcal{C}(U) $. Let $ \theta $ be a positive measure on V; then $ \theta \circ a^{-1} $ is a continuous linear form on H, which is extendible to a linear form $ \eta $ on $ \mathcal{C}(U) $ with the same norm, by virtue of the Hahn–Banach theorem (TVS, II, §3, No. 2, Cor. 3 of Th. 1); $ \eta $ is then a measure on U, and $ \theta(f) = \eta(f \circ h) $ for all $ f \in \mathcal{C}(V) $, so that $ \theta = h(\eta) $. Finally, $ \theta(1) = \| \theta \| = \| \eta \| $, and $ \theta(1) = \eta(1) $, so that $ \eta $ is positive (Ch. V, §5, No. 5, Prop. 9).
 
@@ -264,7 +278,7 @@ The two measures $ \mu $ and $ \mu' $ thus have the same essential upper integra
 
 #### Remark {#int-ix-s2-n4-rem-1 .statement}
 
-— Suppose that $ \pi $ is injective. Let $ \theta $ be a complex measure such that $ \pi $ is $ \theta $-proper and $ \pi(\theta) = 0 $; then $ \theta = 0 $. Indeed, by separating $ \theta $ into its real and imaginary parts, one can reduce to the case that $ \theta $ is real. We then have $ \pi(\theta^+) = \pi(\theta^-) $, therefore $ \theta^+ = \theta^- $ (Prop. 8), and finally $ \theta = 0 $.
+Suppose that $ \pi $ is injective. Let $ \theta $ be a complex measure such that $ \pi $ is $ \theta $-proper and $ \pi(\theta) = 0 $; then $ \theta = 0 $. Indeed, by separating $ \theta $ into its real and imaginary parts, one can reduce to the case that $ \theta $ is real. We then have $ \pi(\theta^+) = \pi(\theta^-) $, therefore $ \theta^+ = \theta^- $ (Prop. 8), and finally $ \theta = 0 $.
 
 Here is an important case where condition $ a) $ of Prop. 8 is always satisfied.
 
@@ -487,7 +501,7 @@ We will need an auxiliary result:
 
 #### Lemma 4 {#int-ix-s2-lem-4 .statement}
 
-— Let $ X $ be a topological space, $ \nu $ a measure on $ X $, and $ f $ a $ \nu $-measurable mapping of $ X $ into a topological space $ F $ (Hausdorff or not). There exists a universally measurable mapping $ f' $ of $ X $ into $ F $, equal to $ f $ locally $ \nu $-almost everywhere.
+Let $ X $ be a topological space, $ \nu $ a measure on $ X $, and $ f $ a $ \nu $-measurable mapping of $ X $ into a topological space $ F $ (Hausdorff or not). There exists a universally measurable mapping $ f' $ of $ X $ into $ F $, equal to $ f $ locally $ \nu $-almost everywhere.
 
 The proof is identical to that of Prop. 7 of Ch. V, §3, No. 4, on taking into account Prop. 10 of §1, No. 8.
 

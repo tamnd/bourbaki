@@ -50,9 +50,9 @@ subsections:
       title: Integration theory
       page: 20
       pdf_page: 202
-statements: 48
+statements: 52
 exercises: 10
-content_sha256: ddfcbbe902634948b3701e964bd8fb40a56c4e500a833c42e74c516bfd5f4c7f
+content_sha256: 09dfd62372172bb0f417cdcb29ddcb19df14c593ed44b869e32a2b25b4cf5f72
 ---
 
 ## § 1. PREMEASURES AND MEASURES ON A TOPOLOGICAL SPACE
@@ -212,11 +212,13 @@ The set of complex measures on $T$ is obviously a vector space (*Remark* 1), whi
 
 If $ w $ is a complex measure, its real part and its imaginary part are real measures. If $ w $ is a real measure, $ w^+ $ and $ w^- $ are positive measures. Every complex (resp. real) measure is thus a linear combination (resp. difference) of positive measures.
 
-#### Remark {#int-ix-s1-n2-rem-1 .statement}
+#### Remark 2 {#int-ix-s1-n2-rem-2 .statement}
 
-— 2) If $ T $ is *locally compact*, then every premeasure $ w $ on $ T $ is a measure. For, every $ x \in T $ admits a compact neighborhood $ K $, and $ |w|^*(K) = \|w_K\| < +\infty $, so that the encumbrance $ |w|^* $ is locally bounded.
+If $ T $ is *locally compact*, then every premeasure $ w $ on $ T $ is a measure. For, every $ x \in T $ admits a compact neighborhood $ K $, and $ |w|^*(K) = \|w_K\| < +\infty $, so that the encumbrance $ |w|^* $ is locally bounded.
 
-3) For every Borel subset $ A $ of $ T $ (in particular for $ A = T $) and every positive measure $ \mu $ on $ T $, the number $ \mu^*(A) $ is the supremum of the measures $ \mu^*(K) $ of the compact subsets of $ A $. Indeed, for every compact subset $ K $ of $ A $, one has $ \mu^*(K) \leq \mu^*(A) $; on the other hand, if $ \mathfrak{K} $ is the set of compact subsets of $ T $, then
+#### Remark 3 {#int-ix-s1-n2-rem-3 .statement}
+
+For every Borel subset $ A $ of $ T $ (in particular for $ A = T $) and every positive measure $ \mu $ on $ T $, the number $ \mu^*(A) $ is the supremum of the measures $ \mu^*(K) $ of the compact subsets of $ A $. Indeed, for every compact subset $ K $ of $ A $, one has $ \mu^*(K) \leq \mu^*(A) $; on the other hand, if $ \mathfrak{K} $ is the set of compact subsets of $ T $, then
 
 $$
 \mu^*(A) = \sup_{K \in \mathfrak{K}} \mu_K^*(A \cap K) = \sup_{K \in \mathfrak{K}} \sup_{L \in \mathfrak{K}, L \subset A \cap K} \mu_K^*(L) \leq \sup_{L \in \mathfrak{K}, L \subset A} \mu^*(L)
@@ -423,11 +425,13 @@ By the preceding corollary, there exists a largest locally negligible open set; 
 
 The support of $\mu$ is denoted $\operatorname{Supp}(\mu)$.
 
-#### Remark {#int-ix-s1-n6-rem-1 .statement}
+#### Remark 1 {#int-ix-s1-n6-rem-1 .statement}
 
-— 1) If $\mu$ is a complex measure, the support of $\mu$ is defined to be the support of the positive measure $|\mu|$; it is again the complement of the largest locally $\mu$-negligible open set.
+If $\mu$ is a complex measure, the support of $\mu$ is defined to be the support of the positive measure $|\mu|$; it is again the complement of the largest locally $\mu$-negligible open set.
 
-2) Let us show that the measures introduced in *Example 2* of No. 3 are measures with compact support in $T$. Let $\mu$ be a positive measure on $T$ whose support is a compact set $K$, and let $\nu$ be the measure defined by $\mu_K$ (in the sense of No. 3). Let $f \in \mathcal{F}_+(T)$; then
+#### Remark 2 {#int-ix-s1-n6-rem-2 .statement}
+
+Let us show that the measures introduced in *Example 2* of No. 3 are measures with compact support in $T$. Let $\mu$ be a positive measure on $T$ whose support is a compact set $K$, and let $\nu$ be the measure defined by $\mu_K$ (in the sense of No. 3). Let $f \in \mathcal{F}_+(T)$; then
 
 $$
 \nu^\bullet(f) = \mu_K^\bullet(f_K) \quad \text{(No. 3, formula (3))}.
@@ -584,13 +588,17 @@ The proof is identical to that of Prop. 19 of Ch. IV, §1, No. 4.
 
 For example, since the encumbrance $ \mu^\bullet $ is locally bounded, every compact subset $ K $ of $ T $ is contained in an open set $ V $ such that $ \mu^\bullet(V) < +\infty $; a function that is zero outside a compact set is therefore moderated. A negligible function is moderated. The remarks following Def. 2 of Ch. V, §1, No. 2 can immediately be extended to the present context. In particular, the sum of a sequence of moderated positive functions is moderated.
 
-#### Remark {#int-ix-s1-n9-rem-1 .statement}
+#### Remark 1 {#int-ix-s1-n9-rem-1 .statement}
 
-— 1) On a Lindelöf space T (TG, IX, Appendix I, Def. 1),¹ and in particular on a Souslin space (ibid., Cor. of Prop. 1), every measure is moderated. For, the open sets of finite measure form a covering of T, from which one can extract a countable covering of T.
+On a Lindelöf space T (TG, IX, Appendix I, Def. 1),¹ and in particular on a Souslin space (ibid., Cor. of Prop. 1), every measure is moderated. For, the open sets of finite measure form a covering of T, from which one can extract a countable covering of T.
 
-2) Beware, however, that the existence of a sequence of Borel sets of finite measure for $ \mu $, with union T, does not necessarily imply the existence of a sequence of open sets of finite measure with union T (in other words, does not imply that $ \mu $ is moderated). See Exer. 8.
+#### Remark 2 {#int-ix-s1-n9-rem-2 .statement}
 
-Proposition 14. — Let $ f \in \mathcal{F}_+(T) $. If $ f $ is $ \mu $-moderated, then $ \mu^*(f) = \mu^\bullet(f) $; if $ f $ is not $ \mu $-moderated, then $ \mu^*(f) = +\infty $.
+Beware, however, that the existence of a sequence of Borel sets of finite measure for $ \mu $, with union T, does not necessarily imply the existence of a sequence of open sets of finite measure with union T (in other words, does not imply that $ \mu $ is moderated). See Exer. 8.
+
+#### Proposition 14 {#int-ix-s1-prop-14 .statement}
+
+Let $ f \in \mathcal{F}_+(T) $. If $ f $ is $ \mu $-moderated, then $ \mu^*(f) = \mu^\bullet(f) $; if $ f $ is not $ \mu $-moderated, then $ \mu^*(f) = +\infty $.
 
 If $ \mu^*(f) < +\infty $, there exists a lower semi-continuous function $ g \geq f $ such that $ \mu^\bullet(g) < +\infty $. For every $ n \in \mathbf{N} $, let $ G_n $ be the set of $ t \in T $ such that $ g(t) > 1/n $; the set $ G_n $ is open, one has $ \mu^\bullet(G_n) \leq n \mu^\bullet(g) < +\infty $, and $ f $ is zero outside the union of the $ G_n $: the function $ f $ is therefore moderated.
 
@@ -616,29 +624,29 @@ $$
 \mu_i^*(g) \leq \mu_i^*(k) = \lambda^*(k_L) \leq \lambda^*(f_L) + c = \mu_i^*(f) + c.
 $$
 
-#### Corollary 1 {#int-ix-s1-def-12-cor-1 .statement}
+#### Corollary 1 {#int-ix-s1-prop-14-cor-1 .statement}
 
 *For a function to be negligible, it is necessary and sufficient that it be locally negligible and moderated.*
 
-#### Corollary 2 {#int-ix-s1-def-12-cor-2 .statement}
+#### Corollary 2 {#int-ix-s1-prop-14-cor-2 .statement}
 
 *For a function $ f $ to be locally negligible, it is necessary and sufficient that every $ x \in T $ possess a neighborhood V such that $ f \varphi_V $ is negligible.*
 
 For, if this property is satisfied, $ f \varphi_K $ is negligible for every compact set K, and $ f $ is therefore locally negligible (No. 2, Prop. 2). Conversely, suppose that $ f $ is locally negligible, and let $ x $ be a point of T; $ x $ admits an open neighborhood V of finite measure. The function $ f \varphi_V $ is then locally negligible and moderated, hence is negligible.
 
-#### Corollary 3 {#int-ix-s1-def-12-cor-3 .statement}
+#### Corollary 3 {#int-ix-s1-prop-14-cor-3 .statement}
 
 *Let $ f $ be a moderated function defined on T. There exists a sequence $ (K_n) $ of pairwise disjoint compact sets, and a negligible set H, such that $ f = f \varphi_H + \sum_n f \varphi_{K_n} $.*
 
 For, let G be a set that is a countable union of integrable open sets, such that $ f $ is zero outside G; then G is the union of a sequence $ (K_n) $ of pairwise disjoint compact sets and a locally negligible set H (No. 8, Prop. 11); but H is moderated, therefore negligible.
 
-#### Corollary 4 {#int-ix-s1-def-12-cor-4 .statement}
+#### Corollary 4 {#int-ix-s1-prop-14-cor-4 .statement}
 
 *If $ \mu $ and $ \nu $ are two measures on T such that $ \mu^* = \nu^* $, then $ \mu = \nu $.*
 
 For, the equality $ \mu^* = \nu^* $ implies that $ \mu^*(f) = \nu^*(f) $ for every positive function $ f $ that is moderated for $ \mu $ and $ \nu $, hence for every positive function with compact support; it follows that $ \mu^* = \nu^* $ (No. 2, Prop. 2), then $ \mu = \nu $ (No. 2, Cor. of Prop. 2).
 
-#### Corollary 5 {#int-ix-s1-def-12-cor-5 .statement}
+#### Corollary 5 {#int-ix-s1-prop-14-cor-5 .statement}
 
 *If $ \mu $ is a moderated measure on T, there exists a sequence $ (\mu_n)_{n \in \mathbf{N}} $ of measures with compact support such that $ \mu = \sum_{n \in \mathbf{N}} \mu_n $.*
 

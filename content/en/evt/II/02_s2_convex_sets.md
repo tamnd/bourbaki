@@ -55,9 +55,9 @@ subsections:
       title: Semi-norms and convex sets
       page: 19
       pdf_page: 56
-statements: 44
+statements: 49
 exercises: 43
-content_sha256: f65daab6fd5b6593e3990a694a436bbe61925b832fcc06ccbdc14a060e21a5f8
+content_sha256: 2affb3608645fab11d9a3351054f90e8c700ae732d648a7fd5e2353888631251
 ---
 
 ## § 2. CONVEX SETS
@@ -72,9 +72,9 @@ For any two points $ x, y $ of an affine space $ E $, the set of points $ \lambd
 
 As $ (1 - \lambda) a + \lambda x = a + \lambda (x - a) $, this definition is equivalent to the following: the set $ A $ is convex if, for every point $ a \in A $, the transform of $ A $ by a homothety of centre $ a $ and ratio $ \lambda $ where $ 0 < \lambda < 1 $, is contained in $ A $ (in other words, $ A $ is stable for these homotheties).
 
-#### Example {#evt-ii-s2-n1-exa-1 .statement}
+#### Example 1 {#evt-ii-s2-n1-exa-1 .statement}
 
-— 1) Every linear affine variety of $ E $ (and in particular the empty set) is convex.
+Every linear affine variety of $ E $ (and in particular the empty set) is convex.
 2) The only non-empty convex sets in $ \mathbf{R} $ are the intervals (GT, IV, § 2.4, prop. 1).
 3) Let $ E $ be a vector space and $ \|x\| $ a norm on $ E $; the unit ball $ B $, formed by the points $ x $
 
@@ -269,7 +269,7 @@ Note that axiom (EO$_I$) means that the preorder structure and the additive grou
 
 #### Example {#evt-ii-s2-n5-exa-2 .statement}
 
-— \* Let H be a real Hilbert space; in the vector space $ \mathcal{L}(H) $ of continuous endomorphisms of H, the positive hermitian endomorphisms form a proper pointed convex cone; this cone, therefore, defines an order structure compatible with the vector space structure of $ \mathcal{L}(H) $ and for which the relation $ A \leqslant B $ means that $ B - A $ is a positive hermitian endomorphism. \*
+\* Let H be a real Hilbert space; in the vector space $ \mathcal{L}(H) $ of continuous endomorphisms of H, the positive hermitian endomorphisms form a proper pointed convex cone; this cone, therefore, defines an order structure compatible with the vector space structure of $ \mathcal{L}(H) $ and for which the relation $ A \leqslant B $ means that $ B - A $ is a positive hermitian endomorphism. \*
 
 For any pointed convex cone P in the vector space E, the set $ P \cap (-P) $ is a vector subspace, H, of E (II, p. 11, cor. 2). The canonical image $ P' $ of P in $ E/H $ is a convex cone and the inverse image of $ P' $ in E is P. Thus $ P' \cap (-P') = \{0\} $, and $ P' $ defines an order structure on $ E/H $ that is compatible with its vector space structure.
 
@@ -277,11 +277,15 @@ A linear form $ f $ on a preordered vector space E is said to be positive if $ x
 
 ### 6. Convex cones in topological vector spaces
 
-Proposition 14. — In a topological vector space E, the closure of a convex set (resp. of a convex cone) is a convex set (resp. a convex cone with the same vertex).
+#### Proposition 14 {#evt-ii-s2-prop-14 .statement}
+
+In a topological vector space E, the closure of a convex set (resp. of a convex cone) is a convex set (resp. a convex cone with the same vertex).
 
 For, let A be a convex set; the mapping $ (x, y) \mapsto \lambda x + (1 - \lambda) y $, where $ 0 < \lambda < 1 $, is continuous in $ E \times E $ and maps $ A \times A $ in A; thus (GT, I, § 2.1, th. 1) it maps $ \overline{A} \times \overline{A} $ in $ \overline{A} $, which shows that $ \overline{A} $ is convex. Similarly, if C is a convex cone with vertex 0 then $ \overline{C} + \overline{C} \subset \overline{C} $ and $ \lambda \overline{C} \subset \overline{C} $ for all $ \lambda > 0 $.
 
-Definition 4. — For any set A of a topological vector space E, the intersection of all the closed convex sets containing A is called the convex closed envelope of A; it is the smallest convex closed set containing A.
+#### Definition 4 {#evt-ii-s2-def-4 .statement}
+
+For any set A of a topological vector space E, the intersection of all the closed convex sets containing A is called the convex closed envelope of A; it is the smallest convex closed set containing A.
 
 From prop. 14, the convex closed envelope of A is the closure of the convex envelope of A; it is clearly the same as the convex closed envelope of $ \overline{A} $.
 
@@ -343,7 +347,7 @@ Apply prop. 17 to the case $ A = P $ where H is the hyperplane with the equation
 
 #### Remark {#evt-ii-s2-n6-rem-1 .statement}
 
-— In a topological vector space E, every convex set C is connected. In fact, if $ a \in C $, then C is a union of segments with end point a and closed at a; these are connected and the result follows from GT, I, § 11.1, prop. 2.
+In a topological vector space E, every convex set C is connected. In fact, if $ a \in C $, then C is a union of segments with end point a and closed at a; these are connected and the result follows from GT, I, § 11.1, prop. 2.
 
 ### 7. Topologies on ordered vector spaces
 
@@ -355,19 +359,23 @@ An ordered vector space E with a compatible topology is called an ordered topolo
 
 #### Example {#evt-ii-s2-n7-exa-1 .statement}
 
-— The space $ \mathbf{R}^n $ with its usual topology and the order structure that is the product of the order structure of its factors is an ordered topological vector space. On the other hand, for $ n \geq 2 $, when $ \mathbf{R}^n $ carries the lexicographical order (S, III, § 2.6), the usual topology is not compatible with the ordered vector space structure of $ \mathbf{R}^n $.
+The space $ \mathbf{R}^n $ with its usual topology and the order structure that is the product of the order structure of its factors is an ordered topological vector space. On the other hand, for $ n \geq 2 $, when $ \mathbf{R}^n $ carries the lexicographical order (S, III, § 2.6), the usual topology is not compatible with the ordered vector space structure of $ \mathbf{R}^n $.
 
 Let A be a set; the vector space $ \mathcal{B}(A ; \mathbf{R}) $ of real valued bounded functions defined on A, with the topology defined by the norm $ \|x\| = \sup_{t \in A} |x(t)| $ and the order structure induced by the product order structure of $ \mathbf{R}^A $, is an ordered topological vector space.
 
 In an ordered topological vector space E, the set of elements $ x \leq 0 $ is closed; since translations are homeomorphisms, we deduce that, for all $ a \in E $, the set of elements $ x \geq a $ (resp. $ x \leq a $) is closed. Since $ \{0\} $ is the intersection of the sets $ x \geq 0 $ and $ x \leq 0 $, it follows that $ \{0\} $ is closed and that E is Hausdorff.
 
-Proposition 18. — In an ordered topological vector space E, let H be a set directed by the relation $ \leq $. If the section filter of H has a limit in E, then this limit is the upper bound of H.
+#### Proposition 18 {#evt-ii-s2-prop-18 .statement}
+
+In an ordered topological vector space E, let H be a set directed by the relation $ \leq $. If the section filter of H has a limit in E, then this limit is the upper bound of H.
 
 For, let $ b = \lim_{x \in H} x $; for every $ y \in H $, the set of $ x \in H $ such that $ x \geq y $ is a set of the section filter of H, therefore b is a cluster point of this set; but as the set $ x \geq y $ is closed in E, we have $ b \geq y $, thus b is an upper bound of H. On the other hand, if a is an upper bound of H, then H is contained in the closed set $ x \leq a $; as b is a cluster point of H, we have $ b \leq a $, which completes the proof (II, p. 72, exerc. 42).
 
 ### 8. Convex functions
 
-Definition 5. — Let X be a convex subset of the affine space E. A real-valued finite function, defined over X is convex (resp. strictly convex) if for any two distinct points x, y of X and any real number $ \lambda, 0 < \lambda < 1 $, we have:
+#### Definition 5 {#evt-ii-s2-def-5 .statement}
+
+Let X be a convex subset of the affine space E. A real-valued finite function, defined over X is convex (resp. strictly convex) if for any two distinct points x, y of X and any real number $ \lambda, 0 < \lambda < 1 $, we have:
 
 (1)
 $$
@@ -384,7 +392,7 @@ When $ E = \mathbf{R} $, this definition of convex function is the same as that 
 
 #### Example {#evt-ii-s2-n8-exa-1 .statement}
 
-— If f is an affine linear function on E, then f and $ f^2 $ are convex functions on E; this is obvious for f since
+If f is an affine linear function on E, then f and $ f^2 $ are convex functions on E; this is obvious for f since
 $$
 f(\lambda x + (1 - \lambda) y) = \lambda f(x) + (1 - \lambda) f(y);
 $$
@@ -474,7 +482,9 @@ Finally if H is a set of convex functions defined over X, and $\mathfrak{F}$ is 
 
 ### 10. Convex functions over an open convex set
 
-Proposition 21. — Let $f$ be a convex function, defined over the non-empty open convex set X in the topological vector space E. Then $f$ is continuous if, and only if, it is bounded above when restricted to some non-empty open subset U of X.
+#### Proposition 21 {#evt-ii-s2-prop-21 .statement}
+
+Let $f$ be a convex function, defined over the non-empty open convex set X in the topological vector space E. Then $f$ is continuous if, and only if, it is bounded above when restricted to some non-empty open subset U of X.
 
 The condition is obviously necessary, we prove that it is sufficient. Let $x_0 \in X$ be a point such that $f$ is bounded above in a neighbourhood V of $x_0$; we show firstly that $ f $ is continuous at $ x_0 $. By translation, we can restrict ourselves to the case when $ x_0 = 0 $ and $ f(x_0) = 0 $; moreover we can suppose that the neighbourhood V is balanced (I, p. 7, prop. 4). Suppose that $ f(x) \leq a $ in V; for every $ \varepsilon, 0 < \varepsilon < 1 $, we observe that if $ x \in \varepsilon V $, then $ x/\varepsilon \in V $ and $ -x/\varepsilon \in V $. Applying inequality (1) of II, p. 16 to the points $ x/\varepsilon $ and 0 and to the number $ \lambda = \varepsilon $, we see that $ f(x) \leq \varepsilon f(x/\varepsilon) \leq \varepsilon a $; applying it to points $ x $ and $ -x/\varepsilon $ and the number $ \lambda = 1/(1 + \varepsilon) $, gives $ f(x) \geq -\varepsilon f(-x/\varepsilon) \geq -\varepsilon a $. Thus $ f(x) $ is arbitrarily small in $ \varepsilon V $, if $ \varepsilon $ is sufficiently small, and $ f $ is continuous at $ x = 0 $.
 

@@ -31,9 +31,9 @@ subsections:
       title: Hypocontinuity of the mapping $(u, v) \mapsto v \circ u$
       page: 32
       pdf_page: 164
-statements: 11
+statements: 16
 exercises: 15
-content_sha256: 4245718f16c815b97502b1ac288429946f7e3f9aa3b5136610d10239abd53e48
+content_sha256: 799fa348e3e310542a5b91d09f12e329a704e1d44ddf65bd9114b5b2dbaa9503
 ---
 
 ## § 5. HYPOCONTINUOUS BILINEAR MAPPINGS
@@ -42,11 +42,15 @@ content_sha256: 4245718f16c815b97502b1ac288429946f7e3f9aa3b5136610d10239abd53e48
 
 Let $ E, F, G $ be three locally convex spaces. For every bilinear mapping $ u $ from $ E \times F $ into $ G $, and for every $ x \in E $ (resp. $ y \in F $), we denote by $ u(x, .) $ (resp. $ u(., y) $) the mapping $ y \mapsto u(x, y) $ (resp. $ x \mapsto u(x, y) $) from $ F $ into $ G $ (resp. from $ E $ into $ G $).
 
-Definition 1. — *A bilinear mapping $ u $ from $ E \times F $ into $ G $ is said to be separately continuous if, for all $ x \in E $, the linear mapping $ u(x, .) $ from $ F $ into $ G $ is continuous, and for all $ y \in F $, the linear mapping $ u(., y) $ from $ E $ into $ G $ is continuous.*
+#### Definition 1 {#evt-iii-s5-def-1 .statement}
+
+*A bilinear mapping $ u $ from $ E \times F $ into $ G $ is said to be separately continuous if, for all $ x \in E $, the linear mapping $ u(x, .) $ from $ F $ into $ G $ is continuous, and for all $ y \in F $, the linear mapping $ u(., y) $ from $ E $ into $ G $ is continuous.*
 
 The following proposition follows immediately from the definition.
 
-Proposition 1. — *For a bilinear mapping $ u $ from $ E \times F $ into $ G $ to be separately continuous, it is necessary and sufficient that for all $ y \in F $, the linear mapping $ u(., y) $ from $ E $ into $ G $ is continuous and that the linear mapping $ y \mapsto u(., y) $ from $ F $ into $ \mathcal{L}_s(E; G) $ is continuous.*
+#### Proposition 1 {#evt-iii-s5-prop-1 .statement}
+
+*For a bilinear mapping $ u $ from $ E \times F $ into $ G $ to be separately continuous, it is necessary and sufficient that for all $ y \in F $, the linear mapping $ u(., y) $ from $ E $ into $ G $ is continuous and that the linear mapping $ y \mapsto u(., y) $ from $ F $ into $ \mathcal{L}_s(E; G) $ is continuous.*
 
 We can also say that, to every linear mapping $ v \in \mathcal{L}(F; \mathcal{L}_s(E; G)) $ is associated the bilinear mapping $ (x, y) \mapsto v(y)(x) $, then we define a linear *bijection* from $ \mathcal{L}(F; \mathcal{L}_s(E; G)) $ onto the vector space of separately continuous bilinear mappings from $ E \times F $ into $ G $.
 
@@ -173,7 +177,9 @@ Condition $a)$ of prop. 3 (III, p. 30) shows that for a bilinear mapping $u : E 
 
 ### 4. Extension of a hypocontinuous bilinear mapping
 
-Proposition 7. — *Let* $E, F, G$ *be three locally convex spaces*, $G$ *being assumed Hausdorff*; *let* $E_0$ *(resp. $F_0$) be a dense vector subspace of* $E$ *(resp. $F$). Let* $u$ *be a separately continuous bilinear mapping from* $E \times F$ *into* $G$.
+#### Proposition 7 {#evt-iii-s5-prop-7 .statement}
+
+*Let* $E, F, G$ *be three locally convex spaces*, $G$ *being assumed Hausdorff*; *let* $E_0$ *(resp. $F_0$) be a dense vector subspace of* $E$ *(resp. $F$). Let* $u$ *be a separately continuous bilinear mapping from* $E \times F$ *into* $G$.
 
 1) *If* $u(E_0 \times F_0) = \{0\}$, *then* $u = 0$.
 
@@ -183,13 +189,17 @@ Proposition 7. — *Let* $E, F, G$ *be three locally convex spaces*, $G$ *being 
 
 2) For every closed neighbourhood $W$ of 0 in $G$ and for every set $M \in \mathfrak{S}_0$, there exists, by hypothesis, a neighbourhood $V$ of 0 in $F_0$ such that $u(M \times V) \subset W$. But $\overline{V}$ is a neighbourhood of 0 in $F$; for every $x \in M$, the relation $u(\{x\} \times V) \subset W$ implies that $u(\{x\} \times \overline{V}) \subset W$, since $u(x, .)$ is continuous and $W$ is closed; therefore $u(M \times \overline{V}) \subset W$, which proves that $u$ is $\mathfrak{S}_0$*-hypocontinuous.
 
-Proposition 8. — *Let* $E, F, G$ *be three locally convex spaces*; *assume that* $G$ *is Hausdorff and quasi-complete*. *Let* $E_0$ *(resp. $F_0$) be a dense vector subspace of* $E$ *(resp. $F$), $\mathfrak{S}_0$ *(resp. $\mathfrak{T}_0$) a family of bounded subsets of* $E_0$ *(resp. $F_0$) such that every point of* $E$ *(resp. $F$) is in the closure of an element of* $\mathfrak{S}_0$ *(resp. $\mathfrak{T}_0$). Then every* $(\mathfrak{S}_0, \mathfrak{T}_0)$*-hypocontinuous bilinear mapping* $u$ *from* $E_0 \times F_0$ *into* $G$ *extends uniquely to a separately continuous bilinear mapping* $\overline{u}$ *from* $E \times F$ *into* $G$ *and* $\overline{u}$ *is* $(\mathfrak{S}_0, \mathfrak{T}_0)$*-hypocontinuous*.
+#### Proposition 8 {#evt-iii-s5-prop-8 .statement}
+
+*Let* $E, F, G$ *be three locally convex spaces*; *assume that* $G$ *is Hausdorff and quasi-complete*. *Let* $E_0$ *(resp. $F_0$) be a dense vector subspace of* $E$ *(resp. $F$), $\mathfrak{S}_0$ *(resp. $\mathfrak{T}_0$) a family of bounded subsets of* $E_0$ *(resp. $F_0$) such that every point of* $E$ *(resp. $F$) is in the closure of an element of* $\mathfrak{S}_0$ *(resp. $\mathfrak{T}_0$). Then every* $(\mathfrak{S}_0, \mathfrak{T}_0)$*-hypocontinuous bilinear mapping* $u$ *from* $E_0 \times F_0$ *into* $G$ *extends uniquely to a separately continuous bilinear mapping* $\overline{u}$ *from* $E \times F$ *into* $G$ *and* $\overline{u}$ *is* $(\mathfrak{S}_0, \mathfrak{T}_0)$*-hypocontinuous*.
 
 The uniqueness and hypocontinuity of $\overline{u}$ follows from prop. 7; it remains to prove the existence of $\overline{u}$. For every $y' \in F_0$, the continuous linear mapping $x' \mapsto u(x', y')$ from $E_0$ into $G$ extends uniquely to a continuous linear mapping $x \mapsto u_1(x, y')$ from $E$ into $G$ (III, p. 8, prop. 10). It follows immediately that for every $x \in E$, the mapping $y' \mapsto u_1(x, y')$ from $F_0$ into $G$ is linear; and we shall show that it is continuous. By hypothesis, there exists $M \in \mathfrak{S}_0$, such that $x \in \overline{M}$. For every closed neighbourhood $W$ of 0 in $G$, there exists, by hypothesis, a neighbourhood $V$ of 0 in $F_0$ such that $u(M \times V) \subset W$; since $x \mapsto u_1(x, y')$ is continuous, we deduce that $u_1(\overline{M} \times V) \subset W$, and in particular $u_1(x, y') \in W$ for all $y' \in V$. This establishes our assertion. By virtue of prop. 7, the bilinear map $u_1$ from $E \times F_0$ into $G$ is $(\mathfrak{S}_0, \mathfrak{T}_0)$*-hypocontinuous. We end the proof by interchanging the roles of $E$ and $F$ in the first part of the proof, applied to $u_1$.
 
 ### 5. Hypocontinuity of the mapping $(u, v) \mapsto v \circ u$
 
-Proposition 9. — *Let* $R, S, T$ *be three locally convex Hausdorff spaces*. *Suppose that the spaces* $\mathcal{L}(R; S), \mathcal{L}(S; T), \mathcal{L}(R; T)$ *are each assigned the topology of simple* (resp. *compact*, *bounded*) convergence. *Then the bilinear mapping* $(u, v) \mapsto v \circ u$ *from* $\mathcal{L}(R; S) \times \mathcal{L}(S; T)$ *into* $\mathcal{L}(R; T)$ *is* $(\mathfrak{S}, \mathfrak{T})$-*hypocontinuous*, *where* $\mathfrak{T}$ *is the family of equicontinuous subsets of* $\mathcal{L}(S; T)$, *and* $\mathfrak{S}$ *the family of finite* (resp. *compact, bounded*) *subsets of* $\mathcal{L}(R; S)$.
+#### Proposition 9 {#evt-iii-s5-prop-9 .statement}
+
+*Let* $R, S, T$ *be three locally convex Hausdorff spaces*. *Suppose that the spaces* $\mathcal{L}(R; S), \mathcal{L}(S; T), \mathcal{L}(R; T)$ *are each assigned the topology of simple* (resp. *compact*, *bounded*) convergence. *Then the bilinear mapping* $(u, v) \mapsto v \circ u$ *from* $\mathcal{L}(R; S) \times \mathcal{L}(S; T)$ *into* $\mathcal{L}(R; T)$ *is* $(\mathfrak{S}, \mathfrak{T})$-*hypocontinuous*, *where* $\mathfrak{T}$ *is the family of equicontinuous subsets of* $\mathcal{L}(S; T)$, *and* $\mathfrak{S}$ *the family of finite* (resp. *compact, bounded*) *subsets of* $\mathcal{L}(R; S)$.
 
 We first prove that $(u, v) \mapsto v \circ u$ is $\mathfrak{T}$-hypocontinuous. Let H be an equicontinuous set in $\mathcal{L}(S; T)$, let W be a neighbourhood of 0 in T and let M be a finite (resp. compact, bounded) subset of R. We must show that there exists a neighbourhood V of 0 in S such that if $u(M) \subset V$ and $v \in H$, then $v(u(M)) \subset W$. But for this, it is enough to have $v(V) \subset W$ for all $v \in H$, and the existence of such a neighbourhood follows from the equicontinuity of H.
 
@@ -197,13 +207,13 @@ To see that $(u, v) \mapsto v \circ u$ is $\mathfrak{S}$-hypocontinuous, we shal
 
 In the two corollaries that follow, we assume as in prop. 9, that the spaces $\mathcal{L}(R; S)$, $\mathcal{L}(S; T)$, $\mathcal{L}(R; T)$ are *all three* assigned the topology of simple convergence, or all three the topology of compact convergence, or all three that of bounded convergence.
 
-#### Corollary 1 {#evt-iii-s5-prop-6-cor-1 .statement}
+#### Corollary 1 {#evt-iii-s5-prop-9-cor-1 .statement}
 
 *For every equicontinuous subset H of* $\mathcal{L}(S; T)$ *the map* $(u, v) \mapsto v \circ u$ *from* $\mathcal{L}(R; S) \times H$ *into* $\mathcal{L}(R; T)$ *is continuous*.
 
 This follows immediately from prop. 9 (III, p. 32) and 4 (III, p. 31).
 
-#### Corollary 2 {#evt-iii-s5-prop-6-cor-2 .statement}
+#### Corollary 2 {#evt-iii-s5-prop-9-cor-2 .statement}
 
 *Suppose S is barrelled. If the sequence* $(u_n)$ *tends to u in* $\mathcal{L}(R; S)$ *and the sequence* $(v_n)$ *to v in* $\mathcal{L}(S, T)$, *then the sequence* $(v_n \circ u_n)$ *tends to* $v \circ u$ *in* $\mathcal{L}(R; T)$.
 

@@ -60,9 +60,9 @@ subsections:
       title: The Case of Simple Rings
       page: 204
       pdf_page: 221
-statements: 36
+statements: 38
 exercises: 14
-content_sha256: 43d596f252fae7049ec8dcabbc9adee53a95a4b7ca0fc1773216251ad22f944a
+content_sha256: 097072a6252a31b52549d811e4b46eabb649dfcf3a7e8686d51686c1374532a2
 ---
 
 ## § 11. GROTHENDIECK GROUPS
@@ -99,7 +99,7 @@ of modules of type $\mathscr{C}$.
 
 #### Example 4 {#alg-viii-s11-n1-exa-4 .statement tag=00CX}
 
-— Let $ \mathcal{C} $ be the set of classes of A-modules of finite length. The mapping $ \operatorname{long}_A : \mathcal{C} \to \mathbf{Z} $ that sends a class of A-modules of finite length to its length is an additive function of modules (II, §1, No. 10, p. 213, Corollary 3). The results of this subsection are a generalization of the results on modules of finite length established in II, §1, No. 10, p. 212–214.
+Let $ \mathcal{C} $ be the set of classes of A-modules of finite length. The mapping $ \operatorname{long}_A : \mathcal{C} \to \mathbf{Z} $ that sends a class of A-modules of finite length to its length is an additive function of modules (II, §1, No. 10, p. 213, Corollary 3). The results of this subsection are a generalization of the results on modules of finite length established in II, §1, No. 10, p. 212–214.
 
 In the remainder of this subsection, we consider an additive set $ \mathcal{C} $ of A-modules and an additive mapping $ \varphi $ from $ \mathcal{C} $ to an abelian group $ G $.
 
@@ -118,7 +118,9 @@ $$
 
 In particular, we have $ \varphi(0) = 0 $.
 
-Proposition 1. — Suppose that $ \mathcal{C} $ is hereditary. Let E and F be A-modules and $ u : E \to F $ a linear mapping.
+#### Proposition 1 {#alg-viii-s11-prop-1 .statement tag=00CY}
+
+Suppose that $ \mathcal{C} $ is hereditary. Let E and F be A-modules and $ u : E \to F $ a linear mapping.
 a) If E or F is of type $ \mathcal{C} $, then so is the image of u.
 b) If E is of type $ \mathcal{C} $, then so is the kernel of u, and we have
 
@@ -143,7 +145,9 @@ $$
 0 \longrightarrow \operatorname{Im}\,u \longrightarrow F \longrightarrow \operatorname{Coker}\,u \longrightarrow 0.
 $$
 
-Corollary. — Let $ (E_i)_{0 \leq i \leq n} $ be a finite sequence of modules of type $ \mathcal{C} $. If there exists an exact sequence
+#### Corollary {#alg-viii-s11-n1-cor-1 .statement tag=00CZ}
+
+Let $ (E_i)_{0 \leq i \leq n} $ be a finite sequence of modules of type $ \mathcal{C} $. If there exists an exact sequence
 
 $$
 0 \longrightarrow E_0 \xrightarrow{u_0} E_1 \xrightarrow{u_1} \cdots \xrightarrow{u_{n-1}} E_{n-1} \xrightarrow{u_n} E_n \longrightarrow 0,

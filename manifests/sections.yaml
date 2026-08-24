@@ -155,10 +155,10 @@ books:
               last_pdf_page: 227
               book_pages: A VIII.183-A VIII.210
               subsections: 12
-              statements: 36
+              statements: 38
               exercises: 14
               extraction: native+ocr
-              content_sha256: 43d596f252fae7049ec8dcabbc9adee53a95a4b7ca0fc1773216251ad22f944a
+              content_sha256: 097072a6252a31b52549d811e4b46eabb649dfcf3a7e8686d51686c1374532a2
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -233,10 +233,10 @@ books:
               last_pdf_page: 370
               book_pages: A VIII.335-A VIII.353
               subsections: 6
-              statements: 30
+              statements: 31
               exercises: 7
               extraction: native+ocr
-              content_sha256: 11f069df657704342996d2122efce87e5dccfa6a1cfa49a5616defd552614a6d
+              content_sha256: bde84f6dbcf91d0bcdf72573c6bb387df3d76d5b15c56546c1f7ee2706920cee
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -246,10 +246,10 @@ books:
               last_pdf_page: 377
               book_pages: A VIII.355-A VIII.360
               subsections: 2
-              statements: 9
+              statements: 10
               exercises: 7
               extraction: native+ocr
-              content_sha256: 05b7066ed3c39e544b1ceb8f923c3ec7dae8f65d11434bc82da96e56f08de1e2
+              content_sha256: 54d2a6b31a60bad387aff00416b44414a3612b96aff88b09c11c2b91d78d43d8
             - kind: section
               section: 19
               title: Quaternion Algebras
@@ -259,10 +259,10 @@ books:
               last_pdf_page: 388
               book_pages: A VIII.361-A VIII.371
               subsections: 5
-              statements: 15
+              statements: 16
               exercises: 8
               extraction: native+ocr
-              content_sha256: 7d5168aa99b2f2acfbd469aef4e8669772350919e3f7d08311840c372b1c826b
+              content_sha256: 3a386d6bf9977c3b77d595a905a52232bbb912152085c1a821b5980f70fe6905
             - kind: section
               section: 20
               title: Linear Representations of Algebras
@@ -272,10 +272,10 @@ books:
               last_pdf_page: 412
               book_pages: A VIII.373-A VIII.395
               subsections: 8
-              statements: 29
+              statements: 31
               exercises: 6
               extraction: native+ocr
-              content_sha256: 56c384ee7eabca9fb2d1784b8312e82747ab0dae7ee44a191911a6aefe487913
+              content_sha256: 5ff83d16e3a49fa515ef33dc4d59f5844d64a112e8716f6ee4b4cde01df7b682
             - kind: section
               section: 21
               title: Linear Representations of Finite Groups
@@ -285,10 +285,10 @@ books:
               last_pdf_page: 451
               book_pages: A VIII.397-A VIII.434
               subsections: 13
-              statements: 31
+              statements: 36
               exercises: 30
               extraction: native+ocr
-              content_sha256: b38e447deaa35db654dfd692eab5354f9d2d620ba1a54eb7cd8fb0c710c16777
+              content_sha256: a08b33966e4211250824ddb04db1ee77dc894ab08e7740f6790fcc8b12126a24
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
@@ -2315,10 +2315,10 @@ books:
               first_pdf_page: 9
               last_pdf_page: 33
               subsections: 7
-              statements: 23
+              statements: 27
               exercises: 14
               extraction: ocr
-              content_sha256: 1fa35c643923023134a74cbf1e3b29360774f343b752ec68611729b926b6618a
+              content_sha256: f0fe7522d5d70ea7ec263b1a50c064ff88e7fa4c451682bf647a4d2358aa9dc4
             - kind: section
               section: 2
               title: Linear varieties in a topological vector space
@@ -2328,10 +2328,10 @@ books:
               last_pdf_page: 36
               book_pages: TVS I.11-TVS I.16, TVS I.25-TVS I.28
               subsections: 4
-              statements: 24
+              statements: 26
               exercises: 12
               extraction: ocr
-              content_sha256: c12495ea5aa70c96ec454e4334e835094b5959ce7044f945255ffd99a6e833e3
+              content_sha256: 0611dce22fc69b0f7b0388eda458e8a77da9c2bd9a94dbc0453d5be01bf883f0
             - kind: section
               section: 3
               title: Metrisable topological vector spaces
@@ -2344,7 +2344,7 @@ books:
               statements: 11
               exercises: 9
               extraction: ocr
-              content_sha256: 3f9d6ffe144af4f7f06621a65e3c7b30c95b9f58e434288523f844d78845614d
+              content_sha256: 184c133d6175f986f7939f6da88ce54db00e8a895f550755698af591ddbd4947
         - chapter: II
           title: CONVEX SETS AND LOCALLY CONVEX SPACES
           sections:
@@ -2366,10 +2366,10 @@ books:
               first_pdf_page: 38
               last_pdf_page: 44
               subsections: 4
-              statements: 12
+              statements: 15
               exercises: 0
               extraction: ocr
-              content_sha256: 22d965ad6a15e79855ff66d41cce85690ba89e25a41f4cb5222e05fdb5f82d84
+              content_sha256: 91c4d031e3ebb3825cc2f99598c1def259a421c106f44ab8650a4d069bf4464d
             - kind: section
               section: 2
               title: Convex sets
@@ -2379,10 +2379,10 @@ books:
               last_pdf_page: 109
               book_pages: TVS II.7-TVS II.21
               subsections: 11
-              statements: 44
+              statements: 49
               exercises: 43
               extraction: ocr
-              content_sha256: f65daab6fd5b6593e3990a694a436bbe61925b832fcc06ccbdc14a060e21a5f8
+              content_sha256: 2affb3608645fab11d9a3351054f90e8c700ae732d648a7fd5e2353888631251
             - kind: section
               section: 3
               title: The Hahn-Banach Theorem (analytic form)
@@ -2392,10 +2392,10 @@ books:
               last_pdf_page: 111
               book_pages: TVS II.21-TVS II.23, TVS II.72-TVS II.74
               subsections: 2
-              statements: 5
+              statements: 6
               exercises: 8
               extraction: ocr
-              content_sha256: 48405b8321a23ceb592b30296fd0ca206d837ae8c9aecaebc8880cf13b6d6611
+              content_sha256: 0aea7a7a7c11a906853b8b153e32f9152738a2304edacc86af18cebd51c10233
             - kind: section
               section: 4
               title: Locally convex spaces
@@ -2418,10 +2418,10 @@ books:
               last_pdf_page: 118
               book_pages: TVS II.36-TVS II.40, TVS II.76-TVS II.81
               subsections: 4
-              statements: 21
+              statements: 24
               exercises: 30
               extraction: ocr
-              content_sha256: ef3cb50958a2132d791f050aa2367a3e2957bbc2da2ad66deb90faecf196f50d
+              content_sha256: 8980b7d757e96a97ee6883201d0701256ff95f0727965a176942f2daab25fe89
             - kind: section
               section: 6
               title: Weak topologies
@@ -2431,10 +2431,10 @@ books:
               last_pdf_page: 123
               book_pages: TVS II.40-TVS II.53, TVS II.81-TVS II.86
               subsections: 8
-              statements: 39
+              statements: 41
               exercises: 20
               extraction: ocr
-              content_sha256: 1049b16ea7f3d1d52a3697fbbb8908ee491814e70eb0fc2b3e5904bc50517937
+              content_sha256: 109eceeeb99cc76649276c19786c2e09a70e1491d491d1e3c49c950e18545c64
             - kind: section
               section: 7
               title: Extremal points and extremal generators
@@ -2444,10 +2444,10 @@ books:
               last_pdf_page: 132
               book_pages: TVS II.54-TVS II.60, TVS II.87-TVS II.95
               subsections: 3
-              statements: 12
+              statements: 25
               exercises: 41
               extraction: ocr
-              content_sha256: debba20c88331d55b5d9fde0b294021f9389cc1025db7ffbda646200c2d8c538
+              content_sha256: 6e34cfcc639246b55db7a1ac0a776cdec42ff9ade32cd31bb6cbd67b27fab837
             - kind: section
               section: 8
               title: Complex locally convex spaces
@@ -2482,10 +2482,10 @@ books:
               first_pdf_page: 133
               last_pdf_page: 172
               subsections: 7
-              statements: 29
+              statements: 30
               exercises: 16
               extraction: ocr
-              content_sha256: b23ac8c0bb6fef3cd9831ce3a19840df9be017a870ed9a5fd47f91a1b3bb950f
+              content_sha256: 2f0744bb353caa5102a4d42ce492864262ce2acacdb6588ae8bf4b15e5bcbd05
             - kind: section
               section: 2
               title: Bornological spaces
@@ -2508,10 +2508,10 @@ books:
               last_pdf_page: 175
               book_pages: TVS III.13-TVS III.23, TVS III.41-TVS III.43
               subsections: 8
-              statements: 36
+              statements: 39
               exercises: 13
               extraction: ocr
-              content_sha256: c6cbd2671517b3726a7b5e1152f83a30a0ff2874fa14cebca8df26f711360f95
+              content_sha256: aeea6217ee0e16e1a568bfe18558a479b66f5f96008067b42ed34a7e73ebf8f7
             - kind: section
               section: 4
               title: The Banach-Steinhaus theorem
@@ -2521,10 +2521,10 @@ books:
               last_pdf_page: 178
               book_pages: TVS III.23-TVS III.28, TVS III.43-TVS III.46
               subsections: 3
-              statements: 18
+              statements: 24
               exercises: 21
               extraction: ocr
-              content_sha256: a2edee71db4e593e68f89a39e51758bcfe1e509cba48f52ecbb2195db6722cea
+              content_sha256: da542a383c7104e74e835c29e05ea8e7ea66fc9d23fd407dd3a49ac31b66ba67
             - kind: section
               section: 5
               title: Hypocontinuous bilinear mappings
@@ -2534,10 +2534,10 @@ books:
               last_pdf_page: 181
               book_pages: TVS III.28-TVS III.33, TVS III.46-TVS III.49
               subsections: 5
-              statements: 11
+              statements: 16
               exercises: 15
               extraction: ocr
-              content_sha256: 4245718f16c815b97502b1ac288429946f7e3f9aa3b5136610d10239abd53e48
+              content_sha256: 799fa348e3e310542a5b91d09f12e329a704e1d44ddf65bd9114b5b2dbaa9503
             - kind: section
               section: 6
               title: Borel's graph theorem
@@ -2550,7 +2550,7 @@ books:
               statements: 8
               exercises: 6
               extraction: ocr
-              content_sha256: e17f21307f796721ccc0bb4982493d69710026c31234fab45b7a949a6c553437
+              content_sha256: 53f87ac0d15b6797265ed0b88534f5dac4bfdaa5de968f2dd03c9521532bc8c9
         - chapter: IV
           title: DUALITY IN TOPOLOGICAL VECTOR SPACES
           sections:
@@ -2572,10 +2572,10 @@ books:
               first_pdf_page: 183
               last_pdf_page: 234
               subsections: 5
-              statements: 29
+              statements: 35
               exercises: 25
               extraction: ocr
-              content_sha256: 7e120bcdb5cd44a1ac3d543c5ec885c04658de4f0e38545a37847820b469c606
+              content_sha256: 3595be17b3c9c8cdcadd6b2c560c42a34a50a45db1046b62b30aa9e2f9200799
             - kind: section
               section: 2
               title: Bidual. Reflexive spaces
@@ -2585,10 +2585,10 @@ books:
               last_pdf_page: 239
               book_pages: TVS IV.14-TVS IV.21, TVS IV.52-TVS IV.57
               subsections: 5
-              statements: 25
+              statements: 30
               exercises: 24
               extraction: ocr
-              content_sha256: 830f329c51525fb2ab5bdc5f5baefdbfb75afd66607b2504932cf1fb9fafdfb7
+              content_sha256: c8f008de2daf8653ce90dda0cbafdb04b9e1842cb6daff4312ae7ca854ca1ef6
             - kind: section
               section: 3
               title: Dual of a Fréchet space
@@ -2598,10 +2598,10 @@ books:
               last_pdf_page: 243
               book_pages: TVS IV.21-TVS IV.26, TVS IV.57-TVS IV.61
               subsections: 6
-              statements: 14
+              statements: 15
               exercises: 2
               extraction: ocr
-              content_sha256: 4dfddf09c5a6f62b6dc1d25b578ed0c926fd65b6f2666fde1875600c0f5d4498
+              content_sha256: be2c9d5870241e48524053599faec0c93fddd45f62251d871b82a0ef18c286d3
             - kind: section
               section: 4
               title: Strict morphisms of Fréchet spaces
@@ -2611,10 +2611,10 @@ books:
               last_pdf_page: 249
               book_pages: TVS IV.26-TVS IV.32, TVS IV.62-TVS IV.67
               subsections: 3
-              statements: 11
+              statements: 13
               exercises: 23
               extraction: ocr
-              content_sha256: 4172f6a84d2ca7073e01bf8876e21035e49efc30aaac18bd4884c0dc7ab18f09
+              content_sha256: ee7bac2fa753fe7a6791836b1a168ccf5ae5fd35fde5fae49d7437cb6a0f2add
             - kind: section
               section: 5
               title: Compactness criteria
@@ -2624,10 +2624,10 @@ books:
               last_pdf_page: 253
               book_pages: TVS IV.32-TVS IV.38, TVS IV.67-TVS IV.71
               subsections: 5
-              statements: 6
+              statements: 8
               exercises: 18
               extraction: ocr
-              content_sha256: 4702a615033dfbad2393a5c1455faef75a03a10034ae4dba1ab3b73fab718883
+              content_sha256: e075d67dad84bf07d74313bb7702cb8cbfdc9a9ee055e9db9b08b25387c64b6b
             - kind: appendix
               title: Fixed points of groups of affine transformations
               path: content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md
@@ -2638,7 +2638,7 @@ books:
               statements: 10
               exercises: 8
               extraction: ocr
-              content_sha256: 7eb54e9666dc4f954bc5363b6489301c8e109bec69185ed8316bea9f05a72696
+              content_sha256: 8b0160d6b388725bfdc8bc2b2e1ffd83042db4914a53ee986c4bde7ba18e9ae4
         - chapter: V
           title: HILBERTIAN SPACES (ELEMENTARY THEORY)
           sections:
@@ -2660,10 +2660,10 @@ books:
               first_pdf_page: 259
               last_pdf_page: 328
               subsections: 7
-              statements: 31
+              statements: 41
               exercises: 6
               extraction: ocr
-              content_sha256: 52ef3981439a9aee715cc1e40006201a012b7b2e455fca13073ea20cf4caa176
+              content_sha256: c1cbfd2db9d90c7c1f0729e652bbdde9279f45fee5604ccb95d52002880bc6c2
             - kind: section
               section: 2
               title: Orthogonal families in a hilbertian space
@@ -2673,10 +2673,10 @@ books:
               last_pdf_page: 331
               book_pages: TVS V.17-TVS V.25, TVS V.70-TVS V.73
               subsections: 4
-              statements: 20
+              statements: 23
               exercises: 16
               extraction: ocr
-              content_sha256: f4a91717c4baa7d6d1bb46cb51254aa135c11de193e6beec7afd9f662370894d
+              content_sha256: cf2302a90a1e9657902d7919df217d3f7d6b603bc13005c234931da12e93a39f
             - kind: section
               section: 3
               title: Tensor product of hilbertian spaces
@@ -2686,10 +2686,10 @@ books:
               last_pdf_page: 368
               book_pages: TVS V.25-TVS V.37
               subsections: 5
-              statements: 17
+              statements: 20
               exercises: 23
               extraction: ocr
-              content_sha256: f70fae0140a5ab3b747a0fa22e36cae210395f965e23a5f5911471c06431fcbc
+              content_sha256: c097511d44f50c645d7fcf09bcd4d4b22d00be91e561c77b8ca07d794d412668
             - kind: section
               section: 4
               title: Some classes of operators in hilbertian spaces
@@ -2698,10 +2698,10 @@ books:
               first_pdf_page: 295
               last_pdf_page: 318
               subsections: 9
-              statements: 41
+              statements: 48
               exercises: 0
               extraction: ocr
-              content_sha256: 12a07afdbd302b2c3af5d28444e7b827da7815a9358c3e87efd3c0e575daeebb
+              content_sha256: 0aba0900e3e33e2e640cc39686547d1c9701a06db6a67d3006d215416088f3b9
     - id: int-i-vi
       chapters:
         - chapter: I
@@ -3621,10 +3621,10 @@ books:
               last_pdf_page: 97
               book_pages: INT VII.27-INT VII.53, INT VII.87-INT VII.91
               subsections: 10
-              statements: 46
+              statements: 53
               exercises: 13
               extraction: ocr
-              content_sha256: 19dadea3bf4cfebfd795b62db8d79dd85d5c9102f5a3b9ac6267e2801beee090
+              content_sha256: ddac8b9a5a80bf3da75803588d88cfeaac6a5706841d15a9929d67f8ddd9b433
             - kind: section
               section: 3
               title: Applications and examples
@@ -3634,10 +3634,10 @@ books:
               last_pdf_page: 100
               book_pages: INT VII.53-INT VII.73, INT VII.91-INT VII.94
               subsections: 3
-              statements: 23
+              statements: 24
               exercises: 12
               extraction: ocr
-              content_sha256: c80f4fa20d0f8831d59b810456079a654391f48938b3eadb13412625fd78ef38
+              content_sha256: ebb9fa261c900c6cb90d0bc4f22d295e65d74ff05ad77bdcb443030ed0fc4b14
             - kind: appendix
               section: 1
               path: content/en/int/VII/A1_a1_.md
@@ -3694,10 +3694,10 @@ books:
               last_pdf_page: 161
               book_pages: INT VIII.8-INT VIII.17
               subsections: 7
-              statements: 17
+              statements: 22
               exercises: 10
               extraction: ocr
-              content_sha256: 78d6021eb56a629e3d0c9daef0d5738461c50995f1aab09eca3c6ee4e316e52c
+              content_sha256: 58624c4bd96e4bd45a186145d511f6e1ad6f19615e05785ba50e3a3a2957cf87
             - kind: section
               section: 3
               title: Convolution of measures on groups
@@ -3720,10 +3720,10 @@ books:
               last_pdf_page: 173
               book_pages: INT VIII.24-INT VIII.45, INT VIII.65-INT VIII.73
               subsections: 7
-              statements: 37
+              statements: 38
               exercises: 28
               extraction: ocr
-              content_sha256: 31544aa723f8448edb7c651e7d640fa7c05d1bf3989eae83165b9e324ed2fb7d
+              content_sha256: d9472115c849cdaea01285fb77cf2f3cb00b0ae3f7a4812e38930ae6bff2f277
             - kind: section
               section: 5
               title: The space of closed subgroups
@@ -3733,10 +3733,10 @@ books:
               last_pdf_page: 174
               book_pages: INT VIII.73-INT VIII.74
               subsections: 6
-              statements: 19
+              statements: 20
               exercises: 6
               extraction: ocr
-              content_sha256: ba5aa02ffe2b45bd97005dd5d5ea4a68aa45fc9a3cd01eeded849e56c401de26
+              content_sha256: df43a0eaeb027f0d65f04dd8a4fe236be3ba6c13fc86556941e52f7a5f9a53bb
             - kind: historical
               title: Historical Note
               path: content/en/int/VIII/historical_note.md
@@ -3768,10 +3768,10 @@ books:
               first_pdf_page: 183
               last_pdf_page: 289
               subsections: 10
-              statements: 48
+              statements: 52
               exercises: 10
               extraction: ocr
-              content_sha256: ddfcbbe902634948b3701e964bd8fb40a56c4e500a833c42e74c516bfd5f4c7f
+              content_sha256: 09dfd62372172bb0f417cdcb29ddcb19df14c593ed44b869e32a2b25b4cf5f72
             - kind: section
               section: 2
               title: Operations on measures
@@ -3781,10 +3781,10 @@ books:
               last_pdf_page: 290
               book_pages: INT IX.22-INT IX.41, INT IX.108
               subsections: 7
-              statements: 31
+              statements: 38
               exercises: 3
               extraction: ocr
-              content_sha256: cd3cf0b3f1eea92c9a6a61e986ee9c551540b9d00e9dcdc8e7f1fc1405279a1d
+              content_sha256: f05688e7f5e86ff2ea2066658769980a5ad9e44095245e34f9e9d06f1fa0ab07
             - kind: section
               section: 3
               title: Measures and additive set functions
@@ -3794,10 +3794,10 @@ books:
               last_pdf_page: 294
               book_pages: INT IX.41-INT IX.49, INT IX.108-INT IX.112
               subsections: 3
-              statements: 11
+              statements: 16
               exercises: 18
               extraction: ocr
-              content_sha256: 9f804be3c07f04ffa908e1c9375a7fe2ea3976b356b3a4f02273e2e005639ec8
+              content_sha256: 154c3b35da5d10fc4c76d66d0ad120ae0866649bb9aeba5c68df370ca9d0a1c6
             - kind: section
               section: 4
               title: Inverse limits of measures
@@ -3820,10 +3820,10 @@ books:
               last_pdf_page: 299
               book_pages: INT IX.56-INT IX.72, INT IX.113-INT IX.117
               subsections: 7
-              statements: 29
+              statements: 33
               exercises: 13
               extraction: ocr
-              content_sha256: bc900b658ea07662051e0b6b5ff795b69ff06ccb122d312d492ffcef7a95f93f
+              content_sha256: e7428a2c4e5b97261bf02d4e7d8f574c6abca5e32bb7242acb3e1a781bb4d783
             - kind: section
               section: 6
               title: Promeasures and measures on a locally convex space
@@ -3836,7 +3836,7 @@ books:
               statements: 33
               exercises: 1
               extraction: ocr
-              content_sha256: adf9837bfdc0ac48c7983c9d39c882b0f3d1cb4398a1965c89eedcdf122baca7
+              content_sha256: 5fd6592b68075ec76f506ff7afdf0fb2919493ec4396894b4ef361a0f5aae7a4
             - kind: appendix
               title: Complements on Hilbert spaces
               path: content/en/int/IX/A_a_complements_on_hilbert_spaces.md
@@ -4333,6 +4333,150 @@ books:
               exercises: 2
               extraction: ocr
               content_sha256: d802f3bf7d9f7f09e088205f36806c5e4782b38de7866dc8943e4c4407e3ee59
+        - chapter: III
+          title: LIE GROUPS
+          sections:
+            - kind: front
+              title: LIE GROUPS
+              path: content/en/lie/III/00_frontmatter.md
+              first_pdf_page: 227
+              last_pdf_page: 227
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: fc25f6cd2ca31fc79a05025916ad698ca8e9eb9fc76326a13591a3067a46f54e
+            - kind: section
+              section: 1
+              title: Lie groups
+              path: content/en/lie/III/01_s1_lie_groups.md
+              label: lie-iii-s1
+              first_pdf_page: 227
+              last_pdf_page: 390
+              subsections: 11
+              statements: 54
+              exercises: 10
+              extraction: ocr
+              content_sha256: 2ebcfb5caa7d6e3ce4e02e66526a86c3fbfd3a941d7ae008b146045267dd4b42
+            - kind: section
+              section: 2
+              title: Group of tangent vectors to a Lie group
+              path: content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md
+              label: lie-iii-s2
+              first_pdf_page: 251
+              last_pdf_page: 256
+              subsections: 3
+              statements: 10
+              exercises: 0
+              extraction: ocr
+              content_sha256: fbfa7fc6b9f5745ee2ef8bf0b1ab78bc3caef3ab514156c296816b3f7793570f
+            - kind: section
+              section: 3
+              title: Passage from a Lie group to its Lie algebra
+              path: content/en/lie/III/03_s3_passage_from_a_lie_group_to_its_lie.md
+              label: lie-iii-s3
+              first_pdf_page: 256
+              last_pdf_page: 394
+              subsections: 18
+              statements: 111
+              exercises: 9
+              extraction: ocr
+              content_sha256: 04adf0598d3bc970d1e1a0e4d4fe097cf41ff1063d0c2b25e536ffbeb35da076
+            - kind: section
+              section: 4
+              title: Passage from Lie algebras to Lie groups
+              path: content/en/lie/III/04_s4_passage_from_lie_algebras_to_lie_groups.md
+              label: lie-iii-s4
+              first_pdf_page: 297
+              last_pdf_page: 400
+              subsections: 7
+              statements: 40
+              exercises: 8
+              extraction: ocr
+              content_sha256: 1b4507c7b0427ee4c5104edfe74033e72c37f3b7acf50bb3aec09e9ec492878c
+            - kind: section
+              section: 5
+              title: Formal calculations in Lie groups
+              path: content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md
+              label: lie-iii-s5
+              first_pdf_page: 315
+              last_pdf_page: 401
+              subsections: 4
+              statements: 5
+              exercises: 2
+              extraction: ocr
+              content_sha256: 3be8a17f6cc0964c47197ceb7a5dc79874139b28c957259aef32433c6ca556fd
+            - kind: section
+              section: 6
+              title: Real and complex Lie groups
+              path: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
+              label: lie-iii-s6
+              first_pdf_page: 322
+              last_pdf_page: 409
+              subsections: 10
+              statements: 71
+              exercises: 30
+              extraction: ocr
+              content_sha256: c3b5db1475c470b4843750d95762d7fbc91278f6227523434cc020552cb5ba46
+            - kind: section
+              section: 7
+              title: Lie groups over an ultrametric field
+              path: content/en/lie/III/07_s7_lie_groups_over_an_ultrametric_field.md
+              label: lie-iii-s7
+              first_pdf_page: 344
+              last_pdf_page: 413
+              subsections: 6
+              statements: 26
+              exercises: 10
+              extraction: ocr
+              content_sha256: 72fbc901d3ba5be536b88758afe2f99df85f60b011ebdb26069c8b1024218e75
+            - kind: section
+              section: 8
+              title: Lie groups over R or Qp
+              path: content/en/lie/III/08_s8_lie_groups_over_r_or_qp.md
+              label: lie-iii-s8
+              first_pdf_page: 355
+              last_pdf_page: 415
+              subsections: 2
+              statements: 9
+              exercises: 7
+              extraction: ocr
+              content_sha256: ce7ca09606b67342eec1b7e42accf735ec86cb0a54fc8f6669eeb099f4f29c3b
+            - kind: section
+              section: 9
+              title: Commutators, centralizers and normalizers in a Lie group
+              path: content/en/lie/III/09_s9_commutators_centralizers_and.md
+              label: lie-iii-s9
+              first_pdf_page: 360
+              last_pdf_page: 427
+              subsections: 8
+              statements: 54
+              exercises: 29
+              extraction: ocr
+              content_sha256: fab7c73c072e24693cf4e8970c2de4044dcee805ccd6598bf6cbe45b6e078958
+            - kind: section
+              section: 10
+              title: The automorphism group of a Lie group
+              path: content/en/lie/III/10_s10_the_automorphism_group_of_a_lie_group.md
+              label: lie-iii-s10
+              first_pdf_page: 377
+              last_pdf_page: 481
+              subsections: 3
+              statements: 13
+              exercises: 3
+              extraction: ocr
+              content_sha256: ce97d672d395324edaf19e576695e17d7e634e8c8ecae751b42c35b7ffc0b7a4
+            - kind: appendix
+              title: Operations on linear representations
+              path: content/en/lie/III/A_a_operations_on_linear_representations.md
+              label: lie-iii-a0
+              first_pdf_page: 386
+              last_pdf_page: 387
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 65ebd44f66e7042e75d43165ca54596f112e90e693d40fd0095ebbe224bb774f
     - id: alg-iv-vii
       chapters:
         - chapter: IV
@@ -6697,3 +6841,714 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: e8fe2400380e01aae21e250bd12e6307ba3b554a99c3b99bed8349f28369dfdb
+    - id: evt-i-v-fr
+      chapters:
+        - chapter: I
+          title: Espaces vectoriels topologiques sur un corps valué
+          sections:
+            - kind: front
+              title: Espaces vectoriels topologiques sur un corps valué
+              path: content/fr/evt/I/00_frontmatter.md
+              first_pdf_page: 7
+              last_pdf_page: 7
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 174bf52ea3f28331589b647d7d58add9c1d6788c6c6cdaee5880393749c17585
+            - kind: section
+              section: 1
+              title: Espaces vectoriels topologiques
+              path: content/fr/evt/I/01_s1_espaces_vectoriels_topologiques.md
+              label: evt-i-s1
+              first_pdf_page: 7
+              last_pdf_page: 31
+              subsections: 7
+              statements: 26
+              exercises: 14
+              extraction: ocr
+              content_sha256: ead480fcb8e714d98aea507c9376235e670c4a1f2206d769a142b429f68290a4
+            - kind: section
+              section: 2
+              title: Variétés linéaires dans un espace vectoriel topologique
+              path: content/fr/evt/I/02_s2_varietes_lineaires_dans_un_espace.md
+              label: evt-i-s2
+              first_pdf_page: 17
+              last_pdf_page: 34
+              book_pages: EVT I.11-EVT I.16, EVT I.25-EVT I.28
+              subsections: 4
+              statements: 27
+              exercises: 15
+              extraction: ocr
+              content_sha256: e0ef1dea62acfa098ff43f27c08d7c68d946cd36b611c5e4eeecd3ebc3b79305
+            - kind: section
+              section: 3
+              title: Espaces vectoriels topologiques métrisables
+              path: content/fr/evt/I/03_s3_espaces_vectoriels_topologiques.md
+              label: evt-i-s3
+              first_pdf_page: 22
+              last_pdf_page: 35
+              book_pages: EVT I.28-EVT I.29
+              subsections: 3
+              statements: 11
+              exercises: 9
+              extraction: ocr
+              content_sha256: 40a8dbfebca09c963e47c7e1a135f0060cdcd1578ab3a0a08b49bfaeb9e52620
+        - chapter: II
+          title: Ensembles convexes et espaces localement convexes
+          sections:
+            - kind: front
+              title: Ensembles convexes et espaces localement convexes
+              path: content/fr/evt/II/00_frontmatter.md
+              first_pdf_page: 36
+              last_pdf_page: 36
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 8b47ed612eb89f13c77a8762fafd825a12fb0e8712ea2cfbaf7ce393af3c3094
+            - kind: section
+              section: 1
+              title: Semi-normes
+              path: content/fr/evt/II/01_s1_semi_normes.md
+              label: evt-ii-s1
+              first_pdf_page: 36
+              last_pdf_page: 42
+              subsections: 4
+              statements: 16
+              exercises: 0
+              extraction: ocr
+              content_sha256: dced12790c7b6787d66274f190e20b7c91324f01746eb1dbb5f56c6fa84f27ca
+            - kind: section
+              section: 2
+              title: Ensembles convexes
+              path: content/fr/evt/II/02_s2_ensembles_convexes.md
+              label: evt-ii-s2
+              first_pdf_page: 42
+              last_pdf_page: 111
+              book_pages: EVT II.7-EVT II.22
+              subsections: 11
+              statements: 50
+              exercises: 20
+              extraction: ocr
+              content_sha256: c4daa050e4d60f68d6dc1f636d143196ec503071d79abc74ec511afd94231447
+            - kind: section
+              section: 3
+              title: Le théorème de Hahn-Banach (forme analytique)
+              path: content/fr/evt/II/03_s3_le_theoreme_de_hahn_banach_forme.md
+              label: evt-ii-s3
+              first_pdf_page: 57
+              last_pdf_page: 113
+              book_pages: EVT II.22-EVT II.25, EVT II.76-EVT II.78
+              subsections: 2
+              statements: 5
+              exercises: 8
+              extraction: ocr
+              content_sha256: f26dc0978286c19efaead481d9a06fea1d7f362ba1de89237b58bab0bc46d8d8
+            - kind: section
+              section: 4
+              title: Espaces localement convexes
+              path: content/fr/evt/II/04_s4_espaces_localement_convexes.md
+              label: evt-ii-s4
+              first_pdf_page: 60
+              last_pdf_page: 116
+              book_pages: EVT II.25-EVT II.38, EVT II.78-EVT II.81
+              subsections: 7
+              statements: 35
+              exercises: 17
+              extraction: ocr
+              content_sha256: 40c029afdec3dd6206ddcec186ccca18d34681a7c839cea643435871ff1fff25
+            - kind: section
+              section: 5
+              title: Séparation des ensembles convexes
+              path: content/fr/evt/II/05_s5_separation_des_ensembles_convexes.md
+              label: evt-ii-s5
+              first_pdf_page: 74
+              last_pdf_page: 121
+              book_pages: EVT II.39-EVT II.43, EVT II.81-EVT II.86
+              subsections: 4
+              statements: 24
+              exercises: 30
+              extraction: ocr
+              content_sha256: 47177b1d0d5fb8039b05e17efdd143256bbd895635a2fc2ec254bad18a096d50
+            - kind: section
+              section: 6
+              title: Topologies faibles
+              path: content/fr/evt/II/06_s6_topologies_faibles.md
+              label: evt-ii-s6
+              first_pdf_page: 78
+              last_pdf_page: 127
+              book_pages: EVT II.43-EVT II.57, EVT II.87-EVT II.92
+              subsections: 8
+              statements: 42
+              exercises: 19
+              extraction: ocr
+              content_sha256: 794deb8fcc639a71f8ac1d3624f0b459b0dbe83eee46132a20c32e35a0058fa3
+            - kind: section
+              section: 7
+              title: Points extrémaux et génératrices extrémales
+              path: content/fr/evt/II/07_s7_points_extremaux_et_generatrices.md
+              label: evt-ii-s7
+              first_pdf_page: 92
+              last_pdf_page: 135
+              book_pages: EVT II.57-EVT II.64, EVT II.92-EVT II.100
+              subsections: 3
+              statements: 21
+              exercises: 5
+              extraction: ocr
+              content_sha256: f2b934d3b3033e6e3d99349829e0050ad4070549f7dec78efc884391b8eebece
+            - kind: section
+              section: 8
+              title: Espaces localement convexes complexes
+              path: content/fr/evt/II/08_s8_espaces_localement_convexes_complexes.md
+              label: evt-ii-s8
+              first_pdf_page: 99
+              last_pdf_page: 135
+              book_pages: EVT II.100
+              subsections: 4
+              statements: 10
+              exercises: 3
+              extraction: ocr
+              content_sha256: d88b2b79394fd0cd193c5fcc8ec6b3ced35986fe395778391e22ec61a5fa6baa
+        - chapter: III
+          title: ESPACES D’APPLICATIONS LINÉAIRES CONTINUES
+          sections:
+            - kind: front
+              title: ESPACES D’APPLICATIONS LINÉAIRES CONTINUES
+              path: content/fr/evt/III/00_frontmatter.md
+              first_pdf_page: 136
+              last_pdf_page: 136
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 397237e876a514f87254d1b0e651eff2ac2d567c4884aaca633e7e4468431648
+            - kind: section
+              section: 1
+              title: Bornologie dans un espace vectoriel topologique
+              path: content/fr/evt/III/01_s1_bornologie_dans_un_espace_vectoriel.md
+              label: evt-iii-s1
+              first_pdf_page: 136
+              last_pdf_page: 176
+              subsections: 7
+              statements: 33
+              exercises: 18
+              extraction: ocr
+              content_sha256: 0e70d5134d6b550d11ad59a989301fee1b78e4959c1f6f13103ab0a8dfc66db2
+            - kind: section
+              section: 2
+              title: Espaces bornologiques
+              path: content/fr/evt/III/02_s2_espaces_bornologiques.md
+              label: evt-iii-s2
+              first_pdf_page: 146
+              last_pdf_page: 177
+              book_pages: EVT III.11-EVT III.13, EVT III.41-EVT III.42
+              subsections: 0
+              statements: 7
+              exercises: 4
+              extraction: ocr
+              content_sha256: dbe72fe42844e76b16c4733d97f80a7bdc97378d5a552921a91626f089aa4b8a
+            - kind: section
+              section: 3
+              title: Espaces d’applications linéaires continues
+              path: content/fr/evt/III/03_s3_espaces_d_applications_lineaires.md
+              label: evt-iii-s3
+              first_pdf_page: 148
+              last_pdf_page: 179
+              book_pages: EVT III.13-EVT III.24, EVT III.42-EVT III.44
+              subsections: 8
+              statements: 40
+              exercises: 13
+              extraction: ocr
+              content_sha256: 267b87ed593a4827b22d801ba8f77379a0ccb0929a65f3ed1ef65849c5a25afa
+            - kind: section
+              section: 4
+              title: Le théorème de Banach-Steinhaus
+              path: content/fr/evt/III/04_s4_le_theoreme_de_banach_steinhaus.md
+              label: evt-iii-s4
+              first_pdf_page: 159
+              last_pdf_page: 183
+              book_pages: EVT III.24-EVT III.28, EVT III.44-EVT III.48
+              subsections: 3
+              statements: 23
+              exercises: 22
+              extraction: ocr
+              content_sha256: af8195ba612f0792738a2a9d2c92a04335bd97100bc4ffc880dcd00a20a80a3f
+            - kind: section
+              section: 5
+              title: Applications bilinéaires hypocontinues
+              path: content/fr/evt/III/05_s5_applications_bilineaires_hypocontinues.md
+              label: evt-iii-s5
+              first_pdf_page: 163
+              last_pdf_page: 185
+              book_pages: EVT III.28-EVT III.34, EVT III.48-EVT III.50
+              subsections: 5
+              statements: 16
+              exercises: 15
+              extraction: ocr
+              content_sha256: 3e6f9eaa3d21c28690fd64490285cbb09a94c4fb07a288022a743515dba1e898
+            - kind: section
+              section: 6
+              title: Le théorème du graphe borélien
+              path: content/fr/evt/III/06_s6_le_theoreme_du_graphe_borelien.md
+              label: evt-iii-s6
+              first_pdf_page: 169
+              last_pdf_page: 186
+              book_pages: EVT III.50-EVT III.51
+              subsections: 3
+              statements: 8
+              exercises: 6
+              extraction: ocr
+              content_sha256: 65a02eb27ea20638633e6046ecf9cd54842558a6fede6ce1afd230d1dc20a47f
+        - chapter: IV
+          title: LA DUALITÉ DANS LES ESPACES VECTORIELS TOPOLOGIQUES
+          sections:
+            - kind: front
+              title: LA DUALITÉ DANS LES ESPACES VECTORIELS TOPOLOGIQUES
+              path: content/fr/evt/IV/00_frontmatter.md
+              first_pdf_page: 187
+              last_pdf_page: 187
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 341b97bd8ea318a76c7bbb96b2bc14d7c071f2b0315ececb434e375fab873e87
+            - kind: section
+              section: 1
+              title: Dualité
+              path: content/fr/evt/IV/01_s1_dualite.md
+              label: evt-iv-s1
+              first_pdf_page: 187
+              last_pdf_page: 238
+              subsections: 5
+              statements: 37
+              exercises: 15
+              extraction: ocr
+              content_sha256: 371920ad9eaaaef840de19c29dd77406f1efacc92ed8a2a8fdb8c005f5a5c90b
+            - kind: section
+              section: 2
+              title: Bidual. Espaces réflexifs
+              path: content/fr/evt/IV/02_s2_bidual_espaces_reflexifs.md
+              label: evt-iv-s2
+              first_pdf_page: 200
+              last_pdf_page: 243
+              book_pages: EVT IV.14-EVT IV.20, EVT IV.52-EVT IV.57
+              subsections: 5
+              statements: 31
+              exercises: 21
+              extraction: ocr
+              content_sha256: 6f89098fde740596830958bc58ab718e2d11fbe0d40fe9932d5e6b0a97ec4cb3
+            - kind: section
+              section: 3
+              title: Dual d’un espace de Fréchet
+              path: content/fr/evt/IV/03_s3_dual_d_un_espace_de_frechet.md
+              label: evt-iv-s3
+              first_pdf_page: 206
+              last_pdf_page: 248
+              book_pages: EVT IV.20-EVT IV.26, EVT IV.58-EVT IV.62
+              subsections: 6
+              statements: 15
+              exercises: 18
+              extraction: ocr
+              content_sha256: 74d314526bdd3197a2777453c0ca689467f92f3f044106de47c5445cd9e83e63
+            - kind: section
+              section: 4
+              title: Morphismes stricts d’espaces de Fréchet
+              path: content/fr/evt/IV/04_s4_morphismes_stricts_d_espaces_de_frechet.md
+              label: evt-iv-s4
+              first_pdf_page: 212
+              last_pdf_page: 253
+              book_pages: EVT IV.26-EVT IV.31, EVT IV.62-EVT IV.67
+              subsections: 3
+              statements: 13
+              exercises: 23
+              extraction: ocr
+              content_sha256: 7552caad017134f15f370255c459b0dbc69f78291829e409def98b52cc4f169a
+            - kind: section
+              section: 5
+              title: Critères de compacité
+              path: content/fr/evt/IV/05_s5_criteres_de_compacite.md
+              label: evt-iv-s5
+              first_pdf_page: 218
+              last_pdf_page: 258
+              book_pages: EVT IV.32-EVT IV.38, EVT IV.67-EVT IV.72
+              subsections: 5
+              statements: 9
+              exercises: 16
+              extraction: ocr
+              content_sha256: ba036e81e41148c1605c7122196571e8b63865ae496310a7ebbcea6b60094fa4
+            - kind: appendix
+              title: Points fixes des groupes de transformations affines
+              path: content/fr/evt/IV/A_a_points_fixes_des_groupes_de.md
+              label: evt-iv-a0
+              first_pdf_page: 225
+              last_pdf_page: 262
+              book_pages: EVT IV.72-EVT IV.76
+              subsections: 4
+              statements: 10
+              exercises: 8
+              extraction: ocr
+              content_sha256: a5f0a47885fa53d0c2c414ddc511c0f75b427f2d8904c89b2775200b8c0a54ff
+        - chapter: V
+          title: ESPACES HILBERTIENS (THÉORIE ÉLÉMENTAIRE)
+          sections:
+            - kind: front
+              title: ESPACES HILBERTIENS (THÉORIE ÉLÉMENTAIRE)
+              path: content/fr/evt/V/00_frontmatter.md
+              first_pdf_page: 263
+              last_pdf_page: 263
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: dc7034a2d44425e5ecc706a7bfb75f1717fc55626355a280c379668f9a9b96ae
+            - kind: section
+              section: 1
+              title: Espaces préhilbertiens et espaces hilbertiens
+              path: content/fr/evt/V/01_s1_espaces_prehilbertiens_et_espaces.md
+              label: evt-v-s1
+              first_pdf_page: 263
+              last_pdf_page: 331
+              subsections: 7
+              statements: 43
+              exercises: 37
+              extraction: ocr
+              content_sha256: f296610e694bcb2e144db6eeb1be82f0d676462e443febf49ddb11262cc9ca18
+            - kind: section
+              section: 2
+              title: Familles orthogonales dans un espace hilbertien
+              path: content/fr/evt/V/02_s2_familles_orthogonales_dans_un_espace.md
+              label: evt-v-s2
+              first_pdf_page: 279
+              last_pdf_page: 334
+              book_pages: EVT V.17-EVT V.25, EVT V.69-EVT V.72
+              subsections: 4
+              statements: 23
+              exercises: 16
+              extraction: ocr
+              content_sha256: 978754989e25187045beace973717ae95ad4fc528aa996a6d31a05fe6dac26e5
+            - kind: section
+              section: 3
+              title: Produit tensoriel d’espaces hilbertiens
+              path: content/fr/evt/V/03_s3_produit_tensoriel_d_espaces_hilbertiens.md
+              label: evt-v-s3
+              first_pdf_page: 287
+              last_pdf_page: 334
+              book_pages: EVT V.25-EVT V.37, EVT V.72
+              subsections: 5
+              statements: 19
+              exercises: 2
+              extraction: ocr
+              content_sha256: 8771bfb3c920fadb5f03473953907cbe1bf752059384a03f9e46b352ec455d70
+            - kind: section
+              section: 4
+              title: Quelques classes d’opérateurs dans les espaces hilbertiens
+              path: content/fr/evt/V/04_s4_quelques_classes_d_operateurs_dans_les.md
+              label: evt-v-s4
+              first_pdf_page: 299
+              last_pdf_page: 340
+              book_pages: EVT V.73-EVT V.78
+              subsections: 9
+              statements: 50
+              exercises: 15
+              extraction: ocr
+              content_sha256: e4cabb6af91fd80e8cf1b33d565d1145dd586f752dc25ef913ea7a91cda2b514
+            - kind: historical
+              title: Historical Note
+              path: content/fr/evt/V/historical_note.md
+              first_pdf_page: 341
+              last_pdf_page: 372
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: bd485122a44aea4631eba0c8704baa75a545a12a167aa38e40038735bbabab95
+    - id: lie-iv-vi-fr
+      chapters:
+        - chapter: IV
+          title: Groupes de Coxeter et systèmes de Tits
+          sections:
+            - kind: front
+              title: Groupes de Coxeter et systèmes de Tits
+              path: content/fr/lie/IV/00_frontmatter.md
+              first_pdf_page: 8
+              last_pdf_page: 8
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 8a6af5dc1f785dcc5e7ed9a059fe809981dc274e6cab22f2c15fe3a80c2584f2
+            - kind: section
+              section: 1
+              title: Groupes de Coxeter
+              path: content/fr/lie/IV/01_s1_groupes_de_coxeter.md
+              label: lie-iv-s1
+              first_pdf_page: 8
+              last_pdf_page: 44
+              subsections: 9
+              statements: 31
+              exercises: 12
+              extraction: ocr
+              content_sha256: 62478063b83420b4cdd00b735467dd0009810dd7f46789b3df50f13fe9be97d3
+            - kind: section
+              section: 2
+              title: Systèmes de Tits
+              path: content/fr/lie/IV/02_s2_systemes_de_tits.md
+              label: lie-iv-s2
+              first_pdf_page: 21
+              last_pdf_page: 55
+              subsections: 7
+              statements: 31
+              exercises: 29
+              extraction: ocr
+              content_sha256: ea496e22a0ad95327b1465fec41622602ec8b91820f66eeae33878a5f2abbe6f
+            - kind: appendix
+              title: Graphes
+              path: content/fr/lie/IV/A_a_graphes.md
+              label: lie-iv-a0
+              first_pdf_page: 32
+              last_pdf_page: 36
+              subsections: 3
+              statements: 6
+              exercises: 0
+              extraction: ocr
+              content_sha256: 9452bba07053be851532ccc49f3670a1c1376a1d8def4e4ed6990aff82822711
+        - chapter: V
+          title: Groupes engendrés par des réflexions
+          sections:
+            - kind: front
+              title: Groupes engendrés par des réflexions
+              path: content/fr/lie/V/00_frontmatter.md
+              first_pdf_page: 56
+              last_pdf_page: 56
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 7011b5c16aa001f999c1a2ac82a58d35990ebeb4638ddf4ef4d65757862b81d1
+            - kind: section
+              section: 1
+              title: Hyperplans, chambres et facettes
+              path: content/fr/lie/V/01_s1_hyperplans_chambres_et_facettes.md
+              label: lie-v-s1
+              first_pdf_page: 56
+              last_pdf_page: 64
+              subsections: 6
+              statements: 18
+              exercises: 0
+              extraction: ocr
+              content_sha256: 41c8f874715f48eb74778f8a2f507ebc2a4097a079ab5ab5ab53f484259caed9
+            - kind: section
+              section: 2
+              title: Réflexions
+              path: content/fr/lie/V/02_s2_reflexions.md
+              label: lie-v-s2
+              first_pdf_page: 65
+              last_pdf_page: 126
+              subsections: 5
+              statements: 16
+              exercises: 3
+              extraction: ocr
+              content_sha256: 47fde8a62191126416aaedb3d298ac68f5952cd03ba9d67a2c1279318195c222
+            - kind: section
+              section: 3
+              title: Groupes de déplacements engendrés par des réflexions
+              path: content/fr/lie/V/03_s3_groupes_de_deplacements_engendres_par.md
+              label: lie-v-s3
+              first_pdf_page: 71
+              last_pdf_page: 128
+              subsections: 10
+              statements: 35
+              exercises: 8
+              extraction: ocr
+              content_sha256: 3d39fd02a70c3420f7b3cb7606b49e05f7564cf554da41d836ed8b673b3f3e84
+            - kind: section
+              section: 4
+              title: Représentation géométrique d’un groupe de Coxeter
+              path: content/fr/lie/V/04_s4_representation_geometrique_d_un_groupe.md
+              label: lie-v-s4
+              first_pdf_page: 88
+              last_pdf_page: 134
+              subsections: 9
+              statements: 23
+              exercises: 20
+              extraction: ocr
+              content_sha256: 0db371fa555caedfd829e033f29f9148ddebd3cee25b30a802ad467062142ef0
+            - kind: section
+              section: 5
+              title: Invariants dans l’algèbre symétrique
+              path: content/fr/lie/V/05_s5_invariants_dans_l_algebre_symetrique.md
+              label: lie-v-s5
+              first_pdf_page: 101
+              last_pdf_page: 138
+              subsections: 5
+              statements: 23
+              exercises: 7
+              extraction: ocr
+              content_sha256: f520106d6dad9ccf5e1823170909e9f7735d0ab0bad2ac11aae118378739b749
+            - kind: section
+              section: 6
+              title: Transformation de Coxeter
+              path: content/fr/lie/V/06_s6_transformation_de_coxeter.md
+              label: lie-v-s6
+              first_pdf_page: 115
+              last_pdf_page: 140
+              subsections: 2
+              statements: 14
+              exercises: 4
+              extraction: ocr
+              content_sha256: d5dfb4f65374593cb60ee96f94d750deef22c742a46e220f42da8c8bc1b6dc81
+            - kind: appendix
+              title: Compléments sur les représentations linéaires
+              path: content/fr/lie/V/A_a_complements_sur_les_representations.md
+              label: lie-v-a0
+              first_pdf_page: 123
+              last_pdf_page: 126
+              subsections: 0
+              statements: 4
+              exercises: 0
+              extraction: ocr
+              content_sha256: 5030e6ba635c4b042a90838c91b709300aa5b48183891f0ac0f0d2ce8c2cc151
+        - chapter: VI
+          title: Systèmes de racines
+          sections:
+            - kind: front
+              title: Systèmes de racines
+              path: content/fr/lie/VI/00_frontmatter.md
+              first_pdf_page: 141
+              last_pdf_page: 141
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: b670eeb783261a685a6bb332a95bce55a5638a7221913fb25eec30d83e60698a
+            - kind: section
+              section: 1
+              title: Systèmes de racines
+              path: content/fr/lie/VI/01_s1_systemes_de_racines.md
+              label: lie-vi-s1
+              first_pdf_page: 141
+              last_pdf_page: 225
+              subsections: 12
+              statements: 76
+              exercises: 21
+              extraction: ocr
+              content_sha256: 4b82e2e75a833b9bcc1645109248c979f397caf40a7738ccec091b3a71656c11
+            - kind: section
+              section: 2
+              title: Groupe de Weyl affine
+              path: content/fr/lie/VI/02_s2_groupe_de_weyl_affine.md
+              label: lie-vi-s2
+              first_pdf_page: 172
+              last_pdf_page: 226
+              subsections: 5
+              statements: 16
+              exercises: 5
+              extraction: ocr
+              content_sha256: db1178794ca012fd26537b3d612dc2d67102718d427a78a77a3f8d886b136853
+            - kind: section
+              section: 3
+              title: Invariants exponentiels
+              path: content/fr/lie/VI/03_s3_invariants_exponentiels.md
+              label: lie-vi-s3
+              first_pdf_page: 180
+              last_pdf_page: 227
+              subsections: 4
+              statements: 15
+              exercises: 2
+              extraction: ocr
+              content_sha256: 35cf1a10f0fd55f3ebb45197f3b07a21f22a822b0285c5833da315281542fd98
+            - kind: section
+              section: 4
+              title: Classification des systèmes de racines
+              path: content/fr/lie/VI/04_s4_classification_des_systemes_de_racines.md
+              label: lie-vi-s4
+              first_pdf_page: 187
+              last_pdf_page: 232
+              subsections: 14
+              statements: 19
+              exercises: 10
+              extraction: ocr
+              content_sha256: 884b3b89c05216d68e4cc1c8f616f3438c89831321a4c3d6ab638da5c59ad85b
+            - kind: historical
+              title: Historical Note
+              path: content/fr/lie/VI/historical_note.md
+              first_pdf_page: 233
+              last_pdf_page: 247
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: d3194c59e2fbd215ab65edd8b80798eb36e9dc34f361ea3bb682ca39eec48c27
+    - id: int-vi-fr
+      chapters:
+        - chapter: VI
+          title: Intégration vectorielle
+          sections:
+            - kind: front
+              title: Intégration vectorielle
+              path: content/fr/int/VI/00_frontmatter.md
+              first_pdf_page: 7
+              last_pdf_page: 7
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: ad953a9e8107f15737e9e7ef2a8a4008d484cd3c4bbe98dd2c2a176c222b823d
+            - kind: section
+              section: 1
+              title: Intégration des fonctions vectorielles
+              path: content/fr/int/VI/01_s1_integration_des_fonctions_vectorielles.md
+              label: int-vi-s1
+              first_pdf_page: 8
+              last_pdf_page: 87
+              subsections: 7
+              statements: 35
+              exercises: 27
+              extraction: ocr
+              content_sha256: 5fab12055825e11dc9320c5ab2eeaf0817bbed53eae37c1b59492022feddd3b6
+            - kind: section
+              section: 2
+              title: Mesures vectorielles
+              path: content/fr/int/VI/02_s2_mesures_vectorielles.md
+              label: int-vi-s2
+              first_pdf_page: 29
+              last_pdf_page: 96
+              subsections: 10
+              statements: 46
+              exercises: 27
+              extraction: ocr
+              content_sha256: 11f3aa2aad7ad343645f025e01ca7cbfc405719bf3555a62abd1ff80cdfaf752
+            - kind: section
+              section: 3
+              title: Désintégration des mesures
+              path: content/fr/int/VI/03_s3_desintegration_des_mesures.md
+              label: int-vi-s3
+              first_pdf_page: 57
+              last_pdf_page: 99
+              subsections: 5
+              statements: 17
+              exercises: 12
+              extraction: ocr
+              content_sha256: a18f7b8708e017adbdafd3c8abee8bb47acd6388206d22180e7b7044573f4abd
+            - kind: appendix
+              title: Compléments sur les espaces vectoriels topologiques
+              path: content/fr/int/VI/A_a_complements_sur_les_espaces_vectoriels.md
+              label: int-vi-a0
+              first_pdf_page: 73
+              last_pdf_page: 77
+              subsections: 2
+              statements: 6
+              exercises: 0
+              extraction: ocr
+              content_sha256: 8b8c38b5f735c892722d30b5785bc3693b048649608905237d34373ea5d4f6e2
+            - kind: historical
+              title: Historical Note
+              path: content/fr/int/VI/historical_note.md
+              first_pdf_page: 100
+              last_pdf_page: 106
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 23e1870085c25820f916d1173f9c918c13b98fa2e6b5cc263d4455ecbab1aa78

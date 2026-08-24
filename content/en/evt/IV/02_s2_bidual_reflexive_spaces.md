@@ -31,9 +31,9 @@ subsections:
       title: Montel spaces
       page: 18
       pdf_page: 200
-statements: 25
+statements: 30
 exercises: 24
-content_sha256: 830f329c51525fb2ab5bdc5f5baefdbfb75afd66607b2504932cf1fb9fafdfb7
+content_sha256: c8f008de2daf8653ce90dda0cbafdb04b9e1842cb6daff4312ae7ca854ca1ef6
 ---
 
 ## § 2. BIDUAL. REFLEXIVE SPACES
@@ -74,7 +74,7 @@ The equicontinuous subsets of $ E'' $ are the subsets contained in the bipolar (
 
 #### Remark {#evt-iv-s2-n1-rem-1 .statement}
 
-— Let $ E $ be a locally convex Hausdorff space, $ E' $ its dual and $ E'' $ its bidual. We have $ E \subset E'' \subset E'^* $, where $ E'^* $ is the algebraic dual of $ E' $. If $ B $ is a bounded subset of $ E $, its closure $ \overline{B} $ in $ E'^* $ endowed with $ \sigma(E'^*, E') $ is contained in $ E'' $: for, the polar $ U = B^\circ $ of $ B $ in $ E' $ is a neighbourhood of 0 in $ E'_b $, and we have $ \overline{B} \subset U^\circ \subset E'' $.
+Let $ E $ be a locally convex Hausdorff space, $ E' $ its dual and $ E'' $ its bidual. We have $ E \subset E'' \subset E'^* $, where $ E'^* $ is the algebraic dual of $ E' $. If $ B $ is a bounded subset of $ E $, its closure $ \overline{B} $ in $ E'^* $ endowed with $ \sigma(E'^*, E') $ is contained in $ E'' $: for, the polar $ U = B^\circ $ of $ B $ in $ E' $ is a neighbourhood of 0 in $ E'_b $, and we have $ \overline{B} \subset U^\circ \subset E'' $.
 
 ### 2. Semi-reflexive spaces
 
@@ -98,9 +98,9 @@ To say that $ E $ is semi-reflexive means that the topology on $ E'_b $ is compa
 
 Let B be a bounded subset of M. Since B is bounded in E, and the weakened topology $ \sigma(M, M') $ on M is induced by $ \sigma(E, E') $ (IV, p. 10, prop. 11), the closure of B in M endowed with $ \sigma(M, M') $ is compact. Hence, by th. 1, M is semi-reflexive. The last assertion of the corollary follows from prop. 10 of IV, p. 9, applied to the set $ \mathcal{S} $ of all closed, convex and bounded subsets of E.
 
-#### Remark {#evt-iv-s2-n2-rem-1 .statement}
+#### Remark 1 {#evt-iv-s2-n2-rem-1 .statement}
 
-— 1) Suppose E is semi-reflexive. Every subset of E which is convex, closed and bounded for the initial topology is compact for the topology $ \sigma(E, E') $ (IV, p. 1, prop. 1). *On the other hand, the unit sphere (with the equation $ \|x\| = 1 $) of an infinite dimensional hilbertian space E is closed and bounded for the initial topology, but is not closed for the weakened topology, even if E is semi-reflexive. \*
+Suppose E is semi-reflexive. Every subset of E which is convex, closed and bounded for the initial topology is compact for the topology $ \sigma(E, E') $ (IV, p. 1, prop. 1). *On the other hand, the unit sphere (with the equation $ \|x\| = 1 $) of an infinite dimensional hilbertian space E is closed and bounded for the initial topology, but is not closed for the weakened topology, even if E is semi-reflexive. \*
 2) By remark 3 of IV, p. 5, we can reformulate th. 1 as follows : *the Hausdorff space E is semi-reflexive if and only if it is quasi-complete for its weakened topology.* If it is semi-reflexive, then it is *quasi-complete for its initial topology* (IV, p. 5, Remark 2).
 3) Under the hypotheses of the above corollary, the space E/M is not necessarily semi-reflexive (IV, p. 63, exerc. 10).
 
@@ -126,13 +126,15 @@ By th. 1 (IV, p. 15), this is the same as saying that E *is reflexive if and onl
 
 If E is reflexive, $ E'_b $ is reflexive (prop. 4) and consequently E is barrelled (IV, p. 15, th. 1). Conversely, if E is semi-reflexive and barrelled, $ c_E $ is a bijection and is bicontinuous by IV, p. 15, prop. 2, hence E is reflexive.
 
-#### Remark {#evt-iv-s2-n3-rem-1 .statement}
+#### Remark 1 {#evt-iv-s2-n3-rem-1 .statement}
 
-— *1) Let E be an infinite dimensional real hilbertian space. Let F denote the space E endowed with the weakened topology. The spaces E and F have the same dual E', and E is a reflexive Banach space (V, p. 17). Consequently, F is *semi-reflexive*.
+Let E be an infinite dimensional real hilbertian space. Let F denote the space E endowed with the weakened topology. The spaces E and F have the same dual E', and E is a reflexive Banach space (V, p. 17). Consequently, F is *semi-reflexive*.
 
 However, the strong topology and the weakened topology on E are distinct, hence F *is not reflexive*.
 
-2) Let E be a reflexive space and M a closed vector subspace of E. It may happen that neither M nor E/M are reflexive spaces (IV, p. 63, exerc. 10). \* For the case of normed spaces, see prop. 7 of IV, p. 17. \*
+#### Remark 2 {#evt-iv-s2-n3-rem-2 .statement}
+
+Let E be a reflexive space and M a closed vector subspace of E. It may happen that neither M nor E/M are reflexive spaces (IV, p. 63, exerc. 10). \* For the case of normed spaces, see prop. 7 of IV, p. 17. \*
 
 ### 4. The case of normed spaces
 
@@ -202,17 +204,25 @@ for all $ \mathbf{x} \in c_0(\mathbf{N}) $ and $ \mathbf{x}' \in \ell^1(\mathbf{
 
 ### 5. Montel spaces
 
-Definition 4. — *A locally convex Hausdorff and barrelled space in which every bounded subset is relatively compact is called a Montel space.*
+#### Definition 4 {#evt-iv-s2-def-4 .statement}
 
-#### Example {#evt-iv-s2-n5-exa-1 .statement}
+*A locally convex Hausdorff and barrelled space in which every bounded subset is relatively compact is called a Montel space.*
 
-— 1) Every finite dimensional Hausdorff space is a Montel space. A normed space which is a Montel space is locally compact, hence is finite dimensional (I, p. 15, th. 3).
+#### Example 1 {#evt-iv-s2-n5-exa-1 .statement}
 
-2) With the notations and hypothesis of prop. 7 of III, p. 6, the space E, being the inductive limit of Banach spaces, is barrelled (III, p. 25); moreover, every bounded subset of E is relatively compact (III, p. 6, prop. 7). In other words, E is a Montel space. In particular, Gevrey spaces (III, p. 10) are Montel spaces. \* This is true for the space $ \mathcal{H}(K) $ consisting of germs of functions analytic in a neighbourhood of a compact subset K of $ \mathbf{C}^n $ (III, p. 10).*
+Every finite dimensional Hausdorff space is a Montel space. A normed space which is a Montel space is locally compact, hence is finite dimensional (I, p. 15, th. 3).
 
-3) Every strict inductive limit E of a sequence $ (E_n) $ of Montel spaces (II, p. 33) such that $ E_n $ is closed in $ E_{n+1} $ for all n, is a Montel space; in fact, E is Hausdorff (II, p. 32, prop. 9 (i)), barrelled (III, p. 25, cor. 3) and every bounded subset of E is contained in one of the $ E_n $ (III, p. 5, prop. 6) hence is relatively compact in $ E_n $, and consequently also in E.
+#### Example 2 {#evt-iv-s2-n5-exa-2 .statement}
 
-\* 4) Let U be an open set in $ \mathbf{R}^n $ and let $ \mathcal{C}^\infty(U) $ be the Fréchet space of infinitely differentiable functions on U (III, p. 9). We shall prove that this is a Montel space. Since $ \mathcal{C}^\infty(U) $ is a Fréchet space, it is barrelled (III, p. 25, corollary). Let B be a bounded subset of $ \mathcal{C}^\infty(U) $ and let K be a compact subset of U. For every $ \alpha \in \mathbf{N}^n $ let $ H_{\alpha, K} $ be the set of restrictions to K of the functions $ \partial^\alpha f $, as $ f $ runs through B. Let $ \alpha \in \mathbf{N}^n $; for every $ \beta \in \mathbf{N}^n $ such that $ |\beta| = |\alpha| + 1 $, the set $ H_{\alpha, K} $ is bounded in $ \mathcal{C}(K) $ since B is bounded in $ \mathcal{C}^\infty(U) $; by VAR, R., No. 2.2.3, the set $ H_{\alpha, K} $ is equicontinuous, hence (GT, X, § 2, No. 5) relatively compact in $ \mathcal{C}(K) $. But the topology of $ \mathcal{C}^\infty(U) $ is the coarsest among the topologies for which all the maps $ f \mapsto \partial^\alpha f|K $ from $ \mathcal{C}^\infty(U) $ into $ \mathcal{C}(K) $ are continuous, therefore B is relatively compact in $ \mathcal{C}^\infty(U) $ (GT, I, § 4, No. 1, prop. 3 and § 9, No. 5, corollary).
+With the notations and hypothesis of prop. 7 of III, p. 6, the space E, being the inductive limit of Banach spaces, is barrelled (III, p. 25); moreover, every bounded subset of E is relatively compact (III, p. 6, prop. 7). In other words, E is a Montel space. In particular, Gevrey spaces (III, p. 10) are Montel spaces. \* This is true for the space $ \mathcal{H}(K) $ consisting of germs of functions analytic in a neighbourhood of a compact subset K of $ \mathbf{C}^n $ (III, p. 10).*
+
+#### Example 3 {#evt-iv-s2-n5-exa-3 .statement}
+
+Every strict inductive limit E of a sequence $ (E_n) $ of Montel spaces (II, p. 33) such that $ E_n $ is closed in $ E_{n+1} $ for all n, is a Montel space; in fact, E is Hausdorff (II, p. 32, prop. 9 (i)), barrelled (III, p. 25, cor. 3) and every bounded subset of E is contained in one of the $ E_n $ (III, p. 5, prop. 6) hence is relatively compact in $ E_n $, and consequently also in E.
+
+#### Example 4 {#evt-iv-s2-n5-exa-4 .statement}
+
+Let U be an open set in $ \mathbf{R}^n $ and let $ \mathcal{C}^\infty(U) $ be the Fréchet space of infinitely differentiable functions on U (III, p. 9). We shall prove that this is a Montel space. Since $ \mathcal{C}^\infty(U) $ is a Fréchet space, it is barrelled (III, p. 25, corollary). Let B be a bounded subset of $ \mathcal{C}^\infty(U) $ and let K be a compact subset of U. For every $ \alpha \in \mathbf{N}^n $ let $ H_{\alpha, K} $ be the set of restrictions to K of the functions $ \partial^\alpha f $, as $ f $ runs through B. Let $ \alpha \in \mathbf{N}^n $; for every $ \beta \in \mathbf{N}^n $ such that $ |\beta| = |\alpha| + 1 $, the set $ H_{\alpha, K} $ is bounded in $ \mathcal{C}(K) $ since B is bounded in $ \mathcal{C}^\infty(U) $; by VAR, R., No. 2.2.3, the set $ H_{\alpha, K} $ is equicontinuous, hence (GT, X, § 2, No. 5) relatively compact in $ \mathcal{C}(K) $. But the topology of $ \mathcal{C}^\infty(U) $ is the coarsest among the topologies for which all the maps $ f \mapsto \partial^\alpha f|K $ from $ \mathcal{C}^\infty(U) $ into $ \mathcal{C}(K) $ are continuous, therefore B is relatively compact in $ \mathcal{C}^\infty(U) $ (GT, I, § 4, No. 1, prop. 3 and § 9, No. 5, corollary).
 
 Similarly, *the space $ \mathcal{C}_0^\infty(U) $ of all infinitely differentiable functions with compact support in U* (III, p. 9) *is a Montel space*. For, $ \mathcal{C}_0^\infty(U) $ is the strict inductive limit of a sequence $ \mathcal{C}_{H_n}^\infty(U) $ of Fréchet spaces (III, p. 9), and it is enough to see that each of the spaces $ \mathcal{C}_{H_n}^\infty(U) $ is a Montel space (*Example 3*). But a bounded and closed subset of $ \mathcal{C}_0^\infty(U) $ is closed and bounded in $ \mathcal{C}^\infty(U) $, hence compact in $ \mathcal{C}^\infty(U) $, and consequently in $ \mathcal{C}_{H_n}^\infty(U) $. \*
 

@@ -57,7 +57,7 @@ subsections:
       pdf_page: 279
 statements: 33
 exercises: 1
-content_sha256: adf9837bfdc0ac48c7983c9d39c882b0f3d1cb4398a1965c89eedcdf122baca7
+content_sha256: 5fd6592b68075ec76f506ff7afdf0fb2919493ec4396894b4ef361a0f5aae7a4
 ---
 
 ## § 6. PROMEASURES AND MEASURES ON A LOCALLY CONVEX SPACE
@@ -191,7 +191,7 @@ Let $ f $ be a continuous function on $ \mathbf{R}^n $ with compact support. For
 
 #### Lemma 1 {#int-ix-s6-lem-1 .statement}
 
-— For every integer $ n \geqslant 0 $,
+For every integer $ n \geqslant 0 $,
 
 $$
 \int_{\mathbf{R}} |x|^n e^{-x^2/2} dx = 2^{n+1 \over 2} \Gamma \left( {n+1 \over 2} \right)
@@ -240,7 +240,7 @@ Finally, the formula (8) follows from the fact that the function $ x \mapsto x^{
 
 #### Lemma 2 {#int-ix-s6-lem-2 .statement}
 
-— For every complex number $ y $,
+For every complex number $ y $,
 
 $$
 (2\pi)^{-1/2} \int_{\mathbf{R}} e^{-x^2/2} e^{ixy} dx = e^{-y^2/2}.
@@ -718,7 +718,7 @@ Let $ w' $ be the bounded measure on $ \mathcal{C} $ that is the image of $ m $ 
 
 #### Lemma 5 {#int-ix-s6-lem-5 .statement}
 
-— For every measure $ \mu \in \mathcal{D} $,
+For every measure $ \mu \in \mathcal{D} $,
 
 $$
 \int_{\mathcal{C}} e^{i \langle f, \mu \rangle} \, dw'(f) = e^{-W(\mu)/2}.
@@ -752,7 +752,7 @@ The formula (48) follows immediately from the formulas (49) to (52).
 
 #### Lemma 6 {#int-ix-s6-lem-6 .statement}
 
-— Let $ \mu \in \mathcal{M}^1 $. There exists a sequence of measures $ \mu_n \in \mathcal{D} $ such that $ \mu(f) = \lim_{n \to \infty} \mu_n(f) $ for all $ f \in \mathcal{C} $ and $ W(\mu) = \lim_{n \to \infty} W(\mu_n) $.
+Let $ \mu \in \mathcal{M}^1 $. There exists a sequence of measures $ \mu_n \in \mathcal{D} $ such that $ \mu(f) = \lim_{n \to \infty} \mu_n(f) $ for all $ f \in \mathcal{C} $ and $ W(\mu) = \lim_{n \to \infty} W(\mu_n) $.
 
 Let $ I = [0, 1] $. The space $ \mathcal{M}^1 $ of bounded measures on $ T = ]0, 1[ $ will be identified with the subspace of $ \mathcal{M}(I) $ formed by the measures that place no weight at $ 0 $. (3) We equip $ \mathcal{M}(I) $ with the vague topology. The mapping
 

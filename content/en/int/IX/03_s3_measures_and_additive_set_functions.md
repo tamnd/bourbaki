@@ -23,9 +23,9 @@ subsections:
       title: Radon spaces
       page: 46
       pdf_page: 228
-statements: 11
+statements: 16
 exercises: 18
-content_sha256: 9f804be3c07f04ffa908e1c9375a7fe2ea3976b356b3a4f02273e2e005639ec8
+content_sha256: 154c3b35da5d10fc4c76d66d0ad120ae0866649bb9aeba5c68df370ca9d0a1c6
 ---
 
 ## § 3. MEASURES AND ADDITIVE SET FUNCTIONS
@@ -60,7 +60,7 @@ To show that these conditions are sufficient, we begin by treating the case that
 
 #### Lemma 1 {#int-ix-s3-lem-1 .statement}
 
-— Assume that T is compact, and set l = I(T). For every $ A \subset T $, set
+Assume that T is compact, and set l = I(T). For every $ A \subset T $, set
 
 $$
 J(A) = \sup_{\substack{K \in \mathcal{K}(T) \\ K \subset A}} I(K)
@@ -121,9 +121,9 @@ $ \varepsilon $ being arbitrary, the desired inequality is proved, and the theor
 
 Let us now pass to the general case. For every compact set $ L $ in $ T $, let $ I_L $ be the restriction of $ I $ to $ \mathfrak{K}(L) $. By the special case just treated, there exists a measure $ \mu_L $ on $ L $, unique, such that $ \mu_L(K) = I_L(K) $ for every compact set $ K \subset L $. Let then $ L' $ be a compact set contained in $ L $; we have $ (\mu_L)_{L'}^\bullet(K) = \mu_{L'}^\bullet(K) = \mu_{L'}^\bullet(K) $ for every compact set $ K \subset L' $, therefore $ \mu_{L'} = (\mu_L)_{L'} $; the mapping $ \mu : L \mapsto \mu_L $ is a premeasure. The condition 5) expresses that $ \mu $ is a measure, and the relation $ I(K) = \mu^*(K) $ for all compact $ K \subset T $ is obvious.
 
-#### Remark {#int-ix-s3-n1-rem-1 .statement}
+#### Remark 1 {#int-ix-s3-n1-rem-1 .statement}
 
-— 1) The condition 4) may be replaced, in the statement of Theorem 1, by the following condition ('right-continuity'):
+The condition 4) may be replaced, in the statement of Theorem 1, by the following condition ('right-continuity'):
 $ 4') $ For every $ K \in \mathcal{K}(T) $ and every $ \varepsilon > 0 $, there exists an open set $ U $ containing $ K $, such that $ I(H) \leq I(K) + \varepsilon $ for every compact set $ H \subset U $.
 For, if $ \mu $ is a measure, the function $ I : K \mapsto \mu^*(K) $ satisfies $ 4' $ (\S 1, No. 9, Prop. 13). Conversely, suppose that $ I $ satisfies 1) and $ 4' $; let us show that $ I $ then satisfies 4). With notations as in the statement of Theorem 1, choose an $ \varepsilon > 0 $ and an open set $ U $ containing the compact set $ K = \bigcap_{\alpha \in A} K_\alpha $ and such that $ 4' $) is satisfied. There then exists an index $ \beta \in A $ such that $ K_\beta \subset U $, and this implies
 $$
@@ -143,7 +143,9 @@ for every measure $ \mu $, by virtue of the relation $ \varphi_{K \cup L} + \var
 
 ### 2. Inner regular set functions
 
-Definition 1. — Let $ T $ be a topological space, and let $ \mathcal{B}(T) $ be the Borel tribe of $ T $; let $ I $ be a mapping of $ \mathcal{B}(T) $ into $ \overline{\mathbf{R}}_+ $.
+#### Definition 1 {#int-ix-s3-def-1 .statement}
+
+Let $ T $ be a topological space, and let $ \mathcal{B}(T) $ be the Borel tribe of $ T $; let $ I $ be a mapping of $ \mathcal{B}(T) $ into $ \overline{\mathbf{R}}_+ $.
 a) $ I $ is said to be countably additive if, for every sequence $ (A_n) $ of pairwise disjoint elements of $ \mathcal{B}(T) $,
 $$
 I\left( \bigcup_n A_n \right) = \sum_n I(A_n).
@@ -156,13 +158,17 @@ where $ K $ runs over the set of compact subsets of $ A $.
 
 c) I is said to be bounded (resp. locally bounded) if $ I(T) < +\infty $ (resp. if every point $ x \in T $ admits an open neighborhood $ V $ such that $ I(V) < +\infty $).
 
-#### Remark {#int-ix-s3-n2-rem-1 .statement}
+#### Remark 1 {#int-ix-s3-n2-rem-1 .statement}
 
-— 1) The condition a) clearly implies that I is an increasing mapping of $ \mathcal{B}(T) $ (ordered by inclusion) into $ \overline{\mathbf{R}}_+ $.
+The condition a) clearly implies that I is an increasing mapping of $ \mathcal{B}(T) $ (ordered by inclusion) into $ \overline{\mathbf{R}}_+ $.
 
-2) Suppose that I is countably additive; let $ (A_n)_{n \in \mathbf{N}} $ be an increasing sequence of Borel sets, and let $ A = \bigcup_{n \in \mathbf{N}} A_n $. The sets $ D_0 = A_0 $, $ D_n = A_n - A_{n-1} $ being pairwise disjoint, and their union being A, we have $ I(A) = \sum_n I(D_n) = \lim_{n \to \infty} I(A_n) $. Similarly, if $ (B_n) $ is a decreasing sequence of Borel sets, and if $ I(B_0) < +\infty $, then $ I(\bigcap_n B_n) = \lim_{n \to \infty} I(B_n) $: it suffices to apply the preceding to the sets $ A_n = B_0 - B_n $.
+#### Remark 2 {#int-ix-s3-n2-rem-2 .statement}
 
-3) Let $ (A_n) $ be any sequence of Borel sets of T. If I is countably additive, then $ I(\bigcup_n A_n) \leq \sum_n I(A_n) $. By the preceding remark, it suffices to establish this inequality for a finite sequence. One immediately reduces to the case of two sets $ A_1 $ and $ A_2 $; but the relation (4) implies that
+Suppose that I is countably additive; let $ (A_n)_{n \in \mathbf{N}} $ be an increasing sequence of Borel sets, and let $ A = \bigcup_{n \in \mathbf{N}} A_n $. The sets $ D_0 = A_0 $, $ D_n = A_n - A_{n-1} $ being pairwise disjoint, and their union being A, we have $ I(A) = \sum_n I(D_n) = \lim_{n \to \infty} I(A_n) $. Similarly, if $ (B_n) $ is a decreasing sequence of Borel sets, and if $ I(B_0) < +\infty $, then $ I(\bigcap_n B_n) = \lim_{n \to \infty} I(B_n) $: it suffices to apply the preceding to the sets $ A_n = B_0 - B_n $.
+
+#### Remark 3 {#int-ix-s3-n2-rem-3 .statement}
+
+Let $ (A_n) $ be any sequence of Borel sets of T. If I is countably additive, then $ I(\bigcup_n A_n) \leq \sum_n I(A_n) $. By the preceding remark, it suffices to establish this inequality for a finite sequence. One immediately reduces to the case of two sets $ A_1 $ and $ A_2 $; but the relation (4) implies that
 
 $$
 I(A_1 \cup A_2) = I(A_1) + I(A_2 - (A_1 \cap A_2)) \leq I(A_1) + I(A_2).
@@ -170,9 +176,13 @@ $$
 
 The desired inequality then follows immediately.
 
-4) If I is a countably additive and locally bounded function, the preceding remark implies at once that $ I(K) < +\infty $ for every compact set $ K \subset T $.
+#### Remark 4 {#int-ix-s3-n2-rem-4 .statement}
 
-5) One can show that if I is additive, that is, satisfies (4) for finite sequences, and if I is inner regular, then I is countably additive (Exer. 7). The reader can also ascertain that only additivity and inner regularity are used in the proof of Th. 2 below.
+If I is a countably additive and locally bounded function, the preceding remark implies at once that $ I(K) < +\infty $ for every compact set $ K \subset T $.
+
+#### Remark 5 {#int-ix-s3-n2-rem-5 .statement}
+
+One can show that if I is additive, that is, satisfies (4) for finite sequences, and if I is inner regular, then I is countably additive (Exer. 7). The reader can also ascertain that only additivity and inner regularity are used in the proof of Th. 2 below.
 
 #### Theorem 2 {#int-ix-s3-thm-2 .statement}
 

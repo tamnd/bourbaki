@@ -31,9 +31,9 @@ subsections:
       title: Convex envelope of a weakly compact set
       page: 37
       pdf_page: 219
-statements: 6
+statements: 8
 exercises: 18
-content_sha256: 4702a615033dfbad2393a5c1455faef75a03a10034ae4dba1ab3b73fab718883
+content_sha256: e075d67dad84bf07d74313bb7702cb8cbfdc9a9ee055e9db9b08b25387c64b6b
 ---
 
 ## § 5. COMPACTNESS CRITERIA
@@ -171,15 +171,19 @@ In this and the following section, we shall use the following lemma, which is a 
 
 #### Lemma 2 {#evt-iv-s5-lem-2 .statement}
 
-— Let X be a compact space. If a sequence $(f_n)_{n \in \mathbf{N}}$ is bounded in $C(X)$ and converges simply on X to a continuous function f, then $\mu(f) = \lim_{n \to \infty} \mu(f_n)$ for every $\mu$ in $C(X)'$.
+Let X be a compact space. If a sequence $(f_n)_{n \in \mathbf{N}}$ is bounded in $C(X)$ and converges simply on X to a continuous function f, then $\mu(f) = \lim_{n \to \infty} \mu(f_n)$ for every $\mu$ in $C(X)'$.
 
-Proposition 3. — Let X be a compact space, and let A be a bounded subset of $C(X)$. For A to be relatively compact for the topology of simple convergence, it is necessary and sufficient that it is relatively compact for $\sigma(C(X), C(X)')$.
+#### Proposition 3 {#evt-iv-s5-prop-3 .statement}
+
+Let X be a compact space, and let A be a bounded subset of $C(X)$. For A to be relatively compact for the topology of simple convergence, it is necessary and sufficient that it is relatively compact for $\sigma(C(X), C(X)')$.
 
 The topology of simple convergence is Hausdorff and coarser than $\sigma(C(X), C(X)')$, hence the condition stated is sufficient (GT, I, § 9, No. 4, cor. 3).
 
 Now suppose that A is relatively compact for the topology of simple convergence. Let $(f_n)_{n \in \mathbf{N}}$ be a sequence of elements of A. By prop. 2 (IV, p. 33), there exists a sequence $(f_{n_k})$ extracted from $(f_n)$ and converging simply to a continuous function f. By lemma 2, the bounded sequence $(f_{n_k})$ tends to f for $\sigma(C(X), C(X)')$. Then Šmulian’s theorem (IV, p. 36, th. 2) shows that A is relatively compact for $\sigma(C(X), C(X)')$.
 
-Corollary. — Let S be a topological space and A a bounded subset of $C^b(S)$. The following conditions are equivalent :
+#### Corollary {#evt-iv-s5-n4-cor-1 .statement}
+
+Let S be a topological space and A a bounded subset of $C^b(S)$. The following conditions are equivalent :
 (i) A is relatively compact for $\sigma(C^b(S), C^b(S'))$;
 (ii) if $(f_n)_{n \in \mathbf{N}}$ is a sequence of elements of A and $(x_m)_{m \in \mathbf{N}}$ is a sequence of points of S such that the iterated limits
 $$

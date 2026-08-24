@@ -30,9 +30,9 @@ subsections:
       title: Dual of a direct sum and of a product
       page: 11
       pdf_page: 193
-statements: 29
+statements: 35
 exercises: 25
-content_sha256: 7e120bcdb5cd44a1ac3d543c5ec885c04658de4f0e38545a37847820b469c606
+content_sha256: 3595be17b3c9c8cdcadd6b2c560c42a34a50a45db1046b62b30aa9e2f9200799
 ---
 
 ## § 1. DUALITY
@@ -54,11 +54,15 @@ $$
 
 for $ x \in E, \ y \in F $.
 
-Definition 1. — *A locally convex topology $ \mathcal{T} $ on E is said to be compatible with the duality between E and F if $ d_B $ is a bijection from F onto the dual of the locally convex space obtained by assigning the topology $ \mathcal{T} $ to E.*
+#### Definition 1 {#evt-iv-s1-def-1 .statement}
+
+*A locally convex topology $ \mathcal{T} $ on E is said to be compatible with the duality between E and F if $ d_B $ is a bijection from F onto the dual of the locally convex space obtained by assigning the topology $ \mathcal{T} $ to E.*
 
 If there exists one such topology $ \mathcal{T} $, the mapping $ d_B $ is injective, that is to say, the duality between E and F is separating in F (II, p. 41).
 
-Proposition 1. — (i) *The closed convex subsets in E are the same for all the locally convex topologies on E which are compatible with the duality between E and F.*
+#### Proposition 1 {#evt-iv-s1-prop-1 .statement}
+
+(i) *The closed convex subsets in E are the same for all the locally convex topologies on E which are compatible with the duality between E and F.*
 (ii) *The bounded subsets of E are the same for all the locally convex topologies on E which are compatible with the duality between E and F.*
 
 Let $ \mathcal{T} $ be a topology on E compatible with the duality between E and F, hence finer than $ \sigma(E, F) $. If a convex subset of E is closed for $ \mathcal{T} $, it is the intersection of closed, real half-spaces (II, p. 38, cor. 1), hence it is closed for $ \sigma(E, F) $. This proves (i). Assertion (ii) was proved in cor. 3 of III, p. 27.
@@ -91,7 +95,7 @@ Identify F with its image in $ E^* $ under $ d_B $. Let $ \mathfrak{S}_0 $ denot
 
 #### Lemma 1 {#evt-iv-s1-lem-1 .statement}
 
-— *The subspace F of E* consists of all linear forms on E which are continuous for $ \tau(E, F) $.
+*The subspace F of E* consists of all linear forms on E which are continuous for $ \tau(E, F) $.
 
 Every element of F is a continuous mapping for $ \sigma(E, F) $, hence for $ \tau(E, F) $.
 
@@ -99,13 +103,15 @@ Conversely, let $ f \in E^* $ be continuous for $ \tau(E, F) $. There exists a n
 
 #### Lemma 2 {#evt-iv-s1-lem-2 .statement}
 
-— *Let $ \mathcal{T} $ be a locally convex topology on E such that every linear form on E which is continuous for $ \mathcal{T} $ belongs to F. Then $ \mathcal{T} $ is coarser than $ \tau(E, F) $.*
+*Let $ \mathcal{T} $ be a locally convex topology on E such that every linear form on E which is continuous for $ \mathcal{T} $ belongs to F. Then $ \mathcal{T} $ is coarser than $ \tau(E, F) $.*
 
 *Let $ \mathcal{U} $ be the set of convex, balanced neighbourhoods of 0 for $ \mathcal{T} $. Let $ \mathcal{S} $ be the set of polars in F of elements of $ \mathcal{U} $. By cor. 2 of III, p. 17, we have $ \mathcal{S} \subset \mathcal{S}_0 $, and by cor. 1 of prop. 7 of III, p. 19, $ \mathcal{T} $ is identical with the $ \mathcal{S}' $-topology, where $ \mathcal{S}' $ is the set of polars of sets of $ \mathcal{U} $ in the dual $ E' $ of E. But $ E' \subset F $, by hypothesis, hence every set of $ \mathcal{S}' $ is contained in a set of $ \mathcal{S} $; and the lemma follows.*
 
 Let $ \mathcal{T} $ be a topology on E compatible with the duality between E and F. Then $ \mathcal{T} $ is coarser than $ \tau(E, F) $ by lemma 2, and evidently $ \mathcal{T} $ is finer than $ \sigma(E, F) $. Conversely, F is the dual of E for the topology $ \tau(E, F) $ (lemma 1) and for the topology $ \sigma(E, F) $ (II, p. 43, prop. 3), hence also for every topology intermediate between $ \tau(E, F) $ and $ \sigma(E, F) $.
 
-Corollary. — *Let p be a semi-norm on E. The following conditions are equivalent :*
+#### Corollary {#evt-iv-s1-n1-cor-1 .statement}
+
+*Let p be a semi-norm on E. The following conditions are equivalent :*
 
 (i) *p is continuous for the topology $ \tau(E, F) $;*
 (ii) *every linear form f on E, such that $ |f| \leq p $, comes from an element of F.*
@@ -116,7 +122,7 @@ Corollary. — *Let p be a semi-norm on E. The following conditions are equivale
 
 #### Remark 2 {#evt-iv-s1-n1-rem-2 .statement}
 
-— *Let K be a convex subset of F which is compact for the weak topology $ \sigma(F, E) $ and $ \mu $ a positive measure on K. Put*
+*Let K be a convex subset of F which is compact for the weak topology $ \sigma(F, E) $ and $ \mu $ a positive measure on K. Put*
 
 $$
 p(x) = \int_K |B(x, y)| \, d\mu(y)
@@ -126,7 +132,7 @@ for all $ x \in E $. It is immediate that p is a semi-norm. Moreover, for every 
 
 #### Example {#evt-iv-s1-n1-exa-1 .statement}
 
-— Let G be a locally convex space and G' its dual. On G', the weak topology $ \sigma(G', G) $ and the topology of convex compact convergence (III, p. 14) are compatible with the duality between G' and G. In general, the strong topology and the topology of compact convergence on G' are not compatible with the duality between G' and G. Recall however that when G is Hausdorff and quasi-complete, the topology of compact convergence on G' coincides with that of convex compact convergence (III, p. 8), hence is compatible with the duality between G' and G.
+Let G be a locally convex space and G' its dual. On G', the weak topology $ \sigma(G', G) $ and the topology of convex compact convergence (III, p. 14) are compatible with the duality between G' and G. In general, the strong topology and the topology of compact convergence on G' are not compatible with the duality between G' and G. Recall however that when G is Hausdorff and quasi-complete, the topology of compact convergence on G' coincides with that of convex compact convergence (III, p. 8), hence is compatible with the duality between G' and G.
 
 #### Definition 3 {#evt-iv-s1-def-3 .statement}
 
@@ -158,15 +164,19 @@ By prop. 1 of IV, p. 1, these three topologies have the same closed convex sets,
 
 *Let E be a locally convex space, and let A be a convex subset of E (for example, a vector subspace of E). The closure of A is the same for the initial topology and for the weakened topology of E.*
 
-#### Remark {#evt-iv-s1-n2-rem-1 .statement}
+#### Remark 1 {#evt-iv-s1-n2-rem-1 .statement}
 
-— 1) For a family $(x_i)_{i \in I}$ of elements of E to be total (resp. topologically independent) for the initial topology, it is necessary and sufficient that it is so for the weakened topology; this follows from prop. 2. Hence we can apply the criteria of II, p. 43.
+For a family $(x_i)_{i \in I}$ of elements of E to be total (resp. topologically independent) for the initial topology, it is necessary and sufficient that it is so for the weakened topology; this follows from prop. 2. Hence we can apply the criteria of II, p. 43.
 
-2) Let $\mathcal{T}_1$ and $\mathcal{T}_2$ be two locally convex topologies on E, compatible with the duality between E and $E'$, $\mathcal{T}_1$ being finer than $\mathcal{T}_2$. Then every neighbourhood of 0 for $\mathcal{T}_1$, which is convex and closed for $\mathcal{T}_1$ is closed for $\mathcal{T}_2$ by prop. 1 of IV, p. 1. Consequently (GT, II, § 3, No. 3, corollary) every subset of E which is complete for $\mathcal{T}_2$ is so for $\mathcal{T}_1$ also.
+#### Remark 2 {#evt-iv-s1-n2-rem-2 .statement}
+
+Let $\mathcal{T}_1$ and $\mathcal{T}_2$ be two locally convex topologies on E, compatible with the duality between E and $E'$, $\mathcal{T}_1$ being finer than $\mathcal{T}_2$. Then every neighbourhood of 0 for $\mathcal{T}_1$, which is convex and closed for $\mathcal{T}_1$ is closed for $\mathcal{T}_2$ by prop. 1 of IV, p. 1. Consequently (GT, II, § 3, No. 3, corollary) every subset of E which is complete for $\mathcal{T}_2$ is so for $\mathcal{T}_1$ also.
 
 In particular, every subset of E which is complete for the weakened topology is complete for the initial topology, and every subset of E complete for the initial topology is so for the Mackey topology. If E is quasi-complete for the weakened topology, it is so for every topology compatible with the duality between E and $E'$. If it is quasi-complete for the initial topology, it is so for the Mackey topology.
 
-3) Suppose E is Hausdorff (for the initial topology). Let A be a subset of E which is closed and bounded for $\sigma(E, E')$, hence also for every topology compatible with the duality between E and $E'$. Since A is precompact for $\sigma(E, E')$ (III, p. 3, Remark 5), assuming that A is *compact* for $\sigma(E, E')$ is equivalent to A being *complete* for $\sigma(E, E')$.
+#### Remark 3 {#evt-iv-s1-n2-rem-3 .statement}
+
+Suppose E is Hausdorff (for the initial topology). Let A be a subset of E which is closed and bounded for $\sigma(E, E')$, hence also for every topology compatible with the duality between E and $E'$. Since A is precompact for $\sigma(E, E')$ (III, p. 3, Remark 5), assuming that A is *compact* for $\sigma(E, E')$ is equivalent to A being *complete* for $\sigma(E, E')$.
 
 Therefore, on account of remark 2, we see that :
 
@@ -174,7 +184,9 @@ Therefore, on account of remark 2, we see that :
 
 *Suppose E is Hausdorff, and $E'$ its dual. Every subset of E which is precompact for the initial topology and compact for $\sigma(E, E')$, is compact for the initial topology.*
 
-4) The topology $\beta(E, E')$ (IV, p. 4, def. 3) is finer than the Mackey topology. If $\beta(E, E')$ is distinct from $\tau(E, E')$, it is not compatible with the duality between E and $E'$. The space E is barrelled if and only if the initial topology is equal to $\beta(E, E')$ (III, p. 24).
+#### Remark 4 {#evt-iv-s1-n2-rem-4 .statement}
+
+The topology $\beta(E, E')$ (IV, p. 4, def. 3) is finer than the Mackey topology. If $\beta(E, E')$ is distinct from $\tau(E, E')$, it is not compatible with the duality between E and $E'$. The space E is barrelled if and only if the initial topology is equal to $\beta(E, E')$ (III, p. 24).
 
 #### Proposition 4 {#evt-iv-s1-prop-4 .statement}
 
@@ -279,9 +291,9 @@ $$
 = \sup_{\|x\| \leq 1, \|y'\| \leq 1} |\langle u(x), y' \rangle| = \sup_{\|x\| \leq 1} \|u(x)\| = \|u\|.
 $$
 
-#### Remark {#evt-iv-s1-n3-rem-1 .statement}
+#### Remark 1 {#evt-iv-s1-n3-rem-1 .statement}
 
-— 1) Formula (3) is a particular case of (4), corresponding to the linear mapping $ \lambda \mapsto \lambda x $ from K into E.
+Formula (3) is a particular case of (4), corresponding to the linear mapping $ \lambda \mapsto \lambda x $ from K into E.
 2) Put $ B(x, y') = \langle u(x), y' \rangle = \langle x, ^{t}u(y') \rangle $ for $ x \in E_1,\ y' \in E'_2 $. The above proof shows that B is a continuous bilinear form on $ E_1 \times E'_2 $, with norm (GT, X, § 3, No. 2) equal to $ \|u\| $.
 
 #### Corollary {#evt-iv-s1-n3-cor-3 .statement}

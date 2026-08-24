@@ -64,9 +64,9 @@ subsections:
       title: Complex Linear Representations
       page: 421
       pdf_page: 438
-statements: 31
+statements: 36
 exercises: 30
-content_sha256: b38e447deaa35db654dfd692eab5354f9d2d620ba1a54eb7cd8fb0c710c16777
+content_sha256: a08b33966e4211250824ddb04db1ee77dc894ab08e7740f6790fcc8b12126a24
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -766,27 +766,35 @@ The bijection $ \varphi_G $ from $ \mathscr{I}_K(G) $ to $ \mathscr{I}_{K'}(G) $
 
 #### Remark 1 {#alg-viii-s21-n12-rem-1 .statement tag=00O2}
 
-— Suppose that $ K' $ is an extension of $ K $ and that the isomorphism $ \varphi $ is the mapping $ \xi \mapsto \xi \cdot 1 $; then the mapping $ \varphi_G $ is given by extension of scalars from $ K $ to $ K' $.
+Suppose that $ K' $ is an extension of $ K $ and that the isomorphism $ \varphi $ is the mapping $ \xi \mapsto \xi \cdot 1 $; then the mapping $ \varphi_G $ is given by extension of scalars from $ K $ to $ K' $.
 
-Corollary 1. — *The mapping $ \varphi_G $ is a ring isomorphism from $ R_K(G) $ to $ R_{K'}(G) $. For every finite-dimensional representation $ \pi $ of $ G $ in a $ K $-vector space, we have $ \varphi_G([\pi]) = [\pi'] $, where $ \pi' $ is a representation related to $ \pi $ through $ \varphi $*.
+#### Corollary 1 {#alg-viii-s21-prop-10-cor-1 .statement tag=00O3}
+
+*The mapping $ \varphi_G $ is a ring isomorphism from $ R_K(G) $ to $ R_{K'}(G) $. For every finite-dimensional representation $ \pi $ of $ G $ in a $ K $-vector space, we have $ \varphi_G([\pi]) = [\pi'] $, where $ \pi' $ is a representation related to $ \pi $ through $ \varphi $*.
 
 This follows from the semisimplicity of the representations of $ G $ and property b) of VIII, p. 416.
 
-Corollary 2. — *The dimension of each simple representation of $ G $ divides the order of $ G $*.
+#### Corollary 2 {#alg-viii-s21-prop-10-cor-2 .statement tag=00O4}
+
+*The dimension of each simple representation of $ G $ divides the order of $ G $*.
 
 This follows from Proposition 10 and Proposition 9 of VIII, p. 415.
 
-#### Remark {#alg-viii-s21-n12-rem-2 .statement tag=00O5}
+#### Remark 2 {#alg-viii-s21-n12-rem-2 .statement tag=00O5}
 
-— 2) Suppose that the group $ G $ is *abelian*. We saw in the remark of VIII, p. 414 that $ \mathscr{I}_K(G) $ can be identified with the set $ \operatorname{Hom}(G, \mu_n(K)) $. Likewise, $ \mathscr{I}_{K'}(G) $ can be identified with $ \operatorname{Hom}(G, \mu_n(K')) $. With these identifications, the bijection $ \varphi_G $ is simply the mapping $ \chi \mapsto \varphi \circ \chi $.
+Suppose that the group $ G $ is *abelian*. We saw in the remark of VIII, p. 414 that $ \mathscr{I}_K(G) $ can be identified with the set $ \operatorname{Hom}(G, \mu_n(K)) $. Likewise, $ \mathscr{I}_{K'}(G) $ can be identified with $ \operatorname{Hom}(G, \mu_n(K')) $. With these identifications, the bijection $ \varphi_G $ is simply the mapping $ \chi \mapsto \varphi \circ \chi $.
 
-3) Let $ \pi_1 $ and $ \pi_2 $ be linear representations of $ G $ in finite-dimensional vector spaces over $ K $. For $ i = 1, 2 $, let $ \pi_i' $ be a representation related to $ \pi_i $ through $ \varphi $. We have
+#### Remark 3 {#alg-viii-s21-n12-rem-3 .statement tag=00O6}
+
+Let $ \pi_1 $ and $ \pi_2 $ be linear representations of $ G $ in finite-dimensional vector spaces over $ K $. For $ i = 1, 2 $, let $ \pi_i' $ be a representation related to $ \pi_i $ through $ \varphi $. We have
 $$
 \dim_K \operatorname{Hom}_K(\pi_1, \pi_2) = \dim_{K'} \operatorname{Hom}_{K'}(\pi_1', \pi_2') .
 $$
 The proof follows that of Corollary VIII, p. 410, by reducing to the case when the $ \pi_i $ (and therefore the $ \pi_i' $) are simple.
 
-4) Let $ H $ be a subgroup of $ G $ of cardinal $ m $. The isomorphism $ \varphi $ restricts to an isomorphism from $ \mu_m(K) $ to $ \mu_m(K') $ and, consequently, a ring isomorphism $ \varphi_H $ from $ R_K(H) $ to $ R_{K'}(H) $. The following diagrams commute:
+#### Remark 4 {#alg-viii-s21-n12-rem-4 .statement tag=00O7}
+
+Let $ H $ be a subgroup of $ G $ of cardinal $ m $. The isomorphism $ \varphi $ restricts to an isomorphism from $ \mu_m(K) $ to $ \mu_m(K') $ and, consequently, a ring isomorphism $ \varphi_H $ from $ R_K(H) $ to $ R_{K'}(H) $. The following diagrams commute:
 
 $$
 \begin{array}{ccc}
@@ -806,7 +814,9 @@ $$
 
 The commutativity of the first diagram is obvious, and that of the second follows from it using Frobenius reciprocity and formula (47).
 
-5) Suppose that G is the product $G'\times G''$ of two finite groups. We define isomorphisms $\varphi_{G'}$ and $\varphi_{G''}$ as in the previous example.
+#### Remark 5 {#alg-viii-s21-n12-rem-5 .statement tag=00O8}
+
+Suppose that G is the product $G'\times G''$ of two finite groups. We define isomorphisms $\varphi_{G'}$ and $\varphi_{G''}$ as in the previous example.
 
 We have a commutative diagram
 

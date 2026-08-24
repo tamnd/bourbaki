@@ -20,12 +20,12 @@ subsections:
       title: Simple Algebras over Finite Fields
       page: 357
       pdf_page: 374
-statements: 9
+statements: 10
 exercises: 7
-content_sha256: 902a32feab067b891ea7491a3765b01d72afca67c517a5204c1381d616884499
+content_sha256: ca2b78135e5be441cf2e038885b4a2277b0b7489a5e6f65d522c87202bf017e4
 translated_from: content/en/alg/VIII/18_s18_simple_algebras_over_a_finite_field.md
-source_content_sha256: 05b7066ed3c39e544b1ceb8f923c3ec7dae8f65d11434bc82da96e56f08de1e2
-translation_model: gpt-5.4
+source_content_sha256: 54d2a6b31a60bad387aff00416b44414a3612b96aff88b09c11c2b91d78d43d8
+translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-8f9f11f7
 glossary_version: 34
 glossary_terms_sha256: 77e64a4c401935d1d13534708e014a3d881816c14ff560a09b4586ee99db2bf4
@@ -81,7 +81,9 @@ $$
 $$
 Bây giờ, theo công thức (1), ta có $\sum_{\mathbf{x} \in K^n} P(\mathbf{x}) = \operatorname{Card}(\mathbf{Z}) \cdot 1$, và do đó $\operatorname{Card}(\mathbf{Z}) \cdot 1 = 0$, điều đó có nghĩa là $\operatorname{Card}(\mathbf{Z})$ chia được cho $p$.
 
-Hệ quả. — *Cho $V$ là một không gian vectơ có số chiều hữu hạn $n$ trên $K$ và $I$ là một tập hợp hữu hạn, và với mỗi $i \in I$, cho $F_i : V \to K$ là một ánh xạ đa thức thuần nhất bậc $d_i > 0$. Nếu $\sum_{i \in I} d_i < n$, thì tồn tại một phần tử khác không $x$ của $V$ sao cho $F_i(x) = 0$ với mọi $i \in I$.*
+#### Hệ quả {#alg-viii-s18-n1-cor-1 .statement tag=00LD}
+
+*Cho $V$ là một không gian vectơ có số chiều hữu hạn $n$ trên $K$ và $I$ là một tập hợp hữu hạn, và với mỗi $i \in I$, cho $F_i : V \to K$ là một ánh xạ đa thức thuần nhất có bậc $d_i > 0$. Nếu ta có $\sum_{i \in I} d_i < n$, thì tồn tại một phần tử khác không $x$ của $V$ sao cho $F_i(x) = 0$ với mọi $i \in I$.*
 
 Cho $(e_1, \ldots, e_n)$ là một cơ sở của $V$ trên $K$. Theo định nghĩa của các ánh xạ đa thức thuần nhất (IV, §5, No. 9, p. 55, Định nghĩa 3), với mọi $i \in I$, tồn tại một đa thức thuần nhất $f_i$ trong $K[X_1, \ldots, X_n]$ có bậc $d_i$ sao cho ta có $F_i(\xi_1 e_1, \ldots, \xi_n e_n) = f_i(\xi_1, \ldots, \xi_n)$. Gọi $Z$ là tập hợp các phần tử $x$ của $V$ sao cho $F_i(x) = 0$ với mọi $i \in I$. Theo Định lý 1, lực lượng của $Z$ chia được cho $p$, và vì $0$ thuộc $S$, ta có $\operatorname{Card}(Z) \geq p > 1$.
 

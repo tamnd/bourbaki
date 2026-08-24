@@ -39,9 +39,9 @@ subsections:
       title: Relations between the endomorphisms $ U(\mu) $ and the endomorphisms $ U(s) $
       page: 16
       pdf_page: 116
-statements: 17
+statements: 22
 exercises: 10
-content_sha256: 78d6021eb56a629e3d0c9daef0d5738461c50995f1aab09eca3c6ee4e316e52c
+content_sha256: 58624c4bd96e4bd45a186145d511f6e1ad6f19615e05785ba50e3a3a2957cf87
 ---
 
 ## § 2. LINEAR REPRESENTATIONS OF GROUPS
@@ -58,11 +58,13 @@ Let G be a topological group, E a locally convex space, U a linear representatio
 
 (iii) $ U $ is said to be equicontinuous if it is continuous and if the set of endomorphisms $ U(s) $, where $ s $ runs over $ G $, is equicontinuous.
 
-#### Remark {#int-viii-s2-n1-rem-1 .statement}
+#### Remark 1 {#int-viii-s2-n1-rem-1 .statement}
 
-— 1) To say that $ U $ is separately continuous means that $ s \mapsto U(s) $ is a continuous mapping of $ G $ into the space $ \mathcal{L}(E; E) $ of continuous endomorphisms of $ E $, equipped with the topology of pointwise convergence.
+To say that $ U $ is separately continuous means that $ s \mapsto U(s) $ is a continuous mapping of $ G $ into the space $ \mathcal{L}(E; E) $ of continuous endomorphisms of $ E $, equipped with the topology of pointwise convergence.
 
-2) To say that $ U $ is continuous is equivalent to the following set of three conditions:
+#### Remark 2 {#int-viii-s2-n1-rem-2 .statement}
+
+To say that $ U $ is continuous is equivalent to the following set of three conditions:
 
 a) for every $ s \in G $, $ U(s) $ is continuous; b) there exists a neighborhood $ V $ of $ e $ such that $ U(V) $ is equicontinuous; c) there exists a total set $ D $ in $ E $ such that, for every $ x \in D $, the mapping $ s \mapsto U(s)x $ is continuous.
 
@@ -71,9 +73,13 @@ These conditions are obviously necessary. Conversely, suppose that the condition
 When $ G $ is locally compact, the conditions $ a) $ and $ b) $ are equivalent to the condition:
 $ a') $ for every compact subset $ K $ of $ G $, $ U(K) $ is equicontinuous.
 
-3) Suppose that $ U $ is a continuous linear representation of $ G $ in $ E $. For every $ s \in G $, let $ \widehat{U}(s) $ be the continuous extension of $ U(s) $ to the completion $ \widehat{E} $ of $ E $. Then $ \widehat{U} $ is a linear representation of $ G $ in $ \widehat{E} $, satisfying conditions $ a) $ and $ c) $ of Remark 2, and also condition $ b) $ by GT, X, §2, No. 2, Prop. 4. Therefore $ \widehat{U} $ is a continuous linear representation of $ G $ in $ \widehat{E} $.
+#### Remark 3 {#int-viii-s2-n1-rem-3 .statement}
 
-4) When $ E $ is a normed space, $ U $ is said to be isometric if $ \|U(s)\| = 1 $ for every $ s \in G $. For this, it suffices that $ \|U(s)\| \leq 1 $ for all $ s \in G $, because one then has
+Suppose that $ U $ is a continuous linear representation of $ G $ in $ E $. For every $ s \in G $, let $ \widehat{U}(s) $ be the continuous extension of $ U(s) $ to the completion $ \widehat{E} $ of $ E $. Then $ \widehat{U} $ is a linear representation of $ G $ in $ \widehat{E} $, satisfying conditions $ a) $ and $ c) $ of Remark 2, and also condition $ b) $ by GT, X, §2, No. 2, Prop. 4. Therefore $ \widehat{U} $ is a continuous linear representation of $ G $ in $ \widehat{E} $.
+
+#### Remark 4 {#int-viii-s2-n1-rem-4 .statement}
+
+When $ E $ is a normed space, $ U $ is said to be isometric if $ \|U(s)\| = 1 $ for every $ s \in G $. For this, it suffices that $ \|U(s)\| \leq 1 $ for all $ s \in G $, because one then has
 $$
 1 = \|1\| \leq \|U(s)\| \cdot \|U(s^{-1})\|,
 $$
@@ -87,13 +93,13 @@ For every compact subset $ K $ of $ G $, $ U(K) $ is compact for the topology of
 
 #### Lemma 1 {#int-viii-s2-lem-1 .statement}
 
-— Let G be a locally compact group, $ \rho $ a lower semi-continuous finite numerical function $ \geqslant 0 $ on G such that $ \rho(st) \leqslant \rho(s)\rho(t) $ for all $ s,t \in G $. Then $ \rho $ is bounded above on every compact subset of G.
+Let G be a locally compact group, $ \rho $ a lower semi-continuous finite numerical function $ \geqslant 0 $ on G such that $ \rho(st) \leqslant \rho(s)\rho(t) $ for all $ s,t \in G $. Then $ \rho $ is bounded above on every compact subset of G.
 
 There exists a nonempty open subset U of G such that $ \rho $ is bounded above on U (GT, IX, §5, No. 4, Th. 2). Let K be a compact subset of G. Then K is covered by a finite number of sets $ s_1U, \ldots, s_nU $. For every $ x \in U $, one has $ \rho(s_ix) \leqslant \rho(s_i)\rho(x) $, therefore $ \rho $ is bounded above on the $ s_iU $, hence on K.
 
 #### Lemma 2 {#int-viii-s2-lem-2 .statement}
 
-— Let G be a topological group, U a linear representation of G in a normed space E, and A a dense subset of E. Assume that for every $ s \in G $, $ U(s) $ is continuous, and that, for every $ x \in A $, $ s \mapsto U(s)x $ is a continuous mapping of G into E. Then the function $ s \mapsto g(s) = \|U(s)\| $ on G is lower semi-continuous and satisfies $ g(st) \leqslant g(s)g(t) $.
+Let G be a topological group, U a linear representation of G in a normed space E, and A a dense subset of E. Assume that for every $ s \in G $, $ U(s) $ is continuous, and that, for every $ x \in A $, $ s \mapsto U(s)x $ is a continuous mapping of G into E. Then the function $ s \mapsto g(s) = \|U(s)\| $ on G is lower semi-continuous and satisfies $ g(st) \leqslant g(s)g(t) $.
 
 Let B be the unit ball of E. Then $ g(s) = \sup_{x \in B \cap A} \|U(s)x\| $, and each function $ s \mapsto \|U(s)x\| $ is continuous on G, therefore $ g $ is lower semi-continuous. On the other hand,
 
@@ -101,7 +107,9 @@ $$
 g(st) = \|U(s)U(t)\| \leqslant \|U(s)\| \cdot \|U(t)\| = g(s)g(t).
 $$
 
-Proposition 2. — Let G be a locally compact group, U a linear representation of G in a normed space E. Let A be a dense subset of E. Assume that for every $ s \in G $, $ U(s) $ is continuous and that, for every $ x \in A $, $ s \mapsto U(s)x $ is a continuous mapping of G into E. Then U is continuous.
+#### Proposition 2 {#int-viii-s2-prop-2 .statement}
+
+Let G be a locally compact group, U a linear representation of G in a normed space E. Let A be a dense subset of E. Assume that for every $ s \in G $, $ U(s) $ is continuous and that, for every $ x \in A $, $ s \mapsto U(s)x $ is a continuous mapping of G into E. Then U is continuous.
 
 For, $ \|U(s)\| $ is bounded on every compact subset of G by Lemmas 1 and 2, and one then applies Remark 2.
 
@@ -111,7 +119,7 @@ Let U be a separately continuous linear representation of G in E. Let E' be the 
 
 #### Lemma 3 {#int-viii-s2-lem-3 .statement}
 
-— Let X be a locally compact space, Y and Z topological spaces, $ \varphi $ a continuous mapping of $ X \times Y $ into Z, and $ \varphi_x $ the mapping $ y \mapsto \varphi(x,y) $ of Y into Z. The spaces $ \mathcal{C}(Y), \mathcal{C}(Z) $ being equipped with the topology of compact convergence, the mapping $ (x,f) \mapsto f \circ \varphi_x $ of $ X \times \mathcal{C}(Z) $ into $ \mathcal{C}(Y) $ is continuous.
+Let X be a locally compact space, Y and Z topological spaces, $ \varphi $ a continuous mapping of $ X \times Y $ into Z, and $ \varphi_x $ the mapping $ y \mapsto \varphi(x,y) $ of Y into Z. The spaces $ \mathcal{C}(Y), \mathcal{C}(Z) $ being equipped with the topology of compact convergence, the mapping $ (x,f) \mapsto f \circ \varphi_x $ of $ X \times \mathcal{C}(Z) $ into $ \mathcal{C}(Y) $ is continuous.
 
 It clearly suffices to consider the case that X is compact. Let $ (x_0, f_0) \in X \times \mathcal{C}(Z) $, K a compact subset of Y, and $ \varepsilon > 0 $. Let $ K' = \varphi(X \times K) $. Since f_0 \circ \varphi \text{ is uniformly continuous in } X \times K, \text{ there exists a neighborhood W of } x_0 \text{ such that } |f_0(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq \varepsilon \text{ for } x \in W \text{ and } y \in K. \text{ On the other hand, if one takes } f \in \mathcal{C}(Z) \text{ to be such that } |f(z) - f_0(z)| \leq \varepsilon \text{ for all } z \in K', \text{ one will have } |f(\varphi(x,y)) - f_0(\varphi(x,y))| \leq \varepsilon \text{ for } x \in X, y \in K, \text{ and therefore } |f(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq 2\varepsilon \text{ for } x \in W, y \in K. \text{ Whence the lemma.}
 
@@ -291,7 +299,7 @@ Let us now assume that $ U $ is a continuous linear representation of the locall
 
 #### Lemma 4 {#int-viii-s2-lem-4 .statement}
 
-— Let $ T $ be a locally compact space, $ a $ a point of $ T $, $ M $ a subset of $ \mathcal{M}(T) $, and $ \mathfrak{F} $ a filter on $ M $. Assume that:
+Let $ T $ be a locally compact space, $ a $ a point of $ T $, $ M $ a subset of $ \mathcal{M}(T) $, and $ \mathfrak{F} $ a filter on $ M $. Assume that:
 (i) for every compact subset $ K $ of $ T $, the numbers $ |\mu|(K) $, for $ \mu \in M $, are bounded above;
 (ii) $ \lim_{\mu,\mathfrak{F}} |\mu|(K) = 0 $ for every compact subset $ K $ of $ T - \{a\} $.
 (iii) there exists a compact neighborhood $ V $ of $ a $ in $ T $ such that $ \lim_{\mu,\mathfrak{F}} \mu(V) = 1 $.
@@ -318,7 +326,9 @@ $$
 
 Since the first and third terms on the right side tend to 0 with respect to $ \mathfrak{F} $, one sees that indeed $ \lim_{\mu,\mathfrak{F}} \mu(f) = f(a) $.
 
-Corollary 1. — With hypotheses as in Lemma 4, suppose in addition that there exists a compact subset $ K_0 $ of $ T $ containing the supports of all of the measures $ \mu \in M $. Then $ \mathfrak{F} $ also converges to $ \varepsilon_a $ in $ \mathcal{C}'(T) $ equipped with the topology of compact convergence in $ \mathcal{C}(T) $.
+#### Corollary 1 {#int-viii-s2-lem-4-cor-1 .statement}
+
+With hypotheses as in Lemma 4, suppose in addition that there exists a compact subset $ K_0 $ of $ T $ containing the supports of all of the measures $ \mu \in M $. Then $ \mathfrak{F} $ also converges to $ \varepsilon_a $ in $ \mathcal{C}'(T) $ equipped with the topology of compact convergence in $ \mathcal{C}(T) $.
 
 For, the restriction mapping of $ \mathcal{C}(T) $ into $ \mathcal{C}(K_0) $ is continuous; therefore, if $ H $ is a compact subset of $ \mathcal{C}(T) $, then the restrictions to $ K_0 $ of the functions in $ H $ form a compact subset of $ \mathcal{C}(K_0) $. It then suffices to apply Lemma 4 on replacing $ T $ by $ K_0 $.
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: 7eb54e9666dc4f954bc5363b6489301c8e109bec69185ed8316bea9f05a72696
+content_sha256: 8b0160d6b388725bfdc8bc2b2e1ffd83042db4914a53ee986c4bde7ba18e9ae4
 ---
 
 ## APPENDIX
@@ -132,7 +132,7 @@ Let $ K $ be a convex subset of $ E $. Suppose that $ K $ is compact (for the to
 
 #### Lemma 2 {#evt-iv-a0-lem-2 .statement}
 
-— Suppose $ K $ contains at least two points. For every $ \varepsilon > 0 $, there exists a partition of $ K $ into two non-empty subsets $ K_1 $ and $ K_2 $, having the following properties :
+Suppose $ K $ contains at least two points. For every $ \varepsilon > 0 $, there exists a partition of $ K $ into two non-empty subsets $ K_1 $ and $ K_2 $, having the following properties :
 
 a) $ K_1 $ is convex and compact ;
 b) we have $ \| x_1 - x_2 \| < \varepsilon $ for every $ x_1 $ and $ x_2 $ in $ K_2 $.
@@ -157,7 +157,7 @@ This completes the proof.
 
 #### Lemma 3 {#evt-iv-a0-lem-3 .statement}
 
-— Let G be a group of continuous (for $ \mathcal{T} $) affine transformations on K. Suppose that K is non-empty and that $ \|gx - gy\| = \|x - y\| $ for all x, y in K and all g in G. Then there exists a point in K which is invariant under G.
+Let G be a group of continuous (for $ \mathcal{T} $) affine transformations on K. Suppose that K is non-empty and that $ \|gx - gy\| = \|x - y\| $ for all x, y in K and all g in G. Then there exists a point in K which is invariant under G.
 
 Let $ \mathfrak{J} $ be the family of non-empty subsets of K which are closed convex and stable for G. If $ (L_\alpha)_{\alpha \in I} $ is a family of elements of $ \mathfrak{J} $ which is totally ordered by inclusion, then the set $ L = \bigcap_{\alpha \in I} L_\alpha $ belongs to $ \mathfrak{J} $. Consequently (S, III, § 3, No. 4, th. 2), there exists an element L in $ \mathfrak{J} $ which is minimal for the relation of inclusion. We shall prove that L reduces to a point.
 

@@ -39,9 +39,9 @@ subsections:
       title: Regularization
       page: 44
       pdf_page: 144
-statements: 37
+statements: 38
 exercises: 28
-content_sha256: 31544aa723f8448edb7c651e7d640fa7c05d1bf3989eae83165b9e324ed2fb7d
+content_sha256: d9472115c849cdaea01285fb77cf2f3cb00b0ae3f7a4812e38930ae6bff2f277
 ---
 
 ## § 4. CONVOLUTION OF MEASURES AND FUNCTIONS
@@ -168,7 +168,7 @@ is essentially $ (\mu \otimes \beta) $-integrable, and zero outside a countable 
 
 #### Remark {#int-viii-s4-n1-rem-1 .statement}
 
-— The hypothesis (iii) of Prop. 2 is satisfied notably when $ \mu $ is bounded. For, for every $ n > 0 $, there then exists a compact subset $ K_n $ of $ G $ such that
+The hypothesis (iii) of Prop. 2 is satisfied notably when $ \mu $ is bounded. For, for every $ n > 0 $, there then exists a compact subset $ K_n $ of $ G $ such that
 $$
 |\mu|(G - K_n) \leq \frac{1}{n}
 $$
@@ -746,11 +746,13 @@ the limit being taken with respect to the section filter of $\mathcal{B}$.
 
 For the topology of compact convergence in $\mathcal{C}(G)$, $f_V \cdot \beta$ tends to $\varepsilon_e$ with respect to the section filter of $\mathcal{B}$ (\S2, No. 7, Cor. 1 of Lemma 4). Therefore $\mu = \lim_V \mu * (f_V \cdot \beta) = \lim_V (f_V \cdot \beta) * \mu$ in $\mathcal{M}(G)$ equipped with the topology of compact convergence in $\mathcal{H}(G)$ (\S3, No. 3, Cor. of Prop. 12).
 
-#### Remark {#int-viii-s4-n7-rem-1 .statement}
+#### Remark 1 {#int-viii-s4-n7-rem-1 .statement}
 
-— 1) We thus see that every measure on $G$ is the limit of measures admitting a *continuous density* with respect to every Haar measure (for the topology indicated in Prop. 19 and *a fortiori* for the vague topology).
+We thus see that every measure on $G$ is the limit of measures admitting a *continuous density* with respect to every Haar measure (for the topology indicated in Prop. 19 and *a fortiori* for the vague topology).
 
-2) If $G$ is metrizable, $\mathcal{B}$ can be taken to be a sequence $(V_n)$ of neighborhoods. Then $\mu$ is the limit of the sequence of measures $(\mu * f_{V_n}) \cdot \beta$ with continuous densities. *If $G$ is a real Lie group, the $f_{V_n}$ can be taken to be infinitely differentiable; we shall see later on that the densities $\mu * f_{V_n}$ are then infinitely differentiable.*
+#### Remark 2 {#int-viii-s4-n7-rem-2 .statement}
+
+If $G$ is metrizable, $\mathcal{B}$ can be taken to be a sequence $(V_n)$ of neighborhoods. Then $\mu$ is the limit of the sequence of measures $(\mu * f_{V_n}) \cdot \beta$ with continuous densities. *If $G$ is a real Lie group, the $f_{V_n}$ can be taken to be infinitely differentiable; we shall see later on that the densities $\mu * f_{V_n}$ are then infinitely differentiable.*
 
 #### Proposition 20 {#int-viii-s4-prop-20 .statement}
 
@@ -766,7 +768,7 @@ It suffices to apply Prop. 6 (iii), and §2, No. 7, Cor. 3 of Lemma 4.
 
 #### Remark 3 {#int-viii-s4-n7-rem-3 .statement}
 
-— By Prop. 15, the functions $ g * f_V $, $ f_V * g $ belong to $ \mathcal{K}(G) $.
+By Prop. 15, the functions $ g * f_V $, $ f_V * g $ belong to $ \mathcal{K}(G) $.
 
 #### Corollary {#int-viii-s4-n7-cor-1 .statement}
 
@@ -776,7 +778,7 @@ Suppose that $ W $ is a left ideal. Let $ s \in G $ and $ g \in W $. We have $ \
 
 #### Example {#int-viii-s4-n7-exa-1 .statement}
 
-— We take $ G = \mathbf{R} $. Let us define a function $ F_n \in \mathcal{K}(\mathbf{R}) $ by
+We take $ G = \mathbf{R} $. Let us define a function $ F_n \in \mathcal{K}(\mathbf{R}) $ by
 $$
 F_n(x) = (1 - x^2)^n \quad \text{if } x \in [-1, 1] \\
 F_n(x) = 0 \qquad \text{if } x \notin [-1, 1].

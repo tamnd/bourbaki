@@ -51,9 +51,9 @@ subsections:
       title: Integration on a fundamental domain
       page: 50
       pdf_page: 56
-statements: 46
+statements: 53
 exercises: 13
-content_sha256: 19dadea3bf4cfebfd795b62db8d79dd85d5c9102f5a3b9ac6267e2801beee090
+content_sha256: ddac8b9a5a80bf3da75803588d88cfeaac6a5706841d15a9929d67f8ddd9b433
 ---
 
 ## § 2. QUOTIENT OF A SPACE BY A GROUP; HOMOGENEOUS SPACES
@@ -379,11 +379,13 @@ $$
 
 which completes the proof of a). The assertion b) then follows at once since, for example, $ \lambda^+ $ is none other than $ \sup(\lambda, 0) $. To prove c), it suffices to note that $ |\lambda| = \sup \mathcal{R}(\alpha \lambda) $ over the complex numbers $ \alpha $ of absolute value 1, and on the other hand that $ \mathcal{R}(\mu^\#) = (\mathcal{R}\mu)^\# $ for every $ \mu \in \mathcal{M}(X/H) $.
 
-#### Remark {#int-vii-s2-n3-rem-1 .statement}
+#### Remark 1 {#int-vii-s2-n3-rem-1 .statement}
 
-— 1) Prop. 6 a) may be expressed by saying that $ \lambda $ is a *pseudo-image* measure of $ \lambda^\# $ under $ \pi $ (Ch. VI, §3, No. 2, Def. 1).
+Prop. 6 a) may be expressed by saying that $ \lambda $ is a *pseudo-image* measure of $ \lambda^\# $ under $ \pi $ (Ch. VI, §3, No. 2, Def. 1).
 
-2) Suppose $ H $ is *compact* and $ \beta $ is normalized. The saturation of every compact subset of $ X $ is compact. Therefore, if $ f \in \mathcal{K}(X/H) $ then $ f \circ \pi \in \mathcal{K}(X) $; and, for every positive measure $ \lambda $ on $ X/H $, Prop. 5 c) gives
+#### Remark 2 {#int-vii-s2-n3-rem-2 .statement}
+
+Suppose $ H $ is *compact* and $ \beta $ is normalized. The saturation of every compact subset of $ X $ is compact. Therefore, if $ f \in \mathcal{K}(X/H) $ then $ f \circ \pi \in \mathcal{K}(X) $; and, for every positive measure $ \lambda $ on $ X/H $, Prop. 5 c) gives
 
 $$
 \int_X (f \circ \pi)(x)\, d\lambda^\#(x) = \int_{X/H} f(u)\, d\lambda(u).
@@ -391,9 +393,13 @@ $$
 
 In other words, $ \lambda $ is the *image* of $ \lambda^\# $ under $ \pi $.
 
-3) Cor. 3 c) of Prop. 6 shows at once that the results of this subsection remain valid in the case of complex measures (except for those that involve the upper integral).
+#### Remark 3 {#int-vii-s2-n3-rem-3 .statement}
 
-4) Let $ m $ be a vectorial measure on $ X/H $ with values in $ E $, and let $ q $ be a lower semi-continuous semi-norm on $ E $. For $ m $ to be $ q $-majorizable (Ch. VI, §2, No. 3, Def. 3), it is necessary and sufficient that $ m^\# $ be so, in which case $ q(m^\#) = q(m)^\# $. This follows at once from the definitions and Cor. 3 a).
+Cor. 3 c) of Prop. 6 shows at once that the results of this subsection remain valid in the case of complex measures (except for those that involve the upper integral).
+
+#### Remark 4 {#int-vii-s2-n3-rem-4 .statement}
+
+Let $ m $ be a vectorial measure on $ X/H $ with values in $ E $, and let $ q $ be a lower semi-continuous semi-norm on $ E $. For $ m $ to be $ q $-majorizable (Ch. VI, §2, No. 3, Def. 3), it is necessary and sufficient that $ m^\# $ be so, in which case $ q(m^\#) = q(m)^\# $. This follows at once from the definitions and Cor. 3 a).
 
 On the other hand, let $ \mu $ be a positive measure on $ X/H $. For $ m $ to be scalarly of base $ \mu $, it is necessary and sufficient that $ m^\# $ be scalarly of base $ \mu^\# $: this follows from Cor. 1.
 
@@ -419,11 +425,13 @@ Let us apply Prop. 1 of No. 1 on taking $ f $ to be a function $ \geqslant 0 $ t
 
 Let us apply Prop. 1 of No. 1, with $ \chi = 1 $, on taking for $ f $ a function $ \geqslant 0 $ that is not identically zero on any orbit. We have $ f^1(x) > 0 $ at every point $ x $ of $ X $. Set $ h = f/f^1 $. Then $ h^1 = f^1/f^1 = 1 $, therefore $ h^b = 1 $. It follows that if $ g $ is a continuous function on $ X/H $, then $ (h \cdot (g \circ \pi))^b = h^b \cdot g = g $.
 
-#### Remark {#int-vii-s2-n4-rem-1 .statement}
+#### Remark 1 {#int-vii-s2-n4-rem-1 .statement}
 
-— 1) In particular, let $ X $ be a locally compact space on which a discrete group $ D $ operates continuously and properly on the right; suppose $ X/D $ is paracompact. Then, there exists a continuous function $ h \geqslant 0 $ on $ X $ whose support has compact intersection with the saturation of every compact subset of $ X $, and is such that $ \sum_{d \in D} h(xd) = 1 $ for every $ x \in X $ (all terms of the sum being zero except for a finite number of them).
+In particular, let $ X $ be a locally compact space on which a discrete group $ D $ operates continuously and properly on the right; suppose $ X/D $ is paracompact. Then, there exists a continuous function $ h \geqslant 0 $ on $ X $ whose support has compact intersection with the saturation of every compact subset of $ X $, and is such that $ \sum_{d \in D} h(xd) = 1 $ for every $ x \in X $ (all terms of the sum being zero except for a finite number of them).
 
-2) Let us conserve the hypotheses and notations of Prop. 8. The mapping $ g \mapsto h \cdot (g \circ \pi) $ is a continuous mapping of $ \mathcal{K}(X/H) $ into $ \mathcal{K}(X) $ that is a right inverse of the mapping $ f \mapsto f^b $. Consequently, every bounded (resp. compact) subset of $ \mathcal{K}(X/H) $ is the image of a bounded (resp. compact) subset of $ \mathcal{K}(X) $. From this, one deduces immediately that the mapping $ \lambda \mapsto \lambda^\# $ is again an isomorphism of $ \mathcal{M}(X/H) $ onto a closed linear subspace of $ \mathcal{M}(X) $ when these spaces are equipped with the topology of bounded (resp. compact) convergence.
+#### Remark 2 {#int-vii-s2-n4-rem-2 .statement}
+
+Let us conserve the hypotheses and notations of Prop. 8. The mapping $ g \mapsto h \cdot (g \circ \pi) $ is a continuous mapping of $ \mathcal{K}(X/H) $ into $ \mathcal{K}(X) $ that is a right inverse of the mapping $ f \mapsto f^b $. Consequently, every bounded (resp. compact) subset of $ \mathcal{K}(X/H) $ is the image of a bounded (resp. compact) subset of $ \mathcal{K}(X) $. From this, one deduces immediately that the mapping $ \lambda \mapsto \lambda^\# $ is again an isomorphism of $ \mathcal{M}(X/H) $ onto a closed linear subspace of $ \mathcal{M}(X) $ when these spaces are equipped with the topology of bounded (resp. compact) convergence.
 
 #### Proposition 9 {#int-vii-s2-prop-9 .statement}
 
@@ -595,11 +603,13 @@ a) follows from Prop. 7.
 b) follows from Lemmas 5 and 4.
 c) follows from (17).
 
-#### Remark {#int-vii-s2-n5-rem-1 .statement}
+#### Remark 1 {#int-vii-s2-n5-rem-1 .statement}
 
-— 1) One deduces from Remark 1 of No. 3 that the nonzero quasi-invariant measures on G/H are none other than the pseudo-images under $ \pi $ of a Haar measure on G.
+One deduces from Remark 1 of No. 3 that the nonzero quasi-invariant measures on G/H are none other than the pseudo-images under $ \pi $ of a Haar measure on G.
 
-*2) If G is a Lie group, we shall see later that the function $ \rho $ of Th. 2 can be chosen to be infinitely differentiable.*
+#### Remark 2 {#int-vii-s2-n5-rem-2 .statement}
+
+If G is a Lie group, we shall see later that the function $ \rho $ of Th. 2 can be chosen to be infinitely differentiable.*
 
 Under the conditions of Th. 2, certain results of Nos. 3 and 4 may be specialized as follows (on taking into account Ch. V, §4, Th. 2 and Prop. 2 for passing from properties relative to $ \mu $ to properties relative to $ \rho \cdot \mu $):
 
@@ -630,7 +640,7 @@ Let G again be a locally compact group, H a closed subgroup, $ \beta $ a left Ha
 
 #### Lemma 6 {#int-vii-s2-lem-6 .statement}
 
-— Let $ \lambda $ be a measure on $ G/H $, $ \chi $ a continuous representation of G in $ \mathbf{C}^* $. The following properties are equivalent:
+Let $ \lambda $ be a measure on $ G/H $, $ \chi $ a continuous representation of G in $ \mathbf{C}^* $. The following properties are equivalent:
 a) $ \lambda $ is relatively invariant on $ G/H $ with multiplier $ \chi $;
 b) $ \lambda^\# $ is relatively invariant on G with left multiplier $ \chi $;
 c) $ \lambda^\# $ is of the form $ a \chi \cdot \mu $ ($ a \in \mathbf{C} $).
@@ -649,7 +659,9 @@ $$
 
 Whence the equivalence of a) and b). The equivalence of b) and c) follows from §1, No. 8, Cor. 1 of Prop. 10.
 
-Theorem 3. — Let G be a locally compact group, H a closed subgroup of G, $ \mu $ (resp. $ \beta $) a left Haar measure on G (resp. H), $ \chi $ a continuous representation of G in $ \mathbf{C}^* $.
+#### Theorem 3 {#int-vii-s2-thm-3 .statement}
+
+Let G be a locally compact group, H a closed subgroup of G, $ \mu $ (resp. $ \beta $) a left Haar measure on G (resp. H), $ \chi $ a continuous representation of G in $ \mathbf{C}^* $.
 
 a) In order that there exist on $ G/H $ a nonzero measure relatively invariant under G and with multiplier $ \chi $, it is necessary and sufficient that $ \chi(\xi) = \Delta_H(\xi)/\Delta_G(\xi) $ for all $ \xi \in H $.
 
@@ -665,15 +677,17 @@ for all $ \xi \in H $. Whence a). The assertion b) follows at once from Lemma 6 
 
 We shall see in §3 (No. 3, Example 4) some very simple examples where the representation $ \xi \mapsto \Delta_H(\xi)/\Delta_G(\xi) $ cannot be extended to a continuous representation of G in $ \mathbf{C}^* $. In this case, there therefore does not exist any nonzero complex measure on $ G/H $ relatively invariant under G.
 
-Corollary 1. — For there to exist on $ G/H $ a nonzero positive measure relatively invariant under G, it is necessary and sufficient that there exist a continuous representation of $ G $ in $ \mathbf{R}_+^* $ extending the representation $ \xi \mapsto \Delta_H(\xi)/\Delta_G(\xi) $.
+#### Corollary 1 {#int-vii-s2-thm-3-cor-1 .statement}
+
+For there to exist on $ G/H $ a nonzero positive measure relatively invariant under G, it is necessary and sufficient that there exist a continuous representation of $ G $ in $ \mathbf{R}_+^* $ extending the representation $ \xi \mapsto \Delta_H(\xi)/\Delta_G(\xi) $.
 
 Note that this condition is fulfilled when $ H $ is unimodular.
 
-#### Corollary 2 {#int-vii-s2-lem-6-cor-2 .statement}
+#### Corollary 2 {#int-vii-s2-thm-3-cor-2 .statement}
 
 — For there to exist on $ G/H $ a nonzero positive measure invariant under $ G $, it is necessary and sufficient that $ \Delta_G $ coincide with $ \Delta_H $ on $ H $.
 
-#### Corollary 3 {#int-vii-s2-lem-6-cor-3 .statement}
+#### Corollary 3 {#int-vii-s2-thm-3-cor-3 .statement}
 
 — Suppose that $ H $ is unimodular and that there exists on $ G/H $ a nonzero bounded positive measure $ \nu $ relatively invariant under $ G $. Then $ \nu $ is invariant, and $ G $ is unimodular.
 
@@ -908,7 +922,7 @@ whence b).
 
 #### Remark {#int-vii-s2-n9-rem-1 .statement}
 
-— Prop. 14 applies in particular when G is the topological semi-direct product of X by Y (GT, III, §2, No. 10). In this case, $ Z = \{e\} $ and $ \Omega = G $. Since $ yx = xi_x(y) $ for $ x \in X,\ y \in Y $, the measure $ \mu_G $ is also, up to a constant factor, the image of $ (\operatorname{mod}\ i_x)\mu_X \otimes \mu_Y $ under the mapping $ (x, y) \mapsto yx $ of $ X \times Y $ into G.
+Prop. 14 applies in particular when G is the topological semi-direct product of X by Y (GT, III, §2, No. 10). In this case, $ Z = \{e\} $ and $ \Omega = G $. Since $ yx = xi_x(y) $ for $ x \in X,\ y \in Y $, the measure $ \mu_G $ is also, up to a constant factor, the image of $ (\operatorname{mod}\ i_x)\mu_X \otimes \mu_Y $ under the mapping $ (x, y) \mapsto yx $ of $ X \times Y $ into G.
 
 ### 10. Integration on a fundamental domain
 

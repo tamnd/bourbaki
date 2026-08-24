@@ -23,9 +23,9 @@ subsections:
       title: Bounded subsets of $ \mathcal{L}(E; F) $ (quasi-complete case)
       page: 27
       pdf_page: 159
-statements: 18
+statements: 24
 exercises: 21
-content_sha256: a2edee71db4e593e68f89a39e51758bcfe1e509cba48f52ecbb2195db6722cea
+content_sha256: da542a383c7104e74e835c29e05ea8e7ea66fc9d23fd407dd3a49ac31b66ba67
 ---
 
 ## § 4. THE BANACH-STEINHAUS THEOREM
@@ -34,7 +34,9 @@ content_sha256: a2edee71db4e593e68f89a39e51758bcfe1e509cba48f52ecbb2195db6722cea
 
 ### 1. Barrels and barrelled spaces
 
-Proposition 1. — Let T be a subset of E. The following conditions are equivalent:
+#### Proposition 1 {#evt-iii-s4-prop-1 .statement}
+
+Let T be a subset of E. The following conditions are equivalent:
 
 (i) T is convex, balanced, closed and absorbent.
 
@@ -48,7 +50,9 @@ Proposition 1. — Let T be a subset of E. The following conditions are equivale
 
 (iii) ⇒ (i) : this is clear.
 
-Corollary. — The following conditions are equivalent:
+#### Corollary {#evt-iii-s4-n1-cor-1 .statement}
+
+The following conditions are equivalent:
 
 (i) every weakly bounded subset of E' is equicontinuous;
 
@@ -56,21 +60,27 @@ Corollary. — The following conditions are equivalent:
 
 (iii) every lower semi-continuous semi-norm on E is continuous.
 
-Definition 1. — A set T satisfying the equivalent conditions of prop. 1 is said to be a barrel in E.
+#### Definition 1 {#evt-iii-s4-def-1 .statement}
 
-Definition 2. — A space E is said to be barrelled if it satisfies the equivalent conditions of the corollary of prop. 1.
+A set T satisfying the equivalent conditions of prop. 1 is said to be a barrel in E.
+
+#### Definition 2 {#evt-iii-s4-def-2 .statement}
+
+A space E is said to be barrelled if it satisfies the equivalent conditions of the corollary of prop. 1.
 
 We know (III, p. 22, prop. 9) that every equicontinuous subset of the dual E' of E is strongly and weakly bounded. We can therefore restate the definition of barrelled spaces as follows:
 
 #### Scholium {#evt-iii-s4-n1-sch-1 .statement}
 
-— In the dual of a barrelled space, the class of equicontinuous sets, the class of strongly bounded sets, the class of weakly bounded sets and the class of relatively compact sets for the weak topology are all identical. If E is Hausdorff and barrelled, and if E'_b is its strong dual, the polars of the neighbourhoods of 0 in one of the spaces form a base of the canonical bornology of the other, and the polars of bounded subsets of one of the spaces form a base for the filter of neighbourhoods of 0 of the other space.
+In the dual of a barrelled space, the class of equicontinuous sets, the class of strongly bounded sets, the class of weakly bounded sets and the class of relatively compact sets for the weak topology are all identical. If E is Hausdorff and barrelled, and if E'_b is its strong dual, the polars of the neighbourhoods of 0 in one of the spaces form a base of the canonical bornology of the other, and the polars of bounded subsets of one of the spaces form a base for the filter of neighbourhoods of 0 of the other space.
 
-Proposition 2. — Every locally convex space E which is a Baire space (GT, IX, § 5, No. 3) is barrelled.
+#### Proposition 2 {#evt-iii-s4-prop-2 .statement}
+
+Every locally convex space E which is a Baire space (GT, IX, § 5, No. 3) is barrelled.
 
 Let T be a barrel in E; since T is absorbent, E is the union of closed sets nT (n integer > 0); since E is a Baire space, at least one of these sets contains an interior point, hence T itself has an interior point x. If $ x \neq 0 $, since $-x \in T$, and 0 is a point of the open segment with extremities x and $-x$, 0 is an interior point of the convex set T (II, p. 14, prop. 16). Therefore T is a neighbourhood of 0.
 
-#### Corollary {#evt-iii-s4-n1-cor-1 .statement}
+#### Corollary {#evt-iii-s4-n1-cor-2 .statement}
 
 — *Every Fréchet space (and in particular, every Banach space) is barrelled.* This follows from Baire’s theorem (GT, IX, § 5, No. 3, th. 1).
 
@@ -116,11 +126,13 @@ In fact, the hypothesis says that H is simply bounded and the conclusion that it
 
 The sequence $ (u_n) $ is, in fact, simply bounded, hence equicontinuous, and the corollary follows from the cor. of prop. 5 of III, p. 18.
 
-#### Remark {#evt-iii-s4-n2-rem-1 .statement}
+#### Remark 1 {#evt-iii-s4-n2-rem-1 .statement}
 
-— 1) The property expressed by cor. 2 does not imply that E is barrelled : we shall see later that the strong dual of a Fréchet space possesses this property, while not necessarily being barrelled (IV, p. 23, cor. to prop. 2 and p. 58, exerc.
+The property expressed by cor. 2 does not imply that E is barrelled : we shall see later that the strong dual of a Fréchet space possesses this property, while not necessarily being barrelled (IV, p. 23, cor. to prop. 2 and p. 58, exerc.
 
-2) Let E and F be two Banach spaces, and $ (u_n) $ a sequence of continuous linear mappings from E into F such that $ \sup \|u_n\| = + \infty $. Then the set X of all $ x \in E $ such that $ \sup \|u_n(x)\| = + \infty $ is dense in E and is the intersection of a sequence of open sets in E. For, let $ X_k $ denote the set of all $ x \in E $ such that $ \sup \|u_n(x)\| > k $ (for k integer $ > 0 $). Each $ X_k $ is open and X is the intersection of the $ X_k $. Since E is a Baire space, it is enough to show that each $ X_k $ is dense in E. But, if the complement of $ X_k $ contains a non-empty open set U, we would have $ \|u_n(x)\| \leq 2k $ for $ x \in U - U $ and, since $ U - U $ is a neighbourhood of 0, we would have $ \sup \|u_n\| < + \infty $.
+#### Remark 2 {#evt-iii-s4-n2-rem-2 .statement}
+
+Let E and F be two Banach spaces, and $ (u_n) $ a sequence of continuous linear mappings from E into F such that $ \sup \|u_n\| = + \infty $. Then the set X of all $ x \in E $ such that $ \sup \|u_n(x)\| = + \infty $ is dense in E and is the intersection of a sequence of open sets in E. For, let $ X_k $ denote the set of all $ x \in E $ such that $ \sup \|u_n(x)\| > k $ (for k integer $ > 0 $). Each $ X_k $ is open and X is the intersection of the $ X_k $. Since E is a Baire space, it is enough to show that each $ X_k $ is dense in E. But, if the complement of $ X_k $ contains a non-empty open set U, we would have $ \|u_n(x)\| \leq 2k $ for $ x \in U - U $ and, since $ U - U $ is a neighbourhood of 0, we would have $ \sup \|u_n\| < + \infty $.
 
 #### Corollary 3 {#evt-iii-s4-thm-1-cor-3 .statement}
 

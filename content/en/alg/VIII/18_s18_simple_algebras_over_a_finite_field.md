@@ -20,9 +20,9 @@ subsections:
       title: Simple Algebras over Finite Fields
       page: 357
       pdf_page: 374
-statements: 9
+statements: 10
 exercises: 7
-content_sha256: 05b7066ed3c39e544b1ceb8f923c3ec7dae8f65d11434bc82da96e56f08de1e2
+content_sha256: 54d2a6b31a60bad387aff00416b44414a3612b96aff88b09c11c2b91d78d43d8
 ---
 
 ## § 18. SIMPLE ALGEBRAS OVER A FINITE FIELD
@@ -74,7 +74,9 @@ $$
 $$
 Now, by formula (1), we have $\sum_{\mathbf{x} \in K^n} P(\mathbf{x}) = \operatorname{Card}(\mathbf{Z}) \cdot 1$, and therefore $\operatorname{Card}(\mathbf{Z}) \cdot 1 = 0$, which means that $\operatorname{Card}(\mathbf{Z})$ is divisible by $p$.
 
-Corollary. — *Let $V$ be a vector space of finite dimension $n$ over $K$ and $I$ a finite set, and for each $i \in I$, let $F_i : V \to K$ be a homogeneous polynomial mapping of degree $d_i > 0$. If we have $\sum_{i \in I} d_i < n$, then there exists a nonzero element $x$ of $V$ such that $F_i(x) = 0$ for every $i \in I$.*
+#### Corollary {#alg-viii-s18-n1-cor-1 .statement tag=00LD}
+
+*Let $V$ be a vector space of finite dimension $n$ over $K$ and $I$ a finite set, and for each $i \in I$, let $F_i : V \to K$ be a homogeneous polynomial mapping of degree $d_i > 0$. If we have $\sum_{i \in I} d_i < n$, then there exists a nonzero element $x$ of $V$ such that $F_i(x) = 0$ for every $i \in I$.*
 
 Let $(e_1, \ldots, e_n)$ be a basis of $V$ over $K$. By the definition of homogeneous polynomial mappings (IV, §5, No. 9, p. 55, Definition 3), for every $i \in I$, there exists a homogeneous polynomial $f_i$ in $K[X_1, \ldots, X_n]$ of degree $d_i$ such that we have $F_i(\xi_1 e_1, \ldots, \xi_n e_n) = f_i(\xi_1, \ldots, \xi_n)$. Let $Z$ be the set of elements $x$ of $V$ such that $F_i(x) = 0$ for every $i \in I$. By Theorem 1, the cardinal of $Z$ is divisible by $p$, and since $0$ belongs to $S$, we have $\operatorname{Card}(Z) \geq p > 1$.
 
