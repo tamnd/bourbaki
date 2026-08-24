@@ -19,12 +19,12 @@ subsections:
       title: The Hahn-Banach theorem (analytic form)
       page: 22
       pdf_page: 59
-statements: 5
+statements: 6
 exercises: 8
-content_sha256: 1b67182353fd0f69c7975f7e2127a8c2390b301f248134e254a83566ce14b793
+content_sha256: d364a428f37194a61dbe7525627f7f06269652d08299bc08ad6b8eca483f08a8
 translated_from: content/en/evt/II/03_s3_the_hahn_banach_theorem_analytic_form.md
-source_content_sha256: 48405b8321a23ceb592b30296fd0ca206d837ae8c9aecaebc8880cf13b6d6611
-translation_model: gpt-5.4
+source_content_sha256: 0aea7a7a7c11a906853b8b153e32f9152738a2304edacc86af18cebd51c10233
+translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-4a007b50
 glossary_version: 34
 glossary_terms_sha256: 7cf957e2a97579ae99596d4ae6ee3089d99021bb09bc909ad70eb4b9db4f6c69
@@ -69,7 +69,9 @@ II. Trường hợp tổng quát.
 
 Cho $ \mathfrak{F} $ là tập hợp các cặp $(W, g)$ trong đó $W$ là một không gian con vectơ của $E$ chứa $V$ và $g$ là một dạng tuyến tính dương trên $W$ là một mở rộng của $f$. Ta sắp thứ tự $ \mathfrak{F} $ bằng cách đặt $(W, g) \leq (W', g')$ nếu $W \subset W'$ và nếu $g'$ là một mở rộng của $g$. Rõ ràng $ \mathfrak{F} $ là quy nạp và theo đl. 2 của S, III, § 2.4, tồn tại một phần tử cực đại $(W_0, g_0)$. Giả sử $W_0 \neq E$. Khi đó tồn tại một vectơ $b \notin W_0$, và, nếu đặt $W_1 = W_0 + \mathbf{R}b$, trường hợp riêng ở trên cho thấy rằng tồn tại một dạng tuyến tính dương trên $W_1$ là một mở rộng của $g_0$; điều này mâu thuẫn với giả thiết rằng $(W_0, g_0)$ là cực đại. Vậy $W_0 = E$, và phần thứ nhất của mệnh đề được chứng minh. Khi $a \in V$, mệnh đề thứ hai hiển nhiên đúng với $\alpha' = \alpha'' = f(a)$; nếu, trái lại, $a \notin V$ và đặt $V_1 = V + \mathbf{R}a$, thì mệnh đề thứ hai suy ra từ trường hợp riêng I của chứng minh.
 
-Hệ quả. — Trong một không gian vectơ tôpô $E$ với một cấu trúc tiền thứ tự tương thích, gọi $P$ là tập hợp các phần tử $\geq 0$ của $E$. Gọi $V$ là một không gian con vectơ của $E$ chứa ít nhất một điểm trong $x_0$ của $P$. Khi đó mọi dạng tuyến tính dương trên $V$ đều có thể mở rộng thành một dạng tuyến tính dương trên $E$.
+#### Hệ quả {#evt-ii-s3-n1-cor-1 .statement}
+
+Trong một không gian vectơ tôpô $E$ với một cấu trúc tiền thứ tự tương thích, cho $P$ là tập hợp các phần tử $\geq 0$ trong $E$. Cho $V$ là một không gian con vectơ của $E$ chứa ít nhất một điểm trong $x_0$ của $P$. Khi đó mọi dạng tuyến tính dương trên $V$ đều có thể được mở rộng thành một dạng tuyến tính dương trên $E$.
 
 Theo mệnh đề 1, chỉ cần chứng tỏ rằng với mọi $x \in E$, tồn tại $x' \in V$ sao cho $x' - x \in P$. Bây giờ lấy $U$ là một lân cận của $0$ trong $E$ sao cho $x_0 + U \subset P$. Khi đó $x + x_0 + U \subset x + P$, và do đó tồn tại $\varepsilon$ sao cho $0 < \varepsilon < 1$ và điểm $y = x_0 + (1 - \varepsilon)x$ thuộc $x + P$; khi đó mọi điểm có dạng $x + \lambda(y - x)$ đều thuộc $x + P$ với $\lambda > 0$. Nếu lấy $\lambda = 1/\varepsilon$, thì $x + \lambda(y - x) = \lambda x_0 \in V$, từ đó suy ra kết luận.
 
