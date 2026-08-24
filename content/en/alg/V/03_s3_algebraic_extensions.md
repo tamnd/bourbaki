@@ -24,9 +24,9 @@ subsections:
       title: Transitivity of algebraic extensions. Fields that are relatively algebraically closed in an extension field
       page: 19
       pdf_page: 133
-statements: 15
+statements: 18
 exercises: 13
-content_sha256: 17c946f4566c0b7e2c26fd35edc67eac1891ca428d8e227bcf617d53f96ac501
+content_sha256: 9733e2163df1ac2f35d6a4ff538cd875d2e6a6e6805928ead4eccc5591520b54
 ---
 
 ## § 3. ALGEBRAIC EXTENSIONS
@@ -73,15 +73,19 @@ For let $ f $ be the minimal polynomial of $ x $ over $ K $; we have $ f(x) = 0 
 
 #### Remark {#alg-v-s3-n1-rem-1 .statement}
 
-— Let $ E $ be an extension of a field $ K $ and $ x $ an element of $ E $ which is root of a monic irreducible polynomial $ f \in K[X] $. Th. 1, *c*) then shows that $ f $ is the minimal polynomial of $ x $ over $ K $.
+Let $ E $ be an extension of a field $ K $ and $ x $ an element of $ E $ which is root of a monic irreducible polynomial $ f \in K[X] $. Th. 1, *c*) then shows that $ f $ is the minimal polynomial of $ x $ over $ K $.
 
-#### Example {#alg-v-s3-n1-exa-1 .statement}
+#### Example 1 {#alg-v-s3-n1-exa-1 .statement}
 
-— \* 1) In the field of complex numbers $ \mathbf{C} $, the number $ i $ is algebraic of degree 2 over the prime field $ \mathbf{Q} $; for if $ f(X) = X^2 + 1 $, then $ f(i) = 0 $, and $ x^2 + 1 \neq 0 $ for all $ x \in \mathbf{Q} $, hence $ i \notin \mathbf{Q} $. The field $ \mathbf{Q}(i) $ is thus an extension of degree 2 of $ \mathbf{Q} $; it consists of all numbers $ a + bi $, where $ a, b $ are rational. Likewise $ i $ is algebraic of degree 2 over the field $ \mathbf{R} $ of real numbers, and $ \mathbf{C} $ is an extension of degree 2 of $ \mathbf{R} $. \*
+In the field of complex numbers $ \mathbf{C} $, the number $ i $ is algebraic of degree 2 over the prime field $ \mathbf{Q} $; for if $ f(X) = X^2 + 1 $, then $ f(i) = 0 $, and $ x^2 + 1 \neq 0 $ for all $ x \in \mathbf{Q} $, hence $ i \notin \mathbf{Q} $. The field $ \mathbf{Q}(i) $ is thus an extension of degree 2 of $ \mathbf{Q} $; it consists of all numbers $ a + bi $, where $ a, b $ are rational. Likewise $ i $ is algebraic of degree 2 over the field $ \mathbf{R} $ of real numbers, and $ \mathbf{C} $ is an extension of degree 2 of $ \mathbf{R} $. \*
 
-2) Let $ K $ be a field and $ F $ the field $ K(X) $ of rational functions in one indeterminate over $ K $. Let $ E $ be the subfield $ K(X^3) $ of $ F $; we have $ F = E(X) $ and $ X $ is algebraic over $ E $, since it is a root of the polynomial $ Y^3 - X^3 $ of the ring $ E[Y] $; this polynomial is irreducible in $ E[Y] $, for in the contrary case it would have at least one factor of the first degree, and there would then exist two non-zero polynomials $ u(X) $, $ v(X) $ of $ K[X] $ such that $ (u(X^3))^3 = X^3(v(X^3))^3 $ which is absurd, for if $ m $ and $ n $ are the degrees of $ u $ and $ v $, this would imply $ 9m = 9n + 3 $, or $ 3m = 3n + 1 $. The field $ F $ is thus of degree 3 over $ E $, and every element of $ F $ may be written in just one way as a linear combination $ f(X^3) + Xg(X^3) + X^2 h(X^3) $, where $ f, g, h $ are three rational fractions of $ K(X) $.
+#### Example 2 {#alg-v-s3-n1-exa-2 .statement}
 
-\* 3) In the field $ \mathbf{R} $ of real numbers it may be shown $ ^1 $ that the number $ \pi $ is transcendental over the prime field $ \mathbf{Q} $. \*
+Let $ K $ be a field and $ F $ the field $ K(X) $ of rational functions in one indeterminate over $ K $. Let $ E $ be the subfield $ K(X^3) $ of $ F $; we have $ F = E(X) $ and $ X $ is algebraic over $ E $, since it is a root of the polynomial $ Y^3 - X^3 $ of the ring $ E[Y] $; this polynomial is irreducible in $ E[Y] $, for in the contrary case it would have at least one factor of the first degree, and there would then exist two non-zero polynomials $ u(X) $, $ v(X) $ of $ K[X] $ such that $ (u(X^3))^3 = X^3(v(X^3))^3 $ which is absurd, for if $ m $ and $ n $ are the degrees of $ u $ and $ v $, this would imply $ 9m = 9n + 3 $, or $ 3m = 3n + 1 $. The field $ F $ is thus of degree 3 over $ E $, and every element of $ F $ may be written in just one way as a linear combination $ f(X^3) + Xg(X^3) + X^2 h(X^3) $, where $ f, g, h $ are three rational fractions of $ K(X) $.
+
+#### Example 3 {#alg-v-s3-n1-exa-3 .statement}
+
+In the field $ \mathbf{R} $ of real numbers it may be shown $ ^1 $ that the number $ \pi $ is transcendental over the prime field $ \mathbf{Q} $. \*
 
 ### 2. Algebraic extensions
 
@@ -125,11 +129,13 @@ For each $ x \in K(A) $ belongs to a field $ K(F) $, where F is a finite subset 
 
 For each element of $ F $, being algebraic over $ K $, is also algebraic over $ E $ ($ V $, p. 17, Cor. 2) hence $ E(F) $ is an algebraic extension of $ E $, and we have $ E(F) = E[F] $ by Cor. 1.
 
-#### Remark {#alg-v-s3-n2-rem-1 .statement}
+#### Remark 1 {#alg-v-s3-n2-rem-1 .statement}
 
-— 1) With the notation of Th. 2, $ E = K[a_1, a_2, ..., a_n] $ and hence $ E $ is isomorphic to a quotient $ K[X_1, X_2, ..., X_m]/\mathfrak{a} $; since $ E $ is a field, $ a $ is a maximal ideal in $ K[X_1, ..., X_m] $.
+With the notation of Th. 2, $ E = K[a_1, a_2, ..., a_n] $ and hence $ E $ is isomorphic to a quotient $ K[X_1, X_2, ..., X_m]/\mathfrak{a} $; since $ E $ is a field, $ a $ is a maximal ideal in $ K[X_1, ..., X_m] $.
 
-2) Let $ E $ be an algebraic extension of $ K $, of infinite degree. By Th. 2 there exists an infinite sequence $ (a_i) $, of elements of $ E $ such that $ a_i \notin K(a_1, a_2, ..., a_{i-1}) $; Th. 2 shows further that the degree of $ K(a_1, a_2, ..., a_n) $ over $ K $ takes arbitrarily large values. In other words, if E is an algebraic extension of K such that the degrees [F : K] of the subextensions F of E of finite degree over K are bounded, then E is an extension of finite degree of K.
+#### Remark 2 {#alg-v-s3-n2-rem-2 .statement}
+
+Let $ E $ be an algebraic extension of $ K $, of infinite degree. By Th. 2 there exists an infinite sequence $ (a_i) $, of elements of $ E $ such that $ a_i \notin K(a_1, a_2, ..., a_{i-1}) $; Th. 2 shows further that the degree of $ K(a_1, a_2, ..., a_n) $ over $ K $ takes arbitrarily large values. In other words, if E is an algebraic extension of K such that the degrees [F : K] of the subextensions F of E of finite degree over K are bounded, then E is an extension of finite degree of K.
 
 ### 3. Transitivity of algebraic extensions. Fields that are relatively algebraically closed in an extension field
 

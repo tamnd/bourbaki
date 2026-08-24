@@ -40,9 +40,9 @@ subsections:
       title: The discriminant
       page: 81
       pdf_page: 90
-statements: 36
+statements: 43
 exercises: 12
-content_sha256: 76a21992cf1c4c2cc6f65adbfbbbe5309bae4e3ffd38e8ea2b0638c784d2f190
+content_sha256: c0d6d98ff4015c3c6fee324330e8258f97161700ae1a515e8b9b28fc72039a2d
 ---
 
 ## § 6. SYMMETRIC FUNCTIONS
@@ -258,7 +258,7 @@ implies $ \alpha(j) = 0 $ for $ k < j \leq n $, whence the assertion.
 
 #### Example 3 {#alg-iv-s6-n1-exa-3 .statement}
 
-— By example 2 of IV, p. 64 and Prop. 1 above we thus have
+By example 2 of IV, p. 64 and Prop. 1 above we thus have
 $$
 \sum_{i=1}^n X_i^3 = s_{1,n}^3 - 3s_{1,n}s_{2,n} + 3s_{3,n}
 $$
@@ -304,7 +304,7 @@ Suppose now that $ n < k $ and let us identify $ N^n $ with a subset of $ N^k $ 
 
 #### Example 4 {#alg-iv-s6-n1-exa-4 .statement}
 
-— By Example 3 of IV, p. 65, we have
+By Example 3 of IV, p. 65, we have
 
 $$
 \mathbf{M}(3,0,0) = S(3,0,0) - 3S(2,1,0) + 3S(1,1,1)
@@ -708,9 +708,9 @@ $$
 
 The resultant is denoted by $ \operatorname{res}_{p,q}(f, g) $ or simply $ \operatorname{res}(f, g) $ when $ p = \deg f $, $ q = \deg g $.
 
-#### Example {#alg-iv-s6-n6-exa-1 .statement}
+#### Example 1 {#alg-iv-s6-n6-exa-1 .statement}
 
-— 1) Given $ \Lambda, \mu $ in $ \Lambda $, we have the formulae
+Given $ \Lambda, \mu $ in $ \Lambda $, we have the formulae
 $$
 \operatorname{res}_{p,0}(f, \lambda) = \lambda^p, \quad \operatorname{res}_{0,q}(\mu, g) = \mu^q
 $$
@@ -719,30 +719,38 @@ $$
 $$
 whose proof is immediate.
 
-2) When $ p = q = 1 $, we have
+#### Example 2 {#alg-iv-s6-n6-exa-2 .statement}
+
+When $ p = q = 1 $, we have
 $$
 \operatorname{res}_{1,1}(t_1 X + t_0, u_1 X + u_0) = t_1 u_0 - t_0 u_1
 $$
 
-#### Remark {#alg-iv-s6-n6-rem-1 .statement}
+#### Remark 1 {#alg-iv-s6-n6-rem-1 .statement}
 
-— 1) The matrix $ M(g, f, q, p) $ is obtained from $ M(f, g, p, q) $ by $ pq $ transpositions of columns, whence
+The matrix $ M(g, f, q, p) $ is obtained from $ M(f, g, p, q) $ by $ pq $ transpositions of columns, whence
 $$
 \operatorname{res}_{q,p}(g, f) = (-1)^{pq} \operatorname{res}_{p,q}(f, g)
 $$
 
-2) Let $ \rho : A \to B $ be a ring homomorphism. Def. / implies directly the formula
+#### Remark 2 {#alg-iv-s6-n6-rem-2 .statement}
+
+Let $ \rho : A \to B $ be a ring homomorphism. Def. / implies directly the formula
 $$
 \operatorname{res}_{p,q}(\rho f, \rho g) = \rho(\operatorname{res}_{p,q}(f, g)) .
 $$
 
-3) Given $ \lambda, \mu $ in $ A $, we have
+#### Remark 3 {#alg-iv-s6-n6-rem-3 .statement}
+
+Given $ \lambda, \mu $ in $ A $, we have
 $$
 \operatorname{res}_{p,q}(\lambda f, \mu g) = \lambda^q \mu^p \operatorname{res}_{p,q}(f, g) .
 $$
 (28)
 
-4) Suppose that $ p + q \geq 1 $. By III, p. 532, formula (28), the image of $ \varphi $ contains the constant polynomial $ \operatorname{res}_{p,q}(f, g) $. Hence there exist a pair of polynomials $ (u, v) $, with $ u \in S_q, v \in S_p $ such that
+#### Remark 4 {#alg-iv-s6-n6-rem-4 .statement}
+
+Suppose that $ p + q \geq 1 $. By III, p. 532, formula (28), the image of $ \varphi $ contains the constant polynomial $ \operatorname{res}_{p,q}(f, g) $. Hence there exist a pair of polynomials $ (u, v) $, with $ u \in S_q, v \in S_p $ such that
 $$
 \operatorname{res}_{p,q}(f, g) = uf + vg ,
 $$
@@ -752,7 +760,9 @@ $$
 $$
 This pair $ (u, v) $ is unique when $ \operatorname{res}_{p,q}(f, g) $ is cancellable in $ A $: for then $ \varphi $ is injective (III, p. 524, Prop. 3).
 
-5) Suppose that $ p \geq q $, and let $ h \in A[X] $ be a polynomial of degree $ \leq p - q $. Let us show that
+#### Remark 5 {#alg-iv-s6-n6-rem-5 .statement}
+
+Suppose that $ p \geq q $, and let $ h \in A[X] $ be a polynomial of degree $ \leq p - q $. Let us show that
 $$
 \operatorname{res}_{p,q}(f, g) = \operatorname{res}_{p,q}(f + gh, g) .
 $$
@@ -855,7 +865,7 @@ We have $ \text{res}_{p, q}(f, g) = (-1)^{pq} \text{res}_{q, p}(g, f) $ (IV, p. 
 
 #### Lemma 5 {#alg-iv-s6-lem-5 .statement}
 
-— Let t be an element of A. There exists a commutative ring C containing A as subring, a subring B of C containing A, an element $ \tau $ of B invertible in C and a ring homomorphism $ p : B \to A $ such that $ p(\tau) = t $ and the restriction of p to A is equal to Id.
+Let t be an element of A. There exists a commutative ring C containing A as subring, a subring B of C containing A, an element $ \tau $ of B invertible in C and a ring homomorphism $ p : B \to A $ such that $ p(\tau) = t $ and the restriction of p to A is equal to Id.
 
 It suffices to take for B the algebra $ A^{(\mathbf{N})} $ of the monoid $ \mathbf{N} $, that is, the polynomial algebra $ A[\tau] $ in one indeterminate $ \tau $, for C the algebra $ A^{(\mathbf{Z})} $ of the group $ \mathbf{Z} $ and for p the homomorphism $ P \mapsto P(t) $ of $ A(\tau) $ into A.
 
@@ -901,7 +911,7 @@ This remark applies in particular to the universal decomposition off (IV, p. 73)
 
 #### Example 3 {#alg-iv-s6-n6-exa-3 .statement}
 
-— Let us prove the formula
+Let us prove the formula
 $$
 \operatorname{res}_{2,2}(aX^2 + bX + c, a'X^2 + b'X + c') =
 (ac' - ca')^2 + (bc' - cb')(ba' - ab')
@@ -995,7 +1005,10 @@ By Cor. 1 of IV, p. 80 applied to the universal decomposition of $ f $, we final
 $$
 \operatorname{res}(f, Df) = \operatorname{res}(Df, f) = (-1)^{m(m-1)/2} \operatorname{dis}(f).
 $$
-**Proposition 10.** — Let $ m \geq 1 $. There exists a unique polynomial $ A \in \mathbf{Z}[A,, \ldots, A,_j] $ with the following property : for any commutative ring A and *monic* polynomial $ f = X^m + \sum_{i=1}^m a_i X^{m-i} $ in $ A[X] $ we have
+
+#### Proposition 10 {#alg-iv-s6-prop-10 .statement}
+
+Let $ m \geq 1 $. There exists a unique polynomial $ A \in \mathbf{Z}[A,, \ldots, A,_j] $ with the following property : for any commutative ring A and *monic* polynomial $ f = X^m + \sum_{i=1}^m a_i X^{m-i} $ in $ A[X] $ we have
 $$
 \operatorname{dis}(f) = \Delta(a_1, \ldots, a_m).
 $$
@@ -1135,16 +1148,18 @@ This follows from Prop. 11, (iii) and Cor. 2 of IV, p. 78.
 
 #### Remark {#alg-iv-s6-n7-rem-1 .statement}
 
-— Adouble application of Cor. 2 above shows that we have $ \mathrm{dis}_m(f) = 0 $ for every polynomial $ f $ of degree $ \leq m - 2 $.
+Adouble application of Cor. 2 above shows that we have $ \mathrm{dis}_m(f) = 0 $ for every polynomial $ f $ of degree $ \leq m - 2 $.
 
-#### Example {#alg-iv-s6-n7-exa-1 .statement}
+#### Example 3 {#alg-iv-s6-n7-exa-3 .statement}
 
-— 3) Let $ m = 2 $. By Example2 (IV, p. 81) we have $ \Delta(A_1, A,) = A_1^2 - 4A_2 $, whence $ \tilde{\Delta}(A_0, A,, A,) = A_1^2 - 4A_0A_2 $. In other words, we have
+Let $ m = 2 $. By Example2 (IV, p. 81) we have $ \Delta(A_1, A,) = A_1^2 - 4A_2 $, whence $ \tilde{\Delta}(A_0, A,, A,) = A_1^2 - 4A_0A_2 $. In other words, we have
 $$
 \mathrm{dis}_2(a_0X^2 + a_1X + a,) = a_1^2 - 4a_0a_2 .
 $$
 
-4) Consider the polynomial
+#### Example 4 {#alg-iv-s6-n7-exa-4 .statement}
+
+Consider the polynomial
 $$
 F = A_0X^3 + 3A_1X^2 + 3A_2X + A,
 $$

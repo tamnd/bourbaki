@@ -26,7 +26,7 @@ subsections:
       pdf_page: 164
 statements: 9
 exercises: 2
-content_sha256: 2c1837d97d973deb366392cf92e45b198adfedd4fa0f357d77da639c4f9943dd
+content_sha256: ecf695e74a6f72139dba063988cb43aedaa2286d094bf1ceb5de0b1f88085933
 ---
 
 ## § 8. NORMS AND TRACES
@@ -114,7 +114,7 @@ The equivalence of b) and c) is a consequence of the following general lemma:
 
 #### Lemma 1 {#alg-v-s8-lem-1 .statement}
 
-— Let V be a vector space of finite dimension over K and B a bilinear *form on* V x V. Let $(v_1, \ldots, v_n)$ *be a basis of* V *over* K *and* $ \Delta = \det B(v_i, v_j) $. Then $ A \neq 0 $ if and only *if*, for each $ x \neq 0 $ in V there exists y in V such that $ B(x, y) \neq 0 $.
+Let V be a vector space of finite dimension over K and B a bilinear *form on* V x V. Let $(v_1, \ldots, v_n)$ *be a basis of* V *over* K *and* $ \Delta = \det B(v_i, v_j) $. Then $ A \neq 0 $ if and only *if*, for each $ x \neq 0 $ in V there exists y in V such that $ B(x, y) \neq 0 $.
 
 We have $ A \neq 0 $ if and only if the system of linear equations
 
@@ -128,7 +128,7 @@ Let us show that condition c) implies that A is reduced. Let x be a nilpotent el
 
 #### Lemma 2 {#alg-v-s8-lem-2 .statement}
 
-— Let V be a vector space of finite dimension over K and $ u $ a nilpotent endomorphism of V, then $ \mathrm{Tr}(u) = 0 $.
+Let V be a vector space of finite dimension over K and $ u $ a nilpotent endomorphism of V, then $ \mathrm{Tr}(u) = 0 $.
 
 For each integer $ n \geq 0 $ let $ V_n $ be the image of $ u^n $. Since $ u $ is nilpotent, there exists an integer $ r \geq 0 $ such that $ V_0 = V, V_r = 0 $ and $ V_i \neq V_{i+1} $ for $ 0 \leq i < r - 1 $. Let d, be the dimension of $ V_{i-1} $ (for $ 1 \leq i \leq r $). There exists a basis $(x,, \ldots, x_d)$ of V such that the vectors $ x_j $ with $ d - d_i < j \leq d $ form a basis of $ V_{i-1} $ (for $ 1 \leq i \leq r $). We have $ u(V_{i-1}) \subset V_i $ and so the diagonal elements of the matrix of $ u $ for the basis $(x,, \ldots, x,) $ are zero. Thus we have $ \mathrm{Tr}(u) = 0 $ and the lemma follows.
 
@@ -172,7 +172,7 @@ Prop. 3 follows directly from the Cor. of Prop. 2 and the lemma:
 
 #### Lemma 3 {#alg-v-s8-lem-3 .statement}
 
-— Let R be a commutative ring, $ f(X) = X^d + \sum_{i=1}^d a_i X^{d-i} $ a monic polynomial of $ \mathbf{R}[X] $, A the R-algebra $ \mathbf{R}[X]/(f) $ and x the residue class of X in A. Then $ \text{Tr}_{A/R}(x) = -a_1 $ and $ \text{N}_{A/R}(x) = (-1)^d a_d $.
+Let R be a commutative ring, $ f(X) = X^d + \sum_{i=1}^d a_i X^{d-i} $ a monic polynomial of $ \mathbf{R}[X] $, A the R-algebra $ \mathbf{R}[X]/(f) $ and x the residue class of X in A. Then $ \text{Tr}_{A/R}(x) = -a_1 $ and $ \text{N}_{A/R}(x) = (-1)^d a_d $.
 
 By the Cor. (IV, p. 11) the sequence $ (1, x, ..., x^{d-1}) $ is a basis of A ; further we have
 $$

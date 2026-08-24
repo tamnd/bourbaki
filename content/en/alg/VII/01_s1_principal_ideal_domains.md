@@ -33,7 +33,7 @@ subsections:
       pdf_page: 364
 statements: 15
 exercises: 15
-content_sha256: 4d2e8685293c5e563dc0126488613d8ea1302d51c77a7dce89470fb01bc5d9c2
+content_sha256: 0a45ebef08ece5f7219a0dadaa5ba295691ce450f089daf83036ea0b7da8e471
 ---
 
 ## § 1. PRINCIPAL IDEAL DOMAINS
@@ -48,7 +48,7 @@ Recall (I, p. 104) that an ideal of a commutative ring $ A $ is said to be *prin
 
 #### Example {#alg-vii-s1-n1-exa-1 .statement}
 
-— The ring $ \mathbf{Z} $ of rational integers is a principal ideal domain (I, p. 111). If $ K $ is a commutative field, then the polynomial ring $ K[X] $ in one indeterminate over $ K $ is a principal ideal domain (IV, p. 11, Prop. 11); the same is true of the ring of formal power series $ K[[X]] $, for every ideal of this ring has the form $ (X^n) $ (IV, p. 38, Prop. 12). \* The ring of integers in a p-adic field is a principal ideal domain. \*
+The ring $ \mathbf{Z} $ of rational integers is a principal ideal domain (I, p. 111). If $ K $ is a commutative field, then the polynomial ring $ K[X] $ in one indeterminate over $ K $ is a principal ideal domain (IV, p. 11, Prop. 11); the same is true of the ring of formal power series $ K[[X]] $, for every ideal of this ring has the form $ (X^n) $ (IV, p. 38, Prop. 12). \* The ring of integers in a p-adic field is a principal ideal domain. \*
 
 If $ \mathbf{Q}(i) $ denotes the field obtained from the field $ \mathbf{Q} $ of rational numbers by adjoining a root $ i $ of the irreducible polynomial $ X^2 + 1 $, then the elements $ a + bi $ of $ \mathbf{Q}(i) $, where $ a $ and $ b $ are rational integers, form a subring $ \mathbf{A} $ of $ \mathbf{Q}(i) $, called « the Gaussian integers », which is a principal ideal domain (VII, p. 50, Ex. 7). By contrast, in the field $ \mathbf{Q}(\rho) $, where $ \rho $ is a root of $ X^2 + 5 $, the subring $ B $ consisting of elements $ a + bp $ (a and b rational integers) is not a principal ideal domain (VII, p. 51, Ex. 12).
 
@@ -69,7 +69,7 @@ Indeed the ideal $ \sum Abx $, of $ A $ is principal, and so of the form $ Ad' $
 
 #### Remark {#alg-vii-s1-n2-rem-1 .statement}
 
-— Prop. 1 applies with no restrictions to an arbitrary family $ (x,) $ of elements of $ A $ (take $ b = 1 $), and also to any finite family $ (x,) $ of elements of $ K $ (if $ x_i = c_i b_i $ with $ c_i \in A $ and $ b_i \in A $, then take $ b $ to be the product of the $ b_i $).
+Prop. 1 applies with no restrictions to an arbitrary family $ (x,) $ of elements of $ A $ (take $ b = 1 $), and also to any finite family $ (x,) $ of elements of $ K $ (if $ x_i = c_i b_i $ with $ c_i \in A $ and $ b_i \in A $, then take $ b $ to be the product of the $ b_i $).
 
 #### Corollary {#alg-vii-s1-n2-cor-1 .statement}
 
@@ -136,7 +136,7 @@ We will use the theorem about decomposition as a sum of irreducible elements (VI
 
 #### Lemma 1 {#alg-vii-s1-lem-1 .statement}
 
-— Let $ A $ be a ring such that every left ideal of $ A $ is finitely generated. Then every nonempty set $ \Phi $ of left ideals of $ \mathbf{A} $, ordered by inclusion, has a maximal element.
+Let $ A $ be a ring such that every left ideal of $ A $ is finitely generated. Then every nonempty set $ \Phi $ of left ideals of $ \mathbf{A} $, ordered by inclusion, has a maximal element.
 
 By Zorn's Lemma (Set Theory, III, p. 154, Th. 2) it is enough to prove that $ \Phi $ is inductive. Now if $ (a,) $ is a totally ordered family of elements of $ \Phi $ then the union $ a $ of the ideals $ a_i $ is a left ideal of $ \mathbf{A} $, and so admits a finite system of generators $ (a_i)_{1 \leq i \leq n} $. Since each $ a_i $ belongs to an ideal $ a_{,,} $, and since the family $ (a,) $ is totally ordered, the $ a_i $ all belong to the largest of the ideals $ a_{\lambda_i} $, say $ a_1 $. Then $ a = a_1 $ belongs to $ \Phi $, which is thus indeed an inductive set.
 
@@ -144,7 +144,7 @@ Later we will study those rings $ B $, called noetherian rings, such that every 
 
 #### Remark {#alg-vii-s1-n3-rem-1 .statement}
 
-— The family $ (u, (n,)) $ is called the decomposition of $ x $ into irreducible factors; by abuse of language, we also say that the formula (1) is the decomposition of $ x $ into irreducible factors. If $ x = u \prod_{\alpha} p_{\alpha}^{n_{\alpha}} $ and $ y = v \prod_{\alpha} p_{\alpha}^{m_{\alpha}} $ are the decompositions of $ x $ and $ y $ into irreducible factors, then a necessary and sufficient condition for $ x $ to divide $ y $ is that $ n_{\alpha} \leq m_{\alpha} $, for all $ \alpha $; from this we deduce the formulae
+The family $ (u, (n,)) $ is called the decomposition of $ x $ into irreducible factors; by abuse of language, we also say that the formula (1) is the decomposition of $ x $ into irreducible factors. If $ x = u \prod_{\alpha} p_{\alpha}^{n_{\alpha}} $ and $ y = v \prod_{\alpha} p_{\alpha}^{m_{\alpha}} $ are the decompositions of $ x $ and $ y $ into irreducible factors, then a necessary and sufficient condition for $ x $ to divide $ y $ is that $ n_{\alpha} \leq m_{\alpha} $, for all $ \alpha $; from this we deduce the formulae
 
 $$
 \gcd(x, y) = \prod_{\alpha} p_{\alpha}^{\inf(n_{\alpha}, m_{\alpha})}

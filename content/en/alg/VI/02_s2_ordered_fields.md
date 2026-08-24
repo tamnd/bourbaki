@@ -42,7 +42,7 @@ subsections:
       pdf_page: 339
 statements: 31
 exercises: 41
-content_sha256: 35de4067e084a16e84edef67e2102758ffddde3b4289107c3615dde8486954b7
+content_sha256: a9ea185b5e464ae853d3c2d17a543197771aae8cf459215a2571972f9b8e5a6a
 ---
 
 ## § 2. ORDERED FIELDS
@@ -55,9 +55,9 @@ content_sha256: 35de4067e084a16e84edef67e2102758ffddde3b4289107c3615dde8486954b7
 (OR) The relations $ x \geqslant 0 $ and $ y \geqslant 0 $ imply $ xy \geqslant 0 $.
 The ring $ \mathbf{A} $, together with such an ordering, is called an ordered ring.
 
-#### Example {#alg-vi-s2-n1-exa-1 .statement}
+#### Example 1 {#alg-vi-s2-n1-exa-1 .statement}
 
-— 1) The rings $ \mathbf{Q} $ and $ \mathbf{Z} $, with the usual orderings, are ordered rings.
+The rings $ \mathbf{Q} $ and $ \mathbf{Z} $, with the usual orderings, are ordered rings.
 2) A product of ordered rings, equipped with the product ordering, is an ordered ring. In particular the ring $ \mathbf{A}^E $ of mappings from a set $ E $ to an ordered ring $ \mathbf{A} $ is an ordered ring.
 3) A subring of an ordered ring, with the induced ordering, is an ordered ring.
 
@@ -66,7 +66,7 @@ Analogously we can show that the relations $ x \leqslant 0 $ and $ y \geqslant 0
 
 #### Example {#alg-vi-s2-n1-exa-2 .statement}
 
-— There is only one totally ordered ring structure on $ \mathbf{Z} $: indeed $ 1 > 0 $, whence $ n > 0 $ for every natural number $ n \neq 0 $, by induction. In contrast there exist ordered ring structures on $ \mathbf{Z} $ which are not totally ordered (see below).
+There is only one totally ordered ring structure on $ \mathbf{Z} $: indeed $ 1 > 0 $, whence $ n > 0 $ for every natural number $ n \neq 0 $, by induction. In contrast there exist ordered ring structures on $ \mathbf{Z} $ which are not totally ordered (see below).
 
 Let $ P $ be the set of positive elements of an ordered ring $ \mathbf{A} $. It is known (VI, p. 3, Prop. 3) that $ P $ determines the ordering on $ \mathbf{A} $. To say that $ \mathbf{A} $ is an ordered ring is equivalent to saying that $ P $ satisfies the following properties :
 
@@ -88,7 +88,7 @@ $$
 
 #### Example {#alg-vi-s2-n1-exa-3 .statement}
 
-— In $ \mathbf{Z} $, if we take $ P $ to be the set of positive (in the usual sense) even integers, we get a ring which is not totally ordered.
+In $ \mathbf{Z} $, if we take $ P $ to be the set of positive (in the usual sense) even integers, we get a ring which is not totally ordered.
 
 Recall also that, in a totally ordered abelian group, the relation $ n \cdot x = 0 $ (for a natural number $ n \neq 0 $) implies $ x = 0 $ (VI, p. 4); this gives us the following result.
 
@@ -233,7 +233,7 @@ where $h \neq 0$ has degree at most $n - 2$. Replacing X by a and b in the above
 
 #### Remark {#alg-vi-s2-n4-rem-1 .statement}
 
-— There exist irreducible polynomials $ f $ over an ordered field $ K $ which do not change sign in $ K $, but such that $ K[X]/(f) $ admits the structure of an ordered extension of $ K $ (cf. VI, p. 43, Ex. 26, c)).
+There exist irreducible polynomials $ f $ over an ordered field $ K $ which do not change sign in $ K $, but such that $ K[X]/(f) $ admits the structure of an ordered extension of $ K $ (cf. VI, p. 43, Ex. 26, c)).
 
 In order to apply the previous proposition we will need the following result:
 
@@ -263,7 +263,7 @@ The result is trivial if $ a $ is a square in $ K $. Otherwise the polynomial $ 
 
 #### Remark {#alg-vi-s2-n4-rem-2 .statement}
 
-— When the ordered field $ K $ contains the « square roots » of a positive element $ a $ of $ K $ (roots of the polynomial $ X^2 - a $) then the notation $ \sqrt{a} $ is generally reserved for the *positive* square root. If $ K $ does *not* contain the square roots $ b $ and $ -b $ of $ a $ in the field $ E $, then the latter can be made an ordered extension of $ K $ in *two* ways, each induced from the other *via* the $ K $-automorphism which sends $ b $ to $ -b $; the choice of one of these orderings determines $ \sqrt{a} $: it is whichever of the elements $ b $ and $ -b $ is positive.
+When the ordered field $ K $ contains the « square roots » of a positive element $ a $ of $ K $ (roots of the polynomial $ X^2 - a $) then the notation $ \sqrt{a} $ is generally reserved for the *positive* square root. If $ K $ does *not* contain the square roots $ b $ and $ -b $ of $ a $ in the field $ E $, then the latter can be made an ordered extension of $ K $ in *two* ways, each induced from the other *via* the $ K $-automorphism which sends $ b $ to $ -b $; the choice of one of these orderings determines $ \sqrt{a} $: it is whichever of the elements $ b $ and $ -b $ is positive.
 
 If $ a $ and $ a' $ are two positive elements of $ K $, whose square roots are in $ K $, then $ \sqrt{aa'} = \sqrt{a} \sqrt{a'} $, which follows from the definition of $ \sqrt{a} $ and the sign rule.
 
@@ -275,7 +275,7 @@ If $ a $ and $ a' $ are two positive elements of $ K $, whose square roots are i
 
 #### Example {#alg-vi-s2-n5-exa-1 .statement}
 
-— *We will see later (Gen. Top., VIII, p. 1) that the field R of real numbers is a maximal ordered field.*
+*We will see later (Gen. Top., VIII, p. 1) that the field R of real numbers is a maximal ordered field.*
 
 The existence of maximal ordered fields is a consequence of the following theorem:
 

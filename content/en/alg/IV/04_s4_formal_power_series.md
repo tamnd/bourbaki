@@ -54,7 +54,7 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: 81016120a022e796b4c0327b728d5c57805c5049830f949f0afbf59ce3e325ce
+content_sha256: 8ad45cb482889ba3f481f31af29589f8c9588de024fd848831a81ecc757e9664
 ---
 
 ## § 4. FORMAL POWER SERIES
@@ -103,7 +103,7 @@ For each $ \beta \in \mathbf{N}^{(I)} $ let $ S_\beta $ be the set of multi-indi
 
 #### Lemma 1 {#alg-iv-s4-lem-1 .statement}
 
-— Let $ L $ be an infinite set and $ (u_\lambda)_{\lambda \in L} $ a family of elements of $ A[[I]] $, and put $ u_\lambda = \sum \alpha_{\lambda,v} X^v $ for $ \lambda \in L $. Then the following conditions are equivalent:
+Let $ L $ be an infinite set and $ (u_\lambda)_{\lambda \in L} $ a family of elements of $ A[[I]] $, and put $ u_\lambda = \sum \alpha_{\lambda,v} X^v $ for $ \lambda \in L $. Then the following conditions are equivalent:
 (i) The family $ (u_\lambda)_{\lambda \in L} $ is summable (Gen. Top., III, p. 262) in $ A[[I]] $.
 (ii) We have $ \lim u_\lambda = 0 $, taken along *the filter* of complements of finite subsets of $ L $.
 (iii) For every $ v \in \mathbf{N}^{(I)} $ we have $ \alpha_{\lambda,v} = 0 $ except for a *finite* number of indices $ \lambda \in L $.

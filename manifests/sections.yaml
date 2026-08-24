@@ -4157,10 +4157,10 @@ books:
               first_pdf_page: 10
               last_pdf_page: 96
               subsections: 8
-              statements: 29
+              statements: 30
               exercises: 5
               extraction: ocr
-              content_sha256: 39b740e6680b4c3a1f569faace65cd4c42d3e5b4f9e24158789d34a95b790faa
+              content_sha256: 680d2b1dc0057e134cacc841defea4521163184e80d9745b8d469153561a213f
             - kind: section
               section: 2
               title: Zeros of polynomials
@@ -4173,7 +4173,7 @@ books:
               statements: 19
               exercises: 5
               extraction: ocr
-              content_sha256: 4d07e5496ffa92896b6a8af8eb86890619c755fca813fec2af0ea6af12a558a0
+              content_sha256: 8d0335eecb42b2e149eb6aac4d5d9373decfe3986e5c6770a233303e929f0f7f
             - kind: section
               section: 3
               title: Rational fractions
@@ -4199,7 +4199,7 @@ books:
               statements: 23
               exercises: 8
               extraction: ocr
-              content_sha256: 81016120a022e796b4c0327b728d5c57805c5049830f949f0afbf59ce3e325ce
+              content_sha256: 8ad45cb482889ba3f481f31af29589f8c9588de024fd848831a81ecc757e9664
             - kind: section
               section: 5
               title: Symmetric tensors and polynomial mappings
@@ -4209,10 +4209,10 @@ books:
               last_pdf_page: 107
               book_pages: A IV.41-A IV.61, A IV.91-A IV.98
               subsections: 11
-              statements: 34
+              statements: 36
               exercises: 16
               extraction: ocr
-              content_sha256: de97ee6eb0e861338aafbac8ecf0ec1343c813f6cb71d30a1b593b973cd01a84
+              content_sha256: 85add3a8a52fcdffdb463a563cbfa00175ca7fcc27ecb6e780e0843025e0b8f6
             - kind: section
               section: 6
               title: Symmetric functions
@@ -4222,10 +4222,10 @@ books:
               last_pdf_page: 114
               book_pages: A IV.98-A IV.105
               subsections: 7
-              statements: 36
+              statements: 43
               exercises: 12
               extraction: ocr
-              content_sha256: 76a21992cf1c4c2cc6f65adbfbbbe5309bae4e3ffd38e8ea2b0638c784d2f190
+              content_sha256: c0d6d98ff4015c3c6fee324330e8258f97161700ae1a515e8b9b28fc72039a2d
         - chapter: V
           title: COMMUTATIVE FIELDS
           sections:
@@ -4247,10 +4247,10 @@ books:
               first_pdf_page: 115
               last_pdf_page: 260
               subsections: 6
-              statements: 18
+              statements: 23
               exercises: 5
               extraction: ocr
-              content_sha256: 27bcc1b817cdced12ba77f891cb52e872ad99d790beb9135e01a5e6c88b32450
+              content_sha256: 1386d6b11c452c9e28fae816dceda271a73d913c580b11b29f309d049d175b40
             - kind: section
               section: 2
               title: Extensions
@@ -4273,10 +4273,10 @@ books:
               last_pdf_page: 264
               book_pages: A V.15-A V.19, A V.147-A V.150
               subsections: 3
-              statements: 15
+              statements: 18
               exercises: 13
               extraction: ocr
-              content_sha256: 17c946f4566c0b7e2c26fd35edc67eac1891ca428d8e227bcf617d53f96ac501
+              content_sha256: 9733e2163df1ac2f35d6a4ff538cd875d2e6a6e6805928ead4eccc5591520b54
             - kind: section
               section: 4
               title: Algebraically closed extensions
@@ -4286,10 +4286,10 @@ books:
               last_pdf_page: 264
               book_pages: A V.19-A V.24, A V.150
               subsections: 3
-              statements: 14
+              statements: 19
               exercises: 2
               extraction: ocr
-              content_sha256: 9d6d7fa70f7929549a2c8e43cd77e6ece671a7036f47fbeaed414983bf08cec1
+              content_sha256: 262fb2a6545dfb8cf6bd0155bed883d88156439e3210ddd756de34fd99622eab
             - kind: section
               section: 5
               title: p-radical extensions
@@ -4299,10 +4299,10 @@ books:
               last_pdf_page: 265
               book_pages: A V.24-A V.26, A V.150-A V.151
               subsections: 2
-              statements: 5
+              statements: 8
               exercises: 3
               extraction: ocr
-              content_sha256: 78a95fcc9e8a1912ed265c254e7bc758a962c74b721f6cfa24826993934549c8
+              content_sha256: a6aac90fb95dde1ede976db5b8a9e4ce3a61bf397137340698aadb5298fcb373
             - kind: section
               section: 6
               title: Etale algebras
@@ -4315,7 +4315,7 @@ books:
               statements: 22
               exercises: 2
               extraction: ocr
-              content_sha256: 1e1d8007a12d561b9aab4fe1f0fdc218310c13da2cf43b259e24998de8869633
+              content_sha256: 863fd69f4b466e7c901a8b089c5a10ba6ecad623ef3ce2dfc09bc3e6ab33fc75
             - kind: section
               section: 7
               title: Separable algebraic extensions
@@ -4328,7 +4328,7 @@ books:
               statements: 38
               exercises: 5
               extraction: ocr
-              content_sha256: 6a1e194beb6491068e8402aa0b896f006bcab263c6ed8066c487c9e85dadddc0
+              content_sha256: 5aa05da3a383afbbc0ff09ac77e72873f9e34a13a6ee239fe6fd376ee0c0b6b8
             - kind: section
               section: 8
               title: Norms and traces
@@ -4341,7 +4341,7 @@ books:
               statements: 9
               exercises: 2
               extraction: ocr
-              content_sha256: 2c1837d97d973deb366392cf92e45b198adfedd4fa0f357d77da639c4f9943dd
+              content_sha256: ecf695e74a6f72139dba063988cb43aedaa2286d094bf1ceb5de0b1f88085933
             - kind: section
               section: 9
               title: Conjugate elements and quasi-Galois extensions
@@ -4351,10 +4351,10 @@ books:
               last_pdf_page: 268
               book_pages: A V.52-A V.56, A V.153-A V.154
               subsections: 4
-              statements: 17
+              statements: 19
               exercises: 8
               extraction: ocr
-              content_sha256: d7d2c6ad2b080c82a5aff2d7b1603f16497bded1e6f2190bf82502fb2ce66777
+              content_sha256: 0e2753f62dd2c70a2305d5d6a45b5fd4e991b15c44499d185806f6afd21ffbe8
             - kind: section
               section: 10
               title: Galois extensions
@@ -4364,10 +4364,10 @@ books:
               last_pdf_page: 274
               book_pages: A V.56-A V.76, A V.154-A V.160
               subsections: 11
-              statements: 42
+              statements: 49
               exercises: 23
               extraction: ocr
-              content_sha256: ae3a4e0289864ad11027b6a3604a93128e278def4be31e12ea7204d093f35167
+              content_sha256: ca3fc22a3927420d19131276d84c6a18bdb2e1153a1a717cbafc7ecf2e2c2650
             - kind: section
               section: 11
               title: Abelian extensions
@@ -4377,10 +4377,10 @@ books:
               last_pdf_page: 280
               book_pages: A V.160-A V.166
               subsections: 9
-              statements: 38
+              statements: 45
               exercises: 23
               extraction: ocr
-              content_sha256: 214f1a17438663c38b84ab92041f437ab2589f488d97b9016262470caf559af6
+              content_sha256: 6948c79032d0ed93f4abaa213981181a5d1932d82792a48541b5e6e181c59fa4
             - kind: section
               section: 12
               title: Finite fields
@@ -4390,10 +4390,10 @@ books:
               last_pdf_page: 284
               book_pages: A V.166-A V.170
               subsections: 4
-              statements: 10
+              statements: 11
               exercises: 14
               extraction: ocr
-              content_sha256: 957cda970806e4eb35e2b9f69932419cecb74d5918267996ef59aaa2179faaa4
+              content_sha256: 1c18272a32e8d3405cf34f07429f1fb5d6f434b6e11f363b5880986e01e49860
             - kind: section
               section: 13
               title: p-radical extensions of height _ 1
@@ -4406,7 +4406,7 @@ books:
               statements: 21
               exercises: 6
               extraction: ocr
-              content_sha256: 946678166d2e063f40ad4c589140b81bf1376d31fa63f1b22ff453591cd2a672
+              content_sha256: ea1922d9b090562a960823c783889969946827bc39b5551a52700d5ebe93e171
             - kind: section
               section: 14
               title: Transcendental extensions
@@ -4416,10 +4416,10 @@ books:
               last_pdf_page: 289
               book_pages: A V.106-A V.118, A V.171-A V.175
               subsections: 7
-              statements: 49
+              statements: 51
               exercises: 20
               extraction: ocr
-              content_sha256: 02d06e928820ce550a2909d158a548fc78ae258e1f5e3e0ab01d1c328bcea79e
+              content_sha256: 1d0f46a78f2ca3b92e35cdf3d136f4261e7c2970d9be436ad293944a91b057bc
             - kind: section
               section: 15
               title: Separable extensions
@@ -4442,10 +4442,10 @@ books:
               last_pdf_page: 294
               book_pages: A V.127-A V.137, A V.177-A V.180
               subsections: 7
-              statements: 30
+              statements: 32
               exercises: 9
               extraction: ocr
-              content_sha256: c7d8584db6076196d8d6db626c359cb6ebc98a83d1be313ebe821fe9f6d6d894
+              content_sha256: 8c98733045e0d0b429af9279f6516d826bb1584e97223f1691e4dd620a38d5f5
             - kind: section
               section: 17
               title: Regular extensions
@@ -4490,10 +4490,10 @@ books:
               first_pdf_page: 312
               last_pdf_page: 348
               subsections: 13
-              statements: 50
+              statements: 52
               exercises: 34
               extraction: ocr
-              content_sha256: 79b6231d70cc40c5ef2514e972d4a80b29e333d1add93c9efbbef113814bc4f8
+              content_sha256: 7807160be0ee4703e84d6ac63919ca0a7e810af32944eb915f0916f77170d87d
             - kind: section
               section: 2
               title: Ordered fields
@@ -4506,7 +4506,7 @@ books:
               statements: 31
               exercises: 41
               extraction: ocr
-              content_sha256: 35de4067e084a16e84edef67e2102758ffddde3b4289107c3615dde8486954b7
+              content_sha256: a9ea185b5e464ae853d3c2d17a543197771aae8cf459215a2571972f9b8e5a6a
         - chapter: VII
           title: MODULES OVER PRINCIPAL IDEAL DOMAINS
           sections:
@@ -4531,7 +4531,7 @@ books:
               statements: 15
               exercises: 15
               extraction: ocr
-              content_sha256: 4d2e8685293c5e563dc0126488613d8ea1302d51c77a7dce89470fb01bc5d9c2
+              content_sha256: 0a45ebef08ece5f7219a0dadaa5ba295691ce450f089daf83036ea0b7da8e471
             - kind: section
               section: 2
               title: Torsion modules over a principal ideal domain
@@ -4541,10 +4541,10 @@ books:
               last_pdf_page: 418
               book_pages: A VII.6-A VII.14, A VII.54-A VII.59
               subsections: 4
-              statements: 16
+              statements: 22
               exercises: 15
               extraction: ocr
-              content_sha256: 97d9eb4cdec80e2771b1c17555ea38f2de9fce79c4beef410353e551f5136a5e
+              content_sha256: 8ae9cafa043b77732c923b00b250b250e5abd9fbf413df8cdbeb9d9a6514c276
             - kind: section
               section: 3
               title: Free modules over a principal ideal domain
@@ -4567,10 +4567,10 @@ books:
               last_pdf_page: 429
               book_pages: A VII.15-A VII.28, A VII.62-A VII.70
               subsections: 9
-              statements: 36
+              statements: 40
               exercises: 9
               extraction: ocr
-              content_sha256: 72284bcccd18470bd250f26c04897794401234e3605cebe13c6573e682939f89
+              content_sha256: 47e1f7b20c598278d3283f70227fe7863b421a8ea32d75c1e037bb13db45ff08
             - kind: section
               section: 5
               title: Endomorphisms of vector spaces
@@ -4583,7 +4583,7 @@ books:
               statements: 63
               exercises: 14
               extraction: ocr
-              content_sha256: 940002721e05b365dd59c32a47a412e7016af94833083021fc6c5bcaa7de7d22
+              content_sha256: 635a24ee64712856e67649e040727e1324e7905c74a103aed09b4ef59c6e8359
             - kind: historical
               title: Historical Note
               path: content/en/alg/VII/historical_note.md
@@ -5362,10 +5362,10 @@ books:
               first_pdf_page: 123
               last_pdf_page: 259
               subsections: 18
-              statements: 110
+              statements: 111
               exercises: 9
               extraction: ocr
-              content_sha256: 52cb802ba73092d0e4da07690f896b5a19fdf4607d9cfa1760be6d5e3a764e8c
+              content_sha256: 5ae9cd62a4c71a2224c40bff001ca898689d86f34e862e65accce58fb6c8edc1
             - kind: section
               section: 4
               title: Passage des algèbres de Lie aux groupes de Lie
@@ -5465,12 +5465,12 @@ books:
               title: Historical Note
               path: content/fr/lie/III/historical_note.md
               first_pdf_page: 284
-              last_pdf_page: 293
+              last_pdf_page: 318
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 3ea52a069506bc2f4d227e6bedb50458fd9263744a3903d20e90ff704bef841d
+              content_sha256: d965d3fe1a8c2a817878b93833d7acb46b25683dd700e3c0e433ddbc1c5cc9c6
     - id: int-v-fr
       chapters:
         - chapter: V
@@ -5741,10 +5741,10 @@ books:
               last_pdf_page: 91
               book_pages: AC VIII.86-AC VIII.87
               subsections: 5
-              statements: 36
+              statements: 37
               exercises: 7
               extraction: ocr
-              content_sha256: a7beb9e0def769b02cc03afdf0d896591c95a346f34961489f8bde1c22d64743
+              content_sha256: e4d0c053766e54711fb64b76f42539f676fb04d6d5c716298b7b2a7c737ceab4
             - kind: section
               section: 4
               title: Séries de Hilbert-Samuel

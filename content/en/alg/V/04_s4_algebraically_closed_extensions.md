@@ -24,9 +24,9 @@ subsections:
       title: Algebraic closure of a field
       page: 22
       pdf_page: 136
-statements: 14
+statements: 19
 exercises: 2
-content_sha256: 9d6d7fa70f7929549a2c8e43cd77e6ece671a7036f47fbeaed414983bf08cec1
+content_sha256: 262fb2a6545dfb8cf6bd0155bed883d88156439e3210ddd756de34fd99622eab
 ---
 
 ## § 4. ALGEBRAICALLY CLOSED EXTENSIONS
@@ -46,19 +46,25 @@ Let us first prove the equivalence of the properties (AC), (AC') and (AC''). Cle
 
 It remains to see that (AC) and (AC) are equivalent. If (AC'') holds, every element of an extension field L of K which is algebraic over K is of degree 1 (V, p. 16, Th. 1), hence belongs to K, which establishes (AC). Conversely, let f be an irreducible polynomial of degree $ n \geq 1 $ in K[X]; the quotient algebra K[X]/(f) is of degree n over K and is a field, hence an algebraic extension of degree n of K (V, p. 18, Prop. 2). Now it is clear that (AC) implies (AC'').
 
-Definition 1. — A field K is said to be algebraically closed if it possesses the (equivalent) properties (AC), (AC'), (AC), (AC).
+#### Definition 1 {#alg-v-s4-def-1 .statement}
+
+A field K is said to be algebraically closed if it possesses the (equivalent) properties (AC), (AC'), (AC), (AC).
 
 \* Example 1. — The field C of complex numbers is algebraically closed (Gen. Top., VIII, p. 100). \*
 
 A field K which is relatively algebraically closed in an extension field E of K is not necessarily algebraically closed (in effect every field is relatively algebraically closed in itself, and there exist fields that are not algebraically closed, for example Q or $ \mathbf{F}_p $ \* or R *). However:
 
-Proposition 2. — Let $ \Omega $ be an algebraically closed field and K a subfield of $ \Omega $. Then the relative algebraic closure $ \bar{K} $ of K in $ \Omega $ is an algebraically closed field.
+#### Proposition 2 {#alg-v-s4-prop-2 .statement}
+
+Let $ \Omega $ be an algebraically closed field and K a subfield of $ \Omega $. Then the relative algebraic closure $ \bar{K} $ of K in $ \Omega $ is an algebraically closed field.
 
 Let f be a non-constant polynomial in $ \bar{K}[X] \subset \Omega[X] $. Since $ \Omega $ is algebraically closed, the polynomial f has at least one root in $ \Omega $, and since this root is algebraic over $ \bar{K} $, it belongs to $ \bar{K} $ (V, p. 19, Prop. 4). Therefore $ \bar{K} $ satisfies (AC').
 
 \* Example 2. — By Prop. 2 the set of all complex numbers that are algebraic over Q (often called briefly algebraic numbers) is an algebraically closed field. \*
 
-Proposition 3. — Every algebraically closed field is infinite.
+#### Proposition 3 {#alg-v-s4-prop-3 .statement}
+
+Every algebraically closed field is infinite.
 
 Let K be a finite field and put $ f(X) = 1 + \prod_{a \in K} (X - a) $. The polynomial $ f \in K[X] $ is non-constant and $ f(a) = 1 $ for each $ a \in K $. So the field K does not satisfy (AC') and hence is not algebraically closed.
 
@@ -125,9 +131,9 @@ This follows from Prop. 5 and V, p. 13, Cor. of Prop. 4.
 
 — *Let K be a field. By an algebraic closure of K we understand any extension of K which is algebraic and algebraically closed.
 
-#### Example {#alg-v-s4-n3-exa-1 .statement}
+#### Example 1 {#alg-v-s4-n3-exa-1 .statement}
 
-— *1) The field C of complex numbers is an algebraic closure of the field R of real numbers (Gen. Top., VIII, p. 100) \*
+The field C of complex numbers is an algebraic closure of the field R of real numbers (Gen. Top., VIII, p. 100) \*
 2) Let K be a field and $ \Omega $ an algebraically closed extension of K. If $ \overline{K} $ is the relative algebraic closure of K in $ \Omega $, then by V, p. 20, Prop. 2, K is an algebraic closure of K. \* In particular the field of all algebraic numbers (V, p. 20, Ex. 2) is an algebraic closure of the field Q of rational numbers. \*
 
 #### Proposition 6 {#alg-v-s4-prop-6 .statement}
@@ -138,7 +144,7 @@ The condition is necessary by (AC). Conversely, suppose that $ \Omega $ is algeb
 
 #### Remark 1 {#alg-v-s4-n3-rem-1 .statement}
 
-— If $ \Omega $ is algebraic over $ K $ and if every non-constant polynomial of $ K[X] $ has a root in $ \Omega $ then $ \Omega $ is an algebraic closure of $ K $ (V, p. 156, Ex. 20).
+If $ \Omega $ is algebraic over $ K $ and if every non-constant polynomial of $ K[X] $ has a root in $ \Omega $ then $ \Omega $ is an algebraic closure of $ K $ (V, p. 156, Ex. 20).
 
 #### Proposition 7 {#alg-v-s4-prop-7 .statement}
 
@@ -162,13 +168,17 @@ By Prop. 6 an algebraic closure of $ K $ is nothing other than a splitting exten
 
 It is enough to apply Th. 2 to the algebraic closures $ \Omega $ and $ (\Omega', u) $ of $ K $.
 
-#### Remark {#alg-v-s4-n3-rem-2 .statement}
+#### Remark 2 {#alg-v-s4-n3-rem-2 .statement}
 
-— 2) In the notation of the preceding Corollary there exist in general $ K $-automorphisms of $ \Omega $ distinct from the identity. Hence there is in general no uniqueness about the isomorphism $ v $ of $ \Omega $ onto $ \Omega' $ extending the isomorphisms $ u $ of $ K $ onto $ K' $. For similar reasons there is in general more than one isomorphism of a splitting extension $ E $ onto a splitting extension $ E' $ for the same family $ (f_i)_{i \in I} $ of polynomials. We recall that by contrast, for the perfect closure we have uniqueness (V, p. 5).
+In the notation of the preceding Corollary there exist in general $ K $-automorphisms of $ \Omega $ distinct from the identity. Hence there is in general no uniqueness about the isomorphism $ v $ of $ \Omega $ onto $ \Omega' $ extending the isomorphisms $ u $ of $ K $ onto $ K' $. For similar reasons there is in general more than one isomorphism of a splitting extension $ E $ onto a splitting extension $ E' $ for the same family $ (f_i)_{i \in I} $ of polynomials. We recall that by contrast, for the perfect closure we have uniqueness (V, p. 5).
 
-3) Let K be a field and $ \Omega $ an algebraic closure of $ K $. Then the following construction may be given for a splitting extension for a family $ (f_i)_{i \in I} $ of non-constant polynomials in $ K[X] $: let $ R_i $ be the set of roots of $ f_i $ in $ \Omega $ and let $ R = \bigcup_{i \in I} R_i $. Then $ K(R) $ is the unique subextension of $ \Omega $ which is a splitting extension for $ (f_i)_{i \in I} $ (V, p. 22, Prop. 5).
+#### Remark 3 {#alg-v-s4-n3-rem-3 .statement}
 
-4) Let K be a finite field and $ \Omega $ an algebraic closure of $ K $. Then $ \Omega $ is infinite ($ V, $ p. 20, Prop. 3); since every extension of finite degree of K is a finite field, $ \Omega $ is an algebraic extension of *infinite* degree of $ K $.
+Let K be a field and $ \Omega $ an algebraic closure of $ K $. Then the following construction may be given for a splitting extension for a family $ (f_i)_{i \in I} $ of non-constant polynomials in $ K[X] $: let $ R_i $ be the set of roots of $ f_i $ in $ \Omega $ and let $ R = \bigcup_{i \in I} R_i $. Then $ K(R) $ is the unique subextension of $ \Omega $ which is a splitting extension for $ (f_i)_{i \in I} $ (V, p. 22, Prop. 5).
+
+#### Remark 4 {#alg-v-s4-n3-rem-4 .statement}
+
+Let K be a finite field and $ \Omega $ an algebraic closure of $ K $. Then $ \Omega $ is infinite ($ V, $ p. 20, Prop. 3); since every extension of finite degree of K is a finite field, $ \Omega $ is an algebraic extension of *infinite* degree of $ K $.
 
 ### Exercises {#alg-v-s4-exercises}
 

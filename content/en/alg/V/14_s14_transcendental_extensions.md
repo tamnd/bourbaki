@@ -40,9 +40,9 @@ subsections:
       title: Finitely generated extensions
       page: 117
       pdf_page: 231
-statements: 49
+statements: 51
 exercises: 20
-content_sha256: 02d06e928820ce550a2909d158a548fc78ae258e1f5e3e0ab01d1c328bcea79e
+content_sha256: 1d0f46a78f2ca3b92e35cdf3d136f4261e7c2970d9be436ad293944a91b057bc
 ---
 
 ## § 14. TRANSCENDENTAL EXTENSIONS
@@ -79,7 +79,7 @@ The uniqueness of $ v $ is clear. Let us put $ A = K[x_i]_{i \in I} $ and $ A' =
 
 #### Remark {#alg-v-s14-n1-rem-1 .statement}
 
-— It is clear that in an extension E of K an algebraically free family over K consists of *linearly independent* elements over $ K $ (hence pairwise distinct); in other words, it is also a free family for the *vector space* structure of $ E $ (with respect to K). But the converse is false, for if E is an algebraic extension of K, any non-empty family of elements of E (and *a fortiori* a non-empty family of linearly independent elements over K) is never algebraically free over K. When there is a risk of confusion, we shall say that a subset of an extension E of K which is free for the vector space structure of E with respect to K is *linearly free* over K.
+It is clear that in an extension E of K an algebraically free family over K consists of *linearly independent* elements over $ K $ (hence pairwise distinct); in other words, it is also a free family for the *vector space* structure of $ E $ (with respect to K). But the converse is false, for if E is an algebraic extension of K, any non-empty family of elements of E (and *a fortiori* a non-empty family of linearly independent elements over K) is never algebraically free over K. When there is a risk of confusion, we shall say that a subset of an extension E of K which is free for the vector space structure of E with respect to K is *linearly free* over K.
 
 Let E be an extension of a field K. A subset S of E is said to be *algebraically free* (over $ K $) if the family defined by the identity mapping of S onto itself is algebraically free. The elements of an algebraically free subset of E are also called *algebraically independent*. If a subset of E is not algebraically free, it is said to be *algebraically related* and that its elements are *algebraically dependent*. For a family $ (x_i)_{i \in I} $ of elements of E to be algebraically free it is necessary and sufficient that $ i \mapsto x_i $ should be a bijection of I onto an algebraically free subset of E.
 
@@ -254,13 +254,17 @@ Let L be the set of elements y of $ \Omega $ such that $ u(y) = y $ for all $ u 
 
 — Let L be an extension of a field K, and E and F two subextensions of L. Then E and F are said to be algebraically disjoint (over K) and E is said to be algebraically disjoint from F over K, if for every subset A (resp. B) of E (resp. F) algebraically free over K, A and B are disjoint and $ A \cup B $ is algebraically free over K.
 
-#### Remark {#alg-v-s14-n5-rem-1 .statement}
+#### Remark 1 {#alg-v-s14-n5-rem-1 .statement}
 
-— 1) If E is a subextension of L which is algebraic over K, then it is algebraically disjoint from every subextension F of L. For an extension of K to be algebraic it is necessary and sufficient that it should be algebraically disjoint from itself.
+If E is a subextension of L which is algebraic over K, then it is algebraically disjoint from every subextension F of L. For an extension of K to be algebraic it is necessary and sufficient that it should be algebraically disjoint from itself.
 
-2) It may happen that E is algebraically disjoint from F over K, but not over a subfield $ K_{\|} $ of K. \* For example C is algebraically disjoint from itself over R but not over $ \mathbf{Q} $. \*
+#### Remark 2 {#alg-v-s14-n5-rem-2 .statement}
 
-3) It is clear that if E is algebraically disjoint from $ F $ over K, when E and F are considered as subextensions of L, the same is true when they are considered as subextensions of $ K(E \cup F) $ and conversely.
+It may happen that E is algebraically disjoint from F over K, but not over a subfield $ K_{\|} $ of K. \* For example C is algebraically disjoint from itself over R but not over $ \mathbf{Q} $. \*
+
+#### Remark 3 {#alg-v-s14-n5-rem-3 .statement}
+
+It is clear that if E is algebraically disjoint from $ F $ over K, when E and F are considered as subextensions of L, the same is true when they are considered as subextensions of $ K(E \cup F) $ and conversely.
 
 #### Proposition 11 {#alg-v-s14-prop-11 .statement}
 
@@ -342,7 +346,7 @@ For E and F to be algebraically disjoint over K it is necessary and sufficient f
 
 #### Remark {#alg-v-s14-n6-rem-1 .statement}
 
-— By Prop. 3 ($ V $, p. 107) it is enough to verify the condition (AF) for finite subsets $ A_i $. We thus obtain the following result : if $ (E_i)_{i \in I} $ is an algebraically free family, the same is true of $ (E'_i)_{i \in I} $ if $ E'_i $ is a subextension of $ E_i $ for each $ i \in I $; conversely, if every family $ (E'_i)_{i \in I} $, where $ E'_i $ is a finitely generated subextension of $ E $ for each $ i \in I $ is algebraically free, then $ (E_i)_{i \in I} $ is algebraically free. On the other hand, for $ (E_i)_{i \in I} $ to be algebraically free it is necessary and sufficient that $ (E_i)_{i \in J} $ should be algebraically free for every finite subset $ J $ of $ I $. Speaking intuitively we may say that the algebraic independence of extensions is a property « of finite character ».
+By Prop. 3 ($ V $, p. 107) it is enough to verify the condition (AF) for finite subsets $ A_i $. We thus obtain the following result : if $ (E_i)_{i \in I} $ is an algebraically free family, the same is true of $ (E'_i)_{i \in I} $ if $ E'_i $ is a subextension of $ E_i $ for each $ i \in I $; conversely, if every family $ (E'_i)_{i \in I} $, where $ E'_i $ is a finitely generated subextension of $ E $ for each $ i \in I $ is algebraically free, then $ (E_i)_{i \in I} $ is algebraically free. On the other hand, for $ (E_i)_{i \in I} $ to be algebraically free it is necessary and sufficient that $ (E_i)_{i \in J} $ should be algebraically free for every finite subset $ J $ of $ I $. Speaking intuitively we may say that the algebraic independence of extensions is a property « of finite character ».
 
 #### Proposition 15 {#alg-v-s14-prop-15 .statement}
 

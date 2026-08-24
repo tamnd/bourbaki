@@ -26,7 +26,7 @@ subsections:
       pdf_page: 26
 statements: 19
 exercises: 5
-content_sha256: 4d07e5496ffa92896b6a8af8eb86890619c755fca813fec2af0ea6af12a558a0
+content_sha256: 8d0335eecb42b2e149eb6aac4d5d9373decfe3986e5c6770a233303e929f0f7f
 ---
 
 ## § 2. ZEROS OF POLYNOMIALS
@@ -59,9 +59,9 @@ This is clear for condition (i), bearing in mind the fact that iff is divisible 
 — *With the above notation we say that $ a $ is of order $ h $, or multiplicity $ h $ relative to $ f $.*
 If $ h > 0 $ we also say that $ a $ is a root of order $ h $ or multiplicity $ h $ off. A root of order 1 is called a simple root, a root of order 2 a double root,... A root of order $ > 1 $ is said to be multiple.
 
-#### Remark {#alg-iv-s2-n1-rem-1 .statement}
+#### Remark 1 {#alg-iv-s2-n1-rem-1 .statement}
 
-— 1) If $ f = 0 $ we agree to say that $ a $ has order $ \geq h $ relative to $ f $, whatever $ a \in \mathbf{A} $ and the integer $ h \geq 0 $. For any $ f \in \mathbf{A}[X] $ and $ a \in \mathbf{A} $, to say that $ a $ has order $ \geq h $ relative to $ f $ means that $ (X - \alpha)^h $ divides $ f $.
+If $ f = 0 $ we agree to say that $ a $ has order $ \geq h $ relative to $ f $, whatever $ a \in \mathbf{A} $ and the integer $ h \geq 0 $. For any $ f \in \mathbf{A}[X] $ and $ a \in \mathbf{A} $, to say that $ a $ has order $ \geq h $ relative to $ f $ means that $ (X - \alpha)^h $ divides $ f $.
 2) Let $ B $ be a commutative ring containing $ \mathbf{A} $ as subring. Let $ f \in \mathbf{A}[X] $ be non-zero and $ a \in \mathbf{A} $. The order of $ a $ relative to $ f $ is the same, whether we consider $ f $ as element of $ B[X] $ or as element of $ \mathbf{A}[X] $. This is clear from condition (ii) of Prop. 2.
 
 #### Proposition 4 {#alg-iv-s2-prop-4 .statement}

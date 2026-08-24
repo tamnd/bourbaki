@@ -43,9 +43,9 @@ subsections:
       title: Irreducible polynomials
       page: 13
       pdf_page: 22
-statements: 29
+statements: 30
 exercises: 5
-content_sha256: 39b740e6680b4c3a1f569faace65cd4c42d3e5b4f9e24158789d34a95b790faa
+content_sha256: 680d2b1dc0057e134cacc841defea4521163184e80d9745b8d469153561a213f
 ---
 
 ## § 1. POLYNOMIALS
@@ -382,7 +382,7 @@ As in the proof of Prop. 8 we can make a reduction to the case of polynomials in
 
 #### Remark {#alg-iv-s1-n5-rem-1 .statement}
 
-— Let $ u $ and $ v $ be elements of $ A[(X_i)_i \in ,] $, and suppose that $ A $ is an integral domain, $ v $ is a non-zero multiple of $ u $ and $ v $ is homogeneous; then $ u $ is also homogeneous. For let $ u' \in A[(X_i)_i ,_1] $ be such that $ v = uu' $; we have $ u \neq 0 $, $ u' \neq 0 $, and if
+Let $ u $ and $ v $ be elements of $ A[(X_i)_i \in ,] $, and suppose that $ A $ is an integral domain, $ v $ is a non-zero multiple of $ u $ and $ v $ is homogeneous; then $ u $ is also homogeneous. For let $ u' \in A[(X_i)_i ,_1] $ be such that $ v = uu' $; we have $ u \neq 0 $, $ u' \neq 0 $, and if
 $$
 u = u_h + u_{h+1} + \cdots + u_k \\
 u' = u_{h'} + u_{h'+1} + \cdots + u_{k'}
@@ -391,7 +391,9 @@ are the decompositions of $ u $ and $ u' $ into homogeneous components, with $ u
 
 ### 6. Euclidean division of polynomials in one indeterminate
 
-Proposition 10. — *Let $ f $ and $ g $ be non-zero elements of $ A[X] $ of degrees $ m $ and $ n $ respectively. Let $ \alpha_0 $ be the leading coefficient of $ f $ and $ \mu = \sup(n - m + 1, 0) $. There exist $ u, v \in A[X] $ such that*
+#### Proposition 10 {#alg-iv-s1-prop-10 .statement}
+
+*Let $ f $ and $ g $ be non-zero elements of $ A[X] $ of degrees $ m $ and $ n $ respectively. Let $ \alpha_0 $ be the leading coefficient of $ f $ and $ \mu = \sup(n - m + 1, 0) $. There exist $ u, v \in A[X] $ such that*
 $$
 \alpha_0^\mu g = uf + v, \quad \deg v < m.
 $$

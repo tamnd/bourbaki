@@ -48,9 +48,9 @@ subsections:
       title: Duality in modules of finite length over a principal ideal domain
       page: 25
       pdf_page: 384
-statements: 36
+statements: 40
 exercises: 9
-content_sha256: 72284bcccd18470bd250f26c04897794401234e3605cebe13c6573e682939f89
+content_sha256: 47e1f7b20c598278d3283f70227fe7863b421a8ea32d75c1e037bb13db45ff08
 ---
 
 ## § 4. FINITELY GENERATED MODULES OVER A PRINCIPAL IDEAL DOMAIN
@@ -160,7 +160,7 @@ In the notation of Th. 1, if $ L/M $ is torsion free, then $ M = M' $, and $ M' 
 
 #### Remark {#alg-vii-s4-n3-rem-1 .statement}
 
-— It can happen that a submodule $ M $ of infinite rank in a free module $ L $ can be such that $ L/M $ is torsion free, but $ M $ has no complement in $ L $ (VII, p. 60, Ex. 6, b)).
+It can happen that a submodule $ M $ of infinite rank in a free module $ L $ can be such that $ L/M $ is torsion free, but $ M $ has no complement in $ L $ (VII, p. 60, Ex. 6, b)).
 
 #### Definition 1 {#alg-vii-s4-def-1 .statement}
 
@@ -258,7 +258,7 @@ In the case $ A = \mathbf{Z} $, the results of section 4 can be expressed
 
 #### Remark {#alg-vii-s4-n7-rem-1 .statement}
 
-— While the orders $ n_1, \ldots, n_q $ of the cyclic groups of which F is the direct sum are well defined by the divisibility condition of Th. 3, it is *not* the same for the groups themselves: for example, in the product G of $ \mathbf{Z}/(p) $ with itself (for p prime), the subgroups are precisely the $ \mathbf{F}_p $-vector subspaces, and G is the direct sum of two 1-dimensional subspaces in $ p(p+1) $ different ways.
+While the orders $ n_1, \ldots, n_q $ of the cyclic groups of which F is the direct sum are well defined by the divisibility condition of Th. 3, it is *not* the same for the groups themselves: for example, in the product G of $ \mathbf{Z}/(p) $ with itself (for p prime), the subgroups are precisely the $ \mathbf{F}_p $-vector subspaces, and G is the direct sum of two 1-dimensional subspaces in $ p(p+1) $ different ways.
 
 #### Corollary 1 {#alg-vii-s4-thm-3-cor-1 .statement}
 
@@ -316,13 +316,17 @@ The existence of the integers $ m(0) $ and $ m(p^n) $ ($ p \in P, n > 0 $) follo
 
 As for the invariant factors (VII, p. 19, Def. 1), when $ A = \mathbf{Z} $ or $ A = K[X] $ (K a commutative field), then the canonical generator of the ideal $ (p^n) $ (a positive integer or a monic polynomial) is also called, by abuse of language, an elementary divisor of the finitely generated module $ M $.
 
-#### Remark {#alg-vii-s4-n8-rem-1 .statement}
+#### Remark 1 {#alg-vii-s4-n8-rem-1 .statement}
 
-— 1) If $ M $ is a finite abelian group, then its structure can be described by writing down its elementary divisors, each repeated as often as its multiplicity. We will say, for example, that $ M $ is « of type $(2, 2, 4, 27, 27, 25)$ » (or that it is « a group $(2, 2, 4, 27, 27, 25)$ ») if it is isomorphic to the product of two groups $ \mathbf{Z}/(2) $, one group $ \mathbf{Z}/(2^2) $, two groups $ \mathbf{Z}/(3^3) $ and one group $ \mathbf{Z}/(5^2) $.
+If $ M $ is a finite abelian group, then its structure can be described by writing down its elementary divisors, each repeated as often as its multiplicity. We will say, for example, that $ M $ is « of type $(2, 2, 4, 27, 27, 25)$ » (or that it is « a group $(2, 2, 4, 27, 27, 25)$ ») if it is isomorphic to the product of two groups $ \mathbf{Z}/(2) $, one group $ \mathbf{Z}/(2^2) $, two groups $ \mathbf{Z}/(3^3) $ and one group $ \mathbf{Z}/(5^2) $.
 
-2) If a finitely generated torsion module $ M $ over a principal ideal domain $ A $ is given as a direct sum of cyclic modules isomorphic to $ A/(a_i) $ (in particular if the invariant factors of $ M $ are known), then the elementary divisors of $ M $, and their multiplicities, can be determined by noticing that $ A/(a) $ is isomorphic to the product of the $ A/(p^{n(p)}) $, where $ a = e \prod_{p \in P} p^{n(p)} $ is the decomposition of $ a $ into irreducible factors ($ VII $, p. 3). Let us study for example the multiplicative group $ G(464\ 600) $, where $ G(n) $ denotes the multiplicative group $ (\mathbf{Z}/n\mathbf{Z})^* $ ($ VII $, p. 12). Since $ 464\ 600 = 2^3 \cdot 5 \cdot 23 \cdot 101 $, this group is isomorphic to the product of the groups $ G(2^3) $, $ G(5^2) $, $ G(23) $ and $ G(101) $ ($ VII $, p. 13, Th. 3); now the last three groups are cyclic of orders 20, 22 and 100, and $ G(2^3) $ is the product of two cyclic groups of order 2 (\emph{loc. cit.}); since $ 20 = 2^2 \cdot 5 $, $ 22 = 2 \cdot 11 $ and $ 100 = 2' \cdot 5^2 $, the group $ G(464\ 600) $ is of type $(2, 2, 2, 2^2, 2^2, 2^2, 5, 5^2, 11)$.
+#### Remark 2 {#alg-vii-s4-n8-rem-2 .statement}
 
-3) To calculate the invariant factors of a torsion module whose elementary divisors are known, we again lean on the fact that, if the $ a_i $ are pairwise coprime elements of $ A $, then the product $ \prod A/(a_i) $ is a cyclic module isomorphic to $ A/(a_1 a_2 ... a_n) $ ($ VII $, p. 3, Prop. 4). Let us illustrate the method by looking at the example of the group $ G(464\ 600) = M $: write the elementary divisors $ p^n $ of $ M $ which are powers of the same irreducible $ p $ on the same line, beginning with those of greatest exponent; extend these lines to lines of equal length by putting in 1's where necessary:
+If a finitely generated torsion module $ M $ over a principal ideal domain $ A $ is given as a direct sum of cyclic modules isomorphic to $ A/(a_i) $ (in particular if the invariant factors of $ M $ are known), then the elementary divisors of $ M $, and their multiplicities, can be determined by noticing that $ A/(a) $ is isomorphic to the product of the $ A/(p^{n(p)}) $, where $ a = e \prod_{p \in P} p^{n(p)} $ is the decomposition of $ a $ into irreducible factors ($ VII $, p. 3). Let us study for example the multiplicative group $ G(464\ 600) $, where $ G(n) $ denotes the multiplicative group $ (\mathbf{Z}/n\mathbf{Z})^* $ ($ VII $, p. 12). Since $ 464\ 600 = 2^3 \cdot 5 \cdot 23 \cdot 101 $, this group is isomorphic to the product of the groups $ G(2^3) $, $ G(5^2) $, $ G(23) $ and $ G(101) $ ($ VII $, p. 13, Th. 3); now the last three groups are cyclic of orders 20, 22 and 100, and $ G(2^3) $ is the product of two cyclic groups of order 2 (\emph{loc. cit.}); since $ 20 = 2^2 \cdot 5 $, $ 22 = 2 \cdot 11 $ and $ 100 = 2' \cdot 5^2 $, the group $ G(464\ 600) $ is of type $(2, 2, 2, 2^2, 2^2, 2^2, 5, 5^2, 11)$.
+
+#### Remark 3 {#alg-vii-s4-n8-rem-3 .statement}
+
+To calculate the invariant factors of a torsion module whose elementary divisors are known, we again lean on the fact that, if the $ a_i $ are pairwise coprime elements of $ A $, then the product $ \prod A/(a_i) $ is a cyclic module isomorphic to $ A/(a_1 a_2 ... a_n) $ ($ VII $, p. 3, Prop. 4). Let us illustrate the method by looking at the example of the group $ G(464\ 600) = M $: write the elementary divisors $ p^n $ of $ M $ which are powers of the same irreducible $ p $ on the same line, beginning with those of greatest exponent; extend these lines to lines of equal length by putting in 1's where necessary:
 
 $$
 \begin{array}{cccccc}
@@ -334,7 +338,9 @@ $$
 
 Then the invariant factors are the products of elements in the same column: $ 1100, 20, 2, 2, 2 $. Indeed $ M $ is isomorphic to a product of cyclic groups of orders 1100, 20, 2, 2, 2 by Prop. 4 of $ VII $, p. 3; since each of these orders is a multiple of the next, these are the invariant factors of $ M $ ($ VII $, p. 22, Th. 3).
 
-4) An $ A $-module is called simple ($ I $, p. 37) if it is nonzero and has no submodules other than itself and $ 0 $; it is then necessarily cyclic, so finitely generated, and indecomposable; since the modules $ A/(p^n) $ are not simple for $ n \neq 1 $, while the modules $ A/(p) $ are, and since $ A $ is simple only if the ring $ A $ is a field, we deduce that the simple $ A $-modules are:
+#### Remark 4 {#alg-vii-s4-n8-rem-4 .statement}
+
+An $ A $-module is called simple ($ I $, p. 37) if it is nonzero and has no submodules other than itself and $ 0 $; it is then necessarily cyclic, so finitely generated, and indecomposable; since the modules $ A/(p^n) $ are not simple for $ n \neq 1 $, while the modules $ A/(p) $ are, and since $ A $ is simple only if the ring $ A $ is a field, we deduce that the simple $ A $-modules are:
 $ a) $ free modules of rank 1, when $ A $ is a field;
 $ b) $ modules isomorphic to quotients $ A/(p) $, where $ p $ is an irreducible element of $ A $, when $ A $ is not a field.
 
@@ -438,11 +444,13 @@ $$
 
 in addition it is clear that $ N \subset N^{00} $, so $ N^{00} = N $. Furthermore the first relation in (2) is obvious, and by applying it to the submodules $ N_1^0 $ and $ N_2^0 $ of $ D(M) $, we have $ (N_1^0 + N_2^0)^0 = N_1 \cap N_2 $, so $ N_1^0 + N_2^0 = (N_1^0 + N_2^0)^{00} = (N_1 \cap N_2)^0 $. This completes the proof of the proposition.
 
-#### Example {#alg-vii-s4-n9-exa-1 .statement}
+#### Example 1 {#alg-vii-s4-n9-exa-1 .statement}
 
-— 1) For $ A = \mathbf{Z} $, the $ \mathbf{Z} $-modules of finite length are precisely the finite abelian groups; then $ K = \mathbf{Q} $, so $ K/A = \mathbf{Q}/\mathbf{Z} $. Then to define $ D(M) $, we sometimes take, instead of $ \mathbf{Q}/\mathbf{Z} $, a $ \mathbf{Z} $-module isomorphic to it, such as (V, p. 79, Prop. 2) the group $ R $ of roots of unity (under multiplication) in an algebraically closed field of characteristic 0 ; we then put $ D(M) = \operatorname{Hom}_{\mathbf{Z}}(M, R) $. We leave the reader to rewrite the preceeding results for this special case in the corresponding notation.
+For $ A = \mathbf{Z} $, the $ \mathbf{Z} $-modules of finite length are precisely the finite abelian groups; then $ K = \mathbf{Q} $, so $ K/A = \mathbf{Q}/\mathbf{Z} $. Then to define $ D(M) $, we sometimes take, instead of $ \mathbf{Q}/\mathbf{Z} $, a $ \mathbf{Z} $-module isomorphic to it, such as (V, p. 79, Prop. 2) the group $ R $ of roots of unity (under multiplication) in an algebraically closed field of characteristic 0 ; we then put $ D(M) = \operatorname{Hom}_{\mathbf{Z}}(M, R) $. We leave the reader to rewrite the preceeding results for this special case in the corresponding notation.
 
-2) Let $ a $ be a nonzero element of $ A $. The map $ x \mapsto x/a $ from $ A $ into $ K $ induces an isomorphism on quotient modules from $ A/(a) $ onto the submodule $ (K/A)(a) $ of $ K/A $ consisting of elements annihilated by $ a $. If $ M $ is an $ A $-module annihilated by $ a $, or equivalently an $ A/(a) $-module, then the $ A $-module $ D(M) $ is identified with $ \operatorname{Hom}_{A/(a)}(M, A/(a)) $. We leave the reader to rewrite the preceding results for this special case in the corresponding notation (cf. V, p. 86).
+#### Example 2 {#alg-vii-s4-n9-exa-2 .statement}
+
+Let $ a $ be a nonzero element of $ A $. The map $ x \mapsto x/a $ from $ A $ into $ K $ induces an isomorphism on quotient modules from $ A/(a) $ onto the submodule $ (K/A)(a) $ of $ K/A $ consisting of elements annihilated by $ a $. If $ M $ is an $ A $-module annihilated by $ a $, or equivalently an $ A/(a) $-module, then the $ A $-module $ D(M) $ is identified with $ \operatorname{Hom}_{A/(a)}(M, A/(a)) $. We leave the reader to rewrite the preceding results for this special case in the corresponding notation (cf. V, p. 86).
 
 ### Exercises {#alg-vii-s4-exercises}
 
