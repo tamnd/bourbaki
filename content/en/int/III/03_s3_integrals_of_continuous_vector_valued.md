@@ -27,9 +27,9 @@ subsections:
       title: Continuity properties of the integral
       page: 39
       pdf_page: 84
-statements: 16
+statements: 17
 exercises: 4
-content_sha256: 19ec3def3746b167ecb2eedaa43c825aad749c933e84bbb7cfc506fe29f914f0
+content_sha256: 4f40e895eb87c716a82ab9c5481811d297f421986a4f483f60f10a6e52df302d
 ---
 
 ## § 3. INTEGRALS OF CONTINUOUS VECTOR-VALUED FUNCTIONS
@@ -100,11 +100,13 @@ $$
 
 because $ \int \langle f, z' \rangle d\varepsilon_y = \langle f(y), z' \rangle $ by definition.
 
-#### Remark {#int-iii-s3-n1-rem-1 .statement}
+#### Remark 1 {#int-iii-s3-n1-rem-1 .statement}
 
-— 1) If $ E $ is a locally convex space and $ N $ is the closure of $ \{0\} $ in $ E $, so that $ E_1 = E/N $ is the Hausdorff locally convex space associated with $ E $, we know that the duals $ E' $ and $ E'_1 $ are identical; for a function $ f $ to belong to $ \widetilde{\mathcal{K}}(X; E) $, it is necessary and sufficient that $ f_1 = \pi \circ f $ (where $ \pi : E \to E_1 $ is the canonical homomorphism) belong to $ \widetilde{\mathcal{K}}(X; E_1) $, in which case $ \int f d\mu = \int f_1 d\mu $. We may therefore limit ourselves to considering only *Hausdorff* locally convex spaces.
+If $ E $ is a locally convex space and $ N $ is the closure of $ \{0\} $ in $ E $, so that $ E_1 = E/N $ is the Hausdorff locally convex space associated with $ E $, we know that the duals $ E' $ and $ E'_1 $ are identical; for a function $ f $ to belong to $ \widetilde{\mathcal{K}}(X; E) $, it is necessary and sufficient that $ f_1 = \pi \circ f $ (where $ \pi : E \to E_1 $ is the canonical homomorphism) belong to $ \widetilde{\mathcal{K}}(X; E_1) $, in which case $ \int f d\mu = \int f_1 d\mu $. We may therefore limit ourselves to considering only *Hausdorff* locally convex spaces.
 
-2) Let $ E $ be a locally convex space *over* $ \mathbf{C} $, and let $ E_0 $ be the locally convex space *over* $ \mathbf{R} $ underlying $ E $; we know that the mapping $ z' \mapsto \Re z' $ which, to every continuous (complex) linear form $ z' $ on $ E $, makes correspond the continuous (real) linear form $ z \mapsto \Re \langle z, z' \rangle $ on $ E_0 $, is an $ \mathbf{R} $-isomorphism of the dual $ E' $ onto the dual $ E'_0 $ of $ E_0 $ (TVS, II, §8, No. 1). Similarly, the algebraic dual $ E'_0* $ of the real vector space $ E'_0 $ may be canonically identified with the real space underlying the algebraic dual $ E'* $ of $ E' $. It follows that if $ \mu $ is a *real measure* and $ f $ a mapping in $ \widetilde{\mathcal{K}}(X; E) $, the formula (1) is again valid when $ f $ is regarded as taking its values in $ E_0 $ and the canonical bilinear forms figuring in the two members as being, respectively, relative to the duality between $ E'_0 $ and $ E'_0* $ for the first member and the duality between $ E_0 $ and $ E'_0 $ for the second.
+#### Remark 2 {#int-iii-s3-n1-rem-2 .statement}
+
+Let $ E $ be a locally convex space *over* $ \mathbf{C} $, and let $ E_0 $ be the locally convex space *over* $ \mathbf{R} $ underlying $ E $; we know that the mapping $ z' \mapsto \Re z' $ which, to every continuous (complex) linear form $ z' $ on $ E $, makes correspond the continuous (real) linear form $ z \mapsto \Re \langle z, z' \rangle $ on $ E_0 $, is an $ \mathbf{R} $-isomorphism of the dual $ E' $ onto the dual $ E'_0 $ of $ E_0 $ (TVS, II, §8, No. 1). Similarly, the algebraic dual $ E'_0* $ of the real vector space $ E'_0 $ may be canonically identified with the real space underlying the algebraic dual $ E'* $ of $ E' $. It follows that if $ \mu $ is a *real measure* and $ f $ a mapping in $ \widetilde{\mathcal{K}}(X; E) $, the formula (1) is again valid when $ f $ is regarded as taking its values in $ E_0 $ and the canonical bilinear forms figuring in the two members as being, respectively, relative to the duality between $ E'_0 $ and $ E'_0* $ for the first member and the duality between $ E_0 $ and $ E'_0 $ for the second.
 
 ### 2. Properties of the vectorial integral
 

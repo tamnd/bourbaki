@@ -37,7 +37,7 @@ subsections:
       pdf_page: 222
 statements: 31
 exercises: 10
-content_sha256: 89a466968fb0799b0b80ec0f0605c070574e76d09c172d70732cb6f4b5bbd3d0
+content_sha256: 0570767550afc4ec72a1bd2d57ff21259b2713160100ad0deff3ffd79e594e1a
 ---
 
 ## § 7. BARYCENTERS
@@ -68,7 +68,7 @@ For, C is then also the closed convex envelope of K in $ E'^* $ equipped with th
 
 #### Remark {#int-iv-s7-n1-rem-1 .statement}
 
-— The Cor. of Prop. 1 is applicable in particular when K is convex or when E is quasi-complete.
+The Cor. of Prop. 1 is applicable in particular when K is convex or when E is quasi-complete.
 
 #### Proposition 2 {#int-iv-s7-prop-2 .statement}
 
@@ -356,13 +356,13 @@ and so $ \mathcal{R}(g) \geq |g|^2 / 2b \geq 0 $; since $ \mathcal{R}(g) = h - h
 
 #### Remark {#int-iv-s7-n4-rem-1 .statement}
 
-— If $ f $ is a continuous real function, a point where $ |f| $ attains its supremum is a point where one of the functions $ f, -f $ attains its supremum. For a vector space $ \mathcal{H} $ of continuous real functions satisfying the hypotheses of No. 3, the Props. 9 and 10 are thus trivial corollaries of Props. 5 and 7, respectively.
+If $ f $ is a continuous real function, a point where $ |f| $ attains its supremum is a point where one of the functions $ f, -f $ attains its supremum. For a vector space $ \mathcal{H} $ of continuous real functions satisfying the hypotheses of No. 3, the Props. 9 and 10 are thus trivial corollaries of Props. 5 and 7, respectively.
 
 ### 5. Applications: III. Algebras of continuous functions
 
 #### Lemma 4 {#int-iv-s7-lem-4 .statement}
 
-— Let X be a compact space, $ \mathcal{H} $ a closed linear subspace of the Banach space $ \mathcal{C}(X; \mathbf{C}) $ (resp. $ \mathcal{C}(X; \mathbf{R}) $). Let a be a point of X admitting a countable fundamental system of neighborhoods; assume that, for any numbers c and d such that $ 0 < c < d < 1 $ and any open neighborhood U of a, there exists an $ f \in \mathcal{H} $ such that
+Let X be a compact space, $ \mathcal{H} $ a closed linear subspace of the Banach space $ \mathcal{C}(X; \mathbf{C}) $ (resp. $ \mathcal{C}(X; \mathbf{R}) $). Let a be a point of X admitting a countable fundamental system of neighborhoods; assume that, for any numbers c and d such that $ 0 < c < d < 1 $ and any open neighborhood U of a, there exists an $ f \in \mathcal{H} $ such that
 $$
 |f| \leq 1,\quad |f(a)| \geq d,\quad |f(x)| \leq c \text{ for all } x \in X - U.
 $$
@@ -497,7 +497,7 @@ where $ (y_1, y_2, \ldots, y_p) $ runs over the set of sequences of $ p $ points
 
 #### Lemma 6 {#int-iv-s7-lem-6 .statement}
 
-— We maintain the hypotheses and notations of Lemma 5, and assume the $ f_\lambda $ to be positive. The function $ \overline{f} $ is positively homogeneous, concave and upper semi-continuous in $ C $. It is affine if $ C $ is lattice-ordered.
+We maintain the hypotheses and notations of Lemma 5, and assume the $ f_\lambda $ to be positive. The function $ \overline{f} $ is positively homogeneous, concave and upper semi-continuous in $ C $. It is affine if $ C $ is lattice-ordered.
 
 It is clear that $ \overline{f} $ is positively homogeneous. Let $ x, y $ belong to $ C $. If $ x_1, \ldots, x_m, y_1, \ldots, y_n $ in $ C $ are such that $ x_1 + \cdots + x_m = x,\ y_1 + \cdots + y_n = y $, then $ x_1 + \cdots + x_m + y_1 + \cdots + y_n = x + y $, therefore
 

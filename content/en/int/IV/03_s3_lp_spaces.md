@@ -43,9 +43,9 @@ subsections:
       title: Relations between the spaces $ \mathcal{L}_F^p $ ($ 1 \leq p < +\infty $)
       page: 31
       pdf_page: 138
-statements: 39
+statements: 43
 exercises: 3
-content_sha256: b3154580dd1ffda13103447f0425a0b8173afcf24cb25ec4e4ed612a18bb7320
+content_sha256: 6488be65703322c8b2f5b2695eb6585cd08f6712f2bee4071b3323cda984a1c3
 ---
 
 ## § 3. L$ ^p $ SPACES
@@ -222,9 +222,9 @@ The functions in $ \mathcal{L}_F^p $ (resp. in $ \mathcal{L}^p $) are thus the *
 
 (*) The justification for this terminology will be given in §4, No. 2.
 
-#### Remark {#int-iv-s3-n4-rem-1 .statement}
+#### Remark 1 {#int-iv-s3-n4-rem-1 .statement}
 
-— 1) As has already been signalled (§2, No. 5) the $ p $-th power integrable functions with values in $ \mathbf{F} $ in general do not form a vector space.
+As has already been signalled (§2, No. 5) the $ p $-th power integrable functions with values in $ \mathbf{F} $ in general do not form a vector space.
 2) In general, the space $ \mathcal{F}_\mathbf{F}^p $ is distinct from its subspace $ \mathcal{L}_\mathbf{F}^p $ (§4, Exer. 8).
 
 Def. 2 immediately yields the following criterion:
@@ -278,11 +278,13 @@ For, since the space $\mathcal{L}_F^p$ is metrizable, there exists a Cauchy sequ
 
 Cor. 2 is applicable in particular to the case where $\mathcal{E}$ is taken to be the space $\mathcal{K}_F$ of *continuous functions with compact support*.
 
-#### Remark {#int-iv-s3-n4-rem-2 .statement}
+#### Remark 2 {#int-iv-s3-n4-rem-2 .statement}
 
-— 1) A Cauchy sequence $(f_n)$ in $\mathcal{L}_F^p$ can be such that the sequence $(f_n(x))$ is not convergent *at any point of* $X$ (Exer. 1).
+A Cauchy sequence $(f_n)$ in $\mathcal{L}_F^p$ can be such that the sequence $(f_n(x))$ is not convergent *at any point of* $X$ (Exer. 1).
 
-2) If $f$ belongs to $\mathcal{L}_F^p$, it is not always possible to find a sequence $(f_n)$ of continuous functions with compact support such that the sequence $(f_n(x))$ converges *everywhere* in $X$ to a function equal to $f(x)$ almost everywhere (§4, Exer. 4 c)).
+#### Remark 3 {#int-iv-s3-n4-rem-3 .statement}
+
+If $f$ belongs to $\mathcal{L}_F^p$, it is not always possible to find a sequence $(f_n)$ of continuous functions with compact support such that the sequence $(f_n(x))$ converges *everywhere* in $X$ to a function equal to $f(x)$ almost everywhere (§4, Exer. 4 c)).
 
 ### 5. Properties of $p$-th power integrable functions
 
@@ -364,7 +366,7 @@ To see that $ \mathfrak{F} $ is a base of a Cauchy filter, we shall make use of 
 
 #### Lemma {#int-iv-s3-n6-lem-1 .statement}
 
-— If $ f $ and $ g $ are two functions in $ \mathcal{L}^p $ such that $ 0 \leq f \leq g $, then
+If $ f $ and $ g $ are two functions in $ \mathcal{L}^p $ such that $ 0 \leq f \leq g $, then
 
 $$
 (N_p(g - f))^p \leq (N_p(g))^p - (N_p(f))^p .
@@ -380,7 +382,9 @@ and is then a consequence of the elementary inequality $ (g - f)^p \leq g^p - f^
 
 The lemma having been established, for every $ \varepsilon > 0 $ there exists by hypothesis an $ \tilde{f} \in \mathrm{H} $ such that, for every $ \tilde{g} \geq \tilde{f} $ belonging to $ \mathrm{H} $, we have $ (\|\tilde{g}\|_p)^p - (\|\tilde{f}\|_p)^p \leq \varepsilon $; from this it follows that $ (\|\tilde{g} - \tilde{f}\|_p)^p \leq \varepsilon $; thus, if $ \tilde{g}_1 $ and $ \tilde{g}_2 $ are two elements in $ \mathrm{H} $ that are $ \geq \tilde{f} $, then $ \|\tilde{g}_1 - \tilde{g}_2\|_p \leq 2\varepsilon^{1/p} $, which proves that $ \mathfrak{F} $ is a Cauchy filter base on $ L^p $ and completes the proof of Prop. 14.
 
-Corollary 1. — If $ \tilde{g} $ is the supremum of $ \mathrm{H} $ in $ L^p $, then
+#### Corollary 1 {#int-iv-s3-prop-14-cor-1 .statement}
+
+If $ \tilde{g} $ is the supremum of $ \mathrm{H} $ in $ L^p $, then
 
 $$
 \|\tilde{g}\|_p = \lim_{\tilde{f} \in \mathrm{H}} \|\tilde{f}\|_p = \sup_{\tilde{f} \in \mathrm{H}} \|\tilde{f}\|_p .
@@ -388,7 +392,9 @@ $$
 
 This follows from the continuity of the norm $ \|\tilde{f}\|_p $ in $ L^p $, and the monotone limit theorem.
 
-Corollary 2. — The Riesz space $ L^p $ is fully lattice-ordered.
+#### Corollary 2 {#int-iv-s3-prop-14-cor-2 .statement}
+
+The Riesz space $ L^p $ is fully lattice-ordered.
 
 Every directed set $ \mathrm{H} $ in $ L^p $ (for the relation $ \leq $), consisting of classes $ \geq 0 $ and bounded above in $ L^p $, has a supremum: for, if $ \tilde{h} $ is an upper bound for $ \mathrm{H} $ in $ L^p $, then $ \|\tilde{f}\|_p \leq \|\tilde{h}\|_p $ for all $ \tilde{f} \in \mathrm{H} $, and Prop. 14 is applicable. This proves the corollary (Ch. II, §1, No. 3, Prop. 1).
 
@@ -459,11 +465,13 @@ and since $ N_p(f_m - f_n) \geq 0 $ this implies $ \lim_{m \to \infty, n \to \in
 
 For, let $ (A_n) $ be a decreasing countable base of $ \mathfrak{F} $, and let $ \alpha_n $ be any element of $ A_n $; the sequence $ (f_{\alpha_n}) $ converges pointwise to $ f $ almost everywhere in $ X $, thus Th. 6 shows that $ f $ is $ p $-th power integrable and that $ \lim_{n \to \infty} N_p(f - f_{\alpha_n}) = 0 $. Since $ \mathfrak{F} $ is the intersection filter of the elementary filters associated with all such sequences $ (\alpha_n) $ (GT, I, §6, No. 8, Prop. 11), $ \lim_{\mathfrak{F}} N_p(f - f_\alpha) $ exists and is equal to the common limit 0 of all of the sequences $ (N_p(f - f_{\alpha_n})) $.
 
-#### Remark {#int-iv-s3-n7-rem-1 .statement}
+#### Remark 1 {#int-iv-s3-n7-rem-1 .statement}
 
-— 1) Th. 6 no longer holds if the hypothesis $ |f_n| \leq g $ (with $ N_p(g) < +\infty $) is replaced by the weaker hypothesis $ \sup_n N_p(f_n) < +\infty $. Suppose, for example, that $ \mu $ is Lebesgue measure on $ \mathbf{R} $; define continuous functions $ f_n $ in the following manner: $ f_n(x) = 0 $ for $ x \leq 0 $ and for $ x \geq \frac{2}{n} $, $ f_n(\frac{1}{n}) = n $, $ f_n $ being linear on the intervals $[0, \frac{1}{n}]$ and $[\frac{1}{n}, \frac{2}{n}]$. Then $ \lim_{n \to \infty} f_n(x) = 0 $ for all $ x \in \mathbf{R} $, but $ N_1(f_n) = 1 $ for every $ n $ (cf. §5, Exer. 12).
+Th. 6 no longer holds if the hypothesis $ |f_n| \leq g $ (with $ N_p(g) < +\infty $) is replaced by the weaker hypothesis $ \sup_n N_p(f_n) < +\infty $. Suppose, for example, that $ \mu $ is Lebesgue measure on $ \mathbf{R} $; define continuous functions $ f_n $ in the following manner: $ f_n(x) = 0 $ for $ x \leq 0 $ and for $ x \geq \frac{2}{n} $, $ f_n(\frac{1}{n}) = n $, $ f_n $ being linear on the intervals $[0, \frac{1}{n}]$ and $[\frac{1}{n}, \frac{2}{n}]$. Then $ \lim_{n \to \infty} f_n(x) = 0 $ for all $ x \in \mathbf{R} $, but $ N_1(f_n) = 1 $ for every $ n $ (cf. §5, Exer. 12).
 
-2) The Cor. of Th. 6 no longer holds if it is not assumed that the filter $ \mathfrak{F} $ has a countable base (cf. §1, No. 3, Remark 1 following the Cor. of Th. 3).
+#### Remark 2 {#int-iv-s3-n7-rem-2 .statement}
+
+The Cor. of Th. 6 no longer holds if it is not assumed that the filter $ \mathfrak{F} $ has a countable base (cf. §1, No. 3, Remark 1 following the Cor. of Th. 3).
 
 ### 8. Relations between the spaces $ \mathcal{L}_F^p $ ($ 1 \leq p < +\infty $)
 

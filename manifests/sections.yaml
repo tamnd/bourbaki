@@ -2751,7 +2751,7 @@ books:
               statements: 16
               exercises: 12
               extraction: ocr
-              content_sha256: 1c5b35994e63e08eefdec012225c55b7a20f08890336b7db13ea7edf2feca562
+              content_sha256: 216db598fff6d4868d7122c736569aaf3b7c4a927e5a10c30c85dbbf3a77c809
             - kind: section
               section: 2
               title: Linear forms on a Riesz space
@@ -2761,10 +2761,10 @@ books:
               last_pdf_page: 45
               book_pages: INT II.19-INT II.21
               subsections: 2
-              statements: 8
+              statements: 13
               exercises: 9
               extraction: ocr
-              content_sha256: 12327dae1c4f8d987fd53114bcf020e3b0669f8b97383f8b6fcc7dbb27dd726f
+              content_sha256: 8831bc7dc0859fbb31505bb4cb92354b9227b6c640afb47e1e394a601866bf39
         - chapter: III
           title: MEASURES ON LOCALLY COMPACT SPACES
           sections:
@@ -2789,7 +2789,7 @@ books:
               statements: 41
               exercises: 18
               extraction: ocr
-              content_sha256: 0229784816d486cd441ecfea4906a857943122072ad3e467a0b7c943c35ea25a
+              content_sha256: bc8211586145aed194cdd73907ade3cd2ac5456da88b9bc1aea67c999d7f993a
             - kind: section
               section: 2
               title: Support of a measure
@@ -2812,10 +2812,10 @@ books:
               last_pdf_page: 105
               book_pages: INT III.32-INT III.40, INT III.60
               subsections: 4
-              statements: 16
+              statements: 17
               exercises: 4
               extraction: ocr
-              content_sha256: 19ec3def3746b167ecb2eedaa43c825aad749c933e84bbb7cfc506fe29f914f0
+              content_sha256: 4f40e895eb87c716a82ab9c5481811d297f421986a4f483f60f10a6e52df302d
             - kind: section
               section: 4
               title: Products of measures
@@ -2876,10 +2876,10 @@ books:
               last_pdf_page: 227
               book_pages: INT IV.18-INT IV.32, INT IV.120
               subsections: 8
-              statements: 39
+              statements: 43
               exercises: 3
               extraction: ocr
-              content_sha256: b3154580dd1ffda13103447f0425a0b8173afcf24cb25ec4e4ed612a18bb7320
+              content_sha256: 6488be65703322c8b2f5b2695eb6585cd08f6712f2bee4071b3323cda984a1c3
             - kind: section
               section: 4
               title: Integrable functions and sets
@@ -2889,10 +2889,10 @@ books:
               last_pdf_page: 234
               book_pages: INT IV.32-INT IV.59, INT IV.120-INT IV.127
               subsections: 11
-              statements: 61
+              statements: 63
               exercises: 23
               extraction: ocr
-              content_sha256: ba80f76a8fa4a9b4cd73c771da2313d519aaa5fd1427d2151dbafa7b1242d58f
+              content_sha256: d9bf2bfdcda5ca6a66db17faa978e5ab9ec595ffc7644a6643a0e2ffb0353a31
             - kind: section
               section: 5
               title: Measurable functions and sets
@@ -2905,7 +2905,7 @@ books:
               statements: 77
               exercises: 30
               extraction: ocr
-              content_sha256: 8a82d568409cc3d22bf3ff82c57b10b059d56ba060a1475441e469478fe35be7
+              content_sha256: 3f175377897ccedfa96de56dfcfb6acce32206426b0261e76bfacb02aa00d38a
             - kind: section
               section: 6
               title: Convexity inequalities
@@ -2931,7 +2931,206 @@ books:
               statements: 31
               exercises: 10
               extraction: ocr
-              content_sha256: 89a466968fb0799b0b80ec0f0605c070574e76d09c172d70732cb6f4b5bbd3d0
+              content_sha256: 0570767550afc4ec72a1bd2d57ff21259b2713160100ad0deff3ffd79e594e1a
+        - chapter: V
+          title: INTEGRATION OF MEASURES
+          sections:
+            - kind: front
+              title: INTEGRATION OF MEASURES
+              path: content/en/int/V/00_frontmatter.md
+              first_pdf_page: 256
+              last_pdf_page: 256
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: dab583e8b05afc3608c8dff2f5f20031d5f2124bc8e647692f32cc06c9b49b6e
+            - kind: section
+              section: 1
+              title: Essential upper integral
+              path: content/en/int/V/01_s1_essential_upper_integral.md
+              label: int-v-s1
+              first_pdf_page: 257
+              last_pdf_page: 350
+              book_pages: INT V.2-INT V.11
+              subsections: 4
+              statements: 22
+              exercises: 6
+              extraction: ocr
+              content_sha256: fe83a25d75b0d8d9ec5eae5e566115ec99609b6857bb8388fbb9a3d97911d2ec
+            - kind: section
+              section: 2
+              title: Summable families of positive measures
+              path: content/en/int/V/02_s2_summable_families_of_positive_measures.md
+              label: int-v-s2
+              first_pdf_page: 266
+              last_pdf_page: 351
+              book_pages: INT V.95-INT V.96
+              subsections: 3
+              statements: 12
+              exercises: 4
+              extraction: ocr
+              content_sha256: e87156e0c6481ed2fc60f7a363cb4350cdeadda3d34b33638bb590ddd544c826
+            - kind: section
+              section: 3
+              title: Integration of positive measures
+              path: content/en/int/V/03_s3_integration_of_positive_measures.md
+              label: int-v-s3
+              first_pdf_page: 270
+              last_pdf_page: 353
+              book_pages: INT V.96-INT V.98
+              subsections: 6
+              statements: 30
+              exercises: 11
+              extraction: ocr
+              content_sha256: 5df5ceee4f3e12a558205316567b31117b43c3e350045788e46ec606a50f4590
+            - kind: section
+              section: 4
+              title: Integration of positive point measures
+              path: content/en/int/V/04_s4_integration_of_positive_point_measures.md
+              label: int-v-s4
+              first_pdf_page: 286
+              last_pdf_page: 354
+              book_pages: INT V.31-INT V.38, INT V.99
+              subsections: 4
+              statements: 10
+              exercises: 2
+              extraction: ocr
+              content_sha256: e86664f731840e0110a13006ce2f6fb0817e26cecd7125625370d103530bcef3
+            - kind: section
+              section: 5
+              title: Measures defined by numerical densities
+              path: content/en/int/V/05_s5_measures_defined_by_numerical_densities.md
+              label: int-v-s5
+              first_pdf_page: 293
+              last_pdf_page: 362
+              book_pages: INT V.38-INT V.62, INT V.99-INT V.107
+              subsections: 10
+              statements: 52
+              exercises: 31
+              extraction: ocr
+              content_sha256: d37b7809992147478a3f577b9c180488079be5abf8bcd1a8bc10a3364484a47d
+            - kind: section
+              section: 6
+              title: Images of a measure
+              path: content/en/int/V/06_s6_images_of_a_measure.md
+              label: int-v-s6
+              first_pdf_page: 317
+              last_pdf_page: 367
+              book_pages: INT V.62-INT V.74, INT V.107-INT V.112
+              subsections: 6
+              statements: 29
+              exercises: 22
+              extraction: ocr
+              content_sha256: 73962a5c4cf064782750832647a7c8af054354b0c2d06dc9e0217cee3b249fec
+            - kind: section
+              section: 7
+              title: Integration with respect to an induced measure
+              path: content/en/int/V/07_s7_integration_with_respect_to_an_induced.md
+              label: int-v-s7
+              first_pdf_page: 329
+              last_pdf_page: 369
+              book_pages: INT V.74-INT V.78, INT V.112-INT V.114
+              subsections: 2
+              statements: 20
+              exercises: 11
+              extraction: ocr
+              content_sha256: 98f14941408e3042e2f9f194ad4c96e0aad5e5ac7b23395f4f7fef7d0b523556
+            - kind: section
+              section: 8
+              title: Products of measures
+              path: content/en/int/V/08_s8_products_of_measures.md
+              label: int-v-s8
+              first_pdf_page: 334
+              last_pdf_page: 377
+              book_pages: INT V.114-INT V.122
+              subsections: 7
+              statements: 31
+              exercises: 21
+              extraction: ocr
+              content_sha256: 9627d50ba8dfc606cb14733bdf684a9632381d44cb8bda2243e45d64a4c94f7a
+            - kind: historical
+              title: Historical Note
+              path: content/en/int/V/historical_note.md
+              first_pdf_page: 378
+              last_pdf_page: 391
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: aa2dcbe33217996a6e440387f3a3ba6701b901b7ec47882949f81d538e6a9c3c
+        - chapter: VI
+          title: VECTORIAL INTEGRATION
+          sections:
+            - kind: front
+              title: VECTORIAL INTEGRATION
+              path: content/en/int/VI/00_frontmatter.md
+              first_pdf_page: 392
+              last_pdf_page: 392
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 95105d46ecec988bfc5e30b46de03ebb29d8b8c5d62ec16586f1452389d94e73
+            - kind: section
+              section: 1
+              title: Integration of vector-valued functions
+              path: content/en/int/VI/01_s1_integration_of_vector_valued_functions.md
+              label: int-vi-s1
+              first_pdf_page: 392
+              last_pdf_page: 453
+              subsections: 7
+              statements: 34
+              exercises: 27
+              extraction: ocr
+              content_sha256: 3169a4871ff2b9652142e80990a7847a21458047228d31226730ace69e5b9f2b
+            - kind: section
+              section: 2
+              title: Vectorial measures . "
+              path: content/en/int/VI/02_s2_vectorial_measures.md
+              label: int-vi-s2
+              first_pdf_page: 409
+              last_pdf_page: 460
+              book_pages: INT VI.18-INT VI.40, INT VI.62-INT VI.69
+              subsections: 10
+              statements: 42
+              exercises: 18
+              extraction: ocr
+              content_sha256: 29d5ddd246e5a2c29580255bd0955bb3cfd52a90b0039eb2b440041c7862d9c1
+            - kind: section
+              section: 3
+              title: Disintegration of measures
+              path: content/en/int/VI/03_s3_disintegration_of_measures.md
+              label: int-vi-s3
+              first_pdf_page: 431
+              last_pdf_page: 462
+              book_pages: INT VI.40-INT VI.51, INT VI.69-INT VI.71
+              subsections: 5
+              statements: 16
+              exercises: 12
+              extraction: ocr
+              content_sha256: 5bcb93332d1ce7949f763ec355525dc858b376291c8bd4e1cb803a4f0ae9fe0e
+            - kind: appendix
+              title: Complements on topological vector spaces
+              path: content/en/int/VI/A_a_complements_on_topological_vector_spaces.md
+              label: int-vi-a0
+              first_pdf_page: 443
+              last_pdf_page: 447
+              subsections: 2
+              statements: 6
+              exercises: 0
+              extraction: ocr
+              content_sha256: 6c29684424d0e54d3567600bfd0da184a2868123d0169b2729df44f5b5c07f28
+            - kind: historical
+              title: Historical Note
+              path: content/en/int/VI/historical_note.md
+              first_pdf_page: 463
+              last_pdf_page: 487
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 026e728d14dda36e570766dce82a127f081a4894e8f44581eab3b468f9064b74
     - id: top-i-iv
       chapters:
         - chapter: I

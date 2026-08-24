@@ -176,4 +176,3 @@ The rule names are the reader's own checks. `statement names` is a statement who
 | page | pdf | label | lines | rule |
 | --- | ---: | --- | ---: | --- |
 | `0055` | 55 |  | 37 | rule math names still on it |
-

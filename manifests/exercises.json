@@ -1838,6 +1838,117 @@
               "starred": 8
             }
           ]
+        },
+        {
+          "chapter": "V",
+          "title": "INTEGRATION OF MEASURES",
+          "total": 108,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-v-s1",
+              "dir": "s1",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "int-v-s2",
+              "dir": "s2",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 3,
+              "label": "int-v-s3",
+              "dir": "s3",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 1
+            },
+            {
+              "section": 4,
+              "label": "int-v-s4",
+              "dir": "s4",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            },
+            {
+              "section": 5,
+              "label": "int-v-s5",
+              "dir": "s5",
+              "count": 31,
+              "first": 1,
+              "last": 31,
+              "starred": 11
+            },
+            {
+              "section": 6,
+              "label": "int-v-s6",
+              "dir": "s6",
+              "count": 22,
+              "first": 1,
+              "last": 22,
+              "starred": 6
+            },
+            {
+              "section": 7,
+              "label": "int-v-s7",
+              "dir": "s7",
+              "count": 11,
+              "first": 1,
+              "last": 11
+            },
+            {
+              "section": 8,
+              "label": "int-v-s8",
+              "dir": "s8",
+              "count": 21,
+              "first": 1,
+              "last": 21,
+              "starred": 9
+            }
+          ]
+        },
+        {
+          "chapter": "VI",
+          "title": "VECTORIAL INTEGRATION",
+          "total": 57,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-vi-s1",
+              "dir": "s1",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 6,
+              "supplementary": 1
+            },
+            {
+              "section": 2,
+              "label": "int-vi-s2",
+              "dir": "s2",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 6
+            },
+            {
+              "section": 3,
+              "label": "int-vi-s3",
+              "dir": "s3",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 3
+            }
+          ]
         }
       ]
     },
