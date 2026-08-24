@@ -21,625 +21,625 @@ pdf_page	chapter	page	confidence
 18			none
 19			none
 20			none
-21		1	interpolated
-22		2	interpolated
-23		3	interpolated
-24		4	interpolated
-25		5	interpolated
-26		6	interpolated
-27		7	interpolated
-28		8	interpolated
-29		9	interpolated
-30		10	interpolated
-31		11	interpolated
-32		12	interpolated
-33		13	interpolated
-34		14	interpolated
-35		15	interpolated
-36		16	interpolated
-37		17	interpolated
-38		18	interpolated
-39		19	interpolated
-40		20	interpolated
-41		21	interpolated
-42		22	interpolated
-43		23	interpolated
-44		24	interpolated
-45		25	interpolated
-46		26	interpolated
-47		27	interpolated
-48		28	interpolated
-49		29	interpolated
-50		30	interpolated
-51		31	interpolated
-52		32	interpolated
-53		33	interpolated
-54		34	interpolated
-55		35	interpolated
-56		36	interpolated
-57		37	interpolated
-58		38	interpolated
-59		39	interpolated
-60		40	interpolated
-61		41	interpolated
-62		42	interpolated
-63		43	interpolated
-64		44	interpolated
-65		45	interpolated
-66		46	interpolated
-67		47	interpolated
-68		48	interpolated
-69		49	interpolated
-70		50	interpolated
-71		51	interpolated
-72		52	interpolated
-73		53	interpolated
-74		54	interpolated
-75		55	interpolated
-76		56	interpolated
-77		57	interpolated
-78		58	interpolated
-79		59	interpolated
-80		60	interpolated
-81		61	interpolated
-82		62	interpolated
-83		63	interpolated
-84		64	interpolated
-85		65	interpolated
-86		66	interpolated
-87		67	interpolated
-88		68	interpolated
-89		69	interpolated
-90		70	interpolated
-91		71	interpolated
-92		72	interpolated
-93		73	interpolated
-94		74	interpolated
-95		75	interpolated
-96		76	interpolated
-97		77	interpolated
-98		78	interpolated
-99		79	interpolated
-100		80	interpolated
-101		81	interpolated
-102		82	interpolated
-103		83	interpolated
-104		84	interpolated
-105		85	interpolated
-106		86	interpolated
-107		87	interpolated
-108		88	interpolated
-109		89	interpolated
-110		90	interpolated
-111		91	interpolated
-112		92	interpolated
-113		93	interpolated
-114		94	interpolated
-115		95	interpolated
-116		96	interpolated
-117		97	interpolated
-118		98	interpolated
-119		99	interpolated
-120		100	interpolated
-121		101	interpolated
-122		102	interpolated
-123		103	interpolated
-124		104	interpolated
-125		105	interpolated
-126		106	interpolated
-127		107	interpolated
-128		108	interpolated
-129		109	interpolated
-130		110	interpolated
-131		111	interpolated
-132		112	interpolated
-133		113	interpolated
-134		114	interpolated
-135		115	interpolated
-136		116	interpolated
-137		117	interpolated
-138		118	interpolated
-139		119	interpolated
-140		120	interpolated
-141		121	interpolated
-142		122	interpolated
-143		123	interpolated
-144		124	interpolated
-145		125	interpolated
-146		126	interpolated
-147		127	interpolated
-148		128	interpolated
-149		129	interpolated
-150		130	interpolated
-151		131	interpolated
-152		132	foot
-153		133	interpolated
-154		134	interpolated
-155		135	interpolated
-156		136	interpolated
-157		137	interpolated
-158		138	interpolated
-159		139	interpolated
-160		140	interpolated
-161		141	interpolated
-162		142	interpolated
-163		143	interpolated
-164		144	interpolated
-165		145	interpolated
-166		146	interpolated
-167		147	interpolated
-168		148	interpolated
-169		149	interpolated
-170		150	interpolated
-171		151	interpolated
-172		152	interpolated
-173		153	interpolated
-174		154	interpolated
-175		155	interpolated
-176		156	interpolated
-177		157	interpolated
-178		158	interpolated
-179		159	interpolated
-180		160	interpolated
-181		161	interpolated
-182		162	interpolated
-183		163	interpolated
-184		164	interpolated
-185		165	interpolated
-186		166	interpolated
-187		167	interpolated
-188		168	interpolated
-189		169	interpolated
-190		170	interpolated
-191		171	interpolated
-192		172	interpolated
-193		173	interpolated
-194		174	interpolated
-195		175	interpolated
-196		176	interpolated
-197		177	interpolated
-198		178	interpolated
-199		179	interpolated
-200		180	interpolated
-201		181	interpolated
-202		182	interpolated
-203		183	interpolated
-204		184	interpolated
-205		185	interpolated
-206		186	interpolated
-207		187	interpolated
-208		188	interpolated
-209		189	interpolated
-210		190	interpolated
-211		191	interpolated
-212		192	interpolated
-213		193	interpolated
-214		194	interpolated
-215		195	interpolated
-216		196	interpolated
-217		197	interpolated
-218		198	interpolated
-219		199	interpolated
-220		200	interpolated
-221		201	interpolated
-222		202	interpolated
-223		203	interpolated
-224		204	interpolated
-225		205	interpolated
-226		206	interpolated
-227		207	interpolated
-228		208	interpolated
-229		209	interpolated
-230		210	interpolated
-231		211	interpolated
-232		212	interpolated
-233		213	interpolated
-234		214	interpolated
-235		215	interpolated
-236		216	interpolated
-237		217	interpolated
-238		218	interpolated
-239		219	interpolated
-240		220	interpolated
-241		221	interpolated
-242		222	interpolated
-243		223	interpolated
-244		224	interpolated
-245		225	interpolated
-246		226	interpolated
-247		227	interpolated
-248		228	interpolated
-249		229	interpolated
-250		230	interpolated
-251		231	interpolated
-252		232	interpolated
-253		233	interpolated
-254		234	interpolated
-255		235	interpolated
-256		236	interpolated
-257		237	interpolated
-258		238	interpolated
-259		239	interpolated
-260		240	interpolated
-261		241	interpolated
-262		242	interpolated
-263		243	interpolated
-264		244	interpolated
-265		245	interpolated
-266		246	interpolated
-267		247	interpolated
-268		248	interpolated
-269		249	interpolated
-270		250	interpolated
-271		251	interpolated
-272		252	interpolated
-273		253	interpolated
-274		254	interpolated
-275		255	interpolated
-276		256	interpolated
-277		257	interpolated
-278		258	interpolated
-279		259	interpolated
-280		260	interpolated
-281		261	interpolated
-282		262	interpolated
-283		263	interpolated
-284		264	interpolated
-285		265	interpolated
-286		266	interpolated
-287		267	interpolated
-288		268	interpolated
-289		269	interpolated
-290		270	interpolated
-291		271	interpolated
-292		272	interpolated
-293		273	interpolated
-294		274	interpolated
-295		275	interpolated
-296		276	interpolated
-297		277	interpolated
-298		278	interpolated
-299		279	interpolated
-300		280	interpolated
-301		281	interpolated
-302		282	interpolated
-303		283	interpolated
-304		284	interpolated
-305		285	interpolated
-306		286	interpolated
-307		287	interpolated
-308		288	interpolated
-309		289	interpolated
-310		290	interpolated
-311		291	interpolated
-312		292	interpolated
-313		293	interpolated
-314		294	interpolated
-315		295	interpolated
-316		296	interpolated
-317		297	interpolated
-318		298	interpolated
-319		299	interpolated
-320		300	interpolated
-321		301	interpolated
-322		302	interpolated
-323		303	interpolated
-324		304	interpolated
-325		305	interpolated
-326		306	interpolated
-327		307	interpolated
-328		308	interpolated
-329		309	interpolated
-330		310	interpolated
-331		311	interpolated
-332		312	interpolated
-333		313	interpolated
-334		314	interpolated
-335		315	interpolated
-336		316	interpolated
-337		317	interpolated
-338		318	interpolated
-339		319	interpolated
-340		320	interpolated
-341		321	interpolated
-342		322	interpolated
-343		323	interpolated
-344		324	interpolated
-345		325	interpolated
-346		326	interpolated
-347		327	interpolated
-348		328	interpolated
-349		329	interpolated
-350		330	interpolated
-351		331	interpolated
-352		332	interpolated
-353		333	interpolated
-354		334	interpolated
-355		335	interpolated
-356		336	interpolated
-357		337	interpolated
-358		338	interpolated
-359		339	interpolated
-360		340	interpolated
-361		341	interpolated
-362		342	interpolated
-363		343	interpolated
-364		344	interpolated
-365		345	interpolated
-366		346	interpolated
-367		347	interpolated
-368		348	interpolated
-369		349	interpolated
-370		350	interpolated
-371		351	interpolated
-372		352	interpolated
-373		353	interpolated
-374		354	interpolated
-375		355	interpolated
-376		356	interpolated
-377		357	interpolated
-378		358	interpolated
-379		359	interpolated
-380		360	interpolated
-381		361	interpolated
-382		362	interpolated
-383		363	interpolated
-384		364	interpolated
-385		365	interpolated
-386		366	interpolated
-387		367	interpolated
-388		368	interpolated
-389		369	interpolated
-390		370	interpolated
-391		371	interpolated
-392		372	interpolated
-393		373	interpolated
-394		374	interpolated
-395		375	interpolated
-396		376	interpolated
-397		377	interpolated
-398		378	interpolated
-399		379	interpolated
-400		380	interpolated
-401		381	interpolated
-402		382	interpolated
-403		383	interpolated
-404		384	interpolated
-405		385	interpolated
-406		386	interpolated
-407		387	interpolated
-408		388	interpolated
-409		389	interpolated
-410		390	interpolated
-411		391	interpolated
-412		392	interpolated
-413		393	interpolated
-414		394	interpolated
-415		395	interpolated
-416		396	interpolated
-417		397	interpolated
-418		398	interpolated
-419		399	interpolated
-420		400	interpolated
-421		401	interpolated
-422		402	interpolated
-423		403	interpolated
-424		404	interpolated
-425		405	interpolated
-426		406	interpolated
-427		407	interpolated
-428		408	interpolated
-429		409	interpolated
-430		410	interpolated
-431		411	interpolated
-432		412	interpolated
-433		413	interpolated
-434		414	interpolated
-435		415	interpolated
-436		416	interpolated
-437		417	interpolated
-438		418	interpolated
-439		419	interpolated
-440		420	interpolated
-441		421	interpolated
-442		422	interpolated
-443		423	interpolated
-444		424	interpolated
-445		425	interpolated
-446		426	interpolated
-447		427	interpolated
-448		428	interpolated
-449		429	interpolated
-450		430	interpolated
-451		431	interpolated
-452		432	interpolated
-453		433	interpolated
-454		434	interpolated
-455		435	interpolated
-456		436	interpolated
-457		437	interpolated
-458		438	interpolated
-459		439	interpolated
-460		440	interpolated
-461		441	interpolated
-462		442	interpolated
-463		443	interpolated
-464		444	interpolated
-465		445	interpolated
-466		446	interpolated
-467		447	interpolated
-468		448	interpolated
-469		449	interpolated
-470		450	interpolated
-471		451	interpolated
-472		452	interpolated
-473		453	interpolated
-474		454	interpolated
-475		455	interpolated
-476		456	interpolated
-477		457	interpolated
-478		458	interpolated
-479		459	interpolated
-480		460	interpolated
-481		461	interpolated
-482		462	interpolated
-483		463	interpolated
-484		464	interpolated
-485		465	interpolated
-486		466	interpolated
-487		467	interpolated
-488		468	interpolated
-489		469	interpolated
-490		470	interpolated
-491		471	interpolated
-492		472	interpolated
-493		473	interpolated
-494		474	interpolated
-495		475	interpolated
-496		476	interpolated
-497		477	interpolated
-498		478	interpolated
-499		479	interpolated
-500		480	interpolated
-501		481	interpolated
-502		482	interpolated
-503		483	interpolated
-504		484	interpolated
-505		485	interpolated
-506		486	interpolated
-507		487	interpolated
-508		488	interpolated
-509		489	interpolated
-510		490	interpolated
-511		491	interpolated
-512		492	interpolated
-513		493	interpolated
-514		494	interpolated
-515		495	interpolated
-516		496	interpolated
-517		497	interpolated
-518		498	interpolated
-519		499	interpolated
-520		500	interpolated
-521		501	interpolated
-522		502	interpolated
-523		503	interpolated
-524		504	interpolated
-525		505	interpolated
-526		506	interpolated
-527		507	interpolated
-528		508	interpolated
-529		509	interpolated
-530		510	interpolated
-531		511	interpolated
-532		512	interpolated
-533		513	interpolated
-534		514	interpolated
-535		515	interpolated
-536		516	interpolated
-537		517	interpolated
-538		518	interpolated
-539		519	interpolated
-540		520	interpolated
-541		521	interpolated
-542		522	interpolated
-543		523	interpolated
-544		524	interpolated
-545		525	interpolated
-546		526	interpolated
-547		527	interpolated
-548		528	interpolated
-549		529	interpolated
-550		530	interpolated
-551		531	interpolated
-552		532	interpolated
-553		533	interpolated
-554		534	interpolated
-555		535	interpolated
-556		536	interpolated
-557		537	interpolated
-558		538	interpolated
-559		539	interpolated
-560		540	interpolated
-561		541	interpolated
-562		542	interpolated
-563		543	interpolated
-564		544	interpolated
-565		545	interpolated
-566		546	interpolated
-567		547	interpolated
-568		548	interpolated
-569		549	interpolated
-570		550	interpolated
-571		551	interpolated
-572		552	interpolated
-573		553	interpolated
-574		554	interpolated
-575		555	interpolated
-576		556	interpolated
-577		557	interpolated
-578		558	interpolated
-579		559	interpolated
-580		560	interpolated
-581		561	interpolated
-582		562	interpolated
-583		563	interpolated
-584		564	interpolated
-585		565	interpolated
-586		566	interpolated
-587		567	interpolated
-588		568	interpolated
-589		569	interpolated
-590		570	interpolated
-591		571	interpolated
-592		572	interpolated
-593		573	interpolated
-594		574	interpolated
-595		575	interpolated
-596		576	interpolated
-597		577	interpolated
-598		578	interpolated
-599		579	interpolated
-600		580	interpolated
-601		581	interpolated
-602		582	interpolated
-603		583	interpolated
-604		584	interpolated
-605		585	interpolated
-606		586	interpolated
-607		587	interpolated
-608		588	interpolated
-609		589	interpolated
-610		590	interpolated
-611		591	interpolated
-612		592	interpolated
-613		593	interpolated
-614		594	interpolated
-615		595	interpolated
-616		596	interpolated
-617		597	interpolated
-618		598	interpolated
-619		599	interpolated
-620		600	interpolated
-621		601	interpolated
-622		602	interpolated
-623		603	interpolated
-624		604	interpolated
-625		605	interpolated
-626		606	interpolated
-627		607	interpolated
-628		608	interpolated
-629		609	interpolated
-630		610	interpolated
-631		611	interpolated
-632		612	interpolated
-633		613	interpolated
-634		614	interpolated
-635		615	interpolated
-636		616	interpolated
-637		617	interpolated
-638		618	interpolated
-639		619	interpolated
-640		620	interpolated
-641		621	interpolated
-642		622	interpolated
+21	I	1	interpolated
+22	I	2	interpolated
+23	I	3	interpolated
+24	I	4	interpolated
+25	I	5	folio
+26	I	6	folio
+27	I	7	folio
+28	I	8	folio
+29	I	9	interpolated
+30	I	10	folio
+31	I	11	folio
+32	I	12	folio
+33	I	13	folio
+34	I	14	folio
+35	I	15	folio
+36	I	16	folio
+37	I	17	folio
+38	I	18	folio
+39	I	19	folio
+40	I	20	folio
+41	I	21	folio
+42	I	22	folio
+43	I	23	folio
+44	I	24	folio
+45	I	25	folio
+46	I	26	folio
+47	I	27	folio
+48	I	28	folio
+49	I	29	folio
+50	I	30	folio
+51	I	31	folio
+52	I	32	folio
+53	I	33	folio
+54	I	34	folio
+55	I	35	folio
+56	I	36	folio
+57	I	37	folio
+58	I	38	folio
+59	I	39	folio
+60	I	40	folio
+61	I	41	folio
+62	I	42	folio
+63	I	43	folio
+64	I	44	folio
+65	I	45	folio
+66	I	46	folio
+67	I	47	folio
+68	I	48	folio
+69	I	49	folio
+70	I	50	folio
+71	II	51	folio
+72	II	52	folio
+73	II	53	folio
+74	II	54	folio
+75	II	55	folio
+76	II	56	folio
+77	II	57	folio
+78	II	58	folio
+79	II	59	folio
+80	II	60	folio
+81	II	61	folio
+82	II	62	folio
+83	II	63	folio
+84	II	64	folio
+85	II	65	folio
+86	II	66	folio
+87	II	67	folio
+88	II	68	folio
+89	II	69	folio
+90	II	70	folio
+91	II	71	folio
+92	II	72	folio
+93	II	73	folio
+94	II	74	folio
+95	II	75	folio
+96	II	76	folio
+97	II	77	folio
+98	II	78	folio
+99	II	79	folio
+100	II	80	folio
+101	II	81	folio
+102	II	82	interpolated
+103	II	83	folio
+104	II	84	folio
+105	II	85	folio
+106	II	86	folio
+107	II	87	folio
+108	II	88	folio
+109	II	89	folio
+110	II	90	folio
+111	II	91	folio
+112	II	92	folio
+113	II	93	folio
+114	II	94	folio
+115	II	95	folio
+116	II	96	folio
+117	II	97	folio
+118	II	98	folio
+119	II	99	interpolated
+120	II	100	folio
+121	II	101	folio
+122	II	102	folio
+123	II	103	folio
+124	II	104	folio
+125	II	105	folio
+126	II	106	folio
+127	II	107	folio
+128	II	108	folio
+129	II	109	folio
+130	II	110	folio
+131	II	111	folio
+132	II	112	folio
+133	II	113	folio
+134	II	114	folio
+135	II	115	folio
+136	II	116	folio
+137	II	117	folio
+138	II	118	folio
+139	II	119	folio
+140	II	120	folio
+141	II	121	folio
+142	II	122	folio
+143	II	123	folio
+144	II	124	folio
+145	II	125	folio
+146	II	126	folio
+147	II	127	folio
+148	II	128	folio
+149	II	129	folio
+150	II	130	folio
+151	II	131	folio
+152	II	132	folio
+153	II	133	folio
+154	II	134	folio
+155	II	135	folio
+156	II	136	folio
+157	II	137	folio
+158	II	138	folio
+159	II	139	folio
+160	II	140	folio
+161	II	141	folio
+162	II	142	folio
+163	II	143	folio
+164	II	144	folio
+165	II	145	folio
+166	II	146	folio
+167	II	147	folio
+168	II	148	folio
+169	II	149	folio
+170	II	150	folio
+171	II	151	folio
+172	II	152	folio
+173	II	153	folio
+174	II	154	interpolated
+175	III	155	folio
+176	III	156	folio
+177	III	157	folio
+178	III	158	folio
+179	III	159	folio
+180	III	160	folio
+181	III	161	interpolated
+182	III	162	folio
+183	III	163	folio
+184	III	164	folio
+185	III	165	folio
+186	III	166	folio
+187	III	167	folio
+188	III	168	folio
+189	III	169	folio
+190	III	170	folio
+191	III	171	folio
+192	III	172	folio
+193	III	173	folio
+194	III	174	folio
+195	III	175	folio
+196	III	176	folio
+197	III	177	folio
+198	III	178	folio
+199	III	179	folio
+200	III	180	folio
+201	III	181	folio
+202	III	182	folio
+203	III	183	folio
+204	III	184	folio
+205	III	185	folio
+206	III	186	folio
+207	III	187	folio
+208	III	188	folio
+209	III	189	folio
+210	III	190	folio
+211	III	191	folio
+212	III	192	folio
+213	III	193	folio
+214	III	194	folio
+215	III	195	folio
+216	III	196	folio
+217	III	197	folio
+218	III	198	folio
+219	III	199	folio
+220	III	200	folio
+221	III	201	folio
+222	III	202	folio
+223	III	203	folio
+224	III	204	folio
+225	III	205	folio
+226	III	206	folio
+227	III	207	folio
+228	III	208	folio
+229	III	209	folio
+230	III	210	folio
+231	III	211	folio
+232	III	212	folio
+233	III	213	folio
+234	III	214	folio
+235	III	215	folio
+236	III	216	folio
+237	III	217	folio
+238	III	218	folio
+239	III	219	folio
+240	III	220	folio
+241	III	221	folio
+242	III	222	folio
+243	III	223	folio
+244	III	224	folio
+245	III	225	folio
+246	III	226	folio
+247	III	227	folio
+248	III	228	folio
+249	III	229	folio
+250	III	230	folio
+251	III	231	folio
+252	III	232	folio
+253	III	233	folio
+254	III	234	folio
+255	III	235	folio
+256	III	236	folio
+257	III	237	folio
+258	III	238	folio
+259	III	239	folio
+260	III	240	folio
+261	III	241	folio
+262	III	242	folio
+263	III	243	folio
+264	III	244	folio
+265	III	245	folio
+266	III	246	folio
+267	III	247	folio
+268	III	248	interpolated
+269	III	249	folio
+270	III	250	folio
+271	III	251	folio
+272	III	252	folio
+273	III	253	folio
+274	III	254	folio
+275	III	255	folio
+276	III	256	folio
+277	III	257	folio
+278	III	258	folio
+279	III	259	folio
+280	III	260	folio
+281	IV	261	folio
+282	IV	262	folio
+283	IV	263	folio
+284	IV	264	folio
+285	IV	265	folio
+286	IV	266	folio
+287	IV	267	folio
+288	IV	268	folio
+289	IV	269	folio
+290	IV	270	folio
+291	IV	271	folio
+292	IV	272	folio
+293	IV	273	folio
+294	IV	274	folio
+295	IV	275	folio
+296	IV	276	folio
+297	IV	277	folio
+298	IV	278	folio
+299	IV	279	folio
+300	IV	280	folio
+301	IV	281	folio
+302	IV	282	folio
+303	IV	283	folio
+304	IV	284	folio
+305	IV	285	folio
+306	IV	286	folio
+307	IV	287	folio
+308	IV	288	folio
+309	IV	289	folio
+310	IV	290	folio
+311	IV	291	folio
+312	IV	292	folio
+313	IV	293	folio
+314	IV	294	folio
+315	IV	295	folio
+316	IV	296	folio
+317	IV	297	folio
+318	IV	298	folio
+319	IV	299	folio
+320	IV	300	folio
+321	IV	301	folio
+322	V	303	folio
+323	V	304	folio
+324	V	305	folio
+325	V	306	folio
+326	V	307	folio
+327	V	308	folio
+328	V	309	folio
+329	V	310	folio
+330	V	311	folio
+331	V	312	folio
+332	V	313	folio
+333	V	314	folio
+334	V	315	folio
+335	V	316	folio
+336	V	317	folio
+337	V	318	folio
+338	V	319	folio
+339	V	320	folio
+340	V	321	folio
+341	V	322	folio
+342	V	323	folio
+343	V	324	folio
+344	V	325	folio
+345	V	326	folio
+346	V	327	folio
+347	V	328	folio
+348	V	329	folio
+349	V	330	folio
+350	V	331	folio
+351	V	332	folio
+352	V	333	folio
+353	V	334	folio
+354	V	335	folio
+355	V	336	folio
+356	V	337	folio
+357	V	338	folio
+358	V	339	folio
+359	V	340	folio
+360	V	341	folio
+361	V	342	folio
+362	V	343	folio
+363	V	344	folio
+364	V	345	interpolated
+365	V	346	folio
+366	V	347	folio
+367	V	348	folio
+368	V	349	folio
+369	V	350	folio
+370	V	351	folio
+371	V	352	folio
+372	V	353	folio
+373	V	354	folio
+374	V	355	folio
+375	V	356	folio
+376	V	357	folio
+377	V	358	folio
+378	V	359	folio
+379	V	360	folio
+380	V	361	folio
+381	V	362	folio
+382	V	363	folio
+383	V	364	folio
+384	V	365	folio
+385	V	366	folio
+386	V	367	folio
+387	V	368	folio
+388	V	369	folio
+389	V	370	folio
+390	V	371	folio
+391	V	372	folio
+392	V	373	folio
+393	VI	375	folio
+394	VI	376	interpolated
+395	VI	377	folio
+396	VI	378	folio
+397	VI	379	folio
+398	VI	380	folio
+399	VI	381	folio
+400	VI	382	folio
+401	VI	383	folio
+402	VI	384	folio
+403	VI	385	folio
+404	VI	386	folio
+405	VI	387	folio
+406	VI	388	folio
+407	VI	389	folio
+408	VI	390	folio
+409	VI	391	folio
+410	VI	392	folio
+411	VI	393	folio
+412	VI	394	folio
+413	VI	395	folio
+414	VI	396	folio
+415	VI	397	folio
+416	VI	398	folio
+417	VI	399	folio
+418	VI	400	folio
+419	VI	401	folio
+420	VI	402	folio
+421	VI	403	folio
+422	VI	404	folio
+423	VI	405	folio
+424	VI	406	folio
+425	VI	407	folio
+426	VI	408	folio
+427	VI	409	folio
+428	VI	410	folio
+429	VI	411	folio
+430	VI	412	folio
+431	VI	413	folio
+432	VI	414	folio
+433	VI	415	folio
+434	VI	416	folio
+435	VI	417	folio
+436	VI	418	folio
+437	VI	419	folio
+438	VI	420	folio
+439	VI	421	folio
+440	VI	422	folio
+441	VI	423	folio
+442	VI	424	folio
+443	VI	425	folio
+444	VI	426	folio
+445	VI	427	folio
+446	VI	428	folio
+447	VI	429	folio
+448	VI	430	folio
+449	VI	431	folio
+450	VI	432	folio
+451	VI	433	folio
+452	VI	434	folio
+453	VI	435	folio
+454	VI	436	folio
+455	VI	437	folio
+456	VI	438	folio
+457	VI	439	folio
+458	VI	440	folio
+459	VI	441	folio
+460	VI	442	folio
+461	VI	443	interpolated
+462	VI	444	interpolated
+463	VI	445	folio
+464	VI	446	folio
+465	VI	447	folio
+466	VI	448	folio
+467	VI	449	folio
+468	VI	450	folio
+469	VI	451	folio
+470	VI	452	folio
+471	VI	453	folio
+472	VI	454	folio
+473	VI	455	folio
+474	VI	456	folio
+475	VI	457	folio
+476	VI	458	folio
+477	VI	459	folio
+478	VI	460	folio
+479	VI	461	folio
+480	VI	462	folio
+481	VI	463	folio
+482	VI	464	folio
+483	VI	465	folio
+484	VI	466	folio
+485	VI	467	folio
+486	VI	468	folio
+487	VI	469	folio
+488	VI	470	folio
+489	VI	471	folio
+490	VI	472	folio
+491	VI	473	folio
+492	VI	474	interpolated
+493	VII	475	folio
+494	VII	476	folio
+495	VII	477	folio
+496	VII	478	folio
+497	VII	479	folio
+498	VII	480	folio
+499	VII	481	folio
+500	VII	482	folio
+501	VII	483	folio
+502	VII	484	folio
+503	VII	485	folio
+504	VII	486	folio
+505	VII	487	folio
+506	VII	488	folio
+507	VII	489	folio
+508	VII	490	folio
+509	VII	491	folio
+510	VII	492	folio
+511	VII	493	folio
+512	VII	494	folio
+513	VII	495	folio
+514	VII	496	folio
+515	VII	497	folio
+516	VII	498	folio
+517	VII	499	folio
+518	VII	500	folio
+519	VII	501	folio
+520	VII	502	folio
+521	VII	503	folio
+522	VII	504	folio
+523	VII	505	folio
+524	VII	506	folio
+525	VII	507	folio
+526	VII	508	folio
+527	VII	509	folio
+528	VII	510	folio
+529	VII	511	folio
+530	VII	512	folio
+531	VII	513	folio
+532	VII	514	folio
+533	VII	515	folio
+534	VII	516	folio
+535	VII	517	folio
+536	VII	518	folio
+537	VII	519	folio
+538	VII	520	folio
+539	VII	521	folio
+540	VII	522	folio
+541	VII	523	folio
+542	VII	524	folio
+543	VII	525	folio
+544	VII	526	folio
+545	VII	527	folio
+546	VII	528	folio
+547	VII	529	folio
+548	VII	530	folio
+549	VII	531	folio
+550	VII	532	folio
+551	VII	533	folio
+552	VII	534	folio
+553	VII	535	folio
+554	VII	536	folio
+555	VII	537	folio
+556	VII	538	folio
+557	VII	539	folio
+558	VII	540	folio
+559	VII	541	folio
+560	VII	542	folio
+561	VII	543	folio
+562	VII	544	folio
+563	VII	545	interpolated
+564	VII	546	folio
+565	VII	547	folio
+566	VII	548	folio
+567	VII	549	folio
+568	VII	550	folio
+569	VII	551	folio
+570	VII	552	folio
+571	VII	553	folio
+572	VII	554	folio
+573	VII	555	interpolated
+574	VII	556	folio
+575	VII	557	folio
+576	VII	558	folio
+577	VII	559	folio
+578	VII	560	folio
+579	VII	561	folio
+580	VII	562	folio
+581	VII	563	folio
+582	VII	564	folio
+583	VII	565	folio
+584	VII	566	folio
+585	VII	567	folio
+586	VII	568	folio
+587	VII	569	folio
+588	VII	570	folio
+589	VII	571	folio
+590	VII	572	folio
+591	VII	573	folio
+592	VII	574	folio
+593	VII	575	folio
+594	VII	576	folio
+595	VII	577	folio
+596	VII	578	folio
+597	VII	579	interpolated
+598	VII	580	folio
+599	VII	581	folio
+600	VII	582	folio
+601	VII	583	folio
+602	VII	584	folio
+603	VII	585	folio
+604	VII	586	folio
+605	VII	587	folio
+606	VII	588	folio
+607	VII	589	folio
+608	VII	590	folio
+609	VII	591	folio
+610	VII	592	folio
+611	VII	593	folio
+612	VII	594	folio
+613	VII	595	folio
+614	VII	596	folio
+615	VII	597	folio
+616	VII	598	folio
+617	VII	599	folio
+618	VII	600	folio
+619	VII	601	folio
+620	VII	602	folio
+621	VII	603	folio
+622	VII	604	folio
+623	VII	605	folio
+624	VII	606	interpolated
+625	VII	607	folio
+626	VII	608	folio
+627	VII	609	folio
+628	VII	610	folio
+629	VII	611	folio
+630	VII	612	folio
+631	VII	613	folio
+632	VII	614	folio
+633	VII	615	folio
+634	VII	616	folio
+635	VII	617	folio
+636	VII	618	folio
+637	VII	619	folio
+638	VII	621	folio
+639	VII	622	folio
+640	VII	623	folio
+641	VII	624	folio
+642	VII	625	folio

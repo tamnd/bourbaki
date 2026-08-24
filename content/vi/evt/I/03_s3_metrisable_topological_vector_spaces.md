@@ -25,10 +25,10 @@ subsections:
       pdf_page: 25
 statements: 11
 exercises: 9
-content_sha256: a538d8b803777a824e62a0a53ef3608cd4a9a238a5edf10ebc16c3510eabecfb
+content_sha256: 9c88732d9a39f151af3933a8377bb36ccfb45bcbfb04d6d143c296448e07cf0f
 translated_from: content/en/evt/I/03_s3_metrisable_topological_vector_spaces.md
-source_content_sha256: 3f9d6ffe144af4f7f06621a65e3c7b30c95b9f58e434288523f844d78845614d
-translation_model: gpt-5.4
+source_content_sha256: 184c133d6175f986f7939f6da88ce54db00e8a895f550755698af591ddbd4947
+translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-7fcbc987
 glossary_version: 34
 glossary_terms_sha256: b9d89d12dc667051b8a3549959d021e4af53db9e49e21adb0aa9848cc4d8a17b
@@ -49,33 +49,33 @@ Ta đã thấy (GT, IX.§ 3.1, prop. 2) cách một khoảng cách như vậy d 
 
 #### Nhận xét {#evt-i-s3-n1-rem-1 .statement}
 
-— Một trong những lớp quan trọng nhất của các không gian vectơ khả mêtric là các không gian chuẩn (I, p. 3). Nhưng cần lưu ý rằng tồn tại những không gian vectơ khả mêtric mà tôpô của chúng không thể được xác định bởi một chuẩn (I, § 3, exerc. 1); chúng ta sẽ nghiên cứu các ví dụ quan trọng về điều này sau.
+Một trong những lớp quan trọng nhất của các không gian vectơ mêtric hoá được là các không gian định chuẩn (I, p. 3). Nhưng cần lưu ý rằng tồn tại các không gian vectơ mêtric hoá được mà tôpô của chúng không thể được xác định bởi một chuẩn (I, § 3, exerc. 1); về sau chúng ta sẽ nghiên cứu các ví dụ quan trọng.
 
-### 2. Các tính chất của các không gian vectơ khả mêtric
+### 2. Các tính chất của các không gian vectơ mêtric hoá được
 
-Mọi không gian con vectơ của một không gian vectơ tôpô khả mêtric E đều là khả mêtric; điều tương tự cũng đúng với mọi không gian thương E/M của E theo một không gian con vectơ đóng M (GT, IX, § 3.1, prop. 4). Mọi tích của một họ đếm được các không gian vectơ tôpô khả mêtric đều là khả mêtric (GT, IX, § 2.4, cor. 2). Nếu K_0 là một vành chia được định giá đầy đủ, và K là một vành chia con trù mật khắp nơi trong K_0, thì hoàn thành $ \hat{E} $ của một không gian vectơ khả mêtric E trên K là một không gian vectơ khả mêtric trên K_0 (I, p. 6 and GT, IX, § 2, No. 1, prop. 1). Sau cùng, nếu E là một không gian vectơ khả mêtric đầy đủ, thì đối với mọi không gian con vectơ đóng M của E, không gian thương E/M là đầy đủ (GT, IX, § 3.1, prop. 4).
+Mọi không gian con vectơ của một không gian vectơ tôpô mêtric hoá được E đều mêtric hoá được; điều tương tự đúng cho mọi không gian thương E/M của E bởi một không gian con vectơ đóng M (GT, IX, § 3.1, prop. 4). Mọi tích của một họ đếm được các không gian vectơ tôpô mêtric hoá được đều mêtric hoá được (GT, IX, § 2.4, cor. 2). Nếu K_0 là một vành chia định giá đầy đủ, và K là một vành con chia trù mật khắp nơi trong K_0, phép đầy đủ $ \hat{E} $ của một không gian vectơ mêtric hoá được E trên K là một không gian vectơ mêtric hoá được trên K_0 (I, p. 6 và GT, IX, § 2, No. 1, prop. 1). Cuối cùng, nếu E là một không gian vectơ mêtric hoá được đầy đủ, thì với mọi không gian con vectơ đóng M của E, không gian thương E/M là đầy đủ (GT, IX, § 3.1, prop. 4).
 
-### 3. Các ánh xạ tuyến tính liên tục trong một không gian vectơ khả mêtric
+### 3. Các hàm tuyến tính liên tục trong một không gian vectơ mêtric hoá được
 
 #### Định lý 1 (Banach) {#evt-i-s3-thm-1 .statement}
 
-Cho E và F là hai không gian vectơ khả mêtric trên một vành chia được định giá không rời rạc K, và cho u là một ánh xạ tuyến tính liên tục từ E vào F. Giả sử rằng E là đầy đủ. Khi đó các điều kiện sau là tương đương:
+Cho E và F là hai không gian vectơ mêtric hoá được trên một vành chia định giá không rời rạc K, và cho u là một ánh xạ tuyến tính liên tục của E vào F. Giả sử rằng E là đầy đủ. Khi đó các điều kiện sau là tương đương:
 (i) u là một cấu xạ toàn ánh ngặt.
 (ii) F là đầy đủ và u là toàn ánh.
-(iii) ảnh của u không phải là gầy trong F (GT, IX, § 5.2).
+(iii) Ảnh của u không là tập hợp hạng bé trong F (GT, IX, § 5.2).
 (iv) Với mọi lân cận V của 0 trong E, tập hợp $ \overline{u(V)} $ là một lân cận của 0 trong F.
 
-Trước hết (i) suy ra (ii), vì giả sử u là một cấu xạ toàn ánh ngặt và N là hạt nhân của u. Khi đó u cảm sinh một đẳng cấu từ E/N lên F. Nhưng E là khả mêtric và đầy đủ, do đó E/N là đầy đủ (GT, IX, § 3.1, prop. 4), vì thế F là đầy đủ.
+Trước hết (i) kéo theo (ii), vì cho u là một cấu xạ toàn ánh ngặt và N là hạt nhân của u. Khi đó u cảm sinh một đẳng cấu từ E/N lên F. Nhưng E mêtric hoá được và đầy đủ, do đó E/N là đầy đủ (GT, IX, § 3.1, prop. 4), vậy F là đầy đủ.
 
-Tiếp theo (ii) suy ra (iii). Giả sử F là đầy đủ và u là toàn ánh. Ảnh của u chính xác là F và vì vậy không gầy trong F theo định lý Baire (GT, IX, § 5.3).
+Tiếp theo (ii) kéo theo (iii). Cho F là đầy đủ và u là toàn ánh. Ảnh của u chính xác là F và do đó không là tập hợp hạng bé trong F theo định lý Baire (GT, IX, § 5.3).
 
-Bổ đề sau cho thấy rằng (iii) suy ra (iv).
+Bổ đề sau đây chỉ ra rằng (iii) kéo theo (iv).
 
 #### Bổ đề 1 {#evt-i-s3-lem-1 .statement}
 
-— Cho E và F là hai không gian vectơ tôpô trên một vành chia được định giá không rời rạc K, và cho u là một ánh xạ tuyến tính liên tục từ E vào F sao cho ảnh của E không gầy. Khi đó, với mọi lân cận V của 0 trong E, tập hợp $ \overline{u(V)} $ là một lân cận của 0 trong F.
+Cho E và F là hai không gian vectơ tôpô trên một vành chia định giá không rời rạc K, và cho u là một ánh xạ tuyến tính liên tục của E vào F sao cho ảnh của E không là tập hợp hạng bé. Khi đó, với mọi lân cận V của 0 trong E, tập hợp $ \overline{u(V)} $ là một lân cận của 0 trong F.
 
-Cho W là một lân cận cân bằng của 0 trong E sao cho W + W ⊂ V (I, § 1.5, prop. 4). Cho α là một phần tử của K sao cho |α| > 1; khi đó E là hợp của các tập $ \alpha^n W $ khi n chạy qua $ \mathbf{N} $; thật vậy, với mọi x ∈ E, tồn tại β ∈ K sao cho x ∈ βW (I, p. 7, prop. 4) và tồn tại một số nguyên n ≥ 0 sao cho |β| < |α|^n, khi đó x ∈ $ \alpha^n W $ vì W là cân bằng. Do đó, u(E) là hợp của dãy các tập $ u(\alpha^n W) = \alpha^n u(W) $, và vì u(E) không gầy trong F, nên ít nhất một trong các tập $ \alpha^n \overline{u(W)} $ có một điểm trong (GT, IX, § 5.3, def. 2) và vì thế $ \overline{u(W)} $ có một điểm trong.
+Cho W là một lân cận cân bằng của 0 trong E sao cho W + W ⊂ V (I, § 1.5, prop. 4). Cho α là một phần tử của K sao cho |α| > 1; khi đó E là hợp của các tập hợp $ \alpha^n W $ trong đó n biến thiên trong $ \mathbf{N} $; thực vậy, với mọi x ∈ E, tồn tại β ∈ K sao cho x ∈ βW (I, p. 7, prop. 4) và tồn tại một số nguyên n ≥ 0 sao cho |β| < |α|^n, khi đó x ∈ $ \alpha^n W $ vì W là cân bằng. Do đó, u(E) là hợp của dãy các tập hợp $ u(\alpha^n W) = \alpha^n u(W) $, và vì u(E) không là tập hợp hạng bé trong F, ít nhất một trong các tập hợp $ \alpha^n \overline{u(W)} $ có một điểm trong (GT, IX, § 5.3, def. 2) và do đó $ \overline{u(W)} $ có một điểm trong.
 
 Cho $ y_0 $ là một điểm trong của $ \overline{u(W)} $; vì $ -u(W) = u(W) $, và do đó $ -\overline{u(W)} = \overline{u(W)} $ nên suy ra $ 0 = y_0 + (-y_0) $ là một điểm trong của $ \overline{u(W)} + \overline{u(W)} $. Vì phép cộng vectơ là một ánh xạ liên tục từ $ F \times F $ vào $ F $, tập hợp $ \overline{u(W)} + \overline{u(W)} $ được chứa trong bao đóng của tập hợp
 
