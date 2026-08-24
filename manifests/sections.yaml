@@ -7552,3 +7552,555 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 23e1870085c25820f916d1173f9c918c13b98fa2e6b5cc263d4455ecbab1aa78
+    - id: ac-i-vii
+      chapters:
+        - chapter: I
+          title: FLAT MODULES
+          sections:
+            - kind: front
+              title: FLAT MODULES
+              path: content/en/ac/I/00_frontmatter.md
+              first_pdf_page: 21
+              last_pdf_page: 21
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: aadbef44deb3107021629be381fa0489a29a14a0a0ea07d3d973cb92de5ca6b3
+            - kind: section
+              section: 1
+              title: Diagrams and exact sequences
+              path: content/en/ac/I/01_s1_diagrams_and_exact_sequences.md
+              label: ac-i-s1
+              first_pdf_page: 21
+              last_pdf_page: 60
+              book_pages: 1-9, 39-40
+              subsections: 4
+              statements: 7
+              exercises: 7
+              extraction: ocr
+              content_sha256: 4b6b7b0295eab1576473d13ac660e97fbc5171c279370d00b2ea6d244868c14c
+            - kind: section
+              section: 2
+              title: Flat modules
+              path: content/en/ac/I/02_s2_flat_modules.md
+              label: ac-i-s2
+              first_pdf_page: 29
+              last_pdf_page: 69
+              book_pages: 9-27, 41-49
+              subsections: 11
+              statements: 37
+              exercises: 24
+              extraction: ocr
+              content_sha256: 8089197801fda20862171c21e7891ce6461e5758934161b44346e69a12552abf
+            - kind: section
+              section: 3
+              title: Faithfully flat modules
+              path: content/en/ac/I/03_s3_faithfully_flat_modules.md
+              label: ac-i-s3
+              first_pdf_page: 47
+              last_pdf_page: 70
+              book_pages: 27-36, 49-50
+              subsections: 7
+              statements: 18
+              exercises: 10
+              extraction: ocr
+              content_sha256: 3931ce08a153928702db8feaf372b596d9174b29ec54f370d2422c76fa6997c1
+            - kind: section
+              section: 4
+              title: Flat modules and "Tor" functors
+              path: content/en/ac/I/04_s4_flat_modules_and_tor_functors.md
+              label: ac-i-s4
+              first_pdf_page: 57
+              last_pdf_page: 70
+              book_pages: 37-38, 50
+              subsections: 0
+              statements: 3
+              exercises: 1
+              extraction: ocr
+              content_sha256: cac3ed277f56ac1aacb77c16bbd99df117f4b639b779070f738ac5925d43b640
+        - chapter: II
+          title: LOCALIZATION
+          sections:
+            - kind: front
+              title: LOCALIZATION
+              path: content/en/ac/II/00_frontmatter.md
+              first_pdf_page: 71
+              last_pdf_page: 71
+              book_pages: "51"
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 97b4ebb6cdd313cbd118b53cf340035fee51f02dd95aad7756768b4f809f6a04
+            - kind: section
+              section: 1
+              title: Prime ideals
+              path: content/en/ac/II/01_s1_prime_ideals.md
+              label: ac-ii-s1
+              first_pdf_page: 71
+              last_pdf_page: 143
+              book_pages: 51-55, 121-123
+              subsections: 2
+              statements: 9
+              exercises: 11
+              extraction: ocr
+              content_sha256: 3efd9f203cf7df9cdf039e051a60885835770fb1502b641ae2be4f83c40303e9
+            - kind: section
+              section: 2
+              title: Rings and modules of fractions
+              path: content/en/ac/II/02_s2_rings_and_modules_of_fractions.md
+              label: ac-ii-s2
+              first_pdf_page: 75
+              last_pdf_page: 156
+              book_pages: 55-79, 123-136
+              subsections: 9
+              statements: 52
+              exercises: 23
+              extraction: ocr
+              content_sha256: d5c84797cccb773af06f82c74b7bcb2c36e547bef999bf5e2ce11143124464b9
+            - kind: section
+              section: 3
+              title: Local rings. Passage from the local to the global
+              path: content/en/ac/II/03_s3_local_rings_passage_from_the_local_to.md
+              label: ac-ii-s3
+              first_pdf_page: 100
+              last_pdf_page: 159
+              book_pages: 80-94, 136-139
+              subsections: 5
+              statements: 39
+              exercises: 14
+              extraction: ocr
+              content_sha256: 16e229d6656239643fb80e67b25b80392645fa1511f29c52d0b0dac7b4ee2ff1
+            - kind: section
+              section: 4
+              title: Spectra of rings and supports of modules
+              path: content/en/ac/II/04_s4_spectra_of_rings_and_supports_of_modules.md
+              label: ac-ii-s4
+              first_pdf_page: 114
+              last_pdf_page: 166
+              book_pages: 94-107, 140-146
+              subsections: 4
+              statements: 49
+              exercises: 28
+              extraction: ocr
+              content_sha256: 89a8077d0943105425d457afe72555ad4be848322acd21ae5c3646e85ddcc868
+            - kind: section
+              section: 5
+              title: Finitely generated projective modules. Invertible fractional ideals
+              path: content/en/ac/II/05_s5_finitely_generated_projective_modules.md
+              label: ac-ii-s5
+              first_pdf_page: 128
+              last_pdf_page: 173
+              book_pages: 108-120, 146-153
+              subsections: 7
+              statements: 34
+              exercises: 8
+              extraction: ocr
+              content_sha256: bbdc080d483bd579b5f8f0745508cda928fd7f7f646306678b7b4bf565f11ee4
+        - chapter: III
+          title: GRADUATIONS. FILTRATIONS AND TOPOLOGIES
+          sections:
+            - kind: front
+              title: GRADUATIONS. FILTRATIONS AND TOPOLOGIES
+              path: content/en/ac/III/00_frontmatter.md
+              first_pdf_page: 175
+              last_pdf_page: 175
+              book_pages: "155"
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 7e972384cbc6d513e8f262b249323fb432909f9d813ed5db9764e76af622612a
+            - kind: section
+              section: 1
+              title: Finitely generated graded algebras
+              path: content/en/ac/III/01_s1_finitely_generated_graded_algebras.md
+              label: ac-iii-s1
+              first_pdf_page: 175
+              last_pdf_page: 253
+              book_pages: 155-162, 232-233
+              subsections: 4
+              statements: 13
+              exercises: 3
+              extraction: ocr
+              content_sha256: 16f85c8dfa83f1503aac6b22e6b4a119ed1fbe155796758083be1b1d8e643174
+            - kind: section
+              section: 2
+              title: General results on filtered rings and modules
+              path: content/en/ac/III/02_s2_general_results_on_filtered_rings_and.md
+              label: ac-iii-s2
+              first_pdf_page: 182
+              last_pdf_page: 265
+              book_pages: 162-195, 233-245
+              subsections: 13
+              statements: 57
+              exercises: 13
+              extraction: ocr
+              content_sha256: 0eda3e0d62bb5ec4f7ee4f27346dadfeb43573735f7e8b13bad448055f992997
+            - kind: section
+              section: 3
+              title: m-adic topologies on Noetherian rings
+              path: content/en/ac/III/03_s3_m_adic_topologies_on_noetherian_rings.md
+              label: ac-iii-s3
+              first_pdf_page: 215
+              last_pdf_page: 275
+              book_pages: 195-209, 245-255
+              subsections: 5
+              statements: 39
+              exercises: 7
+              extraction: ocr
+              content_sha256: 5f968128393f2baa95e82a9f3f77afad466e29c809161778d1f17ad89824ddfb
+            - kind: section
+              section: 4
+              title: Lifting in complete rings
+              path: content/en/ac/III/04_s4_lifting_in_complete_rings.md
+              label: ac-iii-s4
+              first_pdf_page: 229
+              last_pdf_page: 278
+              book_pages: 209-226, 255-258
+              subsections: 6
+              statements: 23
+              exercises: 8
+              extraction: ocr
+              content_sha256: 241e22df0c4e02d66dd1dfe468a69fc0aa476d0f07f2bc07b6cf5295bf3fe007
+            - kind: section
+              section: 5
+              title: Flatness properties of filtered modules
+              path: content/en/ac/III/05_s5_flatness_properties_of_filtered_modules.md
+              label: ac-iii-s5
+              first_pdf_page: 246
+              last_pdf_page: 280
+              book_pages: 226-231, 259-260
+              subsections: 4
+              statements: 11
+              exercises: 8
+              extraction: ocr
+              content_sha256: 33bce3ef055753218cc68b75a010c6127c9782712ba7a3b649efe320275f38ab
+        - chapter: IV
+          title: ASSOCIATED PRIME IDEALS AND PRIMARY DECOMPOSITION
+          sections:
+            - kind: front
+              title: ASSOCIATED PRIME IDEALS AND PRIMARY DECOMPOSITION
+              path: content/en/ac/IV/00_frontmatter.md
+              first_pdf_page: 281
+              last_pdf_page: 281
+              book_pages: "261"
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 74c866915948775494e103acbd52d0d39c8fa10aa612181a43fc2681454165b5
+            - kind: section
+              section: 1
+              title: Prime ideals associated with a module
+              path: content/en/ac/IV/01_s1_prime_ideals_associated_with_a_module.md
+              label: ac-iv-s1
+              first_pdf_page: 281
+              last_pdf_page: 310
+              book_pages: 261-267, 286-290
+              subsections: 4
+              statements: 24
+              exercises: 19
+              extraction: ocr
+              content_sha256: 1ed80928e0879cd38edab9973cd115adfa10d290548548ffd7851ca1c83aa9ab
+            - kind: section
+              section: 2
+              title: Primary decomposition
+              path: content/en/ac/IV/02_s2_primary_decomposition.md
+              label: ac-iv-s2
+              first_pdf_page: 287
+              last_pdf_page: 321
+              book_pages: 267-282, 290-301
+              subsections: 6
+              statements: 39
+              exercises: 28
+              extraction: ocr
+              content_sha256: e306baa60497a3575291ea0e7d63a1c529614df5055c2a99ca9fd01c673d850f
+            - kind: section
+              section: 3
+              title: Primary decomposition in graded modules
+              path: content/en/ac/IV/03_s3_primary_decomposition_in_graded_modules.md
+              label: ac-iv-s3
+              first_pdf_page: 303
+              last_pdf_page: 321
+              book_pages: 283-285, 301
+              subsections: 3
+              statements: 6
+              exercises: 3
+              extraction: ocr
+              content_sha256: dce0229fd2c5855b670f4fbebe49740354cfc39607093ab4e909be2625c81d03
+        - chapter: V
+          title: INTEGERS
+          sections:
+            - kind: front
+              title: INTEGERS
+              path: content/en/ac/V/00_frontmatter.md
+              first_pdf_page: 322
+              last_pdf_page: 322
+              book_pages: "303"
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: b10ee6ab498a5ce7563cf7368f46f5a6abb701be99a7139c95a10637f319ed2e
+            - kind: section
+              section: 1
+              title: Notion of an integral element
+              path: content/en/ac/V/01_s1_notion_of_an_integral_element.md
+              label: ac-v-s1
+              first_pdf_page: 322
+              last_pdf_page: 381
+              book_pages: 303-324, 355-362
+              subsections: 9
+              statements: 69
+              exercises: 29
+              extraction: ocr
+              content_sha256: 6908b5cdcf24e6e14f10425b412d178dfb61873fb3c0231763cb056416680b8d
+            - kind: section
+              section: 2
+              title: The lift of prime ideals
+              path: content/en/ac/V/02_s2_the_lift_of_prime_ideals.md
+              label: ac-v-s2
+              first_pdf_page: 344
+              last_pdf_page: 388
+              book_pages: 325-344, 362-369
+              subsections: 4
+              statements: 36
+              exercises: 22
+              extraction: ocr
+              content_sha256: d157e2bfc950d54a72b70c4a4be49d1b03edc664351a5d26a3954bd3c0266228
+            - kind: section
+              section: 3
+              title: Finitely generated algebras over a field
+              path: content/en/ac/V/03_s3_finitely_generated_algebras_over_a_field.md
+              label: ac-v-s3
+              first_pdf_page: 363
+              last_pdf_page: 392
+              book_pages: 344-354, 370-373
+              subsections: 4
+              statements: 17
+              exercises: 9
+              extraction: ocr
+              content_sha256: 679ad8d72827f4f6a6b6b2ce85dec148c952b3063614ec720d1d223aa5bec385
+        - chapter: VI
+          title: VALUATIONS
+          sections:
+            - kind: front
+              title: VALUATIONS
+              path: content/en/ac/VI/00_frontmatter.md
+              first_pdf_page: 393
+              last_pdf_page: 393
+              book_pages: "375"
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 06e354cd8e1f3bb7149fe5e710852d5e0a8b1c0fb0a4451a2fb7ba1b3c9b704b
+            - kind: section
+              section: 1
+              title: Valuation rings
+              path: content/en/ac/VI/01_s1_valuation_rings.md
+              label: ac-vi-s1
+              first_pdf_page: 393
+              last_pdf_page: 462
+              book_pages: 375-381, 441-444
+              subsections: 4
+              statements: 15
+              exercises: 7
+              extraction: ocr
+              content_sha256: e5ed6ea12a9954d90b070954373a152d1288d7434301c184efde59ccd84a03b0
+            - kind: section
+              section: 2
+              title: Places
+              path: content/en/ac/VI/02_s2_places.md
+              label: ac-vi-s2
+              first_pdf_page: 399
+              last_pdf_page: 464
+              book_pages: 381-385, 444-446
+              subsections: 5
+              statements: 9
+              exercises: 3
+              extraction: ocr
+              content_sha256: 11398663f9b6ae9d47c1619c6ff2e89f06ea80afad55344069e66f2f3b1c5cb0
+            - kind: section
+              section: 3
+              title: Valuations
+              path: content/en/ac/VI/03_s3_valuations.md
+              label: ac-vi-s3
+              first_pdf_page: 403
+              last_pdf_page: 467
+              book_pages: 385-393, 446-449
+              subsections: 6
+              statements: 15
+              exercises: 8
+              extraction: ocr
+              content_sha256: 81beee1027cd492200b79c27a98707c5acb1e0e4091ea69657643322d2c9c25c
+            - kind: section
+              section: 4
+              title: The height of a valuation
+              path: content/en/ac/VI/04_s4_the_height_of_a_valuation.md
+              label: ac-vi-s4
+              first_pdf_page: 411
+              last_pdf_page: 471
+              book_pages: 393-399, 449-453
+              subsections: 5
+              statements: 18
+              exercises: 11
+              extraction: ocr
+              content_sha256: a7861f18cdcfa4b3a1626bb127728ace1408f702d73998a97ff73f72410e7ff1
+            - kind: section
+              section: 5
+              title: The topology defined by a valuation
+              path: content/en/ac/VI/05_s5_the_topology_defined_by_a_valuation.md
+              label: ac-vi-s5
+              first_pdf_page: 417
+              last_pdf_page: 477
+              book_pages: 399-403, 454-459
+              subsections: 3
+              statements: 10
+              exercises: 9
+              extraction: ocr
+              content_sha256: 9cd13a5bfd2f4741f437a89f3a3f7401bd3878e9426716d3050719cf0d878bbd
+            - kind: section
+              section: 6
+              title: Absolute values
+              path: content/en/ac/VI/06_s6_absolute_values.md
+              label: ac-vi-s6
+              first_pdf_page: 421
+              last_pdf_page: 478
+              book_pages: 403-411, 459-460
+              subsections: 4
+              statements: 10
+              exercises: 2
+              extraction: ocr
+              content_sha256: 59c08004982aa798c1694b7b8d6686260ff4a02d8fd745b2175bd7383071f13f
+            - kind: section
+              section: 7
+              title: Approximation theorem
+              path: content/en/ac/VI/07_s7_approximation_theorem.md
+              label: ac-vi-s7
+              first_pdf_page: 430
+              last_pdf_page: 479
+              book_pages: 412-416, 460-461
+              subsections: 3
+              statements: 14
+              exercises: 3
+              extraction: ocr
+              content_sha256: c3aad445a74a634a4e68fae3d957708fb3ee60bb71eec383f8e89568290b9ba9
+            - kind: section
+              section: 8
+              title: Extensions of a valuation to an algebraic extension
+              path: content/en/ac/VI/08_s8_extensions_of_a_valuation_to_an.md
+              label: ac-vi-s8
+              first_pdf_page: 434
+              last_pdf_page: 487
+              book_pages: 416-431, 461-469
+              subsections: 7
+              statements: 36
+              exercises: 21
+              extraction: ocr
+              content_sha256: 05cffed69ef1af209d23321fa98ce440ddc510782b443fa86e7b9e1c0c5cf287
+            - kind: section
+              section: 9
+              title: 'Application: locally compact fields'
+              path: content/en/ac/VI/09_s9_application_locally_compact_fields.md
+              label: ac-vi-s9
+              first_pdf_page: 449
+              last_pdf_page: 489
+              book_pages: 431-434, 470-471
+              subsections: 3
+              statements: 10
+              exercises: 5
+              extraction: ocr
+              content_sha256: 90d97456dd49656f2aa653a4572e5aaed6980fca372e7dca6210fa45cb556706
+            - kind: section
+              section: 10
+              title: Extensions of a valuation to a transcendental extension
+              path: content/en/ac/VI/10_s10_extensions_of_a_valuation_to_a.md
+              label: ac-vi-s10
+              first_pdf_page: 452
+              last_pdf_page: 491
+              book_pages: 434-440, 471-473
+              subsections: 3
+              statements: 14
+              exercises: 2
+              extraction: ocr
+              content_sha256: 671ce6ad3d1c3549a75572048be95680479609bf9487923ce70044e0398851b7
+        - chapter: VII
+          title: DIVISORS
+          sections:
+            - kind: front
+              title: DIVISORS
+              path: content/en/ac/VII/00_frontmatter.md
+              first_pdf_page: 493
+              last_pdf_page: 493
+              book_pages: "475"
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 5bdae1fba33570061ef5f38320a3212bdd9261a320e49fc09d39b93c2838d309
+            - kind: section
+              section: 1
+              title: Krull domains
+              path: content/en/ac/VII/01_s1_krull_domains.md
+              label: ac-vii-s1
+              first_pdf_page: 493
+              last_pdf_page: 573
+              book_pages: 475-493, 545-555
+              subsections: 10
+              statements: 41
+              exercises: 32
+              extraction: ocr
+              content_sha256: 7b1eb0adcaaa0dae1e63130cbdf8e2e7c3e9c62135a05e6a0c075a8a7da079dd
+            - kind: section
+              section: 2
+              title: Dedekind domains
+              path: content/en/ac/VII/02_s2_dedekind_domains.md
+              label: ac-vii-s2
+              first_pdf_page: 511
+              last_pdf_page: 589
+              book_pages: 493-502, 556-571
+              subsections: 5
+              statements: 14
+              exercises: 27
+              extraction: ocr
+              content_sha256: f3958230414904cb794c454cbc6b4c5452899714b923f6b249478259523693e1
+            - kind: section
+              section: 3
+              title: Factorial domains
+              path: content/en/ac/VII/03_s3_factorial_domains.md
+              label: ac-vii-s3
+              first_pdf_page: 520
+              last_pdf_page: 530
+              book_pages: 502-512
+              subsections: 9
+              statements: 19
+              exercises: 0
+              extraction: ocr
+              content_sha256: 5169692dee0260888dd651bc5db7fdf45d6a35b2663084f8abd14ebfc0f4f5fa
+            - kind: section
+              section: 4
+              title: Modules over integrally closed Noetherian domains
+              path: content/en/ac/VII/04_s4_modules_over_integrally_closed.md
+              label: ac-vii-s4
+              first_pdf_page: 530
+              last_pdf_page: 596
+              book_pages: 512-544, 571-578
+              subsections: 10
+              statements: 56
+              exercises: 26
+              extraction: ocr
+              content_sha256: d27797e07384cc4e73ff77d731a75955d28a18bae083d088802937fb4cc90951
+            - kind: historical
+              title: Historical Note
+              path: content/en/ac/VII/historical_note.md
+              first_pdf_page: 597
+              last_pdf_page: 642
+              book_pages: 579-625
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 082c27eafa4c00fe6c91aee41d24dbe19d43efd6d6ed2ce7d5ee88fea788d78b
