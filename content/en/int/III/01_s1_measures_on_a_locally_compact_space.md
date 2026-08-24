@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 41
 exercises: 18
-content_sha256: 0229784816d486cd441ecfea4906a857943122072ad3e467a0b7c943c35ea25a
+content_sha256: bc8211586145aed194cdd73907ade3cd2ac5456da88b9bc1aea67c999d7f993a
 ---
 
 ## § 1. MEASURES ON A LOCALLY COMPACT SPACE
@@ -285,7 +285,7 @@ for every function $f\in\mathcal K(X;\mathbf C)$; the measure $\mu$ is then also
 
 #### Example {#int-iii-s1-n3-exa-1 .statement}
 
-— Lebesgue measure on $ \mathbf{R} $ is invariant under every translation of the additive group $ \mathbf{R} $. Indeed, for every function $ f \in \mathcal{K}(\mathbf{R}; \mathbf{C}) $ and every real number $ a $, we have
+Lebesgue measure on $ \mathbf{R} $ is invariant under every translation of the additive group $ \mathbf{R} $. Indeed, for every function $ f \in \mathcal{K}(\mathbf{R}; \mathbf{C}) $ and every real number $ a $, we have
 
 $$
 \int_{-\infty}^{+\infty} f(x + a)\, dx = \int_{-\infty}^{+\infty} f(t)\, dt

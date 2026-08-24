@@ -32,7 +32,7 @@ subsections:
       pdf_page: 30
 statements: 16
 exercises: 12
-content_sha256: 1c5b35994e63e08eefdec012225c55b7a20f08890336b7db13ea7edf2feca562
+content_sha256: 216db598fff6d4868d7122c736569aaf3b7c4a927e5a10c30c85dbbf3a77c809
 ---
 
 ## § 1. RIESZ SPACES AND FULLY LATTICE-ORDERED SPACES
@@ -217,11 +217,11 @@ Since $ x \geq 0 $ and $ y \geq 0 $ imply $ x + y \geq 0 $ in $ E $, the conditi
 
 #### Example {#int-ii-s1-n5-exa-1 .statement}
 
-— In the space $ \mathbf{R}^A $ of real-valued functions defined on a set $ A $, the set of functions that are zero at all the points of a subset $ M $ of $ A $ is a band.
+In the space $ \mathbf{R}^A $ of real-valued functions defined on a set $ A $, the set of functions that are zero at all the points of a subset $ M $ of $ A $ is a band.
 
 #### Remark {#int-ii-s1-n5-rem-1 .statement}
 
-— In the space $ \mathbf{R}^A $, the subspace $ \mathcal{B}(A) $ of bounded real-valued functions on $ A $ satisfies condition 1) of Def. 4; moreover, for every subset $ X $ of $ \mathcal{B}(A) $ that is bounded above *in* $ \mathcal{B}(A) $, the upper envelope of $ X $ belongs to $ \mathcal{B}(A) $. However, if $ A $ is infinite, a subset of $ \mathcal{B}(A) $ may be *bounded above in* $ \mathbf{R}^A $ *without being bounded above in* $ \mathcal{B}(A) $, in which case $ \mathcal{B}(A) $ is not a band in $ \mathbf{R}^A $.
+In the space $ \mathbf{R}^A $, the subspace $ \mathcal{B}(A) $ of bounded real-valued functions on $ A $ satisfies condition 1) of Def. 4; moreover, for every subset $ X $ of $ \mathcal{B}(A) $ that is bounded above *in* $ \mathcal{B}(A) $, the upper envelope of $ X $ belongs to $ \mathcal{B}(A) $. However, if $ A $ is infinite, a subset of $ \mathcal{B}(A) $ may be *bounded above in* $ \mathbf{R}^A $ *without being bounded above in* $ \mathcal{B}(A) $, in which case $ \mathcal{B}(A) $ is not a band in $ \mathbf{R}^A $.
 
 It follows at once from Def. 4 that if $ B $ is a band in $ E $ then, for every nonempty subset $ X $ of $ B $ that is bounded below in $ E $, $ \inf X $ belongs to $ B $. Every band $ B $ in $ E $, equipped with the ordered vector space structure induced by that of $ E $, is a fully lattice-ordered space and, for every subset $ X \subset B $ that is bounded above in $ B $, the supremum of $ X $ in $ B $ is identical with its supremum in $ E $.
 

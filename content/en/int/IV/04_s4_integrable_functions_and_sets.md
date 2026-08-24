@@ -55,9 +55,9 @@ subsections:
       title: Extension of a measure defined on a family of sets
       page: 53
       pdf_page: 160
-statements: 61
+statements: 63
 exercises: 23
-content_sha256: ba80f76a8fa4a9b4cd73c771da2313d519aaa5fd1427d2151dbafa7b1242d58f
+content_sha256: d9bf2bfdcda5ca6a66db17faa978e5ab9ec595ffc7644a6643a0e2ffb0353a31
 ---
 
 ## § 4. INTEGRABLE FUNCTIONS AND SETS
@@ -441,7 +441,7 @@ Since $\varphi_A$ is then lower (resp. upper) semi-continuous, the proposition f
 
 #### Example {#int-iv-s4-n6-exa-1 .statement}
 
-— For Lebesgue measure $\mu$ on $\mathbf{R}$, it follows from Prop. 10 that every bounded open interval $[a, b[$ is integrable and has measure $b - a$ (\§1, No. 2, Prop. 9). Since every set reducing to a point is negligible for Lebesgue measure, it follows that all of the intervals with endpoints $a$ and $b$ have the same measure $b - a$.
+For Lebesgue measure $\mu$ on $\mathbf{R}$, it follows from Prop. 10 that every bounded open interval $[a, b[$ is integrable and has measure $b - a$ (\§1, No. 2, Prop. 9). Since every set reducing to a point is negligible for Lebesgue measure, it follows that all of the intervals with endpoints $a$ and $b$ have the same measure $b - a$.
 
 #### Proposition 11 {#int-iv-s4-prop-11 .statement}
 
@@ -625,13 +625,17 @@ For, on the set B of measures $ \nu $ such that $ \mathrm{Supp}(\nu) \subset \ma
 
 ### 9. Clans and additive set functions
 
-Definition 3. — *A nonempty set $ \Phi $ of subsets of a set $ A $ is said to be a clan if there exists an algebra $ \mathcal{A} $ (over $ \mathbf{R} $) consisting of real-valued functions defined on $ A $, such that the relations $ M \in \Phi $ and $ \varphi_M \in \mathcal{A} $ are equivalent.*
+#### Definition 3 {#int-iv-s4-def-3 .statement}
+
+*A nonempty set $ \Phi $ of subsets of a set $ A $ is said to be a clan if there exists an algebra $ \mathcal{A} $ (over $ \mathbf{R} $) consisting of real-valued functions defined on $ A $, such that the relations $ M \in \Phi $ and $ \varphi_M \in \mathcal{A} $ are equivalent.*
 
 #### Example {#int-iv-s4-n9-exa-1 .statement}
 
-— If $ \mu $ is a measure on a locally compact space $ X $ then the linear combinations, with real coefficients, of the characteristic functions of integrable sets form an *algebra* $ \mathcal{A} $, because, for any two integrable sets $ M, N $, the function $ \varphi_M \varphi_N = \varphi_{M \cap N} $ is integrable (No. 5, Prop. 7); it then follows from Defs. 2 and 3 that the set of integrable subsets of $ X $ is a clan.
+If $ \mu $ is a measure on a locally compact space $ X $ then the linear combinations, with real coefficients, of the characteristic functions of integrable sets form an *algebra* $ \mathcal{A} $, because, for any two integrable sets $ M, N $, the function $ \varphi_M \varphi_N = \varphi_{M \cap N} $ is integrable (No. 5, Prop. 7); it then follows from Defs. 2 and 3 that the set of integrable subsets of $ X $ is a clan.
 
-Proposition 17. — *In order that a nonempty set $ \Phi $ of subsets of a set $ A $ be a clan, it is necessary and sufficient that it satisfy the following condition:*
+#### Proposition 17 {#int-iv-s4-prop-17 .statement}
+
+*In order that a nonempty set $ \Phi $ of subsets of a set $ A $ be a clan, it is necessary and sufficient that it satisfy the following condition:*
 
 (CL) *For every pair of sets $ M, N $ belonging to $ \Phi $, the sets $ M \cup N $ and $ M \cap \mathbf{C}N $ belong to $ \Phi $.*¹
 
@@ -645,7 +649,7 @@ To show that it is *sufficient*, we first observe that it implies that, for any 
 
 #### Lemma {#int-iv-s4-n9-lem-1 .statement}
 
-— *Let $ \Phi $ be a nonempty set of subsets of $ A $ satisfying the axiom (CL). Given a finite family $ (M_i)_{1 \leq i \leq n} $ of sets in $ \Phi $, there exists a*
+*Let $ \Phi $ be a nonempty set of subsets of $ A $ satisfying the axiom (CL). Given a finite family $ (M_i)_{1 \leq i \leq n} $ of sets in $ \Phi $, there exists a*
 
 ¹ A clan $ \Phi $ of subsets of a set $ A $ is also known as a *ring* (or *Boolean ring*) of sets; if, moreover, $ A \in \Phi $, then $ \Phi $ is called an *algebra* (or *Boolean algebra*) of sets (cf. GT, I, §6, Exer. 20 and II, §4, Exer. 12). A Boolean algebra closed under countable unions is called a *tribe*, or *$ \sigma $*-*algebra* (GT, IX, §6, No. 3, Def. 3).
 

@@ -61,7 +61,7 @@ subsections:
       pdf_page: 193
 statements: 77
 exercises: 30
-content_sha256: 8a82d568409cc3d22bf3ff82c57b10b059d56ba060a1475441e469478fe35be7
+content_sha256: 3f175377897ccedfa96de56dfcfb6acce32206426b0261e76bfacb02aa00d38a
 ---
 
 ## § 5. MEASURABLE FUNCTIONS AND SETS
@@ -305,9 +305,9 @@ $$
 
 the sets $ B_{n,p} $ are measurable, and those that are nonempty form a partition of $ K - N $. Let $ g_{m,p} $ be the function equal to $ a_i $ on the set $ B_{i,p} $ for $ 1 \leq i \leq m $ and equal to a constant $ b \in F $ on the complement of the union of these sets; $ g_{m,p} $ is a measurable step function; as $ m $ tends to infinity, $ g_{m,p} $ converges pointwise to the function $ f_p $ equal to $ a_n $ on $ B_{n,p} $ ($ n \geq 1 $) and to $ b $ on $ N \cup C K $, therefore (Th. 2) $ f_p $ is measurable. As $ p $ tends to infinity, $ f_p(x) $ tends to $ f(x) $ for every $ x \in K - N $, and to $ b $ for $ x \in N \cup C K $; the limit of the $ f_p $ is therefore measurable, and the principle of localization proves that $ f $ itself is measurable.
 
-#### Remark {#int-iv-s5-n5-rem-1 .statement}
+#### Remark 1 {#int-iv-s5-n5-rem-1 .statement}
 
-— 1) Condition a) alone is not sufficient for $ f $ to be measurable (Exer. 7).
+Condition a) alone is not sufficient for $ f $ to be measurable (Exer. 7).
 2) If the topology of F has a countable base then condition b) of Th. 4 is automatically satisfied for every mapping of X into F. The proof shows, moreover, that it suffices to assume that the inverse images under $ f $ of the closed balls with rational radii, whose centers belong to a dense countable subset of F, are measurable sets.
 3) The hypothesis a) can be replaced by the condition that the inverse image under $ f $ of every open ball of F is measurable.
 
