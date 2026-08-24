@@ -49,7 +49,7 @@ subsections:
       pdf_page: 506
 statements: 43
 exercises: 2
-content_sha256: 698ce7c081b137b4c8eccf97af5af33634fbb1419f71498bb4aa7352627f00e8
+content_sha256: e2b0067020818d84b0b33e5febea1d4a9107e190bf3bc4bf6ffb9ec89a7d669b
 ---
 
 ## § 4. TENSOR PRODUCTS OF ALGEBRAS
@@ -195,7 +195,7 @@ $$
 
 (II, § 4, no. 4) is an $ A $-algebra homomorphism, as follows from II, § 3, no. 2, formula (5). When $ M $ or $ N $ is a finitely generated projective $ A $-module, we know that this homomorphism is bijective (II, § 4, no. 4, Proposition 4). In particular we recover the definition of the tensor product of two square matrices.
 
-(2) Let $ S, T $ be two monoids and $ A^{(S)} $ and $ A^{(T)} $ the algebras of the monoids $ S $ and $ T $ over the ring $ A \ ) (III, § 2, no. 6); then there is a canonical $ A $-algebra isomorphism
+(2) Let $ S, T $ be two monoids and $ A^{(S)} $ and $ A^{(T)} $ the algebras of the monoids $ S $ and $ T $ over the ring $ A $ (III, § 2, no. 6); then there is a canonical $ A $-algebra isomorphism
 
 $$
 A^{(S)} \otimes_A A^{(T)} \to A^{(S \times T)}.

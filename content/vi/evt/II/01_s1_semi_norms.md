@@ -26,25 +26,27 @@ subsections:
       title: Equicontinuity criteria of multilinear mappings for topologies defined by semi-norms
       page: 5
       pdf_page: 42
-statements: 12
+statements: 15
 exercises: 0
-content_sha256: b478e851639fcc305039968bbe1abcf8d81fe559b7f51f987c77e4e4412aae2f
+content_sha256: 81a0975a4dcefcca85ed2c37334498bda158edde1478cb428434f7af7e78c55e
 translated_from: content/en/evt/II/01_s1_semi_norms.md
-source_content_sha256: 22d965ad6a15e79855ff66d41cce85690ba89e25a41f4cb5222e05fdb5f82d84
-translation_model: gpt-5.4
+source_content_sha256: 91c4d031e3ebb3825cc2f99598c1def259a421c106f44ab8650a4d069bf4464d
+translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-c37b3e9e
 glossary_version: 34
 glossary_terms_sha256: 8f1f932251d67382d708584c484880a119ed8355447b4e40c2116ab41b26d0b9
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## § 1. NỬA CHUẨN
+## § 1. CHUẨN NỬA
 
-Trong suốt mục này, $ \mathbf{K} $ ký hiệu một vành chia được định giá không rời rạc.
+Trong suốt đoạn này, $ \mathbf{K} $ ký hiệu một vành chia có giá trị không rời rạc.
 
-### 1. Định nghĩa nửa chuẩn
+### 1. Định nghĩa về các chuẩn nửa
 
-Định nghĩa 1. — Cho E là một không gian vectơ trái trên $ \mathbf{K} $. Một ánh xạ $ p $ từ E vào $ \mathbf{R}_+ = \{ 0, + \infty \} $ được gọi là một nửa chuẩn trên E nếu nó thỏa mãn các tiên đề sau:
+#### Định nghĩa 1 {#evt-ii-s1-def-1 .statement}
+
+Cho E là một không gian vectơ trái trên $ \mathbf{K} $. Một ánh xạ $ p $ của E vào $ \mathbf{R}_+ = \{ 0, + \infty \} $, được gọi là một chuẩn nửa trên E nếu nó thỏa mãn các tiên đề sau :
 (SN_I) Nếu $ x \in \mathrm{E} $ và $ \lambda \in \mathbf{K} $ thì $ p(\lambda x) = |\lambda| \, p(x) $.
 (SN_II) Nếu $ x \in \mathrm{E} $ và $ y \in \mathrm{E} $ thì $ p(x + y) \leq p(x) + p(y) $.
 
@@ -53,16 +55,20 @@ $$
 |p(x) - p(y)| \leq p(x - y) .
 $$
 
-#### Ví dụ {#evt-ii-s1-n1-exa-1 .statement}
+#### Ví dụ 1 {#evt-ii-s1-n1-exa-1 .statement}
 
-— 1) Một chuẩn trên E là một nửa chuẩn $ p $ sao cho quan hệ $ p(x) = 0 $ kéo theo $ x = 0 $ (I, p. 3).
+Một chuẩn trên E là một bán chuẩn $ p $ sao cho quan hệ $ p(x) = 0 $ kéo theo $ x = 0 $ (I, p. 3).
 
-2) Với mọi dạng tuyến tính $ f $ trên E, hàm $ x \mapsto |f(x)| $ là một nửa chuẩn trên E.
+#### Ví dụ 2 {#evt-ii-s1-n1-exa-2 .statement}
 
-3) Nếu $ p_i (1 \leq i \leq n) $ là một tập hợp hữu hạn các nửa chuẩn trên E, thì rõ ràng $ p'(x) = \sup_{1 \leq i \leq n} p_i(x) $
-và $ p''(x) = \sum_{i=1}^n \alpha_i p_i(x) $ (trong đó các $ \alpha_i $ là $ \geq 0 $) đều là những nửa chuẩn trên E.
+Đối với mọi dạng tuyến tính $ f $ trên E, hàm $ x \mapsto |f(x)| $ là một bán chuẩn trên E.
 
-Một ánh xạ $ p $ của E vào $ \mathbf{R}_+ $ được gọi là một *siêu nửa chuẩn* nếu nó thỏa mãn (SN$_I$) và tiên đề sau :
+#### Ví dụ 3 {#evt-ii-s1-n1-exa-3 .statement}
+
+Nếu $ p_i (1 \leq i \leq n) $ là một tập hợp hữu hạn các bán chuẩn trên E, thì rõ ràng $ p'(x) = \sup_{1 \leq i \leq n} p_i(x) $
+và $ p''(x) = \sum_{i=1}^n \alpha_i p_i(x) $ (trong đó các $ \alpha_i $ là $ \geq 0 $) đều là các bán chuẩn trên E.
+
+Một ánh xạ $ p $ của E vào $ \mathbf{R}_+ $ được gọi là một *bán chuẩn siêu* nếu nó thỏa mãn (SN$_I$) và tiên đề sau :
 
 (SN$_{II}'$) *Nếu $ x \in E $ và $ y \in E $, thì $ p(x + y) \leq \sup(p(x), p(y)) $.*
 

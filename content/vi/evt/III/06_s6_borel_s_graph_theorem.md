@@ -25,43 +25,43 @@ subsections:
       pdf_page: 168
 statements: 8
 exercises: 6
-content_sha256: 38601c45c800a992891383f71d1cd8f4157c1a79ef12eb1c83841f6c50ec5014
+content_sha256: 9b8211cd3b0ad429d945eea5c7a69edc20c0e4394e5a1b01d8550c3b0a92877b
 translated_from: content/en/evt/III/06_s6_borel_s_graph_theorem.md
-source_content_sha256: e17f21307f796721ccc0bb4982493d69710026c31234fab45b7a949a6c553437
-translation_model: gpt-5.4
+source_content_sha256: 53f87ac0d15b6797265ed0b88534f5dac4bfdaa5de968f2dd03c9521532bc8c9
+translation_model: gpt-5-6, gpt-5.4
 translation_run: translate-vi-37efe174
 glossary_version: 34
 glossary_terms_sha256: 82429cf98be4f83a844dbba3e47122ea163fa98b065056303187fde2e06bc49b
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## § 6. ĐỊNH LÝ ĐỒ THỊ CỦA BOREL
+## § 6. ĐỊNH LÝ ĐỒ THỊ BOREL
 
-### 1. Định lý đồ thị của Borel
+### 1. Định lý đồ thị Borel
 
 #### Định lý 1 {#evt-iii-s6-thm-1 .statement}
 
-— Cho E là một không gian lồi địa phương là giới hạn quy nạp của các không gian Banach, F là một không gian lồi địa phương Souslin, chẳng hạn một không gian Lusin (GT, IX, § 6, No. 2 and No. 4), và u là một ánh xạ tuyến tính từ E vào F. Nếu đồ thị của u là một tập con Borel của E × F, thì u liên tục.
+— Cho E là một không gian lồi địa phương là giới hạn quy nạp của các không gian Banach, F là một không gian lồi địa phương Souslin, chẳng hạn một không gian Lusin (GT, IX, § 6, No. 2 và No. 4), và u là một ánh xạ tuyến tính từ E vào F. Nếu đồ thị của u là một tập hợp Borel của E × F, thì u liên tục.
 
-Cho E_i là một họ các không gian Banach, và (u_i) là một họ các ánh xạ tuyến tính liên tục u_i : E_i → E sao cho tôpô của E là tôpô lồi địa phương mịn nhất mà đối với nó các u_i là liên tục. Chỉ cần chứng minh rằng các ánh xạ hợp thành u ∘ u_i là liên tục, hoặc thực ra (GT, IX, § 2, No. 6, mđ. 10) rằng hạn chế của u ∘ u_i lên mọi không gian con đóng G của E_i thỏa mãn tiên đề đếm được thứ nhất là liên tục. Đồ thị của hạn chế này là ảnh ngược của đồ thị của u qua ánh xạ liên tục u_i × Id_F : G × F → E × F, do đó là một tập Borel trong G × F. Ngoài ra, G × F là một không gian Souslin và mọi tập con Borel của một không gian Souslin đều là một không gian Souslin (GT, IX, § 6, No. 3, mđ. 10). Định lý 1 khi đó suy ra từ đl. 4, GT, IX, § 6, No. 8.
+Cho E_i là một họ các không gian Banach, và (u_i) là một họ các ánh xạ tuyến tính liên tục u_i : E_i → E sao cho tôpô của E là tôpô lồi địa phương mịn nhất làm cho các u_i liên tục. Chỉ cần chứng minh rằng các ánh xạ hợp thành u ∘ u_i là liên tục, hoặc thực tế (GT, IX, § 2, No. 6, mệnh đề 10) rằng hạn chế của u ∘ u_i lên mọi không gian con đóng G của E_i thỏa mãn tiên đề đếm được thứ nhất là liên tục. Đồ thị của hạn chế này là ảnh ngược của đồ thị của u qua ánh xạ liên tục u_i × Id_F : G × F → E × F, do đó là một tập hợp Borel trong G × F. Ngoài ra, G × F là một không gian Souslin và mọi tập hợp Borel của một không gian Souslin là một không gian Souslin (GT, IX, § 6, No. 3, mệnh đề 10). Định lý 1 sau đó suy ra từ định lý 4, GT, IX, § 6, No. 8.
 
 #### Nhận xét {#evt-iii-s6-n1-rem-1 .statement}
 
-— Nhắc lại (III, p. 12) rằng mọi không gian Hausdorff đồng điều và bán đầy đủ, chẳng hạn mọi không gian Fréchet, đều là giới hạn quy nạp của các không gian Banach. \* Điều này cũng đúng đối với đối ngẫu mạnh của một không gian Fréchet phản xạ (IV, p. 23, mđ. 4). \*
+Nhắc lại (III, p. 12) rằng mọi không gian Hausdorff thuần đồng điều và nửa đầy đủ, chẳng hạn mọi không gian Fréchet, đều là giới hạn quy nạp của các không gian Banach. \* Điều này cũng đúng cho đối ngẫu mạnh của một không gian Fréchet phản xạ (IV, p. 23, mệnh đề 4). \*
 
 ### 2. Các không gian Lusin lồi địa phương
 
 #### Mệnh đề 1 {#evt-iii-s6-prop-1 .statement}
 
-— Cho E là một không gian lồi địa phương Hausdorff. Giả sử rằng tồn tại một dãy (E_n)_{n \in \mathbf{N}} các không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất, và các ánh xạ tuyến tính liên tục u_n : E_n → E sao cho E = \bigcup_{n \in \mathbf{N}} u_n(E_n). Khi đó E là một không gian Lusin.
+— Cho E là một không gian lồi địa phương Hausdorff. Giả sử tồn tại một dãy (E_n)_{n \in \mathbf{N}} các không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất, và các ánh xạ tuyến tính liên tục u_n : E_n → E sao cho E = \bigcup_{n \in \mathbf{N}} u_n(E_n). Khi đó E là một không gian Lusin.
 
-Cho P_n là hạt nhân của u_n; khi đó u_n xác định một ánh xạ liên tục song ánh từ không gian thương E_n/P_n lên u_n(E_n). Vì E_n/P_n là một không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất (GT, IX, § 3, No. 1), do đó là một không gian polish (GT, IX, § 6, No. 1, đn. 1), nên u_n(E_n) là một không gian con Lusin của E (GT, IX, § 6, No. 4, mđ. 11). Bởi vậy theo GT, IX, § 6, No. 7, hq. của đl. 3, không gian E, là chính quy (GT, III, § 3, No. 1), là một không gian Lusin.
+Cho P_n là hạt nhân của u_n; khi đó u_n xác định một ánh xạ liên tục song ánh từ không gian thương E_n/P_n lên u_n(E_n). Vì E_n/P_n là một không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất (GT, IX, § 3, No. 1), do đó là một không gian polish (GT, IX, § 6, No. 1, def. 1), nên u_n(E_n) là một không gian con Lusin của E (GT, IX, § 6, No. 4, mệnh đề 11). Do đó theo GT, IX, § 6, No. 7, hệ quả của định lý 3, không gian E, là chính quy (GT, III, § 3, No. 1), là một không gian Lusin.
 
 #### Ví dụ 1 {#evt-iii-s6-n2-exa-1 .statement}
 
-— Mọi không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất đều là một không gian polish, do đó là một không gian Lusin. Do đó, các không gian $ \mathcal{C}(X) $ cũng vậy, trong đó X là địa phương compact và có một cơ sở đếm được (tôpô của $ \mathcal{C}(X) $ là tôpô hội tụ compact, xem GT, X, § 3, No. 3, hệ quả and § 1, No. 6, hq. 3); \* các không gian $ \mathcal{C}_0^\infty(U) $, trong đó U là một tập con mở của $ \mathbf{R}^n $ (III, p. 9) và $ \mathcal{H}(U) $, trong đó U là một tập con mở của $ \mathbf{C}^n $ (III, p. 10).
+Mọi không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất đều là một không gian polish, do đó là một không gian Lusin. Do đó, các không gian $ \mathcal{C}(X) $ cũng vậy, trong đó X là địa phương compact và có một cơ sở đếm được (tôpô của $ \mathcal{C}(X) $ là tôpô hội tụ compact, cf. GT, X, § 3, No. 3, hệ quả và § 1, No. 6, hệ quả 3); \* các không gian $ \mathcal{C}_0^\infty(U) $, trong đó U là một tập hợp mở của $ \mathbf{R}^n $ (III, p. 9) và $ \mathcal{H}(U) $, trong đó U là một tập hợp mở của $ \mathbf{C}^n $ (III, p. 10).
 
-Mệnh đề 1 cho thấy rằng các không gian $ \mathcal{C}_0^\infty(U) $, trong đó U là một tập mở trong $ \mathbf{R}^n $, $ \mathcal{G}_s(I) $, trong đó I là một khoảng compact trong $ \mathbf{R} $ và $ s \geq 1 $, và $ \mathcal{H}(K) $, trong đó K là một tập con compact của $ \mathbf{C}^n $ đều là các không gian Lusin (III, p. 10). \*
+Mệnh đề 1 cho thấy rằng các không gian $ \mathcal{C}_0^\infty(U) $, trong đó U là một tập hợp mở trong $ \mathbf{R}^n $, $ \mathcal{G}_s(I) $, trong đó I là một khoảng compact trong $ \mathbf{R} $ và $ s \geq 1 $, và $ \mathcal{H}(K) $, trong đó K là một tập con compact của $ \mathbf{C}^n $ đều là các không gian Lusin (III, p. 10). \*
 
 #### Định lý 2 {#evt-iii-s6-thm-2 .statement}
 

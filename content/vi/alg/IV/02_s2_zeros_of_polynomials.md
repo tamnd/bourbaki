@@ -26,10 +26,10 @@ subsections:
       pdf_page: 26
 statements: 19
 exercises: 5
-content_sha256: cd978c8ab04374e8aea526d9383d94004e5921a190c24231ef80084ba7170790
+content_sha256: b0d5f66a1220ec67ec82120406d3b7558532475e835544f6757469622c91349a
 translated_from: content/en/alg/IV/02_s2_zeros_of_polynomials.md
-source_content_sha256: 4d07e5496ffa92896b6a8af8eb86890619c755fca813fec2af0ea6af12a558a0
-translation_model: gpt-5.4
+source_content_sha256: 8d0335eecb42b2e149eb6aac4d5d9373decfe3986e5c6770a233303e929f0f7f
+translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-d00ab518
 glossary_version: 34
 glossary_terms_sha256: 37f4db831b1d3735eebc06a4e8d6115867d591372884726c453b2737ca1ef1cc
@@ -58,18 +58,18 @@ Thật vậy, nếu $ u,\ v \in \mathbf{A}[X] $ sao cho $ f = (X - \alpha)\ u + 
 
 #### Mệnh đề 3 {#alg-iv-s2-prop-3 .statement}
 
-— *Cho $ f $ là một phần tử khác không của $ \mathbf{A}[X] $ và $ a \in \mathbf{A} $. Tồn tại đúng một số nguyên $ h \geq 0 $ thỏa mãn các điều kiện (i) và (ii) của Mệnh đề 2.*
-Điều này là hiển nhiên đối với điều kiện (i), nếu lưu ý rằng nếu f chia được cho $ (X - \alpha)^h $, thì $ \deg f \geq h $ (IV, p. 9, Mệnh đề 7).
+— *Cho $ f $ là một phần tử khác không của $ \mathbf{A}[X] $ và $ a \in \mathbf{A} $. Tồn tại duy nhất một số nguyên $ h \geq 0 $ thỏa mãn các điều kiện (i) và (ii) của Mệnh đề 2.*
+Điều này hiển nhiên đối với điều kiện (i), lưu ý rằng nếu f chia được cho $ (X - \alpha)^h $, thì $ \deg f \geq h $ (IV, p. 9, Mệnh đề 7).
 
 #### Định nghĩa 1 {#alg-iv-s2-def-1 .statement}
 
-— *Với ký hiệu trên, ta nói rằng $ a $ có cấp $ h $, hoặc bội số $ h $ đối với $ f $.*
-Nếu $ h > 0 $ ta cũng nói rằng $ a $ là một nghiệm cấp $ h $ hoặc bội số $ h $ của f. Một nghiệm cấp 1 được gọi là nghiệm đơn, một nghiệm cấp 2 là nghiệm kép,... Một nghiệm có cấp $ > 1 $ được gọi là bội.
+— *Với ký hiệu trên, ta nói rằng $ a $ có cấp $ h $, hay bội số $ h $ đối với $ f $.*
+Nếu $ h > 0 $ ta cũng nói rằng $ a $ là một nghiệm cấp $ h $ hay bội số $ h $ của f. Một nghiệm cấp 1 được gọi là một nghiệm đơn, một nghiệm cấp 2 là một nghiệm kép,... Một nghiệm có cấp $ > 1 $ được gọi là bội.
 
-#### Nhận xét {#alg-iv-s2-n1-rem-1 .statement}
+#### Nhận xét 1 {#alg-iv-s2-n1-rem-1 .statement}
 
-— 1) Nếu $ f = 0 $ thì ta quy ước nói rằng $ a $ có cấp $ \geq h $ đối với $ f $, với mọi $ a \in \mathbf{A} $ và số nguyên $ h \geq 0 $. Với mọi $ f \in \mathbf{A}[X] $ và $ a \in \mathbf{A} $, nói rằng $ a $ có cấp $ \geq h $ đối với $ f $ có nghĩa là $ (X - \alpha)^h $ chia hết $ f $.
-2) Cho $ B $ là một vành giao hoán chứa $ \mathbf{A} $ như vành con. Cho $ f \in \mathbf{A}[X] $ khác không và $ a \in \mathbf{A} $. Cấp của $ a $ đối với $ f $ là như nhau, dù ta coi $ f $ như phần tử của $ B[X] $ hay như phần tử của $ \mathbf{A}[X] $. Điều này hiển nhiên từ điều kiện (ii) của Mệnh đề 2.
+Nếu $ f = 0 $ ta quy ước nói rằng $ a $ có cấp $ \geq h $ đối với $ f $, với mọi $ a \in \mathbf{A} $ và số nguyên $ h \geq 0 $. Với mọi $ f \in \mathbf{A}[X] $ và $ a \in \mathbf{A} $, nói rằng $ a $ có cấp $ \geq h $ đối với $ f $ có nghĩa là $ (X - \alpha)^h $ chia hết $ f $.
+2) Cho $ B $ là một vành giao hoán chứa $ \mathbf{A} $ như vành con. Cho $ f \in \mathbf{A}[X] $ là khác không và $ a \in \mathbf{A} $. Cấp của $ a $ đối với $ f $ là như nhau, dù ta xét $ f $ như một phần tử của $ B[X] $ hay như một phần tử của $ \mathbf{A}[X] $. Điều này hiển nhiên từ điều kiện (ii) của Mệnh đề 2.
 
 #### Mệnh đề 4 {#alg-iv-s2-prop-4 .statement}
 
