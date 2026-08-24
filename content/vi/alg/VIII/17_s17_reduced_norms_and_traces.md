@@ -10,7 +10,7 @@ source: alg-viii
 source_edition: 2023, Springer Nature
 book_pages: A VIII.335-A VIII.353
 pdf_pages: 0352-0370
-extraction: native
+extraction: native+ocr
 subsections:
     - "no": 1
       title: Complements on Characteristic Polynomials
@@ -36,83 +36,84 @@ subsections:
       title: Reduced Norms and Determinants
       page: 349
       pdf_page: 366
-statements: 31
+statements: 30
 exercises: 7
-content_sha256: 7ac813460203a961413e3cc9a614b2e35301733d8e705a6d0e57fa58b1a5ce80
+content_sha256: cf54e0fca6eaa9208d844a14c62fb66990eb007626a448cdb8abb1dd6688a423
 translated_from: content/en/alg/VIII/17_s17_reduced_norms_and_traces.md
-source_content_sha256: 529c839d9d719a0d0fd218d2a76a415c6319f2a161ab9d6029bccf6e39d1b9e2
-translation_model: gpt-5.4, copied
+source_content_sha256: 11f069df657704342996d2122efce87e5dccfa6a1cfa49a5616defd552614a6d
+translation_model: gpt-5-6, gpt-5.4, copied
 translation_run: translate-vi-02ef20f9
 glossary_version: 34
-glossary_terms_sha256: 0c14971d08369d7144bb732a7eee848e640d57ac191e1575f0af68d6907ce8bd
+glossary_terms_sha256: 181915ac1ce0d19e06964343acbfed0ff77ea19ad561b6fb5654494979494c95
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
 ## § 17. CÁC CHUẨN VÀ VẾT RÚT GỌN
 
-Trong tiết này, K là một trường giao hoán và A là một đại số đơn tâm trên K có bậc hữu hạn. Ta ký hiệu bậc rút gọn của A bởi $n$.
+Trong tiết diện này, K là một trường giao hoán và A là một đại số đơn tâm trên K có bậc hữu hạn. Ta ký hiệu bậc rút gọn của A bởi $n$.
 
-### 1. Bổ sung về các đa thức đặc trưng
+### 1. Các bổ sung về các đa thức đặc trưng
 
-Cho L là một vành giao hoán và M là một L-môđun tự do hạng hữu hạn $m$. Nếu $u$ là một tự đồng cấu của M và $r$ là một số tự nhiên, thì ta ký hiệu bởi $c_r(u)$ vết của tự đồng cấu $\wedge^r(u)$ của L-môđun tự do $\wedge^r(M)$. Đặc biệt, ta có
+Cho L là một vành giao hoán và M là một L-môđun tự do có hạng hữu hạn $m$. Nếu $u$ là một tự đồng cấu của M và $r$ là một số tự nhiên, thì ta ký hiệu $c_r(u)$ là vết của tự đồng cấu $\wedge^r(u)$ của L-môđun tự do $\wedge^r(M)$. Đặc biệt, ta có
 
 (1) $c_0(u) = 1,c_1(u) =$ Tr($u$)$,c_m(u) =$ det($u$),
 
-và $c_r(u) = 0$ với $r > m$. Theo Mệnh đề 7 của III, §8, No. 4, p. 527, ánh xạ $u\mapsto$ det($u$) từ End(M) vào L là một ánh xạ đa thức thuần nhất bậc $m$ (IV, §5, No. 9, p. 55). Nói chung hơn, với mọi số nguyên $r$ sao cho $0\leqslant r\leqslant m$, ánh xạ $c_r$ từ End(M) vào L là một ánh xạ đa thức thuần nhất bậc $r$; điều này suy ra từ Mệnh đề 10 của III, §8, No. 5, p. 529.
+và $c_r(u) = 0$ với $r > m$. Theo Mệnh đề 7 của III, §8, No. 4, p. 527, ánh xạ $u\mapsto$ det($u$) từ End(M) vào L là một ánh xạ đa thức thuần nhất bậc $m$ (IV, §5, No. 9, p. 55). Nói chung, với mọi số nguyên $r$ sao cho $0\leqslant r\leqslant m$, ánh xạ $c_r$ từ End(M) vào L là một ánh xạ đa thức thuần nhất bậc $r$; điều này suy ra từ Mệnh đề 10 của III, §8, No. 5, p. 529.
 
-Cho $u$ là một tự đồng cấu của M và $\overline{u}$ là tự đồng cấu của L[X]-môđun $M[X] = M\otimes_LL[X]$ suy ra từ $u$ bởi phép mở rộng vô hướng (II, §5, No. 1, p. 277). Nhắc lại (III, §8, No. 11, p. 541, Định nghĩa 3 và (50)) rằng đa thức đặc trưng của $u$ là định thức $\chi_u(X)$ của tự đồng cấu L[X] $X-\overline{u}$ của M[X] và rằng ta có quan hệ
+Cho $u$ là một tự đồng cấu của M và $\overline{u}$ là tự đồng cấu của L[X]-môđun $M[X] = M\otimes_LL[X]$ suy ra từ $u$ bởi mở rộng vô hướng (II, §5, No. 1, p. 277). Nhắc lại rằng (III, §8, No. 11, p. 541, Định nghĩa 3 và (50)) đa thức đặc trưng của $u$ là định thức $\chi_u(X)$ của tự đồng cấu L[X] $X-\overline{u}$ của M[X] và ta có quan hệ
 
 $$
 \chi_u(X) =\sum_{r=0}^m(-1)^rc_r(u) X^{m-r} \tag{2}
 $$
 
-#### Mệnh đề 1 {#alg-viii-s17-prop-1 .statement tag=00KD}
-
-Cho L là một vành giao hoán, M là một L-môđun tự do hạng hữu hạn $m\geqslant 1$, và $u$ là một tự đồng cấu của M. Tồn tại một tự đồng cấu duy nhất $\widetilde{u}$ của M thỏa mãn quan hệ
+Mệnh đề 1. — Cho L là một vành giao hoán, M là một L-môđun tự do có hạng hữu hạn m $ \geqslant 1 $, và u là một tự đồng cấu của M. Tồn tại một tự đồng cấu duy nhất $ \tilde{u} $ của M thỏa mãn quan hệ
 
 $$
-\widetilde{u}(x)\wedge w=x\wedge \wedge^{m-1}(u)(w) \tag{3}
+\tilde{u}(x) \wedge w = x \wedge \wedge^{m-1}(u)(w)
 $$
 
-với $x\in M$ và $w\in \wedge^{m-1}(M)$. Hơn nữa, ta có các quan hệ
-
-(4) $u\circ \widetilde{u}=\widetilde{u}\circ u=$ det($u$)$_M$,
-
-(5) det($\widetilde{u}$) $=$ det($u$)$^{m-1}$,
+với $ x \in M $ và $ w \in \wedge^{m-1}(M) $. Hơn nữa, ta có các quan hệ
 
 $$
-\widetilde{u}=\sum^{m-1}_{r=0}(-1)^rc_{m-1-r}(u)u^r \tag{6}
+u \circ \tilde{u} = \tilde{u} \circ u = \det(u)_M,
+$$
+$$
+\det(\tilde{u}) = \det(u)^{m-1},
+$$
+$$
+\tilde{u} = \sum_{r=0}^{m-1} (-1)^r c_{m-1-r}(u) u^r.
 $$
 
 #### Bổ đề 1 {#alg-viii-s17-lem-1 .statement tag=00KE}
 
-Cho $p$ là một số nguyên sao cho $0\leqslant p\leqslant m$. Với mọi $w$ trong $\wedge^p(M)$, gọi $h_p(w)$ là ánh xạ tuyến tính $w'\mapsto w\wedge w'$ từ $\wedge^{m-p}(M)$ vào $\wedge^m(M)$. Ánh xạ tuyến tính $h_p:w\mapsto h_p(w)$ từ $\wedge^p(M)$ vào Hom$_L(\wedge^{m-p}(M),\wedge^m(M))$ là một đẳng cấu.
+— Cho p là một số nguyên sao cho $ 0 \leqslant p \leqslant m $. Với mọi w thuộc $ \wedge^p(M) $, đặt $ h_p(w) $ là ánh xạ tuyến tính $ w' \mapsto w \wedge w' $ từ $ \wedge^{m-p}(M) $ vào $ \wedge^m(M) $. Ánh xạ tuyến tính $ h_p : w \mapsto h_p(w) $ từ $ \wedge^p(M) $ vào $ \operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M)) $ là một đẳng cấu.
 
-Cho $(e_i)_{i\in I}$ là một cơ sở của M; ta trang bị cho tập hợp I một thứ tự toàn phần. Với mọi tập con J của I, đặt $e_J=e_{i_1}\wedge  \cdots  \wedge e_{i_r}$, trong đó $(i_1, . . . , i_r)$ là dãy các phần tử của J theo thứ tự tăng. L-môđun $\wedge^{m-p}(M)$ có làm cơ sở các phần tử $e_S$, trong đó S chạy qua tập hợp các tập con của I có $m-p$ phần tử; $\wedge^m(M)$ có $\{e_I\}$ làm cơ sở. Do đó, tồn tại một cơ sở của Hom$_L(\wedge^{m-p}(M),\wedge^m(M))$ gồm các ánh xạ tuyến tính $e^*_J$ được đặc trưng bởi công thức
-
-$_*e_I$ nếu $I = J\cup S$,
+Cho $ (e_i)_{i \in I} $ là một cơ sở của M; ta trang bị cho tập hợp I một thứ tự toàn phần. Với mọi tập con J của I, đặt $ e_J = e_{i_1} \wedge \cdots \wedge e_{i_r} $, trong đó $ (i_1, \ldots, i_r) $ là dãy các phần tử của J theo thứ tự tăng. L-môđun $ \wedge^{m-p}(M) $ nhận các phần tử $ e_S $ làm một cơ sở, trong đó S chạy qua tập hợp các tập con của I có $ m - p $ phần tử; $ \wedge^m(M) $ có $ \{e_I\} $ làm một cơ sở. Do đó, tồn tại một cơ sở của $ \operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M)) $ gồm các ánh xạ tuyến tính $ e_J^* $ được đặc trưng bởi công thức
 
 $$
-e_J(e_S) = \tag{7}
+e_J^*(e_S) = \begin{cases}
+e_I & \text{nếu } I = J \cup S, \\
+0 & \text{nếu không},
+\end{cases}
 $$
 
-0 trong trường hợp khác ,
+trong đó J chạy qua tập hợp các tập con của I có p phần tử. Từ công thức (20) của III, §7, No. 8, p. 519 suy ra rằng với mọi tập con J của I có p phần tử, ta có $ h_p(e_J) \in \{e_J^*, -e_J^*\} $; vì các phần tử $ e_J $ lập thành một cơ sở của $ \wedge^p(M) $, ánh xạ tuyến tính $ h_p $ là song ánh.
 
-trong đó J chạy qua tập hợp các tập con của I có $p$ phần tử. Suy ra từ công thức (20) của III, §7, No. 8, p. 519 rằng với mọi tập con J của I có $p$ phần tử, ta có $h_p(e_J)\in  \{e^*_J,-e^*_J\}$; vì các phần tử $e_J$ tạo thành một cơ sở của $\wedge^p$(M), ánh xạ tuyến tính $h_p$ là song ánh.
+Bây giờ chứng minh Mệnh đề 1. Cho u và $ \tilde{u} $ là các tự đồng cấu của M. Quan hệ (3) tương đương với
 
-Bây giờ ta chứng minh Mệnh đề 1. Cho $u$ và $\widetilde{u}$ là các tự đồng cấu của M. Quan hệ (3) tương đương với
+$$
+h_1 \circ \tilde{u} = \operatorname{Hom}(\wedge^{m-1}(u) \cdot 1_{\wedge^m(M)}) \circ h_1;
+$$
 
-(8) $h_1\circ \widetilde{u}=$ Hom($\wedge^{m-1}(u)\cdot 1\wedge^{^m}_{(M)}$)$\circ h_1$;
+ánh xạ $ h_1 $ là một đẳng cấu từ M lên $ \operatorname{Hom}_L(\wedge^{m-1}(M), \wedge^m(M)) $ theo Bổ đề 1. Do đó, với mọi tự đồng cấu u của M, tồn tại một tự đồng cấu duy nhất $ \tilde{u} $ của M thỏa mãn quan hệ (3).
 
-ánh xạ $h_1$ là một đẳng cấu từ M lên Hom$_L(\wedge^{m-1}(M),\wedge^m(M))$ theo Bổ đề 1. Do đó, với mọi tự đồng cấu $u$ của M, tồn tại một tự đồng cấu duy nhất $\widetilde{u}$ của M thỏa mãn quan hệ (3).
-
-Cho $x_1, . . . , x_m$ là các phần tử của M. Hãy thay thế $x$ bằng $u(x_1)$ và $w$ bằng $x_2\wedge  \cdots  \wedge x_m$ trong (3); ta được
+Cho $x_1, . . . , x_m$ là các phần tử của M. Hãy thay thế $x$ bằng $u(x_1)$ và $w$ bằng $x_2\wedge  \cdots  \wedge x_m$ trong (3); ta thu được
 
 $\widetilde{u}(u(x_1))\wedge x_2\wedge  \cdots  \wedge x_m=u(x_1)\wedge  \cdots  \wedge u(x_m) =$ det($u$)$x_1\wedge  \cdots  \wedge x_m$.
 
-Do đó, $h_1(\widetilde{u}\circ u(x_1)) =h_1$(det($u$)$x_1$), điều này cho quan hệ $\widetilde{u}\circ u=$ det($u$)$_M$ theo Bổ đề 1.
+Do đó, $h_1(\widetilde{u}\circ u(x_1)) =h_1$(det($u$)$x_1$), điều đó cho quan hệ $\widetilde{u}\circ u=$ det($u$)$_M$ theo Bổ đề 1.
 
-Ta ký hiệu bởi U tự đồng cấu $X-\overline{u}$ của L[X]-môđun M[X] (VIII, p. 335). Theo điều trên áp dụng cho U, tồn tại một tự đồng cấu $\widetilde{U}$ của L[X]-môđun M[X] thỏa mãn các quan hệ
+Ta ký hiệu bởi U tự đồng cấu $X-\overline{u}$ của L[X]-môđun M[X] (VIII, p. 335). Theo điều trên khi áp dụng cho U, tồn tại một tự đồng cấu $\widetilde{U}$ của L[X]-môđun M[X] thỏa mãn các quan hệ
 
 $$
 \widetilde{U}(x_1)\wedge x_2\wedge  \cdots  \wedge x_m=x_1\wedge (Xx_2-u(x_2))\wedge  \cdots  \wedge (Xx_m-u(x_m)) \tag{9}
@@ -122,19 +123,19 @@ với $x_1, . . . , x_m$ trong M và
 
 (10) $\widetilde{U}\circ U =$ det(X $-\overline{u}$)$_{M[X]}$.
 
-Hãy xem $\widetilde{U}$ như một phần tử của End(M)[X] (VIII, p. 9); theo công thức (9) và Bổ đề 1, nó có bậc $\leqslant m-1$, nên ta có thể viết nó dưới dạng
+Hãy xem $\widetilde{U}$ như một phần tử của End(M)[X] (VIII, p. 9); theo công thức (9) và Bổ đề 1, nó có bậc $\leqslant m-1$, vì vậy ta có thể viết nó thành
 
 $$
 \widetilde{U} =\sum^{m-1}_{r=0}(-1)^ru_rX^{m-1-r} \tag{11}
 $$
 
-trong đó các $u_r$ là những tự đồng cấu của M. Theo công thức (2), quan hệ (10) cho đẳng thức
+trong đó các $u_r$ là các nội tự đồng cấu của M. Theo công thức (2), quan hệ (10) cho đẳng thức
 
 $$
 (\sum^{m-1}_{r=0}(-1)^ru_rX^{m-1-r})(X-u) =\sum_{r=0}^m(-1)^rc_r(u)X^{m-r} \tag{12}
 $$
 
-trong vành End(M)[X]. Bằng cách đồng nhất các hệ số của các đơn thức theo X ở mỗi vế, ta thu được các quan hệ
+trong vành End(M)[X]. Khi đồng nhất các hệ số của các đơn thức theo X ở mỗi vế, ta thu được các quan hệ
 
 (13) $u_r+u_{r-1}\circ u=c_r(u)_M$ với $1\leqslant r\leqslant m-1$
 
@@ -144,17 +145,17 @@ $$
 u_0=c_0(u)_M,u_{m-1}\circ u=c_m(u)_M \tag{14}
 $$
 
-Từ đó, ta suy ra
+Từ đó, suy ra
 
 $$
 u_{m-1}=\sum^{m-1}_{r=0}(-1)^rc_{m-1-r}(u)u^r \tag{15}
 $$
 
-Bây giờ, khi đồng nhất các hằng số, các đẳng thức (9) và (11) suy ra $u_{m-1}=\widetilde{u}$; công thức (6) được suy ra.
+Bây giờ, khi ta đồng nhất các hạng hằng, các đẳng thức (9) và (11) suy ra $u_{m-1}=\widetilde{u}$; công thức (6) được suy ra.
 
 Đặc biệt, $\widetilde{u}$ thuộc đại số con của End(M) sinh bởi $u$ và do đó giao hoán với $u$. Ta đã thiết lập quan hệ $\widetilde{u}\circ u=$ det($u$)$_M$; công thức (4) được suy ra.
 
-Cuối cùng, cho $x_1, . . . , x_m$ là các phần tử của M. Ta thay thế $x$ bởi $x_1$ và $w$ bởi $\widetilde{u}(x_2)\wedge  \cdots  \wedge \widetilde{u}(x_m)$ trong công thức (3). Ta được
+Cuối cùng, cho $x_1, . . . , x_m$ là các phần tử của M. Ta thay $x$ bằng $x_1$ và $w$ bằng $\widetilde{u}(x_2)\wedge  \cdots  \wedge \widetilde{u}(x_m)$ trong công thức (3). Điều này cho
 
 $$
 \widetilde{u}(x_1)\wedge \widetilde{u}(x_2)\wedge  \cdots  \wedge \widetilde{u}(x_m) =x_1\wedge u\circ (\widetilde{u}(x_2))\wedge  \cdots  \wedge u\circ (\widetilde{u}(x_m))
@@ -162,7 +163,7 @@ $$
 
 = det($u$)$^{m-1}x_1\wedge x_2\wedge  \cdots  \wedge x_m$
 
-và do đó công thức (5).
+và do đó là công thức (5).
 
 #### Nhận xét 1 {#alg-viii-s17-n1-rem-1 .statement tag=00KF}
 
@@ -170,11 +171,11 @@ Tự đồng cấu $\widetilde{u}$ của M trùng với cái mà chúng tôi đ�
 
 #### Nhận xét 2 {#alg-viii-s17-n1-rem-2 .statement tag=00KG}
 
-Từ các công thức (1), (2), (4) và (6), ta suy ra quan hệ $\chi_u(u) = 0$ và do đó một chứng minh khác của định lý Cayley–Hamilton (III, §8, No. 11, p. 541).
+Từ các công thức (1), (2), (4), và (6), ta suy ra quan hệ $\chi_u(u) = 0$ và do đó có một chứng minh khác của định lý Cayley–Hamilton (III, §8, No. 11, p. 541).
 
 #### Nhận xét 3 {#alg-viii-s17-n1-rem-3 .statement tag=00KH}
 
-Vì ánh xạ $c_r$ từ End(M) vào L là một ánh xạ đa thức thuần nhất bậc $r$ với $0\leqslant r\leqslant m-1$, nên từ công thức (6) suy ra rằng ánh xạ $u\mapsto \widetilde{u}$ từ End(M) vào End(M) là một ánh xạ đa thức thuần nhất bậc $m-1$.
+Vì ánh xạ $c_r$ từ End(M) vào L là một ánh xạ đa thức thuần nhất bậc $r$ với $0\leqslant r\leqslant m-1$, suy ra từ công thức (6) rằng ánh xạ $u\mapsto \widetilde{u}$ từ End(M) vào End(M) là một ánh xạ đa thức thuần nhất bậc $m-1$.
 
 Cho B là một đại số trên vành L; giả sử rằng B là một L-môđun tự do hạng $m\geqslant 1$, và đồng nhất L với vành con $L\cdot 1$ của B. Cho $b$ là một phần tử của B. Ta áp dụng điều trên cho tự đồng cấu $\gamma (b) :x\mapsto bx$ của L-môđun B. Đặt $\gamma_r(b) =c_r(\gamma (b))$ với $0\leqslant r\leqslant m$; đặc biệt, ta có $\gamma_m(b) = N_{B/L}(b)$ (III, §9, No. 3, p. 543). Đa thức đặc trưng của $b$ (loc. cit.) có thể viết thành
 
@@ -188,7 +189,7 @@ $$
 \widetilde{b}=\sum^{m-1}_{r=0}(-1)^r\gamma_{m-1-r}(b)b^r \tag{17}
 $$
 
-Theo Mệnh đề 1, ánh xạ tuyến tính $\gamma (\widetilde{b})$ từ B vào B là ánh xạ đối phụ của ánh xạ $\gamma (b)$; từ đó, ta suy ra
+Theo Mệnh đề 1, ánh xạ tuyến tính $\gamma (\widetilde{b})$ từ B vào B là đối chuyển vị của ánh xạ $\gamma (b)$; từ đó, suy ra
 
 $$
 b\widetilde{b}=\widetilde{b}b= N_{B/L}(b) \tag{18}
@@ -208,9 +209,9 @@ A) Tính duy nhất của P suy ra từ Bổ đề 2 dưới đây.
 
 #### Bổ đề 2 {#alg-viii-s17-lem-2 .statement tag=00KJ}
 
-Cho P và Q là các đa thức đơn khởi trong K[X] và $s$ là một số nguyên dương ngặt. Nếu $P^s= Q^s$, thì ta có P = Q.
+Cho P và Q là các đa thức đơn khởi trong K[X] và $s$ là một số nguyên dương. Nếu $P^s= Q^s$, thì ta có P = Q.
 
-Cho $\mathscr{I}$ là tập hợp các đa thức đơn nhất bất khả quy trong K[X]. Vì P và Q là đơn nhất, tồn tại các phần tử $(a_F)$ và $(b_F)$ của $\mathbf{N}^{(\mathscr{I})}$ sao cho ta có $P =\prod_{F\in\mathscr{I}}F^{a_F}$ và $Q =\prod_{F\in\mathscr{I}}F^{b_F}$. Suy ra từ đẳng thức $P^s= Q^s$ và tính duy nhất của phân tích thành các thừa số bất khả quy rằng ta có $sa_F=sb_F$ với mọi $F\in \mathscr{I}$. Vì $s$ là dương ngặt, do đó ta có $a_F=b_F$ với mọi $F\in \mathscr{I}$, và vì thế P = Q.
+Cho $\mathscr{I}$ là tập hợp các đa thức đơn nhất bất khả quy trong K[X]. Vì P và Q là đơn nhất, tồn tại các phần tử $(a_F)$ và $(b_F)$ của $\mathbf{N}^{(\mathscr{I})}$ sao cho ta có $P =\prod_{F\in\mathscr{I}}F^{a_F}$ và $Q =\prod_{F\in\mathscr{I}}F^{b_F}$. Từ đẳng thức $P^s= Q^s$ và tính duy nhất của phân tích thành các nhân tử bất khả quy, suy ra rằng ta có $sa_F=sb_F$ với mọi $F\in \mathscr{I}$. Vì $s$ là dương ngặt, do đó ta có $a_F=b_F$ với mọi $F\in \mathscr{I}$, và vì thế P = Q.
 
 B) Bây giờ chứng minh sự tồn tại của P.
 
@@ -220,7 +221,7 @@ Theo Định lý 1 của VIII, p. 252, tồn tại một mở rộng Galois L c�
 
 (19) Pc($a; X$) $= P(X)^n$.
 
-Cho G là nhóm Galois của L trên K. Với $\sigma \in G$, ký hiệu bởi $\overline{\sigma}$ tự đẳng cấu của vành L[X] trùng với $\sigma$ trên L và cố định X. Khi đó K[X] là tập hợp các đa thức Q của L[X] sao cho ta có $\overline{\sigma}(Q) = Q$ với mọi $\sigma \in G$ (V, §10, No. 1, p. 56, Định lý 1). Vì đa thức Pc($a; X$) $= P(X)^n$ thuộc K[X], nên ta có $\overline{\sigma}(P)^n= P^n$ với mọi $\sigma \in G$. Do đó, theo Bổ đề 2, ta có $\overline{\sigma}(P) = P$ với mọi $\sigma \in G$, vậy P thuộc K[X].
+Cho G là nhóm Galois của L trên K. Với $\sigma \in G$, ký hiệu bởi $\overline{\sigma}$ tự đẳng cấu của vành L[X] trùng với $\sigma$ trên L và cố định X. Khi đó K[X] là tập hợp các đa thức Q của L[X] sao cho ta có $\overline{\sigma}(Q) = Q$ với mọi $\sigma \in G$ (V, §10, No. 1, p. 56, Định lý 1). Vì đa thức Pc($a; X$) $= P(X)^n$ thuộc K[X], nên ta có $\overline{\sigma}(P)^n= P^n$ với mọi $\sigma \in G$. Theo Bổ đề 2, do đó ta có $\overline{\sigma}(P) = P$ với mọi $\sigma \in G$, vậy P thuộc K[X].
 
 #### Định nghĩa 1 {#alg-viii-s17-def-1 .statement tag=00RM}
 
@@ -238,7 +239,7 @@ Ta đặt
 
 #### Định nghĩa 2 {#alg-viii-s17-def-2 .statement tag=00KK}
 
-Ta gọi Trd$_{A/K}(a)$ là vết rút gọn của A và Nrd$_{A/K}(a)$ là chuẩn rút gọn của nó (đối với K-đại số A).
+Ta gọi Trd$_{A/K}(a)$ là vết rút gọn của A và Nrd$_{A/K}(a)$ là chuẩn rút gọn của nó (đối với đại số trên K A).
 
 Khi không có nguy cơ nhầm lẫn, ta bỏ A và K khỏi ký hiệu và chỉ viết Pcrd($a; X$), Trd($a$), và Nrd($a$).
 
@@ -250,19 +251,19 @@ Các công thức sau suy ra từ các công thức (20) và (22) và các công
 
 #### Mệnh đề 3 {#alg-viii-s17-prop-3 .statement tag=00KL}
 
-Một phần tử $a$ của A là khả nghịch nếu và chỉ nếu chuẩn rút gọn của nó khác không. Đặc biệt, A là một trường nếu và chỉ nếu ta có Nrd$_{A/K}(a)\not= 0$ với mọi phần tử khác không $a$ của A.
+Một phần tử $a$ của A là khả nghịch khi và chỉ khi chuẩn rút gọn của nó khác không. Đặc biệt, A là một trường khi và chỉ khi ta có Nrd$_{A/K}(a)\not= 0$ với mọi phần tử khác không $a$ của A.
 
-Một phần tử $a$ của A là khả nghịch nếu và chỉ nếu chuẩn của nó khác không (III, §9, No. 4, p. 545, Mệnh đề 3). Vậy Mệnh đề 3 suy ra từ công thức (24).
+Một phần tử $a$ của A là khả nghịch khi và chỉ khi chuẩn của nó khác không (III, §9, No. 4, p. 545, Mệnh đề 3). Do đó Mệnh đề 3 suy ra từ công thức (24).
 
 #### Nhận xét {#alg-viii-s17-n2-rem-1 .statement tag=00KM}
 
-Cho L là trường K(X) các phân thức hữu tỉ theo một biến X. Đa thức đặc trưng rút gọn của một phần tử $a$ của A đơn giản chính là chuẩn rút gọn của phần tử $X\otimes 1-1\otimes a$ của đại số trên L $A_{(L)}$. Điều này suy ra từ định nghĩa của đa thức đặc trưng rút gọn và công thức (III, §9, No. 3, p. 544)
+Cho L là trường K(X) các phân thức hữu tỉ theo một biến X. Đa thức đặc trưng rút gọn của một phần tử $a$ của A đơn giản là chuẩn rút gọn của phần tử $X\otimes 1-1\otimes a$ của đại số trên L $A_{(L)}$. Điều này suy ra từ định nghĩa của đa thức đặc trưng rút gọn và công thức (III, §9, No. 3, p. 544)
 
 (25) Pc$_{A/K}(a; X) = N_{A_{(L)}/L}(X\otimes 1-1\otimes a)$.
 
 #### Ví dụ 1 {#alg-viii-s17-n2-exa-1 .statement tag=00RN}
 
-Theo Định lý 1 của VIII, p. 120, tồn tại một số nguyên $r\geqslant 1$ và một trường D sao cho A đẳng cấu với $\mathbf{M}_r(D)$. Gọi $d$ là bậc thu gọn của D trên K; ta có $r=n/d$. Cho M là một A-môđun có độ dài hữu hạn $\ell$; ta sẽ chứng minh công thức
+Theo Định lý 1 của VIII, p. 120, tồn tại một số nguyên $r\geqslant 1$ và một trường D sao cho A đẳng cấu với $\mathbf{M}_r(D)$. Đặt $d$ là bậc thu gọn của D trên K; ta có $r=n/d$. Cho M là một A-môđun có độ dài hữu hạn $\ell$; ta sẽ chứng minh công thức
 
 (26) Pc$_{M/K}(a_M; X) =$ Pcrd$_{A/K}(a; X)^{d\ell}$
 
@@ -274,7 +275,7 @@ theo công thức (15) của III, §9, No. 2, p. 542. Vì ta có $rd=n$, công t
 
 #### Ví dụ 2 {#alg-viii-s17-n2-exa-2 .statement tag=00RO}
 
-Xét trường hợp riêng khi A là đại số End$_K(V)$ các tự đồng cấu của một không gian vectơ trên K hữu hạn chiều V. Lấy M là A-môđun đơn V, ta thu được các hệ thức
+Xét trường hợp riêng khi A là đại số End$_K(V)$ các tự đồng cấu của một không gian vectơ hữu hạn chiều V trên K. Lấy M là A-môđun đơn V, ta thu được các hệ thức
 
 Pcrd$_{A/K}(u; X) =\chi_u(X)$,
 
@@ -282,9 +283,9 @@ Pcrd$_{A/K}(u; X) =\chi_u(X)$,
 
 Trd$_{A/K}(u) =$ Tr($u$)
 
-với mọi tự đồng cấu $u$ của V.
+đối với mọi tự đồng cấu $u$ của V.
 
-### 3. Các tính chất của các chuẩn và vết rút gọn
+### 3. Các chuẩn và vết rút gọn
 
 #### Mệnh đề 4 {#alg-viii-s17-prop-4 .statement tag=00KN}
 
@@ -300,7 +301,7 @@ Cho L là một mở rộng của K và $a$ là một phần tử của đại s
 
 Hai vế của đẳng thức (28) có cùng lũy thừa bậc $n$ theo định nghĩa (công thức (20) của VIII, p. 340) và quan hệ
 
-Pc$_{A_{(L)}/L}(1\otimes a; X) =$ Pc$_{A/K}(a; X)$ (III, §9, No. 3, p. 544, công thức (21)). Vậy đẳng thức (28) suy ra từ Bổ đề 2 của VIII, p. 339. Các công thức (29) và (30) suy ra từ (28), (21), và (22).
+Pc$_{A_{(L)}/L}(1\otimes a; X) =$ Pc$_{A/K}(a; X)$ (III, §9, No. 3, p. 544, công thức (21)). Do đó đẳng thức (28) suy ra từ Bổ đề 2 của VIII, p. 339. Các công thức (29) và (30) suy ra từ (28), (21), và (22).
 
 #### Hệ quả 1 {#alg-viii-s17-prop-4-cor-1 .statement tag=00KO}
 
@@ -334,7 +335,7 @@ Nrd$_{A/K}(\lambda a) =\lambda^n$ Nrd$_{A/K}(a)$,
 
 (39) Trd$_{A/K}(1) =n$, Nrd$_{A/K}(1) = 1$.
 
-Vì A là đơn tâm và có bậc thu gọn $n$ trên K, tồn tại một mở rộng L của K và một không gian vectơ V có chiều $n$ trên L sao cho $A_{(L)}$ đẳng cấu với đại số End$_L(V)$ (VIII, p. 252, Định lý 1). Khi đó Hệ quả 2 suy ra từ Hệ quả 1 và các tính chất của vết và định thức của một tự đồng cấu. Đặc biệt, công thức (34) suy ra từ định lý Cayley-Hamilton (III, §8, No. 11, p. 541, Mệnh đề 20, xem thêm cả VIII, p. 338, Nhận xét 2).
+Vì A là đại số đơn tâm và có bậc thu gọn $n$ trên K, nên tồn tại một mở rộng L của K và một không gian vectơ V chiều $n$ trên L sao cho $A_{(L)}$ đẳng cấu với đại số End$_L(V)$ (VIII, p. 252, Định lý 1). Hệ quả 2 khi đó suy ra từ Hệ quả 1 và các tính chất của vết và định thức của một tự đồng cấu. Đặc biệt, công thức (34) suy ra từ định lý Cayley– Hamilton (III, §8, No. 11, p. 541, Mệnh đề 20, xem thêm VIII, p. 338, Nhận xét 2).
 
 #### Hệ quả 3 {#alg-viii-s17-prop-4-cor-3 .statement tag=00RP}
 
@@ -346,15 +347,15 @@ Cho $A^o$ là đại số đối của A. Với mọi $a$ trong A, ta có
 
 (42) Nrd$_{A^o/K}(a) =$ Nrd$_{A/K}(a)$.
 
-Chọn một mở rộng L của K, một không gian vectơ V chiều $n$ trên L, và một đồng cấu $\theta$ từ A vào End$_L(V)$ (VIII, p. 252, Định lý 1). Gọi $V^*$ là không gian đối ngẫu của V. Ánh xạ gửi một phần tử $a$ của A tới tự đồng cấu $^t\theta (a)$ của $V^*$ là một đồng cấu đại số trên K từ $A^o$ vào End$_L(V^*)$. Khi đó Hệ quả 3 suy ra từ Hệ quả 1 và Hệ quả 3 của III, §8, No. 4, p. 528.
+Chọn một mở rộng L của K, một không gian vectơ V có chiều $n$ trên L, và một đồng cấu $\theta$ từ A vào End$_L(V)$ (VIII, p. 252, Định lý 1). Gọi $V^*$ là không gian vectơ đối ngẫu của V. Ánh xạ gửi một phần tử $a$ của A tới tự đồng cấu $^t\theta (a)$ của $V^*$ là một đồng cấu đại số trên K từ $A^o$ vào End$_L(V^*)$. Khi đó Hệ quả 3 suy ra từ Hệ quả 1 và Hệ quả 3 của III, §8, No. 4, p. 528.
 
-Vì thế vết, chuẩn, và đa thức đặc trưng của $a$ đều như nhau dù ta xem $a$ như một phần tử của A hay như một phần tử của $A^o$. Tính chất này không phải lúc nào cũng đúng khi A không được giả thiết là đơn tâm (III, §9, p. 644, Bài tập 1).
+Vì thế vết, chuẩn và đa thức đặc trưng của $a$ là như nhau dù ta xem $a$ như một phần tử của A hay như một phần tử của $A^o$. Tính chất này không phải lúc nào cũng đúng khi A không được giả thiết là đơn tâm (III, §9, p. 644, Bài tập 1).
 
 #### Mệnh đề 5 {#alg-viii-s17-prop-5 .statement tag=00KQ}
 
-Với mọi $x$ thuộc A, gọi $t_x$ là dạng tuyến tính $y\mapsto$ Trd$_{A/K}(xy)$ trên A.
+Với mọi $x$ trong A, đặt $t_x$ là dạng tuyến tính $y\mapsto$ Trd$_{A/K}(xy)$ trên A.
 
-a) Ánh xạ $t:x\mapsto t_x$ là một đẳng cấu $(A,A)$-songmôđun từ A lên đối ngẫu Hom$_K(A,K)$ của nó.
+a) Ánh xạ $t:x\mapsto t_x$ là một đẳng cấu các $(A,A)$-song môđun từ A lên đối ngẫu của nó Hom$_K(A,K)$.
 
 b) Cho $h$ là một dạng tuyến tính trên A. Các tính chất sau là tương đương:
 
@@ -364,7 +365,7 @@ với mọi $x\in A$.
 
 (ii) Ta có $h(xy) =h(yx)$ với mọi $x, y$ trong A.
 
-Nhớ lại (II, §1, No. 14, p. 225–226) rằng cấu trúc song môđun $(A$, A) trên $A^*=$ Hom$_K(A,K)$ được định nghĩa bởi quan hệ
+Nhắc lại rằng (II, §1, No. 14, p. 225–226) cấu trúc song môđun $(A$, A)-trên $A^*=$ Hom$_K(A,K)$ được xác định bởi quan hệ
 
 $$
 \langle atb, c\rangle =\langle t, bca\rangle \tag{43}
@@ -376,19 +377,19 @@ $\langle at_xb, c\rangle =\langle t_x, bca\rangle =$ Trd$_{A/K}(xbca)$,
 
 $\langle t_{axb}, c\rangle =$ Trd$_{A/K}(axbc)$,
 
-và hai phần tử này bằng nhau theo công thức (37) của VIII, p. 342. Do đó ta có $at_xb=t_{axb}$, điều này có nghĩa là $t$ là một đồng cấu của các $(A$, A)-song môđun từ A đến $A^*$.
+và hai phần tử này bằng nhau theo công thức (37) của VIII, p. 342. Do đó ta có $at_xb=t_{axb}$, điều đó có nghĩa là $t$ là một đồng cấu của $(A$, A)-song môđun từ A vào $A^*$.
 
-Ta chọn một mở rộng L của trường K và một đẳng cấu $\theta$ từ L-đại số $A_{(L)}$ lên đại số ma trận $\mathbf{M}_n(L)$ (VIII, p. 252, Định lý 1). Ta đồng nhất không gian vectơ $(A^*)_{(L)}$ với đối ngẫu của không gian vectơ $A_{(L)}$ trên trường L. Theo Mệnh đề 4 của VIII, p. 341, với các quy ước này, ta có
+Ta chọn một mở rộng L của trường K và một đẳng cấu $\theta$ từ L-đại số $A_{(L)}$ lên đại số ma trận $\mathbf{M}_n(L)$ (VIII, p. 252, Định lý 1). Ta đồng nhất không gian vectơ $(A^*)_{(L)}$ với đối ngẫu của không gian vectơ $A_{(L)}$ trên trường L. Theo Mệnh đề 4 của VIII, p. 341, với những quy ước này, ta có
 
 (44) Trd$_{A_{(L)}/L}= 1_L\otimes$ Trd$_{A/K}$.
 
-Gọi $t_{(L)}$ là ánh xạ tuyến tính trên L từ $A_{(L)}$ vào $A^*_{(L)}$ suy ra từ $t$ bằng phép mở rộng vô hướng; theo công thức (44) và Hệ quả 1, ta có
+Gọi $t_{(L)}$ là ánh xạ L-tuyến tính từ $A_{(L)}$ vào $A^*_{(L)}$ suy ra từ $t$ bởi phép mở rộng vô hướng; theo công thức (44) và Hệ quả 1, ta có
 
 (45) $\langle t_{(L)}(x), y\rangle =$ Trd$_{A_{(L)}/L}(xy) =$ Tr($\theta (x)\theta (y)$)
 
 với $x, y$ trong $A_{(L)}$. Theo Mệnh đề 7 của II, §10, No. 11, p. 358, ánh xạ $t_{(L)}$ là song ánh; do đó $t$ là song ánh. Ta đã chứng minh a).
 
-Cho $h$ thuộc $A^*$; theo trên, tồn tại một phần tử $a$ của A sao cho $h$ bằng $t_a$. Theo a), ta có
+Cho $h$ thuộc $A^*$; theo điều trên, tồn tại một phần tử $a$ của A sao cho $h$ bằng $t_a$. Theo a), ta có
 
 $$
 h(xy)-h(yx) =t_a(xy-yx) =t_{ax}(y)-t_{xa}(y)
@@ -398,7 +399,7 @@ Do đó, quan hệ “$h(xy) =h(yx)$ với $x, y$ trong A” là tương đươn
 
 #### Hệ quả {#alg-viii-s17-n3-cor-1 .statement tag=00KR}
 
-Không gian con tuyến tính của A được sinh bởi các phần tử có dạng $xy-yx$, khi $x$ và $y$ chạy qua A, là một siêu phẳng, hạt nhân của dạng tuyến tính khác không Trd$_{A/K}$.
+Không gian con tuyến tính của A sinh bởi các phần tử dạng $xy-yx$, trong đó $x$ và $y$ chạy qua A, là một siêu phẳng, hạt nhân của dạng tuyến tính khác không Trd$_{A/K}$.
 
 #### Nhận xét {#alg-viii-s17-n3-rem-1 .statement tag=00KS}
 
@@ -408,15 +409,15 @@ Tr$_{A/K}(a) =n$ Trd$_{A/K}(a)$
 
 với mọi $a\in A$. Nếu đặc số của trường K bằng 0 hoặc là một số nguyên tố $p$ không chia hết $n$, thì ta có thể thay thế vết rút gọn bằng vết trong Mệnh đề 5. Mặt khác, nếu đặc số của K là một số nguyên tố chia hết $n$, thì ta có Tr$_{A/K}(a) = 0$ với mọi $a\in A$.
 
-### 4. Chuẩn Rút Gọn là một Hàm Đa Thức
+### 4. Chuẩn rút gọn là một hàm đa thức
 
 #### Bổ đề 3 {#alg-viii-s17-lem-3 .statement tag=00KT}
 
-Cho L là một mở rộng của K, và cho I là một tập hợp và $\mathbf{T}= (T_i)_{i\in I}$ một họ biến. Ta có $K(\mathbf{T})\cap L[\mathbf{T}] = K[\mathbf{T}]$.
+Cho L là một mở rộng của K, và cho I là một tập hợp và $\mathbf{T}= (T_i)_{i\in I}$ là một họ các biến. Ta có $K(\mathbf{T})\cap L[\mathbf{T}] = K[\mathbf{T}]$.
 
 Cho P và Q là các phần tử của $K[\mathbf{T}]$ với $Q\not= 0$. Các hệ số của các đa thức R trong $L[\mathbf{T}]$ sao cho P = QR là các nghiệm của một hệ phương trình tuyến tính với các hệ số trong K. Do đó, nếu tồn tại một đa thức $R\in L[\mathbf{T}]$ sao cho P = QR, thì cũng tồn tại một đa thức như vậy trong $K[\mathbf{T}]$ (II, §8, No. 5, p. 321, Mệnh đề 6). Điều này chứng minh bao hàm $K(\mathbf{T})\cap L[\mathbf{T}]\subset K[\mathbf{T}]$; bao hàm ngược lại là hiển nhiên.
 
-Nhắc lại rằng đa thức đặc trưng rút gọn của một phần tử $a$ của A có thể được viết là
+Nhắc lại rằng đa thức đặc trưng rút gọn của một phần tử $a$ của A có thể viết thành
 
 (46) Pcrd$_{A/K}(a; X) =\sum_{r=0}^n(-1)^rb_r(a) X^{n-r}$
 
@@ -432,13 +433,13 @@ Cho $(e_i)_{i\in I}$ là một cơ sở của A trên K và $\mathbf{T}= (T_i)_{
 
 #### Bổ đề 4 {#alg-viii-s17-lem-4 .statement tag=00KV}
 
-Cho $u$ là phần tử $\sum_{i\in I}T_i\otimes e_i$ của đại số đơn tâm $K(\mathbf{T})$ $A_{(K(\mathbf{T}))}$. Gọi P là đa thức đặc trưng rút gọn của $u$. Khi đó P thuộc vành $K[\mathbf{T}][X]$; được xem như một phần tử của vành $K[\mathbf{T},X]$, nó là thuần nhất bậc $n$.
+Cho $u$ là phần tử $\sum_{i\in I}T_i\otimes e_i$ của đại số đơn tâm trên $K(\mathbf{T})$ $A_{(K(\mathbf{T}))}$. Gọi P là đa thức đặc trưng rút gọn của $u$. Khi đó P thuộc vành $K[\mathbf{T}][X]$; được xem như một phần tử của vành $K[\mathbf{T},X]$, nó là thuần nhất bậc $n$.
 
-Ta chọn một mở rộng L của K và một đẳng cấu đại số trên L $\theta$ từ $A_{(L)}$ đến $\mathbf{M}_n(L)$. Ta ký hiệu bởi $\overline{\theta}: A_{(L(\mathbf{T}))}\rightarrow \mathbf{M}_n(L(\mathbf{T}))$ đẳng cấu của các đại số trên $L(\mathbf{T})$ suy ra từ $\theta$ bằng phép mở rộng vô hướng. Theo Hệ quả 1 của VIII, p. 342, ta có
+Ta chọn một mở rộng L của K và một đẳng cấu đại số trên L $\theta$ từ $A_{(L)}$ lên $\mathbf{M}_n(L)$. Ta ký hiệu bởi $\overline{\theta}: A_{(L(\mathbf{T}))}\rightarrow \mathbf{M}_n(L(\mathbf{T}))$ đẳng cấu của các đại số trên $L(\mathbf{T})$ suy ra từ $\theta$ bằng phép mở rộng vô hướng. Theo Hệ quả 1 của VIII, p. 342, ta có
 
 (47) $P(X) =\chi_{\overline{\theta}(u)}(X) =$ det(X$I_n-\overline{\theta}(u)$) $=$ det$(XI_n-\sum_{i\in I}T_i\theta (1\otimes e_i))$.
 
-Vì các ma trận $\theta (1\otimes e_i)$ thuộc $\mathbf{M}_n$(L), công thức này cho thấy P là một đa thức thuần nhất bậc $n$ trong $L[\mathbf{T},X]$. Nó cũng thuộc $K(\mathbf{T})[X]$ và có thể viết thành $P(X) =\sum_{j\geqslant 0}c_jX^j$, trong đó mỗi $c_j$ thuộc giao $K(\mathbf{T})\cap L[\mathbf{T}]$. Theo Bổ đề 3, mỗi phần tử $c_j$ đều thuộc $K[\mathbf{T}]$; Bổ đề 4 suy ra.
+Vì các ma trận $\theta (1\otimes e_i)$ thuộc $\mathbf{M}_n$(L), công thức này cho thấy rằng P là một đa thức thuần nhất bậc $n$ trong $L[\mathbf{T},X]$. Nó cũng thuộc $K(\mathbf{T})[X]$ và có thể được viết dưới dạng $P(X) =\sum_{j\geqslant 0}c_jX^j$, trong đó mỗi $c_j$ thuộc giao $K(\mathbf{T})\cap L[\mathbf{T}]$. Theo Bổ đề 3, mỗi phần tử $c_j$ đều thuộc $K[\mathbf{T}]$; Bổ đề 4 được suy ra.
 
 #### Bổ đề 5 {#alg-viii-s17-lem-5 .statement tag=00KW}
 
@@ -450,13 +451,13 @@ Cho $\varphi : K[\mathbf{T}]\rightarrow K'$ là đồng cấu đại số trên 
 
 (49) Pc$_{A_{(K')}/K'}(\sum_{i\in I}t_i\otimes e_i; X)= P((t_i)_{i\in I},X)^n$;
 
-Bổ đề 5 suy ra ngay từ Bổ đề 2 của VIII, p. 339.
+Bổ đề 5 khi đó suy ra từ Bổ đề 2 của VIII, p. 339.
 
 Xét trường hợp riêng $K'= K$ của Bổ đề 5. Ta có
 
 (50) Pcrd$_{A/K}(\sum_{i\in I}t_ie_i; X)= P((t_i)_{i\in I},X)$
 
-đối với mọi phần tử $(t_i)_{i\in I}$ của $K^I$. Vì đa thức P trong $K[\mathbf{T},X]$ là thuần nhất bậc $n$, nên nó được khai triển duy nhất thành
+với mọi phần tử $(t_i)_{i\in I}$ của $K^I$. Vì đa thức P trong $K[\mathbf{T},X]$ là thuần nhất bậc $n$, nên nó có thể được khai triển duy nhất thành
 
 $$
 P(\mathbf{T},X) =\sum_{r=0}^n(-1)^rB_r(\mathbf{T}) X^{n-r} \tag{51}
@@ -468,11 +469,11 @@ $$
 b_r(\sum_{i\in I}t_ie_i)= B_r((t_i)_{i\in I})
 $$
 
-đối với mọi phần tử $(t_i)_{i\in I}$ của $K^I$. Mệnh đề 6 suy ra.
+với mọi phần tử $(t_i)_{i\in I}$ của $K^I$. Mệnh đề 6 suy ra.
 
 #### Nhận xét {#alg-viii-s17-n4-rem-1 .statement tag=00KX}
 
-Cho $K'$ là một đại số giao hoán trên K. Mỗi phần tử $t$ của $A_{(K')}$ có thể được viết thành $\sum_{i\in I}t_i\otimes e_i$, trong đó $(t_i)\in {K'}^I$. Từ chứng minh của Bổ đề 5 suy ra rằng đa thức đặc trưng Pc$_{A_{(K')}/K'}(t; X)$ bằng $P((t_i),X)^n$.
+Cho $K'$ là một đại số giao hoán trên K. Mọi phần tử $t$ của $A_{(K')}$ có thể viết thành $\sum_{i\in I}t_i\otimes e_i$, trong đó $(t_i)\in {K'}^I$. Từ chứng minh của Bổ đề 5 suy ra rằng đa thức đặc trưng Pc$_{A_{(K')}/K'}(t; X)$ bằng $P((t_i),X)^n$.
 
 ### 5. Tính bắc cầu của các chuẩn và vết rút gọn
 
@@ -490,11 +491,11 @@ Theo Mệnh đề 3 của VIII, p. 262, các L-môđun A và $L^n$ là đẳng c
 
 Pc$_{A/K}(a; X) =$ Pc$_{L/K}(a; X)^n$.
 
-Vì đa thức Pc$_{L/K}(a; X)$ là đơn nhất, nên do đó nó bằng đa thức đặc trưng rút gọn Pcrd$_{A/K}(a; X)$ (VIII, p. 339, Bổ đề 2); điều này cho công thức (52). So sánh các hệ số của $X^{n-1}$ (tương ứng, các hạng hằng số) ở hai vế của (52), ta thu được công thức (53) (tương ứng, (54)).
+Vì đa thức Pc$_{L/K}(a; X)$ là đơn nhất, do đó nó bằng với đa thức đặc trưng rút gọn Pcrd$_{A/K}(a; X)$ (VIII, p. 339, Bổ đề 2); điều này cho công thức (52). Bằng cách so sánh các hệ số của $X^{n-1}$ (tương ứng, các hạng tử hằng) ở mỗi vế của (52), ta thu được công thức (53) (tương ứng, (54)).
 
 #### Hệ quả {#alg-viii-s17-n5-cor-1 .statement tag=00KZ}
 
-Cho D là một trường bậc hữu hạn trên K với tâm là K. Cho $a$ là một phần tử của K và L là một trường con giao hoán cực đại của D chứa $a$. Ta có
+Cho D là một trường bậc hữu hạn trên K có tâm là K. Cho $a$ là một phần tử của K và L là một trường con giao hoán cực đại của D chứa $a$. Ta có
 
 Pcrd$_{D/K}(a; X) =$ Pc$_{L/K}(a; X)$,
 
@@ -524,55 +525,52 @@ $$
 
 một đa thức đơn khởi với các hệ số trong $K'$. Khi đó đa thức Q = $N_{K'[X]/K[X]}(P)$ trong K[X] là đơn khởi bậc $sd$, hệ số của $X^{sd-1}$ trong Q(X) bằng Tr$_{K'/K}(a_1)$, và số hạng hằng của Q là $N_{K'/K}(a_s)$.
 
-Ta ký hiệu đại số $K'$ $K'[T]/(P(T))$ bởi $K''$ và lớp chính tắc của T trong $K''$ bởi $t$. Dãy $(1, t, . . . , t^{s-1})$ là một cơ sở của $K''$ trên $K'$, và ma trận của phép nhân bởi $t$ trong cơ sở này có dạng
-
-0 0 $\cdots$ 0 $-a_s$
-
-1 0 $\cdots$ 0 $-a$
-
-$s-1$
-
-0 1 $\cdots$ 0 $-a$
+Ta ký hiệu $K'$-đại số $K'[T]/(P(T))$ bởi $K''$ và lớp chính tắc của T trong $K''$ bởi $t$. Dãy $(1, t, . . . , t^{s-1})$ là một cơ sở của $K''$ trên $K'$, và ma trận của phép nhân bởi $ t $ trong cơ sở này có dạng
 
 $$
-\tau =^{s-2} \tag{59}
+\tau = \begin{pmatrix}
+0 & 0 & \cdots & 0 & -a_s \\
+1 & 0 & \cdots & 0 & -a_{s-1} \\
+0 & 1 & \cdots & 0 & -a_{s-2} \\
+\vdots & \vdots & \ddots & \vdots & \vdots \\
+0 & \cdots & \cdots & 1 & -a_1
+\end{pmatrix}.
 $$
 
-$$
-\cdot \cdot \cdots \cdot \cdot
-$$
+Định thức của $ XI_n - \tau $ được tính bằng quy nạp theo $ s $, bằng cách khai triển theo hàng thứ nhất. Ta thu được $ \det(XI_n - \tau) = P(X) $. Nói cách khác, ta có $ P(X) = Pc_{K''/K'}(t; X) $. Đặc biệt, $ \operatorname{Tr}_{K''/K'}(t) = -a_1 $ và $ N_{K''/K'}(t) = (-1)^s a_s $. Theo công thức tính bắc cầu (III, §9, No. 4, p. 548, Hệ quả), ta có
 
 $$
-\cdot \cdot \cdots \cdot \cdot
+\operatorname{Tr}_{K''/K}(t) = -\operatorname{Tr}_{K'/K}(a_1), \quad N_{K''/K}(t) = (-1)^{sd} N_{K'/K}(a_s),
+$$
+$$
+Q(X) = Pc_{K''/K}(t; X).
 $$
 
-0 $\cdot \cdots$ 1 $-a_1$
+Mặt khác, $[K'' : K] = [K'' : K'][K' : K] = sd$, nên $ Q(X) $ là một đa thức đơn khởi bậc $ sd $. Bổ đề 6 được suy ra.
 
-Định thức của X$I_n-\tau$ được tính bằng quy nạp theo $s$, bằng cách khai triển theo hàng đầu tiên. Ta thu được det(X$I_n-\tau$ ) $= P(X)$. Nói cách khác, ta có P(X) = Pc$_{K''/K'}(t; X)$. Đặc biệt, Tr$_{K''/K'}(t) =-a_1$ và $N_{K''/K'}(t) =$ $(-1)^sa_s$. Theo công thức tính bắc cầu (III, §9, No. 4, p. 548, Hệ quả), ta có
-
-Tr$_{K''/K}(t) =-$ Tr$_{K'/K}(a_1),N_{K''/K}(t) = (-1)^{sd}N_{K'/K}(a_s)$,
-
-Q(X) = Pc$_{K''/K}(t; X)$.
-
-Mặt khác, $[K'': K] = [K'': K'][K': K] =sd$, nên Q(X) là một đa thức đơn khởi bậc $sd$. Bổ đề 6 được suy ra.
-
-Ta hãy chứng minh Mệnh đề 8. Vì vành B là đơn, tâm L của nó là một trường (VIII, p. 121, Hệ quả 1). Theo Định lý 5 của VIII, p. 259, hoán tập $B'$ của B trong A là một vành đơn có tâm L, và ta có đẳng thức $[A : K] = [B : K][B': K]$. Ta ký hiệu bậc rút gọn của $B'$ trên L là $r$, của B trên L là $s$, và bậc của L trên K là $d$. Ta có
+Hãy chứng minh Mệnh đề 8. Vì vành $ B $ là đơn, tâm của nó $ L $ là một trường (VIII, p. 121, Hệ quả 1). Theo Định lý 5 của VIII, p. 259, hoán tập $ B' $ của $ B $ trong $ A $ là một vành đơn có tâm $ L $, và ta có đẳng thức $[A : K] = [B : K][B' : K]$. Ta ký hiệu bậc thu gọn của $ B' $ trên $ L $ là $ r $, bậc thu gọn của $ B $ trên $ L $ là $ s $, và bậc của $ L $ trên $ K $ là $ d $. Ta có
 
 $$
-[A : K] =n^2,[B': K] =r^2d ,[B : K] =s^2d
+[A : K] = n^2, \quad [B' : K] = r^2 d, \quad [B : K] = s^2 d,
 $$
 
-và do đó $n^2=r^2s^2d^2$, tức là $n=rsd$.
+và do đó $ n^2 = r^2 s^2 d^2 $, nghĩa là $ n = rsd $.
 
-Cho $b$ là một phần tử của B, và gọi P(X) là đa thức đặc trưng rút gọn của nó trên đại số trên L B; nó là đơn nhất bậc $s$. Theo Bổ đề 6, đa thức $Q = N_{L[X]/K[X]}(P)$ là đơn nhất bậc $sd$. Do đó đa thức $R = Q^r$ là đơn nhất bậc $rsd=n$. Lại theo Bổ đề 6, hệ số của $X^{n-1}$ trong R(X) bằng $-r$ Tr$_{L/K}$(Trd$_{B/L}(b)$), và số hạng hằng của R(X) là $(N_{L/K}((-1)^s$ Nrd$_{B/L}(b)))^r= (-1)^nN_{L/K}$(Nrd$_{B/L}(b)$)$^r$.
+Cho $ b $ là một phần tử của $ B $, và gọi $ P(X) $ là đa thức đặc trưng rút gọn của nó trên $ L $-đại số $ B $; nó là monic bậc $ s $. Theo Bổ đề 6, đa thức $ Q = N_{L[X]/K[X]}(P) $ là monic bậc $ sd $. Do đó đa thức $ R = Q^r $ là monic bậc $ rsd = n $. Lại theo Bổ đề 6, hệ số của $ X^{n-1} $ trong $ R(X) $ bằng $ -r \operatorname{Tr}_{L/K}(\operatorname{Trd}_{B/L}(b)) $, và số hạng hằng của $ R(X) $ là $ (N_{L/K}((-1)^s \operatorname{Nrd}_{B/L}(b)))^r = (-1)^n N_{L/K}(\operatorname{Nrd}_{B/L}(b))^r $.
 
-Vì $[A : K] =r^2d[B : K]$, B-môđun trái A là tự do hạng $r^2d$ (VIII, p. 124, Mệnh đề 5). Do đó ta có
+Vì $[A : K] = r^2 d[B : K]$, $ B $-môđun trái $ A $ là tự do hạng $ r^2 d $ (VIII, p. 124, Mệnh đề 5). Do đó ta có
 
-(60) Pc$_{A/K}(b; X) =$ Pc$_{B/K}(b; X)^{dr^2}$.
+$$
+\operatorname{Pc}_{A/K}(b; X) = \operatorname{Pc}_{B/K}(b; X)^{dr^2}.
+$$
 
 Theo hệ quả của III, §9, No. 4, p. 548, ta có
 
-(61) Pc$_{B/K}(b; X) = N_{L[X]/K[X]}$(Pc$_{B/L}(b; X)$), và vì P(X) là đa thức đặc trưng rút gọn của $b$ trên đại số trên L B, ta có
+$$
+\operatorname{Pc}_{B/K}(b; X) = N_{L[X]/K[X]}(\operatorname{Pc}_{B/L}(b; X)),
+$$
+
+và vì P(X) là đa thức đặc trưng rút gọn của $b$ trên đại số trên L B, nên ta có
 
 (62) Pc$_{B/L}(b; X) = P(X)^s$.
 
@@ -580,25 +578,25 @@ Sau cùng, theo các công thức (60)—(62) và định nghĩa của R(X), ta 
 
 (63) Pc$_{A/K}(b; X) = N_{L[X]/K[X]}(P(X))^{dr^2s}= Q(X)^{dr^2s}= R(X)^{rsd}= R(X)^n$,
 
-do đó R(X) là đa thức đặc trưng rút gọn của $b$ trên đại số trên K A.
+nên R(X) là đa thức đặc trưng rút gọn của $b$ trên đại số trên K A.
 
-Ta đã chứng minh công thức (56). Các công thức (57) và (58) suy ra ngay lập tức từ công thức (56) và Bổ đề 6 vì hệ số của $X^{n-1}$ trong Pcrd$_{A/K}(b; X)$ bằng $-$ Trd$_{A/K}(b)$ và số hạng hằng là $(-1)^n$ Nrd$_{A/K}(b)$.
+Chúng ta đã chứng minh công thức (56). Các công thức (57) và (58) suy ra ngay lập tức từ công thức (56) và Bổ đề 6 vì hệ số của $X^{n-1}$ trong Pcrd$_{A/K}(b; X)$ bằng $-$ Trd$_{A/K}(b)$ và số hạng hằng là $(-1)^n$ Nrd$_{A/K}(b)$.
 
-### 6. Chuẩn thu gọn và định thức
+### 6. Chuẩn thu gọn và Định thức
 
-Trong tiểu mục này, D là một trường bậc hữu hạn trên K với tâm là K. Ta ký hiệu bởi $D^*_{ab}$ thương của nhóm nhân $D^*$ theo nhóm dẫn xuất (hay nhóm giao hoán tử) của nó và bởi $\pi$ đồng cấu chính tắc từ $D^*$ đến $D^*_{ab}$. Ánh xạ Nrd$_{D/K}$ cảm sinh một đồng cấu nhóm từ $D^*$ đến $K^*$; hạt nhân của đồng cấu này chứa nhóm dẫn xuất của $D^*$ vì K là giao hoán. Do đó tồn tại một đồng cấu duy nhất Nrd từ $D^*_{ab}$ đến $K^*$ sao cho Nrd$_{D/K}(x) =$ Nrd $\circ \pi (x)$ với mọi $x\in D^*$.
+Trong tiểu mục này, D là một trường có bậc hữu hạn trên K với tâm là K. Ta ký hiệu bởi $D^*_{ab}$ thương của nhóm nhân $D^*$ bởi nhóm dẫn xuất (hay nhóm giao hoán tử) của nó và bởi $\pi$ đồng cấu chính tắc từ $D^*$ vào $D^*_{ab}$. Ánh xạ Nrd$_{D/K}$ cảm sinh một đồng cấu nhóm từ $D^*$ vào $K^*$; hạt nhân của đồng cấu này chứa nhóm dẫn xuất của $D^*$ vì K là giao hoán. Do đó tồn tại một đồng cấu duy nhất Nrd từ $D^*_{ab}$ vào $K^*$ sao cho Nrd$_{D/K}(x) =$ Nrd $\circ \pi (x)$ với mọi $x\in D^*$.
 
 #### Mệnh đề 9 {#alg-viii-s17-prop-9 .statement tag=00L2}
 
-Cho V là một không gian vectơ phải hữu hạn chiều trên trường D. Gọi E là đại số End$_D(V)$ trên trường K; nó là đơn tâm và có bậc hữu hạn. Với mọi phần tử khả nghịch $u$ của E, ta có
+Cho V là một không gian vectơ phải hữu hạn chiều trên trường D. Cho E là đại số End$_D(V)$ trên trường K; nó là đơn tâm và có bậc hữu hạn. Với mọi phần tử khả nghịch $u$ của E, ta có
 
 (64) Nrd$_{E/K}(u) =$ Nrd(det $u$)
 
-(xem VIII, p. 452, Mệnh đề 2 về định nghĩa của định thức det $u$ của $u$).
+(xem VIII, p. 452, Mệnh đề 2 để biết định nghĩa của định thức det $u$ của $u$).
 
-Ta ký hiệu chiều của V trên D là $n$ và đồng nhất E với đại số ma trận $\mathbf{M}_n(D)$ bằng cách dùng một cơ sở của V trên D. Nhóm nhân GL$_n(D)$ của đại số E được sinh bởi các ma trận đường chéo và các ma trận $B_{ij}(\lambda )$ (II, §10, No. 13, p. 362, Hệ quả 1). Vì vậy Mệnh đề 9 suy ra từ hai trường hợp riêng dưới đây.
+Ta ký hiệu chiều của V trên D là $n$ và đồng nhất E với đại số ma trận $\mathbf{M}_n(D)$ bằng cách dùng một cơ sở của V trên D. Nhóm nhân GL$_n(D)$ của đại số E được sinh bởi các ma trận đường chéo và các ma trận $B_{ij}(\lambda )$ (II, §10, No. 13, p. 362, Hệ quả 1). Do đó Mệnh đề 9 suy ra từ hai trường hợp riêng dưới đây.
 
-A) Giả sử rằng $u$ là ma trận đường chéo diag($a_1, . . . , a_n$). Với mọi $1\leqslant i\leqslant n$, gọi $L_i$ là một trường con giao hoán cực đại của D chứa $a_i$; gọi L là đại số con của E gồm các ma trận đường chéo diag($t_1, . . . , t_n$) với $t_i\in L_i$ đối với $1\leqslant i\leqslant n$. Gọi $d$ là bậc thu gọn của D trên K. Ta có $[L_i: K] =d$ đối với $1\leqslant i\leqslant n$ (VIII, p. 265, Hệ quả 2). K-đại số L đẳng cấu với $L_1\times  \cdots  \times L_n$ và vì thế nửa đơn bậc $nd$; bây giờ, ta có $[E : K] =n^2[D : K] =n^2d^2= [L : K]^2$. Suy ra L là một đại số con nửa đơn giao hoán cực đại của E (VIII, p. 262, Mệnh đề 3). Theo Mệnh đề 7 của VIII, p. 346, ta có Nrd$_{E/K}(u) = N_{L/K}(u)$. Do đó, theo công thức (18) của III, §9, No. 3, p. 544, ta có
+A) Giả sử rằng $u$ là ma trận đường chéo diag($a_1, . . . , a_n$). Với mọi $1\leqslant i\leqslant n$, gọi $L_i$ là một trường con giao hoán cực đại của D chứa $a_i$; gọi L là đại số con của E gồm các ma trận đường chéo diag($t_1, . . . , t_n$) với $t_i\in L_i$ đối với $1\leqslant i\leqslant n$. Gọi $d$ là bậc thu gọn của D trên K. Ta có $[L_i: K] =d$ đối với $1\leqslant i\leqslant n$ (VIII, p. 265, Hệ quả 2). Đại số trên K L đẳng cấu với $L_1\times  \cdots  \times L_n$ và do đó nửa đơn bậc $nd$; mặt khác, ta có $[E : K] =n^2[D : K] =n^2d^2= [L : K]^2$. Suy ra L là một đại số con nửa đơn giao hoán cực đại của E (VIII, p. 262, Mệnh đề 3). Theo Mệnh đề 7 của VIII, p. 346, ta có Nrd$_{E/K}(u) = N_{L/K}(u)$. Do đó, theo công thức (18) của III, §9, No. 3, p. 544, ta có
 
 Nrd$_{E/K}(u) =\prod_{i=1}^nN_{L_i/K}(a_i) =\prod_{i=1}^n$ Nrd$_{D/K}(a_i)$
 
@@ -606,7 +604,7 @@ Nrd$_{E/K}(u) =\prod_{i=1}^nN_{L_i/K}(a_i) =\prod_{i=1}^n$ Nrd$_{D/K}(a_i)$
 
 Hơn nữa, ta có det $u=\pi (a_1\cdots a_n)$ theo Mệnh đề 3 của VIII, p. 453, điều này cho công thức (64) trong trường hợp này.
 
-B) Giả sử rằng $u$ bằng $B_{ij}(\lambda )$, trong đó $\lambda$ là một phần tử của D và $i, j$ là các số nguyên phân biệt trong khoảng $[1, n]$. Ký hiệu bởi $d$ bậc rút gọn của D trên K và bởi M không gian vectơ trên K suy ra từ V bằng hạn chế vô hướng từ D xuống K. Khi đó M là một E-môđun đơn, và ta có
+B) Giả sử rằng $u$ bằng $B_{ij}(\lambda )$, trong đó $\lambda$ là một phần tử của D và $i, j$ là các số nguyên phân biệt trong khoảng $[1, n]$. Ký hiệu $d$ là bậc thu gọn của D trên K và M là không gian vectơ trên K suy ra từ V bằng hạn chế vô hướng từ D xuống K. Khi đó M là một E-môđun đơn, và ta có
 
 (65) Pc$_{M/K}(u; X) =$ Pcrd$_{E/K}(u; X)^d$
 
@@ -614,7 +612,7 @@ theo công thức (26) của VIII, p. 341. Hơn nữa, M là một không gian v
 
 (66) Pc$_{M/K}(u; X) = (X-1)^{nd^2}$.
 
-So sánh các công thức (65) và (66), ta thu được
+So sánh các công thức (65) và (66), ta được
 
 (67) Pcrd$_{E/K}(u; X) = (X-1)^{nd}$
 
@@ -626,4 +624,4 @@ Ta có Nrd$_{E/K}(u) = 0$ nếu phần tử $u$ của E không khả nghịch (V
 
 ### Bài tập {#alg-viii-s17-exercises}
 
-Xem [các bài tập của § 17](exercises/s17/).
+Xem [bài tập của § 17](exercises/s17/).
