@@ -36,11 +36,11 @@ subsections:
       title: Reduced Norms and Determinants
       page: 349
       pdf_page: 366
-statements: 30
+statements: 31
 exercises: 7
-content_sha256: cf54e0fca6eaa9208d844a14c62fb66990eb007626a448cdb8abb1dd6688a423
+content_sha256: 5a6d741a3c9723497d684a1442768896873a41c5849e9e9527a65a40ff6aca4e
 translated_from: content/en/alg/VIII/17_s17_reduced_norms_and_traces.md
-source_content_sha256: 11f069df657704342996d2122efce87e5dccfa6a1cfa49a5616defd552614a6d
+source_content_sha256: bde84f6dbcf91d0bcdf72573c6bb387df3d76d5b15c56546c1f7ee2706920cee
 translation_model: gpt-5-6, gpt-5.4, copied
 translation_run: translate-vi-02ef20f9
 glossary_version: 34
@@ -60,19 +60,21 @@ Cho L là một vành giao hoán và M là một L-môđun tự do có hạng h�
 
 và $c_r(u) = 0$ với $r > m$. Theo Mệnh đề 7 của III, §8, No. 4, p. 527, ánh xạ $u\mapsto$ det($u$) từ End(M) vào L là một ánh xạ đa thức thuần nhất bậc $m$ (IV, §5, No. 9, p. 55). Nói chung, với mọi số nguyên $r$ sao cho $0\leqslant r\leqslant m$, ánh xạ $c_r$ từ End(M) vào L là một ánh xạ đa thức thuần nhất bậc $r$; điều này suy ra từ Mệnh đề 10 của III, §8, No. 5, p. 529.
 
-Cho $u$ là một tự đồng cấu của M và $\overline{u}$ là tự đồng cấu của L[X]-môđun $M[X] = M\otimes_LL[X]$ suy ra từ $u$ bởi mở rộng vô hướng (II, §5, No. 1, p. 277). Nhắc lại rằng (III, §8, No. 11, p. 541, Định nghĩa 3 và (50)) đa thức đặc trưng của $u$ là định thức $\chi_u(X)$ của tự đồng cấu L[X] $X-\overline{u}$ của M[X] và ta có quan hệ
+Cho $u$ là một tự đồng cấu của M và $\overline{u}$ là tự đồng cấu của L[X]-môđun $M[X] = M\otimes_LL[X]$ suy ra từ $u$ bởi mở rộng vô hướng (II, §5, No. 1, p. 277). Nhắc lại (III, §8, No. 11, p. 541, Định nghĩa 3 và (50)) rằng đa thức đặc trưng của $u$ là định thức $\chi_u(X)$ của tự đồng cấu L[X] $X-\overline{u}$ của M[X] và ta có quan hệ
 
 $$
 \chi_u(X) =\sum_{r=0}^m(-1)^rc_r(u) X^{m-r} \tag{2}
 $$
 
-Mệnh đề 1. — Cho L là một vành giao hoán, M là một L-môđun tự do có hạng hữu hạn m $ \geqslant 1 $, và u là một tự đồng cấu của M. Tồn tại một tự đồng cấu duy nhất $ \tilde{u} $ của M thỏa mãn quan hệ
+#### Mệnh đề 1 {#alg-viii-s17-prop-1 .statement tag=00KD}
+
+Cho L là một vành giao hoán, M là một L-môđun tự do có hạng hữu hạn m $ \geqslant 1 $, và u là một tự đồng cấu của M. Tồn tại một tự đồng cấu duy nhất $ \tilde{u} $ của M thỏa mãn quan hệ
 
 $$
 \tilde{u}(x) \wedge w = x \wedge \wedge^{m-1}(u)(w)
 $$
 
-với $ x \in M $ và $ w \in \wedge^{m-1}(M) $. Hơn nữa, ta có các quan hệ
+với $ x \in M $ và $ w \in \wedge^{m-1}(M) $. Ngoài ra, ta có các quan hệ
 
 $$
 u \circ \tilde{u} = \tilde{u} \circ u = \det(u)_M,
@@ -86,7 +88,7 @@ $$
 
 #### Bổ đề 1 {#alg-viii-s17-lem-1 .statement tag=00KE}
 
-— Cho p là một số nguyên sao cho $ 0 \leqslant p \leqslant m $. Với mọi w thuộc $ \wedge^p(M) $, đặt $ h_p(w) $ là ánh xạ tuyến tính $ w' \mapsto w \wedge w' $ từ $ \wedge^{m-p}(M) $ vào $ \wedge^m(M) $. Ánh xạ tuyến tính $ h_p : w \mapsto h_p(w) $ từ $ \wedge^p(M) $ vào $ \operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M)) $ là một đẳng cấu.
+Cho p là một số nguyên sao cho $ 0 \leqslant p \leqslant m $. Với mọi w thuộc $ \wedge^p(M) $, gọi $ h_p(w) $ là ánh xạ tuyến tính $ w' \mapsto w \wedge w' $ từ $ \wedge^{m-p}(M) $ vào $ \wedge^m(M) $. Ánh xạ tuyến tính $ h_p : w \mapsto h_p(w) $ từ $ \wedge^p(M) $ vào $ \operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M)) $ là một đẳng cấu.
 
 Cho $ (e_i)_{i \in I} $ là một cơ sở của M; ta trang bị cho tập hợp I một thứ tự toàn phần. Với mọi tập con J của I, đặt $ e_J = e_{i_1} \wedge \cdots \wedge e_{i_r} $, trong đó $ (i_1, \ldots, i_r) $ là dãy các phần tử của J theo thứ tự tăng. L-môđun $ \wedge^{m-p}(M) $ nhận các phần tử $ e_S $ làm một cơ sở, trong đó S chạy qua tập hợp các tập con của I có $ m - p $ phần tử; $ \wedge^m(M) $ có $ \{e_I\} $ làm một cơ sở. Do đó, tồn tại một cơ sở của $ \operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M)) $ gồm các ánh xạ tuyến tính $ e_J^* $ được đặc trưng bởi công thức
 
