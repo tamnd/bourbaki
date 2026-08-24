@@ -29,7 +29,7 @@ subsections:
       pdf_page: 362
 statements: 36
 exercises: 22
-content_sha256: d157e2bfc950d54a72b70c4a4be49d1b03edc664351a5d26a3954bd3c0266228
+content_sha256: 86235dd5ec3d88b934f7f029dfd5b78900dea39f26eade302498afa6d245956b
 ---
 
 ## 2. THE LIFT OF PRIME IDEALS
@@ -176,7 +176,7 @@ Let $ S = A - p $; by Lemma 1 we may replace $ A $ by $ S^{-1}A $, $ A' $ by $ S
 
 #### Definition 2 {#ac-v-s2-def-2 .statement}
 
-Let $ A' $ be a ring and $ G $ a group operating on $ A' $ ($ \S 1 $, no. 9). Given a prime ideal $ p' \subset A' $ the subgroup of elements $ \sigma \in G $ such that $ \sigma.p' = p' $ is called the decomposition group of $ p' $ (with respect to $ G $) and is denoted by $ G^z(p') $. The ring of elements of $ A' $ invariant under $ G^z(p') $ is called the decomposition ring of $ p' $ (with respect to $ G $) and is denoted by $ A^z(p') \ ) (*).
+Let $ A' $ be a ring and $ G $ a group operating on $ A' $ ($ \S 1 $, no. 9). Given a prime ideal $ p' \subset A' $ the subgroup of elements $ \sigma \in G $ such that $ \sigma.p' = p' $ is called the decomposition group of $ p' $ (with respect to $ G $) and is denoted by $ G^z(p') $. The ring of elements of $ A' $ invariant under $ G^z(p') $ is called the decomposition ring of $ p' $ (with respect to $ G $) and is denoted by $ A^z(p') $ (*).
 
 We often write $ G^z $ and $ A^z $ instead of $ G^z(p') $ and $ A^z(p') $ respectively, when there is no ambiguity.
 

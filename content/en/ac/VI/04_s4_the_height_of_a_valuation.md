@@ -33,7 +33,7 @@ subsections:
       pdf_page: 415
 statements: 18
 exercises: 11
-content_sha256: a7861f18cdcfa4b3a1626bb127728ace1408f702d73998a97ff73f72410e7ff1
+content_sha256: 29c3d0903071c3014fa5b0f61c3fbf39b7f94b6799e802e8c42d5a4f4f7df12c
 ---
 
 ## 4. THE HEIGHT OF A VALUATION
@@ -230,7 +230,7 @@ for x ∈ P and y ∈ P; by linearity f can be extended to an isomorphism of G o
 
 Let K be a field, v a non-improper valuation on K and A the ring of v. For A to be completely integrally closed (Chapter V, § 1, no. 4, Definition 5), it is necessary and sufficient that v be of height 1.
 
-Suppose v is of height 1. Let x ∈ K be such that the x^n (n ≥ 0) are all contained in a finitely generated sub-A-module of K. There exists d ∈ A − {0} such that dx^n ∈ A for all n ≥ 0. Then v(d) + nv(x) ≥ 0, that is n(−v(x)) ≤ v(d) for all n \geqslant 0, whence -v(x) \leqslant 0$ (Proposition 8 (b)) and $x \in A$. Thus A is completely integrally closed.
+Suppose v is of height 1. Let x ∈ K be such that the x^n (n ≥ 0) are all contained in a finitely generated sub-A-module of K. There exists d ∈ A − {0} such that dx^n ∈ A for all n ≥ 0. Then v(d) + nv(x) ≥ 0, that is n(−v(x)) ≤ v(d) for all $n \geqslant 0$, whence $-v(x) \leqslant 0$ (Proposition 8 (b)) and $x \in A$. Thus A is completely integrally closed.
 
 Suppose now that v is not of height 1. Then there exist $y \in m(A)$ and $t \in A$ such that $nv(y) < v(t)$ for all $n \geqslant 0$ (Proposition 8 (b)). Then $ty^{-n} \in A$ for all $n \geqslant 0$, but $y^{-1} \notin A$. Hence A is not completely integrally closed.
 
