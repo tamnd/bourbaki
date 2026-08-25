@@ -219,11 +219,11 @@ chapters:
           pdf_page: 106
           subsections:
             - "no": 1
-              title: Calcul des modules Tor^A(P, M) et Ext_A(M, N)
+              title: Calcul des modules $\mathrm{Tor}^A(P, M)$ et $\mathrm{Ext}_A(M, N)$
               page: 100
               pdf_page: 106
             - "no": 2
-              title: Calcul des applications Tor^A(g, f) et Ext_A(f, h)
+              title: Calcul des applications $\mathrm{Tor}^A(g, f)$ et $\mathrm{Ext}_A(f, h)$
               page: 103
               pdf_page: 109
             - "no": 3
@@ -235,15 +235,15 @@ chapters:
               page: 107
               pdf_page: 113
             - "no": 5
-              title: Les homomorphismes Tor^B(P, N) ⊗_A Q → Tor^B(P, N ⊗_A Q) et Ext_B(M, N) ⊗_A Q → Ext_B(M, N ⊗_A Q)
+              title: Les homomorphismes $\mathrm{Tor}^B(P, N) \otimes_A Q \to \mathrm{Tor}^B(P, N \otimes_A Q)$ et $\mathrm{Ext}_B(M, N) \otimes_A Q \to \mathrm{Ext}_B(M, N \otimes_A Q)$
               page: 108
               pdf_page: 114
             - "no": 6
-              title: Les homomorphismes Tor^B(P, N ⊗_A Q) → Tor^A(P ⊗_B N, Q) et Ext_A(Q, Hom_B(N, M)) → Ext_B(N ⊗_A Q, M)
+              title: Les homomorphismes $\mathrm{Tor}^B(P, N \otimes_A Q) \to \mathrm{Tor}^A(P \otimes_B N, Q)$ et $\mathrm{Ext}_A(Q, \mathrm{Hom}_B(N, M)) \to \mathrm{Ext}_B(N \otimes_A Q, M)$
               page: 109
               pdf_page: 115
             - "no": 7
-              title: Les homomorphismes B ⊗_A Tor^A(E, F) → Tor^B(E ⊗_A B, B ⊗_A F) et B ⊗_A Ext_A(E, F) → Ext_B(B ⊗_A E, B ⊗_A F)
+              title: Les homomorphismes $B \otimes_A \mathrm{Tor}^A(E, F) \to \mathrm{Tor}^B(E \otimes_A B, B \otimes_A F)$ et $B \otimes_A \mathrm{Ext}_A(E, F) \to \mathrm{Ext}_B(B \otimes_A E, B \otimes_A F)$
               page: 110
               pdf_page: 116
             - "no": 8
@@ -256,7 +256,7 @@ chapters:
           pdf_page: 119
           subsections:
             - "no": 1
-              title: L’homomorphisme Ext_A(N, P) ⊗ Ext_A(M, N) → Ext_A(M, P)
+              title: L’homomorphisme $\mathrm{Ext}_A(N, P) \otimes \mathrm{Ext}_A(M, N) \to \mathrm{Ext}_A(M, P)$
               page: 113
               pdf_page: 119
             - "no": 2
@@ -272,7 +272,7 @@ chapters:
               page: 118
               pdf_page: 124
             - "no": 5
-              title: Relation entre suites exactes et éléments de Ext_A(M, N)
+              title: Relation entre suites exactes et éléments de $\mathrm{Ext}_A(M, N)$
               page: 121
               pdf_page: 127
             - "no": 6
@@ -280,6 +280,6 @@ chapters:
               page: 125
               pdf_page: 131
             - "no": 7
-              title: L’homomorphisme Ext_A(P, Q) ⊗ Tor^A(P, M) → Tor^A(Q, M)
+              title: L’homomorphisme $\mathrm{Ext}_A(P, Q) \otimes \mathrm{Tor}^A(P, M) \to \mathrm{Tor}^A(Q, M)$
               page: 128
               pdf_page: 134

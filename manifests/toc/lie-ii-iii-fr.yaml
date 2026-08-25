@@ -449,7 +449,7 @@ chapters:
           pdf_page: 182
           subsections:
             - "no": 1
-              title: Les coefficients c_{αβγ}
+              title: Les coefficients $c_{\alpha \beta \gamma}$
               page: 185
               pdf_page: 183
             - "no": 2

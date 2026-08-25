@@ -63,7 +63,7 @@ chapters:
           pdf_page: 47
           subsections:
             - "no": 1
-              title: Formes hermitiennes et ε-hermitiennes
+              title: Formes hermitiennes et $\varepsilon$-hermitiennes
               page: 49
               pdf_page: 47
             - "no": 2

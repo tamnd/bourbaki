@@ -210,7 +210,7 @@ chapters:
           pdf_page: 85
           subsections:
             - "no": 1
-              title: Continuous homomorphisms of the group Rᵐ into the group $\mathbf{R}^n$
+              title: Continuous homomorphisms of the group $\mathbf{R}^m$ into the group $\mathbf{R}^n$
               page: 79
               pdf_page: 85
             - "no": 2
@@ -218,7 +218,7 @@ chapters:
               page: 79
               pdf_page: 85
             - "no": 3
-              title: Continuous homomorphisms of Rᵐ into Tⁿ
+              title: Continuous homomorphisms of $\mathbf{R}^m$ into $\mathbf{T}^n$
               page: 81
               pdf_page: 87
             - "no": 4

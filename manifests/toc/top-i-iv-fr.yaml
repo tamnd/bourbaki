@@ -913,11 +913,11 @@ chapters:
               page: 35
               pdf_page: 306
             - "no": 4
-              title: Familles multipliables dans R*
+              title: Familles multipliables dans $\mathbf{R}^*$
               page: 35
               pdf_page: 306
             - "no": 5
-              title: Familles sommables et familles multipliables dans R̄
+              title: Familles sommables et familles multipliables dans $\overline{\mathbf{R}}$
               page: 37
               pdf_page: 308
             - "no": 6
