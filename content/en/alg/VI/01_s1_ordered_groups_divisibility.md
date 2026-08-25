@@ -434,7 +434,7 @@ We deduce from d) that $ |x| = 0 $ implies $ x = 0 $ (for $ x^+ $ and $ x^- $ ar
 
 #### Proposition 9 {#alg-vi-s1-div-prop-9 .statement}
 
-— If the group $ \mathcal{P}^* $ of principal fractional ideals of K is lattice ordered, then every element x of $ K^* $ can be written in the form $ x = uv^{-1} $, where u and v are elements of A such that $ 1 = \gcd(u, v) $; for any other expression $ x = u'v'^{-1} $ of x as the quotient of two elements of A, we have $ u' = uw $ and $ v' = vw $, where w is a gcd of $ u', v' $; in particular if $ 1 = \gcd(u', v') $ then u' and v' are associates of u and v respectively.
+— If the group $ \mathcal{P}^* $ of principal fractional ideals of K is lattice ordered, then every element x of $ K^* $ can be written in the form $ x = uv^{-1} $, where u and v are elements of A such that $ 1 = \gcd(u, v) $; for any other expression $ x = u'{v'}^{-1} $ of x as the quotient of two elements of A, we have $ u' = uw $ and $ v' = vw $, where w is a gcd of $ u', v' $; in particular if $ 1 = \gcd(u', v') $ then u' and v' are associates of u and v respectively.
 
 Such an expression $ uv^{-1} $ for an element x of $ K^* $ is often called a reduced fraction.
 

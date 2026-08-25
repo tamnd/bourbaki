@@ -199,7 +199,7 @@ $$
 -\sum_{\alpha \neq 0} c(\alpha) \log (1 - T^\alpha) = \sum_{|\alpha|>0, k \geq 1} \frac{1}{k} c(\alpha) T^{k\alpha}
 $$
 $$
-= \sum_{|\beta|>0, k|\beta}} \frac{1}{k} c\left( \frac{\beta}{k} \right) T^\beta.
+= \sum_{|\beta|>0, k|\beta} \frac{1}{k} c\left( \frac{\beta}{k} \right) T^\beta.
 $$
 
 Hence (7) is equivalent to

@@ -147,6 +147,7 @@ $$
 \begin{cases}
 x.(+\infty) = (+\infty).x = \begin{cases} +\infty & \text{nếu } x > 0 \\ -\infty & \text{nếu } x < 0 \end{cases} \\
 x.(-\infty) = (-\infty).x = \begin{cases} -\infty & \text{nếu } x > 0 \\ +\infty & \text{nếu } x < 0. \end{cases}
+\end{cases}
 $$
 
 (3)
