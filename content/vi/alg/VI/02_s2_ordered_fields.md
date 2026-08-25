@@ -363,7 +363,7 @@ a) every polynomial in $K[X]$ of odd degree has a root in $K'$;
 b) every polynomial in $K'[X]$ of degree 2 has a root in $K'$.
 Thì $K'$ là đóng đại số.
 
-Chú ý trước hết rằng chỉ cần chứng minh mọi đa thức không hằng trong $K[X]$ có một nghiệm trong $K'$: điều này quả là hiển nhiên nếu $K' = K$; nếu $K' \neq K$ thì $[K':K] = 2$; cho $a \mapsto a$ ký hiệu tự đẳng cấu của $K'$ trên $K$ duy nhất khác với ánh xạ đồng nhất; nếu $f \in K'[X]$ và nếu $\bar{f}$ là đa thức thu được bằng cách áp dụng $a \mapsto \bar{a}$ lên các hệ số của $f$, thì $f \bar{f} \in K[X]$; nếu $a \in K'$ là một nghiệm của $f \bar{f}$ thì $a$ либо là một nghiệm của $f$ hoặc của $\bar{f}$; do đó либо $a$ hoặc $a$ là một nghiệm của $f$.
+Chú ý trước hết rằng chỉ cần chứng minh mọi đa thức không hằng trong $K[X]$ có một nghiệm trong $K'$: điều này quả là hiển nhiên nếu $K' = K$; nếu $K' \neq K$ thì $[K':K] = 2$; cho $a \mapsto a$ ký hiệu tự đẳng cấu của $K'$ trên $K$ duy nhất khác với ánh xạ đồng nhất; nếu $f \in K'[X]$ và nếu $\bar{f}$ là đa thức thu được bằng cách áp dụng $a \mapsto \bar{a}$ lên các hệ số của $f$, thì $f \bar{f} \in K[X]$; nếu $a \in K'$ là một nghiệm của $f \bar{f}$ thì $a$ hoặc là một nghiệm của $f$ hoặc của $\bar{f}$; do đó hoặc $a$ hoặc $a$ là một nghiệm của $f$.
 
 Do đó, hãy cho $f$ là một đa thức trên $K$ có bậc $2^n p$, $p$ lẻ. *Ta* sẽ tiến hành quy nạp theo $n$, tính chất đúng với $n = 0$ theo giả thiết *a)*. Cho E là một mở rộng của K trong đó $f$ tách thành các nhân tử tuyến tính:
 
@@ -445,7 +445,7 @@ Cho M và N là hai không gian con bù nhau có chiều p và $n - p$ tương �
 
 Các bài tập
 
-### Các bài tập {#alg-vi-s2-exercises}
+### Bài tập {#alg-vi-s2-exercises}
 
 Tất cả các vành được xét đều được giả sử là giao hoán trừ khi được nêu tường minh là khác.
 

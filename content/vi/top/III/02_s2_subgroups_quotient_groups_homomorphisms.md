@@ -467,7 +467,7 @@ $$
 (x, y)((x', y')(x'', y'')) = (x, y)(x'\sigma_{y'}(x''), y'y'')
 = (x\sigma_y(x'\sigma_{y'}(x'')), yy', y'')
 $$
-và do đó tính kết hợp của luật (3) suy ra từ các факт rằng $y \to \sigma_y$ là một đồng cấu của $\mathbf{L}$ vào $\Gamma$ và rằng $\sigma_y$ là một tự đẳng cấu của $\mathbf{N}$. Rõ ràng $(e', e'')$ là phần tử đơn vị của (3), và cuối cùng
+và do đó tính kết hợp của luật (3) suy ra từ các sự kiện rằng $y \to \sigma_y$ là một đồng cấu của $\mathbf{L}$ vào $\Gamma$ và rằng $\sigma_y$ là một tự đẳng cấu của $\mathbf{N}$. Rõ ràng $(e', e'')$ là phần tử đơn vị của (3), và cuối cùng
 $$(x, y)(\sigma_{y^{-1}}(x^{-1}), y^{-1}) = (\sigma_{y^{-1}}(x^{-1}), y^{-1})(x, y) = (e', e'')$$
 suy ra $(x, y)$ có một nghịch đảo trong $S$. Các mệnh đề khác của 1) là hiển nhiên. Mặt khác, vì $(x, y) = (x, e'') (e', y)$, một đồng cấu $h$ thỏa mãn các điều kiện của 2) tất yếu phải thỏa mãn
 $$h(x, y) = f(x)g(y),$$

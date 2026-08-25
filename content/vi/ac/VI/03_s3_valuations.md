@@ -107,7 +107,7 @@ Cho $K$ là một trường (không nhất thiết giao hoán) và $v$ là một
 (iv) Tập $m(A)$ gồm các $x \in A$ sao cho $v(x) > O$ là iđêan lớn nhất \#A trong $A$; $U(A) = A - m(A)$ là tập hợp các phần tử khả nghịch của $A$ và $\kappa(A) := A/m(A)$ là một trường (không nhất thiết giao hoán).
 (v) Với mọi $x \in K - A$, $x^{-1} \in m(A)$.
 
-Khẳng định (i) suy ra từ तथ्य là $\bar{v}^{-1}(+\infty)$ là một iđêan của $K$ không bằng $K$. Việc kiểm tra rằng $A$ là một vành và $V$, cùng với $V'_a$ là các iđêan hai phía là tầm thường nhờ các tiên đề (VL$_I$), (VL$_II$) và (VL$_III$). Nếu $a$ là một iđêan (trái, chẳng hạn) của $A$ và $x \neq 0$ thuộc $A$, mọi $y \in A$ sao cho $v(y) \geq v(x)$ đều có thể viết $y = zx$ với $z = yx^{-1}$, do đó $v(z) = v(y) - v(x) \geq O$ và vì thế $z \in A$; nói cách khác iđêan trái $Ax$ chứa các $V'_a$ với $a > v(x)$. Tập hợp $U(A) = A - m(A)$ là tập các $x \in K$ sao cho $v(x) = 0$; nếu $x \in U(A)$, thì
+Khẳng định (i) suy ra từ sự kiện là $\bar{v}^{-1}(+\infty)$ là một iđêan của $K$ không bằng $K$. Việc kiểm tra rằng $A$ là một vành và $V$, cùng với $V'_a$ là các iđêan hai phía là tầm thường nhờ các tiên đề (VL$_I$), (VL$_II$) và (VL$_III$). Nếu $a$ là một iđêan (trái, chẳng hạn) của $A$ và $x \neq 0$ thuộc $A$, mọi $y \in A$ sao cho $v(y) \geq v(x)$ đều có thể viết $y = zx$ với $z = yx^{-1}$, do đó $v(z) = v(y) - v(x) \geq O$ và vì thế $z \in A$; nói cách khác iđêan trái $Ax$ chứa các $V'_a$ với $a > v(x)$. Tập hợp $U(A) = A - m(A)$ là tập các $x \in K$ sao cho $v(x) = 0$; nếu $x \in U(A)$, thì
 $$
 v(x^{-1}) = -v(x) = 0,
 $$

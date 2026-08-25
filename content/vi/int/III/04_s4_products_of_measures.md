@@ -85,7 +85,7 @@ $$
 \mathcal{K}(X, K; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y, L; \mathbf{C})
 $$
 
-được đồng nhất với một không gian con của $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$, lại chính là không gian $\mathcal{K}(X, K; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y, L; \mathbf{C})$ nhưng lần này được đồng nhất một cách chính tắc với một không gian các ánh xạ từ $X$ vào $\mathcal{K}(Y, L; \mathbf{C})$ (A, II, §7, No. 7, Cor. of Prop. 15); nhưng không gian con này của $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ được biết là *trù mật* trong không gian sau (\S1, No. 2, Prop. 5), do đó kết luận của (ii) suy ra từ तथ्य rằng hạn chế của $\omega$ là một đẳng cấu tôpô.
+được đồng nhất với một không gian con của $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$, lại chính là không gian $\mathcal{K}(X, K; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y, L; \mathbf{C})$ nhưng lần này được đồng nhất một cách chính tắc với một không gian các ánh xạ từ $X$ vào $\mathcal{K}(Y, L; \mathbf{C})$ (A, II, §7, No. 7, Cor. of Prop. 15); nhưng không gian con này của $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ được biết là *trù mật* trong không gian sau (\S1, No. 2, Prop. 5), do đó kết luận của (ii) suy ra từ sự kiện rằng hạn chế của $\omega$ là một đẳng cấu tôpô.
 
 Đã chứng minh bổ đề, ta nhận xét rằng mọi tập con compact của $X \times Y$ đều được chứa trong một tích $K \times L$, trong đó $K$ (resp. $L$) là một tập con compact của $X$ (resp. $Y$). Do đó từ Bổ đề 1, (ii) suy ra không gian con $\mathcal{K}(X; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y; \mathbf{C})$ là *trù mật* trong $\mathcal{K}(X \times Y; \mathbf{C})$; vì quan hệ (1) cũng có thể viết là $\nu(g \otimes h) = \lambda(g)\mu(h)$ với $g \in \mathcal{K}(X; \mathbf{C})$, $h \in \mathcal{K}(Y; \mathbf{C})$, nên tính *duy nhất* của $\nu$ suy ra ngay lập tức. Để chứng minh sự tồn tại của $\nu$, ta sẽ dùng bổ đề sau:
 
@@ -270,7 +270,7 @@ $$
 \langle u \otimes v, |\lambda \otimes \mu| \rangle = \langle u \otimes v, |\lambda| \otimes |\mu| \rangle.
 $$
 
-Vì mọi hàm trong $\mathcal{K}(X; \mathbf{C})$ (resp. $\mathcal{K}(Y; \mathbf{C})$) đều là một tổ hợp tuyến tính của các hàm trong $\mathcal{K}_+(X)$ (resp. $\mathcal{K}_+(Y)$), công thức trước vẫn đúng với $u \in \mathcal{K}(X; \mathbf{C})$ và $v \in \mathcal{K}(Y; \mathbf{C})$; do đó mệnh đề suy ra từ तथ्य rằng $\mathcal{K}(X; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y; \mathbf{C})$ trù mật trong $\mathcal{K}(X \times Y; \mathbf{C})$.
+Vì mọi hàm trong $\mathcal{K}(X; \mathbf{C})$ (resp. $\mathcal{K}(Y; \mathbf{C})$) đều là một tổ hợp tuyến tính của các hàm trong $\mathcal{K}_+(X)$ (resp. $\mathcal{K}_+(Y)$), công thức trước vẫn đúng với $u \in \mathcal{K}(X; \mathbf{C})$ và $v \in \mathcal{K}(Y; \mathbf{C})$; do đó mệnh đề suy ra từ sự kiện rằng $\mathcal{K}(X; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y; \mathbf{C})$ trù mật trong $\mathcal{K}(X \times Y; \mathbf{C})$.
 
 #### Hệ quả {#int-iii-s4-n2-cor-1 .statement}
 
@@ -513,7 +513,7 @@ $$
 \mu_K(f_J \circ \mathrm{pr}_{J, K}) = \mu_J(f_J) \cdot \prod_{\lambda \in K - J} \mu_\lambda(1).
 $$
 
-Để $(\mu_J)$ là một hệ ngược các độ đo, do đó điều cần và đủ là либо $\mu_\lambda = 0$ với mọi $\lambda \in L$ hoặc $\mu_\lambda(1) = 1$ với mọi $\lambda \in L$.
+Để $(\mu_J)$ là một hệ ngược các độ đo, do đó điều cần và đủ là hoặc $\mu_\lambda = 0$ với mọi $\lambda \in L$ hoặc $\mu_\lambda(1) = 1$ với mọi $\lambda \in L$.
 
 ### 6. Tích vô hạn của các độ đo
 

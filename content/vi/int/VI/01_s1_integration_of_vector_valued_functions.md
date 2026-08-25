@@ -403,7 +403,7 @@ Hơn nữa, khi $U$ thỏa các điều kiện này, $U$ là một ánh xạ li�
 
 Ngược lại, giả sử b) đã được xác nhận; chỉ cần chứng minh rằng với mọi tập hợp con $K$ compact của $T$, ánh xạ $(t, x) \mapsto U(t) \cdot x$ là liên tục trên $K \times G$. Đặt $M = U(K)$; vì $M$ là đều liên tục, suy ra trên $M$, tôpô hội tụ điểm trong $G$ trùng với tôpô hội tụ điểm trong $D$ (GT, X, §2, No. 4, Định lý 1); do đó giả thiết b) suy ra rằng $t \mapsto U(t)$ là một ánh xạ liên tục của $K$ vào $\mathcal{L}(G; H)$ khi $\mathcal{L}(G; H)$ được trang bị tôpô hội tụ điểm. Mặt khác, $(A, x) \mapsto A \cdot x$ là một ánh xạ liên tục của $M \times G$ vào $H$ khi $M$ được trang bị tôpô hội tụ điểm (GT, X, §2, No. 1, Hệ quả 4 của Mệnh đề 1). Vì ánh xạ $(t, x) \mapsto U(t) \cdot x$ có thể phân tích thành $(t, x) \mapsto (U(t), x) \mapsto U(t) \cdot x$, ta kết luận rằng nó là liên tục.
 
-Cuối cùng, khẳng định cuối cùng của bổ đề suy ra từ तथ्य rằng, trên $M$, tôpô của sự hội tụ compact trùng với tôpô của sự hội tụ điểm (GT, X, §2, No. 4, Định lý 1).
+Cuối cùng, khẳng định cuối cùng của bổ đề suy ra từ sự kiện rằng, trên $M$, tôpô của sự hội tụ compact trùng với tôpô của sự hội tụ điểm (GT, X, §2, No. 4, Định lý 1).
 
 Vì thế, giả sử rằng $U$ thỏa các điều kiện của Bổ đề 3; khi đó (nếu $H$ là gần đầy đủ) ta định nghĩa, như trong No. 6, một ánh xạ tuyến tính $\lambda \mapsto \int U d\lambda$ của $\mathcal{C}'(T)$ vào $F = \mathcal{L}(G; H)$. Ta đặt $U(\lambda) = \int U d\lambda$.
 

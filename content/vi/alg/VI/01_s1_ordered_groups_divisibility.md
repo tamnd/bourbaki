@@ -543,7 +543,7 @@ $$
 \sup(x_1, \ldots, x_n) = x_1 + \cdots + x_n .
 $$
 
-Điều này suy ra từ công thức $u + v = \sup(u, v) + \inf(u, v)$ (VI, p. 10, Mệnh đề 7) bằng quy nạp theo $n$, dùng तथ्य rằng $x_i$ nguyên tố cùng nhau với $x_1 + \ldots + x_{i-1}$ đối với $2 \leq i \leq n$ (Hệ quả 4 của Mệnh đề 11).
+Điều này suy ra từ công thức $u + v = \sup(u, v) + \inf(u, v)$ (VI, p. 10, Mệnh đề 7) bằng quy nạp theo $n$, dùng sự kiện rằng $x_i$ nguyên tố cùng nhau với $x_1 + \ldots + x_{i-1}$ đối với $2 \leq i \leq n$ (Hệ quả 4 của Mệnh đề 11).
 
 #### Nhận xét {#alg-vi-s1-n12-rem-1 .statement}
 
@@ -597,7 +597,7 @@ Tính chất phân phối này là riêng cho các *nhóm* có thứ tự dàn, 
 
 — *Một phần tử x của một nhóm có thứ tự G được gọi là bất khả quy nếu nó là một phần tử cực tiểu trong tập hợp các phần tử dương ngặt của G.*
 
-Cho x là một phần tử bất khả quy của nhóm có thứ tự G; nếu y là một phần tử dương của G thì phần tử inf(x, y), nếu tồn tại, chỉ có thể bằng x hoặc bằng 0. Vì thế trong một nhóm có thứ tự dàn G, mọi y dương đều либо lớn hơn либо nguyên tố cùng nhau với phần tử bất khả quy x; đặc biệt, hai phần tử bất khả quy phân biệt là nguyên tố cùng nhau.
+Cho x là một phần tử bất khả quy của nhóm có thứ tự G; nếu y là một phần tử dương của G thì phần tử inf(x, y), nếu tồn tại, chỉ có thể bằng x hoặc bằng 0. Vì thế trong một nhóm có thứ tự dàn G, mọi y dương đều hoặc lớn hơn hoặc nguyên tố cùng nhau với phần tử bất khả quy x; đặc biệt, hai phần tử bất khả quy phân biệt là nguyên tố cùng nhau.
 
 (DIV) Một phần tử p của A được gọi là *bất khả quy* nếu iđêan (p) là một phần tử bất khả quy của nhóm có thứ tự $\mathcal{P}^*$; điều này nói rằng p không là không cũng không khả nghịch, và rằng mọi phần tử của $A$ chia hết p đều liên hợp hoặc với p hoặc với 1. Nếu $\mathcal{P}^*$ là sắp thứ tự dàn, thì mọi $a \in A$ đều hoặc nguyên tố cùng nhau với p hoặc là một bội của p.
 

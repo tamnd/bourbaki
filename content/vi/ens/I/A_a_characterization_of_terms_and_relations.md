@@ -212,7 +212,7 @@ Khi muốn kiểm tra xem một dãy ký hiệu $A$ (không gồm một chữ c�
 
 Ngoại trừ trong một số lý thuyết toán học đặc biệt yếu về các tiên đề (xem Bài tập 7), ta không có một thủ tục tổng quát nào thuộc loại này cho phép kiểm tra xem một quan hệ $R$ đã cho trong một lý thuyết $\mathscr{T}$ có phải là một định lý trong $\mathscr{T}$ hay không.
 
-### Các bài tập {#ens-i-a0-exercises}
+### Bài tập {#ens-i-a0-exercises}
 
 Xem [các bài tập cho Phụ lục 0](exercises/a0/).
 

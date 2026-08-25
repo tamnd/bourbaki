@@ -165,7 +165,7 @@ Việc tính $\varphi(n)$ dựa trên hai công thức:
 (2) $\varphi(mn) = \varphi(m)\varphi(n)$ nếu $m$ và $n$ là nguyên tố cùng nhau ,
 (3) $\varphi(p^a) = p^{a-1}(p-1)$ ($p$ nguyên tố, $a \geq 1$).
 
-Điều đầu tiên suy ra ngay từ तथ्य là các vành $\mathbf{Z}/mn\mathbf{Z}$ và $(\mathbf{Z}/m\mathbf{Z}) \times (\mathbf{Z}/n\mathbf{Z})$ đẳng cấu (*I*, p. 112), và rằng $(A \times B)^* = A^* \times B^*$ đối với hai vành $A$ và $B$. Để chứng minh (3) ta nhận xét rằng các ước dương của $p^a$ là $1, p, p^2, \ldots, p^a$; do đó số nguyên $k$ không có ước chung nào với $p^a$ ngoài $1$ khi và chỉ khi nó không chia hết cho $p$; vì có $p^a - 1$ bội của $p$ giữa $0$ và $p^a - 1$, ta quả thực được (3).
+Điều đầu tiên suy ra ngay từ sự kiện là các vành $\mathbf{Z}/mn\mathbf{Z}$ và $(\mathbf{Z}/m\mathbf{Z}) \times (\mathbf{Z}/n\mathbf{Z})$ đẳng cấu (*I*, p. 112), và rằng $(A \times B)^* = A^* \times B^*$ đối với hai vành $A$ và $B$. Để chứng minh (3) ta nhận xét rằng các ước dương của $p^a$ là $1, p, p^2, \ldots, p^a$; do đó số nguyên $k$ không có ước chung nào với $p^a$ ngoài $1$ khi và chỉ khi nó không chia hết cho $p$; vì có $p^a - 1$ bội của $p$ giữa $0$ và $p^a - 1$, ta quả thực được (3).
 
 Các công thức (2) và (3) cho ngay rằng
 $$
@@ -498,7 +498,7 @@ Theo V, p. 65, Hệ quả 1 tồn tại $0 \in L^*$ sao cho $f(\sigma) = \sigma(
 
 *Nếu L là một mở rộng Galois của K, thì đồng cấu $k_L$ là đơn ánh và ảnh của nó là nhóm $\mathrm{Hom}_c(\mathrm{Gal}(L/K), \mu_n(K))$ gồm các đồng cấu liên tục của nhóm tôpô $\mathrm{Gal}(L/K)$ vào nhóm rời rạc $\mu_n(K)$.*
 
-Điều này suy ra ngay từ những gì đã nói, dùng तथ्य rằng L là một hợp có hướng tăng của các mở rộng Galois $L_i$ có bậc hữu hạn và rằng đồng cấu của $\mathrm{Gal}(L/K)$ vào $\mu_n(K)$ là liên tục khi và chỉ khi nó có thể được phân tích qua một trong các thương $\mathrm{Gal}(L_i/K)$ của $\mathrm{Gal}(L/K)$.
+Điều này suy ra ngay từ những gì đã nói, dùng sự kiện rằng L là một hợp có hướng tăng của các mở rộng Galois $L_i$ có bậc hữu hạn và rằng đồng cấu của $\mathrm{Gal}(L/K)$ vào $\mu_n(K)$ là liên tục khi và chỉ khi nó có thể được phân tích qua một trong các thương $\mathrm{Gal}(L_i/K)$ của $\mathrm{Gal}(L/K)$.
 
 #### Định lý 4 {#alg-v-s11-thm-4 .statement}
 

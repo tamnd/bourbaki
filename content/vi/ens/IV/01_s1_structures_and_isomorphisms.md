@@ -252,7 +252,7 @@ Nói lạm dụng ngôn ngữ, nếu $f_i$ là bất kỳ song ánh nào của $
 
 CST5. *Trong một lý thuyết* $\mathscr{C}'$ *mạnh hơn* $\mathscr{C}$, *cho* U *là một cấu trúc thuộc loài* $\Sigma$ *trên* $\mathrm{E}_1, \ldots, \mathrm{E}_n$, *và cho* $f_i$ *là một song ánh của* $\mathrm{E}_i$ *onto một tập hợp* $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$. *Khi đó tồn tại duy nhất một cấu trúc thuộc loài* $\Sigma$ *trên* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$ *sao cho* $(f_1, \ldots, f_n)$ *là một đẳng cấu từ* $\mathrm{E}_1, \ldots, \mathrm{E}_n$ *onto* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$.
 
-Đối với cấu trúc này, nếu nó tồn tại, thì chỉ có thể là số hạng $\mathrm{U}'$ được xác định bởi quan hệ (4); còn phải kiểm tra rằng số hạng này thực sự là một cấu trúc thuộc loài $\Sigma$, tức là quan hệ $\mathrm{R}\{\mathrm{E}'_1, \ldots, \mathrm{E}'_n, \mathrm{U}'\}$ là đúng trong $\mathscr{C}'$. Nhưng điều này suy ra từ तथ्य rằng $\mathrm{R}\{x_1, \ldots, x_n, s\}$ là *khả chuyển*, vì
+Đối với cấu trúc này, nếu nó tồn tại, thì chỉ có thể là số hạng $\mathrm{U}'$ được xác định bởi quan hệ (4); còn phải kiểm tra rằng số hạng này thực sự là một cấu trúc thuộc loài $\Sigma$, tức là quan hệ $\mathrm{R}\{\mathrm{E}'_1, \ldots, \mathrm{E}'_n, \mathrm{U}'\}$ là đúng trong $\mathscr{C}'$. Nhưng điều này suy ra từ sự kiện rằng $\mathrm{R}\{x_1, \ldots, x_n, s\}$ là *khả chuyển*, vì
 
 $R\{E'_1, \ldots, E'_n, U'\}$ tương đương trong $\mathscr{T}'$ với quan hệ $R\{E_1, \ldots, E_n, U\}$ (no. 3), và quan hệ này đúng trong $\mathscr{T}'$ theo giả thiết.
 

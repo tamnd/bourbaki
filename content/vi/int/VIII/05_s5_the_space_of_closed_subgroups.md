@@ -356,7 +356,7 @@ Cho $D_c$ là tập hợp các nhóm con rời rạc $H$ của $G$ sao cho $G/H$
 
 (ii) Tồn tại một hằng số $k$ sao cho $v(H) \leq k$ với mọi $H \in A$.
 
-Xét đến Mệnh đề 9, điều này suy ra ngay từ तथ्य rằng $D_c$ là ảnh của $N_c$ qua song ánh chính tắc của $N$ lên $D$, và từ तथ्य rằng, dưới các giả thiết đã nêu, song ánh này là một đồng phôi (No. 4, Mệnh đề 8).
+Xét đến Mệnh đề 9, điều này suy ra ngay từ sự kiện rằng $D_c$ là ảnh của $N_c$ qua song ánh chính tắc của $N$ lên $D$, và từ sự kiện rằng, dưới các giả thiết đã nêu, song ánh này là một đồng phôi (No. 4, Mệnh đề 8).
 
 #### Ví dụ {#int-viii-s5-n5-exa-1 .statement}
 

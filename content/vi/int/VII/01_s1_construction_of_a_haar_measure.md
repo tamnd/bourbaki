@@ -163,7 +163,7 @@ Nếu $\mu$ là gần bất biến và $\mu'$ là một độ đo khác trên $X
 
 Để $\mu$ là gần bất biến, điều kiện cần và đủ là tập hợp các tập con địa phương $\mu$-không đáng kể của $X$ bất biến dưới $G$ (Ch. V, §5, No. 5, Th. 2), hoặc cũng là rằng, với mọi tập con compact $K$ của $X$ mà $\mu$-không đáng kể và với mọi $s \in G$, $sK$ là $\mu$-không đáng kể (*loc. cit.*, *Nhận xét*).
 
-Nếu $\mu$ là gần bất biến, thì giá đỡ của $\mu$ bất biến dưới $G$. Đặc biệt nếu $G$ là *bắc cầu* trong $X$ (A, I, §5, No. 5, Def. 6), thì giá đỡ này либо rỗng (nếu $\mu = 0$) hoặc bằng $X$ (nếu $\mu \neq 0$).
+Nếu $\mu$ là gần bất biến, thì giá đỡ của $\mu$ bất biến dưới $G$. Đặc biệt nếu $G$ là *bắc cầu* trong $X$ (A, I, §5, No. 5, Def. 6), thì giá đỡ này hoặc rỗng (nếu $\mu = 0$) hoặc bằng $X$ (nếu $\mu \neq 0$).
 
 #### Bổ đề 1 {#int-vii-s1-lem-1 .statement}
 
@@ -814,7 +814,7 @@ Vì K không rời rạc, $\alpha(\{0\}) = 0$ (No. 2, Mệnh đề 2); do đó, 
 
 — *Với mọi* $M > 0$, *cho* $V_M$ *là tập hợp các* $x \in K$ *sao cho* $\mathrm{mod}(x) \leq M$. *Nếu* K *không rời rạc, thì* $V_M$ *lập thành một hệ cơ bản các lân cận compact của* 0 *trong* K.
 
-Các $V_M$ là các lân cận đóng của 0 theo Mệnh đề 12. Ta sẽ chứng minh rằng chúng là compact. Cho U là một lân cận compact của 0. Tồn tại một $r \neq 0$ trong K sao cho $\mathrm{mod}(r) < 1$ và $r^n \in U$ với mọi $n > 0$: quả vậy, lấy W là một lân cận của 0 sao cho $WU \subset U$; theo Mệnh đề 12, tồn tại một $r \neq 0$ trong K sao cho $\mathrm{mod}(r) < 1$ và $r \in U \cap W$; khi đó $r^2 \in WU \subset U$, và $r^n \in U$ với mọi $n > 0$ bằng quy nạp theo $n$. Ta sẽ chỉ ra rằng $V_M$ được chứa trong một hợp hữu hạn của các tập $r^{-q}U$ ($q$ là một số nguyên $\geq 0$), điều này sẽ chứng minh rằng các $V_M$ वास्तव sự là compact. Nếu $x$ là một điểm tụ của dãy $(r^n)$, thì $\mathrm{mod}(x)$ là một điểm tụ của dãy $(\mathrm{mod}(r)^n)$, do đó $\mathrm{mod}(x) = 0$, $x = 0$; vì U là compact, suy ra (GT, I, §9, No. 1, Hệ quả của Định lý 1) rằng $\lim_{n \to \infty} r^n = 0$. Bây giờ cho $a \in V_M$. Vì dãy $(r^n a)_{n \geq 0}$ tiến tới 0, tồn tại một số nguyên nhỏ nhất $n \geq 0$ sao cho $r^n a \in U$. Nếu $n > 0$ thì $r^{n-1} a \notin U$, do đó $r^n a \in U \cap C(rU)$; bao đóng X của $U \cap C(rU)$ là compact vì U là compact, và nó không chứa 0 vì $rU$ là một lân cận của 0; do đó, trong X, $\mathrm{mod}(x)$ được chặn dưới bởi một số $m > 0$. Vậy, nếu $n > 0$, ta có $m \leq \mathrm{mod}(r^n a)$, suy ra $\mathrm{mod}(r^{-1})^n \leq M/m$. Vì $\mathrm{mod}(r^{-1}) > 1$, số nguyên $n$ chỉ có thể nhận một số hữu hạn giá trị, một số không phụ thuộc vào $a$, và điều đó hoàn tất chứng minh của mệnh đề của chúng ta.
+Các $V_M$ là các lân cận đóng của 0 theo Mệnh đề 12. Ta sẽ chứng minh rằng chúng là compact. Cho U là một lân cận compact của 0. Tồn tại một $r \neq 0$ trong K sao cho $\mathrm{mod}(r) < 1$ và $r^n \in U$ với mọi $n > 0$: quả vậy, lấy W là một lân cận của 0 sao cho $WU \subset U$; theo Mệnh đề 12, tồn tại một $r \neq 0$ trong K sao cho $\mathrm{mod}(r) < 1$ và $r \in U \cap W$; khi đó $r^2 \in WU \subset U$, và $r^n \in U$ với mọi $n > 0$ bằng quy nạp theo $n$. Ta sẽ chỉ ra rằng $V_M$ được chứa trong một hợp hữu hạn của các tập $r^{-q}U$ ($q$ là một số nguyên $\geq 0$), điều này sẽ chứng minh rằng các $V_M$ thực sự là compact. Nếu $x$ là một điểm tụ của dãy $(r^n)$, thì $\mathrm{mod}(x)$ là một điểm tụ của dãy $(\mathrm{mod}(r)^n)$, do đó $\mathrm{mod}(x) = 0$, $x = 0$; vì U là compact, suy ra (GT, I, §9, No. 1, Hệ quả của Định lý 1) rằng $\lim_{n \to \infty} r^n = 0$. Bây giờ cho $a \in V_M$. Vì dãy $(r^n a)_{n \geq 0}$ tiến tới 0, tồn tại một số nguyên nhỏ nhất $n \geq 0$ sao cho $r^n a \in U$. Nếu $n > 0$ thì $r^{n-1} a \notin U$, do đó $r^n a \in U \cap C(rU)$; bao đóng X của $U \cap C(rU)$ là compact vì U là compact, và nó không chứa 0 vì $rU$ là một lân cận của 0; do đó, trong X, $\mathrm{mod}(x)$ được chặn dưới bởi một số $m > 0$. Vậy, nếu $n > 0$, ta có $m \leq \mathrm{mod}(r^n a)$, suy ra $\mathrm{mod}(r^{-1})^n \leq M/m$. Vì $\mathrm{mod}(r^{-1}) > 1$, số nguyên $n$ chỉ có thể nhận một số hữu hạn giá trị, một số không phụ thuộc vào $a$, và điều đó hoàn tất chứng minh của mệnh đề của chúng ta.
 
 Vì thế, do giao của các $V_M$ thu về $\{0\}$ nên các $V_M$ tạo thành một hệ cơ bản các lân cận của 0 (GT, I, §9, No. 2, Mệnh đề 1).
 
@@ -1002,7 +1002,7 @@ $$
 
 Một nghiên cứu sâu hơn về cấu trúc của các trường compact địa phương sẽ được thực hiện trong CA, VI, §9.
 
-(2) Điều này cũng suy ra từ Hệ quả 1 của Mệnh đề 15 và तथ्य rằng phép nhân trái bởi $z = a + i b$ có ma trận $\begin{pmatrix} a & -b \\ b & a \end{pmatrix}$ đối với cơ sở chính tắc $1, i$ của $\mathbf{C}$ trên $\mathbf{R}$.
+(2) Điều này cũng suy ra từ Hệ quả 1 của Mệnh đề 15 và sự kiện rằng phép nhân trái bởi $z = a + i b$ có ma trận $\begin{pmatrix} a & -b \\ b & a \end{pmatrix}$ đối với cơ sở chính tắc $1, i$ của $\mathbf{C}$ trên $\mathbf{R}$.
 
 ### Bài tập {#int-vii-s1-exercises}
 

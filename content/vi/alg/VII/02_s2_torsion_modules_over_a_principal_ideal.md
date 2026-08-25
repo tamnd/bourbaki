@@ -113,7 +113,7 @@ Rõ ràng, nếu $\pi$ và $\pi'$ là hai phần tử bất khả quy liên kế
 #### Hệ quả 1 {#alg-vii-s2-thm-1-cor-1 .statement}
 
 — *Mọi môđun con N của một môđun xoắn M đều là tổng trực tiếp của các môđun con $N \cap M_\pi$.*
-Điều này suy ra từ तथ्य rằng $N \cap M_\pi$ là thành phần π-nguyên sơ $N_\pi$ của N.
+Điều này suy ra từ sự kiện rằng $N \cap M_\pi$ là thành phần π-nguyên sơ $N_\pi$ của N.
 
 #### Hệ quả 2 {#alg-vii-s2-thm-1-cor-2 .statement}
 

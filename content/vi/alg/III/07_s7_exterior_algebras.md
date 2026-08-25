@@ -487,7 +487,7 @@ $$
 u_1 \otimes u_2 \otimes \cdots \otimes u_m
 $$
 
-trong đó либо $u_i = 1$ hoặc $u_i = e_i$; nếu J là tập các chỉ số i sao cho $u_i = e_i$, thì $u_1 \otimes u_2 \otimes \cdots \otimes u_m$ đồng nhất với $e_J$, và thế là chứng minh xong.
+trong đó hoặc $u_i = 1$ hoặc $u_i = e_i$; nếu J là tập các chỉ số i sao cho $u_i = e_i$, thì $u_1 \otimes u_2 \otimes \cdots \otimes u_m$ đồng nhất với $e_J$, và thế là chứng minh xong.
 
 #### Hệ quả 1 {#alg-iii-s7-thm-1-cor-1 .statement}
 

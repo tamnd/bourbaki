@@ -589,7 +589,7 @@ nên trong cả hai trường hợp đều có $f(x) \neq f(y)$. Còn phải ch�
 
 Điều kiện thứ hai nói rằng không có phần tử nào $c < b$ là một cận trên của X, tức là $b$ là một phần tử cực tiểu của tập hợp M các cận trên của X; nhưng điều này cũng chính là nói rằng $b$ là phần tử bé nhất của M, vì M được sắp thứ tự toàn phần (no. 10, Mệnh đề 10).
 
-### 13. KHOẢNG॥
+### 13. KHOẢNG
 
 Cho E là một tập hợp có thứ tự và cho $a$, $b$ là hai phần tử của E sao cho $a \leqslant b$. Tập con của E gồm các phần tử $x$ sao cho $a \leqslant x \leqslant b$ được gọi là *khoảng đóng có đầu mút trái a và đầu mút phải b*, và được ký hiệu bởi $[a, b]$. Tập hợp tất cả các $x \in \mathrm{E}$ sao cho $a \leqslant x < b$ (resp. $a < x \leqslant b$) được gọi là *khoảng nửa mở về bên phải* (resp. *về bên trái*) với các đầu mút $a$ và $b$, và được ký hiệu bởi $[a, b[$ (resp. $]a, b]$). Tập hợp tất cả các $x \in \mathrm{E}$ sao cho $a < x < b$ được gọi là *khoảng mở* với các đầu mút $a$ và $b$, và được ký hiệu bởi $]a, b[$.
 

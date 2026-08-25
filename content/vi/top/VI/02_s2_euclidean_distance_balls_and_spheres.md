@@ -110,7 +110,7 @@ dạng $\|x\|^2 = \sum_{i=1}^n x_i^2$. Tích vô hướng của hai vectơ $x = 
 
 Với mỗi số nguyên $p > 0$, ký hiệu $U_p$ là tập hợp tất cả các cặp $(x, y)$ gồm các điểm của $\mathbf{R}^n$ sao cho $d(x, y) < 1/p$; các bất đẳng thức (3) cho thấy các tập $U_p$ tạo thành một hệ cơ bản của các lân cận trong cấu trúc đều của $\mathbf{R}^n$ (xem Chương IX, § 2).
 
-Từ तथ्य này và từ bất đẳng thức
+Từ sự kiện này và từ bất đẳng thức
 $$
 |d(x, y) - d(x', y')| \leq d(x, x') + d(y, y'),
 $$

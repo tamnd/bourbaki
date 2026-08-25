@@ -241,7 +241,7 @@ $$
 
 Suy ra rằng, với mỗi $h \in \mathcal{H}$, hàm $z' \mapsto \langle h, z' \rangle$ trên C đạt cận trên của nó tại ít nhất một điểm cực biên của C (TVS, II, §7, No. 1, Hệ quả của Mệnh đề 1), và điểm này thuộc về $i_{\mathcal{H}}(X)$ (*loc. cit.*, Hệ quả của Mệnh đề 2).
 
-(i) Theo (9), $\| i_{\mathcal{H}}(x) \| \leq 1$ trong không gian chuẩn tắc $\mathcal{H}'$, nói cách khác $i_{\mathcal{H}}(X)$ bị chặn, và mệnh đề suy ra từ तथ्य rằng $\mathcal{H}'$, được trang bị tôpô yếu $\sigma(\mathcal{H}', \mathcal{H})$, là *gần đầy đủ* (TVS, III, §4, No. 2, Hệ quả 5 của Định lý 1).
+(i) Theo (9), $\| i_{\mathcal{H}}(x) \| \leq 1$ trong không gian chuẩn tắc $\mathcal{H}'$, nói cách khác $i_{\mathcal{H}}(X)$ bị chặn, và mệnh đề suy ra từ sự kiện rằng $\mathcal{H}'$, được trang bị tôpô yếu $\sigma(\mathcal{H}', \mathcal{H})$, là *gần đầy đủ* (TVS, III, §4, No. 2, Hệ quả 5 của Định lý 1).
 
 (ii) Mọi độ đo dương $\mu$ có khối lượng 1 trên $i_{\mathcal{H}}(X)$ xuất hiện, nhờ phép chuyển cấu trúc bằng đồng phôi $i_{\mathcal{H}}$, từ một độ đo dương $\lambda$ có khối lượng 1 trên X, còn độ đo Dirac $\varepsilon_{i_{\mathcal{H}}(x)}$ xuất phát từ $\varepsilon_x$. Nói rằng $\mu$ nhận $i_{\mathcal{H}}(x)$ làm trọng tâm có nghĩa, theo định nghĩa, rằng
 

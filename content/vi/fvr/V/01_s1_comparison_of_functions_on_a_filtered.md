@@ -44,7 +44,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 1. SO SÁNH CÁC HÀM TRÊN MỘT TẬP HỢP ĐƯỢC LỌC
 
-Cho E là một tập hợp được lọc bởi một bộ lọc có cơ sở $\mathfrak{F}$ (*Gen. Top.*, I, p. 58); trong chương này ta sẽ xét các hàm có miền xác định là một tập con của E thuộc cơ sở của bộ lọc $\mathfrak{F}$ (tập con tùy thuộc vào hàm) và nhận giá trị либо trong trường số thực $\mathbf{R}$, hoặc, nói chung hơn, trong một không gian vectơ định chuẩn trên một trường có giá trị (*Gen. Top.*, IX, p. 170).
+Cho E là một tập hợp được lọc bởi một bộ lọc có cơ sở $\mathfrak{F}$ (*Gen. Top.*, I, p. 58); trong chương này ta sẽ xét các hàm có miền xác định là một tập con của E thuộc cơ sở của bộ lọc $\mathfrak{F}$ (tập con tùy thuộc vào hàm) và nhận giá trị hoặc trong trường số thực $\mathbf{R}$, hoặc, nói chung hơn, trong một không gian vectơ định chuẩn trên một trường có giá trị (*Gen. Top.*, IX, p. 170).
 
 Trong các ứng dụng, E thường sẽ là một không gian con của không gian thực $\mathbf{R}^n$, hoặc đường thẳng mở rộng $\overline{\mathbf{R}}$, và $\mathfrak{F}$ sẽ là vết trên E của bộ lọc các lân cận của một điểm đóng của E, hoặc là bộ lọc các phần bù của các tập hợp tương đối compact của E ("các lân cận của điểm ở vô cực").
 

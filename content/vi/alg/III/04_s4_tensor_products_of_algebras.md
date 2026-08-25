@@ -399,7 +399,7 @@ $$
 (ii) $E \cap F = K;$
 (iii) *mọi tập con tự do của E (resp. F) trên K là một tập con tự do của G với cấu trúc môđun phải F (resp. môđun trái E) của nó.*
 
-Điều kiện của mệnh đề hiển nhiên là cần, vì mọi cơ sở của E trên K đều là một cơ sở của $E \otimes_K F$ với cấu trúc môđun phải F của nó (II, § 3, no. 7, Hệ quả 1 của Mệnh đề 7). Để thấy điều kiện ấy là đủ, xét ảnh H của $E \otimes_K F$ qua h; đó là tập các tổng $\sum_i x_i y_i = \sum_i y_i x_i$ trong G, với $x_i \in E$ và $y_i \in F$; nếu $(a_\lambda)$ là một cơ sở của E trên K, thì H do đó cũng là môđun con của môđun phải hoặc trái F của G, được sinh bởi $(a_\lambda)$. Điều kiện của mệnh đề vì thế có nghĩa là tồn tại một cơ sở $(a_\lambda)$ của E đồng thời là một cơ sở của F-môđun H; suy ra h là đơn ánh. Mệnh đề (iii) suy ra từ तथ्य rằng mọi tập con tự do của E đều được chứa trong một cơ sở của E (II, § 7, no. 1, Định lý 2).
+Điều kiện của mệnh đề hiển nhiên là cần, vì mọi cơ sở của E trên K đều là một cơ sở của $E \otimes_K F$ với cấu trúc môđun phải F của nó (II, § 3, no. 7, Hệ quả 1 của Mệnh đề 7). Để thấy điều kiện ấy là đủ, xét ảnh H của $E \otimes_K F$ qua h; đó là tập các tổng $\sum_i x_i y_i = \sum_i y_i x_i$ trong G, với $x_i \in E$ và $y_i \in F$; nếu $(a_\lambda)$ là một cơ sở của E trên K, thì H do đó cũng là môđun con của môđun phải hoặc trái F của G, được sinh bởi $(a_\lambda)$. Điều kiện của mệnh đề vì thế có nghĩa là tồn tại một cơ sở $(a_\lambda)$ của E đồng thời là một cơ sở của F-môđun H; suy ra h là đơn ánh. Mệnh đề (iii) suy ra từ sự kiện rằng mọi tập con tự do của E đều được chứa trong một cơ sở của E (II, § 7, no. 1, Định lý 2).
 
 #### Hệ quả 1 {#alg-iii-s4-prop-7-cor-1 .statement}
 
@@ -431,7 +431,7 @@ Với mọi tập con hữu hạn J của I, kí hiệu $f_J$ là đồng cấu 
 
 (ii) *Cho F là một đại số trên A và, với mọi* $i \in I$, *cho* $u_i : E_i \to F$ *là một đồng cấu đại số trên A sao cho, với* $i \neq j$, $u_i(x_i)$ *và* $u_j(x_j)$ *giao hoán trong* F *với mọi* $x_i \in E_i$ *và* $x_j \in E_j$. *Khi đó tồn tại duy nhất một đồng cấu đại số trên A* $u : E \to F$ *sao cho* $u_i = u \circ f_i$ *với mọi* $i \in I$.
 
-(i) Vì, với mọi tập con hữu hạn J của I, $f_i = f_J \circ f_{J,i}$, khẳng định thứ nhất trong (i) suy ra từ no. 2, Mệnh đề 5, lấy J chứa i và j; khẳng định thứ hai cũng suy ra từ no. 2, Mệnh đề 5, xét đến तथ्य rằng E là hợp của các $f_J(E_J)$ khi J chạy qua $\mathcal{F}(I)$.
+(i) Vì, với mọi tập con hữu hạn J của I, $f_i = f_J \circ f_{J,i}$, khẳng định thứ nhất trong (i) suy ra từ no. 2, Mệnh đề 5, lấy J chứa i và j; khẳng định thứ hai cũng suy ra từ no. 2, Mệnh đề 5, xét đến sự kiện rằng E là hợp của các $f_J(E_J)$ khi J chạy qua $\mathcal{F}(I)$.
 
 (ii) Với mọi tập con hữu hạn J của I, suy ra từ no. 2, Mệnh đề 5 rằng tồn tại duy nhất một đồng cấu $u_J : E_J \to F$ sao cho $u_J \circ f_{J,i} = u_i$ với mọi $i \in J$; suy ngay từ tính duy nhất này rằng, với $J \subset J'$, $u_J = u_{J'} \circ f_{J'J}$; nói cách khác, các $u_J$ tạo thành một *hệ trực tiếp* các đồng cấu. Đặt $u = \lim \to u_J : E \to F$; khi đó theo định nghĩa $u_J = u \circ f_J$ với mọi tập con hữu hạn $J$ của $I$ và đặc biệt $u_i = u \circ f_i$ với mọi $i \in I$; tính duy nhất của $u$ suy ra từ các hệ thức này và từ việc các $f_i(E_i)$ sinh ra đại số $E$.
 

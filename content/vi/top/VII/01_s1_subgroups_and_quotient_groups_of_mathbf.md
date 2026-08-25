@@ -352,6 +352,6 @@ Nếu $(a_i)$ và $(b_i)$ là hai hệ chu kỳ chính của $f$, ta đã thấy
 
 Cho $\varphi$ là ánh xạ chính tắc của $\mathbf{R}^n$ lên $\mathbf{R}^n/G$; với mọi ánh xạ $g$ từ $\mathbf{R}^n/G$ vào một tập hợp $E$ tương ứng với hàm $\dot{g} = g \circ \varphi$, là một ánh xạ tuần hoàn của $\mathbf{R}^n$ vào $E$, có nhóm chu kỳ là
 
-### Exercises {#top-vii-s1-exercises}
+### Bài tập {#top-vii-s1-exercises}
 
 Xem [các bài tập của § 1](exercises/s1/).

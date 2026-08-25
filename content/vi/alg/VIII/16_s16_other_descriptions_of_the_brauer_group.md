@@ -712,7 +712,7 @@ $$
 \times c(h_1(x), h_2(x)h_3(x))c(h_1(x), h_2(x))^{-1})
 $$
 
-trong đó đẳng thức thứ hai suy ra từ तथ्य rằng $c$ là một 2-đối chu trình.
+trong đó đẳng thức thứ hai suy ra từ sự kiện rằng $c$ là một 2-đối chu trình.
 
 #### Bổ đề 5 {#alg-viii-s16-lem-5 .statement tag=00IU}
 
@@ -810,7 +810,7 @@ $h(x)^{-1},h(x)s(x)g_1s'(x\cdot g_1)^{-1}$, và $s'(x\cdot g_1)g_2s'(x\cdot g_1g
 
 đẳng thức thứ hai thu được bằng cách áp dụng quan hệ đối chu trình cho các phần tử
 
-$s(x)g_1s(x\cdot g_1)^{-1},h(x\cdot g_1)^{-1}$, và $h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}$; và đẳng thức cuối chỉ dùng तथ्य rằng ánh xạ $x\mapsto x\cdot g_1$ là một phép hoán vị của $H\backslash G$.
+$s(x)g_1s(x\cdot g_1)^{-1},h(x\cdot g_1)^{-1}$, và $h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}$; và đẳng thức cuối chỉ dùng sự kiện rằng ánh xạ $x\mapsto x\cdot g_1$ là một phép hoán vị của $H\backslash G$.
 
 Hai dòng cuối của biểu thức thu được tương ứng với một 2-đối biên. Ta thấy rằng $\widetilde{c}_{s'}$ có cùng lớp trong $H^2(G,F)$ với đối chu trình có giá trị tại $(g_1, g_2)\in G^2$ được cho bởi biểu thức
 

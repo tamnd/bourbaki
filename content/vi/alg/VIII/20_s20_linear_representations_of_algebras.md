@@ -262,7 +262,7 @@ Cho E là một A-môđun nửa đơn có số chiều hữu hạn trên K. Mọ
 
 Với mọi S trong $\mathscr{S}_K$, thành phần đẳng kiểu của Θ(A) kiểu S được sinh bởi các ảnh của các ánh xạ A-tuyến tính từ S đến $A^*$; do đó nó bằng $\Theta_S(A)$ theo Mệnh đề 2, a) của VIII, p. 378. Mặt khác, nếu S là một A-môđun đơn không hữu hạn chiều trên K, thì thành phần đẳng kiểu của Θ(A) kiểu S bằng 0: thật vậy, mọi môđun con đơn của Θ(A) đều là đơn sinh và do đó hữu hạn chiều trên K. Vì đế của Θ(A) là tổng trực tiếp của các thành phần đẳng kiểu của nó (VIII, p. 65, Mệnh đề 4), điều này chứng minh b).
 
-Cho S là một A-môđun đơn có số chiều hữu hạn trên K. Vì không gian vectơ trên K S không bị rút về 0, nên điều đó cũng đúng với $S^*$. Cho E là một môđun con của A-môđun phải $S^*$; phần trực giao $E'$ của nó trong S là một A-môđun con của S. Vì S đơn, ta có либо $E'= 0$, trong trường hợp đó $E = S^*$, hoặc $E'= S$, trong trường hợp đó E = 0. Do đó $S^*$ là một A-môđun phải đơn.
+Cho S là một A-môđun đơn có số chiều hữu hạn trên K. Vì không gian vectơ trên K S không bị rút về 0, nên điều đó cũng đúng với $S^*$. Cho E là một môđun con của A-môđun phải $S^*$; phần trực giao $E'$ của nó trong S là một A-môđun con của S. Vì S đơn, ta có hoặc $E'= 0$, trong trường hợp đó $E = S^*$, hoặc $E'= S$, trong trường hợp đó E = 0. Do đó $S^*$ là một A-môđun phải đơn.
 
 We have $\Theta (A^o) = \Theta (A)$ (VIII, p. 376); ta đồng nhất các A-môđun phải với các $A^o$-môđun trái. Vì mọi không gian vectơ có số chiều hữu hạn trên K đều đẳng cấu với song đối của nó, điều trên chứng minh rằng ánh xạ $S\mapsto$ cl(S$^*$) là một song ánh từ $\mathscr{S}_K$ lên tập hợp các lớp của các $A^o$-môđun đơn có số chiều hữu hạn trên K. Bây giờ, với S trong $\mathscr{S}_K$, thành phần đẳng kiểu của $\Theta (A^o)$ kiểu $S^*$ bằng $\Theta_{S^*}(A^o)$ theo mệnh đề b) áp dụng cho đại số $A^o$, và ta có $\Theta_{S^*}(A^o) = \Theta_S(A)$. Các mệnh đề c) và d) suy ra ngay lập tức.
 
@@ -354,7 +354,7 @@ Cho $F$ là một tập con hữu hạn của $\mathscr{S}_0$, và cho $S$ là m
 
 #### Nhận xét {#alg-viii-s20-n6-rem-1 .statement tag=00RR}
 
-Cho $\mathscr{S}_K$ là tập các lớp của các A-môđun đơn có số chiều hữu hạn trên K. Mệnh đề 6 cũng suy ra từ तथ्य rằng tổng của các $\Theta_S$(A), với S chạy qua $\mathscr{S}_K$, là trực tiếp.
+Cho $\mathscr{S}_K$ là tập các lớp của các A-môđun đơn có số chiều hữu hạn trên K. Mệnh đề 6 cũng suy ra từ sự kiện rằng tổng của các $\Theta_S$(A), với S chạy qua $\mathscr{S}_K$, là trực tiếp.
 
 Cho
 
