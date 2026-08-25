@@ -397,13 +397,13 @@ $$
 holds for every pair of elements $ z, z' $ of $ K' $. Indeed, if $ z = a + bi $ and $ z' = a' + b'i $, then this inequality is equivalent to
 
 $$
-(a + a')^2 + (b + b')^2 \leq a^2 + b^2 + a'^2 + b'^2 + 2 \sqrt{(a^2 + b^2)(a'^2 + b'^2)}
+(a + a')^2 + (b + b')^2 \leq a^2 + b^2 + {a'}^2 + {b'}^2 + 2 \sqrt{(a^2 + b^2)({a'}^2 + {b'}^2)}
 $$
 
 and hence also to
 
 $$
-(aa' + bb')^2 \leq (a^2 + b^2)(a'^2 + b'^2)
+(aa' + bb')^2 \leq (a^2 + b^2)({a'}^2 + {b'}^2)
 $$
 
 which can be written $ (ab' - ba')^2 \geq 0 $.

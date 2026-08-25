@@ -323,7 +323,7 @@ Let $h$ be the homomorphism of $\mathrm{Mo}(X)$ into $M$ characterized by $h(x) 
 
 $ 1 \leq \alpha \leq n $ such that $ x_\alpha \neq x_{\alpha+1} $ for $ 1 \leq \alpha < n $ and $ w = \prod_{\alpha=1}^n x_\alpha^{m(\alpha)} $. The sequence $ (x_\alpha, m(\alpha))_{1 \leq \alpha \leq n} $ is determined uniquely by these conditions.
 
-(b) Let $ p $ be a positive integer, $ x'_\beta $ in $ X $ and $ m'(\beta) $ in $ \mathbf{N} $ for $ 1 \leq \beta \leq p $ such that $ w = \prod_{\beta=1}^p x'^{m'(\beta)} $. Then $ p \geq n $. If $ p = n $, then $ x'_\beta = x_\beta $ and $ m'(\beta) = m(\beta) $ for $ 1 \leq \beta \leq p $.
+(b) Let $ p $ be a positive integer, $ x'_\beta $ in $ X $ and $ m'(\beta) $ in $ \mathbf{N} $ for $ 1 \leq \beta \leq p $ such that $ w = \prod_{\beta=1}^p {x'}^{m'(\beta)} $. Then $ p \geq n $. If $ p = n $, then $ x'_\beta = x_\beta $ and $ m'(\beta) = m(\beta) $ for $ 1 \leq \beta \leq p $.
 
 In the notation of Lemma 2, $ h^{-1}(\phi_x(n)) = x^n $ for $ x \in X $ and $ n \in \mathbf{N} $. Proposition 6 then follows from no. 3, Proposition 5.
 
