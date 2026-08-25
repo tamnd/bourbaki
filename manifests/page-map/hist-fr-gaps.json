@@ -10,7 +10,15 @@
     "interpolated": 257
   },
   "printed_pct_of_body": 31.283422459893046,
-  "chapters": null,
+  "chapters": [
+    {
+      "chapter": "1",
+      "first_pdf_page": 1,
+      "last_pdf_page": 374,
+      "first_page": 3,
+      "last_page": 376
+    }
+  ],
   "steps": [],
   "conflicts": [],
   "gaps": [

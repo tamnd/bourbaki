@@ -6,11 +6,12 @@
   "body_pages": 410,
   "front_matter_pages": 8,
   "counts": {
-    "foot": 407,
-    "interpolated": 3,
+    "folio": 385,
+    "foot": 23,
+    "interpolated": 2,
     "none": 8
   },
-  "printed_pct_of_body": 99.26829268292683,
+  "printed_pct_of_body": 99.51219512195122,
   "chapters": [
     {
       "chapter": "I",
@@ -69,12 +70,6 @@
     {
       "from": 12,
       "to": 12,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 210,
-      "to": 210,
       "pages": 1,
       "confidence": "interpolated"
     }

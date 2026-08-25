@@ -5,14 +5,14 @@
   "prefix": "FVR",
   "first_page": 3,
   "pdf_pages": 329,
-  "body_pages": 327,
-  "front_matter_pages": 2,
+  "body_pages": 329,
+  "front_matter_pages": 0,
   "counts": {
-    "head": 275,
-    "interpolated": 52,
-    "none": 2
+    "head": 2,
+    "interpolated": 34,
+    "label": 293
   },
-  "printed_pct_of_body": 84.09785932721712,
+  "printed_pct_of_body": 89.66565349544074,
   "chapters": [
     {
       "chapter": "I",
@@ -59,9 +59,9 @@
     {
       "chapter": "VII",
       "first_pdf_page": 292,
-      "last_pdf_page": 327,
+      "last_pdf_page": 329,
       "first_page": 1,
-      "last_page": 36
+      "last_page": 38
     }
   ],
   "steps": [],
@@ -69,25 +69,19 @@
   "gaps": [
     {
       "from": 1,
-      "to": 9,
-      "pages": 9,
+      "to": 7,
+      "pages": 7,
       "confidence": "interpolated"
     },
     {
-      "from": 30,
-      "to": 30,
+      "from": 9,
+      "to": 9,
       "pages": 1,
       "confidence": "interpolated"
     },
     {
       "from": 40,
       "to": 40,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 50,
-      "to": 50,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -122,12 +116,6 @@
       "confidence": "interpolated"
     },
     {
-      "from": 143,
-      "to": 143,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 157,
       "to": 157,
       "pages": 1,
@@ -136,24 +124,6 @@
     {
       "from": 160,
       "to": 160,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 168,
-      "to": 169,
-      "pages": 2,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 181,
-      "to": 181,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 189,
-      "to": 189,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -182,20 +152,8 @@
       "confidence": "interpolated"
     },
     {
-      "from": 211,
-      "to": 212,
-      "pages": 2,
-      "confidence": "interpolated"
-    },
-    {
       "from": 241,
       "to": 241,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 244,
-      "to": 244,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -206,20 +164,8 @@
       "confidence": "interpolated"
     },
     {
-      "from": 258,
-      "to": 258,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 261,
       "to": 261,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 270,
-      "to": 270,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -237,26 +183,8 @@
     },
     {
       "from": 291,
-      "to": 293,
-      "pages": 3,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 295,
-      "to": 295,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 302,
-      "to": 302,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 305,
-      "to": 305,
-      "pages": 1,
+      "to": 292,
+      "pages": 2,
       "confidence": "interpolated"
     },
     {
@@ -282,18 +210,6 @@
       "to": 324,
       "pages": 1,
       "confidence": "interpolated"
-    },
-    {
-      "from": 326,
-      "to": 326,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 328,
-      "to": 329,
-      "pages": 2,
-      "confidence": "none"
     }
   ]
 }

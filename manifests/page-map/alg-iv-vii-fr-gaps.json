@@ -13,11 +13,11 @@
   "body_pages": 404,
   "front_matter_pages": 22,
   "counts": {
-    "head": 190,
-    "interpolated": 214,
+    "interpolated": 38,
+    "label": 366,
     "none": 22
   },
-  "printed_pct_of_body": 47.02970297029702,
+  "printed_pct_of_body": 90.5940594059406,
   "chapters": [
     {
       "chapter": "IV",
@@ -49,16 +49,7 @@
     }
   ],
   "steps": [],
-  "conflicts": [
-    {
-      "pdf_page": 206,
-      "read_chapter": "V",
-      "read": 101,
-      "chapter": "V",
-      "fitted": 102,
-      "raw": "A V.101                             CORPS COMMUTATIFS                                        4 14"
-    }
-  ],
+  "conflicts": [],
   "gaps": [
     {
       "from": 1,
@@ -68,85 +59,31 @@
     },
     {
       "from": 8,
-      "to": 14,
-      "pages": 7,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 16,
-      "to": 25,
-      "pages": 10,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 27,
-      "to": 27,
+      "to": 8,
       "pages": 1,
       "confidence": "interpolated"
     },
     {
-      "from": 30,
-      "to": 36,
-      "pages": 7,
+      "from": 12,
+      "to": 12,
+      "pages": 1,
       "confidence": "interpolated"
     },
     {
-      "from": 38,
-      "to": 47,
-      "pages": 10,
+      "from": 18,
+      "to": 18,
+      "pages": 1,
       "confidence": "interpolated"
     },
     {
-      "from": 49,
-      "to": 57,
-      "pages": 9,
+      "from": 21,
+      "to": 21,
+      "pages": 1,
       "confidence": "interpolated"
     },
     {
-      "from": 59,
-      "to": 86,
-      "pages": 28,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 88,
+      "from": 89,
       "to": 89,
-      "pages": 2,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 91,
-      "to": 91,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 93,
-      "to": 93,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 95,
-      "to": 95,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 97,
-      "to": 97,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 99,
-      "to": 99,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 101,
-      "to": 101,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -157,98 +94,14 @@
       "confidence": "interpolated"
     },
     {
-      "from": 107,
-      "to": 107,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 109,
-      "to": 109,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 111,
-      "to": 111,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 115,
-      "to": 115,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 117,
-      "to": 117,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 119,
       "to": 119,
       "pages": 1,
       "confidence": "interpolated"
     },
     {
-      "from": 121,
-      "to": 121,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 123,
-      "to": 123,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 125,
-      "to": 125,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 130,
-      "to": 131,
-      "pages": 2,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 133,
-      "to": 133,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 135,
-      "to": 135,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 137,
-      "to": 137,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 139,
-      "to": 139,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 141,
-      "to": 141,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 143,
-      "to": 143,
+      "to": 130,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -259,38 +112,8 @@
       "confidence": "interpolated"
     },
     {
-      "from": 147,
-      "to": 147,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 150,
-      "to": 150,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 155,
-      "to": 155,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 157,
-      "to": 157,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 161,
       "to": 161,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 164,
-      "to": 164,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -319,32 +142,14 @@
       "confidence": "interpolated"
     },
     {
-      "from": 185,
+      "from": 187,
       "to": 187,
-      "pages": 3,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 189,
-      "to": 189,
       "pages": 1,
       "confidence": "interpolated"
     },
     {
       "from": 191,
       "to": 191,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 206,
-      "to": 206,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 215,
-      "to": 215,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -373,36 +178,6 @@
       "confidence": "interpolated"
     },
     {
-      "from": 225,
-      "to": 225,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 227,
-      "to": 227,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 229,
-      "to": 229,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 231,
-      "to": 231,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 233,
-      "to": 233,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 235,
       "to": 235,
       "pages": 1,
@@ -421,50 +196,8 @@
       "confidence": "interpolated"
     },
     {
-      "from": 241,
-      "to": 241,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 243,
       "to": 243,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 247,
-      "to": 247,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 249,
-      "to": 249,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 256,
-      "to": 256,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 261,
-      "to": 261,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 267,
-      "to": 267,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 269,
-      "to": 269,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -475,141 +208,63 @@
       "confidence": "interpolated"
     },
     {
-      "from": 276,
-      "to": 276,
+      "from": 285,
+      "to": 285,
       "pages": 1,
       "confidence": "interpolated"
     },
     {
-      "from": 278,
-      "to": 278,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 280,
-      "to": 280,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 282,
-      "to": 282,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 284,
-      "to": 286,
-      "pages": 3,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 288,
-      "to": 298,
-      "pages": 11,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 300,
-      "to": 301,
+      "from": 289,
+      "to": 290,
       "pages": 2,
       "confidence": "interpolated"
     },
     {
-      "from": 303,
-      "to": 331,
-      "pages": 29,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 333,
-      "to": 335,
-      "pages": 3,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 340,
-      "to": 341,
-      "pages": 2,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 344,
-      "to": 344,
+      "from": 309,
+      "to": 309,
       "pages": 1,
       "confidence": "interpolated"
     },
     {
-      "from": 352,
-      "to": 352,
+      "from": 318,
+      "to": 318,
       "pages": 1,
       "confidence": "interpolated"
     },
     {
-      "from": 366,
-      "to": 366,
+      "from": 334,
+      "to": 334,
       "pages": 1,
       "confidence": "interpolated"
     },
     {
-      "from": 369,
-      "to": 369,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 373,
-      "to": 373,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 379,
+      "from": 381,
       "to": 381,
-      "pages": 3,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 383,
-      "to": 383,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 386,
-      "to": 386,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 388,
-      "to": 388,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 390,
-      "to": 391,
-      "pages": 2,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 396,
-      "to": 396,
       "pages": 1,
       "confidence": "interpolated"
     },
     {
       "from": 402,
-      "to": 406,
-      "pages": 5,
+      "to": 402,
+      "pages": 1,
       "confidence": "interpolated"
     },
     {
-      "from": 409,
+      "from": 404,
+      "to": 404,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 406,
+      "to": 406,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 410,
       "to": 410,
-      "pages": 2,
+      "pages": 1,
       "confidence": "interpolated"
     },
     {
