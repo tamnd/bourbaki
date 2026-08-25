@@ -37,7 +37,7 @@ subsections:
       pdf_page: 270
 statements: 21
 exercises: 15
-content_sha256: 211cef728f92b9ed4d60cc34a4d1f0d68ce047104889cba432f95522f59df089
+content_sha256: 1619a188210e25b95f80b5d8c06b9d3d838e0458feb49ecc2c4c1f0bd89c497c
 ---
 
 ## APPENDIX
@@ -150,13 +150,13 @@ One also sees that if $ f $ and $ g $ belong to the same Hardy field $ \mathcal{
 
 Prop. 8 of V, p. 233, is therefore applicable to every function $ f $ in a Hardy field, and proves that:
 
-1' if $ f $ is of order $ +\infty $ relative to $ x $ then $ \int_a^x f(t)\,dt \sim (f(x))^2/f'(x) $.
+1) if $ f $ is of order $ +\infty $ relative to $ x $ then $ \int_a^x f(t)\,dt \sim (f(x))^2/f'(x) $.
 
-2' if $ f $ is of order $ \mu > -1 $ relative to $ x $ then $ \int_a^x f(t)\,dt \sim \frac{1}{\mu+1} x f(x) $.
+2) if $ f $ is of order $ \mu > -1 $ relative to $ x $ then $ \int_a^x f(t)\,dt \sim \frac{1}{\mu+1} x f(x) $.
 
-3' if $ f $ is of order $ \mu < -1 $ relative to $ x $ then $ \int_a^{+\infty} f(t)\,dt \sim -\frac{1}{\mu+1} x f(x) $.
+3) if $ f $ is of order $ \mu < -1 $ relative to $ x $ then $ \int_a^{+\infty} f(t)\,dt \sim -\frac{1}{\mu+1} x f(x) $.
 
-4' if $ f $ is of order $ -\infty $ relative to $ x $ then $ \int_a^{+\infty} f(t)\,dt \sim -(f(x))^2/f'(x) $.
+4) if $ f $ is of order $ -\infty $ relative to $ x $ then $ \int_a^{+\infty} f(t)\,dt \sim -(f(x))^2/f'(x) $.
 
 Further, we have the following proposition:
 
@@ -385,9 +385,9 @@ whence we obtain (11) by induction on $ n $.
 
 #### Remark 1 {#fvr-v-a0-n6-rem-1 .statement}
 
-If $ g $ is of order $ < 1 $ relative to $ x $, the function $ u(x) - u_n(x) $ tends to 0 with $ x $ once $ n $ is sufficiently large. Indeed, in the opposite case one would have $ {gg''}^n \gg 1 $ for every $ n $, so $ g $ would be of infinite order relative to $ 1/g' $; in other words, one would have $ \log|g| \gg \log|g'| $, whence, on differentiating, $ g'/g \gg g''/g' $. But if $ g $ is of order $ \mu < 1 $ relative to $ x $ one has $ g'/g \sim g''/g' $ when $ \mu = -\infty, \frac{g'}{g} \sim \frac{\mu}{\mu - 1} \frac{g''}{g'} $ when $ \mu \neq 0 $, and finally $ g'/g \ll g''/g' $ when $ \mu = 0 $ (V, p. 251, n 3).
+If $ g $ is of order $ < 1 $ relative to $ x $, the function $ u(x) - u_n(x) $ tends to 0 with $ x $ once $ n $ is sufficiently large. Indeed, in the opposite case one would have $ gg''^n \gg 1 $ for every $ n $, so $ g $ would be of infinite order relative to $ 1/g' $; in other words, one would have $ \log|g| \gg \log|g'| $, whence, on differentiating, $ g'/g \gg g''/g' $. But if $ g $ is of order $ \mu < 1 $ relative to $ x $ one has $ g'/g \sim g''/g' $ when $ \mu = -\infty, \frac{g'}{g} \sim \frac{\mu}{\mu - 1} \frac{g''}{g'} $ when $ \mu \neq 0 $, and finally $ g'/g \ll g''/g' $ when $ \mu = 0 $ (V, p. 251, n 3).
 
-In contrast, if $ g $ is of order 1 relative to $ x $ one can have $ {gg''}^n \gg 1 $ for every integer $ n > 0 $, as the example $ g(x) = x/\log x $ shows.
+In contrast, if $ g $ is of order 1 relative to $ x $ one can have $ gg''^n \gg 1 $ for every integer $ n > 0 $, as the example $ g(x) = x/\log x $ shows.
 
 #### Remark 2 {#fvr-v-a0-n6-rem-2 .statement}
 

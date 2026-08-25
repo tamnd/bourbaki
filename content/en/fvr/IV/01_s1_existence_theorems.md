@@ -40,7 +40,7 @@ subsections:
       pdf_page: 191
 statements: 29
 exercises: 18
-content_sha256: 2a0ebfd7467ee48420642d2462fb0e4209b34c54a99b6fdf811e56e594cacd20
+content_sha256: 96b5689cfb1af5b8eb2b5cd7c9c8a4a5071f469866f4e4898435f447d03b0ac6
 ---
 
 ## § 1. EXISTENCE THEOREMS
@@ -58,7 +58,7 @@ on the understanding that x belongs to the set $ \mathcal{D}(A, B) $.
 For example, for $ I = E = \mathbf{R} $ the relations
 
 $$
-x' = 2t, \qquad tx' - 2x = 0, \qquad {x'}^2 - 4x = 0, \qquad x - t^2 = 0
+x' = 2t, \qquad tx' - 2x = 0, \qquad x'^2 - 4x = 0, \qquad x - t^2 = 0
 $$
 
 are differential equations, all four of which admit the function $ x(t) = t^2 $ as a solution
@@ -434,7 +434,7 @@ $ 3^\circ $ *If $ J $ is bounded, and if $ f(t, u(t)) $ is bounded on $ J $, the
 
 $ 1^\circ $ Let $ \mathfrak{M} $ be the set of intervals $ L $ (not reducing to a single point) with left-hand endpoint $ t_0 \in L $ which are contained in $ I $ and are such that on $ L $ there is a solution of (1) (IV, p. 163) with values in $ H $ and equal to $ x_0 $ at $ t_0 $; by th. 1 (IV, p. 171) the set $ \mathfrak{M} $ is not empty. Let $ L $ and $ L' $ be two intervals belonging to $ \mathfrak{M} $, and suppose, for example, that $ L \subset L' $; if $ u $ and $ v $ are two integrals of (1) defined respectively on $ L $ and $ L' $, with values in $ H $, and equal to $ x_0 $ at $ t_0 $, we shall see that $ v $ is an extension of $ u $. Indeed, let $ t_1 $ be the supremum of the set of $ t \in L $ such that $ u(s) = v(s) $ for $ t_0 \leq s \leq t $; we shall show that $ t_1 $ is the right-hand endpoint of $ L $. If this were not so, we would have $ u(t_1) = v(t_1) $ by continuity, and $ x_1 = u(t_1) $ would belong to $ H $; since $ f $ is locally Lipschitz, th. 1 shows that there can exist only one integral of (1) defined on a neighbourhood of $ t_1 $ with values in $ H $ and equal to $ x_1 $ at $ t_1 $; it is therefore a contradiction to suppose that $ t_1 $ is not the right-hand endpoint of $ L $. We now see that if $ J $ is the union of the intervals $ L \in \mathfrak{M} $ there exists one and only one integral $ u $ of (1), defined on $ J $, with values in $ H $ and equal to $ x_0 $ at $ t_0 $.
 
-2' Suppose that J ≠ I and let β be the right endpoint of J; if β is the right-hand endpoint of I then β ∈ I (so β is finite) and J = [t_0, β[ by hypothesis. Suppose then that β is not the right-hand endpoint of I; if β ∈ J then u(β) = c belongs to H; by th. 1 there exists an integral of (1) with values in H, defined on an interval
+2) Suppose that J ≠ I and let β be the right endpoint of J; if β is the right-hand endpoint of I then β ∈ I (so β is finite) and J = [t_0, β[ by hypothesis. Suppose then that β is not the right-hand endpoint of I; if β ∈ J then u(β) = c belongs to H; by th. 1 there exists an integral of (1) with values in H, defined on an interval
 
 $$ [\beta, \beta_1[ \subset I $$
 
@@ -557,7 +557,7 @@ Ml + (Ml + r/2)e^{2kl} < r
 $$
 or the relation (18) to be satisfied for every $ (t, t_0, x_0) $ of $ K \times K \times V $.
 
-2' By the mean value theorem we have
+2) By the mean value theorem we have
 
 $$
 \| \mathbf{u}(t_1, t_0, \mathbf{x}_0) - \mathbf{u}(t_2, t_0, \mathbf{x}_0) \| \leq M |t_2 - t_1|

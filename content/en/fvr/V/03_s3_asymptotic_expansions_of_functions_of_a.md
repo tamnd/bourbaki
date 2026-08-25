@@ -36,7 +36,7 @@ subsections:
       pdf_page: 250
 statements: 23
 exercises: 7
-content_sha256: 7521ac56cbf35b7f93d6d96d93a265b261fdc758a60860585fe831eb54a11bbe
+content_sha256: 94e95163a3bddf8b03b27bd79764ed5052fd05b0911efb3d64c9ba96e17155c0
 ---
 
 ## § 3. ASYMPTOTIC EXPANSIONS OF FUNCTIONS OF A REAL VARIABLE
@@ -259,7 +259,7 @@ $$
 $$
 which proves (1) in this case. If $ \mu = 0 $ one has likewise that $ x f'(x) \ll f(x) $, which again gives $ f(x) + x f'(x) \sim f(x) $. One argues similarly when $ \mu < -1 $, in the case where $ \int_a^{+\infty} f(t)\,dt $ converges.
 
-2' If $ f $ is of order $ +\infty $ relative to $ x $ one has $ \log |f| \gg \log x $, so (V, p. 232, prop. 7) $ f'/f \gg 1/x $, or again, putting $ g(x) = f(x)/f'(x) $, $ g(x) \ll x $; further, since $ f(x) \gg x^\alpha $ for every $ \alpha > 0 $ the integral $ \int_a^{+\infty} f(t)\,dt $ is infinite. One can write
+2) If $ f $ is of order $ +\infty $ relative to $ x $ one has $ \log |f| \gg \log x $, so (V, p. 232, prop. 7) $ f'/f \gg 1/x $, or again, putting $ g(x) = f(x)/f'(x) $, $ g(x) \ll x $; further, since $ f(x) \gg x^\alpha $ for every $ \alpha > 0 $ the integral $ \int_a^{+\infty} f(t)\,dt $ is infinite. One can write
 $$
 F(x) = \int_a^x f(t)\,dt = \int_a^x g(t) f'(t)\,dt = g(x) f(x) - g(a) f(a) - \int_a^x f(t) g'(t)\,dt;
 $$
