@@ -46,9 +46,9 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: a669321174a60acaefceaea117bb65e9bce597696ab34baa8e63065dd82ba2b1
+content_sha256: c862667322aed71e4ea565e213a728be8a7f97bad7c19d320a958e036a19eeda
 translated_from: content/en/alg/VIII/20_s20_linear_representations_of_algebras.md
-source_content_sha256: 5ff83d16e3a49fa515ef33dc4d59f5844d64a112e8716f6ee4b4cde01df7b682
+source_content_sha256: 21c69879c69520e4304c8e59f7cf5de59d95e3feeda2214b3e1f184b31eb4b34
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-78153639
 glossary_version: 34
@@ -402,9 +402,9 @@ Cho $\mathscr{A}$ là một tập con sinh của không gian vectơ trên K A. �
 
 Cho $x$ là một phần tử của $R_K(A)$ sao cho $\chi_{\mathscr{A}}(x) = 1$. Theo (11), ta có $\theta (x)(a) = 0$ với mọi $a\in \mathscr{A}$, và do đó $\theta (x) = 0$ vì $\theta (x)$ là một dạng tuyến tính K trên A và $\mathscr{A}$ sinh không gian vectơ trên K A. Nếu đặc số của K bằng không, thì điều này suy ra $x= 0$ (VIII, p. 384, Hệ quả của Mệnh đề 6), và do đó kết quả trong trường hợp này. Giả sử từ nay trở đi rằng đặc số $p$ của K khác không.
 
-Trước hết xét trường hợp khi K đóng đại số. Theo trên và loc. cit., khi đó ta có $x\in pR_K(A)$. Cho $y\in R_K(A)$ sao cho $x=py$. Với mỗi phần tử $a$ của $\mathscr{A}$, ta có $\chi_a(y)^p=\chi_a(py) =\chi_a(x) = 1$. Do đó ta có $(\chi_a(y)-1)^p= 0$, và vì vậy $\chi_a(y) = 1$ vì vành K[[T]] là một miền nguyên. Vậy $ y $ thuộc hạt nhân của tự đồng cấu $ \chi_{\mathscr{A}} $. Suy ra bằng quy nạp rằng $ x $ thuộc $ p^n R_K(A) $ với mọi số nguyên $ n \geq 1 $. Vì $ R_K(A) $ là một $ \mathbf{Z} $-môđun tự do, điều này suy ra $ x = 0 $, và do đó $\chi_{\mathscr{A}}$ là đơn ánh trong trường hợp này.
+Trước hết xét trường hợp khi K đóng đại số. Theo trên và loc. cit., khi đó ta có $x\in pR_K(A)$. Cho $y\in R_K(A)$ sao cho $x=py$. Với mỗi phần tử $a$ của $\mathscr{A}$, ta có $\chi_a(y)^p=\chi_a(py) =\chi_a(x) = 1$. Do đó ta có $(\chi_a(y)-1)^p= 0$, và vì vậy $\chi_a(y) = 1$ vì vành K[[T]] là một miền nguyên. Vậy $y$ thuộc hạt nhân của tự đồng cấu $\chi_{\mathscr{A}}$. Suy ra bằng quy nạp rằng $x$ thuộc $p^n R_K(A)$ với mọi số nguyên $n \geq 1$. Vì $R_K(A)$ là một $\mathbf{Z}$-môđun tự do, điều này suy ra $x = 0$, và do đó $\chi_{\mathscr{A}}$ là đơn ánh trong trường hợp này.
 
-Nếu không còn giả sử K đóng đại số nữa, thì ta chọn một bao đóng đại số $ \overline{K} $ của K và xét biểu đồ các nhóm và các đồng cấu nhóm
+Nếu không còn giả sử K đóng đại số nữa, thì ta chọn một bao đóng đại số $\overline{K}$ của K và xét biểu đồ các nhóm và các đồng cấu nhóm
 
 $$
 \begin{array}{ccc}
@@ -414,26 +414,26 @@ R_{\overline{K}}(A_{(\overline{K})}) & \xrightarrow{\overline{\chi}_{\mathscr{A}
 \end{array}
 $$
 
-trong đó $ u $ là đồng cấu suy ra từ phép mở rộng vô hướng từ $ K $ đến $ \overline{K} $ (VIII, p. 195), $ i $ là đơn ánh chính tắc, và $ \overline{\chi}_{\mathscr{A}} $ là đồng cấu $ z \mapsto (\chi_{1 \otimes a}(z))_{a \in \mathscr{A}} $. Theo công thức (12) của III, §9, No. 1, p. 542, biểu đồ (12) giao hoán. Theo trên, đồng cấu $ \overline{\chi}_{\mathscr{A}} $ là đơn ánh. Vì $ u $ là đơn ánh (VIII, p. 195, Định lý 1), nên đồng cấu $ \chi_{\mathscr{A}} $ là đơn ánh.
+trong đó $u$ là đồng cấu suy ra từ phép mở rộng vô hướng từ $K$ đến $\overline{K}$ (VIII, p. 195), $i$ là đơn ánh chính tắc, và $\overline{\chi}_{\mathscr{A}}$ là đồng cấu $z \mapsto (\chi_{1 \otimes a}(z))_{a \in \mathscr{A}}$. Theo công thức (12) của III, §9, No. 1, p. 542, biểu đồ (12) giao hoán. Theo trên, đồng cấu $\overline{\chi}_{\mathscr{A}}$ là đơn ánh. Vì $u$ là đơn ánh (VIII, p. 195, Định lý 1), nên đồng cấu $\chi_{\mathscr{A}}$ là đơn ánh.
 
 #### Hệ quả 1 {#alg-viii-s20-thm-2-cor-1 .statement tag=00MX}
 
-*Cho E và F là các A-môđun nửa đơn có chiều hữu hạn trên K, và cho $ \mathscr{A} $ là một tập con sinh của không gian vectơ trên K A. Giả sử rằng với mọi $ a \in \mathscr{A} $, các đa thức đặc trưng của các tự đồng cấu $ a_E $ và $ a_F $ của các không gian vectơ trên K E và F bằng nhau. Khi đó các A-môđun E và F đẳng cấu với nhau.*
+*Cho E và F là các A-môđun nửa đơn có chiều hữu hạn trên K, và cho $\mathscr{A}$ là một tập con sinh của không gian vectơ trên K A. Giả sử rằng với mọi $a \in \mathscr{A}$, các đa thức đặc trưng của các tự đồng cấu $a_E$ và $a_F$ của các không gian vectơ trên K E và F bằng nhau. Khi đó các A-môđun E và F đẳng cấu với nhau.*
 
-Cho $ a $ là một phần tử của $ \mathscr{A} $. Các đa thức đặc trưng của $ a_E $ và $ a_F $ có cùng bậc, nên chiều của E bằng chiều của F; ta ký hiệu nó là $ n $. Ký hiệu $ \mathrm{Pc}_E(a; T) $ là đa thức đặc trưng của $ a_E $. Trong $ K(T) $, ta có các đẳng thức
+Cho $a$ là một phần tử của $\mathscr{A}$. Các đa thức đặc trưng của $a_E$ và $a_F$ có cùng bậc, nên chiều của E bằng chiều của F; ta ký hiệu nó là $n$. Ký hiệu $\mathrm{Pc}_E(a; T)$ là đa thức đặc trưng của $a_E$. Trong $K(T)$, ta có các đẳng thức
 
 $$
 \chi_E(a; T) = \det(1 + a_E T) = (-T)^n \det \left( \frac{-1}{T} - a_E \right) = (-T)^n \mathrm{Pc}_E \left( a; \frac{-1}{T} \right),
 $$
 
-và $ \chi_F(a; T) $ được cho bởi một công thức tương tự. Do các giả thiết của chúng ta, ta có $ \chi_E(a; T) = \chi_F(a; T) $. Theo Định lý 2, ta có [E] = [F], điều đó suy ra E và F đẳng cấu (VIII, p. 190, Hệ quả của Mệnh đề 7).
+và $\chi_F(a; T)$ được cho bởi một công thức tương tự. Do các giả thiết của chúng ta, ta có $\chi_E(a; T) = \chi_F(a; T)$. Theo Định lý 2, ta có [E] = [F], điều đó suy ra E và F đẳng cấu (VIII, p. 190, Hệ quả của Mệnh đề 7).
 
 #### Hệ quả 2 {#alg-viii-s20-thm-2-cor-2 .statement tag=00MY}
 
-*Cho A là một đại số đơn tâm có bậc hữu hạn trên K. Cho B là một K-đại số nửa đơn, cho f và g là các đồng cấu đại số từ B đến A, và cho $ \mathscr{B} $ là một tập con sinh của không gian vectơ trên K B. Các tính chất sau là tương đương:
+*Cho A là một đại số đơn tâm có bậc hữu hạn trên K. Cho B là một K-đại số nửa đơn, cho f và g là các đồng cấu đại số từ B đến A, và cho $\mathscr{B}$ là một tập con sinh của không gian vectơ trên K B. Các tính chất sau là tương đương:
 
-(i) Tồn tại một tự đẳng cấu trong $ \theta $ của A sao cho $ g = \theta \circ f $.
-(ii) Với mọi $ b \in \mathscr{B} $, ta có $ \mathrm{Pc}_{A/K}(f(b); X) = \mathrm{Pc}_{A/K}(g(b); X) $.* Khi K có đặc số không, các tính chất này tương đương với điều sau:
+(i) Tồn tại một tự đẳng cấu trong $\theta$ của A sao cho $g = \theta \circ f$.
+(ii) Với mọi $b \in \mathscr{B}$, ta có $\mathrm{Pc}_{A/K}(f(b); X) = \mathrm{Pc}_{A/K}(g(b); X)$.* Khi K có đặc số không, các tính chất này tương đương với điều sau:
 
 (iii) Với mọi $b\in \mathscr{B}$, ta có Tr$_{A/K}(f(b)) =$ Tr$_{A/K}(g(b))$.
 
@@ -493,7 +493,7 @@ với mọi $t\in \Theta (A)\otimes \Theta (A)$.
 
 #### Bổ đề 2 {#alg-viii-s20-lem-2 .statement tag=00RS}
 
-Cho $ c : \Theta(A) \to \Theta(A) \otimes \Theta(A) $ là một ánh xạ K-tuyến tính. Khi đó $ \eta $ là một đồng cấu từ $ A $ đến đại số đối ngẫu của cấu trúc cođại số $ (\Theta(A), c) $ khi và chỉ khi biểu đồ sau giao hoán:
+Cho $c : \Theta(A) \to \Theta(A) \otimes \Theta(A)$ là một ánh xạ K-tuyến tính. Khi đó $\eta$ là một đồng cấu từ $A$ đến đại số đối ngẫu của cấu trúc cođại số $(\Theta(A), c)$ khi và chỉ khi biểu đồ sau giao hoán:
 
 $$
 \begin{array}{ccc}
@@ -503,13 +503,13 @@ A^* & \xrightarrow{t m_A} & (A \otimes A)^*
 \end{array}
 $$
 
-Quả vậy, $ \eta $ là một đồng cấu từ $ A $ đến đại số đối ngẫu của cấu trúc cođại số $ (\Theta(A), c) $ khi và chỉ khi ta có $ \eta(ab) = m_K \circ (\eta(a) \otimes \eta(b)) \circ c $ với mọi $ a, b \in A $, tức là
+Quả vậy, $\eta$ là một đồng cấu từ $A$ đến đại số đối ngẫu của cấu trúc cođại số $(\Theta(A), c)$ khi và chỉ khi ta có $\eta(ab) = m_K \circ (\eta(a) \otimes \eta(b)) \circ c$ với mọi $a, b \in A$, tức là
 
 $$
 \eta(ab)(f) = m_K \circ (\eta(a) \otimes \eta(b))(c(f))
 $$
 
-với $ a, b \in A $ và $ f \in \Theta(A) $. Bây giờ, ta có
+với $a, b \in A$ và $f \in \Theta(A)$. Bây giờ, ta có
 
 $$
 \eta(ab)(f) = f(ab) = \langle t m_A(j_1(f)), a \otimes b \rangle
@@ -521,21 +521,21 @@ $$
 m_K \circ (\eta(a) \otimes \eta(b))(c(f)) = \langle j_2(c(f)), a \otimes b \rangle
 $$
 
-với mọi $ a, b \in A $ và mọi $ f \in \Theta(A) $. Bổ đề được suy ra.
+với mọi $a, b \in A$ và mọi $f \in \Theta(A)$. Bổ đề được suy ra.
 
-Vì $ j_2 $ là đơn ánh, tồn tại nhiều nhất một ánh xạ tuyến tính $ c $ làm cho biểu đồ trên giao hoán. Để chứng minh sự tồn tại của nó, ta phải chứng minh rằng ảnh của $ t m \circ j_1 $ được chứa trong ảnh của $ j_2 $. Nói cách khác, ta phải chứng minh rằng, với mọi phần tử $ f $ của $ \Theta(A) $, tồn tại một số tự nhiên $ n $ và các phần tử $ f'_1, \ldots, f'_n, f''_1, \ldots, f''_n $ của $ \Theta(A) $ thỏa mãn các hệ thức
+Vì $j_2$ là đơn ánh, tồn tại nhiều nhất một ánh xạ tuyến tính $c$ làm cho biểu đồ trên giao hoán. Để chứng minh sự tồn tại của nó, ta phải chứng minh rằng ảnh của $t m \circ j_1$ được chứa trong ảnh của $j_2$. Nói cách khác, ta phải chứng minh rằng, với mọi phần tử $f$ của $\Theta(A)$, tồn tại một số tự nhiên $n$ và các phần tử $f'_1, \ldots, f'_n, f''_1, \ldots, f''_n$ của $\Theta(A)$ thỏa mãn các hệ thức
 
 $$
 f(ab) = \sum_{i=1}^n f'_i(a) f''_i(b)
 $$
 
-với $ a, b \in A $. Khi đó ta sẽ có
+với $a, b \in A$. Khi đó ta sẽ có
 
 $$
 c(f) = \sum_{i=1}^n f'_i \otimes f''_i.
 $$
 
-Theo hệ quả của VIII, p. 379, tồn tại một $ A $-môđun trái $ E $ có số chiều hữu hạn trên $ K $ với $ f $ là một hệ số. Cho $ (e_1, \ldots, e_n) $ là một cơ sở của $ E $, $ (e_1^*, \ldots, e_n^*) $ là cơ sở đối ngẫu, $ x $ là một phần tử của $ E $, và $ x^* $ là một phần tử của $ E^* $ sao cho $ f = c_E(x, x^*) $. Đặt $ f'_i = c_E(e_i, x^*) $ và $ f''_i = c_E(x, e_i^*) $ với $ i \in [1, n] $; với a, b trong A, ta có
+Theo hệ quả của VIII, p. 379, tồn tại một $A$-môđun trái $E$ có số chiều hữu hạn trên $K$ với $f$ là một hệ số. Cho $(e_1, \ldots, e_n)$ là một cơ sở của $E$, $(e_1^*, \ldots, e_n^*)$ là cơ sở đối ngẫu, $x$ là một phần tử của $E$, và $x^*$ là một phần tử của $E^*$ sao cho $f = c_E(x, x^*)$. Đặt $f'_i = c_E(e_i, x^*)$ và $f''_i = c_E(x, e_i^*)$ với $i \in [1, n]$; với a, b trong A, ta có
 
 $$
 f(ab) = \langle x^*, abx \rangle = \langle x^* a, bx \rangle = \left\langle \sum_i \langle x^* a, e_i \rangle e_i^*, bx \right\rangle
@@ -549,7 +549,7 @@ Ta chứng minh tính đồng kết hợp của c. Với điều đó, xét các
 $$
 c' = (c \otimes 1_{\Theta(A)}) \circ c \quad \text{và} \quad c'' = (1_{\Theta(A)} \otimes c) \circ c
 $$
-từ $ \Theta(A) $ đến $ \Theta(A)^{\otimes 3} $. Ta có các quan hệ
+từ $\Theta(A)$ đến $\Theta(A)^{\otimes 3}$. Ta có các quan hệ
 $$
 \langle j_3(f \otimes c(g)), a \otimes b \otimes c \rangle = \langle f, a \rangle \langle j_2 \circ c(g), b \otimes c \rangle
 $$
@@ -562,7 +562,7 @@ $$
 $$
 = \langle t(\mathrm{Id}_A \otimes m_A) \circ j_2(f \otimes g), a \otimes b \otimes c \rangle
 $$
-với $ f, g \in \Theta(A) $ và $ a, b, c \in A $. Từ đó, suy ra biểu đồ sau giao hoán:
+với $f, g \in \Theta(A)$ và $a, b, c \in A$. Từ đó, suy ra biểu đồ sau giao hoán:
 
 $$
 \begin{array}{ccc}
@@ -572,7 +572,7 @@ $$
 \end{array}
 $$
 
-Nhờ tính giao hoán của biểu đồ này và của (15), với $ f \in \Theta(A) $ và $ a, a', a'' \in A $, ta có
+Nhờ tính giao hoán của biểu đồ này và của (15), với $f \in \Theta(A)$ và $a, a', a'' \in A$, ta có
 $$
 \langle j_3 \circ c'(f), a \otimes a' \otimes a'' \rangle = \langle f, (aa')a'' \rangle;
 $$
@@ -580,13 +580,13 @@ ta cũng có thể chứng minh quan hệ
 $$
 \langle j_3 \circ c''(f), a \otimes a' \otimes a'' \rangle = \langle f, a(a'a'') \rangle
 $$
-tương tự. Vì phép nhân trong A là kết hợp, ta có $ j_3 \circ c' = j_3 \circ c'' $, và do đó $ c' = c'' $ vì $ j_3 $ là đơn ánh.
+tương tự. Vì phép nhân trong A là kết hợp, ta có $j_3 \circ c' = j_3 \circ c''$, và do đó $c' = c''$ vì $j_3$ là đơn ánh.
 
-Cuối cùng, các công thức (16) và (17) suy ra rằng $ \Theta(A) $ nhận $ \varepsilon $ làm một đồng đơn vị.
+Cuối cùng, các công thức (16) và (17) suy ra rằng $\Theta(A)$ nhận $\varepsilon$ làm một đồng đơn vị.
 
 #### Nhận xét 1 {#alg-viii-s20-n8-rem-1 .statement tag=00N2}
 
-Cho $ (\mathbf{V}, \pi) $ là một biểu diễn tuyến tính hữu hạn chiều của đại số A. Hãy đưa vào một cơ sở $ (e_1, \ldots, e_n) $ của V và cơ sở đối ngẫu $ (e_1^*, \ldots, e_n^*) $ của $ \mathbf{V}^* $. Theo chứng minh của Bổ đề 2, ta có quan hệ
+Cho $(\mathbf{V}, \pi)$ là một biểu diễn tuyến tính hữu hạn chiều của đại số A. Hãy đưa vào một cơ sở $(e_1, \ldots, e_n)$ của V và cơ sở đối ngẫu $(e_1^*, \ldots, e_n^*)$ của $\mathbf{V}^*$. Theo chứng minh của Bổ đề 2, ta có quan hệ
 $$
 c(c_\pi(x, x^*)) = \sum_{k=1}^n c_\pi(e_k, x^*) \otimes c_\pi(x, e_k^*)
 $$

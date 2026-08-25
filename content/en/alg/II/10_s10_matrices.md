@@ -65,7 +65,7 @@ subsections:
       pdf_page: 384
 statements: 35
 exercises: 12
-content_sha256: c6c108be989be9295bb6b1d49f88a54316690e415d33aae67035cb355ba5c300
+content_sha256: c9c7d7c4806a0e68849d4540c01c64593764e77d838614082faa1037aa107a91
 ---
 
 ## § 10. MATRICES
@@ -74,11 +74,11 @@ content_sha256: c6c108be989be9295bb6b1d49f88a54316690e415d33aae67035cb355ba5c300
 
 #### Definition 1 {#alg-ii-s10-def-1 .statement}
 
-Let $ I, K, H $ be three sets; a matrix of type $ (I, K) $ with elements in $ H $ (or a matrix of type $ (I, K) $ over $ H $) is any family $ M = (m_{i\kappa})_{(i, \kappa) \in I \times K} $ of elements of $ H $ whose indexing set is the product $ I \times K $. For all $ i \in I $, the family $ (m_{i\kappa})_{\kappa \in K} $ is called the row of $ M $ of index $ i $; for all $ \kappa \in K $, the family $ (m_{i\kappa})_{i \in I} $ is called the column of $ M $ of index $ \kappa $.
+Let $I, K, H$ be three sets; a matrix of type $(I, K)$ with elements in $H$ (or a matrix of type $(I, K)$ over $H$) is any family $M = (m_{i\kappa})_{(i, \kappa) \in I \times K}$ of elements of $H$ whose indexing set is the product $I \times K$. For all $i \in I$, the family $(m_{i\kappa})_{\kappa \in K}$ is called the row of $M$ of index $i$; for all $\kappa \in K$, the family $(m_{i\kappa})_{i \in I}$ is called the column of $M$ of index $\kappa$.
 
-If $ I $ (resp. $ K $) is finite, $ M $ is said to be a matrix with a finite number of rows (resp. columns). The set of matrices of type $ (I, K) $ over $ H $ is identified with the product $ HI^{I \times K} $.
+If $I$ (resp. $K$) is finite, $M$ is said to be a matrix with a finite number of rows (resp. columns). The set of matrices of type $(I, K)$ over $H$ is identified with the product $HI^{I \times K}$.
 
-The names "row" and "column" arise from the fact that, in the case where $ I $ and $ K $ are intervals $ [1, p], [1, q] $ of $ \mathbf{N} $, the elements of the matrix are envisaged as set out in a rectangular array with $ p $ rows (arranged horizontally) and $ q $ columns (arranged vertically):
+The names "row" and "column" arise from the fact that, in the case where $I$ and $K$ are intervals $[1, p], [1, q]$ of $\mathbf{N}$, the elements of the matrix are envisaged as set out in a rectangular array with $p$ rows (arranged horizontally) and $q$ columns (arranged vertically):
 
 $$
 \begin{pmatrix}
@@ -89,7 +89,7 @@ m_{p1} & m_{p2} & \cdots & m_{pq}
 \end{pmatrix}
 $$
 
-When $ p $ and $ q $ are explicit integers sufficiently small for it to be practicable, it is a convention that the above array is a symbol effectively denoting the matrix in question; this notation enables us to dispense with the use of indices, it being understood that the indices of an element are determined by its place in the array; for example, when we speak of the matrix
+When $p$ and $q$ are explicit integers sufficiently small for it to be practicable, it is a convention that the above array is a symbol effectively denoting the matrix in question; this notation enables us to dispense with the use of indices, it being understood that the indices of an element are determined by its place in the array; for example, when we speak of the matrix
 
 $$
 \begin{pmatrix}
@@ -98,23 +98,23 @@ d & e & f
 \end{pmatrix}
 $$
 
-we mean the matrix $ (m_{ij})_{1 \leq i < 2, 1 \leq j < 3} $ such that
+we mean the matrix $(m_{ij})_{1 \leq i < 2, 1 \leq j < 3}$ such that
 
 $$
 m_{11} = a,\ m_{12} = b,\ m_{13} = c,\ m_{21} = d,\ m_{22} = e,\ m_{23} = f.
 $$
 
-Instead of matrix of type $ ([1, p], [1, q]) $, we also say matrix of type $ (p, q) $, or matrix with $ p $ rows and $ q $ columns, if no confusion arises; the set of matrices of type $ (p, q) $ over $ H $ is sometimes denoted by $ \mathbf{M}_{p, q}(H) $.
+Instead of matrix of type $([1, p], [1, q])$, we also say matrix of type $(p, q)$, or matrix with $p$ rows and $q$ columns, if no confusion arises; the set of matrices of type $(p, q)$ over $H$ is sometimes denoted by $\mathbf{M}_{p, q}(H)$.
 
-Every matrix over $ H $ for which one of the indexing sets $ I, K $ is empty is identical with the empty family of elements of $ H $; it is also called the empty matrix. When $ I = \{i_0\} $ (resp. $ K = \{k_0\} $) is a set consisting of a single element, $ M $ is called a row matrix (resp. column matrix) and the row (resp. column) index can then be suppressed in the notation; when $ I $ and $ K $ are both sets with one element, a matrix of type $ (I, K) $ is often identified with the unique element in this matrix.
+Every matrix over $H$ for which one of the indexing sets $I, K$ is empty is identical with the empty family of elements of $H$; it is also called the empty matrix. When $I = \{i_0\}$ (resp. $K = \{k_0\}$) is a set consisting of a single element, $M$ is called a row matrix (resp. column matrix) and the row (resp. column) index can then be suppressed in the notation; when $I$ and $K$ are both sets with one element, a matrix of type $(I, K)$ is often identified with the unique element in this matrix.
 
-A subfamily $ M' = (m_{\iota \kappa})_{(\iota, \kappa) \in J \times L} $ of a matrix $ M = (m_{\iota \kappa})_{(\iota, \kappa) \in I \times K} $, whose indexing set is the product of a subset $ J $ of $ I $ and a subset $ L $ of $ K $, is called a *submatrix* of the matrix $ M $; it is said to be obtained by *suppressing* in $ M $ the rows of index $ \iota \notin J $ and the columns of index $ \kappa \notin L $; conversely, $ M $ is said to be obtained by *bordering* $ M' $ with the rows of index $ \iota \notin J $ and the columns of index $ \kappa \notin L $.
+A subfamily $M' = (m_{\iota \kappa})_{(\iota, \kappa) \in J \times L}$ of a matrix $M = (m_{\iota \kappa})_{(\iota, \kappa) \in I \times K}$, whose indexing set is the product of a subset $J$ of $I$ and a subset $L$ of $K$, is called a *submatrix* of the matrix $M$; it is said to be obtained by *suppressing* in $M$ the rows of index $\iota \notin J$ and the columns of index $\kappa \notin L$; conversely, $M$ is said to be obtained by *bordering* $M'$ with the rows of index $\iota \notin J$ and the columns of index $\kappa \notin L$.
 
 #### Definition 2 {#alg-ii-s10-def-2 .statement}
 
-*The transpose of a matrix* $ M = (m_{\iota \kappa})_{(\iota, \kappa) \in I \times K} $, *denoted by* $ ^tM $, *is the matrix* $ (m'_{\kappa \iota})_{(\kappa, \iota) \in K \times I} $ *over* $ H $ *given by* $ m'_{\kappa \iota} = m_{\iota \kappa} $ *for all* $ (\iota, \kappa) \in K \times L $.
+*The transpose of a matrix* $M = (m_{\iota \kappa})_{(\iota, \kappa) \in I \times K}$, *denoted by* $^tM$, *is the matrix* $(m'_{\kappa \iota})_{(\kappa, \iota) \in K \times I}$ *over* $H$ *given by* $m'_{\kappa \iota} = m_{\iota \kappa}$ *for all* $(\iota, \kappa) \in K \times L$.
 
-It follows from this definition that the transpose of a matrix of type $ (I, K) $ is a matrix of type $ (K, I) $ and that
+It follows from this definition that the transpose of a matrix of type $(I, K)$ is a matrix of type $(K, I)$ and that
 
 (1)
 $$
@@ -123,7 +123,7 @@ $$
 
 ### 2. MATRICES OVER A COMMUTATIVE GROUP
 
-Let $ G $ be a commutative group (written additively). The set of matrices over $ G $, with the given indexing sets $ I, K $, has a *commutative group* structure since it is the set of mappings from $ I \times K $ to $ G $; this group is written additively, so that if $ M = (m_{\iota \kappa}) $ and $ M' = (m'_{\iota \kappa}) $ are two of its elements, then
+Let $G$ be a commutative group (written additively). The set of matrices over $G$, with the given indexing sets $I, K$, has a *commutative group* structure since it is the set of mappings from $I \times K$ to $G$; this group is written additively, so that if $M = (m_{\iota \kappa})$ and $M' = (m'_{\iota \kappa})$ are two of its elements, then
 $$
 M + M' = (m_{\iota \kappa} + m'_{\iota \kappa});
 $$
@@ -135,26 +135,26 @@ $$
 
 The sum of two matrices is thus only defined if the indexing sets of the rows and the columns are the *same* for the two matrices.
 
-Let $ H', H'' $ be two sets, $ G $ a commutative group (written additively) and $ f : (h', h'') \mapsto h'h'' $ a mapping from $ H' \times H'' $ to $ G $. Given two matrices
+Let $H', H''$ be two sets, $G$ a commutative group (written additively) and $f : (h', h'') \mapsto h'h''$ a mapping from $H' \times H''$ to $G$. Given two matrices
 $$
 M' = (m'_{ik})_{(i, k) \in I \times K}, \quad M'' = (m''_{kl})_{(k, l) \in K \times L}
 $$
-over $ H' $ and $ H'' $ respectively such that the indexing set $ K $ of the columns of $ M' $ is *finite* and equal to the indexing set of the rows of $ M'' $, the *product of* $ M' $ and $ M'' $ *via* $ f $, denoted by $ M'M'' $ or $ f(M', M'') $, is the matrix
+over $H'$ and $H''$ respectively such that the indexing set $K$ of the columns of $M'$ is *finite* and equal to the indexing set of the rows of $M''$, the *product of* $M'$ and $M''$ *via* $f$, denoted by $M'M''$ or $f(M', M'')$, is the matrix
 (3)
 $$
 \left( \sum_{k \in K} m'_{ik} m''_{kl} \right)_{(i, l) \in I \times L}
 $$
-over $ G $.
+over $G$.
 
-The above definition supposes that the indexing set of the columns of $ M' $ is equal to the indexing set of the rows of $ M'' $; in particular the product $ M''M' $ *has no meaning if* $ I \neq L $. In formula (3) the elements of the *same* row of $ M' $ figure multiplied on the right by the elements of the *same* column of $ M'' $; the multiplication is said to be made "rows by columns".
+The above definition supposes that the indexing set of the columns of $M'$ is equal to the indexing set of the rows of $M''$; in particular the product $M''M'$ *has no meaning if* $I \neq L$. In formula (3) the elements of the *same* row of $M'$ figure multiplied on the right by the elements of the *same* column of $M''$; the multiplication is said to be made "rows by columns".
 
-Let $ f^0 $ be the mapping $(h'', h') \mapsto h'h''$ of $ H'' \times H' $ to $ G $; it follows immediately from the definitions that
+Let $f^0$ be the mapping $(h'', h') \mapsto h'h''$ of $H'' \times H'$ to $G$; it follows immediately from the definitions that
 $$
 t(M'M'') = tM''.tM'
 $$
-where the product on the left (resp. right) hand side is calculated via $ f $ (resp. via $ f^0 $).
+where the product on the left (resp. right) hand side is calculated via $f$ (resp. via $f^0$).
 
-When $ H' $ and $ H'' $ are themselves commutative groups (written additively) and $ f $ is $\mathbf{Z}$-*bilinear* (\S 3, no. 1), the distributivity formulae
+When $H'$ and $H''$ are themselves commutative groups (written additively) and $f$ is $\mathbf{Z}$-*bilinear* (\S 3, no. 1), the distributivity formulae
 $$
 \begin{cases}
 (M' + N')M'' = M'M'' + N'M'' \\
@@ -163,19 +163,19 @@ M'(M'' + N'') = M'M'' + M'N''
 $$
 are immediately verified, the indexing sets being such that the sums and products appearing are defined.
 
-Now let $ H_1, H_2, H_3, H_{12}, H_{23} $ and $ H $ be commutative groups (written additively), $ f_{12}:H_1 \times H_2 \to H_{12}, f_{23}:H_2 \times H_3 \to H_{23} $ mappings and
+Now let $H_1, H_2, H_3, H_{12}, H_{23}$ and $H$ be commutative groups (written additively), $f_{12}:H_1 \times H_2 \to H_{12}, f_{23}:H_2 \times H_3 \to H_{23}$ mappings and
 $$
 f_3:H_{12} \times H_3 \to H, \quad f_1:H_1 \times H_{23} \to H
 $$
-$\mathbf{Z}$-bilinear mappings; suppose further that, for all $ x_i \in H_i \ (i = 1, 2, 3) $
+$\mathbf{Z}$-bilinear mappings; suppose further that, for all $x_i \in H_i \ (i = 1, 2, 3)$
 $$
 f_3(f_{12}(x_1, x_2), x_3) = f_1(x_1, f_{23}(x_2, x_3))
 $$
-(which may also be written as above $(x_1 x_2)x_3 = x_1(x_2 x_3)$); then, if $ M' = (m'_{rs}), M'' = (m''_{st}), M''' = (m'''_{tu}) $ are matrices over $ H_1, H_2, H_3 $ respectively,
+(which may also be written as above $(x_1 x_2)x_3 = x_1(x_2 x_3)$); then, if $M' = (m'_{rs}), M'' = (m''_{st}), M''' = (m'''_{tu})$ are matrices over $H_1, H_2, H_3$ respectively,
 $$
 (M'M'')M''' = M'(M''M'''')
 $$
-when the products on the two sides (calculated respectively via $ f_{12}, f_3, f_{23} $ and $ f_1 $) are defined; for
+when the products on the two sides (calculated respectively via $f_{12}, f_3, f_{23}$ and $f_1$) are defined; for
 $$
 \sum_t \left( \sum_s m'_{rs} m''_{st} \right) m'''_{tu} = \sum_t \sum_s (m'_{rs} m''_{st}) m'''_{tu} = \sum_s \sum_t m'_{rs} (m''_{st} m'''_{tu})
 $$
@@ -184,30 +184,30 @@ $$
 $$
 by virtue of the hypotheses made.
 
-The two sides of (6) are also denoted by $ M'M''M''' $. Analogous conventions are made for products of more than three factors.
+The two sides of (6) are also denoted by $M'M''M'''$. Analogous conventions are made for products of more than three factors.
 
 #### Remark {#alg-ii-s10-n2-rem-1 .statement}
 
 The above formulae extend to a more general situation. To be precise:
 
-(a) Suppose $ H = \bigcup_{(\iota, \kappa) \in I \times K} G_{\iota \kappa} $ where each $ G_{\iota \kappa} $ is a commutative group written additively; then the sum $ M + M' $ may be defined when, for each ordered pair $(\iota, \kappa)$, $ m_{\iota \kappa} \in G_{\iota \kappa} $ and $ m'_{\iota \kappa} \in G_{\iota \kappa} $.
+(a) Suppose $H = \bigcup_{(\iota, \kappa) \in I \times K} G_{\iota \kappa}$ where each $G_{\iota \kappa}$ is a commutative group written additively; then the sum $M + M'$ may be defined when, for each ordered pair $(\iota, \kappa)$, $m_{\iota \kappa} \in G_{\iota \kappa}$ and $m'_{\iota \kappa} \in G_{\iota \kappa}$.
 
-(b) Let I, K, L be three sets with K assumed finite and let $ H' = \bigcup_{(i, k) \in I \times K} H'_{ik} $, $ H'' = \bigcup_{(k, l) \in K \times L} H''_{kl} $, $ H = \bigcup_{(i, l) \in I \times L} H_{il} $ be three sets; suppose that each $ H_{il} $ is a commutative group written additively and for each triple $ (i, k, l) $ let
+(b) Let I, K, L be three sets with K assumed finite and let $H' = \bigcup_{(i, k) \in I \times K} H'_{ik}$, $H'' = \bigcup_{(k, l) \in K \times L} H''_{kl}$, $H = \bigcup_{(i, l) \in I \times L} H_{il}$ be three sets; suppose that each $H_{il}$ is a commutative group written additively and for each triple $(i, k, l)$ let
 $$
 f_{ikl}: H'_{ik} \times H''_{kl} \to H_{il}
 $$
-be a mapping. Then if $ M' = (m'_{ik})_{(i, k) \in I \times K} $, $ M'' = (m''_{kl})_{(k, l) \in K \times L} $ are matrices such that $ m'_{ik} \in H'_{ik} $ and $ m''_{kl} \in H''_{kl} $ for all $ i, k, l $ we can define the product $ M'M'' $ via the $ f_{ikl} $. We leave to the reader the task of writing down and proving the formulae analogous to (4), (5) and (6).
+be a mapping. Then if $M' = (m'_{ik})_{(i, k) \in I \times K}$, $M'' = (m''_{kl})_{(k, l) \in K \times L}$ are matrices such that $m'_{ik} \in H'_{ik}$ and $m''_{kl} \in H''_{kl}$ for all $i, k, l$ we can define the product $M'M''$ via the $f_{ikl}$. We leave to the reader the task of writing down and proving the formulae analogous to (4), (5) and (6).
 
 ### 3. MATRICES OVER A RING
 
-The most important matrices in Mathematics are matrices over a ring A. The set $ A^{I \times K} $ of matrices over A corresponding to indexing sets I, K then has canonically an (A, A)-bimodule structure (\S 1, no. 14).
+The most important matrices in Mathematics are matrices over a ring A. The set $A^{I \times K}$ of matrices over A corresponding to indexing sets I, K then has canonically an (A, A)-bimodule structure (\S 1, no. 14).
 
-For every ordered pair $ (i, k) \in I \times K $, let $ E_{ik} $ be the matrix $ (a_{jl}) $ such that $ a_{ik} = 1 $ and $ a_{jl} = 0 $ for $ (j, l) \neq (i, k) $; the $ E_{ik} $ are called the matrix units in the set of matrices $ A^{I \times K} $; if I and K are finite, they form the canonical basis of this set for its left or right A-module structure (\S 1, no. 11). Clearly
+For every ordered pair $(i, k) \in I \times K$, let $E_{ik}$ be the matrix $(a_{jl})$ such that $a_{ik} = 1$ and $a_{jl} = 0$ for $(j, l) \neq (i, k)$; the $E_{ik}$ are called the matrix units in the set of matrices $A^{I \times K}$; if I and K are finite, they form the canonical basis of this set for its left or right A-module structure (\S 1, no. 11). Clearly
 $$
 tE_{ik} = E_{ki}.
 $$
 
-Unless otherwise mentioned, the product $ M'M'' $ of two matrices over A (assumed to be defined) will always be understood to be relative to the multiplication $ (x, y) \mapsto xy $ in A (or, as is also said, will be "calculated in A"). Then we have (no. 2) the associativity and distributivity formulae
+Unless otherwise mentioned, the product $M'M''$ of two matrices over A (assumed to be defined) will always be understood to be relative to the multiplication $(x, y) \mapsto xy$ in A (or, as is also said, will be "calculated in A"). Then we have (no. 2) the associativity and distributivity formulae
 
 (7)
 $$(XY)Z = X(YZ)$$
@@ -221,7 +221,7 @@ X(Y + Z) = XY + XZ \\
 $$
 for three matrices X, Y, Z over A, whenever the sums and products appearing in these formulae are defined.
 
-In particular, if $ E_{ik} $ (resp. $ E'_{kl}, E''_{il} $) are the matrix units in $ A^{I \times K} $ (resp. $ A^{K \times L}, A^{I \times L} $) respectively, with $ I = \{1, p\}, K = \{1, q\}, L = \{1, r\} $, we obtain the formulae
+In particular, if $E_{ik}$ (resp. $E'_{kl}, E''_{il}$) are the matrix units in $A^{I \times K}$ (resp. $A^{K \times L}, A^{I \times L}$) respectively, with $I = \{1, p\}, K = \{1, q\}, L = \{1, r\}$, we obtain the formulae
 $$
 \begin{cases}
 E_{ik}E'_{jl} = 0 & \text{if } k \neq j \\
@@ -229,13 +229,13 @@ E_{ik}E'_{kl} = E''_{il}.
 \end{cases}
 $$
 
-Let $ A^0 $ be the opposite ring of A and let $ a * b \ (= ba) $ denote the product of a and b in $ A^0 $; then, for two matrices X, Y over A whose product is defined,
+Let $A^0$ be the opposite ring of A and let $a * b \ (= ba)$ denote the product of a and b in $A^0$; then, for two matrices X, Y over A whose product is defined,
 $$(10)$$
 $$
 t(XX) = tY * tX
 $$
 
-where on the right hand side $ ^tY $ and $ ^tX $ are considered as matrices with elements in $ \mathbf{A}^0 $; when $ \mathbf{A} $ is *commutative*, then
+where on the right hand side $^tY$ and $^tX$ are considered as matrices with elements in $\mathbf{A}^0$; when $\mathbf{A}$ is *commutative*, then
 
 $$(11)$$
 $$
@@ -244,17 +244,17 @@ $$
 
 #### Proposition 1 {#alg-ii-s10-prop-1 .statement}
 
-*Let $ \mathbf{A}, \mathbf{B} $ be two rings and $ M = (m_{ik})_{(i,k) \in I \times K} $ and*
+*Let $\mathbf{A}, \mathbf{B}$ be two rings and $M = (m_{ik})_{(i,k) \in I \times K}$ and*
 $$
 M' = (m'_{ik})_{(i,k) \in I \times K}
 $$
-*two matrices with finite indexing sets over an* $ (\mathbf{A}, \mathbf{B}) $*-bimodule* $ G $. *Suppose that for every matrix unit* $ L = (a_i)_{i \in I} $ *with one row and elements in* $ \mathbf{A} $ *and every matrix unit* $ C = (b_k)_{k \in K} $ *with one column and elements in* $ \mathbf{B} $, $ L.M.C = L.M'.C $ (*the products being calculated via the external laws of the* $ (\mathbf{A}, \mathbf{B}) $*-module* $ G $); then* $ M = M' $.
+*two matrices with finite indexing sets over an* $(\mathbf{A}, \mathbf{B})$*-bimodule* $G$. *Suppose that for every matrix unit* $L = (a_i)_{i \in I}$ *with one row and elements in* $\mathbf{A}$ *and every matrix unit* $C = (b_k)_{k \in K}$ *with one column and elements in* $\mathbf{B}$, $L.M.C = L.M'.C$ (*the products being calculated via the external laws of the* $(\mathbf{A}, \mathbf{B})$*-module* $G$); then* $M = M'$.
 
-If $ L $ is taken to be the matrix unit $ (a_s) $ with $ a_i = 1, a_s = 0 $ for $ s \neq i $, and $ C $ the matrix unit $ (b_t) $ with $ b_k = 1, b_t = 0 $ for $ t \neq k $, the products $ L.M.C $ and $ L.M'.C $ are matrices with a single element respectively equal to $ m_{ik} $ and $ m'_{ik} $.
+If $L$ is taken to be the matrix unit $(a_s)$ with $a_i = 1, a_s = 0$ for $s \neq i$, and $C$ the matrix unit $(b_t)$ with $b_k = 1, b_t = 0$ for $t \neq k$, the products $L.M.C$ and $L.M'.C$ are matrices with a single element respectively equal to $m_{ik}$ and $m'_{ik}$.
 
-Let $ \mathbf{A}, \mathbf{B} $ be two rings and $ \sigma : \mathbf{A} \to \mathbf{B} $ a homomorphism.
+Let $\mathbf{A}, \mathbf{B}$ be two rings and $\sigma : \mathbf{A} \to \mathbf{B}$ a homomorphism.
 
-For every matrix $ M = (m_{ik}) $ over $ \mathbf{A} $, we shall denote by $ \sigma(M) $ the matrix $ (\sigma(m_{ik})) $ over $ \mathbf{B} $; clearly $ \sigma(aM) = \sigma(a)\sigma(M) $, $ \sigma(Ma) = \sigma(M)\sigma(a) $ for $ a \in \mathbf{A} $, also $ \sigma(^tM) = (^t(\sigma(M))) $ and
+For every matrix $M = (m_{ik})$ over $\mathbf{A}$, we shall denote by $\sigma(M)$ the matrix $(\sigma(m_{ik}))$ over $\mathbf{B}$; clearly $\sigma(aM) = \sigma(a)\sigma(M)$, $\sigma(Ma) = \sigma(M)\sigma(a)$ for $a \in \mathbf{A}$, also $\sigma(^tM) = (^t(\sigma(M)))$ and
 
 $$(12)$$
 $$
@@ -263,33 +263,33 @@ $$
 \sigma(MM') = \sigma(M)\sigma(M')
 \end{cases}
 $$
-*when the operations considered are defined, the products on the left and right hand sides of (12) being calculated in* $ \mathbf{A} $ *and* $ \mathbf{B} $ *respectively.* When $ \sigma $ is denoted by $ x \mapsto x^\sigma $, we write $ M^\sigma $ instead of $ \sigma(M) $.
+*when the operations considered are defined, the products on the left and right hand sides of (12) being calculated in* $\mathbf{A}$ *and* $\mathbf{B}$ *respectively.* When $\sigma$ is denoted by $x \mapsto x^\sigma$, we write $M^\sigma$ instead of $\sigma(M)$.
 
-Consider in particular an *anti-endomorphism* $ \sigma $ of $ \mathbf{A} $, that is a homomorphism of $ \mathbf{A} $ to the opposite ring $ \mathbf{A}^0 $, or a mapping of $ \mathbf{A} $ into itself such that
+Consider in particular an *anti-endomorphism* $\sigma$ of $\mathbf{A}$, that is a homomorphism of $\mathbf{A}$ to the opposite ring $\mathbf{A}^0$, or a mapping of $\mathbf{A}$ into itself such that
 $$
 \sigma(a + a') = \sigma(a) + \sigma(a'), \qquad \sigma(aa') = \sigma(a')\sigma(a)
 $$
-*for all* $ a, a' $ *in* $ \mathbf{A} $; then, for two matrices $ M, M' $ over $ \mathbf{A} $ whose product $ MM' $ is defined,
+*for all* $a, a'$ *in* $\mathbf{A}$; then, for two matrices $M, M'$ over $\mathbf{A}$ whose product $MM'$ is defined,
 $$(13)$$
 $$
 \sigma(MM') = (^t(\sigma(^tM')).\sigma(^tM))
 $$
-*where the products on the two sides are calculated in* $ \mathbf{A} $; *this follows immediately from (10) and (12).*
+*where the products on the two sides are calculated in* $\mathbf{A}$; *this follows immediately from (10) and (12).*
 
 ### 4. MATRICES AND LINEAR MAPPINGS
 
-Let $ \mathbf{A} $ be a ring and $ E $ a *(right or left)* $ \mathbf{A} $*-module* admitting a basis $ (e_i)_{i \in I} $. For every element $ x \in E $, the *matrix of* $ x $ *with respect to the basis* $ (e_i) $, denoted by $ M(x) $ or $ \mathbf{x} $ (or sometimes simply $ x $ when no confusion can arise), is the *column matrix* consisting of the components $ x_i \ (i \in I) $ of $ x $ with respect to $ (e_i) $ (\S 1, no. 11); in calculations it will sometimes be convenient, in order to remember that the index $ i $ is a row index, to adjoin to it a column index taking only one value and write the matrix $ M(x) $ as $ (x_{i0}) $.
+Let $\mathbf{A}$ be a ring and $E$ a *(right or left)* $\mathbf{A}$*-module* admitting a basis $(e_i)_{i \in I}$. For every element $x \in E$, the *matrix of* $x$ *with respect to the basis* $(e_i)$, denoted by $M(x)$ or $\mathbf{x}$ (or sometimes simply $x$ when no confusion can arise), is the *column matrix* consisting of the components $x_i \ (i \in I)$ of $x$ with respect to $(e_i)$ (\S 1, no. 11); in calculations it will sometimes be convenient, in order to remember that the index $i$ is a row index, to adjoin to it a column index taking only one value and write the matrix $M(x)$ as $(x_{i0})$.
 
-We now consider two (left or right) A-modules E and F with bases $ (e_i)_{i \in I} $ and $ (f_k)_{k \in K} $ respectively; let $ (f_k^*) $ be the family of coordinate forms corresponding to $ (f_k) $. For a linear mapping $ u $ of E into F, we shall define *the matrix of u with respect to the bases* $ (e_i), (f_k) $ in each of the following cases:
+We now consider two (left or right) A-modules E and F with bases $(e_i)_{i \in I}$ and $(f_k)_{k \in K}$ respectively; let $(f_k^*)$ be the family of coordinate forms corresponding to $(f_k)$. For a linear mapping $u$ of E into F, we shall define *the matrix of u with respect to the bases* $(e_i), (f_k)$ in each of the following cases:
 
-(D) E and F are right A-modules, $ u $ is A-linear.
-(G) E and F are left A-modules, $ u $ is A-linear.
+(D) E and F are right A-modules, $u$ is A-linear.
+(G) E and F are left A-modules, $u$ is A-linear.
 
 In what follows, we shall attach the letter (D) (resp. (G)) to formulae applying to right (resp. left) modules.
 
 #### Definition 3 {#alg-ii-s10-def-3 .statement}
 
-*In each of the above two cases, the matrix of u with respect to the bases* $ (e_i), (f_k) $ *is the matrix* $ M(u) = (u_{ki})_{(k, i) \in K \times I} $ *such that*
+*In each of the above two cases, the matrix of u with respect to the bases* $(e_i), (f_k)$ *is the matrix* $M(u) = (u_{ki})_{(k, i) \in K \times I}$ *such that*
 
 $$
 u_{ki} = f_k^*(u(e_i))
@@ -306,9 +306,9 @@ $$
 u_{ki} = \langle u(e_i), f_k^* \rangle.
 $$
 
-The *column* of $ M(u) $ of index $ i $ is therefore equal to $ M(u(e_i)) $.
+The *column* of $M(u)$ of index $i$ is therefore equal to $M(u(e_i))$.
 
-Clearly if $ u, v $ are two linear mappings of E into F and $ M(u), M(v) $ their matrices with respect to the same bases, then
+Clearly if $u, v$ are two linear mappings of E into F and $M(u), M(v)$ their matrices with respect to the same bases, then
 
 $$
 M(u + v) = M(u) + M(v)
@@ -317,11 +317,11 @@ and
 $$
 M(\gamma u) = \gamma M(u)
 $$
-for every element $ \gamma $ of the *centre* $ \Gamma $ of A. In other words, once the bases $ (e_i), (f_k) $ are fixed, the mapping $ u \mapsto M(u) $ is a *$ \Gamma $-module isomorphism* of $ \mathrm{Hom}_A(E, F) $ onto a subset of the set $ A^{K \times I} $, equal to $ A^{K \times I} $ if K is *finite*.
+for every element $\gamma$ of the *centre* $\Gamma$ of A. In other words, once the bases $(e_i), (f_k)$ are fixed, the mapping $u \mapsto M(u)$ is a *$\Gamma$-module isomorphism* of $\mathrm{Hom}_A(E, F)$ onto a subset of the set $A^{K \times I}$, equal to $A^{K \times I}$ if K is *finite*.
 
 #### Proposition 2 {#alg-ii-s10-prop-2 .statement}
 
-*Suppose I and K are finite. For every element* $ x \in E $, *the matrix* $ M(u(x)) $ *with respect to the basis* $ (f_k) $ *is given by the formula*
+*Suppose I and K are finite. For every element* $x \in E$, *the matrix* $M(u(x))$ *with respect to the basis* $(f_k)$ *is given by the formula*
 
 (17 D)
 $$
@@ -332,17 +332,17 @@ $$
 {}^t M(u(x)) = {}^t M(x) . {}^t M(u).
 $$
 
-We verify for example (17 G). Let $ x = \sum_i x_{i0} e_i, \quad u(x) = \sum_k y_{k0} f_k $ with $ x_{i0} \in A, \ y_{k0} \in A $; then $ u(x) = u\left( \sum_i x_{i0} e_i \right) = \sum_i x_{i0} u(e_i) = \sum_{i, k} x_{i0} u_{ki} f_k $; whence y_{k0} = \sum_i x_{i0} u_{ki}. In order to bring the two indices $ i $ along side one another, we consider the transpose matrices $ {}^t M(x) = (x'_{0i}) $, where $ x'_{0i} = x_{i0} $ and
+We verify for example (17 G). Let $x = \sum_i x_{i0} e_i, \quad u(x) = \sum_k y_{k0} f_k$ with $x_{i0} \in A, \ y_{k0} \in A$; then $u(x) = u\left( \sum_i x_{i0} e_i \right) = \sum_i x_{i0} u(e_i) = \sum_{i, k} x_{i0} u_{ki} f_k$; whence y_{k0} = \sum_i x_{i0} u_{ki}. In order to bring the two indices $i$ along side one another, we consider the transpose matrices ${}^t M(x) = (x'_{0i})$, where $x'_{0i} = x_{i0}$ and
 $$
 {}^t M(u) = (u'_{ik}),
 $$
-where $ u'_{ik} = u_{ki} $; then $ y_{k0} = \sum_i x'_{0i} u'_{ik} $ and the right hand side is the element of index $ k $ of the matrix with one row $ {}^t M(x) \cdot {}^t M(u) $, whence (17 G).
+where $u'_{ik} = u_{ki}$; then $y_{k0} = \sum_i x'_{0i} u'_{ik}$ and the right hand side is the element of index $k$ of the matrix with one row ${}^t M(x) \cdot {}^t M(u)$, whence (17 G).
 
 When A is commutative, (17 G) reduces to (17 D) by formula (4) of no. 2.
 
 #### Corollary {#alg-ii-s10-n4-cor-1 .statement}
 
-*Let E, F, G be three right (resp. left) modules over a ring A, $ (e_i)_{i \in I} $, $ (f_k)_{k \in K} $, $ (g_l)_{l \in L} $ respective finite bases of E, F, G, $ u : E \to F $, $ v : F \to G $ two linear mappings, $ M(u) $ the matrix of u relative to the bases $ (e_i) $, $ (f_k) $, $ M(v) $ the matrix of v relative to the bases $ (f_k) $, $ (g_l) $ and $ M(v \circ u) $ the matrix of $ v \circ u $ relative to the bases $ (e_i) $, $ (g_l) $; then*
+*Let E, F, G be three right (resp. left) modules over a ring A, $(e_i)_{i \in I}$, $(f_k)_{k \in K}$, $(g_l)_{l \in L}$ respective finite bases of E, F, G, $u : E \to F$, $v : F \to G$ two linear mappings, $M(u)$ the matrix of u relative to the bases $(e_i)$, $(f_k)$, $M(v)$ the matrix of v relative to the bases $(f_k)$, $(g_l)$ and $M(v \circ u)$ the matrix of $v \circ u$ relative to the bases $(e_i)$, $(g_l)$; then*
 
 (18 D)
 $$
@@ -353,22 +353,22 @@ $$
 {}^t M(v \circ u) = {}^t M(u) {}^t M(v).
 $$
 
-We prove for example (18 G). For all $ x \in E $, by (17 G):
+We prove for example (18 G). For all $x \in E$, by (17 G):
 $$
 {}^t M(x) \cdot {}^t M(v \circ u) = {}^t M(v(u(x))) = {}^t M(u(x)) \cdot {}^t M(v) = {}^t M(x) \cdot {}^t M(u) \cdot {}^t M(v)
 $$
-by associativity; the corollary then follows from no. 3, Proposition 1 since the matrix $ {}^t M(x) $ with one row is arbitrary.
+by associativity; the corollary then follows from no. 3, Proposition 1 since the matrix ${}^t M(x)$ with one row is arbitrary.
 
-*Remark (1)*. Formula (17 D) can be considered as a special case of (18 D). For there corresponds canonically to every $ x \in E $ the linear mapping $ \theta_x : A_d \to E $ mapping every $ \alpha \in A $ to $ x \alpha $ (\S 2, no. 1). It is immediate that the matrix $ M(\theta_x) $ with respect to the basis 1 of $ A_d $ and the basis $ (e_i) $ of E is just the matrix $ M(x) $; similarly $ M(\theta_{u(x)}) = M(u(x)) $ and formula (17 D) can therefore be considered as a translation of the relation
+*Remark (1)*. Formula (17 D) can be considered as a special case of (18 D). For there corresponds canonically to every $x \in E$ the linear mapping $\theta_x : A_d \to E$ mapping every $\alpha \in A$ to $x \alpha$ (\S 2, no. 1). It is immediate that the matrix $M(\theta_x)$ with respect to the basis 1 of $A_d$ and the basis $(e_i)$ of E is just the matrix $M(x)$; similarly $M(\theta_{u(x)}) = M(u(x))$ and formula (17 D) can therefore be considered as a translation of the relation
 $$
 \theta_{u(x)} = u \circ \theta_x.
 $$
 
 #### Proposition 3 {#alg-ii-s10-prop-3 .statement}
 
-*Let E, F be two right (resp. left) A-modules and $ (e_i)_{i \in I} $, $ (f_k)_{k \in K} $ finite bases of E and F respectively. For every linear mapping u of E into F, let $ M(u) $ be the matrix of u with respect to the bases $ (e_i) $ and $ (f_k) $. Then the matrix of $ {}^t u : F^* \to E^* $ with respect to the dual bases $ (f_k^*) $ and $ (e_i^*) $ is equal to $ {}^t M(u) $.*
+*Let E, F be two right (resp. left) A-modules and $(e_i)_{i \in I}$, $(f_k)_{k \in K}$ finite bases of E and F respectively. For every linear mapping u of E into F, let $M(u)$ be the matrix of u with respect to the bases $(e_i)$ and $(f_k)$. Then the matrix of ${}^t u : F^* \to E^*$ with respect to the dual bases $(f_k^*)$ and $(e_i^*)$ is equal to ${}^t M(u)$.*
 
-E is canonically identified with its bidual $ E^{**} $ and $ (e_i) $ with the dual basis of $ (e_i^*) $; then (supposing for example that E and F are right modules)
+E is canonically identified with its bidual $E^{**}$ and $(e_i)$ with the dual basis of $(e_i^*)$; then (supposing for example that E and F are right modules)
 $$
 \langle {}^t u(f_k^*), e_i \rangle = \langle f_k^*, u(e_i) \rangle,
 $$
@@ -435,7 +435,7 @@ $$
 X \mapsto (X_{kt})_{(k, t) \in K \times I}
 $$
 
-between the set of matrices of type (S, R) with elements in A and the set of matrices of matrices $ (X_{kt})_{(k, t) \in K \times I} $ of type K \times I, where each X_{kt} is a matrix over A of type (S_k, R_i). Suppose that further G admits a finite basis (g_t)_{t \in T} and that T = (T_l)_{l \in L} is a partition of T such that, for each l \in L, (g_t)_{t \in T_l} is a basis of G_l; let Y = M(v) be the matrix of v with respect to the bases (f_s)_{s \in S} and (g_t)_{t \in T}, Y_{lk} = M(v_{lk}) that of v_{lk} with respect to the bases (f_s)_{s \in S_k} and (g_t)_{t \in T_l}, Z = M(w) the matrix of w = v \circ u with respect to the bases (e_r)_{r \in R} and (g_t)_{t \in T} and Z_{li} = M(w_{li}) that of w_{li} with respect to the bases (e_r)_{r \in R_i} and (g_t)_{t \in T_l}; then it follows from (23) that the submatrices Z_{li} of Z = YX are given by
+between the set of matrices of type (S, R) with elements in A and the set of matrices of matrices $(X_{kt})_{(k, t) \in K \times I}$ of type K \times I, where each X_{kt} is a matrix over A of type (S_k, R_i). Suppose that further G admits a finite basis (g_t)_{t \in T} and that T = (T_l)_{l \in L} is a partition of T such that, for each l \in L, (g_t)_{t \in T_l} is a basis of G_l; let Y = M(v) be the matrix of v with respect to the bases (f_s)_{s \in S} and (g_t)_{t \in T}, Y_{lk} = M(v_{lk}) that of v_{lk} with respect to the bases (f_s)_{s \in S_k} and (g_t)_{t \in T_l}, Z = M(w) the matrix of w = v \circ u with respect to the bases (e_r)_{r \in R} and (g_t)_{t \in T} and Z_{li} = M(w_{li}) that of w_{li} with respect to the bases (e_r)_{r \in R_i} and (g_t)_{t \in T_l}; then it follows from (23) that the submatrices Z_{li} of Z = YX are given by
 
 $$
 Z_{li} = \sum_k Y_{lk} X_{kt}
@@ -513,7 +513,7 @@ Let A be a ring and $\sigma$ an *anti-endomorphism* of A (no. 3); consider the t
 
 (DG) E is a right A-module, F a left A-module and $u$ a $\mathbf{Z}$-linear mapping of E into F such that $u(xa) = \sigma(a)u(x)$ for $a \in A,\ x \in E$; in other words, $u$ is a *semi-linear* mapping relative to $\sigma$ of the left $A^0$-module E into the left A-module F.
 
-In the two cases, the matrix $ M(u) $ of $ u $ relative to bases of E and F has its elements in A; if these bases are finite, then, for all $ x \in E $, we have the respective formulae
+In the two cases, the matrix $M(u)$ of $u$ relative to bases of E and F has its elements in A; if these bases are finite, then, for all $x \in E$, we have the respective formulae
 
 (17 GD) $$
 M(u(x)) = M(u) . \sigma(M(x))
@@ -529,49 +529,49 @@ the products on the two sides being calculated *in* A. This follows immediately 
 
 *A matrix whose rows and columns have the same indexing set is called a square matrix.*
 
-A square matrix with $ n $ rows and $ n $ columns is called a *matrix of order* $ n $.
+A square matrix with $n$ rows and $n$ columns is called a *matrix of order* $n$.
 
 #### Remark {#alg-ii-s10-n7-rem-1 .statement}
 
 It should be noted that a matrix for which the indexing sets of the rows and columns have the *same cardinal* but *are not identical*, must not be considered as a square matrix; in particular, the product of two such matrices over a ring *is not defined*.
 
-Clearly addition and multiplication of square matrices over A with a finite set as indexing set of the rows and columns, define on the set of these matrices a *ring* structure because of formulae (7), (8) and (9) (no. 3); the matrix $ (\delta_{ij}) $, where $ \delta_{ij} $ is the Kronecker index (for $ i \in I, j \in I $), is the unit element of this ring and is denoted by $ I_n $ or $ l_n $ when I has $ n $ elements. When $ I = \{1, n\} $, the ring of matrices thus defined is denoted simply by $ \mathbf{M}_n(A) $; the group of invertible elements of $ \mathbf{M}_n(A) $ is denoted by $ \mathbf{GL}_n(A) $ or $ \mathbf{GL}(n, A) $.
+Clearly addition and multiplication of square matrices over A with a finite set as indexing set of the rows and columns, define on the set of these matrices a *ring* structure because of formulae (7), (8) and (9) (no. 3); the matrix $(\delta_{ij})$, where $\delta_{ij}$ is the Kronecker index (for $i \in I, j \in I$), is the unit element of this ring and is denoted by $I_n$ or $l_n$ when I has $n$ elements. When $I = \{1, n\}$, the ring of matrices thus defined is denoted simply by $\mathbf{M}_n(A)$; the group of invertible elements of $\mathbf{M}_n(A)$ is denoted by $\mathbf{GL}_n(A)$ or $\mathbf{GL}(n, A)$.
 
-For a square matrix $ U = (a_{ij}) $ of order $ n $ over A to be right (resp. left) invertible, it is necessary and sufficient that, for every system $ (b_i)_{1 \leq i \leq n} $ of elements of A, the system of $ n $ equations in $ n $ unknowns
+For a square matrix $U = (a_{ij})$ of order $n$ over A to be right (resp. left) invertible, it is necessary and sufficient that, for every system $(b_i)_{1 \leq i \leq n}$ of elements of A, the system of $n$ equations in $n$ unknowns
 
 $$
 \sum_{j=1}^n a_{ij} x_j = b_i \quad (1 \leq i \leq n)
 $$
 
-(resp. $ \sum_{j=1}^n x_j a_{ji} = b_i $)
+(resp. $\sum_{j=1}^n x_j a_{ji} = b_i$)
 
-have *one solution* $ (x_i) $ in A.
+have *one solution* $(x_i)$ in A.
 
-Let I be a finite indexing set, A a ring and E a right (resp. left) A-module with basis $ (e_i)_{i \in I} $. For every *endomorphism* $ u $ of E, the matrix $ M(u) $ of $ u $ with respect to the *two bases identical with* $ (e_i) $ is a square matrix; more briefly, it is called the matrix of $ u $ *with respect to the basis* $ (e_i) $.
+Let I be a finite indexing set, A a ring and E a right (resp. left) A-module with basis $(e_i)_{i \in I}$. For every *endomorphism* $u$ of E, the matrix $M(u)$ of $u$ with respect to the *two bases identical with* $(e_i)$ is a square matrix; more briefly, it is called the matrix of $u$ *with respect to the basis* $(e_i)$.
 
-Suppose that $ I = \{1, n\} $. The mapping $ u \mapsto M(u) $ (resp. $ u \mapsto {}^t M(u) $) is an *isomorphism* of the ring $ \mathrm{End}_A(E) $ onto $ \mathbf{M}_n(A) $ (resp. onto the opposite ring of $ \mathbf{M}_n(A) $, as follows from formulae (18 D) (resp. 18 G)) (no. 4). The invertible elements of the ring $ \mathbf{M}_n(\mathbf{A}) $ called *invertible matrices*, correspond under the mapping $ u \mapsto M(u) $ (resp. $ u \mapsto {}^t M(u) $) to the *automorphisms* of E; the group $ \mathbf{GL}(n, \mathbf{A}) $ is therefore canonically identified with the group $ \mathbf{GL}(\mathbf{A}_d^n) $.
+Suppose that $I = \{1, n\}$. The mapping $u \mapsto M(u)$ (resp. $u \mapsto {}^t M(u)$) is an *isomorphism* of the ring $\mathrm{End}_A(E)$ onto $\mathbf{M}_n(A)$ (resp. onto the opposite ring of $\mathbf{M}_n(A)$, as follows from formulae (18 D) (resp. 18 G)) (no. 4). The invertible elements of the ring $\mathbf{M}_n(\mathbf{A})$ called *invertible matrices*, correspond under the mapping $u \mapsto M(u)$ (resp. $u \mapsto {}^t M(u)$) to the *automorphisms* of E; the group $\mathbf{GL}(n, \mathbf{A})$ is therefore canonically identified with the group $\mathbf{GL}(\mathbf{A}_d^n)$.
 
-If $ u $ is an automorphism of E, its *contragredient* $ \check{u} $ is an automorphism of the left (resp. right) A-module $ E^* $, such that $ \check{u} = ({}^t u)^{-1} = {}^t (u^{-1}) $ (\S 2, no. 5, Definition 6); if $ M(\check{u}) $ is the matrix of $ \check{u} $ with respect to the dual basis $ (e_i^*) $, then, by virtue of Proposition 3 (no. 4),
+If $u$ is an automorphism of E, its *contragredient* $\check{u}$ is an automorphism of the left (resp. right) A-module $E^*$, such that $\check{u} = ({}^t u)^{-1} = {}^t (u^{-1})$ (\S 2, no. 5, Definition 6); if $M(\check{u})$ is the matrix of $\check{u}$ with respect to the dual basis $(e_i^*)$, then, by virtue of Proposition 3 (no. 4),
 
 $$
 M(\check{u}) = ({}^t M(u))^{-1} = {}^t M(u^{-1}).
 $$
 
-For every invertible matrix $ X $, it therefore follows that $ {}^t (X^{-1}) = ({}^t X)^{-1} $; this matrix is also denoted by $ {}^t X^{-1} $ and called the *contragredient* of the matrix $ X $.
+For every invertible matrix $X$, it therefore follows that ${}^t (X^{-1}) = ({}^t X)^{-1}$; this matrix is also denoted by ${}^t X^{-1}$ and called the *contragredient* of the matrix $X$.
 
-Let $ \sigma $ be an *automorphism* of the ring $ \mathbf{A} $; for every *semi-linear* mapping $ u : E \to E $ relative to $ \sigma $, the matrix $ M(u) $ of this mapping with respect to a basis $ (e_i) $ of E is also a square matrix. It follows immediately from (27 D) (no. 6) that, if $ u $ is bijective, then
+Let $\sigma$ be an *automorphism* of the ring $\mathbf{A}$; for every *semi-linear* mapping $u : E \to E$ relative to $\sigma$, the matrix $M(u)$ of this mapping with respect to a basis $(e_i)$ of E is also a square matrix. It follows immediately from (27 D) (no. 6) that, if $u$ is bijective, then
 
 $$
 M(u^{-1}) = (\sigma^{-1}(M(u)))^{-1}.
 $$
 
-Let E be an A-module which is the *direct sum* of a finite family $ (E_i)_{i \in I} $ of submodules; for every endomorphism $ u $ of E, the matrix $ M(u) = (u_{ki}) $ of $ u $ with respect to the two decompositions of E identical with $ (E_i) $ (no. 5) is a *square matrix of linear mappings*. In order that $ u(E_i) \subset E_i $ for all $ i \in I $, it is necessary and sufficient that $ u_{ki} = 0 $ for $ k \neq i $. When $ I = \{1, n\} $, the relations
+Let E be an A-module which is the *direct sum* of a finite family $(E_i)_{i \in I}$ of submodules; for every endomorphism $u$ of E, the matrix $M(u) = (u_{ki})$ of $u$ with respect to the two decompositions of E identical with $(E_i)$ (no. 5) is a *square matrix of linear mappings*. In order that $u(E_i) \subset E_i$ for all $i \in I$, it is necessary and sufficient that $u_{ki} = 0$ for $k \neq i$. When $I = \{1, n\}$, the relations
 
 $$
 u(E_i) \subset E_i + E_{i+1} + \cdots + E_n \qquad (1 \leq i \leq n)
 $$
 
-are equivalent to the relations $ u_{ki} = 0 $ for $ k < i $.
+are equivalent to the relations $u_{ki} = 0$ for $k < i$.
 
 *Examples of square matrices.* I. *Diagonal matrices*. In a square matrix
 
@@ -579,9 +579,9 @@ $$
 M = (m_{\iota \kappa})_{(\iota, \kappa) \in I \times I},
 $$
 
-the elements both of whose indices are equal are called *diagonal elements* and the family $ (m_{\iota \iota})_{\iota \in I} $ is called the *diagonal* of $ M $; a square matrix $ M = (m_{\iota \kappa}) $ over a ring, whose elements other than the diagonal elements are zero, is called a *diagonal matrix*. For every family $ (a_\iota)_{\iota \in I} $ of elements of a ring $ \mathbf{A} $, the diagonal matrix $ (m_{\iota \kappa}) $ such that $ m_{\iota \iota} = a_\iota $ for all $ \iota \in I $ is denoted by $ \operatorname{diag}(a_\iota)_{\iota \in I} $ (or $ \operatorname{diag}(a_1, a_2, \ldots, a_n) $ when $ I = \{1, n\} $). In the set $ \mathbf{M}_n(\mathbf{A}) $ of square matrices of order $ n $ over $ \mathbf{A} $, the unit matrix $ I_n $ is a diagonal matrix and also every multiple $ a I_n = I_n a $ of this matrix by a scalar $ a $ (the diagonal matrix (called *scalar*) all of whose diagonal elements are equal to $ a $).
+the elements both of whose indices are equal are called *diagonal elements* and the family $(m_{\iota \iota})_{\iota \in I}$ is called the *diagonal* of $M$; a square matrix $M = (m_{\iota \kappa})$ over a ring, whose elements other than the diagonal elements are zero, is called a *diagonal matrix*. For every family $(a_\iota)_{\iota \in I}$ of elements of a ring $\mathbf{A}$, the diagonal matrix $(m_{\iota \kappa})$ such that $m_{\iota \iota} = a_\iota$ for all $\iota \in I$ is denoted by $\operatorname{diag}(a_\iota)_{\iota \in I}$ (or $\operatorname{diag}(a_1, a_2, \ldots, a_n)$ when $I = \{1, n\}$). In the set $\mathbf{M}_n(\mathbf{A})$ of square matrices of order $n$ over $\mathbf{A}$, the unit matrix $I_n$ is a diagonal matrix and also every multiple $a I_n = I_n a$ of this matrix by a scalar $a$ (the diagonal matrix (called *scalar*) all of whose diagonal elements are equal to $a$).
 
-For every family $ (d_i)_{1 \leq i \leq n} $ of elements of $ \mathbf{A} $ and every matrix $ X = (x_{ij}) $ of type $ (n, q) $ (resp. $ (p, n) $) over $ \mathbf{A} $, writing $ D = \operatorname{diag}(d_i) $,
+For every family $(d_i)_{1 \leq i \leq n}$ of elements of $\mathbf{A}$ and every matrix $X = (x_{ij})$ of type $(n, q)$ (resp. $(p, n)$) over $\mathbf{A}$, writing $D = \operatorname{diag}(d_i)$,
 
 $$
 \begin{cases}
@@ -590,7 +590,7 @@ XD = (x_{ij} d_j).
 \end{cases}
 $$
 
-In particular, for two diagonal matrices of order $ n $,
+In particular, for two diagonal matrices of order $n$,
 
 $$
 \text{diag}(a_i) + \text{diag}(b_i) = \text{diag}(a_i + b_i)
@@ -600,17 +600,17 @@ $$
 \text{diag}(a_i) \cdot \text{diag}(b_i) = \text{diag}(a_i b_i).
 $$
 
-The diagonal matrices therefore form a subring of $ \mathbf{M}_n(\mathbf{A}) $ isomorphic to the product ring $ \mathbf{A}^n $; the scalar matrices form a subring isomorphic to $ \mathbf{A} $.
+The diagonal matrices therefore form a subring of $\mathbf{M}_n(\mathbf{A})$ isomorphic to the product ring $\mathbf{A}^n$; the scalar matrices form a subring isomorphic to $\mathbf{A}$.
 
-II. *Permutation matrices; monomial matrices.* Let $ \pi $ be any *permutation* of a finite set $ \mathbf{I} $ and let $ (e_i)_{i \in \mathbf{I}} $ be the canonical basis of the $ \mathbf{A} $-module $ \mathbf{E} = \mathbf{A}_d^\mathbf{I} $; there exists one and only one endomorphism $ u_\pi $ of $ \mathbf{E} $ such that, for all $ i \in \mathbf{I} $, $ u_\pi(e_i) = e_{\pi(i)} $ (\S 1, no. 11, Corollary 3 to Proposition 17). For all $ i \in \mathbf{I} $, the column of index $ i $ in the matrix $ M(u_\pi) $ with respect to the basis $ (e_i) $ has all its elements zero except the one in the row of index $ \pi(i) $, which is equal to 1. By an abuse of language, $ M(u_\pi) $ is called *the matrix of the permutation* $ \pi $. It is immediate that for any two permutations $ \sigma, \tau $ of $ \mathbf{I} $, $ u_{\sigma \tau} = u_\sigma \circ u_\tau $ and that for the identity permutation $ \varepsilon $, $ u_\varepsilon $ is the identity; the mapping $ \pi \mapsto M(u_\pi) $ is therefore an *isomorphism* of the symmetric group $ \mathfrak{S}_\mathbf{I} $ onto the group of permutation matrices.
+II. *Permutation matrices; monomial matrices.* Let $\pi$ be any *permutation* of a finite set $\mathbf{I}$ and let $(e_i)_{i \in \mathbf{I}}$ be the canonical basis of the $\mathbf{A}$-module $\mathbf{E} = \mathbf{A}_d^\mathbf{I}$; there exists one and only one endomorphism $u_\pi$ of $\mathbf{E}$ such that, for all $i \in \mathbf{I}$, $u_\pi(e_i) = e_{\pi(i)}$ (\S 1, no. 11, Corollary 3 to Proposition 17). For all $i \in \mathbf{I}$, the column of index $i$ in the matrix $M(u_\pi)$ with respect to the basis $(e_i)$ has all its elements zero except the one in the row of index $\pi(i)$, which is equal to 1. By an abuse of language, $M(u_\pi)$ is called *the matrix of the permutation* $\pi$. It is immediate that for any two permutations $\sigma, \tau$ of $\mathbf{I}$, $u_{\sigma \tau} = u_\sigma \circ u_\tau$ and that for the identity permutation $\varepsilon$, $u_\varepsilon$ is the identity; the mapping $\pi \mapsto M(u_\pi)$ is therefore an *isomorphism* of the symmetric group $\mathfrak{S}_\mathbf{I}$ onto the group of permutation matrices.
 
-Each row and each column of a permutation matrix contains only a single element $ \neq 0 $. A finite square matrix $ R $ over a non-zero ring $ \mathbf{A} $, with this property, is called a *monomial matrix*; let $ r_i $ be the unique element $ \neq 0 $ in the column of $ R $ of index $ i $ and let $ \pi(i) $ be the index of the row where this element is; clearly $ \pi $ is a permutation of the indexing set $ \mathbf{I} $ and $ R = M(u_\pi)D $, where $ D = \text{diag}(r_i) $.
+Each row and each column of a permutation matrix contains only a single element $\neq 0$. A finite square matrix $R$ over a non-zero ring $\mathbf{A}$, with this property, is called a *monomial matrix*; let $r_i$ be the unique element $\neq 0$ in the column of $R$ of index $i$ and let $\pi(i)$ be the index of the row where this element is; clearly $\pi$ is a permutation of the indexing set $\mathbf{I}$ and $R = M(u_\pi)D$, where $D = \text{diag}(r_i)$.
 
-III. *Triangular matrices.* In the ring $ \mathbf{M}_n(\mathbf{A}) $ of square matrices of order $ n $ over a ring $ \mathbf{A} $, any matrix $ (a_{ij}) $ such that $ a_{ij} = 0 $ for $ i > j $ (resp. $ i < j $) is called an *upper* (resp. *lower*) *triangular matrix*; it is also said that such a matrix *has only zeros below* (resp. *above*) *its diagonal*. It is immediately established that the upper (resp. lower) triangular matrices form a subring $ S $ (resp. $ T $) of $ \mathbf{M}_n(\mathbf{A}) $, $ S \cap T $ being obviously the ring of diagonal matrices.
+III. *Triangular matrices.* In the ring $\mathbf{M}_n(\mathbf{A})$ of square matrices of order $n$ over a ring $\mathbf{A}$, any matrix $(a_{ij})$ such that $a_{ij} = 0$ for $i > j$ (resp. $i < j$) is called an *upper* (resp. *lower*) *triangular matrix*; it is also said that such a matrix *has only zeros below* (resp. *above*) *its diagonal*. It is immediately established that the upper (resp. lower) triangular matrices form a subring $S$ (resp. $T$) of $\mathbf{M}_n(\mathbf{A})$, $S \cap T$ being obviously the ring of diagonal matrices.
 
-The set $ S' $ (resp. $ T' $) of matrices in $ S $ (resp. $ T $) whose diagonal elements are *invertible* is a multiplicative *group* of matrices called the *upper* (resp. *lower*) *total triangular group*, this follows immediately from \S 1, no. 11, *Remark* 5. The set $ S_1 $ (resp. $ T_1 $) of matrices in $ S $ (resp. $ T $) whose diagonal elements are all equal to 1 is a *subgroup* of the above group, called the *upper* (resp. *lower*) *strict triangular group*, and every matrix $ M \in S' $ (resp. $ M \in T' $) whose diagonal is $ (d_i) $, may be written as $ M = DM_1 = M'_1D $, where $ D = \text{diag}(d_i) $ and $ M_1 $ and $ M'_1 $ matrices belonging to $ S_1 $ (resp. $ T_1 $).
+The set $S'$ (resp. $T'$) of matrices in $S$ (resp. $T$) whose diagonal elements are *invertible* is a multiplicative *group* of matrices called the *upper* (resp. *lower*) *total triangular group*, this follows immediately from \S 1, no. 11, *Remark* 5. The set $S_1$ (resp. $T_1$) of matrices in $S$ (resp. $T$) whose diagonal elements are all equal to 1 is a *subgroup* of the above group, called the *upper* (resp. *lower*) *strict triangular group*, and every matrix $M \in S'$ (resp. $M \in T'$) whose diagonal is $(d_i)$, may be written as $M = DM_1 = M'_1D$, where $D = \text{diag}(d_i)$ and $M_1$ and $M'_1$ matrices belonging to $S_1$ (resp. $T_1$).
 
-IV. *Diagonal and triangular matrices of matrices.* Let $ (I_k)_{1 \leq k \leq p} $ be a partition of the finite set $ \mathbf{I} $; every square matrix over a ring $ \mathbf{A} $ with indexing set $ \mathbf{I} $ can be written in the form of a *square matrix of matrices* corresponding to the same partition $(\mathbf{I}_k)$ of the indexing set of the rows and the indexing set of the columns (no. 5)
+IV. *Diagonal and triangular matrices of matrices.* Let $(I_k)_{1 \leq k \leq p}$ be a partition of the finite set $\mathbf{I}$; every square matrix over a ring $\mathbf{A}$ with indexing set $\mathbf{I}$ can be written in the form of a *square matrix of matrices* corresponding to the same partition $(\mathbf{I}_k)$ of the indexing set of the rows and the indexing set of the columns (no. 5)
 
 $$
 (32)
@@ -644,17 +644,17 @@ The transpose of the identity mapping $l_E$ is the identity mapping $l_{E^*}$; b
 
 #### Proposition 6 {#alg-ii-s10-prop-6 .statement}
 
-*Let E and F be two right A-modules, $(e_i)$ and $(e'_i)$ two bases of E* with $ n $ elements, $(f_j)$ and $(f'_j)$ two bases of $ F $ with $ m $ elements, $ P $ the matrix of passage from $(e_i)$ to $(e'_i)$ and $ Q $ the matrix of passage from $(f_j)$ to $(f'_j)$. For every linear mapping $ u $ of $ E $ into $ F $, let $ M(u) $ be the matrix of $ u $ with respect to the bases $(e_i)$ and $(f_j)$ and $ M'(u) $ the matrix of $ u $ with respect to the bases $(e'_i)$ and $(f'_j)$; then
+*Let E and F be two right A-modules, $(e_i)$ and $(e'_i)$ two bases of E* with $n$ elements, $(f_j)$ and $(f'_j)$ two bases of $F$ with $m$ elements, $P$ the matrix of passage from $(e_i)$ to $(e'_i)$ and $Q$ the matrix of passage from $(f_j)$ to $(f'_j)$. For every linear mapping $u$ of $E$ into $F$, let $M(u)$ be the matrix of $u$ with respect to the bases $(e_i)$ and $(f_j)$ and $M'(u)$ the matrix of $u$ with respect to the bases $(e'_i)$ and $(f'_j)$; then
 
 $$
 M'(u) = Q^{-1} M(u) P.
 $$
 
-We may write $ u = l_F \circ u \circ l_E $. Formula (33) follows immediately from no. 4, Corollary to Proposition 2 when the matrix of $ l_E $ is taken with respect to $(e'_i)$ and $(e_i)$, that of $ u $ with respect to $(e_i)$ and $(f_i)$ and that of $ l_F $ with respect to $(f_i)$ and $(f'_j)$.
+We may write $u = l_F \circ u \circ l_E$. Formula (33) follows immediately from no. 4, Corollary to Proposition 2 when the matrix of $l_E$ is taken with respect to $(e'_i)$ and $(e_i)$, that of $u$ with respect to $(e_i)$ and $(f_i)$ and that of $l_F$ with respect to $(f_i)$ and $(f'_j)$.
 
 #### Corollary 1 {#alg-ii-s10-prop-6-cor-1 .statement}
 
-*If $ u $ is an endomorphism of $ E $ and $ M(u) $ and $ M'(u) $ its matrices with respect to the bases $(e_i)$ and $(e'_i)$ respectively, then*
+*If $u$ is an endomorphism of $E$ and $M(u)$ and $M'(u)$ its matrices with respect to the bases $(e_i)$ and $(e'_i)$ respectively, then*
 
 $$
 M'(u) = P^{-1} M(u) P.
@@ -662,13 +662,13 @@ $$
 
 #### Corollary 2 {#alg-ii-s10-prop-6-cor-2 .statement}
 
-*If $ M(x) $ and $ M'(x) $ are the matrices with one column of the same element $ x \in E $ with respect to the bases $(e_i)$ and $(e'_i)$ respectively, then*
+*If $M(x)$ and $M'(x)$ are the matrices with one column of the same element $x \in E$ with respect to the bases $(e_i)$ and $(e'_i)$ respectively, then*
 
 $$
 M(x) = P . M'(x).
 $$
 
-This is a special case of Proposition 6, applied to the mapping $ \theta_x : a \mapsto xa $ of $ A_d $ to $ E $ (no. 4, *Remark 1*).
+This is a special case of Proposition 6, applied to the mapping $\theta_x : a \mapsto xa$ of $A_d$ to $E$ (no. 4, *Remark 1*).
 
 Formula (35) is equivalent to
 
@@ -676,11 +676,11 @@ $$
 x_i = \sum_{j=1}^n a_{ij} x'_j \quad (1 \leq i \leq n)
 $$
 
-for the elements $ x_i $ and $ x'_i $ of the matrices $ M(x) $ and $ M'(x) $ respectively. Formulae (36 D) are called *formulae of change of coordinates*. Observe that they express the components of $ x $ relative to the "old" basis $(e_i)$ as functions of the components of $ x $ relative to the "new" basis $(e'_i)$ and the elements of $ P $, that is the components of the "new" basis relative to the "old" basis.
+for the elements $x_i$ and $x'_i$ of the matrices $M(x)$ and $M'(x)$ respectively. Formulae (36 D) are called *formulae of change of coordinates*. Observe that they express the components of $x$ relative to the "old" basis $(e_i)$ as functions of the components of $x$ relative to the "new" basis $(e'_i)$ and the elements of $P$, that is the components of the "new" basis relative to the "old" basis.
 
 #### Remark {#alg-ii-s10-n8-rem-1 .statement}
 
-(1) We now start with a *left* $ A $-module $ E $ with two bases $(e_i), (e'_i)$, each with $ n $ elements; if we write $ e'_i = \sum_{j=1}^n a_{ji} e_i $, $ P = (a_{ji}) $ is also called the *matrix of passing* from $(e_i)$ to $(e'_i)$; it is also the matrix of the automorphism of $ E $ such that $ u(e_i) = e'_i $, with respect to the basis $(e_i)$ and also the matrix of $ l_E $ with respect to the bases $(e'_i)$ and $(e_i)$ *in that order*. The above results then hold with only the following modifications: formulae (33 D) to (36 D) are respectively replaced by
+(1) We now start with a *left* $A$-module $E$ with two bases $(e_i), (e'_i)$, each with $n$ elements; if we write $e'_i = \sum_{j=1}^n a_{ji} e_i$, $P = (a_{ji})$ is also called the *matrix of passing* from $(e_i)$ to $(e'_i)$; it is also the matrix of the automorphism of $E$ such that $u(e_i) = e'_i$, with respect to the basis $(e_i)$ and also the matrix of $l_E$ with respect to the bases $(e'_i)$ and $(e_i)$ *in that order*. The above results then hold with only the following modifications: formulae (33 D) to (36 D) are respectively replaced by
 
 $$
 \begin{align*}
@@ -697,7 +697,7 @@ $$
 x_i = \sum_{j=1}^n x_j' a_{ij} \quad (1 \leq i \leq n).
 $$
 
-(2) Under the hypotheses of Proposition 4, consider an element $ x^* \in \mathbf{E}^* $; as the matrix of passage from $(e_i^*)$ to $(e_{i'}^*)$ is $ tP^{-1} $ (Proposition 5), for the matrices $ M(x^*) $ and $ M'(x^*) $ of $ x^* $ with respect to these two bases respectively,
+(2) Under the hypotheses of Proposition 4, consider an element $x^* \in \mathbf{E}^*$; as the matrix of passage from $(e_i^*)$ to $(e_{i'}^*)$ is $tP^{-1}$ (Proposition 5), for the matrices $M(x^*)$ and $M'(x^*)$ of $x^*$ with respect to these two bases respectively,
 
 $$
 tM(x^*) = tM'(x^*) . P^{-1}
@@ -717,7 +717,7 @@ $$
 x_{i'}^* = \sum_{j=1}^n x_j^* a_{ji} \quad (1 \leq i \leq n)
 $$
 
-for the elements $(x_i^*)$ and $(x_{i'}^*)$ of the matrices $ M(x^*) $ and $ M'(x^*) $. The corresponding formulae for a left A-module E are
+for the elements $(x_i^*)$ and $(x_{i'}^*)$ of the matrices $M(x^*)$ and $M'(x^*)$. The corresponding formulae for a left A-module E are
 
 (37 G)
 $$
@@ -729,9 +729,9 @@ $$
 x_{i'}^* = \sum_{j=1}^n a_{ji} x_j^* \quad (1 \leq i \leq n).
 $$
 
-(3) Let A, B be two rings, $ \sigma : A \to B $ a homomorphism of A into B, E a right (resp. left) A-module, $(e_i)$, $(e_i')$ two bases with $ n $ elements of E, F a right (resp. left) B-module, $(f_j)$, $(f_j')$ two bases with $ m $ elements of F and $ P $ (resp. $ Q $) the matrix of passage from $(e_i)$ to $(e_i')$ (resp. from $(f_j)$ to $(f_j')$).
+(3) Let A, B be two rings, $\sigma : A \to B$ a homomorphism of A into B, E a right (resp. left) A-module, $(e_i)$, $(e_i')$ two bases with $n$ elements of E, F a right (resp. left) B-module, $(f_j)$, $(f_j')$ two bases with $m$ elements of F and $P$ (resp. $Q$) the matrix of passage from $(e_i)$ to $(e_i')$ (resp. from $(f_j)$ to $(f_j')$).
 
-For every semi-linear mapping $ u : E \to F $, relative to $ \sigma $, let $ M(u) $ be the matrix of $ u $ with respect to $(e_i)$ and $(f_j)$ and $ M'(u) $ its matrix with respect to $(e_i')$ and $(f_j')$. Then
+For every semi-linear mapping $u : E \to F$, relative to $\sigma$, let $M(u)$ be the matrix of $u$ with respect to $(e_i)$ and $(f_j)$ and $M'(u)$ its matrix with respect to $(e_i')$ and $(f_j')$. Then
 
 (39 D)
 $$
@@ -749,34 +749,34 @@ The proof is the same as that for (33 D) and (33 G), this time using formulae (2
 
 #### Definition 5 {#alg-ii-s10-def-5 .statement}
 
-*Two matrices* $ X, X' $ *with m rows and n columns over a ring are called equivalent if there exists an invertible square matrix* $ P $ *of order m and an invertible square matrix* $ Q $ *of order n such that*
+*Two matrices* $X, X'$ *with m rows and n columns over a ring are called equivalent if there exists an invertible square matrix* $P$ *of order m and an invertible square matrix* $Q$ *of order n such that*
 
 (40)
 $$
 X' = PXQ.
 $$
 
-Clearly the relation "X and X' are equivalent" is an equivalence relation (Set Theory, II, § 6, no. 1) on the set $ A^{mn} $ of matrices of type $(m, n)$ over A, which justifies the terminology.
+Clearly the relation "X and X' are equivalent" is an equivalence relation (Set Theory, II, § 6, no. 1) on the set $A^{mn}$ of matrices of type $(m, n)$ over A, which justifies the terminology.
 
-With this definition, Proposition 6 of no. 8 can be stated by saying that when the bases are changed in two right A-modules E, F (with finite bases), the matrix of a linear mapping $ u : E \to F $ with respect to the new bases is equivalent to the matrix of $ u $ with respect to the old bases.
+With this definition, Proposition 6 of no. 8 can be stated by saying that when the bases are changed in two right A-modules E, F (with finite bases), the matrix of a linear mapping $u : E \to F$ with respect to the new bases is equivalent to the matrix of $u$ with respect to the old bases.
 
-Conversely, if relation (40) holds and $ u : A_d^n \to A_d^m $ is a linear mapping whose matrix is $ X $ with respect to the respective canonical bases $(e_i)$ and $(f_j)$ of $ A_d^n $ and $ A_d^m $, then $ X' $ is the matrix of $ u $ with respect to the bases $(e'_i)$ and $(f'_j)$ such that $ Q $ is the matrix of passage from $(e_i)$ to $(e'_i)$ and $ P^{-1} $ the matrix of passage from $(f_j)$ to $(f'_j)$.
+Conversely, if relation (40) holds and $u : A_d^n \to A_d^m$ is a linear mapping whose matrix is $X$ with respect to the respective canonical bases $(e_i)$ and $(f_j)$ of $A_d^n$ and $A_d^m$, then $X'$ is the matrix of $u$ with respect to the bases $(e'_i)$ and $(f'_j)$ such that $Q$ is the matrix of passage from $(e_i)$ to $(e'_i)$ and $P^{-1}$ the matrix of passage from $(f_j)$ to $(f'_j)$.
 
-Examples of equivalent matrices. (1) Two matrices $ X = (x_{ij}) $ and $ X' = (x'_{ij}) $ with $ m $ rows and $ n $ columns "differ only in the order of their rows" if there exists a permutation $ \sigma $ of the interval $[1, m]$ of $ \mathbf{N} $, such that for every ordered pair of indices $(i, j)$, $ x'_{ij} = x_{\sigma(i), j} $ (we also say that $ X' $ is obtained by performing the permutation $ \sigma^{-1} $ on the rows of $ X $). The matrices $ X $ and $ X' $ are then equivalent, for $ X' = PX $, where $ P $ is the matrix of the permutation $ \sigma^{-1} $ (cf. no. 7, Example II).
+Examples of equivalent matrices. (1) Two matrices $X = (x_{ij})$ and $X' = (x'_{ij})$ with $m$ rows and $n$ columns "differ only in the order of their rows" if there exists a permutation $\sigma$ of the interval $[1, m]$ of $\mathbf{N}$, such that for every ordered pair of indices $(i, j)$, $x'_{ij} = x_{\sigma(i), j}$ (we also say that $X'$ is obtained by performing the permutation $\sigma^{-1}$ on the rows of $X$). The matrices $X$ and $X'$ are then equivalent, for $X' = PX$, where $P$ is the matrix of the permutation $\sigma^{-1}$ (cf. no. 7, Example II).
 
-Similarly $ X $ and $ X' $ are said to differ only in the order of their columns if there exists a permutation $ \tau $ of $[1, n]$ such that $ x'_{ij} = x_{i, \tau(j)} $ for every ordered pair of indices $(i, j)$, $ X $ and $ X' $ are also equivalent, for $ X' = XQ $ where $ Q $ is the matrix of the permutation $ \tau $.
+Similarly $X$ and $X'$ are said to differ only in the order of their columns if there exists a permutation $\tau$ of $[1, n]$ such that $x'_{ij} = x_{i, \tau(j)}$ for every ordered pair of indices $(i, j)$, $X$ and $X'$ are also equivalent, for $X' = XQ$ where $Q$ is the matrix of the permutation $\tau$.
 
-Note that in the above notation $ P $ is the matrix of passage from a basis $(f_j)_{1 \leq j \leq m}$ to the basis $(f_{\sigma^{-1}(j)})_{1 \leq j \leq m}$ and $ Q $ the matrix of passage from a basis $(e_i)_{1 \leq i \leq n}$ to the basis $(e_{\tau(i)})_{1 \leq i \leq n}$.
+Note that in the above notation $P$ is the matrix of passage from a basis $(f_j)_{1 \leq j \leq m}$ to the basis $(f_{\sigma^{-1}(j)})_{1 \leq j \leq m}$ and $Q$ the matrix of passage from a basis $(e_i)_{1 \leq i \leq n}$ to the basis $(e_{\tau(i)})_{1 \leq i \leq n}$.
 
-(2) Let $ j, k $ be distinct elements of $[1, n]$ and let $ a \in A $.
+(2) Let $j, k$ be distinct elements of $[1, n]$ and let $a \in A$.
 
-Suppose that for $ 1 \leq i \leq m $, $ x'_{ij} = x_{ij} + x_{ik}a $ and $ x'_{il} = x_{il} $ for $ j \neq l $ and $ 1 \leq i \leq m $; $ X' $ is said to be derived from $ X $ by adding to the column of $ X $ of index $ j $ the column of index $ k $ multiplied on the right by $ a $. In this case $ X $ and $ X' $ are also equivalent: for if $ Q = I_n + aE_{kj} $ (an invertible triangular matrix, as seen in no. 7), then $ X' = XQ $.
+Suppose that for $1 \leq i \leq m$, $x'_{ij} = x_{ij} + x_{ik}a$ and $x'_{il} = x_{il}$ for $j \neq l$ and $1 \leq i \leq m$; $X'$ is said to be derived from $X$ by adding to the column of $X$ of index $j$ the column of index $k$ multiplied on the right by $a$. In this case $X$ and $X'$ are also equivalent: for if $Q = I_n + aE_{kj}$ (an invertible triangular matrix, as seen in no. 7), then $X' = XQ$.
 
-Similarly, let $ h, i $ be two distinct elements of $[1, m]$ and $ a $ an element of $ A $; if $ X' $ is derived from $ X $ by adding to the row of $ X $ of index $ i $ the row of index $ h $ multiplied on the left by $ a $, $ X $ and $ X' $ are equivalent, for $ X' = PX $, where $ P = I_m + aE_{ih} $.
+Similarly, let $h, i$ be two distinct elements of $[1, m]$ and $a$ an element of $A$; if $X'$ is derived from $X$ by adding to the row of $X$ of index $i$ the row of index $h$ multiplied on the left by $a$, $X$ and $X'$ are equivalent, for $X' = PX$, where $P = I_m + aE_{ih}$.
 
-(3) Finally, if, for a given index $ j $, $ x'_{ij} = x_{ij}c $ for $ 1 \leq i \leq m $, where $ c $ is invertible and $ x'_{il} = x_{il} $ for $ 1 \leq i \leq m $ and $ l \neq j $, $ X $ and $ X' $ are equivalent; for $ X' = XQ $, where $ Q $ is the matrix $ \operatorname{diag}(a_k) $ with $ a_j = c $, $ a_k = 1 $ for $ k \neq j $. Then $ X' $ is said to be derived from $ X $ by multiplying the column of $ X $ of index $ j $ on the right by $ a $.
+(3) Finally, if, for a given index $j$, $x'_{ij} = x_{ij}c$ for $1 \leq i \leq m$, where $c$ is invertible and $x'_{il} = x_{il}$ for $1 \leq i \leq m$ and $l \neq j$, $X$ and $X'$ are equivalent; for $X' = XQ$, where $Q$ is the matrix $\operatorname{diag}(a_k)$ with $a_j = c$, $a_k = 1$ for $k \neq j$. Then $X'$ is said to be derived from $X$ by multiplying the column of $X$ of index $j$ on the right by $a$.
 
-Similarly, if $ X' $ is derived from $ X' $ by multiplying the row of $ X $ of index $ i $ on the left by an invertible element $ c \in A $, $ X' $ and $ X $ are equivalent, for $ X' = PX $ where $ P $ is the matrix $ \operatorname{diag}(b_h) $ with $ b_i = c $, $ b_h = 1 $ for $ h \neq i $.
+Similarly, if $X'$ is derived from $X'$ by multiplying the row of $X$ of index $i$ on the left by an invertible element $c \in A$, $X'$ and $X$ are equivalent, for $X' = PX$ where $P$ is the matrix $\operatorname{diag}(b_h)$ with $b_i = c$, $b_h = 1$ for $h \neq i$.
 
 #### Definition 6 {#alg-ii-s10-def-6 .statement}
 
@@ -878,7 +878,7 @@ $$(A \otimes B)^{-1} = (A^{-1}) \otimes (B^{-1}).$$
 
 Let $(e'_\lambda)_{\lambda \in L}$ be another basis of $E$ and $(f'_\mu)_{\mu \in M}$ another basis of $F$; if $P$ is the matrix of passage from the basis $(e_\lambda)$ to the basis $(e'_\lambda)$ and $Q$ the matrix of passage from the basis $(f_\mu)$ to the basis $(f'_\mu)$, the matrix of passage from the basis $(e_\lambda \otimes f_\mu)$ to the basis $(e'_\lambda \otimes f'_\mu)$ is $P \otimes Q$. If $A'$ is *equivalent* (resp. *similar*) to $A$ and $B'$ *equivalent* (resp. *similar*) to $B$, then $A' \otimes B'$ is *equivalent* (resp. *similar*) to $A \otimes B$.
 
-The definition of tensor product of matrices can be generalized in an obvious way to an arbitrary finite number of matrices over $ \mathbf{C} $; in particular we have the associativity formula
+The definition of tensor product of matrices can be generalized in an obvious way to an arbitrary finite number of matrices over $\mathbf{C}$; in particular we have the associativity formula
 
 $$
 \left( \bigotimes_{i \in I_1} X_i \right) \otimes \left( \bigotimes_{i \in I_2} X_i \right) = \bigotimes_{i \in I} X_i
@@ -930,35 +930,35 @@ by (49). The latter formula proves moreover:
 
 *If $g$ is a linear form on the $C$-module $\mathbf{M}_n(C)$ such that $g(XY) = g(YX)$ for all matrices $X, Y$ in $\mathbf{M}_n(C)$, there exists one and only one scalar $c \in C$ such that $g(X) = c \cdot \operatorname{Tr}(X)$ for every matrix $X \in \mathbf{M}_n(C)$.*
 
-Since the proposition is trivial for $n = 1$, attention may be confined to the case where $ n \geqslant 2 $. Taking $ X = E_{ij},\ Y = E_{jk} $ with $ i \neq k $, we obtain $ g(E_{ik}) = 0 $; then taking $ X = E_{ij},\ Y = E_{ji} $ with $ i \neq j $, we find $ g(E_{ii}) = g(E_{jj}) $; the proposition follows immediately since the $ E_{ij} $ form a basis of $ \mathbf{M}_n(\mathbf{C}) $.
+Since the proposition is trivial for $n = 1$, attention may be confined to the case where $n \geqslant 2$. Taking $X = E_{ij},\ Y = E_{jk}$ with $i \neq k$, we obtain $g(E_{ik}) = 0$; then taking $X = E_{ij},\ Y = E_{ji}$ with $i \neq j$, we find $g(E_{ii}) = g(E_{jj})$; the proposition follows immediately since the $E_{ij}$ form a basis of $\mathbf{M}_n(\mathbf{C})$.
 
 ### 12. MATRICES OVER A FIELD
 
-The finite matrices with $ m $ rows and $ n $ columns over a field $ K $ are in one-to-one correspondence with the linear mappings of the right vector space $ E = K_d^n $ into the right vector space $ K_d^m $ when the matrices of these mappings are taken with respect to the canonical bases of $ E $ and $ F $. By definition, the *rank* of such a matrix $ X $ is the rank of the linear mapping $ u : E \to F $ corresponding to it; as this number is by definition the dimension of the subspace $ u(E) $ of $ F $, it amounts to the same (identifying the columns of $ X $ with the images under $ u $ of the canonical basis of $ E $) to give the following definition:
+The finite matrices with $m$ rows and $n$ columns over a field $K$ are in one-to-one correspondence with the linear mappings of the right vector space $E = K_d^n$ into the right vector space $K_d^m$ when the matrices of these mappings are taken with respect to the canonical bases of $E$ and $F$. By definition, the *rank* of such a matrix $X$ is the rank of the linear mapping $u : E \to F$ corresponding to it; as this number is by definition the dimension of the subspace $u(E)$ of $F$, it amounts to the same (identifying the columns of $X$ with the images under $u$ of the canonical basis of $E$) to give the following definition:
 
 #### Definition 7 {#alg-ii-s10-def-7 .statement}
 
-*Given a matrix $ X $ with $ m $ rows and $ n $ columns over a field $ K $, the dimension of the subspace of $ K_d^m $ generated by the $ n $ columns of $ X $ is called the rank of $ X $ with respect to $ K $ and denoted by $ \operatorname{rg}(X) $.*
+*Given a matrix $X$ with $m$ rows and $n$ columns over a field $K$, the dimension of the subspace of $K_d^m$ generated by the $n$ columns of $X$ is called the rank of $X$ with respect to $K$ and denoted by $\operatorname{rg}(X)$.*
 
-It can also be said that the rank of $ X $ is the *maximum number of linearly independent columns of $ X $* (as elements of $ K_d^m $). Obviously $ \operatorname{rg}(X) \leqslant \inf(m, n) $; for every submatrix $ Y $ of $ X $, $ \operatorname{rg}(Y) \leqslant \operatorname{rg}(X) $.
+It can also be said that the rank of $X$ is the *maximum number of linearly independent columns of $X$* (as elements of $K_d^m$). Obviously $\operatorname{rg}(X) \leqslant \inf(m, n)$; for every submatrix $Y$ of $X$, $\operatorname{rg}(Y) \leqslant \operatorname{rg}(X)$.
 
-If $ E $ and $ F $ are two finite-dimensional vector spaces over $ K $ and $ u $ a linear mapping of $ E $ into $ F $, the rank of the matrix $ M(u) $ with respect to any two bases is equal to the rank of $ u $.
+If $E$ and $F$ are two finite-dimensional vector spaces over $K$ and $u$ a linear mapping of $E$ into $F$, the rank of the matrix $M(u)$ with respect to any two bases is equal to the rank of $u$.
 
 #### Proposition 9 {#alg-ii-s10-prop-9 .statement}
 
-*If the elements of a matrix $ X $ with $ m $ rows and $ n $ columns belong to a subfield $ K_0 $ of a field $ K $, the rank of $ X $ with respect to $ K_0 $ is equal to the rank of $ X $ with respect to $ K $.*
+*If the elements of a matrix $X$ with $m$ rows and $n$ columns belong to a subfield $K_0$ of a field $K$, the rank of $X$ with respect to $K_0$ is equal to the rank of $X$ with respect to $K$.*
 
-Let $ F_0 $ be the right vector $ K_0 $-space generated by the canonical basis of the right vector $ K $-space $ E = K_d^m $; by hypothesis the columns of $ X $ belong to $ E_0 $. Let $ V_0 $ (resp. $ V $) be the vector sub-$ K_0 $-space of $ F_0 $ (resp. the vector sub-$ K $-space of $ E $) generated by these columns. Then $ V = V_0 \otimes_{K_0} K $ (\S 8, no. 2, Proposition 2) and hence $ \dim_K V = \dim_{K_0} V_0 $.
+Let $F_0$ be the right vector $K_0$-space generated by the canonical basis of the right vector $K$-space $E = K_d^m$; by hypothesis the columns of $X$ belong to $E_0$. Let $V_0$ (resp. $V$) be the vector sub-$K_0$-space of $F_0$ (resp. the vector sub-$K$-space of $E$) generated by these columns. Then $V = V_0 \otimes_{K_0} K$ (\S 8, no. 2, Proposition 2) and hence $\dim_K V = \dim_{K_0} V_0$.
 
 #### Proposition 10 {#alg-ii-s10-prop-10 .statement}
 
-*The rank of a matrix $ X $ over a field $ K $ is equal to the rank of its transpose $ {}^t X $ over the opposite field $ K^0 $.*
+*The rank of a matrix $X$ over a field $K$ is equal to the rank of its transpose ${}^t X$ over the opposite field $K^0$.*
 
-In the notation introduced before Definition 7, the rank of $ u $ is equal to that of $ {}^t u $ (\S 7, no. 5, Proposition 10) and the proposition therefore follows from no. 4, Proposition 3.
+In the notation introduced before Definition 7, the rank of $u$ is equal to that of ${}^t u$ (\S 7, no. 5, Proposition 10) and the proposition therefore follows from no. 4, Proposition 3.
 
-It is thus seen that the rank of $ X $ can also be defined as the *maximum number of linearly independent rows of $ X $* (considering them as elements of the left vector $ K $-space $ K_s^n $).
+It is thus seen that the rank of $X$ can also be defined as the *maximum number of linearly independent rows of $X$* (considering them as elements of the left vector $K$-space $K_s^n$).
 
-The square matrices of order $ n $ over a field $ K $ correspond bijectively with the endomorphisms of $ E = K_d^n $ and form a ring isomorphic to the ring
+The square matrices of order $n$ over a field $K$ correspond bijectively with the endomorphisms of $E = K_d^n$ and form a ring isomorphic to the ring
 
 End$_{\mathbf{K}}$ (E) (no. 7); corresponding to the automorphisms of E are the invertible square matrices.
 
@@ -966,9 +966,9 @@ End$_{\mathbf{K}}$ (E) (no. 7); corresponding to the automorphisms of E are the 
 
 *Let X be a square matrix of order n over a field K. The following properties are equivalent:*
 
-(a) *X is invertible in $ \mathbf{M}_n(\mathbf{K}) $.*
-(b) *X is right invertible in $ \mathbf{M}_n(\mathbf{K}) $.*
-(c) *X is left invertible in $ \mathbf{M}_n(\mathbf{K}) $.*
+(a) *X is invertible in $\mathbf{M}_n(\mathbf{K})$.*
+(b) *X is right invertible in $\mathbf{M}_n(\mathbf{K})$.*
+(c) *X is left invertible in $\mathbf{M}_n(\mathbf{K})$.*
 (d) *X is of rank n.*
 
 This is just a translation of § 7, no. 4, Corollary to Proposition 9.
@@ -981,7 +981,7 @@ $$
 \sum_{j=1}^n a_{ij} x_j = b_i \quad (1 \leq i \leq m)
 $$
 
-*over a field K to have at least one solution, it is necessary and sufficient that the matrix $ A = (a_{ij}) $ of the system and the matrix B, obtained by bordering A with an $(n+1)$-th column equal to $(b_i)$, be matrices of the same rank.*
+*over a field K to have at least one solution, it is necessary and sufficient that the matrix $A = (a_{ij})$ of the system and the matrix B, obtained by bordering A with an $(n+1)$-th column equal to $(b_i)$, be matrices of the same rank.*
 
 It has been seen (no. 4) that the existence of a solution of (54) is equivalent to the fact that the column $(b_i)$ is a linear combination of the columns of $A$ and the proposition therefore follows from § 7, no. 3, Corollary 4 to Proposition 4.
 
@@ -1089,21 +1089,21 @@ It has been seen (no. 9) that the right (resp. left) product of a matrix by the 
 
 #### Remark {#alg-ii-s10-n13-rem-1 .statement}
 
-(1) In Chapter III, we shall see that, if $ m = n = r $ and $ K $ is *commutative*, then, for all choices of $ P $ and $ Q $ satisfying the conditions of Proposition 14, the element $ \delta_r $ is always the same and equal to the *determinant* of $ X $ (III, § 8, no. 6).
+(1) In Chapter III, we shall see that, if $m = n = r$ and $K$ is *commutative*, then, for all choices of $P$ and $Q$ satisfying the conditions of Proposition 14, the element $\delta_r$ is always the same and equal to the *determinant* of $X$ (III, § 8, no. 6).
 
-(2) The argument of Proposition 14, slightly modified, shows that there is a permutation matrix $ R $ such that (with the same conditions on $ P $)
+(2) The argument of Proposition 14, slightly modified, shows that there is a permutation matrix $R$ such that (with the same conditions on $P$)
 
 $$
 PX R = \begin{pmatrix} I_r & N \\ 0 & 0 \end{pmatrix}
 $$
 
-if $ m = n = r $ does not hold, and
+if $m = n = r$ does not hold, and
 
 $$
 PX R = \operatorname{diag}(1, \ldots, 1, \delta)
 $$
 
-otherwise. Observe also that the method of proof gives an explicit determination of the matrices $ P, Q, R $ when $ X $ is given explicitly.
+otherwise. Observe also that the method of proof gives an explicit determination of the matrices $P, Q, R$ when $X$ is given explicitly.
 
 ### Exercises {#alg-ii-s10-exercises}
 

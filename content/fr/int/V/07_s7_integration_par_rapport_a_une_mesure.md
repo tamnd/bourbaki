@@ -20,14 +20,14 @@ subsections:
       pdf_page: 89
 statements: 20
 exercises: 11
-content_sha256: d84ab1ef16df49f8161c815ab2cebe85a55ecbdee4b03955ed78a0fa77c73263
+content_sha256: 13551fa93863664d5230447509c30b7687fc6e4a5a5f0eb5bbe2e41d2a548817
 ---
 
 ## § 7. Intégration par rapport à une mesure induite
 
 ### 1. Intégration par rapport à une mesure induite
 
-Soient X un sous-espace localement compact de T, $ \mu $ une mesure positive sur T, $ \mu_X $ la mesure induite sur X par $ \mu $ (chap. IV, 2e éd., § 5, n° 7). Pour tout $ t \in T $, définissons une mesure $ \lambda_t $ sur X de la façon suivante : $ \lambda_t = \varepsilon_t $ si $ t \in T $, $ \lambda_t = 0 $ si $ t \in \mathbf{C}X $. Pour toute fonction numérique finie $ g $ définie dans $ X $, on a $ \int g(x)\ d\lambda_t(x) = g(t) $ si $ t \in X $ et $ \int g(x)\ d\lambda_t(x) = 0 $ si $ t \in \mathbf{C}X $. Si $ g $ est une fonction de $ \mathscr{H}(X) $, on a donc, par définition de $ \mu_X $
+Soient X un sous-espace localement compact de T, $\mu$ une mesure positive sur T, $\mu_X$ la mesure induite sur X par $\mu$ (chap. IV, 2e éd., § 5, n° 7). Pour tout $t \in T$, définissons une mesure $\lambda_t$ sur X de la façon suivante : $\lambda_t = \varepsilon_t$ si $t \in T$, $\lambda_t = 0$ si $t \in \mathbf{C}X$. Pour toute fonction numérique finie $g$ définie dans $X$, on a $\int g(x)\ d\lambda_t(x) = g(t)$ si $t \in X$ et $\int g(x)\ d\lambda_t(x) = 0$ si $t \in \mathbf{C}X$. Si $g$ est une fonction de $\mathscr{H}(X)$, on a donc, par définition de $\mu_X$
 
 (1)
 $$
@@ -40,74 +40,74 @@ Cela signifie que l’on peut écrire
 $$
 \mu_X = \int \lambda_t\ d\mu(t)
 $$
-($ \S 3, n^\circ 1 $).
+($\S 3, n^\circ 1$).
 
-Définissons maintenant une application $ \pi $ de $ T $ dans $ X $ en posant $ \pi(t) = t $ pour $ t \in X $, et $ \pi(t) = t_0 $ pour $ t \in \mathbf{C}X $, $ t_0 $ étant un point arbitraire de $ X $; on peut écrire, pour tout $ t \in T $, $ \lambda_t = \varphi_X(t)\varepsilon_{\pi(t)} $. L’application $ \pi $ est $ \mu $-mesurable, car ses restrictions à $ X $ et à $ \mathbf{C}X $ le sont (chap. IV, 2e éd., $ \S 5 $, $ n^\circ 10 $, prop. 16); il en résulte aussitôt que le couple $ (\pi, \varphi_X) $ est $ \mu $-adapté ($ \S 4, n^\circ 1 $). On a par conséquent les résultats suivants:
+Définissons maintenant une application $\pi$ de $T$ dans $X$ en posant $\pi(t) = t$ pour $t \in X$, et $\pi(t) = t_0$ pour $t \in \mathbf{C}X$, $t_0$ étant un point arbitraire de $X$; on peut écrire, pour tout $t \in T$, $\lambda_t = \varphi_X(t)\varepsilon_{\pi(t)}$. L’application $\pi$ est $\mu$-mesurable, car ses restrictions à $X$ et à $\mathbf{C}X$ le sont (chap. IV, 2e éd., $\S 5$, $n^\circ 10$, prop. 16); il en résulte aussitôt que le couple $(\pi, \varphi_X)$ est $\mu$-adapté ($\S 4, n^\circ 1$). On a par conséquent les résultats suivants:
 
 #### Proposition 1 {#int-v-s7-prop-1 .statement}
 
-*Pour toute fonction numérique $ g \geqslant 0 $ définie dans $ X $, on a*
+*Pour toute fonction numérique $g \geqslant 0$ définie dans $X$, on a*
 
 (3)
 $$
 \int^* g\ d\mu_X = \int_X^* g\ d\mu
 $$
-(cf. $ \S 5, n^\circ 3 $, *Exemple*, pour la notation $ \int_X^* $).
+(cf. $\S 5, n^\circ 3$, *Exemple*, pour la notation $\int_X^*$).
 
-Si on tient compte des remarques qui précèdent et de (2), la relation (3) résulte du th. 1 du $ \S 4 $.
+Si on tient compte des remarques qui précèdent et de (2), la relation (3) résulte du th. 1 du $\S 4$.
 
 #### Corollaire 1 {#int-v-s7-prop-1-cor-1 .statement}
 
-*Pour toute partie $ B $ de $ X $, on a $ \mu_X^*(B) = \mu^*(B) $; pour que $ B $ soit localement $ \mu_X $-négligeable, il faut et il suffit que $ B $ soit localement $ \mu $-négligeable.*
+*Pour toute partie $B$ de $X$, on a $\mu_X^*(B) = \mu^*(B)$; pour que $B$ soit localement $\mu_X$-négligeable, il faut et il suffit que $B$ soit localement $\mu$-négligeable.*
 
 #### Corollaire 2 {#int-v-s7-prop-1-cor-2 .statement}
 
-*Soit $ M $ une partie de $ T $. Si $ \mu $ est concentrée sur $ M $, $ \mu_X $ est concentrée sur $ M \cap X $.*
+*Soit $M$ une partie de $T$. Si $\mu$ est concentrée sur $M$, $\mu_X$ est concentrée sur $M \cap X$.*
 
 #### Corollaire 3 {#int-v-s7-prop-1-cor-3 .statement}
 
-*Pour que la mesure $ \mu_X $ soit nulle, il faut et il suffit que $ X $ soit localement $ \mu $-négligeable.*
+*Pour que la mesure $\mu_X$ soit nulle, il faut et il suffit que $X$ soit localement $\mu$-négligeable.*
 
 #### Remarque {#int-v-s7-n1-rem-1 .statement}
 
-Si $ S $ est le support de $ \mu $, $ S \cap X $ (qui est fermé dans $ X $) contient le support de $ \mu_X $ d’après le cor. 2, mais peut en être distinct. Par exemple, si $ \mu $ est une mesure diffuse et $ X $ un sous-espace réduit à un point, la mesure induite $ \mu_X $ est nulle, donc son support est vide. On notera cependant que le support de $ \mu_X $ est égal à $ S \cap X $ si $ X $ est ouvert dans $ T $.
+Si $S$ est le support de $\mu$, $S \cap X$ (qui est fermé dans $X$) contient le support de $\mu_X$ d’après le cor. 2, mais peut en être distinct. Par exemple, si $\mu$ est une mesure diffuse et $X$ un sous-espace réduit à un point, la mesure induite $\mu_X$ est nulle, donc son support est vide. On notera cependant que le support de $\mu_X$ est égal à $S \cap X$ si $X$ est ouvert dans $T$.
 
 #### Proposition 2 {#int-v-s7-prop-2 .statement}
 
-Pour qu’une application $ g $ de $ X $ dans un espace topologique soit $ \mu_X $-mesurable, il faut et il suffit que $ g $ soit $ \mu $-mesurable dans $ X $ ($ \S 5 $, no 3, Exemple).
-Cela résulte de la prop. 3 du $ \S 4 $.
+Pour qu’une application $g$ de $X$ dans un espace topologique soit $\mu_X$-mesurable, il faut et il suffit que $g$ soit $\mu$-mesurable dans $X$ ($\S 5$, no 3, Exemple).
+Cela résulte de la prop. 3 du $\S 4$.
 
 #### Corollaire {#int-v-s7-n1-cor-1 .statement}
 
-Pour qu’une partie $ B $ de $ X $ soit $ \mu_X $-mesurable, il faut et il suffit que $ B $ soit $ \mu $-mesurable.
+Pour qu’une partie $B$ de $X$ soit $\mu_X$-mesurable, il faut et il suffit que $B$ soit $\mu$-mesurable.
 
 #### Théorème 1 {#int-v-s7-thm-1 .statement}
 
-Soit $ g $ une fonction définie dans $ X $, à valeurs dans $ \bar{\mathbf{R}} $ ou dans un espace de Banach. Pour que $ g $ soit essentiellement $ \mu_X $-intégrable, il faut et il suffit que $ g $ soit essentiellement $ \mu $-intégrable dans $ X $ ($ \S 5 $, no 3, Exemple), et on a alors
+Soit $g$ une fonction définie dans $X$, à valeurs dans $\bar{\mathbf{R}}$ ou dans un espace de Banach. Pour que $g$ soit essentiellement $\mu_X$-intégrable, il faut et il suffit que $g$ soit essentiellement $\mu$-intégrable dans $X$ ($\S 5$, no 3, Exemple), et on a alors
 $$
 \int g\, d\mu_X = \int_X g\, d\mu.
 $$
-Cela résulte du th. 2 du $ \S 4 $.
+Cela résulte du th. 2 du $\S 4$.
 
 #### Corollaire 1 {#int-v-s7-thm-1-cor-1 .statement}
 
-Pour qu’une partie $ B $ de $ X $ soit essentiellement $ \mu_X $-intégrable, il faut et il suffit qu’elle soit essentiellement $ \mu $-intégrable, et on a $ \mu_X(B) = \mu(B) $.
+Pour qu’une partie $B$ de $X$ soit essentiellement $\mu_X$-intégrable, il faut et il suffit qu’elle soit essentiellement $\mu$-intégrable, et on a $\mu_X(B) = \mu(B)$.
 
 #### Corollaire 2 {#int-v-s7-thm-1-cor-2 .statement}
 
-Soit $ g $ une fonction complexe définie dans $ T $ et localement $ \mu $-intégrable; la restriction $ g_X $ de $ g $ à $ X $ est alors localement $ \mu_X $-intégrable, et on a
+Soit $g$ une fonction complexe définie dans $T$ et localement $\mu$-intégrable; la restriction $g_X$ de $g$ à $X$ est alors localement $\mu_X$-intégrable, et on a
 $$
 (g \cdot \mu)_X = g_X \cdot \mu_X
 $$
-Cela résulte aussitôt du th. 1, appliqué aux fonctions $ fg $ ($ f \in \mathcal{H}(T; \mathbf{C}) $) et de la définition de la mesure induite par une mesure complexe sur $ X $ (chap. IV, 2e éd., $ \S 5 $, no 7).
+Cela résulte aussitôt du th. 1, appliqué aux fonctions $fg$ ($f \in \mathcal{H}(T; \mathbf{C})$) et de la définition de la mesure induite par une mesure complexe sur $X$ (chap. IV, 2e éd., $\S 5$, no 7).
 
 #### Corollaire 3 {#int-v-s7-thm-1-cor-3 .statement}
 
-Soit $ \theta $ une mesure complexe sur $ T $; on a
+Soit $\theta$ une mesure complexe sur $T$; on a
 $$
 |\theta|_X = |\theta_X|
 $$
-Posons en effet $ |\theta| = \mu $, et appliquons le cor. 2 en prenant pour $ g $ une fonction complexe de valeur absolue 1 telle que $ \theta = g \cdot \mu $ ($ \S 5 $, no 5, cor. 3 du th. 2); il vient $ \theta_X = g_X \cdot \mu_X $; mais $ g_X $ est une fonction de valeur absolue 1, et la formule (6) résulte de la prop. 2 du $ \S 5 $, no 2.
+Posons en effet $|\theta| = \mu$, et appliquons le cor. 2 en prenant pour $g$ une fonction complexe de valeur absolue 1 telle que $\theta = g \cdot \mu$ ($\S 5$, no 5, cor. 3 du th. 2); il vient $\theta_X = g_X \cdot \mu_X$; mais $g_X$ est une fonction de valeur absolue 1, et la formule (6) résulte de la prop. 2 du $\S 5$, no 2.
 
 #### Remarque {#int-v-s7-n1-rem-2 .statement}
 
@@ -116,17 +116,17 @@ a) Le cor. 3 a déjà été démontré par une autre méthode (chap. IV, 2e éd.
 
 #### Scholie {#int-v-s7-n1-sch-1 .statement}
 
-Pour toute fonction f (resp. g) définie dans X (resp. dans T) à valeurs dans l’espace de Banach F ou dans $ \bar{\mathbf{R}} $, désignons par $ \zeta(f) $ (resp. par $ \rho(g) $) le prolongement par 0 de f à T (resp. la restriction de g à X). On a $ \zeta(\rho(g)) = \varphi_X \cdot g $, $ \rho(\zeta(f)) = f $. Désignons par $ \mu' $ la mesure $ \varphi_X \cdot \mu $ sur T. Pour tout $ p \in \{1, +\infty\} $, les propositions 1 et 2 entraînent que $ \zeta $ applique $ \mathcal{L}_F^p(X, \mu_X) $ dans $ \mathcal{L}_F^p(T, \mu') $, que $ \rho $ applique $ \mathcal{L}_F^p(T, \mu') $ sur $ \mathcal{L}_F^p(X, \mu_X) $, avec conservation de la norme dans les deux cas, et de l’intégrale pour $ p = 1 $ (th. 1); par passage aux espaces séparés associés, on obtient deux isomorphismes réciproques l’un de l’autre. De même, si l’on applique $ \zeta $ et $ \rho $ à des fonctions numériques positives, il y a conservation de l’intégrale supérieure essentielle (prop. 1). Si l’on convient donc d’identifier une fonction sur X à une fonction sur T nulle sur $ X - T $, et la mesure $ \mu_X $ à la mesure $ \mu' $, on ramène les problèmes concernant les mesures induites à des problèmes concernant les mesures définies par des densités, traités au § 5. Cette manière de raisonner s’applique d’ailleurs aussi aux mesures complexes, d’après le cor. 3 du th. 1.
+Pour toute fonction f (resp. g) définie dans X (resp. dans T) à valeurs dans l’espace de Banach F ou dans $\bar{\mathbf{R}}$, désignons par $\zeta(f)$ (resp. par $\rho(g)$) le prolongement par 0 de f à T (resp. la restriction de g à X). On a $\zeta(\rho(g)) = \varphi_X \cdot g$, $\rho(\zeta(f)) = f$. Désignons par $\mu'$ la mesure $\varphi_X \cdot \mu$ sur T. Pour tout $p \in \{1, +\infty\}$, les propositions 1 et 2 entraînent que $\zeta$ applique $\mathcal{L}_F^p(X, \mu_X)$ dans $\mathcal{L}_F^p(T, \mu')$, que $\rho$ applique $\mathcal{L}_F^p(T, \mu')$ sur $\mathcal{L}_F^p(X, \mu_X)$, avec conservation de la norme dans les deux cas, et de l’intégrale pour $p = 1$ (th. 1); par passage aux espaces séparés associés, on obtient deux isomorphismes réciproques l’un de l’autre. De même, si l’on applique $\zeta$ et $\rho$ à des fonctions numériques positives, il y a conservation de l’intégrale supérieure essentielle (prop. 1). Si l’on convient donc d’identifier une fonction sur X à une fonction sur T nulle sur $X - T$, et la mesure $\mu_X$ à la mesure $\mu'$, on ramène les problèmes concernant les mesures induites à des problèmes concernant les mesures définies par des densités, traités au § 5. Cette manière de raisonner s’applique d’ailleurs aussi aux mesures complexes, d’après le cor. 3 du th. 1.
 
 ### 2. Propriétés des mesures induites
 
 #### Proposition 3 {#int-v-s7-prop-3 .statement}
 
-Soient X un sous-espace localement compact de T, et $ \lambda $ une mesure complexe sur X. Les propriétés suivantes sont équivalentes:
-    a) l’injection canonique $ i : X \to T $ est $ \lambda $-propre;
-    b) pour tout compact K de T, $ K \cap X $ est essentiellement $ \lambda $-intégrable;
-    c) tout point $ t \in T $ admet un voisinage V tel que $ V \cap X $ soit essentiellement $ \lambda $-intégrable;
-    d) il existe une mesure $ \theta $ sur T telle que $ \theta_X = \lambda $.
+Soient X un sous-espace localement compact de T, et $\lambda$ une mesure complexe sur X. Les propriétés suivantes sont équivalentes:
+    a) l’injection canonique $i : X \to T$ est $\lambda$-propre;
+    b) pour tout compact K de T, $K \cap X$ est essentiellement $\lambda$-intégrable;
+    c) tout point $t \in T$ admet un voisinage V tel que $V \cap X$ soit essentiellement $\lambda$-intégrable;
+    d) il existe une mesure $\theta$ sur T telle que $\theta_X = \lambda$.
 Si ces conditions équivalentes sont satisfaites, on a avec la notation de d),
 
 $$

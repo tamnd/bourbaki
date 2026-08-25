@@ -29,7 +29,7 @@ subsections:
       pdf_page: 21
 statements: 27
 exercises: 15
-content_sha256: e0ef1dea62acfa098ff43f27c08d7c68d946cd36b611c5e4eeecd3ebc3b79305
+content_sha256: 17282e590bb755f6fa41762cabf7db35892d4909a26cc70d7142e328f29ef6d1
 ---
 
 ## § 2. VARIÉTÉS LINÉAIRES DANS UN ESPACE VECTORIEL TOPOLOGIQUE
@@ -50,7 +50,7 @@ En effet, toute translation étant un homéomorphisme de E, il suffit de démont
 
 En effet, l’adhérence d’un hyperplan homogène H ne peut être que H ou l’espace E tout entier, puisque c’est un sous-espace vectoriel contenant H (prop. 1).
 
-On voit donc que, pour qu’un hyperplan H soit fermé dans E, il faut et il suffit que $ \mathbf{C} \subset H $ contienne un point intérieur.
+On voit donc que, pour qu’un hyperplan H soit fermé dans E, il faut et il suffit que $\mathbf{C} \subset H$ contienne un point intérieur.
 
 Étant donnée une partie A d’un espace vectoriel topologique E, rappelons que le sous-espace vectoriel M engendré par A est l’ensemble des combinaisons linéaires des éléments de A (A, II, p. 16, prop. 9) ; l’adhérence de M dans E est, en vertu de la prop. 1, le plus petit sous-espace vectoriel fermé contenant A ; on dit que c’est le sous-espace vectoriel fermé engendré par A.
 
@@ -60,7 +60,7 @@ Dans un espace vectoriel topologique E, on dit qu’un ensemble A est total si l
 
 #### Exemple 1 {#evt-i-s2-n1-exa-1 .statement}
 
-Dans l’espace normé $ \mathcal{C}(I ; \mathbf{C}) $ (sur le corps $ \mathbf{C} $) des fonctions continues dans $ I = \{0, 1\} $, à valeurs dans $ \mathbf{C} $, les restrictions à I des monômes $ x^n $ ($ n \in \mathbf{N} $) forment un ensemble total, en vertu du th. de Weierstrass-Stone (TG, X, p. 36, th. 3). De même dans le sous-espace P de $ \mathcal{C}(I ; \mathbf{C}) $ formé des fonctions telles que $ f(0) = f(1) $, les restrictions à I des fonctions $ e^{2n\pi ix} $ ($ n \in \mathbf{Z} $) forment un ensemble total (TG, X, p. 40, prop. 8).
+Dans l’espace normé $\mathcal{C}(I ; \mathbf{C})$ (sur le corps $\mathbf{C}$) des fonctions continues dans $I = \{0, 1\}$, à valeurs dans $\mathbf{C}$, les restrictions à I des monômes $x^n$ ($n \in \mathbf{N}$) forment un ensemble total, en vertu du th. de Weierstrass-Stone (TG, X, p. 36, th. 3). De même dans le sous-espace P de $\mathcal{C}(I ; \mathbf{C})$ formé des fonctions telles que $f(0) = f(1)$, les restrictions à I des fonctions $e^{2n\pi ix}$ ($n \in \mathbf{Z}$) forment un ensemble total (TG, X, p. 40, prop. 8).
 
 #### Exemple 2 {#evt-i-s2-n1-exa-2 .statement}
 
@@ -68,11 +68,11 @@ Tout ensemble absorbant dans un espace vectoriel topologique E sur un corps valu
 
 #### Définition 2 {#evt-i-s2-def-2 .statement}
 
-Dans un espace vectoriel topologique E, on dit qu’une famille $ (a_\iota)_{\iota \in I} $ de points de E est topologiquement libre si, quel que soit $ \kappa \in I $, le sous-espace vectoriel fermé engendré par les $ a_\iota $ d’indice $ \iota \neq \kappa $ ne contient pas $ a_\kappa $.
+Dans un espace vectoriel topologique E, on dit qu’une famille $(a_\iota)_{\iota \in I}$ de points de E est topologiquement libre si, quel que soit $\kappa \in I$, le sous-espace vectoriel fermé engendré par les $a_\iota$ d’indice $\iota \neq \kappa$ ne contient pas $a_\kappa$.
 
 #### Exemple 3 {#evt-i-s2-n1-exa-3 .statement}
 
-Dans l’espace normé $ \mathcal{C}(I ; \mathbf{C}) $ des fonctions continues dans $ I = \{0, 1\} $, les restrictions à I des fonctions $ e^{2n\pi ix} $ ($ n \in \mathbf{Z} $) forment une famille topologiquement libre. En effet, pour tout $ n \in \mathbf{Z} $, si $ f(x) $ est une combinaison linéaire $ \sum_{k \neq n} c_k e^{2k\pi ix} $ (les $ c_k $ étant nuls sauf un nombre fini d’entre eux), on a
+Dans l’espace normé $\mathcal{C}(I ; \mathbf{C})$ des fonctions continues dans $I = \{0, 1\}$, les restrictions à I des fonctions $e^{2n\pi ix}$ ($n \in \mathbf{Z}$) forment une famille topologiquement libre. En effet, pour tout $n \in \mathbf{Z}$, si $f(x)$ est une combinaison linéaire $\sum_{k \neq n} c_k e^{2k\pi ix}$ (les $c_k$ étant nuls sauf un nombre fini d’entre eux), on a
 $$
 \int_0^1 |e^{2n\pi ix} - f(x)|^2 \, dx = 1 + \sum_{k \neq n} |c_k|^2 \geq 1
 $$
@@ -80,15 +80,15 @@ et a fortiori, en vertu du th. de la moyenne
 $$
 \sup_{x \in I} |e^{2n\pi ix} - f(x)| \geq 1
 $$
-ce qui prouve que $ e^{2n\pi ix} $ n’appartient pas au sous-espace vectoriel fermé de $ \mathcal{C}(I ; \mathbf{C}) $ engendré par les $ e^{2k\pi ix} $ d’indice $ k \neq n $.
+ce qui prouve que $e^{2n\pi ix}$ n’appartient pas au sous-espace vectoriel fermé de $\mathcal{C}(I ; \mathbf{C})$ engendré par les $e^{2k\pi ix}$ d’indice $k \neq n$.
 
-L’ensemble des éléments d’une famille topologiquement libre est appelé partie topologiquement libre de E. Toute partie d’une partie topologiquement libre est topologiquement libre ; toute partie réduite à un point $ x \neq 0 $ est topologiquement libre si l’espace E est séparé.
+L’ensemble des éléments d’une famille topologiquement libre est appelé partie topologiquement libre de E. Toute partie d’une partie topologiquement libre est topologiquement libre ; toute partie réduite à un point $x \neq 0$ est topologiquement libre si l’espace E est séparé.
 
 Une famille topologiquement libre est libre (au sens algébrique ; cf. A, II, p. 96, Remarque) ; mais la réciproque est inexacte.
 
 #### Exemple 4 {#evt-i-s2-n1-exa-4 .statement}
 
-Dans l’espace normé $ \mathcal{C}(I ; \mathbf{C}) $ des fonctions continues dans $ I = \{0, 1\} $, les restrictions à I des monômes $ x^n $ ($ n \in \mathbf{N} $) forment une famille libre au sens algébrique. Mais il existe une suite $ (p_n) $ de polynômes telle que $ p_n(x^2) $ converge uniformément vers x dans I (TG, X, p. 36, lemme 2), ce qui signifie que x appartient au sous-espace vectoriel fermé de $ \mathcal{C}(I ; \mathbf{C}) $ engendré par les monômes $ x^{2^n} $ ($ n \in \mathbf{N} $).
+Dans l’espace normé $\mathcal{C}(I ; \mathbf{C})$ des fonctions continues dans $I = \{0, 1\}$, les restrictions à I des monômes $x^n$ ($n \in \mathbf{N}$) forment une famille libre au sens algébrique. Mais il existe une suite $(p_n)$ de polynômes telle que $p_n(x^2)$ converge uniformément vers x dans I (TG, X, p. 36, lemme 2), ce qui signifie que x appartient au sous-espace vectoriel fermé de $\mathcal{C}(I ; \mathbf{C})$ engendré par les monômes $x^{2^n}$ ($n \in \mathbf{N}$).
 
 #### Remarque 1 {#evt-i-s2-n1-rem-1 .statement}
 
@@ -124,7 +124,7 @@ La condition est évidemment suffisante (TG, I, p. 9, th. 1); montrons qu’elle
 
 #### Corollaire {#evt-i-s2-n2-cor-1 .statement}
 
-Toute forme linéaire continue et non nulle sur E est un morphisme strict de E sur $ K_s $.
+Toute forme linéaire continue et non nulle sur E est un morphisme strict de E sur $K_s$.
 
 #### Remarque {#evt-i-s2-n2-rem-1 .statement}
 
@@ -134,9 +134,9 @@ On peut donner des exemples d’espaces vectoriels topologiques normés sur un c
 
 #### Théorème 2 {#evt-i-s2-thm-2 .statement}
 
-Tout espace vectoriel topologique séparé E de dimension finie n sur un corps valué complet et non discret K, est isomorphe à $ K_s^n $; de façon précise, pour toute base $ (e_i)_{1 \leq i \leq n} $ de E sur K, l’application linéaire $ (\xi_i) \mapsto \sum_{i=1}^n \xi_i e_i $ est un isomorphisme de $ K_s^n $ sur E.
+Tout espace vectoriel topologique séparé E de dimension finie n sur un corps valué complet et non discret K, est isomorphe à $K_s^n$; de façon précise, pour toute base $(e_i)_{1 \leq i \leq n}$ de E sur K, l’application linéaire $(\xi_i) \mapsto \sum_{i=1}^n \xi_i e_i$ est un isomorphisme de $K_s^n$ sur E.
 
-La prop. 2 de I, p. 13, entraîne que le th. 2 est vrai pour $ n = 1 $; raisonnons par récurrence sur n. Soit H le sous-espace vectoriel de E engendré par $ e_1, e_2, \ldots, e_{n-1} $; l’hypothèse de récurrence montre que l’application $ (\xi_i)_{1 \leq i \leq n-1} \mapsto \sum_{i=1}^{n-1} \xi_i e_i $ est un isomorphisme de $ K_s^{n-1} $ sur H. Le sous-espace H, isomorphe à un produit d’espaces complets, est complet (TG, II, p. 17, prop. 10) ; par suite, il est fermé dans E (TG, II, p. 16, prop. 8). Soit D le sous-espace Ke_n supplémentaire de H dans E ; E est somme directe topologique de H et de D (I, p. 13, cor. 2), donc l’application
+La prop. 2 de I, p. 13, entraîne que le th. 2 est vrai pour $n = 1$; raisonnons par récurrence sur n. Soit H le sous-espace vectoriel de E engendré par $e_1, e_2, \ldots, e_{n-1}$; l’hypothèse de récurrence montre que l’application $(\xi_i)_{1 \leq i \leq n-1} \mapsto \sum_{i=1}^{n-1} \xi_i e_i$ est un isomorphisme de $K_s^{n-1}$ sur H. Le sous-espace H, isomorphe à un produit d’espaces complets, est complet (TG, II, p. 17, prop. 10) ; par suite, il est fermé dans E (TG, II, p. 16, prop. 8). Soit D le sous-espace Ke_n supplémentaire de H dans E ; E est somme directe topologique de H et de D (I, p. 13, cor. 2), donc l’application
 
 $$
 (\xi_i)_{1 \leq i \leq n} \mapsto \sum_{i=1}^n \xi_i e_i \text{ de } K_s^{n-1} \times K_s
@@ -144,13 +144,13 @@ $$
 
 sur E est un isomorphisme.
 
-L’hypothèse que K est complet est essentielle pour la validité du th. 2 dès que $ n > 1 $. En effet, soit K un corps valué non complet, et soit $ \hat{K} $ son complété : pour tout élément $ a \neq 0 $ de $ \hat{K} $, $ K.a $ est partout dense dans $ \hat{K} $, puisque $ x \mapsto xa $ est un homéomorphisme de $ \hat{K} $ sur lui-même. Si $ a \notin K $, le sous-espace $ K + Ka $ de l’espace vectoriel topologique $ \hat{K} $ sur K, est de dimension 2 sur K, mais il n’est pas isomorphe à $ K_s^2 $, puisque tout sous-espace de dimension 1 dans $ K + Ka $ est dense dans $ K + Ka $.
+L’hypothèse que K est complet est essentielle pour la validité du th. 2 dès que $n > 1$. En effet, soit K un corps valué non complet, et soit $\hat{K}$ son complété : pour tout élément $a \neq 0$ de $\hat{K}$, $K.a$ est partout dense dans $\hat{K}$, puisque $x \mapsto xa$ est un homéomorphisme de $\hat{K}$ sur lui-même. Si $a \notin K$, le sous-espace $K + Ka$ de l’espace vectoriel topologique $\hat{K}$ sur K, est de dimension 2 sur K, mais il n’est pas isomorphe à $K_s^2$, puisque tout sous-espace de dimension 1 dans $K + Ka$ est dense dans $K + Ka$.
 
 #### Corollaire 1 {#evt-i-s2-thm-2-cor-1 .statement}
 
 Dans un espace vectoriel topologique séparé E sur un corps valué complet et non discret K, tout sous-espace vectoriel F de dimension finie est fermé dans E.
 
-En effet, si F est de dimension n, il est isomorphe à $ K_s^n $, donc complet, et par suite fermé dans E (TG, II, p. 16, prop. 8).
+En effet, si F est de dimension n, il est isomorphe à $K_s^n$, donc complet, et par suite fermé dans E (TG, II, p. 16, prop. 8).
 
 #### Corollaire 2 {#evt-i-s2-thm-2-cor-2 .statement}
 
@@ -164,7 +164,7 @@ Dans un espace vectoriel topologique séparé E sur un corps valué complet et n
 
 *Soit E un espace vectoriel topologique sur un corps valué complet non discret. Soient M un sous-espace vectoriel fermé de E, F un sous-espace vectoriel de dimension finie de E ; le sous-espace M + F est fermé dans E.*
 
-En effet, l’espace quotient E/M est séparé ; soit $ \varphi $ l’homomorphisme canonique de E sur E/M ; le sous-espace M + F est égal à $ \varphi^{-1}(\varphi(F)) $. Or, $ \varphi(F) $ est de dimension finie dans E/M, donc (cor. 1) $ \varphi(F) $ est fermé dans E/M, et par suite $ \varphi^{-1}(\varphi(F)) $ est fermé dans E.
+En effet, l’espace quotient E/M est séparé ; soit $\varphi$ l’homomorphisme canonique de E sur E/M ; le sous-espace M + F est égal à $\varphi^{-1}(\varphi(F))$. Or, $\varphi(F)$ est de dimension finie dans E/M, donc (cor. 1) $\varphi(F)$ est fermé dans E/M, et par suite $\varphi^{-1}(\varphi(F))$ est fermé dans E.
 
 On observera que, si M et N sont deux sous-espaces vectoriels fermés quelconques dans un espace vectoriel topologique séparé E, M + N n’est pas nécessairement fermé dans E, \* même si E est un espace hilbertien \* (cf. IV, p. 64, exerc. 13 d)).
 
@@ -180,7 +180,7 @@ En effet, dans N, l’ensemble réduit à 0 est fermé, étant l’intersection 
 
 #### Remarque {#evt-i-s2-n3-rem-1 .statement}
 
-Les résultats des nos 2 et 3 ne sont plus valables lorsque K est *discret*. Par exemple, soit $ K_1 $ un corps valué non discret, et soit K le corps discret obtenu en munissant $ K_1 $ de la valeur absolue impropre ; $ K_1 $ est un espace vectoriel topologique de dimension 1 sur K, mais n’est pas isomorphe à $ K_s $. Toutefois, on peut montrer que les résultats des nos 2 et 3 subsistent lorsque K est discret, pourvu qu’on impose aux espaces vectoriels topologiques considérés d’avoir un système fondamental de voisinages, *équilibrés* de 0 (c’est-à-dire ici de voisinages V tels que $ K.V = V $) (I, p. 28, exerc. 14) ; cette condition (qui est toujours remplie lorsque K est un corps valué non discret, cf. I, p. 7, prop. 4) ne l’est plus ici pour tous les espaces vectoriels topologiques sur K, comme le montre l’exemple précédent.
+Les résultats des nos 2 et 3 ne sont plus valables lorsque K est *discret*. Par exemple, soit $K_1$ un corps valué non discret, et soit K le corps discret obtenu en munissant $K_1$ de la valeur absolue impropre ; $K_1$ est un espace vectoriel topologique de dimension 1 sur K, mais n’est pas isomorphe à $K_s$. Toutefois, on peut montrer que les résultats des nos 2 et 3 subsistent lorsque K est discret, pourvu qu’on impose aux espaces vectoriels topologiques considérés d’avoir un système fondamental de voisinages, *équilibrés* de 0 (c’est-à-dire ici de voisinages V tels que $K.V = V$) (I, p. 28, exerc. 14) ; cette condition (qui est toujours remplie lorsque K est un corps valué non discret, cf. I, p. 7, prop. 4) ne l’est plus ici pour tous les espaces vectoriels topologiques sur K, comme le montre l’exemple précédent.
 
 ### 4. Espaces vectoriels topologiques localement compacts
 
@@ -188,27 +188,27 @@ Les résultats des nos 2 et 3 ne sont plus valables lorsque K est *discret*. Par
 
 *Soit K un corps valué complet non discret. Un espace vectoriel topologique séparé E sur K qui admet un voisinage de 0 précompact V est de dimension finie. Si E n’est pas réduit à 0, K et E sont alors localement compacts.*
 
-Pour démontrer la première assertion, on peut se borner au cas où E est *complet*, car E est un sous-espace partout dense de son complété $ \hat{E} $ et l’adhérence $ \overline{V} $ de V dans $ \hat{E} $ est compacte et est un voisinage de 0 dans $ \hat{E} $ (TG, III, p. 24, prop. 7).
+Pour démontrer la première assertion, on peut se borner au cas où E est *complet*, car E est un sous-espace partout dense de son complété $\hat{E}$ et l’adhérence $\overline{V}$ de V dans $\hat{E}$ est compacte et est un voisinage de 0 dans $\hat{E}$ (TG, III, p. 24, prop. 7).
 
-On peut donc supposer qu’il y a dans E un voisinage *compact* V de 0. Soit $ \alpha \in K $ tel que $ 0 < |\alpha| < 1 $ ; il y a donc des points $ a_i \in V $ en nombre fini tels que
+On peut donc supposer qu’il y a dans E un voisinage *compact* V de 0. Soit $\alpha \in K$ tel que $0 < |\alpha| < 1$ ; il y a donc des points $a_i \in V$ en nombre fini tels que
 
 $$
 V \subset \bigcup_i (a_i + \alpha V).
 $$
 
-Soit M le sous-espace (de dimension finie) de E engendré par les $ a_i $; il est fermé dans E (I, p. 14, cor. 1); dans l’espace vectoriel topologique séparé E/M, l’image canonique de V est un voisinage compact W de 0 tel que $ W \subset \alpha W $; ceci s’écrit encore $ \alpha^{-1}W \subset W $, d’où par récurrence sur $ n $, $ \alpha^{-n}W \subset W $ pour tout entier positif $ n $. Comme W est absorbant, on en déduit que $ W = E/M $; autrement dit E/M est *compact*. Pour prouver la première assertion, il suffit donc de démontrer le lemme suivant :
+Soit M le sous-espace (de dimension finie) de E engendré par les $a_i$; il est fermé dans E (I, p. 14, cor. 1); dans l’espace vectoriel topologique séparé E/M, l’image canonique de V est un voisinage compact W de 0 tel que $W \subset \alpha W$; ceci s’écrit encore $\alpha^{-1}W \subset W$, d’où par récurrence sur $n$, $\alpha^{-n}W \subset W$ pour tout entier positif $n$. Comme W est absorbant, on en déduit que $W = E/M$; autrement dit E/M est *compact*. Pour prouver la première assertion, il suffit donc de démontrer le lemme suivant :
 
 #### Lemme 1 {#evt-i-s2-lem-1 .statement}
 
 *Tout espace vectoriel topologique compact E sur un corps valué non discret est réduit à 0*.
 
-En effet, comme E est complet, on peut supposer qu’il en est de même de K (I, p. 6). Si E n’était pas réduit à 0, il contiendrait une droite, fermée dans E, donc compacte, et isomorphe à $ K_s $ (I, p. 14, cor. 1 et I, p. 13, prop. 2), et par suite K serait compact ; mais cela est absurde, car l’application $ \xi \mapsto |\xi| $ de K dans $ \mathbf{R} $ est continue, donc serait bornée, alors qu’il existe des $ \gamma \in K $ tels que $ |\gamma| > 1 $, donc tels que $ |\gamma^n| = |\gamma|^n $ soit arbitrairement grand.
+En effet, comme E est complet, on peut supposer qu’il en est de même de K (I, p. 6). Si E n’était pas réduit à 0, il contiendrait une droite, fermée dans E, donc compacte, et isomorphe à $K_s$ (I, p. 14, cor. 1 et I, p. 13, prop. 2), et par suite K serait compact ; mais cela est absurde, car l’application $\xi \mapsto |\xi|$ de K dans $\mathbf{R}$ est continue, donc serait bornée, alors qu’il existe des $\gamma \in K$ tels que $|\gamma| > 1$, donc tels que $|\gamma^n| = |\gamma|^n$ soit arbitrairement grand.
 
-Revenant au th. 3, on voit que si E admet un voisinage de 0 précompact et n’est pas réduit à 0, E est de dimension finie sur K, donc isomorphe à un espace $ K_s^n $ avec $ n > 0 $; comme K est complet, il en est de même de E, qui est donc localement compact. Puisque $ K_s $ est isomorphe à une droite de E (I, p. 13, prop. 2), nécessairement fermée dans E (I, p. 14, cor. 1), K est localement compact.
+Revenant au th. 3, on voit que si E admet un voisinage de 0 précompact et n’est pas réduit à 0, E est de dimension finie sur K, donc isomorphe à un espace $K_s^n$ avec $n > 0$; comme K est complet, il en est de même de E, qui est donc localement compact. Puisque $K_s$ est isomorphe à une droite de E (I, p. 13, prop. 2), nécessairement fermée dans E (I, p. 14, cor. 1), K est localement compact.
 
 #### Remarque {#evt-i-s2-n4-rem-1 .statement}
 
-La conclusion du th. 3 ne subsiste plus lorsque K est un corps discret, comme le montre l’exemple de $ \mathbf{R} $ (muni de la topologie usuelle) considéré comme espace vectoriel topologique sur le corps $ \mathbf{Q} $ discret.
+La conclusion du th. 3 ne subsiste plus lorsque K est un corps discret, comme le montre l’exemple de $\mathbf{R}$ (muni de la topologie usuelle) considéré comme espace vectoriel topologique sur le corps $\mathbf{Q}$ discret.
 
 ## EXERCICES {#evt-i-s2-exercises}
 

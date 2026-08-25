@@ -11,11 +11,11 @@ pdf_pages: 0025-0029, 0034-0034
 extraction: ocr
 subsections:
     - "no": 1
-      title: DEFINITION OF $ a^x $ AND $ \log_a x $
+      title: DEFINITION OF $a^x$ AND $\log_a x$
       page: 0
       pdf_page: 25
     - "no": 2
-      title: BEHAVIOUR OF THE FUNCTIONS $ a^x $ AND $ \log_a x $
+      title: BEHAVIOUR OF THE FUNCTIONS $a^x$ AND $\log_a x$
       page: 0
       pdf_page: 27
     - "no": 3
@@ -24,9 +24,9 @@ subsections:
       pdf_page: 28
 statements: 1
 exercises: 2
-content_sha256: 16792f5f71102a0b1040330e6532d504e908e24289a902e203926d40f71c2336
+content_sha256: fc106f1dcb0473b39d67fd01708a65547d8c4db88309b753602b49c3748812cc
 translated_from: content/en/top/V/04_s4_exponentials_and_logarithms.md
-source_content_sha256: c68940cee2128331ec6615f36d357b51c3b138ed4881abd37a7be6e09b4e5422
+source_content_sha256: 253a1c01cd6f9c44097f66ce6edc145a7650e56bfa06ec21ab22bc689a764fbb
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-04d8dc68
 glossary_version: 34
@@ -36,29 +36,29 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## 4. HÀM MŨ VÀ LOGARIT
 
-### 1. ĐỊNH NGHĨA CỦA $ a^x $ VÀ $ \log_a x $
+### 1. ĐỊNH NGHĨA CỦA $a^x$ VÀ $\log_a x$
 
 #### Định lý 1 {#top-v-s4-thm-1 .statement}
 
-*Nhóm nhân* $ \mathbf{R}_+^* $ *của các số thực* $ > 0 $ *là một nhóm tôpô đẳng cấu với nhóm cộng* $ \mathbf{R} $ *của các số thực*.
+*Nhóm nhân* $\mathbf{R}_+^*$ *của các số thực* $> 0$ *là một nhóm tôpô đẳng cấu với nhóm cộng* $\mathbf{R}$ *của các số thực*.
 
-Vì $ \mathbf{R}_+^* = ]0, +\infty[ $ là một khoảng mở của $ \mathbf{R} $ nên do đó *đồng phôi* với $ \mathbf{R} $ (chương IV, § 4, no. 1, Mệnh đề 1). Theo Định lý 2 của § 3, do đó nó là một nhóm tôpô *đẳng cấu* với $ \mathbf{R} $.
+Vì $\mathbf{R}_+^* = ]0, +\infty[$ là một khoảng mở của $\mathbf{R}$ nên do đó *đồng phôi* với $\mathbf{R}$ (chương IV, § 4, no. 1, Mệnh đề 1). Theo Định lý 2 của § 3, do đó nó là một nhóm tôpô *đẳng cấu* với $\mathbf{R}$.
 
-Theo Hệ quả của Mệnh đề 5 của § 1, no. 3, với mọi số $ a > 0 $ tồn tại duy nhất một đồng cấu liên tục $ f_a $ của $ \mathbf{R} $ vào $ \mathbf{R}_+^* $ sao cho $ f_a(1) = a $. Do đó, với mọi $ x \in \mathbf{R} $ và mọi $ y \in \mathbf{R} $ ta có
+Theo Hệ quả của Mệnh đề 5 của § 1, no. 3, với mọi số $a > 0$ tồn tại duy nhất một đồng cấu liên tục $f_a$ của $\mathbf{R}$ vào $\mathbf{R}_+^*$ sao cho $f_a(1) = a$. Do đó, với mọi $x \in \mathbf{R}$ và mọi $y \in \mathbf{R}$ ta có
 
 $$
 f_a(x + y) = f_a(x) f_a(y), \qquad f_a(-x) = \frac{1}{f_a(x)},
 $$
 
-và do đó, đặc biệt, với mọi $ n \in \mathbf{Z} $,
+và do đó, đặc biệt, với mọi $n \in \mathbf{Z}$,
 
 $$
 f_a(n) = a^n.
 $$
 
-Vì lý do này, ta ký hiệu $ f_a(x) $ bởi $ a^x $ với mọi $ x \in \mathbf{R} $; các hàm $ a^x $ (với mọi giá trị của $ a > 0 $) được gọi là *các hàm mũ*. Ta có $ 1^x = 1 $ với mọi $ x \in \mathbf{R} $; nếu $ a \neq 1 $, $ x \to a^x $ là một *đẳng cấu* của nhóm $ \mathbf{R} $ lên nhóm $ \mathbf{R}_+^* $.
+Vì lý do này, ta ký hiệu $f_a(x)$ bởi $a^x$ với mọi $x \in \mathbf{R}$; các hàm $a^x$ (với mọi giá trị của $a > 0$) được gọi là *các hàm mũ*. Ta có $1^x = 1$ với mọi $x \in \mathbf{R}$; nếu $a \neq 1$, $x \to a^x$ là một *đẳng cấu* của nhóm $\mathbf{R}$ lên nhóm $\mathbf{R}_+^*$.
 
-Nếu $ a \neq 1 $, đẳng cấu của $ \mathbf{R}_+^* $ lên $ \mathbf{R} $ là nghịch đảo của $ x \to a^x $ được gọi là *logarit cơ số* $ a $, và giá trị của nó tại $ x \in \mathbf{R}_+^* $ được ký hiệu bởi $ \log_a x $. Như vậy, với ký hiệu này, ta có
+Nếu $a \neq 1$, đẳng cấu của $\mathbf{R}_+^*$ lên $\mathbf{R}$ là nghịch đảo của $x \to a^x$ được gọi là *logarit cơ số* $a$, và giá trị của nó tại $x \in \mathbf{R}_+^*$ được ký hiệu bởi $\log_a x$. Như vậy, với ký hiệu này, ta có
 
 (1) $$
 a^{x+y} = a^x a^y \qquad (x \in \mathbf{R}, y \in \mathbf{R}, a > 0);
@@ -82,7 +82,7 @@ $$
 \log_a a^x = x \qquad (x \in \mathbf{R}).
 $$
 
-Theo Mệnh đề 5 của § 1, no. 3, mọi đồng cấu liên tục của $ \mathbf{R} $ vào $ \mathbf{R}_+^* $ đều có dạng $ y \to a^{xy} $, trong đó $ x \in \mathbf{R} $; vì giá trị của nó khi $ y = 1 $ là $ a^x $, nên đồng nhất ta có
+Theo Mệnh đề 5 của § 1, no. 3, mọi đồng cấu liên tục của $\mathbf{R}$ vào $\mathbf{R}_+^*$ đều có dạng $y \to a^{xy}$, trong đó $x \in \mathbf{R}$; vì giá trị của nó khi $y = 1$ là $a^x$, nên đồng nhất ta có
 
 (8) $$
 (a^x)^y = a^{xy} \qquad (x \in \mathbf{R}, \ y \in \mathbf{R}, \ a > 0),
@@ -93,7 +93,7 @@ hay, thay đổi ký hiệu,
 x^y = a^{y \cdot \log_a x} \qquad (x > 0, y \in \mathbf{R}, a > 0, a \neq 1).
 $$
 
-Công thức (8) cho thấy rằng, với mọi số nguyên $ n > 0 $, ta có $ (a^{1/n})^n = a $, điều này biện minh cho ký hiệu $ a^{1/n} $ được đưa vào để chỉ *nghiệm bậc $n$* $ \sqrt[n]{a} $, được định nghĩa trong chương IV, § 3, no. 3.
+Công thức (8) cho thấy rằng, với mọi số nguyên $n > 0$, ta có $(a^{1/n})^n = a$, điều này biện minh cho ký hiệu $a^{1/n}$ được đưa vào để chỉ *nghiệm bậc $n$* $\sqrt[n]{a}$, được định nghĩa trong chương IV, § 3, no. 3.
 
 Các công thức (7) và (9) cho thấy rằng
 
@@ -107,13 +107,13 @@ hay, thay đổi ký hiệu,
 $$
 đó là công thức về "thay đổi cơ số".
 
-Cuối cùng, ta hãy thu được tất cả các *đồng cấu liên tục* của nhóm tôpô $ \mathbf{R}^* $ vào chính nó; nếu $ g $ là một đồng cấu liên tục như vậy,
+Cuối cùng, ta hãy thu được tất cả các *đồng cấu liên tục* của nhóm tôpô $\mathbf{R}^*$ vào chính nó; nếu $g$ là một đồng cấu liên tục như vậy,
 
 $$
 \log\_a (g(a^x))
 $$
 
-là một đồng cấu liên tục của $ \mathbf{R} $ vào $ \mathbf{R} $, do đó (§ 1, no. 3, Mệnh đề 5) tồn tại $ \alpha \in \mathbf{R} $ sao cho $ \log_a (g(a^x)) = \alpha x $ với mọi $ x \in \mathbf{R} $; suy ra, theo (8), $ g(x) = x^\alpha $ với mọi $ x > 0 $. Do đó ta có đồng nhất thức
+là một đồng cấu liên tục của $\mathbf{R}$ vào $\mathbf{R}$, do đó (§ 1, no. 3, Mệnh đề 5) tồn tại $\alpha \in \mathbf{R}$ sao cho $\log_a (g(a^x)) = \alpha x$ với mọi $x \in \mathbf{R}$; suy ra, theo (8), $g(x) = x^\alpha$ với mọi $x > 0$. Do đó ta có đồng nhất thức
 
 (12) $$
 (xy)^\alpha = x^\alpha y^\alpha \text{ for all } x > 0, y > 0 \text{ and } \alpha \in \mathbf{R}.
@@ -121,11 +121,11 @@ $$
 
 Do công thức (4) biến mọi phép nhân thành một phép cộng (phép toán duy nhất mà hệ ghi số thông thường thích nghi tốt), logarit từ lâu đã là một công cụ không thể thiếu trong các phép tính số (xem Ghi chú lịch sử của chương này).
 
-Khi được dùng cho mục đích này, cơ sở được chọn là $ a = 10 $; và có những bảng cho các giá trị của hàm $ \log_{10} x $ (với một độ chính xác nhất định). Trong giải tích, người ta dẫn đến việc chọn một cơ sở khác (ký hiệu là $ e $) sao cho $ \lim_{x \to 1, x \neq 1} \frac{\log_e x}{(x - 1)} = 1 $ (xem Bài tập 1).
+Khi được dùng cho mục đích này, cơ sở được chọn là $a = 10$; và có những bảng cho các giá trị của hàm $\log_{10} x$ (với một độ chính xác nhất định). Trong giải tích, người ta dẫn đến việc chọn một cơ sở khác (ký hiệu là $e$) sao cho $\lim_{x \to 1, x \neq 1} \frac{\log_e x}{(x - 1)} = 1$ (xem Bài tập 1).
 
-\### 2. TÍNH CHẤT CỦA CÁC HÀM $ a^x $ VÀ $ \log_a x $
+\### 2. TÍNH CHẤT CỦA CÁC HÀM $a^x$ VÀ $\log_a x$
 
-Theo Định lý 5 của Chương IV, § 2, no. 6, nếu $ a \neq 1 $, $ x \to a^x $ là một ánh xạ đơn điệu nghiêm ngặt của $ \mathbf{R} $ lên khoảng $ \mathbf{R}_+^* = ]0, + \infty[ $. Nếu $ a > 1 $, ta có $ a^1 = a \geq 1 = a^0 $, do đó $ a^x $ là hàm tăng ngặt; hơn nữa, vì $ \mathbf{R}_+^* $ không bị chặn trên, $ a^x $ không bị chặn trên trong $ \mathbf{R} $, nên
+Theo Định lý 5 của Chương IV, § 2, no. 6, nếu $a \neq 1$, $x \to a^x$ là một ánh xạ đơn điệu nghiêm ngặt của $\mathbf{R}$ lên khoảng $\mathbf{R}_+^* = ]0, + \infty[$. Nếu $a > 1$, ta có $a^1 = a \geq 1 = a^0$, do đó $a^x$ là hàm tăng ngặt; hơn nữa, vì $\mathbf{R}_+^*$ không bị chặn trên, $a^x$ không bị chặn trên trong $\mathbf{R}$, nên
 
 $$
 \lim_{x \to +\infty} a^x = +\infty \quad (a > 1)
@@ -137,7 +137,7 @@ $$
 \lim_{x \to -\infty} a^x = 0 \quad (a > 1).
 $$
 
-Mặt khác, nếu $ a < 1 $, hàm $ a^x $ là hàm giảm, tiến tới 0 khi $ x $ tiến tới $ +\infty $, và tiến tới $ +\infty $ khi $ x $ tiến tới $ -\infty $ (Hình 1).
+Mặt khác, nếu $a < 1$, hàm $a^x$ là hàm giảm, tiến tới 0 khi $x$ tiến tới $+\infty$, và tiến tới $+\infty$ khi $x$ tiến tới $-\infty$ (Hình 1).
 
 ![Đồ thị biểu diễn y = a^x (a > 1) và y = a^x (a < 1)]$[https://i.imgur.com/1.png](https://i.imgur.com/1.png))
 
@@ -167,13 +167,13 @@ $$
 \prod_i x_i = a^{\sum \log_a x_i}.
 $$
 
-Tương tự, một tích vô hạn được xác định bởi một dãy $(1 + u_n)$ gồm các số hữu hạn $> 0$ là *hội tụ* (chương IV, § 7, no. 6) khi và chỉ khi chuỗi mà số hạng tổng quát là $ \log_a (1 + u_n) $ hội tụ, và khi đó ta có
+Tương tự, một tích vô hạn được xác định bởi một dãy $(1 + u_n)$ gồm các số hữu hạn $> 0$ là *hội tụ* (chương IV, § 7, no. 6) khi và chỉ khi chuỗi mà số hạng tổng quát là $\log_a (1 + u_n)$ hội tụ, và khi đó ta có
 
 $$
 \prod_{n=0}^{\infty} (1 + u_n) = a^{S_{n=0}^{\infty} \log_a (1 + u_n)}.
 $$
 
-Việc nghiên cứu các tích vô hạn của các số thực $ > 0 $ do đó được quy về việc nghiên cứu các chuỗi vô hạn của các số thực mà các số hạng xuất hiện dưới dạng các lôgarit; sau này chúng ta sẽ thấy các tổng có dạng này có thể được nghiên cứu dễ dàng như thế nào bằng các tính chất vi phân của lôgarit.
+Việc nghiên cứu các tích vô hạn của các số thực $> 0$ do đó được quy về việc nghiên cứu các chuỗi vô hạn của các số thực mà các số hạng xuất hiện dưới dạng các lôgarit; sau này chúng ta sẽ thấy các tổng có dạng này có thể được nghiên cứu dễ dàng như thế nào bằng các tính chất vi phân của lôgarit.
 
 ### Bài tập {#top-v-s4-exercises}
 

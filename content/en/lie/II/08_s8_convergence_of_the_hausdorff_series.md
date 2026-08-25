@@ -11,7 +11,7 @@ pdf_pages: 0188-0194, 0223-0225
 extraction: ocr
 subsections:
     - "no": 1
-      title: $ p $-adic upper bounds of the series exp, log and $ \mathbf{H} $
+      title: $p$-adic upper bounds of the series exp, log and $\mathbf{H}$
       page: 0
       pdf_page: 189
     - "no": 2
@@ -28,61 +28,61 @@ subsections:
       pdf_page: 192
 statements: 9
 exercises: 4
-content_sha256: 01afa8ccecb74d5cf8ffb4c248732a6931320cd4e232fe2e9a2399104a37befa
+content_sha256: 71106fc968153da769e22b3973c71dea5361a186a8c2d139be20dc4b5d4afa1e
 ---
 
 ## § 8. CONVERGENCE OF THE HAUSDORFF SERIES (ULTRAMETRIC CASE)
 
-In this paragraph we assume that K is a non-discrete *complete valued field of characteristic zero*, with an *ultrametric* absolute value. We denote by $ p $ the characteristic of the residue field of K (*Commutative Algebra*, Chapter VI, § 3, no. 2).
-If $ p \neq 0 $, we write $ a = |p| $; we know (*Commutative Algebra*, Chapter VI, § 6, nos. 2 and 3) that $ 0 < a < 1 $ and that there exists one and only one valuation $ v $ on K with values in $ \mathbf{R} $ whose restriction to $ \mathbf{Q} $ is the $ p $-adic valuation $ v_p $ and which is such that $ |x| = a^{v(x)} $ for all $ x \in K $. Also we write:
-(1)    $ \theta = \frac{1}{p-1}. $
+In this paragraph we assume that K is a non-discrete *complete valued field of characteristic zero*, with an *ultrametric* absolute value. We denote by $p$ the characteristic of the residue field of K (*Commutative Algebra*, Chapter VI, § 3, no. 2).
+If $p \neq 0$, we write $a = |p|$; we know (*Commutative Algebra*, Chapter VI, § 6, nos. 2 and 3) that $0 < a < 1$ and that there exists one and only one valuation $v$ on K with values in $\mathbf{R}$ whose restriction to $\mathbf{Q}$ is the $p$-adic valuation $v_p$ and which is such that $|x| = a^{v(x)}$ for all $x \in K$. Also we write:
+(1)    $\theta = \frac{1}{p-1}.$
 
-If $ p = 0 $, we denote by $ a $ a real number such that $ 0 < a < 1 $ and by $ v $ a valuation on $ \mathbf{K} $ with values in $ \mathbf{R} $ such that $ |x| = a^{v(x)} $ for all $ x \in \mathbf{K} $ (*loc. cit.*). Then $ v(x) = 0 $ for $ x \in \mathbf{Q}^* $. Also we write:
+If $p = 0$, we denote by $a$ a real number such that $0 < a < 1$ and by $v$ a valuation on $\mathbf{K}$ with values in $\mathbf{R}$ such that $|x| = a^{v(x)}$ for all $x \in \mathbf{K}$ (*loc. cit.*). Then $v(x) = 0$ for $x \in \mathbf{Q}^*$. Also we write:
 $$
 \theta = 0.
 $$
 
-### 1. $ p $-adic upper bounds of the series exp, log and $ \mathbf{H} $
+### 1. $p$-adic upper bounds of the series exp, log and $\mathbf{H}$
 
-*In this no. we assume that $ p \neq 0 $.*
+*In this no. we assume that $p \neq 0$.*
 
 #### Lemma 1 {#lie-ii-s8-lem-1 .statement}
 
-*Let $ n $ be an integer $ \geqslant 0 $ and let $ n = n_0 + n_1 p + \cdots + n_k p^k $, with $ 0 \leqslant n_i \leqslant p - 1 $, be the $ p $-adic expansion of $ n $. Let $ S(n) = n_0 + n_1 + \cdots + n_k $. Then*
+*Let $n$ be an integer $\geqslant 0$ and let $n = n_0 + n_1 p + \cdots + n_k p^k$, with $0 \leqslant n_i \leqslant p - 1$, be the $p$-adic expansion of $n$. Let $S(n) = n_0 + n_1 + \cdots + n_k$. Then*
 $$
 v_p(n!) = \frac{n - S(n)}{p - 1}.
 $$
-$ v_p(n!) = \sum_{i=1}^n v_p(i) $ and the number of integers $ i $ between 1 and $ n $ for which $ v_p(i) \geqslant j $ is equal to the integral part $ [n/p^j] $ of $ n/p^j $. Then
+$v_p(n!) = \sum_{i=1}^n v_p(i)$ and the number of integers $i$ between 1 and $n$ for which $v_p(i) \geqslant j$ is equal to the integral part $[n/p^j]$ of $n/p^j$. Then
 $$
 v_p(n!) = \sum_{j \geqslant 0} j ([n/p^j] - [n/p^{j+1}]) = \sum_{j \geqslant 1} [n/p^j].
 $$
-As $ [n/p^j] = \sum_{i \geqslant j} n_i p^{i-j} $, the lemma follows.
+As $[n/p^j] = \sum_{i \geqslant j} n_i p^{i-j}$, the lemma follows.
 
 #### Lemma 2 {#lie-ii-s8-lem-2 .statement}
 
-$ v(n) \leqslant v(n!) \leqslant (n - 1)\theta $ and $ v(n) \leqslant (\log n)/(\log p) $ for every integer $ n \geqslant 1 $.
-$ v(n!) = v_p(n!) = (n - S(n))\theta \leqslant (n - 1)\theta $ by Lemma 1.
-On the other hand, $ n \geqslant p^{v(n)} $, whence $ v(n) \leqslant (\log n)/(\log p) $.
-Let $ I = \{ U, V \} $ be a set of two elements and let
+$v(n) \leqslant v(n!) \leqslant (n - 1)\theta$ and $v(n) \leqslant (\log n)/(\log p)$ for every integer $n \geqslant 1$.
+$v(n!) = v_p(n!) = (n - S(n))\theta \leqslant (n - 1)\theta$ by Lemma 1.
+On the other hand, $n \geqslant p^{v(n)}$, whence $v(n) \leqslant (\log n)/(\log p)$.
+Let $I = \{ U, V \}$ be a set of two elements and let
 $$
 \mathbf{H} = \sum_{r,s \geqslant 0} H_{r,s}(U, V) \in \hat{\mathbf{L}}_{\mathbf{Q}}(I)
 $$
-be the Hausdorff series (\S 6, no. 4, Definition 1). Let $ \mathbf{Z}_{(p)} $ be the local ring of $ \mathbf{Z} $ relative to the prime ideal $ (p) $ and $ (e_b)_{b \in B} $ a basis of $ \mathbf{L}_{\mathbf{Z}_{(p)}}(I) $ over $ \mathbf{Z} $ (\S 2, no. 11, Theorem 1). It is also a basis of $ \mathbf{L}_{\mathbf{Q}}(I) $ over $ \mathbf{Q} $.
+be the Hausdorff series (\S 6, no. 4, Definition 1). Let $\mathbf{Z}_{(p)}$ be the local ring of $\mathbf{Z}$ relative to the prime ideal $(p)$ and $(e_b)_{b \in B}$ a basis of $\mathbf{L}_{\mathbf{Z}_{(p)}}(I)$ over $\mathbf{Z}$ (\S 2, no. 11, Theorem 1). It is also a basis of $\mathbf{L}_{\mathbf{Q}}(I)$ over $\mathbf{Q}$.
 
 #### Proposition 1 {#lie-ii-s8-prop-1 .statement}
 
-*Let $ r $ and $ s $ be two integers $ \geqslant 0 $. If $ H_{r,s} = \sum_{b \in B} \lambda_b e_b $, where $ \lambda_b \in \mathbf{Q} $, is the decomposition of $ \mathbf{H} $ with respect to the basis $ (e_b)_{b \in B} $, then*
+*Let $r$ and $s$ be two integers $\geqslant 0$. If $H_{r,s} = \sum_{b \in B} \lambda_b e_b$, where $\lambda_b \in \mathbf{Q}$, is the decomposition of $\mathbf{H}$ with respect to the basis $(e_b)_{b \in B}$, then*
 $$
 v_p(\lambda_b) \geqslant -(r + s - 1)\theta \quad \text{for all } b \in B.
 $$
-The ring $ \mathbf{A}_{\mathbf{Z}_{(p)}}(I) $ is identified with the sub-$ \mathbf{Z}_{(p)} $-module of $ \mathbf{A}_{\mathbf{Q}}(I) $ generated by the words $ w \in \mathrm{Mo}(I) $. As $ \mathbf{L}_{\mathbf{Z}_{(p)}}(I) $ is a direct factor of $ \mathbf{A}_{\mathbf{Z}_{(p)}}(I) $,
+The ring $\mathbf{A}_{\mathbf{Z}_{(p)}}(I)$ is identified with the sub-$\mathbf{Z}_{(p)}$-module of $\mathbf{A}_{\mathbf{Q}}(I)$ generated by the words $w \in \mathrm{Mo}(I)$. As $\mathbf{L}_{\mathbf{Z}_{(p)}}(I)$ is a direct factor of $\mathbf{A}_{\mathbf{Z}_{(p)}}(I)$,
 $$
 \mathbf{L}_{\mathbf{Z}_{(p)}}(I) = \mathbf{A}_{\mathbf{Z}_{(p)}}(I) \cap \mathbf{L}_{\mathbf{Q}}(I).
 $$
 
-Let $ f $ be the integer such that $ f \leq (r + s - 1)\theta < f + 1 $. Relation (4) is equivalent to $ v_p(\lambda_b) \geq -f $ for all $ b \in B $, that is $ H_{r,s} \in p^{-f}L_{\mathbf{Z}(p)} $. But this is equivalent also by (5) to $ H_{r,s} \in p^{-f}A_{\mathbf{Z}(p)}(I) $.
+Let $f$ be the integer such that $f \leq (r + s - 1)\theta < f + 1$. Relation (4) is equivalent to $v_p(\lambda_b) \geq -f$ for all $b \in B$, that is $H_{r,s} \in p^{-f}L_{\mathbf{Z}(p)}$. But this is equivalent also by (5) to $H_{r,s} \in p^{-f}A_{\mathbf{Z}(p)}(I)$.
 
-By formula (11) of § 6, no. 4, it suffices to show that, for every integer $ m \geq 1 $ and all integers $ r_1, \ldots, r_m, s_1, \ldots, s_m $ such that
+By formula (11) of § 6, no. 4, it suffices to show that, for every integer $m \geq 1$ and all integers $r_1, \ldots, r_m, s_1, \ldots, s_m$ such that
 $$
 r_1 + \cdots + r_m = r, \quad s_1 + \cdots + s_m = s,
 $$
@@ -93,11 +93,11 @@ we have
 $$
 v_p(m!r!\ldots r_m!s_1!\ldots s_m!) \leq f.
 $$
-But by Lemma 2, $ v_p(r_i!s_i!) \leq (r_i + s_i - 1)\theta $ and $ v_p(m!) \leq v_p(m!) \leq (m - 1)\theta $; the left hand side of (7) is therefore bounded above by
+But by Lemma 2, $v_p(r_i!s_i!) \leq (r_i + s_i - 1)\theta$ and $v_p(m!) \leq v_p(m!) \leq (m - 1)\theta$; the left hand side of (7) is therefore bounded above by
 $$
 \theta(m - 1 + \sum_{i=1}^m (r_i + s_i - 1)) = \theta(r + s - 1);
 $$
-as it is an integer, it is $ \leq f $, which completes the proof.
+as it is an integer, it is $\leq f$, which completes the proof.
 
 ### 2. NORMED LIE ALGEBRAS
 
@@ -110,21 +110,21 @@ $$
 $$
 \|[x, y]\| \leq \|x\| \cdot \|y\|
 $$
-for all $ x, y $ in $ g $.
+for all $x, y$ in $g$.
 
 *Throughout the rest of this paragraph, g denotes a complete normed Lie algebra.*
 
-For every finite set I we define as in § 7, no. 1 a continuous Lie algebra homomorphism $ u \mapsto \tilde{u} $ of $ \hat{L}(I) $ into $ \hat{P}(g^I; g) $. We see as in § 7 that if $ u = \sum_v u_v $, with $ u_v \in L^v(I) $ for $ v \in \mathbf{N}^I $, then $ \tilde{u} = \sum_v \tilde{u}_v $, where $ \tilde{u}_v $ is the polynomial mapping $ (t_i)_{i \in I} \mapsto u_v((t_i)) $ defined in § 2, no. 4. The composition formula (2) of § 7, no. 1, remains valid.
+For every finite set I we define as in § 7, no. 1 a continuous Lie algebra homomorphism $u \mapsto \tilde{u}$ of $\hat{L}(I)$ into $\hat{P}(g^I; g)$. We see as in § 7 that if $u = \sum_v u_v$, with $u_v \in L^v(I)$ for $v \in \mathbf{N}^I$, then $\tilde{u} = \sum_v \tilde{u}_v$, where $\tilde{u}_v$ is the polynomial mapping $(t_i)_{i \in I} \mapsto u_v((t_i))$ defined in § 2, no. 4. The composition formula (2) of § 7, no. 1, remains valid.
 
 ### 3. GROUP DEFINED BY A COMPLETE NORMED LIE ALGEBRA
 
-Let $ H = \sum_{r, s \geq 0} H_{r,s} \in \hat{L}(\{U, V\}) $ be the Hausdorff series (§ 6, no. 4, Definition 1). We shall show that the corresponding formal power series with continuous components
+Let $H = \sum_{r, s \geq 0} H_{r,s} \in \hat{L}(\{U, V\})$ be the Hausdorff series (§ 6, no. 4, Definition 1). We shall show that the corresponding formal power series with continuous components
 $$
 \tilde{H} = \sum_{r, s \geq 0} \tilde{H}_{r,s} \in \hat{P}(g \times g, g)
 $$
 is convergent (*Differentiable and Analytic Manifolds*, R, 4.1.1).
 
-Let $ r \geq 0, s \geq 0 $ be such that $ r + s \neq 0 $ and let $ \| \tilde{H}_{r,s} \| $ be the norm of the continuous polynomial $ \tilde{H}_{r,s} $ (Differentiable and Analytic Manifolds, R, Appendix, no. 2).
+Let $r \geq 0, s \geq 0$ be such that $r + s \neq 0$ and let $\| \tilde{H}_{r,s} \|$ be the norm of the continuous polynomial $\tilde{H}_{r,s}$ (Differentiable and Analytic Manifolds, R, Appendix, no. 2).
 
 #### Lemma 3 {#lie-ii-s8-lem-3 .statement}
 
@@ -132,17 +132,17 @@ $$
 \| \tilde{H}_{r,s} \| \leq a^{-(r+s-1)\theta}.
 $$
 
-Let B be a Hall set relative to I and let $ H_{r,s} = \sum_{b \in B} \lambda_b e_b $ be the decomposition of $ H_{r,s} $ with respect to the corresponding basis of $ L(\{U, V\}) $. Then
+Let B be a Hall set relative to I and let $H_{r,s} = \sum_{b \in B} \lambda_b e_b$ be the decomposition of $H_{r,s}$ with respect to the corresponding basis of $L(\{U, V\})$. Then
 $$
 |\lambda_b| \leq a^{-(r+s-1)\theta}.
 $$
-This is trivial for $ p = 0 $, for $ \lambda_b \in \mathbf{Q} $; and it follows from Proposition 1 of no. 1 for $ p \neq 0 $.
+This is trivial for $p = 0$, for $\lambda_b \in \mathbf{Q}$; and it follows from Proposition 1 of no. 1 for $p \neq 0$.
 
 Moreover,
 $$
 \| \tilde{e}_b \| \leq 1 \quad \text{for } b \in B.
 $$
-We show more generally by induction on $ n $ that, for every alternant $ b $ of degree $ n $ in the two indeterminates U and V (\S 2, no. 6), $ \| \tilde{b} \| \leq 1 $. If $ n = 1 $, $ \tilde{b} $ is one of the projections of $ g \times g $ onto $ g $ and hence is of norm $ \leq 1 $; if $ n > 1 $, there exist two alternants $ b_1 $ and $ b_2 $ of degrees $ < n $ such that $ b = [b_1, b_2] $. As the mapping $ \gamma : (x, y) \mapsto [x, y] $ of $ g \times g $ into $ g $ is bilinear of norm $ \leq 1 $, we have (Differentiable and Analytic Manifolds, R, Appendix, no. 4)
+We show more generally by induction on $n$ that, for every alternant $b$ of degree $n$ in the two indeterminates U and V (\S 2, no. 6), $\| \tilde{b} \| \leq 1$. If $n = 1$, $\tilde{b}$ is one of the projections of $g \times g$ onto $g$ and hence is of norm $\leq 1$; if $n > 1$, there exist two alternants $b_1$ and $b_2$ of degrees $< n$ such that $b = [b_1, b_2]$. As the mapping $\gamma : (x, y) \mapsto [x, y]$ of $g \times g$ into $g$ is bilinear of norm $\leq 1$, we have (Differentiable and Analytic Manifolds, R, Appendix, no. 4)
 $$
 \| \tilde{b} \| = \| \gamma \circ (\tilde{b}_1, \tilde{b}_2) \| \leq \| \tilde{b}_1 \| \cdot \| \tilde{b}_2 \| \leq 1.
 $$
@@ -150,27 +150,27 @@ Relations (11) and (12) imply the lemma.
 
 #### Proposition 2 {#lie-ii-s8-prop-2 .statement}
 
-The formal power series $ \tilde{H} $ is a convergent series (Differentiable and Analytic Manifolds, R, 4.1.1). If G is the ball $ \{ x \in g \mid \| x \| < a^\theta \} $, the domain of absolute convergence of $ \tilde{H} $ (Differentiable and Analytic Manifolds, R, 4.1.3) contains $ G \times G $.
+The formal power series $\tilde{H}$ is a convergent series (Differentiable and Analytic Manifolds, R, 4.1.1). If G is the ball $\{ x \in g \mid \| x \| < a^\theta \}$, the domain of absolute convergence of $\tilde{H}$ (Differentiable and Analytic Manifolds, R, 4.1.3) contains $G \times G$.
 
-If $ u $ and $ v $ are two real numbers $ > 0 $ such that $ u < a^\theta $ and $ v < a^\theta $, then (Lemma 3)
+If $u$ and $v$ are two real numbers $> 0$ such that $u < a^\theta$ and $v < a^\theta$, then (Lemma 3)
 $$
 \| \tilde{H}_{r,s} \| u^r v^s \leq a^\theta (u a^{-\theta})^r (v a^{-\theta})^s
 $$
-and $ \| H_{r,s} \| u^r v^s $ tends to 0 when $ r + s $ tends to infinity.
+and $\| H_{r,s} \| u^r v^s$ tends to 0 when $r + s$ tends to infinity.
 
-We denote by $ h : G \times G \to g $ the analytic function (Differentiable and Analytic Manifolds, R, 4.2.4) defined by $ \tilde{H} $, that is by the formula
+We denote by $h : G \times G \to g$ the analytic function (Differentiable and Analytic Manifolds, R, 4.2.4) defined by $\tilde{H}$, that is by the formula
 $$
 h(x, y) = \sum_{r, s \geq 0} \tilde{H}_{r,s}(x, y) = \sum_{r, s \geq 0} H_{r,s}(x, y) \quad \text{for } (x, y) \in G \times G.
 $$
-This function is called the Hausdorff function of $ g $.
+This function is called the Hausdorff function of $g$.
 
-Let $ (x, y) \in G \times G $. Then
+Let $(x, y) \in G \times G$. Then
 $$
 \| \tilde{H}_{r,s}(x, y) \| \leq \sup(\| x \|, \| y \|) \\
 \| h(x, y) \| \leq \sup(\| x \|, \| y \|).
 $$
 
-(17) follows immediately from (16) and (16) is trivial for $ r = s = 0 $; if $ r \geq 1 $, then
+(17) follows immediately from (16) and (16) is trivial for $r = s = 0$; if $r \geq 1$, then
 $$
 \| \tilde{H}_{r,s}(x, y) \| \leq \| \tilde{H}_{r,s} \| \| x \|^{r} \| y \|^{s}
 $$
@@ -180,27 +180,27 @@ $$
 $$
 \leq \| x \|;
 $$
-we argue similarly if $ s \geq 1 $.
+we argue similarly if $s \geq 1$.
 
-In particular, $ \| h(x, y) \| < a^{\theta} $ for $ (x, y) \in G \times G $.
+In particular, $\| h(x, y) \| < a^{\theta}$ for $(x, y) \in G \times G$.
 
 #### Proposition 3 {#lie-ii-s8-prop-3 .statement}
 
-*Let $ G $ be the ball $ \{ x \in g | \| x \| < a^{\theta} \} $. The analytic mapping*
+*Let $G$ be the ball $\{ x \in g | \| x \| < a^{\theta} \}$. The analytic mapping*
 $$
 h : G \times G \to G
 $$
-*makes $ G $ into a group in which $ 0 $ is the identity element and $ -x $ is the inverse of $ x $ for all $ x \in G $. Moreover, if $ R $ is a real number such that $ 0 < R < a^{\theta} $, the ball*
+*makes $G$ into a group in which $0$ is the identity element and $-x$ is the inverse of $x$ for all $x \in G$. Moreover, if $R$ is a real number such that $0 < R < a^{\theta}$, the ball*
 $$
 \{ x \in g | \| x \| < R \}
 $$
-*(resp. $ \{ x \in g | \| x \| \leq R \} $) is an open subgroup of $ G $*.
+*(resp. $\{ x \in g | \| x \| \leq R \}$) is an open subgroup of $G$*.
 
-As $ H(U, -U) = 0 $ and $ H(0, U) = H(U, 0) = U $, $ h(x, -x) = 0 $ and
+As $H(U, -U) = 0$ and $H(0, U) = H(U, 0) = U$, $h(x, -x) = 0$ and
 $$
 h(0, x) = h(x, 0) = x
 $$
-for all $ x \in G $. It therefore remains to prove the associativity formula
+for all $x \in G$. It therefore remains to prove the associativity formula
 $$
 h(h(x, y), z) = h(x, h(y, z)) \quad \text{for } x, y, z \text{ in } G.
 $$
@@ -208,26 +208,26 @@ As
 $$
 H(H(U, V), W) = H(U, H(V, W))
 $$
-in $ \hat{L}(\{ U, V, W \}) $ (\S 6, no. 5, Proposition 4), we have
+in $\hat{L}(\{ U, V, W \})$ (\S 6, no. 5, Proposition 4), we have
 $$
 \tilde{H} \circ (\tilde{H} \times \mathrm{Id}_g) = \tilde{H} \circ (\mathrm{Id}_g \times \tilde{H})
 $$
-in $ \hat{P}(g \times g \times g; g) $ (no. 2) and (19) implies (18) by (16) and *Differentiable and Analytic Manifolds*, R, 4.1.5.
+in $\hat{P}(g \times g \times g; g)$ (no. 2) and (19) implies (18) by (16) and *Differentiable and Analytic Manifolds*, R, 4.1.5.
 
-*In other words (Chapter III, § 1), $ G $ with the Hausdorff function is a Lie group.*
+*In other words (Chapter III, § 1), $G$ with the Hausdorff function is a Lie group.*
 
 ### 4. EXPONENTIAL IN COMPLETE NORMED ASSOCIATIVE ALGEBRAS
 
-In this no. A will denote a unital associative algebra with a norm $ x \mapsto \| x \| $ satisfying the conditions:
+In this no. A will denote a unital associative algebra with a norm $x \mapsto \| x \|$ satisfying the conditions:
 $$
 \| x + y \| \leq \sup(\| x \|, \| y \|) \\
 \| xy \| \leq \| x \| \cdot \| y \| \\
 \| 1 \| = 1
 $$
 
-for $ x, y $ in $ A $, and *complete* with this norm. The results of the second and third paragraphs of § 7, no. 3, remain valid.
+for $x, y$ in $A$, and *complete* with this norm. The results of the second and third paragraphs of § 7, no. 3, remain valid.
 
-We take $ I = \{ U \} $ and consider the images $ \tilde{e} $ and $ \tilde{l} $ of the series $ e(U) = \sum_{n \geq 1} \frac{U^n}{n!} $ and $ l(U) = \sum_{n \geq 1} (-1)^{n-1} \frac{U^n}{n} $ in $ \hat{P}(A; A) $. Then:
+We take $I = \{ U \}$ and consider the images $\tilde{e}$ and $\tilde{l}$ of the series $e(U) = \sum_{n \geq 1} \frac{U^n}{n!}$ and $l(U) = \sum_{n \geq 1} (-1)^{n-1} \frac{U^n}{n}$ in $\hat{P}(A; A)$. Then:
 
 $$
 \left\| \left( \frac{U^n}{n!} \right)^{\sim} \right\| \leq a^{-(n-1)\theta}
@@ -236,31 +236,31 @@ $$
 \left\| \left( \frac{U^n}{n} \right)^{\sim} \right\| \leq a^{-\frac{\log n}{\log p}}
 $$
 
-by Lemma 2 of no. 1. Hence the *radius of absolute convergence* of the series $ \tilde{e} $ (resp. $ \tilde{l} $) is $ \geq a^\theta $ (resp. $ \geq 1 $) (*Differentiable and Analytic Manifolds*, R, 4.1.3). For $ R > 0 $, let $ G_R = \{ x \in A \mid \|x\| < R \} $; we write $ G = G_0 $. The series $ \tilde{e} $ (resp. $ \tilde{l} $) defines an analytic mapping $ e_A $ (resp. $ l_A $) of $ G $ (resp. $ G_1 $) into $ A $. We write:
+by Lemma 2 of no. 1. Hence the *radius of absolute convergence* of the series $\tilde{e}$ (resp. $\tilde{l}$) is $\geq a^\theta$ (resp. $\geq 1$) (*Differentiable and Analytic Manifolds*, R, 4.1.3). For $R > 0$, let $G_R = \{ x \in A \mid \|x\| < R \}$; we write $G = G_0$. The series $\tilde{e}$ (resp. $\tilde{l}$) defines an analytic mapping $e_A$ (resp. $l_A$) of $G$ (resp. $G_1$) into $A$. We write:
 $$
 \exp_A(x) = 1 + e_A(x) = \sum_{n \geq 0} \frac{x^n}{n!} \quad \text{for } x \in G
 $$
 $$
 \log_A(x) = l_A(x-1) = \sum_{n \geq 1} (-1)^{n-1} \frac{(x-1)^n}{n} \quad \text{for } x-1 \in G_1'
 $$
-(we omit the index $ A $ when no confusion can arise). For $ x \in G_R $ and $ n \geq 1 $,
+(we omit the index $A$ when no confusion can arise). For $x \in G_R$ and $n \geq 1$,
 $$
 \left\| \frac{x^n}{n} \right\| \leq \left\| \frac{x^n}{n!} \right\| < R^n a^{-(n-1)\theta} = R \left( \frac{R}{a^\theta} \right)^{n-1}
 $$
-and hence $ e_A(G_R) \subset G_R $, $ l_A(G_R) \subset G_R $ for $ R \leq a^\theta $.
+and hence $e_A(G_R) \subset G_R$, $l_A(G_R) \subset G_R$ for $R \leq a^\theta$.
 
 #### Proposition 4 {#lie-ii-s8-prop-4 .statement}
 
-*Let $ R $ be a real number such that $ 0 < R \leq a^\theta $. The mapping $ \exp_A $ defines an analytic isomorphism of $ G_R $ onto $ 1 + G_R $ and the inverse isomorphism is the restriction of $ \log_A $ to $ 1 + G_R $.*
+*Let $R$ be a real number such that $0 < R \leq a^\theta$. The mapping $\exp_A$ defines an analytic isomorphism of $G_R$ onto $1 + G_R$ and the inverse isomorphism is the restriction of $\log_A$ to $1 + G_R$.*
 
-$ e(l(X)) = l(e(X)) = X $. By (20), (21) and *Differentiable and Analytic Manifolds*, R, 4.1.5, we deduce that $ e_A(l_A(x)) = l_A(e_A(x)) $ for $ x \in G_R $. Then
+$e(l(X)) = l(e(X)) = X$. By (20), (21) and *Differentiable and Analytic Manifolds*, R, 4.1.5, we deduce that $e_A(l_A(x)) = l_A(e_A(x))$ for $x \in G_R$. Then
 $$
 \exp_A(\log_A x) = x \quad \text{for } x \in 1 + G_R \\
 \log_A(\exp_A x) = x \quad \text{for } x \in G_R
 $$
 which completes the proof.
 
-If $ A $ is given the bracket $[x, y] = xy - yx$, $ A $ becomes a complete normed Lie algebra, for $ \|xy - yx\| \leq \sup(\|xy\|, \|yx\|) \leq \|x\| \cdot \|y\| $. Proposition 2 of no. 3 implies that the domain of absolute convergence of $ \tilde{H} $ contains $ G \times G $ and $ \tilde{H} $ therefore defines an analytic function $ h : G \times G \to A $; then
+If $A$ is given the bracket $[x, y] = xy - yx$, $A$ becomes a complete normed Lie algebra, for $\|xy - yx\| \leq \sup(\|xy\|, \|yx\|) \leq \|x\| \cdot \|y\|$. Proposition 2 of no. 3 implies that the domain of absolute convergence of $\tilde{H}$ contains $G \times G$ and $\tilde{H}$ therefore defines an analytic function $h : G \times G \to A$; then
 $$
 h(x, y) = \sum_{r, s \geq 0} H_{r,s}(x, y).
 $$
@@ -271,14 +271,14 @@ For x, y in G,
 $$
 \exp_A \cdot \exp_A y = \exp_A h(x, y).
 $$
-$ e^{U e^V} = e^{H(U, V)} $ and hence
+$e^{U e^V} = e^{H(U, V)}$ and hence
 $$
 m \circ (1 + \tilde{\epsilon}, 1 + \tilde{\epsilon}) = (1 + \tilde{\epsilon}) \circ \tilde{H}
 $$
-in $ \tilde{H}(A \times A; A) $ (where m denotes multiplication on A). The proposition then follows from Proposition 2, Lemma 3 and Differentiable and Analytic Manifolds, R, 4.1.5.
+in $\tilde{H}(A \times A; A)$ (where m denotes multiplication on A). The proposition then follows from Proposition 2, Lemma 3 and Differentiable and Analytic Manifolds, R, 4.1.5.
 
 ### Exercises {#lie-ii-s8-exercises}
 
-We suppose that the residual characteristic $ p $ of the field $ K $ is >0. We denote by $ \mathfrak{o}_K $ the ring of the valuation $ v $ of $ K $.
+We suppose that the residual characteristic $p$ of the field $K$ is >0. We denote by $\mathfrak{o}_K$ the ring of the valuation $v$ of $K$.
 
 See the [exercises for § 8](exercises/s8/).

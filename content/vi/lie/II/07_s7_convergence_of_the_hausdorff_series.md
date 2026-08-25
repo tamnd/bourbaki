@@ -11,7 +11,7 @@ pdf_pages: 0182-0188, 0222-0222
 extraction: ocr
 subsections:
     - "no": 1
-      title: CONTINUOUS-POLYNOMIALS WITH VALUES IN $ g $
+      title: CONTINUOUS-POLYNOMIALS WITH VALUES IN $g$
       page: 0
       pdf_page: 182
     - "no": 2
@@ -24,9 +24,9 @@ subsections:
       pdf_page: 187
 statements: 4
 exercises: 1
-content_sha256: f0221999176d35a2877bc3a76a0937257ad37801323d464de1af7d3aa05385df
+content_sha256: da68e2c28bc5e28f4c2d93b1c91c7d82739d404ce11d0433f30309b79a7ca2b7
 translated_from: content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md
-source_content_sha256: 5da45aeabf8166b0333b151ccda2df4e0070f0333ee675c1305d7ea8d515cb86
+source_content_sha256: cf630f9a51064efcc683400cee4a9c6c0b309024e6830285793a6c94f104ce78
 translation_model: gpt-5.4
 translation_run: translate-vi-ae28c9b7
 glossary_version: 34
@@ -36,26 +36,26 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 7. SỰ HỘI TỤ CỦA CHUỖI HAUSDORFF (TRƯỜNG HỢP THỰC HOẶC PHỨC)
 
-Trong đoạn này ta giả sử rằng $ K $ là một trong các trường $ \mathbf{R} $ hoặc $ \mathbf{C} $ với trị tuyệt đối thông thường của nó. Nhắc lại rằng một đại số chuẩn hóa được trên $ K $ là một đại số trên $ K $ (không nhất thiết kết hợp) với một tôpô $ \mathcal{T} $ có các tính chất sau:
-(1) $ \mathcal{T} $ có thể được xác định bởi một chuẩn:
-(2) ánh xạ $ (x, y) \mapsto xy $ từ $ A \times A $ vào $ A $ là liên tục.
-Một đại số định chuẩn trên $ K $ là một đại số $ A $ trên $ K $ với một chuẩn sao cho $ \|xy\| \leq \|x\|\ \|y\| $ với mọi $ x, y $ trong $ A $.
-Ta ký hiệu bởi $ g $ một đại số Lie chuẩn hóa được đầy đủ trên $ K $. Ta chọn một chuẩn trên $ g $ và một số $ M > 0 $ sao cho
+Trong đoạn này ta giả sử rằng $K$ là một trong các trường $\mathbf{R}$ hoặc $\mathbf{C}$ với trị tuyệt đối thông thường của nó. Nhắc lại rằng một đại số chuẩn hóa được trên $K$ là một đại số trên $K$ (không nhất thiết kết hợp) với một tôpô $\mathcal{T}$ có các tính chất sau:
+(1) $\mathcal{T}$ có thể được xác định bởi một chuẩn:
+(2) ánh xạ $(x, y) \mapsto xy$ từ $A \times A$ vào $A$ là liên tục.
+Một đại số định chuẩn trên $K$ là một đại số $A$ trên $K$ với một chuẩn sao cho $\|xy\| \leq \|x\|\ \|y\|$ với mọi $x, y$ trong $A$.
+Ta ký hiệu bởi $g$ một đại số Lie chuẩn hóa được đầy đủ trên $K$. Ta chọn một chuẩn trên $g$ và một số $M > 0$ sao cho
 $$
 \|[x, y]\| \leq M \|x\|\ \|y\| \quad \text{với } x, y \text{ trong } g.
 $$
 
-### 1. CÁC *ĐA THỨC-LIÊN TỤC* NHẬN GIÁ TRỊ TRONG $ g $
+### 1. CÁC *ĐA THỨC-LIÊN TỤC* NHẬN GIÁ TRỊ TRONG $g$
 
-Cho $ I $ là một tập hợp hữu hạn và gọi $ P(g^I; g) $ (tương ứng $ \hat{P}(g^I; g) $) là không gian vectơ các *đa thức-liên tục* (tương ứng *chuỗi lũy thừa hình thức có các thành phần liên tục*) trên $ g^I $ nhận giá trị trong $ g $. Nhắc lại (*Đa tạp khả vi và giải tích*, R, Phụ lục) rằng $ P(g^I; g) $ có một phân bậc kiểu $ \mathbf{N}^I $ và $ \hat{P}(g^I; g) $ được đồng nhất với đầy đủ hóa của không gian vectơ $ P(g^I; g) $ đối với tôpô được xác định bởi bộ lọc liên kết với phân bậc của $ P(g^I; g) $. Hơn nữa, $ P(g^I; g) $ là một đại số Lie phân bậc với dấu ngoặc được xác định bởi $ [f, g](x) = [f(x), g(x)] $ với f, g thuộc P(g^I; g), x \in g^I; cấu trúc đại số Lie này có thể được mở rộng bằng tính liên tục lên $ \hat{P}(g^I; g) $ và biến nó thành một đại số Lie lọc Hausdorff đầy đủ.
+Cho $I$ là một tập hợp hữu hạn và gọi $P(g^I; g)$ (tương ứng $\hat{P}(g^I; g)$) là không gian vectơ các *đa thức-liên tục* (tương ứng *chuỗi lũy thừa hình thức có các thành phần liên tục*) trên $g^I$ nhận giá trị trong $g$. Nhắc lại (*Đa tạp khả vi và giải tích*, R, Phụ lục) rằng $P(g^I; g)$ có một phân bậc kiểu $\mathbf{N}^I$ và $\hat{P}(g^I; g)$ được đồng nhất với đầy đủ hóa của không gian vectơ $P(g^I; g)$ đối với tôpô được xác định bởi bộ lọc liên kết với phân bậc của $P(g^I; g)$. Hơn nữa, $P(g^I; g)$ là một đại số Lie phân bậc với dấu ngoặc được xác định bởi $[f, g](x) = [f(x), g(x)]$ với f, g thuộc P(g^I; g), x \in g^I; cấu trúc đại số Lie này có thể được mở rộng bằng tính liên tục lên $\hat{P}(g^I; g)$ và biến nó thành một đại số Lie lọc Hausdorff đầy đủ.
 
-Theo mệnh đề 2 của § 6, no. 3, tồn tại một và chỉ một đồng cấu đại số Lie liên tục $ \phi_I : u \mapsto \tilde{u} $ từ $ \hat{L}(I) $ vào $ \hat{P}(g^I; g) $ ánh xạ bất định nguyên có chỉ số i tới $ \mathrm{pr}_i $ với mọi $ i \in I $, vì $ \mathrm{pr}_i \in P(g^I; g) $. Suy ra $ \tilde{u} \in P(g^I; g) $ đối với $ u \in L(I) $; chính xác hơn, khi $ u \in L(I) $, $ \tilde{u} $ chính là ánh xạ đa thức $ (t_i) \mapsto u((t_i)) $ của § 2, no. 4. Mặt khác, rõ ràng $ \phi_I $ tương thích với các đa phân bậc của $ L(I) $ và $ P(g^I; g) $. Nếu $ u = \sum_{v \in \mathbf{N}^I} u_v $, trong đó $ u_v \in L^v(I) $ với $ v \in \mathbf{N}^I $, thì
+Theo mệnh đề 2 của § 6, no. 3, tồn tại một và chỉ một đồng cấu đại số Lie liên tục $\phi_I : u \mapsto \tilde{u}$ từ $\hat{L}(I)$ vào $\hat{P}(g^I; g)$ ánh xạ bất định nguyên có chỉ số i tới $\mathrm{pr}_i$ với mọi $i \in I$, vì $\mathrm{pr}_i \in P(g^I; g)$. Suy ra $\tilde{u} \in P(g^I; g)$ đối với $u \in L(I)$; chính xác hơn, khi $u \in L(I)$, $\tilde{u}$ chính là ánh xạ đa thức $(t_i) \mapsto u((t_i))$ của § 2, no. 4. Mặt khác, rõ ràng $\phi_I$ tương thích với các đa phân bậc của $L(I)$ và $P(g^I; g)$. Nếu $u = \sum_{v \in \mathbf{N}^I} u_v$, trong đó $u_v \in L^v(I)$ với $v \in \mathbf{N}^I$, thì
 
 $$
 \tilde{u} = \sum_{v \in \mathbf{N}^I} \tilde{u}_v, \quad \text{trong đó } \tilde{u}_v \in P_v(g^I; g).
 $$
 
-Cho $ u = (u_j)_{j \in J} $ là một họ hữu hạn các phần tử của $ \hat{L}(I) $, cho $ v \in \hat{L}(J) $ và đặt $ w = v \circ u $ (\S 6, no. 3). Ta viết $ \tilde{u} = (\tilde{u}_j)_{j \in J} \in \mathfrak{g} $. Khi đó
+Cho $u = (u_j)_{j \in J}$ là một họ hữu hạn các phần tử của $\hat{L}(I)$, cho $v \in \hat{L}(J)$ và đặt $w = v \circ u$ (\S 6, no. 3). Ta viết $\tilde{u} = (\tilde{u}_j)_{j \in J} \in \mathfrak{g}$. Khi đó
 
 (2)
 $$
@@ -66,7 +66,7 @@ $$
 
 ### 2. MẦM NHÓM ĐƯỢC XÁC ĐỊNH BỞI MỘT ĐẠI SỐ LIE ĐỊNH CHUẨN ĐẦY ĐỦ
 
-Cho $ H = \sum_{r,s \geq 0} H_{r,s} \in \hat{L}(U, V) $ là chuỗi Hausdorff (\S 6, no. 4, Định nghĩa 1). Ta sẽ chỉ ra rằng chuỗi lũy thừa hình thức tương ứng
+Cho $H = \sum_{r,s \geq 0} H_{r,s} \in \hat{L}(U, V)$ là chuỗi Hausdorff (\S 6, no. 4, Định nghĩa 1). Ta sẽ chỉ ra rằng chuỗi lũy thừa hình thức tương ứng
 
 (3)
 $$
@@ -75,7 +75,7 @@ $$
 
 là hội tụ (Differentiable and Analytic Manifolds, R, 3.1.1).
 
-Ta đưa vào chuỗi lũy thừa hình thức sau đây $ \eta \in \mathbf{Q}[[U, V]] $
+Ta đưa vào chuỗi lũy thừa hình thức sau đây $\eta \in \mathbf{Q}[[U, V]]$
 
 (4)
 $$
@@ -101,30 +101,30 @@ trong đó
 $$
 \eta_{r,s} = \sum_{m \geq 1} \frac{1}{m} \sum_{\substack{r_1 + \cdots + r_m = r \\ s_1 + \cdots + s_m = s \\ r_i + s_i \geq 1}} \frac{1}{r_1! \ldots r_m! s_1! \ldots s_m!}.
 $$
-Bây giờ cho $ u $ và $ v $ là hai số thực dương sao cho $ u + v < \log 2 $; khi đó $ 0 \leq \exp(u + v) - 1 < 1 $; các chuỗi dẫn xuất từ (5) và (6) bằng cách thay $ u $ cho $ U $ và $ v $ cho $ V $ là hội tụ và các tính toán trên cho thấy rằng
+Bây giờ cho $u$ và $v$ là hai số thực dương sao cho $u + v < \log 2$; khi đó $0 \leq \exp(u + v) - 1 < 1$; các chuỗi dẫn xuất từ (5) và (6) bằng cách thay $u$ cho $U$ và $v$ cho $V$ là hội tụ và các tính toán trên cho thấy rằng
 $$
 \sum_{r, s \geq 0} \eta_{r,s} u^r v^s = -\log(2 - \exp(u + v)) < +\infty.
 $$
-Cho $ r, s \geq 0 $ và ký hiệu $ \| \tilde{H}_{r,s} \| $ là chuẩn của đa thức liên tục $ \tilde{H}_{r,s} $ (Differentiable and Analytic Manifolds, R, Phụ lục, no. 2).
+Cho $r, s \geq 0$ và ký hiệu $\| \tilde{H}_{r,s} \|$ là chuẩn của đa thức liên tục $\tilde{H}_{r,s}$ (Differentiable and Analytic Manifolds, R, Phụ lục, no. 2).
 
 #### Bổ đề 1 {#lie-ii-s7-lem-1 .statement}
 
 $$
 \| \tilde{H}_{r,s} \| \leq M^{r+s-1} \eta_{r,s}.
 $$
-Cho $ r_i, s_i $ thuộc $ \mathbf{N} $ với $ 1 \leq i \leq m $, và $ s_m = 1 $; đặt $ r = \sum_i r_i, s = \sum_i s_i $ và xét phần tử sau của $ L(\{U, V\}) $:
+Cho $r_i, s_i$ thuộc $\mathbf{N}$ với $1 \leq i \leq m$, và $s_m = 1$; đặt $r = \sum_i r_i, s = \sum_i s_i$ và xét phần tử sau của $L(\{U, V\})$:
 $$
 Z = \left( \left( \sum_{i=1}^{m-1} (\mathrm{ad}\ U)^{r_i} (\mathrm{ad}\ V)^{s_i} \right) (\mathrm{ad}\ U)^{r_m} \right)(V).
 $$
-Khi đó $ \tilde{Z} = f \circ p $, trong đó $ f $ là ánh xạ $ (r+s) $-tuyến tính sau đây từ $ g^{r+s} $ vào $ g $:
+Khi đó $\tilde{Z} = f \circ p$, trong đó $f$ là ánh xạ $(r+s)$-tuyến tính sau đây từ $g^{r+s}$ vào $g$:
 $$
 (x_1, \ldots, x_r, y_1, \ldots, y_s) \mapsto (\mathrm{ad}(x_1) \circ \cdots \circ \mathrm{ad}(x_r) \circ \mathrm{ad}(y_1) \circ \cdots \circ \mathrm{ad}(y_s))(y_s)
 $$
-và trong đó $ p $ là ánh xạ sau đây từ $ g^2 $ vào $ g^{r+s} $:
+và trong đó $p$ là ánh xạ sau đây từ $g^2$ vào $g^{r+s}$:
 $$
 (x, y) \mapsto (\underbrace{x, \ldots, x}_{r}, \underbrace{y, \ldots, y}_{s});
 $$
-do đó $ \| \tilde{Z} \| \leq \| f \| \leq M^{r+s-1} $ (Đa tạp khả vi và giải tích, R, Phụ lục). Áp dụng các bất đẳng thức này cho các hạng tử khác nhau ở vế phải của công thức (9) ở § 6, no. 4, ta thu được:
+do đó $\| \tilde{Z} \| \leq \| f \| \leq M^{r+s-1}$ (Đa tạp khả vi và giải tích, R, Phụ lục). Áp dụng các bất đẳng thức này cho các hạng tử khác nhau ở vế phải của công thức (9) ở § 6, no. 4, ta thu được:
 $$
 \|(H'_{r,s})\sim\|
 \leq \frac{M^{r+s-1}}{r+s} \sum_{m \geq 1} \frac{1}{m} \sum_{\substack{r_1 + \cdots + r_m = r \\ s_1 + \cdots + s_m = s \\ r_1 + s_1 \geq 1, \ldots, r_{m-1} + s_{m-1} \geq 1}} \frac{1}{r_1! \ldots r_m! s_1! \ldots s_m!}.
@@ -145,13 +145,13 @@ $$
 
 #### Mệnh đề 1 {#lie-ii-s7-prop-1 .statement}
 
-*Chuỗi lũy thừa hình thức* $ \tilde{H} $ *là một chuỗi hội tụ* (*Differentiable and Analytic Manifolds*, R, 3.1.1); *miền hội tụ tuyệt đối của nó* (*Differentiable and Analytic Manifolds*, R, 3.1.4) *chứa tập mở*
+*Chuỗi lũy thừa hình thức* $\tilde{H}$ *là một chuỗi hội tụ* (*Differentiable and Analytic Manifolds*, R, 3.1.1); *miền hội tụ tuyệt đối của nó* (*Differentiable and Analytic Manifolds*, R, 3.1.4) *chứa tập mở*
 
 $$
 \Omega = \left\{ (x, y) \in g \times g \mid \|x\| + \|y\| < \frac{1}{M} \log 2 \right\}.
 $$
 
-Cho $ u, v $ là hai số thực $ > 0 $ sao cho $ u + v < \frac{1}{M} \log 2 $; khi đó (Bổ đề 1)
+Cho $u, v$ là hai số thực $> 0$ sao cho $u + v < \frac{1}{M} \log 2$; khi đó (Bổ đề 1)
 
 $$
 \text{(12)} \quad M \sum_{r,s \geq 0} \|\tilde{H}_{r,s}\| u^r v^s \\
@@ -159,13 +159,13 @@ $$
 $$
 theo (9).
 
-Ký hiệu $ h : \Omega \to g $ là *hàm giải tích* (*Differentiable and Analytic Manifolds*, R, 3.2.9) được xác định bởi $ \tilde{H} $, tức là bởi công thức
+Ký hiệu $h : \Omega \to g$ là *hàm giải tích* (*Differentiable and Analytic Manifolds*, R, 3.2.9) được xác định bởi $\tilde{H}$, tức là bởi công thức
 
 $$
 \text{(13)} \quad h(x, y) = \sum_{r,s \geq 0} \tilde{H}_{r,s}(x, y) = \sum_{r,s \geq 0} H_{r,s}(x, y) \quad \text{với } (x, y) \in \Omega.
 $$
 
-Hàm này được gọi là *hàm Hausdorff* của $ g $ đối với $ M $ (hoặc đơn giản là hàm Hausdorff của $ g $ nếu không thể gây nhầm lẫn). Chú ý rằng $ H_{r,s}(U, -U) = 0 $ nếu $ r + s \geq 2 $ và do đó
+Hàm này được gọi là *hàm Hausdorff* của $g$ đối với $M$ (hoặc đơn giản là hàm Hausdorff của $g$ nếu không thể gây nhầm lẫn). Chú ý rằng $H_{r,s}(U, -U) = 0$ nếu $r + s \geq 2$ và do đó
 
 $$
 \text{(14)} \quad h(x, -x) = 0 \quad \text{với } \|x\| < \frac{1}{2M} \log 2.
@@ -185,7 +185,7 @@ $$
 \Omega' = \left\{ (x, y, z) \in g \times g \times g \mid \|x\| + \|y\| + \|z\| < \frac{1}{M} \log \frac{3}{2} \right\}.
 $$
 
-*Nếu* $ (x, y, z) \in \Omega' $, *thì*
+*Nếu* $(x, y, z) \in \Omega'$, *thì*
 
 $$
 \text{(16)} \quad (x, y) \in \Omega, \quad (h(x, y), z) \in \Omega, \quad (y, z) \in \Omega, \quad (x, h(y, z)) \in \Omega
@@ -261,15 +261,15 @@ $$
 
 Trong số này, ta ký hiệu bởi A một đại số kết hợp có đơn vị định chuẩn đầy đủ (Tôpô đại cương, Chương IX, § 3, no. 7). Khi đó \|x.y\| ≤ \|x\|. \|y\| với x, y trong A.
 
-Cho I là một tập hợp hữu hạn và gọi $ \hat{P}(A^I; A) $ là không gian vectơ các chuỗi lũy thừa hình thức có các thành phần liên tục trên $ A^I $ nhận giá trị trong A (Đa tạp khả vi và giải tích, R, Phụ lục, no. 5), với cấu trúc đại số thu được bằng cách viết
+Cho I là một tập hợp hữu hạn và gọi $\hat{P}(A^I; A)$ là không gian vectơ các chuỗi lũy thừa hình thức có các thành phần liên tục trên $A^I$ nhận giá trị trong A (Đa tạp khả vi và giải tích, R, Phụ lục, no. 5), với cấu trúc đại số thu được bằng cách viết
 
 $$
 f.g = m \circ (f, g) \quad \text{với } f, g \text{ trong } \hat{P}(A^I; A),
 $$
 
-trong đó $ m : A \times A \to A $ ký hiệu phép nhân trên A. Lập luận như trong no. 1 và dùng Mệnh đề 1 của § 5, no. 1, ta định nghĩa một đồng cấu liên tục của các đại số có đơn vị $ u \mapsto \tilde{u} $ từ $ \hat{A}(I) $ vào $ \hat{P}(A^I; A) $ biến ẩn bất định có chỉ số i thành $ pr_i $; đồng cấu này mở rộng đồng cấu đại số Lie từ $ \hat{L}(I) $ vào $ \hat{P}(A^I; A) $ được định nghĩa trong no. 1. Nếu $ u = \sum_v u_v $ với $ u_v \in A^v(I) $ đối với $ v \in \mathbf{N}^I $, thì $ \tilde{u} = \sum_v \tilde{u}_v $, trong đó $ \tilde{u}_v $ là ánh xạ đa thức $ (t_i)_{i \in I} \mapsto u_v((t_i)) $.
+trong đó $m : A \times A \to A$ ký hiệu phép nhân trên A. Lập luận như trong no. 1 và dùng Mệnh đề 1 của § 5, no. 1, ta định nghĩa một đồng cấu liên tục của các đại số có đơn vị $u \mapsto \tilde{u}$ từ $\hat{A}(I)$ vào $\hat{P}(A^I; A)$ biến ẩn bất định có chỉ số i thành $pr_i$; đồng cấu này mở rộng đồng cấu đại số Lie từ $\hat{L}(I)$ vào $\hat{P}(A^I; A)$ được định nghĩa trong no. 1. Nếu $u = \sum_v u_v$ với $u_v \in A^v(I)$ đối với $v \in \mathbf{N}^I$, thì $\tilde{u} = \sum_v \tilde{u}_v$, trong đó $\tilde{u}_v$ là ánh xạ đa thức $(t_i)_{i \in I} \mapsto u_v((t_i))$.
 
-Cho $ u = (u_j)_{j \in I} $ là một họ hữu hạn các phần tử của $ \hat{A}(I) $, cho $ v \in \hat{A}(J) $ và viết $ w = v \circ u $ (\S 5, no. 1). Khi đó
+Cho $u = (u_j)_{j \in I}$ là một họ hữu hạn các phần tử của $\hat{A}(I)$, cho $v \in \hat{A}(J)$ và viết $w = v \circ u$ (\S 5, no. 1). Khi đó
 
 $$
 (v \circ u)^{\sim} = \tilde{v} \circ \tilde{u}.
@@ -277,47 +277,47 @@ $$
 
 Điều này suy ra bằng cách kéo dài theo tính liên tục công thức (2) của § 5, no. 1 và từ Differentiable and Analytic Manifolds, R, phụ lục, no. 6.
 
-Đặc biệt, ta lấy I = {U}, đồng nhất A với $ A^{(U)} $ và xét các ảnh $ \tilde{e} $ và $ \tilde{l} $ của các chuỗi $ e(U) = \sum_{n \geq 1} U^n/n! $ và $ l(U) = \sum_{n \geq 1} (-1)^{n-1} U^n/n $ trong $ \hat{P}(A; A) $. Khi đó $ \|\tilde{U}^n\| \leq 1 $ vì $ \|x_1 \ldots x_n\| \leq \|x_1\| \ldots \|x_n\| $ với $ x_1, \ldots, x_n $ trong A. Do đó bán kính hội tụ tuyệt đối của $ \tilde{e} $ (tương ứng của $ \tilde{l} $) là vô hạn (tương ứng $ \geq 1 $).
+Đặc biệt, ta lấy I = {U}, đồng nhất A với $A^{(U)}$ và xét các ảnh $\tilde{e}$ và $\tilde{l}$ của các chuỗi $e(U) = \sum_{n \geq 1} U^n/n!$ và $l(U) = \sum_{n \geq 1} (-1)^{n-1} U^n/n$ trong $\hat{P}(A; A)$. Khi đó $\|\tilde{U}^n\| \leq 1$ vì $\|x_1 \ldots x_n\| \leq \|x_1\| \ldots \|x_n\|$ với $x_1, \ldots, x_n$ trong A. Do đó bán kính hội tụ tuyệt đối của $\tilde{e}$ (tương ứng của $\tilde{l}$) là vô hạn (tương ứng $\geq 1$).
 
-Ta sẽ ký hiệu bởi $ e_A $ (tương ứng $ l_A $) ánh xạ giải tích của A vào A (tương ứng của B vào A, trong đó B là quả cầu đơn vị mở của A) được xác định bởi chuỗi hội tụ $ \tilde{e} $ (tương ứng $ \tilde{l} $), và ta sẽ viết $ \exp_A(x) = 1 + e_A(x) $ (với $ x \in A $) và
+Ta sẽ ký hiệu bởi $e_A$ (tương ứng $l_A$) ánh xạ giải tích của A vào A (tương ứng của B vào A, trong đó B là quả cầu đơn vị mở của A) được xác định bởi chuỗi hội tụ $\tilde{e}$ (tương ứng $\tilde{l}$), và ta sẽ viết $\exp_A(x) = 1 + e_A(x)$ (với $x \in A$) và
 
 $$
 \log_A(x) = l_A(x - 1)
 $$
 
-(với $ x \in A, \|x - 1\| < 1 $). Khi đó
+(với $x \in A, \|x - 1\| < 1$). Khi đó
 
 $$
 \exp_A x = \sum_{n \geq 0} \frac{x^n}{n!} \quad (x \in A)
 $$
 
-(20)    $ \log_A x = \sum_{n \geq 1} (-1)^{n-1} \frac{(x-1)^n}{n} \quad (x \in A, \|x-1\| < 1). $
+(20)    $\log_A x = \sum_{n \geq 1} (-1)^{n-1} \frac{(x-1)^n}{n} \quad (x \in A, \|x-1\| < 1).$
 
-Vì $ (e \circ l)(U) = (l \circ e)(U) = U $ (x. § 6, no. 1), theo (18) ta có $ \tilde{e} \circ \tilde{l} = \tilde{l} \circ \tilde{e} = \mathrm{Id}_A $.
+Vì $(e \circ l)(U) = (l \circ e)(U) = U$ (x. § 6, no. 1), theo (18) ta có $\tilde{e} \circ \tilde{l} = \tilde{l} \circ \tilde{e} = \mathrm{Id}_A$.
 Do đó (*Differentiable and Analytic Manifolds*, R, 3.1.9)
-(21)    $ \exp_A(\log_A(x)) = x \quad (x \in A, \|x-1\| \leq 1) $
-(22)    $ \log_A(\exp_A(x)) = x \quad (x \in A, \|x\| < \log 2) $
-vì với $ \|x\| < \log 2 $ thì suy ra $ \|\exp_A(x) - 1\| \leq \exp \|x\| - 1 < 1 $.
+(21)    $\exp_A(\log_A(x)) = x \quad (x \in A, \|x-1\| \leq 1)$
+(22)    $\log_A(\exp_A(x)) = x \quad (x \in A, \|x\| < \log 2)$
+vì với $\|x\| < \log 2$ thì suy ra $\|\exp_A(x) - 1\| \leq \exp \|x\| - 1 < 1$.
 
 Cuối cùng ta xét A như một đại số Lie chuẩn đầy đủ. Khi đó
 $$
 \|[x, y]\| = \|xy - yx\| \leq 2\|x\|\cdot\|y\|.
 $$
-Mệnh đề 1 của no. 2 suy ra rằng miền hội tụ tuyệt đối của chuỗi lũy thừa hình thức $ \tilde{H} $ chứa tập hợp
+Mệnh đề 1 của no. 2 suy ra rằng miền hội tụ tuyệt đối của chuỗi lũy thừa hình thức $\tilde{H}$ chứa tập hợp
 $$
 \Omega = \{x, y) \in A \times A \mid \|x\| + \|y\| < \frac{1}{2} \log 2\}.
 $$
-Do đó $ \tilde{H} $ xác định một hàm giải tích $ h : \Omega \to A $. Khi đó $ h(x, y) = \sum_{r,s} H_{r,s}(x, y) $ (x. § 3, no. 1, *Nhận xét 4*).
+Do đó $\tilde{H}$ xác định một hàm giải tích $h : \Omega \to A$. Khi đó $h(x, y) = \sum_{r,s} H_{r,s}(x, y)$ (x. § 3, no. 1, *Nhận xét 4*).
 
 #### Mệnh đề 3 {#lie-ii-s7-prop-3 .statement}
 
-*Với $ \|x\| + \|y\| < \frac{1}{2} \log 2 $,*
-(23)    $ \exp_A x \cdot \exp_A y = \exp_A h(x, y). $
-Từ (18) và quan hệ $ e^u e^v = e^{u+v} $ suy ra rằng
+*Với $\|x\| + \|y\| < \frac{1}{2} \log 2$,*
+(23)    $\exp_A x \cdot \exp_A y = \exp_A h(x, y).$
+Từ (18) và quan hệ $e^u e^v = e^{u+v}$ suy ra rằng
 $$
 m \circ (1 + \tilde{e}, 1 + \tilde{e}) = (1 + \tilde{e}) \circ \tilde{H}
 $$
-trong $ \hat{P}(A \times A; A) $. Do đó suy ra từ *Differentiable and Analytic Manifolds*, R, 3.1.9 rằng (23) đúng với $ (x, y) $ đủ gần $ (0, 0) $, do đó mệnh đề được suy ra bằng phép kéo dài giải tích (*Differentiable and Analytic Manifolds*, R, 3.2.5).
+trong $\hat{P}(A \times A; A)$. Do đó suy ra từ *Differentiable and Analytic Manifolds*, R, 3.1.9 rằng (23) đúng với $(x, y)$ đủ gần $(0, 0)$, do đó mệnh đề được suy ra bằng phép kéo dài giải tích (*Differentiable and Analytic Manifolds*, R, 3.2.5).
 
 ### Bài tập {#lie-ii-s7-exercises}
 

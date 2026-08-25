@@ -130,7 +130,7 @@ chapters:
               page: 49
               pdf_page: 54
             - "no": 5
-              title: Caractérisation des mesures de base $ \mu $
+              title: Caractérisation des mesures de base $\mu$
               page: 52
               pdf_page: 57
             - "no": 6
@@ -142,7 +142,7 @@ chapters:
               page: 59
               pdf_page: 64
             - "no": 8
-              title: 'Applications: I. Dualité des espaces $ L^p $'
+              title: 'Applications: I. Dualité des espaces $L^p$'
               page: 61
               pdf_page: 66
             - "no": 9

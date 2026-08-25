@@ -24,7 +24,7 @@ subsections:
       pdf_page: 385
 statements: 13
 exercises: 3
-content_sha256: ce97d672d395324edaf19e576695e17d7e634e8c8ecae751b42c35b7ffc0b7a4
+content_sha256: 16079a53a8c5980b2ffcd8a6b4b9798b68c26a211a6d05f6fca557a79bbea7a1
 ---
 
 ## § 10. THE AUTOMORPHISM GROUP OF A LIE GROUP
@@ -35,16 +35,16 @@ In this paragraph, K is assumed to be of characteristic zero.
 
 #### Lemma 1 {#lie-iii-s10-lem-1 .statement}
 
-Let G be a Lie group and $ \alpha $ a vector field on G. For all $ g \in G $, let
+Let G be a Lie group and $\alpha$ a vector field on G. For all $g \in G$, let
 $$
 \beta(g) = \alpha(g)g^{-1} \in L(G).
 $$
 The following conditions are equivalent:
-(i) $ \alpha $ is a homomorphism of the group G into the group T(G);
-(ii) for all $ g, g' $ in G, $ \alpha(gg') = \alpha(g)g' + g\alpha(g') $;
-(iii) for all $ g, g' $ in G, $ \beta(gg_1) = \beta(g) + (\mathrm{Ad}\,g)\beta(g') $.
+(i) $\alpha$ is a homomorphism of the group G into the group T(G);
+(ii) for all $g, g'$ in G, $\alpha(gg') = \alpha(g)g' + g\alpha(g')$;
+(iii) for all $g, g'$ in G, $\beta(gg_1) = \beta(g) + (\mathrm{Ad}\,g)\beta(g')$.
 
-Condition (i) means that, for all $ g, g' $ in G, we have in the group T(G):
+Condition (i) means that, for all $g, g'$ in G, we have in the group T(G):
 $$
 \beta(g)g\beta(g')g' = \beta(gg')gg'
 $$
@@ -52,11 +52,11 @@ or
 $$
 \beta(g)((\mathrm{Ad}\,g)\beta(g'))gg' = \beta(gg')gg'.
 $$
-But the product of $ \beta(g) $ and $ (\mathrm{Ad}\,g)\beta(g') $ in T(G) is just the sum of $ \beta(g) $ and $ (\mathrm{Ad}\,g)\beta(g') $ in $ L(G) $ (\S 2, no. 1, Proposition 2). Hence (i) $ \Leftrightarrow $ (iii). On the other hand, condition (ii) may be written $ \beta(gg')gg' = \beta(g)gg' + g\beta(g')g' $, or
+But the product of $\beta(g)$ and $(\mathrm{Ad}\,g)\beta(g')$ in T(G) is just the sum of $\beta(g)$ and $(\mathrm{Ad}\,g)\beta(g')$ in $L(G)$ (\S 2, no. 1, Proposition 2). Hence (i) $\Leftrightarrow$ (iii). On the other hand, condition (ii) may be written $\beta(gg')gg' = \beta(g)gg' + g\beta(g')g'$, or
 $$
 \beta(gg') = \beta(g) + (\mathrm{Ad}\,g)\beta(g')
 $$
-and hence (ii) $ \Leftrightarrow $ (iii).
+and hence (ii) $\Leftrightarrow$ (iii).
 
 #### Definition 1 {#lie-iii-s10-def-1 .statement}
 
@@ -64,7 +64,7 @@ Let G be a Lie group. An infinitesimal automorphism of G is any analytic vector 
 
 #### Lemma 2 {#lie-iii-s10-lem-2 .statement}
 
-Let $ K' $ be a non-discrete closed subfield of K, A a $ K' $-manifold, B and C $ K $-manifolds and $ f $ a $ K' $-analytic mapping of $ A \times B $ into C. Suppose that, for all
+Let $K'$ be a non-discrete closed subfield of K, A a $K'$-manifold, B and C $K$-manifolds and $f$ a $K'$-analytic mapping of $A \times B$ into C. Suppose that, for all
 
 LIE GROUPS
 
@@ -145,7 +145,7 @@ for all $\lambda \in K, g_1 \in G, g_1 \in G$.
 Suppose that K is ultrametric. Let G be a compact Lie group and $\alpha$ an infinitesimal automorphism of G. There exist an open subgroup I of K and a law of analytic operation $(\lambda, g) \mapsto \phi_\lambda(g)$ of I on G with the following properties:
 (1) if D is the associated law of infinitesimal operation, then $D(1) = \alpha$;
 (2) for all $\lambda \in I, \phi_\lambda \in \mathrm{Aut}\, G$.
-As G is compact, there exist an open subgroup I' of K and a law of analytic operation $(\lambda, g) \mapsto \phi_\lambda(g)$ of I' on G with property (1) of the proposition (§ 4, no. 7, Corollary 2 to Theorem 6). We write $ \phi_\lambda(g) = f_g(\lambda) $ for $ \lambda \in I' $ and $ g \in G $. Then, for $ g_1, g_2 $ in $ G $ and $ \lambda \in I' $,
+As G is compact, there exist an open subgroup I' of K and a law of analytic operation $(\lambda, g) \mapsto \phi_\lambda(g)$ of I' on G with property (1) of the proposition (§ 4, no. 7, Corollary 2 to Theorem 6). We write $\phi_\lambda(g) = f_g(\lambda)$ for $\lambda \in I'$ and $g \in G$. Then, for $g_1, g_2$ in $G$ and $\lambda \in I'$,
 
 $$
 (T_\lambda(f_{g_1}f_{g_2}))1 = (T_\lambda f_{g_1})1 \cdot f_{g_2}(\lambda) + f_{g_1}(\lambda) \cdot (T_\lambda f_{g_2})1 \\
@@ -153,74 +153,74 @@ $$
 = \alpha(f_{g_1}(\lambda) f_{g_2}(\lambda))
 $$
 
-and $ (f_{g_1}f_{g_2})(0) = g_1 g_2 = f_{g_1g_2}(0) $. Hence $ f_{g_1'g_2'}(\lambda) = f_{g_1'}(\lambda) f_{g_2'}(\lambda) $ for $ (g_1', g_2', \lambda) $
+and $(f_{g_1}f_{g_2})(0) = g_1 g_2 = f_{g_1g_2}(0)$. Hence $f_{g_1'g_2'}(\lambda) = f_{g_1'}(\lambda) f_{g_2'}(\lambda)$ for $(g_1', g_2', \lambda)$
 
-in a neighbourhood of $ (g_1, g_2, 0) $ (Differentiable and Analytic Manifolds, R, 9.1.8). As $ G $ is compact, there exists an open subgroup $ I $ of $ I' $ such that $ f_{g_1g_2}(\lambda) = f_{g_1}(\lambda) f_{g_2}(\lambda) $ for all $ g_1 \in G, g_2 \in G, \lambda \in I $. In other words, $ \phi_\lambda \in \mathrm{Aut}\, G $ for $ \lambda \in I $.
+in a neighbourhood of $(g_1, g_2, 0)$ (Differentiable and Analytic Manifolds, R, 9.1.8). As $G$ is compact, there exists an open subgroup $I$ of $I'$ such that $f_{g_1g_2}(\lambda) = f_{g_1}(\lambda) f_{g_2}(\lambda)$ for all $g_1 \in G, g_2 \in G, \lambda \in I$. In other words, $\phi_\lambda \in \mathrm{Aut}\, G$ for $\lambda \in I$.
 
 #### Lemma 3 {#lie-iii-s10-lem-3 .statement}
 
-Let $ G $ and $ G' $ be Lie groups and $ \phi $ a homomorphism of $ G $ into $ \mathrm{Aut}(G') $. Let $ f(g, g') = (\phi(g))(g') $ for $ g \in G, g' \in G' $. Consider the following conditions:
-(i) $ f $ is analytic;
-(ii) $ f $ is analytic in a neighbourhood of $ (e_G, e_{G'}) $;
-(iii) for all $ g' \in G' $, the mapping $ g \mapsto f(g, g') $ is analytic.
-Then (i) $ \Leftrightarrow $ ((ii) and (iii)). If $ G $ is connected, (i) $ \Leftrightarrow $ (ii).
-Clearly (i) implies (ii) and (iii). Let $ g_0 \in G, g_0' \in G' $. For all $ g \in G, g' \in G' $,
+Let $G$ and $G'$ be Lie groups and $\phi$ a homomorphism of $G$ into $\mathrm{Aut}(G')$. Let $f(g, g') = (\phi(g))(g')$ for $g \in G, g' \in G'$. Consider the following conditions:
+(i) $f$ is analytic;
+(ii) $f$ is analytic in a neighbourhood of $(e_G, e_{G'})$;
+(iii) for all $g' \in G'$, the mapping $g \mapsto f(g, g')$ is analytic.
+Then (i) $\Leftrightarrow$ ((ii) and (iii)). If $G$ is connected, (i) $\Leftrightarrow$ (ii).
+Clearly (i) implies (ii) and (iii). Let $g_0 \in G, g_0' \in G'$. For all $g \in G, g' \in G'$,
 
 $$
 f(gg_0, g'g_0') = (\phi(g)\phi(g_0))(g'g_0') = \phi(g)(\phi(g_0)g').\phi(g)(\phi(g_0)g_0').
 $$
 
-This proves the implication ((ii) and (iii)) $ \Rightarrow $ (i). Finally, if $ G' $ is connected, $ G' $ is generated by every neighbourhood of $ e_{G'} $ and hence (ii) $ \Rightarrow $ (iii).
+This proves the implication ((ii) and (iii)) $\Rightarrow$ (i). Finally, if $G'$ is connected, $G'$ is generated by every neighbourhood of $e_{G'}$ and hence (ii) $\Rightarrow$ (iii).
 
 ### 2. THE AUTOMORPHISM GROUP OF A LIE GROUP (REAL OR COMPLEX CASE)
 
-In this no., we assume that $ K = \mathbf{R} $ or $ \mathbf{C} $.
+In this no., we assume that $K = \mathbf{R}$ or $\mathbf{C}$.
 
 #### Lemma 4 {#lie-iii-s10-lem-4 .statement}
 
-Let $ H $ be a finite-dimensional simply connected Lie group.
-(i) For all $ u \in \mathrm{Aut}\, L(H) $, let $ \theta(u) $ be the unique automorphism of $ H $ such that $ L(\theta(u)) = u $. Then the mapping $ (u, g) \mapsto \theta(u)g $ of $ (\mathrm{Aut}\, L(H)) \times H $ into $ H $ is analytic.
-(ii) Let $ N $ be a Lie subgroup of $ H $ and $ \mathrm{Aut}(H, N) $ the set of $ v \in \mathrm{Aut}\, H $ such that $ v(N) = N $. Then $ 0^{-1}(\mathrm{Aut}(H, N)) $ is a Lie subgroup of $ \mathrm{Aut}\, L(H) $.
-(iii) Suppose that $ N $ is discrete and normal, so that the Lie algebra of $ G = H/N $ is identified with $ L(H) $. For all $ w \in \mathrm{Aut}\, G $, let $ \eta(w) $ be the unique automorphism of $ H $ such that $ L(\eta(w)) = L(w) $. Then the mapping $ \eta $ is an isomorphism of the group $ \mathrm{Aut}\, G $ onto the group $ \mathrm{Aut}(H, N) $.
-To prove (i), it suffices, by Lemma 3 of no. 1, to verify that the mapping $ (u, g) \mapsto \theta(u)g $ is analytic in a neighbourhood of $ (\mathrm{Id}_{L(H)}, e) $. There exists an open neighbourhood B of 0 in $ L(H) $ such that $ \psi = \exp_H|B $ is an analytic isomorphism of B onto an open neighbourhood of e in H. There exist an open neighbourhood U of $ \mathrm{Id}_{L(H)} $ in Aut $ L(H) $ and an open neighbourhood $ B' $ of 0 in $ L(H) $ such that $ U(B') \subset B $. Then the mapping $ (u, g) \mapsto \theta(u)g $ of $ U \times \psi(B') $ into H is composed of the following mappings:
+Let $H$ be a finite-dimensional simply connected Lie group.
+(i) For all $u \in \mathrm{Aut}\, L(H)$, let $\theta(u)$ be the unique automorphism of $H$ such that $L(\theta(u)) = u$. Then the mapping $(u, g) \mapsto \theta(u)g$ of $(\mathrm{Aut}\, L(H)) \times H$ into $H$ is analytic.
+(ii) Let $N$ be a Lie subgroup of $H$ and $\mathrm{Aut}(H, N)$ the set of $v \in \mathrm{Aut}\, H$ such that $v(N) = N$. Then $0^{-1}(\mathrm{Aut}(H, N))$ is a Lie subgroup of $\mathrm{Aut}\, L(H)$.
+(iii) Suppose that $N$ is discrete and normal, so that the Lie algebra of $G = H/N$ is identified with $L(H)$. For all $w \in \mathrm{Aut}\, G$, let $\eta(w)$ be the unique automorphism of $H$ such that $L(\eta(w)) = L(w)$. Then the mapping $\eta$ is an isomorphism of the group $\mathrm{Aut}\, G$ onto the group $\mathrm{Aut}(H, N)$.
+To prove (i), it suffices, by Lemma 3 of no. 1, to verify that the mapping $(u, g) \mapsto \theta(u)g$ is analytic in a neighbourhood of $(\mathrm{Id}_{L(H)}, e)$. There exists an open neighbourhood B of 0 in $L(H)$ such that $\psi = \exp_H|B$ is an analytic isomorphism of B onto an open neighbourhood of e in H. There exist an open neighbourhood U of $\mathrm{Id}_{L(H)}$ in Aut $L(H)$ and an open neighbourhood $B'$ of 0 in $L(H)$ such that $U(B') \subset B$. Then the mapping $(u, g) \mapsto \theta(u)g$ of $U \times \psi(B')$ into H is composed of the following mappings:
 
-the mapping $ (u, g) \mapsto (u, \psi^{-1}(g)) $ of $ U \times \psi(B') $ into $ U \times B' $;
-the mapping $ (u, x) \mapsto u(x) $ of $ U \times B' $ into $ B $;
-the mapping $ y \mapsto \psi(y) $ of $ B $ into $ G $.
+the mapping $(u, g) \mapsto (u, \psi^{-1}(g))$ of $U \times \psi(B')$ into $U \times B'$;
+the mapping $(u, x) \mapsto u(x)$ of $U \times B'$ into $B$;
+the mapping $y \mapsto \psi(y)$ of $B$ into $G$.
 
 Hence this mapping is analytic.
 
-Let $ p $ be the canonical mapping of H into the homogeneous space $ H/N $. Then $ \theta^{-1}(\mathrm{Aut}(H, N)) $ is the set of $ u \in \mathrm{Aut}\ L(H) $ such that
+Let $p$ be the canonical mapping of H into the homogeneous space $H/N$. Then $\theta^{-1}(\mathrm{Aut}(H, N))$ is the set of $u \in \mathrm{Aut}\ L(H)$ such that
 $$
 p(\theta(u)g) = p(e), \quad p(\theta(u^{-1})g) = p(e)
 $$
-for all $ g \in N $. By § 8, no. 2, Theorem 2 and Corollary 2 to Theorem 2, this proves (ii).
+for all $g \in N$. By § 8, no. 2, Theorem 2 and Corollary 2 to Theorem 2, this proves (ii).
 
-Suppose that N is discrete and normal. Let $ w \in \mathrm{Aut}\ G $. Then
+Suppose that N is discrete and normal. Let $w \in \mathrm{Aut}\ G$. Then
 $$
 L(p \circ \eta(w)) = L(\eta(w)) = L(w) = L(w \circ p)
 $$
-hence $ p \circ \eta(w) = w \circ p $ and therefore $ \eta(w) \in \mathrm{Aut}(H, N) $. Clearly the mapping $ \eta $ of $ \mathrm{Aut}\ G $ into $ \mathrm{Aut}(H, N) $ is an injective homomorphism. This homomorphism is surjective because $ p : H \to G $ is a submersion.
+hence $p \circ \eta(w) = w \circ p$ and therefore $\eta(w) \in \mathrm{Aut}(H, N)$. Clearly the mapping $\eta$ of $\mathrm{Aut}\ G$ into $\mathrm{Aut}(H, N)$ is an injective homomorphism. This homomorphism is surjective because $p : H \to G$ is a submersion.
 
-Let G be a locally compact group and $ \Gamma $ the automorphism group of G. Recall that a topology $ \mathcal{T}_\beta $ has been defined on $ \Gamma $ (General Topology, Chapter X, § 3, no. 5). It is the coarsest topology for which the mappings $ v \mapsto v $ and $ v \mapsto v^{-1} $ of $ \Gamma $ into $ C_c(G; G) $ (space of continuous mappings of G into G with the compact convergence topology) are continuous. The topology $ \mathcal{T}_\beta $ is compatible with the group structure on $ \Gamma $ (loc. cit.). For every compact subset L of G and every neighbourhood U of $ e_G $ in G, let $ N(L, U) $ be the set of $ \phi \in \Gamma $ such that $ \phi(g) \in gU $ and $ \phi^{-1}(g) \in gU $ for all $ g \in L $; then the $ N(L, U) $ form a fundamental system of neighbourhoods of $ e_\Gamma $. If G is generated by a compact subset C, the topology $ \mathcal{T}_\beta $ is also the coarsest topology for which the mappings $ v \mapsto v|C $ and $ v \mapsto v^{-1}|C $ of $ \Gamma $ into $ C_u(C; G) $ are continuous (for every compact subset of G is contained in $ (C \cup C^{-1})^n $ for sufficiently large n). If K is locally compact and V is a finite-dimensional vector space over K, the topology $ \mathcal{T}_\beta $ on $ \mathbf{GL}(V) $ is just the usual topology.
+Let G be a locally compact group and $\Gamma$ the automorphism group of G. Recall that a topology $\mathcal{T}_\beta$ has been defined on $\Gamma$ (General Topology, Chapter X, § 3, no. 5). It is the coarsest topology for which the mappings $v \mapsto v$ and $v \mapsto v^{-1}$ of $\Gamma$ into $C_c(G; G)$ (space of continuous mappings of G into G with the compact convergence topology) are continuous. The topology $\mathcal{T}_\beta$ is compatible with the group structure on $\Gamma$ (loc. cit.). For every compact subset L of G and every neighbourhood U of $e_G$ in G, let $N(L, U)$ be the set of $\phi \in \Gamma$ such that $\phi(g) \in gU$ and $\phi^{-1}(g) \in gU$ for all $g \in L$; then the $N(L, U)$ form a fundamental system of neighbourhoods of $e_\Gamma$. If G is generated by a compact subset C, the topology $\mathcal{T}_\beta$ is also the coarsest topology for which the mappings $v \mapsto v|C$ and $v \mapsto v^{-1}|C$ of $\Gamma$ into $C_u(C; G)$ are continuous (for every compact subset of G is contained in $(C \cup C^{-1})^n$ for sufficiently large n). If K is locally compact and V is a finite-dimensional vector space over K, the topology $\mathcal{T}_\beta$ on $\mathbf{GL}(V)$ is just the usual topology.
 
 #### Theorem 1 {#lie-iii-s10-thm-1 .statement}
 
-Let G be a finite-dimensional Lie group and $ G_0 $ its identity component. Suppose that G is generated by $ G_0 $ and a finite number of elements.
+Let G be a finite-dimensional Lie group and $G_0$ its identity component. Suppose that G is generated by $G_0$ and a finite number of elements.
 
-(i) There exists on $ \mathrm{Aut}\ G $ one and only one analytic manifold structure satisfying the following condition:
-(AUT) for every analytic manifold M and every mapping f of M into $ \mathrm{Aut}\ G $, f is analytic if and only if the mapping $ (m, g) \mapsto f(m)g $ of $ M \times G $ into G is analytic.
+(i) There exists on $\mathrm{Aut}\ G$ one and only one analytic manifold structure satisfying the following condition:
+(AUT) for every analytic manifold M and every mapping f of M into $\mathrm{Aut}\ G$, f is analytic if and only if the mapping $(m, g) \mapsto f(m)g$ of $M \times G$ into G is analytic.
 
 Suppose in the rest of the statement that Aut G has this structure.
 (ii) Aut G is a finite-dimensional Lie group.
-(iii) The morphism $ \phi : u \mapsto L(u) $ of Aut G into Aut L(G) is analytic.
-(iv) If G is connected, $ \phi $ is an isomorphism of the Lie group Aut G onto a Lie subgroup of Aut L(G); this Lie subgroup is equal to Aut L(G) if G is simply connected.
-(v) Let $ a $ be the set of infinitesimal automorphisms of G. Then $ a $ is a Lie algebra of vector fields and the law of infinitesimal operation associated with the mapping $ (u, g) \mapsto u(g) $ of (Aut G) $ \times $ G into G is an isomorphism of L(Aut G) onto $ a $.
-(vi) The topology of the Lie group Aut G is the topology $ \mathcal{T}_\beta $.
+(iii) The morphism $\phi : u \mapsto L(u)$ of Aut G into Aut L(G) is analytic.
+(iv) If G is connected, $\phi$ is an isomorphism of the Lie group Aut G onto a Lie subgroup of Aut L(G); this Lie subgroup is equal to Aut L(G) if G is simply connected.
+(v) Let $a$ be the set of infinitesimal automorphisms of G. Then $a$ is a Lie algebra of vector fields and the law of infinitesimal operation associated with the mapping $(u, g) \mapsto u(g)$ of (Aut G) $\times$ G into G is an isomorphism of L(Aut G) onto $a$.
+(vi) The topology of the Lie group Aut G is the topology $\mathcal{T}_\beta$.
 (a) The uniqueness of the analytic structure considered in (i) is obvious.
-(b) Suppose that G is connected. Let H be the universal covering space of G, $ p $ the canonical morphism of H onto G and N = Ker $ p $. We introduce the notation $ \theta $, $ \eta $ and Aut(H, N) of Lemma 4. We transport the Lie group structure of Aut L(G) to Aut H by means of $ \theta $. Then Aut H becomes a finite-dimensional Lie group and Aut(H, N) a Lie subgroup of Aut H (Lemma 4 (ii)). We transport the Lie group structure of Aut(H, N) to Aut G by means of $ \eta^{-1} $. Then Aut G becomes a finite-dimensional Lie group. Properties (ii), (iii) and (iv) of the theorem are satisfied and the mapping $ (u, g) \mapsto u(g) $ of (Aut G) $ \times $ G into G is analytic (Lemma 4 (i)). Let M be an analytic manifold, $ f $ a mapping of M into Aut G and $ \phi $ the mapping $ (m, g) \mapsto f(m)g $ of M $ \times $ G into G. Clearly, if $ f $ is analytic, $ \phi $ is analytic. Suppose that $ \phi $ is analytic. Then the T$ \phi $: TM $ \times $ TG $ \to $ TG is analytic; its restriction to M $ \times $ L(G), that is the mapping $ (m, x) \mapsto L(f(m))x $ of M $ \times $ L(G) into L(G) is therefore analytic; as L(G) is finite-dimensional, it follows that the mapping $ m \mapsto L(f(m)) $ of M into Aut L(G) is analytic and hence that $ f $ is analytic. Thus (i) holds.
+(b) Suppose that G is connected. Let H be the universal covering space of G, $p$ the canonical morphism of H onto G and N = Ker $p$. We introduce the notation $\theta$, $\eta$ and Aut(H, N) of Lemma 4. We transport the Lie group structure of Aut L(G) to Aut H by means of $\theta$. Then Aut H becomes a finite-dimensional Lie group and Aut(H, N) a Lie subgroup of Aut H (Lemma 4 (ii)). We transport the Lie group structure of Aut(H, N) to Aut G by means of $\eta^{-1}$. Then Aut G becomes a finite-dimensional Lie group. Properties (ii), (iii) and (iv) of the theorem are satisfied and the mapping $(u, g) \mapsto u(g)$ of (Aut G) $\times$ G into G is analytic (Lemma 4 (i)). Let M be an analytic manifold, $f$ a mapping of M into Aut G and $\phi$ the mapping $(m, g) \mapsto f(m)g$ of M $\times$ G into G. Clearly, if $f$ is analytic, $\phi$ is analytic. Suppose that $\phi$ is analytic. Then the T$\phi$: TM $\times$ TG $\to$ TG is analytic; its restriction to M $\times$ L(G), that is the mapping $(m, x) \mapsto L(f(m))x$ of M $\times$ L(G) into L(G) is therefore analytic; as L(G) is finite-dimensional, it follows that the mapping $m \mapsto L(f(m))$ of M into Aut L(G) is analytic and hence that $f$ is analytic. Thus (i) holds.
 
-Let L(G) be given a norm. For all $ \lambda > 0 $, let B_\lambda be the open ball of centre 0 and radius $ \lambda $ in L(G). We choose $ \lambda > 0 $ sufficiently small for $ \psi = \exp_G|_{B_\lambda} $ to be an isomorphism of the analytic manifold B_\lambda onto the open submanifold $ \psi(B_\lambda) $ of G. Let $ \Phi $ be a filter on Aut G. For $ \Phi $ to converge to Id_G in Aut G, it is necessary and sufficient that L($ \Phi $) converge to Id_{L(G)} in Aut L(G) and hence that L($ \Phi $)|_{B_{\lambda/2}} and L($ \Phi $)^{-1}|_{B_{\lambda/2}} converge uniformly to Id_{B_{\lambda/2}}. This condition implies that $ \Phi|\psi(B_{\lambda/2}) $ and $ \Phi^{-1}|\psi(B_{\lambda/2}) $ converge uniformly to Id_{$ \psi(B_{\lambda/2}) $}. Conversely, suppose that $ \Phi|\psi(B_{\lambda/2}) $ converges uniformly to Id_{$ \psi(B_{\lambda/2}) $}. There exists M $ \in \Phi $ such that, if $ u \in M $, then $ u(\psi(B_{\lambda/2})) \subset \psi(B_{2\lambda/3}) $; then L(u)(B_{\lambda/2}) is a connected subset of L(G) whose image under $ \exp_G $ is contained in $ \psi(B_{2\lambda/3}) $, hence L(u)(B_{\lambda/2}) does not meet $ B_\lambda - B_{2\lambda/3} $ and therefore L(u)(B_{\lambda/2}) $ \subset $ B_\lambda; then the hypothesis that $ \Phi|\psi(B_{\lambda/2}) $ converges uniformly to Id_{$ \psi(B_{\lambda/2}) $} implies that L($ \Phi $)|_{B_{\lambda/2}} converges uniformly to Id_{B_{\lambda/2}}. It then follows that:
+Let L(G) be given a norm. For all $\lambda > 0$, let B_\lambda be the open ball of centre 0 and radius $\lambda$ in L(G). We choose $\lambda > 0$ sufficiently small for $\psi = \exp_G|_{B_\lambda}$ to be an isomorphism of the analytic manifold B_\lambda onto the open submanifold $\psi(B_\lambda)$ of G. Let $\Phi$ be a filter on Aut G. For $\Phi$ to converge to Id_G in Aut G, it is necessary and sufficient that L($\Phi$) converge to Id_{L(G)} in Aut L(G) and hence that L($\Phi$)|_{B_{\lambda/2}} and L($\Phi$)^{-1}|_{B_{\lambda/2}} converge uniformly to Id_{B_{\lambda/2}}. This condition implies that $\Phi|\psi(B_{\lambda/2})$ and $\Phi^{-1}|\psi(B_{\lambda/2})$ converge uniformly to Id_{$\psi(B_{\lambda/2})$}. Conversely, suppose that $\Phi|\psi(B_{\lambda/2})$ converges uniformly to Id_{$\psi(B_{\lambda/2})$}. There exists M $\in \Phi$ such that, if $u \in M$, then $u(\psi(B_{\lambda/2})) \subset \psi(B_{2\lambda/3})$; then L(u)(B_{\lambda/2}) is a connected subset of L(G) whose image under $\exp_G$ is contained in $\psi(B_{2\lambda/3})$, hence L(u)(B_{\lambda/2}) does not meet $B_\lambda - B_{2\lambda/3}$ and therefore L(u)(B_{\lambda/2}) $\subset$ B_\lambda; then the hypothesis that $\Phi|\psi(B_{\lambda/2})$ converges uniformly to Id_{$\psi(B_{\lambda/2})$} implies that L($\Phi$)|_{B_{\lambda/2}} converges uniformly to Id_{B_{\lambda/2}}. It then follows that:
 
 $$
 (\Phi \text{ converges to } \mathrm{Id}_G \text{ in Aut } G) \iff (\Phi \text{ converges to } \mathrm{Id}_G \text{ under } \mathcal{T}_\beta).
@@ -228,19 +228,19 @@ $$
 
 This proves (vi).
 
-Let D be the law of infinitesimal operation associated with the law of left operation of Aut(G) on G. By Propositions 1 and 2 of no. 1, $ D(L(\text{Aut } G)) = a $. Hence a is a Lie algebra of vector fields and D is a morphism of $ L(\text{Aut } G) $ onto a. Let $ x_1 $ and $ x_2 $ be elements of $ L(\text{Aut } G) $ such that $ D(x_1) = D(x_2) $. Then the laws of operation $ (\lambda, g) \mapsto (\exp \lambda x_1)g $ and $ (\lambda, g) \mapsto (\exp \lambda x_2)g $ of K on G have the same associated law of infinitesimal operation; hence, for $ |\lambda| $ sufficiently small, $ \exp \lambda x_1 $ and $ \exp \lambda x_2 $ coincide on a neighbourhood of e ($ \S 4 $, no. 7, Theorem 6), whence $ \exp \lambda x_1 = \exp \lambda x_2 $. It follows that $ x_1 = x_2 $ and hence D is an isomorphism of $ L(\text{Aut } G) $ onto a.
+Let D be the law of infinitesimal operation associated with the law of left operation of Aut(G) on G. By Propositions 1 and 2 of no. 1, $D(L(\text{Aut } G)) = a$. Hence a is a Lie algebra of vector fields and D is a morphism of $L(\text{Aut } G)$ onto a. Let $x_1$ and $x_2$ be elements of $L(\text{Aut } G)$ such that $D(x_1) = D(x_2)$. Then the laws of operation $(\lambda, g) \mapsto (\exp \lambda x_1)g$ and $(\lambda, g) \mapsto (\exp \lambda x_2)g$ of K on G have the same associated law of infinitesimal operation; hence, for $|\lambda|$ sufficiently small, $\exp \lambda x_1$ and $\exp \lambda x_2$ coincide on a neighbourhood of e ($\S 4$, no. 7, Theorem 6), whence $\exp \lambda x_1 = \exp \lambda x_2$. It follows that $x_1 = x_2$ and hence D is an isomorphism of $L(\text{Aut } G)$ onto a.
 
 The theorem has thus been completely proved for G connected.
 
-(c) We pass to the general case. By hypothesis, G is generated by $ G_0 $ and a finite number of elements $ x_1, x_2, \ldots, x_n $. Every $ u \in \text{Aut } G $ leaves $ G_0 $ stable. Let $ \text{Aut}_1 G $ be the set of $ u \in \text{Aut } G $ which, on passing to the quotient, give the identity automorphism of $ G/G_0 $. This is a normal subgroup of $ \text{Aut } G $. By part (b) of the proof, $ \text{Aut } G_0 $ has a canonical Lie group structure and the mapping $ (g_1, g_2, \ldots, g_n, u) \mapsto (ug_1, ug_2, \ldots, ug_n) $ of $ G_0^n \times \text{Aut } G_0 $ into $ G_0^n $ is analytic. Let P be the corresponding semidirect product of $ \text{Aut } G_0 $ by $ G_0^n $; it is a finite-dimensional Lie group ($ \S 1 $, no. 4, Proposition 7).
+(c) We pass to the general case. By hypothesis, G is generated by $G_0$ and a finite number of elements $x_1, x_2, \ldots, x_n$. Every $u \in \text{Aut } G$ leaves $G_0$ stable. Let $\text{Aut}_1 G$ be the set of $u \in \text{Aut } G$ which, on passing to the quotient, give the identity automorphism of $G/G_0$. This is a normal subgroup of $\text{Aut } G$. By part (b) of the proof, $\text{Aut } G_0$ has a canonical Lie group structure and the mapping $(g_1, g_2, \ldots, g_n, u) \mapsto (ug_1, ug_2, \ldots, ug_n)$ of $G_0^n \times \text{Aut } G_0$ into $G_0^n$ is analytic. Let P be the corresponding semidirect product of $\text{Aut } G_0$ by $G_0^n$; it is a finite-dimensional Lie group ($\S 1$, no. 4, Proposition 7).
 
-If $ w \in \text{Aut}_1 G $, we write
+If $w \in \text{Aut}_1 G$, we write
 $$
 w_0 = w|G_0 \in \text{Aut } G_0 \\
 w_i = x_i^{-1}w(x_i) \in G_0 \quad (1 \leq i \leq n) \\
 \zeta(w) = ((w_1, \ldots, w_n), w_0) \in P.
 $$
-For all $ w, w' $ in $ \text{Aut}_1 G $,
+For all $w, w'$ in $\text{Aut}_1 G$,
 $$
 \begin{align*}
 \zeta(w)\zeta(w') &= ((w_1, \ldots, w_n)(w_0(w'_1), \ldots, w_0(w'_n)), w_0w'_0) \\
@@ -250,11 +250,11 @@ $$
 &= \zeta(ww')
 \end{align*}
 $$
-and hence $ \zeta $ is a homomorphism of $ \text{Aut}_1 G $ into P. This homomorphism is obviously injective.
+and hence $\zeta$ is a homomorphism of $\text{Aut}_1 G$ into P. This homomorphism is obviously injective.
 
-We show that $ \zeta(\text{Aut}_1 G) $ is closed in P. Let $ \Phi $ be a filter on $ \text{Aut}_1 G $ such that $ \zeta(\Phi) $ converges to a point $ ((w_1, \ldots, w_n), w_0) $ of P. Then $ \Phi $ converges pointwise to a mapping v of G into G. Clearly v is an endomorphism of the group G. Moreover, v leaves each coset modulo $ G_0 $ stable and $ v|G_0 = w_0 $. It follows that $ v \in \text{Aut}_1 G $. As $ \zeta(v) = ((w_1, \ldots, w_n), w_0) $, we have shown that $ \zeta(\text{Aut}_1 G) $ is closed in P.
+We show that $\zeta(\text{Aut}_1 G)$ is closed in P. Let $\Phi$ be a filter on $\text{Aut}_1 G$ such that $\zeta(\Phi)$ converges to a point $((w_1, \ldots, w_n), w_0)$ of P. Then $\Phi$ converges pointwise to a mapping v of G into G. Clearly v is an endomorphism of the group G. Moreover, v leaves each coset modulo $G_0$ stable and $v|G_0 = w_0$. It follows that $v \in \text{Aut}_1 G$. As $\zeta(v) = ((w_1, \ldots, w_n), w_0)$, we have shown that $\zeta(\text{Aut}_1 G)$ is closed in P.
 
-(d) In part (d) of the proof we assume that $ K = \mathbf{R} $. By $ \S 8 $, no. 2, Theorem 2, $ \zeta(\text{Aut}_1 G) $ is a Lie subgroup of P. We transport the real Lie group structure on $ \zeta(\text{Aut}_1 G) $ to $ \text{Aut}_1 G $ by means of $ \zeta^{-1} $. Thus $ \text{Aut}_1 G $ becomes a finite-dimensional Lie group.
+(d) In part (d) of the proof we assume that $K = \mathbf{R}$. By $\S 8$, no. 2, Theorem 2, $\zeta(\text{Aut}_1 G)$ is a Lie subgroup of P. We transport the real Lie group structure on $\zeta(\text{Aut}_1 G)$ to $\text{Aut}_1 G$ by means of $\zeta^{-1}$. Thus $\text{Aut}_1 G$ becomes a finite-dimensional Lie group.
 
 Let M be an analytic manifold, f a mapping of M into Aut_1G and φ the mapping (m, g) ↦ f(m)g of M × G into G. We have the following equivalences:
 
@@ -271,9 +271,9 @@ Let C be a compact subset of G_0 generating G_0. For a filter Φ to converge to 
 
 Id_a|(C ∪ {x_1} ∪ ... ∪ {x_n}).
 
-The topology of Aut_1G is therefore the topology $ \mathcal{T}_\beta $.
+The topology of Aut_1G is therefore the topology $\mathcal{T}_\beta$.
 
-Clearly Aut_1G is open in Aut G with the topology $ \mathcal{T}_\beta $. There exists on Aut G a Lie group structure compatible with this topology and inducing on Aut_1G the structure constructed above (\S 8, no. 1, Corollary 2 to Theorem 1). The fact that the Lie group Aut G has the properties of the theorem follows from the corresponding properties for Aut_1G.
+Clearly Aut_1G is open in Aut G with the topology $\mathcal{T}_\beta$. There exists on Aut G a Lie group structure compatible with this topology and inducing on Aut_1G the structure constructed above (\S 8, no. 1, Corollary 2 to Theorem 1). The fact that the Lie group Aut G has the properties of the theorem follows from the corresponding properties for Aut_1G.
 
 (e) In part (e) of the proof we assume that K = C. By (c) and Theorem 2 of \S 8, no. 2, there exists on Aut_1G a real Lie group structure such that ζ is an isomorphism of Aut_1G onto a real Lie subgroup of P.
 
@@ -283,27 +283,27 @@ For all α ∈ a, let α_0 denote the restriction of α to G_0; it is an infinit
 
 $$ \alpha_i = x_i^{-1} \alpha(x_i) \in L(G) = L(G_0). $$
 
-Finally, we write $ f(\alpha) = ((\alpha_1, ..., \alpha_n), \alpha_0) \in L(P) $. Then f is a C-linear mapping of a into L(P).
+Finally, we write $f(\alpha) = ((\alpha_1, ..., \alpha_n), \alpha_0) \in L(P)$. Then f is a C-linear mapping of a into L(P).
 
-On the other hand, clearly $ L(\zeta) = f \circ D $. Hence $ L(\zeta)(L(Aut_1G)) = f(a) $ is a complex vector subspace of L(P). By Proposition 2 of \S 4, no. 2, $ \zeta(Aut_1G) $ is a complex Lie subgroup of P and we can proceed exactly as in (d): we transport the complex Lie group structure on $ \zeta(Aut_1G) $ to Aut_1G by means of $ \zeta^{-1} $ and we see as in (d) that Aut_1G has the properties analogous to properties (i), (ii), (iii), (v) and (vi) of the theorem.
+On the other hand, clearly $L(\zeta) = f \circ D$. Hence $L(\zeta)(L(Aut_1G)) = f(a)$ is a complex vector subspace of L(P). By Proposition 2 of \S 4, no. 2, $\zeta(Aut_1G)$ is a complex Lie subgroup of P and we can proceed exactly as in (d): we transport the complex Lie group structure on $\zeta(Aut_1G)$ to Aut_1G by means of $\zeta^{-1}$ and we see as in (d) that Aut_1G has the properties analogous to properties (i), (ii), (iii), (v) and (vi) of the theorem.
 
-Clearly Aut₁G is open in Aut G with the topology $ \mathcal{T}_\beta $. Let $ w \in \mathrm{Aut}\ G $. Let $ \sigma $ be the automorphism $ v \mapsto wvw^{-1} $ of Aut₁G. It is real analytic ($ \S 8 $, no. 1, Theorem 1), $ L(\sigma) $ is an $ \mathbf{R} $-automorphism of $ L(\mathrm{Aut}_1 G) $ and
+Clearly Aut₁G is open in Aut G with the topology $\mathcal{T}_\beta$. Let $w \in \mathrm{Aut}\ G$. Let $\sigma$ be the automorphism $v \mapsto wvw^{-1}$ of Aut₁G. It is real analytic ($\S 8$, no. 1, Theorem 1), $L(\sigma)$ is an $\mathbf{R}$-automorphism of $L(\mathrm{Aut}_1 G)$ and
 
 $$
 D \circ L(\mathrm{Aut}_1 G) \circ D^{-1}
 $$
 
-is an $ \mathbf{R} $-automorphism of $ a $. This automorphism is also the automorphism of $ a $ derived from $ w $ by transport of structure; as $ w $ is K-analytic, we see that $ L(\sigma) $ is K-linear. Hence $ \sigma $ is K-analytic ($ \S 3 $, no. 8, Proposition 32). By $ \S 1 $, no. 9, Proposition 18, there exists on Aut G one and only one Lie K-group structure such that $ \mathrm{Aut}_1 G $ is an open Lie subgroup of Aut G. The fact that this structure has the properties of the theorem follows from the corresponding properties for $ \mathrm{Aut}_1 G $.
+is an $\mathbf{R}$-automorphism of $a$. This automorphism is also the automorphism of $a$ derived from $w$ by transport of structure; as $w$ is K-analytic, we see that $L(\sigma)$ is K-linear. Hence $\sigma$ is K-analytic ($\S 3$, no. 8, Proposition 32). By $\S 1$, no. 9, Proposition 18, there exists on Aut G one and only one Lie K-group structure such that $\mathrm{Aut}_1 G$ is an open Lie subgroup of Aut G. The fact that this structure has the properties of the theorem follows from the corresponding properties for $\mathrm{Aut}_1 G$.
 
 #### Corollary 1 {#lie-iii-s10-thm-1-cor-1 .statement}
 
-*Let G be a finite-dimensional real Lie group and $ G_0 $ its identity component. Suppose that G is generated by $ G_0 $ and a finite number of elements. Then Aut G has the topology $ \mathcal{T}_\beta $ and is a finite-dimensional real Lie group.*
+*Let G be a finite-dimensional real Lie group and $G_0$ its identity component. Suppose that G is generated by $G_0$ and a finite number of elements. Then Aut G has the topology $\mathcal{T}_\beta$ and is a finite-dimensional real Lie group.*
 
 #### Corollary 2 {#lie-iii-s10-thm-1-cor-2 .statement}
 
 *Let G be a semi-simple connected real or complex Lie group. The group Int G is the identity component of Aut G.*
 
-The mapping $ u \mapsto L(u) $ is an isomorphism of Aut G onto a Lie subgroup of Aut $ L(G) $ (Theorem 1). The image of Int G under this isomorphism is Ad G. But Ad G is the identity component of Aut $ L(G) $ ($ \S 9 $, no. 8, Proposition 30 (ii)).
+The mapping $u \mapsto L(u)$ is an isomorphism of Aut G onto a Lie subgroup of Aut $L(G)$ (Theorem 1). The image of Int G under this isomorphism is Ad G. But Ad G is the identity component of Aut $L(G)$ ($\S 9$, no. 8, Proposition 30 (ii)).
 
 ### 3. THE AUTOMORPHISM GROUP OF A LIE GROUP (ULTRAMETRIC CASE)
 
@@ -311,16 +311,16 @@ The mapping $ u \mapsto L(u) $ is an isomorphism of Aut G onto a Lie subgroup of
 
 *When K is ultrametric and locally compact and G is a compact Lie group, assertions (i), (ii), (iii), (v) and (vi) of Theorem 1 are true.*
 (a) The uniqueness of the analytic structure considered in (i) is obvious.
-(b) Suppose that G is the Lie group defined by the normable Lie algebra L. Then G is an open and closed ball in L. Let $ w \in \mathrm{Aut}\ G $. Then $ L(w) $ coincides with $ w $ in a neighbourhood of 0. Let $ x \in G $. Let $ p $ be the characteristic of the residue field. Then $ p^n x $ tends to 0 as $ n $ tends to $ +\infty $. There therefore exists $ n $ such that $ w(p^n x) = L(w)(p^n x) $. Therefore
+(b) Suppose that G is the Lie group defined by the normable Lie algebra L. Then G is an open and closed ball in L. Let $w \in \mathrm{Aut}\ G$. Then $L(w)$ coincides with $w$ in a neighbourhood of 0. Let $x \in G$. Let $p$ be the characteristic of the residue field. Then $p^n x$ tends to 0 as $n$ tends to $+\infty$. There therefore exists $n$ such that $w(p^n x) = L(w)(p^n x)$. Therefore
 
 $$
 p^n w(x) = w(x)^{p^n} = w(x^{p^n}) = w(p^n x)
 = L(w)(p^n x) = p^n L(w)(x)
 $$
 
-whence $ w(x) = L(w)(x) $. Thus, $ w = L(w)|G $.
+whence $w(x) = L(w)(x)$. Thus, $w = L(w)|G$.
 
-Let $ \Gamma $ be the set of $ \gamma \in \mathrm{Aut}\ L(G) $ such that $ \gamma(G) = G $. As G is open and compact in $ L(G) $, $ \Gamma $ is an open subgroup of $ \mathrm{Aut}\ L(G) $. By the above, Aut G is identified with $ \Gamma $, whence there is a Lie group structure on Aut G, with which properties (i), (ii), (iii) and (vi) of Theorem 1 are obvious. Property (v) follows from Propositions 1 and 3 of no. 1.
+Let $\Gamma$ be the set of $\gamma \in \mathrm{Aut}\ L(G)$ such that $\gamma(G) = G$. As G is open and compact in $L(G)$, $\Gamma$ is an open subgroup of $\mathrm{Aut}\ L(G)$. By the above, Aut G is identified with $\Gamma$, whence there is a Lie group structure on Aut G, with which properties (i), (ii), (iii) and (vi) of Theorem 1 are obvious. Property (v) follows from Propositions 1 and 3 of no. 1.
 
 (c) We pass to the general case. By § 7, no. 1, Proposition 1, there exists an open compact subgroup G_0 of G which is of the type considered in (b). Then G is generated by G_0 and a finite number of elements x_1, x_2, ..., x_n. Let Aut_1G be the set of u ∈ Aut G such that u(G_0) = G_0 and u(x_iG_0) = x_iG_0 for 1 ≤ i ≤ n. We define as in the proof of Theorem 1, part (c), a semi-direct product P of Aut G_0 by G_0^n and an injective homomorphism ζ of Aut_1G into P, whose image is closed in P.
 

@@ -757,7 +757,7 @@ chapters:
               page: 3
               pdf_page: 274
             - "no": 4
-              title: Propriétés des intervalles de $ \mathbf{R} $
+              title: Propriétés des intervalles de $\mathbf{R}$
               page: 4
               pdf_page: 275
             - "no": 5
@@ -765,7 +765,7 @@ chapters:
               page: 5
               pdf_page: 276
             - "no": 6
-              title: Structure uniforme additive de $ \mathbf{R} $
+              title: Structure uniforme additive de $\mathbf{R}$
               page: 5
               pdf_page: 276
           exercises:
@@ -781,11 +781,11 @@ chapters:
               page: 6
               pdf_page: 277
             - "no": 2
-              title: Parties compactes de $ \mathbf{R} $
+              title: Parties compactes de $\mathbf{R}$
               page: 6
               pdf_page: 277
             - "no": 3
-              title: Borne supérieure d’une partie de $ \mathbf{R} $
+              title: Borne supérieure d’une partie de $\mathbf{R}$
               page: 7
               pdf_page: 278
             - "no": 4
@@ -793,7 +793,7 @@ chapters:
               page: 7
               pdf_page: 278
             - "no": 5
-              title: Parties connexes de $ \mathbf{R} $
+              title: Parties connexes de $\mathbf{R}$
               page: 8
               pdf_page: 279
             - "no": 6
@@ -809,15 +809,15 @@ chapters:
           pdf_page: 281
           subsections:
             - "no": 1
-              title: La multiplication dans $ \mathbf{R} $
+              title: La multiplication dans $\mathbf{R}$
               page: 10
               pdf_page: 281
             - "no": 2
-              title: Le groupe multiplicatif $ \mathbf{R}^* $
+              title: Le groupe multiplicatif $\mathbf{R}^*$
               page: 11
               pdf_page: 282
             - "no": 3
-              title: Racines $ n $-ièmes
+              title: Racines $n$-ièmes
               page: 12
               pdf_page: 283
           exercises:
@@ -829,7 +829,7 @@ chapters:
           pdf_page: 284
           subsections:
             - "no": 1
-              title: Homéomorphie des intervalles ouverts de $ \mathbf{R} $
+              title: Homéomorphie des intervalles ouverts de $\mathbf{R}$
               page: 13
               pdf_page: 284
             - "no": 2
@@ -837,7 +837,7 @@ chapters:
               page: 13
               pdf_page: 284
             - "no": 3
-              title: L’addition et la multiplication dans $ \overline{\mathbf{R}} $
+              title: L’addition et la multiplication dans $\overline{\mathbf{R}}$
               page: 15
               pdf_page: 286
           exercises:

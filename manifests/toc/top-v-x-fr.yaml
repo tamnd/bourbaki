@@ -52,11 +52,11 @@ chapters:
           pdf_page: 18
           subsections:
             - "no": 1
-              title: Définition de $ a^x $ et de $ \log_a x $
+              title: Définition de $a^x$ et de $\log_a x$
               page: 11
               pdf_page: 18
             - "no": 2
-              title: Variation des fonctions $ a^x $ et $ \log_a x $
+              title: Variation des fonctions $a^x$ et $\log_a x$
               page: 13
               pdf_page: 20
             - "no": 3
@@ -76,32 +76,32 @@ chapters:
       pdf_page: 29
       sections:
         - section: 1
-          title: L’espace numérique $ \mathbf{R}^n $
+          title: L’espace numérique $\mathbf{R}^n$
           page: 1
           pdf_page: 29
           subsections:
             - "no": 1
-              title: Topologie de $ \mathbf{R}^n $
+              title: Topologie de $\mathbf{R}^n$
               page: 1
               pdf_page: 29
             - "no": 2
-              title: Le groupe additif $ \mathbf{R}^n $
+              title: Le groupe additif $\mathbf{R}^n$
               page: 2
               pdf_page: 30
             - "no": 3
-              title: L’espace vectoriel $ \mathbf{R}^n $
+              title: L’espace vectoriel $\mathbf{R}^n$
               page: 2
               pdf_page: 30
             - "no": 4
-              title: Variétés linéaires affines de $ \mathbf{R}^n $
+              title: Variétés linéaires affines de $\mathbf{R}^n$
               page: 4
               pdf_page: 32
             - "no": 5
-              title: Topologie des espaces vectoriels et des algèbres sur le corps $ \mathbf{R} $
+              title: Topologie des espaces vectoriels et des algèbres sur le corps $\mathbf{R}$
               page: 5
               pdf_page: 33
             - "no": 6
-              title: Topologie des espaces de matrices sur $ \mathbf{R} $
+              title: Topologie des espaces de matrices sur $\mathbf{R}$
               page: 6
               pdf_page: 34
           exercises:
@@ -113,7 +113,7 @@ chapters:
           pdf_page: 35
           subsections:
             - "no": 1
-              title: Distance euclidienne dans $ \mathbf{R}^n $
+              title: Distance euclidienne dans $\mathbf{R}^n$
               page: 7
               pdf_page: 35
             - "no": 2
@@ -168,21 +168,21 @@ chapters:
         pdf_page: 56
     - book: top-v-x-fr
       chapter: VII
-      title: LES GROUPES ADDITIFS $ \mathbf{R}^n $
+      title: LES GROUPES ADDITIFS $\mathbf{R}^n$
       page: 1
       pdf_page: 59
       sections:
         - section: 1
-          title: Sous-groupes et groupes quotients de $ \mathbf{R}^n $
+          title: Sous-groupes et groupes quotients de $\mathbf{R}^n$
           page: 1
           pdf_page: 59
           subsections:
             - "no": 1
-              title: Sous-groupes discrets de $ \mathbf{R}^n $
+              title: Sous-groupes discrets de $\mathbf{R}^n$
               page: 2
               pdf_page: 60
             - "no": 2
-              title: Sous-groupes fermés de $ \mathbf{R}^n $
+              title: Sous-groupes fermés de $\mathbf{R}^n$
               page: 4
               pdf_page: 62
             - "no": 3
@@ -190,11 +190,11 @@ chapters:
               page: 6
               pdf_page: 64
             - "no": 4
-              title: Groupes quotients séparés de $ \mathbf{R}^n $
+              title: Groupes quotients séparés de $\mathbf{R}^n$
               page: 8
               pdf_page: 66
             - "no": 5
-              title: Sous-groupes et groupes quotients de $ \mathbf{T}^n $
+              title: Sous-groupes et groupes quotients de $\mathbf{T}^n$
               page: 9
               pdf_page: 67
             - "no": 6
@@ -205,40 +205,40 @@ chapters:
             page: 19
             pdf_page: 77
         - section: 2
-          title: Homomorphismes continus de $ \mathbf{R}^n $ et de ses groupes quotients
+          title: Homomorphismes continus de $\mathbf{R}^n$ et de ses groupes quotients
           page: 11
           pdf_page: 69
           subsections:
             - "no": 1
-              title: Homomorphismes continus du groupe $ \mathbf{R}^m $ dans le groupe $ \mathbf{R}^n $
+              title: Homomorphismes continus du groupe $\mathbf{R}^m$ dans le groupe $\mathbf{R}^n$
               page: 11
               pdf_page: 69
             - "no": 2
-              title: Définition locale d’un homomorphisme continu de $ \mathbf{R}^n $ dans un groupe topologique
+              title: Définition locale d’un homomorphisme continu de $\mathbf{R}^n$ dans un groupe topologique
               page: 11
               pdf_page: 69
             - "no": 3
-              title: Homomorphismes continus de $ \mathbf{R}^m $ dans $ \mathbf{T}^n $
+              title: Homomorphismes continus de $\mathbf{R}^m$ dans $\mathbf{T}^n$
               page: 13
               pdf_page: 71
             - "no": 4
-              title: Automorphismes de $ \mathbf{T}^n $
+              title: Automorphismes de $\mathbf{T}^n$
               page: 14
               pdf_page: 72
           exercises:
             page: 23
             pdf_page: 81
         - section: 3
-          title: Sommes infinies dans les groupes $ \mathbf{R}^n $
+          title: Sommes infinies dans les groupes $\mathbf{R}^n$
           page: 16
           pdf_page: 74
           subsections:
             - "no": 1
-              title: Familles sommables dans $ \mathbf{R}^n $
+              title: Familles sommables dans $\mathbf{R}^n$
               page: 16
               pdf_page: 74
             - "no": 2
-              title: Séries dans $ \mathbf{R}^n $
+              title: Séries dans $\mathbf{R}^n$
               page: 17
               pdf_page: 75
           exercises:
@@ -639,11 +639,11 @@ chapters:
               page: 4
               pdf_page: 253
             - "no": 4
-              title: Propriétés des espaces $ \mathcal{F}_S(X; Y) $
+              title: Propriétés des espaces $\mathcal{F}_S(X; Y)$
               page: 5
               pdf_page: 254
             - "no": 5
-              title: Parties complètes de $ \mathcal{F}_S(X; Y) $
+              title: Parties complètes de $\mathcal{F}_S(X; Y)$
               page: 6
               pdf_page: 255
             - "no": 6

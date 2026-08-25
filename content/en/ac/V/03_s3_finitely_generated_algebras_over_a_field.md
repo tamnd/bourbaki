@@ -29,7 +29,7 @@ subsections:
       pdf_page: 370
 statements: 17
 exercises: 9
-content_sha256: 679ad8d72827f4f6a6b6b2ce85dec148c952b3063614ec720d1d223aa5bec385
+content_sha256: 20f26dd22ad25491f63900b8e15ca528067c4aa99a1970e5d38a3f0eced5a686
 ---
 
 ## 3. FINITELY GENERATED ALGEBRAS OVER A FIELD
@@ -40,132 +40,132 @@ In this no. and the following, k denotes a commutative field.
 
 #### Theorem 1 (Normalization Lemma) {#ac-v-s3-thm-1 .statement}
 
-Let A be a finitely generated k-algebra and let $ a_1 \subset a_2 \subset \ldots \subset a_p $ be an increasing finite sequence of ideals of A such that $ p \geq 1 $ and $ a_p \neq A $. There exists a finite sequence $ (x_i)_{1 \leq i \leq n} $ of elements of A which are algebraically independent over k (Chapter III, § 1, no. 1) and such that:
-(a) A is integral over the ring $ B = k[x_1, \ldots, x_n] $.
-(b) For all j such that $ 1 \leq j \leq p $, there exists an increasing sequence $ (h(j))_{j \leq j \leq p} $ of integers such that for all j the ideal $ a_j \cap B $ of B is generated $ x_1, \ldots, x_{h(j)} $.
+Let A be a finitely generated k-algebra and let $a_1 \subset a_2 \subset \ldots \subset a_p$ be an increasing finite sequence of ideals of A such that $p \geq 1$ and $a_p \neq A$. There exists a finite sequence $(x_i)_{1 \leq i \leq n}$ of elements of A which are algebraically independent over k (Chapter III, § 1, no. 1) and such that:
+(a) A is integral over the ring $B = k[x_1, \ldots, x_n]$.
+(b) For all j such that $1 \leq j \leq p$, there exists an increasing sequence $(h(j))_{j \leq j \leq p}$ of integers such that for all j the ideal $a_j \cap B$ of B is generated $x_1, \ldots, x_{h(j)}$.
 
-Note first that it is sufficient to prove the theorem when A is a polynomial algebra $ k[Y_1, \ldots, Y_m] $. For in the general case, A is isomorphic to a quotient of such an algebra A' by an ideal $ a'_0 $; let $ a'_j $ denote the inverse image of $ a_j $ in A' and let $ x'_i $ ($ 1 \leq i \leq r $) be elements of A' satisfying the conditions of the statement for the ring A' and the increasing sequence of ideals $ a'_0 \subset a'_1 \subset \ldots \subset a'_p $. Then the images $ x_i $ of the $ x'_i $ in A for $ i > h(0) $ satisfy the desired conditions; this is obvious for condition (b) and for condition (a) this follows from § 1, no. 1, Proposition 2; finally, if the $ x_i(h(0) + 1 \leq i \leq r) $ were not algebraically independent over k, there would be a non-zero polynomial
+Note first that it is sufficient to prove the theorem when A is a polynomial algebra $k[Y_1, \ldots, Y_m]$. For in the general case, A is isomorphic to a quotient of such an algebra A' by an ideal $a'_0$; let $a'_j$ denote the inverse image of $a_j$ in A' and let $x'_i$ ($1 \leq i \leq r$) be elements of A' satisfying the conditions of the statement for the ring A' and the increasing sequence of ideals $a'_0 \subset a'_1 \subset \ldots \subset a'_p$. Then the images $x_i$ of the $x'_i$ in A for $i > h(0)$ satisfy the desired conditions; this is obvious for condition (b) and for condition (a) this follows from § 1, no. 1, Proposition 2; finally, if the $x_i(h(0) + 1 \leq i \leq r)$ were not algebraically independent over k, there would be a non-zero polynomial
 
 $$
 Q \in k[X_{h(0)+1}, \ldots, X_r]
 $$
 
-where the $ Q_j $ are polynomials in $ k[Y_1, \ldots, Y_m] $; as $ a_p \neq 0 $ is invertible in $ k $, (4) is certainly an equation of integral dependence with coefficients in B, whence our assertion.
+where the $Q_j$ are polynomials in $k[Y_1, \ldots, Y_m]$; as $a_p \neq 0$ is invertible in $k$, (4) is certainly an equation of integral dependence with coefficients in B, whence our assertion.
 
-The field of fractions $ k(Y_1, \ldots, Y_r) $ of A is therefore algebraic over the field of fractions $ k(x_1, \ldots, x_m) $ of B, which proves (Algebra, Chapter V, § 5, no. 3, Theorem 4) that the $ x_i $ ($ 1 \leq i \leq m $) are algebraically independent. Moreover, $ a \cap B = Bx_1 $; for every element $ z \in a, \cap B $ may be written $ z = x_1 z' $ where $ z' \in A \cap k(x_1, \ldots, x_r) $; but $ A \cap k(x_1, \ldots, x_r) = k[x_1, \ldots, x_m] = B $ since $ B $ is integrally closed ($ \S $ 1, no. 3, Corollary 2 to Proposition 13); therefore $ z' \in B $, which completes the proof of properties (a) and (b) in this case.
+The field of fractions $k(Y_1, \ldots, Y_r)$ of A is therefore algebraic over the field of fractions $k(x_1, \ldots, x_m)$ of B, which proves (Algebra, Chapter V, § 5, no. 3, Theorem 4) that the $x_i$ ($1 \leq i \leq m$) are algebraically independent. Moreover, $a \cap B = Bx_1$; for every element $z \in a, \cap B$ may be written $z = x_1 z'$ where $z' \in A \cap k(x_1, \ldots, x_r)$; but $A \cap k(x_1, \ldots, x_r) = k[x_1, \ldots, x_m] = B$ since $B$ is integrally closed ($\S$ 1, no. 3, Corollary 2 to Proposition 13); therefore $z' \in B$, which completes the proof of properties (a) and (b) in this case.
 
-(A2) **General case ($ p = 1 $).**
-We argue by induction on $ m $, the case $ m = 0 $ being trivial. We may obviously suppose that $ a_i \neq 0 $ (otherwise we may take $ x_i = Y $, for $ 1 \leq i \leq m $ and $ h(1) = 0 $). Let $ x_1 $ be a non-zero element of $ a_i $; by (A1) there exist $ t_2, \ldots, t_m $ such that $ x_1, t_2, \ldots, t $, are algebraically independent over $ k $, $ A $ is integral over $ C = k[x_1, t_2, \ldots, t_m] $ and $ x_1 A \cap C = x_1 C $. By the induction hypothesis there exist elements $ x_2, \ldots, x_m $ of $ k[t_2, \ldots, t_m] $ and an integer $ h $ such that $ k[t_2, \ldots, t_m] $ is integral over $ B' = k[x_2, \ldots, x_m] $, $ x_2, \ldots, x_m $ are algebraically independent over $ k $ and the ideal $ a_i \cap B' $ is generated by $ x_2, \ldots, x_h $. Then $ C $ is integral over $ B = k[x_1, x_2, \ldots, x_m] $ ($ \S $ 1, no. 1, Corollary to Proposition 5 ) and hence so is $ A $ ($ \S $ 1, no. 1, Proposition 6 ); the same argument as in the case (A1) shows that $ x_1, \ldots, x_m $ are algebraically independent over $ k $; finally, as $ x_1 \in a_i $, and $ B = B'[x_1], a_i \cap B = Bx, + (a_i \cap B') $ and, as $ a_i \cap B' $ is generated (in $ B' $) by $ x_2, \ldots, x_h, a_i \cap B $ is generated (in $ B $) by $ x_1, x_2, \ldots, x_h $.
+(A2) **General case ($p = 1$).**
+We argue by induction on $m$, the case $m = 0$ being trivial. We may obviously suppose that $a_i \neq 0$ (otherwise we may take $x_i = Y$, for $1 \leq i \leq m$ and $h(1) = 0$). Let $x_1$ be a non-zero element of $a_i$; by (A1) there exist $t_2, \ldots, t_m$ such that $x_1, t_2, \ldots, t$, are algebraically independent over $k$, $A$ is integral over $C = k[x_1, t_2, \ldots, t_m]$ and $x_1 A \cap C = x_1 C$. By the induction hypothesis there exist elements $x_2, \ldots, x_m$ of $k[t_2, \ldots, t_m]$ and an integer $h$ such that $k[t_2, \ldots, t_m]$ is integral over $B' = k[x_2, \ldots, x_m]$, $x_2, \ldots, x_m$ are algebraically independent over $k$ and the ideal $a_i \cap B'$ is generated by $x_2, \ldots, x_h$. Then $C$ is integral over $B = k[x_1, x_2, \ldots, x_m]$ ($\S$ 1, no. 1, Corollary to Proposition 5 ) and hence so is $A$ ($\S$ 1, no. 1, Proposition 6 ); the same argument as in the case (A1) shows that $x_1, \ldots, x_m$ are algebraically independent over $k$; finally, as $x_1 \in a_i$, and $B = B'[x_1], a_i \cap B = Bx, + (a_i \cap B')$ and, as $a_i \cap B'$ is generated (in $B'$) by $x_2, \ldots, x_h, a_i \cap B$ is generated (in $B$) by $x_1, x_2, \ldots, x_h$.
 
-(B) **Passage from $ p - 1 $ top.**
-Let $ t_1, \ldots, t_r $, be elements of $ A $ satisfying the conditions of the theorem for the increasing sequence of ideals $ a_1 \subset \ldots \subset a_{p-1} $ and let us write $ r = h(p - 1) $. By (A2) there exist elements $ x_{r+1}, \ldots, x_s $ of $ k[t_{r+1}, \ldots, t_m] $ and an integer s such that
+(B) **Passage from $p - 1$ top.**
+Let $t_1, \ldots, t_r$, be elements of $A$ satisfying the conditions of the theorem for the increasing sequence of ideals $a_1 \subset \ldots \subset a_{p-1}$ and let us write $r = h(p - 1)$. By (A2) there exist elements $x_{r+1}, \ldots, x_s$ of $k[t_{r+1}, \ldots, t_m]$ and an integer s such that
 $$
 C = k[t_{r+1}, \ldots, t_m]
 $$
-is integral over $ B' = k[x_{r+1}, \ldots, x_m] $, $ x_{r+1}, \ldots, x_s $ are algebraically independent over $ k $ and the ideal $ a_p \cap B' $ is generated by $ x_{r+1}, \ldots, x_s $. Writing $ x_i = t_i $ for $ i \leq r $ the family $ (x_i)_{1 \leq i \leq m} $ obtained solves the problem with $ h(p) = s $.
-For $ A $ is integral over $ C[t_1, \ldots, t_r] = C[x_1, \ldots, x_r] $ and hence also over $ B = k[x_1, \ldots, x_m] = B'[x_1, \ldots, x_r] $ since $ C $ is integral over $ B' $ ($ \S $ 1, no. 1, Corollary to Proposition 5 and Proposition 6); it can be shown as in the case (A1) that the $ x_i $ are algebraically independent over $ k $. On the other hand, for $ j \leq p - 1 $, the ideal
+is integral over $B' = k[x_{r+1}, \ldots, x_m]$, $x_{r+1}, \ldots, x_s$ are algebraically independent over $k$ and the ideal $a_p \cap B'$ is generated by $x_{r+1}, \ldots, x_s$. Writing $x_i = t_i$ for $i \leq r$ the family $(x_i)_{1 \leq i \leq m}$ obtained solves the problem with $h(p) = s$.
+For $A$ is integral over $C[t_1, \ldots, t_r] = C[x_1, \ldots, x_r]$ and hence also over $B = k[x_1, \ldots, x_m] = B'[x_1, \ldots, x_r]$ since $C$ is integral over $B'$ ($\S$ 1, no. 1, Corollary to Proposition 5 and Proposition 6); it can be shown as in the case (A1) that the $x_i$ are algebraically independent over $k$. On the other hand, for $j \leq p - 1$, the ideal
 $$
 a_j \cap k[x_1, \ldots, x_r, t_{r+1}, \ldots, t_m]
 $$
-is by hypothesis the set of polynomials in $ x_1, \ldots, x_r, t_{r+1}, \ldots, t_m $ all of whose monomials contain one of the elements $ x_1, \ldots, x_{h(j)} $; as $ x_{r+1}, \ldots, x_m $ are polynomials in $ t_{r+1}, \ldots, t $, with coefficients in $ k $, it is seen immediately that a polynomial in $ x_1, \ldots, x_r, x_{r+1}, \ldots, x_s $ (with coefficients in $ k $) can belong to $ a_j $ only if all its monomials contain one of the elements $ x_1, \ldots, x_{h(j)} $. Finally, as $ x_1, \ldots, x_r $ belong to $ a_{p-1} $, and hence also to $ a_p $, $ a_p \cap B'[x_1, \ldots, x_r] $ consists of the polynomials in $ x_1, \ldots, x_r $ with coefficients in $ B' $ whose constant term belongs to $ a_p \cap B' $; this ideal is therefore generated by $ x_1, \ldots, x_r, x_{r+1}, \ldots, x_t $.
+is by hypothesis the set of polynomials in $x_1, \ldots, x_r, t_{r+1}, \ldots, t_m$ all of whose monomials contain one of the elements $x_1, \ldots, x_{h(j)}$; as $x_{r+1}, \ldots, x_m$ are polynomials in $t_{r+1}, \ldots, t$, with coefficients in $k$, it is seen immediately that a polynomial in $x_1, \ldots, x_r, x_{r+1}, \ldots, x_s$ (with coefficients in $k$) can belong to $a_j$ only if all its monomials contain one of the elements $x_1, \ldots, x_{h(j)}$. Finally, as $x_1, \ldots, x_r$ belong to $a_{p-1}$, and hence also to $a_p$, $a_p \cap B'[x_1, \ldots, x_r]$ consists of the polynomials in $x_1, \ldots, x_r$ with coefficients in $B'$ whose constant term belongs to $a_p \cap B'$; this ideal is therefore generated by $x_1, \ldots, x_r, x_{r+1}, \ldots, x_t$.
 
 #### Corollary 1 {#ac-v-s3-thm-1-cor-1 .statement}
 
-Let $ A $ be an integral domain and $ B $ a finitely generated $ A $-algebra containing $ A $ as a subring. Then there exist an element $ s \neq 0 $ of $ A $ and a subalgebra $ B' $ of $ B $ isomorphic to a polynomial algebra $ A[Y_1, \ldots, Y_n] $ such that $ B[s^{-1}] $ (Chapter II, § 2, no. 1) is integral over $ B'[s^{-1}] $.
+Let $A$ be an integral domain and $B$ a finitely generated $A$-algebra containing $A$ as a subring. Then there exist an element $s \neq 0$ of $A$ and a subalgebra $B'$ of $B$ isomorphic to a polynomial algebra $A[Y_1, \ldots, Y_n]$ such that $B[s^{-1}]$ (Chapter II, § 2, no. 1) is integral over $B'[s^{-1}]$.
 
-We write $ S = A - \{0\} $ and let $ k = S^{-1}A $ the field of fractions of $ A $; clearly $ S^{-1}B $ is a finitely generated $ k $-algebra and, as it contains $ k $ by hypothesis (Chapter II, § 2, no. 4, Theorem 1), it is not reduced to 0. By Theorem 1 (applied top = 1 and $ a_i = 0 $) there exists therefore a finite sequence $ (x_i)_{1 \leq i \leq n} $ of elements of $ S^{-1}B $ which are algebraically independent over $ k $ and such that $ S^{-1}B $ is integral over $ k[x_1, \ldots, x_n] $. Let $ (z_j)_{1 \leq j \leq m} $ be a system of generators of the $ A $-algebra $ B $; in $ S^{-1}B $ each of the $ z_j/1 $ satisfies an equation of integral dependence
+We write $S = A - \{0\}$ and let $k = S^{-1}A$ the field of fractions of $A$; clearly $S^{-1}B$ is a finitely generated $k$-algebra and, as it contains $k$ by hypothesis (Chapter II, § 2, no. 4, Theorem 1), it is not reduced to 0. By Theorem 1 (applied top = 1 and $a_i = 0$) there exists therefore a finite sequence $(x_i)_{1 \leq i \leq n}$ of elements of $S^{-1}B$ which are algebraically independent over $k$ and such that $S^{-1}B$ is integral over $k[x_1, \ldots, x_n]$. Let $(z_j)_{1 \leq j \leq m}$ be a system of generators of the $A$-algebra $B$; in $S^{-1}B$ each of the $z_j/1$ satisfies an equation of integral dependence
 
 $$
 (z_j/1)^{a_j} + \sum_{h < a_j} P_{hj}(x_1, \ldots, x_n)(z_j/1)^h = 0
 $$
 
-where the $ P_{hj} $ are polynomials in the $ x_i $ with coefficients in $ k $. There exists an element $ s \neq 0 $ of $ A $ such that we may write $ x_i = y_i/s $ whereby, $ \in B $ for $ 1 \leq i \leq n $ and all the coefficients of the $ P_{hj} $ are of the form $ c/s $ where $ c \in A $; finally, replacing if need be, $ s $ by a product of elements of $ S $, we may assume that in $ B $
+where the $P_{hj}$ are polynomials in the $x_i$ with coefficients in $k$. There exists an element $s \neq 0$ of $A$ such that we may write $x_i = y_i/s$ whereby, $\in B$ for $1 \leq i \leq n$ and all the coefficients of the $P_{hj}$ are of the form $c/s$ where $c \in A$; finally, replacing if need be, $s$ by a product of elements of $S$, we may assume that in $B$
 
 $$
 sz_j^{a_j} + \sum_{h < a_j} Q_{hj}z_j^h = 0
 $$
 
-where the $ Q_{hj} $ are polynomials in $ y_1, \ldots, y_n $ with coefficients in $ A $; if we write $ z'_j = sz_j $, it is seen, multiplying (6) by $ s^{a_j-1} $, that $ z'_j $ is integral over $ B' = A[y_1, \ldots, y_n] $. We show that the $ y_i $ are algebraically independent over $ A $; if there is a relation of the form $ \sum_p a_p y_1^{p_1} \ldots y_n^{p_n} = 0 $ where $ a_p \in A $ for all $ p $, we deduce that $ \sum_p a'_p x_1^{p_1} \ldots x_n^{p_n} = 0 $ in $ S^{-1}B $, where $ a'_p = a_p s^{p_1 + \cdots + p_n} $ in $ k $; by hypothesis therefore $ a'_p = 0 $ for all $ p $, whence $ a_p = 0 $ for all $ p $. Moreover, in the ring $ B[s^{-1}] $ each of the $ z'_j/1 $ is integral over $ B'[s^{-1}] $ (\S 1, no. 1, Proposition 2) and, as $ z_j/1 = (z'_j/1)(1/s) $ in $ B[s^{-1}] $, it is seen that the $ z_j/1 $ are integral over $ B'[s^{-1}] $, which completes the proof (\S 1, no. 1, Proposition 4).
+where the $Q_{hj}$ are polynomials in $y_1, \ldots, y_n$ with coefficients in $A$; if we write $z'_j = sz_j$, it is seen, multiplying (6) by $s^{a_j-1}$, that $z'_j$ is integral over $B' = A[y_1, \ldots, y_n]$. We show that the $y_i$ are algebraically independent over $A$; if there is a relation of the form $\sum_p a_p y_1^{p_1} \ldots y_n^{p_n} = 0$ where $a_p \in A$ for all $p$, we deduce that $\sum_p a'_p x_1^{p_1} \ldots x_n^{p_n} = 0$ in $S^{-1}B$, where $a'_p = a_p s^{p_1 + \cdots + p_n}$ in $k$; by hypothesis therefore $a'_p = 0$ for all $p$, whence $a_p = 0$ for all $p$. Moreover, in the ring $B[s^{-1}]$ each of the $z'_j/1$ is integral over $B'[s^{-1}]$ (\S 1, no. 1, Proposition 2) and, as $z_j/1 = (z'_j/1)(1/s)$ in $B[s^{-1}]$, it is seen that the $z_j/1$ are integral over $B'[s^{-1}]$, which completes the proof (\S 1, no. 1, Proposition 4).
 
 #### Corollary 2 {#ac-v-s3-thm-1-cor-2 .statement}
 
-Let $ K $ be a field, $ A $ a subring of $ K $ and $ L $ the field of fractions of $ A $. If $ K $ is a finitely generated $ A $-algebra, $ [K:L] $ is finite and there exists $ a \neq 0 $ in $ A $ such that $ L = A[a^{-1}] $.
+Let $K$ be a field, $A$ a subring of $K$ and $L$ the field of fractions of $A$. If $K$ is a finitely generated $A$-algebra, $[K:L]$ is finite and there exists $a \neq 0$ in $A$ such that $L = A[a^{-1}]$.
 
-It follows from Corollary 1 that there exist elements $ x_1, \ldots, x_n $ of $ K $ and an element $ a \neq 0 $ of $ A $ such that $ x_1, \ldots, x_n $ are algebraically independent over $ A $ (and therefore over L) and that K is integral over the subring $ A[x_1, \ldots, x_n, a^{-1}] $. Then it follows from §2, no.1, Lemma 2 that $ A[x_1, \ldots, x_n, a^{-1}] $ is a field. But the only invertible elements of a polynomial ring $ C[Y_1, \ldots, Y_n] $ over an integral domain C are the invertible elements of C; applying this remark to $ C = A[a^{-1}] $, it is seen that necessarily $ n = 0 $ and that $ A[a^{-1}] $ is a field equal to L by definition of the latter. As K is integral over L and is a finitely generated L-algebra, the degree [K:L] is finite (§ 1, no. 1, Proposition 4).
+It follows from Corollary 1 that there exist elements $x_1, \ldots, x_n$ of $K$ and an element $a \neq 0$ of $A$ such that $x_1, \ldots, x_n$ are algebraically independent over $A$ (and therefore over L) and that K is integral over the subring $A[x_1, \ldots, x_n, a^{-1}]$. Then it follows from §2, no.1, Lemma 2 that $A[x_1, \ldots, x_n, a^{-1}]$ is a field. But the only invertible elements of a polynomial ring $C[Y_1, \ldots, Y_n]$ over an integral domain C are the invertible elements of C; applying this remark to $C = A[a^{-1}]$, it is seen that necessarily $n = 0$ and that $A[a^{-1}]$ is a field equal to L by definition of the latter. As K is integral over L and is a finitely generated L-algebra, the degree [K:L] is finite (§ 1, no. 1, Proposition 4).
 
 #### Corollary 3 {#ac-v-s3-thm-1-cor-3 .statement}
 
-Let A be an integral domain, B a finitely generated A-algebra and b an element of B such that $ zb^n \neq 0 $ for all $ z \neq 0 $ in A and every integer $ n > 0 $. Let $ \varphi : A \to B $ be the canonical homomorphism; there exists $ a \neq 0 $ in A such that, for every homomorphism f from A to an algebraically closed field L such that $ f(a) \neq 0 $, there exists a homomorphism g from B to L such that $ g(b) \neq 0 $ and $ f = g \circ \varphi $.
+Let A be an integral domain, B a finitely generated A-algebra and b an element of B such that $zb^n \neq 0$ for all $z \neq 0$ in A and every integer $n > 0$. Let $\varphi : A \to B$ be the canonical homomorphism; there exists $a \neq 0$ in A such that, for every homomorphism f from A to an algebraically closed field L such that $f(a) \neq 0$, there exists a homomorphism g from B to L such that $g(b) \neq 0$ and $f = g \circ \varphi$.
 
-The hypothesis on b implies that, if h is the canonical homomorphism $ x \mapsto x/1 $ of B to $ B[b^{-1}] $, the homomorphism $ h \circ \varphi $ of A to $ B[b^{-1}] $ is injective. By Corollary 1 there therefore exist an element $ a \neq 0 $ of A and a subring $ B' $ of $ B[b^{-1}] $ such that $ B[b^{-1}, a^{-1}] $ is integral over $ B'[a^{-1}] $ and $ B' $ is isomorphic to a polynomial algebra $ A[Y_1, \ldots, Y_n] $. Let f be a homomorphism from A to an algebraically closed field L such that $ f(a) \neq 0 $; there exists a homomorphism from $ A[Y_1, \ldots, Y_n] $ to L extending f and hence there exists a homomorphism $ f' $ from $ B' $ to L extending f. As $ f'(a) \neq 0 $ in L, there exists a homomorphism $ f'' $ from $ B'[a^{-1}] $ to L such that
+The hypothesis on b implies that, if h is the canonical homomorphism $x \mapsto x/1$ of B to $B[b^{-1}]$, the homomorphism $h \circ \varphi$ of A to $B[b^{-1}]$ is injective. By Corollary 1 there therefore exist an element $a \neq 0$ of A and a subring $B'$ of $B[b^{-1}]$ such that $B[b^{-1}, a^{-1}]$ is integral over $B'[a^{-1}]$ and $B'$ is isomorphic to a polynomial algebra $A[Y_1, \ldots, Y_n]$. Let f be a homomorphism from A to an algebraically closed field L such that $f(a) \neq 0$; there exists a homomorphism from $A[Y_1, \ldots, Y_n]$ to L extending f and hence there exists a homomorphism $f'$ from $B'$ to L extending f. As $f'(a) \neq 0$ in L, there exists a homomorphism $f''$ from $B'[a^{-1}]$ to L such that
 
 $$
 f''(x/a^n) = f'(x) \cdot (f(a))^{-n}
 $$
 
-for all $ x \in B' $ and all $ n > 0 $ (Chapter II, §2, no. 1, Proposition 1). Finally, as $ B[b^{-1}, a^{-1}] $ is integral over $ B'[a^{-1}] $, there exists a homomorphism $ f''' $ from $ B[b^{-1}, a^{-1}] $ to L extending $ f'' $ (§2, no. 1, Corollary 4 to Theorem 1). If $ j : x \mapsto x/1 $ is the canonical homomorphism from B to $ B[b^{-1}, a^{-1}] $, $ g = f''' \circ j $ solves the problem for $ j(b) $ is invertible in $ B[b^{-1}, a^{-1}] $ and hence $ f'''(j(b)) \neq 0 $ in L.
+for all $x \in B'$ and all $n > 0$ (Chapter II, §2, no. 1, Proposition 1). Finally, as $B[b^{-1}, a^{-1}]$ is integral over $B'[a^{-1}]$, there exists a homomorphism $f'''$ from $B[b^{-1}, a^{-1}]$ to L extending $f''$ (§2, no. 1, Corollary 4 to Theorem 1). If $j : x \mapsto x/1$ is the canonical homomorphism from B to $B[b^{-1}, a^{-1}]$, $g = f''' \circ j$ solves the problem for $j(b)$ is invertible in $B[b^{-1}, a^{-1}]$ and hence $f'''(j(b)) \neq 0$ in L.
 
-Note that, if B is assumed to be an integral domain and $ A \subset B $ in Corollary 3, the hypothesis on b is equivalent to $ b \neq 0 $.
+Note that, if B is assumed to be an integral domain and $A \subset B$ in Corollary 3, the hypothesis on b is equivalent to $b \neq 0$.
 
 ### 2. THE INTEGRAL CLOSURE OF A FINITELY GENERATED ALGEBRA OVER A FIELD
 
 #### Theorem 2 {#ac-v-s3-thm-2 .statement}
 
-Let A be a finitely generated integral k-algebra, K its field of fractions and $ A' $ the integral closure of A in a field K' which is a finite algebraic extension of K. Then $ A' $ is a finitely generated A-module and a finitely generated k-algebra.
+Let A be a finitely generated integral k-algebra, K its field of fractions and $A'$ the integral closure of A in a field K' which is a finite algebraic extension of K. Then $A'$ is a finitely generated A-module and a finitely generated k-algebra.
 
-By Theorem 1 there exists a subalgebra C of A isomorphic to a polynomial algebra $ k[X_1, \ldots, X_n] $ and such that A is integral over C; $ A' $ is obviously the integral closure of C in K' (§ 1, no. 1, Proposition 6); we may therefore confine our attention to the case where $ A = k[X_1, \ldots, X_n] $. Let $ N $ be the quasi-Galois extension of $ K $ (in an algebraic closure of $ K $) generated by $ K' $, which is a finite algebraic extension of $ K $ (Algebra, Chapter V, § 6, no. 3, Corollary 1 to Proposition 9). It will suffice to prove that the integral closure $ B $ of $ A $ in $ N $ is a finitely generated $ A $-module, for $ A' $ is a sub-$ A $-module of $ B $ and $ A $ is a Noetherian ring (Chapter III, § 2, no. 10, Corollary 2 to Theorem 2). We may therefore confine our attention to the case where $ K' $ is a quasi-Galois extension of $ K $. Then we know (Algebra, Chapter V, § 10, no. 9, Proposition 14) that $ K' $ is a (finite) Galois extension of a (finite) radicial extension $ K'' $ of $ K $. If $ A'' $ is the integral closure of $ A $ in $ K'' $, $ A' $ is the integral closure of $ A'' $ in $ K' $ and it will suffice to prove that $ A'' $ is a finitely generated $ A $-module and $ A' $ is a finitely generated $ A'' $-module. Now, if it has been proved that $ A'' $ is a finitely generated $ A $-module, it is a Noetherian domain, integrally closed by definition; the fact that $ A $ is a finitely generated $ A'' $-module will follow from § 1, no. 6, Corollary 1 to Proposition 18.
+By Theorem 1 there exists a subalgebra C of A isomorphic to a polynomial algebra $k[X_1, \ldots, X_n]$ and such that A is integral over C; $A'$ is obviously the integral closure of C in K' (§ 1, no. 1, Proposition 6); we may therefore confine our attention to the case where $A = k[X_1, \ldots, X_n]$. Let $N$ be the quasi-Galois extension of $K$ (in an algebraic closure of $K$) generated by $K'$, which is a finite algebraic extension of $K$ (Algebra, Chapter V, § 6, no. 3, Corollary 1 to Proposition 9). It will suffice to prove that the integral closure $B$ of $A$ in $N$ is a finitely generated $A$-module, for $A'$ is a sub-$A$-module of $B$ and $A$ is a Noetherian ring (Chapter III, § 2, no. 10, Corollary 2 to Theorem 2). We may therefore confine our attention to the case where $K'$ is a quasi-Galois extension of $K$. Then we know (Algebra, Chapter V, § 10, no. 9, Proposition 14) that $K'$ is a (finite) Galois extension of a (finite) radicial extension $K''$ of $K$. If $A''$ is the integral closure of $A$ in $K''$, $A'$ is the integral closure of $A''$ in $K'$ and it will suffice to prove that $A''$ is a finitely generated $A$-module and $A'$ is a finitely generated $A''$-module. Now, if it has been proved that $A''$ is a finitely generated $A$-module, it is a Noetherian domain, integrally closed by definition; the fact that $A$ is a finitely generated $A''$-module will follow from § 1, no. 6, Corollary 1 to Proposition 18.
 
-We see therefore that we may confine our attention to the case where $ A = k[X_1, \ldots, X_n] $ and where $ K' $ is a finite radicial extension of $ K = k(X_1, \ldots, X_r) $. Then $ K' $ is generated by a finite family of elements $ (y_i)_{1 \leq i \leq m} $ and there exists a power $ q $ of the characteristic exponent of $ k $ such that $ y_i^q \in k(X_1, \ldots, X_r) $. Let $ c_j $ ($ 1 \leq j \leq r $) be the coefficients of the numerators and denominators of the rational functions in $ X_1, \ldots, X_r $, equal to $ y_i^q $ ($ 1 \leq i \leq m $). Then $ K' $ is contained in the extension $ L = k'(X_1^{q^{-1}}, \ldots, X_n^{q^{-1}}) $, where $ k' = k(c_1^{q^{-1}}, \ldots, c_r^{q^{-1}}) $ (we are in an algebraic closure of $ K' $) and $ A $ is contained in the algebraic closure $ B' $ of $ A $ in $ L' $. Now, $ k' $ is algebraic over $ k $ and hence $ C' = k'[X_1, \ldots, X_n] $ is integral over $ A $ ($ \S 1 $, no. 1, Proposition 5); as $ k'[X_1^{q^{-1}}, \ldots, X_n^{q^{-1}}] $ is integrally closed ($ \S 1 $, no. 3, Corollary 2 to Proposition 13), it is seen that this ring is the integral closure of $ C' $ in $ L' $ and hence also that of $ A $ ($ \S 1 $, no. 1, Proposition 6), in other words $ B' = k'[X_1^{q^{-1}}, \ldots, X_n^{q^{-1}}] $. Now clearly $ B' $ is a finitely generated $ C' $-module ($ \S 1 $, no. 1, Proposition 4) and, as $ k' $ is a finite extension of $ k $, $ C' $ is a finitely generated $ A $-module and hence $ B' $ is a finitely generated $ A $-module; since $ A $ is Noetherian and $ A \subset B' $, $ A' $ is a finitely generated $ A $-module.
+We see therefore that we may confine our attention to the case where $A = k[X_1, \ldots, X_n]$ and where $K'$ is a finite radicial extension of $K = k(X_1, \ldots, X_r)$. Then $K'$ is generated by a finite family of elements $(y_i)_{1 \leq i \leq m}$ and there exists a power $q$ of the characteristic exponent of $k$ such that $y_i^q \in k(X_1, \ldots, X_r)$. Let $c_j$ ($1 \leq j \leq r$) be the coefficients of the numerators and denominators of the rational functions in $X_1, \ldots, X_r$, equal to $y_i^q$ ($1 \leq i \leq m$). Then $K'$ is contained in the extension $L = k'(X_1^{q^{-1}}, \ldots, X_n^{q^{-1}})$, where $k' = k(c_1^{q^{-1}}, \ldots, c_r^{q^{-1}})$ (we are in an algebraic closure of $K'$) and $A$ is contained in the algebraic closure $B'$ of $A$ in $L'$. Now, $k'$ is algebraic over $k$ and hence $C' = k'[X_1, \ldots, X_n]$ is integral over $A$ ($\S 1$, no. 1, Proposition 5); as $k'[X_1^{q^{-1}}, \ldots, X_n^{q^{-1}}]$ is integrally closed ($\S 1$, no. 3, Corollary 2 to Proposition 13), it is seen that this ring is the integral closure of $C'$ in $L'$ and hence also that of $A$ ($\S 1$, no. 1, Proposition 6), in other words $B' = k'[X_1^{q^{-1}}, \ldots, X_n^{q^{-1}}]$. Now clearly $B'$ is a finitely generated $C'$-module ($\S 1$, no. 1, Proposition 4) and, as $k'$ is a finite extension of $k$, $C'$ is a finitely generated $A$-module and hence $B'$ is a finitely generated $A$-module; since $A$ is Noetherian and $A \subset B'$, $A'$ is a finitely generated $A$-module.
 
 ### 3. THE NULLSTELLENSATZ
 
 #### Proposition 1 {#ac-v-s3-prop-1 .statement}
 
-Let $ A $ be a finitely generated algebra over a field $ k $ and $ L $ the algebraic closure of $ k $.
+Let $A$ be a finitely generated algebra over a field $k$ and $L$ the algebraic closure of $k$.
 
-(i) If $ A \neq \{0\} $, there exists a $ k $-homomorphism from $ A $ to $ L $.
+(i) If $A \neq \{0\}$, there exists a $k$-homomorphism from $A$ to $L$.
 
-(ii) Let $ f_1, f_2 $ be two $ k $-homomorphisms from $ A $ to $ L $. For $ f_1 $ and $ f_2 $ to have the same kernel, it is necessary and sufficient that there exist a $ k $-automorphism $ s $ of $ L $ such that $ f_2 = s \circ f_1 $.
+(ii) Let $f_1, f_2$ be two $k$-homomorphisms from $A$ to $L$. For $f_1$ and $f_2$ to have the same kernel, it is necessary and sufficient that there exist a $k$-automorphism $s$ of $L$ such that $f_2 = s \circ f_1$.
 
-(iii) Let $ a $ be an ideal of $ A $. For $ a $ to be maximal, it is necessary and sufficient that it be the kernel of a k-homomorphism from $ A $ to $ L $.
+(iii) Let $a$ be an ideal of $A$. For $a$ to be maximal, it is necessary and sufficient that it be the kernel of a k-homomorphism from $A$ to $L$.
 
-(iv) For an element $ x $ of $ A $ to be such that $ f(x) = 0 $ for every k-homomorphism $ f $ from $ A $ to $ L $, it is necessary and sufficient that $ x $ be nilpotent.
+(iv) For an element $x$ of $A$ to be such that $f(x) = 0$ for every k-homomorphism $f$ from $A$ to $L$, it is necessary and sufficient that $x$ be nilpotent.
 
-Assertion (i) follows from no. 1, Corollary 3 to Theorem 1 applied replacing $ A $ by $ k $, $ B $ by $ A $, $ b $ by the unit element of $ B $ and $ f $ by the canonical injection of $ k $ into $ L $.
+Assertion (i) follows from no. 1, Corollary 3 to Theorem 1 applied replacing $A$ by $k$, $B$ by $A$, $b$ by the unit element of $B$ and $f$ by the canonical injection of $k$ into $L$.
 
-If $ f $ is a k-homomorphism from $ A $ to $ L $, $ f(A) $ is a subring of $ L $ containing $ k $; as $ L $ is an algebraic extension of $ k $, $ f(A) $ is a field (Algebra, Chapter V, § 3, no. 2, Proposition 3) and, if $ a $ is the kernel off, $ A/a $, isomorphic to $ f(A) $, is therefore a field, which proves that $ a $ is maximal. Conversely, if $ a $ is a maximal ideal of $ A $, it follows from (i) that there exists a k-homomorphism from $ A/a $ to $ L $ and hence a k-homomorphism of $ A $ to $ L $ whose kernel $ b $ contains $ a $; but as $ a $ is maximal, $ b = a $; this proves (iii).
+If $f$ is a k-homomorphism from $A$ to $L$, $f(A)$ is a subring of $L$ containing $k$; as $L$ is an algebraic extension of $k$, $f(A)$ is a field (Algebra, Chapter V, § 3, no. 2, Proposition 3) and, if $a$ is the kernel off, $A/a$, isomorphic to $f(A)$, is therefore a field, which proves that $a$ is maximal. Conversely, if $a$ is a maximal ideal of $A$, it follows from (i) that there exists a k-homomorphism from $A/a$ to $L$ and hence a k-homomorphism of $A$ to $L$ whose kernel $b$ contains $a$; but as $a$ is maximal, $b = a$; this proves (iii).
 
-We now prove (ii). If $ s $ is a k-automorphism of $ L $ such that $ f_2 = s \circ f_1 $, clearly $ f_1 $ and $ f_2 $ have the same kernel. Conversely, suppose that $ f_1 $ and $ f_2 $ have the same kernel; then there exists a k-isomorphism $ s_0 $ of the field $ f_1(A) $ onto the field $ f_2(A) $ such that $ f_2 = s_0 \circ f_1 $; but by Algebra, Chapter V, § 6, no. 3, Proposition 7, $ s_0 $ extends to a k-automorphism of $ L $ and hence $ f_2 = s \circ f_1 $.
+We now prove (ii). If $s$ is a k-automorphism of $L$ such that $f_2 = s \circ f_1$, clearly $f_1$ and $f_2$ have the same kernel. Conversely, suppose that $f_1$ and $f_2$ have the same kernel; then there exists a k-isomorphism $s_0$ of the field $f_1(A)$ onto the field $f_2(A)$ such that $f_2 = s_0 \circ f_1$; but by Algebra, Chapter V, § 6, no. 3, Proposition 7, $s_0$ extends to a k-automorphism of $L$ and hence $f_2 = s \circ f_1$.
 
-Finally, if $ x \in A $ is such that $ x^n = 0 $, for every k-homomorphism $ f $ from $ A $ to $ L $, $ (f(x))^n = f(x^n) = 0 $ and hence $ f(x) = 0 $ since $ L $ is a field. Conversely, suppose that $ x \in A $ is not nilpotent; then $ A[x^{-1}] $ is a finitely generated $ A $-algebra (and therefore a finitely generated k-algebra) not reduced to 0 (Chapter 11, § 2, no. 1, Remark 3) and hence there exists a k-homomorphism $ g $ from $ A[x^{-1}] $ to $ L $ by (i). If $ j : A \to A[x^{-1}] $ is the canonical homomorphism, $ f = g \circ j $ is a k-homomorphism from $ A $ to $ L $ and $ f(x)g(1/x) = g(x/1)g(1/x) = g(1) = 1 $, whence $ f(x) \neq 0 $.
+Finally, if $x \in A$ is such that $x^n = 0$, for every k-homomorphism $f$ from $A$ to $L$, $(f(x))^n = f(x^n) = 0$ and hence $f(x) = 0$ since $L$ is a field. Conversely, suppose that $x \in A$ is not nilpotent; then $A[x^{-1}]$ is a finitely generated $A$-algebra (and therefore a finitely generated k-algebra) not reduced to 0 (Chapter 11, § 2, no. 1, Remark 3) and hence there exists a k-homomorphism $g$ from $A[x^{-1}]$ to $L$ by (i). If $j : A \to A[x^{-1}]$ is the canonical homomorphism, $f = g \circ j$ is a k-homomorphism from $A$ to $L$ and $f(x)g(1/x) = g(x/1)g(1/x) = g(1) = 1$, whence $f(x) \neq 0$.
 
-Let $ k $ be a field and $ L $ an extension field of $ k $; an element $ x = (x_1, \ldots, x_n) $ of $ L^n $ is called a zero in $ L^n $ of an ideal $ c $ of the polynomial ring $ k[X_1, \ldots, X_n] $ if
+Let $k$ be a field and $L$ an extension field of $k$; an element $x = (x_1, \ldots, x_n)$ of $L^n$ is called a zero in $L^n$ of an ideal $c$ of the polynomial ring $k[X_1, \ldots, X_n]$ if
 
 $$
 P(x) = P(x_1, \ldots, x_n) = 0
 $$
 
-for all $ P \in r $.
+for all $P \in r$.
 
 #### Lemma 1 {#ac-v-s3-lem-1 .statement}
 
-Let $ A $ be a finitely generated algebra over a field $ k $, $ (a_i)_{1 \leq i \leq n} $ a system of generators of this algebra and $ c $ the ideal of algebraic relations between the $ a_i $ with coefficients in $ k $ (Algebra, Chapter IV, § 2, no. 1). For every extension field $ L $ of $ k $, the mapping $ f \mapsto (f(a_i))_{1 \leq i \leq n} $ is a bijection of the set of k-homomorphisms from $ A $ to $ L $ onto the set of zeros of $ r $ in $ L^n $.
+Let $A$ be a finitely generated algebra over a field $k$, $(a_i)_{1 \leq i \leq n}$ a system of generators of this algebra and $c$ the ideal of algebraic relations between the $a_i$ with coefficients in $k$ (Algebra, Chapter IV, § 2, no. 1). For every extension field $L$ of $k$, the mapping $f \mapsto (f(a_i))_{1 \leq i \leq n}$ is a bijection of the set of k-homomorphisms from $A$ to $L$ onto the set of zeros of $r$ in $L^n$.
 
-There exists a unique k-algebra homomorphism $ h $ of $ k[X_1, \ldots, X_n] $ onto $ A $ such that $ h(X_i) = a_i $, for $ 1 \leq i \leq n $ and by definition $ r $ is the kernel of $ h $. The mapping f $ \mapsto $ his a bijection of the set of k-homomorphisms from $ A $ to $ L $ onto the set of k-homomorphisms from $ k[X_1, \ldots, X_n] $ to $ L $ which are zero on c. For every polynomial $ P \in k[X_1, \ldots, X_n] $ and every element $ x = (x_1, \ldots, x_i) \in L^n $ we write $ h_x(P) = P(x) $; then the mapping $ x \mapsto h_x $ is a bijection of $ L^n $ onto the set of k-homomorphisms from $ k[X_1, \ldots, X_n] $ to $ L $ (such a homomorphism being determined by its values at the $ X_i $ ($ 1 \leq i \leq n $) ); to say that $ h_x $ is zero on c means that $ x $ is a zero of c in $ L'' $, whence the lemma.
+There exists a unique k-algebra homomorphism $h$ of $k[X_1, \ldots, X_n]$ onto $A$ such that $h(X_i) = a_i$, for $1 \leq i \leq n$ and by definition $r$ is the kernel of $h$. The mapping f $\mapsto$ his a bijection of the set of k-homomorphisms from $A$ to $L$ onto the set of k-homomorphisms from $k[X_1, \ldots, X_n]$ to $L$ which are zero on c. For every polynomial $P \in k[X_1, \ldots, X_n]$ and every element $x = (x_1, \ldots, x_i) \in L^n$ we write $h_x(P) = P(x)$; then the mapping $x \mapsto h_x$ is a bijection of $L^n$ onto the set of k-homomorphisms from $k[X_1, \ldots, X_n]$ to $L$ (such a homomorphism being determined by its values at the $X_i$ ($1 \leq i \leq n$) ); to say that $h_x$ is zero on c means that $x$ is a zero of c in $L''$, whence the lemma.
 
-If Proposition 1 is applied to the algebra $ A = k[X_1, \ldots, X_n]/r $, where c is an ideal of $ k[X_1, \ldots, X_n] $ distinct from the whole ring, we obtain by Lemma 1 the following statement:
+If Proposition 1 is applied to the algebra $A = k[X_1, \ldots, X_n]/r$, where c is an ideal of $k[X_1, \ldots, X_n]$ distinct from the whole ring, we obtain by Lemma 1 the following statement:
 
 #### Proposition 2 (Hilbert’s Nullstellensatz) {#ac-v-s3-prop-2 .statement}
 
 Let k be a field and L an algebraic closure of k.
 
-(i) Every ideal $ r \not\subset k[X_1, \ldots, X_n] $ not containing 1 admits at least one zero in $ L^n $.
+(i) Every ideal $r \not\subset k[X_1, \ldots, X_n]$ not containing 1 admits at least one zero in $L^n$.
 
-(ii) Let $ x = (x_1, \ldots, x_n), y = (y_1, \ldots, y_n) $ be two elements of $ L^n $; for the set of polynomials of $ k[X_1, \ldots, X_n] $ zero at x to be identical with the set of polynomials of $ k[X_1, \ldots, X_n] $ zero at y, it is necessary and sufficient that there exists a k-automorphism s of L such that $ y_i = s(x_i) $ for $ 1 \leq i \leq n $.
+(ii) Let $x = (x_1, \ldots, x_n), y = (y_1, \ldots, y_n)$ be two elements of $L^n$; for the set of polynomials of $k[X_1, \ldots, X_n]$ zero at x to be identical with the set of polynomials of $k[X_1, \ldots, X_n]$ zero at y, it is necessary and sufficient that there exists a k-automorphism s of L such that $y_i = s(x_i)$ for $1 \leq i \leq n$.
 
-(iii) For an ideal a of $ k[X_1, \ldots, X_n] $ to be maximal, it is necessary and sufficient that there exist an x in $ L^n $ such that a is the set of polynomials of $ k[X_1, \ldots, X_n] $ zero at x.
+(iii) For an ideal a of $k[X_1, \ldots, X_n]$ to be maximal, it is necessary and sufficient that there exist an x in $L^n$ such that a is the set of polynomials of $k[X_1, \ldots, X_n]$ zero at x.
 
-(iv) For a polynomial Q of $ k[X_1, \ldots, X_n] $ to be zero on the set of zeros in $ L'' $ of an ideal c of $ k[X_1, \ldots, X_n] $, it is necessary and sufficient that there exist an integer m > 0 such that $ Q^m \in c $.
+(iv) For a polynomial Q of $k[X_1, \ldots, X_n]$ to be zero on the set of zeros in $L''$ of an ideal c of $k[X_1, \ldots, X_n]$, it is necessary and sufficient that there exist an integer m > 0 such that $Q^m \in c$.
 
 ### 4. JACOBSON RINGS
 
@@ -176,76 +176,76 @@ A ring A is called a Jacobson ring if every prime ideal of A is the intersection
 Examples
 
 (1) Every field is a Jacobson ring.
-(2) The ring $ \mathbf{Z} $ is a Jacobson ring, the unique prime ideal which is not maximal (0) being the intersection of the maximal ideals $ (p) $ of $ \mathbf{Z} $, where $ p $ runs through the set of prime numbers (cf. Proposition 4).
-(3) Let A be a Jacobson ring and let a be an ideal of A. Then $ A/a $ is a Jacobson ring, for the ideals of $ A/a $ are of the form $ b/a $, where b is an ideal of A containing a and $ b/a $ is prime (resp. maximal) if and only if b is.
+(2) The ring $\mathbf{Z}$ is a Jacobson ring, the unique prime ideal which is not maximal (0) being the intersection of the maximal ideals $(p)$ of $\mathbf{Z}$, where $p$ runs through the set of prime numbers (cf. Proposition 4).
+(3) Let A be a Jacobson ring and let a be an ideal of A. Then $A/a$ is a Jacobson ring, for the ideals of $A/a$ are of the form $b/a$, where b is an ideal of A containing a and $b/a$ is prime (resp. maximal) if and only if b is.
 
 #### Proposition 3 {#ac-v-s3-prop-3 .statement}
 
-For a ring A to be a Jacobson ring, it is necessary and sufficient that, for every ideal a of A, the Jacobson radical of $ A/a $ be equal to its nilradical (Chapter II, § 2, no. 6).
+For a ring A to be a Jacobson ring, it is necessary and sufficient that, for every ideal a of A, the Jacobson radical of $A/a$ be equal to its nilradical (Chapter II, § 2, no. 6).
 
-The Jacobson radical (resp. nilradical) of $ A/a $ is the intersection of the maximal (resp. prime) ideals of $ A/a $ (*Algebra*, Chapter VIII, § 6, no. 3, Definition 3 and *Commutative Algebra*, Chapter II, § 2, no. 6, Proposition 13). The stated condition means therefore that for every ideal $ a $ of $ A $ the intersection of the prime ideals containing $ a $ is equal to the intersection of the maximal ideals containing $ a $. This condition obviously holds for every ideal $ a $ of $ A $ if $ A $ is a Jacobson ring; conversely, if it holds for every prime ideal of $ A $, $ A $ is a Jacobson ring by definition.
+The Jacobson radical (resp. nilradical) of $A/a$ is the intersection of the maximal (resp. prime) ideals of $A/a$ (*Algebra*, Chapter VIII, § 6, no. 3, Definition 3 and *Commutative Algebra*, Chapter II, § 2, no. 6, Proposition 13). The stated condition means therefore that for every ideal $a$ of $A$ the intersection of the prime ideals containing $a$ is equal to the intersection of the maximal ideals containing $a$. This condition obviously holds for every ideal $a$ of $A$ if $A$ is a Jacobson ring; conversely, if it holds for every prime ideal of $A$, $A$ is a Jacobson ring by definition.
 
 #### Corollary {#ac-v-s3-n4-cor-1 .statement}
 
-*Let $ A $ be a Jacobson ring; for every ideal $ a $ of $ A $, the radical of $ a $ is the intersection of the maximal ideals of $ A $ containing $ a $.*
+*Let $A$ be a Jacobson ring; for every ideal $a$ of $A$, the radical of $a$ is the intersection of the maximal ideals of $A$ containing $a$.*
 
-It is sufficient to note that $ A/a $ is a Jacobson ring.
+It is sufficient to note that $A/a$ is a Jacobson ring.
 
 #### Proposition 4 {#ac-v-s3-prop-4 .statement}
 
-*Let $ A $ be a principal ideal domain and $ (\mathbf{p}_\lambda)_{\lambda \in L} $ a representative system of extremal elements of $ A $ (*Algebra*, Chapter VII, § 1, no. 3, Definition 2). For $ A $ to be a Jacobson ring, it is necessary and sufficient that $ L $ be infinite.*
+*Let $A$ be a principal ideal domain and $(\mathbf{p}_\lambda)_{\lambda \in L}$ a representative system of extremal elements of $A$ (*Algebra*, Chapter VII, § 1, no. 3, Definition 2). For $A$ to be a Jacobson ring, it is necessary and sufficient that $L$ be infinite.*
 
-The maximal ideals of $ A $ are the $ A\mathbf{p}_\lambda $ (*loc. cit.*, no. 2, Proposition 2). If $ L $ is finite, their intersection is the ideal $ Ax $, where $ x = \prod_{\lambda \in L} \mathbf{p}_\lambda $ (*ibid.*) and hence different from $ (0) $; on the other hand, if $ L $ is infinite, the intersection of the $ A\mathbf{p}_\lambda $ is $ (0) $, every element $ \neq 0 $ of $ A $ being divisible by only a finite number of extremal elements (*loc. cit.*, no. 3, Theorem 2). The proposition then follows from the fact that $ (0) $ is the only prime ideal which is not maximal in $ A $ (*Algebra*, Chapter VI, § 1, no. 13, Proposition 14 (DIV)).
+The maximal ideals of $A$ are the $A\mathbf{p}_\lambda$ (*loc. cit.*, no. 2, Proposition 2). If $L$ is finite, their intersection is the ideal $Ax$, where $x = \prod_{\lambda \in L} \mathbf{p}_\lambda$ (*ibid.*) and hence different from $(0)$; on the other hand, if $L$ is infinite, the intersection of the $A\mathbf{p}_\lambda$ is $(0)$, every element $\neq 0$ of $A$ being divisible by only a finite number of extremal elements (*loc. cit.*, no. 3, Theorem 2). The proposition then follows from the fact that $(0)$ is the only prime ideal which is not maximal in $A$ (*Algebra*, Chapter VI, § 1, no. 13, Proposition 14 (DIV)).
 
 #### Proposition 5 {#ac-v-s3-prop-5 .statement}
 
-*Let $ A $ be a ring and $ B $ an $ A $-algebra integral over $ A $. If $ A $ is a Jacobson ring, so is $ B $.*
+*Let $A$ be a ring and $B$ an $A$-algebra integral over $A$. If $A$ is a Jacobson ring, so is $B$.*
 
-Replacing $ A $ by its canonical image in $ B $, we may assume that $ A \subset B $. Let $ \mathfrak{p}' $ be a prime ideal of $ B $ and let $ \mathfrak{p} = A \cap \mathfrak{p}' $. There exists by hypothesis a family $ (\mathfrak{m}_\lambda)_{\lambda \in L} $ of maximal ideals of $ A $ whose intersection is equal top. For all $ \lambda \in L $ there exists a maximal ideal $ \mathfrak{m}'_\lambda $ of $ B $ lying above $ \mathfrak{m}_\lambda $ and containing $ \mathfrak{p}' $ (§ 2, no. 1, Proposition 1 and Corollary 2 to Theorem 1). If we write $ \mathfrak{q}' = \bigcap_{\lambda \in L} \mathfrak{m}'_\lambda $, then $ \mathfrak{q}' \cap A = \bigcap_{\lambda \in L} \mathfrak{m}_\lambda = \mathfrak{p} $ and $ \mathfrak{q}' \supset \mathfrak{p}' $, whence $ \mathfrak{q}' = \mathfrak{p}' $ ($2$, no. 1, Corollary 1 to Proposition 1).
+Replacing $A$ by its canonical image in $B$, we may assume that $A \subset B$. Let $\mathfrak{p}'$ be a prime ideal of $B$ and let $\mathfrak{p} = A \cap \mathfrak{p}'$. There exists by hypothesis a family $(\mathfrak{m}_\lambda)_{\lambda \in L}$ of maximal ideals of $A$ whose intersection is equal top. For all $\lambda \in L$ there exists a maximal ideal $\mathfrak{m}'_\lambda$ of $B$ lying above $\mathfrak{m}_\lambda$ and containing $\mathfrak{p}'$ (§ 2, no. 1, Proposition 1 and Corollary 2 to Theorem 1). If we write $\mathfrak{q}' = \bigcap_{\lambda \in L} \mathfrak{m}'_\lambda$, then $\mathfrak{q}' \cap A = \bigcap_{\lambda \in L} \mathfrak{m}_\lambda = \mathfrak{p}$ and $\mathfrak{q}' \supset \mathfrak{p}'$, whence $\mathfrak{q}' = \mathfrak{p}'$ ($2$, no. 1, Corollary 1 to Proposition 1).
 
 #### Theorem 3 {#ac-v-s3-thm-3 .statement}
 
-*Let $ A $ be a Jacobson ring, $ B $ a finitely generated $ A $-algebra and $ \varphi : A \to B $ the canonical homomorphism. Then:*
-(i) *$ B $ is a Jacobson ring.*
-(ii) *For every maximal ideal $ m' $ of $ B $, $ m = \varphi^{-1}(m') $ is a maximal ideal of $ A $ and $ B/m' $ is a finite algebraic extension of $ A/m $.*
+*Let $A$ be a Jacobson ring, $B$ a finitely generated $A$-algebra and $\varphi : A \to B$ the canonical homomorphism. Then:*
+(i) *$B$ is a Jacobson ring.*
+(ii) *For every maximal ideal $m'$ of $B$, $m = \varphi^{-1}(m')$ is a maximal ideal of $A$ and $B/m'$ is a finite algebraic extension of $A/m$.*
 
-Let $ \mathfrak{p}' $ be a prime ideal of $ B $ and $ \mathfrak{p} = \varphi^{-1}(\mathfrak{p}') $. Let $ v $ be an element $ \neq 0 $ of $ B/\mathfrak{p}' $.
+Let $\mathfrak{p}'$ be a prime ideal of $B$ and $\mathfrak{p} = \varphi^{-1}(\mathfrak{p}')$. Let $v$ be an element $\neq 0$ of $B/\mathfrak{p}'$.
 
-As $ B/p' $ is a finitely generated integral (Alp)-algebra and the canonical homomorphism $ \phi : A/p \to B/p' $ is injective, there exists an element $ u \neq 0 $ of $ A/p $ such that, for every homomorphism $ f $ from $ A/p $ to an algebraically closed field $ L $ whose kernel does not contain $ u $, there exists a homomorphism $ g $ from $ B/p' $ to $ L $ whose kernel does not contain $ v $ and for which $ f = g \circ \phi $ (no. 1, Corollary 3 to Theorem 1). Since $ A $ is a Jacobson ring, there exists a maximal ideal $ m $ of $ A $ containing $ p $ and such that $ u \notin m/p $. We take $ L $ to be an algebraic closure of $ A/m $ and $ f $ to be the canonical homomorphism $ A/p \to L $; let
+As $B/p'$ is a finitely generated integral (Alp)-algebra and the canonical homomorphism $\phi : A/p \to B/p'$ is injective, there exists an element $u \neq 0$ of $A/p$ such that, for every homomorphism $f$ from $A/p$ to an algebraically closed field $L$ whose kernel does not contain $u$, there exists a homomorphism $g$ from $B/p'$ to $L$ whose kernel does not contain $v$ and for which $f = g \circ \phi$ (no. 1, Corollary 3 to Theorem 1). Since $A$ is a Jacobson ring, there exists a maximal ideal $m$ of $A$ containing $p$ and such that $u \notin m/p$. We take $L$ to be an algebraic closure of $A/m$ and $f$ to be the canonical homomorphism $A/p \to L$; let
 
 $$
 g : B/p' \to L
 $$
 
-be a homomorphism such that $ f = g \circ \phi $ and $ g(v) \neq 0 $. Then
+be a homomorphism such that $f = g \circ \phi$ and $g(v) \neq 0$. Then
 
 $$
 A/m \subset g(B/p') \subset L,
 $$
 
-hence $ g(B/p') $ is a subfield of $ K $ (Algebra, Chapter V, § 3, no. 2, Proposition 3) and the kernel of $ g $ is therefore a maximal ideal of $ B/p' $ not containing $ v $. Thus it is seen that the intersection of the maximal ideals of $ B/p' $ is reduced to 0, which proves that $ B $ is a Jacobson ring. Moreover, if $ p' $ is maximal, $ g $ is necessarily injective and hence $ p = m $ is maximal; finally $ B/p' $ is then a finitely generated algebra over the field $ A/m $ and hence is a finite extension of $ A/m $ (no. 1, Corollary 2 to Theorem 1).
+hence $g(B/p')$ is a subfield of $K$ (Algebra, Chapter V, § 3, no. 2, Proposition 3) and the kernel of $g$ is therefore a maximal ideal of $B/p'$ not containing $v$. Thus it is seen that the intersection of the maximal ideals of $B/p'$ is reduced to 0, which proves that $B$ is a Jacobson ring. Moreover, if $p'$ is maximal, $g$ is necessarily injective and hence $p = m$ is maximal; finally $B/p'$ is then a finitely generated algebra over the field $A/m$ and hence is a finite extension of $A/m$ (no. 1, Corollary 2 to Theorem 1).
 
 #### Corollary 1 {#ac-v-s3-thm-3-cor-1 .statement}
 
-*Every finitely generated algebra $ A $ over $ \mathbf{Z} $ is a Jacobson ring; for a prime ideal $ p \subset A $ to be maximal, it is necessary and sufficient that the ring $ A/p $ be finite.*
+*Every finitely generated algebra $A$ over $\mathbf{Z}$ is a Jacobson ring; for a prime ideal $p \subset A$ to be maximal, it is necessary and sufficient that the ring $A/p$ be finite.*
 
-If the integral domain $ A/p $ is finite, it is a field, as, for every $ u \neq 0 $ in $ A/p $, the mapping $ v \mapsto uv $ of $ A/p $ to itself is injective and hence bijective since $ A/p $ is finite. Conversely, for every maximal ideal $ m $ of $ A $, the inverse image of $ m $ in $ A $ is a maximal ideal ($ p $) and $ A/m $ is finite over the prime field $ \mathbf{Z}/(p) = \mathbf{F}_p $ by Theorem 3.
+If the integral domain $A/p$ is finite, it is a field, as, for every $u \neq 0$ in $A/p$, the mapping $v \mapsto uv$ of $A/p$ to itself is injective and hence bijective since $A/p$ is finite. Conversely, for every maximal ideal $m$ of $A$, the inverse image of $m$ in $A$ is a maximal ideal ($p$) and $A/m$ is finite over the prime field $\mathbf{Z}/(p) = \mathbf{F}_p$ by Theorem 3.
 
 #### Corollary 2 {#ac-v-s3-thm-3-cor-2 .statement}
 
-*Let $ (P_\lambda)_{\lambda \in L} $ be a family of polynomials in $ \mathbf{Z}[X_1, \ldots, X_n] $ and let $ Q $ be a polynomial in $ \mathbf{Z}[X_1, \ldots, X_n] $ such that, for every system of elements $ (x_i)_{1 \leq i \leq n} $ belonging to a finite field and for which $ P_\lambda(x_1, \ldots, x_n) = 0 $ for all $ \lambda $, also $ Q(x_1, \ldots, x_n) = 0 $. Then, if $ a $ is the ideal of $ \mathbf{Z}[X_1, \ldots, X_n] $ generated by the $ P_\lambda $, there exists an integer $ m > 0 $ such that $ Q^m \in a $. Moreover, for every reduced ring $ R $ and every system $ (y_i)_{1 \leq i \leq n} $ of elements of $ R $ such that $ P_\lambda(y_1, \ldots, y_n) = 0 $ for all $ \lambda $, also $ Q(y_1, \ldots, y_n) = 0 $.
+*Let $(P_\lambda)_{\lambda \in L}$ be a family of polynomials in $\mathbf{Z}[X_1, \ldots, X_n]$ and let $Q$ be a polynomial in $\mathbf{Z}[X_1, \ldots, X_n]$ such that, for every system of elements $(x_i)_{1 \leq i \leq n}$ belonging to a finite field and for which $P_\lambda(x_1, \ldots, x_n) = 0$ for all $\lambda$, also $Q(x_1, \ldots, x_n) = 0$. Then, if $a$ is the ideal of $\mathbf{Z}[X_1, \ldots, X_n]$ generated by the $P_\lambda$, there exists an integer $m > 0$ such that $Q^m \in a$. Moreover, for every reduced ring $R$ and every system $(y_i)_{1 \leq i \leq n}$ of elements of $R$ such that $P_\lambda(y_1, \ldots, y_n) = 0$ for all $\lambda$, also $Q(y_1, \ldots, y_n) = 0$.
 
-The second assertion follows from the first since the ideal of $ \mathbf{Z}[X_1, \ldots, X_n] $ consisting of the polynomials $ P $ such that $ P(y_1, \ldots, y_n) = 0 $ contains $ a $. To show the first assertion, it suffices to note that, for every maximal ideal $ m $ of $ A = \mathbf{Z}[X_1, \ldots, X_n] $ containing $ a $, $ A/m $ is a finite field (Corollary 1) and the hypothesis implies that the canonical image of $ Q $ in $ A/m $ is zero; then $ Q $ belongs to the intersection of the maximal ideals of $ A $ containing $ a $, which is the radical of $ a $ (Corollary to Proposition 3).
+The second assertion follows from the first since the ideal of $\mathbf{Z}[X_1, \ldots, X_n]$ consisting of the polynomials $P$ such that $P(y_1, \ldots, y_n) = 0$ contains $a$. To show the first assertion, it suffices to note that, for every maximal ideal $m$ of $A = \mathbf{Z}[X_1, \ldots, X_n]$ containing $a$, $A/m$ is a finite field (Corollary 1) and the hypothesis implies that the canonical image of $Q$ in $A/m$ is zero; then $Q$ belongs to the intersection of the maximal ideals of $A$ containing $a$, which is the radical of $a$ (Corollary to Proposition 3).
 
 #### Corollary 3 {#ac-v-s3-thm-3-cor-3 .statement}
 
-*Let $ A $ be a Jacobson ring. If there exists a finitely generated $ A $-algebra $ B $ containing $ A $ and which is a field, then $ A $ is a field and $ B $ is an algebraic extension of $ A $.*
+*Let $A$ be a Jacobson ring. If there exists a finitely generated $A$-algebra $B$ containing $A$ and which is a field, then $A$ is a field and $B$ is an algebraic extension of $A$.*
 
-It suffices to apply Theorem 3 (ii) with $ m' = (0) $.
+It suffices to apply Theorem 3 (ii) with $m' = (0)$.
 
 ### Exercises {#ac-v-s3-exercises}
 
-for every prime ideal $ \mathfrak{p} $ of $ A $ there exists a prime ideal $ \mathfrak{p}' $ of $ A' $ lying above $ \mathfrak{p} $. Argue by *reductio ad absurdum*: let $ x \in A' \cap \mathfrak{g}A $ and let $ a = A \cap (x^{-1}A) $, which is an ideal distinct from $ A $. Let $ \mathfrak{p} $ be a prime ideal associated with $ A/a $; the transporter $ b = a : \mathfrak{p} $ is then distinct from $ a $ (Chapter IV, § 1, no. 4, Proposition 9) and there therefore exists $ y \in b $ such that $ xy \notin A $ and
+for every prime ideal $\mathfrak{p}$ of $A$ there exists a prime ideal $\mathfrak{p}'$ of $A'$ lying above $\mathfrak{p}$. Argue by *reductio ad absurdum*: let $x \in A' \cap \mathfrak{g}A$ and let $a = A \cap (x^{-1}A)$, which is an ideal distinct from $A$. Let $\mathfrak{p}$ be a prime ideal associated with $A/a$; the transporter $b = a : \mathfrak{p}$ is then distinct from $a$ (Chapter IV, § 1, no. 4, Proposition 9) and there therefore exists $y \in b$ such that $xy \notin A$ and
 $$
 xy \mathfrak{p} \subset \mathfrak{p}A' \cap A = \mathfrak{p};
 $$

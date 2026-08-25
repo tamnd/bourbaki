@@ -12,7 +12,7 @@ pdf_pages: 0344-0353
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 1041088601c93e87563d0f075a725ecae387676a67a10cbf4e0c2ebe1dc7757d
+content_sha256: 56ad431474ed32bda7806e225b54c98db39aef58c544606b85017240924845c6
 ---
 
 # HISTORICAL NOTE
@@ -43,7 +43,7 @@ $$
 $$
 In his later works Euler often returned to these integrals; he thus discovered the complements’ relation ((I), t. XV, p 82 and t. XVII, p. 342), the formula $\mathbf{B}(p, q) = \Gamma(p)\Gamma(q)/\Gamma(p+q)$ ((I), t. XVII, p. 355), and the particular case of the Legendre-Gauss formula corresponding to $x = 1$ ((I), t. XIX, p. 483); all this of course without worrying about questions of convergence.
 
-Gauss pursued the study of the $\Gamma$ function in connection with his research on the hypergeometric function, of which the $\Gamma$ function is a limit case (II); it was in the course of this research that he obtained the general multiplication formula (already noted by Legendre a little earlier for $p = 2$). The later work on $\Gamma$ was mainly concerned with extending this function to the complex domain. Only recently has it been appreciated that the property of logarithmic convexity characterises $ \Gamma(x) $ (in the real domain), up to a constant factor, among the solutions of the functional equation $ f(x + 1) = x\, f(x) $ (III); and Artin showed (IV) how one can link all the classical results on $ \Gamma(x) $ simply to this property. We have followed his exposition quite closely.
+Gauss pursued the study of the $\Gamma$ function in connection with his research on the hypergeometric function, of which the $\Gamma$ function is a limit case (II); it was in the course of this research that he obtained the general multiplication formula (already noted by Legendre a little earlier for $p = 2$). The later work on $\Gamma$ was mainly concerned with extending this function to the complex domain. Only recently has it been appreciated that the property of logarithmic convexity characterises $\Gamma(x)$ (in the real domain), up to a constant factor, among the solutions of the functional equation $f(x + 1) = x\, f(x)$ (III); and Artin showed (IV) how one can link all the classical results on $\Gamma(x)$ simply to this property. We have followed his exposition quite closely.
 
 (I) L. Euler, Opera omnia, Leipzig-Berlin (Teubner): t. XIV (1924), t. XV (1927), t. XVII (1915) and t. XIX (1932).
 (II) C.F. Gauss, Werke, t. III, Göttingen, 1866.
@@ -133,11 +133,11 @@ Index
 Adjoining a root of a polynomial, of a primitive, of an exponential of a primitive, to a differential field, 121
 Adjoint (equation) of a differential linear equation, 186
 Appell polynomials, 272
-Approximate solution to within $ \varepsilon $ of a differential equation, 166
+Approximate solution to within $\varepsilon$ of a differential equation, 166
 Asymptotic expansion
 – more precise than another, 222
 – of a function relative to a comparison scale, 222
-– of a function to precision $ g_\alpha $, 222
+– of a function to precision $g_\alpha$, 222
 – precision of, 222
 Asymptotic expansions, 220
 – with variable coefficients, 226
@@ -183,23 +183,23 @@ Derivative
 – first, 3
 – infinite, 10
 – logarithmic, 94
-– $ n^{th} $, 20
+– $n^{th}$, 20
 – second, 20
 – symmetric, 39
 Derivative of a function, 3
 – left, 4
 – right, 4
-Determinant of $ n $ integrals of a system of $ n $ linear differential equations, 184
+Determinant of $n$ integrals of a system of $n$ linear differential equations, 184
 Differential equation
 – adjoint, 187
 – integral, 163
 – linear, 177
 – linear homogeneous, 178
-– linear of order $ n $, 192
+– linear of order $n$, 192
 – Lipschitz, 171
 – locally Lipschitz, 171
 – of first order, 164
-– of order $ n $, 164
+– of order $n$, 164
 – real variable, 163
 – scalar, 164
 – solution, 163
@@ -213,10 +213,10 @@ Euler integrals, 310
 Euler’s constant, 242
 Euler’s formulae, 99
 Euler-Maclaurin summation formula, 282
-Eulerian expansion of cot $ z $, 286
-Eulerian expansion of sin $ z $, 287
+Eulerian expansion of cot $z$, 286
+Eulerian expansion of sin $z$, 287
 Expansion
-– of log $ \Gamma(z) $
+– of log $\Gamma(z)$
 – Stirling’s, 322
 Exponential
 – complex, 97
@@ -233,7 +233,7 @@ Formula
 – Euler-Maclaurin summation, 282
 – Gauss’, 307
 – integration by parts, 60
-– integration by parts of order $ n $, 60
+– integration by parts of order $n$, 60
 – Legendre-Gauss multiplication, 318
 – Leibniz’, 20
 – Stirling’s, 243
@@ -243,7 +243,7 @@ Formula
 Formulae
 – Euler’s, 99
 Function
-– $ n $ times differentiable
+– $n$ times differentiable
 – at a point, 20
 – on an interval, 20
 – (H), 252
@@ -282,7 +282,7 @@ Function
 Functions
 – comparable
 – strongly, 217
-– to order $ k $, 232
+– to order $k$, 232
 – weakly, 214
 – equivalent, 216
 – hyperbolic, 102
@@ -333,7 +333,7 @@ Integral
 – Raabe’s, 318
 – uniformly convergent, 71
 Integration by parts formula, 60
-Integration by parts formula of order $ n $, 60
+Integration by parts formula of order $n$, 60
 Iterated exponentials, 253
 Iterated logarithm, 229
 
@@ -397,8 +397,8 @@ Prime number
 – irregular, 295
 – regular, 295
 Primitive
-– of a function on an interval of $ \mathbf{R} $, 51
-– of order $ n $, 62
+– of a function on an interval of $\mathbf{R}$, 51
+– of order $n$, 62
 – second, 62
 – strict, 51
 Principal part
@@ -409,7 +409,7 @@ Principle of comparison of integrals, 66
 Raabe’s integral, 318
 Raabe’s test, 244
 Redheffer identity, 88
-Reduced to precision $ g_\alpha $
+Reduced to precision $g_\alpha$
 – asymptotic expansion of a function, 222
 Regular composition operator, 279
 Regulated function, 54
@@ -429,7 +429,7 @@ Similar functions, 214
 Sine
 – hyperbolic, 102
 Sine of a complex number, 102
-Solution to within $ \varepsilon $ of a differential equation, 166
+Solution to within $\varepsilon$ of a differential equation, 166
 Stirling’s formula, 243
 Strict primitive, 51
 Strict solution of a differential equation, 164
@@ -451,7 +451,7 @@ Tangent
 – to a graph, 11
 Taylor’s expansion, 22
 Taylor’s formula, 21
-– of order $ n $, 22
+– of order $n$, 22
 Test
 – d’Alembert’s, 245
 – Raabe’s, 244
@@ -477,4 +477,4 @@ Variation of parameters
 Wallis’ formula, 123
 Weierstrass’ formula, 308
 Weyl inequality, 90
-Wronskian of $ n $ integrals of a linear differential equation of order $ n $, 193
+Wronskian of $n$ integrals of a linear differential equation of order $n$, 193

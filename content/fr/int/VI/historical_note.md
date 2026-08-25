@@ -12,14 +12,14 @@ pdf_pages: 0100-0106
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 23e1870085c25820f916d1173f9c918c13b98fa2e6b5cc263d4455ecbab1aa78
+content_sha256: 806387d2f2245b8d6371cbeda14cf88eeb5791acb08d92d951fc1a43fd873125
 ---
 
 # NOTE HISTORIQUE
 
 (N.-B. --- Les chiffres romains renvoient à la bibliographie placée à la fin de cette note.)
 
-Avec le développement du « calcul vectoriel » au cours du xixe siècle, il était courant d’avoir à intégrer des fonctions vectorielles, mais tant qu’il ne s’agissait que de fonctions à valeurs dans des espaces de dimension finie, cette opération ne posait aucun problème. C’est seulement avec la théorie spectrale de Hilbert que l’on rencontre des opérations qui mènent naturellement à une notion plus générale d’intégrale : cette théorie conduit en effet à associer à toute forme hermitienne continue $ \Phi(x, y) $ sur un espace hilbertien $ \mathbf{H} $, une famille $ (E(\lambda))_{\lambda \in \mathbf{R}} $ de projecteurs orthogonaux ayant la propriété que, pour tout couple $ (x, y) $ de vecteurs de $ \mathbf{H} $, la fonction $ \lambda \to (E(\lambda)x | y) $ soit à variation bornée et que l’on ait $ \Phi(x, y) = \int \lambda d((E(\lambda)x | y)) $; si l’on associe à $ \Phi $ l’opérateur hermitien $ A $ tel que $ \Phi(x; y) = (Ax | y) $, il était tentant d’écrire la formule précédente $ A = \int \lambda dE(\lambda) $. Mais c’est seulement à partir de 1935 environ, après l’introduction par Bochner de l’intégration (« forte ») d’une fonction à valeurs dans un espace de Banach, qu’on commença à se préoccuper de définir l’intégrale de fonctions vectorielles (ou l’intégrale par rapport à une mesure vectorielle) de façon à pouvoir écrire légitimement des formules telles que la précédente. Cette extension fut réalisée essentiellement par Gelfand (III), Dunford et Pettis (IV) et (V)); leurs résultats sont énoncés pour des espaces de Banach, mais s’étendent sans peine à des espaces localement convexes plus généraux.
+Avec le développement du « calcul vectoriel » au cours du xixe siècle, il était courant d’avoir à intégrer des fonctions vectorielles, mais tant qu’il ne s’agissait que de fonctions à valeurs dans des espaces de dimension finie, cette opération ne posait aucun problème. C’est seulement avec la théorie spectrale de Hilbert que l’on rencontre des opérations qui mènent naturellement à une notion plus générale d’intégrale : cette théorie conduit en effet à associer à toute forme hermitienne continue $\Phi(x, y)$ sur un espace hilbertien $\mathbf{H}$, une famille $(E(\lambda))_{\lambda \in \mathbf{R}}$ de projecteurs orthogonaux ayant la propriété que, pour tout couple $(x, y)$ de vecteurs de $\mathbf{H}$, la fonction $\lambda \to (E(\lambda)x | y)$ soit à variation bornée et que l’on ait $\Phi(x, y) = \int \lambda d((E(\lambda)x | y))$; si l’on associe à $\Phi$ l’opérateur hermitien $A$ tel que $\Phi(x; y) = (Ax | y)$, il était tentant d’écrire la formule précédente $A = \int \lambda dE(\lambda)$. Mais c’est seulement à partir de 1935 environ, après l’introduction par Bochner de l’intégration (« forte ») d’une fonction à valeurs dans un espace de Banach, qu’on commença à se préoccuper de définir l’intégrale de fonctions vectorielles (ou l’intégrale par rapport à une mesure vectorielle) de façon à pouvoir écrire légitimement des formules telles que la précédente. Cette extension fut réalisée essentiellement par Gelfand (III), Dunford et Pettis (IV) et (V)); leurs résultats sont énoncés pour des espaces de Banach, mais s’étendent sans peine à des espaces localement convexes plus généraux.
 
 L’idée de décomposer un volume en « tranches » et de ramener une intégrale étendue à ce volume à une intégrale sur chaque tranche, suivie d’une intégration simple, a toujours été utilisée en Analyse depuis les débuts du Calcul infinitésimal (le « Calcul des indivisibles » de Cavalieri n’étant qu’une première ébauche de ce principe, que l’on pourrait même faire remonter à Archimède (v. Note hist. du Livre IV, chap. I-II-III)). Mais dans les applications classiques, les « tranches » étaient toujours de nature très spéciale et très régulière (le plus souvent des parties ouvertes de surfaces analytiques dépendant analytiquement d’un paramètre) ; il ne pouvait d’ailleurs guère en être autrement en l’absence d’une théorie générale de l’intégration. Le problème général de la désintégration d’une mesure fut posé et résolu par von Neumann en 1932, à propos de la théorie ergodique (I) ; presque en même temps (et indépendamment) Kolmogoroff, en posant les fondements axiomatiques de la Théorie des Probabilités, était amené à définir de façon générale la notion de « probabilité conditionnelle » et à en prouver l’existence, problème essentiellement équivalent à celui de la désintégration d’une mesure (II).
 
@@ -77,17 +77,17 @@ E_\sigma, F_\sigma, E'_s, F'_s, \mathcal{B}(E, F) : App., 1.
 
 Les chiffres de référence indiquent successivement le paragraphe et le numéro (ou, exceptionnellement, l'exercice).
 
-Application $ m $-propre ($ m $ mesure complexe) : 2, 10.
-Base (mesure vectorielle de --- $ \mu $) : 2, 4.
-Base (mesure de --- $ m $) : 2, 8.
+Application $m$-propre ($m$ mesure complexe) : 2, 10.
+Base (mesure vectorielle de --- $\mu$) : 2, 4.
+Base (mesure de --- $m$) : 2, 8.
 Bornée (mesure complexe) : 2, 9.
 Classe pseudo-image d'une classe de mesures : 3, 2 .
 Complexe (mesure) : 2, 8.
 Conjuguée (mesure complexe) : 2, 8.
 Densité d'une mesure vectorielle par rapport à une mesure positive : 2, 4.
 Densité par rapport à une mesure complexe : 2, 8.
-Désintégration d'une mesure $ \mu $ relativement à une application $ \mu $-propre : 3, 1.
-Désintégration d'une mesure $ \mu $ relative à une pseudo-image de $ \mu $ : 3, 3.
+Désintégration d'une mesure $\mu$ relativement à une application $\mu$-propre : 3, 1.
+Désintégration d'une mesure $\mu$ relative à une pseudo-image de $\mu$ : 3, 3.
 Désintégration d'une mesure par une relation d'équivalence mesurable : 3, 5.
 Equivalentes (mesures complexes) : 2, 8.
 Essentiellement intégrable (fonction) pour une mesure vectorielle : 2, 2.
@@ -100,13 +100,13 @@ Induite (mesure complexe) : 2, 10.
 Intégrale d'une fonction numérique par rapport à une mesure vectorielle : 2, 2.
 Intégrale d'une fonction vectorielle par rapport à une mesure positive : 1, 1.
 Intégrale d'une fonction vectorielle par rapport à une mesure vectorielle : 2, 7.
-Majorable (mesure, mesure $ q $) : 2, 3.
+Majorable (mesure, mesure $q$) : 2, 3.
 Mesurable (relation d'équivalence) : 3, 4.
 Mesurable (section) : 3, 4.
 Mesure complexe : 2, 8.
 Mesure complexe bornée : 2, 9.
 Mesure complexe conjuguée : 2, 8.
-Mesure complexe de base $ m $ : 2, 8.
+Mesure complexe de base $m$ : 2, 8.
 Mesure complexe induite : 2, 10.
 Mesure complexe produit : 2, 10.
 Mesure pseudo-image : 3, 2.
@@ -115,13 +115,13 @@ Mesure réelle : 2, 1.
 Mesure scalaire : 2, 1.
 
 Mesure vectorielle : 2, 1.
-Mesure vectorielle de base $ \mu $ : 2, 4.
+Mesure vectorielle de base $\mu$ : 2, 4.
 Mesure vectorielle majorable : 2, 3.
-Mesure vectorielle $ q $-majorable : 2, 3.
-Mesure vectorielle scalairement de base $ \mu $ : 2, 5.
+Mesure vectorielle $q$-majorable : 2, 3.
+Mesure vectorielle scalairement de base $\mu$ : 2, 5.
 Mesures complexes équivalentes : 2, 8.
 Partie imaginaire, partie réelle d'une mesure complexe : 2, 8.
-Propre (application $ m $) : 2, 10.
+Propre (application $m$) : 2, 10.
 Propriété de relèvement : 2, 5.
 Propriété (GDF) : 1, 4.
 Pseudo-image (classe, mesure) : 3, 2.
@@ -134,7 +134,7 @@ Relèvement (propriété de) : 2, 5.
 Scalaire (mesure) : 2, 1.
 Scalairement (fonction possédant — une propriété) : 1, 1.
 Scalairement bien intégrable : 1, exerc. 19.
-Scalairement de base $ \mu $ (mesure) : 2, 5.
+Scalairement de base $\mu$ (mesure) : 2, 5.
 Scalairement essentiellement intégrable (fonction) : 1, 1 et 2, 10.
 Section mesurable : 3, 4.
 Séparée (relation d'équivalence) : 3, 4.

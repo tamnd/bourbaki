@@ -24,7 +24,7 @@ subsections:
       pdf_page: 334
 statements: 6
 exercises: 6
-content_sha256: 6be47bc6aec4e2250251661d315af13917b7991b97da582bdb05fa9da882ba8a
+content_sha256: 437d88fbb7bfdd1173fb6523af39fd95358bf570c84e41c9bc95be7e8f1e262e
 ---
 
 ## § 2. THE GAMMA FUNCTION IN THE COMPLEX DOMAIN
@@ -71,13 +71,13 @@ $$
 
 for every $z \neq -n$ ($n \in \mathbf{N}$).
 
-Let $ p $ be an arbitrary integer $ > 0 $, and $ K_p $ the open disc $ |z| < p $; for every $ z \in K_p $, and every integer $ n > p $, $ 1 + \frac{z}{n} $ is not a negative real number, so $ \log \left( 1 + \frac{z}{n} \right) $ is defined, and it follows from the above that the series with general term $ \log \left( 1 + \frac{z}{n} \right) - \frac{z}{n} $ ($ n > p $) is *normally convergent* on $ K_p $; the same holds for the series obtained by differentiating the general term a finite number of times, since one has
+Let $p$ be an arbitrary integer $> 0$, and $K_p$ the open disc $|z| < p$; for every $z \in K_p$, and every integer $n > p$, $1 + \frac{z}{n}$ is not a negative real number, so $\log \left( 1 + \frac{z}{n} \right)$ is defined, and it follows from the above that the series with general term $\log \left( 1 + \frac{z}{n} \right) - \frac{z}{n}$ ($n > p$) is *normally convergent* on $K_p$; the same holds for the series obtained by differentiating the general term a finite number of times, since one has
 
 $$
 \left| \frac{1}{n} - \frac{1}{z+n} \right| \leq \frac{p}{n(n-p)} \quad \text{and} \quad \left| \frac{1}{(z+n)^k} \right| \leq \frac{1}{(n-p)^k} \qquad (k > 1)
 $$
 
-for $ z \in K_p $ and $ n > p $. One then sees (*cf.* II, p. 59, *Remark 3*) that $ \Gamma(z) $ is *indefinitely differentiable* at all the points $ z \in \mathbf{C} $ apart from the points $ -n $, and at these points one has
+for $z \in K_p$ and $n > p$. One then sees (*cf.* II, p. 59, *Remark 3*) that $\Gamma(z)$ is *indefinitely differentiable* at all the points $z \in \mathbf{C}$ apart from the points $-n$, and at these points one has
 
 $$
 \frac{\Gamma'(z)}{\Gamma(z)} = -\gamma - \frac{1}{z} + \sum_{n=1}^{\infty} \left( \frac{1}{n} - \frac{1}{z+n} \right)
@@ -89,24 +89,24 @@ D^{k-1} \left( \frac{\Gamma'(z)}{\Gamma(z)} \right) = \sum_{n=0}^{\infty} \frac{
 $$
 (6)
 
-the right-hand sides of (5) and (6) being *normally convergent* on every compact subset of $ \mathbf{C} $ that does not contain any integer $ \leq 0 $. Further, one can write
+the right-hand sides of (5) and (6) being *normally convergent* on every compact subset of $\mathbf{C}$ that does not contain any integer $\leq 0$. Further, one can write
 
 $$
 \log \Gamma(z) \equiv -\gamma z - \log z + \sum_{n=1}^{\infty} \left( \frac{z}{n} - \log \left( 1 + \frac{z}{n} \right) \right) \qquad (\text{mod. } 2\pi i)
 $$
 (7)
 
-agreeing that when a logarithm in this formula is that of a real negative number it has one or the other limit values (differing by $ 2\pi i $) of $ \log z $ at this point; the series on the right-hand side of (7) is then normally convergent on every compact subset of $ \mathbf{C} $ not containing any integer $ \leq 0 $.
+agreeing that when a logarithm in this formula is that of a real negative number it has one or the other limit values (differing by $2\pi i$) of $\log z$ at this point; the series on the right-hand side of (7) is then normally convergent on every compact subset of $\mathbf{C}$ not containing any integer $\leq 0$.
 
 ### 2. THE COMPLEMENTS’ RELATION AND THE LEGENDRE-GAUSS MULTIPLICATION FORMULA
 
-One derives immediately from formula (2) of VII, p. 315, that, for every $ z \in \mathbf{C} $,
+One derives immediately from formula (2) of VII, p. 315, that, for every $z \in \mathbf{C}$,
 
 $$
 \frac{1}{\Gamma(z)\Gamma(-z)} = -z^2 \prod_{n=1}^{\infty} \left( 1 - \frac{z^2}{n^2} \right).
 $$
 
-Now the Euler expansion of $ \sin z $ (VI, p. 287, th. 2) shows that
+Now the Euler expansion of $\sin z$ (VI, p. 287, th. 2) shows that
 
 $$
 z \prod_{n=1}^{\infty} \left( 1 - \frac{z^2}{n^2} \right) = \frac{1}{\pi} \sin \pi z;
@@ -116,7 +116,7 @@ taking account of the functional equation (4) of VII, p. 315, one then sees that
 
 #### Proposition 1 {#fvr-vii-s2-prop-1 .statement}
 
-For every complex $ z $ one has
+For every complex $z$ one has
 
 $$
 \frac{1}{\Gamma(z)\Gamma(1-z)} = \frac{1}{\pi} \sin \pi z
@@ -124,7 +124,7 @@ $$
 
 (the complements' relation).
 
-COROLLARY — For every real $ t $ one has
+COROLLARY — For every real $t$ one has
 
 $$
 |\Gamma(it)| = \sqrt{\frac{\pi}{t \sinh \pi t}} \quad (t \neq 0)
@@ -134,7 +134,7 @@ $$
 |\Gamma(\frac{1}{2} + it)| = \sqrt{\frac{\pi}{\cosh \pi t}}.
 $$
 
-Indeed, one deduces from (8) that $ \Gamma(it)\Gamma(-it) = \frac{i\pi}{t \sin \pi it} = \frac{\pi}{t \sinh \pi t} $, and one has $ \Gamma(-it) = \overline{\Gamma(it)} $; similarly, (8) gives
+Indeed, one deduces from (8) that $\Gamma(it)\Gamma(-it) = \frac{i\pi}{t \sin \pi it} = \frac{\pi}{t \sinh \pi t}$, and one has $\Gamma(-it) = \overline{\Gamma(it)}$; similarly, (8) gives
 
 $$
 \Gamma\left(\frac{1}{2} + it\right)\Gamma\left(\frac{1}{2} - it\right) = \frac{\pi}{\sin (\frac{\pi}{2} + \pi it)} = \frac{\pi}{\cos \pi it} = \frac{\pi}{\cosh \pi t},
@@ -146,13 +146,13 @@ $$
 \Gamma\left(\frac{1}{2} - it\right) = \overline{\Gamma\left(\frac{1}{2} + it\right)}.
 $$
 
-Now let $ p $ be any integer $ > 0 $ and consider the product
+Now let $p$ be any integer $> 0$ and consider the product
 
 $$
 f(z) = \Gamma\left(\frac{z+1}{p}\right) \Gamma\left(\frac{z+2}{p}\right) \ldots \Gamma\left(\frac{z+p}{p}\right).
 $$
 
-By (3) (VII, p. 315), for every $ z \neq -n \ (n \in \mathbf{N}) $, $ f(z) $ is the limit of the product
+By (3) (VII, p. 315), for every $z \neq -n \ (n \in \mathbf{N})$, $f(z)$ is the limit of the product
 
 $$
 \frac{n^{(z+1)/p} n!}{\left(\frac{z+1}{p}\right) \left(\frac{z+1}{p} + 1\right) \ldots \left(\frac{z+1}{p} + n\right)}
@@ -170,13 +170,13 @@ $$
 = \frac{n^{z+(p+1)/2} p^{(n+1)p} (n!)^p}{(z+1)(z+2) \ldots (z+(n+1)p)}
 $$
 
-and in particular $ f(0) $ is the limit of the product
+and in particular $f(0)$ is the limit of the product
 
 $$
 \frac{n^{(p+1)/2} p^{(n+1)p} (n!)^p}{((n+1)p)!}
 $$
 
-from which it follows that $ f(z)/f(0) $ is the limit of
+from which it follows that $f(z)/f(0)$ is the limit of
 $$
 \frac{n^z ((n+1)p)!}{(z+1)(z+2)\ldots(z+(n+1)p)}
 = z\ p^{-z} \left( \frac{n}{n+1} \right)^z \cdot \frac{((n+1)p)^z ((n+1)p)!}{z(z+1)(z+2)\ldots(z+(n+1)p)}
@@ -189,15 +189,15 @@ But one can write
 $$
 f(0) = \prod_{k=1}^{p-1} \Gamma \left( \frac{k}{p} \right) = \prod_{k=1}^{p-1} \Gamma \left( 1 - \frac{k}{p} \right) = \sqrt{\prod_{k=1}^{p-1} \Gamma \left( \frac{k}{p} \right) \Gamma \left( 1 - \frac{k}{p} \right)}
 $$
-since $ f(0) > 0 $; the complements’ relation then gives
+since $f(0) > 0$; the complements’ relation then gives
 $$
 f(0) = \sqrt{\pi^{p-1} / \prod_{k=1}^{p-1} \sin \frac{k\pi}{p}}
 $$
-and since the product on the right-hand side is equal to $ p/2^{p-1} $ (VI, p. 284, cor. 1) one sees finally that:
+and since the product on the right-hand side is equal to $p/2^{p-1}$ (VI, p. 284, cor. 1) one sees finally that:
 
 #### Proposition 2 {#fvr-vii-s2-prop-2 .statement}
 
-*For every complex number* $ z $ *not an integer* $ \leqslant 0 $ *and for every integer* $ p > 0 $ *one has*
+*For every complex number* $z$ *not an integer* $\leqslant 0$ *and for every integer* $p > 0$ *one has*
 $$
 \Gamma \left( \frac{z}{p} \right) \Gamma \left( \frac{z+1}{p} \right) \ldots \Gamma \left( \frac{z+p-1}{p} \right) = (2\pi)^{(p-1)/2}\ p^{\frac{1}{2}-z}\ \Gamma(z)
 $$
@@ -205,13 +205,13 @@ $$
 
 #### Proposition 3 {#fvr-vii-s2-prop-3 .statement}
 
-*For every real* $ x > 0 $ *one has*
+*For every real* $x > 0$ *one has*
 $$
 \int_1^{x+1} \log \Gamma(t)\ dt = x(\log x - 1) + \frac{1}{2} \log 2\pi
 $$
 *(Raabe’s integral)*.
 
-First we establish formula (13) for $ x = 0 $. Since $ \log \Gamma(x) \sim \log \frac{1}{x} $ as $ x $ tends to 0, the integral $ \int_0^1 \log \Gamma(x)\ dx $ converges. Further, the function $ \log \Gamma(x) $ decreases on $ ]0, 1] $ (VII, p. 310); for every $ \alpha > 0 $ one thus has
+First we establish formula (13) for $x = 0$. Since $\log \Gamma(x) \sim \log \frac{1}{x}$ as $x$ tends to 0, the integral $\int_0^1 \log \Gamma(x)\ dx$ converges. Further, the function $\log \Gamma(x)$ decreases on $]0, 1]$ (VII, p. 310); for every $\alpha > 0$ one thus has
 $$
 \frac{1}{n} \sum_{k=1}^q \log \Gamma \left( \frac{k}{n} \right) \leqslant \int_0^\alpha \log \Gamma(x)\ dx,
 $$
@@ -316,19 +316,19 @@ $$
 
 ![A complex plane diagram showing axes labeled t, s, and regions H_A, A, -A, 0](Fig. 2)
 
-where C_p depends only on p. Now let $ \mathfrak{F} $ be the filter having the sets H_A as basis; the Cauchy criterion shows that, along the filter $ \mathfrak{F} $, the function $ \log \Gamma(z) - g(z) $ has a finite limit $ \delta $ (modulo $ 2\pi i $) and that, if one puts $ \omega(z) = \max(\mathcal{R}(z), |\mathcal{I}(z)|) $, one has
+where C_p depends only on p. Now let $\mathfrak{F}$ be the filter having the sets H_A as basis; the Cauchy criterion shows that, along the filter $\mathfrak{F}$, the function $\log \Gamma(z) - g(z)$ has a finite limit $\delta$ (modulo $2\pi i$) and that, if one puts $\omega(z) = \max(\mathcal{R}(z), |\mathcal{I}(z)|)$, one has
 
 $$
 \log \Gamma(z) - g(z) - \delta \equiv O \left( \frac{1}{(\omega(z))^{2p}} \right) \quad (\text{mod. } 2\pi i).
 $$
 
-For x real and > 0 one has $ \Gamma(x) > 0 $, and $ g(x) $ is real, so one can assume that $ \delta $ is real and one has
+For x real and > 0 one has $\Gamma(x) > 0$, and $g(x)$ is real, so one can assume that $\delta$ is real and one has
 
 $$
 \log \Gamma(x) = g(x) + \delta + O \left( \frac{1}{x^{2p}} \right).
 $$
 
-Now we shall deduce the value of the constant $ \delta $: by prop. 2 of VII, p. 318, applied for $ p = 2 $, one has, for real $ x $ tending to $ +\infty $
+Now we shall deduce the value of the constant $\delta$: by prop. 2 of VII, p. 318, applied for $p = 2$, one has, for real $x$ tending to $+\infty$
 
 $$
 \begin{align*}
@@ -337,11 +337,11 @@ $$
 \end{align*}
 $$
 
-from which one deduces easily that $ \delta = \frac{1}{2} \log 2\pi $. Finally one has the following result:
+from which one deduces easily that $\delta = \frac{1}{2} \log 2\pi$. Finally one has the following result:
 
 #### Proposition 4 {#fvr-vii-s2-prop-4 .statement}
 
-*Along the filter $ \mathfrak{F} $ one has (for every integer $ p \geqslant 1 $) the asymptotic expansion*
+*Along the filter $\mathfrak{F}$ one has (for every integer $p \geqslant 1$) the asymptotic expansion*
 
 $$
 \log \Gamma(z) \equiv z \log z - z - \frac{1}{2} \log z + \frac{1}{2} \log 2\pi
@@ -352,19 +352,19 @@ $$
 
 #### Corollary {#fvr-vii-s2-n3-cor-1 .statement}
 
-*Along the filter $ \mathfrak{F} $ one has*
+*Along the filter $\mathfrak{F}$ one has*
 
 $$
 \Gamma(z) \sim \sqrt{2\pi} \exp(z \log z - z - \frac{1}{2} \log z).
 $$
 
-In particular, for $ x $ real tending to $ +\infty $ the formula (20) can be written
+In particular, for $x$ real tending to $+\infty$ the formula (20) can be written
 
 $$
 \Gamma(x) \sim \sqrt{2\pi} \, x^{x-1/2} e^{-x},
 $$
 
-whence, as the integer $ n $ tends to $ +\infty $,
+whence, as the integer $n$ tends to $+\infty$,
 
 $$
 n! \sim \sqrt{2\pi} \, n^{n+1/2} \, e^{-n}
@@ -372,25 +372,25 @@ $$
 
 (*cf.* V, p. 244).
 
-One can deduce numerous formulae from this. For example, for every complex number $ \alpha $ and every integer $ n $ one has, as $ n $ tends to $ +\infty $,
+One can deduce numerous formulae from this. For example, for every complex number $\alpha$ and every integer $n$ one has, as $n$ tends to $+\infty$,
 
 $$
 \frac{\Gamma(n+\alpha)}{\Gamma(n)} \sim n^{\alpha} \quad (= e^{\alpha \log n}).
 $$
 
-Similarly, for every complex number $ a $ not an integer $ \leqslant 0 $ one has
+Similarly, for every complex number $a$ not an integer $\leqslant 0$ one has
 
 $$
 a(a+1)(a+2)\ldots(a+n) = \frac{\Gamma(n+a+1)}{\Gamma(a)} \sim \frac{\sqrt{2\pi}}{\Gamma(a)} \, n^{n+a+1/2} \, e^n
 $$
 
-and for every complex number $ a $ not an integer $ \geqslant 0 $
+and for every complex number $a$ not an integer $\geqslant 0$
 
 $$
 \binom{a}{n} = \frac{(-1)^n}{\Gamma(-a)} \frac{\Gamma(n-a)}{\Gamma(n+1)} \sim \frac{(-1)^n}{\Gamma(-a)} \, n^{-a-1}.
 $$
 
-Finally, for every real constant $ k > 1 $ one has
+Finally, for every real constant $k > 1$ one has
 
 $$
 \binom{kn}{n} = \frac{\Gamma(kn+1)}{\Gamma(n+1) \Gamma((k-1)n+1)} \sim \sqrt{\frac{k}{2\pi(k-1)n}} \left( \frac{k^k}{(k-1)^{k-1}} \right)^n.
@@ -400,7 +400,7 @@ The same argument leads to the following analogous proposition:
 
 #### Proposition 5 {#fvr-vii-s2-prop-5 .statement}
 
-Along the filter $ \mathfrak{F} $ one has (for every integer $ p \geqslant 1 $), the asymptotic expansion
+Along the filter $\mathfrak{F}$ one has (for every integer $p \geqslant 1$), the asymptotic expansion
 
 $$
 \frac{\Gamma'(z)}{\Gamma(z)} = \log z - \frac{1}{2z} - \sum_{k=1}^{p} \frac{b_{2k}}{2k} \frac{1}{z^{2k}} + O \left( \frac{1}{(\omega(z))^{2p+1}} \right).

@@ -46,7 +46,7 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: 57a884e506d7ba3b80df5da8946039a08e199b1e2e794448769cfff9f58df488
+content_sha256: 20e8293964011d4b021666f811555994484c4df5ad3a8aa7a6c4c31c70bdaac0
 ---
 
 ## § 13. ABSOLUTELY SEMISIMPLE ALGEBRAS
@@ -377,7 +377,7 @@ $$
 
 is an isomorphism of K-modules.
 
-We denote by $ \partial^n $ (for $ n \geq 0 $) the unique K-linear mapping from $ C^n(A, P) $ to $ C^{n+1}(A, P) $ that makes the following diagram commutative:
+We denote by $\partial^n$ (for $n \geq 0$) the unique K-linear mapping from $C^n(A, P)$ to $C^{n+1}(A, P)$ that makes the following diagram commutative:
 
 $$
 \begin{array}{ccc}
@@ -393,13 +393,13 @@ $$
 (9) \quad (\alpha^{n+1} \circ \partial^n)(f) = \alpha^n(f) \circ d_{n+1}
 $$
 
-for every $ f \in C^n(A, P) $. In other words, we have
+for every $f \in C^n(A, P)$. In other words, we have
 
 $$
 \partial^n(f)(x_0, \ldots, x_n) = \alpha^n(f)(d_{n+1}(1 \otimes x_0 \otimes \cdots \otimes x_n \otimes 1))
 $$
 
-for $ x_0, \ldots, x_n $ in A and $ f $ in $ C^n(A, P) $, that is,
+for $x_0, \ldots, x_n$ in A and $f$ in $C^n(A, P)$, that is,
 
 $$
 \begin{align*}
@@ -415,7 +415,7 @@ $$
 (11) \quad \partial^{n+1} \circ \partial^n = 0 \qquad \text{for every } n \geq 0.
 $$
 
-We denote the K-module $ \operatorname{Ker} \partial^0 $ by $ H^0(A, P) $ and, for $ n \geq 1 $, the K-module $ \operatorname{Ker} \partial^n / \operatorname{Im} \partial^{n-1} $ by $ H^n(A, P) $. We identify the K-module $ C^0(A, P) $ with P, and we have $ C^1(A, P) = \operatorname{Hom}_K(A, P) $. The mappings $ \partial^n $ for $ n \leq 2 $ are given by the formulas
+We denote the K-module $\operatorname{Ker} \partial^0$ by $H^0(A, P)$ and, for $n \geq 1$, the K-module $\operatorname{Ker} \partial^n / \operatorname{Im} \partial^{n-1}$ by $H^n(A, P)$. We identify the K-module $C^0(A, P)$ with P, and we have $C^1(A, P) = \operatorname{Hom}_K(A, P)$. The mappings $\partial^n$ for $n \leq 2$ are given by the formulas
 
 $$
 \begin{align*}
@@ -425,9 +425,9 @@ $$
 \end{align*}
 $$
 
-for $ f \in C^2(A, P) $.
+for $f \in C^2(A, P)$.
 
-So $ H^0(A, P) $ is the K-submodule of P consisting of the elements $ p $ such that $ ap = pa $ for every $ a \in A $, and $ H^1(A, P) $ is the quotient of the K-module $ \operatorname{Der}_K(A, P) $ of K-derivations from A to P (III, §10, No. 2, p. 553) by the K-submodule consisting of the derivations of the form $ a \mapsto ap - pa $ with $ p \in P $ (called *inner derivations*).
+So $H^0(A, P)$ is the K-submodule of P consisting of the elements $p$ such that $ap = pa$ for every $a \in A$, and $H^1(A, P)$ is the quotient of the K-module $\operatorname{Der}_K(A, P)$ of K-derivations from A to P (III, §10, No. 2, p. 553) by the K-submodule consisting of the derivations of the form $a \mapsto ap - pa$ with $p \in P$ (called *inner derivations*).
 
 ### 7. Cohomology of Absolutely Semisimple Algebras
 

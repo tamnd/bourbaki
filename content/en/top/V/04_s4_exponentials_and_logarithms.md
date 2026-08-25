@@ -11,11 +11,11 @@ pdf_pages: 0025-0029, 0034-0034
 extraction: ocr
 subsections:
     - "no": 1
-      title: DEFINITION OF $ a^x $ AND $ \log_a x $
+      title: DEFINITION OF $a^x$ AND $\log_a x$
       page: 0
       pdf_page: 25
     - "no": 2
-      title: BEHAVIOUR OF THE FUNCTIONS $ a^x $ AND $ \log_a x $
+      title: BEHAVIOUR OF THE FUNCTIONS $a^x$ AND $\log_a x$
       page: 0
       pdf_page: 27
     - "no": 3
@@ -24,34 +24,34 @@ subsections:
       pdf_page: 28
 statements: 1
 exercises: 2
-content_sha256: c68940cee2128331ec6615f36d357b51c3b138ed4881abd37a7be6e09b4e5422
+content_sha256: 253a1c01cd6f9c44097f66ce6edc145a7650e56bfa06ec21ab22bc689a764fbb
 ---
 
 ## 4. EXPONENTIALS AND LOGARITHMS
 
-### 1. DEFINITION OF $ a^x $ AND $ \log_a x $
+### 1. DEFINITION OF $a^x$ AND $\log_a x$
 
 #### Theorem 1 {#top-v-s4-thm-1 .statement}
 
-*The multiplicative group* $ \mathbf{R}_+^* $ *of real numbers* $ > 0 $ *is a topological group isomorphic to the additive group* $ \mathbf{R} $ *of real numbers*.
+*The multiplicative group* $\mathbf{R}_+^*$ *of real numbers* $> 0$ *is a topological group isomorphic to the additive group* $\mathbf{R}$ *of real numbers*.
 
-For $ \mathbf{R}_+^* = ]0, +\infty[ $ is an open interval of $ \mathbf{R} $ and is therefore *homeomorphic* to $ \mathbf{R} $ (Chapter IV, § 4, no. 1, Proposition 1). By Theorem 2 of § 3, it is therefore a topological group *isomorphic* to $ \mathbf{R} $.
+For $\mathbf{R}_+^* = ]0, +\infty[$ is an open interval of $\mathbf{R}$ and is therefore *homeomorphic* to $\mathbf{R}$ (Chapter IV, § 4, no. 1, Proposition 1). By Theorem 2 of § 3, it is therefore a topological group *isomorphic* to $\mathbf{R}$.
 
-From the Corollary to Proposition 5 of § 1, no. 3, for every number $ a > 0 $ there is a unique continuous homomorphism $ f_a $ of $ \mathbf{R} $ into $ \mathbf{R}_+^* $ such that $ f_a(1) = a $. Hence, for all $ x \in \mathbf{R} $ and all $ y \in \mathbf{R} $ we have
+From the Corollary to Proposition 5 of § 1, no. 3, for every number $a > 0$ there is a unique continuous homomorphism $f_a$ of $\mathbf{R}$ into $\mathbf{R}_+^*$ such that $f_a(1) = a$. Hence, for all $x \in \mathbf{R}$ and all $y \in \mathbf{R}$ we have
 
 $$
 f_a(x + y) = f_a(x) f_a(y), \qquad f_a(-x) = \frac{1}{f_a(x)},
 $$
 
-and hence, in particular, for all $ n \in \mathbf{Z} $,
+and hence, in particular, for all $n \in \mathbf{Z}$,
 
 $$
 f_a(n) = a^n.
 $$
 
-For this reason we denote $ f_a(x) $ by $ a^x $ for all $ x \in \mathbf{R} $; the functions $ a^x $ (for all values of $ a > 0 $) are called *exponential functions*. We have $ 1^x = 1 $ for all $ x \in \mathbf{R} $; if $ a \neq 1 $, $ x \to a^x $ is an *isomorphism* of the group $ \mathbf{R} $ onto the group $ \mathbf{R}_+^* $.
+For this reason we denote $f_a(x)$ by $a^x$ for all $x \in \mathbf{R}$; the functions $a^x$ (for all values of $a > 0$) are called *exponential functions*. We have $1^x = 1$ for all $x \in \mathbf{R}$; if $a \neq 1$, $x \to a^x$ is an *isomorphism* of the group $\mathbf{R}$ onto the group $\mathbf{R}_+^*$.
 
-If $ a \neq 1 $, the isomorphism of $ \mathbf{R}_+^* $ onto $ \mathbf{R} $ which is the inverse of $ x \to a^x $ is called the *logarithm to base* $ a $, and its value at $ x \in \mathbf{R}_+^* $ is denoted by $ \log_a x $. Thus, with this notation, we have
+If $a \neq 1$, the isomorphism of $\mathbf{R}_+^*$ onto $\mathbf{R}$ which is the inverse of $x \to a^x$ is called the *logarithm to base* $a$, and its value at $x \in \mathbf{R}_+^*$ is denoted by $\log_a x$. Thus, with this notation, we have
 
 (1) $$
 a^{x+y} = a^x a^y \qquad (x \in \mathbf{R}, y \in \mathbf{R}, a > 0);
@@ -75,7 +75,7 @@ $$
 \log_a a^x = x \qquad (x \in \mathbf{R}).
 $$
 
-By Proposition 5 of § 1, no. 3, every continuous homomorphism of $ \mathbf{R} $ into $ \mathbf{R}_+^* $ is of the form $ y \to a^{xy} $, where $ x \in \mathbf{R} $; since its value when $ y = 1 $ is $ a^x $, we have identically
+By Proposition 5 of § 1, no. 3, every continuous homomorphism of $\mathbf{R}$ into $\mathbf{R}_+^*$ is of the form $y \to a^{xy}$, where $x \in \mathbf{R}$; since its value when $y = 1$ is $a^x$, we have identically
 
 (8) $$
 (a^x)^y = a^{xy} \qquad (x \in \mathbf{R}, \ y \in \mathbf{R}, \ a > 0),
@@ -86,7 +86,7 @@ or, changing the notation,
 x^y = a^{y \cdot \log_a x} \qquad (x > 0, y \in \mathbf{R}, a > 0, a \neq 1).
 $$
 
-The formula (8) shows that, for every integer $ n > 0 $, we have $ (a^{1/n})^n = a $, which justifies the notation $ a^{1/n} $ introduced for the *nth root* $ \sqrt[n]{a} $, defined in Chapter IV, § 3, no. 3.
+The formula (8) shows that, for every integer $n > 0$, we have $(a^{1/n})^n = a$, which justifies the notation $a^{1/n}$ introduced for the *nth root* $\sqrt[n]{a}$, defined in Chapter IV, § 3, no. 3.
 
 Formulas (7) and (9) show that
 
@@ -100,13 +100,13 @@ or, changing the notation,
 $$
 which is the formula for "change of base".
 
-Finally, let us obtain all the *continuous homomorphisms* of the topological group $ \mathbf{R}^* $ into itself; if $ g $ is such a continuous homomorphism,
+Finally, let us obtain all the *continuous homomorphisms* of the topological group $\mathbf{R}^*$ into itself; if $g$ is such a continuous homomorphism,
 
 $$
 \log_a (g(a^x))
 $$
 
-is a continuous homomorphism of $ \mathbf{R} $ into $ \mathbf{R} $, therefore (§ 1, no. 3, Proposition 5) there exists $ \alpha \in \mathbf{R} $ such that $ \log_a (g(a^x)) = \alpha x $ for all $ x \in \mathbf{R} $; hence, by (8), $ g(x) = x^\alpha $ for all $ x > 0 $. Hence we have identically
+is a continuous homomorphism of $\mathbf{R}$ into $\mathbf{R}$, therefore (§ 1, no. 3, Proposition 5) there exists $\alpha \in \mathbf{R}$ such that $\log_a (g(a^x)) = \alpha x$ for all $x \in \mathbf{R}$; hence, by (8), $g(x) = x^\alpha$ for all $x > 0$. Hence we have identically
 
 (12) $$
 (xy)^\alpha = x^\alpha y^\alpha \text{ for all } x > 0, y > 0 \text{ and } \alpha \in \mathbf{R}.
@@ -114,11 +114,11 @@ $$
 
 By reason of formula (4), which reduces every multiplication to an addition (the only operation to which the customary system of numeration is well adapted), logarithms have long been an indispensable instrument in numerical calculations (see the Historical Note to this Chapter).
 
-When used for this purpose, the base chosen is $ a = 10 $; and there are tables giving the values of the function $ \log_{10} x $ (to a certain approximation). In analysis, one is led to choose a different base (denoted by $ e $) which is such that $ \lim_{x \to 1, x \neq 1} \frac{\log_e x}{(x - 1)} = 1 $ (cf. Exercise 1).
+When used for this purpose, the base chosen is $a = 10$; and there are tables giving the values of the function $\log_{10} x$ (to a certain approximation). In analysis, one is led to choose a different base (denoted by $e$) which is such that $\lim_{x \to 1, x \neq 1} \frac{\log_e x}{(x - 1)} = 1$ (cf. Exercise 1).
 
-### 2. BEHAVIOUR OF THE FUNCTIONS $ a^x $ AND $ \log_a x $
+### 2. BEHAVIOUR OF THE FUNCTIONS $a^x$ AND $\log_a x$
 
-By Theorem 5 of Chapter IV, § 2, no. 6, if $ a \neq 1, x \to a^x $ is a strictly monotone mapping of $ \mathbf{R} $ onto the interval $ \mathbf{R}_+^* = ]0, + \infty[ $. If $ a > 1 $, we have $ a^1 = a \geq 1 = a^0 $, hence $ a^x $ is strictly increasing; moreover, since $ \mathbf{R}_+^* $ is not bounded above, $ a^x $ is not bounded above in $ \mathbf{R} $, so that
+By Theorem 5 of Chapter IV, § 2, no. 6, if $a \neq 1, x \to a^x$ is a strictly monotone mapping of $\mathbf{R}$ onto the interval $\mathbf{R}_+^* = ]0, + \infty[$. If $a > 1$, we have $a^1 = a \geq 1 = a^0$, hence $a^x$ is strictly increasing; moreover, since $\mathbf{R}_+^*$ is not bounded above, $a^x$ is not bounded above in $\mathbf{R}$, so that
 
 $$
 \lim_{x \to +\infty} a^x = +\infty \quad (a > 1)
@@ -130,7 +130,7 @@ $$
 \lim_{x \to -\infty} a^x = 0 \quad (a > 1).
 $$
 
-On the other hand, if $ a < 1 $, the function $ a^x $ is strictly decreasing, tends to 0 as $ x $ tends to $ +\infty $, and tends to $ +\infty $ as $ x $ tends to $ -\infty $ (Fig. 1).
+On the other hand, if $a < 1$, the function $a^x$ is strictly decreasing, tends to 0 as $x$ tends to $+\infty$, and tends to $+\infty$ as $x$ tends to $-\infty$ (Fig. 1).
 
 ![Graph showing y = a^x (a > 1) and y = a^x (a < 1)](https://i.imgur.com/1.png)
 
@@ -160,13 +160,13 @@ $$
 \prod_i x_i = a^{\sum \log_a x_i}.
 $$
 
-Likewise, an infinite product defined by a sequence $(1 + u_n)$ of finite numbers $> 0$ is *convergent* (Chapter IV, § 7, no. 6) if and only if the series whose general term is $ \log_a (1 + u_n) $ is convergent, and then we have
+Likewise, an infinite product defined by a sequence $(1 + u_n)$ of finite numbers $> 0$ is *convergent* (Chapter IV, § 7, no. 6) if and only if the series whose general term is $\log_a (1 + u_n)$ is convergent, and then we have
 
 $$
 \prod_{n=0}^{\infty} (1 + u_n) = a^{S_{n=0}^{\infty} \log_a (1 + u_n)}.
 $$
 
-The study of infinite products of real numbers $ > 0 $ is thus reduced to that of infinite series of real numbers whose terms appear in the form of logarithms; we shall see later how sums of this nature can be easily studied by means of the differential properties of the logarithm.
+The study of infinite products of real numbers $> 0$ is thus reduced to that of infinite series of real numbers whose terms appear in the form of logarithms; we shall see later how sums of this nature can be easily studied by means of the differential properties of the logarithm.
 
 ### Exercises {#top-v-s4-exercises}
 

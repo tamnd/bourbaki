@@ -24,7 +24,7 @@ subsections:
       pdf_page: 154
 statements: 10
 exercises: 5
-content_sha256: 4748a58f6d14a5d5a956fa334a920c8e134d55d8ee552daf3f65c675a43632e3
+content_sha256: 6d6dc8b3744dc422d4363618c4c4a2aec927de3ee06f9f4858a35ee24413e5bc
 ---
 
 ## § 9. Application : corps localement compacts.
@@ -35,16 +35,16 @@ Soit K un corps localement compact (non nécessairement commutatif). Rappelons q
 
 #### Proposition 1 {#ac-vi-s9-prop-1 .statement}
 
-Si K est un corps localement compact, la fonction mod_K appartient à $ \mathcal{V}(K) $ (§ 6, no 1). En outre :
-(i) Si s > 0 est tel que $ (\mathrm{mod}_K)^s = g $ soit une valeur absolue, alors g définit la topologie de K.
-(ii) Si K est non discret et si mod_K est une valeur absolue ultramétrique, il existe une valuation discrète normée $ \nu $ sur K, dont l’anneau est compact et le corps résiduel fini à q éléments, de sorte que $ \mathrm{mod}_K = q^{-\nu} $. La topologie de K est définie par $ \nu $.
+Si K est un corps localement compact, la fonction mod_K appartient à $\mathcal{V}(K)$ (§ 6, no 1). En outre :
+(i) Si s > 0 est tel que $(\mathrm{mod}_K)^s = g$ soit une valeur absolue, alors g définit la topologie de K.
+(ii) Si K est non discret et si mod_K est une valeur absolue ultramétrique, il existe une valuation discrète normée $\nu$ sur K, dont l’anneau est compact et le corps résiduel fini à q éléments, de sorte que $\mathrm{mod}_K = q^{-\nu}$. La topologie de K est définie par $\nu$.
 Cela résulte du § 6, no 1, prop. 1, du § 5, no 1, prop. 2 et d’Intégr., chap. VII, § 1, no 10, prop. 12 et 13.
 
 #### Proposition 2 {#ac-vi-s9-prop-2 .statement}
 
 Soient K, K' deux corps localement compacts (non nécessairement commutatifs) tels que K soit un sous-corps topologique de K' et que K soit non discret. Alors :
 (i) K' est un espace vectoriel à gauche (resp. à droite) de dimension finie sur K.
-(ii) Si K est contenu dans le centre de K', on a, pour tout $ x \in K' $
+(ii) Si K est contenu dans le centre de K', on a, pour tout $x \in K'$
 $$
 \mathrm{mod}_{K'}(x) = \mathrm{mod}_K(\mathrm{N}_{K'/K}(x)).
 $$
@@ -61,46 +61,46 @@ Soient K' un corps localement compact et K un sous-corps fermé de K' (non néce
 $$
 \mathrm{mod}_{K'}(x) = (\mathrm{mod}_K(x))^n \text{ pour tout } x \in K.
 $$
-En effet, de façon générale, on sait que dans un espace vectoriel (à gauche ou à droite) de dimension finie $ n $ sur $ K $, l’homothétie de rapport $ x \in K $ a un module égal à $ (\mathrm{mod}_K(x))^n $; il suffit d’appliquer cela à $ K' $.
+En effet, de façon générale, on sait que dans un espace vectoriel (à gauche ou à droite) de dimension finie $n$ sur $K$, l’homothétie de rapport $x \in K$ a un module égal à $(\mathrm{mod}_K(x))^n$; il suffit d’appliquer cela à $K'$.
 
 ### 2. Existence de représentants.
 
 #### Proposition 3 {#ac-vi-s9-prop-3 .statement}
 
-Soit $ K $ un corps (non nécessairement commutatif) localement compact non discret dont la topologie soit définie par une valuation discrète $ \nu $; soient $ A $ l’anneau et $ m $ l’idéal de $ \nu $, et posons $ \mathrm{Card}(A/m) = q = p^f $ (p premier). Alors, il existe un système de représentants $ S $ de $ A/m $ dans $ A $ et une uniformisante $ u $ pour $ \nu $, tels que $ 0 \in S $, que $ S^* = S \cap K^* $ soit un sous-groupe cyclique de $ K^* $ et que $ u^{-1}Su = S $. En outre, tout élément de $ A $ s’écrit d’une seule manière sous la forme $ \sum_{i=0}^\infty s_i u^i $, où $ s_i \in S $.
+Soit $K$ un corps (non nécessairement commutatif) localement compact non discret dont la topologie soit définie par une valuation discrète $\nu$; soient $A$ l’anneau et $m$ l’idéal de $\nu$, et posons $\mathrm{Card}(A/m) = q = p^f$ (p premier). Alors, il existe un système de représentants $S$ de $A/m$ dans $A$ et une uniformisante $u$ pour $\nu$, tels que $0 \in S$, que $S^* = S \cap K^*$ soit un sous-groupe cyclique de $K^*$ et que $u^{-1}Su = S$. En outre, tout élément de $A$ s’écrit d’une seule manière sous la forme $\sum_{i=0}^\infty s_i u^i$, où $s_i \in S$.
 
 Nous utiliserons le lemme suivant :
 
 #### Lemme 1 {#ac-vi-s9-lem-1 .statement}
 
-Soient $ x, y $ deux éléments permutables de $ A $ tels que $ x - y \in m^j (j \geq 1) $; alors $ x^{p^n} - y^{p^n} \in m^{j+n} $ pour tout entier $ n \geq 0 $.
+Soient $x, y$ deux éléments permutables de $A$ tels que $x - y \in m^j (j \geq 1)$; alors $x^{p^n} - y^{p^n} \in m^{j+n}$ pour tout entier $n \geq 0$.
 
-Par récurrence sur $ n $, on se ramène à prouver le lemme pour $ n = 1 $. Alors $ x^p - y^p = (x - y)(x^{p-1} + x^{p-2}y + \cdots + y^{p-1}) $; le second facteur est une somme de $ p $ termes, deux à deux congrus mod. $ m $, et comme $ A/m $ est de caractéristique $ p $, on a $ p.1 \in m $ dans $ A $, donc on a $ x^{p-1} + x^{p-2}y + \cdots + y^{p-1} \in m $; d’où $ x^p - y^p \in m^{j+1} $.
+Par récurrence sur $n$, on se ramène à prouver le lemme pour $n = 1$. Alors $x^p - y^p = (x - y)(x^{p-1} + x^{p-2}y + \cdots + y^{p-1})$; le second facteur est une somme de $p$ termes, deux à deux congrus mod. $m$, et comme $A/m$ est de caractéristique $p$, on a $p.1 \in m$ dans $A$, donc on a $x^{p-1} + x^{p-2}y + \cdots + y^{p-1} \in m$; d’où $x^p - y^p \in m^{j+1}$.
 
-On sait que le groupe multiplicatif $ (A/m)^* $ est un groupe cyclique ayant $ q - 1 $ éléments (Alg., chap. V, § 11, no 1, th. 1); soit $ x $ un représentant dans $ A $ d’un générateur de ce groupe; on a donc $ x^q - x \in m $, d’où, en vertu du lemme 1, $ x^{q^{n+1}} - x^{q^n} \in m^{1+jn} $, puisque $ x^q $ et $ x $ sont permutables. Cela prouve que $ (x^{q^n})_{n \geq 0} $ est une suite de Cauchy dans $ A $; comme $ A $ est compact, donc complet, cette suite a une limite $ s $ dans $ A $, qui est évidemment telle que $ s \equiv x $ (mod. $ m $) et $ s^q = s $. Comme $ s \neq 0 $, on a $ s^{q-1} = 1 $, plus précisément $ s $ est une racine primitive $ (q-1)$-ème de l’unité dans $ A $. Il est clair que l’ensemble $ S $, formé de $ 0 $ et des puissances $ s^j (0 \leq j \leq q-2) $ est un système de représentants des classes de $ A $ mod. $ m $, et est stable pour la multiplication dans $ A $.
+On sait que le groupe multiplicatif $(A/m)^*$ est un groupe cyclique ayant $q - 1$ éléments (Alg., chap. V, § 11, no 1, th. 1); soit $x$ un représentant dans $A$ d’un générateur de ce groupe; on a donc $x^q - x \in m$, d’où, en vertu du lemme 1, $x^{q^{n+1}} - x^{q^n} \in m^{1+jn}$, puisque $x^q$ et $x$ sont permutables. Cela prouve que $(x^{q^n})_{n \geq 0}$ est une suite de Cauchy dans $A$; comme $A$ est compact, donc complet, cette suite a une limite $s$ dans $A$, qui est évidemment telle que $s \equiv x$ (mod. $m$) et $s^q = s$. Comme $s \neq 0$, on a $s^{q-1} = 1$, plus précisément $s$ est une racine primitive $(q-1)$-ème de l’unité dans $A$. Il est clair que l’ensemble $S$, formé de $0$ et des puissances $s^j (0 \leq j \leq q-2)$ est un système de représentants des classes de $A$ mod. $m$, et est stable pour la multiplication dans $A$.
 
-Soit maintenant $ a $ une uniformisante pour $ \nu $, et considérons l’automorphisme intérieur $ y \to a^{-1}ya $ de $ K $; il transforme $ A $ en lui-même, $ m $ en lui-même, donc, par passage aux quotients,
+Soit maintenant $a$ une uniformisante pour $\nu$, et considérons l’automorphisme intérieur $y \to a^{-1}ya$ de $K$; il transforme $A$ en lui-même, $m$ en lui-même, donc, par passage aux quotients,
 
 Posons
 $$
 u = \sum_{j=0}^{q-2} s^{-j} a s^{jp^r}.
 $$
 
-On a $ u \equiv (q - 1)a \equiv -a \ (\mathrm{mod.}\ m^2) $ puisque $ p.1 \in m $; on en conclut que $ u $ est aussi une uniformisante pour $ \varphi $; en outre on a
+On a $u \equiv (q - 1)a \equiv -a \ (\mathrm{mod.}\ m^2)$ puisque $p.1 \in m$; on en conclut que $u$ est aussi une uniformisante pour $\varphi$; en outre on a
 $$
 s^{-1} u s^{p^r} = u
 $$
-d’où l’on déduit que $ u^{-1} S u = S $.
+d’où l’on déduit que $u^{-1} S u = S$.
 
-Enfin, pour tout $ x \in A $ il existe une suite $ (s_i) \quad (i \in \mathbf{N}) $ et une seule telle que $ s_i \in S $ pour tout $ i $ et $ x \equiv \sum_{i=0}^n s_i u^i \ (\mathrm{mod.}\ m^{n+1}) $ pour tout $ n \geq 0 $: c’est immédiat par récurrence sur $ n $, tout élément $ t $ de $ m^{n+1} $ vérifiant une relation de la forme $ t \equiv t' u^{n+1} \ (\mathrm{mod.}\ m^{n+2}) $, où $ t' $ est un élément de $ S $ déterminé de façon unique. On a donc $ x = \sum_{i=0}^\infty s_i u^i $ et la famille $ (s_i) $ vérifiant cette relation et telle que $ s_i \in S $ pour tout $ i $ est déterminée de façon unique.
+Enfin, pour tout $x \in A$ il existe une suite $(s_i) \quad (i \in \mathbf{N})$ et une seule telle que $s_i \in S$ pour tout $i$ et $x \equiv \sum_{i=0}^n s_i u^i \ (\mathrm{mod.}\ m^{n+1})$ pour tout $n \geq 0$: c’est immédiat par récurrence sur $n$, tout élément $t$ de $m^{n+1}$ vérifiant une relation de la forme $t \equiv t' u^{n+1} \ (\mathrm{mod.}\ m^{n+2})$, où $t'$ est un élément de $S$ déterminé de façon unique. On a donc $x = \sum_{i=0}^\infty s_i u^i$ et la famille $(s_i)$ vérifiant cette relation et telle que $s_i \in S$ pour tout $i$ est déterminée de façon unique.
 
 ### 3. Structure des corps localement compacts.
 
-Les complétés $ \mathbf{R} $ et $ \mathbf{Q}_p $ du corps $ \mathbf{Q} $ pour les valeurs absolues non impropres sur $ \mathbf{Q} $ ($ p $ premier quelconque) sont localement compacts. D’autre part, pour toute puissance $ q = p^f $ d’un nombre premier $ p $, le corps $ \mathbf{F}_q((T)) $ des séries formelles sur le corps fini $ \mathbf{F}_q $, muni de la valuation définie au § 3, n° 4, Exemple 3, est localement compact : en effet l’idéal maximal de l’anneau de valuation $ \mathbf{F}_q[[T]] $ est engendré par $ T $; on sait que cet anneau est complet pour la topologie (T)-adique (chap. III, § 2, n° 6, prop. 6) et comme le corps résiduel $ \mathbf{F}_q $ est fini, la prop. 2 du § 5, n° 1, prouve notre assertion. Inversement :
+Les complétés $\mathbf{R}$ et $\mathbf{Q}_p$ du corps $\mathbf{Q}$ pour les valeurs absolues non impropres sur $\mathbf{Q}$ ($p$ premier quelconque) sont localement compacts. D’autre part, pour toute puissance $q = p^f$ d’un nombre premier $p$, le corps $\mathbf{F}_q((T))$ des séries formelles sur le corps fini $\mathbf{F}_q$, muni de la valuation définie au § 3, n° 4, Exemple 3, est localement compact : en effet l’idéal maximal de l’anneau de valuation $\mathbf{F}_q[[T]]$ est engendré par $T$; on sait que cet anneau est complet pour la topologie (T)-adique (chap. III, § 2, n° 6, prop. 6) et comme le corps résiduel $\mathbf{F}_q$ est fini, la prop. 2 du § 5, n° 1, prouve notre assertion. Inversement :
 
 #### Théorème 1 {#ac-vi-s9-thm-1 .statement}
 
-Soit $ K $ un corps (non nécessairement commutatif) localement compact non discret.
+Soit $K$ un corps (non nécessairement commutatif) localement compact non discret.
 
 (i) Si K est de caractéristique 0 et si mod_K n’est pas une valeur absolue ultramétrique, alors K est isomorphe à l’un des corps R, C ou H.
 
@@ -138,13 +138,13 @@ Tout corps localement compact non discret est de rang fini sur son centre.
 
 #### Corollaire 2 {#ac-vi-s9-thm-1-cor-2 .statement}
 
-Tout corps localement compact est connexe ou totalement discontinu; s’il est connexe, il est isomorphe à $ \mathbf{R}, \mathbf{C} $ ou $ \mathbf{H} $.
+Tout corps localement compact est connexe ou totalement discontinu; s’il est connexe, il est isomorphe à $\mathbf{R}, \mathbf{C}$ ou $\mathbf{H}$.
 
-En effet, si la topologie d’un corps $ K $ est définie par une valeur absolue ultramétrique, $ K $ est totalement discontinu pour cette topologie.
+En effet, si la topologie d’un corps $K$ est définie par une valeur absolue ultramétrique, $K$ est totalement discontinu pour cette topologie.
 
 #### Remarque {#ac-vi-s9-n3-rem-1 .statement}
 
-Soit $ s $ un entier $ > 0 $; le sous-corps $ F_q((T^s)) = L $ de $ K = F_q((T)) $ est fermé dans $ K $ et l’on a $ e(K/L) = s $ et $ f(K/L) = 1 $. On voit donc qu’il y a des sous-corps fermés non discrets $ L $ de $ K $ tels que $ e(K/L) $ (et $ a fortiori $ le degré $ [K : L] $) soit arbitrairement grand (contrairement à ce qui se passe pour les corps localement compacts de caractéristique 0, où tout sous-corps localement compact $ L $ d’un tel corps $ K $ contient nécessairement $ \mathbf{R} $ ou $ \mathbf{Q}_p $ et où par suite $ [K : L] $ est borné).
+Soit $s$ un entier $> 0$; le sous-corps $F_q((T^s)) = L$ de $K = F_q((T))$ est fermé dans $K$ et l’on a $e(K/L) = s$ et $f(K/L) = 1$. On voit donc qu’il y a des sous-corps fermés non discrets $L$ de $K$ tels que $e(K/L)$ (et $a fortiori$ le degré $[K : L]$) soit arbitrairement grand (contrairement à ce qui se passe pour les corps localement compacts de caractéristique 0, où tout sous-corps localement compact $L$ d’un tel corps $K$ contient nécessairement $\mathbf{R}$ ou $\mathbf{Q}_p$ et où par suite $[K : L]$ est borné).
 
 ## EXERCICES {#ac-vi-s9-exercises}
 

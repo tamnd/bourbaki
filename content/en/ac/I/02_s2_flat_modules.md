@@ -57,14 +57,14 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 24
-content_sha256: 8089197801fda20862171c21e7891ce6461e5758934161b44346e69a12552abf
+content_sha256: 9ada776b7c0aa973a418227eaada671c4629e279b41b24c1ad82f46743b38d27
 ---
 
 ## 2. FLAT MODULES(*)
 
 ### 1. REVISION OF TENSOR PRODUCTS
 
-Let A be a ring, E a right A-module and M a left A-module. In Algebra, Chapter II, §3, no. 1 we defined the tensorproduct $ E \otimes_A M $, which is a $ \mathbf{Z} $-module. If E' (resp. M') is a right (resp. left) A-module and $ u : E \to E' $ (resp. $ v : M \to M' $) a homomorphism, we also defined (loc. cit, no. 2) a $ \mathbf{Z} $-homomorphism
+Let A be a ring, E a right A-module and M a left A-module. In Algebra, Chapter II, §3, no. 1 we defined the tensorproduct $E \otimes_A M$, which is a $\mathbf{Z}$-module. If E' (resp. M') is a right (resp. left) A-module and $u : E \to E'$ (resp. $v : M \to M'$) a homomorphism, we also defined (loc. cit, no. 2) a $\mathbf{Z}$-homomorphism
 
 $$
 u \otimes v : E \otimes_A M \to E' \otimes_A M'.
@@ -72,7 +72,7 @@ $$
 
 #### Lemma 1 {#ac-i-s2-lem-1 .statement}
 
-*Let* $ M' \xrightarrow{v} M \xrightarrow{w} M'' \to 0 $ *be an exact sequence of left A-modules and E a right A-module. Then the sequence*
+*Let* $M' \xrightarrow{v} M \xrightarrow{w} M'' \to 0$ *be an exact sequence of left A-modules and E a right A-module. Then the sequence*
 
 $$
 E \otimes_A M' \xrightarrow{\text{1}\otimes v} E \otimes_A M \xrightarrow{u \otimes w} E \otimes_A M'' \longrightarrow 0
@@ -82,67 +82,67 @@ $$
 
 This is the Corollary to Proposition 5 of Algebra, Chapter II, § 3, no. 6.
 
-It follows that, for any left A-module homomorphism $ u : M \to N $,
+It follows that, for any left A-module homomorphism $u : M \to N$,
 
 $$
 E \otimes_A (\operatorname{Coker} u)
 $$
 
-is canonically identified with $ \operatorname{Coker}(1_E \otimes u) $, as Lemma 1 shows when applied to the exact sequence
+is canonically identified with $\operatorname{Coker}(1_E \otimes u)$, as Lemma 1 shows when applied to the exact sequence
 
 $$
 M \xrightarrow{u} N \longrightarrow \operatorname{Coker} u \longrightarrow 0.
 $$
 
-In the notation of Lemma 1, we know (loc. cit.) that if v is *injective*, that is if the sequence $ 0 \to M' \xrightarrow{v} M \xrightarrow{w} M'' \to 0 $ is exact, it does not necessarily follow that $ 1_E \otimes v $ is injective and so $ E \otimes_A M' $ cannot in general be identified with a
+In the notation of Lemma 1, we know (loc. cit.) that if v is *injective*, that is if the sequence $0 \to M' \xrightarrow{v} M \xrightarrow{w} M'' \to 0$ is exact, it does not necessarily follow that $1_E \otimes v$ is injective and so $E \otimes_A M'$ cannot in general be identified with a
 
 (*) We inform readers already familiar with Homological Algebra that they will find other characterizations of flat modules in § 4.
 
-subgroupof $ E \otimes_A M $. Recall however (Algebra, Chapter II, § 3, no. 7, Corollary 5 to Proposition 7) the following result:
+subgroupof $E \otimes_A M$. Recall however (Algebra, Chapter II, § 3, no. 7, Corollary 5 to Proposition 7) the following result:
 
 #### Lemma 2 {#ac-i-s2-lem-2 .statement}
 
-*If $ v : M' \to M $ is injective and $ v(M') $ is a direct factor of $ M $, the homomorphism $ 1, \otimes v $ is injective and its image is a direct factor of $ E \otimes_A M $.*
+*If $v : M' \to M$ is injective and $v(M')$ is a direct factor of $M$, the homomorphism $1, \otimes v$ is injective and its image is a direct factor of $E \otimes_A M$.*
 
 ### 2. M-FLAT MODULES
 
 #### Definition 1 {#ac-i-s2-def-1 .statement}
 
-Let $ A $ be a ring, $ E $ a right $ A $-module and $ M $ a left $ A $-module. $ E $ is said to be flat for $ M $ (or $ M $-flat) if, for every left $ A $-module $ M' $ and every injective homomorphism $ v : M' \to M $, the homomorphism $ l_E \otimes v : E \otimes_A M' \to E \otimes_A M $ is injective.
+Let $A$ be a ring, $E$ a right $A$-module and $M$ a left $A$-module. $E$ is said to be flat for $M$ (or $M$-flat) if, for every left $A$-module $M'$ and every injective homomorphism $v : M' \to M$, the homomorphism $l_E \otimes v : E \otimes_A M' \to E \otimes_A M$ is injective.
 
-For any right $ A $-module $ N $, the notion of an $ N $-flat left module is defined similarly. To say that a right $ A $-module $ E $ is flat for a left $ A $-module $ M $ is equivalent to saying that $ E $, considered as a left $ A^0 $-module (recall that $ A^0 $ denotes the opposite ring to $ A $), is flat for the right $ A^0 $-module $ M $.
+For any right $A$-module $N$, the notion of an $N$-flat left module is defined similarly. To say that a right $A$-module $E$ is flat for a left $A$-module $M$ is equivalent to saying that $E$, considered as a left $A^0$-module (recall that $A^0$ denotes the opposite ring to $A$), is flat for the right $A^0$-module $M$.
 
 #### Lemma 3 {#ac-i-s2-lem-3 .statement}
 
-*For a tight $ A $-module $ E $ to be $ M $-flat, it is necessary and sufficient that for every finitely generated submodule $ M' $ of $ M $ the canonical homomorphism*
+*For a tight $A$-module $E$ to be $M$-flat, it is necessary and sufficient that for every finitely generated submodule $M'$ of $M$ the canonical homomorphism*
 
 $$
 l_E \otimes j : E \otimes_A M' \to E \otimes_A M
 $$
 
-(*j being the canonical injection $ M' \to M $) *be injective*.
+(*j being the canonical injection $M' \to M$) *be injective*.
 
-Suppose that this condition holds and let $ N $ be any submodule of $ M $. Suppose that the canonical image in $ E \otimes_A M $ of an element
+Suppose that this condition holds and let $N$ be any submodule of $M$. Suppose that the canonical image in $E \otimes_A M$ of an element
 
 $$
 z = \sum x_i \otimes y_i \in E \otimes_A N \quad (x_i \in E, y_i \in N)
 $$
 
-is zero and let $ M' $ be the finitely generated submodule of $ N $ generated by they.; as by hypothesis the composite mapping $ E \otimes_A M' \to E \otimes_A N \to E \otimes_A M $ is injective, the sum $ z' = \sum x_i \otimes y_i $, considered as an element of $ E \otimes_A M' $, is zero. *As* $ z $ is the image of $ z' $, we have also $ z = 0 $, whence the lemma.
+is zero and let $M'$ be the finitely generated submodule of $N$ generated by they.; as by hypothesis the composite mapping $E \otimes_A M' \to E \otimes_A N \to E \otimes_A M$ is injective, the sum $z' = \sum x_i \otimes y_i$, considered as an element of $E \otimes_A M'$, is zero. *As* $z$ is the image of $z'$, we have also $z = 0$, whence the lemma.
 
 #### Lemma 4 {#ac-i-s2-lem-4 .statement}
 
-*Let $ E $ be a right $ A $-module and $ M $ a left $ A $-module such that $ E $ is $ M $-flat. If $ N $ is either a submodule or a quotient module of $ M $, then $ E $ is $ N $-flat.*
+*Let $E$ be a right $A$-module and $M$ a left $A$-module such that $E$ is $M$-flat. If $N$ is either a submodule or a quotient module of $M$, then $E$ is $N$-flat.*
 
-The case in which $ N $ is a submodule is easy, as, if $ N' $ is a submodule of $ N $, the composite homomorphism
+The case in which $N$ is a submodule is easy, as, if $N'$ is a submodule of $N$, the composite homomorphism
 
 $$
 E \otimes_A N' \to E \otimes_A N \to E \otimes_A M
 $$
 
-is injective, hence so is $ E \otimes_A N' \to E \otimes_A N $. Suppose then that $ N $ is a quotient module of $ M $, that is there exists an exact sequence $ 0 \to R \xrightarrow{i} M \xrightarrow{p} N \to 0 $.
+is injective, hence so is $E \otimes_A N' \to E \otimes_A N$. Suppose then that $N$ is a quotient module of $M$, that is there exists an exact sequence $0 \to R \xrightarrow{i} M \xrightarrow{p} N \to 0$.
 
-Let $ N' $ be a submodule of $ N $ and $ M' = \overline{p}(N') $. Let $ i' $ denote the mapping of $ R $ to $ M' $ with the same graph as $ i $, $ p' $ the surjection $ M \to N' $ with the same graph as the restriction of $ p $ to $ M' $, $ r $ the identity mapping of $ \mathbf{R} $ to $ \mathbf{R} $, $ m $ the canonical injection $ M' \to M $ and $ n $ the canonical injection $ N' \to N $. The diagram
+Let $N'$ be a submodule of $N$ and $M' = \overline{p}(N')$. Let $i'$ denote the mapping of $R$ to $M'$ with the same graph as $i$, $p'$ the surjection $M \to N'$ with the same graph as the restriction of $p$ to $M'$, $r$ the identity mapping of $\mathbf{R}$ to $\mathbf{R}$, $m$ the canonical injection $M' \to M$ and $n$ the canonical injection $N' \to N$. The diagram
 
 $$
 \begin{array}{ccccccccc}
@@ -154,7 +154,7 @@ $$
 
 is commutative and its rows are exact.
 
-To simplify the writing, we set $ T(Q) = E \otimes_A Q $ for every left $ A $-module $ Q $ and $ T(v) = 1_E \otimes v $ for every left $ A $-module homomorphism $ v $. The diagram
+To simplify the writing, we set $T(Q) = E \otimes_A Q$ for every left $A$-module $Q$ and $T(v) = 1_E \otimes v$ for every left $A$-module homomorphism $v$. The diagram
 
 $$
 \begin{array}{ccccccccc}
@@ -164,13 +164,13 @@ T(\mathbf{R}) & \xrightarrow{T(i)} & T(M) & \xrightarrow{T(p)} & T(N) & \longrig
 \end{array}
 $$
 
-is commutative and its rows are exact by Lemma 1 of no. 1. Moreover, since $ E $ is $ M $-flat, the homomorphism $ T(m) $ is injective. As $ T(r) $ and $ T(p') $ are surjective, it follows from § 1, no. 4, Corollary 2 to Proposition 2 that $ T(n) $ is injective, which proves the lemma.
+is commutative and its rows are exact by Lemma 1 of no. 1. Moreover, since $E$ is $M$-flat, the homomorphism $T(m)$ is injective. As $T(r)$ and $T(p')$ are surjective, it follows from § 1, no. 4, Corollary 2 to Proposition 2 that $T(n)$ is injective, which proves the lemma.
 
 #### Lemma 5 {#ac-i-s2-lem-5 .statement}
 
-Let $ (M_i)_{i \in I} $ be a family of left $ A $-modules, $ M = \bigoplus_{i \in I} M_i $, their direct sum and $ E $ a right $ A $-module. If, for all $ i \in I $, $ E $ is flat for $ M_i $, then $ E $ is flat for $ M $.
+Let $(M_i)_{i \in I}$ be a family of left $A$-modules, $M = \bigoplus_{i \in I} M_i$, their direct sum and $E$ a right $A$-module. If, for all $i \in I$, $E$ is flat for $M_i$, then $E$ is flat for $M$.
 
-(a) Suppose first that $ I = \{1, 2\} $, and let $ M' $ be a submodule of $ M = M_1 \oplus M_2 $, $ M $, and $ M $, being canonically identified with submodules of $ M $. Denote by $ M'_1 $ the intersection $ M' \cap M_1 $, and by $ M'_2 $ the image of $ M' $ in $ M_2 $ under the canonical projection $ p $ of $ M $ onto $ M_2 $. We have a diagram
+(a) Suppose first that $I = \{1, 2\}$, and let $M'$ be a submodule of $M = M_1 \oplus M_2$, $M$, and $M$, being canonically identified with submodules of $M$. Denote by $M'_1$ the intersection $M' \cap M_1$, and by $M'_2$ the image of $M'$ in $M_2$ under the canonical projection $p$ of $M$ onto $M_2$. We have a diagram
 
 $$
 \begin{array}{ccccccccc}
@@ -180,7 +180,7 @@ $$
 \end{array}
 $$
 
-where $ v_1, v, v_2, i, i' $ are the canonical injections and $ p' $ is the mapping with the same graph as the restriction of $ p $ to $ M' $, which is surjective. It is immediately verified that this diagram is commutative and that its rows are exact. With $ T(Q) $ and $ T(v) $ used in the same sense as in the proof of Lemma 4, we have a commutative diagram
+where $v_1, v, v_2, i, i'$ are the canonical injections and $p'$ is the mapping with the same graph as the restriction of $p$ to $M'$, which is surjective. It is immediately verified that this diagram is commutative and that its rows are exact. With $T(Q)$ and $T(v)$ used in the same sense as in the proof of Lemma 4, we have a commutative diagram
 
 $$
 \begin{array}{ccccccccc}
@@ -190,11 +190,11 @@ T(M_1) & \xrightarrow{T(i)} & T(M) & \xrightarrow{T(p)} & T(M_2)
 \end{array}
 $$
 
-By Lemma 1 of no. 1 the two rows of this diagram are exact; as E is flat for $ M_1 $ and $ M_n $, $ T(v_1) $ and $ T(v_2) $ are injective; moreover, by Lemma 2 of no. 1, $ T(i) $ is injective. Corollary 2 to Proposition 2 of § 1, no. 4 then shows that $ T(v) $ is injective and consequently E is M-flat.
+By Lemma 1 of no. 1 the two rows of this diagram are exact; as E is flat for $M_1$ and $M_n$, $T(v_1)$ and $T(v_2)$ are injective; moreover, by Lemma 2 of no. 1, $T(i)$ is injective. Corollary 2 to Proposition 2 of § 1, no. 4 then shows that $T(v)$ is injective and consequently E is M-flat.
 
 (b) If I is a finite set with n elements, the lemma follows by induction on n using (a).
 
-(c) In the general case let $ M' $ be a finitely generated submodule of M. Then there exists a finite subset J of the indexing set I such that $ M' $ is contained in the direct sum $ M_J = \bigoplus_{i \in J} M_i $. By (b) E is flat for $ M_J $; the canonical homomorphism $ E \otimes_A M' \to E \otimes_A M $, is therefore injective. On the other hand, as $ M_J $ is a direct factor of M, the canonical homomorphism $ E \otimes_A M_J \to E \otimes_A M $ is injective (no. 1, Lemma 2). Taking the composition, it follows that $ E \otimes_A M, \to E \otimes_A M $ is injective and E is flat for M by Lemma 3.
+(c) In the general case let $M'$ be a finitely generated submodule of M. Then there exists a finite subset J of the indexing set I such that $M'$ is contained in the direct sum $M_J = \bigoplus_{i \in J} M_i$. By (b) E is flat for $M_J$; the canonical homomorphism $E \otimes_A M' \to E \otimes_A M$, is therefore injective. On the other hand, as $M_J$ is a direct factor of M, the canonical homomorphism $E \otimes_A M_J \to E \otimes_A M$ is injective (no. 1, Lemma 2). Taking the composition, it follows that $E \otimes_A M, \to E \otimes_A M$ is injective and E is flat for M by Lemma 3.
 
 ### 3. FLAT MODULES
 
@@ -202,7 +202,7 @@ By Lemma 1 of no. 1 the two rows of this diagram are exact; as E is flat for $ M
 
 Let E be a right A-module. The following three properties are equivalent:
 
-(a) E is flat for A, (in other words, for every left ideal $ a $ of A, the canonical homomorphism $ E \otimes_A a \to E \otimes_A A, = E $ is injective).
+(a) E is flat for A, (in other words, for every left ideal $a$ of A, the canonical homomorphism $E \otimes_A a \to E \otimes_A A, = E$ is injective).
 (b) E is M-flat for every left A-module M.
 (c) For every exact sequence of left A-modules and homomorphisms
 
@@ -220,19 +220,19 @@ is exact.
 
 It is immediate that (b) implies (a). Conversely, suppose that (a) holds; by Lemma 5 of no. 2, E is flat for every free left A-module; as every left A-module is isomorphic to a quotient of a free module (Algebra, Chapter 11, § 1, no. 11, Proposition 20), it follows from Lemma 4 of no. 2 that E is flat for M.
 
-We show that (c) implies (b). If $ v : M' \to M $ is an injective homomorphism, the sequence $ 0 \to M' \xrightarrow{v} M $ is exact; by (c) the sequence
+We show that (c) implies (b). If $v : M' \to M$ is an injective homomorphism, the sequence $0 \to M' \xrightarrow{v} M$ is exact; by (c) the sequence
 
 $$
 0 \to E \otimes_A M' \xrightarrow{1 \otimes v} E \otimes_A M
 $$
 
-is exact; this means that $ 1 \otimes v $ is injective, in other words, E is M-flat.
+is exact; this means that $1 \otimes v$ is injective, in other words, E is M-flat.
 
-Finally, the implication (b) $ \Rightarrow $ (c) is a consequence of the following more precise lemma:
+Finally, the implication (b) $\Rightarrow$ (c) is a consequence of the following more precise lemma:
 
 #### Lemma 6 {#ac-i-s2-lem-6 .statement}
 
-*If $ M' \xrightarrow{v} M \xrightarrow{w} M'' $ is an exact sequence of left A-modules and if E is an $ M''$-flat right A-module, the sequence*
+*If $M' \xrightarrow{v} M \xrightarrow{w} M''$ is an exact sequence of left A-modules and if E is an $M''$-flat right A-module, the sequence*
 
 $$
 E \otimes_A M' \xrightarrow{1 \otimes v} E \otimes_A M \xrightarrow{1 \otimes w} E \otimes_A M''
@@ -240,13 +240,13 @@ $$
 
 *is exact.*
 
-We use the notation $ T(Q) $ and $ T(v) $ in the same sense as in the proof of Lemma 4 of no. 2. We write $ M_1'' = w(M) $ and let $ i : M_1'' \to M'' $ be the canonical injection and $ p $ the mapping of M to $ M_1'' $ with the same graph as w. The sequence $ M' \xrightarrow{v} M \xrightarrow{p} M_1'' \to 0 $ is exact and it follows from Lemma 1 of no. 1 that the sequence
+We use the notation $T(Q)$ and $T(v)$ in the same sense as in the proof of Lemma 4 of no. 2. We write $M_1'' = w(M)$ and let $i : M_1'' \to M''$ be the canonical injection and $p$ the mapping of M to $M_1''$ with the same graph as w. The sequence $M' \xrightarrow{v} M \xrightarrow{p} M_1'' \to 0$ is exact and it follows from Lemma 1 of no. 1 that the sequence
 
 $$
 T(M') \xrightarrow{T(v)} T(M) \xrightarrow{T(p)} T(M_1'') \longrightarrow 0
 $$
 
-is exact. Moreover, as E is $ M'' $-flat, the mapping $ T(i) : T(M_1'') \to T(M'') $ is injective, and as $ T(i) \circ T(p) = T(w) $, the sequence
+is exact. Moreover, as E is $M''$-flat, the mapping $T(i) : T(M_1'') \to T(M'')$ is injective, and as $T(i) \circ T(p) = T(w)$, the sequence
 
 $$
 T(M') \xrightarrow{T(v)} T(M) \xrightarrow{T(w)} T(M'')
@@ -258,25 +258,25 @@ $$
 
 *A right A-module E is called flat if* it has the equivalent properties of Proposition 1.
 
-Flat left A-modules are defined similarly. To say that a right A-module E is flat equivalent to saying that E, considered as a left $ A^0 $-module, is flat.
+Flat left A-modules are defined similarly. To say that a right A-module E is flat equivalent to saying that E, considered as a left $A^0$-module, is flat.
 
 Remarks
 
-(1) By Lemma 3 of no. 2, for a right A-module E to be flat, it is necessary and sufficient that, for every *finitely* generated left ideal $ a $ of A, the canonical mapping $ E \otimes_A a \to E $ (Proposition 1) with image Ea be injective.
+(1) By Lemma 3 of no. 2, for a right A-module E to be flat, it is necessary and sufficient that, for every *finitely* generated left ideal $a$ of A, the canonical mapping $E \otimes_A a \to E$ (Proposition 1) with image Ea be injective.
 
-(2) Let E be a flat right A-module. If $ M' $ is a submodule of a left A-module M, the canonical injection $ E \otimes_A M' \to E \otimes_A M $ allows us to identify $ E \otimes_A M' $ with a subgroup of $ E \otimes_A M $. This being so, let N be a left A-module, $ u : M \to N $ a homomorphism, $ K = \mathrm{Ker}\, u $, and $ I = \mathrm{Im}\, u $. By considering the exact sequence
+(2) Let E be a flat right A-module. If $M'$ is a submodule of a left A-module M, the canonical injection $E \otimes_A M' \to E \otimes_A M$ allows us to identify $E \otimes_A M'$ with a subgroup of $E \otimes_A M$. This being so, let N be a left A-module, $u : M \to N$ a homomorphism, $K = \mathrm{Ker}\, u$, and $I = \mathrm{Im}\, u$. By considering the exact sequence
 
 $$
 0 \longrightarrow K \longrightarrow M \xrightarrow{u} N
 $$
 
-it is easily seen (Proposition 1) that $ E \otimes_A (\mathrm{Ker}\, u) $ *is identified* with $ \mathrm{Ker}(1_E \otimes u) $. On the other hand, writing $ u' $ for the surjective homomorphism $ M \to I $ with the same graph as $ u $, and $ i $ for the canonical injection $ I \to N $, $ 1_E \otimes u' $ is surjective (no. 1, Lemma 1) and $ 1_E \otimes i $ is injective since E is flat. As
+it is easily seen (Proposition 1) that $E \otimes_A (\mathrm{Ker}\, u)$ *is identified* with $\mathrm{Ker}(1_E \otimes u)$. On the other hand, writing $u'$ for the surjective homomorphism $M \to I$ with the same graph as $u$, and $i$ for the canonical injection $I \to N$, $1_E \otimes u'$ is surjective (no. 1, Lemma 1) and $1_E \otimes i$ is injective since E is flat. As
 
 $$
 1_E \otimes u = (1_E \otimes i) \circ (1_E \otimes u'),
 $$
 
-$ E \otimes_A (\mathrm{Im}\, u) $ *is identified* with $ \mathrm{Im}(1_E \otimes u) $.
+$E \otimes_A (\mathrm{Im}\, u)$ *is identified* with $\mathrm{Im}(1_E \otimes u)$.
 
 #### Proposition 2 {#ac-i-s2-prop-2 .statement}
 
@@ -318,28 +318,28 @@ Let $A$ be a ring and $E$ a right $A$-module.
 
 (*) Recall that a right (resp. left) divisor of 0 in a ring $A$ is an element $b \in A$ such that the mapping $x \mapsto xb$ (resp. $x \mapsto bx$) is not injective.
 
-We prove (i). Let $ v : A, \to A $, be the left $ A $-module homomorphism $ t \mapsto ta $; the hypothesis implies that $ v $ is injective. As $ E $ is flat, the homomorphism $ 1_E \otimes v : E \otimes_A A, \to E \otimes_A A $, is also injective. When $ E \otimes_A A $, is canonically identified with $ E $, $ 1, \otimes v $ becomes the endomorphism $ x \mapsto xa $ of $ E $. Thus the relation $ xa = 0 $ implies $ x = 0 $.
+We prove (i). Let $v : A, \to A$, be the left $A$-module homomorphism $t \mapsto ta$; the hypothesis implies that $v$ is injective. As $E$ is flat, the homomorphism $1_E \otimes v : E \otimes_A A, \to E \otimes_A A$, is also injective. When $E \otimes_A A$, is canonically identified with $E$, $1, \otimes v$ becomes the endomorphism $x \mapsto xa$ of $E$. Thus the relation $xa = 0$ implies $x = 0$.
 
-We prove (ii). By (i), if $ E $ is flat, $ E $ is torsion-free. Conversely, let $ E $ be a torsion-free $ A $-module; we verify that, for every finitely generated ideal $ a $ of $ A $, the canonical homomorphism $ E \otimes_A a \to E $ is injective (no. 3, Remark 1). This assertion is obvious if $ a = (0) $; otherwise, by hypothesis $ a = Aa $ for some $ a \in A, a \neq 0 $, and $ t \mapsto ta $ is then an isomorphism $ v $ of $ A $ onto $ a $; using $ i $ to denote the canonical injection $ a \to A $, $ i \circ v $ is the homothety with ratio $ a $ on $ E $ and is injective since $ E $ is assumed to be torsion-free. Then $ 1, \otimes (i \circ v) = (1, \otimes i) \circ (1_E \otimes v) $; as $ 1_E \otimes v $ is an isomorphism, $ 1, \otimes i $ is injective, which completes the proof.
+We prove (ii). By (i), if $E$ is flat, $E$ is torsion-free. Conversely, let $E$ be a torsion-free $A$-module; we verify that, for every finitely generated ideal $a$ of $A$, the canonical homomorphism $E \otimes_A a \to E$ is injective (no. 3, Remark 1). This assertion is obvious if $a = (0)$; otherwise, by hypothesis $a = Aa$ for some $a \in A, a \neq 0$, and $t \mapsto ta$ is then an isomorphism $v$ of $A$ onto $a$; using $i$ to denote the canonical injection $a \to A$, $i \circ v$ is the homothety with ratio $a$ on $E$ and is injective since $E$ is assumed to be torsion-free. Then $1, \otimes (i \circ v) = (1, \otimes i) \circ (1_E \otimes v)$; as $1_E \otimes v$ is an isomorphism, $1, \otimes i$ is injective, which completes the proof.
 
 #### Example {#ac-i-s2-n4-exa-1 .statement}
 
-Applying Proposition 3 to the ring $ \mathbf{Z} $, it is seen that $ \mathbf{Q} $ is a flat $ \mathbf{Z} $-module, but that $ \mathbf{Z}/n\mathbf{Z} $ (for $ n \geq 2 $) is not a flat $ \mathbf{Z} $-module.
+Applying Proposition 3 to the ring $\mathbf{Z}$, it is seen that $\mathbf{Q}$ is a flat $\mathbf{Z}$-module, but that $\mathbf{Z}/n\mathbf{Z}$ (for $n \geq 2$) is not a flat $\mathbf{Z}$-module.
 
 ### 5. FLATNESS OF QUOTIENT MODULES
 
 #### Proposition 4 {#ac-i-s2-prop-4 .statement}
 
-Let $ E $ be a right $ A $-module. The three following properties are equivalent:
+Let $E$ be a right $A$-module. The three following properties are equivalent:
 
-(a) $ E $ is flat.
-(b) For every exact sequence of right $ A $-modules of the form
+(a) $E$ is flat.
+(b) For every exact sequence of right $A$-modules of the form
 
 (1)
 $$
 0 \longrightarrow G \xrightarrow{v} H \xrightarrow{w} E \longrightarrow 0
 $$
-and every left $ A $-module $ F $, the sequence
+and every left $A$-module $F$, the sequence
 
 (2)
 $$
@@ -347,9 +347,9 @@ $$
 $$
 is exact.
 
-(c) There exists an exact sequence (1), where $ H $ is flat, such that the sequence (2) is exact for every left $ A $-module $ F $ of the form $ A_s/a $, where $ a $ is a finitely generated left ideal of $ A $.
+(c) There exists an exact sequence (1), where $H$ is flat, such that the sequence (2) is exact for every left $A$-module $F$ of the form $A_s/a$, where $a$ is a finitely generated left ideal of $A$.
 
-We show first that (a) implies (b). The left $ A $-module $ F $ is isomorphic to a quotient of a free module (Algebra, Chapter II, § 1, no. 11, Proposition 20); in other words, we have an exact sequence
+We show first that (a) implies (b). The left $A$-module $F$ is isomorphic to a quotient of a free module (Algebra, Chapter II, § 1, no. 11, Proposition 20); in other words, we have an exact sequence
 
 $$
 0 \longrightarrow R \xrightarrow{i} L \xrightarrow{p} F \longrightarrow 0
@@ -369,25 +369,25 @@ $$
 
 (3)
 
-It follows immediately that this diagram is commutative, and its rows and columns are exact by Lemma 1 of no. 1; moreover, as $ l_G \otimes p $ and $ l_H \otimes p $ are surjective (no. 1, Lemma 1), we have $ G \otimes F = \operatorname{Coker}(l_G \otimes i) $,
+It follows immediately that this diagram is commutative, and its rows and columns are exact by Lemma 1 of no. 1; moreover, as $l_G \otimes p$ and $l_H \otimes p$ are surjective (no. 1, Lemma 1), we have $G \otimes F = \operatorname{Coker}(l_G \otimes i)$,
 
 $$
 H \otimes F = \operatorname{Coker}(l_H \otimes i);
 $$
 
-$ w \otimes 1_1 $ is surjective (no. 1, Lemma 1); finally, as L is free and hence flat, $ v \otimes 1_L $ is injective. Thus the snake diagram (\$ 1, no. 4, Proposition 2, (iii)) can be applied to prove the existence of an exact sequence
+$w \otimes 1_1$ is surjective (no. 1, Lemma 1); finally, as L is free and hence flat, $v \otimes 1_L$ is injective. Thus the snake diagram (\$ 1, no. 4, Proposition 2, (iii)) can be applied to prove the existence of an exact sequence
 
 (4) $$ \operatorname{Ker}(l_H \otimes i) \longrightarrow \operatorname{Ker}(l_E \otimes i) \xrightarrow{d} G \otimes F \xrightarrow{v \otimes 1_F} H \otimes F. $$
 
-This being so, if E is flat, $ l_E \otimes i $ is injective, in other words $ \operatorname{Ker}(l_E \otimes i) = 0 $, and the exact sequence (4) shows that $ v \otimes 1_F $ is injective, hence the sequence (2) is exact (taking account of Lemma 1 of no. 1).
+This being so, if E is flat, $l_E \otimes i$ is injective, in other words $\operatorname{Ker}(l_E \otimes i) = 0$, and the exact sequence (4) shows that $v \otimes 1_F$ is injective, hence the sequence (2) is exact (taking account of Lemma 1 of no. 1).
 
-As (b) obviously implies (c), it remains to prove that (c) implies (a). Consider the diagram (3) in the case $ \mathbf{R} = \mathbf{a}, \mathbf{L} = \mathbf{A}_s, \mathbf{F} = \mathbf{A}_s/\mathbf{a} $ and apply the exact sequence (4). By hypothesis $ v \otimes 1_F $ is injective, hence $ \operatorname{Im}(d) = 0 $; moreover, as H is flat, we have $ \operatorname{Ker}(1, @i) = 0 $; the exactness of the sequence (4) then implies $ \operatorname{Ker}(l_E \otimes i) = 0 $, in other words, $ 1, \otimes i $ is injective and this proves that E is flat (no. 3, Remark 1).
+As (b) obviously implies (c), it remains to prove that (c) implies (a). Consider the diagram (3) in the case $\mathbf{R} = \mathbf{a}, \mathbf{L} = \mathbf{A}_s, \mathbf{F} = \mathbf{A}_s/\mathbf{a}$ and apply the exact sequence (4). By hypothesis $v \otimes 1_F$ is injective, hence $\operatorname{Im}(d) = 0$; moreover, as H is flat, we have $\operatorname{Ker}(1, @i) = 0$; the exactness of the sequence (4) then implies $\operatorname{Ker}(l_E \otimes i) = 0$, in other words, $1, \otimes i$ is injective and this proves that E is flat (no. 3, Remark 1).
 
 #### Proposition 5 {#ac-i-s2-prop-5 .statement}
 
-*Let* $ 0 \to E' \xrightarrow{v} E \xrightarrow{w} E'' \to 0 $ *be an exact sequence of right* $ \mathbf{A} $*-modules. Suppose* $ E'' $ *is flat. Then,* *for* $ E $ *to be flat it is necessary and sufficient that* $ E' $ *be flat.*
+*Let* $0 \to E' \xrightarrow{v} E \xrightarrow{w} E'' \to 0$ *be an exact sequence of right* $\mathbf{A}$*-modules. Suppose* $E''$ *is flat. Then,* *for* $E$ *to be flat it is necessary and sufficient that* $E'$ *be flat.*
 
-Let $ u : F' \to F $ be an injective homomorphism of left $ \mathbf{A} $-modules. Consider the diagram
+Let $u : F' \to F$ be an injective homomorphism of left $\mathbf{A}$-modules. Consider the diagram
 
 $$
 \begin{array}{ccccccccc}
@@ -397,7 +397,7 @@ E' \otimes F & \xrightarrow{v \otimes 1_F} & E \otimes F & \xrightarrow{w \otime
 \end{array}
 $$
 
-It is commutative and its rows are exact (no. 1, Lemma 1). Since $ E'' $ is flat, l_{E''} \otimes u is injective; moreover, Proposition 4 proves that v \otimes 1_{F'}, and v \otimes 1, are injective. This being so, if E is flat, l_E \otimes u is injective, hence also
+It is commutative and its rows are exact (no. 1, Lemma 1). Since $E''$ is flat, l_{E''} \otimes u is injective; moreover, Proposition 4 proves that v \otimes 1_{F'}, and v \otimes 1, are injective. This being so, if E is flat, l_E \otimes u is injective, hence also
 
 $$(l_E \otimes u) \circ (v \otimes 1_{F'}) = (v \otimes 1_F) \circ (l_{E'} \otimes u);$$
 
@@ -441,20 +441,20 @@ Let E be a right A-module and F a left A-module such that E is F-flat. For every
 
 $$\phi(F' \cap F'') = \phi(F') \cap \phi(F'').$$
 
-As E is F-flat, $ \phi(F' + F'') $ is identified with $ E \otimes (F' + F'') $, and the submodules $ \phi(F') $, $ \phi(F'') $ and $ \phi(F' \cap F'') $ are identified with the canonical images of $ E \otimes F' $, $ E \otimes F'' $ and $ E \otimes (F' \cap F'') $ in $ E \otimes (F' + F'') $ respectively. Proposition 6 then follows from Lemma 7.
+As E is F-flat, $\phi(F' + F'')$ is identified with $E \otimes (F' + F'')$, and the submodules $\phi(F')$, $\phi(F'')$ and $\phi(F' \cap F'')$ are identified with the canonical images of $E \otimes F'$, $E \otimes F''$ and $E \otimes (F' \cap F'')$ in $E \otimes (F' + F'')$ respectively. Proposition 6 then follows from Lemma 7.
 
 #### Remark 1 {#ac-i-s2-n6-rem-1 .statement}
 
-With the hypotheses of Proposition 6, $ E \otimes_A F' $ is usually identified with $ \phi(F') $ for every submodule $ F' $ of $ F $, which gives the formula
+With the hypotheses of Proposition 6, $E \otimes_A F'$ is usually identified with $\phi(F')$ for every submodule $F'$ of $F$, which gives the formula
 $$
 E \otimes_A (F' \cap F'') = (E \otimes_A F') \cap (E \otimes_A F'').
 $$
 
 #### Proposition 7 {#ac-i-s2-prop-7 .statement}
 
-*Let E be a right A-module, E' a submodule of E, F a left A-module and F' a submodule of F. Suppose that E/E' or F/F' is flat. Then the canonical image of $ E' \otimes F' $ in $ E \otimes F $ is the intersection of the canonical images of $ E' \otimes F $ and $ E \otimes F' $ in $ E \otimes F $.*
+*Let E be a right A-module, E' a submodule of E, F a left A-module and F' a submodule of F. Suppose that E/E' or F/F' is flat. Then the canonical image of $E' \otimes F'$ in $E \otimes F$ is the intersection of the canonical images of $E' \otimes F$ and $E \otimes F'$ in $E \otimes F$.*
 
-Suppose for example that $ E/E' $ is flat and consider the diagram
+Suppose for example that $E/E'$ is flat and consider the diagram
 $$
 \begin{array}{ccc}
 E' \otimes F' & \longrightarrow & E \otimes F' \\
@@ -468,7 +468,7 @@ $$
 E \otimes F' & \longrightarrow & (E/E') \otimes F
 \end{array}
 $$
-where the arrows are the canonical homomorphisms. This diagram is commutative and its rows are exact (no. 1, Lemma 1). As $ E/E' $ is flat, $ u $ is injective. Then our assertion is a special case of § 1, no. 4, Proposition 1, (i).
+where the arrows are the canonical homomorphisms. This diagram is commutative and its rows are exact (no. 1, Lemma 1). As $E/E'$ is flat, $u$ is injective. Then our assertion is a special case of § 1, no. 4, Proposition 1, (i).
 
 #### Corollary {#ac-i-s2-n6-cor-1 .statement}
 
@@ -480,20 +480,20 @@ E'a = E' \cap Ea.
 $$
 (ii) *Conversely, suppose that E is flat and, for every finitely generated left ideal a of A, relation (5) holds. Then E/E' is flat.*
 
-(i) It is sufficient to apply Proposition to the case $ F = A $, $ F' = a $.
-(ii) To prove that $ E/E' $ is flat, apply criterion (c) of Proposition 4 of no. 5; it is then necessary to establish that the sequence
+(i) It is sufficient to apply Proposition to the case $F = A$, $F' = a$.
+(ii) To prove that $E/E'$ is flat, apply criterion (c) of Proposition 4 of no. 5; it is then necessary to establish that the sequence
 $$
 0 \to E'/E'a \to E/Ea \to E/(E' + Ea) \to 0
 $$
-is exact at $ E'/E'a $ for every finitely generated left ideal a of A. Now this is precisely what relation (5) expresses.
+is exact at $E'/E'a$ for every finitely generated left ideal a of A. Now this is precisely what relation (5) expresses.
 
 #### Remark 2 {#ac-i-s2-n6-rem-2 .statement}
 
-The conclusion of Proposition 7 remains true if we assume only that $ E/E' $ is F-flat or that $ F/F' $ is E-flat.
+The conclusion of Proposition 7 remains true if we assume only that $E/E'$ is F-flat or that $F/F'$ is E-flat.
 
 ### 7. TENSOR PRODUCTS OF FLAT MODULES
 
-Let $ A, B $ be two rings, $ E $ a right $ A $-module and $ F $ an $(A,B)$-bimodule (*Algebra*, Chapter II, § 1, no. 14). Recall (*Algebra*, Chapter II, § 3, no. 4) that $ E \otimes_A F $ has a canonical right $ B $-module structure, for which
+Let $A, B$ be two rings, $E$ a right $A$-module and $F$ an $(A,B)$-bimodule (*Algebra*, Chapter II, § 1, no. 14). Recall (*Algebra*, Chapter II, § 3, no. 4) that $E \otimes_A F$ has a canonical right $B$-module structure, for which
 
 $$
 (x \otimes y)b = x \otimes (yb) \quad \text{for} \quad x \in E,\ y \in F,\ b \in B.
@@ -501,39 +501,39 @@ $$
 
 #### Proposition 8 {#ac-i-s2-prop-8 .statement}
 
-*Let $ A, B $ be two rings, $ E $ a right $ A $-module and $ F $ an $(A,B)$-bimodule. Suppose that $ E $ is flat and that $ F $ is flat as a $ B $-module. Then the $ B $-module $ E \otimes_A F $ is flat.*
+*Let $A, B$ be two rings, $E$ a right $A$-module and $F$ an $(A,B)$-bimodule. Suppose that $E$ is flat and that $F$ is flat as a $B$-module. Then the $B$-module $E \otimes_A F$ is flat.*
 
-Let $ G $ be a left $ B $-module and $ G' $ a submodule of $ G $. Since $ F $ is flat as a right $ B $-module, the canonical homomorphism $ F \otimes_B G' \to F \otimes_B G $ is injective. Since $ E $ is flat, the canonical homomorphism
+Let $G$ be a left $B$-module and $G'$ a submodule of $G$. Since $F$ is flat as a right $B$-module, the canonical homomorphism $F \otimes_B G' \to F \otimes_B G$ is injective. Since $E$ is flat, the canonical homomorphism
 
 $$
 E \otimes_A (F \otimes_B G') \to E \otimes_A (F \otimes_B G)
 $$
 
-is injective. As $ E \otimes_A (F \otimes_B G') $ and $ E \otimes_A (F \otimes_B G) $ are canonically identified with $ (E \otimes_A F) \otimes_B G' $ and $ (E \otimes_A F) \otimes_B G $ respectively (*Algebra*, Chapter II, § 3, no. 8, Proposition 8), the canonical homomorphism
+is injective. As $E \otimes_A (F \otimes_B G')$ and $E \otimes_A (F \otimes_B G)$ are canonically identified with $(E \otimes_A F) \otimes_B G'$ and $(E \otimes_A F) \otimes_B G$ respectively (*Algebra*, Chapter II, § 3, no. 8, Proposition 8), the canonical homomorphism
 
 $$
 (E \otimes_A F) \otimes_B G' \to (E \otimes_A F) \otimes_B G
 $$
 
-is injective, which proves that $ E \otimes_A F $ is a flat $ B $-module.
+is injective, which proves that $E \otimes_A F$ is a flat $B$-module.
 
 #### Corollary 1 {#ac-i-s2-prop-8-cor-1 .statement}
 
-Let $ C $ be a commutative ring, $ E, F $ two flat $ C $-modules. Then $ E \otimes_C F $ is a flat $ C $-module.
+Let $C$ be a commutative ring, $E, F$ two flat $C$-modules. Then $E \otimes_C F$ is a flat $C$-module.
 
-$ F $ is a $(C, C)$-bimodule and it is sufficient to apply Proposition 8 with $ B = A = C $.
+$F$ is a $(C, C)$-bimodule and it is sufficient to apply Proposition 8 with $B = A = C$.
 
 #### Corollary 2 {#ac-i-s2-prop-8-cor-2 .statement}
 
-*Let $ \rho $ be a homomorphism of a ring $ A $ to a ring $ B $. If $ E $ is a flat right $ A $-module, the right $ B $-module $ \rho^*(E) = E_{(B)} $ obtained by extending the ring of scalars to $ B $ (*Algebra*, Chapter II, § 5, no. 1) is flat.*
+*Let $\rho$ be a homomorphism of a ring $A$ to a ring $B$. If $E$ is a flat right $A$-module, the right $B$-module $\rho^*(E) = E_{(B)}$ obtained by extending the ring of scalars to $B$ (*Algebra*, Chapter II, § 5, no. 1) is flat.*
 
-By definition $ E_{(B)} = E \otimes_A B $, where $ B $ is considered as an $(A,B)$-bimodule by means of $ \rho $. As the right $ B $-module $ B_d $ is flat, it is sufficient to apply Proposition 8.
+By definition $E_{(B)} = E \otimes_A B$, where $B$ is considered as an $(A,B)$-bimodule by means of $\rho$. As the right $B$-module $B_d$ is flat, it is sufficient to apply Proposition 8.
 
 #### Corollary 3 {#ac-i-s2-prop-8-cor-3 .statement}
 
-*Let $ R, S $ be two rings and $ \phi : R \to S $ a ring homomorphism. If $ M $ is a flat right $ S $-module and $ \phi_*(S_d) $ is a flat right $ R $-module, then $ \phi_*(M) $ is a flat right $ R $-module.*
+*Let $R, S$ be two rings and $\phi : R \to S$ a ring homomorphism. If $M$ is a flat right $S$-module and $\phi_*(S_d)$ is a flat right $R$-module, then $\phi_*(M)$ is a flat right $R$-module.*
 
-Recall that $ \phi_*(M) $ is the right $ R $-module defined by $ x.r = x.\phi(r) $ for all $ x \in M $ and all $ r \in R $ (*Algebra*, Chapter II, § 1, no. 13). Then apply Proposition 8 with $ A = S, B = R, E = M $ and $ F = S, S $ having the structure of a $(S, R)$-bimodule defined by $\phi$; the right $R$-module $M \otimes_S S$ is then precisely $\phi_*(M)$.
+Recall that $\phi_*(M)$ is the right $R$-module defined by $x.r = x.\phi(r)$ for all $x \in M$ and all $r \in R$ (*Algebra*, Chapter II, § 1, no. 13). Then apply Proposition 8 with $A = S, B = R, E = M$ and $F = S, S$ having the structure of a $(S, R)$-bimodule defined by $\phi$; the right $R$-module $M \otimes_S S$ is then precisely $\phi_*(M)$.
 
 #### Proposition 9 {#ac-i-s2-prop-9 .statement}
 
@@ -565,19 +565,19 @@ A presentation (6) of a module $E$ is called *finite* if the free modules $L_0$ 
 (ii) *If $A$ is a left Noetherian ring, every finitely generated left $A$-module admits a finite presentation.*
 (iii) *Every finitely generated projective module admits a finite presentation.*
 
-Finally, suppose that $ E $ is a finitely generated projective module; then it is a direct factor of a finitely generated free module $ L_0 $ (*Algebra*, Chapter II, §2, no. 2, Corollary to Proposition 4); the kernel $ R $ of the surjective homomorphism $ L_0 \to E $ is then isomorphic to a quotient of $ L_0 $ and hence finitely generated and the proof is completed as for (ii).
+Finally, suppose that $E$ is a finitely generated projective module; then it is a direct factor of a finitely generated free module $L_0$ (*Algebra*, Chapter II, §2, no. 2, Corollary to Proposition 4); the kernel $R$ of the surjective homomorphism $L_0 \to E$ is then isomorphic to a quotient of $L_0$ and hence finitely generated and the proof is completed as for (ii).
 
 #### Lemma 9 {#ac-i-s2-lem-9 .statement}
 
-*Let $ A $ be a ring and $ E $ a finitely presented $ A $-module. For every exact sequence*
+*Let $A$ be a ring and $E$ a finitely presented $A$-module. For every exact sequence*
 
 $$
 0 \longrightarrow F \xrightarrow{j} G \xrightarrow{p} E \longrightarrow 0
 $$
 
-*where $ G $ is finitely generated, the module $ F $ is finitely generated.*
+*where $G$ is finitely generated, the module $F$ is finitely generated.*
 
-Let $ L, \xrightarrow{r} L_0 \xrightarrow{s} E \to 0 $ be a finite presentation; if $ (e_i) $ is a basis of $ L_0 $, there exists for each $ i $ an element $ g_i \in G $ such that $ p(g_i) = s(e_i) $; the homomorphism $ u : L_0 \to G $ such that $ u(e_i) = g_i $ for all $ i $ then satisfies $ s = p \circ u $. As $ s \circ r = 0 $, we have $ u(r(L_1)) \subset \mathrm{Ker}\, p $, and as $ \mathrm{Ker}\, p $ is isomorphic to $ F $, it can be seen that there is a homomorphism $ v : L, \to F $ such that the diagram
+Let $L, \xrightarrow{r} L_0 \xrightarrow{s} E \to 0$ be a finite presentation; if $(e_i)$ is a basis of $L_0$, there exists for each $i$ an element $g_i \in G$ such that $p(g_i) = s(e_i)$; the homomorphism $u : L_0 \to G$ such that $u(e_i) = g_i$ for all $i$ then satisfies $s = p \circ u$. As $s \circ r = 0$, we have $u(r(L_1)) \subset \mathrm{Ker}\, p$, and as $\mathrm{Ker}\, p$ is isomorphic to $F$, it can be seen that there is a homomorphism $v : L, \to F$ such that the diagram
 
 $$
 \begin{array}{ccccccccc}
@@ -587,41 +587,41 @@ F & \xrightarrow{i} & G & \xrightarrow{p} & E & \longrightarrow & 0
 \end{array}
 $$
 
-is commutative. As $ j $ is injective and $ s $ surjective, we can apply the snake diagram ($ \S $ 1, no. 4, Proposition 4), in other words there is an exact sequence
+is commutative. As $j$ is injective and $s$ surjective, we can apply the snake diagram ($\S$ 1, no. 4, Proposition 4), in other words there is an exact sequence
 
 $$
 0 = \mathrm{Ker}\, 1, \xrightarrow{d} \mathrm{Coker}\, v \longrightarrow \mathrm{Coker}\, u \longrightarrow \mathrm{Coker}\, 1, = 0.
 $$
 
-This shows that $ \mathrm{Coker}\, v $ is isomorphic to $ G / u(L_0) $, which is finitely generated by hypothesis. Moreover we have the exact sequence
+This shows that $\mathrm{Coker}\, v$ is isomorphic to $G / u(L_0)$, which is finitely generated by hypothesis. Moreover we have the exact sequence
 
 $$
 0 \to v(L_1) \to F \to \mathrm{Coker}\, v \to 0
 $$
 
-and as $ v(L_1) $ and $ \mathrm{Coker}\, v $ are finitely generated, so is $ F $ (*Algebra*, Chapter II, § 1, no. 7, Corollary 5 to Proposition 9).
+and as $v(L_1)$ and $\mathrm{Coker}\, v$ are finitely generated, so is $F$ (*Algebra*, Chapter II, § 1, no. 7, Corollary 5 to Proposition 9).
 
 ### 9. EXTENSION OF SCALARS IN HOMOMORPHISM MODULES
 
-Let $ A $ and $ B $ be two rings, $ E $ a right $ A $-module, $ F $ a right $ B $-module and $ G $ a $ (B, A) $-bimodule. Recall that we have defined (Algebra, Chapter II, § 4, no. 2) a canonical homomorphism of $ \mathbf{Z} $-modules
+Let $A$ and $B$ be two rings, $E$ a right $A$-module, $F$ a right $B$-module and $G$ a $(B, A)$-bimodule. Recall that we have defined (Algebra, Chapter II, § 4, no. 2) a canonical homomorphism of $\mathbf{Z}$-modules
 
 $$
 \nu : F \otimes_B \operatorname{Hom}_A(E, G) \to \operatorname{Hom}_A(E, F \otimes_B G)
 $$
 
-such that, for ally $ \in F $ and $ u \in \operatorname{Hom}_A(E, G) $, $ \nu(y \otimes u) $ is the $ A $-linear mapping $ x \mapsto y \otimes u(x) $.
+such that, for ally $\in F$ and $u \in \operatorname{Hom}_A(E, G)$, $\nu(y \otimes u)$ is the $A$-linear mapping $x \mapsto y \otimes u(x)$.
 
 #### Proposition 10 {#ac-i-s2-prop-10 .statement}
 
-*Let $ A, B $ be two rings, $ E $ a right $ A $-module, $ F $ a right $ B $-module and $ G $ a $ (B, A) $-bimodule. Suppose that $ F $ is flat. Then, if $ E $ is finitely generated (resp. finitely presented), the canonical homomorphism (8) is injective (resp. bijective).*
+*Let $A, B$ be two rings, $E$ a right $A$-module, $F$ a right $B$-module and $G$ a $(B, A)$-bimodule. Suppose that $F$ is flat. Then, if $E$ is finitely generated (resp. finitely presented), the canonical homomorphism (8) is injective (resp. bijective).*
 
-Consider $ A, B, F, G $ as fixed and for each right $ A $-module $ E $ set
+Consider $A, B, F, G$ as fixed and for each right $A$-module $E$ set
 
 $$
 T(E) = F \otimes_B \operatorname{Hom}_A(E, G), \quad T'(E) = \operatorname{Hom}_A(E, F \otimes_B G)
 $$
 
-and denote the homomorphism (8) by $ \nu_E $; for every right $ A $-module homomorphism $ v : E \to E' $, set $ T(v) = 1, \otimes \operatorname{Hom}(v, 1_G) $ and $ T'(v) = \operatorname{Hom}(v, 1, \otimes 1_G) $. Let $ L, \xrightarrow{v} L_0 \xrightarrow{w} E \to 0 $ be a presentation of $ E $; we suppose the free module $ L_0 $ (resp. the free modules $ L_0 $ and $ L_1 $) to be *finitely generated*. The diagram
+and denote the homomorphism (8) by $\nu_E$; for every right $A$-module homomorphism $v : E \to E'$, set $T(v) = 1, \otimes \operatorname{Hom}(v, 1_G)$ and $T'(v) = \operatorname{Hom}(v, 1, \otimes 1_G)$. Let $L, \xrightarrow{v} L_0 \xrightarrow{w} E \to 0$ be a presentation of $E$; we suppose the free module $L_0$ (resp. the free modules $L_0$ and $L_1$) to be *finitely generated*. The diagram
 
 $$
 \begin{array}{ccccccccc}
@@ -637,31 +637,31 @@ $$
 0 \to \operatorname{Hom}_A(E, G) \to \operatorname{Hom}_A(L_0, G) \to \operatorname{Hom}_A(L_1, G)
 $$
 
-is exact (*loc. cit.*), and as $ F $ *is flat*, the first row of (9) is also an exact sequence (no. 3, Proposition 1). Then we know that $ \nu_{L_0} $ (resp. $ \nu_{L_0} $ and $ \nu_{L_1} $) is *bijective* (resp. are *bijective*) (Algebra, Chapter II, § 4, no. 2, Proposition 2). If we assume only that $ \nu_{L_0} $ is bijective, it follows from (9) that
+is exact (*loc. cit.*), and as $F$ *is flat*, the first row of (9) is also an exact sequence (no. 3, Proposition 1). Then we know that $\nu_{L_0}$ (resp. $\nu_{L_0}$ and $\nu_{L_1}$) is *bijective* (resp. are *bijective*) (Algebra, Chapter II, § 4, no. 2, Proposition 2). If we assume only that $\nu_{L_0}$ is bijective, it follows from (9) that
 
 $$
 \nu_{L_0} \circ T(w) = T'(w) \circ \nu_E
 $$
 
-is injective and hence so is $ \nu_E $. If we assume that both $ \nu_{L_0} $ and $ \nu_{L_1} $ are bijective, it follows from § 1, no. 4, Corollary 2, (ii) to Proposition 2 that $ \nu_E $ is surjective, and as we have just seen that $ \nu_E $ is injective, it is bijective.
+is injective and hence so is $\nu_E$. If we assume that both $\nu_{L_0}$ and $\nu_{L_1}$ are bijective, it follows from § 1, no. 4, Corollary 2, (ii) to Proposition 2 that $\nu_E$ is surjective, and as we have just seen that $\nu_E$ is injective, it is bijective.
 
 ### 10. EXTENSION OF SCALARS: CASE OF COMMUTATIVE RINGS
 
-Now let $ A $ be a *commutative* ring, $ B $ a ring and $ \rho : A \to B $ a ring homomorphism such that $ \rho(A) $ is contained in the *centre* of $ B $; in other words, $ \rho $ defines on $ B $ an
+Now let $A$ be a *commutative* ring, $B$ a ring and $\rho : A \to B$ a ring homomorphism such that $\rho(A)$ is contained in the *centre* of $B$; in other words, $\rho$ defines on $B$ an
 
-A-algebra structure. For every A-module E, the right B-module $ E_{(B)} = E \otimes_A B $ is then identified with $ B \otimes_A E $, the A-module structures of $ \rho_*(B_s) $ and $ \rho_*(B_d) $ being identical by hypothesis. Recall that for every ordered pair (E, F) of A-modules, we have defined a canonical B-homomorphism
+A-algebra structure. For every A-module E, the right B-module $E_{(B)} = E \otimes_A B$ is then identified with $B \otimes_A E$, the A-module structures of $\rho_*(B_s)$ and $\rho_*(B_d)$ being identical by hypothesis. Recall that for every ordered pair (E, F) of A-modules, we have defined a canonical B-homomorphism
 
 $$
 \omega : (\operatorname{Hom}_A(E, F))_{(B)} \to \operatorname{Hom}_B(E_{(B)}, F_{(B)})
 $$
 
-such that for all $ u \in \operatorname{Hom}_A(E, F) $, $ \omega(u \otimes 1) = u \otimes 1_B $ (Algebra, Chapter II, § 5, no. 3).
+such that for all $u \in \operatorname{Hom}_A(E, F)$, $\omega(u \otimes 1) = u \otimes 1_B$ (Algebra, Chapter II, § 5, no. 3).
 
 #### Proposition 11 {#ac-i-s2-prop-11 .statement}
 
-Let A be a commutative ring, B a ring, $ \varphi $ a homomorphism of A to the centre of B, and E and F two A-modules. Suppose that B is a flat A-module and E is finitely generated (resp. finitely presented). Then the canonical homomorphism (10) is injective (resp. bijective).
+Let A be a commutative ring, B a ring, $\varphi$ a homomorphism of A to the centre of B, and E and F two A-modules. Suppose that B is a flat A-module and E is finitely generated (resp. finitely presented). Then the canonical homomorphism (10) is injective (resp. bijective).
 
-As $ \omega $ is composed of the canonical isomorphism
+As $\omega$ is composed of the canonical isomorphism
 
 $$
 \operatorname{Hom}_A(E, B \otimes_A F) \to \operatorname{Hom}_B(E_{(B)}, F_{(B)})
@@ -675,27 +675,27 @@ $$
 
 (loc. cit.), the proposition is a consequence of Proposition 10 of no. 9.
 
-Suppose now that A and B are commutative and consider three A-modules $ E_1, E_2, E $, and an A-bilinear mapping $ f : E_1 \times E \to E_3 $. Then there exists one and only one B-bilinear mapping $ f_B : E_{1(B)} \times E_{2(B)} \to E_{3(B)} $ such that
+Suppose now that A and B are commutative and consider three A-modules $E_1, E_2, E$, and an A-bilinear mapping $f : E_1 \times E \to E_3$. Then there exists one and only one B-bilinear mapping $f_B : E_{1(B)} \times E_{2(B)} \to E_{3(B)}$ such that
 
 $$
 f_B(1 \otimes x_1, 1 \otimes x_2) = 1 \otimes f(x_1, x_2)
 $$
 
-for all $ x_1 \in E_1, x_2 \in E $, (Algebra, Chapter IX, § 1, no. 4, Proposition 1).
+for all $x_1 \in E_1, x_2 \in E$, (Algebra, Chapter IX, § 1, no. 4, Proposition 1).
 
-In the statement which follows we shall suppose that B is a flat A-module and, for every submodule E' of $ E_i $ ($ i = 1, 2, 3 $), we shall canonically identify $ E'_{(B)} $ with its image in $ E_{i(B)} $ (no. 3, Remark 2).
+In the statement which follows we shall suppose that B is a flat A-module and, for every submodule E' of $E_i$ ($i = 1, 2, 3$), we shall canonically identify $E'_{(B)}$ with its image in $E_{i(B)}$ (no. 3, Remark 2).
 
 #### Proposition 12 {#ac-i-s2-prop-12 .statement}
 
-Let A, B be commutative rings, $ \varphi $ a homomorphism of A to B, $ E_1, E_2, E_3 $ three A-modules, $ f : E_1 \times E \to E_3 $ an A-bilinear mapping and
+Let A, B be commutative rings, $\varphi$ a homomorphism of A to B, $E_1, E_2, E_3$ three A-modules, $f : E_1 \times E \to E_3$ an A-bilinear mapping and
 
 $$
 f_B : E_{1(B)} \times E_{2(B)} \to E_{3(B)}
 $$
 
-its extension. Consider a submodule $ F_2 $ of $ E_2 $, a submodule $ F_3 $ of $ E_3 $, and denote by T the submodule of $ E_1 $ consisting of those $ x_1 \in E_1 $ such that $ f(x_1, x_2) \in F $, for all $ x_2 \in F $. Suppose that B is a flat A-module and that $ F_2 $ is finitely generated. Then $ T_{(B)} $ is the set of those $ x'_1 \in E_{1(B)} $ such that $ f_B(x'_1, x'_2) \in F_{3(B)} $ for all $ x'_2 \in F_{2(B)} $.
+its extension. Consider a submodule $F_2$ of $E_2$, a submodule $F_3$ of $E_3$, and denote by T the submodule of $E_1$ consisting of those $x_1 \in E_1$ such that $f(x_1, x_2) \in F$, for all $x_2 \in F$. Suppose that B is a flat A-module and that $F_2$ is finitely generated. Then $T_{(B)}$ is the set of those $x'_1 \in E_{1(B)}$ such that $f_B(x'_1, x'_2) \in F_{3(B)}$ for all $x'_2 \in F_{2(B)}$.
 
-Let $ p $ be the canonical surjection $ E_3 \to E_3/F_3 $; with each $ x_1 \in E_1 $ we associate the A-linear mapping $ x_2 \mapsto p(f(x_1, x_2)) $ of $ F_2 $ to $ E_3/F_3 $, which we denote by $ g(x_1) $; then $ g $ is an A-homomorphism of $ E_1 $ to $ \mathrm{Hom}_A(F_2, E_3/F_3) $ and the kernel of $ g $ is precisely T. Since B is a flat A-module, we have the exact sequence
+Let $p$ be the canonical surjection $E_3 \to E_3/F_3$; with each $x_1 \in E_1$ we associate the A-linear mapping $x_2 \mapsto p(f(x_1, x_2))$ of $F_2$ to $E_3/F_3$, which we denote by $g(x_1)$; then $g$ is an A-homomorphism of $E_1$ to $\mathrm{Hom}_A(F_2, E_3/F_3)$ and the kernel of $g$ is precisely T. Since B is a flat A-module, we have the exact sequence
 
 $$
 0 \longrightarrow T_{(B)} \longrightarrow E_{1(B)} \xrightarrow{1 \otimes g} (\mathrm{Hom}_A(F_2, E_3/F_3))_{(B)}
@@ -707,53 +707,53 @@ $$
 \omega : (\mathrm{Hom}_A(F_2, E_3/F_3))_{(B)} \to \mathrm{Hom}_B(F_{2(B)}, (E_3/F_3)_{(B)})
 $$
 
-is *injective*. On the other hand, as B is a flat A-module, $ (E_3/F_3)_{(B)} $ is canonically identified with $ E_{3(B)}/F_{3(B)} $; taking the composition of $ \omega $ with $ 1 \otimes g $, we obtain a homomorphism $ u $ for which the sequence!
+is *injective*. On the other hand, as B is a flat A-module, $(E_3/F_3)_{(B)}$ is canonically identified with $E_{3(B)}/F_{3(B)}$; taking the composition of $\omega$ with $1 \otimes g$, we obtain a homomorphism $u$ for which the sequence!
 
 $$
 0 \longrightarrow T_{(B)} \longrightarrow E_{1(B)} \xrightarrow{u} \mathrm{Hom}_B(F_{2(B)}, E_{3(B)}/F_{3(B)})
 $$
 
-is exact. It follows immediately from the definitions that $ u(x'_1) $, where
+is exact. It follows immediately from the definitions that $u(x'_1)$, where
 
 $$
 x'_1 = 1 \otimes x_1 \in E_{1(B)},
 $$
 
-is the linear mapping which maps each $ x'_2 \in F_{2(B)} $ to the class mod. $ F_{3(B)} $ of $ f_B(x'_1, x'_2) $; by linearity this is also true for all $ x'_1 \in E_{1(B)} $; since the kernel of $ u $ is $ T_{(B)} $, the proposition is proved.
+is the linear mapping which maps each $x'_2 \in F_{2(B)}$ to the class mod. $F_{3(B)}$ of $f_B(x'_1, x'_2)$; by linearity this is also true for all $x'_1 \in E_{1(B)}$; since the kernel of $u$ is $T_{(B)}$, the proposition is proved.
 
 #### Corollary 1 {#ac-i-s2-prop-12-cor-1 .statement}
 
-*Let A, B be two commutative rings, $ p : A \to B $ a homomorphism such that B is a flat A-module and E a finitely presented A-module. For every finitely generated submodule F of E, the submodule of the dual of $ E_{(B)} $ orthogonal to $ F_{(B)} $ is equal to $ (F')_{(B)} $, where $ F' $ is the submodule of the dual $ E^* $ of E orthogonal to F.*
+*Let A, B be two commutative rings, $p : A \to B$ a homomorphism such that B is a flat A-module and E a finitely presented A-module. For every finitely generated submodule F of E, the submodule of the dual of $E_{(B)}$ orthogonal to $F_{(B)}$ is equal to $(F')_{(B)}$, where $F'$ is the submodule of the dual $E^*$ of E orthogonal to F.*
 
-By Proposition 11 $ (E^*)_{(B)} $ is canonically isomorphic to the dual $ (E_{(B)})^* $ of $ E_{(B)} $. Then it suffices to apply Proposition 12 with $ E_1 = E^* $, $ E_2 = E $, $ E_3 = A $, $ F_2 = F $, $ F_3 = \{0\} $, and $ f $ the canonical bilinear form on $ E^* \times E $.
+By Proposition 11 $(E^*)_{(B)}$ is canonically isomorphic to the dual $(E_{(B)})^*$ of $E_{(B)}$. Then it suffices to apply Proposition 12 with $E_1 = E^*$, $E_2 = E$, $E_3 = A$, $F_2 = F$, $F_3 = \{0\}$, and $f$ the canonical bilinear form on $E^* \times E$.
 
 #### Corollary 2 {#ac-i-s2-prop-12-cor-2 .statement}
 
-*Let A, B be two commutative rings, $ p : A \to B $ a homomorphism such that B is a flat A-module and E an A-module. Then, for every finitely generated submodule F of E, the annihilator of $ F_{(B)} $ is the ideal $ aB $ of B, where a is the annihilator of F in A.*
+*Let A, B be two commutative rings, $p : A \to B$ a homomorphism such that B is a flat A-module and E an A-module. Then, for every finitely generated submodule F of E, the annihilator of $F_{(B)}$ is the ideal $aB$ of B, where a is the annihilator of F in A.*
 
-It suffices to apply Proposition 12 with $ E_1 = A $, $ E_2 = E_3 = E $, $ F_2 = F $, $ F_3 = \{0\} $.
+It suffices to apply Proposition 12 with $E_1 = A$, $E_2 = E_3 = E$, $F_2 = F$, $F_3 = \{0\}$.
 
 #### Remark {#ac-i-s2-n10-rem-1 .statement}
 
-If there is no ambiguity over the modules E, nor the bilinear mapping $ f $, $ F_3 : F_2 $ is sometimes used to denote the module denoted by T in Proposition 12 and it is called the *transporter* of F, to F,. The conclusion of Proposition 12 then reads
+If there is no ambiguity over the modules E, nor the bilinear mapping $f$, $F_3 : F_2$ is sometimes used to denote the module denoted by T in Proposition 12 and it is called the *transporter* of F, to F,. The conclusion of Proposition 12 then reads
 
 $$
 F_{3(B)} : F_{2(B)} = (F_3 : F_2)_{(B)}.
 $$
 
-In the particular case when the $ E_i $ are equal to the ring $ A, f $ is multiplication and the $ F_i $ ideals $ a_i $, we obtain the *transporterformula*
+In the particular case when the $E_i$ are equal to the ring $A, f$ is multiplication and the $F_i$ ideals $a_i$, we obtain the *transporterformula*
 
 $$
 B(a_3 : a_2) = Ba_3 : Ba_2
 $$
 
-valid when $ B $ is a flat $ A $-module and $ a_2 $ is a finitely generated ideal.
+valid when $B$ is a flat $A$-module and $a_2$ is a finitely generated ideal.
 
 ### 11. INTERPRETATION OF FLATNESS IN TERMS OF RELATIONS (*)
 
-Throughout this no. $ A $ denotes a ring, $ E $ a right $ A $-module and $ F $ a left $ A $-module.
+Throughout this no. $A$ denotes a ring, $E$ a right $A$-module and $F$ a left $A$-module.
 
-Every element of $ E \otimes_A F $ can be written in at least one way in the form
+Every element of $E \otimes_A F$ can be written in at least one way in the form
 $$
 z = \sum_{i=1}^n e_i \otimes f_i \text{ where } e_i \in E \text{ and } f_i \in F.
 $$
@@ -761,23 +761,23 @@ The following lemma gives a condition under which this sum is zero:
 
 #### Lemma 10 {#ac-i-s2-lem-10 .statement}
 
-*Let* $ (f_\lambda)_{\lambda \in L} $ *be a family of generators of* $ F $ *and* $ (e_\lambda)_{\lambda \in L} $ *a family of elements of* $ E $ *of finite support. For* $ \sum_{\lambda \in L} e_\lambda \otimes f_\lambda = 0 $, *it is necessary and sufficient that there exist a finite set* $ J $, *a family* $ (x_j)_{j \in J} $ *of elements of* $ E $ *and a family* $ (a_{j,\lambda}) $ *($ j \in J, \lambda \in L $) of elements of* $ A $ *with the following properties:*
+*Let* $(f_\lambda)_{\lambda \in L}$ *be a family of generators of* $F$ *and* $(e_\lambda)_{\lambda \in L}$ *a family of elements of* $E$ *of finite support. For* $\sum_{\lambda \in L} e_\lambda \otimes f_\lambda = 0$, *it is necessary and sufficient that there exist a finite set* $J$, *a family* $(x_j)_{j \in J}$ *of elements of* $E$ *and a family* $(a_{j,\lambda})$ *($j \in J, \lambda \in L$) of elements of* $A$ *with the following properties:*
 
-(1) *the family* $ (a_{j,\lambda}) $ *has finite support;*
+(1) *the family* $(a_{j,\lambda})$ *has finite support;*
 
-(2) $ \sum_{\lambda \in L} a_{j,\lambda} f_\lambda = 0 $ *for all* $ j \in J; $
+(2) $\sum_{\lambda \in L} a_{j,\lambda} f_\lambda = 0$ *for all* $j \in J;$
 
-(3) $ e_\lambda = \sum_{j \in J} x_j a_{j,\lambda} $ *for all* $ \lambda \in L. $
+(3) $e_\lambda = \sum_{j \in J} x_j a_{j,\lambda}$ *for all* $\lambda \in L.$
 
-Loosely speaking, the system of $ e_\lambda $ must be a linear combination with coefficients in $ E $ of systems of elements of $ A $ which are "relations between the $ f_\lambda $".
+Loosely speaking, the system of $e_\lambda$ must be a linear combination with coefficients in $E$ of systems of elements of $A$ which are "relations between the $f_\lambda$".
 
-Consider the free $ A $-module $ A_s^{(L)} $, its canonical basis $ (u_\lambda) $ and the homomorphism $ g : A_s^{(L)} \to F $ such that $ g(u_\lambda) = f_\lambda $ for all $ \lambda \in L $; denoting by $ R $ the kernel of $ g $, we have (since the $ f_\lambda $ generate $ F $) an exact sequence
+Consider the free $A$-module $A_s^{(L)}$, its canonical basis $(u_\lambda)$ and the homomorphism $g : A_s^{(L)} \to F$ such that $g(u_\lambda) = f_\lambda$ for all $\lambda \in L$; denoting by $R$ the kernel of $g$, we have (since the $f_\lambda$ generate $F$) an exact sequence
 
 $$
 R \xrightarrow{i} A_s^{(L)} \xrightarrow{g} F \longrightarrow 0
 $$
 
-where $ i $ denotes the canonical injection. By Lemma 1 of no. 1 we derive the exact sequence
+where $i$ denotes the canonical injection. By Lemma 1 of no. 1 we derive the exact sequence
 
 $$
 E \otimes_A R \xrightarrow{1 \otimes i} E \otimes_A A_s^{(L)} \xrightarrow{1 \otimes g} E \otimes_A F \longrightarrow 0.
@@ -789,52 +789,52 @@ $$
 \sum_{\lambda \in L} e_\lambda \otimes u_\lambda = \sum_{j \in J} x_j \otimes i(r_j)
 $$
 
-where $ x_j \in E, r_j \in R $ and $ J $ is finite. Writing $ i(r_j) = \sum_{\lambda \in L} a_{j\lambda} u_\lambda $, the hypothesis $ r_j \in R $ implies the relation $ \sum_{\lambda \in L} a_{j\lambda} f_\lambda = 0 $ for all $ j \in J $; on the other hand the relation (14) implies $ e_\lambda = \sum_{j \in J} x_j a_{j\lambda} $ for all $ \lambda \in L $ (*Algebra*, Chapter II, § 3, no. 7, Corollary 1 to Proposition 7), which completes the proof.
+where $x_j \in E, r_j \in R$ and $J$ is finite. Writing $i(r_j) = \sum_{\lambda \in L} a_{j\lambda} u_\lambda$, the hypothesis $r_j \in R$ implies the relation $\sum_{\lambda \in L} a_{j\lambda} f_\lambda = 0$ for all $j \in J$; on the other hand the relation (14) implies $e_\lambda = \sum_{j \in J} x_j a_{j\lambda}$ for all $\lambda \in L$ (*Algebra*, Chapter II, § 3, no. 7, Corollary 1 to Proposition 7), which completes the proof.
 
 #### Proposition 13 {#ac-i-s2-prop-13 .statement}
 
 *For E to be F-flat* (no. 2, *Definition 1*), *it is necessary and sufficient that the following condition be satisfied*:
 
-*(R)* *If* $ (e_i)_{i \in I} $ *and* $ (f_i)_{i \in I} $ *are two finite families of elements of E and F respectively such that* $ \sum_{i \in I} e_i \otimes f_i = 0 $ *in* $ E \otimes_A F $, *there exists a finite set J, a family* $ (x_j)_{j \in J} $ *of elements of E and a family* $ (a_{ji}) $ *($ j \in J, i \in I $) of elements of A, with the following properties*:
+*(R)* *If* $(e_i)_{i \in I}$ *and* $(f_i)_{i \in I}$ *are two finite families of elements of E and F respectively such that* $\sum_{i \in I} e_i \otimes f_i = 0$ *in* $E \otimes_A F$, *there exists a finite set J, a family* $(x_j)_{j \in J}$ *of elements of E and a family* $(a_{ji})$ *($j \in J, i \in I$) of elements of A, with the following properties*:
 
-(1) $ \sum_{i \in I} a_{ji} f_i = 0 $ *for all* $ j \in J $;
-(2) $ e_i = \sum_{j \in J} x_j a_{ji} $ *for all* $ i \in I $.
+(1) $\sum_{i \in I} a_{ji} f_i = 0$ *for all* $j \in J$;
+(2) $e_i = \sum_{j \in J} x_j a_{ji}$ *for all* $i \in I$.
 
-Suppose that E is F-flat. Let $ (e_i) $ and $ (f_i) $ be finite families of elements such that $ \sum_{i \in I} e_i \otimes f_i = 0 $ in $ E \otimes_A F $, and let $ F' $ be the submodule of F *generated by the* $ f_i $. Since the canonical mapping $ E \otimes_A F' \to E \otimes_A F $ is injective, we have also $ \sum_{i \in I} e_i \otimes f_i = 0 $ *in* $ E \otimes_A F' $ *and Lemma 10 can then be applied to E and F'; thus families* $ (x_j) $ *and* $ (a_{ji}) $ *are obtained satisfying the conditions of (R)*.
+Suppose that E is F-flat. Let $(e_i)$ and $(f_i)$ be finite families of elements such that $\sum_{i \in I} e_i \otimes f_i = 0$ in $E \otimes_A F$, and let $F'$ be the submodule of F *generated by the* $f_i$. Since the canonical mapping $E \otimes_A F' \to E \otimes_A F$ is injective, we have also $\sum_{i \in I} e_i \otimes f_i = 0$ *in* $E \otimes_A F'$ *and Lemma 10 can then be applied to E and F'; thus families* $(x_j)$ *and* $(a_{ji})$ *are obtained satisfying the conditions of (R)*.
 
-Conversely, suppose that condition (R) holds. Let $ F' $ be a submodule of F and let $ y = \sum_{i \in I} e_i \otimes f_i $ be an element of the kernel of the canonical mapping $ E \otimes_A F' \to E \otimes_A F $. Since (R) holds, there exist families $ (x_j) $ and $ (a_{ji}) $ satisfying conditions (1) and (2). We conclude that, in $ E \otimes_A F' $,
+Conversely, suppose that condition (R) holds. Let $F'$ be a submodule of F and let $y = \sum_{i \in I} e_i \otimes f_i$ be an element of the kernel of the canonical mapping $E \otimes_A F' \to E \otimes_A F$. Since (R) holds, there exist families $(x_j)$ and $(a_{ji})$ satisfying conditions (1) and (2). We conclude that, in $E \otimes_A F'$,
 
 $$
 y = \sum_{i,j} x_j a_{ji} \otimes f_i = \sum_{j \in J} (x_j \otimes \sum_{i \in I} a_{ji} f_i) = 0.
 $$
 
-Hence $ E \otimes_A F' \to E \otimes_A F $ is injective.
+Hence $E \otimes_A F' \to E \otimes_A F$ is injective.
 
 #### Corollary 1 {#ac-i-s2-prop-13-cor-1 .statement}
 
-For a right $ A $-module $ E $ to be flat, it is necessary and sufficient that the following condition hold:
+For a right $A$-module $E$ to be flat, it is necessary and sufficient that the following condition hold:
 
-(RP) *If* $(e_i)_{i \in I}$ and $(b_i)_{i \in I}$ are two finite families of elements of $ E $ and $ A $ respectively such that $\sum e_i b_i = 0$, there exists a finite set $ J $, a family $(x_j)_{j \in J}$ of elements of $ E $ and a family $(a_{ji})$ ($ j \in J, i \in I $) of elements of $ A $ such that $\sum a_{ji} b_i = 0$ for all $ j \in J $ and $ e_i = \sum_{j \in J} x_j a_{ji} $ for all $ i \in I $.
+(RP) *If* $(e_i)_{i \in I}$ and $(b_i)_{i \in I}$ are two finite families of elements of $E$ and $A$ respectively such that $\sum e_i b_i = 0$, there exists a finite set $J$, a family $(x_j)_{j \in J}$ of elements of $E$ and a family $(a_{ji})$ ($j \in J, i \in I$) of elements of $A$ such that $\sum a_{ji} b_i = 0$ for all $j \in J$ and $e_i = \sum_{j \in J} x_j a_{ji}$ for all $i \in I$.
 
-Condition (RP) is just condition (R) of Proposition 13 applied to the module $ F = A_s $.
+Condition (RP) is just condition (R) of Proposition 13 applied to the module $F = A_s$.
 
-Loosely speaking, (RP) states: every "relation" between the $ b_i $, with coefficients in $ E $, is a linear combination (with coefficients in $ E $) of "relations" between the $ b_i $ with coefficients in $ A $.
+Loosely speaking, (RP) states: every "relation" between the $b_i$, with coefficients in $E$, is a linear combination (with coefficients in $E$) of "relations" between the $b_i$ with coefficients in $A$.
 
-Let us consider in particular a homomorphism of $ A $ to a ring $ B $, which makes $ B $ into a right $ A $-module. We know (no. 3, Proposition 1) that this is equivalent to saying that this $ A $-module is flat, or that it is flat for every left $ A $-module $ A_s^m $ ($ m \geqslant 1 $). Applying condition (R) of Proposition 13 with $ E = B $ and $ F = A_s^m $ we obtain the following condition:
+Let us consider in particular a homomorphism of $A$ to a ring $B$, which makes $B$ into a right $A$-module. We know (no. 3, Proposition 1) that this is equivalent to saying that this $A$-module is flat, or that it is flat for every left $A$-module $A_s^m$ ($m \geqslant 1$). Applying condition (R) of Proposition 13 with $E = B$ and $F = A_s^m$ we obtain the following condition:
 
 #### Corollary 2 {#ac-i-s2-prop-13-cor-2 .statement}
 
-For the ring $ B $ to be a flat right $ A $-module, it is necessary and sufficient that it satisfy the following condition:
-(RP') *Every solution* $(y_k)_{1 \leq k \leq n}$, consisting of elements of $ B $, of a system of homogeneous linear equations
+For the ring $B$ to be a flat right $A$-module, it is necessary and sufficient that it satisfy the following condition:
+(RP') *Every solution* $(y_k)_{1 \leq k \leq n}$, consisting of elements of $B$, of a system of homogeneous linear equations
 
 $$
 \sum_{k=1}^n y_k c_{ki} = 0 \quad (1 \leq i \leq m)
 $$
-with *coefficients* $ c_{ki} $ in $ A $, *is a linear combination*
+with *coefficients* $c_{ki}$ in $A$, *is a linear combination*
 $$
 y_k = \sum_{j=1}^q b_j z_{jk} \quad (1 \leq k \leq n)
 $$
-with *coefficients* $ b_j \in B $, of solutions $(z_{jk})_{1 \leq k \leq n}$ of the system (15), consisting of elements $ z_{jk} $ of $ A $.
+with *coefficients* $b_j \in B$, of solutions $(z_{jk})_{1 \leq k \leq n}$ of the system (15), consisting of elements $z_{jk}$ of $A$.
 
 ### Exercises {#ac-i-s2-exercises}
 

@@ -12,11 +12,11 @@ pdf_pages: 0187-0187
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 341b97bd8ea318a76c7bbb96b2bc14d7c071f2b0315ececb434e375fab873e87
+content_sha256: b46f7d9f10434c171281ac1f7196d52cac22d66836cb652ec541429051c9fcfb
 ---
 
 ## CHAPITRE IV
 
 # La dualité dans les espaces vectoriels topologiques
 
-Dans tout ce chapitre, tous les espaces vectoriels considérés sont des espaces vectoriels sur un corps K égal à $ \mathbf{R} $ ou $ \mathbf{C} $.
+Dans tout ce chapitre, tous les espaces vectoriels considérés sont des espaces vectoriels sur un corps K égal à $\mathbf{R}$ ou $\mathbf{C}$.

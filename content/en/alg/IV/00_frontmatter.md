@@ -13,11 +13,11 @@ pdf_pages: 0010-0010
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 0b1255cf93a97b12ac3a0b525a317b8d08da2f5b2b52d7e1fb0cdc35c1af65c0
+content_sha256: 9225c43d416a90483ab97376284aa781b5ea8ad41382648f10ed1da8b40986ae
 ---
 
 ## CHAPTER IV
 
 # Polynomials and rational fractions
 
-Throughout this chapter $ \mathbf{A} $ denotes a commutative ring.
+Throughout this chapter $\mathbf{A}$ denotes a commutative ring.

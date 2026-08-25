@@ -38,7 +38,7 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: bde84f6dbcf91d0bcdf72573c6bb387df3d76d5b15c56546c1f7ee2706920cee
+content_sha256: 08c1f7f51bd2df11d29e638f229d1b484c7cda3e1bc21277c413e8819b54daaf
 ---
 
 ## § 17. REDUCED NORMS AND TRACES
@@ -61,13 +61,13 @@ $$
 
 #### Proposition 1 {#alg-viii-s17-prop-1 .statement tag=00KD}
 
-Let L be a commutative ring, M a free L-module of finite rank m $ \geqslant 1 $, and u an endomorphism of M. There exists a unique endomorphism $ \tilde{u} $ of M satisfying the relation
+Let L be a commutative ring, M a free L-module of finite rank m $\geqslant 1$, and u an endomorphism of M. There exists a unique endomorphism $\tilde{u}$ of M satisfying the relation
 
 $$
 \tilde{u}(x) \wedge w = x \wedge \wedge^{m-1}(u)(w)
 $$
 
-for $ x \in M $ and $ w \in \wedge^{m-1}(M) $. Moreover, we have the relations
+for $x \in M$ and $w \in \wedge^{m-1}(M)$. Moreover, we have the relations
 
 $$
 u \circ \tilde{u} = \tilde{u} \circ u = \det(u)_M,
@@ -81,9 +81,9 @@ $$
 
 #### Lemma 1 {#alg-viii-s17-lem-1 .statement tag=00KE}
 
-Let p be an integer such that $ 0 \leqslant p \leqslant m $. For any w in $ \wedge^p(M) $, let $ h_p(w) $ be the linear mapping $ w' \mapsto w \wedge w' $ from $ \wedge^{m-p}(M) $ to $ \wedge^m(M) $. The linear mapping $ h_p : w \mapsto h_p(w) $ from $ \wedge^p(M) $ to $ \operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M)) $ is an isomorphism.
+Let p be an integer such that $0 \leqslant p \leqslant m$. For any w in $\wedge^p(M)$, let $h_p(w)$ be the linear mapping $w' \mapsto w \wedge w'$ from $\wedge^{m-p}(M)$ to $\wedge^m(M)$. The linear mapping $h_p : w \mapsto h_p(w)$ from $\wedge^p(M)$ to $\operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M))$ is an isomorphism.
 
-Let $ (e_i)_{i \in I} $ be a basis of M; we endow the set I with a total order. For any subset J of I, set $ e_J = e_{i_1} \wedge \cdots \wedge e_{i_r} $, where $ (i_1, \ldots, i_r) $ is the sequence of elements of J in increasing order. The L-module $ \wedge^{m-p}(M) $ admits as a basis the elements $ e_S $, where S runs through the set of subsets of I with $ m - p $ elements; $ \wedge^m(M) $ has $ \{e_I\} $ as a basis. Consequently, there exists a basis of $ \operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M)) $ consisting of linear mappings $ e_J^* $ characterized by the formula
+Let $(e_i)_{i \in I}$ be a basis of M; we endow the set I with a total order. For any subset J of I, set $e_J = e_{i_1} \wedge \cdots \wedge e_{i_r}$, where $(i_1, \ldots, i_r)$ is the sequence of elements of J in increasing order. The L-module $\wedge^{m-p}(M)$ admits as a basis the elements $e_S$, where S runs through the set of subsets of I with $m - p$ elements; $\wedge^m(M)$ has $\{e_I\}$ as a basis. Consequently, there exists a basis of $\operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M))$ consisting of linear mappings $e_J^*$ characterized by the formula
 
 $$
 e_J^*(e_S) = \begin{cases}
@@ -92,15 +92,15 @@ e_I & \text{if } I = J \cup S, \\
 \end{cases}
 $$
 
-where J runs through the set of subsets of I with p elements. It follows from formula (20) of III, §7, No. 8, p. 519 that for every subset J of I with p elements, we have $ h_p(e_J) \in \{e_J^*, -e_J^*\} $; since the elements $ e_J $ form a basis of $ \wedge^p(M) $, the linear mapping $ h_p $ is bijective.
+where J runs through the set of subsets of I with p elements. It follows from formula (20) of III, §7, No. 8, p. 519 that for every subset J of I with p elements, we have $h_p(e_J) \in \{e_J^*, -e_J^*\}$; since the elements $e_J$ form a basis of $\wedge^p(M)$, the linear mapping $h_p$ is bijective.
 
-Let us now prove Proposition 1. Let u and $ \tilde{u} $ be endomorphisms of M. Relation (3) is equivalent to
+Let us now prove Proposition 1. Let u and $\tilde{u}$ be endomorphisms of M. Relation (3) is equivalent to
 
 $$
 h_1 \circ \tilde{u} = \operatorname{Hom}(\wedge^{m-1}(u) \cdot 1_{\wedge^m(M)}) \circ h_1;
 $$
 
-the mapping $ h_1 $ is an isomorphism from M to $ \operatorname{Hom}_L(\wedge^{m-1}(M), \wedge^m(M)) $ by Lemma 1. Consequently, for every endomorphism u of M, there exists a unique endomorphism $ \tilde{u} $ of M satisfying relation (3).
+the mapping $h_1$ is an isomorphism from M to $\operatorname{Hom}_L(\wedge^{m-1}(M), \wedge^m(M))$ by Lemma 1. Consequently, for every endomorphism u of M, there exists a unique endomorphism $\tilde{u}$ of M satisfying relation (3).
 
 Let $x_1, . . . , x_m$ be elements of M. Let us replace $x$ with $u(x_1)$ and $w$ with $x_2\wedge  \cdots  \wedge x_m$ in (3); we obtain
 
@@ -520,7 +520,7 @@ $$
 
 a monic polynomial with coefficients in $K'$. Then the polynomial Q = $N_{K'[X]/K[X]}(P)$ in K[X] is monic of degree $sd$, the coefficient of $X^{sd-1}$ in Q(X) is equal to Tr$_{K'/K}(a_1)$, and the constant term of Q is $N_{K'/K}(a_s)$.
 
-We denote the $K'$-algebra $K'[T]/(P(T))$ by $K''$ and the canonical class of T in $K''$ by $t$. The sequence $(1, t, . . . , t^{s-1})$ is a basis of $K''$ over $K'$, and the matrix of multiplication by $ t $ in this basis is of the form
+We denote the $K'$-algebra $K'[T]/(P(T))$ by $K''$ and the canonical class of T in $K''$ by $t$. The sequence $(1, t, . . . , t^{s-1})$ is a basis of $K''$ over $K'$, and the matrix of multiplication by $t$ in this basis is of the form
 
 $$
 \tau = \begin{pmatrix}
@@ -532,7 +532,7 @@ $$
 \end{pmatrix}.
 $$
 
-The determinant of $ XI_n - \tau $ is calculated by induction on $ s $, by expanding along the first row. We obtain $ \det(XI_n - \tau) = P(X) $. In other words, we have $ P(X) = Pc_{K''/K'}(t; X) $. In particular, $ \operatorname{Tr}_{K''/K'}(t) = -a_1 $ and $ N_{K''/K'}(t) = (-1)^s a_s $. By the transitivity formula (III, §9, No. 4, p. 548, Corollary), we have
+The determinant of $XI_n - \tau$ is calculated by induction on $s$, by expanding along the first row. We obtain $\det(XI_n - \tau) = P(X)$. In other words, we have $P(X) = Pc_{K''/K'}(t; X)$. In particular, $\operatorname{Tr}_{K''/K'}(t) = -a_1$ and $N_{K''/K'}(t) = (-1)^s a_s$. By the transitivity formula (III, §9, No. 4, p. 548, Corollary), we have
 
 $$
 \operatorname{Tr}_{K''/K}(t) = -\operatorname{Tr}_{K'/K}(a_1), \quad N_{K''/K}(t) = (-1)^{sd} N_{K'/K}(a_s),
@@ -541,19 +541,19 @@ $$
 Q(X) = Pc_{K''/K}(t; X).
 $$
 
-On the other hand, $[K'' : K] = [K'' : K'][K' : K] = sd$, so $ Q(X) $ is a monic polynomial of degree $ sd $. Lemma 6 follows.
+On the other hand, $[K'' : K] = [K'' : K'][K' : K] = sd$, so $Q(X)$ is a monic polynomial of degree $sd$. Lemma 6 follows.
 
-Let us prove Proposition 8. Since the ring $ B $ is simple, its center $ L $ is a field (VIII, p. 121, Corollary 1). By Theorem 5 of VIII, p. 259, the commutant $ B' $ of $ B $ in $ A $ is a simple ring with center $ L $, and we have the equality $[A : K] = [B : K][B' : K]$. We denote the reduced degree of $ B' $ over $ L $ by $ r $, that of $ B $ over $ L $ by $ s $, and the degree of $ L $ over $ K $ by $ d $. We have
+Let us prove Proposition 8. Since the ring $B$ is simple, its center $L$ is a field (VIII, p. 121, Corollary 1). By Theorem 5 of VIII, p. 259, the commutant $B'$ of $B$ in $A$ is a simple ring with center $L$, and we have the equality $[A : K] = [B : K][B' : K]$. We denote the reduced degree of $B'$ over $L$ by $r$, that of $B$ over $L$ by $s$, and the degree of $L$ over $K$ by $d$. We have
 
 $$
 [A : K] = n^2, \quad [B' : K] = r^2 d, \quad [B : K] = s^2 d,
 $$
 
-and therefore $ n^2 = r^2 s^2 d^2 $, that is, $ n = rsd $.
+and therefore $n^2 = r^2 s^2 d^2$, that is, $n = rsd$.
 
-Let $ b $ be an element of $ B $, and let $ P(X) $ be its reduced characteristic polynomial over the $ L $-algebra $ B $; it is monic of degree $ s $. By Lemma 6, the polynomial $ Q = N_{L[X]/K[X]}(P) $ is monic of degree $ sd $. The polynomial $ R = Q^r $ is therefore monic of degree $ rsd = n $. Again by Lemma 6, the coefficient of $ X^{n-1} $ in $ R(X) $ is equal to $ -r \operatorname{Tr}_{L/K}(\operatorname{Trd}_{B/L}(b)) $, and the constant term of $ R(X) $ is $ (N_{L/K}((-1)^s \operatorname{Nrd}_{B/L}(b)))^r = (-1)^n N_{L/K}(\operatorname{Nrd}_{B/L}(b))^r $.
+Let $b$ be an element of $B$, and let $P(X)$ be its reduced characteristic polynomial over the $L$-algebra $B$; it is monic of degree $s$. By Lemma 6, the polynomial $Q = N_{L[X]/K[X]}(P)$ is monic of degree $sd$. The polynomial $R = Q^r$ is therefore monic of degree $rsd = n$. Again by Lemma 6, the coefficient of $X^{n-1}$ in $R(X)$ is equal to $-r \operatorname{Tr}_{L/K}(\operatorname{Trd}_{B/L}(b))$, and the constant term of $R(X)$ is $(N_{L/K}((-1)^s \operatorname{Nrd}_{B/L}(b)))^r = (-1)^n N_{L/K}(\operatorname{Nrd}_{B/L}(b))^r$.
 
-Since $[A : K] = r^2 d[B : K]$, the left $ B $-module $ A $ is free of rank $ r^2 d $ (VIII, p. 124, Proposition 5). We therefore have
+Since $[A : K] = r^2 d[B : K]$, the left $B$-module $A$ is free of rank $r^2 d$ (VIII, p. 124, Proposition 5). We therefore have
 
 $$
 \operatorname{Pc}_{A/K}(b; X) = \operatorname{Pc}_{B/K}(b; X)^{dr^2}.

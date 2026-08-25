@@ -13,9 +13,9 @@ pdf_pages: 0432-0460
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a040353138e9931ac75d036290f5a1f762125c3fbbdbe0e1030d8d52cb1511bd
+content_sha256: 6f3ed4982b1281be1f7b1ae42dbb7141255a75c1913f4e6ce2a442ccfe674f51
 translated_from: content/en/alg/VII/historical_note.md
-source_content_sha256: 5058d5ac2b28ead8636a280462879cbc09e58cf565584c18e65770383dc52022
+source_content_sha256: 0badcac98496c7f98609a5c39885b447949598116e8182f2d00bd1c60192a86d
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-e22569be
 glossary_version: 34
@@ -31,9 +31,9 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Các phép toán số học sơ cấp, đặc biệt là các phép toán với phân thức, tất yếu dẫn đến một số quan sát thực nghiệm về tính chia hết giữa các số nguyên. Nhưng dường như cả người Babylon (mặc dù họ là những chuyên gia về đại số), lẫn người Ai Cập (bất chấp kỹ xảo điêu luyện của họ trong việc thao tác với các phân thức) đều không quen với các quy tắc tổng quát chi phối những tính chất này, và sáng kiến theo nghĩa đó thuộc về người Hy Lạp. Công trình số học của họ, mà một trình bày bậc thầy có thể tìm thấy trong Quyển VII và IX của Euclid (I), hoàn toàn không kém gì những phát hiện đẹp nhất của họ ở các ngành khác của Toán học. Sự tồn tại của UCLN của hai số nguyên được chứng minh ngay ở đầu Quyển VII bằng thủ tục được gọi là « thuật toán Euclid » \* ; nó làm cơ sở cho toàn bộ các phát triển tiếp theo (các tính chất của số nguyên tố, sự tồn tại và cách tính BCNN, v.v.), dựa trên những lập luận không khác về bản chất so với những lập luận trong Ch. VI, § 1 ở trên ; và đỉnh cao là hai định lý đáng chú ý chứng minh sự tồn tại vô hạn của các số nguyên tố (Quyển IX, Mệnh đề 20) và đưa ra một phương pháp để xây dựng các số hoàn hảo chẵn (xem VII, p. 53, Bài tập 24 ; trên thực tế phương pháp này cho ra mọi số hoàn hảo chẵn, như Euler sẽ chứng minh). Chỉ có sự tồn tại và tính duy nhất của phân tích thành thừa số nguyên tố là không được chứng minh một cách tổng quát ; tuy nhiên Euclid có chứng minh tường minh rằng mọi số nguyên đều chia hết cho một số nguyên tố (Quyển VII, Mệnh đề 31), cũng như hai mệnh đề sau đây (Quyển IX, Mệnh đề 13 và 14) :
 
-« Nếu bao nhiêu số cũng được xếp thành một cấp số, bắt đầu từ 1, với tỷ số không đổi [tức là cấp số nhân], và nếu số đứng sau 1 là nguyên tố, thì số lớn nhất sẽ không chia hết cho bất kỳ số nào ngoài những số xuất hiện trong cấp số ấy » (nói cách khác, một lũy thừa $ p^n $ của một số nguyên tố $ p $ chỉ có thể chia hết bởi những lũy thừa của $ p $ có số mũ $ \leq n $).
+« Nếu bao nhiêu số cũng được xếp thành một cấp số, bắt đầu từ 1, với tỷ số không đổi [tức là cấp số nhân], và nếu số đứng sau 1 là nguyên tố, thì số lớn nhất sẽ không chia hết cho bất kỳ số nào ngoài những số xuất hiện trong cấp số ấy » (nói cách khác, một lũy thừa $p^n$ của một số nguyên tố $p$ chỉ có thể chia hết bởi những lũy thừa của $p$ có số mũ $\leq n$).
 
-« Nếu một số là số nhỏ nhất chia hết cho [các] số nguyên tố [đã cho], thì nó sẽ không chia hết cho bất kỳ số nguyên tố nào khác ngoại trừ những số ban đầu [được cho là] chia hết nó » (nói cách khác, một tích của các số nguyên tố phân biệt $ p_1, \ldots, p_k $ không có nhân tử nguyên tố nào khác ngoài $ p_1, \ldots, p_k $).
+« Nếu một số là số nhỏ nhất chia hết cho [các] số nguyên tố [đã cho], thì nó sẽ không chia hết cho bất kỳ số nguyên tố nào khác ngoại trừ những số ban đầu [được cho là] chia hết nó » (nói cách khác, một tích của các số nguyên tố phân biệt $p_1, \ldots, p_k$ không có nhân tử nguyên tố nào khác ngoài $p_1, \ldots, p_k$).
 
 Vì vậy dường như nếu Euclid không phát biểu định lý tổng quát, thì chỉ là vì thiếu một thuật ngữ và ký hiệu thích hợp cho các lũy thừa tùy ý của một số nguyên.*
 
@@ -41,7 +41,7 @@ Mặc dù một khảo cứu cẩn thận khiến người ta có thể nghĩ r�
 
 Chính các bài toán gọi là « không xác định » hay « Diophantine » đã là cội nguồn của những phát triển tiếp theo trong Lý thuyết số. Thuật ngữ « phương trình Diophantine », như ngày nay được dùng, xét về mặt lịch sử không hoàn toàn chính xác; nó thường được hiểu là các phương trình đa thức (hoặc hệ phương trình) với hệ số nguyên, mà chỉ tìm các nghiệm nguyên: một bài toán thường là bất khả nếu các phương trình là « xác định », tức là chỉ có hữu hạn nghiệm (thực hoặc phức), nhưng mặt khác thường có nghiệm khi số ẩn nhiều hơn số phương trình. Nay, tuy Diophantus quả thật dường như là người đầu tiên xét các bài toán « không xác định », ông chỉ tìm nghiệm nguyên trong những trường hợp ngoại lệ, và thường chỉ bằng lòng với việc tìm một nghiệm duy nhất trong các số hữu tỉ (II). Đó là một kiểu bài toán mà ông thường có thể giải bằng các phép tính đại số, trong đó
 
-\* Nếu $ a_1 $ và $ a_2 $ là hai số nguyên sao cho $ a_1 \geq a_2 $, ta định nghĩa đệ quy $ a_n $ (với $ n \geq 3 $) là số dư khi chia $ a_{n-2} $ cho $ a_{n-1} $; nếu $ m $ là chỉ số nhỏ nhất sao cho $ a_m = 0 $, thì $ a_1 $, $ a_2 $, là UCLN của $ a_1 $ và $ a_2 $. Đây là sự chuyển sang các số nguyên của phương pháp trừ liên tiếp (còn đôi khi được gọi là ἀνθυφαιρεσις) để tìm một ước chung của hai độ dài. Phương pháp sau hẳn có từ người Pythagore, và dường như đã là cơ sở của một lý thuyết về các số vô tỉ trước Eudoxus.
+\* Nếu $a_1$ và $a_2$ là hai số nguyên sao cho $a_1 \geq a_2$, ta định nghĩa đệ quy $a_n$ (với $n \geq 3$) là số dư khi chia $a_{n-2}$ cho $a_{n-1}$; nếu $m$ là chỉ số nhỏ nhất sao cho $a_m = 0$, thì $a_1$, $a_2$, là UCLN của $a_1$ và $a_2$. Đây là sự chuyển sang các số nguyên của phương pháp trừ liên tiếp (còn đôi khi được gọi là ἀνθυφαιρεσις) để tìm một ước chung của hai độ dài. Phương pháp sau hẳn có từ người Pythagore, và dường như đã là cơ sở của một lý thuyết về các số vô tỉ trước Eudoxus.
 
 \* Để ủng hộ luận điểm này, cũng có thể nhận thấy rằng chứng minh của định lý về các số hoàn hảo về cơ bản chỉ là một trường hợp riêng khác của định lý phân tích duy nhất thành thừa số nguyên tố. Hơn nữa, mọi bằng chứng đều cho thấy rằng từ thời kỳ này trở đi việc phân tích một số cụ thể thành các số nguyên tố đã được biết rõ và đang được dùng rộng rãi; nhưng không thấy có một chứng minh đầy đủ nào của định lý phân tích trước chứng minh do Gauss đưa ra ở đầu Disquisitiones ((VIII) t. I, p. 15).
 
@@ -66,19 +66,19 @@ Nhưng trong cùng thời kỳ ấy, sau khi được Gauss đưa vào (xem Ghi 
 \* Gauss dùng ký hiệu cộng cho luật hợp thành của các lớp, vì thế bằng « phép nhân » ông muốn nói tích của một lớp với một số nguyên.
 ** Abel cũng đã chứng minh tính chất này nhân tiện trong ghi chú của ông về các phương trình Abel ((IX), vol. I, pp. 494-497).
 
-Cũng vào cùng thời kỳ ấy, lý thuyết về tính tương tự của các ma trận (với các phần tử thực hoặc phức) cũng đang đi tới chỗ hoàn chỉnh. Khái niệm trị riêng của một phép biến đổi tuyến tính xuất hiện một cách tường minh trong lý thuyết các hệ phương trình vi phân tuyến tính với hệ số hằng, được Lagrange (VIa) áp dụng cho lý thuyết các dao động nhỏ và được Lagrange (VIb) cùng Laplace (VIIa) áp dụng cho các nhiễu loạn lâu dài của các hành tinh. Nó ẩn tàng trong nhiều bài toán khác cũng được nghiên cứu vào khoảng giữa thế kỷ 18, chẳng hạn bài toán tìm các trục của một đường cônic hoặc một mặt bậc hai (được Euler (Va) giải lần đầu), hoặc việc khảo sát (cũng do Euler (Vb) phát triển) các trục quán tính chính của một vật rắn (được De Segner phát hiện năm 1755); nay ta biết rằng nó cũng hiện diện (ở một dạng ngụy trang hơn) trong những bước đầu của lý thuyết các phương trình vi phân riêng phần, đặc biệt là phương trình của một dây rung. Nhưng (gác trường hợp cuối cùng này sang một bên) mối liên hệ giữa các bài toán khác nhau ấy hầu như chưa được nhận ra trước Cauchy (X). Hơn nữa, vì phần lớn chúng đều liên quan đến việc sử dụng các ma trận đối xứng, nên chính chủ yếu vì các ma trận này mà các trị riêng lúc đầu được nghiên cứu; chúng tôi sẽ trở lại điểm này chi tiết hơn trong các Ghi chú lịch sử theo sau những chương của chuyên luận này dành cho các toán tử Hermit; ở đây chỉ cần lưu ý rằng, ngay từ năm 1826, Cauchy đã chứng minh tính bất biến của các trị riêng của những ma trận như vậy dưới phép tương tự, và chứng minh rằng chúng là thực đối với một ma trận đối xứng $ 3 \times 3 $ (Xa), một kết quả mà ông đã khái quát hóa ba năm sau (Xb) cho các ma trận đối xứng thực tùy ý.* Khái niệm tổng quát về một phép chiếu, do Mobius đưa vào năm 1827, nhanh chóng dẫn đến bài toán phân loại các phép biến đổi như vậy (trước hết trong 2 và 3 chiều), tức là không gì khác hơn bài toán phân loại các ma trận tương ứng theo tương tự; nhưng trong một thời gian dài, bài toán này chỉ được xử lý bằng các phương pháp « tổng hợp » đang thịnh hành vào giữa thế kỷ 19, và sự tiến triển của nó (dù sao cũng khá chậm) dường như không hề ảnh hưởng đến lý thuyết trị riêng. Điều đó không đúng đối với một bài toán hình học khác, việc phân loại các « chùm » các đường cônic hay các mặt bậc hai, mà từ quan điểm hiện đại rút xuống việc nghiên cứu các ước số sơ cấp của ma trận $ U + \lambda V $, trong đó $ U $ và $ V $ là hai ma trận đối xứng; hẳn chính trong tinh thần ấy mà Sylvester đã tấn công bài toán này năm 1851, khi khảo sát cẩn thận (để tìm các « dạng chính tắc » cho chùm đang xét) điều gì xảy ra với các định thức con của ma trận $ U + \lambda V $ khi thay vào một giá trị của $ \lambda $ làm cho định thức triệt tiêu (XIV). Khía cạnh thuần túy đại số của lý thuyết trị riêng cũng đang tiến triển đồng thời; vì thế mà một số tác giả (kể cả chính Sylvester) đã chứng minh vào khoảng năm 1850 rằng các trị riêng của $ U^n $ là các lũy thừa bậc n của các trị riêng của $ U $, còn Cayley
+Cũng vào cùng thời kỳ ấy, lý thuyết về tính tương tự của các ma trận (với các phần tử thực hoặc phức) cũng đang đi tới chỗ hoàn chỉnh. Khái niệm trị riêng của một phép biến đổi tuyến tính xuất hiện một cách tường minh trong lý thuyết các hệ phương trình vi phân tuyến tính với hệ số hằng, được Lagrange (VIa) áp dụng cho lý thuyết các dao động nhỏ và được Lagrange (VIb) cùng Laplace (VIIa) áp dụng cho các nhiễu loạn lâu dài của các hành tinh. Nó ẩn tàng trong nhiều bài toán khác cũng được nghiên cứu vào khoảng giữa thế kỷ 18, chẳng hạn bài toán tìm các trục của một đường cônic hoặc một mặt bậc hai (được Euler (Va) giải lần đầu), hoặc việc khảo sát (cũng do Euler (Vb) phát triển) các trục quán tính chính của một vật rắn (được De Segner phát hiện năm 1755); nay ta biết rằng nó cũng hiện diện (ở một dạng ngụy trang hơn) trong những bước đầu của lý thuyết các phương trình vi phân riêng phần, đặc biệt là phương trình của một dây rung. Nhưng (gác trường hợp cuối cùng này sang một bên) mối liên hệ giữa các bài toán khác nhau ấy hầu như chưa được nhận ra trước Cauchy (X). Hơn nữa, vì phần lớn chúng đều liên quan đến việc sử dụng các ma trận đối xứng, nên chính chủ yếu vì các ma trận này mà các trị riêng lúc đầu được nghiên cứu; chúng tôi sẽ trở lại điểm này chi tiết hơn trong các Ghi chú lịch sử theo sau những chương của chuyên luận này dành cho các toán tử Hermit; ở đây chỉ cần lưu ý rằng, ngay từ năm 1826, Cauchy đã chứng minh tính bất biến của các trị riêng của những ma trận như vậy dưới phép tương tự, và chứng minh rằng chúng là thực đối với một ma trận đối xứng $3 \times 3$ (Xa), một kết quả mà ông đã khái quát hóa ba năm sau (Xb) cho các ma trận đối xứng thực tùy ý.* Khái niệm tổng quát về một phép chiếu, do Mobius đưa vào năm 1827, nhanh chóng dẫn đến bài toán phân loại các phép biến đổi như vậy (trước hết trong 2 và 3 chiều), tức là không gì khác hơn bài toán phân loại các ma trận tương ứng theo tương tự; nhưng trong một thời gian dài, bài toán này chỉ được xử lý bằng các phương pháp « tổng hợp » đang thịnh hành vào giữa thế kỷ 19, và sự tiến triển của nó (dù sao cũng khá chậm) dường như không hề ảnh hưởng đến lý thuyết trị riêng. Điều đó không đúng đối với một bài toán hình học khác, việc phân loại các « chùm » các đường cônic hay các mặt bậc hai, mà từ quan điểm hiện đại rút xuống việc nghiên cứu các ước số sơ cấp của ma trận $U + \lambda V$, trong đó $U$ và $V$ là hai ma trận đối xứng; hẳn chính trong tinh thần ấy mà Sylvester đã tấn công bài toán này năm 1851, khi khảo sát cẩn thận (để tìm các « dạng chính tắc » cho chùm đang xét) điều gì xảy ra với các định thức con của ma trận $U + \lambda V$ khi thay vào một giá trị của $\lambda$ làm cho định thức triệt tiêu (XIV). Khía cạnh thuần túy đại số của lý thuyết trị riêng cũng đang tiến triển đồng thời; vì thế mà một số tác giả (kể cả chính Sylvester) đã chứng minh vào khoảng năm 1850 rằng các trị riêng của $U^n$ là các lũy thừa bậc n của các trị riêng của $U$, còn Cayley
 
 \* Một cố gắng chứng minh kết quả này trong trường hợp riêng của các nhiễu loạn « thế kỷ » của các hành tinh trước đó đã được Laplace (VIIb) thực hiện vào năm 1784. Còn đối với phương trình bậc ba cho các trục của một mặt bậc hai thực, Euler đã phát biểu mà không chứng minh rằng nó có các nghiệm thực, và một chứng minh thử của Lagrange năm 1773 (VIe) đã không đầy đủ; điểm này lần đầu tiên được Hachette và Poisson chứng minh một cách chặt chẽ vào năm 1801 (Journal de l'École Polytechnique, tập 11 (năm X), pp. 170-172).
 
-được công bố năm 1858, trong bài báo mà ở đó ông đã đưa vào số học ma trận (XVI), « Định lý Cayley-Hamilton » cho một ma trận vuông tùy ý *, mặc dù ông chỉ bằng lòng với một chứng minh trực tiếp cho các ma trận 2 x 2 và 3 x 3. Cuối cùng Weierstrass vào năm 1868, dùng các phương pháp của Sylvester, đã thu được các « dạng chính tắc » cho một « pencil » $ U + XV $ trong đó lần này $ U $ và V là các ma trận vuông, không nhất thiết đối xứng, chỉ với điều kiện là $ \det(U + XV) $ không đồng nhất bằng không; từ đó ông suy ra định nghĩa các ước số sơ cấp của một ma trận vuông (phức) tùy ý, và chứng minh rằng chúng đặc trưng nó tới đồng dạng (XIX); nhân tiện, những kết quả này đã được Jordan tìm lại một phần (và dường như một cách độc lập) hai năm sau ** (XXI). Lại một lần nữa chính Frobenius đã chỉ ra vào năm 1879 rằng định lý của Weierstrass có thể dễ dàng suy ra từ định lý của Smith mở rộng cho đa thức ((XXII), § 13); phương pháp của ông là cơ sở cho chứng minh của định lý này mà chúng tôi đã trình bày ở trên (VII, p. 35).
+được công bố năm 1858, trong bài báo mà ở đó ông đã đưa vào số học ma trận (XVI), « Định lý Cayley-Hamilton » cho một ma trận vuông tùy ý *, mặc dù ông chỉ bằng lòng với một chứng minh trực tiếp cho các ma trận 2 x 2 và 3 x 3. Cuối cùng Weierstrass vào năm 1868, dùng các phương pháp của Sylvester, đã thu được các « dạng chính tắc » cho một « pencil » $U + XV$ trong đó lần này $U$ và V là các ma trận vuông, không nhất thiết đối xứng, chỉ với điều kiện là $\det(U + XV)$ không đồng nhất bằng không; từ đó ông suy ra định nghĩa các ước số sơ cấp của một ma trận vuông (phức) tùy ý, và chứng minh rằng chúng đặc trưng nó tới đồng dạng (XIX); nhân tiện, những kết quả này đã được Jordan tìm lại một phần (và dường như một cách độc lập) hai năm sau ** (XXI). Lại một lần nữa chính Frobenius đã chỉ ra vào năm 1879 rằng định lý của Weierstrass có thể dễ dàng suy ra từ định lý của Smith mở rộng cho đa thức ((XXII), § 13); phương pháp của ông là cơ sở cho chứng minh của định lý này mà chúng tôi đã trình bày ở trên (VII, p. 35).
 
-Chúng ta vừa nhắc đến lý thuyết chia hết cho đa thức một biến; vấn đề chia đa thức hẳn nhiên phải nảy sinh từ buổi đầu của đại số, như phép toán ngược của phép nhân (phép nhân này thậm chí đã được Diophantus biết đến, ít nhất là đối với các đa thức bậc thấp); nhưng có thể hình dung rằng khó mà tấn công bài toán này theo một cách tổng quát trước khi đã thiết lập được một ký hiệu nhất quán cho các lũy thừa khác nhau của biến. Thực vậy, trước giữa thế kỷ 16 *** ta tìm thấy rất ít ví dụ về phép chia « Euclid » cho đa thức, như ta biết ngày nay; và S. Stevin (về thực chất, dùng ký hiệu số mũ) dường như là người đầu tiên nghĩ đến việc suy ra sự mở rộng của « thuật toán Euclid » để tìm ước chung lớn nhất của hai đa thức ((IV, vol. I, pp. 54-56). Ngoài ra, lý thuyết chia hết đã chỉ được hạn chế trong các số nguyên hữu tỉ cho đến giữa thế kỷ 18. Chính Euler vào năm 1770 đã mở ra một chương mới trong Số học bằng cách khá táo bạo mở rộng khái niệm chia hết sang các số nguyên của một mở rộng bậc hai: nhằm xác định các ước của một số có dạng $ x^2 + cy^2 $ (x, y và c là các số nguyên), ông đặt
+Chúng ta vừa nhắc đến lý thuyết chia hết cho đa thức một biến; vấn đề chia đa thức hẳn nhiên phải nảy sinh từ buổi đầu của đại số, như phép toán ngược của phép nhân (phép nhân này thậm chí đã được Diophantus biết đến, ít nhất là đối với các đa thức bậc thấp); nhưng có thể hình dung rằng khó mà tấn công bài toán này theo một cách tổng quát trước khi đã thiết lập được một ký hiệu nhất quán cho các lũy thừa khác nhau của biến. Thực vậy, trước giữa thế kỷ 16 *** ta tìm thấy rất ít ví dụ về phép chia « Euclid » cho đa thức, như ta biết ngày nay; và S. Stevin (về thực chất, dùng ký hiệu số mũ) dường như là người đầu tiên nghĩ đến việc suy ra sự mở rộng của « thuật toán Euclid » để tìm ước chung lớn nhất của hai đa thức ((IV, vol. I, pp. 54-56). Ngoài ra, lý thuyết chia hết đã chỉ được hạn chế trong các số nguyên hữu tỉ cho đến giữa thế kỷ 18. Chính Euler vào năm 1770 đã mở ra một chương mới trong Số học bằng cách khá táo bạo mở rộng khái niệm chia hết sang các số nguyên của một mở rộng bậc hai: nhằm xác định các ước của một số có dạng $x^2 + cy^2$ (x, y và c là các số nguyên), ông đặt
 
 $$
 x - y \sqrt{-c} = (p + q \sqrt{-c})(r + s \sqrt{-c}) \quad (p, q, r, s \text{ các số nguyên})
 $$
 
-và, lấy chuẩn của mỗi vế, ông không ngần ngại khẳng định rằng mọi ước của $ x^2 + cy^2 $ đều thu được theo cách này dưới dạng $ p^2 + cq^2 $ (Vc). Nói cách khác,
+và, lấy chuẩn của mỗi vế, ông không ngần ngại khẳng định rằng mọi ước của $x^2 + cy^2$ đều thu được theo cách này dưới dạng $p^2 + cq^2$ (Vc). Nói cách khác,
 
 \* Hamilton, nhân tiện, đã chứng minh định lý này cho các ma trận 3 x 3 vài năm trước đó ((XV), pp. 566-567).
 
@@ -86,17 +86,17 @@ và, lấy chuẩn của mỗi vế, ông không ngần ngại khẳng định r
 
 *** Xem chẳng hạn H. Bosmans, Sur le « libro del Algebra » de Pedro Nuñez, Bibl. Math. (3), vol. VIII (1907-1908), pp. 154-169.
 
-Euler lập luận như thể vành $ \mathbf{Z}[\sqrt{-c}] $ là một miền iđêan chính; không lâu sau ông dùng một lập luận tương tự để áp dụng phương pháp « giáng vô hạn » cho phương trình $ x^3 + y^3 = z^3 $ (ông quy bài toán về việc tìm một căn bậc ba của $ p^2 + 3q^2 $, điều mà ông làm bằng cách đặt $ p + q \sqrt{-3} = (r + s \sqrt{-3})^3 $). Nhưng Lagrange đã chứng minh từ năm 1773 (VIc) rằng các ước của những số có dạng $ x^2 + cy^2 $ không phải tất cả đều có dạng này, đó là ví dụ đầu tiên của khó khăn cơ bản sẽ xuất hiện rõ ràng hơn nhiều trong các nghiên cứu của Gauss và các môn đồ của ông về tính chia hết trong các trường cyclotomic *; nói chung, không thể mở rộng trực tiếp các tính chất cốt yếu của tính chia hết của các số nguyên hữu tỉ, như sự tồn tại của các ước chung lớn nhất và tính duy nhất của phân tích thành thừa số nguyên tố, sang các trường này. Ở đây không phải chỗ để mô tả Kummer, đối với các trường cyclotomic (XII)**, rồi Dedekind và Kronecker đối với các trường số đại số tùy ý, đã vượt qua trở ngại ghê gớm này như thế nào bằng việc sáng tạo ra lý thuyết iđêan, một trong những tiến bộ quyết định nhất của đại số hiện đại. Nhưng Dedekind, vốn luôn tò mò về nền tảng của các lý thuyết Toán học khác nhau, không bằng lòng với thành công này; và bằng cách phân tích cơ chế của các quan hệ chia hết, ông đã đặt nền móng cho lý thuyết các nhóm có thứ tự dàn, trong một bài báo (không được những người đương thời biết đến, và bị chìm trong quên lãng suốt 30 năm) mà chắc chắn là một trong những công trình sớm nhất của Đại số tiên đề (XXIV); nếu bỏ qua ký hiệu, công trình của ông rất gần với dạng hiện đại của lý thuyết này, như chúng tôi đã trình bày ở Chương VI, 91.
+Euler lập luận như thể vành $\mathbf{Z}[\sqrt{-c}]$ là một miền iđêan chính; không lâu sau ông dùng một lập luận tương tự để áp dụng phương pháp « giáng vô hạn » cho phương trình $x^3 + y^3 = z^3$ (ông quy bài toán về việc tìm một căn bậc ba của $p^2 + 3q^2$, điều mà ông làm bằng cách đặt $p + q \sqrt{-3} = (r + s \sqrt{-3})^3$). Nhưng Lagrange đã chứng minh từ năm 1773 (VIc) rằng các ước của những số có dạng $x^2 + cy^2$ không phải tất cả đều có dạng này, đó là ví dụ đầu tiên của khó khăn cơ bản sẽ xuất hiện rõ ràng hơn nhiều trong các nghiên cứu của Gauss và các môn đồ của ông về tính chia hết trong các trường cyclotomic *; nói chung, không thể mở rộng trực tiếp các tính chất cốt yếu của tính chia hết của các số nguyên hữu tỉ, như sự tồn tại của các ước chung lớn nhất và tính duy nhất của phân tích thành thừa số nguyên tố, sang các trường này. Ở đây không phải chỗ để mô tả Kummer, đối với các trường cyclotomic (XII)**, rồi Dedekind và Kronecker đối với các trường số đại số tùy ý, đã vượt qua trở ngại ghê gớm này như thế nào bằng việc sáng tạo ra lý thuyết iđêan, một trong những tiến bộ quyết định nhất của đại số hiện đại. Nhưng Dedekind, vốn luôn tò mò về nền tảng của các lý thuyết Toán học khác nhau, không bằng lòng với thành công này; và bằng cách phân tích cơ chế của các quan hệ chia hết, ông đã đặt nền móng cho lý thuyết các nhóm có thứ tự dàn, trong một bài báo (không được những người đương thời biết đến, và bị chìm trong quên lãng suốt 30 năm) mà chắc chắn là một trong những công trình sớm nhất của Đại số tiên đề (XXIV); nếu bỏ qua ký hiệu, công trình của ông rất gần với dạng hiện đại của lý thuyết này, như chúng tôi đã trình bày ở Chương VI, 91.
 
-\* Gauss dường như đã từng hy vọng rằng vành các số nguyên trong trường các căn bậc n của đơn vị sẽ là một miền iđêan chính; trong một bản thảo không được công bố khi ông còn sống ((VIII), tập II, tr. 387-397), ông chứng minh sự tồn tại của một quá trình chia Euclid trong trường các căn bậc ba của đơn vị, và đưa ra một vài chỉ dẫn về một quá trình tương tự trong trường các căn bậc năm của đơn vị; ông dùng các kết quả này để chứng minh bằng một lập luận « đi xuống vô hạn » chặt chẽ hơn của Euler rằng phương trình $ x^3 + y^3 = z' $ không có nghiệm trong trường các căn bậc ba của đơn vị, chỉ ra rằng có thể mở rộng phương pháp sang phương trình $ x^5 + y^5 = z^5 $, nhưng dừng lại trước phương trình $ x^7 + y^7 = z^7 $, nói rằng ở đây không thể bác bỏ tiên nghiệm trường hợp x, y và z không chia hết cho 7.
+\* Gauss dường như đã từng hy vọng rằng vành các số nguyên trong trường các căn bậc n của đơn vị sẽ là một miền iđêan chính; trong một bản thảo không được công bố khi ông còn sống ((VIII), tập II, tr. 387-397), ông chứng minh sự tồn tại của một quá trình chia Euclid trong trường các căn bậc ba của đơn vị, và đưa ra một vài chỉ dẫn về một quá trình tương tự trong trường các căn bậc năm của đơn vị; ông dùng các kết quả này để chứng minh bằng một lập luận « đi xuống vô hạn » chặt chẽ hơn của Euler rằng phương trình $x^3 + y^3 = z'$ không có nghiệm trong trường các căn bậc ba của đơn vị, chỉ ra rằng có thể mở rộng phương pháp sang phương trình $x^5 + y^5 = z^5$, nhưng dừng lại trước phương trình $x^7 + y^7 = z^7$, nói rằng ở đây không thể bác bỏ tiên nghiệm trường hợp x, y và z không chia hết cho 7.
 
 ** Trong công trình sớm nhất của mình về « số iđêan », Kummer đã chỉ ra tường minh khả năng áp dụng phương pháp của mình, không những cho các trường cyclotomic, mà còn cho các trường bậc hai, và do đó khôi phục các kết quả của Gauss về các dạng toàn phương nhị phân ((XII), tr. 324-325).
 
-(Vd): với mọi đa thức $ f $ có các hệ số thực, ông đã tìm cách chứng minh sự tồn tại của một phân tích $ f = f_1 f_2 $ thành hai đa thức (không hằng) có các hệ số *thực*, điều này sẽ cho ông một chứng minh của « định lý cơ bản » bằng quy nạp theo bậc của f. Thậm chí, như ông nhận thấy, chỉ cần dừng lại ở nhân tử có bậc lẻ đầu tiên, và do đó mọi khó khăn được quy về xét trường hợp bậc $ n $ của f là chẵn. Euler sau đó tự hạn chế mình vào trường hợp các nhân tử cần tìm đều có bậc $ n/2 $, và ông chỉ ra rằng bằng một quá trình khử thích hợp có thể biểu diễn các hệ số chưa biết của $ f_1 $ và $ f_2 $ dưới dạng các hàm hữu tỉ của một nghiệm của một phương trình với các hệ số thực, mà các hạng đầu và cuối có *dấu trái nhau* và do đó có ít nhất một nghiệm thực. Nhưng chứng minh của Euler chỉ là một phác thảo, và bỏ qua một số điểm cốt yếu; phải đến *1772* Lagrange mới giải quyết được các khó khăn do chứng minh này đặt ra (*VIId*) bằng một phân tích cực kỳ dài và tỉ mỉ, trong đó ông thể hiện một sự điêu luyện đáng chú ý khi sử dụng « các phương pháp Galois » mà ông mới tạo ra gần đây (xem Ghi chú lịch sử về Chương IV và V).
+(Vd): với mọi đa thức $f$ có các hệ số thực, ông đã tìm cách chứng minh sự tồn tại của một phân tích $f = f_1 f_2$ thành hai đa thức (không hằng) có các hệ số *thực*, điều này sẽ cho ông một chứng minh của « định lý cơ bản » bằng quy nạp theo bậc của f. Thậm chí, như ông nhận thấy, chỉ cần dừng lại ở nhân tử có bậc lẻ đầu tiên, và do đó mọi khó khăn được quy về xét trường hợp bậc $n$ của f là chẵn. Euler sau đó tự hạn chế mình vào trường hợp các nhân tử cần tìm đều có bậc $n/2$, và ông chỉ ra rằng bằng một quá trình khử thích hợp có thể biểu diễn các hệ số chưa biết của $f_1$ và $f_2$ dưới dạng các hàm hữu tỉ của một nghiệm của một phương trình với các hệ số thực, mà các hạng đầu và cuối có *dấu trái nhau* và do đó có ít nhất một nghiệm thực. Nhưng chứng minh của Euler chỉ là một phác thảo, và bỏ qua một số điểm cốt yếu; phải đến *1772* Lagrange mới giải quyết được các khó khăn do chứng minh này đặt ra (*VIId*) bằng một phân tích cực kỳ dài và tỉ mỉ, trong đó ông thể hiện một sự điêu luyện đáng chú ý khi sử dụng « các phương pháp Galois » mà ông mới tạo ra gần đây (xem Ghi chú lịch sử về Chương IV và V).
 
 Dẫu vậy, Lagrange, cũng như Euler và tất cả những người cùng thời của ông, không ngần ngại lập luận hình thức trong một « trường nghiệm » của một đa thức (tức là, theo ngôn ngữ của ông, xét các « nghiệm ảo » của đa thức này); Toán học thời đó không hề biện minh cho kiểu lập luận này. Gauss, người ngay từ đầu đã kiên quyết chống lại chủ nghĩa hình thức không bị ràng buộc của thế kỷ 18, đã kịch liệt phản đối sự lạm dụng này trong luận án của ông ((VIII), tập *III*, p. 3). Nhưng hẳn không hợp với ông nếu không nhận ra rằng đây là một cách trình bày bề ngoài có lỗi của một lập luận vốn đúng về bản chất. Vài năm sau đó chúng ta cũng thấy ông ((VIII), tập *III*, p. 33; xem thêm *(VIIIbis)*), tiếp nhận một dạng đơn giản hơn của lập luận của Euler, vốn đã được Foncenex gợi ý vào *1759* (tuy nhiên, ông này không thể khai thác nó vào việc gì), để thu được một chứng minh mới của « định lý cơ bản » trong đó ông cẩn thận tránh mọi nhắc đến các nghiệm « ảo »: những nghiệm này được thay bằng phép nối khéo léo và chuyên biệt hóa các ẩn. Về thực chất, chính là chứng minh này của Gauss mà chúng tôi đã trình bày trong văn bản (VI, p. 26, Định lý 3), với các đơn giản hóa có được nhờ việc sử dụng các mở rộng đại số.
 
-Vai trò của Tôpô trong « định lý cơ bản » vì thế đã được rút xuống thành định lý duy nhất rằng một đa thức với hệ số thực không thể đổi dấu trên một khoảng mà không có một nghiệm (Định lý Bolzano cho đa thức). Định lý này cũng nằm ở gốc của mọi tiêu chuẩn phân tách các nghiệm thực của một đa thức (với các hệ số thực), vốn là một trong những chủ đề đại số được ưa thích nhất trong thế kỷ 19 *. Trong quá trình nghiên cứu này, người ta thấy rõ rằng chính cấu trúc thứ tự của $ \mathbf{R} $, chứ không phải tôpô của nó, mới đóng vai trò cốt yếu *; chẳng hạn Định lý Bolzano cho đa thức vẫn đúng trong trường của tất cả các số đại số thực. Chuỗi ý tưởng này đã dẫn tới lý thuyết trừu tượng về các trường có thứ tự, do E. Artin và O. Schreier tạo ra (XXV); một trong những kết quả đáng chú ý nhất của nó hẳn là phát hiện rằng sự tồn tại của một quan hệ thứ tự trên một trường liên quan đến các tính chất thuần túy đại số của trường đó. Đó là lý thuyết được trình bày ở § 2 của Chương VI.
+Vai trò của Tôpô trong « định lý cơ bản » vì thế đã được rút xuống thành định lý duy nhất rằng một đa thức với hệ số thực không thể đổi dấu trên một khoảng mà không có một nghiệm (Định lý Bolzano cho đa thức). Định lý này cũng nằm ở gốc của mọi tiêu chuẩn phân tách các nghiệm thực của một đa thức (với các hệ số thực), vốn là một trong những chủ đề đại số được ưa thích nhất trong thế kỷ 19 *. Trong quá trình nghiên cứu này, người ta thấy rõ rằng chính cấu trúc thứ tự của $\mathbf{R}$, chứ không phải tôpô của nó, mới đóng vai trò cốt yếu *; chẳng hạn Định lý Bolzano cho đa thức vẫn đúng trong trường của tất cả các số đại số thực. Chuỗi ý tưởng này đã dẫn tới lý thuyết trừu tượng về các trường có thứ tự, do E. Artin và O. Schreier tạo ra (XXV); một trong những kết quả đáng chú ý nhất của nó hẳn là phát hiện rằng sự tồn tại của một quan hệ thứ tự trên một trường liên quan đến các tính chất thuần túy đại số của trường đó. Đó là lý thuyết được trình bày ở § 2 của Chương VI.
 
 \* Khuynh hướng gán tầm quan trọng quá mức cho cấu trúc thứ tự của các số thực cũng có thể thấy trong định nghĩa của chúng bằng các « lát cắt » của Dedekind, về cơ bản là một quá trình có thể áp dụng cho mọi tập hợp có thứ tự (xem VI, p. 35, Bài tập 30 trở đi).
 
@@ -172,27 +172,27 @@ K[S]: V, p. 4.
 $S^{p^{-f}}, A^{p^{-\infty}}$: V, p. 5 and 6.
 [A : K]: V, p. 10.
 K(x_i), K(x), K(x_1, ..., x_n): V, p. 10.
-h(L), [A : K], $ \mathcal{H}(A) $: V, p. 31.
+h(L), [A : K], $\mathcal{H}(A)$: V, p. 31.
 E_s: V, p. 44.
 [E:K]_s, [E:K],: V, p. 31 and 46.
 N_{A/K}(x), \mathrm{Tr}_{A/K}(x), D_{A/K}(x_1, ..., x_n): V, p. 47.
 Gal(N/K): V, p. 58.
 k(\Delta), g(E): V, p. 67.
 K_{ab}: V, p. 77.
-$ \mu_m(K), \mu_\infty(K), \mathbf{Z}[1/p] $: V, p. 78.
-$ \mu_{l^\infty}(K) $: V, p. 79.
-$ \varphi(n) $: V, p. 79.
+$\mu_m(K), \mu_\infty(K), \mathbf{Z}[1/p]$: V, p. 78.
+$\mu_{l^\infty}(K)$: V, p. 79.
+$\varphi(n)$: V, p. 79.
 R_n(K), \Phi_n, \chi_n: V, p. 81.
 K(A^{1/n}), \langle \sigma, a \rangle: V, p. 88.
-$ \mathfrak{g}, K(\mathfrak{g}^{-1}(A)) $, [u, a]: V, p. 91.
+$\mathfrak{g}, K(\mathfrak{g}^{-1}(A))$, [u, a]: V, p. 91.
 F_q(\Omega), F_q: V, p. 95.
 Z_l, Z: V, p. 96.
-$ \sigma_q $: v, p. 97.
-$ \varphi_n $: V, p. 97.
+$\sigma_q$: v, p. 97.
+$\varphi_n$: V, p. 97.
 deg.tr_K E: V, p. 110.
 f^A: V, p. 127.
 
-$ \chi(f), f $ là một ánh xạ tuyến tính: V, p. 132.
+$\chi(f), f$ là một ánh xạ tuyến tính: V, p. 132.
 
 x|y, x|y: VI, p. 5.
 (x): VI, p. 6.
@@ -201,7 +201,7 @@ sup_F(x_i) (F là một tập con của một tập có thứ tự E): VI, p. 8.
 gcd(x_i), lcm(x_i): VI, p. 8.
 x^+, x^-, |x| (x là một phần tử của một nhóm có thứ tự dàn): VI, p. 12.
 sgn(x): VI, p. 20.
-$ \sqrt{a} $ (a là một phần tử $\geq 0$ của một trường có thứ tự) VI, p. 24.
+$\sqrt{a}$ (a là một phần tử $\geq 0$ của một trường có thứ tự) VI, p. 24.
 |z| (z là một phần tử của K(i). trong đó K là một trường có thứ tự và i^2 = -1): VI, p. 27.
 GL+(E) (E là một không gian vectơ có hướng): VI, p. 29.
 M(\alpha), M_\alpha (M là một môđun trên A, \alpha \in A): VII, p. 7.
@@ -212,7 +212,7 @@ D(M) (M là một môđun trên một miền iđêan chính A, N^0: VII, p. 25 t
 c_M: M \to D(D(M)): VII, p. 26.
 M_u (M là một môđun, u là một tự đồng cấu của M): VII, p. 28.
 V_\alpha (V là một không gian vectơ, \alpha \in K): VII, p. 30.
-$ \chi_u, \chi_v $: VII, p. 30.
+$\chi_u, \chi_v$: VII, p. 30.
 U_{m,\alpha}: VII, p. 35.
 u_s, u_j (u là một tự đồng cấu): VII, p. 43 and 45.
 f_s, f_u (f là một tự đẳng cấu): VII, p. 46.
@@ -266,7 +266,7 @@ Tương thích (quan hệ tiền thứ tự) với cấu trúc monoid giao hoán
 Hướng bổ sung : VI, p. 29.
 Mở rộng hợp : V, p. 12.
 Phép hợp thành của các chuỗi : IV, p. 97, Ex. 15.
-Lớp liên hợp trong $ \Omega $ : V, p. 52.
+Lớp liên hợp trong $\Omega$ : V, p. 52.
 Các phần tử liên hợp : V, p. 52 ;
 Các mở rộng liên hợp : V, p. 52.
 Đa thức hằng, số hạng : IV, p. 1.
@@ -289,7 +289,7 @@ Bậc của một phần tử đại số : V, p. 16.
 Bậc (toàn phần) của một đa thức : IV, p. 3.
 Bậc (toàn phần) của một phân thức hữu tỉ : IV, p. 20.
 Bậc (tách được) của một mở rộng : V, p. 31.
-Đạo hàm riêng trong một mở rộng p-căn có độ cao $ \leq 1 $ : V, p. 103.
+Đạo hàm riêng trong một mở rộng p-căn có độ cao $\leq 1$ : V, p. 103.
 Đạo hàm riêng của một chuỗi lũy thừa hình thức : IV, p. 32.
 Đạo hàm riêng của một đa thức : IV, p. 6.
 Quy tắc Descartes : VI, p. 42, Ex. 21.
@@ -514,7 +514,7 @@ CHƯƠNG V. — CÁC TRƯỜNG GIAO HOÁN .................................. V.1
     1. Các trường nguyên tố .................................................. V.1
     2. Đặc số của một vành và của một trường ..................... V.2
     3. Các vành giao hoán có đặc số p ....................... V.3
-    4. Các vành hoàn hảo có đặc số $ p $ ....................... V.5
+    4. Các vành hoàn hảo có đặc số $p$ ....................... V.5
     5. Số mũ đặc số của một trường. Các trường hoàn hảo ........ V.7
     6. Đặc trưng hóa các đa thức có vi phân bằng không .. V.7
 
@@ -582,7 +582,7 @@ CHƯƠNG V. — CÁC TRƯỜNG GIAO HOÁN .................................. V.1
 7. The fundamental theorem of Galois theory ............... V.67
 8. Change of base field ......................................... V.69
 9. The normal basis theorem .................................... V.72
-10. Finite $ \Gamma $-sets and etale algebras .................. V.75
+10. Finite $\Gamma$-sets and etale algebras .................. V.75
 11. The structure of quasi-Galois extensions ................. V.76
 
 § 11. Các mở rộng Abel ........................................ V.77
@@ -592,7 +592,7 @@ CHƯƠNG V. — CÁC TRƯỜNG GIAO HOÁN .................................. V.1
     4. Các mở rộng cyclotomic .................................... V.81
     5. Tính bất khả quy của các đa thức cyclotomic ............... V.83
     6. Các mở rộng cyclic ......................................... V.85
-    7. Tính đối ngẫu của các môđun $ \mathbf{Z}/n\mathbf{Z} $ ............ V.86
+    7. Tính đối ngẫu của các môđun $\mathbf{Z}/n\mathbf{Z}$ ............ V.86
     8. Lý thuyết Kummer ........................................... V.88
     9. Lý thuyết Artin-Schreier .................................... V.91
 
@@ -602,9 +602,9 @@ CHƯƠNG V. — CÁC TRƯỜNG GIAO HOÁN .................................. V.1
     3. Nhóm Galois của bao đóng đại số của một trường hữu hạn .................................................. V.96
     4. Các đa thức cyclotomic trên một trường hữu hạn ............. V.97
 
-§ 13. Các mở rộng $ p $-căn có độ cao $ \leq 1 $ .......... V.98
-    1. Các tập con $ p $-tự do và các $ p $-cơ sở ..................... V.98
-    2. Các vi phân và các $ p $-cơ sở .......................... V.100
+§ 13. Các mở rộng $p$-căn có độ cao $\leq 1$ .......... V.98
+    1. Các tập con $p$-tự do và các $p$-cơ sở ..................... V.98
+    2. Các vi phân và các $p$-cơ sở .......................... V.100
     3. Sự tương ứng Galois giữa các trường con và các đại số Lie của các phép đạo hàm ................................. V.104
 
 § 14. Các mở rộng siêu việt ................................ V.106
@@ -704,7 +704,7 @@ CHƯƠNG VII. — CÁC MÔĐUN TRÊN CÁC MIỀN IĐÊAN CHÍNH ........ VII.1
     1. Các môđun trên một tích của các vành ................................. v11.6
     2. Phân tích chính tắc của một môđun xoắn trên một miền iđêan chính ........................................... VII.7
     3. Ứng dụng : I. Các phân tích chính tắc của các số hữu tỉ và của các hàm hữu tỉ theo một ẩn .... VII.10
-    4. Ứng dụng : II. Nhóm nhân của các đơn vị của các số nguyên modulo $ a $ ........................................... VII.12
+    4. Ứng dụng : II. Nhóm nhân của các đơn vị của các số nguyên modulo $a$ ........................................... VII.12
 
 § 3. Các môđun tự do trên một miền iđêan chính .................... VII.14
 

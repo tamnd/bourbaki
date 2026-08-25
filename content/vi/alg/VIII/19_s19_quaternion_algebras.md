@@ -34,9 +34,9 @@ subsections:
       pdf_page: 384
 statements: 16
 exercises: 8
-content_sha256: 4705dea4f33b886c2f29d0cbb55107dd07b453188aa70394497293052238ae79
+content_sha256: 4289c7ccdf8ad5f70f23be4f50ab405eae054d6bccf62880e0335e275953bb59
 translated_from: content/en/alg/VIII/19_s19_quaternion_algebras.md
-source_content_sha256: 3a386d6bf9977c3b77d595a905a52232bbb912152085c1a821b5980f70fe6905
+source_content_sha256: 108f7dda8f7849f663b2ef3f83020f45b2cebb199a339be51e597d680bf6aafa
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-bb913a9e
 glossary_version: 34
@@ -154,9 +154,9 @@ Cho $\alpha ,\beta ,\gamma$ là các phần tử của K, và cho $f$ là một 
 
 Giả sử rằng các tính chất này đúng. Khi đó với mọi $x$ trong F, đa thức đặc trưng rút gọn của $x$ là $X^2-T_F(x)X + N_F(x)$. Đặc biệt, $T_F(x)$ là vết rút gọn của $x$, và $N_F(x)$ là chuẩn rút gọn của nó.
 
-(i)⇒(ii): Nếu đại số F là đơn tâm, thì từ Mệnh đề 1 của VIII, p. 361 và định nghĩa của vết rút gọn (VIII, p. 340, Định nghĩa 2) suy ra rằng $ T_F $ là vết rút gọn của nó; mệnh đề (ii) suy ra (VIII, p. 343, Mệnh đề 5).
+(i)⇒(ii): Nếu đại số F là đơn tâm, thì từ Mệnh đề 1 của VIII, p. 361 và định nghĩa của vết rút gọn (VIII, p. 340, Định nghĩa 2) suy ra rằng $T_F$ là vết rút gọn của nó; mệnh đề (ii) suy ra (VIII, p. 343, Mệnh đề 5).
 
-(ii)⇔(iii): Cho $ (e_i)_{1 \leq i \leq 4} $ là một cơ sở của F kiểu $ (\alpha, \beta, \gamma) $ (III, §2, No. 5, p. 445). Ma trận $ (T_F(e_i e_j)) $ bằng
+(ii)⇔(iii): Cho $(e_i)_{1 \leq i \leq 4}$ là một cơ sở của F kiểu $(\alpha, \beta, \gamma)$ (III, §2, No. 5, p. 445). Ma trận $(T_F(e_i e_j))$ bằng
 
 $$
 \begin{pmatrix}
@@ -167,23 +167,23 @@ $$
 \end{pmatrix}.
 $$
 
-Định thức của nó là $ -\gamma^2 (4\alpha + \beta^2)^2 $. Sự tương đương của các tính chất (ii) và (iii) suy ra từ V, §8, No. 2, p. 49, Bổ đề 1.
+Định thức của nó là $-\gamma^2 (4\alpha + \beta^2)^2$. Sự tương đương của các tính chất (ii) và (iii) suy ra từ V, §8, No. 2, p. 49, Bổ đề 1.
 
-(iii)⇒(i): Giả sử $ (4\alpha + \beta^2)\gamma \neq 0 $. Khi đó ta có $ \gamma \neq 0 $, và ta có $ \beta \neq 0 $ nếu K có đặc số 2. Theo Mệnh đề 2, đại số F là đơn tâm. Gọi x là một phần tử của căn Jacobson của F. Với mọi $ y \in F $, $ xy $ là lũy linh, do đó $ T_F(xy) = 0 $ (Nhận xét 3 của VIII, p. 362). Vì (ii) tương đương với (iii), ta có $ x = 0 $. Điều này chứng minh rằng F là một K-đại số nửa đơn. Vì tâm của nó là K, nó là đơn.
+(iii)⇒(i): Giả sử $(4\alpha + \beta^2)\gamma \neq 0$. Khi đó ta có $\gamma \neq 0$, và ta có $\beta \neq 0$ nếu K có đặc số 2. Theo Mệnh đề 2, đại số F là đơn tâm. Gọi x là một phần tử của căn Jacobson của F. Với mọi $y \in F$, $xy$ là lũy linh, do đó $T_F(xy) = 0$ (Nhận xét 3 của VIII, p. 362). Vì (ii) tương đương với (iii), ta có $x = 0$. Điều này chứng minh rằng F là một K-đại số nửa đơn. Vì tâm của nó là K, nó là đơn.
 
 Khẳng định cuối cùng suy ra từ Mệnh đề 1 của VIII, p. 361 và định nghĩa của đa thức đặc trưng rút gọn (VIII, p. 340, Định nghĩa 1).
 
-Kí hiệu đặc số của K là p. Theo Mệnh đề 3, nếu $ p \neq 2 $, thì mọi đại số quaternion trên K kiểu $ (\alpha, 0, \gamma) $ với $ \alpha $ và $ \gamma $ trong $ K^* $ là đơn tâm. Nếu $ p = 2 $, thì mọi đại số quaternion kiểu $ (\alpha, 1, \gamma) $ với $ \alpha \in K $ và $ \gamma \in K^* $ là đơn tâm. Ngược lại, ta có điều sau.
+Kí hiệu đặc số của K là p. Theo Mệnh đề 3, nếu $p \neq 2$, thì mọi đại số quaternion trên K kiểu $(\alpha, 0, \gamma)$ với $\alpha$ và $\gamma$ trong $K^*$ là đơn tâm. Nếu $p = 2$, thì mọi đại số quaternion kiểu $(\alpha, 1, \gamma)$ với $\alpha \in K$ và $\gamma \in K^*$ là đơn tâm. Ngược lại, ta có điều sau.
 
 #### Mệnh đề 4 {#alg-viii-s19-prop-4 .statement tag=00LX}
 
 *Cho A là một đại số đơn tâm có bậc 4 trên K. Kí hiệu đặc số của K là p.*
 
-a) *Nếu $ p \neq 2 $, thì tồn tại các phần tử khác không $ \alpha $ và $ \gamma $ của K sao cho đại số A đẳng cấu với đại số quaternion kiểu $ (\alpha, 0, \gamma) $.*
+a) *Nếu $p \neq 2$, thì tồn tại các phần tử khác không $\alpha$ và $\gamma$ của K sao cho đại số A đẳng cấu với đại số quaternion kiểu $(\alpha, 0, \gamma)$.*
 
-b) *Nếu $ p = 2 $, thì tồn tại một phần tử $ \alpha $ của K và một phần tử $ \gamma $ của $ K^* $ sao cho đại số A đẳng cấu với đại số quaternion kiểu $ (\alpha, 1, \gamma) $.*
+b) *Nếu $p = 2$, thì tồn tại một phần tử $\alpha$ của K và một phần tử $\gamma$ của $K^*$ sao cho đại số A đẳng cấu với đại số quaternion kiểu $(\alpha, 1, \gamma)$.*
 
-Theo định lý Wedderburn (VIII, p. 120, Định lý 1), tồn tại một số nguyên $ r \geq 1 $ và một trường D có tâm K sao cho A đẳng cấu với $ \mathbf{M}_r(D) $. Khi đó ta có $ r^2[D : K] = [A : K] = 4 $. Nếu $ r = 2 $, thì A đẳng cấu với $ \mathbf{M}_2(K) $, và Mệnh đề 4 suy ra từ ví dụ của VIII, p. 362. Nếu không, ta có $ r = 1 $, và A là một trường có tâm K. Khi đó nó có một trường con giao hoán cực đại E là một mở rộng tách được của K; vì A có bậc 4 trên K, mở rộng E có bậc 2 trên K (VIII, p. 265, Hệ quả 2). Do đó nó là bậc hai (III, §2, No. 3, p. 439). Gọi $s$ là phép liên hợp của E (III, §2, No. 3, p. 440). Theo định lý Skolem–Noether (VIII, p. 256, Hệ quả 1), tồn tại một phần tử khả nghịch $j$ của A sao cho ta có $s(x) =jxj^{-1}$ với mọi $x$ trong E. Trường E là tách được trên K, do đó ta có $s\not=$ Id$_E$, nên $j \notin E$. Vì A là một không gian vectơ có chiều 4 trên K, nó là một không gian vectơ trái có chiều 2 trên E, do đó ta có $A = E\oplus Ej$. Ta có $s^2=$ Id$_E$, nên phần tử $j^2$ của A thuộc tâm của A; do đó tồn tại một phần tử $\gamma$ của $K^*$ sao cho $j^2=\gamma$.
+Theo định lý Wedderburn (VIII, p. 120, Định lý 1), tồn tại một số nguyên $r \geq 1$ và một trường D có tâm K sao cho A đẳng cấu với $\mathbf{M}_r(D)$. Khi đó ta có $r^2[D : K] = [A : K] = 4$. Nếu $r = 2$, thì A đẳng cấu với $\mathbf{M}_2(K)$, và Mệnh đề 4 suy ra từ ví dụ của VIII, p. 362. Nếu không, ta có $r = 1$, và A là một trường có tâm K. Khi đó nó có một trường con giao hoán cực đại E là một mở rộng tách được của K; vì A có bậc 4 trên K, mở rộng E có bậc 2 trên K (VIII, p. 265, Hệ quả 2). Do đó nó là bậc hai (III, §2, No. 3, p. 439). Gọi $s$ là phép liên hợp của E (III, §2, No. 3, p. 440). Theo định lý Skolem–Noether (VIII, p. 256, Hệ quả 1), tồn tại một phần tử khả nghịch $j$ của A sao cho ta có $s(x) =jxj^{-1}$ với mọi $x$ trong E. Trường E là tách được trên K, do đó ta có $s\not=$ Id$_E$, nên $j \notin E$. Vì A là một không gian vectơ có chiều 4 trên K, nó là một không gian vectơ trái có chiều 2 trên E, do đó ta có $A = E\oplus Ej$. Ta có $s^2=$ Id$_E$, nên phần tử $j^2$ của A thuộc tâm của A; do đó tồn tại một phần tử $\gamma$ của $K^*$ sao cho $j^2=\gamma$.
 
 Khi $p\not= 2$, tồn tại một phần tử $i$ của E và một phần tử $\alpha \in K^*$ sao cho $E = K(i)$ và $i^2=\alpha$ (V, §11, No. 9, p. 93, Ví dụ 3); trong trường hợp này, A đẳng cấu với đại số quaternion kiểu $(\alpha ,0, \gamma )$. Khi $p= 2$, tồn tại một phần tử $i$ của E và một phần tử $\alpha$ của K sao cho $E = K(i)$ và $i^2=i+\alpha$ (V, §11, No. 9, p. 93, Ví dụ 2), do đó A đẳng cấu với đại số quaternion kiểu $(\alpha ,1, \gamma )$.
 

@@ -45,7 +45,7 @@ errata:
     - says: § 6, no. 3, Theorem 3
       read: § 6, no. 3, Theorem 2
       why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma 1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries on page 188. The Corollary 4 this sentence cites with it is the one that puts the product of two cardinals, one of them infinite, at their supremum, which is Corollary 4 of Theorem 2 and is what the sentence is about.
-content_sha256: b10e118edc3d4c8f8b3ba54c4c5c2db278e559b9b62eed130604ab192fa32c31
+content_sha256: b7e3283c08a7f827f94116023cea777542d6c73a0e5503a5708dedd177a32eb9
 ---
 
 ## 3. EQUIPOTENT SETS. CARDINALS
@@ -144,7 +144,7 @@ Given any set $A$, there exists a set whose elements are the cardinals $\operato
 
 *For every family* $(\mathfrak{a}_\iota)_{\iota \in I}$ *of cardinals, there exists a unique cardinal* $\mathfrak{b}$ *such that* $\mathfrak{a}_\iota \leqslant \mathfrak{b}$ *for all* $\iota \in I$ *and such that every cardinal* $\mathfrak{c}$ *for which* $\mathfrak{a}_\iota \leqslant \mathfrak{c}$ *for all* $\iota \in I$ *is* $\geqslant \mathfrak{b}$.
 
-There exists a set E containing all the sets $\mathfrak{a}_\iota$ (e.g., the sum of these sets (Chapter II, § 4, no. 8)), whence $\mathfrak{a}_\iota \leqslant \mathfrak{a} = $ Card (E) for all $\iota \in I$. The set F of cardinals $\leqslant \mathfrak{a}$ is well-ordered and contains all the $\mathfrak{a}_\iota$, and therefore the family $(\mathfrak{a}_\iota)_{\iota \in I}$ has a least upper bound $\mathfrak{b}$ in F. Let $\mathfrak{c}$ be a cardinal $\geqslant \mathfrak{a}_\iota$ for all $\iota \in I$; if $\mathfrak{c} < \mathfrak{b} \leqslant \mathfrak{a}$, then $\mathfrak{c} \in F$, and the inequality $\mathfrak{a}_\iota \leqslant \mathfrak{c}$ contradicts the definition of the least upper bound of the family $(\mathfrak{a}_\iota)$ in the ordered set F; hence the result.
+There exists a set E containing all the sets $\mathfrak{a}_\iota$ (e.g., the sum of these sets (Chapter II, § 4, no. 8)), whence $\mathfrak{a}_\iota \leqslant \mathfrak{a} =$ Card (E) for all $\iota \in I$. The set F of cardinals $\leqslant \mathfrak{a}$ is well-ordered and contains all the $\mathfrak{a}_\iota$, and therefore the family $(\mathfrak{a}_\iota)_{\iota \in I}$ has a least upper bound $\mathfrak{b}$ in F. Let $\mathfrak{c}$ be a cardinal $\geqslant \mathfrak{a}_\iota$ for all $\iota \in I$; if $\mathfrak{c} < \mathfrak{b} \leqslant \mathfrak{a}$, then $\mathfrak{c} \in F$, and the inequality $\mathfrak{a}_\iota \leqslant \mathfrak{c}$ contradicts the definition of the least upper bound of the family $(\mathfrak{a}_\iota)$ in the ordered set F; hence the result.
 
 ¶ By abuse of language, the cardinal $\mathfrak{b}$ is called the *least upper bound* of the family $(\mathfrak{a}_\iota)_{\iota \in I}$ and is denoted by $\sup_{\iota \in I} \mathfrak{a}_\iota$.
 

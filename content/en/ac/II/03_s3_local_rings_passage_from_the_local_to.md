@@ -33,7 +33,7 @@ subsections:
       pdf_page: 112
 statements: 39
 exercises: 14
-content_sha256: 16e229d6656239643fb80e67b25b80392645fa1511f29c52d0b0dac7b4ee2ff1
+content_sha256: a9279b786d50d666ed44c3ee0afa7c202061c13f36c99444369426982cf9c778
 ---
 
 ## 3. LOCAL RINGS. PASSAGE FROM THE LOCAL TO THE GLOBAL
@@ -42,83 +42,83 @@ content_sha256: 16e229d6656239643fb80e67b25b80392645fa1511f29c52d0b0dac7b4ee2ff1
 
 #### Proposition 1 {#ac-ii-s3-prop-1 .statement}
 
-Let $ \mathbf{A} $ be a ring and $ I $ the set of non-invertible elements of $ \mathbf{A} $. The set $ I $ is the union of the ideals of $ \mathbf{A} $ which are distinct from $ \mathbf{A} $. Moreover, the following conditions are equivalent:
-(a) $ I $ is an ideal.
-(b) The set of ideals of $ \mathbf{A} $ distinct from $ \mathbf{A} $ has a greatest element.
-(c) $ \mathbf{A} $ has a unique maximal ideal.
+Let $\mathbf{A}$ be a ring and $I$ the set of non-invertible elements of $\mathbf{A}$. The set $I$ is the union of the ideals of $\mathbf{A}$ which are distinct from $\mathbf{A}$. Moreover, the following conditions are equivalent:
+(a) $I$ is an ideal.
+(b) The set of ideals of $\mathbf{A}$ distinct from $\mathbf{A}$ has a greatest element.
+(c) $\mathbf{A}$ has a unique maximal ideal.
 
-The relation $ x \in I $ is equivalent to $ 1 \notin xA $ and hence $ xA \neq \mathbf{A} $. If $ a $ is an ideal of $ \mathbf{A} $ distinct from $ \mathbf{A} $ and $ x \in a $, then $ xA \subset a $, hence $ xA \neq \mathbf{A} $ and $ x \in I $. Hence every ideal of $ \mathbf{A} $ distinct from $ \mathbf{A} $ is contained in $ I $ and every element $ x \in I $ belongs to a principal ideal $ xA \neq \mathbf{A} $. This proves the first assertion, which immediately implies the equivalence of (a), (b) and (c).
+The relation $x \in I$ is equivalent to $1 \notin xA$ and hence $xA \neq \mathbf{A}$. If $a$ is an ideal of $\mathbf{A}$ distinct from $\mathbf{A}$ and $x \in a$, then $xA \subset a$, hence $xA \neq \mathbf{A}$ and $x \in I$. Hence every ideal of $\mathbf{A}$ distinct from $\mathbf{A}$ is contained in $I$ and every element $x \in I$ belongs to a principal ideal $xA \neq \mathbf{A}$. This proves the first assertion, which immediately implies the equivalence of (a), (b) and (c).
 
-Remark (1). Note that, if (c) holds, $ I $ is the Jacobson radical of the ring $ \mathbf{A} $ (Algebra, Chapter VIII, §6, no. 3, Definition 3).
+Remark (1). Note that, if (c) holds, $I$ is the Jacobson radical of the ring $\mathbf{A}$ (Algebra, Chapter VIII, §6, no. 3, Definition 3).
 
 #### Definition 1 {#ac-ii-s3-def-1 .statement}
 
-A ring $ \mathbf{A} $ is called a local ring if it satisfies the equivalent conditions (a), (b) and (c) of Proposition 1. The quotient of $ \mathbf{A} $ by its Jacobson radical (which is then the unique maximal ideal of $ \mathbf{A} $) is called the residue field of $ \mathbf{A} $.
+A ring $\mathbf{A}$ is called a local ring if it satisfies the equivalent conditions (a), (b) and (c) of Proposition 1. The quotient of $\mathbf{A}$ by its Jacobson radical (which is then the unique maximal ideal of $\mathbf{A}$) is called the residue field of $\mathbf{A}$.
 
 #### Definition 2 {#ac-ii-s3-def-2 .statement}
 
-Let $ \mathbf{A}, \mathbf{B} $ be two local rings and $ m, n $ their respective maximal ideals. A homomorphism $ u : \mathbf{A} \to \mathbf{B} $ is called local if $ u(m) \subset n $.
+Let $\mathbf{A}, \mathbf{B}$ be two local rings and $m, n$ their respective maximal ideals. A homomorphism $u : \mathbf{A} \to \mathbf{B}$ is called local if $u(m) \subset n$.
 
-This amounts to saying that $ \bar{u}^{-1}(n) = m $, for $ \bar{u}^{-1}(n) $ is then an ideal containing $ m $ and not containing 1 and hence equal to $ m $. Taking quotients, we then derive canonically from $ u $ an injective homomorphism $ \mathbf{A}/m \to \mathbf{B}/n $ from the residue field of $ \mathbf{A} $ to that of $ \mathbf{B} $.
+This amounts to saying that $\bar{u}^{-1}(n) = m$, for $\bar{u}^{-1}(n)$ is then an ideal containing $m$ and not containing 1 and hence equal to $m$. Taking quotients, we then derive canonically from $u$ an injective homomorphism $\mathbf{A}/m \to \mathbf{B}/n$ from the residue field of $\mathbf{A}$ to that of $\mathbf{B}$.
 
 Examples
 (1) A field is a local ring. A ring which is reduced to 0 is not a local ring.
-(2) Let $ \mathbf{A} $ be a local ring and $ k $ its residue field. The ring of formal power series $ B = \mathbf{A}[[X_1, \ldots, X_n]] $ is a local ring, for the non-invertible elements of $ B $ are the formal power series whose constant terms are not invertible in $ \mathbf{A} $ (Algebra, Chapter IV, §5, no. 6, Proposition 4). The canonical injection of $ \mathbf{A} $ into $ B $ is a local homomorphism and the corresponding injection of residue fields is an isomorphism.
-(3) Let $ b $ be an ideal of a ring $ \mathbf{A} $ which is only contained in a single maximal ideal $ m $; then $ A/b $ is a *local ring* with maximal ideal $ m/b $ and residue field canonically isomorphic to $ A/m $. This applies in particular to the case $ b = m^k $, $ m $ being any maximal ideal of $ A $ ($ \S 1 $, no. 1, Corollary to Proposition 1). If $ A $ itself is a local ring with maximal ideal $ m $, then for every ideal $ b \neq A $ of $ A $, $ A/b $ is a local ring, the canonical homomorphism $ A \to A/b $ a local homomorphism and the corresponding homomorphism of residue fields an *isomorphism*.
+(2) Let $\mathbf{A}$ be a local ring and $k$ its residue field. The ring of formal power series $B = \mathbf{A}[[X_1, \ldots, X_n]]$ is a local ring, for the non-invertible elements of $B$ are the formal power series whose constant terms are not invertible in $\mathbf{A}$ (Algebra, Chapter IV, §5, no. 6, Proposition 4). The canonical injection of $\mathbf{A}$ into $B$ is a local homomorphism and the corresponding injection of residue fields is an isomorphism.
+(3) Let $b$ be an ideal of a ring $\mathbf{A}$ which is only contained in a single maximal ideal $m$; then $A/b$ is a *local ring* with maximal ideal $m/b$ and residue field canonically isomorphic to $A/m$. This applies in particular to the case $b = m^k$, $m$ being any maximal ideal of $A$ ($\S 1$, no. 1, Corollary to Proposition 1). If $A$ itself is a local ring with maximal ideal $m$, then for every ideal $b \neq A$ of $A$, $A/b$ is a local ring, the canonical homomorphism $A \to A/b$ a local homomorphism and the corresponding homomorphism of residue fields an *isomorphism*.
 
-(4) Let $ X $ be a topological space, $ x_0 $ a point of $ X $ and $ A $ the ring of germs at the point $ x_0 $ of real-valued functions continuous in a neighbourhood of $ x_0 $ (*General Topology*, Chapter I, \$6, no. 10). Clearly, for the germ at $ x_0 $ of a continuous function $ f $ to be invertible in $ A $, it is necessary and sufficient that $ f(x_0) \neq 0 $, as that implies that $ f(x) \neq 0 $ in a neighbourhood of $ x_0 $. The ring $ A $ is therefore a local ring whose maximal ideal $ m $ is the set of germs of functions which are zero *at* $ x_0 $; taking quotients, the mapping $ g \mapsto g(x_0) $ of $ A $ to $ \mathbf{R} $ gives an *isomorphism* of the residue field $ A/m $ onto $ \mathbf{R} $.
+(4) Let $X$ be a topological space, $x_0$ a point of $X$ and $A$ the ring of germs at the point $x_0$ of real-valued functions continuous in a neighbourhood of $x_0$ (*General Topology*, Chapter I, \$6, no. 10). Clearly, for the germ at $x_0$ of a continuous function $f$ to be invertible in $A$, it is necessary and sufficient that $f(x_0) \neq 0$, as that implies that $f(x) \neq 0$ in a neighbourhood of $x_0$. The ring $A$ is therefore a local ring whose maximal ideal $m$ is the set of germs of functions which are zero *at* $x_0$; taking quotients, the mapping $g \mapsto g(x_0)$ of $A$ to $\mathbf{R}$ gives an *isomorphism* of the residue field $A/m$ onto $\mathbf{R}$.
 
 #### Proposition 2 {#ac-ii-s3-prop-2 .statement}
 
-*Let $ A $ be a ring and $ p $ a prime ideal of $ A $. The ring $ A $, is local; its maximal ideal is the ideal $ pA_p = p_v $, generated by the canonical image of $ p $ in $ A $; its residue field is canonically isomorphic to the field of fractions of $ A/p $.*
+*Let $A$ be a ring and $p$ a prime ideal of $A$. The ring $A$, is local; its maximal ideal is the ideal $pA_p = p_v$, generated by the canonical image of $p$ in $A$; its residue field is canonically isomorphic to the field of fractions of $A/p$.*
 
-Let $ S = A - p $ and $ j : A \to A_v $, be the canonical homomorphism; the hypothesis that $ p $ is prime implies that $ p $ is saturated with respect to $ S $, hence $ j^{-1}(pA_p) = p $ ($ \S 2 $, no. 4, Proposition 10) and, as the ideals of $ A $ not meeting $ S $ are those contained in $ p $, the first two assertions are special cases of $ \S 2 $, no. 5, Proposition 11 (ii). Moreover, iff is the canonical homomorphism $ A \to A/p $, $ f(S) $ is the set of elements $ \neq 0 $ of the integral domain $ A/p $ and hence the last assertion is a special case of $ \S 2 $, no. 5, Proposition 11 (i).
+Let $S = A - p$ and $j : A \to A_v$, be the canonical homomorphism; the hypothesis that $p$ is prime implies that $p$ is saturated with respect to $S$, hence $j^{-1}(pA_p) = p$ ($\S 2$, no. 4, Proposition 10) and, as the ideals of $A$ not meeting $S$ are those contained in $p$, the first two assertions are special cases of $\S 2$, no. 5, Proposition 11 (ii). Moreover, iff is the canonical homomorphism $A \to A/p$, $f(S)$ is the set of elements $\neq 0$ of the integral domain $A/p$ and hence the last assertion is a special case of $\S 2$, no. 5, Proposition 11 (i).
 
 #### Definition 3 {#ac-ii-s3-def-3 .statement}
 
-*Let $ A $ be a ring and $ p $ a prime ideal of $ A $. The ring $ A $, is called the local ring of $ A $ at $ p $, or the local ring of $ p $, when there is no ambiguity.*
+*Let $A$ be a ring and $p$ a prime ideal of $A$. The ring $A$, is called the local ring of $A$ at $p$, or the local ring of $p$, when there is no ambiguity.*
 
-*Remark (2).* If $ A $ is a local ring and $ m $ its maximal ideal, the elements of $ A - m $ are invertible (Proposition 1) and hence $ A_{m'} $ is canonically identified with $ A $ ($ \S 2 $, no. 1, Remark 5).
+*Remark (2).* If $A$ is a local ring and $m$ its maximal ideal, the elements of $A - m$ are invertible (Proposition 1) and hence $A_{m'}$ is canonically identified with $A$ ($\S 2$, no. 1, Remark 5).
 
 Examples
-(5) Let $ p $ be a prime number. The local ring $ \mathbf{Z}_{(p)} $ is the set of rational numbers $ a/b $, where $ a, b $ are rational integers with $ b $ prime top; the residue field of $ \mathbf{Z}_{(p)} $ is isomorphic to the prime field $ \mathbf{F}_p = \mathbf{Z}/(p) $.
+(5) Let $p$ be a prime number. The local ring $\mathbf{Z}_{(p)}$ is the set of rational numbers $a/b$, where $a, b$ are rational integers with $b$ prime top; the residue field of $\mathbf{Z}_{(p)}$ is isomorphic to the prime field $\mathbf{F}_p = \mathbf{Z}/(p)$.
 
-(6) Let $ V $ be an affine algebraic variety, $ A $ the ring of regular functions on $ V $, $ W $ an irreducible subvariety of $ V $ and $ p $ the (necessarily prime) ideal of $ A $ consisting of the functions which are zero at every point of $ W $. The ring $ A $, is called the local ring of $ W $ on $ V $. \*
+(6) Let $V$ be an affine algebraic variety, $A$ the ring of regular functions on $V$, $W$ an irreducible subvariety of $V$ and $p$ the (necessarily prime) ideal of $A$ consisting of the functions which are zero at every point of $W$. The ring $A$, is called the local ring of $W$ on $V$. \*
 
 #### Proposition 3 {#ac-ii-s3-prop-3 .statement}
 
-Let $ A $ be a ring, $ p $ a prime ideal of $ A $ and $ S = A - p $. For every ideal $ b' $ of $ A_p $ distinct from $ A_p $, let $ b $ be the ideal $ (i_A^S)^{-1}(b') $ of $ A $ so that $ b' = bA_p $.
+Let $A$ be a ring, $p$ a prime ideal of $A$ and $S = A - p$. For every ideal $b'$ of $A_p$ distinct from $A_p$, let $b$ be the ideal $(i_A^S)^{-1}(b')$ of $A$ so that $b' = bA_p$.
 
-(i) Let $ f $ be the canonical homomorphism $ A \to A/b $. The homomorphism from $ A $, to $ (A/b)_{p/b} $ canonically associated with $ f $ ($ \S 2 $, no. 1, Proposition 2) is surjective and its kernel is $ b' $, which defines, by taking quotients, a canonical isomorphism of $ A_p/b' $ onto $ (A/b)_{p/b} $.
+(i) Let $f$ be the canonical homomorphism $A \to A/b$. The homomorphism from $A$, to $(A/b)_{p/b}$ canonically associated with $f$ ($\S 2$, no. 1, Proposition 2) is surjective and its kernel is $b'$, which defines, by taking quotients, a canonical isomorphism of $A_p/b'$ onto $(A/b)_{p/b}$.
 
-(ii) The mapping $ b' \to b = (i_A^S)^{-1}(b') $, restricted to the set of prime ideals of $ A_p $, is an isomorphism (with respect to inclusion) of this set onto the set of prime ideals of $ A $ contained in $ p $. If $ b' $ is prime in $ A_p $, there exists an isomorphism of the ring $ A_b $ onto the ring $ (A_p)_{b'} $, which maps $ a/s $ to $ (a/1)/(s/1) $ for all $ a \in A, s \in A - b $.
+(ii) The mapping $b' \to b = (i_A^S)^{-1}(b')$, restricted to the set of prime ideals of $A_p$, is an isomorphism (with respect to inclusion) of this set onto the set of prime ideals of $A$ contained in $p$. If $b'$ is prime in $A_p$, there exists an isomorphism of the ring $A_b$ onto the ring $(A_p)_{b'}$, which maps $a/s$ to $(a/1)/(s/1)$ for all $a \in A, s \in A - b$.
 
-This is just a particular case of $ \S 2 $, no. 5, Proposition 11.
+This is just a particular case of $\S 2$, no. 5, Proposition 11.
 
 Remarks
-(3) If $ a $ is an ideal of $ A $ not contained in $ p $, then $ aA_p = A $, and $ (A/a)_p = 0 $ ($ \S 2 $, no. 5, Remark).
-(4) Let $ A, B $ be two rings, $ \rho : A \to B $ a homomorphism, $ q $ a prime ideal of $ B $ and $ p $ the prime ideal $ \rho^{-1}(q) $ of $ A $. As $ \rho(A - p) \subset B - q $, a canonical homomorphism $ \rho_q : A \to B_q $ is derived from $ \rho $ ($ \S 2 $, no. 1, Proposition 2) and it is immediate that $ \rho_q(pA_p) \subset qB_q $, hence $ \rho $ is a local homomorphism.
+(3) If $a$ is an ideal of $A$ not contained in $p$, then $aA_p = A$, and $(A/a)_p = 0$ ($\S 2$, no. 5, Remark).
+(4) Let $A, B$ be two rings, $\rho : A \to B$ a homomorphism, $q$ a prime ideal of $B$ and $p$ the prime ideal $\rho^{-1}(q)$ of $A$. As $\rho(A - p) \subset B - q$, a canonical homomorphism $\rho_q : A \to B_q$ is derived from $\rho$ ($\S 2$, no. 1, Proposition 2) and it is immediate that $\rho_q(pA_p) \subset qB_q$, hence $\rho$ is a local homomorphism.
 
 ### 2. MODULES OVER A LOCAL RING
 
 #### Proposition 4 {#ac-ii-s3-prop-4 .statement}
 
-Let $ A $ be a ring which is not necessarily commutative, $ m $ a right ideal of $ A $ contained in the Jacobson radical of $ A $ and $ M $ a left $ A $-module. Suppose that one of the following conditions holds :
-(i) $ M $ is finitely generated;
-(ii) $ m $ is nilpotent.
-Then the relation $ (A_d/m) \otimes_A M = 0 $ implies $ M = 0 $.
+Let $A$ be a ring which is not necessarily commutative, $m$ a right ideal of $A$ contained in the Jacobson radical of $A$ and $M$ a left $A$-module. Suppose that one of the following conditions holds :
+(i) $M$ is finitely generated;
+(ii) $m$ is nilpotent.
+Then the relation $(A_d/m) \otimes_A M = 0$ implies $M = 0$.
 
-The assertion with respect to hypothesis (i) is precisely Corollary 3 to Proposition 6 of Algebra, Chapter VIII, $ \S 6 $, no. 3. On the other hand, the relation $ (A_d/m) \otimes_A M = 0 $ is equivalent to $ M = mM $ and hence implies $ M = m^nM $ for every integer $ n > 0 $; whence the assertion with respect to hypothesis (ii).
+The assertion with respect to hypothesis (i) is precisely Corollary 3 to Proposition 6 of Algebra, Chapter VIII, $\S 6$, no. 3. On the other hand, the relation $(A_d/m) \otimes_A M = 0$ is equivalent to $M = mM$ and hence implies $M = m^nM$ for every integer $n > 0$; whence the assertion with respect to hypothesis (ii).
 
 #### Corollary 1 {#ac-ii-s3-prop-4-cor-1 .statement}
 
-Let $ A $ be a ring which is not necessarily commutative, $ m $ a right ideal of $ A $ contained in the Jacobson radical of $ A $, $ M $ and $ N $ two left $ A $-modules and $ u : M \to N $ an $ A $-linear mapping. If $ N $ is finitely generated or $ m $ is nilpotent and
+Let $A$ be a ring which is not necessarily commutative, $m$ a right ideal of $A$ contained in the Jacobson radical of $A$, $M$ and $N$ two left $A$-modules and $u : M \to N$ an $A$-linear mapping. If $N$ is finitely generated or $m$ is nilpotent and
 $$
 1 \otimes u : (A_d/m) \otimes_A M \to (A_d/m) \otimes_A N
 $$
-is surjective, then $ u $ is surjective.
+is surjective, then $u$ is surjective.
 
-$ (A_d/m) \otimes_A (N/u(M)) $ is canonically isomorphic to
+$(A_d/m) \otimes_A (N/u(M))$ is canonically isomorphic to
 $$
 ((A_d/m) \otimes_A N)/\operatorname{Im}(1 \otimes u)
 $$
@@ -237,69 +237,69 @@ $$
 \phi_i : L \to (A/p_i) \otimes L
 $$
 
-(resp. $\psi_i : M \to (A/p_i) \otimes M$) being the canonical mapping, and $v'$ is the product of the $1_{A/p_i} @ v_e$. Then $(A/p)/(m/p_i) \otimes_{A/p_i} ((A/p_i) \otimes_A M) = (A/m) \otimes_A M$ and, as $A/p_i$ is a local integral domain, it follows from the first part of the argument that each of the $1_{A/p_i} \otimes v$ is an isomorphism; then so is $v'$. On the other hand, as $ A $ is reduced, $ \bigcap_i p_i = (0) $ ($ \S 2 $, no. 6, Proposition 13), whence $ \bigcap_i (p_i L) = 0 $ since $ L $ is free (*Algebra*, Chapter II, $ \S 3 $, no. 7, *Remark*); as $ p_i L $ is the kernel of $ \phi_i $, this shows that $ u $ is injective. It follows that $ v' \circ u = u' \circ v $ is injective, hence $ v $ is injective and, as $ v $ is surjective by definition, this shows that $ M $ is free.
+(resp. $\psi_i : M \to (A/p_i) \otimes M$) being the canonical mapping, and $v'$ is the product of the $1_{A/p_i} @ v_e$. Then $(A/p)/(m/p_i) \otimes_{A/p_i} ((A/p_i) \otimes_A M) = (A/m) \otimes_A M$ and, as $A/p_i$ is a local integral domain, it follows from the first part of the argument that each of the $1_{A/p_i} \otimes v$ is an isomorphism; then so is $v'$. On the other hand, as $A$ is reduced, $\bigcap_i p_i = (0)$ ($\S 2$, no. 6, Proposition 13), whence $\bigcap_i (p_i L) = 0$ since $L$ is free (*Algebra*, Chapter II, $\S 3$, no. 7, *Remark*); as $p_i L$ is the kernel of $\phi_i$, this shows that $u$ is injective. It follows that $v' \circ u = u' \circ v$ is injective, hence $v$ is injective and, as $v$ is surjective by definition, this shows that $M$ is free.
 
 ### 3. PASSAGE FROM THE LOCAL TO THE GLOBAL
 
 #### Proposition 8 {#ac-ii-s3-prop-8 .statement}
 
-*Let $ A $ be a ring, $ m $ a maximal ideal of $ A $ and $ M $ an $ A $-module. If there exists an ideal $ a $ of $ A $ such that $ m $ is the only maximal ideal of $ A $ containing $ a $ and $ aM = 0 $, then the canonical homomorphism $ M \to M $, is bijective.*
+*Let $A$ be a ring, $m$ a maximal ideal of $A$ and $M$ an $A$-module. If there exists an ideal $a$ of $A$ such that $m$ is the only maximal ideal of $A$ containing $a$ and $aM = 0$, then the canonical homomorphism $M \to M$, is bijective.*
 
-$ A/a $ is then a local ring with maximal ideal $ m/a $; $ M $ can be considered as an $ (A/a) $-module; for all $ s \in A - m $ the canonical image of $ s $ in $ A/a $ is invertible, hence the homothety $ x \mapsto sx $ of $ M $ is bijective from the definition of $ M $, as the solution of a universal problem ($ \S 2 $, no. 2); whence the proposition.
+$A/a$ is then a local ring with maximal ideal $m/a$; $M$ can be considered as an $(A/a)$-module; for all $s \in A - m$ the canonical image of $s$ in $A/a$ is invertible, hence the homothety $x \mapsto sx$ of $M$ is bijective from the definition of $M$, as the solution of a universal problem ($\S 2$, no. 2); whence the proposition.
 
-In particular, if there exists $ k \geqslant 0 $ such that $ m^k M = 0 $, the homomorphism $ M \to M_m $ is bijective ($ \S 1 $, no. 1, Corollary to Proposition 1).
+In particular, if there exists $k \geqslant 0$ such that $m^k M = 0$, the homomorphism $M \to M_m$ is bijective ($\S 1$, no. 1, Corollary to Proposition 1).
 
 #### Proposition 9 {#ac-ii-s3-prop-9 .statement}
 
-*Let $ A $ be a ring, $ m $ a maximal ideal of $ A $, $ M $ an $ A $-module and $ k $ an integer $ \geqslant 0 $. The canonical homomorphism $ M \to M_m/m^k M_m $ is surjective, has kernel $ m^k M $ and defines an isomorphism of $ M/m^k M $ onto $ M_m/m^k M_m $.*
+*Let $A$ be a ring, $m$ a maximal ideal of $A$, $M$ an $A$-module and $k$ an integer $\geqslant 0$. The canonical homomorphism $M \to M_m/m^k M_m$ is surjective, has kernel $m^k M$ and defines an isomorphism of $M/m^k M$ onto $M_m/m^k M_m$.*
 
-Since the case $ k = 0 $ is trivial, suppose that $ k \geqslant 1 $. It follows from Proposition 8 that the canonical homomorphism $ M/m^k M \to (M/m^k M)_m $ is bijective. On the other hand $ (M/m^k M)_m $ is canonically identified with $ M_m/(m^k M)_m $ (\$2, no. 4, Theorem 1) and hence $ (m^k M)_m = m^k M_m $ (\$2, no. 7, Corollary to Proposition 18), whence there is an isomorphism of $ M/m^k M $ onto $ M_m/m^k M_m $ which maps the class of an element $ x \in M $ to the class of $ x/1 $.
+Since the case $k = 0$ is trivial, suppose that $k \geqslant 1$. It follows from Proposition 8 that the canonical homomorphism $M/m^k M \to (M/m^k M)_m$ is bijective. On the other hand $(M/m^k M)_m$ is canonically identified with $M_m/(m^k M)_m$ (\$2, no. 4, Theorem 1) and hence $(m^k M)_m = m^k M_m$ (\$2, no. 7, Corollary to Proposition 18), whence there is an isomorphism of $M/m^k M$ onto $M_m/m^k M_m$ which maps the class of an element $x \in M$ to the class of $x/1$.
 
 #### Corollary {#ac-ii-s3-n3-cor-1 .statement}
 
-*Let $ A $ be a ring, $ m_1, m_2, \ldots, m_n $ distinct maximal ideals of $ A $, $ M $ an $ A $-module and $ k_1, k_2, \ldots, k_n $ integers $ \geqslant 0 $. The canonical homomorphism from $ M $ to $ \prod^n M_m/m_{i_1}^{k_1} M_m $ is surjective and its kernel is $ \left( \bigcap^n m_{i_1}^{k_1} \right) M $.*
+*Let $A$ be a ring, $m_1, m_2, \ldots, m_n$ distinct maximal ideals of $A$, $M$ an $A$-module and $k_1, k_2, \ldots, k_n$ integers $\geqslant 0$. The canonical homomorphism from $M$ to $\prod^n M_m/m_{i_1}^{k_1} M_m$ is surjective and its kernel is $\left( \bigcap^n m_{i_1}^{k_1} \right) M$.*
 
-This follows easily from Proposition 9 and $ \S 1 $, no. 2, Proposition 6, the $ m_{i_1}^{k_1} $ being relatively prime in pairs ($ \S 1 $, no. 2, Proposition 3).
+This follows easily from Proposition 9 and $\S 1$, no. 2, Proposition 6, the $m_{i_1}^{k_1}$ being relatively prime in pairs ($\S 1$, no. 2, Proposition 3).
 
-*In the rest of this no. $ A $ will denote a ring and $ \Omega(A) $ (or $ \Omega $) the set of maximal ideals of $ A $.*
+*In the rest of this no. $A$ will denote a ring and $\Omega(A)$ (or $\Omega$) the set of maximal ideals of $A$.*
 
 #### Proposition 10 {#ac-ii-s3-prop-10 .statement}
 
-*The A-module* $ \bigoplus_{m \in \Omega} \mathbf{A}_m $, *the direct sum of the* $ \mathbf{A}_m $ *where* $ m \in \Omega $, *is faithfully flat*.
+*The A-module* $\bigoplus_{m \in \Omega} \mathbf{A}_m$, *the direct sum of the* $\mathbf{A}_m$ *where* $m \in \Omega$, *is faithfully flat*.
 
-Each of the $ \mathbf{A}_m $ is a flat A-module (\$2, no. 4, Theorem 1), hence $ E = \bigoplus_{m \in \Omega} \mathbf{A}_m $ is flat (Chapter I, § 2, no. 3, Proposition 2). Moreover, for every maximal ideal $ m $ of $ A $, $ mA_m $ is the unique maximal ideal of $ \mathbf{A}_m $, hence $ mA_m \neq A_m $, whence it follows that $ mE \neq E $ and consequently $ E $ is faithfully flat (Chapter I, § 3, no. 1, Proposition 1 (d)).
+Each of the $\mathbf{A}_m$ is a flat A-module (\$2, no. 4, Theorem 1), hence $E = \bigoplus_{m \in \Omega} \mathbf{A}_m$ is flat (Chapter I, § 2, no. 3, Proposition 2). Moreover, for every maximal ideal $m$ of $A$, $mA_m$ is the unique maximal ideal of $\mathbf{A}_m$, hence $mA_m \neq A_m$, whence it follows that $mE \neq E$ and consequently $E$ is faithfully flat (Chapter I, § 3, no. 1, Proposition 1 (d)).
 
 #### Theorem 1 {#ac-ii-s3-thm-1 .statement}
 
-*Let* $ M, N $ *be two A-modules, $ u : M \to N $ an A-homomorphism and, for all* $ m \in \Omega $, *let* $ u_m : M, \to N_m $ *be the corresponding* $ A_m $-*homomorphism* (\$2, no. 2, Remark 5). *For* $ u $ *to be injective (resp. surjective, bijective, zero), it is necessary and sufficient that, for all* $ m \in \Omega $, $ u_m $ *be injective (resp. surjective, bijective, zero)*.
+*Let* $M, N$ *be two A-modules, $u : M \to N$ an A-homomorphism and, for all* $m \in \Omega$, *let* $u_m : M, \to N_m$ *be the corresponding* $A_m$-*homomorphism* (\$2, no. 2, Remark 5). *For* $u$ *to be injective (resp. surjective, bijective, zero), it is necessary and sufficient that, for all* $m \in \Omega$, $u_m$ *be injective (resp. surjective, bijective, zero)*.
 
-To say that, for all $ m \in \Omega $, $ u_m $ is injective (resp. surjective, bijective, zero) is equivalent to saying that the homomorphism $ \bigoplus_m u_m : \bigoplus M, \to \bigoplus N $, has the same property. But $ \bigoplus_m M_m = M \otimes_A E, \bigoplus_m N_m = N \otimes_A E $ and $ \bigoplus_m u_m = u \otimes 1 $, where $ E = \bigoplus_m \mathbf{A}_m $; as $ E $ is faithfully flat (Proposition 10), the theorem follows from Chapter I, § 3, no. 1, Proposition 1 (c) and Proposition 2.
+To say that, for all $m \in \Omega$, $u_m$ is injective (resp. surjective, bijective, zero) is equivalent to saying that the homomorphism $\bigoplus_m u_m : \bigoplus M, \to \bigoplus N$, has the same property. But $\bigoplus_m M_m = M \otimes_A E, \bigoplus_m N_m = N \otimes_A E$ and $\bigoplus_m u_m = u \otimes 1$, where $E = \bigoplus_m \mathbf{A}_m$; as $E$ is faithfully flat (Proposition 10), the theorem follows from Chapter I, § 3, no. 1, Proposition 1 (c) and Proposition 2.
 
 #### Corollary 1 {#ac-ii-s3-thm-1-cor-1 .statement}
 
-*Let* $ M $ *be an A-module, N a submodule of* $ M $ *and* $ x $ *an element of* $ M $. *For* $ x \in N $, *it is necessary and sufficient that, for all* $ m \in R $, *the canonical image of* $ x $ *in* $ M $, *belong to* $ N $.
+*Let* $M$ *be an A-module, N a submodule of* $M$ *and* $x$ *an element of* $M$. *For* $x \in N$, *it is necessary and sufficient that, for all* $m \in R$, *the canonical image of* $x$ *in* $M$, *belong to* $N$.
 
-Let $ \bar{x} $ be the class of $ x $ in $ M/N $; to say that $ x \in N $ means that the A-linear mapping $ u : a \mapsto a\bar{x} $ from $ A $ to $ M/N $ is zero. Now, $ (M/N)_m $ is identified with $ M_m/N_m $ (\$2, no. 4, Theorem 1) and $ u_m : A_m \to M_m/N_m $ with the mapping $ A \mapsto \lambda \bar{x}_m $, where $ \bar{x}_m $ is the class mod. $ N $, of the canonical image of $ x $ in $ M $. As the relation $ u = 0 $ is equivalent to $ u_m = 0 $ for all $ m $ by Theorem 1, this proves the corollary.
+Let $\bar{x}$ be the class of $x$ in $M/N$; to say that $x \in N$ means that the A-linear mapping $u : a \mapsto a\bar{x}$ from $A$ to $M/N$ is zero. Now, $(M/N)_m$ is identified with $M_m/N_m$ (\$2, no. 4, Theorem 1) and $u_m : A_m \to M_m/N_m$ with the mapping $A \mapsto \lambda \bar{x}_m$, where $\bar{x}_m$ is the class mod. $N$, of the canonical image of $x$ in $M$. As the relation $u = 0$ is equivalent to $u_m = 0$ for all $m$ by Theorem 1, this proves the corollary.
 
 #### Corollary 2 {#ac-ii-s3-thm-1-cor-2 .statement}
 
-*Let* $ M $ *be an A-module and, for all* $ m \in \Omega $, *let* $ f_m $ *be the canonical mapping* $ M \to M_m $. *The homomorphism* $ x \mapsto (f_m(x)) $ *of* $ M $ *to* $ \prod_{m \in \Omega} M_m $ *is injective*.
+*Let* $M$ *be an A-module and, for all* $m \in \Omega$, *let* $f_m$ *be the canonical mapping* $M \to M_m$. *The homomorphism* $x \mapsto (f_m(x))$ *of* $M$ *to* $\prod_{m \in \Omega} M_m$ *is injective*.
 
-Applying Corollary 1 in the case $ N = 0 $, it is seen that the relation $ x = 0 $ is equivalent to $ f_m(x) = 0 $ for all $ m \in \Omega $.
+Applying Corollary 1 in the case $N = 0$, it is seen that the relation $x = 0$ is equivalent to $f_m(x) = 0$ for all $m \in \Omega$.
 
 #### Corollary 3 {#ac-ii-s3-thm-1-cor-3 .statement}
 
-(i) *Let* $ b $ *be an ideal of* $ A $ *and* $ a $ *an element of* $ A $. *For* $ a \in b $, *it is necessary and sufficient that, for all* $ m \in \Omega $, *the canonical image of* $ a $ *in* $ A_m $ *belong to* $ bA_m $.
+(i) *Let* $b$ *be an ideal of* $A$ *and* $a$ *an element of* $A$. *For* $a \in b$, *it is necessary and sufficient that, for all* $m \in \Omega$, *the canonical image of* $a$ *in* $A_m$ *belong to* $bA_m$.
 
-(ii) In particular, let b and c be two elements of A. For c to be a multiple of b, it is necessary and sufficient that, for all $ m \in \Omega $, the canonical image of c in A, be a multiple of that of b.
+(ii) In particular, let b and c be two elements of A. For c to be a multiple of b, it is necessary and sufficient that, for all $m \in \Omega$, the canonical image of c in A, be a multiple of that of b.
 
-As $ bA_m = b_m $ (\S 2, no. 7, Corollary to Proposition 18), (i) is a special case of Corollary 1; (ii) follows from (i) applied to the ideal $ Ab $.
+As $bA_m = b_m$ (\S 2, no. 7, Corollary to Proposition 18), (i) is a special case of Corollary 1; (ii) follows from (i) applied to the ideal $Ab$.
 
 #### Corollary 4 {#ac-ii-s3-thm-1-cor-4 .statement}
 
-Let A be an integral domain, K its field of fractions and M a torsion-free A-module such that M is canonically identified with a sub-A-module of $ K \otimes_A M $. Then, for all $ m \in \Omega $, $ M_m $ is canonically identified with a sub-A-module of $ K \otimes_A M $ and $ M = \bigcap_{m \in \Omega} M_m $.
+Let A be an integral domain, K its field of fractions and M a torsion-free A-module such that M is canonically identified with a sub-A-module of $K \otimes_A M$. Then, for all $m \in \Omega$, $M_m$ is canonically identified with a sub-A-module of $K \otimes_A M$ and $M = \bigcap_{m \in \Omega} M_m$.
 
-As M is identified with a submodule of $ K \otimes_A M $, M, is identified with a sub-\&-module of $ (K \otimes_A M)_m = K_m \otimes_A M $ (\S 2, no. 4, Theorem 1); as $ K_m = K $, we see straightway that $ M_m $ is torsion-free; moreover, the commutativity of the diagram
+As M is identified with a submodule of $K \otimes_A M$, M, is identified with a sub-\&-module of $(K \otimes_A M)_m = K_m \otimes_A M$ (\S 2, no. 4, Theorem 1); as $K_m = K$, we see straightway that $M_m$ is torsion-free; moreover, the commutativity of the diagram
 
 $$
 \begin{array}{ccc}
@@ -309,7 +309,7 @@ M_m & \longrightarrow & (K \otimes_A M)_m
 \end{array}
 $$
 
-proves that the canonical mapping $ M \to M_m $ is injective. The corollary then follows from Corollary 1 applied to the A-module $ K \otimes_A M $ and its submodule M.
+proves that the canonical mapping $M \to M_m$ is injective. The corollary then follows from Corollary 1 applied to the A-module $K \otimes_A M$ and its submodule M.
 
 In particular, for every integral domain A,
 
@@ -320,80 +320,80 @@ $$
 
 #### Corollary 5 {#ac-ii-s3-thm-1-cor-5 .statement}
 
-Let A be a ring. Every system of generators of the A-module $ A^n $ with n elements is a basis of $ A^n $.
+Let A be a ring. Every system of generators of the A-module $A^n$ with n elements is a basis of $A^n$.
 
-Let $ (e_i)_{1 \leq i \leq n} $ be the canonical basis of $ A'' $, $ (x_i)_{1 \leq i \leq n} $ a system of generators of $ A^n $ with n elements and $ u : A^n \to A'' $ the A-linear mapping such that $ u(e_i) = x_i $ for $ 1 \leq i \leq n $. By hypothesis $ u $ is surjective and it is necessary to show that $ u $ is injective. By virtue of Theorem 1 this can immediately be reduced to the case where A is a local ring; if $ m $ is the maximal ideal of A, the elements $ 1 \otimes x_i $ ($ 1 \leq i \leq n $) in $ (A/m)^n $ then form a system of generators of the free $ (A/m) $-module $ (A/m)^n $; as $ A/m $ is a field, this system is a basis of $ (A/m)^n $; as $ A^n $ is a free A-module, we deduce from Proposition 5 that $ (x_i) $ is a basis of $ A^n $.
+Let $(e_i)_{1 \leq i \leq n}$ be the canonical basis of $A''$, $(x_i)_{1 \leq i \leq n}$ a system of generators of $A^n$ with n elements and $u : A^n \to A''$ the A-linear mapping such that $u(e_i) = x_i$ for $1 \leq i \leq n$. By hypothesis $u$ is surjective and it is necessary to show that $u$ is injective. By virtue of Theorem 1 this can immediately be reduced to the case where A is a local ring; if $m$ is the maximal ideal of A, the elements $1 \otimes x_i$ ($1 \leq i \leq n$) in $(A/m)^n$ then form a system of generators of the free $(A/m)$-module $(A/m)^n$; as $A/m$ is a field, this system is a basis of $(A/m)^n$; as $A^n$ is a free A-module, we deduce from Proposition 5 that $(x_i)$ is a basis of $A^n$.
 
 #### Proposition 11 {#ac-ii-s3-prop-11 .statement}
 
-Let M be an A-module, N a finitely generated A-module and $ u : M \to N $ a homomorphism. For u to be surjective, it is necessary and sufficient that, for all $ m \in S_2 $, the homomorphism $ M/mM \to N/mN $ derived from $ u $ by taking quotients be surjective.
+Let M be an A-module, N a finitely generated A-module and $u : M \to N$ a homomorphism. For u to be surjective, it is necessary and sufficient that, for all $m \in S_2$, the homomorphism $M/mM \to N/mN$ derived from $u$ by taking quotients be surjective.
 
-It follows from Theorem 1 that, for $ u $ to be surjective, it is necessary and sufficient that $ u_m : M_m \to N_m $ be surjective for all $ m \in \Omega $. As $ A $ is a local ring and $ N_m $ is a finitely generated $ A_m $-module, this amounts to saying that the homomorphism $ u'_m : M_m/mM_m \to N_m/mN_m $, obtained by taking quotients, is surjective (no. 2, Corollary 1 to Proposition 4); but $ M_m/mM_m $ (resp. $ N_m/mN_m $) is identified with $ M/mM $ (resp. $ N/mN $) (Proposition9), whence the proposition.
+It follows from Theorem 1 that, for $u$ to be surjective, it is necessary and sufficient that $u_m : M_m \to N_m$ be surjective for all $m \in \Omega$. As $A$ is a local ring and $N_m$ is a finitely generated $A_m$-module, this amounts to saying that the homomorphism $u'_m : M_m/mM_m \to N_m/mN_m$, obtained by taking quotients, is surjective (no. 2, Corollary 1 to Proposition 4); but $M_m/mM_m$ (resp. $N_m/mN_m$) is identified with $M/mM$ (resp. $N/mN$) (Proposition9), whence the proposition.
 
 #### Proposition 12 {#ac-ii-s3-prop-12 .statement}
 
-*Let E, F, G be three A-modules and $ v : G \to F $, $ u : E \to F $ homomorphisms. Suppose that E is finitely presented. For there to exist a homomorphism $ w : E \to G $ such that $ u $ factors into $ E \xrightarrow{w} G \xrightarrow{v} F $, it is necessary and sufficient that, for all $ m \in S_2 $, there exist a homomorphism $ w^m : E_m \to G $, such that $ u_m : E_m \to F $, factors into $ E \xrightarrow{w^m} G_m \xrightarrow{v_m} F $,*
+*Let E, F, G be three A-modules and $v : G \to F$, $u : E \to F$ homomorphisms. Suppose that E is finitely presented. For there to exist a homomorphism $w : E \to G$ such that $u$ factors into $E \xrightarrow{w} G \xrightarrow{v} F$, it is necessary and sufficient that, for all $m \in S_2$, there exist a homomorphism $w^m : E_m \to G$, such that $u_m : E_m \to F$, factors into $E \xrightarrow{w^m} G_m \xrightarrow{v_m} F$,*
 
-The existence of $ w $ satisfying the above statement is equivalent to the following property: $ u $ belongs to the image P of the mapping
+The existence of $w$ satisfying the above statement is equivalent to the following property: $u$ belongs to the image P of the mapping
 
 $$
 r = \operatorname{Hom}(1_E, v) : \operatorname{Hom}_A(E, G) \to \operatorname{Hom}_A(E, F).
 $$
 
-Now, $ (\operatorname{Hom}_A(E, F))_m $ (resp. $ (\operatorname{Hom}_A(E, G))_m $) is canonically identified with $ \operatorname{Hom}_{A_m}(E_m, F_m) $ (resp. $ \operatorname{Hom}_{A_m}(E_m, G_m) $) (\S 2, no. 7, Proposition 19 (i)), the canonical image of $ u $ in $ (\operatorname{Hom}_A(E, F))_m $ is identified with $ u_m $, $ r_m $ is identified with $ \operatorname{Hom}_{A_m}(1_{E_m}, v) $ and $ P_m $ with the image of $ r_m $. The proposition then follows from Corollary 1 to Theorem 1 applied to $ \operatorname{Hom}_A(E, F) $ and its submodule P.
+Now, $(\operatorname{Hom}_A(E, F))_m$ (resp. $(\operatorname{Hom}_A(E, G))_m$) is canonically identified with $\operatorname{Hom}_{A_m}(E_m, F_m)$ (resp. $\operatorname{Hom}_{A_m}(E_m, G_m)$) (\S 2, no. 7, Proposition 19 (i)), the canonical image of $u$ in $(\operatorname{Hom}_A(E, F))_m$ is identified with $u_m$, $r_m$ is identified with $\operatorname{Hom}_{A_m}(1_{E_m}, v)$ and $P_m$ with the image of $r_m$. The proposition then follows from Corollary 1 to Theorem 1 applied to $\operatorname{Hom}_A(E, F)$ and its submodule P.
 
 #### Corollary 1 {#ac-ii-s3-prop-12-cor-1 .statement}
 
-*Let M be an A-module and N a submodule of M such that M/N is finitely presented. For N to be a direct factor of M, it is necessary and sufficient that, for all $ m \in S_2 $, N, be a direct factor of M.*
+*Let M be an A-module and N a submodule of M such that M/N is finitely presented. For N to be a direct factor of M, it is necessary and sufficient that, for all $m \in S_2$, N, be a direct factor of M.*
 
-To say that N is a direct factor of M means that the identity homomorphism on M/N factors into $ M/N \xrightarrow{w} M \xrightarrow{\phi} M/N $ where $ \phi $ is the canonical homomorphism and $ w $ a homomorphism (*Algebra*, Chapter II, § 1, no. 9, Proposition 14); as $ (M/N)_m = M_m/N_m $ and $ \phi_m $ is the canonical homomorphism $ M_m \to M_m/N_m $, the corollary follows easily from Proposition 12.
+To say that N is a direct factor of M means that the identity homomorphism on M/N factors into $M/N \xrightarrow{w} M \xrightarrow{\phi} M/N$ where $\phi$ is the canonical homomorphism and $w$ a homomorphism (*Algebra*, Chapter II, § 1, no. 9, Proposition 14); as $(M/N)_m = M_m/N_m$ and $\phi_m$ is the canonical homomorphism $M_m \to M_m/N_m$, the corollary follows easily from Proposition 12.
 
 #### Corollary 2 {#ac-ii-s3-prop-12-cor-2 .statement}
 
-*Let M be a finitely generated free A-module and N a submodule of M which is a finitely generated free A-module. For N to be a direct factor of M, it is necessary and sufficient that, for all $ m \in \Omega $, $ mN = N \cap (mM) $.*
+*Let M be a finitely generated free A-module and N a submodule of M which is a finitely generated free A-module. For N to be a direct factor of M, it is necessary and sufficient that, for all $m \in \Omega$, $mN = N \cap (mM)$.*
 
-By definition M/N is finitely presented; on the other hand, N, and M, are finitely generated free $ A_n $-modules. For $ N $ to be a direct factor of $ M $, it is necessary and sufficient that the canonical mapping $ N_m / mN_m \to M_m / mM_m $ be injective (no. 2, Proposition 6); this is the same as saying that the canonical mapping $ N / mN \to M / mM $ must be injective (Proposition 9), and as its kernel is $ (N \cap mM) / mN $, this proves the corollary.
+By definition M/N is finitely presented; on the other hand, N, and M, are finitely generated free $A_n$-modules. For $N$ to be a direct factor of $M$, it is necessary and sufficient that the canonical mapping $N_m / mN_m \to M_m / mM_m$ be injective (no. 2, Proposition 6); this is the same as saying that the canonical mapping $N / mN \to M / mM$ must be injective (Proposition 9), and as its kernel is $(N \cap mM) / mN$, this proves the corollary.
 
-Proposition 12 (resp. its Corollary 1) will be applied in particular when $ A $ is Noetherian and $ E $ (resp. $ M/N $) a *finitely generated* $ A $-module (Chapter I, § 2, no. 8, Lemma 8).
+Proposition 12 (resp. its Corollary 1) will be applied in particular when $A$ is Noetherian and $E$ (resp. $M/N$) a *finitely generated* $A$-module (Chapter I, § 2, no. 8, Lemma 8).
 
 ### 4. LOCALIZATION OF FLATNESS
 
 #### Proposition 13 {#ac-ii-s3-prop-13 .statement}
 
-*Let $ S $ be a multiplicative subset of a ring $ A $ and $ M $ an $ A $-module. If $ M $ is jflat (resp. faithfully flat), $ S^{-1}M $ is ajflat (resp. faithfully flat) $ S^{-1}A $-module and a flat $ A $-module.*
+*Let $S$ be a multiplicative subset of a ring $A$ and $M$ an $A$-module. If $M$ is jflat (resp. faithfully flat), $S^{-1}M$ is ajflat (resp. faithfully flat) $S^{-1}A$-module and a flat $A$-module.*
 
-As $ S^{-1}M = M \otimes_A S^{-1}A $, the first assertion follows from Chapter I, § 2, no. 7, Corollary 2 to Proposition 8 (resp. Chapter I, § 3, no. 3, Proposition 5); moreover, $ S^{-1}A $ is a flat $ A $-module ($ § 2 $, no. 4, Theorem 1); hence if $ M $ is a flat $ A $-module, so is $ S^{-1}M $ by virtue of Chapter I, § 2, no. 7, Corollary 3 to Proposition 8.
+As $S^{-1}M = M \otimes_A S^{-1}A$, the first assertion follows from Chapter I, § 2, no. 7, Corollary 2 to Proposition 8 (resp. Chapter I, § 3, no. 3, Proposition 5); moreover, $S^{-1}A$ is a flat $A$-module ($§ 2$, no. 4, Theorem 1); hence if $M$ is a flat $A$-module, so is $S^{-1}M$ by virtue of Chapter I, § 2, no. 7, Corollary 3 to Proposition 8.
 
 #### Remark {#ac-ii-s3-n4-rem-1 .statement}
 
-If $ N $ is an $ S^{-1}A $-module, $ S^{-1}N $ is identified with $ N $ and this is consequently *equivalent* to saying that $ N $ is a flat $ S^{-1}A $-module or a flat $ A $-module.
+If $N$ is an $S^{-1}A$-module, $S^{-1}N$ is identified with $N$ and this is consequently *equivalent* to saying that $N$ is a flat $S^{-1}A$-module or a flat $A$-module.
 
 #### Proposition 14 {#ac-ii-s3-prop-14 .statement}
 
-*Let $ A $ be a ring, $ B $ a commutative $ A $-algebra and $ T $ a multiplicative subset of $ B $. If $ N $ is a $ B $-module which is flat as an $ A $-module, $ T^{-1}N $ is a flat $ A $-module.*
+*Let $A$ be a ring, $B$ a commutative $A$-algebra and $T$ a multiplicative subset of $B$. If $N$ is a $B$-module which is flat as an $A$-module, $T^{-1}N$ is a flat $A$-module.*
 
-$ T^{-1}N = T^{-1}B \otimes_B N $; the proposition then follows from Chapter I, § 2, no. 7, Proposition 8, applied with $ A $ replaced by $ B $, $ B $ by $ A $, $ E $ by $ T^{-1}B $ and $ F $ by $ N $.
+$T^{-1}N = T^{-1}B \otimes_B N$; the proposition then follows from Chapter I, § 2, no. 7, Proposition 8, applied with $A$ replaced by $B$, $B$ by $A$, $E$ by $T^{-1}B$ and $F$ by $N$.
 
 #### Proposition 15 {#ac-ii-s3-prop-15 .statement}
 
-*Let $ A, B $ be two rings, $ \phi : A \to B $ a homomorphism and $ N $ a $ B $-module. The following properties are equivalent:
-(a) $ N $ is a flat $ A $-module.
-(b) *For every maximal ideal $ n $ of $ B $, $ N_n $ is a flat $ A $-module.*
-(c) *For every maximal ideal $ n $ of $ B $, if we write $ m = \phi(n) $, $ N_n $ is a flat $ A_m $-module.*
+*Let $A, B$ be two rings, $\phi : A \to B$ a homomorphism and $N$ a $B$-module. The following properties are equivalent:
+(a) $N$ is a flat $A$-module.
+(b) *For every maximal ideal $n$ of $B$, $N_n$ is a flat $A$-module.*
+(c) *For every maximal ideal $n$ of $B$, if we write $m = \phi(n)$, $N_n$ is a flat $A_m$-module.*
 
-For all $ a \notin m $, the homothety of $ N_n $ induced by $ a $ is bijective, hence $ N_n $ is canonically identified with $ (N_n)_m $ and the equivalence of (b) and (c) follows from the
+For all $a \notin m$, the homothety of $N_n$ induced by $a$ is bijective, hence $N_n$ is canonically identified with $(N_n)_m$ and the equivalence of (b) and (c) follows from the
 
-Remark following Proposition 13; the fact that (a) implies (b) is a special case of Proposition 14. It remains to prove that (b) implies (a), that is, that, if (b) holds, for every injective A-module homomorphism $ u : M \to M' $, the homomorphism $ v = 1 @ u : N \otimes_A M \to N @^* M' $ is injective. Now, $ v $ is also a B-module homomorphism and, for it to be injective, it is necessary and sufficient that $ v,, : (N \otimes_A M),, \to (N \otimes_A M'),, $ be so for every maximal ideal $ n $ of $ B $ (no. 3, Theorem 1). As
+Remark following Proposition 13; the fact that (a) implies (b) is a special case of Proposition 14. It remains to prove that (b) implies (a), that is, that, if (b) holds, for every injective A-module homomorphism $u : M \to M'$, the homomorphism $v = 1 @ u : N \otimes_A M \to N @^* M'$ is injective. Now, $v$ is also a B-module homomorphism and, for it to be injective, it is necessary and sufficient that $v,, : (N \otimes_A M),, \to (N \otimes_A M'),,$ be so for every maximal ideal $n$ of $B$ (no. 3, Theorem 1). As
 $$
 (N \otimes_A M)_n = B_n \otimes_B (N @_A M) = N_n \otimes_A M,
 $$
-$ v_n $ is just the homomorphism $ 1 \otimes u : N_n \otimes_A M \to N_n \otimes_A M' $, which is injective since $ N_n $ is a flat A-module by hypothesis.
+$v_n$ is just the homomorphism $1 \otimes u : N_n \otimes_A M \to N_n \otimes_A M'$, which is injective since $N_n$ is a flat A-module by hypothesis.
 
 #### Corollary {#ac-ii-s3-n4-cor-1 .statement}
 
 *For an A-module M to be flat (resp. faithfully flat), it is necessary and sufficient that, for every maximal ideal m of A, M, be a flat (resp. faithfully flat) A_m-module.*
 
-The necessity of the conditions follows from Proposition 13. Conversely, if $ M, $ is a flat $ A_m $-module for every maximal ideal $ m $ of $ A $, $ M $ is a flat A-module by virtue of Proposition 15 applied to the case where $ \phi $ is the identity. Finally, if $ M, $ is a faithfully flat $ A_m $-module for all $ m $, then $ mM_m = mA_mM_m \neq M, $ hence $ mM \neq M $ for all $ m $ (no. 3, Proposition 9), which proves that $ M $ is a faithfully flat A-module (Chapter I, § 3, no. 1, Proposition 1 (d)).
+The necessity of the conditions follows from Proposition 13. Conversely, if $M,$ is a flat $A_m$-module for every maximal ideal $m$ of $A$, $M$ is a flat A-module by virtue of Proposition 15 applied to the case where $\phi$ is the identity. Finally, if $M,$ is a faithfully flat $A_m$-module for all $m$, then $mM_m = mA_mM_m \neq M,$ hence $mM \neq M$ for all $m$ (no. 3, Proposition 9), which proves that $M$ is a faithfully flat A-module (Chapter I, § 3, no. 1, Proposition 1 (d)).
 
 ### 5. SEMI-LOCAL RINGS
 
@@ -403,9 +403,9 @@ The necessity of the conditions follows from Proposition 13. Conversely, if $ M,
 (a) the set of maximal ideals of A is finite;
 (b) the quotient of A by its Jacobson radical is the direct composition of a finite number of fields.*
 
-Suppose that the quotient of A by its Jacobson radical $ \mathfrak{R} $ is a direct composition of a finite number of fields. Then $ A/\mathfrak{R} $ possesses only a finite number of ideals and *a fortiori* only a finite number of maximal ideals. As every maximal ideal contains $ \mathfrak{R} $ (*Algebra*, Chapter VIII, § 6, no. 2, Definition 2), the maximal ideals of A are the inverse images of the maximal ideals of $ A/\mathfrak{R} $ under the canonical homomorphism $ A \to A/\mathfrak{R} $; hence they are finite in number.
+Suppose that the quotient of A by its Jacobson radical $\mathfrak{R}$ is a direct composition of a finite number of fields. Then $A/\mathfrak{R}$ possesses only a finite number of ideals and *a fortiori* only a finite number of maximal ideals. As every maximal ideal contains $\mathfrak{R}$ (*Algebra*, Chapter VIII, § 6, no. 2, Definition 2), the maximal ideals of A are the inverse images of the maximal ideals of $A/\mathfrak{R}$ under the canonical homomorphism $A \to A/\mathfrak{R}$; hence they are finite in number.
 
-Conversely, suppose that A has only a finite number of distinct maximal ideals $ m_1, \ldots, m_n $. The $ A/m_i $ are fields and it follows from § 1, no. 2, Proposition 5 that the canonical mapping $ A \to \prod_{i=1}^n A/m_i $ is surjective; as its kernel $ \bigcap_{i=1}^n m_i $ is the Jacobson radical $ \mathfrak{R} $ (*Algebra*, Chapter VIII, § 6, no. 2, Definition 2), $ A/\mathfrak{R} $ is isomorphic to $ \prod_{i=1}^n A/m_i $.
+Conversely, suppose that A has only a finite number of distinct maximal ideals $m_1, \ldots, m_n$. The $A/m_i$ are fields and it follows from § 1, no. 2, Proposition 5 that the canonical mapping $A \to \prod_{i=1}^n A/m_i$ is surjective; as its kernel $\bigcap_{i=1}^n m_i$ is the Jacobson radical $\mathfrak{R}$ (*Algebra*, Chapter VIII, § 6, no. 2, Definition 2), $A/\mathfrak{R}$ is isomorphic to $\prod_{i=1}^n A/m_i$.
 
 #### Definition 4 {#ac-ii-s3-def-4 .statement}
 
@@ -417,32 +417,32 @@ Every local ring is semi-local. Every quotient of a semi-local ring is semi-loca
 
 If A is a Noetherian semi-local ring and B is an A-algebra which is a finitely generated A-module, then B is semi-local (Chapter IV, § 2, no. 5, Corollary 3 to Proposition 9).
 
-Another example, generalizing the construction of the local rings $ A_{\mathfrak{p}} $, is provided by the following proposition:
+Another example, generalizing the construction of the local rings $A_{\mathfrak{p}}$, is provided by the following proposition:
 
 #### Proposition 17 {#ac-ii-s3-prop-17 .statement}
 
-Let A be a ring and $ \mathfrak{p}_1, \ldots, \mathfrak{p}_n $ prime ideals of A. We write
+Let A be a ring and $\mathfrak{p}_1, \ldots, \mathfrak{p}_n$ prime ideals of A. We write
 $$ S = \bigcap_1^n (A - \mathfrak{p}_i) = A - \bigcup_1^n \mathfrak{p}_i. $$
 
-(a) The ring $ S^{-1}A $ is semi-local; if $ q_1, \ldots, q_r $ are the distinct maximal elements (with respect to inclusion) of the set of $ \mathfrak{p}_i $, the maximal ideals of $ S^{-1}A $ are the $ S^{-1}q_j $ ($ 1 \leq j \leq r $) and these ideals are distinct.
+(a) The ring $S^{-1}A$ is semi-local; if $q_1, \ldots, q_r$ are the distinct maximal elements (with respect to inclusion) of the set of $\mathfrak{p}_i$, the maximal ideals of $S^{-1}A$ are the $S^{-1}q_j$ ($1 \leq j \leq r$) and these ideals are distinct.
 
-(b) The ring $ A_{\mathfrak{p}_i} $ is canonically isomorphic to $ (S^{-1}A)_{S^{-1}\mathfrak{p}_i} $ for $ 1 \leq i \leq n $.
+(b) The ring $A_{\mathfrak{p}_i}$ is canonically isomorphic to $(S^{-1}A)_{S^{-1}\mathfrak{p}_i}$ for $1 \leq i \leq n$.
 
-(c) If A is an integral domain, then $ S^{-1}A = \bigcap_1^n A_{\mathfrak{p}_i} $, in the field of fractions of A.
+(c) If A is an integral domain, then $S^{-1}A = \bigcap_1^n A_{\mathfrak{p}_i}$, in the field of fractions of A.
 
-(a) The ideals of A not meeting S are the ideals contained in the union of the $ \mathfrak{p}_i $ and hence in at least one of the $ \mathfrak{p}_i $ (§ 1, no. 1, Proposition 2); the $ q_j $ are therefore the maximal elements of the set of ideals not meeting S; consequently, the $ S^{-1}q_j $ are the maximal ideals of $ S^{-1}A $ by § 2, no. 5, Proposition 11 (ii).
+(a) The ideals of A not meeting S are the ideals contained in the union of the $\mathfrak{p}_i$ and hence in at least one of the $\mathfrak{p}_i$ (§ 1, no. 1, Proposition 2); the $q_j$ are therefore the maximal elements of the set of ideals not meeting S; consequently, the $S^{-1}q_j$ are the maximal ideals of $S^{-1}A$ by § 2, no. 5, Proposition 11 (ii).
 
 (b) is a special case of § 2, no. 5, Proposition 11 (iii).
 
-(c) Suppose that A is an integral domain. If $ \mathfrak{p}_i \subset \mathfrak{p}_k $, then $ A_{\mathfrak{p}_i} \supset A_{\mathfrak{p}_k} $; to prove (c), we may therefore suppose that no two $ \mathfrak{p}_i $ are comparable. Then it follows from (a) and no. 3, Corollary 4 to Theorem 1 that $ S^{-1}A = \bigcap_1^n (S^{-1}A)_{S^{-1}\mathfrak{p}_i} $; whence (c) by virtue of (b).
+(c) Suppose that A is an integral domain. If $\mathfrak{p}_i \subset \mathfrak{p}_k$, then $A_{\mathfrak{p}_i} \supset A_{\mathfrak{p}_k}$; to prove (c), we may therefore suppose that no two $\mathfrak{p}_i$ are comparable. Then it follows from (a) and no. 3, Corollary 4 to Theorem 1 that $S^{-1}A = \bigcap_1^n (S^{-1}A)_{S^{-1}\mathfrak{p}_i}$; whence (c) by virtue of (b).
 
-If A is an integral domain, so is $ S^{-1}A $ and Proposition 17 then provides an example of a semi-local ring which is not a direct composition of local rings (cf. Chapter III, § 2, no. 13).
+If A is an integral domain, so is $S^{-1}A$ and Proposition 17 then provides an example of a semi-local ring which is not a direct composition of local rings (cf. Chapter III, § 2, no. 13).
 
 #### Corollary {#ac-ii-s3-n5-cor-1 .statement}
 
-Let A be an integral domain and $ \mathfrak{p}_1, \ldots, \mathfrak{p}_n $ prime ideals of A, no two of which are comparable with respect to inclusion. If $ A = \bigcap_1^n A_{\mathfrak{p}_i} $ in the field of fractions of A, the maximal ideals of A are $ \mathfrak{p}_1, \ldots, \mathfrak{p}_n $.
+Let A be an integral domain and $\mathfrak{p}_1, \ldots, \mathfrak{p}_n$ prime ideals of A, no two of which are comparable with respect to inclusion. If $A = \bigcap_1^n A_{\mathfrak{p}_i}$ in the field of fractions of A, the maximal ideals of A are $\mathfrak{p}_1, \ldots, \mathfrak{p}_n$.
 
-Setting $ S = \bigcap_{i=1}^n (\mathbf{A} - p_i) $, $ S^{-1}\mathbf{A} = \mathbf{A} $ by Proposition 17 (c); hence the elements of $ S $ are invertible in $ \mathbf{A} $ and $ S^{-1}p_i = p_i $ for all $ i $. Our assertion then follows by virtue of Proposition 17 (a).
+Setting $S = \bigcap_{i=1}^n (\mathbf{A} - p_i)$, $S^{-1}\mathbf{A} = \mathbf{A}$ by Proposition 17 (c); hence the elements of $S$ are invertible in $\mathbf{A}$ and $S^{-1}p_i = p_i$ for all $i$. Our assertion then follows by virtue of Proposition 17 (a).
 
 ### Exercises {#ac-ii-s3-exercises}
 

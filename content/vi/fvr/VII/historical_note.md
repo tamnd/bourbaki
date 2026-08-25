@@ -12,7 +12,7 @@ pdf_pages: 0344-0353
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 74ef170132cd197faa54d4c2ab9c34e36742626d96504ce70134c50dd8966d08
+content_sha256: e5b995bfcbdfa783a08291eabce47a1122a017177fec88975427eb0b65644834
 translated_from: content/en/fvr/VII/historical_note.md
 source_content_sha256: 1041088601c93e87563d0f075a725ecae387676a67a10cbf4e0c2ebe1dc7757d
 translation_model: gpt-5.4
@@ -52,7 +52,7 @@ $$
 $$
 Trong các công trình về sau của mình Euler thường quay trở lại các tích phân này; như vậy ông đã phát hiện quan hệ về các phần bù ((I), t. XV, p 82 and t. XVII, p. 342), công thức $\mathbf{B}(p, q) = \Gamma(p)\Gamma(q)/\Gamma(p+q)$ ((I), t. XVII, p. 355), và trường hợp riêng của công thức Legendre-Gauss tương ứng với $x = 1$ ((I), t. XIX, p. 483); tất cả những điều đó dĩ nhiên là không bận tâm đến các vấn đề hội tụ.
 
-Gauss đã theo đuổi việc nghiên cứu hàm $\Gamma$ gắn với nghiên cứu của ông về hàm siêu bội, mà hàm $\Gamma$ là một trường hợp giới hạn (II); chính trong quá trình nghiên cứu này ông đã thu được công thức phép nhân tổng quát (đã được Legendre lưu ý sớm hơn một chút cho $p = 2$). Các công trình về sau về $\Gamma$ chủ yếu nhằm mở rộng hàm này sang miền phức. Chỉ gần đây người ta mới nhận ra rằng tính chất lồi lôgarit đặc trưng cho $ \Gamma(x) $ (trong miền thực), sai khác bởi một thừa số hằng, giữa các nghiệm của phương trình hàm $ f(x + 1) = x\, f(x) $ (III); và Artin đã chỉ ra (IV) cách có thể liên kết mọi kết quả cổ điển về $ \Gamma(x) $ một cách đơn giản với tính chất này. Chúng tôi đã theo sát khá chặt chẽ cách trình bày của ông.
+Gauss đã theo đuổi việc nghiên cứu hàm $\Gamma$ gắn với nghiên cứu của ông về hàm siêu bội, mà hàm $\Gamma$ là một trường hợp giới hạn (II); chính trong quá trình nghiên cứu này ông đã thu được công thức phép nhân tổng quát (đã được Legendre lưu ý sớm hơn một chút cho $p = 2$). Các công trình về sau về $\Gamma$ chủ yếu nhằm mở rộng hàm này sang miền phức. Chỉ gần đây người ta mới nhận ra rằng tính chất lồi lôgarit đặc trưng cho $\Gamma(x)$ (trong miền thực), sai khác bởi một thừa số hằng, giữa các nghiệm của phương trình hàm $f(x + 1) = x\, f(x)$ (III); và Artin đã chỉ ra (IV) cách có thể liên kết mọi kết quả cổ điển về $\Gamma(x)$ một cách đơn giản với tính chất này. Chúng tôi đã theo sát khá chặt chẽ cách trình bày của ông.
 
 (I) L. Euler, Opera omnia, Leipzig-Berlin (Teubner): t. XIV (1924), t. XV (1927), t. XVII (1915) và t. XIX (1932).
 (II) C.F. Gauss, Werke, t. III, Göttingen, 1866.
@@ -142,11 +142,11 @@ Mục tra cứu
 Kề thêm một nghiệm của một đa thức, của một nguyên hàm, của một hàm mũ của một nguyên hàm, vào một trường vi phân, 121
 Liên hợp (phương trình) của một phương trình vi phân tuyến tính, 186
 Các đa thức Appell, 272
-Nghiệm gần đúng đến sai số $ \varepsilon $ của một phương trình vi phân, 166
+Nghiệm gần đúng đến sai số $\varepsilon$ của một phương trình vi phân, 166
 Khai triển tiệm cận
 – chính xác hơn một khai triển khác, 222
 – của một hàm đối với một thang so sánh, 222
-– của một hàm với độ chính xác $ g_\alpha $, 222
+– của một hàm với độ chính xác $g_\alpha$, 222
 – độ chính xác của, 222
 Các khai triển tiệm cận, 220
 – với các hệ số biến thiên, 226
@@ -192,23 +192,23 @@ Dãy định nghĩa của một hàm (H), 252
 – bậc nhất, 3
 – vô hạn, 10
 – lôgarit, 94
-– $ n^{th} $, 20
+– $n^{th}$, 20
 – bậc hai, 20
 – đối xứng, 39
 Đạo hàm của một hàm, 3
 – trái, 4
 – phải, 4
-Định thức của $ n $ tích phân của một hệ $ n $ phương trình vi phân tuyến tính, 184
+Định thức của $n$ tích phân của một hệ $n$ phương trình vi phân tuyến tính, 184
 Phương trình vi phân
 – liên hợp, 187
 – tích phân, 163
 – tuyến tính, 177
 – tuyến tính thuần nhất, 178
-– tuyến tính cấp $ n $, 192
+– tuyến tính cấp $n$, 192
 – Lipschitz, 171
 – Lipschitz địa phương, 171
 – cấp nhất, 164
-– cấp $ n $, 164
+– cấp $n$, 164
 – biến thực, 163
 – vô hướng, 164
 – nghiệm, 163
@@ -222,10 +222,10 @@ các tích phân Euler, 310
 hằng Euler, 242
 các công thức Euler, 99
 công thức tổng Euler-Maclaurin, 282
-khai triển Euler của cot $ z $, 286
-khai triển Euler của sin $ z $, 287
+khai triển Euler của cot $z$, 286
+khai triển Euler của sin $z$, 287
 Khai triển
-– của log $ \Gamma(z) $
+– của log $\Gamma(z)$
 – Stirling, 322
 Hàm mũ
 – phức, 97
@@ -242,7 +242,7 @@ Công thức
 – tổng Euler-Maclaurin, 282
 – Gauss, 307
 – tích phân từng phần, 60
-– tích phân từng phần cấp $ n $, 60
+– tích phân từng phần cấp $n$, 60
 – phép nhân Legendre-Gauss, 318
 – Leibniz, 20
 – Stirling, 243
@@ -252,7 +252,7 @@ Công thức
 Các công thức
 – Euler, 99
 Hàm
-– khả vi $ n $ lần
+– khả vi $n$ lần
 – tại một điểm, 20
 – trên một khoảng, 20
 – (H), 252
@@ -291,7 +291,7 @@ Hàm
 Các hàm
 – so sánh được
 – mạnh, 217
-– tới cấp $ k $, 232
+– tới cấp $k$, 232
 – yếu, 214
 – tương đương, 216
 – hyperbolic, 102
@@ -342,7 +342,7 @@ Tích phân
 – Raabe, 318
 – hội tụ đều, 71
 Công thức tích phân từng phần, 60
-Công thức tích phân từng phần cấp $ n $, 60
+Công thức tích phân từng phần cấp $n$, 60
 Các hàm mũ lặp, 253
 Lôgarit lặp, 229
 
@@ -406,8 +406,8 @@ Số nguyên tố
 – không chính quy, 295
 – chính quy, 295
 Nguyên hàm
-– của một hàm trên một khoảng của $ \mathbf{R} $, 51
-– cấp $ n $, 62
+– của một hàm trên một khoảng của $\mathbf{R}$, 51
+– cấp $n$, 62
 – bậc hai, 62
 – ngặt, 51
 Phần chính
@@ -418,7 +418,7 @@ Nguyên lý so sánh các tích phân, 66
 tích phân Raabe, 318
 tiêu chuẩn Raabe, 244
 đồng nhất thức Redheffer, 88
-Rút gọn tới độ chính xác $ g_\alpha $
+Rút gọn tới độ chính xác $g_\alpha$
 – khai triển tiệm cận của một hàm, 222
 Toán tử hợp thành chính quy, 279
 Hàm bị điều chỉnh, 54
@@ -438,7 +438,7 @@ Các hàm tương tự, 214
 Sin
 – hyperbolic, 102
 Sin của một số phức, 102
-Nghiệm sai số đến $ \varepsilon $ của một phương trình vi phân, 166
+Nghiệm sai số đến $\varepsilon$ của một phương trình vi phân, 166
 Công thức Stirling, 243
 Nguyên thủy ngặt, 51
 Nghiệm ngặt của một phương trình vi phân, 164
@@ -460,7 +460,7 @@ Tiếp tuyến
 – với một đồ thị, 11
 Khai triển Taylor, 22
 Công thức Taylor, 21
-– cấp $ n $, 22
+– cấp $n$, 22
 Kiểm tra
 – của d’Alembert, 245
 – của Raabe, 244
@@ -486,4 +486,4 @@ Biến thiên hằng số
 Công thức Wallis, 123
 Công thức Weierstrass, 308
 Bất đẳng thức Weyl, 90
-Wronski của $ n $ nguyên của một phương trình vi phân tuyến tính cấp $ n $, 193
+Wronski của $n$ nguyên của một phương trình vi phân tuyến tính cấp $n$, 193

@@ -166,7 +166,7 @@ chapters:
               page: 48
               pdf_page: 46
             - "no": 5
-              title: $ p $-filtration des groupes libres
+              title: $p$-filtration des groupes libres
               page: 50
               pdf_page: 48
           exercises:
@@ -206,7 +206,7 @@ chapters:
           pdf_page: 58
           subsections:
             - "no": 1
-              title: Polynômes-continus à valeurs dans $ g $
+              title: Polynômes-continus à valeurs dans $g$
               page: 60
               pdf_page: 58
             - "no": 2
@@ -226,7 +226,7 @@ chapters:
           pdf_page: 64
           subsections:
             - "no": 1
-              title: Majoration $ p $-adique des séries exp, log et H
+              title: Majoration $p$-adique des séries exp, log et H
               page: 66
               pdf_page: 64
             - "no": 2

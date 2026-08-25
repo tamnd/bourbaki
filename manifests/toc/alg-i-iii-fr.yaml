@@ -515,7 +515,7 @@ chapters:
               page: 56
               pdf_page: 233
             - "no": 6
-              title: Propriétés de E $ \otimes_A $ F relatives aux suites exactes
+              title: Propriétés de E $\otimes_A$ F relatives aux suites exactes
               page: 58
               pdf_page: 235
             - "no": 7
@@ -539,11 +539,11 @@ chapters:
           pdf_page: 250
           subsections:
             - "no": 1
-              title: Les isomorphismes Hom_B (E $ \otimes_A $ F, G) $ \to $ Hom_A (F, Hom_B (E, G)) et Hom_C (E $ \otimes_A $ F, G) $ \to $ Hom_A (E, Hom_C (F, G))
+              title: Les isomorphismes Hom_B (E $\otimes_A$ F, G) $\to$ Hom_A (F, Hom_B (E, G)) et Hom_C (E $\otimes_A$ F, G) $\to$ Hom_A (E, Hom_C (F, G))
               page: 73
               pdf_page: 250
             - "no": 2
-              title: L'homomorphisme E* $ \otimes_A $ F $ \to $ Hom_A (E, F)
+              title: L'homomorphisme E* $\otimes_A$ F $\to$ Hom_A (E, F)
               page: 74
               pdf_page: 251
             - "no": 3
@@ -551,7 +551,7 @@ chapters:
               page: 78
               pdf_page: 255
             - "no": 4
-              title: L'homomorphisme Hom_C (E_1, F_1) $ \otimes_C $ Hom_C (E_2, F_2) $ \to $ Hom_C (E_1 $ \otimes_C $ E_2, F_1 $ \otimes_C $ F_2)
+              title: L'homomorphisme Hom_C (E_1, F_1) $\otimes_C$ Hom_C (E_2, F_2) $\to$ Hom_C (E_1 $\otimes_C$ E_2, F_1 $\otimes_C$ F_2)
               page: 79
               pdf_page: 256
           exercises:

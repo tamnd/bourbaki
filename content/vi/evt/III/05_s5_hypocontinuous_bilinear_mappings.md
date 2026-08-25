@@ -33,9 +33,9 @@ subsections:
       pdf_page: 164
 statements: 16
 exercises: 15
-content_sha256: 1dbe111b6594ed9663751eec765e54b6a2a9c3c217a55a00010c241042723c78
+content_sha256: eec5152fc687bfefa551b19044dea622d7331e7b9c254bf94958b30e3b0d4dfe
 translated_from: content/en/evt/III/05_s5_hypocontinuous_bilinear_mappings.md
-source_content_sha256: 799fa348e3e310542a5b91d09f12e329a704e1d44ddf65bd9114b5b2dbaa9503
+source_content_sha256: 5d33698cee35dc6eb343bf8be269c10b1f66662defc3d540ebe69adfaa305a8c
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-f8d5b184
 glossary_version: 34
@@ -47,31 +47,31 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các ánh xạ song tuyến tính liên tục riêng
 
-Cho $ E, F, G $ là ba không gian lồi địa phương. Với mọi ánh xạ song tuyến tính $ u $ từ $ E \times F $ vào $ G $, và với mọi $ x \in E $ (tương ứng $ y \in F $), ta ký hiệu bởi $ u(x, .) $ (tương ứng $ u(., y) $) ánh xạ $ y \mapsto u(x, y) $ (tương ứng $ x \mapsto u(x, y) $) từ $ F $ vào $ G $ (tương ứng từ $ E $ vào $ G $).
+Cho $E, F, G$ là ba không gian lồi địa phương. Với mọi ánh xạ song tuyến tính $u$ từ $E \times F$ vào $G$, và với mọi $x \in E$ (tương ứng $y \in F$), ta ký hiệu bởi $u(x, .)$ (tương ứng $u(., y)$) ánh xạ $y \mapsto u(x, y)$ (tương ứng $x \mapsto u(x, y)$) từ $F$ vào $G$ (tương ứng từ $E$ vào $G$).
 
 #### Định nghĩa 1 {#evt-iii-s5-def-1 .statement}
 
-*Một ánh xạ song tuyến tính $ u $ từ $ E \times F $ vào $ G $ được gọi là liên tục riêng nếu, với mọi $ x \in E $, ánh xạ tuyến tính $ u(x, .) $ từ $ F $ vào $ G $ là liên tục, và với mọi $ y \in F $, ánh xạ tuyến tính $ u(., y) $ từ $ E $ vào $ G $ là liên tục.*
+*Một ánh xạ song tuyến tính $u$ từ $E \times F$ vào $G$ được gọi là liên tục riêng nếu, với mọi $x \in E$, ánh xạ tuyến tính $u(x, .)$ từ $F$ vào $G$ là liên tục, và với mọi $y \in F$, ánh xạ tuyến tính $u(., y)$ từ $E$ vào $G$ là liên tục.*
 
 Mệnh đề sau suy ra ngay lập tức từ định nghĩa.
 
 #### Mệnh đề 1 {#evt-iii-s5-prop-1 .statement}
 
-*Để một ánh xạ song tuyến tính $ u $ từ $ E \times F $ vào $ G $ là liên tục riêng, cần và đủ rằng với mọi $ y \in F $, ánh xạ tuyến tính $ u(., y) $ từ $ E $ vào $ G $ là liên tục và ánh xạ tuyến tính $ y \mapsto u(., y) $ từ $ F $ vào $ \mathcal{L}_s(E; G) $ là liên tục.*
+*Để một ánh xạ song tuyến tính $u$ từ $E \times F$ vào $G$ là liên tục riêng, cần và đủ rằng với mọi $y \in F$, ánh xạ tuyến tính $u(., y)$ từ $E$ vào $G$ là liên tục và ánh xạ tuyến tính $y \mapsto u(., y)$ từ $F$ vào $\mathcal{L}_s(E; G)$ là liên tục.*
 
-Ta cũng có thể nói rằng, với mỗi ánh xạ tuyến tính $ v \in \mathcal{L}(F; \mathcal{L}_s(E; G)) $ được liên kết với ánh xạ song tuyến tính $ (x, y) \mapsto v(y)(x) $, ta định nghĩa một song ánh tuyến tính từ $ \mathcal{L}(F; \mathcal{L}_s(E; G)) $ lên không gian vectơ các ánh xạ song tuyến tính liên tục riêng từ $ E \times F $ vào $ G $.
+Ta cũng có thể nói rằng, với mỗi ánh xạ tuyến tính $v \in \mathcal{L}(F; \mathcal{L}_s(E; G))$ được liên kết với ánh xạ song tuyến tính $(x, y) \mapsto v(y)(x)$, ta định nghĩa một song ánh tuyến tính từ $\mathcal{L}(F; \mathcal{L}_s(E; G))$ lên không gian vectơ các ánh xạ song tuyến tính liên tục riêng từ $E \times F$ vào $G$.
 
-Một ánh xạ song tuyến tính liên tục riêng từ $ E \times F $ vào $ G $ không nhất thiết liên tục trên $ E \times F $ (III, p. 47, Bài tập 2; xem thêm III, p. 30, và IV, p. 26, Định lý 2).
+Một ánh xạ song tuyến tính liên tục riêng từ $E \times F$ vào $G$ không nhất thiết liên tục trên $E \times F$ (III, p. 47, Bài tập 2; xem thêm III, p. 30, và IV, p. 26, Định lý 2).
 
-Khái niệm về một dạng song tuyến tính liên tục riêng rẽ trên một tích $ E_1 \times E_2 $ của hai không gian lồi địa phương liên hệ trực tiếp với khái niệm về một ánh xạ tuyến tính liên tục khi $ E_1 $ và $ E_2 $ được trang bị các tôpô *yếu* (II, p. 42), Giả sử rằng $ (E_1, F_1) $ và $ (E_2, F_2) $ là hai cặp không gian vectơ thực (tương ứng phức) ở đối ngẫu tách biệt (*loc. cit.*); ta gán cho $ E_i $ (tương ứng $ F_i $) tôpô yếu $ \sigma(E_i, F_i) $ (tương ứng $ \sigma(F_i, E_i) $) với $ i = 1, 2 $, và ký hiệu $ B(E_1, E_2) $ là không gian vectơ của các dạng song tuyến tính *liên tục* trên $ E_1 \times E_2 $. Áp dụng mệnh đề 1 cho trường hợp $ G = K $, ta thấy rằng, với mọi dạng song tuyến tính $ \Phi \in B(E_1, E_2) $ và mọi $ x_2 \in E_2 $, ánh xạ $ x_1 \mapsto \Phi(x_1, x_2) $ là một dạng tuyến tính liên tục trên $ E_1 $, do đó (II, p. 43, mệnh đề 3) tồn tại một và chỉ một phần tử $ ^d\Phi(x_2) \in F_1 $ sao cho
+Khái niệm về một dạng song tuyến tính liên tục riêng rẽ trên một tích $E_1 \times E_2$ của hai không gian lồi địa phương liên hệ trực tiếp với khái niệm về một ánh xạ tuyến tính liên tục khi $E_1$ và $E_2$ được trang bị các tôpô *yếu* (II, p. 42), Giả sử rằng $(E_1, F_1)$ và $(E_2, F_2)$ là hai cặp không gian vectơ thực (tương ứng phức) ở đối ngẫu tách biệt (*loc. cit.*); ta gán cho $E_i$ (tương ứng $F_i$) tôpô yếu $\sigma(E_i, F_i)$ (tương ứng $\sigma(F_i, E_i)$) với $i = 1, 2$, và ký hiệu $B(E_1, E_2)$ là không gian vectơ của các dạng song tuyến tính *liên tục* trên $E_1 \times E_2$. Áp dụng mệnh đề 1 cho trường hợp $G = K$, ta thấy rằng, với mọi dạng song tuyến tính $\Phi \in B(E_1, E_2)$ và mọi $x_2 \in E_2$, ánh xạ $x_1 \mapsto \Phi(x_1, x_2)$ là một dạng tuyến tính liên tục trên $E_1$, do đó (II, p. 43, mệnh đề 3) tồn tại một và chỉ một phần tử $^d\Phi(x_2) \in F_1$ sao cho
 
 $$
 \Phi(x_1, x_2) = \langle x_1, ^d\Phi(x_2) \rangle
 $$
 
-với mọi $ x_1 \in E_1 $ và $ x_2 \in E_2 $; hơn nữa, ánh xạ $ ^d\Phi : E_2 \to F_1 $ là tuyến tính và *liên tục* đối với các tôpô (yếu) của $ E_2 $ và của $ F_1 $.
+với mọi $x_1 \in E_1$ và $x_2 \in E_2$; hơn nữa, ánh xạ $^d\Phi : E_2 \to F_1$ là tuyến tính và *liên tục* đối với các tôpô (yếu) của $E_2$ và của $F_1$.
 
-Ngược lại, với mọi ánh xạ tuyến tính *liên tục* $ u : E_2 \to F_1 $ ánh xạ $(x_1, x_2) \mapsto \Phi(x_1, x_2) = \langle x_1, u(x_2) \rangle$ là một dạng song tuyến tính liên tục riêng rẽ trên $E_1 \times E_2$, và ta có $u = {}^d \Phi$. Vì vậy ta đã định nghĩa một đẳng cấu $d : \Phi \mapsto {}^d \Phi$ từ $B(E_1, E_2)$ lên $\mathcal{L}(E_2; F_1)$, được gọi là *chính tắc*. Tương tự, công thức
+Ngược lại, với mọi ánh xạ tuyến tính *liên tục* $u : E_2 \to F_1$ ánh xạ $(x_1, x_2) \mapsto \Phi(x_1, x_2) = \langle x_1, u(x_2) \rangle$ là một dạng song tuyến tính liên tục riêng rẽ trên $E_1 \times E_2$, và ta có $u = {}^d \Phi$. Vì vậy ta đã định nghĩa một đẳng cấu $d : \Phi \mapsto {}^d \Phi$ từ $B(E_1, E_2)$ lên $\mathcal{L}(E_2; F_1)$, được gọi là *chính tắc*. Tương tự, công thức
 
 $$
 \Phi(x_1, x_2) = \langle {}^s \Phi(x_1), x_2 \rangle
@@ -100,21 +100,21 @@ Cho $U_n$ (resp. $V_n$) là một dãy cơ bản các lân cận của 0 trong E
 
 #### Hệ quả 1 {#evt-iii-s5-prop-2-cor-1 .statement}
 
-— Cho E và F là hai không gian Fréchet, và G là một không gian lồi địa phương. Mọi ánh xạ song tuyến tính liên tục riêng rẽ từ $ E \times F $ vào G đều liên tục.
+— Cho E và F là hai không gian Fréchet, và G là một không gian lồi địa phương. Mọi ánh xạ song tuyến tính liên tục riêng rẽ từ $E \times F$ vào G đều liên tục.
 
 Thực vậy, mọi không gian Fréchet đều đầy thùng (III, p. 25, hệ quả).
 
-Cho E và F là hai không gian lồi địa phương. Ta dùng ký hiệu $ \mathcal{B}(E, F) $ để chỉ không gian các dạng song tuyến tính liên tục trên $ E \times F $, với tôpô hội tụ đều trên các tập có dạng $ A \times B $, trong đó A (resp. B) bị chặn trong E (resp. F). Công thức
+Cho E và F là hai không gian lồi địa phương. Ta dùng ký hiệu $\mathcal{B}(E, F)$ để chỉ không gian các dạng song tuyến tính liên tục trên $E \times F$, với tôpô hội tụ đều trên các tập có dạng $A \times B$, trong đó A (resp. B) bị chặn trong E (resp. F). Công thức
 $$
 u(x, y) = \langle y, \phi(u)(x) \rangle
 $$
-(với $ x \in E, y \in F $ và $ u \in \mathcal{B}(E, F) $) định nghĩa một ánh xạ tuyến tính đơn ánh liên tục $ \phi $ từ $ \mathcal{B}(E, F) $ vào $ \mathcal{L}_b(E; F'_b) $.
+(với $x \in E, y \in F$ và $u \in \mathcal{B}(E, F)$) định nghĩa một ánh xạ tuyến tính đơn ánh liên tục $\phi$ từ $\mathcal{B}(E, F)$ vào $\mathcal{L}_b(E; F'_b)$.
 
 #### Hệ quả 2 {#evt-iii-s5-prop-2-cor-2 .statement}
 
-— Giả sử E và F là khả metrizable và E là đầy thùng. Khi đó $ \phi $ là một đẳng cấu không gian vectơ tôpô từ $ \mathcal{B}(E, F) $ lên $ \mathcal{L}_b(E; F'_b) $.
+— Giả sử E và F là khả metrizable và E là đầy thùng. Khi đó $\phi$ là một đẳng cấu không gian vectơ tôpô từ $\mathcal{B}(E, F)$ lên $\mathcal{L}_b(E; F'_b)$.
 
-Cho $ f \in \mathcal{L}_b(E; F'_b) $. Đặt $ u(x, y) = \langle y, f(x) \rangle $ với $ x \in E $ và $ y \in F $. Dạng song tuyến tính $ u $ trên $ E \times F $ là liên tục riêng rẽ; theo mệnh đề 2, nó thuộc $ \mathcal{B}(E, F) $, và ta có $ f = \phi(u) $. Vậy $ \phi $ là một song ánh tuyến tính từ $ \mathcal{B}(E, F) $ lên $ \mathcal{L}_b(E; F'_b) $. Hiển nhiên $ \phi $ là song liên tục, do đó suy ra hệ quả 2.
+Cho $f \in \mathcal{L}_b(E; F'_b)$. Đặt $u(x, y) = \langle y, f(x) \rangle$ với $x \in E$ và $y \in F$. Dạng song tuyến tính $u$ trên $E \times F$ là liên tục riêng rẽ; theo mệnh đề 2, nó thuộc $\mathcal{B}(E, F)$, và ta có $f = \phi(u)$. Vậy $\phi$ là một song ánh tuyến tính từ $\mathcal{B}(E, F)$ lên $\mathcal{L}_b(E; F'_b)$. Hiển nhiên $\phi$ là song liên tục, do đó suy ra hệ quả 2.
 
 ### 3. Các ánh xạ song tuyến tính nửa liên tục
 
@@ -122,25 +122,25 @@ Trong phần sau, ta sẽ định nghĩa một khái niệm trung gian giữa kh
 
 #### Mệnh đề 3 {#evt-iii-s5-prop-3 .statement}
 
-— Cho E, F, G là ba không gian lồi địa phương, $ \mathfrak{S} $ là một họ các tập con bị chặn của E. Cho u là một ánh xạ song tuyến tính liên tục riêng rẽ từ $ E \times F $ vào G. Các tính chất sau là tương đương :
+— Cho E, F, G là ba không gian lồi địa phương, $\mathfrak{S}$ là một họ các tập con bị chặn của E. Cho u là một ánh xạ song tuyến tính liên tục riêng rẽ từ $E \times F$ vào G. Các tính chất sau là tương đương :
 
-a) Với mọi lân cận W của 0 trong G và mọi tập $ M \in \mathfrak{S} $, tồn tại một lân cận V của 0 trong F sao cho $ u(M \times V) \subset W $.
+a) Với mọi lân cận W của 0 trong G và mọi tập $M \in \mathfrak{S}$, tồn tại một lân cận V của 0 trong F sao cho $u(M \times V) \subset W$.
 
-b) Với mọi tập $ M \in \mathfrak{S} $, ảnh của M qua ánh xạ $ x \mapsto u(x, .) $ là một tập con đều liên tục của $ \mathcal{L}(F; G) $.
+b) Với mọi tập $M \in \mathfrak{S}$, ảnh của M qua ánh xạ $x \mapsto u(x, .)$ là một tập con đều liên tục của $\mathcal{L}(F; G)$.
 
-c) Ánh xạ $ y \mapsto u(., y) $ từ F vào $ \mathcal{L}_{\mathfrak{S}}(E; G) $ là liên tục.
+c) Ánh xạ $y \mapsto u(., y)$ từ F vào $\mathcal{L}_{\mathfrak{S}}(E; G)$ là liên tục.
 
-a) biểu thị rằng $ y \mapsto u(., y) $ là liên tục tại điểm 0, do định nghĩa các lân cận của 0 trong $ \mathcal{L}_{\mathfrak{S}}(E; G) $ (III, p. 13); tương tự a) biểu thị rằng ảnh của M qua ánh xạ $ x \mapsto u(x, .) $ là đẳng liên tục tại điểm 0 (III, p. 16).
+a) biểu thị rằng $y \mapsto u(., y)$ là liên tục tại điểm 0, do định nghĩa các lân cận của 0 trong $\mathcal{L}_{\mathfrak{S}}(E; G)$ (III, p. 13); tương tự a) biểu thị rằng ảnh của M qua ánh xạ $x \mapsto u(x, .)$ là đẳng liên tục tại điểm 0 (III, p. 16).
 
 #### Định nghĩa 2 {#evt-iii-s5-def-2 .statement}
 
-— Cho u là một ánh xạ song tuyến tính từ $ E \times F $ vào G. Ta nói u là $ \mathfrak{S}$-hypocontinuous nếu u liên tục riêng rẽ và nếu nó thỏa một trong các điều kiện tương đương a), b), c) của mệnh đề 3.
+— Cho u là một ánh xạ song tuyến tính từ $E \times F$ vào G. Ta nói u là $\mathfrak{S}$-hypocontinuous nếu u liên tục riêng rẽ và nếu nó thỏa một trong các điều kiện tương đương a), b), c) của mệnh đề 3.
 
-Điều kiện c) của mệnh đề 3 cho thấy khái niệm ánh xạ song tuyến tính $ \mathfrak{S}$-hypocontinuous chỉ phụ thuộc vào $ \mathfrak{S} $ qua $ \mathfrak{S} $-tôpô trên $ \mathcal{L}(E, G) $.
+Điều kiện c) của mệnh đề 3 cho thấy khái niệm ánh xạ song tuyến tính $\mathfrak{S}$-hypocontinuous chỉ phụ thuộc vào $\mathfrak{S}$ qua $\mathfrak{S}$-tôpô trên $\mathcal{L}(E, G)$.
 
-Với mỗi tập $ \mathfrak{T} $ các tập con bị chặn của F, ta cũng định nghĩa khái niệm ánh xạ $ \mathfrak{T}$-hypocontinuous, bằng cách đổi chỗ vai trò của E và F trong mệnh đề 3. Một ánh xạ song tuyến tính u liên tục riêng rẽ được gọi là $ (\mathfrak{S}, \mathfrak{T}) $-hypocontinuous nếu nó vừa là $ \mathfrak{S}$-hypocontinuous vừa là $ \mathfrak{T}$-hypocontinuous.
+Với mỗi tập $\mathfrak{T}$ các tập con bị chặn của F, ta cũng định nghĩa khái niệm ánh xạ $\mathfrak{T}$-hypocontinuous, bằng cách đổi chỗ vai trò của E và F trong mệnh đề 3. Một ánh xạ song tuyến tính u liên tục riêng rẽ được gọi là $(\mathfrak{S}, \mathfrak{T})$-hypocontinuous nếu nó vừa là $\mathfrak{S}$-hypocontinuous vừa là $\mathfrak{T}$-hypocontinuous.
 
-Mọi ánh xạ song tuyến tính *liên tục* từ $ E \times F $ vào $ G $ đều là $(\mathcal{S}, \mathcal{T})$-hypocontinuous đối với mọi cặp $(\mathcal{S}, \mathcal{T})$ các tập hợp tập con bị chặn : với mọi lân cận $ W $ của 0 trong $ G $, tồn tại một lân cận $ U $ của 0 trong $ E $ và một lân cận $ V $ của 0 trong $ F $ sao cho $ u(U \times V) \subset W $; vì mọi tập $ M \in \mathcal{S} $ đều bị chặn, tồn tại $ \lambda > 0 $ sao cho $ \lambda M \subset V $, và do đó
+Mọi ánh xạ song tuyến tính *liên tục* từ $E \times F$ vào $G$ đều là $(\mathcal{S}, \mathcal{T})$-hypocontinuous đối với mọi cặp $(\mathcal{S}, \mathcal{T})$ các tập hợp tập con bị chặn : với mọi lân cận $W$ của 0 trong $G$, tồn tại một lân cận $U$ của 0 trong $E$ và một lân cận $V$ của 0 trong $F$ sao cho $u(U \times V) \subset W$; vì mọi tập $M \in \mathcal{S}$ đều bị chặn, tồn tại $\lambda > 0$ sao cho $\lambda M \subset V$, và do đó
 
 $$
 u(M \times \lambda V) = u(\lambda M \times V) \subset u(U \times V) \subset W .
@@ -150,35 +150,35 @@ Mệnh đề đảo lại nói chung là sai (III, p. 47, Bài tập 3).
 
 #### Mệnh đề 4 {#evt-iii-s5-prop-4 .statement}
 
-*Cho $ u $ là một ánh xạ song tuyến tính $ \mathcal{S} $-hypocontinuous từ $ E \times F $ vào $ G $. Với mọi tập $ M \in \mathcal{S} $, hạn chế của $ u $ lên $ M \times F $ là liên tục, và $ u(M \times Q) $ bị chặn trong $ G $ với mọi tập con bị chặn $ Q $ của $ F $.*
+*Cho $u$ là một ánh xạ song tuyến tính $\mathcal{S}$-hypocontinuous từ $E \times F$ vào $G$. Với mọi tập $M \in \mathcal{S}$, hạn chế của $u$ lên $M \times F$ là liên tục, và $u(M \times Q)$ bị chặn trong $G$ với mọi tập con bị chặn $Q$ của $F$.*
 
-Mệnh đề đầu tiên suy ra từ hệ quả 3 của GT, X, § 2, No. 1. Cho $ W $ là một lân cận của 0 trong $ G $; theo giả thiết, tồn tại một lân cận $ V $ của 0 trong $ F $ sao cho $ u(M \times V) \subset W $. Vì tồn tại $ \lambda \neq 0 $ sao cho $ \lambda Q \subset V $, ta có $ \lambda u(M \times Q) = u(M \times \lambda Q) \subset W $, và điều này chứng minh phần thứ hai của mệnh đề.
+Mệnh đề đầu tiên suy ra từ hệ quả 3 của GT, X, § 2, No. 1. Cho $W$ là một lân cận của 0 trong $G$; theo giả thiết, tồn tại một lân cận $V$ của 0 trong $F$ sao cho $u(M \times V) \subset W$. Vì tồn tại $\lambda \neq 0$ sao cho $\lambda Q \subset V$, ta có $\lambda u(M \times Q) = u(M \times \lambda Q) \subset W$, và điều này chứng minh phần thứ hai của mệnh đề.
 
 #### Mệnh đề 5 {#evt-iii-s5-prop-5 .statement}
 
-*Cho $ u $ là một ánh xạ song tuyến tính $(\mathcal{S}, \mathcal{T})$-hypocontinuous từ $ E \times F $ vào $ G $. Với mọi cặp tập $ M \in \mathcal{S} $, $ N \in \mathcal{T} $, $ u $ liên tục đều trên $ M \times N $.*
+*Cho $u$ là một ánh xạ song tuyến tính $(\mathcal{S}, \mathcal{T})$-hypocontinuous từ $E \times F$ vào $G$. Với mọi cặp tập $M \in \mathcal{S}$, $N \in \mathcal{T}$, $u$ liên tục đều trên $M \times N$.*
 
 Mệnh đề này suy ra ngay từ mệnh đề 2 của GT, X, § 2, No. 1 và mệnh đề 5 của GT, X, § 2, No. 2.
 
 #### Mệnh đề 6 {#evt-iii-s5-prop-6 .statement}
 
-*Nếu $ F $ là một không gian barrelled, thì mọi ánh xạ song tuyến tính liên tục riêng phần $ u $ từ $ E \times F $ vào một không gian lồi địa phương $ G $ đều là $ \mathcal{S} $-hypocontinuous đối với mọi tập hợp $ \mathcal{S} $ của các tập con bị chặn của $ E $.*
+*Nếu $F$ là một không gian barrelled, thì mọi ánh xạ song tuyến tính liên tục riêng phần $u$ từ $E \times F$ vào một không gian lồi địa phương $G$ đều là $\mathcal{S}$-hypocontinuous đối với mọi tập hợp $\mathcal{S}$ của các tập con bị chặn của $E$.*
 
-Nói cách khác, *ánh xạ tuyến tính* $ y \mapsto u(., y) $ từ $ F $ vào $ \mathcal{L}_b(E; G) $ *là liên tục*.
+Nói cách khác, *ánh xạ tuyến tính* $y \mapsto u(., y)$ từ $F$ vào $\mathcal{L}_b(E; G)$ *là liên tục*.
 
-Đủ (III, p. 30, mệnh đề 3) để chứng minh rằng ảnh của mọi tập con bị chặn $ M $ của $ E $ qua $ x \mapsto u(x, .) $ là đều liên tục trong $ \mathcal{L}(F; G) $. Nhưng, nhờ mệnh đề 1 (III, p. 28) ảnh này là một tập con bị chặn đơn của $ \mathcal{L}(F; G) $, và vì $ F $ là barrelled, mọi tập con bị chặn đơn của $ \mathcal{L}(F; G) $ đều đều liên tục (III, p. 25, định lý 1).
+Đủ (III, p. 30, mệnh đề 3) để chứng minh rằng ảnh của mọi tập con bị chặn $M$ của $E$ qua $x \mapsto u(x, .)$ là đều liên tục trong $\mathcal{L}(F; G)$. Nhưng, nhờ mệnh đề 1 (III, p. 28) ảnh này là một tập con bị chặn đơn của $\mathcal{L}(F; G)$, và vì $F$ là barrelled, mọi tập con bị chặn đơn của $\mathcal{L}(F; G)$ đều đều liên tục (III, p. 25, định lý 1).
 
 #### Nhận xét {#evt-iii-s5-n3-rem-1 .statement}
 
-— Giả sử tôpô của $ F $ là tôpô lồi địa phương mạnh nhất trên $ F $ sao cho các ánh xạ tuyến tính $ h_\alpha : F_\alpha \to F $ liên tục (II, p. 27). Khi đó điều kiện *c)* của mệnh đề 3 (III, p. 30) cho thấy rằng nếu $ E $ và $ G $ là lồi địa phương, thì ánh xạ song tuyến tính $ u : E \times F \to G $ là $ \mathcal{S} $-hypocontinuous khi và chỉ khi mỗi một trong các ánh xạ song tuyến tính
+— Giả sử tôpô của $F$ là tôpô lồi địa phương mạnh nhất trên $F$ sao cho các ánh xạ tuyến tính $h_\alpha : F_\alpha \to F$ liên tục (II, p. 27). Khi đó điều kiện *c)* của mệnh đề 3 (III, p. 30) cho thấy rằng nếu $E$ và $G$ là lồi địa phương, thì ánh xạ song tuyến tính $u : E \times F \to G$ là $\mathcal{S}$-hypocontinuous khi và chỉ khi mỗi một trong các ánh xạ song tuyến tính
 
 $$
 (x, y_\alpha) \mapsto u(x, h_\alpha(y_\alpha))
 $$
 
-từ $ E \times F_\alpha $ vào $ G $ là $ \mathcal{S} $-hypocontinuous.
+từ $E \times F_\alpha$ vào $G$ là $\mathcal{S}$-hypocontinuous.
 
-Bây giờ giả sử rằng $ E $ là một không gian lồi địa phương, là giới hạn quy nạp *ngặt* của một dãy tăng $ (E_n) $ các không gian con vectơ đóng của $ E $ (II, p. 33); khi đó mọi tập hợp $ M \in \mathcal{S} $ đều được chứa trong một trong các $ E_n $ và bị chặn trong không gian con này (III, p. 5, mệnh đề 6). Ký hiệu $ \mathcal{S}_n $ là họ tất cả các tập con thuộc $ \mathcal{S} $ được chứa trong $ E_n $.
+Bây giờ giả sử rằng $E$ là một không gian lồi địa phương, là giới hạn quy nạp *ngặt* của một dãy tăng $(E_n)$ các không gian con vectơ đóng của $E$ (II, p. 33); khi đó mọi tập hợp $M \in \mathcal{S}$ đều được chứa trong một trong các $E_n$ và bị chặn trong không gian con này (III, p. 5, mệnh đề 6). Ký hiệu $\mathcal{S}_n$ là họ tất cả các tập con thuộc $\mathcal{S}$ được chứa trong $E_n$.
 
 Điều kiện $a)$ của mệnh đề 3 (III, p. 30) cho thấy rằng để một ánh xạ song tuyến tính $u : E \times F \to G$ là $\mathfrak{S}$-hypocontinuous, cần và đủ rằng mỗi một trong các hạn chế $u_n : E_n \times F \to G$ của $u$ là $\mathfrak{S}_n$-hypocontinuous.
 

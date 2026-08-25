@@ -45,9 +45,9 @@ subsections:
       pdf_page: 47
 statements: 25
 exercises: 17
-content_sha256: ccfb600008a557d0735bfeb68b2d83de63954f41c2682b56fd2d43cc26d40390
+content_sha256: 7e32d708614ec6db0d4c3be0995c9892007f8ecc68cfdbe548d415bf96fe2d5d
 translated_from: content/en/alg/I/02_s2_identity_element_cancellable_elements.md
-source_content_sha256: 595575ac2e34d4640bffa77d9e3406362197bad1b64f62c4b23bf700509a1118
+source_content_sha256: cc62dde4f620501b1c1bf68a6fda4a9cfec608416078d5f1a3f2dd2034f84283
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-f1e6c316
 glossary_version: 34
@@ -61,41 +61,41 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 #### Định nghĩa 1 {#alg-i-s2-def-1 .statement}
 
-Đối với một luật hợp thành $ \top $ trên một tập hợp $ E $ một phần tử $ e $ của $ E $ được gọi là một phần tử đơn vị nếu, với mọi $ x \in E $, $ e \top x = x \top e = x $.
+Đối với một luật hợp thành $\top$ trên một tập hợp $E$ một phần tử $e$ của $E$ được gọi là một phần tử đơn vị nếu, với mọi $x \in E$, $e \top x = x \top e = x$.
 
-Tồn tại nhiều nhất một phần tử đơn vị đối với một luật đã cho $ \top $, vì nếu $ e $ và $ e' $ là các phần tử đơn vị thì $ e = e \top e' = e' $. Một phần tử đơn vị giao hoán được với mọi phần tử: nó là một phần tử trung tâm.
+Tồn tại nhiều nhất một phần tử đơn vị đối với một luật đã cho $\top$, vì nếu $e$ và $e'$ là các phần tử đơn vị thì $e = e \top e' = e'$. Một phần tử đơn vị giao hoán được với mọi phần tử: nó là một phần tử trung tâm.
 
 #### Định nghĩa 2 {#alg-i-s2-def-2 .statement}
 
-Một magma có một phần tử đơn vị được gọi là một magma có đơn vị. Nếu $ E, E' $ là các magma có đơn vị, một đồng cấu của magma $ E $ vào magma $ E' $ biến phần tử đơn vị của $ E $ thành phần tử đơn vị của $ E' $ được gọi là một đồng cấu có đơn vị (hoặc cấu xạ) của $ E $ vào $ E' $. Một magma kết hợp có đơn vị được gọi là một monođ.
+Một magma có một phần tử đơn vị được gọi là một magma có đơn vị. Nếu $E, E'$ là các magma có đơn vị, một đồng cấu của magma $E$ vào magma $E'$ biến phần tử đơn vị của $E$ thành phần tử đơn vị của $E'$ được gọi là một đồng cấu có đơn vị (hoặc cấu xạ) của $E$ vào $E'$. Một magma kết hợp có đơn vị được gọi là một monođ.
 
-Nếu $ E, E' $ là các monođ, một cấu xạ có đơn vị của $ E $ vào $ E' $ được gọi là một đồng cấu monođ hoặc một cấu xạ monođ của $ E $ vào $ E' $.
+Nếu $E, E'$ là các monođ, một cấu xạ có đơn vị của $E$ vào $E'$ được gọi là một đồng cấu monođ hoặc một cấu xạ monođ của $E$ vào $E'$.
 
 #### Ví dụ {#alg-i-s2-n1-exa-1 .statement}
 
-(1) Trong tập hợp $ \mathbf{N} $ các số tự nhiên, 0 là một phần tử đơn vị đối với phép cộng và 1 là một phần tử đơn vị đối với phép nhân. Mỗi một trong hai luật này cho $ \mathbf{N} $ một cấu trúc monođ giao hoán (Lý thuyết tập hợp, III, § 3, no. 3).
+(1) Trong tập hợp $\mathbf{N}$ các số tự nhiên, 0 là một phần tử đơn vị đối với phép cộng và 1 là một phần tử đơn vị đối với phép nhân. Mỗi một trong hai luật này cho $\mathbf{N}$ một cấu trúc monođ giao hoán (Lý thuyết tập hợp, III, § 3, no. 3).
 
-(2) Trong tập hợp các tập con của một tập hợp $ E $, $ \varnothing $ là một phần tử đơn vị đối với luật $ \cup $ và $ E $ đối với luật $ \cap $. Nói chung, trong một dàn, phần tử nhỏ nhất, nếu tồn tại, là phần tử đơn vị đối với luật sup; ngược lại, nếu tồn tại một phần tử đơn vị đối với luật này thì nó là phần tử nhỏ nhất của tập hợp. Tương tự đối với phần tử lớn nhất và luật inf.
+(2) Trong tập hợp các tập con của một tập hợp $E$, $\varnothing$ là một phần tử đơn vị đối với luật $\cup$ và $E$ đối với luật $\cap$. Nói chung, trong một dàn, phần tử nhỏ nhất, nếu tồn tại, là phần tử đơn vị đối với luật sup; ngược lại, nếu tồn tại một phần tử đơn vị đối với luật này thì nó là phần tử nhỏ nhất của tập hợp. Tương tự đối với phần tử lớn nhất và luật inf.
 
-(3) Tập hợp $ \mathbf{N} $ không có phần tử đơn vị đối với luật $ (x, y) \mapsto x^y $. Đối với luật $ (X, Y) \mapsto X \circ Y $ giữa các tập con của $ E \times E $ đường chéo $ \Delta $ là phần tử đơn vị. Đối với luật $ (f, g) \mapsto f \circ g $ giữa các ánh xạ của $ E $ vào $ E $, ánh xạ đồng nhất của $ E $ lên $ E $ là phần tử đơn vị.
+(3) Tập hợp $\mathbf{N}$ không có phần tử đơn vị đối với luật $(x, y) \mapsto x^y$. Đối với luật $(X, Y) \mapsto X \circ Y$ giữa các tập con của $E \times E$ đường chéo $\Delta$ là phần tử đơn vị. Đối với luật $(f, g) \mapsto f \circ g$ giữa các ánh xạ của $E$ vào $E$, ánh xạ đồng nhất của $E$ lên $E$ là phần tử đơn vị.
 
-(4) Cho $ E $ là một magma và $ R $ là một quan hệ tương đương trên $ E $ tương thích với luật trên $ E $ (\S 1, no. 6). Nếu $ e $ là một phần tử đơn vị của $ E $ thì ảnh chính tắc của $ e $ trong $ E/R $ là một phần tử đơn vị của magma $ E/R $.
+(4) Cho $E$ là một magma và $R$ là một quan hệ tương đương trên $E$ tương thích với luật trên $E$ (\S 1, no. 6). Nếu $e$ là một phần tử đơn vị của $E$ thì ảnh chính tắc của $e$ trong $E/R$ là một phần tử đơn vị của magma $E/R$.
 
-Phần tử đơn vị của một magma có đơn vị là một đồng cấu có đơn vị; hợp thành của hai đồng cấu có đơn vị cũng là một đồng cấu có đơn vị. Để một ánh xạ là một đẳng cấu magma có đơn vị, điều kiện cần và đủ là nó là một đồng cấu có đơn vị song ánh và khi đó ánh xạ nghịch đảo là một đồng cấu có đơn vị. Cho $ E $ và $ E' $ là các magma có đơn vị và $ e' $ là phần tử đơn vị của $ E' $; ánh xạ hằng của $ E $ vào $ E' $ biến $ E $ thành $ e' $ là một đồng cấu có đơn vị, được gọi là một đồng cấu tầm thường.
+Phần tử đơn vị của một magma có đơn vị là một đồng cấu có đơn vị; hợp thành của hai đồng cấu có đơn vị cũng là một đồng cấu có đơn vị. Để một ánh xạ là một đẳng cấu magma có đơn vị, điều kiện cần và đủ là nó là một đồng cấu có đơn vị song ánh và khi đó ánh xạ nghịch đảo là một đồng cấu có đơn vị. Cho $E$ và $E'$ là các magma có đơn vị và $e'$ là phần tử đơn vị của $E'$; ánh xạ hằng của $E$ vào $E'$ biến $E$ thành $e'$ là một đồng cấu có đơn vị, được gọi là một đồng cấu tầm thường.
 
 Tích của một họ các magma có đơn vị (tương ứng, monođ) là một magma có đơn vị (tương ứng, monođ).
 
 Mọi magma thương của một magma có đơn vị (tương ứng, monođ) đều là một magma có đơn vị (tương ứng, monođ).
 
-Cho $ E $ là một magma có đơn vị và $ e $ là phần tử đơn vị của nó. Một magma con $ A $ của $ E $ sao cho $ e \in A $ được gọi là một magma con có đơn vị của $ E $. Rõ ràng $ e $ là phần tử đơn vị của magma $ A $. Mọi giao của các magma con có đơn vị của $ E $ đều là một magma con có đơn vị của $ E $. Nếu $ X $ là một tập con của $ E $ thì tồn tại một magma con có đơn vị nhỏ nhất của $ E $ chứa $ X $; nó được gọi là magma con có đơn vị của $ E $ sinh bởi $ X $; nó bằng $ \{e\} $ nếu $ X $ là rỗng. Nếu $ E $ là một monoid, một magma con có đơn vị của $ E $ được gọi là một monoid con của $ E $.
+Cho $E$ là một magma có đơn vị và $e$ là phần tử đơn vị của nó. Một magma con $A$ của $E$ sao cho $e \in A$ được gọi là một magma con có đơn vị của $E$. Rõ ràng $e$ là phần tử đơn vị của magma $A$. Mọi giao của các magma con có đơn vị của $E$ đều là một magma con có đơn vị của $E$. Nếu $X$ là một tập con của $E$ thì tồn tại một magma con có đơn vị nhỏ nhất của $E$ chứa $X$; nó được gọi là magma con có đơn vị của $E$ sinh bởi $X$; nó bằng $\{e\}$ nếu $X$ là rỗng. Nếu $E$ là một monoid, một magma con có đơn vị của $E$ được gọi là một monoid con của $E$.
 
-Nếu $ F $ là một magma không có phần tử đơn vị thì một magma con của $ F $ có thể có một phần tử đơn vị. Ví dụ, nếu $ F $ là kết hợp và $ h $ là một phần tử lũy đẳng của $ F $ (I, § 1, no. 4), tập hợp $ h \uparrow x \uparrow h $, trong đó $ x $ chạy qua $ F $, là một magma con của $ F $ với $ h $ là phần tử đơn vị.
+Nếu $F$ là một magma không có phần tử đơn vị thì một magma con của $F$ có thể có một phần tử đơn vị. Ví dụ, nếu $F$ là kết hợp và $h$ là một phần tử lũy đẳng của $F$ (I, § 1, no. 4), tập hợp $h \uparrow x \uparrow h$, trong đó $x$ chạy qua $F$, là một magma con của $F$ với $h$ là phần tử đơn vị.
 
-Nếu $ E $ là một magma có phần tử đơn vị $ e $, một magma con $ A $ của $ E $ sao cho $ e \notin A $ vẫn có thể có một phần tử đơn vị.
+Nếu $E$ là một magma có phần tử đơn vị $e$, một magma con $A$ của $E$ sao cho $e \notin A$ vẫn có thể có một phần tử đơn vị.
 
 #### Định nghĩa 3 {#alg-i-s2-def-3 .statement}
 
-Cho $ E $ là một magma có đơn vị. Phần tử đơn vị của $ E $ được gọi là hợp thành của họ rỗng các phần tử của $ E $.
+Cho $E$ là một magma có đơn vị. Phần tử đơn vị của $E$ được gọi là hợp thành của họ rỗng các phần tử của $E$.
 
 Nếu $(x_\alpha)_{\alpha \in \varnothing}$ là họ rỗng các phần tử của E thì hợp thành của nó $e$ còn được ký hiệu bởi $\prod_{\alpha \in \varnothing} x_\alpha$. Ví dụ, ta viết
 $$
@@ -129,13 +129,13 @@ $$
 
 #### Mệnh đề 1 {#alg-i-s2-prop-1 .statement}
 
-*Nếu luật* $ \mathsf{T} $ *là kết hợp, thì với mọi* $ x \in E $ *và* $ y \in E $
+*Nếu luật* $\mathsf{T}$ *là kết hợp, thì với mọi* $x \in E$ *và* $y \in E$
 
 $$
 \gamma_{x \mathsf{T} y} = \gamma_x \circ \gamma_y, \qquad \delta_{x \mathsf{T} y} = \delta_y \circ \delta_x.
 $$
 
-Với mọi $ z \in E $:
+Với mọi $z \in E$:
 
 $$
 \gamma_{x \mathsf{T} y}(z) = (x \mathsf{T} y) \mathsf{T} z = x \mathsf{T} (y \mathsf{T} z) = \gamma_x(\gamma_y(z))
@@ -144,33 +144,33 @@ $$
 \delta_{x \mathsf{T} y}(z) = z \mathsf{T} (x \mathsf{T} y) = (z \mathsf{T} x) \mathsf{T} y = \delta_y(\delta_x(z))
 $$
 
-Nói cách khác, ánh xạ $ x \mapsto \gamma_x $ là một đồng cấu từ magma $ E $ vào tập hợp $ E^E $ các ánh xạ của $ E $ vào chính nó với luật $ (f, g) \mapsto f \circ g $; ánh xạ $ x \mapsto \delta_x $ là một đồng cấu của $ E $ vào tập hợp $ E^E $ với luật đối. Nếu $ E $ là một monoid, các đồng cấu này có đơn vị.
+Nói cách khác, ánh xạ $x \mapsto \gamma_x$ là một đồng cấu từ magma $E$ vào tập hợp $E^E$ các ánh xạ của $E$ vào chính nó với luật $(f, g) \mapsto f \circ g$; ánh xạ $x \mapsto \delta_x$ là một đồng cấu của $E$ vào tập hợp $E^E$ với luật đối. Nếu $E$ là một monoid, các đồng cấu này có đơn vị.
 
 #### Định nghĩa 5 {#alg-i-s2-def-5 .statement}
 
-*Một phần tử* $ a $ *của một magma* $ E $ *được gọi là giản ước được trái (tương ứng phải) (hoặc chính quy) nếu phép chuyển trái (tương ứng phải) bởi* $ a $ *là đơn ánh. Một phần tử giản ước được trái và phải được gọi là một phần tử giản ước được (hoặc chính quy).*
+*Một phần tử* $a$ *của một magma* $E$ *được gọi là giản ước được trái (tương ứng phải) (hoặc chính quy) nếu phép chuyển trái (tương ứng phải) bởi* $a$ *là đơn ánh. Một phần tử giản ước được trái và phải được gọi là một phần tử giản ước được (hoặc chính quy).*
 
-Nói cách khác, để $ a $ giản ước được theo luật $ \mathsf{T} $, điều kiện cần và đủ là mỗi quan hệ $ a \mathsf{T} x = a \mathsf{T} y, x \mathsf{T} a = y \mathsf{T} a $ kéo theo $ x = y $ (người ta nói rằng "a có thể được giản ước" khỏi mỗi đẳng thức này). Nếu tồn tại một phần tử đơn vị $ e $ theo luật $ \mathsf{T} $, thì nó giản ước được theo luật này: khi đó các phép chuyển $ \gamma_e $ và $ \delta_e $ là ánh xạ đồng nhất của $ E $ lên chính nó.
+Nói cách khác, để $a$ giản ước được theo luật $\mathsf{T}$, điều kiện cần và đủ là mỗi quan hệ $a \mathsf{T} x = a \mathsf{T} y, x \mathsf{T} a = y \mathsf{T} a$ kéo theo $x = y$ (người ta nói rằng "a có thể được giản ước" khỏi mỗi đẳng thức này). Nếu tồn tại một phần tử đơn vị $e$ theo luật $\mathsf{T}$, thì nó giản ước được theo luật này: khi đó các phép chuyển $\gamma_e$ và $\delta_e$ là ánh xạ đồng nhất của $E$ lên chính nó.
 
 #### Ví dụ {#alg-i-s2-n2-exa-1 .statement}
 
-(1) Mọi số tự nhiên đều giản ước được theo phép cộng; mọi số tự nhiên $ \neq 0 $ đều giản ước được theo phép nhân.
+(1) Mọi số tự nhiên đều giản ước được theo phép cộng; mọi số tự nhiên $\neq 0$ đều giản ước được theo phép nhân.
 
-(2) Trong một dàn không thể có phần tử giản ước được nào theo luật sup ngoài phần tử đơn vị (phần tử nhỏ nhất) nếu nó tồn tại; tương tự đối với inf. Đặc biệt, trong tập hợp các tập con của một tập hợp $ E $, $ \varnothing $ là phần tử giản ước được duy nhất theo luật $ \cup $ và $ E $ là phần tử giản ước được duy nhất theo luật $ \cap $.
+(2) Trong một dàn không thể có phần tử giản ước được nào theo luật sup ngoài phần tử đơn vị (phần tử nhỏ nhất) nếu nó tồn tại; tương tự đối với inf. Đặc biệt, trong tập hợp các tập con của một tập hợp $E$, $\varnothing$ là phần tử giản ước được duy nhất theo luật $\cup$ và $E$ là phần tử giản ước được duy nhất theo luật $\cap$.
 
 #### Mệnh đề 2 {#alg-i-s2-prop-2 .statement}
 
 *Tập hợp các phần tử giản ước được (tương ứng trái giản ước được, tương ứng phải giản ước được) của một magma kết hợp là một magma con.*
 
-Nếu $ \gamma_x $ và $ \gamma_y $ là đơn ánh thì $ \gamma_{x \mathsf{T} y} = \gamma_x \circ \gamma_y $ cũng là đơn ánh (Mệnh đề 1). Tương tự đối với $ \delta_{x \mathsf{T} y} $.
+Nếu $\gamma_x$ và $\gamma_y$ là đơn ánh thì $\gamma_{x \mathsf{T} y} = \gamma_x \circ \gamma_y$ cũng là đơn ánh (Mệnh đề 1). Tương tự đối với $\delta_{x \mathsf{T} y}$.
 
 ### 3. CÁC PHẦN TỬ KHẢ NGHỊCH
 
 #### Định nghĩa 6 {#alg-i-s2-def-6 .statement}
 
-*Cho* $ E $ *là một magma có đơn vị, $ \mathsf{T} $ là luật hợp thành của nó, e là phần tử đơn vị của nó và* $ x $ *và* $ x' $ *là hai phần tử của* $ E $. $ x' $ *được gọi là một nghịch đảo trái (tương ứng nghịch đảo phải, tương ứng nghịch đảo) của* $ x $ *nếu* $ x' \mathsf{T} x = e $ *(tương ứng $ x \mathsf{T} x' = e $, tương ứng $ x' \mathsf{T} x = x \mathsf{T} x' = e $).*
+*Cho* $E$ *là một magma có đơn vị, $\mathsf{T}$ là luật hợp thành của nó, e là phần tử đơn vị của nó và* $x$ *và* $x'$ *là hai phần tử của* $E$. $x'$ *được gọi là một nghịch đảo trái (tương ứng nghịch đảo phải, tương ứng nghịch đảo) của* $x$ *nếu* $x' \mathsf{T} x = e$ *(tương ứng $x \mathsf{T} x' = e$, tương ứng $x' \mathsf{T} x = x \mathsf{T} x' = e$).*
 
-*Một phần tử* $ x $ *của* $ E $ *được gọi là khả nghịch trái (tương ứng khả nghịch phải, tương ứng khả nghịch) nếu nó có một nghịch đảo trái (tương ứng nghịch đảo phải, tương ứng nghịch đảo).*
+*Một phần tử* $x$ *của* $E$ *được gọi là khả nghịch trái (tương ứng khả nghịch phải, tương ứng khả nghịch) nếu nó có một nghịch đảo trái (tương ứng nghịch đảo phải, tương ứng nghịch đảo).*
 
 *Một monoid mà mọi phần tử đều khả nghịch được gọi là một nhóm.*
 
@@ -200,9 +200,9 @@ $$
 \delta_x \circ \delta_{x'} = \delta_{x' \top x} = \delta_e = \mathrm{Id}_E
 $$
 
-và $ \delta_x $ là toàn ánh. Ngược lại, nếu $ \delta_x $ là toàn ánh, tồn tại một phần tử $ x' $ của E sao cho $ \delta_x(x') = e $ và $ x' $ là nghịch đảo trái của $ x $. Các khẳng định khác của (i) được suy ra tương tự.
+và $\delta_x$ là toàn ánh. Ngược lại, nếu $\delta_x$ là toàn ánh, tồn tại một phần tử $x'$ của E sao cho $\delta_x(x') = e$ và $x'$ là nghịch đảo trái của $x$. Các khẳng định khác của (i) được suy ra tương tự.
 
-Nếu $ x' $ (tương ứng $ x'' $) là một nghịch đảo trái (tương ứng phải) của $ x $, thì
+Nếu $x'$ (tương ứng $x''$) là một nghịch đảo trái (tương ứng phải) của $x$, thì
 
 $$
 x' = x' \top e = x' \top (x \top x'') = (x' \top x) \top x'' = e \top x'' = x'',
@@ -212,31 +212,31 @@ do đó (ii).
 
 #### Nhận xét {#alg-i-s2-n3-rem-1 .statement}
 
-Cho E là một monoid và x là một phần tử của E. Nếu x khả nghịch trái thì nó giản ước trái được; vì, nếu $ x' $ là một nghịch đảo trái của $ x $, thì
+Cho E là một monoid và x là một phần tử của E. Nếu x khả nghịch trái thì nó giản ước trái được; vì, nếu $x'$ là một nghịch đảo trái của $x$, thì
 
 $$
 \gamma_{x'} \circ \gamma_x = \gamma_{x' \top x} = \gamma_e = \mathrm{Id}_E
 $$
 
-và $ \gamma_x $ là đơn ánh. Đặc biệt, nếu x khả nghịch trái, các phép tịnh tiến trái và phải bởi x là các song ánh. Ngược lại, giả sử rằng $ \gamma_x $ là song ánh; tồn tại $ x' \in E $ sao cho $ xx' = \gamma_x(x') = e $; khi đó $ \gamma_x(x'x) = (xx')x = x = \gamma_x(e) $ và do đó $ x'x = e $, vậy x là khả nghịch. Tương tự ta thấy rằng nếu $ \delta_x $ là song ánh thì x là khả nghịch.
+và $\gamma_x$ là đơn ánh. Đặc biệt, nếu x khả nghịch trái, các phép tịnh tiến trái và phải bởi x là các song ánh. Ngược lại, giả sử rằng $\gamma_x$ là song ánh; tồn tại $x' \in E$ sao cho $xx' = \gamma_x(x') = e$; khi đó $\gamma_x(x'x) = (xx')x = x = \gamma_x(e)$ và do đó $x'x = e$, vậy x là khả nghịch. Tương tự ta thấy rằng nếu $\delta_x$ là song ánh thì x là khả nghịch.
 
 #### Mệnh đề 4 {#alg-i-s2-prop-4 .statement}
 
-Cho E là một monoid và x và y là các phần tử khả nghịch của E với các nghịch đảo lần lượt là x' và y'. Khi đó y' $ \top $ x' là nghịch đảo của x $ \top $ y.
+Cho E là một monoid và x và y là các phần tử khả nghịch của E với các nghịch đảo lần lượt là x' và y'. Khi đó y' $\top$ x' là nghịch đảo của x $\top$ y.
 
 Điều này suy ra từ quan hệ
 $$
 (y' \top x') \top (x \top y) = y' \top (x' \top x) \top y = y' \top y = e
 $$
-và các tính toán tương tự đối với (x $ \top $ y) $ \top $ (y' $ \top $ x').
+và các tính toán tương tự đối với (x $\top$ y) $\top$ (y' $\top$ x').
 
 #### Hệ quả 1 {#alg-i-s2-prop-4-cor-1 .statement}
 
-Cho E là một monoid; nếu mỗi phần tử $ x_\alpha $ của một dãy có thứ tự $(x_\alpha)_{\alpha \in A}$ gồm các phần tử của E có một nghịch đảo $ x'_\alpha $, thì hợp thành $ \prod_{\alpha \in A} x_\alpha $ có nghịch đảo $ \prod_{\alpha \in A'} x'_\alpha $, trong đó A' là tập sắp thứ tự toàn phần dẫn xuất từ A bằng cách thay thế thứ tự trên A bởi thứ tự đối.
+Cho E là một monoid; nếu mỗi phần tử $x_\alpha$ của một dãy có thứ tự $(x_\alpha)_{\alpha \in A}$ gồm các phần tử của E có một nghịch đảo $x'_\alpha$, thì hợp thành $\prod_{\alpha \in A} x_\alpha$ có nghịch đảo $\prod_{\alpha \in A'} x'_\alpha$, trong đó A' là tập sắp thứ tự toàn phần dẫn xuất từ A bằng cách thay thế thứ tự trên A bởi thứ tự đối.
 
 Hệ quả này suy ra từ Mệnh đề 4 bằng quy nạp theo số phần tử của A.
 
-Đặc biệt, nếu x và x' là các nghịch đảo, $ \prod^n x $ và $ \prod^n x' $ là các nghịch đảo với mọi số nguyên $ n \geq 0 $.
+Đặc biệt, nếu x và x' là các nghịch đảo, $\prod^n x$ và $\prod^n x'$ là các nghịch đảo với mọi số nguyên $n \geq 0$.
 
 #### Hệ quả 2 {#alg-i-s2-prop-4-cor-2 .statement}
 
@@ -246,7 +246,7 @@ Trong một monoid, tập hợp các phần tử khả nghịch là ổn định
 
 Nếu trong một monoid x và x' là các nghịch đảo và x giao hoán với y, thì x' cũng vậy.
 
-Từ $ x \top y = y \top x $, ta suy ra $ x' \top (x \top y) \top x' = x' \top (y \top x) \top x' $ và do đó $ (x' \top x) \top (y \top x') = (x' \top y) \top (x \top x') $, nghĩa là $ y \top x' = x' \top y $.
+Từ $x \top y = y \top x$, ta suy ra $x' \top (x \top y) \top x' = x' \top (y \top x) \top x'$ và do đó $(x' \top x) \top (y \top x') = (x' \top y) \top (x \top x')$, nghĩa là $y \top x' = x' \top y$.
 
 #### Hệ quả 1 {#alg-i-s2-prop-5-cor-1 .statement}
 
@@ -264,13 +264,13 @@ Cho E là một monoid giao hoán, S là một tập con của E và S' là mono
 
 #### Bổ đề 1 {#alg-i-s2-lem-1 .statement}
 
-Trong E $ \times $ S', quan hệ R$ \mathcal{R} $x, y$ \mathcal{R} $ được xác định bởi:
+Trong E $\times$ S', quan hệ R$\mathcal{R}$x, y$\mathcal{R}$ được xác định bởi:
 
-"tồn tại $ a, b \in E $ và $ p, q, s \in S' $ sao cho $ x = (a, p), y = (b, q) $ và $ aqs = bps $"
+"tồn tại $a, b \in E$ và $p, q, s \in S'$ sao cho $x = (a, p), y = (b, q)$ và $aqs = bps$"
 
-là một quan hệ tương đương tương thích với luật trên monoid tích E $ \times $ S'.
+là một quan hệ tương đương tương thích với luật trên monoid tích E $\times$ S'.
 
-Hiển nhiên là R có tính phản xạ và đối xứng. Cho $ x = (a, p), y = (b, q) $ và $ z = (c, r) $ là các phần tử của E $ \times $ S' sao cho R$ \mathcal{R} $x, y$ \mathcal{R} $ và R$ \mathcal{R} $y, z$ \mathcal{R} $ đúng. Khi đó tồn tại hai phần tử s và t của S' sao cho
+Hiển nhiên là R có tính phản xạ và đối xứng. Cho $x = (a, p), y = (b, q)$ và $z = (c, r)$ là các phần tử của E $\times$ S' sao cho R$\mathcal{R}$x, y$\mathcal{R}$ và R$\mathcal{R}$y, z$\mathcal{R}$ đúng. Khi đó tồn tại hai phần tử s và t của S' sao cho
 $$
 aq s = bps, \quad br t = cqt,
 $$
@@ -279,71 +279,71 @@ $$
 ar(stq) = bpsrt = cp(stq)
 $$
 
-và do đó $ R \{ x, z \} $ đúng, vì $ stq $ thuộc $ S' $. Quan hệ $ R $ vì vậy là bắc cầu.
+và do đó $R \{ x, z \}$ đúng, vì $stq$ thuộc $S'$. Quan hệ $R$ vì vậy là bắc cầu.
 
-Hơn nữa, cho $ x = (a, p), y = (b, q), x' = (a', p'), $ và $ y' = (b', q') $ là các phần tử của $ E \times S' $ sao cho $ R \{ x, y \} $ và $ R \{ x', y' \} $ đúng. Tồn tại $ s $ và $ s' $ trong $ S' $ sao cho
+Hơn nữa, cho $x = (a, p), y = (b, q), x' = (a', p'),$ và $y' = (b', q')$ là các phần tử của $E \times S'$ sao cho $R \{ x, y \}$ và $R \{ x', y' \}$ đúng. Tồn tại $s$ và $s'$ trong $S'$ sao cho
 $$
 aqs = bps, \qquad a'q's' = b'p's',
 $$
-do đó suy ra $ (aa')(qq')(ss') = (bb')(pp')(ss') $ và do đó $ R \{ xx', yy' \} $ vì $ ss' \in S' $. Quan hệ tương đương $ R $ vì vậy tương thích với luật hợp thành trên $ E \times S' $.
+do đó suy ra $(aa')(qq')(ss') = (bb')(pp')(ss')$ và do đó $R \{ xx', yy' \}$ vì $ss' \in S'$. Quan hệ tương đương $R$ vì vậy tương thích với luật hợp thành trên $E \times S'$.
 
-Magm thương $ (E \times S')/R $ là một monoid giao hoán.
+Magm thương $(E \times S')/R$ là một monoid giao hoán.
 
 #### Định nghĩa 7 {#alg-i-s2-def-7 .statement}
 
-*Cho $ E $ là một monoid giao hoán, $ S $ là một tập con của $ E $ và $ S' $ là monoid con của $ E $ sinh bởi $ S $. Monoid thương $ (E \times S')/R $, trong đó quan hệ tương đương $ R $ được mô tả như trong Bổ đề 1, được ký hiệu là $ E_S $ và được gọi là monoid phân thức† của $ E $ liên kết với $ S $ (hay với các mẫu số trong $ S $).*
+*Cho $E$ là một monoid giao hoán, $S$ là một tập con của $E$ và $S'$ là monoid con của $E$ sinh bởi $S$. Monoid thương $(E \times S')/R$, trong đó quan hệ tương đương $R$ được mô tả như trong Bổ đề 1, được ký hiệu là $E_S$ và được gọi là monoid phân thức† của $E$ liên kết với $S$ (hay với các mẫu số trong $S$).*
 
-Với $ a \in E $ và $ p \in S' $, lớp của $ (a, p) $ modulo $ R $ nói chung được ký hiệu là $ a/p $ và được gọi là phân thức có tử số $ a $ và mẫu số $ p $. Khi đó theo định nghĩa $ (a/p).(a'/|p') = aa'/|pp' $. Các phân thức $ a/p $ và $ a'/|p' $ bằng nhau khi và chỉ khi tồn tại $ s $ trong $ S' $ sao cho $ spa' = sp'a $; nếu vậy, tồn tại $ \sigma $ và $ \sigma' $ trong $ S' $ sao cho $ a\sigma = a'\sigma' $ và $ p\sigma = p'\sigma' $. Đặc biệt, $ a/p = sa/sp $ với $ a \in E $ và $ s, p $ trong $ S' $. Phần tử đơn vị của $ E_S $ là phân thức $ e/e $.
+Với $a \in E$ và $p \in S'$, lớp của $(a, p)$ modulo $R$ nói chung được ký hiệu là $a/p$ và được gọi là phân thức có tử số $a$ và mẫu số $p$. Khi đó theo định nghĩa $(a/p).(a'/|p') = aa'/|pp'$. Các phân thức $a/p$ và $a'/|p'$ bằng nhau khi và chỉ khi tồn tại $s$ trong $S'$ sao cho $spa' = sp'a$; nếu vậy, tồn tại $\sigma$ và $\sigma'$ trong $S'$ sao cho $a\sigma = a'\sigma'$ và $p\sigma = p'\sigma'$. Đặc biệt, $a/p = sa/sp$ với $a \in E$ và $s, p$ trong $S'$. Phần tử đơn vị của $E_S$ là phân thức $e/e$.
 
-Cho $ a/e = \varepsilon(a) $ với mọi $ a \in E $. Điều trên cho thấy rằng $ \varepsilon $ là một đồng cấu từ $ E $ vào $ E_S $, được gọi là chính tắc. Với mọi $ p \in S' $, $ (p/e).(e/p) = e/e $ và do đó $ e/p $ là nghịch đảo của $ \varepsilon(p) = p/e $; mọi phần tử của $ \varepsilon(S') $ vì vậy đều khả nghịch. Khi đó $ a/p = (a/e).(e/p) $, do đó
+Cho $a/e = \varepsilon(a)$ với mọi $a \in E$. Điều trên cho thấy rằng $\varepsilon$ là một đồng cấu từ $E$ vào $E_S$, được gọi là chính tắc. Với mọi $p \in S'$, $(p/e).(e/p) = e/e$ và do đó $e/p$ là nghịch đảo của $\varepsilon(p) = p/e$; mọi phần tử của $\varepsilon(S')$ vì vậy đều khả nghịch. Khi đó $a/p = (a/e).(e/p)$, do đó
 $$
 a/p = \varepsilon(a)\varepsilon(p)^*
 $$
-với $ a \in E $ và $ p \in S' $, monoid $ E_S $ vì vậy được sinh bởi $ \varepsilon(E) \cup \varepsilon(S)^* $.
+với $a \in E$ và $p \in S'$, monoid $E_S$ vì vậy được sinh bởi $\varepsilon(E) \cup \varepsilon(S)^*$.
 
 #### Mệnh đề 6 {#alg-i-s2-prop-6 .statement}
 
-*Ký hiệu là ký hiệu của Định nghĩa 7 và $ \varepsilon $ biểu thị đồng cấu chính tắc của $ E $ vào $ E_S $.
-(i) Cho $ a $ và $ b $ thuộc $ E $; để có $ \varepsilon(a) = \varepsilon(b) $, điều kiện cần và đủ là tồn tại $ s \in S' $ sao cho $ sa = sb $.
-(ii) Để $ \varepsilon $ đơn ánh, điều kiện cần và đủ là mọi phần tử của $ S $ đều giản ước được.
-(iii) Để $ \varepsilon $ song ánh, điều kiện cần và đủ là mọi phần tử của $ S $ đều khả nghịch.*
+*Ký hiệu là ký hiệu của Định nghĩa 7 và $\varepsilon$ biểu thị đồng cấu chính tắc của $E$ vào $E_S$.
+(i) Cho $a$ và $b$ thuộc $E$; để có $\varepsilon(a) = \varepsilon(b)$, điều kiện cần và đủ là tồn tại $s \in S'$ sao cho $sa = sb$.
+(ii) Để $\varepsilon$ đơn ánh, điều kiện cần và đủ là mọi phần tử của $S$ đều giản ước được.
+(iii) Để $\varepsilon$ song ánh, điều kiện cần và đủ là mọi phần tử của $S$ đều khả nghịch.*
 
-Mệnh đề (i) là hiển nhiên và cho thấy rằng $ \varepsilon $ đơn ánh khi và chỉ khi mọi phần tử của $ S' $ đều giản ước được; nhưng vì tập hợp các phần tử giản ước được của $ E $ là một monoid con của $ E $ (no. 2, Mệnh đề 2), điều đó cũng tương đương với việc nói rằng mọi phần tử của $ S $ đều giản ước được.
+Mệnh đề (i) là hiển nhiên và cho thấy rằng $\varepsilon$ đơn ánh khi và chỉ khi mọi phần tử của $S'$ đều giản ước được; nhưng vì tập hợp các phần tử giản ước được của $E$ là một monoid con của $E$ (no. 2, Mệnh đề 2), điều đó cũng tương đương với việc nói rằng mọi phần tử của $S$ đều giản ước được.
 
-† Nó cũng được gọi là *monoid hiệu* nếu luật trên $ E $ được viết theo phép cộng.
+† Nó cũng được gọi là *monoid hiệu* nếu luật trên $E$ được viết theo phép cộng.
 
-Nếu $ \varepsilon $ là song ánh thì mọi phần tử của S đều khả nghịch, vì $ \varepsilon(S) $ được tạo thành bởi các phần tử khả nghịch của $ E_S $. Ngược lại, giả sử mọi phần tử của S đều khả nghịch; khi đó mọi phần tử của $ S' $ đều khả nghịch (no. 3, Hệ quả 2 của Mệnh đề 4) và do đó giản ước được. Khi đó $ \varepsilon $ là đơn ánh theo (ii) và $ a/p = \varepsilon(a.p^*) $ theo (1), do đó $ \varepsilon $ là toàn ánh.
+Nếu $\varepsilon$ là song ánh thì mọi phần tử của S đều khả nghịch, vì $\varepsilon(S)$ được tạo thành bởi các phần tử khả nghịch của $E_S$. Ngược lại, giả sử mọi phần tử của S đều khả nghịch; khi đó mọi phần tử của $S'$ đều khả nghịch (no. 3, Hệ quả 2 của Mệnh đề 4) và do đó giản ước được. Khi đó $\varepsilon$ là đơn ánh theo (ii) và $a/p = \varepsilon(a.p^*)$ theo (1), do đó $\varepsilon$ là toàn ánh.
 
 #### Định lý 1 {#alg-i-s2-thm-1 .statement}
 
-*Cho E là một nửa nhóm giao hoán, S là một tập con của E, $ E_S $ là nửa nhóm các phân thức liên kết với S và $ \varepsilon : E \to E_S $ là đồng cấu chính tắc. Ngoài ra, cho f là một đồng cấu từ E vào một nửa nhóm F (không nhất thiết giao hoán) sao cho mọi phần tử của $ f(S) $ đều khả nghịch trong F. Tồn tại duy nhất một đồng cấu $ \bar{f} $ từ $ E_S $ vào F sao cho $ f = \bar{f} \circ \varepsilon $.*
+*Cho E là một nửa nhóm giao hoán, S là một tập con của E, $E_S$ là nửa nhóm các phân thức liên kết với S và $\varepsilon : E \to E_S$ là đồng cấu chính tắc. Ngoài ra, cho f là một đồng cấu từ E vào một nửa nhóm F (không nhất thiết giao hoán) sao cho mọi phần tử của $f(S)$ đều khả nghịch trong F. Tồn tại duy nhất một đồng cấu $\bar{f}$ từ $E_S$ vào F sao cho $f = \bar{f} \circ \varepsilon$.*
 
-Nếu $ \bar{f} $ là một đồng cấu từ $ E_S $ vào F sao cho $ f = \bar{f} \circ \varepsilon $, thì
+Nếu $\bar{f}$ là một đồng cấu từ $E_S$ vào F sao cho $f = \bar{f} \circ \varepsilon$, thì
 $$
 \bar{f}(a/p) = \bar{f}(\varepsilon(a)\varepsilon(p)^*) = \bar{f}(\varepsilon(a))\bar{f}(\varepsilon(p))^* = f(a)f(p)^*
 $$
-với $ a \in E $ và $ p \in S' $, do đó tính duy nhất của $ \bar{f} $.
+với $a \in E$ và $p \in S'$, do đó tính duy nhất của $\bar{f}$.
 
-Cho g là ánh xạ từ $ E \times S' $ vào F được xác định bởi $ g(a,p) = f(a)f(p)^* $. Ta chứng minh rằng g là một đồng cấu từ $ E \times S' $ vào F. Trước hết,
+Cho g là ánh xạ từ $E \times S'$ vào F được xác định bởi $g(a,p) = f(a)f(p)^*$. Ta chứng minh rằng g là một đồng cấu từ $E \times S'$ vào F. Trước hết,
 $$
 g(e,e) = f(e)f(e)^* = e.
 $$
-Cho $ (a,p) $ và $ (a',p') $ là hai phần tử của $ E \times S' $; vì $ a' $ và $ p $ giao hoán trong E, nên $ f(a') $ và $ f(p) $ giao hoán trong F, do đó $ f(a')f(p)^* = f(p)^*f(a') $ theo no. 3, Mệnh đề 5. Hơn nữa $ f(pp')^* = f(p'p)^* = (f(p')f(p))^* = f(p)^*f(p')^* $ theo no. 3, Mệnh đề 4, do đó
+Cho $(a,p)$ và $(a',p')$ là hai phần tử của $E \times S'$; vì $a'$ và $p$ giao hoán trong E, nên $f(a')$ và $f(p)$ giao hoán trong F, do đó $f(a')f(p)^* = f(p)^*f(a')$ theo no. 3, Mệnh đề 5. Hơn nữa $f(pp')^* = f(p'p)^* = (f(p')f(p))^* = f(p)^*f(p')^*$ theo no. 3, Mệnh đề 4, do đó
 $$
 g(aa',pp') = f(aa')f(pp')^* = f(a)f(a')f(p)^*f(p')^* = f(a)f(p)^*f(a')f(p')^*
 = g(a,p)g(a',p').
 $$
-Ta chứng minh rằng g tương thích với quan hệ tương đương R trên $ E \times S' $: nếu $ (a,p) $ và $ (a',p') $ đồng dư mod. R, thì tồn tại $ s \in S' $ sao cho $ spa' = sap' $, do đó $ f(s)f(p)f(a') = f(s)f(a)f(p') $. Vì $ f(s) $ khả nghịch, suy ra $ f(p)f(a') = f(a)f(p') $ và khi đó bằng phép nhân bên trái với $ f(p)^* $ và phép nhân bên phải với $ f(p')^* $
+Ta chứng minh rằng g tương thích với quan hệ tương đương R trên $E \times S'$: nếu $(a,p)$ và $(a',p')$ đồng dư mod. R, thì tồn tại $s \in S'$ sao cho $spa' = sap'$, do đó $f(s)f(p)f(a') = f(s)f(a)f(p')$. Vì $f(s)$ khả nghịch, suy ra $f(p)f(a') = f(a)f(p')$ và khi đó bằng phép nhân bên trái với $f(p)^*$ và phép nhân bên phải với $f(p')^*$
 $$
 g(a',p') = f(a')f(p')^* = f(p)^*f(a) = f(a)f(p)^* = g(a,p).
 $$
-Do đó tồn tại một đồng cấu $ \bar{f} $ từ $ E_S $ vào F sao cho $ \bar{f}(a/p) = g(a,p) $, do đó $ \bar{f}(\varepsilon(a)) = \bar{f}(a/e) = f(a)f(e)^* = f(a) $. Suy ra $ \bar{f} \circ \varepsilon = f $.
+Do đó tồn tại một đồng cấu $\bar{f}$ từ $E_S$ vào F sao cho $\bar{f}(a/p) = g(a,p)$, do đó $\bar{f}(\varepsilon(a)) = \bar{f}(a/e) = f(a)f(e)^* = f(a)$. Suy ra $\bar{f} \circ \varepsilon = f$.
 
 #### Hệ quả {#alg-i-s2-n4-cor-1 .statement}
 
-*Cho E và F là hai nửa nhóm giao hoán, S và T lần lượt là các tập con của E và F, f là một đồng cấu từ E vào F sao cho $ f(S) \subset T $ và $ \varepsilon : E \to E_S, \eta : F \to F_T $ là các đồng cấu chính tắc. Tồn tại duy nhất một đồng cấu $ g : E_S \to F_T $ sao cho $ g \circ \varepsilon = \eta \circ f $.*
+*Cho E và F là hai nửa nhóm giao hoán, S và T lần lượt là các tập con của E và F, f là một đồng cấu từ E vào F sao cho $f(S) \subset T$ và $\varepsilon : E \to E_S, \eta : F \to F_T$ là các đồng cấu chính tắc. Tồn tại duy nhất một đồng cấu $g : E_S \to F_T$ sao cho $g \circ \varepsilon = \eta \circ f$.*
 
-Đồng cấu $ \eta \circ f $ từ E vào $ F_T $ ánh xạ mọi phần tử của S thành một phần tử khả nghịch của $ F_T $.
+Đồng cấu $\eta \circ f$ từ E vào $F_T$ ánh xạ mọi phần tử của S thành một phần tử khả nghịch của $F_T$.
 
 (2) Để tồn tại nghiệm của bài toán ánh xạ phổ quát trên, không cần thiết phải giả sử nửa nhóm E là giao hoán, như suy ra từ *Lý thuyết tập hợp*, IV, § 3, no. 2 (cf. Bài tập 17).
 
@@ -389,27 +389,27 @@ vì $\mathbf{N}$ ổn định đối với phép cộng; nếu $y - x \in \mathb
 
 Từ nay về sau, khi $\mathbf{Z}$ được xét như một tập hợp có thứ tự, nếu không có nói gì khác, nó sẽ luôn được trang bị quan hệ thứ tự vừa định nghĩa, các số tự nhiên được đồng nhất với các số nguyên $\geq 0$; chúng cũng được gọi là các số nguyên *dương*; các số nguyên $\leq 0$, là số đối của các số nguyên dương, được gọi là các số nguyên *âm*; các số nguyên $> 0$ (tương ứng $< 0$) được gọi là các số nguyên *dương ngặt* (tương ứng *âm ngặt*); tập hợp các số nguyên $> 0$ đôi khi được ký hiệu là $\mathbf{N}^*$.
 
-Cho $x$, $y$ và $z$ là ba số nguyên hữu tỉ; khi đó $x \leq y$ khi và chỉ khi x + z \leq y + z. Vì x - y = (x + z) - (y + z). Tính chất này được diễn đạt bằng cách nói rằng quan hệ thứ tự trên $ \mathbf{Z} $ là bất biến đối với phép tịnh tiến.
+Cho $x$, $y$ và $z$ là ba số nguyên hữu tỉ; khi đó $x \leq y$ khi và chỉ khi x + z \leq y + z. Vì x - y = (x + z) - (y + z). Tính chất này được diễn đạt bằng cách nói rằng quan hệ thứ tự trên $\mathbf{Z}$ là bất biến đối với phép tịnh tiến.
 
 ### 6. ỨNG DỤNG: II. PHÉP NHÂN CÁC SỐ NGUYÊN HỮU TỈ
 
 #### Bổ đề 2 {#alg-i-s2-lem-2 .statement}
 
 Cho E là một monoid và x là một phần tử của E.
-    (i) Tồn tại một đồng cấu duy nhất f từ $ \mathbf{N} $ vào E với $ f(1) = x $ và $ f(n) = \frac{n}{1} x $ với mọi $ n \in \mathbf{N} $.
-    (ii) Nếu x khả nghịch, tồn tại một đồng cấu duy nhất g từ $ \mathbf{Z} $ vào E sao cho $ g(1) = x $ và g trùng với f trên $ \mathbf{N} $.
+    (i) Tồn tại một đồng cấu duy nhất f từ $\mathbf{N}$ vào E với $f(1) = x$ và $f(n) = \frac{n}{1} x$ với mọi $n \in \mathbf{N}$.
+    (ii) Nếu x khả nghịch, tồn tại một đồng cấu duy nhất g từ $\mathbf{Z}$ vào E sao cho $g(1) = x$ và g trùng với f trên $\mathbf{N}$.
 
-    Viết $ f(n) = \frac{n}{1} x $ với mọi $ n \in \mathbf{N} $, các công thức
+    Viết $f(n) = \frac{n}{1} x$ với mọi $n \in \mathbf{N}$, các công thức
     $$
     \frac{0}{1} x = e \quad \text{và} \quad \left( \frac{m}{1} x \right) \cdot \left( \frac{n}{1} x \right) = \frac{m+n}{1} x
     $$
-    (no. 1) diễn đạt rằng f là một đồng cấu từ $ \mathbf{N} $ vào E và hiển nhiên $ f(1) = x $. Nếu $ f' $ là một đồng cấu từ $ \mathbf{N} $ vào E sao cho $ f'(1) = x $, thì $ f = f' $, theo § 1, no. 4, Mệnh đề 1, (iv).
+    (no. 1) diễn đạt rằng f là một đồng cấu từ $\mathbf{N}$ vào E và hiển nhiên $f(1) = x$. Nếu $f'$ là một đồng cấu từ $\mathbf{N}$ vào E sao cho $f'(1) = x$, thì $f = f'$, theo § 1, no. 4, Mệnh đề 1, (iv).
 
-Giả sử bây giờ x khả nghịch. Theo no. 3, Hệ quả 2 của Mệnh đề 4, $ f(n) = \frac{n}{1} x $ khả nghịch với mọi số nguyên $ n \geq 0 $. Theo phép dựng, $ \mathbf{Z} $ là nhóm các hiệu của $ \mathbf{N} $ và do đó (no. 4, Định lý 1) f mở rộng duy nhất thành một đồng cấu g của $ \mathbf{Z} $ vào E. Nếu $ g' $ là một đồng cấu của $ \mathbf{Z} $ vào E với $ g'(1) = x $, hạn chế $ f' $ của $ g' $ lên $ \mathbf{N} $ là một đồng cấu của $ \mathbf{N} $ vào E với $ f'(1) = x $. Do đó $ f' = f $, suy ra $ g' = g $.
+Giả sử bây giờ x khả nghịch. Theo no. 3, Hệ quả 2 của Mệnh đề 4, $f(n) = \frac{n}{1} x$ khả nghịch với mọi số nguyên $n \geq 0$. Theo phép dựng, $\mathbf{Z}$ là nhóm các hiệu của $\mathbf{N}$ và do đó (no. 4, Định lý 1) f mở rộng duy nhất thành một đồng cấu g của $\mathbf{Z}$ vào E. Nếu $g'$ là một đồng cấu của $\mathbf{Z}$ vào E với $g'(1) = x$, hạn chế $f'$ của $g'$ lên $\mathbf{N}$ là một đồng cấu của $\mathbf{N}$ vào E với $f'(1) = x$. Do đó $f' = f$, suy ra $g' = g$.
 
-Chúng ta sẽ áp dụng Bổ đề 2 vào trường hợp monoid E là $ \mathbf{Z} $; do đó với mọi số nguyên $ m \in \mathbf{Z} $ tồn tại một tự đồng cấu $ f_m $ của $ \mathbf{Z} $ được đặc trưng bởi $ f_m(1) = m $. Nếu m thuộc $ \mathbf{N} $, ánh xạ $ n \mapsto mn $ của $ \mathbf{N} $ vào $ \mathbf{N} $ là một tự đồng cấu của magma $ \mathbf{N} $ (Lý thuyết tập hợp, III, § 3, no. 3, Hệ quả của Mệnh đề 5); do đó $ f_m(n) = mn $ với mọi $ m, n $ thuộc $ \mathbf{N} $.
+Chúng ta sẽ áp dụng Bổ đề 2 vào trường hợp monoid E là $\mathbf{Z}$; do đó với mọi số nguyên $m \in \mathbf{Z}$ tồn tại một tự đồng cấu $f_m$ của $\mathbf{Z}$ được đặc trưng bởi $f_m(1) = m$. Nếu m thuộc $\mathbf{N}$, ánh xạ $n \mapsto mn$ của $\mathbf{N}$ vào $\mathbf{N}$ là một tự đồng cấu của magma $\mathbf{N}$ (Lý thuyết tập hợp, III, § 3, no. 3, Hệ quả của Mệnh đề 5); do đó $f_m(n) = mn$ với mọi $m, n$ thuộc $\mathbf{N}$.
 
-Phép nhân trên $ \mathbf{N} $ do đó có thể được mở rộng thành phép nhân trên $ \mathbf{Z} $ bằng công thức $ mn = f_m(n) $ với $ m, n $ thuộc $ \mathbf{Z} $. Chúng ta sẽ thiết lập các công thức:
+Phép nhân trên $\mathbf{N}$ do đó có thể được mở rộng thành phép nhân trên $\mathbf{Z}$ bằng công thức $mn = f_m(n)$ với $m, n$ thuộc $\mathbf{Z}$. Chúng ta sẽ thiết lập các công thức:
 
 (2) $$ xy = yx $$
 (3) $$ (xy)z = x(yz) $$
@@ -419,15 +419,15 @@ Phép nhân trên $ \mathbf{N} $ do đó có thể được mở rộng thành p
 (7) $$ 1.x = x.1 = x $$
 (8) $$ (-1).x = x.(-1) = -x $$
 
-với $ x, y, z $ trong $ \mathbf{Z} $. (*Nói cách khác, $ \mathbf{Z} $ là một vành giao hoán.*) Các công thức $ x(y+z) = xy + xz $ và $ x.0 = 0 $ biểu thị rằng $ f_x $ là một tự đồng cấu của monoid cộng tính $ \mathbf{Z} $ và $ f_x(1) = x $ có thể được viết là $ x.1 = x $. Tự đồng cấu $ f_x \circ f_y $ của $ \mathbf{Z} $ biến 1 thành $ xy $ và do đó bằng $ f_{xy} $, do đó (3). Bây giờ $ f_x(-y) = -f_x(y) $, nghĩa là $ x(-y) = -xy $; tương tự, tự đồng cấu $ y \mapsto -xy $ của $ \mathbf{Z} $ biến 1 thành $ -x $, do đó $ (-x).y = -xy $ và vì vậy
+với $x, y, z$ trong $\mathbf{Z}$. (*Nói cách khác, $\mathbf{Z}$ là một vành giao hoán.*) Các công thức $x(y+z) = xy + xz$ và $x.0 = 0$ biểu thị rằng $f_x$ là một tự đồng cấu của monoid cộng tính $\mathbf{Z}$ và $f_x(1) = x$ có thể được viết là $x.1 = x$. Tự đồng cấu $f_x \circ f_y$ của $\mathbf{Z}$ biến 1 thành $xy$ và do đó bằng $f_{xy}$, do đó (3). Bây giờ $f_x(-y) = -f_x(y)$, nghĩa là $x(-y) = -xy$; tương tự, tự đồng cấu $y \mapsto -xy$ của $\mathbf{Z}$ biến 1 thành $-x$, do đó $(-x).y = -xy$ và vì vậy
 $$
 (-x)(-y) = -(x(-y)) = -(-xy) = xy.
 $$
-Với $ m, n $ trong $ \mathbf{N} $, $ mn = nm $ (Lý thuyết Tập hợp, III, § 3, no. 3, Hệ quả của Mệnh đề 5), do đó $ (-m).n = n(-m) $ và $ (-m)(-n) = (-n)(-m) $; vì $ \mathbf{Z} = \mathbf{N} \cup (-\mathbf{N}) $, $ xy = yx $ với $ x, y $ trong $ \mathbf{Z} $; và công thức này có nghĩa là (5) suy ra từ (4) và hoàn tất chứng minh công thức (6) đến (8).
+Với $m, n$ trong $\mathbf{N}$, $mn = nm$ (Lý thuyết Tập hợp, III, § 3, no. 3, Hệ quả của Mệnh đề 5), do đó $(-m).n = n(-m)$ và $(-m)(-n) = (-n)(-m)$; vì $\mathbf{Z} = \mathbf{N} \cup (-\mathbf{N})$, $xy = yx$ với $x, y$ trong $\mathbf{Z}$; và công thức này có nghĩa là (5) suy ra từ (4) và hoàn tất chứng minh công thức (6) đến (8).
 
 ### 7. ỨNG DỤNG: III. LŨY THỪA TỔNG QUÁT
 
-Cho E là một monoid có phần tử đơn vị $ e $ và luật hợp thành được ký hiệu bởi $ \top $. Nếu $ x $ khả nghịch trong E, gọi $ g_x $ là đồng cấu từ $ \mathbf{Z} $ vào E biến 1 thành $ x $. Đặt $ g_x(n) = \frac{n}{\top} x $ với mọi $ n \in \mathbf{Z} $; theo Bổ đề 2, ký hiệu này tương thích với ký hiệu đã đưa vào trước đây đối với $ n \in \mathbf{N} $. Khi đó
+Cho E là một monoid có phần tử đơn vị $e$ và luật hợp thành được ký hiệu bởi $\top$. Nếu $x$ khả nghịch trong E, gọi $g_x$ là đồng cấu từ $\mathbf{Z}$ vào E biến 1 thành $x$. Đặt $g_x(n) = \frac{n}{\top} x$ với mọi $n \in \mathbf{Z}$; theo Bổ đề 2, ký hiệu này tương thích với ký hiệu đã đưa vào trước đây đối với $n \in \mathbf{N}$. Khi đó
 $$
 \begin{align*}
 \text{(9)} \quad & \frac{m+n}{\top} x = \left( \frac{m}{\top} x \right) \top \left( \frac{n}{\top} x \right) \\
@@ -435,15 +435,15 @@ $$
 \text{(11)} \quad & \frac{1}{\top} x = x
 \end{align*}
 $$
-với $ x $ khả nghịch trong E và $ m, n $ trong $ \mathbf{Z} $. Hơn nữa, nếu $ y = \frac{m}{\top} x $, ánh xạ $ n \mapsto g_x(mn) $ từ $ \mathbf{Z} $ vào E là một đồng cấu biến 1 thành $ y $, do đó $ g_x(mn) = g_y(n) $, nghĩa là
+với $x$ khả nghịch trong E và $m, n$ trong $\mathbf{Z}$. Hơn nữa, nếu $y = \frac{m}{\top} x$, ánh xạ $n \mapsto g_x(mn)$ từ $\mathbf{Z}$ vào E là một đồng cấu biến 1 thành $y$, do đó $g_x(mn) = g_y(n)$, nghĩa là
 $$
 \text{(12)} \quad \frac{mn}{\top} x = \frac{n}{\top} \left( \frac{m}{\top} x \right).
 $$
-Vì $ -1 $ là phần tử đối của 1 trong $ \mathbf{Z} $, $ \frac{-1}{\top} x $ là nghịch đảo của $ x = \frac{1}{\top} x $ trong E. Nếu ta viết $ n = -m $ trong (9), ta thấy rằng $ \frac{-m}{\top} x $ là nghịch đảo của $ \frac{m}{\top} x $.
+Vì $-1$ là phần tử đối của 1 trong $\mathbf{Z}$, $\frac{-1}{\top} x$ là nghịch đảo của $x = \frac{1}{\top} x$ trong E. Nếu ta viết $n = -m$ trong (9), ta thấy rằng $\frac{-m}{\top} x$ là nghịch đảo của $\frac{m}{\top} x$.
 
 ### 8. KÝ HIỆU
 
-(a) Theo quy tắc chung, luật của một monoid giao hoán được viết theo phép cộng. Khi đó, theo quy ước, $ -x $ ký hiệu số đối của $ x $. Ký hiệu $ x + (-y) $ được viết tắt thành $ x - y $ và tương tự
+(a) Theo quy tắc chung, luật của một monoid giao hoán được viết theo phép cộng. Khi đó, theo quy ước, $-x$ ký hiệu số đối của $x$. Ký hiệu $x + (-y)$ được viết tắt thành $x - y$ và tương tự
 $$
 x + y - z, \quad x - y - z, \quad x - y + z - t, \quad \text{v.v. . . .}
 $$
@@ -452,7 +452,7 @@ $$
 x + y + (-z), \quad x + (-y) + (-z), \quad x + (-y) + z + (-t), \quad \text{v.v. . . .}
 $$
 
-Với $ n \in \mathbf{Z} $, ký hiệu $ \overset{n}{\top} x $ được thay bằng $ nx $. Các công thức (9) đến (12) khi đó trở thành
+Với $n \in \mathbf{Z}$, ký hiệu $\overset{n}{\top} x$ được thay bằng $nx$. Các công thức (9) đến (12) khi đó trở thành
 
 (13) $$
 (m + n).x = m.x + n.x
@@ -467,13 +467,13 @@ $$
 m.(n.x) = (mn).x
 $$
 
-trong đó $ m $ và $ n $ thuộc $ \mathbf{N} $ hoặc thậm chí thuộc $ \mathbf{Z} $ nếu $ x $ có số đối. Cũng trong trường hợp sau, quan hệ $ (-1).x = -x $ đúng. Ta cũng chú ý đến công thức
+trong đó $m$ và $n$ thuộc $\mathbf{N}$ hoặc thậm chí thuộc $\mathbf{Z}$ nếu $x$ có số đối. Cũng trong trường hợp sau, quan hệ $(-1).x = -x$ đúng. Ta cũng chú ý đến công thức
 
 (17) $$
 n.(x + y) = n.x + n.y.
 $$
 
-(b) Cho E là một monoid được viết theo phép nhân. Với $ n \in \mathbf{Z} $, ký hiệu $ \overset{n}{\top} x $ được thay bằng $ x^n $. Ta có các quan hệ
+(b) Cho E là một monoid được viết theo phép nhân. Với $n \in \mathbf{Z}$, ký hiệu $\overset{n}{\top} x$ được thay bằng $x^n$. Ta có các quan hệ
 
 $$
 x^{m+n} = x^m.x^n \\
@@ -482,9 +482,9 @@ x^1 = x \\
 (x^m)^n = x^{mn}
 $$
 
-và cả $ (xy)^n = x^ny^n $ nếu $ x $ và $ y $ giao hoán.
+và cả $(xy)^n = x^ny^n$ nếu $x$ và $y$ giao hoán.
 
-Khi $ x $ có nghịch đảo, thì đây chính xác là $ x^{-1} $. Ký hiệu $ \frac{1}{x} $ cũng được dùng thay cho $ x^{-1} $. Cuối cùng, khi monoid E giao hoán, $ \frac{x}{y} $ hoặc $ x/y $ cũng được dùng để chỉ $ xy^{-1} $.
+Khi $x$ có nghịch đảo, thì đây chính xác là $x^{-1}$. Ký hiệu $\frac{1}{x}$ cũng được dùng thay cho $x^{-1}$. Cuối cùng, khi monoid E giao hoán, $\frac{x}{y}$ hoặc $x/y$ cũng được dùng để chỉ $xy^{-1}$.
 
 ### Bài tập {#alg-i-s2-exercises}
 

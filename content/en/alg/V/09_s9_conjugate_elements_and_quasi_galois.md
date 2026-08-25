@@ -30,121 +30,121 @@ subsections:
       pdf_page: 169
 statements: 19
 exercises: 8
-content_sha256: 0e2753f62dd2c70a2305d5d6a45b5fd4e991b15c44499d185806f6afd21ffbe8
+content_sha256: c71157cd922d476b1b228708495f9f9f1ee9a9b4740af6b3058e100e9e1d1ca3
 ---
 
 ## § 9. CONJUGATE ELEMENTS AND QUASI-GALOIS EXTENSIONS
 
-Throughout this paragraph K denotes a field and $ \Omega $ an algebraic closure of K.
+Throughout this paragraph K denotes a field and $\Omega$ an algebraic closure of K.
 
 ### 1. Extension of isomorphisms
 
 #### Proposition 1 {#alg-v-s9-prop-1 .statement}
 
-— Let E be an extension of K contained in $ \Omega $ and u a K-homomorphism of E into $ \Omega $.
+— Let E be an extension of K contained in $\Omega$ and u a K-homomorphism of E into $\Omega$.
 
 a) If u maps E into E, u induces a K-automorphism of E.
 
-b) There exists a K-automorphism v of $ \Omega $ extending u.
+b) There exists a K-automorphism v of $\Omega$ extending u.
 
-Suppose that $ u(E) \subset E $; to prove a) it is enough to show that $ u(E) = E $. Let x be an element of E, f the minimal polynomial of x over K and $ \Phi $ the set of roots of fin E. The set $ \Phi $ is finite, the mapping u of E into E is injective and we have $ u(\Phi) \subset \Phi $; therefore $ u(\Phi) = \Phi $, whence $ x \in u(\Phi) \subset u(E) $; this shows that $ E = u(E) $.
+Suppose that $u(E) \subset E$; to prove a) it is enough to show that $u(E) = E$. Let x be an element of E, f the minimal polynomial of x over K and $\Phi$ the set of roots of fin E. The set $\Phi$ is finite, the mapping u of E into E is injective and we have $u(\Phi) \subset \Phi$; therefore $u(\Phi) = \Phi$, whence $x \in u(\Phi) \subset u(E)$; this shows that $E = u(E)$.
 
-It is clear that $ \Omega $ is an algebraic closure of E and of $ u(E) $; therefore (V, p. 23, Cor.), the isomorphism u of E onto $ u(E) $ extends to an isomorphism v of $ \Omega $ onto $ \Omega $.
+It is clear that $\Omega$ is an algebraic closure of E and of $u(E)$; therefore (V, p. 23, Cor.), the isomorphism u of E onto $u(E)$ extends to an isomorphism v of $\Omega$ onto $\Omega$.
 
 ### 2. Conjugate extensions. Conjugate elements
 
 #### Definition 1 {#alg-v-s9-def-1 .statement}
 
-— Let E and F be two extensions of K contained in $ \Omega $. We shall say that E and F are conjugate (in $ \Omega $) if there exists a K-automorphism u of $ \Omega $ such that $ u(E) = F $. Two elements x and y of $ \Omega $ are said to be conjugate over K if there exists a K-automorphism u of $ \Omega $ such that $ u(x) = y $.
+— Let E and F be two extensions of K contained in $\Omega$. We shall say that E and F are conjugate (in $\Omega$) if there exists a K-automorphism u of $\Omega$ such that $u(E) = F$. Two elements x and y of $\Omega$ are said to be conjugate over K if there exists a K-automorphism u of $\Omega$ such that $u(x) = y$.
 
-Let E and F be two extensions of K contained in $ \Omega $. By Prop. 1, E and F are conjugate over K if and only if they are isomorphic extensions of K. This is so in particular when there exist two subsets A and B of $ \Omega $ such that $ E = K(A) $ and $ F = K(B) $ and a K-automorphism u of $ \Omega $ such that $ u(A) = B $.
+Let E and F be two extensions of K contained in $\Omega$. By Prop. 1, E and F are conjugate over K if and only if they are isomorphic extensions of K. This is so in particular when there exist two subsets A and B of $\Omega$ such that $E = K(A)$ and $F = K(B)$ and a K-automorphism u of $\Omega$ such that $u(A) = B$.
 
-The relation « x and y are conjugate over K » is an equivalence relation in $ \Omega $; -the equivalence classes are called the conjugacy classes in $ \Omega $; they are the orbits in $ \Omega $ of the group of all K-automorphisms of $ \Omega $.
+The relation « x and y are conjugate over K » is an equivalence relation in $\Omega$; -the equivalence classes are called the conjugacy classes in $\Omega$; they are the orbits in $\Omega$ of the group of all K-automorphisms of $\Omega$.
 
 #### Proposition 2 {#alg-v-s9-prop-2 .statement}
 
-— Let x and y be two elements of $ \Omega $. Then the following conditions are equivalent:
+— Let x and y be two elements of $\Omega$. Then the following conditions are equivalent:
 
 a) x and y are conjugate over K.
 
-b) There exists a K-isomorphism o of $ K(x) $ onto $ K(y) $ such that $ v(x) = y $.
+b) There exists a K-isomorphism o of $K(x)$ onto $K(y)$ such that $v(x) = y$.
 
 c) x and y have the same minimal polynomial over K.
 
-Suppose first that x and y are conjugate over K; let u be a K-automorphism of $ \Omega $ such that $ u(x) = y $ and let f be the minimal polynomial of x over K. We have
+Suppose first that x and y are conjugate over K; let u be a K-automorphism of $\Omega$ such that $u(x) = y$ and let f be the minimal polynomial of x over K. We have
 
 $$
 f(y) = f(u(x)) = u(f(x)) = 0,
 $$
 
-and $ f $ is a monic irreducible polynomial in $ \mathbf{K}[X] $; therefore ($ V $, p. 16, Th. 1, c)), $ f $ is the minimal polynomial of $ y $ over $ K $. Thus $ a) $ implies $ c) $.
+and $f$ is a monic irreducible polynomial in $\mathbf{K}[X]$; therefore ($V$, p. 16, Th. 1, c)), $f$ is the minimal polynomial of $y$ over $K$. Thus $a)$ implies $c)$.
 
-Suppose now that $ x $ and $ y $ have the same minimal polynomial $ f $ over $ K $. There exists a $ K $-isomorphism of the field $ \mathbf{K}[X]/(f) $ onto $ \mathbf{K}(x) $ (resp. onto $ \mathbf{K}(y) $) mapping the residue class of $ X $ modulo $ (f) $ to $ x $ (resp. $ y $) ($ V $, p. 16, Th. 1, b)); hence there exists a $ K $-isomorphism $ v $ of $ \mathbf{K}(x) $ onto $ \mathbf{K}(y) $ such that $ v(x) = y $. Therefore $ c) $ implies $ b) $.
+Suppose now that $x$ and $y$ have the same minimal polynomial $f$ over $K$. There exists a $K$-isomorphism of the field $\mathbf{K}[X]/(f)$ onto $\mathbf{K}(x)$ (resp. onto $\mathbf{K}(y)$) mapping the residue class of $X$ modulo $(f)$ to $x$ (resp. $y$) ($V$, p. 16, Th. 1, b)); hence there exists a $K$-isomorphism $v$ of $\mathbf{K}(x)$ onto $\mathbf{K}(y)$ such that $v(x) = y$. Therefore $c)$ implies $b)$.
 
-Finally, under the hypothesis $ b) $, Prop. 1 implies the existence of a $ K $-automorphism $ u $ of $ \Omega $ extending $ v $; we then have $ u(x) = y $, hence $ x $ and $ y $ are conjugate over $ K $, so $ b) $ implies $ a) $.
+Finally, under the hypothesis $b)$, Prop. 1 implies the existence of a $K$-automorphism $u$ of $\Omega$ extending $v$; we then have $u(x) = y$, hence $x$ and $y$ are conjugate over $K$, so $b)$ implies $a)$.
 
 #### Corollary 1 {#alg-v-s9-prop-2-cor-1 .statement}
 
-— *Let $ x $ be an element of $ \Omega $ of degree $ n $ over $ K $, and let $ f $ be the minimal polynomial of $ x $ over $ K $. The conjugates of $ x $ over $ K $ are-the roots off in $ \Omega $ and their number is at most equal to $ n $.*
+— *Let $x$ be an element of $\Omega$ of degree $n$ over $K$, and let $f$ be the minimal polynomial of $x$ over $K$. The conjugates of $x$ over $K$ are-the roots off in $\Omega$ and their number is at most equal to $n$.*
 
 #### Corollary 2 {#alg-v-s9-prop-2-cor-2 .statement}
 
-— *Let $ x $ be an element of $ \Omega $ of degree $ n $ over $ K $. For $ x $ to be separable over $ K $ it is necessary and sufficient that $ x $ should have $ n $ conjugates in $ \Omega $; when this is so, all the conjugates of $ x $ over $ K $ are separable over $ K $.
+— *Let $x$ be an element of $\Omega$ of degree $n$ over $K$. For $x$ to be separable over $K$ it is necessary and sufficient that $x$ should have $n$ conjugates in $\Omega$; when this is so, all the conjugates of $x$ over $K$ are separable over $K$.
 
-Let $ f $ be the minimal polynomial of $ x $ over $ K $; its roots are the conjugates of $ x $ over $ K $, and each of these roots admits $ f $ as minimal polynomial over $ K $. Now $ x $ is separable over $ K $ if and only if the polynomial $ f $ is separable ($ V $, p. 39, Prop. 5), that is, if $ f $ has $ n $ distinct roots in $ \Omega $. Cor. 2 follows from this.*
+Let $f$ be the minimal polynomial of $x$ over $K$; its roots are the conjugates of $x$ over $K$, and each of these roots admits $f$ as minimal polynomial over $K$. Now $x$ is separable over $K$ if and only if the polynomial $f$ is separable ($V$, p. 39, Prop. 5), that is, if $f$ has $n$ distinct roots in $\Omega$. Cor. 2 follows from this.*
 
 #### Corollary 3 {#alg-v-s9-prop-2-cor-3 .statement}
 
-— *Let $ G $ be the group of $ K $-automorphisms of $ \Omega $. The set of invariants of $ G $ in $ \Omega $ is the relative p-radical closure of $ K $ in $ \Omega $ ($ V $, p. 25).
+— *Let $G$ be the group of $K$-automorphisms of $\Omega$. The set of invariants of $G$ in $\Omega$ is the relative p-radical closure of $K$ in $\Omega$ ($V$, p. 25).
 
-In other words, an element $ x $ of $ \Omega $ is p-radical over $ K $ if and only if it has no conjugate other than itself.
+In other words, an element $x$ of $\Omega$ is p-radical over $K$ if and only if it has no conjugate other than itself.
 
-Let $ p $ be the characteristic exponent and let $ x \in \Omega $. By $ V $, p. 44, Prop. 13, there exists an integer $ m \geq 0 $ such that $ y = x^{p^m} $ is algebraic and separable over $ K $. Now $ x $ is invariant under $ G $ if and only if $ y $ is invariant under $ G $; by Cor. 2 this is the case if and only if $ y $ is of degree 1 over $ K $, which amounts to saying that $ y \in K $. Now the corollary is an immediate consequence.*
+Let $p$ be the characteristic exponent and let $x \in \Omega$. By $V$, p. 44, Prop. 13, there exists an integer $m \geq 0$ such that $y = x^{p^m}$ is algebraic and separable over $K$. Now $x$ is invariant under $G$ if and only if $y$ is invariant under $G$; by Cor. 2 this is the case if and only if $y$ is of degree 1 over $K$, which amounts to saying that $y \in K$. Now the corollary is an immediate consequence.*
 
 ### 3. Quasi-Galois extensions
 
 #### Definition 2 {#alg-v-s9-def-2 .statement}
 
-— *Let $ E $ be an extension of $ K $. Then $ E $ is said to be quasi-Galois or normal (over $ K $), if it is algebraic and if every irreducible polynomial of $ K[X] $ which has at least one root in $ E $, splits into a product of polynomials of degree 1 (distinct or not) in $ E[X] $.
+— *Let $E$ be an extension of $K$. Then $E$ is said to be quasi-Galois or normal (over $K$), if it is algebraic and if every irreducible polynomial of $K[X]$ which has at least one root in $E$, splits into a product of polynomials of degree 1 (distinct or not) in $E[X]$.
 
-If $ E $ is an algebraic closure of $ K $, it is a quasi-Galois extension of $ K $; for the condition (AC) of Prop. 1 ($ V $, p. 19) asserts that every non-constant polynomial in $ E[X] $ is a product of polynomials of degree 1.*
+If $E$ is an algebraic closure of $K$, it is a quasi-Galois extension of $K$; for the condition (AC) of Prop. 1 ($V$, p. 19) asserts that every non-constant polynomial in $E[X]$ is a product of polynomials of degree 1.*
 
 #### Proposition 3 {#alg-v-s9-prop-3 .statement}
 
-— Let E be an extension of K contained in $ \Omega $. Then the following conditions are equivalent:
+— Let E be an extension of K contained in $\Omega$. Then the following conditions are equivalent:
 a) E is a quasi-Galois extension of K.
-b) For each $ x \in E $ the conjugates of $ x $ over K in $ \Omega $ all belong to E.
-c) Every K-automorphism of $ \Omega $ maps the field E into itself.
-d) Every K-homomorphism of E into $ \Omega $ maps E into itself.
-e) E is the splitting extension in $ \Omega $ of a family $ (f_i)_{i \in I} $ of non-constant polynomials in $ K[X] $ (V, p. 24, Remark 3).
+b) For each $x \in E$ the conjugates of $x$ over K in $\Omega$ all belong to E.
+c) Every K-automorphism of $\Omega$ maps the field E into itself.
+d) Every K-homomorphism of E into $\Omega$ maps E into itself.
+e) E is the splitting extension in $\Omega$ of a family $(f_i)_{i \in I}$ of non-constant polynomials in $K[X]$ (V, p. 24, Remark 3).
 
-The equivalence of c) and d) stems from the fact that every K-homomorphism of E into $ \Omega $ is induced by a K-automorphism of $ \Omega $ (V, p. 52, Prop. 1).
+The equivalence of c) and d) stems from the fact that every K-homomorphism of E into $\Omega$ is induced by a K-automorphism of $\Omega$ (V, p. 52, Prop. 1).
 
-By definition a quasi-Galois extension is the splitting field of the family of minimal polynomials (over K) of its elements, so a) implies e). Under the hypothesis e) let $ u $ be an automorphism of $ \Omega $; for each $ i \in I $, $ u $ permutes the set $ R_i $ of roots of $ f_i $ and since $ E = K \left( \bigcup_{i \in I} R_i \right) $, we have $ u(E) = E $; thus e) implies c).
+By definition a quasi-Galois extension is the splitting field of the family of minimal polynomials (over K) of its elements, so a) implies e). Under the hypothesis e) let $u$ be an automorphism of $\Omega$; for each $i \in I$, $u$ permutes the set $R_i$ of roots of $f_i$ and since $E = K \left( \bigcup_{i \in I} R_i \right)$, we have $u(E) = E$; thus e) implies c).
 
-The definition of conjugate elements shows that c) implies b). Finally assume that b) holds; let $ f $ be a monic irreducible polynomial in $ K[X] $ having at least one root $ x $ in E; since $ \Omega $ is algebraically closed, there exist elements $ a_k $ of $ \Omega $ ($ 1 \leq k \leq n $) such that $ f(x) = \prod_{k=1}^n (X - a_k) $ and since the $ a_k $ are the conjugates of x over K (V, p. 53, Cor. 1), they belong to E by hypothesis. So we have shown that b) implies a).
+The definition of conjugate elements shows that c) implies b). Finally assume that b) holds; let $f$ be a monic irreducible polynomial in $K[X]$ having at least one root $x$ in E; since $\Omega$ is algebraically closed, there exist elements $a_k$ of $\Omega$ ($1 \leq k \leq n$) such that $f(x) = \prod_{k=1}^n (X - a_k)$ and since the $a_k$ are the conjugates of x over K (V, p. 53, Cor. 1), they belong to E by hypothesis. So we have shown that b) implies a).
 
 #### Corollary 1 {#alg-v-s9-prop-3-cor-1 .statement}
 
-— For an extension E of K contained in $ \Omega $ to be quasi-Galois it is necessary and sufficient that it should be identical to all its conjugates over K.
+— For an extension E of K contained in $\Omega$ to be quasi-Galois it is necessary and sufficient that it should be identical to all its conjugates over K.
 
 This follows from Prop. 1, a) (V, p. 52) and the equivalence of the conditions a) and c) of Prop. 3.
 
 #### Corollary 2 {#alg-v-s9-prop-3-cor-2 .statement}
 
-— Let E and F be two algebraic extensions of K such that $ E \subset F $. If F is quasi-Galois over K, then it is quasi-Galois over E.
+— Let E and F be two algebraic extensions of K such that $E \subset F$. If F is quasi-Galois over K, then it is quasi-Galois over E.
 
-We may assume that $ F \subset \Omega $. Let $ u $ be an E-automorphism of $ \Omega $. Since $ u $ is a K-automorphism of $ \Omega $ and F is quasi-Galois over K, we have $ u(F) = F $, therefore F is quasi-Galois over E.
+We may assume that $F \subset \Omega$. Let $u$ be an E-automorphism of $\Omega$. Since $u$ is a K-automorphism of $\Omega$ and F is quasi-Galois over K, we have $u(F) = F$, therefore F is quasi-Galois over E.
 
 #### Corollary 3 {#alg-v-s9-prop-3-cor-3 .statement}
 
-— Let N be a quasi-Galois extension of K contained in $ \Omega $, and E a subextension of N. Let $ u $ be a K-homomorphism of E into $ \Omega $; then $ u(E) \subset N $ and there exists a K-automorphism $ v $ of N which induces $ u $ on E.
+— Let N be a quasi-Galois extension of K contained in $\Omega$, and E a subextension of N. Let $u$ be a K-homomorphism of E into $\Omega$; then $u(E) \subset N$ and there exists a K-automorphism $v$ of N which induces $u$ on E.
 
-Let $ w $ be a K-automorphism of $ \Omega $ extending $ u $ (V, p. 52, Prop. 1); since N is quasi-Galois over K, we have $ w(N) = N $, whence $ w(E) \subset N $ and so $ w $ induces a K-automorphism $ v $ of N.
+Let $w$ be a K-automorphism of $\Omega$ extending $u$ (V, p. 52, Prop. 1); since N is quasi-Galois over K, we have $w(N) = N$, whence $w(E) \subset N$ and so $w$ induces a K-automorphism $v$ of N.
 
 #### Corollary 4 {#alg-v-s9-prop-3-cor-4 .statement}
 
-— Let $ E' $ be an extension of K and E, $ K' $ two subextensions of $ E' $. Suppose that E is quasi-Galois over K and $ E' = K'(E) $; then $ E' $ is quasi-Galois over $ K' $.
+— Let $E'$ be an extension of K and E, $K'$ two subextensions of $E'$. Suppose that E is quasi-Galois over K and $E' = K'(E)$; then $E'$ is quasi-Galois over $K'$.
 
 Let $(f_i)_{i \in I}$ be a family of non-constant polynomials in $K[X]$ whose splitting field over $K$ is $E$. Then it is clear that $E'$ is the splitting field of the family $(f_i)_{i \in I}$ over $K'$, so it is quasi-Galois over $K'$.
 
@@ -174,17 +174,17 @@ The next proposition follows directly from the preceding remarks.
 
 #### Proposition 5 {#alg-v-s9-prop-5 .statement}
 
-— Let E be an extension of K contained in $ \Omega $ and N the quasi-Galois extension generated by E. If A is a subset of $ \Omega $ such that $ E = K(A) $ then $ N = K(B) $, where B is the set of elements of $ \Omega $ which are conjugate to an element of A.
+— Let E be an extension of K contained in $\Omega$ and N the quasi-Galois extension generated by E. If A is a subset of $\Omega$ such that $E = K(A)$ then $N = K(B)$, where B is the set of elements of $\Omega$ which are conjugate to an element of A.
 
 #### Corollary 1 {#alg-v-s9-prop-5-cor-1 .statement}
 
 — If E is an extension of finite degree of K, then the quasi-Galois extension N of K generated by E is of finite degree over K.
-For we have $ E = K(A) $ where A is finite, hence the set B of conjugates of elements of A is finite, whence the corollary follows by Th. 2 (V, p. 18).
+For we have $E = K(A)$ where A is finite, hence the set B of conjugates of elements of A is finite, whence the corollary follows by Th. 2 (V, p. 18).
 
 #### Corollary 2 {#alg-v-s9-prop-5-cor-2 .statement}
 
 — Every quasi-Galois extension N of K is the union of quasi-Galois subextensions of N of finite degree over K.
-Let $ x \in N $ and let $ N_x $ be the quasi-Galois extension of K generated by $ \{x\} $. Since $ K(x) $ is of finite degree over K, the same is true of $ N_x $ (Cor. 1) and we have $ x \in N_x $.
+Let $x \in N$ and let $N_x$ be the quasi-Galois extension of K generated by $\{x\}$. Since $K(x)$ is of finite degree over K, the same is true of $N_x$ (Cor. 1) and we have $x \in N_x$.
 
 ### Exercises {#alg-v-s9-exercises}
 

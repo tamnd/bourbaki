@@ -29,7 +29,7 @@ subsections:
       pdf_page: 281
 statements: 23
 exercises: 16
-content_sha256: cf2302a90a1e9657902d7919df217d3f7d6b603bc13005c234931da12e93a39f
+content_sha256: 13b2d06e3e8c8872d9e3f91186077fdb068739451dbc3faf9b1d59434350b643
 ---
 
 ## § 2. ORTHOGONAL FAMILIES IN A HILBERTIAN SPACE
@@ -38,50 +38,50 @@ content_sha256: cf2302a90a1e9657902d7919df217d3f7d6b603bc13005c234931da12e93a39f
 
 #### Proposition 1 {#evt-v-s2-prop-1 .statement}
 
-*Let $ (E_i)_{i \in I} $ be a family of hilbertian spaces, P the product vector space $ \prod_{i \in I} E_i $ and E the subset of P consisting of all families $ x = (x_i)_{i \in I} $ such that $ \sum_{i \in I} \|x_i\|^2 $ is finite.
+*Let $(E_i)_{i \in I}$ be a family of hilbertian spaces, P the product vector space $\prod_{i \in I} E_i$ and E the subset of P consisting of all families $x = (x_i)_{i \in I}$ such that $\sum_{i \in I} \|x_i\|^2$ is finite.
 
 a) E is a vector subspace of P.
 
-b) For every $ x = (x_i)_{i \in I} $ and $ y = (y_i)_{i \in I} $ in E, the family $ (\langle x_i|y_i \rangle)_{i \in I} $ is summable. If we put $ \langle x|y \rangle = \sum_{i \in I} \langle x_i|y_i \rangle $, we define a positive separating hermitian form on E.
+b) For every $x = (x_i)_{i \in I}$ and $y = (y_i)_{i \in I}$ in E, the family $(\langle x_i|y_i \rangle)_{i \in I}$ is summable. If we put $\langle x|y \rangle = \sum_{i \in I} \langle x_i|y_i \rangle$, we define a positive separating hermitian form on E.
 
-c) For the scalar product so defined, E is a hilbertian space; the direct sum S of the $ E_i $ is dense in E.
+c) For the scalar product so defined, E is a hilbertian space; the direct sum S of the $E_i$ is dense in E.
 
-For $ x = (x_i)_{i \in I} $ and $ y = (y_i)_{i \in I} $ in E, we have
+For $x = (x_i)_{i \in I}$ and $y = (y_i)_{i \in I}$ in E, we have
 $$
 \|x_i + y_i\|^2 \leq 2(\|x_i\|^2 + \|y_i\|^2),
 $$
-hence $ x + y = (x_i + y_i)_{i \in I} $ belongs to E. This proves a).
+hence $x + y = (x_i + y_i)_{i \in I}$ belongs to E. This proves a).
 
 By the Cauchy-Schwarz inequality, we have
 $$
 |\langle x_i|y_i \rangle| \leq \|x_i\| \cdot \|y_i\| \leq \frac{1}{2}(\|x_i\|^2 + \|y_i\|^2)
 $$
-hence $ \sum_{i \in I} |\langle x_i|y_i \rangle| < +\infty $. If $ x \neq 0 $, we have $ \langle x|x \rangle = \sum_{i \in I} \|x_i\|^2 > 0 $, hence assertion b) follows.
+hence $\sum_{i \in I} |\langle x_i|y_i \rangle| < +\infty$. If $x \neq 0$, we have $\langle x|x \rangle = \sum_{i \in I} \|x_i\|^2 > 0$, hence assertion b) follows.
 
-We recall that S is the subspace of P consisting of all families $ x = (x_i)_{i \in I} $ such that the set of all $ i \in I $ for which $ x_i \neq 0 $ is finite. It follows immediately that S is dense in E; hence it remains to prove that E is *complete* for the topology $ \mathcal{T}_1 $ obtained by the norm $ \|x\| = \langle x|x \rangle^{1/2} $. Let $ \mathcal{T}_2 $ be the topology induced on E by the product topology on $ \prod_{i \in I} E_i $. For every $ r > 0 $, let $ B_r $ be the set of all $ x \in E $ such that $ \|x\| \leq r $. This relation implies that we have $ \sum_{i \in J} \|x_i\|^2 \leq r^2 $ for every finite subset J of I, and so $ B_r $ is a closed subset of $ \prod_{i \in I} E_i $, hence also complete. The fact that E is complete for $ \mathcal{T}_1 $ now follows from GT, III, § 3, No. 5, cor. 2 to prop. 10.
+We recall that S is the subspace of P consisting of all families $x = (x_i)_{i \in I}$ such that the set of all $i \in I$ for which $x_i \neq 0$ is finite. It follows immediately that S is dense in E; hence it remains to prove that E is *complete* for the topology $\mathcal{T}_1$ obtained by the norm $\|x\| = \langle x|x \rangle^{1/2}$. Let $\mathcal{T}_2$ be the topology induced on E by the product topology on $\prod_{i \in I} E_i$. For every $r > 0$, let $B_r$ be the set of all $x \in E$ such that $\|x\| \leq r$. This relation implies that we have $\sum_{i \in J} \|x_i\|^2 \leq r^2$ for every finite subset J of I, and so $B_r$ is a closed subset of $\prod_{i \in I} E_i$, hence also complete. The fact that E is complete for $\mathcal{T}_1$ now follows from GT, III, § 3, No. 5, cor. 2 to prop. 10.
 
 #### Definition 1 {#evt-v-s2-def-1 .statement}
 
-*Let* $ (E_i)_{i \in I} $ *be a family of hilbertian spaces. The hilbertian space E defined in prop. 1 is called the external hilbertian sum of the family* $ (E_i)_{i \in I} $ *and written as* $ \bigoplus_{i \in I} E_i $ *or* $ \bigoplus_{i \in I} E_i $^1.
+*Let* $(E_i)_{i \in I}$ *be a family of hilbertian spaces. The hilbertian space E defined in prop. 1 is called the external hilbertian sum of the family* $(E_i)_{i \in I}$ *and written as* $\bigoplus_{i \in I} E_i$ *or* $\bigoplus_{i \in I} E_i$^1.
 
-Let $ f_i $ be the mapping from $ E_i $ into E which transforms $ z \in E_i $ into an element $ (x_k) \in E $ such that $ x_k = 0 $ for all $ k \neq i $ and $ x_i = z $; it is clear that $ f_i $ is an isomorphism from the hilbertian space $ E_i $ onto a closed vector subspace of E. We say that $ f_i $ is the *canonical mapping* from $ E_i $ into E and we shall generally identify $ E_i $ with its image in E by this isomorphism. With this convention, $ E_i $ and $ E_k $ are *orthogonal* in E for $ i \neq k $, and E is the closed vector subspace generated by the union of the subspaces $ E_i $.
+Let $f_i$ be the mapping from $E_i$ into E which transforms $z \in E_i$ into an element $(x_k) \in E$ such that $x_k = 0$ for all $k \neq i$ and $x_i = z$; it is clear that $f_i$ is an isomorphism from the hilbertian space $E_i$ onto a closed vector subspace of E. We say that $f_i$ is the *canonical mapping* from $E_i$ into E and we shall generally identify $E_i$ with its image in E by this isomorphism. With this convention, $E_i$ and $E_k$ are *orthogonal* in E for $i \neq k$, and E is the closed vector subspace generated by the union of the subspaces $E_i$.
 
-When I is finite, E is the direct sum of the $ E_i $; since the canonical projector from E onto $ E_i $ is continuous for all $ i \in I $, E is also the topological direct sum of the $ E_i $ (GT, III, § 6, No. 2, prop. 2). If $ I = \{1, n\} $, we also write $ E_1 \oplus E_2 \oplus ... \oplus E_n $ instead of $ \bigoplus_{i=1}^n E_i $.
+When I is finite, E is the direct sum of the $E_i$; since the canonical projector from E onto $E_i$ is continuous for all $i \in I$, E is also the topological direct sum of the $E_i$ (GT, III, § 6, No. 2, prop. 2). If $I = \{1, n\}$, we also write $E_1 \oplus E_2 \oplus ... \oplus E_n$ instead of $\bigoplus_{i=1}^n E_i$.
 
 #### Example {#evt-v-s2-n1-exa-1 .statement}
 
-— Let E be a hilbertian space and I a set of indices. Let $ \ell^2_E(I) $ denote the external hilbertian sum of the family $ (E_i)_{i \in I} $ where $ E_i = E $ for all $ i \in I $. In other words, $ \ell^2_E(I) $ is the space of all families $ x = (x_i)_{i \in I} $ of elements of E such that $ \sum_{i \in I} \|x_i\|^2 < +\infty $, endowed with the scalar product $ \langle x|y \rangle = \sum_{i \in I} \langle x_i|y_i \rangle $ (space of square summable families of elements of E indexed by I). We put $ \ell^2(I) = \ell^2_K(I) $.
+— Let E be a hilbertian space and I a set of indices. Let $\ell^2_E(I)$ denote the external hilbertian sum of the family $(E_i)_{i \in I}$ where $E_i = E$ for all $i \in I$. In other words, $\ell^2_E(I)$ is the space of all families $x = (x_i)_{i \in I}$ of elements of E such that $\sum_{i \in I} \|x_i\|^2 < +\infty$, endowed with the scalar product $\langle x|y \rangle = \sum_{i \in I} \langle x_i|y_i \rangle$ (space of square summable families of elements of E indexed by I). We put $\ell^2(I) = \ell^2_K(I)$.
 
 ### 2. Hilbertian sum of orthogonal subspaces of a hilbertian space
 
 #### Definition 2 {#evt-v-s2-def-2 .statement}
 
-*A hilbertian space E is said to be a hilbertian sum of a family* $ (E_i)_{i \in I} $ *of closed vector subspaces of E when* :
+*A hilbertian space E is said to be a hilbertian sum of a family* $(E_i)_{i \in I}$ *of closed vector subspaces of E when* :
 
-1) *for two distinct indices* $ i, k $ *in I, the subspaces* $ E_i $ *and* $ E_k $ *are orthogonal in* E;
-2) *the closed vector subspace generated by the union of the* $ E_i $ *is* E.
+1) *for two distinct indices* $i, k$ *in I, the subspaces* $E_i$ *and* $E_k$ *are orthogonal in* E;
+2) *the closed vector subspace generated by the union of the* $E_i$ *is* E.
 
-1 Care must be taken not to confuse this notation with that of the « algebraic » direct sum of the spaces $ E_i $ (A, II, § 1, No. 6).
+1 Care must be taken not to confuse this notation with that of the « algebraic » direct sum of the spaces $E_i$ (A, II, § 1, No. 6).
 
 #### Theorem 1 {#evt-v-s2-thm-1 .statement}
 
@@ -155,11 +155,11 @@ To show that the condition is sufficient, it is enough to verify that, if it is 
 
 #### Definition 3 {#evt-v-s2-def-3 .statement}
 
-In a prehilbertian space, a family (e_i)_{i∈I} of vectors is said to be orthogonal if e_i and e_k are orthogonals for all i ≠ k, and is said to be orthonormal, if in addition $ \|e_i\| = 1 $ for all $ i ∈ I $.
+In a prehilbertian space, a family (e_i)_{i∈I} of vectors is said to be orthogonal if e_i and e_k are orthogonals for all i ≠ k, and is said to be orthonormal, if in addition $\|e_i\| = 1$ for all $i ∈ I$.
 
-A subset S of E such that the family defined by the identity mapping from S onto itself is orthonormal is said to be an orthonormal set. If (e_i)_{i∈I} is an orthonormal family, the mapping $ i \mapsto e_i $ is injective; we can then talk indifferently of an orthonormal family or an orthonormal set.
+A subset S of E such that the family defined by the identity mapping from S onto itself is orthonormal is said to be an orthonormal set. If (e_i)_{i∈I} is an orthonormal family, the mapping $i \mapsto e_i$ is injective; we can then talk indifferently of an orthonormal family or an orthonormal set.
 
-If (e_i)_{i∈I} is an orthonormal family, the complete one dimensional vector subspaces D_i = Ke_i are two by two orthogonal. For every x ∈ E, the orthogonal projection of x on D_i is $ λ_i e_i $ with $ ⟨e_i|x - λ_i e_i⟩ = 0 $, which gives $ ⟨e_i|x⟩ = λ_i ⟨e_i|e_i⟩ = λ_i $. The results of No. 2 applied to the subspaces D_i imply the following propositions:
+If (e_i)_{i∈I} is an orthonormal family, the complete one dimensional vector subspaces D_i = Ke_i are two by two orthogonal. For every x ∈ E, the orthogonal projection of x on D_i is $λ_i e_i$ with $⟨e_i|x - λ_i e_i⟩ = 0$, which gives $⟨e_i|x⟩ = λ_i ⟨e_i|e_i⟩ = λ_i$. The results of No. 2 applied to the subspaces D_i imply the following propositions:
 
 #### Proposition 3 {#evt-v-s2-prop-3 .statement}
 
@@ -177,11 +177,11 @@ $$
 \sum_{i∈I} |⟨e_i|x⟩|^2 \leq \|x\|^2
 $$
 
-(Bessel’s inequality); here the set of all $ i ∈ I $ such that $ ⟨e_i|x⟩ \neq 0 $ is countable. Moreover, the following conditions are equivalent : a) $ x ∈ V $; b) $ \|x\|^2 = \sum_{i∈I} |⟨e_i|x⟩|^2 $; c) the family $ ⟨e_i|x⟩.e_i $ is summable in E, and $ x = \sum_{i∈I} ⟨e_i|x⟩.e_i $.
+(Bessel’s inequality); here the set of all $i ∈ I$ such that $⟨e_i|x⟩ \neq 0$ is countable. Moreover, the following conditions are equivalent : a) $x ∈ V$; b) $\|x\|^2 = \sum_{i∈I} |⟨e_i|x⟩|^2$; c) the family $⟨e_i|x⟩.e_i$ is summable in E, and $x = \sum_{i∈I} ⟨e_i|x⟩.e_i$.
 
-2) If V is complete, then the family of all $ ⟨e_i|x⟩.e_i $ is summable in E for all $ x ∈ E $, and $ \sum_{i∈I} ⟨e_i|x⟩.e_i = p_V(x), \sum_{i∈I} |⟨e_i|x⟩|^2 = \|p_V(x)\|^2 $.
+2) If V is complete, then the family of all $⟨e_i|x⟩.e_i$ is summable in E for all $x ∈ E$, and $\sum_{i∈I} ⟨e_i|x⟩.e_i = p_V(x), \sum_{i∈I} |⟨e_i|x⟩|^2 = \|p_V(x)\|^2$.
 
-3) Suppose V is complete. For every family $ (\lambda_i)_{i∈I} $ of scalars such that $ \sum_{i∈I} |\lambda_i|^2 < +∞ $, there exists a unique point $ x ∈ V $ such that $ ⟨e_i|x⟩ = \lambda_i $ for all $ i ∈ I $. If $ (\mu_i)_{i∈I} $ is a second family of scalars such that $ \sum_{i∈I} |\mu_i|^2 < +∞ $, and if $ y ∈ V $ is such that $ ⟨e_i|y⟩ = \mu_i $ for all $ i ∈ I $, then $ ⟨x|y⟩ = \sum_{i∈I} \overline{\lambda_i} \mu_i $.
+3) Suppose V is complete. For every family $(\lambda_i)_{i∈I}$ of scalars such that $\sum_{i∈I} |\lambda_i|^2 < +∞$, there exists a unique point $x ∈ V$ such that $⟨e_i|x⟩ = \lambda_i$ for all $i ∈ I$. If $(\mu_i)_{i∈I}$ is a second family of scalars such that $\sum_{i∈I} |\mu_i|^2 < +∞$, and if $y ∈ V$ is such that $⟨e_i|y⟩ = \mu_i$ for all $i ∈ I$, then $⟨x|y⟩ = \sum_{i∈I} \overline{\lambda_i} \mu_i$.
 
 #### Proposition 5 {#evt-v-s2-prop-5 .statement}
 
@@ -231,7 +231,7 @@ $$
 \langle f | g \rangle = \int_0^1 \overline{f(t)}\ g(t)\ dt .
 $$
 
-Then E is a Hausdorff prehilbertian space, but is not complete. For every integer $ n \in \mathbf{Z} $, let $ e_n(x) \in \mathbf{e}(nx) $. It is immediate that the family $ (e_n)_{n \in \mathbf{Z}} $ is orthonormal in E. Moreover, the topology of uniform convergence on E is finer than the topology deduced from the norm $ \|f\|_2 = \langle f|f \rangle^{1/2} $. The family $ (e_n)_{n \in \mathbf{Z}} $ is total in E for the uniform convergence (GT, X, § 4, No. 4), and *a fortiori* in the prehilbertian space E. Hence $ (e_n)_{n \in \mathbf{Z}} $ is an orthonormal basis of E.
+Then E is a Hausdorff prehilbertian space, but is not complete. For every integer $n \in \mathbf{Z}$, let $e_n(x) \in \mathbf{e}(nx)$. It is immediate that the family $(e_n)_{n \in \mathbf{Z}}$ is orthonormal in E. Moreover, the topology of uniform convergence on E is finer than the topology deduced from the norm $\|f\|_2 = \langle f|f \rangle^{1/2}$. The family $(e_n)_{n \in \mathbf{Z}}$ is total in E for the uniform convergence (GT, X, § 4, No. 4), and *a fortiori* in the prehilbertian space E. Hence $(e_n)_{n \in \mathbf{Z}}$ is an orthonormal basis of E.
 
 ### 4. Orthonormalisation
 
@@ -239,35 +239,35 @@ Then E is a Hausdorff prehilbertian space, but is not complete. For every intege
 
 *For every orthonormal set L in a hilbertian space E, there exists an orthonormal basis B of E containing L.*
 
-In fact, let $ \mathfrak{D} $ be the family of all orthonormal subsets of E, linearly ordered by inclusion; it is immediate that this family has finite character (S, III, § 4, No. 5). Hence there exists a *maximal* family B in $ \mathfrak{D} $ containing L, by th. 1 of S, III, § 4, No. 5. It remains to prove that B is a total set. If not, there will exist a vector $ y \neq 0 $ which is orthogonal to all the vectors of B (V, p. 22, prop. 5), and multiplying y by a suitable scalar, we can assume that $ \|y\| = 1 $; then, $ B \cup \{y\} $ will be an orthonormal set distinct from B and containing B; this contradicts the definition of B; hence the theorem.
+In fact, let $\mathfrak{D}$ be the family of all orthonormal subsets of E, linearly ordered by inclusion; it is immediate that this family has finite character (S, III, § 4, No. 5). Hence there exists a *maximal* family B in $\mathfrak{D}$ containing L, by th. 1 of S, III, § 4, No. 5. It remains to prove that B is a total set. If not, there will exist a vector $y \neq 0$ which is orthogonal to all the vectors of B (V, p. 22, prop. 5), and multiplying y by a suitable scalar, we can assume that $\|y\| = 1$; then, $B \cup \{y\}$ will be an orthonormal set distinct from B and containing B; this contradicts the definition of B; hence the theorem.
 
 #### Corollary 1 {#evt-v-s2-thm-2-cor-1 .statement}
 
 *In every hilbertian space, there exists an orthonormal basis.*
 
-It is enough to apply th. 2 to the case $ L = \varnothing $.
+It is enough to apply th. 2 to the case $L = \varnothing$.
 
 #### Corollary 2 {#evt-v-s2-thm-2-cor-2 .statement}
 
-*Every hilbertian space is isomorphic to a space $ \ell^2(I) $.*
+*Every hilbertian space is isomorphic to a space $\ell^2(I)$.*
 
-More precisely, let $ (e_i)_{i \in I} $ be an orthonormal basis of a hilbertian space E. By props. 4 (V, p. 21) and 5 (V, p. 22), the mapping $ \phi $ defined by
+More precisely, let $(e_i)_{i \in I}$ be an orthonormal basis of a hilbertian space E. By props. 4 (V, p. 21) and 5 (V, p. 22), the mapping $\phi$ defined by
 $$
 \phi(x) = (\langle e_i|x \rangle)_{i \in I}
 $$
-is a hilbertian space isomorphism from E onto $ \ell^2(I) $. The inverse isomorphism $ \psi $ is defined by
+is a hilbertian space isomorphism from E onto $\ell^2(I)$. The inverse isomorphism $\psi$ is defined by
 $$
 \psi((\lambda_i)_{i \in I}) = \sum_{i \in I} \lambda_i e_i .
 $$
 
 #### Proposition 6 {#evt-v-s2-prop-6 .statement}
 
-*Let E be a Hausdorff prehilbertian space, and let $ (a_n)_{n \in I} $ (I an interval of $ \mathbf{N} $ with origin 1) be a countable (finite or not) independent family of vectors of E. There exists an orthonormal family $ (e_n)_{n \in I} $, and only one, in E, with the following properties:
+*Let E be a Hausdorff prehilbertian space, and let $(a_n)_{n \in I}$ (I an interval of $\mathbf{N}$ with origin 1) be a countable (finite or not) independent family of vectors of E. There exists an orthonormal family $(e_n)_{n \in I}$, and only one, in E, with the following properties:
 
-1) for every integer $ p \in I $, the vector subspace of E generated by $ e_1, e_2, ..., e_p $ is identical with the vector subspace of E generated by $ a_1, a_2, ..., a_p $;
-2) for every integer $ p \in I $, the number $ \langle a_p|e_p \rangle $ is real and $ > 0 $.
+1) for every integer $p \in I$, the vector subspace of E generated by $e_1, e_2, ..., e_p$ is identical with the vector subspace of E generated by $a_1, a_2, ..., a_p$;
+2) for every integer $p \in I$, the number $\langle a_p|e_p \rangle$ is real and $> 0$.
 
-In fact, let $ V_n $ be the subspace (of dimension n) generated by $ a_1, a_2, ..., a_n $. If $ n + 1 \in I $ and $ b_{n+1} = a_{n+1} - p_{V_n}(a_{n+1}) $ (where $ p_{V_n} $ is the orthoprojector onto the complete subspace $ V_n $), the line $ K b_{n+1} $ is the orthogonal of $ V_n $ in $ V_{n+1} $. If the $ e_n $ satisfy condition 1) of the proposition, we must have $ e_{n+1} = \lambda b_{n+1} $; the condition $ \|e_{n+1}\| = 1 $ then implies $ |\lambda|^2 \|b_{n+1}\|^2 = 1 $ and the condition $ \langle a_{n+1}|e_{n+1} \rangle > 0 $ implies $ \lambda \langle a_{n+1}|b_{n+1} \rangle > 0 $; this completely determines $ \lambda $, and we have proved that we can determine, by induction, an orthonormal family $(e_n)_{n \in I}$, and only one, so as to satisfy conditions 1) and 2) of the proposition.
+In fact, let $V_n$ be the subspace (of dimension n) generated by $a_1, a_2, ..., a_n$. If $n + 1 \in I$ and $b_{n+1} = a_{n+1} - p_{V_n}(a_{n+1})$ (where $p_{V_n}$ is the orthoprojector onto the complete subspace $V_n$), the line $K b_{n+1}$ is the orthogonal of $V_n$ in $V_{n+1}$. If the $e_n$ satisfy condition 1) of the proposition, we must have $e_{n+1} = \lambda b_{n+1}$; the condition $\|e_{n+1}\| = 1$ then implies $|\lambda|^2 \|b_{n+1}\|^2 = 1$ and the condition $\langle a_{n+1}|e_{n+1} \rangle > 0$ implies $\lambda \langle a_{n+1}|b_{n+1} \rangle > 0$; this completely determines $\lambda$, and we have proved that we can determine, by induction, an orthonormal family $(e_n)_{n \in I}$, and only one, so as to satisfy conditions 1) and 2) of the proposition.
 
 The sequence $(e_n)_{n \in I}$ is said to be obtained by *orthonormalisation* from the independent family $(a_n)_{n \in I}$. It is clear that the vector subspace generated by the family $(e_n)$ is identical with the vector subspace generated by the family $(a_n)$. In particular, if $(a_n)$ is a total sequence, so is $(e_n)$, which is then an orthonormal basis of E; hence we get:
 
@@ -302,7 +302,7 @@ The cardinality of an arbitrary orthonormal basis of a hilbertian space E is cal
 
 #### Corollary 2 {#evt-v-s2-prop-7-cor-2 .statement}
 
-— In order that the hilbertian spaces $ \ell^2(I) $ and $ \ell^2(J) $ be isomorphic, it is necessary and sufficient that I and J are equipotent.
+— In order that the hilbertian spaces $\ell^2(I)$ and $\ell^2(J)$ be isomorphic, it is necessary and sufficient that I and J are equipotent.
 
 ### Exercises {#evt-v-s2-exercises}
 

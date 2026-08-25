@@ -386,7 +386,7 @@ chapters:
               page: 187
               pdf_page: 200
             - "no": 3
-              title: The normaliser of $ W_\alpha $
+              title: The normaliser of $W_\alpha$
               page: 188
               pdf_page: 201
             - "no": 4
@@ -446,39 +446,39 @@ chapters:
               page: 212
               pdf_page: 225
             - "no": 5
-              title: Systems of type $ B_l $ ($ l \geq 2 $)
+              title: Systems of type $B_l$ ($l \geq 2$)
               page: 214
               pdf_page: 227
             - "no": 6
-              title: Systems of type $ C_l $ ($ l \geq 2 $)
+              title: Systems of type $C_l$ ($l \geq 2$)
               page: 216
               pdf_page: 229
             - "no": 7
-              title: Systems of type $ A_l $ ($ l \geq 1 $)
+              title: Systems of type $A_l$ ($l \geq 1$)
               page: 217
               pdf_page: 230
             - "no": 8
-              title: Systems of type $ D_l $ ($ l \geq 3 $)
+              title: Systems of type $D_l$ ($l \geq 3$)
               page: 220
               pdf_page: 233
             - "no": 9
-              title: System of type $ F_4 $
+              title: System of type $F_4$
               page: 223
               pdf_page: 236
             - "no": 10
-              title: System of type $ E_8 $
+              title: System of type $E_8$
               page: 225
               pdf_page: 238
             - "no": 11
-              title: System of type $ E_7 $
+              title: System of type $E_7$
               page: 227
               pdf_page: 240
             - "no": 12
-              title: System of type $ E_6 $
+              title: System of type $E_6$
               page: 229
               pdf_page: 242
             - "no": 13
-              title: System of type $ G_2 $
+              title: System of type $G_2$
               page: 231
               pdf_page: 244
             - "no": 14

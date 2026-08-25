@@ -13,7 +13,7 @@ pdf_pages: 0679-0734
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 5af65f5b13b8975b7fe850a1f1e5ddf05b39234af5824438937534fd1b3b408e
+content_sha256: a3fbcbf4cb7df0e3e94f0c44f1e279811ec50e413842e6493f07ed4b9a87d2cb
 ---
 
 # HISTORICAL NOTE
@@ -22,7 +22,7 @@ content_sha256: 5af65f5b13b8975b7fe850a1f1e5ddf05b39234af5824438937534fd1b3b408e
 
 (N.B. Numbers in brackets refer to the bibliography at the end of this Note.)
 
-Linear algebra is both one of the oldest and one of the newest branches of mathematics. On the other hand, at the origins of mathematics are the problems which are solved by a single multiplication or division, that is by calculating a value of a function $ f(x) = ax $, or by solving an equation $ ax = b $: these are typical problems of linear algebra and it is impossible to deal with them, indeed even to pose them correctly, without "thinking linearly".
+Linear algebra is both one of the oldest and one of the newest branches of mathematics. On the other hand, at the origins of mathematics are the problems which are solved by a single multiplication or division, that is by calculating a value of a function $f(x) = ax$, or by solving an equation $ax = b$: these are typical problems of linear algebra and it is impossible to deal with them, indeed even to pose them correctly, without "thinking linearly".
 
 On the other hand, not only these questions but almost everything concerning equations of the first degree had long been relegated to elementary teaching, when the modern development of the notions of field, ring, topological vector space, etc. came to isolate and emphasize the essential notions of linear algebra (for example duality); then the essentially linear character of almost the whole of modern mathematics was perceived, of which "linearization" is itself one of the distinguishing traits, and linear algebra was given the place it merits. To give its history, from our present point of view, would therefore be a task as difficult as it is important; and we must therefore be content to give a brief summary.
 
@@ -32,37 +32,37 @@ From the above it is seen that linear algebra was no doubt born in response to t
 
 Pisa and the countless "calculation books" of the Middle Ages and the Renaissance; but they never constituted more than a small part, for the use of practical men, of the most advanced scientific theories.
 
-As for mathematicians proper, the nature of their research on linear algebra depends on the general structure of their science. Ancient Greek mathematics, as expounded in the *Elements* of Euclid, developed two abstract theories of a linear character, on the one hand that of magnitudes ([2], Book V; cf. Historical Note to *General Topology*, IV) and on the other hand that of integers ([2], Book VII). With the Babylonians we find methods much more akin to our elementary algebra; they know how to solve, and most elegantly ([1], pp. 181–183), systems of equations of the first degree. For a very long time, nevertheless, the progress of linear algebra is mainly confined to that of algebraic calculations and they should be considered from this point of view, foreign to this Note; to reduce a linear system to an equation of the type $ ax = b $, it suffices, in the case of a single unknown, to know the rules (already, in substance, stated by Diophantus) for taking terms from one side to the other and combining similar terms; and, in the case of several unknowns, it suffices to know also how to eliminate them successively until only one is left. Also the Treatises on algebra, until the XVIIIth century, think that all is accomplished as far as the first degree is concerned, when they have expounded these rules; as for a system of as many equations as unknowns (they do not consider others) where the left hand sides are not linearly independent forms, they are content to observe in passing that this indicates a badly posed problem. In the treatises of the XIXth century and even certain more recent works, this point of view is only modified by the progress of notation, which allows writing systems of $ n $ equations in $ n $ unknowns, and by the introduction of determinants which allow formulae of an explicit solution to be given in the "general case"; this progress, the credit for which would have belonged to Leibniz ([7], p. 239) had he developed and published his ideas on this subject, is mainly due to the mathematicians of the XVIIIth and early XIXth centuries.
+As for mathematicians proper, the nature of their research on linear algebra depends on the general structure of their science. Ancient Greek mathematics, as expounded in the *Elements* of Euclid, developed two abstract theories of a linear character, on the one hand that of magnitudes ([2], Book V; cf. Historical Note to *General Topology*, IV) and on the other hand that of integers ([2], Book VII). With the Babylonians we find methods much more akin to our elementary algebra; they know how to solve, and most elegantly ([1], pp. 181–183), systems of equations of the first degree. For a very long time, nevertheless, the progress of linear algebra is mainly confined to that of algebraic calculations and they should be considered from this point of view, foreign to this Note; to reduce a linear system to an equation of the type $ax = b$, it suffices, in the case of a single unknown, to know the rules (already, in substance, stated by Diophantus) for taking terms from one side to the other and combining similar terms; and, in the case of several unknowns, it suffices to know also how to eliminate them successively until only one is left. Also the Treatises on algebra, until the XVIIIth century, think that all is accomplished as far as the first degree is concerned, when they have expounded these rules; as for a system of as many equations as unknowns (they do not consider others) where the left hand sides are not linearly independent forms, they are content to observe in passing that this indicates a badly posed problem. In the treatises of the XIXth century and even certain more recent works, this point of view is only modified by the progress of notation, which allows writing systems of $n$ equations in $n$ unknowns, and by the introduction of determinants which allow formulae of an explicit solution to be given in the "general case"; this progress, the credit for which would have belonged to Leibniz ([7], p. 239) had he developed and published his ideas on this subject, is mainly due to the mathematicians of the XVIIIth and early XIXth centuries.
 
 But we must first study various currents of ideas which, much more than the study of linear equations, contributed to the development of linear algebra in the sense in which we understand it. Inspired by the study of Appollonius, Fermat [4(a)], having conceived, even before Descartes [5], the principle of analytic geometry, has the idea of classifying plane curves according to their degree (which, having become little by little familiar to all mathematicians, can be considered to have been definitely grasped towards the end of the XVIIth century) and formulates the fundamental principle that an equation of the first degree, in the plane, represents a line and an equation of the second degree a conic: a principle from which he deduces immediately some "very beautiful" consequences relating to geometric loci. At the same time, he enunciates [4(b)] the classification of problems into problems with a single solution, problems which reduce to an equation in two unknowns, an equation in three unknowns, etc.; and he adds: the first consist of determining a point, the second a line or plane locus, the others a surface, etc. ("... such a problem does not seek only a point or a line, but the whole of a surface appropriate to the question; here surfaces as loci have their genesis and similarly for the rest", loc. cit., p. 186; here already is the germ of n-dimensional geometry). This paper, formulating the principle of dimension in algebra and algebraic geometry, indicates a fusion of algebra and geometry in absolute conformity with modern ideas, but which, as has already been seen, took more than two centuries to penetrate into men's minds.
 
-At least these ideas soon result in the expansion of analytic geometry which reaches its fulness in the XVIIIth century with Clairaut, Euler, Cramer, Lagrange and many others. The linear character of the formulae for transformation of coordinates in the plane and in space, which Fermat cannot have failed already to have perceived, is put in relief for example by Euler ([8(a)], Chapters II–III and Appendix to Chapter IV), who here lays the foundation of the classification of plane curves and that of surfaces according to their degree (invariant precisely because of the linearity of these formulae); he it is also (loc. cit., Chapter XVIII) who introduces the word "affinity" to describe the relation between curves which can be derived one from the other by a transformation $ x' = ax, y' = by $ (but without perceiving anything geometrically invariant in this definition which remains bound to a particular choice of axes). A little later we see Lagrange [9(a)] devoting a whole memoir, which long remained justly famous, to typically linear and multilinear problems of analytic geometry in three dimensions. Around about this time, in relation to the linear problem constituted by the search for a plane curve passing through given points, the notion of determinant takes shape, first in a somewhat empirical way, with Cramer [10] and Bezout [11]; this notion is then developed by several authors and its essential properties are definitively established by Cauchy [13] and Jacobi [16(a)].
+At least these ideas soon result in the expansion of analytic geometry which reaches its fulness in the XVIIIth century with Clairaut, Euler, Cramer, Lagrange and many others. The linear character of the formulae for transformation of coordinates in the plane and in space, which Fermat cannot have failed already to have perceived, is put in relief for example by Euler ([8(a)], Chapters II–III and Appendix to Chapter IV), who here lays the foundation of the classification of plane curves and that of surfaces according to their degree (invariant precisely because of the linearity of these formulae); he it is also (loc. cit., Chapter XVIII) who introduces the word "affinity" to describe the relation between curves which can be derived one from the other by a transformation $x' = ax, y' = by$ (but without perceiving anything geometrically invariant in this definition which remains bound to a particular choice of axes). A little later we see Lagrange [9(a)] devoting a whole memoir, which long remained justly famous, to typically linear and multilinear problems of analytic geometry in three dimensions. Around about this time, in relation to the linear problem constituted by the search for a plane curve passing through given points, the notion of determinant takes shape, first in a somewhat empirical way, with Cramer [10] and Bezout [11]; this notion is then developed by several authors and its essential properties are definitively established by Cauchy [13] and Jacobi [16(a)].
 
-On the other hand, whilst mathematicians had a slight tendency to despise equations of the first degree, the solution of differential equations was considered a capital problem; it was natural that, among these equations, linear equations, with constant coefficients or otherwise, should early be distinguished and their study contributed to emphasize linearity and related properties. This is certainly seen in the work of Lagrange [9(b)] and Euler [8(b)], at least as far as homogeneous equations are concerned; for these authors see no point in saying that the general solution of the non-homogeneous equation is the sum of a particular solution and the general solution of the corresponding homogeneous equation and they make no use of this principle (known however to d'Alembert); we note here also that, when they state that the general solution of the homogeneous linear equation of order $ n $ is a linear combination of $ n $ particular solutions, they do not add that these must be linearly independent and make no effort to make the latter notion explicit; it seems that only the teaching of Cauchy at the École Polytechnique throws some light ([14], pp. 573–574) on these points as on many others. But already Lagrange (*loc. cit.*) introduces also (purely by calculation, it is true, and without giving it a name) the adjoint equation $ L^*(y) = 0 $ of a linear differential equation $ L(y) = 0 $, an example typical of duality by virtue of the relation
+On the other hand, whilst mathematicians had a slight tendency to despise equations of the first degree, the solution of differential equations was considered a capital problem; it was natural that, among these equations, linear equations, with constant coefficients or otherwise, should early be distinguished and their study contributed to emphasize linearity and related properties. This is certainly seen in the work of Lagrange [9(b)] and Euler [8(b)], at least as far as homogeneous equations are concerned; for these authors see no point in saying that the general solution of the non-homogeneous equation is the sum of a particular solution and the general solution of the corresponding homogeneous equation and they make no use of this principle (known however to d'Alembert); we note here also that, when they state that the general solution of the homogeneous linear equation of order $n$ is a linear combination of $n$ particular solutions, they do not add that these must be linearly independent and make no effort to make the latter notion explicit; it seems that only the teaching of Cauchy at the École Polytechnique throws some light ([14], pp. 573–574) on these points as on many others. But already Lagrange (*loc. cit.*) introduces also (purely by calculation, it is true, and without giving it a name) the adjoint equation $L^*(y) = 0$ of a linear differential equation $L(y) = 0$, an example typical of duality by virtue of the relation
 
 $$
 \int z L(y)\, dx = \int L^*(z) y\, dx,
 $$
 
-valid for $ y $ and $ z $ zero at the extremities of the interval of integration; more precisely, and 30 years before Gauss defined explicitly the transpose of a linear substitution in 3 variables, we see here the first example without doubt of a "functional operator" $ L^* $ the transpose or "adjoint" of an operator $ L $ given by means of a bilinear function (here the integral $ \int yz\, dx $).
+valid for $y$ and $z$ zero at the extremities of the interval of integration; more precisely, and 30 years before Gauss defined explicitly the transpose of a linear substitution in 3 variables, we see here the first example without doubt of a "functional operator" $L^*$ the transpose or "adjoint" of an operator $L$ given by means of a bilinear function (here the integral $\int yz\, dx$).
 
-At the same time and again with Lagrange [9(c)], linear substitutions, in 2 and 3 variables at first, were in the process of conquering arithmetic. Clearly the set of values of a function $ F(x, y) $, when $ x $ and $ y $ are given all integral values, does not change when a linear substitution with integral coefficients, of determinant 1, is performed on $ x $ and $ y $; on this fundamental observation Lagrange founds the theory of representations of numbers by forms and that of the reduction of forms; and Gauss, by a step whose boldness it has become difficult for us to appreciate, isolates the notion of equivalence and that of class of forms (cf. Historical Note to I); on this subject, he recognizes the necessity of certain elementary principles relating to linear substitutions and introduces in particular the notion of transpose or adjoint ([12(a)], p. 304). From this moment onwards, the arithmetic study and the algebraic study of quadratic forms, in 2, 3 and later $ n $ variables, that of bilinear forms which are closely related to them and more recently the generalization of these notions to an infinity of variables were, right up to the present, to constitute one of the most fertile sources of progress for linear algebra (cf. Historical Note to IX).
+At the same time and again with Lagrange [9(c)], linear substitutions, in 2 and 3 variables at first, were in the process of conquering arithmetic. Clearly the set of values of a function $F(x, y)$, when $x$ and $y$ are given all integral values, does not change when a linear substitution with integral coefficients, of determinant 1, is performed on $x$ and $y$; on this fundamental observation Lagrange founds the theory of representations of numbers by forms and that of the reduction of forms; and Gauss, by a step whose boldness it has become difficult for us to appreciate, isolates the notion of equivalence and that of class of forms (cf. Historical Note to I); on this subject, he recognizes the necessity of certain elementary principles relating to linear substitutions and introduces in particular the notion of transpose or adjoint ([12(a)], p. 304). From this moment onwards, the arithmetic study and the algebraic study of quadratic forms, in 2, 3 and later $n$ variables, that of bilinear forms which are closely related to them and more recently the generalization of these notions to an infinity of variables were, right up to the present, to constitute one of the most fertile sources of progress for linear algebra (cf. Historical Note to IX).
 
-But a perhaps still more decisive progress was the creation by Gauss, in the same *Disquisitiones* (cf. Historical Note to I), of the theory of finite commutative groups, which occur there in four different ways, in the additive group of integers modulo $ m $ (for $ m $ an integer), in the multiplicative group of integers prime to $ m $ modulo $ m $, in the group of classes of binary quadratic forms and finally in the multiplicative group of $ m $-th roots of unity; and, as we have already noted, it is clearly as commutative groups, or rather as modules over $ \mathbf{Z} $, that Gauss treats all these groups and studies their structure, their relations of isomorphism, etc. In the module of "complex integers" $ a + bi $, he is later seen studying an infinite module over $ \mathbf{Z} $, whose isomorphism he no doubt perceived with the module of periods (discovered by him in the complex domain) of elliptic functions; in any case this idea already appears neatly in Jacobi's work, for example in his famous proof of the impossibility of a function with 3 periods and his views on the problem of inversion of Abelian integrals [16(b)], to result soon in the theorems of Kronecker (cf. Historical Note to General Topology, VII).
+But a perhaps still more decisive progress was the creation by Gauss, in the same *Disquisitiones* (cf. Historical Note to I), of the theory of finite commutative groups, which occur there in four different ways, in the additive group of integers modulo $m$ (for $m$ an integer), in the multiplicative group of integers prime to $m$ modulo $m$, in the group of classes of binary quadratic forms and finally in the multiplicative group of $m$-th roots of unity; and, as we have already noted, it is clearly as commutative groups, or rather as modules over $\mathbf{Z}$, that Gauss treats all these groups and studies their structure, their relations of isomorphism, etc. In the module of "complex integers" $a + bi$, he is later seen studying an infinite module over $\mathbf{Z}$, whose isomorphism he no doubt perceived with the module of periods (discovered by him in the complex domain) of elliptic functions; in any case this idea already appears neatly in Jacobi's work, for example in his famous proof of the impossibility of a function with 3 periods and his views on the problem of inversion of Abelian integrals [16(b)], to result soon in the theorems of Kronecker (cf. Historical Note to General Topology, VII).
 
 Here, another current joins those whose course and occasional meanders we have sought to trace, which had long remained underground. As will later be expounded in more detail (Historical Note to IX), "pure" geometry in the sense understood in the last century, that is essentially projective geometry of the plane and space without using coordinates, had been created in the XVIIth century by Desargues [6], whose ideas, appreciated in their true value by a Fermat and put into practice by a Pascal, had then been buried in oblivion, eclipsed by the brilliant progress of analytic geometry; it was revived towards the end of the XVIIIth century, with Monge, then Poncelet and his rivals Brianchon and Chasles, sometimes completely and voluntarily separated from analytic methods, sometimes (especially in Germany) closely intermixed with them. Now projective transformations, from whatever point of view they are considered (synthetic or analytic), are of course just linear substitutions on the projective or "barycentric" coordinates; the theory of conics (in the XVIIth century) and later that of quadrics, with whose projective properties this school is principally concerned for a long time, are just that of quadratic forms, whose close connection with linear algebra we have already pointed out earlier. To these notions is added that of polarity: also created by Desargues, the theory of poles and polars becomes, in the hands of Monge and his successors and soon under the name of the principle of duality, a powerful tool for transforming geometric theorems; if it cannot be affirmed that its relation with adjoint differential equations was perceived during that period (they are indicated by Pincherle at the end of the century), then at least Chasles did not fail [17] to perceive its relation with the notion of reciprocal spherical triangles, introduced into spherical trigonometry by Viète ([3], p. 428) and Snellius as early as the XVIth century. But duality in projective geometry is only an aspect of duality of vector spaces, taking account of the modifications imposed when passing from the affine space to the projective space (which is a quotient space of it, under the relation "scalar multiplication").
 
 The XIXth century, more than any period in our history, was rich in mathematicians of the first order; and it is difficult in a few pages, even restricting ourselves to the most salient features, to describe all that is produced in their hands by the coming together of these movements of ideas. Between the purely synthetic methods on the one hand, a species of Procrustean bed where their orthodox protagonists put themselves to torture, and the analytic methods related to a system of coordinates arbitrarily imposed on the space, the need is soon felt for a geometric calculus, dreamed of but not created by Leibniz and imperfectly sketched by Carnot: first appears addition of vectors, implicit in Gauss's work in his geometric representation of imaginary numbers and the applications he makes of this to elementary geometry (cf. Historical Note to General Topology, VIII), developed by Bellavitis under the name of "method of equipollences" and taking its definitive form with Grassmann, Möbius and Hamilton; at the same time, under the name of "barycentric calculus", Möbius gives a version of it suitable for the needs of projective geometry [18].
 
-At the same period, and by the same men, the step, so natural (once engaged on this path), already announced by Fermat, is taken from the plane and "ordinary" space to $ n $-dimensional space; indeed an inevitable step, since the algebraic phenomena which can in two or three variables be interpreted geometrically are still valid for an arbitrary number of variables; thus to impose, in using geometric language, the limitation to 2 or 3 dimensions, would be for the modern mathematician just as tiresome a yoke as that which always prevented the Greeks from extending the notion of number to ratios of incommensurable magnitudes. Hence the language and ideas relating to $ n $-dimensional space appear almost simultaneously on all sides, obscurely in the work of Gauss, clearly in the work of the mathematicians of the following generation; and their greater or less assurance in using them was perhaps less due to their mathematical inclinations than to their philosophical or even purely practical outlook. In any case, Cayley and Grassmann, around 1846, handle these concepts with the greatest of ease (and this, says Cayley quite contrary to Grassmann ([22(a)], p. 321), "without recourse to any metaphysical notion"); Cayley is never far away from the analytic interpretation and coordinates, whereas in Grassmann's work from the start, addition of vectors in $ n $-dimensional space and the geometric aspect take the upper hand, to result in the developments of which we shall speak in a moment.
+At the same period, and by the same men, the step, so natural (once engaged on this path), already announced by Fermat, is taken from the plane and "ordinary" space to $n$-dimensional space; indeed an inevitable step, since the algebraic phenomena which can in two or three variables be interpreted geometrically are still valid for an arbitrary number of variables; thus to impose, in using geometric language, the limitation to 2 or 3 dimensions, would be for the modern mathematician just as tiresome a yoke as that which always prevented the Greeks from extending the notion of number to ratios of incommensurable magnitudes. Hence the language and ideas relating to $n$-dimensional space appear almost simultaneously on all sides, obscurely in the work of Gauss, clearly in the work of the mathematicians of the following generation; and their greater or less assurance in using them was perhaps less due to their mathematical inclinations than to their philosophical or even purely practical outlook. In any case, Cayley and Grassmann, around 1846, handle these concepts with the greatest of ease (and this, says Cayley quite contrary to Grassmann ([22(a)], p. 321), "without recourse to any metaphysical notion"); Cayley is never far away from the analytic interpretation and coordinates, whereas in Grassmann's work from the start, addition of vectors in $n$-dimensional space and the geometric aspect take the upper hand, to result in the developments of which we shall speak in a moment.
 
-Meantime the impulse given by Gauss was pushing mathematicians, in two different ways, towards this study of algebras or "hypercomplex systems". On the one hand, it was inevitable to try to extend the domain of real numbers otherwise than by introducing the "imaginary unit" $ i = \sqrt{-1} $ and perhaps thus open up vaster domains just as fertile as that of the complex numbers. Gauss himself was convinced ([12(b)], p. 178) of the impossibility of such an extension, as long as one wants to preserve the principal properties of complex numbers, that is, in modern language, those which make it into a commutative field; and, either under his influence or independently, his contemporaries seem to have shared this conviction, which was only justified much later by Weierstrass [23] in a precise theorem. But, once multiplication of complex numbers is interpreted by rotations in the plane, then, if it is proposed to extend this idea to three dimensional space, (since the rotations in space form a non-Abelian group) non-commutative multiplications have to be envisaged; this is one of Hamilton's† guiding ideas in his discovery of quaternions [20], the first example of a non-commutative field. The singular nature of this example (the only one, as Frobenius was later to show, which can be constructed over the
+Meantime the impulse given by Gauss was pushing mathematicians, in two different ways, towards this study of algebras or "hypercomplex systems". On the one hand, it was inevitable to try to extend the domain of real numbers otherwise than by introducing the "imaginary unit" $i = \sqrt{-1}$ and perhaps thus open up vaster domains just as fertile as that of the complex numbers. Gauss himself was convinced ([12(b)], p. 178) of the impossibility of such an extension, as long as one wants to preserve the principal properties of complex numbers, that is, in modern language, those which make it into a commutative field; and, either under his influence or independently, his contemporaries seem to have shared this conviction, which was only justified much later by Weierstrass [23] in a precise theorem. But, once multiplication of complex numbers is interpreted by rotations in the plane, then, if it is proposed to extend this idea to three dimensional space, (since the rotations in space form a non-Abelian group) non-commutative multiplications have to be envisaged; this is one of Hamilton's† guiding ideas in his discovery of quaternions [20], the first example of a non-commutative field. The singular nature of this example (the only one, as Frobenius was later to show, which can be constructed over the
 
 † Cf. the interesting preface of his Lectures on quaternions [20] where he retraces the whole history of his discovery.
 
-field of real numbers) somewhat restricts its import, in spite of or perhaps even because of the formation of a school of fanatical "quaternionists": a strange phenomenon, which was later reproduced around the work of Grassmann, and then by the vulgarizers who draw from Hamilton and Grassmann what is called "vector calculus". The abandoning a little later of associativity, by Graves and Cayley who construct the "Cayley numbers", opens up no very interesting path. But after Sylvester had introduced matrices and (without giving it a name) had clearly defined their rank [21], again it was Cayley [22(b)] who created the calculus of matrices, not without observing (an essential fact often lost sight of later) that a matrix is only an abridged notation for a linear substitution, just as Gauss denoted the form $ aX^2 + 2bXY + cY^2 $ by $(a, b, c)$. This is just one aspect, the most interesting for us of course, of the abundant production by Sylvester and Cayley on determinants and everything connected with them, a production full of ingenious identities and impressive calculations.
+field of real numbers) somewhat restricts its import, in spite of or perhaps even because of the formation of a school of fanatical "quaternionists": a strange phenomenon, which was later reproduced around the work of Grassmann, and then by the vulgarizers who draw from Hamilton and Grassmann what is called "vector calculus". The abandoning a little later of associativity, by Graves and Cayley who construct the "Cayley numbers", opens up no very interesting path. But after Sylvester had introduced matrices and (without giving it a name) had clearly defined their rank [21], again it was Cayley [22(b)] who created the calculus of matrices, not without observing (an essential fact often lost sight of later) that a matrix is only an abridged notation for a linear substitution, just as Gauss denoted the form $aX^2 + 2bXY + cY^2$ by $(a, b, c)$. This is just one aspect, the most interesting for us of course, of the abundant production by Sylvester and Cayley on determinants and everything connected with them, a production full of ingenious identities and impressive calculations.
 
-Also (amongst other things) Grassmann discovers an algebra over the reals, the exterior algebra which still bears his name. His work, earlier even than that of Hamilton [19(a)], created in an almost complete moral solitude, remained for a long time little known, no doubt because of its originality, because also of the philosophical mists, in which it begins by enveloping itself and which for example at first deterred Möbius. Moved by preoccupations analogous to those of Hamilton but of greater import (and which, as he soon sees, are the same as those of Leibniz), Grassmann constructs a vast algebraico-geometric edifice, resting on a geometric or "intrinsic" conception (already more or less axiomatized) of $ n $-dimensional vector space; among the more elementary results at which he arrives, we quote for example the definition of linear independence of vectors, that of dimension and the fundamental relation
+Also (amongst other things) Grassmann discovers an algebra over the reals, the exterior algebra which still bears his name. His work, earlier even than that of Hamilton [19(a)], created in an almost complete moral solitude, remained for a long time little known, no doubt because of its originality, because also of the philosophical mists, in which it begins by enveloping itself and which for example at first deterred Möbius. Moved by preoccupations analogous to those of Hamilton but of greater import (and which, as he soon sees, are the same as those of Leibniz), Grassmann constructs a vast algebraico-geometric edifice, resting on a geometric or "intrinsic" conception (already more or less axiomatized) of $n$-dimensional vector space; among the more elementary results at which he arrives, we quote for example the definition of linear independence of vectors, that of dimension and the fundamental relation
 
 $$
 \dim V + \dim W = \dim(V + W) + \dim(V \cap W)
@@ -70,9 +70,9 @@ $$
 
 (loc. cit., p. 209; cf. [19(b)], p. 21). But it is especially exterior multiplication, then inner multiplication, of multivectors which provide him with the tools with which he easily treats first the problems of linear algebra proper and then those relating to the Euclidean structure, that is orthogonality of vectors (where he finds the equivalent of duality, which he does not possess).
 
-The other path opened up by Gauss in the study of hypercomplex systems is that starting from the complex integers $ a + bi $; after these follow quite naturally algebras or more general hypercomplex systems, over the ring $ \mathbf{Z} $ of integers and over the field $ \mathbf{Q} $ of rationals, and first of all those already envisaged by Gauss which are generated by roots of unity, then algebraic number fields and modules of algebraic integers: the former are the principal topic in the work of Kummer, the study of the latter was undertaken by Dirichlet, Hermite, Kronecker and Dedekind. Here, in contrast to what happens with algebras over the reals, it is not necessary to abandon any of the characteristic properties of commutative fields and attention was confined to the latter throughout the XIXth century. But linear properties and for example the search for the basis for the integers of the field (indispensable for a general definition of the discriminant) play an essential role at many points; and with Dedekind at any rate the methods are destined to become typically "hypercomplex"; Dedekind himself moreover, without setting himself the problem of algebras in general, is conscious of this character of his works and of what relates them for example to the results of Weierstrass on hypercomplex systems over the reals ([24], in particular vol. 2, p. 1). At the same time the determination of the structure of the multiplicative group of units in an algebraic number field, effected by Dirichlet in some famous notes [15] and almost at the same time by Hermite, was vitally important in clarifying ideas on modules over $ \mathbf{Z} $, their generating systems and, their bases (when such exist). Then the notion of ideal, defined by Dedekind in algebraic number fields (as a module over the ring of integers of the field), whilst Kronecker introduces in polynomial rings (under the name of "systems of modules") an equivalent notion, gives the first examples of modules over more general rings than $ \mathbf{Z} $; and in the work of the same authors, and then Hilbert, in particular cases the notion of group with operators is slowly isolated, and the possibility of constructing always from such a group a module over a suitably defined ring.
+The other path opened up by Gauss in the study of hypercomplex systems is that starting from the complex integers $a + bi$; after these follow quite naturally algebras or more general hypercomplex systems, over the ring $\mathbf{Z}$ of integers and over the field $\mathbf{Q}$ of rationals, and first of all those already envisaged by Gauss which are generated by roots of unity, then algebraic number fields and modules of algebraic integers: the former are the principal topic in the work of Kummer, the study of the latter was undertaken by Dirichlet, Hermite, Kronecker and Dedekind. Here, in contrast to what happens with algebras over the reals, it is not necessary to abandon any of the characteristic properties of commutative fields and attention was confined to the latter throughout the XIXth century. But linear properties and for example the search for the basis for the integers of the field (indispensable for a general definition of the discriminant) play an essential role at many points; and with Dedekind at any rate the methods are destined to become typically "hypercomplex"; Dedekind himself moreover, without setting himself the problem of algebras in general, is conscious of this character of his works and of what relates them for example to the results of Weierstrass on hypercomplex systems over the reals ([24], in particular vol. 2, p. 1). At the same time the determination of the structure of the multiplicative group of units in an algebraic number field, effected by Dirichlet in some famous notes [15] and almost at the same time by Hermite, was vitally important in clarifying ideas on modules over $\mathbf{Z}$, their generating systems and, their bases (when such exist). Then the notion of ideal, defined by Dedekind in algebraic number fields (as a module over the ring of integers of the field), whilst Kronecker introduces in polynomial rings (under the name of "systems of modules") an equivalent notion, gives the first examples of modules over more general rings than $\mathbf{Z}$; and in the work of the same authors, and then Hilbert, in particular cases the notion of group with operators is slowly isolated, and the possibility of constructing always from such a group a module over a suitably defined ring.
 
-At the same time, the arithmetico-algebraic study of quadratic bilinear forms and their "reduction" (or, what amounts to the same, of matrices and their "invariants") leads to the discovery of the general principles on the solution of systems of linear equations, principles which due to the lack of the notion of rank, had escaped Jacobi.\footnote{Concerning the classification of systems of $ n $ equations in $ n $ unknowns when the determinant is zero, he says ([16(a)], p. 370): "paullo prolixum videtur negotium" (it could not be elucidated briefly).} The problem of the solution in integers of systems of linear equations with integral coefficients is attacked and solved, first in a special case by Hermite and then in all its generality by H. J. Smith [25]; the results of the latter are found again, only in 1878, by Frobenius, in the framework of a vast programme of research instituted by Kronecker and in which Weierstrass also participates; incidentally during the course of these works, Kronecker gives definitive form to the theorems on linear systems with real (or complex) coefficients, which are also elucidated, in an obscure manual, with the minute care characteristic of him, by the famous author of *Alice in Wonderland*; as for Kronecker, he disdains to publish these results and leaves them to his colleagues and disciples; the word "rank" itself is only introduced by Frobenius. Also in the course of their teaching at the University of Berlin Kronecker [26] and Weierstrass introduce the "axiomatic" definition of determinants (as an alternating multilinear function of $ n $ vectors in $ n $-dimensional space, normed so that it takes the value 1 at the unit matrix), a definition equivalent to that derived from Grassmann’s calculus and to that adopted in this Treatise; again during his courses Kronecker, without feeling the need to give it a name and in a still non-intrinsic form, introduces the tensor product of spaces and the “Kronecker” product of matrices (the linear substitution induced on a tensor product by given linear substitutions applied to the factors).
+At the same time, the arithmetico-algebraic study of quadratic bilinear forms and their "reduction" (or, what amounts to the same, of matrices and their "invariants") leads to the discovery of the general principles on the solution of systems of linear equations, principles which due to the lack of the notion of rank, had escaped Jacobi.\footnote{Concerning the classification of systems of $n$ equations in $n$ unknowns when the determinant is zero, he says ([16(a)], p. 370): "paullo prolixum videtur negotium" (it could not be elucidated briefly).} The problem of the solution in integers of systems of linear equations with integral coefficients is attacked and solved, first in a special case by Hermite and then in all its generality by H. J. Smith [25]; the results of the latter are found again, only in 1878, by Frobenius, in the framework of a vast programme of research instituted by Kronecker and in which Weierstrass also participates; incidentally during the course of these works, Kronecker gives definitive form to the theorems on linear systems with real (or complex) coefficients, which are also elucidated, in an obscure manual, with the minute care characteristic of him, by the famous author of *Alice in Wonderland*; as for Kronecker, he disdains to publish these results and leaves them to his colleagues and disciples; the word "rank" itself is only introduced by Frobenius. Also in the course of their teaching at the University of Berlin Kronecker [26] and Weierstrass introduce the "axiomatic" definition of determinants (as an alternating multilinear function of $n$ vectors in $n$-dimensional space, normed so that it takes the value 1 at the unit matrix), a definition equivalent to that derived from Grassmann’s calculus and to that adopted in this Treatise; again during his courses Kronecker, without feeling the need to give it a name and in a still non-intrinsic form, introduces the tensor product of spaces and the “Kronecker” product of matrices (the linear substitution induced on a tensor product by given linear substitutions applied to the factors).
 
 This research cannot be separated from the theory of invariants created by Cayley, Hermite and Sylvester (the “invariant trinity” of which Hermite later speaks in his letters) and which, from a modern point of view, is above all a theory of representations of the linear group. Here there comes to light, as the algebraic equivalent of duality in projective geometry, the distinction between series of cogredient and contragredient variables, that is vectors in a space and vectors in the dual space; and, after attention has been turned first to forms of low degree and then of arbitrary degree, in 2 and 3 variables, almost without delay bilinear, then multilinear forms are examined in several series of “cogredient” or “contragredient” variables, which is equivalent to the introduction of tensors; the latter becomes explicit and is popularized when, under the inspiration of the theory of invariants, Ricci and Levi-Civitá, in 1900, introduce into differential geometry “tensor calculus” [28], which later came into great vogue following its use by the “relativist” physicists. Again the progressive intermingling of the theory of invariants, differential geometry and the theory of partial differential equations (especially the so-called problem of Pfaff and its generalizations) slowly leads geometers to consider alternating bilinear forms of differentials, in particular the “bilinear covariant” of a form of degree 1 (introduced in 1870 by Lipschitz and then studied by Frobenius), to result in the creation by E. Cartan [29] and Poincaré [30] of the calculus of exterior differential forms. Poincaré introduces the latter, in order to form his integral invariants, as the expressions which appear in multiple integrals, whilst Cartan, guided no doubt by his research on algebras, introduces them in a more formal way, but without failing to observe that the algebraic part of their calculus is identical with Grassmann’s exterior multiplication (whence the name which he adopts), thus definitively restoring the work of the latter to its rightful place. The translation, into the notation of tensor calculus, of exterior differential forms, moreover shows immediately their connection with skew-symmetric tensors, which, once a purely algebraic point of view is adopted, shows that they are for alternating multilinear forms what covariant tensors are for arbitrary multilinear forms; this aspect is further clarified with the modern theory of representations of the linear group; and thus, for example, the substantial identity between the definition of determinants given by Weierstrass and Kronecker and that resulting from Grassmann’s calculus is recognized.
 
@@ -125,7 +125,7 @@ BIBLIOGRAPHY
 
 23. K. Weierstrass, Mathematische Werke, vol. II, Berlin, (Mayer und Müller),
 
-1895: Zur Theorie des aus $ n $ Haupteinheiten gebildeten complexen Grössen, pp. 311–332.
+1895: Zur Theorie des aus $n$ Haupteinheiten gebildeten complexen Grössen, pp. 311–332.
 24. R. Dedekind, Gesammelte mathematische Werke, 3 vols., Braunschweig (Vieweg), 1930–32.
 25. H. J. Smith, Collected Mathematical Papers, vol. I, Oxford, 1894: On systems of linear indeterminate equations and congruences, p. 367 (=Phil. Trans., 1861).
 26. L. Kronecker, Vorlesungen über die Theorie der Determinanten . . ., Leipzig (Teubner), 1903.
@@ -135,9 +135,9 @@ BIBLIOGRAPHY
 30. H. Poincaré, Les méthodes nouvelles de la mécanique céleste, vol. III, Paris (Gauthier-Villars), 1899, Chapter XXII.
 31. O. Toeplitz, Ueber die Auflösung unendlichvieler linearer Gleichungen mit unendlichvielen Unbekannten, Rend. Circ. Mat. Pal., vol. XXVIII (1909), pp. 88–96.
 
-$ x + y, x \cdot y, xy, x \top y, x \perp y $: I, § 1, no. 1.
-$ X \top Y, X + Y, XY $ (X, Y subsets): I, § 1, no. 1.
-$ X \top a, a \top X $ (X a subset, a an element): I, § 1, no. 1.
+$x + y, x \cdot y, xy, x \top y, x \perp y$: I, § 1, no. 1.
+$X \top Y, X + Y, XY$ (X, Y subsets): I, § 1, no. 1.
+$X \top a, a \top X$ (X a subset, a an element): I, § 1, no. 1.
 
 $$
 \prod_{\alpha \in A} x_\alpha, \bigwedge_{\alpha} x_\alpha, \bigwedge x_\alpha, \bigwedge_{\alpha \in A} x, \bigwedge_{\alpha} x_\alpha, \bigwedge x_\alpha, \sum_{\alpha \in A} x_\alpha, \sum x_\alpha, \sum_{\alpha} x_\alpha, \prod_{\alpha \in A} x_\alpha, \prod x_\alpha,
@@ -151,7 +151,7 @@ $$
 \prod_{p \leq i \leq q} x_i, \prod_{i=p}^q x_i : \text{I, § 1, no. 2}.
 $$
 
-$ x_p \top x_{p+1} \top \cdots \top x_q : \text{I, § 1, no. 3} $.
+$x_p \top x_{p+1} \top \cdots \top x_q : \text{I, § 1, no. 3}$.
 
 $$
 \prod^n x, \perp x^n, nx \quad (n \in \mathbf{N}) : \text{I, § 1, no. 3}.
@@ -169,86 +169,86 @@ $$
 \prod_{0 \leq i_1 < i_2 < \cdots < i_p \leq n} x_{i_1 i_2 \cdots i_p}, \prod_{i_1 < i_2 < \cdots < i_p} x_{i_1 i_2 \cdots i_p} : \text{I, § 1, no. 5}.
 $$
 
-$ 0, 1 : \text{I, § 2, no. 1} $.
+$0, 1 : \text{I, § 2, no. 1}$.
 
-$ \gamma_a, \delta_a, \gamma(a), \delta(a) : \text{I, § 2, no. 2} $.
+$\gamma_a, \delta_a, \gamma(a), \delta(a) : \text{I, § 2, no. 2}$.
 
-$ E_S $ (S a subset of a commutative monoid E): I, § 2, no. 4.
+$E_S$ (S a subset of a commutative monoid E): I, § 2, no. 4.
 
-$ \mathbf{Z}, + $ (addition in $ \mathbf{Z} $): I, § 2, no. 5.
+$\mathbf{Z}, +$ (addition in $\mathbf{Z}$): I, § 2, no. 5.
 
-$ \leq $ (order relation on $ \mathbf{Z} $): I, § 2, no. 5.
+$\leq$ (order relation on $\mathbf{Z}$): I, § 2, no. 5.
 
-$ \mathbf{N}^* : \text{I, § 2, no. 5} $.
+$\mathbf{N}^* : \text{I, § 2, no. 5}$.
 
-$ \prod^n $ (for $ n \in \mathbf{Z} $): I, § 2, no. 7.
+$\prod^n$ (for $n \in \mathbf{Z}$): I, § 2, no. 7.
 
 $
 -x, x - y, x + y - z, x - y - z, x - y + z - t : \text{I, § 2, no. 8}.
 $
 
-$ nx $ ($ n \in \mathbf{Z} $): I, § 2, no. 8.
+$nx$ ($n \in \mathbf{Z}$): I, § 2, no. 8.
 
-$ x^n $ ($ n \in \mathbf{Z} $): I, § 2, no. 8.
+$x^n$ ($n \in \mathbf{Z}$): I, § 2, no. 8.
 
 $
 \frac{1}{x}, \frac{x}{y}, x/y : \text{I, § 2, no. 8}.
-$ $ \alpha.x, x.\alpha, x^\alpha $ ($ \alpha $ an operator): I, § 3, no. 1.
-$ \alpha \perp x, \alpha \perp X, \Xi \perp X $ ($ \alpha $ an operator, $ \Xi $ a set of operators): I, § 3, no. 1.
-$ \mathfrak{S}_F $: I, § 4, no. 1.
-$ (G:H), G/H $ (H a subgroup of G): I, § 4, no. 4.
-$ x \equiv y $ (mod. H), $ x \equiv y $ (H) (H a normal subgroup): I, § 4, no. 4.
-Ker $ f $, Im $ f $ ($ f $ a group homomorphism): I, § 4, no. 5.
+$ $\alpha.x, x.\alpha, x^\alpha$ ($\alpha$ an operator): I, § 3, no. 1.
+$\alpha \perp x, \alpha \perp X, \Xi \perp X$ ($\alpha$ an operator, $\Xi$ a set of operators): I, § 3, no. 1.
+$\mathfrak{S}_F$: I, § 4, no. 1.
+$(G:H), G/H$ (H a subgroup of G): I, § 4, no. 4.
+$x \equiv y$ (mod. H), $x \equiv y$ (H) (H a normal subgroup): I, § 4, no. 4.
+Ker $f$, Im $f$ ($f$ a group homomorphism): I, § 4, no. 5.
 $$
 \prod_{i \in I} G_i \quad (G_i \text{ groups}): \text{I, } \S 4, \text{ no. 8}.
 $$
-$ G_1 \times_H G_2 $: I, § 4, no. 8.
+$G_1 \times_H G_2$: I, § 4, no. 8.
 $$
 \prod_{i \in I} G_i \quad (G_i \text{ groups}): \text{I, } \S 4, \text{ no. 9}.
 $$
-$ x \equiv y $ (mod. $ a $), $ x \equiv y $ ($ a $) ($ a, x, y $ rational integers): I, § 4, no. 10.
-$ v_p(a) $ ($ p $ a prime number, $ a $ a rational integer): I, § 4, no. 10.
-Aut(G), Int(G), Int(x) (G a group, $ x \in G $): I, § 5, no. 3.
-$ N_G(A), N(A) $ (G a group, $ A \subset G $): I, § 5, no. 3.
-$ C_G(A), C(A) $ (G a group, $ A \subset G $): I, § 5, no. 3.
+$x \equiv y$ (mod. $a$), $x \equiv y$ ($a$) ($a, x, y$ rational integers): I, § 4, no. 10.
+$v_p(a)$ ($p$ a prime number, $a$ a rational integer): I, § 4, no. 10.
+Aut(G), Int(G), Int(x) (G a group, $x \in G$): I, § 5, no. 3.
+$N_G(A), N(A)$ (G a group, $A \subset G$): I, § 5, no. 3.
+$C_G(A), C(A)$ (G a group, $A \subset G$): I, § 5, no. 3.
 E/G, G|E (G a group operating on E): I, § 5, no. 4.
 G|E/H (G, H groups operating on E by commuting actions): I, § 5, no. 4.
-$ \mathfrak{S}_n $: I, § 5, no. 7.
-$ \tau_{x,y} $ (transposition of support $ \{x, y\} $): I, § 5, no. 7.
-$ \varepsilon(\sigma), \varepsilon_\sigma $ ($ \sigma $ a permutation): I, § 5, no. 7.
-$ \mathcal{U}_E, \mathcal{U}_n $: I, § 5, no. 7.
-$ F \xrightarrow{i} E \xrightarrow{\rho} G $ (E, F, G groups): I, § 6, no. 1.
-$ F \times_\tau G, \mathcal{E}_\tau $ ($ \tau $ a homomorphism of G into Aut(F)): I, § 6, no. 1.
-$ gf $ ($ f \in F, g \in G $): I, § 6, no. 1.
-$ (f, g) \cdot_\tau (f', g') $ ($ f, f' $ in F, $ g, g' $ in G): I, § 6, no. 1.
-$ (x, y), (A, B) $ ($ x, y $ elements, A, B subsets of a group G): I, § 6, no. 2.
+$\mathfrak{S}_n$: I, § 5, no. 7.
+$\tau_{x,y}$ (transposition of support $\{x, y\}$): I, § 5, no. 7.
+$\varepsilon(\sigma), \varepsilon_\sigma$ ($\sigma$ a permutation): I, § 5, no. 7.
+$\mathcal{U}_E, \mathcal{U}_n$: I, § 5, no. 7.
+$F \xrightarrow{i} E \xrightarrow{\rho} G$ (E, F, G groups): I, § 6, no. 1.
+$F \times_\tau G, \mathcal{E}_\tau$ ($\tau$ a homomorphism of G into Aut(F)): I, § 6, no. 1.
+$gf$ ($f \in F, g \in G$): I, § 6, no. 1.
+$(f, g) \cdot_\tau (f', g')$ ($f, f'$ in F, $g, g'$ in G): I, § 6, no. 1.
+$(x, y), (A, B)$ ($x, y$ elements, A, B subsets of a group G): I, § 6, no. 2.
 D(G): I, § 6, no. 2.
-$ C^n(G) $: I, § 6, no. 3.
-$ D^n(G) $: I, § 6, no. 4.
-$ E^G $ (G a group operating on E): I, § 6, no. 5.
-$ M_n(X), M(X) $ (X a set): I, § 7, no. 1.
-$ l(w) $ ($ w $ an element of M(X)): I, § 7, no. 1.
-$ ww', w.w' $ ($ w, w' $ elements of M(X)): I, § 7, no. 1.
-$ l(w) $ ($ w $ a word over X): I, § 7, no. 2.
-$ ww', w.w' $ ($ w, w' $ words over X): I, § 7, no. 2.
+$C^n(G)$: I, § 6, no. 3.
+$D^n(G)$: I, § 6, no. 4.
+$E^G$ (G a group operating on E): I, § 6, no. 5.
+$M_n(X), M(X)$ (X a set): I, § 7, no. 1.
+$l(w)$ ($w$ an element of M(X)): I, § 7, no. 1.
+$ww', w.w'$ ($w, w'$ elements of M(X)): I, § 7, no. 1.
+$l(w)$ ($w$ a word over X): I, § 7, no. 2.
+$ww', w.w'$ ($w, w'$ words over X): I, § 7, no. 2.
 Mo(X) (X a set): I, § 7, no. 2.
-$ l(\sigma) $ ($ \sigma $ a decomposition): I, § 7, no. 3.
-$ *G_i, G_1 * G_2 $ ($ G_1, G_2, G_i $ groups): I, § 7, no. 3.
-$ \langle \tau_1, \ldots, \tau_n; r_1, \ldots, r_m \rangle $ ($ \tau_j $ generators, $ r_i $ relators): I, § 7, no. 6.
-$ \langle \tau_1, \ldots, \tau_n; u_1 = v_1, \ldots, u_m = v_m \rangle $ ($ \tau_j $ generators, $ u_i, v_i $ elements of a free group): I, § 7, no. 6.
-$ \mathbf{Z}^{(X)}, \mathbf{N}^{(X)} $ (X a set): I, § 7, no. 7.
+$l(\sigma)$ ($\sigma$ a decomposition): I, § 7, no. 3.
+$*G_i, G_1 * G_2$ ($G_1, G_2, G_i$ groups): I, § 7, no. 3.
+$\langle \tau_1, \ldots, \tau_n; r_1, \ldots, r_m \rangle$ ($\tau_j$ generators, $r_i$ relators): I, § 7, no. 6.
+$\langle \tau_1, \ldots, \tau_n; u_1 = v_1, \ldots, u_m = v_m \rangle$ ($\tau_j$ generators, $u_i, v_i$ elements of a free group): I, § 7, no. 6.
+$\mathbf{Z}^{(X)}, \mathbf{N}^{(X)}$ (X a set): I, § 7, no. 7.
 
 0, 1 (elements of a ring): I, § 8, no. 1.
 A^0 (A a ring): I, § 8, no. 3.
 (a) (a an element of A): I, § 8, no. 6.
-$ \sum_{\lambda} a_\lambda $ (a_\lambda ideals): I, § 8, no. 6.
-$ x \equiv y \pmod{a} $, $ x \equiv y $ (a) (a an ideal): I, § 8, no. 7.
+$\sum_{\lambda} a_\lambda$ (a_\lambda ideals): I, § 8, no. 6.
+$x \equiv y \pmod{a}$, $x \equiv y$ (a) (a an ideal): I, § 8, no. 7.
 A/a (a a two-sided ideal): I, § 8, no. 7.
 ab (a, b two-sided ideals): I, § 8, no. 9.
 A[S^{-1}] (S a subset of a ring A): I, § 8, no. 12.
-$ F_p $ (p a prime number): I, § 9, no. 1.
-$ \mathbf{Q} $: I, § 9, no. 4.
-$ \mathbf{Q}_+ $: I, § 9, no. 4.
+$F_p$ (p a prime number): I, § 9, no. 1.
+$\mathbf{Q}$: I, § 9, no. 4.
+$\mathbf{Q}_+$: I, § 9, no. 4.
 |x|, sgn x (x a rational number): I, § 9, no. 4.
 in(G): I, § 4, Exercise 13.
 D_n: I, § 6, Exercise 4.
@@ -257,86 +257,86 @@ A \approx B: I, § 6, Exercise 39.
 e(G): I, § 7, Exercise 39.
 d_n(X): I, § 7, Exercise 39.
 A_s, A_d (A a ring): II, § 1, no. 1.
-$ \sum_{i \in I} x_i ((x_i)_{i \in I}) $ a family of elements of a module of finite support: II, § 1, no. 1.
+$\sum_{i \in I} x_i ((x_i)_{i \in I})$ a family of elements of a module of finite support: II, § 1, no. 1.
 Hom_A(E, F), Hom(E, F), (E, F, A-modules): II, § 1, no. 2.
 End_A(E), End(E), Aut(E), GL(E) (E an A-module): II, § 1, no. 2.
 Hom_A(u, v), Hom(u, v) (u, v linear mappings): II, § 1, no. 2.
 1_E (E a module): II, § 1, no. 2.
 0 (zero module): II, § 1, no. 3.
 Ker u, Im u, Coim u, Coker u (u a linear mapping): II, § 1, no. 3.
-$ \prod_i f_i $ (f_i: E_i \to F_i linear mappings): II, § 1, no. 5.
-$ \bigoplus_{i \in I} E_i, E_p \oplus E_{p+1} \oplus \cdots \oplus E_q ((E_i)_{i \in I} $ a family of A-modules): II, § 1, no. 6.
-$ \sum_{i \in I} f_i $ (f_i: E_i \to F_i linear mappings): II, § 1, no. 6.
-$ \bigoplus_{i \in I} f_i, f_p \oplus f_{p+1} \oplus \cdots \oplus f_q $ (f_i: E_i \to F_i linear mappings): II, § 1, no. 6.
+$\prod_i f_i$ (f_i: E_i \to F_i linear mappings): II, § 1, no. 5.
+$\bigoplus_{i \in I} E_i, E_p \oplus E_{p+1} \oplus \cdots \oplus E_q ((E_i)_{i \in I}$ a family of A-modules): II, § 1, no. 6.
+$\sum_{i \in I} f_i$ (f_i: E_i \to F_i linear mappings): II, § 1, no. 6.
+$\bigoplus_{i \in I} f_i, f_p \oplus f_{p+1} \oplus \cdots \oplus f_q$ (f_i: E_i \to F_i linear mappings): II, § 1, no. 6.
 E^{(1)} (E a module): II, § 1, no. 6.
-$ \bigoplus_{i \in I} M_i $ ((M_i)_{i \in I} a family of submodules): II, § 1, no 7.
+$\bigoplus_{i \in I} M_i$ ((M_i)_{i \in I} a family of submodules): II, § 1, no 7.
 long_A(M), long(M) (M an A-module of finite length): II, § 1, no. 10.
-$ \delta_{st} $ (Kronecker symbol): II, § 1, no. 11.
-$ \sum_{t \in T} \xi_t \cdot t $ (T a set, $ \xi_t $ elements of a ring): II, § 1, no. 11.
+$\delta_{st}$ (Kronecker symbol): II, § 1, no. 11.
+$\sum_{t \in T} \xi_t \cdot t$ (T a set, $\xi_t$ elements of a ring): II, § 1, no. 11.
 
 Ann(S), Ann(x) (S a subset of a module, x an element of a module): II, § 1, no. 12.
-$ \rho_*(E), E_{[B]} $ (E an A-module, $ \rho : B \to A $ a ring homomorphism): II, § 1, no. 13.
-$ \rho_*(u) $ ($ \rho : B \to A $ a ring homomorphism, u an A-linear mapping): II, § 1, no. 13.
+$\rho_*(E), E_{[B]}$ (E an A-module, $\rho : B \to A$ a ring homomorphism): II, § 1, no. 13.
+$\rho_*(u)$ ($\rho : B \to A$ a ring homomorphism, u an A-linear mapping): II, § 1, no. 13.
 E* (E a module): II, § 2, no. 3.
-$ \langle x, x^* \rangle $ (x an element of a left module E, $ x^* $ an element of its dual E*): II, § 2, no. 3.
-$ \langle x^*, x \rangle $ (x an element of a right module E, $ x^* $ an element of its dual E*): II, § 2, no. 3.
-$ t_u $ (u a linear or semi-linear mapping): II, § 2, no. 5.
-$ \tilde{u} $ (u an isomorphism): II, § 2, no. 5.
-$ E \otimes_A F, E \otimes_A F $ (E a right A-module, F a left A-module): II, § 3, no. 1.
-$ x \otimes y $ (x $ \in $ E (a right module), y $ \in $ F (a left module)): II, § 3, no. 1.
-$ u \otimes v $ (u, v linear mappings): II, § 3, no. 2.
-$ u \otimes v $ (u, v semi-linear mappings): II, § 3, no. 3.
-$ s_{A_d} $ (A ring): II, § 3, no. 4.
-$ \mathcal{L}_2(E, F; G) $ (E, F, G modules over a commutative ring): II, § 3, no. 5.
-$ \bigotimes_{\lambda \in L} G_\lambda, \bigotimes_{\lambda \in L} x_\lambda $ (($ G_\lambda $) a family of $ \mathbf{Z} $-modules, $ x_\lambda \in G_\lambda $ for all $ \lambda $): II, § 3, no. 9.
-$ \bigotimes_{\lambda \in L} v_\lambda $ ($ v_\lambda : G_\lambda \to G'_\lambda $ $ \mathbf{Z} $-linear mappings): II, § 3, no. 9.
-$ \bigotimes_{(c,p,q)} G_\lambda, \bigotimes_{(c,p,q)} x_\lambda, \bigotimes_{(c)} x_\lambda $: II, § 3, no. 9.
-$ \bigotimes_{(c)} v_\lambda $ ($ v_\lambda $ $ \mathbf{Z} $-linear mappings): II, § 3, no. 9.
-$ E_1 \otimes_{A_1} E_2 \otimes_{A_2} E_3 \otimes \cdots \otimes_{A_{n-2}} E_{n-1} \otimes_{A_{n-1}} E_n $: II, § 3, no. 9.
-$ x_1 \otimes x_2 \otimes \cdots \otimes x_n $: II, § 3, no. 9.
-$ u_1 \otimes u_2 \otimes \cdots \otimes u_n $ ($ u_i $ linear mappings): II, § 3, no. 9.
-$ \mathcal{L}_n(E_1, \ldots, E_n; G) $ ($ E_1, \ldots, E_n, G $ modules over a commutative ring): II, § 3, no. 9.
+$\langle x, x^* \rangle$ (x an element of a left module E, $x^*$ an element of its dual E*): II, § 2, no. 3.
+$\langle x^*, x \rangle$ (x an element of a right module E, $x^*$ an element of its dual E*): II, § 2, no. 3.
+$t_u$ (u a linear or semi-linear mapping): II, § 2, no. 5.
+$\tilde{u}$ (u an isomorphism): II, § 2, no. 5.
+$E \otimes_A F, E \otimes_A F$ (E a right A-module, F a left A-module): II, § 3, no. 1.
+$x \otimes y$ (x $\in$ E (a right module), y $\in$ F (a left module)): II, § 3, no. 1.
+$u \otimes v$ (u, v linear mappings): II, § 3, no. 2.
+$u \otimes v$ (u, v semi-linear mappings): II, § 3, no. 3.
+$s_{A_d}$ (A ring): II, § 3, no. 4.
+$\mathcal{L}_2(E, F; G)$ (E, F, G modules over a commutative ring): II, § 3, no. 5.
+$\bigotimes_{\lambda \in L} G_\lambda, \bigotimes_{\lambda \in L} x_\lambda$ (($G_\lambda$) a family of $\mathbf{Z}$-modules, $x_\lambda \in G_\lambda$ for all $\lambda$): II, § 3, no. 9.
+$\bigotimes_{\lambda \in L} v_\lambda$ ($v_\lambda : G_\lambda \to G'_\lambda$ $\mathbf{Z}$-linear mappings): II, § 3, no. 9.
+$\bigotimes_{(c,p,q)} G_\lambda, \bigotimes_{(c,p,q)} x_\lambda, \bigotimes_{(c)} x_\lambda$: II, § 3, no. 9.
+$\bigotimes_{(c)} v_\lambda$ ($v_\lambda$ $\mathbf{Z}$-linear mappings): II, § 3, no. 9.
+$E_1 \otimes_{A_1} E_2 \otimes_{A_2} E_3 \otimes \cdots \otimes_{A_{n-2}} E_{n-1} \otimes_{A_{n-1}} E_n$: II, § 3, no. 9.
+$x_1 \otimes x_2 \otimes \cdots \otimes x_n$: II, § 3, no. 9.
+$u_1 \otimes u_2 \otimes \cdots \otimes u_n$ ($u_i$ linear mappings): II, § 3, no. 9.
+$\mathcal{L}_n(E_1, \ldots, E_n; G)$ ($E_1, \ldots, E_n, G$ modules over a commutative ring): II, § 3, no. 9.
 Tr(u) (u an endomorphism of a module over a commutative ring): II, § 4, no. 3.
-$ \rho^*(E), E_{(B)} $ (E an A-module, $ \rho : A \to B $ a ring homomorphism): II, § 5, no. 1.
-$ \rho^*(u), u_{(B)} $ ($ \rho : A \to B $ a ring homomorphism, u an A-module homomorphism): II, § 5, no. 1.
+$\rho^*(E), E_{(B)}$ (E an A-module, $\rho : A \to B$ a ring homomorphism): II, § 5, no. 1.
+$\rho^*(u), u_{(B)}$ ($\rho : A \to B$ a ring homomorphism, u an A-module homomorphism): II, § 5, no. 1.
 dim_K E, dim E, [E : K] (E a vector K-space): II, § 7, no. 2.
 dim_A E, dim E (E an A-module any two bases of which are equipotent): II, § 7, no. 2.
 codim_E F, codim F (F a vector subspace of a vector space E): II, § 7, no. 3.
 rg(u) (u a linear mapping of vector spaces): II, § 7, no. 4.
 rg(u) (u an element of a tensor product of vector spaces): II, § 7, no. 8.
 dim_K E, dim E (E an affine space over a field K): II, § 9, no. 1.
-$ a + t, t + a $ (a a point, t a translation of an affine space): II, § 9, no. 1.
+$a + t, t + a$ (a a point, t a translation of an affine space): II, § 9, no. 1.
 
-$ b - a $ ($ a, b $ points of an affine space): II, § 9, no. 1.
+$b - a$ ($a, b$ points of an affine space): II, § 9, no. 1.
 
-$ \sum_{c \in I} \lambda_i x_i $ (($ x_i $)$_{i \in I}$ a family of points of an affine space, $ (\lambda_i)_{i \in I} $ a family of scalars, of finite support, such that $ \sum_i \lambda_i = 1 $ or $ \sum_i \lambda_i = 0 $): II, § 9, no. 1.
+$\sum_{c \in I} \lambda_i x_i$ (($x_i$)$_{i \in I}$ a family of points of an affine space, $(\lambda_i)_{i \in I}$ a family of scalars, of finite support, such that $\sum_i \lambda_i = 1$ or $\sum_i \lambda_i = 0$): II, § 9, no. 1.
 
-$ \mathbf{P}(V), \Delta(V) $ (V a vector space): II, § 9, no. 5.
-$ \mathbf{P}_n(K), \Delta_n(K) $ (K a field): II, § 9, no. 5.
-$ \dim_K \mathbf{P}(V), \dim \mathbf{P}(V) $ (V a vector K-space): II, § 9, no. 5.
-$ \tilde{K}, \infty $ (K a field): II, § 9, no. 9.
-$ \mathbf{PGL}(V), \mathbf{PGL}_n(K), \mathbf{PGL}(n, K) $ (K a field, V a vector space): II, § 9, no. 10.
-$ ^tM $ ($ M $ a matrix): II, § 10, no. 1.
-$ M' + M'' $ ($ M', M'' $ matrices over a commutative group): II, § 10, no. 2.
-$ f(M', M''), M'M'' $ ($ M', M'' $ matrices): II, § 10, no. 2.
-$ E_{ij} $ (matrix units): II, § 10, no. 3.
-$ \sigma(M), M^\sigma $ ($ M $ a matrix, $ \sigma $ a ring homomorphism): II, § 10, no. 3.
-$ M(x), x $ (x an element of a finitely generated free module): II, § 10, no. 4.
-$ M(u) $ (u a homomorphism of a free module into a free module): II, § 10, no. 4.
-$ M(x), M(u) $ (matrices relative to decompositions as direct sums): II, § 10, no. 5.
-$ M(u) $ (u a semi-linear mapping): II, § 10, no. 6.
-$ \mathbf{M}_n(A), I_n, 1_n $ (A a ring): II, § 10, no. 7.
-$ \mathbf{GL}_n(A), \mathbf{GL}(n, A) $ (A a ring): II, § 10, no. 7.
-$ ^tX^{-1} $ (X an invertible square matrix): II, § 10, no. 7.
-$ \operatorname{diag}(a_i)_{i \in I}, \operatorname{diag}(a_1, a_2, \ldots, a_n) $: II, § 10, no. 7.
-$ X_1 \otimes X_2 $ ($ X_1, X_2 $ matrices over a commutative ring): II, § 10, no. 10.
-$ \operatorname{Tr}(X) $ (X a square matrix over a commutative ring): II, § 10, no. 11.
-$ \operatorname{rg}(X) $ (X a matrix over a field): II, § 10, no. 12.
-$ \deg(x) $ (x an element of a graded group): II, § 11, no. 1.
-$ M(\lambda_0) $ (M a graded module, $ \lambda_0 $ an element of the monoid of degrees): II, § 11, no. 2.
-$ \operatorname{Homgr}_A(M, N) $ (M, N graded modules over a graded ring A): II, § 11, no. 6.
-$ \operatorname{Engr}_A(M), M^{*\operatorname{gr}} $ (M a graded module): II, § 11, no. 6.
-$ M:N $ (M, N modules): II, § 1, Exercise 24.
+$\mathbf{P}(V), \Delta(V)$ (V a vector space): II, § 9, no. 5.
+$\mathbf{P}_n(K), \Delta_n(K)$ (K a field): II, § 9, no. 5.
+$\dim_K \mathbf{P}(V), \dim \mathbf{P}(V)$ (V a vector K-space): II, § 9, no. 5.
+$\tilde{K}, \infty$ (K a field): II, § 9, no. 9.
+$\mathbf{PGL}(V), \mathbf{PGL}_n(K), \mathbf{PGL}(n, K)$ (K a field, V a vector space): II, § 9, no. 10.
+$^tM$ ($M$ a matrix): II, § 10, no. 1.
+$M' + M''$ ($M', M''$ matrices over a commutative group): II, § 10, no. 2.
+$f(M', M''), M'M''$ ($M', M''$ matrices): II, § 10, no. 2.
+$E_{ij}$ (matrix units): II, § 10, no. 3.
+$\sigma(M), M^\sigma$ ($M$ a matrix, $\sigma$ a ring homomorphism): II, § 10, no. 3.
+$M(x), x$ (x an element of a finitely generated free module): II, § 10, no. 4.
+$M(u)$ (u a homomorphism of a free module into a free module): II, § 10, no. 4.
+$M(x), M(u)$ (matrices relative to decompositions as direct sums): II, § 10, no. 5.
+$M(u)$ (u a semi-linear mapping): II, § 10, no. 6.
+$\mathbf{M}_n(A), I_n, 1_n$ (A a ring): II, § 10, no. 7.
+$\mathbf{GL}_n(A), \mathbf{GL}(n, A)$ (A a ring): II, § 10, no. 7.
+$^tX^{-1}$ (X an invertible square matrix): II, § 10, no. 7.
+$\operatorname{diag}(a_i)_{i \in I}, \operatorname{diag}(a_1, a_2, \ldots, a_n)$: II, § 10, no. 7.
+$X_1 \otimes X_2$ ($X_1, X_2$ matrices over a commutative ring): II, § 10, no. 10.
+$\operatorname{Tr}(X)$ (X a square matrix over a commutative ring): II, § 10, no. 11.
+$\operatorname{rg}(X)$ (X a matrix over a field): II, § 10, no. 12.
+$\deg(x)$ (x an element of a graded group): II, § 11, no. 1.
+$M(\lambda_0)$ (M a graded module, $\lambda_0$ an element of the monoid of degrees): II, § 11, no. 2.
+$\operatorname{Homgr}_A(M, N)$ (M, N graded modules over a graded ring A): II, § 11, no. 6.
+$\operatorname{Engr}_A(M), M^{*\operatorname{gr}}$ (M a graded module): II, § 11, no. 6.
+$M:N$ (M, N modules): II, § 1, Exercise 24.
 
 $$
 \begin{bmatrix}
@@ -345,14 +345,14 @@ d & c
 \end{bmatrix}
 $$ (a, b, c, d points on a projective line): II, § 9, Exercise 11.
 
-$ \mathbf{SL}(E) $ (E a vector space): II, § 10, Exercise 12.
-$ \mathbf{PSL}(E) $ (E a vector space): II, § 10, Exercise 14.
-$ x.y, xy $ (multiplication in an algebra): III, § 1, no. 1.
-$ E^0 $ (E an algebra): III, § 1, no. 1.
-$ \operatorname{Hom}_{A-\operatorname{alg.}}(E, F) $ (E, F A-algebras): III, § 1, no. 1.
-$ E/b $ (b a two-sided ideal of an algebra E): III, § 1, no. 2.
-$ \hat{E} $ (E an algebra): III, § 1, no. 2.
-$ \eta_c, \eta_E, \eta $ (E an algebra, c a unit): III, § 1, no. 3.
+$\mathbf{SL}(E)$ (E a vector space): II, § 10, Exercise 12.
+$\mathbf{PSL}(E)$ (E a vector space): II, § 10, Exercise 14.
+$x.y, xy$ (multiplication in an algebra): III, § 1, no. 1.
+$E^0$ (E an algebra): III, § 1, no. 1.
+$\operatorname{Hom}_{A-\operatorname{alg.}}(E, F)$ (E, F A-algebras): III, § 1, no. 1.
+$E/b$ (b a two-sided ideal of an algebra E): III, § 1, no. 2.
+$\hat{E}$ (E an algebra): III, § 1, no. 2.
+$\eta_c, \eta_E, \eta$ (E an algebra, c a unit): III, § 1, no. 3.
 
 T(u), N(u): III, § 2, no. 3.
 \bar{u}: III, § 2, no. 4.
@@ -395,19 +395,19 @@ e^\alpha (\alpha \text{ a multiindex}): III, § 6, no. 6.
 \wedge(M), \wedge_A(M), \mathrm{Alt}(M): III, § 7, no. 1.
 \mathfrak{g}'', \mathfrak{g}''_M, \mathfrak{g}''_n: III, § 7, no. 1.
 
-$ \wedge^n(M) $: III, § 7, no. 1.
-$ u \wedge v, x_1 \wedge x_2 \wedge \cdots \wedge x_n $: III, § 7, no. 1.
-$ \wedge(u), \wedge^n(u) $ ($ u $ a linear mapping): III, § 7, no. 2.
-$ x_H $ (H a subset of $ \{1, n\} $): III, § 7, no. 3.
-$ u(x_1, \ldots, \hat{x}_j, \ldots, x_n) $: III, § 7, no. 4.
-$ a.z $: III, § 7, no. 4.
-$ A'_n(M), A''_n(M) $: III, § 7, no. 4.
-$ e_J $: III, § 7, no. 8.
-$ \rho_{J, K} $: III, § 7, no. 8.
-$ \det(u) $ ($ u $ an endomorphism): III, § 8, no. 1.
-$ \det(x_1, x_2, \ldots, x_n) $ ($ x_j $ vectors in an $ n $-dimensional free A-module): III, § 8, no. 1.
-$ \det(X) $ ($ X $ a matrix): III, § 8, no. 3.
-$ \det(\xi_{ij})_{1 \leq i \leq n, 1 \leq j \leq n}, \det(\xi_{ij}) $: III, § 8, no. 3.
+$\wedge^n(M)$: III, § 7, no. 1.
+$u \wedge v, x_1 \wedge x_2 \wedge \cdots \wedge x_n$: III, § 7, no. 1.
+$\wedge(u), \wedge^n(u)$ ($u$ a linear mapping): III, § 7, no. 2.
+$x_H$ (H a subset of $\{1, n\}$): III, § 7, no. 3.
+$u(x_1, \ldots, \hat{x}_j, \ldots, x_n)$: III, § 7, no. 4.
+$a.z$: III, § 7, no. 4.
+$A'_n(M), A''_n(M)$: III, § 7, no. 4.
+$e_J$: III, § 7, no. 8.
+$\rho_{J, K}$: III, § 7, no. 8.
+$\det(u)$ ($u$ an endomorphism): III, § 8, no. 1.
+$\det(x_1, x_2, \ldots, x_n)$ ($x_j$ vectors in an $n$-dimensional free A-module): III, § 8, no. 1.
+$\det(X)$ ($X$ a matrix): III, § 8, no. 3.
+$\det(\xi_{ij})_{1 \leq i \leq n, 1 \leq j \leq n}, \det(\xi_{ij})$: III, § 8, no. 3.
 
 $$
 \begin{vmatrix}
@@ -418,28 +418,28 @@ $$
 $$
 : III, § 8, no. 3.
 
-$ X_{H, K}, X^{H} $ ($ X $ a matrix): III, § 8, nos 5 and 6.
-$ \mathrm{SL}_n(A), \mathrm{SL}(n, A) $: III, § 8, no. 9.
-$ p.x $ ($ p \in A[X] $, $ x $ an element of an A-module): III, § 8, no. 10.
-$ M_u, M[X] $ ($ M $ an A-module, $ u $ an endomorphism): III, § 8, no. 10.
-$ \chi_u(X) $ ($ u $ an A-module endomorphism): III, § 8, no. 11.
-$ \mathrm{Tr}_{M/K}(a), N_{M/K}(a), \mathrm{Pc}_{M/K}(a; X) $ ($ A $ a K-algebra, $ M $ an A-module, $ a \in A $) : III, § 9, no. 1.
-$ \mathrm{Tr}_{A/K}(a), N_{A/K}(a), \mathrm{Pc}_{A/K}(a; X) $ ($ A $ a K-algebra, $ a \in A $) : III, § 9, no. 3.
-$ D_{A/K}(x_1, \ldots, x_n) $ ($ x_j $ elements of a K-algebra A): III, § 9, no. 5.
-$ [u, v]_g, [u, v] $ ($ u, v $ elements of a graded algebra): III, § 10, no. 4.
-$ P(D), P(d_1, \ldots, d_n) $ ($ P $ a polynomial, $ d_j $ derivations): III, § 10, no. 4.
-$ \mathrm{ad}_e(a), \mathrm{ad}(a) $ ($ a $ a homogeneous element of a graded algebra): III, § 10, no. 6.
-$ D_K(B, F) $ ($ B $ a K-algebra, $ F $ a (B, B)-bimodule): III, § 10, no. 7.
-$ D_{A, \rho}(B, F), D_A(B, F) $: III, § 10, no. 7.
-$ D_s $ ($ s $ an endomorphism): III, § 10, no. 9.
-$ \Omega_K(A), d_{A/K}(x), dx $ ($ x $ an element of a K-algebra A): III, § 10, no. 11.
-$ D_iP, \partial P/\partial X_i $ ($ P $ a polynomial): III, § 10, no. 11.
-$ \Omega(u), \Omega_0(u) $ ($ u $ a ring homomorphism): III, § 10, no. 12.
-$ \Omega_u $ ($ u $ a K-algebra homomorphism): III, § 10, no. 12.
-$ M^{*gr} $ ($ M $ a graded module): III, § 11.
-$ u.v, u._mv $ ($ u, v $ symmetric multilinear mappings): III, § 11, no. 2.
-$ u \wedge v $ ($ u, v $ alternating multilinear mappings): III, § 11, no. 2.
-$ \theta_T, \theta_S, \theta_\Lambda $: III, § 11, no. 5.
+$X_{H, K}, X^{H}$ ($X$ a matrix): III, § 8, nos 5 and 6.
+$\mathrm{SL}_n(A), \mathrm{SL}(n, A)$: III, § 8, no. 9.
+$p.x$ ($p \in A[X]$, $x$ an element of an A-module): III, § 8, no. 10.
+$M_u, M[X]$ ($M$ an A-module, $u$ an endomorphism): III, § 8, no. 10.
+$\chi_u(X)$ ($u$ an A-module endomorphism): III, § 8, no. 11.
+$\mathrm{Tr}_{M/K}(a), N_{M/K}(a), \mathrm{Pc}_{M/K}(a; X)$ ($A$ a K-algebra, $M$ an A-module, $a \in A$) : III, § 9, no. 1.
+$\mathrm{Tr}_{A/K}(a), N_{A/K}(a), \mathrm{Pc}_{A/K}(a; X)$ ($A$ a K-algebra, $a \in A$) : III, § 9, no. 3.
+$D_{A/K}(x_1, \ldots, x_n)$ ($x_j$ elements of a K-algebra A): III, § 9, no. 5.
+$[u, v]_g, [u, v]$ ($u, v$ elements of a graded algebra): III, § 10, no. 4.
+$P(D), P(d_1, \ldots, d_n)$ ($P$ a polynomial, $d_j$ derivations): III, § 10, no. 4.
+$\mathrm{ad}_e(a), \mathrm{ad}(a)$ ($a$ a homogeneous element of a graded algebra): III, § 10, no. 6.
+$D_K(B, F)$ ($B$ a K-algebra, $F$ a (B, B)-bimodule): III, § 10, no. 7.
+$D_{A, \rho}(B, F), D_A(B, F)$: III, § 10, no. 7.
+$D_s$ ($s$ an endomorphism): III, § 10, no. 9.
+$\Omega_K(A), d_{A/K}(x), dx$ ($x$ an element of a K-algebra A): III, § 10, no. 11.
+$D_iP, \partial P/\partial X_i$ ($P$ a polynomial): III, § 10, no. 11.
+$\Omega(u), \Omega_0(u)$ ($u$ a ring homomorphism): III, § 10, no. 12.
+$\Omega_u$ ($u$ a K-algebra homomorphism): III, § 10, no. 12.
+$M^{*gr}$ ($M$ a graded module): III, § 11.
+$u.v, u._mv$ ($u, v$ symmetric multilinear mappings): III, § 11, no. 2.
+$u \wedge v$ ($u, v$ alternating multilinear mappings): III, § 11, no. 2.
+$\theta_T, \theta_S, \theta_\Lambda$: III, § 11, no. 5.
 
 u \perp x, i(x): III, § 11, no. 6.
 x \perp u, i'(x): III, § 11, no. 6.
@@ -563,10 +563,10 @@ Basis of a module: II, § 1, no. 11.
 Basis of an algebra: III, § 1, no. 7.
 Basis of T_I^J(M) associated with a basis of M: III, § 5, no. 6.
 
-Basis of type $ (\alpha, \beta) $ of a quadratic algebra: III, § 2, no. 3.
-Basis of type $ (\alpha, \beta, \gamma) $, of type $ (\alpha, \gamma) $, of a quaternion algebra: III, § 2, no. 5.
+Basis of type $(\alpha, \beta)$ of a quadratic algebra: III, § 2, no. 3.
+Basis of type $(\alpha, \beta, \gamma)$, of type $(\alpha, \gamma)$, of a quaternion algebra: III, § 2, no. 5.
 Basis, projective: II, § 9, Exercise 10.
-Biadditive, $ \mathbf{Z} $-bilinear mapping: II, § 3, no. 1.
+Biadditive, $\mathbf{Z}$-bilinear mapping: II, § 3, no. 1.
 Bicentralizer: I, § 1, no. 5.
 Bicentralizer of a subalgebra: III, § 1, no. 2.
 Bicyclic group: I, § 6, Exercise 26.
@@ -584,7 +584,7 @@ Binomial formula: I, § 8, no. 2.
 Block product of matrices: II, § 10, no. 5.
 Boolean ring: I, § 9, Exercise 8.
 Bordered matrix: II, § 10, no. 1.
-Bracket, $ \varepsilon $-bracket of two derivations: III, § 10, no. 4.
+Bracket, $\varepsilon$-bracket of two derivations: III, § 10, no. 4.
 
 Cancellable, left, right, cancellable, element: I, § 2, no 2.
 Cartan-Brauer-Hua Theorem: I, § 9, Exercise 18.
@@ -713,21 +713,21 @@ Crossed product: III, § 2, Exercise 11.
 Cyclic group: I, § 4, no. 10.
 Cycle of a permutation: I, § 5, no. 7.
 
-Decomposable $ p $-vector: III, § 11, no. 13.
+Decomposable $p$-vector: III, § 11, no. 13.
 Decomposition, direct, of a ring: I, § 8, no. 11.
 Decomposition, reduced decomposition of an element in an amalgamated sum of monoids: I, § 7, no. 3.
 Defined (group) by generators and relations: I, § 7, no. 6.
 Defined (monoid) by generators and relations: I, § 7, no. 2.
 Degree of a homogeneous element in a graded group: II, § 11, no. 1.
-Degree of a polynomial with respect to the indeterminates X_j such that $ j \in J $: III, § 2, no. 9.
+Degree of a polynomial with respect to the indeterminates X_j such that $j \in J$: III, § 2, no. 9.
 Degree, total degree, of a monomial: III, § 2, no. 9.
 Degree, total degree, of an element of a free algebra, of a free associative algebra: III, § 2, no. 7.
 Degree, total degree, of a polynomial: III, § 2, no. 9.
 Denominator: I, § 2, no. 4.
-$ \varepsilon $-derivation, inner: III, § 10, no. 6.
+$\varepsilon$-derivation, inner: III, § 10, no. 6.
 Derivation, K-derivation: III, § 10, no. 2.
-(K, $ \varepsilon $)-derivation of degree $ \delta $, $ \varepsilon $-derivation of degree $ \delta $: III, § 10, no. 2.
-$ \varepsilon $-derivation of a graded algebra, $ \varepsilon $-derivation of a ring: III, § 10, no. 2.
+(K, $\varepsilon$)-derivation of degree $\delta$, $\varepsilon$-derivation of degree $\delta$: III, § 10, no. 2.
+$\varepsilon$-derivation of a graded algebra, $\varepsilon$-derivation of a ring: III, § 10, no. 2.
 Derivation of a ring A into a ring B: III, § 10, no. 2.
 Derivative, partial: III, § 10, no. 11.
 Derived (element) from an element of the free algebra by substituting elements for the indeterminates: III, § 2, no. 8.
@@ -788,7 +788,7 @@ Element centralizing a subset: I, § 5, no. 3.
 Element derived from an element of the free algebra by substituting elements for indeterminates: III, § 2, no. 8.
 Element derived from an element of the free associative algebra by substituting elements for indeterminates: III, § 2, no. 8.
 Element, free, of a module: II, § 1, no. 11.
-Element, homogeneous (homogeneous of degree $ n $), of a graded group: II, § 11, no. 1.
+Element, homogeneous (homogeneous of degree $n$), of a graded group: II, § 11, no. 1.
 Element, identity: I, § 2, no. 1.
 Element invariant under an operator: I, § 3, no. 2.
 Element, isobaric, of a graded group: II, § 11, no. 1.
@@ -796,8 +796,8 @@ Element, left cancellable, right cancellable, cancellable: I, § 2, no. 2.
 Element, left invertible, right invertible, invertible: I, § 2, no. 3.
 Element, left regular, right regular, regular: I, § 2, no. 2.
 Element normalizing a subset: i, § 5, no. 3.
-Element, $ p $-regular: I, § 6, Exercise 28.
-Element, $ p $-unipotent: I, § 6, Exercise 28.
+Element, $p$-regular: I, § 6, Exercise 28.
+Element, $p$-unipotent: I, § 6, Exercise 28.
 Element, primitive, in a free group: I, § 7, Exercise 26.
 Element, primitive, of a graded bigebra: III, § 11, no. 8.
 Element resulting from substituting elements for indeterminates in a free group: I, § 7, no. 5.
@@ -847,10 +847,10 @@ Extension of scalars (algebra obtained by): III, § 1, no. 5.
 Extension, trivial: I, § 6, no. 1.
 Extension, trivial, of a module: II, § 1, no. 9.
 Exterior algebra of a module: III, § 7, no. 1.
-Exterior power, $ p $-th, of an endomorphism: III, § 7, no. 4.
-Exterior power, $ p $-th, of a matrix: III, § 8, no. 5.
-Exterior power, $ p $-th, of a module: III, § 7, no. 4.
-Exterior product of a $ p $-vector and a $ q $-vector: III, § 7, no. 1.
+Exterior power, $p$-th, of an endomorphism: III, § 7, no. 4.
+Exterior power, $p$-th, of a matrix: III, § 8, no. 5.
+Exterior power, $p$-th, of a module: III, § 7, no. 4.
+Exterior product of a $p$-vector and a $q$-vector: III, § 7, no. 1.
 External law of composition: I, § 3, no. 1.
 
 Factor, direct, of a group: I, § 4, no. 9.
@@ -882,8 +882,8 @@ Fixing a subset of a set (operator, set of operators): I, § 5, no. 2.
 Form, canonical bilinear: II, § 2, no. 3.
 Form, coordinate: II, § 2, no. 6.
 Form, linear: II, § 2, no. 3.
-Form, $ n $-linear: II, § 3, no. 9.
-$ n $-form: III, § 11, no. 7.
+Form, $n$-linear: II, § 3, no. 9.
+$n$-form: III, § 11, no. 7.
 Formula, binomial: I, § 8, no. 2.
 Formula, Leibniz: III, § 10, no. 4.
 Formulae, Cramer’s: III, § 8, no. 7.
@@ -938,7 +938,7 @@ Graded group, module, ring: II, § 11, nos. 1 and 2.
 Graded homomorphism: II, § 11, no. 2.
 Graded subalgebra: III, § 3, no. 2.
 Graded subring, submodule, ideal: II, § 11, no. 3.
-Graded tensor product of type $ \Delta_0 $: III, § 4, no. 8.
+Graded tensor product of type $\Delta_0$: III, § 4, no. 8.
 
 Graduation compatible with a coproduct: III, § 11, no. 1.
 Graduation compatible with an algebra structure: III, § 3, no. 1.
@@ -971,17 +971,17 @@ Group, linear: II, § 2, no. 6.
 Group, minimal simple: I, § 6, Exercise 27.
 Group, monogenous: I, § 4, no. 10.
 Group, multiplicative, of a ring: I, § 8, no. 1.
-Group, nilpotent, nilpotent group of class $ n $: I, § 6, no. 3.
+Group, nilpotent, nilpotent group of class $n$: I, § 6, no. 3.
 Group of differences, group of fractions: I, § 2, no. 4.
 Group of exponential type: I, § 7, Exercise 39.
 Group operating faithfully: I, § 5, no. 1.
 Group operating freely: I, § 5, no. 4.
 Group operating simply transitively: I, § 5, no. 6.
 Group operating transitively: I, § 5, no. 5.
-$ p $-group: I, § 6, no. 5.
+$p$-group: I, § 6, no. 5.
 Group, projective: II, § 9, no. 10.
 Group, residually finite: I, § 5, Exercise 5.
-Group, solvable, solvable group of class $ n $: I, § 6, no. 4.
+Group, solvable, solvable group of class $n$: I, § 6, no. 4.
 Group, special linear: III, § 8, no. 9.
 
 Group, supersolvable: I, § 6, Exercise 26.
@@ -1001,8 +1001,8 @@ Hamiltonian quaternions: III, § 2, no. 5.
 Homogeneous element in a graded group: II, § 11, no. 1.
 Homogeneous G-set: I, § 5, no. 5.
 Homogeneous linear equation, linear system: II, § 2, no. 8.
-Homogeneous subset of degree $ p $ in a formal power series: III, § 2, no. 11.
-Homogeneous subset of degree $ p $ with respect to certain indeterminates in a formal power series: III, § 2, no. 11.
+Homogeneous subset of degree $p$ in a formal power series: III, § 2, no. 11.
+Homogeneous subset of degree $p$ with respect to certain indeterminates in a formal power series: III, § 2, no. 11.
 Homomorphism, algebra: III, § 1, no. 1.
 Homomorphism, A-module, A-homomorphism: II, § 1, no. 2.
 Homomorphism, central ring: II, § 5, no. 3.
@@ -1016,7 +1016,7 @@ Homomorphism, monoid: I, § 2, no. 1.
 Homomorphism, M-set: I, § 5, no. 1.
 Homomorphism, multinode: II, § 1, no. 14.
 Homomorphism of groups with operators: I, § 4, no. 2.
-$ \phi $-homomorphism: I, § 3, no. 1.
+$\phi$-homomorphism: I, § 3, no. 1.
 Homomorphism, projection: I, § 4, no. 8.
 Homomorphism, ring: I, § 8, no. 4.
 Homomorphism, trivial: I, § 2, no. 1.
@@ -1118,15 +1118,15 @@ Length of a module: II, § 1, no. 10.
 Length of an element in a free group: I, § 7, Exercise 19.
 Length of an element in a free magma: I, § 7, no. 1.
 Length of a word: I, § 7, no. 2.
-Limit, direct, of $ A_\alpha $-algebras: III, § 1, no. 6.
-Limit, direct, of $ A_\alpha $-modules: II, § 6, no. 2.
+Limit, direct, of $A_\alpha$-algebras: III, § 1, no. 6.
+Limit, direct, of $A_\alpha$-modules: II, § 6, no. 2.
 Limit, direct, of actions: I, § 10, no. 4.
 Limit, direct, of graded algebras: III, § 3, no. 3.
 Limit, direct, of groups, of groups with operators, of monoids: I, § 10, no. 3.
 Limit, direct, of magmas: I, § 10, no. 3.
 Limit, direct, of rings: I, § 10, no. 3.
-Limit, inverse, of $ A_\alpha $-algebras: III, § 1, no. 6.
-Limit, inverse, of $ A_\alpha $-modules: II, § 6, no. 1.
+Limit, inverse, of $A_\alpha$-algebras: III, § 1, no. 6.
+Limit, inverse, of $A_\alpha$-modules: II, § 6, no. 1.
 Limit, inverse, of groups, of groups with operators, of monoids: I, § 10, no. 1.
 Limit, inverse, of magmas: I, § 10, no. 1.
 Limit, inverse, of rings: I, § 10, no. 1.
@@ -1163,15 +1163,15 @@ Magma, unital: I, § 2, no. 1.
 Magmas, isomorphic: I, § 1, no. 1.
 Mapping, affine linear, affine: II, § 9, no. 4.
 Mapping, alternating multilinear: III, § 7, no. 4.
-Mapping, biadditive, $ \mathbf{Z} $-bilinear: II, § 3, no. 1.
+Mapping, biadditive, $\mathbf{Z}$-bilinear: II, § 3, no. 1.
 Mapping, C-bilinear: II, § 3, no. 5.
 Mapping compatible with an action: I, § 3, no. 1.
 Mapping compatible with the operation of a monoid: I, § 5, no. 1.
 Mapping distributive with respect to a variable: I, § 3, no. 4.
 Mapping, linear, A-linear: II, § 1, no. 2.
-Mapping, linear, $ A_s(T) \to E $ determined by a mapping $ T \to E $: II, § 1, no. 11.
+Mapping, linear, $A_s(T) \to E$ determined by a mapping $T \to E$: II, § 1, no. 11.
 Mapping, linear, associated with an affine mapping: II, § 9, no. 4.
-Mapping, multiadditive, $ \mathbf{Z} $-multilinear: II, § 3, no. 9.
+Mapping, multiadditive, $\mathbf{Z}$-multilinear: II, § 3, no. 9.
 Mapping, C-multilinear: II, § 3, no. 9.
 Mapping, orbital: I, § 5, no. 4.
 Mapping, projective linear, projective: II, § 9, no. 10.
@@ -1186,7 +1186,7 @@ Matrix, diagonal: II, § 10, no. 7.
 Matrix, empty: II, § 10, no. 1.
 Matrix, invertible: II, § 10, no. 7.
 Matrix, lower triangular, upper triangular: II, § 10, no. 7.
-Matrix, matrix of type $ (p, q) $: II, § 10, no. 1.
+Matrix, matrix of type $(p, q)$: II, § 10, no. 1.
 Matrix, monomial: II, § 10, no. 7.
 Matrix obtained by bordering a matrix: II, § 10, no. 1.
 Matrix obtained by suppressing columns, rows: II, § 10, no. 1.
@@ -1199,7 +1199,7 @@ Matrix of a semi-linear mapping with respect to two bases: II, § 10, no. 6.
 Matrix of passing from one basis to another: II, § 10, no. 8.
 Matrix, scalar: II, § 10, no. 7.
 
-Matrix, square, square matrix of order $ n $: II, § 10, no. 7.
+Matrix, square, square matrix of order $n$: II, § 10, no. 7.
 Matrix, unimodular: III, § 8, no. 4.
 Matrix units: II, § 10, no. 3.
 Matrix with only zeros below (above) the diagonal: II, § 10, no. 7.
@@ -1208,7 +1208,7 @@ Maximal ideal: I, § 8, no. 6.
 G-mean: I, § 6, Exercise 8.
 Minimal normal stable subgroups: I, § 4, Exercise 15.
 Minimal simple group: I, § 6, Exercise 27.
-Minor, minor of order $ p $ of a matrix: III, § 8, no. 5.
+Minor, minor of order $p$ of a matrix: III, § 8, no. 5.
 Minors, complementary: III, § 8, no. 6.
 Mixed tensor: III, § 5, no. 6.
 Module, bigraded: II, § 11, no. 2.
@@ -1296,7 +1296,7 @@ Number (rational), negative, positive, strictly negative, strictly positive: I, 
 Numerator: I, § 2, no. 4.
 
 Octonions, Cayley: III, Appendix, no. 3.
-Octonions of type ($ \alpha, \beta, \gamma, \delta $) (algebra of): III, Appendix, no. 3.
+Octonions of type ($\alpha, \beta, \gamma, \delta$) (algebra of): III, Appendix, no. 3.
 Odd permutation: I, § 5, no. 7.
 Operation by left, right, translation: I, § 5, no. 1.
 Operation, left, right (laws of): I, § 5, no. 1.
@@ -1309,7 +1309,7 @@ Opposite algebra: III, § 1, no. 1.
 Opposite cogebra: III, § 11, no. 1.
 Opposite law: I, § 1, no. 1.
 Opposite magma: I, § 1, no. 1.
-Opposite to an M-set, $ M^0 $-set: I, § 5, no. 1.
+Opposite to an M-set, $M^0$-set: I, § 5, no. 1.
 Opposite ring: I, § 8, no. 3.
 Orbit: I, § 5, no. 4.
 Orbital mapping: I, § 5, no. 4.
@@ -1381,8 +1381,8 @@ Problem, linear: II, § 2, no. 8.
 Product algebra: III, § 1, no. 4.
 Product, block, of matrices: II, § 10, no. 5.
 Product, crossed: III, § 2, Exercise 11.
-Product, exterior, of a $ p $-vector and a $ q $-vector: III, § 7, no. 1.
-Product, external semi-direct, of G by F relative to $ \tau $: I, § 6, no. 1.
+Product, exterior, of a $p$-vector and a $q$-vector: III, § 7, no. 1.
+Product, external semi-direct, of G by F relative to $\tau$: I, § 6, no. 1.
 Product, fibre, of groups with operators: I, § 4, no. 8.
 Product, fibre, of modules: II, § 1, Exercise 4.
 Product, free, of algebras: III, § 5, Exercise 6.
@@ -1406,7 +1406,7 @@ Product of two-sided ideals: I, § 8, no. 9.
 Product, (right, left) inner: III, § 11, nos. 6 and 7.
 Product ring: I, § 8, no. 10.
 Product, symmetric, of multilinear mappings: III, § 11, no. 2.
-Product, tensor, of a family of $ \mathbf{Z} $-modules relative to a triple $ (c, p, q) $: II, § 3, no. 9.
+Product, tensor, of a family of $\mathbf{Z}$-modules relative to a triple $(c, p, q)$: II, § 3, no. 9.
 Product, tensor, of algebras: III, § 4, no. 1.
 Product, tensor, of an infinite family of algebras: III, § 4, no. 5.
 Product, tensor, of bases of algebras: III, § 4, no. 5.
@@ -1432,7 +1432,7 @@ Projector: II, § 1, no. 8.
 Pseudomodule, left, right: II, Appendix, no. 2.
 Pseudo-ring: I, § 8, no. 1.
 Pseudo-ring with zero square: I, § 8, no. 3.
-Pure $ p $-vector: III, § 11, no. 13.
+Pure $p$-vector: III, § 11, no. 13.
 Pure quaternion: III, § 2, Exercise 3.
 
 Quadratic algebra: III, § 2, no. 3.
@@ -1601,7 +1601,7 @@ Subgroup, invariant stable, invariant subgroup: I, § 4, no. 4.
 Subgroup, normal stable, normal subgroup: I, § 4, no. 4.
 Subgroup, stable, generated by a subset: I, § 4, no. 3.
 Subgroup, stable subgroup: I, § 4, no. 3.
-Subgroup, Sylow, Sylow $ p $-subgroup: I, § 6, no. 6.
+Subgroup, Sylow, Sylow $p$-subgroup: I, § 6, no. 6.
 Submagma: I, § 1, no. 4.
 Submagna generated by a subset: I, § 1, no. 4.
 Submagma, unital: I, § 2, no. 1.
@@ -1624,7 +1624,7 @@ Subset, affine: II, § 9, no. 3.
 
 Subset centralizing a subset: I, § 5, no. 3.
 Subset, free, related subset: II, § 1, no. 11.
-Subset, homogeneous, of degree $ p $ with respect to certain indeterminates in a formal power series: III, § 2, no. 11.
+Subset, homogeneous, of degree $p$ with respect to certain indeterminates in a formal power series: III, § 2, no. 11.
 Subset normalizing a subset: I, § 5, no. 3.
 Subset, stable: I, § 1, no. 4 and § 3, no. 2.
 Subset, stable, generated by a subset: I, § 1, no. 4 and § 3, no. 2.
@@ -1706,8 +1706,8 @@ Term in X^α in a polynomial: III, § 2, no. 9.
 Term of a formal power series: III, § 2, no. 11.
 Term of a polynomial: III, § 2, no. 9.
 Term of a sum: I, § 1, no. 2.
-Term of degree $ p $ with respect to certain indeterminates in a formal power series: III, § 2, no. 11.
-Term of total degree $ p $ in a formal power series: III, § 2, no. 11.
+Term of degree $p$ with respect to certain indeterminates in a formal power series: III, § 2, no. 11.
+Term of total degree $p$ in a formal power series: III, § 2, no. 11.
 Theorem, associativity: I, § 1, no. 3.
 Theorem, Cayley-Hamilton: III, § 8, no. 11.
 Theorem, commutativity: I, § 1, no. 5.

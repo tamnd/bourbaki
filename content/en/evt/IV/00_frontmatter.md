@@ -12,11 +12,11 @@ pdf_pages: 0183-0183
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 6c0af4da14d9d1c8e560c3a71e165bb00e1b7e16f37a044e8fdc77ed58d53386
+content_sha256: 73c5ba5112d06e14227a37b20d1037b1ede41642831cafdda1e6f1c592738589
 ---
 
 ## CHAPTER IV
 
 # Duality in topological vector spaces
 
-Throughout this chapter, all the vector spaces under consideration are vector spaces over a field K which is either $ \mathbf{R} $ or $ \mathbf{C} $.
+Throughout this chapter, all the vector spaces under consideration are vector spaces over a field K which is either $\mathbf{R}$ or $\mathbf{C}$.

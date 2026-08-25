@@ -56,16 +56,16 @@ subsections:
       pdf_page: 152
 statements: 32
 exercises: 10
-content_sha256: dda8db31275d170739c98a44fa1043a46273b08d3739cf5dbbd8aed934998868
+content_sha256: c45ddbecbce1fdde54f20fa9b4671c2410f21271291967870bb4c5380ec1d17b
 ---
 
 ## § 2. FREE LIE ALGEBRAS
 
 ### 1. REVISION OF FREE ALGEBRAS
 
-Let X be a set. Recall the construction of the free magma M(X) constructed on X (Algebra, Chapter I, § 7, no. 1). By induction on the integer $ n \geqslant 1 $, we define the sets $ X_n $ by writing $ X_1 = X $ and taking $ X_n $ to be the sum set of the sets $ X_p \times X_{n-p} $ where $ p = 1, 2, \ldots, n-1 $; if X is finite, so is each $ X_n $. The sum set of the family $ (X_n)_{n \geqslant 1} $ is denoted by M(X); each of the sets $ X_n $ (and in particular X) is identified with a subset of M(X). Let w and $ w' $ be in M(X); let p and q denote the integers such that $ w \in X_p $ and $ w' \in X_q $ and let $ n = p + q $; the image of the ordered pair $ (w, w') $ under the canonical injection of $ X_p \times X_{n-p} $ into $ X_n $ is denoted by $ w.w' $ and called the product of w and $ w' $. Every mapping of X into a magma M can be extended in a unique way to a magma homomorphism of M(X) into M.
+Let X be a set. Recall the construction of the free magma M(X) constructed on X (Algebra, Chapter I, § 7, no. 1). By induction on the integer $n \geqslant 1$, we define the sets $X_n$ by writing $X_1 = X$ and taking $X_n$ to be the sum set of the sets $X_p \times X_{n-p}$ where $p = 1, 2, \ldots, n-1$; if X is finite, so is each $X_n$. The sum set of the family $(X_n)_{n \geqslant 1}$ is denoted by M(X); each of the sets $X_n$ (and in particular X) is identified with a subset of M(X). Let w and $w'$ be in M(X); let p and q denote the integers such that $w \in X_p$ and $w' \in X_q$ and let $n = p + q$; the image of the ordered pair $(w, w')$ under the canonical injection of $X_p \times X_{n-p}$ into $X_n$ is denoted by $w.w'$ and called the product of w and $w'$. Every mapping of X into a magma M can be extended in a unique way to a magma homomorphism of M(X) into M.
 
-Let w be in M(X); the unique integer n such that $ w \in X_n $ is called the length of w and denoted by $ l(w) $. Then $ l(w.w') = l(w) + l(w') $ for w, $ w' $ in M(X). The set X is the subset of M(X) consisting of the elements of length 1. Every element w of length $ \geqslant 2 $ can be written uniquely in the form $ w = w'.w'' $.
+Let w be in M(X); the unique integer n such that $w \in X_n$ is called the length of w and denoted by $l(w)$. Then $l(w.w') = l(w) + l(w')$ for w, $w'$ in M(X). The set X is the subset of M(X) consisting of the elements of length 1. Every element w of length $\geqslant 2$ can be written uniquely in the form $w = w'.w''$.
 
 The algebra of the magma M(X) with coefficients in the ring K is denoted by Lib(X), or Lib_K(X) when it is necessary to indicate the ring K. The set M(X) is a basis of the K-module Lib(X) and X will therefore be identified with a subset of Lib(X). If A is an algebra, every mapping of X into A can be extended uniquely to a homomorphism of Lib(X) into A (Algebra, Chapter III, § 2, no. 7, Proposition 7).
 
@@ -86,135 +86,135 @@ $$
 $$
 J(a, b, c) = a.(b.c) + b.(c.a) + c.(a.b)
 $$
-for $ a, b, c $ in $ \mathrm{Lib}(X) $.
+for $a, b, c$ in $\mathrm{Lib}(X)$.
 
-Clearly $ L(X) $ is a Lie K-algebra; the composition of two elements $ u, v $ of $ L(X) $ will be denoted by $[u, v]$. When it is necessary to indicate the ring K, we write $ L_K(X) $ for $ L(X) $.
+Clearly $L(X)$ is a Lie K-algebra; the composition of two elements $u, v$ of $L(X)$ will be denoted by $[u, v]$. When it is necessary to indicate the ring K, we write $L_K(X)$ for $L(X)$.
 
-The following proposition justifies the name *free* Lie algebra given to $ L(X) $.
+The following proposition justifies the name *free* Lie algebra given to $L(X)$.
 
 #### Proposition 1 {#lie-ii-s2-prop-1 .statement}
 
-*Let $ \psi $ be the canonical mapping of Lib(X) onto $ L(X) $ and $ \phi $ the restriction of $ \psi $ to X. For every mapping f of X into a Lie algebra $ g $, there exists one and only one homomorphism F: $ L(X) \to g $ such that $ f = F \circ \phi $.*
+*Let $\psi$ be the canonical mapping of Lib(X) onto $L(X)$ and $\phi$ the restriction of $\psi$ to X. For every mapping f of X into a Lie algebra $g$, there exists one and only one homomorphism F: $L(X) \to g$ such that $f = F \circ \phi$.*
 
-(a) *Existence of F*: let h be the homomorphism of Lib(X) into $ g $ extending f (no. 1). For all $ a $ in Lib(X), $ h(Q(a)) = h(a.a) = [h(a), h(a)] = 0 $; similarly, the Jacobi identity satisfied by $ g $ implies that $ h(J(a, b, c)) = 0 $ for $ a, b, c $ in Lib(X). It follows that $ h(a) = 0 $, whence there is a homomorphism F of $ L(X) $ into $ g $ such that $ h = F \circ \psi $. By restricting to X, we obtain $ f = F \circ \phi $.
+(a) *Existence of F*: let h be the homomorphism of Lib(X) into $g$ extending f (no. 1). For all $a$ in Lib(X), $h(Q(a)) = h(a.a) = [h(a), h(a)] = 0$; similarly, the Jacobi identity satisfied by $g$ implies that $h(J(a, b, c)) = 0$ for $a, b, c$ in Lib(X). It follows that $h(a) = 0$, whence there is a homomorphism F of $L(X)$ into $g$ such that $h = F \circ \psi$. By restricting to X, we obtain $f = F \circ \phi$.
 
-(b) *Uniqueness of F*: let $ F': L(X) \to g $ be a homomorphism such that $ f = F' \circ \phi $. The homomorphisms $ F \circ \psi $ and $ F' \circ \psi $ of Lib(X) into $ g $ coincide on X and hence are equal; as $ \psi $ is surjective, $ F = F' $.
+(b) *Uniqueness of F*: let $F': L(X) \to g$ be a homomorphism such that $f = F' \circ \phi$. The homomorphisms $F \circ \psi$ and $F' \circ \psi$ of Lib(X) into $g$ coincide on X and hence are equal; as $\psi$ is surjective, $F = F'$.
 
 #### Corollary 1 {#lie-ii-s2-prop-1-cor-1 .statement}
 
-*The family $ (\phi(x))_{x \in X} $ is free over K in $ L(X) $.*
+*The family $(\phi(x))_{x \in X}$ is free over K in $L(X)$.*
 
-Let $ x_1, x_2, \ldots, x_n $ be distinct elements of X and $ \lambda_1, \ldots, \lambda_n $ be elements of K such that
+Let $x_1, x_2, \ldots, x_n$ be distinct elements of X and $\lambda_1, \ldots, \lambda_n$ be elements of K such that
 
 $$
 \lambda_1 \cdot \phi(x_1) + \cdots + \lambda_n \cdot \phi(x_n) = 0.
 $$
 
-Let $ g $ be the commutative Lie algebra with K as underlying module. For $ i = 1, 2, \ldots, n $, there exists a homomorphism $ F_i $ of $ L(X) $ into $ g $ such that $ F_i(\phi(x_i)) = 1 $ and $ F_i(\phi(x)) = 0 $ for $ x \neq x_i $ (Proposition 1); applying $ F_i $ to relation (3), we obtain $ \lambda_i = 0 $.
+Let $g$ be the commutative Lie algebra with K as underlying module. For $i = 1, 2, \ldots, n$, there exists a homomorphism $F_i$ of $L(X)$ into $g$ such that $F_i(\phi(x_i)) = 1$ and $F_i(\phi(x)) = 0$ for $x \neq x_i$ (Proposition 1); applying $F_i$ to relation (3), we obtain $\lambda_i = 0$.
 
 #### Corollary 2 {#lie-ii-s2-prop-1-cor-2 .statement}
 
-*Let $ a $ be a Lie algebra. Every extension of $ L(X) $ by $ a $ is inessential.*
+*Let $a$ be a Lie algebra. Every extension of $L(X)$ by $a$ is inessential.*
 
-Let $ a \xrightarrow{\lambda} g \xrightarrow{\mu} L(X) $ be such an extension (Chapter I, § 1, no. 7). As $ \mu $ is surjective, there exists a mapping f of X into $ g $ such that $ \phi = \mu \circ f $. Let F be the homomorphism of $ L(X) $ into $ g $ such that $ f = F \circ \phi $ (Proposition 1). Then $ (\mu \circ F) \circ \phi = \mu \circ f = \phi $ and Proposition 1 shows that $ \mu \circ F $ is the identity automorphism of $ L(X) $. The given extension is therefore inessential (Chapter I, § 1, no. 7, Proposition 6 and Definition 6).
+Let $a \xrightarrow{\lambda} g \xrightarrow{\mu} L(X)$ be such an extension (Chapter I, § 1, no. 7). As $\mu$ is surjective, there exists a mapping f of X into $g$ such that $\phi = \mu \circ f$. Let F be the homomorphism of $L(X)$ into $g$ such that $f = F \circ \phi$ (Proposition 1). Then $(\mu \circ F) \circ \phi = \mu \circ f = \phi$ and Proposition 1 shows that $\mu \circ F$ is the identity automorphism of $L(X)$. The given extension is therefore inessential (Chapter I, § 1, no. 7, Proposition 6 and Definition 6).
 
-As the ring K is non-zero, Corollary 1 to Proposition 1 shows that $ \phi $ is injective. *Hence the set X can be identified by means of $ \phi $ with its image in $ L(X) $*; with this convention, X generates $ L(X) $ and every mapping of X into a Lie algebra $ g $ *can be extended* to a Lie algebra homomorphism of $ L(X) $ into $ g $.
+As the ring K is non-zero, Corollary 1 to Proposition 1 shows that $\phi$ is injective. *Hence the set X can be identified by means of $\phi$ with its image in $L(X)$*; with this convention, X generates $L(X)$ and every mapping of X into a Lie algebra $g$ *can be extended* to a Lie algebra homomorphism of $L(X)$ into $g$.
 
 #### Remark {#lie-ii-s2-n2-rem-1 .statement}
 
-When X is empty, $ M(X) $ is empty and hence $ L(X) = \{0\} $. If X consists of a single element $ x $, the submodule $ K.x $ of $ L(X) $ is a Lie subalgebra of
+When X is empty, $M(X)$ is empty and hence $L(X) = \{0\}$. If X consists of a single element $x$, the submodule $K.x$ of $L(X)$ is a Lie subalgebra of
 
 L(X); as X generates L(X), Corollary 1 to Proposition 1 shows that L(X) is a free module with basis {x}.
 
 ### 3. PRESENTATIONS OF A LIE ALGEBRA
 
-Let g be a Lie algebra and $ a = (a_i)_{i \in I} $ a family of elements of g. Let $ f_a $ be the homomorphism of L(I) into g mapping each $ i \in I $ to $ a_i $. The image of $ f_a $ is the subalgebra of g generated by $ a $; the elements of the kernel of $ f_a $ are called the *relators* of the family $ a $. The family $ a $ is called generating (resp. free, basic) if $ f_a $ is surjective (resp. injective, bijective).
+Let g be a Lie algebra and $a = (a_i)_{i \in I}$ a family of elements of g. Let $f_a$ be the homomorphism of L(I) into g mapping each $i \in I$ to $a_i$. The image of $f_a$ is the subalgebra of g generated by $a$; the elements of the kernel of $f_a$ are called the *relators* of the family $a$. The family $a$ is called generating (resp. free, basic) if $f_a$ is surjective (resp. injective, bijective).
 
-Let g be a Lie algebra. A *presentation* of g is an ordered pair $ (a, r) $ consisting of a generating family $ a = (a_i)_{i \in I} $ and a family $ r = (r_j)_{j \in J} $ of relators of $ a $ generating the ideal of L(I) the kernel of $ f_a $. We also say that g is presented by the family $ a $ related by the relators $ r_j $ ($ j \in J $).
+Let g be a Lie algebra. A *presentation* of g is an ordered pair $(a, r)$ consisting of a generating family $a = (a_i)_{i \in I}$ and a family $r = (r_j)_{j \in J}$ of relators of $a$ generating the ideal of L(I) the kernel of $f_a$. We also say that g is presented by the family $a$ related by the relators $r_j$ ($j \in J$).
 
-Let I be a set and $ r = (r_j)_{j \in J} $ be a family of elements of the free Lie algebra L(I); let $ a_r $ be the ideal of L(I) generated by $ r $. The quotient algebra $ L(I, r) = L(I)/a_r $ is called the Lie algebra defined by I and the family of relators $ (r_j)_{j \in J} $; we also say that $ L(I, r) $ is defined by the presentation (I, r), or also by $ (I; (r_j = 0)_{j \in J}) $. When the family $ r $ is empty, $ L(I, r) = L(I) $.
+Let I be a set and $r = (r_j)_{j \in J}$ be a family of elements of the free Lie algebra L(I); let $a_r$ be the ideal of L(I) generated by $r$. The quotient algebra $L(I, r) = L(I)/a_r$ is called the Lie algebra defined by I and the family of relators $(r_j)_{j \in J}$; we also say that $L(I, r)$ is defined by the presentation (I, r), or also by $(I; (r_j = 0)_{j \in J})$. When the family $r$ is empty, $L(I, r) = L(I)$.
 
-Let I and $ r $ be as above; let $ \xi_i $ denote the image of $ i $ in $ L(I, r) $. The generating family $ \xi = (\xi_i)_{i \in I} $ and the family of relators $ r $ constitute a presentation of $ L(I, r) $. Conversely, if g is a Lie algebra and $ (a, r) $, where $ a = (a_i)_{i \in I} $, is a presentation of g, there exists a unique isomorphism $ u : L(I, r) \to g $ such that $ u(\xi_i) = a_i $ for all $ i \in I $.
+Let I and $r$ be as above; let $\xi_i$ denote the image of $i$ in $L(I, r)$. The generating family $\xi = (\xi_i)_{i \in I}$ and the family of relators $r$ constitute a presentation of $L(I, r)$. Conversely, if g is a Lie algebra and $(a, r)$, where $a = (a_i)_{i \in I}$, is a presentation of g, there exists a unique isomorphism $u : L(I, r) \to g$ such that $u(\xi_i) = a_i$ for all $i \in I$.
 
 ### 4. LIE POLYNOMIALS AND SUBSTITUTIONS
 
-Let I be a set. Let $ T_i $ denote the canonical image of the element i of I in L(I) (which is also sometimes denoted by $ L((T_i)_{i \in I}) $); the elements of L(I) are called *Lie polynomials* in the indeterminates $ (T_i)_{i \in I} $.
+Let I be a set. Let $T_i$ denote the canonical image of the element i of I in L(I) (which is also sometimes denoted by $L((T_i)_{i \in I})$); the elements of L(I) are called *Lie polynomials* in the indeterminates $(T_i)_{i \in I}$.
 
-Let g be a Lie algebra. If $ t = (t_i)_{i \in I} $ is a family of elements of g, let $ f_t $ denote the homomorphism of L(I) into g such that $ f_t(T_i) = t_i $ for $ i \in I $ (no. 2, Proposition 1). The image under $ f_t $ of the element P of L(I) is denoted by $ P((t_i)_{i \in I}) $. In particular, $ P((T_i)_{i \in I}) = P $; the above element $ P((t_i)_{i \in I}) $ is sometimes called the element of g obtained by substituting the $ t_i $ for the $ T_i $ in the Lie polynomial $ P((T_i)_{i \in I}) $.
+Let g be a Lie algebra. If $t = (t_i)_{i \in I}$ is a family of elements of g, let $f_t$ denote the homomorphism of L(I) into g such that $f_t(T_i) = t_i$ for $i \in I$ (no. 2, Proposition 1). The image under $f_t$ of the element P of L(I) is denoted by $P((t_i)_{i \in I})$. In particular, $P((T_i)_{i \in I}) = P$; the above element $P((t_i)_{i \in I})$ is sometimes called the element of g obtained by substituting the $t_i$ for the $T_i$ in the Lie polynomial $P((T_i)_{i \in I})$.
 
-Let $ \sigma : g \to g' $ be a Lie algebra homomorphism. For every family $ t = (t_i)_{i \in I} $ of elements of g and all $ P \in L(I) $,
+Let $\sigma : g \to g'$ be a Lie algebra homomorphism. For every family $t = (t_i)_{i \in I}$ of elements of g and all $P \in L(I)$,
 
 $$
 \sigma(P((t_i)_{i \in I})) = P((\sigma(t_i))_{i \in I}),
 $$
 
-for $ \sigma \circ f_t $ maps $ T_i $ to $ \sigma(t_i) $ for $ i \in I $.
+for $\sigma \circ f_t$ maps $T_i$ to $\sigma(t_i)$ for $i \in I$.
 
-Let $ (Q_j)_{j \in J} $ be a family of elements of L(I) and let $ P \in L(J) $. By substituting the Q_j for the T_j in P, we obtain a Lie polynomial R = P((Q_j)_{j \in J}) \in L(I). Then
+Let $(Q_j)_{j \in J}$ be a family of elements of L(I) and let $P \in L(J)$. By substituting the Q_j for the T_j in P, we obtain a Lie polynomial R = P((Q_j)_{j \in J}) \in L(I). Then
 
 (5)
 $$
 R((t_i)_{i \in I}) = P((Q_j((t_i)_{i \in I}))_{j \in J})
 $$
-for every family $ t = (t_i)_{i \in I} $ of elements of a Lie algebra g, as is seen by operating by the homomorphism $ f_t $ on the equation $ R = P((Q_j)_{j \in J}) $ and using (4).
+for every family $t = (t_i)_{i \in I}$ of elements of a Lie algebra g, as is seen by operating by the homomorphism $f_t$ on the equation $R = P((Q_j)_{j \in J})$ and using (4).
 
-Let g be a Lie algebra, I a finite set and $ P \in L(I) $. Suppose that g is a free K-module. The mapping
+Let g be a Lie algebra, I a finite set and $P \in L(I)$. Suppose that g is a free K-module. The mapping
 $$
 \tilde{P} : g^I \to g
 $$
-defined by $ \tilde{P}((t_i)_{i \in I}) = P((t_i)_{i \in I}) $ is then *polynomial.*† For the set F of mappings of $ g^I $ into g is a Lie algebra with the bracket defined by
+defined by $\tilde{P}((t_i)_{i \in I}) = P((t_i)_{i \in I})$ is then *polynomial.*† For the set F of mappings of $g^I$ into g is a Lie algebra with the bracket defined by
 $$
 [\phi, \psi](t) = [\phi(t), \psi(t)];
 $$
-the set F' of polynomial mappings of $ g^I $ into g is a Lie subalgebra of F by the bilinearity of the bracket. Our assertion then follows from the fact that the mapping $ P \mapsto \tilde{P} $ is a Lie algebra homomorphism and $ \tilde{T}_i = \mathrm{pr}_i \in F' $ for all i.
+the set F' of polynomial mappings of $g^I$ into g is a Lie subalgebra of F by the bilinearity of the bracket. Our assertion then follows from the fact that the mapping $P \mapsto \tilde{P}$ is a Lie algebra homomorphism and $\tilde{T}_i = \mathrm{pr}_i \in F'$ for all i.
 
 ### 5. FUNCTORIAL PROPERTIES
 
 #### Proposition 2 {#lie-ii-s2-prop-2 .statement}
 
-Let X and Y be two sets. Every mapping $ u : X \to Y $ can be extended uniquely to a Lie algebra homomorphism $ L(u) : L(X) \to L(Y) $. For every mapping $ v : Y \to Z $, $ L(v \circ u) = L(v) \circ L(u) $.
+Let X and Y be two sets. Every mapping $u : X \to Y$ can be extended uniquely to a Lie algebra homomorphism $L(u) : L(X) \to L(Y)$. For every mapping $v : Y \to Z$, $L(v \circ u) = L(v) \circ L(u)$.
 
-The existence and uniqueness of $ L(u) $ follow from Proposition 1 of no. 2. The homomorphisms $ L(v \circ u) $ and $ L(v) \circ L(u) $ have the same restriction to X and hence are equal (Proposition 1).
+The existence and uniqueness of $L(u)$ follow from Proposition 1 of no. 2. The homomorphisms $L(v \circ u)$ and $L(v) \circ L(u)$ have the same restriction to X and hence are equal (Proposition 1).
 
 #### Corollary {#lie-ii-s2-n5-cor-1 .statement}
 
-If u is injective (resp. surjective, bijective), so is $ L(u) $.
+If u is injective (resp. surjective, bijective), so is $L(u)$.
 
-Since the assertion is trivial for $ X = \varnothing $, we assume $ X \neq \varnothing $. If u is injective there exists a mapping v of Y into X such that $ v \circ u $ is the identity mapping of X; by Proposition 2, $ L(v) \circ L(u) $ is the identity of automorphism of $ L(X) $ and hence $ L(u) $ is injective. When u is surjective, there exists a mapping w of Y into X such that $ u \circ w $ is the identity mapping of Y; then $ L(u) \circ L(w) $ is the identity mapping of $ L(Y) $, which proves that $ L(u) $ is surjective.
+Since the assertion is trivial for $X = \varnothing$, we assume $X \neq \varnothing$. If u is injective there exists a mapping v of Y into X such that $v \circ u$ is the identity mapping of X; by Proposition 2, $L(v) \circ L(u)$ is the identity of automorphism of $L(X)$ and hence $L(u)$ is injective. When u is surjective, there exists a mapping w of Y into X such that $u \circ w$ is the identity mapping of Y; then $L(u) \circ L(w)$ is the identity mapping of $L(Y)$, which proves that $L(u)$ is surjective.
 
-† Recall (Algebra, Chapter IV, § 5, no. 10) the definition of polynomial mappings of a free module M into a module N: if q is an integer $ \geq 0 $, a mapping $ f : M \to N $ is called *homogeneous polynomial of degree* q if there exists a multilinear mapping u of $ M^q $ into N such that
+† Recall (Algebra, Chapter IV, § 5, no. 10) the definition of polynomial mappings of a free module M into a module N: if q is an integer $\geq 0$, a mapping $f : M \to N$ is called *homogeneous polynomial of degree* q if there exists a multilinear mapping u of $M^q$ into N such that
 $$
 f(x) = u(x, \ldots, x) \quad \text{for all } x \in M.
 $$
 A mapping of M into N is called *polynomial* if it is a finite sum of homogeneous polynomial mappings of suitable degrees.
 
-Let X be a set and S a subset of X. The above corollary shows that the canonical injection of S into X can be extended to an isomorphism $ \alpha $ of $ L(S) $ onto the Lie subalgebra $ L'(S) $ of $ L(X) $ generated by S; *we shall identify* $ L(S) $ *and* $ L'(S) $ *by means of* $ \alpha $.
+Let X be a set and S a subset of X. The above corollary shows that the canonical injection of S into X can be extended to an isomorphism $\alpha$ of $L(S)$ onto the Lie subalgebra $L'(S)$ of $L(X)$ generated by S; *we shall identify* $L(S)$ *and* $L'(S)$ *by means of* $\alpha$.
 
-Let $ (S_\alpha)_{\alpha \in I} $ be a *right directed family* of subsets of X with union S. The relation $ S_\alpha \subset S_\beta $ implies $ L(S_\alpha) \subset L(S_\beta) $ and hence the family of Lie subalgebras $ L(S_\alpha) $ of $ L(X) $ is right directed. Therefore $ g = \bigcup_{\alpha \in I} L(S_\alpha) $ is a Lie subalgebra of $ L(X) $; then $ S \subset g $, whence $ L(S) \subset g $, and, as $ L(S_\alpha) \subset L(S) $ for all $ \alpha \in I $, $ g \subset L(S) $. Hence
+Let $(S_\alpha)_{\alpha \in I}$ be a *right directed family* of subsets of X with union S. The relation $S_\alpha \subset S_\beta$ implies $L(S_\alpha) \subset L(S_\beta)$ and hence the family of Lie subalgebras $L(S_\alpha)$ of $L(X)$ is right directed. Therefore $g = \bigcup_{\alpha \in I} L(S_\alpha)$ is a Lie subalgebra of $L(X)$; then $S \subset g$, whence $L(S) \subset g$, and, as $L(S_\alpha) \subset L(S)$ for all $\alpha \in I$, $g \subset L(S)$. Hence
 
 $$
 L\left( \bigcup_{\alpha \in I} S_\alpha \right) = \bigcup_{\alpha \in I} L(S_\alpha)
 $$
 
-for every *right directed* family $ (S_\alpha)_{\alpha \in I} $ of subsets of X.
+for every *right directed* family $(S_\alpha)_{\alpha \in I}$ of subsets of X.
 
-Applying the above to the family of finite subsets of X, we see that every element of $ L(X) $ is of the form $ P(x_1, \ldots, x_n) $ where P is a Lie polynomial in n indeterminates and $ x_1, \ldots, x_n $ are elements of X.
+Applying the above to the family of finite subsets of X, we see that every element of $L(X)$ is of the form $P(x_1, \ldots, x_n)$ where P is a Lie polynomial in n indeterminates and $x_1, \ldots, x_n$ are elements of X.
 
 #### Proposition 3 {#lie-ii-s2-prop-3 .statement}
 
-*Let $ K' $ be a non-zero commutative ring and $ u : K \to K' $ a ring homomorphism. For every set X there exists one and only one Lie $ K' $-algebra homomorphism*
+*Let $K'$ be a non-zero commutative ring and $u : K \to K'$ a ring homomorphism. For every set X there exists one and only one Lie $K'$-algebra homomorphism*
 
 $$
 v : L_K(X) \otimes K' \to L_{K'}(X)
 $$
 
-*such that* $ v(x \otimes 1) = x $ *for* $ x \in X $. *Further, v is an isomorphism.*
+*such that* $v(x \otimes 1) = x$ *for* $x \in X$. *Further, v is an isomorphism.*
 
-Applying Proposition 1 to $ g = L_{K'}(X) $ considered as a Lie K-algebra and the mapping $ x \mapsto x $ of X into g, we obtain a K-homomorphism $ L_K(X) \to L_{K'}(X) $, whence there is a $ K' $-homomorphism $ v : L_K(X) \otimes K' \to L_{K'}(X) $. The fact that v is unique and is an isomorphism follows from the fact that the ordered pair $ (L_K(X) \otimes K', x \mapsto x \otimes 1) $ is a solution of the same universal mapping problem as the ordered pair $ (L_{K'}(X), x \mapsto x) $.
+Applying Proposition 1 to $g = L_{K'}(X)$ considered as a Lie K-algebra and the mapping $x \mapsto x$ of X into g, we obtain a K-homomorphism $L_K(X) \to L_{K'}(X)$, whence there is a $K'$-homomorphism $v : L_K(X) \otimes K' \to L_{K'}(X)$. The fact that v is unique and is an isomorphism follows from the fact that the ordered pair $(L_K(X) \otimes K', x \mapsto x \otimes 1)$ is a solution of the same universal mapping problem as the ordered pair $(L_{K'}(X), x \mapsto x)$.
 
 #### Remark {#lie-ii-s2-n5-rem-1 .statement}
 
-Let $ \mathfrak{h}' $ be a Lie $ K' $-algebra and $ \mathfrak{h} $ the Lie K-algebra derived from $ \mathfrak{h}' $ by restricting the ring of scalars. If $ P \in L_K(X) $, we can define $ \tilde{P} : \mathfrak{h}^X \to \mathfrak{h} $ (no. 4). We see immediately that
+Let $\mathfrak{h}'$ be a Lie $K'$-algebra and $\mathfrak{h}$ the Lie K-algebra derived from $\mathfrak{h}'$ by restricting the ring of scalars. If $P \in L_K(X)$, we can define $\tilde{P} : \mathfrak{h}^X \to \mathfrak{h}$ (no. 4). We see immediately that
 
 $$
 \tilde{P} = (v(P \otimes 1))^{-}.
@@ -222,7 +222,7 @@ $$
 
 ### 6. GRADUATIONS
 
-Let $ \Delta $ be a commutative monoid, written additively. Let $ \phi_0 $ denote a mapping of X into $ \Delta $ and $ \phi $ the homomorphism of the free magma $ M(X) $ into $ \Delta $ which extends $ \phi_0 $. For all $ \delta \in \Delta $, let $ \mathrm{Lib}^\delta(X) $ be the submodule of $ \mathrm{Lib}(X) $ with basis the subset $ \phi^{-1}(\delta) $ of $ M(X) $. The family $ (\mathrm{Lib}^\delta(X))_{\delta \in \Delta} $ is a graduation of the algebra $ \mathrm{Lib}(X) $, that is
+Let $\Delta$ be a commutative monoid, written additively. Let $\phi_0$ denote a mapping of X into $\Delta$ and $\phi$ the homomorphism of the free magma $M(X)$ into $\Delta$ which extends $\phi_0$. For all $\delta \in \Delta$, let $\mathrm{Lib}^\delta(X)$ be the submodule of $\mathrm{Lib}(X)$ with basis the subset $\phi^{-1}(\delta)$ of $M(X)$. The family $(\mathrm{Lib}^\delta(X))_{\delta \in \Delta}$ is a graduation of the algebra $\mathrm{Lib}(X)$, that is
 
 $$
 \mathrm{Lib}(X) = \bigoplus_{\delta \in \Delta} \mathrm{Lib}^\delta(X)
@@ -266,15 +266,15 @@ $$
 
 #### Proposition 4 {#lie-ii-s2-prop-4 .statement}
 
-Let S be a subset of X. If $ \mathbf{N}^{(S)} $ is identified with its canonical image in $ \mathbf{N}^{(X)} $ (Algebra, Chapter I, § 7, no. 7), then $ L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(X) $. Further, for all $ \alpha \in \mathbf{N}^{(S)} $, the homogeneous component of degree $ \alpha $ under the multigraduation on $ L(S) $ is equal to $ L^\alpha(X) $.
+Let S be a subset of X. If $\mathbf{N}^{(S)}$ is identified with its canonical image in $\mathbf{N}^{(X)}$ (Algebra, Chapter I, § 7, no. 7), then $L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(X)$. Further, for all $\alpha \in \mathbf{N}^{(S)}$, the homogeneous component of degree $\alpha$ under the multigraduation on $L(S)$ is equal to $L^\alpha(X)$.
 
-Let $ \alpha \in \mathbf{N}^{(S)} $. The module $ L^\alpha(S) $ is generated by the images in $ L(X) $ of the elements $ w $ in $ M(S) $ such that $ \phi(w) = \alpha $, that is (Algebra, § 7, no. 9, formulae (23) and (24)) the set of $ w $ in $ M(X) $ such that $ \phi(w) = \alpha $. Hence $ L^\alpha(S) = L^\alpha(X) $.
+Let $\alpha \in \mathbf{N}^{(S)}$. The module $L^\alpha(S)$ is generated by the images in $L(X)$ of the elements $w$ in $M(S)$ such that $\phi(w) = \alpha$, that is (Algebra, § 7, no. 9, formulae (23) and (24)) the set of $w$ in $M(X)$ such that $\phi(w) = \alpha$. Hence $L^\alpha(S) = L^\alpha(X)$.
 
-The proposition follows from this and the relation $ L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(S) $.
+The proposition follows from this and the relation $L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(S)$.
 
 #### Corollary {#lie-ii-s2-n6-cor-1 .statement}
 
-For every family $ (S_i)_{i \in I} $ of subsets of X,
+For every family $(S_i)_{i \in I}$ of subsets of X,
 $$
 L\left(\bigcap_{i \in I} S_i\right) = \bigcap_{i \in I} L(S_i).
 $$
@@ -282,20 +282,20 @@ This follows from Proposition 4 and the obvious formula
 $$
 \mathbf{N}^{(S)} = \bigcap_{i \in I} \mathbf{N}^{(S_i)}
 $$
-where we have written $ S = \bigcap_{i \in I} S_i $.
+where we have written $S = \bigcap_{i \in I} S_i$.
 
 ### 7. LOWER CENTRAL SERIES
 
 #### Proposition 5 {#lie-ii-s2-prop-5 .statement}
 
-Let $ g $ be a Lie algebra and $ P $ a submodule of $ g $. We define the submodules $ P_n $ of $ g $ by the formulae $ P_1 = P $ and $ P_{n+1} = [P, P_n] $ for $ n \geq 1 $. Then
+Let $g$ be a Lie algebra and $P$ a submodule of $g$. We define the submodules $P_n$ of $g$ by the formulae $P_1 = P$ and $P_{n+1} = [P, P_n]$ for $n \geq 1$. Then
 $$
 [P_m, P_n] \subset P_{m+n},
 $$
 $$
 P_n = \sum_{p=1}^{n-1} [P_p, P_{n-p}] \quad \text{for } n \geq 2.
 $$
-We prove (18) by induction on $ m $. The case $ m = 1 $ is obvious. By the Jacobi identity,
+We prove (18) by induction on $m$. The case $m = 1$ is obvious. By the Jacobi identity,
 $$
 [[P, P_m], P_n] \subset [P_m, [P, P_n]] + [P, [P_m, P_n]],
 $$
@@ -303,53 +303,53 @@ that is
 $$
 [P_{m+1}, P_n] \subset [P_m, P_{n+1}] + [P, [P_m, P_n]].
 $$
-The induction hypothesis implies that $ [P_m, P_{n+1}] \subset P_{m+n+1} $ and $ [P_m, P_n] \subset P_{m+n} $, whence
+The induction hypothesis implies that $[P_m, P_{n+1}] \subset P_{m+n+1}$ and $[P_m, P_n] \subset P_{m+n}$, whence
 $$
 [P_{m+1}, P_n] \subset P_{m+n+1} + [P, P_{m+n}] = P_{m+n+1}.
 $$
-By formula (18), $ P_n \supset \sum_{p=1}^{n-1} [P_p, P_{n-p}] \supset [P_1, P_{n-1}] = P_n $, whence (19).
+By formula (18), $P_n \supset \sum_{p=1}^{n-1} [P_p, P_{n-p}] \supset [P_1, P_{n-1}] = P_n$, whence (19).
 
-When we take $ P = g $, the sequence $ (P_n) $ is the lower central series ($ \mathcal{C}^n g $) of $ g $ (Chapter I, § 1, no. 5). Hence:
+When we take $P = g$, the sequence $(P_n)$ is the lower central series ($\mathcal{C}^n g$) of $g$ (Chapter I, § 1, no. 5). Hence:
 
 #### Proposition 6 {#lie-ii-s2-prop-6 .statement}
 
-Let $ g $ be a Lie algebra and $ (\mathcal{C}^n g)_{n \geq 1} $ the lower central series of $ g $. Then
+Let $g$ be a Lie algebra and $(\mathcal{C}^n g)_{n \geq 1}$ the lower central series of $g$. Then
 $$
 [\mathcal{C}^m g, \mathcal{C}^n g] \subset \mathcal{C}^{m+n} g \quad \text{for } m \geq 1 \text{ and } n \geq 1.
 $$
 
-Generalizing Definition 1 of Chapter I, § 4, no. 1, we shall say that a Lie algebra $ g $ is *nilpotent* if $ \mathcal{C}^n g = \{0\} $ for $ n $ sufficiently large. The *nilpotency class* of a nilpotent Lie algebra $ g $ is the smallest integer $ n $ such that $ \mathcal{C}^{n+1} g = \{0\} $.
+Generalizing Definition 1 of Chapter I, § 4, no. 1, we shall say that a Lie algebra $g$ is *nilpotent* if $\mathcal{C}^n g = \{0\}$ for $n$ sufficiently large. The *nilpotency class* of a nilpotent Lie algebra $g$ is the smallest integer $n$ such that $\mathcal{C}^{n+1} g = \{0\}$.
 
 #### Proposition 7 {#lie-ii-s2-prop-7 .statement}
 
-Let $ X $ be a set and $ n $ an integer $ \geq 1 $.
-(a) $ L^{n+1}(X) = [L^1(X), L^n(X)] $.
-(b) *The module* $ L^n(X) $ *is generated by the elements* $ [x_1, [x_2, \ldots, [x_{n-1}, x_n] \ldots]] $
-*where* $ (x_1, \ldots, x_n) $ *runs through the set of sequences of* $ n $ *elements of* $ X $.
-(c) *The lower central series of* $ L(X) $ *is given by* $ \mathcal{C}^n(L(X)) = \sum_{p \geq n} L^p(X) $.
+Let $X$ be a set and $n$ an integer $\geq 1$.
+(a) $L^{n+1}(X) = [L^1(X), L^n(X)]$.
+(b) *The module* $L^n(X)$ *is generated by the elements* $[x_1, [x_2, \ldots, [x_{n-1}, x_n] \ldots]]$
+*where* $(x_1, \ldots, x_n)$ *runs through the set of sequences of* $n$ *elements of* $X$.
+(c) *The lower central series of* $L(X)$ *is given by* $\mathcal{C}^n(L(X)) = \sum_{p \geq n} L^p(X)$.
 
-(a) We apply Proposition 5 with $ g = L(X) $ and $ P = L^1(X) $. By induction on $ n $, we deduce from (12) (no. 6) and (19) the equality $ P_n = L^n(X) $. The desired relation is then equivalent to the definition $ [P, P_n] = P_{n+1} $.
-(b) This follows from (a) by induction on $ n $.
-(c) Let $ g = L(X) $ and $ g_n = \sum_{p \geq n} L_p(X) $. Then $ g = g_1 $ and formula (13) of no. 6 implies $ [g_n, g_m] \subset g_{n+m} $ and in particular $ [g, g_n] \subset g_{n+1} $. By induction on $ n $, $ \mathcal{C}^n g \subset g_n $. On the other hand, from (a) we deduce that $ L^n(X) \subset \mathcal{C}^n g $ by induction on $ n $. As $ \mathcal{C}^n g $ is an ideal of $ g $, the relation $ L^p(X) \subset \mathcal{C}^n g $ implies that
+(a) We apply Proposition 5 with $g = L(X)$ and $P = L^1(X)$. By induction on $n$, we deduce from (12) (no. 6) and (19) the equality $P_n = L^n(X)$. The desired relation is then equivalent to the definition $[P, P_n] = P_{n+1}$.
+(b) This follows from (a) by induction on $n$.
+(c) Let $g = L(X)$ and $g_n = \sum_{p \geq n} L_p(X)$. Then $g = g_1$ and formula (13) of no. 6 implies $[g_n, g_m] \subset g_{n+m}$ and in particular $[g, g_n] \subset g_{n+1}$. By induction on $n$, $\mathcal{C}^n g \subset g_n$. On the other hand, from (a) we deduce that $L^n(X) \subset \mathcal{C}^n g$ by induction on $n$. As $\mathcal{C}^n g$ is an ideal of $g$, the relation $L^p(X) \subset \mathcal{C}^n g$ implies that
 $$
 L^{p+1}(X) = [L^1(X), L^p(X)] \subset \mathcal{C}^n g
 $$
-by (a). Hence $ L^p(X) \subset \mathcal{C}^n g $ for $ p \geq n $, whence $ g_n \subset \mathcal{C}^n g $.
+by (a). Hence $L^p(X) \subset \mathcal{C}^n g$ for $p \geq n$, whence $g_n \subset \mathcal{C}^n g$.
 
 #### Corollary {#lie-ii-s2-n7-cor-1 .statement}
 
-Let $ g $ be a Lie algebra and $ (x_i)_{i \in I} $ a generating family of $ g $. The $ n $-th term $ \mathcal{C}^n g $ of the lower central series of $ g $ is the module generated by the iterated brackets $ [x_{i_1}, [x_{i_2}, \ldots, [x_{i_{p-1}}, x_{i_p}] \ldots]] $ for $ p \geq n $, and $ i_1, \ldots, i_p $ in $ I $.
-Let $ f $ be the homomorphism of $ L(I) $ into $ g $ such that $ f(i) = x_i $ for all $ i \in I $. As $ (x_i)_{i \in I} $ generates $ g $, $ g = f(L(I)) $, whence $ \mathcal{C}^n g = f(\mathcal{C}^n(L(I))) $ by Proposition 4 of Chapter I, § 1, no. 5. The corollary then follows from assertions (b) and (c) of Proposition 7.
+Let $g$ be a Lie algebra and $(x_i)_{i \in I}$ a generating family of $g$. The $n$-th term $\mathcal{C}^n g$ of the lower central series of $g$ is the module generated by the iterated brackets $[x_{i_1}, [x_{i_2}, \ldots, [x_{i_{p-1}}, x_{i_p}] \ldots]]$ for $p \geq n$, and $i_1, \ldots, i_p$ in $I$.
+Let $f$ be the homomorphism of $L(I)$ into $g$ such that $f(i) = x_i$ for all $i \in I$. As $(x_i)_{i \in I}$ generates $g$, $g = f(L(I))$, whence $\mathcal{C}^n g = f(\mathcal{C}^n(L(I)))$ by Proposition 4 of Chapter I, § 1, no. 5. The corollary then follows from assertions (b) and (c) of Proposition 7.
 
 ### 8. DERIVATIONS OF FREE LIE ALGEBRAS
 
 #### Proposition 8 {#lie-ii-s2-prop-8 .statement}
 
-Let $ X $ be a set, let $ M $ be an $ L(X) $-module and let $ d $ be a mapping of $ X $ into $ M $. There exists one and only one linear mapping $ D $ of $ L(X) $ into $ M $ extending $ d $ and satisfying the relation:
+Let $X$ be a set, let $M$ be an $L(X)$-module and let $d$ be a mapping of $X$ into $M$. There exists one and only one linear mapping $D$ of $L(X)$ into $M$ extending $d$ and satisfying the relation:
 $$
 D([a, a']) = a.D(a') - a'.D(a) \quad \text{for } a, a' \text{ in } L(X).
 $$
-We define a Lie algebra $ g $ with underlying module $ M \times L(X) $ by means of the bracket
+We define a Lie algebra $g$ with underlying module $M \times L(X)$ by means of the bracket
 $$
 [(m, a), (m', a')] = (a.m' - a'.m, [a, a']),
 $$
@@ -403,129 +403,129 @@ $$
 D_{s_1}(s_2) = d(s_1, s_2)
 $$
 
-for all $ s_2 $ in $ S_2 $ (no. 8, Corollary to Proposition 8). The mapping $ s_1 \mapsto D_{s_1} $ can be extended to a homomorphism $ D $ of $ L(S_1) $ into the Lie algebra of derivations of $ L(S_2) $. Let $ \mathfrak{h} $ be the semi-direct product of $ L(S_1) $ by $ L(S_2) $ corresponding to $ D $ (Chapter I, § 1, no. 8). As a module $ \mathfrak{h} $ is equal to $ L(S_1) \times L(S_2) $ and in particular
+for all $s_2$ in $S_2$ (no. 8, Corollary to Proposition 8). The mapping $s_1 \mapsto D_{s_1}$ can be extended to a homomorphism $D$ of $L(S_1)$ into the Lie algebra of derivations of $L(S_2)$. Let $\mathfrak{h}$ be the semi-direct product of $L(S_1)$ by $L(S_2)$ corresponding to $D$ (Chapter I, § 1, no. 8). As a module $\mathfrak{h}$ is equal to $L(S_1) \times L(S_2)$ and in particular
 
 $$
 [(s_1, 0), (0, s_2)] = (0, d(s_1, s_2))
 $$
 
-for $ s_1 \in S_1 $ and $ s_2 \in S_2 $.
+for $s_1 \in S_1$ and $s_2 \in S_2$.
 
-From (25) we deduce the existence of a homomorphism $ f $ of $ g $ into $ \mathfrak{h} $ such that $ f(\phi_1(s_1)) = (s_1, 0) $ and $ f(\phi_2(s_2)) = (0, s_2) $ for $ s_1 \in S_1 $ and $ s_2 \in S_2 $. We deduce immediately the relation
+From (25) we deduce the existence of a homomorphism $f$ of $g$ into $\mathfrak{h}$ such that $f(\phi_1(s_1)) = (s_1, 0)$ and $f(\phi_2(s_2)) = (0, s_2)$ for $s_1 \in S_1$ and $s_2 \in S_2$. We deduce immediately the relation
 
 $$
 f(\psi_1(a_1) + \psi_2(a_2)) = (a_1, a_2)
 $$
 
-for $ a_1 \in L(S_1) $ and $ a_2 \in L(S_2) $.
+for $a_1 \in L(S_1)$ and $a_2 \in L(S_2)$.
 
-Relation (26) shows that $ \psi_1 $ and $ \psi_2 $ are injective and that $ a_1 \cap a_2 = \{0\} $. Formulae (23) and (24) then imply the proposition.
+Relation (26) shows that $\psi_1$ and $\psi_2$ are injective and that $a_1 \cap a_2 = \{0\}$. Formulae (23) and (24) then imply the proposition.
 
 #### Proposition 10 (elimination theorem) {#lie-ii-s2-prop-10 .statement}
 
-*Let X be a set, S a subset of X and T the set of sequences $ (s_1, \ldots, s_n, x) $ with $ n \geq 0, s_1, \ldots, s_n $ in S and x in X $ - S.$*†
+*Let X be a set, S a subset of X and T the set of sequences $(s_1, \ldots, s_n, x)$ with $n \geq 0, s_1, \ldots, s_n$ in S and x in X $- S.$*†
 
-(a) *The module $ L(X) $ is the direct sum of the subalgebra $ L(S) $ of $ L(X) $ and the ideal $ a $ of $ L(X) $ generated by $ X - S $.*
+(a) *The module $L(X)$ is the direct sum of the subalgebra $L(S)$ of $L(X)$ and the ideal $a$ of $L(X)$ generated by $X - S$.*
 
-(b) *There exists a Lie algebra isomorphism $ \phi $ of $ L(T) $ onto $ a $ which maps $ (s_1, \ldots, s_n, x) $ to $ (\operatorname{ad} s_1 \circ \cdots \circ \operatorname{ad} s_n)(x) $.*
+(b) *There exists a Lie algebra isomorphism $\phi$ of $L(T)$ onto $a$ which maps $(s_1, \ldots, s_n, x)$ to $(\operatorname{ad} s_1 \circ \cdots \circ \operatorname{ad} s_n)(x)$.*
 
-Let $ g $ be the Lie algebra constructed as in Proposition 9 given
+Let $g$ be the Lie algebra constructed as in Proposition 9 given
 
 $$
 S_1 = S, \quad S_2 = T, \quad d(s, t) = (s, s_1, \ldots, s_n, x) \in T \subset L(T)
 $$
 
-for $ t = (s_1, \ldots, s_n, x) $ in T and $ s \in S_1 $. We identify $ L(S) $ and $ L(T) $ with their canonical images in $ g $ (Proposition 9 (a)).
+for $t = (s_1, \ldots, s_n, x)$ in T and $s \in S_1$. We identify $L(S)$ and $L(T)$ with their canonical images in $g$ (Proposition 9 (a)).
 
-Let $ \psi $ be the mapping $ (s_1, \ldots, s_n, x) \mapsto (\operatorname{ad} s_1 \circ \cdots \circ \operatorname{ad} s_n)(x) $ of T into $ L(X) $. Obviously $ \psi(d(s, t)) = [s, \psi(t)] $ for $ s \in S $ and $ t \in T $ and hence there exists a homomorphism $ \alpha : g \to L(X) $ whose restriction to S is the identity and whose restriction to T is $ \psi $. Now $ X - S \subset T $, whence there is a homomorphism $ \beta : L(X) \to g $ whose restriction to $ X = S \cup (X - S) $ is the identity.
+Let $\psi$ be the mapping $(s_1, \ldots, s_n, x) \mapsto (\operatorname{ad} s_1 \circ \cdots \circ \operatorname{ad} s_n)(x)$ of T into $L(X)$. Obviously $\psi(d(s, t)) = [s, \psi(t)]$ for $s \in S$ and $t \in T$ and hence there exists a homomorphism $\alpha : g \to L(X)$ whose restriction to S is the identity and whose restriction to T is $\psi$. Now $X - S \subset T$, whence there is a homomorphism $\beta : L(X) \to g$ whose restriction to $X = S \cup (X - S)$ is the identity.
 
-We show that $ \alpha $ is an isomorphism and $ \beta $ the inverse isomorphism. As $ \psi(x) = x $ for $ x $ in $ X - S $, we see that $ \alpha \circ \beta $ coincides with the identity on X, whence $ \alpha \circ \beta = \mathrm{Id}_{L(X)} $. On the other hand, $ [s, t] = d(s, t) $ in $ g $ for $ s \in S, t \in T $ by construction; it follows that $ t = (s_1, \ldots, s_n, x) $ is equal in $ g $ to $ (\operatorname{ad} s_1 \circ \cdots \circ \operatorname{ad} s_2)(x) $ whence $ t = \beta(\alpha(t)) $. As $ \beta(\alpha(s)) = s $ for $ s \in S $ and $ S \cup T $ generates $ g $, $ \beta \circ \alpha = \mathrm{Id}_g $.
+We show that $\alpha$ is an isomorphism and $\beta$ the inverse isomorphism. As $\psi(x) = x$ for $x$ in $X - S$, we see that $\alpha \circ \beta$ coincides with the identity on X, whence $\alpha \circ \beta = \mathrm{Id}_{L(X)}$. On the other hand, $[s, t] = d(s, t)$ in $g$ for $s \in S, t \in T$ by construction; it follows that $t = (s_1, \ldots, s_n, x)$ is equal in $g$ to $(\operatorname{ad} s_1 \circ \cdots \circ \operatorname{ad} s_2)(x)$ whence $t = \beta(\alpha(t))$. As $\beta(\alpha(s)) = s$ for $s \in S$ and $S \cup T$ generates $g$, $\beta \circ \alpha = \mathrm{Id}_g$.
 
-As $ \alpha $ is an isomorphism of $ g $ onto $ L(X) $, Proposition 9 shows that the restric-
+As $\alpha$ is an isomorphism of $g$ onto $L(X)$, Proposition 9 shows that the restric-
 
-† For $ n = 0 $, we obtain the elements of $ X - S $, whence $ X - S \subset T $.
+† For $n = 0$, we obtain the elements of $X - S$, whence $X - S \subset T$.
 
-tion of $ \alpha $ to $ L(T) $ is an isomorphism $ \phi $ of $ L(T) $ onto an ideal $ b $ of $ L(X) $ such that the module $ L(X) $ is the direct sum of $ L(S) $ and $ b $. Obviously
+tion of $\alpha$ to $L(T)$ is an isomorphism $\phi$ of $L(T)$ onto an ideal $b$ of $L(X)$ such that the module $L(X)$ is the direct sum of $L(S)$ and $b$. Obviously
 $$
 \phi(s_1, \ldots, s_n, x) = (\mathrm{ad}\ s_1 \circ \cdots \circ \mathrm{ad}\ s_n)(x)
 $$
-for $ (s_1, \ldots, s_n, x) $ in $ T $.
+for $(s_1, \ldots, s_n, x)$ in $T$.
 
-Hence $ \phi(T) \subset a $, whereas $ b \subset a $ since $ \phi(T) $ generates the subalgebra $ b $ of $ L(X) $. But $ b $ is an ideal and $ X - S \subset \phi(T) \subset b $, whence $ a \subset b $.
+Hence $\phi(T) \subset a$, whereas $b \subset a$ since $\phi(T)$ generates the subalgebra $b$ of $L(X)$. But $b$ is an ideal and $X - S \subset \phi(T) \subset b$, whence $a \subset b$.
 
 #### Corollary {#lie-ii-s2-n9-cor-1 .statement}
 
-*Let $ y \in X $. The free Lie algebra $ L(X) $ is the direct sum of the free submodule $ K.y $ and the Lie subalgebra admitting as basic family the family of $ ((\mathrm{ad}\ y)^n, z) $ where $ n \geqslant 0 $ and $ z \in X - \{y\} $.*
+*Let $y \in X$. The free Lie algebra $L(X)$ is the direct sum of the free submodule $K.y$ and the Lie subalgebra admitting as basic family the family of $((\mathrm{ad}\ y)^n, z)$ where $n \geqslant 0$ and $z \in X - \{y\}$.*
 
-It suffices to put $ S = \{y\} $ in Proposition 10.
+It suffices to put $S = \{y\}$ in Proposition 10.
 
 ### 10. HALL SETS IN A FREE MAGMA
 
-Let $ X $ be a set, $ M(X) $ the free magma constructed on $ X $ and $ M^n(X) $, where $ n \in \mathbf{N}^* $, the set of elements of $ M(X) $ of length $ n $ (no. 1). If $ w \in M(X) $ and $ l(w) \geqslant 2 $, let $ \alpha(w) $ and $ \beta(w) $ denote the elements of $ M(X) $ determined by the relation $ w = \alpha(w)\beta(w) $; then $ l(\alpha(w)) < l(w) $, $ l(\beta(w)) < l(w) $. Finally, for $ u, v $ in $ M(X) $, let $ u^mv $ denote the element defined by induction on the integer $ m \geqslant 0 $ by $ u^0v = v $ and $ u^{m+1}v = u(u^mv) $.
+Let $X$ be a set, $M(X)$ the free magma constructed on $X$ and $M^n(X)$, where $n \in \mathbf{N}^*$, the set of elements of $M(X)$ of length $n$ (no. 1). If $w \in M(X)$ and $l(w) \geqslant 2$, let $\alpha(w)$ and $\beta(w)$ denote the elements of $M(X)$ determined by the relation $w = \alpha(w)\beta(w)$; then $l(\alpha(w)) < l(w)$, $l(\beta(w)) < l(w)$. Finally, for $u, v$ in $M(X)$, let $u^mv$ denote the element defined by induction on the integer $m \geqslant 0$ by $u^0v = v$ and $u^{m+1}v = u(u^mv)$.
 
 #### Definition 2 {#lie-ii-s2-def-2 .statement}
 
-*A Hall set relative to $ X $ is any totally ordered subset $ H $ of $ M(X) $ satisfying the following conditions:*
-(A) *If $ u \in H, v \in H $ and $ l(u) < l(v) $, then $ u < v $.*
-(B) *$ X \subset H $ and $ H \cap M^2(X) $ consists of the products $ xy $ with $ x, y $ in $ X $ and $ x < y $.*
-(C) *An element $ w $ of $ M(X) $ of length $ \geqslant 3 $ belongs to $ H $ if and only if it is of the form $ a(bc) $ with $ a, b, c $ in $ H $, $ bc \in H $, $ b \leqslant a < bc $ and $ b < c $.*
+*A Hall set relative to $X$ is any totally ordered subset $H$ of $M(X)$ satisfying the following conditions:*
+(A) *If $u \in H, v \in H$ and $l(u) < l(v)$, then $u < v$.*
+(B) *$X \subset H$ and $H \cap M^2(X)$ consists of the products $xy$ with $x, y$ in $X$ and $x < y$.*
+(C) *An element $w$ of $M(X)$ of length $\geqslant 3$ belongs to $H$ if and only if it is of the form $a(bc)$ with $a, b, c$ in $H$, $bc \in H$, $b \leqslant a < bc$ and $b < c$.*
 
 #### Proposition 11 {#lie-ii-s2-prop-11 .statement}
 
-*There exists a Hall set relative to $ X $.*
+*There exists a Hall set relative to $X$.*
 
-We shall construct by induction on the integer $ n $ sets $ H_n \subset M^n(X) $ and a total ordering on these sets:
-(a) We write $ H_1 = X $ and give it a total ordering.
-(b) The set $ H_2 $ consists of the products $ xy $ with $ x, y $ in $ X $ and $ x < y $. We give it a total ordering.
-(c) Let $ n \geqslant 3 $ be such that the totally ordered sets $ H_1, \ldots, H_{n-1} $ are already defined. The set $ H'_{n-1} = H_1 \cup \cdots \cup H_{n-1} $ has a total ordering which induces the given relations on $ H_1, \ldots, H_{n-1} $ and is such that $ w < w' $ if $ l(w) < l(w') $. We define $ H_n $ to be the set of products $ a(bc) \in M^n(X) $ with $ a, b, c $ in $ H'_{n-1} $ satisfying the relations $ bc \in H'_{n-1} $, $ b \leqslant a < bc $, $ b < c $ and give $ H_n $ a total ordering.
+We shall construct by induction on the integer $n$ sets $H_n \subset M^n(X)$ and a total ordering on these sets:
+(a) We write $H_1 = X$ and give it a total ordering.
+(b) The set $H_2$ consists of the products $xy$ with $x, y$ in $X$ and $x < y$. We give it a total ordering.
+(c) Let $n \geqslant 3$ be such that the totally ordered sets $H_1, \ldots, H_{n-1}$ are already defined. The set $H'_{n-1} = H_1 \cup \cdots \cup H_{n-1}$ has a total ordering which induces the given relations on $H_1, \ldots, H_{n-1}$ and is such that $w < w'$ if $l(w) < l(w')$. We define $H_n$ to be the set of products $a(bc) \in M^n(X)$ with $a, b, c$ in $H'_{n-1}$ satisfying the relations $bc \in H'_{n-1}$, $b \leqslant a < bc$, $b < c$ and give $H_n$ a total ordering.
 
-We write $ H = \bigcup_{n \geqslant 1} H_n $; we give $ H $ the total ordering defined thus: $ w \leqslant w' $ if and only if $ l(w) < l(w') $ or $ l(w) = l(w') = n $ and $ w \leqslant w' $ in the set $ H_n $. It is immediate that $ H $ is a Hall set relative to $ X $.
+We write $H = \bigcup_{n \geqslant 1} H_n$; we give $H$ the total ordering defined thus: $w \leqslant w'$ if and only if $l(w) < l(w')$ or $l(w) = l(w') = n$ and $w \leqslant w'$ in the set $H_n$. It is immediate that $H$ is a Hall set relative to $X$.
 
 For every subset S of X, we identify the free magma M(S) with its canonical image in M(X).
 
 #### Proposition 12 {#lie-ii-s2-prop-12 .statement}
 
 Let H be a Hall set relative to X and let x, y be in X.
-(a) $ H \cap M(\{x\}) = \{x\} $.
-(b) Suppose that $ x < y $ and let $ d_y $ be the homomorphism of $ M(X) $ into $ \mathbf{N} $ such that $ d_y(y) = 1 $ and $ d_y(z) = 0 $ for $ z \in X, z \neq y $. The set of elements $ w \in H \cap M(\{x, y\}) $ such that $ d_y(w) = 1 $ consists of the elements $ x^n y $ with n an integer $ \geq 0 $.
+(a) $H \cap M(\{x\}) = \{x\}$.
+(b) Suppose that $x < y$ and let $d_y$ be the homomorphism of $M(X)$ into $\mathbf{N}$ such that $d_y(y) = 1$ and $d_y(z) = 0$ for $z \in X, z \neq y$. The set of elements $w \in H \cap M(\{x, y\})$ such that $d_y(w) = 1$ consists of the elements $x^n y$ with n an integer $\geq 0$.
 
-By Definition 2 (B), $ x \in H $ and $ H \cap M^2(\{x\}) = \varnothing $. If $ w \in H \cap M(\{x\}) $, where $ n = l(w) \geq 3 $, the elements $ \alpha(w) $ and $ \beta(w) $ also belong to $ H \cap M(\{x\}) $ by Definition 2 (C). It immediately follows by induction on $ n $ that $ H \cap M^n(\{x\}) = \varnothing $ for $ n \geq 2 $, whence (a).
+By Definition 2 (B), $x \in H$ and $H \cap M^2(\{x\}) = \varnothing$. If $w \in H \cap M(\{x\})$, where $n = l(w) \geq 3$, the elements $\alpha(w)$ and $\beta(w)$ also belong to $H \cap M(\{x\})$ by Definition 2 (C). It immediately follows by induction on $n$ that $H \cap M^n(\{x\}) = \varnothing$ for $n \geq 2$, whence (a).
 
-We now prove (b). By Definition 2 (B), $ y \in H $ and $ xy \in H $. We show by induction on $ n $ that $ x^n y \in H $ for $ n $ an integer $ \geq 2 $. Now $ x^n y = x(x(x^{n-2}y)) $ and the induction hypothesis implies that $ x^{n-2}y \in H $. Now $ l(x) < l(x^{n-2}y) $ for $ n > 2 $ and $ x < y $, whence $ x < x^{n-2}y $ in any case; condition (C) of Definition 2 shows that $ x^n y \in H $. On the other hand, certainly $ d_y(x^n y) = 1 $. Conversely, let $ w \in H \cap M(\{x, y\}) $, with $ d_y(w) = 1 $. If $ l(w) = 1 $, then $ w = y $; if $ l(w) = 2 $, then $ w = xy $ by Definition 2 (B). If $ l(w) \geq 3 $, then $ w = a(bc) $, with $ a, b, c, bc $ in $ H \cap M(\{x, y\}) $ (Definition 2 (C)). $ d_y(bc) = 0 $ is impossible, since this would imply $ bc \in M(\{x\}) $, which is impossible by (a). Hence $ d_y(bc) = 1 $ and $ d_y(a) = 0 $, whence $ a = x $ by (a). It follows immediately by induction on $ n = l(w) $ that $ w = x^{n-1}y $, which completes the proof of (b).
+We now prove (b). By Definition 2 (B), $y \in H$ and $xy \in H$. We show by induction on $n$ that $x^n y \in H$ for $n$ an integer $\geq 2$. Now $x^n y = x(x(x^{n-2}y))$ and the induction hypothesis implies that $x^{n-2}y \in H$. Now $l(x) < l(x^{n-2}y)$ for $n > 2$ and $x < y$, whence $x < x^{n-2}y$ in any case; condition (C) of Definition 2 shows that $x^n y \in H$. On the other hand, certainly $d_y(x^n y) = 1$. Conversely, let $w \in H \cap M(\{x, y\})$, with $d_y(w) = 1$. If $l(w) = 1$, then $w = y$; if $l(w) = 2$, then $w = xy$ by Definition 2 (B). If $l(w) \geq 3$, then $w = a(bc)$, with $a, b, c, bc$ in $H \cap M(\{x, y\})$ (Definition 2 (C)). $d_y(bc) = 0$ is impossible, since this would imply $bc \in M(\{x\})$, which is impossible by (a). Hence $d_y(bc) = 1$ and $d_y(a) = 0$, whence $a = x$ by (a). It follows immediately by induction on $n = l(w)$ that $w = x^{n-1}y$, which completes the proof of (b).
 
 #### Corollary {#lie-ii-s2-n10-cor-1 .statement}
 
-If Card X $ \geq 2 $, then $ H \cap M^n(X) \neq \varnothing $ for every integer $ n \geq 1 $.
+If Card X $\geq 2$, then $H \cap M^n(X) \neq \varnothing$ for every integer $n \geq 1$.
 
 #### Proposition 13 {#lie-ii-s2-prop-13 .statement}
 
-Let X be a finite set with at least two elements. Let H denote a Hall set relative to X. Then there exist a strictly increasing bijection $ p \mapsto w_p $ of $ \mathbf{N} $ onto H and a sequence $ (P_p)_{p \in \mathbf{N}} $ of subsets of H with the following properties:
-(a) $ P_0 = X $.
-(b) For every integer $ p \geq 0 $, $ w_p \in P_p $.
-(c) For every integer $ n \geq 1 $, there exists an integer $ p(n) $ such that every element of $ P_p $ is of length $ > n $ for all $ p \geq p(n) $.
-(d) For every integer $ p \geq 0 $, the set $ P_{p+1} $ consists of the elements of the form $ w_p^i w $, where $ i \geq 0 $, $ w \in P_p $ and $ w \neq w_p $.
+Let X be a finite set with at least two elements. Let H denote a Hall set relative to X. Then there exist a strictly increasing bijection $p \mapsto w_p$ of $\mathbf{N}$ onto H and a sequence $(P_p)_{p \in \mathbf{N}}$ of subsets of H with the following properties:
+(a) $P_0 = X$.
+(b) For every integer $p \geq 0$, $w_p \in P_p$.
+(c) For every integer $n \geq 1$, there exists an integer $p(n)$ such that every element of $P_p$ is of length $> n$ for all $p \geq p(n)$.
+(d) For every integer $p \geq 0$, the set $P_{p+1}$ consists of the elements of the form $w_p^i w$, where $i \geq 0$, $w \in P_p$ and $w \neq w_p$.
 
-As X is finite, each of the sets $ M^n(X) $ is finite. Let $ H_n = H \cap M^n(X) $ for all $ n \geq 1 $. The Corollary to Proposition 12 shows that the finite set $ H_n $ is non-empty. Let $ u_n $ be the cardinal of $ H_n $; let $ v_0 = 0 $ and $ v_n = u_1 + \cdots + u_n $ for $ n \geq 1 $. As $ H_n $ is a totally ordered finite set, there exists a strictly increasing bijection $ p \mapsto w_p $ of the interval $ [v_{n-1}, v_n - 1] $ of $ \mathbf{N} $ onto $ H_n $. It is immediate that $ p \mapsto w_p $ is a strictly increasing bijection of $ \mathbf{N} $ onto H.
+As X is finite, each of the sets $M^n(X)$ is finite. Let $H_n = H \cap M^n(X)$ for all $n \geq 1$. The Corollary to Proposition 12 shows that the finite set $H_n$ is non-empty. Let $u_n$ be the cardinal of $H_n$; let $v_0 = 0$ and $v_n = u_1 + \cdots + u_n$ for $n \geq 1$. As $H_n$ is a totally ordered finite set, there exists a strictly increasing bijection $p \mapsto w_p$ of the interval $[v_{n-1}, v_n - 1]$ of $\mathbf{N}$ onto $H_n$. It is immediate that $p \mapsto w_p$ is a strictly increasing bijection of $\mathbf{N}$ onto H.
 
-Let $ P_0 = X $ and for every integer $ p \geq 1 $ let $ P_p $ be the set of elements $ w $ of H such that $ w \geq w_p $, and, either $ w \in X $, or $ \alpha(w) < w_p $ (note that if $ w $ is of length $ \geq 2 $ the relation $ w \in H $ implies $ \alpha(w) \in H $ by condition (C) of Definition 2). Then $ w_p \in P_p $; this is clear if $ w_p \in X $ and follows from the inequality $ l(\alpha(w_p)) < l(w_p) $ and condition (A) of Definition 2 when $ w_p \notin X $.
+Let $P_0 = X$ and for every integer $p \geq 1$ let $P_p$ be the set of elements $w$ of H such that $w \geq w_p$, and, either $w \in X$, or $\alpha(w) < w_p$ (note that if $w$ is of length $\geq 2$ the relation $w \in H$ implies $\alpha(w) \in H$ by condition (C) of Definition 2). Then $w_p \in P_p$; this is clear if $w_p \in X$ and follows from the inequality $l(\alpha(w_p)) < l(w_p)$ and condition (A) of Definition 2 when $w_p \notin X$.
 
 Hence conditions (a) and (b) are satisfied.
 
-Let $ n $ be an integer $ \geq 1 $ and let $ p \geq v_n $. For all $ w \in P_p, l(w) \geq l(w_p) > n $ by the very definition of the mapping $ p \mapsto w_p $. This establishes (c).
+Let $n$ be an integer $\geq 1$ and let $p \geq v_n$. For all $w \in P_p, l(w) \geq l(w_p) > n$ by the very definition of the mapping $p \mapsto w_p$. This establishes (c).
 
-We now show that every element of the form $ u = w_p^i w $ with $ i \geq 0, w \in P_p $ and $ w \neq w_p $ belongs to $ P_{p+1} $. If $ i \neq 0 $, then $ l(u) > l(w_p) $, whence $ u > w_p $ and $ u \geq w_{p+1} $; then $ u \notin X $ and $ \alpha(u) = w_p < w_{p+1} $, whence $ u \in P_{p+1} $. If $ i = 0 $, then $ u \in P_p $ and $ u \neq w_p $; then $ u > w_p $, whence $ u \geq w_{p+1} $; if $ u $ does not belong to $ X $, then $ \alpha(w) < w_p $, whence $ \alpha(w) < w_{p+1} $; then again $ u \in P_{p+1} $.
+We now show that every element of the form $u = w_p^i w$ with $i \geq 0, w \in P_p$ and $w \neq w_p$ belongs to $P_{p+1}$. If $i \neq 0$, then $l(u) > l(w_p)$, whence $u > w_p$ and $u \geq w_{p+1}$; then $u \notin X$ and $\alpha(u) = w_p < w_{p+1}$, whence $u \in P_{p+1}$. If $i = 0$, then $u \in P_p$ and $u \neq w_p$; then $u > w_p$, whence $u \geq w_{p+1}$; if $u$ does not belong to $X$, then $\alpha(w) < w_p$, whence $\alpha(w) < w_{p+1}$; then again $u \in P_{p+1}$.
 
-Conversely, let $ u \in P_{p+1} $. We distinguish two cases:
+Conversely, let $u \in P_{p+1}$. We distinguish two cases:
 
-(α) There exists no element $ v $ of $ M(X) $ such that $ u = w_p v $. By definition of $ P_{p+1} $, $ u > w_p $. Further, if $ u \notin X $, then $ \alpha(u) \neq w_p $ by the given hypothesis and $ \alpha(u) < w_{p+1} $ since $ u \in P_{p+1} $; hence $ \alpha(u) < w_p $. Hence $ u \in P_p $ and $ u \neq w_p $.
+(α) There exists no element $v$ of $M(X)$ such that $u = w_p v$. By definition of $P_{p+1}$, $u > w_p$. Further, if $u \notin X$, then $\alpha(u) \neq w_p$ by the given hypothesis and $\alpha(u) < w_{p+1}$ since $u \in P_{p+1}$; hence $\alpha(u) < w_p$. Hence $u \in P_p$ and $u \neq w_p$.
 
-(β) There exists $ v $ in $ M(X) $ such that $ u = w_p v $. By Definition 2, of necessity, either $ w_p \in X, v \in X $ and $ w_p < v $, or $ v \notin X $ and $ \alpha(v) \leq w_p < v $. In either case, $ v \in P_{p+1} $.
+(β) There exists $v$ in $M(X)$ such that $u = w_p v$. By Definition 2, of necessity, either $w_p \in X, v \in X$ and $w_p < v$, or $v \notin X$ and $\alpha(v) \leq w_p < v$. In either case, $v \in P_{p+1}$.
 
-Then there exist an integer $ i \geq 0 $ and an element $ w $ of $ M(X) $ such that $ u = w_p^i w $, and either $ w \in X $ or $ w \notin X $ and $ \alpha(w) \neq w_p $. If $ i = 0 $, we have case (α) above, whence $ w \in P_p $ and $ w \neq w_p $. If $ i > 0 $, the proof of (β) above establishes, by induction on $ i $, the relations $ w \in P_{p+1} $ and $ w \neq w_p $. Suppose $ w \notin X $; from $ w \in P_{p+1} $ it follows that $ \alpha(w) \leq w_p $ and as $ \alpha(w) \neq w_p $, we conclude that $ w \in P_p $. This completes the proof of (d).
+Then there exist an integer $i \geq 0$ and an element $w$ of $M(X)$ such that $u = w_p^i w$, and either $w \in X$ or $w \notin X$ and $\alpha(w) \neq w_p$. If $i = 0$, we have case (α) above, whence $w \in P_p$ and $w \neq w_p$. If $i > 0$, the proof of (β) above establishes, by induction on $i$, the relations $w \in P_{p+1}$ and $w \neq w_p$. Suppose $w \notin X$; from $w \in P_{p+1}$ it follows that $\alpha(w) \leq w_p$ and as $\alpha(w) \neq w_p$, we conclude that $w \in P_p$. This completes the proof of (d).
 
 #### Example {#lie-ii-s2-n10-exa-1 .statement}
 
-Suppose that $ X $ has two elements $ x, y $; let $ X $ be ordered such that $ x < y $. The construction given in the proof of Proposition 11 gives a set $ H $ with 14 elements of length $ \leq 5 $ given in the following table:
+Suppose that $X$ has two elements $x, y$; let $X$ be ordered such that $x < y$. The construction given in the proof of Proposition 11 gives a set $H$ with 14 elements of length $\leq 5$ given in the following table:
 
 $$
 \begin{array}{ll}
@@ -538,7 +538,7 @@ H_5 & w_9 = (x(x(x(xy)))) & w_{10} = (y(x(x(xy)))) & w_{11} = (y(y(x(xy))))) \\
 \end{array}
 $$
 
-(The elements of $ H $ have been numbered according to the total ordering chosen on each $ H_n $.)
+(The elements of $H$ have been numbered according to the total ordering chosen on each $H_n$.)
 
 ### 11. HALL BASES OF A FREE LIE ALGEBRA
 
@@ -546,53 +546,53 @@ We preserve the notation of the preceding no.
 
 #### Theorem 1 {#lie-ii-s2-thm-1 .statement}
 
-Let $ H $ be a Hall set relative to $ X $ and $ \Psi $ the canonical mapping of $ M(X) $ into the free Lie algebra $ L(X) $. The restriction of $ \Psi $ to $ H $ is a basis of the module $ L(X) $.
+Let $H$ be a Hall set relative to $X$ and $\Psi$ the canonical mapping of $M(X)$ into the free Lie algebra $L(X)$. The restriction of $\Psi$ to $H$ is a basis of the module $L(X)$.
 
-For every element $ w $ of $ H $ we write $ \bar{w} = \Psi(w) $.
+For every element $w$ of $H$ we write $\bar{w} = \Psi(w)$.
 
-(A) *The case where $ X $ is finite.*
+(A) *The case where $X$ is finite.*
 
-If $ X $ is empty, so are $ M(X) $ and therefore $ H $ and $ L(X) $ is zero. If $ X $ has a single element $ x $, $ H \cap M^n(X) $ is empty for $ n \geq 2 $ (Proposition 12 (a)). Therefore, $ H = \{x\} $; we know also (no. 2, *Remark*) that the module $ L(X) $ is free and has basis $ \{\bar{x}\} $. The theorem is therefore true when $ X $ has at most one element.
+If $X$ is empty, so are $M(X)$ and therefore $H$ and $L(X)$ is zero. If $X$ has a single element $x$, $H \cap M^n(X)$ is empty for $n \geq 2$ (Proposition 12 (a)). Therefore, $H = \{x\}$; we know also (no. 2, *Remark*) that the module $L(X)$ is free and has basis $\{\bar{x}\}$. The theorem is therefore true when $X$ has at most one element.
 
-Suppose henceforth that $ X $ has at least two elements; choose sequences $ (w_p) $ and $ (P_p) $ with the properties stated in Proposition 13. For every integer $ p \geq 0 $, let $ L_p $ denote the submodule of $ L(X) $ generated by the elements $ \bar{w}_i $ with $ 0 \leq i < p $ and $ g_p $ the Lie subalgebra of $ L(X) $ generated by the family $ (\bar{u})_{u \in P_p} $.
+Suppose henceforth that $X$ has at least two elements; choose sequences $(w_p)$ and $(P_p)$ with the properties stated in Proposition 13. For every integer $p \geq 0$, let $L_p$ denote the submodule of $L(X)$ generated by the elements $\bar{w}_i$ with $0 \leq i < p$ and $g_p$ the Lie subalgebra of $L(X)$ generated by the family $(\bar{u})_{u \in P_p}$.
 
 #### Lemma 2 {#lie-ii-s2-lem-2 .statement}
 
-*For every integer $ p \geq 0 $, the module $ L_p $ admits the family $ (\bar{w}_i)_{0 \leq i < p} $ as basis, the Lie algebra $ g_p $ admits $ (\bar{u})_{u \in P_p} $ as basic family and the module $ L(X) $ is the direct sum of $ L_p $ and $ g_p $.*
+*For every integer $p \geq 0$, the module $L_p$ admits the family $(\bar{w}_i)_{0 \leq i < p}$ as basis, the Lie algebra $g_p$ admits $(\bar{u})_{u \in P_p}$ as basic family and the module $L(X)$ is the direct sum of $L_p$ and $g_p$.*
 
-$ L_0 = \{0\} $ and $ g_0 = L(X) $ and the lemma is true for $ p = 0 $. We argue by induction on $ p $. Suppose then that the lemma is true for some integer $ p \geq 0 $. Let $ u_i, w = (\mathrm{ad}\ \bar{w}_p)^i.\bar{w} = \Psi(w_p^i w) $ for $ i \geq 0, w \in P_p, w \neq w_p $. By the Corollary to Proposition 10 of no. 9, the free Lie algebra $ g_p $ is the direct sum of the module $ T_p $ of basis $ \{\bar{w}_p\} $ and a Lie subalgebra $ h_p $ admitting
+$L_0 = \{0\}$ and $g_0 = L(X)$ and the lemma is true for $p = 0$. We argue by induction on $p$. Suppose then that the lemma is true for some integer $p \geq 0$. Let $u_i, w = (\mathrm{ad}\ \bar{w}_p)^i.\bar{w} = \Psi(w_p^i w)$ for $i \geq 0, w \in P_p, w \neq w_p$. By the Corollary to Proposition 10 of no. 9, the free Lie algebra $g_p$ is the direct sum of the module $T_p$ of basis $\{\bar{w}_p\}$ and a Lie subalgebra $h_p$ admitting
 
 $$
 \mathcal{F} = (u_i, w)_{i \geq 0,\ w \in P_p,\ w \neq w_p}
 $$
 
-as basic family. By Proposition 13 (d), the family $ (\bar{u})_{u \in P_{p+1}} $ is equal to $ \mathcal{F} $ and hence is a basic family of $ h_p = g_{p+1} $. Hence $ L(X) = L_p \oplus T_p \oplus g_{p+1} $ and, as $ L_{p+1} = L_p + T_p $, $ L(X) = L_{p+1} \oplus g_{p+1} $ and $ (\bar{w}_0, \bar{w}_1, \ldots, \bar{w}_{p-1}, \bar{w}_p) $ is a basis of the module $ L_{p+1} $.
+as basic family. By Proposition 13 (d), the family $(\bar{u})_{u \in P_{p+1}}$ is equal to $\mathcal{F}$ and hence is a basic family of $h_p = g_{p+1}$. Hence $L(X) = L_p \oplus T_p \oplus g_{p+1}$ and, as $L_{p+1} = L_p + T_p$, $L(X) = L_{p+1} \oplus g_{p+1}$ and $(\bar{w}_0, \bar{w}_1, \ldots, \bar{w}_{p-1}, \bar{w}_p)$ is a basis of the module $L_{p+1}$.
 
-Let $ n $ be a positive integer. By Proposition 13 (c) there exists an integer $ p(n) $ such that $ P_p $ has only elements of length $ > n $ for $ p \geq p(n) $. For $ p \geq p(n) $, the Lie subalgebra $ g_p $ of $ L(X) $ is generated by elements of degree $ > n $ and hence $ L^n(X) \cap g_p = \{0\} $. On the other hand, the elements $ \bar{w}_i $ of $ L(X) $ are homogeneous and the family $ (w_i)_{0 \leq i < p} $ is a basis of a supplementary module of $ g_p $. It follows immediately that the family of elements $ \bar{w}_i $ of degree $ n $ is a basis of the module $ L^n(X) $ and that the sequence $ (\bar{w}_i)_{i \geq 0} $ is a basis of the module $ L(X) $.
+Let $n$ be a positive integer. By Proposition 13 (c) there exists an integer $p(n)$ such that $P_p$ has only elements of length $> n$ for $p \geq p(n)$. For $p \geq p(n)$, the Lie subalgebra $g_p$ of $L(X)$ is generated by elements of degree $> n$ and hence $L^n(X) \cap g_p = \{0\}$. On the other hand, the elements $\bar{w}_i$ of $L(X)$ are homogeneous and the family $(w_i)_{0 \leq i < p}$ is a basis of a supplementary module of $g_p$. It follows immediately that the family of elements $\bar{w}_i$ of degree $n$ is a basis of the module $L^n(X)$ and that the sequence $(\bar{w}_i)_{i \geq 0}$ is a basis of the module $L(X)$.
 
 (B) *General case.*
 
-If $ S $ is a subset of $ X $, recall that $ M(S) $ is identified with the submagna of $ M(X) $ generated by $ S $ and $ L(S) $ is identified with the Lie subalgebra of $ L(X) $ generated by $ S $; we have seen that if $ w \in M(S) $ is of length $ \geq 2 $ then $ \alpha(w) \in M(S) $ and $ \beta(w) \in M(S) $. It follows immediately that $ H \cap M(S) $ is a Hall set relative to $ S $.
+If $S$ is a subset of $X$, recall that $M(S)$ is identified with the submagna of $M(X)$ generated by $S$ and $L(S)$ is identified with the Lie subalgebra of $L(X)$ generated by $S$; we have seen that if $w \in M(S)$ is of length $\geq 2$ then $\alpha(w) \in M(S)$ and $\beta(w) \in M(S)$. It follows immediately that $H \cap M(S)$ is a Hall set relative to $S$.
 
-For every finite subset $ \Phi $ of $ H $ there exists a finite subset $ S $ of $ X $ such that
+For every finite subset $\Phi$ of $H$ there exists a finite subset $S$ of $X$ such that
 
-Φ ⊂ M(S). Case (A) then shows that the elements $ \bar{w} $ with $ w \in \Phi $ are linearly independent in $ L(S) $ and hence in $ L(X) $. Therefore the family $ (\bar{w})_{w \in H} $ is free.
+Φ ⊂ M(S). Case (A) then shows that the elements $\bar{w}$ with $w \in \Phi$ are linearly independent in $L(S)$ and hence in $L(X)$. Therefore the family $(\bar{w})_{w \in H}$ is free.
 
-For every element $ a $ of $ L(X) $ there exists a finite subset $ S $ of $ X $ such that $ a \in L(S) $. By case (A), the subset $ \Psi'(H \cap M(S)) $ of $ \Psi'(H) $ generates the module $ L(S) $ and hence $ a $ is a linear combination of elements of $ \Psi'(H) $. Hence $ \Psi'(H) $ generates the module $ L(X) $, which completes the proof.
+For every element $a$ of $L(X)$ there exists a finite subset $S$ of $X$ such that $a \in L(S)$. By case (A), the subset $\Psi'(H \cap M(S))$ of $\Psi'(H)$ generates the module $L(S)$ and hence $a$ is a linear combination of elements of $\Psi'(H)$. Hence $\Psi'(H)$ generates the module $L(X)$, which completes the proof.
 
 #### Corollary {#lie-ii-s2-n11-cor-1 .statement}
 
-*The module* $ L(X) $ *is free and so is each of the submodules* $ L^\alpha(X) $ *where* $ \alpha \in \mathbf{N}^{(X)} $ *and* $ L^n(X) $ *where* $ n \in \mathbf{N} $. *The modules* $ L^\alpha(X) $ *are of finite rank and so are the modules* $ L^n(X) $ *if* $ X $ *is finite*.
+*The module* $L(X)$ *is free and so is each of the submodules* $L^\alpha(X)$ *where* $\alpha \in \mathbf{N}^{(X)}$ *and* $L^n(X)$ *where* $n \in \mathbf{N}$. *The modules* $L^\alpha(X)$ *are of finite rank and so are the modules* $L^n(X)$ *if* $X$ *is finite*.
 
-There exists a Hall set $ H $ relative to $ X $ (Proposition 11). For all $ w \in H $, the element $ \Psi'(w) $ of $ L(X) $ belongs to one of the modules $ L^\alpha(X) $ (with $ \alpha \in \mathbf{N}^{(X)} $) and the module $ L(X) $ is the direct sum of the submodules $ L^\alpha(X) $. Further, for all $ \alpha \in \mathbf{N}^{(X)} $, the set of elements of $ M(X) $ whose canonical image in $ \mathbf{N}^{(X)} $ is equal to $ \alpha $ is finite; this shows that each of the modules $ L^\alpha(X) $ is free and of finite rank and that $ L(X) $ is free. Now $ L^n(X) = \sum_{|\alpha|=n} L^\alpha(X) $ and hence $ L^n(X) $ is free; when $ X $ is finite, the set of $ \alpha \in \mathbf{N}^{(X)} $ such that $ |\alpha|=n $ is finite and hence $ L^n(X) $ is then of finite rank.
+There exists a Hall set $H$ relative to $X$ (Proposition 11). For all $w \in H$, the element $\Psi'(w)$ of $L(X)$ belongs to one of the modules $L^\alpha(X)$ (with $\alpha \in \mathbf{N}^{(X)}$) and the module $L(X)$ is the direct sum of the submodules $L^\alpha(X)$. Further, for all $\alpha \in \mathbf{N}^{(X)}$, the set of elements of $M(X)$ whose canonical image in $\mathbf{N}^{(X)}$ is equal to $\alpha$ is finite; this shows that each of the modules $L^\alpha(X)$ is free and of finite rank and that $L(X)$ is free. Now $L^n(X) = \sum_{|\alpha|=n} L^\alpha(X)$ and hence $L^n(X)$ is free; when $X$ is finite, the set of $\alpha \in \mathbf{N}^{(X)}$ such that $|\alpha|=n$ is finite and hence $L^n(X)$ is then of finite rank.
 
 #### Definition 3 {#lie-ii-s2-def-3 .statement}
 
-*A Hall basis of a free Lie algebra* $ L(X) $ *is any basis of* $ L(X) $ *which is the canonical image of a Hall set relative to* $ X $.
+*A Hall basis of a free Lie algebra* $L(X)$ *is any basis of* $L(X)$ *which is the canonical image of a Hall set relative to* $X$.
 
 #### Remark {#lie-ii-s2-n11-rem-1 .statement}
 
-Suppose that $ X $ consists of two distinct elements $ x $ and $ y $ and let $ L^{(\cdot,1)} $ be the submodule of $ L(X) $ the sum of the $ L^\alpha(X) $ where $ \alpha \in \mathbf{N}^X $ and $ \alpha(y)=1 $. It follows immediately from Theorem 1 and Proposition 12 of no. 10 that the elements of $ (\mathrm{ad}\,x)^n.y $ where $ n $ is an integer $ \geqslant 0 $ form a *basis* of the submodule $ L^{(\cdot,1)} $. It follows that *the restriction to* $ L^{(\cdot,1)} $ *of the mapping ad* $ x $ *is injective*.
+Suppose that $X$ consists of two distinct elements $x$ and $y$ and let $L^{(\cdot,1)}$ be the submodule of $L(X)$ the sum of the $L^\alpha(X)$ where $\alpha \in \mathbf{N}^X$ and $\alpha(y)=1$. It follows immediately from Theorem 1 and Proposition 12 of no. 10 that the elements of $(\mathrm{ad}\,x)^n.y$ where $n$ is an integer $\geqslant 0$ form a *basis* of the submodule $L^{(\cdot,1)}$. It follows that *the restriction to* $L^{(\cdot,1)}$ *of the mapping ad* $x$ *is injective*.
 
 ### Exercises {#lie-ii-s2-exercises}
 

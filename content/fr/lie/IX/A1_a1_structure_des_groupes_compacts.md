@@ -26,7 +26,7 @@ subsections:
       pdf_page: 104
 statements: 9
 exercises: 1
-content_sha256: f71cc519d454262675e06cb126581e6921af9721c539a8f1f4140ff9aa98693f
+content_sha256: c10a7650b7ae8bcc59ef3d37384dd64d68d8e4c177052b0d9caccdb11e42b6ad
 ---
 
 ## APPENDICE 1
@@ -37,21 +37,21 @@ content_sha256: f71cc519d454262675e06cb126581e6921af9721c539a8f1f4140ff9aa98693f
 
 #### Proposition 1 {#lie-ix-a1-prop-1 .statement tag=01II}
 
-Tout groupe topologique compact $ G $ est isomorphe à un sous-groupe fermé d’un produit de groupes de Lie compacts.
+Tout groupe topologique compact $G$ est isomorphe à un sous-groupe fermé d’un produit de groupes de Lie compacts.
 
-Notons $ \hat{G} $ l’ensemble des classes de représentations continues irréductibles unitaires de G dans des espaces hilbertiens complexes de dimension finie (TS, à paraître). Pour tout $ u \in \hat{G} $, soient $ H_u $ l’espace de $ u $ et $ \rho_u : G \to U(H_u) $ l’homomorphisme associé à $ u $. D’après le théorème de Peter-Weyl (TS, à paraître), l’homomorphisme continu $ \rho = (\rho_u)_{u \in \hat{G}} $ de G dans $ \prod_{u \in \hat{G}} U(H_u) $ est injectif ; puisque G est compact, $ \rho $ induit un isomorphisme de G sur un sous-groupe fermé du groupe $ \prod_{u \in \hat{G}} U(H_u) $.
+Notons $\hat{G}$ l’ensemble des classes de représentations continues irréductibles unitaires de G dans des espaces hilbertiens complexes de dimension finie (TS, à paraître). Pour tout $u \in \hat{G}$, soient $H_u$ l’espace de $u$ et $\rho_u : G \to U(H_u)$ l’homomorphisme associé à $u$. D’après le théorème de Peter-Weyl (TS, à paraître), l’homomorphisme continu $\rho = (\rho_u)_{u \in \hat{G}}$ de G dans $\prod_{u \in \hat{G}} U(H_u)$ est injectif ; puisque G est compact, $\rho$ induit un isomorphisme de G sur un sous-groupe fermé du groupe $\prod_{u \in \hat{G}} U(H_u)$.
 
 #### Corollaire 1 {#lie-ix-a1-prop-1-cor-1 .statement tag=01IJ}
 
-Soit V un voisinage de l’élément neutre dans G. Alors V contient un sous-groupe fermé distingué H de G tel que le quotient $ G/H $ soit un groupe de Lie.
+Soit V un voisinage de l’élément neutre dans G. Alors V contient un sous-groupe fermé distingué H de G tel que le quotient $G/H$ soit un groupe de Lie.
 
-Soit $ (K_\lambda)_{\lambda \in L} $ une famille de groupes de Lie compacts telle que G s’identifie à un sous-groupe fermé de $ \prod_{\lambda \in L} K_\lambda $; pour $ \lambda \in L $, notons $ p_\lambda : G \to K_\lambda $ la restriction à G de la projection canonique. Il existe un ensemble fini $ J \subset L $, et pour chaque $ \lambda \in J $ un voisinage de l’origine $ V_\lambda $ dans $ K_\lambda $, tels que V contienne $ \bigcap_{\lambda \in J} p_\lambda^{-1}(V_\lambda) $. Il suffit alors de poser $ H = \bigcap_{\lambda \in J} \mathrm{Ker}(p_\lambda) $.
+Soit $(K_\lambda)_{\lambda \in L}$ une famille de groupes de Lie compacts telle que G s’identifie à un sous-groupe fermé de $\prod_{\lambda \in L} K_\lambda$; pour $\lambda \in L$, notons $p_\lambda : G \to K_\lambda$ la restriction à G de la projection canonique. Il existe un ensemble fini $J \subset L$, et pour chaque $\lambda \in J$ un voisinage de l’origine $V_\lambda$ dans $K_\lambda$, tels que V contienne $\bigcap_{\lambda \in J} p_\lambda^{-1}(V_\lambda)$. Il suffit alors de poser $H = \bigcap_{\lambda \in J} \mathrm{Ker}(p_\lambda)$.
 
-Notons $ (H_\alpha)_{\alpha \in I} $ la famille filtrante décroissante des sous-groupes fermés distingués de G, tels que le quotient $ G/H_\alpha $ soit un groupe de Lie. Considérons le système projectif des groupes de Lie compacts $ G/H_\alpha $ (cf. TG, III, p. 60).
+Notons $(H_\alpha)_{\alpha \in I}$ la famille filtrante décroissante des sous-groupes fermés distingués de G, tels que le quotient $G/H_\alpha$ soit un groupe de Lie. Considérons le système projectif des groupes de Lie compacts $G/H_\alpha$ (cf. TG, III, p. 60).
 
 #### Corollaire 2 {#lie-ix-a1-prop-1-cor-2 .statement tag=01IK}
 
-L’application canonique $ G \to \lim_{\leftarrow \alpha} G/H_\alpha $ est un isomorphisme de groupes topologiques.
+L’application canonique $G \to \lim_{\leftarrow \alpha} G/H_\alpha$ est un isomorphisme de groupes topologiques.
 
 En effet le cor. 1 entraîne que la condition (AP) de TG, III, p. 60 est vérifiée ; l’assertion résulte alors de la prop. 2 de loc. cit.
 
@@ -85,33 +85,33 @@ Notons $\tilde{u} : \prod_{a \in A} S_a \to \prod_{b \in B} T_b$ le morphisme d�
 
 #### Lemme 3 {#lie-ix-a1-lem-3 .statement tag=01IO}
 
-Sous les hypothèses du lemme 1, on suppose que les $ G_\alpha $ sont des groupes de Lie compacts simplement connexes. Le groupe topologique $ G $ est alors isomorphe au produit d'une famille de groupes de Lie compacts, presque simples, simplement connexes.
+Sous les hypothèses du lemme 1, on suppose que les $G_\alpha$ sont des groupes de Lie compacts simplement connexes. Le groupe topologique $G$ est alors isomorphe au produit d'une famille de groupes de Lie compacts, presque simples, simplement connexes.
 
-Pour tout $ \alpha \in I $, le groupe $ G_\alpha $ est produit direct d'une famille finie de sous-groupes presque simples simplement connexes $ (S^\lambda_\alpha)_{\lambda \in L_\alpha} $ (III, § 9, no 8, prop. 28). Soit $ \beta \in I $, $ \beta \geq \alpha $. D'après le lemme 2, il existe une application $ l_{\beta \alpha}: L_\alpha \to L_\beta $ telle que $ f_{\alpha \beta}(S^{l_{\beta \alpha}(\lambda)}_\beta) = S^\lambda_\alpha $ pour $ \lambda \in L_\alpha $. On a $ l_{\gamma \beta} \circ l_{\beta \alpha} = l_{\gamma \alpha} $ pour $ \alpha \leq \beta \leq \gamma $, de sorte que $ (L_\alpha, l_{\beta \alpha}) $ est un système inductif d'ensembles relatif à $ I $. Soit $ L $ sa limite ; les applications $ l_{\beta \alpha} $ étant injectives, on peut identifier $ L_\alpha $ à un sous-ensemble de $ L $, de sorte qu'on a $ L = \bigcup_{\alpha \in I} L_\alpha $.
+Pour tout $\alpha \in I$, le groupe $G_\alpha$ est produit direct d'une famille finie de sous-groupes presque simples simplement connexes $(S^\lambda_\alpha)_{\lambda \in L_\alpha}$ (III, § 9, no 8, prop. 28). Soit $\beta \in I$, $\beta \geq \alpha$. D'après le lemme 2, il existe une application $l_{\beta \alpha}: L_\alpha \to L_\beta$ telle que $f_{\alpha \beta}(S^{l_{\beta \alpha}(\lambda)}_\beta) = S^\lambda_\alpha$ pour $\lambda \in L_\alpha$. On a $l_{\gamma \beta} \circ l_{\beta \alpha} = l_{\gamma \alpha}$ pour $\alpha \leq \beta \leq \gamma$, de sorte que $(L_\alpha, l_{\beta \alpha})$ est un système inductif d'ensembles relatif à $I$. Soit $L$ sa limite ; les applications $l_{\beta \alpha}$ étant injectives, on peut identifier $L_\alpha$ à un sous-ensemble de $L$, de sorte qu'on a $L = \bigcup_{\alpha \in I} L_\alpha$.
 
-Soit $ \lambda \in L $. Posons $ S^\lambda_\alpha = \{1\} $ lorsque $ \lambda \notin L_\alpha $, et notons $ \varphi^\lambda_{\alpha \beta}: S^\lambda_\beta \to S^\lambda_\alpha $ le morphisme déduit de $ f_{\alpha \beta} $; on obtient ainsi un système projectif de groupes topologiques $ (S^\lambda_\alpha, \varphi^\lambda_{\alpha \beta}) $, dont la limite $ S_\lambda $ est isomorphe à $ S_\lambda $ pour $ \alpha $ assez grand. L'homomorphisme canonique de groupes topologiques
+Soit $\lambda \in L$. Posons $S^\lambda_\alpha = \{1\}$ lorsque $\lambda \notin L_\alpha$, et notons $\varphi^\lambda_{\alpha \beta}: S^\lambda_\beta \to S^\lambda_\alpha$ le morphisme déduit de $f_{\alpha \beta}$; on obtient ainsi un système projectif de groupes topologiques $(S^\lambda_\alpha, \varphi^\lambda_{\alpha \beta})$, dont la limite $S_\lambda$ est isomorphe à $S_\lambda$ pour $\alpha$ assez grand. L'homomorphisme canonique de groupes topologiques
 
 $$
 \lim_{\leftarrow \alpha \in I} (\prod_{\lambda \in L} S^\lambda_\alpha) \to \prod_{\lambda \in L} (\lim_{\leftarrow \alpha \in I} S^\lambda_\alpha)
 $$
 
-est bijectif (E, III, p. 57, cor. 2); c'est donc un isomorphisme puisque les groupes considérés sont compacts. Or le premier de ces groupes s'identifie à $ G $ et le second au produit des $ S_\lambda $, d'où le lemme.
+est bijectif (E, III, p. 57, cor. 2); c'est donc un isomorphisme puisque les groupes considérés sont compacts. Or le premier de ces groupes s'identifie à $G$ et le second au produit des $S_\lambda$, d'où le lemme.
 
 ### 3. Structure des groupes compacts connexes
 
-Soit $ G $ un groupe compact commutatif. Rappelons (TS, II, § 1, no 9, prop. 11) que $ G $ est alors isomorphe au groupe topologique dual d'un groupe commutatif discret $ \hat{G} $. Le groupe $ G $ est connexe si et seulement si $ \hat{G} $ est sans torsion (TS, II, § 2, no 2, cor. 1 à la prop. 4).
+Soit $G$ un groupe compact commutatif. Rappelons (TS, II, § 1, no 9, prop. 11) que $G$ est alors isomorphe au groupe topologique dual d'un groupe commutatif discret $\hat{G}$. Le groupe $G$ est connexe si et seulement si $\hat{G}$ est sans torsion (TS, II, § 2, no 2, cor. 1 à la prop. 4).
 
 Les propriétés suivantes sont équivalentes (TS, II, § 2, no 2, cor. 2 à la prop. 4 et § 1, no 9, cor. 2 à la prop. 11):
-(i) $ G $ est totalement discontinu ;
-(ii) $ \hat{G} $ est un groupe de torsion ;
-(iii) le groupe topologique $ G $ est isomorphe à la limite d'un système projectif de groupes (commutatifs) finis, munis de la topologie discrète.
+(i) $G$ est totalement discontinu ;
+(ii) $\hat{G}$ est un groupe de torsion ;
+(iii) le groupe topologique $G$ est isomorphe à la limite d'un système projectif de groupes (commutatifs) finis, munis de la topologie discrète.
 La proposition ci-dessous généralise le cor. 1 à la prop. 4 du § 1, no 4.
 
 #### Proposition 2 {#lie-ix-a1-prop-2 .statement tag=01IP}
 
-Soit $ G $ un groupe compact connexe.
-a) $ C(G)_0 $ est un groupe compact connexe commutatif; $ D(G) $ est un groupe compact connexe, égal à son groupe dérivé.
-b) L'homomorphisme continu $ (x, y) \mapsto xy $ de $ C(G)_0 \times D(G) $ dans $ G $ est surjectif et son noyau est un sous-groupe central de $ C(G)_0 \times D(G) $, compact et totalement discontinu.
+Soit $G$ un groupe compact connexe.
+a) $C(G)_0$ est un groupe compact connexe commutatif; $D(G)$ est un groupe compact connexe, égal à son groupe dérivé.
+b) L'homomorphisme continu $(x, y) \mapsto xy$ de $C(G)_0 \times D(G)$ dans $G$ est surjectif et son noyau est un sous-groupe central de $C(G)_0 \times D(G)$, compact et totalement discontinu.
 
 c) Il existe une famille $(S_\lambda)_{\lambda \in L}$ de groupes de Lie compacts presque simples et un homomorphisme continu surjectif $\prod_{\alpha \in L} S_\alpha \to D(G)$, dont le noyau est un sous-groupe central compact totalement discontinu.
 

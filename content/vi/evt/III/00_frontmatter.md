@@ -12,9 +12,9 @@ pdf_pages: 0133-0133
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 1f99489f3347c7faf149b7636a29e30d0b760f4173767d0430e1b3797ed33e86
+content_sha256: b999a189b0f0b5ee9bfbb5bb46728de44453a30b44b21c9ae16da86ae9e7a385
 translated_from: content/en/evt/III/00_frontmatter.md
-source_content_sha256: c45734404f34dae3791a10dfc4b0f94938473b73259ab4f4c819cf6e5a25776a
+source_content_sha256: d3c5cfe5246e956f411dfae24a5bee4a2a1d739432d0786583cad8f0d245141e
 translation_model: gpt-5.4
 translation_run: translate-vi-b47ab21e
 glossary_version: 34
@@ -26,6 +26,6 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 # Không gian các ánh xạ tuyến tính liên tục
 
-Trong chương này, mọi không gian vectơ được xét đều là các không gian vectơ trên một trường $ \mathbf{K} $, trường này có thể là $ \mathbf{R} $ hoặc $ \mathbf{C} $.
+Trong chương này, mọi không gian vectơ được xét đều là các không gian vectơ trên một trường $\mathbf{K}$, trường này có thể là $\mathbf{R}$ hoặc $\mathbf{C}$.
 
-Nhắc lại (II, p. 2) rằng một không gian nửa chuẩn là một không gian vectơ E được trang bị một nửa chuẩn $ p $ và tôpô được xác định bởi $ p $. Cho $ r $ là một số thực $ > 0 $. Tập hợp mọi $ x \in E $ sao cho $ p(x) \leq r $ được gọi là quả cầu (đóng) bán kính $ r $ của E (hay của $ p $). Khi $ r = 1 $, quả cầu này cũng được gọi là quả cầu đơn vị.
+Nhắc lại (II, p. 2) rằng một không gian nửa chuẩn là một không gian vectơ E được trang bị một nửa chuẩn $p$ và tôpô được xác định bởi $p$. Cho $r$ là một số thực $> 0$. Tập hợp mọi $x \in E$ sao cho $p(x) \leq r$ được gọi là quả cầu (đóng) bán kính $r$ của E (hay của $p$). Khi $r = 1$, quả cầu này cũng được gọi là quả cầu đơn vị.

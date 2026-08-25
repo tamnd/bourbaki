@@ -12,9 +12,9 @@ pdf_pages: 0137-0142
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 8b1666d42889d14da1cda83f0878cc0ba347dc2a64a05f5bbe1577ee082fa97a
+content_sha256: 8835977d944a8f836490b364ef616f0ef4f870d247a6539dc48949aeccc93209
 translated_from: content/en/top/VIII/historical_note.md
-source_content_sha256: 84e49a36809bbf86322dfba1d49abac15455b2fad5e450d6e0fd68a46a7eea3e
+source_content_sha256: 57b77184221ca69d6ca354cde43d19a9e9e83709711d6eec714c0a5593906ba6
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-b8ed6dd2
 glossary_version: 34
@@ -64,7 +64,7 @@ Trong số các nhà hình học Hy Lạp thời kỳ cổ điển, khái niệm
 
 (**) Euclid’s Elements, ed. Heiberg, vol. 5, p. 357.
 
-khi ông phát hiện rằng phương trình $ \sin nx = \sin \alpha $ có nhiều nghiệm, chỉ thu được những nghiệm tương ứng với các góc nhỏ hơn hai góc vuông ([4], p. 305). Chỉ đến thế kỷ 17, quan điểm này mới bị thay thế một cách dứt khoát; và, sau khi việc Newton phát hiện các khai triển chuỗi lũy thừa của $ \sin x $ và $ \cos x $ đã cung cấp những biểu thức của các hàm này đúng với mọi giá trị của biến, cuối cùng Euler đã phát biểu chính xác khái niệm về phép đo góc, gắn với các lôgarit của các số "ảo" ([5], (1), vol. 17, p. 220).
+khi ông phát hiện rằng phương trình $\sin nx = \sin \alpha$ có nhiều nghiệm, chỉ thu được những nghiệm tương ứng với các góc nhỏ hơn hai góc vuông ([4], p. 305). Chỉ đến thế kỷ 17, quan điểm này mới bị thay thế một cách dứt khoát; và, sau khi việc Newton phát hiện các khai triển chuỗi lũy thừa của $\sin x$ và $\cos x$ đã cung cấp những biểu thức của các hàm này đúng với mọi giá trị của biến, cuối cùng Euler đã phát biểu chính xác khái niệm về phép đo góc, gắn với các lôgarit của các số "ảo" ([5], (1), vol. 17, p. 220).
 
 Dĩ nhiên, định nghĩa cổ điển về phép đo góc theo độ dài của một cung tròn không chỉ trực giác mà về cơ bản còn đúng; tuy nhiên, để làm cho nó chặt chẽ, cần đến khái niệm độ dài của một đường cong, tức là phép tính nguyên. Xét từ quan điểm của các cấu trúc tham gia vào đây, đây là một thủ tục rất dài dòng, và như chúng ta đã thấy trong phần văn bản, có thể đi đến cùng một kết quả mà không dùng phương tiện nào khác ngoài lý thuyết các nhóm tôpô; theo cách này, hàm mũ thực và hàm mũ phức xuất hiện như bắt nguồn từ cùng một nguồn, tức là định lý đặc trưng các "nhóm một tham số" (chương V, § 3, Định lý 1).
 

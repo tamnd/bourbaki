@@ -23,7 +23,7 @@ subsections:
       page: 0
       pdf_page: 337
     - "no": 4
-      title: PROPERTIES OF INTERVALS IN $ \mathbf{R} $
+      title: PROPERTIES OF INTERVALS IN $\mathbf{R}$
       page: 0
       pdf_page: 338
     - "no": 5
@@ -36,9 +36,9 @@ subsections:
       pdf_page: 340
 statements: 10
 exercises: 4
-content_sha256: 604b24af48d798ab0a8024f752388c61a656b356aa6659e0c0413b80d9da8b6d
+content_sha256: 16b315d18984e89283b27af103bc3c7c4c494faeaaec6f69d4af419e4cbd0fee
 translated_from: content/en/top/IV/01_s1_definition_of_real_numbers.md
-source_content_sha256: 16d7a53ea0f3096cb945a9d8551d57ceca4daccf221fbac408f85c3cc56d196d
+source_content_sha256: 3e464a20dbba1b7e5ca5492e42ca53c9282c0ce314d92b39f60176990dba0c1b
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-b5f2ec1a
 glossary_version: 34
@@ -50,7 +50,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. NHÓM CÓ THỨ TỰ CỦA CÁC SỐ HỮU TỈ
 
-Ta đã định nghĩa quan hệ thứ tự $ x \leq y $ trên tập $ \mathbf{Q} $ các số hữu tỉ; ta đã thấy rằng quan hệ thứ tự này làm cho $ \mathbf{Q} $ là một tập *có thứ tự tuyến tính*, và nó *tương thích* với cấu trúc *nhóm cộng* của $ \mathbf{Q} $, nghĩa là với mỗi $ z \in \mathbf{Q} $ quan hệ $ x \leq y $ tương đương với $ x + z \leq y + z $ (tức là, *quan hệ thứ tự là bất biến qua các phép tịnh tiến*). Ta nhắc lại ký hiệu (được sử dụng trong mọi nhóm có thứ tự tuyến tính)
+Ta đã định nghĩa quan hệ thứ tự $x \leq y$ trên tập $\mathbf{Q}$ các số hữu tỉ; ta đã thấy rằng quan hệ thứ tự này làm cho $\mathbf{Q}$ là một tập *có thứ tự tuyến tính*, và nó *tương thích* với cấu trúc *nhóm cộng* của $\mathbf{Q}$, nghĩa là với mỗi $z \in \mathbf{Q}$ quan hệ $x \leq y$ tương đương với $x + z \leq y + z$ (tức là, *quan hệ thứ tự là bất biến qua các phép tịnh tiến*). Ta nhắc lại ký hiệu (được sử dụng trong mọi nhóm có thứ tự tuyến tính)
 
 $$
 x^+ = \sup (x, 0), \\
@@ -58,7 +58,7 @@ x^- = \sup (-x, 0) = (-x)^+, \\
 |x| = \sup (x, -x);
 $$
 
-$ |x| $ được gọi là *giá trị tuyệt đối* của $ x $, và ta có
+$|x|$ được gọi là *giá trị tuyệt đối* của $x$, và ta có
 
 $$
 x = x^+ - x^-, \qquad |x| = x^+ + x^-
@@ -81,7 +81,7 @@ $$
 |x^+ - y^+| \leq |x - y|.
 $$
 
-Các quan hệ $ x \geq 0,\ x = x^+,\ x^- = 0,\ |x| = x $ (tương ứng. $ x \leq 0,\ x = -x^-,\ x^+ = 0,\ |x| = -x $) là *tương đương*. Quan hệ $ |x| = 0 $ tương đương với $ x = 0 $; nếu $ a \geq 0 $, quan hệ $ |x| \leq a $ tương đương với $ -a \leq x \leq a $, và quan hệ $ |x| \geq a $ tương đương với "$ x \geq a $ hoặc $ x \leq -a $". Với mọi $ x, y $ trong $ \mathbf{Q} $, ta có
+Các quan hệ $x \geq 0,\ x = x^+,\ x^- = 0,\ |x| = x$ (tương ứng. $x \leq 0,\ x = -x^-,\ x^+ = 0,\ |x| = -x$) là *tương đương*. Quan hệ $|x| = 0$ tương đương với $x = 0$; nếu $a \geq 0$, quan hệ $|x| \leq a$ tương đương với $-a \leq x \leq a$, và quan hệ $|x| \geq a$ tương đương với "$x \geq a$ hoặc $x \leq -a$". Với mọi $x, y$ trong $\mathbf{Q}$, ta có
 
 (4)
 $$
@@ -103,7 +103,7 @@ $$
 \inf (x, y) = x - (y - x)^- = x - (x - y)^+.
 $$
 
-Cuối cùng, gọi $ \mathbf{Q}_+ $ là tập hợp các số hữu tỉ $ \geq 0 $; khi đó ta có
+Cuối cùng, gọi $\mathbf{Q}_+$ là tập hợp các số hữu tỉ $\geq 0$; khi đó ta có
 
 (8)
 $$
@@ -118,71 +118,71 @@ $$
 \mathbf{Q}_+ \cup (- \mathbf{Q}_+) = \mathbf{Q}.
 $$
 
-Quan hệ $ x \leq y $ *tương đương* với $ y - x \in \mathbf{Q}_+ $.
+Quan hệ $x \leq y$ *tương đương* với $y - x \in \mathbf{Q}_+$.
 
-Ta sẽ dùng quan hệ thứ tự này để định nghĩa *một tôpô trên $ \mathbf{Q} $ tương thích với cấu trúc nhóm cộng của nó*.
+Ta sẽ dùng quan hệ thứ tự này để định nghĩa *một tôpô trên $\mathbf{Q}$ tương thích với cấu trúc nhóm cộng của nó*.
 
 ### 2. ĐƯỜNG THẲNG HỮU TỈ
 
-Xét tập $ \mathfrak{F} $ gồm các *khoảng mở đối xứng* $ ]-a, +a[ $, trong đó $ a $ chạy qua tập các số hữu tỉ $ > 0 $; ta sẽ chứng minh rằng $ \mathfrak{F} $ là một *hệ cơ bản các lân cận của* $ 0 $ trong một tôpô tương thích với cấu trúc nhóm cộng của $ \mathbf{Q} $.
+Xét tập $\mathfrak{F}$ gồm các *khoảng mở đối xứng* $]-a, +a[$, trong đó $a$ chạy qua tập các số hữu tỉ $> 0$; ta sẽ chứng minh rằng $\mathfrak{F}$ là một *hệ cơ bản các lân cận của* $0$ trong một tôpô tương thích với cấu trúc nhóm cộng của $\mathbf{Q}$.
 
-Nhóm $ \mathbf{Q} $ là giao hoán, và tiên đề $ (\mathrm{GV}'_{\mathrm{II}}) $ được thỏa mãn rõ ràng; do đó chỉ cần chứng minh rằng tiên đề $ (\mathrm{GV}'_{\mathrm{I}}) $ cũng được thỏa mãn, nói cách khác, với mỗi $ a > 0 $ tồn tại $ b > 0 $ sao cho các điều kiện $ |x| < b $ và $ |y| < b $ cùng kéo theo $ |x + y| < a $. Bất đẳng thức tam giác cho thấy ta có thể lấy $ b = a/2 $.
+Nhóm $\mathbf{Q}$ là giao hoán, và tiên đề $(\mathrm{GV}'_{\mathrm{II}})$ được thỏa mãn rõ ràng; do đó chỉ cần chứng minh rằng tiên đề $(\mathrm{GV}'_{\mathrm{I}})$ cũng được thỏa mãn, nói cách khác, với mỗi $a > 0$ tồn tại $b > 0$ sao cho các điều kiện $|x| < b$ và $|y| < b$ cùng kéo theo $|x + y| < a$. Bất đẳng thức tam giác cho thấy ta có thể lấy $b = a/2$.
 
 #### Định nghĩa 1 {#top-iv-s1-def-1 .statement}
 
-*Đường thẳng hữu tỉ là không gian tôpô gồm tập hợp $ \mathbf{Q} $ cùng với tôpô nhóm cộng mà trong đó các khoảng mở đối xứng $ ]-a, +a[ $ $ (a > 0) $ tạo thành một hệ cơ bản các lân cận của $ 0 $.*
+*Đường thẳng hữu tỉ là không gian tôpô gồm tập hợp $\mathbf{Q}$ cùng với tôpô nhóm cộng mà trong đó các khoảng mở đối xứng $]-a, +a[$ $(a > 0)$ tạo thành một hệ cơ bản các lân cận của $0$.*
 
-*Nhóm tôpô $ \mathbf{Q} $ được định nghĩa như vậy được gọi là nhóm cộng của đường thẳng hữu tỉ.*
+*Nhóm tôpô $\mathbf{Q}$ được định nghĩa như vậy được gọi là nhóm cộng của đường thẳng hữu tỉ.*
 
-Nếu $ a $ là một số hữu tỉ $ > 0 $, thì tồn tại một số nguyên $ n > 0 $ sao cho $ 1/n < a $; do đó các khoảng mở $ ]-\frac{1}{n}, +\frac{1}{n}[ $ $ (n = 1, 2, \ldots) $ tạo thành một hệ cơ sở các lân cận của $ 0 $ trên đường thẳng hữu tỉ.
+Nếu $a$ là một số hữu tỉ $> 0$, thì tồn tại một số nguyên $n > 0$ sao cho $1/n < a$; do đó các khoảng mở $]-\frac{1}{n}, +\frac{1}{n}[$ $(n = 1, 2, \ldots)$ tạo thành một hệ cơ sở các lân cận của $0$ trên đường thẳng hữu tỉ.
 
-Ta thu được một hệ cơ sở các lân cận của mọi điểm $ x \in \mathbf{Q} $ bằng cách lấy các khoảng mở $ ]x - a, x + a[ $, trong đó $ a $ chạy qua tập hợp các số hữu tỉ $ > 0 $ (hoặc tập hợp các số $ 1/n $).
+Ta thu được một hệ cơ sở các lân cận của mọi điểm $x \in \mathbf{Q}$ bằng cách lấy các khoảng mở $]x - a, x + a[$, trong đó $a$ chạy qua tập hợp các số hữu tỉ $> 0$ (hoặc tập hợp các số $1/n$).
 
 Định nghĩa 1 do đó tương đương với định nghĩa đã cho trong Chương I, § 1, no. 2.
 
-Với mỗi cặp số hữu tỉ $ (a, b) $ sao cho $ a < b $, tồn tại $ c \in \mathbf{Q} $ sao cho $ a < c < b $ [chẳng hạn $ c = (a + b)/2 $]; suy ra đường thẳng hữu tỉ là một không gian Hausdorff không rời rạc.
+Với mỗi cặp số hữu tỉ $(a, b)$ sao cho $a < b$, tồn tại $c \in \mathbf{Q}$ sao cho $a < c < b$ [chẳng hạn $c = (a + b)/2$]; suy ra đường thẳng hữu tỉ là một không gian Hausdorff không rời rạc.
 
-Với mỗi $ a > 0 $, đặt $ U_a $ là tập hợp các cặp $ (x, y) $ thuộc $ \mathbf{Q} \times \mathbf{Q} $ sao cho $ |x - y| < a $. Khi $ a $ chạy qua tập hợp các số hữu tỉ $ > 0 $ (hoặc chỉ tập hợp các số $ 1/n $), các tập hợp $ U_a $ tạo thành một hệ cơ sở các lân cận của uniformity của nhóm cộng $ \mathbf{Q} $ của đường thẳng hữu tỉ. Các quan hệ (2) và (3) cho thấy rằng $ |x|, x^+ $ và $ x^- $ liên tục đều trên $ \mathbf{Q} $. Suy ra các hàm $ \sup(x, y) $ và $ \inf(x, y) $ liên tục đều trên $ \mathbf{Q} \times \mathbf{Q} $.
+Với mỗi $a > 0$, đặt $U_a$ là tập hợp các cặp $(x, y)$ thuộc $\mathbf{Q} \times \mathbf{Q}$ sao cho $|x - y| < a$. Khi $a$ chạy qua tập hợp các số hữu tỉ $> 0$ (hoặc chỉ tập hợp các số $1/n$), các tập hợp $U_a$ tạo thành một hệ cơ sở các lân cận của uniformity của nhóm cộng $\mathbf{Q}$ của đường thẳng hữu tỉ. Các quan hệ (2) và (3) cho thấy rằng $|x|, x^+$ và $x^-$ liên tục đều trên $\mathbf{Q}$. Suy ra các hàm $\sup(x, y)$ và $\inf(x, y)$ liên tục đều trên $\mathbf{Q} \times \mathbf{Q}$.
 
 ### 3. ĐƯỜNG THẲNG THỰC VÀ CÁC SỐ THỰC
 
 #### Định nghĩa 2 {#top-iv-s1-def-2 .statement}
 
-Gọi $ \mathbf{R} $ là nhóm tôpô là hoàn thành của nhóm cộng $ \mathbf{Q} $ của đường thẳng hữu tỉ. Các phần tử của $ \mathbf{R} $ được gọi là các số thực; với tư cách là một không gian tôpô, $ \mathbf{R} $ được gọi là đường thẳng thực; với tư cách là một nhóm tôpô, $ \mathbf{R} $ được gọi là nhóm cộng của đường thẳng thực.
+Gọi $\mathbf{R}$ là nhóm tôpô là hoàn thành của nhóm cộng $\mathbf{Q}$ của đường thẳng hữu tỉ. Các phần tử của $\mathbf{R}$ được gọi là các số thực; với tư cách là một không gian tôpô, $\mathbf{R}$ được gọi là đường thẳng thực; với tư cách là một nhóm tôpô, $\mathbf{R}$ được gọi là nhóm cộng của đường thẳng thực.
 
-Ta luôn đồng nhất $ \mathbf{Q} $ với nhóm con trù mật của $ \mathbf{R} $ mà nó đẳng cấu chính tắc. Theo quy ước này, mọi số hữu tỉ đều là một số thực. Mọi số thực không hữu tỉ được gọi là số vô tỉ; ta đã thấy trong Chương II, § 3, no. 3 rằng các số như vậy tồn tại (ta sẽ chứng minh điều này theo một cách khác trong § 3, no. 3 của chương này; xem thêm Bài tập 2 của § 2); do đó (Chương III, § 2, no. 1) tập hợp $ \mathbf{CQ} $ các số vô tỉ là trù mật trong $ \mathbf{R} $.
+Ta luôn đồng nhất $\mathbf{Q}$ với nhóm con trù mật của $\mathbf{R}$ mà nó đẳng cấu chính tắc. Theo quy ước này, mọi số hữu tỉ đều là một số thực. Mọi số thực không hữu tỉ được gọi là số vô tỉ; ta đã thấy trong Chương II, § 3, no. 3 rằng các số như vậy tồn tại (ta sẽ chứng minh điều này theo một cách khác trong § 3, no. 3 của chương này; xem thêm Bài tập 2 của § 2); do đó (Chương III, § 2, no. 1) tập hợp $\mathbf{CQ}$ các số vô tỉ là trù mật trong $\mathbf{R}$.
 
-Ta sẽ chứng minh rằng cấu trúc thứ tự của $ \mathbf{Q} $ có thể mở rộng lên $ \mathbf{R} $ sao cho thứ tự mở rộng vẫn tương thích với cấu trúc nhóm cộng của $ \mathbf{R} $:
+Ta sẽ chứng minh rằng cấu trúc thứ tự của $\mathbf{Q}$ có thể mở rộng lên $\mathbf{R}$ sao cho thứ tự mở rộng vẫn tương thích với cấu trúc nhóm cộng của $\mathbf{R}$:
 
 #### Mệnh đề 1 {#top-iv-s1-prop-1 .statement}
 
-Quan hệ $ y - x \in \overline{\mathbf{Q}}_+ $ là một quan hệ thứ tự trên $ \mathbf{R} $, biến $ \mathbf{R} $ thành một tập hợp có thứ tự tuyến tính; tương thích với cấu trúc nhóm cộng trên $ \mathbf{R} $, và cảm sinh thứ tự $ x \leq y $ trên $ \mathbf{Q} $.
+Quan hệ $y - x \in \overline{\mathbf{Q}}_+$ là một quan hệ thứ tự trên $\mathbf{R}$, biến $\mathbf{R}$ thành một tập hợp có thứ tự tuyến tính; tương thích với cấu trúc nhóm cộng trên $\mathbf{R}$, và cảm sinh thứ tự $x \leq y$ trên $\mathbf{Q}$.
 
-Ta bắt đầu bằng cách chứng minh rằng các quan hệ $ y - x \in \overline{\mathbf{Q}}_+ $ và $ z - y \in \overline{\mathbf{Q}}_+ $ kéo theo $ z - x \in \overline{\mathbf{Q}}_+ $. Thật vậy, hàm $ x + y $ liên tục trên $ \mathbf{R} \times \mathbf{R} $, và do đó theo (8) ta có $ \overline{\mathbf{Q}}_+ + \overline{\mathbf{Q}}_+ \subset \overline{\mathbf{Q}}_+ $ (Chương I, § 2, no. 1, Định lý 1). Tiếp theo, ta sẽ chứng minh rằng các quan hệ $ y - x \in \overline{\mathbf{Q}}_+ $ và $ x - y \in \overline{\mathbf{Q}}_+ $ kéo theo $ x = y $; điều này sẽ thiết lập rằng $ y - x \in \overline{\mathbf{Q}}_+ $ là một
+Ta bắt đầu bằng cách chứng minh rằng các quan hệ $y - x \in \overline{\mathbf{Q}}_+$ và $z - y \in \overline{\mathbf{Q}}_+$ kéo theo $z - x \in \overline{\mathbf{Q}}_+$. Thật vậy, hàm $x + y$ liên tục trên $\mathbf{R} \times \mathbf{R}$, và do đó theo (8) ta có $\overline{\mathbf{Q}}_+ + \overline{\mathbf{Q}}_+ \subset \overline{\mathbf{Q}}_+$ (Chương I, § 2, no. 1, Định lý 1). Tiếp theo, ta sẽ chứng minh rằng các quan hệ $y - x \in \overline{\mathbf{Q}}_+$ và $x - y \in \overline{\mathbf{Q}}_+$ kéo theo $x = y$; điều này sẽ thiết lập rằng $y - x \in \overline{\mathbf{Q}}_+$ là một
 
-Theo (10), ta có $ \overline{\mathbf{Q}}_+ \cup (-\overline{\mathbf{Q}}_+) = \mathbf{R} $, và do đó $ \mathbf{R} $ là *có thứ tự tuyến tính* bởi quan hệ thứ tự $ y - x \in \overline{\mathbf{Q}}_+ $.
+Theo (10), ta có $\overline{\mathbf{Q}}_+ \cup (-\overline{\mathbf{Q}}_+) = \mathbf{R}$, và do đó $\mathbf{R}$ là *có thứ tự tuyến tính* bởi quan hệ thứ tự $y - x \in \overline{\mathbf{Q}}_+$.
 
-Hơn nữa, vì các quan hệ $ y - x \in \overline{\mathbf{Q}}_+ $ và $ (y + z) - (x + z) \in \overline{\mathbf{Q}}_+ $ là tương đương, quan hệ thứ tự $ y - x \in \overline{\mathbf{Q}}_+ $ tương thích với cấu trúc nhóm cộng của $ \mathbf{R} $.
+Hơn nữa, vì các quan hệ $y - x \in \overline{\mathbf{Q}}_+$ và $(y + z) - (x + z) \in \overline{\mathbf{Q}}_+$ là tương đương, quan hệ thứ tự $y - x \in \overline{\mathbf{Q}}_+$ tương thích với cấu trúc nhóm cộng của $\mathbf{R}$.
 
-Cuối cùng, nếu $ x $ và $ y $ thuộc $ \mathbf{Q} $ thì các quan hệ $ y - x \in \overline{\mathbf{Q}}_+ $ và $ y - x \in \mathbf{Q}_+ $ là tương đương, và do đó quan hệ $ y - x \in \overline{\mathbf{Q}}_+ $ cảm sinh quan hệ $ x \leq y $ trên $ \mathbf{Q} $. Điều này hoàn tất chứng minh.
+Cuối cùng, nếu $x$ và $y$ thuộc $\mathbf{Q}$ thì các quan hệ $y - x \in \overline{\mathbf{Q}}_+$ và $y - x \in \mathbf{Q}_+$ là tương đương, và do đó quan hệ $y - x \in \overline{\mathbf{Q}}_+$ cảm sinh quan hệ $x \leq y$ trên $\mathbf{Q}$. Điều này hoàn tất chứng minh.
 
-Quan hệ $ y - x \in \overline{\mathbf{Q}}_+ $ lại được ký hiệu là $ x \leq y $. Tập hợp $ \overline{\mathbf{Q}}_+ $ là tập hợp tất cả các $ x \geq 0 $ trong $ \mathbf{R} $ và được ký hiệu là $ \mathbf{R}_+ $; nó là một *tập hợp đóng*. Tập hợp tất cả các $ x > 0 $ được ký hiệu là $ \mathbf{R}_+^* $; nó là phần bù của $ -\mathbf{R}_+ $ và do đó là *mở* trong $ \mathbf{R} $.
+Quan hệ $y - x \in \overline{\mathbf{Q}}_+$ lại được ký hiệu là $x \leq y$. Tập hợp $\overline{\mathbf{Q}}_+$ là tập hợp tất cả các $x \geq 0$ trong $\mathbf{R}$ và được ký hiệu là $\mathbf{R}_+$; nó là một *tập hợp đóng*. Tập hợp tất cả các $x > 0$ được ký hiệu là $\mathbf{R}_+^*$; nó là phần bù của $-\mathbf{R}_+$ và do đó là *mở* trong $\mathbf{R}$.
 
-### 4. CÁC TÍNH CHẤT CỦA CÁC KHOẢNG TRONG $ \mathbf{R} $
+### 4. CÁC TÍNH CHẤT CỦA CÁC KHOẢNG TRONG $\mathbf{R}$
 
 #### Mệnh đề 2 {#top-iv-s1-prop-2 .statement}
 
-*Mọi khoảng đóng (tương ứng, mở) trong $ \mathbf{R} $ đều là một tập hợp đóng (tương ứng, mở) trong $ \mathbf{R} $.*
+*Mọi khoảng đóng (tương ứng, mở) trong $\mathbf{R}$ đều là một tập hợp đóng (tương ứng, mở) trong $\mathbf{R}$.*
 
-Các tập hợp $ [a, \to[ = a + \mathbf{R}_+ $ và $ ]\leftarrow, a] = a - \mathbf{R}_+ $ thu được bằng phép tịnh tiến từ $ \mathbf{R}_+ $ và $ -\mathbf{R}_+ $ tương ứng và do đó là đóng (Chương III, § 1, no. 1); các tập hợp $ ]\leftarrow, a[ $ và $ ]a, \to[, $ là các phần bù của chúng, là mở; cuối cùng, khoảng đóng $ [a, b] $ (tương ứng, khoảng mở $ ]a, b[ $) là giao của $ [a, \to[ $ và $ ]\leftarrow, b] $ (tương ứng, của $ ]a, \to[ $ và $ ]\leftarrow, b[ $) và do đó là một tập hợp đóng (tương ứng, mở).
+Các tập hợp $[a, \to[ = a + \mathbf{R}_+$ và $]\leftarrow, a] = a - \mathbf{R}_+$ thu được bằng phép tịnh tiến từ $\mathbf{R}_+$ và $-\mathbf{R}_+$ tương ứng và do đó là đóng (Chương III, § 1, no. 1); các tập hợp $]\leftarrow, a[$ và $]a, \to[,$ là các phần bù của chúng, là mở; cuối cùng, khoảng đóng $[a, b]$ (tương ứng, khoảng mở $]a, b[$) là giao của $[a, \to[$ và $]\leftarrow, b]$ (tương ứng, của $]a, \to[$ và $]\leftarrow, b[$) và do đó là một tập hợp đóng (tương ứng, mở).
 
-Các khoảng đóng $ [-a, +a] $ ($ a > 0 $) trong $ \mathbf{R} $ do đó là các lân cận của 0. Ta hãy chứng minh rằng chúng tạo thành một *hệ cơ bản các lân cận* của 0 khi $ a $ chạy qua $ \mathbf{R}_+^* $. Để làm điều này, chỉ cần thiết lập mệnh đề sau:
+Các khoảng đóng $[-a, +a]$ ($a > 0$) trong $\mathbf{R}$ do đó là các lân cận của 0. Ta hãy chứng minh rằng chúng tạo thành một *hệ cơ bản các lân cận* của 0 khi $a$ chạy qua $\mathbf{R}_+^*$. Để làm điều này, chỉ cần thiết lập mệnh đề sau:
 
 #### Mệnh đề 3 {#top-iv-s1-prop-3 .statement}
 
-*Khi $ r $ chạy qua tập hợp các số hữu tỉ $ > 0 $, các khoảng $ s_r = [-r, +r] $ trong $ \mathbf{R} $ tạo thành một hệ cơ bản các lân cận của 0.*
+*Khi $r$ chạy qua tập hợp các số hữu tỉ $> 0$, các khoảng $s_r = [-r, +r]$ trong $\mathbf{R}$ tạo thành một hệ cơ bản các lân cận của 0.*
 
-Theo Mệnh đề 7 của Chương III, § 3, no. 4 ta thu được một hệ cơ sở các lân cận của 0 trong $ \mathbf{R} $ bằng cách lấy các *bao đóng* trong $ \mathbf{R} $ của các khoảng
+Theo Mệnh đề 7 của Chương III, § 3, no. 4 ta thu được một hệ cơ sở các lân cận của 0 trong $\mathbf{R}$ bằng cách lấy các *bao đóng* trong $\mathbf{R}$ của các khoảng
 
 S_r \cap \mathbf{Q} = [-r, +r] \textit{of} \mathbf{Q}. Chứng minh sẽ hoàn tất nếu ta chỉ ra rằng S_r là bao đóng của S_r \cap \mathbf{Q}. Bây giờ S_r là đóng trong \mathbf{R}, và do đó ta chỉ cần chứng minh rằng, nếu x là một số thực sao cho -r < x < r, thì x thuộc bao đóng của S_r \cap \mathbf{Q}. Khoảng ]-r, +r[ là một tập mở trong \mathbf{R} và vì vậy với mọi lân cận V đủ nhỏ của o trong \mathbf{R} ta có x + V \subset ]-r, +r[; nhưng vì \mathbf{Q} trù mật trong \mathbf{R}, tồn tại một số hữu tỉ r' \in x + V, sao cho -r < r' < r và do đó r' \in S_r \cap \mathbf{Q}.
 
@@ -216,7 +216,7 @@ là một khoảng mở chứa x, tồn tại hai điểm y, z của A sao cho x
 
 *Độ dài của một khoảng bị chặn với các đầu mút a và b (a \leq b) được định nghĩa là b - a.*
 
-Mọi khoảng bị chặn chứa nhiều hơn một điểm do đó có độ dài > 0. Nếu $ a \leq b $, bốn khoảng $[a, b], ]a, b[, [a, b[$ và $]a, b[$ đều có cùng độ dài. Một khoảng có các đầu mút $a + c$ và $b + c$ có cùng độ dài với một khoảng có các đầu mút $a$ và $b$; nói cách khác, *độ dài của một khoảng là bất biến đối với phép tịnh tiến*.
+Mọi khoảng bị chặn chứa nhiều hơn một điểm do đó có độ dài > 0. Nếu $a \leq b$, bốn khoảng $[a, b], ]a, b[, [a, b[$ và $]a, b[$ đều có cùng độ dài. Một khoảng có các đầu mút $a + c$ và $b + c$ có cùng độ dài với một khoảng có các đầu mút $a$ và $b$; nói cách khác, *độ dài của một khoảng là bất biến đối với phép tịnh tiến*.
 
 Nếu $a \leq c \leq d \leq b$ ta có $d - c \leq b - a$. Vì vậy nếu một khoảng bị chặn $I$ được chứa trong một khoảng bị chặn $I'$, độ dài của $I$ nhỏ hơn hoặc bằng độ dài của $I'$.
 

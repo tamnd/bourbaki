@@ -56,7 +56,7 @@ subsections:
       pdf_page: 116
 statements: 57
 exercises: 10
-content_sha256: 82e2642ebc887c71c07cc021225e2a9acaa92e529d1ec887863cc76c41cd1975
+content_sha256: 89349cf7107620b7e5bc04afe41fb8048d6909491c6c0cc0a7af48db2dfc246c
 ---
 
 ## § 1. Groupes de Lie
@@ -65,7 +65,7 @@ content_sha256: 82e2642ebc887c71c07cc021225e2a9acaa92e529d1ec887863cc76c41cd1975
 
 Soit G un ensemble. Une structure de groupe et une structure de K-variété analytique sur G sont dites compatibles si la condition suivante est vérifiée:
 
-(GL) L’application $ (g, h) \mapsto gh^{-1} $ de $ G \times G $ dans G est analytique.
+(GL) L’application $(g, h) \mapsto gh^{-1}$ de $G \times G$ dans G est analytique.
 
 #### Définition 1 {#lie-iii-s1-def-1 .statement}
 
@@ -104,15 +104,15 @@ $$
 
 On vérifie aussitôt que \theta_2(\theta_1(x, y)) = \theta_1(\theta_2(x, y)) = (x, y) pour x, y assez voisins de 0. D’autre part, \theta_1 et \theta_2 sont analytiques, donc strictement dérivables en (0, 0).
 
-Par suite (VAR, R, 1.2.2) il existe un voisinage W' de 0 dans V' et des constantes $ a > 0,\ b > 0 $ telles que
+Par suite (VAR, R, 1.2.2) il existe un voisinage W' de 0 dans V' et des constantes $a > 0,\ b > 0$ telles que
 $$
 a (\| x_1 - x_2 \| + \| \varphi(\psi(x_1)\psi(y_1)^{-1}) - \varphi(\psi(x_2)\psi(y_2)^{-1}) \|)
 \leq \| x_1 - x_2 \| + \| y_1 - y_2 \|
 \leq b (\| x_1 - x_2 \| + \| \varphi(\psi(x_1)\psi(y_1)^{-1}) - \varphi(\psi(x_2)\psi(y_2)^{-1}) \|)
 $$
-quels que soient $ x_1, x_2, y_1, y_2 $ dans W'. Faisant $ x_1 = x_2 = y_2 $, il vient
+quels que soient $x_1, x_2, y_1, y_2$ dans W'. Faisant $x_1 = x_2 = y_2$, il vient
 $$(2)\quad a \| \varphi(\psi(x_1)\psi(y_1)^{-1}) \| \leq \| x_1 - y_1 \| \leq b \| \varphi(\psi(x_1)\psi(y_1)^{-1}) \|.$$
-Pour $ \delta > 0 $, soit $ N_\delta $ l’ensemble des couples $ (x, y) \in W' \times W' $ tels que $ \| x - y \| \leq \delta $. Les $ N_\delta $ forment un système fondamental d’entourages dans $ W' $. Posons $ W = \psi(W') $. Soit $ M_\delta $ l’ensemble des couples $ (u, v) \in W \times W $ tels que $ \| \varphi(uv^{-1}) \| \leq \delta $. Les $ M_\delta $ forment un système fondamental d’entourages dans W pour la structure uniforme droite. Or la relation (2) prouve que
+Pour $\delta > 0$, soit $N_\delta$ l’ensemble des couples $(x, y) \in W' \times W'$ tels que $\| x - y \| \leq \delta$. Les $N_\delta$ forment un système fondamental d’entourages dans $W'$. Posons $W = \psi(W')$. Soit $M_\delta$ l’ensemble des couples $(u, v) \in W \times W$ tels que $\| \varphi(uv^{-1}) \| \leq \delta$. Les $M_\delta$ forment un système fondamental d’entourages dans W pour la structure uniforme droite. Or la relation (2) prouve que
 $$
 N_\delta \subset (\varphi \times \varphi)(M_{a^{-1}\delta}), \quad (\varphi \times \varphi)(M_\delta) \subset N_{b\delta}
 $$
@@ -121,7 +121,7 @@ donc W possède la propriété du lemme.
 #### Proposition 1 {#lie-iii-s1-prop-1 .statement}
 
 *Un groupe de Lie est un groupe topologique métrisable et complet.*
-Puisque e admet un voisinage ouvert homéomorphe à une boule ouverte d’un espace normé, e admet un système fondamental dénombrable de voisinages dont l’intersection est $ \{e\} $. Donc G est métrisable (TG, III, § 1, cor. de la prop. 2, et IX, § 3, prop. 1). D’après le lemme 1, il existe un voisinage de e qui est complet pour la structure uniforme droite, donc G est complet (TG, III, § 3, prop. 4).
+Puisque e admet un voisinage ouvert homéomorphe à une boule ouverte d’un espace normé, e admet un système fondamental dénombrable de voisinages dont l’intersection est $\{e\}$. Donc G est métrisable (TG, III, § 1, cor. de la prop. 2, et IX, § 3, prop. 1). D’après le lemme 1, il existe un voisinage de e qui est complet pour la structure uniforme droite, donc G est complet (TG, III, § 3, prop. 4).
 
 #### Proposition 2 {#lie-iii-s1-prop-2 .statement}
 
@@ -130,7 +130,7 @@ Puisque e admet un voisinage ouvert homéomorphe à une boule ouverte d’un esp
 (ii) *Si K est distinct de \mathbf{R} et \mathbf{C}, G est éparpillé* (TG, IX, § 6, déf. 5).
 (iii) *Supposons K localement compact. Pour que G soit localement compact, il faut et il suffit que G soit de dimension finie.*
 (iv) *Si G est engendré par un sous-espace dont la topologie admet une base dénombrable, alors la topologie de G admet une base dénombrable.*
-Soit U un voisinage de e. Il existe un voisinage ouvert $ U_1 $ de e contenu dans U et homéomorphe à une boule ouverte d’un espace normé E sur K. Si K = \mathbf{R} ou \mathbf{C}, $ U_1 $ est connexe, ce qui prouve (i). Supposons K ultramétrique. Il existe un voisinage $ U_2 $ de e fermé dans G et tel que $ U_2 \subset U_1 $. Puis il existe un voisinage $ U_3 $ de e tel que $ U_3 \subset U_2 $ et tel que $ U_3 $ soit ouvert et fermé relativement à $ U_1 $. Alors $ U_3 $ est fermé relativement à $ U_2 $, donc à G, et ouvert relativement à $ U_1 $, donc à G. Ceci prouve (ii). Pour que G soit localement compact, il faut et il suffit que E soit localement compact; si K est localement compact, cela revient à dire que E est de dimension finie (EVT, I, § 2, th. 3), d’où (iii). Supposons G engendré par un sous-ensemble V, et posons $ W = V \cup V^{-1} $; on a $ G = W \cup W^2 \cup W^3 \cup \cdots $; s’il existe une suite dense dans V, on voit qu’il existe une suite dense dans G, et, comme G est métrisable (prop. 1), la topologie de G admet une base dénombrable.
+Soit U un voisinage de e. Il existe un voisinage ouvert $U_1$ de e contenu dans U et homéomorphe à une boule ouverte d’un espace normé E sur K. Si K = \mathbf{R} ou \mathbf{C}, $U_1$ est connexe, ce qui prouve (i). Supposons K ultramétrique. Il existe un voisinage $U_2$ de e fermé dans G et tel que $U_2 \subset U_1$. Puis il existe un voisinage $U_3$ de e tel que $U_3 \subset U_2$ et tel que $U_3$ soit ouvert et fermé relativement à $U_1$. Alors $U_3$ est fermé relativement à $U_2$, donc à G, et ouvert relativement à $U_1$, donc à G. Ceci prouve (ii). Pour que G soit localement compact, il faut et il suffit que E soit localement compact; si K est localement compact, cela revient à dire que E est de dimension finie (EVT, I, § 2, th. 3), d’où (iii). Supposons G engendré par un sous-ensemble V, et posons $W = V \cup V^{-1}$; on a $G = W \cup W^2 \cup W^3 \cup \cdots$; s’il existe une suite dense dans V, on voit qu’il existe une suite dense dans G, et, comme G est métrisable (prop. 1), la topologie de G admet une base dénombrable.
 
 #### Corollaire {#lie-iii-s1-n1-cor-1 .statement}
 
@@ -140,38 +140,38 @@ Si K = R ou C, et si G est connexe de dimension finie, alors G est localement co
 
 Soient X une variété de classe Cr, e un point de X, U et V des voisinages ouverts de e, et m une application de classe Cr de U × U dans X, vérifiant les conditions suivantes :
 
-a) $ m(e, x) = m(x, e) = x $ pour tout $ x \in U $;
-b) On a $ V \subset V, m(V \times V) \subset U $ et $ m(m(x, y), z) = m(x, m(y, z)) $ quels que soient $ x, y, z $ dans V.
+a) $m(e, x) = m(x, e) = x$ pour tout $x \in U$;
+b) On a $V \subset V, m(V \times V) \subset U$ et $m(m(x, y), z) = m(x, m(y, z))$ quels que soient $x, y, z$ dans V.
 
-Alors il existe un voisinage ouvert W de e dans V et un automorphisme $ \theta $ de la variété W, tels que $ \theta(e) = e, \theta(\theta(x)) = x $ et $ m(x, \theta(x)) = m(\theta(x), x) = e $ pour tout $ x \in W $.
+Alors il existe un voisinage ouvert W de e dans V et un automorphisme $\theta$ de la variété W, tels que $\theta(e) = e, \theta(\theta(x)) = x$ et $m(x, \theta(x)) = m(\theta(x), x) = e$ pour tout $x \in W$.
 
-On a $ m(e, y) = y $ pour tout $ y \in U $, donc, d’après le théorème des fonctions implicites, il existe un voisinage ouvert $ W_1 $ de e dans V et une application $ \theta_1 $ de classe Cr de $ W_1 $ dans V tels que $ \theta_1(e) = e, m(x, \theta_1(x)) = e $ pour tout $ x \in W_1 $. De même, il existe un voisinage ouvert $ W_2 $ de e dans V et une application $ \theta_2 $ de classe Cr de $ W_2 $ dans V tels que $ \theta_2(e) = e, m(\theta_2(x), x) = e $ pour tout $ x \in W_2 $. Pour $ x \in W_1 \cap W_2 $, on a
+On a $m(e, y) = y$ pour tout $y \in U$, donc, d’après le théorème des fonctions implicites, il existe un voisinage ouvert $W_1$ de e dans V et une application $\theta_1$ de classe Cr de $W_1$ dans V tels que $\theta_1(e) = e, m(x, \theta_1(x)) = e$ pour tout $x \in W_1$. De même, il existe un voisinage ouvert $W_2$ de e dans V et une application $\theta_2$ de classe Cr de $W_2$ dans V tels que $\theta_2(e) = e, m(\theta_2(x), x) = e$ pour tout $x \in W_2$. Pour $x \in W_1 \cap W_2$, on a
 $$
 \begin{align*}
 \theta_2(x) &= m(\theta_2(x), e) = m(\theta_2(x), m(x, \theta_1(x))) \\
 &= m(m(\theta_2(x), x), \theta_1(x)) = m(e, \theta_1(x)) = \theta_1(x).
 \end{align*}
 $$
-Soit $ \theta(x) $ la valeur commune de $ \theta_1(x) $ et $ \theta_2(x) $ pour $ x \in W_1 \cap W_2 $. Soit W l’ensemble des $ x \in W_1 \cap W_2 $ tels que $ \theta(x) \in W_1 \cap W_2 $. L’ensemble W est ouvert. Pour $ x \in W $, on a
+Soit $\theta(x)$ la valeur commune de $\theta_1(x)$ et $\theta_2(x)$ pour $x \in W_1 \cap W_2$. Soit W l’ensemble des $x \in W_1 \cap W_2$ tels que $\theta(x) \in W_1 \cap W_2$. L’ensemble W est ouvert. Pour $x \in W$, on a
 $$
 \theta(\theta(x)) = m(m(x, \theta(x)), \theta(\theta(x))) = m(x, m(\theta(x), \theta(\theta(x)))) = m(x, e) = x,
 $$
-donc $ \theta(x) \in W $. On voit que $ \theta | W $ définit un automorphisme de la variété W.
+donc $\theta(x) \in W$. On voit que $\theta | W$ définit un automorphisme de la variété W.
 
 #### Proposition 3 {#lie-iii-s1-prop-3 .statement}
 
-Soient X une variété analytique, et m une loi de composition associative analytique sur X, admettant un élément neutre. L’ensemble G des éléments inversibles de X est ouvert dans X, et G est un groupe de Lie pour $ m | (G \times G) $ et pour la structure de variété induite par celle de X.
+Soient X une variété analytique, et m une loi de composition associative analytique sur X, admettant un élément neutre. L’ensemble G des éléments inversibles de X est ouvert dans X, et G est un groupe de Lie pour $m | (G \times G)$ et pour la structure de variété induite par celle de X.
 
-D’après le lemme 2, G est un voisinage de l’élément neutre. Pour tout $ g \in G $, l’application $ x \mapsto m(g, x) $ est un automorphisme de la variété X. Donc l’image de G par cette application est un voisinage de g, évidemment contenu dans G. Par suite, G est ouvert dans X. Il est clair que les conditions (GL₁) et (GL₂) sont vérifiées. La condition (GL₃) est vérifiée d’après le lemme 2.
+D’après le lemme 2, G est un voisinage de l’élément neutre. Pour tout $g \in G$, l’application $x \mapsto m(g, x)$ est un automorphisme de la variété X. Donc l’image de G par cette application est un voisinage de g, évidemment contenu dans G. Par suite, G est ouvert dans X. Il est clair que les conditions (GL₁) et (GL₂) sont vérifiées. La condition (GL₃) est vérifiée d’après le lemme 2.
 
 Exemples de groupes de Lie.
 
-1. Soit E un espace normable complet sur K. L’application $ (x, y) \mapsto x - y $ de $ E \times E $ dans E est linéaire continue, donc analytique. Donc E, muni de ses structures de groupe additif et de variété analytique, est un groupe de Lie.
+1. Soit E un espace normable complet sur K. L’application $(x, y) \mapsto x - y$ de $E \times E$ dans E est linéaire continue, donc analytique. Donc E, muni de ses structures de groupe additif et de variété analytique, est un groupe de Lie.
 En particulier, K est un groupe de Lie.
 
-Par exemple, soit E un espace normable complet sur K, et prenons $ A = \mathcal{L}(E) $ (TG, IX, § 3, prop. 5). Alors $ A^* $ est le groupe $ \mathbf{GL}(E) $ des automorphismes de E. *Ce groupe est donc muni canoniquement d’une structure de groupe de Lie sur K.* Plus particulièrement, $ \mathbf{GL}(n, K) $, muni de la structure de variété induite par celle de $ \mathbf{M}_n(K) $, est un groupe de Lie. Pour $ n = 1 $, on voit que le groupe multiplicatif $ K^* $ est un groupe de Lie pour la structure de variété induite par celle de K.
+Par exemple, soit E un espace normable complet sur K, et prenons $A = \mathcal{L}(E)$ (TG, IX, § 3, prop. 5). Alors $A^*$ est le groupe $\mathbf{GL}(E)$ des automorphismes de E. *Ce groupe est donc muni canoniquement d’une structure de groupe de Lie sur K.* Plus particulièrement, $\mathbf{GL}(n, K)$, muni de la structure de variété induite par celle de $\mathbf{M}_n(K)$, est un groupe de Lie. Pour $n = 1$, on voit que le groupe multiplicatif $K^*$ est un groupe de Lie pour la structure de variété induite par celle de K.
 
-3. Soit G un groupe de Lie sur K. Soient $ K' = \mathbf{R} $ ou $ \mathbf{C} $ ou un corps ultramétrique complet non discret, et $ \sigma $ un isomorphisme du corps valué $ K' $ sur un sous-corps valué de K. Alors le groupe G, muni de la structure de $ K'-variété $ obtenue par restriction des scalaires, est un groupe de Lie sur $ K' $, qui est dit *déduit du groupe de Lie G par restriction des scalaires* (de K à $ K' $ au moyen de $ \sigma $). Par exemple, tout groupe de Lie complexe est canoniquement muni d’une structure de groupe de Lie réel. Par exemple encore, à tout groupe de Lie complexe G est associé un groupe de Lie complexe appelé le *conjugué* de G, déduit de G au moyen de l’automorphisme $ z \mapsto \bar{z} $ de $ \mathbf{C} $.
+3. Soit G un groupe de Lie sur K. Soient $K' = \mathbf{R}$ ou $\mathbf{C}$ ou un corps ultramétrique complet non discret, et $\sigma$ un isomorphisme du corps valué $K'$ sur un sous-corps valué de K. Alors le groupe G, muni de la structure de $K'-variété$ obtenue par restriction des scalaires, est un groupe de Lie sur $K'$, qui est dit *déduit du groupe de Lie G par restriction des scalaires* (de K à $K'$ au moyen de $\sigma$). Par exemple, tout groupe de Lie complexe est canoniquement muni d’une structure de groupe de Lie réel. Par exemple encore, à tout groupe de Lie complexe G est associé un groupe de Lie complexe appelé le *conjugué* de G, déduit de G au moyen de l’automorphisme $z \mapsto \bar{z}$ de $\mathbf{C}$.
 
 ### 2. Morphismes de groupes de Lie
 
@@ -179,19 +179,19 @@ Par exemple, soit E un espace normable complet sur K, et prenons $ A = \mathcal{
 
 *Soient G et H des groupes de Lie. On appelle morphisme de groupes de Lie de G dans H (ou simplement morphisme de G dans H si aucune confusion n’est à craindre) une application de G dans H qui est un homomorphisme de groupes et qui est analytique. Le groupe des automorphismes de G se note Aut(G).*
 
-L’application identique de G est un morphisme. Le composé de deux morphismes est un morphisme. Si $ f : G \to H $ et $ f' : H \to G $ sont deux morphismes réciproques, $ f $ et $ f' $ sont des isomorphismes de groupes de Lie.
+L’application identique de G est un morphisme. Le composé de deux morphismes est un morphisme. Si $f : G \to H$ et $f' : H \to G$ sont deux morphismes réciproques, $f$ et $f'$ sont des isomorphismes de groupes de Lie.
 
 #### Exemple 1 {#lie-iii-s1-n2-exa-1 .statement}
 
-Soit G un groupe de Lie. Pour tout $ x \in G $, Int$(x)$ est un automorphisme du groupe de Lie G.
+Soit G un groupe de Lie. Pour tout $x \in G$, Int$(x)$ est un automorphisme du groupe de Lie G.
 
 #### Exemple 2 {#lie-iii-s1-n2-exa-2 .statement}
 
-Soit G un groupe de Lie. On note $ G^\vee $ le groupe opposé à G, muni de la même structure de variété que G. Il est immédiat que $ G^\vee $ est un groupe de Lie (dit groupe de Lie *opposé* à G), et que l’application $ g \mapsto g^{-1} $ est un isomorphisme du groupe de Lie G sur le groupe de Lie $ G^\vee $.
+Soit G un groupe de Lie. On note $G^\vee$ le groupe opposé à G, muni de la même structure de variété que G. Il est immédiat que $G^\vee$ est un groupe de Lie (dit groupe de Lie *opposé* à G), et que l’application $g \mapsto g^{-1}$ est un isomorphisme du groupe de Lie G sur le groupe de Lie $G^\vee$.
 
 #### Exemple 3 {#lie-iii-s1-n2-exa-3 .statement}
 
-Soient G un groupe de Lie, E un espace normable complet. On appelle *représentation linéaire analytique* de G dans E (ou simplement représentation linéaire de G dans E si aucune confusion n’est à craindre) un morphisme du groupe de Lie G dans le groupe de Lie $ \mathbf{GL}(E) $, autrement dit une application analytique $ \pi $ de G dans $ \mathbf{GL}(E) $ telle que $ \pi(gg') = \pi(g)\pi(g') $ pour $ g, g' $ dans G. Supposons que E admette une base finie $(e_1, e_2, \ldots, e_n)$ sur $K$; soit $(e_1^*, e_2^*, \ldots, e_n^*)$ la base duale; soit $\rho$ un homomorphisme du groupe $G$ dans le groupe $\mathbf{GL}(E)$; alors les conditions suivantes sont équivalentes:
+Soient G un groupe de Lie, E un espace normable complet. On appelle *représentation linéaire analytique* de G dans E (ou simplement représentation linéaire de G dans E si aucune confusion n’est à craindre) un morphisme du groupe de Lie G dans le groupe de Lie $\mathbf{GL}(E)$, autrement dit une application analytique $\pi$ de G dans $\mathbf{GL}(E)$ telle que $\pi(gg') = \pi(g)\pi(g')$ pour $g, g'$ dans G. Supposons que E admette une base finie $(e_1, e_2, \ldots, e_n)$ sur $K$; soit $(e_1^*, e_2^*, \ldots, e_n^*)$ la base duale; soit $\rho$ un homomorphisme du groupe $G$ dans le groupe $\mathbf{GL}(E)$; alors les conditions suivantes sont équivalentes:
 
 (i) $\rho$ est une représentation linéaire analytique;
 (ii) quels que soient $x \in E$ et $x' \in E'$, la fonction $g \mapsto \langle \rho(g)x, x' \rangle$ sur $G$ est analytique;
@@ -250,7 +250,7 @@ Si on remplace « sous-variété » par « quasi-sous-variété » dans la déf.
 
 Soient I un ensemble fini, (L_i)_{i \in I} une famille de groupes de Lie. Les structures de groupe et de variété sur L = \prod_{i \in I} L_i sont compatibles, et L est ainsi muni d’une structure de groupe de Lie. On dit que L est le groupe de Lie produit de la famille de groupes de Lie (L_i)_{i \in I}.
 
-Soient $ L $ et $ M $ des groupes de Lie, $ \sigma $ un homomorphisme de $ L $ dans le groupe des automorphismes du groupe $ M $. Soit $ S $ le produit semi-direct externe de $ L $ par $ M $ relatif à $ \sigma $ (A, I, p. 64, déf. 2).
+Soient $L$ et $M$ des groupes de Lie, $\sigma$ un homomorphisme de $L$ dans le groupe des automorphismes du groupe $M$. Soit $S$ le produit semi-direct externe de $L$ par $M$ relatif à $\sigma$ (A, I, p. 64, déf. 2).
 
 #### Proposition 7 {#lie-iii-s1-prop-7 .statement}
 
@@ -275,19 +275,19 @@ Soient $E$ un espace normable, $G = \mathbf{GL}(E)$, $T$ le groupe des translati
 
 #### Proposition 8 {#lie-iii-s1-prop-8 .statement}
 
-Soient G et H des groupes de Lie, $ p : G \to H $ et $ s : H \to G $ des morphismes de groupes de Lie tels que $ p \circ s = \mathrm{id}_H $, et $ N = \mathrm{Ker}\, p $. Alors N est un sous-groupe de Lie de G, s est un isomorphisme de H sur un sous-groupe de Lie de G, et le groupe de Lie G est produit semi-direct interne de $ s(H) $ par N.
+Soient G et H des groupes de Lie, $p : G \to H$ et $s : H \to G$ des morphismes de groupes de Lie tels que $p \circ s = \mathrm{id}_H$, et $N = \mathrm{Ker}\, p$. Alors N est un sous-groupe de Lie de G, s est un isomorphisme de H sur un sous-groupe de Lie de G, et le groupe de Lie G est produit semi-direct interne de $s(H)$ par N.
 
-On a $ T_e(p) \circ T_e(s) = \mathrm{id}_{T_e(H)} $, donc $ p $ (resp. $ s $) est une submersion (resp. une immersion). D’après VAR, R, 5.10.5, N est un sous-groupe de Lie de G. D’autre part, s est un homéomorphisme de H sur $ s(H) $, donc s est un isomorphisme de H sur un sous-groupe de Lie de G (VAR, R, 5.8.3). Enfin, pour tout $ g \in G $, on a $ g = (s \circ p)(g) . n $ avec un $ n \in N $; comme $ s \circ p $ est analytique, le groupe de Lie G est produit semi-direct de $ s(H) $ par N.
+On a $T_e(p) \circ T_e(s) = \mathrm{id}_{T_e(H)}$, donc $p$ (resp. $s$) est une submersion (resp. une immersion). D’après VAR, R, 5.10.5, N est un sous-groupe de Lie de G. D’autre part, s est un homéomorphisme de H sur $s(H)$, donc s est un isomorphisme de H sur un sous-groupe de Lie de G (VAR, R, 5.8.3). Enfin, pour tout $g \in G$, on a $g = (s \circ p)(g) . n$ avec un $n \in N$; comme $s \circ p$ est analytique, le groupe de Lie G est produit semi-direct de $s(H)$ par N.
 
 ### 5. Quotient d’une variété par un groupe de Lie
 
-Soient G un groupe de Lie, X une variété de classe $ C^r $, et $ (g, x) \mapsto gx $ une loi d’opération à gauche (A, I, p. 49) de classe $ C^r $ de G dans X. Pour tout $ g \in G $, notons $ \tau(g) $ l’automorphisme $ x \mapsto gx $ de X défini par g. Pour tout $ x \in X $, notons $ \rho(x) $ l’application orbitale $ g \mapsto gx $ de G dans X définie par x. On a
+Soient G un groupe de Lie, X une variété de classe $C^r$, et $(g, x) \mapsto gx$ une loi d’opération à gauche (A, I, p. 49) de classe $C^r$ de G dans X. Pour tout $g \in G$, notons $\tau(g)$ l’automorphisme $x \mapsto gx$ de X défini par g. Pour tout $x \in X$, notons $\rho(x)$ l’application orbitale $g \mapsto gx$ de G dans X définie par x. On a
 
 $$
 \rho(x) = \rho(gx) \circ \delta(g) \qquad \rho(x) = \tau(g) \circ \rho(x) \circ \gamma(g^{-1})
 $$
 
-quels que soient $ g \in G $ et $ x \in X $. Donc
+quels que soient $g \in G$ et $x \in X$. Donc
 
 $$
 T_g(\rho(x)) = T_e(\rho(gx)) \circ T_g(\delta(g))
@@ -298,21 +298,21 @@ $$
 
 #### Proposition 9 {#lie-iii-s1-prop-9 .statement}
 
-Soient $ x \in X $ et $ g_0 \in G $.
+Soient $x \in X$ et $g_0 \in G$.
 
-(i) Si $ \rho(x) $ est une immersion (resp. une submersion, une subimmersion) en $ g_0 $, alors, pour tout $ g \in G $, $ \rho(gx) $ est une immersion (resp. une submersion, une subimmersion).
+(i) Si $\rho(x)$ est une immersion (resp. une submersion, une subimmersion) en $g_0$, alors, pour tout $g \in G$, $\rho(gx)$ est une immersion (resp. une submersion, une subimmersion).
 
-(ii) Si $ \rho(x) $ est de rang k en $ g_0 $, alors, pour tout $ g \in G $, $ \rho(gx) $ est de rang constant égal à k.
+(ii) Si $\rho(x)$ est de rang k en $g_0$, alors, pour tout $g \in G$, $\rho(gx)$ est de rang constant égal à k.
 
-Cela résulte aussitôt des formules (4) et (5) puisque $ T_g(\delta(g)) $, $ T_x(\tau(g)) $, $ T_g(\gamma(g^{-1})) $ sont des isomorphismes.
+Cela résulte aussitôt des formules (4) et (5) puisque $T_g(\delta(g))$, $T_x(\tau(g))$, $T_g(\gamma(g^{-1}))$ sont des isomorphismes.
 
 #### Corollaire {#lie-iii-s1-n5-cor-1 .statement}
 
-Soit $ x \in X $. Si K est de caractéristique 0 et X de dimension finie, $ \rho(x) $ est une subimmersion. Si de plus $ \rho(x) $ est injective, $ \rho(x) $ est une immersion.
+Soit $x \in X$. Si K est de caractéristique 0 et X de dimension finie, $\rho(x)$ est une subimmersion. Si de plus $\rho(x)$ est injective, $\rho(x)$ est une immersion.
 
 Cela résulte de la prop. 9 et de VAR, R, 5.10.6.
 
-Observons que, si $ \eta $ désigne l’application $ (g, x) \mapsto gx $ de $ G \times X $ dans X, on a, pour $ g \in G $, $ x \in X $, $ u \in T_g(G) $, $ v \in T_x(X) $,
+Observons que, si $\eta$ désigne l’application $(g, x) \mapsto gx$ de $G \times X$ dans X, on a, pour $g \in G$, $x \in X$, $u \in T_g(G)$, $v \in T_x(X)$,
 
 $$
 T_{(g,x)}(\eta)(u, v) = T_{(g,x)}(\eta)(u, 0) + T_{(g,x)}(\eta)(0, v)
@@ -372,13 +372,13 @@ Il est commutatif, π ∘ m est de classe C⁰, et π × 1 est une submersion su
 
 Soient G un groupe de Lie, X une variété de classe C⁰, et (g, x) ↦ xg une loi d’opération à droite de classe C⁰ de G dans X. Posons τ(g)x = ρ(x)g = xg pour g ∈ G, x ∈ X. On a cette fois
 
-(3') $ \rho(x) = \rho(xg) \circ \gamma(g^{-1}), \quad \rho(x) = \tau(g) \circ \rho(x) \circ \delta(g), $
+(3') $\rho(x) = \rho(xg) \circ \gamma(g^{-1}), \quad \rho(x) = \tau(g) \circ \rho(x) \circ \delta(g),$
 
 donc
 
-(4') $ T_g(\rho(x)) = T_e(\rho(xg)) \circ T_g(\gamma(g^{-1})) $
+(4') $T_g(\rho(x)) = T_e(\rho(xg)) \circ T_g(\gamma(g^{-1}))$
 
-(5') $ T_g(\rho(x)) = T_x(\tau(g)) \circ T_e(\rho(x)) \circ T_g(\delta(g)). $
+(5') $T_g(\rho(x)) = T_x(\tau(g)) \circ T_e(\rho(x)) \circ T_g(\delta(g)).$
 
 D’autre part, si η désigne l’application (g, x) ↦ xg de G × X dans X, la formule (6) reste valable. La prop. 9, son corollaire, et la prop. 10 restent également valables (à condition de remplacer, dans cette dernière, « fibration principale à gauche » par « fibration principale à droite »).
 
@@ -454,29 +454,29 @@ $$T_x(\pi) \circ T_e(\rho(x)) = T_e(\rho(y)) \circ T_e(\sigma).$$
 
 Soit u ∈ T_e(G/H) tel que T_e(ρ(y))u = 0. Il existe v ∈ T_e(G) tel que u = T_e(σ)v. Alors (T_x(π)(T_e(ρ(x))v)) = 0, donc T_e(ρ(x))v est tangent à Hx (VAR, R, 5.10.5) et par suite de la forme T_e(ρ(x)|H)v' pour un v' ∈ T_e(H). Comme T_e(ρ(x)) est injective, on en déduit que v = v', d’où v ∈ T_e(H) et par suite u = 0. Ainsi, T_e(ρ(y)) est injective. L’image de T_e(ρ(y)) est égale à celle de T_x(π) ∘ T_e(ρ(x));
 
-or l’image de $ T_e(\rho(x)) $ admet un supplémentaire topologique dans $ T_x(X) $, et contient le noyau de $ T_x(\pi) $. On voit donc que $ \rho(y) $ est une immersion, ce qui achève de prouver (ii).
+or l’image de $T_e(\rho(x))$ admet un supplémentaire topologique dans $T_x(X)$, et contient le noyau de $T_x(\pi)$. On voit donc que $\rho(y)$ est une immersion, ce qui achève de prouver (ii).
 
 L’assertion (iii) résulte de ce qui précède, et de VAR, R, 5.9.7.
 
 #### Corollaire {#lie-iii-s1-n6-cor-1 .statement}
 
-Soient G un groupe de Lie, H et L des sous-groupes de Lie distingués de G, avec $ L \subset H $. Alors $ H/L $ est un sous-groupe de Lie distingué de $ G/L $, et la bijection canonique de $ G/H $ sur $ (G/L)/(H/L) $ est un isomorphisme de groupes de Lie.
+Soient G un groupe de Lie, H et L des sous-groupes de Lie distingués de G, avec $L \subset H$. Alors $H/L$ est un sous-groupe de Lie distingué de $G/L$, et la bijection canonique de $G/H$ sur $(G/L)/(H/L)$ est un isomorphisme de groupes de Lie.
 
 ### 7. Orbites
 
 #### Proposition 14 {#lie-iii-s1-prop-14 .statement}
 
-Soient G un groupe de Lie, X une variété analytique, et $ (g, x) \mapsto gx $ une loi d’opération à gauche analytique de G dans X. Soit $ x \in X $. Supposons que l’application orbitale correspondante $ \rho(x) $ soit une subimmersion (ce qui est toujours le cas si K est de caractéristique 0 et X de dimension finie (cor. de la prop. 9)). Soit $ G_x $ le stabilisateur de x dans G.
+Soient G un groupe de Lie, X une variété analytique, et $(g, x) \mapsto gx$ une loi d’opération à gauche analytique de G dans X. Soit $x \in X$. Supposons que l’application orbitale correspondante $\rho(x)$ soit une subimmersion (ce qui est toujours le cas si K est de caractéristique 0 et X de dimension finie (cor. de la prop. 9)). Soit $G_x$ le stabilisateur de x dans G.
 
-(i) $ G_x $ est un sous-groupe de Lie, et $ T_e(G_x) = \mathrm{Ker}\ T_e(\rho(x)) $.
+(i) $G_x$ est un sous-groupe de Lie, et $T_e(G_x) = \mathrm{Ker}\ T_e(\rho(x))$.
 
-(ii) L’application canonique $ i_x $ de l’espace homogène $ G/G_x $ dans X est une immersion d’image $ Gx $.
+(ii) L’application canonique $i_x$ de l’espace homogène $G/G_x$ dans X est une immersion d’image $Gx$.
 
-(iii) Si de plus l’orbite $ Gx $ est localement fermée et si la topologie de G admet une base dénombrable, alors $ Gx $ est une sous-variété de X, $ i_x $ est un isomorphisme de la variété $ G/G_x $ sur la variété $ Gx $, et $ T_x(Gx) = \mathrm{Im}\ T_e(\rho(x)) $.
+(iii) Si de plus l’orbite $Gx$ est localement fermée et si la topologie de G admet une base dénombrable, alors $Gx$ est une sous-variété de X, $i_x$ est un isomorphisme de la variété $G/G_x$ sur la variété $Gx$, et $T_x(Gx) = \mathrm{Im}\ T_e(\rho(x))$.
 
-L’image réciproque de x par $ \rho(x) $ est $ G_x $. Comme $ \rho(x) $ est une subimmersion, $ G_x $ est une sous-variété, et, pour tout $ g \in G $, l’espace tangent J à $ gG_x = \rho(x)^{-1}(gx) $ en $ g $ est $ \mathrm{Ker}\ T_g(\rho(x)) $ (VAR, R, 5.10.5), d’où (i). Soit $ \pi : G \to G/G_x $ l’application canonique. On a $ i_x \circ \pi = \rho(x) $. Comme $ G/G_x $ est variété quotient de G, cette égalité prouve que $ i_x $ est analytique. De plus, les noyaux de $ T_g(\rho(x)) $ et de $ T_g(\pi) $ sont tous deux égaux à J. Donc $ T_{\pi(g)}(i_x) $ est injective. L’image de $ T_{\pi(g)}(i_x) $ est égale à l’image de $ T_g(\rho(x)) $, donc admet un supplémentaire topologique. Ceci prouve (ii).
+L’image réciproque de x par $\rho(x)$ est $G_x$. Comme $\rho(x)$ est une subimmersion, $G_x$ est une sous-variété, et, pour tout $g \in G$, l’espace tangent J à $gG_x = \rho(x)^{-1}(gx)$ en $g$ est $\mathrm{Ker}\ T_g(\rho(x))$ (VAR, R, 5.10.5), d’où (i). Soit $\pi : G \to G/G_x$ l’application canonique. On a $i_x \circ \pi = \rho(x)$. Comme $G/G_x$ est variété quotient de G, cette égalité prouve que $i_x$ est analytique. De plus, les noyaux de $T_g(\rho(x))$ et de $T_g(\pi)$ sont tous deux égaux à J. Donc $T_{\pi(g)}(i_x)$ est injective. L’image de $T_{\pi(g)}(i_x)$ est égale à l’image de $T_g(\rho(x))$, donc admet un supplémentaire topologique. Ceci prouve (ii).
 
-Supposons $ Gx $ localement fermée. Tout point de $ Gx $ possède alors un voisinage dans $ Gx $ qui est homéomorphe à un sous-espace fermé d’un espace métrique complet, donc qui est un espace de Baire. Donc $ Gx $ est un espace de Baire (TG, IX, § 5, prop. 4). Si G est à base dénombrable, $ i_x $ est donc un homéomorphisme de $ G/G_x $ sur $ Gx $ (TG, IX, § 5). Alors, d’après (ii) et VAR, R, 5.8.3, $ i_x $ est un isomorphisme de la variété $ G/G_x $ sur la variété $ Gx $, et
+Supposons $Gx$ localement fermée. Tout point de $Gx$ possède alors un voisinage dans $Gx$ qui est homéomorphe à un sous-espace fermé d’un espace métrique complet, donc qui est un espace de Baire. Donc $Gx$ est un espace de Baire (TG, IX, § 5, prop. 4). Si G est à base dénombrable, $i_x$ est donc un homéomorphisme de $G/G_x$ sur $Gx$ (TG, IX, § 5). Alors, d’après (ii) et VAR, R, 5.8.3, $i_x$ est un isomorphisme de la variété $G/G_x$ sur la variété $Gx$, et
 
 $$
 T_x(Gx) = \mathrm{Im}\ T_{\pi(e)}(i_x) = \mathrm{Im}\ T_e(\rho(x)).
@@ -484,7 +484,7 @@ $$
 
 #### Remarque {#lie-iii-s1-n7-rem-1 .statement}
 
-Soient G un groupe de Lie de dimension finie, X une variété de classe $ C^r $, et $ (g, x) \mapsto gx $ une loi d’opération à gauche de classe $ C^r $ de G dans X. Alors la prop. 14 reste valable. Le seul point qui nécessite une démonstration différente est le fait que $ G_x $ est un sous-groupe de Lie. Mais si $ r \neq \omega $, on a $ K = \mathbf{R} $; comme il est clair que $ G_x $ est fermé, $ G_x $ est un sous-groupe de Lie d’après le § 8, th. 2.
+Soient G un groupe de Lie de dimension finie, X une variété de classe $C^r$, et $(g, x) \mapsto gx$ une loi d’opération à gauche de classe $C^r$ de G dans X. Alors la prop. 14 reste valable. Le seul point qui nécessite une démonstration différente est le fait que $G_x$ est un sous-groupe de Lie. Mais si $r \neq \omega$, on a $K = \mathbf{R}$; comme il est clair que $G_x$ est fermé, $G_x$ est un sous-groupe de Lie d’après le § 8, th. 2.
 
 #### Corollaire {#lie-iii-s1-n7-cor-1 .statement}
 
@@ -514,7 +514,7 @@ $$
 \tau(\psi_{g,x}) \in \mathrm{Isom}((\tau E)_x, (\tau E)_{gx}).
 $$
 
-Les $ \tau(\psi_{g,x}) $ définissent une loi d’opération à gauche $(g,u) \mapsto gu$ de $G$ dans $\tau E$, et la projection canonique de $\tau E$ sur $X$ est compatible avec les opérations de $G$ dans $X$ et $\tau E$.
+Les $\tau(\psi_{g,x})$ définissent une loi d’opération à gauche $(g,u) \mapsto gu$ de $G$ dans $\tau E$, et la projection canonique de $\tau E$ sur $X$ est compatible avec les opérations de $G$ dans $X$ et $\tau E$.
 
 #### Proposition 15 {#lie-iii-s1-prop-15 .statement}
 
@@ -544,39 +544,39 @@ Reprenons les hypothèses et notations de la prop. 16, et soit $F$ un espace nor
 
 #### Proposition 17 {#lie-iii-s1-prop-17 .statement}
 
-*Soient $G$ un groupe de Lie, $X$ un espace homogène de Lie à gauche pour $G$, $x_0$ un point de $X$, $G_0$ le stabilisateur de $x_0$ dans $G$, $E$ et $E'$ des $G$-fibrés vectoriels à gauche de classe $ C^r $ et de base $ X $, $ E_0 $ (resp. $ E'_0 $) la fibre en $ x_0 $ de $ E $ (resp. $ E' $), $ f $ un élément de $ \mathcal{L}(E_0, E'_0) $ tel que $ f(gu) = gf(u) $ quels que soient $ u \in E_0 $ et $ g \in G_0 $. Alors il existe un morphisme et un seul de $ E $ dans $ E' $, compatible avec les opérations de $ G $, et prolongeant $ f $.
+*Soient $G$ un groupe de Lie, $X$ un espace homogène de Lie à gauche pour $G$, $x_0$ un point de $X$, $G_0$ le stabilisateur de $x_0$ dans $G$, $E$ et $E'$ des $G$-fibrés vectoriels à gauche de classe $C^r$ et de base $X$, $E_0$ (resp. $E'_0$) la fibre en $x_0$ de $E$ (resp. $E'$), $f$ un élément de $\mathcal{L}(E_0, E'_0)$ tel que $f(gu) = gf(u)$ quels que soient $u \in E_0$ et $g \in G_0$. Alors il existe un morphisme et un seul de $E$ dans $E'$, compatible avec les opérations de $G$, et prolongeant $f$.
 
-L’unicité de ce morphisme est évidente. Prouvons son existence. Soient $ g $, $ g' $ dans $ G $ et $ u \in E_0 $ tels que $ gu = g'u $. On a $ g'^{-1}g \in G_0 $ et $ g'^{-1}gu = u $, donc $ g'^{-1}gf(u) = f(u) $, c’est-à-dire $ gf(u) = g'f(u) $. On définit donc une application $ \varphi $ de $ E $ dans $ E' $ en posant $ \varphi(gu) = gf(u) $. Il est clair que cette application prolonge $ f $, et qu’elle est compatible avec les opérations de $ G $. Montrons que $ \varphi $ est un morphisme de fibrés vectoriels de classe $ C^r $. Soit $ x_1 \in X $. Il existe un voisinage ouvert $ V $ de $ x_1 $ dans $ X $ et une sous-variété $ W $ de $ G $, tels que l’application $ g \mapsto gx_0 $ soit un isomorphisme $ \theta $ de classe $ C^r $ de $ W $ sur $ V $. En diminuant $ V $ et $ W $, on peut supposer que:
+L’unicité de ce morphisme est évidente. Prouvons son existence. Soient $g$, $g'$ dans $G$ et $u \in E_0$ tels que $gu = g'u$. On a $g'^{-1}g \in G_0$ et $g'^{-1}gu = u$, donc $g'^{-1}gf(u) = f(u)$, c’est-à-dire $gf(u) = g'f(u)$. On définit donc une application $\varphi$ de $E$ dans $E'$ en posant $\varphi(gu) = gf(u)$. Il est clair que cette application prolonge $f$, et qu’elle est compatible avec les opérations de $G$. Montrons que $\varphi$ est un morphisme de fibrés vectoriels de classe $C^r$. Soit $x_1 \in X$. Il existe un voisinage ouvert $V$ de $x_1$ dans $X$ et une sous-variété $W$ de $G$, tels que l’application $g \mapsto gx_0$ soit un isomorphisme $\theta$ de classe $C^r$ de $W$ sur $V$. En diminuant $V$ et $W$, on peut supposer que:
 
-1) $ E \mid V $ (resp. $ E' \mid V $) s’identifie à un fibré vectoriel trivial de fibre $ M $ (resp. $ M' $);
-2) si l’on note $ \psi_g $ (resp. $ \psi'_g $) l’application $ u \mapsto gu $ de $ E_0 $ (resp. $ E'_0 $) dans $ E_{gx_0} $ (resp. $ E'_{gx_0} $), alors les applications $ g \mapsto \psi_g $ et $ g \mapsto \psi_g^{-1} $ (resp. $ g \mapsto \psi'_g $ et $ g \mapsto {\psi'_g}^{-1} $) de $ W $ dans $ \mathcal{L}(E_0, M) $ et $ \mathcal{L}(M, E_0) $ (resp. $ \mathcal{L}(E'_0, M') $ et $ \mathcal{L}(M', E'_0) $) sont de classe $ C^r $.
+1) $E \mid V$ (resp. $E' \mid V$) s’identifie à un fibré vectoriel trivial de fibre $M$ (resp. $M'$);
+2) si l’on note $\psi_g$ (resp. $\psi'_g$) l’application $u \mapsto gu$ de $E_0$ (resp. $E'_0$) dans $E_{gx_0}$ (resp. $E'_{gx_0}$), alors les applications $g \mapsto \psi_g$ et $g \mapsto \psi_g^{-1}$ (resp. $g \mapsto \psi'_g$ et $g \mapsto {\psi'_g}^{-1}$) de $W$ dans $\mathcal{L}(E_0, M)$ et $\mathcal{L}(M, E_0)$ (resp. $\mathcal{L}(E'_0, M')$ et $\mathcal{L}(M', E'_0)$) sont de classe $C^r$.
 
-Pour $ x \in V $, soit $ \varphi_x : M \to N $ la restriction de $ \varphi $ à $ E_x = M $. Alors $ \varphi_x $ s’obtient en composant les applications suivantes:
-1) l’application $ (\psi_{\theta^{-1}x})^{-1} $ de $ M $ dans $ E_0 $;
-2) l’application $ f $ de $ E_0 $ dans $ E_0 $;
-3) l’application $ \psi'_{\theta^{-1}x} $ de $ E_0 $ dans $ M' $.
+Pour $x \in V$, soit $\varphi_x : M \to N$ la restriction de $\varphi$ à $E_x = M$. Alors $\varphi_x$ s’obtient en composant les applications suivantes:
+1) l’application $(\psi_{\theta^{-1}x})^{-1}$ de $M$ dans $E_0$;
+2) l’application $f$ de $E_0$ dans $E_0$;
+3) l’application $\psi'_{\theta^{-1}x}$ de $E_0$ dans $M'$.
 
-On voit donc que l’application $ x \mapsto \varphi_x $ de $ V $ dans $ \mathcal{L}(M, M') $ est de classe $ C^r $.
+On voit donc que l’application $x \mapsto \varphi_x$ de $V$ dans $\mathcal{L}(M, M')$ est de classe $C^r$.
 
 #### Corollaire 1 {#lie-iii-s1-prop-17-cor-1 .statement}
 
-Soit $ E_0^{G_0} $ l’ensemble des éléments de $ E_0 $ invariants par $ G_0 $. Pour tout $ u \in E_0^{G_0} $, soit $ \sigma_u $ l’application de $ X $ dans $ E $ définie par $ \sigma_u(gx_0) = gu $ pour tout $ g \in G $.
-(i) Les sections¹ $ G $-invariantes de $ E $ sont de classe $ C^r $.
-(ii) $ u \mapsto \sigma_u $ est une bijection de $ E_0^{G_0} $ sur l’ensemble des sections $ G $-invariantes de $ E $.
+Soit $E_0^{G_0}$ l’ensemble des éléments de $E_0$ invariants par $G_0$. Pour tout $u \in E_0^{G_0}$, soit $\sigma_u$ l’application de $X$ dans $E$ définie par $\sigma_u(gx_0) = gu$ pour tout $g \in G$.
+(i) Les sections¹ $G$-invariantes de $E$ sont de classe $C^r$.
+(ii) $u \mapsto \sigma_u$ est une bijection de $E_0^{G_0}$ sur l’ensemble des sections $G$-invariantes de $E$.
 
-L’assertion (ii) est évidente. Pour prouver (i), il suffit de prouver que chaque section $ \sigma_u $ est de classe $ C^r $. Soit $ E' $ le $ G $-fibré trivial de base $ X $ et de fibre $ E_0^{G_0} $. Soit $ f $ l’injection canonique de $ E_0^{G_0} $ dans $ E_0 $. D’après la prop. 17, il existe un morphisme $ \varphi $ de $ E' $ dans $ E $ compatible avec les opérations de $ G $ et prolongeant $ f $. Si $ u \in E_0^{G_0} $ et $ g \in G $, on a
+L’assertion (ii) est évidente. Pour prouver (i), il suffit de prouver que chaque section $\sigma_u$ est de classe $C^r$. Soit $E'$ le $G$-fibré trivial de base $X$ et de fibre $E_0^{G_0}$. Soit $f$ l’injection canonique de $E_0^{G_0}$ dans $E_0$. D’après la prop. 17, il existe un morphisme $\varphi$ de $E'$ dans $E$ compatible avec les opérations de $G$ et prolongeant $f$. Si $u \in E_0^{G_0}$ et $g \in G$, on a
 $$
 \sigma_u(gx_0) = gu = gf(u) = \varphi(gu) = \varphi((u, gx_0))
 $$
-donc $ \sigma_u(x) = \varphi((u, x)) $ pour tout $ x \in X $, ce qui prouve notre assertion.
+donc $\sigma_u(x) = \varphi((u, x))$ pour tout $x \in X$, ce qui prouve notre assertion.
 
-*Par exemple, soient $ G $ un groupe de Lie réel de dimension finie, $ G_0 $ un sous-groupe de Lie compact de $ G $, et $ X $ l’espace homogène $ G/G_0 $. Notons $ x_0 $ l’image canonique de $ e $ dans $ X $. Il existe une forme bilinéaire symétrique positive non dégénérée sur $ T_{x_0}(X) $
+*Par exemple, soient $G$ un groupe de Lie réel de dimension finie, $G_0$ un sous-groupe de Lie compact de $G$, et $X$ l’espace homogène $G/G_0$. Notons $x_0$ l’image canonique de $e$ dans $X$. Il existe une forme bilinéaire symétrique positive non dégénérée sur $T_{x_0}(X)$
 
-¹ Nous appelons ici section de $ E $ une application $ \sigma $ (non nécessairement de classe $ C^r $) de $ X $ dans $ E $ telle que $ p \circ \sigma = \mathrm{Id}_X $, où $ p $ désigne la projection de $ E $ sur $ X $.
+¹ Nous appelons ici section de $E$ une application $\sigma$ (non nécessairement de classe $C^r$) de $X$ dans $E$ telle que $p \circ \sigma = \mathrm{Id}_X$, où $p$ désigne la projection de $E$ sur $X$.
 
 #### Corollaire 2 {#lie-iii-s1-prop-17-cor-2 .statement}
 
-*On suppose que $ G_0 $ opère trivialement dans $ E_0 $. Soit $ E' $ le $ G $-fibré trivial de base $ X $ et de fibre $ E_0 $. Il existe un isomorphisme et un seul de $ E $ sur $ E' $ compatible avec les opérations de $ G $ et prolongeant $ \mathrm{Id}_{E_0} $.
+*On suppose que $G_0$ opère trivialement dans $E_0$. Soit $E'$ le $G$-fibré trivial de base $X$ et de fibre $E_0$. Il existe un isomorphisme et un seul de $E$ sur $E'$ compatible avec les opérations de $G$ et prolongeant $\mathrm{Id}_{E_0}$.
 
 Cela résulte aussitôt de la prop. 17.
 
@@ -588,31 +588,31 @@ Dans ce n°, on peut remplacer partout les lois d’opération à gauche par des
 
 #### Proposition 18 {#lie-iii-s1-prop-18 .statement}
 
-*Soient $ G $ un groupe, $ U $ et $ V $ deux sous-ensembles de $ G $ contenant $ e $. Supposons $ U $ muni d’une structure de variété analytique vérifiant les conditions suivantes*:
-(i) $ V = V^{-1}, V^2 \subset U, V $ est ouvert dans $ U $;
-(ii) l’application $ (x, y) \mapsto xy^{-1} $ de $ V \times V $ dans $ U $ est analytique;
-(iii) pour tout $ g \in G $, il existe un voisinage ouvert $ V' $ de $ e $ dans $ V $ tel que $ gV'g^{-1} \subset U $ et tel que l’application $ x \mapsto gxg^{-1} $ de $ V' $ dans $ U $ soit analytique.
+*Soient $G$ un groupe, $U$ et $V$ deux sous-ensembles de $G$ contenant $e$. Supposons $U$ muni d’une structure de variété analytique vérifiant les conditions suivantes*:
+(i) $V = V^{-1}, V^2 \subset U, V$ est ouvert dans $U$;
+(ii) l’application $(x, y) \mapsto xy^{-1}$ de $V \times V$ dans $U$ est analytique;
+(iii) pour tout $g \in G$, il existe un voisinage ouvert $V'$ de $e$ dans $V$ tel que $gV'g^{-1} \subset U$ et tel que l’application $x \mapsto gxg^{-1}$ de $V'$ dans $U$ soit analytique.
 
-Il existe alors sur $ G $ une structure de variété analytique et une seule possédant les propriétés suivantes:
-α) $ G $, muni de cette structure, est un groupe de Lie;
-β) $ V $ est ouvert dans $ G $;
-γ) les structures de variété de $ G $ et $ U $ induisent la même structure sur $ V $.
+Il existe alors sur $G$ une structure de variété analytique et une seule possédant les propriétés suivantes:
+α) $G$, muni de cette structure, est un groupe de Lie;
+β) $V$ est ouvert dans $G$;
+γ) les structures de variété de $G$ et $U$ induisent la même structure sur $V$.
 
-a) Soient $ A $ une partie ouverte de $ V $ et $ v_0 $ un élément de $ V $ tels que $ v_0A \subset V $. Alors $ v_0A $ est l’ensemble des $ v \in V $ tels que $ v_0^{-1}v \in A $, donc est une partie ouverte de $ V $ (compte tenu de (ii)). En outre, (ii) entraîne que les applications $ v \mapsto v_0v $ de $ A $ sur $ v_0A $ et $ v \mapsto v_0^{-1}v $ de $ v_0A $ sur $ A $ sont des bijections réciproques et analytiques, donc des isomorphismes analytiques.
+a) Soient $A$ une partie ouverte de $V$ et $v_0$ un élément de $V$ tels que $v_0A \subset V$. Alors $v_0A$ est l’ensemble des $v \in V$ tels que $v_0^{-1}v \in A$, donc est une partie ouverte de $V$ (compte tenu de (ii)). En outre, (ii) entraîne que les applications $v \mapsto v_0v$ de $A$ sur $v_0A$ et $v \mapsto v_0^{-1}v$ de $v_0A$ sur $A$ sont des bijections réciproques et analytiques, donc des isomorphismes analytiques.
 
-b) Choisissons un voisinage ouvert $ W $ de $ e $ dans $ V $ tel que $ W = W^{-1}, W^3 \subset V $, et tel qu’il existe une carte $ (W, \varphi, E) $ de la variété $ U $, de domaine $ W $. Pour tout $ g \in G $, soit $ \varphi_g $ l’application $ h \mapsto \varphi(g^{-1}h) $ de $ gW $ dans $ E $. Montrons que les cartes $ \varphi_g $ de $ G $ sont analytiquement compatibles. Soient $ g_1, g_2 $ dans $ G $ tels que $ g_1W \cap g_2W \neq \varnothing $, de sorte que $ g_2^{-1}g_1 $ et $ g_1^{-1}g_2 $ appartiennent à $ W^2 $. D’après a), $ W \cap g_1^{-1}g_2W $ est une partie ouverte de $ W $, donc
+b) Choisissons un voisinage ouvert $W$ de $e$ dans $V$ tel que $W = W^{-1}, W^3 \subset V$, et tel qu’il existe une carte $(W, \varphi, E)$ de la variété $U$, de domaine $W$. Pour tout $g \in G$, soit $\varphi_g$ l’application $h \mapsto \varphi(g^{-1}h)$ de $gW$ dans $E$. Montrons que les cartes $\varphi_g$ de $G$ sont analytiquement compatibles. Soient $g_1, g_2$ dans $G$ tels que $g_1W \cap g_2W \neq \varnothing$, de sorte que $g_2^{-1}g_1$ et $g_1^{-1}g_2$ appartiennent à $W^2$. D’après a), $W \cap g_1^{-1}g_2W$ est une partie ouverte de $W$, donc
 
 $$
 \varphi_{g_1}(g_1W \cap g_2W) = \varphi(W \cap g_1^{-1}g_2W)
 $$
 
-est une partie ouverte $ D $ de $ E $. Pour $ d \in D $, on a,
+est une partie ouverte $D$ de $E$. Pour $d \in D$, on a,
 
 $$
 (\varphi_{g_2} \circ \varphi_{g_1}^{-1})(d) = \varphi(g_2^{-1}g_1\varphi^{-1}(d));
 $$
 
-d’après a), on voit que $ \varphi_{g_2} \circ \varphi_{g_1}^{-1} $ est analytique.
+d’après a), on voit que $\varphi_{g_2} \circ \varphi_{g_1}^{-1}$ est analytique.
 
 c) D’après b), il existe sur G une structure de variété analytique telle que $(\varphi_g)_{g \in G}$ soit un atlas de G. Pour tout $g_0 \in G$, l’application $g \mapsto g_0 g$ ($g \in G$) laisse cet atlas invariant, donc est un automorphisme de G pour cette structure de variété. En particulier la condition $(GL_1)$ est vérifiée.
 
@@ -642,37 +642,37 @@ On dit que la structure de groupe de Lie de G est l’image inverse de la struct
 
 #### Corollaire {#lie-iii-s1-n9-cor-1 .statement}
 
-Soient G un groupe topologique, N un sous-groupe distingué discret de G, $\pi$ l’application canonique de G sur $G/N$. Supposons donnée une structure de variété analytique sur $G/N$, compatible avec la structure de groupe topologique de $G/N$. Alors il existe sur G une structure unique de variété telle que $ \pi $ soit une immersion; cette structure est l’image inverse par $ \pi $ de la structure de variété de $ G/N $. Pour cette structure, $ \pi $ est étale, $ G $ est un groupe de Lie, et $ G/N $ est le groupe de Lie quotient de $ G $ par $ N $.
+Soient G un groupe topologique, N un sous-groupe distingué discret de G, $\pi$ l’application canonique de G sur $G/N$. Supposons donnée une structure de variété analytique sur $G/N$, compatible avec la structure de groupe topologique de $G/N$. Alors il existe sur G une structure unique de variété telle que $\pi$ soit une immersion; cette structure est l’image inverse par $\pi$ de la structure de variété de $G/N$. Pour cette structure, $\pi$ est étale, $G$ est un groupe de Lie, et $G/N$ est le groupe de Lie quotient de $G$ par $N$.
 
 #### Remarque {#lie-iii-s1-n9-rem-1 .statement}
 
-Soient $ H $ un groupe de Lie réel ou complexe connexe, $ \hat{H} $ son revêtement universel¹, $ \pi $ l’application canonique de $ \hat{H} $ sur $ H $. Quand on parlera de $ \hat{H} $ comme d’un groupe de Lie, il s’agira toujours de la structure image inverse de celle de $ H $ par $ \pi $.
+Soient $H$ un groupe de Lie réel ou complexe connexe, $\hat{H}$ son revêtement universel¹, $\pi$ l’application canonique de $\hat{H}$ sur $H$. Quand on parlera de $\hat{H}$ comme d’un groupe de Lie, il s’agira toujours de la structure image inverse de celle de $H$ par $\pi$.
 
 ### 10. Groupuscules
 
 #### Définition 5 {#lie-iii-s1-def-5 .statement}
 
-On appelle groupuscule de Lie sur $ K $ un système $ (G, e, \theta, m) $ vérifiant les conditions suivantes:
+On appelle groupuscule de Lie sur $K$ un système $(G, e, \theta, m)$ vérifiant les conditions suivantes:
 
-(i) $ G $ est une variété analytique sur $ K $;
-(ii) $ e \in G $;
-(iii) $ \theta $ est une application analytique de $ G $ dans $ G $;
-(iv) $ m $ est une application analytique d’une partie ouverte $ \Omega $ de $ G \times G $ dans $ G $;
-(v) pour tout $ g \in G $, on a $ (e, g) \in \Omega, (g, e) \in \Omega, m(e, g) = m(g, e) = g $;
-(vi) pour tout $ g \in G $, on a $ (g, \theta(g)) \in \Omega, (\theta(g), g) \in \Omega, m(g, \theta(g)) = m(\theta(g), g) = e $;
-(vii) si $ g, h, k $ sont des éléments de $ G $ tels que $ (g, h) \in \Omega, (h, k) \in \Omega, (m(g, h), k) \in \Omega, (g, m(h, k)) \in \Omega $, alors $ m(m(g, h), k) = m(g, m(h, k)) $.
+(i) $G$ est une variété analytique sur $K$;
+(ii) $e \in G$;
+(iii) $\theta$ est une application analytique de $G$ dans $G$;
+(iv) $m$ est une application analytique d’une partie ouverte $\Omega$ de $G \times G$ dans $G$;
+(v) pour tout $g \in G$, on a $(e, g) \in \Omega, (g, e) \in \Omega, m(e, g) = m(g, e) = g$;
+(vi) pour tout $g \in G$, on a $(g, \theta(g)) \in \Omega, (\theta(g), g) \in \Omega, m(g, \theta(g)) = m(\theta(g), g) = e$;
+(vii) si $g, h, k$ sont des éléments de $G$ tels que $(g, h) \in \Omega, (h, k) \in \Omega, (m(g, h), k) \in \Omega, (g, m(h, k)) \in \Omega$, alors $m(m(g, h), k) = m(g, m(h, k))$.
 
-On dit que $ e $ est l’élément neutre du groupuscule. On écrit souvent $ gh $ au lieu de $ m(g, h) $, et (par abus de notation) $ g^{-1} $ au lieu de $ \theta(g) $.
+On dit que $e$ est l’élément neutre du groupuscule. On écrit souvent $gh$ au lieu de $m(g, h)$, et (par abus de notation) $g^{-1}$ au lieu de $\theta(g)$.
 
-Un groupe de Lie $ G $ est un groupuscule de Lie pour le choix évident de $ e, \theta, m $.
+Un groupe de Lie $G$ est un groupuscule de Lie pour le choix évident de $e, \theta, m$.
 
-Soit $ G $ un groupuscule de Lie. On a $ ee^{-1} = e $, c’est-à-dire
+Soit $G$ un groupuscule de Lie. On a $ee^{-1} = e$, c’est-à-dire
 
 $$
 e^{-1} = e.
 $$
 
-Pour tout $ g \in G $, on a
+Pour tout $g \in G$, on a
 
 $$
 g = eg = ((g^{-1})^{-1}g^{-1})g = (g^{-1})^{-1}(g^{-1}g) = (g^{-1})^{-1}e,
@@ -684,11 +684,11 @@ $$
 (g^{-1})^{-1} = g.
 $$
 
-Un sous-ensemble de $ G $ invariant par l’application $ g \mapsto g^{-1} $ est dit symétrique.
+Un sous-ensemble de $G$ invariant par l’application $g \mapsto g^{-1}$ est dit symétrique.
 
-La variété $ G $, munie du point $ e $, de l’application $ g \mapsto g^{-1} $, et de l’application $ (g, h) \mapsto hg $, est un groupuscule de Lie $ G^\vee $ dit opposé à $ G $.
+La variété $G$, munie du point $e$, de l’application $g \mapsto g^{-1}$, et de l’application $(g, h) \mapsto hg$, est un groupuscule de Lie $G^\vee$ dit opposé à $G$.
 
-Le groupuscule de Lie $ G $ est dit commutatif si, pour tout $ (g, h) \in G \times G $ tel que $ gh $ soit défini, $ hg $ est défini et égal à $ gh $.
+Le groupuscule de Lie $G$ est dit commutatif si, pour tout $(g, h) \in G \times G$ tel que $gh$ soit défini, $hg$ est défini et égal à $gh$.
 
 ¹ Cf. TG, XI ; en attendant la parution de ce chapitre, voir par exemple L. S. PONTRJAGIN, Topological groups, 2nd edition translated from Russian, Gordon and Breach, 1966 ; ou G. HOCHSCHILD, The structure of Lie groups, Holden-Day, 1965.
 
@@ -726,52 +726,52 @@ Le composé de deux morphismes est un morphisme.
 
 Si $f : G_1 \to G_2$ et $f' : G_2 \to G_1$ sont des morphismes réciproques l’un de l’autre, ce sont des isomorphismes (compte tenu notamment de la formule (11)).
 
-Soient $ G_1, G_2 $ deux groupuscules de Lie, $ f $ une application de $ G_1 $ dans $ G_2 $ vérifiant les conditions (ii) et (iii) ci-dessus, et analytique dans un voisinage ouvert de $ e_1 $. Compte tenu de la prop. 20, on démontre, comme pour la prop. 4, que $ f $ est un morphisme.
+Soient $G_1, G_2$ deux groupuscules de Lie, $f$ une application de $G_1$ dans $G_2$ vérifiant les conditions (ii) et (iii) ci-dessus, et analytique dans un voisinage ouvert de $e_1$. Compte tenu de la prop. 20, on démontre, comme pour la prop. 4, que $f$ est un morphisme.
 
-Soient $ (G, e, \theta, m) $ un groupuscule de Lie, $ \Omega $ l’ensemble de définition de $ m $. Soit $ H $ une sous-variété de $ G $ contenant $ e $ et stable par $ \theta $. Supposons que l’ensemble $ \Omega_1 $ des $ (x, y) \in \Omega \cap (H \times H) $ tels que $ m(x, y) \in H $ soit ouvert dans $ H \times H $. Alors $ (H, e, \theta|H, m|\Omega_1) $ est un groupuscule de Lie. Un tel groupuscule de Lie s’appelle un *sous-groupuscule de Lie de G*. L’injection canonique de $ H $ dans $ G $ est un morphisme. Si $ f : L \to G $ est un morphisme de groupuscules de Lie tel que $ f(L) \subset H $, alors $ f : L \to H $ est un morphisme de groupuscules de Lie.
+Soient $(G, e, \theta, m)$ un groupuscule de Lie, $\Omega$ l’ensemble de définition de $m$. Soit $H$ une sous-variété de $G$ contenant $e$ et stable par $\theta$. Supposons que l’ensemble $\Omega_1$ des $(x, y) \in \Omega \cap (H \times H)$ tels que $m(x, y) \in H$ soit ouvert dans $H \times H$. Alors $(H, e, \theta|H, m|\Omega_1)$ est un groupuscule de Lie. Un tel groupuscule de Lie s’appelle un *sous-groupuscule de Lie de G*. L’injection canonique de $H$ dans $G$ est un morphisme. Si $f : L \to G$ est un morphisme de groupuscules de Lie tel que $f(L) \subset H$, alors $f : L \to H$ est un morphisme de groupuscules de Lie.
 
-Supposons $ K $ de caractéristique 0. Remplaçons l’hypothèse que $ H $ est une sous-variété de $ G $ par l’hypothèse que $ H $ est une quasi-sous-variété de $ G $. Ce qu’on a énoncé dans l’alinéa précédent reste valable (cf. VAR, R, 5.8.5). On dit alors que $ H $ est un quasi-sous-groupuscule de Lie de $ G $.
+Supposons $K$ de caractéristique 0. Remplaçons l’hypothèse que $H$ est une sous-variété de $G$ par l’hypothèse que $H$ est une quasi-sous-variété de $G$. Ce qu’on a énoncé dans l’alinéa précédent reste valable (cf. VAR, R, 5.8.5). On dit alors que $H$ est un quasi-sous-groupuscule de Lie de $G$.
 
-Si $ G $ est un groupuscule de Lie d’élément neutre $ e $, tout voisinage ouvert symétrique de $ e $ dans $ G $ est un sous-groupuscule de Lie de $ G $. (Ceci s’applique en particulier lorsque $ G $ est un groupe de Lie.) Soit $ H $ un sous-groupuscule de Lie de $ G $; si $ H $ est un voisinage de $ e $ dans $ G $, alors $ H $ est ouvert dans $ G $ d’après la prop. 20.
+Si $G$ est un groupuscule de Lie d’élément neutre $e$, tout voisinage ouvert symétrique de $e$ dans $G$ est un sous-groupuscule de Lie de $G$. (Ceci s’applique en particulier lorsque $G$ est un groupe de Lie.) Soit $H$ un sous-groupuscule de Lie de $G$; si $H$ est un voisinage de $e$ dans $G$, alors $H$ est ouvert dans $G$ d’après la prop. 20.
 
 On définit de manière évidente le groupuscule de Lie *produit* d’un nombre fini de groupuscules de Lie.
 
 #### Proposition 21 {#lie-iii-s1-prop-21 .statement}
 
-*Soient $ G, H $ deux groupuscules de Lie, $ \varphi $ un morphisme de $ G $ dans $ H $. Les conditions suivantes sont équivalentes*:
+*Soient $G, H$ deux groupuscules de Lie, $\varphi$ un morphisme de $G$ dans $H$. Les conditions suivantes sont équivalentes*:
 
-(i) $ \varphi $ est étale en $ e $;
-(ii) *il existe des sous-groupuscules de Lie ouverts $ G', H' $ de $ G, H $ tels que $ \varphi|G' $ soit un isomorphisme de $ G' $ sur $ H' $*.
+(i) $\varphi$ est étale en $e$;
+(ii) *il existe des sous-groupuscules de Lie ouverts $G', H'$ de $G, H$ tels que $\varphi|G'$ soit un isomorphisme de $G'$ sur $H'$*.
 
-L’implication (ii) $ \Rightarrow $ (i) est évidente. Supposons $ \varphi $ étale en $ e $. Il existe un sous-groupuscule de Lie ouvert $ G_1 $ de $ G $ tel que $ \varphi(G_1) $ soit ouvert dans $ H $ et que $ \varphi | G_1 $ soit un isomorphisme de la variété $ G_1 $ sur la variété $ \varphi(G_1) $. Puis il existe un sous-groupuscule de Lie ouvert $ G' $ de $ G_1 $ tel que le produit dans $ G $ de deux éléments de $ G' $ soit toujours défini et appartienne à $ G_1 $. Si $ g, g' $ dans $ G' $ sont tels que $ gg' \in G' $, on a $ \varphi(g)\varphi(g') = \varphi(gg') \in \varphi(G') $; si $ g, g' $ dans $ G' $ sont tels que $ gg' \in G_1 - G' $, on a $ \varphi(g)\varphi(g') = \varphi(gg') \in \varphi(G_1) - \varphi(G') $. Donc $ \varphi|G' $ est un isomorphisme du groupuscule de Lie $ G' $ sur le sous-groupuscule de Lie ouvert $ \varphi(G') $ de $ H $.
+L’implication (ii) $\Rightarrow$ (i) est évidente. Supposons $\varphi$ étale en $e$. Il existe un sous-groupuscule de Lie ouvert $G_1$ de $G$ tel que $\varphi(G_1)$ soit ouvert dans $H$ et que $\varphi | G_1$ soit un isomorphisme de la variété $G_1$ sur la variété $\varphi(G_1)$. Puis il existe un sous-groupuscule de Lie ouvert $G'$ de $G_1$ tel que le produit dans $G$ de deux éléments de $G'$ soit toujours défini et appartienne à $G_1$. Si $g, g'$ dans $G'$ sont tels que $gg' \in G'$, on a $\varphi(g)\varphi(g') = \varphi(gg') \in \varphi(G')$; si $g, g'$ dans $G'$ sont tels que $gg' \in G_1 - G'$, on a $\varphi(g)\varphi(g') = \varphi(gg') \in \varphi(G_1) - \varphi(G')$. Donc $\varphi|G'$ est un isomorphisme du groupuscule de Lie $G'$ sur le sous-groupuscule de Lie ouvert $\varphi(G')$ de $H$.
 
-Si les conditions de la prop. 21 sont vérifiées, on dit que $ G $ et $ H $ sont *localement isomorphes*.
+Si les conditions de la prop. 21 sont vérifiées, on dit que $G$ et $H$ sont *localement isomorphes*.
 
 #### Proposition 22 {#lie-iii-s1-prop-22 .statement}
 
-*Soient $ H $ un groupe de Lie, $ U $ un sous-groupuscule de Lie de $ H $, $ N $ l’ensemble des $ g \in H $ tels que $ U $ et $ gUg^{-1} $ aient même germe en $ e $* (TG, I, § 6, n° 10).
+*Soient $H$ un groupe de Lie, $U$ un sous-groupuscule de Lie de $H$, $N$ l’ensemble des $g \in H$ tels que $U$ et $gUg^{-1}$ aient même germe en $e$* (TG, I, § 6, n° 10).
 
-Alors $ N $ est un sous-groupe de $ H $ contenant $ U $. Il existe sur $ N $ une structure de variété analytique et une seule possédant les propriétés suivantes:
+Alors $N$ est un sous-groupe de $H$ contenant $U$. Il existe sur $N$ une structure de variété analytique et une seule possédant les propriétés suivantes:
 
-(i) $ N $, muni de cette structure, est un groupe de Lie;
-(ii) $ U $ est une sous-variété ouverte de $ N $;
-(iii) l’injection canonique de $ N $ dans $ H $ est une immersion.
+(i) $N$, muni de cette structure, est un groupe de Lie;
+(ii) $U$ est une sous-variété ouverte de $N$;
+(iii) l’injection canonique de $N$ dans $H$ est une immersion.
 
-Il est clair que $ N $ est un sous-groupe de $ H $. Si $ g \in U $, on a $ ge \in U $ et $ geg^{-1} \in U $, donc $ gu \in U $ et $ gug^{-1} \in U $ pour $ u $ assez voisin de $ e $ dans $ U $, donc le germe de $ gUg^{-1} $ en $ e $ est contenu dans celui de $ U $; changeant $ g $ en $ g^{-1} $, on voit que les germes de $ gUg^{-1} $ et de $ U $ en $ e $ sont égaux. Donc $ U \subset N $.
+Il est clair que $N$ est un sous-groupe de $H$. Si $g \in U$, on a $ge \in U$ et $geg^{-1} \in U$, donc $gu \in U$ et $gug^{-1} \in U$ pour $u$ assez voisin de $e$ dans $U$, donc le germe de $gUg^{-1}$ en $e$ est contenu dans celui de $U$; changeant $g$ en $g^{-1}$, on voit que les germes de $gUg^{-1}$ et de $U$ en $e$ sont égaux. Donc $U \subset N$.
 
-Soit $ V $ un voisinage ouvert de $ e $ dans $ U $ tel que $ V = V^{-1},\ V^2 \subset U $. Les conditions (i), (ii), (iii) de la prop. 18 du n° 9 (où l’on remplace $ G $ par $ N $) sont vérifiées. Donc il existe une structure de variété analytique sur $ N $ ayant les propriétés suivantes: $ \alpha) $ $ N $, muni de cette structure, est un groupe de Lie; $ \beta) $ $ V $ est ouvert dans $ N $; $ \gamma) $ les structures de variété de $ N $ et $ U $ induisent la même structure sur $ V $. Puisque $ V $ est une sous-variété de $ H $, l’injection canonique de $ N $ dans $ H $ est une immersion en $ e $, donc en tout point de $ N $. Soit $ u \in U $. Il existe un voisinage ouvert $ V' $ de $ e $ dans $ V $ tel que l’application $ v \mapsto uv $ soit un isomorphisme analytique de $ V' $ sur un voisinage ouvert de $ u $ dans $ U $ (prop. 20), et en même temps sur un voisinage ouvert de $ u $ dans $ N $. Donc $ U $ est ouvert dans $ N $ et l’application identique de $ U $ est un isomorphisme pour la structure de variété donnée sur $ U $ et la structure de sous-variété ouverte de $ N $; autrement dit, $ U $ est une sous-variété ouverte de $ N $.
+Soit $V$ un voisinage ouvert de $e$ dans $U$ tel que $V = V^{-1},\ V^2 \subset U$. Les conditions (i), (ii), (iii) de la prop. 18 du n° 9 (où l’on remplace $G$ par $N$) sont vérifiées. Donc il existe une structure de variété analytique sur $N$ ayant les propriétés suivantes: $\alpha)$ $N$, muni de cette structure, est un groupe de Lie; $\beta)$ $V$ est ouvert dans $N$; $\gamma)$ les structures de variété de $N$ et $U$ induisent la même structure sur $V$. Puisque $V$ est une sous-variété de $H$, l’injection canonique de $N$ dans $H$ est une immersion en $e$, donc en tout point de $N$. Soit $u \in U$. Il existe un voisinage ouvert $V'$ de $e$ dans $V$ tel que l’application $v \mapsto uv$ soit un isomorphisme analytique de $V'$ sur un voisinage ouvert de $u$ dans $U$ (prop. 20), et en même temps sur un voisinage ouvert de $u$ dans $N$. Donc $U$ est ouvert dans $N$ et l’application identique de $U$ est un isomorphisme pour la structure de variété donnée sur $U$ et la structure de sous-variété ouverte de $N$; autrement dit, $U$ est une sous-variété ouverte de $N$.
 
-Enfin, considérons sur $ N $ une structure de variété analytique ayant les propriétés (i) et (ii) de la proposition, et soit $ N^* $ le groupe de Lie ainsi obtenu. Alors l’application identique de $ N $ dans $ N^* $ est étale en $ e $, donc est un isomorphisme de groupes de Lie. Cela prouve l’assertion d’unicité de la proposition.
+Enfin, considérons sur $N$ une structure de variété analytique ayant les propriétés (i) et (ii) de la proposition, et soit $N^*$ le groupe de Lie ainsi obtenu. Alors l’application identique de $N$ dans $N^*$ est étale en $e$, donc est un isomorphisme de groupes de Lie. Cela prouve l’assertion d’unicité de la proposition.
 
-Soient $ H $ un groupe de Lie, $ U $ un quasi-sous-groupuscule de Lie de $ H $, $ N $ l’ensemble des $ g \in H $ tels que $ U $ et $ gUg^{-1} $ aient même germe en $ e $. Si $ K $ est de caractéristique 0, il existe sur $ G $ une structure de variété et une seule avec les propriétés (i) et (ii) de la prop. 22. La démonstration est la même que pour la prop. 22.
+Soient $H$ un groupe de Lie, $U$ un quasi-sous-groupuscule de Lie de $H$, $N$ l’ensemble des $g \in H$ tels que $U$ et $gUg^{-1}$ aient même germe en $e$. Si $K$ est de caractéristique 0, il existe sur $G$ une structure de variété et une seule avec les propriétés (i) et (ii) de la prop. 22. La démonstration est la même que pour la prop. 22.
 
 #### Corollaire {#lie-iii-s1-n10-cor-1 .statement}
 
-Conservons les notations de la prop. 22. Soit $ G $ le sous-groupe de $ H $ engendré par $ U $. Alors $ G $ est un sous-groupe ouvert de $ N $. Il existe sur $ G $ une structure de groupe de Lie et une seule telle que $ U $ soit une sous-variété ouverte de $ G $ et que l’injection canonique de $ G $ dans $ H $ soit une immersion.
+Conservons les notations de la prop. 22. Soit $G$ le sous-groupe de $H$ engendré par $U$. Alors $G$ est un sous-groupe ouvert de $N$. Il existe sur $G$ une structure de groupe de Lie et une seule telle que $U$ soit une sous-variété ouverte de $G$ et que l’injection canonique de $G$ dans $H$ soit une immersion.
 
 #### Remarque {#lie-iii-s1-n10-rem-1 .statement}
 
-Conservons les notations de la prop. 22 et de son corollaire. Supposons que $ K $ soit de caractéristique 0, que $ H $ soit de dimension finie, et que la topologie de $ U $ admette une base dénombrable. Même avec toutes ces hypothèses, il se peut que $ G $ ne soit pas fermé dans $ H $ (exerc. 3). Mais, si $ G $ est fermé, $ G $ est un sous-groupe de Lie de $ H $. En effet, l’application $ (g, h) \mapsto gh $ est une loi d’opération à gauche analytique de $ G $ dans $ H $. L’orbite de $ e $ est $ G $. Notre assertion résulte alors des prop. 2 (iv) et 14 (iii).
+Conservons les notations de la prop. 22 et de son corollaire. Supposons que $K$ soit de caractéristique 0, que $H$ soit de dimension finie, et que la topologie de $U$ admette une base dénombrable. Même avec toutes ces hypothèses, il se peut que $G$ ne soit pas fermé dans $H$ (exerc. 3). Mais, si $G$ est fermé, $G$ est un sous-groupe de Lie de $H$. En effet, l’application $(g, h) \mapsto gh$ est une loi d’opération à gauche analytique de $G$ dans $H$. L’orbite de $e$ est $G$. Notre assertion résulte alors des prop. 2 (iv) et 14 (iii).
 
 ### 11. Morceaux de lois d’opération
 
@@ -804,28 +804,28 @@ Il existe un voisinage ouvert X' de x_0 dans X et un voisinage ouvert G' de e da
 
 Soient X un espace normal, (X_i)_{i \in I} un recouvrement ouvert localement fini de X. Pour tout (i, j) ∈ I × I et tout x ∈ X_i ∩ X_j, soit V_{ij}(x) un voisinage de x contenu dans X_i ∩ X_j. Alors on peut associer, à tout x ∈ X, un voisinage V(x) de x de telle sorte que les conditions suivantes soient vérifiées:
 
-a) la relation $ x \in X_i \cap X_j $ implique $ V(x) \subset V_{ij}(x) $;
-b) si $ V(x) $ et $ V(y) $ se rencontrent, il existe un $ i \in I $ tel que $ V(x) \cup V(y) \subset X_i $.
+a) la relation $x \in X_i \cap X_j$ implique $V(x) \subset V_{ij}(x)$;
+b) si $V(x)$ et $V(y)$ se rencontrent, il existe un $i \in I$ tel que $V(x) \cup V(y) \subset X_i$.
 
-Il existe un recouvrement ouvert $ (X'_i)_{i \in I} $ de $ X $ tel que $ \overline{X'_i} \subset X_i $ pour tout $ i \in I $ (TG, IX, § 4, th. 3). Soit $ x \in X $. Soit $ V_1(x) $ l’intersection des $ V_{ij}(x) $ et des $ X'_k $ qui contiennent $ x $; c’est un voisinage ouvert de $ x $. Soit $ V_2(x) $ un voisinage de $ x $ contenu dans $ V_1(x) $ et ne rencontrant qu’un nombre fini de $ X_i $. Alors $ V_2(x) $ ne rencontre qu’un nombre fini de $ \overline{X'_i} $, donc l’ensemble
+Il existe un recouvrement ouvert $(X'_i)_{i \in I}$ de $X$ tel que $\overline{X'_i} \subset X_i$ pour tout $i \in I$ (TG, IX, § 4, th. 3). Soit $x \in X$. Soit $V_1(x)$ l’intersection des $V_{ij}(x)$ et des $X'_k$ qui contiennent $x$; c’est un voisinage ouvert de $x$. Soit $V_2(x)$ un voisinage de $x$ contenu dans $V_1(x)$ et ne rencontrant qu’un nombre fini de $X_i$. Alors $V_2(x)$ ne rencontre qu’un nombre fini de $\overline{X'_i}$, donc l’ensemble
 
 $$
 V(x) = V_2(x) \cap \bigcap_{i \in I, x \notin \overline{X'_i}} (X - \overline{X'_i})
 $$
 
-est un voisinage de $ x $. Si $ x \in X_i \cap X_j $, on a $ V_1(x) \subset X_i \cap X_j $, donc $ V(x) \subset X_i \cap X_j $. Soient $ x, y $ dans $ X $ et supposons que $ V(x) $ et $ V(y) $ se rencontrent. Il existe un $ i \in I $ tel que $ x \in X'_i $. Alors $ V_1(x) \subset X'_i $, donc $ V(x) \subset X'_i $, donc $ V(y) \cap \overline{X'_i} \neq \varnothing $. Alors $ y \in \overline{X'_i} $ par définition de $ V(y) $, d’où $ y \in X_i $ et $ V(y) \subset X_i $. Ainsi, $ X_i $ contient $ V(x) $ et $ V(y) $.
+est un voisinage de $x$. Si $x \in X_i \cap X_j$, on a $V_1(x) \subset X_i \cap X_j$, donc $V(x) \subset X_i \cap X_j$. Soient $x, y$ dans $X$ et supposons que $V(x)$ et $V(y)$ se rencontrent. Il existe un $i \in I$ tel que $x \in X'_i$. Alors $V_1(x) \subset X'_i$, donc $V(x) \subset X'_i$, donc $V(y) \cap \overline{X'_i} \neq \varnothing$. Alors $y \in \overline{X'_i}$ par définition de $V(y)$, d’où $y \in X_i$ et $V(y) \subset X_i$. Ainsi, $X_i$ contient $V(x)$ et $V(y)$.
 
 #### Proposition 24 {#lie-iii-s1-prop-24 .statement}
 
-Soient $ G $ un groupuscule de Lie, $ X $ une variété de classe $ C^r $, $ (X_i)_{i \in I} $ un recouvrement ouvert localement fini de $ X $. Pour tout $ i \in I $, soit $ \psi_i $ un morceau de loi d’opération à gauche de classe $ C^r $ de $ G $ dans $ X_i $. On suppose que l’espace topologique sous-jacent à $ X $ est normal et que, pour tout $ (i, j) \in I \times I $ et tout $ x \in X_i \cap X_j $, $ \psi_i $ et $ \psi_j $ coïncident dans un voisinage de $ (e, x) $. Il existe un morceau de loi d’opération à gauche de classe $ C^r $ de $ G $ dans $ X $ tel que, pour tout $ i \in I $ et tout $ x \in X_i $, $ \psi_i $ et $ \psi $ coïncident dans un voisinage de $ (e, x) $.
+Soient $G$ un groupuscule de Lie, $X$ une variété de classe $C^r$, $(X_i)_{i \in I}$ un recouvrement ouvert localement fini de $X$. Pour tout $i \in I$, soit $\psi_i$ un morceau de loi d’opération à gauche de classe $C^r$ de $G$ dans $X_i$. On suppose que l’espace topologique sous-jacent à $X$ est normal et que, pour tout $(i, j) \in I \times I$ et tout $x \in X_i \cap X_j$, $\psi_i$ et $\psi_j$ coïncident dans un voisinage de $(e, x)$. Il existe un morceau de loi d’opération à gauche de classe $C^r$ de $G$ dans $X$ tel que, pour tout $i \in I$ et tout $x \in X_i$, $\psi_i$ et $\psi$ coïncident dans un voisinage de $(e, x)$.
 
-Pour tout $ (i, j) \in I \times I $ et tout $ x \in X_i \cap X_j $, choisissons un voisinage ouvert $ V_{ij}(x) $ de $ x $ dans $ X_i \cap X_j $ tel que $ \psi_i $ et $ \psi_j $ soient définies et égales sur un voisinage de $ \{e\} \times V_{ij}(x) $ dans $ G \times X $. Pour tout $ x \in X $, choisissons un voisinage ouvert $ V(x) $ de $ x $ dans $ X $ de telle sorte que les conditions $ a) $ et $ b) $ du lemme 3 soient vérifiées. Soit $ I_x $ l’ensemble des $ i \in I $ tels que $ x \in X_i $. C’est un ensemble fini. Soit $ U_x $ l’ensemble des $ (g, y) \in G \times V(x) $ tels que les $ \psi_i $, pour $ i \in I_x $, soient définies et coïncident dans un voisinage de $ (g, y) $. Alors $ U_x $ est ouvert et $ (e, x) \in U_x $. Les $ \psi_i $, pour $ i \in I_x $, ont toutes même restriction à $ U_x $. Soient $ x, y $ dans $ X $. Si $ U_x $ et $ U_y $ se rencontrent, $ V(x) $ et $ V(y) $ se rencontrent, donc il existe $ i \in I $ tel que
+Pour tout $(i, j) \in I \times I$ et tout $x \in X_i \cap X_j$, choisissons un voisinage ouvert $V_{ij}(x)$ de $x$ dans $X_i \cap X_j$ tel que $\psi_i$ et $\psi_j$ soient définies et égales sur un voisinage de $\{e\} \times V_{ij}(x)$ dans $G \times X$. Pour tout $x \in X$, choisissons un voisinage ouvert $V(x)$ de $x$ dans $X$ de telle sorte que les conditions $a)$ et $b)$ du lemme 3 soient vérifiées. Soit $I_x$ l’ensemble des $i \in I$ tels que $x \in X_i$. C’est un ensemble fini. Soit $U_x$ l’ensemble des $(g, y) \in G \times V(x)$ tels que les $\psi_i$, pour $i \in I_x$, soient définies et coïncident dans un voisinage de $(g, y)$. Alors $U_x$ est ouvert et $(e, x) \in U_x$. Les $\psi_i$, pour $i \in I_x$, ont toutes même restriction à $U_x$. Soient $x, y$ dans $X$. Si $U_x$ et $U_y$ se rencontrent, $V(x)$ et $V(y)$ se rencontrent, donc il existe $i \in I$ tel que
 
 $$
 V(x) \cup V(y) \subset X_i.
 $$
 
-Alors $ i \in I_x, i \in I_y, \psi_i|U_x = \psi_x, \psi_i|U_y = \psi_y $, donc $ \psi_x|(U_x \cap U_y) = \psi_y|(U_x \cap U_y) $. Les $ \psi_x $ définissent donc une application $ \psi $ de $ U = \bigcup_{x \in X} U_x $ dans $ X $, et $ U $ est un voisinage ouvert de $ \{e\} \times X $ dans $ G \times X $. Il est clair que $ \psi $ est de classe $ C^r $ et que $ \psi(e, x) = x $ pour tout $ x \in X $. Pour tout $ i \in I $ et tout $ x \in X_i $, $ \psi $ coïncide avec $ \psi_x $, donc avec $ \psi_i $, dans un voisinage de $ (e, x) $, donc $ \psi $ vérifie la condition (iii) de la déf. 6.
+Alors $i \in I_x, i \in I_y, \psi_i|U_x = \psi_x, \psi_i|U_y = \psi_y$, donc $\psi_x|(U_x \cap U_y) = \psi_y|(U_x \cap U_y)$. Les $\psi_x$ définissent donc une application $\psi$ de $U = \bigcup_{x \in X} U_x$ dans $X$, et $U$ est un voisinage ouvert de $\{e\} \times X$ dans $G \times X$. Il est clair que $\psi$ est de classe $C^r$ et que $\psi(e, x) = x$ pour tout $x \in X$. Pour tout $i \in I$ et tout $x \in X_i$, $\psi$ coïncide avec $\psi_x$, donc avec $\psi_i$, dans un voisinage de $(e, x)$, donc $\psi$ vérifie la condition (iii) de la déf. 6.
 
 ## EXERCICES {#lie-iii-s1-exercises}
 

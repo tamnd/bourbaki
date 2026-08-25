@@ -38,9 +38,9 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: 5a6d741a3c9723497d684a1442768896873a41c5849e9e9527a65a40ff6aca4e
+content_sha256: 14923a7fc7f2c6d1e0fb250578817d85a8babd48e51a4c78ecaac9e6a7e34a7c
 translated_from: content/en/alg/VIII/17_s17_reduced_norms_and_traces.md
-source_content_sha256: bde84f6dbcf91d0bcdf72573c6bb387df3d76d5b15c56546c1f7ee2706920cee
+source_content_sha256: 08c1f7f51bd2df11d29e638f229d1b484c7cda3e1bc21277c413e8819b54daaf
 translation_model: gpt-5-6, gpt-5.4, copied
 translation_run: translate-vi-02ef20f9
 glossary_version: 34
@@ -68,13 +68,13 @@ $$
 
 #### Mệnh đề 1 {#alg-viii-s17-prop-1 .statement tag=00KD}
 
-Cho L là một vành giao hoán, M là một L-môđun tự do có hạng hữu hạn m $ \geqslant 1 $, và u là một tự đồng cấu của M. Tồn tại một tự đồng cấu duy nhất $ \tilde{u} $ của M thỏa mãn quan hệ
+Cho L là một vành giao hoán, M là một L-môđun tự do có hạng hữu hạn m $\geqslant 1$, và u là một tự đồng cấu của M. Tồn tại một tự đồng cấu duy nhất $\tilde{u}$ của M thỏa mãn quan hệ
 
 $$
 \tilde{u}(x) \wedge w = x \wedge \wedge^{m-1}(u)(w)
 $$
 
-với $ x \in M $ và $ w \in \wedge^{m-1}(M) $. Ngoài ra, ta có các quan hệ
+với $x \in M$ và $w \in \wedge^{m-1}(M)$. Ngoài ra, ta có các quan hệ
 
 $$
 u \circ \tilde{u} = \tilde{u} \circ u = \det(u)_M,
@@ -88,9 +88,9 @@ $$
 
 #### Bổ đề 1 {#alg-viii-s17-lem-1 .statement tag=00KE}
 
-Cho p là một số nguyên sao cho $ 0 \leqslant p \leqslant m $. Với mọi w thuộc $ \wedge^p(M) $, gọi $ h_p(w) $ là ánh xạ tuyến tính $ w' \mapsto w \wedge w' $ từ $ \wedge^{m-p}(M) $ vào $ \wedge^m(M) $. Ánh xạ tuyến tính $ h_p : w \mapsto h_p(w) $ từ $ \wedge^p(M) $ vào $ \operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M)) $ là một đẳng cấu.
+Cho p là một số nguyên sao cho $0 \leqslant p \leqslant m$. Với mọi w thuộc $\wedge^p(M)$, gọi $h_p(w)$ là ánh xạ tuyến tính $w' \mapsto w \wedge w'$ từ $\wedge^{m-p}(M)$ vào $\wedge^m(M)$. Ánh xạ tuyến tính $h_p : w \mapsto h_p(w)$ từ $\wedge^p(M)$ vào $\operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M))$ là một đẳng cấu.
 
-Cho $ (e_i)_{i \in I} $ là một cơ sở của M; ta trang bị cho tập hợp I một thứ tự toàn phần. Với mọi tập con J của I, đặt $ e_J = e_{i_1} \wedge \cdots \wedge e_{i_r} $, trong đó $ (i_1, \ldots, i_r) $ là dãy các phần tử của J theo thứ tự tăng. L-môđun $ \wedge^{m-p}(M) $ nhận các phần tử $ e_S $ làm một cơ sở, trong đó S chạy qua tập hợp các tập con của I có $ m - p $ phần tử; $ \wedge^m(M) $ có $ \{e_I\} $ làm một cơ sở. Do đó, tồn tại một cơ sở của $ \operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M)) $ gồm các ánh xạ tuyến tính $ e_J^* $ được đặc trưng bởi công thức
+Cho $(e_i)_{i \in I}$ là một cơ sở của M; ta trang bị cho tập hợp I một thứ tự toàn phần. Với mọi tập con J của I, đặt $e_J = e_{i_1} \wedge \cdots \wedge e_{i_r}$, trong đó $(i_1, \ldots, i_r)$ là dãy các phần tử của J theo thứ tự tăng. L-môđun $\wedge^{m-p}(M)$ nhận các phần tử $e_S$ làm một cơ sở, trong đó S chạy qua tập hợp các tập con của I có $m - p$ phần tử; $\wedge^m(M)$ có $\{e_I\}$ làm một cơ sở. Do đó, tồn tại một cơ sở của $\operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M))$ gồm các ánh xạ tuyến tính $e_J^*$ được đặc trưng bởi công thức
 
 $$
 e_J^*(e_S) = \begin{cases}
@@ -99,15 +99,15 @@ e_I & \text{nếu } I = J \cup S, \\
 \end{cases}
 $$
 
-trong đó J chạy qua tập hợp các tập con của I có p phần tử. Từ công thức (20) của III, §7, No. 8, p. 519 suy ra rằng với mọi tập con J của I có p phần tử, ta có $ h_p(e_J) \in \{e_J^*, -e_J^*\} $; vì các phần tử $ e_J $ lập thành một cơ sở của $ \wedge^p(M) $, ánh xạ tuyến tính $ h_p $ là song ánh.
+trong đó J chạy qua tập hợp các tập con của I có p phần tử. Từ công thức (20) của III, §7, No. 8, p. 519 suy ra rằng với mọi tập con J của I có p phần tử, ta có $h_p(e_J) \in \{e_J^*, -e_J^*\}$; vì các phần tử $e_J$ lập thành một cơ sở của $\wedge^p(M)$, ánh xạ tuyến tính $h_p$ là song ánh.
 
-Bây giờ chứng minh Mệnh đề 1. Cho u và $ \tilde{u} $ là các tự đồng cấu của M. Quan hệ (3) tương đương với
+Bây giờ chứng minh Mệnh đề 1. Cho u và $\tilde{u}$ là các tự đồng cấu của M. Quan hệ (3) tương đương với
 
 $$
 h_1 \circ \tilde{u} = \operatorname{Hom}(\wedge^{m-1}(u) \cdot 1_{\wedge^m(M)}) \circ h_1;
 $$
 
-ánh xạ $ h_1 $ là một đẳng cấu từ M lên $ \operatorname{Hom}_L(\wedge^{m-1}(M), \wedge^m(M)) $ theo Bổ đề 1. Do đó, với mọi tự đồng cấu u của M, tồn tại một tự đồng cấu duy nhất $ \tilde{u} $ của M thỏa mãn quan hệ (3).
+ánh xạ $h_1$ là một đẳng cấu từ M lên $\operatorname{Hom}_L(\wedge^{m-1}(M), \wedge^m(M))$ theo Bổ đề 1. Do đó, với mọi tự đồng cấu u của M, tồn tại một tự đồng cấu duy nhất $\tilde{u}$ của M thỏa mãn quan hệ (3).
 
 Cho $x_1, . . . , x_m$ là các phần tử của M. Hãy thay thế $x$ bằng $u(x_1)$ và $w$ bằng $x_2\wedge  \cdots  \wedge x_m$ trong (3); ta thu được
 
@@ -527,7 +527,7 @@ $$
 
 một đa thức đơn khởi với các hệ số trong $K'$. Khi đó đa thức Q = $N_{K'[X]/K[X]}(P)$ trong K[X] là đơn khởi bậc $sd$, hệ số của $X^{sd-1}$ trong Q(X) bằng Tr$_{K'/K}(a_1)$, và số hạng hằng của Q là $N_{K'/K}(a_s)$.
 
-Ta ký hiệu $K'$-đại số $K'[T]/(P(T))$ bởi $K''$ và lớp chính tắc của T trong $K''$ bởi $t$. Dãy $(1, t, . . . , t^{s-1})$ là một cơ sở của $K''$ trên $K'$, và ma trận của phép nhân bởi $ t $ trong cơ sở này có dạng
+Ta ký hiệu $K'$-đại số $K'[T]/(P(T))$ bởi $K''$ và lớp chính tắc của T trong $K''$ bởi $t$. Dãy $(1, t, . . . , t^{s-1})$ là một cơ sở của $K''$ trên $K'$, và ma trận của phép nhân bởi $t$ trong cơ sở này có dạng
 
 $$
 \tau = \begin{pmatrix}
@@ -539,7 +539,7 @@ $$
 \end{pmatrix}.
 $$
 
-Định thức của $ XI_n - \tau $ được tính bằng quy nạp theo $ s $, bằng cách khai triển theo hàng thứ nhất. Ta thu được $ \det(XI_n - \tau) = P(X) $. Nói cách khác, ta có $ P(X) = Pc_{K''/K'}(t; X) $. Đặc biệt, $ \operatorname{Tr}_{K''/K'}(t) = -a_1 $ và $ N_{K''/K'}(t) = (-1)^s a_s $. Theo công thức tính bắc cầu (III, §9, No. 4, p. 548, Hệ quả), ta có
+Định thức của $XI_n - \tau$ được tính bằng quy nạp theo $s$, bằng cách khai triển theo hàng thứ nhất. Ta thu được $\det(XI_n - \tau) = P(X)$. Nói cách khác, ta có $P(X) = Pc_{K''/K'}(t; X)$. Đặc biệt, $\operatorname{Tr}_{K''/K'}(t) = -a_1$ và $N_{K''/K'}(t) = (-1)^s a_s$. Theo công thức tính bắc cầu (III, §9, No. 4, p. 548, Hệ quả), ta có
 
 $$
 \operatorname{Tr}_{K''/K}(t) = -\operatorname{Tr}_{K'/K}(a_1), \quad N_{K''/K}(t) = (-1)^{sd} N_{K'/K}(a_s),
@@ -548,19 +548,19 @@ $$
 Q(X) = Pc_{K''/K}(t; X).
 $$
 
-Mặt khác, $[K'' : K] = [K'' : K'][K' : K] = sd$, nên $ Q(X) $ là một đa thức đơn khởi bậc $ sd $. Bổ đề 6 được suy ra.
+Mặt khác, $[K'' : K] = [K'' : K'][K' : K] = sd$, nên $Q(X)$ là một đa thức đơn khởi bậc $sd$. Bổ đề 6 được suy ra.
 
-Hãy chứng minh Mệnh đề 8. Vì vành $ B $ là đơn, tâm của nó $ L $ là một trường (VIII, p. 121, Hệ quả 1). Theo Định lý 5 của VIII, p. 259, hoán tập $ B' $ của $ B $ trong $ A $ là một vành đơn có tâm $ L $, và ta có đẳng thức $[A : K] = [B : K][B' : K]$. Ta ký hiệu bậc thu gọn của $ B' $ trên $ L $ là $ r $, bậc thu gọn của $ B $ trên $ L $ là $ s $, và bậc của $ L $ trên $ K $ là $ d $. Ta có
+Hãy chứng minh Mệnh đề 8. Vì vành $B$ là đơn, tâm của nó $L$ là một trường (VIII, p. 121, Hệ quả 1). Theo Định lý 5 của VIII, p. 259, hoán tập $B'$ của $B$ trong $A$ là một vành đơn có tâm $L$, và ta có đẳng thức $[A : K] = [B : K][B' : K]$. Ta ký hiệu bậc thu gọn của $B'$ trên $L$ là $r$, bậc thu gọn của $B$ trên $L$ là $s$, và bậc của $L$ trên $K$ là $d$. Ta có
 
 $$
 [A : K] = n^2, \quad [B' : K] = r^2 d, \quad [B : K] = s^2 d,
 $$
 
-và do đó $ n^2 = r^2 s^2 d^2 $, nghĩa là $ n = rsd $.
+và do đó $n^2 = r^2 s^2 d^2$, nghĩa là $n = rsd$.
 
-Cho $ b $ là một phần tử của $ B $, và gọi $ P(X) $ là đa thức đặc trưng rút gọn của nó trên $ L $-đại số $ B $; nó là monic bậc $ s $. Theo Bổ đề 6, đa thức $ Q = N_{L[X]/K[X]}(P) $ là monic bậc $ sd $. Do đó đa thức $ R = Q^r $ là monic bậc $ rsd = n $. Lại theo Bổ đề 6, hệ số của $ X^{n-1} $ trong $ R(X) $ bằng $ -r \operatorname{Tr}_{L/K}(\operatorname{Trd}_{B/L}(b)) $, và số hạng hằng của $ R(X) $ là $ (N_{L/K}((-1)^s \operatorname{Nrd}_{B/L}(b)))^r = (-1)^n N_{L/K}(\operatorname{Nrd}_{B/L}(b))^r $.
+Cho $b$ là một phần tử của $B$, và gọi $P(X)$ là đa thức đặc trưng rút gọn của nó trên $L$-đại số $B$; nó là monic bậc $s$. Theo Bổ đề 6, đa thức $Q = N_{L[X]/K[X]}(P)$ là monic bậc $sd$. Do đó đa thức $R = Q^r$ là monic bậc $rsd = n$. Lại theo Bổ đề 6, hệ số của $X^{n-1}$ trong $R(X)$ bằng $-r \operatorname{Tr}_{L/K}(\operatorname{Trd}_{B/L}(b))$, và số hạng hằng của $R(X)$ là $(N_{L/K}((-1)^s \operatorname{Nrd}_{B/L}(b)))^r = (-1)^n N_{L/K}(\operatorname{Nrd}_{B/L}(b))^r$.
 
-Vì $[A : K] = r^2 d[B : K]$, $ B $-môđun trái $ A $ là tự do hạng $ r^2 d $ (VIII, p. 124, Mệnh đề 5). Do đó ta có
+Vì $[A : K] = r^2 d[B : K]$, $B$-môđun trái $A$ là tự do hạng $r^2 d$ (VIII, p. 124, Mệnh đề 5). Do đó ta có
 
 $$
 \operatorname{Pc}_{A/K}(b; X) = \operatorname{Pc}_{B/K}(b; X)^{dr^2}.

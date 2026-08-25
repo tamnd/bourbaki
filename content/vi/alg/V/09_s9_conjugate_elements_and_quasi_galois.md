@@ -30,9 +30,9 @@ subsections:
       pdf_page: 169
 statements: 19
 exercises: 8
-content_sha256: e464c81fd63a101ccf00e9e74311f0ce5aca1c1a5930974e99cb5adc1d51a466
+content_sha256: 7af7583b97126535ccf75c270699be5819d53207d17c034bf3c23606fc333878
 translated_from: content/en/alg/V/09_s9_conjugate_elements_and_quasi_galois.md
-source_content_sha256: 0e2753f62dd2c70a2305d5d6a45b5fd4e991b15c44499d185806f6afd21ffbe8
+source_content_sha256: c71157cd922d476b1b228708495f9f9f1ee9a9b4740af6b3058e100e9e1d1ca3
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-3c913cac
 glossary_version: 34
@@ -42,112 +42,112 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 9. CÁC PHẦN TỬ LIÊN HỢP VÀ CÁC MỞ RỘNG TỰA-GALOIS
 
-Trong suốt đoạn này, K ký hiệu một trường và $ \Omega $ một bao đóng đại số của K.
+Trong suốt đoạn này, K ký hiệu một trường và $\Omega$ một bao đóng đại số của K.
 
 ### 1. Mở rộng các đẳng cấu
 
 #### Mệnh đề 1 {#alg-v-s9-prop-1 .statement}
 
-— Cho E là một mở rộng của K được chứa trong $ \Omega $ và u là một K-đồng cấu từ E vào $ \Omega $.
+— Cho E là một mở rộng của K được chứa trong $\Omega$ và u là một K-đồng cấu từ E vào $\Omega$.
 
 a) Nếu u ánh xạ E vào E, thì u cảm sinh một K-tự đẳng cấu của E.
 
-b) Tồn tại một K-tự đẳng cấu v của $ \Omega $ mở rộng u.
+b) Tồn tại một K-tự đẳng cấu v của $\Omega$ mở rộng u.
 
-Giả sử rằng $ u(E) \subset E $; để chứng minh a), chỉ cần chứng minh rằng $ u(E) = E $. Cho x là một phần tử của E, f là đa thức tối tiểu của x trên K và $ \Phi $ là tập hợp các nghiệm của f trong E. Tập hợp $ \Phi $ là hữu hạn, ánh xạ u từ E vào E là đơn ánh và ta có $ u(\Phi) \subset \Phi $; do đó $ u(\Phi) = \Phi $, suy ra $ x \in u(\Phi) \subset u(E) $; điều này chứng tỏ rằng $ E = u(E) $.
+Giả sử rằng $u(E) \subset E$; để chứng minh a), chỉ cần chứng minh rằng $u(E) = E$. Cho x là một phần tử của E, f là đa thức tối tiểu của x trên K và $\Phi$ là tập hợp các nghiệm của f trong E. Tập hợp $\Phi$ là hữu hạn, ánh xạ u từ E vào E là đơn ánh và ta có $u(\Phi) \subset \Phi$; do đó $u(\Phi) = \Phi$, suy ra $x \in u(\Phi) \subset u(E)$; điều này chứng tỏ rằng $E = u(E)$.
 
-Hiển nhiên $ \Omega $ là một bao đóng đại số của E và của $ u(E) $; do đó (V, p. 23, Hệ quả), đẳng cấu u từ E lên $ u(E) $ mở rộng thành một đẳng cấu v từ $ \Omega $ lên $ \Omega $.
+Hiển nhiên $\Omega$ là một bao đóng đại số của E và của $u(E)$; do đó (V, p. 23, Hệ quả), đẳng cấu u từ E lên $u(E)$ mở rộng thành một đẳng cấu v từ $\Omega$ lên $\Omega$.
 
 ### 2. Các mở rộng liên hợp. Các phần tử liên hợp
 
 #### Định nghĩa 1 {#alg-v-s9-def-1 .statement}
 
-— Cho E và F là hai mở rộng của K được chứa trong $ \Omega $. Ta nói rằng E và F là liên hợp (trong $ \Omega $) nếu tồn tại một K-tự đẳng cấu u của $ \Omega $ sao cho $ u(E) = F $. Hai phần tử x và y của $ \Omega $ được gọi là liên hợp trên K nếu tồn tại một K-tự đẳng cấu u của $ \Omega $ sao cho $ u(x) = y $.
+— Cho E và F là hai mở rộng của K được chứa trong $\Omega$. Ta nói rằng E và F là liên hợp (trong $\Omega$) nếu tồn tại một K-tự đẳng cấu u của $\Omega$ sao cho $u(E) = F$. Hai phần tử x và y của $\Omega$ được gọi là liên hợp trên K nếu tồn tại một K-tự đẳng cấu u của $\Omega$ sao cho $u(x) = y$.
 
-Cho E và F là hai mở rộng của K được chứa trong $ \Omega $. Theo Mệnh đề 1, E và F liên hợp trên K khi và chỉ khi chúng là các mở rộng đẳng cấu của K. Điều này đặc biệt đúng khi tồn tại hai tập con A và B của $ \Omega $ sao cho $ E = K(A) $ và $ F = K(B) $ và một K-tự đẳng cấu u của $ \Omega $ sao cho $ u(A) = B $.
+Cho E và F là hai mở rộng của K được chứa trong $\Omega$. Theo Mệnh đề 1, E và F liên hợp trên K khi và chỉ khi chúng là các mở rộng đẳng cấu của K. Điều này đặc biệt đúng khi tồn tại hai tập con A và B của $\Omega$ sao cho $E = K(A)$ và $F = K(B)$ và một K-tự đẳng cấu u của $\Omega$ sao cho $u(A) = B$.
 
-Quan hệ « x và y liên hợp trên K » là một quan hệ tương đương trong $ \Omega $; -các lớp tương đương được gọi là các lớp liên hợp trong $ \Omega $; chúng là các quỹ đạo trong $ \Omega $ của nhóm tất cả các K-tự đẳng cấu của $ \Omega $.
+Quan hệ « x và y liên hợp trên K » là một quan hệ tương đương trong $\Omega$; -các lớp tương đương được gọi là các lớp liên hợp trong $\Omega$; chúng là các quỹ đạo trong $\Omega$ của nhóm tất cả các K-tự đẳng cấu của $\Omega$.
 
 #### Mệnh đề 2 {#alg-v-s9-prop-2 .statement}
 
-— Cho x và y là hai phần tử của $ \Omega $. Khi đó các điều kiện sau là tương đương:
+— Cho x và y là hai phần tử của $\Omega$. Khi đó các điều kiện sau là tương đương:
 
 a) x và y liên hợp trên K.
 
-b) Tồn tại một K-đẳng cấu o từ $ K(x) $ lên $ K(y) $ sao cho $ v(x) = y $.
+b) Tồn tại một K-đẳng cấu o từ $K(x)$ lên $K(y)$ sao cho $v(x) = y$.
 
 c) x và y có cùng đa thức tối tiểu trên K.
 
-Trước hết, giả sử x và y liên hợp trên K; gọi u là một K-tự đẳng cấu của $ \Omega $ sao cho $ u(x) = y $ và gọi f là đa thức tối tiểu của x trên K. Ta có
+Trước hết, giả sử x và y liên hợp trên K; gọi u là một K-tự đẳng cấu của $\Omega$ sao cho $u(x) = y$ và gọi f là đa thức tối tiểu của x trên K. Ta có
 
 $$
 f(y) = f(u(x)) = u(f(x)) = 0,
 $$
 
-và $ f $ là một đa thức bất khả quy đơn nhất trong $ \mathbf{K}[X] $; do đó ($ V $, p. 16, Định lý 1, c)), $ f $ là đa thức tối tiểu của $ y $ trên $ K $. Vậy $ a) $ kéo theo $ c) $.
+và $f$ là một đa thức bất khả quy đơn nhất trong $\mathbf{K}[X]$; do đó ($V$, p. 16, Định lý 1, c)), $f$ là đa thức tối tiểu của $y$ trên $K$. Vậy $a)$ kéo theo $c)$.
 
-Giả sử giờ đây $ x $ và $ y $ có cùng đa thức tối tiểu $ f $ trên $ K $. Tồn tại một $ K $-đẳng cấu của trường $ \mathbf{K}[X]/(f) $ lên $ \mathbf{K}(x) $ (resp. lên $ \mathbf{K}(y) $) gửi lớp thặng dư của $ X $ modulo $ (f) $ đến $ x $ (resp. $ y $) ($ V $, p. 16, ĐL. 1, b)); do đó tồn tại một $ K $-đẳng cấu $ v $ của $ \mathbf{K}(x) $ lên $ \mathbf{K}(y) $ sao cho $ v(x) = y $. Vì vậy $ c) $ suy ra $ b) $.
+Giả sử giờ đây $x$ và $y$ có cùng đa thức tối tiểu $f$ trên $K$. Tồn tại một $K$-đẳng cấu của trường $\mathbf{K}[X]/(f)$ lên $\mathbf{K}(x)$ (resp. lên $\mathbf{K}(y)$) gửi lớp thặng dư của $X$ modulo $(f)$ đến $x$ (resp. $y$) ($V$, p. 16, ĐL. 1, b)); do đó tồn tại một $K$-đẳng cấu $v$ của $\mathbf{K}(x)$ lên $\mathbf{K}(y)$ sao cho $v(x) = y$. Vì vậy $c)$ suy ra $b)$.
 
-Sau cùng, dưới giả thiết $ b) $, Mệnh đề 1 suy ra tồn tại một $ K $-tự đẳng cấu $ u $ của $ \Omega $ kéo dài $ v $; khi đó ta có $ u(x) = y $, do đó $ x $ và $ y $ liên hợp trên $ K $, nên $ b) $ suy ra $ a) $.
+Sau cùng, dưới giả thiết $b)$, Mệnh đề 1 suy ra tồn tại một $K$-tự đẳng cấu $u$ của $\Omega$ kéo dài $v$; khi đó ta có $u(x) = y$, do đó $x$ và $y$ liên hợp trên $K$, nên $b)$ suy ra $a)$.
 
 #### Hệ quả 1 {#alg-v-s9-prop-2-cor-1 .statement}
 
-— *Cho $ x $ là một phần tử của $ \Omega $ có bậc $ n $ trên $ K $, và cho $ f $ là đa thức tối tiểu của $ x $ trên $ K $. Các phần tử liên hợp của $ x $ trên $ K $ là các nghiệm của $ f $ trong $ \Omega $ và số của chúng không lớn hơn $ n $.*
+— *Cho $x$ là một phần tử của $\Omega$ có bậc $n$ trên $K$, và cho $f$ là đa thức tối tiểu của $x$ trên $K$. Các phần tử liên hợp của $x$ trên $K$ là các nghiệm của $f$ trong $\Omega$ và số của chúng không lớn hơn $n$.*
 
 #### Hệ quả 2 {#alg-v-s9-prop-2-cor-2 .statement}
 
-— *Cho $ x $ là một phần tử của $ \Omega $ có bậc $ n $ trên $ K $. Để $ x $ tách được trên $ K $ thì điều kiện cần và đủ là $ x $ phải có $ n $ phần tử liên hợp trong $ \Omega $; khi đó, mọi phần tử liên hợp của $ x $ trên $ K $ đều tách được trên $ K $.*
+— *Cho $x$ là một phần tử của $\Omega$ có bậc $n$ trên $K$. Để $x$ tách được trên $K$ thì điều kiện cần và đủ là $x$ phải có $n$ phần tử liên hợp trong $\Omega$; khi đó, mọi phần tử liên hợp của $x$ trên $K$ đều tách được trên $K$.*
 
 ==========
 
 #### Hệ quả 3 {#alg-v-s9-prop-2-cor-3 .statement}
 
-— *Cho $ f $ là đa thức tối tiểu của $ x $ trên $ K $; các nghiệm của nó là các liên hợp của $ x $ trên $ K $, và mỗi nghiệm ấy nhận $ f $ làm đa thức tối tiểu trên $ K $. Bây giờ $ x $ tách được trên $ K $ khi và chỉ khi đa thức $ f $ tách được ($ V $, p. 39, Mệnh đề 5), tức là nếu $ f $ có $ n $ nghiệm phân biệt trong $ \Omega $. Hệ quả 2 suy ra từ đó.*
+— *Cho $f$ là đa thức tối tiểu của $x$ trên $K$; các nghiệm của nó là các liên hợp của $x$ trên $K$, và mỗi nghiệm ấy nhận $f$ làm đa thức tối tiểu trên $K$. Bây giờ $x$ tách được trên $K$ khi và chỉ khi đa thức $f$ tách được ($V$, p. 39, Mệnh đề 5), tức là nếu $f$ có $n$ nghiệm phân biệt trong $\Omega$. Hệ quả 2 suy ra từ đó.*
 
 ### 3. Các mở rộng quasi-Galois
 
 #### Định nghĩa 2 {#alg-v-s9-def-2 .statement}
 
-— *Cho $ E $ là một mở rộng của $ K $. Khi đó $ E $ được gọi là quasi-Galois hay chuẩn tắc (trên $ K $), nếu nó là đại số và nếu mọi đa thức bất khả quy của $ K[X] $ có ít nhất một nghiệm trong $ E $, đều phân tích thành một tích các đa thức bậc 1 (phân biệt hay không) trong $ E[X] $.
+— *Cho $E$ là một mở rộng của $K$. Khi đó $E$ được gọi là quasi-Galois hay chuẩn tắc (trên $K$), nếu nó là đại số và nếu mọi đa thức bất khả quy của $K[X]$ có ít nhất một nghiệm trong $E$, đều phân tích thành một tích các đa thức bậc 1 (phân biệt hay không) trong $E[X]$.
 
-Nếu $ E $ là một bao đóng đại số của $ K $, thì nó là một mở rộng quasi-Galois của $ K $; vì điều kiện (AC) của Mệnh đề 1 ($ V $, p. 19) khẳng định rằng mọi đa thức không hằng trong $ E[X] $ đều là một tích các đa thức bậc 1.*
+Nếu $E$ là một bao đóng đại số của $K$, thì nó là một mở rộng quasi-Galois của $K$; vì điều kiện (AC) của Mệnh đề 1 ($V$, p. 19) khẳng định rằng mọi đa thức không hằng trong $E[X]$ đều là một tích các đa thức bậc 1.*
 
 #### Mệnh đề 3 {#alg-v-s9-prop-3 .statement}
 
-— Cho E là một mở rộng của K được chứa trong $ \Omega $. Khi đó các điều kiện sau là tương đương:
+— Cho E là một mở rộng của K được chứa trong $\Omega$. Khi đó các điều kiện sau là tương đương:
 a) E là một mở rộng quasi-Galois của K.
-b) Với mỗi $ x \in E $ các phần tử liên hợp của $ x $ trên K trong $ \Omega $ đều thuộc E.
-c) Mọi tự đẳng cấu trên K của $ \Omega $ đều ánh xạ trường E vào chính nó.
-d) Mọi đồng cấu trên K của E vào $ \Omega $ đều ánh xạ E vào chính nó.
-e) E là mở rộng tách trong $ \Omega $ của một họ $ (f_i)_{i \in I} $ các đa thức không hằng trong $ K[X] $ ($ V $, p. 24, Nhận xét 3).
+b) Với mỗi $x \in E$ các phần tử liên hợp của $x$ trên K trong $\Omega$ đều thuộc E.
+c) Mọi tự đẳng cấu trên K của $\Omega$ đều ánh xạ trường E vào chính nó.
+d) Mọi đồng cấu trên K của E vào $\Omega$ đều ánh xạ E vào chính nó.
+e) E là mở rộng tách trong $\Omega$ của một họ $(f_i)_{i \in I}$ các đa thức không hằng trong $K[X]$ ($V$, p. 24, Nhận xét 3).
 
-Sự tương đương của c) và d) xuất phát từ thực tế rằng mọi K-đồng cấu của E vào $ \Omega $ đều được cảm sinh bởi một K-tự đẳng cấu của $ \Omega $ (V, p. 52, Mệnh đề 1).
+Sự tương đương của c) và d) xuất phát từ thực tế rằng mọi K-đồng cấu của E vào $\Omega$ đều được cảm sinh bởi một K-tự đẳng cấu của $\Omega$ (V, p. 52, Mệnh đề 1).
 
-Theo định nghĩa, một mở rộng quasi-Galois là trường phân rã của họ các đa thức cực tiểu (trên K) của các phần tử của nó, nên a) suy ra e). Dưới giả thiết e) cho $ u $ là một tự đẳng cấu của $ \Omega $; với mỗi $ i \in I $, $ u $ hoán vị tập $ R_i $ các nghiệm của $ f_i $ và vì $ E = K \left( \bigcup_{i \in I} R_i \right) $, ta có $ u(E) = E $; do đó e) suy ra c).
+Theo định nghĩa, một mở rộng quasi-Galois là trường phân rã của họ các đa thức cực tiểu (trên K) của các phần tử của nó, nên a) suy ra e). Dưới giả thiết e) cho $u$ là một tự đẳng cấu của $\Omega$; với mỗi $i \in I$, $u$ hoán vị tập $R_i$ các nghiệm của $f_i$ và vì $E = K \left( \bigcup_{i \in I} R_i \right)$, ta có $u(E) = E$; do đó e) suy ra c).
 
-Định nghĩa các phần tử liên hợp cho thấy c) suy ra b). Cuối cùng giả sử rằng b) đúng; cho $ f $ là một đa thức bất khả quy đơn thức trong $ K[X] $ có ít nhất một nghiệm $ x $ trong E; vì $ \Omega $ là đóng đại số, tồn tại các phần tử $ a_k $ của $ \Omega $ ($ 1 \leq k \leq n $) sao cho $ f(x) = \prod_{k=1}^n (X - a_k) $ và vì các $ a_k $ là các liên hợp của x trên K (V, p. 53, Hệ quả 1), chúng thuộc E theo giả thiết. Vậy ta đã chứng minh rằng b) suy ra a).
+Định nghĩa các phần tử liên hợp cho thấy c) suy ra b). Cuối cùng giả sử rằng b) đúng; cho $f$ là một đa thức bất khả quy đơn thức trong $K[X]$ có ít nhất một nghiệm $x$ trong E; vì $\Omega$ là đóng đại số, tồn tại các phần tử $a_k$ của $\Omega$ ($1 \leq k \leq n$) sao cho $f(x) = \prod_{k=1}^n (X - a_k)$ và vì các $a_k$ là các liên hợp của x trên K (V, p. 53, Hệ quả 1), chúng thuộc E theo giả thiết. Vậy ta đã chứng minh rằng b) suy ra a).
 
 #### Hệ quả 1 {#alg-v-s9-prop-3-cor-1 .statement}
 
-— Để một mở rộng E của K được chứa trong $ \Omega $ là quasi-Galois thì cần và đủ là nó đồng nhất với mọi liên hợp của nó trên K.
+— Để một mở rộng E của K được chứa trong $\Omega$ là quasi-Galois thì cần và đủ là nó đồng nhất với mọi liên hợp của nó trên K.
 
 Điều này suy ra từ Mệnh đề 1, a) (V, p. 52) và tính tương đương của các điều kiện a) và c) của Mệnh đề 3.
 
 #### Hệ quả 2 {#alg-v-s9-prop-3-cor-2 .statement}
 
-— Cho E và F là hai mở rộng của K sao cho $ E \subset F $. Nếu F là quasi-Galois trên K, thì nó là quasi-Galois trên E.
+— Cho E và F là hai mở rộng của K sao cho $E \subset F$. Nếu F là quasi-Galois trên K, thì nó là quasi-Galois trên E.
 
-Ta có thể giả sử rằng $ F \subset \Omega $. Cho $ u $ là một E-tự đẳng cấu của $ \Omega $. Vì $ u $ là một K-tự đẳng cấu của $ \Omega $ và F là quasi-Galois trên K, ta có $ u(F) = F $, do đó F là quasi-Galois trên E.
+Ta có thể giả sử rằng $F \subset \Omega$. Cho $u$ là một E-tự đẳng cấu của $\Omega$. Vì $u$ là một K-tự đẳng cấu của $\Omega$ và F là quasi-Galois trên K, ta có $u(F) = F$, do đó F là quasi-Galois trên E.
 
 #### Hệ quả 3 {#alg-v-s9-prop-3-cor-3 .statement}
 
-— Cho N là một mở rộng quasi-Galois của K được chứa trong $ \Omega $, và E là một mở rộng con của N. Cho $ u $ là một đồng cấu K của E vào $ \Omega $; khi đó $ u(E) \subset N $ và tồn tại một K-tự đẳng cấu $ v $ của N cảm sinh $ u $ trên E.
+— Cho N là một mở rộng quasi-Galois của K được chứa trong $\Omega$, và E là một mở rộng con của N. Cho $u$ là một đồng cấu K của E vào $\Omega$; khi đó $u(E) \subset N$ và tồn tại một K-tự đẳng cấu $v$ của N cảm sinh $u$ trên E.
 
-Cho $ w $ là một K-tự đẳng cấu của $ \Omega $ mở rộng $ u $ (V, p. 52, Mệnh đề 1); vì N là quasi-Galois trên K, ta có $ w(N) = N $, do đó $ w(E) \subset N $ và vì vậy $ w $ cảm sinh một K-tự đẳng cấu $ v $ của N.
+Cho $w$ là một K-tự đẳng cấu của $\Omega$ mở rộng $u$ (V, p. 52, Mệnh đề 1); vì N là quasi-Galois trên K, ta có $w(N) = N$, do đó $w(E) \subset N$ và vì vậy $w$ cảm sinh một K-tự đẳng cấu $v$ của N.
 
 #### Hệ quả 4 {#alg-v-s9-prop-3-cor-4 .statement}
 
-— Cho $ E' $ là một mở rộng của K và E, $ K' $ là hai mở rộng con của $ E' $. Giả sử rằng E là quasi-Galois trên K và $ E' = K'(E) $; khi đó $ E' $ là quasi-Galois trên $ K' $.
+— Cho $E'$ là một mở rộng của K và E, $K'$ là hai mở rộng con của $E'$. Giả sử rằng E là quasi-Galois trên K và $E' = K'(E)$; khi đó $E'$ là quasi-Galois trên $K'$.
 
 Cho $(f_i)_{i \in I}$ là một họ các đa thức không hằng trong $K[X]$ mà trường phân rã trên $K$ của chúng là $E$. Khi đó hiển nhiên $E'$ là trường phân rã của họ $(f_i)_{i \in I}$ trên $K'$, nên nó là quasi-Galois trên $K'$.
 
@@ -177,17 +177,17 @@ Mệnh đề sau suy ra trực tiếp từ các nhận xét trên.
 
 #### Mệnh đề 5 {#alg-v-s9-prop-5 .statement}
 
-— Cho $E$ là một mở rộng của $K$ được chứa trong $ \Omega $ và $N$ là mở rộng quasi-Galois được sinh bởi $E$. Nếu $A$ là một tập con của $ \Omega $ sao cho $ E = K(A) $ thì $ N = K(B) $, trong đó $B$ là tập hợp các phần tử của $ \Omega $ liên hợp với một phần tử của $A$.
+— Cho $E$ là một mở rộng của $K$ được chứa trong $\Omega$ và $N$ là mở rộng quasi-Galois được sinh bởi $E$. Nếu $A$ là một tập con của $\Omega$ sao cho $E = K(A)$ thì $N = K(B)$, trong đó $B$ là tập hợp các phần tử của $\Omega$ liên hợp với một phần tử của $A$.
 
 #### Hệ quả 1 {#alg-v-s9-prop-5-cor-1 .statement}
 
 — Nếu $E$ là một mở rộng bậc hữu hạn của $K$, thì mở rộng quasi-Galois $N$ của $K$ được sinh bởi $E$ có bậc hữu hạn trên $K$.
-Thật vậy, ta có $ E = K(A) $ trong đó $A$ là hữu hạn, do đó tập $B$ gồm các phần tử liên hợp của các phần tử của $A$ là hữu hạn, suy ra hệ quả theo Đl. 2 (V, p. 18).
+Thật vậy, ta có $E = K(A)$ trong đó $A$ là hữu hạn, do đó tập $B$ gồm các phần tử liên hợp của các phần tử của $A$ là hữu hạn, suy ra hệ quả theo Đl. 2 (V, p. 18).
 
 #### Hệ quả 2 {#alg-v-s9-prop-5-cor-2 .statement}
 
 — Mọi mở rộng quasi-Galois $N$ của $K$ đều là hợp của các mở rộng con quasi-Galois của $N$ có bậc hữu hạn trên $K$.
-Lấy $ x \in N $ và đặt $ N_x $ là mở rộng quasi-Galois của $K$ được sinh bởi $ \{x\} $. Vì $ K(x) $ có bậc hữu hạn trên $K$, nên $ N_x $ cũng vậy (Hệ quả 1) và ta có $ x \in N_x $.
+Lấy $x \in N$ và đặt $N_x$ là mở rộng quasi-Galois của $K$ được sinh bởi $\{x\}$. Vì $K(x)$ có bậc hữu hạn trên $K$, nên $N_x$ cũng vậy (Hệ quả 1) và ta có $x \in N_x$.
 
 ### Bài tập {#alg-v-s9-exercises}
 

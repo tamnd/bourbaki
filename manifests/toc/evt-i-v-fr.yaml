@@ -430,7 +430,7 @@ chapters:
               page: 25
               pdf_page: 160
             - "no": 3
-              title: Parties bornées de $ \mathcal{L}(E ; F) $ (cas quasi-complet)
+              title: Parties bornées de $\mathcal{L}(E ; F)$ (cas quasi-complet)
               page: 27
               pdf_page: 162
           exercises:

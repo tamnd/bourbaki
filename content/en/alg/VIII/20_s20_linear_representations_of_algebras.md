@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: 5ff83d16e3a49fa515ef33dc4d59f5844d64a112e8716f6ee4b4cde01df7b682
+content_sha256: 21c69879c69520e4304c8e59f7cf5de59d95e3feeda2214b3e1f184b31eb4b34
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -411,9 +411,9 @@ Let $\mathscr{A}$ be a generating subset of the K-vector space A. The homomorphi
 
 Let $x$ be an element of $R_K(A)$ such that $\chi_{\mathscr{A}}(x) = 1$. By (11), we have $\theta (x)(a) = 0$ for every $a\in \mathscr{A}$, and therefore $\theta (x) = 0$ because $\theta (x)$ is a K-linear form on A and $\mathscr{A}$ generates the K-vector space A. If the characteristic of K is zero, then this implies $x= 0$ (VIII, p. 384, Corollary of Proposition 6), and therefore the result in this case. Suppose from now on that the characteristic $p$ of K is nonzero.
 
-Let us first treat the case when K is algebraically closed. By the above and loc. cit., we then have $x\in pR_K(A)$. Let $y\in R_K(A)$ be such that $x=py$. For every element $a$ of $\mathscr{A}$, we have $\chi_a(y)^p=\chi_a(py) =\chi_a(x) = 1$. So we have $(\chi_a(y)-1)^p= 0$, and therefore $\chi_a(y) = 1$ because the ring K[[T]] is an integral domain. So $ y $ belongs to the kernel of the endomorphism $ \chi_{\mathscr{A}} $. It follows by induction that $ x $ belongs to $ p^n R_K(A) $ for every integer $ n \geq 1 $. Since $ R_K(A) $ is a free $ \mathbf{Z} $-module, this implies $ x = 0 $, and therefore the injectivity of $ \chi_{\mathscr{A}} $ in this case.
+Let us first treat the case when K is algebraically closed. By the above and loc. cit., we then have $x\in pR_K(A)$. Let $y\in R_K(A)$ be such that $x=py$. For every element $a$ of $\mathscr{A}$, we have $\chi_a(y)^p=\chi_a(py) =\chi_a(x) = 1$. So we have $(\chi_a(y)-1)^p= 0$, and therefore $\chi_a(y) = 1$ because the ring K[[T]] is an integral domain. So $y$ belongs to the kernel of the endomorphism $\chi_{\mathscr{A}}$. It follows by induction that $x$ belongs to $p^n R_K(A)$ for every integer $n \geq 1$. Since $R_K(A)$ is a free $\mathbf{Z}$-module, this implies $x = 0$, and therefore the injectivity of $\chi_{\mathscr{A}}$ in this case.
 
-If $ K $ is no longer supposed to be algebraically closed, then we choose an algebraic closure $ \overline{K} $ of $ K $ and consider the diagram of groups and group homomorphisms
+If $K$ is no longer supposed to be algebraically closed, then we choose an algebraic closure $\overline{K}$ of $K$ and consider the diagram of groups and group homomorphisms
 
 $$
 \begin{array}{ccc}
@@ -423,26 +423,26 @@ R_{\overline{K}}(A_{(\overline{K})}) & \xrightarrow{\overline{\chi}_{\mathscr{A}
 \end{array}
 $$
 
-where $ u $ is the homomorphism deduced from the extension of scalars from $ K $ to $ \overline{K} $ (VIII, p. 195), $ i $ is the canonical injection, and $ \overline{\chi}_{\mathscr{A}} $ is the homomorphism $ z \mapsto (\chi_{1 \otimes a}(z))_{a \in \mathscr{A}} $. By formula (12) of III, §9, No. 1, p. 542, diagram (12) is commutative. By the above, the homomorphism $ \overline{\chi}_{\mathscr{A}} $ is injective. Since $ u $ is injective (VIII, p. 195, Theorem 1), the homomorphism $ \chi_{\mathscr{A}} $ is injective.
+where $u$ is the homomorphism deduced from the extension of scalars from $K$ to $\overline{K}$ (VIII, p. 195), $i$ is the canonical injection, and $\overline{\chi}_{\mathscr{A}}$ is the homomorphism $z \mapsto (\chi_{1 \otimes a}(z))_{a \in \mathscr{A}}$. By formula (12) of III, §9, No. 1, p. 542, diagram (12) is commutative. By the above, the homomorphism $\overline{\chi}_{\mathscr{A}}$ is injective. Since $u$ is injective (VIII, p. 195, Theorem 1), the homomorphism $\chi_{\mathscr{A}}$ is injective.
 
 #### Corollary 1 {#alg-viii-s20-thm-2-cor-1 .statement tag=00MX}
 
-*Let E and F be semisimple A-modules of finite dimension over K, and let $ \mathscr{A} $ be a generating subset of the K-vector space A. Suppose that for every $ a \in \mathscr{A} $, the characteristic polynomials of the endomorphisms $ a_E $ and $ a_F $ of the K-vector spaces E and F are equal. Then the A-modules E and F are isomorphic.*
+*Let E and F be semisimple A-modules of finite dimension over K, and let $\mathscr{A}$ be a generating subset of the K-vector space A. Suppose that for every $a \in \mathscr{A}$, the characteristic polynomials of the endomorphisms $a_E$ and $a_F$ of the K-vector spaces E and F are equal. Then the A-modules E and F are isomorphic.*
 
-Let $ a $ be an element of $ \mathscr{A} $. The characteristic polynomials of $ a_E $ and $ a_F $ have the same degree, so the dimension of E is equal to that of F; we denote it by $ n $. Let $ \mathrm{Pc}_E(a; T) $ be the characteristic polynomial of $ a_E $. In $ K(T) $, we have the equalities
+Let $a$ be an element of $\mathscr{A}$. The characteristic polynomials of $a_E$ and $a_F$ have the same degree, so the dimension of E is equal to that of F; we denote it by $n$. Let $\mathrm{Pc}_E(a; T)$ be the characteristic polynomial of $a_E$. In $K(T)$, we have the equalities
 
 $$
 \chi_E(a; T) = \det(1 + a_E T) = (-T)^n \det \left( \frac{-1}{T} - a_E \right) = (-T)^n \mathrm{Pc}_E \left( a; \frac{-1}{T} \right),
 $$
 
-and $ \chi_F(a; T) $ is given by an analogous formula. Because of our assumptions, we have $ \chi_E(a; T) = \chi_F(a; T) $. By Theorem 2, we have [E] = [F], which implies that E and F are isomorphic (VIII, p. 190, Corollary of Proposition 7).
+and $\chi_F(a; T)$ is given by an analogous formula. Because of our assumptions, we have $\chi_E(a; T) = \chi_F(a; T)$. By Theorem 2, we have [E] = [F], which implies that E and F are isomorphic (VIII, p. 190, Corollary of Proposition 7).
 
 #### Corollary 2 {#alg-viii-s20-thm-2-cor-2 .statement tag=00MY}
 
-*Let A be a central simple algebra of finite degree over K. Let B be a semisimple K-algebra, let f and g be algebra homomorphisms from B to A, and let $ \mathscr{B} $ be a generating subset of the K-vector space B. The following properties are equivalent:
+*Let A be a central simple algebra of finite degree over K. Let B be a semisimple K-algebra, let f and g be algebra homomorphisms from B to A, and let $\mathscr{B}$ be a generating subset of the K-vector space B. The following properties are equivalent:
 
-(i) There exists an inner automorphism $ \theta $ of A such that $ g = \theta \circ f $.
-(ii) For every $ b \in \mathscr{B} $, we have $ \mathrm{Pc}_{A/K}(f(b); X) = \mathrm{Pc}_{A/K}(g(b); X) $.* When K has characteristic zero, these properties are equivalent to the following:
+(i) There exists an inner automorphism $\theta$ of A such that $g = \theta \circ f$.
+(ii) For every $b \in \mathscr{B}$, we have $\mathrm{Pc}_{A/K}(f(b); X) = \mathrm{Pc}_{A/K}(g(b); X)$.* When K has characteristic zero, these properties are equivalent to the following:
 
 (iii) For every $b\in \mathscr{B}$, we have Tr$_{A/K}(f(b)) =$ Tr$_{A/K}(g(b))$.
 
@@ -502,7 +502,7 @@ for every $t\in \Theta (A)\otimes \Theta (A)$.
 
 #### Lemma 2 {#alg-viii-s20-lem-2 .statement tag=00RS}
 
-Let $ c : \Theta(A) \to \Theta(A) \otimes \Theta(A) $ be a K-linear mapping. Then $ \eta $ is a homomorphism from $ A $ to the dual algebra of the cogebra $ (\Theta(A), c) $ if and only if the following diagram commutes:
+Let $c : \Theta(A) \to \Theta(A) \otimes \Theta(A)$ be a K-linear mapping. Then $\eta$ is a homomorphism from $A$ to the dual algebra of the cogebra $(\Theta(A), c)$ if and only if the following diagram commutes:
 
 $$
 \begin{array}{ccc}
@@ -512,13 +512,13 @@ A^* & \xrightarrow{t m_A} & (A \otimes A)^*
 \end{array}
 $$
 
-Indeed, $ \eta $ is a homomorphism from $ A $ to the dual algebra of the cogebra $ (\Theta(A), c) $ if and only if we have $ \eta(ab) = m_K \circ (\eta(a) \otimes \eta(b)) \circ c $ for all $ a, b \in A $, that is
+Indeed, $\eta$ is a homomorphism from $A$ to the dual algebra of the cogebra $(\Theta(A), c)$ if and only if we have $\eta(ab) = m_K \circ (\eta(a) \otimes \eta(b)) \circ c$ for all $a, b \in A$, that is
 
 $$
 \eta(ab)(f) = m_K \circ (\eta(a) \otimes \eta(b))(c(f))
 $$
 
-for $ a, b \in A $ and $ f \in \Theta(A) $. Now, we have
+for $a, b \in A$ and $f \in \Theta(A)$. Now, we have
 
 $$
 \eta(ab)(f) = f(ab) = \langle t m_A(j_1(f)), a \otimes b \rangle
@@ -530,21 +530,21 @@ $$
 m_K \circ (\eta(a) \otimes \eta(b))(c(f)) = \langle j_2(c(f)), a \otimes b \rangle
 $$
 
-for all $ a, b \in A $ and every $ f \in \Theta(A) $. The lemma follows.
+for all $a, b \in A$ and every $f \in \Theta(A)$. The lemma follows.
 
-Since $ j_2 $ is injective, there exists at most one linear mapping $ c $ that makes the diagram above commute. To prove its existence, we must prove that the image of $ t m \circ j_1 $ is contained in that of $ j_2 $. In other words, we must prove that there exist, for every element $ f $ of $ \Theta(A) $, a natural number $ n $ and elements $ f'_1, \ldots, f'_n, f''_1, \ldots, f''_n $ of $ \Theta(A) $ satisfying the relations
+Since $j_2$ is injective, there exists at most one linear mapping $c$ that makes the diagram above commute. To prove its existence, we must prove that the image of $t m \circ j_1$ is contained in that of $j_2$. In other words, we must prove that there exist, for every element $f$ of $\Theta(A)$, a natural number $n$ and elements $f'_1, \ldots, f'_n, f''_1, \ldots, f''_n$ of $\Theta(A)$ satisfying the relations
 
 $$
 f(ab) = \sum_{i=1}^n f'_i(a) f''_i(b)
 $$
 
-for $ a, b \in A $. We will then have
+for $a, b \in A$. We will then have
 
 $$
 c(f) = \sum_{i=1}^n f'_i \otimes f''_i.
 $$
 
-By the corollary of VIII, p. 379, there exists a left $ A $-module $ E $ of finite dimension over $ K $ with $ f $ as a coefficient. Let $ (e_1, \ldots, e_n) $ be a basis of $ E $, $ (e_1^*, \ldots, e_n^*) $ the dual basis, $ x $ an element of $ E $, and $ x^* $ an element of $ E^* $ such that $ f = c_E(x, x^*) $. Set $ f'_i = c_E(e_i, x^*) $ and $ f''_i = c_E(x, e_i^*) $ for $ i \in [1, n] $; for a, b in A, we have
+By the corollary of VIII, p. 379, there exists a left $A$-module $E$ of finite dimension over $K$ with $f$ as a coefficient. Let $(e_1, \ldots, e_n)$ be a basis of $E$, $(e_1^*, \ldots, e_n^*)$ the dual basis, $x$ an element of $E$, and $x^*$ an element of $E^*$ such that $f = c_E(x, x^*)$. Set $f'_i = c_E(e_i, x^*)$ and $f''_i = c_E(x, e_i^*)$ for $i \in [1, n]$; for a, b in A, we have
 
 $$
 f(ab) = \langle x^*, abx \rangle = \langle x^* a, bx \rangle = \left\langle \sum_i \langle x^* a, e_i \rangle e_i^*, bx \right\rangle
@@ -558,7 +558,7 @@ Let us prove the coassociativity of c. For this, consider the K-linear mappings
 $$
 c' = (c \otimes 1_{\Theta(A)}) \circ c \quad \text{and} \quad c'' = (1_{\Theta(A)} \otimes c) \circ c
 $$
-from $ \Theta(A) $ to $ \Theta(A)^{\otimes 3} $. We have the relations
+from $\Theta(A)$ to $\Theta(A)^{\otimes 3}$. We have the relations
 $$
 \langle j_3(f \otimes c(g)), a \otimes b \otimes c \rangle = \langle f, a \rangle \langle j_2 \circ c(g), b \otimes c \rangle
 $$
@@ -571,7 +571,7 @@ $$
 $$
 = \langle t(\mathrm{Id}_A \otimes m_A) \circ j_2(f \otimes g), a \otimes b \otimes c \rangle
 $$
-for $ f, g \in \Theta(A) $ and $ a, b, c \in A $. From this, we deduce that the following diagram commutes:
+for $f, g \in \Theta(A)$ and $a, b, c \in A$. From this, we deduce that the following diagram commutes:
 
 $$
 \begin{array}{ccc}
@@ -581,7 +581,7 @@ $$
 \end{array}
 $$
 
-Because of the commutativity of this diagram and that of (15), for $ f \in \Theta(A) $ and $ a, a', a'' \in A $, we have
+Because of the commutativity of this diagram and that of (15), for $f \in \Theta(A)$ and $a, a', a'' \in A$, we have
 $$
 \langle j_3 \circ c'(f), a \otimes a' \otimes a'' \rangle = \langle f, (aa')a'' \rangle;
 $$
@@ -589,13 +589,13 @@ we can show the relation
 $$
 \langle j_3 \circ c''(f), a \otimes a' \otimes a'' \rangle = \langle f, a(a'a'') \rangle
 $$
-likewise. Since multiplication in A is associative, we have $ j_3 \circ c' = j_3 \circ c'' $, and therefore $ c' = c'' $ because $ j_3 $ is injective.
+likewise. Since multiplication in A is associative, we have $j_3 \circ c' = j_3 \circ c''$, and therefore $c' = c''$ because $j_3$ is injective.
 
-Finally, formulas (16) and (17) imply that $ \Theta(A) $ admits $ \varepsilon $ as a counit.
+Finally, formulas (16) and (17) imply that $\Theta(A)$ admits $\varepsilon$ as a counit.
 
 #### Remark 1 {#alg-viii-s20-n8-rem-1 .statement tag=00N2}
 
-Let $ (\mathbf{V}, \pi) $ be a finite-dimensional linear representation of the algebra A. Let us introduce a basis $ (e_1, \ldots, e_n) $ of V and the dual basis $ (e_1^*, \ldots, e_n^*) $ of $ \mathbf{V}^* $. By the proof of Lemma 2, we have the relation
+Let $(\mathbf{V}, \pi)$ be a finite-dimensional linear representation of the algebra A. Let us introduce a basis $(e_1, \ldots, e_n)$ of V and the dual basis $(e_1^*, \ldots, e_n^*)$ of $\mathbf{V}^*$. By the proof of Lemma 2, we have the relation
 $$
 c(c_\pi(x, x^*)) = \sum_{k=1}^n c_\pi(e_k, x^*) \otimes c_\pi(x, e_k^*)
 $$

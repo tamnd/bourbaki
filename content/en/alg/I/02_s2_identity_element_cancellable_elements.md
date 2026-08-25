@@ -45,7 +45,7 @@ subsections:
       pdf_page: 47
 statements: 25
 exercises: 17
-content_sha256: 595575ac2e34d4640bffa77d9e3406362197bad1b64f62c4b23bf700509a1118
+content_sha256: cc62dde4f620501b1c1bf68a6fda4a9cfec608416078d5f1a3f2dd2034f84283
 ---
 
 ## § 2. IDENTITY ELEMENT; CANCELLABLE ELEMENTS; INVERTIBLE ELEMENTS
@@ -54,41 +54,41 @@ content_sha256: 595575ac2e34d4640bffa77d9e3406362197bad1b64f62c4b23bf700509a1118
 
 #### Definition 1 {#alg-i-s2-def-1 .statement}
 
-Under a law of composition $ \top $ on a set $ E $ an element $ e $ of $ E $ is called an identity element if, for all $ x \in E $, $ e \top x = x \top e = x $.
+Under a law of composition $\top$ on a set $E$ an element $e$ of $E$ is called an identity element if, for all $x \in E$, $e \top x = x \top e = x$.
 
-There exists at most one identity element under a given law $ \top $, for if $ e $ and $ e' $ are identity elements then $ e = e \top e' = e' $. An identity element is permutable with every element: it is a central element.
+There exists at most one identity element under a given law $\top$, for if $e$ and $e'$ are identity elements then $e = e \top e' = e'$. An identity element is permutable with every element: it is a central element.
 
 #### Definition 2 {#alg-i-s2-def-2 .statement}
 
-A magma with an identity element is called a unital magma. If $ E, E' $ are unital magmas, a homomorphism of the magma $ E $ into the magma $ E' $ which maps the identity element of $ E $ to the identity element of $ E' $ is called a unital homomorphism (or morphism) of $ E $ into $ E' $. An associative unital magma is called a monoid.
+A magma with an identity element is called a unital magma. If $E, E'$ are unital magmas, a homomorphism of the magma $E$ into the magma $E'$ which maps the identity element of $E$ to the identity element of $E'$ is called a unital homomorphism (or morphism) of $E$ into $E'$. An associative unital magma is called a monoid.
 
-If $ E, E' $ are monoids, a unital morphism of $ E $ into $ E' $ is called a monoid homomorphism or a monoid morphism of $ E $ into $ E' $.
+If $E, E'$ are monoids, a unital morphism of $E$ into $E'$ is called a monoid homomorphism or a monoid morphism of $E$ into $E'$.
 
 #### Example {#alg-i-s2-n1-exa-1 .statement}
 
-(1) In the set $ \mathbf{N} $ of natural numbers 0 is an identity element under addition and 1 is an identity element under multiplication. Each of these two laws gives $ \mathbf{N} $ a commutative monoid structure (Set Theory, III, § 3, no. 3).
+(1) In the set $\mathbf{N}$ of natural numbers 0 is an identity element under addition and 1 is an identity element under multiplication. Each of these two laws gives $\mathbf{N}$ a commutative monoid structure (Set Theory, III, § 3, no. 3).
 
-(2) In the set of subsets of a set $ E $, $ \varnothing $ is an identity element under the law $ \cup $ and $ E $ under the law $ \cap $. More generally, in a lattice the least element, if it exists, is identity element under the law sup; conversely, if there exists an identity element under this law it is the least element of the set. Similarly for the greatest element and the law inf.
+(2) In the set of subsets of a set $E$, $\varnothing$ is an identity element under the law $\cup$ and $E$ under the law $\cap$. More generally, in a lattice the least element, if it exists, is identity element under the law sup; conversely, if there exists an identity element under this law it is the least element of the set. Similarly for the greatest element and the law inf.
 
-(3) The set $ \mathbf{N} $ has no identity element under the law $ (x, y) \mapsto x^y $. Under the law $ (X, Y) \mapsto X \circ Y $ between subsets of $ E \times E $ the diagonal $ \Delta $ is the identity element. Under the law $ (f, g) \mapsto f \circ g $ between mappings of $ E $ into $ E $ the identity mapping of $ E $ onto $ E $ is the identity element.
+(3) The set $\mathbf{N}$ has no identity element under the law $(x, y) \mapsto x^y$. Under the law $(X, Y) \mapsto X \circ Y$ between subsets of $E \times E$ the diagonal $\Delta$ is the identity element. Under the law $(f, g) \mapsto f \circ g$ between mappings of $E$ into $E$ the identity mapping of $E$ onto $E$ is the identity element.
 
-(4) Let $ E $ be a magma and $ R $ an equivalence relation on $ E $ compatible with the law on $ E $ (\S 1, no. 6). If $ e $ is an identity element of $ E $ the canonical image of $ e $ in $ E/R $ is an identity element of the magma $ E/R $.
+(4) Let $E$ be a magma and $R$ an equivalence relation on $E$ compatible with the law on $E$ (\S 1, no. 6). If $e$ is an identity element of $E$ the canonical image of $e$ in $E/R$ is an identity element of the magma $E/R$.
 
-The identity element of a unital magma is a unital homomorphism; the composition of two unital homomorphisms is also one. For a mapping to be a unital magma isomorphism it is necessary and sufficient that it be a bijective unital homomorphism and the inverse mapping is then a unital homomorphism. Let $ E $ and $ E' $ be unital magmas and $ e' $ the identity element of $ E' $; the constant mapping of $ E $ into $ E' $ mapping $ E $ to $ e' $ is a unital homomorphism, called a trivial homomorphism.
+The identity element of a unital magma is a unital homomorphism; the composition of two unital homomorphisms is also one. For a mapping to be a unital magma isomorphism it is necessary and sufficient that it be a bijective unital homomorphism and the inverse mapping is then a unital homomorphism. Let $E$ and $E'$ be unital magmas and $e'$ the identity element of $E'$; the constant mapping of $E$ into $E'$ mapping $E$ to $e'$ is a unital homomorphism, called a trivial homomorphism.
 
 The product of a family of unital magmas (resp. monoids) is a unital magma (resp. monoid).
 
 Every quotient magma of a unital magma (resp. monoid) is a unital magma (resp. monoid).
 
-Let $ E $ be a unital magma and $ e $ its identity element. A submagma $ A $ of $ E $ such that $ e \in A $ is called a unital submagma of $ E $. Clearly $ e $ is the identity element of the magma $ A $. Every intersection of unital submagmas of $ E $ is a unital submagma of $ E $. If $ X $ is a subset of $ E $ then there exists a smallest unital submagma of $ E $ containing $ X $; it is called the unital submagma of $ E $ generated by $ X $; it is equal to $ \{e\} $ if $ X $ is empty. If $ E $ is a monoid, a unital submagma of $ E $ is called a submonoid of $ E $.
+Let $E$ be a unital magma and $e$ its identity element. A submagma $A$ of $E$ such that $e \in A$ is called a unital submagma of $E$. Clearly $e$ is the identity element of the magma $A$. Every intersection of unital submagmas of $E$ is a unital submagma of $E$. If $X$ is a subset of $E$ then there exists a smallest unital submagma of $E$ containing $X$; it is called the unital submagma of $E$ generated by $X$; it is equal to $\{e\}$ if $X$ is empty. If $E$ is a monoid, a unital submagma of $E$ is called a submonoid of $E$.
 
-If $ F $ is a magma without identity element a submagma of $ F $ may possess an identity element. For example, if $ F $ is associative and $ h $ is an idempotent element of $ F $ (I, § 1, no. 4), the set of $ h \uparrow x \uparrow h $, where $ x $ runs through $ F $, is a submagma of $ F $ with $ h $ as identity element.
+If $F$ is a magma without identity element a submagma of $F$ may possess an identity element. For example, if $F$ is associative and $h$ is an idempotent element of $F$ (I, § 1, no. 4), the set of $h \uparrow x \uparrow h$, where $x$ runs through $F$, is a submagma of $F$ with $h$ as identity element.
 
-If $ E $ is a magma with identity element $ e $, a submagma $ A $ of $ E $ such that $ e \notin A $ may still possess an identity element.
+If $E$ is a magma with identity element $e$, a submagma $A$ of $E$ such that $e \notin A$ may still possess an identity element.
 
 #### Definition 3 {#alg-i-s2-def-3 .statement}
 
-Let $ E $ be a unital magma. The identity element of $ E $ is called the composition of the empty family of elements of $ E $.
+Let $E$ be a unital magma. The identity element of $E$ is called the composition of the empty family of elements of $E$.
 
 If $(x_\alpha)_{\alpha \in \varnothing}$ is the empty family of elements of E its composition $e$ is also denoted by $\prod_{\alpha \in \varnothing} x_\alpha$. For example, we write
 $$
@@ -122,13 +122,13 @@ $$
 
 #### Proposition 1 {#alg-i-s2-prop-1 .statement}
 
-*If the law* $ \mathsf{T} $ *is associative, then for all* $ x \in E $ *and* $ y \in E $
+*If the law* $\mathsf{T}$ *is associative, then for all* $x \in E$ *and* $y \in E$
 
 $$
 \gamma_{x \mathsf{T} y} = \gamma_x \circ \gamma_y, \qquad \delta_{x \mathsf{T} y} = \delta_y \circ \delta_x.
 $$
 
-For all $ z \in E $:
+For all $z \in E$:
 
 $$
 \gamma_{x \mathsf{T} y}(z) = (x \mathsf{T} y) \mathsf{T} z = x \mathsf{T} (y \mathsf{T} z) = \gamma_x(\gamma_y(z))
@@ -137,33 +137,33 @@ $$
 \delta_{x \mathsf{T} y}(z) = z \mathsf{T} (x \mathsf{T} y) = (z \mathsf{T} x) \mathsf{T} y = \delta_y(\delta_x(z))
 $$
 
-In other words, the mapping $ x \mapsto \gamma_x $ is a homomorphism from the magma $ E $ to the set $ E^E $ of mappings of $ E $ into itself with the law $ (f, g) \mapsto f \circ g $; the mapping $ x \mapsto \delta_x $ is a homomorphism of $ E $ into the set $ E^E $ with the opposite law. If $ E $ is a monoid, these homomorphisms are unital.
+In other words, the mapping $x \mapsto \gamma_x$ is a homomorphism from the magma $E$ to the set $E^E$ of mappings of $E$ into itself with the law $(f, g) \mapsto f \circ g$; the mapping $x \mapsto \delta_x$ is a homomorphism of $E$ into the set $E^E$ with the opposite law. If $E$ is a monoid, these homomorphisms are unital.
 
 #### Definition 5 {#alg-i-s2-def-5 .statement}
 
-*An element* $ a $ *of a magma* $ E $ *is called left (resp. right) cancellable (or regular) if left (resp. right) translation by* $ a $ *is injective. A left and right cancellable element is called a cancellable (or regular) element.*
+*An element* $a$ *of a magma* $E$ *is called left (resp. right) cancellable (or regular) if left (resp. right) translation by* $a$ *is injective. A left and right cancellable element is called a cancellable (or regular) element.*
 
-In other words, for $ a $ to be cancellable under the law $ \mathsf{T} $, it is necessary and sufficient that each of the relations $ a \mathsf{T} x = a \mathsf{T} y, x \mathsf{T} a = y \mathsf{T} a $ imply $ x = y $ (it is said that "a can be cancelled" from each of these equalities). If there exists an identity element $ e $ under the law $ \mathsf{T} $, it is cancellable under this law: the translations $ \gamma_e $ and $ \delta_e $ are then the identity mapping of $ E $ onto itself.
+In other words, for $a$ to be cancellable under the law $\mathsf{T}$, it is necessary and sufficient that each of the relations $a \mathsf{T} x = a \mathsf{T} y, x \mathsf{T} a = y \mathsf{T} a$ imply $x = y$ (it is said that "a can be cancelled" from each of these equalities). If there exists an identity element $e$ under the law $\mathsf{T}$, it is cancellable under this law: the translations $\gamma_e$ and $\delta_e$ are then the identity mapping of $E$ onto itself.
 
 #### Example {#alg-i-s2-n2-exa-1 .statement}
 
-(1) Every natural number is cancellable under addition; every natural number $ \neq 0 $ is cancellable under multiplication.
+(1) Every natural number is cancellable under addition; every natural number $\neq 0$ is cancellable under multiplication.
 
-(2) In a lattice there can be no cancellable element under the law sup other than the identity element (least element) if it exists; similarly for inf. In particular, in the set of subsets of a set $ E $, $ \varnothing $ is the only cancellable element under the law $ \cup $ and $ E $ the only cancellable element under the law $ \cap $.
+(2) In a lattice there can be no cancellable element under the law sup other than the identity element (least element) if it exists; similarly for inf. In particular, in the set of subsets of a set $E$, $\varnothing$ is the only cancellable element under the law $\cup$ and $E$ the only cancellable element under the law $\cap$.
 
 #### Proposition 2 {#alg-i-s2-prop-2 .statement}
 
 *The set of cancellable (resp. left cancellable, resp. right cancellable) elements of an associative magma is a submagma.*
 
-If $ \gamma_x $ and $ \gamma_y $ are injective so is $ \gamma_{x \mathsf{T} y} = \gamma_x \circ \gamma_y $ (Proposition 1). Similarly for $ \delta_{x \mathsf{T} y} $.
+If $\gamma_x$ and $\gamma_y$ are injective so is $\gamma_{x \mathsf{T} y} = \gamma_x \circ \gamma_y$ (Proposition 1). Similarly for $\delta_{x \mathsf{T} y}$.
 
 ### 3. INVERTIBLE ELEMENTS
 
 #### Definition 6 {#alg-i-s2-def-6 .statement}
 
-*Let* $ E $ *be a unital magma, $ \mathsf{T} $ its law of composition, e its identity element and* $ x $ *and* $ x' $ *two elements of* $ E $. $ x' $ *is called a left inverse (resp. right inverse, resp. inverse) of* $ x $ *if* $ x' \mathsf{T} x = e $ *(resp. $ x \mathsf{T} x' = e $, resp. $ x' \mathsf{T} x = x \mathsf{T} x' = e $).*
+*Let* $E$ *be a unital magma, $\mathsf{T}$ its law of composition, e its identity element and* $x$ *and* $x'$ *two elements of* $E$. $x'$ *is called a left inverse (resp. right inverse, resp. inverse) of* $x$ *if* $x' \mathsf{T} x = e$ *(resp. $x \mathsf{T} x' = e$, resp. $x' \mathsf{T} x = x \mathsf{T} x' = e$).*
 
-*An element* $ x $ *of* $ E $ *is called left invertible (resp. right invertible, resp. invertible) if it has a left inverse (resp. right inverse, resp. inverse).*
+*An element* $x$ *of* $E$ *is called left invertible (resp. right invertible, resp. invertible) if it has a left inverse (resp. right inverse, resp. inverse).*
 
 *A monoid all of whose elements are invertible is called a group.*
 
@@ -193,9 +193,9 @@ $$
 \delta_x \circ \delta_{x'} = \delta_{x' \top x} = \delta_e = \mathrm{Id}_E
 $$
 
-and $ \delta_x $ is surjective. Conversely, if $ \delta_x $ is surjective, there exists an element $ x' $ of E such that $ \delta_x(x') = e $ and $ x' $ is the left inverse of $ x $. The other assertions of (i) follow similarly.
+and $\delta_x$ is surjective. Conversely, if $\delta_x$ is surjective, there exists an element $x'$ of E such that $\delta_x(x') = e$ and $x'$ is the left inverse of $x$. The other assertions of (i) follow similarly.
 
-If $ x' $ (resp. $ x'' $) is a left (resp. right) inverse of $ x $, then
+If $x'$ (resp. $x''$) is a left (resp. right) inverse of $x$, then
 
 $$
 x' = x' \top e = x' \top (x \top x'') = (x' \top x) \top x'' = e \top x'' = x'',
@@ -205,31 +205,31 @@ whence (ii).
 
 #### Remark {#alg-i-s2-n3-rem-1 .statement}
 
-Let E be a monoid and x an element of E. If x is left invertible it is left cancellable; for, if $ x' $ is a left inverse of $ x $, then
+Let E be a monoid and x an element of E. If x is left invertible it is left cancellable; for, if $x'$ is a left inverse of $x$, then
 
 $$
 \gamma_{x'} \circ \gamma_x = \gamma_{x' \top x} = \gamma_e = \mathrm{Id}_E
 $$
 
-and $ \gamma_x $ is injective. In particular, if x is left invertible, the left and right translations by x are bijective. Conversely, suppose that $ \gamma_x $ is bijective; there exists $ x' \in E $ such that $ xx' = \gamma_x(x') = e $; then $ \gamma_x(x'x) = (xx')x = x = \gamma_x(e) $ and hence $ x'x = e $, so that x is invertible. We see similarly that if $ \delta_x $ is bijective, x is invertible.
+and $\gamma_x$ is injective. In particular, if x is left invertible, the left and right translations by x are bijective. Conversely, suppose that $\gamma_x$ is bijective; there exists $x' \in E$ such that $xx' = \gamma_x(x') = e$; then $\gamma_x(x'x) = (xx')x = x = \gamma_x(e)$ and hence $x'x = e$, so that x is invertible. We see similarly that if $\delta_x$ is bijective, x is invertible.
 
 #### Proposition 4 {#alg-i-s2-prop-4 .statement}
 
-Let E be a monoid and x and y invertible elements of E with inverses x' and y' respectively. Then y' $ \top $ x' is the inverse of x $ \top $ y.
+Let E be a monoid and x and y invertible elements of E with inverses x' and y' respectively. Then y' $\top$ x' is the inverse of x $\top$ y.
 
 This follows from the relation
 $$
 (y' \top x') \top (x \top y) = y' \top (x' \top x) \top y = y' \top y = e
 $$
-and the analogous calculations for (x $ \top $ y) $ \top $ (y' $ \top $ x').
+and the analogous calculations for (x $\top$ y) $\top$ (y' $\top$ x').
 
 #### Corollary 1 {#alg-i-s2-prop-4-cor-1 .statement}
 
-Let E be a monoid; if each of the elements $ x_\alpha $ of an ordered sequence $(x_\alpha)_{\alpha \in A}$ of elements of E has an inverse $ x'_\alpha $, the composition $ \prod_{\alpha \in A} x_\alpha $ has inverse $ \prod_{\alpha \in A'} x'_\alpha $, where A' is the totally ordered set derived from A by replacing the order on A by the opposite order.
+Let E be a monoid; if each of the elements $x_\alpha$ of an ordered sequence $(x_\alpha)_{\alpha \in A}$ of elements of E has an inverse $x'_\alpha$, the composition $\prod_{\alpha \in A} x_\alpha$ has inverse $\prod_{\alpha \in A'} x'_\alpha$, where A' is the totally ordered set derived from A by replacing the order on A by the opposite order.
 
 This corollary follows from Proposition 4 by induction on the number of elements in A.
 
-In particular, if x and x' are inverses, $ \prod^n x $ and $ \prod^n x' $ are inverses for every integer $ n \geq 0 $.
+In particular, if x and x' are inverses, $\prod^n x$ and $\prod^n x'$ are inverses for every integer $n \geq 0$.
 
 #### Corollary 2 {#alg-i-s2-prop-4-cor-2 .statement}
 
@@ -239,7 +239,7 @@ In a monoid the set of invertible elements is stable.
 
 If in a monoid x and x' are inverses and x commutes with y, so does x'.
 
-From $ x \top y = y \top x $, we deduce $ x' \top (x \top y) \top x' = x' \top (y \top x) \top x' $ and hence $ (x' \top x) \top (y \top x') = (x' \top y) \top (x \top x') $, that is $ y \top x' = x' \top y $.
+From $x \top y = y \top x$, we deduce $x' \top (x \top y) \top x' = x' \top (y \top x) \top x'$ and hence $(x' \top x) \top (y \top x') = (x' \top y) \top (x \top x')$, that is $y \top x' = x' \top y$.
 
 #### Corollary 1 {#alg-i-s2-prop-5-cor-1 .statement}
 
@@ -257,13 +257,13 @@ Let E be a commutative monoid, S a subset of E and S' the submonoid of E generat
 
 #### Lemma 1 {#alg-i-s2-lem-1 .statement}
 
-In E $ \times $ S' the relation R$ \mathcal{R} $x, y$ \mathcal{R} $ defined by:
+In E $\times$ S' the relation R$\mathcal{R}$x, y$\mathcal{R}$ defined by:
 
-"there exist $ a, b \in E $ and $ p, q, s \in S' $ such that $ x = (a, p), y = (b, q) $ and $ aqs = bps $"
+"there exist $a, b \in E$ and $p, q, s \in S'$ such that $x = (a, p), y = (b, q)$ and $aqs = bps$"
 
-is an equivalence relation compatible with the law on the product monoid E $ \times $ S'.
+is an equivalence relation compatible with the law on the product monoid E $\times$ S'.
 
-It is immediate that R is reflexive and symmetric. Let $ x = (a, p), y = (b, q) $ and $ z = (c, r) $ be elements of E $ \times $ S' such that R$ \mathcal{R} $x, y$ \mathcal{R} $ and R$ \mathcal{R} $y, z$ \mathcal{R} $ hold. Then there exist two elements s and t of S' such that
+It is immediate that R is reflexive and symmetric. Let $x = (a, p), y = (b, q)$ and $z = (c, r)$ be elements of E $\times$ S' such that R$\mathcal{R}$x, y$\mathcal{R}$ and R$\mathcal{R}$y, z$\mathcal{R}$ hold. Then there exist two elements s and t of S' such that
 $$
 aq s = bps, \quad br t = cqt,
 $$
@@ -272,71 +272,71 @@ $$
 ar(stq) = bpsrt = cp(stq)
 $$
 
-and hence $ R \{ x, z \} $ holds, for $ stq $ belongs to $ S' $. The relation $ R $ is therefore transitive.
+and hence $R \{ x, z \}$ holds, for $stq$ belongs to $S'$. The relation $R$ is therefore transitive.
 
-Further, let $ x = (a, p), y = (b, q), x' = (a', p'), $ and $ y' = (b', q') $ be elements of $ E \times S' $ such that $ R \{ x, y \} $ and $ R \{ x', y' \} $ hold. There exist $ s $ and $ s' $ in $ S' $ such that
+Further, let $x = (a, p), y = (b, q), x' = (a', p'),$ and $y' = (b', q')$ be elements of $E \times S'$ such that $R \{ x, y \}$ and $R \{ x', y' \}$ hold. There exist $s$ and $s'$ in $S'$ such that
 $$
 aqs = bps, \qquad a'q's' = b'p's',
 $$
-whence it follows that $ (aa')(qq')(ss') = (bb')(pp')(ss') $ and hence $ R \{ xx', yy' \} $ for $ ss' \in S' $. The equivalence relation $ R $ is therefore compatible with the law of composition on $ E \times S' $.
+whence it follows that $(aa')(qq')(ss') = (bb')(pp')(ss')$ and hence $R \{ xx', yy' \}$ for $ss' \in S'$. The equivalence relation $R$ is therefore compatible with the law of composition on $E \times S'$.
 
-The quotient magma $ (E \times S')/R $ is a commutative monoid.
+The quotient magma $(E \times S')/R$ is a commutative monoid.
 
 #### Definition 7 {#alg-i-s2-def-7 .statement}
 
-*Let $ E $ be a commutative monoid, $ S $ a subset of $ E $ and $ S' $ the submonoid of $ E $ generated by $ S $. The quotient monoid $ (E \times S')/R $, where the equivalence relation $ R $ is as described in Lemma 1, is denoted by $ E_S $ and is called the monoid of fractions† of $ E $ associated with $ S $ (or with denominators in $ S $).*
+*Let $E$ be a commutative monoid, $S$ a subset of $E$ and $S'$ the submonoid of $E$ generated by $S$. The quotient monoid $(E \times S')/R$, where the equivalence relation $R$ is as described in Lemma 1, is denoted by $E_S$ and is called the monoid of fractions† of $E$ associated with $S$ (or with denominators in $S$).*
 
-For $ a \in E $ and $ p \in S' $ the class of $ (a, p) $ modulo $ R $ is in general denoted by $ a/p $ and called the fraction with numerator $ a $ and denominator $ p $. Then by definition $ (a/p).(a'/|p') = aa'/|pp' $. The fractions $ a/p $ and $ a'/|p' $ are equal if and only if there exists $ s $ in $ S' $ with $ spa' = sp'a $; if so, there exist $ \sigma $ and $ \sigma' $ in $ S' $ with $ a\sigma = a'\sigma' $ and $ p\sigma = p'\sigma' $. In particular, $ a/p = sa/sp $ for $ a \in E $ and $ s, p $ in $ S' $. The identity element of $ E_S $ is the fraction $ e/e $.
+For $a \in E$ and $p \in S'$ the class of $(a, p)$ modulo $R$ is in general denoted by $a/p$ and called the fraction with numerator $a$ and denominator $p$. Then by definition $(a/p).(a'/|p') = aa'/|pp'$. The fractions $a/p$ and $a'/|p'$ are equal if and only if there exists $s$ in $S'$ with $spa' = sp'a$; if so, there exist $\sigma$ and $\sigma'$ in $S'$ with $a\sigma = a'\sigma'$ and $p\sigma = p'\sigma'$. In particular, $a/p = sa/sp$ for $a \in E$ and $s, p$ in $S'$. The identity element of $E_S$ is the fraction $e/e$.
 
-Let $ a/e = \varepsilon(a) $ for all $ a \in E $. The above shows that $ \varepsilon $ is a homomorphism of $ E $ into $ E_S $, called canonical. For all $ p \in S' $, $ (p/e).(e/p) = e/e $ and hence $ e/p $ is the inverse of $ \varepsilon(p) = p/e $; every element of $ \varepsilon(S') $ is therefore invertible. Then $ a/p = (a/e).(e/p) $, whence
+Let $a/e = \varepsilon(a)$ for all $a \in E$. The above shows that $\varepsilon$ is a homomorphism of $E$ into $E_S$, called canonical. For all $p \in S'$, $(p/e).(e/p) = e/e$ and hence $e/p$ is the inverse of $\varepsilon(p) = p/e$; every element of $\varepsilon(S')$ is therefore invertible. Then $a/p = (a/e).(e/p)$, whence
 $$
 a/p = \varepsilon(a)\varepsilon(p)^*
 $$
-for $ a \in E $ and $ p \in S' $, the monoid $ E_S $ is therefore generated by $ \varepsilon(E) \cup \varepsilon(S)^* $.
+for $a \in E$ and $p \in S'$, the monoid $E_S$ is therefore generated by $\varepsilon(E) \cup \varepsilon(S)^*$.
 
 #### Proposition 6 {#alg-i-s2-prop-6 .statement}
 
-*The notation is that of Definition 7 and $ \varepsilon $ denotes the canonical homomorphism of $ E $ into $ E_S $.
-(i) Let $ a $ and $ b $ be in $ E $; in order that $ \varepsilon(a) = \varepsilon(b) $, it is necessary and sufficient that there exist $ s \in S' $ with $ sa = sb $.
-(ii) For $ \varepsilon $ to be injective it is necessary and sufficient that every element of $ S $ be cancellable.
-(iii) For $ \varepsilon $ to be bijective it is necessary and sufficient that every element of $ S $ be invertible.*
+*The notation is that of Definition 7 and $\varepsilon$ denotes the canonical homomorphism of $E$ into $E_S$.
+(i) Let $a$ and $b$ be in $E$; in order that $\varepsilon(a) = \varepsilon(b)$, it is necessary and sufficient that there exist $s \in S'$ with $sa = sb$.
+(ii) For $\varepsilon$ to be injective it is necessary and sufficient that every element of $S$ be cancellable.
+(iii) For $\varepsilon$ to be bijective it is necessary and sufficient that every element of $S$ be invertible.*
 
-Assertion (i) is clear and shows that $ \varepsilon $ is injective if and only if every element of $ S' $ is cancellable; but since the set of cancellable elements of $ E $ is a submonoid of $ E $ (no. 2, Proposition 2), it amounts to the same to say that every element of $ S $ is cancellable.
+Assertion (i) is clear and shows that $\varepsilon$ is injective if and only if every element of $S'$ is cancellable; but since the set of cancellable elements of $E$ is a submonoid of $E$ (no. 2, Proposition 2), it amounts to the same to say that every element of $S$ is cancellable.
 
-† It is also called *monoid of differences* if the law on $ E $ is written additively.
+† It is also called *monoid of differences* if the law on $E$ is written additively.
 
-If $ \varepsilon $ is bijective every element of S is invertible, for $ \varepsilon(S) $ is composed of invertible elements of $ E_S $. Conversely, suppose every element of S is invertible; then every element of $ S' $ is invertible (no. 3, Corollary 2 to Proposition 4) and hence cancellable. Then $ \varepsilon $ is injective by (ii) and $ a/p = \varepsilon(a.p^*) $ by (1), hence $ \varepsilon $ is surjective.
+If $\varepsilon$ is bijective every element of S is invertible, for $\varepsilon(S)$ is composed of invertible elements of $E_S$. Conversely, suppose every element of S is invertible; then every element of $S'$ is invertible (no. 3, Corollary 2 to Proposition 4) and hence cancellable. Then $\varepsilon$ is injective by (ii) and $a/p = \varepsilon(a.p^*)$ by (1), hence $\varepsilon$ is surjective.
 
 #### Theorem 1 {#alg-i-s2-thm-1 .statement}
 
-*Let E be a commutative monoid, S a subset of E, $ E_S $ the monoid of fractions associated with S and $ \varepsilon : E \to E_S $ the canonical homomorphism. Further let f be a homomorphism of E into a monoid F (not necessarily commutative) such that every element of $ f(S) $ is invertible in F. There exists one and only one homomorphism $ \bar{f} $ of $ E_S $ into F such that $ f = \bar{f} \circ \varepsilon $.*
+*Let E be a commutative monoid, S a subset of E, $E_S$ the monoid of fractions associated with S and $\varepsilon : E \to E_S$ the canonical homomorphism. Further let f be a homomorphism of E into a monoid F (not necessarily commutative) such that every element of $f(S)$ is invertible in F. There exists one and only one homomorphism $\bar{f}$ of $E_S$ into F such that $f = \bar{f} \circ \varepsilon$.*
 
-If $ \bar{f} $ is a homomorphism of $ E_S $ into F such that $ f = \bar{f} \circ \varepsilon $, then
+If $\bar{f}$ is a homomorphism of $E_S$ into F such that $f = \bar{f} \circ \varepsilon$, then
 $$
 \bar{f}(a/p) = \bar{f}(\varepsilon(a)\varepsilon(p)^*) = \bar{f}(\varepsilon(a))\bar{f}(\varepsilon(p))^* = f(a)f(p)^*
 $$
-for $ a \in E $ and $ p \in S' $, whence the uniqueness of $ \bar{f} $.
+for $a \in E$ and $p \in S'$, whence the uniqueness of $\bar{f}$.
 
-Let g be the mapping of $ E \times S' $ into F defined by $ g(a,p) = f(a)f(p)^* $. We show that g is a homomorphism of $ E \times S' $ into F. First of all,
+Let g be the mapping of $E \times S'$ into F defined by $g(a,p) = f(a)f(p)^*$. We show that g is a homomorphism of $E \times S'$ into F. First of all,
 $$
 g(e,e) = f(e)f(e)^* = e.
 $$
-Let $ (a,p) $ and $ (a',p') $ be two elements of $ E \times S' $; as $ a' $ and $ p $ commute in E, $ f(a') $ and $ f(p) $ commute in F, whence $ f(a')f(p)^* = f(p)^*f(a') $ by no. 3, Proposition 5. Moreover $ f(pp')^* = f(p'p)^* = (f(p')f(p))^* = f(p)^*f(p')^* $ by no. 3, Proposition 4, whence
+Let $(a,p)$ and $(a',p')$ be two elements of $E \times S'$; as $a'$ and $p$ commute in E, $f(a')$ and $f(p)$ commute in F, whence $f(a')f(p)^* = f(p)^*f(a')$ by no. 3, Proposition 5. Moreover $f(pp')^* = f(p'p)^* = (f(p')f(p))^* = f(p)^*f(p')^*$ by no. 3, Proposition 4, whence
 $$
 g(aa',pp') = f(aa')f(pp')^* = f(a)f(a')f(p)^*f(p')^* = f(a)f(p)^*f(a')f(p')^*
 = g(a,p)g(a',p').
 $$
-We show that g is compatible with the equivalence relation R on $ E \times S' $: if $ (a,p) $ and $ (a',p') $ are congruent mod. R, there exists $ s \in S' $ with $ spa' = sap' $, whence $ f(s)f(p)f(a') = f(s)f(a)f(p') $. As $ f(s) $ is invertible, it follows that $ f(p)f(a') = f(a)f(p') $ and then by left multiplication by $ f(p)^* $ and right multiplication by $ f(p')^* $
+We show that g is compatible with the equivalence relation R on $E \times S'$: if $(a,p)$ and $(a',p')$ are congruent mod. R, there exists $s \in S'$ with $spa' = sap'$, whence $f(s)f(p)f(a') = f(s)f(a)f(p')$. As $f(s)$ is invertible, it follows that $f(p)f(a') = f(a)f(p')$ and then by left multiplication by $f(p)^*$ and right multiplication by $f(p')^*$
 $$
 g(a',p') = f(a')f(p')^* = f(p)^*f(a) = f(a)f(p)^* = g(a,p).
 $$
-Hence there exists a homomorphism $ \bar{f} $ of $ E_S $ into F such that $ \bar{f}(a/p) = g(a,p) $, whence $ \bar{f}(\varepsilon(a)) = \bar{f}(a/e) = f(a)f(e)^* = f(a) $. Hence $ \bar{f} \circ \varepsilon = f $.
+Hence there exists a homomorphism $\bar{f}$ of $E_S$ into F such that $\bar{f}(a/p) = g(a,p)$, whence $\bar{f}(\varepsilon(a)) = \bar{f}(a/e) = f(a)f(e)^* = f(a)$. Hence $\bar{f} \circ \varepsilon = f$.
 
 #### Corollary {#alg-i-s2-n4-cor-1 .statement}
 
-*Let E and F be two commutative monoids, S and T subsets of E and F respectively, f a homomorphism of E into F such that $ f(S) \subset T $ and $ \varepsilon : E \to E_S, \eta : F \to F_T $ the canonical homomorphisms. There exists one and only one homomorphism $ g : E_S \to F_T $ such that $ g \circ \varepsilon = \eta \circ f $.*
+*Let E and F be two commutative monoids, S and T subsets of E and F respectively, f a homomorphism of E into F such that $f(S) \subset T$ and $\varepsilon : E \to E_S, \eta : F \to F_T$ the canonical homomorphisms. There exists one and only one homomorphism $g : E_S \to F_T$ such that $g \circ \varepsilon = \eta \circ f$.*
 
-The homomorphism $ \eta \circ f $ of E into $ F_T $ maps every element of S to an invertible element of $ F_T $.
+The homomorphism $\eta \circ f$ of E into $F_T$ maps every element of S to an invertible element of $F_T$.
 
 (2) For the existence of a solution to the above universal mapping problem it is unnecessary to assume that the monoid E is commutative, as follows from *Set Theory*, IV, § 3, no. 2 (cf. Exercise 17).
 
@@ -382,27 +382,27 @@ for $\mathbf{N}$ is stable under addition; if $y - x \in \mathbf{N}$ and $x - y 
 
 Henceforth when $\mathbf{Z}$ is considered as an ordered set, it will always be, unless otherwise mentioned, with the ordering that has just been defined, the natural numbers are identified with the integers $\geq 0$; they are also called *positive* integers; the integers $\leq 0$, negatives of the positive integers, are called *negative* integers; the integers $> 0$ (resp. $< 0$) are called *strictly positive* (resp. *strictly negative*); the set of integers $> 0$ is sometimes denoted by $\mathbf{N}^*$.
 
-Let $x$, $y$ and $z$ be three rational integers; then $x \leq y$ if and only if x + z \leq y + z. For x - y = (x + z) - (y + z). This property is expressed by saying that the order relation on $ \mathbf{Z} $ is invariant under translation.
+Let $x$, $y$ and $z$ be three rational integers; then $x \leq y$ if and only if x + z \leq y + z. For x - y = (x + z) - (y + z). This property is expressed by saying that the order relation on $\mathbf{Z}$ is invariant under translation.
 
 ### 6. APPLICATIONS: II. MULTIPLICATION OF RATIONAL INTEGERS
 
 #### Lemma 2 {#alg-i-s2-lem-2 .statement}
 
 Let E be a monoid and x an element of E.
-    (i) There exists a unique homomorphism f of $ \mathbf{N} $ into E with $ f(1) = x $ and $ f(n) = \frac{n}{1} x $ for all $ n \in \mathbf{N} $.
-    (ii) If x is invertible, there exists a unique homomorphism g of $ \mathbf{Z} $ into E such that $ g(1) = x $ and g coincides with f on $ \mathbf{N} $.
+    (i) There exists a unique homomorphism f of $\mathbf{N}$ into E with $f(1) = x$ and $f(n) = \frac{n}{1} x$ for all $n \in \mathbf{N}$.
+    (ii) If x is invertible, there exists a unique homomorphism g of $\mathbf{Z}$ into E such that $g(1) = x$ and g coincides with f on $\mathbf{N}$.
 
-    Writing $ f(n) = \frac{n}{1} x $ for all $ n \in \mathbf{N} $, the formulae
+    Writing $f(n) = \frac{n}{1} x$ for all $n \in \mathbf{N}$, the formulae
     $$
     \frac{0}{1} x = e \quad \text{and} \quad \left( \frac{m}{1} x \right) \cdot \left( \frac{n}{1} x \right) = \frac{m+n}{1} x
     $$
-    (no. 1) express the fact that f is a homomorphism of $ \mathbf{N} $ into E and obviously $ f(1) = x $. If $ f' $ is a homomorphism of $ \mathbf{N} $ into E such that $ f'(1) = x $, then $ f = f' $, by § 1, no. 4, Proposition 1, (iv).
+    (no. 1) express the fact that f is a homomorphism of $\mathbf{N}$ into E and obviously $f(1) = x$. If $f'$ is a homomorphism of $\mathbf{N}$ into E such that $f'(1) = x$, then $f = f'$, by § 1, no. 4, Proposition 1, (iv).
 
-    Suppose now that x is invertible. By no. 3, Corollary 2 to Proposition 4, $ f(n) = \frac{n}{1} x $ is invertible for every integer $ n \geq 0 $. By construction, $ \mathbf{Z} $ is the group of differences of $ \mathbf{N} $ and hence (no. 4, Theorem 1) f extends uniquely to a homomorphism g of $ \mathbf{Z} $ into E. If $ g' $ is a homomorphism of $ \mathbf{Z} $ into E with $ g'(1) = x $, the restriction $ f' $ of $ g' $ to $ \mathbf{N} $ is a homomorphism of $ \mathbf{N} $ into E with $ f'(1) = x $. Hence $ f' = f $, whence $ g' = g $.
+    Suppose now that x is invertible. By no. 3, Corollary 2 to Proposition 4, $f(n) = \frac{n}{1} x$ is invertible for every integer $n \geq 0$. By construction, $\mathbf{Z}$ is the group of differences of $\mathbf{N}$ and hence (no. 4, Theorem 1) f extends uniquely to a homomorphism g of $\mathbf{Z}$ into E. If $g'$ is a homomorphism of $\mathbf{Z}$ into E with $g'(1) = x$, the restriction $f'$ of $g'$ to $\mathbf{N}$ is a homomorphism of $\mathbf{N}$ into E with $f'(1) = x$. Hence $f' = f$, whence $g' = g$.
 
-    We shall apply Lemma 2 to the case where the monoid E is $ \mathbf{Z} $; for every integer $ m \in \mathbf{Z} $ there therefore exists an endomorphism $ f_m $ of $ \mathbf{Z} $ characterized by $ f_m(1) = m $. If m is in $ \mathbf{N} $, the mapping $ n \mapsto mn $ of $ \mathbf{N} $ into $ \mathbf{N} $ is an endomorphism of the magma $ \mathbf{N} $ (Set Theory, III, § 3, no. 3, Corollary to Proposition 5); hence $ f_m(n) = mn $ for all $ m, n $ in $ \mathbf{N} $.
+    We shall apply Lemma 2 to the case where the monoid E is $\mathbf{Z}$; for every integer $m \in \mathbf{Z}$ there therefore exists an endomorphism $f_m$ of $\mathbf{Z}$ characterized by $f_m(1) = m$. If m is in $\mathbf{N}$, the mapping $n \mapsto mn$ of $\mathbf{N}$ into $\mathbf{N}$ is an endomorphism of the magma $\mathbf{N}$ (Set Theory, III, § 3, no. 3, Corollary to Proposition 5); hence $f_m(n) = mn$ for all $m, n$ in $\mathbf{N}$.
 
-    Multiplication on $ \mathbf{N} $ can therefore be extended to multiplication on $ \mathbf{Z} $ by the formula $ mn = f_m(n) $ for $ m, n $ in $ \mathbf{Z} $. We shall establish the formulae:
+    Multiplication on $\mathbf{N}$ can therefore be extended to multiplication on $\mathbf{Z}$ by the formula $mn = f_m(n)$ for $m, n$ in $\mathbf{Z}$. We shall establish the formulae:
 
     (2) $$ xy = yx $$
     (3) $$ (xy)z = x(yz) $$
@@ -412,15 +412,15 @@ Let E be a monoid and x an element of E.
     (7) $$ 1.x = x.1 = x $$
     (8) $$ (-1).x = x.(-1) = -x $$
 
-    for $ x, y, z $ in $ \mathbf{Z} $. (*In other words, $ \mathbf{Z} $ is a commutative ring.*) The formulae $ x(y+z) = xy + xz $ and $ x.0 = 0 $ express the fact that $ f_x $ is an endomorphism of the additive monoid $ \mathbf{Z} $ and $ f_x(1) = x $ may be written $ x.1 = x $. The endomorphism $ f_x \circ f_y $ of $ \mathbf{Z} $ maps 1 to $ xy $ and hence is equal to $ f_{xy} $, whence (3). Now $ f_x(-y) = -f_x(y) $, that is $ x(-y) = -xy $; similarly, the endomorphism $ y \mapsto -xy $ of $ \mathbf{Z} $ maps 1 to $ -x $, whence $ (-x).y = -xy $ and therefore
+    for $x, y, z$ in $\mathbf{Z}$. (*In other words, $\mathbf{Z}$ is a commutative ring.*) The formulae $x(y+z) = xy + xz$ and $x.0 = 0$ express the fact that $f_x$ is an endomorphism of the additive monoid $\mathbf{Z}$ and $f_x(1) = x$ may be written $x.1 = x$. The endomorphism $f_x \circ f_y$ of $\mathbf{Z}$ maps 1 to $xy$ and hence is equal to $f_{xy}$, whence (3). Now $f_x(-y) = -f_x(y)$, that is $x(-y) = -xy$; similarly, the endomorphism $y \mapsto -xy$ of $\mathbf{Z}$ maps 1 to $-x$, whence $(-x).y = -xy$ and therefore
 $$
 (-x)(-y) = -(x(-y)) = -(-xy) = xy.
 $$
-For $ m, n $ in $ \mathbf{N} $, $ mn = nm $ (Set Theory, III, § 3, no. 3, Corollary to Proposition 5), whence $ (-m).n = n(-m) $ and $ (-m)(-n) = (-n)(-m) $; as $ \mathbf{Z} = \mathbf{N} \cup (-\mathbf{N}) $, $ xy = yx $ for $ x, y $ in $ \mathbf{Z} $; and this formula means that (5) follows from (4) and completes the proof of formula (6) to (8).
+For $m, n$ in $\mathbf{N}$, $mn = nm$ (Set Theory, III, § 3, no. 3, Corollary to Proposition 5), whence $(-m).n = n(-m)$ and $(-m)(-n) = (-n)(-m)$; as $\mathbf{Z} = \mathbf{N} \cup (-\mathbf{N})$, $xy = yx$ for $x, y$ in $\mathbf{Z}$; and this formula means that (5) follows from (4) and completes the proof of formula (6) to (8).
 
 ### 7. APPLICATIONS: III. GENERALIZED POWERS
 
-Let E be a monoid with identity element $ e $ and law of composition denoted by $ \top $. If $ x $ is invertible in E, let $ g_x $ be the homomorphism of $ \mathbf{Z} $ into E mapping 1 to $ x $. Let $ g_x(n) = \frac{n}{\top} x $ for all $ n \in \mathbf{Z} $; by Lemma 2 this notation is compatible for $ n \in \mathbf{N} $ with the notation introduced earlier. Then
+Let E be a monoid with identity element $e$ and law of composition denoted by $\top$. If $x$ is invertible in E, let $g_x$ be the homomorphism of $\mathbf{Z}$ into E mapping 1 to $x$. Let $g_x(n) = \frac{n}{\top} x$ for all $n \in \mathbf{Z}$; by Lemma 2 this notation is compatible for $n \in \mathbf{N}$ with the notation introduced earlier. Then
 $$
 \begin{align*}
 \text{(9)} \quad & \frac{m+n}{\top} x = \left( \frac{m}{\top} x \right) \top \left( \frac{n}{\top} x \right) \\
@@ -428,15 +428,15 @@ $$
 \text{(11)} \quad & \frac{1}{\top} x = x
 \end{align*}
 $$
-for $ x $ invertible in E and $ m, n $ in $ \mathbf{Z} $. Further, if $ y = \frac{m}{\top} x $, the mapping $ n \mapsto g_x(mn) $ of $ \mathbf{Z} $ into E is a homomorphism mapping 1 to $ y $, whence $ g_x(mn) = g_y(n) $, that is
+for $x$ invertible in E and $m, n$ in $\mathbf{Z}$. Further, if $y = \frac{m}{\top} x$, the mapping $n \mapsto g_x(mn)$ of $\mathbf{Z}$ into E is a homomorphism mapping 1 to $y$, whence $g_x(mn) = g_y(n)$, that is
 $$
 \text{(12)} \quad \frac{mn}{\top} x = \frac{n}{\top} \left( \frac{m}{\top} x \right).
 $$
-As $ -1 $ is the negative of 1 in $ \mathbf{Z} $, $ \frac{-1}{\top} x $ is the inverse of $ x = \frac{1}{\top} x $ in E. If we write $ n = -m $ in (9), it is seen that $ \frac{-m}{\top} x $ is the inverse of $ \frac{m}{\top} x $.
+As $-1$ is the negative of 1 in $\mathbf{Z}$, $\frac{-1}{\top} x$ is the inverse of $x = \frac{1}{\top} x$ in E. If we write $n = -m$ in (9), it is seen that $\frac{-m}{\top} x$ is the inverse of $\frac{m}{\top} x$.
 
 ### 8. NOTATION
 
-(a) As a general rule the law of a commutative monoid is written additively. It is then a convention that $ -x $ denotes the negative of $ x $. The notation $ x + (-y) $ is abbreviated to $ x - y $ and similarly
+(a) As a general rule the law of a commutative monoid is written additively. It is then a convention that $-x$ denotes the negative of $x$. The notation $x + (-y)$ is abbreviated to $x - y$ and similarly
 $$
 x + y - z, \quad x - y - z, \quad x - y + z - t, \quad \text{etc. . . .}
 $$
@@ -445,7 +445,7 @@ $$
 x + y + (-z), \quad x + (-y) + (-z), \quad x + (-y) + z + (-t), \quad \text{etc. . . .}
 $$
 
-For $ n \in \mathbf{Z} $ the notation $ \overset{n}{\top} x $ is replaced by $ nx $. Formulae (9) to (12) then become
+For $n \in \mathbf{Z}$ the notation $\overset{n}{\top} x$ is replaced by $nx$. Formulae (9) to (12) then become
 
 (13) $$
 (m + n).x = m.x + n.x
@@ -460,13 +460,13 @@ $$
 m.(n.x) = (mn).x
 $$
 
-where $ m $ and $ n $ belong to $ \mathbf{N} $ or even to $ \mathbf{Z} $ if $ x $ admits a negative. Also in the latter case the relation $ (-1).x = -x $ holds. We also note the formula
+where $m$ and $n$ belong to $\mathbf{N}$ or even to $\mathbf{Z}$ if $x$ admits a negative. Also in the latter case the relation $(-1).x = -x$ holds. We also note the formula
 
 (17) $$
 n.(x + y) = n.x + n.y.
 $$
 
-(b) Let E be a monoid written multiplicatively. For $ n \in \mathbf{Z} $ the notation $ \overset{n}{\top} x $ is replaced by $ x^n $. We have the relations
+(b) Let E be a monoid written multiplicatively. For $n \in \mathbf{Z}$ the notation $\overset{n}{\top} x$ is replaced by $x^n$. We have the relations
 
 $$
 x^{m+n} = x^m.x^n \\
@@ -475,9 +475,9 @@ x^1 = x \\
 (x^m)^n = x^{mn}
 $$
 
-and also $ (xy)^n = x^ny^n $ if $ x $ and $ y $ commute.
+and also $(xy)^n = x^ny^n$ if $x$ and $y$ commute.
 
-When $ x $ has an inverse, this is precisely $ x^{-1} $. The notation $ \frac{1}{x} $ is also used instead of $ x^{-1} $. Finally, when the monoid E is commutative, $ \frac{x}{y} $ or $ x/y $ is also used for $ xy^{-1} $.
+When $x$ has an inverse, this is precisely $x^{-1}$. The notation $\frac{1}{x}$ is also used instead of $x^{-1}$. Finally, when the monoid E is commutative, $\frac{x}{y}$ or $x/y$ is also used for $xy^{-1}$.
 
 ### Exercises {#alg-i-s2-exercises}
 

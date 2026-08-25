@@ -49,7 +49,7 @@ subsections:
       page: 72
       pdf_page: 186
     - "no": 10
-      title: Finite $ \Gamma $-sets and etale algebras
+      title: Finite $\Gamma$-sets and etale algebras
       page: 75
       pdf_page: 189
     - "no": 11
@@ -58,7 +58,7 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: ca3fc22a3927420d19131276d84c6a18bdb2e1153a1a717cbafc7ecf2e2c2650
+content_sha256: bb424b0fb2ae9f504120455a04488e0309edc0e44d61041d427cf30a9a80ec43
 ---
 
 ## § 10. GALOIS EXTENSIONS
@@ -69,24 +69,24 @@ Throughout this paragraph K denotes a field.
 
 #### Theorem 1 {#alg-v-s10-thm-1 .statement}
 
-— Let N be an algebraic extension of K and $ \Gamma $ the group of K-automorphisms of N. Then the following assertions are equivalent:
-a) Every element of N invariant under $ \Gamma $ belongs to the image of K in N.
+— Let N be an algebraic extension of K and $\Gamma$ the group of K-automorphisms of N. Then the following assertions are equivalent:
+a) Every element of N invariant under $\Gamma$ belongs to the image of K in N.
 b) N is a separable quasi-Galois extension of K.
-c) For each $ x \in N $ the minimal polynomial of x over K splits in $ N[X] $ into a product of distinct polynomials of degree 1.
+c) For each $x \in N$ the minimal polynomial of x over K splits in $N[X]$ into a product of distinct polynomials of degree 1.
 The equivalence of b) and c) follows from the Cor. of Prop. 6 (V, p. 40) and the definition of quasi-Galois extension (V, p. 53, Def. 2). Let us identify K with its canonical image in N.
-$ a) \Rightarrow c) $: Suppose that K is the field of invariants of $ \Gamma $. Let $ x \in N $, with minimal polynomial $ f $ over K and let A be the set of all roots of f in N. Put
+$a) \Rightarrow c)$: Suppose that K is the field of invariants of $\Gamma$. Let $x \in N$, with minimal polynomial $f$ over K and let A be the set of all roots of f in N. Put
 $$
 g(X) = \prod_{y \in A} (X - y).
 $$
-Every automorphism $ a \in \Gamma $ induces a permutation of A, and hence leaves invariant the coefficients of the polynomial $ g \in N[X] $. We thus have $ g \in K[X] $ and since $ g(x) = 0 $, the polynomial g is a multiple of $ f $ in $ K[X] $ (V, p. 16, Th. 1). Further, $ f $ and g are monic and g divides $ f $ (IV, p. 16, Prop. 5); thus we have $ f = g $, which means that the minimal polynomial $ f $ of $ x $ over $ K $ is a product in $ N[X] $ of distinct polynomials of degree 1.
+Every automorphism $a \in \Gamma$ induces a permutation of A, and hence leaves invariant the coefficients of the polynomial $g \in N[X]$. We thus have $g \in K[X]$ and since $g(x) = 0$, the polynomial g is a multiple of $f$ in $K[X]$ (V, p. 16, Th. 1). Further, $f$ and g are monic and g divides $f$ (IV, p. 16, Prop. 5); thus we have $f = g$, which means that the minimal polynomial $f$ of $x$ over $K$ is a product in $N[X]$ of distinct polynomials of degree 1.
 
-c) ⇒ a): let x be an element of N not belonging to K. Denote by Ω an algebraic closure of K containing N as subextension (V, p. 23, Th. 2). Let f be the minimal polynomial of x over K, which is of degree ≥ 2 by hypothesis and let A be the set of roots of $ f(X) $ in N. If condition c) holds, we have $ f(X) = \prod_{y \in A} (X - y) $ and so (V, p. 53, Cor. 1) A is the set of conjugates of x in Ω. Since f has degree ≥ 2, there exists in A an element $ y \neq x $, hence a K-automorphism u of Ω such that $ u(x) = y $. Now under the hypothesis c), the extension N of K is quasi-Galois, hence $ u(N) = N $ (V, p. 54, Cor. 1); it follows that u induces a K-automorphism a of N such that $ \sigma(x) = y \neq x $, so K is the field of invariants of Γ.
+c) ⇒ a): let x be an element of N not belonging to K. Denote by Ω an algebraic closure of K containing N as subextension (V, p. 23, Th. 2). Let f be the minimal polynomial of x over K, which is of degree ≥ 2 by hypothesis and let A be the set of roots of $f(X)$ in N. If condition c) holds, we have $f(X) = \prod_{y \in A} (X - y)$ and so (V, p. 53, Cor. 1) A is the set of conjugates of x in Ω. Since f has degree ≥ 2, there exists in A an element $y \neq x$, hence a K-automorphism u of Ω such that $u(x) = y$. Now under the hypothesis c), the extension N of K is quasi-Galois, hence $u(N) = N$ (V, p. 54, Cor. 1); it follows that u induces a K-automorphism a of N such that $\sigma(x) = y \neq x$, so K is the field of invariants of Γ.
 
 #### Definition 1 {#alg-v-s10-def-1 .statement}
 
 — An extension N of K is said to be Galois if it is algebraic and satisfies the equivalent conditions a), b), c) of Th. 1.
 
-Let N be a field, Γ a group of automorphisms of N and $ N_0 $ the field of invariants of Γ. When N is algebraic over $ N_0 $ it is a Galois extension of $ N_0 $. This need not always be so: for example, suppose that K is infinite and take N to be the field of rational fractions K(X); for each $ a \in K $ let $ \sigma_a $ be the automorphism of K(X) which maps $ f(X) $ to $ f(X + a) $. The set of all $ a $, is a group of automorphisms of K(X) whose field of invariants is easily seen to be K; however K(X) is not algebraic over K.
+Let N be a field, Γ a group of automorphisms of N and $N_0$ the field of invariants of Γ. When N is algebraic over $N_0$ it is a Galois extension of $N_0$. This need not always be so: for example, suppose that K is infinite and take N to be the field of rational fractions K(X); for each $a \in K$ let $\sigma_a$ be the automorphism of K(X) which maps $f(X)$ to $f(X + a)$. The set of all $a$, is a group of automorphisms of K(X) whose field of invariants is easily seen to be K; however K(X) is not algebraic over K.
 
 Let Ω be an algebraic closure of K, let A denote a set of elements of Ω separable over K and B the set of conjugates over K of elements of A. Then B consists of elements that are algebraic and separable over K. Therefore (V, p. 39, Prop. 6 and p. 56, Prop. 5) the field K(B) is a separable quasi-Galois extension of K; in other words, the quasi-Galois extension generated by A (V, p. 55) is a Galois extension of K; we shall also say that it is the Galois extension of K generated by the subset A of O.
 
@@ -94,7 +94,7 @@ In particular, the splitting field in Ω of a family of separable polynomials ov
 
 #### Proposition 1 {#alg-v-s10-prop-1 .statement}
 
-— Let N be an extension of K and $ (N_i)_{i \in I} $, a non-empty family of subextensions of N. We put $ E = \cap_{i \in I} N_i $ and $ F = K \left( \bigcup_{i \in I} N_i \right) $. If all the extensions N, are Galois over K then the same is true of E and F.
+— Let N be an extension of K and $(N_i)_{i \in I}$, a non-empty family of subextensions of N. We put $E = \cap_{i \in I} N_i$ and $F = K \left( \bigcup_{i \in I} N_i \right)$. If all the extensions N, are Galois over K then the same is true of E and F.
 
 In the first place E is algebraic and separable over K (V, p. 36, Prop. 1) and the same holds for F (V, p. 41, Prop. 8). Moreover, E and F are quasi-Galois over K by Prop. 4 (V, p. 55).
 
@@ -132,79 +132,79 @@ Let f = X³ + X² − 2X − 1 ∈ Q[X]. The polynomial f is irreducible, for if
 
 #### Example 3 {#alg-v-s10-n2-exa-3 .statement}
 
-Suppose that $ K = \mathbf{Q} $ and take $ f = X^3 - 2 $. Using the decomposition of integers into products of prime factors (I, p. 51), we easily see that 2 is not the cube of an element of $ \mathbf{Q} $. Hence the polynomial $ f $ is irreducible, for if not, it would have a root in $ \mathbf{Q} $. Let $ A = \{ x_1, x_2, x_3 \} $ be the set of roots of $ f $ in $ \Omega $ and $ \Gamma $ the Galois group of $ f $. It acts transitively on $ A $; its order is therefore divisible by three. On the other hand, the quotient $ j = \frac{x_2}{x_1} $ is different from 1 and we have $ j^3 = 1 $. Hence $ j $ satisfies the relation $ j^2 + j + 1 = 0 $; now the polynomial $ T^2 + T + 1 = \left( T + \frac{1}{2} \right)^2 + \frac{3}{4} $ has no roots in $ \mathbf{Q} $, which shows (Example 1) that $ [\mathbf{Q}(j) : \mathbf{Q}] = 2 $. Thus $ [\mathbf{N} : \mathbf{Q}] $ is divisible by 2, and it follows that the order of $ \Gamma $ is divisible by 6. Since $ \Gamma $ is contained in the group $ \mathfrak{S}_A $ of order 6, we have $ \Gamma = \mathfrak{S}_A $.
+Suppose that $K = \mathbf{Q}$ and take $f = X^3 - 2$. Using the decomposition of integers into products of prime factors (I, p. 51), we easily see that 2 is not the cube of an element of $\mathbf{Q}$. Hence the polynomial $f$ is irreducible, for if not, it would have a root in $\mathbf{Q}$. Let $A = \{ x_1, x_2, x_3 \}$ be the set of roots of $f$ in $\Omega$ and $\Gamma$ the Galois group of $f$. It acts transitively on $A$; its order is therefore divisible by three. On the other hand, the quotient $j = \frac{x_2}{x_1}$ is different from 1 and we have $j^3 = 1$. Hence $j$ satisfies the relation $j^2 + j + 1 = 0$; now the polynomial $T^2 + T + 1 = \left( T + \frac{1}{2} \right)^2 + \frac{3}{4}$ has no roots in $\mathbf{Q}$, which shows (Example 1) that $[\mathbf{Q}(j) : \mathbf{Q}] = 2$. Thus $[\mathbf{N} : \mathbf{Q}]$ is divisible by 2, and it follows that the order of $\Gamma$ is divisible by 6. Since $\Gamma$ is contained in the group $\mathfrak{S}_A$ of order 6, we have $\Gamma = \mathfrak{S}_A$.
 
 #### Example 4 {#alg-v-s10-n2-exa-4 .statement}
 
-Suppose that $ K $ is of characteristic $ p \neq 0 $ and let $ K(T) $ be the field of rational fractions and $ U = T^p - T $. Put $ E = K[U] $ and $ F = K[T] $, then the polynomial $ f(X) = X^p - X - U $ of $ E[X] $ has the roots $ T, T+1, ..., T+p-1 $ in $ F $. Let $ \sigma $ be the $ K $-automorphism of $ F $ such that $ \sigma(T) = T+1 $. We have $ \sigma^i(T) = T+i $ and $ \sigma(U) = U $. The group $ G = \{ 1, \sigma, ..., \sigma^{p-1} \} $ is cyclic of order $ p $, and its field of invariants contains $ E $; since $ [F : E] \leq p $, Dedekind's theorem (V, p. 27, Cor. 2) implies that $ E $ is the field of invariants of $ G $ and $ [F : E] = p $. The polynomial $ f $ is thus irreducible in $ E[X] $; the extension $ F $ of $ E $ is Galois, its Galois group $ G $ is cyclic of order $ p $, and the group $ \Gamma $ is the group of cyclic permutations of $ T, T+1, ..., T+p-1 $.
+Suppose that $K$ is of characteristic $p \neq 0$ and let $K(T)$ be the field of rational fractions and $U = T^p - T$. Put $E = K[U]$ and $F = K[T]$, then the polynomial $f(X) = X^p - X - U$ of $E[X]$ has the roots $T, T+1, ..., T+p-1$ in $F$. Let $\sigma$ be the $K$-automorphism of $F$ such that $\sigma(T) = T+1$. We have $\sigma^i(T) = T+i$ and $\sigma(U) = U$. The group $G = \{ 1, \sigma, ..., \sigma^{p-1} \}$ is cyclic of order $p$, and its field of invariants contains $E$; since $[F : E] \leq p$, Dedekind's theorem (V, p. 27, Cor. 2) implies that $E$ is the field of invariants of $G$ and $[F : E] = p$. The polynomial $f$ is thus irreducible in $E[X]$; the extension $F$ of $E$ is Galois, its Galois group $G$ is cyclic of order $p$, and the group $\Gamma$ is the group of cyclic permutations of $T, T+1, ..., T+p-1$.
 
 For a generalization of this example see V, p. 93, Example 2.
 
 #### Example 5 {#alg-v-s10-n2-exa-5 .statement}
 
-Let $ F = K(X_1, ..., X_n) $ be the field of rational fractions in $ n $ indeterminates $ X_1, ..., X_n $ with coefficients in $ K $. Put
+Let $F = K(X_1, ..., X_n)$ be the field of rational fractions in $n$ indeterminates $X_1, ..., X_n$ with coefficients in $K$. Put
 $$
 s_k = \sum_{1 \leq i_1 < ... < i_k \leq n} X_{i_1} ... X_{i_k}
 $$
-for $ 1 \leq k \leq n $ and $ E = K(s_1, ..., s_n) $; we denote by $ f(T) $ the polynomial
+for $1 \leq k \leq n$ and $E = K(s_1, ..., s_n)$; we denote by $f(T)$ the polynomial
 $$
 T^n - s_1 T^{n-1} + \cdots + (-1)^n s_n .
 $$
-We have $ f(T) = \prod_{i=1}^n (T - X_i) $, so that $ F $ is a splitting field of the separable polynomial $ f(T) \in E[T] $. Further, for every permutation $ a \in \mathfrak{S}_n $ there exists a unique $ K $-automorphism $ h_a $ of $ F $ such that $ h_a(X_i) = X_{a(i)} $ for $ 1 \leq i \leq n $; we have $ h_a(s_k) = s_k $ for $ 1 \leq k \leq n $, hence $ h_a $ is an $ E $-automorphism of $ F $. In other words, $ F $ is a Galois extension of $ E $ and the restriction to the set of roots $ \{ X_1, ..., X_n \} $ of $ f(T) $ defines an isomorphism of $ \mathrm{Gal}(F/E) $ onto the group $ \mathfrak{S}_n $. In particular, $ E $ consists of rational fractions $ f $ such that
+We have $f(T) = \prod_{i=1}^n (T - X_i)$, so that $F$ is a splitting field of the separable polynomial $f(T) \in E[T]$. Further, for every permutation $a \in \mathfrak{S}_n$ there exists a unique $K$-automorphism $h_a$ of $F$ such that $h_a(X_i) = X_{a(i)}$ for $1 \leq i \leq n$; we have $h_a(s_k) = s_k$ for $1 \leq k \leq n$, hence $h_a$ is an $E$-automorphism of $F$. In other words, $F$ is a Galois extension of $E$ and the restriction to the set of roots $\{ X_1, ..., X_n \}$ of $f(T)$ defines an isomorphism of $\mathrm{Gal}(F/E)$ onto the group $\mathfrak{S}_n$. In particular, $E$ consists of rational fractions $f$ such that
 $$
 f(X_{\sigma(1)}, ..., X_{\sigma(n)}) = f(X_1, ..., X_n)
 $$
-for every $ \sigma \in \mathfrak{S}_n $ (cf. IV, p. 67, Cor.).
+for every $\sigma \in \mathfrak{S}_n$ (cf. IV, p. 67, Cor.).
 
 #### Example 6 {#alg-v-s10-n2-exa-6 .statement}
 
-Suppose that f is monic of degree > 0 and K is of characteristic ≠ 2. Define on A a total ordering, denoted by ≤, and put δ(f) = $ \prod_{\alpha < \beta} (\beta - a) $, $ (\alpha, \beta) \in A \times A $, and for each $ \sigma \in \mathfrak{S}_A $ put $ \delta_\sigma(f) = \prod_{\alpha < \beta} (\sigma(\beta) - \sigma(\alpha)) $. We have $ \delta_\sigma(f) = \varepsilon(u) \delta(f) $, where $ \varepsilon(u) $ is the signature of $ \sigma $ (I, p. 64) and $ \delta(f) \neq 0 $. For every $ \tau \in \mathrm{Gal}(N/K) $ we have $ \tau(\delta(f)) = \delta_{\tau|_A}(f) $. Hence $ \Gamma $ is contained in the alternating group $ \mathfrak{A}_A $ if and only if $ \delta(f) \in K $. Moreover $ \delta(f)^2 = \prod_{\alpha < \beta} (\beta - a)' = d(f) $ is the discriminant of the polynomial f (IV, p. 81). Hence $ \Gamma \subset \mathfrak{A}_A $ if and only if $ d(f) $ is the square of an element of K. Thus in Example 2 we have $ d(f) = 49 = 7^2 $ and in Example 3, $ d(f) = -108 $ (IV, p. 85).
+Suppose that f is monic of degree > 0 and K is of characteristic ≠ 2. Define on A a total ordering, denoted by ≤, and put δ(f) = $\prod_{\alpha < \beta} (\beta - a)$, $(\alpha, \beta) \in A \times A$, and for each $\sigma \in \mathfrak{S}_A$ put $\delta_\sigma(f) = \prod_{\alpha < \beta} (\sigma(\beta) - \sigma(\alpha))$. We have $\delta_\sigma(f) = \varepsilon(u) \delta(f)$, where $\varepsilon(u)$ is the signature of $\sigma$ (I, p. 64) and $\delta(f) \neq 0$. For every $\tau \in \mathrm{Gal}(N/K)$ we have $\tau(\delta(f)) = \delta_{\tau|_A}(f)$. Hence $\Gamma$ is contained in the alternating group $\mathfrak{A}_A$ if and only if $\delta(f) \in K$. Moreover $\delta(f)^2 = \prod_{\alpha < \beta} (\beta - a)' = d(f)$ is the discriminant of the polynomial f (IV, p. 81). Hence $\Gamma \subset \mathfrak{A}_A$ if and only if $d(f)$ is the square of an element of K. Thus in Example 2 we have $d(f) = 49 = 7^2$ and in Example 3, $d(f) = -108$ (IV, p. 85).
 
-Let N be a Galois extension of K and let L be a subextension of N which is Galois over K. Every K-automorphism $ \sigma $ of N induces a K-automorphism $ \sigma_L $ of L (V, p. 55, Remark 1). Therefore the mapping $ \sigma \mapsto \sigma_L $ is a homomorphism of $ \mathrm{Gal}(N/K) $ into $ \mathrm{Gal}(L/K) $, called the restriction homomorphism.
+Let N be a Galois extension of K and let L be a subextension of N which is Galois over K. Every K-automorphism $\sigma$ of N induces a K-automorphism $\sigma_L$ of L (V, p. 55, Remark 1). Therefore the mapping $\sigma \mapsto \sigma_L$ is a homomorphism of $\mathrm{Gal}(N/K)$ into $\mathrm{Gal}(L/K)$, called the restriction homomorphism.
 
 #### Proposition 3 {#alg-v-s10-prop-3 .statement}
 
-— *The restriction homomorphism* of $ \mathrm{Gal}(N/K) $ into $ \mathrm{Gal}(L/K) $ *is surjective*.
+— *The restriction homomorphism* of $\mathrm{Gal}(N/K)$ into $\mathrm{Gal}(L/K)$ *is surjective*.
 
-More generally, consider two subextensions L and L' of N, and a K-isomorphism $ u $ of L onto L'. Choose an algebraic closure $ \Omega $ of K containing N as subextension (V, p. 23, Th. 2). There exists a K-automorphism $ v $ of $ \Omega $ which coincides with $ u $ on L (V, p. 52, Prop. 1), and since N is a quasi-Galois extension of K, $ v $ induces a K-automorphism $ \sigma $ of N (V, p. 55, Remark 1). In other words, the element $ \sigma $ of $ \mathrm{Gal}(N/K) $ coincides with $ u $ on L.
+More generally, consider two subextensions L and L' of N, and a K-isomorphism $u$ of L onto L'. Choose an algebraic closure $\Omega$ of K containing N as subextension (V, p. 23, Th. 2). There exists a K-automorphism $v$ of $\Omega$ which coincides with $u$ on L (V, p. 52, Prop. 1), and since N is a quasi-Galois extension of K, $v$ induces a K-automorphism $\sigma$ of N (V, p. 55, Remark 1). In other words, the element $\sigma$ of $\mathrm{Gal}(N/K)$ coincides with $u$ on L.
 
 ### 3. Topology of the Galois group
 
-Let N be a Galois extension of K and $ \Gamma $ the Galois group of N over K. We equip N with the discrete topology, the set $ N^N $ of all mappings of N into itself with the product topology of the discrete topology of the factors ("topology of simple convergence in N") and the group $ \Gamma $ with the topology induced from $ N^N $.
+Let N be a Galois extension of K and $\Gamma$ the Galois group of N over K. We equip N with the discrete topology, the set $N^N$ of all mappings of N into itself with the product topology of the discrete topology of the factors ("topology of simple convergence in N") and the group $\Gamma$ with the topology induced from $N^N$.
 
-Let A be the set of all subextensions of N of finite degree over K. For $ \sigma \in \Gamma $ and $ E \in A $ we shall write $ U_E(\sigma) $ for the set of elements $ \tau $ of $ \Gamma $ which have the same restriction as $ \sigma $ to E. If $ E = K(x_1, ..., x_n) $, the set $ U_E(\sigma) $ consists of the elements $ \tau \in \Gamma $ such that $ \tau(x_i) = \sigma(x_i), ..., \tau(x_n) = \sigma(x_n) $. It follows that the family $ (U_F(\sigma))_{F \in \mathcal{F}} $ is a base of the filter of neighbourhoods of $ \sigma $ in $ \Gamma $.
+Let A be the set of all subextensions of N of finite degree over K. For $\sigma \in \Gamma$ and $E \in A$ we shall write $U_E(\sigma)$ for the set of elements $\tau$ of $\Gamma$ which have the same restriction as $\sigma$ to E. If $E = K(x_1, ..., x_n)$, the set $U_E(\sigma)$ consists of the elements $\tau \in \Gamma$ such that $\tau(x_i) = \sigma(x_i), ..., \tau(x_n) = \sigma(x_n)$. It follows that the family $(U_F(\sigma))_{F \in \mathcal{F}}$ is a base of the filter of neighbourhoods of $\sigma$ in $\Gamma$.
 
-When N is of finite degree over K, we have $ N \in A $ and $ U_N(\sigma) = \{\sigma\} $, hence the topology of $ \mathrm{Gal}(N/K) $ is discrete; we recall (V, p. 58), that the group $ \mathrm{Gal}(N/K) $ is finite in this case.
+When N is of finite degree over K, we have $N \in A$ and $U_N(\sigma) = \{\sigma\}$, hence the topology of $\mathrm{Gal}(N/K)$ is discrete; we recall (V, p. 58), that the group $\mathrm{Gal}(N/K)$ is finite in this case.
 
-This description of the topology of $ \mathrm{Gal}(N/K) $ shows that the *restriction homomorphism* of $ \mathrm{Gal}(N/K) $ *onto* $ \mathrm{Gal}(L/K) $ *is continuous* for every subextension L of N which is Galois over N.
+This description of the topology of $\mathrm{Gal}(N/K)$ shows that the *restriction homomorphism* of $\mathrm{Gal}(N/K)$ *onto* $\mathrm{Gal}(L/K)$ *is continuous* for every subextension L of N which is Galois over N.
 
-Let $ A $ be a subset of $ \Gamma $. To say that $ A $ is open means that for each $ \sigma \in A $ there exists $ E $ in $ A $ such that the set $ U_E(\sigma) $ is contained in $ A $. The closure $ \overline{A} $ of $ A $ consists of all $ \sigma \in \Gamma $ such that for any $ E \in A $ there exists $ \tau \in A $ having the same restriction to $ E $ as $ \sigma $; the field of invariants of $ \overline{A} $ is the same as that of $ A $.
+Let $A$ be a subset of $\Gamma$. To say that $A$ is open means that for each $\sigma \in A$ there exists $E$ in $A$ such that the set $U_E(\sigma)$ is contained in $A$. The closure $\overline{A}$ of $A$ consists of all $\sigma \in \Gamma$ such that for any $E \in A$ there exists $\tau \in A$ having the same restriction to $E$ as $\sigma$; the field of invariants of $\overline{A}$ is the same as that of $A$.
 
-Let $ \varepsilon $ be the neutral element of $ \Gamma $ and let $ A' $ be the set of subextensions of $ N $ which are Galois and of finite degree over $ K $. By Prop. 2 (V, p. 57) the set $ A' $ is cofinal in $ A $ and the family $ (U_E(\varepsilon))_{E \in A'} $ is thus a base of the filter of neighbourhoods of $ \varepsilon $ in $ \Gamma $. Further, for $ E \in A' $ the set $ U_E(E) $ is the kernel of the restriction homomorphism of $ \mathrm{Gal}(N/K) = \Gamma $ into $ \mathrm{Gal}(E/K) $. Since $ \mathrm{Gal}(E/K) $ is finite, it follows that $ U_{\Gamma}(\varepsilon) $ is an open and closed subgroup, normal and of finite index in $ \Gamma $.
+Let $\varepsilon$ be the neutral element of $\Gamma$ and let $A'$ be the set of subextensions of $N$ which are Galois and of finite degree over $K$. By Prop. 2 (V, p. 57) the set $A'$ is cofinal in $A$ and the family $(U_E(\varepsilon))_{E \in A'}$ is thus a base of the filter of neighbourhoods of $\varepsilon$ in $\Gamma$. Further, for $E \in A'$ the set $U_E(E)$ is the kernel of the restriction homomorphism of $\mathrm{Gal}(N/K) = \Gamma$ into $\mathrm{Gal}(E/K)$. Since $\mathrm{Gal}(E/K)$ is finite, it follows that $U_{\Gamma}(\varepsilon)$ is an open and closed subgroup, normal and of finite index in $\Gamma$.
 
-Clearly we have $ U_{\Gamma}(\sigma) = \sigma U_{\Gamma}(\varepsilon) = U_{\Gamma}(\varepsilon) \sigma $ for $ \sigma \in \Gamma $ and $ E \in A' $. Since $ U_{\Gamma}(\varepsilon) $ is a normal subgroup of $ \Gamma $ for all $ E \in A' $ and the family $ (U_E(\varepsilon))_{E \in A'} $ is a base of neighbourhoods at $ \varepsilon $, the topology of $ \Gamma $ is compatible with the group structure (Gen. Top., III, p. 223). In other words, the mapping $ (\sigma, \tau) \mapsto \sigma \tau^{-1} $ of $ \Gamma \times \Gamma $ into $ \Gamma $ is continuous.
+Clearly we have $U_{\Gamma}(\sigma) = \sigma U_{\Gamma}(\varepsilon) = U_{\Gamma}(\varepsilon) \sigma$ for $\sigma \in \Gamma$ and $E \in A'$. Since $U_{\Gamma}(\varepsilon)$ is a normal subgroup of $\Gamma$ for all $E \in A'$ and the family $(U_E(\varepsilon))_{E \in A'}$ is a base of neighbourhoods at $\varepsilon$, the topology of $\Gamma$ is compatible with the group structure (Gen. Top., III, p. 223). In other words, the mapping $(\sigma, \tau) \mapsto \sigma \tau^{-1}$ of $\Gamma \times \Gamma$ into $\Gamma$ is continuous.
 
 #### Proposition 4 {#alg-v-s10-prop-4 .statement}
 
-— Let $ N $ be a Galois extension of $ K $. Then the Galois group $ \Gamma = \mathrm{Gal}(N/K) $ is compact and totally disconnected.
+— Let $N$ be a Galois extension of $K$. Then the Galois group $\Gamma = \mathrm{Gal}(N/K)$ is compact and totally disconnected.
 
-Every element $ \sigma $ of $ \Gamma $ has a base of neighbourhoods consisting of the open and closed sets $ U_E(\sigma) $, hence $ \Gamma $ is totally disconnected (Gen. Top., I, p. 111). We have $ \{\sigma\} = \bigcap_{E \in \Lambda} U_E(\sigma) $, hence $ \Gamma $ is separated. For each $ x \in N $ the set of conjugates $ \sigma(x) $ of $ x $, as $ \sigma $ ranges over $ \Gamma $, is *finite* because $ x $ is algebraic over $ K $ (V, p. Cor. 1); hence all the projections of $ \Gamma $ on the factor spaces of $ N^N $ are finite sets, and this shows $ \Gamma $ to be relatively compact in $ N^N $ (Gen. Top., I, p. 88). It remains to show that $ \Gamma $ is closed in $ N^N $. Now if $ u $ is in the closure of $ \Gamma $ in $ N^N $, then for each pair of points $ (x, y) $ of $ N $ there exists $ a \in \Gamma $ with $ u(x) = \sigma(x), \ u(y) = \sigma(y), \ u(x+y) = \sigma(x+y), \ u(xy) = \sigma(xy) $, whence $ u(x+y) = u(x) + u(y) $ and $ u(xy) = u(x)u(y) $. By the same reasoning we have $ u(x) = x $ for all $ x \in K $, hence $ u $ is a $ K $-homomorphism of $ N $ into $ N $; since $ N $ is algebraic over $ K $, $ u $ is a $ K $-automorphism of $ N $ (V, p. 52, Prop. 1), hence $ u \in T $.
+Every element $\sigma$ of $\Gamma$ has a base of neighbourhoods consisting of the open and closed sets $U_E(\sigma)$, hence $\Gamma$ is totally disconnected (Gen. Top., I, p. 111). We have $\{\sigma\} = \bigcap_{E \in \Lambda} U_E(\sigma)$, hence $\Gamma$ is separated. For each $x \in N$ the set of conjugates $\sigma(x)$ of $x$, as $\sigma$ ranges over $\Gamma$, is *finite* because $x$ is algebraic over $K$ (V, p. Cor. 1); hence all the projections of $\Gamma$ on the factor spaces of $N^N$ are finite sets, and this shows $\Gamma$ to be relatively compact in $N^N$ (Gen. Top., I, p. 88). It remains to show that $\Gamma$ is closed in $N^N$. Now if $u$ is in the closure of $\Gamma$ in $N^N$, then for each pair of points $(x, y)$ of $N$ there exists $a \in \Gamma$ with $u(x) = \sigma(x), \ u(y) = \sigma(y), \ u(x+y) = \sigma(x+y), \ u(xy) = \sigma(xy)$, whence $u(x+y) = u(x) + u(y)$ and $u(xy) = u(x)u(y)$. By the same reasoning we have $u(x) = x$ for all $x \in K$, hence $u$ is a $K$-homomorphism of $N$ into $N$; since $N$ is algebraic over $K$, $u$ is a $K$-automorphism of $N$ (V, p. 52, Prop. 1), hence $u \in T$.
 
-Let $ N $ be a Galois extension of $ K $ and $ (N_i)_{i \in I} $ an increasing directed family of subextensions of $ N $. Suppose that $ N_i $ is Galois over $ K $ for all $ i \in I $ and that $ N = \bigcup_{i \in I} N_i $. For each $ i \in I $ denote by $ \Gamma_i $ the Galois group of $ N_i $ over $ K $; for $ i \leq j $ in $ I $ we have $ N_i \subset N_j $ and the restriction homomorphism $ \varphi_{ij} $ of $ \Gamma_j $ into $ \Gamma_i $ is defined. It is continuous and so the family $ (\Gamma_i, \varphi_{ij}) $ is an inverse system of topological groups. Further, for each $ i \in I $ denote by $ \lambda_i $ the restriction homomorphism of $ \mathrm{Gal}(N/K) $ into $ \mathrm{Gal}(N_i/K) = \Gamma_i $; it is continuous and we have $ \lambda_i = \varphi_{ij} \circ \lambda_j $ for $ i \leq j $, hence the family $ (\lambda_i)_{i \in I} $ defines a continuous homomorphism $ \Lambda $ of $ \mathrm{Gal}(N/K) $ into $ \varprojlim \Gamma_i $.
+Let $N$ be a Galois extension of $K$ and $(N_i)_{i \in I}$ an increasing directed family of subextensions of $N$. Suppose that $N_i$ is Galois over $K$ for all $i \in I$ and that $N = \bigcup_{i \in I} N_i$. For each $i \in I$ denote by $\Gamma_i$ the Galois group of $N_i$ over $K$; for $i \leq j$ in $I$ we have $N_i \subset N_j$ and the restriction homomorphism $\varphi_{ij}$ of $\Gamma_j$ into $\Gamma_i$ is defined. It is continuous and so the family $(\Gamma_i, \varphi_{ij})$ is an inverse system of topological groups. Further, for each $i \in I$ denote by $\lambda_i$ the restriction homomorphism of $\mathrm{Gal}(N/K)$ into $\mathrm{Gal}(N_i/K) = \Gamma_i$; it is continuous and we have $\lambda_i = \varphi_{ij} \circ \lambda_j$ for $i \leq j$, hence the family $(\lambda_i)_{i \in I}$ defines a continuous homomorphism $\Lambda$ of $\mathrm{Gal}(N/K)$ into $\varprojlim \Gamma_i$.
 
 #### Proposition 5 {#alg-v-s10-prop-5 .statement}
 
-— *The homomorphism* $ \lambda $ *of* $ \mathrm{Gal}(N/K) $ *into* $ \varprojlim \mathrm{Gal}(N_i/K) $ *is an isomorphism of topological groups*.
+— *The homomorphism* $\lambda$ *of* $\mathrm{Gal}(N/K)$ *into* $\varprojlim \mathrm{Gal}(N_i/K)$ *is an isomorphism of topological groups*.
 
-Since $ \mathrm{Gal}(N/K) $ is compact, $ \lambda $ continuous and the group $ \varprojlim \mathrm{Gal}(N_i/K) $ separated, it suffices to show that $ h $ is bijective (*Gen. Top.*, *I*, p. 87, Cor. 2). Let $ u = (u_i)_{i \in I} $ be an element of $ \varprojlim \mathrm{Gal}(N_i/K) $; for each $ i \in I $, $ u_i $ is a K-automorphism of $ N_i $ and $ u_i $ is the restriction of $ u_j $ to $ N_i $ for $ i \leq j $. Since $ N = \bigcup_{i \in I} N_i $, there exists a unique element $ \sigma $ of $ \mathrm{Gal}(N/K) $ which coincides with $ u_i $ on $ N_i $ for all $ i \in I $. Thus $ \sigma $ is the unique element of $ \mathrm{Gal}(N/K) $ such that $ \lambda(u) = u $, hence $ \lambda $ is bijective.
+Since $\mathrm{Gal}(N/K)$ is compact, $\lambda$ continuous and the group $\varprojlim \mathrm{Gal}(N_i/K)$ separated, it suffices to show that $h$ is bijective (*Gen. Top.*, *I*, p. 87, Cor. 2). Let $u = (u_i)_{i \in I}$ be an element of $\varprojlim \mathrm{Gal}(N_i/K)$; for each $i \in I$, $u_i$ is a K-automorphism of $N_i$ and $u_i$ is the restriction of $u_j$ to $N_i$ for $i \leq j$. Since $N = \bigcup_{i \in I} N_i$, there exists a unique element $\sigma$ of $\mathrm{Gal}(N/K)$ which coincides with $u_i$ on $N_i$ for all $i \in I$. Thus $\sigma$ is the unique element of $\mathrm{Gal}(N/K)$ such that $\lambda(u) = u$, hence $\lambda$ is bijective.
 
-This applies in particular when we take for the family $ (N_i) $ the family of all finite Galois subextensions of $ N $; then each group $ \mathrm{Gal}(N_i/K) $ is discrete and finite. The topological group $ \mathrm{Gal}(N/K) $ is thus isomorphic to a directed inverse limit of finite groups, equipped with the discrete topology; this is sometimes called a *profinite* topological group.
+This applies in particular when we take for the family $(N_i)$ the family of all finite Galois subextensions of $N$; then each group $\mathrm{Gal}(N_i/K)$ is discrete and finite. The topological group $\mathrm{Gal}(N/K)$ is thus isomorphic to a directed inverse limit of finite groups, equipped with the discrete topology; this is sometimes called a *profinite* topological group.
 
 ### 4. Galois descent
 
-*In this No.* we denote by $ N $ *a field*, $ \Gamma $ *a group of automorphisms of* $ N $, $ e $ *the neutral element of* $ \Gamma $ *and* $ K $ *the field of invariants of* $ \Gamma $.
+*In this No.* we denote by $N$ *a field*, $\Gamma$ *a group of automorphisms of* $N$, $e$ *the neutral element of* $\Gamma$ *and* $K$ *the field of invariants of* $\Gamma$.
 
-Let $ V $ be a vector space over $ N $. We recall (II, p. 317) that a *K-structure* on $ V $ is a vector sub-K-space $ V_0 $ of $ V $ such that the K-linear mapping $ \varphi : N \otimes_K V_0 \to V $ which maps $ h \otimes x $ to $ \lambda x $ is bijective. Let $ V_0 $ be such a K-structure; for each $ \sigma \in \Gamma $ we put $ u_\sigma = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0}) \circ \varphi^{-1} $; then we have $ u_\sigma \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{i \in I} \sigma(\lambda_i) e_i $ for every family of elements $ \lambda_i $ of $ N $ and $ e_i $ of $ V_0 $ whence we obtain the relations
+Let $V$ be a vector space over $N$. We recall (II, p. 317) that a *K-structure* on $V$ is a vector sub-K-space $V_0$ of $V$ such that the K-linear mapping $\varphi : N \otimes_K V_0 \to V$ which maps $h \otimes x$ to $\lambda x$ is bijective. Let $V_0$ be such a K-structure; for each $\sigma \in \Gamma$ we put $u_\sigma = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0}) \circ \varphi^{-1}$; then we have $u_\sigma \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{i \in I} \sigma(\lambda_i) e_i$ for every family of elements $\lambda_i$ of $N$ and $e_i$ of $V_0$ whence we obtain the relations
 $$
 \begin{align*}
 u_\sigma(x + y) &= u_\sigma(x) + u_\sigma(y) \\
@@ -213,141 +213,141 @@ u_\sigma \circ u_\tau &= u_{\sigma \tau} \\
 u_e &= \mathrm{Id}_V
 \end{align*}
 $$
-for $ \sigma, \tau $ in $ \Gamma $, $ x, y $ in $ V $ and $ \lambda $ in $ N $.
+for $\sigma, \tau$ in $\Gamma$, $x, y$ in $V$ and $\lambda$ in $N$.
 
 #### Proposition 6 {#alg-v-s10-prop-6 .statement}
 
-— *a)* *Let* $ V $ *be a vector space over* $ N $ *with a* $ K $-*structure*. *For a vector* $ x \in V $ *to be rational over* $ K $ *it is necessary and sufficient that* $ u_\sigma(x) = x $ *for all* $ \sigma \in \Gamma $. *For a vector sub-N-space* $ W $ *of* $ V $ *to be rational over* $ K $ *it is necessary and sufficient that* $ u_\sigma(W) \subset W $ *for all* $ \sigma \in \Gamma $.
+— *a)* *Let* $V$ *be a vector space over* $N$ *with a* $K$-*structure*. *For a vector* $x \in V$ *to be rational over* $K$ *it is necessary and sufficient that* $u_\sigma(x) = x$ *for all* $\sigma \in \Gamma$. *For a vector sub-N-space* $W$ *of* $V$ *to be rational over* $K$ *it is necessary and sufficient that* $u_\sigma(W) \subset W$ *for all* $\sigma \in \Gamma$.
 
-*b)* *Let* $ V_1 $ *and* $ V_2 $ *be two vector spaces over* $ N $, *each with a* $ K $-*structure*. *For a linear mapping* $ f $ *of* $ V_1 $ *into* $ V_2 $ *to be rational over* $ K $ *it is necessary and sufficient that* $ f(u_\sigma(x)) = u_\sigma(f(x)) $ *for all* $ \sigma \in \Gamma $ *and all* $ x \in V_1 $.
+*b)* *Let* $V_1$ *and* $V_2$ *be two vector spaces over* $N$, *each with a* $K$-*structure*. *For a linear mapping* $f$ *of* $V_1$ *into* $V_2$ *to be rational over* $K$ *it is necessary and sufficient that* $f(u_\sigma(x)) = u_\sigma(f(x))$ *for all* $\sigma \in \Gamma$ *and all* $x \in V_1$.
 
-*It* is clear that $ K $ *is the set of* $ x \in N $ *such that* $ \sigma(xy) = x \sigma(y) $ *for all* $ \sigma \in \Gamma $ *and all* $ y \in N $. *The proposition therefore follows from Th. 1* (II, p. 324).
+*It* is clear that $K$ *is the set of* $x \in N$ *such that* $\sigma(xy) = x \sigma(y)$ *for all* $\sigma \in \Gamma$ *and all* $y \in N$. *The proposition therefore follows from Th. 1* (II, p. 324).
 
 #### Corollary {#alg-v-s10-n4-cor-1 .statement}
 
-— Let $ V_0 $ be a vector space over $ K $ and let $ W $ be a vector sub-N-space of $ N \otimes_K V_0 $. Suppose that $ W $ is stable under the mappings $ \sigma \otimes \mathrm{Id}_{V_0} $ for all $ \sigma \in \Gamma $. Let $ W_0 $ be the set of $ x \in V_0 $ such that $ 1 \otimes x \in W $; then $ W_0 $ is the unique vector sub-K-space of $ V_0 $ such that $ W = N \otimes_K W_0 $.
+— Let $V_0$ be a vector space over $K$ and let $W$ be a vector sub-N-space of $N \otimes_K V_0$. Suppose that $W$ is stable under the mappings $\sigma \otimes \mathrm{Id}_{V_0}$ for all $\sigma \in \Gamma$. Let $W_0$ be the set of $x \in V_0$ such that $1 \otimes x \in W$; then $W_0$ is the unique vector sub-K-space of $V_0$ such that $W = N \otimes_K W_0$.
 
-It suffices to remark that the set of elements of the form $ 1 \otimes x \ (x \in V_0) $ is a K-structure on $ N \otimes_K V_0 $ for which we have $ u_\sigma = \sigma \otimes \mathrm{Id}_{V_0} $ for $ \sigma \in \Gamma $.
+It suffices to remark that the set of elements of the form $1 \otimes x \ (x \in V_0)$ is a K-structure on $N \otimes_K V_0$ for which we have $u_\sigma = \sigma \otimes \mathrm{Id}_{V_0}$ for $\sigma \in \Gamma$.
 
 #### Proposition 7 {#alg-v-s10-prop-7 .statement}
 
-— Let $ V $ be a vector space over $ N $, $ (u_\sigma)_\sigma $, r a family of mappings of $ V $ into itself satisfying (1) to (4) and $ V_0 $ the set of $ x \in V $ such that $ u_\sigma(x) = x $ for all $ \sigma \in \Gamma $.
+— Let $V$ be a vector space over $N$, $(u_\sigma)_\sigma$, r a family of mappings of $V$ into itself satisfying (1) to (4) and $V_0$ the set of $x \in V$ such that $u_\sigma(x) = x$ for all $\sigma \in \Gamma$.
 
-a) $ V_0 $ is a vector sub-K-space of $ V $ and the K-linear mapping $ \varphi $ of $ N \otimes_K V_0 $ into $ V $ which maps $ \lambda \otimes x $ to $ \lambda x $ is injective.
+a) $V_0$ is a vector sub-K-space of $V$ and the K-linear mapping $\varphi$ of $N \otimes_K V_0$ into $V$ which maps $\lambda \otimes x$ to $\lambda x$ is injective.
 
-b) If $ \Gamma $ is finite, then $ \varphi $ is bijective and $ V_0 $ is a K-structure on $ V $.
+b) If $\Gamma$ is finite, then $\varphi$ is bijective and $V_0$ is a K-structure on $V$.
 
-It is clear that $ V_0 $ is a vector sub-K-space of $ V $.
+It is clear that $V_0$ is a vector sub-K-space of $V$.
 
-The formula $ u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0}) $ shows that the kernel $ W $ of $ \varphi $ is stable under the mappings $ \sigma \otimes \mathrm{Id}_{V_0} $; by the Cor. to Prop. 6 there exists therefore a subspace $ W_0 $ of $ V_0 $ such that $ W = N \otimes_K W_0 $. If $ x $ belongs to $ W_0 $ we then have $ x = \varphi(1 \otimes x) = 0 $, hence $ W_0 = 0 $ and so $ W = 0 $. This proves $ a) $.
+The formula $u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0})$ shows that the kernel $W$ of $\varphi$ is stable under the mappings $\sigma \otimes \mathrm{Id}_{V_0}$; by the Cor. to Prop. 6 there exists therefore a subspace $W_0$ of $V_0$ such that $W = N \otimes_K W_0$. If $x$ belongs to $W_0$ we then have $x = \varphi(1 \otimes x) = 0$, hence $W_0 = 0$ and so $W = 0$. This proves $a)$.
 
-Suppose now that $ \Gamma $ is finite; we have to show that $ \varphi $ is surjective, or equivalently that $ V_0 $ generates the vector N-space $ V $. Thus let $ f $ be an N-linear form on $ V $ whose restriction to $ V_0 $ is zero. Let $ x \in V $; for every $ A \in N $ the element $ y, = \sum_{\sigma \in \Gamma} u_\sigma(\lambda x) $ of $ V $ clearly belongs to $ V_0 $, whence $ f(y,) = 0 $, that is,
+Suppose now that $\Gamma$ is finite; we have to show that $\varphi$ is surjective, or equivalently that $V_0$ generates the vector N-space $V$. Thus let $f$ be an N-linear form on $V$ whose restriction to $V_0$ is zero. Let $x \in V$; for every $A \in N$ the element $y, = \sum_{\sigma \in \Gamma} u_\sigma(\lambda x)$ of $V$ clearly belongs to $V_0$, whence $f(y,) = 0$, that is,
 $$
 \sum_{\sigma \in \Gamma} f(u_\sigma(x)) \sigma(A) = 0.
 $$
-By Dedekind's theorem (V, p. 27, Cor. 2) we thus have $ f(u_\sigma(x)) = 0 $ for each $ \sigma \in \Gamma $; in particular, taking $ \sigma = \varepsilon $ we find $ f(x) = 0 $, which means that $ f = 0 $. This proves $ b) $.
+By Dedekind's theorem (V, p. 27, Cor. 2) we thus have $f(u_\sigma(x)) = 0$ for each $\sigma \in \Gamma$; in particular, taking $\sigma = \varepsilon$ we find $f(x) = 0$, which means that $f = 0$. This proves $b)$.
 
-Let $ M $ be a vector space over $ N $; for each $ \sigma \in \Gamma $ let $ M^\sigma $ be the vector space over $ N $ with the same underlying additive group as $ M $, with the external law $ (A, x) \mapsto \sigma(\lambda) x $. Write $ V = \prod_{\sigma \in \Gamma} M^\sigma $; the underlying additive group of $ V $ is that of all mappings of $ \Gamma $ into $ M $, with the external law defined by
+Let $M$ be a vector space over $N$; for each $\sigma \in \Gamma$ let $M^\sigma$ be the vector space over $N$ with the same underlying additive group as $M$, with the external law $(A, x) \mapsto \sigma(\lambda) x$. Write $V = \prod_{\sigma \in \Gamma} M^\sigma$; the underlying additive group of $V$ is that of all mappings of $\Gamma$ into $M$, with the external law defined by
 $$
 (\lambda . h)(\sigma) = \sigma(\lambda) h(\sigma) \quad (\lambda \in N, h \in V, \sigma \in \Gamma).
 $$
-(The product $ \sigma(\lambda) h(\sigma) $ is calculated in the vector space $ M $.) Further, we define on $ N \otimes_K M $ a vector space structure over $ N $ by the formula
+(The product $\sigma(\lambda) h(\sigma)$ is calculated in the vector space $M$.) Further, we define on $N \otimes_K M$ a vector space structure over $N$ by the formula
 $$
 \lambda \left( \sum_i \mu_i \otimes x_i \right) = \sum_i \lambda \mu_i \otimes x_i
 $$
-Finally we denote by $ \psi $ the K-linear mapping of $ N \otimes_K M $ into $ V $ characterized by the relation
+Finally we denote by $\psi$ the K-linear mapping of $N \otimes_K M$ into $V$ characterized by the relation
 $$
 \psi(\lambda \otimes x)(\sigma) = \sigma(\lambda) . x
 $$
-for $ A \in N, x \in M $ and $ \sigma \in \Gamma $. It is clear that $ \psi $ is N-linear
+for $A \in N, x \in M$ and $\sigma \in \Gamma$. It is clear that $\psi$ is N-linear
 
 #### Proposition 8 {#alg-v-s10-prop-8 .statement}
 
-— *The N-linear mapping* $ \psi $ *of* $ N \otimes_K M $ *into* $ V = \prod_{\sigma \in \Gamma} M^\sigma $ *is injective, and it is bijective if* $ \Gamma $ *is finite.*
+— *The N-linear mapping* $\psi$ *of* $N \otimes_K M$ *into* $V = \prod_{\sigma \in \Gamma} M^\sigma$ *is injective, and it is bijective if* $\Gamma$ *is finite.*
 
-For every $ a \in \Gamma $ we define a mapping $ u_\sigma $ of $ V $ into $ V $ by
+For every $a \in \Gamma$ we define a mapping $u_\sigma$ of $V$ into $V$ by
 
 $$
 (u_\sigma h)(\tau) = h(\tau \sigma)
 $$
 
-for $ h \in V $ and $ \tau \in \Gamma $. The verification of *(1)-(4)* is immediate. Denote by $ V $, the set of $ h \in V $ such that $ u_\sigma(h) = h $ for all $ \sigma \in \Gamma $. For each $ x \in M $ let $ \theta(x) $ be the constant mapping of $ \Gamma $ into $ M $ with value $ x $; then $ \theta $ is a K-isomorphism of $ M $ onto $ V $. If we define the homomorphism $ \varphi : N \otimes_K V, \to V $ as above, we have $ \psi = \varphi \circ (\mathrm{Id}_N \otimes \theta) $ and now Prop. 8 follows from Prop. 7.
+for $h \in V$ and $\tau \in \Gamma$. The verification of *(1)-(4)* is immediate. Denote by $V$, the set of $h \in V$ such that $u_\sigma(h) = h$ for all $\sigma \in \Gamma$. For each $x \in M$ let $\theta(x)$ be the constant mapping of $\Gamma$ into $M$ with value $x$; then $\theta$ is a K-isomorphism of $M$ onto $V$. If we define the homomorphism $\varphi : N \otimes_K V, \to V$ as above, we have $\psi = \varphi \circ (\mathrm{Id}_N \otimes \theta)$ and now Prop. 8 follows from Prop. 7.
 
 #### Corollary {#alg-v-s10-n4-cor-2 .statement}
 
-— *Let* $ \psi $ *be the K-linear mapping of* $ N \otimes_K N $ *into the product vector space* $ N^\Gamma $ *such that* $ \psi(x \otimes y)\,(a) = \sigma(x)\,y $ *for* $ x,\,y $ *in* $ N $ *and* $ \sigma \in \Gamma $. *Then* $ \psi $ *is injective and it is bijective when* $ \Gamma $ *is finite.*
+— *Let* $\psi$ *be the K-linear mapping of* $N \otimes_K N$ *into the product vector space* $N^\Gamma$ *such that* $\psi(x \otimes y)\,(a) = \sigma(x)\,y$ *for* $x,\,y$ *in* $N$ *and* $\sigma \in \Gamma$. *Then* $\psi$ *is injective and it is bijective when* $\Gamma$ *is finite.*
 
-This is the particular case $ M = N $ of Prop. 8.
+This is the particular case $M = N$ of Prop. 8.
 
 #### Remark 1 {#alg-v-s10-n4-rem-1 .statement}
 
-Let F be an extension of K and $ N $ a subextension of F, and let $ \Gamma $ be a *finite* group of automorphisms of $ N $, of which K is the field of invariants. Prop. 8 implies the existence of an isomorphism of K-algebras $ 0 : N \otimes_F F \to F^\Gamma $ characterized by $ \theta(x \otimes y)\,(a) = \sigma(x)\,y $ for $ x \in N,\,y \in F $ and $ \sigma \in \Gamma $.
+Let F be an extension of K and $N$ a subextension of F, and let $\Gamma$ be a *finite* group of automorphisms of $N$, of which K is the field of invariants. Prop. 8 implies the existence of an isomorphism of K-algebras $0 : N \otimes_F F \to F^\Gamma$ characterized by $\theta(x \otimes y)\,(a) = \sigma(x)\,y$ for $x \in N,\,y \in F$ and $\sigma \in \Gamma$.
 
 #### Remark 2 {#alg-v-s10-n4-rem-2 .statement}
 
-The notation K, N and $ \Gamma $ has the same meaning as before. For each integer $ n \geqslant 1 $, let $ A_n $ be the tensor product of n K-algebras identical with $ N $; let $ B_n $ be the set of mappings of $ \Gamma^{n-1} $ into $ N $. By induction on $ n $ we can deduce from the Cor. of Prop. 8 the existence of an isomorphism $ \varphi_n : A_n \to B_n $, mapping $ x_1 \otimes \ldots \otimes x_n $ to the function $ (\sigma_1, \ldots, a, ) \quad \sigma_1(x_1) \cdot \sigma_n(x_{n-1})\,x_n $.
+The notation K, N and $\Gamma$ has the same meaning as before. For each integer $n \geqslant 1$, let $A_n$ be the tensor product of n K-algebras identical with $N$; let $B_n$ be the set of mappings of $\Gamma^{n-1}$ into $N$. By induction on $n$ we can deduce from the Cor. of Prop. 8 the existence of an isomorphism $\varphi_n : A_n \to B_n$, mapping $x_1 \otimes \ldots \otimes x_n$ to the function $(\sigma_1, \ldots, a, ) \quad \sigma_1(x_1) \cdot \sigma_n(x_{n-1})\,x_n$.
 
 ### 5. *Galois cohomology*
 
-Let $ N $ be a field, $ \Gamma $ a *finite* group of automorphisms of $ N $ and K the field of invariants of $ \Gamma $. For every integer $ n \geqslant 1 $ we denote by $ \mathbf{GL}(n, N) $ the group of square matrices of order $ n $ with coefficients in $ N $ and non-zero determinant (II; p. 349). We let the group $ \Gamma $ operate on the group $ \mathbf{GL}(n, N) $ by the rule $ \sigma(A) = (\sigma(a_{ij})) $ for $ A = (a_{ij}) $.
+Let $N$ be a field, $\Gamma$ a *finite* group of automorphisms of $N$ and K the field of invariants of $\Gamma$. For every integer $n \geqslant 1$ we denote by $\mathbf{GL}(n, N)$ the group of square matrices of order $n$ with coefficients in $N$ and non-zero determinant (II; p. 349). We let the group $\Gamma$ operate on the group $\mathbf{GL}(n, N)$ by the rule $\sigma(A) = (\sigma(a_{ij}))$ for $A = (a_{ij})$.
 
 #### Proposition 9 {#alg-v-s10-prop-9 .statement}
 
-— *Let* $ (U_\sigma)_{\sigma \in \Gamma} $ *be a family of elements of* $ \mathbf{GL}(n, N) $. *For* $ A $ *to exist in* $ GL(n, N) $ *such that* $ U_\sigma = A^{-1}\,a(A) $ *for all* $ \sigma \in \Gamma $ *it is necessary and sufficient that* $ U_{\sigma \tau} = U_\sigma \cdot \sigma(U_\tau) $ *for* $ \sigma,\,\tau $ *in* $ \Gamma $.
+— *Let* $(U_\sigma)_{\sigma \in \Gamma}$ *be a family of elements of* $\mathbf{GL}(n, N)$. *For* $A$ *to exist in* $GL(n, N)$ *such that* $U_\sigma = A^{-1}\,a(A)$ *for all* $\sigma \in \Gamma$ *it is necessary and sufficient that* $U_{\sigma \tau} = U_\sigma \cdot \sigma(U_\tau)$ *for* $\sigma,\,\tau$ *in* $\Gamma$.
 
-The condition is *necessary*: if $ U_\sigma = A^{-1}\,a(A) $, then we have
+The condition is *necessary*: if $U_\sigma = A^{-1}\,a(A)$, then we have
 
 $$
 U_\sigma \cdot \sigma(U_\tau) = A^{-1}\,\sigma(A)\,\sigma(A^{-1}\,\tau(A)) = A^{-1}\sigma\tau(A) = U_{\sigma \tau}.
 $$
 
-The condition is *sufficient*: we identify the elements of $ N^n $ with matrices of $ n $ rows and one column with coefficients in $ N $. We let the groups $ \Gamma $ act on $ N^n $ by
+The condition is *sufficient*: we identify the elements of $N^n$ with matrices of $n$ rows and one column with coefficients in $N$. We let the groups $\Gamma$ act on $N^n$ by
 $$
 \sigma(x) = (\sigma(x_i))_{1 \leq i \leq n} \quad \text{for} \quad x = (x_i)_{1 \leq i \leq n}.
 $$
-For each $ a \in \Gamma $ we denote by $ u_\sigma $ the mapping $ x \mapsto U_\sigma \cdot \sigma(x) $ of $ N^n $ into itself. The verification of Formulae (1) to (3) of V, p. 62 is immediate. Moreover we have $ u_\varepsilon \circ u_\varepsilon = u_\varepsilon $ and since $ u_\varepsilon $ is bijective, we have $ u_\varepsilon = \mathrm{Id}_{N^n} $. Let $ V_0 $ be the set of vectors $ x \in N^n $ such that $ u_\sigma(x) = x $ for all $ \sigma \in \Gamma $. By Prop. 7 (V, p. 63), $ V_0 $ is a K-structure on $ N^n $; in particular there exist in $ V_0 $ vectors $ b_1, \ldots, b_n $ forming a basis of $ N^n $ over $ N $. The matrix $ B $ with columns $ b_1, \ldots, b_n $ is therefore invertible and the relation $ u_\sigma(b_i) = b_i $ for $ 1 \leq i \leq n $ is equivalent to $ U_\sigma \cdot \sigma(B) = B $. Writing $ A = B^{-1} $, we obtain $ U_\sigma = A^{-1} \sigma(A) $ for all $ a \in \Gamma $.
+For each $a \in \Gamma$ we denote by $u_\sigma$ the mapping $x \mapsto U_\sigma \cdot \sigma(x)$ of $N^n$ into itself. The verification of Formulae (1) to (3) of V, p. 62 is immediate. Moreover we have $u_\varepsilon \circ u_\varepsilon = u_\varepsilon$ and since $u_\varepsilon$ is bijective, we have $u_\varepsilon = \mathrm{Id}_{N^n}$. Let $V_0$ be the set of vectors $x \in N^n$ such that $u_\sigma(x) = x$ for all $\sigma \in \Gamma$. By Prop. 7 (V, p. 63), $V_0$ is a K-structure on $N^n$; in particular there exist in $V_0$ vectors $b_1, \ldots, b_n$ forming a basis of $N^n$ over $N$. The matrix $B$ with columns $b_1, \ldots, b_n$ is therefore invertible and the relation $u_\sigma(b_i) = b_i$ for $1 \leq i \leq n$ is equivalent to $U_\sigma \cdot \sigma(B) = B$. Writing $A = B^{-1}$, we obtain $U_\sigma = A^{-1} \sigma(A)$ for all $a \in \Gamma$.
 
 #### Corollary 1 {#alg-v-s10-prop-9-cor-1 .statement}
 
-*Let $ (c,) $, , , be a family of non-zero elements of $ N $. For $ a \neq 0 $ to exist in $ N $ such that $ c, = \sigma(a) \cdot a' $ for all $ a \in \Gamma $ it is necessary and sufficient that $ c, = c, \cdot a(c,) $ for $ \sigma, \tau $ in $ \Gamma $.*
+*Let $(c,)$, , , be a family of non-zero elements of $N$. For $a \neq 0$ to exist in $N$ such that $c, = \sigma(a) \cdot a'$ for all $a \in \Gamma$ it is necessary and sufficient that $c, = c, \cdot a(c,)$ for $\sigma, \tau$ in $\Gamma$.*
 
 #### Corollary 2 {#alg-v-s10-prop-9-cor-2 .statement}
 
-*Let $ (c,) $, $ \Gamma $ be a family of elements of $ N $. For $ b $ to exist in $ N $ such that $ a, = \sigma(b) - b $ for all $ a \in \Gamma $ it is necessary and sufficient that $ a, = a, + \sigma(a_\tau) $ for $ a, \tau $ in $ \Gamma $.*
+*Let $(c,)$, $\Gamma$ be a family of elements of $N$. For $b$ to exist in $N$ such that $a, = \sigma(b) - b$ for all $a \in \Gamma$ it is necessary and sufficient that $a, = a, + \sigma(a_\tau)$ for $a, \tau$ in $\Gamma$.*
 
-We have $ \sigma \tau(b) - b = [\sigma(b) - b]^+ \sigma[\tau(b) - b] $ for all $ b $ in $ N $ and $ a, \tau $ in $ \Gamma $, whence the necessity.
+We have $\sigma \tau(b) - b = [\sigma(b) - b]^+ \sigma[\tau(b) - b]$ for all $b$ in $N$ and $a, \tau$ in $\Gamma$, whence the necessity.
 
-Conversely suppose that $ a, = a, + \sigma(a_\tau) $ for any $ a $ and $ \tau $ in $ \Gamma $. Put $ U_\sigma = \begin{pmatrix} 1 & a_\sigma \\ 0 & 1 \end{pmatrix} $ for $ \sigma \in \Gamma $; then we have $ U_{\sigma \tau} = U_\sigma \cdot \sigma(U_\tau) $ for $ \sigma, \tau $ in $ \Gamma $; by Prop. 9, there exists thus a matrix $ A = \begin{pmatrix} x & y \\ z & t \end{pmatrix} $ with non-zero determinant such that $ \sigma(A) = A U_\sigma $ for all $ a \in \Gamma $; writing down the relation $ \sigma(A) = A U_\sigma $ we find
+Conversely suppose that $a, = a, + \sigma(a_\tau)$ for any $a$ and $\tau$ in $\Gamma$. Put $U_\sigma = \begin{pmatrix} 1 & a_\sigma \\ 0 & 1 \end{pmatrix}$ for $\sigma \in \Gamma$; then we have $U_{\sigma \tau} = U_\sigma \cdot \sigma(U_\tau)$ for $\sigma, \tau$ in $\Gamma$; by Prop. 9, there exists thus a matrix $A = \begin{pmatrix} x & y \\ z & t \end{pmatrix}$ with non-zero determinant such that $\sigma(A) = A U_\sigma$ for all $a \in \Gamma$; writing down the relation $\sigma(A) = A U_\sigma$ we find
 $$
 \begin{pmatrix} \sigma(x) & \sigma(y) \\ \sigma(z) & \sigma(t) \end{pmatrix} = \begin{pmatrix} x & x a_\sigma + y \\ z & z a_\sigma + t \end{pmatrix} \quad (\sigma \in \Gamma).
 $$
-In particular, $ x $ and $ z $ belong to $ K $ and we have
+In particular, $x$ and $z$ belong to $K$ and we have
 $$
 \sigma(y) = x a_\sigma + y, \quad \sigma(t) = z a_\sigma + t \quad (\sigma \in \Gamma).
 $$
-If $ x \neq 0 $ we have $ a, = \sigma(b) - b $ with $ b = x^{-1} y $; if $ z \neq 0 $, we have the same relation with $ b = z^{-1} t $. Now $ x $ and $ z $ cannot both be zero because
+If $x \neq 0$ we have $a, = \sigma(b) - b$ with $b = x^{-1} y$; if $z \neq 0$, we have the same relation with $b = z^{-1} t$. Now $x$ and $z$ cannot both be zero because
 $$
 xt - yz = \det A \neq 0.
 $$
 
 ### 6. Artin’s theorem
 
-**Theorem 2 (Artin).** — *Let $ N $ be a field, $ \Gamma $ a group of automorphisms of $ N $ and $ K $ the field of invariants of $ \Gamma $. Let $ V $ be a vector sub-K-space of $ N $ of finite dimension* over K. Then every K-linear mapping u of V into N is a linear combination with coefficients in N of the restrictions to V of elements of $ \Gamma $.
+**Theorem 2 (Artin).** — *Let $N$ be a field, $\Gamma$ a group of automorphisms of $N$ and $K$ the field of invariants of $\Gamma$. Let $V$ be a vector sub-K-space of $N$ of finite dimension* over K. Then every K-linear mapping u of V into N is a linear combination with coefficients in N of the restrictions to V of elements of $\Gamma$.
 
-Let u be a K-linear mapping of V into N and let $ V_{(N)} = N \otimes_K V $ be the vector N-space derived from V by extension of scalars; denote by $ \tilde{u} $ the N-linear form on $ V_{(N)} $ such that $ \tilde{u}(x \otimes y) = x \cdot u(y) $ for $ x \in N $ and $ y \in V $. For each $ a \in \Gamma $ there exists an N-linear form h, on $ V_{(N)} $ such that $ h_\sigma(x \otimes y) = x \sigma(y) $ for $ x \in N $ and $ y \in V $. The canonical mapping of $ V_{(N)} = N \otimes_K V $ into $ N \otimes_K N $ is injective. Now the Cor. of Prop. 8 (V, p. 64) show that the intersection of the kernels of the linear forms h, on $ V_{(N)} $ is reduced to 0. Therefore (II, p. 302, Cor. 1) there exist $ a_1, \ldots, \sigma_n $ in $ \Gamma $ and $ a_1, \ldots, a_n $ in $ N $ such that $ \tilde{u} = \sum_{i=1}^n a_i h_{\sigma_i} $ whence $ u(x) = \sum_{i=1}^n a_i \sigma_i(x) $ for all $ x \in V $.
+Let u be a K-linear mapping of V into N and let $V_{(N)} = N \otimes_K V$ be the vector N-space derived from V by extension of scalars; denote by $\tilde{u}$ the N-linear form on $V_{(N)}$ such that $\tilde{u}(x \otimes y) = x \cdot u(y)$ for $x \in N$ and $y \in V$. For each $a \in \Gamma$ there exists an N-linear form h, on $V_{(N)}$ such that $h_\sigma(x \otimes y) = x \sigma(y)$ for $x \in N$ and $y \in V$. The canonical mapping of $V_{(N)} = N \otimes_K V$ into $N \otimes_K N$ is injective. Now the Cor. of Prop. 8 (V, p. 64) show that the intersection of the kernels of the linear forms h, on $V_{(N)}$ is reduced to 0. Therefore (II, p. 302, Cor. 1) there exist $a_1, \ldots, \sigma_n$ in $\Gamma$ and $a_1, \ldots, a_n$ in $N$ such that $\tilde{u} = \sum_{i=1}^n a_i h_{\sigma_i}$ whence $u(x) = \sum_{i=1}^n a_i \sigma_i(x)$ for all $x \in V$.
 
-Let us equip the set $ N^N $ of all mappings of N into N with the product topology of the discrete topologies of the factors. Th. 2 means that the set of linear combinations with coefficients in N of elements of $ \Gamma $ is dense in the set of K-linear mappings of N into itself.
+Let us equip the set $N^N$ of all mappings of N into N with the product topology of the discrete topologies of the factors. Th. 2 means that the set of linear combinations with coefficients in N of elements of $\Gamma$ is dense in the set of K-linear mappings of N into itself.
 
 #### Theorem 3 {#alg-v-s10-thm-3 .statement}
 
-— Let N be a field, $ \Gamma $ a finite group of automorphisms of N and K the field of invariants of $ \Gamma $. Let n be the cardinal of $ \Gamma $.
-a) We have $ [N : K] = n $ and N is a Galois extension of K with Galois group $ \Gamma $.
-b) Let $ \sigma_1, \ldots, \sigma_n $ be the elements of $ \Gamma $ and $ (x_1, \ldots, x_n) $ a basis of N over K, then $ \det (\sigma_i(x_j)) \neq 0 $.
-c) Let u be a K-linear mapping of N into N. There exists a unique family $ (a_\sigma)_\sigma $ of elements of N such that $ u(x) = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x) $ for all $ x \in N $.
+— Let N be a field, $\Gamma$ a finite group of automorphisms of N and K the field of invariants of $\Gamma$. Let n be the cardinal of $\Gamma$.
+a) We have $[N : K] = n$ and N is a Galois extension of K with Galois group $\Gamma$.
+b) Let $\sigma_1, \ldots, \sigma_n$ be the elements of $\Gamma$ and $(x_1, \ldots, x_n)$ a basis of N over K, then $\det (\sigma_i(x_j)) \neq 0$.
+c) Let u be a K-linear mapping of N into N. There exists a unique family $(a_\sigma)_\sigma$ of elements of N such that $u(x) = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x)$ for all $x \in N$.
 
-We equip the ring $ N \otimes_K N $ with the N-algebra structure whose external law is given by $ \lambda(x \otimes y) = x \otimes \lambda y $ for $ \lambda, x, y $ in N. Then the dimension of the vector N-space $ NO, N $ is $ [N : K] $. The dimension of the product vector N-space $ N^\Gamma $ is equal to n. The mapping $ \psi $ defined in the Cor. of Prop. 8 (V, p. 64) is an N-isomorphism of $ NO, N $ onto $ N^\Gamma $, whence $ [N : K] = n $. Let A be the group of K-automorphisms of N. We have $ \Gamma \subset A $, hence K is the field of invariants of A, and N is a Galois extension of K. Further, the order of A is at most equal to $ [N : K] $ by Dedekind's theorem (V, p. 27, Cor. 2) and since the order of $ \Gamma $ equals $ [N : K] $, we have $ \Gamma = A $. Hence $ \Gamma $ is the Galois group of N over K, and this proves a).
+We equip the ring $N \otimes_K N$ with the N-algebra structure whose external law is given by $\lambda(x \otimes y) = x \otimes \lambda y$ for $\lambda, x, y$ in N. Then the dimension of the vector N-space $NO, N$ is $[N : K]$. The dimension of the product vector N-space $N^\Gamma$ is equal to n. The mapping $\psi$ defined in the Cor. of Prop. 8 (V, p. 64) is an N-isomorphism of $NO, N$ onto $N^\Gamma$, whence $[N : K] = n$. Let A be the group of K-automorphisms of N. We have $\Gamma \subset A$, hence K is the field of invariants of A, and N is a Galois extension of K. Further, the order of A is at most equal to $[N : K]$ by Dedekind's theorem (V, p. 27, Cor. 2) and since the order of $\Gamma$ equals $[N : K]$, we have $\Gamma = A$. Hence $\Gamma$ is the Galois group of N over K, and this proves a).
 
-With the notation of b) put $ f_i = \psi(x_i \otimes 1) $; we have $ f_i(\sigma) = \sigma(x_i) $ for $ 1 \leq i \leq n $ and $ \sigma \in \Gamma $. Since $ \psi $ is an isomorphism of vector N-spaces, the sequence $ (f_1, \ldots, f_n) $ is a basis of N over N, whence $ \det (f_j(\sigma_i)) \neq 0 $, that is,
+With the notation of b) put $f_i = \psi(x_i \otimes 1)$; we have $f_i(\sigma) = \sigma(x_i)$ for $1 \leq i \leq n$ and $\sigma \in \Gamma$. Since $\psi$ is an isomorphism of vector N-spaces, the sequence $(f_1, \ldots, f_n)$ is a basis of N over N, whence $\det (f_j(\sigma_i)) \neq 0$, that is,
 
 $$
 \det (\sigma_i(x_j)) \neq 0
@@ -355,105 +355,105 @@ $$
 
 This proves b).
 
-Finally, c) follows from Th. 2 (V, p. 65) which proves the existence of a family (a,,), ,, such that $ u(x) = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x) $ (for all $ x \in N $) and from Dedekind's theorem (V, p. 27, Cor. 2) which proves the uniqueness of (a,,), ,$ \Gamma $.
+Finally, c) follows from Th. 2 (V, p. 65) which proves the existence of a family (a,,), ,, such that $u(x) = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x)$ (for all $x \in N$) and from Dedekind's theorem (V, p. 27, Cor. 2) which proves the uniqueness of (a,,), ,$\Gamma$.
 
 ### 7. The fundamental theorem of Galois theory
 
 #### Theorem 4 {#alg-v-s10-thm-4 .statement}
 
-— Let N be a Galois extension of K and $ \Gamma $ its Galois group. Let $ \mathcal{K} $ be the set of subextensions of N and $ \mathcal{G} $ the set of closed subgroups of $ \Gamma $. For every subgroup $ A \in \mathcal{G} $ we denote by $ k(\Delta) $ the field of invariants of A and for every *subfield* $ E \in \mathcal{K} $ we denote by $ g(E) $ the group of E-*automorphisms* of N. *Then* $ A \mapsto k(\Delta) $ is a bijection of $ \mathcal{G} $ onto $ \mathcal{K} $, and $ E \mapsto g(E) $ is the inverse bijection.
+— Let N be a Galois extension of K and $\Gamma$ its Galois group. Let $\mathcal{K}$ be the set of subextensions of N and $\mathcal{G}$ the set of closed subgroups of $\Gamma$. For every subgroup $A \in \mathcal{G}$ we denote by $k(\Delta)$ the field of invariants of A and for every *subfield* $E \in \mathcal{K}$ we denote by $g(E)$ the group of E-*automorphisms* of N. *Then* $A \mapsto k(\Delta)$ is a bijection of $\mathcal{G}$ onto $\mathcal{K}$, and $E \mapsto g(E)$ is the inverse bijection.
 
-A) The relation $ E = k(g(E)) $ (for $ E \in \mathcal{K} $) is a consequence of the following more precise lemma:
+A) The relation $E = k(g(E))$ (for $E \in \mathcal{K}$) is a consequence of the following more precise lemma:
 
 #### Lemma 1 {#alg-v-s10-lem-1 .statement}
 
-Let E be a subextension of N. Then N is a Galois extension of E and $ \mathrm{Gal}(N/E) $ is a closed subgroup of $ \mathrm{Gal}(N/K) $ with the induced topology.
+Let E be a subextension of N. Then N is a Galois extension of E and $\mathrm{Gal}(N/E)$ is a closed subgroup of $\mathrm{Gal}(N/K)$ with the induced topology.
 
-Let $ x \in N $; the minimal polynomial f of x over E divides in $ E[X] $ the minimal polynomial $ g $ of x over K (V, p. 17, Cor. 2). Since N is Galois over K, the polynomial g is a product in $ N[X] $ of distinct factors of degree 1; hence the same is true of f and so N is Galois over E.
+Let $x \in N$; the minimal polynomial f of x over E divides in $E[X]$ the minimal polynomial $g$ of x over K (V, p. 17, Cor. 2). Since N is Galois over K, the polynomial g is a product in $N[X]$ of distinct factors of degree 1; hence the same is true of f and so N is Galois over E.
 
-Let $ \Gamma $ be the Galois group of N over K and A that of N over E. By definition A is the subgroup of $ \Gamma $ consisting of all $ \sigma $ such that $ \sigma(x) = x $ for all $ x \in E $. Now for each $ x \in E $ the mapping $ \sigma \mapsto \sigma(x) $ of $ \Gamma $ into the discrete space N is continuous, hence D is closed in $ \Gamma $. Let $ \sigma \in \Gamma $; for $ x_1, \ldots, x_n $ in N let $ U(x_1, \ldots, x_n) $ be the set of all $ \tau \in \Gamma $ such that $ \tau(x_i) = \sigma(x_i) $ for $ 1 \leq i \leq n $; put
+Let $\Gamma$ be the Galois group of N over K and A that of N over E. By definition A is the subgroup of $\Gamma$ consisting of all $\sigma$ such that $\sigma(x) = x$ for all $x \in E$. Now for each $x \in E$ the mapping $\sigma \mapsto \sigma(x)$ of $\Gamma$ into the discrete space N is continuous, hence D is closed in $\Gamma$. Let $\sigma \in \Gamma$; for $x_1, \ldots, x_n$ in N let $U(x_1, \ldots, x_n)$ be the set of all $\tau \in \Gamma$ such that $\tau(x_i) = \sigma(x_i)$ for $1 \leq i \leq n$; put
 
 $$
 V(x_1, \ldots, x_n) = U(x_1, \ldots, x_n) \cap \Delta.
 $$
 
-Then the family of sets $ U(x_1, \ldots, x_n) $ (resp. $ V(x_1, \ldots, x_n) $) is a base of neighbourhoods of $ \sigma $ in $ \Gamma $ (resp. A). Hence the topology on A is that induced by $ \Gamma $.
+Then the family of sets $U(x_1, \ldots, x_n)$ (resp. $V(x_1, \ldots, x_n)$) is a base of neighbourhoods of $\sigma$ in $\Gamma$ (resp. A). Hence the topology on A is that induced by $\Gamma$.
 
-B) The relation $ A = g(k(\Delta)) $ (for $ A \in g $) is a consequence of the following more precise lemma:
+B) The relation $A = g(k(\Delta))$ (for $A \in g$) is a consequence of the following more precise lemma:
 
 #### Lemma 2 {#alg-v-s10-lem-2 .statement}
 
-Let A be a subgroup of $ \Gamma $. Let E be the field of invariants of A; then the Galois group of N over E is the closure of A in $ \Gamma $.
+Let A be a subgroup of $\Gamma$. Let E be the field of invariants of A; then the Galois group of N over E is the closure of A in $\Gamma$.
 
-The Galois group of N over E is closed in $ \Gamma $ (Lemma 1) and contains A, hence it contains the closure $ \bar{\Delta} $ of A. Let $ \sigma $ be an E-automorphism of N and let $ x_1, \ldots, x_n $ be in N. Since N is Galois over E (Lemma 1) there exist (V, p. 57, Prop. 2) a subextension $ N_0 $ of N, Galois of finite degree over E and containing $ x_1, \ldots, x_n $. Let $ A_0 $ be the image of the subgroup A of $ \mathrm{Gal}(N/E) $ under the restriction homomorphism of $ \mathrm{Gal}(N/E) $ into $ \mathrm{Gal}(N_0/E) $. Since $ [N_0 : E] $ is finite, Dedekind's theorem (V, p. 27, Cor. 2) shows that $ \mathrm{Gal}(N_0/E) $ is finite. Hence $ A_0 $ is finite, and since E is the field of invariants of $ A_0 $, we have $ \Delta_0 = $
+The Galois group of N over E is closed in $\Gamma$ (Lemma 1) and contains A, hence it contains the closure $\bar{\Delta}$ of A. Let $\sigma$ be an E-automorphism of N and let $x_1, \ldots, x_n$ be in N. Since N is Galois over E (Lemma 1) there exist (V, p. 57, Prop. 2) a subextension $N_0$ of N, Galois of finite degree over E and containing $x_1, \ldots, x_n$. Let $A_0$ be the image of the subgroup A of $\mathrm{Gal}(N/E)$ under the restriction homomorphism of $\mathrm{Gal}(N/E)$ into $\mathrm{Gal}(N_0/E)$. Since $[N_0 : E]$ is finite, Dedekind's theorem (V, p. 27, Cor. 2) shows that $\mathrm{Gal}(N_0/E)$ is finite. Hence $A_0$ is finite, and since E is the field of invariants of $A_0$, we have $\Delta_0 =$
 
-Gal(N_0/E) (V, p. 66, Th. 3). In particular, $ \Delta_0 $ contains the restriction of $ \sigma $ to $ N_0 $. Therefore there exists $ \tau \in A $ such that $ \sigma $ and $ \tau $ have the same restriction to $ N_0 $, whence $ \sigma(x_1) = \tau(x_1), \ldots, \sigma(x_n) = \tau(x_n) $. It follows that $ \sigma $ is a limit point of $ A $ in $ \Gamma $, and hence $ \mathrm{Gal}(N/E) \subset \overline{\Delta} $.
+Gal(N_0/E) (V, p. 66, Th. 3). In particular, $\Delta_0$ contains the restriction of $\sigma$ to $N_0$. Therefore there exists $\tau \in A$ such that $\sigma$ and $\tau$ have the same restriction to $N_0$, whence $\sigma(x_1) = \tau(x_1), \ldots, \sigma(x_n) = \tau(x_n)$. It follows that $\sigma$ is a limit point of $A$ in $\Gamma$, and hence $\mathrm{Gal}(N/E) \subset \overline{\Delta}$.
 
 #### Corollary 1 {#alg-v-s10-lem-2-cor-1 .statement}
 
-*Let E and E' be two subfields of N containing K; then E $ \subset $ E' if and only if g(E) $ \supset $ g(E'). If A and A' are two closed subgroups of $ \Gamma $, then A $ \subset $ A' if and only if k($ \Delta $) $ \supset $ k($ \Delta' $).*
+*Let E and E' be two subfields of N containing K; then E $\subset$ E' if and only if g(E) $\supset$ g(E'). If A and A' are two closed subgroups of $\Gamma$, then A $\subset$ A' if and only if k($\Delta$) $\supset$ k($\Delta'$).*
 
-For the two inverse bijections $ E \rightleftharpoons g(E) $ and $ A \rightleftharpoons k(\Delta) $ are inclusion-reversing.
+For the two inverse bijections $E \rightleftharpoons g(E)$ and $A \rightleftharpoons k(\Delta)$ are inclusion-reversing.
 
 #### Corollary 2 {#alg-v-s10-lem-2-cor-2 .statement}
 
-*Let $ (E_i)_{i \in I} $ be a family of subfields of N containing K; put $ L = \bigcap_{i \in I} E_i $ and $ M = K\left( \bigcup_{i \in I} E_i \right) $. Then g(L) is the smallest closed subgroup of containing $ U_{i \in I} g(E_i) $ and we have $ g(M) = \bigcap_{i \in I} g(E_i) $.*
+*Let $(E_i)_{i \in I}$ be a family of subfields of N containing K; put $L = \bigcap_{i \in I} E_i$ and $M = K\left( \bigcup_{i \in I} E_i \right)$. Then g(L) is the smallest closed subgroup of containing $U_{i \in I} g(E_i)$ and we have $g(M) = \bigcap_{i \in I} g(E_i)$.*
 
 The first assertion follows from Cor. 1 and the second is immediate.
 
 #### Corollary 3 {#alg-v-s10-lem-2-cor-3 .statement}
 
-*For i = 1, 2 let $ E_i $ be a subfield of N containing K and let $ \Delta_i = g(E_i) $. For any $ \sigma \in \Gamma $ the relations $ \sigma(E_1) = E_2 $ and $ \sigma \Delta_1 \sigma^{-1} = \Delta_2 $ are equivalent.*
+*For i = 1, 2 let $E_i$ be a subfield of N containing K and let $\Delta_i = g(E_i)$. For any $\sigma \in \Gamma$ the relations $\sigma(E_1) = E_2$ and $\sigma \Delta_1 \sigma^{-1} = \Delta_2$ are equivalent.*
 
-For we have $ \tau \in g(\sigma(E_1)) $ if and only if $ \tau \sigma(x) = \sigma(x) $, that is, $ \sigma^{-1} \tau \sigma(x) = x $, for all $ x \in E_1 $; this amounts to saying 'that $ \sigma^{-1} \tau \sigma \in \Delta_1 $, whence $ g(\sigma(E_1)) = \sigma \Delta_1 \sigma^{-1} $.
+For we have $\tau \in g(\sigma(E_1))$ if and only if $\tau \sigma(x) = \sigma(x)$, that is, $\sigma^{-1} \tau \sigma(x) = x$, for all $x \in E_1$; this amounts to saying 'that $\sigma^{-1} \tau \sigma \in \Delta_1$, whence $g(\sigma(E_1)) = \sigma \Delta_1 \sigma^{-1}$.
 
 #### Corollary 4 {#alg-v-s10-lem-2-cor-4 .statement}
 
-*Let E be a subfield of N containing K and let $ A = g(E) $. For E to be Galois over K it is necessary and sufficient that A should be a normal subgroup of $ \Gamma $. When this is so, the restriction homomorphism of $ \Gamma $ into $ \mathrm{Gal}(E/K) $ defines by passage to quotients a topological group isomorphism of $ \Gamma / \Delta $ onto $ \mathrm{Gal}(E/K) $.*
+*Let E be a subfield of N containing K and let $A = g(E)$. For E to be Galois over K it is necessary and sufficient that A should be a normal subgroup of $\Gamma$. When this is so, the restriction homomorphism of $\Gamma$ into $\mathrm{Gal}(E/K)$ defines by passage to quotients a topological group isomorphism of $\Gamma / \Delta$ onto $\mathrm{Gal}(E/K)$.*
 
-Since N is separable over K, the same is true of E (V, p. 36, Prop. 1). Therefore E is Galois over K if and only if it is quasi-Galois over K; this also means that $ \sigma(E) = E $ for every K-automorphism $ \sigma $ of N (V, p. 52, Prop. 1 and p. 54, Prop. 3). By Cor. 3 this is equivalent to $ \sigma \Delta \sigma^{-1} = A $ for all $ \sigma \in \Gamma $.
+Since N is separable over K, the same is true of E (V, p. 36, Prop. 1). Therefore E is Galois over K if and only if it is quasi-Galois over K; this also means that $\sigma(E) = E$ for every K-automorphism $\sigma$ of N (V, p. 52, Prop. 1 and p. 54, Prop. 3). By Cor. 3 this is equivalent to $\sigma \Delta \sigma^{-1} = A$ for all $\sigma \in \Gamma$.
 
-The restriction homomorphism $ \varphi : \mathrm{Gal}(N/K) \to \mathrm{Gal}(E/K) $ is continuous and surjective (V, p. 60, Prop. 3) and its kernel is clearly equal to $ A = \mathrm{Gal}(N/E) $. Since $ \Gamma $ is compact, the homomorphism of $ \Gamma / \Delta $ onto $ \mathrm{Gal}(E/K) $ derived from $ \varphi $ by passage to quotients is an isomorphism of topological groups (Gen. Top., I, p. 87, Cor. 2).
+The restriction homomorphism $\varphi : \mathrm{Gal}(N/K) \to \mathrm{Gal}(E/K)$ is continuous and surjective (V, p. 60, Prop. 3) and its kernel is clearly equal to $A = \mathrm{Gal}(N/E)$. Since $\Gamma$ is compact, the homomorphism of $\Gamma / \Delta$ onto $\mathrm{Gal}(E/K)$ derived from $\varphi$ by passage to quotients is an isomorphism of topological groups (Gen. Top., I, p. 87, Cor. 2).
 
 #### Corollary 5 {#alg-v-s10-lem-2-cor-5 .statement}
 
-*Let E be a subfield of N containing K. For E to have finite degree over K it is necessary and sufficient that g(E) should be open in $ \Gamma $. When this is so, the index $ (\Gamma : g(E)) $ is finite and equal to [E : K].*
+*Let E be a subfield of N containing K. For E to have finite degree over K it is necessary and sufficient that g(E) should be open in $\Gamma$. When this is so, the index $(\Gamma : g(E))$ is finite and equal to [E : K].*
 
-For $ g(E) $ to be open it is necessary and sufficient that there should exist a subextension F of N, of finite degree over K, such that in the notation of V, p. 60.
+For $g(E)$ to be open it is necessary and sufficient that there should exist a subextension F of N, of finite degree over K, such that in the notation of V, p. 60.
 
-g(E) contains $ U_F(\mathrm{Id}_N) = g(F) $. The relation $ g(E) \supset g(F) $ is equivalent to $ E \subset F $ by Cor. 1 (V, p. 68), whence the first assertion of Cor. 5.
+g(E) contains $U_F(\mathrm{Id}_N) = g(F)$. The relation $g(E) \supset g(F)$ is equivalent to $E \subset F$ by Cor. 1 (V, p. 68), whence the first assertion of Cor. 5.
 
-Suppose that $[E : K]$ is finite. Let $ \Omega $ be an algebraic closure of $ K $ containing $ N $ as subextension (V, p. 23, Th. 2) and let $ \mathcal{H} $ be the set of $ K $-homomorphisms of $ E $ into $ \Omega $. Every element of $ \mathcal{H} $ is induced by a $ K $-automorphism of $ \Omega $ (V, p. 52, Prop. 1), and since $ N $ is quasi-Galois over $ K $, the mapping $ \sigma \mapsto \sigma|_E $ of $ \Gamma $ into $ \mathcal{H} $ is surjective. For $ \sigma $ and $ \sigma' $ in $ \Gamma $ to have the same restriction to $ E $ it is necessary and sufficient that $ \sigma^{-1}\sigma' \in g(E) $, whence Card $ A? = (\Gamma : g(E)) $. Finally since $ E $ is an etale algebra over $ K $, we have Card $ \mathcal{H} = [E : K] $ (V, p. 32, Prop. 4), so in conclusion we have $ (\Gamma : g(E)) = [E : K] $.
+Suppose that $[E : K]$ is finite. Let $\Omega$ be an algebraic closure of $K$ containing $N$ as subextension (V, p. 23, Th. 2) and let $\mathcal{H}$ be the set of $K$-homomorphisms of $E$ into $\Omega$. Every element of $\mathcal{H}$ is induced by a $K$-automorphism of $\Omega$ (V, p. 52, Prop. 1), and since $N$ is quasi-Galois over $K$, the mapping $\sigma \mapsto \sigma|_E$ of $\Gamma$ into $\mathcal{H}$ is surjective. For $\sigma$ and $\sigma'$ in $\Gamma$ to have the same restriction to $E$ it is necessary and sufficient that $\sigma^{-1}\sigma' \in g(E)$, whence Card $A? = (\Gamma : g(E))$. Finally since $E$ is an etale algebra over $K$, we have Card $\mathcal{H} = [E : K]$ (V, p. 32, Prop. 4), so in conclusion we have $(\Gamma : g(E)) = [E : K]$.
 
 #### Corollary 6 {#alg-v-s10-lem-2-cor-6 .statement}
 
-— For $ i = 1, 2 $ let $ E_i $ be a subextension of $ N $ and $ \Gamma_i $ the Galois group of $ N $ over $ E_i $. The following conditions are equivalent:
-a) The group $ \Gamma $ is the direct product of the subgroups $ \Gamma_1 $ and $ \Gamma_2 $.
-b) The extensions $ E_1 $ and $ E_2 $ are Galois over $ K $, we have $ E_1 \cap E_2 = K $ and
+— For $i = 1, 2$ let $E_i$ be a subextension of $N$ and $\Gamma_i$ the Galois group of $N$ over $E_i$. The following conditions are equivalent:
+a) The group $\Gamma$ is the direct product of the subgroups $\Gamma_1$ and $\Gamma_2$.
+b) The extensions $E_1$ and $E_2$ are Galois over $K$, we have $E_1 \cap E_2 = K$ and
 $$
 K(E_1 \cup E_2) = N .
 $$
 
-For $ \Gamma $ to be the direct product of the subgroups $ \Gamma_1 $ and $ \Gamma_2 $ it is necessary and sufficient that the following conditions hold (I, p. 48, Prop. 15):
-(i) the subgroups $ \Gamma_1 $ and $ \Gamma_2 $ are normal in $ \Gamma $;
-(ii) $ \Gamma_1 \cap \Gamma_2 = \{ \varepsilon \} $, where $ \varepsilon $ is the neutral element of $ \Gamma $;
-(iii) $ \Gamma = \Gamma_1 . \Gamma_2 $.
+For $\Gamma$ to be the direct product of the subgroups $\Gamma_1$ and $\Gamma_2$ it is necessary and sufficient that the following conditions hold (I, p. 48, Prop. 15):
+(i) the subgroups $\Gamma_1$ and $\Gamma_2$ are normal in $\Gamma$;
+(ii) $\Gamma_1 \cap \Gamma_2 = \{ \varepsilon \}$, where $\varepsilon$ is the neutral element of $\Gamma$;
+(iii) $\Gamma = \Gamma_1 . \Gamma_2$.
 
-Now (i) means that $ E_1 $ and $ E_2 $ are Galois over $ K $ (Cor. 4). By Cor. 2, condition (ii) is equivalent to $ N = K(E_1 \cup E_2) $, and finally if (i) and (ii) hold, $ \Gamma_1 \Gamma_2 $ is the least subgroup of $ \Gamma $ containing $ \Gamma_1 \cup \Gamma_2 $; it is closed because $ \Gamma_1 $ and $ \Gamma_2 $ are compact and the mapping $ (a, \tau) \mapsto \sigma \tau $ of $ \Gamma_1 \times \Gamma_2 $ into $ \Gamma $ is continuous (Gen. Top., I, p. 63, Cor. 1). Cor. 2 now shows (iii) to be equivalent to $ E_1 \cap E_2 = K $, and this proves the equivalence of a) and b).
+Now (i) means that $E_1$ and $E_2$ are Galois over $K$ (Cor. 4). By Cor. 2, condition (ii) is equivalent to $N = K(E_1 \cup E_2)$, and finally if (i) and (ii) hold, $\Gamma_1 \Gamma_2$ is the least subgroup of $\Gamma$ containing $\Gamma_1 \cup \Gamma_2$; it is closed because $\Gamma_1$ and $\Gamma_2$ are compact and the mapping $(a, \tau) \mapsto \sigma \tau$ of $\Gamma_1 \times \Gamma_2$ into $\Gamma$ is continuous (Gen. Top., I, p. 63, Cor. 1). Cor. 2 now shows (iii) to be equivalent to $E_1 \cap E_2 = K$, and this proves the equivalence of a) and b).
 
 #### Remark {#alg-v-s10-n7-rem-1 .statement}
 
-With the notation of Cor. 6 suppose that conditions a) and b) hold. The restriction homomorphisms $ \varphi_i : \Gamma \to \mathrm{Gal}(E_i/K) $ for $ i = 1, 2 $ induce topological group isomorphisms
+With the notation of Cor. 6 suppose that conditions a) and b) hold. The restriction homomorphisms $\varphi_i : \Gamma \to \mathrm{Gal}(E_i/K)$ for $i = 1, 2$ induce topological group isomorphisms
 $$
 \Psi_1 : \Gamma_2 \to \mathrm{Gal}(E_1/K) , \quad \Psi_2 : \Gamma_1 \to \mathrm{Gal}(E_2/K)
 $$
-By a) we see that the mapping $ \sigma \mapsto (\varphi_1(\sigma), \varphi_2(\sigma)) $ is a topological group isomorphism of $ \mathrm{Gal}(N/K) $ onto $ \mathrm{Gal}(E_1/K) \times \mathrm{Gal}(E_2/K) $.
+By a) we see that the mapping $\sigma \mapsto (\varphi_1(\sigma), \varphi_2(\sigma))$ is a topological group isomorphism of $\mathrm{Gal}(N/K)$ onto $\mathrm{Gal}(E_1/K) \times \mathrm{Gal}(E_2/K)$.
 
 ### 8. Change of base field
 
-Let $ N $ be a Galois extension of $ K $ and $ \Gamma $ the Galois group of $ N $ over $ K $; further let $ N' $ be a Galois extension of $ K' $ with Galois group $ \Gamma' $. We shall identify $ K $ (resp. $ K' $) with its image in $ N $ (resp. $ N' $). Let $ u $ be a homomorphism of $ K $ into $ K' $ and $ v $ a homomorphism of $ N $ into $ N' $ whose restriction to $ K $ equals $ u $ (cf.
+Let $N$ be a Galois extension of $K$ and $\Gamma$ the Galois group of $N$ over $K$; further let $N'$ be a Galois extension of $K'$ with Galois group $\Gamma'$. We shall identify $K$ (resp. $K'$) with its image in $N$ (resp. $N'$). Let $u$ be a homomorphism of $K$ into $K'$ and $v$ a homomorphism of $N$ into $N'$ whose restriction to $K$ equals $u$ (cf.
 
-Fig. 1). Let $ \sigma \in \Gamma' $; since $ u(K) \subset K' $, $ a $ is a $ u(K) $-automorphism of $ N' $; moreover $ v(N) $ is a Galois extension of $ u(K) $, hence $ a $ induces a $ u(K) $-automorphism of $ v(N) $ (V, p. 55, Remark 1). In other words, for every $ \sigma \in \Gamma' $ there exists a unique element $ v^*(\sigma) $ of $ \Gamma $ such that
+Fig. 1). Let $\sigma \in \Gamma'$; since $u(K) \subset K'$, $a$ is a $u(K)$-automorphism of $N'$; moreover $v(N)$ is a Galois extension of $u(K)$, hence $a$ induces a $u(K)$-automorphism of $v(N)$ (V, p. 55, Remark 1). In other words, for every $\sigma \in \Gamma'$ there exists a unique element $v^*(\sigma)$ of $\Gamma$ such that
 
 (8)
 
@@ -463,11 +463,11 @@ $$
 
 ![Diagram showing the mappings v and u between N, N', K, K'](fig. 1)
 
-The mapping $ v^* $ is a homomorphism of $ \mathrm{Gal}(N'/K') $ into $ \mathrm{Gal}(N/K) $. For every $ x \in N $, the mapping $ a \mapsto v^*(o)(x) = v^{-1}(\sigma(v(x))) $ of $ \Gamma' $ into the discrete space $ N $ is continuous, so $ v^* $ is continuous.
+The mapping $v^*$ is a homomorphism of $\mathrm{Gal}(N'/K')$ into $\mathrm{Gal}(N/K)$. For every $x \in N$, the mapping $a \mapsto v^*(o)(x) = v^{-1}(\sigma(v(x)))$ of $\Gamma'$ into the discrete space $N$ is continuous, so $v^*$ is continuous.
 
 Three particular cases are of importance:
 
-a) If $ F $ is a Galois extension of $ K $ and $ E $ a subextension of $ F $, we know (V, p. 67, Lemma 1) that $ F $ is a Galois extension of $ E $. Let us apply what has been said to the case where $ N = F $, $ K' = E $, $ N' = F $ and $ v = \mathrm{Id}_F $. Then $ v^* $ is merely the canonical injection
+a) If $F$ is a Galois extension of $K$ and $E$ a subextension of $F$, we know (V, p. 67, Lemma 1) that $F$ is a Galois extension of $E$. Let us apply what has been said to the case where $N = F$, $K' = E$, $N' = F$ and $v = \mathrm{Id}_F$. Then $v^*$ is merely the canonical injection
 
 $$
 j : \mathrm{Gal}(F/E) \to \mathrm{Gal}(F/K) .
@@ -475,31 +475,31 @@ $$
 
 This is sometimes called the inflation homomorphism.
 
-b) Suppose that in addition $ E $ is Galois over $ K $. Let us apply what has been said to the case where $ N = E $, $ K' = K $, $ N' = F $ and $ v $ is the canonical injection of $ E $ into $ F $. Then $ v^* $ is just the restriction homomorphism
+b) Suppose that in addition $E$ is Galois over $K$. Let us apply what has been said to the case where $N = E$, $K' = K$, $N' = F$ and $v$ is the canonical injection of $E$ into $F$. Then $v^*$ is just the restriction homomorphism
 
 $$
 \pi : \mathrm{Gal}(F/K) \to \mathrm{Gal}(E/K)
 $$
 
-We know (V, p. 60, Prop. 3) that $ \pi $ is surjective, with kernel $ \mathrm{Gal}(F/E) $ and that by taking quotients it defines a topological group isomorphism of $ \mathrm{Gal}(F/K)/\mathrm{Gal}(F/E) $ onto $ \mathrm{Gal}(E/K) $ (V, p. 68, Cor. 4).
+We know (V, p. 60, Prop. 3) that $\pi$ is surjective, with kernel $\mathrm{Gal}(F/E)$ and that by taking quotients it defines a topological group isomorphism of $\mathrm{Gal}(F/K)/\mathrm{Gal}(F/E)$ onto $\mathrm{Gal}(E/K)$ (V, p. 68, Cor. 4).
 
-c) Suppose that $ v^{-1}(K') = K $ and $ N' = K'(v(N)) $; let us show that the homomorphism
+c) Suppose that $v^{-1}(K') = K$ and $N' = K'(v(N))$; let us show that the homomorphism
 
 $$
 v^* : \mathrm{Gal}(N'/K') \to \mathrm{Gal}(N/K) ,
 $$
 
-is a topological group isomorphism, sometimes called translation. For the group $ \mathrm{Gal}(N'/K') $ is compact, the group $ \mathrm{Gal}(N/K) $ is separated and $ v^* $ is continuous; so it is enough (Gen. Top., I, p. 87, Cor. 2) to prove that $ v^* $ is bijective. Now every element $ \sigma $ of the kernel of $ v^* $ is an automorphism of $ N' $ which induces the identity on $ K' $ and on $ v(N) $, hence $ a = \epsilon $ because $ N' = K'(v(N)) $; it follows that $ v^* $ is injective. Further, the image of $ v^* $ is a closed subgroup $ A $ of $ \mathrm{Gal}(N/K) $
+is a topological group isomorphism, sometimes called translation. For the group $\mathrm{Gal}(N'/K')$ is compact, the group $\mathrm{Gal}(N/K)$ is separated and $v^*$ is continuous; so it is enough (Gen. Top., I, p. 87, Cor. 2) to prove that $v^*$ is bijective. Now every element $\sigma$ of the kernel of $v^*$ is an automorphism of $N'$ which induces the identity on $K'$ and on $v(N)$, hence $a = \epsilon$ because $N' = K'(v(N))$; it follows that $v^*$ is injective. Further, the image of $v^*$ is a closed subgroup $A$ of $\mathrm{Gal}(N/K)$
 
-(Gen. Top., I, p. 81, *ibid.*) and the field of invariants of $ A $ is equal to $ v^{-1}(K') = K $; therefore we have $ A = \mathrm{Gal}(N/K) $ (V, p. 67, Th. 4) and so $ v^* $ is surjective.
+(Gen. Top., I, p. 81, *ibid.*) and the field of invariants of $A$ is equal to $v^{-1}(K') = K$; therefore we have $A = \mathrm{Gal}(N/K)$ (V, p. 67, Th. 4) and so $v^*$ is surjective.
 
-The general case may be reduced to the preceding ones by composition. To begin with we note that $ K'(v(N)) $ is the field of invariants in $ N' $ of the kernel $ A $ of $ v^* $; since $ A $ is a normal subgroup of $ \mathrm{Gal}(N'/K') $, the extension $ K'(v(N)) $ of $ K' $ is Galois (V, p. 68, Cor. 4). Thus $ v^* $ is composed of the homomorphisms
+The general case may be reduced to the preceding ones by composition. To begin with we note that $K'(v(N))$ is the field of invariants in $N'$ of the kernel $A$ of $v^*$; since $A$ is a normal subgroup of $\mathrm{Gal}(N'/K')$, the extension $K'(v(N))$ of $K'$ is Galois (V, p. 68, Cor. 4). Thus $v^*$ is composed of the homomorphisms
 
 $$
 \mathrm{Gal}(N'/K') \to \mathrm{Gal}(K'(u(N))/K') \xrightarrow{\psi} \mathrm{Gal}(N/v^{-1}(K')) \xrightarrow{j} \mathrm{Gal}(N/K);
 $$
 
-in this sequence $ \pi $ is the restriction homomorphism associated with the triple $ K' \subset K'(u(N)) \subset N' $, $ \psi $ is the translation isomorphism associated with the central square of the diagram (Fig. 2) and $ j $ is the inflation homomorphism associated with the triple $ K \subset v^{-1}(K') \subset N $.
+in this sequence $\pi$ is the restriction homomorphism associated with the triple $K' \subset K'(u(N)) \subset N'$, $\psi$ is the translation isomorphism associated with the central square of the diagram (Fig. 2) and $j$ is the inflation homomorphism associated with the triple $K \subset v^{-1}(K') \subset N$.
 
 The next theorem gives more detailed information about the structure of translation isomorphisms.
 
@@ -509,53 +509,53 @@ Fig. 2
 
 #### Theorem 5 {#alg-v-s10-thm-5 .statement}
 
-*Let $ N' $ be an extension of $ K $ generated by two subextensions $ K' $ and $ N $. Suppose that $ N $ is Galois over $ K $, with Galois group $ \Gamma $ and that $ K' \cap N = K $. Then the extension $ N' $ of $ K' $ is Galois and the canonical homomorphism $ \varphi $ of $ K' \otimes_K N $ into $ N' $ is an isomorphism. Let $ \sigma \in \mathrm{Gal}(N/K) $ and let $ \sigma' $ be the element of $ \mathrm{Gal}(N'/K') $ which corresponds to it under the translation isomorphism; then we have $ \sigma' \circ \varphi = \varphi \circ (\mathrm{Id}_{K'} \otimes u) $.*
+*Let $N'$ be an extension of $K$ generated by two subextensions $K'$ and $N$. Suppose that $N$ is Galois over $K$, with Galois group $\Gamma$ and that $K' \cap N = K$. Then the extension $N'$ of $K'$ is Galois and the canonical homomorphism $\varphi$ of $K' \otimes_K N$ into $N'$ is an isomorphism. Let $\sigma \in \mathrm{Gal}(N/K)$ and let $\sigma'$ be the element of $\mathrm{Gal}(N'/K')$ which corresponds to it under the translation isomorphism; then we have $\sigma' \circ \varphi = \varphi \circ (\mathrm{Id}_{K'} \otimes u)$.*
 
-We have $ N' = K'(N) $ and $ N $ is algebraic and separable over $ K $; hence (V, p. 42, Prop. 10), the extension $ N' $ of $ K' $ is algebraic and separable. By Cor. 4 of V, p. 54 the extension $ N' $ of $ K' $ is quasi-Galois. Therefore the extension $ N' $ of $ K' $ is Galois. By c) above the mapping $ \sigma \mapsto \sigma|_N $ is an homomorphism $ \lambda $ of $ \mathrm{Gal}(N'/K') $ onto $ \mathrm{Gal}(N/K) $.
+We have $N' = K'(N)$ and $N$ is algebraic and separable over $K$; hence (V, p. 42, Prop. 10), the extension $N'$ of $K'$ is algebraic and separable. By Cor. 4 of V, p. 54 the extension $N'$ of $K'$ is quasi-Galois. Therefore the extension $N'$ of $K'$ is Galois. By c) above the mapping $\sigma \mapsto \sigma|_N$ is an homomorphism $\lambda$ of $\mathrm{Gal}(N'/K')$ onto $\mathrm{Gal}(N/K)$.
 
-We have $ N = K'[N] $ because $ N $ is algebraic over $ K $ (V, p. 18, Cor. 1), hence $ \varphi $ is surjective. If $ a $ belongs to $ \mathrm{Gal}(N/K) $, we have
+We have $N = K'[N]$ because $N$ is algebraic over $K$ (V, p. 18, Cor. 1), hence $\varphi$ is surjective. If $a$ belongs to $\mathrm{Gal}(N/K)$, we have
 
 $$
 \lambda^{-1}(\sigma) \circ \varphi = \varphi \circ (\mathrm{Id}_{K'} \otimes \sigma).
 $$
 
-Therefore the kernel of $ \varphi $ is stable under the mappings $ \mathrm{Id}_{K'} \otimes \sigma $, hence of the form $ K' \otimes_K N_0 $ with $ N_0 \subset N $ (V, p. 63, Cor.). For $ x $ in $ N_0 $ we have $ x = \varphi(1 \otimes x) = 0 $, hence $ N_0 = 0 $ and so $ \varphi $ is injective.
+Therefore the kernel of $\varphi$ is stable under the mappings $\mathrm{Id}_{K'} \otimes \sigma$, hence of the form $K' \otimes_K N_0$ with $N_0 \subset N$ (V, p. 63, Cor.). For $x$ in $N_0$ we have $x = \varphi(1 \otimes x) = 0$, hence $N_0 = 0$ and so $\varphi$ is injective.
 
 #### Corollary 1 {#alg-v-s10-thm-5-cor-1 .statement}
 
-*Let $ E' $ be a subfield of $ N' $ containing $ K' $. There exists a unique subfield $ E $ of $ N $ containing $ K $ and such that $ E' = K'(E) $. We have $ E = E' \cap N $.*
+*Let $E'$ be a subfield of $N'$ containing $K'$. There exists a unique subfield $E$ of $N$ containing $K$ and such that $E' = K'(E)$. We have $E = E' \cap N$.*
 
-Put $ E = E' \cap N $, then $ E' \supset K'(E) $. Now put $ \Gamma = \mathrm{Gal}(N/K) $ and $ A = \mathrm{Gal}(N/E) $, and define $ \Gamma' $ and $ A' $ similarly. The mapping $ A : a \mapsto a|_N $ is an isomorphism of $ \Gamma' $ onto $ \Gamma $ and also of $ A' $ onto $ A $; in other words, $ A' $ consists of those $ \sigma \in \Gamma' $ for which $ \lambda(\sigma) $ belongs to $ A $. If $ \sigma \in \Gamma' $ leaves the elements of $ K'(E) $ fixed, we have $ \lambda(\sigma) \in A $, whence $ a \in A' $ and $ a $ leaves the elements of $ E' $ fixed; by Cor. 1 of V, p. 68 we thus have $ K'(E) \supset E' $.
+Put $E = E' \cap N$, then $E' \supset K'(E)$. Now put $\Gamma = \mathrm{Gal}(N/K)$ and $A = \mathrm{Gal}(N/E)$, and define $\Gamma'$ and $A'$ similarly. The mapping $A : a \mapsto a|_N$ is an isomorphism of $\Gamma'$ onto $\Gamma$ and also of $A'$ onto $A$; in other words, $A'$ consists of those $\sigma \in \Gamma'$ for which $\lambda(\sigma)$ belongs to $A$. If $\sigma \in \Gamma'$ leaves the elements of $K'(E)$ fixed, we have $\lambda(\sigma) \in A$, whence $a \in A'$ and $a$ leaves the elements of $E'$ fixed; by Cor. 1 of V, p. 68 we thus have $K'(E) \supset E'$.
 
-We have proved the equality $ E' = K'(E) $, whence $ \varphi^{-1}(E') = K' \otimes_K E $. If $ F $ is a subfield of $ N $ containing $ K $ and such that $ E' = K'(F) $, we have likewise $ \varphi^{-1}(E') = K' \otimes_K F $, whence $ F = E $.
+We have proved the equality $E' = K'(E)$, whence $\varphi^{-1}(E') = K' \otimes_K E$. If $F$ is a subfield of $N$ containing $K$ and such that $E' = K'(F)$, we have likewise $\varphi^{-1}(E') = K' \otimes_K F$, whence $F = E$.
 
 #### Corollary 2 {#alg-v-s10-thm-5-cor-2 .statement}
 
-*Let $ N $ be a Galois extension of $ K $. Suppose that the Galois group $ \Gamma $ of $ N $ over $ K $ is the direct product of two closed subgroups $ \Gamma_1 $ and $ \Gamma_2 $ and denote by $ E_i $ the field of invariants of $ \Gamma_i $ for $ i = 1, 2 $. Then the canonical homomorphism of $ E_1 \otimes_K E_2 $ into $ N $ is an isomorphism.*
+*Let $N$ be a Galois extension of $K$. Suppose that the Galois group $\Gamma$ of $N$ over $K$ is the direct product of two closed subgroups $\Gamma_1$ and $\Gamma_2$ and denote by $E_i$ the field of invariants of $\Gamma_i$ for $i = 1, 2$. Then the canonical homomorphism of $E_1 \otimes_K E_2$ into $N$ is an isomorphism.*
 
-We have $ E_1 \cap E_2 = K $ and $ N = K(E_1 \cup E_2) $ by Cor. 6 (V, p. 69), and so it is enough to apply Theorem 5.
+We have $E_1 \cap E_2 = K$ and $N = K(E_1 \cup E_2)$ by Cor. 6 (V, p. 69), and so it is enough to apply Theorem 5.
 
 #### Remark {#alg-v-s10-n8-rem-1 .statement}
 
-Let $ K $ and $ K' $ be two fields and $ u $ a homomorphism of $ K $ into $ K' $. Let $ K_s $ (resp. $ K'_s $) be a separable closure (V, p. 45, Prop. 14) of $ K $ (resp. $ K' $) and $ \Pi $ (resp. $ \Pi' $) the Galois group of $ K_s $ over $ K $ (resp. $ K'_s $ over $ K' $). Since $ K_s $ is a separable algebraic extension of $ K $ and the extension $ (K'_s, u) $ of $ K $ is separably closed, there exists (V, p. 45, Cor.) a homomorphism $ v $ of $ K_s $ into $ K'_s $ extending $ u $. From $ v $ we obtain a continuous homomorphism $ v^* $ of $ \Pi' $ into $ \Pi $. Let $ v_1 $ be another extension of $ u $; since $ K_s $ is a quasi-Galois extension of $ K $, there exists an element $ a_s $ of $ \Pi $ such that $ v_1 = v \circ a_s $. We conclude that $ v_1^*(\tau) = \sigma_0^{-1} v^*(\tau) \sigma_0 $ for all $ \tau \in \Pi $.
+Let $K$ and $K'$ be two fields and $u$ a homomorphism of $K$ into $K'$. Let $K_s$ (resp. $K'_s$) be a separable closure (V, p. 45, Prop. 14) of $K$ (resp. $K'$) and $\Pi$ (resp. $\Pi'$) the Galois group of $K_s$ over $K$ (resp. $K'_s$ over $K'$). Since $K_s$ is a separable algebraic extension of $K$ and the extension $(K'_s, u)$ of $K$ is separably closed, there exists (V, p. 45, Cor.) a homomorphism $v$ of $K_s$ into $K'_s$ extending $u$. From $v$ we obtain a continuous homomorphism $v^*$ of $\Pi'$ into $\Pi$. Let $v_1$ be another extension of $u$; since $K_s$ is a quasi-Galois extension of $K$, there exists an element $a_s$ of $\Pi$ such that $v_1 = v \circ a_s$. We conclude that $v_1^*(\tau) = \sigma_0^{-1} v^*(\tau) \sigma_0$ for all $\tau \in \Pi$.
 
 ### 9. The normal basis theorem
 
-Let $ N $ be a Galois extension of $ K $, with Galois group $ \Gamma $. We identify $ \Gamma $ with the canonical basis of the group algebra $ K^{(\Gamma)} $ (III, p. 446); then $ N $ may be considered as a left $ K^{(\Gamma)} $-module (III, p. 447, Example), so that
+Let $N$ be a Galois extension of $K$, with Galois group $\Gamma$. We identify $\Gamma$ with the canonical basis of the group algebra $K^{(\Gamma)}$ (III, p. 446); then $N$ may be considered as a left $K^{(\Gamma)}$-module (III, p. 447, Example), so that
 
 $$
 u \cdot x = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x) \quad \text{for} \quad x \in N \quad \text{and} \quad u = \sum_{\sigma \in \Gamma} a_\sigma \sigma \quad \text{in} \quad K^{(\Gamma)}.
 $$
 
-If $ N $ is of finite degree over $ K $, the group $ \Gamma $ is finite by Dedekind's theorem (V, p. 27, Cor. 2) and we can define the element $ t = \sum_{\sigma \in \Gamma} a $ in $ K^{(\Gamma)} $; then we have
+If $N$ is of finite degree over $K$, the group $\Gamma$ is finite by Dedekind's theorem (V, p. 27, Cor. 2) and we can define the element $t = \sum_{\sigma \in \Gamma} a$ in $K^{(\Gamma)}$; then we have
 
 $$
 \mathrm{Tr}_{N/K}(x) = \sum_{\sigma \in \Gamma} \sigma(x),
 $$
 
-that is, $ \mathrm{Tr}_{N/K}(x) = t \cdot x $ for all $ x \in N $.
+that is, $\mathrm{Tr}_{N/K}(x) = t \cdot x$ for all $x \in N$.
 
-Let us define an action on the right by $ \Gamma $ on $ N $ by $ x^\sigma = \sigma^{-1}(x) $. In a similar way we can consider the multiplicative group $ N^* $ as a right $ Z^{(\Gamma)} $-module, the external law being written $(x, u) \mapsto x^u$. For example, the notation $x^{2a + 3r + \pi}$, where $a, r, \pi$ are elements of $\Gamma$, indicates the product $(x^a)^2 \cdot (x^r)^3 \cdot x^\pi$. If $N$ is of finite degree over $K$ and $t = \sum_{\sigma \in \Gamma} a$ as above, then we have $N_{N/K}(x) = \prod_{\sigma \in \Gamma} x^\sigma$, that is, $N_{N/K}(x) = x'$ for all $x \in N^*$.
+Let us define an action on the right by $\Gamma$ on $N$ by $x^\sigma = \sigma^{-1}(x)$. In a similar way we can consider the multiplicative group $N^*$ as a right $Z^{(\Gamma)}$-module, the external law being written $(x, u) \mapsto x^u$. For example, the notation $x^{2a + 3r + \pi}$, where $a, r, \pi$ are elements of $\Gamma$, indicates the product $(x^a)^2 \cdot (x^r)^3 \cdot x^\pi$. If $N$ is of finite degree over $K$ and $t = \sum_{\sigma \in \Gamma} a$ as above, then we have $N_{N/K}(x) = \prod_{\sigma \in \Gamma} x^\sigma$, that is, $N_{N/K}(x) = x'$ for all $x \in N^*$.
 
 Suppose henceforth that $N$ is of finite degree over $K$. Given $x \in N$, for $\{x\}$ to be a basis of the $\mathbf{K}^{(\Gamma)}$-module $N$ it is necessary and sufficient that the family $(\sigma(x))_{\sigma \in \Gamma}$ should be a basis of $N$ over $K$. Such a basis is called a *normal basis of $N$ over $K$*.
 
@@ -581,97 +581,97 @@ Since $\mathbf{K}^{(\Gamma)}$ and $N$ have the same dimension over $K$, to say t
 
 #### Proposition 11 {#alg-v-s10-prop-11 .statement}
 
-— Suppose that K is infinite and let P : N → K be a polynomial mapping which is non-zero on K. There exists x ∈ N such that P(x) ≠ 0 and {x} is a basis of N over $ \mathbf{K}^{(\Gamma)} $.
+— Suppose that K is infinite and let P : N → K be a polynomial mapping which is non-zero on K. There exists x ∈ N such that P(x) ≠ 0 and {x} is a basis of N over $\mathbf{K}^{(\Gamma)}$.
 
-B) Suppose that K is finite. By Prop. 4 (V, p. 95)$^1$ every extension of finite degree over K has a cyclic Galois group. We shall therefore more generally consider the case where the group $ \Gamma $ is cyclic of order n; we denote by $ \gamma $ a generator of $ \Gamma $.
+B) Suppose that K is finite. By Prop. 4 (V, p. 95)$^1$ every extension of finite degree over K has a cyclic Galois group. We shall therefore more generally consider the case where the group $\Gamma$ is cyclic of order n; we denote by $\gamma$ a generator of $\Gamma$.
 
-The following lemma is a particular case of more general results proved in Chapter VII. The ring $ A $ is either the ring $ \mathbf{Z} $ of rational integers or the ring $ K[X] $ of polynomials over the field $ K $.
+The following lemma is a particular case of more general results proved in Chapter VII. The ring $A$ is either the ring $\mathbf{Z}$ of rational integers or the ring $K[X]$ of polynomials over the field $K$.
 
 #### Lemma 4 {#alg-v-s10-lem-4 .statement}
 
-Let M be a torsion A-module generated by a finite number $ x_1, ..., x_h $ of elements; then there exists an element x of M whose annihilator (II, p. 219) is equal to the annihilator of M.
+Let M be a torsion A-module generated by a finite number $x_1, ..., x_h$ of elements; then there exists an element x of M whose annihilator (II, p. 219) is equal to the annihilator of M.
 
-In both cases $ A $ is an integral domain and every ideal of $ A $ is principal. When $ A = \mathbf{Z} $ (resp. $ A = K[X] $), we denote by $ \mathcal{P} $ the set of prime numbers (resp. the set of irreducible monic polynomials in $ K[X] $). For every element $ a \neq 0 $ of $ A $ there exists then an invertible element $ u $ of $ A $ and a family $ (v_p(a))_{p \in \mathcal{P}} $, with finite support, of positive integers such that $ a = u \prod_{p \in \mathcal{P}} p^{v_p(a)} $ and $ u $ and the integers $ v_p(a) $ are uniquely determined (I, p. 51 and IV, p. 13, Prop. 13).
+In both cases $A$ is an integral domain and every ideal of $A$ is principal. When $A = \mathbf{Z}$ (resp. $A = K[X]$), we denote by $\mathcal{P}$ the set of prime numbers (resp. the set of irreducible monic polynomials in $K[X]$). For every element $a \neq 0$ of $A$ there exists then an invertible element $u$ of $A$ and a family $(v_p(a))_{p \in \mathcal{P}}$, with finite support, of positive integers such that $a = u \prod_{p \in \mathcal{P}} p^{v_p(a)}$ and $u$ and the integers $v_p(a)$ are uniquely determined (I, p. 51 and IV, p. 13, Prop. 13).
 
-Let $ a_i $ be the annihilator of $ x_i $, (for $ 1 \leq i \leq h $) and $ a $ the annihilator of M; let $ a_1, ..., a_h, a $ be non-zero elements of $ A $ such that $ a_i = Aa_i $, and $ a = Aa $; since $ a = a_1 \cap ... \cap a_h $, it follows from what has been said that
+Let $a_i$ be the annihilator of $x_i$, (for $1 \leq i \leq h$) and $a$ the annihilator of M; let $a_1, ..., a_h, a$ be non-zero elements of $A$ such that $a_i = Aa_i$, and $a = Aa$; since $a = a_1 \cap ... \cap a_h$, it follows from what has been said that
 
 $$
 v_p(a) = \sup_{1 \leq i \leq h} v_p(a_i) \quad \text{for all } p \in \mathcal{P}.
 $$
 
-Let us write $ a $ in the form $ up_1^{n(1)} ... p_r^{n(r)} $, with $ p_1, ..., p_r $ distinct in $ \mathcal{P} $, $ n(1) > 0, ..., n(r) > 0 $ and $ u $ an invertible element of $ A $. Let $ j = 1, ..., r $; by (10) there exists an integer $ c(j) $ such that $ 1 \leq c(j) \leq h $ and $ v_{p_j}(a_{c(j)}) = n(j) $; there exists $ b_j $ in $ A $ with $ a_{c(j)} = p_j^{n(j)} b_j $ and the element $ y_j = b_j x_{c(j)} $ has as annihilator the ideal $ Ap_j^{n(j)} $.
+Let us write $a$ in the form $up_1^{n(1)} ... p_r^{n(r)}$, with $p_1, ..., p_r$ distinct in $\mathcal{P}$, $n(1) > 0, ..., n(r) > 0$ and $u$ an invertible element of $A$. Let $j = 1, ..., r$; by (10) there exists an integer $c(j)$ such that $1 \leq c(j) \leq h$ and $v_{p_j}(a_{c(j)}) = n(j)$; there exists $b_j$ in $A$ with $a_{c(j)} = p_j^{n(j)} b_j$ and the element $y_j = b_j x_{c(j)}$ has as annihilator the ideal $Ap_j^{n(j)}$.
 
-Let us show that the annihilator b of $ y = y_1 + ... + y_r $ is equal to the annihilator a of M. In any case we have $ a \subset b $, so b is of the form $ Ap_1^{m(1)} ... p_r^{m(r)} $ with $ 0 \leq m(j) \leq n(j) $ for $ 1 \leq j \leq r $. If we had $ a \neq b $, there would exist an integer jsuch that $ 1 \leq j \leq r $ and $ m(j) < n(j) $, and hence $ d_j = a/p_j $ would annihilate $ y $. Now we have $ d_j y_k = 0 $ for $ k \neq j $, whence we obtain $ d_j y_j = 0 $; but the annihilator of $ y_j $ is $ Ap_j^{m(j)} $ and $ d_j $ is not a multiple of $ p_j^{m(j)} $. So the hypothesis $ a \neq b $ is absurd.
+Let us show that the annihilator b of $y = y_1 + ... + y_r$ is equal to the annihilator a of M. In any case we have $a \subset b$, so b is of the form $Ap_1^{m(1)} ... p_r^{m(r)}$ with $0 \leq m(j) \leq n(j)$ for $1 \leq j \leq r$. If we had $a \neq b$, there would exist an integer jsuch that $1 \leq j \leq r$ and $m(j) < n(j)$, and hence $d_j = a/p_j$ would annihilate $y$. Now we have $d_j y_k = 0$ for $k \neq j$, whence we obtain $d_j y_j = 0$; but the annihilator of $y_j$ is $Ap_j^{m(j)}$ and $d_j$ is not a multiple of $p_j^{m(j)}$. So the hypothesis $a \neq b$ is absurd.
 
-$ ^1 $ The reader can easily convince himself that the normal basis theorem is not used anywhere before the proof of that proposition.
+$^1$ The reader can easily convince himself that the normal basis theorem is not used anywhere before the proof of that proposition.
 
-We shall apply Lemma 4 to the case where $ A $ is the polynomial ring $ K[X] $ and $ M $ the abelian group $ N $ with the external law defined by $ a \cdot x = \sum_{k=0}^m c_k \gamma^k(x) $ for $ a = \sum_{k=0}^\infty c_k X^k $ in $ K[X] $ and $ x \in N $. Let $ a $ be the annihilator of $ M $, then $ \gamma^n = 1 $, hence the polynomial $ X^n - 1 $ lies in $ a $. Let $ F \in a $; *by IV*, p. 11, Cor. there exist elements $ c_0, c_1, \ldots, c_{n-1} $ of $ K $ and $ G \in K[X] $ such that
+We shall apply Lemma 4 to the case where $A$ is the polynomial ring $K[X]$ and $M$ the abelian group $N$ with the external law defined by $a \cdot x = \sum_{k=0}^m c_k \gamma^k(x)$ for $a = \sum_{k=0}^\infty c_k X^k$ in $K[X]$ and $x \in N$. Let $a$ be the annihilator of $M$, then $\gamma^n = 1$, hence the polynomial $X^n - 1$ lies in $a$. Let $F \in a$; *by IV*, p. 11, Cor. there exist elements $c_0, c_1, \ldots, c_{n-1}$ of $K$ and $G \in K[X]$ such that
 
 $$
 F(X) = c_0 + c_1 X + \cdots + c_{n-1} X^{n-1} + (X^n - 1) G(X).
 $$
 
-Thus we have $ c_0 + c_1 \gamma + \ldots + c_{n-1} \gamma^{n-1} = 0 $ in $ \operatorname{Hom}_K(N, N) $ and since the automorphisms $ 1, \gamma, \gamma^2, \ldots, \gamma^{n-1} $ of $ N $ are distinct, Dedekind's theorem (*V*, p. 27, Cor. 2) implies that $ c_0 = c_1 = \ldots = c_{n-1} = 0 $. Finally, we have
+Thus we have $c_0 + c_1 \gamma + \ldots + c_{n-1} \gamma^{n-1} = 0$ in $\operatorname{Hom}_K(N, N)$ and since the automorphisms $1, \gamma, \gamma^2, \ldots, \gamma^{n-1}$ of $N$ are distinct, Dedekind's theorem (*V*, p. 27, Cor. 2) implies that $c_0 = c_1 = \ldots = c_{n-1} = 0$. Finally, we have
 
 $$
 F(X) = (X^n - 1) G(X), \quad \text{that is, } a = (X^n - 1) K[X].
 $$
 
-By Lemma 4 there exists an element $ x $ of $ N $ whose annihilator in $ K[X] $ is equal to $ (X^n - 1) K[X] $. Since the monomials $ 1, X, \ldots, X^{n-1} $ form a basis of a vector subspace of $ K[X] $ supplementary to $ (X^n - 1) K[X] $ (*IV*, p. 11, Cor.), the elements $ x, \gamma(x), \ldots, \gamma^{n-1}(x) $ of $ N $ are linearly independent over $ K $. Since $[N : K] = n$ (*V*, p. 66, Th. 3), the sequence $ (x, \gamma(x), \ldots, \gamma^{n-1}(x)) $ is therefore a (normal) basis of $ N $ over $ K $.
+By Lemma 4 there exists an element $x$ of $N$ whose annihilator in $K[X]$ is equal to $(X^n - 1) K[X]$. Since the monomials $1, X, \ldots, X^{n-1}$ form a basis of a vector subspace of $K[X]$ supplementary to $(X^n - 1) K[X]$ (*IV*, p. 11, Cor.), the elements $x, \gamma(x), \ldots, \gamma^{n-1}(x)$ of $N$ are linearly independent over $K$. Since $[N : K] = n$ (*V*, p. 66, Th. 3), the sequence $(x, \gamma(x), \ldots, \gamma^{n-1}(x))$ is therefore a (normal) basis of $N$ over $K$.
 
-### 10. Finite $ \Gamma $-sets and etale algebras
+### 10. Finite $\Gamma$-sets and etale algebras
 
-Let $ K_s $ be a separable closure of $ K $ (*V*, p. 45, Prop. 14) and $ \Gamma $ the Galois group of $ K $, over $ K $. By a $ \Gamma $-*set* we understand a set $ X $ with an action $ (\sigma, x) \mapsto \sigma x $ of the group $ \Gamma $ such that the stabilizer of each point of $ X $ is an *open* subgroup of $ \Gamma $. It comes to the same to say that the mapping $ (\sigma, x) \mapsto \sigma x $ of $ \Gamma \times X $ into $ X $ is *continuous* when $ X $ is equipped with the discrete topology.
+Let $K_s$ be a separable closure of $K$ (*V*, p. 45, Prop. 14) and $\Gamma$ the Galois group of $K$, over $K$. By a $\Gamma$-*set* we understand a set $X$ with an action $(\sigma, x) \mapsto \sigma x$ of the group $\Gamma$ such that the stabilizer of each point of $X$ is an *open* subgroup of $\Gamma$. It comes to the same to say that the mapping $(\sigma, x) \mapsto \sigma x$ of $\Gamma \times X$ into $X$ is *continuous* when $X$ is equipped with the discrete topology.
 
-Let $ X $ be a *finite* $ \Gamma $-set. We define an action of $ \Gamma $ on the $ K $-algebra $ K_s^X $ of mappings of $ X $ into $ K_s $ by the formula
+Let $X$ be a *finite* $\Gamma$-set. We define an action of $\Gamma$ on the $K$-algebra $K_s^X$ of mappings of $X$ into $K_s$ by the formula
 
 $$
 u_\sigma f(x) = \sigma(f(\sigma^{-1}x))
 $$
 
-for $ \pi \in \Gamma, f \in K_s^X $ and $ x \in X $. Let $ \Theta(X) $ be the set of invariants of $ \Gamma $ in $ K_s^X $; this is the sub-K-algebra of $ K_s^X $ consisting of mappings $ f : X \to K_s $ such that $ f(\sigma x) = \sigma(f(x)) $ for $ \sigma \in \Gamma $ and $ x \in X $.
+for $\pi \in \Gamma, f \in K_s^X$ and $x \in X$. Let $\Theta(X)$ be the set of invariants of $\Gamma$ in $K_s^X$; this is the sub-K-algebra of $K_s^X$ consisting of mappings $f : X \to K_s$ such that $f(\sigma x) = \sigma(f(x))$ for $\sigma \in \Gamma$ and $x \in X$.
 
 #### Lemma 5 {#alg-v-s10-lem-5 .statement}
 
-*Let $ X $ be a finite $ \Gamma $-set and let $ x_1, \ldots, x_n $ be points of $ X $ such that the orbits $ \Gamma x_1, \ldots, \Gamma x_n $ form a partition of $ X $. For $ 1 \leq i \leq n $ let $ \Delta_i $ be the stabilizer of $ x_i $ in $ \Gamma $ and let $ L_i $ be the field of invariants of $ A_i $. Then $ L_1, \ldots, L_n $ are separable extensions of finite degree of $ K $, and the mapping $ f \mapsto (f(x_1), \ldots, f(x_n)) $ is a K-algebra isomorphism of $ \Theta(X) $ onto $ L_1 \times \ldots \times L_n $.*
+*Let $X$ be a finite $\Gamma$-set and let $x_1, \ldots, x_n$ be points of $X$ such that the orbits $\Gamma x_1, \ldots, \Gamma x_n$ form a partition of $X$. For $1 \leq i \leq n$ let $\Delta_i$ be the stabilizer of $x_i$ in $\Gamma$ and let $L_i$ be the field of invariants of $A_i$. Then $L_1, \ldots, L_n$ are separable extensions of finite degree of $K$, and the mapping $f \mapsto (f(x_1), \ldots, f(x_n))$ is a K-algebra isomorphism of $\Theta(X)$ onto $L_1 \times \ldots \times L_n$.*
 
-By hypothesis the subgroups $ A_i, \ldots, A_n $ of $ \Gamma $ are open and Cor. 5 of V, p. 68, shows that the subextensions $ L_1, \ldots, L_n $ of $ K $, are of finite degree over $ K $. Clearly they are separable; now the last assertion of Lemma 5 is immediate.
+By hypothesis the subgroups $A_i, \ldots, A_n$ of $\Gamma$ are open and Cor. 5 of V, p. 68, shows that the subextensions $L_1, \ldots, L_n$ of $K$, are of finite degree over $K$. Clearly they are separable; now the last assertion of Lemma 5 is immediate.
 
 From Lemma 5 and Th. 4 (*V*, p. 34f.) we obtain immediately the following result.
 
 #### Proposition 12 {#alg-v-s10-prop-12 .statement}
 
-— For every finite $ \Gamma $-set $ X $ the algebra $ \Theta(X) $ is etale over $ K $, of degree equal to the cardinal of $ X $. Moreover, every etale algebra over $ K $ is isomorphic to an algebra of the form $ \Theta(X) $.
+— For every finite $\Gamma$-set $X$ the algebra $\Theta(X)$ is etale over $K$, of degree equal to the cardinal of $X$. Moreover, every etale algebra over $K$ is isomorphic to an algebra of the form $\Theta(X)$.
 
 #### Remark {#alg-v-s10-n10-rem-1 .statement}
 
-a) It is easy to show that for every $ K $-algebra homomorphism $ \varphi $ of $ \Theta(X) $ into $ K $, there exists a unique element $ x $ of $ X $ such that $ \varphi(f) = f(x) $ for all $ f \in \Theta(X) $.
+a) It is easy to show that for every $K$-algebra homomorphism $\varphi$ of $\Theta(X)$ into $K$, there exists a unique element $x$ of $X$ such that $\varphi(f) = f(x)$ for all $f \in \Theta(X)$.
 
-2) Let $ X $ and $ Y $ be two finite $ \Gamma $-sets. Let $ \mathfrak{T}_\Gamma(X, Y) $ be the set of mappings $ u $ of $ X $ into $ Y $ such that $ u(\sigma x) = \sigma u(x) $ for all $ \sigma \in \Gamma $ and all $ x \in X $. For $ u \in \mathfrak{T}_\Gamma(X, Y) $ we define a $ K $-algebra homomorphism $ u^*: \Theta(Y) \to \Theta(X) $ by $ u^*(f) = f \circ u $. For every homomorphism $ \Psi $ of $ \Theta(Y) $ into $ \Theta(X) $ there exists a unique element $ u $ of $ \mathfrak{T}_\Gamma(X, Y) $ such that $ \Psi = u^* $.
+2) Let $X$ and $Y$ be two finite $\Gamma$-sets. Let $\mathfrak{T}_\Gamma(X, Y)$ be the set of mappings $u$ of $X$ into $Y$ such that $u(\sigma x) = \sigma u(x)$ for all $\sigma \in \Gamma$ and all $x \in X$. For $u \in \mathfrak{T}_\Gamma(X, Y)$ we define a $K$-algebra homomorphism $u^*: \Theta(Y) \to \Theta(X)$ by $u^*(f) = f \circ u$. For every homomorphism $\Psi$ of $\Theta(Y)$ into $\Theta(X)$ there exists a unique element $u$ of $\mathfrak{T}_\Gamma(X, Y)$ such that $\Psi = u^*$.
 
 ### 11. The structure of quasi-Galois extensions
 
 #### Proposition 13 {#alg-v-s10-prop-13 .statement}
 
-— Let $ N $ be a quasi-Galois extension of $ K $. We denote by $ N_r $, the field of invariants of the group of all $ K $-automorphisms of $ N $ and by $ N_s $, the relative separable algebraic closure of $ K $ in $ N $ ($ V $, p. 44). Then:
+— Let $N$ be a quasi-Galois extension of $K$. We denote by $N_r$, the field of invariants of the group of all $K$-automorphisms of $N$ and by $N_s$, the relative separable algebraic closure of $K$ in $N$ ($V$, p. 44). Then:
 
-a) $ N_r $ is the relative $ p $-radical closure of $ K $ in $ N $ ($ V $, p. 25).
+a) $N_r$ is the relative $p$-radical closure of $K$ in $N$ ($V$, p. 25).
 
-b) $ N $, is a Galois extension of $ K $ and every $ K $-automorphism of $ N_s $ extends in a unique fashion to an $ N_r $-automorphism of $ N $.
+b) $N$, is a Galois extension of $K$ and every $K$-automorphism of $N_s$ extends in a unique fashion to an $N_r$-automorphism of $N$.
 
-c) The fields $ N_r $ and $ N $, are linearly disjoint over $ K $ and we have $ N = K[N, \cup N_s] $; in other words, the canonical homomorphism of $ N_r \otimes_K N $, into $ N $ is an isomorphism.
+c) The fields $N_r$ and $N$, are linearly disjoint over $K$ and we have $N = K[N, \cup N_s]$; in other words, the canonical homomorphism of $N_r \otimes_K N$, into $N$ is an isomorphism.
 
-Let $ \Omega $ be an algebraic closure of $ K $ containing $ N $ as subextension ($ V $, p. 23, Th. 2). Every $ K $-automorphism of $ \Omega $ induces an automorphism of $ N $ because $ N $ is quasi-Galois. Therefore every element of $ N_r $ is invariant under the group of $ K $-automorphisms of $ \Omega $, hence $ p $-radical over $ K $ ($ V $, p. 53, Cor. 3). Conversely every element of $ N $ which is $ p $-radical over $ K $ is clearly invariant under every $ K $-automorphism of $ N $ and hence belongs to $ N_r $. This proves a).
+Let $\Omega$ be an algebraic closure of $K$ containing $N$ as subextension ($V$, p. 23, Th. 2). Every $K$-automorphism of $\Omega$ induces an automorphism of $N$ because $N$ is quasi-Galois. Therefore every element of $N_r$ is invariant under the group of $K$-automorphisms of $\Omega$, hence $p$-radical over $K$ ($V$, p. 53, Cor. 3). Conversely every element of $N$ which is $p$-radical over $K$ is clearly invariant under every $K$-automorphism of $N$ and hence belongs to $N_r$. This proves a).
 
-Every $ K $-automorphism of $ \Omega $ maps $ N $ into $ N $, hence $ N_r $ into $ N_r $, so $ N_r $ is a quasi-Galois extension of $ K $ ($ V $, p. 54, Prop. 3). It follows that $ N_s $ is a Galois extension of $ K $. Every element of $ N_r \cap N $, is separable algebraic and $ p $-radical over $ K $, hence belongs to $ K $ ($ V $, p. Cor. 3); we thus have $ K_r \cap K_s = K $. Now $ N $ is $ p $-radical over $ N_r $ ($ V $, p. 44, Prop. 13) and separable algebraic over $ N_r $ ($ V $, p. 56, Th. 1) hence both $ p $-radical and separable over $ K(N_r \cup N_s) $. Hence we have $ N = K(N_r \cup N_s) $ ($ V $, p. 39, Cor. 3) and the assertions b), c) follow from Th. 5 ($ V $, p. 71).
+Every $K$-automorphism of $\Omega$ maps $N$ into $N$, hence $N_r$ into $N_r$, so $N_r$ is a quasi-Galois extension of $K$ ($V$, p. 54, Prop. 3). It follows that $N_s$ is a Galois extension of $K$. Every element of $N_r \cap N$, is separable algebraic and $p$-radical over $K$, hence belongs to $K$ ($V$, p. Cor. 3); we thus have $K_r \cap K_s = K$. Now $N$ is $p$-radical over $N_r$ ($V$, p. 44, Prop. 13) and separable algebraic over $N_r$ ($V$, p. 56, Th. 1) hence both $p$-radical and separable over $K(N_r \cup N_s)$. Hence we have $N = K(N_r \cup N_s)$ ($V$, p. 39, Cor. 3) and the assertions b), c) follow from Th. 5 ($V$, p. 71).
 
 #### Corollary {#alg-v-s10-n11-cor-1 .statement}
 
-— Let $ p $ the characteristic exponent of $ K $, $ \overline{K} $ an algebraic closure of $ K $, $ K_s $, the relative separable closure of $ K $ in $ \overline{K} $ and $ K^{p^{-\infty}} $ the perfect closure of $ K $. Then the canonical homomorphism of $ K^{p^\infty} \otimes K_s $ into $ \overline{K} $ is an isomorphism.
+— Let $p$ the characteristic exponent of $K$, $\overline{K}$ an algebraic closure of $K$, $K_s$, the relative separable closure of $K$ in $\overline{K}$ and $K^{p^{-\infty}}$ the perfect closure of $K$. Then the canonical homomorphism of $K^{p^\infty} \otimes K_s$ into $\overline{K}$ is an isomorphism.
 
 #### Remark {#alg-v-s10-n11-rem-1 .statement}
 
-Let $ R $ (resp. $ S $) be a $ p $-radical (resp. separable algebraic) extension of $ K $. Then the algebra $ R \otimes_K S $ is a field : for $ R $ (resp. $ S $) is isomorphic to a subextension of $ K^{p^\infty} $ (resp. $ K_s $) and it suffices to apply the above Cor. and Prop. 1 of $ V $, p. 17.
+Let $R$ (resp. $S$) be a $p$-radical (resp. separable algebraic) extension of $K$. Then the algebra $R \otimes_K S$ is a field : for $R$ (resp. $S$) is isomorphic to a subextension of $K^{p^\infty}$ (resp. $K_s$) and it suffices to apply the above Cor. and Prop. 1 of $V$, p. 17.
 
 ### Exercises {#alg-v-s10-exercises}
 

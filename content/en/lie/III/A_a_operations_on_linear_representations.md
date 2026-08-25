@@ -12,7 +12,7 @@ pdf_pages: 0386-0387
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 65ebd44f66e7042e75d43165ca54596f112e90e693d40fd0095ebbe224bb774f
+content_sha256: f6541d0529455ab9bd95b3dca1a7a741c160bb7b7c0752780f7f4653bc77b3be
 ---
 
 ## APPENDIX
@@ -35,4 +35,4 @@ $$
 
 (n factors). The representations S(π), ∧(π) are quotient representations of T(π) and hence S^n(π), ∧^n(π) are quotient representations of T^n(π).
 
-Let g be a Lie algebra over k. The tensor product of a finite number of representations of g has already been defined in Chapter I, § 3, no. 2; it is denoted by π_1 ⊗ ... ⊗ π_n. Let E be a vector space over k and π a representation of g on E. For all x ∈ g, let τ'(x) (resp. σ'(x), ε'(x)) be the unique derivation of the algebra T(E) (resp. S(E), ∧(E)) which extends π(x) (Algebra, Chapter III, § 10, no. 9, Example 1). Then τ' (resp. σ', ε') is a linear representation of g on T(E) (resp. S(E), ∧(E)) by Algebra, loc. cit., formula (35), denoted by $ T(\pi) $ (resp. $ S(\pi) $, $ \Lambda(\pi) $). The subrepresentation of $ T(\pi) $ (resp. $ S(\pi) $, $ \Lambda(\pi) $) defined by $ T^n(E) $ (resp. $ S^n(E) $, $ \Lambda^n(E) $) is denoted by $ T^n(\pi) $ (resp. $ S^n(\pi) $, $ \Lambda^n(\pi) $). The representation $ T^n(\pi) $ is the tensor product on $ n $ representations identical with $ \pi $. The representations $ S(\pi) $, $ \Lambda(\pi) $ are quotient representations of $ T(\pi) $ and hence $ S^n(\pi) $, $ \Lambda^n(\pi) $ are quotient representations of $ T^n(\pi) $.
+Let g be a Lie algebra over k. The tensor product of a finite number of representations of g has already been defined in Chapter I, § 3, no. 2; it is denoted by π_1 ⊗ ... ⊗ π_n. Let E be a vector space over k and π a representation of g on E. For all x ∈ g, let τ'(x) (resp. σ'(x), ε'(x)) be the unique derivation of the algebra T(E) (resp. S(E), ∧(E)) which extends π(x) (Algebra, Chapter III, § 10, no. 9, Example 1). Then τ' (resp. σ', ε') is a linear representation of g on T(E) (resp. S(E), ∧(E)) by Algebra, loc. cit., formula (35), denoted by $T(\pi)$ (resp. $S(\pi)$, $\Lambda(\pi)$). The subrepresentation of $T(\pi)$ (resp. $S(\pi)$, $\Lambda(\pi)$) defined by $T^n(E)$ (resp. $S^n(E)$, $\Lambda^n(E)$) is denoted by $T^n(\pi)$ (resp. $S^n(\pi)$, $\Lambda^n(\pi)$). The representation $T^n(\pi)$ is the tensor product on $n$ representations identical with $\pi$. The representations $S(\pi)$, $\Lambda(\pi)$ are quotient representations of $T(\pi)$ and hence $S^n(\pi)$, $\Lambda^n(\pi)$ are quotient representations of $T^n(\pi)$.

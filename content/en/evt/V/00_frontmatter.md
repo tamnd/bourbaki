@@ -12,11 +12,11 @@ pdf_pages: 0259-0259
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 85485962a9b5c11d078ad8758eec7c6d7c4f98b565fe0d5c97e6b7b6da8cfcae
+content_sha256: bb551f97aad4f48a4eb48a374761d4a020e17786e1edc8d64ddf9285eda7f31b
 ---
 
 ## CHAPTER V
 
 # Hilbertian spaces¹ (elementary theory)
 
-Throughout this chapter, K denotes the field R or the field C. For every complex number $ \xi = \alpha + i\beta $ ($ \alpha, \beta $ real), $ \bar{\xi} $ denotes the conjugate $ \alpha - i\beta $ of $ \xi $; in particular, we have $ \bar{\xi} = \xi $ if and only if $ \xi $ is real.
+Throughout this chapter, K denotes the field R or the field C. For every complex number $\xi = \alpha + i\beta$ ($\alpha, \beta$ real), $\bar{\xi}$ denotes the conjugate $\alpha - i\beta$ of $\xi$; in particular, we have $\bar{\xi} = \xi$ if and only if $\xi$ is real.

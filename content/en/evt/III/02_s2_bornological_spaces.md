@@ -12,12 +12,12 @@ pdf_pages: 0143-0145, 0172-0173
 extraction: ocr
 statements: 6
 exercises: 4
-content_sha256: bb1d36cab9df89b385af8d7360027293742cb8fa7a2b0d897e890f98dbb2fbda
+content_sha256: c7e3321e3d8d4131883d603d9cf106f5a8ed1c2ce5cc0f579b8d581a2cc5aace
 ---
 
 ## § 2. BORNOLOGICAL SPACES
 
-In this paragraph, E denotes a locally convex space, and $ \mathcal{B} $ its canonical bornology (III, p. 3, def. 5).
+In this paragraph, E denotes a locally convex space, and $\mathcal{B}$ its canonical bornology (III, p. 3, def. 5).
 
 #### Lemma 1 {#evt-iii-s2-lem-1 .statement}
 
@@ -25,16 +25,16 @@ In this paragraph, E denotes a locally convex space, and $ \mathcal{B} $ its can
 
 (i) *u is continuous* ;
 (ii) *the image of the unit ball of G under u is bounded in E* ;
-(iii) *for every sequence $ (x_n) $ of points of G tending to 0, the sequence $ (u(x_n)) $ is bounded in E*.
+(iii) *for every sequence $(x_n)$ of points of G tending to 0, the sequence $(u(x_n))$ is bounded in E*.
 
-It is immediate that (i) implies (ii) (III, p. 4, cor. 1) and that (ii) implies (iii). Let V be a neighbourhood of 0 in E ; if $ u^{-1}(V) $ is not a neighbourhood of 0 in G, then there exists a sequence $ (y_n) $ of points of $ G - u^{-1}(V) $ such that $ p(y_n) \leq \frac{1}{n^2} $. Hence the sequence $ x_n = n y_n $ tends to 0 in G and $ u(x_n) \notin nV $, which implies that the sequence $ (u(x_n)) $ is not bounded. Therefore (iii) implies (i).
+It is immediate that (i) implies (ii) (III, p. 4, cor. 1) and that (ii) implies (iii). Let V be a neighbourhood of 0 in E ; if $u^{-1}(V)$ is not a neighbourhood of 0 in G, then there exists a sequence $(y_n)$ of points of $G - u^{-1}(V)$ such that $p(y_n) \leq \frac{1}{n^2}$. Hence the sequence $x_n = n y_n$ tends to 0 in G and $u(x_n) \notin nV$, which implies that the sequence $(u(x_n))$ is not bounded. Therefore (iii) implies (i).
 
 *Proposition 1.* — *The following conditions are equivalent* :
 (i) *Every semi-norm on E which is bounded on bounded subsets of E is continuous*.
 (i') *Every convex balanced subset of E which absorbs the bounded subsets of E* (I, p. 7, def. 4) *is a neighbourhood of 0 in E*.
-(ii) *E is the inductive limit of the semi-normed spaces $ E_A $, where A ranges over the directed increasing set of closed, convex, balanced and bounded subsets of E*.
-(ii') *There exists a family $ (E_i)_{i \in I} $ of semi-normed spaces, and for every $ i \in I $, a linear mapping $ u_i : E_i \to E $ such that the topology of E is the finest locally convex topology for which the $ u_i $ are continuous*.
-(iii) *For an arbitrary locally convex space F, a linear mapping $ u : E \to F $ is continuous if and only if for every sequence $ (x_n) $ of points in E tending to 0, the sequence $ (u(x_n)) $ is bounded in F*.
+(ii) *E is the inductive limit of the semi-normed spaces $E_A$, where A ranges over the directed increasing set of closed, convex, balanced and bounded subsets of E*.
+(ii') *There exists a family $(E_i)_{i \in I}$ of semi-normed spaces, and for every $i \in I$, a linear mapping $u_i : E_i \to E$ such that the topology of E is the finest locally convex topology for which the $u_i$ are continuous*.
+(iii) *For an arbitrary locally convex space F, a linear mapping $u : E \to F$ is continuous if and only if for every sequence $(x_n)$ of points in E tending to 0, the sequence $(u(x_n))$ is bounded in F*.
 
 (iii') *For an arbitrary semi-normed space F, a linear mapping u : E → F is continuous if and only if u(X) is bounded in F for every bounded set X in E.*
 

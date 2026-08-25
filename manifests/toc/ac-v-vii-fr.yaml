@@ -296,7 +296,7 @@ chapters:
               page: 136
               pdf_page: 136
             - "no": 3
-              title: La relation $ \sum e_i f_i \leq n $
+              title: La relation $\sum e_i f_i \leq n$
               page: 138
               pdf_page: 138
             - "no": 4
@@ -304,7 +304,7 @@ chapters:
               page: 141
               pdf_page: 141
             - "no": 5
-              title: La relation $ \sum e_i f_i = n $
+              title: La relation $\sum e_i f_i = n$
               page: 142
               pdf_page: 142
             - "no": 6
