@@ -575,7 +575,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native+ocr
-              content_sha256: 149c283a2de4a488478ad2fe206ea8f88f93697b456cc89f527c9ea0758c4d16
+              content_sha256: d982aaf523b269b44f69cd491d7be5c7536f9d0e2bf050fd031f7f3a9758e911
             - kind: section
               section: 17
               title: Normes et traces réduites

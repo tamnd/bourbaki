@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: 149c283a2de4a488478ad2fe206ea8f88f93697b456cc89f527c9ea0758c4d16
+content_sha256: d982aaf523b269b44f69cd491d7be5c7536f9d0e2bf050fd031f7f3a9758e911
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -724,7 +724,7 @@ $$
 
 est commutatif.
 
-Soit H un sous-groupe d’indice fini de G. Soit s une section de la surjection canonique de G dans H\G. On note (g, x) ↦ x.g l’action à droite de G sur H\G induite par l’action à droite de G sur lui-même par multiplication. Notons que pour tout x ∈ H\G et tout g ∈ G, l’élément s(x)gs(x.g)−1 appartient à H. Pour toute application c : H × H → F, on définit donc une application $\tilde{c}_s : G \times G \to F$ par la relation
+Soit H un sous-groupe d’indice fini de G. Soit s une section de la surjection canonique de G dans $H\backslash G$. On note (g, x) ↦ x.g l’action à droite de G sur $H\backslash G$ induite par l’action à droite de G sur lui-même par multiplication. Notons que pour tout x ∈ $H\backslash G$ et tout g ∈ G, l’élément s(x)gs(x.g)−1 appartient à H. Pour toute application c : H × H → F, on définit donc une application $\tilde{c}_s : G \times G \to F$ par la relation
 
 $$
 \tilde{c}_s(g_1, g_2) = \prod_{x \in H\setminus G}^{s(x)^{-1}} c\left(s(x)g_1 s(x.g_1)^{-1}, s(x.g_1)g_2 s(x.g_1g_2)^{-1}\right)

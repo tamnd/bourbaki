@@ -494,19 +494,19 @@ chapters:
           pdf_page: 302
           subsections:
             - "no": 1
-              title: τ -Extensions of Groups
+              title: $\tau$-Extensions of Groups
               page: 285
               pdf_page: 302
             - "no": 2
-              title: Inverse Image of a τ -Extension
+              title: Inverse Image of a $\tau$-Extension
               page: 287
               pdf_page: 304
             - "no": 3
-              title: Direct Image of a τ -Extension
+              title: Direct Image of a $\tau$-Extension
               page: 289
               pdf_page: 306
             - "no": 4
-              title: Group Law on the Classes of τ -Extensions
+              title: Group Law on the Classes of $\tau$-Extensions
               page: 293
               pdf_page: 310
             - "no": 5
