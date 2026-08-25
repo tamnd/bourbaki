@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 6
-content_sha256: 4bfeeee4e5c1a6ce99f5c929d436d1d7c6606ff2f9558da7d47b0ffdba15c626
+content_sha256: 2ea5079734abfef9e78b1a3ac436ae9cdec39173e81795c1df445327c08ad47c
 ---
 
 ## § 1. PREHILBERTIAN SPACES AND HILBERTIAN SPACES
@@ -627,10 +627,10 @@ Fig. 3.
 
 The mapping $x \mapsto x^*$ is semi-linear by (2) (V, p. 1) and by virtue of the Cauchy-Schwarz inequality, we have $\|x^*\| = \sup_{\|y\| \leq 1} |\langle x | y \rangle| = \|x\|$, hence $x \mapsto x^*$ is an isometry from $E$ into $E'$, and in particular, is injective. To complete the proof, we need to prove that for all $x' \neq 0$ in $E'$, there exists $x \in E$ such that $x' = x^*$. But the hyperplane $H = \mathrm{Ker}\, x'$ is closed in $E$; its orthogonal is a line $D$. Let $b$ be a non-zero element of $D$; the kernel of the linear form $b^*$ is equal to $H$ and hence there exists a scalar $\lambda \neq 0$ such that $x' = \lambda \cdot b^* = (\overline{\lambda} \cdot b)^*$. Q.E.D.
 
-The mapping $x \mapsto x^*$ from $E$ onto its dual $E'$ is said to be *canonical*. The inverse mapping from $E'$ onto $E$ is also called canonical and is denoted by $x' \mapsto x'^*$. We have
+The mapping $x \mapsto x^*$ from $E$ onto its dual $E'$ is said to be *canonical*. The inverse mapping from $E'$ onto $E$ is also called canonical and is denoted by $x' \mapsto {x'}^*$. We have
 
 $$
-\langle x | y \rangle = \langle y, x^* \rangle, \quad \langle x, x' \rangle = \langle x'^* | x \rangle
+\langle x | y \rangle = \langle y, x^* \rangle, \quad \langle x, x' \rangle = \langle {x'}^* | x \rangle
 $$
 
 for $x, y$ in $E$ and $x'$ in $E'$. Also $(x^*)^* = x$ for $x \in E$.

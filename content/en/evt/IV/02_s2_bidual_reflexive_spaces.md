@@ -33,7 +33,7 @@ subsections:
       pdf_page: 200
 statements: 30
 exercises: 24
-content_sha256: 1bcf3caafc58ec90d56a40681f0c3c58d0a4f30156a072214d1e13369e5abf8f
+content_sha256: 100347bb76aeb1a74d77db710e313c800f25ad6922ba64027dad8c5885bc1738
 ---
 
 ## § 2. BIDUAL. REFLEXIVE SPACES
@@ -74,7 +74,7 @@ The equicontinuous subsets of $E''$ are the subsets contained in the bipolar (fo
 
 #### Remark {#evt-iv-s2-n1-rem-1 .statement}
 
-Let $E$ be a locally convex Hausdorff space, $E'$ its dual and $E''$ its bidual. We have $E \subset E'' \subset E'^*$, where $E'^*$ is the algebraic dual of $E'$. If $B$ is a bounded subset of $E$, its closure $\overline{B}$ in $E'^*$ endowed with $\sigma(E'^*, E')$ is contained in $E''$: for, the polar $U = B^\circ$ of $B$ in $E'$ is a neighbourhood of 0 in $E'_b$, and we have $\overline{B} \subset U^\circ \subset E''$.
+Let $E$ be a locally convex Hausdorff space, $E'$ its dual and $E''$ its bidual. We have $E \subset E'' \subset {E'}^*$, where ${E'}^*$ is the algebraic dual of $E'$. If $B$ is a bounded subset of $E$, its closure $\overline{B}$ in ${E'}^*$ endowed with $\sigma({E'}^*, E')$ is contained in $E''$: for, the polar $U = B^\circ$ of $B$ in $E'$ is a neighbourhood of 0 in $E'_b$, and we have $\overline{B} \subset U^\circ \subset E''$.
 
 ### 2. Semi-reflexive spaces
 
@@ -199,8 +199,8 @@ $$
 
 for all $\mathbf{x} \in c_0(\mathbf{N})$ and $\mathbf{x}' \in \ell^1(\mathbf{N})$. Similarly the dual of $\ell^1(\mathbf{N})$ can be identified with $\ell^\infty(\mathbf{N})$ in such a way that we have the relation (5) for all $\mathbf{x} \in \ell^1(\mathbf{N})$ and all $\mathbf{x}' \in \ell^\infty(\mathbf{N})$. Hence $\ell^\infty(\mathbf{N})$ is the bidual of $c_0(\mathbf{N})$, and this latter space is not reflexive.
 
-* 2) Every hilbertian space is a reflexive Banach space (V, p. 17).
-* 3) Let X be a Hausdorff topological space and $\mu$ a complex measure on X. For every real number $p > 1$, the Banach space $L^p(X, \mu)$ is reflexive, and its dual can be identified with $L^q(X, \mu)$ with $p^{-1} + q^{-1} = 1$ (INT, V, 2nd edition, § 5, No. 8 and IX, § 1, No. 10).
+\* 2) Every hilbertian space is a reflexive Banach space (V, p. 17).
+\* 3) Let X be a Hausdorff topological space and $\mu$ a complex measure on X. For every real number $p > 1$, the Banach space $L^p(X, \mu)$ is reflexive, and its dual can be identified with $L^q(X, \mu)$ with $p^{-1} + q^{-1} = 1$ (INT, V, 2nd edition, § 5, No. 8 and IX, § 1, No. 10).
 
 ### 5. Montel spaces
 
@@ -214,7 +214,7 @@ Every finite dimensional Hausdorff space is a Montel space. A normed space which
 
 #### Example 2 {#evt-iv-s2-n5-exa-2 .statement}
 
-With the notations and hypothesis of prop. 7 of III, p. 6, the space E, being the inductive limit of Banach spaces, is barrelled (III, p. 25); moreover, every bounded subset of E is relatively compact (III, p. 6, prop. 7). In other words, E is a Montel space. In particular, Gevrey spaces (III, p. 10) are Montel spaces. * This is true for the space $\mathcal{H}(K)$ consisting of germs of functions analytic in a neighbourhood of a compact subset K of $\mathbf{C}^n$ (III, p. 10).*
+With the notations and hypothesis of prop. 7 of III, p. 6, the space E, being the inductive limit of Banach spaces, is barrelled (III, p. 25); moreover, every bounded subset of E is relatively compact (III, p. 6, prop. 7). In other words, E is a Montel space. In particular, Gevrey spaces (III, p. 10) are Montel spaces. \* This is true for the space $\mathcal{H}(K)$ consisting of germs of functions analytic in a neighbourhood of a compact subset K of $\mathbf{C}^n$ (III, p. 10).*
 
 #### Example 3 {#evt-iv-s2-n5-exa-3 .statement}
 
@@ -224,7 +224,7 @@ Every strict inductive limit E of a sequence $(E_n)$ of Montel spaces (II, p. 33
 
 Let U be an open set in $\mathbf{R}^n$ and let $\mathcal{C}^\infty(U)$ be the Fréchet space of infinitely differentiable functions on U (III, p. 9). We shall prove that this is a Montel space. Since $\mathcal{C}^\infty(U)$ is a Fréchet space, it is barrelled (III, p. 25, corollary). Let B be a bounded subset of $\mathcal{C}^\infty(U)$ and let K be a compact subset of U. For every $\alpha \in \mathbf{N}^n$ let $H_{\alpha, K}$ be the set of restrictions to K of the functions $\partial^\alpha f$, as $f$ runs through B. Let $\alpha \in \mathbf{N}^n$; for every $\beta \in \mathbf{N}^n$ such that $|\beta| = |\alpha| + 1$, the set $H_{\alpha, K}$ is bounded in $\mathcal{C}(K)$ since B is bounded in $\mathcal{C}^\infty(U)$; by VAR, R., No. 2.2.3, the set $H_{\alpha, K}$ is equicontinuous, hence (GT, X, § 2, No. 5) relatively compact in $\mathcal{C}(K)$. But the topology of $\mathcal{C}^\infty(U)$ is the coarsest among the topologies for which all the maps $f \mapsto \partial^\alpha f|K$ from $\mathcal{C}^\infty(U)$ into $\mathcal{C}(K)$ are continuous, therefore B is relatively compact in $\mathcal{C}^\infty(U)$ (GT, I, § 4, No. 1, prop. 3 and § 9, No. 5, corollary).
 
-Similarly, *the space $\mathcal{C}_0^\infty(U)$ of all infinitely differentiable functions with compact support in U* (III, p. 9) *is a Montel space*. For, $\mathcal{C}_0^\infty(U)$ is the strict inductive limit of a sequence $\mathcal{C}_{H_n}^\infty(U)$ of Fréchet spaces (III, p. 9), and it is enough to see that each of the spaces $\mathcal{C}_{H_n}^\infty(U)$ is a Montel space (*Example 3*). But a bounded and closed subset of $\mathcal{C}_0^\infty(U)$ is closed and bounded in $\mathcal{C}^\infty(U)$, hence compact in $\mathcal{C}^\infty(U)$, and consequently in $\mathcal{C}_{H_n}^\infty(U)$. *
+Similarly, *the space $\mathcal{C}_0^\infty(U)$ of all infinitely differentiable functions with compact support in U* (III, p. 9) *is a Montel space*. For, $\mathcal{C}_0^\infty(U)$ is the strict inductive limit of a sequence $\mathcal{C}_{H_n}^\infty(U)$ of Fréchet spaces (III, p. 9), and it is enough to see that each of the spaces $\mathcal{C}_{H_n}^\infty(U)$ is a Montel space (*Example 3*). But a bounded and closed subset of $\mathcal{C}_0^\infty(U)$ is closed and bounded in $\mathcal{C}^\infty(U)$, hence compact in $\mathcal{C}^\infty(U)$, and consequently in $\mathcal{C}_{H_n}^\infty(U)$. \*
 
 #### Proposition 8 {#evt-iv-s2-prop-8 .statement}
 

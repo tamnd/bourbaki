@@ -61,7 +61,7 @@ subsections:
       pdf_page: 193
 statements: 77
 exercises: 30
-content_sha256: ac63aed2b54c45da80a6a7391c35081e0eca5ba95e76493e05f2691591569c40
+content_sha256: b315905b6070e219d92537242dbaa4592ee9388b21a0536d0b7ae9ae05386b65
 ---
 
 ## § 5. MEASURABLE FUNCTIONS AND SETS
@@ -618,7 +618,7 @@ c) There exist a homeomorphism $j$ of $F$ onto a subspace of a topological space
 
 d) Every extension of $f$ to a mapping of $X$ into $F$, constant on $X - A$, is $\mu$-measurable.
 
-It is clear that $a)$ implies $b)$ and that $d)$ implies $c)$. The fact that $c)$ implies $a)$ follows from condition $c)$ of Prop. 12 of No. 8. On the other hand, $b)$ implies $a)$: for, Def. 1 shows that, for each $K \in \mathcal{K}$, the set of subsets $H \in \mathcal{H}$ contained in $K$ is $\mu_K$-dense in $K$ (No. 8, Prop. 12, $c$) ), and Prop. 13 of No. 8 shows that $\mathcal{H}$ is $\mu$-dense in $A$. It remains to see that $a)$ implies $d)$. Let $g$ be an extension of $f$ to $X$, constant on $X - A$. For every compact subset $L$ of $X$, $L \cap A$ and $L \cap (X - A)$ are $\mu$-integrable; therefore, for every $\varepsilon > 0$, there exist a compact subset $P \subset L \cap A$ and a compact subset $Q \subset L \cap (X - A)$ such that
+It is clear that $a)$ implies $b)$ and that $d)$ implies $c)$. The fact that $c)$ implies $a)$ follows from condition $c)$ of Prop. 12 of No. 8. On the other hand, $b)$ implies $a)$: for, Def. 1 shows that, for each $K \in \mathcal{K}$, the set of subsets $H \in \mathcal{H}$ contained in $K$ is $\mu_K$-dense in $K$ (No. 8, Prop. 12, $c$)), and Prop. 13 of No. 8 shows that $\mathcal{H}$ is $\mu$-dense in $A$. It remains to see that $a)$ implies $d)$. Let $g$ be an extension of $f$ to $X$, constant on $X - A$. For every compact subset $L$ of $X$, $L \cap A$ and $L \cap (X - A)$ are $\mu$-integrable; therefore, for every $\varepsilon > 0$, there exist a compact subset $P \subset L \cap A$ and a compact subset $Q \subset L \cap (X - A)$ such that
 
 $$
 |\mu|((L \cap A) - P) \leq \varepsilon/4 \quad \text{and} \quad |\mu|\left((L \cap (X - A)) - Q\right) \leq \varepsilon/4.

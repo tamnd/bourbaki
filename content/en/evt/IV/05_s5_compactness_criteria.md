@@ -33,7 +33,7 @@ subsections:
       pdf_page: 219
 statements: 8
 exercises: 18
-content_sha256: 74acd4eb366456136b6614676effa587ce4c4fa1a461711a3f53b2c158904c50
+content_sha256: 085907c281af7d744d2befbb56e8c8769664852f8594f22c451a42a9eddf61e0
 ---
 
 ## § 5. COMPACTNESS CRITERIA
@@ -129,13 +129,13 @@ The condition stated is obviously necessary.
 
 Suppose now that every infinite sequence of points of A has a limit point for $\mathcal{T}$, hence also for the coarser topology $\sigma(E, E')$. Then A is precompact for $\mathcal{T}$ (IV, p. 32, prop. 1); in order that A be relatively compact for $\mathcal{T}$, it is necessary and sufficient that it be so for $\sigma(E, E')$ (*loc. cit.*). Therefore it is enough to prove the theorem when $\mathcal{T}$ is the weakened topology $\sigma(E, E')$.
 
-Let $\hat{E}$ denote the completion of E, which we shall identify as usual with a subspace of the algebraic dual ${E'}^*$ of E' (III, p. 21, th. 2). Let $E_\sigma$, $\hat{E}_\sigma$ and $E_{\sigma'}^*$ denote the spaces E, $\hat{E}$ and ${E'}^*$ endowed with the topologies $\sigma(E, E')$, $\sigma(\hat{E}, E')$ and $\sigma({E'}^*, E')$ respectively.
+Let $\hat{E}$ denote the completion of E, which we shall identify as usual with a subspace of the algebraic dual ${E'}^*$ of E' (III, p. 21, th. 2). Let $E_\sigma$, $\hat{E}_\sigma$ and ${E_\sigma'}^*$ denote the spaces E, $\hat{E}$ and ${E'}^*$ endowed with the topologies $\sigma(E, E')$, $\sigma(\hat{E}, E')$ and $\sigma({E'}^*, E')$ respectively.
 
-Let $(x'_i)_{i \in I}$ be a basis of the vector space E' over the field K. The mapping $f \mapsto (f(x'_i))_{i \in I}$ is a homeomorphism $\phi$ from $E_{\sigma'}^*$ onto $K^I$; for every $i \in I$, the image of A under the mapping $x'_i$ from E into K is relatively compact : for, K is metrizable and every infinite sequence of elements of $x'_i(A)$ has a limit point. It follows that $\phi(A)$ is relatively compact in $K^I$, hence that the closure $\overline{A}$ of A in $E_{\sigma'}^*$ is compact.
+Let $(x'_i)_{i \in I}$ be a basis of the vector space E' over the field K. The mapping $f \mapsto (f(x'_i))_{i \in I}$ is a homeomorphism $\phi$ from ${E_\sigma'}^*$ onto $K^I$; for every $i \in I$, the image of A under the mapping $x'_i$ from E into K is relatively compact : for, K is metrizable and every infinite sequence of elements of $x'_i(A)$ has a limit point. It follows that $\phi(A)$ is relatively compact in $K^I$, hence that the closure $\overline{A}$ of A in ${E_\sigma'}^*$ is compact.
 
 *Next we shall prove that $\overline{A}$ is contained in $\hat{E}$.* Let H be an equicontinuous subset of E'; let X be its closure for $\sigma(E', E)$; X is compact (III, p. 17, cor. 2). For every $x \in {E'}^*$, let $\phi_x$ be the restriction of $x' \mapsto \langle x, x' \rangle$ to X; let $\tilde{A} \subset \mathscr{C}_s(X)$ be the set of functions $\phi_x$ as x ranges over A. In view of the hypothesis on A, every infinite sequence of elements of $\tilde{A}$ has a limit point in $\mathscr{C}_s(X)$; by prop. 2 (IV, p. 33), the set $\tilde{A}$ is therefore relatively compact in $\mathscr{C}_s(X)$. *It follows that for every $a \in \overline{A}$, the function $\phi_a$ on X is continuous.* The inclusion $\overline{A} \subset \hat{E}$ then follows from th. 2 of III, p. 21.
 
-*Now we shall show that $\overline{A}$ is contained in E.* Since A is precompact in $E_\sigma$ (IV, p. 32, prop. 1), it is bounded in $E_\sigma$ (III, p. 3, prop. 2), hence also in E (IV, p. 1, prop. 1). Let C be the closed convex balanced envelope of A in E. Then C is bounded since A is bounded, hence complete since E is quasi-complete. In other words, C is a convex and closed subset of $\hat{E}$, so also of $\hat{E}_\sigma$ (IV, p. 1, prop. 1). Since $A \subset C$ and the topology of $\hat{E}_\sigma$ is induced by that of $E_{\sigma'}^*$, we have $\overline{A} \subset C$, and hence $\overline{A} \subset E$.
+*Now we shall show that $\overline{A}$ is contained in E.* Since A is precompact in $E_\sigma$ (IV, p. 32, prop. 1), it is bounded in $E_\sigma$ (III, p. 3, prop. 2), hence also in E (IV, p. 1, prop. 1). Let C be the closed convex balanced envelope of A in E. Then C is bounded since A is bounded, hence complete since E is quasi-complete. In other words, C is a convex and closed subset of $\hat{E}$, so also of $\hat{E}_\sigma$ (IV, p. 1, prop. 1). Since $A \subset C$ and the topology of $\hat{E}_\sigma$ is induced by that of ${E_\sigma'}^*$, we have $\overline{A} \subset C$, and hence $\overline{A} \subset E$.
 
 Since the topology of $E_\sigma$ is induced by that of ${E'_\sigma}^*$, the subset $\overline{A}$ of $E_\sigma$ is compact, and th. 1 follows.
 
@@ -157,7 +157,7 @@ Since the topology of precompact convergence on $F'$ is finer than the topology 
 
 Šmulian’s theorem can be extended to the case where E is the strict inductive limit of a sequence of Fréchet spaces (IV, p. 67, exerc. 2).
 
-### *4. The case of spaces of bounded continuous functions*
+### \*4. The case of spaces of bounded continuous functions*
 
 For every topological space X, let $\mathscr{C}^b(X)$ denote the Banach space of all continuous and *bounded* mappings from X into K, with the norm defined by
 
@@ -191,9 +191,9 @@ $$
 $$
 exist, then $\gamma = \delta$.
 
-Let X be the Stone-Čech compactification of S (GT, IX, § 1, No. 6) and $\alpha$ the canonical mapping from S into X. Put D = $\alpha(S)$. The mapping $\phi : f \mapsto f \circ \alpha$ is an isomorphism from the normed space $C(X)$ onto the normed space $C^b(S)$; put $\tilde{A} = \phi^{-1}(A)$. Since X is compact and D is dense in X, the prop. 2 (IV, p. 33) shows that condition (ii) is equivalent to the compactness of $\tilde{A}$ for the topology of simple convergence. The equivalence of (i) and (ii) then follows from prop. 3. *
+Let X be the Stone-Čech compactification of S (GT, IX, § 1, No. 6) and $\alpha$ the canonical mapping from S into X. Put D = $\alpha(S)$. The mapping $\phi : f \mapsto f \circ \alpha$ is an isomorphism from the normed space $C(X)$ onto the normed space $C^b(S)$; put $\tilde{A} = \phi^{-1}(A)$. Since X is compact and D is dense in X, the prop. 2 (IV, p. 33) shows that condition (ii) is equivalent to the compactness of $\tilde{A}$ for the topology of simple convergence. The equivalence of (i) and (ii) then follows from prop. 3. \*
 
-### *5. Convex envelope of a weakly compact set
+### \*5. Convex envelope of a weakly compact set
 
 #### Theorem 3 (Krein) {#evt-iv-s5-thm-3 .statement}
 

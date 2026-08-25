@@ -28,7 +28,7 @@ subsections:
       pdf_page: 89
 statements: 17
 exercises: 9
-content_sha256: 576ca3920ee142ee492d4dd42de2bc6589aadd4c92d9945ece4f837bb825da78
+content_sha256: 2f5638b81ea72515590804b23e69c16fef1eb9668cb5ae69dec7e110d2a72b4b
 ---
 
 ## § 1. Anneaux de valuation.
@@ -115,7 +115,7 @@ Les notations étant celles du th. 1, on dit que $V$ est un anneau de valuation 
 
 #### Théorème 2 {#ac-vi-s1-thm-2 .statement}
 
-Soient $K$ un corps, et $h$ un homomorphisme d’un sous-anneau $A$ de $K$ dans un corps algébriquement clos $L$. Il existe alors un anneau de valuation $V$ pour $K$ et un homomorphisme $h'$ de $V$ dans $L$ tels que $V$ contienne $A$, que $h'$ prolonge $h$ et que $h'^{-1}(0) = m(V)$.
+Soient $K$ un corps, et $h$ un homomorphisme d’un sous-anneau $A$ de $K$ dans un corps algébriquement clos $L$. Il existe alors un anneau de valuation $V$ pour $K$ et un homomorphisme $h'$ de $V$ dans $L$ tels que $V$ contienne $A$, que $h'$ prolonge $h$ et que ${h'}^{-1}(0) = m(V)$.
 
 Soit $\mathcal{H}$ l’ensemble des homomorphismes de sous-anneaux de $K$ dans $L$, ordonné par la relation de prolongement. Cet ensemble est inductif; en effet, si $(h_\alpha)_{\alpha \in I}$ est une famille totalement ordonnée
 

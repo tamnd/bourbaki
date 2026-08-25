@@ -36,7 +36,7 @@ subsections:
       pdf_page: 265
 statements: 33
 exercises: 23
-content_sha256: d78632498d4d80f12d9feb1356772e82d6869a2b675a46084def6cb76666fe11
+content_sha256: 8ceb9ca7218904bcd6f10f78f6ff63078be7ec440c7dff23cea107f182346ea6
 ---
 
 ## 4. GROUPS OPERATING PROPERLY ON A TOPOLOGICAL SPACE; COMPACTNESS IN TOPOLOGICAL GROUPS AND SPACES WITH OPERATORS
@@ -188,7 +188,7 @@ converge with respect to $U$ to $y_0$ and $x_0$ respectively. It follows that $(
 
 Let $G$ be a group and let $H$ be a subgroup of $G$. Then $H$ operates freely by (left or right) translations on $G$.
 
-Let $G$ be a group operating freely on a set $X$, let $R$ be the equivalence relation defined by $G$ on $X$, and let $C \subset X \times X$ be the graph of $R$. If $(x, y) \in C$, then there exists $s \in G$ such that $s.x = y$; and $s$ is *unique*, since $s.x = s'.x$ implies $s'^{-1}s.x = x$, and therefore $s'^{-1}s = e$ (as $G$ operates freely). If we make correspond to $(x, y) \in C$ the unique $s \in G$ such that $s.x = y$, we define a mapping $\varphi : C \to G$, which we shall call the canonical mapping of $C$ into $G$. With this notation:
+Let $G$ be a group operating freely on a set $X$, let $R$ be the equivalence relation defined by $G$ on $X$, and let $C \subset X \times X$ be the graph of $R$. If $(x, y) \in C$, then there exists $s \in G$ such that $s.x = y$; and $s$ is *unique*, since $s.x = s'.x$ implies ${s'}^{-1}s.x = x$, and therefore ${s'}^{-1}s = e$ (as $G$ operates freely). If we make correspond to $(x, y) \in C$ the unique $s \in G$ such that $s.x = y$, we define a mapping $\varphi : C \to G$, which we shall call the canonical mapping of $C$ into $G$. With this notation:
 
 #### Proposition 6 {#top-iii-s4-prop-6 .statement}
 

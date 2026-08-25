@@ -45,7 +45,7 @@ subsections:
       pdf_page: 154
 statements: 39
 exercises: 13
-content_sha256: 2df6502483fad0472eec6e3c0ef5fe1aab0cc643f0dfa450d651770284301fee
+content_sha256: 750a5a19a2ae810cd3cd4031a0b492c998c5910a610b3aba284ab9536a63d37e
 ---
 
 ## § 3. SPACES OF CONTINUOUS LINEAR MAPPINGS
@@ -344,7 +344,7 @@ The space $E$ can be identified with the topological dual of $E'$ when $E'$ is a
 
 *Let $(E_i)_{i \in I}$ be a family of Hausdorff locally convex spaces and let $E$ be their topological direct sum. Then the canonical mapping from the direct sum of the $\hat{E}_i$ into $\hat{E}$ is an isomorphism. In particular, $E$ is complete if and only if all the $E_i$ are complete.*
 
-We know that the dual of $E$ can be identified with the product of the duals of the $E_i$ (II, p. 30, formula (1)). Let $u \in \hat{E}$, and let $u_i \in E_{i'}^*$ be the restriction of $u$ (considered as an element of ${E'}^*$) to $E_i' \subset E'$. It is immediate that it is enough to prove that $u_i = 0$ except for a finite number of indices $i \in I$. Suppose on the contrary that there exists a sequence $(i_n)_{n \in \mathbf{N}}$ of distinct indices such that $u_{i_n} \neq 0$. Then there exists $x_{i_n} \in E_{i_n}'$ such that $u_{i_n}(x_{i_n}) = n$. The set $H$ of all $x_{i_n}$ is equicontinuous in $E'$ and the restriction of $u$ to $H$ is not bounded, which is impossible.
+We know that the dual of $E$ can be identified with the product of the duals of the $E_i$ (II, p. 30, formula (1)). Let $u \in \hat{E}$, and let $u_i \in {E_i'}^*$ be the restriction of $u$ (considered as an element of ${E'}^*$) to $E_i' \subset E'$. It is immediate that it is enough to prove that $u_i = 0$ except for a finite number of indices $i \in I$. Suppose on the contrary that there exists a sequence $(i_n)_{n \in \mathbf{N}}$ of distinct indices such that $u_{i_n} \neq 0$. Then there exists $x_{i_n} \in E_{i_n}'$ such that $u_{i_n}(x_{i_n}) = n$. The set $H$ of all $x_{i_n}$ is equicontinuous in $E'$ and the restriction of $u$ to $H$ is not bounded, which is impossible.
 
 ### 7. $\mathcal{S}$-bornologies on $\mathcal{L}(E; F)$
 

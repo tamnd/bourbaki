@@ -12,7 +12,7 @@ pdf_pages: 0463-0487
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a61dd7fbcb476f00fb6d81a26a881a41b05dfcc0d871802f96c71dcd87d8ca48
+content_sha256: 2ada0a0190353d48d55d0b0828f8365aaac5df51d5b36e54e7bcfa9551ef8f06
 ---
 
 # HISTORICAL NOTE
@@ -132,7 +132,7 @@ $\iint^* f(t, t') d\mu(t) d\mu'(t'), \iint^\bullet f(t, t') d\mu(t) d\mu'(t'), \
 
 Chapter VI:
 
-F', F'', F'^*, F_\sigma (F a Hausdorff locally convex space) : VI, Introduction.
+F', F'', {F'}^*, F_\sigma (F a Hausdorff locally convex space) : VI, Introduction.
 \mathcal{K}(T), \mathcal{K}_R(T), \mathcal{K}_C(T), \mathcal{K}(T,A), \mathcal{K}_C(T,A) : VI, Introduction.
 \langle f, z' \rangle, \langle z', f \rangle : VI, 1.
 \int f d\mu, \int f(t) d\mu(t) (f a vector-valued function, \mu a positive measure) :

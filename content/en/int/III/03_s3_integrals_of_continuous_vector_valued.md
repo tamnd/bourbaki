@@ -29,14 +29,14 @@ subsections:
       pdf_page: 84
 statements: 17
 exercises: 4
-content_sha256: 694bb27c1f0bb4e649a384a1584deea45a16f506f26743ade2c816d2d50604fe
+content_sha256: d6155135b1817c322a8dffb224f77b5d802251e42fc17778ac5f4c2e80f82a83
 ---
 
 ## § 3. INTEGRALS OF CONTINUOUS VECTOR-VALUED FUNCTIONS
 
-*Throughout this section, X denotes a locally compact space, E a locally convex space over $\mathbf{R}$ or $\mathbf{C}$. We denote by $E'$ the dual of E (the space of continuous linear forms on E) and by $E'^*$ the algebraic dual of $E'$ (the space of all linear forms on $E'$); for $z \in E$, $z' \in E'$, $z'^* \in E'^*$, we write $\langle z, z' \rangle = z'(z)$, $\langle z'^*, z' \rangle = z'^*(z')$.
+*Throughout this section, X denotes a locally compact space, E a locally convex space over $\mathbf{R}$ or $\mathbf{C}$. We denote by $E'$ the dual of E (the space of continuous linear forms on E) and by ${E'}^*$ the algebraic dual of $E'$ (the space of all linear forms on $E'$); for $z \in E$, $z' \in E'$, ${z'}^* \in {E'}^*$, we write $\langle z, z' \rangle = z'(z)$, $\langle {z'}^*, z' \rangle = {z'}^*(z')$.
 
-Recall that if E is Hausdorff, then E may be identified with a linear subspace of $E'^*$ by identifying an element $z \in E$ with the linear form $z' \mapsto \langle z, z' \rangle$ on $E'$, and that $E'^*$, equipped with the weak topology $\sigma(E'^*, E')$, may be canonically identified with the completion of E equipped with the weakened topology $\sigma(E, E')$.
+Recall that if E is Hausdorff, then E may be identified with a linear subspace of ${E'}^*$ by identifying an element $z \in E$ with the linear form $z' \mapsto \langle z, z' \rangle$ on $E'$, and that ${E'}^*$, equipped with the weak topology $\sigma({E'}^*, E')$, may be canonically identified with the completion of E equipped with the weakened topology $\sigma(E, E')$.
 
 ### 1. Definition of the integral of a vector-valued function
 
@@ -52,11 +52,11 @@ $$
 \varphi(z') = \int \langle f(x), z' \rangle d\mu(x) = \mu(z' \circ f).
 $$
 
-It is clear that $\varphi$ is a linear form on $E'$, hence is *an element of $E'^*$*.
+It is clear that $\varphi$ is a linear form on $E'$, hence is *an element of ${E'}^*$*.
 
 #### Definition 1 {#int-iii-s3-def-1 .statement}
 
-*For every function $f \in \widetilde{\mathcal{K}}(X;E)$ we call integral of $f$ with respect to $\mu$, and denote by $\int f d\mu$ or $\int f(x) d\mu(x)$, or $\int f \mu$, or $\int f(x)\mu(x)$, the element of $E'^*$ defined by*
+*For every function $f \in \widetilde{\mathcal{K}}(X;E)$ we call integral of $f$ with respect to $\mu$, and denote by $\int f d\mu$ or $\int f(x) d\mu(x)$, or $\int f \mu$, or $\int f(x)\mu(x)$, the element of ${E'}^*$ defined by*
 
 $$
 \left\langle \int f d\mu, z' \right\rangle = \int \langle f, z' \rangle d\mu \quad \text{for all } z' \in E'.
@@ -72,7 +72,7 @@ $$
 (\xi_1, \ldots \xi_n) \mapsto \sum_{i=1}^n \xi_i e_i
 $$
 
-is an *isomorphism* of $\mathbf{C}^n$ onto $E$. We then know that every linear form on $E$ is continuous, in other words that $E'$ is identical to the algebraic dual $E^*$ of $E$, and $E'^*$ may be canonically identified with $E$. Let $(e'_i)_{1 \leq i \leq n}$ be the basis of $E'$ dual to $(e_i)$; for a mapping $f$ of $X$ into $E$ to be weakly continuous and scalarly of compact support, it is necessary and sufficient that the functions $f_i = e'_i \circ f$ be continuous with compact support; we then have $f(x) = \sum_{i=1}^n f_i(x) e_i$ for all $x \in X$, and
+is an *isomorphism* of $\mathbf{C}^n$ onto $E$. We then know that every linear form on $E$ is continuous, in other words that $E'$ is identical to the algebraic dual $E^*$ of $E$, and ${E'}^*$ may be canonically identified with $E$. Let $(e'_i)_{1 \leq i \leq n}$ be the basis of $E'$ dual to $(e_i)$; for a mapping $f$ of $X$ into $E$ to be weakly continuous and scalarly of compact support, it is necessary and sufficient that the functions $f_i = e'_i \circ f$ be continuous with compact support; we then have $f(x) = \sum_{i=1}^n f_i(x) e_i$ for all $x \in X$, and
 
 $$
 \int f d\mu = \sum_{i=1}^n \mu(f_i) e_i.
@@ -122,7 +122,7 @@ of $\widetilde{\mathcal{K}}(X; E) \times \mathcal{M}(X; \mathbf{C})$ into $E'*$ 
 
 The proposition follows immediately from Def. 1 of No. 1.
 
-Let $u$ be a continuous linear mapping of $E$ into a locally convex space $F$; we know that the transpose $^t u$ is a linear mapping of the dual $F'$ of $F$ into the dual $E'$ of $E$; we shall denote by $^{tt} u$ the mapping $E'^* \to F'^*$, the transpose of $^t u$ (in the algebraic sense); when $E$ and $F$ are Hausdorff and are canonically identified with subspaces of $E'^*$ and $F'^*$, respectively, $^{tt} u$ extends the mapping $u$. With these notations:
+Let $u$ be a continuous linear mapping of $E$ into a locally convex space $F$; we know that the transpose $^t u$ is a linear mapping of the dual $F'$ of $F$ into the dual $E'$ of $E$; we shall denote by $^{tt} u$ the mapping ${E'}^* \to {F'}^*$, the transpose of $^t u$ (in the algebraic sense); when $E$ and $F$ are Hausdorff and are canonically identified with subspaces of ${E'}^*$ and ${F'}^*$, respectively, $^{tt} u$ extends the mapping $u$. With these notations:
 
 #### Proposition 2 {#int-iii-s3-prop-2 .statement}
 
@@ -160,7 +160,7 @@ whence (3).
 
 #### Proposition 4 {#int-iii-s3-prop-4 .statement}
 
-— Let $\mu$ be a positive measure on $X$, $S$ its support, and $f$ a function in $\widetilde{\mathcal{K}}(X;E)$. Suppose $E$ is Hausdorff, and equip the space $E'^*$ with the weak topology $\sigma(E'^*, E')$.
+— Let $\mu$ be a positive measure on $X$, $S$ its support, and $f$ a function in $\widetilde{\mathcal{K}}(X;E)$. Suppose $E$ is Hausdorff, and equip the space ${E'}^*$ with the weak topology $\sigma({E'}^*, E')$.
 
 (i) *The integral* $\int f\, d\mu$ *belongs to the closure* C *in* E'** *of the convex cone generated by* f(S).
 
@@ -202,7 +202,7 @@ Suppose first that $\mu$ is positive; by hypothesis, the support K of f is compa
 
 *Suppose that the space* X *is compact, and let* f *be a continuous mapping of* X *into a Hausdorff locally convex space* E. *The closed convex envelope of* f(X) *in* E'** *(for* $\sigma(E', E')$) *is equal to the set of vectors* $\int f\, d\mu$ *for all of the positive measures* $\mu$ *on* X *of total mass* 1.
 
-Let C be the closed convex envelope of f(X) in E'**; since f(X) is compact and E'** is *complete*, C is compact. We already know (Prop. 4) that $\int f d\mu \in C$ for every measure $\mu$ belonging to the convex set $H$ of positive measures on $X$ of total mass equal to 1. On the other hand, $H$ is convex and *compact* for the vague topology (\S 1, No. 9, Cor. 3 of Prop. 15) and is the closure (for this topology) of the convex set $H_0$ of positive measures of mass 1 and *finite* support (\S 2, No. 4, Cor. 3 of Th. 1). Now, the image of $H_0$ under the mapping $\mu \mapsto \int f d\mu$ is the convex envelope $C_0$ of $f(X)$ in $E'^*$. On the other hand, this mapping is continuous for the vague topology on $\mathcal{M}(X; C)$ and the topology $\sigma(E'^*, E')$ on $E'^*$ since $\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$ by definition; thus the image of $H = \overline{H_0}$ is a *compact* convex set containing $C_0$ and contained in $C$; since $C = \overline{C_0}$, this image is equal to $C$.
+Let C be the closed convex envelope of f(X) in E'**; since f(X) is compact and E'** is *complete*, C is compact. We already know (Prop. 4) that $\int f d\mu \in C$ for every measure $\mu$ belonging to the convex set $H$ of positive measures on $X$ of total mass equal to 1. On the other hand, $H$ is convex and *compact* for the vague topology (\S 1, No. 9, Cor. 3 of Prop. 15) and is the closure (for this topology) of the convex set $H_0$ of positive measures of mass 1 and *finite* support (\S 2, No. 4, Cor. 3 of Th. 1). Now, the image of $H_0$ under the mapping $\mu \mapsto \int f d\mu$ is the convex envelope $C_0$ of $f(X)$ in ${E'}^*$. On the other hand, this mapping is continuous for the vague topology on $\mathcal{M}(X; C)$ and the topology $\sigma({E'}^*, E')$ on ${E'}^*$ since $\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$ by definition; thus the image of $H = \overline{H_0}$ is a *compact* convex set containing $C_0$ and contained in $C$; since $C = \overline{C_0}$, this image is equal to $C$.
 
 #### Proposition 6 {#int-iii-s3-prop-6 .statement}
 

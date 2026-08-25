@@ -28,7 +28,7 @@ subsections:
       pdf_page: 52
 statements: 46
 exercises: 12
-content_sha256: 7496309c0271345da242d4ef77b322471f1db070f892e97c6c401d17ff21bac1
+content_sha256: 7662c6cb2eeed1549ad1cfe8b11ee979f1a9e562c9925a78a78dc72297f86c7e
 ---
 
 ## § 2. Relèvement des idéaux premiers.
@@ -57,9 +57,9 @@ S^{-1}A & \xrightarrow{h_1} & S^{-1}A'
 \end{array}
 $$
 
-Soit $\mathfrak{p}$ un idéal premier de $A$ tel que $\mathfrak{p} \cap S = \emptyset$. Alors $a' \to S^{-1}a'$ est une application surjective de l’ensemble $\mathcal{F}$ des idéaux de $A'$ au-dessus de $\mathfrak{p}$ sur l’ensemble $\mathcal{F}_1$ des idéaux de $S^{-1}A'$ au-dessus de $S^{-1}\mathfrak{p}$, et l’application $a'_1 \to i'^{-1}(a'_1)$ est une bijection de $\mathcal{F}_1$ sur l’ensemble des idéaux appartenant à $\mathcal{F}$ et saturés pour $h(S)$; en particulier $\mathfrak{p}' \to S^{-1}\mathfrak{p}'$ est une bijection de l’ensemble des idéaux premiers de $A'$ au-dessus de $\mathfrak{p}$ sur l’ensemble des idéaux premiers de $S^{-1}A'$ au-dessus de $S^{-1}\mathfrak{p}$.
+Soit $\mathfrak{p}$ un idéal premier de $A$ tel que $\mathfrak{p} \cap S = \emptyset$. Alors $a' \to S^{-1}a'$ est une application surjective de l’ensemble $\mathcal{F}$ des idéaux de $A'$ au-dessus de $\mathfrak{p}$ sur l’ensemble $\mathcal{F}_1$ des idéaux de $S^{-1}A'$ au-dessus de $S^{-1}\mathfrak{p}$, et l’application $a'_1 \to {i'}^{-1}(a'_1)$ est une bijection de $\mathcal{F}_1$ sur l’ensemble des idéaux appartenant à $\mathcal{F}$ et saturés pour $h(S)$; en particulier $\mathfrak{p}' \to S^{-1}\mathfrak{p}'$ est une bijection de l’ensemble des idéaux premiers de $A'$ au-dessus de $\mathfrak{p}$ sur l’ensemble des idéaux premiers de $S^{-1}A'$ au-dessus de $S^{-1}\mathfrak{p}$.
 
-On sait que $S^{-1}\mathfrak{p}$ est un idéal premier de $S^{-1}A$ et que $i^{-1}(S^{-1}\mathfrak{p}) = \mathfrak{p}$ (chap. II, § 2, no 5, prop. 11); s’il existe un idéal $\mathfrak{b}'$ de $S^{-1}A'$ au-dessus de $S^{-1}\mathfrak{p}$, on a donc $h^{-1}(i'^{-1}(\mathfrak{b}')) = i^{-1}(h_1^{-1}(\mathfrak{b}')) = \mathfrak{p}$; comme $S^{-1}.i'^{-1}(\mathfrak{b}') = \mathfrak{b}'$ (loc. cit.), cela montre déjà que l’image de $\mathcal{F}$ par l’application $a' \to S^{-1}a'$ contient $\mathcal{F}_1$. D’autre part, si $a' \in \mathcal{F}$, $a \in A$ et $s \in S$, on a les équivalences suivantes
+On sait que $S^{-1}\mathfrak{p}$ est un idéal premier de $S^{-1}A$ et que $i^{-1}(S^{-1}\mathfrak{p}) = \mathfrak{p}$ (chap. II, § 2, no 5, prop. 11); s’il existe un idéal $\mathfrak{b}'$ de $S^{-1}A'$ au-dessus de $S^{-1}\mathfrak{p}$, on a donc $h^{-1}({i'}^{-1}(\mathfrak{b}')) = i^{-1}(h_1^{-1}(\mathfrak{b}')) = \mathfrak{p}$; comme $S^{-1}.{i'}^{-1}(\mathfrak{b}') = \mathfrak{b}'$ (loc. cit.), cela montre déjà que l’image de $\mathcal{F}$ par l’application $a' \to S^{-1}a'$ contient $\mathcal{F}_1$. D’autre part, si $a' \in \mathcal{F}$, $a \in A$ et $s \in S$, on a les équivalences suivantes
 
 $$
 h_1(a/s) \in S^{-1}a' \iff h(a)/h(s) \in S^{-1}a'
@@ -166,7 +166,7 @@ Soit $h : A \to A'$ un homomorphisme d’anneaux tel que $A'$ soit entier sur $A
 
 #### Proposition 2 {#ac-v-s2-prop-2 .statement}
 
-*Soient* $h : A \to A'$ *un homomorphisme d’anneaux tel que* $A'$ *soit entier sur* $A$, $\mathfrak{p}$ *un idéal premier de* $A$, $S = A - \mathfrak{p}$, $(\mathfrak{p}'_i)_{i \in I}$ *la famille de tous les idéaux premiers de* $A'$ *au-dessus de* $\mathfrak{p}$, $S' = \bigcap_{i \in I} (A' - \mathfrak{p}'_i)$; *alors on a* $S^{-1}A' = S'^{-1}A'$.
+*Soient* $h : A \to A'$ *un homomorphisme d’anneaux tel que* $A'$ *soit entier sur* $A$, $\mathfrak{p}$ *un idéal premier de* $A$, $S = A - \mathfrak{p}$, $(\mathfrak{p}'_i)_{i \in I}$ *la famille de tous les idéaux premiers de* $A'$ *au-dessus de* $\mathfrak{p}$, $S' = \bigcap_{i \in I} (A' - \mathfrak{p}'_i)$; *alors on a* $S^{-1}A' = {S'}^{-1}A'$.
 
 En effet, par définition on a $h(S) \subset S'$, et comme
 $$
