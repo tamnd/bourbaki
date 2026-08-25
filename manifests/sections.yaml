@@ -2164,7 +2164,7 @@ books:
               statements: 37
               exercises: 6
               extraction: ocr
-              content_sha256: b10e118edc3d4c8f8b3ba54c4c5c2db278e559b9b62eed130604ab192fa32c31
+              content_sha256: b7e3283c08a7f827f94116023cea777542d6c73a0e5503a5708dedd177a32eb9
             - kind: section
               section: 4
               title: Natural integers. Finite sets
@@ -2267,7 +2267,7 @@ books:
               statements: 12
               exercises: 11
               extraction: ocr
-              content_sha256: 6b9d4a0952309fcd8f936d6e10cc2f7f6ccb93004addab7ca8f265ab930c7cbc
+              content_sha256: 33716172cbb3b2bb56712f0439f68cc2acc589398de3fe56f5601e43675e217a
             - kind: section
               section: 3
               title: Universal mappings
