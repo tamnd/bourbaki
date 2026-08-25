@@ -53,7 +53,7 @@ subsections:
       pdf_page: 430
 statements: 42
 exercises: 18
-content_sha256: b2224e3ba44c39c383bed9964f3920718fdcd7f727ed0fef49058dbd1cef0556
+content_sha256: 255b2721eede2668c0654ecdb992c6eeb9215d7852de73bed08bd78781501eb8
 ---
 
 ## § 2. VECTORIAL MEASURES
@@ -100,7 +100,7 @@ Denoting this mapping by $\Phi$, it is immediate that $\Phi(\lambda z') = \lambd
 
 #### Definition 2 {#int-vi-s2-def-2 .statement}
 
-*Let $m$ be a vectorial measure on $T$ with values in $F$, $f$ a numerical function on $T$ that is essentially integrable for $m$. One calls integral of $f$ with respect to $m$, and denotes by $m(f)$ or $\int f \, dm$ or again $\int f(t) \, dm(t)$, the element of $F'^*$ defined by*
+*Let $m$ be a vectorial measure on $T$ with values in $F$, $f$ a numerical function on $T$ that is essentially integrable for $m$. One calls integral of $f$ with respect to $m$, and denotes by $m(f)$ or $\int f \, dm$ or again $\int f(t) \, dm(t)$, the element of ${F'}^*$ defined by*
 
 $$
 \langle z', \int f \, dm \rangle = \int f \, d(z' \circ m)^+ - \int f \, d(z' \circ m)^-.
@@ -120,7 +120,7 @@ It is clear that the set of finite numerical functions essentially integrable fo
 
 — Let us take for $m$ the identity mapping of $\mathscr{K}(T)$ onto itself. Since the dual of $\mathscr{K}(T)$ is the space $\mathscr{M}(T)$ of scalar measures on $T$, the functions $f \in \mathcal{L}(m)$ are those that are essentially integrable for *every* scalar measure $\mu$ (cf. Exer. 1), and the integral $\int f dm$ is the linear form $\mu \mapsto \int f d\mu$ on $\mathscr{M}(T)$. One cannot have $\int f d\mu = 0$ for every measure $\mu \in \mathscr{M}(T)$ unless $f = 0$, as one sees on taking $\mu = \varepsilon_t$, where $t$ is arbitrary in $T$; in other words, the mapping $f \mapsto \int f dm$ is an *injection* of $\mathcal{L}(m)$ into the algebraic dual of $\mathscr{M}(T)$, which extends the identity mapping of $\mathscr{K}(T)$. The relation $\int f dm \in F = \mathscr{K}(T)$ is therefore equivalent to $f \in \mathscr{K}(T)$.
 
-Let $u$ be a continuous linear mapping of $F$ into a Hausdorff locally convex space $G$, and let us denote again by $u$ its extension by bitransposition to a linear mapping of $F'^*$ into $G'^*$ (\S 1, No. 1). With this convention:
+Let $u$ be a continuous linear mapping of $F$ into a Hausdorff locally convex space $G$, and let us denote again by $u$ its extension by bitransposition to a linear mapping of ${F'}^*$ into ${G'}^*$ (\S 1, No. 1). With this convention:
 
 #### Proposition 2 {#int-vi-s2-prop-2 .statement}
 
@@ -128,13 +128,13 @@ Let $u$ be a continuous linear mapping of $F$ into a Hausdorff locally convex sp
 
 The proposition is obvious, in view of the equality $y' \circ u \circ m = {}^t u(y') \circ m$ for all $y \in G'$.
 
-In general, if $f \in \mathcal{L}(m)$, the integral $\int f dm$ belongs to $F'^*$ but not to $F$ (see the above *Example*). However:
+In general, if $f \in \mathcal{L}(m)$, the integral $\int f dm$ belongs to ${F'}^*$ but not to $F$ (see the above *Example*). However:
 
 #### Proposition 3 {#int-vi-s2-prop-3 .statement}
 
 *If the image under* $m$ *of the set of* $f \in \mathscr{K}(T)$ *such that* $\sup_{t \in T} |f(t)| \leq 1$ *is weakly relatively compact in* $F$, *then* $\int f dm \in F$ *for every bounded numerical function* $f$ *essentially integrable for* $m$.
 
-Let $A$ be the set of $f \in \mathcal{L}(m)$ such that $\sup_{t \in T} |f(t)| \leq 1$, and let $B = A \cap \mathscr{K}(T)$; by hypothesis, $m(B)$ is weakly relatively compact in $F$, therefore it suffices to show that $m(A)$ is contained in the closure (in $F'^*$) of $m(B)$ for the topology $\sigma(F'^*, F')$; since $m(B)$ is convex and balanced, it suffices to prove that the polar of $m(B)$ in $F'$ is contained in that of $m(A)$ (TVS, II, §6, No. 3, Th. 1). Now, for a linear form $z' \in F'$ to belong to $(m(B))^\circ$, it is necessary and sufficient that $|\langle z', m(g)\rangle| = |\int g d(z'\circ m)| \leq 1$ for every function $g \in B$, which signifies that the scalar measure $|z'\circ m|$ is bounded and of norm $\leq 1$ (Ch. III, §1, No. 8); but by (2) the latter condition implies that $|\langle z', m(f)\rangle| \leq 1$ for every function $f \in A$, whence $z' \in (m(A))^\circ$.
+Let $A$ be the set of $f \in \mathcal{L}(m)$ such that $\sup_{t \in T} |f(t)| \leq 1$, and let $B = A \cap \mathscr{K}(T)$; by hypothesis, $m(B)$ is weakly relatively compact in $F$, therefore it suffices to show that $m(A)$ is contained in the closure (in ${F'}^*$) of $m(B)$ for the topology $\sigma({F'}^*, F')$; since $m(B)$ is convex and balanced, it suffices to prove that the polar of $m(B)$ in $F'$ is contained in that of $m(A)$ (TVS, II, §6, No. 3, Th. 1). Now, for a linear form $z' \in F'$ to belong to $(m(B))^\circ$, it is necessary and sufficient that $|\langle z', m(g)\rangle| = |\int g d(z'\circ m)| \leq 1$ for every function $g \in B$, which signifies that the scalar measure $|z'\circ m|$ is bounded and of norm $\leq 1$ (Ch. III, §1, No. 8); but by (2) the latter condition implies that $|\langle z', m(f)\rangle| \leq 1$ for every function $f \in A$, whence $z' \in (m(A))^\circ$.
 
 #### Corollary 1 {#int-vi-s2-prop-3-cor-1 .statement}
 
@@ -142,7 +142,7 @@ Let $A$ be the set of $f \in \mathcal{L}(m)$ such that $\sup_{t \in T} |f(t)| \l
 
 The first assertion may be deduced immediately from Prop. 3: if $f$ is bounded and has compact support, and if U is a relatively compact open neighborhood of the support of $f$, then the restriction of $m$ to the subspace $\mathcal{H}(U)$ is a measure $m_U$ on U that satisfies the conditions of Prop. 3, and $\int f dm_U = \int f dm$ (Ch. V, §7, No. 1, Th. 1), therefore $\int f dm \in F$.
 
-Now let $f$ be any element of $\mathcal{L}(m)$; for every compact subset K of T and every integer $n > 0$, let $f_{n,K}$ be the numerical function on T defined as follows: if $t \notin K$, $f_{n,K}(t) = 0$; if $t \in K$ and $|f(t)| \leq n$, $f_{n,K}(t) = f(t)$; finally, if $t \in K$ and $|f(t)| > n$, $f_{n,K}(t) = nf(t)/|f(t)|$. It is clear that for every $t \in T$, $f(t)$ is the limit of $f_{n,K}(t)$ with respect to the product filter of the Fréchet filter by the section filter of the (increasing directed) ordered set of compact subsets of T. Since $|f_{n,K}| \leq |f|$, it follows from Lebesgue’s theorem and Prop. 10 of Ch. V, §1, No. 3, applied to each scalar measure $|z'\circ m|$, that $f_{n,K}$ converges to $f$ in $\mathcal{L}(m)$ with respect to the preceding filter. Consequently, the integral $\int f dm$ is in the closure in $F'^*$ (for the topology $\sigma(F'^*, F')$) of the set M of $m(f_{n,K})$. But the first part of the corollary shows that $M \subset F$, and, on the other hand, for every $z' \in F'$ one has $|\langle z', m(f_{n,K})\rangle| \leq \int |f| d|z'\circ m|$, which shows that M is bounded in $F_\sigma$, hence also in F (TVS, IV, §1, No. 1, Prop. 1). Lemma 1 of §1, No. 2 therefore shows that $\int f dm \in F''$.
+Now let $f$ be any element of $\mathcal{L}(m)$; for every compact subset K of T and every integer $n > 0$, let $f_{n,K}$ be the numerical function on T defined as follows: if $t \notin K$, $f_{n,K}(t) = 0$; if $t \in K$ and $|f(t)| \leq n$, $f_{n,K}(t) = f(t)$; finally, if $t \in K$ and $|f(t)| > n$, $f_{n,K}(t) = nf(t)/|f(t)|$. It is clear that for every $t \in T$, $f(t)$ is the limit of $f_{n,K}(t)$ with respect to the product filter of the Fréchet filter by the section filter of the (increasing directed) ordered set of compact subsets of T. Since $|f_{n,K}| \leq |f|$, it follows from Lebesgue’s theorem and Prop. 10 of Ch. V, §1, No. 3, applied to each scalar measure $|z'\circ m|$, that $f_{n,K}$ converges to $f$ in $\mathcal{L}(m)$ with respect to the preceding filter. Consequently, the integral $\int f dm$ is in the closure in ${F'}^*$ (for the topology $\sigma({F'}^*, F')$) of the set M of $m(f_{n,K})$. But the first part of the corollary shows that $M \subset F$, and, on the other hand, for every $z' \in F'$ one has $|\langle z', m(f_{n,K})\rangle| \leq \int |f| d|z'\circ m|$, which shows that M is bounded in $F_\sigma$, hence also in F (TVS, IV, §1, No. 1, Prop. 1). Lemma 1 of §1, No. 2 therefore shows that $\int f dm \in F''$.
 
 #### Corollary 2 {#int-vi-s2-prop-3-cor-2 .statement}
 

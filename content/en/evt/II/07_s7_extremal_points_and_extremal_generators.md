@@ -25,7 +25,7 @@ subsections:
       pdf_page: 96
 statements: 25
 exercises: 41
-content_sha256: bf23b70355aed84093184969e6c0730616120ed746f1eb87003a705d19e73634
+content_sha256: ba5544881bc2d551481082f09b14e6852c10e86a0663b8e63d376fbaadf87175
 ---
 
 ## § 7. EXTREMAL POINTS AND EXTREMAL GENERATORS
@@ -192,10 +192,10 @@ It is sufficient to prove this last when x ≠ 0 and y ≠ 0; we have therefore 
 
 — Let C be a pointed convex cone of vertex 0 in E, a Hausdorff locally convex space and let p be the gauge of A, a cap of C. The extremal points of A are then the point 0, and the points x on the extremal generators of C such that p(x) = 1.
 
-It is clear that 0 is an extremal point of A. Let x be a point on L an extremal generator of C and such that p(x) = 1. Let y, z be two points of A such that x = $\frac{1}{2}(y + z)$. As L is extremal, we have y = λx and z = μx, where λ and μ are numbers ≥ 0 such that $\frac{1}{2}(\lambda + \mu) = 1$, $\lambda = \lambda p(x) = p(y) \leq 1$ and $\mu = \mu p(x) = p(z) \leq 1$, from which $\lambda = \mu = 1$ and hence y = z = x; so, x is an extremal point of A. Conversely, let x ≠ 0 be an extremal point of A. Obviously p(x) = 1. Let y, y' be two points of C such that x = y + y', and we shall show that y, y' are proportional to x. Without loss of generality we can suppose that the numbers $\lambda = p(y)$ and $\lambda' = p(y')$ are finite and > 0. Then $\lambda^{-1}y \in A, \lambda'^{-1}y' \in A, \lambda + \lambda' = 1$ by prop. 4, (i) and the equality $x = \lambda(\lambda^{-1}y) + \lambda'(\lambda'^{-1}y')$ implies, by hypothesis that
+It is clear that 0 is an extremal point of A. Let x be a point on L an extremal generator of C and such that p(x) = 1. Let y, z be two points of A such that x = $\frac{1}{2}(y + z)$. As L is extremal, we have y = λx and z = μx, where λ and μ are numbers ≥ 0 such that $\frac{1}{2}(\lambda + \mu) = 1$, $\lambda = \lambda p(x) = p(y) \leq 1$ and $\mu = \mu p(x) = p(z) \leq 1$, from which $\lambda = \mu = 1$ and hence y = z = x; so, x is an extremal point of A. Conversely, let x ≠ 0 be an extremal point of A. Obviously p(x) = 1. Let y, y' be two points of C such that x = y + y', and we shall show that y, y' are proportional to x. Without loss of generality we can suppose that the numbers $\lambda = p(y)$ and $\lambda' = p(y')$ are finite and > 0. Then $\lambda^{-1}y \in A, {\lambda'}^{-1}y' \in A, \lambda + \lambda' = 1$ by prop. 4, (i) and the equality $x = \lambda(\lambda^{-1}y) + \lambda'({\lambda'}^{-1}y')$ implies, by hypothesis that
 
 $$
-x = \lambda^{-1}y = \lambda'^{-1}y'.
+x = \lambda^{-1}y = {\lambda'}^{-1}y'.
 $$
 
 #### Corollary 2 {#evt-ii-s7-prop-4-cor-2 .statement}

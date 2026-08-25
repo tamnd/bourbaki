@@ -40,7 +40,7 @@ subsections:
       pdf_page: 406
 statements: 34
 exercises: 27
-content_sha256: 0b2c492b6e4f982a6b14689c7015f7e4bafa51b9eb3f437d2d4cdf8f4278da11
+content_sha256: 700f5238b6835a0128f0c9da6a8c0df48ca0c3db61ed62e430c13385c23f98e2
 ---
 
 ## § 1. INTEGRATION OF VECTOR-VALUED FUNCTIONS
@@ -51,11 +51,11 @@ Note that in this definition, the topology of $F$ intervenes only through the in
 
 ### 1. Scalarly essentially integrable functions
 
-If $f$ is a scalarly essentially $\mu$-integrable mapping of $T$ into $F$, the mapping $z' \mapsto \int \langle f(t), z' \rangle d\mu(t)$ is a linear form on $F'$, that is, an element of the algebraic dual $F'^*$.
+If $f$ is a scalarly essentially $\mu$-integrable mapping of $T$ into $F$, the mapping $z' \mapsto \int \langle f(t), z' \rangle d\mu(t)$ is a linear form on $F'$, that is, an element of the algebraic dual ${F'}^*$.
 
 #### Definition 1 {#int-vi-s1-def-1 .statement}
 
-*One calls* integral of $f$ with respect to $\mu$, *and denotes by* $\int f d\mu$ *or* $\int f(t) d\mu(t)$, *the element of* $F'^*$ *defined by*
+*One calls* integral of $f$ with respect to $\mu$, *and denotes by* $\int f d\mu$ *or* $\int f(t) d\mu(t)$, *the element of* ${F'}^*$ *defined by*
 $$
 \left\langle z', \int f d\mu \right\rangle = \int \langle z', f \rangle d\mu
 $$
@@ -77,7 +77,7 @@ If F is finite-dimensional, then every scalarly essentially integrable mapping o
 
 It is clear that the integral of f depends only on the class of f modulo the space of mappings of T into F that are scalarly locally $\mu$-negligible. Note that a scalarly locally negligible function g is not necessarily zero almost everywhere (Exer. 12). However, this is indeed the case when there exists in F' a sequence $(\mathbf{z}'_n)$ that is dense for the topology $\sigma(F', F)$: for, if $H_n$ is the locally negligible set of points $t \in T$ such that $\langle g(t), \mathbf{z}'_n \rangle \neq 0$, the union H of the $H_n$ is locally negligible and, for every $t \notin H$, one has $\langle g(t), \mathbf{z}'_n \rangle = 0$ for all n, whence $g(t) = 0$.
 
-Let u be a continuous linear mapping of F into a Hausdorff locally convex space G; its transpose $^t u$ is a linear mapping of $G'$ into $F'$, and the (algebraic) transpose $^t(^t u)$ is a linear mapping of $F'^*$ into $G'^*$ that extends u, which we shall again denote by u. With this convention:
+Let u be a continuous linear mapping of F into a Hausdorff locally convex space G; its transpose $^t u$ is a linear mapping of $G'$ into $F'$, and the (algebraic) transpose $^t(^t u)$ is a linear mapping of ${F'}^*$ into ${G'}^*$ that extends u, which we shall again denote by u. With this convention:
 
 #### Proposition 1 {#int-vi-s1-prop-1 .statement}
 
@@ -122,7 +122,7 @@ $$
 $$
 
 $^3$It suffices to assume that the family is scalarly essentially $\mu$-integrable, thus the proposition holds for either of the two interpretations of ' $\mu$-adequate'.
-$^4$Equality as elements of $F'^*$.
+$^4$Equality as elements of ${F'}^*$.
 
 ### 2. Properties of the integral of a scalarly essentially integrable function
 
@@ -172,7 +172,7 @@ $$
 \int \langle z', f \rangle d\mu = \lim_K \int \langle z', f \rangle \varphi_K d\mu,
 $$
 
-the limit being taken with respect to the increasing directed set of compact subsets of T. One concludes that, with respect to this set, $\int f \varphi_K d\mu$ converges to $\int f d\mu$ for the topology $\sigma(F'^*, F')$. Now,
+the limit being taken with respect to the increasing directed set of compact subsets of T. One concludes that, with respect to this set, $\int f \varphi_K d\mu$ converges to $\int f d\mu$ for the topology $\sigma({F'}^*, F')$. Now,
 
 $$
 \left| \left\langle z', \int f \varphi_K d\mu \right\rangle \right| = \left| \int \langle z', f \rangle \varphi_K d\mu \right| \leq \int |\langle z', f \rangle| d\mu,
@@ -182,9 +182,9 @@ which proves that the set of elements $\int f \varphi_K d\mu$ is a *bounded* sub
 
 #### Lemma 1 {#int-vi-s1-lem-1 .statement}
 
-*The closure in $F'^*$ (for the topology $\sigma(F'^*, F')$) of every bounded subset of F is contained in the bidual $F''$.*
+*The closure in ${F'}^*$ (for the topology $\sigma({F'}^*, F')$) of every bounded subset of F is contained in the bidual $F''$.*
 
-For, a bounded subset of F is contained in the polar (in $F''$) of a neighborhood of 0 in the strong dual $F'$ of F, hence is relatively compact in $F''$ for $\sigma(F'', F')$ (TVS, III, §3, No. 5, Prop. 7 and No. 4, Cor. 2 of Prop. 4); since $\sigma(F'', F')$ is induced by $\sigma(F'^*, F')$, the lemma is proved.
+For, a bounded subset of F is contained in the polar (in $F''$) of a neighborhood of 0 in the strong dual $F'$ of F, hence is relatively compact in $F''$ for $\sigma(F'', F')$ (TVS, III, §3, No. 5, Prop. 7 and No. 4, Cor. 2 of Prop. 4); since $\sigma(F'', F')$ is induced by $\sigma({F'}^*, F')$, the lemma is proved.
 
 #### Corollary {#int-vi-s1-n2-cor-2 .statement}
 
@@ -316,7 +316,7 @@ By virtue of the (GDF) property, it suffices to show that for every sequence $(z
 
 *Let $G_i$ ($1 \leq i \leq n$) be $n$ Hausdorff locally convex spaces having the property (GDF), and let $F$ be the space of separately continuous multilinear forms on $\prod_{i=1}^n G_i$, equipped with the topology of pointwise convergence. For every mapping $f$ of $T$ into $F$ that is scalarly essentially $\mu$-integrable, one has $\int f d\mu \in F$.*
 
-The space $F$ is in duality with the tensor product $\bigotimes_{i=1}^n G_i$, and the topology of pointwise convergence on $F$ is none other than the topology $\sigma(F, \bigotimes_{i=1}^n G_i)$. The algebraic dual $F'^*$ is therefore the space of all multilinear forms on $\prod_{i=1}^n G_i$. Let $z = (z_1, \ldots, z_n)$ be an element of $\prod_{i=1}^n G_i$; for every multilinear form $u \in F'^*$, the mapping $x \mapsto u(z_1, \ldots, z_{i-1}, x, z_{i+1}, \ldots, z_n)$ is a linear form on $G_i$, which we shall denote by $\lambda_i(z)(u)$; we thus obtain a linear mapping $\lambda_i(z)$ of $F'^*$ into the algebraic dual $G_i^*$ of $G_i$, continuous for the topologies $\sigma(F'^*, \bigotimes_{i=1}^n G_i)$ and $\sigma(G_i^*, G_i)$. To say that $u \in F$ means that for every index $i$ and every $z \in \prod_{i=1}^n G_i$, one has $\lambda_i(z)(u) \in G_i'$. Now, by Prop. 1 of No. 1, the mapping $\lambda_i(z)$ of $F$ is a scalarly essentially $\mu$-integrable mapping of $T$ into $G_i'$ equipped with the topology $\sigma(G_i', G_i)$, and
+The space $F$ is in duality with the tensor product $\bigotimes_{i=1}^n G_i$, and the topology of pointwise convergence on $F$ is none other than the topology $\sigma(F, \bigotimes_{i=1}^n G_i)$. The algebraic dual ${F'}^*$ is therefore the space of all multilinear forms on $\prod_{i=1}^n G_i$. Let $z = (z_1, \ldots, z_n)$ be an element of $\prod_{i=1}^n G_i$; for every multilinear form $u \in {F'}^*$, the mapping $x \mapsto u(z_1, \ldots, z_{i-1}, x, z_{i+1}, \ldots, z_n)$ is a linear form on $G_i$, which we shall denote by $\lambda_i(z)(u)$; we thus obtain a linear mapping $\lambda_i(z)$ of ${F'}^*$ into the algebraic dual $G_i^*$ of $G_i$, continuous for the topologies $\sigma({F'}^*, \bigotimes_{i=1}^n G_i)$ and $\sigma(G_i^*, G_i)$. To say that $u \in F$ means that for every index $i$ and every $z \in \prod_{i=1}^n G_i$, one has $\lambda_i(z)(u) \in G_i'$. Now, by Prop. 1 of No. 1, the mapping $\lambda_i(z)$ of $F$ is a scalarly essentially $\mu$-integrable mapping of $T$ into $G_i'$ equipped with the topology $\sigma(G_i', G_i)$, and
 $$
 \int (\lambda_i(z) \circ f) d\mu = \lambda_i(z) \left( \int f d\mu \right).
 $$

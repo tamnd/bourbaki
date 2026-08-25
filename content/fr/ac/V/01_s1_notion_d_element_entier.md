@@ -48,7 +48,7 @@ subsections:
       pdf_page: 28
 statements: 77
 exercises: 19
-content_sha256: 0d410ce537d4f726dd5b03d71b2e9666e8fd632438140bcaa496de5289e0b9d3
+content_sha256: 00b2137387cf81009a498b1d36eaeafaa5af7662fcf247a3cad9b56d72562efb
 ---
 
 ## § 1. Notion d’élément entier.
@@ -431,7 +431,7 @@ avec $a_i \in A$ ($1 \leq i \leq n$) et $s \in S$. Cette relation s’écrit aus
 $$
 (sr^n + a_1 r^{n-1} + \cdots + a_n)/s = 0
 $$
-et par suite il existe $s' \in S$ tel que $s'(sr^n + a_1 r^{n-1} + \ldots + a_n) = 0$; on en déduit que $(s'sr)^n + s'a_1(s'sr)^{n-1} + \cdots + s'^n s^{n-1} a_n = 0$. Par définition, on a donc $s'sr \in A'$, d’où $r/1 \in S^{-1}A'$ et $r/t \in S^{-1}A'$.
+et par suite il existe $s' \in S$ tel que $s'(sr^n + a_1 r^{n-1} + \ldots + a_n) = 0$; on en déduit que $(s'sr)^n + s'a_1(s'sr)^{n-1} + \cdots + {s'}^n s^{n-1} a_n = 0$. Par définition, on a donc $s'sr \in A'$, d’où $r/1 \in S^{-1}A'$ et $r/t \in S^{-1}A'$.
 
 #### Corollaire 1 {#ac-v-s1-prop-16-cor-1 .statement}
 

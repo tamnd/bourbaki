@@ -36,7 +36,7 @@ subsections:
       pdf_page: 29
 statements: 23
 exercises: 9
-content_sha256: 722fa70ff5b36c2b7d27483c968af1c51c87477c1f07ad8bffcc9b00d3f6f6d1
+content_sha256: 69c33aa1b07c759c60eb28deb272aa6ed887332ba5d4aeb29cbf610ebb88696c
 ---
 
 ## 1. OPEN SETS, NEIGHBOURHOODS, CLOSED SETS
@@ -282,7 +282,7 @@ A subset $A$ of a topological space $X$ is said to be dense in $X$ (or simply de
 
 #### Example {#top-i-s1-n6-exa-1 .statement}
 
-* We shall see in Chapter IV, § 1 that the set of rational numbers and its complement are dense on the real line. *
+\* We shall see in Chapter IV, § 1 that the set of rational numbers and its complement are dense on the real line. \*
 In a discrete space $X$ the only dense subset of $X$ is $X$ itself. On the other hand, every non-empty subset of $X$ is dense in the topology on $X$ for which the only open sets are $\varnothing$ and $X$.
 
 #### Proposition 6 {#top-i-s1-prop-6 .statement}

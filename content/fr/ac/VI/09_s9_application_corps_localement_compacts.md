@@ -24,7 +24,7 @@ subsections:
       pdf_page: 154
 statements: 10
 exercises: 5
-content_sha256: 6d6dc8b3744dc422d4363618c4c4a2aec927de3ee06f9f4858a35ee24413e5bc
+content_sha256: 61fb6b833d5460050c69f490fe5ccf382187a4e3b04c1d94954fce65913a3c43
 ---
 
 ## § 9. Application : corps localement compacts.
@@ -115,7 +115,7 @@ Soit $K$ un corps (non nécessairement commutatif) localement compact non discre
 (iii) La seconde assertion résulte de la première et du cor. de la prop. 2 du no 1. Pour démontrer la première assertion, notons que mod_K est nécessairement une valeur absolue ultramétrique (§ 6, no 2, cor. de la prop. 3); avec les notations de la démonstration de la prop. 3 du no 2, le centre Z de K est formé des éléments permutable à la fois à s et à u; mais en vertu de (3), on a u^{-1}s u = s^{p'} d’où
 
 $$
-u^{-j} s u^j = s^{p'^j} = s,
+u^{-j} s u^j = s^{{p'}^j} = s,
 $$
 
 de sorte que u^q \in Z, et l’on en conclut que Z n’est pas discret. Comme Z est localement compact, on voit qu’on est ramené au cas où K est commutatif. La sous-F_p-algèbre F_p[s] dans K est alors un corps fini puisque s^{q-1} = 1, et l’on a évidemment y^q = y pour tout élément de ce corps, qui est donc identique à S et isomorphe à F_q puisque S \subset F_p[s] a q éléments. La somme de deux éléments de S étant dans S, l’application qui, à toute série formelle

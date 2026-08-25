@@ -29,7 +29,7 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: 13d843e37126d981d4f821dc0b50dca8bae5a64277a961c24e5e6367677976e8
+content_sha256: e69ea53271bb8075f8d762c7e9c446bf7e5efa0e0729c716a20cb05bccd07396
 ---
 
 ## APPENDIX
@@ -115,7 +115,7 @@ In an analogous way, the corollary of th. 1 (IV, p. 40) implies the following re
 
 *Let $G$ be a solvable topological group. Then there exists a mean on $G$ which is invariant under the left and the right translations.*
 
-It is enough to apply prop. 1 to the solvable group $G \times G$ acting on $G$ by $(g.g').x = gxg'^{-1}$.
+It is enough to apply prop. 1 to the solvable group $G \times G$ acting on $G$ by $(g.g').x = {gxg'}^{-1}$.
 
 ### 3. Ryll-Nardzewski theorem
 

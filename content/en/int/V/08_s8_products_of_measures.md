@@ -41,7 +41,7 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: afc32bc13b656e19383619e9b12b1ec781a956c9b3226ae8f4beb704f58663ba
+content_sha256: f32ac9b0595976df24efb98f8ebc133115fe2afd869695655c5382ac45e70518
 ---
 
 ## § 8. PRODUCTS OF MEASURES
@@ -475,7 +475,7 @@ a) *If $\pi$ (resp. $\pi'$) is $\mu$-proper (resp. $\mu'$-proper), then the mapp
 
 b) *Conversely, if $\pi \times \pi'$ is $(\mu \otimes \mu')$-proper and $\mu' \neq 0$, then $\pi$ is $\mu$-proper.*
 
-a) For, $\pi \times \pi'$ is $(\mu \times \mu')$-measurable by Cor. 1 of Prop. 3 of No. 2. On the other hand, if $K$ (resp. $K'$) is a compact subset of $T_1$ (resp. $T'_1$), then $\pi^{-1}(K)$ and $\pi'^{-1}(K')$ are essentially integrable for $\mu$ and $\mu'$, respectively, therefore $\pi^{-1}(K) \times \pi'^{-1}(K')$ is essentially integrable for $\mu \otimes \mu'$ (Cor. 2 of Prop. 8). This proves that $\pi \times \pi'$ is $(\mu \times \mu')$-proper. Now let $\mu_1 = \pi(\mu)$, $\mu'_1 = \pi'(\mu')$, $\nu_1 = (\pi \times \pi')(\mu \otimes \mu')$; for $f \in \mathcal{K}(T_1)$ and $f' \in \mathcal{K}(T'_1)$, we have
+a) For, $\pi \times \pi'$ is $(\mu \times \mu')$-measurable by Cor. 1 of Prop. 3 of No. 2. On the other hand, if $K$ (resp. $K'$) is a compact subset of $T_1$ (resp. $T'_1$), then $\pi^{-1}(K)$ and ${\pi'}^{-1}(K')$ are essentially integrable for $\mu$ and $\mu'$, respectively, therefore $\pi^{-1}(K) \times {\pi'}^{-1}(K')$ is essentially integrable for $\mu \otimes \mu'$ (Cor. 2 of Prop. 8). This proves that $\pi \times \pi'$ is $(\mu \times \mu')$-proper. Now let $\mu_1 = \pi(\mu)$, $\mu'_1 = \pi'(\mu')$, $\nu_1 = (\pi \times \pi')(\mu \otimes \mu')$; for $f \in \mathcal{K}(T_1)$ and $f' \in \mathcal{K}(T'_1)$, we have
 
 $$
 \iint f(\pi(t)) f'(\pi'(t')) d\mu(t) d\mu'(t')
@@ -494,7 +494,7 @@ $$
 \langle (\pi \times \pi')(\mu \otimes \mu'), g \otimes g' \rangle \neq 0.
 $$
 
-This expression being equal to $\langle \mu \otimes \mu', (g \circ \pi) \otimes (g' \circ \pi') \rangle$ by the definition of image measures, Prop. 8 implies that $\mu''^\bullet(g' \circ \pi') \neq 0$. We then have, by Prop. 8 and by Prop. 2 of §6, No. 2,
+This expression being equal to $\langle \mu \otimes \mu', (g \circ \pi) \otimes (g' \circ \pi') \rangle$ by the definition of image measures, Prop. 8 implies that ${\mu''}^\bullet(g' \circ \pi') \neq 0$. We then have, by Prop. 8 and by Prop. 2 of §6, No. 2,
 
 $$
 \left( \int^\bullet (f \circ \pi) d\mu \right) \left( \int^\bullet (g' \circ \pi') d\mu' \right) = \iint^\bullet (f \circ \pi) \otimes (g' \circ \pi') d\mu d\mu'
