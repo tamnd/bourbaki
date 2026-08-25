@@ -563,7 +563,7 @@ Vì vế phải của (15) là một phần tử của $ \mathbf{F}_p $ chỉ ph
 Với mỗi mở rộng Galois $ L $ của $ K $, ta viết
 
 $$
-a_ : (\mathcal{P}(L) \cap K)/\mathcal{P}(K) \to \mathrm{Hom}(\mathrm{Gal}(L/K), \mathbf{F}_p)
+a_L : (\mathcal{P}(L) \cap K)/\mathcal{P}(K) \to \mathrm{Hom}(\mathrm{Gal}(L/K), \mathbf{F}_p)
 $$
 $$
 a_L' : \mathrm{Gal}(L/K) \to \mathrm{Hom}((\mathcal{P}(L) \cap K)/\mathcal{P}(K), \mathbf{F}_p)
@@ -573,9 +573,9 @@ cho các đồng cấu thu được từ ánh xạ $\mathbf{Z}$-song tuyến tí
 
 #### Mệnh đề 10 {#alg-v-s11-prop-10 .statement}
 
-*Với mọi mở rộng Galois $ L $ có bậc hữu hạn của $ K $, đồng cấu $ a_ $ là song ánh.*
+*Với mọi mở rộng Galois $ L $ có bậc hữu hạn của $ K $, đồng cấu $ a_L $ là song ánh.*
 
-Cho $ x \in L $ sao cho $ \mathcal{P}(x) \in K $ và lớp thặng dư của $ \mathcal{P}(x) \mod \mathcal{P}(K) $ thuộc hạt nhân của $ a_ $. Với mọi $ \sigma \in \mathrm{Gal}(L/K) $ ta có theo định nghĩa $ \sigma(x) = x $; do đó $ x \in K $ và $ \mathcal{P}(x) \in \mathcal{P}(K) $. Điều này chứng minh tính đơn ánh của $ a_ $. Bây giờ cho $ f : \mathrm{Gal}(L/K) \to \mathbf{F}_p $ là một đồng cấu; với mọi $ \sigma, \tau \in \mathrm{Gal}(L/K) $ ta có
+Cho $ x \in L $ sao cho $ \mathcal{P}(x) \in K $ và lớp thặng dư của $ \mathcal{P}(x) \mod \mathcal{P}(K) $ thuộc hạt nhân của $ a_L $. Với mọi $ \sigma \in \mathrm{Gal}(L/K) $ ta có theo định nghĩa $ \sigma(x) = x $; do đó $ x \in K $ và $ \mathcal{P}(x) \in \mathcal{P}(K) $. Điều này chứng minh tính đơn ánh của $ a_L $. Bây giờ cho $ f : \mathrm{Gal}(L/K) \to \mathbf{F}_p $ là một đồng cấu; với mọi $ \sigma, \tau \in \mathrm{Gal}(L/K) $ ta có
 
 $$
 f(\sigma \tau) = f(\sigma) + \sigma(f(\tau)), \quad f(\sigma) \in \mathbf{F}_p.
@@ -585,7 +585,7 @@ Theo V, p. 65, Hệ quả 2 tồn tại $ x \in L $ sao cho $ f(u) = \sigma(x) -
 
 #### Hệ quả {#alg-v-s11-n9-cor-1 .statement}
 
-*Nếu $ L $ là một mở rộng Galois của $ K $, thì đồng cấu $ a_ $ là đơn ánh và ảnh của nó là nhóm $ \mathrm{Hom}_c(\mathrm{Gal}(L/K), \mathbf{F}_p) $ của các đồng cấu liên tục của nhóm tôpô $ \mathrm{Gal}(L/K) $ vào nhóm rời rạc $ \mathbf{F}_p $.*
+*Nếu $ L $ là một mở rộng Galois của $ K $, thì đồng cấu $ a_L $ là đơn ánh và ảnh của nó là nhóm $ \mathrm{Hom}_c(\mathrm{Gal}(L/K), \mathbf{F}_p) $ của các đồng cấu liên tục của nhóm tôpô $ \mathrm{Gal}(L/K) $ vào nhóm rời rạc $ \mathbf{F}_p $.*
 
 Điều này được chứng minh theo cùng một cách như Hệ quả của Mệnh đề 9, V, p. 89.
 
