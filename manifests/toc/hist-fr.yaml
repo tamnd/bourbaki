@@ -4,6 +4,7 @@ grammar: pilcrow/bare
 chapters:
     - book: hist-fr
       chapter: "1"
+      nominal: true
       title: ÉLÉMENTS D'HISTOIRE DES MATHÉMATIQUES
       page: 9
       pdf_page: 7

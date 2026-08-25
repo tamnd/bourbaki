@@ -4,6 +4,7 @@ grammar: pilcrow/bare
 chapters:
     - book: var-fr
       chapter: "1"
+      nominal: true
       title: VARIÉTÉS DIFFÉRENTIELLES ET ANALYTIQUES, FASCICULE DE RÉSULTATS
       page: 11
       pdf_page: 9

@@ -4,7 +4,7 @@ grammar: pilcrow/bare
 chapters:
     - book: int-ix-fr
       chapter: IX
-      title: INTÉGRATION, CHAPITRE 9
+      title: MESURES SUR LES ESPACES TOPOLOGIQUES SÉPARÉS
       page: 7
       pdf_page: 5
       sections:
