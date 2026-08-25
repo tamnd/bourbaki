@@ -638,9 +638,9 @@ The invertible matrix $P$ is called the *matrix of passage from the basis* $(e_i
 
 #### Proposition 5 {#alg-ii-s10-prop-5 .statement}
 
-*Let $(e_i), (e'_i)$ be two bases of n elements of E and P the matrix of passage from $(e_i)$ to $(e'_i)$. If $(e_i^*)$ and $(e'_i^*)$ are the respective dual bases of $(e_i)$ and $(e'_i)$, the matrix of passage from $(e_i^*)$ to $(e'_i^*)$ is the contragredient $^tP^{-1}$ of P.*
+*Let $(e_i), (e'_i)$ be two bases of n elements of E and P the matrix of passage from $(e_i)$ to $(e'_i)$. If $(e_i^*)$ and $({e'_i}^*)$ are the respective dual bases of $(e_i)$ and $(e'_i)$, the matrix of passage from $(e_i^*)$ to $({e'_i}^*)$ is the contragredient $^tP^{-1}$ of P.*
 
-The transpose of the identity mapping $l_E$ is the identity mapping $l_{E^*}$; by Proposition 3, no. 4, the matrix of $l_{E^*}$ with respect to the bases $(e'_i^*)$ and $(e_i^*)$ (in that order) is the transpose of the matrix of $l_E$ with respect to the bases $(e_i)$ and $(e'_i)$ (in that order), that is the transpose of $P^{-1}$.
+The transpose of the identity mapping $l_E$ is the identity mapping $l_{E^*}$; by Proposition 3, no. 4, the matrix of $l_{E^*}$ with respect to the bases $({e'_i}^*)$ and $(e_i^*)$ (in that order) is the transpose of the matrix of $l_E$ with respect to the bases $(e_i)$ and $(e'_i)$ (in that order), that is the transpose of $P^{-1}$.
 
 #### Proposition 6 {#alg-ii-s10-prop-6 .statement}
 
@@ -697,7 +697,7 @@ $$
 x_i = \sum_{j=1}^n x_j' a_{ij} \quad (1 \leq i \leq n).
 $$
 
-(2) Under the hypotheses of Proposition 4, consider an element $ x^* \in \mathbf{E}^* $; as the matrix of passage from $(e_i^*)$ to $(e_i'^*)$ is $ tP^{-1} $ (Proposition 5), for the matrices $ M(x^*) $ and $ M'(x^*) $ of $ x^* $ with respect to these two bases respectively,
+(2) Under the hypotheses of Proposition 4, consider an element $ x^* \in \mathbf{E}^* $; as the matrix of passage from $(e_i^*)$ to $(e_{i'}^*)$ is $ tP^{-1} $ (Proposition 5), for the matrices $ M(x^*) $ and $ M'(x^*) $ of $ x^* $ with respect to these two bases respectively,
 
 $$
 tM(x^*) = tM'(x^*) . P^{-1}
@@ -714,10 +714,10 @@ which is equivalent to the system of equations
 
 (38 D)
 $$
-x_i'^* = \sum_{j=1}^n x_j^* a_{ji} \quad (1 \leq i \leq n)
+x_{i'}^* = \sum_{j=1}^n x_j^* a_{ji} \quad (1 \leq i \leq n)
 $$
 
-for the elements $(x_i^*)$ and $(x_i'^*)$ of the matrices $ M(x^*) $ and $ M'(x^*) $. The corresponding formulae for a left A-module E are
+for the elements $(x_i^*)$ and $(x_{i'}^*)$ of the matrices $ M(x^*) $ and $ M'(x^*) $. The corresponding formulae for a left A-module E are
 
 (37 G)
 $$
@@ -726,7 +726,7 @@ $$
 
 (38 G)
 $$
-x_i'^* = \sum_{j=1}^n a_{ji} x_j^* \quad (1 \leq i \leq n).
+x_{i'}^* = \sum_{j=1}^n a_{ji} x_j^* \quad (1 \leq i \leq n).
 $$
 
 (3) Let A, B be two rings, $ \sigma : A \to B $ a homomorphism of A into B, E a right (resp. left) A-module, $(e_i)$, $(e_i')$ two bases with $ n $ elements of E, F a right (resp. left) B-module, $(f_j)$, $(f_j')$ two bases with $ m $ elements of F and $ P $ (resp. $ Q $) the matrix of passage from $(e_i)$ to $(e_i')$ (resp. from $(f_j)$ to $(f_j')$).

@@ -462,7 +462,7 @@ $$
 *an exact sequence of linear mappings.* *Then the sequence of transpose mappings*
 
 $$
-0 \longrightarrow E''^* \xrightarrow{{}^t v} E^* \xrightarrow{{}^t u} E'^*
+0 \longrightarrow {E''}^* \xrightarrow{{}^t v} E^* \xrightarrow{{}^t u} {E'}^*
 $$
 
 *is exact.*
