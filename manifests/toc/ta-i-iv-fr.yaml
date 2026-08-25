@@ -120,7 +120,7 @@ chapters:
               page: 57
               pdf_page: 73
             - "no": 8
-              title: Les homomorphismes α et β ; adjonction
+              title: Les homomorphismes $\alpha$ et $\beta$ ; adjonction
               page: 59
               pdf_page: 75
             - "no": 9
@@ -590,7 +590,7 @@ chapters:
           pdf_page: 367
           subsections:
             - "no": 1
-              title: Propriétés des homomorphismes π1 (f, a)
+              title: Propriétés des homomorphismes $\pi_1(f, a)$
               page: 351
               pdf_page: 367
             - "no": 2
@@ -714,11 +714,11 @@ chapters:
               page: 437
               pdf_page: 453
             - "no": 2
-              title: Espaces fibrés localement triviaux de base B × I
+              title: Espaces fibrés localement triviaux de base $B \times \mathbf{I}$
               page: 440
               pdf_page: 456
             - "no": 3
-              title: Espaces fibrés principaux de base B × I
+              title: Espaces fibrés principaux de base $B \times \mathbf{I}$
               page: 443
               pdf_page: 459
             - "no": 4

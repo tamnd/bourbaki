@@ -162,7 +162,7 @@ chapters:
               page: 46
               pdf_page: 49
             - "no": 4
-              title: Les applications (G/T) × T → G et (G/T) × A → G_r
+              title: Les applications $(G/T) \times T \to G$ et $(G/T) \times A \to G_r$
               page: 49
               pdf_page: 52
           exercises:

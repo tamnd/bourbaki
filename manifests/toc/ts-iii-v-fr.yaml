@@ -272,7 +272,7 @@ chapters:
           pdf_page: 192
           subsections:
             - "no": 1
-              title: Compléments sur les espaces Lp (X, µ)
+              title: Compléments sur les espaces $L^p(X, \mu)$
               page: 179
               pdf_page: 192
             - "no": 2
@@ -284,7 +284,7 @@ chapters:
               page: 182
               pdf_page: 195
             - "no": 4
-              title: L’algèbre stellaire L∞ (X, µ)
+              title: L’algèbre stellaire $L^{\infty}(X, \mu)$
               page: 185
               pdf_page: 198
             - "no": 5

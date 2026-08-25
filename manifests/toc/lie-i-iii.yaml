@@ -364,7 +364,7 @@ chapters:
               page: 136
               pdf_page: 154
             - "no": 2
-              title: Projector of A⁺(X) onto L(X)
+              title: Projector of $A^+(X)$ onto $L(X)$
               page: 138
               pdf_page: 156
             - "no": 3
@@ -711,7 +711,7 @@ chapters:
           pdf_page: 315
           subsections:
             - "no": 1
-              title: The coefficients cαβγ
+              title: The coefficients $c_{\alpha \beta \gamma}$
               page: 297
               pdf_page: 315
             - "no": 2

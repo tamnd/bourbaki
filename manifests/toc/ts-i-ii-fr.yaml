@@ -134,11 +134,11 @@ chapters:
               page: 52
               pdf_page: 65
             - "no": 4
-              title: Construction des applications Θa
+              title: Construction des applications $\Theta_{\boldsymbol{a}}$
               page: 58
               pdf_page: 71
             - "no": 5
-              title: Propriétés des applications Θa
+              title: Propriétés des applications $\Theta_{\boldsymbol{a}}$
               page: 61
               pdf_page: 74
             - "no": 6
@@ -306,7 +306,7 @@ chapters:
               page: 142
               pdf_page: 155
             - "no": 2
-              title: Fonctions continues sur un sous-ensemble compact de CΛ
+              title: Fonctions continues sur un sous-ensemble compact de $\mathbf{C}^{\Lambda}$
               page: 146
               pdf_page: 159
             - "no": 3
@@ -396,7 +396,7 @@ chapters:
               page: 251
               pdf_page: 263
             - "no": 3
-              title: Sous-espaces invariants faiblement fermés de L∞ (G)
+              title: Sous-espaces invariants faiblement fermés de $L^{\infty}(G)$
               page: 257
               pdf_page: 269
           exercises:

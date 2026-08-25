@@ -62,7 +62,7 @@ chapters:
               page: 35
               pdf_page: 35
             - "no": 4
-              title: Mesures vectorielles de base μ
+              title: Mesures vectorielles de base $\mu$
               page: 39
               pdf_page: 39
             - "no": 5
@@ -98,7 +98,7 @@ chapters:
           pdf_page: 57
           subsections:
             - "no": 1
-              title: Désintégration d'une mesure μ relativement à une application μ-propre
+              title: Désintégration d'une mesure $\mu$ relativement à une application $\mu$-propre
               page: 57
               pdf_page: 57
             - "no": 2
@@ -106,7 +106,7 @@ chapters:
               page: 63
               pdf_page: 63
             - "no": 3
-              title: Désintégration d'une mesure μ relative à une pseudo-image de μ
+              title: Désintégration d'une mesure $\mu$ relative à une pseudo-image de $\mu$
               page: 64
               pdf_page: 64
             - "no": 4

@@ -551,7 +551,7 @@ chapters:
               page: 273
               pdf_page: 297
             - "no": 4
-              title: The homomorphism Hom0 (El, F 1 ) ®c Hom0 (E2, F2) + Hom0 (E1 ®c E 2, F 1 0 0 F 2)
+              title: The homomorphism $\operatorname{Hom}_c(E_1, F_1) \otimes_c \operatorname{Hom}_c(E_2, F_2) \to \operatorname{Hom}_c(E_1 \otimes_c E_2, F_1 \otimes_c F_2)$
               page: 274
               pdf_page: 298
           exercises:
@@ -1274,7 +1274,7 @@ chapters:
               page: 585
               pdf_page: 609
             - "no": 5
-              title: The graded dualsT(M)ur, S(M)Ur and 1\ (M)*~"r
+              title: The graded duals $T(M)^{*gr}$, $S(M)^{*gr}$ and $\bigwedge (M)^{*gr}$
               page: 587
               pdf_page: 611
             - "no": 6
@@ -1290,7 +1290,7 @@ chapters:
               page: 600
               pdf_page: 624
             - "no": 9
-              title: InnerproductsbetweenT(M) andT(M*),S(M) andS(M*) 1\ (M) and 1\ (M*)
+              title: Inner products between $T(M)$ and $T(M^*)$, $S(M)$ and $S(M^*)$, $\bigwedge (M)$ and $\bigwedge (M^*)$
               page: 603
               pdf_page: 627
             - "no": 10
@@ -1298,7 +1298,7 @@ chapters:
               page: 605
               pdf_page: 629
             - "no": 11
-              title: Isomorphisms between /\P (M) and 1\n-p (M*) for ann dimensional free module M
+              title: Isomorphisms between $\bigwedge^p (M)$ and $\bigwedge^{n-p} (M^*)$ for an $n$-dimensional free module $M$
               page: 607
               pdf_page: 631
             - "no": 12

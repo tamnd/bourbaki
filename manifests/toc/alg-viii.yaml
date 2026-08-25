@@ -98,7 +98,7 @@ chapters:
               page: 55
               pdf_page: 72
             - "no": 2
-              title: The homomorphism i HomA (M, Ni ) −→ HomA (M, i Ni )
+              title: The homomorphism $\bigoplus_i \operatorname{Hom}_A(M, N_i) \longrightarrow \operatorname{Hom}_A(M, \bigoplus_i N_i)$
               page: 57
               pdf_page: 74
             - "no": 3

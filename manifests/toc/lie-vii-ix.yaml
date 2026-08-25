@@ -217,7 +217,7 @@ chapters:
               page: 83
               pdf_page: 91
             - "no": 4
-              title: The coefficients Nαβ
+              title: The coefficients N$_{\boldsymbol{\alpha \beta }}$
               page: 83
               pdf_page: 91
           exercises:
@@ -373,7 +373,7 @@ chapters:
               page: 141
               pdf_page: 149
             - "no": 2
-              title: Injection of k[P] into S(h)∗
+              title: Injection of $\boldsymbol{k}$[P] into S($\mathfrak{h}$)$^*$
               page: 142
               pdf_page: 150
             - "no": 3
@@ -460,7 +460,7 @@ chapters:
               page: 173
               pdf_page: 181
             - "no": 3
-              title: Integral variant of the Poincaré-Birkhoff-Witt theorem
+              title: Integral variant of the Poincaré-Birkhoff-Witt theorem
               page: 174
               pdf_page: 182
             - "no": 4
@@ -489,19 +489,19 @@ chapters:
           pdf_page: 197
           subsections:
             - "no": 1
-              title: Algebras of type Al (l ≥ 1)
+              title: Algebras of type $A_l$ ($l \geq 1$)
               page: 190
               pdf_page: 198
             - "no": 2
-              title: Algebras of type Bl (l ≥ 1)
+              title: Algebras of type $B_l$ ($l \geq 1$)
               page: 195
               pdf_page: 203
             - "no": 3
-              title: Algebras of type Cl (l ≥ 1)
+              title: Algebras of type $C_l$ ($l \geq 1$)
               page: 204
               pdf_page: 212
             - "no": 4
-              title: Algebras of type Dl (l ≥ 2)
+              title: Algebras of type $D_l$ ($l \geq 2$)
               page: 211
               pdf_page: 219
           exercises:
@@ -667,7 +667,7 @@ chapters:
               page: 327
               pdf_page: 334
             - "no": 4
-              title: The maps (G/T) × T → G and (G/T) × A → Gr
+              title: The maps $(G/T) \times T \to G$ and $(G/T) \times A \to G_r$
               page: 331
               pdf_page: 338
           exercises:

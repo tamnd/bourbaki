@@ -227,7 +227,7 @@ chapters:
               page: 89
               pdf_page: 88
             - "no": 2
-              title: Le plan E_{s,s'} et le groupe engendré par σ_s et σ_{s'}
+              title: Le plan $E_{s, s'}$ et le groupe engendré par $\sigma_s$ et $\sigma_{s'}$
               page: 90
               pdf_page: 89
             - "no": 3
@@ -446,19 +446,19 @@ chapters:
               page: 200
               pdf_page: 199
             - "no": 5
-              title: Systèmes de type B_l (l \geq 2)
+              title: Systèmes de type $B_l$ ($l \geq 2$)
               page: 202
               pdf_page: 201
             - "no": 6
-              title: Systèmes de type C_l (l \geq 2)
+              title: Systèmes de type $C_l$ ($l \geq 2$)
               page: 204
               pdf_page: 203
             - "no": 7
-              title: Systèmes de type A_l (l \geq 1)
+              title: Systèmes de type $A_l$ ($l \geq 1$)
               page: 205
               pdf_page: 204
             - "no": 8
-              title: Systèmes de type D_l (l \geq 3)
+              title: Systèmes de type $D_l$ ($l \geq 3$)
               page: 208
               pdf_page: 207
             - "no": 9
