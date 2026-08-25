@@ -5142,6 +5142,267 @@
           ]
         }
       ]
+    },
+    {
+      "id": "top-v-x",
+      "chapters": [
+        {
+          "chapter": "V",
+          "title": "One-parameter groups",
+          "total": 8,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-v-s1",
+              "dir": "s1",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 2,
+              "label": "top-v-s2",
+              "dir": "s2",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            },
+            {
+              "section": 3,
+              "label": "top-v-s3",
+              "dir": "s3",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 4,
+              "label": "top-v-s4",
+              "dir": "s4",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            }
+          ]
+        },
+        {
+          "chapter": "VI",
+          "title": "Real number spaces and projective spaces",
+          "total": 36,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-vi-s1",
+              "dir": "s1",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "top-vi-s2",
+              "dir": "s2",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 1,
+              "supplementary": 1
+            },
+            {
+              "section": 3,
+              "label": "top-vi-s3",
+              "dir": "s3",
+              "count": 10,
+              "first": 1,
+              "last": 10
+            }
+          ]
+        },
+        {
+          "chapter": "VII",
+          "title": "The additive groups $ \\mathbf{R}^n $",
+          "total": 24,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-vii-s1",
+              "dir": "s1",
+              "count": 15,
+              "first": 1,
+              "last": 15,
+              "starred": 2,
+              "supplementary": 1
+            },
+            {
+              "section": 2,
+              "label": "top-vii-s2",
+              "dir": "s2",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 3
+            },
+            {
+              "section": 3,
+              "label": "top-vii-s3",
+              "dir": "s3",
+              "count": 2,
+              "first": 1,
+              "last": 2,
+              "starred": 2
+            }
+          ]
+        },
+        {
+          "chapter": "VIII",
+          "title": "Complex numbers",
+          "total": 22,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-viii-s1",
+              "dir": "s1",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "top-viii-s2",
+              "dir": "s2",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "top-viii-s3",
+              "dir": "s3",
+              "count": 5,
+              "first": 1,
+              "last": 5
+            },
+            {
+              "section": 4,
+              "label": "top-viii-s4",
+              "dir": "s4",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "starred": 1
+            }
+          ]
+        },
+        {
+          "chapter": "IX",
+          "title": "Use of real numbers in general topology",
+          "total": 48,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-ix-s1",
+              "dir": "s1",
+              "count": 22,
+              "first": 1,
+              "last": 22,
+              "starred": 8
+            },
+            {
+              "section": 2,
+              "label": "top-ix-s2",
+              "dir": "s2",
+              "count": 9,
+              "first": 1,
+              "last": 9,
+              "starred": 3
+            },
+            {
+              "section": 3,
+              "label": "top-ix-s3",
+              "dir": "s3",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 4,
+              "label": "top-ix-s4",
+              "dir": "s4",
+              "count": 7,
+              "first": 1,
+              "last": 7
+            },
+            {
+              "section": 5,
+              "label": "top-ix-s5",
+              "dir": "s5",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 6,
+              "label": "top-ix-s6",
+              "dir": "s6",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 0,
+              "appendix": true,
+              "label": "top-ix-a0",
+              "dir": "a0",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            }
+          ]
+        },
+        {
+          "chapter": "X",
+          "title": "Function spaces",
+          "total": 43,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-x-s1",
+              "dir": "s1",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "top-x-s2",
+              "dir": "s2",
+              "count": 16,
+              "first": 1,
+              "last": 16
+            },
+            {
+              "section": 3,
+              "label": "top-x-s3",
+              "dir": "s3",
+              "count": 10,
+              "first": 1,
+              "last": 10
+            },
+            {
+              "section": 4,
+              "label": "top-x-s4",
+              "dir": "s4",
+              "count": 5,
+              "first": 1,
+              "last": 5
+            }
+          ]
+        }
+      ]
     }
   ]
 }

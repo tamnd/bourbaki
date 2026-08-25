@@ -48,7 +48,7 @@ subsections:
       pdf_page: 211
 statements: 25
 exercises: 10
-content_sha256: a735d63ab1725839e7204add16e6722575e56f830f7d184a8d08a34a0ccaf4d1
+content_sha256: de175ab267d6728762452f212164941a93e6114ffb4877de30f9c3d03ee8b4bd
 ---
 
 ## § 2. LINEAR DIFFERENTIAL EQUATIONS
@@ -526,7 +526,7 @@ $$ (25)
 
 *the right-hand side being absolutely and uniformly convergent on every bounded subset of* $ \mathcal{L}(E) $; *in particular,* $ e^{It} = e^t I $ *for* $ t \in \mathbf{R} $.
 
-4' *If* X *and* Y *commute then* Y *and* $ e^Y $ *commute with* $ e^X $, *and*
+4) *If* X *and* Y *commute then* Y *and* $ e^Y $ *commute with* $ e^X $, *and*
 
 $$
 e^{X+Y} = e^X e^Y.

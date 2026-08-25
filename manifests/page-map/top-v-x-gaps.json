@@ -1,0 +1,87 @@
+{
+  "book": "top-v-x",
+  "grammar": "foot-number",
+  "pagination": "continuous",
+  "pdf_pages": 372,
+  "body_pages": 366,
+  "front_matter_pages": 6,
+  "counts": {
+    "folio": 1,
+    "foot": 1,
+    "interpolated": 364,
+    "none": 6
+  },
+  "printed_pct_of_body": 0.546448087431694,
+  "chapters": [
+    {
+      "chapter": "V",
+      "first_pdf_page": 13,
+      "last_pdf_page": 36,
+      "first_page": 7,
+      "last_page": 30
+    },
+    {
+      "chapter": "VI",
+      "first_pdf_page": 37,
+      "last_pdf_page": 72,
+      "first_page": 31,
+      "last_page": 66
+    },
+    {
+      "chapter": "VII",
+      "first_pdf_page": 73,
+      "last_pdf_page": 105,
+      "first_page": 67,
+      "last_page": 99
+    },
+    {
+      "chapter": "VIII",
+      "first_pdf_page": 106,
+      "last_pdf_page": 142,
+      "first_page": 100,
+      "last_page": 136
+    },
+    {
+      "chapter": "IX",
+      "first_pdf_page": 143,
+      "last_pdf_page": 279,
+      "first_page": 137,
+      "last_page": 273
+    },
+    {
+      "chapter": "X",
+      "first_pdf_page": 280,
+      "last_pdf_page": 372,
+      "first_page": 274,
+      "last_page": 366
+    }
+  ],
+  "steps": [],
+  "conflicts": [],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 6,
+      "pages": 6,
+      "confidence": "none"
+    },
+    {
+      "from": 7,
+      "to": 7,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 9,
+      "to": 275,
+      "pages": 267,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 277,
+      "to": 372,
+      "pages": 96,
+      "confidence": "interpolated"
+    }
+  ]
+}

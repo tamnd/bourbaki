@@ -20,7 +20,7 @@ subsections:
       pdf_page: 304
 statements: 0
 exercises: 3
-content_sha256: 103ec5ec6513283f6c6e9909a63a827d7480ecb776856e9ab7fb3eb96b37fc76
+content_sha256: b90058728ed6629413e6ddb0b487cfedb0fe875b20fb58e137a5696743e86033
 ---
 
 ## § 3. BOUNDS FOR THE REMAINDER IN THE EULER-MACLAURIN SUMMATION FORMULA
@@ -78,7 +78,7 @@ $$
 
 each of the terms of this sum being negligible relative to the preceding one; on expanding each of them relative to a comparison scale $ \mathcal{E} $ one will then have an asymptotic expansion for $ s_n $.
 
-2' Now suppose that for an index $ q $ such that $ 1 \leq q \leq p $ we have $ |g^{(2q-1)}(n)| $ tending to $ +\infty $ with $ n $, but that $ g^{(2k-1)}(n) $ tends to 0 for $ k > q $. Since $ g^{(2p+1)} $ is monotone on a neighbourhood of $ +\infty $ the integral $ \int_0^\infty |g^{(2p+1)}(u)| \, du $ converges, and one can then write
+2) Now suppose that for an index $ q $ such that $ 1 \leq q \leq p $ we have $ |g^{(2q-1)}(n)| $ tending to $ +\infty $ with $ n $, but that $ g^{(2k-1)}(n) $ tends to 0 for $ k > q $. Since $ g^{(2p+1)} $ is monotone on a neighbourhood of $ +\infty $ the integral $ \int_0^\infty |g^{(2p+1)}(u)| \, du $ converges, and one can then write
 
 = $ \sum_{m=0}^{n} g(m) = \int_0^{n+1} g(t)\,dt - \frac{1}{2}g(n+1) + \sum_{k=1}^{q} \frac{b_{2k}}{(2k)!}\,g^{(2k-1)}(n+1) + C $
 $$
