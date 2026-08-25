@@ -2711,7 +2711,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 3301b37893d77a89d49aabc34aa800501c54c374f23333cf2b037542ca81ec38
+              content_sha256: 1d568cdf6b7620392b098601685ec9ec289112bf1642f357259f2fe9d3aa3c33
     - id: int-i-vi
       chapters:
         - chapter: I
