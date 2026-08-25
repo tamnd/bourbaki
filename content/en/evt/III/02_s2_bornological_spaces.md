@@ -12,7 +12,7 @@ pdf_pages: 0143-0145, 0172-0173
 extraction: ocr
 statements: 6
 exercises: 4
-content_sha256: c7e3321e3d8d4131883d603d9cf106f5a8ed1c2ce5cc0f579b8d581a2cc5aace
+content_sha256: 0d07a448890f2831b0cc23b615935ec8e079f5380d64f4b62a604498fffec8be
 ---
 
 ## § 2. BORNOLOGICAL SPACES
@@ -66,7 +66,7 @@ In fact, the spaces E_A, where A is closed and bounded are Banach spaces (III, p
 
 *A locally convex metrizable space is bornological.*
 
-Suppose E is metrizable, and p a semi-norm on E which is bounded on bounded subsets of E, but which is not continuous. Let A be the set of all x \in E such that p(x) < 1. Let (V_n)_{n \geq 1} be a decreasing sequence forming a fundamental system of neighbourhoods of 0 in E. Since p is not continuous, A is not a neighbourhood of 0; hence for every n > 0, we have A \not\supseteq n^{-1} V_n and there exists a point x_n in V_n, such that n^{-1} x_n \notin A, that is, p(x_n) \geq n. The sequence (x_n) tends to 0, hence is bounded (III, p. 3, corollary); this contradicts the hypothesis on p.
+Suppose E is metrizable, and p a semi-norm on E which is bounded on bounded subsets of E, but which is not continuous. Let A be the set of all $x \in E$ such that $p(x) < 1$. Let $(V_n)_{n \geq 1}$ be a decreasing sequence forming a fundamental system of neighbourhoods of 0 in E. Since p is not continuous, A is not a neighbourhood of 0; hence for every $n > 0$, we have $A \not\supseteq n^{-1} V_n$ and there exists a point $x_n$ in $V_n$, such that $n^{-1} x_n \notin A$, that is, $p(x_n) \geq n$. The sequence $(x_n)$ tends to 0, hence is bounded (III, p. 3, corollary); this contradicts the hypothesis on p.
 
 #### Corollary {#evt-iii-s2-n0-cor-2 .statement}
 
