@@ -1670,7 +1670,7 @@
         {
           "chapter": "V",
           "title": "HILBERTIAN SPACES (ELEMENTARY THEORY)",
-          "total": 45,
+          "total": 37,
           "sections": [
             {
               "section": 1,
@@ -1694,9 +1694,9 @@
               "section": 3,
               "label": "evt-v-s3",
               "dir": "s3",
-              "count": 23,
+              "count": 15,
               "first": 1,
-              "last": 23,
+              "last": 15,
               "starred": 5
             }
           ]

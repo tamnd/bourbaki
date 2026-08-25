@@ -786,3 +786,6 @@ chapters:
               title: Trace of a quadratic form with respect to another
               page: 57
               pdf_page: 315
+      historical_note:
+        page: 80
+        pdf_page: 338

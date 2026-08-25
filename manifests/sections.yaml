@@ -2498,7 +2498,7 @@ books:
               statements: 6
               exercises: 4
               extraction: ocr
-              content_sha256: c7e3321e3d8d4131883d603d9cf106f5a8ed1c2ce5cc0f579b8d581a2cc5aace
+              content_sha256: 0d07a448890f2831b0cc23b615935ec8e079f5380d64f4b62a604498fffec8be
             - kind: section
               section: 3
               title: Spaces of continuous linear mappings
@@ -2683,11 +2683,11 @@ books:
               path: content/en/evt/V/03_s3_tensor_product_of_hilbertian_spaces.md
               label: evt-v-s3
               first_pdf_page: 283
-              last_pdf_page: 368
-              book_pages: TVS V.25-TVS V.37
+              last_pdf_page: 337
+              book_pages: TVS V.25-TVS V.37, TVS V.73-TVS V.79
               subsections: 5
               statements: 20
-              exercises: 23
+              exercises: 15
               extraction: ocr
               content_sha256: 5320ca96d0fbf7d2dfb98223ff4c96d227dcf10d109366278dc53f396956465c
             - kind: section
@@ -2702,6 +2702,16 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: e91bc304651ce770d0fd7f9268828dea76e99a75428b9ae2fa319330bd7c91db
+            - kind: historical
+              title: Historical Note
+              path: content/en/evt/V/historical_note.md
+              first_pdf_page: 338
+              last_pdf_page: 368
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 3301b37893d77a89d49aabc34aa800501c54c374f23333cf2b037542ca81ec38
     - id: int-i-vi
       chapters:
         - chapter: I
