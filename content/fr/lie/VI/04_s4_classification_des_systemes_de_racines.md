@@ -418,17 +418,8 @@ Dans la pratique, on représente le graphe de Dynkin $ (X, f) $ par un dessin co
 
 $$
 \begin{array}{cc}
-\begin{tikzpicture}[baseline=(current bounding box.center)]
-\node[circle,draw,inner sep=2pt] (i) at (0,0) {};
-\node[circle,draw,inner sep=2pt] (j) at (1,0) {};
-\draw[->] (i) -- (j);
-\end{tikzpicture} & \text{(pour } f(i, j) = 2 \text{)}, \\
-\begin{tikzpicture}[baseline=(current bounding box.center)]
-\node[circle,draw,inner sep=2pt] (i) at (0,0) {};
-\node[circle,draw,inner sep=2pt] (j) at (1,0) {};
-\draw[->] (i) -- (j);
-\draw[->] (j) -- (i);
-\end{tikzpicture} & \text{(pour } f(i, j) = 3 \text{)}.
+\circ \Longrightarrow \circ & \text{(pour } f(i, j) = 2 \text{)}, \\
+\circ \Rrightarrow \circ & \text{(pour } f(i, j) = 3 \text{)}.
 \end{array}
 $$
 

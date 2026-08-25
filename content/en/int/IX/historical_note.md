@@ -204,8 +204,8 @@ $ K^+ $ ($ K $ a field): VII, 1, 10.
 $ \mathrm{mod}_K a ,\ \mathrm{mod}\ a $ ($ a $ an element of a locally compact field $ K $): VII, 1, 10.
 $ \mathcal{H}^\chi(X) ,\ \mathcal{H}_+^\chi(X) ,\ \mathcal{H}^1(X) ,\ f^\chi ,\ f^1 $ ($ X $ a locally compact space in which a locally compact group $ H $ operates, $ \chi $ a continuous representation of $ H $ in $ \mathbf{R}_+^* $): VII, 2, 1.
 $ f^b $: VII, 2, 2.
-$ \lambda^# ,\ \frac{\mu}{\beta} ,\ \mu/\beta $: VII, 2, 2.
-$ m^# $ ($ m $ a vectorial measure): VII, 2, 2.
+$ \lambda^{\#} ,\ \frac{\mu}{\beta} ,\ \mu/\beta $: VII, 2, 2.
+$ m^{\#} $ ($ m $ a vectorial measure): VII, 2, 2.
 $ T_J ,\ T_1(n,K) ,\ T(n,K) ,\ T(n,K)^* $: VII, 3, 3.
 
 Chapter VIII:
@@ -714,7 +714,7 @@ CHAPTER VII. — HAAR MEASURE ............................................. VII.
 §2. Quotient of a space by a group; homogeneous spaces ............. VII.27
     1. General results .................................................. VII.27
     2. The case $ \chi = 1 $ ........................................... VII.29
-    3. Another interpretation of $ \lambda^# $ .......................... VII.32
+    3. Another interpretation of $ \lambda^{\#} $ .......................... VII.32
     4. The case that X/H is paracompact ............................... VII.36
     5. Quasi-invariant measures on a homogeneous space ......... VII.38
     6. Relatively invariant measures on a homogeneous space .. VII.43

@@ -437,7 +437,7 @@ Or $ D^l \tau_h(x) $ n’est autre que la dérivée partielle $ l $-ième de $ m
 
 #### Proposition 5 {#lie-ix-s6-prop-5 .statement tag=01FE}
 
-*Supposons le groupe* H *compact et notons dh la mesure de Haar sur* H *de masse totale 1. Soit s une section de classe* $ C^r $ *de* E. *Pour* $ x \in X $, *notons* $ s^# $ l'intégrale vectorielle $ \int_H^{h s} dh $. Alors $ s^\# $ est une section de classe $ C^r $ de $ E $, invariante par $ H $; pour $ x \in X $, on a $ s^\#(x) = \int_H h s(h^{-1} x) \, dh \in E_x $. L'endomorphisme $ s \mapsto s^\# $ de $ \mathscr{S}^r(X; E) $ est un projecteur sur le sous-espace des sections $ H $-invariantes.
+*Supposons le groupe* H *compact et notons dh la mesure de Haar sur* H *de masse totale 1. Soit s une section de classe* $ C^r $ *de* E. *Pour* $ x \in X $, *notons* $ s^{\#} $ l'intégrale vectorielle $ \int_H^{h s} dh $. Alors $ s^\# $ est une section de classe $ C^r $ de $ E $, invariante par $ H $; pour $ x \in X $, on a $ s^\#(x) = \int_H h s(h^{-1} x) \, dh \in E_x $. L'endomorphisme $ s \mapsto s^\# $ de $ \mathscr{S}^r(X; E) $ est un projecteur sur le sous-espace des sections $ H $-invariantes.
 
 Considérons l'application $ h \mapsto ^h s $ de $ H $ dans $ \mathscr{S}^r(X; E) $; elle est continue d'après le lemme 4. Puisque l'espace $ \mathscr{S}^r(X; E) $ est séparé et complet, l'intégrale $ s^\# = \int_H ^h s \, dh $ appartient à $ \mathscr{S}^r(X; E) $ (INT, III, § 3, no 3, cor. 2). L'application linéaire $ s \mapsto s(x) $ de $ \mathscr{S}^r(X; E) $ dans $ E_x $ étant continue, on a $ s^\#(x) = \int_H ^h s(x) \, dh $ pour tout $ x \in X $. Il est clair que $ s^\# $ est invariante par $ H $; si $ s $ est une section $ H $-invariante, on a $ s^\# = s $, d'où la dernière assertion.
 
@@ -492,12 +492,12 @@ Une forme différentielle $ \omega \in \Omega(X) $ est invariante si on a $ \tau
 
 #### Théorème 2 {#lie-ix-s6-thm-2 .statement tag=01FI}
 
-L’injection canonique $ \iota : \Omega(X)^G \to \Omega(X) $ est un homotopisme de complexes (A, X, p. 33, déf. 5) ; l’application $ \omega \mapsto \omega^# = \int_G \tau_g^*\omega dg $ en est un homotopisme réciproque à homotopie près. En particulier, l’application $ H(\iota) : H(\Omega(X)^G) \to H(\Omega(X)) $ est bijective.
+L’injection canonique $ \iota : \Omega(X)^G \to \Omega(X) $ est un homotopisme de complexes (A, X, p. 33, déf. 5) ; l’application $ \omega \mapsto \omega^{\#} = \int_G \tau_g^*\omega dg $ en est un homotopisme réciproque à homotopie près. En particulier, l’application $ H(\iota) : H(\Omega(X)^G) \to H(\Omega(X)) $ est bijective.
 
-D’après le cor. 3 du n° 4, l’application $ \omega \mapsto \omega^# $ est un morphisme de complexes de $ \Omega(X) $ dans $ \Omega(X)^G $, qui induit l’identité sur le sous-complexe $ \Omega(X)^G $ ; pour démontrer le théorème, il suffit donc de construire un homomorphisme $ s : \Omega(X) \to \Omega(X) $, gradué de degré – 1, tel que
+D’après le cor. 3 du n° 4, l’application $ \omega \mapsto \omega^{\#} $ est un morphisme de complexes de $ \Omega(X) $ dans $ \Omega(X)^G $, qui induit l’identité sur le sous-complexe $ \Omega(X)^G $ ; pour démontrer le théorème, il suffit donc de construire un homomorphisme $ s : \Omega(X) \to \Omega(X) $, gradué de degré – 1, tel que
 
 $$
-\omega^# - \omega = (d \circ s + s \circ d)(\omega) \quad \text{pour tout } \omega \in \Omega(X).
+\omega^{\#} - \omega = (d \circ s + s \circ d)(\omega) \quad \text{pour tout } \omega \in \Omega(X).
 $$
 
 D’après le lemme 1 de INT, IX, § 2, n° 4 et la remarque 1 du § 2, n° 2, il existe une mesure positive $ d\xi $ sur g, à support compact, dont l’image par l’application exponentielle est égale à $ dg $. Posons, pour $ \omega \in \Omega(X) $,
@@ -520,7 +520,7 @@ ds(\omega) + s(d\omega) &= \int_0^1 \left\{ \int_g \tau_{\exp t\xi}^* (d(i(\xi)\
 &= \int_0^1 \left\{ \int_g \tau_{\exp t\xi}^* (\theta(\xi)\omega) \cdot d\xi \right\} dt \\
 &= \int_g \left\{ \int_0^1 \frac{d}{dt} (\tau_{\exp t\xi}^* \omega) \, dt \right\} d\xi \\
 &= \int_g (\tau_{\exp \xi}^* \omega - \omega) \, d\xi \\
-&= \omega^# - \omega ,
+&= \omega^{\#} - \omega ,
 \end{align*}
 $$
 

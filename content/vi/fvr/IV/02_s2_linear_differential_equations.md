@@ -433,7 +433,7 @@ $$
 \frac{d\mathbf{x}}{dt} = B(t).\mathbf{x} \tag{16}
 $$
 
-*trong đó $ -B(t) $ là chuyển vị của $ A(t) $. \*
+*trong đó $ -B(t) $ là chuyển vị của $ A(t) $. *
 
 Phương trình (16) được gọi là *liên hợp* của (4); rõ ràng (4) là phương trình liên hợp của (16). Các phần tử của ma trận $ B(t) $ là các hàm điều chỉnh của $ t $ trên J, nên các kết quả thu được ở trên về phương trình tuyến tính áp dụng cho (16). Đặc biệt, nghiệm của (16) nhận giá trị $ \mathbf{x}_0^* $ tại điểm $ t_0 $ có thể viết dưới dạng $ H(t, t_0).\mathbf{x}_0^* $, trong đó $ H(t, t_0) $ là một ánh xạ tuyến tính song ánh của $ \mathrm{E}^* $ lên chính nó, trùng với nghiệm của phương trình
 

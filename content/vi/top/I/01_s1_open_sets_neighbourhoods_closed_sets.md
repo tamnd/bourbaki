@@ -289,7 +289,7 @@ Một tập con $ A $ của một không gian tôpô $ X $ được gọi là tr
 
 #### Ví dụ {#top-i-s1-n6-exa-1 .statement}
 
-\* Ta sẽ thấy ở Chương IV, § 1 rằng tập hợp các số hữu tỉ và phần bù của nó là trù mật trên đường thẳng thực. \*
+* Ta sẽ thấy ở Chương IV, § 1 rằng tập hợp các số hữu tỉ và phần bù của nó là trù mật trên đường thẳng thực. *
 Trong một không gian rời rạc $ X $ thì tập con trù mật duy nhất của $ X $ là chính $ X $. Mặt khác, mọi tập con không rỗng của $ X $ đều trù mật đối với tôpô trên $ X $ mà trong đó các tập mở duy nhất là $ \varnothing $ và $ X $.
 
 #### Mệnh đề 6 {#top-i-s1-prop-6 .statement}

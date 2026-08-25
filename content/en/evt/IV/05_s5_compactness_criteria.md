@@ -157,7 +157,7 @@ Since the topology of precompact convergence on $ F' $ is finer than the topolog
 
 Šmulian’s theorem can be extended to the case where E is the strict inductive limit of a sequence of Fréchet spaces (IV, p. 67, exerc. 2).
 
-### \*4. The case of spaces of bounded continuous functions*
+### *4. The case of spaces of bounded continuous functions*
 
 For every topological space X, let $ \mathscr{C}^b(X) $ denote the Banach space of all continuous and *bounded* mappings from X into K, with the norm defined by
 
@@ -191,9 +191,9 @@ $$
 $$
 exist, then $\gamma = \delta$.
 
-Let X be the Stone-Čech compactification of S (GT, IX, § 1, No. 6) and $\alpha$ the canonical mapping from S into X. Put D = $\alpha(S)$. The mapping $\phi : f \mapsto f \circ \alpha$ is an isomorphism from the normed space $C(X)$ onto the normed space $C^b(S)$; put $\tilde{A} = \phi^{-1}(A)$. Since X is compact and D is dense in X, the prop. 2 (IV, p. 33) shows that condition (ii) is equivalent to the compactness of $\tilde{A}$ for the topology of simple convergence. The equivalence of (i) and (ii) then follows from prop. 3. \*
+Let X be the Stone-Čech compactification of S (GT, IX, § 1, No. 6) and $\alpha$ the canonical mapping from S into X. Put D = $\alpha(S)$. The mapping $\phi : f \mapsto f \circ \alpha$ is an isomorphism from the normed space $C(X)$ onto the normed space $C^b(S)$; put $\tilde{A} = \phi^{-1}(A)$. Since X is compact and D is dense in X, the prop. 2 (IV, p. 33) shows that condition (ii) is equivalent to the compactness of $\tilde{A}$ for the topology of simple convergence. The equivalence of (i) and (ii) then follows from prop. 3. *
 
-### \*5. Convex envelope of a weakly compact set
+### *5. Convex envelope of a weakly compact set
 
 #### Theorem 3 (Krein) {#evt-iv-s5-thm-3 .statement}
 

@@ -793,7 +793,7 @@ et l’assertion $a)$ résulte de la prop. 4 du no 6.
 
 L’homomorphisme $\Phi_0$ définit un isomorphisme de $W(A)/V_1(A)$ sur $A$ (no 7, exemple 1). L’idéal $V_1(A)$ de $W(A)$ est donc maximal. Comme l’anneau $W(A)$ est séparé et complet pour la topologie $V_1(A)$-adique (prop. 6, $b$), c’est un anneau local, d’idéal maximal $V_1(A)$ (III, § 2, no 13, prop. 19).
 
-Soient $a$ et $b$ deux éléments non nuls de $W(A)$. Il existe des entiers $m \geqslant 0$ et $n \geqslant 0$, et des éléments $a' = (a'_n)_{n \in \mathbf{N}}$ et $b' = (b'_n)_{n \in \mathbf{N}}$ de $W(A)$ tels que $a = V^m(a')$, $b = V^n(b')$ et que les éléments $a'_0$ et $b'_0$ de $A$ soient non nuls. Alors la composante d’indice $m + n$ de $a \times b$ est égale à la composante d’indice 0 de $F^n(a') \times F^m(b')$ (formule (53)), c’est-à-dire à $a'_0^{p^n} b'_0^{p^m}$ (formule (51) et no 3, exemple 2). Par suite $a \times b$ est non nul et $W(A)$ est intègre.
+Soient $a$ et $b$ deux éléments non nuls de $W(A)$. Il existe des entiers $m \geqslant 0$ et $n \geqslant 0$, et des éléments $a' = (a'_n)_{n \in \mathbf{N}}$ et $b' = (b'_n)_{n \in \mathbf{N}}$ de $W(A)$ tels que $a = V^m(a')$, $b = V^n(b')$ et que les éléments $a'_0$ et $b'_0$ de $A$ soient non nuls. Alors la composante d’indice $m + n$ de $a \times b$ est égale à la composante d’indice 0 de $F^n(a') \times F^m(b')$ (formule (53)), c’est-à-dire à ${a'_0}^{p^n} {b'_0}^{p^m}$ (formule (51) et no 3, exemple 2). Par suite $a \times b$ est non nul et $W(A)$ est intègre.
 
 Si le corps $A$ est parfait, l’idéal maximal $V_1(A)$ de $W(A)$ est égal à $p.W(A)$ (prop. 7, b)) et par suite W(A) est un anneau de valuation discrète (VI, § 3, n° 6, prop. 9, c)).
 

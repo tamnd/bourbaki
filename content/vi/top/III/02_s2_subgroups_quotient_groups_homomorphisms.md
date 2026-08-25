@@ -120,7 +120,7 @@ Let $ V $ là một *lân cận đối xứng* của $ e $ trong $ G $. Nhóm co
 
 Mệnh đề đảo của mệnh đề này nói chung là sai, như ta sẽ thấy ở Chương IV (\$ 2, no. 5). Nếu một nhóm tôpô $ G $ được sinh bởi mỗi lân cận của phần tử đơn vị, thì điều nhiều nhất ta có thể nói là $ G $ không chứa *nhóm con mở* nào khác ngoài $ G $.
 
-\* Làm một ví dụ về một nhóm không liên thông $ G $ có một nhóm con mở phân biệt với $ G $, ta có thể nêu *nhóm nhân* $ \mathbf{R}^* $ của các số thực khác không, trong đó nhóm con $ \mathbf{R}_+^* $ của các số thực $ > 0 $ vừa mở vừa đóng (xem Chương IV, \$ 3, no. 2). \*
+\* Làm một ví dụ về một nhóm không liên thông $ G $ có một nhóm con mở phân biệt với $ G $, ta có thể nêu *nhóm nhân* $ \mathbf{R}^* $ của các số thực khác không, trong đó nhóm con $ \mathbf{R}_+^* $ của các số thực $ > 0 $ vừa mở vừa đóng (xem Chương IV, \$ 3, no. 2). *
 
 #### Mệnh đề 7 {#top-iii-s2-prop-7 .statement}
 

@@ -435,7 +435,7 @@ $$
 
 d) Parts a) and c) of the proof show that D is anti-invariant under G. Next, if $ y \in R $, it is clear that $ yD $ is anti-invariant under G. Finally, if $ z \in S $ is anti-invariant under G, we have seen in b) that there exists $ y \in S $ such that $ z = yD $. Since S is integral, $ y \in R $. This proves (i).
 
-### \*5. COMPLEMENTS*
+### *5. COMPLEMENTS*
 
 #### Lemma 4 {#lie-v-s5-lem-4 .statement}
 

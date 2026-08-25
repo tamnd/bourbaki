@@ -130,7 +130,6 @@ U_\lambda^\xi(f(\xi)): 290
 
 Index
 
-wlog\indfile=\read1
 Adjoining a root of a polynomial, of a primitive, of an exponential of a primitive, to a differential field, 121
 Adjoint (equation) of a differential linear equation, 186
 Appell polynomials, 272

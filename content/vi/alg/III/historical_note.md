@@ -455,7 +455,7 @@ u \perp x, i'(u): III, § 11, no. 7.
 G_p(E), G_{n,p}(K): III, § 11, no. 13.
 a(x, y, z): III, Phụ lục, no. 1.
 ME: III, § 2, Bài tập 13.
-E \* F: III, § 5, Bài tập 6.
+E * F: III, § 5, Bài tập 6.
 R[a]: III, § 6, Bài tập 4.
 K[X; \sigma, d]: III, § 10, Bài tập 3.
 \tilde{X}: III, § 11, Bài tập 9.

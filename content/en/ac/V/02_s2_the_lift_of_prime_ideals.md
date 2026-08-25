@@ -249,7 +249,7 @@ $$
 
 *for all* $ x \in A' $.
 
-Let $ p'_i $ be the kernel of $ f_i $ ($ i = 1, 2 $) which is a prime ideal of $ A' $; by hypothesis $ p'_1 \cap A = p'_2 \cap A $ and this intersection is a prime ideal $ p $ of $ A $; there therefore exists $ \tau \in \mathcal{G} $ such that $ \tau.p'_2 = p'_1 $ (Theorem 2 (i)); replacing $ f_1 $ by the homomorphism $ x \mapsto f_1(\tau.x) $ we may then assume that $ p'_2 = p'_1 $ (an ideal which we shall denote by $ p' $). By taking the quotient we then derive from $ f_1 $ and $ f_2 $ two injective homomorphisms $ f'_1, f'_2 $ from $ A'/p' $ to $ L $ which therefore extend to two injective homomorphisms $ f''_1, f''_2 $ from the field of fractions $ k' $ of $ A'/p' $ to $ L $. As $ k' $ is a quasi-Galois extension of $ k $, so is $ k''_1 = f''_1(k') $ and $ k''_2 = f''_2(k') $ (k being identified with a subfield of $ L $) and, as there is a k-isomorphism of $ k''_1 $ onto $ k''_2, k''_1 = k''_2 $ (*Algebra*, Chapter V, § 6, Proposition 6). Thus $ f''_1 \circ f''_2^{-1} $ is a k-automorphism of $ k' $; by Theorem 2 (ii) it is therefore of the form 6, where $ \sigma \in \mathcal{G}^z(p') $. In particular, for all $ x \in A' $ the elements $ f_2(x) $ and $ f_1(\sigma.x) $ are equal.
+Let $ p'_i $ be the kernel of $ f_i $ ($ i = 1, 2 $) which is a prime ideal of $ A' $; by hypothesis $ p'_1 \cap A = p'_2 \cap A $ and this intersection is a prime ideal $ p $ of $ A $; there therefore exists $ \tau \in \mathcal{G} $ such that $ \tau.p'_2 = p'_1 $ (Theorem 2 (i)); replacing $ f_1 $ by the homomorphism $ x \mapsto f_1(\tau.x) $ we may then assume that $ p'_2 = p'_1 $ (an ideal which we shall denote by $ p' $). By taking the quotient we then derive from $ f_1 $ and $ f_2 $ two injective homomorphisms $ f'_1, f'_2 $ from $ A'/p' $ to $ L $ which therefore extend to two injective homomorphisms $ f''_1, f''_2 $ from the field of fractions $ k' $ of $ A'/p' $ to $ L $. As $ k' $ is a quasi-Galois extension of $ k $, so is $ k''_1 = f''_1(k') $ and $ k''_2 = f''_2(k') $ (k being identified with a subfield of $ L $) and, as there is a k-isomorphism of $ k''_1 $ onto $ k''_2, k''_1 = k''_2 $ (*Algebra*, Chapter V, § 6, Proposition 6). Thus $ f''_1 \circ {f''_2}^{-1} $ is a k-automorphism of $ k' $; by Theorem 2 (ii) it is therefore of the form 6, where $ \sigma \in \mathcal{G}^z(p') $. In particular, for all $ x \in A' $ the elements $ f_2(x) $ and $ f_1(\sigma.x) $ are equal.
 
 **Remarks**
 
@@ -267,7 +267,7 @@ Let $ p'_i $ be the kernel of $ f_i $ ($ i = 1, 2 $) which is a prime ideal of $
 (a) *The rings $ A/p $ and $ B/p(B) $ have the same field of fractions*.
 (b) *The maximal ideal of the local ring $ B_{p(B)} $ is equal to $ pB_{p(B)} $*.
 
-(iii) *Suppose further that $ A' $ is an integral domain and that $ \bigcap_{n \geq 0} p^nA'_p = 0 $; then conditions (a) and (b) & (ii) imply that $ \mathcal{G}^z(p') $ leaves invariant the elements of $ B $*.
+(iii) *Suppose further that $ A' $ is an integral domain and that $ \bigcap_{n \geq 0} p^nA'_p = 0 $; then conditions (a) and (b) of (ii) imply that $ \mathcal{G}^z(p') $ leaves invariant the elements of $ B $*.
 
 (i) It follows from Theorem 2 (i) that the prime ideals of $ A $ lying above $ p(B) $ are the ideals of the form $ \sigma.p' $, where $ \sigma \in \mathcal{H} $; whence immediately (i).
 

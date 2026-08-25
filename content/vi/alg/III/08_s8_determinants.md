@@ -795,7 +795,7 @@ Trong no. này ta sẽ xét trường hợp $ A $ là một *trường*. Nhắc 
 
 #### Mệnh đề 17 {#alg-iii-s8-prop-17 .statement}
 
-*Cho $ K $ là một trường giao hoán. Nhóm đơn môđula $ \mathbf{SL}(n, K) $ được sinh bởi các ma trận $ B_{ij}(\lambda) $ với $ i \neq j $ và $ \lambda \in K $. \*
+*Cho $ K $ là một trường giao hoán. Nhóm đơn môđula $ \mathbf{SL}(n, K) $ được sinh bởi các ma trận $ B_{ij}(\lambda) $ với $ i \neq j $ và $ \lambda \in K $. *
 
 Theo II, § 10, no. 13, Mệnh đề 14, ta biết rằng mọi ma trận trong $ \mathbf{GL}(n, K) $ đều là một tích của các ma trận có dạng $ B_{ij}(\lambda) $ và một ma trận có dạng $ \operatorname{diag}(1, 1, \ldots, 1, \alpha) $ với $ \alpha \in K^* $. Bây giờ là ngay lập tức rằng $ \det(B_{ij}(\lambda)) = 1 $ và $ \det(\operatorname{diag}(1, \ldots, 1, \alpha)) = \alpha $ (no. 6, *Ví dụ 2*); do đó có mệnh đề.
 

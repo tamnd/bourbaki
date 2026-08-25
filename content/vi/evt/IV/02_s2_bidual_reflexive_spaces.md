@@ -206,8 +206,8 @@ $$
 
 với mọi $ \mathbf{x} \in c_0(\mathbf{N}) $ và $ \mathbf{x}' \in \ell^1(\mathbf{N}) $. Tương tự, đối ngẫu của $ \ell^1(\mathbf{N}) $ có thể được đồng nhất với $ \ell^\infty(\mathbf{N}) $ sao cho ta có quan hệ (5) với mọi $ \mathbf{x} \in \ell^1(\mathbf{N}) $ và mọi $ \mathbf{x}' \in \ell^\infty(\mathbf{N}) $. Do đó $ \ell^\infty(\mathbf{N}) $ là đối ngẫu kép của $ c_0(\mathbf{N}) $, và không gian này không phản xạ.
 
-\* 2) Mọi không gian Hilbert đều là một không gian Banach phản xạ (V, p. 17).
-\* 3) Cho X là một không gian tôpô Hausdorff và $ \mu $ là một độ đo phức trên X. Với mọi số thực $ p > 1 $, không gian Banach $ L^p(X, \mu) $ là phản xạ, và đối ngẫu của nó có thể được đồng nhất với $ L^q(X, \mu) $ với $ p^{-1} + q^{-1} = 1 $ (INT, V, ấn bản thứ hai, § 5, No. 8 và IX, § 1, No. 10).
+* 2) Mọi không gian Hilbert đều là một không gian Banach phản xạ (V, p. 17).
+* 3) Cho X là một không gian tôpô Hausdorff và $ \mu $ là một độ đo phức trên X. Với mọi số thực $ p > 1 $, không gian Banach $ L^p(X, \mu) $ là phản xạ, và đối ngẫu của nó có thể được đồng nhất với $ L^q(X, \mu) $ với $ p^{-1} + q^{-1} = 1 $ (INT, V, ấn bản thứ hai, § 5, No. 8 và IX, § 1, No. 10).
 
 ### 5. Không gian Montel
 
@@ -221,7 +221,7 @@ Mọi không gian Hausdorff hữu hạn chiều là một không gian Montel. M�
 
 #### Ví dụ 2 {#evt-iv-s2-n5-exa-2 .statement}
 
-Với các ký hiệu và giả thiết của mệnh đề 7 của III, p. 6, không gian E, là giới hạn quy nạp của các không gian Banach, là barreled (III, p. 25); hơn nữa, mọi tập con bị chặn của E đều tương đối compact (III, p. 6, mệnh đề 7). Nói cách khác, E là một không gian Montel. Đặc biệt, các không gian Gevrey (III, p. 10) là các không gian Montel. \* Điều này đúng cho không gian $ \mathcal{H}(K) $ gồm các mầm của các hàm giải tích trong một lân cận của một tập con compact K của $ \mathbf{C}^n $ (III, p. 10).*
+Với các ký hiệu và giả thiết của mệnh đề 7 của III, p. 6, không gian E, là giới hạn quy nạp của các không gian Banach, là barreled (III, p. 25); hơn nữa, mọi tập con bị chặn của E đều tương đối compact (III, p. 6, mệnh đề 7). Nói cách khác, E là một không gian Montel. Đặc biệt, các không gian Gevrey (III, p. 10) là các không gian Montel. * Điều này đúng cho không gian $ \mathcal{H}(K) $ gồm các mầm của các hàm giải tích trong một lân cận của một tập con compact K của $ \mathbf{C}^n $ (III, p. 10).*
 
 #### Ví dụ 3 {#evt-iv-s2-n5-exa-3 .statement}
 
@@ -231,7 +231,7 @@ Mọi giới hạn quy nạp ngặt E của một dãy $ (E_n) $ các không gia
 
 Cho U là một tập mở trong $ \mathbf{R}^n $ và cho $ \mathcal{C}^\infty(U) $ là không gian Fréchet của các hàm khả vi vô hạn trên U (III, p. 9). Ta sẽ chứng minh rằng đây là một không gian Montel. Vì $ \mathcal{C}^\infty(U) $ là một không gian Fréchet, nên nó là barreled (III, p. 25, hệ quả). Cho B là một tập con bị chặn của $ \mathcal{C}^\infty(U) $ và cho K là một tập con compact của U. Với mọi $ \alpha \in \mathbf{N}^n $ cho $ H_{\alpha, K} $ là tập các hạn chế lên K của các hàm $ \partial^\alpha f $, khi $ f $ chạy qua B. Cho $ \alpha \in \mathbf{N}^n $; với mọi $ \beta \in \mathbf{N}^n $ sao cho $ |\beta| = |\alpha| + 1 $, tập $ H_{\alpha, K} $ bị chặn trong $ \mathcal{C}(K) $ vì B bị chặn trong $ \mathcal{C}^\infty(U) $; theo VAR, R., No. 2.2.3, tập $ H_{\alpha, K} $ đều liên tục, do đó (GT, X, § 2, No. 5) tương đối compact trong $ \mathcal{C}(K) $. Nhưng tôpô của $ \mathcal{C}^\infty(U) $ là thô nhất trong số các tôpô sao cho mọi ánh xạ $ f \mapsto \partial^\alpha f|K $ từ $ \mathcal{C}^\infty(U) $ vào $ \mathcal{C}(K) $ đều liên tục, do đó B tương đối compact trong $ \mathcal{C}^\infty(U) $ (GT, I, § 4, No. 1, mệnh đề 3 và § 9, No. 5, hệ quả).
 
-Tương tự, *không gian $ \mathcal{C}_0^\infty(U) $ của tất cả các hàm khả vi vô hạn có giá compact trong U* (III, p. 9) *là một không gian Montel*. Thật vậy, $ \mathcal{C}_0^\infty(U) $ là giới hạn quy nạp ngặt của một dãy $ \mathcal{C}_{H_n}^\infty(U) $ các không gian Fréchet (III, p. 9), và chỉ cần thấy rằng mỗi không gian $ \mathcal{C}_{H_n}^\infty(U) $ là một không gian Montel (*Ví dụ 3*). Nhưng một tập con bị chặn và đóng của $ \mathcal{C}_0^\infty(U) $ là đóng và bị chặn trong $ \mathcal{C}^\infty(U) $, do đó compact trong $ \mathcal{C}^\infty(U) $, và suy ra trong $ \mathcal{C}_{H_n}^\infty(U) $. \*
+Tương tự, *không gian $ \mathcal{C}_0^\infty(U) $ của tất cả các hàm khả vi vô hạn có giá compact trong U* (III, p. 9) *là một không gian Montel*. Thật vậy, $ \mathcal{C}_0^\infty(U) $ là giới hạn quy nạp ngặt của một dãy $ \mathcal{C}_{H_n}^\infty(U) $ các không gian Fréchet (III, p. 9), và chỉ cần thấy rằng mỗi không gian $ \mathcal{C}_{H_n}^\infty(U) $ là một không gian Montel (*Ví dụ 3*). Nhưng một tập con bị chặn và đóng của $ \mathcal{C}_0^\infty(U) $ là đóng và bị chặn trong $ \mathcal{C}^\infty(U) $, do đó compact trong $ \mathcal{C}^\infty(U) $, và suy ra trong $ \mathcal{C}_{H_n}^\infty(U) $. *
 
 #### Mệnh đề 8 {#evt-iv-s2-prop-8 .statement}
 

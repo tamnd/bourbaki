@@ -553,7 +553,7 @@ Pour tout $ \mathbf{Z} $-module libre de type fini $ M $, le triplet $ (M, M, \v
 
 #### Exemple 2 {#lie-ix-s4-n8-exa-2 .statement tag=01CN}
 
-Si $ D = (M, M_0, R) $ est un diagramme radiciel, soit $ M_0^* $ l’orthogonal de $ V(R) $ dans $ M^* $, et soit $ R^\vee $ l’ensemble des racines inverses de $ D $. Alors $ D^\vee = (M^*, M_0^*, R^\vee) $ est un diagramme radiciel, dit *inverse* de $ D $. Pour tout $ \alpha \in R $, la symétrie $ s_{\alpha^\vee} $ de $ M^* $ est l’automorphisme contragrédient de la symétrie $ s_\alpha $ de $ M $; l’application $ w \mapsto {}^t_w^{-1} $ est un isomorphisme de $ W(D) $ sur $ W(D^\vee) $. De plus, $ V(R^\vee) $ s’identifie naturellement au dual du Q-espace vectoriel V(R), $ R^\vee $ s’identifiant alors au système de racines inverse de R.
+Si $ D = (M, M_0, R) $ est un diagramme radiciel, soit $ M_0^* $ l’orthogonal de $ V(R) $ dans $ M^* $, et soit $ R^\vee $ l’ensemble des racines inverses de $ D $. Alors $ D^\vee = (M^*, M_0^*, R^\vee) $ est un diagramme radiciel, dit *inverse* de $ D $. Pour tout $ \alpha \in R $, la symétrie $ s_{\alpha^\vee} $ de $ M^* $ est l’automorphisme contragrédient de la symétrie $ s_\alpha $ de $ M $; l’application $ w \mapsto {}^t w^{-1} $ est un isomorphisme de $ W(D) $ sur $ W(D^\vee) $. De plus, $ V(R^\vee) $ s’identifie naturellement au dual du Q-espace vectoriel V(R), $ R^\vee $ s’identifiant alors au système de racines inverse de R.
 
 Si l’on identifie le dual de $ M^* $ à M, le diagramme inverse de $ D^\vee $ s’identifie à D.
 

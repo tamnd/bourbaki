@@ -70,7 +70,7 @@ Note that this corollary applies in particular if $ X $ is *locally compact and 
 Now let $ Y $ be a metric space and let $ d $ be its metric. If $ X $ is any set and $ \mathcal{S} $ any set of subsets of $ X $, we shall denote by $ \mathcal{B}_{\mathcal{S}}(X; Y) $ the set of all mappings $ u : X \to Y $ such that $ u(A) $ is *bounded* for each $ A \in \mathcal{S} $. Unless the contrary is expressly stated we shall regard $ \mathcal{B}_{\mathcal{S}}(X; Y) $ as endowed with the uniformity of $ \mathcal{S} $-convergence, which is defined by the following family of pseudometrics on $ \mathcal{B}_{\mathcal{S}}(X; Y) $:
 
 $$
-d_A(u, v) = \sup_{x \in A} d(u(x), v(x)) \tag{A \in \mathcal{S}}
+d_A(u, v) = \sup_{x \in A} d(u(x), v(x)) \tag{$A \in \mathcal{S}$}
 $$
 
 which are *finite* by hypothesis. When $ \mathcal{S} = \{X\} $, we write $ \mathcal{B}(X; Y) $ in place of $ \mathcal{B}_{\mathcal{S}}(X; Y) $. A mapping $ u : X \to Y $ is said to be *bounded* if it belongs to $ \mathcal{B}(X; Y) $, i.e. if $ u(X) $ is a bounded subset of $ Y $.

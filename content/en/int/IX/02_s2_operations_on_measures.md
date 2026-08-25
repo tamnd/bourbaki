@@ -513,7 +513,7 @@ The formula (12) results from Prop. 5 of Ch. V, §3, No. 2.
 B) Suppose that there exists a compact subset $ X' $ of $ X $ carrying the measure $ \nu $ and such that $ p_{X'} $ is continuous:
 Set $ T' = p(X') $, and $ p' = p_{X'} $; let us denote by $ \nu' $ the measure $ \nu_{X'} $, and by $ \mu' $ the image measure $ p'(\nu') $ on $ T' $. Since $ p' $ is continuous and surjective and since $ X' $ is compact and metrizable, by A) there exists a mapping $ \Lambda' : t' \mapsto \lambda'_{t'} $ of $ T' $ into $ \mathcal{M}_+(X') $ satisfying the following conditions:
 a') for every $ t' \in T' $, the measure $ \lambda'_{t'} $ is carried by $ X' \cap \overline{p}'(t') $;
-b') for every universally measurable positive function $ f' $ on $ X' $, the function $ t' \mapsto \lambda'_{t'}^\bullet(f') $ is universally measurable on $ T' $ and
+b') for every universally measurable positive function $ f' $ on $ X' $, the function $ t' \mapsto {\lambda'_{t'}}^\bullet(f') $ is universally measurable on $ T' $ and
 $$
 \int_{X'} f'(x') \, d\nu'(x') = \int_{T'} d\mu'(t') \int_{X'} f'(x') \, d\lambda'_{t'}(x').
 $$

@@ -266,7 +266,7 @@ $$
 
 #### Mệnh đề 5 {#alg-ii-s7-prop-5 .statement}
 
-*Cho F, F' là hai không gian con của một không gian vectơ E, sao cho $F \subset F'$. Khi đó $\operatorname{codim}_E F' \leq \operatorname{codim}_E F \leq \dim E$. Nếu $\operatorname{codim}_E F$ hữu hạn, thì quan hệ $\operatorname{codim}_E F' = \operatorname{codim}_E F$ suy ra $F = F'$. \*
+*Cho F, F' là hai không gian con của một không gian vectơ E, sao cho $F \subset F'$. Khi đó $\operatorname{codim}_E F' \leq \operatorname{codim}_E F \leq \dim E$. Nếu $\operatorname{codim}_E F$ hữu hạn, thì quan hệ $\operatorname{codim}_E F' = \operatorname{codim}_E F$ suy ra $F = F'$. *
 
 Bất đẳng thức $\operatorname{codim}_E F \leq \dim E$ là hiển nhiên từ (9) và nếu $\dim E$ hữu hạn thì quan hệ $\operatorname{codim}_E F = \dim E$ suy ra $\dim F = 0$ và do đó $F = \{0\}$. Phần còn lại của mệnh đề suy ra từ đó, vì
 $$

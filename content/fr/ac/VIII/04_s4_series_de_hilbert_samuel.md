@@ -485,23 +485,23 @@ Supposons q contenu dans le radical de A ; alors $ \dim(\hat{M}) = \dim(M) $ (*l
 
 #### Lemme 5 {#ac-viii-s4-lem-5 .statement}
 
-Soient A un anneau, M un A-module et $ (P_n), (Q_n) $ deux filtrations décroissantes sur M formées de sous-modules. Supposons que l’on ait $ P_n \supset Q_n $ et $ \long_A(P_n/Q_n) < +\infty $ pour tout $ n \in \mathbf{Z} $ et qu’il existe un entier $ n_1 $ tel que $ Q_{n_1} = M $. Dans $ \mathbf{Z}((T)) $, on a les inégalités
+Soient A un anneau, M un A-module et $ (P_n), (Q_n) $ deux filtrations décroissantes sur M formées de sous-modules. Supposons que l’on ait $ P_n \supset Q_n $ et $ \operatorname{long}_A(P_n/Q_n) < +\infty $ pour tout $ n \in \mathbf{Z} $ et qu’il existe un entier $ n_1 $ tel que $ Q_{n_1} = M $. Dans $ \mathbf{Z}((T)) $, on a les inégalités
 
 $$
-\sum_{n \in \mathbf{Z}} \long_A((P_{n+1} \cap Q_n)/Q_{n+1}).T^n \leq \sum_{n \in \mathbf{Z}} \long_A(P_{n+1}/Q_{n+1}).T^n \leq
+\sum_{n \in \mathbf{Z}} \operatorname{long}_A((P_{n+1} \cap Q_n)/Q_{n+1}).T^n \leq \sum_{n \in \mathbf{Z}} \operatorname{long}_A(P_{n+1}/Q_{n+1}).T^n \leq
 $$
 $$
-\leq (1-T)^{-1} \sum_{n \in \mathbf{Z}} \long_A((P_{n+1} \cap Q_n)/Q_{n+1}).T^n .
+\leq (1-T)^{-1} \sum_{n \in \mathbf{Z}} \operatorname{long}_A((P_{n+1} \cap Q_n)/Q_{n+1}).T^n .
 $$
 
 Il s’agit de prouver qu’on a les inégalités
 
-(15) $ \long((P_{n+1} \cap Q_n)/Q_{n+1}) \leq \long(P_{n+1}/Q_{n+1}) $,
-(16) $ \long(P_{n+1}/Q_{n+1}) \leq \sum_{i \leq n} \long((P_{i+1} \cap Q_i)/Q_{i+1}) $.
+(15) $ \operatorname{long}((P_{n+1} \cap Q_n)/Q_{n+1}) \leq \operatorname{long}(P_{n+1}/Q_{n+1}) $,
+(16) $ \operatorname{long}(P_{n+1}/Q_{n+1}) \leq \sum_{i \leq n} \operatorname{long}((P_{i+1} \cap Q_i)/Q_{i+1}) $.
 
 La première est évidente. D’autre part, on a $ P_{n+1} \cap Q_i = P_{n+1} $ pour $ i \leq n_1 $ et $ P_{n+1} \cap Q_{n+1} = Q_{n+1} $; on en déduit l’inégalité
 $$
-\long(P_{n+1}/Q_{n+1}) \leq \sum_{i \leq n} \long((P_{n+1} \cap Q_i)/(P_{n+1} \cap Q_{i+1})) .
+\operatorname{long}(P_{n+1}/Q_{n+1}) \leq \sum_{i \leq n} \operatorname{long}((P_{n+1} \cap Q_i)/(P_{n+1} \cap Q_{i+1})) .
 $$
 
 Mais le A-module $ (P_{n+1} \cap Q_i)/(P_{n+1} \cap Q_{i+1}) $ est isomorphe à un sous-module de $ (P_{i+1} \cap Q_i)/Q_{i+1} $, et l’inégalité (16) en résulte.
@@ -511,16 +511,16 @@ Mais le A-module $ (P_{n+1} \cap Q_i)/(P_{n+1} \cap Q_{i+1}) $ est isomorphe à 
 Soient A un anneau, M un A-module et $ (F_n) $ une filtration décroissante sur M formée de sous-modules ; on suppose qu’il existe un entier $ n_1 $ tel que $ F_{n_1} = M $. Soient f un endomorphisme de M, $ M' $ son noyau et $ M'' $ son conoyau. On munit $ M' $ de la filtration $ (F'_n) $ induite par $ (F_n) $ et $ M'' $ de la filtration $ (F''_n) $ quotient de $ (F_n) $. On suppose que $ F_n/F_{n+1} $ est de longueur finie pour tout $ n \in \mathbf{Z} $ et qu’il existe un entier $ \delta $ tel que $ f(F_n) \subset F_{n+\delta} $. Soit $ \varphi $ l’endomorphisme gradué de degré $ \delta $ du module gradué $ \mathrm{gr}(M) = \bigoplus_{n \in \mathbf{Z}} F_n/F_{n+1} $ qu’on déduit de f. Entre les éléments suivants de $ \mathbf{Z}((T)) $
 
 $$
-H_M = \sum_{n \in \mathbf{Z}} \long_A(F_n/F_{n+1}).T^n
+H_M = \sum_{n \in \mathbf{Z}} \operatorname{long}_A(F_n/F_{n+1}).T^n
 $$
 $$
-H_{M'} = \sum_{n \in \mathbf{Z}} \long_A(F'_n/F'_{n+1}).T^n
+H_{M'} = \sum_{n \in \mathbf{Z}} \operatorname{long}_A(F'_n/F'_{n+1}).T^n
 $$
 $$
-H_{M''} = \sum_{n \in \mathbf{Z}} \long_A(F''_n/F''_{n+1}).T^n
+H_{M''} = \sum_{n \in \mathbf{Z}} \operatorname{long}_A(F''_n/F''_{n+1}).T^n
 $$
 $$
-P_{\mathrm{Ker}(\varphi)} = \sum_{n \in \mathbf{Z}} \long_A(\mathrm{Ker}(\varphi_n)).T^n ,
+P_{\mathrm{Ker}(\varphi)} = \sum_{n \in \mathbf{Z}} \operatorname{long}_A(\mathrm{Ker}(\varphi_n)).T^n ,
 $$
 
 on a les inégalités

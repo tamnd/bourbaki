@@ -282,7 +282,7 @@ A subset $ A $ of a topological space $ X $ is said to be dense in $ X $ (or sim
 
 #### Example {#top-i-s1-n6-exa-1 .statement}
 
-\* We shall see in Chapter IV, § 1 that the set of rational numbers and its complement are dense on the real line. \*
+* We shall see in Chapter IV, § 1 that the set of rational numbers and its complement are dense on the real line. *
 In a discrete space $ X $ the only dense subset of $ X $ is $ X $ itself. On the other hand, every non-empty subset of $ X $ is dense in the topology on $ X $ for which the only open sets are $ \varnothing $ and $ X $.
 
 #### Proposition 6 {#top-i-s1-prop-6 .statement}

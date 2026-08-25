@@ -677,7 +677,7 @@ Since $ \mathcal{K}(X; \mathbf{C}) $ is a barreled space (No. 1, Prop. 2), the e
 
 It is clear that d) implies a). Finally, if $ H $ is equicontinuous then the set of restrictions of the measures $ \mu \in H $ to $ \mathcal{K}(X, K; \mathbf{C}) $ is also equicontinuous, whence the condition d), since $ \mathcal{K}(X, K; \mathbf{C}) $ is a normed space.
 
-\* We shall see in Ch. IV, §4, No. 6 that the conditions of Proposition 15 are also equivalent to the condition that, for every compact subset $ K $ of $ X $, there exists a constant $ M_K $ such that $ |\mu|(K) \leq M_K $ for every measure $ \mu \in H $.*
+* We shall see in Ch. IV, §4, No. 6 that the conditions of Proposition 15 are also equivalent to the condition that, for every compact subset $ K $ of $ X $, there exists a constant $ M_K $ such that $ |\mu|(K) \leq M_K $ for every measure $ \mu \in H $.*
 
 #### Corollary 1 {#int-iii-s1-prop-15-cor-1 .statement}
 

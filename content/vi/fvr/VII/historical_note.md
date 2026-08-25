@@ -139,7 +139,6 @@ U_\lambda^\xi(f(\xi)): 290
 
 Mục tra cứu
 
-wlog\indfile=\read1
 Kề thêm một nghiệm của một đa thức, của một nguyên hàm, của một hàm mũ của một nguyên hàm, vào một trường vi phân, 121
 Liên hợp (phương trình) của một phương trình vi phân tuyến tính, 186
 Các đa thức Appell, 272

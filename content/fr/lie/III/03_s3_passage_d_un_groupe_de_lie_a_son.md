@@ -1023,10 +1023,10 @@ $$
 Faisons le calcul pour $ n = 2 $ par exemple. On a
 
 $$
-(L(\pi)a)(x_1 x_2) = \langle a, g \mapsto \pi(g)(x_1 x_2) \rangle \tag{prop. 38} \\
+(L(\pi)a)(x_1 x_2) = \langle a, g \mapsto \pi(g)(x_1 x_2) \rangle \quad \text{(prop. 38)} \\
 = \langle a, (g \mapsto \pi_1(g)x_1)(g \mapsto \pi_2(g)x_2) \rangle \\
-= \langle a, g \mapsto \pi_1(g)x_1 \rangle . x_2 + x_1 . \langle a, g \mapsto \pi_2(g)x_2 \rangle \tag{VAR, R, 5.5.6} \\
-= ((L(\pi_1)a)x_1) . x_2 + x_1 . ((L(\pi_2)a)x_2) \tag{prop. 38}.
+= \langle a, g \mapsto \pi_1(g)x_1 \rangle . x_2 + x_1 . \langle a, g \mapsto \pi_2(g)x_2 \rangle \quad \text{(VAR, R, 5.5.6)} \\
+= ((L(\pi_1)a)x_1) . x_2 + x_1 . ((L(\pi_2)a)x_2) \quad \text{(prop. 38)}.
 $$
 
 $$

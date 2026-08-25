@@ -448,7 +448,7 @@ u \perp x, i'(u): III, § 11, no. 7.
 G_p(E), G_{n,p}(K): III, § 11, no. 13.
 a(x, y, z): III, Appendix, no. 1.
 ME: III, § 2, Exercise 13.
-E \* F: III, § 5, Exercise 6.
+E * F: III, § 5, Exercise 6.
 R[a]: III, § 6, Exercise 4.
 K[X; \sigma, d]: III, § 10, Exercise 3.
 \tilde{X}: III, § 11, Exercise 9.

@@ -356,7 +356,7 @@ We keep the notation and hypotheses of no. 2. We shall say that a property holds
 
 (ii) *Conversely, suppose given for all* $ p \in P $ *a lattice* $ N(p) $ *of V with respect to A, such that* $ N(p) = M_p $ *for almost all* $ p \in P $. *Then* $ N = \bigcap N(p) $ *is a reflexive lattice of A with respect to A and it is the only reflexive lattice* $ N' $ *of V with respect to A such that* $ N'_p = N(p) $ *for all* $ p \in P $.
 
-(i) The first assertion follows from no. 1, Proposition 4. Moreover, there exist $ x, y $ in $ \mathbf{K}^* $ such that $ xN \subset M \subset yN $ (no. 1, Proposition 2); we know that, for almost all $ p \in P, v_p(x) = v_p(y) = 0 $ ($ \S 1 $, no. 6, Theorem 4), which shows that $ x $ and $ y $ are invertible in $ A $, and hence $ M_ = N_p $.
+(i) The first assertion follows from no. 1, Proposition 4. Moreover, there exist $ x, y $ in $ \mathbf{K}^* $ such that $ xN \subset M \subset yN $ (no. 1, Proposition 2); we know that, for almost all $ p \in P, v_p(x) = v_p(y) = 0 $ ($ \S 1 $, no. 6, Theorem 4), which shows that $ x $ and $ y $ are invertible in $ A $, and hence $ M_p = N_p $.
 
 (ii) We may replace $ M $ by $ x^{-1}M $ where $ x \neq 0 $ in $ A $ and assume that $ N(p) \subset M $, for all $ p \in P $. Let $ p_1, \ldots, p_h $ be the elements of $ P $ such that $ N(p) = M $, for $ p $ distinct from the $ p_i $ ($ 1 \leq i \leq h $); we write:
 
@@ -390,7 +390,7 @@ $$
 N = Q^{**} = \bigcap_{p \in P} Q_p
 $$
 
-is reflexive and satisfies the relations $ N_ = Q_ = N(p) $ for all $ p \in P $; the uniqueness property follows immediately from Theorem 2 of no. 2.
+is reflexive and satisfies the relations $ N_p = Q_p = N(p) $ for all $ p \in P $; the uniqueness property follows immediately from Theorem 2 of no. 2.
 
 #### Remark {#ac-vii-s4-n3-rem-1 .statement}
 

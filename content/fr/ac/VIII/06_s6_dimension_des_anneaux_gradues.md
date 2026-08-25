@@ -71,8 +71,8 @@ Dans ce numéro, nous noterons dimgr(H) la borne supérieure des longueurs des c
 
 #### Proposition 2 {#ac-viii-s6-prop-2 .statement}
 
-a) On a $ \dimgr(H) \leq \dim(S^{-1}H) \leq \dim(H) $.
-b) Pour tout idéal premier gradué $ p $ de $ H $, on a $ \htgr(p) \leq \ht(S^{-1}p) = \ht(p) $.
+a) On a $ \dim_{\mathrm{gr}}(H) \leq \dim(S^{-1}H) \leq \dim(H) $.
+b) Pour tout idéal premier gradué $ p $ de $ H $, on a $ \operatorname{ht}_{\mathrm{gr}}(p) \leq \operatorname{ht}(S^{-1}p) = \operatorname{ht}(p) $.
 
 Pour tout idéal $ a $ de $ H $, notons $ a^{\mathrm{gr}} $ le plus grand idéal gradué contenu dans $ a $; on a $ a^{\mathrm{gr}} = \sum_n (a \cap H_n) $.
 

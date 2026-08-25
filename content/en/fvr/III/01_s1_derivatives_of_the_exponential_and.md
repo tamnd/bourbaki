@@ -220,7 +220,7 @@ $$
 Besides the three circular functions $ \cos x $, $ \sin x $ and $ \tan x $ one also uses, in numerical work, the three auxiliary functions: cotangent, secant and cosecant, defined by the formulae
 
 $$
-\cot x = \frac{1}{\tan x}, \qquad \sec x = \frac{1}{\cos x}, \qquad \cosec x = \frac{1}{\sin x}.
+\cot x = \frac{1}{\tan x}, \qquad \sec x = \frac{1}{\cos x}, \qquad \operatorname{cosec} x = \frac{1}{\sin x}.
 $$
 
 Recall (Gen. Top., VIII, p. 109) that the angle corresponding to the base $ 2\pi $ is called the radian.

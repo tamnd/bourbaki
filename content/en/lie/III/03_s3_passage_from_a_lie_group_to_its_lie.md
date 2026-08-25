@@ -406,8 +406,8 @@ Then
 $$
 \begin{align*}
 (t * f)(x) &= \langle \varrho(x)_*(t^\vee), f \rangle \quad \text{(no. 3, Proposition 14 (ii))} \\
-&= \langle t^\vee, f \circ \varrho(x) \rangle \quad \text{(Diff. & Anal. Man., R, 13.2.3)} \\
-&= \langle t, (f \circ \varrho(x))^\vee \rangle \quad \text{(Diff. & Anal. Man., R, 13.2.3)}.
+&= \langle t^\vee, f \circ \varrho(x) \rangle \quad \text{(Diff. \& Anal. Man., R, 13.2.3)} \\
+&= \langle t, (f \circ \varrho(x))^\vee \rangle \quad \text{(Diff. \& Anal. Man., R, 13.2.3)}.
 \end{align*}
 $$
 Note that Definition 3 can also be written in the more symmetric form
@@ -476,7 +476,7 @@ Let $ x \in X $ and let $ \rho(x) $ denote the orbital mapping of $ x $. Then
 $$
 \langle \varepsilon_x, t * (ff') \rangle = \langle t^\vee, (ff') \circ \rho(x) \rangle \quad \text{by (4)} \\
 = \langle t^\vee, (f \circ \rho(x))(f' \circ \rho(x)) \rangle \\
-= \sum_{i=1}^n \langle t_i^\vee, f \circ \rho(x) \rangle \langle t_i'^\vee, f' \circ \rho(x) \rangle \tag{Diff. & Man. Anal., R, 13.5.2} \\
+= \sum_{i=1}^n \langle t_i^\vee, f \circ \rho(x) \rangle \langle t_i'^\vee, f' \circ \rho(x) \rangle \tag{Diff. \& Man. Anal., R, 13.5.2} \\
 = \sum_{i=1}^n \langle \varepsilon_x, t_i * f \rangle \langle \varepsilon_x, t_i' * f' \rangle \quad \text{by (4).}
 $$
 
@@ -499,8 +499,12 @@ f * \varepsilon_g = \delta(g)^{-1} f.
 $$
 Propositions 17, 18, 19 become, in the obvious notation,
 $$
-\langle t', f * t \rangle = \langle t' * t^\vee, f \rangle \tag{11} \\
-f * (t * t') = (f * t) * t' \tag{12} \\
+\langle t', f * t \rangle = \langle t' * t^\vee, f \rangle \tag{11}
+$$
+$$
+f * (t * t') = (f * t) * t' \tag{12}
+$$
+$$
 (ff') * t = \sum_{i=1}^n (f * t_i)(f' * t_i') \tag{13}
 $$
 
@@ -573,8 +577,8 @@ The value of this transform at $ gx $ is
 $$
 \begin{align*}
 \tau(g)_*(D_t(x)) &= \tau(g)_*(t * \varepsilon_x) \\
-&= \varepsilon_g * (t * \varepsilon_x) \tag{Proposition 14 (i)} \\
-&= (\varepsilon_g * t * \varepsilon_g^{-1}) * \varepsilon_{gx} \tag{Propositions 1 and 2} \\
+&= \varepsilon_g * (t * \varepsilon_x) \quad \text{(Proposition 14 (i))} \\
+&= (\varepsilon_g * t * \varepsilon_g^{-1}) * \varepsilon_{gx} \quad \text{(Propositions 1 and 2)} \\
 &= D_{\varepsilon_g * t * \varepsilon_g^{-1}}(gx).
 \end{align*}
 $$
@@ -797,7 +801,7 @@ Suppose that $ r \geqslant 2 $. Let $ a, b $ be in $ L(G) $ and $ f $ be a funct
 $$
 \begin{align*}
 D_{[a, b]}f &= D_b(D_a f) - D_a(D_b f) \quad \text{by (17)} \\
-&= [D_b, D_a]f \tag{Diff. & Anal. Man., R, 8.5.3}.
+&= [D_b, D_a]f \tag{Diff. \& Anal. Man., R, 8.5.3}.
 \end{align*}
 $$
 Let $ x \in X $. By taking $ f $ to be a chart on an open neighbourhood of $ x $, it follows that $ D_{[a, b]}(x) = [D_b, D_a](x) $, whence (iii). The argument is similar if $ G $ operates on $ X $ on the right.
@@ -936,7 +940,7 @@ Let $ i $ be the identity mapping of $ A^* $ into $ A $. Then, for all $ t \in \
 $$
 \begin{align*}
 \phi'(t) &= \langle t, \phi \rangle = \langle t, i \circ \phi \rangle \\
-&= \langle \phi_*(t), i \rangle \quad \text{(Diff. & Anal. Man., R, 13.2.3)}.
+&= \langle \phi_*(t), i \rangle \quad \text{(Diff. \& Anal. Man., R, 13.2.3)}.
 \end{align*}
 $$
 
@@ -1253,7 +1257,7 @@ for all $ t, t' $ in $ \mathcal{T}^{(\infty)}(G) $; this follows from Propositio
 
 *Let $ t, u $ be in $ \mathcal{T}^{(\infty)}(G) $. Let $ \sum_{i=1}^n t_i \otimes t'_i $ be the image of $ t $ under the coproduct. Then*
 $$
-t \top u = \sum_{i=1}^n t_i * u * t'_i^\vee.
+t \top u = \sum_{i=1}^n t_i * u * {t'_i}^\vee.
 $$
 
 By definition, $ t \top u $ is the image of $ t \otimes u $ under the mapping $ (g, g') \mapsto gg'g^{-1} $ of $ G \times G $ into $ G $. Now this mapping is obtained by composing the following mappings:
@@ -1269,8 +1273,8 @@ On the other hand:
 $$
 \begin{aligned}
 \alpha_*(t \otimes u) &= \sum_{i=1}^n (t_i \otimes t'_i) \otimes u = \sum_{i=1}^n t_i \otimes t'_i \otimes u \\
-\beta_* \left( \sum_{i=1}^n t_i \otimes t'_i \otimes u \right) &= \sum_{i=1}^n t_i \otimes t'_i^\vee \otimes u \\
-\gamma_* \left( \sum_{i=1}^n t_i \otimes t'_i^\vee \otimes u \right) &= \sum_{i=1}^n t_i * u * t'_i^\vee.
+\beta_* \left( \sum_{i=1}^n t_i \otimes t'_i \otimes u \right) &= \sum_{i=1}^n t_i \otimes {t'_i}^\vee \otimes u \\
+\gamma_* \left( \sum_{i=1}^n t_i \otimes {t'_i}^\vee \otimes u \right) &= \sum_{i=1}^n t_i * u * {t'_i}^\vee.
 \end{aligned}
 $$
 

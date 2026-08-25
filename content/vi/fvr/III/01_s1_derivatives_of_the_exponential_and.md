@@ -227,7 +227,7 @@ $$
 Ngoài ba hàm lượng giác $ \cos x $, $ \sin x $ và $ \tan x $ ra, trong tính toán số người ta còn dùng ba hàm phụ: cotang, sec và cosec, được định nghĩa bởi các công thức
 
 $$
-\cot x = \frac{1}{\tan x}, \qquad \sec x = \frac{1}{\cos x}, \qquad \cosec x = \frac{1}{\sin x}.
+\cot x = \frac{1}{\tan x}, \qquad \sec x = \frac{1}{\cos x}, \qquad \operatorname{cosec} x = \frac{1}{\sin x}.
 $$
 
 Xin nhắc lại (Gen. Top., VIII, p. 109) rằng góc tương ứng với cơ sở $ 2\pi $ được gọi là rađian.
