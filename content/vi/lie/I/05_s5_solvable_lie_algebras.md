@@ -236,11 +236,11 @@ Tồn tại một đa thức P không có số hạng hằng và có các hệ s
 
 *Cho g là một đại số Lie, M là một không gian vectơ hữu hạn chiều, ρ là một biểu diễn của g trên M và β là dạng song tuyến tính trên g liên kết với ρ. Khi đó ρ(g) giải được khi và chỉ khi 𝒟g trực giao với g đối với β.*
 
-Hiển nhiên có thể quy về trường hợp g là một đại số con Lie của $\mathfrak{gl}(M)$ và ρ là ánh xạ đồng nhất. Nếu g giải được, 𝒟g được chứa trong iđêan lũy linh lớn nhất của biểu diễn đồng nhất của g (Định lý 1) và do đó trực giao với g đối với β (§ 4, Mệnh đề 4 (d)). Giả sử rằng 𝒟g trực giao với g đối với β. Ta chứng minh rằng g giải được. Gọi T là tập hợp các $t \in \mathfrak{gl}(M)$ sao cho $[t, g] \subset 𝒟g$. Nếu $t \in T$ và x, y thuộc g, thì $[t, x] \in 𝒟g$ và do đó
+Hiển nhiên có thể quy về trường hợp g là một đại số con Lie của $\mathfrak{gl}(M)$ và ρ là ánh xạ đồng nhất. Nếu g giải được, 𝒟g được chứa trong iđêan lũy linh lớn nhất của biểu diễn đồng nhất của g (Định lý 1) và do đó trực giao với g đối với β (§ 4, Mệnh đề 4 (d)). Giả sử rằng 𝒟g trực giao với g đối với β. Ta chứng minh rằng g giải được. Gọi T là tập hợp các $t \in \mathfrak{gl}(M)$ sao cho $[t, g] \subset \mathscr{D}g$. Nếu $t \in T$ và x, y thuộc g, thì $[t, x] \in \mathscr{D}g$ và do đó
 $$
 \mathrm{Tr}(t[x, y]) = \beta([t, x], y) = 0
 $$
-do đó, theo tính tuyến tính, $\mathrm{Tr}(tu) = 0$ với mọi $u \in 𝒟g$. Hơn nữa, rõ ràng $𝒟g \subset T$. Vậy nên (Bổ đề 3) mọi phần tử của 𝒟g đều lũy linh. Suy ra 𝒟g là lũy linh (§ 4, Hệ quả 3 của Định lý 1) và vì thế g giải được (no. 3, Hệ quả 5 của Định lý 1).
+do đó, theo tính tuyến tính, $\mathrm{Tr}(tu) = 0$ với mọi $u \in \mathscr{D}g$. Hơn nữa, rõ ràng $\mathscr{D}g \subset T$. Vậy nên (Bổ đề 3) mọi phần tử của 𝒟g đều lũy linh. Suy ra 𝒟g là lũy linh (§ 4, Hệ quả 3 của Định lý 1) và vì thế g giải được (no. 3, Hệ quả 5 của Định lý 1).
 
 ### 5. CÁC TÍNH CHẤT BỔ SUNG CỦA CĂN
 
@@ -249,7 +249,7 @@ do đó, theo tính tuyến tính, $\mathrm{Tr}(tu) = 0$ với mọi $u \in 𝒟
 *Cho g là một đại số Lie và r là căn của nó.*
 (a) *Nếu ρ là một biểu diễn hữu hạn chiều của g và β là dạng song tuyến tính liên kết, thì r và 𝒟g trực giao đối với β.*
 (b) *r là trực giao của 𝒟g đối với dạng Killing.*
-Cho x, y thuộc g, $z \in r$. Khi đó $[y, z] \in 𝒟g \cap r$ và do đó
+Cho x, y thuộc g, $z \in r$. Khi đó $[y, z] \in \mathscr{D}g \cap r$ và do đó
 $$
 \beta([x, y], z) = \beta(x, [y, z]) = 0
 $$

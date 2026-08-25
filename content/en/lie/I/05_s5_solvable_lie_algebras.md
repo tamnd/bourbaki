@@ -229,11 +229,11 @@ There exists a polynomial P with no constant term and with coefficients in K suc
 
 *Let g be a Lie algebra, M a finite-dimensional vector space, ρ a representation of g on M and β the bilinear form on g associated with ρ. Then ρ(g) is solvable if and only if 𝒟g is orthogonal to g with respect to β.*
 
-It can obviously be reduced to the case where g is a Lie subalgebra of $\mathfrak{gl}(M)$ and ρ is the identity mapping. If g is solvable, 𝒟g is contained in the largest nilpotency ideal of the identity representation of g (Theorem 1) and hence is orthogonal to g with respect to β (§ 4, Proposition 4 (d)). Suppose that 𝒟g is orthogonal to g with respect to β. We prove that g is solvable. Let T be the set of $t \in \mathfrak{gl}(M)$ such that $[t, g] \subset 𝒟g$. If $t \in T$ and x, y belong to g, then $[t, x] \in 𝒟g$ and hence
+It can obviously be reduced to the case where g is a Lie subalgebra of $\mathfrak{gl}(M)$ and ρ is the identity mapping. If g is solvable, 𝒟g is contained in the largest nilpotency ideal of the identity representation of g (Theorem 1) and hence is orthogonal to g with respect to β (§ 4, Proposition 4 (d)). Suppose that 𝒟g is orthogonal to g with respect to β. We prove that g is solvable. Let T be the set of $t \in \mathfrak{gl}(M)$ such that $[t, g] \subset \mathscr{D}g$. If $t \in T$ and x, y belong to g, then $[t, x] \in \mathscr{D}g$ and hence
 $$
 \mathrm{Tr}(t[x, y]) = \beta([t, x], y) = 0
 $$
-whence by linearity $\mathrm{Tr}(tu) = 0$ for all $u \in 𝒟g$. Also, clearly $𝒟g \subset T$. Hence (Lemma 3) every element of 𝒟g is nilpotent. It follows that 𝒟g is nilpotent (§ 4, Corollary 3 to Theorem 1) and hence that g is solvable (no. 3, Corollary 5 to Theorem 1).
+whence by linearity $\mathrm{Tr}(tu) = 0$ for all $u \in \mathscr{D}g$. Also, clearly $\mathscr{D}g \subset T$. Hence (Lemma 3) every element of 𝒟g is nilpotent. It follows that 𝒟g is nilpotent (§ 4, Corollary 3 to Theorem 1) and hence that g is solvable (no. 3, Corollary 5 to Theorem 1).
 
 ### 5. FURTHER PROPERTIES OF THE RADICAL
 
@@ -242,7 +242,7 @@ whence by linearity $\mathrm{Tr}(tu) = 0$ for all $u \in 𝒟g$. Also, clearly $
 *Let g be a Lie algebra and r its radical.*
 (a) *If ρ is a finite-dimensional representation of g and β is the associated bilinear form, r and 𝒟g are orthogonal with respect to β.*
 (b) *r is the orthogonal of 𝒟g with respect to the Killing form.*
-Let x, y be in g, $z \in r$. Then $[y, z] \in 𝒟g \cap r$ and hence
+Let x, y be in g, $z \in r$. Then $[y, z] \in \mathscr{D}g \cap r$ and hence
 $$
 \beta([x, y], z) = \beta(x, [y, z]) = 0
 $$
