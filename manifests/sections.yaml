@@ -419,7 +419,7 @@ books:
               statements: 43
               exercises: 8
               extraction: native+ocr
-              content_sha256: a0d3722e19f6e8d76a5199d17801f010b5d51c55605ae7f5c68991a91330a6a5
+              content_sha256: 6e05792b2214752bac76957290949c9823f6adeb55394696eaca8f1ac8da7073
             - kind: section
               section: 5
               title: Commutation
@@ -445,7 +445,7 @@ books:
               statements: 41
               exercises: 8
               extraction: native+ocr
-              content_sha256: 4a0d490ac71ba13aa7d7e670ecb4d4b3c066e7a65d2da8fe78c3045c1efc39cc
+              content_sha256: b680f2531b7e1b4e3afb5a63956d99d5c45a767b29095796f32a5b31f3e382d3
             - kind: section
               section: 7
               title: Anneaux simples
@@ -510,7 +510,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native+ocr
-              content_sha256: d133e481f9f054aabb145b8b7482a5f59023c5d714ecacb9dee3b33c28c75246
+              content_sha256: 9cfc54fc3fd0d895b609ce67acdf312a766719407e25832b00a0c808df62b15d
             - kind: section
               section: 12
               title: Produit tensoriel de modules semi-simples
@@ -536,7 +536,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native+ocr
-              content_sha256: 3371ea4fa47ef0e515869cde5b968176aadeaa7bf7a2b12eba398feeb2deef33
+              content_sha256: 69ef354b36df371c66828c6697791beb8ef7b87a519d89572e110234691e3e5a
             - kind: section
               section: 14
               title: Algèbres centrales et simples
@@ -575,7 +575,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native+ocr
-              content_sha256: 7bef07b603e275b98574558d7e36658d7613d393b13d03f70c23f454fdcd8bb2
+              content_sha256: 3c248d2a6ca45b7bb1651b1e348b4218cf35d1e3276f3c2d57f97d2a870fce4e
             - kind: section
               section: 17
               title: Normes et traces réduites
@@ -627,7 +627,7 @@ books:
               statements: 31
               exercises: 6
               extraction: native+ocr
-              content_sha256: 069a57168f07eea6470f375f1a3b14c29d0c949e2d3cdf174e1d96f8ff5a08d4
+              content_sha256: 6b6a3fcc1367884e222facdc7b5955872c0e3ce3d817b93d3cd1412552189ccb
             - kind: section
               section: 21
               title: Représentations linéaires des groupes finis
@@ -640,7 +640,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native+ocr
-              content_sha256: dff9089017b540b284918ab5dccce0352cc17f8f50ae03ba3aa2c01d003b7261
+              content_sha256: 692b3f06ebc01094693d33e98fd6235c750ba9641a70c723d36576762aeaedf2
             - kind: appendix
               section: 1
               title: Algèbres sans élément unité
